@@ -199,13 +199,14 @@ RecountPerCharDB = {
 					},
 					["DeathCount"] = 0,
 					["HOT_Time"] = 0,
-					["HOTs"] = {
-					},
+					["DOT_Time"] = 0,
 					["ManaGain"] = 0,
 					["ElementTaken"] = {
 					},
-					["DOT_Time"] = 0,
-					["Damage"] = 0,
+					["HOTs"] = {
+					},
+					["ElementTakenBlock"] = {
+					},
 					["ElementDoneAbsorb"] = {
 					},
 					["TimeHeal"] = 0,
@@ -223,7 +224,7 @@ RecountPerCharDB = {
 					},
 					["ManaGainedFrom"] = {
 					},
-					["ElementHitsDone"] = {
+					["DamagedWho"] = {
 					},
 					["RageGained"] = {
 					},
@@ -231,29 +232,28 @@ RecountPerCharDB = {
 					},
 					["EnergyGainedFrom"] = {
 					},
-					["Dispelled"] = 0,
-					["RunicPowerGained"] = {
+					["OverHeals"] = {
+					},
+					["CCBroken"] = {
 					},
 					["ElementDoneBlock"] = {
 					},
 					["TimeHealing"] = {
 					},
-					["OverHeals"] = {
-					},
+					["Dispelled"] = 0,
 					["WhoHealed"] = {
 					},
-					["EnergyGain"] = 0,
-					["CCBreak"] = 0,
-					["PartialAbsorb"] = {
-					},
-					["ActiveTime"] = 0,
 					["PartialResist"] = {
 					},
+					["CCBreak"] = 0,
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["EnergyGain"] = 0,
 					["ManaGained"] = {
 					},
 					["ElementTakenAbsorb"] = {
 					},
-					["Interrupts"] = 0,
+					["ActiveTime"] = 0,
 					["Overhealing"] = 0,
 					["ElementTakenResist"] = {
 					},
@@ -265,27 +265,27 @@ RecountPerCharDB = {
 					},
 					["Heals"] = {
 					},
-					["FDamage"] = 0,
+					["PartialAbsorb"] = {
+					},
 					["EnergyGained"] = {
 					},
 					["HealedWho"] = {
 					},
 					["Healing"] = 0,
-					["RunicPowerGainedFrom"] = {
+					["RunicPowerGained"] = {
 					},
-					["CCBroken"] = {
+					["RunicPowerGainedFrom"] = {
 					},
 					["Attacks"] = {
 					},
 					["HealingTaken"] = 0,
-					["DamagedWho"] = {
+					["ElementHitsDone"] = {
 					},
 					["TimeDamage"] = 0,
 					["TimeDamaging"] = {
 					},
 					["RunicPowerGain"] = 0,
-					["ElementTakenBlock"] = {
-					},
+					["Damage"] = 0,
 					["DispelledWho"] = {
 					},
 				},
@@ -302,13 +302,14 @@ RecountPerCharDB = {
 					},
 					["DeathCount"] = 0,
 					["HOT_Time"] = 0,
-					["HOTs"] = {
-					},
+					["DOT_Time"] = 0,
 					["ManaGain"] = 0,
 					["ElementTaken"] = {
 					},
-					["DOT_Time"] = 0,
-					["Damage"] = 0,
+					["HOTs"] = {
+					},
+					["ElementTakenBlock"] = {
+					},
 					["ElementDoneAbsorb"] = {
 					},
 					["TimeHeal"] = 0,
@@ -326,7 +327,7 @@ RecountPerCharDB = {
 					},
 					["ManaGainedFrom"] = {
 					},
-					["ElementHitsDone"] = {
+					["DamagedWho"] = {
 					},
 					["RageGained"] = {
 					},
@@ -334,29 +335,28 @@ RecountPerCharDB = {
 					},
 					["EnergyGainedFrom"] = {
 					},
-					["Dispelled"] = 0,
-					["RunicPowerGained"] = {
+					["OverHeals"] = {
+					},
+					["CCBroken"] = {
 					},
 					["ElementDoneBlock"] = {
 					},
 					["TimeHealing"] = {
 					},
-					["OverHeals"] = {
-					},
+					["Dispelled"] = 0,
 					["WhoHealed"] = {
 					},
-					["EnergyGain"] = 0,
-					["CCBreak"] = 0,
-					["PartialAbsorb"] = {
-					},
-					["ActiveTime"] = 0,
 					["PartialResist"] = {
 					},
+					["CCBreak"] = 0,
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["EnergyGain"] = 0,
 					["ManaGained"] = {
 					},
 					["ElementTakenAbsorb"] = {
 					},
-					["Interrupts"] = 0,
+					["ActiveTime"] = 0,
 					["Overhealing"] = 0,
 					["ElementTakenResist"] = {
 					},
@@ -368,27 +368,27 @@ RecountPerCharDB = {
 					},
 					["Heals"] = {
 					},
-					["FDamage"] = 0,
+					["PartialAbsorb"] = {
+					},
 					["EnergyGained"] = {
 					},
 					["HealedWho"] = {
 					},
 					["Healing"] = 0,
-					["RunicPowerGainedFrom"] = {
+					["RunicPowerGained"] = {
 					},
-					["CCBroken"] = {
+					["RunicPowerGainedFrom"] = {
 					},
 					["Attacks"] = {
 					},
 					["HealingTaken"] = 0,
-					["DamagedWho"] = {
+					["ElementHitsDone"] = {
 					},
 					["TimeDamage"] = 0,
 					["TimeDamaging"] = {
 					},
 					["RunicPowerGain"] = 0,
-					["ElementTakenBlock"] = {
-					},
+					["Damage"] = 0,
 					["DispelledWho"] = {
 					},
 				},
@@ -648,18 +648,6 @@ RecountPerCharDB = {
 							["count"] = 1,
 							["amount"] = 0,
 						},
-						["Deep Wounds (DoT)"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 29,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 29,
-							["amount"] = 0,
-						},
 						["Melee"] = {
 							["Details"] = {
 								["No Resist"] = {
@@ -672,16 +660,28 @@ RecountPerCharDB = {
 							["count"] = 54,
 							["amount"] = 0,
 						},
-						["Fire Shield"] = {
+						["Deep Wounds (DoT)"] = {
 							["Details"] = {
 								["No Resist"] = {
 									["max"] = 0,
 									["min"] = 0,
-									["count"] = 8,
+									["count"] = 29,
 									["amount"] = 0,
 								},
 							},
-							["count"] = 8,
+							["count"] = 29,
+							["amount"] = 0,
+						},
+						["Sinister Strike"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 9,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 9,
 							["amount"] = 0,
 						},
 						["Incinerate"] = {
@@ -720,16 +720,16 @@ RecountPerCharDB = {
 							["count"] = 7,
 							["amount"] = 0,
 						},
-						["Sinister Strike"] = {
+						["Fire Shield"] = {
 							["Details"] = {
 								["No Resist"] = {
 									["max"] = 0,
 									["min"] = 0,
-									["count"] = 9,
+									["count"] = 8,
 									["amount"] = 0,
 								},
 							},
-							["count"] = 9,
+							["count"] = 8,
 							["amount"] = 0,
 						},
 						["Melee (Hack and Slash)"] = {
@@ -1011,18 +1011,6 @@ RecountPerCharDB = {
 							["count"] = 1,
 							["amount"] = 0,
 						},
-						["Deep Wounds (DoT)"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 29,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 29,
-							["amount"] = 0,
-						},
 						["Melee"] = {
 							["Details"] = {
 								["No Absorb"] = {
@@ -1035,16 +1023,28 @@ RecountPerCharDB = {
 							["count"] = 54,
 							["amount"] = 0,
 						},
-						["Fire Shield"] = {
+						["Deep Wounds (DoT)"] = {
 							["Details"] = {
 								["No Absorb"] = {
 									["max"] = 0,
 									["min"] = 0,
-									["count"] = 8,
+									["count"] = 29,
 									["amount"] = 0,
 								},
 							},
-							["count"] = 8,
+							["count"] = 29,
+							["amount"] = 0,
+						},
+						["Sinister Strike"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 9,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 9,
 							["amount"] = 0,
 						},
 						["Incinerate"] = {
@@ -1071,16 +1071,16 @@ RecountPerCharDB = {
 							["count"] = 7,
 							["amount"] = 0,
 						},
-						["Sinister Strike"] = {
+						["Fire Shield"] = {
 							["Details"] = {
 								["No Absorb"] = {
 									["max"] = 0,
 									["min"] = 0,
-									["count"] = 9,
+									["count"] = 8,
 									["amount"] = 0,
 								},
 							},
-							["count"] = 9,
+							["count"] = 8,
 							["amount"] = 0,
 						},
 						["Melee (Hack and Slash)"] = {
@@ -1399,6 +1399,102 @@ RecountPerCharDB = {
 						},
 					},
 					["TimeDamage"] = 29.6,
+					["TimeDamaging"] = {
+						["Ninimagic"] = {
+							["Details"] = {
+								["Consume"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Subzeroh"] = {
+							["Details"] = {
+								["Consume"] = {
+									["count"] = 0.48,
+								},
+							},
+							["amount"] = 0.48,
+						},
+						["Flemaz"] = {
+							["Details"] = {
+								["Crush"] = {
+									["count"] = 2.07,
+								},
+								["Melee"] = {
+									["count"] = 27.05,
+								},
+								["Consume"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 29.12,
+						},
+						["Chalysg"] = {
+							["Details"] = {
+								["Consume"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Rimgar"] = {
+							["Details"] = {
+								["Consume"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["DamagedWho"] = {
+						["Ninimagic"] = {
+							["Details"] = {
+								["Consume"] = {
+									["count"] = 5187,
+								},
+							},
+							["amount"] = 5187,
+						},
+						["Subzeroh"] = {
+							["Details"] = {
+								["Consume"] = {
+									["count"] = 5024,
+								},
+							},
+							["amount"] = 5024,
+						},
+						["Flemaz"] = {
+							["Details"] = {
+								["Crush"] = {
+									["count"] = 5538,
+								},
+								["Consume"] = {
+									["count"] = 4001,
+								},
+								["Melee"] = {
+									["count"] = 19642,
+								},
+							},
+							["amount"] = 29181,
+						},
+						["Chalysg"] = {
+							["Details"] = {
+								["Consume"] = {
+									["count"] = 4776,
+								},
+							},
+							["amount"] = 4776,
+						},
+						["Rimgar"] = {
+							["Details"] = {
+								["Consume"] = {
+									["count"] = 4004,
+								},
+							},
+							["amount"] = 4004,
+						},
+					},
 					["WhoDamaged"] = {
 						["Ninimagic"] = {
 							["Details"] = {
@@ -1519,102 +1615,6 @@ RecountPerCharDB = {
 								},
 							},
 							["amount"] = 193938,
-						},
-					},
-					["DamagedWho"] = {
-						["Ninimagic"] = {
-							["Details"] = {
-								["Consume"] = {
-									["count"] = 5187,
-								},
-							},
-							["amount"] = 5187,
-						},
-						["Subzeroh"] = {
-							["Details"] = {
-								["Consume"] = {
-									["count"] = 5024,
-								},
-							},
-							["amount"] = 5024,
-						},
-						["Flemaz"] = {
-							["Details"] = {
-								["Crush"] = {
-									["count"] = 5538,
-								},
-								["Consume"] = {
-									["count"] = 4001,
-								},
-								["Melee"] = {
-									["count"] = 19642,
-								},
-							},
-							["amount"] = 29181,
-						},
-						["Chalysg"] = {
-							["Details"] = {
-								["Consume"] = {
-									["count"] = 4776,
-								},
-							},
-							["amount"] = 4776,
-						},
-						["Rimgar"] = {
-							["Details"] = {
-								["Consume"] = {
-									["count"] = 4004,
-								},
-							},
-							["amount"] = 4004,
-						},
-					},
-					["TimeDamaging"] = {
-						["Ninimagic"] = {
-							["Details"] = {
-								["Consume"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Subzeroh"] = {
-							["Details"] = {
-								["Consume"] = {
-									["count"] = 0.48,
-								},
-							},
-							["amount"] = 0.48,
-						},
-						["Flemaz"] = {
-							["Details"] = {
-								["Crush"] = {
-									["count"] = 2.07,
-								},
-								["Melee"] = {
-									["count"] = 27.05,
-								},
-								["Consume"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 29.12,
-						},
-						["Chalysg"] = {
-							["Details"] = {
-								["Consume"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Rimgar"] = {
-							["Details"] = {
-								["Consume"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
 						},
 					},
 					["ElementTakenBlock"] = {
@@ -2212,7 +2212,7 @@ RecountPerCharDB = {
 				1823810.432, -- [49]
 				1823810.581, -- [50]
 			},
-			["LastAbility"] = 27999.068,
+			["LastAbility"] = 1053.213,
 		},
 		["Subzeroh"] = {
 			["GUID"] = "0x07000000004D47E1",
@@ -2334,17 +2334,17 @@ RecountPerCharDB = {
 				["DamageTaken"] = {
 					43238, -- [1]
 				},
+				["HOT_Time"] = {
+					312, -- [1]
+				},
 				["Overhealing"] = {
 					81835, -- [1]
-				},
-				["FDamage"] = {
-					7076, -- [1]
 				},
 				["HealingTaken"] = {
 					100641, -- [1]
 				},
-				["HOT_Time"] = {
-					312, -- [1]
+				["FDamage"] = {
+					7076, -- [1]
 				},
 				["ActiveTime"] = {
 					371.8300000000002, -- [1]
@@ -2448,14 +2448,6 @@ RecountPerCharDB = {
 							},
 							["amount"] = 36,
 						},
-						["Hellfire (DoT)"] = {
-							["Details"] = {
-								["Subzeroh"] = {
-									["count"] = 30,
-								},
-							},
-							["amount"] = 30,
-						},
 						["Immolate (DoT)"] = {
 							["Details"] = {
 								["Wretched Belcher"] = {
@@ -2484,6 +2476,14 @@ RecountPerCharDB = {
 								},
 							},
 							["amount"] = 84,
+						},
+						["Hellfire (DoT)"] = {
+							["Details"] = {
+								["Subzeroh"] = {
+									["count"] = 30,
+								},
+							},
+							["amount"] = 30,
 						},
 						["Curse of Agony (DoT)"] = {
 							["Details"] = {
@@ -2714,14 +2714,6 @@ RecountPerCharDB = {
 							},
 							["amount"] = 17.97,
 						},
-						["Darkweb Recluse"] = {
-							["Details"] = {
-								["Rain of Fire"] = {
-									["count"] = 3.34,
-								},
-							},
-							["amount"] = 3.34,
-						},
 						["Pigmat <Subzeroh>"] = {
 							["Details"] = {
 								["Fel Synergy"] = {
@@ -2729,6 +2721,32 @@ RecountPerCharDB = {
 								},
 							},
 							["amount"] = 89.75000000000001,
+						},
+						["Risen Drakkari Death Knight"] = {
+							["Details"] = {
+								["Corruption (DoT)"] = {
+									["count"] = 3.06,
+								},
+								["Curse of Agony (DoT)"] = {
+									["count"] = 10.46,
+								},
+								["Soul Fire"] = {
+									["count"] = 1.42,
+								},
+								["Incinerate"] = {
+									["count"] = 1.73,
+								},
+								["Conflagrate (DoT)"] = {
+									["count"] = 2.6,
+								},
+								["Immolate"] = {
+									["count"] = 1.22,
+								},
+								["Conflagrate"] = {
+									["count"] = 1.59,
+								},
+							},
+							["amount"] = 22.08,
 						},
 						["Drakkari Shaman"] = {
 							["Details"] = {
@@ -2775,31 +2793,13 @@ RecountPerCharDB = {
 							},
 							["amount"] = 0,
 						},
-						["Risen Drakkari Death Knight"] = {
+						["Darkweb Recluse"] = {
 							["Details"] = {
-								["Corruption (DoT)"] = {
-									["count"] = 3.06,
-								},
-								["Curse of Agony (DoT)"] = {
-									["count"] = 10.46,
-								},
-								["Soul Fire"] = {
-									["count"] = 1.42,
-								},
-								["Incinerate"] = {
-									["count"] = 1.73,
-								},
-								["Conflagrate (DoT)"] = {
-									["count"] = 2.6,
-								},
-								["Immolate"] = {
-									["count"] = 1.22,
-								},
-								["Conflagrate"] = {
-									["count"] = 1.59,
+								["Rain of Fire"] = {
+									["count"] = 3.34,
 								},
 							},
-							["amount"] = 22.08,
+							["amount"] = 3.34,
 						},
 					},
 					["WhoHealed"] = {
@@ -3012,16 +3012,16 @@ RecountPerCharDB = {
 							["count"] = 1,
 							["amount"] = 0,
 						},
-						["Shadow Volley"] = {
+						["Blood Siphon"] = {
 							["Details"] = {
 								["No Resist"] = {
 									["max"] = 0,
 									["min"] = 0,
-									["count"] = 2,
+									["count"] = 3,
 									["amount"] = 0,
 								},
 							},
-							["count"] = 2,
+							["count"] = 3,
 							["amount"] = 0,
 						},
 						["Poison Spit (DoT)"] = {
@@ -3036,16 +3036,16 @@ RecountPerCharDB = {
 							["count"] = 3,
 							["amount"] = 0,
 						},
-						["Blood Siphon"] = {
+						["Shadow Volley"] = {
 							["Details"] = {
 								["No Resist"] = {
 									["max"] = 0,
 									["min"] = 0,
-									["count"] = 3,
+									["count"] = 2,
 									["amount"] = 0,
 								},
 							},
-							["count"] = 3,
+							["count"] = 2,
 							["amount"] = 0,
 						},
 						["Bile Vomit"] = {
@@ -3128,16 +3128,16 @@ RecountPerCharDB = {
 							["count"] = 1,
 							["amount"] = 0,
 						},
-						["Shadow Volley"] = {
+						["Blood Siphon"] = {
 							["Details"] = {
 								["No Absorb"] = {
 									["max"] = 0,
 									["min"] = 0,
-									["count"] = 2,
+									["count"] = 3,
 									["amount"] = 0,
 								},
 							},
-							["count"] = 2,
+							["count"] = 3,
 							["amount"] = 0,
 						},
 						["Poison Spit (DoT)"] = {
@@ -3152,16 +3152,16 @@ RecountPerCharDB = {
 							["count"] = 3,
 							["amount"] = 0,
 						},
-						["Blood Siphon"] = {
+						["Shadow Volley"] = {
 							["Details"] = {
 								["No Absorb"] = {
 									["max"] = 0,
 									["min"] = 0,
-									["count"] = 3,
+									["count"] = 2,
 									["amount"] = 0,
 								},
 							},
-							["count"] = 3,
+							["count"] = 2,
 							["amount"] = 0,
 						},
 						["Bile Vomit"] = {
@@ -3690,17 +3690,23 @@ RecountPerCharDB = {
 							["count"] = 12,
 							["amount"] = 4524,
 						},
-						["Drain Soul (DoT)"] = {
+						["Soul Fire"] = {
 							["Details"] = {
-								["Tick"] = {
-									["max"] = 3502,
-									["min"] = 3502,
-									["count"] = 1,
-									["amount"] = 3502,
+								["Crit"] = {
+									["max"] = 11481,
+									["min"] = 10044,
+									["count"] = 4,
+									["amount"] = 42043,
+								},
+								["Hit"] = {
+									["max"] = 7013,
+									["min"] = 4961,
+									["count"] = 9,
+									["amount"] = 49707,
 								},
 							},
-							["count"] = 1,
-							["amount"] = 3502,
+							["count"] = 13,
+							["amount"] = 91750,
 						},
 						["Conflagrate"] = {
 							["Details"] = {
@@ -3732,23 +3738,17 @@ RecountPerCharDB = {
 							["count"] = 28,
 							["amount"] = 39670,
 						},
-						["Soul Fire"] = {
+						["Drain Soul (DoT)"] = {
 							["Details"] = {
-								["Crit"] = {
-									["max"] = 11481,
-									["min"] = 10044,
-									["count"] = 4,
-									["amount"] = 42043,
-								},
-								["Hit"] = {
-									["max"] = 7013,
-									["min"] = 4961,
-									["count"] = 9,
-									["amount"] = 49707,
+								["Tick"] = {
+									["max"] = 3502,
+									["min"] = 3502,
+									["count"] = 1,
+									["amount"] = 3502,
 								},
 							},
-							["count"] = 13,
-							["amount"] = 91750,
+							["count"] = 1,
+							["amount"] = 3502,
 						},
 						["Rain of Fire"] = {
 							["Details"] = {
@@ -4119,6 +4119,12 @@ RecountPerCharDB = {
 					},
 					["DeathCount"] = 0,
 					["HOT_Time"] = 21,
+					["DOT_Time"] = 27,
+					["ManaGain"] = 6125,
+					["ElementTaken"] = {
+						["Nature"] = 0,
+						["Shadow"] = 7585,
+					},
 					["HOTs"] = {
 						["Fel Armor"] = {
 							["Details"] = {
@@ -4129,13 +4135,8 @@ RecountPerCharDB = {
 							["amount"] = 21,
 						},
 					},
-					["ManaGain"] = 6125,
-					["ElementTaken"] = {
-						["Nature"] = 0,
-						["Shadow"] = 7585,
+					["ElementTakenBlock"] = {
 					},
-					["DOT_Time"] = 27,
-					["Damage"] = 48705,
 					["ElementDoneAbsorb"] = {
 					},
 					["TimeHeal"] = 28.08,
@@ -4163,28 +4164,56 @@ RecountPerCharDB = {
 							["amount"] = 6125,
 						},
 					},
-					["ElementHitsDone"] = {
-						["Fire"] = {
+					["DamagedWho"] = {
+						["Risen Drakkari Bat Rider"] = {
 							["Details"] = {
-								["Hit"] = {
-									["count"] = 5,
+								["Incinerate"] = {
+									["count"] = 9729,
 								},
-								["Crit"] = {
-									["count"] = 3,
+								["Corruption (DoT)"] = {
+									["count"] = 1235,
 								},
-								["Tick"] = {
-									["count"] = 2,
+								["Immolate"] = {
+									["count"] = 2857,
+								},
+								["Immolate (DoT)"] = {
+									["count"] = 1054,
 								},
 							},
-							["amount"] = 10,
+							["amount"] = 14875,
 						},
-						["Shadow"] = {
+						["Darkweb Hatchling"] = {
 							["Details"] = {
-								["Tick"] = {
-									["count"] = 7,
+								["Rain of Fire"] = {
+									["count"] = 0,
 								},
 							},
-							["amount"] = 7,
+							["amount"] = 0,
+						},
+						["Risen Drakkari Soulmage"] = {
+							["Details"] = {
+								["Corruption (DoT)"] = {
+									["count"] = 3625,
+								},
+								["Immolate (DoT)"] = {
+									["count"] = 1054,
+								},
+								["Immolate"] = {
+									["count"] = 1429,
+								},
+								["Soul Fire"] = {
+									["count"] = 27722,
+								},
+							},
+							["amount"] = 33830,
+						},
+						["Darkweb Recluse"] = {
+							["Details"] = {
+								["Rain of Fire"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
 						},
 					},
 					["RageGained"] = {
@@ -4208,29 +4237,6 @@ RecountPerCharDB = {
 						},
 					},
 					["EnergyGainedFrom"] = {
-					},
-					["Dispelled"] = 0,
-					["RunicPowerGained"] = {
-					},
-					["ElementDoneBlock"] = {
-					},
-					["TimeHealing"] = {
-						["Subzeroh"] = {
-							["Details"] = {
-								["Fel Armor"] = {
-									["count"] = 8.5,
-								},
-							},
-							["amount"] = 8.5,
-						},
-						["Pigmat <Subzeroh>"] = {
-							["Details"] = {
-								["Fel Synergy"] = {
-									["count"] = 19.58,
-								},
-							},
-							["amount"] = 19.58,
-						},
 					},
 					["OverHeals"] = {
 						["Fel Armor"] = {
@@ -4258,6 +4264,29 @@ RecountPerCharDB = {
 							["amount"] = 525,
 						},
 					},
+					["CCBroken"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+						["Subzeroh"] = {
+							["Details"] = {
+								["Fel Armor"] = {
+									["count"] = 8.5,
+								},
+							},
+							["amount"] = 8.5,
+						},
+						["Pigmat <Subzeroh>"] = {
+							["Details"] = {
+								["Fel Synergy"] = {
+									["count"] = 19.58,
+								},
+							},
+							["amount"] = 19.58,
+						},
+					},
+					["Dispelled"] = 0,
 					["WhoHealed"] = {
 						["Ninimagic"] = {
 							["Details"] = {
@@ -4279,35 +4308,6 @@ RecountPerCharDB = {
 							["amount"] = 1940,
 						},
 					},
-					["EnergyGain"] = 0,
-					["CCBreak"] = 0,
-					["PartialAbsorb"] = {
-						["Poison Spit (DoT)"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Blood Siphon"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 2,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 2,
-							["amount"] = 0,
-						},
-					},
-					["ActiveTime"] = 31.76,
 					["PartialResist"] = {
 						["Poison Spit (DoT)"] = {
 							["Details"] = {
@@ -4334,6 +4334,10 @@ RecountPerCharDB = {
 							["amount"] = 0,
 						},
 					},
+					["CCBreak"] = 0,
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["EnergyGain"] = 0,
 					["ManaGained"] = {
 						["Life Tap"] = {
 							["Details"] = {
@@ -4346,7 +4350,7 @@ RecountPerCharDB = {
 					},
 					["ElementTakenAbsorb"] = {
 					},
-					["Interrupts"] = 0,
+					["ActiveTime"] = 31.76,
 					["Overhealing"] = 1980,
 					["ElementTakenResist"] = {
 					},
@@ -4456,7 +4460,32 @@ RecountPerCharDB = {
 							["amount"] = 6775,
 						},
 					},
-					["FDamage"] = 0,
+					["PartialAbsorb"] = {
+						["Poison Spit (DoT)"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Blood Siphon"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 0,
+						},
+					},
 					["EnergyGained"] = {
 					},
 					["HealedWho"] = {
@@ -4478,9 +4507,9 @@ RecountPerCharDB = {
 						},
 					},
 					["Healing"] = 8715,
-					["RunicPowerGainedFrom"] = {
+					["RunicPowerGained"] = {
 					},
-					["CCBroken"] = {
+					["RunicPowerGainedFrom"] = {
 					},
 					["Attacks"] = {
 						["Corruption (DoT)"] = {
@@ -4581,56 +4610,28 @@ RecountPerCharDB = {
 						},
 					},
 					["HealingTaken"] = 10894,
-					["DamagedWho"] = {
-						["Risen Drakkari Bat Rider"] = {
+					["ElementHitsDone"] = {
+						["Fire"] = {
 							["Details"] = {
-								["Incinerate"] = {
-									["count"] = 9729,
+								["Hit"] = {
+									["count"] = 5,
 								},
-								["Corruption (DoT)"] = {
-									["count"] = 1235,
+								["Crit"] = {
+									["count"] = 3,
 								},
-								["Immolate"] = {
-									["count"] = 2857,
-								},
-								["Immolate (DoT)"] = {
-									["count"] = 1054,
+								["Tick"] = {
+									["count"] = 2,
 								},
 							},
-							["amount"] = 14875,
+							["amount"] = 10,
 						},
-						["Darkweb Hatchling"] = {
+						["Shadow"] = {
 							["Details"] = {
-								["Rain of Fire"] = {
-									["count"] = 0,
+								["Tick"] = {
+									["count"] = 7,
 								},
 							},
-							["amount"] = 0,
-						},
-						["Risen Drakkari Soulmage"] = {
-							["Details"] = {
-								["Corruption (DoT)"] = {
-									["count"] = 3625,
-								},
-								["Immolate (DoT)"] = {
-									["count"] = 1054,
-								},
-								["Immolate"] = {
-									["count"] = 1429,
-								},
-								["Soul Fire"] = {
-									["count"] = 27722,
-								},
-							},
-							["amount"] = 33830,
-						},
-						["Darkweb Recluse"] = {
-							["Details"] = {
-								["Rain of Fire"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
+							["amount"] = 7,
 						},
 					},
 					["TimeDamage"] = 3.68,
@@ -4687,8 +4688,7 @@ RecountPerCharDB = {
 						},
 					},
 					["RunicPowerGain"] = 0,
-					["ElementTakenBlock"] = {
-					},
+					["Damage"] = 48705,
 					["DispelledWho"] = {
 					},
 				},
@@ -4737,6 +4737,11 @@ RecountPerCharDB = {
 					},
 					["DeathCount"] = 0,
 					["HOT_Time"] = 0,
+					["DOT_Time"] = 0,
+					["ManaGain"] = 0,
+					["ElementTaken"] = {
+						["Shadow"] = 0,
+					},
 					["HOTs"] = {
 						["Fel Armor"] = {
 							["Details"] = {
@@ -4747,12 +4752,8 @@ RecountPerCharDB = {
 							["amount"] = 0,
 						},
 					},
-					["ManaGain"] = 0,
-					["ElementTaken"] = {
-						["Shadow"] = 0,
+					["ElementTakenBlock"] = {
 					},
-					["DOT_Time"] = 0,
-					["Damage"] = 0,
 					["ElementDoneAbsorb"] = {
 					},
 					["TimeHeal"] = 0,
@@ -4780,24 +4781,47 @@ RecountPerCharDB = {
 							["amount"] = 0,
 						},
 					},
-					["ElementHitsDone"] = {
-						["Fire"] = {
+					["DamagedWho"] = {
+						["Trollgore"] = {
 							["Details"] = {
-								["Hit"] = {
+								["Corruption (DoT)"] = {
 									["count"] = 0,
 								},
-								["Crit"] = {
+								["Soul Fire"] = {
 									["count"] = 0,
 								},
-								["Tick"] = {
+								["Incinerate"] = {
+									["count"] = 0,
+								},
+								["Immolate (DoT)"] = {
+									["count"] = 0,
+								},
+								["Immolate"] = {
 									["count"] = 0,
 								},
 							},
 							["amount"] = 0,
 						},
-						["Shadow"] = {
+						["Ghoul Tormentor"] = {
 							["Details"] = {
-								["Tick"] = {
+								["Incinerate"] = {
+									["count"] = 0,
+								},
+								["Corruption (DoT)"] = {
+									["count"] = 0,
+								},
+								["Immolate"] = {
+									["count"] = 0,
+								},
+								["Immolate (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Risen Drakkari Handler"] = {
+							["Details"] = {
+								["Rain of Fire"] = {
 									["count"] = 0,
 								},
 							},
@@ -4817,21 +4841,6 @@ RecountPerCharDB = {
 						},
 					},
 					["EnergyGainedFrom"] = {
-					},
-					["Dispelled"] = 0,
-					["RunicPowerGained"] = {
-					},
-					["ElementDoneBlock"] = {
-					},
-					["TimeHealing"] = {
-						["Subzeroh"] = {
-							["Details"] = {
-								["Fel Armor"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
 					},
 					["OverHeals"] = {
 						["Fel Armor"] = {
@@ -4859,6 +4868,21 @@ RecountPerCharDB = {
 							["amount"] = 0,
 						},
 					},
+					["CCBroken"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+						["Subzeroh"] = {
+							["Details"] = {
+								["Fel Armor"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["Dispelled"] = 0,
 					["WhoHealed"] = {
 						["Ninimagic"] = {
 							["Details"] = {
@@ -4880,23 +4904,6 @@ RecountPerCharDB = {
 							["amount"] = 0,
 						},
 					},
-					["EnergyGain"] = 0,
-					["CCBreak"] = 0,
-					["PartialAbsorb"] = {
-						["Consume"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["ActiveTime"] = 0,
 					["PartialResist"] = {
 						["Consume"] = {
 							["Details"] = {
@@ -4911,6 +4918,10 @@ RecountPerCharDB = {
 							["amount"] = 0,
 						},
 					},
+					["CCBreak"] = 0,
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["EnergyGain"] = 0,
 					["ManaGained"] = {
 						["Life Tap"] = {
 							["Details"] = {
@@ -4923,7 +4934,7 @@ RecountPerCharDB = {
 					},
 					["ElementTakenAbsorb"] = {
 					},
-					["Interrupts"] = 0,
+					["ActiveTime"] = 0,
 					["Overhealing"] = 0,
 					["ElementTakenResist"] = {
 					},
@@ -5000,7 +5011,20 @@ RecountPerCharDB = {
 							["amount"] = 0,
 						},
 					},
-					["FDamage"] = 0,
+					["PartialAbsorb"] = {
+						["Consume"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
 					["EnergyGained"] = {
 					},
 					["HealedWho"] = {
@@ -5014,9 +5038,9 @@ RecountPerCharDB = {
 						},
 					},
 					["Healing"] = 0,
-					["RunicPowerGainedFrom"] = {
+					["RunicPowerGained"] = {
 					},
-					["CCBroken"] = {
+					["RunicPowerGainedFrom"] = {
 					},
 					["Attacks"] = {
 						["Corruption (DoT)"] = {
@@ -5111,47 +5135,24 @@ RecountPerCharDB = {
 						},
 					},
 					["HealingTaken"] = 0,
-					["DamagedWho"] = {
-						["Trollgore"] = {
+					["ElementHitsDone"] = {
+						["Fire"] = {
 							["Details"] = {
-								["Corruption (DoT)"] = {
+								["Hit"] = {
 									["count"] = 0,
 								},
-								["Soul Fire"] = {
+								["Crit"] = {
 									["count"] = 0,
 								},
-								["Incinerate"] = {
-									["count"] = 0,
-								},
-								["Immolate (DoT)"] = {
-									["count"] = 0,
-								},
-								["Immolate"] = {
+								["Tick"] = {
 									["count"] = 0,
 								},
 							},
 							["amount"] = 0,
 						},
-						["Ghoul Tormentor"] = {
+						["Shadow"] = {
 							["Details"] = {
-								["Incinerate"] = {
-									["count"] = 0,
-								},
-								["Corruption (DoT)"] = {
-									["count"] = 0,
-								},
-								["Immolate"] = {
-									["count"] = 0,
-								},
-								["Immolate (DoT)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Risen Drakkari Handler"] = {
-							["Details"] = {
-								["Rain of Fire"] = {
+								["Tick"] = {
 									["count"] = 0,
 								},
 							},
@@ -5207,8 +5208,7 @@ RecountPerCharDB = {
 						},
 					},
 					["RunicPowerGain"] = 0,
-					["ElementTakenBlock"] = {
-					},
+					["Damage"] = 0,
 					["DispelledWho"] = {
 					},
 				},
@@ -5301,6 +5301,12 @@ RecountPerCharDB = {
 					},
 					["DeathCount"] = 0,
 					["HOT_Time"] = 60,
+					["DOT_Time"] = 147,
+					["ManaGain"] = 9569,
+					["ElementTaken"] = {
+						["Shadow"] = 8386,
+						["Nature"] = 2145,
+					},
 					["HOTs"] = {
 						["Fel Armor"] = {
 							["Details"] = {
@@ -5311,13 +5317,8 @@ RecountPerCharDB = {
 							["amount"] = 60,
 						},
 					},
-					["ManaGain"] = 9569,
-					["ElementTaken"] = {
-						["Shadow"] = 8386,
-						["Nature"] = 2145,
+					["ElementTakenBlock"] = {
 					},
-					["DOT_Time"] = 147,
-					["Damage"] = 87621,
 					["ElementDoneAbsorb"] = {
 					},
 					["TimeHeal"] = 38.55,
@@ -5348,28 +5349,89 @@ RecountPerCharDB = {
 							["amount"] = 9569,
 						},
 					},
-					["ElementHitsDone"] = {
-						["Fire"] = {
+					["DamagedWho"] = {
+						["Wretched Belcher"] = {
 							["Details"] = {
-								["Hit"] = {
-									["count"] = 9,
+								["Incinerate"] = {
+									["count"] = 0,
 								},
-								["Crit"] = {
-									["count"] = 7,
+								["Corruption (DoT)"] = {
+									["count"] = 0,
 								},
-								["Tick"] = {
-									["count"] = 7,
+								["Immolate"] = {
+									["count"] = 0,
+								},
+								["Immolate (DoT)"] = {
+									["count"] = 0,
 								},
 							},
-							["amount"] = 23,
+							["amount"] = 0,
 						},
-						["Shadow"] = {
+						["Drakkari Gutripper"] = {
 							["Details"] = {
-								["Tick"] = {
-									["count"] = 38,
+								["Incinerate"] = {
+									["count"] = 0,
+								},
+								["Corruption (DoT)"] = {
+									["count"] = 0,
+								},
+								["Immolate"] = {
+									["count"] = 0,
+								},
+								["Immolate (DoT)"] = {
+									["count"] = 0,
 								},
 							},
-							["amount"] = 38,
+							["amount"] = 0,
+						},
+						["Risen Drakkari Death Knight"] = {
+							["Details"] = {
+								["Corruption (DoT)"] = {
+									["count"] = 3250,
+								},
+								["Curse of Agony (DoT)"] = {
+									["count"] = 3644,
+								},
+								["Soul Fire"] = {
+									["count"] = 5609,
+								},
+								["Incinerate"] = {
+									["count"] = 15817,
+								},
+								["Conflagrate (DoT)"] = {
+									["count"] = 2673,
+								},
+								["Immolate"] = {
+									["count"] = 2857,
+								},
+								["Conflagrate"] = {
+									["count"] = 3166,
+								},
+							},
+							["amount"] = 37016,
+						},
+						["The Prophet Tharon'ja"] = {
+							["Details"] = {
+								["Corruption (DoT)"] = {
+									["count"] = 5122,
+								},
+								["Drain Soul (DoT)"] = {
+									["count"] = 3502,
+								},
+								["Incinerate"] = {
+									["count"] = 19635,
+								},
+								["Immolate (DoT)"] = {
+									["count"] = 14565,
+								},
+								["Immolate"] = {
+									["count"] = 1494,
+								},
+								["Curse of Agony (DoT)"] = {
+									["count"] = 6287,
+								},
+							},
+							["amount"] = 50605,
 						},
 					},
 					["RageGained"] = {
@@ -5388,29 +5450,6 @@ RecountPerCharDB = {
 						},
 					},
 					["EnergyGainedFrom"] = {
-					},
-					["Dispelled"] = 0,
-					["RunicPowerGained"] = {
-					},
-					["ElementDoneBlock"] = {
-					},
-					["TimeHealing"] = {
-						["Subzeroh"] = {
-							["Details"] = {
-								["Fel Armor"] = {
-									["count"] = 32.15,
-								},
-							},
-							["amount"] = 32.15,
-						},
-						["Pigmat <Subzeroh>"] = {
-							["Details"] = {
-								["Fel Synergy"] = {
-									["count"] = 6.4,
-								},
-							},
-							["amount"] = 6.4,
-						},
 					},
 					["OverHeals"] = {
 						["Fel Armor"] = {
@@ -5438,6 +5477,29 @@ RecountPerCharDB = {
 							["amount"] = 12312,
 						},
 					},
+					["CCBroken"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+						["Subzeroh"] = {
+							["Details"] = {
+								["Fel Armor"] = {
+									["count"] = 32.15,
+								},
+							},
+							["amount"] = 32.15,
+						},
+						["Pigmat <Subzeroh>"] = {
+							["Details"] = {
+								["Fel Synergy"] = {
+									["count"] = 6.4,
+								},
+							},
+							["amount"] = 6.4,
+						},
+					},
+					["Dispelled"] = 0,
 					["WhoHealed"] = {
 						["Ninimagic"] = {
 							["Details"] = {
@@ -5459,35 +5521,6 @@ RecountPerCharDB = {
 							["amount"] = 7025,
 						},
 					},
-					["EnergyGain"] = 0,
-					["CCBreak"] = 0,
-					["PartialAbsorb"] = {
-						["Shadow Volley"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 2,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 2,
-							["amount"] = 0,
-						},
-						["Eye Beam (DoT)"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 0,
-						},
-					},
-					["ActiveTime"] = 81.28,
 					["PartialResist"] = {
 						["Shadow Volley"] = {
 							["Details"] = {
@@ -5514,6 +5547,10 @@ RecountPerCharDB = {
 							["amount"] = 0,
 						},
 					},
+					["CCBreak"] = 0,
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["EnergyGain"] = 0,
 					["ManaGained"] = {
 						["Life Tap"] = {
 							["Details"] = {
@@ -5534,7 +5571,7 @@ RecountPerCharDB = {
 					},
 					["ElementTakenAbsorb"] = {
 					},
-					["Interrupts"] = 0,
+					["ActiveTime"] = 81.28,
 					["Overhealing"] = 15211,
 					["ElementTakenResist"] = {
 					},
@@ -5669,7 +5706,32 @@ RecountPerCharDB = {
 							["amount"] = 803,
 						},
 					},
-					["FDamage"] = 0,
+					["PartialAbsorb"] = {
+						["Shadow Volley"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 0,
+						},
+						["Eye Beam (DoT)"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+					},
 					["EnergyGained"] = {
 					},
 					["HealedWho"] = {
@@ -5691,9 +5753,9 @@ RecountPerCharDB = {
 						},
 					},
 					["Healing"] = 7828,
-					["RunicPowerGainedFrom"] = {
+					["RunicPowerGained"] = {
 					},
-					["CCBroken"] = {
+					["RunicPowerGainedFrom"] = {
 					},
 					["Attacks"] = {
 						["Conflagrate (DoT)"] = {
@@ -5824,89 +5886,28 @@ RecountPerCharDB = {
 						},
 					},
 					["HealingTaken"] = 19040,
-					["DamagedWho"] = {
-						["Wretched Belcher"] = {
+					["ElementHitsDone"] = {
+						["Fire"] = {
 							["Details"] = {
-								["Incinerate"] = {
-									["count"] = 0,
+								["Hit"] = {
+									["count"] = 9,
 								},
-								["Corruption (DoT)"] = {
-									["count"] = 0,
+								["Crit"] = {
+									["count"] = 7,
 								},
-								["Immolate"] = {
-									["count"] = 0,
-								},
-								["Immolate (DoT)"] = {
-									["count"] = 0,
+								["Tick"] = {
+									["count"] = 7,
 								},
 							},
-							["amount"] = 0,
+							["amount"] = 23,
 						},
-						["Drakkari Gutripper"] = {
+						["Shadow"] = {
 							["Details"] = {
-								["Incinerate"] = {
-									["count"] = 0,
-								},
-								["Corruption (DoT)"] = {
-									["count"] = 0,
-								},
-								["Immolate"] = {
-									["count"] = 0,
-								},
-								["Immolate (DoT)"] = {
-									["count"] = 0,
+								["Tick"] = {
+									["count"] = 38,
 								},
 							},
-							["amount"] = 0,
-						},
-						["Risen Drakkari Death Knight"] = {
-							["Details"] = {
-								["Corruption (DoT)"] = {
-									["count"] = 3250,
-								},
-								["Curse of Agony (DoT)"] = {
-									["count"] = 3644,
-								},
-								["Soul Fire"] = {
-									["count"] = 5609,
-								},
-								["Incinerate"] = {
-									["count"] = 15817,
-								},
-								["Conflagrate (DoT)"] = {
-									["count"] = 2673,
-								},
-								["Immolate"] = {
-									["count"] = 2857,
-								},
-								["Conflagrate"] = {
-									["count"] = 3166,
-								},
-							},
-							["amount"] = 37016,
-						},
-						["The Prophet Tharon'ja"] = {
-							["Details"] = {
-								["Corruption (DoT)"] = {
-									["count"] = 5122,
-								},
-								["Drain Soul (DoT)"] = {
-									["count"] = 3502,
-								},
-								["Incinerate"] = {
-									["count"] = 19635,
-								},
-								["Immolate (DoT)"] = {
-									["count"] = 14565,
-								},
-								["Immolate"] = {
-									["count"] = 1494,
-								},
-								["Curse of Agony (DoT)"] = {
-									["count"] = 6287,
-								},
-							},
-							["amount"] = 50605,
+							["amount"] = 38,
 						},
 					},
 					["TimeDamage"] = 42.73000000000002,
@@ -5996,8 +5997,7 @@ RecountPerCharDB = {
 						},
 					},
 					["RunicPowerGain"] = 0,
-					["ElementTakenBlock"] = {
-					},
+					["Damage"] = 87621,
 					["DispelledWho"] = {
 					},
 				},
@@ -6022,6 +6022,10 @@ RecountPerCharDB = {
 					},
 					["DeathCount"] = 0,
 					["HOT_Time"] = 15,
+					["DOT_Time"] = 3,
+					["ManaGain"] = 0,
+					["ElementTaken"] = {
+					},
 					["HOTs"] = {
 						["Fel Armor"] = {
 							["Details"] = {
@@ -6032,11 +6036,8 @@ RecountPerCharDB = {
 							["amount"] = 15,
 						},
 					},
-					["ManaGain"] = 0,
-					["ElementTaken"] = {
+					["ElementTakenBlock"] = {
 					},
-					["DOT_Time"] = 3,
-					["Damage"] = 650,
 					["ElementDoneAbsorb"] = {
 					},
 					["TimeHeal"] = 17.05,
@@ -6063,14 +6064,14 @@ RecountPerCharDB = {
 							["amount"] = 0,
 						},
 					},
-					["ElementHitsDone"] = {
-						["Shadow"] = {
+					["DamagedWho"] = {
+						["Risen Drakkari Warrior"] = {
 							["Details"] = {
-								["Tick"] = {
-									["count"] = 1,
+								["Corruption (DoT)"] = {
+									["count"] = 650,
 								},
 							},
-							["amount"] = 1,
+							["amount"] = 650,
 						},
 					},
 					["RageGained"] = {
@@ -6079,8 +6080,21 @@ RecountPerCharDB = {
 					},
 					["EnergyGainedFrom"] = {
 					},
-					["Dispelled"] = 0,
-					["RunicPowerGained"] = {
+					["OverHeals"] = {
+						["Fel Armor"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 387,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 387,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 387,
+						},
+					},
+					["CCBroken"] = {
 					},
 					["ElementDoneBlock"] = {
 					},
@@ -6102,20 +6116,7 @@ RecountPerCharDB = {
 							["amount"] = 0.37,
 						},
 					},
-					["OverHeals"] = {
-						["Fel Armor"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 387,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 387,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 387,
-						},
-					},
+					["Dispelled"] = 0,
 					["WhoHealed"] = {
 						["Subzeroh"] = {
 							["Details"] = {
@@ -6126,13 +6127,12 @@ RecountPerCharDB = {
 							["amount"] = 2038,
 						},
 					},
-					["EnergyGain"] = 0,
-					["CCBreak"] = 0,
-					["PartialAbsorb"] = {
-					},
-					["ActiveTime"] = 17.05,
 					["PartialResist"] = {
 					},
+					["CCBreak"] = 0,
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["EnergyGain"] = 0,
 					["ManaGained"] = {
 						["Life Tap"] = {
 							["Details"] = {
@@ -6145,7 +6145,7 @@ RecountPerCharDB = {
 					},
 					["ElementTakenAbsorb"] = {
 					},
-					["Interrupts"] = 0,
+					["ActiveTime"] = 17.05,
 					["Overhealing"] = 387,
 					["ElementTakenResist"] = {
 					},
@@ -6205,7 +6205,8 @@ RecountPerCharDB = {
 							["amount"] = 97,
 						},
 					},
-					["FDamage"] = 0,
+					["PartialAbsorb"] = {
+					},
 					["EnergyGained"] = {
 					},
 					["HealedWho"] = {
@@ -6227,9 +6228,9 @@ RecountPerCharDB = {
 						},
 					},
 					["Healing"] = 2135,
-					["RunicPowerGainedFrom"] = {
+					["RunicPowerGained"] = {
 					},
-					["CCBroken"] = {
+					["RunicPowerGainedFrom"] = {
 					},
 					["Attacks"] = {
 						["Corruption (DoT)"] = {
@@ -6246,14 +6247,14 @@ RecountPerCharDB = {
 						},
 					},
 					["HealingTaken"] = 2038,
-					["DamagedWho"] = {
-						["Risen Drakkari Warrior"] = {
+					["ElementHitsDone"] = {
+						["Shadow"] = {
 							["Details"] = {
-								["Corruption (DoT)"] = {
-									["count"] = 650,
+								["Tick"] = {
+									["count"] = 1,
 								},
 							},
-							["amount"] = 650,
+							["amount"] = 1,
 						},
 					},
 					["TimeDamage"] = 0,
@@ -6268,8 +6269,7 @@ RecountPerCharDB = {
 						},
 					},
 					["RunicPowerGain"] = 0,
-					["ElementTakenBlock"] = {
-					},
+					["Damage"] = 650,
 					["DispelledWho"] = {
 					},
 				},
@@ -6362,6 +6362,12 @@ RecountPerCharDB = {
 					},
 					["DeathCount"] = 0,
 					["HOT_Time"] = 60,
+					["DOT_Time"] = 147,
+					["ManaGain"] = 9569,
+					["ElementTaken"] = {
+						["Shadow"] = 8386,
+						["Nature"] = 2145,
+					},
 					["HOTs"] = {
 						["Fel Armor"] = {
 							["Details"] = {
@@ -6372,13 +6378,8 @@ RecountPerCharDB = {
 							["amount"] = 60,
 						},
 					},
-					["ManaGain"] = 9569,
-					["ElementTaken"] = {
-						["Shadow"] = 8386,
-						["Nature"] = 2145,
+					["ElementTakenBlock"] = {
 					},
-					["DOT_Time"] = 147,
-					["Damage"] = 87621,
 					["ElementDoneAbsorb"] = {
 					},
 					["TimeHeal"] = 38.55,
@@ -6409,28 +6410,89 @@ RecountPerCharDB = {
 							["amount"] = 9569,
 						},
 					},
-					["ElementHitsDone"] = {
-						["Fire"] = {
+					["DamagedWho"] = {
+						["Wretched Belcher"] = {
 							["Details"] = {
-								["Hit"] = {
-									["count"] = 9,
+								["Incinerate"] = {
+									["count"] = 0,
 								},
-								["Crit"] = {
-									["count"] = 7,
+								["Corruption (DoT)"] = {
+									["count"] = 0,
 								},
-								["Tick"] = {
-									["count"] = 7,
+								["Immolate"] = {
+									["count"] = 0,
+								},
+								["Immolate (DoT)"] = {
+									["count"] = 0,
 								},
 							},
-							["amount"] = 23,
+							["amount"] = 0,
 						},
-						["Shadow"] = {
+						["Drakkari Gutripper"] = {
 							["Details"] = {
-								["Tick"] = {
-									["count"] = 38,
+								["Incinerate"] = {
+									["count"] = 0,
+								},
+								["Corruption (DoT)"] = {
+									["count"] = 0,
+								},
+								["Immolate"] = {
+									["count"] = 0,
+								},
+								["Immolate (DoT)"] = {
+									["count"] = 0,
 								},
 							},
-							["amount"] = 38,
+							["amount"] = 0,
+						},
+						["Risen Drakkari Death Knight"] = {
+							["Details"] = {
+								["Corruption (DoT)"] = {
+									["count"] = 3250,
+								},
+								["Curse of Agony (DoT)"] = {
+									["count"] = 3644,
+								},
+								["Soul Fire"] = {
+									["count"] = 5609,
+								},
+								["Incinerate"] = {
+									["count"] = 15817,
+								},
+								["Conflagrate (DoT)"] = {
+									["count"] = 2673,
+								},
+								["Immolate"] = {
+									["count"] = 2857,
+								},
+								["Conflagrate"] = {
+									["count"] = 3166,
+								},
+							},
+							["amount"] = 37016,
+						},
+						["The Prophet Tharon'ja"] = {
+							["Details"] = {
+								["Corruption (DoT)"] = {
+									["count"] = 5122,
+								},
+								["Drain Soul (DoT)"] = {
+									["count"] = 3502,
+								},
+								["Incinerate"] = {
+									["count"] = 19635,
+								},
+								["Immolate (DoT)"] = {
+									["count"] = 14565,
+								},
+								["Immolate"] = {
+									["count"] = 1494,
+								},
+								["Curse of Agony (DoT)"] = {
+									["count"] = 6287,
+								},
+							},
+							["amount"] = 50605,
 						},
 					},
 					["RageGained"] = {
@@ -6449,29 +6511,6 @@ RecountPerCharDB = {
 						},
 					},
 					["EnergyGainedFrom"] = {
-					},
-					["Dispelled"] = 0,
-					["RunicPowerGained"] = {
-					},
-					["ElementDoneBlock"] = {
-					},
-					["TimeHealing"] = {
-						["Subzeroh"] = {
-							["Details"] = {
-								["Fel Armor"] = {
-									["count"] = 32.15,
-								},
-							},
-							["amount"] = 32.15,
-						},
-						["Pigmat <Subzeroh>"] = {
-							["Details"] = {
-								["Fel Synergy"] = {
-									["count"] = 6.4,
-								},
-							},
-							["amount"] = 6.4,
-						},
 					},
 					["OverHeals"] = {
 						["Fel Armor"] = {
@@ -6499,6 +6538,29 @@ RecountPerCharDB = {
 							["amount"] = 12312,
 						},
 					},
+					["CCBroken"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+						["Subzeroh"] = {
+							["Details"] = {
+								["Fel Armor"] = {
+									["count"] = 32.15,
+								},
+							},
+							["amount"] = 32.15,
+						},
+						["Pigmat <Subzeroh>"] = {
+							["Details"] = {
+								["Fel Synergy"] = {
+									["count"] = 6.4,
+								},
+							},
+							["amount"] = 6.4,
+						},
+					},
+					["Dispelled"] = 0,
 					["WhoHealed"] = {
 						["Ninimagic"] = {
 							["Details"] = {
@@ -6520,35 +6582,6 @@ RecountPerCharDB = {
 							["amount"] = 7025,
 						},
 					},
-					["EnergyGain"] = 0,
-					["CCBreak"] = 0,
-					["PartialAbsorb"] = {
-						["Shadow Volley"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 2,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 2,
-							["amount"] = 0,
-						},
-						["Eye Beam (DoT)"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 0,
-						},
-					},
-					["ActiveTime"] = 81.28,
 					["PartialResist"] = {
 						["Shadow Volley"] = {
 							["Details"] = {
@@ -6575,6 +6608,10 @@ RecountPerCharDB = {
 							["amount"] = 0,
 						},
 					},
+					["CCBreak"] = 0,
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["EnergyGain"] = 0,
 					["ManaGained"] = {
 						["Life Tap"] = {
 							["Details"] = {
@@ -6595,7 +6632,7 @@ RecountPerCharDB = {
 					},
 					["ElementTakenAbsorb"] = {
 					},
-					["Interrupts"] = 0,
+					["ActiveTime"] = 81.28,
 					["Overhealing"] = 15211,
 					["ElementTakenResist"] = {
 					},
@@ -6730,7 +6767,32 @@ RecountPerCharDB = {
 							["amount"] = 803,
 						},
 					},
-					["FDamage"] = 0,
+					["PartialAbsorb"] = {
+						["Shadow Volley"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 0,
+						},
+						["Eye Beam (DoT)"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+					},
 					["EnergyGained"] = {
 					},
 					["HealedWho"] = {
@@ -6752,9 +6814,9 @@ RecountPerCharDB = {
 						},
 					},
 					["Healing"] = 7828,
-					["RunicPowerGainedFrom"] = {
+					["RunicPowerGained"] = {
 					},
-					["CCBroken"] = {
+					["RunicPowerGainedFrom"] = {
 					},
 					["Attacks"] = {
 						["Conflagrate (DoT)"] = {
@@ -6885,89 +6947,28 @@ RecountPerCharDB = {
 						},
 					},
 					["HealingTaken"] = 19040,
-					["DamagedWho"] = {
-						["Wretched Belcher"] = {
+					["ElementHitsDone"] = {
+						["Fire"] = {
 							["Details"] = {
-								["Incinerate"] = {
-									["count"] = 0,
+								["Hit"] = {
+									["count"] = 9,
 								},
-								["Corruption (DoT)"] = {
-									["count"] = 0,
+								["Crit"] = {
+									["count"] = 7,
 								},
-								["Immolate"] = {
-									["count"] = 0,
-								},
-								["Immolate (DoT)"] = {
-									["count"] = 0,
+								["Tick"] = {
+									["count"] = 7,
 								},
 							},
-							["amount"] = 0,
+							["amount"] = 23,
 						},
-						["Drakkari Gutripper"] = {
+						["Shadow"] = {
 							["Details"] = {
-								["Incinerate"] = {
-									["count"] = 0,
-								},
-								["Corruption (DoT)"] = {
-									["count"] = 0,
-								},
-								["Immolate"] = {
-									["count"] = 0,
-								},
-								["Immolate (DoT)"] = {
-									["count"] = 0,
+								["Tick"] = {
+									["count"] = 38,
 								},
 							},
-							["amount"] = 0,
-						},
-						["Risen Drakkari Death Knight"] = {
-							["Details"] = {
-								["Corruption (DoT)"] = {
-									["count"] = 3250,
-								},
-								["Curse of Agony (DoT)"] = {
-									["count"] = 3644,
-								},
-								["Soul Fire"] = {
-									["count"] = 5609,
-								},
-								["Incinerate"] = {
-									["count"] = 15817,
-								},
-								["Conflagrate (DoT)"] = {
-									["count"] = 2673,
-								},
-								["Immolate"] = {
-									["count"] = 2857,
-								},
-								["Conflagrate"] = {
-									["count"] = 3166,
-								},
-							},
-							["amount"] = 37016,
-						},
-						["The Prophet Tharon'ja"] = {
-							["Details"] = {
-								["Corruption (DoT)"] = {
-									["count"] = 5122,
-								},
-								["Drain Soul (DoT)"] = {
-									["count"] = 3502,
-								},
-								["Incinerate"] = {
-									["count"] = 19635,
-								},
-								["Immolate (DoT)"] = {
-									["count"] = 14565,
-								},
-								["Immolate"] = {
-									["count"] = 1494,
-								},
-								["Curse of Agony (DoT)"] = {
-									["count"] = 6287,
-								},
-							},
-							["amount"] = 50605,
+							["amount"] = 38,
 						},
 					},
 					["TimeDamage"] = 42.73000000000002,
@@ -7057,8 +7058,7 @@ RecountPerCharDB = {
 						},
 					},
 					["RunicPowerGain"] = 0,
-					["ElementTakenBlock"] = {
-					},
+					["Damage"] = 87621,
 					["DispelledWho"] = {
 					},
 				},
@@ -7122,6 +7122,10 @@ RecountPerCharDB = {
 					},
 					["DeathCount"] = 0,
 					["HOT_Time"] = 15,
+					["DOT_Time"] = 66,
+					["ManaGain"] = 6125,
+					["ElementTaken"] = {
+					},
 					["HOTs"] = {
 						["Fel Armor"] = {
 							["Details"] = {
@@ -7132,11 +7136,8 @@ RecountPerCharDB = {
 							["amount"] = 15,
 						},
 					},
-					["ManaGain"] = 6125,
-					["ElementTaken"] = {
+					["ElementTakenBlock"] = {
 					},
-					["DOT_Time"] = 66,
-					["Damage"] = 37161,
 					["ElementDoneAbsorb"] = {
 					},
 					["TimeHeal"] = 4.140000000000001,
@@ -7184,34 +7185,73 @@ RecountPerCharDB = {
 							["amount"] = 6125,
 						},
 					},
-					["ElementHitsDone"] = {
-						["Shadow"] = {
+					["DamagedWho"] = {
+						["Risen Drakkari Warrior"] = {
 							["Details"] = {
-								["Tick"] = {
-									["count"] = 0,
+								["Shadowflame (DoT)"] = {
+									["count"] = 3003,
 								},
-								["Crit"] = {
-									["count"] = 1,
+								["Hellfire Effect"] = {
+									["count"] = 18215,
 								},
-								["Hit"] = {
-									["count"] = 3,
+								["Shadowflame"] = {
+									["count"] = 3513,
 								},
 							},
-							["amount"] = 4,
+							["amount"] = 24731,
 						},
-						["Fire"] = {
+						["Drakkari Guardian"] = {
 							["Details"] = {
-								["Hit"] = {
-									["count"] = 28,
+								["Shadowflame (DoT)"] = {
+									["count"] = 1521,
 								},
-								["Crit"] = {
-									["count"] = 0,
+								["Hellfire Effect"] = {
+									["count"] = 8572,
 								},
-								["Tick"] = {
-									["count"] = 12,
+								["Shadowflame"] = {
+									["count"] = 2337,
 								},
 							},
-							["amount"] = 40,
+							["amount"] = 12430,
+						},
+						["Risen Drakkari Bat Rider"] = {
+							["Details"] = {
+								["Corruption (DoT)"] = {
+									["count"] = 0,
+								},
+								["Immolate"] = {
+									["count"] = 0,
+								},
+								["Curse of Agony (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Ghoul Tormentor"] = {
+							["Details"] = {
+								["Incinerate"] = {
+									["count"] = 0,
+								},
+								["Corruption (DoT)"] = {
+									["count"] = 0,
+								},
+								["Immolate"] = {
+									["count"] = 0,
+								},
+								["Immolate (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Flesheating Ghoul"] = {
+							["Details"] = {
+								["Incinerate"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
 						},
 					},
 					["RageGained"] = {
@@ -7219,29 +7259,6 @@ RecountPerCharDB = {
 					["WhoDamaged"] = {
 					},
 					["EnergyGainedFrom"] = {
-					},
-					["Dispelled"] = 0,
-					["RunicPowerGained"] = {
-					},
-					["ElementDoneBlock"] = {
-					},
-					["TimeHealing"] = {
-						["Pigmat <Subzeroh>"] = {
-							["Details"] = {
-								["Fel Synergy"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Subzeroh"] = {
-							["Details"] = {
-								["Fel Armor"] = {
-									["count"] = 4.140000000000001,
-								},
-							},
-							["amount"] = 4.140000000000001,
-						},
 					},
 					["OverHeals"] = {
 						["Fel Armor"] = {
@@ -7269,6 +7286,29 @@ RecountPerCharDB = {
 							["amount"] = 6619,
 						},
 					},
+					["CCBroken"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+						["Pigmat <Subzeroh>"] = {
+							["Details"] = {
+								["Fel Synergy"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Subzeroh"] = {
+							["Details"] = {
+								["Fel Armor"] = {
+									["count"] = 4.140000000000001,
+								},
+							},
+							["amount"] = 4.140000000000001,
+						},
+					},
+					["Dispelled"] = 0,
 					["WhoHealed"] = {
 						["Ninimagic"] = {
 							["Details"] = {
@@ -7290,13 +7330,12 @@ RecountPerCharDB = {
 							["amount"] = 1455,
 						},
 					},
-					["EnergyGain"] = 0,
-					["CCBreak"] = 0,
-					["PartialAbsorb"] = {
-					},
-					["ActiveTime"] = 15.05,
 					["PartialResist"] = {
 					},
+					["CCBreak"] = 0,
+					["FDamage"] = 7076,
+					["Interrupts"] = 0,
+					["EnergyGain"] = 0,
 					["ManaGained"] = {
 						["Life Tap"] = {
 							["Details"] = {
@@ -7309,7 +7348,7 @@ RecountPerCharDB = {
 					},
 					["ElementTakenAbsorb"] = {
 					},
-					["Interrupts"] = 0,
+					["ActiveTime"] = 15.05,
 					["Overhealing"] = 7589,
 					["ElementTakenResist"] = {
 					},
@@ -7431,7 +7470,8 @@ RecountPerCharDB = {
 							["amount"] = 1455,
 						},
 					},
-					["FDamage"] = 7076,
+					["PartialAbsorb"] = {
+					},
 					["EnergyGained"] = {
 					},
 					["HealedWho"] = {
@@ -7453,9 +7493,9 @@ RecountPerCharDB = {
 						},
 					},
 					["Healing"] = 1455,
-					["RunicPowerGainedFrom"] = {
+					["RunicPowerGained"] = {
 					},
-					["CCBroken"] = {
+					["RunicPowerGainedFrom"] = {
 					},
 					["Attacks"] = {
 						["Corruption (DoT)"] = {
@@ -7562,73 +7602,34 @@ RecountPerCharDB = {
 						},
 					},
 					["HealingTaken"] = 12493,
-					["DamagedWho"] = {
-						["Risen Drakkari Warrior"] = {
+					["ElementHitsDone"] = {
+						["Shadow"] = {
 							["Details"] = {
-								["Shadowflame (DoT)"] = {
-									["count"] = 3003,
+								["Tick"] = {
+									["count"] = 0,
 								},
-								["Hellfire Effect"] = {
-									["count"] = 18215,
+								["Crit"] = {
+									["count"] = 1,
 								},
-								["Shadowflame"] = {
-									["count"] = 3513,
+								["Hit"] = {
+									["count"] = 3,
 								},
 							},
-							["amount"] = 24731,
+							["amount"] = 4,
 						},
-						["Drakkari Guardian"] = {
+						["Fire"] = {
 							["Details"] = {
-								["Shadowflame (DoT)"] = {
-									["count"] = 1521,
+								["Hit"] = {
+									["count"] = 28,
 								},
-								["Hellfire Effect"] = {
-									["count"] = 8572,
+								["Crit"] = {
+									["count"] = 0,
 								},
-								["Shadowflame"] = {
-									["count"] = 2337,
+								["Tick"] = {
+									["count"] = 12,
 								},
 							},
-							["amount"] = 12430,
-						},
-						["Risen Drakkari Bat Rider"] = {
-							["Details"] = {
-								["Corruption (DoT)"] = {
-									["count"] = 0,
-								},
-								["Immolate"] = {
-									["count"] = 0,
-								},
-								["Curse of Agony (DoT)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Ghoul Tormentor"] = {
-							["Details"] = {
-								["Incinerate"] = {
-									["count"] = 0,
-								},
-								["Corruption (DoT)"] = {
-									["count"] = 0,
-								},
-								["Immolate"] = {
-									["count"] = 0,
-								},
-								["Immolate (DoT)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Flesheating Ghoul"] = {
-							["Details"] = {
-								["Incinerate"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
+							["amount"] = 40,
 						},
 					},
 					["TimeDamage"] = 10.91,
@@ -7710,8 +7711,7 @@ RecountPerCharDB = {
 						},
 					},
 					["RunicPowerGain"] = 0,
-					["ElementTakenBlock"] = {
-					},
+					["Damage"] = 37161,
 					["DispelledWho"] = {
 					},
 				},
@@ -8668,10 +8668,10 @@ RecountPerCharDB = {
 				["OVERALL"] = 1604865419,
 				["Healing"] = 1604865409,
 				["DamageTaken"] = 1604865403,
-				["HOT_Time"] = 1604865419,
-				["FDamage"] = 1604865305,
-				["HealingTaken"] = 1604865410,
 				["Overhealing"] = 1604865419,
+				["HOT_Time"] = 1604865419,
+				["HealingTaken"] = 1604865410,
+				["FDamage"] = 1604865305,
 				["ActiveTime"] = 1604865413,
 				["TimeDamage"] = 1604865413,
 				["ManaGain"] = 1604865380,
@@ -8783,7 +8783,7 @@ RecountPerCharDB = {
 				1824187.513, -- [49]
 				1824190.38, -- [50]
 			},
-			["LastAbility"] = 27999.068,
+			["LastAbility"] = 1053.213,
 		},
 		["Flemaz"] = {
 			["GUID"] = "0x07000000005DA0A4",
@@ -9128,12 +9128,48 @@ RecountPerCharDB = {
 					["TimeHeal"] = 3.84,
 					["Dispels"] = 1,
 					["ElementDone"] = {
-						["Physical"] = 929998,
 						["Fire"] = 6523,
-						["Melee"] = 79371,
 						["Shadow"] = 4685,
+						["Melee"] = 79371,
+						["Physical"] = 929998,
 					},
 					["ElementHitsDone"] = {
+						["Fire"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 50,
+								},
+							},
+							["amount"] = 50,
+						},
+						["Shadow"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 3,
+								},
+							},
+							["amount"] = 3,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Glancing"] = {
+									["count"] = 15,
+								},
+								["Hit"] = {
+									["count"] = 91,
+								},
+								["Dodge"] = {
+									["count"] = 2,
+								},
+								["Crit"] = {
+									["count"] = 7,
+								},
+								["Parry"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 116,
+						},
 						["Physical"] = {
 							["Details"] = {
 								["Immune"] = {
@@ -9156,42 +9192,6 @@ RecountPerCharDB = {
 								},
 							},
 							["amount"] = 839,
-						},
-						["Fire"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 50,
-								},
-							},
-							["amount"] = 50,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["Glancing"] = {
-									["count"] = 15,
-								},
-								["Hit"] = {
-									["count"] = 91,
-								},
-								["Dodge"] = {
-									["count"] = 2,
-								},
-								["Crit"] = {
-									["count"] = 7,
-								},
-								["Parry"] = {
-									["count"] = 1,
-								},
-							},
-							["amount"] = 116,
-						},
-						["Shadow"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 3,
-								},
-							},
-							["amount"] = 3,
 						},
 					},
 					["WhoDamaged"] = {
@@ -9448,18 +9448,6 @@ RecountPerCharDB = {
 							["count"] = 3,
 							["amount"] = 0,
 						},
-						["Flesh Rot (DoT)"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 12,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 12,
-							["amount"] = 0,
-						},
 						["Cleave"] = {
 							["Details"] = {
 								["No Resist"] = {
@@ -9470,6 +9458,18 @@ RecountPerCharDB = {
 								},
 							},
 							["count"] = 7,
+							["amount"] = 0,
+						},
+						["Poison Cloud"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
 							["amount"] = 0,
 						},
 						["Crush Armor"] = {
@@ -9544,7 +9544,7 @@ RecountPerCharDB = {
 							["count"] = 10,
 							["amount"] = 0,
 						},
-						["Consume"] = {
+						["Pierce Armor"] = {
 							["Details"] = {
 								["No Resist"] = {
 									["max"] = 0,
@@ -9640,16 +9640,16 @@ RecountPerCharDB = {
 							["count"] = 5,
 							["amount"] = 0,
 						},
-						["Shadow Void (DoT)"] = {
+						["Melee"] = {
 							["Details"] = {
 								["No Resist"] = {
 									["max"] = 0,
 									["min"] = 0,
-									["count"] = 3,
+									["count"] = 237,
 									["amount"] = 0,
 								},
 							},
-							["count"] = 3,
+							["count"] = 237,
 							["amount"] = 0,
 						},
 						["Shadow Blast"] = {
@@ -9724,16 +9724,16 @@ RecountPerCharDB = {
 							["count"] = 1,
 							["amount"] = 0,
 						},
-						["Melee"] = {
+						["Shadow Void (DoT)"] = {
 							["Details"] = {
 								["No Resist"] = {
 									["max"] = 0,
 									["min"] = 0,
-									["count"] = 237,
+									["count"] = 3,
 									["amount"] = 0,
 								},
 							},
-							["count"] = 237,
+							["count"] = 3,
 							["amount"] = 0,
 						},
 						["Impale (DoT)"] = {
@@ -9772,7 +9772,7 @@ RecountPerCharDB = {
 							["count"] = 2,
 							["amount"] = 0,
 						},
-						["Pierce Armor"] = {
+						["Consume"] = {
 							["Details"] = {
 								["No Resist"] = {
 									["max"] = 0,
@@ -9796,16 +9796,16 @@ RecountPerCharDB = {
 							["count"] = 6,
 							["amount"] = 0,
 						},
-						["Poison Cloud"] = {
+						["Flesh Rot (DoT)"] = {
 							["Details"] = {
 								["No Resist"] = {
 									["max"] = 0,
 									["min"] = 0,
-									["count"] = 1,
+									["count"] = 12,
 									["amount"] = 0,
 								},
 							},
-							["count"] = 1,
+							["count"] = 12,
 							["amount"] = 0,
 						},
 					},
@@ -9821,24 +9821,6 @@ RecountPerCharDB = {
 							},
 							["count"] = 3,
 							["amount"] = 0,
-						},
-						["Flesh Rot (DoT)"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 9,
-									["amount"] = 0,
-								},
-								["Absorbed"] = {
-									["max"] = 982,
-									["min"] = 92,
-									["count"] = 3,
-									["amount"] = 1614,
-								},
-							},
-							["count"] = 12,
-							["amount"] = 1614,
 						},
 						["Cleave"] = {
 							["Details"] = {
@@ -9857,6 +9839,18 @@ RecountPerCharDB = {
 							},
 							["count"] = 7,
 							["amount"] = 1029,
+						},
+						["Poison Cloud"] = {
+							["Details"] = {
+								["Absorbed"] = {
+									["max"] = 1245,
+									["min"] = 1245,
+									["count"] = 1,
+									["amount"] = 1245,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 1245,
 						},
 						["Crush Armor"] = {
 							["Details"] = {
@@ -9948,7 +9942,7 @@ RecountPerCharDB = {
 							["count"] = 10,
 							["amount"] = 5096,
 						},
-						["Consume"] = {
+						["Pierce Armor"] = {
 							["Details"] = {
 								["No Absorb"] = {
 									["max"] = 0,
@@ -10056,17 +10050,23 @@ RecountPerCharDB = {
 							["count"] = 5,
 							["amount"] = 692,
 						},
-						["Shadow Void (DoT)"] = {
+						["Melee"] = {
 							["Details"] = {
 								["No Absorb"] = {
 									["max"] = 0,
 									["min"] = 0,
-									["count"] = 3,
+									["count"] = 228,
 									["amount"] = 0,
 								},
+								["Absorbed"] = {
+									["max"] = 2379,
+									["min"] = 154,
+									["count"] = 9,
+									["amount"] = 15119,
+								},
 							},
-							["count"] = 3,
-							["amount"] = 0,
+							["count"] = 237,
+							["amount"] = 15119,
 						},
 						["Shadow Blast"] = {
 							["Details"] = {
@@ -10152,23 +10152,17 @@ RecountPerCharDB = {
 							["count"] = 1,
 							["amount"] = 0,
 						},
-						["Melee"] = {
+						["Shadow Void (DoT)"] = {
 							["Details"] = {
 								["No Absorb"] = {
 									["max"] = 0,
 									["min"] = 0,
-									["count"] = 228,
+									["count"] = 3,
 									["amount"] = 0,
 								},
-								["Absorbed"] = {
-									["max"] = 2379,
-									["min"] = 154,
-									["count"] = 9,
-									["amount"] = 15119,
-								},
 							},
-							["count"] = 237,
-							["amount"] = 15119,
+							["count"] = 3,
+							["amount"] = 0,
 						},
 						["Impale (DoT)"] = {
 							["Details"] = {
@@ -10212,7 +10206,7 @@ RecountPerCharDB = {
 							["count"] = 2,
 							["amount"] = 6854,
 						},
-						["Pierce Armor"] = {
+						["Consume"] = {
 							["Details"] = {
 								["No Absorb"] = {
 									["max"] = 0,
@@ -10242,17 +10236,23 @@ RecountPerCharDB = {
 							["count"] = 6,
 							["amount"] = 1925,
 						},
-						["Poison Cloud"] = {
+						["Flesh Rot (DoT)"] = {
 							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 9,
+									["amount"] = 0,
+								},
 								["Absorbed"] = {
-									["max"] = 1245,
-									["min"] = 1245,
-									["count"] = 1,
-									["amount"] = 1245,
+									["max"] = 982,
+									["min"] = 92,
+									["count"] = 3,
+									["amount"] = 1614,
 								},
 							},
-							["count"] = 1,
-							["amount"] = 1245,
+							["count"] = 12,
+							["amount"] = 1614,
 						},
 					},
 					["Interrupts"] = 2,
@@ -10723,41 +10723,6 @@ RecountPerCharDB = {
 							},
 							["amount"] = 34661,
 						},
-						["Darkweb Recluse"] = {
-							["Details"] = {
-								["Shield Slam"] = {
-									["count"] = 2031,
-								},
-								["Melee"] = {
-									["count"] = 5018,
-								},
-								["Cleave"] = {
-									["count"] = 3236,
-								},
-								["Fire Shield"] = {
-									["count"] = 502,
-								},
-								["Thunder Clap"] = {
-									["count"] = 13849,
-								},
-								["Revenge"] = {
-									["count"] = 7950,
-								},
-								["Damage Shield"] = {
-									["count"] = 479,
-								},
-								["Devastate"] = {
-									["count"] = 2684,
-								},
-								["Deep Wounds (DoT)"] = {
-									["count"] = 1730,
-								},
-								["Shockwave"] = {
-									["count"] = 9187,
-								},
-							},
-							["amount"] = 46666,
-						},
 						["Rat"] = {
 							["Details"] = {
 								["Thunder Clap"] = {
@@ -10765,6 +10730,44 @@ RecountPerCharDB = {
 								},
 							},
 							["amount"] = 1390,
+						},
+						["Risen Drakkari Death Knight"] = {
+							["Details"] = {
+								["Shockwave"] = {
+									["count"] = 26278,
+								},
+								["Deep Wounds (DoT)"] = {
+									["count"] = 2993,
+								},
+								["Cleave"] = {
+									["count"] = 10685,
+								},
+								["Fire Shield"] = {
+									["count"] = 168,
+								},
+								["Thunder Clap"] = {
+									["count"] = 14915,
+								},
+								["Revenge"] = {
+									["count"] = 27347,
+								},
+								["Melee"] = {
+									["count"] = 6246,
+								},
+								["Damage Shield"] = {
+									["count"] = 3027,
+								},
+								["Devastate"] = {
+									["count"] = 2500,
+								},
+								["Heroic Throw"] = {
+									["count"] = 1726,
+								},
+								["Shield Slam"] = {
+									["count"] = 9155,
+								},
+							},
+							["amount"] = 105040,
 						},
 						["Wretched Belcher"] = {
 							["Details"] = {
@@ -10815,54 +10818,51 @@ RecountPerCharDB = {
 							},
 							["amount"] = 11816,
 						},
-						["Risen Drakkari Death Knight"] = {
+						["Darkweb Recluse"] = {
 							["Details"] = {
-								["Shockwave"] = {
-									["count"] = 26278,
-								},
-								["Deep Wounds (DoT)"] = {
-									["count"] = 2993,
-								},
-								["Cleave"] = {
-									["count"] = 10685,
-								},
-								["Fire Shield"] = {
-									["count"] = 168,
-								},
-								["Thunder Clap"] = {
-									["count"] = 14915,
-								},
-								["Revenge"] = {
-									["count"] = 27347,
+								["Shield Slam"] = {
+									["count"] = 2031,
 								},
 								["Melee"] = {
-									["count"] = 6246,
+									["count"] = 5018,
+								},
+								["Cleave"] = {
+									["count"] = 3236,
+								},
+								["Fire Shield"] = {
+									["count"] = 502,
+								},
+								["Thunder Clap"] = {
+									["count"] = 13849,
+								},
+								["Revenge"] = {
+									["count"] = 7950,
 								},
 								["Damage Shield"] = {
-									["count"] = 3027,
+									["count"] = 479,
 								},
 								["Devastate"] = {
-									["count"] = 2500,
+									["count"] = 2684,
 								},
-								["Heroic Throw"] = {
-									["count"] = 1726,
+								["Deep Wounds (DoT)"] = {
+									["count"] = 1730,
 								},
-								["Shield Slam"] = {
-									["count"] = 9155,
+								["Shockwave"] = {
+									["count"] = 9187,
 								},
 							},
-							["amount"] = 105040,
+							["amount"] = 46666,
 						},
 						["Drakkari Shaman"] = {
 							["Details"] = {
-								["Deep Wounds (DoT)"] = {
-									["count"] = 528,
+								["Revenge"] = {
+									["count"] = 3879,
 								},
 								["Thunder Clap"] = {
 									["count"] = 5241,
 								},
-								["Revenge"] = {
-									["count"] = 3879,
+								["Melee"] = {
+									["count"] = 2027,
 								},
 								["Cleave"] = {
 									["count"] = 2610,
@@ -10876,8 +10876,8 @@ RecountPerCharDB = {
 								["Fire Shield"] = {
 									["count"] = 84,
 								},
-								["Melee"] = {
-									["count"] = 2027,
+								["Deep Wounds (DoT)"] = {
+									["count"] = 528,
 								},
 							},
 							["amount"] = 23704,
@@ -10890,17 +10890,22 @@ RecountPerCharDB = {
 						["Physical"] = 14127,
 						["Nature"] = 7771,
 					},
-					["WhoDispelled"] = {
-						["Ninimagic"] = {
+					["InterruptData"] = {
+						["Scourge Reanimator"] = {
 							["Details"] = {
-								["Icy Touch (Cleanse)"] = {
-									["count"] = 2,
-								},
-								["Bile Vomit (Cleanse)"] = {
+								["Frostbolt (Shield Bash)"] = {
 									["count"] = 1,
 								},
 							},
-							["amount"] = 3,
+							["amount"] = 1,
+						},
+						["Drakkari Shaman"] = {
+							["Details"] = {
+								["Chain Heal (Shield Bash)"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 1,
 						},
 					},
 					["DOTs"] = {
@@ -10945,8 +10950,8 @@ RecountPerCharDB = {
 								["Drakkari Gutripper"] = {
 									["count"] = 33,
 								},
-								["Risen Drakkari Death Knight"] = {
-									["count"] = 84,
+								["Darkweb Recluse"] = {
+									["count"] = 51,
 								},
 								["Drakkari Shaman"] = {
 									["count"] = 18,
@@ -10957,8 +10962,8 @@ RecountPerCharDB = {
 								["Scourge Reanimator"] = {
 									["count"] = 54,
 								},
-								["Darkweb Recluse"] = {
-									["count"] = 51,
+								["Risen Drakkari Death Knight"] = {
+									["count"] = 84,
 								},
 							},
 							["amount"] = 852,
@@ -11413,14 +11418,14 @@ RecountPerCharDB = {
 								["Revenge"] = {
 									["count"] = 1.62,
 								},
-								["Sunder Armor"] = {
-									["count"] = 0.34,
+								["Devastate"] = {
+									["count"] = 4.49,
 								},
 								["Damage Shield"] = {
 									["count"] = 4.470000000000001,
 								},
-								["Devastate"] = {
-									["count"] = 4.49,
+								["Sunder Armor"] = {
+									["count"] = 0.34,
 								},
 								["Melee"] = {
 									["count"] = 6.25,
@@ -11778,25 +11783,17 @@ RecountPerCharDB = {
 								["Damage Shield"] = {
 									["count"] = 9.639999999999999,
 								},
-								["Sunder Armor"] = {
-									["count"] = 0.64,
+								["Devastate"] = {
+									["count"] = 4.6,
 								},
 								["Shockwave"] = {
 									["count"] = 0.8300000000000001,
 								},
-								["Devastate"] = {
-									["count"] = 4.6,
+								["Sunder Armor"] = {
+									["count"] = 0.64,
 								},
 							},
 							["amount"] = 74.29000000000001,
-						},
-						["Rat"] = {
-							["Details"] = {
-								["Thunder Clap"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
 						},
 						["Darkweb Recluse"] = {
 							["Details"] = {
@@ -11832,6 +11829,14 @@ RecountPerCharDB = {
 								},
 							},
 							["amount"] = 26.09,
+						},
+						["Rat"] = {
+							["Details"] = {
+								["Thunder Clap"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
 						},
 						["Risen Drakkari Death Knight"] = {
 							["Details"] = {
@@ -11925,14 +11930,14 @@ RecountPerCharDB = {
 						},
 						["Drakkari Shaman"] = {
 							["Details"] = {
-								["Deep Wounds (DoT)"] = {
-									["count"] = 2.18,
+								["Revenge"] = {
+									["count"] = 0.47,
 								},
 								["Thunder Clap"] = {
 									["count"] = 0.72,
 								},
-								["Revenge"] = {
-									["count"] = 0.47,
+								["Melee"] = {
+									["count"] = 1.86,
 								},
 								["Cleave"] = {
 									["count"] = 1.95,
@@ -11946,8 +11951,8 @@ RecountPerCharDB = {
 								["Fire Shield"] = {
 									["count"] = 0,
 								},
-								["Melee"] = {
-									["count"] = 1.86,
+								["Deep Wounds (DoT)"] = {
+									["count"] = 2.18,
 								},
 							},
 							["amount"] = 13.06,
@@ -12053,14 +12058,14 @@ RecountPerCharDB = {
 								["Revenge"] = {
 									["count"] = 1.62,
 								},
-								["Sunder Armor"] = {
-									["count"] = 0.34,
+								["Devastate"] = {
+									["count"] = 4.49,
 								},
 								["Damage Shield"] = {
 									["count"] = 4.470000000000001,
 								},
-								["Devastate"] = {
-									["count"] = 4.49,
+								["Sunder Armor"] = {
+									["count"] = 0.34,
 								},
 								["Melee"] = {
 									["count"] = 6.25,
@@ -12386,14 +12391,14 @@ RecountPerCharDB = {
 								["Damage Shield"] = {
 									["count"] = 9.639999999999999,
 								},
-								["Sunder Armor"] = {
-									["count"] = 0.64,
+								["Devastate"] = {
+									["count"] = 4.6,
 								},
 								["Shockwave"] = {
 									["count"] = 0.8300000000000001,
 								},
-								["Devastate"] = {
-									["count"] = 4.6,
+								["Sunder Armor"] = {
+									["count"] = 0.64,
 								},
 							},
 							["amount"] = 74.29000000000001,
@@ -12430,41 +12435,6 @@ RecountPerCharDB = {
 							},
 							["amount"] = 9.670000000000002,
 						},
-						["Darkweb Recluse"] = {
-							["Details"] = {
-								["Shield Slam"] = {
-									["count"] = 0.79,
-								},
-								["Melee"] = {
-									["count"] = 7.65,
-								},
-								["Cleave"] = {
-									["count"] = 1.4,
-								},
-								["Fire Shield"] = {
-									["count"] = 0,
-								},
-								["Thunder Clap"] = {
-									["count"] = 4.29,
-								},
-								["Revenge"] = {
-									["count"] = 0.99,
-								},
-								["Damage Shield"] = {
-									["count"] = 0.67,
-								},
-								["Devastate"] = {
-									["count"] = 2.61,
-								},
-								["Deep Wounds (DoT)"] = {
-									["count"] = 7.69,
-								},
-								["Shockwave"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 26.09,
-						},
 						["Rat"] = {
 							["Details"] = {
 								["Thunder Clap"] = {
@@ -12472,6 +12442,44 @@ RecountPerCharDB = {
 								},
 							},
 							["amount"] = 0,
+						},
+						["Risen Drakkari Death Knight"] = {
+							["Details"] = {
+								["Shockwave"] = {
+									["count"] = 1.41,
+								},
+								["Deep Wounds (DoT)"] = {
+									["count"] = 9.82,
+								},
+								["Cleave"] = {
+									["count"] = 3.28,
+								},
+								["Fire Shield"] = {
+									["count"] = 0,
+								},
+								["Thunder Clap"] = {
+									["count"] = 3.51,
+								},
+								["Revenge"] = {
+									["count"] = 0.72,
+								},
+								["Melee"] = {
+									["count"] = 9.180000000000002,
+								},
+								["Damage Shield"] = {
+									["count"] = 2.93,
+								},
+								["Devastate"] = {
+									["count"] = 0.6699999999999999,
+								},
+								["Heroic Throw"] = {
+									["count"] = 0.69,
+								},
+								["Shield Slam"] = {
+									["count"] = 1.92,
+								},
+							},
+							["amount"] = 34.13,
 						},
 						["Wretched Belcher"] = {
 							["Details"] = {
@@ -12525,54 +12533,51 @@ RecountPerCharDB = {
 							},
 							["amount"] = 5.58,
 						},
-						["Risen Drakkari Death Knight"] = {
+						["Darkweb Recluse"] = {
 							["Details"] = {
-								["Shockwave"] = {
-									["count"] = 1.41,
+								["Shield Slam"] = {
+									["count"] = 0.79,
 								},
-								["Deep Wounds (DoT)"] = {
-									["count"] = 9.82,
+								["Melee"] = {
+									["count"] = 7.65,
 								},
 								["Cleave"] = {
-									["count"] = 3.28,
+									["count"] = 1.4,
 								},
 								["Fire Shield"] = {
 									["count"] = 0,
 								},
 								["Thunder Clap"] = {
-									["count"] = 3.51,
+									["count"] = 4.29,
 								},
 								["Revenge"] = {
-									["count"] = 0.72,
-								},
-								["Melee"] = {
-									["count"] = 9.180000000000002,
+									["count"] = 0.99,
 								},
 								["Damage Shield"] = {
-									["count"] = 2.93,
+									["count"] = 0.67,
 								},
 								["Devastate"] = {
-									["count"] = 0.6699999999999999,
+									["count"] = 2.61,
 								},
-								["Heroic Throw"] = {
-									["count"] = 0.69,
+								["Deep Wounds (DoT)"] = {
+									["count"] = 7.69,
 								},
-								["Shield Slam"] = {
-									["count"] = 1.92,
+								["Shockwave"] = {
+									["count"] = 0,
 								},
 							},
-							["amount"] = 34.13,
+							["amount"] = 26.09,
 						},
 						["Drakkari Shaman"] = {
 							["Details"] = {
-								["Deep Wounds (DoT)"] = {
-									["count"] = 2.18,
+								["Revenge"] = {
+									["count"] = 0.47,
 								},
 								["Thunder Clap"] = {
 									["count"] = 0.72,
 								},
-								["Revenge"] = {
-									["count"] = 0.47,
+								["Melee"] = {
+									["count"] = 1.86,
 								},
 								["Cleave"] = {
 									["count"] = 1.95,
@@ -12586,29 +12591,24 @@ RecountPerCharDB = {
 								["Fire Shield"] = {
 									["count"] = 0,
 								},
-								["Melee"] = {
-									["count"] = 1.86,
+								["Deep Wounds (DoT)"] = {
+									["count"] = 2.18,
 								},
 							},
 							["amount"] = 13.06,
 						},
 					},
-					["InterruptData"] = {
-						["Scourge Reanimator"] = {
+					["WhoDispelled"] = {
+						["Ninimagic"] = {
 							["Details"] = {
-								["Frostbolt (Shield Bash)"] = {
+								["Icy Touch (Cleanse)"] = {
+									["count"] = 2,
+								},
+								["Bile Vomit (Cleanse)"] = {
 									["count"] = 1,
 								},
 							},
-							["amount"] = 1,
-						},
-						["Drakkari Shaman"] = {
-							["Details"] = {
-								["Chain Heal (Shield Bash)"] = {
-									["count"] = 1,
-								},
-							},
-							["amount"] = 1,
+							["amount"] = 3,
 						},
 					},
 					["HealedWho"] = {
@@ -12733,16 +12733,18 @@ RecountPerCharDB = {
 					},
 					["DeathCount"] = 0,
 					["HOT_Time"] = 0,
-					["HOTs"] = {
-					},
+					["DOT_Time"] = 150,
 					["ManaGain"] = 0,
 					["ElementTaken"] = {
 						["Physical"] = 10327,
 						["Melee"] = 23916,
 						["Shadow"] = 27577,
 					},
-					["DOT_Time"] = 150,
-					["Damage"] = 114146,
+					["HOTs"] = {
+					},
+					["ElementTakenBlock"] = {
+						["Melee"] = 7100,
+					},
 					["ElementDoneAbsorb"] = {
 					},
 					["TimeHeal"] = 0,
@@ -12775,45 +12777,168 @@ RecountPerCharDB = {
 					},
 					["ManaGainedFrom"] = {
 					},
-					["ElementHitsDone"] = {
-						["Physical"] = {
+					["DamagedWho"] = {
+						["Drakkari Guardian"] = {
 							["Details"] = {
-								["Hit"] = {
-									["count"] = 60,
+								["Shockwave"] = {
+									["count"] = 6602,
 								},
-								["Tick"] = {
-									["count"] = 50,
+								["Melee"] = {
+									["count"] = 655,
 								},
-								["Dodge"] = {
-									["count"] = 3,
+								["Cleave"] = {
+									["count"] = 8024,
 								},
-								["Crit"] = {
-									["count"] = 15,
+								["Fire Shield"] = {
+									["count"] = 378,
 								},
-								["Parry"] = {
-									["count"] = 1,
+								["Thunder Clap"] = {
+									["count"] = 7146,
+								},
+								["Revenge"] = {
+									["count"] = 7735,
+								},
+								["Damage Shield"] = {
+									["count"] = 3083,
+								},
+								["Devastate"] = {
+									["count"] = 1310,
+								},
+								["Deep Wounds (DoT)"] = {
+									["count"] = 1284,
 								},
 							},
-							["amount"] = 129,
+							["amount"] = 36217,
 						},
-						["Melee"] = {
+						["Darkweb Recluse"] = {
 							["Details"] = {
-								["Glancing"] = {
+								["Shield Slam"] = {
 									["count"] = 0,
 								},
-								["Hit"] = {
-									["count"] = 8,
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Cleave"] = {
+									["count"] = 0,
+								},
+								["Fire Shield"] = {
+									["count"] = 0,
+								},
+								["Thunder Clap"] = {
+									["count"] = 0,
+								},
+								["Revenge"] = {
+									["count"] = 0,
+								},
+								["Damage Shield"] = {
+									["count"] = 0,
+								},
+								["Devastate"] = {
+									["count"] = 0,
+								},
+								["Deep Wounds (DoT)"] = {
+									["count"] = 0,
+								},
+								["Shockwave"] = {
+									["count"] = 0,
 								},
 							},
-							["amount"] = 8,
+							["amount"] = 0,
 						},
-						["Fire"] = {
+						["Risen Drakkari Bat Rider"] = {
 							["Details"] = {
-								["Hit"] = {
-									["count"] = 15,
+								["Shockwave"] = {
+									["count"] = 6562,
+								},
+								["Thunder Clap"] = {
+									["count"] = 5512,
+								},
+								["Deep Wounds (DoT)"] = {
+									["count"] = 522,
+								},
+								["Cleave"] = {
+									["count"] = 4349,
+								},
+								["Damage Shield"] = {
+									["count"] = 448,
+								},
+								["Devastate"] = {
+									["count"] = 2505,
+								},
+								["Fire Shield"] = {
+									["count"] = 42,
+								},
+								["Revenge"] = {
+									["count"] = 8441,
 								},
 							},
-							["amount"] = 15,
+							["amount"] = 28381,
+						},
+						["Darkweb Hatchling"] = {
+							["Details"] = {
+								["Shockwave"] = {
+									["count"] = 0,
+								},
+								["Thunder Clap"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Risen Drakkari Soulmage"] = {
+							["Details"] = {
+								["Shockwave"] = {
+									["count"] = 3324,
+								},
+								["Deep Wounds (DoT)"] = {
+									["count"] = 1938,
+								},
+								["Cleave"] = {
+									["count"] = 4373,
+								},
+								["Fire Shield"] = {
+									["count"] = 84,
+								},
+								["Thunder Clap"] = {
+									["count"] = 4642,
+								},
+								["Revenge"] = {
+									["count"] = 8213,
+								},
+								["Damage Shield"] = {
+									["count"] = 478,
+								},
+								["Devastate"] = {
+									["count"] = 7516,
+								},
+								["Melee"] = {
+									["count"] = 4876,
+								},
+								["Shield Slam"] = {
+									["count"] = 2288,
+								},
+							},
+							["amount"] = 37732,
+						},
+						["Scourge Brute"] = {
+							["Details"] = {
+								["Thunder Clap"] = {
+									["count"] = 3728,
+								},
+								["Deep Wounds (DoT)"] = {
+									["count"] = 1376,
+								},
+								["Cleave"] = {
+									["count"] = 5415,
+								},
+								["Damage Shield"] = {
+									["count"] = 1171,
+								},
+								["Fire Shield"] = {
+									["count"] = 126,
+								},
+							},
+							["amount"] = 11816,
 						},
 					},
 					["RageGained"] = {
@@ -12910,8 +13035,9 @@ RecountPerCharDB = {
 					},
 					["EnergyGainedFrom"] = {
 					},
-					["Dispelled"] = 0,
-					["RunicPowerGained"] = {
+					["OverHeals"] = {
+					},
+					["CCBroken"] = {
 					},
 					["ElementDoneBlock"] = {
 						["Melee"] = 40,
@@ -12919,8 +13045,7 @@ RecountPerCharDB = {
 					},
 					["TimeHealing"] = {
 					},
-					["OverHeals"] = {
-					},
+					["Dispelled"] = 0,
 					["WhoHealed"] = {
 						["Ninimagic"] = {
 							["Details"] = {
@@ -12934,119 +13059,6 @@ RecountPerCharDB = {
 							["amount"] = 58709,
 						},
 					},
-					["EnergyGain"] = 0,
-					["CCBreak"] = 0,
-					["PartialAbsorb"] = {
-						["Hamstring"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 7,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 7,
-							["amount"] = 0,
-						},
-						["Shadow Blast"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 2,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 2,
-							["amount"] = 0,
-						},
-						["Blood Siphon"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 5,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 5,
-							["amount"] = 0,
-						},
-						["Curse of Blood"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 0,
-						},
-						["Impale (DoT)"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 3,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 3,
-							["amount"] = 0,
-						},
-						["Knockdown"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 4,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 4,
-							["amount"] = 0,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 41,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 41,
-							["amount"] = 0,
-						},
-						["Mortal Strike"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 2,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 2,
-							["amount"] = 0,
-						},
-						["Shadow Void (DoT)"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 3,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 3,
-							["amount"] = 0,
-						},
-					},
-					["ActiveTime"] = 36.76000000000001,
 					["PartialResist"] = {
 						["Hamstring"] = {
 							["Details"] = {
@@ -13157,11 +13169,15 @@ RecountPerCharDB = {
 							["amount"] = 0,
 						},
 					},
+					["CCBreak"] = 0,
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["EnergyGain"] = 0,
 					["ManaGained"] = {
 					},
 					["ElementTakenAbsorb"] = {
 					},
-					["Interrupts"] = 0,
+					["ActiveTime"] = 36.76000000000001,
 					["Overhealing"] = 0,
 					["ElementTakenResist"] = {
 					},
@@ -13341,15 +13357,124 @@ RecountPerCharDB = {
 					},
 					["Heals"] = {
 					},
-					["FDamage"] = 0,
+					["PartialAbsorb"] = {
+						["Hamstring"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 7,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 7,
+							["amount"] = 0,
+						},
+						["Shadow Blast"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 0,
+						},
+						["Blood Siphon"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 5,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 5,
+							["amount"] = 0,
+						},
+						["Curse of Blood"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+						["Impale (DoT)"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 3,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 3,
+							["amount"] = 0,
+						},
+						["Knockdown"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 4,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 4,
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 41,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 41,
+							["amount"] = 0,
+						},
+						["Mortal Strike"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 0,
+						},
+						["Shadow Void (DoT)"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 3,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 3,
+							["amount"] = 0,
+						},
+					},
 					["EnergyGained"] = {
 					},
 					["HealedWho"] = {
 					},
 					["Healing"] = 0,
-					["RunicPowerGainedFrom"] = {
+					["RunicPowerGained"] = {
 					},
-					["CCBroken"] = {
+					["RunicPowerGainedFrom"] = {
 					},
 					["Attacks"] = {
 						["Shield Slam"] = {
@@ -13540,168 +13665,45 @@ RecountPerCharDB = {
 						},
 					},
 					["HealingTaken"] = 58709,
-					["DamagedWho"] = {
-						["Drakkari Guardian"] = {
+					["ElementHitsDone"] = {
+						["Physical"] = {
 							["Details"] = {
-								["Shockwave"] = {
-									["count"] = 6602,
+								["Hit"] = {
+									["count"] = 60,
 								},
-								["Melee"] = {
-									["count"] = 655,
+								["Tick"] = {
+									["count"] = 50,
 								},
-								["Cleave"] = {
-									["count"] = 8024,
+								["Dodge"] = {
+									["count"] = 3,
 								},
-								["Fire Shield"] = {
-									["count"] = 378,
+								["Crit"] = {
+									["count"] = 15,
 								},
-								["Thunder Clap"] = {
-									["count"] = 7146,
-								},
-								["Revenge"] = {
-									["count"] = 7735,
-								},
-								["Damage Shield"] = {
-									["count"] = 3083,
-								},
-								["Devastate"] = {
-									["count"] = 1310,
-								},
-								["Deep Wounds (DoT)"] = {
-									["count"] = 1284,
+								["Parry"] = {
+									["count"] = 1,
 								},
 							},
-							["amount"] = 36217,
+							["amount"] = 129,
 						},
-						["Darkweb Recluse"] = {
+						["Melee"] = {
 							["Details"] = {
-								["Shield Slam"] = {
+								["Glancing"] = {
 									["count"] = 0,
 								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Cleave"] = {
-									["count"] = 0,
-								},
-								["Fire Shield"] = {
-									["count"] = 0,
-								},
-								["Thunder Clap"] = {
-									["count"] = 0,
-								},
-								["Revenge"] = {
-									["count"] = 0,
-								},
-								["Damage Shield"] = {
-									["count"] = 0,
-								},
-								["Devastate"] = {
-									["count"] = 0,
-								},
-								["Deep Wounds (DoT)"] = {
-									["count"] = 0,
-								},
-								["Shockwave"] = {
-									["count"] = 0,
+								["Hit"] = {
+									["count"] = 8,
 								},
 							},
-							["amount"] = 0,
+							["amount"] = 8,
 						},
-						["Risen Drakkari Bat Rider"] = {
+						["Fire"] = {
 							["Details"] = {
-								["Shockwave"] = {
-									["count"] = 6562,
-								},
-								["Thunder Clap"] = {
-									["count"] = 5512,
-								},
-								["Deep Wounds (DoT)"] = {
-									["count"] = 522,
-								},
-								["Cleave"] = {
-									["count"] = 4349,
-								},
-								["Damage Shield"] = {
-									["count"] = 448,
-								},
-								["Devastate"] = {
-									["count"] = 2505,
-								},
-								["Fire Shield"] = {
-									["count"] = 42,
-								},
-								["Revenge"] = {
-									["count"] = 8441,
+								["Hit"] = {
+									["count"] = 15,
 								},
 							},
-							["amount"] = 28381,
-						},
-						["Darkweb Hatchling"] = {
-							["Details"] = {
-								["Shockwave"] = {
-									["count"] = 0,
-								},
-								["Thunder Clap"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Risen Drakkari Soulmage"] = {
-							["Details"] = {
-								["Shockwave"] = {
-									["count"] = 3324,
-								},
-								["Deep Wounds (DoT)"] = {
-									["count"] = 1938,
-								},
-								["Cleave"] = {
-									["count"] = 4373,
-								},
-								["Fire Shield"] = {
-									["count"] = 84,
-								},
-								["Thunder Clap"] = {
-									["count"] = 4642,
-								},
-								["Revenge"] = {
-									["count"] = 8213,
-								},
-								["Damage Shield"] = {
-									["count"] = 478,
-								},
-								["Devastate"] = {
-									["count"] = 7516,
-								},
-								["Melee"] = {
-									["count"] = 4876,
-								},
-								["Shield Slam"] = {
-									["count"] = 2288,
-								},
-							},
-							["amount"] = 37732,
-						},
-						["Scourge Brute"] = {
-							["Details"] = {
-								["Thunder Clap"] = {
-									["count"] = 3728,
-								},
-								["Deep Wounds (DoT)"] = {
-									["count"] = 1376,
-								},
-								["Cleave"] = {
-									["count"] = 5415,
-								},
-								["Damage Shield"] = {
-									["count"] = 1171,
-								},
-								["Fire Shield"] = {
-									["count"] = 126,
-								},
-							},
-							["amount"] = 11816,
+							["amount"] = 15,
 						},
 					},
 					["TimeDamage"] = 36.76000000000001,
@@ -13876,9 +13878,7 @@ RecountPerCharDB = {
 						},
 					},
 					["RunicPowerGain"] = 0,
-					["ElementTakenBlock"] = {
-						["Melee"] = 7100,
-					},
+					["Damage"] = 114146,
 					["DispelledWho"] = {
 					},
 				},
@@ -13965,16 +13965,18 @@ RecountPerCharDB = {
 					},
 					["DeathCount"] = 0,
 					["HOT_Time"] = 0,
-					["HOTs"] = {
-					},
+					["DOT_Time"] = 0,
 					["ManaGain"] = 0,
 					["ElementTaken"] = {
 						["Physical"] = 0,
 						["Melee"] = 0,
 						["Shadow"] = 0,
 					},
-					["DOT_Time"] = 0,
-					["Damage"] = 0,
+					["HOTs"] = {
+					},
+					["ElementTakenBlock"] = {
+						["Melee"] = 0,
+					},
 					["ElementDoneAbsorb"] = {
 					},
 					["TimeHeal"] = 0,
@@ -14007,41 +14009,129 @@ RecountPerCharDB = {
 					},
 					["ManaGainedFrom"] = {
 					},
-					["ElementHitsDone"] = {
-						["Physical"] = {
+					["DamagedWho"] = {
+						["Trollgore"] = {
 							["Details"] = {
-								["Immune"] = {
+								["Shield Slam"] = {
 									["count"] = 0,
 								},
-								["Hit"] = {
+								["Melee"] = {
 									["count"] = 0,
 								},
-								["Tick"] = {
+								["Revenge"] = {
 									["count"] = 0,
 								},
-								["Crit"] = {
+								["Deep Wounds (DoT)"] = {
 									["count"] = 0,
 								},
-								["Dodge"] = {
+								["Damage Shield"] = {
+									["count"] = 0,
+								},
+								["Devastate"] = {
+									["count"] = 0,
+								},
+								["Fire Shield"] = {
+									["count"] = 0,
+								},
+								["Heroic Strike"] = {
 									["count"] = 0,
 								},
 							},
 							["amount"] = 0,
 						},
-						["Melee"] = {
+						["Drakkari Raptor Mount"] = {
 							["Details"] = {
-								["Glancing"] = {
+								["Damage Shield"] = {
 									["count"] = 0,
 								},
-								["Hit"] = {
+								["Thunder Clap"] = {
+									["count"] = 0,
+								},
+								["Fire Shield"] = {
+									["count"] = 0,
+								},
+								["Deep Wounds (DoT)"] = {
 									["count"] = 0,
 								},
 							},
 							["amount"] = 0,
 						},
-						["Fire"] = {
+						["Flesheating Ghoul"] = {
 							["Details"] = {
-								["Hit"] = {
+								["Shockwave"] = {
+									["count"] = 0,
+								},
+								["Thunder Clap"] = {
+									["count"] = 0,
+								},
+								["Revenge"] = {
+									["count"] = 0,
+								},
+								["Devastate"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Ghoul Tormentor"] = {
+							["Details"] = {
+								["Shield Slam"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Cleave"] = {
+									["count"] = 0,
+								},
+								["Fire Shield"] = {
+									["count"] = 0,
+								},
+								["Thunder Clap"] = {
+									["count"] = 0,
+								},
+								["Revenge"] = {
+									["count"] = 0,
+								},
+								["Damage Shield"] = {
+									["count"] = 0,
+								},
+								["Deep Wounds (DoT)"] = {
+									["count"] = 0,
+								},
+								["Shockwave"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Risen Drakkari Handler"] = {
+							["Details"] = {
+								["Shield Slam"] = {
+									["count"] = 0,
+								},
+								["Thunder Clap"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Cleave"] = {
+									["count"] = 0,
+								},
+								["Damage Shield"] = {
+									["count"] = 0,
+								},
+								["Devastate"] = {
+									["count"] = 0,
+								},
+								["Fire Shield"] = {
+									["count"] = 0,
+								},
+								["Revenge"] = {
 									["count"] = 0,
 								},
 							},
@@ -14114,8 +14204,9 @@ RecountPerCharDB = {
 					},
 					["EnergyGainedFrom"] = {
 					},
-					["Dispelled"] = 0,
-					["RunicPowerGained"] = {
+					["OverHeals"] = {
+					},
+					["CCBroken"] = {
 					},
 					["ElementDoneBlock"] = {
 						["Melee"] = 0,
@@ -14123,8 +14214,7 @@ RecountPerCharDB = {
 					},
 					["TimeHealing"] = {
 					},
-					["OverHeals"] = {
-					},
+					["Dispelled"] = 0,
 					["WhoHealed"] = {
 						["Ninimagic"] = {
 							["Details"] = {
@@ -14141,83 +14231,6 @@ RecountPerCharDB = {
 							["amount"] = 0,
 						},
 					},
-					["EnergyGain"] = 0,
-					["CCBreak"] = 0,
-					["PartialAbsorb"] = {
-						["Crush"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Flesh Rot"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Cleave"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Flesh Rot (DoT)"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Consume"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["ActiveTime"] = 0,
 					["PartialResist"] = {
 						["Crush"] = {
 							["Details"] = {
@@ -14292,11 +14305,15 @@ RecountPerCharDB = {
 							["amount"] = 0,
 						},
 					},
+					["CCBreak"] = 0,
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["EnergyGain"] = 0,
 					["ManaGained"] = {
 					},
 					["ElementTakenAbsorb"] = {
 					},
-					["Interrupts"] = 0,
+					["ActiveTime"] = 0,
 					["Overhealing"] = 0,
 					["ElementTakenResist"] = {
 					},
@@ -14438,15 +14455,88 @@ RecountPerCharDB = {
 					},
 					["Heals"] = {
 					},
-					["FDamage"] = 0,
+					["PartialAbsorb"] = {
+						["Crush"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Flesh Rot"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Cleave"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Flesh Rot (DoT)"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Consume"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
 					["EnergyGained"] = {
 					},
 					["HealedWho"] = {
 					},
 					["Healing"] = 0,
-					["RunicPowerGainedFrom"] = {
+					["RunicPowerGained"] = {
 					},
-					["CCBroken"] = {
+					["RunicPowerGainedFrom"] = {
 					},
 					["Attacks"] = {
 						["Shield Slam"] = {
@@ -14649,129 +14739,41 @@ RecountPerCharDB = {
 						},
 					},
 					["HealingTaken"] = 0,
-					["DamagedWho"] = {
-						["Trollgore"] = {
+					["ElementHitsDone"] = {
+						["Physical"] = {
 							["Details"] = {
-								["Shield Slam"] = {
+								["Immune"] = {
 									["count"] = 0,
 								},
-								["Melee"] = {
+								["Hit"] = {
 									["count"] = 0,
 								},
-								["Revenge"] = {
+								["Tick"] = {
 									["count"] = 0,
 								},
-								["Deep Wounds (DoT)"] = {
+								["Crit"] = {
 									["count"] = 0,
 								},
-								["Damage Shield"] = {
-									["count"] = 0,
-								},
-								["Devastate"] = {
-									["count"] = 0,
-								},
-								["Fire Shield"] = {
-									["count"] = 0,
-								},
-								["Heroic Strike"] = {
+								["Dodge"] = {
 									["count"] = 0,
 								},
 							},
 							["amount"] = 0,
 						},
-						["Drakkari Raptor Mount"] = {
+						["Melee"] = {
 							["Details"] = {
-								["Damage Shield"] = {
+								["Glancing"] = {
 									["count"] = 0,
 								},
-								["Thunder Clap"] = {
-									["count"] = 0,
-								},
-								["Fire Shield"] = {
-									["count"] = 0,
-								},
-								["Deep Wounds (DoT)"] = {
+								["Hit"] = {
 									["count"] = 0,
 								},
 							},
 							["amount"] = 0,
 						},
-						["Flesheating Ghoul"] = {
+						["Fire"] = {
 							["Details"] = {
-								["Shockwave"] = {
-									["count"] = 0,
-								},
-								["Thunder Clap"] = {
-									["count"] = 0,
-								},
-								["Revenge"] = {
-									["count"] = 0,
-								},
-								["Devastate"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Ghoul Tormentor"] = {
-							["Details"] = {
-								["Shield Slam"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Cleave"] = {
-									["count"] = 0,
-								},
-								["Fire Shield"] = {
-									["count"] = 0,
-								},
-								["Thunder Clap"] = {
-									["count"] = 0,
-								},
-								["Revenge"] = {
-									["count"] = 0,
-								},
-								["Damage Shield"] = {
-									["count"] = 0,
-								},
-								["Deep Wounds (DoT)"] = {
-									["count"] = 0,
-								},
-								["Shockwave"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Risen Drakkari Handler"] = {
-							["Details"] = {
-								["Shield Slam"] = {
-									["count"] = 0,
-								},
-								["Thunder Clap"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Cleave"] = {
-									["count"] = 0,
-								},
-								["Damage Shield"] = {
-									["count"] = 0,
-								},
-								["Devastate"] = {
-									["count"] = 0,
-								},
-								["Fire Shield"] = {
-									["count"] = 0,
-								},
-								["Revenge"] = {
+								["Hit"] = {
 									["count"] = 0,
 								},
 							},
@@ -14912,9 +14914,7 @@ RecountPerCharDB = {
 						},
 					},
 					["RunicPowerGain"] = 0,
-					["ElementTakenBlock"] = {
-						["Melee"] = 0,
-					},
+					["Damage"] = 0,
 					["DispelledWho"] = {
 					},
 				},
@@ -15036,8 +15036,7 @@ RecountPerCharDB = {
 					},
 					["DeathCount"] = 0,
 					["HOT_Time"] = 0,
-					["HOTs"] = {
-					},
+					["DOT_Time"] = 132,
 					["ManaGain"] = 0,
 					["ElementTaken"] = {
 						["Physical"] = 1849,
@@ -15046,8 +15045,12 @@ RecountPerCharDB = {
 						["Frost"] = 15252,
 						["Nature"] = 3735,
 					},
-					["DOT_Time"] = 132,
-					["Damage"] = 153386,
+					["HOTs"] = {
+					},
+					["ElementTakenBlock"] = {
+						["Melee"] = 10855,
+						["Physical"] = 0,
+					},
 					["ElementDoneAbsorb"] = {
 					},
 					["TimeHeal"] = 3.84,
@@ -15086,63 +15089,195 @@ RecountPerCharDB = {
 					},
 					["RageGain"] = 135,
 					["ElementDone"] = {
-						["Physical"] = 130276,
 						["Fire"] = 210,
-						["Melee"] = 18215,
 						["Shadow"] = 4685,
+						["Melee"] = 18215,
+						["Physical"] = 130276,
 					},
 					["ManaGainedFrom"] = {
 					},
-					["ElementHitsDone"] = {
-						["Physical"] = {
+					["DamagedWho"] = {
+						["Risen Drakkari Warrior"] = {
 							["Details"] = {
-								["Immune"] = {
-									["count"] = 1,
+								["Shield Slam"] = {
+									["count"] = 0,
 								},
-								["Hit"] = {
-									["count"] = 66,
+								["Melee"] = {
+									["count"] = 0,
 								},
-								["Tick"] = {
-									["count"] = 44,
+								["Cleave"] = {
+									["count"] = 0,
 								},
-								["Crit"] = {
-									["count"] = 7,
+								["Damage Shield"] = {
+									["count"] = 0,
 								},
-								["Dodge"] = {
-									["count"] = 1,
+								["Devastate"] = {
+									["count"] = 0,
+								},
+								["Revenge"] = {
+									["count"] = 0,
+								},
+								["Deep Wounds (DoT)"] = {
+									["count"] = 0,
 								},
 							},
-							["amount"] = 119,
+							["amount"] = 0,
 						},
-						["Fire"] = {
+						["Drakkari Gutripper"] = {
 							["Details"] = {
-								["Hit"] = {
-									["count"] = 5,
+								["Shield Slam"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Cleave"] = {
+									["count"] = 0,
+								},
+								["Fire Shield"] = {
+									["count"] = 0,
+								},
+								["Thunder Clap"] = {
+									["count"] = 0,
+								},
+								["Revenge"] = {
+									["count"] = 0,
+								},
+								["Damage Shield"] = {
+									["count"] = 0,
+								},
+								["Devastate"] = {
+									["count"] = 0,
+								},
+								["Deep Wounds (DoT)"] = {
+									["count"] = 0,
 								},
 							},
-							["amount"] = 5,
+							["amount"] = 0,
 						},
-						["Melee"] = {
+						["Drakkari Raptor Mount"] = {
 							["Details"] = {
-								["Glancing"] = {
-									["count"] = 5,
+								["Damage Shield"] = {
+									["count"] = 0,
 								},
-								["Crit"] = {
-									["count"] = 4,
+								["Thunder Clap"] = {
+									["count"] = 0,
 								},
-								["Hit"] = {
-									["count"] = 15,
+								["Revenge"] = {
+									["count"] = 0,
+								},
+								["Cleave"] = {
+									["count"] = 0,
 								},
 							},
-							["amount"] = 24,
+							["amount"] = 0,
 						},
-						["Shadow"] = {
+						["Wretched Belcher"] = {
 							["Details"] = {
-								["Hit"] = {
-									["count"] = 3,
+								["Revenge"] = {
+									["count"] = 0,
+								},
+								["Cleave"] = {
+									["count"] = 0,
 								},
 							},
-							["amount"] = 3,
+							["amount"] = 0,
+						},
+						["Risen Drakkari Handler"] = {
+							["Details"] = {
+								["Shield Slam"] = {
+									["count"] = 0,
+								},
+								["Thunder Clap"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Cleave"] = {
+									["count"] = 0,
+								},
+								["Revenge"] = {
+									["count"] = 0,
+								},
+								["Deep Wounds (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Risen Drakkari Death Knight"] = {
+							["Details"] = {
+								["Shockwave"] = {
+									["count"] = 22994,
+								},
+								["Deep Wounds (DoT)"] = {
+									["count"] = 2993,
+								},
+								["Cleave"] = {
+									["count"] = 10685,
+								},
+								["Fire Shield"] = {
+									["count"] = 168,
+								},
+								["Thunder Clap"] = {
+									["count"] = 13222,
+								},
+								["Revenge"] = {
+									["count"] = 27347,
+								},
+								["Melee"] = {
+									["count"] = 6246,
+								},
+								["Damage Shield"] = {
+									["count"] = 3027,
+								},
+								["Devastate"] = {
+									["count"] = 2500,
+								},
+								["Heroic Throw"] = {
+									["count"] = 1726,
+								},
+								["Shield Slam"] = {
+									["count"] = 6832,
+								},
+							},
+							["amount"] = 97740,
+						},
+						["The Prophet Tharon'ja"] = {
+							["Details"] = {
+								["Shield Slam"] = {
+									["count"] = 10959,
+								},
+								["Deep Wounds (DoT)"] = {
+									["count"] = 1376,
+								},
+								["Touch of Life"] = {
+									["count"] = 4685,
+								},
+								["Fire Shield"] = {
+									["count"] = 42,
+								},
+								["Revenge"] = {
+									["count"] = 8143,
+								},
+								["Slaying Strike"] = {
+									["count"] = 3655,
+								},
+								["Damage Shield"] = {
+									["count"] = 222,
+								},
+								["Devastate"] = {
+									["count"] = 13576,
+								},
+								["Melee"] = {
+									["count"] = 11969,
+								},
+								["Heroic Strike"] = {
+									["count"] = 1019,
+								},
+							},
+							["amount"] = 55646,
 						},
 					},
 					["RageGained"] = {
@@ -15227,8 +15362,21 @@ RecountPerCharDB = {
 					},
 					["EnergyGainedFrom"] = {
 					},
-					["Dispelled"] = 2,
-					["RunicPowerGained"] = {
+					["OverHeals"] = {
+						["Touch of Life"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 311,
+									["min"] = 311,
+									["count"] = 1,
+									["amount"] = 311,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 311,
+						},
+					},
+					["CCBroken"] = {
 					},
 					["ElementDoneBlock"] = {
 						["Melee"] = 82,
@@ -15244,20 +15392,7 @@ RecountPerCharDB = {
 							["amount"] = 3.84,
 						},
 					},
-					["OverHeals"] = {
-						["Touch of Life"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 311,
-									["min"] = 311,
-									["count"] = 1,
-									["amount"] = 311,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 311,
-						},
-					},
+					["Dispelled"] = 2,
 					["WhoHealed"] = {
 						["Ninimagic"] = {
 							["Details"] = {
@@ -15285,173 +15420,6 @@ RecountPerCharDB = {
 							["amount"] = 4607,
 						},
 					},
-					["EnergyGain"] = 0,
-					["CCBreak"] = 0,
-					["PartialAbsorb"] = {
-						["Poison Cloud (DoT)"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 3,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 3,
-							["amount"] = 0,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 32,
-									["amount"] = 0,
-								},
-								["Absorbed"] = {
-									["max"] = 1861,
-									["min"] = 1861,
-									["count"] = 1,
-									["amount"] = 1861,
-								},
-							},
-							["count"] = 33,
-							["amount"] = 1861,
-						},
-						["Cleave"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Icy Touch"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 4,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 4,
-							["amount"] = 0,
-						},
-						["Ghost Strike"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Disease Cloud"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Gut Rip"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Deafening Roar"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 0,
-								},
-								["Absorbed"] = {
-									["max"] = 1371,
-									["min"] = 1280,
-									["count"] = 3,
-									["amount"] = 3986,
-								},
-							},
-							["count"] = 4,
-							["amount"] = 3986,
-						},
-						["Shadow Volley"] = {
-							["Details"] = {
-								["Absorbed"] = {
-									["max"] = 3526,
-									["min"] = 3328,
-									["count"] = 2,
-									["amount"] = 6854,
-								},
-							},
-							["count"] = 2,
-							["amount"] = 6854,
-						},
-						["Shoot"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Curse of Life (DoT)"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 4,
-									["amount"] = 0,
-								},
-								["Absorbed"] = {
-									["max"] = 1795,
-									["min"] = 130,
-									["count"] = 2,
-									["amount"] = 1925,
-								},
-							},
-							["count"] = 6,
-							["amount"] = 1925,
-						},
-						["Poison Cloud"] = {
-							["Details"] = {
-								["Absorbed"] = {
-									["max"] = 1245,
-									["min"] = 1245,
-									["count"] = 1,
-									["amount"] = 1245,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 1245,
-						},
-					},
-					["ActiveTime"] = 83.71000000000001,
 					["PartialResist"] = {
 						["Poison Cloud (DoT)"] = {
 							["Details"] = {
@@ -15598,6 +15566,10 @@ RecountPerCharDB = {
 							["amount"] = 0,
 						},
 					},
+					["CCBreak"] = 0,
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["EnergyGain"] = 0,
 					["ManaGained"] = {
 					},
 					["ElementTakenAbsorb"] = {
@@ -15606,7 +15578,7 @@ RecountPerCharDB = {
 						["Melee"] = 1861,
 						["Nature"] = 1245,
 					},
-					["Interrupts"] = 0,
+					["ActiveTime"] = 83.71000000000001,
 					["Overhealing"] = 311,
 					["ElementTakenResist"] = {
 					},
@@ -15831,7 +15803,170 @@ RecountPerCharDB = {
 							["amount"] = 4607,
 						},
 					},
-					["FDamage"] = 0,
+					["PartialAbsorb"] = {
+						["Poison Cloud (DoT)"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 3,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 3,
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 32,
+									["amount"] = 0,
+								},
+								["Absorbed"] = {
+									["max"] = 1861,
+									["min"] = 1861,
+									["count"] = 1,
+									["amount"] = 1861,
+								},
+							},
+							["count"] = 33,
+							["amount"] = 1861,
+						},
+						["Cleave"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Icy Touch"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 4,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 4,
+							["amount"] = 0,
+						},
+						["Ghost Strike"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Disease Cloud"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Gut Rip"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Deafening Roar"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+								["Absorbed"] = {
+									["max"] = 1371,
+									["min"] = 1280,
+									["count"] = 3,
+									["amount"] = 3986,
+								},
+							},
+							["count"] = 4,
+							["amount"] = 3986,
+						},
+						["Shadow Volley"] = {
+							["Details"] = {
+								["Absorbed"] = {
+									["max"] = 3526,
+									["min"] = 3328,
+									["count"] = 2,
+									["amount"] = 6854,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 6854,
+						},
+						["Shoot"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Curse of Life (DoT)"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 4,
+									["amount"] = 0,
+								},
+								["Absorbed"] = {
+									["max"] = 1795,
+									["min"] = 130,
+									["count"] = 2,
+									["amount"] = 1925,
+								},
+							},
+							["count"] = 6,
+							["amount"] = 1925,
+						},
+						["Poison Cloud"] = {
+							["Details"] = {
+								["Absorbed"] = {
+									["max"] = 1245,
+									["min"] = 1245,
+									["count"] = 1,
+									["amount"] = 1245,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 1245,
+						},
+					},
 					["EnergyGained"] = {
 					},
 					["HealedWho"] = {
@@ -15845,9 +15980,9 @@ RecountPerCharDB = {
 						},
 					},
 					["Healing"] = 4607,
-					["RunicPowerGainedFrom"] = {
+					["RunicPowerGained"] = {
 					},
-					["CCBroken"] = {
+					["RunicPowerGainedFrom"] = {
 					},
 					["Attacks"] = {
 						["Shield Slam"] = {
@@ -16100,188 +16235,56 @@ RecountPerCharDB = {
 						},
 					},
 					["HealingTaken"] = 41414,
-					["DamagedWho"] = {
-						["Risen Drakkari Warrior"] = {
+					["ElementHitsDone"] = {
+						["Fire"] = {
 							["Details"] = {
-								["Shield Slam"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Cleave"] = {
-									["count"] = 0,
-								},
-								["Damage Shield"] = {
-									["count"] = 0,
-								},
-								["Devastate"] = {
-									["count"] = 0,
-								},
-								["Revenge"] = {
-									["count"] = 0,
-								},
-								["Deep Wounds (DoT)"] = {
-									["count"] = 0,
+								["Hit"] = {
+									["count"] = 5,
 								},
 							},
-							["amount"] = 0,
+							["amount"] = 5,
 						},
-						["Drakkari Gutripper"] = {
+						["Shadow"] = {
 							["Details"] = {
-								["Shield Slam"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Cleave"] = {
-									["count"] = 0,
-								},
-								["Fire Shield"] = {
-									["count"] = 0,
-								},
-								["Thunder Clap"] = {
-									["count"] = 0,
-								},
-								["Revenge"] = {
-									["count"] = 0,
-								},
-								["Damage Shield"] = {
-									["count"] = 0,
-								},
-								["Devastate"] = {
-									["count"] = 0,
-								},
-								["Deep Wounds (DoT)"] = {
-									["count"] = 0,
+								["Hit"] = {
+									["count"] = 3,
 								},
 							},
-							["amount"] = 0,
+							["amount"] = 3,
 						},
-						["Drakkari Raptor Mount"] = {
+						["Melee"] = {
 							["Details"] = {
-								["Damage Shield"] = {
-									["count"] = 0,
+								["Glancing"] = {
+									["count"] = 5,
 								},
-								["Thunder Clap"] = {
-									["count"] = 0,
+								["Crit"] = {
+									["count"] = 4,
 								},
-								["Revenge"] = {
-									["count"] = 0,
-								},
-								["Cleave"] = {
-									["count"] = 0,
+								["Hit"] = {
+									["count"] = 15,
 								},
 							},
-							["amount"] = 0,
+							["amount"] = 24,
 						},
-						["Wretched Belcher"] = {
+						["Physical"] = {
 							["Details"] = {
-								["Revenge"] = {
-									["count"] = 0,
+								["Immune"] = {
+									["count"] = 1,
 								},
-								["Cleave"] = {
-									["count"] = 0,
+								["Hit"] = {
+									["count"] = 66,
+								},
+								["Tick"] = {
+									["count"] = 44,
+								},
+								["Crit"] = {
+									["count"] = 7,
+								},
+								["Dodge"] = {
+									["count"] = 1,
 								},
 							},
-							["amount"] = 0,
-						},
-						["Risen Drakkari Handler"] = {
-							["Details"] = {
-								["Shield Slam"] = {
-									["count"] = 0,
-								},
-								["Thunder Clap"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Cleave"] = {
-									["count"] = 0,
-								},
-								["Revenge"] = {
-									["count"] = 0,
-								},
-								["Deep Wounds (DoT)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Risen Drakkari Death Knight"] = {
-							["Details"] = {
-								["Shockwave"] = {
-									["count"] = 22994,
-								},
-								["Deep Wounds (DoT)"] = {
-									["count"] = 2993,
-								},
-								["Cleave"] = {
-									["count"] = 10685,
-								},
-								["Fire Shield"] = {
-									["count"] = 168,
-								},
-								["Thunder Clap"] = {
-									["count"] = 13222,
-								},
-								["Revenge"] = {
-									["count"] = 27347,
-								},
-								["Melee"] = {
-									["count"] = 6246,
-								},
-								["Damage Shield"] = {
-									["count"] = 3027,
-								},
-								["Devastate"] = {
-									["count"] = 2500,
-								},
-								["Heroic Throw"] = {
-									["count"] = 1726,
-								},
-								["Shield Slam"] = {
-									["count"] = 6832,
-								},
-							},
-							["amount"] = 97740,
-						},
-						["The Prophet Tharon'ja"] = {
-							["Details"] = {
-								["Shield Slam"] = {
-									["count"] = 10959,
-								},
-								["Deep Wounds (DoT)"] = {
-									["count"] = 1376,
-								},
-								["Touch of Life"] = {
-									["count"] = 4685,
-								},
-								["Fire Shield"] = {
-									["count"] = 42,
-								},
-								["Revenge"] = {
-									["count"] = 8143,
-								},
-								["Slaying Strike"] = {
-									["count"] = 3655,
-								},
-								["Damage Shield"] = {
-									["count"] = 222,
-								},
-								["Devastate"] = {
-									["count"] = 13576,
-								},
-								["Melee"] = {
-									["count"] = 11969,
-								},
-								["Heroic Strike"] = {
-									["count"] = 1019,
-								},
-							},
-							["amount"] = 55646,
+							["amount"] = 119,
 						},
 					},
 					["TimeDamage"] = 79.87000000000001,
@@ -16473,10 +16476,7 @@ RecountPerCharDB = {
 						},
 					},
 					["RunicPowerGain"] = 0,
-					["ElementTakenBlock"] = {
-						["Melee"] = 10855,
-						["Physical"] = 0,
-					},
+					["Damage"] = 153386,
 					["DispelledWho"] = {
 					},
 				},
@@ -16545,14 +16545,15 @@ RecountPerCharDB = {
 					},
 					["DeathCount"] = 0,
 					["HOT_Time"] = 0,
-					["HOTs"] = {
-					},
+					["DOT_Time"] = 12,
 					["ManaGain"] = 0,
 					["ElementTaken"] = {
 						["Physical"] = 3220,
 					},
-					["DOT_Time"] = 12,
-					["Damage"] = 33737,
+					["HOTs"] = {
+					},
+					["ElementTakenBlock"] = {
+					},
 					["ElementDoneAbsorb"] = {
 					},
 					["TimeHeal"] = 0,
@@ -16572,28 +16573,63 @@ RecountPerCharDB = {
 					},
 					["ManaGainedFrom"] = {
 					},
-					["ElementHitsDone"] = {
-						["Melee"] = {
+					["DamagedWho"] = {
+						["Risen Drakkari Warrior"] = {
 							["Details"] = {
-								["Hit"] = {
-									["count"] = 5,
+								["Shockwave"] = {
+									["count"] = 6642,
+								},
+								["Thunder Clap"] = {
+									["count"] = 3354,
+								},
+								["Melee"] = {
+									["count"] = 3183,
+								},
+								["Cleave"] = {
+									["count"] = 2580,
+								},
+								["Damage Shield"] = {
+									["count"] = 227,
+								},
+								["Devastate"] = {
+									["count"] = 1146,
 								},
 							},
-							["amount"] = 5,
+							["amount"] = 17132,
 						},
-						["Physical"] = {
+						["Drakkari Guardian"] = {
 							["Details"] = {
-								["Hit"] = {
-									["count"] = 19,
+								["Shockwave"] = {
+									["count"] = 3281,
 								},
-								["Crit"] = {
-									["count"] = 1,
+								["Thunder Clap"] = {
+									["count"] = 886,
 								},
-								["Tick"] = {
-									["count"] = 4,
+								["Deep Wounds (DoT)"] = {
+									["count"] = 456,
+								},
+								["Cleave"] = {
+									["count"] = 1966,
+								},
+								["Devastate"] = {
+									["count"] = 2716,
 								},
 							},
-							["amount"] = 24,
+							["amount"] = 9305,
+						},
+						["Risen Drakkari Death Knight"] = {
+							["Details"] = {
+								["Shockwave"] = {
+									["count"] = 3284,
+								},
+								["Thunder Clap"] = {
+									["count"] = 1693,
+								},
+								["Shield Slam"] = {
+									["count"] = 2323,
+								},
+							},
+							["amount"] = 7300,
 						},
 					},
 					["RageGained"] = {
@@ -16642,15 +16678,15 @@ RecountPerCharDB = {
 					},
 					["EnergyGainedFrom"] = {
 					},
-					["Dispelled"] = 0,
-					["RunicPowerGained"] = {
+					["OverHeals"] = {
+					},
+					["CCBroken"] = {
 					},
 					["ElementDoneBlock"] = {
 					},
 					["TimeHealing"] = {
 					},
-					["OverHeals"] = {
-					},
+					["Dispelled"] = 0,
 					["WhoHealed"] = {
 						["Ninimagic"] = {
 							["Details"] = {
@@ -16661,71 +16697,6 @@ RecountPerCharDB = {
 							["amount"] = 4605,
 						},
 					},
-					["EnergyGain"] = 0,
-					["CCBreak"] = 0,
-					["PartialAbsorb"] = {
-						["Melee"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 2,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 2,
-							["amount"] = 0,
-						},
-						["Icy Touch"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 0,
-						},
-						["Ghost Strike"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 0,
-						},
-						["Crush Armor"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 0,
-						},
-						["Deafening Roar"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 0,
-						},
-					},
-					["ActiveTime"] = 18.98,
 					["PartialResist"] = {
 						["Melee"] = {
 							["Details"] = {
@@ -16788,11 +16759,15 @@ RecountPerCharDB = {
 							["amount"] = 0,
 						},
 					},
+					["CCBreak"] = 0,
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["EnergyGain"] = 0,
 					["ManaGained"] = {
 					},
 					["ElementTakenAbsorb"] = {
 					},
-					["Interrupts"] = 0,
+					["ActiveTime"] = 18.98,
 					["Overhealing"] = 0,
 					["ElementTakenResist"] = {
 					},
@@ -16861,15 +16836,76 @@ RecountPerCharDB = {
 					},
 					["Heals"] = {
 					},
-					["FDamage"] = 0,
+					["PartialAbsorb"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 0,
+						},
+						["Icy Touch"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+						["Ghost Strike"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+						["Crush Armor"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+						["Deafening Roar"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+					},
 					["EnergyGained"] = {
 					},
 					["HealedWho"] = {
 					},
 					["Healing"] = 0,
-					["RunicPowerGainedFrom"] = {
+					["RunicPowerGained"] = {
 					},
-					["CCBroken"] = {
+					["RunicPowerGainedFrom"] = {
 					},
 					["Attacks"] = {
 						["Shockwave"] = {
@@ -16976,63 +17012,28 @@ RecountPerCharDB = {
 						},
 					},
 					["HealingTaken"] = 4605,
-					["DamagedWho"] = {
-						["Risen Drakkari Warrior"] = {
+					["ElementHitsDone"] = {
+						["Melee"] = {
 							["Details"] = {
-								["Shockwave"] = {
-									["count"] = 6642,
-								},
-								["Thunder Clap"] = {
-									["count"] = 3354,
-								},
-								["Melee"] = {
-									["count"] = 3183,
-								},
-								["Cleave"] = {
-									["count"] = 2580,
-								},
-								["Damage Shield"] = {
-									["count"] = 227,
-								},
-								["Devastate"] = {
-									["count"] = 1146,
+								["Hit"] = {
+									["count"] = 5,
 								},
 							},
-							["amount"] = 17132,
+							["amount"] = 5,
 						},
-						["Drakkari Guardian"] = {
+						["Physical"] = {
 							["Details"] = {
-								["Shockwave"] = {
-									["count"] = 3281,
+								["Hit"] = {
+									["count"] = 19,
 								},
-								["Thunder Clap"] = {
-									["count"] = 886,
+								["Crit"] = {
+									["count"] = 1,
 								},
-								["Deep Wounds (DoT)"] = {
-									["count"] = 456,
-								},
-								["Cleave"] = {
-									["count"] = 1966,
-								},
-								["Devastate"] = {
-									["count"] = 2716,
+								["Tick"] = {
+									["count"] = 4,
 								},
 							},
-							["amount"] = 9305,
-						},
-						["Risen Drakkari Death Knight"] = {
-							["Details"] = {
-								["Shockwave"] = {
-									["count"] = 3284,
-								},
-								["Thunder Clap"] = {
-									["count"] = 1693,
-								},
-								["Shield Slam"] = {
-									["count"] = 2323,
-								},
-							},
-							["amount"] = 7300,
+							["amount"] = 24,
 						},
 					},
 					["TimeDamage"] = 18.98,
@@ -17096,8 +17097,7 @@ RecountPerCharDB = {
 						},
 					},
 					["RunicPowerGain"] = 0,
-					["ElementTakenBlock"] = {
-					},
+					["Damage"] = 33737,
 					["DispelledWho"] = {
 					},
 				},
@@ -17219,8 +17219,7 @@ RecountPerCharDB = {
 					},
 					["DeathCount"] = 0,
 					["HOT_Time"] = 0,
-					["HOTs"] = {
-					},
+					["DOT_Time"] = 132,
 					["ManaGain"] = 0,
 					["ElementTaken"] = {
 						["Physical"] = 1849,
@@ -17229,8 +17228,12 @@ RecountPerCharDB = {
 						["Frost"] = 15252,
 						["Nature"] = 3735,
 					},
-					["DOT_Time"] = 132,
-					["Damage"] = 153386,
+					["HOTs"] = {
+					},
+					["ElementTakenBlock"] = {
+						["Melee"] = 10855,
+						["Physical"] = 0,
+					},
 					["ElementDoneAbsorb"] = {
 					},
 					["TimeHeal"] = 3.84,
@@ -17269,63 +17272,195 @@ RecountPerCharDB = {
 					},
 					["RageGain"] = 135,
 					["ElementDone"] = {
-						["Physical"] = 130276,
 						["Fire"] = 210,
-						["Melee"] = 18215,
 						["Shadow"] = 4685,
+						["Melee"] = 18215,
+						["Physical"] = 130276,
 					},
 					["ManaGainedFrom"] = {
 					},
-					["ElementHitsDone"] = {
-						["Physical"] = {
+					["DamagedWho"] = {
+						["Risen Drakkari Warrior"] = {
 							["Details"] = {
-								["Immune"] = {
-									["count"] = 1,
+								["Shield Slam"] = {
+									["count"] = 0,
 								},
-								["Hit"] = {
-									["count"] = 66,
+								["Melee"] = {
+									["count"] = 0,
 								},
-								["Tick"] = {
-									["count"] = 44,
+								["Cleave"] = {
+									["count"] = 0,
 								},
-								["Crit"] = {
-									["count"] = 7,
+								["Damage Shield"] = {
+									["count"] = 0,
 								},
-								["Dodge"] = {
-									["count"] = 1,
+								["Devastate"] = {
+									["count"] = 0,
+								},
+								["Revenge"] = {
+									["count"] = 0,
+								},
+								["Deep Wounds (DoT)"] = {
+									["count"] = 0,
 								},
 							},
-							["amount"] = 119,
+							["amount"] = 0,
 						},
-						["Fire"] = {
+						["Drakkari Gutripper"] = {
 							["Details"] = {
-								["Hit"] = {
-									["count"] = 5,
+								["Shield Slam"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Cleave"] = {
+									["count"] = 0,
+								},
+								["Fire Shield"] = {
+									["count"] = 0,
+								},
+								["Thunder Clap"] = {
+									["count"] = 0,
+								},
+								["Revenge"] = {
+									["count"] = 0,
+								},
+								["Damage Shield"] = {
+									["count"] = 0,
+								},
+								["Devastate"] = {
+									["count"] = 0,
+								},
+								["Deep Wounds (DoT)"] = {
+									["count"] = 0,
 								},
 							},
-							["amount"] = 5,
+							["amount"] = 0,
 						},
-						["Melee"] = {
+						["Drakkari Raptor Mount"] = {
 							["Details"] = {
-								["Glancing"] = {
-									["count"] = 5,
+								["Damage Shield"] = {
+									["count"] = 0,
 								},
-								["Crit"] = {
-									["count"] = 4,
+								["Thunder Clap"] = {
+									["count"] = 0,
 								},
-								["Hit"] = {
-									["count"] = 15,
+								["Revenge"] = {
+									["count"] = 0,
+								},
+								["Cleave"] = {
+									["count"] = 0,
 								},
 							},
-							["amount"] = 24,
+							["amount"] = 0,
 						},
-						["Shadow"] = {
+						["Wretched Belcher"] = {
 							["Details"] = {
-								["Hit"] = {
-									["count"] = 3,
+								["Revenge"] = {
+									["count"] = 0,
+								},
+								["Cleave"] = {
+									["count"] = 0,
 								},
 							},
-							["amount"] = 3,
+							["amount"] = 0,
+						},
+						["Risen Drakkari Handler"] = {
+							["Details"] = {
+								["Shield Slam"] = {
+									["count"] = 0,
+								},
+								["Thunder Clap"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Cleave"] = {
+									["count"] = 0,
+								},
+								["Revenge"] = {
+									["count"] = 0,
+								},
+								["Deep Wounds (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Risen Drakkari Death Knight"] = {
+							["Details"] = {
+								["Shockwave"] = {
+									["count"] = 22994,
+								},
+								["Deep Wounds (DoT)"] = {
+									["count"] = 2993,
+								},
+								["Cleave"] = {
+									["count"] = 10685,
+								},
+								["Fire Shield"] = {
+									["count"] = 168,
+								},
+								["Thunder Clap"] = {
+									["count"] = 13222,
+								},
+								["Revenge"] = {
+									["count"] = 27347,
+								},
+								["Melee"] = {
+									["count"] = 6246,
+								},
+								["Damage Shield"] = {
+									["count"] = 3027,
+								},
+								["Devastate"] = {
+									["count"] = 2500,
+								},
+								["Heroic Throw"] = {
+									["count"] = 1726,
+								},
+								["Shield Slam"] = {
+									["count"] = 6832,
+								},
+							},
+							["amount"] = 97740,
+						},
+						["The Prophet Tharon'ja"] = {
+							["Details"] = {
+								["Shield Slam"] = {
+									["count"] = 10959,
+								},
+								["Deep Wounds (DoT)"] = {
+									["count"] = 1376,
+								},
+								["Touch of Life"] = {
+									["count"] = 4685,
+								},
+								["Fire Shield"] = {
+									["count"] = 42,
+								},
+								["Revenge"] = {
+									["count"] = 8143,
+								},
+								["Slaying Strike"] = {
+									["count"] = 3655,
+								},
+								["Damage Shield"] = {
+									["count"] = 222,
+								},
+								["Devastate"] = {
+									["count"] = 13576,
+								},
+								["Melee"] = {
+									["count"] = 11969,
+								},
+								["Heroic Strike"] = {
+									["count"] = 1019,
+								},
+							},
+							["amount"] = 55646,
 						},
 					},
 					["RageGained"] = {
@@ -17410,8 +17545,21 @@ RecountPerCharDB = {
 					},
 					["EnergyGainedFrom"] = {
 					},
-					["Dispelled"] = 2,
-					["RunicPowerGained"] = {
+					["OverHeals"] = {
+						["Touch of Life"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 311,
+									["min"] = 311,
+									["count"] = 1,
+									["amount"] = 311,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 311,
+						},
+					},
+					["CCBroken"] = {
 					},
 					["ElementDoneBlock"] = {
 						["Melee"] = 82,
@@ -17427,20 +17575,7 @@ RecountPerCharDB = {
 							["amount"] = 3.84,
 						},
 					},
-					["OverHeals"] = {
-						["Touch of Life"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 311,
-									["min"] = 311,
-									["count"] = 1,
-									["amount"] = 311,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 311,
-						},
-					},
+					["Dispelled"] = 2,
 					["WhoHealed"] = {
 						["Ninimagic"] = {
 							["Details"] = {
@@ -17468,173 +17603,6 @@ RecountPerCharDB = {
 							["amount"] = 4607,
 						},
 					},
-					["EnergyGain"] = 0,
-					["CCBreak"] = 0,
-					["PartialAbsorb"] = {
-						["Poison Cloud (DoT)"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 3,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 3,
-							["amount"] = 0,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 32,
-									["amount"] = 0,
-								},
-								["Absorbed"] = {
-									["max"] = 1861,
-									["min"] = 1861,
-									["count"] = 1,
-									["amount"] = 1861,
-								},
-							},
-							["count"] = 33,
-							["amount"] = 1861,
-						},
-						["Cleave"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Icy Touch"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 4,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 4,
-							["amount"] = 0,
-						},
-						["Ghost Strike"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Disease Cloud"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Gut Rip"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Deafening Roar"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 0,
-								},
-								["Absorbed"] = {
-									["max"] = 1371,
-									["min"] = 1280,
-									["count"] = 3,
-									["amount"] = 3986,
-								},
-							},
-							["count"] = 4,
-							["amount"] = 3986,
-						},
-						["Shadow Volley"] = {
-							["Details"] = {
-								["Absorbed"] = {
-									["max"] = 3526,
-									["min"] = 3328,
-									["count"] = 2,
-									["amount"] = 6854,
-								},
-							},
-							["count"] = 2,
-							["amount"] = 6854,
-						},
-						["Shoot"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Curse of Life (DoT)"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 4,
-									["amount"] = 0,
-								},
-								["Absorbed"] = {
-									["max"] = 1795,
-									["min"] = 130,
-									["count"] = 2,
-									["amount"] = 1925,
-								},
-							},
-							["count"] = 6,
-							["amount"] = 1925,
-						},
-						["Poison Cloud"] = {
-							["Details"] = {
-								["Absorbed"] = {
-									["max"] = 1245,
-									["min"] = 1245,
-									["count"] = 1,
-									["amount"] = 1245,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 1245,
-						},
-					},
-					["ActiveTime"] = 83.71000000000001,
 					["PartialResist"] = {
 						["Poison Cloud (DoT)"] = {
 							["Details"] = {
@@ -17781,6 +17749,10 @@ RecountPerCharDB = {
 							["amount"] = 0,
 						},
 					},
+					["CCBreak"] = 0,
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["EnergyGain"] = 0,
 					["ManaGained"] = {
 					},
 					["ElementTakenAbsorb"] = {
@@ -17789,7 +17761,7 @@ RecountPerCharDB = {
 						["Melee"] = 1861,
 						["Nature"] = 1245,
 					},
-					["Interrupts"] = 0,
+					["ActiveTime"] = 83.71000000000001,
 					["Overhealing"] = 311,
 					["ElementTakenResist"] = {
 					},
@@ -18014,7 +17986,170 @@ RecountPerCharDB = {
 							["amount"] = 4607,
 						},
 					},
-					["FDamage"] = 0,
+					["PartialAbsorb"] = {
+						["Poison Cloud (DoT)"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 3,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 3,
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 32,
+									["amount"] = 0,
+								},
+								["Absorbed"] = {
+									["max"] = 1861,
+									["min"] = 1861,
+									["count"] = 1,
+									["amount"] = 1861,
+								},
+							},
+							["count"] = 33,
+							["amount"] = 1861,
+						},
+						["Cleave"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Icy Touch"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 4,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 4,
+							["amount"] = 0,
+						},
+						["Ghost Strike"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Disease Cloud"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Gut Rip"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Deafening Roar"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+								["Absorbed"] = {
+									["max"] = 1371,
+									["min"] = 1280,
+									["count"] = 3,
+									["amount"] = 3986,
+								},
+							},
+							["count"] = 4,
+							["amount"] = 3986,
+						},
+						["Shadow Volley"] = {
+							["Details"] = {
+								["Absorbed"] = {
+									["max"] = 3526,
+									["min"] = 3328,
+									["count"] = 2,
+									["amount"] = 6854,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 6854,
+						},
+						["Shoot"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Curse of Life (DoT)"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 4,
+									["amount"] = 0,
+								},
+								["Absorbed"] = {
+									["max"] = 1795,
+									["min"] = 130,
+									["count"] = 2,
+									["amount"] = 1925,
+								},
+							},
+							["count"] = 6,
+							["amount"] = 1925,
+						},
+						["Poison Cloud"] = {
+							["Details"] = {
+								["Absorbed"] = {
+									["max"] = 1245,
+									["min"] = 1245,
+									["count"] = 1,
+									["amount"] = 1245,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 1245,
+						},
+					},
 					["EnergyGained"] = {
 					},
 					["HealedWho"] = {
@@ -18028,9 +18163,9 @@ RecountPerCharDB = {
 						},
 					},
 					["Healing"] = 4607,
-					["RunicPowerGainedFrom"] = {
+					["RunicPowerGained"] = {
 					},
-					["CCBroken"] = {
+					["RunicPowerGainedFrom"] = {
 					},
 					["Attacks"] = {
 						["Shield Slam"] = {
@@ -18283,188 +18418,56 @@ RecountPerCharDB = {
 						},
 					},
 					["HealingTaken"] = 41414,
-					["DamagedWho"] = {
-						["Risen Drakkari Warrior"] = {
+					["ElementHitsDone"] = {
+						["Fire"] = {
 							["Details"] = {
-								["Shield Slam"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Cleave"] = {
-									["count"] = 0,
-								},
-								["Damage Shield"] = {
-									["count"] = 0,
-								},
-								["Devastate"] = {
-									["count"] = 0,
-								},
-								["Revenge"] = {
-									["count"] = 0,
-								},
-								["Deep Wounds (DoT)"] = {
-									["count"] = 0,
+								["Hit"] = {
+									["count"] = 5,
 								},
 							},
-							["amount"] = 0,
+							["amount"] = 5,
 						},
-						["Drakkari Gutripper"] = {
+						["Shadow"] = {
 							["Details"] = {
-								["Shield Slam"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Cleave"] = {
-									["count"] = 0,
-								},
-								["Fire Shield"] = {
-									["count"] = 0,
-								},
-								["Thunder Clap"] = {
-									["count"] = 0,
-								},
-								["Revenge"] = {
-									["count"] = 0,
-								},
-								["Damage Shield"] = {
-									["count"] = 0,
-								},
-								["Devastate"] = {
-									["count"] = 0,
-								},
-								["Deep Wounds (DoT)"] = {
-									["count"] = 0,
+								["Hit"] = {
+									["count"] = 3,
 								},
 							},
-							["amount"] = 0,
+							["amount"] = 3,
 						},
-						["Drakkari Raptor Mount"] = {
+						["Melee"] = {
 							["Details"] = {
-								["Damage Shield"] = {
-									["count"] = 0,
+								["Glancing"] = {
+									["count"] = 5,
 								},
-								["Thunder Clap"] = {
-									["count"] = 0,
+								["Crit"] = {
+									["count"] = 4,
 								},
-								["Revenge"] = {
-									["count"] = 0,
-								},
-								["Cleave"] = {
-									["count"] = 0,
+								["Hit"] = {
+									["count"] = 15,
 								},
 							},
-							["amount"] = 0,
+							["amount"] = 24,
 						},
-						["Wretched Belcher"] = {
+						["Physical"] = {
 							["Details"] = {
-								["Revenge"] = {
-									["count"] = 0,
+								["Immune"] = {
+									["count"] = 1,
 								},
-								["Cleave"] = {
-									["count"] = 0,
+								["Hit"] = {
+									["count"] = 66,
+								},
+								["Tick"] = {
+									["count"] = 44,
+								},
+								["Crit"] = {
+									["count"] = 7,
+								},
+								["Dodge"] = {
+									["count"] = 1,
 								},
 							},
-							["amount"] = 0,
-						},
-						["Risen Drakkari Handler"] = {
-							["Details"] = {
-								["Shield Slam"] = {
-									["count"] = 0,
-								},
-								["Thunder Clap"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Cleave"] = {
-									["count"] = 0,
-								},
-								["Revenge"] = {
-									["count"] = 0,
-								},
-								["Deep Wounds (DoT)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Risen Drakkari Death Knight"] = {
-							["Details"] = {
-								["Shockwave"] = {
-									["count"] = 22994,
-								},
-								["Deep Wounds (DoT)"] = {
-									["count"] = 2993,
-								},
-								["Cleave"] = {
-									["count"] = 10685,
-								},
-								["Fire Shield"] = {
-									["count"] = 168,
-								},
-								["Thunder Clap"] = {
-									["count"] = 13222,
-								},
-								["Revenge"] = {
-									["count"] = 27347,
-								},
-								["Melee"] = {
-									["count"] = 6246,
-								},
-								["Damage Shield"] = {
-									["count"] = 3027,
-								},
-								["Devastate"] = {
-									["count"] = 2500,
-								},
-								["Heroic Throw"] = {
-									["count"] = 1726,
-								},
-								["Shield Slam"] = {
-									["count"] = 6832,
-								},
-							},
-							["amount"] = 97740,
-						},
-						["The Prophet Tharon'ja"] = {
-							["Details"] = {
-								["Shield Slam"] = {
-									["count"] = 10959,
-								},
-								["Deep Wounds (DoT)"] = {
-									["count"] = 1376,
-								},
-								["Touch of Life"] = {
-									["count"] = 4685,
-								},
-								["Fire Shield"] = {
-									["count"] = 42,
-								},
-								["Revenge"] = {
-									["count"] = 8143,
-								},
-								["Slaying Strike"] = {
-									["count"] = 3655,
-								},
-								["Damage Shield"] = {
-									["count"] = 222,
-								},
-								["Devastate"] = {
-									["count"] = 13576,
-								},
-								["Melee"] = {
-									["count"] = 11969,
-								},
-								["Heroic Strike"] = {
-									["count"] = 1019,
-								},
-							},
-							["amount"] = 55646,
+							["amount"] = 119,
 						},
 					},
 					["TimeDamage"] = 79.87000000000001,
@@ -18656,10 +18659,7 @@ RecountPerCharDB = {
 						},
 					},
 					["RunicPowerGain"] = 0,
-					["ElementTakenBlock"] = {
-						["Melee"] = 10855,
-						["Physical"] = 0,
-					},
+					["Damage"] = 153386,
 					["DispelledWho"] = {
 					},
 				},
@@ -18758,15 +18758,17 @@ RecountPerCharDB = {
 					},
 					["DeathCount"] = 0,
 					["HOT_Time"] = 0,
-					["HOTs"] = {
-					},
+					["DOT_Time"] = 51,
 					["ManaGain"] = 0,
 					["ElementTaken"] = {
 						["Melee"] = 6624,
 						["Physical"] = 10525,
 					},
-					["DOT_Time"] = 51,
-					["Damage"] = 82812,
+					["HOTs"] = {
+					},
+					["ElementTakenBlock"] = {
+						["Melee"] = 7130,
+					},
 					["ElementDoneAbsorb"] = {
 					},
 					["TimeHeal"] = 0,
@@ -18799,42 +18801,173 @@ RecountPerCharDB = {
 					},
 					["ManaGainedFrom"] = {
 					},
-					["ElementHitsDone"] = {
-						["Physical"] = {
+					["DamagedWho"] = {
+						["Risen Drakkari Warrior"] = {
 							["Details"] = {
-								["Hit"] = {
-									["count"] = 43,
+								["Shockwave"] = {
+									["count"] = 3266,
 								},
-								["Crit"] = {
-									["count"] = 5,
+								["Deep Wounds (DoT)"] = {
+									["count"] = 1552,
 								},
-								["Tick"] = {
-									["count"] = 17,
+								["Cleave"] = {
+									["count"] = 6221,
+								},
+								["Fire Shield"] = {
+									["count"] = 168,
+								},
+								["Thunder Clap"] = {
+									["count"] = 5081,
+								},
+								["Revenge"] = {
+									["count"] = 17201,
+								},
+								["Damage Shield"] = {
+									["count"] = 2417,
+								},
+								["Devastate"] = {
+									["count"] = 1174,
+								},
+								["Melee"] = {
+									["count"] = 2464,
+								},
+								["Shield Slam"] = {
+									["count"] = 2447,
 								},
 							},
-							["amount"] = 65,
+							["amount"] = 41991,
 						},
-						["Melee"] = {
+						["Drakkari Bat"] = {
 							["Details"] = {
-								["Glancing"] = {
-									["count"] = 2,
-								},
-								["Dodge"] = {
+								["Shockwave"] = {
 									["count"] = 0,
 								},
-								["Hit"] = {
-									["count"] = 6,
+								["Thunder Clap"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Cleave"] = {
+									["count"] = 0,
+								},
+								["Damage Shield"] = {
+									["count"] = 0,
+								},
+								["Deep Wounds (DoT)"] = {
+									["count"] = 0,
+								},
+								["Fire Shield"] = {
+									["count"] = 0,
+								},
+								["Revenge"] = {
+									["count"] = 0,
 								},
 							},
-							["amount"] = 8,
+							["amount"] = 0,
 						},
-						["Fire"] = {
+						["Spider"] = {
 							["Details"] = {
-								["Hit"] = {
-									["count"] = 4,
+								["Thunder Clap"] = {
+									["count"] = 3036,
 								},
 							},
-							["amount"] = 4,
+							["amount"] = 3036,
+						},
+						["Risen Drakkari Bat Rider"] = {
+							["Details"] = {
+								["Shockwave"] = {
+									["count"] = 0,
+								},
+								["Thunder Clap"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Revenge"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Flesheating Ghoul"] = {
+							["Details"] = {
+								["Damage Shield"] = {
+									["count"] = 0,
+								},
+								["Thunder Clap"] = {
+									["count"] = 0,
+								},
+								["Revenge"] = {
+									["count"] = 0,
+								},
+								["Cleave"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Ghoul Tormentor"] = {
+							["Details"] = {
+								["Shield Slam"] = {
+									["count"] = 0,
+								},
+								["Thunder Clap"] = {
+									["count"] = 0,
+								},
+								["Deep Wounds (DoT)"] = {
+									["count"] = 0,
+								},
+								["Cleave"] = {
+									["count"] = 0,
+								},
+								["Damage Shield"] = {
+									["count"] = 0,
+								},
+								["Devastate"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Revenge"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Drakkari Guardian"] = {
+							["Details"] = {
+								["Shield Slam"] = {
+									["count"] = 4849,
+								},
+								["Melee"] = {
+									["count"] = 2783,
+								},
+								["Cleave"] = {
+									["count"] = 5162,
+								},
+								["Thunder Clap"] = {
+									["count"] = 4327,
+								},
+								["Revenge"] = {
+									["count"] = 11814,
+								},
+								["Damage Shield"] = {
+									["count"] = 485,
+								},
+								["Devastate"] = {
+									["count"] = 1313,
+								},
+								["Shockwave"] = {
+									["count"] = 6492,
+								},
+								["Deep Wounds (DoT)"] = {
+									["count"] = 560,
+								},
+							},
+							["amount"] = 37785,
 						},
 					},
 					["RageGained"] = {
@@ -18897,16 +19030,16 @@ RecountPerCharDB = {
 					},
 					["EnergyGainedFrom"] = {
 					},
-					["Dispelled"] = 0,
-					["RunicPowerGained"] = {
+					["OverHeals"] = {
+					},
+					["CCBroken"] = {
 					},
 					["ElementDoneBlock"] = {
 						["Physical"] = 80,
 					},
 					["TimeHealing"] = {
 					},
-					["OverHeals"] = {
-					},
+					["Dispelled"] = 0,
 					["WhoHealed"] = {
 						["Ninimagic"] = {
 							["Details"] = {
@@ -18923,125 +19056,6 @@ RecountPerCharDB = {
 							["amount"] = 18452,
 						},
 					},
-					["EnergyGain"] = 0,
-					["CCBreak"] = 0,
-					["PartialAbsorb"] = {
-						["Melee"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 19,
-									["amount"] = 0,
-								},
-								["Absorbed"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 19,
-							["amount"] = 0,
-						},
-						["Flesh Rot"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Absorbed"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Hamstring"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 3,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 3,
-							["amount"] = 0,
-						},
-						["Cleave"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Pierce Armor"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Ghost Strike"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 8,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 8,
-							["amount"] = 0,
-						},
-						["Flesh Rot (DoT)"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Absorbed"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Bile Vomit"] = {
-							["Details"] = {
-								["Absorbed"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["ActiveTime"] = 25.05,
 					["PartialResist"] = {
 						["Melee"] = {
 							["Details"] = {
@@ -19055,7 +19069,7 @@ RecountPerCharDB = {
 							["count"] = 19,
 							["amount"] = 0,
 						},
-						["Flesh Rot"] = {
+						["Cleave"] = {
 							["Details"] = {
 								["No Resist"] = {
 									["max"] = 0,
@@ -19079,7 +19093,7 @@ RecountPerCharDB = {
 							["count"] = 3,
 							["amount"] = 0,
 						},
-						["Cleave"] = {
+						["Flesh Rot (DoT)"] = {
 							["Details"] = {
 								["No Resist"] = {
 									["max"] = 0,
@@ -19115,7 +19129,7 @@ RecountPerCharDB = {
 							["count"] = 8,
 							["amount"] = 0,
 						},
-						["Flesh Rot (DoT)"] = {
+						["Flesh Rot"] = {
 							["Details"] = {
 								["No Resist"] = {
 									["max"] = 0,
@@ -19140,6 +19154,10 @@ RecountPerCharDB = {
 							["amount"] = 0,
 						},
 					},
+					["CCBreak"] = 0,
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["EnergyGain"] = 0,
 					["ManaGained"] = {
 					},
 					["ElementTakenAbsorb"] = {
@@ -19147,7 +19165,7 @@ RecountPerCharDB = {
 						["Melee"] = 0,
 						["Nature"] = 0,
 					},
-					["Interrupts"] = 0,
+					["ActiveTime"] = 25.05,
 					["Overhealing"] = 0,
 					["ElementTakenResist"] = {
 					},
@@ -19326,15 +19344,130 @@ RecountPerCharDB = {
 					},
 					["Heals"] = {
 					},
-					["FDamage"] = 0,
+					["PartialAbsorb"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 19,
+									["amount"] = 0,
+								},
+								["Absorbed"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 19,
+							["amount"] = 0,
+						},
+						["Cleave"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Hamstring"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 3,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 3,
+							["amount"] = 0,
+						},
+						["Flesh Rot (DoT)"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Absorbed"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Pierce Armor"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Ghost Strike"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 8,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 8,
+							["amount"] = 0,
+						},
+						["Flesh Rot"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Absorbed"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Bile Vomit"] = {
+							["Details"] = {
+								["Absorbed"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
 					["EnergyGained"] = {
 					},
 					["HealedWho"] = {
 					},
 					["Healing"] = 0,
-					["RunicPowerGainedFrom"] = {
+					["RunicPowerGained"] = {
 					},
-					["CCBroken"] = {
+					["RunicPowerGainedFrom"] = {
 					},
 					["Attacks"] = {
 						["Shield Slam"] = {
@@ -19493,173 +19626,42 @@ RecountPerCharDB = {
 						},
 					},
 					["HealingTaken"] = 18452,
-					["DamagedWho"] = {
-						["Risen Drakkari Warrior"] = {
+					["ElementHitsDone"] = {
+						["Physical"] = {
 							["Details"] = {
-								["Shockwave"] = {
-									["count"] = 3266,
+								["Hit"] = {
+									["count"] = 43,
 								},
-								["Deep Wounds (DoT)"] = {
-									["count"] = 1552,
+								["Crit"] = {
+									["count"] = 5,
 								},
-								["Cleave"] = {
-									["count"] = 6221,
-								},
-								["Fire Shield"] = {
-									["count"] = 168,
-								},
-								["Thunder Clap"] = {
-									["count"] = 5081,
-								},
-								["Revenge"] = {
-									["count"] = 17201,
-								},
-								["Damage Shield"] = {
-									["count"] = 2417,
-								},
-								["Devastate"] = {
-									["count"] = 1174,
-								},
-								["Melee"] = {
-									["count"] = 2464,
-								},
-								["Shield Slam"] = {
-									["count"] = 2447,
+								["Tick"] = {
+									["count"] = 17,
 								},
 							},
-							["amount"] = 41991,
+							["amount"] = 65,
 						},
-						["Drakkari Bat"] = {
+						["Melee"] = {
 							["Details"] = {
-								["Shockwave"] = {
+								["Glancing"] = {
+									["count"] = 2,
+								},
+								["Dodge"] = {
 									["count"] = 0,
 								},
-								["Thunder Clap"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Cleave"] = {
-									["count"] = 0,
-								},
-								["Damage Shield"] = {
-									["count"] = 0,
-								},
-								["Deep Wounds (DoT)"] = {
-									["count"] = 0,
-								},
-								["Fire Shield"] = {
-									["count"] = 0,
-								},
-								["Revenge"] = {
-									["count"] = 0,
+								["Hit"] = {
+									["count"] = 6,
 								},
 							},
-							["amount"] = 0,
+							["amount"] = 8,
 						},
-						["Spider"] = {
+						["Fire"] = {
 							["Details"] = {
-								["Thunder Clap"] = {
-									["count"] = 3036,
+								["Hit"] = {
+									["count"] = 4,
 								},
 							},
-							["amount"] = 3036,
-						},
-						["Risen Drakkari Bat Rider"] = {
-							["Details"] = {
-								["Shockwave"] = {
-									["count"] = 0,
-								},
-								["Thunder Clap"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Revenge"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Flesheating Ghoul"] = {
-							["Details"] = {
-								["Damage Shield"] = {
-									["count"] = 0,
-								},
-								["Thunder Clap"] = {
-									["count"] = 0,
-								},
-								["Revenge"] = {
-									["count"] = 0,
-								},
-								["Cleave"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Ghoul Tormentor"] = {
-							["Details"] = {
-								["Shield Slam"] = {
-									["count"] = 0,
-								},
-								["Thunder Clap"] = {
-									["count"] = 0,
-								},
-								["Deep Wounds (DoT)"] = {
-									["count"] = 0,
-								},
-								["Cleave"] = {
-									["count"] = 0,
-								},
-								["Damage Shield"] = {
-									["count"] = 0,
-								},
-								["Devastate"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Revenge"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Drakkari Guardian"] = {
-							["Details"] = {
-								["Shield Slam"] = {
-									["count"] = 4849,
-								},
-								["Melee"] = {
-									["count"] = 2783,
-								},
-								["Cleave"] = {
-									["count"] = 5162,
-								},
-								["Thunder Clap"] = {
-									["count"] = 4327,
-								},
-								["Revenge"] = {
-									["count"] = 11814,
-								},
-								["Damage Shield"] = {
-									["count"] = 485,
-								},
-								["Devastate"] = {
-									["count"] = 1313,
-								},
-								["Shockwave"] = {
-									["count"] = 6492,
-								},
-								["Deep Wounds (DoT)"] = {
-									["count"] = 560,
-								},
-							},
-							["amount"] = 37785,
+							["amount"] = 4,
 						},
 					},
 					["TimeDamage"] = 25.05,
@@ -19833,9 +19835,7 @@ RecountPerCharDB = {
 						},
 					},
 					["RunicPowerGain"] = 0,
-					["ElementTakenBlock"] = {
-						["Melee"] = 7130,
-					},
+					["Damage"] = 82812,
 					["DispelledWho"] = {
 					},
 				},
@@ -19925,16 +19925,19 @@ RecountPerCharDB = {
 					},
 					["DeathCount"] = 0,
 					["HOT_Time"] = 0,
-					["HOTs"] = {
-					},
+					["DOT_Time"] = 48,
 					["ManaGain"] = 0,
 					["ElementTaken"] = {
 						["Physical"] = 6316,
 						["Melee"] = 3832,
 						["Nature"] = 17098,
 					},
-					["DOT_Time"] = 48,
-					["Damage"] = 72140,
+					["HOTs"] = {
+					},
+					["ElementTakenBlock"] = {
+						["Melee"] = 5812,
+						["Physical"] = 368,
+					},
 					["ElementDoneAbsorb"] = {
 					},
 					["TimeHeal"] = 0,
@@ -19979,39 +19982,98 @@ RecountPerCharDB = {
 					},
 					["ManaGainedFrom"] = {
 					},
-					["ElementHitsDone"] = {
-						["Physical"] = {
+					["DamagedWho"] = {
+						["Drakkari Commander"] = {
 							["Details"] = {
-								["Hit"] = {
-									["count"] = 37,
+								["Shockwave"] = {
+									["count"] = 3281,
 								},
-								["Tick"] = {
-									["count"] = 16,
+								["Thunder Clap"] = {
+									["count"] = 2546,
 								},
-								["Crit"] = {
-									["count"] = 4,
+								["Melee"] = {
+									["count"] = 657,
 								},
-								["Dodge"] = {
-									["count"] = 1,
+								["Damage Shield"] = {
+									["count"] = 1048,
+								},
+								["Fire Shield"] = {
+									["count"] = 84,
+								},
+								["Revenge"] = {
+									["count"] = 3959,
 								},
 							},
-							["amount"] = 58,
+							["amount"] = 11575,
 						},
-						["Melee"] = {
+						["Drakkari Guardian"] = {
 							["Details"] = {
-								["Hit"] = {
-									["count"] = 5,
+								["Shockwave"] = {
+									["count"] = 6735,
+								},
+								["Thunder Clap"] = {
+									["count"] = 6499,
+								},
+								["Deep Wounds (DoT)"] = {
+									["count"] = 1572,
+								},
+								["Cleave"] = {
+									["count"] = 1711,
+								},
+								["Damage Shield"] = {
+									["count"] = 623,
+								},
+								["Devastate"] = {
+									["count"] = 1286,
+								},
+								["Revenge"] = {
+									["count"] = 13476,
+								},
+								["Melee"] = {
+									["count"] = 741,
 								},
 							},
-							["amount"] = 5,
+							["amount"] = 32643,
 						},
-						["Fire"] = {
+						["Risen Drakkari Bat Rider"] = {
 							["Details"] = {
-								["Hit"] = {
-									["count"] = 4,
+								["Shockwave"] = {
+									["count"] = 3321,
+								},
+								["Thunder Clap"] = {
+									["count"] = 897,
 								},
 							},
-							["amount"] = 4,
+							["amount"] = 4218,
+						},
+						["Drakkari Shaman"] = {
+							["Details"] = {
+								["Revenge"] = {
+									["count"] = 3879,
+								},
+								["Thunder Clap"] = {
+									["count"] = 5241,
+								},
+								["Melee"] = {
+									["count"] = 2027,
+								},
+								["Cleave"] = {
+									["count"] = 2610,
+								},
+								["Damage Shield"] = {
+									["count"] = 468,
+								},
+								["Devastate"] = {
+									["count"] = 8867,
+								},
+								["Fire Shield"] = {
+									["count"] = 84,
+								},
+								["Deep Wounds (DoT)"] = {
+									["count"] = 528,
+								},
+							},
+							["amount"] = 23704,
 						},
 					},
 					["RageGained"] = {
@@ -20082,15 +20144,15 @@ RecountPerCharDB = {
 					},
 					["EnergyGainedFrom"] = {
 					},
-					["Dispelled"] = 0,
-					["RunicPowerGained"] = {
+					["OverHeals"] = {
+					},
+					["CCBroken"] = {
 					},
 					["ElementDoneBlock"] = {
 					},
 					["TimeHealing"] = {
 					},
-					["OverHeals"] = {
-					},
+					["Dispelled"] = 0,
 					["WhoHealed"] = {
 						["Ninimagic"] = {
 							["Details"] = {
@@ -20104,71 +20166,6 @@ RecountPerCharDB = {
 							["amount"] = 25893,
 						},
 					},
-					["EnergyGain"] = 0,
-					["CCBreak"] = 0,
-					["PartialAbsorb"] = {
-						["Hamstring"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 3,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 3,
-							["amount"] = 0,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 17,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 17,
-							["amount"] = 0,
-						},
-						["Whirlwind"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 2,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 2,
-							["amount"] = 0,
-						},
-						["Lightning Bolt"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 14,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 14,
-							["amount"] = 0,
-						},
-						["Impale (DoT)"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 3,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 3,
-							["amount"] = 0,
-						},
-					},
-					["ActiveTime"] = 33.52999999999999,
 					["PartialResist"] = {
 						["Hamstring"] = {
 							["Details"] = {
@@ -20231,11 +20228,15 @@ RecountPerCharDB = {
 							["amount"] = 0,
 						},
 					},
+					["CCBreak"] = 0,
+					["FDamage"] = 0,
+					["Interrupts"] = 1,
+					["EnergyGain"] = 0,
 					["ManaGained"] = {
 					},
 					["ElementTakenAbsorb"] = {
 					},
-					["Interrupts"] = 1,
+					["ActiveTime"] = 33.52999999999999,
 					["Overhealing"] = 0,
 					["ElementTakenResist"] = {
 					},
@@ -20320,14 +20321,14 @@ RecountPerCharDB = {
 						},
 						["Drakkari Shaman"] = {
 							["Details"] = {
-								["Deep Wounds (DoT)"] = {
-									["count"] = 2.18,
+								["Revenge"] = {
+									["count"] = 0.47,
 								},
 								["Thunder Clap"] = {
 									["count"] = 0.72,
 								},
-								["Revenge"] = {
-									["count"] = 0.47,
+								["Melee"] = {
+									["count"] = 1.86,
 								},
 								["Cleave"] = {
 									["count"] = 1.95,
@@ -20341,8 +20342,8 @@ RecountPerCharDB = {
 								["Fire Shield"] = {
 									["count"] = 0,
 								},
-								["Melee"] = {
-									["count"] = 1.86,
+								["Deep Wounds (DoT)"] = {
+									["count"] = 2.18,
 								},
 							},
 							["amount"] = 13.06,
@@ -20350,15 +20351,76 @@ RecountPerCharDB = {
 					},
 					["Heals"] = {
 					},
-					["FDamage"] = 0,
+					["PartialAbsorb"] = {
+						["Hamstring"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 3,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 3,
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 17,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 17,
+							["amount"] = 0,
+						},
+						["Whirlwind"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 0,
+						},
+						["Lightning Bolt"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 14,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 14,
+							["amount"] = 0,
+						},
+						["Impale (DoT)"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 3,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 3,
+							["amount"] = 0,
+						},
+					},
 					["EnergyGained"] = {
 					},
 					["HealedWho"] = {
 					},
 					["Healing"] = 0,
-					["RunicPowerGainedFrom"] = {
+					["RunicPowerGained"] = {
 					},
-					["CCBroken"] = {
+					["RunicPowerGainedFrom"] = {
 					},
 					["Attacks"] = {
 						["Shockwave"] = {
@@ -20493,98 +20555,39 @@ RecountPerCharDB = {
 						},
 					},
 					["HealingTaken"] = 25893,
-					["DamagedWho"] = {
-						["Drakkari Commander"] = {
+					["ElementHitsDone"] = {
+						["Physical"] = {
 							["Details"] = {
-								["Shockwave"] = {
-									["count"] = 3281,
+								["Hit"] = {
+									["count"] = 37,
 								},
-								["Thunder Clap"] = {
-									["count"] = 2546,
+								["Tick"] = {
+									["count"] = 16,
 								},
-								["Melee"] = {
-									["count"] = 657,
+								["Crit"] = {
+									["count"] = 4,
 								},
-								["Damage Shield"] = {
-									["count"] = 1048,
-								},
-								["Fire Shield"] = {
-									["count"] = 84,
-								},
-								["Revenge"] = {
-									["count"] = 3959,
+								["Dodge"] = {
+									["count"] = 1,
 								},
 							},
-							["amount"] = 11575,
+							["amount"] = 58,
 						},
-						["Drakkari Guardian"] = {
+						["Melee"] = {
 							["Details"] = {
-								["Shockwave"] = {
-									["count"] = 6735,
-								},
-								["Thunder Clap"] = {
-									["count"] = 6499,
-								},
-								["Deep Wounds (DoT)"] = {
-									["count"] = 1572,
-								},
-								["Cleave"] = {
-									["count"] = 1711,
-								},
-								["Damage Shield"] = {
-									["count"] = 623,
-								},
-								["Devastate"] = {
-									["count"] = 1286,
-								},
-								["Revenge"] = {
-									["count"] = 13476,
-								},
-								["Melee"] = {
-									["count"] = 741,
+								["Hit"] = {
+									["count"] = 5,
 								},
 							},
-							["amount"] = 32643,
+							["amount"] = 5,
 						},
-						["Risen Drakkari Bat Rider"] = {
+						["Fire"] = {
 							["Details"] = {
-								["Shockwave"] = {
-									["count"] = 3321,
-								},
-								["Thunder Clap"] = {
-									["count"] = 897,
+								["Hit"] = {
+									["count"] = 4,
 								},
 							},
-							["amount"] = 4218,
-						},
-						["Drakkari Shaman"] = {
-							["Details"] = {
-								["Deep Wounds (DoT)"] = {
-									["count"] = 528,
-								},
-								["Thunder Clap"] = {
-									["count"] = 5241,
-								},
-								["Revenge"] = {
-									["count"] = 3879,
-								},
-								["Cleave"] = {
-									["count"] = 2610,
-								},
-								["Damage Shield"] = {
-									["count"] = 468,
-								},
-								["Devastate"] = {
-									["count"] = 8867,
-								},
-								["Fire Shield"] = {
-									["count"] = 84,
-								},
-								["Melee"] = {
-									["count"] = 2027,
-								},
-							},
-							["amount"] = 23704,
+							["amount"] = 4,
 						},
 					},
 					["TimeDamage"] = 33.52999999999999,
@@ -20657,14 +20660,14 @@ RecountPerCharDB = {
 						},
 						["Drakkari Shaman"] = {
 							["Details"] = {
-								["Deep Wounds (DoT)"] = {
-									["count"] = 2.18,
+								["Revenge"] = {
+									["count"] = 0.47,
 								},
 								["Thunder Clap"] = {
 									["count"] = 0.72,
 								},
-								["Revenge"] = {
-									["count"] = 0.47,
+								["Melee"] = {
+									["count"] = 1.86,
 								},
 								["Cleave"] = {
 									["count"] = 1.95,
@@ -20678,18 +20681,15 @@ RecountPerCharDB = {
 								["Fire Shield"] = {
 									["count"] = 0,
 								},
-								["Melee"] = {
-									["count"] = 1.86,
+								["Deep Wounds (DoT)"] = {
+									["count"] = 2.18,
 								},
 							},
 							["amount"] = 13.06,
 						},
 					},
 					["RunicPowerGain"] = 0,
-					["ElementTakenBlock"] = {
-						["Melee"] = 5812,
-						["Physical"] = 368,
-					},
+					["Damage"] = 72140,
 					["DispelledWho"] = {
 					},
 				},
@@ -20957,7 +20957,7 @@ RecountPerCharDB = {
 				1824176.357, -- [49]
 				1824181.32, -- [50]
 			},
-			["LastAbility"] = 27999.068,
+			["LastAbility"] = 1053.213,
 		},
 		["The Prophet Tharon'ja"] = {
 			["GUID"] = "0xF13000680800009D",
@@ -21433,18 +21433,6 @@ RecountPerCharDB = {
 							["count"] = 2,
 							["amount"] = 0,
 						},
-						["Slaying Strike"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 30,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 30,
-							["amount"] = 0,
-						},
 						["Melee"] = {
 							["Details"] = {
 								["No Resist"] = {
@@ -21455,6 +21443,18 @@ RecountPerCharDB = {
 								},
 							},
 							["count"] = 104,
+							["amount"] = 0,
+						},
+						["Deep Wounds (DoT)"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 37,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 37,
 							["amount"] = 0,
 						},
 						["Devastate"] = {
@@ -21487,18 +21487,6 @@ RecountPerCharDB = {
 							["count"] = 12,
 							["amount"] = 1436,
 						},
-						["Sinister Strike"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 6,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 6,
-							["amount"] = 0,
-						},
 						["Fire Shield"] = {
 							["Details"] = {
 								["No Resist"] = {
@@ -21509,6 +21497,18 @@ RecountPerCharDB = {
 								},
 							},
 							["count"] = 7,
+							["amount"] = 0,
+						},
+						["Sinister Strike"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 6,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 6,
 							["amount"] = 0,
 						},
 						["Curse of Agony (DoT)"] = {
@@ -21625,16 +21625,16 @@ RecountPerCharDB = {
 							["count"] = 8,
 							["amount"] = 2227,
 						},
-						["Deep Wounds (DoT)"] = {
+						["Slaying Strike"] = {
 							["Details"] = {
 								["No Resist"] = {
 									["max"] = 0,
 									["min"] = 0,
-									["count"] = 37,
+									["count"] = 30,
 									["amount"] = 0,
 								},
 							},
-							["count"] = 37,
+							["count"] = 30,
 							["amount"] = 0,
 						},
 						["Drain Soul (DoT)"] = {
@@ -21808,18 +21808,6 @@ RecountPerCharDB = {
 							["count"] = 2,
 							["amount"] = 0,
 						},
-						["Slaying Strike"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 30,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 30,
-							["amount"] = 0,
-						},
 						["Melee"] = {
 							["Details"] = {
 								["No Absorb"] = {
@@ -21830,6 +21818,18 @@ RecountPerCharDB = {
 								},
 							},
 							["count"] = 104,
+							["amount"] = 0,
+						},
+						["Deep Wounds (DoT)"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 37,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 37,
 							["amount"] = 0,
 						},
 						["Devastate"] = {
@@ -21856,18 +21856,6 @@ RecountPerCharDB = {
 							["count"] = 12,
 							["amount"] = 0,
 						},
-						["Sinister Strike"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 6,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 6,
-							["amount"] = 0,
-						},
 						["Fire Shield"] = {
 							["Details"] = {
 								["No Absorb"] = {
@@ -21878,6 +21866,18 @@ RecountPerCharDB = {
 								},
 							},
 							["count"] = 7,
+							["amount"] = 0,
+						},
+						["Sinister Strike"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 6,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 6,
 							["amount"] = 0,
 						},
 						["Curse of Agony (DoT)"] = {
@@ -21964,16 +21964,16 @@ RecountPerCharDB = {
 							["count"] = 8,
 							["amount"] = 0,
 						},
-						["Deep Wounds (DoT)"] = {
+						["Slaying Strike"] = {
 							["Details"] = {
 								["No Absorb"] = {
 									["max"] = 0,
 									["min"] = 0,
-									["count"] = 37,
+									["count"] = 30,
 									["amount"] = 0,
 								},
 							},
-							["count"] = 37,
+							["count"] = 30,
 							["amount"] = 0,
 						},
 						["Drain Soul (DoT)"] = {
@@ -22092,91 +22092,6 @@ RecountPerCharDB = {
 							["amount"] = 37,
 						},
 					},
-					["ElementDone"] = {
-						["Shadow"] = 46265,
-						["Melee"] = 31218,
-						["Nature"] = 25659,
-					},
-					["DamagedWho"] = {
-						["Ninimagic"] = {
-							["Details"] = {
-								["Shadow Volley"] = {
-									["count"] = 8362,
-								},
-								["Poison Cloud (DoT)"] = {
-									["count"] = 2490,
-								},
-							},
-							["amount"] = 10852,
-						},
-						["Subzeroh"] = {
-							["Details"] = {
-								["Shadow Volley"] = {
-									["count"] = 8386,
-								},
-								["Eye Beam (DoT)"] = {
-									["count"] = 2145,
-								},
-							},
-							["amount"] = 10531,
-						},
-						["Flemaz"] = {
-							["Details"] = {
-								["Curse of Life (DoT)"] = {
-									["count"] = 11355,
-								},
-								["Poison Cloud (DoT)"] = {
-									["count"] = 3735,
-								},
-								["Melee"] = {
-									["count"] = 1826,
-								},
-							},
-							["amount"] = 16916,
-						},
-						["Pigmat <Subzeroh>"] = {
-							["Details"] = {
-								["Shadow Volley"] = {
-									["count"] = 803,
-								},
-							},
-							["amount"] = 803,
-						},
-						["Chalysg"] = {
-							["Details"] = {
-								["Lightning Breath"] = {
-									["count"] = 2939,
-								},
-								["Poison Cloud (DoT)"] = {
-									["count"] = 4980,
-								},
-								["Melee"] = {
-									["count"] = 11830,
-								},
-								["Shadow Volley"] = {
-									["count"] = 8929,
-								},
-								["Eye Beam (DoT)"] = {
-									["count"] = 6954,
-								},
-							},
-							["amount"] = 35632,
-						},
-						["Rimgar"] = {
-							["Details"] = {
-								["Shadow Volley"] = {
-									["count"] = 8430,
-								},
-								["Poison Cloud (DoT)"] = {
-									["count"] = 2416,
-								},
-								["Melee"] = {
-									["count"] = 17562,
-								},
-							},
-							["amount"] = 28408,
-						},
-					},
 					["Attacks"] = {
 						["Lightning Breath"] = {
 							["Details"] = {
@@ -22287,6 +22202,64 @@ RecountPerCharDB = {
 							["amount"] = 13621,
 						},
 					},
+					["ElementHitsDone"] = {
+						["Shadow"] = {
+							["Details"] = {
+								["Absorb"] = {
+									["count"] = 2,
+								},
+								["Hit"] = {
+									["count"] = 10,
+								},
+								["Tick"] = {
+									["count"] = 6,
+								},
+							},
+							["amount"] = 18,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Absorb"] = {
+									["count"] = 1,
+								},
+								["Hit"] = {
+									["count"] = 6,
+								},
+								["Dodge"] = {
+									["count"] = 2,
+								},
+								["Crit"] = {
+									["count"] = 1,
+								},
+								["Parry"] = {
+									["count"] = 4,
+								},
+							},
+							["amount"] = 14,
+						},
+						["Nature"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 1,
+								},
+								["Absorb"] = {
+									["count"] = 3,
+								},
+								["Tick"] = {
+									["count"] = 15,
+								},
+								["Hit"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 20,
+						},
+					},
+					["ElementDone"] = {
+						["Shadow"] = 46265,
+						["Melee"] = 31218,
+						["Nature"] = 25659,
+					},
 					["TimeDamaging"] = {
 						["Ninimagic"] = {
 							["Details"] = {
@@ -22379,57 +22352,84 @@ RecountPerCharDB = {
 							["amount"] = 11.09,
 						},
 					},
-					["ElementHitsDone"] = {
-						["Shadow"] = {
+					["DamagedWho"] = {
+						["Ninimagic"] = {
 							["Details"] = {
-								["Absorb"] = {
-									["count"] = 2,
+								["Shadow Volley"] = {
+									["count"] = 8362,
 								},
-								["Hit"] = {
-									["count"] = 10,
-								},
-								["Tick"] = {
-									["count"] = 6,
+								["Poison Cloud (DoT)"] = {
+									["count"] = 2490,
 								},
 							},
-							["amount"] = 18,
+							["amount"] = 10852,
 						},
-						["Melee"] = {
+						["Subzeroh"] = {
 							["Details"] = {
-								["Absorb"] = {
-									["count"] = 1,
+								["Shadow Volley"] = {
+									["count"] = 8386,
 								},
-								["Hit"] = {
-									["count"] = 6,
-								},
-								["Dodge"] = {
-									["count"] = 2,
-								},
-								["Crit"] = {
-									["count"] = 1,
-								},
-								["Parry"] = {
-									["count"] = 4,
+								["Eye Beam (DoT)"] = {
+									["count"] = 2145,
 								},
 							},
-							["amount"] = 14,
+							["amount"] = 10531,
 						},
-						["Nature"] = {
+						["Flemaz"] = {
 							["Details"] = {
-								["Miss"] = {
-									["count"] = 1,
+								["Curse of Life (DoT)"] = {
+									["count"] = 11355,
 								},
-								["Absorb"] = {
-									["count"] = 3,
+								["Poison Cloud (DoT)"] = {
+									["count"] = 3735,
 								},
-								["Tick"] = {
-									["count"] = 15,
-								},
-								["Hit"] = {
-									["count"] = 1,
+								["Melee"] = {
+									["count"] = 1826,
 								},
 							},
-							["amount"] = 20,
+							["amount"] = 16916,
+						},
+						["Pigmat <Subzeroh>"] = {
+							["Details"] = {
+								["Shadow Volley"] = {
+									["count"] = 803,
+								},
+							},
+							["amount"] = 803,
+						},
+						["Chalysg"] = {
+							["Details"] = {
+								["Lightning Breath"] = {
+									["count"] = 2939,
+								},
+								["Poison Cloud (DoT)"] = {
+									["count"] = 4980,
+								},
+								["Melee"] = {
+									["count"] = 11830,
+								},
+								["Shadow Volley"] = {
+									["count"] = 8929,
+								},
+								["Eye Beam (DoT)"] = {
+									["count"] = 6954,
+								},
+							},
+							["amount"] = 35632,
+						},
+						["Rimgar"] = {
+							["Details"] = {
+								["Shadow Volley"] = {
+									["count"] = 8430,
+								},
+								["Poison Cloud (DoT)"] = {
+									["count"] = 2416,
+								},
+								["Melee"] = {
+									["count"] = 17562,
+								},
+							},
+							["amount"] = 28408,
 						},
 					},
 					["TimeDamage"] = 59.52999999999999,
@@ -22522,11 +22522,11 @@ RecountPerCharDB = {
 								["Eviscerate"] = {
 									["count"] = 4056,
 								},
-								["Deadly Poison IX (DoT)"] = {
-									["count"] = 15153,
+								["Sinister Strike"] = {
+									["count"] = 19174,
 								},
-								["Slaying Strike"] = {
-									["count"] = 4423,
+								["Melee"] = {
+									["count"] = 58410,
 								},
 								["Instant Poison IX"] = {
 									["count"] = 21896,
@@ -22534,14 +22534,14 @@ RecountPerCharDB = {
 								["Touch of Life"] = {
 									["count"] = 4555,
 								},
-								["Sinister Strike"] = {
-									["count"] = 19174,
+								["Deadly Poison IX (DoT)"] = {
+									["count"] = 15153,
 								},
 								["Fire Shield"] = {
 									["count"] = 84,
 								},
-								["Melee"] = {
-									["count"] = 58410,
+								["Slaying Strike"] = {
+									["count"] = 4423,
 								},
 							},
 							["amount"] = 127751,
@@ -22920,18 +22920,6 @@ RecountPerCharDB = {
 							["count"] = 2,
 							["amount"] = 0,
 						},
-						["Slaying Strike"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 30,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 30,
-							["amount"] = 0,
-						},
 						["Melee"] = {
 							["Details"] = {
 								["No Resist"] = {
@@ -22942,6 +22930,18 @@ RecountPerCharDB = {
 								},
 							},
 							["count"] = 104,
+							["amount"] = 0,
+						},
+						["Deep Wounds (DoT)"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 37,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 37,
 							["amount"] = 0,
 						},
 						["Devastate"] = {
@@ -22974,18 +22974,6 @@ RecountPerCharDB = {
 							["count"] = 12,
 							["amount"] = 1436,
 						},
-						["Sinister Strike"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 6,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 6,
-							["amount"] = 0,
-						},
 						["Fire Shield"] = {
 							["Details"] = {
 								["No Resist"] = {
@@ -22996,6 +22984,18 @@ RecountPerCharDB = {
 								},
 							},
 							["count"] = 7,
+							["amount"] = 0,
+						},
+						["Sinister Strike"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 6,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 6,
 							["amount"] = 0,
 						},
 						["Curse of Agony (DoT)"] = {
@@ -23112,16 +23112,16 @@ RecountPerCharDB = {
 							["count"] = 8,
 							["amount"] = 2227,
 						},
-						["Deep Wounds (DoT)"] = {
+						["Slaying Strike"] = {
 							["Details"] = {
 								["No Resist"] = {
 									["max"] = 0,
 									["min"] = 0,
-									["count"] = 37,
+									["count"] = 30,
 									["amount"] = 0,
 								},
 							},
-							["count"] = 37,
+							["count"] = 30,
 							["amount"] = 0,
 						},
 						["Drain Soul (DoT)"] = {
@@ -23295,18 +23295,6 @@ RecountPerCharDB = {
 							["count"] = 2,
 							["amount"] = 0,
 						},
-						["Slaying Strike"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 30,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 30,
-							["amount"] = 0,
-						},
 						["Melee"] = {
 							["Details"] = {
 								["No Absorb"] = {
@@ -23317,6 +23305,18 @@ RecountPerCharDB = {
 								},
 							},
 							["count"] = 104,
+							["amount"] = 0,
+						},
+						["Deep Wounds (DoT)"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 37,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 37,
 							["amount"] = 0,
 						},
 						["Devastate"] = {
@@ -23343,18 +23343,6 @@ RecountPerCharDB = {
 							["count"] = 12,
 							["amount"] = 0,
 						},
-						["Sinister Strike"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 6,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 6,
-							["amount"] = 0,
-						},
 						["Fire Shield"] = {
 							["Details"] = {
 								["No Absorb"] = {
@@ -23365,6 +23353,18 @@ RecountPerCharDB = {
 								},
 							},
 							["count"] = 7,
+							["amount"] = 0,
+						},
+						["Sinister Strike"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 6,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 6,
 							["amount"] = 0,
 						},
 						["Curse of Agony (DoT)"] = {
@@ -23451,16 +23451,16 @@ RecountPerCharDB = {
 							["count"] = 8,
 							["amount"] = 0,
 						},
-						["Deep Wounds (DoT)"] = {
+						["Slaying Strike"] = {
 							["Details"] = {
 								["No Absorb"] = {
 									["max"] = 0,
 									["min"] = 0,
-									["count"] = 37,
+									["count"] = 30,
 									["amount"] = 0,
 								},
 							},
-							["count"] = 37,
+							["count"] = 30,
 							["amount"] = 0,
 						},
 						["Drain Soul (DoT)"] = {
@@ -23579,91 +23579,6 @@ RecountPerCharDB = {
 							["amount"] = 37,
 						},
 					},
-					["ElementDone"] = {
-						["Shadow"] = 46265,
-						["Melee"] = 31218,
-						["Nature"] = 25659,
-					},
-					["DamagedWho"] = {
-						["Ninimagic"] = {
-							["Details"] = {
-								["Shadow Volley"] = {
-									["count"] = 8362,
-								},
-								["Poison Cloud (DoT)"] = {
-									["count"] = 2490,
-								},
-							},
-							["amount"] = 10852,
-						},
-						["Subzeroh"] = {
-							["Details"] = {
-								["Shadow Volley"] = {
-									["count"] = 8386,
-								},
-								["Eye Beam (DoT)"] = {
-									["count"] = 2145,
-								},
-							},
-							["amount"] = 10531,
-						},
-						["Flemaz"] = {
-							["Details"] = {
-								["Curse of Life (DoT)"] = {
-									["count"] = 11355,
-								},
-								["Poison Cloud (DoT)"] = {
-									["count"] = 3735,
-								},
-								["Melee"] = {
-									["count"] = 1826,
-								},
-							},
-							["amount"] = 16916,
-						},
-						["Pigmat <Subzeroh>"] = {
-							["Details"] = {
-								["Shadow Volley"] = {
-									["count"] = 803,
-								},
-							},
-							["amount"] = 803,
-						},
-						["Chalysg"] = {
-							["Details"] = {
-								["Lightning Breath"] = {
-									["count"] = 2939,
-								},
-								["Poison Cloud (DoT)"] = {
-									["count"] = 4980,
-								},
-								["Melee"] = {
-									["count"] = 11830,
-								},
-								["Shadow Volley"] = {
-									["count"] = 8929,
-								},
-								["Eye Beam (DoT)"] = {
-									["count"] = 6954,
-								},
-							},
-							["amount"] = 35632,
-						},
-						["Rimgar"] = {
-							["Details"] = {
-								["Shadow Volley"] = {
-									["count"] = 8430,
-								},
-								["Poison Cloud (DoT)"] = {
-									["count"] = 2416,
-								},
-								["Melee"] = {
-									["count"] = 17562,
-								},
-							},
-							["amount"] = 28408,
-						},
-					},
 					["Attacks"] = {
 						["Lightning Breath"] = {
 							["Details"] = {
@@ -23774,6 +23689,64 @@ RecountPerCharDB = {
 							["amount"] = 13621,
 						},
 					},
+					["ElementHitsDone"] = {
+						["Shadow"] = {
+							["Details"] = {
+								["Absorb"] = {
+									["count"] = 2,
+								},
+								["Hit"] = {
+									["count"] = 10,
+								},
+								["Tick"] = {
+									["count"] = 6,
+								},
+							},
+							["amount"] = 18,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Absorb"] = {
+									["count"] = 1,
+								},
+								["Hit"] = {
+									["count"] = 6,
+								},
+								["Dodge"] = {
+									["count"] = 2,
+								},
+								["Crit"] = {
+									["count"] = 1,
+								},
+								["Parry"] = {
+									["count"] = 4,
+								},
+							},
+							["amount"] = 14,
+						},
+						["Nature"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 1,
+								},
+								["Absorb"] = {
+									["count"] = 3,
+								},
+								["Tick"] = {
+									["count"] = 15,
+								},
+								["Hit"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 20,
+						},
+					},
+					["ElementDone"] = {
+						["Shadow"] = 46265,
+						["Melee"] = 31218,
+						["Nature"] = 25659,
+					},
 					["TimeDamaging"] = {
 						["Ninimagic"] = {
 							["Details"] = {
@@ -23866,57 +23839,84 @@ RecountPerCharDB = {
 							["amount"] = 11.09,
 						},
 					},
-					["ElementHitsDone"] = {
-						["Shadow"] = {
+					["DamagedWho"] = {
+						["Ninimagic"] = {
 							["Details"] = {
-								["Absorb"] = {
-									["count"] = 2,
+								["Shadow Volley"] = {
+									["count"] = 8362,
 								},
-								["Hit"] = {
-									["count"] = 10,
-								},
-								["Tick"] = {
-									["count"] = 6,
+								["Poison Cloud (DoT)"] = {
+									["count"] = 2490,
 								},
 							},
-							["amount"] = 18,
+							["amount"] = 10852,
 						},
-						["Melee"] = {
+						["Subzeroh"] = {
 							["Details"] = {
-								["Absorb"] = {
-									["count"] = 1,
+								["Shadow Volley"] = {
+									["count"] = 8386,
 								},
-								["Hit"] = {
-									["count"] = 6,
-								},
-								["Dodge"] = {
-									["count"] = 2,
-								},
-								["Crit"] = {
-									["count"] = 1,
-								},
-								["Parry"] = {
-									["count"] = 4,
+								["Eye Beam (DoT)"] = {
+									["count"] = 2145,
 								},
 							},
-							["amount"] = 14,
+							["amount"] = 10531,
 						},
-						["Nature"] = {
+						["Flemaz"] = {
 							["Details"] = {
-								["Miss"] = {
-									["count"] = 1,
+								["Curse of Life (DoT)"] = {
+									["count"] = 11355,
 								},
-								["Absorb"] = {
-									["count"] = 3,
+								["Poison Cloud (DoT)"] = {
+									["count"] = 3735,
 								},
-								["Tick"] = {
-									["count"] = 15,
-								},
-								["Hit"] = {
-									["count"] = 1,
+								["Melee"] = {
+									["count"] = 1826,
 								},
 							},
-							["amount"] = 20,
+							["amount"] = 16916,
+						},
+						["Pigmat <Subzeroh>"] = {
+							["Details"] = {
+								["Shadow Volley"] = {
+									["count"] = 803,
+								},
+							},
+							["amount"] = 803,
+						},
+						["Chalysg"] = {
+							["Details"] = {
+								["Lightning Breath"] = {
+									["count"] = 2939,
+								},
+								["Poison Cloud (DoT)"] = {
+									["count"] = 4980,
+								},
+								["Melee"] = {
+									["count"] = 11830,
+								},
+								["Shadow Volley"] = {
+									["count"] = 8929,
+								},
+								["Eye Beam (DoT)"] = {
+									["count"] = 6954,
+								},
+							},
+							["amount"] = 35632,
+						},
+						["Rimgar"] = {
+							["Details"] = {
+								["Shadow Volley"] = {
+									["count"] = 8430,
+								},
+								["Poison Cloud (DoT)"] = {
+									["count"] = 2416,
+								},
+								["Melee"] = {
+									["count"] = 17562,
+								},
+							},
+							["amount"] = 28408,
 						},
 					},
 					["TimeDamage"] = 59.52999999999999,
@@ -24009,11 +24009,11 @@ RecountPerCharDB = {
 								["Eviscerate"] = {
 									["count"] = 4056,
 								},
-								["Deadly Poison IX (DoT)"] = {
-									["count"] = 15153,
+								["Sinister Strike"] = {
+									["count"] = 19174,
 								},
-								["Slaying Strike"] = {
-									["count"] = 4423,
+								["Melee"] = {
+									["count"] = 58410,
 								},
 								["Instant Poison IX"] = {
 									["count"] = 21896,
@@ -24021,14 +24021,14 @@ RecountPerCharDB = {
 								["Touch of Life"] = {
 									["count"] = 4555,
 								},
-								["Sinister Strike"] = {
-									["count"] = 19174,
+								["Deadly Poison IX (DoT)"] = {
+									["count"] = 15153,
 								},
 								["Fire Shield"] = {
 									["count"] = 84,
 								},
-								["Melee"] = {
-									["count"] = 58410,
+								["Slaying Strike"] = {
+									["count"] = 4423,
 								},
 							},
 							["amount"] = 127751,
@@ -24129,13 +24129,14 @@ RecountPerCharDB = {
 					},
 					["DeathCount"] = 0,
 					["HOT_Time"] = 0,
-					["HOTs"] = {
-					},
+					["DOT_Time"] = 0,
 					["ManaGain"] = 0,
 					["ElementTaken"] = {
 					},
-					["DOT_Time"] = 0,
-					["Damage"] = 0,
+					["HOTs"] = {
+					},
+					["ElementTakenBlock"] = {
+					},
 					["ElementDoneAbsorb"] = {
 					},
 					["TimeHeal"] = 0,
@@ -24153,7 +24154,7 @@ RecountPerCharDB = {
 					},
 					["ManaGainedFrom"] = {
 					},
-					["ElementHitsDone"] = {
+					["DamagedWho"] = {
 					},
 					["RageGained"] = {
 					},
@@ -24161,29 +24162,28 @@ RecountPerCharDB = {
 					},
 					["EnergyGainedFrom"] = {
 					},
-					["Dispelled"] = 0,
-					["RunicPowerGained"] = {
+					["OverHeals"] = {
+					},
+					["CCBroken"] = {
 					},
 					["ElementDoneBlock"] = {
 					},
 					["TimeHealing"] = {
 					},
-					["OverHeals"] = {
-					},
+					["Dispelled"] = 0,
 					["WhoHealed"] = {
 					},
-					["EnergyGain"] = 0,
-					["CCBreak"] = 0,
-					["PartialAbsorb"] = {
-					},
-					["ActiveTime"] = 0,
 					["PartialResist"] = {
 					},
+					["CCBreak"] = 0,
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["EnergyGain"] = 0,
 					["ManaGained"] = {
 					},
 					["ElementTakenAbsorb"] = {
 					},
-					["Interrupts"] = 0,
+					["ActiveTime"] = 0,
 					["Overhealing"] = 0,
 					["ElementTakenResist"] = {
 					},
@@ -24195,27 +24195,27 @@ RecountPerCharDB = {
 					},
 					["Heals"] = {
 					},
-					["FDamage"] = 0,
+					["PartialAbsorb"] = {
+					},
 					["EnergyGained"] = {
 					},
 					["HealedWho"] = {
 					},
 					["Healing"] = 0,
-					["RunicPowerGainedFrom"] = {
+					["RunicPowerGained"] = {
 					},
-					["CCBroken"] = {
+					["RunicPowerGainedFrom"] = {
 					},
 					["Attacks"] = {
 					},
 					["HealingTaken"] = 0,
-					["DamagedWho"] = {
+					["ElementHitsDone"] = {
 					},
 					["TimeDamage"] = 0,
 					["TimeDamaging"] = {
 					},
 					["RunicPowerGain"] = 0,
-					["ElementTakenBlock"] = {
-					},
+					["Damage"] = 0,
 					["DispelledWho"] = {
 					},
 				},
@@ -24510,18 +24510,6 @@ RecountPerCharDB = {
 							["count"] = 2,
 							["amount"] = 0,
 						},
-						["Slaying Strike"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 30,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 30,
-							["amount"] = 0,
-						},
 						["Melee"] = {
 							["Details"] = {
 								["No Resist"] = {
@@ -24532,6 +24520,18 @@ RecountPerCharDB = {
 								},
 							},
 							["count"] = 104,
+							["amount"] = 0,
+						},
+						["Deep Wounds (DoT)"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 37,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 37,
 							["amount"] = 0,
 						},
 						["Devastate"] = {
@@ -24564,18 +24564,6 @@ RecountPerCharDB = {
 							["count"] = 12,
 							["amount"] = 1436,
 						},
-						["Sinister Strike"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 6,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 6,
-							["amount"] = 0,
-						},
 						["Fire Shield"] = {
 							["Details"] = {
 								["No Resist"] = {
@@ -24586,6 +24574,18 @@ RecountPerCharDB = {
 								},
 							},
 							["count"] = 7,
+							["amount"] = 0,
+						},
+						["Sinister Strike"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 6,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 6,
 							["amount"] = 0,
 						},
 						["Curse of Agony (DoT)"] = {
@@ -24702,16 +24702,16 @@ RecountPerCharDB = {
 							["count"] = 8,
 							["amount"] = 2227,
 						},
-						["Deep Wounds (DoT)"] = {
+						["Slaying Strike"] = {
 							["Details"] = {
 								["No Resist"] = {
 									["max"] = 0,
 									["min"] = 0,
-									["count"] = 37,
+									["count"] = 30,
 									["amount"] = 0,
 								},
 							},
-							["count"] = 37,
+							["count"] = 30,
 							["amount"] = 0,
 						},
 						["Drain Soul (DoT)"] = {
@@ -24885,18 +24885,6 @@ RecountPerCharDB = {
 							["count"] = 2,
 							["amount"] = 0,
 						},
-						["Slaying Strike"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 30,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 30,
-							["amount"] = 0,
-						},
 						["Melee"] = {
 							["Details"] = {
 								["No Absorb"] = {
@@ -24907,6 +24895,18 @@ RecountPerCharDB = {
 								},
 							},
 							["count"] = 104,
+							["amount"] = 0,
+						},
+						["Deep Wounds (DoT)"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 37,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 37,
 							["amount"] = 0,
 						},
 						["Devastate"] = {
@@ -24933,18 +24933,6 @@ RecountPerCharDB = {
 							["count"] = 12,
 							["amount"] = 0,
 						},
-						["Sinister Strike"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 6,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 6,
-							["amount"] = 0,
-						},
 						["Fire Shield"] = {
 							["Details"] = {
 								["No Absorb"] = {
@@ -24955,6 +24943,18 @@ RecountPerCharDB = {
 								},
 							},
 							["count"] = 7,
+							["amount"] = 0,
+						},
+						["Sinister Strike"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 6,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 6,
 							["amount"] = 0,
 						},
 						["Curse of Agony (DoT)"] = {
@@ -25041,16 +25041,16 @@ RecountPerCharDB = {
 							["count"] = 8,
 							["amount"] = 0,
 						},
-						["Deep Wounds (DoT)"] = {
+						["Slaying Strike"] = {
 							["Details"] = {
 								["No Absorb"] = {
 									["max"] = 0,
 									["min"] = 0,
-									["count"] = 37,
+									["count"] = 30,
 									["amount"] = 0,
 								},
 							},
-							["count"] = 37,
+							["count"] = 30,
 							["amount"] = 0,
 						},
 						["Drain Soul (DoT)"] = {
@@ -25169,91 +25169,6 @@ RecountPerCharDB = {
 							["amount"] = 37,
 						},
 					},
-					["ElementDone"] = {
-						["Shadow"] = 46265,
-						["Melee"] = 31218,
-						["Nature"] = 25659,
-					},
-					["DamagedWho"] = {
-						["Ninimagic"] = {
-							["Details"] = {
-								["Shadow Volley"] = {
-									["count"] = 8362,
-								},
-								["Poison Cloud (DoT)"] = {
-									["count"] = 2490,
-								},
-							},
-							["amount"] = 10852,
-						},
-						["Subzeroh"] = {
-							["Details"] = {
-								["Shadow Volley"] = {
-									["count"] = 8386,
-								},
-								["Eye Beam (DoT)"] = {
-									["count"] = 2145,
-								},
-							},
-							["amount"] = 10531,
-						},
-						["Flemaz"] = {
-							["Details"] = {
-								["Curse of Life (DoT)"] = {
-									["count"] = 11355,
-								},
-								["Poison Cloud (DoT)"] = {
-									["count"] = 3735,
-								},
-								["Melee"] = {
-									["count"] = 1826,
-								},
-							},
-							["amount"] = 16916,
-						},
-						["Pigmat <Subzeroh>"] = {
-							["Details"] = {
-								["Shadow Volley"] = {
-									["count"] = 803,
-								},
-							},
-							["amount"] = 803,
-						},
-						["Chalysg"] = {
-							["Details"] = {
-								["Lightning Breath"] = {
-									["count"] = 2939,
-								},
-								["Poison Cloud (DoT)"] = {
-									["count"] = 4980,
-								},
-								["Melee"] = {
-									["count"] = 11830,
-								},
-								["Shadow Volley"] = {
-									["count"] = 8929,
-								},
-								["Eye Beam (DoT)"] = {
-									["count"] = 6954,
-								},
-							},
-							["amount"] = 35632,
-						},
-						["Rimgar"] = {
-							["Details"] = {
-								["Shadow Volley"] = {
-									["count"] = 8430,
-								},
-								["Poison Cloud (DoT)"] = {
-									["count"] = 2416,
-								},
-								["Melee"] = {
-									["count"] = 17562,
-								},
-							},
-							["amount"] = 28408,
-						},
-					},
 					["Attacks"] = {
 						["Lightning Breath"] = {
 							["Details"] = {
@@ -25364,6 +25279,64 @@ RecountPerCharDB = {
 							["amount"] = 13621,
 						},
 					},
+					["ElementHitsDone"] = {
+						["Shadow"] = {
+							["Details"] = {
+								["Absorb"] = {
+									["count"] = 2,
+								},
+								["Hit"] = {
+									["count"] = 10,
+								},
+								["Tick"] = {
+									["count"] = 6,
+								},
+							},
+							["amount"] = 18,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Absorb"] = {
+									["count"] = 1,
+								},
+								["Hit"] = {
+									["count"] = 6,
+								},
+								["Dodge"] = {
+									["count"] = 2,
+								},
+								["Crit"] = {
+									["count"] = 1,
+								},
+								["Parry"] = {
+									["count"] = 4,
+								},
+							},
+							["amount"] = 14,
+						},
+						["Nature"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 1,
+								},
+								["Absorb"] = {
+									["count"] = 3,
+								},
+								["Tick"] = {
+									["count"] = 15,
+								},
+								["Hit"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 20,
+						},
+					},
+					["ElementDone"] = {
+						["Shadow"] = 46265,
+						["Melee"] = 31218,
+						["Nature"] = 25659,
+					},
 					["TimeDamaging"] = {
 						["Ninimagic"] = {
 							["Details"] = {
@@ -25456,57 +25429,84 @@ RecountPerCharDB = {
 							["amount"] = 11.09,
 						},
 					},
-					["ElementHitsDone"] = {
-						["Shadow"] = {
+					["DamagedWho"] = {
+						["Ninimagic"] = {
 							["Details"] = {
-								["Absorb"] = {
-									["count"] = 2,
+								["Shadow Volley"] = {
+									["count"] = 8362,
 								},
-								["Hit"] = {
-									["count"] = 10,
-								},
-								["Tick"] = {
-									["count"] = 6,
+								["Poison Cloud (DoT)"] = {
+									["count"] = 2490,
 								},
 							},
-							["amount"] = 18,
+							["amount"] = 10852,
 						},
-						["Melee"] = {
+						["Subzeroh"] = {
 							["Details"] = {
-								["Absorb"] = {
-									["count"] = 1,
+								["Shadow Volley"] = {
+									["count"] = 8386,
 								},
-								["Hit"] = {
-									["count"] = 6,
-								},
-								["Dodge"] = {
-									["count"] = 2,
-								},
-								["Crit"] = {
-									["count"] = 1,
-								},
-								["Parry"] = {
-									["count"] = 4,
+								["Eye Beam (DoT)"] = {
+									["count"] = 2145,
 								},
 							},
-							["amount"] = 14,
+							["amount"] = 10531,
 						},
-						["Nature"] = {
+						["Flemaz"] = {
 							["Details"] = {
-								["Miss"] = {
-									["count"] = 1,
+								["Curse of Life (DoT)"] = {
+									["count"] = 11355,
 								},
-								["Absorb"] = {
-									["count"] = 3,
+								["Poison Cloud (DoT)"] = {
+									["count"] = 3735,
 								},
-								["Tick"] = {
-									["count"] = 15,
-								},
-								["Hit"] = {
-									["count"] = 1,
+								["Melee"] = {
+									["count"] = 1826,
 								},
 							},
-							["amount"] = 20,
+							["amount"] = 16916,
+						},
+						["Pigmat <Subzeroh>"] = {
+							["Details"] = {
+								["Shadow Volley"] = {
+									["count"] = 803,
+								},
+							},
+							["amount"] = 803,
+						},
+						["Chalysg"] = {
+							["Details"] = {
+								["Lightning Breath"] = {
+									["count"] = 2939,
+								},
+								["Poison Cloud (DoT)"] = {
+									["count"] = 4980,
+								},
+								["Melee"] = {
+									["count"] = 11830,
+								},
+								["Shadow Volley"] = {
+									["count"] = 8929,
+								},
+								["Eye Beam (DoT)"] = {
+									["count"] = 6954,
+								},
+							},
+							["amount"] = 35632,
+						},
+						["Rimgar"] = {
+							["Details"] = {
+								["Shadow Volley"] = {
+									["count"] = 8430,
+								},
+								["Poison Cloud (DoT)"] = {
+									["count"] = 2416,
+								},
+								["Melee"] = {
+									["count"] = 17562,
+								},
+							},
+							["amount"] = 28408,
 						},
 					},
 					["TimeDamage"] = 59.52999999999999,
@@ -25599,11 +25599,11 @@ RecountPerCharDB = {
 								["Eviscerate"] = {
 									["count"] = 4056,
 								},
-								["Deadly Poison IX (DoT)"] = {
-									["count"] = 15153,
+								["Sinister Strike"] = {
+									["count"] = 19174,
 								},
-								["Slaying Strike"] = {
-									["count"] = 4423,
+								["Melee"] = {
+									["count"] = 58410,
 								},
 								["Instant Poison IX"] = {
 									["count"] = 21896,
@@ -25611,14 +25611,14 @@ RecountPerCharDB = {
 								["Touch of Life"] = {
 									["count"] = 4555,
 								},
-								["Sinister Strike"] = {
-									["count"] = 19174,
+								["Deadly Poison IX (DoT)"] = {
+									["count"] = 15153,
 								},
 								["Fire Shield"] = {
 									["count"] = 84,
 								},
-								["Melee"] = {
-									["count"] = 58410,
+								["Slaying Strike"] = {
+									["count"] = 4423,
 								},
 							},
 							["amount"] = 127751,
@@ -26298,7 +26298,7 @@ RecountPerCharDB = {
 				1824200.008, -- [49]
 				1824200.359, -- [50]
 			},
-			["LastAbility"] = 27999.068,
+			["LastAbility"] = 1053.213,
 		},
 		["Chalysg"] = {
 			["GUID"] = "0x07000000004248B8",
@@ -26752,11 +26752,11 @@ RecountPerCharDB = {
 								["Fan of Knives"] = {
 									["count"] = 1.47,
 								},
-								["Deadly Poison IX (DoT)"] = {
-									["count"] = 3.82,
-								},
 								["Sinister Strike"] = {
 									["count"] = 0,
+								},
+								["Deadly Poison IX (DoT)"] = {
+									["count"] = 3.82,
 								},
 							},
 							["amount"] = 22.58,
@@ -26798,11 +26798,11 @@ RecountPerCharDB = {
 								["Melee"] = {
 									["count"] = 1.23,
 								},
-								["Deadly Poison IX (DoT)"] = {
-									["count"] = 3.45,
-								},
 								["Sinister Strike"] = {
 									["count"] = 0.17,
+								},
+								["Deadly Poison IX (DoT)"] = {
+									["count"] = 3.45,
 								},
 							},
 							["amount"] = 6.49,
@@ -26855,11 +26855,11 @@ RecountPerCharDB = {
 								["Sinister Strike"] = {
 									["count"] = 1.1,
 								},
-								["Fire Shield"] = {
-									["count"] = 0,
-								},
 								["Deadly Poison IX (DoT)"] = {
 									["count"] = 0.15,
+								},
+								["Fire Shield"] = {
+									["count"] = 0,
 								},
 							},
 							["amount"] = 27.84,
@@ -26950,14 +26950,34 @@ RecountPerCharDB = {
 								["Melee"] = {
 									["count"] = 6.090000000000001,
 								},
-								["Deadly Poison IX (DoT)"] = {
-									["count"] = 2.38,
-								},
 								["Sinister Strike"] = {
 									["count"] = 0.76,
 								},
+								["Deadly Poison IX (DoT)"] = {
+									["count"] = 2.38,
+								},
 							},
 							["amount"] = 15.26,
+						},
+						["Darkweb Recluse"] = {
+							["Details"] = {
+								["Fan of Knives"] = {
+									["count"] = 5.16,
+								},
+								["Instant Poison IX"] = {
+									["count"] = 0.91,
+								},
+								["Melee"] = {
+									["count"] = 6.270000000000001,
+								},
+								["Sinister Strike"] = {
+									["count"] = 0.34,
+								},
+								["Deadly Poison IX (DoT)"] = {
+									["count"] = 7.61,
+								},
+							},
+							["amount"] = 20.29,
 						},
 						["Risen Drakkari Death Knight"] = {
 							["Details"] = {
@@ -26984,26 +27004,6 @@ RecountPerCharDB = {
 								},
 							},
 							["amount"] = 34.24,
-						},
-						["Darkweb Recluse"] = {
-							["Details"] = {
-								["Fan of Knives"] = {
-									["count"] = 5.16,
-								},
-								["Instant Poison IX"] = {
-									["count"] = 0.91,
-								},
-								["Melee"] = {
-									["count"] = 6.270000000000001,
-								},
-								["Deadly Poison IX (DoT)"] = {
-									["count"] = 7.61,
-								},
-								["Sinister Strike"] = {
-									["count"] = 0.34,
-								},
-							},
-							["amount"] = 20.29,
 						},
 						["Scourge Brute"] = {
 							["Details"] = {
@@ -27042,229 +27042,30 @@ RecountPerCharDB = {
 							["amount"] = 2.15,
 						},
 					},
-					["DamageTaken"] = 127467,
-					["WhoDispelled"] = {
-						["Ninimagic"] = {
+					["HealedWho"] = {
+						["Chalysg"] = {
 							["Details"] = {
-								["Poison Spit (Cleanse)"] = {
-									["count"] = 3,
-								},
-								["Icy Touch (Cleanse)"] = {
-									["count"] = 1,
-								},
-								["Fear (Cleanse)"] = {
-									["count"] = 1,
+								["Touch of Life"] = {
+									["count"] = 4781,
 								},
 							},
-							["amount"] = 5,
+							["amount"] = 4781,
 						},
 					},
-					["PartialResist"] = {
-						["Shadow Void (DoT)"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 2,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 2,
-							["amount"] = 0,
-						},
-						["Poison Cloud (DoT)"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 4,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 4,
-							["amount"] = 0,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 12,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 12,
-							["amount"] = 0,
-						},
-						["Cleave"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 6,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 6,
-							["amount"] = 0,
-						},
-						["Blood Siphon"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 2,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 2,
-							["amount"] = 0,
-						},
-						["Whirlwind"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 2,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 2,
-							["amount"] = 0,
-						},
-						["Deafening Roar"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 5,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 5,
-							["amount"] = 0,
-						},
-						["Disease Cloud"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 9,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 9,
-							["amount"] = 0,
-						},
-						["Lightning Breath"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 0,
-						},
-						["Eye Beam (DoT)"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 3,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 3,
-							["amount"] = 0,
-						},
-						["Consume"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 0,
-						},
-						["Poison Spit (DoT)"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 2,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 2,
-							["amount"] = 0,
-						},
-						["Shadow Volley"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 2,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 2,
-							["amount"] = 0,
-						},
-						["Hooked Net"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 0,
-						},
-						["Ghost Strike"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 0,
-						},
-						["Icy Touch"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 5,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 5,
-							["amount"] = 0,
-						},
-					},
+					["Damage"] = 1192475,
+					["EnergyGain"] = 750,
 					["DeathCount"] = 1,
 					["PartialAbsorb"] = {
-						["Shadow Void (DoT)"] = {
+						["Melee"] = {
 							["Details"] = {
 								["No Absorb"] = {
 									["max"] = 0,
 									["min"] = 0,
-									["count"] = 2,
+									["count"] = 12,
 									["amount"] = 0,
 								},
 							},
-							["count"] = 2,
+							["count"] = 12,
 							["amount"] = 0,
 						},
 						["Poison Cloud (DoT)"] = {
@@ -27279,16 +27080,16 @@ RecountPerCharDB = {
 							["count"] = 4,
 							["amount"] = 0,
 						},
-						["Melee"] = {
+						["Shadow Void (DoT)"] = {
 							["Details"] = {
 								["No Absorb"] = {
 									["max"] = 0,
 									["min"] = 0,
-									["count"] = 12,
+									["count"] = 2,
 									["amount"] = 0,
 								},
 							},
-							["count"] = 12,
+							["count"] = 2,
 							["amount"] = 0,
 						},
 						["Cleave"] = {
@@ -27303,16 +27104,16 @@ RecountPerCharDB = {
 							["count"] = 6,
 							["amount"] = 0,
 						},
-						["Blood Siphon"] = {
+						["Icy Touch"] = {
 							["Details"] = {
 								["No Absorb"] = {
 									["max"] = 0,
 									["min"] = 0,
-									["count"] = 2,
+									["count"] = 5,
 									["amount"] = 0,
 								},
 							},
-							["count"] = 2,
+							["count"] = 5,
 							["amount"] = 0,
 						},
 						["Whirlwind"] = {
@@ -27435,16 +27236,16 @@ RecountPerCharDB = {
 							["count"] = 1,
 							["amount"] = 0,
 						},
-						["Icy Touch"] = {
+						["Blood Siphon"] = {
 							["Details"] = {
 								["No Absorb"] = {
 									["max"] = 0,
 									["min"] = 0,
-									["count"] = 5,
+									["count"] = 2,
 									["amount"] = 0,
 								},
 							},
-							["count"] = 5,
+							["count"] = 2,
 							["amount"] = 0,
 						},
 					},
@@ -27471,7 +27272,22 @@ RecountPerCharDB = {
 						["Nature"] = 17702,
 					},
 					["DOT_Time"] = 372,
-					["Damage"] = 1192475,
+					["WhoDispelled"] = {
+						["Ninimagic"] = {
+							["Details"] = {
+								["Poison Spit (Cleanse)"] = {
+									["count"] = 3,
+								},
+								["Icy Touch (Cleanse)"] = {
+									["count"] = 1,
+								},
+								["Fear (Cleanse)"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 5,
+						},
+					},
 					["WhoDamaged"] = {
 						["Trollgore"] = {
 							["Details"] = {
@@ -28055,11 +27871,11 @@ RecountPerCharDB = {
 								["Eviscerate"] = {
 									["count"] = 4056,
 								},
-								["Deadly Poison IX (DoT)"] = {
-									["count"] = 15153,
+								["Sinister Strike"] = {
+									["count"] = 19174,
 								},
-								["Slaying Strike"] = {
-									["count"] = 4423,
+								["Melee"] = {
+									["count"] = 58410,
 								},
 								["Instant Poison IX"] = {
 									["count"] = 21896,
@@ -28067,14 +27883,14 @@ RecountPerCharDB = {
 								["Touch of Life"] = {
 									["count"] = 4555,
 								},
-								["Sinister Strike"] = {
-									["count"] = 19174,
+								["Deadly Poison IX (DoT)"] = {
+									["count"] = 15153,
 								},
 								["Fire Shield"] = {
 									["count"] = 84,
 								},
-								["Melee"] = {
-									["count"] = 58410,
+								["Slaying Strike"] = {
+									["count"] = 4423,
 								},
 							},
 							["amount"] = 127751,
@@ -28228,11 +28044,11 @@ RecountPerCharDB = {
 								["Fan of Knives"] = {
 									["count"] = 7169,
 								},
-								["Deadly Poison IX (DoT)"] = {
-									["count"] = 1732,
-								},
 								["Sinister Strike"] = {
 									["count"] = 10421,
+								},
+								["Deadly Poison IX (DoT)"] = {
+									["count"] = 1732,
 								},
 							},
 							["amount"] = 42826,
@@ -28274,11 +28090,11 @@ RecountPerCharDB = {
 								["Melee"] = {
 									["count"] = 5617,
 								},
-								["Deadly Poison IX (DoT)"] = {
-									["count"] = 741,
-								},
 								["Sinister Strike"] = {
 									["count"] = 5000,
+								},
+								["Deadly Poison IX (DoT)"] = {
+									["count"] = 741,
 								},
 							},
 							["amount"] = 26678,
@@ -28331,11 +28147,11 @@ RecountPerCharDB = {
 								["Sinister Strike"] = {
 									["count"] = 9628,
 								},
-								["Fire Shield"] = {
-									["count"] = 210,
-								},
 								["Deadly Poison IX (DoT)"] = {
 									["count"] = 1489,
+								},
+								["Fire Shield"] = {
+									["count"] = 210,
 								},
 							},
 							["amount"] = 55651,
@@ -28397,11 +28213,11 @@ RecountPerCharDB = {
 								["Melee"] = {
 									["count"] = 11726,
 								},
-								["Deadly Poison IX (DoT)"] = {
-									["count"] = 8750,
-								},
 								["Sinister Strike"] = {
 									["count"] = 8073,
+								},
+								["Deadly Poison IX (DoT)"] = {
+									["count"] = 8750,
 								},
 							},
 							["amount"] = 74234,
@@ -28446,11 +28262,11 @@ RecountPerCharDB = {
 								["Melee"] = {
 									["count"] = 9940,
 								},
-								["Deadly Poison IX (DoT)"] = {
-									["count"] = 693,
-								},
 								["Sinister Strike"] = {
 									["count"] = 5572,
+								},
+								["Deadly Poison IX (DoT)"] = {
+									["count"] = 693,
 								},
 							},
 							["amount"] = 31500,
@@ -28719,11 +28535,11 @@ RecountPerCharDB = {
 								["Fan of Knives"] = {
 									["count"] = 1.47,
 								},
-								["Deadly Poison IX (DoT)"] = {
-									["count"] = 3.82,
-								},
 								["Sinister Strike"] = {
 									["count"] = 0,
+								},
+								["Deadly Poison IX (DoT)"] = {
+									["count"] = 3.82,
 								},
 							},
 							["amount"] = 22.58,
@@ -28765,11 +28581,11 @@ RecountPerCharDB = {
 								["Melee"] = {
 									["count"] = 1.23,
 								},
-								["Deadly Poison IX (DoT)"] = {
-									["count"] = 3.45,
-								},
 								["Sinister Strike"] = {
 									["count"] = 0.17,
+								},
+								["Deadly Poison IX (DoT)"] = {
+									["count"] = 3.45,
 								},
 							},
 							["amount"] = 6.49,
@@ -28822,11 +28638,11 @@ RecountPerCharDB = {
 								["Sinister Strike"] = {
 									["count"] = 1.1,
 								},
-								["Fire Shield"] = {
-									["count"] = 0,
-								},
 								["Deadly Poison IX (DoT)"] = {
 									["count"] = 0.15,
+								},
+								["Fire Shield"] = {
+									["count"] = 0,
 								},
 							},
 							["amount"] = 27.84,
@@ -28888,11 +28704,11 @@ RecountPerCharDB = {
 								["Melee"] = {
 									["count"] = 6.270000000000001,
 								},
-								["Deadly Poison IX (DoT)"] = {
-									["count"] = 7.61,
-								},
 								["Sinister Strike"] = {
 									["count"] = 0.34,
+								},
+								["Deadly Poison IX (DoT)"] = {
+									["count"] = 7.61,
 								},
 							},
 							["amount"] = 20.29,
@@ -28937,11 +28753,11 @@ RecountPerCharDB = {
 								["Melee"] = {
 									["count"] = 6.090000000000001,
 								},
-								["Deadly Poison IX (DoT)"] = {
-									["count"] = 2.38,
-								},
 								["Sinister Strike"] = {
 									["count"] = 0.76,
+								},
+								["Deadly Poison IX (DoT)"] = {
+									["count"] = 2.38,
 								},
 							},
 							["amount"] = 15.26,
@@ -29011,17 +28827,201 @@ RecountPerCharDB = {
 							["amount"] = 750,
 						},
 					},
-					["EnergyGain"] = 750,
-					["HealedWho"] = {
-						["Chalysg"] = {
+					["PartialResist"] = {
+						["Melee"] = {
 							["Details"] = {
-								["Touch of Life"] = {
-									["count"] = 4781,
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 12,
+									["amount"] = 0,
 								},
 							},
-							["amount"] = 4781,
+							["count"] = 12,
+							["amount"] = 0,
+						},
+						["Poison Cloud (DoT)"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 4,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 4,
+							["amount"] = 0,
+						},
+						["Shadow Void (DoT)"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 0,
+						},
+						["Cleave"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 6,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 6,
+							["amount"] = 0,
+						},
+						["Icy Touch"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 5,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 5,
+							["amount"] = 0,
+						},
+						["Whirlwind"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 0,
+						},
+						["Deafening Roar"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 5,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 5,
+							["amount"] = 0,
+						},
+						["Disease Cloud"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 9,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 9,
+							["amount"] = 0,
+						},
+						["Lightning Breath"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+						["Eye Beam (DoT)"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 3,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 3,
+							["amount"] = 0,
+						},
+						["Consume"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+						["Poison Spit (DoT)"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 0,
+						},
+						["Shadow Volley"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 0,
+						},
+						["Hooked Net"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+						["Ghost Strike"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+						["Blood Siphon"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 0,
 						},
 					},
+					["DamageTaken"] = 127467,
 				},
 				["Fight5"] = {
 					["DOTs"] = {
@@ -29084,16 +29084,17 @@ RecountPerCharDB = {
 					},
 					["DeathCount"] = 0,
 					["HOT_Time"] = 0,
-					["HOTs"] = {
-					},
+					["DOT_Time"] = 72,
 					["ManaGain"] = 0,
 					["ElementTaken"] = {
 						["Shadow"] = 6510,
 						["Melee"] = 0,
 						["Nature"] = 0,
 					},
-					["DOT_Time"] = 72,
-					["Damage"] = 164660,
+					["HOTs"] = {
+					},
+					["ElementTakenBlock"] = {
+					},
 					["ElementDoneAbsorb"] = {
 					},
 					["TimeHeal"] = 0,
@@ -29114,45 +29115,135 @@ RecountPerCharDB = {
 					},
 					["ManaGainedFrom"] = {
 					},
-					["ElementHitsDone"] = {
-						["Physical"] = {
+					["DamagedWho"] = {
+						["Drakkari Guardian"] = {
 							["Details"] = {
-								["Crit"] = {
-									["count"] = 24,
+								["Blade Flurry"] = {
+									["count"] = 8489,
 								},
-								["Hit"] = {
-									["count"] = 81,
+								["Melee"] = {
+									["count"] = 29795,
+								},
+								["Instant Poison IX"] = {
+									["count"] = 12334,
+								},
+								["Fan of Knives"] = {
+									["count"] = 18585,
+								},
+								["Deadly Poison IX (DoT)"] = {
+									["count"] = 6094,
+								},
+								["Sinister Strike"] = {
+									["count"] = 2722,
+								},
+								["Eviscerate"] = {
+									["count"] = 2427,
 								},
 							},
-							["amount"] = 105,
+							["amount"] = 80446,
 						},
-						["Melee"] = {
+						["Darkweb Recluse"] = {
 							["Details"] = {
-								["Glancing"] = {
-									["count"] = 1,
+								["Fan of Knives"] = {
+									["count"] = 0,
 								},
-								["Crit"] = {
-									["count"] = 12,
+								["Instant Poison IX"] = {
+									["count"] = 0,
 								},
-								["Hit"] = {
-									["count"] = 17,
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Sinister Strike"] = {
+									["count"] = 0,
+								},
+								["Deadly Poison IX (DoT)"] = {
+									["count"] = 0,
 								},
 							},
-							["amount"] = 30,
+							["amount"] = 0,
 						},
-						["Nature"] = {
+						["Risen Drakkari Bat Rider"] = {
 							["Details"] = {
-								["Tick"] = {
-									["count"] = 24,
+								["Blade Flurry"] = {
+									["count"] = 10195,
 								},
-								["Crit"] = {
-									["count"] = 5,
+								["Fan of Knives"] = {
+									["count"] = 10691,
 								},
-								["Hit"] = {
-									["count"] = 17,
+								["Instant Poison IX"] = {
+									["count"] = 7669,
+								},
+								["Deadly Poison IX (DoT)"] = {
+									["count"] = 1307,
+								},
+								["Killing Spree"] = {
+									["count"] = 6091,
 								},
 							},
-							["amount"] = 46,
+							["amount"] = 35953,
+						},
+						["Scourge Brute"] = {
+							["Details"] = {
+								["Blade Flurry"] = {
+									["count"] = 10979,
+								},
+								["Fan of Knives"] = {
+									["count"] = 5222,
+								},
+								["Instant Poison IX"] = {
+									["count"] = 3165,
+								},
+								["Deadly Poison IX (DoT)"] = {
+									["count"] = 2232,
+								},
+								["Killing Spree"] = {
+									["count"] = 2320,
+								},
+							},
+							["amount"] = 23918,
+						},
+						["Darkweb Hatchling"] = {
+							["Details"] = {
+								["Eviscerate"] = {
+									["count"] = 0,
+								},
+								["Fan of Knives"] = {
+									["count"] = 0,
+								},
+								["Instant Poison IX"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Sinister Strike"] = {
+									["count"] = 0,
+								},
+								["Melee (Hack and Slash)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Risen Drakkari Soulmage"] = {
+							["Details"] = {
+								["Blade Flurry"] = {
+									["count"] = 9221,
+								},
+								["Fan of Knives"] = {
+									["count"] = 8196,
+								},
+								["Instant Poison IX"] = {
+									["count"] = 2311,
+								},
+								["Deadly Poison IX (DoT)"] = {
+									["count"] = 2128,
+								},
+								["Killing Spree"] = {
+									["count"] = 2487,
+								},
+							},
+							["amount"] = 24343,
 						},
 					},
 					["RageGained"] = {
@@ -29196,8 +29287,9 @@ RecountPerCharDB = {
 							["amount"] = 60,
 						},
 					},
-					["Dispelled"] = 0,
-					["RunicPowerGained"] = {
+					["OverHeals"] = {
+					},
+					["CCBroken"] = {
 					},
 					["ElementDoneBlock"] = {
 						["Melee"] = 0,
@@ -29205,8 +29297,7 @@ RecountPerCharDB = {
 					},
 					["TimeHealing"] = {
 					},
-					["OverHeals"] = {
-					},
+					["Dispelled"] = 0,
 					["WhoHealed"] = {
 						["Ninimagic"] = {
 							["Details"] = {
@@ -29217,59 +29308,6 @@ RecountPerCharDB = {
 							["amount"] = 6517,
 						},
 					},
-					["EnergyGain"] = 60,
-					["CCBreak"] = 0,
-					["PartialAbsorb"] = {
-						["Poison Spit (DoT)"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Blood Siphon"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 0,
-						},
-						["Shadow Void (DoT)"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 0,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["ActiveTime"] = 31.36,
 					["PartialResist"] = {
 						["Poison Spit (DoT)"] = {
 							["Details"] = {
@@ -29295,18 +29333,6 @@ RecountPerCharDB = {
 							["count"] = 1,
 							["amount"] = 0,
 						},
-						["Shadow Void (DoT)"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 0,
-						},
 						["Melee"] = {
 							["Details"] = {
 								["No Resist"] = {
@@ -29319,12 +29345,28 @@ RecountPerCharDB = {
 							["count"] = 0,
 							["amount"] = 0,
 						},
+						["Shadow Void (DoT)"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
 					},
+					["CCBreak"] = 0,
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["EnergyGain"] = 60,
 					["ManaGained"] = {
 					},
 					["ElementTakenAbsorb"] = {
 					},
-					["Interrupts"] = 0,
+					["ActiveTime"] = 31.36,
 					["Overhealing"] = 0,
 					["ElementTakenResist"] = {
 					},
@@ -29378,10 +29420,10 @@ RecountPerCharDB = {
 								["Melee"] = {
 									["count"] = 0,
 								},
-								["Deadly Poison IX (DoT)"] = {
+								["Sinister Strike"] = {
 									["count"] = 0,
 								},
-								["Sinister Strike"] = {
+								["Deadly Poison IX (DoT)"] = {
 									["count"] = 0,
 								},
 							},
@@ -29473,7 +29515,56 @@ RecountPerCharDB = {
 					},
 					["Heals"] = {
 					},
-					["FDamage"] = 0,
+					["PartialAbsorb"] = {
+						["Poison Spit (DoT)"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Blood Siphon"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Shadow Void (DoT)"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+					},
 					["EnergyGained"] = {
 						["Combat Potency"] = {
 							["Details"] = {
@@ -29487,9 +29578,9 @@ RecountPerCharDB = {
 					["HealedWho"] = {
 					},
 					["Healing"] = 0,
-					["RunicPowerGainedFrom"] = {
+					["RunicPowerGained"] = {
 					},
-					["CCBroken"] = {
+					["RunicPowerGainedFrom"] = {
 					},
 					["Attacks"] = {
 						["Melee"] = {
@@ -29668,135 +29759,45 @@ RecountPerCharDB = {
 						},
 					},
 					["HealingTaken"] = 6517,
-					["DamagedWho"] = {
-						["Drakkari Guardian"] = {
+					["ElementHitsDone"] = {
+						["Physical"] = {
 							["Details"] = {
-								["Blade Flurry"] = {
-									["count"] = 8489,
+								["Crit"] = {
+									["count"] = 24,
 								},
-								["Melee"] = {
-									["count"] = 29795,
-								},
-								["Instant Poison IX"] = {
-									["count"] = 12334,
-								},
-								["Fan of Knives"] = {
-									["count"] = 18585,
-								},
-								["Deadly Poison IX (DoT)"] = {
-									["count"] = 6094,
-								},
-								["Sinister Strike"] = {
-									["count"] = 2722,
-								},
-								["Eviscerate"] = {
-									["count"] = 2427,
+								["Hit"] = {
+									["count"] = 81,
 								},
 							},
-							["amount"] = 80446,
+							["amount"] = 105,
 						},
-						["Darkweb Recluse"] = {
+						["Melee"] = {
 							["Details"] = {
-								["Fan of Knives"] = {
-									["count"] = 0,
+								["Glancing"] = {
+									["count"] = 1,
 								},
-								["Instant Poison IX"] = {
-									["count"] = 0,
+								["Crit"] = {
+									["count"] = 12,
 								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Deadly Poison IX (DoT)"] = {
-									["count"] = 0,
-								},
-								["Sinister Strike"] = {
-									["count"] = 0,
+								["Hit"] = {
+									["count"] = 17,
 								},
 							},
-							["amount"] = 0,
+							["amount"] = 30,
 						},
-						["Risen Drakkari Bat Rider"] = {
+						["Nature"] = {
 							["Details"] = {
-								["Blade Flurry"] = {
-									["count"] = 10195,
+								["Tick"] = {
+									["count"] = 24,
 								},
-								["Fan of Knives"] = {
-									["count"] = 10691,
+								["Crit"] = {
+									["count"] = 5,
 								},
-								["Instant Poison IX"] = {
-									["count"] = 7669,
-								},
-								["Deadly Poison IX (DoT)"] = {
-									["count"] = 1307,
-								},
-								["Killing Spree"] = {
-									["count"] = 6091,
+								["Hit"] = {
+									["count"] = 17,
 								},
 							},
-							["amount"] = 35953,
-						},
-						["Scourge Brute"] = {
-							["Details"] = {
-								["Blade Flurry"] = {
-									["count"] = 10979,
-								},
-								["Fan of Knives"] = {
-									["count"] = 5222,
-								},
-								["Instant Poison IX"] = {
-									["count"] = 3165,
-								},
-								["Deadly Poison IX (DoT)"] = {
-									["count"] = 2232,
-								},
-								["Killing Spree"] = {
-									["count"] = 2320,
-								},
-							},
-							["amount"] = 23918,
-						},
-						["Darkweb Hatchling"] = {
-							["Details"] = {
-								["Eviscerate"] = {
-									["count"] = 0,
-								},
-								["Fan of Knives"] = {
-									["count"] = 0,
-								},
-								["Instant Poison IX"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Sinister Strike"] = {
-									["count"] = 0,
-								},
-								["Melee (Hack and Slash)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Risen Drakkari Soulmage"] = {
-							["Details"] = {
-								["Blade Flurry"] = {
-									["count"] = 9221,
-								},
-								["Fan of Knives"] = {
-									["count"] = 8196,
-								},
-								["Instant Poison IX"] = {
-									["count"] = 2311,
-								},
-								["Deadly Poison IX (DoT)"] = {
-									["count"] = 2128,
-								},
-								["Killing Spree"] = {
-									["count"] = 2487,
-								},
-							},
-							["amount"] = 24343,
+							["amount"] = 46,
 						},
 					},
 					["TimeDamage"] = 31.36,
@@ -29838,10 +29839,10 @@ RecountPerCharDB = {
 								["Melee"] = {
 									["count"] = 0,
 								},
-								["Deadly Poison IX (DoT)"] = {
+								["Sinister Strike"] = {
 									["count"] = 0,
 								},
-								["Sinister Strike"] = {
+								["Deadly Poison IX (DoT)"] = {
 									["count"] = 0,
 								},
 							},
@@ -29932,8 +29933,7 @@ RecountPerCharDB = {
 						},
 					},
 					["RunicPowerGain"] = 0,
-					["ElementTakenBlock"] = {
-					},
+					["Damage"] = 164660,
 					["DispelledWho"] = {
 					},
 				},
@@ -29984,15 +29984,16 @@ RecountPerCharDB = {
 					},
 					["DeathCount"] = 0,
 					["HOT_Time"] = 0,
-					["HOTs"] = {
-					},
+					["DOT_Time"] = 0,
 					["ManaGain"] = 0,
 					["ElementTaken"] = {
 						["Shadow"] = 0,
 						["Physical"] = 0,
 					},
-					["DOT_Time"] = 0,
-					["Damage"] = 0,
+					["HOTs"] = {
+					},
+					["ElementTakenBlock"] = {
+					},
 					["ElementDoneAbsorb"] = {
 					},
 					["TimeHeal"] = 0,
@@ -30013,47 +30014,105 @@ RecountPerCharDB = {
 					},
 					["ManaGainedFrom"] = {
 					},
-					["ElementHitsDone"] = {
-						["Physical"] = {
+					["DamagedWho"] = {
+						["Trollgore"] = {
 							["Details"] = {
-								["Immune"] = {
+								["Eviscerate"] = {
 									["count"] = 0,
 								},
-								["Crit"] = {
+								["Melee"] = {
 									["count"] = 0,
 								},
-								["Hit"] = {
+								["Instant Poison IX"] = {
+									["count"] = 0,
+								},
+								["Sinister Strike"] = {
+									["count"] = 0,
+								},
+								["Deadly Poison IX (DoT)"] = {
+									["count"] = 0,
+								},
+								["Melee (Hack and Slash)"] = {
 									["count"] = 0,
 								},
 							},
 							["amount"] = 0,
 						},
-						["Melee"] = {
+						["Drakkari Raptor Mount"] = {
 							["Details"] = {
-								["Glancing"] = {
+								["Fan of Knives"] = {
 									["count"] = 0,
 								},
-								["Miss"] = {
+								["Instant Poison IX"] = {
 									["count"] = 0,
 								},
-								["Crit"] = {
+								["Melee"] = {
 									["count"] = 0,
 								},
-								["Hit"] = {
+								["Sinister Strike"] = {
+									["count"] = 0,
+								},
+								["Melee (Hack and Slash)"] = {
 									["count"] = 0,
 								},
 							},
 							["amount"] = 0,
 						},
-						["Nature"] = {
+						["Flesheating Ghoul"] = {
 							["Details"] = {
-								["Hit"] = {
+								["Melee"] = {
 									["count"] = 0,
 								},
-								["Crit"] = {
+								["Fan of Knives"] = {
 									["count"] = 0,
 								},
-								["Tick"] = {
+								["Sinister Strike"] = {
+									["count"] = 0,
+								},
+								["Instant Poison IX"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Ghoul Tormentor"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Instant Poison IX"] = {
+									["count"] = 0,
+								},
+								["Instant Poison IX (Hack and Slash)"] = {
+									["count"] = 0,
+								},
+								["Fan of Knives"] = {
+									["count"] = 0,
+								},
+								["Sinister Strike"] = {
+									["count"] = 0,
+								},
+								["Deadly Poison IX (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Risen Drakkari Handler"] = {
+							["Details"] = {
+								["Fan of Knives"] = {
+									["count"] = 0,
+								},
+								["Instant Poison IX"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Deadly Poison IX (DoT)"] = {
+									["count"] = 0,
+								},
+								["Sinister Strike"] = {
 									["count"] = 0,
 								},
 							},
@@ -30090,16 +30149,16 @@ RecountPerCharDB = {
 							["amount"] = 0,
 						},
 					},
-					["Dispelled"] = 0,
-					["RunicPowerGained"] = {
+					["OverHeals"] = {
+					},
+					["CCBroken"] = {
 					},
 					["ElementDoneBlock"] = {
 						["Melee"] = 0,
 					},
 					["TimeHealing"] = {
 					},
-					["OverHeals"] = {
-					},
+					["Dispelled"] = 0,
 					["WhoHealed"] = {
 						["Ninimagic"] = {
 							["Details"] = {
@@ -30113,47 +30172,6 @@ RecountPerCharDB = {
 							["amount"] = 0,
 						},
 					},
-					["EnergyGain"] = 0,
-					["CCBreak"] = 0,
-					["PartialAbsorb"] = {
-						["Hooked Net"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Consume"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Cleave"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["ActiveTime"] = 0,
 					["PartialResist"] = {
 						["Hooked Net"] = {
 							["Details"] = {
@@ -30192,11 +30210,15 @@ RecountPerCharDB = {
 							["amount"] = 0,
 						},
 					},
+					["CCBreak"] = 0,
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["EnergyGain"] = 0,
 					["ManaGained"] = {
 					},
 					["ElementTakenAbsorb"] = {
 					},
-					["Interrupts"] = 0,
+					["ActiveTime"] = 0,
 					["Overhealing"] = 0,
 					["ElementTakenResist"] = {
 					},
@@ -30253,13 +30275,13 @@ RecountPerCharDB = {
 						},
 						["Flesheating Ghoul"] = {
 							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
 								["Fan of Knives"] = {
 									["count"] = 0,
 								},
 								["Sinister Strike"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
 									["count"] = 0,
 								},
 								["Instant Poison IX"] = {
@@ -30282,10 +30304,10 @@ RecountPerCharDB = {
 								["Fan of Knives"] = {
 									["count"] = 0,
 								},
-								["Deadly Poison IX (DoT)"] = {
+								["Sinister Strike"] = {
 									["count"] = 0,
 								},
-								["Sinister Strike"] = {
+								["Deadly Poison IX (DoT)"] = {
 									["count"] = 0,
 								},
 							},
@@ -30302,10 +30324,10 @@ RecountPerCharDB = {
 								["Melee"] = {
 									["count"] = 0,
 								},
-								["Sinister Strike"] = {
+								["Deadly Poison IX (DoT)"] = {
 									["count"] = 0,
 								},
-								["Deadly Poison IX (DoT)"] = {
+								["Sinister Strike"] = {
 									["count"] = 0,
 								},
 							},
@@ -30314,7 +30336,44 @@ RecountPerCharDB = {
 					},
 					["Heals"] = {
 					},
-					["FDamage"] = 0,
+					["PartialAbsorb"] = {
+						["Hooked Net"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Consume"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Cleave"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
 					["EnergyGained"] = {
 						["Combat Potency"] = {
 							["Details"] = {
@@ -30328,9 +30387,9 @@ RecountPerCharDB = {
 					["HealedWho"] = {
 					},
 					["Healing"] = 0,
-					["RunicPowerGainedFrom"] = {
+					["RunicPowerGained"] = {
 					},
-					["CCBroken"] = {
+					["RunicPowerGainedFrom"] = {
 					},
 					["Attacks"] = {
 						["Melee"] = {
@@ -30487,105 +30546,47 @@ RecountPerCharDB = {
 						},
 					},
 					["HealingTaken"] = 0,
-					["DamagedWho"] = {
-						["Trollgore"] = {
+					["ElementHitsDone"] = {
+						["Physical"] = {
 							["Details"] = {
-								["Eviscerate"] = {
+								["Immune"] = {
 									["count"] = 0,
 								},
-								["Melee"] = {
+								["Crit"] = {
 									["count"] = 0,
 								},
-								["Instant Poison IX"] = {
-									["count"] = 0,
-								},
-								["Sinister Strike"] = {
-									["count"] = 0,
-								},
-								["Deadly Poison IX (DoT)"] = {
-									["count"] = 0,
-								},
-								["Melee (Hack and Slash)"] = {
+								["Hit"] = {
 									["count"] = 0,
 								},
 							},
 							["amount"] = 0,
 						},
-						["Drakkari Raptor Mount"] = {
+						["Melee"] = {
 							["Details"] = {
-								["Fan of Knives"] = {
+								["Glancing"] = {
 									["count"] = 0,
 								},
-								["Instant Poison IX"] = {
+								["Miss"] = {
 									["count"] = 0,
 								},
-								["Melee"] = {
+								["Crit"] = {
 									["count"] = 0,
 								},
-								["Sinister Strike"] = {
-									["count"] = 0,
-								},
-								["Melee (Hack and Slash)"] = {
+								["Hit"] = {
 									["count"] = 0,
 								},
 							},
 							["amount"] = 0,
 						},
-						["Flesheating Ghoul"] = {
+						["Nature"] = {
 							["Details"] = {
-								["Fan of Knives"] = {
+								["Hit"] = {
 									["count"] = 0,
 								},
-								["Sinister Strike"] = {
+								["Crit"] = {
 									["count"] = 0,
 								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Instant Poison IX"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Ghoul Tormentor"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Instant Poison IX"] = {
-									["count"] = 0,
-								},
-								["Instant Poison IX (Hack and Slash)"] = {
-									["count"] = 0,
-								},
-								["Fan of Knives"] = {
-									["count"] = 0,
-								},
-								["Deadly Poison IX (DoT)"] = {
-									["count"] = 0,
-								},
-								["Sinister Strike"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Risen Drakkari Handler"] = {
-							["Details"] = {
-								["Fan of Knives"] = {
-									["count"] = 0,
-								},
-								["Instant Poison IX"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Sinister Strike"] = {
-									["count"] = 0,
-								},
-								["Deadly Poison IX (DoT)"] = {
+								["Tick"] = {
 									["count"] = 0,
 								},
 							},
@@ -30642,13 +30643,13 @@ RecountPerCharDB = {
 						},
 						["Flesheating Ghoul"] = {
 							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
 								["Fan of Knives"] = {
 									["count"] = 0,
 								},
 								["Sinister Strike"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
 									["count"] = 0,
 								},
 								["Instant Poison IX"] = {
@@ -30671,10 +30672,10 @@ RecountPerCharDB = {
 								["Fan of Knives"] = {
 									["count"] = 0,
 								},
-								["Deadly Poison IX (DoT)"] = {
+								["Sinister Strike"] = {
 									["count"] = 0,
 								},
-								["Sinister Strike"] = {
+								["Deadly Poison IX (DoT)"] = {
 									["count"] = 0,
 								},
 							},
@@ -30691,10 +30692,10 @@ RecountPerCharDB = {
 								["Melee"] = {
 									["count"] = 0,
 								},
-								["Sinister Strike"] = {
+								["Deadly Poison IX (DoT)"] = {
 									["count"] = 0,
 								},
-								["Deadly Poison IX (DoT)"] = {
+								["Sinister Strike"] = {
 									["count"] = 0,
 								},
 							},
@@ -30702,8 +30703,7 @@ RecountPerCharDB = {
 						},
 					},
 					["RunicPowerGain"] = 0,
-					["ElementTakenBlock"] = {
-					},
+					["Damage"] = 0,
 					["DispelledWho"] = {
 					},
 				},
@@ -30791,8 +30791,7 @@ RecountPerCharDB = {
 					},
 					["DeathCount"] = 1,
 					["HOT_Time"] = 0,
-					["HOTs"] = {
-					},
+					["DOT_Time"] = 60,
 					["ManaGain"] = 0,
 					["ElementTaken"] = {
 						["Frost"] = 22498,
@@ -30801,8 +30800,10 @@ RecountPerCharDB = {
 						["Physical"] = 11675,
 						["Nature"] = 14873,
 					},
-					["DOT_Time"] = 60,
-					["Damage"] = 193932,
+					["HOTs"] = {
+					},
+					["ElementTakenBlock"] = {
+					},
 					["ElementDoneAbsorb"] = {
 					},
 					["TimeHeal"] = 2.15,
@@ -30825,67 +30826,132 @@ RecountPerCharDB = {
 					},
 					["ManaGainedFrom"] = {
 					},
-					["ElementHitsDone"] = {
-						["Physical"] = {
+					["DamagedWho"] = {
+						["Wretched Belcher"] = {
 							["Details"] = {
-								["Glancing"] = {
-									["count"] = 1,
+								["Fan of Knives"] = {
+									["count"] = 0,
 								},
-								["Immune"] = {
-									["count"] = 3,
+								["Instant Poison IX"] = {
+									["count"] = 0,
 								},
-								["Crit"] = {
-									["count"] = 17,
+								["Melee"] = {
+									["count"] = 0,
 								},
-								["Hit"] = {
-									["count"] = 27,
+								["Sinister Strike"] = {
+									["count"] = 0,
+								},
+								["Deadly Poison IX (DoT)"] = {
+									["count"] = 0,
 								},
 							},
-							["amount"] = 48,
+							["amount"] = 0,
 						},
-						["Melee"] = {
+						["Drakkari Gutripper"] = {
 							["Details"] = {
-								["Glancing"] = {
-									["count"] = 9,
+								["Fan of Knives"] = {
+									["count"] = 0,
 								},
-								["Crit"] = {
-									["count"] = 37,
+								["Deadly Poison IX (DoT)"] = {
+									["count"] = 0,
 								},
-								["Hit"] = {
-									["count"] = 20,
+								["Instant Poison IX"] = {
+									["count"] = 0,
 								},
 							},
-							["amount"] = 66,
+							["amount"] = 0,
 						},
-						["Fire"] = {
+						["Risen Drakkari Handler"] = {
 							["Details"] = {
-								["Hit"] = {
-									["count"] = 2,
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Fan of Knives"] = {
+									["count"] = 0,
+								},
+								["Sinister Strike"] = {
+									["count"] = 0,
+								},
+								["Instant Poison IX"] = {
+									["count"] = 0,
 								},
 							},
-							["amount"] = 2,
+							["amount"] = 0,
 						},
-						["Shadow"] = {
+						["Risen Drakkari Warrior"] = {
 							["Details"] = {
-								["Hit"] = {
-									["count"] = 3,
+								["Fan of Knives"] = {
+									["count"] = 0,
+								},
+								["Instant Poison IX"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Sinister Strike"] = {
+									["count"] = 0,
+								},
+								["Deadly Poison IX (DoT)"] = {
+									["count"] = 0,
 								},
 							},
-							["amount"] = 3,
+							["amount"] = 0,
 						},
-						["Nature"] = {
+						["Risen Drakkari Death Knight"] = {
 							["Details"] = {
-								["Hit"] = {
-									["count"] = 28,
+								["Fan of Knives"] = {
+									["count"] = 12038,
 								},
-								["Crit"] = {
-									["count"] = 4,
+								["Melee"] = {
+									["count"] = 19751,
 								},
-								["Tick"] = {
-									["count"] = 20,
+								["Instant Poison IX"] = {
+									["count"] = 10043,
+								},
+								["Instant Poison IX (Hack and Slash)"] = {
+									["count"] = 3078,
+								},
+								["Sinister Strike"] = {
+									["count"] = 7554,
+								},
+								["Deadly Poison IX (DoT)"] = {
+									["count"] = 2425,
+								},
+								["Killing Spree"] = {
+									["count"] = 11292,
 								},
 							},
-							["amount"] = 52,
+							["amount"] = 66181,
+						},
+						["The Prophet Tharon'ja"] = {
+							["Details"] = {
+								["Eviscerate"] = {
+									["count"] = 4056,
+								},
+								["Sinister Strike"] = {
+									["count"] = 19174,
+								},
+								["Melee"] = {
+									["count"] = 58410,
+								},
+								["Instant Poison IX"] = {
+									["count"] = 21896,
+								},
+								["Touch of Life"] = {
+									["count"] = 4555,
+								},
+								["Deadly Poison IX (DoT)"] = {
+									["count"] = 15153,
+								},
+								["Fire Shield"] = {
+									["count"] = 84,
+								},
+								["Slaying Strike"] = {
+									["count"] = 4423,
+								},
+							},
+							["amount"] = 127751,
 						},
 					},
 					["RageGained"] = {
@@ -30944,8 +31010,9 @@ RecountPerCharDB = {
 							["amount"] = 135,
 						},
 					},
-					["Dispelled"] = 2,
-					["RunicPowerGained"] = {
+					["OverHeals"] = {
+					},
+					["CCBroken"] = {
 					},
 					["ElementDoneBlock"] = {
 						["Melee"] = 82,
@@ -30960,8 +31027,7 @@ RecountPerCharDB = {
 							["amount"] = 2.15,
 						},
 					},
-					["OverHeals"] = {
-					},
+					["Dispelled"] = 2,
 					["WhoHealed"] = {
 						["Ninimagic"] = {
 							["Details"] = {
@@ -30989,119 +31055,6 @@ RecountPerCharDB = {
 							["amount"] = 4781,
 						},
 					},
-					["EnergyGain"] = 135,
-					["CCBreak"] = 0,
-					["PartialAbsorb"] = {
-						["Poison Cloud (DoT)"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 4,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 4,
-							["amount"] = 0,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 2,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 2,
-							["amount"] = 0,
-						},
-						["Cleave"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Deafening Roar"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 4,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 4,
-							["amount"] = 0,
-						},
-						["Disease Cloud"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Lightning Breath"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 0,
-						},
-						["Eye Beam (DoT)"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 3,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 3,
-							["amount"] = 0,
-						},
-						["Shadow Volley"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 2,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 2,
-							["amount"] = 0,
-						},
-						["Icy Touch"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 5,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 5,
-							["amount"] = 0,
-						},
-					},
-					["ActiveTime"] = 72.77000000000001,
 					["PartialResist"] = {
 						["Poison Cloud (DoT)"] = {
 							["Details"] = {
@@ -31212,11 +31165,15 @@ RecountPerCharDB = {
 							["amount"] = 0,
 						},
 					},
+					["CCBreak"] = 0,
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["EnergyGain"] = 135,
 					["ManaGained"] = {
 					},
 					["ElementTakenAbsorb"] = {
 					},
-					["Interrupts"] = 0,
+					["ActiveTime"] = 72.77000000000001,
 					["Overhealing"] = 0,
 					["ElementTakenResist"] = {
 					},
@@ -31247,10 +31204,10 @@ RecountPerCharDB = {
 								["Melee"] = {
 									["count"] = 0,
 								},
-								["Deadly Poison IX (DoT)"] = {
+								["Sinister Strike"] = {
 									["count"] = 0,
 								},
-								["Sinister Strike"] = {
+								["Deadly Poison IX (DoT)"] = {
 									["count"] = 0,
 								},
 							},
@@ -31272,13 +31229,13 @@ RecountPerCharDB = {
 						},
 						["Risen Drakkari Handler"] = {
 							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
 								["Fan of Knives"] = {
 									["count"] = 0,
 								},
 								["Sinister Strike"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
 									["count"] = 0,
 								},
 								["Instant Poison IX"] = {
@@ -31306,10 +31263,10 @@ RecountPerCharDB = {
 								["Melee"] = {
 									["count"] = 0,
 								},
-								["Deadly Poison IX (DoT)"] = {
+								["Sinister Strike"] = {
 									["count"] = 0,
 								},
-								["Sinister Strike"] = {
+								["Deadly Poison IX (DoT)"] = {
 									["count"] = 0,
 								},
 							},
@@ -31388,7 +31345,116 @@ RecountPerCharDB = {
 							["amount"] = 4781,
 						},
 					},
-					["FDamage"] = 0,
+					["PartialAbsorb"] = {
+						["Poison Cloud (DoT)"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 4,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 4,
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 0,
+						},
+						["Cleave"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Deafening Roar"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 4,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 4,
+							["amount"] = 0,
+						},
+						["Disease Cloud"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Lightning Breath"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+						["Eye Beam (DoT)"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 3,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 3,
+							["amount"] = 0,
+						},
+						["Shadow Volley"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 0,
+						},
+						["Icy Touch"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 5,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 5,
+							["amount"] = 0,
+						},
+					},
 					["EnergyGained"] = {
 						["Combat Potency"] = {
 							["Details"] = {
@@ -31410,9 +31476,9 @@ RecountPerCharDB = {
 						},
 					},
 					["Healing"] = 4781,
-					["RunicPowerGainedFrom"] = {
+					["RunicPowerGained"] = {
 					},
-					["CCBroken"] = {
+					["RunicPowerGainedFrom"] = {
 					},
 					["Attacks"] = {
 						["Fan of Knives"] = {
@@ -31607,132 +31673,67 @@ RecountPerCharDB = {
 						},
 					},
 					["HealingTaken"] = 42310,
-					["DamagedWho"] = {
-						["Wretched Belcher"] = {
+					["ElementHitsDone"] = {
+						["Physical"] = {
 							["Details"] = {
-								["Fan of Knives"] = {
-									["count"] = 0,
+								["Glancing"] = {
+									["count"] = 1,
 								},
-								["Instant Poison IX"] = {
-									["count"] = 0,
+								["Immune"] = {
+									["count"] = 3,
 								},
-								["Melee"] = {
-									["count"] = 0,
+								["Crit"] = {
+									["count"] = 17,
 								},
-								["Deadly Poison IX (DoT)"] = {
-									["count"] = 0,
-								},
-								["Sinister Strike"] = {
-									["count"] = 0,
+								["Hit"] = {
+									["count"] = 27,
 								},
 							},
-							["amount"] = 0,
+							["amount"] = 48,
 						},
-						["Drakkari Gutripper"] = {
+						["Melee"] = {
 							["Details"] = {
-								["Fan of Knives"] = {
-									["count"] = 0,
+								["Glancing"] = {
+									["count"] = 9,
 								},
-								["Deadly Poison IX (DoT)"] = {
-									["count"] = 0,
+								["Crit"] = {
+									["count"] = 37,
 								},
-								["Instant Poison IX"] = {
-									["count"] = 0,
+								["Hit"] = {
+									["count"] = 20,
 								},
 							},
-							["amount"] = 0,
+							["amount"] = 66,
 						},
-						["Risen Drakkari Handler"] = {
+						["Fire"] = {
 							["Details"] = {
-								["Fan of Knives"] = {
-									["count"] = 0,
-								},
-								["Sinister Strike"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Instant Poison IX"] = {
-									["count"] = 0,
+								["Hit"] = {
+									["count"] = 2,
 								},
 							},
-							["amount"] = 0,
+							["amount"] = 2,
 						},
-						["Risen Drakkari Warrior"] = {
+						["Shadow"] = {
 							["Details"] = {
-								["Fan of Knives"] = {
-									["count"] = 0,
-								},
-								["Instant Poison IX"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Deadly Poison IX (DoT)"] = {
-									["count"] = 0,
-								},
-								["Sinister Strike"] = {
-									["count"] = 0,
+								["Hit"] = {
+									["count"] = 3,
 								},
 							},
-							["amount"] = 0,
+							["amount"] = 3,
 						},
-						["Risen Drakkari Death Knight"] = {
+						["Nature"] = {
 							["Details"] = {
-								["Fan of Knives"] = {
-									["count"] = 12038,
+								["Hit"] = {
+									["count"] = 28,
 								},
-								["Melee"] = {
-									["count"] = 19751,
+								["Crit"] = {
+									["count"] = 4,
 								},
-								["Instant Poison IX"] = {
-									["count"] = 10043,
-								},
-								["Instant Poison IX (Hack and Slash)"] = {
-									["count"] = 3078,
-								},
-								["Sinister Strike"] = {
-									["count"] = 7554,
-								},
-								["Deadly Poison IX (DoT)"] = {
-									["count"] = 2425,
-								},
-								["Killing Spree"] = {
-									["count"] = 11292,
+								["Tick"] = {
+									["count"] = 20,
 								},
 							},
-							["amount"] = 66181,
-						},
-						["The Prophet Tharon'ja"] = {
-							["Details"] = {
-								["Eviscerate"] = {
-									["count"] = 4056,
-								},
-								["Deadly Poison IX (DoT)"] = {
-									["count"] = 15153,
-								},
-								["Slaying Strike"] = {
-									["count"] = 4423,
-								},
-								["Instant Poison IX"] = {
-									["count"] = 21896,
-								},
-								["Touch of Life"] = {
-									["count"] = 4555,
-								},
-								["Sinister Strike"] = {
-									["count"] = 19174,
-								},
-								["Fire Shield"] = {
-									["count"] = 84,
-								},
-								["Melee"] = {
-									["count"] = 58410,
-								},
-							},
-							["amount"] = 127751,
+							["amount"] = 52,
 						},
 					},
 					["TimeDamage"] = 70.62000000000002,
@@ -31748,10 +31749,10 @@ RecountPerCharDB = {
 								["Melee"] = {
 									["count"] = 0,
 								},
-								["Deadly Poison IX (DoT)"] = {
+								["Sinister Strike"] = {
 									["count"] = 0,
 								},
-								["Sinister Strike"] = {
+								["Deadly Poison IX (DoT)"] = {
 									["count"] = 0,
 								},
 							},
@@ -31773,13 +31774,13 @@ RecountPerCharDB = {
 						},
 						["Risen Drakkari Handler"] = {
 							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
 								["Fan of Knives"] = {
 									["count"] = 0,
 								},
 								["Sinister Strike"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
 									["count"] = 0,
 								},
 								["Instant Poison IX"] = {
@@ -31799,10 +31800,10 @@ RecountPerCharDB = {
 								["Melee"] = {
 									["count"] = 0,
 								},
-								["Deadly Poison IX (DoT)"] = {
+								["Sinister Strike"] = {
 									["count"] = 0,
 								},
-								["Sinister Strike"] = {
+								["Deadly Poison IX (DoT)"] = {
 									["count"] = 0,
 								},
 							},
@@ -31868,8 +31869,7 @@ RecountPerCharDB = {
 						},
 					},
 					["RunicPowerGain"] = 0,
-					["ElementTakenBlock"] = {
-					},
+					["Damage"] = 193932,
 					["DispelledWho"] = {
 					},
 				},
@@ -31906,14 +31906,15 @@ RecountPerCharDB = {
 					},
 					["DeathCount"] = 0,
 					["HOT_Time"] = 0,
-					["HOTs"] = {
-					},
+					["DOT_Time"] = 12,
 					["ManaGain"] = 0,
 					["ElementTaken"] = {
 						["Physical"] = 2923,
 					},
-					["DOT_Time"] = 12,
-					["Damage"] = 48441,
+					["HOTs"] = {
+					},
+					["ElementTakenBlock"] = {
+					},
 					["ElementDoneAbsorb"] = {
 					},
 					["TimeHeal"] = 0,
@@ -31934,48 +31935,68 @@ RecountPerCharDB = {
 					},
 					["ManaGainedFrom"] = {
 					},
-					["ElementHitsDone"] = {
-						["Physical"] = {
+					["DamagedWho"] = {
+						["Risen Drakkari Warrior"] = {
 							["Details"] = {
-								["Crit"] = {
-									["count"] = 10,
+								["Fan of Knives"] = {
+									["count"] = 9009,
 								},
-								["Hit"] = {
-									["count"] = 17,
+								["Instant Poison IX"] = {
+									["count"] = 3832,
+								},
+								["Instant Poison IX (Hack and Slash)"] = {
+									["count"] = 2687,
+								},
+								["Melee"] = {
+									["count"] = 4587,
+								},
+								["Sinister Strike"] = {
+									["count"] = 1428,
+								},
+								["Deadly Poison IX (DoT)"] = {
+									["count"] = 247,
 								},
 							},
-							["amount"] = 27,
+							["amount"] = 21790,
 						},
-						["Melee"] = {
+						["Drakkari Guardian"] = {
 							["Details"] = {
-								["Glancing"] = {
-									["count"] = 1,
+								["Fan of Knives"] = {
+									["count"] = 3973,
 								},
-								["Hit"] = {
-									["count"] = 7,
-								},
-								["Crit"] = {
-									["count"] = 7,
-								},
-								["Miss"] = {
-									["count"] = 1,
+								["Instant Poison IX"] = {
+									["count"] = 903,
 								},
 							},
-							["amount"] = 16,
+							["amount"] = 4876,
 						},
-						["Nature"] = {
+						["Black Rat"] = {
 							["Details"] = {
-								["Hit"] = {
-									["count"] = 8,
-								},
-								["Crit"] = {
-									["count"] = 1,
-								},
-								["Tick"] = {
-									["count"] = 4,
+								["Melee"] = {
+									["count"] = 0,
 								},
 							},
-							["amount"] = 13,
+							["amount"] = 0,
+						},
+						["Risen Drakkari Death Knight"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 10072,
+								},
+								["Instant Poison IX"] = {
+									["count"] = 4291,
+								},
+								["Fan of Knives"] = {
+									["count"] = 3760,
+								},
+								["Deadly Poison IX (DoT)"] = {
+									["count"] = 2235,
+								},
+								["Sinister Strike"] = {
+									["count"] = 1417,
+								},
+							},
+							["amount"] = 21775,
 						},
 					},
 					["RageGained"] = {
@@ -32000,16 +32021,16 @@ RecountPerCharDB = {
 							["amount"] = 30,
 						},
 					},
-					["Dispelled"] = 0,
-					["RunicPowerGained"] = {
+					["OverHeals"] = {
+					},
+					["CCBroken"] = {
 					},
 					["ElementDoneBlock"] = {
 						["Physical"] = 40,
 					},
 					["TimeHealing"] = {
 					},
-					["OverHeals"] = {
-					},
+					["Dispelled"] = 0,
 					["WhoHealed"] = {
 						["Ninimagic"] = {
 							["Details"] = {
@@ -32020,23 +32041,6 @@ RecountPerCharDB = {
 							["amount"] = 2982,
 						},
 					},
-					["EnergyGain"] = 30,
-					["CCBreak"] = 0,
-					["PartialAbsorb"] = {
-						["Deafening Roar"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 0,
-						},
-					},
-					["ActiveTime"] = 17.08,
 					["PartialResist"] = {
 						["Deafening Roar"] = {
 							["Details"] = {
@@ -32051,11 +32055,15 @@ RecountPerCharDB = {
 							["amount"] = 0,
 						},
 					},
+					["CCBreak"] = 0,
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["EnergyGain"] = 30,
 					["ManaGained"] = {
 					},
 					["ElementTakenAbsorb"] = {
 					},
-					["Interrupts"] = 0,
+					["ActiveTime"] = 17.08,
 					["Overhealing"] = 0,
 					["ElementTakenResist"] = {
 					},
@@ -32078,11 +32086,11 @@ RecountPerCharDB = {
 								["Melee"] = {
 									["count"] = 3.790000000000001,
 								},
-								["Deadly Poison IX (DoT)"] = {
-									["count"] = 0.31,
-								},
 								["Sinister Strike"] = {
 									["count"] = 0.17,
+								},
+								["Deadly Poison IX (DoT)"] = {
+									["count"] = 0.31,
 								},
 							},
 							["amount"] = 6.18,
@@ -32117,11 +32125,11 @@ RecountPerCharDB = {
 								["Fan of Knives"] = {
 									["count"] = 4.37,
 								},
-								["Sinister Strike"] = {
-									["count"] = 0,
-								},
 								["Deadly Poison IX (DoT)"] = {
 									["count"] = 1.13,
+								},
+								["Sinister Strike"] = {
+									["count"] = 0,
 								},
 							},
 							["amount"] = 10.9,
@@ -32129,7 +32137,20 @@ RecountPerCharDB = {
 					},
 					["Heals"] = {
 					},
-					["FDamage"] = 0,
+					["PartialAbsorb"] = {
+						["Deafening Roar"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+					},
 					["EnergyGained"] = {
 						["Combat Potency"] = {
 							["Details"] = {
@@ -32143,9 +32164,9 @@ RecountPerCharDB = {
 					["HealedWho"] = {
 					},
 					["Healing"] = 0,
-					["RunicPowerGainedFrom"] = {
+					["RunicPowerGained"] = {
 					},
-					["CCBroken"] = {
+					["RunicPowerGainedFrom"] = {
 					},
 					["Attacks"] = {
 						["Fan of Knives"] = {
@@ -32230,18 +32251,6 @@ RecountPerCharDB = {
 							["count"] = 16,
 							["amount"] = 14659,
 						},
-						["Deadly Poison IX (DoT)"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 745,
-									["min"] = 247,
-									["count"] = 4,
-									["amount"] = 2482,
-								},
-							},
-							["count"] = 4,
-							["amount"] = 2482,
-						},
 						["Sinister Strike"] = {
 							["Details"] = {
 								["Hit"] = {
@@ -32254,70 +32263,62 @@ RecountPerCharDB = {
 							["count"] = 2,
 							["amount"] = 2845,
 						},
+						["Deadly Poison IX (DoT)"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 745,
+									["min"] = 247,
+									["count"] = 4,
+									["amount"] = 2482,
+								},
+							},
+							["count"] = 4,
+							["amount"] = 2482,
+						},
 					},
 					["HealingTaken"] = 2982,
-					["DamagedWho"] = {
-						["Risen Drakkari Warrior"] = {
+					["ElementHitsDone"] = {
+						["Physical"] = {
 							["Details"] = {
-								["Fan of Knives"] = {
-									["count"] = 9009,
+								["Crit"] = {
+									["count"] = 10,
 								},
-								["Instant Poison IX"] = {
-									["count"] = 3832,
-								},
-								["Instant Poison IX (Hack and Slash)"] = {
-									["count"] = 2687,
-								},
-								["Melee"] = {
-									["count"] = 4587,
-								},
-								["Deadly Poison IX (DoT)"] = {
-									["count"] = 247,
-								},
-								["Sinister Strike"] = {
-									["count"] = 1428,
+								["Hit"] = {
+									["count"] = 17,
 								},
 							},
-							["amount"] = 21790,
+							["amount"] = 27,
 						},
-						["Drakkari Guardian"] = {
+						["Melee"] = {
 							["Details"] = {
-								["Fan of Knives"] = {
-									["count"] = 3973,
+								["Glancing"] = {
+									["count"] = 1,
 								},
-								["Instant Poison IX"] = {
-									["count"] = 903,
+								["Hit"] = {
+									["count"] = 7,
+								},
+								["Crit"] = {
+									["count"] = 7,
+								},
+								["Miss"] = {
+									["count"] = 1,
 								},
 							},
-							["amount"] = 4876,
+							["amount"] = 16,
 						},
-						["Black Rat"] = {
+						["Nature"] = {
 							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
+								["Hit"] = {
+									["count"] = 8,
+								},
+								["Crit"] = {
+									["count"] = 1,
+								},
+								["Tick"] = {
+									["count"] = 4,
 								},
 							},
-							["amount"] = 0,
-						},
-						["Risen Drakkari Death Knight"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 10072,
-								},
-								["Instant Poison IX"] = {
-									["count"] = 4291,
-								},
-								["Fan of Knives"] = {
-									["count"] = 3760,
-								},
-								["Sinister Strike"] = {
-									["count"] = 1417,
-								},
-								["Deadly Poison IX (DoT)"] = {
-									["count"] = 2235,
-								},
-							},
-							["amount"] = 21775,
+							["amount"] = 13,
 						},
 					},
 					["TimeDamage"] = 17.08,
@@ -32336,11 +32337,11 @@ RecountPerCharDB = {
 								["Melee"] = {
 									["count"] = 3.790000000000001,
 								},
-								["Deadly Poison IX (DoT)"] = {
-									["count"] = 0.31,
-								},
 								["Sinister Strike"] = {
 									["count"] = 0.17,
+								},
+								["Deadly Poison IX (DoT)"] = {
+									["count"] = 0.31,
 								},
 							},
 							["amount"] = 6.18,
@@ -32375,19 +32376,18 @@ RecountPerCharDB = {
 								["Fan of Knives"] = {
 									["count"] = 4.37,
 								},
-								["Sinister Strike"] = {
-									["count"] = 0,
-								},
 								["Deadly Poison IX (DoT)"] = {
 									["count"] = 1.13,
+								},
+								["Sinister Strike"] = {
+									["count"] = 0,
 								},
 							},
 							["amount"] = 10.9,
 						},
 					},
 					["RunicPowerGain"] = 0,
-					["ElementTakenBlock"] = {
-					},
+					["Damage"] = 48441,
 					["DispelledWho"] = {
 					},
 				},
@@ -32475,8 +32475,7 @@ RecountPerCharDB = {
 					},
 					["DeathCount"] = 1,
 					["HOT_Time"] = 0,
-					["HOTs"] = {
-					},
+					["DOT_Time"] = 60,
 					["ManaGain"] = 0,
 					["ElementTaken"] = {
 						["Frost"] = 22498,
@@ -32485,8 +32484,10 @@ RecountPerCharDB = {
 						["Physical"] = 11675,
 						["Nature"] = 14873,
 					},
-					["DOT_Time"] = 60,
-					["Damage"] = 193932,
+					["HOTs"] = {
+					},
+					["ElementTakenBlock"] = {
+					},
 					["ElementDoneAbsorb"] = {
 					},
 					["TimeHeal"] = 2.15,
@@ -32509,67 +32510,132 @@ RecountPerCharDB = {
 					},
 					["ManaGainedFrom"] = {
 					},
-					["ElementHitsDone"] = {
-						["Physical"] = {
+					["DamagedWho"] = {
+						["Wretched Belcher"] = {
 							["Details"] = {
-								["Glancing"] = {
-									["count"] = 1,
+								["Fan of Knives"] = {
+									["count"] = 0,
 								},
-								["Immune"] = {
-									["count"] = 3,
+								["Instant Poison IX"] = {
+									["count"] = 0,
 								},
-								["Crit"] = {
-									["count"] = 17,
+								["Melee"] = {
+									["count"] = 0,
 								},
-								["Hit"] = {
-									["count"] = 27,
+								["Sinister Strike"] = {
+									["count"] = 0,
+								},
+								["Deadly Poison IX (DoT)"] = {
+									["count"] = 0,
 								},
 							},
-							["amount"] = 48,
+							["amount"] = 0,
 						},
-						["Melee"] = {
+						["Drakkari Gutripper"] = {
 							["Details"] = {
-								["Glancing"] = {
-									["count"] = 9,
+								["Fan of Knives"] = {
+									["count"] = 0,
 								},
-								["Crit"] = {
-									["count"] = 37,
+								["Deadly Poison IX (DoT)"] = {
+									["count"] = 0,
 								},
-								["Hit"] = {
-									["count"] = 20,
+								["Instant Poison IX"] = {
+									["count"] = 0,
 								},
 							},
-							["amount"] = 66,
+							["amount"] = 0,
 						},
-						["Fire"] = {
+						["Risen Drakkari Handler"] = {
 							["Details"] = {
-								["Hit"] = {
-									["count"] = 2,
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Fan of Knives"] = {
+									["count"] = 0,
+								},
+								["Sinister Strike"] = {
+									["count"] = 0,
+								},
+								["Instant Poison IX"] = {
+									["count"] = 0,
 								},
 							},
-							["amount"] = 2,
+							["amount"] = 0,
 						},
-						["Shadow"] = {
+						["Risen Drakkari Warrior"] = {
 							["Details"] = {
-								["Hit"] = {
-									["count"] = 3,
+								["Fan of Knives"] = {
+									["count"] = 0,
+								},
+								["Instant Poison IX"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Sinister Strike"] = {
+									["count"] = 0,
+								},
+								["Deadly Poison IX (DoT)"] = {
+									["count"] = 0,
 								},
 							},
-							["amount"] = 3,
+							["amount"] = 0,
 						},
-						["Nature"] = {
+						["Risen Drakkari Death Knight"] = {
 							["Details"] = {
-								["Hit"] = {
-									["count"] = 28,
+								["Fan of Knives"] = {
+									["count"] = 12038,
 								},
-								["Crit"] = {
-									["count"] = 4,
+								["Melee"] = {
+									["count"] = 19751,
 								},
-								["Tick"] = {
-									["count"] = 20,
+								["Instant Poison IX"] = {
+									["count"] = 10043,
+								},
+								["Instant Poison IX (Hack and Slash)"] = {
+									["count"] = 3078,
+								},
+								["Sinister Strike"] = {
+									["count"] = 7554,
+								},
+								["Deadly Poison IX (DoT)"] = {
+									["count"] = 2425,
+								},
+								["Killing Spree"] = {
+									["count"] = 11292,
 								},
 							},
-							["amount"] = 52,
+							["amount"] = 66181,
+						},
+						["The Prophet Tharon'ja"] = {
+							["Details"] = {
+								["Eviscerate"] = {
+									["count"] = 4056,
+								},
+								["Sinister Strike"] = {
+									["count"] = 19174,
+								},
+								["Melee"] = {
+									["count"] = 58410,
+								},
+								["Instant Poison IX"] = {
+									["count"] = 21896,
+								},
+								["Touch of Life"] = {
+									["count"] = 4555,
+								},
+								["Deadly Poison IX (DoT)"] = {
+									["count"] = 15153,
+								},
+								["Fire Shield"] = {
+									["count"] = 84,
+								},
+								["Slaying Strike"] = {
+									["count"] = 4423,
+								},
+							},
+							["amount"] = 127751,
 						},
 					},
 					["RageGained"] = {
@@ -32628,8 +32694,9 @@ RecountPerCharDB = {
 							["amount"] = 135,
 						},
 					},
-					["Dispelled"] = 2,
-					["RunicPowerGained"] = {
+					["OverHeals"] = {
+					},
+					["CCBroken"] = {
 					},
 					["ElementDoneBlock"] = {
 						["Melee"] = 82,
@@ -32644,8 +32711,7 @@ RecountPerCharDB = {
 							["amount"] = 2.15,
 						},
 					},
-					["OverHeals"] = {
-					},
+					["Dispelled"] = 2,
 					["WhoHealed"] = {
 						["Ninimagic"] = {
 							["Details"] = {
@@ -32673,119 +32739,6 @@ RecountPerCharDB = {
 							["amount"] = 4781,
 						},
 					},
-					["EnergyGain"] = 135,
-					["CCBreak"] = 0,
-					["PartialAbsorb"] = {
-						["Poison Cloud (DoT)"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 4,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 4,
-							["amount"] = 0,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 2,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 2,
-							["amount"] = 0,
-						},
-						["Cleave"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Deafening Roar"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 4,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 4,
-							["amount"] = 0,
-						},
-						["Disease Cloud"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Lightning Breath"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 0,
-						},
-						["Eye Beam (DoT)"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 3,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 3,
-							["amount"] = 0,
-						},
-						["Shadow Volley"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 2,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 2,
-							["amount"] = 0,
-						},
-						["Icy Touch"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 5,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 5,
-							["amount"] = 0,
-						},
-					},
-					["ActiveTime"] = 72.77000000000001,
 					["PartialResist"] = {
 						["Poison Cloud (DoT)"] = {
 							["Details"] = {
@@ -32896,11 +32849,15 @@ RecountPerCharDB = {
 							["amount"] = 0,
 						},
 					},
+					["CCBreak"] = 0,
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["EnergyGain"] = 135,
 					["ManaGained"] = {
 					},
 					["ElementTakenAbsorb"] = {
 					},
-					["Interrupts"] = 0,
+					["ActiveTime"] = 72.77000000000001,
 					["Overhealing"] = 0,
 					["ElementTakenResist"] = {
 					},
@@ -32931,10 +32888,10 @@ RecountPerCharDB = {
 								["Melee"] = {
 									["count"] = 0,
 								},
-								["Deadly Poison IX (DoT)"] = {
+								["Sinister Strike"] = {
 									["count"] = 0,
 								},
-								["Sinister Strike"] = {
+								["Deadly Poison IX (DoT)"] = {
 									["count"] = 0,
 								},
 							},
@@ -32956,13 +32913,13 @@ RecountPerCharDB = {
 						},
 						["Risen Drakkari Handler"] = {
 							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
 								["Fan of Knives"] = {
 									["count"] = 0,
 								},
 								["Sinister Strike"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
 									["count"] = 0,
 								},
 								["Instant Poison IX"] = {
@@ -32990,10 +32947,10 @@ RecountPerCharDB = {
 								["Melee"] = {
 									["count"] = 0,
 								},
-								["Deadly Poison IX (DoT)"] = {
+								["Sinister Strike"] = {
 									["count"] = 0,
 								},
-								["Sinister Strike"] = {
+								["Deadly Poison IX (DoT)"] = {
 									["count"] = 0,
 								},
 							},
@@ -33072,7 +33029,116 @@ RecountPerCharDB = {
 							["amount"] = 4781,
 						},
 					},
-					["FDamage"] = 0,
+					["PartialAbsorb"] = {
+						["Poison Cloud (DoT)"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 4,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 4,
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 0,
+						},
+						["Cleave"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Deafening Roar"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 4,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 4,
+							["amount"] = 0,
+						},
+						["Disease Cloud"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Lightning Breath"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+						["Eye Beam (DoT)"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 3,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 3,
+							["amount"] = 0,
+						},
+						["Shadow Volley"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 0,
+						},
+						["Icy Touch"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 5,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 5,
+							["amount"] = 0,
+						},
+					},
 					["EnergyGained"] = {
 						["Combat Potency"] = {
 							["Details"] = {
@@ -33094,9 +33160,9 @@ RecountPerCharDB = {
 						},
 					},
 					["Healing"] = 4781,
-					["RunicPowerGainedFrom"] = {
+					["RunicPowerGained"] = {
 					},
-					["CCBroken"] = {
+					["RunicPowerGainedFrom"] = {
 					},
 					["Attacks"] = {
 						["Fan of Knives"] = {
@@ -33291,132 +33357,67 @@ RecountPerCharDB = {
 						},
 					},
 					["HealingTaken"] = 42310,
-					["DamagedWho"] = {
-						["Wretched Belcher"] = {
+					["ElementHitsDone"] = {
+						["Physical"] = {
 							["Details"] = {
-								["Fan of Knives"] = {
-									["count"] = 0,
+								["Glancing"] = {
+									["count"] = 1,
 								},
-								["Instant Poison IX"] = {
-									["count"] = 0,
+								["Immune"] = {
+									["count"] = 3,
 								},
-								["Melee"] = {
-									["count"] = 0,
+								["Crit"] = {
+									["count"] = 17,
 								},
-								["Deadly Poison IX (DoT)"] = {
-									["count"] = 0,
-								},
-								["Sinister Strike"] = {
-									["count"] = 0,
+								["Hit"] = {
+									["count"] = 27,
 								},
 							},
-							["amount"] = 0,
+							["amount"] = 48,
 						},
-						["Drakkari Gutripper"] = {
+						["Melee"] = {
 							["Details"] = {
-								["Fan of Knives"] = {
-									["count"] = 0,
+								["Glancing"] = {
+									["count"] = 9,
 								},
-								["Deadly Poison IX (DoT)"] = {
-									["count"] = 0,
+								["Crit"] = {
+									["count"] = 37,
 								},
-								["Instant Poison IX"] = {
-									["count"] = 0,
+								["Hit"] = {
+									["count"] = 20,
 								},
 							},
-							["amount"] = 0,
+							["amount"] = 66,
 						},
-						["Risen Drakkari Handler"] = {
+						["Fire"] = {
 							["Details"] = {
-								["Fan of Knives"] = {
-									["count"] = 0,
-								},
-								["Sinister Strike"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Instant Poison IX"] = {
-									["count"] = 0,
+								["Hit"] = {
+									["count"] = 2,
 								},
 							},
-							["amount"] = 0,
+							["amount"] = 2,
 						},
-						["Risen Drakkari Warrior"] = {
+						["Shadow"] = {
 							["Details"] = {
-								["Fan of Knives"] = {
-									["count"] = 0,
-								},
-								["Instant Poison IX"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Deadly Poison IX (DoT)"] = {
-									["count"] = 0,
-								},
-								["Sinister Strike"] = {
-									["count"] = 0,
+								["Hit"] = {
+									["count"] = 3,
 								},
 							},
-							["amount"] = 0,
+							["amount"] = 3,
 						},
-						["Risen Drakkari Death Knight"] = {
+						["Nature"] = {
 							["Details"] = {
-								["Fan of Knives"] = {
-									["count"] = 12038,
+								["Hit"] = {
+									["count"] = 28,
 								},
-								["Melee"] = {
-									["count"] = 19751,
+								["Crit"] = {
+									["count"] = 4,
 								},
-								["Instant Poison IX"] = {
-									["count"] = 10043,
-								},
-								["Instant Poison IX (Hack and Slash)"] = {
-									["count"] = 3078,
-								},
-								["Sinister Strike"] = {
-									["count"] = 7554,
-								},
-								["Deadly Poison IX (DoT)"] = {
-									["count"] = 2425,
-								},
-								["Killing Spree"] = {
-									["count"] = 11292,
+								["Tick"] = {
+									["count"] = 20,
 								},
 							},
-							["amount"] = 66181,
-						},
-						["The Prophet Tharon'ja"] = {
-							["Details"] = {
-								["Eviscerate"] = {
-									["count"] = 4056,
-								},
-								["Deadly Poison IX (DoT)"] = {
-									["count"] = 15153,
-								},
-								["Slaying Strike"] = {
-									["count"] = 4423,
-								},
-								["Instant Poison IX"] = {
-									["count"] = 21896,
-								},
-								["Touch of Life"] = {
-									["count"] = 4555,
-								},
-								["Sinister Strike"] = {
-									["count"] = 19174,
-								},
-								["Fire Shield"] = {
-									["count"] = 84,
-								},
-								["Melee"] = {
-									["count"] = 58410,
-								},
-							},
-							["amount"] = 127751,
+							["amount"] = 52,
 						},
 					},
 					["TimeDamage"] = 70.62000000000002,
@@ -33432,10 +33433,10 @@ RecountPerCharDB = {
 								["Melee"] = {
 									["count"] = 0,
 								},
-								["Deadly Poison IX (DoT)"] = {
+								["Sinister Strike"] = {
 									["count"] = 0,
 								},
-								["Sinister Strike"] = {
+								["Deadly Poison IX (DoT)"] = {
 									["count"] = 0,
 								},
 							},
@@ -33457,13 +33458,13 @@ RecountPerCharDB = {
 						},
 						["Risen Drakkari Handler"] = {
 							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
 								["Fan of Knives"] = {
 									["count"] = 0,
 								},
 								["Sinister Strike"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
 									["count"] = 0,
 								},
 								["Instant Poison IX"] = {
@@ -33483,10 +33484,10 @@ RecountPerCharDB = {
 								["Melee"] = {
 									["count"] = 0,
 								},
-								["Deadly Poison IX (DoT)"] = {
+								["Sinister Strike"] = {
 									["count"] = 0,
 								},
-								["Sinister Strike"] = {
+								["Deadly Poison IX (DoT)"] = {
 									["count"] = 0,
 								},
 							},
@@ -33552,8 +33553,7 @@ RecountPerCharDB = {
 						},
 					},
 					["RunicPowerGain"] = 0,
-					["ElementTakenBlock"] = {
-					},
+					["Damage"] = 193932,
 					["DispelledWho"] = {
 					},
 				},
@@ -33607,14 +33607,15 @@ RecountPerCharDB = {
 					},
 					["DeathCount"] = 0,
 					["HOT_Time"] = 0,
-					["HOTs"] = {
-					},
+					["DOT_Time"] = 21,
 					["ManaGain"] = 0,
 					["ElementTaken"] = {
 						["Melee"] = 3740,
 					},
-					["DOT_Time"] = 21,
-					["Damage"] = 82261,
+					["HOTs"] = {
+					},
+					["ElementTakenBlock"] = {
+					},
 					["ElementDoneAbsorb"] = {
 					},
 					["TimeHeal"] = 0,
@@ -33636,53 +33637,113 @@ RecountPerCharDB = {
 					},
 					["ManaGainedFrom"] = {
 					},
-					["ElementHitsDone"] = {
-						["Physical"] = {
+					["DamagedWho"] = {
+						["Risen Drakkari Warrior"] = {
 							["Details"] = {
-								["Crit"] = {
-									["count"] = 19,
+								["Fan of Knives"] = {
+									["count"] = 15394,
 								},
-								["Hit"] = {
-									["count"] = 18,
+								["Melee"] = {
+									["count"] = 24791,
+								},
+								["Instant Poison IX"] = {
+									["count"] = 16093,
+								},
+								["Instant Poison IX (Hack and Slash)"] = {
+									["count"] = 1104,
+								},
+								["Sinister Strike"] = {
+									["count"] = 5664,
+								},
+								["Fire Shield"] = {
+									["count"] = 42,
+								},
+								["Deadly Poison IX (DoT)"] = {
+									["count"] = 3973,
 								},
 							},
-							["amount"] = 37,
+							["amount"] = 67061,
 						},
-						["Fire"] = {
+						["Drakkari Bat"] = {
 							["Details"] = {
-								["Hit"] = {
-									["count"] = 1,
+								["Fan of Knives"] = {
+									["count"] = 0,
+								},
+								["Deadly Poison IX (DoT)"] = {
+									["count"] = 0,
+								},
+								["Instant Poison IX"] = {
+									["count"] = 0,
 								},
 							},
-							["amount"] = 1,
+							["amount"] = 0,
 						},
-						["Melee"] = {
+						["Beetle"] = {
 							["Details"] = {
-								["Glancing"] = {
-									["count"] = 5,
-								},
-								["Crit"] = {
-									["count"] = 13,
-								},
-								["Hit"] = {
-									["count"] = 8,
+								["Melee"] = {
+									["count"] = 0,
 								},
 							},
-							["amount"] = 26,
+							["amount"] = 0,
 						},
-						["Nature"] = {
+						["Flesheating Ghoul"] = {
 							["Details"] = {
-								["Hit"] = {
-									["count"] = 14,
+								["Eviscerate"] = {
+									["count"] = 0,
 								},
-								["Crit"] = {
-									["count"] = 4,
+								["Melee"] = {
+									["count"] = 0,
 								},
-								["Tick"] = {
-									["count"] = 7,
+								["Instant Poison IX"] = {
+									["count"] = 0,
+								},
+								["Fan of Knives"] = {
+									["count"] = 0,
+								},
+								["Sinister Strike"] = {
+									["count"] = 0,
+								},
+								["Deadly Poison IX (DoT)"] = {
+									["count"] = 0,
+								},
+								["Fire Shield"] = {
+									["count"] = 0,
 								},
 							},
-							["amount"] = 25,
+							["amount"] = 0,
+						},
+						["Risen Drakkari Bat Rider"] = {
+							["Details"] = {
+								["Fan of Knives"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Ghoul Tormentor"] = {
+							["Details"] = {
+								["Fan of Knives"] = {
+									["count"] = 0,
+								},
+								["Instant Poison IX"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Drakkari Guardian"] = {
+							["Details"] = {
+								["Fan of Knives"] = {
+									["count"] = 10245,
+								},
+								["Deadly Poison IX (DoT)"] = {
+									["count"] = 1213,
+								},
+								["Instant Poison IX"] = {
+									["count"] = 3742,
+								},
+							},
+							["amount"] = 15200,
 						},
 					},
 					["RageGained"] = {
@@ -33715,8 +33776,9 @@ RecountPerCharDB = {
 							["amount"] = 75,
 						},
 					},
-					["Dispelled"] = 0,
-					["RunicPowerGained"] = {
+					["OverHeals"] = {
+					},
+					["CCBroken"] = {
 					},
 					["ElementDoneBlock"] = {
 						["Melee"] = 40,
@@ -33724,8 +33786,7 @@ RecountPerCharDB = {
 					},
 					["TimeHealing"] = {
 					},
-					["OverHeals"] = {
-					},
+					["Dispelled"] = 0,
 					["WhoHealed"] = {
 						["Ninimagic"] = {
 							["Details"] = {
@@ -33736,35 +33797,6 @@ RecountPerCharDB = {
 							["amount"] = 3740,
 						},
 					},
-					["EnergyGain"] = 75,
-					["CCBreak"] = 0,
-					["PartialAbsorb"] = {
-						["Melee"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 2,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 2,
-							["amount"] = 0,
-						},
-						["Ghost Strike"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 0,
-						},
-					},
-					["ActiveTime"] = 19.44,
 					["PartialResist"] = {
 						["Melee"] = {
 							["Details"] = {
@@ -33791,11 +33823,15 @@ RecountPerCharDB = {
 							["amount"] = 0,
 						},
 					},
+					["CCBreak"] = 0,
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["EnergyGain"] = 75,
 					["ManaGained"] = {
 					},
 					["ElementTakenAbsorb"] = {
 					},
-					["Interrupts"] = 0,
+					["ActiveTime"] = 19.44,
 					["Overhealing"] = 0,
 					["ElementTakenResist"] = {
 					},
@@ -33806,11 +33842,11 @@ RecountPerCharDB = {
 					["TimeSpent"] = {
 						["Risen Drakkari Warrior"] = {
 							["Details"] = {
-								["Melee"] = {
-									["count"] = 8.869999999999999,
-								},
 								["Fan of Knives"] = {
 									["count"] = 0.9300000000000001,
+								},
+								["Melee"] = {
+									["count"] = 8.869999999999999,
 								},
 								["Instant Poison IX"] = {
 									["count"] = 7.259999999999999,
@@ -33821,11 +33857,11 @@ RecountPerCharDB = {
 								["Sinister Strike"] = {
 									["count"] = 0.9299999999999999,
 								},
-								["Deadly Poison IX (DoT)"] = {
-									["count"] = 0.61,
-								},
 								["Fire Shield"] = {
 									["count"] = 0.62,
+								},
+								["Deadly Poison IX (DoT)"] = {
+									["count"] = 0.61,
 								},
 							},
 							["amount"] = 19.22,
@@ -33839,6 +33875,14 @@ RecountPerCharDB = {
 									["count"] = 0,
 								},
 								["Instant Poison IX"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Beetle"] = {
+							["Details"] = {
+								["Melee"] = {
 									["count"] = 0,
 								},
 							},
@@ -33861,18 +33905,10 @@ RecountPerCharDB = {
 								["Sinister Strike"] = {
 									["count"] = 0,
 								},
-								["Fire Shield"] = {
-									["count"] = 0,
-								},
 								["Deadly Poison IX (DoT)"] = {
 									["count"] = 0,
 								},
-							},
-							["amount"] = 0,
-						},
-						["Beetle"] = {
-							["Details"] = {
-								["Melee"] = {
+								["Fire Shield"] = {
 									["count"] = 0,
 								},
 							},
@@ -33914,7 +33950,32 @@ RecountPerCharDB = {
 					},
 					["Heals"] = {
 					},
-					["FDamage"] = 0,
+					["PartialAbsorb"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 0,
+						},
+						["Ghost Strike"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+					},
 					["EnergyGained"] = {
 						["Combat Potency"] = {
 							["Details"] = {
@@ -33928,9 +33989,9 @@ RecountPerCharDB = {
 					["HealedWho"] = {
 					},
 					["Healing"] = 0,
-					["RunicPowerGainedFrom"] = {
+					["RunicPowerGained"] = {
 					},
-					["CCBroken"] = {
+					["RunicPowerGainedFrom"] = {
 					},
 					["Attacks"] = {
 						["Eviscerate"] = {
@@ -33944,6 +34005,30 @@ RecountPerCharDB = {
 							},
 							["count"] = 0,
 							["amount"] = 0,
+						},
+						["Fan of Knives"] = {
+							["Details"] = {
+								["Crit (Blocked)"] = {
+									["max"] = 571,
+									["min"] = 571,
+									["count"] = 1,
+									["amount"] = 571,
+								},
+								["Crit"] = {
+									["max"] = 1819,
+									["min"] = 0,
+									["count"] = 17,
+									["amount"] = 16041,
+								},
+								["Hit"] = {
+									["max"] = 770,
+									["min"] = 0,
+									["count"] = 16,
+									["amount"] = 9027,
+								},
+							},
+							["count"] = 34,
+							["amount"] = 25639,
 						},
 						["Melee"] = {
 							["Details"] = {
@@ -33974,30 +34059,6 @@ RecountPerCharDB = {
 							},
 							["count"] = 26,
 							["amount"] = 24791,
-						},
-						["Fan of Knives"] = {
-							["Details"] = {
-								["Crit (Blocked)"] = {
-									["max"] = 571,
-									["min"] = 571,
-									["count"] = 1,
-									["amount"] = 571,
-								},
-								["Crit"] = {
-									["max"] = 1819,
-									["min"] = 0,
-									["count"] = 17,
-									["amount"] = 16041,
-								},
-								["Hit"] = {
-									["max"] = 770,
-									["min"] = 0,
-									["count"] = 16,
-									["amount"] = 9027,
-								},
-							},
-							["count"] = 34,
-							["amount"] = 25639,
 						},
 						["Instant Poison IX"] = {
 							["Details"] = {
@@ -34047,18 +34108,6 @@ RecountPerCharDB = {
 							["count"] = 2,
 							["amount"] = 5664,
 						},
-						["Fire Shield"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 42,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 42,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 42,
-						},
 						["Deadly Poison IX (DoT)"] = {
 							["Details"] = {
 								["Tick"] = {
@@ -34071,126 +34120,78 @@ RecountPerCharDB = {
 							["count"] = 7,
 							["amount"] = 5186,
 						},
+						["Fire Shield"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 42,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 42,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 42,
+						},
 					},
 					["HealingTaken"] = 3740,
-					["DamagedWho"] = {
-						["Risen Drakkari Warrior"] = {
+					["ElementHitsDone"] = {
+						["Physical"] = {
 							["Details"] = {
-								["Melee"] = {
-									["count"] = 24791,
+								["Crit"] = {
+									["count"] = 19,
 								},
-								["Fan of Knives"] = {
-									["count"] = 15394,
-								},
-								["Instant Poison IX"] = {
-									["count"] = 16093,
-								},
-								["Instant Poison IX (Hack and Slash)"] = {
-									["count"] = 1104,
-								},
-								["Sinister Strike"] = {
-									["count"] = 5664,
-								},
-								["Deadly Poison IX (DoT)"] = {
-									["count"] = 3973,
-								},
-								["Fire Shield"] = {
-									["count"] = 42,
+								["Hit"] = {
+									["count"] = 18,
 								},
 							},
-							["amount"] = 67061,
+							["amount"] = 37,
 						},
-						["Drakkari Bat"] = {
+						["Fire"] = {
 							["Details"] = {
-								["Fan of Knives"] = {
-									["count"] = 0,
-								},
-								["Deadly Poison IX (DoT)"] = {
-									["count"] = 0,
-								},
-								["Instant Poison IX"] = {
-									["count"] = 0,
+								["Hit"] = {
+									["count"] = 1,
 								},
 							},
-							["amount"] = 0,
+							["amount"] = 1,
 						},
-						["Flesheating Ghoul"] = {
+						["Melee"] = {
 							["Details"] = {
-								["Eviscerate"] = {
-									["count"] = 0,
+								["Glancing"] = {
+									["count"] = 5,
 								},
-								["Melee"] = {
-									["count"] = 0,
+								["Crit"] = {
+									["count"] = 13,
 								},
-								["Instant Poison IX"] = {
-									["count"] = 0,
-								},
-								["Fan of Knives"] = {
-									["count"] = 0,
-								},
-								["Sinister Strike"] = {
-									["count"] = 0,
-								},
-								["Fire Shield"] = {
-									["count"] = 0,
-								},
-								["Deadly Poison IX (DoT)"] = {
-									["count"] = 0,
+								["Hit"] = {
+									["count"] = 8,
 								},
 							},
-							["amount"] = 0,
+							["amount"] = 26,
 						},
-						["Beetle"] = {
+						["Nature"] = {
 							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
+								["Hit"] = {
+									["count"] = 14,
+								},
+								["Crit"] = {
+									["count"] = 4,
+								},
+								["Tick"] = {
+									["count"] = 7,
 								},
 							},
-							["amount"] = 0,
-						},
-						["Risen Drakkari Bat Rider"] = {
-							["Details"] = {
-								["Fan of Knives"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Ghoul Tormentor"] = {
-							["Details"] = {
-								["Fan of Knives"] = {
-									["count"] = 0,
-								},
-								["Instant Poison IX"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Drakkari Guardian"] = {
-							["Details"] = {
-								["Fan of Knives"] = {
-									["count"] = 10245,
-								},
-								["Deadly Poison IX (DoT)"] = {
-									["count"] = 1213,
-								},
-								["Instant Poison IX"] = {
-									["count"] = 3742,
-								},
-							},
-							["amount"] = 15200,
+							["amount"] = 25,
 						},
 					},
 					["TimeDamage"] = 19.44,
 					["TimeDamaging"] = {
 						["Risen Drakkari Warrior"] = {
 							["Details"] = {
-								["Melee"] = {
-									["count"] = 8.869999999999999,
-								},
 								["Fan of Knives"] = {
 									["count"] = 0.9300000000000001,
+								},
+								["Melee"] = {
+									["count"] = 8.869999999999999,
 								},
 								["Instant Poison IX"] = {
 									["count"] = 7.259999999999999,
@@ -34201,11 +34202,11 @@ RecountPerCharDB = {
 								["Sinister Strike"] = {
 									["count"] = 0.9299999999999999,
 								},
-								["Deadly Poison IX (DoT)"] = {
-									["count"] = 0.61,
-								},
 								["Fire Shield"] = {
 									["count"] = 0.62,
+								},
+								["Deadly Poison IX (DoT)"] = {
+									["count"] = 0.61,
 								},
 							},
 							["amount"] = 19.22,
@@ -34224,6 +34225,14 @@ RecountPerCharDB = {
 							},
 							["amount"] = 0,
 						},
+						["Beetle"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
 						["Flesheating Ghoul"] = {
 							["Details"] = {
 								["Eviscerate"] = {
@@ -34241,18 +34250,10 @@ RecountPerCharDB = {
 								["Sinister Strike"] = {
 									["count"] = 0,
 								},
-								["Fire Shield"] = {
-									["count"] = 0,
-								},
 								["Deadly Poison IX (DoT)"] = {
 									["count"] = 0,
 								},
-							},
-							["amount"] = 0,
-						},
-						["Beetle"] = {
-							["Details"] = {
-								["Melee"] = {
+								["Fire Shield"] = {
 									["count"] = 0,
 								},
 							},
@@ -34293,8 +34294,7 @@ RecountPerCharDB = {
 						},
 					},
 					["RunicPowerGain"] = 0,
-					["ElementTakenBlock"] = {
-					},
+					["Damage"] = 82261,
 					["DispelledWho"] = {
 					},
 				},
@@ -34340,14 +34340,15 @@ RecountPerCharDB = {
 					},
 					["DeathCount"] = 0,
 					["HOT_Time"] = 0,
-					["HOTs"] = {
-					},
+					["DOT_Time"] = 30,
 					["ManaGain"] = 0,
 					["ElementTaken"] = {
 						["Physical"] = 12331,
 					},
-					["DOT_Time"] = 30,
-					["Damage"] = 79546,
+					["HOTs"] = {
+					},
+					["ElementTakenBlock"] = {
+					},
 					["ElementDoneAbsorb"] = {
 					},
 					["TimeHeal"] = 0,
@@ -34368,45 +34369,92 @@ RecountPerCharDB = {
 					},
 					["ManaGainedFrom"] = {
 					},
-					["ElementHitsDone"] = {
-						["Physical"] = {
+					["DamagedWho"] = {
+						["Drakkari Commander"] = {
 							["Details"] = {
-								["Crit"] = {
-									["count"] = 20,
+								["Fan of Knives"] = {
+									["count"] = 6296,
 								},
-								["Hit"] = {
-									["count"] = 18,
+								["Instant Poison IX"] = {
+									["count"] = 2987,
+								},
+								["Melee"] = {
+									["count"] = 10621,
+								},
+								["Deadly Poison IX (DoT)"] = {
+									["count"] = 1784,
+								},
+								["Sinister Strike"] = {
+									["count"] = 1623,
+								},
+								["Melee (Hack and Slash)"] = {
+									["count"] = 3089,
 								},
 							},
-							["amount"] = 38,
+							["amount"] = 26400,
 						},
-						["Melee"] = {
+						["Drakkari Guardian"] = {
 							["Details"] = {
-								["Glancing"] = {
-									["count"] = 3,
+								["Fan of Knives"] = {
+									["count"] = 11082,
 								},
-								["Crit"] = {
-									["count"] = 13,
+								["Instant Poison IX"] = {
+									["count"] = 3742,
 								},
-								["Hit"] = {
-									["count"] = 10,
+								["Melee"] = {
+									["count"] = 1963,
+								},
+								["Deadly Poison IX (DoT)"] = {
+									["count"] = 1007,
+								},
+								["Sinister Strike"] = {
+									["count"] = 3136,
 								},
 							},
-							["amount"] = 26,
+							["amount"] = 20930,
 						},
-						["Nature"] = {
+						["Risen Drakkari Bat Rider"] = {
 							["Details"] = {
-								["Hit"] = {
-									["count"] = 7,
+								["Melee"] = {
+									["count"] = 1998,
 								},
-								["Crit"] = {
-									["count"] = 1,
+								["Fan of Knives"] = {
+									["count"] = 3775,
 								},
-								["Tick"] = {
-									["count"] = 10,
+								["Deadly Poison IX (DoT)"] = {
+									["count"] = 265,
+								},
+								["Instant Poison IX"] = {
+									["count"] = 992,
 								},
 							},
-							["amount"] = 18,
+							["amount"] = 7030,
+						},
+						["Drakkari Shaman"] = {
+							["Details"] = {
+								["Eviscerate"] = {
+									["count"] = 2476,
+								},
+								["Fan of Knives"] = {
+									["count"] = 3590,
+								},
+								["Instant Poison IX"] = {
+									["count"] = 998,
+								},
+								["Melee"] = {
+									["count"] = 12226,
+								},
+								["Deadly Poison IX (DoT)"] = {
+									["count"] = 494,
+								},
+								["Sinister Strike"] = {
+									["count"] = 4492,
+								},
+								["Melee (Hack and Slash)"] = {
+									["count"] = 910,
+								},
+							},
+							["amount"] = 25186,
 						},
 					},
 					["RageGained"] = {
@@ -34431,16 +34479,16 @@ RecountPerCharDB = {
 							["amount"] = 60,
 						},
 					},
-					["Dispelled"] = 0,
-					["RunicPowerGained"] = {
+					["OverHeals"] = {
+					},
+					["CCBroken"] = {
 					},
 					["ElementDoneBlock"] = {
 						["Melee"] = 40,
 					},
 					["TimeHealing"] = {
 					},
-					["OverHeals"] = {
-					},
+					["Dispelled"] = 0,
 					["WhoHealed"] = {
 						["Ninimagic"] = {
 							["Details"] = {
@@ -34451,23 +34499,6 @@ RecountPerCharDB = {
 							["amount"] = 12417,
 						},
 					},
-					["EnergyGain"] = 60,
-					["CCBreak"] = 0,
-					["PartialAbsorb"] = {
-						["Whirlwind"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 2,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 2,
-							["amount"] = 0,
-						},
-					},
-					["ActiveTime"] = 27.96999999999999,
 					["PartialResist"] = {
 						["Whirlwind"] = {
 							["Details"] = {
@@ -34482,11 +34513,15 @@ RecountPerCharDB = {
 							["amount"] = 0,
 						},
 					},
+					["CCBreak"] = 0,
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["EnergyGain"] = 60,
 					["ManaGained"] = {
 					},
 					["ElementTakenAbsorb"] = {
 					},
-					["Interrupts"] = 0,
+					["ActiveTime"] = 27.96999999999999,
 					["Overhealing"] = 0,
 					["ElementTakenResist"] = {
 					},
@@ -34529,25 +34564,25 @@ RecountPerCharDB = {
 								["Melee"] = {
 									["count"] = 1.36,
 								},
-								["Sinister Strike"] = {
-									["count"] = 0.27,
-								},
 								["Deadly Poison IX (DoT)"] = {
 									["count"] = 0.86,
+								},
+								["Sinister Strike"] = {
+									["count"] = 0.27,
 								},
 							},
 							["amount"] = 2.49,
 						},
 						["Risen Drakkari Bat Rider"] = {
 							["Details"] = {
+								["Melee"] = {
+									["count"] = 3.5,
+								},
 								["Fan of Knives"] = {
 									["count"] = 0,
 								},
 								["Deadly Poison IX (DoT)"] = {
 									["count"] = 0.49,
-								},
-								["Melee"] = {
-									["count"] = 3.5,
 								},
 								["Instant Poison IX"] = {
 									["count"] = 2.34,
@@ -34584,7 +34619,20 @@ RecountPerCharDB = {
 					},
 					["Heals"] = {
 					},
-					["FDamage"] = 0,
+					["PartialAbsorb"] = {
+						["Whirlwind"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 0,
+						},
+					},
 					["EnergyGained"] = {
 						["Combat Potency"] = {
 							["Details"] = {
@@ -34598,9 +34646,9 @@ RecountPerCharDB = {
 					["HealedWho"] = {
 					},
 					["Healing"] = 0,
-					["RunicPowerGainedFrom"] = {
+					["RunicPowerGained"] = {
 					},
-					["CCBroken"] = {
+					["RunicPowerGainedFrom"] = {
 					},
 					["Attacks"] = {
 						["Eviscerate"] = {
@@ -34731,92 +34779,45 @@ RecountPerCharDB = {
 						},
 					},
 					["HealingTaken"] = 12417,
-					["DamagedWho"] = {
-						["Drakkari Commander"] = {
+					["ElementHitsDone"] = {
+						["Physical"] = {
 							["Details"] = {
-								["Fan of Knives"] = {
-									["count"] = 6296,
+								["Crit"] = {
+									["count"] = 20,
 								},
-								["Instant Poison IX"] = {
-									["count"] = 2987,
-								},
-								["Melee"] = {
-									["count"] = 10621,
-								},
-								["Deadly Poison IX (DoT)"] = {
-									["count"] = 1784,
-								},
-								["Sinister Strike"] = {
-									["count"] = 1623,
-								},
-								["Melee (Hack and Slash)"] = {
-									["count"] = 3089,
+								["Hit"] = {
+									["count"] = 18,
 								},
 							},
-							["amount"] = 26400,
+							["amount"] = 38,
 						},
-						["Drakkari Guardian"] = {
+						["Melee"] = {
 							["Details"] = {
-								["Fan of Knives"] = {
-									["count"] = 11082,
+								["Glancing"] = {
+									["count"] = 3,
 								},
-								["Instant Poison IX"] = {
-									["count"] = 3742,
+								["Crit"] = {
+									["count"] = 13,
 								},
-								["Melee"] = {
-									["count"] = 1963,
-								},
-								["Sinister Strike"] = {
-									["count"] = 3136,
-								},
-								["Deadly Poison IX (DoT)"] = {
-									["count"] = 1007,
+								["Hit"] = {
+									["count"] = 10,
 								},
 							},
-							["amount"] = 20930,
+							["amount"] = 26,
 						},
-						["Risen Drakkari Bat Rider"] = {
+						["Nature"] = {
 							["Details"] = {
-								["Fan of Knives"] = {
-									["count"] = 3775,
+								["Hit"] = {
+									["count"] = 7,
 								},
-								["Deadly Poison IX (DoT)"] = {
-									["count"] = 265,
+								["Crit"] = {
+									["count"] = 1,
 								},
-								["Melee"] = {
-									["count"] = 1998,
-								},
-								["Instant Poison IX"] = {
-									["count"] = 992,
+								["Tick"] = {
+									["count"] = 10,
 								},
 							},
-							["amount"] = 7030,
-						},
-						["Drakkari Shaman"] = {
-							["Details"] = {
-								["Eviscerate"] = {
-									["count"] = 2476,
-								},
-								["Fan of Knives"] = {
-									["count"] = 3590,
-								},
-								["Instant Poison IX"] = {
-									["count"] = 998,
-								},
-								["Melee"] = {
-									["count"] = 12226,
-								},
-								["Deadly Poison IX (DoT)"] = {
-									["count"] = 494,
-								},
-								["Sinister Strike"] = {
-									["count"] = 4492,
-								},
-								["Melee (Hack and Slash)"] = {
-									["count"] = 910,
-								},
-							},
-							["amount"] = 25186,
+							["amount"] = 18,
 						},
 					},
 					["TimeDamage"] = 27.96999999999999,
@@ -34855,25 +34856,25 @@ RecountPerCharDB = {
 								["Melee"] = {
 									["count"] = 1.36,
 								},
-								["Sinister Strike"] = {
-									["count"] = 0.27,
-								},
 								["Deadly Poison IX (DoT)"] = {
 									["count"] = 0.86,
+								},
+								["Sinister Strike"] = {
+									["count"] = 0.27,
 								},
 							},
 							["amount"] = 2.49,
 						},
 						["Risen Drakkari Bat Rider"] = {
 							["Details"] = {
+								["Melee"] = {
+									["count"] = 3.5,
+								},
 								["Fan of Knives"] = {
 									["count"] = 0,
 								},
 								["Deadly Poison IX (DoT)"] = {
 									["count"] = 0.49,
-								},
-								["Melee"] = {
-									["count"] = 3.5,
 								},
 								["Instant Poison IX"] = {
 									["count"] = 2.34,
@@ -34909,8 +34910,7 @@ RecountPerCharDB = {
 						},
 					},
 					["RunicPowerGain"] = 0,
-					["ElementTakenBlock"] = {
-					},
+					["Damage"] = 79546,
 					["DispelledWho"] = {
 					},
 				},
@@ -35511,7 +35511,7 @@ RecountPerCharDB = {
 				1824192.061, -- [49]
 				1824192.826, -- [50]
 			},
-			["LastAbility"] = 27999.068,
+			["LastAbility"] = 1053.213,
 		},
 		["Ninimagic"] = {
 			["GUID"] = "0x070000000020A7CB",
@@ -35666,10 +35666,10 @@ RecountPerCharDB = {
 			["LastEventNum"] = {
 				[30] = 10.47932674716429,
 				[27] = 4.55543358946213,
-				[15] = 10.21222100256129,
-				[47] = 36.55323819978046,
 				[29] = 4.55543358946213,
 				[3] = 9.220636663007683,
+				[15] = 10.21222100256129,
+				[47] = 36.55323819978046,
 			},
 			["type"] = "Ungrouped",
 			["FightsSaved"] = 5,
@@ -35859,16 +35859,13 @@ RecountPerCharDB = {
 							},
 							["amount"] = 10390,
 						},
-						["The Prophet Tharon'ja"] = {
+						["Darkweb Recluse"] = {
 							["Details"] = {
-								["Shadow Volley"] = {
-									["count"] = 8362,
-								},
-								["Poison Cloud (DoT)"] = {
-									["count"] = 2490,
+								["Poison Spit (DoT)"] = {
+									["count"] = 622,
 								},
 							},
-							["amount"] = 10852,
+							["amount"] = 622,
 						},
 						["Risen Drakkari Death Knight"] = {
 							["Details"] = {
@@ -35889,13 +35886,16 @@ RecountPerCharDB = {
 							},
 							["amount"] = 27953,
 						},
-						["Darkweb Recluse"] = {
+						["The Prophet Tharon'ja"] = {
 							["Details"] = {
-								["Poison Spit (DoT)"] = {
-									["count"] = 622,
+								["Shadow Volley"] = {
+									["count"] = 8362,
+								},
+								["Poison Cloud (DoT)"] = {
+									["count"] = 2490,
 								},
 							},
-							["amount"] = 622,
+							["amount"] = 10852,
 						},
 						["Drakkari Commander"] = {
 							["Details"] = {
@@ -36209,18 +36209,6 @@ RecountPerCharDB = {
 							["count"] = 1,
 							["amount"] = 0,
 						},
-						["Shadow Volley"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 2,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 2,
-							["amount"] = 0,
-						},
 						["Poison Spit (DoT)"] = {
 							["Details"] = {
 								["No Resist"] = {
@@ -36231,6 +36219,18 @@ RecountPerCharDB = {
 								},
 							},
 							["count"] = 1,
+							["amount"] = 0,
+						},
+						["Shadow Volley"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 2,
 							["amount"] = 0,
 						},
 						["Whirlwind"] = {
@@ -36437,18 +36437,6 @@ RecountPerCharDB = {
 							["count"] = 1,
 							["amount"] = 0,
 						},
-						["Shadow Volley"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 2,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 2,
-							["amount"] = 0,
-						},
 						["Poison Spit (DoT)"] = {
 							["Details"] = {
 								["No Absorb"] = {
@@ -36459,6 +36447,18 @@ RecountPerCharDB = {
 								},
 							},
 							["count"] = 1,
+							["amount"] = 0,
+						},
+						["Shadow Volley"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 2,
 							["amount"] = 0,
 						},
 						["Whirlwind"] = {
@@ -36685,23 +36685,6 @@ RecountPerCharDB = {
 							},
 							["amount"] = 36.88,
 						},
-						["Ninimagic"] = {
-							["Details"] = {
-								["Flash of Light"] = {
-									["count"] = 11.2,
-								},
-								["Holy Light"] = {
-									["count"] = 6.33,
-								},
-								["Touch of Life"] = {
-									["count"] = 2.74,
-								},
-								["Holy Shock"] = {
-									["count"] = 9.060000000000001,
-								},
-							},
-							["amount"] = 29.33,
-						},
 						["Risen Drakkari Warrior"] = {
 							["Details"] = {
 								["Holy Wrath"] = {
@@ -36719,6 +36702,23 @@ RecountPerCharDB = {
 							},
 							["amount"] = 18.56,
 						},
+						["Ninimagic"] = {
+							["Details"] = {
+								["Flash of Light"] = {
+									["count"] = 11.2,
+								},
+								["Holy Light"] = {
+									["count"] = 6.33,
+								},
+								["Touch of Life"] = {
+									["count"] = 2.74,
+								},
+								["Holy Shock"] = {
+									["count"] = 9.060000000000001,
+								},
+							},
+							["amount"] = 29.33,
+						},
 						["Drakkari Gutripper"] = {
 							["Details"] = {
 								["Melee"] = {
@@ -36730,17 +36730,6 @@ RecountPerCharDB = {
 							},
 							["amount"] = 9.92,
 						},
-						["Darkweb Recluse"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 2.39,
-								},
-								["Judgement"] = {
-									["count"] = 3.5,
-								},
-							},
-							["amount"] = 5.89,
-						},
 						["Drakkari Raptor Mount"] = {
 							["Details"] = {
 								["Judgement"] = {
@@ -36748,6 +36737,17 @@ RecountPerCharDB = {
 								},
 							},
 							["amount"] = 3.5,
+						},
+						["Risen Drakkari Death Knight"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0.94,
+								},
+								["Judgement"] = {
+									["count"] = 4.01,
+								},
+							},
+							["amount"] = 4.949999999999999,
 						},
 						["Risen Drakkari Bat Rider"] = {
 							["Details"] = {
@@ -36777,16 +36777,16 @@ RecountPerCharDB = {
 							},
 							["amount"] = 95.39,
 						},
-						["Risen Drakkari Death Knight"] = {
+						["Darkweb Recluse"] = {
 							["Details"] = {
 								["Melee"] = {
-									["count"] = 0.94,
+									["count"] = 2.39,
 								},
 								["Judgement"] = {
-									["count"] = 4.01,
+									["count"] = 3.5,
 								},
 							},
-							["amount"] = 4.949999999999999,
+							["amount"] = 5.89,
 						},
 						["Drakkari Guardian"] = {
 							["Details"] = {
@@ -37353,6 +37353,10 @@ RecountPerCharDB = {
 					},
 					["DeathCount"] = 0,
 					["HOT_Time"] = 0,
+					["DOT_Time"] = 0,
+					["ManaGain"] = 1297,
+					["ElementTaken"] = {
+					},
 					["HOTs"] = {
 						["Flash of Light"] = {
 							["Details"] = {
@@ -37363,11 +37367,8 @@ RecountPerCharDB = {
 							["amount"] = 0,
 						},
 					},
-					["ManaGain"] = 1297,
-					["ElementTaken"] = {
+					["ElementTakenBlock"] = {
 					},
-					["DOT_Time"] = 0,
-					["Damage"] = 3193,
 					["ElementDoneAbsorb"] = {
 					},
 					["TimeHeal"] = 19.51,
@@ -37403,14 +37404,22 @@ RecountPerCharDB = {
 							["amount"] = 1297,
 						},
 					},
-					["ElementHitsDone"] = {
-						["Holy"] = {
+					["DamagedWho"] = {
+						["Risen Drakkari Bat Rider"] = {
 							["Details"] = {
-								["Hit"] = {
-									["count"] = 2,
+								["Holy Wrath"] = {
+									["count"] = 0,
 								},
 							},
-							["amount"] = 2,
+							["amount"] = 0,
+						},
+						["Risen Drakkari Warrior"] = {
+							["Details"] = {
+								["Holy Wrath"] = {
+									["count"] = 3193,
+								},
+							},
+							["amount"] = 3193,
 						},
 					},
 					["RageGained"] = {
@@ -37418,62 +37427,6 @@ RecountPerCharDB = {
 					["WhoDamaged"] = {
 					},
 					["EnergyGainedFrom"] = {
-					},
-					["Dispelled"] = 0,
-					["RunicPowerGained"] = {
-					},
-					["ElementDoneBlock"] = {
-					},
-					["TimeHealing"] = {
-						["Ninimagic"] = {
-							["Details"] = {
-								["Flash of Light"] = {
-									["count"] = 2.97,
-								},
-							},
-							["amount"] = 2.97,
-						},
-						["Subzeroh"] = {
-							["Details"] = {
-								["Flash of Light"] = {
-									["count"] = 7.470000000000001,
-								},
-								["Holy Shock"] = {
-									["count"] = 0.61,
-								},
-							},
-							["amount"] = 8.08,
-						},
-						["Flemaz"] = {
-							["Details"] = {
-								["Flash of Light"] = {
-									["count"] = 0,
-								},
-								["Beacon of Light"] = {
-									["count"] = 1.46,
-								},
-								["Holy Shock"] = {
-									["count"] = 3.5,
-								},
-							},
-							["amount"] = 4.96,
-						},
-						["Chalysg"] = {
-							["Details"] = {
-								["Flash of Light"] = {
-									["count"] = 3.5,
-								},
-							},
-							["amount"] = 3.5,
-						},
-						["Rimgar"] = {
-							["Details"] = {
-								["Flash of Light"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
 					},
 					["OverHeals"] = {
 						["Flash of Light"] = {
@@ -37531,6 +37484,62 @@ RecountPerCharDB = {
 							["amount"] = 4841,
 						},
 					},
+					["CCBroken"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+						["Ninimagic"] = {
+							["Details"] = {
+								["Flash of Light"] = {
+									["count"] = 2.97,
+								},
+							},
+							["amount"] = 2.97,
+						},
+						["Subzeroh"] = {
+							["Details"] = {
+								["Flash of Light"] = {
+									["count"] = 7.470000000000001,
+								},
+								["Holy Shock"] = {
+									["count"] = 0.61,
+								},
+							},
+							["amount"] = 8.08,
+						},
+						["Flemaz"] = {
+							["Details"] = {
+								["Flash of Light"] = {
+									["count"] = 0,
+								},
+								["Beacon of Light"] = {
+									["count"] = 1.46,
+								},
+								["Holy Shock"] = {
+									["count"] = 3.5,
+								},
+							},
+							["amount"] = 4.96,
+						},
+						["Chalysg"] = {
+							["Details"] = {
+								["Flash of Light"] = {
+									["count"] = 3.5,
+								},
+							},
+							["amount"] = 3.5,
+						},
+						["Rimgar"] = {
+							["Details"] = {
+								["Flash of Light"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["Dispelled"] = 0,
 					["WhoHealed"] = {
 						["Ninimagic"] = {
 							["Details"] = {
@@ -37541,13 +37550,12 @@ RecountPerCharDB = {
 							["amount"] = 2472,
 						},
 					},
-					["EnergyGain"] = 0,
-					["CCBreak"] = 0,
-					["PartialAbsorb"] = {
-					},
-					["ActiveTime"] = 20.23,
 					["PartialResist"] = {
 					},
+					["CCBreak"] = 0,
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["EnergyGain"] = 0,
 					["ManaGained"] = {
 						["Divine Plea"] = {
 							["Details"] = {
@@ -37584,7 +37592,7 @@ RecountPerCharDB = {
 					},
 					["ElementTakenAbsorb"] = {
 					},
-					["Interrupts"] = 0,
+					["ActiveTime"] = 20.23,
 					["Overhealing"] = 80892,
 					["ElementTakenResist"] = {
 					},
@@ -37715,7 +37723,8 @@ RecountPerCharDB = {
 							["amount"] = 10814,
 						},
 					},
-					["FDamage"] = 0,
+					["PartialAbsorb"] = {
+					},
 					["EnergyGained"] = {
 					},
 					["HealedWho"] = {
@@ -37770,9 +37779,9 @@ RecountPerCharDB = {
 						},
 					},
 					["Healing"] = 35702,
-					["RunicPowerGainedFrom"] = {
+					["RunicPowerGained"] = {
 					},
-					["CCBroken"] = {
+					["RunicPowerGainedFrom"] = {
 					},
 					["Attacks"] = {
 						["Holy Wrath"] = {
@@ -37789,22 +37798,14 @@ RecountPerCharDB = {
 						},
 					},
 					["HealingTaken"] = 2472,
-					["DamagedWho"] = {
-						["Risen Drakkari Bat Rider"] = {
+					["ElementHitsDone"] = {
+						["Holy"] = {
 							["Details"] = {
-								["Holy Wrath"] = {
-									["count"] = 0,
+								["Hit"] = {
+									["count"] = 2,
 								},
 							},
-							["amount"] = 0,
-						},
-						["Risen Drakkari Warrior"] = {
-							["Details"] = {
-								["Holy Wrath"] = {
-									["count"] = 3193,
-								},
-							},
-							["amount"] = 3193,
+							["amount"] = 2,
 						},
 					},
 					["TimeDamage"] = 0.72,
@@ -37827,8 +37828,7 @@ RecountPerCharDB = {
 						},
 					},
 					["RunicPowerGain"] = 0,
-					["ElementTakenBlock"] = {
-					},
+					["Damage"] = 3193,
 					["DispelledWho"] = {
 					},
 				},
@@ -37853,6 +37853,11 @@ RecountPerCharDB = {
 					},
 					["DeathCount"] = 0,
 					["HOT_Time"] = 0,
+					["DOT_Time"] = 0,
+					["ManaGain"] = 0,
+					["ElementTaken"] = {
+						["Shadow"] = 0,
+					},
 					["HOTs"] = {
 						["Judgement of Light"] = {
 							["Details"] = {
@@ -37875,12 +37880,8 @@ RecountPerCharDB = {
 							["amount"] = 0,
 						},
 					},
-					["ManaGain"] = 0,
-					["ElementTaken"] = {
-						["Shadow"] = 0,
+					["ElementTakenBlock"] = {
 					},
-					["DOT_Time"] = 0,
-					["Damage"] = 0,
 					["ElementDoneAbsorb"] = {
 					},
 					["TimeHeal"] = 0,
@@ -37913,13 +37914,18 @@ RecountPerCharDB = {
 							["amount"] = 0,
 						},
 					},
-					["ElementHitsDone"] = {
-						["Holy"] = {
+					["DamagedWho"] = {
+						["Trollgore"] = {
 							["Details"] = {
-								["Crit"] = {
+								["Judgement"] = {
 									["count"] = 0,
 								},
-								["Hit"] = {
+							},
+							["amount"] = 0,
+						},
+						["Drakkari Raptor Mount"] = {
+							["Details"] = {
+								["Judgement"] = {
 									["count"] = 0,
 								},
 							},
@@ -37939,74 +37945,6 @@ RecountPerCharDB = {
 						},
 					},
 					["EnergyGainedFrom"] = {
-					},
-					["Dispelled"] = 0,
-					["RunicPowerGained"] = {
-					},
-					["ElementDoneBlock"] = {
-					},
-					["TimeHealing"] = {
-						["Ninimagic"] = {
-							["Details"] = {
-								["Holy Shock"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Subzeroh"] = {
-							["Details"] = {
-								["Judgement of Light"] = {
-									["count"] = 0,
-								},
-								["Flash of Light"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Flemaz"] = {
-							["Details"] = {
-								["Flash of Light"] = {
-									["count"] = 0,
-								},
-								["Beacon of Light"] = {
-									["count"] = 0,
-								},
-								["Judgement of Light"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Chalysg"] = {
-							["Details"] = {
-								["Judgement of Light"] = {
-									["count"] = 0,
-								},
-								["Flash of Light"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Rimgar"] = {
-							["Details"] = {
-								["Flash of Light"] = {
-									["count"] = 0,
-								},
-								["Holy Light"] = {
-									["count"] = 0,
-								},
-								["Judgement of Light"] = {
-									["count"] = 0,
-								},
-								["Holy Shock"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
 					},
 					["OverHeals"] = {
 						["Holy Light"] = {
@@ -38088,6 +38026,74 @@ RecountPerCharDB = {
 							["amount"] = 0,
 						},
 					},
+					["CCBroken"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+						["Ninimagic"] = {
+							["Details"] = {
+								["Holy Shock"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Subzeroh"] = {
+							["Details"] = {
+								["Judgement of Light"] = {
+									["count"] = 0,
+								},
+								["Flash of Light"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Flemaz"] = {
+							["Details"] = {
+								["Flash of Light"] = {
+									["count"] = 0,
+								},
+								["Beacon of Light"] = {
+									["count"] = 0,
+								},
+								["Judgement of Light"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Chalysg"] = {
+							["Details"] = {
+								["Judgement of Light"] = {
+									["count"] = 0,
+								},
+								["Flash of Light"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Rimgar"] = {
+							["Details"] = {
+								["Flash of Light"] = {
+									["count"] = 0,
+								},
+								["Holy Light"] = {
+									["count"] = 0,
+								},
+								["Judgement of Light"] = {
+									["count"] = 0,
+								},
+								["Holy Shock"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["Dispelled"] = 0,
 					["WhoHealed"] = {
 						["Ninimagic"] = {
 							["Details"] = {
@@ -38098,23 +38104,6 @@ RecountPerCharDB = {
 							["amount"] = 0,
 						},
 					},
-					["EnergyGain"] = 0,
-					["CCBreak"] = 0,
-					["PartialAbsorb"] = {
-						["Consume"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["ActiveTime"] = 0,
 					["PartialResist"] = {
 						["Consume"] = {
 							["Details"] = {
@@ -38129,6 +38118,10 @@ RecountPerCharDB = {
 							["amount"] = 0,
 						},
 					},
+					["CCBreak"] = 0,
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["EnergyGain"] = 0,
 					["ManaGained"] = {
 						["Mana Restore"] = {
 							["Details"] = {
@@ -38157,7 +38150,7 @@ RecountPerCharDB = {
 					},
 					["ElementTakenAbsorb"] = {
 					},
-					["Interrupts"] = 0,
+					["ActiveTime"] = 0,
 					["Overhealing"] = 0,
 					["ElementTakenResist"] = {
 					},
@@ -38312,7 +38305,20 @@ RecountPerCharDB = {
 							["amount"] = 0,
 						},
 					},
-					["FDamage"] = 0,
+					["PartialAbsorb"] = {
+						["Consume"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
 					["EnergyGained"] = {
 					},
 					["HealedWho"] = {
@@ -38379,9 +38385,9 @@ RecountPerCharDB = {
 						},
 					},
 					["Healing"] = 0,
-					["RunicPowerGainedFrom"] = {
+					["RunicPowerGained"] = {
 					},
-					["CCBroken"] = {
+					["RunicPowerGainedFrom"] = {
 					},
 					["Attacks"] = {
 						["Judgement"] = {
@@ -38404,18 +38410,13 @@ RecountPerCharDB = {
 						},
 					},
 					["HealingTaken"] = 0,
-					["DamagedWho"] = {
-						["Trollgore"] = {
+					["ElementHitsDone"] = {
+						["Holy"] = {
 							["Details"] = {
-								["Judgement"] = {
+								["Crit"] = {
 									["count"] = 0,
 								},
-							},
-							["amount"] = 0,
-						},
-						["Drakkari Raptor Mount"] = {
-							["Details"] = {
-								["Judgement"] = {
+								["Hit"] = {
 									["count"] = 0,
 								},
 							},
@@ -38442,8 +38443,7 @@ RecountPerCharDB = {
 						},
 					},
 					["RunicPowerGain"] = 0,
-					["ElementTakenBlock"] = {
-					},
+					["Damage"] = 0,
 					["DispelledWho"] = {
 					},
 				},
@@ -38505,6 +38505,14 @@ RecountPerCharDB = {
 					},
 					["DeathCount"] = 0,
 					["HOT_Time"] = 42,
+					["DOT_Time"] = 0,
+					["ManaGain"] = 23138,
+					["ElementTaken"] = {
+						["Physical"] = 6998,
+						["Shadow"] = 8362,
+						["Melee"] = 0,
+						["Nature"] = 2490,
+					},
 					["HOTs"] = {
 						["Flash of Light"] = {
 							["Details"] = {
@@ -38535,15 +38543,8 @@ RecountPerCharDB = {
 							["amount"] = 42,
 						},
 					},
-					["ManaGain"] = 23138,
-					["ElementTaken"] = {
-						["Physical"] = 6998,
-						["Shadow"] = 8362,
-						["Melee"] = 0,
-						["Nature"] = 2490,
+					["ElementTakenBlock"] = {
 					},
-					["DOT_Time"] = 0,
-					["Damage"] = 33175,
 					["ElementDoneAbsorb"] = {
 					},
 					["TimeHeal"] = 31.57,
@@ -38589,61 +38590,56 @@ RecountPerCharDB = {
 							["amount"] = 23138,
 						},
 					},
-					["ElementHitsDone"] = {
-						["Holy"] = {
+					["DamagedWho"] = {
+						["Risen Drakkari Warrior"] = {
 							["Details"] = {
-								["Crit"] = {
-									["count"] = 1,
+								["Fire Shield"] = {
+									["count"] = 0,
 								},
-								["Hit"] = {
-									["count"] = 3,
-								},
-							},
-							["amount"] = 4,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["Glancing"] = {
-									["count"] = 3,
-								},
-								["Hit"] = {
-									["count"] = 9,
-								},
-								["Dodge"] = {
-									["count"] = 2,
-								},
-								["Crit"] = {
-									["count"] = 9,
-								},
-								["Parry"] = {
-									["count"] = 1,
-								},
-							},
-							["amount"] = 24,
-						},
-						["Fire"] = {
-							["Details"] = {
-								["Hit"] = {
+								["Judgement"] = {
 									["count"] = 0,
 								},
 							},
 							["amount"] = 0,
 						},
-						["Physical"] = {
+						["Drakkari Gutripper"] = {
 							["Details"] = {
-								["Hit"] = {
-									["count"] = 8,
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement"] = {
+									["count"] = 0,
 								},
 							},
-							["amount"] = 8,
+							["amount"] = 0,
 						},
-						["Shadow"] = {
+						["Risen Drakkari Death Knight"] = {
 							["Details"] = {
-								["Hit"] = {
-									["count"] = 3,
+								["Melee"] = {
+									["count"] = 546,
+								},
+								["Judgement"] = {
+									["count"] = 4509,
 								},
 							},
-							["amount"] = 3,
+							["amount"] = 5055,
+						},
+						["The Prophet Tharon'ja"] = {
+							["Details"] = {
+								["Touch of Life"] = {
+									["count"] = 7065,
+								},
+								["Melee"] = {
+									["count"] = 7634,
+								},
+								["Slaying Strike"] = {
+									["count"] = 10415,
+								},
+								["Judgement"] = {
+									["count"] = 3006,
+								},
+							},
+							["amount"] = 28120,
 						},
 					},
 					["RageGained"] = {
@@ -38689,90 +38685,6 @@ RecountPerCharDB = {
 						},
 					},
 					["EnergyGainedFrom"] = {
-					},
-					["Dispelled"] = 0,
-					["RunicPowerGained"] = {
-					},
-					["ElementDoneBlock"] = {
-						["Melee"] = 0,
-					},
-					["TimeHealing"] = {
-						["Ninimagic"] = {
-							["Details"] = {
-								["Flash of Light"] = {
-									["count"] = 1.06,
-								},
-								["Touch of Life"] = {
-									["count"] = 2.74,
-								},
-								["Holy Shock"] = {
-									["count"] = 1.37,
-								},
-							},
-							["amount"] = 5.17,
-						},
-						["Subzeroh"] = {
-							["Details"] = {
-								["Judgement of Light"] = {
-									["count"] = 4.85,
-								},
-								["Flash of Light"] = {
-									["count"] = 2.5,
-								},
-							},
-							["amount"] = 7.35,
-						},
-						["Flemaz"] = {
-							["Details"] = {
-								["Judgement of Light"] = {
-									["count"] = 2.78,
-								},
-								["Holy Light"] = {
-									["count"] = 0,
-								},
-								["Beacon of Light"] = {
-									["count"] = 0.03,
-								},
-								["Holy Shock"] = {
-									["count"] = 0.21,
-								},
-							},
-							["amount"] = 3.02,
-						},
-						["Chalysg"] = {
-							["Details"] = {
-								["Flash of Light"] = {
-									["count"] = 3.86,
-								},
-								["Holy Light"] = {
-									["count"] = 0,
-								},
-								["Judgement of Light"] = {
-									["count"] = 0.17,
-								},
-								["Holy Shock"] = {
-									["count"] = 1.58,
-								},
-							},
-							["amount"] = 5.61,
-						},
-						["Rimgar"] = {
-							["Details"] = {
-								["Flash of Light"] = {
-									["count"] = 3.68,
-								},
-								["Holy Light"] = {
-									["count"] = 3.17,
-								},
-								["Judgement of Light"] = {
-									["count"] = 2.95,
-								},
-								["Holy Shock"] = {
-									["count"] = 0.62,
-								},
-							},
-							["amount"] = 10.42,
-						},
 					},
 					["OverHeals"] = {
 						["Holy Light"] = {
@@ -38860,6 +38772,90 @@ RecountPerCharDB = {
 							["amount"] = 5167,
 						},
 					},
+					["CCBroken"] = {
+					},
+					["ElementDoneBlock"] = {
+						["Melee"] = 0,
+					},
+					["TimeHealing"] = {
+						["Ninimagic"] = {
+							["Details"] = {
+								["Flash of Light"] = {
+									["count"] = 1.06,
+								},
+								["Touch of Life"] = {
+									["count"] = 2.74,
+								},
+								["Holy Shock"] = {
+									["count"] = 1.37,
+								},
+							},
+							["amount"] = 5.17,
+						},
+						["Subzeroh"] = {
+							["Details"] = {
+								["Judgement of Light"] = {
+									["count"] = 4.85,
+								},
+								["Flash of Light"] = {
+									["count"] = 2.5,
+								},
+							},
+							["amount"] = 7.35,
+						},
+						["Flemaz"] = {
+							["Details"] = {
+								["Judgement of Light"] = {
+									["count"] = 2.78,
+								},
+								["Holy Light"] = {
+									["count"] = 0,
+								},
+								["Beacon of Light"] = {
+									["count"] = 0.03,
+								},
+								["Holy Shock"] = {
+									["count"] = 0.21,
+								},
+							},
+							["amount"] = 3.02,
+						},
+						["Chalysg"] = {
+							["Details"] = {
+								["Flash of Light"] = {
+									["count"] = 3.86,
+								},
+								["Holy Light"] = {
+									["count"] = 0,
+								},
+								["Judgement of Light"] = {
+									["count"] = 0.17,
+								},
+								["Holy Shock"] = {
+									["count"] = 1.58,
+								},
+							},
+							["amount"] = 5.61,
+						},
+						["Rimgar"] = {
+							["Details"] = {
+								["Flash of Light"] = {
+									["count"] = 3.68,
+								},
+								["Holy Light"] = {
+									["count"] = 3.17,
+								},
+								["Judgement of Light"] = {
+									["count"] = 2.95,
+								},
+								["Holy Shock"] = {
+									["count"] = 0.62,
+								},
+							},
+							["amount"] = 10.42,
+						},
+					},
+					["Dispelled"] = 0,
 					["WhoHealed"] = {
 						["Ninimagic"] = {
 							["Details"] = {
@@ -38876,119 +38872,6 @@ RecountPerCharDB = {
 							["amount"] = 18271,
 						},
 					},
-					["EnergyGain"] = 0,
-					["CCBreak"] = 0,
-					["PartialAbsorb"] = {
-						["Bile Vomit (DoT)"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Poison Cloud"] = {
-							["Details"] = {
-								["Absorbed"] = {
-									["max"] = 1245,
-									["min"] = 1245,
-									["count"] = 2,
-									["amount"] = 2490,
-								},
-							},
-							["count"] = 2,
-							["amount"] = 2490,
-						},
-						["Deafening Roar"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 4,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 4,
-							["amount"] = 0,
-						},
-						["Ghost Strike"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Lightning Breath"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 0,
-						},
-						["Shadow Volley"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 2,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 2,
-							["amount"] = 0,
-						},
-						["Poison Cloud (DoT)"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 2,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 2,
-							["amount"] = 0,
-						},
-						["Bile Vomit"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["ActiveTime"] = 70.35000000000002,
 					["PartialResist"] = {
 						["Bile Vomit (DoT)"] = {
 							["Details"] = {
@@ -39099,6 +38982,10 @@ RecountPerCharDB = {
 							["amount"] = 0,
 						},
 					},
+					["CCBreak"] = 0,
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["EnergyGain"] = 0,
 					["ManaGained"] = {
 						["Mana Restore"] = {
 							["Details"] = {
@@ -39152,7 +39039,7 @@ RecountPerCharDB = {
 					["ElementTakenAbsorb"] = {
 						["Nature"] = 2490,
 					},
-					["Interrupts"] = 0,
+					["ActiveTime"] = 70.35000000000002,
 					["Overhealing"] = 88011,
 					["ElementTakenResist"] = {
 					},
@@ -39388,7 +39275,116 @@ RecountPerCharDB = {
 							["amount"] = 42415,
 						},
 					},
-					["FDamage"] = 0,
+					["PartialAbsorb"] = {
+						["Bile Vomit (DoT)"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Poison Cloud"] = {
+							["Details"] = {
+								["Absorbed"] = {
+									["max"] = 1245,
+									["min"] = 1245,
+									["count"] = 2,
+									["amount"] = 2490,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 2490,
+						},
+						["Deafening Roar"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 4,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 4,
+							["amount"] = 0,
+						},
+						["Ghost Strike"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Lightning Breath"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+						["Shadow Volley"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 0,
+						},
+						["Poison Cloud (DoT)"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 0,
+						},
+						["Bile Vomit"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
 					["EnergyGained"] = {
 					},
 					["HealedWho"] = {
@@ -39470,9 +39466,9 @@ RecountPerCharDB = {
 						},
 					},
 					["Healing"] = 141804,
-					["RunicPowerGainedFrom"] = {
+					["RunicPowerGained"] = {
 					},
-					["CCBroken"] = {
+					["RunicPowerGainedFrom"] = {
 					},
 					["Attacks"] = {
 						["Melee"] = {
@@ -39569,56 +39565,61 @@ RecountPerCharDB = {
 						},
 					},
 					["HealingTaken"] = 18271,
-					["DamagedWho"] = {
-						["Risen Drakkari Warrior"] = {
+					["ElementHitsDone"] = {
+						["Holy"] = {
 							["Details"] = {
-								["Fire Shield"] = {
-									["count"] = 0,
+								["Crit"] = {
+									["count"] = 1,
 								},
-								["Judgement"] = {
+								["Hit"] = {
+									["count"] = 3,
+								},
+							},
+							["amount"] = 4,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Glancing"] = {
+									["count"] = 3,
+								},
+								["Hit"] = {
+									["count"] = 9,
+								},
+								["Dodge"] = {
+									["count"] = 2,
+								},
+								["Crit"] = {
+									["count"] = 9,
+								},
+								["Parry"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 24,
+						},
+						["Fire"] = {
+							["Details"] = {
+								["Hit"] = {
 									["count"] = 0,
 								},
 							},
 							["amount"] = 0,
 						},
-						["Drakkari Gutripper"] = {
+						["Physical"] = {
 							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Judgement"] = {
-									["count"] = 0,
+								["Hit"] = {
+									["count"] = 8,
 								},
 							},
-							["amount"] = 0,
+							["amount"] = 8,
 						},
-						["Risen Drakkari Death Knight"] = {
+						["Shadow"] = {
 							["Details"] = {
-								["Melee"] = {
-									["count"] = 546,
-								},
-								["Judgement"] = {
-									["count"] = 4509,
+								["Hit"] = {
+									["count"] = 3,
 								},
 							},
-							["amount"] = 5055,
-						},
-						["The Prophet Tharon'ja"] = {
-							["Details"] = {
-								["Touch of Life"] = {
-									["count"] = 7065,
-								},
-								["Melee"] = {
-									["count"] = 7634,
-								},
-								["Slaying Strike"] = {
-									["count"] = 10415,
-								},
-								["Judgement"] = {
-									["count"] = 3006,
-								},
-							},
-							["amount"] = 28120,
+							["amount"] = 3,
 						},
 					},
 					["TimeDamage"] = 38.77999999999999,
@@ -39675,8 +39676,7 @@ RecountPerCharDB = {
 						},
 					},
 					["RunicPowerGain"] = 0,
-					["ElementTakenBlock"] = {
-					},
+					["Damage"] = 33175,
 					["DispelledWho"] = {
 						["Ninimagic"] = {
 							["Details"] = {
@@ -39744,15 +39744,16 @@ RecountPerCharDB = {
 					},
 					["DeathCount"] = 0,
 					["HOT_Time"] = 0,
-					["HOTs"] = {
-					},
+					["DOT_Time"] = 0,
 					["ManaGain"] = 1229,
 					["ElementTaken"] = {
 						["Physical"] = 1744,
 						["Frost"] = 4516,
 					},
-					["DOT_Time"] = 0,
-					["Damage"] = 2817,
+					["HOTs"] = {
+					},
+					["ElementTakenBlock"] = {
+					},
 					["ElementDoneAbsorb"] = {
 					},
 					["TimeHeal"] = 13.22,
@@ -39786,22 +39787,17 @@ RecountPerCharDB = {
 							["amount"] = 1229,
 						},
 					},
-					["ElementHitsDone"] = {
-						["Melee"] = {
+					["DamagedWho"] = {
+						["Risen Drakkari Warrior"] = {
 							["Details"] = {
-								["Hit"] = {
-									["count"] = 5,
+								["Melee"] = {
+									["count"] = 1314,
+								},
+								["Judgement"] = {
+									["count"] = 1503,
 								},
 							},
-							["amount"] = 5,
-						},
-						["Holy"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 1,
-								},
-							},
-							["amount"] = 1,
+							["amount"] = 2817,
 						},
 					},
 					["RageGained"] = {
@@ -39821,8 +39817,33 @@ RecountPerCharDB = {
 					},
 					["EnergyGainedFrom"] = {
 					},
-					["Dispelled"] = 1,
-					["RunicPowerGained"] = {
+					["OverHeals"] = {
+						["Beacon of Light"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 7515,
+									["min"] = 3256,
+									["count"] = 7,
+									["amount"] = 40447,
+								},
+							},
+							["count"] = 7,
+							["amount"] = 40447,
+						},
+						["Flash of Light"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 6885,
+									["min"] = 4423,
+									["count"] = 2,
+									["amount"] = 11308,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 11308,
+						},
+					},
+					["CCBroken"] = {
 					},
 					["ElementDoneBlock"] = {
 						["Melee"] = 80,
@@ -39856,63 +39877,9 @@ RecountPerCharDB = {
 							["amount"] = 0,
 						},
 					},
-					["OverHeals"] = {
-						["Beacon of Light"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 7515,
-									["min"] = 3256,
-									["count"] = 7,
-									["amount"] = 40447,
-								},
-							},
-							["count"] = 7,
-							["amount"] = 40447,
-						},
-						["Flash of Light"] = {
-							["Details"] = {
-								["Crit"] = {
-									["max"] = 6885,
-									["min"] = 4423,
-									["count"] = 2,
-									["amount"] = 11308,
-								},
-							},
-							["count"] = 2,
-							["amount"] = 11308,
-						},
-					},
+					["Dispelled"] = 1,
 					["WhoHealed"] = {
 					},
-					["EnergyGain"] = 0,
-					["CCBreak"] = 0,
-					["PartialAbsorb"] = {
-						["Deafening Roar"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 0,
-						},
-						["Icy Touch"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 0,
-						},
-					},
-					["ActiveTime"] = 20.44,
 					["PartialResist"] = {
 						["Deafening Roar"] = {
 							["Details"] = {
@@ -39939,6 +39906,10 @@ RecountPerCharDB = {
 							["amount"] = 0,
 						},
 					},
+					["CCBreak"] = 0,
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["EnergyGain"] = 0,
 					["ManaGained"] = {
 						["Mana Restore"] = {
 							["Details"] = {
@@ -39967,7 +39938,7 @@ RecountPerCharDB = {
 					},
 					["ElementTakenAbsorb"] = {
 					},
-					["Interrupts"] = 0,
+					["ActiveTime"] = 20.44,
 					["Overhealing"] = 51755,
 					["ElementTakenResist"] = {
 					},
@@ -40067,7 +40038,32 @@ RecountPerCharDB = {
 							["amount"] = 12610,
 						},
 					},
-					["FDamage"] = 0,
+					["PartialAbsorb"] = {
+						["Deafening Roar"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+						["Icy Touch"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+					},
 					["EnergyGained"] = {
 					},
 					["HealedWho"] = {
@@ -40100,9 +40096,9 @@ RecountPerCharDB = {
 						},
 					},
 					["Healing"] = 45783,
-					["RunicPowerGainedFrom"] = {
+					["RunicPowerGained"] = {
 					},
-					["CCBroken"] = {
+					["RunicPowerGainedFrom"] = {
 					},
 					["Attacks"] = {
 						["Melee"] = {
@@ -40137,17 +40133,22 @@ RecountPerCharDB = {
 						},
 					},
 					["HealingTaken"] = 0,
-					["DamagedWho"] = {
-						["Risen Drakkari Warrior"] = {
+					["ElementHitsDone"] = {
+						["Melee"] = {
 							["Details"] = {
-								["Melee"] = {
-									["count"] = 1314,
-								},
-								["Judgement"] = {
-									["count"] = 1503,
+								["Hit"] = {
+									["count"] = 5,
 								},
 							},
-							["amount"] = 2817,
+							["amount"] = 5,
+						},
+						["Holy"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 1,
 						},
 					},
 					["TimeDamage"] = 7.220000000000001,
@@ -40165,8 +40166,7 @@ RecountPerCharDB = {
 						},
 					},
 					["RunicPowerGain"] = 0,
-					["ElementTakenBlock"] = {
-					},
+					["Damage"] = 2817,
 					["DispelledWho"] = {
 						["Ninimagic"] = {
 							["Details"] = {
@@ -40236,6 +40236,14 @@ RecountPerCharDB = {
 					},
 					["DeathCount"] = 0,
 					["HOT_Time"] = 42,
+					["DOT_Time"] = 0,
+					["ManaGain"] = 23138,
+					["ElementTaken"] = {
+						["Physical"] = 6998,
+						["Shadow"] = 8362,
+						["Melee"] = 0,
+						["Nature"] = 2490,
+					},
 					["HOTs"] = {
 						["Flash of Light"] = {
 							["Details"] = {
@@ -40266,15 +40274,8 @@ RecountPerCharDB = {
 							["amount"] = 42,
 						},
 					},
-					["ManaGain"] = 23138,
-					["ElementTaken"] = {
-						["Physical"] = 6998,
-						["Shadow"] = 8362,
-						["Melee"] = 0,
-						["Nature"] = 2490,
+					["ElementTakenBlock"] = {
 					},
-					["DOT_Time"] = 0,
-					["Damage"] = 33175,
 					["ElementDoneAbsorb"] = {
 					},
 					["TimeHeal"] = 31.57,
@@ -40320,61 +40321,56 @@ RecountPerCharDB = {
 							["amount"] = 23138,
 						},
 					},
-					["ElementHitsDone"] = {
-						["Holy"] = {
+					["DamagedWho"] = {
+						["Risen Drakkari Warrior"] = {
 							["Details"] = {
-								["Crit"] = {
-									["count"] = 1,
+								["Fire Shield"] = {
+									["count"] = 0,
 								},
-								["Hit"] = {
-									["count"] = 3,
-								},
-							},
-							["amount"] = 4,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["Glancing"] = {
-									["count"] = 3,
-								},
-								["Hit"] = {
-									["count"] = 9,
-								},
-								["Dodge"] = {
-									["count"] = 2,
-								},
-								["Crit"] = {
-									["count"] = 9,
-								},
-								["Parry"] = {
-									["count"] = 1,
-								},
-							},
-							["amount"] = 24,
-						},
-						["Fire"] = {
-							["Details"] = {
-								["Hit"] = {
+								["Judgement"] = {
 									["count"] = 0,
 								},
 							},
 							["amount"] = 0,
 						},
-						["Physical"] = {
+						["Drakkari Gutripper"] = {
 							["Details"] = {
-								["Hit"] = {
-									["count"] = 8,
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement"] = {
+									["count"] = 0,
 								},
 							},
-							["amount"] = 8,
+							["amount"] = 0,
 						},
-						["Shadow"] = {
+						["Risen Drakkari Death Knight"] = {
 							["Details"] = {
-								["Hit"] = {
-									["count"] = 3,
+								["Melee"] = {
+									["count"] = 546,
+								},
+								["Judgement"] = {
+									["count"] = 4509,
 								},
 							},
-							["amount"] = 3,
+							["amount"] = 5055,
+						},
+						["The Prophet Tharon'ja"] = {
+							["Details"] = {
+								["Touch of Life"] = {
+									["count"] = 7065,
+								},
+								["Melee"] = {
+									["count"] = 7634,
+								},
+								["Slaying Strike"] = {
+									["count"] = 10415,
+								},
+								["Judgement"] = {
+									["count"] = 3006,
+								},
+							},
+							["amount"] = 28120,
 						},
 					},
 					["RageGained"] = {
@@ -40420,90 +40416,6 @@ RecountPerCharDB = {
 						},
 					},
 					["EnergyGainedFrom"] = {
-					},
-					["Dispelled"] = 0,
-					["RunicPowerGained"] = {
-					},
-					["ElementDoneBlock"] = {
-						["Melee"] = 0,
-					},
-					["TimeHealing"] = {
-						["Ninimagic"] = {
-							["Details"] = {
-								["Flash of Light"] = {
-									["count"] = 1.06,
-								},
-								["Touch of Life"] = {
-									["count"] = 2.74,
-								},
-								["Holy Shock"] = {
-									["count"] = 1.37,
-								},
-							},
-							["amount"] = 5.17,
-						},
-						["Subzeroh"] = {
-							["Details"] = {
-								["Judgement of Light"] = {
-									["count"] = 4.85,
-								},
-								["Flash of Light"] = {
-									["count"] = 2.5,
-								},
-							},
-							["amount"] = 7.35,
-						},
-						["Flemaz"] = {
-							["Details"] = {
-								["Judgement of Light"] = {
-									["count"] = 2.78,
-								},
-								["Holy Light"] = {
-									["count"] = 0,
-								},
-								["Beacon of Light"] = {
-									["count"] = 0.03,
-								},
-								["Holy Shock"] = {
-									["count"] = 0.21,
-								},
-							},
-							["amount"] = 3.02,
-						},
-						["Chalysg"] = {
-							["Details"] = {
-								["Flash of Light"] = {
-									["count"] = 3.86,
-								},
-								["Holy Light"] = {
-									["count"] = 0,
-								},
-								["Judgement of Light"] = {
-									["count"] = 0.17,
-								},
-								["Holy Shock"] = {
-									["count"] = 1.58,
-								},
-							},
-							["amount"] = 5.61,
-						},
-						["Rimgar"] = {
-							["Details"] = {
-								["Flash of Light"] = {
-									["count"] = 3.68,
-								},
-								["Holy Light"] = {
-									["count"] = 3.17,
-								},
-								["Judgement of Light"] = {
-									["count"] = 2.95,
-								},
-								["Holy Shock"] = {
-									["count"] = 0.62,
-								},
-							},
-							["amount"] = 10.42,
-						},
 					},
 					["OverHeals"] = {
 						["Holy Light"] = {
@@ -40591,6 +40503,90 @@ RecountPerCharDB = {
 							["amount"] = 5167,
 						},
 					},
+					["CCBroken"] = {
+					},
+					["ElementDoneBlock"] = {
+						["Melee"] = 0,
+					},
+					["TimeHealing"] = {
+						["Ninimagic"] = {
+							["Details"] = {
+								["Flash of Light"] = {
+									["count"] = 1.06,
+								},
+								["Touch of Life"] = {
+									["count"] = 2.74,
+								},
+								["Holy Shock"] = {
+									["count"] = 1.37,
+								},
+							},
+							["amount"] = 5.17,
+						},
+						["Subzeroh"] = {
+							["Details"] = {
+								["Judgement of Light"] = {
+									["count"] = 4.85,
+								},
+								["Flash of Light"] = {
+									["count"] = 2.5,
+								},
+							},
+							["amount"] = 7.35,
+						},
+						["Flemaz"] = {
+							["Details"] = {
+								["Judgement of Light"] = {
+									["count"] = 2.78,
+								},
+								["Holy Light"] = {
+									["count"] = 0,
+								},
+								["Beacon of Light"] = {
+									["count"] = 0.03,
+								},
+								["Holy Shock"] = {
+									["count"] = 0.21,
+								},
+							},
+							["amount"] = 3.02,
+						},
+						["Chalysg"] = {
+							["Details"] = {
+								["Flash of Light"] = {
+									["count"] = 3.86,
+								},
+								["Holy Light"] = {
+									["count"] = 0,
+								},
+								["Judgement of Light"] = {
+									["count"] = 0.17,
+								},
+								["Holy Shock"] = {
+									["count"] = 1.58,
+								},
+							},
+							["amount"] = 5.61,
+						},
+						["Rimgar"] = {
+							["Details"] = {
+								["Flash of Light"] = {
+									["count"] = 3.68,
+								},
+								["Holy Light"] = {
+									["count"] = 3.17,
+								},
+								["Judgement of Light"] = {
+									["count"] = 2.95,
+								},
+								["Holy Shock"] = {
+									["count"] = 0.62,
+								},
+							},
+							["amount"] = 10.42,
+						},
+					},
+					["Dispelled"] = 0,
 					["WhoHealed"] = {
 						["Ninimagic"] = {
 							["Details"] = {
@@ -40607,119 +40603,6 @@ RecountPerCharDB = {
 							["amount"] = 18271,
 						},
 					},
-					["EnergyGain"] = 0,
-					["CCBreak"] = 0,
-					["PartialAbsorb"] = {
-						["Bile Vomit (DoT)"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Poison Cloud"] = {
-							["Details"] = {
-								["Absorbed"] = {
-									["max"] = 1245,
-									["min"] = 1245,
-									["count"] = 2,
-									["amount"] = 2490,
-								},
-							},
-							["count"] = 2,
-							["amount"] = 2490,
-						},
-						["Deafening Roar"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 4,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 4,
-							["amount"] = 0,
-						},
-						["Ghost Strike"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Lightning Breath"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 0,
-						},
-						["Shadow Volley"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 2,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 2,
-							["amount"] = 0,
-						},
-						["Poison Cloud (DoT)"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 2,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 2,
-							["amount"] = 0,
-						},
-						["Bile Vomit"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["ActiveTime"] = 70.35000000000002,
 					["PartialResist"] = {
 						["Bile Vomit (DoT)"] = {
 							["Details"] = {
@@ -40830,6 +40713,10 @@ RecountPerCharDB = {
 							["amount"] = 0,
 						},
 					},
+					["CCBreak"] = 0,
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["EnergyGain"] = 0,
 					["ManaGained"] = {
 						["Mana Restore"] = {
 							["Details"] = {
@@ -40883,7 +40770,7 @@ RecountPerCharDB = {
 					["ElementTakenAbsorb"] = {
 						["Nature"] = 2490,
 					},
-					["Interrupts"] = 0,
+					["ActiveTime"] = 70.35000000000002,
 					["Overhealing"] = 88011,
 					["ElementTakenResist"] = {
 					},
@@ -41119,7 +41006,116 @@ RecountPerCharDB = {
 							["amount"] = 42415,
 						},
 					},
-					["FDamage"] = 0,
+					["PartialAbsorb"] = {
+						["Bile Vomit (DoT)"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Poison Cloud"] = {
+							["Details"] = {
+								["Absorbed"] = {
+									["max"] = 1245,
+									["min"] = 1245,
+									["count"] = 2,
+									["amount"] = 2490,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 2490,
+						},
+						["Deafening Roar"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 4,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 4,
+							["amount"] = 0,
+						},
+						["Ghost Strike"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Lightning Breath"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+						["Shadow Volley"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 0,
+						},
+						["Poison Cloud (DoT)"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 0,
+						},
+						["Bile Vomit"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
 					["EnergyGained"] = {
 					},
 					["HealedWho"] = {
@@ -41201,9 +41197,9 @@ RecountPerCharDB = {
 						},
 					},
 					["Healing"] = 141804,
-					["RunicPowerGainedFrom"] = {
+					["RunicPowerGained"] = {
 					},
-					["CCBroken"] = {
+					["RunicPowerGainedFrom"] = {
 					},
 					["Attacks"] = {
 						["Melee"] = {
@@ -41300,56 +41296,61 @@ RecountPerCharDB = {
 						},
 					},
 					["HealingTaken"] = 18271,
-					["DamagedWho"] = {
-						["Risen Drakkari Warrior"] = {
+					["ElementHitsDone"] = {
+						["Holy"] = {
 							["Details"] = {
-								["Fire Shield"] = {
-									["count"] = 0,
+								["Crit"] = {
+									["count"] = 1,
 								},
-								["Judgement"] = {
+								["Hit"] = {
+									["count"] = 3,
+								},
+							},
+							["amount"] = 4,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Glancing"] = {
+									["count"] = 3,
+								},
+								["Hit"] = {
+									["count"] = 9,
+								},
+								["Dodge"] = {
+									["count"] = 2,
+								},
+								["Crit"] = {
+									["count"] = 9,
+								},
+								["Parry"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 24,
+						},
+						["Fire"] = {
+							["Details"] = {
+								["Hit"] = {
 									["count"] = 0,
 								},
 							},
 							["amount"] = 0,
 						},
-						["Drakkari Gutripper"] = {
+						["Physical"] = {
 							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Judgement"] = {
-									["count"] = 0,
+								["Hit"] = {
+									["count"] = 8,
 								},
 							},
-							["amount"] = 0,
+							["amount"] = 8,
 						},
-						["Risen Drakkari Death Knight"] = {
+						["Shadow"] = {
 							["Details"] = {
-								["Melee"] = {
-									["count"] = 546,
-								},
-								["Judgement"] = {
-									["count"] = 4509,
+								["Hit"] = {
+									["count"] = 3,
 								},
 							},
-							["amount"] = 5055,
-						},
-						["The Prophet Tharon'ja"] = {
-							["Details"] = {
-								["Touch of Life"] = {
-									["count"] = 7065,
-								},
-								["Melee"] = {
-									["count"] = 7634,
-								},
-								["Slaying Strike"] = {
-									["count"] = 10415,
-								},
-								["Judgement"] = {
-									["count"] = 3006,
-								},
-							},
-							["amount"] = 28120,
+							["amount"] = 3,
 						},
 					},
 					["TimeDamage"] = 38.77999999999999,
@@ -41406,8 +41407,7 @@ RecountPerCharDB = {
 						},
 					},
 					["RunicPowerGain"] = 0,
-					["ElementTakenBlock"] = {
-					},
+					["Damage"] = 33175,
 					["DispelledWho"] = {
 						["Ninimagic"] = {
 							["Details"] = {
@@ -41476,15 +41476,16 @@ RecountPerCharDB = {
 					},
 					["DeathCount"] = 0,
 					["HOT_Time"] = 0,
-					["HOTs"] = {
-					},
+					["DOT_Time"] = 0,
 					["ManaGain"] = 15579,
 					["ElementTaken"] = {
 						["Nature"] = 0,
 						["Shadow"] = 11885,
 					},
-					["DOT_Time"] = 0,
-					["Damage"] = 2093,
+					["HOTs"] = {
+					},
+					["ElementTakenBlock"] = {
+					},
 					["ElementDoneAbsorb"] = {
 					},
 					["TimeHeal"] = 29.52,
@@ -41527,31 +41528,28 @@ RecountPerCharDB = {
 							["amount"] = 15579,
 						},
 					},
-					["ElementHitsDone"] = {
-						["Melee"] = {
+					["DamagedWho"] = {
+						["Darkweb Recluse"] = {
 							["Details"] = {
-								["Dodge"] = {
+								["Melee"] = {
 									["count"] = 0,
 								},
-								["Hit"] = {
-									["count"] = 3,
-								},
-								["Crit"] = {
+								["Judgement"] = {
 									["count"] = 0,
-								},
-								["Parry"] = {
-									["count"] = 1,
 								},
 							},
-							["amount"] = 4,
+							["amount"] = 0,
 						},
-						["Holy"] = {
+						["Drakkari Guardian"] = {
 							["Details"] = {
-								["Hit"] = {
-									["count"] = 1,
+								["Melee"] = {
+									["count"] = 740,
+								},
+								["Judgement"] = {
+									["count"] = 1353,
 								},
 							},
-							["amount"] = 1,
+							["amount"] = 2093,
 						},
 					},
 					["RageGained"] = {
@@ -41576,8 +41574,51 @@ RecountPerCharDB = {
 					},
 					["EnergyGainedFrom"] = {
 					},
-					["Dispelled"] = 0,
-					["RunicPowerGained"] = {
+					["OverHeals"] = {
+						["Flash of Light"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 9027,
+									["min"] = 0,
+									["count"] = 8,
+									["amount"] = 49128,
+								},
+								["Hit"] = {
+									["max"] = 5806,
+									["min"] = 0,
+									["count"] = 6,
+									["amount"] = 18771,
+								},
+							},
+							["count"] = 14,
+							["amount"] = 67899,
+						},
+						["Beacon of Light"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 9610,
+									["min"] = 0,
+									["count"] = 13,
+									["amount"] = 46145,
+								},
+							},
+							["count"] = 13,
+							["amount"] = 46145,
+						},
+						["Holy Shock"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 9610,
+									["min"] = 6053,
+									["count"] = 3,
+									["amount"] = 21731,
+								},
+							},
+							["count"] = 3,
+							["amount"] = 21731,
+						},
+					},
+					["CCBroken"] = {
 					},
 					["ElementDoneBlock"] = {
 						["Melee"] = 40,
@@ -41633,50 +41674,7 @@ RecountPerCharDB = {
 							["amount"] = 9.390000000000001,
 						},
 					},
-					["OverHeals"] = {
-						["Flash of Light"] = {
-							["Details"] = {
-								["Crit"] = {
-									["max"] = 9027,
-									["min"] = 0,
-									["count"] = 8,
-									["amount"] = 49128,
-								},
-								["Hit"] = {
-									["max"] = 5806,
-									["min"] = 0,
-									["count"] = 6,
-									["amount"] = 18771,
-								},
-							},
-							["count"] = 14,
-							["amount"] = 67899,
-						},
-						["Beacon of Light"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 9610,
-									["min"] = 0,
-									["count"] = 13,
-									["amount"] = 46145,
-								},
-							},
-							["count"] = 13,
-							["amount"] = 46145,
-						},
-						["Holy Shock"] = {
-							["Details"] = {
-								["Crit"] = {
-									["max"] = 9610,
-									["min"] = 6053,
-									["count"] = 3,
-									["amount"] = 21731,
-								},
-							},
-							["count"] = 3,
-							["amount"] = 21731,
-						},
-					},
+					["Dispelled"] = 0,
 					["WhoHealed"] = {
 						["Ninimagic"] = {
 							["Details"] = {
@@ -41687,35 +41685,6 @@ RecountPerCharDB = {
 							["amount"] = 7611,
 						},
 					},
-					["EnergyGain"] = 0,
-					["CCBreak"] = 0,
-					["PartialAbsorb"] = {
-						["Poison Spit (DoT)"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Blood Siphon"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 3,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 3,
-							["amount"] = 0,
-						},
-					},
-					["ActiveTime"] = 35.38,
 					["PartialResist"] = {
 						["Poison Spit (DoT)"] = {
 							["Details"] = {
@@ -41742,6 +41711,10 @@ RecountPerCharDB = {
 							["amount"] = 0,
 						},
 					},
+					["CCBreak"] = 0,
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["EnergyGain"] = 0,
 					["ManaGained"] = {
 						["Mana Restore"] = {
 							["Details"] = {
@@ -41794,7 +41767,7 @@ RecountPerCharDB = {
 					},
 					["ElementTakenAbsorb"] = {
 					},
-					["Interrupts"] = 0,
+					["ActiveTime"] = 35.38,
 					["Overhealing"] = 135775,
 					["ElementTakenResist"] = {
 					},
@@ -41927,7 +41900,32 @@ RecountPerCharDB = {
 							["amount"] = 5628,
 						},
 					},
-					["FDamage"] = 0,
+					["PartialAbsorb"] = {
+						["Poison Spit (DoT)"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Blood Siphon"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 3,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 3,
+							["amount"] = 0,
+						},
+					},
 					["EnergyGained"] = {
 					},
 					["HealedWho"] = {
@@ -41982,9 +41980,9 @@ RecountPerCharDB = {
 						},
 					},
 					["Healing"] = 98626,
-					["RunicPowerGainedFrom"] = {
+					["RunicPowerGained"] = {
 					},
-					["CCBroken"] = {
+					["RunicPowerGainedFrom"] = {
 					},
 					["Attacks"] = {
 						["Melee"] = {
@@ -42033,28 +42031,31 @@ RecountPerCharDB = {
 						},
 					},
 					["HealingTaken"] = 7611,
-					["DamagedWho"] = {
-						["Darkweb Recluse"] = {
+					["ElementHitsDone"] = {
+						["Melee"] = {
 							["Details"] = {
-								["Melee"] = {
+								["Dodge"] = {
 									["count"] = 0,
 								},
-								["Judgement"] = {
+								["Hit"] = {
+									["count"] = 3,
+								},
+								["Crit"] = {
 									["count"] = 0,
+								},
+								["Parry"] = {
+									["count"] = 1,
 								},
 							},
-							["amount"] = 0,
+							["amount"] = 4,
 						},
-						["Drakkari Guardian"] = {
+						["Holy"] = {
 							["Details"] = {
-								["Melee"] = {
-									["count"] = 740,
-								},
-								["Judgement"] = {
-									["count"] = 1353,
+								["Hit"] = {
+									["count"] = 1,
 								},
 							},
-							["amount"] = 2093,
+							["amount"] = 1,
 						},
 					},
 					["TimeDamage"] = 5.859999999999999,
@@ -42083,8 +42084,7 @@ RecountPerCharDB = {
 						},
 					},
 					["RunicPowerGain"] = 0,
-					["ElementTakenBlock"] = {
-					},
+					["Damage"] = 2093,
 					["DispelledWho"] = {
 						["Chalysg"] = {
 							["Details"] = {
@@ -42141,14 +42141,15 @@ RecountPerCharDB = {
 					},
 					["DeathCount"] = 0,
 					["HOT_Time"] = 0,
-					["HOTs"] = {
-					},
+					["DOT_Time"] = 0,
 					["ManaGain"] = 1916,
 					["ElementTaken"] = {
 						["Physical"] = 14641,
 					},
-					["DOT_Time"] = 0,
-					["Damage"] = 0,
+					["HOTs"] = {
+					},
+					["ElementTakenBlock"] = {
+					},
 					["ElementDoneAbsorb"] = {
 					},
 					["TimeHeal"] = 25.28,
@@ -42177,7 +42178,7 @@ RecountPerCharDB = {
 							["amount"] = 1916,
 						},
 					},
-					["ElementHitsDone"] = {
+					["DamagedWho"] = {
 					},
 					["RageGained"] = {
 					},
@@ -42193,8 +42194,51 @@ RecountPerCharDB = {
 					},
 					["EnergyGainedFrom"] = {
 					},
-					["Dispelled"] = 0,
-					["RunicPowerGained"] = {
+					["OverHeals"] = {
+						["Flash of Light"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 7516,
+									["min"] = 2545,
+									["count"] = 3,
+									["amount"] = 17008,
+								},
+								["Hit"] = {
+									["max"] = 4990,
+									["min"] = 913,
+									["count"] = 3,
+									["amount"] = 10866,
+								},
+							},
+							["count"] = 6,
+							["amount"] = 27874,
+						},
+						["Beacon of Light"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 11968,
+									["min"] = 4730,
+									["count"] = 8,
+									["amount"] = 53688,
+								},
+							},
+							["count"] = 8,
+							["amount"] = 53688,
+						},
+						["Holy Shock"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 4604,
+									["min"] = 4604,
+									["count"] = 1,
+									["amount"] = 4604,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 4604,
+						},
+					},
+					["CCBroken"] = {
 					},
 					["ElementDoneBlock"] = {
 					},
@@ -42249,50 +42293,7 @@ RecountPerCharDB = {
 							["amount"] = 14.31,
 						},
 					},
-					["OverHeals"] = {
-						["Flash of Light"] = {
-							["Details"] = {
-								["Crit"] = {
-									["max"] = 7516,
-									["min"] = 2545,
-									["count"] = 3,
-									["amount"] = 17008,
-								},
-								["Hit"] = {
-									["max"] = 4990,
-									["min"] = 913,
-									["count"] = 3,
-									["amount"] = 10866,
-								},
-							},
-							["count"] = 6,
-							["amount"] = 27874,
-						},
-						["Beacon of Light"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 11968,
-									["min"] = 4730,
-									["count"] = 8,
-									["amount"] = 53688,
-								},
-							},
-							["count"] = 8,
-							["amount"] = 53688,
-						},
-						["Holy Shock"] = {
-							["Details"] = {
-								["Crit"] = {
-									["max"] = 4604,
-									["min"] = 4604,
-									["count"] = 1,
-									["amount"] = 4604,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 4604,
-						},
-					},
+					["Dispelled"] = 0,
 					["WhoHealed"] = {
 						["Ninimagic"] = {
 							["Details"] = {
@@ -42306,23 +42307,6 @@ RecountPerCharDB = {
 							["amount"] = 12930,
 						},
 					},
-					["EnergyGain"] = 0,
-					["CCBreak"] = 0,
-					["PartialAbsorb"] = {
-						["Whirlwind"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 2,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 2,
-							["amount"] = 0,
-						},
-					},
-					["ActiveTime"] = 25.28,
 					["PartialResist"] = {
 						["Whirlwind"] = {
 							["Details"] = {
@@ -42337,6 +42321,10 @@ RecountPerCharDB = {
 							["amount"] = 0,
 						},
 					},
+					["CCBreak"] = 0,
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["EnergyGain"] = 0,
 					["ManaGained"] = {
 						["Mana Restore"] = {
 							["Details"] = {
@@ -42357,7 +42345,7 @@ RecountPerCharDB = {
 					},
 					["ElementTakenAbsorb"] = {
 					},
-					["Interrupts"] = 0,
+					["ActiveTime"] = 25.28,
 					["Overhealing"] = 86166,
 					["ElementTakenResist"] = {
 					},
@@ -42478,7 +42466,20 @@ RecountPerCharDB = {
 							["amount"] = 17845,
 						},
 					},
-					["FDamage"] = 0,
+					["PartialAbsorb"] = {
+						["Whirlwind"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 0,
+						},
+					},
 					["EnergyGained"] = {
 					},
 					["HealedWho"] = {
@@ -42533,21 +42534,20 @@ RecountPerCharDB = {
 						},
 					},
 					["Healing"] = 107290,
-					["RunicPowerGainedFrom"] = {
+					["RunicPowerGained"] = {
 					},
-					["CCBroken"] = {
+					["RunicPowerGainedFrom"] = {
 					},
 					["Attacks"] = {
 					},
 					["HealingTaken"] = 12930,
-					["DamagedWho"] = {
+					["ElementHitsDone"] = {
 					},
 					["TimeDamage"] = 0,
 					["TimeDamaging"] = {
 					},
 					["RunicPowerGain"] = 0,
-					["ElementTakenBlock"] = {
-					},
+					["Damage"] = 0,
 					["DispelledWho"] = {
 					},
 				},
@@ -42778,7 +42778,7 @@ RecountPerCharDB = {
 				1824175.167, -- [49]
 				1824176.356, -- [50]
 			},
-			["LastAbility"] = 27999.068,
+			["LastAbility"] = 1053.213,
 		},
 		["Unknown <Subzeroh>"] = {
 			["GUID"] = "0xF14021D149000003",
@@ -42798,7 +42798,7 @@ RecountPerCharDB = {
 			["type"] = "Pet",
 			["FightsSaved"] = 1,
 			["Owner"] = "Subzeroh",
-			["LastAbility"] = 27999.068,
+			["LastAbility"] = 1053.213,
 			["NextEventNum"] = 2,
 			["LastEventHealthNum"] = {
 				100, -- [1]
@@ -42825,13 +42825,14 @@ RecountPerCharDB = {
 					},
 					["DeathCount"] = 0,
 					["HOT_Time"] = 0,
-					["HOTs"] = {
-					},
+					["DOT_Time"] = 0,
 					["ManaGain"] = 0,
 					["ElementTaken"] = {
 					},
-					["DOT_Time"] = 0,
-					["Damage"] = 0,
+					["HOTs"] = {
+					},
+					["ElementTakenBlock"] = {
+					},
 					["ElementDoneAbsorb"] = {
 					},
 					["TimeHeal"] = 0,
@@ -42849,7 +42850,7 @@ RecountPerCharDB = {
 					},
 					["ManaGainedFrom"] = {
 					},
-					["ElementHitsDone"] = {
+					["DamagedWho"] = {
 					},
 					["RageGained"] = {
 					},
@@ -42857,29 +42858,28 @@ RecountPerCharDB = {
 					},
 					["EnergyGainedFrom"] = {
 					},
-					["Dispelled"] = 0,
-					["RunicPowerGained"] = {
+					["OverHeals"] = {
+					},
+					["CCBroken"] = {
 					},
 					["ElementDoneBlock"] = {
 					},
 					["TimeHealing"] = {
 					},
-					["OverHeals"] = {
-					},
+					["Dispelled"] = 0,
 					["WhoHealed"] = {
 					},
-					["EnergyGain"] = 0,
-					["CCBreak"] = 0,
-					["PartialAbsorb"] = {
-					},
-					["ActiveTime"] = 0,
 					["PartialResist"] = {
 					},
+					["CCBreak"] = 0,
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["EnergyGain"] = 0,
 					["ManaGained"] = {
 					},
 					["ElementTakenAbsorb"] = {
 					},
-					["Interrupts"] = 0,
+					["ActiveTime"] = 0,
 					["Overhealing"] = 0,
 					["ElementTakenResist"] = {
 					},
@@ -42891,27 +42891,27 @@ RecountPerCharDB = {
 					},
 					["Heals"] = {
 					},
-					["FDamage"] = 0,
+					["PartialAbsorb"] = {
+					},
 					["EnergyGained"] = {
 					},
 					["HealedWho"] = {
 					},
 					["Healing"] = 0,
-					["RunicPowerGainedFrom"] = {
+					["RunicPowerGained"] = {
 					},
-					["CCBroken"] = {
+					["RunicPowerGainedFrom"] = {
 					},
 					["Attacks"] = {
 					},
 					["HealingTaken"] = 0,
-					["DamagedWho"] = {
+					["ElementHitsDone"] = {
 					},
 					["TimeDamage"] = 0,
 					["TimeDamaging"] = {
 					},
 					["RunicPowerGain"] = 0,
-					["ElementTakenBlock"] = {
-					},
+					["Damage"] = 0,
 					["DispelledWho"] = {
 					},
 				},
@@ -43172,13 +43172,13 @@ RecountPerCharDB = {
 							},
 							["amount"] = 20.45,
 						},
-						["Risen Drakkari Death Knight"] = {
+						["Darkweb Recluse"] = {
 							["Details"] = {
 								["Firebolt"] = {
-									["count"] = 16.2,
+									["count"] = 21.51,
 								},
 							},
-							["amount"] = 16.2,
+							["amount"] = 21.51,
 						},
 						["Risen Drakkari Bat Rider"] = {
 							["Details"] = {
@@ -43204,13 +43204,13 @@ RecountPerCharDB = {
 							},
 							["amount"] = 9.1,
 						},
-						["Darkweb Recluse"] = {
+						["Risen Drakkari Death Knight"] = {
 							["Details"] = {
 								["Firebolt"] = {
-									["count"] = 21.51,
+									["count"] = 16.2,
 								},
 							},
-							["amount"] = 21.51,
+							["amount"] = 16.2,
 						},
 					},
 					["DamageTaken"] = 24400,
@@ -43379,39 +43379,6 @@ RecountPerCharDB = {
 						["Nature"] = 2771,
 					},
 					["Damage"] = 80016,
-					["ElementHitsDone"] = {
-						["Fire"] = {
-							["Details"] = {
-								["Crit"] = {
-									["count"] = 18,
-								},
-								["Hit"] = {
-									["count"] = 87,
-								},
-							},
-							["amount"] = 105,
-						},
-					},
-					["Attacks"] = {
-						["Firebolt"] = {
-							["Details"] = {
-								["Crit"] = {
-									["max"] = 1517,
-									["min"] = 1167,
-									["count"] = 18,
-									["amount"] = 23702,
-								},
-								["Hit"] = {
-									["max"] = 838,
-									["min"] = 463,
-									["count"] = 87,
-									["amount"] = 56314,
-								},
-							},
-							["count"] = 105,
-							["amount"] = 80016,
-						},
-					},
 					["DamagedWho"] = {
 						["Trollgore"] = {
 							["Details"] = {
@@ -43469,13 +43436,13 @@ RecountPerCharDB = {
 							},
 							["amount"] = 5846,
 						},
-						["Risen Drakkari Death Knight"] = {
+						["Darkweb Recluse"] = {
 							["Details"] = {
 								["Firebolt"] = {
-									["count"] = 5209,
+									["count"] = 5865,
 								},
 							},
-							["amount"] = 5209,
+							["amount"] = 5865,
 						},
 						["Risen Drakkari Bat Rider"] = {
 							["Details"] = {
@@ -43501,13 +43468,29 @@ RecountPerCharDB = {
 							},
 							["amount"] = 2593,
 						},
-						["Darkweb Recluse"] = {
+						["Risen Drakkari Death Knight"] = {
 							["Details"] = {
 								["Firebolt"] = {
-									["count"] = 5865,
+									["count"] = 5209,
 								},
 							},
-							["amount"] = 5865,
+							["amount"] = 5209,
+						},
+					},
+					["ElementDone"] = {
+						["Fire"] = 80016,
+					},
+					["ElementHitsDone"] = {
+						["Fire"] = {
+							["Details"] = {
+								["Crit"] = {
+									["count"] = 18,
+								},
+								["Hit"] = {
+									["count"] = 87,
+								},
+							},
+							["amount"] = 105,
 						},
 					},
 					["WhoDamaged"] = {
@@ -43552,8 +43535,25 @@ RecountPerCharDB = {
 							["amount"] = 803,
 						},
 					},
-					["ElementDone"] = {
-						["Fire"] = 80016,
+					["Attacks"] = {
+						["Firebolt"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 1517,
+									["min"] = 1167,
+									["count"] = 18,
+									["amount"] = 23702,
+								},
+								["Hit"] = {
+									["max"] = 838,
+									["min"] = 463,
+									["count"] = 87,
+									["amount"] = 56314,
+								},
+							},
+							["count"] = 105,
+							["amount"] = 80016,
+						},
 					},
 					["HealingTaken"] = 20378,
 					["ManaGainedFrom"] = {
@@ -43624,13 +43624,13 @@ RecountPerCharDB = {
 							},
 							["amount"] = 20.45,
 						},
-						["Risen Drakkari Death Knight"] = {
+						["Darkweb Recluse"] = {
 							["Details"] = {
 								["Firebolt"] = {
-									["count"] = 16.2,
+									["count"] = 21.51,
 								},
 							},
-							["amount"] = 16.2,
+							["amount"] = 21.51,
 						},
 						["Risen Drakkari Bat Rider"] = {
 							["Details"] = {
@@ -43656,13 +43656,13 @@ RecountPerCharDB = {
 							},
 							["amount"] = 9.1,
 						},
-						["Darkweb Recluse"] = {
+						["Risen Drakkari Death Knight"] = {
 							["Details"] = {
 								["Firebolt"] = {
-									["count"] = 21.51,
+									["count"] = 16.2,
 								},
 							},
-							["amount"] = 21.51,
+							["amount"] = 16.2,
 						},
 					},
 					["ManaGain"] = 448,
@@ -43745,15 +43745,16 @@ RecountPerCharDB = {
 					},
 					["DeathCount"] = 0,
 					["HOT_Time"] = 0,
-					["HOTs"] = {
-					},
+					["DOT_Time"] = 0,
 					["ManaGain"] = 0,
 					["ElementTaken"] = {
 						["Nature"] = 0,
 						["Shadow"] = 8105,
 					},
-					["DOT_Time"] = 0,
-					["Damage"] = 7864,
+					["HOTs"] = {
+					},
+					["ElementTakenBlock"] = {
+					},
 					["ElementDoneAbsorb"] = {
 					},
 					["TimeHeal"] = 0,
@@ -43772,17 +43773,30 @@ RecountPerCharDB = {
 					},
 					["ManaGainedFrom"] = {
 					},
-					["ElementHitsDone"] = {
-						["Fire"] = {
+					["DamagedWho"] = {
+						["Risen Drakkari Bat Rider"] = {
 							["Details"] = {
-								["Crit"] = {
-									["count"] = 2,
-								},
-								["Hit"] = {
-									["count"] = 8,
+								["Firebolt"] = {
+									["count"] = 1236,
 								},
 							},
-							["amount"] = 10,
+							["amount"] = 1236,
+						},
+						["Risen Drakkari Soulmage"] = {
+							["Details"] = {
+								["Firebolt"] = {
+									["count"] = 6628,
+								},
+							},
+							["amount"] = 6628,
+						},
+						["Darkweb Recluse"] = {
+							["Details"] = {
+								["Firebolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
 						},
 					},
 					["RageGained"] = {
@@ -43807,15 +43821,15 @@ RecountPerCharDB = {
 					},
 					["EnergyGainedFrom"] = {
 					},
-					["Dispelled"] = 0,
-					["RunicPowerGained"] = {
+					["OverHeals"] = {
+					},
+					["CCBroken"] = {
 					},
 					["ElementDoneBlock"] = {
 					},
 					["TimeHealing"] = {
 					},
-					["OverHeals"] = {
-					},
+					["Dispelled"] = 0,
 					["WhoHealed"] = {
 						["Subzeroh"] = {
 							["Details"] = {
@@ -43826,47 +43840,6 @@ RecountPerCharDB = {
 							["amount"] = 6775,
 						},
 					},
-					["EnergyGain"] = 0,
-					["CCBreak"] = 0,
-					["PartialAbsorb"] = {
-						["Poison Spit (DoT)"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Poison Spit"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Blood Siphon"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 2,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 2,
-							["amount"] = 0,
-						},
-					},
-					["ActiveTime"] = 23.91,
 					["PartialResist"] = {
 						["Poison Spit (DoT)"] = {
 							["Details"] = {
@@ -43905,11 +43878,15 @@ RecountPerCharDB = {
 							["amount"] = 0,
 						},
 					},
+					["CCBreak"] = 0,
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["EnergyGain"] = 0,
 					["ManaGained"] = {
 					},
 					["ElementTakenAbsorb"] = {
 					},
-					["Interrupts"] = 0,
+					["ActiveTime"] = 23.91,
 					["Overhealing"] = 0,
 					["ElementTakenResist"] = {
 					},
@@ -43945,15 +43922,52 @@ RecountPerCharDB = {
 					},
 					["Heals"] = {
 					},
-					["FDamage"] = 0,
+					["PartialAbsorb"] = {
+						["Poison Spit (DoT)"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Poison Spit"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Blood Siphon"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 0,
+						},
+					},
 					["EnergyGained"] = {
 					},
 					["HealedWho"] = {
 					},
 					["Healing"] = 0,
-					["RunicPowerGainedFrom"] = {
+					["RunicPowerGained"] = {
 					},
-					["CCBroken"] = {
+					["RunicPowerGainedFrom"] = {
 					},
 					["Attacks"] = {
 						["Firebolt"] = {
@@ -43976,30 +43990,17 @@ RecountPerCharDB = {
 						},
 					},
 					["HealingTaken"] = 6775,
-					["DamagedWho"] = {
-						["Risen Drakkari Bat Rider"] = {
+					["ElementHitsDone"] = {
+						["Fire"] = {
 							["Details"] = {
-								["Firebolt"] = {
-									["count"] = 1236,
+								["Crit"] = {
+									["count"] = 2,
+								},
+								["Hit"] = {
+									["count"] = 8,
 								},
 							},
-							["amount"] = 1236,
-						},
-						["Risen Drakkari Soulmage"] = {
-							["Details"] = {
-								["Firebolt"] = {
-									["count"] = 6628,
-								},
-							},
-							["amount"] = 6628,
-						},
-						["Darkweb Recluse"] = {
-							["Details"] = {
-								["Firebolt"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
+							["amount"] = 10,
 						},
 					},
 					["TimeDamage"] = 23.91,
@@ -44030,8 +44031,7 @@ RecountPerCharDB = {
 						},
 					},
 					["RunicPowerGain"] = 0,
-					["ElementTakenBlock"] = {
-					},
+					["Damage"] = 7864,
 					["DispelledWho"] = {
 					},
 				},
@@ -44049,13 +44049,14 @@ RecountPerCharDB = {
 					},
 					["DeathCount"] = 0,
 					["HOT_Time"] = 0,
-					["HOTs"] = {
-					},
+					["DOT_Time"] = 0,
 					["ManaGain"] = 0,
 					["ElementTaken"] = {
 					},
-					["DOT_Time"] = 0,
-					["Damage"] = 0,
+					["HOTs"] = {
+					},
+					["ElementTakenBlock"] = {
+					},
 					["ElementDoneAbsorb"] = {
 					},
 					["TimeHeal"] = 0,
@@ -44074,13 +44075,18 @@ RecountPerCharDB = {
 					},
 					["ManaGainedFrom"] = {
 					},
-					["ElementHitsDone"] = {
-						["Fire"] = {
+					["DamagedWho"] = {
+						["Ghoul Tormentor"] = {
 							["Details"] = {
-								["Crit"] = {
+								["Firebolt"] = {
 									["count"] = 0,
 								},
-								["Hit"] = {
+							},
+							["amount"] = 0,
+						},
+						["Trollgore"] = {
+							["Details"] = {
+								["Firebolt"] = {
 									["count"] = 0,
 								},
 							},
@@ -44093,29 +44099,28 @@ RecountPerCharDB = {
 					},
 					["EnergyGainedFrom"] = {
 					},
-					["Dispelled"] = 0,
-					["RunicPowerGained"] = {
+					["OverHeals"] = {
+					},
+					["CCBroken"] = {
 					},
 					["ElementDoneBlock"] = {
 					},
 					["TimeHealing"] = {
 					},
-					["OverHeals"] = {
-					},
+					["Dispelled"] = 0,
 					["WhoHealed"] = {
 					},
-					["EnergyGain"] = 0,
-					["CCBreak"] = 0,
-					["PartialAbsorb"] = {
-					},
-					["ActiveTime"] = 0,
 					["PartialResist"] = {
 					},
+					["CCBreak"] = 0,
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["EnergyGain"] = 0,
 					["ManaGained"] = {
 					},
 					["ElementTakenAbsorb"] = {
 					},
-					["Interrupts"] = 0,
+					["ActiveTime"] = 0,
 					["Overhealing"] = 0,
 					["ElementTakenResist"] = {
 					},
@@ -44143,15 +44148,16 @@ RecountPerCharDB = {
 					},
 					["Heals"] = {
 					},
-					["FDamage"] = 0,
+					["PartialAbsorb"] = {
+					},
 					["EnergyGained"] = {
 					},
 					["HealedWho"] = {
 					},
 					["Healing"] = 0,
-					["RunicPowerGainedFrom"] = {
+					["RunicPowerGained"] = {
 					},
-					["CCBroken"] = {
+					["RunicPowerGainedFrom"] = {
 					},
 					["Attacks"] = {
 						["Firebolt"] = {
@@ -44174,18 +44180,13 @@ RecountPerCharDB = {
 						},
 					},
 					["HealingTaken"] = 0,
-					["DamagedWho"] = {
-						["Ghoul Tormentor"] = {
+					["ElementHitsDone"] = {
+						["Fire"] = {
 							["Details"] = {
-								["Firebolt"] = {
+								["Crit"] = {
 									["count"] = 0,
 								},
-							},
-							["amount"] = 0,
-						},
-						["Trollgore"] = {
-							["Details"] = {
-								["Firebolt"] = {
+								["Hit"] = {
 									["count"] = 0,
 								},
 							},
@@ -44212,8 +44213,7 @@ RecountPerCharDB = {
 						},
 					},
 					["RunicPowerGain"] = 0,
-					["ElementTakenBlock"] = {
-					},
+					["Damage"] = 0,
 					["DispelledWho"] = {
 					},
 				},
@@ -44239,14 +44239,15 @@ RecountPerCharDB = {
 					},
 					["DeathCount"] = 0,
 					["HOT_Time"] = 0,
-					["HOTs"] = {
-					},
+					["DOT_Time"] = 0,
 					["ManaGain"] = 384,
 					["ElementTaken"] = {
 						["Shadow"] = 803,
 					},
-					["DOT_Time"] = 0,
-					["Damage"] = 21575,
+					["HOTs"] = {
+					},
+					["ElementTakenBlock"] = {
+					},
 					["ElementDoneAbsorb"] = {
 					},
 					["TimeHeal"] = 0,
@@ -44273,17 +44274,38 @@ RecountPerCharDB = {
 							["amount"] = 384,
 						},
 					},
-					["ElementHitsDone"] = {
-						["Fire"] = {
+					["DamagedWho"] = {
+						["Wretched Belcher"] = {
 							["Details"] = {
-								["Crit"] = {
-									["count"] = 6,
-								},
-								["Hit"] = {
-									["count"] = 22,
+								["Firebolt"] = {
+									["count"] = 0,
 								},
 							},
-							["amount"] = 28,
+							["amount"] = 0,
+						},
+						["Drakkari Gutripper"] = {
+							["Details"] = {
+								["Firebolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Risen Drakkari Death Knight"] = {
+							["Details"] = {
+								["Firebolt"] = {
+									["count"] = 5209,
+								},
+							},
+							["amount"] = 5209,
+						},
+						["The Prophet Tharon'ja"] = {
+							["Details"] = {
+								["Firebolt"] = {
+									["count"] = 16366,
+								},
+							},
+							["amount"] = 16366,
 						},
 					},
 					["RageGained"] = {
@@ -44300,15 +44322,15 @@ RecountPerCharDB = {
 					},
 					["EnergyGainedFrom"] = {
 					},
-					["Dispelled"] = 0,
-					["RunicPowerGained"] = {
+					["OverHeals"] = {
+					},
+					["CCBroken"] = {
 					},
 					["ElementDoneBlock"] = {
 					},
 					["TimeHealing"] = {
 					},
-					["OverHeals"] = {
-					},
+					["Dispelled"] = 0,
 					["WhoHealed"] = {
 						["Subzeroh"] = {
 							["Details"] = {
@@ -44319,23 +44341,6 @@ RecountPerCharDB = {
 							["amount"] = 803,
 						},
 					},
-					["EnergyGain"] = 0,
-					["CCBreak"] = 0,
-					["PartialAbsorb"] = {
-						["Shadow Volley"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 2,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 2,
-							["amount"] = 0,
-						},
-					},
-					["ActiveTime"] = 61.21,
 					["PartialResist"] = {
 						["Shadow Volley"] = {
 							["Details"] = {
@@ -44350,6 +44355,10 @@ RecountPerCharDB = {
 							["amount"] = 0,
 						},
 					},
+					["CCBreak"] = 0,
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["EnergyGain"] = 0,
 					["ManaGained"] = {
 						["Judgement of Wisdom"] = {
 							["Details"] = {
@@ -44362,7 +44371,7 @@ RecountPerCharDB = {
 					},
 					["ElementTakenAbsorb"] = {
 					},
-					["Interrupts"] = 0,
+					["ActiveTime"] = 61.21,
 					["Overhealing"] = 0,
 					["ElementTakenResist"] = {
 					},
@@ -44406,15 +44415,28 @@ RecountPerCharDB = {
 					},
 					["Heals"] = {
 					},
-					["FDamage"] = 0,
+					["PartialAbsorb"] = {
+						["Shadow Volley"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 0,
+						},
+					},
 					["EnergyGained"] = {
 					},
 					["HealedWho"] = {
 					},
 					["Healing"] = 0,
-					["RunicPowerGainedFrom"] = {
+					["RunicPowerGained"] = {
 					},
-					["CCBroken"] = {
+					["RunicPowerGainedFrom"] = {
 					},
 					["Attacks"] = {
 						["Firebolt"] = {
@@ -44437,38 +44459,17 @@ RecountPerCharDB = {
 						},
 					},
 					["HealingTaken"] = 803,
-					["DamagedWho"] = {
-						["Wretched Belcher"] = {
+					["ElementHitsDone"] = {
+						["Fire"] = {
 							["Details"] = {
-								["Firebolt"] = {
-									["count"] = 0,
+								["Crit"] = {
+									["count"] = 6,
+								},
+								["Hit"] = {
+									["count"] = 22,
 								},
 							},
-							["amount"] = 0,
-						},
-						["Drakkari Gutripper"] = {
-							["Details"] = {
-								["Firebolt"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Risen Drakkari Death Knight"] = {
-							["Details"] = {
-								["Firebolt"] = {
-									["count"] = 5209,
-								},
-							},
-							["amount"] = 5209,
-						},
-						["The Prophet Tharon'ja"] = {
-							["Details"] = {
-								["Firebolt"] = {
-									["count"] = 16366,
-								},
-							},
-							["amount"] = 16366,
+							["amount"] = 28,
 						},
 					},
 					["TimeDamage"] = 61.21,
@@ -44507,8 +44508,7 @@ RecountPerCharDB = {
 						},
 					},
 					["RunicPowerGain"] = 0,
-					["ElementTakenBlock"] = {
-					},
+					["Damage"] = 21575,
 					["DispelledWho"] = {
 					},
 				},
@@ -44525,13 +44525,14 @@ RecountPerCharDB = {
 					},
 					["DeathCount"] = 0,
 					["HOT_Time"] = 0,
-					["HOTs"] = {
-					},
+					["DOT_Time"] = 0,
 					["ManaGain"] = 64,
 					["ElementTaken"] = {
 					},
-					["DOT_Time"] = 0,
-					["Damage"] = 654,
+					["HOTs"] = {
+					},
+					["ElementTakenBlock"] = {
+					},
 					["ElementDoneAbsorb"] = {
 					},
 					["TimeHeal"] = 0,
@@ -44558,14 +44559,14 @@ RecountPerCharDB = {
 							["amount"] = 64,
 						},
 					},
-					["ElementHitsDone"] = {
-						["Fire"] = {
+					["DamagedWho"] = {
+						["Risen Drakkari Warrior"] = {
 							["Details"] = {
-								["Hit"] = {
-									["count"] = 1,
+								["Firebolt"] = {
+									["count"] = 654,
 								},
 							},
-							["amount"] = 1,
+							["amount"] = 654,
 						},
 					},
 					["RageGained"] = {
@@ -44574,15 +44575,15 @@ RecountPerCharDB = {
 					},
 					["EnergyGainedFrom"] = {
 					},
-					["Dispelled"] = 0,
-					["RunicPowerGained"] = {
+					["OverHeals"] = {
+					},
+					["CCBroken"] = {
 					},
 					["ElementDoneBlock"] = {
 					},
 					["TimeHealing"] = {
 					},
-					["OverHeals"] = {
-					},
+					["Dispelled"] = 0,
 					["WhoHealed"] = {
 						["Subzeroh"] = {
 							["Details"] = {
@@ -44593,13 +44594,12 @@ RecountPerCharDB = {
 							["amount"] = 97,
 						},
 					},
-					["EnergyGain"] = 0,
-					["CCBreak"] = 0,
-					["PartialAbsorb"] = {
-					},
-					["ActiveTime"] = 3.5,
 					["PartialResist"] = {
 					},
+					["CCBreak"] = 0,
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["EnergyGain"] = 0,
 					["ManaGained"] = {
 						["Judgement of Wisdom"] = {
 							["Details"] = {
@@ -44612,7 +44612,7 @@ RecountPerCharDB = {
 					},
 					["ElementTakenAbsorb"] = {
 					},
-					["Interrupts"] = 0,
+					["ActiveTime"] = 3.5,
 					["Overhealing"] = 0,
 					["ElementTakenResist"] = {
 					},
@@ -44632,15 +44632,16 @@ RecountPerCharDB = {
 					},
 					["Heals"] = {
 					},
-					["FDamage"] = 0,
+					["PartialAbsorb"] = {
+					},
 					["EnergyGained"] = {
 					},
 					["HealedWho"] = {
 					},
 					["Healing"] = 0,
-					["RunicPowerGainedFrom"] = {
+					["RunicPowerGained"] = {
 					},
-					["CCBroken"] = {
+					["RunicPowerGainedFrom"] = {
 					},
 					["Attacks"] = {
 						["Firebolt"] = {
@@ -44657,14 +44658,14 @@ RecountPerCharDB = {
 						},
 					},
 					["HealingTaken"] = 97,
-					["DamagedWho"] = {
-						["Risen Drakkari Warrior"] = {
+					["ElementHitsDone"] = {
+						["Fire"] = {
 							["Details"] = {
-								["Firebolt"] = {
-									["count"] = 654,
+								["Hit"] = {
+									["count"] = 1,
 								},
 							},
-							["amount"] = 654,
+							["amount"] = 1,
 						},
 					},
 					["TimeDamage"] = 3.5,
@@ -44679,8 +44680,7 @@ RecountPerCharDB = {
 						},
 					},
 					["RunicPowerGain"] = 0,
-					["ElementTakenBlock"] = {
-					},
+					["Damage"] = 654,
 					["DispelledWho"] = {
 					},
 				},
@@ -44706,14 +44706,15 @@ RecountPerCharDB = {
 					},
 					["DeathCount"] = 0,
 					["HOT_Time"] = 0,
-					["HOTs"] = {
-					},
+					["DOT_Time"] = 0,
 					["ManaGain"] = 384,
 					["ElementTaken"] = {
 						["Shadow"] = 803,
 					},
-					["DOT_Time"] = 0,
-					["Damage"] = 21575,
+					["HOTs"] = {
+					},
+					["ElementTakenBlock"] = {
+					},
 					["ElementDoneAbsorb"] = {
 					},
 					["TimeHeal"] = 0,
@@ -44740,17 +44741,38 @@ RecountPerCharDB = {
 							["amount"] = 384,
 						},
 					},
-					["ElementHitsDone"] = {
-						["Fire"] = {
+					["DamagedWho"] = {
+						["Wretched Belcher"] = {
 							["Details"] = {
-								["Crit"] = {
-									["count"] = 6,
-								},
-								["Hit"] = {
-									["count"] = 22,
+								["Firebolt"] = {
+									["count"] = 0,
 								},
 							},
-							["amount"] = 28,
+							["amount"] = 0,
+						},
+						["Drakkari Gutripper"] = {
+							["Details"] = {
+								["Firebolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Risen Drakkari Death Knight"] = {
+							["Details"] = {
+								["Firebolt"] = {
+									["count"] = 5209,
+								},
+							},
+							["amount"] = 5209,
+						},
+						["The Prophet Tharon'ja"] = {
+							["Details"] = {
+								["Firebolt"] = {
+									["count"] = 16366,
+								},
+							},
+							["amount"] = 16366,
 						},
 					},
 					["RageGained"] = {
@@ -44767,15 +44789,15 @@ RecountPerCharDB = {
 					},
 					["EnergyGainedFrom"] = {
 					},
-					["Dispelled"] = 0,
-					["RunicPowerGained"] = {
+					["OverHeals"] = {
+					},
+					["CCBroken"] = {
 					},
 					["ElementDoneBlock"] = {
 					},
 					["TimeHealing"] = {
 					},
-					["OverHeals"] = {
-					},
+					["Dispelled"] = 0,
 					["WhoHealed"] = {
 						["Subzeroh"] = {
 							["Details"] = {
@@ -44786,23 +44808,6 @@ RecountPerCharDB = {
 							["amount"] = 803,
 						},
 					},
-					["EnergyGain"] = 0,
-					["CCBreak"] = 0,
-					["PartialAbsorb"] = {
-						["Shadow Volley"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 2,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 2,
-							["amount"] = 0,
-						},
-					},
-					["ActiveTime"] = 61.21,
 					["PartialResist"] = {
 						["Shadow Volley"] = {
 							["Details"] = {
@@ -44817,6 +44822,10 @@ RecountPerCharDB = {
 							["amount"] = 0,
 						},
 					},
+					["CCBreak"] = 0,
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["EnergyGain"] = 0,
 					["ManaGained"] = {
 						["Judgement of Wisdom"] = {
 							["Details"] = {
@@ -44829,7 +44838,7 @@ RecountPerCharDB = {
 					},
 					["ElementTakenAbsorb"] = {
 					},
-					["Interrupts"] = 0,
+					["ActiveTime"] = 61.21,
 					["Overhealing"] = 0,
 					["ElementTakenResist"] = {
 					},
@@ -44873,15 +44882,28 @@ RecountPerCharDB = {
 					},
 					["Heals"] = {
 					},
-					["FDamage"] = 0,
+					["PartialAbsorb"] = {
+						["Shadow Volley"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 0,
+						},
+					},
 					["EnergyGained"] = {
 					},
 					["HealedWho"] = {
 					},
 					["Healing"] = 0,
-					["RunicPowerGainedFrom"] = {
+					["RunicPowerGained"] = {
 					},
-					["CCBroken"] = {
+					["RunicPowerGainedFrom"] = {
 					},
 					["Attacks"] = {
 						["Firebolt"] = {
@@ -44904,38 +44926,17 @@ RecountPerCharDB = {
 						},
 					},
 					["HealingTaken"] = 803,
-					["DamagedWho"] = {
-						["Wretched Belcher"] = {
+					["ElementHitsDone"] = {
+						["Fire"] = {
 							["Details"] = {
-								["Firebolt"] = {
-									["count"] = 0,
+								["Crit"] = {
+									["count"] = 6,
+								},
+								["Hit"] = {
+									["count"] = 22,
 								},
 							},
-							["amount"] = 0,
-						},
-						["Drakkari Gutripper"] = {
-							["Details"] = {
-								["Firebolt"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Risen Drakkari Death Knight"] = {
-							["Details"] = {
-								["Firebolt"] = {
-									["count"] = 5209,
-								},
-							},
-							["amount"] = 5209,
-						},
-						["The Prophet Tharon'ja"] = {
-							["Details"] = {
-								["Firebolt"] = {
-									["count"] = 16366,
-								},
-							},
-							["amount"] = 16366,
+							["amount"] = 28,
 						},
 					},
 					["TimeDamage"] = 61.21,
@@ -44974,8 +44975,7 @@ RecountPerCharDB = {
 						},
 					},
 					["RunicPowerGain"] = 0,
-					["ElementTakenBlock"] = {
-					},
+					["Damage"] = 21575,
 					["DispelledWho"] = {
 					},
 				},
@@ -44992,13 +44992,14 @@ RecountPerCharDB = {
 					},
 					["DeathCount"] = 0,
 					["HOT_Time"] = 0,
-					["HOTs"] = {
-					},
+					["DOT_Time"] = 0,
 					["ManaGain"] = 0,
 					["ElementTaken"] = {
 					},
-					["DOT_Time"] = 0,
-					["Damage"] = 4543,
+					["HOTs"] = {
+					},
+					["ElementTakenBlock"] = {
+					},
 					["ElementDoneAbsorb"] = {
 					},
 					["TimeHeal"] = 0,
@@ -45017,17 +45018,30 @@ RecountPerCharDB = {
 					},
 					["ManaGainedFrom"] = {
 					},
-					["ElementHitsDone"] = {
-						["Fire"] = {
+					["DamagedWho"] = {
+						["Risen Drakkari Bat Rider"] = {
 							["Details"] = {
-								["Crit"] = {
-									["count"] = 2,
-								},
-								["Hit"] = {
-									["count"] = 3,
+								["Firebolt"] = {
+									["count"] = 0,
 								},
 							},
-							["amount"] = 5,
+							["amount"] = 0,
+						},
+						["Ghoul Tormentor"] = {
+							["Details"] = {
+								["Firebolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Risen Drakkari Warrior"] = {
+							["Details"] = {
+								["Firebolt"] = {
+									["count"] = 4543,
+								},
+							},
+							["amount"] = 4543,
 						},
 					},
 					["RageGained"] = {
@@ -45036,15 +45050,15 @@ RecountPerCharDB = {
 					},
 					["EnergyGainedFrom"] = {
 					},
-					["Dispelled"] = 0,
-					["RunicPowerGained"] = {
+					["OverHeals"] = {
+					},
+					["CCBroken"] = {
 					},
 					["ElementDoneBlock"] = {
 					},
 					["TimeHealing"] = {
 					},
-					["OverHeals"] = {
-					},
+					["Dispelled"] = 0,
 					["WhoHealed"] = {
 						["Subzeroh"] = {
 							["Details"] = {
@@ -45055,18 +45069,17 @@ RecountPerCharDB = {
 							["amount"] = 0,
 						},
 					},
-					["EnergyGain"] = 0,
-					["CCBreak"] = 0,
-					["PartialAbsorb"] = {
-					},
-					["ActiveTime"] = 12.06,
 					["PartialResist"] = {
 					},
+					["CCBreak"] = 0,
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["EnergyGain"] = 0,
 					["ManaGained"] = {
 					},
 					["ElementTakenAbsorb"] = {
 					},
-					["Interrupts"] = 0,
+					["ActiveTime"] = 12.06,
 					["Overhealing"] = 0,
 					["ElementTakenResist"] = {
 					},
@@ -45102,15 +45115,16 @@ RecountPerCharDB = {
 					},
 					["Heals"] = {
 					},
-					["FDamage"] = 0,
+					["PartialAbsorb"] = {
+					},
 					["EnergyGained"] = {
 					},
 					["HealedWho"] = {
 					},
 					["Healing"] = 0,
-					["RunicPowerGainedFrom"] = {
+					["RunicPowerGained"] = {
 					},
-					["CCBroken"] = {
+					["RunicPowerGainedFrom"] = {
 					},
 					["Attacks"] = {
 						["Firebolt"] = {
@@ -45133,30 +45147,17 @@ RecountPerCharDB = {
 						},
 					},
 					["HealingTaken"] = 0,
-					["DamagedWho"] = {
-						["Risen Drakkari Bat Rider"] = {
+					["ElementHitsDone"] = {
+						["Fire"] = {
 							["Details"] = {
-								["Firebolt"] = {
-									["count"] = 0,
+								["Crit"] = {
+									["count"] = 2,
+								},
+								["Hit"] = {
+									["count"] = 3,
 								},
 							},
-							["amount"] = 0,
-						},
-						["Ghoul Tormentor"] = {
-							["Details"] = {
-								["Firebolt"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Risen Drakkari Warrior"] = {
-							["Details"] = {
-								["Firebolt"] = {
-									["count"] = 4543,
-								},
-							},
-							["amount"] = 4543,
+							["amount"] = 5,
 						},
 					},
 					["TimeDamage"] = 12.06,
@@ -45187,8 +45188,7 @@ RecountPerCharDB = {
 						},
 					},
 					["RunicPowerGain"] = 0,
-					["ElementTakenBlock"] = {
-					},
+					["Damage"] = 4543,
 					["DispelledWho"] = {
 					},
 				},
@@ -45205,13 +45205,14 @@ RecountPerCharDB = {
 					},
 					["DeathCount"] = 0,
 					["HOT_Time"] = 0,
-					["HOTs"] = {
-					},
+					["DOT_Time"] = 0,
 					["ManaGain"] = 0,
 					["ElementTaken"] = {
 					},
-					["DOT_Time"] = 0,
-					["Damage"] = 3889,
+					["HOTs"] = {
+					},
+					["ElementTakenBlock"] = {
+					},
 					["ElementDoneAbsorb"] = {
 					},
 					["TimeHeal"] = 0,
@@ -45230,17 +45231,22 @@ RecountPerCharDB = {
 					},
 					["ManaGainedFrom"] = {
 					},
-					["ElementHitsDone"] = {
-						["Fire"] = {
+					["DamagedWho"] = {
+						["Risen Drakkari Bat Rider"] = {
 							["Details"] = {
-								["Crit"] = {
-									["count"] = 1,
-								},
-								["Hit"] = {
-									["count"] = 4,
+								["Firebolt"] = {
+									["count"] = 1296,
 								},
 							},
-							["amount"] = 5,
+							["amount"] = 1296,
+						},
+						["Drakkari Shaman"] = {
+							["Details"] = {
+								["Firebolt"] = {
+									["count"] = 2593,
+								},
+							},
+							["amount"] = 2593,
 						},
 					},
 					["RageGained"] = {
@@ -45249,29 +45255,28 @@ RecountPerCharDB = {
 					},
 					["EnergyGainedFrom"] = {
 					},
-					["Dispelled"] = 0,
-					["RunicPowerGained"] = {
+					["OverHeals"] = {
+					},
+					["CCBroken"] = {
 					},
 					["ElementDoneBlock"] = {
 					},
 					["TimeHealing"] = {
 					},
-					["OverHeals"] = {
-					},
+					["Dispelled"] = 0,
 					["WhoHealed"] = {
 					},
-					["EnergyGain"] = 0,
-					["CCBreak"] = 0,
-					["PartialAbsorb"] = {
-					},
-					["ActiveTime"] = 14.61,
 					["PartialResist"] = {
 					},
+					["CCBreak"] = 0,
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["EnergyGain"] = 0,
 					["ManaGained"] = {
 					},
 					["ElementTakenAbsorb"] = {
 					},
-					["Interrupts"] = 0,
+					["ActiveTime"] = 14.61,
 					["Overhealing"] = 0,
 					["ElementTakenResist"] = {
 					},
@@ -45299,15 +45304,16 @@ RecountPerCharDB = {
 					},
 					["Heals"] = {
 					},
-					["FDamage"] = 0,
+					["PartialAbsorb"] = {
+					},
 					["EnergyGained"] = {
 					},
 					["HealedWho"] = {
 					},
 					["Healing"] = 0,
-					["RunicPowerGainedFrom"] = {
+					["RunicPowerGained"] = {
 					},
-					["CCBroken"] = {
+					["RunicPowerGainedFrom"] = {
 					},
 					["Attacks"] = {
 						["Firebolt"] = {
@@ -45330,22 +45336,17 @@ RecountPerCharDB = {
 						},
 					},
 					["HealingTaken"] = 0,
-					["DamagedWho"] = {
-						["Risen Drakkari Bat Rider"] = {
+					["ElementHitsDone"] = {
+						["Fire"] = {
 							["Details"] = {
-								["Firebolt"] = {
-									["count"] = 1296,
+								["Crit"] = {
+									["count"] = 1,
+								},
+								["Hit"] = {
+									["count"] = 4,
 								},
 							},
-							["amount"] = 1296,
-						},
-						["Drakkari Shaman"] = {
-							["Details"] = {
-								["Firebolt"] = {
-									["count"] = 2593,
-								},
-							},
-							["amount"] = 2593,
+							["amount"] = 5,
 						},
 					},
 					["TimeDamage"] = 14.61,
@@ -45368,8 +45369,7 @@ RecountPerCharDB = {
 						},
 					},
 					["RunicPowerGain"] = 0,
-					["ElementTakenBlock"] = {
-					},
+					["Damage"] = 3889,
 					["DispelledWho"] = {
 					},
 				},
@@ -45594,7 +45594,7 @@ RecountPerCharDB = {
 				1824183.864, -- [49]
 				1824184.464, -- [50]
 			},
-			["LastAbility"] = 27999.068,
+			["LastAbility"] = 1053.213,
 		},
 		["Rimgar"] = {
 			["GUID"] = "0x070000000040A064",
@@ -45982,29 +45982,12 @@ RecountPerCharDB = {
 					["Damage"] = 3455056,
 					["TimeHeal"] = 26.34,
 					["ElementDone"] = {
-						["Physical"] = 3012688,
 						["Shadow"] = 35602,
-						["Melee"] = 401384,
 						["Fire"] = 5382,
+						["Melee"] = 401384,
+						["Physical"] = 3012688,
 					},
 					["ElementHitsDone"] = {
-						["Physical"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 216,
-								},
-								["Tick"] = {
-									["count"] = 421,
-								},
-								["Crit"] = {
-									["count"] = 201,
-								},
-								["Miss"] = {
-									["count"] = 1,
-								},
-							},
-							["amount"] = 839,
-						},
 						["Shadow"] = {
 							["Details"] = {
 								["Hit"] = {
@@ -46012,6 +45995,14 @@ RecountPerCharDB = {
 								},
 							},
 							["amount"] = 57,
+						},
+						["Fire"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 45,
+								},
+							},
+							["amount"] = 45,
 						},
 						["Melee"] = {
 							["Details"] = {
@@ -46030,13 +46021,22 @@ RecountPerCharDB = {
 							},
 							["amount"] = 70,
 						},
-						["Fire"] = {
+						["Physical"] = {
 							["Details"] = {
 								["Hit"] = {
-									["count"] = 45,
+									["count"] = 216,
+								},
+								["Tick"] = {
+									["count"] = 421,
+								},
+								["Crit"] = {
+									["count"] = 201,
+								},
+								["Miss"] = {
+									["count"] = 1,
 								},
 							},
-							["amount"] = 45,
+							["amount"] = 839,
 						},
 					},
 					["WhoDamaged"] = {
@@ -47351,14 +47351,14 @@ RecountPerCharDB = {
 						},
 						["Drakkari Gutripper"] = {
 							["Details"] = {
-								["Deep Wounds (DoT)"] = {
-									["count"] = 5056,
+								["Rend (DoT)"] = {
+									["count"] = 3858,
 								},
 								["Thunder Clap"] = {
 									["count"] = 3853,
 								},
-								["Rend (DoT)"] = {
-									["count"] = 3858,
+								["Melee"] = {
+									["count"] = 4570,
 								},
 								["Cleave"] = {
 									["count"] = 20898,
@@ -47372,49 +47372,43 @@ RecountPerCharDB = {
 								["Chaos Bane"] = {
 									["count"] = 2137,
 								},
-								["Melee"] = {
-									["count"] = 4570,
+								["Deep Wounds (DoT)"] = {
+									["count"] = 5056,
 								},
 							},
 							["amount"] = 72134,
 						},
-						["Risen Drakkari Death Knight"] = {
+						["Darkweb Recluse"] = {
 							["Details"] = {
 								["Deep Wounds (DoT)"] = {
-									["count"] = 25013,
+									["count"] = 20481,
 								},
 								["Chaos Bane"] = {
-									["count"] = 2533,
+									["count"] = 1244,
 								},
 								["Execute"] = {
-									["count"] = 8210,
-								},
-								["Whirlwind"] = {
-									["count"] = 124474,
+									["count"] = 23266,
 								},
 								["Fire Shield"] = {
-									["count"] = 296,
+									["count"] = 1114,
 								},
 								["Mortal Strike"] = {
-									["count"] = 11224,
+									["count"] = 23194,
 								},
 								["Thunder Clap"] = {
-									["count"] = 3057,
-								},
-								["Melee"] = {
-									["count"] = 30720,
+									["count"] = 32341,
 								},
 								["Cleave"] = {
-									["count"] = 122067,
+									["count"] = 34103,
 								},
-								["Bloodthirst"] = {
-									["count"] = 34233,
+								["Sweeping Strikes"] = {
+									["count"] = 19311,
 								},
-								["Slam"] = {
-									["count"] = 24862,
+								["Melee"] = {
+									["count"] = 17193,
 								},
 							},
-							["amount"] = 386689,
+							["amount"] = 172247,
 						},
 						["Scourge Reanimator"] = {
 							["Details"] = {
@@ -47459,37 +47453,43 @@ RecountPerCharDB = {
 							},
 							["amount"] = 27564,
 						},
-						["Darkweb Recluse"] = {
+						["Risen Drakkari Death Knight"] = {
 							["Details"] = {
 								["Deep Wounds (DoT)"] = {
-									["count"] = 20481,
+									["count"] = 25013,
 								},
 								["Chaos Bane"] = {
-									["count"] = 1244,
+									["count"] = 2533,
 								},
 								["Execute"] = {
-									["count"] = 23266,
+									["count"] = 8210,
+								},
+								["Whirlwind"] = {
+									["count"] = 124474,
 								},
 								["Fire Shield"] = {
-									["count"] = 1114,
+									["count"] = 296,
 								},
 								["Mortal Strike"] = {
-									["count"] = 23194,
+									["count"] = 11224,
 								},
 								["Thunder Clap"] = {
-									["count"] = 32341,
-								},
-								["Cleave"] = {
-									["count"] = 34103,
-								},
-								["Sweeping Strikes"] = {
-									["count"] = 19311,
+									["count"] = 3057,
 								},
 								["Melee"] = {
-									["count"] = 17193,
+									["count"] = 30720,
+								},
+								["Cleave"] = {
+									["count"] = 122067,
+								},
+								["Bloodthirst"] = {
+									["count"] = 34233,
+								},
+								["Slam"] = {
+									["count"] = 24862,
 								},
 							},
-							["amount"] = 172247,
+							["amount"] = 386689,
 						},
 						["Drakkari Shaman"] = {
 							["Details"] = {
@@ -48085,6 +48085,87 @@ RecountPerCharDB = {
 							},
 							["amount"] = 26.34,
 						},
+						["Darkweb Recluse"] = {
+							["Details"] = {
+								["Deep Wounds (DoT)"] = {
+									["count"] = 9.359999999999999,
+								},
+								["Chaos Bane"] = {
+									["count"] = 0.39,
+								},
+								["Execute"] = {
+									["count"] = 2.8,
+								},
+								["Fire Shield"] = {
+									["count"] = 0.33,
+								},
+								["Mortal Strike"] = {
+									["count"] = 1.07,
+								},
+								["Thunder Clap"] = {
+									["count"] = 3.86,
+								},
+								["Cleave"] = {
+									["count"] = 0.86,
+								},
+								["Sweeping Strikes"] = {
+									["count"] = 0.6599999999999999,
+								},
+								["Melee"] = {
+									["count"] = 0.87,
+								},
+							},
+							["amount"] = 20.2,
+						},
+						["Drakkari Gutripper"] = {
+							["Details"] = {
+								["Rend (DoT)"] = {
+									["count"] = 0.25,
+								},
+								["Thunder Clap"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0.17,
+								},
+								["Cleave"] = {
+									["count"] = 0.44,
+								},
+								["Execute"] = {
+									["count"] = 0.91,
+								},
+								["Overpower"] = {
+									["count"] = 0.88,
+								},
+								["Chaos Bane"] = {
+									["count"] = 0.37,
+								},
+								["Deep Wounds (DoT)"] = {
+									["count"] = 5.01,
+								},
+							},
+							["amount"] = 8.029999999999999,
+						},
+						["Scourge Brute"] = {
+							["Details"] = {
+								["Sweeping Strikes"] = {
+									["count"] = 3.89,
+								},
+								["Thunder Clap"] = {
+									["count"] = 0.25,
+								},
+								["Deep Wounds (DoT)"] = {
+									["count"] = 0.62,
+								},
+								["Chaos Bane"] = {
+									["count"] = 0.2,
+								},
+								["Fire Shield"] = {
+									["count"] = 1.27,
+								},
+							},
+							["amount"] = 6.23,
+						},
 						["Risen Drakkari Death Knight"] = {
 							["Details"] = {
 								["Deep Wounds (DoT)"] = {
@@ -48122,87 +48203,6 @@ RecountPerCharDB = {
 								},
 							},
 							["amount"] = 30.11,
-						},
-						["Drakkari Gutripper"] = {
-							["Details"] = {
-								["Deep Wounds (DoT)"] = {
-									["count"] = 5.01,
-								},
-								["Thunder Clap"] = {
-									["count"] = 0,
-								},
-								["Rend (DoT)"] = {
-									["count"] = 0.25,
-								},
-								["Cleave"] = {
-									["count"] = 0.44,
-								},
-								["Execute"] = {
-									["count"] = 0.91,
-								},
-								["Overpower"] = {
-									["count"] = 0.88,
-								},
-								["Chaos Bane"] = {
-									["count"] = 0.37,
-								},
-								["Melee"] = {
-									["count"] = 0.17,
-								},
-							},
-							["amount"] = 8.029999999999999,
-						},
-						["Scourge Brute"] = {
-							["Details"] = {
-								["Sweeping Strikes"] = {
-									["count"] = 3.89,
-								},
-								["Thunder Clap"] = {
-									["count"] = 0.25,
-								},
-								["Deep Wounds (DoT)"] = {
-									["count"] = 0.62,
-								},
-								["Chaos Bane"] = {
-									["count"] = 0.2,
-								},
-								["Fire Shield"] = {
-									["count"] = 1.27,
-								},
-							},
-							["amount"] = 6.23,
-						},
-						["Darkweb Recluse"] = {
-							["Details"] = {
-								["Deep Wounds (DoT)"] = {
-									["count"] = 9.359999999999999,
-								},
-								["Chaos Bane"] = {
-									["count"] = 0.39,
-								},
-								["Execute"] = {
-									["count"] = 2.8,
-								},
-								["Fire Shield"] = {
-									["count"] = 0.33,
-								},
-								["Mortal Strike"] = {
-									["count"] = 1.07,
-								},
-								["Thunder Clap"] = {
-									["count"] = 3.86,
-								},
-								["Cleave"] = {
-									["count"] = 0.86,
-								},
-								["Sweeping Strikes"] = {
-									["count"] = 0.6599999999999999,
-								},
-								["Melee"] = {
-									["count"] = 0.87,
-								},
-							},
-							["amount"] = 20.2,
 						},
 						["Drakkari Shaman"] = {
 							["Details"] = {
@@ -48281,7 +48281,7 @@ RecountPerCharDB = {
 							["amount"] = 40,
 						},
 					},
-					["HealingTaken"] = 301420,
+					["RageGain"] = 495,
 					["Attacks"] = {
 						["Chaos Bane"] = {
 							["Details"] = {
@@ -48598,7 +48598,7 @@ RecountPerCharDB = {
 							["amount"] = 5348,
 						},
 					},
-					["RageGain"] = 495,
+					["HealingTaken"] = 301420,
 					["HealedWho"] = {
 						["Rimgar"] = {
 							["Details"] = {
@@ -49074,14 +49074,14 @@ RecountPerCharDB = {
 						},
 						["Drakkari Gutripper"] = {
 							["Details"] = {
-								["Deep Wounds (DoT)"] = {
-									["count"] = 5.01,
+								["Rend (DoT)"] = {
+									["count"] = 0.25,
 								},
 								["Thunder Clap"] = {
 									["count"] = 0,
 								},
-								["Rend (DoT)"] = {
-									["count"] = 0.25,
+								["Melee"] = {
+									["count"] = 0.17,
 								},
 								["Cleave"] = {
 									["count"] = 0.44,
@@ -49095,49 +49095,43 @@ RecountPerCharDB = {
 								["Chaos Bane"] = {
 									["count"] = 0.37,
 								},
-								["Melee"] = {
-									["count"] = 0.17,
+								["Deep Wounds (DoT)"] = {
+									["count"] = 5.01,
 								},
 							},
 							["amount"] = 8.029999999999999,
 						},
-						["Risen Drakkari Death Knight"] = {
+						["Darkweb Recluse"] = {
 							["Details"] = {
 								["Deep Wounds (DoT)"] = {
-									["count"] = 15.72,
+									["count"] = 9.359999999999999,
 								},
 								["Chaos Bane"] = {
-									["count"] = 0.35,
+									["count"] = 0.39,
 								},
 								["Execute"] = {
-									["count"] = 0.48,
-								},
-								["Whirlwind"] = {
-									["count"] = 2.14,
+									["count"] = 2.8,
 								},
 								["Fire Shield"] = {
-									["count"] = 1.06,
+									["count"] = 0.33,
 								},
 								["Mortal Strike"] = {
-									["count"] = 0.21,
+									["count"] = 1.07,
 								},
 								["Thunder Clap"] = {
-									["count"] = 0.43,
-								},
-								["Melee"] = {
-									["count"] = 4.52,
+									["count"] = 3.86,
 								},
 								["Cleave"] = {
-									["count"] = 2.56,
+									["count"] = 0.86,
 								},
-								["Bloodthirst"] = {
-									["count"] = 1.51,
+								["Sweeping Strikes"] = {
+									["count"] = 0.6599999999999999,
 								},
-								["Slam"] = {
-									["count"] = 1.13,
+								["Melee"] = {
+									["count"] = 0.87,
 								},
 							},
-							["amount"] = 30.11,
+							["amount"] = 20.2,
 						},
 						["Scourge Reanimator"] = {
 							["Details"] = {
@@ -49182,37 +49176,43 @@ RecountPerCharDB = {
 							},
 							["amount"] = 6.23,
 						},
-						["Darkweb Recluse"] = {
+						["Risen Drakkari Death Knight"] = {
 							["Details"] = {
 								["Deep Wounds (DoT)"] = {
-									["count"] = 9.359999999999999,
+									["count"] = 15.72,
 								},
 								["Chaos Bane"] = {
-									["count"] = 0.39,
+									["count"] = 0.35,
 								},
 								["Execute"] = {
-									["count"] = 2.8,
+									["count"] = 0.48,
+								},
+								["Whirlwind"] = {
+									["count"] = 2.14,
 								},
 								["Fire Shield"] = {
-									["count"] = 0.33,
+									["count"] = 1.06,
 								},
 								["Mortal Strike"] = {
-									["count"] = 1.07,
+									["count"] = 0.21,
 								},
 								["Thunder Clap"] = {
-									["count"] = 3.86,
-								},
-								["Cleave"] = {
-									["count"] = 0.86,
-								},
-								["Sweeping Strikes"] = {
-									["count"] = 0.6599999999999999,
+									["count"] = 0.43,
 								},
 								["Melee"] = {
-									["count"] = 0.87,
+									["count"] = 4.52,
+								},
+								["Cleave"] = {
+									["count"] = 2.56,
+								},
+								["Bloodthirst"] = {
+									["count"] = 1.51,
+								},
+								["Slam"] = {
+									["count"] = 1.13,
 								},
 							},
-							["amount"] = 20.2,
+							["amount"] = 30.11,
 						},
 						["Drakkari Shaman"] = {
 							["Details"] = {
@@ -49361,6 +49361,14 @@ RecountPerCharDB = {
 					},
 					["DeathCount"] = 0,
 					["HOT_Time"] = 15,
+					["DOT_Time"] = 171,
+					["ManaGain"] = 0,
+					["ElementTaken"] = {
+						["Physical"] = 166,
+						["Shadow"] = 14570,
+						["Melee"] = 14050,
+						["Nature"] = 0,
+					},
 					["HOTs"] = {
 						["Second Wind"] = {
 							["Details"] = {
@@ -49379,15 +49387,8 @@ RecountPerCharDB = {
 							["amount"] = 0,
 						},
 					},
-					["ManaGain"] = 0,
-					["ElementTaken"] = {
-						["Physical"] = 166,
-						["Shadow"] = 14570,
-						["Melee"] = 14050,
-						["Nature"] = 0,
+					["ElementTakenBlock"] = {
 					},
-					["DOT_Time"] = 171,
-					["Damage"] = 256097,
 					["ElementDoneAbsorb"] = {
 					},
 					["TimeHeal"] = 1.12,
@@ -49402,57 +49403,197 @@ RecountPerCharDB = {
 					},
 					["RageGain"] = 65,
 					["ElementDone"] = {
-						["Physical"] = 229841,
 						["Fire"] = 210,
-						["Melee"] = 23990,
 						["Shadow"] = 2056,
+						["Melee"] = 23990,
+						["Physical"] = 229841,
 					},
 					["ManaGainedFrom"] = {
 					},
-					["ElementHitsDone"] = {
-						["Physical"] = {
+					["DamagedWho"] = {
+						["Darkweb Hatchling"] = {
 							["Details"] = {
-								["Hit"] = {
-									["count"] = 26,
+								["Sweeping Strikes"] = {
+									["count"] = 0,
 								},
-								["Tick"] = {
-									["count"] = 57,
+								["Thunder Clap"] = {
+									["count"] = 0,
 								},
-								["Crit"] = {
-									["count"] = 15,
+								["Melee"] = {
+									["count"] = 0,
 								},
-								["Miss"] = {
+								["Chaos Bane"] = {
+									["count"] = 0,
+								},
+								["Fire Shield"] = {
+									["count"] = 0,
+								},
+								["Deep Wounds (DoT)"] = {
 									["count"] = 0,
 								},
 							},
-							["amount"] = 98,
+							["amount"] = 0,
 						},
-						["Fire"] = {
+						["Drakkari Guardian"] = {
 							["Details"] = {
-								["Hit"] = {
-									["count"] = 5,
+								["Sweeping Strikes"] = {
+									["count"] = 4994,
+								},
+								["Thunder Clap"] = {
+									["count"] = 10919,
+								},
+								["Deep Wounds (DoT)"] = {
+									["count"] = 7570,
+								},
+								["Chaos Bane"] = {
+									["count"] = 708,
+								},
+								["Execute"] = {
+									["count"] = 13855,
+								},
+								["Overpower"] = {
+									["count"] = 10602,
+								},
+								["Cleave"] = {
+									["count"] = 23639,
+								},
+								["Melee"] = {
+									["count"] = 3280,
 								},
 							},
-							["amount"] = 5,
+							["amount"] = 75567,
 						},
-						["Melee"] = {
+						["Spider"] = {
 							["Details"] = {
-								["Crit"] = {
-									["count"] = 2,
-								},
-								["Hit"] = {
-									["count"] = 2,
+								["Thunder Clap"] = {
+									["count"] = 0,
 								},
 							},
-							["amount"] = 4,
+							["amount"] = 0,
 						},
-						["Shadow"] = {
+						["Darkweb Recluse"] = {
 							["Details"] = {
-								["Hit"] = {
-									["count"] = 6,
+								["Deep Wounds (DoT)"] = {
+									["count"] = 0,
+								},
+								["Chaos Bane"] = {
+									["count"] = 0,
+								},
+								["Execute"] = {
+									["count"] = 0,
+								},
+								["Fire Shield"] = {
+									["count"] = 0,
+								},
+								["Mortal Strike"] = {
+									["count"] = 0,
+								},
+								["Thunder Clap"] = {
+									["count"] = 0,
+								},
+								["Cleave"] = {
+									["count"] = 0,
+								},
+								["Sweeping Strikes"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
 								},
 							},
-							["amount"] = 6,
+							["amount"] = 0,
+						},
+						["Beetle"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 7652,
+								},
+							},
+							["amount"] = 7652,
+						},
+						["Scourge Brute"] = {
+							["Details"] = {
+								["Sweeping Strikes"] = {
+									["count"] = 14067,
+								},
+								["Thunder Clap"] = {
+									["count"] = 8590,
+								},
+								["Deep Wounds (DoT)"] = {
+									["count"] = 4459,
+								},
+								["Chaos Bane"] = {
+									["count"] = 364,
+								},
+								["Fire Shield"] = {
+									["count"] = 84,
+								},
+							},
+							["amount"] = 27564,
+						},
+						["Risen Drakkari Soulmage"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 13058,
+								},
+								["Cleave"] = {
+									["count"] = 9197,
+								},
+								["Execute"] = {
+									["count"] = 15011,
+								},
+								["Mortal Strike"] = {
+									["count"] = 16006,
+								},
+								["Thunder Clap"] = {
+									["count"] = 5506,
+								},
+								["Rend (DoT)"] = {
+									["count"] = 4083,
+								},
+								["Chaos Bane"] = {
+									["count"] = 337,
+								},
+								["Overpower"] = {
+									["count"] = 12202,
+								},
+								["Deep Wounds (DoT)"] = {
+									["count"] = 10142,
+								},
+								["Sweeping Strikes"] = {
+									["count"] = 4337,
+								},
+							},
+							["amount"] = 89879,
+						},
+						["Risen Drakkari Bat Rider"] = {
+							["Details"] = {
+								["Sweeping Strikes"] = {
+									["count"] = 3984,
+								},
+								["Thunder Clap"] = {
+									["count"] = 5418,
+								},
+								["Deep Wounds (DoT)"] = {
+									["count"] = 3016,
+								},
+								["Cleave"] = {
+									["count"] = 34125,
+								},
+								["Chaos Bane"] = {
+									["count"] = 647,
+								},
+								["Mortal Strike"] = {
+									["count"] = 5193,
+								},
+								["Fire Shield"] = {
+									["count"] = 126,
+								},
+								["Rend (DoT)"] = {
+									["count"] = 2926,
+								},
+							},
+							["amount"] = 55435,
 						},
 					},
 					["RageGained"] = {
@@ -49534,8 +49675,21 @@ RecountPerCharDB = {
 					},
 					["EnergyGainedFrom"] = {
 					},
-					["Dispelled"] = 0,
-					["RunicPowerGained"] = {
+					["OverHeals"] = {
+						["Second Wind"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 780,
+									["min"] = 780,
+									["count"] = 1,
+									["amount"] = 780,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 780,
+						},
+					},
+					["CCBroken"] = {
 					},
 					["ElementDoneBlock"] = {
 						["Physical"] = 80,
@@ -49553,20 +49707,7 @@ RecountPerCharDB = {
 							["amount"] = 1.12,
 						},
 					},
-					["OverHeals"] = {
-						["Second Wind"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 780,
-									["min"] = 780,
-									["count"] = 1,
-									["amount"] = 780,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 780,
-						},
-					},
+					["Dispelled"] = 0,
 					["WhoHealed"] = {
 						["Ninimagic"] = {
 							["Details"] = {
@@ -49591,71 +49732,6 @@ RecountPerCharDB = {
 							["amount"] = 3120,
 						},
 					},
-					["EnergyGain"] = 0,
-					["CCBreak"] = 0,
-					["PartialAbsorb"] = {
-						["Knockdown"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 0,
-						},
-						["Blood Siphon"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 2,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 2,
-							["amount"] = 0,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 5,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 5,
-							["amount"] = 0,
-						},
-						["Poison Spit (DoT)"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Shadow Void (DoT)"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 4,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 4,
-							["amount"] = 0,
-						},
-					},
-					["ActiveTime"] = 37.39000000000001,
 					["PartialResist"] = {
 						["Knockdown"] = {
 							["Details"] = {
@@ -49736,11 +49812,15 @@ RecountPerCharDB = {
 							["amount"] = 1890,
 						},
 					},
+					["CCBreak"] = 0,
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["EnergyGain"] = 0,
 					["ManaGained"] = {
 					},
 					["ElementTakenAbsorb"] = {
 					},
-					["Interrupts"] = 0,
+					["ActiveTime"] = 37.39000000000001,
 					["Overhealing"] = 780,
 					["ElementTakenResist"] = {
 						["Nature"] = 0,
@@ -49981,7 +50061,68 @@ RecountPerCharDB = {
 							["amount"] = 0,
 						},
 					},
-					["FDamage"] = 0,
+					["PartialAbsorb"] = {
+						["Knockdown"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+						["Blood Siphon"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 5,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 5,
+							["amount"] = 0,
+						},
+						["Poison Spit (DoT)"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Shadow Void (DoT)"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 4,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 4,
+							["amount"] = 0,
+						},
+					},
 					["EnergyGained"] = {
 					},
 					["HealedWho"] = {
@@ -49998,9 +50139,9 @@ RecountPerCharDB = {
 						},
 					},
 					["Healing"] = 3120,
-					["RunicPowerGainedFrom"] = {
+					["RunicPowerGained"] = {
 					},
-					["CCBroken"] = {
+					["RunicPowerGainedFrom"] = {
 					},
 					["Attacks"] = {
 						["Deep Wounds (DoT)"] = {
@@ -50189,125 +50330,54 @@ RecountPerCharDB = {
 						},
 					},
 					["HealingTaken"] = 19955,
-					["DamagedWho"] = {
-						["Scourge Brute"] = {
+					["ElementHitsDone"] = {
+						["Fire"] = {
 							["Details"] = {
-								["Sweeping Strikes"] = {
-									["count"] = 14067,
-								},
-								["Thunder Clap"] = {
-									["count"] = 8590,
-								},
-								["Deep Wounds (DoT)"] = {
-									["count"] = 4459,
-								},
-								["Chaos Bane"] = {
-									["count"] = 364,
-								},
-								["Fire Shield"] = {
-									["count"] = 84,
+								["Hit"] = {
+									["count"] = 5,
 								},
 							},
-							["amount"] = 27564,
+							["amount"] = 5,
 						},
-						["Drakkari Guardian"] = {
+						["Shadow"] = {
 							["Details"] = {
-								["Sweeping Strikes"] = {
-									["count"] = 4994,
-								},
-								["Thunder Clap"] = {
-									["count"] = 10919,
-								},
-								["Deep Wounds (DoT)"] = {
-									["count"] = 7570,
-								},
-								["Chaos Bane"] = {
-									["count"] = 708,
-								},
-								["Execute"] = {
-									["count"] = 13855,
-								},
-								["Overpower"] = {
-									["count"] = 10602,
-								},
-								["Cleave"] = {
-									["count"] = 23639,
-								},
-								["Melee"] = {
-									["count"] = 3280,
+								["Hit"] = {
+									["count"] = 6,
 								},
 							},
-							["amount"] = 75567,
+							["amount"] = 6,
 						},
-						["Spider"] = {
+						["Melee"] = {
 							["Details"] = {
-								["Thunder Clap"] = {
+								["Crit"] = {
+									["count"] = 2,
+								},
+								["Hit"] = {
+									["count"] = 2,
+								},
+							},
+							["amount"] = 4,
+						},
+						["Physical"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 26,
+								},
+								["Tick"] = {
+									["count"] = 57,
+								},
+								["Crit"] = {
+									["count"] = 15,
+								},
+								["Miss"] = {
 									["count"] = 0,
 								},
 							},
-							["amount"] = 0,
+							["amount"] = 98,
 						},
-						["Darkweb Recluse"] = {
-							["Details"] = {
-								["Deep Wounds (DoT)"] = {
-									["count"] = 0,
-								},
-								["Chaos Bane"] = {
-									["count"] = 0,
-								},
-								["Execute"] = {
-									["count"] = 0,
-								},
-								["Fire Shield"] = {
-									["count"] = 0,
-								},
-								["Mortal Strike"] = {
-									["count"] = 0,
-								},
-								["Thunder Clap"] = {
-									["count"] = 0,
-								},
-								["Cleave"] = {
-									["count"] = 0,
-								},
-								["Sweeping Strikes"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Risen Drakkari Bat Rider"] = {
-							["Details"] = {
-								["Sweeping Strikes"] = {
-									["count"] = 3984,
-								},
-								["Thunder Clap"] = {
-									["count"] = 5418,
-								},
-								["Deep Wounds (DoT)"] = {
-									["count"] = 3016,
-								},
-								["Cleave"] = {
-									["count"] = 34125,
-								},
-								["Chaos Bane"] = {
-									["count"] = 647,
-								},
-								["Mortal Strike"] = {
-									["count"] = 5193,
-								},
-								["Fire Shield"] = {
-									["count"] = 126,
-								},
-								["Rend (DoT)"] = {
-									["count"] = 2926,
-								},
-							},
-							["amount"] = 55435,
-						},
+					},
+					["TimeDamage"] = 36.27000000000001,
+					["TimeDamaging"] = {
 						["Darkweb Hatchling"] = {
 							["Details"] = {
 								["Sweeping Strikes"] = {
@@ -50330,72 +50400,6 @@ RecountPerCharDB = {
 								},
 							},
 							["amount"] = 0,
-						},
-						["Risen Drakkari Soulmage"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 13058,
-								},
-								["Cleave"] = {
-									["count"] = 9197,
-								},
-								["Execute"] = {
-									["count"] = 15011,
-								},
-								["Mortal Strike"] = {
-									["count"] = 16006,
-								},
-								["Thunder Clap"] = {
-									["count"] = 5506,
-								},
-								["Rend (DoT)"] = {
-									["count"] = 4083,
-								},
-								["Chaos Bane"] = {
-									["count"] = 337,
-								},
-								["Overpower"] = {
-									["count"] = 12202,
-								},
-								["Deep Wounds (DoT)"] = {
-									["count"] = 10142,
-								},
-								["Sweeping Strikes"] = {
-									["count"] = 4337,
-								},
-							},
-							["amount"] = 89879,
-						},
-						["Beetle"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 7652,
-								},
-							},
-							["amount"] = 7652,
-						},
-					},
-					["TimeDamage"] = 36.27000000000001,
-					["TimeDamaging"] = {
-						["Scourge Brute"] = {
-							["Details"] = {
-								["Sweeping Strikes"] = {
-									["count"] = 3.89,
-								},
-								["Thunder Clap"] = {
-									["count"] = 0.25,
-								},
-								["Deep Wounds (DoT)"] = {
-									["count"] = 0.62,
-								},
-								["Chaos Bane"] = {
-									["count"] = 0.2,
-								},
-								["Fire Shield"] = {
-									["count"] = 1.27,
-								},
-							},
-							["amount"] = 6.23,
 						},
 						["Drakkari Guardian"] = {
 							["Details"] = {
@@ -50466,57 +50470,33 @@ RecountPerCharDB = {
 							},
 							["amount"] = 0,
 						},
-						["Risen Drakkari Bat Rider"] = {
+						["Beetle"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 3.5,
+								},
+							},
+							["amount"] = 3.5,
+						},
+						["Scourge Brute"] = {
 							["Details"] = {
 								["Sweeping Strikes"] = {
-									["count"] = 0.44,
+									["count"] = 3.89,
 								},
 								["Thunder Clap"] = {
-									["count"] = 0,
+									["count"] = 0.25,
 								},
 								["Deep Wounds (DoT)"] = {
-									["count"] = 4.55,
-								},
-								["Cleave"] = {
-									["count"] = 0.6,
+									["count"] = 0.62,
 								},
 								["Chaos Bane"] = {
-									["count"] = 0,
-								},
-								["Mortal Strike"] = {
-									["count"] = 0,
+									["count"] = 0.2,
 								},
 								["Fire Shield"] = {
-									["count"] = 0.4300000000000001,
-								},
-								["Rend (DoT)"] = {
-									["count"] = 0.21,
+									["count"] = 1.27,
 								},
 							},
 							["amount"] = 6.23,
-						},
-						["Darkweb Hatchling"] = {
-							["Details"] = {
-								["Sweeping Strikes"] = {
-									["count"] = 0,
-								},
-								["Thunder Clap"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Chaos Bane"] = {
-									["count"] = 0,
-								},
-								["Fire Shield"] = {
-									["count"] = 0,
-								},
-								["Deep Wounds (DoT)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
 						},
 						["Risen Drakkari Soulmage"] = {
 							["Details"] = {
@@ -50553,18 +50533,38 @@ RecountPerCharDB = {
 							},
 							["amount"] = 10.21,
 						},
-						["Beetle"] = {
+						["Risen Drakkari Bat Rider"] = {
 							["Details"] = {
-								["Melee"] = {
-									["count"] = 3.5,
+								["Sweeping Strikes"] = {
+									["count"] = 0.44,
+								},
+								["Thunder Clap"] = {
+									["count"] = 0,
+								},
+								["Deep Wounds (DoT)"] = {
+									["count"] = 4.55,
+								},
+								["Cleave"] = {
+									["count"] = 0.6,
+								},
+								["Chaos Bane"] = {
+									["count"] = 0,
+								},
+								["Mortal Strike"] = {
+									["count"] = 0,
+								},
+								["Fire Shield"] = {
+									["count"] = 0.4300000000000001,
+								},
+								["Rend (DoT)"] = {
+									["count"] = 0.21,
 								},
 							},
-							["amount"] = 3.5,
+							["amount"] = 6.23,
 						},
 					},
 					["RunicPowerGain"] = 0,
-					["ElementTakenBlock"] = {
-					},
+					["Damage"] = 256097,
 					["DispelledWho"] = {
 					},
 				},
@@ -50654,6 +50654,13 @@ RecountPerCharDB = {
 					},
 					["DeathCount"] = 0,
 					["HOT_Time"] = 0,
+					["DOT_Time"] = 0,
+					["ManaGain"] = 0,
+					["ElementTaken"] = {
+						["Shadow"] = 0,
+						["Melee"] = 0,
+						["Physical"] = 0,
+					},
 					["HOTs"] = {
 						["Second Wind"] = {
 							["Details"] = {
@@ -50664,14 +50671,8 @@ RecountPerCharDB = {
 							["amount"] = 0,
 						},
 					},
-					["ManaGain"] = 0,
-					["ElementTaken"] = {
-						["Shadow"] = 0,
-						["Melee"] = 0,
-						["Physical"] = 0,
+					["ElementTakenBlock"] = {
 					},
-					["DOT_Time"] = 0,
-					["Damage"] = 0,
 					["ElementDoneAbsorb"] = {
 					},
 					["TimeHeal"] = 0,
@@ -50686,53 +50687,133 @@ RecountPerCharDB = {
 					},
 					["RageGain"] = 0,
 					["ElementDone"] = {
-						["Physical"] = 0,
 						["Fire"] = 0,
-						["Melee"] = 0,
 						["Shadow"] = 0,
+						["Melee"] = 0,
+						["Physical"] = 0,
 					},
 					["ManaGainedFrom"] = {
 					},
-					["ElementHitsDone"] = {
-						["Physical"] = {
+					["DamagedWho"] = {
+						["Trollgore"] = {
 							["Details"] = {
-								["Hit"] = {
+								["Deep Wounds (DoT)"] = {
 									["count"] = 0,
 								},
-								["Crit"] = {
+								["Chaos Bane"] = {
 									["count"] = 0,
 								},
-								["Tick"] = {
+								["Execute"] = {
+									["count"] = 0,
+								},
+								["Whirlwind"] = {
+									["count"] = 0,
+								},
+								["Mortal Strike"] = {
+									["count"] = 0,
+								},
+								["Rend (DoT)"] = {
+									["count"] = 0,
+								},
+								["Overpower"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Heroic Strike"] = {
 									["count"] = 0,
 								},
 							},
 							["amount"] = 0,
 						},
-						["Fire"] = {
+						["Drakkari Raptor Mount"] = {
 							["Details"] = {
-								["Hit"] = {
+								["Sweeping Strikes"] = {
+									["count"] = 0,
+								},
+								["Thunder Clap"] = {
+									["count"] = 0,
+								},
+								["Fire Shield"] = {
 									["count"] = 0,
 								},
 							},
 							["amount"] = 0,
 						},
-						["Melee"] = {
+						["Flesheating Ghoul"] = {
 							["Details"] = {
-								["Glancing"] = {
+								["Mortal Strike"] = {
 									["count"] = 0,
 								},
-								["Crit"] = {
+								["Deep Wounds (DoT)"] = {
 									["count"] = 0,
 								},
-								["Hit"] = {
+								["Cleave"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Sweeping Strikes"] = {
+									["count"] = 0,
+								},
+								["Fire Shield"] = {
+									["count"] = 0,
+								},
+								["Rend (DoT)"] = {
 									["count"] = 0,
 								},
 							},
 							["amount"] = 0,
 						},
-						["Shadow"] = {
+						["Ghoul Tormentor"] = {
 							["Details"] = {
-								["Hit"] = {
+								["Sweeping Strikes"] = {
+									["count"] = 0,
+								},
+								["Deep Wounds (DoT)"] = {
+									["count"] = 0,
+								},
+								["Cleave"] = {
+									["count"] = 0,
+								},
+								["Execute"] = {
+									["count"] = 0,
+								},
+								["Overpower"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Risen Drakkari Handler"] = {
+							["Details"] = {
+								["Sweeping Strikes"] = {
+									["count"] = 0,
+								},
+								["Thunder Clap"] = {
+									["count"] = 0,
+								},
+								["Deep Wounds (DoT)"] = {
+									["count"] = 0,
+								},
+								["Cleave"] = {
+									["count"] = 0,
+								},
+								["Execute"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Fire Shield"] = {
+									["count"] = 0,
+								},
+								["Mortal Strike"] = {
 									["count"] = 0,
 								},
 							},
@@ -50804,13 +50885,6 @@ RecountPerCharDB = {
 					},
 					["EnergyGainedFrom"] = {
 					},
-					["Dispelled"] = 0,
-					["RunicPowerGained"] = {
-					},
-					["ElementDoneBlock"] = {
-					},
-					["TimeHealing"] = {
-					},
 					["OverHeals"] = {
 						["Second Wind"] = {
 							["Details"] = {
@@ -50825,6 +50899,13 @@ RecountPerCharDB = {
 							["amount"] = 0,
 						},
 					},
+					["CCBroken"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+					},
+					["Dispelled"] = 0,
 					["WhoHealed"] = {
 						["Ninimagic"] = {
 							["Details"] = {
@@ -50844,47 +50925,6 @@ RecountPerCharDB = {
 							["amount"] = 0,
 						},
 					},
-					["EnergyGain"] = 0,
-					["CCBreak"] = 0,
-					["PartialAbsorb"] = {
-						["Hooked Net"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Consume"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["ActiveTime"] = 0,
 					["PartialResist"] = {
 						["Hooked Net"] = {
 							["Details"] = {
@@ -50923,11 +50963,15 @@ RecountPerCharDB = {
 							["amount"] = 0,
 						},
 					},
+					["CCBreak"] = 0,
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["EnergyGain"] = 0,
 					["ManaGained"] = {
 					},
 					["ElementTakenAbsorb"] = {
 					},
-					["Interrupts"] = 0,
+					["ActiveTime"] = 0,
 					["Overhealing"] = 0,
 					["ElementTakenResist"] = {
 						["Shadow"] = 0,
@@ -51064,15 +51108,52 @@ RecountPerCharDB = {
 					},
 					["Heals"] = {
 					},
-					["FDamage"] = 0,
+					["PartialAbsorb"] = {
+						["Hooked Net"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Consume"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
 					["EnergyGained"] = {
 					},
 					["HealedWho"] = {
 					},
 					["Healing"] = 0,
-					["RunicPowerGainedFrom"] = {
+					["RunicPowerGained"] = {
 					},
-					["CCBroken"] = {
+					["RunicPowerGainedFrom"] = {
 					},
 					["Attacks"] = {
 						["Melee"] = {
@@ -51281,126 +51362,46 @@ RecountPerCharDB = {
 						},
 					},
 					["HealingTaken"] = 0,
-					["DamagedWho"] = {
-						["Trollgore"] = {
+					["ElementHitsDone"] = {
+						["Fire"] = {
 							["Details"] = {
-								["Deep Wounds (DoT)"] = {
-									["count"] = 0,
-								},
-								["Chaos Bane"] = {
-									["count"] = 0,
-								},
-								["Execute"] = {
-									["count"] = 0,
-								},
-								["Whirlwind"] = {
-									["count"] = 0,
-								},
-								["Mortal Strike"] = {
-									["count"] = 0,
-								},
-								["Rend (DoT)"] = {
-									["count"] = 0,
-								},
-								["Overpower"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Heroic Strike"] = {
+								["Hit"] = {
 									["count"] = 0,
 								},
 							},
 							["amount"] = 0,
 						},
-						["Drakkari Raptor Mount"] = {
+						["Shadow"] = {
 							["Details"] = {
-								["Sweeping Strikes"] = {
-									["count"] = 0,
-								},
-								["Thunder Clap"] = {
-									["count"] = 0,
-								},
-								["Fire Shield"] = {
+								["Hit"] = {
 									["count"] = 0,
 								},
 							},
 							["amount"] = 0,
 						},
-						["Flesheating Ghoul"] = {
+						["Melee"] = {
 							["Details"] = {
-								["Mortal Strike"] = {
+								["Glancing"] = {
 									["count"] = 0,
 								},
-								["Deep Wounds (DoT)"] = {
+								["Crit"] = {
 									["count"] = 0,
 								},
-								["Cleave"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Sweeping Strikes"] = {
-									["count"] = 0,
-								},
-								["Fire Shield"] = {
-									["count"] = 0,
-								},
-								["Rend (DoT)"] = {
+								["Hit"] = {
 									["count"] = 0,
 								},
 							},
 							["amount"] = 0,
 						},
-						["Ghoul Tormentor"] = {
+						["Physical"] = {
 							["Details"] = {
-								["Sweeping Strikes"] = {
+								["Hit"] = {
 									["count"] = 0,
 								},
-								["Deep Wounds (DoT)"] = {
+								["Crit"] = {
 									["count"] = 0,
 								},
-								["Cleave"] = {
-									["count"] = 0,
-								},
-								["Execute"] = {
-									["count"] = 0,
-								},
-								["Overpower"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Risen Drakkari Handler"] = {
-							["Details"] = {
-								["Sweeping Strikes"] = {
-									["count"] = 0,
-								},
-								["Thunder Clap"] = {
-									["count"] = 0,
-								},
-								["Deep Wounds (DoT)"] = {
-									["count"] = 0,
-								},
-								["Cleave"] = {
-									["count"] = 0,
-								},
-								["Execute"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Fire Shield"] = {
-									["count"] = 0,
-								},
-								["Mortal Strike"] = {
+								["Tick"] = {
 									["count"] = 0,
 								},
 							},
@@ -51535,8 +51536,7 @@ RecountPerCharDB = {
 						},
 					},
 					["RunicPowerGain"] = 0,
-					["ElementTakenBlock"] = {
-					},
+					["Damage"] = 0,
 					["DispelledWho"] = {
 					},
 				},
@@ -51597,11 +51597,11 @@ RecountPerCharDB = {
 								["Unbridled Wrath"] = {
 									["count"] = 25,
 								},
-								["Glyph of Heroic Strike"] = {
-									["count"] = 40,
-								},
 								["Second Wind"] = {
 									["count"] = 0,
+								},
+								["Glyph of Heroic Strike"] = {
+									["count"] = 40,
 								},
 							},
 							["amount"] = 95,
@@ -51672,6 +51672,15 @@ RecountPerCharDB = {
 					},
 					["DeathCount"] = 0,
 					["HOT_Time"] = 0,
+					["DOT_Time"] = 216,
+					["ManaGain"] = 0,
+					["ElementTaken"] = {
+						["Physical"] = 8904,
+						["Melee"] = 20446,
+						["Shadow"] = 8430,
+						["Frost"] = 6985,
+						["Nature"] = 2416,
+					},
 					["HOTs"] = {
 						["Second Wind"] = {
 							["Details"] = {
@@ -51682,16 +51691,8 @@ RecountPerCharDB = {
 							["amount"] = 0,
 						},
 					},
-					["ManaGain"] = 0,
-					["ElementTaken"] = {
-						["Physical"] = 8904,
-						["Melee"] = 20446,
-						["Shadow"] = 8430,
-						["Frost"] = 6985,
-						["Nature"] = 2416,
+					["ElementTakenBlock"] = {
 					},
-					["DOT_Time"] = 216,
-					["Damage"] = 553428,
 					["ElementDoneAbsorb"] = {
 					},
 					["TimeHeal"] = 13.41,
@@ -51706,60 +51707,201 @@ RecountPerCharDB = {
 					},
 					["RageGain"] = 95,
 					["ElementDone"] = {
-						["Physical"] = 461450,
 						["Shadow"] = 8442,
-						["Melee"] = 83156,
 						["Fire"] = 380,
+						["Melee"] = 83156,
+						["Physical"] = 461450,
 					},
 					["ManaGainedFrom"] = {
 					},
-					["ElementHitsDone"] = {
-						["Physical"] = {
+					["DamagedWho"] = {
+						["Risen Drakkari Warrior"] = {
 							["Details"] = {
-								["Tick"] = {
-									["count"] = 72,
+								["Mortal Strike"] = {
+									["count"] = 0,
 								},
-								["Crit"] = {
-									["count"] = 32,
+								["Deep Wounds (DoT)"] = {
+									["count"] = 0,
 								},
-								["Hit"] = {
-									["count"] = 32,
+								["Chaos Bane"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Overpower"] = {
+									["count"] = 0,
+								},
+								["Cleave"] = {
+									["count"] = 0,
+								},
+								["Rend (DoT)"] = {
+									["count"] = 0,
 								},
 							},
-							["amount"] = 136,
+							["amount"] = 0,
 						},
-						["Shadow"] = {
+						["Drakkari Gutripper"] = {
 							["Details"] = {
-								["Hit"] = {
-									["count"] = 9,
+								["Rend (DoT)"] = {
+									["count"] = 0,
+								},
+								["Thunder Clap"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Cleave"] = {
+									["count"] = 0,
+								},
+								["Execute"] = {
+									["count"] = 0,
+								},
+								["Overpower"] = {
+									["count"] = 0,
+								},
+								["Chaos Bane"] = {
+									["count"] = 0,
+								},
+								["Deep Wounds (DoT)"] = {
+									["count"] = 0,
 								},
 							},
-							["amount"] = 9,
+							["amount"] = 0,
 						},
-						["Melee"] = {
+						["Drakkari Raptor Mount"] = {
 							["Details"] = {
-								["Glancing"] = {
-									["count"] = 2,
+								["Sweeping Strikes"] = {
+									["count"] = 0,
 								},
-								["Hit"] = {
-									["count"] = 3,
-								},
-								["Crit"] = {
-									["count"] = 14,
-								},
-								["Miss"] = {
-									["count"] = 1,
+								["Cleave"] = {
+									["count"] = 0,
 								},
 							},
-							["amount"] = 20,
+							["amount"] = 0,
 						},
-						["Fire"] = {
+						["Risen Drakkari Handler"] = {
 							["Details"] = {
-								["Hit"] = {
-									["count"] = 5,
+								["Mortal Strike"] = {
+									["count"] = 0,
+								},
+								["Thunder Clap"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Cleave"] = {
+									["count"] = 0,
+								},
+								["Overpower"] = {
+									["count"] = 0,
+								},
+								["Deep Wounds (DoT)"] = {
+									["count"] = 0,
+								},
+								["Rend (DoT)"] = {
+									["count"] = 0,
 								},
 							},
-							["amount"] = 5,
+							["amount"] = 0,
+						},
+						["Wretched Belcher"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Cleave"] = {
+									["count"] = 0,
+								},
+								["Execute"] = {
+									["count"] = 0,
+								},
+								["Fire Shield"] = {
+									["count"] = 0,
+								},
+								["Mortal Strike"] = {
+									["count"] = 0,
+								},
+								["Rend (DoT)"] = {
+									["count"] = 0,
+								},
+								["Overpower"] = {
+									["count"] = 0,
+								},
+								["Chaos Bane"] = {
+									["count"] = 0,
+								},
+								["Deep Wounds (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Risen Drakkari Death Knight"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 22666,
+								},
+								["Bloodthirst"] = {
+									["count"] = 34233,
+								},
+								["Deep Wounds (DoT)"] = {
+									["count"] = 20962,
+								},
+								["Cleave"] = {
+									["count"] = 113650,
+								},
+								["Slam"] = {
+									["count"] = 24862,
+								},
+								["Whirlwind"] = {
+									["count"] = 92663,
+								},
+								["Fire Shield"] = {
+									["count"] = 212,
+								},
+								["Chaos Bane"] = {
+									["count"] = 2007,
+								},
+							},
+							["amount"] = 311255,
+						},
+						["The Prophet Tharon'ja"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 60490,
+								},
+								["Chaos Bane"] = {
+									["count"] = 1811,
+								},
+								["Slam"] = {
+									["count"] = 4909,
+								},
+								["Whirlwind"] = {
+									["count"] = 28046,
+								},
+								["Fire Shield"] = {
+									["count"] = 168,
+								},
+								["Bloodthirst"] = {
+									["count"] = 61004,
+								},
+								["Touch of Life"] = {
+									["count"] = 4624,
+								},
+								["Deep Wounds (DoT)"] = {
+									["count"] = 22456,
+								},
+								["Slaying Strike"] = {
+									["count"] = 5348,
+								},
+								["Heroic Strike"] = {
+									["count"] = 53317,
+								},
+							},
+							["amount"] = 242173,
 						},
 					},
 					["RageGained"] = {
@@ -51779,14 +51921,6 @@ RecountPerCharDB = {
 							},
 							["amount"] = 25,
 						},
-						["Glyph of Heroic Strike"] = {
-							["Details"] = {
-								["Rimgar"] = {
-									["count"] = 40,
-								},
-							},
-							["amount"] = 40,
-						},
 						["Second Wind"] = {
 							["Details"] = {
 								["Rimgar"] = {
@@ -51794,6 +51928,14 @@ RecountPerCharDB = {
 								},
 							},
 							["amount"] = 0,
+						},
+						["Glyph of Heroic Strike"] = {
+							["Details"] = {
+								["Rimgar"] = {
+									["count"] = 40,
+								},
+							},
+							["amount"] = 40,
 						},
 					},
 					["WhoDamaged"] = {
@@ -51856,28 +51998,6 @@ RecountPerCharDB = {
 					},
 					["EnergyGainedFrom"] = {
 					},
-					["Dispelled"] = 0,
-					["RunicPowerGained"] = {
-					},
-					["ElementDoneBlock"] = {
-						["Physical"] = 40,
-					},
-					["TimeHealing"] = {
-						["Rimgar"] = {
-							["Details"] = {
-								["Touch of Life"] = {
-									["count"] = 6.960000000000001,
-								},
-								["Bloodthirst"] = {
-									["count"] = 6.45,
-								},
-								["Second Wind"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 13.41,
-						},
-					},
 					["OverHeals"] = {
 						["Second Wind"] = {
 							["Details"] = {
@@ -51904,6 +52024,28 @@ RecountPerCharDB = {
 							["amount"] = 362,
 						},
 					},
+					["CCBroken"] = {
+					},
+					["ElementDoneBlock"] = {
+						["Physical"] = 40,
+					},
+					["TimeHealing"] = {
+						["Rimgar"] = {
+							["Details"] = {
+								["Touch of Life"] = {
+									["count"] = 6.960000000000001,
+								},
+								["Bloodthirst"] = {
+									["count"] = 6.45,
+								},
+								["Second Wind"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 13.41,
+						},
+					},
+					["Dispelled"] = 0,
 					["WhoHealed"] = {
 						["Ninimagic"] = {
 							["Details"] = {
@@ -51937,143 +52079,6 @@ RecountPerCharDB = {
 							["amount"] = 12670,
 						},
 					},
-					["EnergyGain"] = 0,
-					["CCBreak"] = 0,
-					["PartialAbsorb"] = {
-						["Bile Vomit (DoT)"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 6,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 6,
-							["amount"] = 0,
-						},
-						["Deafening Roar"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 4,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 4,
-							["amount"] = 0,
-						},
-						["Ghost Strike"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Disease Cloud"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Bile Vomit"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Icy Touch"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 2,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 2,
-							["amount"] = 0,
-						},
-						["Shadow Volley"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 2,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 2,
-							["amount"] = 0,
-						},
-						["Hooked Net"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Poison Cloud (DoT)"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 2,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 2,
-							["amount"] = 0,
-						},
-						["Fear"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 0,
-						},
-					},
-					["ActiveTime"] = 76.64999999999998,
 					["PartialResist"] = {
 						["Bile Vomit (DoT)"] = {
 							["Details"] = {
@@ -52232,11 +52237,15 @@ RecountPerCharDB = {
 							["amount"] = 0,
 						},
 					},
+					["CCBreak"] = 0,
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["EnergyGain"] = 0,
 					["ManaGained"] = {
 					},
 					["ElementTakenAbsorb"] = {
 					},
-					["Interrupts"] = 0,
+					["ActiveTime"] = 76.64999999999998,
 					["Overhealing"] = 362,
 					["ElementTakenResist"] = {
 						["Frost"] = 2310,
@@ -52284,13 +52293,13 @@ RecountPerCharDB = {
 						},
 						["Drakkari Gutripper"] = {
 							["Details"] = {
-								["Deep Wounds (DoT)"] = {
+								["Rend (DoT)"] = {
 									["count"] = 0,
 								},
 								["Thunder Clap"] = {
 									["count"] = 0,
 								},
-								["Rend (DoT)"] = {
+								["Melee"] = {
 									["count"] = 0,
 								},
 								["Cleave"] = {
@@ -52305,18 +52314,7 @@ RecountPerCharDB = {
 								["Chaos Bane"] = {
 									["count"] = 0,
 								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Drakkari Raptor Mount"] = {
-							["Details"] = {
-								["Sweeping Strikes"] = {
-									["count"] = 0,
-								},
-								["Cleave"] = {
+								["Deep Wounds (DoT)"] = {
 									["count"] = 0,
 								},
 							},
@@ -52347,6 +52345,41 @@ RecountPerCharDB = {
 								},
 							},
 							["amount"] = 0,
+						},
+						["The Prophet Tharon'ja"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 10.8,
+								},
+								["Chaos Bane"] = {
+									["count"] = 0.22,
+								},
+								["Slam"] = {
+									["count"] = 0,
+								},
+								["Whirlwind"] = {
+									["count"] = 0,
+								},
+								["Fire Shield"] = {
+									["count"] = 0.42,
+								},
+								["Bloodthirst"] = {
+									["count"] = 2.44,
+								},
+								["Touch of Life"] = {
+									["count"] = 0,
+								},
+								["Deep Wounds (DoT)"] = {
+									["count"] = 17.47,
+								},
+								["Slaying Strike"] = {
+									["count"] = 8.91,
+								},
+								["Heroic Strike"] = {
+									["count"] = 0.8700000000000001,
+								},
+							},
+							["amount"] = 41.13,
 						},
 						["Wretched Belcher"] = {
 							["Details"] = {
@@ -52396,17 +52429,17 @@ RecountPerCharDB = {
 						},
 						["Risen Drakkari Death Knight"] = {
 							["Details"] = {
-								["Deep Wounds (DoT)"] = {
-									["count"] = 12.77,
+								["Melee"] = {
+									["count"] = 4.02,
 								},
 								["Bloodthirst"] = {
 									["count"] = 1.51,
 								},
-								["Melee"] = {
-									["count"] = 4.02,
+								["Deep Wounds (DoT)"] = {
+									["count"] = 12.77,
 								},
-								["Chaos Bane"] = {
-									["count"] = 0.15,
+								["Cleave"] = {
+									["count"] = 1.73,
 								},
 								["Slam"] = {
 									["count"] = 1.13,
@@ -52417,46 +52450,22 @@ RecountPerCharDB = {
 								["Fire Shield"] = {
 									["count"] = 0.19,
 								},
-								["Cleave"] = {
-									["count"] = 1.73,
+								["Chaos Bane"] = {
+									["count"] = 0.15,
 								},
 							},
 							["amount"] = 22.11,
 						},
-						["The Prophet Tharon'ja"] = {
+						["Drakkari Raptor Mount"] = {
 							["Details"] = {
-								["Melee"] = {
-									["count"] = 10.8,
-								},
-								["Chaos Bane"] = {
-									["count"] = 0.22,
-								},
-								["Slam"] = {
+								["Sweeping Strikes"] = {
 									["count"] = 0,
 								},
-								["Whirlwind"] = {
+								["Cleave"] = {
 									["count"] = 0,
-								},
-								["Fire Shield"] = {
-									["count"] = 0.42,
-								},
-								["Bloodthirst"] = {
-									["count"] = 2.44,
-								},
-								["Touch of Life"] = {
-									["count"] = 0,
-								},
-								["Deep Wounds (DoT)"] = {
-									["count"] = 17.47,
-								},
-								["Slaying Strike"] = {
-									["count"] = 8.91,
-								},
-								["Heroic Strike"] = {
-									["count"] = 0.8700000000000001,
 								},
 							},
-							["amount"] = 41.13,
+							["amount"] = 0,
 						},
 					},
 					["Heals"] = {
@@ -52497,7 +52506,140 @@ RecountPerCharDB = {
 							["amount"] = 0,
 						},
 					},
-					["FDamage"] = 0,
+					["PartialAbsorb"] = {
+						["Bile Vomit (DoT)"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 6,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 6,
+							["amount"] = 0,
+						},
+						["Deafening Roar"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 4,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 4,
+							["amount"] = 0,
+						},
+						["Ghost Strike"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Disease Cloud"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Bile Vomit"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Icy Touch"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 0,
+						},
+						["Shadow Volley"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 0,
+						},
+						["Hooked Net"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Poison Cloud (DoT)"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 0,
+						},
+						["Fear"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+					},
 					["EnergyGained"] = {
 					},
 					["HealedWho"] = {
@@ -52517,9 +52659,9 @@ RecountPerCharDB = {
 						},
 					},
 					["Healing"] = 12670,
-					["RunicPowerGainedFrom"] = {
+					["RunicPowerGained"] = {
 					},
-					["CCBroken"] = {
+					["RunicPowerGainedFrom"] = {
 					},
 					["Attacks"] = {
 						["Cleave"] = {
@@ -52792,194 +52934,53 @@ RecountPerCharDB = {
 						},
 					},
 					["HealingTaken"] = 49852,
-					["DamagedWho"] = {
-						["Risen Drakkari Warrior"] = {
+					["ElementHitsDone"] = {
+						["Shadow"] = {
 							["Details"] = {
-								["Mortal Strike"] = {
-									["count"] = 0,
-								},
-								["Deep Wounds (DoT)"] = {
-									["count"] = 0,
-								},
-								["Chaos Bane"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Overpower"] = {
-									["count"] = 0,
-								},
-								["Cleave"] = {
-									["count"] = 0,
-								},
-								["Rend (DoT)"] = {
-									["count"] = 0,
+								["Hit"] = {
+									["count"] = 9,
 								},
 							},
-							["amount"] = 0,
+							["amount"] = 9,
 						},
-						["Drakkari Gutripper"] = {
+						["Fire"] = {
 							["Details"] = {
-								["Deep Wounds (DoT)"] = {
-									["count"] = 0,
-								},
-								["Thunder Clap"] = {
-									["count"] = 0,
-								},
-								["Rend (DoT)"] = {
-									["count"] = 0,
-								},
-								["Cleave"] = {
-									["count"] = 0,
-								},
-								["Execute"] = {
-									["count"] = 0,
-								},
-								["Overpower"] = {
-									["count"] = 0,
-								},
-								["Chaos Bane"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
+								["Hit"] = {
+									["count"] = 5,
 								},
 							},
-							["amount"] = 0,
+							["amount"] = 5,
 						},
-						["Drakkari Raptor Mount"] = {
+						["Melee"] = {
 							["Details"] = {
-								["Sweeping Strikes"] = {
-									["count"] = 0,
+								["Glancing"] = {
+									["count"] = 2,
 								},
-								["Cleave"] = {
-									["count"] = 0,
+								["Hit"] = {
+									["count"] = 3,
+								},
+								["Crit"] = {
+									["count"] = 14,
+								},
+								["Miss"] = {
+									["count"] = 1,
 								},
 							},
-							["amount"] = 0,
+							["amount"] = 20,
 						},
-						["Risen Drakkari Handler"] = {
+						["Physical"] = {
 							["Details"] = {
-								["Mortal Strike"] = {
-									["count"] = 0,
+								["Tick"] = {
+									["count"] = 72,
 								},
-								["Thunder Clap"] = {
-									["count"] = 0,
+								["Crit"] = {
+									["count"] = 32,
 								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Cleave"] = {
-									["count"] = 0,
-								},
-								["Overpower"] = {
-									["count"] = 0,
-								},
-								["Deep Wounds (DoT)"] = {
-									["count"] = 0,
-								},
-								["Rend (DoT)"] = {
-									["count"] = 0,
+								["Hit"] = {
+									["count"] = 32,
 								},
 							},
-							["amount"] = 0,
-						},
-						["Wretched Belcher"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Cleave"] = {
-									["count"] = 0,
-								},
-								["Execute"] = {
-									["count"] = 0,
-								},
-								["Fire Shield"] = {
-									["count"] = 0,
-								},
-								["Mortal Strike"] = {
-									["count"] = 0,
-								},
-								["Rend (DoT)"] = {
-									["count"] = 0,
-								},
-								["Overpower"] = {
-									["count"] = 0,
-								},
-								["Chaos Bane"] = {
-									["count"] = 0,
-								},
-								["Deep Wounds (DoT)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Risen Drakkari Death Knight"] = {
-							["Details"] = {
-								["Deep Wounds (DoT)"] = {
-									["count"] = 20962,
-								},
-								["Bloodthirst"] = {
-									["count"] = 34233,
-								},
-								["Melee"] = {
-									["count"] = 22666,
-								},
-								["Chaos Bane"] = {
-									["count"] = 2007,
-								},
-								["Slam"] = {
-									["count"] = 24862,
-								},
-								["Whirlwind"] = {
-									["count"] = 92663,
-								},
-								["Fire Shield"] = {
-									["count"] = 212,
-								},
-								["Cleave"] = {
-									["count"] = 113650,
-								},
-							},
-							["amount"] = 311255,
-						},
-						["The Prophet Tharon'ja"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 60490,
-								},
-								["Chaos Bane"] = {
-									["count"] = 1811,
-								},
-								["Slam"] = {
-									["count"] = 4909,
-								},
-								["Whirlwind"] = {
-									["count"] = 28046,
-								},
-								["Fire Shield"] = {
-									["count"] = 168,
-								},
-								["Bloodthirst"] = {
-									["count"] = 61004,
-								},
-								["Touch of Life"] = {
-									["count"] = 4624,
-								},
-								["Deep Wounds (DoT)"] = {
-									["count"] = 22456,
-								},
-								["Slaying Strike"] = {
-									["count"] = 5348,
-								},
-								["Heroic Strike"] = {
-									["count"] = 53317,
-								},
-							},
-							["amount"] = 242173,
+							["amount"] = 136,
 						},
 					},
 					["TimeDamage"] = 63.24,
@@ -53012,13 +53013,13 @@ RecountPerCharDB = {
 						},
 						["Drakkari Gutripper"] = {
 							["Details"] = {
-								["Deep Wounds (DoT)"] = {
+								["Rend (DoT)"] = {
 									["count"] = 0,
 								},
 								["Thunder Clap"] = {
 									["count"] = 0,
 								},
-								["Rend (DoT)"] = {
+								["Melee"] = {
 									["count"] = 0,
 								},
 								["Cleave"] = {
@@ -53033,7 +53034,7 @@ RecountPerCharDB = {
 								["Chaos Bane"] = {
 									["count"] = 0,
 								},
-								["Melee"] = {
+								["Deep Wounds (DoT)"] = {
 									["count"] = 0,
 								},
 							},
@@ -53110,17 +53111,17 @@ RecountPerCharDB = {
 						},
 						["Risen Drakkari Death Knight"] = {
 							["Details"] = {
-								["Deep Wounds (DoT)"] = {
-									["count"] = 12.77,
+								["Melee"] = {
+									["count"] = 4.02,
 								},
 								["Bloodthirst"] = {
 									["count"] = 1.51,
 								},
-								["Melee"] = {
-									["count"] = 4.02,
+								["Deep Wounds (DoT)"] = {
+									["count"] = 12.77,
 								},
-								["Chaos Bane"] = {
-									["count"] = 0.15,
+								["Cleave"] = {
+									["count"] = 1.73,
 								},
 								["Slam"] = {
 									["count"] = 1.13,
@@ -53131,8 +53132,8 @@ RecountPerCharDB = {
 								["Fire Shield"] = {
 									["count"] = 0.19,
 								},
-								["Cleave"] = {
-									["count"] = 1.73,
+								["Chaos Bane"] = {
+									["count"] = 0.15,
 								},
 							},
 							["amount"] = 22.11,
@@ -53174,8 +53175,7 @@ RecountPerCharDB = {
 						},
 					},
 					["RunicPowerGain"] = 0,
-					["ElementTakenBlock"] = {
-					},
+					["Damage"] = 553428,
 					["DispelledWho"] = {
 					},
 				},
@@ -53253,6 +53253,13 @@ RecountPerCharDB = {
 					},
 					["DeathCount"] = 0,
 					["HOT_Time"] = 18,
+					["DOT_Time"] = 72,
+					["ManaGain"] = 0,
+					["ElementTaken"] = {
+						["Shadow"] = 2702,
+						["Melee"] = 24868,
+						["Physical"] = 8006,
+					},
 					["HOTs"] = {
 						["Blood Craze"] = {
 							["Details"] = {
@@ -53263,14 +53270,8 @@ RecountPerCharDB = {
 							["amount"] = 18,
 						},
 					},
-					["ManaGain"] = 0,
-					["ElementTaken"] = {
-						["Shadow"] = 2702,
-						["Melee"] = 24868,
-						["Physical"] = 8006,
+					["ElementTakenBlock"] = {
 					},
-					["DOT_Time"] = 72,
-					["Damage"] = 284433,
 					["ElementDoneAbsorb"] = {
 					},
 					["TimeHeal"] = 1.37,
@@ -53285,54 +53286,97 @@ RecountPerCharDB = {
 					},
 					["RageGain"] = 15,
 					["ElementDone"] = {
-						["Physical"] = 261174,
 						["Fire"] = 336,
-						["Melee"] = 20870,
 						["Shadow"] = 2053,
+						["Melee"] = 20870,
+						["Physical"] = 261174,
 					},
 					["ManaGainedFrom"] = {
 					},
-					["ElementHitsDone"] = {
-						["Physical"] = {
+					["DamagedWho"] = {
+						["Risen Drakkari Warrior"] = {
 							["Details"] = {
-								["Hit"] = {
-									["count"] = 30,
+								["Sweeping Strikes"] = {
+									["count"] = 16208,
 								},
-								["Crit"] = {
-									["count"] = 15,
+								["Thunder Clap"] = {
+									["count"] = 4452,
 								},
-								["Tick"] = {
-									["count"] = 24,
+								["Melee"] = {
+									["count"] = 12816,
+								},
+								["Chaos Bane"] = {
+									["count"] = 1004,
+								},
+								["Deep Wounds (DoT)"] = {
+									["count"] = 9457,
+								},
+								["Whirlwind"] = {
+									["count"] = 75255,
+								},
+								["Fire Shield"] = {
+									["count"] = 252,
+								},
+								["Cleave"] = {
+									["count"] = 12657,
 								},
 							},
-							["amount"] = 69,
+							["amount"] = 132101,
 						},
-						["Fire"] = {
+						["Drakkari Guardian"] = {
 							["Details"] = {
-								["Hit"] = {
-									["count"] = 8,
+								["Sweeping Strikes"] = {
+									["count"] = 4179,
+								},
+								["Thunder Clap"] = {
+									["count"] = 1388,
+								},
+								["Deep Wounds (DoT)"] = {
+									["count"] = 6340,
+								},
+								["Chaos Bane"] = {
+									["count"] = 523,
+								},
+								["Whirlwind"] = {
+									["count"] = 54830,
+								},
+								["Cleave"] = {
+									["count"] = 9638,
 								},
 							},
-							["amount"] = 8,
+							["amount"] = 76898,
 						},
-						["Melee"] = {
+						["Risen Drakkari Death Knight"] = {
 							["Details"] = {
-								["Crit"] = {
-									["count"] = 1,
+								["Deep Wounds (DoT)"] = {
+									["count"] = 4051,
 								},
-								["Hit"] = {
-									["count"] = 3,
+								["Chaos Bane"] = {
+									["count"] = 526,
+								},
+								["Execute"] = {
+									["count"] = 8210,
+								},
+								["Whirlwind"] = {
+									["count"] = 31811,
+								},
+								["Fire Shield"] = {
+									["count"] = 84,
+								},
+								["Mortal Strike"] = {
+									["count"] = 11224,
+								},
+								["Thunder Clap"] = {
+									["count"] = 3057,
+								},
+								["Melee"] = {
+									["count"] = 8054,
+								},
+								["Cleave"] = {
+									["count"] = 8417,
 								},
 							},
-							["amount"] = 4,
-						},
-						["Shadow"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 4,
-								},
-							},
-							["amount"] = 4,
+							["amount"] = 75434,
 						},
 					},
 					["RageGained"] = {
@@ -53379,22 +53423,6 @@ RecountPerCharDB = {
 					},
 					["EnergyGainedFrom"] = {
 					},
-					["Dispelled"] = 0,
-					["RunicPowerGained"] = {
-					},
-					["ElementDoneBlock"] = {
-						["Physical"] = 40,
-					},
-					["TimeHealing"] = {
-						["Rimgar"] = {
-							["Details"] = {
-								["Blood Craze"] = {
-									["count"] = 1.37,
-								},
-							},
-							["amount"] = 1.37,
-						},
-					},
 					["OverHeals"] = {
 						["Blood Craze"] = {
 							["Details"] = {
@@ -53409,6 +53437,22 @@ RecountPerCharDB = {
 							["amount"] = 1063,
 						},
 					},
+					["CCBroken"] = {
+					},
+					["ElementDoneBlock"] = {
+						["Physical"] = 40,
+					},
+					["TimeHealing"] = {
+						["Rimgar"] = {
+							["Details"] = {
+								["Blood Craze"] = {
+									["count"] = 1.37,
+								},
+							},
+							["amount"] = 1.37,
+						},
+					},
+					["Dispelled"] = 0,
 					["WhoHealed"] = {
 						["Ninimagic"] = {
 							["Details"] = {
@@ -53430,71 +53474,6 @@ RecountPerCharDB = {
 							["amount"] = 1217,
 						},
 					},
-					["EnergyGain"] = 0,
-					["CCBreak"] = 0,
-					["PartialAbsorb"] = {
-						["Melee"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 13,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 13,
-							["amount"] = 0,
-						},
-						["Deafening Roar"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 0,
-						},
-						["Ghost Strike"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 5,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 5,
-							["amount"] = 0,
-						},
-						["Shadow Void (DoT)"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 0,
-						},
-						["Hamstring"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 0,
-						},
-					},
-					["ActiveTime"] = 18.86,
 					["PartialResist"] = {
 						["Melee"] = {
 							["Details"] = {
@@ -53557,11 +53536,15 @@ RecountPerCharDB = {
 							["amount"] = 0,
 						},
 					},
+					["CCBreak"] = 0,
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["EnergyGain"] = 0,
 					["ManaGained"] = {
 					},
 					["ElementTakenAbsorb"] = {
 					},
-					["Interrupts"] = 0,
+					["ActiveTime"] = 18.86,
 					["Overhealing"] = 1063,
 					["ElementTakenResist"] = {
 					},
@@ -53677,7 +53660,68 @@ RecountPerCharDB = {
 							["amount"] = 1217,
 						},
 					},
-					["FDamage"] = 0,
+					["PartialAbsorb"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 13,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 13,
+							["amount"] = 0,
+						},
+						["Deafening Roar"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+						["Ghost Strike"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 5,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 5,
+							["amount"] = 0,
+						},
+						["Shadow Void (DoT)"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+						["Hamstring"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+					},
 					["EnergyGained"] = {
 					},
 					["HealedWho"] = {
@@ -53691,9 +53735,9 @@ RecountPerCharDB = {
 						},
 					},
 					["Healing"] = 1217,
-					["RunicPowerGainedFrom"] = {
+					["RunicPowerGained"] = {
 					},
-					["CCBroken"] = {
+					["RunicPowerGainedFrom"] = {
 					},
 					["Attacks"] = {
 						["Deep Wounds (DoT)"] = {
@@ -53848,90 +53892,47 @@ RecountPerCharDB = {
 						},
 					},
 					["HealingTaken"] = 39413,
-					["DamagedWho"] = {
-						["Risen Drakkari Warrior"] = {
+					["ElementHitsDone"] = {
+						["Fire"] = {
 							["Details"] = {
-								["Sweeping Strikes"] = {
-									["count"] = 16208,
-								},
-								["Thunder Clap"] = {
-									["count"] = 4452,
-								},
-								["Melee"] = {
-									["count"] = 12816,
-								},
-								["Chaos Bane"] = {
-									["count"] = 1004,
-								},
-								["Deep Wounds (DoT)"] = {
-									["count"] = 9457,
-								},
-								["Whirlwind"] = {
-									["count"] = 75255,
-								},
-								["Fire Shield"] = {
-									["count"] = 252,
-								},
-								["Cleave"] = {
-									["count"] = 12657,
+								["Hit"] = {
+									["count"] = 8,
 								},
 							},
-							["amount"] = 132101,
+							["amount"] = 8,
 						},
-						["Drakkari Guardian"] = {
+						["Shadow"] = {
 							["Details"] = {
-								["Sweeping Strikes"] = {
-									["count"] = 4179,
-								},
-								["Thunder Clap"] = {
-									["count"] = 1388,
-								},
-								["Deep Wounds (DoT)"] = {
-									["count"] = 6340,
-								},
-								["Chaos Bane"] = {
-									["count"] = 523,
-								},
-								["Whirlwind"] = {
-									["count"] = 54830,
-								},
-								["Cleave"] = {
-									["count"] = 9638,
+								["Hit"] = {
+									["count"] = 4,
 								},
 							},
-							["amount"] = 76898,
+							["amount"] = 4,
 						},
-						["Risen Drakkari Death Knight"] = {
+						["Melee"] = {
 							["Details"] = {
-								["Deep Wounds (DoT)"] = {
-									["count"] = 4051,
+								["Crit"] = {
+									["count"] = 1,
 								},
-								["Chaos Bane"] = {
-									["count"] = 526,
-								},
-								["Execute"] = {
-									["count"] = 8210,
-								},
-								["Whirlwind"] = {
-									["count"] = 31811,
-								},
-								["Fire Shield"] = {
-									["count"] = 84,
-								},
-								["Mortal Strike"] = {
-									["count"] = 11224,
-								},
-								["Thunder Clap"] = {
-									["count"] = 3057,
-								},
-								["Melee"] = {
-									["count"] = 8054,
-								},
-								["Cleave"] = {
-									["count"] = 8417,
+								["Hit"] = {
+									["count"] = 3,
 								},
 							},
-							["amount"] = 75434,
+							["amount"] = 4,
+						},
+						["Physical"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 30,
+								},
+								["Crit"] = {
+									["count"] = 15,
+								},
+								["Tick"] = {
+									["count"] = 24,
+								},
+							},
+							["amount"] = 69,
 						},
 					},
 					["TimeDamage"] = 17.49,
@@ -54022,8 +54023,7 @@ RecountPerCharDB = {
 						},
 					},
 					["RunicPowerGain"] = 0,
-					["ElementTakenBlock"] = {
-					},
+					["Damage"] = 284433,
 					["DispelledWho"] = {
 					},
 				},
@@ -54084,11 +54084,11 @@ RecountPerCharDB = {
 								["Unbridled Wrath"] = {
 									["count"] = 25,
 								},
-								["Glyph of Heroic Strike"] = {
-									["count"] = 40,
-								},
 								["Second Wind"] = {
 									["count"] = 0,
+								},
+								["Glyph of Heroic Strike"] = {
+									["count"] = 40,
 								},
 							},
 							["amount"] = 95,
@@ -54159,6 +54159,15 @@ RecountPerCharDB = {
 					},
 					["DeathCount"] = 0,
 					["HOT_Time"] = 0,
+					["DOT_Time"] = 216,
+					["ManaGain"] = 0,
+					["ElementTaken"] = {
+						["Physical"] = 8904,
+						["Melee"] = 20446,
+						["Shadow"] = 8430,
+						["Frost"] = 6985,
+						["Nature"] = 2416,
+					},
 					["HOTs"] = {
 						["Second Wind"] = {
 							["Details"] = {
@@ -54169,16 +54178,8 @@ RecountPerCharDB = {
 							["amount"] = 0,
 						},
 					},
-					["ManaGain"] = 0,
-					["ElementTaken"] = {
-						["Physical"] = 8904,
-						["Melee"] = 20446,
-						["Shadow"] = 8430,
-						["Frost"] = 6985,
-						["Nature"] = 2416,
+					["ElementTakenBlock"] = {
 					},
-					["DOT_Time"] = 216,
-					["Damage"] = 553428,
 					["ElementDoneAbsorb"] = {
 					},
 					["TimeHeal"] = 13.41,
@@ -54193,60 +54194,201 @@ RecountPerCharDB = {
 					},
 					["RageGain"] = 95,
 					["ElementDone"] = {
-						["Physical"] = 461450,
 						["Shadow"] = 8442,
-						["Melee"] = 83156,
 						["Fire"] = 380,
+						["Melee"] = 83156,
+						["Physical"] = 461450,
 					},
 					["ManaGainedFrom"] = {
 					},
-					["ElementHitsDone"] = {
-						["Physical"] = {
+					["DamagedWho"] = {
+						["Risen Drakkari Warrior"] = {
 							["Details"] = {
-								["Tick"] = {
-									["count"] = 72,
+								["Mortal Strike"] = {
+									["count"] = 0,
 								},
-								["Crit"] = {
-									["count"] = 32,
+								["Deep Wounds (DoT)"] = {
+									["count"] = 0,
 								},
-								["Hit"] = {
-									["count"] = 32,
+								["Chaos Bane"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Overpower"] = {
+									["count"] = 0,
+								},
+								["Cleave"] = {
+									["count"] = 0,
+								},
+								["Rend (DoT)"] = {
+									["count"] = 0,
 								},
 							},
-							["amount"] = 136,
+							["amount"] = 0,
 						},
-						["Shadow"] = {
+						["Drakkari Gutripper"] = {
 							["Details"] = {
-								["Hit"] = {
-									["count"] = 9,
+								["Rend (DoT)"] = {
+									["count"] = 0,
+								},
+								["Thunder Clap"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Cleave"] = {
+									["count"] = 0,
+								},
+								["Execute"] = {
+									["count"] = 0,
+								},
+								["Overpower"] = {
+									["count"] = 0,
+								},
+								["Chaos Bane"] = {
+									["count"] = 0,
+								},
+								["Deep Wounds (DoT)"] = {
+									["count"] = 0,
 								},
 							},
-							["amount"] = 9,
+							["amount"] = 0,
 						},
-						["Melee"] = {
+						["Drakkari Raptor Mount"] = {
 							["Details"] = {
-								["Glancing"] = {
-									["count"] = 2,
+								["Sweeping Strikes"] = {
+									["count"] = 0,
 								},
-								["Hit"] = {
-									["count"] = 3,
-								},
-								["Crit"] = {
-									["count"] = 14,
-								},
-								["Miss"] = {
-									["count"] = 1,
+								["Cleave"] = {
+									["count"] = 0,
 								},
 							},
-							["amount"] = 20,
+							["amount"] = 0,
 						},
-						["Fire"] = {
+						["Risen Drakkari Handler"] = {
 							["Details"] = {
-								["Hit"] = {
-									["count"] = 5,
+								["Mortal Strike"] = {
+									["count"] = 0,
+								},
+								["Thunder Clap"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Cleave"] = {
+									["count"] = 0,
+								},
+								["Overpower"] = {
+									["count"] = 0,
+								},
+								["Deep Wounds (DoT)"] = {
+									["count"] = 0,
+								},
+								["Rend (DoT)"] = {
+									["count"] = 0,
 								},
 							},
-							["amount"] = 5,
+							["amount"] = 0,
+						},
+						["Wretched Belcher"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Cleave"] = {
+									["count"] = 0,
+								},
+								["Execute"] = {
+									["count"] = 0,
+								},
+								["Fire Shield"] = {
+									["count"] = 0,
+								},
+								["Mortal Strike"] = {
+									["count"] = 0,
+								},
+								["Rend (DoT)"] = {
+									["count"] = 0,
+								},
+								["Overpower"] = {
+									["count"] = 0,
+								},
+								["Chaos Bane"] = {
+									["count"] = 0,
+								},
+								["Deep Wounds (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Risen Drakkari Death Knight"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 22666,
+								},
+								["Bloodthirst"] = {
+									["count"] = 34233,
+								},
+								["Deep Wounds (DoT)"] = {
+									["count"] = 20962,
+								},
+								["Cleave"] = {
+									["count"] = 113650,
+								},
+								["Slam"] = {
+									["count"] = 24862,
+								},
+								["Whirlwind"] = {
+									["count"] = 92663,
+								},
+								["Fire Shield"] = {
+									["count"] = 212,
+								},
+								["Chaos Bane"] = {
+									["count"] = 2007,
+								},
+							},
+							["amount"] = 311255,
+						},
+						["The Prophet Tharon'ja"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 60490,
+								},
+								["Chaos Bane"] = {
+									["count"] = 1811,
+								},
+								["Slam"] = {
+									["count"] = 4909,
+								},
+								["Whirlwind"] = {
+									["count"] = 28046,
+								},
+								["Fire Shield"] = {
+									["count"] = 168,
+								},
+								["Bloodthirst"] = {
+									["count"] = 61004,
+								},
+								["Touch of Life"] = {
+									["count"] = 4624,
+								},
+								["Deep Wounds (DoT)"] = {
+									["count"] = 22456,
+								},
+								["Slaying Strike"] = {
+									["count"] = 5348,
+								},
+								["Heroic Strike"] = {
+									["count"] = 53317,
+								},
+							},
+							["amount"] = 242173,
 						},
 					},
 					["RageGained"] = {
@@ -54266,14 +54408,6 @@ RecountPerCharDB = {
 							},
 							["amount"] = 25,
 						},
-						["Glyph of Heroic Strike"] = {
-							["Details"] = {
-								["Rimgar"] = {
-									["count"] = 40,
-								},
-							},
-							["amount"] = 40,
-						},
 						["Second Wind"] = {
 							["Details"] = {
 								["Rimgar"] = {
@@ -54281,6 +54415,14 @@ RecountPerCharDB = {
 								},
 							},
 							["amount"] = 0,
+						},
+						["Glyph of Heroic Strike"] = {
+							["Details"] = {
+								["Rimgar"] = {
+									["count"] = 40,
+								},
+							},
+							["amount"] = 40,
 						},
 					},
 					["WhoDamaged"] = {
@@ -54343,28 +54485,6 @@ RecountPerCharDB = {
 					},
 					["EnergyGainedFrom"] = {
 					},
-					["Dispelled"] = 0,
-					["RunicPowerGained"] = {
-					},
-					["ElementDoneBlock"] = {
-						["Physical"] = 40,
-					},
-					["TimeHealing"] = {
-						["Rimgar"] = {
-							["Details"] = {
-								["Touch of Life"] = {
-									["count"] = 6.960000000000001,
-								},
-								["Bloodthirst"] = {
-									["count"] = 6.45,
-								},
-								["Second Wind"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 13.41,
-						},
-					},
 					["OverHeals"] = {
 						["Second Wind"] = {
 							["Details"] = {
@@ -54391,6 +54511,28 @@ RecountPerCharDB = {
 							["amount"] = 362,
 						},
 					},
+					["CCBroken"] = {
+					},
+					["ElementDoneBlock"] = {
+						["Physical"] = 40,
+					},
+					["TimeHealing"] = {
+						["Rimgar"] = {
+							["Details"] = {
+								["Touch of Life"] = {
+									["count"] = 6.960000000000001,
+								},
+								["Bloodthirst"] = {
+									["count"] = 6.45,
+								},
+								["Second Wind"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 13.41,
+						},
+					},
+					["Dispelled"] = 0,
 					["WhoHealed"] = {
 						["Ninimagic"] = {
 							["Details"] = {
@@ -54424,143 +54566,6 @@ RecountPerCharDB = {
 							["amount"] = 12670,
 						},
 					},
-					["EnergyGain"] = 0,
-					["CCBreak"] = 0,
-					["PartialAbsorb"] = {
-						["Bile Vomit (DoT)"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 6,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 6,
-							["amount"] = 0,
-						},
-						["Deafening Roar"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 4,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 4,
-							["amount"] = 0,
-						},
-						["Ghost Strike"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Disease Cloud"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Bile Vomit"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Icy Touch"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 2,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 2,
-							["amount"] = 0,
-						},
-						["Shadow Volley"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 2,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 2,
-							["amount"] = 0,
-						},
-						["Hooked Net"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Poison Cloud (DoT)"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 2,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 2,
-							["amount"] = 0,
-						},
-						["Fear"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 0,
-						},
-					},
-					["ActiveTime"] = 76.64999999999998,
 					["PartialResist"] = {
 						["Bile Vomit (DoT)"] = {
 							["Details"] = {
@@ -54719,11 +54724,15 @@ RecountPerCharDB = {
 							["amount"] = 0,
 						},
 					},
+					["CCBreak"] = 0,
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["EnergyGain"] = 0,
 					["ManaGained"] = {
 					},
 					["ElementTakenAbsorb"] = {
 					},
-					["Interrupts"] = 0,
+					["ActiveTime"] = 76.64999999999998,
 					["Overhealing"] = 362,
 					["ElementTakenResist"] = {
 						["Frost"] = 2310,
@@ -54771,13 +54780,13 @@ RecountPerCharDB = {
 						},
 						["Drakkari Gutripper"] = {
 							["Details"] = {
-								["Deep Wounds (DoT)"] = {
+								["Rend (DoT)"] = {
 									["count"] = 0,
 								},
 								["Thunder Clap"] = {
 									["count"] = 0,
 								},
-								["Rend (DoT)"] = {
+								["Melee"] = {
 									["count"] = 0,
 								},
 								["Cleave"] = {
@@ -54792,18 +54801,7 @@ RecountPerCharDB = {
 								["Chaos Bane"] = {
 									["count"] = 0,
 								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Drakkari Raptor Mount"] = {
-							["Details"] = {
-								["Sweeping Strikes"] = {
-									["count"] = 0,
-								},
-								["Cleave"] = {
+								["Deep Wounds (DoT)"] = {
 									["count"] = 0,
 								},
 							},
@@ -54834,6 +54832,41 @@ RecountPerCharDB = {
 								},
 							},
 							["amount"] = 0,
+						},
+						["The Prophet Tharon'ja"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 10.8,
+								},
+								["Chaos Bane"] = {
+									["count"] = 0.22,
+								},
+								["Slam"] = {
+									["count"] = 0,
+								},
+								["Whirlwind"] = {
+									["count"] = 0,
+								},
+								["Fire Shield"] = {
+									["count"] = 0.42,
+								},
+								["Bloodthirst"] = {
+									["count"] = 2.44,
+								},
+								["Touch of Life"] = {
+									["count"] = 0,
+								},
+								["Deep Wounds (DoT)"] = {
+									["count"] = 17.47,
+								},
+								["Slaying Strike"] = {
+									["count"] = 8.91,
+								},
+								["Heroic Strike"] = {
+									["count"] = 0.8700000000000001,
+								},
+							},
+							["amount"] = 41.13,
 						},
 						["Wretched Belcher"] = {
 							["Details"] = {
@@ -54883,17 +54916,17 @@ RecountPerCharDB = {
 						},
 						["Risen Drakkari Death Knight"] = {
 							["Details"] = {
-								["Deep Wounds (DoT)"] = {
-									["count"] = 12.77,
+								["Melee"] = {
+									["count"] = 4.02,
 								},
 								["Bloodthirst"] = {
 									["count"] = 1.51,
 								},
-								["Melee"] = {
-									["count"] = 4.02,
+								["Deep Wounds (DoT)"] = {
+									["count"] = 12.77,
 								},
-								["Chaos Bane"] = {
-									["count"] = 0.15,
+								["Cleave"] = {
+									["count"] = 1.73,
 								},
 								["Slam"] = {
 									["count"] = 1.13,
@@ -54904,46 +54937,22 @@ RecountPerCharDB = {
 								["Fire Shield"] = {
 									["count"] = 0.19,
 								},
-								["Cleave"] = {
-									["count"] = 1.73,
+								["Chaos Bane"] = {
+									["count"] = 0.15,
 								},
 							},
 							["amount"] = 22.11,
 						},
-						["The Prophet Tharon'ja"] = {
+						["Drakkari Raptor Mount"] = {
 							["Details"] = {
-								["Melee"] = {
-									["count"] = 10.8,
-								},
-								["Chaos Bane"] = {
-									["count"] = 0.22,
-								},
-								["Slam"] = {
+								["Sweeping Strikes"] = {
 									["count"] = 0,
 								},
-								["Whirlwind"] = {
+								["Cleave"] = {
 									["count"] = 0,
-								},
-								["Fire Shield"] = {
-									["count"] = 0.42,
-								},
-								["Bloodthirst"] = {
-									["count"] = 2.44,
-								},
-								["Touch of Life"] = {
-									["count"] = 0,
-								},
-								["Deep Wounds (DoT)"] = {
-									["count"] = 17.47,
-								},
-								["Slaying Strike"] = {
-									["count"] = 8.91,
-								},
-								["Heroic Strike"] = {
-									["count"] = 0.8700000000000001,
 								},
 							},
-							["amount"] = 41.13,
+							["amount"] = 0,
 						},
 					},
 					["Heals"] = {
@@ -54984,7 +54993,140 @@ RecountPerCharDB = {
 							["amount"] = 0,
 						},
 					},
-					["FDamage"] = 0,
+					["PartialAbsorb"] = {
+						["Bile Vomit (DoT)"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 6,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 6,
+							["amount"] = 0,
+						},
+						["Deafening Roar"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 4,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 4,
+							["amount"] = 0,
+						},
+						["Ghost Strike"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Disease Cloud"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Bile Vomit"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Icy Touch"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 0,
+						},
+						["Shadow Volley"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 0,
+						},
+						["Hooked Net"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Poison Cloud (DoT)"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 0,
+						},
+						["Fear"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+					},
 					["EnergyGained"] = {
 					},
 					["HealedWho"] = {
@@ -55004,9 +55146,9 @@ RecountPerCharDB = {
 						},
 					},
 					["Healing"] = 12670,
-					["RunicPowerGainedFrom"] = {
+					["RunicPowerGained"] = {
 					},
-					["CCBroken"] = {
+					["RunicPowerGainedFrom"] = {
 					},
 					["Attacks"] = {
 						["Cleave"] = {
@@ -55279,194 +55421,53 @@ RecountPerCharDB = {
 						},
 					},
 					["HealingTaken"] = 49852,
-					["DamagedWho"] = {
-						["Risen Drakkari Warrior"] = {
+					["ElementHitsDone"] = {
+						["Shadow"] = {
 							["Details"] = {
-								["Mortal Strike"] = {
-									["count"] = 0,
-								},
-								["Deep Wounds (DoT)"] = {
-									["count"] = 0,
-								},
-								["Chaos Bane"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Overpower"] = {
-									["count"] = 0,
-								},
-								["Cleave"] = {
-									["count"] = 0,
-								},
-								["Rend (DoT)"] = {
-									["count"] = 0,
+								["Hit"] = {
+									["count"] = 9,
 								},
 							},
-							["amount"] = 0,
+							["amount"] = 9,
 						},
-						["Drakkari Gutripper"] = {
+						["Fire"] = {
 							["Details"] = {
-								["Deep Wounds (DoT)"] = {
-									["count"] = 0,
-								},
-								["Thunder Clap"] = {
-									["count"] = 0,
-								},
-								["Rend (DoT)"] = {
-									["count"] = 0,
-								},
-								["Cleave"] = {
-									["count"] = 0,
-								},
-								["Execute"] = {
-									["count"] = 0,
-								},
-								["Overpower"] = {
-									["count"] = 0,
-								},
-								["Chaos Bane"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
+								["Hit"] = {
+									["count"] = 5,
 								},
 							},
-							["amount"] = 0,
+							["amount"] = 5,
 						},
-						["Drakkari Raptor Mount"] = {
+						["Melee"] = {
 							["Details"] = {
-								["Sweeping Strikes"] = {
-									["count"] = 0,
+								["Glancing"] = {
+									["count"] = 2,
 								},
-								["Cleave"] = {
-									["count"] = 0,
+								["Hit"] = {
+									["count"] = 3,
+								},
+								["Crit"] = {
+									["count"] = 14,
+								},
+								["Miss"] = {
+									["count"] = 1,
 								},
 							},
-							["amount"] = 0,
+							["amount"] = 20,
 						},
-						["Risen Drakkari Handler"] = {
+						["Physical"] = {
 							["Details"] = {
-								["Mortal Strike"] = {
-									["count"] = 0,
+								["Tick"] = {
+									["count"] = 72,
 								},
-								["Thunder Clap"] = {
-									["count"] = 0,
+								["Crit"] = {
+									["count"] = 32,
 								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Cleave"] = {
-									["count"] = 0,
-								},
-								["Overpower"] = {
-									["count"] = 0,
-								},
-								["Deep Wounds (DoT)"] = {
-									["count"] = 0,
-								},
-								["Rend (DoT)"] = {
-									["count"] = 0,
+								["Hit"] = {
+									["count"] = 32,
 								},
 							},
-							["amount"] = 0,
-						},
-						["Wretched Belcher"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Cleave"] = {
-									["count"] = 0,
-								},
-								["Execute"] = {
-									["count"] = 0,
-								},
-								["Fire Shield"] = {
-									["count"] = 0,
-								},
-								["Mortal Strike"] = {
-									["count"] = 0,
-								},
-								["Rend (DoT)"] = {
-									["count"] = 0,
-								},
-								["Overpower"] = {
-									["count"] = 0,
-								},
-								["Chaos Bane"] = {
-									["count"] = 0,
-								},
-								["Deep Wounds (DoT)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Risen Drakkari Death Knight"] = {
-							["Details"] = {
-								["Deep Wounds (DoT)"] = {
-									["count"] = 20962,
-								},
-								["Bloodthirst"] = {
-									["count"] = 34233,
-								},
-								["Melee"] = {
-									["count"] = 22666,
-								},
-								["Chaos Bane"] = {
-									["count"] = 2007,
-								},
-								["Slam"] = {
-									["count"] = 24862,
-								},
-								["Whirlwind"] = {
-									["count"] = 92663,
-								},
-								["Fire Shield"] = {
-									["count"] = 212,
-								},
-								["Cleave"] = {
-									["count"] = 113650,
-								},
-							},
-							["amount"] = 311255,
-						},
-						["The Prophet Tharon'ja"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 60490,
-								},
-								["Chaos Bane"] = {
-									["count"] = 1811,
-								},
-								["Slam"] = {
-									["count"] = 4909,
-								},
-								["Whirlwind"] = {
-									["count"] = 28046,
-								},
-								["Fire Shield"] = {
-									["count"] = 168,
-								},
-								["Bloodthirst"] = {
-									["count"] = 61004,
-								},
-								["Touch of Life"] = {
-									["count"] = 4624,
-								},
-								["Deep Wounds (DoT)"] = {
-									["count"] = 22456,
-								},
-								["Slaying Strike"] = {
-									["count"] = 5348,
-								},
-								["Heroic Strike"] = {
-									["count"] = 53317,
-								},
-							},
-							["amount"] = 242173,
+							["amount"] = 136,
 						},
 					},
 					["TimeDamage"] = 63.24,
@@ -55499,13 +55500,13 @@ RecountPerCharDB = {
 						},
 						["Drakkari Gutripper"] = {
 							["Details"] = {
-								["Deep Wounds (DoT)"] = {
+								["Rend (DoT)"] = {
 									["count"] = 0,
 								},
 								["Thunder Clap"] = {
 									["count"] = 0,
 								},
-								["Rend (DoT)"] = {
+								["Melee"] = {
 									["count"] = 0,
 								},
 								["Cleave"] = {
@@ -55520,7 +55521,7 @@ RecountPerCharDB = {
 								["Chaos Bane"] = {
 									["count"] = 0,
 								},
-								["Melee"] = {
+								["Deep Wounds (DoT)"] = {
 									["count"] = 0,
 								},
 							},
@@ -55597,17 +55598,17 @@ RecountPerCharDB = {
 						},
 						["Risen Drakkari Death Knight"] = {
 							["Details"] = {
-								["Deep Wounds (DoT)"] = {
-									["count"] = 12.77,
+								["Melee"] = {
+									["count"] = 4.02,
 								},
 								["Bloodthirst"] = {
 									["count"] = 1.51,
 								},
-								["Melee"] = {
-									["count"] = 4.02,
+								["Deep Wounds (DoT)"] = {
+									["count"] = 12.77,
 								},
-								["Chaos Bane"] = {
-									["count"] = 0.15,
+								["Cleave"] = {
+									["count"] = 1.73,
 								},
 								["Slam"] = {
 									["count"] = 1.13,
@@ -55618,8 +55619,8 @@ RecountPerCharDB = {
 								["Fire Shield"] = {
 									["count"] = 0.19,
 								},
-								["Cleave"] = {
-									["count"] = 1.73,
+								["Chaos Bane"] = {
+									["count"] = 0.15,
 								},
 							},
 							["amount"] = 22.11,
@@ -55661,8 +55662,7 @@ RecountPerCharDB = {
 						},
 					},
 					["RunicPowerGain"] = 0,
-					["ElementTakenBlock"] = {
-					},
+					["Damage"] = 553428,
 					["DispelledWho"] = {
 					},
 				},
@@ -55740,15 +55740,16 @@ RecountPerCharDB = {
 					},
 					["DeathCount"] = 0,
 					["HOT_Time"] = 0,
-					["HOTs"] = {
-					},
+					["DOT_Time"] = 66,
 					["ManaGain"] = 0,
 					["ElementTaken"] = {
 						["Melee"] = 0,
 						["Physical"] = 0,
 					},
-					["DOT_Time"] = 66,
-					["Damage"] = 142423,
+					["HOTs"] = {
+					},
+					["ElementTakenBlock"] = {
+					},
 					["ElementDoneAbsorb"] = {
 					},
 					["TimeHeal"] = 0,
@@ -55763,54 +55764,136 @@ RecountPerCharDB = {
 					},
 					["RageGain"] = 0,
 					["ElementDone"] = {
-						["Fire"] = 0,
 						["Physical"] = 119908,
-						["Melee"] = 22515,
 						["Shadow"] = 0,
+						["Melee"] = 22515,
+						["Fire"] = 0,
 					},
 					["ManaGainedFrom"] = {
 					},
-					["ElementHitsDone"] = {
-						["Fire"] = {
+					["DamagedWho"] = {
+						["Risen Drakkari Warrior"] = {
 							["Details"] = {
-								["Hit"] = {
+								["Execute"] = {
+									["count"] = 10507,
+								},
+								["Thunder Clap"] = {
+									["count"] = 3418,
+								},
+								["Deep Wounds (DoT)"] = {
+									["count"] = 4080,
+								},
+								["Cleave"] = {
+									["count"] = 16205,
+								},
+							},
+							["amount"] = 34210,
+						},
+						["Drakkari Bat"] = {
+							["Details"] = {
+								["Sweeping Strikes"] = {
+									["count"] = 0,
+								},
+								["Whirlwind"] = {
+									["count"] = 0,
+								},
+								["Chaos Bane"] = {
 									["count"] = 0,
 								},
 							},
 							["amount"] = 0,
 						},
-						["Physical"] = {
+						["Risen Drakkari Bat Rider"] = {
 							["Details"] = {
-								["Hit"] = {
-									["count"] = 6,
+								["Mortal Strike"] = {
+									["count"] = 0,
 								},
-								["Crit"] = {
-									["count"] = 10,
+								["Melee"] = {
+									["count"] = 0,
 								},
-								["Tick"] = {
-									["count"] = 22,
+								["Chaos Bane"] = {
+									["count"] = 0,
 								},
-							},
-							["amount"] = 38,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["Crit"] = {
-									["count"] = 2,
+								["Deep Wounds (DoT)"] = {
+									["count"] = 0,
 								},
-								["Hit"] = {
-									["count"] = 1,
+								["Whirlwind"] = {
+									["count"] = 0,
 								},
-							},
-							["amount"] = 3,
-						},
-						["Shadow"] = {
-							["Details"] = {
-								["Hit"] = {
+								["Rend (DoT)"] = {
+									["count"] = 0,
+								},
+								["Sweeping Strikes"] = {
 									["count"] = 0,
 								},
 							},
 							["amount"] = 0,
+						},
+						["Flesheating Ghoul"] = {
+							["Details"] = {
+								["Sweeping Strikes"] = {
+									["count"] = 0,
+								},
+								["Execute"] = {
+									["count"] = 0,
+								},
+								["Cleave"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Ghoul Tormentor"] = {
+							["Details"] = {
+								["Sweeping Strikes"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Cleave"] = {
+									["count"] = 0,
+								},
+								["Deep Wounds (DoT)"] = {
+									["count"] = 0,
+								},
+								["Fire Shield"] = {
+									["count"] = 0,
+								},
+								["Mortal Strike"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Drakkari Guardian"] = {
+							["Details"] = {
+								["Mortal Strike"] = {
+									["count"] = 25966,
+								},
+								["Thunder Clap"] = {
+									["count"] = 2127,
+								},
+								["Melee"] = {
+									["count"] = 22515,
+								},
+								["Cleave"] = {
+									["count"] = 26838,
+								},
+								["Execute"] = {
+									["count"] = 12867,
+								},
+								["Overpower"] = {
+									["count"] = 9253,
+								},
+								["Rend (DoT)"] = {
+									["count"] = 3634,
+								},
+								["Deep Wounds (DoT)"] = {
+									["count"] = 5013,
+								},
+							},
+							["amount"] = 108213,
 						},
 					},
 					["RageGained"] = {
@@ -55846,16 +55929,16 @@ RecountPerCharDB = {
 					},
 					["EnergyGainedFrom"] = {
 					},
-					["Dispelled"] = 0,
-					["RunicPowerGained"] = {
+					["OverHeals"] = {
+					},
+					["CCBroken"] = {
 					},
 					["ElementDoneBlock"] = {
 						["Physical"] = 0,
 					},
 					["TimeHealing"] = {
 					},
-					["OverHeals"] = {
-					},
+					["Dispelled"] = 0,
 					["WhoHealed"] = {
 						["Ninimagic"] = {
 							["Details"] = {
@@ -55866,35 +55949,6 @@ RecountPerCharDB = {
 							["amount"] = 0,
 						},
 					},
-					["EnergyGain"] = 0,
-					["CCBreak"] = 0,
-					["PartialAbsorb"] = {
-						["Melee"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Cleave"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["ActiveTime"] = 22.31,
 					["PartialResist"] = {
 						["Melee"] = {
 							["Details"] = {
@@ -55921,11 +55975,15 @@ RecountPerCharDB = {
 							["amount"] = 0,
 						},
 					},
+					["CCBreak"] = 0,
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["EnergyGain"] = 0,
 					["ManaGained"] = {
 					},
 					["ElementTakenAbsorb"] = {
 					},
-					["Interrupts"] = 0,
+					["ActiveTime"] = 22.31,
 					["Overhealing"] = 0,
 					["ElementTakenResist"] = {
 					},
@@ -56060,15 +56118,40 @@ RecountPerCharDB = {
 					},
 					["Heals"] = {
 					},
-					["FDamage"] = 0,
+					["PartialAbsorb"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Cleave"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
 					["EnergyGained"] = {
 					},
 					["HealedWho"] = {
 					},
 					["Healing"] = 0,
-					["RunicPowerGainedFrom"] = {
+					["RunicPowerGained"] = {
 					},
-					["CCBroken"] = {
+					["RunicPowerGainedFrom"] = {
 					},
 					["Attacks"] = {
 						["Deep Wounds (DoT)"] = {
@@ -56259,129 +56342,47 @@ RecountPerCharDB = {
 						},
 					},
 					["HealingTaken"] = 0,
-					["DamagedWho"] = {
-						["Risen Drakkari Warrior"] = {
+					["ElementHitsDone"] = {
+						["Physical"] = {
 							["Details"] = {
-								["Execute"] = {
-									["count"] = 10507,
+								["Hit"] = {
+									["count"] = 6,
 								},
-								["Thunder Clap"] = {
-									["count"] = 3418,
+								["Crit"] = {
+									["count"] = 10,
 								},
-								["Deep Wounds (DoT)"] = {
-									["count"] = 4080,
-								},
-								["Cleave"] = {
-									["count"] = 16205,
+								["Tick"] = {
+									["count"] = 22,
 								},
 							},
-							["amount"] = 34210,
+							["amount"] = 38,
 						},
-						["Drakkari Bat"] = {
+						["Shadow"] = {
 							["Details"] = {
-								["Sweeping Strikes"] = {
-									["count"] = 0,
-								},
-								["Whirlwind"] = {
-									["count"] = 0,
-								},
-								["Chaos Bane"] = {
+								["Hit"] = {
 									["count"] = 0,
 								},
 							},
 							["amount"] = 0,
 						},
-						["Risen Drakkari Bat Rider"] = {
+						["Melee"] = {
 							["Details"] = {
-								["Mortal Strike"] = {
-									["count"] = 0,
+								["Crit"] = {
+									["count"] = 2,
 								},
-								["Melee"] = {
-									["count"] = 0,
+								["Hit"] = {
+									["count"] = 1,
 								},
-								["Chaos Bane"] = {
-									["count"] = 0,
-								},
-								["Deep Wounds (DoT)"] = {
-									["count"] = 0,
-								},
-								["Whirlwind"] = {
-									["count"] = 0,
-								},
-								["Rend (DoT)"] = {
-									["count"] = 0,
-								},
-								["Sweeping Strikes"] = {
+							},
+							["amount"] = 3,
+						},
+						["Fire"] = {
+							["Details"] = {
+								["Hit"] = {
 									["count"] = 0,
 								},
 							},
 							["amount"] = 0,
-						},
-						["Flesheating Ghoul"] = {
-							["Details"] = {
-								["Sweeping Strikes"] = {
-									["count"] = 0,
-								},
-								["Execute"] = {
-									["count"] = 0,
-								},
-								["Cleave"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Ghoul Tormentor"] = {
-							["Details"] = {
-								["Sweeping Strikes"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Cleave"] = {
-									["count"] = 0,
-								},
-								["Deep Wounds (DoT)"] = {
-									["count"] = 0,
-								},
-								["Fire Shield"] = {
-									["count"] = 0,
-								},
-								["Mortal Strike"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Drakkari Guardian"] = {
-							["Details"] = {
-								["Mortal Strike"] = {
-									["count"] = 25966,
-								},
-								["Thunder Clap"] = {
-									["count"] = 2127,
-								},
-								["Melee"] = {
-									["count"] = 22515,
-								},
-								["Cleave"] = {
-									["count"] = 26838,
-								},
-								["Execute"] = {
-									["count"] = 12867,
-								},
-								["Overpower"] = {
-									["count"] = 9253,
-								},
-								["Rend (DoT)"] = {
-									["count"] = 3634,
-								},
-								["Deep Wounds (DoT)"] = {
-									["count"] = 5013,
-								},
-							},
-							["amount"] = 108213,
 						},
 					},
 					["TimeDamage"] = 22.31,
@@ -56511,8 +56512,7 @@ RecountPerCharDB = {
 						},
 					},
 					["RunicPowerGain"] = 0,
-					["ElementTakenBlock"] = {
-					},
+					["Damage"] = 142423,
 					["DispelledWho"] = {
 					},
 				},
@@ -56695,26 +56695,12 @@ RecountPerCharDB = {
 					["Damage"] = 280455,
 					["TimeHeal"] = 3.36,
 					["ElementDone"] = {
-						["Physical"] = 240228,
 						["Shadow"] = 4124,
-						["Melee"] = 35767,
 						["Fire"] = 336,
+						["Melee"] = 35767,
+						["Physical"] = 240228,
 					},
 					["ElementHitsDone"] = {
-						["Physical"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 14,
-								},
-								["Crit"] = {
-									["count"] = 18,
-								},
-								["Tick"] = {
-									["count"] = 46,
-								},
-							},
-							["amount"] = 78,
-						},
 						["Shadow"] = {
 							["Details"] = {
 								["Hit"] = {
@@ -56722,6 +56708,14 @@ RecountPerCharDB = {
 								},
 							},
 							["amount"] = 7,
+						},
+						["Fire"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 8,
+								},
+							},
+							["amount"] = 8,
 						},
 						["Melee"] = {
 							["Details"] = {
@@ -56737,13 +56731,19 @@ RecountPerCharDB = {
 							},
 							["amount"] = 4,
 						},
-						["Fire"] = {
+						["Physical"] = {
 							["Details"] = {
 								["Hit"] = {
-									["count"] = 8,
+									["count"] = 14,
+								},
+								["Crit"] = {
+									["count"] = 18,
+								},
+								["Tick"] = {
+									["count"] = 46,
 								},
 							},
-							["amount"] = 8,
+							["amount"] = 78,
 						},
 					},
 					["WhoDamaged"] = {
@@ -57869,7 +57869,7 @@ RecountPerCharDB = {
 							["amount"] = 0,
 						},
 					},
-					["HealingTaken"] = 53457,
+					["RageGain"] = 60,
 					["Attacks"] = {
 						["Deep Wounds (DoT)"] = {
 							["Details"] = {
@@ -58088,7 +58088,7 @@ RecountPerCharDB = {
 							["amount"] = 10815,
 						},
 					},
-					["RageGain"] = 60,
+					["HealingTaken"] = 53457,
 					["HealedWho"] = {
 						["Rimgar"] = {
 							["Details"] = {
@@ -58671,7 +58671,7 @@ RecountPerCharDB = {
 				1824201.917, -- [49]
 				1824203.407, -- [50]
 			},
-			["LastAbility"] = 27999.068,
+			["LastAbility"] = 1053.213,
 		},
 	},
 	["FightNum"] = 15,

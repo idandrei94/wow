@@ -122,10 +122,11 @@ RecountPerCharDB = {
 				12.41126718018426, -- [34]
 			},
 			["type"] = "Grouped",
+			["LastAbility"] = 1068.818,
 			["Owner"] = false,
 			["TimeLast"] = {
-				["OVERALL"] = 1609154782,
 				["ManaGain"] = 1609154782,
+				["OVERALL"] = 1609154782,
 			},
 			["NextEventNum"] = 35,
 			["LastEventHealthNum"] = {
@@ -201,6 +202,55 @@ RecountPerCharDB = {
 				"Jullio Rejuvenation Ixox Tick +3287 (3287 overheal)", -- [34]
 			},
 			["Name"] = "Ixox",
+			["UnitLockout"] = 1609154722,
+			["Fights"] = {
+				["CurrentFightData"] = {
+					["ManaGain"] = 396,
+					["ManaGainedFrom"] = {
+						["Jullio"] = {
+							["Details"] = {
+								["Revitalize"] = {
+									["count"] = 396,
+								},
+							},
+							["amount"] = 396,
+						},
+					},
+					["ManaGained"] = {
+						["Revitalize"] = {
+							["Details"] = {
+								["Jullio"] = {
+									["count"] = 396,
+								},
+							},
+							["amount"] = 396,
+						},
+					},
+				},
+				["OverallData"] = {
+					["ManaGain"] = 396,
+					["ManaGainedFrom"] = {
+						["Jullio"] = {
+							["Details"] = {
+								["Revitalize"] = {
+									["count"] = 396,
+								},
+							},
+							["amount"] = 396,
+						},
+					},
+					["ManaGained"] = {
+						["Revitalize"] = {
+							["Details"] = {
+								["Jullio"] = {
+									["count"] = 396,
+								},
+							},
+							["amount"] = 396,
+						},
+					},
+				},
+			},
 			["LastEventIncoming"] = {
 				true, -- [1]
 				true, -- [2]
@@ -273,55 +323,6 @@ RecountPerCharDB = {
 				424112.837, -- [33]
 				424114.569, -- [34]
 			},
-			["Fights"] = {
-				["CurrentFightData"] = {
-					["ManaGain"] = 396,
-					["ManaGainedFrom"] = {
-						["Jullio"] = {
-							["Details"] = {
-								["Revitalize"] = {
-									["count"] = 396,
-								},
-							},
-							["amount"] = 396,
-						},
-					},
-					["ManaGained"] = {
-						["Revitalize"] = {
-							["Details"] = {
-								["Jullio"] = {
-									["count"] = 396,
-								},
-							},
-							["amount"] = 396,
-						},
-					},
-				},
-				["OverallData"] = {
-					["ManaGain"] = 396,
-					["ManaGainedFrom"] = {
-						["Jullio"] = {
-							["Details"] = {
-								["Revitalize"] = {
-									["count"] = 396,
-								},
-							},
-							["amount"] = 396,
-						},
-					},
-					["ManaGained"] = {
-						["Revitalize"] = {
-							["Details"] = {
-								["Jullio"] = {
-									["count"] = 396,
-								},
-							},
-							["amount"] = 396,
-						},
-					},
-				},
-			},
-			["UnitLockout"] = 1609154722,
 			["LastActive"] = 1609154786,
 		},
 		["Salamus"] = {
@@ -341,6 +342,7 @@ RecountPerCharDB = {
 			},
 			["type"] = "Grouped",
 			["Owner"] = false,
+			["LastAbility"] = 1068.818,
 			["NextEventNum"] = 2,
 			["LastEventHealthNum"] = {
 				100, -- [1]
@@ -352,12 +354,12 @@ RecountPerCharDB = {
 			["LastEventIncoming"] = {
 				true, -- [1]
 			},
+			["UnitLockout"] = 1609154842,
+			["Fights"] = {
+			},
 			["LastEventTimes"] = {
 				424170.839, -- [1]
 			},
-			["Fights"] = {
-			},
-			["UnitLockout"] = 1609154842,
 			["LastActive"] = 1609154842,
 		},
 		["Candydudu"] = {
@@ -417,10 +419,11 @@ RecountPerCharDB = {
 				0.9370536802870381, -- [13]
 			},
 			["type"] = "Grouped",
+			["LastAbility"] = 1068.818,
 			["Owner"] = false,
 			["TimeLast"] = {
-				["OVERALL"] = 1609154777,
 				["ManaGain"] = 1609154777,
+				["OVERALL"] = 1609154777,
 			},
 			["NextEventNum"] = 14,
 			["LastEventHealthNum"] = {
@@ -454,36 +457,7 @@ RecountPerCharDB = {
 				"Jullio Fountain of Light Candydudu Tick +269 (269 overheal)", -- [13]
 			},
 			["Name"] = "Candydudu",
-			["LastEventIncoming"] = {
-				true, -- [1]
-				true, -- [2]
-				true, -- [3]
-				true, -- [4]
-				true, -- [5]
-				true, -- [6]
-				true, -- [7]
-				true, -- [8]
-				true, -- [9]
-				true, -- [10]
-				true, -- [11]
-				true, -- [12]
-				true, -- [13]
-			},
-			["LastEventTimes"] = {
-				424102.442, -- [1]
-				424103.402, -- [2]
-				424104.433, -- [3]
-				424105.42, -- [4]
-				424106.448, -- [5]
-				424107.446, -- [6]
-				424107.45, -- [7]
-				424108.414, -- [8]
-				424108.544, -- [9]
-				424109.508, -- [10]
-				424110.503, -- [11]
-				424111.506, -- [12]
-				424112.439, -- [13]
-			},
+			["UnitLockout"] = 1609154774,
 			["Fights"] = {
 				["CurrentFightData"] = {
 					["ManaGain"] = 120,
@@ -532,7 +506,36 @@ RecountPerCharDB = {
 					},
 				},
 			},
-			["UnitLockout"] = 1609154774,
+			["LastEventIncoming"] = {
+				true, -- [1]
+				true, -- [2]
+				true, -- [3]
+				true, -- [4]
+				true, -- [5]
+				true, -- [6]
+				true, -- [7]
+				true, -- [8]
+				true, -- [9]
+				true, -- [10]
+				true, -- [11]
+				true, -- [12]
+				true, -- [13]
+			},
+			["LastEventTimes"] = {
+				424102.442, -- [1]
+				424103.402, -- [2]
+				424104.433, -- [3]
+				424105.42, -- [4]
+				424106.448, -- [5]
+				424107.446, -- [6]
+				424107.45, -- [7]
+				424108.414, -- [8]
+				424108.544, -- [9]
+				424109.508, -- [10]
+				424110.503, -- [11]
+				424111.506, -- [12]
+				424112.439, -- [13]
+			},
 			["LastActive"] = 1609154784,
 		},
 		["Jullio"] = {
@@ -680,12 +683,13 @@ RecountPerCharDB = {
 				2.089298971258882, -- [32]
 				2.089298971258882, -- [33]
 				2.089298971258882, -- [34]
-				[46] = 2.226323682085592,
 				[39] = 1.034336909293652,
 				[50] = 2.226323682085592,
+				[46] = 2.226323682085592,
 			},
 			["type"] = "Grouped",
 			["Owner"] = false,
+			["LastAbility"] = 1068.818,
 			["NextEventNum"] = 35,
 			["LastEventHealthNum"] = {
 				100, -- [1]
@@ -844,6 +848,9 @@ RecountPerCharDB = {
 				false, -- [49]
 				true, -- [50]
 			},
+			["UnitLockout"] = 1609154724,
+			["Fights"] = {
+			},
 			["LastEventTimes"] = {
 				424116.693, -- [1]
 				424117.998, -- [2]
@@ -896,9 +903,6 @@ RecountPerCharDB = {
 				424115.664, -- [49]
 				424115.932, -- [50]
 			},
-			["Fights"] = {
-			},
-			["UnitLockout"] = 1609154724,
 			["LastActive"] = 1609154853,
 		},
 		["Theferal"] = {
@@ -1018,10 +1022,11 @@ RecountPerCharDB = {
 				0.9949328697710544, -- [33]
 			},
 			["type"] = "Grouped",
+			["LastAbility"] = 1068.818,
 			["Owner"] = false,
 			["TimeLast"] = {
-				["OVERALL"] = 1609154733,
 				["ManaGain"] = 1609154733,
+				["OVERALL"] = 1609154733,
 			},
 			["NextEventNum"] = 34,
 			["LastEventHealthNum"] = {
@@ -1095,6 +1100,55 @@ RecountPerCharDB = {
 				"Jullio Fountain of Light Theferal Tick +269 (269 overheal)", -- [33]
 			},
 			["Name"] = "Theferal",
+			["UnitLockout"] = 1609154721,
+			["Fights"] = {
+				["CurrentFightData"] = {
+					["ManaGain"] = 656,
+					["ManaGainedFrom"] = {
+						["Jullio"] = {
+							["Details"] = {
+								["Revitalize"] = {
+									["count"] = 656,
+								},
+							},
+							["amount"] = 656,
+						},
+					},
+					["ManaGained"] = {
+						["Revitalize"] = {
+							["Details"] = {
+								["Jullio"] = {
+									["count"] = 656,
+								},
+							},
+							["amount"] = 656,
+						},
+					},
+				},
+				["OverallData"] = {
+					["ManaGain"] = 656,
+					["ManaGainedFrom"] = {
+						["Jullio"] = {
+							["Details"] = {
+								["Revitalize"] = {
+									["count"] = 656,
+								},
+							},
+							["amount"] = 656,
+						},
+					},
+					["ManaGained"] = {
+						["Revitalize"] = {
+							["Details"] = {
+								["Jullio"] = {
+									["count"] = 656,
+								},
+							},
+							["amount"] = 656,
+						},
+					},
+				},
+			},
 			["LastEventIncoming"] = {
 				true, -- [1]
 				true, -- [2]
@@ -1165,55 +1219,6 @@ RecountPerCharDB = {
 				424111.509, -- [32]
 				424112.441, -- [33]
 			},
-			["Fights"] = {
-				["CurrentFightData"] = {
-					["ManaGain"] = 656,
-					["ManaGainedFrom"] = {
-						["Jullio"] = {
-							["Details"] = {
-								["Revitalize"] = {
-									["count"] = 656,
-								},
-							},
-							["amount"] = 656,
-						},
-					},
-					["ManaGained"] = {
-						["Revitalize"] = {
-							["Details"] = {
-								["Jullio"] = {
-									["count"] = 656,
-								},
-							},
-							["amount"] = 656,
-						},
-					},
-				},
-				["OverallData"] = {
-					["ManaGain"] = 656,
-					["ManaGainedFrom"] = {
-						["Jullio"] = {
-							["Details"] = {
-								["Revitalize"] = {
-									["count"] = 656,
-								},
-							},
-							["amount"] = 656,
-						},
-					},
-					["ManaGained"] = {
-						["Revitalize"] = {
-							["Details"] = {
-								["Jullio"] = {
-									["count"] = 656,
-								},
-							},
-							["amount"] = 656,
-						},
-					},
-				},
-			},
-			["UnitLockout"] = 1609154721,
 			["LastActive"] = 1609154784,
 		},
 		["Gicutzaasham"] = {
@@ -1384,23 +1389,12 @@ RecountPerCharDB = {
 				2.669555996127069, -- [50]
 			},
 			["type"] = "Grouped",
+			["LastAbility"] = 1068.818,
 			["GuardianReverseGUIDs"] = {
 				["Stoneskin Totem X"] = {
 					["LatestGuardian"] = 0,
 					["GUIDs"] = {
 						[0] = "0xF1300079C8000081",
-					},
-				},
-				["Wrath of Air Totem"] = {
-					["LatestGuardian"] = 0,
-					["GUIDs"] = {
-						[0] = "0xF130003C57000083",
-					},
-				},
-				["Flametongue Totem VIII"] = {
-					["LatestGuardian"] = 0,
-					["GUIDs"] = {
-						[0] = "0xF13000799D000080",
 					},
 				},
 				["Healing Stream Totem IX"] = {
@@ -1409,10 +1403,22 @@ RecountPerCharDB = {
 						[0] = "0xF1300079D1000082",
 					},
 				},
+				["Flametongue Totem VIII"] = {
+					["LatestGuardian"] = 0,
+					["GUIDs"] = {
+						[0] = "0xF13000799D000080",
+					},
+				},
+				["Wrath of Air Totem"] = {
+					["LatestGuardian"] = 0,
+					["GUIDs"] = {
+						[0] = "0xF130003C57000083",
+					},
+				},
 			},
 			["TimeLast"] = {
-				["OVERALL"] = 1609154732,
 				["ManaGain"] = 1609154732,
+				["OVERALL"] = 1609154732,
 			},
 			["Owner"] = false,
 			["Pet"] = {
@@ -1527,6 +1533,87 @@ RecountPerCharDB = {
 				"Healing Stream Totem IX <Gicutzaasham> Healing Stream Totem Gicutzaasham Tick +579 (579 overheal)", -- [50]
 			},
 			["Name"] = "Gicutzaasham",
+			["UnitLockout"] = 1609154721,
+			["Fights"] = {
+				["CurrentFightData"] = {
+					["ManaGain"] = 787,
+					["ManaGainedFrom"] = {
+						["Gicutzaasham"] = {
+							["Details"] = {
+								["Water Shield"] = {
+									["count"] = 492,
+								},
+							},
+							["amount"] = 492,
+						},
+						["Jullio"] = {
+							["Details"] = {
+								["Revitalize"] = {
+									["count"] = 295,
+								},
+							},
+							["amount"] = 295,
+						},
+					},
+					["ManaGained"] = {
+						["Water Shield"] = {
+							["Details"] = {
+								["Gicutzaasham"] = {
+									["count"] = 492,
+								},
+							},
+							["amount"] = 492,
+						},
+						["Revitalize"] = {
+							["Details"] = {
+								["Jullio"] = {
+									["count"] = 295,
+								},
+							},
+							["amount"] = 295,
+						},
+					},
+				},
+				["OverallData"] = {
+					["ManaGain"] = 787,
+					["ManaGainedFrom"] = {
+						["Gicutzaasham"] = {
+							["Details"] = {
+								["Water Shield"] = {
+									["count"] = 492,
+								},
+							},
+							["amount"] = 492,
+						},
+						["Jullio"] = {
+							["Details"] = {
+								["Revitalize"] = {
+									["count"] = 295,
+								},
+							},
+							["amount"] = 295,
+						},
+					},
+					["ManaGained"] = {
+						["Water Shield"] = {
+							["Details"] = {
+								["Gicutzaasham"] = {
+									["count"] = 492,
+								},
+							},
+							["amount"] = 492,
+						},
+						["Revitalize"] = {
+							["Details"] = {
+								["Jullio"] = {
+									["count"] = 295,
+								},
+							},
+							["amount"] = 295,
+						},
+					},
+				},
+			},
 			["LastEventIncoming"] = {
 				true, -- [1]
 				true, -- [2]
@@ -1631,87 +1718,6 @@ RecountPerCharDB = {
 				424103.999, -- [49]
 				424105.952, -- [50]
 			},
-			["Fights"] = {
-				["CurrentFightData"] = {
-					["ManaGain"] = 787,
-					["ManaGainedFrom"] = {
-						["Jullio"] = {
-							["Details"] = {
-								["Revitalize"] = {
-									["count"] = 295,
-								},
-							},
-							["amount"] = 295,
-						},
-						["Gicutzaasham"] = {
-							["Details"] = {
-								["Water Shield"] = {
-									["count"] = 492,
-								},
-							},
-							["amount"] = 492,
-						},
-					},
-					["ManaGained"] = {
-						["Water Shield"] = {
-							["Details"] = {
-								["Gicutzaasham"] = {
-									["count"] = 492,
-								},
-							},
-							["amount"] = 492,
-						},
-						["Revitalize"] = {
-							["Details"] = {
-								["Jullio"] = {
-									["count"] = 295,
-								},
-							},
-							["amount"] = 295,
-						},
-					},
-				},
-				["OverallData"] = {
-					["ManaGain"] = 787,
-					["ManaGainedFrom"] = {
-						["Jullio"] = {
-							["Details"] = {
-								["Revitalize"] = {
-									["count"] = 295,
-								},
-							},
-							["amount"] = 295,
-						},
-						["Gicutzaasham"] = {
-							["Details"] = {
-								["Water Shield"] = {
-									["count"] = 492,
-								},
-							},
-							["amount"] = 492,
-						},
-					},
-					["ManaGained"] = {
-						["Water Shield"] = {
-							["Details"] = {
-								["Gicutzaasham"] = {
-									["count"] = 492,
-								},
-							},
-							["amount"] = 492,
-						},
-						["Revitalize"] = {
-							["Details"] = {
-								["Jullio"] = {
-									["count"] = 295,
-								},
-							},
-							["amount"] = 295,
-						},
-					},
-				},
-			},
-			["UnitLockout"] = 1609154721,
 			["LastActive"] = 1609154853,
 		},
 		["Lighttarget"] = {
@@ -1803,6 +1809,7 @@ RecountPerCharDB = {
 			},
 			["type"] = "Grouped",
 			["Owner"] = false,
+			["LastAbility"] = 1068.818,
 			["NextEventNum"] = 26,
 			["LastEventHealthNum"] = {
 				86.21859952427917, -- [1]
@@ -1886,6 +1893,9 @@ RecountPerCharDB = {
 				true, -- [24]
 				true, -- [25]
 			},
+			["UnitLockout"] = 1609154722,
+			["Fights"] = {
+			},
 			["LastEventTimes"] = {
 				424050.814, -- [1]
 				424051.782, -- [2]
@@ -1913,9 +1923,6 @@ RecountPerCharDB = {
 				424111.508, -- [24]
 				424112.44, -- [25]
 			},
-			["Fights"] = {
-			},
-			["UnitLockout"] = 1609154722,
 			["LastActive"] = 1609154784,
 		},
 		["Nezquater"] = {
@@ -1950,6 +1957,7 @@ RecountPerCharDB = {
 			},
 			["type"] = "Grouped",
 			["Owner"] = false,
+			["LastAbility"] = 1068.818,
 			["NextEventNum"] = 7,
 			["LastEventHealthNum"] = {
 				100, -- [1]
@@ -1976,6 +1984,9 @@ RecountPerCharDB = {
 				true, -- [5]
 				true, -- [6]
 			},
+			["UnitLockout"] = 1609154779,
+			["Fights"] = {
+			},
 			["LastEventTimes"] = {
 				424107.446, -- [1]
 				424108.544, -- [2]
@@ -1984,9 +1995,6 @@ RecountPerCharDB = {
 				424111.506, -- [5]
 				424112.439, -- [6]
 			},
-			["Fights"] = {
-			},
-			["UnitLockout"] = 1609154779,
 			["LastActive"] = 1609154784,
 		},
 		["Petroffxd"] = {
@@ -2078,6 +2086,7 @@ RecountPerCharDB = {
 			},
 			["type"] = "Grouped",
 			["Owner"] = false,
+			["LastAbility"] = 1068.818,
 			["NextEventNum"] = 26,
 			["LastEventHealthNum"] = {
 				100, -- [1]
@@ -2161,6 +2170,9 @@ RecountPerCharDB = {
 				true, -- [24]
 				true, -- [25]
 			},
+			["UnitLockout"] = 1609154815,
+			["Fights"] = {
+			},
 			["LastEventTimes"] = {
 				424143.978, -- [1]
 				424145.957, -- [2]
@@ -2188,9 +2200,6 @@ RecountPerCharDB = {
 				424179.975, -- [24]
 				424181.986, -- [25]
 			},
-			["Fights"] = {
-			},
-			["UnitLockout"] = 1609154815,
 			["LastActive"] = 1609154853,
 		},
 		["Calcea"] = {
@@ -2264,6 +2273,7 @@ RecountPerCharDB = {
 			},
 			["type"] = "Grouped",
 			["Owner"] = false,
+			["LastAbility"] = 1068.818,
 			["NextEventNum"] = 20,
 			["LastEventHealthNum"] = {
 				86.28015298973757, -- [1]
@@ -2329,6 +2339,9 @@ RecountPerCharDB = {
 				true, -- [18]
 				true, -- [19]
 			},
+			["UnitLockout"] = 1609154774,
+			["Fights"] = {
+			},
 			["LastEventTimes"] = {
 				424102.44, -- [1]
 				424103.401, -- [2]
@@ -2350,9 +2363,6 @@ RecountPerCharDB = {
 				424113.838, -- [18]
 				424115.664, -- [19]
 			},
-			["Fights"] = {
-			},
-			["UnitLockout"] = 1609154774,
 			["LastActive"] = 1609154787,
 		},
 		["Analconda"] = {
@@ -2415,10 +2425,11 @@ RecountPerCharDB = {
 				3.035729513089452, -- [14]
 			},
 			["type"] = "Grouped",
+			["LastAbility"] = 1068.818,
 			["Owner"] = false,
 			["TimeLast"] = {
-				["OVERALL"] = 1609154780,
 				["RageGain"] = 1609154780,
+				["OVERALL"] = 1609154780,
 			},
 			["NextEventNum"] = 15,
 			["LastEventHealthNum"] = {
@@ -2454,38 +2465,7 @@ RecountPerCharDB = {
 				"Petroffxd Chained Heal Analconda Tick +1068 (862 overheal)", -- [14]
 			},
 			["Name"] = "Analconda",
-			["LastEventIncoming"] = {
-				true, -- [1]
-				true, -- [2]
-				true, -- [3]
-				true, -- [4]
-				true, -- [5]
-				true, -- [6]
-				true, -- [7]
-				true, -- [8]
-				true, -- [9]
-				true, -- [10]
-				true, -- [11]
-				true, -- [12]
-				true, -- [13]
-				true, -- [14]
-			},
-			["LastEventTimes"] = {
-				424052.773, -- [1]
-				424054.277, -- [2]
-				424055.295, -- [3]
-				424102.443, -- [4]
-				424103.403, -- [5]
-				424104.434, -- [6]
-				424105.421, -- [7]
-				424106.45, -- [8]
-				424107.45, -- [9]
-				424108.414, -- [10]
-				424164.752, -- [11]
-				424167.772, -- [12]
-				424170.839, -- [13]
-				424173.86, -- [14]
-			},
+			["UnitLockout"] = 1609154724,
 			["Fights"] = {
 				["CurrentFightData"] = {
 					["RageGain"] = 4,
@@ -2534,7 +2514,38 @@ RecountPerCharDB = {
 					},
 				},
 			},
-			["UnitLockout"] = 1609154724,
+			["LastEventIncoming"] = {
+				true, -- [1]
+				true, -- [2]
+				true, -- [3]
+				true, -- [4]
+				true, -- [5]
+				true, -- [6]
+				true, -- [7]
+				true, -- [8]
+				true, -- [9]
+				true, -- [10]
+				true, -- [11]
+				true, -- [12]
+				true, -- [13]
+				true, -- [14]
+			},
+			["LastEventTimes"] = {
+				424052.773, -- [1]
+				424054.277, -- [2]
+				424055.295, -- [3]
+				424102.443, -- [4]
+				424103.403, -- [5]
+				424104.434, -- [6]
+				424105.421, -- [7]
+				424106.45, -- [8]
+				424107.45, -- [9]
+				424108.414, -- [10]
+				424164.752, -- [11]
+				424167.772, -- [12]
+				424170.839, -- [13]
+				424173.86, -- [14]
+			},
 			["LastActive"] = 1609154845,
 		},
 		["Praxia"] = {
@@ -2593,10 +2604,11 @@ RecountPerCharDB = {
 				10.51739336814267, -- [13]
 			},
 			["type"] = "Self",
+			["LastAbility"] = 1068.818,
 			["Owner"] = false,
 			["TimeLast"] = {
-				["OVERALL"] = 1609154778,
 				["ManaGain"] = 1609154778,
+				["OVERALL"] = 1609154778,
 			},
 			["NextEventNum"] = 14,
 			["LastEventHealthNum"] = {
@@ -2630,36 +2642,7 @@ RecountPerCharDB = {
 				"Jullio Rejuvenation Praxia Tick +3102 (3102 overheal)", -- [13]
 			},
 			["Name"] = "Praxia",
-			["LastEventIncoming"] = {
-				true, -- [1]
-				true, -- [2]
-				true, -- [3]
-				true, -- [4]
-				true, -- [5]
-				true, -- [6]
-				true, -- [7]
-				true, -- [8]
-				true, -- [9]
-				true, -- [10]
-				true, -- [11]
-				true, -- [12]
-				true, -- [13]
-			},
-			["LastEventTimes"] = {
-				424102.441, -- [1]
-				424103.402, -- [2]
-				424104.333, -- [3]
-				424104.433, -- [4]
-				424105.419, -- [5]
-				424106.116, -- [6]
-				424106.447, -- [7]
-				424107.449, -- [8]
-				424107.911, -- [9]
-				424108.413, -- [10]
-				424109.839, -- [11]
-				424111.639, -- [12]
-				424113.373, -- [13]
-			},
+			["UnitLockout"] = 1609154774,
 			["Fights"] = {
 				["CurrentFightData"] = {
 					["ManaGain"] = 404,
@@ -2708,99 +2691,6 @@ RecountPerCharDB = {
 					},
 				},
 			},
-			["UnitLockout"] = 1609154774,
-			["LastActive"] = 1609154785,
-		},
-		["Momshie"] = {
-			["GUID"] = "0x070000000045E3A5",
-			["LastEventHealth"] = {
-				"21860 (86%)", -- [1]
-				"22487 (89%)", -- [2]
-				"23122 (91%)", -- [3]
-				"23757 (94%)", -- [4]
-				"24394 (96%)", -- [5]
-				"25031 (99%)", -- [6]
-				"25190 (100%)", -- [7]
-				"25190 (100%)", -- [8]
-				"26420 (97%)", -- [9]
-				"27040 (100%)", -- [10]
-				"27040 (100%)", -- [11]
-				"27040 (100%)", -- [12]
-				"27040 (100%)", -- [13]
-				"27040 (100%)", -- [14]
-			},
-			["LastEventType"] = {
-				"HEAL", -- [1]
-				"HEAL", -- [2]
-				"HEAL", -- [3]
-				"HEAL", -- [4]
-				"HEAL", -- [5]
-				"HEAL", -- [6]
-				"HEAL", -- [7]
-				"HEAL", -- [8]
-				"HEAL", -- [9]
-				"HEAL", -- [10]
-				"HEAL", -- [11]
-				"HEAL", -- [12]
-				"HEAL", -- [13]
-				"HEAL", -- [14]
-			},
-			["enClass"] = "PRIEST",
-			["unit"] = "Momshie",
-			["level"] = 80,
-			["LastFightIn"] = 0,
-			["LastEventNum"] = {
-				2.298531163159984, -- [1]
-				2.298531163159984, -- [2]
-				2.330289797538706, -- [3]
-				2.330289797538706, -- [4]
-				2.338229456133386, -- [5]
-				2.338229456133386, -- [6]
-				2.338229456133386, -- [7]
-				2.338229456133386, -- [8]
-				2.178254437869823, -- [9]
-				2.178254437869823, -- [10]
-				2.178254437869823, -- [11]
-				2.185650887573964, -- [12]
-				2.185650887573964, -- [13]
-				2.185650887573964, -- [14]
-			},
-			["type"] = "Grouped",
-			["Owner"] = false,
-			["NextEventNum"] = 15,
-			["LastEventHealthNum"] = {
-				86.78046843985709, -- [1]
-				89.26955140928941, -- [2]
-				91.79039301310044, -- [3]
-				94.31123461691148, -- [4]
-				96.84001587931719, -- [5]
-				99.36879714172291, -- [6]
-				100, -- [7]
-				100, -- [8]
-				97.70710059171597, -- [9]
-				100, -- [10]
-				100, -- [11]
-				100, -- [12]
-				100, -- [13]
-				100, -- [14]
-			},
-			["LastEvents"] = {
-				"Healing Stream Totem IX <Gicutzaasham> Healing Stream Totem Momshie Tick +579", -- [1]
-				"Healing Stream Totem IX <Gicutzaasham> Healing Stream Totem Momshie Tick +579", -- [2]
-				"Healing Stream Totem IX <Gicutzaasham> Healing Stream Totem Momshie Tick +587", -- [3]
-				"Healing Stream Totem IX <Gicutzaasham> Healing Stream Totem Momshie Tick +587", -- [4]
-				"Healing Stream Totem IX <Gicutzaasham> Healing Stream Totem Momshie Tick +589", -- [5]
-				"Healing Stream Totem IX <Gicutzaasham> Healing Stream Totem Momshie Tick +589", -- [6]
-				"Healing Stream Totem IX <Gicutzaasham> Healing Stream Totem Momshie Tick +589 (478 overheal)", -- [7]
-				"Healing Stream Totem IX <Gicutzaasham> Healing Stream Totem Momshie Tick +589", -- [8]
-				"Healing Stream Totem IX <Gicutzaasham> Healing Stream Totem Momshie Tick +589", -- [9]
-				"Healing Stream Totem IX <Gicutzaasham> Healing Stream Totem Momshie Tick +589 (22 overheal)", -- [10]
-				"Healing Stream Totem IX <Gicutzaasham> Healing Stream Totem Momshie Tick +589 (589 overheal)", -- [11]
-				"Healing Stream Totem IX <Gicutzaasham> Healing Stream Totem Momshie Tick +591 (591 overheal)", -- [12]
-				"Healing Stream Totem IX <Gicutzaasham> Healing Stream Totem Momshie Tick +591 (591 overheal)", -- [13]
-				"Healing Stream Totem IX <Gicutzaasham> Healing Stream Totem Momshie Tick +591 (591 overheal)", -- [14]
-			},
-			["Name"] = "Momshie",
 			["LastEventIncoming"] = {
 				true, -- [1]
 				true, -- [2]
@@ -2815,28 +2705,60 @@ RecountPerCharDB = {
 				true, -- [11]
 				true, -- [12]
 				true, -- [13]
-				true, -- [14]
 			},
 			["LastEventTimes"] = {
-				424155.949, -- [1]
-				424157.918, -- [2]
-				424159.965, -- [3]
-				424161.92, -- [4]
-				424163.89, -- [5]
-				424166.003, -- [6]
-				424167.915, -- [7]
-				424169.91, -- [8]
-				424172.032, -- [9]
-				424174.022, -- [10]
-				424176.002, -- [11]
-				424178.007, -- [12]
-				424179.976, -- [13]
-				424181.987, -- [14]
+				424102.441, -- [1]
+				424103.402, -- [2]
+				424104.333, -- [3]
+				424104.433, -- [4]
+				424105.419, -- [5]
+				424106.116, -- [6]
+				424106.447, -- [7]
+				424107.449, -- [8]
+				424107.911, -- [9]
+				424108.413, -- [10]
+				424109.839, -- [11]
+				424111.639, -- [12]
+				424113.373, -- [13]
 			},
+			["LastActive"] = 1609154785,
+		},
+		["Moonriv"] = {
+			["GUID"] = "0x070000000056F17E",
+			["LastEventHealth"] = {
+				"24463 (100%)", -- [1]
+			},
+			["LastEventType"] = {
+				"HEAL", -- [1]
+			},
+			["enClass"] = "MAGE",
+			["unit"] = "Moonriv",
+			["level"] = 80,
+			["LastFightIn"] = 0,
+			["LastEventNum"] = {
+				44.92090095245882, -- [1]
+			},
+			["type"] = "Grouped",
+			["Owner"] = false,
+			["LastAbility"] = 1068.818,
+			["NextEventNum"] = 2,
+			["LastEventHealthNum"] = {
+				100, -- [1]
+			},
+			["LastEvents"] = {
+				"Jullio Echoes of Light Moonriv Crit +10989 (7478 overheal)", -- [1]
+			},
+			["Name"] = "Moonriv",
+			["LastEventIncoming"] = {
+				true, -- [1]
+			},
+			["UnitLockout"] = 1609154776,
 			["Fights"] = {
 			},
-			["UnitLockout"] = 1609154827,
-			["LastActive"] = 1609154853,
+			["LastEventTimes"] = {
+				424104.334, -- [1]
+			},
+			["LastActive"] = 1609154776,
 		},
 		["Theseeker"] = {
 			["GUID"] = "0x0700000000018D86",
@@ -2864,6 +2786,7 @@ RecountPerCharDB = {
 			},
 			["type"] = "Grouped",
 			["Owner"] = false,
+			["LastAbility"] = 1068.818,
 			["NextEventNum"] = 5,
 			["LastEventHealthNum"] = {
 				100, -- [1]
@@ -2884,546 +2807,16 @@ RecountPerCharDB = {
 				true, -- [3]
 				true, -- [4]
 			},
+			["UnitLockout"] = 1609154781,
+			["Fights"] = {
+			},
 			["LastEventTimes"] = {
 				424109.507, -- [1]
 				424110.503, -- [2]
 				424111.506, -- [3]
 				424112.438, -- [4]
 			},
-			["Fights"] = {
-			},
-			["UnitLockout"] = 1609154781,
 			["LastActive"] = 1609154784,
-		},
-		["Extremus"] = {
-			["GUID"] = "0x0700000000030B6E",
-			["LastEventHealth"] = {
-				"29921 (100%)", -- [1]
-				"29921 (100%)", -- [2]
-				"29921 (100%)", -- [3]
-				"29921 (100%)", -- [4]
-				"29921 (100%)", -- [5]
-				"29921 (100%)", -- [6]
-				"29921 (100%)", -- [7]
-				"29921 (100%)", -- [8]
-				"29921 (100%)", -- [9]
-				"29921 (100%)", -- [10]
-				"29921 (100%)", -- [11]
-				"29921 (100%)", -- [12]
-				"29921 (100%)", -- [13]
-				"29921 (100%)", -- [14]
-				"29921 (100%)", -- [15]
-				"29921 (100%)", -- [16]
-				"29921 (100%)", -- [17]
-				"29921 (100%)", -- [18]
-				"29921 (100%)", -- [19]
-				"29921 (100%)", -- [20]
-				"29921 (100%)", -- [21]
-				"29921 (100%)", -- [22]
-				"29921 (100%)", -- [23]
-				"29921 (100%)", -- [24]
-				"29921 (100%)", -- [25]
-			},
-			["LastEventType"] = {
-				"HEAL", -- [1]
-				"HEAL", -- [2]
-				"HEAL", -- [3]
-				"HEAL", -- [4]
-				"HEAL", -- [5]
-				"HEAL", -- [6]
-				"HEAL", -- [7]
-				"HEAL", -- [8]
-				"HEAL", -- [9]
-				"HEAL", -- [10]
-				"HEAL", -- [11]
-				"HEAL", -- [12]
-				"HEAL", -- [13]
-				"HEAL", -- [14]
-				"HEAL", -- [15]
-				"HEAL", -- [16]
-				"HEAL", -- [17]
-				"HEAL", -- [18]
-				"HEAL", -- [19]
-				"HEAL", -- [20]
-				"HEAL", -- [21]
-				"HEAL", -- [22]
-				"HEAL", -- [23]
-				"HEAL", -- [24]
-				"HEAL", -- [25]
-			},
-			["enClass"] = "WARRIOR",
-			["unit"] = "Extremus",
-			["level"] = 80,
-			["LastFightIn"] = 0,
-			["LastEventNum"] = {
-				1.306774506199659, -- [1]
-				1.306774506199659, -- [2]
-				1.383643594799639, -- [3]
-				1.383643594799639, -- [4]
-				1.383643594799639, -- [5]
-				1.383643594799639, -- [6]
-				1.383643594799639, -- [7]
-				1.383643594799639, -- [8]
-				3.602820761338191, -- [9]
-				1.383643594799639, -- [10]
-				3.515925269877344, -- [11]
-				1.383643594799639, -- [12]
-				3.432371912703452, -- [13]
-				0.9525082717823602, -- [14]
-				3.34213428695565, -- [15]
-				0.9525082717823602, -- [16]
-				3.258580929781759, -- [17]
-				0.9525082717823602, -- [18]
-				3.178369706894823, -- [19]
-				0.9525082717823602, -- [20]
-				3.094816349720932, -- [21]
-				0.9525082717823602, -- [22]
-				0.9525082717823602, -- [23]
-				0.8990341231910698, -- [24]
-				0.8990341231910698, -- [25]
-			},
-			["type"] = "Grouped",
-			["Owner"] = false,
-			["NextEventNum"] = 26,
-			["LastEventHealthNum"] = {
-				100, -- [1]
-				100, -- [2]
-				100, -- [3]
-				100, -- [4]
-				100, -- [5]
-				100, -- [6]
-				100, -- [7]
-				100, -- [8]
-				100, -- [9]
-				100, -- [10]
-				100, -- [11]
-				100, -- [12]
-				100, -- [13]
-				100, -- [14]
-				100, -- [15]
-				100, -- [16]
-				100, -- [17]
-				100, -- [18]
-				100, -- [19]
-				100, -- [20]
-				100, -- [21]
-				100, -- [22]
-				100, -- [23]
-				100, -- [24]
-				100, -- [25]
-			},
-			["LastEvents"] = {
-				"Gicutzaasham Twilight Renewal Extremus Tick +391 (391 overheal)", -- [1]
-				"Gicutzaasham Twilight Renewal Extremus Tick +391 (391 overheal)", -- [2]
-				"Gicutzaasham Twilight Renewal Extremus Tick +414 (414 overheal)", -- [3]
-				"Gicutzaasham Twilight Renewal Extremus Tick +414 (414 overheal)", -- [4]
-				"Gicutzaasham Twilight Renewal Extremus Tick +414 (414 overheal)", -- [5]
-				"Gicutzaasham Twilight Renewal Extremus Tick +414 (414 overheal)", -- [6]
-				"Gicutzaasham Twilight Renewal Extremus Tick +414 (414 overheal)", -- [7]
-				"Gicutzaasham Twilight Renewal Extremus Tick +414 (414 overheal)", -- [8]
-				"Jullio Wild Growth Extremus Tick +1078 (1078 overheal)", -- [9]
-				"Gicutzaasham Twilight Renewal Extremus Tick +414 (414 overheal)", -- [10]
-				"Jullio Wild Growth Extremus Tick +1052 (1052 overheal)", -- [11]
-				"Gicutzaasham Twilight Renewal Extremus Tick +414 (414 overheal)", -- [12]
-				"Jullio Wild Growth Extremus Tick +1027 (1027 overheal)", -- [13]
-				"Gicutzaasham Fountain of Light Extremus Tick +285 (285 overheal)", -- [14]
-				"Jullio Wild Growth Extremus Tick +1000 (1000 overheal)", -- [15]
-				"Gicutzaasham Fountain of Light Extremus Tick +285 (285 overheal)", -- [16]
-				"Jullio Wild Growth Extremus Tick +975 (975 overheal)", -- [17]
-				"Gicutzaasham Fountain of Light Extremus Tick +285 (285 overheal)", -- [18]
-				"Jullio Wild Growth Extremus Tick +951 (951 overheal)", -- [19]
-				"Gicutzaasham Fountain of Light Extremus Tick +285 (285 overheal)", -- [20]
-				"Jullio Wild Growth Extremus Tick +926 (926 overheal)", -- [21]
-				"Gicutzaasham Fountain of Light Extremus Tick +285 (285 overheal)", -- [22]
-				"Gicutzaasham Fountain of Light Extremus Tick +285 (285 overheal)", -- [23]
-				"Jullio Fountain of Light Extremus Tick +269 (269 overheal)", -- [24]
-				"Jullio Fountain of Light Extremus Tick +269 (269 overheal)", -- [25]
-			},
-			["Name"] = "Extremus",
-			["LastEventIncoming"] = {
-				true, -- [1]
-				true, -- [2]
-				true, -- [3]
-				true, -- [4]
-				true, -- [5]
-				true, -- [6]
-				true, -- [7]
-				true, -- [8]
-				true, -- [9]
-				true, -- [10]
-				true, -- [11]
-				true, -- [12]
-				true, -- [13]
-				true, -- [14]
-				true, -- [15]
-				true, -- [16]
-				true, -- [17]
-				true, -- [18]
-				true, -- [19]
-				true, -- [20]
-				true, -- [21]
-				true, -- [22]
-				true, -- [23]
-				true, -- [24]
-				true, -- [25]
-			},
-			["LastEventTimes"] = {
-				424050.813, -- [1]
-				424051.782, -- [2]
-				424052.775, -- [3]
-				424053.737, -- [4]
-				424054.804, -- [5]
-				424055.716, -- [6]
-				424055.842, -- [7]
-				424056.847, -- [8]
-				424057.515, -- [9]
-				424057.824, -- [10]
-				424058.499, -- [11]
-				424058.819, -- [12]
-				424059.499, -- [13]
-				424060.299, -- [14]
-				424060.498, -- [15]
-				424061.213, -- [16]
-				424061.512, -- [17]
-				424062.377, -- [18]
-				424062.52, -- [19]
-				424063.27, -- [20]
-				424063.492, -- [21]
-				424064.296, -- [22]
-				424065.297, -- [23]
-				424107.446, -- [24]
-				424108.544, -- [25]
-			},
-			["Fights"] = {
-			},
-			["UnitLockout"] = 1609154722,
-			["LastActive"] = 1609154780,
-		},
-		["Healing Stream Totem IX <Gicutzaasham>"] = {
-			["GUID"] = "0xF1300079D1000082",
-			["LastEventHealth"] = {
-				"???", -- [1]
-				"???", -- [2]
-				"???", -- [3]
-				"???", -- [4]
-				"???", -- [5]
-				"???", -- [6]
-				"???", -- [7]
-				"???", -- [8]
-				"???", -- [9]
-				"???", -- [10]
-				"???", -- [11]
-				"???", -- [12]
-				"???", -- [13]
-				"???", -- [14]
-				"???", -- [15]
-				"???", -- [16]
-				"???", -- [17]
-				"???", -- [18]
-				"???", -- [19]
-				"???", -- [20]
-				"???", -- [21]
-				"???", -- [22]
-				"???", -- [23]
-				"???", -- [24]
-				"???", -- [25]
-				"???", -- [26]
-				"???", -- [27]
-				"???", -- [28]
-				"???", -- [29]
-				"???", -- [30]
-				"???", -- [31]
-				"???", -- [32]
-				"???", -- [33]
-				"???", -- [34]
-				"???", -- [35]
-				"???", -- [36]
-				"???", -- [37]
-				"???", -- [38]
-				"???", -- [39]
-				"???", -- [40]
-				"???", -- [41]
-				"???", -- [42]
-				"???", -- [43]
-				"???", -- [44]
-				"???", -- [45]
-				"???", -- [46]
-				"???", -- [47]
-				"???", -- [48]
-				"???", -- [49]
-				"???", -- [50]
-			},
-			["LastEventType"] = {
-				"HEAL", -- [1]
-				"HEAL", -- [2]
-				"HEAL", -- [3]
-				"HEAL", -- [4]
-				"HEAL", -- [5]
-				"HEAL", -- [6]
-				"HEAL", -- [7]
-				"HEAL", -- [8]
-				"HEAL", -- [9]
-				"HEAL", -- [10]
-				"HEAL", -- [11]
-				"HEAL", -- [12]
-				"HEAL", -- [13]
-				"HEAL", -- [14]
-				"HEAL", -- [15]
-				"HEAL", -- [16]
-				"HEAL", -- [17]
-				"HEAL", -- [18]
-				"HEAL", -- [19]
-				"HEAL", -- [20]
-				"HEAL", -- [21]
-				"HEAL", -- [22]
-				"HEAL", -- [23]
-				"HEAL", -- [24]
-				"HEAL", -- [25]
-				"HEAL", -- [26]
-				"HEAL", -- [27]
-				"HEAL", -- [28]
-				"HEAL", -- [29]
-				"HEAL", -- [30]
-				"HEAL", -- [31]
-				"HEAL", -- [32]
-				"HEAL", -- [33]
-				"HEAL", -- [34]
-				"HEAL", -- [35]
-				"HEAL", -- [36]
-				"HEAL", -- [37]
-				"HEAL", -- [38]
-				"HEAL", -- [39]
-				"HEAL", -- [40]
-				"HEAL", -- [41]
-				"HEAL", -- [42]
-				"HEAL", -- [43]
-				"HEAL", -- [44]
-				"HEAL", -- [45]
-				"HEAL", -- [46]
-				"HEAL", -- [47]
-				"HEAL", -- [48]
-				"HEAL", -- [49]
-				"HEAL", -- [50]
-			},
-			["enClass"] = "PET",
-			["level"] = 1,
-			["LastFightIn"] = 0,
-			["type"] = "Pet",
-			["Owner"] = "Gicutzaasham",
-			["NextEventNum"] = 28,
-			["LastEventHealthNum"] = {
-				0, -- [1]
-				0, -- [2]
-				0, -- [3]
-				0, -- [4]
-				0, -- [5]
-				0, -- [6]
-				0, -- [7]
-				0, -- [8]
-				0, -- [9]
-				0, -- [10]
-				0, -- [11]
-				0, -- [12]
-				0, -- [13]
-				0, -- [14]
-				0, -- [15]
-				0, -- [16]
-				0, -- [17]
-				0, -- [18]
-				0, -- [19]
-				0, -- [20]
-				0, -- [21]
-				0, -- [22]
-				0, -- [23]
-				0, -- [24]
-				0, -- [25]
-				0, -- [26]
-				0, -- [27]
-				0, -- [28]
-				0, -- [29]
-				0, -- [30]
-				0, -- [31]
-				0, -- [32]
-				0, -- [33]
-				0, -- [34]
-				0, -- [35]
-				0, -- [36]
-				0, -- [37]
-				0, -- [38]
-				0, -- [39]
-				0, -- [40]
-				0, -- [41]
-				0, -- [42]
-				0, -- [43]
-				0, -- [44]
-				0, -- [45]
-				0, -- [46]
-				0, -- [47]
-				0, -- [48]
-				0, -- [49]
-				0, -- [50]
-			},
-			["LastEvents"] = {
-				"Healing Stream Totem IX <Gicutzaasham> Healing Stream Totem Bahramtnt Tick +618 (618 overheal)", -- [1]
-				"Healing Stream Totem IX <Gicutzaasham> Healing Stream Totem Jullio Tick +589", -- [2]
-				"Healing Stream Totem IX <Gicutzaasham> Healing Stream Totem Gicutzaasham Tick +589 (589 overheal)", -- [3]
-				"Healing Stream Totem IX <Gicutzaasham> Healing Stream Totem Petroffxd Tick +589 (589 overheal)", -- [4]
-				"Healing Stream Totem IX <Gicutzaasham> Healing Stream Totem Momshie Tick +589 (22 overheal)", -- [5]
-				"Healing Stream Totem IX <Gicutzaasham> Healing Stream Totem Bahramtnt Tick +618", -- [6]
-				"Healing Stream Totem IX <Gicutzaasham> Healing Stream Totem Jullio Tick +589 (589 overheal)", -- [7]
-				"Healing Stream Totem IX <Gicutzaasham> Healing Stream Totem Gicutzaasham Tick +589 (589 overheal)", -- [8]
-				"Healing Stream Totem IX <Gicutzaasham> Healing Stream Totem Petroffxd Tick +589 (589 overheal)", -- [9]
-				"Healing Stream Totem IX <Gicutzaasham> Healing Stream Totem Momshie Tick +589 (589 overheal)", -- [10]
-				"Healing Stream Totem IX <Gicutzaasham> Healing Stream Totem Bahramtnt Tick +618", -- [11]
-				"Healing Stream Totem IX <Gicutzaasham> Healing Stream Totem Jullio Tick +589 (589 overheal)", -- [12]
-				"Healing Stream Totem IX <Gicutzaasham> Healing Stream Totem Gicutzaasham Tick +591", -- [13]
-				"Healing Stream Totem IX <Gicutzaasham> Healing Stream Totem Petroffxd Tick +591", -- [14]
-				"Healing Stream Totem IX <Gicutzaasham> Healing Stream Totem Momshie Tick +591 (591 overheal)", -- [15]
-				"Healing Stream Totem IX <Gicutzaasham> Healing Stream Totem Bahramtnt Tick +621 (509 overheal)", -- [16]
-				"Healing Stream Totem IX <Gicutzaasham> Healing Stream Totem Jullio Tick +591 (591 overheal)", -- [17]
-				"Healing Stream Totem IX <Gicutzaasham> Healing Stream Totem Gicutzaasham Tick +591", -- [18]
-				"Healing Stream Totem IX <Gicutzaasham> Healing Stream Totem Petroffxd Tick +591", -- [19]
-				"Healing Stream Totem IX <Gicutzaasham> Healing Stream Totem Momshie Tick +591 (591 overheal)", -- [20]
-				"Healing Stream Totem IX <Gicutzaasham> Healing Stream Totem Bahramtnt Tick +621 (621 overheal)", -- [21]
-				"Healing Stream Totem IX <Gicutzaasham> Healing Stream Totem Jullio Tick +591 (591 overheal)", -- [22]
-				"Healing Stream Totem IX <Gicutzaasham> Healing Stream Totem Gicutzaasham Tick +591 (310 overheal)", -- [23]
-				"Healing Stream Totem IX <Gicutzaasham> Healing Stream Totem Petroffxd Tick +591 (367 overheal)", -- [24]
-				"Healing Stream Totem IX <Gicutzaasham> Healing Stream Totem Momshie Tick +591 (591 overheal)", -- [25]
-				"Healing Stream Totem IX <Gicutzaasham> Healing Stream Totem Bahramtnt Tick +621 (621 overheal)", -- [26]
-				"Healing Stream Totem IX <Gicutzaasham> Healing Stream Totem Jullio Tick +591 (591 overheal)", -- [27]
-				"Healing Stream Totem IX <Gicutzaasham> Healing Stream Totem Petroffxd Tick +589 (589 overheal)", -- [28]
-				"Healing Stream Totem IX <Gicutzaasham> Healing Stream Totem Momshie Tick +589", -- [29]
-				"Healing Stream Totem IX <Gicutzaasham> Healing Stream Totem Bahramtnt Tick +618 (618 overheal)", -- [30]
-				"Healing Stream Totem IX <Gicutzaasham> Healing Stream Totem Gicutzaasham Tick +589 (589 overheal)", -- [31]
-				"Healing Stream Totem IX <Gicutzaasham> Healing Stream Totem Jullio Tick +589 (589 overheal)", -- [32]
-				"Healing Stream Totem IX <Gicutzaasham> Healing Stream Totem Petroffxd Tick +589 (589 overheal)", -- [33]
-				"Healing Stream Totem IX <Gicutzaasham> Healing Stream Totem Momshie Tick +589", -- [34]
-				"Healing Stream Totem IX <Gicutzaasham> Healing Stream Totem Bahramtnt Tick +618 (618 overheal)", -- [35]
-				"Healing Stream Totem IX <Gicutzaasham> Healing Stream Totem Gicutzaasham Tick +589 (589 overheal)", -- [36]
-				"Healing Stream Totem IX <Gicutzaasham> Healing Stream Totem Jullio Tick +589 (589 overheal)", -- [37]
-				"Healing Stream Totem IX <Gicutzaasham> Healing Stream Totem Petroffxd Tick +589 (589 overheal)", -- [38]
-				"Healing Stream Totem IX <Gicutzaasham> Healing Stream Totem Momshie Tick +589 (478 overheal)", -- [39]
-				"Healing Stream Totem IX <Gicutzaasham> Healing Stream Totem Bahramtnt Tick +618 (618 overheal)", -- [40]
-				"Healing Stream Totem IX <Gicutzaasham> Healing Stream Totem Gicutzaasham Tick +589 (589 overheal)", -- [41]
-				"Healing Stream Totem IX <Gicutzaasham> Healing Stream Totem Jullio Tick +589 (589 overheal)", -- [42]
-				"Healing Stream Totem IX <Gicutzaasham> Healing Stream Totem Petroffxd Tick +589 (589 overheal)", -- [43]
-				"Healing Stream Totem IX <Gicutzaasham> Healing Stream Totem Momshie Tick +589", -- [44]
-				"Healing Stream Totem IX <Gicutzaasham> Healing Stream Totem Bahramtnt Tick +618 (618 overheal)", -- [45]
-				"Healing Stream Totem IX <Gicutzaasham> Healing Stream Totem Gicutzaasham Tick +589 (589 overheal)", -- [46]
-				"Healing Stream Totem IX <Gicutzaasham> Healing Stream Totem Jullio Tick +589 (589 overheal)", -- [47]
-				"Healing Stream Totem IX <Gicutzaasham> Healing Stream Totem Gicutzaasham Tick +589 (589 overheal)", -- [48]
-				"Healing Stream Totem IX <Gicutzaasham> Healing Stream Totem Petroffxd Tick +589 (589 overheal)", -- [49]
-				"Healing Stream Totem IX <Gicutzaasham> Healing Stream Totem Momshie Tick +589", -- [50]
-			},
-			["Name"] = "Healing Stream Totem IX",
-			["LastEventIncoming"] = {
-				false, -- [1]
-				false, -- [2]
-				false, -- [3]
-				false, -- [4]
-				false, -- [5]
-				false, -- [6]
-				false, -- [7]
-				false, -- [8]
-				false, -- [9]
-				false, -- [10]
-				false, -- [11]
-				false, -- [12]
-				false, -- [13]
-				false, -- [14]
-				false, -- [15]
-				false, -- [16]
-				false, -- [17]
-				false, -- [18]
-				false, -- [19]
-				false, -- [20]
-				false, -- [21]
-				false, -- [22]
-				false, -- [23]
-				false, -- [24]
-				false, -- [25]
-				false, -- [26]
-				false, -- [27]
-				false, -- [28]
-				false, -- [29]
-				false, -- [30]
-				false, -- [31]
-				false, -- [32]
-				false, -- [33]
-				false, -- [34]
-				false, -- [35]
-				false, -- [36]
-				false, -- [37]
-				false, -- [38]
-				false, -- [39]
-				false, -- [40]
-				false, -- [41]
-				false, -- [42]
-				false, -- [43]
-				false, -- [44]
-				false, -- [45]
-				false, -- [46]
-				false, -- [47]
-				false, -- [48]
-				false, -- [49]
-				false, -- [50]
-			},
-			["LastEventTimes"] = {
-				424172.033, -- [1]
-				424172.034, -- [2]
-				424174.019, -- [3]
-				424174.021, -- [4]
-				424174.022, -- [5]
-				424174.023, -- [6]
-				424174.024, -- [7]
-				424175.999, -- [8]
-				424176, -- [9]
-				424176.001, -- [10]
-				424176.002, -- [11]
-				424176.003, -- [12]
-				424178.004, -- [13]
-				424178.005, -- [14]
-				424178.006, -- [15]
-				424178.007, -- [16]
-				424178.008, -- [17]
-				424179.973, -- [18]
-				424179.974, -- [19]
-				424179.975, -- [20]
-				424179.976, -- [21]
-				424179.977, -- [22]
-				424181.984, -- [23]
-				424181.985, -- [24]
-				424181.986, -- [25]
-				424181.987, -- [26]
-				424181.988, -- [27]
-				424163.888, -- [28]
-				424163.889, -- [29]
-				424163.891, -- [30]
-				424163.892, -- [31]
-				424163.893, -- [32]
-				424166.001, -- [33]
-				424166.002, -- [34]
-				424166.003, -- [35]
-				424166.004, -- [36]
-				424166.005, -- [37]
-				424167.913, -- [38]
-				424167.914, -- [39]
-				424167.916, -- [40]
-				424167.917, -- [41]
-				424167.918, -- [42]
-				424169.908, -- [43]
-				424169.909, -- [44]
-				424169.91, -- [45]
-				424169.911, -- [46]
-				424169.912, -- [47]
-				424172.03, -- [48]
-				424172.031, -- [49]
-				424172.032, -- [50]
-			},
-			["Fights"] = {
-			},
-			["UnitLockout"] = 1609154853,
-			["LastActive"] = 1609154853,
 		},
 		["Bahramtnt"] = {
 			["GUID"] = "0x070000000053A06B",
@@ -3589,6 +2982,7 @@ RecountPerCharDB = {
 			},
 			["type"] = "Grouped",
 			["Owner"] = false,
+			["LastAbility"] = 1068.818,
 			["NextEventNum"] = 14,
 			["LastEventHealthNum"] = {
 				100, -- [1]
@@ -3747,6 +3141,9 @@ RecountPerCharDB = {
 				true, -- [49]
 				true, -- [50]
 			},
+			["UnitLockout"] = 1609154721,
+			["Fights"] = {
+			},
 			["LastEventTimes"] = {
 				424157.92, -- [1]
 				424159.966, -- [2]
@@ -3799,10 +3196,539 @@ RecountPerCharDB = {
 				424153.92, -- [49]
 				424155.951, -- [50]
 			},
+			["LastActive"] = 1609154853,
+		},
+		["Healing Stream Totem IX <Gicutzaasham>"] = {
+			["GUID"] = "0xF1300079D1000082",
+			["LastEventHealth"] = {
+				"???", -- [1]
+				"???", -- [2]
+				"???", -- [3]
+				"???", -- [4]
+				"???", -- [5]
+				"???", -- [6]
+				"???", -- [7]
+				"???", -- [8]
+				"???", -- [9]
+				"???", -- [10]
+				"???", -- [11]
+				"???", -- [12]
+				"???", -- [13]
+				"???", -- [14]
+				"???", -- [15]
+				"???", -- [16]
+				"???", -- [17]
+				"???", -- [18]
+				"???", -- [19]
+				"???", -- [20]
+				"???", -- [21]
+				"???", -- [22]
+				"???", -- [23]
+				"???", -- [24]
+				"???", -- [25]
+				"???", -- [26]
+				"???", -- [27]
+				"???", -- [28]
+				"???", -- [29]
+				"???", -- [30]
+				"???", -- [31]
+				"???", -- [32]
+				"???", -- [33]
+				"???", -- [34]
+				"???", -- [35]
+				"???", -- [36]
+				"???", -- [37]
+				"???", -- [38]
+				"???", -- [39]
+				"???", -- [40]
+				"???", -- [41]
+				"???", -- [42]
+				"???", -- [43]
+				"???", -- [44]
+				"???", -- [45]
+				"???", -- [46]
+				"???", -- [47]
+				"???", -- [48]
+				"???", -- [49]
+				"???", -- [50]
+			},
+			["LastEventType"] = {
+				"HEAL", -- [1]
+				"HEAL", -- [2]
+				"HEAL", -- [3]
+				"HEAL", -- [4]
+				"HEAL", -- [5]
+				"HEAL", -- [6]
+				"HEAL", -- [7]
+				"HEAL", -- [8]
+				"HEAL", -- [9]
+				"HEAL", -- [10]
+				"HEAL", -- [11]
+				"HEAL", -- [12]
+				"HEAL", -- [13]
+				"HEAL", -- [14]
+				"HEAL", -- [15]
+				"HEAL", -- [16]
+				"HEAL", -- [17]
+				"HEAL", -- [18]
+				"HEAL", -- [19]
+				"HEAL", -- [20]
+				"HEAL", -- [21]
+				"HEAL", -- [22]
+				"HEAL", -- [23]
+				"HEAL", -- [24]
+				"HEAL", -- [25]
+				"HEAL", -- [26]
+				"HEAL", -- [27]
+				"HEAL", -- [28]
+				"HEAL", -- [29]
+				"HEAL", -- [30]
+				"HEAL", -- [31]
+				"HEAL", -- [32]
+				"HEAL", -- [33]
+				"HEAL", -- [34]
+				"HEAL", -- [35]
+				"HEAL", -- [36]
+				"HEAL", -- [37]
+				"HEAL", -- [38]
+				"HEAL", -- [39]
+				"HEAL", -- [40]
+				"HEAL", -- [41]
+				"HEAL", -- [42]
+				"HEAL", -- [43]
+				"HEAL", -- [44]
+				"HEAL", -- [45]
+				"HEAL", -- [46]
+				"HEAL", -- [47]
+				"HEAL", -- [48]
+				"HEAL", -- [49]
+				"HEAL", -- [50]
+			},
+			["enClass"] = "PET",
+			["level"] = 1,
+			["LastFightIn"] = 0,
+			["type"] = "Pet",
+			["Owner"] = "Gicutzaasham",
+			["LastAbility"] = 1068.818,
+			["NextEventNum"] = 28,
+			["LastEventHealthNum"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+				0, -- [4]
+				0, -- [5]
+				0, -- [6]
+				0, -- [7]
+				0, -- [8]
+				0, -- [9]
+				0, -- [10]
+				0, -- [11]
+				0, -- [12]
+				0, -- [13]
+				0, -- [14]
+				0, -- [15]
+				0, -- [16]
+				0, -- [17]
+				0, -- [18]
+				0, -- [19]
+				0, -- [20]
+				0, -- [21]
+				0, -- [22]
+				0, -- [23]
+				0, -- [24]
+				0, -- [25]
+				0, -- [26]
+				0, -- [27]
+				0, -- [28]
+				0, -- [29]
+				0, -- [30]
+				0, -- [31]
+				0, -- [32]
+				0, -- [33]
+				0, -- [34]
+				0, -- [35]
+				0, -- [36]
+				0, -- [37]
+				0, -- [38]
+				0, -- [39]
+				0, -- [40]
+				0, -- [41]
+				0, -- [42]
+				0, -- [43]
+				0, -- [44]
+				0, -- [45]
+				0, -- [46]
+				0, -- [47]
+				0, -- [48]
+				0, -- [49]
+				0, -- [50]
+			},
+			["LastEvents"] = {
+				"Healing Stream Totem IX <Gicutzaasham> Healing Stream Totem Bahramtnt Tick +618 (618 overheal)", -- [1]
+				"Healing Stream Totem IX <Gicutzaasham> Healing Stream Totem Jullio Tick +589", -- [2]
+				"Healing Stream Totem IX <Gicutzaasham> Healing Stream Totem Gicutzaasham Tick +589 (589 overheal)", -- [3]
+				"Healing Stream Totem IX <Gicutzaasham> Healing Stream Totem Petroffxd Tick +589 (589 overheal)", -- [4]
+				"Healing Stream Totem IX <Gicutzaasham> Healing Stream Totem Momshie Tick +589 (22 overheal)", -- [5]
+				"Healing Stream Totem IX <Gicutzaasham> Healing Stream Totem Bahramtnt Tick +618", -- [6]
+				"Healing Stream Totem IX <Gicutzaasham> Healing Stream Totem Jullio Tick +589 (589 overheal)", -- [7]
+				"Healing Stream Totem IX <Gicutzaasham> Healing Stream Totem Gicutzaasham Tick +589 (589 overheal)", -- [8]
+				"Healing Stream Totem IX <Gicutzaasham> Healing Stream Totem Petroffxd Tick +589 (589 overheal)", -- [9]
+				"Healing Stream Totem IX <Gicutzaasham> Healing Stream Totem Momshie Tick +589 (589 overheal)", -- [10]
+				"Healing Stream Totem IX <Gicutzaasham> Healing Stream Totem Bahramtnt Tick +618", -- [11]
+				"Healing Stream Totem IX <Gicutzaasham> Healing Stream Totem Jullio Tick +589 (589 overheal)", -- [12]
+				"Healing Stream Totem IX <Gicutzaasham> Healing Stream Totem Gicutzaasham Tick +591", -- [13]
+				"Healing Stream Totem IX <Gicutzaasham> Healing Stream Totem Petroffxd Tick +591", -- [14]
+				"Healing Stream Totem IX <Gicutzaasham> Healing Stream Totem Momshie Tick +591 (591 overheal)", -- [15]
+				"Healing Stream Totem IX <Gicutzaasham> Healing Stream Totem Bahramtnt Tick +621 (509 overheal)", -- [16]
+				"Healing Stream Totem IX <Gicutzaasham> Healing Stream Totem Jullio Tick +591 (591 overheal)", -- [17]
+				"Healing Stream Totem IX <Gicutzaasham> Healing Stream Totem Gicutzaasham Tick +591", -- [18]
+				"Healing Stream Totem IX <Gicutzaasham> Healing Stream Totem Petroffxd Tick +591", -- [19]
+				"Healing Stream Totem IX <Gicutzaasham> Healing Stream Totem Momshie Tick +591 (591 overheal)", -- [20]
+				"Healing Stream Totem IX <Gicutzaasham> Healing Stream Totem Bahramtnt Tick +621 (621 overheal)", -- [21]
+				"Healing Stream Totem IX <Gicutzaasham> Healing Stream Totem Jullio Tick +591 (591 overheal)", -- [22]
+				"Healing Stream Totem IX <Gicutzaasham> Healing Stream Totem Gicutzaasham Tick +591 (310 overheal)", -- [23]
+				"Healing Stream Totem IX <Gicutzaasham> Healing Stream Totem Petroffxd Tick +591 (367 overheal)", -- [24]
+				"Healing Stream Totem IX <Gicutzaasham> Healing Stream Totem Momshie Tick +591 (591 overheal)", -- [25]
+				"Healing Stream Totem IX <Gicutzaasham> Healing Stream Totem Bahramtnt Tick +621 (621 overheal)", -- [26]
+				"Healing Stream Totem IX <Gicutzaasham> Healing Stream Totem Jullio Tick +591 (591 overheal)", -- [27]
+				"Healing Stream Totem IX <Gicutzaasham> Healing Stream Totem Petroffxd Tick +589 (589 overheal)", -- [28]
+				"Healing Stream Totem IX <Gicutzaasham> Healing Stream Totem Momshie Tick +589", -- [29]
+				"Healing Stream Totem IX <Gicutzaasham> Healing Stream Totem Bahramtnt Tick +618 (618 overheal)", -- [30]
+				"Healing Stream Totem IX <Gicutzaasham> Healing Stream Totem Gicutzaasham Tick +589 (589 overheal)", -- [31]
+				"Healing Stream Totem IX <Gicutzaasham> Healing Stream Totem Jullio Tick +589 (589 overheal)", -- [32]
+				"Healing Stream Totem IX <Gicutzaasham> Healing Stream Totem Petroffxd Tick +589 (589 overheal)", -- [33]
+				"Healing Stream Totem IX <Gicutzaasham> Healing Stream Totem Momshie Tick +589", -- [34]
+				"Healing Stream Totem IX <Gicutzaasham> Healing Stream Totem Bahramtnt Tick +618 (618 overheal)", -- [35]
+				"Healing Stream Totem IX <Gicutzaasham> Healing Stream Totem Gicutzaasham Tick +589 (589 overheal)", -- [36]
+				"Healing Stream Totem IX <Gicutzaasham> Healing Stream Totem Jullio Tick +589 (589 overheal)", -- [37]
+				"Healing Stream Totem IX <Gicutzaasham> Healing Stream Totem Petroffxd Tick +589 (589 overheal)", -- [38]
+				"Healing Stream Totem IX <Gicutzaasham> Healing Stream Totem Momshie Tick +589 (478 overheal)", -- [39]
+				"Healing Stream Totem IX <Gicutzaasham> Healing Stream Totem Bahramtnt Tick +618 (618 overheal)", -- [40]
+				"Healing Stream Totem IX <Gicutzaasham> Healing Stream Totem Gicutzaasham Tick +589 (589 overheal)", -- [41]
+				"Healing Stream Totem IX <Gicutzaasham> Healing Stream Totem Jullio Tick +589 (589 overheal)", -- [42]
+				"Healing Stream Totem IX <Gicutzaasham> Healing Stream Totem Petroffxd Tick +589 (589 overheal)", -- [43]
+				"Healing Stream Totem IX <Gicutzaasham> Healing Stream Totem Momshie Tick +589", -- [44]
+				"Healing Stream Totem IX <Gicutzaasham> Healing Stream Totem Bahramtnt Tick +618 (618 overheal)", -- [45]
+				"Healing Stream Totem IX <Gicutzaasham> Healing Stream Totem Gicutzaasham Tick +589 (589 overheal)", -- [46]
+				"Healing Stream Totem IX <Gicutzaasham> Healing Stream Totem Jullio Tick +589 (589 overheal)", -- [47]
+				"Healing Stream Totem IX <Gicutzaasham> Healing Stream Totem Gicutzaasham Tick +589 (589 overheal)", -- [48]
+				"Healing Stream Totem IX <Gicutzaasham> Healing Stream Totem Petroffxd Tick +589 (589 overheal)", -- [49]
+				"Healing Stream Totem IX <Gicutzaasham> Healing Stream Totem Momshie Tick +589", -- [50]
+			},
+			["Name"] = "Healing Stream Totem IX",
+			["LastEventIncoming"] = {
+				false, -- [1]
+				false, -- [2]
+				false, -- [3]
+				false, -- [4]
+				false, -- [5]
+				false, -- [6]
+				false, -- [7]
+				false, -- [8]
+				false, -- [9]
+				false, -- [10]
+				false, -- [11]
+				false, -- [12]
+				false, -- [13]
+				false, -- [14]
+				false, -- [15]
+				false, -- [16]
+				false, -- [17]
+				false, -- [18]
+				false, -- [19]
+				false, -- [20]
+				false, -- [21]
+				false, -- [22]
+				false, -- [23]
+				false, -- [24]
+				false, -- [25]
+				false, -- [26]
+				false, -- [27]
+				false, -- [28]
+				false, -- [29]
+				false, -- [30]
+				false, -- [31]
+				false, -- [32]
+				false, -- [33]
+				false, -- [34]
+				false, -- [35]
+				false, -- [36]
+				false, -- [37]
+				false, -- [38]
+				false, -- [39]
+				false, -- [40]
+				false, -- [41]
+				false, -- [42]
+				false, -- [43]
+				false, -- [44]
+				false, -- [45]
+				false, -- [46]
+				false, -- [47]
+				false, -- [48]
+				false, -- [49]
+				false, -- [50]
+			},
+			["UnitLockout"] = 1609154853,
 			["Fights"] = {
 			},
-			["UnitLockout"] = 1609154721,
+			["LastEventTimes"] = {
+				424172.033, -- [1]
+				424172.034, -- [2]
+				424174.019, -- [3]
+				424174.021, -- [4]
+				424174.022, -- [5]
+				424174.023, -- [6]
+				424174.024, -- [7]
+				424175.999, -- [8]
+				424176, -- [9]
+				424176.001, -- [10]
+				424176.002, -- [11]
+				424176.003, -- [12]
+				424178.004, -- [13]
+				424178.005, -- [14]
+				424178.006, -- [15]
+				424178.007, -- [16]
+				424178.008, -- [17]
+				424179.973, -- [18]
+				424179.974, -- [19]
+				424179.975, -- [20]
+				424179.976, -- [21]
+				424179.977, -- [22]
+				424181.984, -- [23]
+				424181.985, -- [24]
+				424181.986, -- [25]
+				424181.987, -- [26]
+				424181.988, -- [27]
+				424163.888, -- [28]
+				424163.889, -- [29]
+				424163.891, -- [30]
+				424163.892, -- [31]
+				424163.893, -- [32]
+				424166.001, -- [33]
+				424166.002, -- [34]
+				424166.003, -- [35]
+				424166.004, -- [36]
+				424166.005, -- [37]
+				424167.913, -- [38]
+				424167.914, -- [39]
+				424167.916, -- [40]
+				424167.917, -- [41]
+				424167.918, -- [42]
+				424169.908, -- [43]
+				424169.909, -- [44]
+				424169.91, -- [45]
+				424169.911, -- [46]
+				424169.912, -- [47]
+				424172.03, -- [48]
+				424172.031, -- [49]
+				424172.032, -- [50]
+			},
 			["LastActive"] = 1609154853,
+		},
+		["Extremus"] = {
+			["GUID"] = "0x0700000000030B6E",
+			["LastEventHealth"] = {
+				"29921 (100%)", -- [1]
+				"29921 (100%)", -- [2]
+				"29921 (100%)", -- [3]
+				"29921 (100%)", -- [4]
+				"29921 (100%)", -- [5]
+				"29921 (100%)", -- [6]
+				"29921 (100%)", -- [7]
+				"29921 (100%)", -- [8]
+				"29921 (100%)", -- [9]
+				"29921 (100%)", -- [10]
+				"29921 (100%)", -- [11]
+				"29921 (100%)", -- [12]
+				"29921 (100%)", -- [13]
+				"29921 (100%)", -- [14]
+				"29921 (100%)", -- [15]
+				"29921 (100%)", -- [16]
+				"29921 (100%)", -- [17]
+				"29921 (100%)", -- [18]
+				"29921 (100%)", -- [19]
+				"29921 (100%)", -- [20]
+				"29921 (100%)", -- [21]
+				"29921 (100%)", -- [22]
+				"29921 (100%)", -- [23]
+				"29921 (100%)", -- [24]
+				"29921 (100%)", -- [25]
+			},
+			["LastEventType"] = {
+				"HEAL", -- [1]
+				"HEAL", -- [2]
+				"HEAL", -- [3]
+				"HEAL", -- [4]
+				"HEAL", -- [5]
+				"HEAL", -- [6]
+				"HEAL", -- [7]
+				"HEAL", -- [8]
+				"HEAL", -- [9]
+				"HEAL", -- [10]
+				"HEAL", -- [11]
+				"HEAL", -- [12]
+				"HEAL", -- [13]
+				"HEAL", -- [14]
+				"HEAL", -- [15]
+				"HEAL", -- [16]
+				"HEAL", -- [17]
+				"HEAL", -- [18]
+				"HEAL", -- [19]
+				"HEAL", -- [20]
+				"HEAL", -- [21]
+				"HEAL", -- [22]
+				"HEAL", -- [23]
+				"HEAL", -- [24]
+				"HEAL", -- [25]
+			},
+			["enClass"] = "WARRIOR",
+			["unit"] = "Extremus",
+			["level"] = 80,
+			["LastFightIn"] = 0,
+			["LastEventNum"] = {
+				1.306774506199659, -- [1]
+				1.306774506199659, -- [2]
+				1.383643594799639, -- [3]
+				1.383643594799639, -- [4]
+				1.383643594799639, -- [5]
+				1.383643594799639, -- [6]
+				1.383643594799639, -- [7]
+				1.383643594799639, -- [8]
+				3.602820761338191, -- [9]
+				1.383643594799639, -- [10]
+				3.515925269877344, -- [11]
+				1.383643594799639, -- [12]
+				3.432371912703452, -- [13]
+				0.9525082717823602, -- [14]
+				3.34213428695565, -- [15]
+				0.9525082717823602, -- [16]
+				3.258580929781759, -- [17]
+				0.9525082717823602, -- [18]
+				3.178369706894823, -- [19]
+				0.9525082717823602, -- [20]
+				3.094816349720932, -- [21]
+				0.9525082717823602, -- [22]
+				0.9525082717823602, -- [23]
+				0.8990341231910698, -- [24]
+				0.8990341231910698, -- [25]
+			},
+			["type"] = "Grouped",
+			["Owner"] = false,
+			["LastAbility"] = 1068.818,
+			["NextEventNum"] = 26,
+			["LastEventHealthNum"] = {
+				100, -- [1]
+				100, -- [2]
+				100, -- [3]
+				100, -- [4]
+				100, -- [5]
+				100, -- [6]
+				100, -- [7]
+				100, -- [8]
+				100, -- [9]
+				100, -- [10]
+				100, -- [11]
+				100, -- [12]
+				100, -- [13]
+				100, -- [14]
+				100, -- [15]
+				100, -- [16]
+				100, -- [17]
+				100, -- [18]
+				100, -- [19]
+				100, -- [20]
+				100, -- [21]
+				100, -- [22]
+				100, -- [23]
+				100, -- [24]
+				100, -- [25]
+			},
+			["LastEvents"] = {
+				"Gicutzaasham Twilight Renewal Extremus Tick +391 (391 overheal)", -- [1]
+				"Gicutzaasham Twilight Renewal Extremus Tick +391 (391 overheal)", -- [2]
+				"Gicutzaasham Twilight Renewal Extremus Tick +414 (414 overheal)", -- [3]
+				"Gicutzaasham Twilight Renewal Extremus Tick +414 (414 overheal)", -- [4]
+				"Gicutzaasham Twilight Renewal Extremus Tick +414 (414 overheal)", -- [5]
+				"Gicutzaasham Twilight Renewal Extremus Tick +414 (414 overheal)", -- [6]
+				"Gicutzaasham Twilight Renewal Extremus Tick +414 (414 overheal)", -- [7]
+				"Gicutzaasham Twilight Renewal Extremus Tick +414 (414 overheal)", -- [8]
+				"Jullio Wild Growth Extremus Tick +1078 (1078 overheal)", -- [9]
+				"Gicutzaasham Twilight Renewal Extremus Tick +414 (414 overheal)", -- [10]
+				"Jullio Wild Growth Extremus Tick +1052 (1052 overheal)", -- [11]
+				"Gicutzaasham Twilight Renewal Extremus Tick +414 (414 overheal)", -- [12]
+				"Jullio Wild Growth Extremus Tick +1027 (1027 overheal)", -- [13]
+				"Gicutzaasham Fountain of Light Extremus Tick +285 (285 overheal)", -- [14]
+				"Jullio Wild Growth Extremus Tick +1000 (1000 overheal)", -- [15]
+				"Gicutzaasham Fountain of Light Extremus Tick +285 (285 overheal)", -- [16]
+				"Jullio Wild Growth Extremus Tick +975 (975 overheal)", -- [17]
+				"Gicutzaasham Fountain of Light Extremus Tick +285 (285 overheal)", -- [18]
+				"Jullio Wild Growth Extremus Tick +951 (951 overheal)", -- [19]
+				"Gicutzaasham Fountain of Light Extremus Tick +285 (285 overheal)", -- [20]
+				"Jullio Wild Growth Extremus Tick +926 (926 overheal)", -- [21]
+				"Gicutzaasham Fountain of Light Extremus Tick +285 (285 overheal)", -- [22]
+				"Gicutzaasham Fountain of Light Extremus Tick +285 (285 overheal)", -- [23]
+				"Jullio Fountain of Light Extremus Tick +269 (269 overheal)", -- [24]
+				"Jullio Fountain of Light Extremus Tick +269 (269 overheal)", -- [25]
+			},
+			["Name"] = "Extremus",
+			["LastEventIncoming"] = {
+				true, -- [1]
+				true, -- [2]
+				true, -- [3]
+				true, -- [4]
+				true, -- [5]
+				true, -- [6]
+				true, -- [7]
+				true, -- [8]
+				true, -- [9]
+				true, -- [10]
+				true, -- [11]
+				true, -- [12]
+				true, -- [13]
+				true, -- [14]
+				true, -- [15]
+				true, -- [16]
+				true, -- [17]
+				true, -- [18]
+				true, -- [19]
+				true, -- [20]
+				true, -- [21]
+				true, -- [22]
+				true, -- [23]
+				true, -- [24]
+				true, -- [25]
+			},
+			["UnitLockout"] = 1609154722,
+			["Fights"] = {
+			},
+			["LastEventTimes"] = {
+				424050.813, -- [1]
+				424051.782, -- [2]
+				424052.775, -- [3]
+				424053.737, -- [4]
+				424054.804, -- [5]
+				424055.716, -- [6]
+				424055.842, -- [7]
+				424056.847, -- [8]
+				424057.515, -- [9]
+				424057.824, -- [10]
+				424058.499, -- [11]
+				424058.819, -- [12]
+				424059.499, -- [13]
+				424060.299, -- [14]
+				424060.498, -- [15]
+				424061.213, -- [16]
+				424061.512, -- [17]
+				424062.377, -- [18]
+				424062.52, -- [19]
+				424063.27, -- [20]
+				424063.492, -- [21]
+				424064.296, -- [22]
+				424065.297, -- [23]
+				424107.446, -- [24]
+				424108.544, -- [25]
+			},
+			["LastActive"] = 1609154780,
 		},
 		["Damelix"] = {
 			["GUID"] = "0x07000000000D3C65",
@@ -3921,10 +3847,11 @@ RecountPerCharDB = {
 				2.753415667322952, -- [33]
 			},
 			["type"] = "Grouped",
+			["LastAbility"] = 1068.818,
 			["Owner"] = false,
 			["TimeLast"] = {
-				["OVERALL"] = 1609154781,
 				["ManaGain"] = 1609154781,
+				["OVERALL"] = 1609154781,
 			},
 			["NextEventNum"] = 34,
 			["LastEventHealthNum"] = {
@@ -3998,6 +3925,55 @@ RecountPerCharDB = {
 				"Damelix Fel Armor Damelix Tick +923", -- [33]
 			},
 			["Name"] = "Damelix",
+			["UnitLockout"] = 1609154774,
+			["Fights"] = {
+				["CurrentFightData"] = {
+					["ManaGain"] = 622,
+					["ManaGainedFrom"] = {
+						["Jullio"] = {
+							["Details"] = {
+								["Revitalize"] = {
+									["count"] = 622,
+								},
+							},
+							["amount"] = 622,
+						},
+					},
+					["ManaGained"] = {
+						["Revitalize"] = {
+							["Details"] = {
+								["Jullio"] = {
+									["count"] = 622,
+								},
+							},
+							["amount"] = 622,
+						},
+					},
+				},
+				["OverallData"] = {
+					["ManaGain"] = 622,
+					["ManaGainedFrom"] = {
+						["Jullio"] = {
+							["Details"] = {
+								["Revitalize"] = {
+									["count"] = 622,
+								},
+							},
+							["amount"] = 622,
+						},
+					},
+					["ManaGained"] = {
+						["Revitalize"] = {
+							["Details"] = {
+								["Jullio"] = {
+									["count"] = 622,
+								},
+							},
+							["amount"] = 622,
+						},
+					},
+				},
+			},
 			["LastEventIncoming"] = {
 				true, -- [1]
 				true, -- [2]
@@ -4068,92 +4044,135 @@ RecountPerCharDB = {
 				424176.231, -- [32]
 				424181.274, -- [33]
 			},
-			["Fights"] = {
-				["CurrentFightData"] = {
-					["ManaGain"] = 622,
-					["ManaGainedFrom"] = {
-						["Jullio"] = {
-							["Details"] = {
-								["Revitalize"] = {
-									["count"] = 622,
-								},
-							},
-							["amount"] = 622,
-						},
-					},
-					["ManaGained"] = {
-						["Revitalize"] = {
-							["Details"] = {
-								["Jullio"] = {
-									["count"] = 622,
-								},
-							},
-							["amount"] = 622,
-						},
-					},
-				},
-				["OverallData"] = {
-					["ManaGain"] = 622,
-					["ManaGainedFrom"] = {
-						["Jullio"] = {
-							["Details"] = {
-								["Revitalize"] = {
-									["count"] = 622,
-								},
-							},
-							["amount"] = 622,
-						},
-					},
-					["ManaGained"] = {
-						["Revitalize"] = {
-							["Details"] = {
-								["Jullio"] = {
-									["count"] = 622,
-								},
-							},
-							["amount"] = 622,
-						},
-					},
-				},
-			},
-			["UnitLockout"] = 1609154774,
 			["LastActive"] = 1609154853,
 		},
-		["Moonriv"] = {
-			["GUID"] = "0x070000000056F17E",
+		["Momshie"] = {
+			["GUID"] = "0x070000000045E3A5",
 			["LastEventHealth"] = {
-				"24463 (100%)", -- [1]
+				"21860 (86%)", -- [1]
+				"22487 (89%)", -- [2]
+				"23122 (91%)", -- [3]
+				"23757 (94%)", -- [4]
+				"24394 (96%)", -- [5]
+				"25031 (99%)", -- [6]
+				"25190 (100%)", -- [7]
+				"25190 (100%)", -- [8]
+				"26420 (97%)", -- [9]
+				"27040 (100%)", -- [10]
+				"27040 (100%)", -- [11]
+				"27040 (100%)", -- [12]
+				"27040 (100%)", -- [13]
+				"27040 (100%)", -- [14]
 			},
 			["LastEventType"] = {
 				"HEAL", -- [1]
+				"HEAL", -- [2]
+				"HEAL", -- [3]
+				"HEAL", -- [4]
+				"HEAL", -- [5]
+				"HEAL", -- [6]
+				"HEAL", -- [7]
+				"HEAL", -- [8]
+				"HEAL", -- [9]
+				"HEAL", -- [10]
+				"HEAL", -- [11]
+				"HEAL", -- [12]
+				"HEAL", -- [13]
+				"HEAL", -- [14]
 			},
-			["enClass"] = "MAGE",
-			["unit"] = "Moonriv",
+			["enClass"] = "PRIEST",
+			["unit"] = "Momshie",
 			["level"] = 80,
 			["LastFightIn"] = 0,
 			["LastEventNum"] = {
-				44.92090095245882, -- [1]
+				2.298531163159984, -- [1]
+				2.298531163159984, -- [2]
+				2.330289797538706, -- [3]
+				2.330289797538706, -- [4]
+				2.338229456133386, -- [5]
+				2.338229456133386, -- [6]
+				2.338229456133386, -- [7]
+				2.338229456133386, -- [8]
+				2.178254437869823, -- [9]
+				2.178254437869823, -- [10]
+				2.178254437869823, -- [11]
+				2.185650887573964, -- [12]
+				2.185650887573964, -- [13]
+				2.185650887573964, -- [14]
 			},
 			["type"] = "Grouped",
 			["Owner"] = false,
-			["NextEventNum"] = 2,
+			["LastAbility"] = 1068.818,
+			["NextEventNum"] = 15,
 			["LastEventHealthNum"] = {
-				100, -- [1]
+				86.78046843985709, -- [1]
+				89.26955140928941, -- [2]
+				91.79039301310044, -- [3]
+				94.31123461691148, -- [4]
+				96.84001587931719, -- [5]
+				99.36879714172291, -- [6]
+				100, -- [7]
+				100, -- [8]
+				97.70710059171597, -- [9]
+				100, -- [10]
+				100, -- [11]
+				100, -- [12]
+				100, -- [13]
+				100, -- [14]
 			},
 			["LastEvents"] = {
-				"Jullio Echoes of Light Moonriv Crit +10989 (7478 overheal)", -- [1]
+				"Healing Stream Totem IX <Gicutzaasham> Healing Stream Totem Momshie Tick +579", -- [1]
+				"Healing Stream Totem IX <Gicutzaasham> Healing Stream Totem Momshie Tick +579", -- [2]
+				"Healing Stream Totem IX <Gicutzaasham> Healing Stream Totem Momshie Tick +587", -- [3]
+				"Healing Stream Totem IX <Gicutzaasham> Healing Stream Totem Momshie Tick +587", -- [4]
+				"Healing Stream Totem IX <Gicutzaasham> Healing Stream Totem Momshie Tick +589", -- [5]
+				"Healing Stream Totem IX <Gicutzaasham> Healing Stream Totem Momshie Tick +589", -- [6]
+				"Healing Stream Totem IX <Gicutzaasham> Healing Stream Totem Momshie Tick +589 (478 overheal)", -- [7]
+				"Healing Stream Totem IX <Gicutzaasham> Healing Stream Totem Momshie Tick +589", -- [8]
+				"Healing Stream Totem IX <Gicutzaasham> Healing Stream Totem Momshie Tick +589", -- [9]
+				"Healing Stream Totem IX <Gicutzaasham> Healing Stream Totem Momshie Tick +589 (22 overheal)", -- [10]
+				"Healing Stream Totem IX <Gicutzaasham> Healing Stream Totem Momshie Tick +589 (589 overheal)", -- [11]
+				"Healing Stream Totem IX <Gicutzaasham> Healing Stream Totem Momshie Tick +591 (591 overheal)", -- [12]
+				"Healing Stream Totem IX <Gicutzaasham> Healing Stream Totem Momshie Tick +591 (591 overheal)", -- [13]
+				"Healing Stream Totem IX <Gicutzaasham> Healing Stream Totem Momshie Tick +591 (591 overheal)", -- [14]
 			},
-			["Name"] = "Moonriv",
+			["Name"] = "Momshie",
 			["LastEventIncoming"] = {
 				true, -- [1]
+				true, -- [2]
+				true, -- [3]
+				true, -- [4]
+				true, -- [5]
+				true, -- [6]
+				true, -- [7]
+				true, -- [8]
+				true, -- [9]
+				true, -- [10]
+				true, -- [11]
+				true, -- [12]
+				true, -- [13]
+				true, -- [14]
 			},
-			["LastEventTimes"] = {
-				424104.334, -- [1]
-			},
+			["UnitLockout"] = 1609154827,
 			["Fights"] = {
 			},
-			["UnitLockout"] = 1609154776,
-			["LastActive"] = 1609154776,
+			["LastEventTimes"] = {
+				424155.949, -- [1]
+				424157.918, -- [2]
+				424159.965, -- [3]
+				424161.92, -- [4]
+				424163.89, -- [5]
+				424166.003, -- [6]
+				424167.915, -- [7]
+				424169.91, -- [8]
+				424172.032, -- [9]
+				424174.022, -- [10]
+				424176.002, -- [11]
+				424178.007, -- [12]
+				424179.976, -- [13]
+				424181.987, -- [14]
+			},
+			["LastActive"] = 1609154853,
 		},
 	},
 	["FightNum"] = 0,
