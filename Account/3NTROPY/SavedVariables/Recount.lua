@@ -48,9 +48,9 @@ RecountDB = {
 				},
 			},
 			["DetailWindowY"] = -350.5777533164221,
-			["MainWindowHeight"] = 310.8518969696999,
-			["MainWindowWidth"] = 251.4197662784027,
 			["GraphWindowX"] = 0,
+			["MainWindowWidth"] = 251.4197662784027,
+			["MainWindowHeight"] = 310.8518969696999,
 		},
 		["Vrael - Icecrown"] = {
 			["GraphWindowY"] = 0,
@@ -62,7 +62,10 @@ RecountDB = {
 					["h"] = 323.0000267394107,
 				},
 			},
-			["ReportLines"] = 1,
+			["DetailWindowX"] = 317.267070839811,
+			["LastInstanceName"] = "Trial of the Crusader",
+			["MainWindowHeight"] = 323.4446028824811,
+			["CurDataSet"] = "CurrentFightData",
 			["Colors"] = {
 				["Bar"] = {
 					["Bar Text"] = {
@@ -74,12 +77,10 @@ RecountDB = {
 				},
 			},
 			["DetailWindowY"] = -59.9999876902969,
-			["DetailWindowX"] = 395.5184594598051,
-			["LastInstanceName"] = "Trial of the Champion",
-			["CurDataSet"] = "LastFightData",
-			["GraphWindowX"] = 0,
 			["MainWindowWidth"] = 244.5308668882732,
-			["MainWindowHeight"] = 323.4446028824811,
+			["MainWindowVis"] = false,
+			["ReportLines"] = 1,
+			["GraphWindowX"] = 0,
 		},
 		["Nalar - Icecrown"] = {
 			["GraphWindowY"] = 0,
@@ -264,12 +265,12 @@ RecountDB = {
 					["y"] = 121.2112326587912,
 					["h"] = 318.9999969225742,
 					["w"] = 239.9999682683209,
-					["x"] = -562.6668430145616,
+					["x"] = -562.6669393037946,
 				},
 			},
 			["DetailWindowX"] = 160.9111434339599,
 			["LastInstanceName"] = "Arathi Basin",
-			["CurDataSet"] = "CurrentFightData",
+			["CurDataSet"] = "LastFightData",
 			["Colors"] = {
 				["Bar"] = {
 					["Bar Text"] = {
@@ -278,9 +279,9 @@ RecountDB = {
 				},
 			},
 			["DetailWindowY"] = -107.7333485791286,
-			["GraphWindowX"] = 0,
-			["MainWindowWidth"] = 239.733352135265,
 			["MainWindowHeight"] = 319.2665955484968,
+			["MainWindowWidth"] = 239.733352135265,
+			["GraphWindowX"] = 0,
 		},
 		["Ulrezaj - Icecrown"] = {
 			["GraphWindowY"] = 0,
@@ -312,15 +313,12 @@ RecountDB = {
 			["GraphWindowY"] = 0,
 			["MainWindow"] = {
 				["Position"] = {
-					["y"] = 121.7111663573626,
-					["h"] = 327.999993981923,
-					["w"] = 260.0000123097031,
-					["x"] = -553.2444688571693,
+					["y"] = 118.4000422359591,
+					["h"] = 328.7999999452902,
+					["w"] = 260.0000298168364,
+					["x"] = -552.0670441140778,
 				},
 			},
-			["DetailWindowX"] = -167.0000018464555,
-			["LastInstanceName"] = "Isle of Conquest",
-			["CurDataSet"] = "CurrentFightData",
 			["Colors"] = {
 				["Bar"] = {
 					["Bar Text"] = {
@@ -332,9 +330,12 @@ RecountDB = {
 				},
 			},
 			["DetailWindowY"] = 26.99999993161276,
+			["DetailWindowX"] = -167.0000018464555,
+			["LastInstanceName"] = "Icecrown Citadel",
+			["CurDataSet"] = "LastFightData",
 			["GraphWindowX"] = 0,
-			["MainWindowWidth"] = 259.5309261800098,
-			["MainWindowHeight"] = 327.8025485325432,
+			["MainWindowWidth"] = 260.0000123097031,
+			["MainWindowHeight"] = 328.7999999452902,
 		},
 		["Kalaam - Icecrown"] = {
 			["GraphWindowY"] = 0,
@@ -493,7 +494,7 @@ RecountDB = {
 			},
 			["DetailWindowX"] = 112.9876419471188,
 			["LastInstanceName"] = "Vault of Archavon",
-			["GraphWindowX"] = 0,
+			["DetailWindowY"] = -124.0493402990752,
 			["CurDataSet"] = "LastFightData",
 			["Colors"] = {
 				["Bar"] = {
@@ -505,7 +506,7 @@ RecountDB = {
 					},
 				},
 			},
-			["DetailWindowY"] = -124.0493402990752,
+			["GraphWindowX"] = 0,
 			["MainWindowVis"] = false,
 			["MainWindowMode"] = 5,
 			["MainWindowWidth"] = 256.148530518934,

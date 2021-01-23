@@ -30,8 +30,8 @@ GladiusDB = {
 		},
 		["Vrael - Icecrown"] = {
 			["locked"] = true,
-			["y"] = 534.3400596661643,
 			["x"] = 941.2586748758234,
+			["y"] = 534.3400596661643,
 		},
 		["Rakhnis - Icecrown"] = {
 			["locked"] = true,
@@ -75,8 +75,8 @@ GladiusDB = {
 		},
 		["Pocaitoru - Icecrown"] = {
 			["locked"] = true,
-			["x"] = 1068.283355016582,
 			["y"] = 591.6555710886522,
+			["x"] = 1068.283355016582,
 		},
 		["Lingurita - Lordaeron"] = {
 			["locked"] = true,
