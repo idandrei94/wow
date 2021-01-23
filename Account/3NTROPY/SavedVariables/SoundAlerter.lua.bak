@@ -1,0 +1,10 @@
+
+sadb = {
+	["profileKeys"] = {
+		["Ulrezaj - Icecrown"] = "Default",
+	},
+	["profiles"] = {
+		["Default"] = {
+		},
+	},
+}

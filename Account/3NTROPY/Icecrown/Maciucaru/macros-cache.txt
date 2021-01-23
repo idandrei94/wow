@@ -1,0 +1,114 @@
+MACRO 16777237 "charge" INV_Misc_QuestionMark
+#showtooltip charge
+/cast battle stance
+/cast charge
+END
+MACRO 16777224 "cht" INV_Misc_QuestionMark
+#showtooltip bloodthirst
+/cancelaura hand of protection
+/stopcasting
+/cast !cleave
+/startattack
+/cast bloodthirst
+END
+MACRO 16777223 "cslam" INV_Misc_QuestionMark
+#showtooltip slam
+/equipset pve
+/cancelaura hand of protection
+/cast slam
+/stopcasting
+/cast !cleave
+/startattack
+END
+MACRO 16777222 "cww" INV_Misc_QuestionMark
+#showtooltip whirlwind
+/equipset pve
+/cancelaura hand of protection
+/stopcasting
+/cast !cleave
+/startattack
+/cast whirlwind
+END
+MACRO 16777232 "disarm" INV_Misc_QuestionMark
+#showtooltip disarm
+/cast defensive stance
+/cast disarm
+END
+MACRO 16777219 "hbt" INV_Misc_QuestionMark
+#showtooltip bloodthirst
+/cancelaura hand of protection
+/stopcasting
+/cast !heroic strike
+/startattack
+/cast bloodthirst
+END
+MACRO 16777221 "hslam" INV_Misc_QuestionMark
+#showtooltip slam
+/cancelaura hand of protection
+/cast slam
+/stopcasting
+/cast !heroic strike
+/startattack
+END
+MACRO 16777218 "hww" INV_Misc_QuestionMark
+#showtooltip whirlwind
+/equipset pve
+/cancelaura hand of protection
+/stopcasting
+/cast !heroic strike
+/startattack
+/cast whirlwind
+END
+MACRO 16777230 "intercept" INV_Misc_QuestionMark
+#showtooltip intercept
+/cast berserker stance
+/cast intercept
+END
+MACRO 16777233 "interrupt" INV_Misc_QuestionMark
+#showtooltip shield bash
+/equipset shield
+/cast shield bash
+END
+MACRO 16777226 "intervene" INV_Misc_QuestionMark
+#showtooltip intervene
+/cast defensive stance 
+/cast [target=mouseover] intervene
+END
+MACRO 16777217 "mount" INV_Misc_QuestionMark
+#showtooltip
+/cancelaura strength of the taunka
+/cancelaura aim of the iron dwarves
+/cancelaura speed of the vrykul
+/userandom [flyable] Invincible; Swift Spectral Tiger
+END
+MACRO 16777238 "pvpwep" INV_Misc_QuestionMark
+#showtooltip 16
+/equipset pvp
+END
+MACRO 16777228 "reflect" INV_Misc_QuestionMark
+#showtooltip spell reflection
+/equipset shield
+/cast [form:3] defensive stance
+/cast spell reflection
+/cast spell reflection
+END
+MACRO 16777229 "rend" INV_Misc_QuestionMark
+#showtooltip rend
+/cast [form:3] battle stance
+/cast rend
+END
+MACRO 16777236 "shield slam" INV_Misc_QuestionMark
+#showtooltip shield slam
+/equipset shield
+/cast shield slam
+END
+MACRO 16777231 "swall" INV_Misc_QuestionMark
+#showtooltip shield wall
+/cast defensive stance
+/equipset shield
+/cast shield wall
+END
+MACRO 16777225 "wep" INV_Misc_QuestionMark
+#showtooltip 16
+/equipset pve
+END

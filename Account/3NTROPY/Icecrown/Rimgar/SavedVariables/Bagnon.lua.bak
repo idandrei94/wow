@@ -1,0 +1,11 @@
+
+BagnonFrameSettings = {
+	["frames"] = {
+		["inventory"] = {
+			["itemFrameColumns"] = 12,
+			["y"] = 175.2411522128298,
+			["x"] = -35.55502693739163,
+		},
+	},
+	["version"] = "2.13.3",
+}

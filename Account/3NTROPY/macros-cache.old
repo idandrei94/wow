@@ -1,0 +1,129 @@
+MACRO 22 " " INV_Misc_QuestionMark
+#show Emblem of Triumph
+/script local i for i=-1,GetItemCount("Emblem of Triumph")+GetItemCount("Emblem of Conquest")+GetItemCount("Emblem of Valor") do BuyMerchantItem(1 , {1}) BuyMerchantItem(2 , {1}); BuyMerchantItem(3 , {1});  end
+END
+MACRO 60 "ar blast" INV_Misc_QuestionMark
+#showtooltip
+/cast [nochanneling] arcane blast
+END
+MACRO 75 "arcane" INV_Misc_QuestionMark
+#showtooltip arcane barrage
+/cast [nochanneling] arcane barrage
+END
+MACRO 8 "freeze" Spell_Frost_SummonWaterElemental_2
+#showtooltip Summon Water Elemental
+/cast [nopet] Summon Water Elemental
+/stop macro [nopet]
+/petpassive
+/click PetActionButton5
+END
+MACRO 78 "gem" INV_Misc_QuestionMark
+#showtooltip mana sapphire
+/equip [nomodifier:alt] Heroes' Frostfire Gloves
+/equip [nomodifier:alt] Heroes' Frostfire Shoulderpads
+/cast [modifier:alt] conjure mana gem
+/use Mana Sapphire
+/equipset ttw
+END
+MACRO 61 "gender" INV_Misc_QuestionMark
+/run local x=UnitSex("target");local g={"n unknown!", " boy!", " girl!"} n=GetUnitName("target");if IsShiftKeyDown()then SendChatMessage(n .." is a" ..g[x],"SAY");else print(n .." is a" ..g[x]);end
+END
+MACRO 24 "healthstone" INV_Misc_QuestionMark
+#showtooltip Fel Healthstone
+/use Fel Healthstone
+END
+MACRO 67 "helm" Ability_Warrior_ImprovedDisciplines
+/run ShowHelm(not ShowingHelm())
+END
+MACRO 43 "hop" Ability_Mount_Dreadsteed
+/cancelaura hand of protection
+/cancelaura path of frost
+/cancelaura water walking
+END
+MACRO 45 "incinerate" INV_Misc_QuestionMark
+#showtooltip incinerate
+/startattack
+/cast Demonic Empowerment
+/petattack
+/cast shadow cleave
+/cast incinerate
+END
+MACRO 76 "inferno" Spell_Fire_Fire
+/target living inferno
+END
+MACRO 14 "invis" ABILITY_MAGE_INVISIBILITY
+#showtooltip invisibility
+/stopcasting 
+/cancelaura Invisibility
+/cast Invisibility
+END
+MACRO 70 "JC" INV_Misc_QuestionMark
+#showtooltip Jewelcrafting
+/run SendChatMessage("FULL  "..select(2,GetSpellLink("Jewelcrafting")).."  your mats only, 50-100g/cut","CHANNEL",nil,GetChannelName("global"));
+END
+MACRO 66 "KEYNAME" INV_Misc_QuestionMark
+/run local f = GetMouseFocus(); if f then DEFAULT_CHAT_FRAME:AddMessage(f:GetName()) end
+END
+MACRO 62 "logfix" Ability_Creature_Disease_02
+/run local f = CreateFrame("frame",nil, UIParent); f:SetScript("OnUpdate", CombatLogClearEntries);
+END
+MACRO 80 "marmor" INV_Misc_QuestionMark
+#showtooltip mage armor
+/equip Khadgar's Gauntlets of Conquest
+/equip Khadgar's Shoulderpads of Conquest
+/cast mage armor
+/equipset pvp
+END
+MACRO 40 "missile" INV_Misc_QuestionMark
+#showtooltip arcane missiles
+/cast [nochanneling] arcane missiles
+END
+MACRO 79 "molten" INV_Misc_QuestionMark
+#showtooltip molten armor
+/equip Khadgar's Gauntlets of Conquest
+/equip Khadgar's Shoulderpads of Conquest
+/cast molten armor
+/equipset ttw
+END
+MACRO 32 "mouseover wand" INV_Misc_QuestionMark
+#showtooltip Shoot
+/castsequence [target=mouseover] !Shoot, !Shoot
+END
+MACRO 3 "pet abilities   " INV_Misc_QuestionMark
+#showtooltip spell lock
+/cast Firebolt
+/cast sacrifice
+/cast Seduction
+/cast Spell Lock(Rank 2)
+END
+MACRO 11 "poly" Spell_Nature_Polymorph
+#showtooltip polymorph
+/petpassive
+/cast [target=focus] Polymorph(Rank 4)
+END
+MACRO 58 "SM" INV_Misc_QuestionMark
+#showtooltip 16
+/equip  shadowmourne
+/equipslot 17 glorenzelg
+END
+MACRO 46 "soulfire" INV_Misc_QuestionMark
+#showtooltip soul fire
+/startattack
+/petattack
+/cast Demonic Empowerment
+/cast shadow cleave
+/cast soul fire
+END
+MACRO 77 "spellstone" INV_Misc_QuestionMark
+#showtooltip grand spellstone
+/cast [modifier:alt] Create Spellstone(Rank 6)
+/use Grand Spellstone
+/use 16
+END
+MACRO 31 "train" Ability_Creature_Cursed_01
+/run LoadAddOn"Blizzard_TrainerUI" f=ClassTrainerTrainButton f.e = 0 if f:GetScript"OnUpdate" then f:SetScript("OnUpdate", nil)else f:SetScript("OnUpdate", function(f,e) f.e=f.e+e if f.e>.01 then f.e=0 f:Click() end end)end
+END
+MACRO 4 "void shield" Ability_Creature_Cursed_05
+#showtooltip Sacrifice
+/castsequence  Fel Domination, Summon Voidwalker, Sacrifice, Soul Link
+END

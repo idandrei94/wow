@@ -1,0 +1,93 @@
+MACRO 16777228 "bubble" INV_Misc_QuestionMark
+#showtooltip
+/cancelaura divine shield
+/cast divine shield
+END
+MACRO 16777231 "cleanse" INV_Misc_QuestionMark
+#showtooltip cleanse
+/cast [nomodifier:alt] cleanse
+/cast [target=party1, modifier:alt] cleanse
+END
+MACRO 16777225 "cs" INV_Misc_QuestionMark
+#showtooltip crusader strike
+/startattack
+/use 10
+/cast crusader strike
+END
+MACRO 16777229 "disarm" INV_Misc_QuestionMark
+#showtooltip 16
+/equip Shadowmourne
+/run PickupInventoryItem(16)PutItemInBackpack()
+END
+MACRO 16777221 "ds" INV_Misc_QuestionMark
+#showtooltip divine storm
+/startattack
+/use 10
+/cast divine storm
+END
+MACRO 16777223 "exo" INV_Misc_QuestionMark
+#showtooltip
+/cast exorcism
+/stopcasting
+END
+MACRO 16777233 "fol" INV_Misc_QuestionMark
+#showtooltip avenging wrath
+/cast avenging wrath
+/cast flash of light
+END
+MACRO 16777226 "hw" INV_Misc_QuestionMark
+#showtooltip hammer of wrath
+/startattack
+/use 10
+/cast hammer of wrath
+END
+MACRO 16777222 "judgement" INV_Misc_QuestionMark
+#showtooltip judgement of wisdom
+/startattack
+/use 10
+/cast judgement of wisdom
+END
+MACRO 16777220 "nitro" INV_Misc_QuestionMark
+#showtooltip 8
+/use 8
+END
+MACRO 16777230 "pflash" INV_Misc_QuestionMark
+#showtooltip flash of light
+/cast [target=party1] flash of light
+END
+MACRO 16777237 "pvpjud" INV_Misc_QuestionMark
+#showtooltip judgement of light
+/startattack
+/use 10
+/cast judgement of wisdom
+END
+MACRO 16777219 "pyro" INV_Misc_QuestionMark
+#showtooltip 10
+/use 10
+END
+MACRO 16777232 "shield" INV_Misc_QuestionMark
+#showtooltip sacred shield
+/cast [noflying] sacred shield
+END
+MACRO 16777227 "wep" INV_Misc_QuestionMark
+#showtooltip 16
+/equip Shadowmourne
+/equip Royal Scepter of Terenas II
+/equip Wrathful Gladiator's Barrier
+END
+MACRO 16777234 "wep2" INV_Misc_QuestionMark
+#showtooltip 16
+/equip Shadowmourne
+/equip Royal Scepter of Terenas II
+/equip Bulwark of Smouldering Steel
+END
+MACRO 16777235 "wep3" INV_Misc_QuestionMark
+#showtooltip Icecrown Glacial Wall
+/equip Royal Scepter of Terenas II
+/equip Icecrown Glacial Wall
+END
+MACRO 16777236 "wep4" INV_Misc_QuestionMark
+#showtooltip Wrathful Gladiator's Barrier
+/equip Royal Scepter of Terenas II
+/equip Wrathful Gladiator's Barrier
+END

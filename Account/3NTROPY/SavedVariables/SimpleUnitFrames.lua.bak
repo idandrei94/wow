@@ -1,0 +1,10 @@
+
+SimpleUnitFramesDB = {
+	["profileKeys"] = {
+		["Ulrezaj - Icecrown"] = "Ulrezaj - Icecrown",
+	},
+	["profiles"] = {
+		["Ulrezaj - Icecrown"] = {
+		},
+	},
+}

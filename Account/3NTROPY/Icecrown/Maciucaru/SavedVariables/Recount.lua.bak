@@ -1,0 +1,499 @@
+
+RecountPerCharDB = {
+	["version"] = "1.3",
+	["combatants"] = {
+		["Drext"] = {
+			["GUID"] = "0x0700000000008220",
+			["TimeLast"] = {
+				["RageGain"] = 1524165393,
+				["ActiveTime"] = 1524165807,
+				["OVERALL"] = 1524165807,
+				["TimeDamage"] = 1524165807,
+				["Damage"] = 1524165807,
+			},
+			["LastEventType"] = {
+				"HEAL", -- [1]
+				"HEAL", -- [2]
+				"HEAL", -- [3]
+				"HEAL", -- [4]
+				"HEAL", -- [5]
+				"HEAL", -- [6]
+				"HEAL", -- [7]
+				"HEAL", -- [8]
+				"HEAL", -- [9]
+				"HEAL", -- [10]
+				"DAMAGE", -- [11]
+			},
+			["TimeWindows"] = {
+				["Damage"] = {
+					5875, -- [1]
+				},
+				["RageGain"] = {
+					50, -- [1]
+				},
+				["TimeDamage"] = {
+					3.5, -- [1]
+				},
+				["ActiveTime"] = {
+					3.5, -- [1]
+				},
+			},
+			["enClass"] = "WARRIOR",
+			["unit"] = "Drext",
+			["level"] = 80,
+			["LastFightIn"] = 0,
+			["LastEventNum"] = {
+				2.997344934583027, -- [1]
+				2.997344934583027, -- [2]
+				2.997344934583027, -- [3]
+				2.997344934583027, -- [4]
+				2.997344934583027, -- [5]
+				2.997344934583027, -- [6]
+				2.997344934583027, -- [7]
+				2.997344934583027, -- [8]
+				2.997344934583027, -- [9]
+				2.997344934583027, -- [10]
+			},
+			["type"] = "Self",
+			["FightsSaved"] = 1,
+			["LastAbility"] = 1218814.766,
+			["Owner"] = false,
+			["LastEventHealth"] = {
+				"31261 (100%)", -- [1]
+				"31261 (100%)", -- [2]
+				"31261 (100%)", -- [3]
+				"31261 (100%)", -- [4]
+				"31261 (100%)", -- [5]
+				"31261 (100%)", -- [6]
+				"31261 (100%)", -- [7]
+				"31261 (100%)", -- [8]
+				"31261 (100%)", -- [9]
+				"31261 (100%)", -- [10]
+				"31261 (100%)", -- [11]
+			},
+			["NextEventNum"] = 12,
+			["LastEventHealthNum"] = {
+				100, -- [1]
+				100, -- [2]
+				100, -- [3]
+				100, -- [4]
+				100, -- [5]
+				100, -- [6]
+				100, -- [7]
+				100, -- [8]
+				100, -- [9]
+				100, -- [10]
+				100, -- [11]
+			},
+			["LastEvents"] = {
+				"Drext Enraged Regeneration Drext Tick +937 (937 overheal)", -- [1]
+				"Drext Enraged Regeneration Drext Tick +937 (937 overheal)", -- [2]
+				"Drext Enraged Regeneration Drext Tick +937 (937 overheal)", -- [3]
+				"Drext Enraged Regeneration Drext Tick +937 (937 overheal)", -- [4]
+				"Drext Enraged Regeneration Drext Tick +937 (937 overheal)", -- [5]
+				"Drext Enraged Regeneration Drext Tick +937 (937 overheal)", -- [6]
+				"Drext Enraged Regeneration Drext Tick +937 (937 overheal)", -- [7]
+				"Drext Enraged Regeneration Drext Tick +937 (937 overheal)", -- [8]
+				"Drext Enraged Regeneration Drext Tick +937 (937 overheal)", -- [9]
+				"Drext Enraged Regeneration Drext Tick +937 (937 overheal)", -- [10]
+				"Drext Melee Rabbit Crit -5875 (Physical)", -- [11]
+			},
+			["Name"] = "Drext",
+			["LastEventIncoming"] = {
+				true, -- [1]
+				true, -- [2]
+				true, -- [3]
+				true, -- [4]
+				true, -- [5]
+				true, -- [6]
+				true, -- [7]
+				true, -- [8]
+				true, -- [9]
+				true, -- [10]
+				false, -- [11]
+			},
+			["LastEventTimes"] = {
+				1218402.375, -- [1]
+				1218403.324, -- [2]
+				1218404.407, -- [3]
+				1218405.374, -- [4]
+				1218406.29, -- [5]
+				1218407.357, -- [6]
+				1218408.39, -- [7]
+				1218409.39, -- [8]
+				1218410.307, -- [9]
+				1218411.407, -- [10]
+				1218814.766, -- [11]
+			},
+			["Fights"] = {
+				["Fight1"] = {
+					["ElementHitsDone"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Crit"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 1,
+						},
+					},
+					["TimeSpent"] = {
+						["Rabbit"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 3.5,
+								},
+							},
+							["amount"] = 3.5,
+						},
+					},
+					["ElementDone"] = {
+						["Melee"] = 5875,
+					},
+					["RageGainedFrom"] = {
+						["Drext"] = {
+							["Details"] = {
+								["Bloodrage"] = {
+									["count"] = 50,
+								},
+							},
+							["amount"] = 50,
+						},
+					},
+					["Attacks"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 5875,
+									["min"] = 5875,
+									["count"] = 1,
+									["amount"] = 5875,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 5875,
+						},
+					},
+					["RageGain"] = 50,
+					["DamagedWho"] = {
+						["Rabbit"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 5875,
+								},
+							},
+							["amount"] = 5875,
+						},
+					},
+					["ActiveTime"] = 3.5,
+					["TimeDamaging"] = {
+						["Rabbit"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 3.5,
+								},
+							},
+							["amount"] = 3.5,
+						},
+					},
+					["TimeDamage"] = 3.5,
+					["RageGained"] = {
+						["Bloodrage"] = {
+							["Details"] = {
+								["Drext"] = {
+									["count"] = 50,
+								},
+							},
+							["amount"] = 50,
+						},
+					},
+					["Damage"] = 5875,
+				},
+				["LastFightData"] = {
+					["ElementHitsDone"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Crit"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 1,
+						},
+					},
+					["TimeSpent"] = {
+						["Rabbit"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 3.5,
+								},
+							},
+							["amount"] = 3.5,
+						},
+					},
+					["ElementDone"] = {
+						["Melee"] = 5875,
+					},
+					["RageGainedFrom"] = {
+						["Drext"] = {
+							["Details"] = {
+								["Bloodrage"] = {
+									["count"] = 50,
+								},
+							},
+							["amount"] = 50,
+						},
+					},
+					["Attacks"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 5875,
+									["min"] = 5875,
+									["count"] = 1,
+									["amount"] = 5875,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 5875,
+						},
+					},
+					["RageGain"] = 50,
+					["DamagedWho"] = {
+						["Rabbit"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 5875,
+								},
+							},
+							["amount"] = 5875,
+						},
+					},
+					["ActiveTime"] = 3.5,
+					["TimeDamaging"] = {
+						["Rabbit"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 3.5,
+								},
+							},
+							["amount"] = 3.5,
+						},
+					},
+					["TimeDamage"] = 3.5,
+					["RageGained"] = {
+						["Bloodrage"] = {
+							["Details"] = {
+								["Drext"] = {
+									["count"] = 50,
+								},
+							},
+							["amount"] = 50,
+						},
+					},
+					["Damage"] = 5875,
+				},
+				["CurrentFightData"] = {
+					["DOTs"] = {
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 0,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["ElementHitsDone"] = {
+					},
+					["ElementTakenAbsorb"] = {
+					},
+					["ElementTaken"] = {
+					},
+					["DOT_Time"] = 0,
+					["Damage"] = 0,
+					["ElementTakenBlock"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["ElementDoneAbsorb"] = {
+					},
+					["FAttacks"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDone"] = {
+					},
+					["PartialAbsorb"] = {
+					},
+					["DamagedWho"] = {
+					},
+					["PartialBlock"] = {
+					},
+					["WhoDamaged"] = {
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["PartialResist"] = {
+					},
+					["CCBroken"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+					},
+					["OverHeals"] = {
+					},
+					["ManaGainedFrom"] = {
+					},
+					["RunicPowerGained"] = {
+					},
+					["CCBreak"] = 0,
+					["RageGained"] = {
+					},
+					["HealedWho"] = {
+					},
+					["EnergyGain"] = 0,
+					["ManaGained"] = {
+					},
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["Overhealing"] = 0,
+					["TimeSpent"] = {
+					},
+					["WhoDispelled"] = {
+					},
+					["InterruptData"] = {
+					},
+					["RunicPowerGain"] = 0,
+					["Heals"] = {
+					},
+					["WhoHealed"] = {
+					},
+					["EnergyGained"] = {
+					},
+					["ActiveTime"] = 0,
+					["Healing"] = 0,
+					["FDamagedWho"] = {
+					},
+					["Dispelled"] = 0,
+					["Attacks"] = {
+					},
+					["HealingTaken"] = 0,
+					["RageGain"] = 0,
+					["TimeDamage"] = 0,
+					["TimeDamaging"] = {
+					},
+					["ManaGain"] = 0,
+					["HOTs"] = {
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["OverallData"] = {
+					["ElementHitsDone"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Crit"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 1,
+						},
+					},
+					["TimeSpent"] = {
+						["Rabbit"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 3.5,
+								},
+							},
+							["amount"] = 3.5,
+						},
+					},
+					["ElementDone"] = {
+						["Melee"] = 5875,
+					},
+					["RageGainedFrom"] = {
+						["Drext"] = {
+							["Details"] = {
+								["Bloodrage"] = {
+									["count"] = 50,
+								},
+							},
+							["amount"] = 50,
+						},
+					},
+					["Attacks"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 5875,
+									["min"] = 5875,
+									["count"] = 1,
+									["amount"] = 5875,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 5875,
+						},
+					},
+					["RageGain"] = 50,
+					["DamagedWho"] = {
+						["Rabbit"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 5875,
+								},
+							},
+							["amount"] = 5875,
+						},
+					},
+					["ActiveTime"] = 3.5,
+					["TimeDamaging"] = {
+						["Rabbit"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 3.5,
+								},
+							},
+							["amount"] = 3.5,
+						},
+					},
+					["TimeDamage"] = 3.5,
+					["RageGained"] = {
+						["Bloodrage"] = {
+							["Details"] = {
+								["Drext"] = {
+									["count"] = 50,
+								},
+							},
+							["amount"] = 50,
+						},
+					},
+					["Damage"] = 5875,
+				},
+			},
+			["UnitLockout"] = 1524165394,
+			["LastActive"] = 1524165807,
+		},
+	},
+	["FightNum"] = 1,
+	["CombatTimes"] = {
+		{
+			1524165807, -- [1]
+			1524165813, -- [2]
+			"21:23:27", -- [3]
+			"21:23:33", -- [4]
+			"Rabbit", -- [5]
+		}, -- [1]
+	},
+	["FoughtWho"] = {
+		"Rabbit 21:23:27-21:23:33", -- [1]
+	},
+}

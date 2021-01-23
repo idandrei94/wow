@@ -1,0 +1,37 @@
+MACRO 16777223 "blind" INV_Misc_QuestionMark
+#showtooltip
+/cast [@focus, harm, nodead, modifier:alt][] blind
+END
+MACRO 16777220 "dp" INV_Misc_QuestionMark
+#showtooltip
+/use deadly poison ix
+/use 17
+END
+MACRO 16777219 "ip" INV_Misc_QuestionMark
+#showtooltip instant poison ix
+/use instant poison ix
+/use 16
+END
+MACRO 16777224 "mount" INV_Misc_QuestionMark
+#showtooltip
+/cancelaura power of the taunka
+/cancelaura strength of the taunka
+/cancelaura agility of the vrykul
+/cancelaura speed of the vrykul
+/cancelaura aim of the iron dwarves
+/userandom [flyable] Bloodbathed Frostbrood Vanquisher; Frostwolf Howler
+END
+MACRO 16777222 "sap" INV_Misc_QuestionMark
+#showtooltip
+/cast [@focus, harm, nodead, modifier:alt][] sap
+END
+MACRO 16777217 "ss" INV_Misc_QuestionMark
+#showtooltip sinister strike
+/startattack
+/use 10
+/cast sinister strike
+END
+MACRO 16777218 "tot" INV_Misc_QuestionMark
+#showtooltip
+/cast [@focus, help, nodead][@targettarget, help, nodead][] tricks of the trade
+END

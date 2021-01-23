@@ -1,0 +1,19 @@
+
+TomTomDB = {
+	["profileKeys"] = {
+		["Ulrezaj - Icecrown"] = "Default",
+	},
+	["profiles"] = {
+		["Default"] = {
+		},
+	},
+}
+TomTomWaypoints = {
+	["profileKeys"] = {
+		["Ulrezaj - Icecrown"] = "Ulrezaj - Icecrown",
+	},
+	["profiles"] = {
+		["Ulrezaj - Icecrown"] = {
+		},
+	},
+}

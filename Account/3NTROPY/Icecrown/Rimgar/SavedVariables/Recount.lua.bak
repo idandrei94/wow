@@ -1,0 +1,167 @@
+
+RecountPerCharDB = {
+	["version"] = "1.3",
+	["combatants"] = {
+		["Rimgar"] = {
+			["GUID"] = "0x070000000040A064",
+			["LastEventHealth"] = {
+				"28567 (87%)", -- [1]
+			},
+			["LastAttackedBy"] = "Environment",
+			["LastEventType"] = {
+				"DAMAGE", -- [1]
+			},
+			["TimeWindows"] = {
+				["DamageTaken"] = {
+					4074, -- [1]
+				},
+			},
+			["enClass"] = "WARRIOR",
+			["unit"] = "Rimgar",
+			["level"] = 80,
+			["LastDamageAbility"] = "Falling",
+			["LastFightIn"] = 0,
+			["LastEventNum"] = {
+				12.48123525627279, -- [1]
+			},
+			["type"] = "Self",
+			["LastDamageTaken"] = 4074,
+			["Owner"] = false,
+			["TimeLast"] = {
+				["DamageTaken"] = 1589133524,
+				["OVERALL"] = 1589133524,
+			},
+			["NextEventNum"] = 2,
+			["LastEventHealthNum"] = {
+				87.51876474372722, -- [1]
+			},
+			["LastEvents"] = {
+				"Environment Falling Rimgar Hit -4074 (Physical)", -- [1]
+			},
+			["Name"] = "Rimgar",
+			["LastEventIncoming"] = {
+				true, -- [1]
+			},
+			["LastEventTimes"] = {
+				2028566.247, -- [1]
+			},
+			["Fights"] = {
+				["CurrentFightData"] = {
+					["PartialResist"] = {
+						["Falling"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["PartialAbsorb"] = {
+						["Falling"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["WhoDamaged"] = {
+						["Environment"] = {
+							["Details"] = {
+								["Falling"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ElementTaken"] = {
+						["Physical"] = 0,
+					},
+					["DamageTaken"] = 0,
+					["ElementHitsTaken"] = {
+						["Physical"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+				},
+				["OverallData"] = {
+					["PartialResist"] = {
+						["Falling"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+					},
+					["PartialAbsorb"] = {
+						["Falling"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+					},
+					["WhoDamaged"] = {
+						["Environment"] = {
+							["Details"] = {
+								["Falling"] = {
+									["count"] = 4074,
+								},
+							},
+							["amount"] = 4074,
+						},
+					},
+					["ElementTaken"] = {
+						["Physical"] = 4074,
+					},
+					["DamageTaken"] = 4074,
+					["ElementHitsTaken"] = {
+						["Physical"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 1,
+						},
+					},
+				},
+			},
+			["UnitLockout"] = 1589133524,
+			["LastActive"] = 1589133524,
+		},
+	},
+	["FightNum"] = 0,
+	["CombatTimes"] = {
+	},
+	["FoughtWho"] = {
+	},
+}

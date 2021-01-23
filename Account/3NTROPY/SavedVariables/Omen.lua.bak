@@ -1,0 +1,12 @@
+
+Omen3DB = {
+	["profileKeys"] = {
+		["Ulrezaj - Icecrown"] = "Ulrezaj - Icecrown",
+	},
+	["profiles"] = {
+		["Ulrezaj - Icecrown"] = {
+			["PositionY"] = 501.6666844028324,
+			["PositionX"] = 570.1666910451083,
+		},
+	},
+}

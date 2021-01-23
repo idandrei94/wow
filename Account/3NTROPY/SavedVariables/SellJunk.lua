@@ -1,0 +1,26 @@
+
+SellJunkDB = {
+	["profileKeys"] = {
+		["Rimgar - Icecrown"] = "Rimgar - Icecrown",
+		["Vrael - Icecrown"] = "Vrael - Icecrown",
+		["Nalar - Icecrown"] = "Nalar - Icecrown",
+		["Denathra - Icecrown"] = "Denathra - Icecrown",
+		["Vhalanor - Icecrown"] = "Vhalanor - Icecrown",
+		["Drext - Icecrown"] = "Drext - Icecrown",
+		["Muiex - Icecrown"] = "Muiex - Icecrown",
+		["Aevie - Icecrown"] = "Aevie - Icecrown",
+		["Urgash - Icecrown"] = "Urgash - Icecrown",
+		["Ulrezaj - Icecrown"] = "Ulrezaj - Icecrown",
+		["Pocaitoru - Icecrown"] = "Pocaitoru - Icecrown",
+		["Izanagi - Icecrown"] = "Izanagi - Icecrown",
+		["Lingurita - Lordaeron"] = "Lingurita - Lordaeron",
+		["Mirceabravo - Blackrock [PvP only]"] = "Mirceabravo - Blackrock [PvP only]",
+		["Maciucaru - Icecrown"] = "Maciucaru - Icecrown",
+		["Praxia - Icecrown"] = "Praxia - Icecrown",
+		["Rakhnis - Icecrown"] = "Rakhnis - Icecrown",
+		["Mirceabravo - Icecrown"] = "Mirceabravo - Icecrown",
+		["Gligor - Icecrown"] = "Gligor - Icecrown",
+		["Noobschmoq - Icecrown"] = "Noobschmoq - Icecrown",
+		["Kalaam - Icecrown"] = "Kalaam - Icecrown",
+	},
+}

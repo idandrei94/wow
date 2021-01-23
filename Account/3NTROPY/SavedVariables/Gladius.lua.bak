@@ -1,0 +1,13 @@
+
+GladiusDB = {
+	["profileKeys"] = {
+		["Ulrezaj - Icecrown"] = "Ulrezaj - Icecrown",
+	},
+	["profiles"] = {
+		["Ulrezaj - Icecrown"] = {
+			["locked"] = true,
+			["y"] = 521.9056625649222,
+			["x"] = 953.6932015330746,
+		},
+	},
+}

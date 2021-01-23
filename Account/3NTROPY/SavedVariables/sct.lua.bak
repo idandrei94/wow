@@ -1,0 +1,3 @@
+
+SCT_CONFIG = nil
+SCT_EVENT_CONFIG = nil

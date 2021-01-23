@@ -1,0 +1,307 @@
+
+RecountPerCharDB = {
+	["version"] = "1.3",
+	["combatants"] = {
+		["Infinite Corruptor"] = {
+			["GUID"] = "0xF130007E110001BA",
+			["LastEventHealth"] = {
+				"???", -- [1]
+				"???", -- [2]
+				"???", -- [3]
+				"???", -- [4]
+				"???", -- [5]
+				"???", -- [6]
+				"???", -- [7]
+				"???", -- [8]
+				"???", -- [9]
+				"???", -- [10]
+				"???", -- [11]
+				"???", -- [12]
+				"???", -- [13]
+				"???", -- [14]
+				"???", -- [15]
+				"???", -- [16]
+			},
+			["LastEventType"] = {
+				"DAMAGE", -- [1]
+				"DAMAGE", -- [2]
+				"DAMAGE", -- [3]
+				"DAMAGE", -- [4]
+				"DAMAGE", -- [5]
+				"DAMAGE", -- [6]
+				"DAMAGE", -- [7]
+				"DAMAGE", -- [8]
+				"DAMAGE", -- [9]
+				"DAMAGE", -- [10]
+				"DAMAGE", -- [11]
+				"DAMAGE", -- [12]
+				"DAMAGE", -- [13]
+				"DAMAGE", -- [14]
+				"DAMAGE", -- [15]
+				"DAMAGE", -- [16]
+			},
+			["TimeWindows"] = {
+				["Damage"] = {
+					37933, -- [1]
+				},
+				["TimeDamage"] = {
+					7.17, -- [1]
+				},
+				["DOT_Time"] = {
+					48, -- [1]
+				},
+				["ActiveTime"] = {
+					7.17, -- [1]
+				},
+			},
+			["enClass"] = "MOB",
+			["level"] = -1,
+			["LastFightIn"] = 0,
+			["type"] = "Boss",
+			["TimeLast"] = {
+				["ActiveTime"] = 1600710272,
+				["TimeDamage"] = 1600710272,
+				["OVERALL"] = 1600710272,
+				["DOT_Time"] = 1600710272,
+				["Damage"] = 1600710272,
+			},
+			["Owner"] = false,
+			["LastAbility"] = 951529.5010000001,
+			["NextEventNum"] = 17,
+			["LastEventHealthNum"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+				0, -- [4]
+				0, -- [5]
+				0, -- [6]
+				0, -- [7]
+				0, -- [8]
+				0, -- [9]
+				0, -- [10]
+				0, -- [11]
+				0, -- [12]
+				0, -- [13]
+				0, -- [14]
+				0, -- [15]
+				0, -- [16]
+			},
+			["LastEvents"] = {
+				"Infinite Corruptor Corrupting Blight (DoT) Deadice Tick -2371 (1015 resisted) (Shadow)", -- [1]
+				"Infinite Corruptor Corrupting Blight (DoT) Deadice Tick -2032 (1354 resisted) (Shadow)", -- [2]
+				"Infinite Corruptor Corrupting Blight (DoT) Deadice Tick -2371 (1015 resisted) (Shadow)", -- [3]
+				"Infinite Corruptor Corrupting Blight (DoT) Deadice Tick -2709 (677 resisted) (Shadow)", -- [4]
+				"Infinite Corruptor Corrupting Blight (DoT) Deadice Tick -2709 (677 resisted) (Shadow)", -- [5]
+				"Infinite Corruptor Corrupting Blight (DoT) Deadice Tick -2032 (1354 resisted) (Shadow)", -- [6]
+				"Infinite Corruptor Corrupting Blight (DoT) Deadice Tick -2709 (677 resisted) (Shadow)", -- [7]
+				"Infinite Corruptor Corrupting Blight (DoT) Deadice Tick -2371 (1015 resisted) (Shadow)", -- [8]
+				"Infinite Corruptor Corrupting Blight (DoT) Deadice Tick -2371 (1015 resisted) (Shadow)", -- [9]
+				"Infinite Corruptor Corrupting Blight (DoT) Deadice Tick -2371 (1015 resisted) (Shadow)", -- [10]
+				"Infinite Corruptor Corrupting Blight (DoT) Deadice Tick -2371 (1015 resisted) (Shadow)", -- [11]
+				"Infinite Corruptor Corrupting Blight (DoT) Deadice Tick -2371 (1015 resisted) (Shadow)", -- [12]
+				"Infinite Corruptor Corrupting Blight (DoT) Deadice Tick -2371 (1015 resisted) (Shadow)", -- [13]
+				"Infinite Corruptor Corrupting Blight (DoT) Deadice Tick -2032 (1354 resisted) (Shadow)", -- [14]
+				"Infinite Corruptor Corrupting Blight (DoT) Deadice Tick -2371 (1015 resisted) (Shadow)", -- [15]
+				"Infinite Corruptor Corrupting Blight (DoT) Deadice Tick -2371 (1015 resisted) (Shadow)", -- [16]
+			},
+			["Name"] = "Infinite Corruptor",
+			["LastEventIncoming"] = {
+				false, -- [1]
+				false, -- [2]
+				false, -- [3]
+				false, -- [4]
+				false, -- [5]
+				false, -- [6]
+				false, -- [7]
+				false, -- [8]
+				false, -- [9]
+				false, -- [10]
+				false, -- [11]
+				false, -- [12]
+				false, -- [13]
+				false, -- [14]
+				false, -- [15]
+				false, -- [16]
+			},
+			["LastEventTimes"] = {
+				951499.422, -- [1]
+				951499.456, -- [2]
+				951499.491, -- [3]
+				951529.3740000001, -- [4]
+				951529.398, -- [5]
+				951529.4010000001, -- [6]
+				951529.436, -- [7]
+				951529.439, -- [8]
+				951529.463, -- [9]
+				951529.463, -- [10]
+				951529.491, -- [11]
+				951529.493, -- [12]
+				951529.497, -- [13]
+				951529.498, -- [14]
+				951529.5, -- [15]
+				951529.5010000001, -- [16]
+			},
+			["Fights"] = {
+				["CurrentFightData"] = {
+					["DOTs"] = {
+						["Corrupting Blight (DoT)"] = {
+							["Details"] = {
+								["Deadice"] = {
+									["count"] = 48,
+								},
+							},
+							["amount"] = 48,
+						},
+					},
+					["ElementDoneResist"] = {
+						["Shadow"] = 16243,
+					},
+					["TimeSpent"] = {
+						["Deadice"] = {
+							["Details"] = {
+								["Corrupting Blight (DoT)"] = {
+									["count"] = 7.17,
+								},
+							},
+							["amount"] = 7.17,
+						},
+					},
+					["ElementHitsDone"] = {
+						["Shadow"] = {
+							["Details"] = {
+								["Tick"] = {
+									["count"] = 16,
+								},
+							},
+							["amount"] = 16,
+						},
+					},
+					["Attacks"] = {
+						["Corrupting Blight (DoT)"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 2709,
+									["min"] = 2032,
+									["count"] = 16,
+									["amount"] = 37933,
+								},
+							},
+							["count"] = 16,
+							["amount"] = 37933,
+						},
+					},
+					["ElementDone"] = {
+						["Shadow"] = 37933,
+					},
+					["DamagedWho"] = {
+						["Deadice"] = {
+							["Details"] = {
+								["Corrupting Blight (DoT)"] = {
+									["count"] = 37933,
+								},
+							},
+							["amount"] = 37933,
+						},
+					},
+					["ActiveTime"] = 7.17,
+					["TimeDamaging"] = {
+						["Deadice"] = {
+							["Details"] = {
+								["Corrupting Blight (DoT)"] = {
+									["count"] = 7.17,
+								},
+							},
+							["amount"] = 7.17,
+						},
+					},
+					["TimeDamage"] = 7.17,
+					["DOT_Time"] = 48,
+					["Damage"] = 37933,
+				},
+				["OverallData"] = {
+					["DOTs"] = {
+						["Corrupting Blight (DoT)"] = {
+							["Details"] = {
+								["Deadice"] = {
+									["count"] = 48,
+								},
+							},
+							["amount"] = 48,
+						},
+					},
+					["ElementDoneResist"] = {
+						["Shadow"] = 16243,
+					},
+					["TimeSpent"] = {
+						["Deadice"] = {
+							["Details"] = {
+								["Corrupting Blight (DoT)"] = {
+									["count"] = 7.17,
+								},
+							},
+							["amount"] = 7.17,
+						},
+					},
+					["ElementHitsDone"] = {
+						["Shadow"] = {
+							["Details"] = {
+								["Tick"] = {
+									["count"] = 16,
+								},
+							},
+							["amount"] = 16,
+						},
+					},
+					["Attacks"] = {
+						["Corrupting Blight (DoT)"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 2709,
+									["min"] = 2032,
+									["count"] = 16,
+									["amount"] = 37933,
+								},
+							},
+							["count"] = 16,
+							["amount"] = 37933,
+						},
+					},
+					["ElementDone"] = {
+						["Shadow"] = 37933,
+					},
+					["DamagedWho"] = {
+						["Deadice"] = {
+							["Details"] = {
+								["Corrupting Blight (DoT)"] = {
+									["count"] = 37933,
+								},
+							},
+							["amount"] = 37933,
+						},
+					},
+					["ActiveTime"] = 7.17,
+					["TimeDamaging"] = {
+						["Deadice"] = {
+							["Details"] = {
+								["Corrupting Blight (DoT)"] = {
+									["count"] = 7.17,
+								},
+							},
+							["amount"] = 7.17,
+						},
+					},
+					["TimeDamage"] = 7.17,
+					["DOT_Time"] = 48,
+					["Damage"] = 37933,
+				},
+			},
+			["UnitLockout"] = 1600710272,
+			["LastActive"] = 1600710272,
+		},
+	},
+	["FightNum"] = 0,
+	["CombatTimes"] = {
+	},
+	["FoughtWho"] = {
+	},
+}

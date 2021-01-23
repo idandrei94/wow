@@ -1,0 +1,79 @@
+MACRO 16777228 "bt" INV_Misc_QuestionMark
+#showtooltip blood tap
+/cast blood tap
+/cancelaura blood tap
+END
+MACRO 16777219 "ce" INV_Misc_QuestionMark
+#showtooltip Corpse Explosion
+/target pet
+/cast Corpse Explosion
+/targetlasttarget
+END
+MACRO 16777218 "chain" INV_Misc_QuestionMark
+#showtooltip chains of ice
+/cast [modifier:alt, target=focus] chains of ice
+/cast [nomodifier:altl] chains of ice
+END
+MACRO 16777227 "dnd" INV_Misc_QuestionMark
+#showtooltip
+/cast !death and decay
+END
+MACRO 16777223 "freeze" INV_Misc_QuestionMark
+#showtooltip Mind Freeze
+/cast [target=focus] mind freeze
+END
+MACRO 16777220 "gnaw" INV_Misc_QuestionMark
+#showtooltip Gnaw
+/cast [nopet] raise dead
+/petattack
+/cast [nomodifier] leap
+/cast [nomodifier] gnaw
+/cast [target=focus, modifier:alt] Leap
+/cast [target=focus, modifier:alt] Gnaw
+END
+MACRO 16777221 "grip" INV_Misc_QuestionMark
+#showtooltip death grip
+/cast [target=focus] death grip
+END
+MACRO 16777222 "heal" INV_Misc_QuestionMark
+#showtooltip lichborne
+/cancelaura lichborne
+/cast Lichborne
+/cast [target=player] Death coil
+END
+MACRO 16777217 "mount" INV_Misc_QuestionMark
+#showtooltip
+/cancelaura strength of the taunka
+/cancelaura speed of the vrykul
+/cancelaura aim of the iron dwarves
+/userandom [flyable] Bloodbathed Frostbrood Vanquisher,Invincible; Invincible
+END
+MACRO 16777231 "opener" INV_Misc_QuestionMark
+/castsequence reset=5 icy touch,plague strike,blood strike,scourge strike,blood strike,empower rune weapon,!unholy presence,summon gargoyle,blood presence,scourge strike,blood strike,blood tap, scourge strike, horn of winter, death coil
+END
+MACRO 16777224 "pact" INV_Misc_QuestionMark
+#showtooltip Death Pact
+/cast [target=pet, exists, nodead] Death Pact; Raise Dead
+END
+MACRO 16777229 "petatk" INV_Misc_QuestionMark
+#showtooltip raise dead
+/cast raise dead
+/petattack
+END
+MACRO 16777225 "ss" INV_Misc_QuestionMark
+#showtooltip Scourge Strike
+/startattack
+/cast !rune strike
+/cast Scourge Strike
+/cast Claw
+END
+MACRO 16777226 "strang" INV_Misc_QuestionMark
+#showtooltip Strangulate
+/cast [modifier:shift, target=focus] strangulate
+/cast [nomodifier:shift] Strangulate
+END
+MACRO 16777230 "wep" INV_Misc_QuestionMark
+#showtooltip 16
+/run PickupInventoryItem(16)PutItemInBackpack()
+/equip shadowmourne
+END

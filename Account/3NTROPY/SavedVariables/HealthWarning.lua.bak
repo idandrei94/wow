@@ -1,0 +1,4 @@
+
+HealthWarningDB = {
+	["treshold"] = 20,
+}
