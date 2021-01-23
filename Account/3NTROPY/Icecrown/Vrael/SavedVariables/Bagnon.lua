@@ -2,11 +2,10 @@
 BagnonFrameSettings = {
 	["frames"] = {
 		["inventory"] = {
-			["y"] = -128.4073997455038,
-			["x"] = -254.5781581688798,
-			["point"] = "TOPRIGHT",
-			["reverseSlotOrder"] = true,
 			["itemFrameColumns"] = 14,
+			["reverseSlotOrder"] = true,
+			["y"] = 114.3999686512894,
+			["x"] = -56.78893871963078,
 		},
 		["keys"] = {
 			["y"] = 149.9999976748339,
@@ -18,10 +17,10 @@ BagnonFrameSettings = {
 			["point"] = "TOPLEFT",
 		},
 		["bank"] = {
-			["y"] = -115.1998783254236,
-			["x"] = 8.533514568636203,
 			["point"] = "TOPLEFT",
 			["itemFrameColumns"] = 16,
+			["y"] = -115.1998783254236,
+			["x"] = 8.533514568636203,
 		},
 	},
 	["version"] = "2.13.3",

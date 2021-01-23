@@ -69,3 +69,10 @@ X: -80
 Y: -173
 W: 100
 H: 30
+Frame: BagnonFrameinventory
+FrameLevel: 1
+Anchor: TOPRIGHT
+X: -45
+Y: -88
+W: 504
+H: 386

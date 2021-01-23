@@ -48,9 +48,9 @@ RecountDB = {
 				},
 			},
 			["DetailWindowY"] = -350.5777533164221,
-			["GraphWindowX"] = 0,
-			["MainWindowWidth"] = 251.4197662784027,
 			["MainWindowHeight"] = 310.8518969696999,
+			["MainWindowWidth"] = 251.4197662784027,
+			["GraphWindowX"] = 0,
 		},
 		["Vrael - Icecrown"] = {
 			["GraphWindowY"] = 0,
@@ -62,9 +62,7 @@ RecountDB = {
 					["h"] = 323.0000267394107,
 				},
 			},
-			["DetailWindowX"] = 395.5184594598051,
-			["LastInstanceName"] = "Scarlet Monastery",
-			["CurDataSet"] = "LastFightData",
+			["ReportLines"] = 1,
 			["Colors"] = {
 				["Bar"] = {
 					["Bar Text"] = {
@@ -76,10 +74,12 @@ RecountDB = {
 				},
 			},
 			["DetailWindowY"] = -59.9999876902969,
-			["MainWindowHeight"] = 323.4446028824811,
-			["MainWindowWidth"] = 244.5308668882732,
-			["ReportLines"] = 1,
+			["DetailWindowX"] = 395.5184594598051,
+			["LastInstanceName"] = "Trial of the Champion",
+			["CurDataSet"] = "LastFightData",
 			["GraphWindowX"] = 0,
+			["MainWindowWidth"] = 244.5308668882732,
+			["MainWindowHeight"] = 323.4446028824811,
 		},
 		["Nalar - Icecrown"] = {
 			["GraphWindowY"] = 0,
@@ -493,7 +493,7 @@ RecountDB = {
 			},
 			["DetailWindowX"] = 112.9876419471188,
 			["LastInstanceName"] = "Vault of Archavon",
-			["DetailWindowY"] = -124.0493402990752,
+			["GraphWindowX"] = 0,
 			["CurDataSet"] = "LastFightData",
 			["Colors"] = {
 				["Bar"] = {
@@ -505,7 +505,7 @@ RecountDB = {
 					},
 				},
 			},
-			["GraphWindowX"] = 0,
+			["DetailWindowY"] = -124.0493402990752,
 			["MainWindowVis"] = false,
 			["MainWindowMode"] = 5,
 			["MainWindowWidth"] = 256.148530518934,
@@ -546,6 +546,9 @@ RecountDB = {
 					["h"] = 316.0000095742136,
 				},
 			},
+			["DetailWindowX"] = 0,
+			["LastInstanceName"] = "Scarlet Monastery",
+			["CurDataSet"] = "LastFightData",
 			["Colors"] = {
 				["Bar"] = {
 					["Bar Text"] = {
@@ -557,9 +560,6 @@ RecountDB = {
 				},
 			},
 			["DetailWindowY"] = 0,
-			["DetailWindowX"] = 0,
-			["LastInstanceName"] = "Scarlet Monastery",
-			["CurDataSet"] = "LastFightData",
 			["GraphWindowX"] = 0,
 			["MainWindowWidth"] = 252.1110164010799,
 			["MainWindowHeight"] = 316.0864052571401,
