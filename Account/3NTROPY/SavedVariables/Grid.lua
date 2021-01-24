@@ -1,13 +1,18 @@
 
 GridDB = {
-	["namespaces"] = {
-		["GridRoster"] = {
-			["profiles"] = {
-				["Default"] = {
-					["party_state"] = "raid",
-				},
-			},
+	["disabled"] = {
+		["Default"] = true,
+	},
+	["disabledModules"] = {
+		["Default"] = {
+			["GridFrame"] = true,
+			["GridRoster"] = true,
+			["GridRange"] = true,
+			["GridStatus"] = true,
+			["GridLayout"] = true,
 		},
+	},
+	["namespaces"] = {
 		["GridStatusRange"] = {
 			["profiles"] = {
 				["Default"] = {
@@ -236,7 +241,7 @@ GridDB = {
 						["heroic_raid"] = "By Group 40",
 					},
 					["PosY"] = -477.4439826102192,
-					["layout"] = "By Group 10",
+					["layout"] = "By Group 5",
 					["PosX"] = 1175.694758206999,
 				},
 			},
