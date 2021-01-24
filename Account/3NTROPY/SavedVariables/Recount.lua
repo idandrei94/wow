@@ -29,14 +29,14 @@ RecountDB = {
 			["MainWindow"] = {
 				["Position"] = {
 					["y"] = 121.2999938246323,
-					["x"] = -551.5677844401387,
+					["x"] = -551.5678369615386,
 					["w"] = 251.0000152503544,
 					["h"] = 311.0000073174346,
 				},
 			},
 			["DetailWindowX"] = 760.6027985015809,
-			["LastInstanceName"] = "Pit of Saron",
-			["CurDataSet"] = "LastFightData",
+			["LastInstanceName"] = "The Nexus",
+			["CurDataSet"] = "CurrentFightData",
 			["Colors"] = {
 				["Bar"] = {
 					["Bar Text"] = {
@@ -48,9 +48,9 @@ RecountDB = {
 				},
 			},
 			["DetailWindowY"] = -221.399969677098,
-			["GraphWindowX"] = 0,
-			["MainWindowWidth"] = 251.4197662784027,
 			["MainWindowHeight"] = 310.8518969696999,
+			["MainWindowWidth"] = 251.4197662784027,
+			["GraphWindowX"] = 0,
 		},
 		["Vrael - Icecrown"] = {
 			["GraphWindowY"] = 0,
@@ -62,10 +62,7 @@ RecountDB = {
 					["h"] = 323.0000267394107,
 				},
 			},
-			["DetailWindowX"] = 317.267070839811,
-			["LastInstanceName"] = "Trial of the Crusader",
-			["MainWindowHeight"] = 323.4446028824811,
-			["CurDataSet"] = "LastFightData",
+			["ReportLines"] = 1,
 			["Colors"] = {
 				["Bar"] = {
 					["Bar Text"] = {
@@ -76,11 +73,14 @@ RecountDB = {
 					},
 				},
 			},
-			["GraphWindowX"] = 0,
-			["MainWindowWidth"] = 244.5308668882732,
-			["MainWindowVis"] = false,
-			["ReportLines"] = 1,
 			["DetailWindowY"] = -59.9999876902969,
+			["DetailWindowX"] = 317.267070839811,
+			["GraphWindowX"] = 0,
+			["MainWindowVis"] = false,
+			["LastInstanceName"] = "Trial of the Crusader",
+			["CurDataSet"] = "LastFightData",
+			["MainWindowWidth"] = 244.5308668882732,
+			["MainWindowHeight"] = 323.4446028824811,
 		},
 		["Nalar - Icecrown"] = {
 			["GraphWindowY"] = 0,
@@ -319,6 +319,9 @@ RecountDB = {
 					["x"] = -552.0670441140778,
 				},
 			},
+			["DetailWindowX"] = -167.0000018464555,
+			["LastInstanceName"] = "Ahn'kahet: The Old Kingdom",
+			["CurDataSet"] = "LastFightData",
 			["Colors"] = {
 				["Bar"] = {
 					["Bar Text"] = {
@@ -330,9 +333,6 @@ RecountDB = {
 				},
 			},
 			["DetailWindowY"] = 26.99999993161276,
-			["DetailWindowX"] = -167.0000018464555,
-			["LastInstanceName"] = "Ahn'kahet: The Old Kingdom",
-			["CurDataSet"] = "LastFightData",
 			["GraphWindowX"] = 0,
 			["MainWindowWidth"] = 260.0000123097031,
 			["MainWindowHeight"] = 328.7999999452902,
@@ -509,11 +509,11 @@ RecountDB = {
 					},
 				},
 			},
-			["DetailWindowY"] = -124.0493402990752,
+			["GraphWindowX"] = 0,
 			["MainWindowVis"] = false,
 			["MainWindowMode"] = 5,
 			["MainWindowWidth"] = 256.148530518934,
-			["GraphWindowX"] = 0,
+			["DetailWindowY"] = -124.0493402990752,
 		},
 		["Gligor - Icecrown"] = {
 			["GraphWindowY"] = 0,

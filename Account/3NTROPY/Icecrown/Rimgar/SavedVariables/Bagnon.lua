@@ -3,7 +3,7 @@ BagnonFrameSettings = {
 	["frames"] = {
 		["inventory"] = {
 			["itemFrameColumns"] = 12,
-			["y"] = 165.1653067978079,
+			["y"] = 165.1653243049412,
 			["x"] = -94.23179485524179,
 		},
 		["bank"] = {
