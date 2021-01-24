@@ -62,7 +62,10 @@ RecountDB = {
 					["h"] = 323.0000267394107,
 				},
 			},
-			["ReportLines"] = 1,
+			["DetailWindowX"] = 317.267070839811,
+			["LastInstanceName"] = "Trial of the Crusader",
+			["GraphWindowX"] = 0,
+			["CurDataSet"] = "LastFightData",
 			["Colors"] = {
 				["Bar"] = {
 					["Bar Text"] = {
@@ -74,11 +77,8 @@ RecountDB = {
 				},
 			},
 			["DetailWindowY"] = -59.9999876902969,
-			["DetailWindowX"] = 317.267070839811,
-			["GraphWindowX"] = 0,
+			["ReportLines"] = 1,
 			["MainWindowVis"] = false,
-			["LastInstanceName"] = "Trial of the Crusader",
-			["CurDataSet"] = "LastFightData",
 			["MainWindowWidth"] = 244.5308668882732,
 			["MainWindowHeight"] = 323.4446028824811,
 		},
@@ -262,15 +262,12 @@ RecountDB = {
 			["GraphWindowY"] = 0,
 			["MainWindow"] = {
 				["Position"] = {
-					["y"] = 121.2112326587912,
+					["y"] = 122.3000713073746,
 					["h"] = 318.9999969225742,
-					["w"] = 239.9999682683209,
-					["x"] = -562.6669393037946,
+					["w"] = 240.0000032825875,
+					["x"] = -562.6667117110617,
 				},
 			},
-			["DetailWindowX"] = 160.9111434339599,
-			["LastInstanceName"] = "Pit of Saron",
-			["CurDataSet"] = "CurrentFightData",
 			["Colors"] = {
 				["Bar"] = {
 					["Bar Text"] = {
@@ -279,6 +276,9 @@ RecountDB = {
 				},
 			},
 			["DetailWindowY"] = -107.7333485791286,
+			["DetailWindowX"] = 160.9111434339599,
+			["LastInstanceName"] = "Icecrown Citadel",
+			["CurDataSet"] = "LastFightData",
 			["GraphWindowX"] = 0,
 			["MainWindowWidth"] = 239.733352135265,
 			["MainWindowHeight"] = 319.2665955484968,
@@ -494,7 +494,7 @@ RecountDB = {
 			},
 			["DetailWindowX"] = 112.9876419471188,
 			["LastInstanceName"] = "Vault of Archavon",
-			["DetailWindowY"] = -124.0493402990752,
+			["GraphWindowX"] = 0,
 			["CurDataSet"] = "LastFightData",
 			["Colors"] = {
 				["Bar"] = {
@@ -506,7 +506,7 @@ RecountDB = {
 					},
 				},
 			},
-			["GraphWindowX"] = 0,
+			["DetailWindowY"] = -124.0493402990752,
 			["MainWindowVis"] = false,
 			["MainWindowMode"] = 5,
 			["MainWindowWidth"] = 256.148530518934,
