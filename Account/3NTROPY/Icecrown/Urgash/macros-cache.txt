@@ -1,3 +1,11 @@
+MACRO 16777232 "bs" INV_Misc_QuestionMark
+#showtooltip blood strike
+/cancelaura hand of protection
+/startattack
+/cast !rune strike
+/cast blood strike
+/cast Claw
+END
 MACRO 16777228 "bt" INV_Misc_QuestionMark
 #showtooltip blood tap
 /cast blood tap
@@ -41,6 +49,14 @@ MACRO 16777222 "heal" INV_Misc_QuestionMark
 /cast Lichborne
 /cast [target=player] Death coil
 END
+MACRO 16777233 "it" INV_Misc_QuestionMark
+#showtooltip icy touch
+/cancelaura hand of protection
+/startattack
+/cast !rune strike
+/cast icy touch
+/cast Claw
+END
 MACRO 16777217 "mount" INV_Misc_QuestionMark
 #showtooltip
 /cancelaura strength of the taunka
@@ -60,8 +76,17 @@ MACRO 16777229 "petatk" INV_Misc_QuestionMark
 /cast raise dead
 /petattack
 END
+MACRO 16777234 "ps" INV_Misc_QuestionMark
+#showtooltip plague strike
+/cancelaura hand of protection
+/startattack
+/cast !rune strike
+/cast plague strike
+/cast Claw
+END
 MACRO 16777225 "ss" INV_Misc_QuestionMark
 #showtooltip Scourge Strike
+/cancelaura hand of protection
 /startattack
 /cast !rune strike
 /cast Scourge Strike
