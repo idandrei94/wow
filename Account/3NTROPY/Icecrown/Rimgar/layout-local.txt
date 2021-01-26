@@ -18,8 +18,8 @@ FrameLevel: 11
 Anchor: CENTER
 X: -246
 Y: 103
-W: 128
-H: 64
+W: 463
+H: 374
 Frame: DBMMinimapButton
 FrameLevel: 3
 Anchor: TOPRIGHT
@@ -42,7 +42,7 @@ Y: 59
 W: 328
 H: 457
 Frame: Recount_MainWindow
-FrameLevel: 18
+FrameLevel: 15
 Anchor: TOPLEFT
 X: 6
 Y: -107
@@ -65,7 +65,7 @@ H: 42
 Frame: TomTomBlock
 FrameLevel: 7
 Anchor: TOPRIGHT
-X: -80
-Y: -173
+X: -35
+Y: -169
 W: 100
 H: 30
