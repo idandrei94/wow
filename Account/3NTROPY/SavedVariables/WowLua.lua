@@ -1,6 +1,6 @@
 
 WowLua_DB = {
-	["currentPage"] = 1,
+	["currentPage"] = 7,
 	["fontSize"] = 14,
 	["pages"] = {
 		{
@@ -29,6 +29,10 @@ WowLua_DB = {
 			["name"] = "Untitled 6",
 			["content"] = "local myFrame = CreateFrame(\"Frame\");\nlocal myCurrentCast;\nmyFrame:RegisterEvent(\"COMBAT_LOG_EVENT_UNFILTERED\");\nmyFrame:SetScript(\"OnEvent\",\n   function(self, event, ...)\n      local name, realm = UnitName(\"player\")\n      local timestamp, type, hideCaster, sourceGUID, sourceName, sourceFlags, sourceFlags2, destGUID, destName, destFlags, destFlags2 = select(1, ...)\n      \n      if (type == \"SPELL_DAMAGE\") then\n         print(event)\n         print(\"sourceGUID\"..sourceGUID)\n         print(\"sourceName\"..sourceName)\n         print(\"destGUID\"..destGUID)\n         print(\"destName\"..destName)\n         print(\"MC ON ME\");\n         local spellId, spellName, spellSchool = select(12, ...)\n         print(\"spellName\"..spellName)\n         -- print(arg3)\n         -- print(arg4)\n         -- PickupInventoryItem(16)PutItemInBackpack()\n         -- PickupInventoryItem(17)PutItemInBackpack()\n         -- PickupInventoryItem(18)PutItemInBackpack()\n      end\n   end\n);",
 		}, -- [6]
+		{
+			["name"] = "res",
+			["content"] = "/run SetCVar(\"gxWindow\",1-GetCVar(\"gxWindow\"))SetCVar(\"gxMaximize\",0)RestartGx()",
+		}, -- [7]
 	},
-	["untitled"] = 7,
+	["untitled"] = 8,
 }

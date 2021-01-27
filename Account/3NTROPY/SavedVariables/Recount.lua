@@ -62,10 +62,7 @@ RecountDB = {
 					["h"] = 323.0000267394107,
 				},
 			},
-			["DetailWindowX"] = 317.267070839811,
-			["LastInstanceName"] = "Trial of the Crusader",
-			["MainWindowHeight"] = 323.4446028824811,
-			["CurDataSet"] = "LastFightData",
+			["ReportLines"] = 1,
 			["Colors"] = {
 				["Bar"] = {
 					["Bar Text"] = {
@@ -77,10 +74,12 @@ RecountDB = {
 				},
 			},
 			["DetailWindowY"] = -59.9999876902969,
-			["MainWindowWidth"] = 244.5308668882732,
-			["MainWindowVis"] = false,
-			["ReportLines"] = 1,
+			["DetailWindowX"] = 317.267070839811,
 			["GraphWindowX"] = 0,
+			["LastInstanceName"] = "Alterac Valley",
+			["CurDataSet"] = "CurrentFightData",
+			["MainWindowWidth"] = 244.5308668882732,
+			["MainWindowHeight"] = 323.4446028824811,
 		},
 		["Nalar - Icecrown"] = {
 			["GraphWindowY"] = 0,
@@ -268,6 +267,9 @@ RecountDB = {
 					["x"] = -562.6666942039285,
 				},
 			},
+			["DetailWindowX"] = 160.9111434339599,
+			["LastInstanceName"] = "Warsong Gulch",
+			["CurDataSet"] = "LastFightData",
 			["Colors"] = {
 				["Bar"] = {
 					["Bar Text"] = {
@@ -276,13 +278,10 @@ RecountDB = {
 				},
 			},
 			["DetailWindowY"] = -107.7333485791286,
-			["DetailWindowX"] = 160.9111434339599,
-			["MainWindowVis"] = false,
-			["LastInstanceName"] = "Warsong Gulch",
-			["CurDataSet"] = "CurrentFightData",
-			["GraphWindowX"] = 0,
-			["MainWindowWidth"] = 239.733352135265,
 			["MainWindowHeight"] = 319.2665955484968,
+			["MainWindowVis"] = false,
+			["MainWindowWidth"] = 239.733352135265,
+			["GraphWindowX"] = 0,
 		},
 		["Ulrezaj - Icecrown"] = {
 			["GraphWindowY"] = 0,

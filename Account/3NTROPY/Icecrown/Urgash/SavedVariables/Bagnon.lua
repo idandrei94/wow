@@ -2,10 +2,10 @@
 BagnonFrameSettings = {
 	["frames"] = {
 		["inventory"] = {
-			["point"] = "TOPRIGHT",
-			["itemFrameColumns"] = 16,
 			["y"] = -135.0222249637907,
 			["x"] = -88.88903794267662,
+			["point"] = "TOPRIGHT",
+			["itemFrameColumns"] = 16,
 		},
 		["bank"] = {
 			["y"] = -0,
