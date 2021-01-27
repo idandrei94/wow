@@ -56,6 +56,7 @@ MACRO 16777230 "fdf" INV_Misc_QuestionMark
 /cast [target=focus] deep freeze
 END
 MACRO 16777223 "fpoly" INV_Misc_QuestionMark
+#showtooltip Polymorph
 /castrandom [target=focus] Polymorph(Rank 4),Polymorph(Turtle),Polymorph(Pig),Polymorph(Black Cat),Polymorph(Rabbit)
 END
 MACRO 16777219 "ib" INV_Misc_QuestionMark
@@ -69,6 +70,7 @@ MACRO 16777224 "mount" INV_Misc_QuestionMark
 /userandom [flyable] Invincible,Vengeful Nether Drake,X-53 Touring Rocket,Wrathful Gladiator's Frost Wyrm;Swift Spectral Tiger,Black Qiraji Battle Tank,Invincible,Crimson Deathcharger
 END
 MACRO 16777222 "poly" INV_Misc_QuestionMark
+#showtooltip Polymorph
 /castrandom Polymorph(Rank 4),Polymorph(Turtle),Polymorph(Pig),Polymorph(Black Cat),Polymorph(Rabbit)
 END
 MACRO 16777217 "spellsteal" INV_Misc_QuestionMark

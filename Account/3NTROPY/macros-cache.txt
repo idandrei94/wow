@@ -111,7 +111,7 @@ MACRO 3 "pet abilities   " INV_Misc_QuestionMark
 /cast Spell Lock(Rank 2)
 END
 MACRO 11 "poly" Spell_Nature_Polymorph
-#showtooltip Polymorph
+#showtooltip Polymorph(Rank 4)
 /petpassive
 /cast [target=focus] Polymorph(Rank 4)
 END
