@@ -4,7 +4,7 @@ BagnonFrameSettings = {
 		["inventory"] = {
 			["itemFrameColumns"] = 14,
 			["reverseSlotOrder"] = true,
-			["y"] = 92.80007900093902,
+			["y"] = 100.800059852512,
 			["x"] = -102.3800348651823,
 		},
 		["keys"] = {
@@ -17,10 +17,10 @@ BagnonFrameSettings = {
 			["point"] = "TOPLEFT",
 		},
 		["bank"] = {
-			["point"] = "TOPLEFT",
-			["itemFrameColumns"] = 16,
 			["y"] = -100.3849919826221,
 			["x"] = 98.01504259396629,
+			["point"] = "TOPLEFT",
+			["itemFrameColumns"] = 16,
 		},
 	},
 	["version"] = "2.13.3",
