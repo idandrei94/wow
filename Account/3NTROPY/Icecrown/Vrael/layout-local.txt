@@ -25,8 +25,8 @@ FrameLevel: 29
 Anchor: RIGHT
 X: -103
 Y: -78
-W: 346
-H: 132
+W: 162
+H: 78
 Frame: DBMMinimapButton
 FrameLevel: 3
 Anchor: TOPRIGHT
@@ -112,7 +112,7 @@ Y: -111
 W: 150
 H: 50
 Frame: Recount_MainWindow
-FrameLevel: 19
+FrameLevel: 28
 Anchor: TOPLEFT
 X: 5
 Y: -108
@@ -139,10 +139,10 @@ X: -3
 Y: -15
 W: 831
 H: 503
-Frame: BagnonFrameinventory
+Frame: BagnonFramebank
 FrameLevel: 1
-Anchor: RIGHT
-X: -102
-Y: -92
-W: 586
-H: 468
+Anchor: CENTER
+X: 38
+Y: 80
+W: 668
+H: 509
