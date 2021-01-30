@@ -2,6 +2,9 @@ MACRO 16777226 "abolish" INV_Misc_QuestionMark
 #showtooltip
 /castsequence reset=3 abolish disease, cure disease, cure disease, cure disease, cure disease, cure disease, cure disease, cure disease, cure disease, cure disease, cure disease,  cure disease
 END
+MACRO 16777229 "asuu" INV_Misc_QuestionMark
+/tar asuu
+END
 MACRO 16777219 "dp" INV_Misc_QuestionMark
 #showtooltip devouring plague
 /cast [nochanneling] devouring plague
