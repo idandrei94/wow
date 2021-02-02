@@ -35,7 +35,7 @@ RecountDB = {
 				},
 			},
 			["DetailWindowX"] = 760.6027985015809,
-			["LastInstanceName"] = "The Forge of Souls",
+			["LastInstanceName"] = "Vault of Archavon",
 			["CurDataSet"] = "LastFightData",
 			["Colors"] = {
 				["Bar"] = {
@@ -62,9 +62,7 @@ RecountDB = {
 					["h"] = 323.0000267394107,
 				},
 			},
-			["DetailWindowX"] = 317.267070839811,
-			["LastInstanceName"] = "Icecrown Citadel",
-			["CurDataSet"] = "LastFightData",
+			["ReportLines"] = 1,
 			["Colors"] = {
 				["Bar"] = {
 					["Bar Text"] = {
@@ -76,10 +74,13 @@ RecountDB = {
 				},
 			},
 			["DetailWindowY"] = -59.9999876902969,
-			["MainWindowHeight"] = 323.4446028824811,
-			["MainWindowWidth"] = 244.5308668882732,
-			["ReportLines"] = 1,
+			["DetailWindowX"] = 317.267070839811,
+			["MainWindowVis"] = false,
+			["LastInstanceName"] = "The Ruby Sanctum",
+			["CurDataSet"] = "LastFightData",
 			["GraphWindowX"] = 0,
+			["MainWindowWidth"] = 244.5308668882732,
+			["MainWindowHeight"] = 323.4446028824811,
 		},
 		["Nalar - Icecrown"] = {
 			["GraphWindowY"] = 0,
@@ -142,7 +143,9 @@ RecountDB = {
 					["h"] = 289.9999908361099,
 				},
 			},
-			["ReportLines"] = 1,
+			["DetailWindowX"] = 62.09879535193817,
+			["LastInstanceName"] = "Icecrown Citadel",
+			["CurDataSet"] = "LastFightData",
 			["Colors"] = {
 				["Bar"] = {
 					["Bar Text"] = {
@@ -154,12 +157,10 @@ RecountDB = {
 				},
 			},
 			["DetailWindowY"] = 23.44438869364712,
-			["DetailWindowX"] = 62.09879535193817,
-			["LastInstanceName"] = "Warsong Gulch",
-			["CurDataSet"] = "LastFightData",
-			["GraphWindowX"] = 0,
-			["MainWindowWidth"] = 238.9999938458702,
 			["MainWindowHeight"] = 289.9999422879386,
+			["MainWindowWidth"] = 238.9999938458702,
+			["ReportLines"] = 1,
+			["GraphWindowX"] = 0,
 		},
 		["Vhalanor - Icecrown"] = {
 			["GraphWindowY"] = 0,

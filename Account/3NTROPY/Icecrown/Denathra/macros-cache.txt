@@ -5,7 +5,7 @@ END
 MACRO 16777227 "disp" INV_Misc_QuestionMark
 #showtooltip
 /cast [nomodifier: alt] devour magic
-/cast [modifier:alt; target=self] devour magic
+/cast [modifier:alt, target=Denathra] devour magic
 END
 MACRO 16777221 "ffear" INV_Misc_QuestionMark
 #showtooltip fear
@@ -55,6 +55,10 @@ END
 MACRO 16777229 "sdrain" INV_Misc_QuestionMark
 #showtooldop drain soul
 /cast [nochanneling] drain soul
+END
+MACRO 16777231 "sf" INV_Misc_QuestionMark
+#showtooltip shadowfury
+/cast !shadowfury
 END
 MACRO 16777218 "sf" INV_Misc_QuestionMark
 #showtooltip soul fire

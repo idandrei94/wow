@@ -30,8 +30,8 @@ GladiusDB = {
 		},
 		["Vrael - Icecrown"] = {
 			["locked"] = true,
-			["x"] = 941.2586748758234,
 			["y"] = 534.3400596661643,
+			["x"] = 941.2586748758234,
 		},
 		["Rakhnis - Icecrown"] = {
 			["locked"] = true,
@@ -40,8 +40,8 @@ GladiusDB = {
 		},
 		["Denathra - Icecrown"] = {
 			["locked"] = true,
-			["y"] = 541.654370892245,
 			["x"] = 946.3785340279685,
+			["y"] = 541.654370892245,
 		},
 		["Vhalanor - Icecrown"] = {
 			["locked"] = true,
