@@ -34,9 +34,6 @@ RecountDB = {
 					["h"] = 311.0000073174346,
 				},
 			},
-			["DetailWindowX"] = 760.6027985015809,
-			["LastInstanceName"] = "Vault of Archavon",
-			["CurDataSet"] = "LastFightData",
 			["Colors"] = {
 				["Bar"] = {
 					["Bar Text"] = {
@@ -48,9 +45,12 @@ RecountDB = {
 				},
 			},
 			["DetailWindowY"] = -221.399969677098,
-			["MainWindowHeight"] = 310.8518969696999,
-			["MainWindowWidth"] = 251.4197662784027,
+			["DetailWindowX"] = 760.6027985015809,
+			["LastInstanceName"] = "Halls of Reflection",
+			["CurDataSet"] = "LastFightData",
 			["GraphWindowX"] = 0,
+			["MainWindowWidth"] = 251.4197662784027,
+			["MainWindowHeight"] = 310.8518969696999,
 		},
 		["Vrael - Icecrown"] = {
 			["GraphWindowY"] = 0,
@@ -62,7 +62,10 @@ RecountDB = {
 					["h"] = 323.0000267394107,
 				},
 			},
-			["ReportLines"] = 1,
+			["DetailWindowX"] = 317.267070839811,
+			["LastInstanceName"] = "The Ruby Sanctum",
+			["MainWindowVis"] = false,
+			["CurDataSet"] = "LastFightData",
 			["Colors"] = {
 				["Bar"] = {
 					["Bar Text"] = {
@@ -74,10 +77,7 @@ RecountDB = {
 				},
 			},
 			["DetailWindowY"] = -59.9999876902969,
-			["DetailWindowX"] = 317.267070839811,
-			["MainWindowVis"] = false,
-			["LastInstanceName"] = "The Ruby Sanctum",
-			["CurDataSet"] = "LastFightData",
+			["ReportLines"] = 1,
 			["GraphWindowX"] = 0,
 			["MainWindowWidth"] = 244.5308668882732,
 			["MainWindowHeight"] = 323.4446028824811,
@@ -144,8 +144,8 @@ RecountDB = {
 				},
 			},
 			["DetailWindowX"] = 62.09879535193817,
-			["LastInstanceName"] = "Icecrown Citadel",
-			["CurDataSet"] = "LastFightData",
+			["LastInstanceName"] = "The Ruby Sanctum",
+			["CurDataSet"] = "CurrentFightData",
 			["Colors"] = {
 				["Bar"] = {
 					["Bar Text"] = {
@@ -494,7 +494,7 @@ RecountDB = {
 			},
 			["DetailWindowX"] = 112.9876419471188,
 			["LastInstanceName"] = "Vault of Archavon",
-			["GraphWindowX"] = 0,
+			["DetailWindowY"] = -124.0493402990752,
 			["CurDataSet"] = "LastFightData",
 			["Colors"] = {
 				["Bar"] = {
@@ -506,7 +506,7 @@ RecountDB = {
 					},
 				},
 			},
-			["DetailWindowY"] = -124.0493402990752,
+			["GraphWindowX"] = 0,
 			["MainWindowVis"] = false,
 			["MainWindowMode"] = 5,
 			["MainWindowWidth"] = 256.148530518934,
