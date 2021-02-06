@@ -10,9 +10,10 @@ MACRO 75 "arcane" INV_Misc_QuestionMark
 #showtooltip arcane barrage
 /cast [nochanneling] arcane barrage
 END
-MACRO 89 "frag" INV_Misc_QuestionMark
-#showtooltip 6
-/use 6
+MACRO 95 "dev" INV_Misc_QuestionMark
+#showtooltip devastate
+/startattack
+/cast devastate
 END
 MACRO 82 "fragment" INV_Misc_QuestionMark
 #showtooltip soul fragment
@@ -66,10 +67,6 @@ MACRO 14 "invis" ABILITY_MAGE_INVISIBILITY
 /stopcasting 
 /cancelaura Invisibility
 /cast Invisibility
-END
-MACRO 70 "JC" INV_Misc_QuestionMark
-#showtooltip Jewelcrafting
-/run SendChatMessage("FULL  "..select(2,GetSpellLink("Jewelcrafting")).."  your mats only, 50-100g/cut","CHANNEL",nil,GetChannelName("global"));
 END
 MACRO 66 "KEYNAME" INV_Misc_QuestionMark
 /run local f = GetMouseFocus(); if f then DEFAULT_CHAT_FRAME:AddMessage(f:GetName()) end
@@ -141,6 +138,11 @@ MACRO 88 "remwep" INV_Misc_QuestionMark
 END
 MACRO 93 "roulette" Ability_Creature_Cursed_04
 /castrandom Slow Fall,mana shield
+END
+MACRO 96 "sb" INV_Misc_QuestionMark
+#showtooltip shield block
+/cast defensive stance
+/cast shield block
 END
 MACRO 94 "schute" INV_Misc_QuestionMark
 #showtooltip
