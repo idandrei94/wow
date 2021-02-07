@@ -13,8 +13,8 @@ RecountPerCharDB = {
 				"DAMAGE", -- [2]
 			},
 			["TimeWindows"] = {
-				["Damage"] = {
-					3310, -- [1]
+				["ActiveTime"] = {
+					6.63, -- [1]
 				},
 				["TimeDamage"] = {
 					6.63, -- [1]
@@ -22,8 +22,8 @@ RecountPerCharDB = {
 				["DOT_Time"] = {
 					6, -- [1]
 				},
-				["ActiveTime"] = {
-					6.63, -- [1]
+				["Damage"] = {
+					3310, -- [1]
 				},
 			},
 			["enClass"] = "PALADIN",
@@ -31,12 +31,9 @@ RecountPerCharDB = {
 			["level"] = 80,
 			["LastFightIn"] = 1,
 			["type"] = "Self",
-			["LastAbility"] = 15032.55,
+			["LastActive"] = 1611598792,
 			["Owner"] = false,
-			["LastEventTimes"] = {
-				2712.824, -- [1]
-				2715.951, -- [2]
-			},
+			["UnitLockout"] = 1611598789,
 			["NextEventNum"] = 3,
 			["LastEventHealthNum"] = {
 				100, -- [1]
@@ -47,17 +44,6 @@ RecountPerCharDB = {
 				"Pocaitoru Holy Vengeance (DoT) Expert's Training Dummy Tick -1655 (Holy)", -- [2]
 			},
 			["Name"] = "Pocaitoru",
-			["LastEventIncoming"] = {
-				false, -- [1]
-				false, -- [2]
-			},
-			["TimeLast"] = {
-				["ActiveTime"] = 1611598792,
-				["TimeDamage"] = 1611598792,
-				["OVERALL"] = 1611598792,
-				["DOT_Time"] = 1611598792,
-				["Damage"] = 1611598792,
-			},
 			["Fights"] = {
 				["CurrentFightData"] = {
 					["DOTs"] = {
@@ -80,6 +66,9 @@ RecountPerCharDB = {
 							["amount"] = 0,
 						},
 					},
+					["ElementDone"] = {
+						["Holy"] = 0,
+					},
 					["Attacks"] = {
 						["Holy Vengeance (DoT)"] = {
 							["Details"] = {
@@ -94,23 +83,20 @@ RecountPerCharDB = {
 							["amount"] = 0,
 						},
 					},
-					["ElementDone"] = {
-						["Holy"] = 0,
-					},
-					["ElementHitsDone"] = {
-						["Holy"] = {
+					["DamagedWho"] = {
+						["Expert's Training Dummy"] = {
 							["Details"] = {
-								["Tick"] = {
+								["Holy Vengeance (DoT)"] = {
 									["count"] = 0,
 								},
 							},
 							["amount"] = 0,
 						},
 					},
-					["DamagedWho"] = {
-						["Expert's Training Dummy"] = {
+					["ElementHitsDone"] = {
+						["Holy"] = {
 							["Details"] = {
-								["Holy Vengeance (DoT)"] = {
+								["Tick"] = {
 									["count"] = 0,
 								},
 							},
@@ -153,6 +139,9 @@ RecountPerCharDB = {
 							["amount"] = 6.63,
 						},
 					},
+					["ElementDone"] = {
+						["Holy"] = 3310,
+					},
 					["Attacks"] = {
 						["Holy Vengeance (DoT)"] = {
 							["Details"] = {
@@ -167,8 +156,15 @@ RecountPerCharDB = {
 							["amount"] = 3310,
 						},
 					},
-					["ElementDone"] = {
-						["Holy"] = 3310,
+					["DamagedWho"] = {
+						["Expert's Training Dummy"] = {
+							["Details"] = {
+								["Holy Vengeance (DoT)"] = {
+									["count"] = 3310,
+								},
+							},
+							["amount"] = 3310,
+						},
 					},
 					["ElementHitsDone"] = {
 						["Holy"] = {
@@ -178,16 +174,6 @@ RecountPerCharDB = {
 								},
 							},
 							["amount"] = 2,
-						},
-					},
-					["DamagedWho"] = {
-						["Expert's Training Dummy"] = {
-							["Details"] = {
-								["Holy Vengeance (DoT)"] = {
-									["count"] = 3310,
-								},
-							},
-							["amount"] = 3310,
 						},
 					},
 					["ActiveTime"] = 6.63,
@@ -206,8 +192,22 @@ RecountPerCharDB = {
 					["Damage"] = 3310,
 				},
 			},
-			["UnitLockout"] = 1611598789,
-			["LastActive"] = 1611598792,
+			["TimeLast"] = {
+				["ActiveTime"] = 1611598792,
+				["TimeDamage"] = 1611598792,
+				["OVERALL"] = 1611598792,
+				["DOT_Time"] = 1611598792,
+				["Damage"] = 1611598792,
+			},
+			["LastEventIncoming"] = {
+				false, -- [1]
+				false, -- [2]
+			},
+			["LastEventTimes"] = {
+				2712.824, -- [1]
+				2715.951, -- [2]
+			},
+			["LastAbility"] = 2584.123,
 		},
 	},
 	["FightNum"] = 1,
