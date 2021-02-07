@@ -97,7 +97,7 @@ END
 MACRO 16777222 "reflect" INV_Misc_QuestionMark
 #showtooltip spell reflection
 /equipslot 16 Wrathful Gladiator's Truncheon
-/equipslot 17 Wrathful Gladiator's Shield Wall
+/equipslot 17 Icecrown Glacial Wall
 /cast  [stance:3] battle stance
 /cast spell reflection
 END
@@ -110,7 +110,7 @@ END
 MACRO 16777230 "shieldslam" INV_Misc_QuestionMark
 #showtooltip shield slam
 /equipslot 16 Wrathful Gladiator's Truncheon
-/equipslot 17 Wrathful Gladiator's Shield Wall
+/equipslot 17 Icecrown Glacial Wall
 /cast shield slam
 END
 MACRO 16777227 "sm" INV_Misc_QuestionMark
@@ -123,6 +123,6 @@ MACRO 16777228 "swall" INV_Misc_QuestionMark
 #showtooltip shield wall
 /cast defensive stance
 /equipslot 16 Wrathful Gladiator's Truncheon
-/equipslot 17 Wrathful Gladiator's Shield Wall
+/equipslot 17 Icecrown Glacial Wall
 /cast shield wall
 END
