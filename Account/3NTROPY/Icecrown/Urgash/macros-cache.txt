@@ -1,7 +1,6 @@
 MACRO 16777232 "bs" INV_Misc_QuestionMark
 #showtooltip blood strike
 /cancelaura hand of protection
-/cancelaura chaos bane
 /startattack
 /cast !rune strike
 /cast blood strike
@@ -80,7 +79,6 @@ END
 MACRO 16777234 "ps" INV_Misc_QuestionMark
 #showtooltip plague strike
 /cancelaura hand of protection
-/cancelaura chaos bane
 /startattack
 /cast !rune strike
 /cast plague strike
@@ -89,7 +87,6 @@ END
 MACRO 16777225 "ss" INV_Misc_QuestionMark
 #showtooltip Scourge Strike
 /cancelaura hand of protection
-/cancelaura chaos bane
 /startattack
 /cast !rune strike
 /cast Scourge Strike
