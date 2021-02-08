@@ -3,15 +3,6 @@ GridDB = {
 	["disabled"] = {
 		["Default"] = true,
 	},
-	["disabledModules"] = {
-		["Default"] = {
-			["GridFrame"] = true,
-			["GridRoster"] = true,
-			["GridRange"] = true,
-			["GridStatus"] = true,
-			["GridLayout"] = true,
-		},
-	},
 	["namespaces"] = {
 		["GridStatusRange"] = {
 			["profiles"] = {
@@ -94,18 +85,18 @@ GridDB = {
 						["range"] = false,
 						["desc"] = "More than 46 yards away",
 					},
-					["alert_range_30"] = {
-						["enable"] = false,
-						["text"] = "30 yards",
+					["alert_range_60"] = {
+						["enable"] = true,
+						["text"] = "60 yards",
 						["color"] = {
-							["a"] = 0.4545454545454546,
-							["r"] = 0.3,
-							["g"] = 0.6,
-							["b"] = 0.9,
+							["a"] = 0.8363636363636364,
+							["r"] = 0.6,
+							["g"] = 0.2,
+							["b"] = 0.8,
 						},
-						["priority"] = 83,
+						["priority"] = 86,
 						["range"] = false,
-						["desc"] = "More than 30 yards away",
+						["desc"] = "More than 60 yards away",
 					},
 					["alert_range_28"] = {
 						["enable"] = false,
@@ -120,18 +111,18 @@ GridDB = {
 						["range"] = false,
 						["desc"] = "More than 28 yards away",
 					},
-					["alert_range_60"] = {
-						["enable"] = true,
-						["text"] = "60 yards",
+					["alert_range_30"] = {
+						["enable"] = false,
+						["text"] = "30 yards",
 						["color"] = {
-							["a"] = 0.8363636363636364,
-							["r"] = 0.6,
-							["g"] = 0.2,
-							["b"] = 0.8,
+							["a"] = 0.4545454545454546,
+							["r"] = 0.3,
+							["g"] = 0.6,
+							["b"] = 0.9,
 						},
-						["priority"] = 86,
+						["priority"] = 83,
 						["range"] = false,
-						["desc"] = "More than 60 yards away",
+						["desc"] = "More than 30 yards away",
 					},
 					["alert_range_36"] = {
 						["enable"] = true,
@@ -236,15 +227,25 @@ GridDB = {
 		["GridLayout"] = {
 			["profiles"] = {
 				["Default"] = {
+					["hideTab"] = true,
 					["anchorRel"] = "TOPLEFT",
 					["layouts"] = {
 						["heroic_raid"] = "By Group 40",
 					},
-					["PosY"] = -477.4439826102192,
+					["PosY"] = -551.5771168868047,
 					["layout"] = "By Group 5",
-					["PosX"] = 1175.694758206999,
+					["PosX"] = 1207.161445379734,
 				},
 			},
+		},
+	},
+	["disabledModules"] = {
+		["Default"] = {
+			["GridFrame"] = true,
+			["GridRoster"] = true,
+			["GridRange"] = true,
+			["GridStatus"] = true,
+			["GridLayout"] = true,
 		},
 	},
 	["profiles"] = {
