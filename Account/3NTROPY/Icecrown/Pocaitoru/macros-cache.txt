@@ -30,11 +30,6 @@ MACRO 16777223 "exo" INV_Misc_QuestionMark
 /cast exorcism
 /stopcasting
 END
-MACRO 16777233 "fol" INV_Misc_QuestionMark
-#showtooltip avenging wrath
-/cast avenging wrath
-/cast flash of light
-END
 MACRO 16777226 "hw" INV_Misc_QuestionMark
 #showtooltip hammer of wrath
 /startattack
