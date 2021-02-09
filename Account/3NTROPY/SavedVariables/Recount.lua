@@ -28,10 +28,10 @@ RecountDB = {
 			["GraphWindowY"] = 0,
 			["MainWindow"] = {
 				["Position"] = {
-					["y"] = 121.2999938246323,
-					["x"] = -551.5678369615386,
+					["y"] = 157.6480939006036,
+					["x"] = -634.1296568718132,
 					["w"] = 251.0000152503544,
-					["h"] = 311.0000073174346,
+					["h"] = 311.0000773459678,
 				},
 			},
 			["Colors"] = {
@@ -46,8 +46,8 @@ RecountDB = {
 			},
 			["DetailWindowY"] = -221.399969677098,
 			["DetailWindowX"] = 760.6027985015809,
-			["LastInstanceName"] = "Pit of Saron",
-			["CurDataSet"] = "CurrentFightData",
+			["LastInstanceName"] = "Icecrown Citadel",
+			["CurDataSet"] = "Fight1",
 			["GraphWindowX"] = 0,
 			["MainWindowWidth"] = 251.4197662784027,
 			["MainWindowHeight"] = 310.8518969696999,
@@ -136,14 +136,14 @@ RecountDB = {
 			["GraphWindowY"] = 0,
 			["MainWindow"] = {
 				["Position"] = {
-					["y"] = 136.9999357843821,
-					["x"] = -637.2395758869603,
-					["w"] = 239.0000133355117,
+					["y"] = 153.0000550517277,
+					["x"] = -634.6481656388179,
+					["w"] = 238.9999608141118,
 					["h"] = 289.9999908361099,
 				},
 			},
 			["DetailWindowX"] = 62.09879535193817,
-			["LastInstanceName"] = "Icecrown Citadel",
+			["LastInstanceName"] = "Utgarde Keep",
 			["CurDataSet"] = "LastFightData",
 			["Colors"] = {
 				["Bar"] = {
