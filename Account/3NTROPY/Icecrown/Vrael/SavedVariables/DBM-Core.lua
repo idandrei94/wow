@@ -58,16 +58,16 @@ DBM_SavedOptions = {
 	},
 	["RangeFrameX"] = 291.6871707795551,
 	["Enabled"] = true,
+	["RangeFrameLocked"] = false,
+	["WarningIconLeft"] = true,
+	["HealthFrameWidth"] = 200,
+	["RangeFrameSound1"] = "none",
+	["DontSendBossWhispers"] = false,
 	["SpecialWarningFontColor"] = {
 		0, -- [1]
 		0, -- [2]
 		1, -- [3]
 	},
-	["WarningIconLeft"] = true,
-	["HealthFrameWidth"] = 200,
-	["RangeFrameLocked"] = false,
-	["DontSendBossWhispers"] = false,
-	["RangeFrameSound1"] = "none",
 	["HPFrameY"] = 147.3992780085581,
 	["FixCLEUOnCombatStart"] = false,
 	["SpecialWarningX"] = 0,
