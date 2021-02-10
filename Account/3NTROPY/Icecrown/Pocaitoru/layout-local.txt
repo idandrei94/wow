@@ -63,14 +63,14 @@ Y: -93
 W: 225
 H: 360
 Frame: Recount_MainWindow
-FrameLevel: 23
+FrameLevel: 22
 Anchor: TOPLEFT
 X: 5
 Y: -90
 W: 260
 H: 329
 Frame: Recount_DetailWindow
-FrameLevel: 18
+FrameLevel: 10
 Anchor: RIGHT
 X: -167
 Y: 27

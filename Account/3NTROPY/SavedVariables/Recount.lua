@@ -28,12 +28,15 @@ RecountDB = {
 			["GraphWindowY"] = 0,
 			["MainWindow"] = {
 				["Position"] = {
-					["y"] = 157.6480939006036,
-					["x"] = -634.1296568718132,
+					["y"] = 157.6480939006037,
+					["x"] = -634.1297006396463,
 					["w"] = 251.0000152503544,
 					["h"] = 311.0000773459678,
 				},
 			},
+			["DetailWindowX"] = 760.6027985015809,
+			["LastInstanceName"] = "Icecrown Citadel",
+			["CurDataSet"] = "Fight1",
 			["Colors"] = {
 				["Bar"] = {
 					["Bar Text"] = {
@@ -45,12 +48,9 @@ RecountDB = {
 				},
 			},
 			["DetailWindowY"] = -221.399969677098,
-			["DetailWindowX"] = 760.6027985015809,
-			["LastInstanceName"] = "Icecrown Citadel",
-			["CurDataSet"] = "Fight1",
-			["GraphWindowX"] = 0,
-			["MainWindowWidth"] = 251.4197662784027,
 			["MainWindowHeight"] = 310.8518969696999,
+			["MainWindowWidth"] = 251.4197662784027,
+			["GraphWindowX"] = 0,
 		},
 		["Vrael - Icecrown"] = {
 			["GraphWindowY"] = 0,
@@ -64,7 +64,7 @@ RecountDB = {
 			},
 			["DetailWindowX"] = 317.267070839811,
 			["LastInstanceName"] = "The Ruby Sanctum",
-			["DetailWindowY"] = -59.9999876902969,
+			["GraphWindowX"] = 0,
 			["CurDataSet"] = "LastFightData",
 			["Colors"] = {
 				["Bar"] = {
@@ -76,7 +76,7 @@ RecountDB = {
 					},
 				},
 			},
-			["GraphWindowX"] = 0,
+			["DetailWindowY"] = -59.9999876902969,
 			["ReportLines"] = 1,
 			["MainWindowVis"] = false,
 			["MainWindowWidth"] = 244.5308668882732,
@@ -318,9 +318,6 @@ RecountDB = {
 					["x"] = -623.3704248851317,
 				},
 			},
-			["DetailWindowX"] = 850.0370786038143,
-			["LastInstanceName"] = "Icecrown Citadel",
-			["CurDataSet"] = "LastFightData",
 			["Colors"] = {
 				["Bar"] = {
 					["Bar Text"] = {
@@ -332,9 +329,12 @@ RecountDB = {
 				},
 			},
 			["DetailWindowY"] = -226.666658095466,
-			["MainWindowHeight"] = 328.7999999452902,
-			["MainWindowWidth"] = 260.0000123097031,
+			["DetailWindowX"] = 850.0370786038143,
+			["LastInstanceName"] = "Icecrown Citadel",
+			["CurDataSet"] = "LastFightData",
 			["GraphWindowX"] = 0,
+			["MainWindowWidth"] = 260.0000123097031,
+			["MainWindowHeight"] = 328.7999999452902,
 		},
 		["Kalaam - Icecrown"] = {
 			["GraphWindowY"] = 0,
@@ -493,7 +493,7 @@ RecountDB = {
 			},
 			["DetailWindowX"] = 112.9876419471188,
 			["LastInstanceName"] = "Vault of Archavon",
-			["GraphWindowX"] = 0,
+			["DetailWindowY"] = -124.0493402990752,
 			["CurDataSet"] = "LastFightData",
 			["Colors"] = {
 				["Bar"] = {
@@ -505,7 +505,7 @@ RecountDB = {
 					},
 				},
 			},
-			["DetailWindowY"] = -124.0493402990752,
+			["GraphWindowX"] = 0,
 			["MainWindowVis"] = false,
 			["MainWindowMode"] = 5,
 			["MainWindowWidth"] = 256.148530518934,
