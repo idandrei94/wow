@@ -34,9 +34,6 @@ RecountDB = {
 					["h"] = 311.0000773459678,
 				},
 			},
-			["DetailWindowX"] = 760.6027985015809,
-			["LastInstanceName"] = "Icecrown Citadel",
-			["CurDataSet"] = "Fight1",
 			["Colors"] = {
 				["Bar"] = {
 					["Bar Text"] = {
@@ -48,9 +45,12 @@ RecountDB = {
 				},
 			},
 			["DetailWindowY"] = -221.399969677098,
-			["MainWindowHeight"] = 310.8518969696999,
-			["MainWindowWidth"] = 251.4197662784027,
+			["DetailWindowX"] = 760.6027985015809,
+			["LastInstanceName"] = "Vault of Archavon",
+			["CurDataSet"] = "LastFightData",
 			["GraphWindowX"] = 0,
+			["MainWindowWidth"] = 251.4197662784027,
+			["MainWindowHeight"] = 310.8518969696999,
 		},
 		["Vrael - Icecrown"] = {
 			["GraphWindowY"] = 0,
@@ -76,11 +76,11 @@ RecountDB = {
 					},
 				},
 			},
-			["DetailWindowY"] = -59.9999876902969,
+			["GraphWindowX"] = 0,
 			["MainWindowWidth"] = 244.5308668882732,
 			["MainWindowVis"] = false,
 			["ReportLines"] = 1,
-			["GraphWindowX"] = 0,
+			["DetailWindowY"] = -59.9999876902969,
 		},
 		["Nalar - Icecrown"] = {
 			["GraphWindowY"] = 0,
@@ -267,6 +267,9 @@ RecountDB = {
 					["x"] = -562.6666942039285,
 				},
 			},
+			["DetailWindowX"] = 160.9111434339599,
+			["LastInstanceName"] = "Halls of Reflection",
+			["CurDataSet"] = "LastFightData",
 			["Colors"] = {
 				["Bar"] = {
 					["Bar Text"] = {
@@ -275,12 +278,9 @@ RecountDB = {
 				},
 			},
 			["DetailWindowY"] = -107.7333573326952,
-			["DetailWindowX"] = 160.9111434339599,
-			["LastInstanceName"] = "Halls of Reflection",
-			["CurDataSet"] = "CurrentFightData",
-			["GraphWindowX"] = 0,
-			["MainWindowWidth"] = 239.733352135265,
 			["MainWindowHeight"] = 319.2665955484968,
+			["MainWindowWidth"] = 239.733352135265,
+			["GraphWindowX"] = 0,
 		},
 		["Ulrezaj - Icecrown"] = {
 			["GraphWindowY"] = 0,
@@ -508,11 +508,11 @@ RecountDB = {
 					},
 				},
 			},
-			["GraphWindowX"] = 0,
+			["DetailWindowY"] = -124.0493402990752,
 			["MainWindowVis"] = false,
 			["MainWindowMode"] = 5,
 			["MainWindowWidth"] = 256.148530518934,
-			["DetailWindowY"] = -124.0493402990752,
+			["GraphWindowX"] = 0,
 		},
 		["Gligor - Icecrown"] = {
 			["GraphWindowY"] = 0,
