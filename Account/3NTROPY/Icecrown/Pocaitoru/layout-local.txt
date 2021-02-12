@@ -7,10 +7,10 @@ Y: -200
 W: 232
 H: 100
 Frame: LootFrame
-FrameLevel: 10
-Anchor: TOPRIGHT
-X: -137
-Y: 0
+FrameLevel: 19
+Anchor: CENTER
+X: 112
+Y: 13
 W: 256
 H: 256
 Frame: WorldMapScreenAnchor
@@ -63,7 +63,7 @@ Y: -93
 W: 225
 H: 360
 Frame: Recount_MainWindow
-FrameLevel: 16
+FrameLevel: 22
 Anchor: TOPLEFT
 X: 5
 Y: -90
@@ -91,7 +91,7 @@ Y: 168
 W: 100
 H: 30
 Frame: WowLuaFrame
-FrameLevel: 12
+FrameLevel: 18
 Anchor: LEFT
 X: 50
 Y: -15
