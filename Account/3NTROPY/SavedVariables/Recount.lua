@@ -34,9 +34,6 @@ RecountDB = {
 					["h"] = 311.0000773459678,
 				},
 			},
-			["DetailWindowX"] = 760.6027985015809,
-			["LastInstanceName"] = "Icecrown Citadel",
-			["CurDataSet"] = "LastFightData",
 			["Colors"] = {
 				["Bar"] = {
 					["Bar Text"] = {
@@ -48,6 +45,9 @@ RecountDB = {
 				},
 			},
 			["DetailWindowY"] = -221.399969677098,
+			["DetailWindowX"] = 760.6027985015809,
+			["LastInstanceName"] = "Icecrown Citadel",
+			["CurDataSet"] = "LastFightData",
 			["GraphWindowX"] = 0,
 			["MainWindowWidth"] = 251.4197662784027,
 			["MainWindowHeight"] = 310.8518969696999,
@@ -62,7 +62,9 @@ RecountDB = {
 					["h"] = 323.0000267394107,
 				},
 			},
-			["ReportLines"] = 1,
+			["DetailWindowX"] = 317.267070839811,
+			["LastInstanceName"] = "The Ruby Sanctum",
+			["CurDataSet"] = "LastFightData",
 			["Colors"] = {
 				["Bar"] = {
 					["Bar Text"] = {
@@ -74,12 +76,10 @@ RecountDB = {
 				},
 			},
 			["DetailWindowY"] = -59.9999876902969,
-			["DetailWindowX"] = 317.267070839811,
-			["GraphWindowX"] = 0,
-			["LastInstanceName"] = "The Ruby Sanctum",
-			["CurDataSet"] = "CurrentFightData",
-			["MainWindowWidth"] = 244.5308668882732,
 			["MainWindowHeight"] = 323.4446028824811,
+			["MainWindowWidth"] = 244.5308668882732,
+			["ReportLines"] = 1,
+			["GraphWindowX"] = 0,
 		},
 		["Nalar - Icecrown"] = {
 			["GraphWindowY"] = 0,
@@ -136,7 +136,7 @@ RecountDB = {
 			["MainWindow"] = {
 				["Position"] = {
 					["y"] = 153.0000900659944,
-					["x"] = -634.6482400441344,
+					["x"] = -634.6482881887509,
 					["w"] = 238.9999433069785,
 					["h"] = 289.9999908361099,
 				},
@@ -155,10 +155,10 @@ RecountDB = {
 				},
 			},
 			["DetailWindowY"] = 23.44438869364712,
-			["MainWindowHeight"] = 289.9999422879386,
-			["MainWindowWidth"] = 238.9999938458702,
-			["ReportLines"] = 1,
 			["GraphWindowX"] = 0,
+			["ReportLines"] = 1,
+			["MainWindowWidth"] = 238.9999938458702,
+			["MainWindowHeight"] = 289.9999422879386,
 		},
 		["Vhalanor - Icecrown"] = {
 			["GraphWindowY"] = 0,
@@ -508,11 +508,11 @@ RecountDB = {
 					},
 				},
 			},
-			["GraphWindowX"] = 0,
+			["DetailWindowY"] = -124.0493402990752,
 			["MainWindowVis"] = false,
 			["MainWindowMode"] = 5,
 			["MainWindowWidth"] = 256.148530518934,
-			["DetailWindowY"] = -124.0493402990752,
+			["GraphWindowX"] = 0,
 		},
 		["Gligor - Icecrown"] = {
 			["GraphWindowY"] = 0,
