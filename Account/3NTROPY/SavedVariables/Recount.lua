@@ -62,10 +62,7 @@ RecountDB = {
 					["h"] = 323.0000267394107,
 				},
 			},
-			["DetailWindowX"] = 317.267070839811,
-			["LastInstanceName"] = "The Ruby Sanctum",
-			["MainWindowHeight"] = 323.4446028824811,
-			["CurDataSet"] = "LastFightData",
+			["ReportLines"] = 1,
 			["Colors"] = {
 				["Bar"] = {
 					["Bar Text"] = {
@@ -76,11 +73,13 @@ RecountDB = {
 					},
 				},
 			},
-			["GraphWindowX"] = 0,
-			["MainWindowWidth"] = 244.5308668882732,
-			["MainWindowVis"] = false,
-			["ReportLines"] = 1,
 			["DetailWindowY"] = -59.9999876902969,
+			["DetailWindowX"] = 317.267070839811,
+			["GraphWindowX"] = 0,
+			["LastInstanceName"] = "The Ruby Sanctum",
+			["CurDataSet"] = "CurrentFightData",
+			["MainWindowWidth"] = 244.5308668882732,
+			["MainWindowHeight"] = 323.4446028824811,
 		},
 		["Nalar - Icecrown"] = {
 			["GraphWindowY"] = 0,
@@ -312,12 +311,15 @@ RecountDB = {
 			["GraphWindowY"] = 0,
 			["MainWindow"] = {
 				["Position"] = {
-					["y"] = 159.7221639828892,
+					["y"] = 159.7221989971559,
 					["h"] = 329.000001436132,
 					["w"] = 260.0000123097031,
-					["x"] = -625.8889004159381,
+					["x"] = -625.8889791980379,
 				},
 			},
+			["DetailWindowX"] = 850.0370786038143,
+			["LastInstanceName"] = "Icecrown Citadel",
+			["CurDataSet"] = "OverallData",
 			["Colors"] = {
 				["Bar"] = {
 					["Bar Text"] = {
@@ -329,13 +331,10 @@ RecountDB = {
 				},
 			},
 			["DetailWindowY"] = -226.666658095466,
-			["DetailWindowX"] = 850.0370786038143,
-			["LastInstanceName"] = "Icecrown Citadel",
-			["MainWindowMode"] = 4,
-			["CurDataSet"] = "OverallData",
-			["GraphWindowX"] = 0,
-			["MainWindowWidth"] = 260.0000123097031,
 			["MainWindowHeight"] = 328.7999999452902,
+			["MainWindowMode"] = 4,
+			["MainWindowWidth"] = 260.0000123097031,
+			["GraphWindowX"] = 0,
 		},
 		["Izanagi - Icecrown"] = {
 			["GraphWindowY"] = 0,
@@ -509,11 +508,11 @@ RecountDB = {
 					},
 				},
 			},
-			["DetailWindowY"] = -124.0493402990752,
+			["GraphWindowX"] = 0,
 			["MainWindowVis"] = false,
 			["MainWindowMode"] = 5,
 			["MainWindowWidth"] = 256.148530518934,
-			["GraphWindowX"] = 0,
+			["DetailWindowY"] = -124.0493402990752,
 		},
 		["Gligor - Icecrown"] = {
 			["GraphWindowY"] = 0,
