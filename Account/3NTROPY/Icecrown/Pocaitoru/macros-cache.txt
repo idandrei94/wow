@@ -25,6 +25,11 @@ MACRO 16777221 "ds" INV_Misc_QuestionMark
 /use 10
 /cast divine storm
 END
+MACRO 16777238 "dsac" INV_Misc_QuestionMark
+#showtooltip divine sacrifice
+/cast divine sacrifice
+/cancelaura divine sacrifice
+END
 MACRO 16777223 "exo" INV_Misc_QuestionMark
 #showtooltip
 /cast exorcism
@@ -56,13 +61,13 @@ MACRO 16777237 "pvpjud" INV_Misc_QuestionMark
 /use 10
 /cast judgement of wisdom
 END
-MACRO 16777219 "pyro" INV_Misc_QuestionMark
-#showtooltip 10
-/use 10
-END
 MACRO 16777232 "shield" INV_Misc_QuestionMark
 #showtooltip sacred shield
 /cast [noflying] sacred shield
+END
+MACRO 16777239 "turn" INV_Misc_QuestionMark
+#showtooltip
+/cast [target=focus,harm][target=mouseover,harm][] turn evil
 END
 MACRO 16777227 "wep" INV_Misc_QuestionMark
 #showtooltip 16
