@@ -53,7 +53,7 @@ MACRO 16777220 "nitro" INV_Misc_QuestionMark
 END
 MACRO 16777230 "pflash" INV_Misc_QuestionMark
 #showtooltip flash of light
-/cast [target=party1] flash of light
+/cast [target=Impeding] flash of light
 END
 MACRO 16777237 "pvpjud" INV_Misc_QuestionMark
 #showtooltip judgement of light
