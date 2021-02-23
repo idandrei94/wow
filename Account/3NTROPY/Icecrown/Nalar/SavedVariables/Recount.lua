@@ -5,10 +5,10 @@ RecountPerCharDB = {
 		["Nalar"] = {
 			["GUID"] = "0x070000000027C8A1",
 			["LastEventHealth"] = {
-				"21100 (100%)", -- [1]
-				"21100 (100%)", -- [2]
-				"21100 (100%)", -- [3]
-				"21100 (100%)", -- [4]
+				"21830 (100%)", -- [1]
+				"21830 (100%)", -- [2]
+				"21830 (100%)", -- [3]
+				"21830 (100%)", -- [4]
 				"21100 (100%)", -- [5]
 				"21100 (100%)", -- [6]
 				"21100 (100%)", -- [7]
@@ -54,13 +54,13 @@ RecountPerCharDB = {
 				"21100 (100%)", -- [47]
 				"21100 (100%)", -- [48]
 				"21100 (100%)", -- [49]
-				"21100 (100%)", -- [50]
+				"21830 (100%)", -- [50]
 			},
 			["LastEventType"] = {
-				"DAMAGE", -- [1]
-				"DAMAGE", -- [2]
-				"DAMAGE", -- [3]
-				"DAMAGE", -- [4]
+				"HEAL", -- [1]
+				"HEAL", -- [2]
+				"HEAL", -- [3]
+				"HEAL", -- [4]
 				"DAMAGE", -- [5]
 				"DAMAGE", -- [6]
 				"DAMAGE", -- [7]
@@ -106,11 +106,11 @@ RecountPerCharDB = {
 				"DAMAGE", -- [47]
 				"DAMAGE", -- [48]
 				"DAMAGE", -- [49]
-				"DAMAGE", -- [50]
+				"HEAL", -- [50]
 			},
 			["TimeWindows"] = {
-				["Damage"] = {
-					90838, -- [1]
+				["ActiveTime"] = {
+					85.88999999999996, -- [1]
 				},
 				["TimeDamage"] = {
 					85.88999999999996, -- [1]
@@ -118,26 +118,27 @@ RecountPerCharDB = {
 				["DOT_Time"] = {
 					81, -- [1]
 				},
-				["ActiveTime"] = {
-					85.88999999999996, -- [1]
+				["Damage"] = {
+					90838, -- [1]
 				},
 			},
 			["enClass"] = "PRIEST",
 			["unit"] = "Nalar",
 			["level"] = 80,
 			["LastFightIn"] = 0,
+			["LastEventNum"] = {
+				7.558405863490609, -- [1]
+				7.558405863490609, -- [2]
+				7.558405863490609, -- [3]
+				7.558405863490609, -- [4]
+				[50] = 7.558405863490609,
+			},
 			["type"] = "Self",
 			["FightsSaved"] = 1,
-			["TimeLast"] = {
-				["ActiveTime"] = 1612860891,
-				["TimeDamage"] = 1612860891,
-				["OVERALL"] = 1612860891,
-				["DOT_Time"] = 1612860887,
-				["Damage"] = 1612860891,
-			},
+			["LastActive"] = 1614102691,
 			["Owner"] = false,
-			["LastAbility"] = 6103.872,
-			["NextEventNum"] = 50,
+			["UnitLockout"] = 1612860809,
+			["NextEventNum"] = 5,
 			["LastEventHealthNum"] = {
 				100, -- [1]
 				100, -- [2]
@@ -191,10 +192,10 @@ RecountPerCharDB = {
 				100, -- [50]
 			},
 			["LastEvents"] = {
-				"Nalar Shadow Word: Pain (DoT) Master's Training Dummy Tick -1143 (Shadow)", -- [1]
-				"Nalar Melee Master's Training Dummy Crit -479 (Physical)", -- [2]
-				"Nalar Mind Flay Master's Training Dummy Hit -1817 (Shadow)", -- [3]
-				"Nalar Mind Flay Master's Training Dummy Hit -1817 (Shadow)", -- [4]
+				"Nalar Renew Nalar Tick +1650 (1650 overheal)", -- [1]
+				"Nalar Renew Nalar Tick +1650 (1650 overheal)", -- [2]
+				"Nalar Renew Nalar Tick +1650 (1650 overheal)", -- [3]
+				"Nalar Renew Nalar Tick +1650 (1650 overheal)", -- [4]
 				"Nalar Shadow Word: Pain (DoT) Master's Training Dummy Tick -1124 (Shadow)", -- [5]
 				"Nalar Mind Flay Master's Training Dummy Crit -2806 (Shadow)", -- [6]
 				"Nalar Melee Master's Training Dummy Crit -636 (Physical)", -- [7]
@@ -240,115 +241,11 @@ RecountPerCharDB = {
 				"Nalar Mind Flay Master's Training Dummy Crit -2366 (Shadow)", -- [47]
 				"Nalar Melee Master's Training Dummy Hit -183 (Physical)", -- [48]
 				"Nalar Melee Master's Training Dummy Hit -306 (Physical)", -- [49]
-				"Nalar Melee Master's Training Dummy Hit -229 (Physical)", -- [50]
+				"Nalar Renew Nalar Tick +1650 (997 overheal)", -- [50]
 			},
 			["Name"] = "Nalar",
-			["LastEventIncoming"] = {
-				false, -- [1]
-				false, -- [2]
-				false, -- [3]
-				false, -- [4]
-				false, -- [5]
-				false, -- [6]
-				false, -- [7]
-				false, -- [8]
-				false, -- [9]
-				false, -- [10]
-				false, -- [11]
-				false, -- [12]
-				false, -- [13]
-				false, -- [14]
-				false, -- [15]
-				false, -- [16]
-				false, -- [17]
-				false, -- [18]
-				false, -- [19]
-				false, -- [20]
-				false, -- [21]
-				false, -- [22]
-				false, -- [23]
-				false, -- [24]
-				false, -- [25]
-				false, -- [26]
-				false, -- [27]
-				false, -- [28]
-				false, -- [29]
-				false, -- [30]
-				false, -- [31]
-				false, -- [32]
-				false, -- [33]
-				false, -- [34]
-				false, -- [35]
-				false, -- [36]
-				false, -- [37]
-				false, -- [38]
-				false, -- [39]
-				false, -- [40]
-				false, -- [41]
-				false, -- [42]
-				false, -- [43]
-				false, -- [44]
-				false, -- [45]
-				false, -- [46]
-				false, -- [47]
-				false, -- [48]
-				false, -- [49]
-				false, -- [50]
-			},
-			["LastEventTimes"] = {
-				6063.461, -- [1]
-				6063.873000000001, -- [2]
-				6065.333000000001, -- [3]
-				6065.936, -- [4]
-				6066.479, -- [5]
-				6066.615, -- [6]
-				6066.617, -- [7]
-				6067.991, -- [8]
-				6069.304, -- [9]
-				6069.497, -- [10]
-				6070.685, -- [11]
-				6072.054, -- [12]
-				6072.501, -- [13]
-				6073.43, -- [14]
-				6074.828, -- [15]
-				6075.533, -- [16]
-				6076.213, -- [17]
-				6077.58, -- [18]
-				6078.493, -- [19]
-				6078.978, -- [20]
-				6080.293000000001, -- [21]
-				6081.487, -- [22]
-				6081.657, -- [23]
-				6082.967000000001, -- [24]
-				6083.616, -- [25]
-				6084.217000000001, -- [26]
-				6084.218, -- [27]
-				6084.471000000001, -- [28]
-				6085.598, -- [29]
-				6086.927, -- [30]
-				6087.478, -- [31]
-				6088.29, -- [32]
-				6089.674, -- [33]
-				6090.453, -- [34]
-				6091.029000000001, -- [35]
-				6092.396, -- [36]
-				6093.525000000001, -- [37]
-				6093.754, -- [38]
-				6095.174, -- [39]
-				6096.494, -- [40]
-				6096.494, -- [41]
-				6097.873000000001, -- [42]
-				6099.222, -- [43]
-				6099.487, -- [44]
-				6100.592000000001, -- [45]
-				6101.522, -- [46]
-				6102.125, -- [47]
-				6102.51, -- [48]
-				6103.872, -- [49]
-				6062.451, -- [50]
-			},
 			["Fights"] = {
-				["Fight1"] = {
+				["OverallData"] = {
 					["DOTs"] = {
 						["Shadow Word: Pain (DoT)"] = {
 							["Details"] = {
@@ -375,32 +272,9 @@ RecountPerCharDB = {
 							["amount"] = 85.88999999999996,
 						},
 					},
-					["ElementHitsDone"] = {
-						["Melee"] = {
-							["Details"] = {
-								["Crit"] = {
-									["count"] = 18,
-								},
-								["Hit"] = {
-									["count"] = 37,
-								},
-							},
-							["amount"] = 55,
-						},
-						["Shadow"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 10,
-								},
-								["Crit"] = {
-									["count"] = 13,
-								},
-								["Tick"] = {
-									["count"] = 21,
-								},
-							},
-							["amount"] = 44,
-						},
+					["ElementDone"] = {
+						["Melee"] = 16427,
+						["Shadow"] = 74411,
 					},
 					["Attacks"] = {
 						["Shadow Word: Pain (DoT)"] = {
@@ -458,10 +332,6 @@ RecountPerCharDB = {
 							["amount"] = 16427,
 						},
 					},
-					["ElementDone"] = {
-						["Melee"] = 16427,
-						["Shadow"] = 74411,
-					},
 					["DamagedWho"] = {
 						["Master's Training Dummy"] = {
 							["Details"] = {
@@ -476,6 +346,33 @@ RecountPerCharDB = {
 								},
 							},
 							["amount"] = 90838,
+						},
+					},
+					["ElementHitsDone"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Crit"] = {
+									["count"] = 18,
+								},
+								["Hit"] = {
+									["count"] = 37,
+								},
+							},
+							["amount"] = 55,
+						},
+						["Shadow"] = {
+							["Details"] = {
+								["Tick"] = {
+									["count"] = 21,
+								},
+								["Crit"] = {
+									["count"] = 13,
+								},
+								["Hit"] = {
+									["count"] = 10,
+								},
+							},
+							["amount"] = 44,
 						},
 					},
 					["ActiveTime"] = 85.88999999999996,
@@ -526,32 +423,9 @@ RecountPerCharDB = {
 							["amount"] = 85.88999999999996,
 						},
 					},
-					["ElementHitsDone"] = {
-						["Melee"] = {
-							["Details"] = {
-								["Crit"] = {
-									["count"] = 18,
-								},
-								["Hit"] = {
-									["count"] = 37,
-								},
-							},
-							["amount"] = 55,
-						},
-						["Shadow"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 10,
-								},
-								["Crit"] = {
-									["count"] = 13,
-								},
-								["Tick"] = {
-									["count"] = 21,
-								},
-							},
-							["amount"] = 44,
-						},
+					["ElementDone"] = {
+						["Melee"] = 16427,
+						["Shadow"] = 74411,
 					},
 					["Attacks"] = {
 						["Shadow Word: Pain (DoT)"] = {
@@ -609,10 +483,6 @@ RecountPerCharDB = {
 							["amount"] = 16427,
 						},
 					},
-					["ElementDone"] = {
-						["Melee"] = 16427,
-						["Shadow"] = 74411,
-					},
 					["DamagedWho"] = {
 						["Master's Training Dummy"] = {
 							["Details"] = {
@@ -627,6 +497,33 @@ RecountPerCharDB = {
 								},
 							},
 							["amount"] = 90838,
+						},
+					},
+					["ElementHitsDone"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Crit"] = {
+									["count"] = 18,
+								},
+								["Hit"] = {
+									["count"] = 37,
+								},
+							},
+							["amount"] = 55,
+						},
+						["Shadow"] = {
+							["Details"] = {
+								["Tick"] = {
+									["count"] = 21,
+								},
+								["Crit"] = {
+									["count"] = 13,
+								},
+								["Hit"] = {
+									["count"] = 10,
+								},
+							},
+							["amount"] = 44,
 						},
 					},
 					["ActiveTime"] = 85.88999999999996,
@@ -663,43 +560,40 @@ RecountPerCharDB = {
 					},
 					["DeathCount"] = 0,
 					["HOT_Time"] = 0,
-					["ElementHitsDone"] = {
+					["HOTs"] = {
 					},
-					["ElementTakenAbsorb"] = {
-					},
+					["ManaGain"] = 0,
 					["ElementTaken"] = {
 					},
 					["DOT_Time"] = 0,
 					["Damage"] = 0,
-					["ElementTakenBlock"] = {
+					["ElementDoneAbsorb"] = {
 					},
 					["TimeHeal"] = 0,
 					["RessedWho"] = {
 					},
 					["Dispels"] = 0,
-					["ElementTakenResist"] = {
-					},
-					["ElementDoneAbsorb"] = {
-					},
-					["FAttacks"] = {
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementDone"] = {
-					},
 					["PartialAbsorb"] = {
 					},
-					["DamagedWho"] = {
+					["RageGain"] = 0,
+					["FAttacks"] = {
 					},
 					["PartialBlock"] = {
 					},
+					["ElementDone"] = {
+					},
+					["CCBroken"] = {
+					},
+					["ElementHitsDone"] = {
+					},
+					["Dispelled"] = 0,
 					["WhoDamaged"] = {
 					},
 					["EnergyGainedFrom"] = {
 					},
-					["PartialResist"] = {
+					["FDamagedWho"] = {
 					},
-					["CCBroken"] = {
+					["RunicPowerGainedFrom"] = {
 					},
 					["ElementDoneBlock"] = {
 					},
@@ -707,53 +601,56 @@ RecountPerCharDB = {
 					},
 					["OverHeals"] = {
 					},
-					["ManaGainedFrom"] = {
-					},
-					["RunicPowerGained"] = {
-					},
-					["CCBreak"] = 0,
 					["RageGained"] = {
 					},
-					["HealedWho"] = {
-					},
+					["ActiveTime"] = 0,
+					["CCBreak"] = 0,
 					["EnergyGain"] = 0,
+					["WhoHealed"] = {
+					},
+					["PartialResist"] = {
+					},
 					["ManaGained"] = {
 					},
-					["FDamage"] = 0,
+					["ElementTakenAbsorb"] = {
+					},
 					["Interrupts"] = 0,
 					["Overhealing"] = 0,
-					["TimeSpent"] = {
-					},
-					["WhoDispelled"] = {
+					["ElementTakenResist"] = {
 					},
 					["InterruptData"] = {
 					},
-					["RunicPowerGain"] = 0,
+					["WhoDispelled"] = {
+					},
+					["TimeSpent"] = {
+					},
 					["Heals"] = {
 					},
-					["WhoHealed"] = {
-					},
+					["FDamage"] = 0,
 					["EnergyGained"] = {
 					},
-					["ActiveTime"] = 0,
-					["Healing"] = 0,
-					["FDamagedWho"] = {
+					["HealedWho"] = {
 					},
-					["Dispelled"] = 0,
+					["Healing"] = 0,
+					["RunicPowerGained"] = {
+					},
+					["ManaGainedFrom"] = {
+					},
 					["Attacks"] = {
 					},
 					["HealingTaken"] = 0,
-					["RageGain"] = 0,
+					["DamagedWho"] = {
+					},
 					["TimeDamage"] = 0,
 					["TimeDamaging"] = {
 					},
-					["ManaGain"] = 0,
-					["HOTs"] = {
+					["RunicPowerGain"] = 0,
+					["ElementTakenBlock"] = {
 					},
 					["DispelledWho"] = {
 					},
 				},
-				["OverallData"] = {
+				["Fight1"] = {
 					["DOTs"] = {
 						["Shadow Word: Pain (DoT)"] = {
 							["Details"] = {
@@ -780,32 +677,9 @@ RecountPerCharDB = {
 							["amount"] = 85.88999999999996,
 						},
 					},
-					["ElementHitsDone"] = {
-						["Melee"] = {
-							["Details"] = {
-								["Crit"] = {
-									["count"] = 18,
-								},
-								["Hit"] = {
-									["count"] = 37,
-								},
-							},
-							["amount"] = 55,
-						},
-						["Shadow"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 10,
-								},
-								["Crit"] = {
-									["count"] = 13,
-								},
-								["Tick"] = {
-									["count"] = 21,
-								},
-							},
-							["amount"] = 44,
-						},
+					["ElementDone"] = {
+						["Melee"] = 16427,
+						["Shadow"] = 74411,
 					},
 					["Attacks"] = {
 						["Shadow Word: Pain (DoT)"] = {
@@ -863,10 +737,6 @@ RecountPerCharDB = {
 							["amount"] = 16427,
 						},
 					},
-					["ElementDone"] = {
-						["Melee"] = 16427,
-						["Shadow"] = 74411,
-					},
 					["DamagedWho"] = {
 						["Master's Training Dummy"] = {
 							["Details"] = {
@@ -881,6 +751,33 @@ RecountPerCharDB = {
 								},
 							},
 							["amount"] = 90838,
+						},
+					},
+					["ElementHitsDone"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Crit"] = {
+									["count"] = 18,
+								},
+								["Hit"] = {
+									["count"] = 37,
+								},
+							},
+							["amount"] = 55,
+						},
+						["Shadow"] = {
+							["Details"] = {
+								["Tick"] = {
+									["count"] = 21,
+								},
+								["Crit"] = {
+									["count"] = 13,
+								},
+								["Hit"] = {
+									["count"] = 10,
+								},
+							},
+							["amount"] = 44,
 						},
 					},
 					["ActiveTime"] = 85.88999999999996,
@@ -905,8 +802,118 @@ RecountPerCharDB = {
 					["Damage"] = 90838,
 				},
 			},
-			["UnitLockout"] = 1612860809,
-			["LastActive"] = 1612860891,
+			["TimeLast"] = {
+				["ActiveTime"] = 1612860891,
+				["TimeDamage"] = 1612860891,
+				["OVERALL"] = 1612860891,
+				["DOT_Time"] = 1612860887,
+				["Damage"] = 1612860891,
+			},
+			["LastEventIncoming"] = {
+				true, -- [1]
+				true, -- [2]
+				true, -- [3]
+				true, -- [4]
+				false, -- [5]
+				false, -- [6]
+				false, -- [7]
+				false, -- [8]
+				false, -- [9]
+				false, -- [10]
+				false, -- [11]
+				false, -- [12]
+				false, -- [13]
+				false, -- [14]
+				false, -- [15]
+				false, -- [16]
+				false, -- [17]
+				false, -- [18]
+				false, -- [19]
+				false, -- [20]
+				false, -- [21]
+				false, -- [22]
+				false, -- [23]
+				false, -- [24]
+				false, -- [25]
+				false, -- [26]
+				false, -- [27]
+				false, -- [28]
+				false, -- [29]
+				false, -- [30]
+				false, -- [31]
+				false, -- [32]
+				false, -- [33]
+				false, -- [34]
+				false, -- [35]
+				false, -- [36]
+				false, -- [37]
+				false, -- [38]
+				false, -- [39]
+				false, -- [40]
+				false, -- [41]
+				false, -- [42]
+				false, -- [43]
+				false, -- [44]
+				false, -- [45]
+				false, -- [46]
+				false, -- [47]
+				false, -- [48]
+				false, -- [49]
+				true, -- [50]
+			},
+			["LastEventTimes"] = {
+				195.453, -- [1]
+				195.485, -- [2]
+				195.5, -- [3]
+				195.502, -- [4]
+				6066.479, -- [5]
+				6066.615, -- [6]
+				6066.617, -- [7]
+				6067.991, -- [8]
+				6069.304, -- [9]
+				6069.497, -- [10]
+				6070.685, -- [11]
+				6072.054, -- [12]
+				6072.501, -- [13]
+				6073.43, -- [14]
+				6074.828, -- [15]
+				6075.533, -- [16]
+				6076.213, -- [17]
+				6077.58, -- [18]
+				6078.493, -- [19]
+				6078.978, -- [20]
+				6080.293000000001, -- [21]
+				6081.487, -- [22]
+				6081.657, -- [23]
+				6082.967000000001, -- [24]
+				6083.616, -- [25]
+				6084.217000000001, -- [26]
+				6084.218, -- [27]
+				6084.471000000001, -- [28]
+				6085.598, -- [29]
+				6086.927, -- [30]
+				6087.478, -- [31]
+				6088.29, -- [32]
+				6089.674, -- [33]
+				6090.453, -- [34]
+				6091.029000000001, -- [35]
+				6092.396, -- [36]
+				6093.525000000001, -- [37]
+				6093.754, -- [38]
+				6095.174, -- [39]
+				6096.494, -- [40]
+				6096.494, -- [41]
+				6097.873000000001, -- [42]
+				6099.222, -- [43]
+				6099.487, -- [44]
+				6100.592000000001, -- [45]
+				6101.522, -- [46]
+				6102.125, -- [47]
+				6102.51, -- [48]
+				6103.872, -- [49]
+				176.396, -- [50]
+			},
+			["LastAbility"] = 134.26,
 		},
 	},
 	["FightNum"] = 1,
