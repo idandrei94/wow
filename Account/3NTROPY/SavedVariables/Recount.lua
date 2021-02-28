@@ -34,6 +34,9 @@ RecountDB = {
 					["h"] = 311.0000773459678,
 				},
 			},
+			["DetailWindowX"] = 760.6027985015809,
+			["LastInstanceName"] = "Vault of Archavon",
+			["CurDataSet"] = "LastFightData",
 			["Colors"] = {
 				["Bar"] = {
 					["Bar Text"] = {
@@ -45,9 +48,6 @@ RecountDB = {
 				},
 			},
 			["DetailWindowY"] = -221.399969677098,
-			["DetailWindowX"] = 760.6027985015809,
-			["LastInstanceName"] = "Vault of Archavon",
-			["CurDataSet"] = "LastFightData",
 			["GraphWindowX"] = 0,
 			["MainWindowWidth"] = 251.4197662784027,
 			["MainWindowHeight"] = 310.8518969696999,
@@ -91,8 +91,21 @@ RecountDB = {
 					["x"] = -635.8334029401452,
 				},
 			},
+			["Colors"] = {
+				["Bar"] = {
+					["Bar Text"] = {
+						["a"] = 1,
+					},
+					["Total Bar"] = {
+						["a"] = 1,
+					},
+				},
+			},
+			["DetailWindowY"] = -152.7036942991919,
 			["DetailWindowX"] = 867.5926716507743,
-			["LastInstanceName"] = "Vault of Archavon",
+			["GraphWindowX"] = 0,
+			["MainWindowVis"] = false,
+			["LastInstanceName"] = "Blade's Edge Arena",
 			["RealtimeWindows"] = {
 				["Realtime_Nalar_DAMAGE"] = {
 					"Nalar", -- [1]
@@ -116,20 +129,8 @@ RecountDB = {
 				},
 			},
 			["CurDataSet"] = "OverallData",
-			["Colors"] = {
-				["Bar"] = {
-					["Bar Text"] = {
-						["a"] = 1,
-					},
-					["Total Bar"] = {
-						["a"] = 1,
-					},
-				},
-			},
-			["DetailWindowY"] = -152.7036942991919,
-			["MainWindowHeight"] = 345.0444837792649,
 			["MainWindowWidth"] = 243.3555780154447,
-			["GraphWindowX"] = 0,
+			["MainWindowHeight"] = 345.0444837792649,
 		},
 		["Denathra - Icecrown"] = {
 			["GraphWindowY"] = 0,
@@ -263,7 +264,7 @@ RecountDB = {
 					["y"] = 159.8889019204573,
 					["h"] = 304.0000251665041,
 					["w"] = 229.0000088219539,
-					["x"] = -642.240825526987,
+					["x"] = -642.2408736716035,
 				},
 			},
 			["DetailWindowX"] = 160.9111434339599,
@@ -277,9 +278,9 @@ RecountDB = {
 				},
 			},
 			["DetailWindowY"] = -107.7333573326952,
-			["GraphWindowX"] = 0,
-			["MainWindowWidth"] = 239.733352135265,
 			["MainWindowHeight"] = 319.2665955484968,
+			["MainWindowWidth"] = 239.733352135265,
+			["GraphWindowX"] = 0,
 		},
 		["Ulrezaj - Icecrown"] = {
 			["GraphWindowY"] = 0,

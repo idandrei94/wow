@@ -5,6 +5,11 @@ END
 MACRO 16777229 "asuu" INV_Misc_QuestionMark
 /tar asuu
 END
+MACRO 16777230 "bauble" INV_Misc_QuestionMark
+#showtooltip Bauble of True Blood
+/cast [modifier:alt,target=tyraeld] Bauble of True Blood
+/cast [nomodifier:alt, target=Nalar] Bauble of True Blood
+END
 MACRO 16777219 "dp" INV_Misc_QuestionMark
 #showtooltip devouring plague
 /cast [nochanneling] devouring plague
@@ -12,6 +17,10 @@ END
 MACRO 16777227 "heal" INV_Misc_QuestionMark
 #showtooltip
 /castsequence reset=13 power word: shield, renew, flash heal, flash heal, flash heal, flash heal, flash heal, flash heal
+END
+MACRO 16777231 "horror" INV_Misc_QuestionMark
+#showtooltip psychic horror
+/cast [nomodifier:alt][modifier:alt, target=focus] psychic horror
 END
 MACRO 16777225 "hymn" INV_Misc_QuestionMark
 #showtooltip
