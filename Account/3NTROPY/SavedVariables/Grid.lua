@@ -1,5 +1,17 @@
 
 GridDB = {
+	["disabledModules"] = {
+		["Default"] = {
+			["GridFrame"] = true,
+			["GridRoster"] = true,
+			["GridRange"] = true,
+			["GridStatus"] = true,
+			["GridLayout"] = true,
+		},
+	},
+	["disabled"] = {
+		["Default"] = true,
+	},
 	["namespaces"] = {
 		["GridStatusRange"] = {
 			["profiles"] = {
@@ -108,19 +120,6 @@ GridDB = {
 						["range"] = false,
 						["desc"] = "More than 28 yards away",
 					},
-					["alert_range_60"] = {
-						["color"] = {
-							["a"] = 0.8363636363636364,
-							["b"] = 0.8,
-							["g"] = 0.2,
-							["r"] = 0.6,
-						},
-						["priority"] = 86,
-						["enable"] = true,
-						["text"] = "60 yards",
-						["range"] = false,
-						["desc"] = "More than 60 yards away",
-					},
 					["alert_range_30"] = {
 						["color"] = {
 							["a"] = 0.4545454545454546,
@@ -133,6 +132,19 @@ GridDB = {
 						["text"] = "30 yards",
 						["range"] = false,
 						["desc"] = "More than 30 yards away",
+					},
+					["alert_range_60"] = {
+						["color"] = {
+							["a"] = 0.8363636363636364,
+							["b"] = 0.8,
+							["g"] = 0.2,
+							["r"] = 0.6,
+						},
+						["priority"] = 86,
+						["enable"] = true,
+						["text"] = "60 yards",
+						["range"] = false,
+						["desc"] = "More than 60 yards away",
 					},
 					["alert_range_100"] = {
 						["color"] = {
@@ -229,9 +241,9 @@ GridDB = {
 					["layouts"] = {
 						["heroic_raid"] = "By Group 40",
 					},
-					["PosY"] = -650.2444621495306,
+					["PosY"] = -302.2667724465798,
 					["layout"] = "By Group 5",
-					["PosX"] = 1220.133642573176,
+					["PosX"] = 1080.933364942976,
 				},
 			},
 		},
