@@ -91,20 +91,8 @@ RecountDB = {
 					["x"] = -635.8334029401452,
 				},
 			},
-			["Colors"] = {
-				["Bar"] = {
-					["Bar Text"] = {
-						["a"] = 1,
-					},
-					["Total Bar"] = {
-						["a"] = 1,
-					},
-				},
-			},
-			["DetailWindowY"] = -152.7036942991919,
 			["DetailWindowX"] = 867.5926716507743,
-			["GraphWindowX"] = 0,
-			["LastInstanceName"] = "Trial of the Champion",
+			["LastInstanceName"] = "Vault of Archavon",
 			["RealtimeWindows"] = {
 				["Realtime_Nalar_DAMAGE"] = {
 					"Nalar", -- [1]
@@ -127,10 +115,21 @@ RecountDB = {
 					false, -- [8]
 				},
 			},
-			["MainWindowMode"] = 5,
-			["CurDataSet"] = "LastFightData",
-			["MainWindowWidth"] = 243.3555780154447,
+			["CurDataSet"] = "CurrentFightData",
+			["Colors"] = {
+				["Bar"] = {
+					["Bar Text"] = {
+						["a"] = 1,
+					},
+					["Total Bar"] = {
+						["a"] = 1,
+					},
+				},
+			},
+			["DetailWindowY"] = -152.7036942991919,
 			["MainWindowHeight"] = 345.0444837792649,
+			["MainWindowWidth"] = 243.3555780154447,
+			["GraphWindowX"] = 0,
 		},
 		["Denathra - Icecrown"] = {
 			["GraphWindowY"] = 0,
@@ -346,9 +345,6 @@ RecountDB = {
 					["x"] = -546.3224634779658,
 				},
 			},
-			["DetailWindowX"] = 828.2974207547476,
-			["LastInstanceName"] = "Scarlet Monastery",
-			["CurDataSet"] = "LastFightData",
 			["Colors"] = {
 				["Bar"] = {
 					["Bar Text"] = {
@@ -357,6 +353,9 @@ RecountDB = {
 				},
 			},
 			["DetailWindowY"] = -124.1852219141985,
+			["DetailWindowX"] = 828.2974207547476,
+			["LastInstanceName"] = "Scarlet Monastery",
+			["CurDataSet"] = "LastFightData",
 			["GraphWindowX"] = 0,
 			["MainWindowWidth"] = 253.0123901948838,
 			["MainWindowHeight"] = 329.1730069274222,
@@ -493,7 +492,7 @@ RecountDB = {
 			},
 			["DetailWindowX"] = 112.9876419471188,
 			["LastInstanceName"] = "Vault of Archavon",
-			["GraphWindowX"] = 0,
+			["DetailWindowY"] = -124.0493402990752,
 			["CurDataSet"] = "LastFightData",
 			["Colors"] = {
 				["Bar"] = {
@@ -505,7 +504,7 @@ RecountDB = {
 					},
 				},
 			},
-			["DetailWindowY"] = -124.0493402990752,
+			["GraphWindowX"] = 0,
 			["MainWindowVis"] = false,
 			["MainWindowMode"] = 5,
 			["MainWindowWidth"] = 256.148530518934,

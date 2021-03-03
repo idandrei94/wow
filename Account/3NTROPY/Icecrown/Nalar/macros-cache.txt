@@ -59,3 +59,8 @@ MACRO 16777222 "VT" INV_Misc_QuestionMark
 #showtooltip vampiric touch
 /cast [nochanneling] vampiric touch
 END
+MACRO 16777232 "ymn" INV_Misc_QuestionMark
+#showtooltip divine hymn
+/cast inner focus
+/cast divine hymn
+END
