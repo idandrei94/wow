@@ -91,21 +91,8 @@ RecountDB = {
 					["x"] = -635.8334029401452,
 				},
 			},
-			["Colors"] = {
-				["Bar"] = {
-					["Bar Text"] = {
-						["a"] = 1,
-					},
-					["Total Bar"] = {
-						["a"] = 1,
-					},
-				},
-			},
-			["DetailWindowY"] = -152.7036942991919,
 			["DetailWindowX"] = 867.5926716507743,
-			["GraphWindowX"] = 0,
-			["MainWindowVis"] = false,
-			["LastInstanceName"] = "Icecrown Citadel",
+			["LastInstanceName"] = "Azjol-Nerub",
 			["RealtimeWindows"] = {
 				["Realtime_Nalar_DAMAGE"] = {
 					"Nalar", -- [1]
@@ -129,8 +116,20 @@ RecountDB = {
 				},
 			},
 			["CurDataSet"] = "LastFightData",
-			["MainWindowWidth"] = 243.3555780154447,
+			["Colors"] = {
+				["Bar"] = {
+					["Bar Text"] = {
+						["a"] = 1,
+					},
+					["Total Bar"] = {
+						["a"] = 1,
+					},
+				},
+			},
+			["DetailWindowY"] = -152.7036942991919,
 			["MainWindowHeight"] = 345.0444837792649,
+			["MainWindowWidth"] = 243.3555780154447,
+			["GraphWindowX"] = 0,
 		},
 		["Denathra - Icecrown"] = {
 			["GraphWindowY"] = 0,
@@ -315,12 +314,9 @@ RecountDB = {
 					["y"] = 159.7221989971559,
 					["h"] = 329.000001436132,
 					["w"] = 260.0000123097031,
-					["x"] = -625.8890229658712,
+					["x"] = -625.8890711104878,
 				},
 			},
-			["DetailWindowX"] = 850.0370786038143,
-			["LastInstanceName"] = "Icecrown Citadel",
-			["CurDataSet"] = "LastFightData",
 			["Colors"] = {
 				["Bar"] = {
 					["Bar Text"] = {
@@ -332,9 +328,12 @@ RecountDB = {
 				},
 			},
 			["DetailWindowY"] = -226.666658095466,
-			["MainWindowHeight"] = 328.7999999452902,
-			["MainWindowWidth"] = 260.0000123097031,
+			["DetailWindowX"] = 850.0370786038143,
+			["LastInstanceName"] = "Halls of Stone",
+			["CurDataSet"] = "LastFightData",
 			["GraphWindowX"] = 0,
+			["MainWindowWidth"] = 260.0000123097031,
+			["MainWindowHeight"] = 328.7999999452902,
 		},
 		["Izanagi - Icecrown"] = {
 			["GraphWindowY"] = 0,

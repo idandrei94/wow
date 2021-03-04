@@ -23,10 +23,10 @@ H: 1
 Frame: ItemRefTooltip
 FrameLevel: 1
 Anchor: BOTTOM
-X: -110
-Y: 17
-W: 356
-H: 302
+X: -97
+Y: 125
+W: 345
+H: 201
 Frame: DBMMinimapButton
 FrameLevel: 3
 Anchor: TOPRIGHT
@@ -84,7 +84,7 @@ Y: -95
 W: 56
 H: 42
 Frame: TomTomBlock
-FrameLevel: 25
+FrameLevel: 12
 Anchor: RIGHT
 X: -82
 Y: 168
@@ -97,10 +97,3 @@ X: 50
 Y: -15
 W: 811
 H: 546
-Frame: GridLayoutFrame
-FrameLevel: 0
-Anchor: BOTTOMRIGHT
-X: -118
-Y: 181
-W: 57
-H: 56

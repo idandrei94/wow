@@ -75,8 +75,8 @@ GladiusDB = {
 		},
 		["Pocaitoru - Icecrown"] = {
 			["locked"] = true,
-			["x"] = 1068.283355016582,
 			["y"] = 591.6555710886522,
+			["x"] = 1068.283355016582,
 		},
 		["Lingurita - Lordaeron"] = {
 			["locked"] = true,
@@ -111,8 +111,8 @@ GladiusDB = {
 		},
 		["Nalar - Icecrown"] = {
 			["locked"] = true,
-			["y"] = 556.8110685779587,
 			["x"] = 1091.038524034304,
+			["y"] = 556.8110685779587,
 		},
 		["Kalaam - Icecrown"] = {
 			["locked"] = true,
