@@ -34,9 +34,6 @@ RecountDB = {
 					["h"] = 311.0000773459678,
 				},
 			},
-			["DetailWindowX"] = 760.6027985015809,
-			["LastInstanceName"] = "The Forge of Souls",
-			["CurDataSet"] = "LastFightData",
 			["Colors"] = {
 				["Bar"] = {
 					["Bar Text"] = {
@@ -48,6 +45,9 @@ RecountDB = {
 				},
 			},
 			["DetailWindowY"] = -221.399969677098,
+			["DetailWindowX"] = 760.6027985015809,
+			["LastInstanceName"] = "The Forge of Souls",
+			["CurDataSet"] = "CurrentFightData",
 			["GraphWindowX"] = 0,
 			["MainWindowWidth"] = 251.4197662784027,
 			["MainWindowHeight"] = 310.8518969696999,
@@ -267,8 +267,8 @@ RecountDB = {
 				},
 			},
 			["DetailWindowX"] = 160.9111434339599,
-			["LastInstanceName"] = "Halls of Reflection",
-			["CurDataSet"] = "LastFightData",
+			["LastInstanceName"] = "Azjol-Nerub",
+			["CurDataSet"] = "CurrentFightData",
 			["Colors"] = {
 				["Bar"] = {
 					["Bar Text"] = {
@@ -277,9 +277,9 @@ RecountDB = {
 				},
 			},
 			["DetailWindowY"] = -107.7333573326952,
-			["GraphWindowX"] = 0,
-			["MainWindowWidth"] = 239.733352135265,
 			["MainWindowHeight"] = 319.2665955484968,
+			["MainWindowWidth"] = 239.733352135265,
+			["GraphWindowX"] = 0,
 		},
 		["Ulrezaj - Icecrown"] = {
 			["GraphWindowY"] = 0,
@@ -317,6 +317,9 @@ RecountDB = {
 					["x"] = -625.8891192551043,
 				},
 			},
+			["DetailWindowX"] = 850.0370786038143,
+			["LastInstanceName"] = "Auchindoun: Shadow Labyrinth",
+			["CurDataSet"] = "CurrentFightData",
 			["Colors"] = {
 				["Bar"] = {
 					["Bar Text"] = {
@@ -328,12 +331,9 @@ RecountDB = {
 				},
 			},
 			["DetailWindowY"] = -226.666658095466,
-			["DetailWindowX"] = 850.0370786038143,
-			["LastInstanceName"] = "Auchindoun: Shadow Labyrinth",
-			["CurDataSet"] = "CurrentFightData",
-			["GraphWindowX"] = 0,
-			["MainWindowWidth"] = 260.0000123097031,
 			["MainWindowHeight"] = 328.7999999452902,
+			["MainWindowWidth"] = 260.0000123097031,
+			["GraphWindowX"] = 0,
 		},
 		["Kalaam - Icecrown"] = {
 			["GraphWindowY"] = 0,
@@ -342,7 +342,7 @@ RecountDB = {
 					["y"] = 160.9814520813007,
 					["h"] = 329.0000364503986,
 					["w"] = 253.0000301587726,
-					["x"] = -620.8334793286917,
+					["x"] = -620.833523096525,
 				},
 			},
 			["DetailWindowX"] = 828.2974207547476,
@@ -356,9 +356,9 @@ RecountDB = {
 				},
 			},
 			["DetailWindowY"] = -124.1852219141985,
-			["MainWindowHeight"] = 329.1730069274222,
-			["MainWindowWidth"] = 253.0123901948838,
 			["GraphWindowX"] = 0,
+			["MainWindowWidth"] = 253.0123901948838,
+			["MainWindowHeight"] = 329.1730069274222,
 		},
 		["Lingurita - Lordaeron"] = {
 			["GraphWindowY"] = 0,
@@ -492,7 +492,7 @@ RecountDB = {
 			},
 			["DetailWindowX"] = 112.9876419471188,
 			["LastInstanceName"] = "Vault of Archavon",
-			["DetailWindowY"] = -124.0493402990752,
+			["GraphWindowX"] = 0,
 			["CurDataSet"] = "LastFightData",
 			["Colors"] = {
 				["Bar"] = {
@@ -504,7 +504,7 @@ RecountDB = {
 					},
 				},
 			},
-			["GraphWindowX"] = 0,
+			["DetailWindowY"] = -124.0493402990752,
 			["MainWindowVis"] = false,
 			["MainWindowMode"] = 5,
 			["MainWindowWidth"] = 256.148530518934,
