@@ -12,16 +12,16 @@ TomTomDB = {
 		["Urgash - Icecrown"] = "Default",
 		["Ulrezaj - Icecrown"] = "Default",
 		["Pocaitoru - Icecrown"] = "Default",
-		["Kalaam - Icecrown"] = "Default",
+		["Izanagi - Icecrown"] = "Default",
 		["Lingurita - Lordaeron"] = "Default",
 		["Mirceabravo - Blackrock [PvP only]"] = "Default",
 		["Maciucaru - Icecrown"] = "Default",
-		["Noobschmoq - Icecrown"] = "Default",
-		["Gligor - Icecrown"] = "Default",
-		["Mirceabravo - Icecrown"] = "Default",
-		["Rakhnis - Icecrown"] = "Default",
 		["Praxia - Icecrown"] = "Default",
-		["Izanagi - Icecrown"] = "Default",
+		["Rakhnis - Icecrown"] = "Default",
+		["Mirceabravo - Icecrown"] = "Default",
+		["Gligor - Icecrown"] = "Default",
+		["Noobschmoq - Icecrown"] = "Default",
+		["Kalaam - Icecrown"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {
@@ -41,16 +41,16 @@ TomTomWaypoints = {
 		["Urgash - Icecrown"] = "Urgash - Icecrown",
 		["Ulrezaj - Icecrown"] = "Ulrezaj - Icecrown",
 		["Pocaitoru - Icecrown"] = "Pocaitoru - Icecrown",
-		["Kalaam - Icecrown"] = "Kalaam - Icecrown",
+		["Izanagi - Icecrown"] = "Izanagi - Icecrown",
 		["Lingurita - Lordaeron"] = "Lingurita - Lordaeron",
 		["Mirceabravo - Blackrock [PvP only]"] = "Mirceabravo - Blackrock [PvP only]",
 		["Maciucaru - Icecrown"] = "Maciucaru - Icecrown",
-		["Noobschmoq - Icecrown"] = "Noobschmoq - Icecrown",
-		["Gligor - Icecrown"] = "Gligor - Icecrown",
-		["Mirceabravo - Icecrown"] = "Mirceabravo - Icecrown",
-		["Rakhnis - Icecrown"] = "Rakhnis - Icecrown",
 		["Praxia - Icecrown"] = "Praxia - Icecrown",
-		["Izanagi - Icecrown"] = "Izanagi - Icecrown",
+		["Rakhnis - Icecrown"] = "Rakhnis - Icecrown",
+		["Mirceabravo - Icecrown"] = "Mirceabravo - Icecrown",
+		["Gligor - Icecrown"] = "Gligor - Icecrown",
+		["Noobschmoq - Icecrown"] = "Noobschmoq - Icecrown",
+		["Kalaam - Icecrown"] = "Kalaam - Icecrown",
 	},
 	["profiles"] = {
 		["Rimgar - Icecrown"] = {
@@ -75,7 +75,7 @@ TomTomWaypoints = {
 		},
 		["Pocaitoru - Icecrown"] = {
 		},
-		["Kalaam - Icecrown"] = {
+		["Izanagi - Icecrown"] = {
 		},
 		["Lingurita - Lordaeron"] = {
 		},
@@ -83,17 +83,17 @@ TomTomWaypoints = {
 		},
 		["Maciucaru - Icecrown"] = {
 		},
-		["Noobschmoq - Icecrown"] = {
-		},
-		["Gligor - Icecrown"] = {
-		},
-		["Mirceabravo - Icecrown"] = {
+		["Praxia - Icecrown"] = {
 		},
 		["Rakhnis - Icecrown"] = {
 		},
-		["Praxia - Icecrown"] = {
+		["Mirceabravo - Icecrown"] = {
 		},
-		["Izanagi - Icecrown"] = {
+		["Gligor - Icecrown"] = {
+		},
+		["Noobschmoq - Icecrown"] = {
+		},
+		["Kalaam - Icecrown"] = {
 		},
 	},
 }
