@@ -24,6 +24,10 @@ BrotherBags = {
 			}, -- [10]
 			{
 			}, -- [11]
+			["money"] = 2684246,
+			["race"] = "Human",
+			["guild"] = "Autentic Romanesc",
+			["sex"] = 3,
 			["equip"] = {
 				"51231:3820:3621:3545:0:0:0:0:80", -- [1]
 				"50658:0:3560:0:0:0:0:0:80", -- [2]
@@ -56,14 +60,10 @@ BrotherBags = {
 				[73] = "4500:0:0:0:0:0:0:0:80;16",
 				[68] = "41599:0:0:0:0:0:0:0:80;20",
 			},
-			["race"] = "Human",
-			["guild"] = "Autentic Romanesc",
-			["sex"] = 3,
-			[0] = {
-			},
 			["class"] = "WARLOCK",
 			["faction"] = true,
-			["money"] = 2684246,
+			[0] = {
+			},
 		},
 		["Drext"] = {
 			["race"] = "Human",
@@ -98,12 +98,6 @@ BrotherBags = {
 			{
 			}, -- [1]
 			["race"] = "Human",
-			["money"] = 6070,
-			["faction"] = true,
-			[0] = {
-			},
-			["class"] = "WARLOCK",
-			["sex"] = 2,
 			["equip"] = {
 				[10] = "1304:0:0:0:0:0:0:0:21",
 				[16] = "2494:0:0:0:0:0:0:0:21",
@@ -112,6 +106,12 @@ BrotherBags = {
 				[8] = "80:0:0:0:0:0:0:0:21",
 				[15] = "1766:0:0:0:0:0:0:0:21",
 				[7] = "2238:0:0:0:0:0:0:0:21",
+			},
+			["faction"] = true,
+			["money"] = 6070,
+			["class"] = "WARLOCK",
+			["sex"] = 2,
+			[0] = {
 			},
 		},
 		["Vrael"] = {
@@ -137,10 +137,14 @@ BrotherBags = {
 			}, -- [10]
 			{
 			}, -- [11]
-			["money"] = 92218,
+			[0] = {
+			},
 			["race"] = "Human",
 			["guild"] = "Autentic Romanesc",
 			["sex"] = 2,
+			["money"] = 92218,
+			["class"] = "MAGE",
+			["faction"] = true,
 			["equip"] = {
 				"51281:3820:3621:3545:0:0:0:0:80", -- [1]
 				"50724:0:3520:0:0:0:0:0:80", -- [2]
@@ -173,25 +177,21 @@ BrotherBags = {
 				[73] = "41599:0:0:0:0:0:0:0:80;20",
 				[68] = "41599:0:0:0:0:0:0:0:80;20",
 			},
-			["class"] = "MAGE",
-			["faction"] = true,
-			[0] = {
-			},
 		},
 		["Muiex"] = {
 			["race"] = "Human",
+			["money"] = 2493,
+			["sex"] = 2,
 			["equip"] = {
 				[7] = "44:0:0:0:0:0:0:0:80",
 				[4] = "45:0:0:0:0:0:0:0:80",
 				[16] = "2361:0:0:0:0:0:0:0:80",
 				[8] = "43:0:0:0:0:0:0:0:80",
 			},
-			["sex"] = 2,
-			[0] = {
-			},
 			["class"] = "PALADIN",
 			["faction"] = true,
-			["money"] = 2493,
+			[0] = {
+			},
 		},
 		["Ulrezaj"] = {
 			{
@@ -207,12 +207,6 @@ BrotherBags = {
 			{
 			}, -- [6]
 			["race"] = "Draenei",
-			[0] = {
-			},
-			["sex"] = 2,
-			["money"] = 2231231,
-			["class"] = "PRIEST",
-			["faction"] = true,
 			["equip"] = {
 				"51255:3820:3621:3545:0:0:0:0:80", -- [1]
 				"50609:0:3545:0:0:0:0:0:80", -- [2]
@@ -240,6 +234,12 @@ BrotherBags = {
 				[68] = "856:0:0:0:0:0:0:0:80;8",
 				[69] = "41599:0:0:0:0:0:0:0:80;20",
 			},
+			["sex"] = 2,
+			[0] = {
+			},
+			["class"] = "PRIEST",
+			["faction"] = true,
+			["money"] = 2231231,
 		},
 		["Pocaitoru"] = {
 			{
@@ -262,14 +262,6 @@ BrotherBags = {
 			}, -- [9]
 			{
 			}, -- [10]
-			[0] = {
-			},
-			["race"] = "Human",
-			["guild"] = "Autentic Romanesc",
-			["sex"] = 2,
-			["money"] = 4674503,
-			["class"] = "PALADIN",
-			["faction"] = true,
 			["equip"] = {
 				"51277:3817:3628:3524:0:0:0:0:80", -- [1]
 				"54581:0:3549:0:0:0:0:0:80", -- [2]
@@ -301,6 +293,14 @@ BrotherBags = {
 				[73] = "50316:0:0:0:0:0:0:0:80;22",
 				[68] = "50317:0:0:0:0:0:0:0:80;20",
 			},
+			["race"] = "Human",
+			["guild"] = "Autentic Romanesc",
+			["faction"] = true,
+			["money"] = 4313765,
+			["class"] = "PALADIN",
+			["sex"] = 2,
+			[0] = {
+			},
 		},
 		["Kalaam"] = {
 			{
@@ -317,7 +317,7 @@ BrotherBags = {
 			}, -- [6]
 			{
 			}, -- [7]
-			["faction"] = false,
+			["money"] = 5925234,
 			["race"] = "Orc",
 			["guild"] = "Not Optimal",
 			["sex"] = 2,
@@ -352,7 +352,7 @@ BrotherBags = {
 				[70] = "1725:0:0:0:0:0:0:0:80;12",
 				[68] = "41599:0:0:0:0:0:0:0:80;20",
 			},
-			["money"] = 3246363,
+			["faction"] = false,
 		},
 		["Urgash"] = {
 			{
@@ -413,12 +413,6 @@ BrotherBags = {
 			{
 			}, -- [7]
 			["race"] = "Orc",
-			["money"] = 48829598,
-			["sex"] = 3,
-			[0] = {
-			},
-			["class"] = "ROGUE",
-			["faction"] = false,
 			["equip"] = {
 				"51252:3817:3628:3525:0:0:0:0:80", -- [1]
 				"50633:0:3525:0:0:0:0:0:80", -- [2]
@@ -447,6 +441,12 @@ BrotherBags = {
 				[70] = "1725:0:0:0:0:0:0:0:80;12",
 				[68] = "41599:0:0:0:0:0:0:0:80;20",
 			},
+			["sex"] = 3,
+			["money"] = 48829598,
+			["class"] = "ROGUE",
+			["faction"] = false,
+			[0] = {
+			},
 		},
 		["Maciucaru"] = {
 			{
@@ -460,12 +460,6 @@ BrotherBags = {
 			{
 			}, -- [5]
 			["race"] = "Human",
-			[0] = {
-			},
-			["sex"] = 2,
-			["money"] = 150000000,
-			["class"] = "WARRIOR",
-			["faction"] = true,
 			["equip"] = {
 				nil, -- [1]
 				"54581:0:3550:0:0:0:0:0:80", -- [2]
@@ -483,12 +477,18 @@ BrotherBags = {
 				[16] = "49623:3789:3525:3745:3525:0:0:0:80",
 				[17] = "50730:3789:3518:3518:3518:0:0:0:80",
 				[18] = "50733:3608:3518:0:0:0:0:0:80",
-				[11] = "50618:0:3518:0:0:0:0:0:80",
+				[68] = "50317:0:0:0:0:0:0:0:80;20",
 				[20] = "41599:0:0:0:0:0:0:0:80;20",
 				[21] = "41599:0:0:0:0:0:0:0:80;20",
+				[11] = "50618:0:3518:0:0:0:0:0:80",
 				[22] = "41599:0:0:0:0:0:0:0:80;20",
-				[68] = "50317:0:0:0:0:0:0:0:80;20",
 			},
+			["sex"] = 2,
+			[0] = {
+			},
+			["class"] = "WARRIOR",
+			["faction"] = true,
+			["money"] = 150000000,
 		},
 		["Rimgar"] = {
 			{
@@ -634,9 +634,12 @@ BrotherBags = {
 			{
 			}, -- [10]
 			["race"] = "Human",
+			["money"] = 3412362,
+			["faction"] = true,
 			[0] = {
 			},
-			["faction"] = true,
+			["class"] = "PRIEST",
+			["sex"] = 2,
 			["equip"] = {
 				"51255:3820:3621:3545:0:0:0:0:80", -- [1]
 				"50658:0:3559:0:0:0:0:0:80", -- [2]
@@ -668,9 +671,6 @@ BrotherBags = {
 				[73] = "41599:0:0:0:0:0:0:0:80;20",
 				[68] = "856:0:0:0:0:0:0:0:80;8",
 			},
-			["class"] = "PRIEST",
-			["sex"] = 2,
-			["money"] = 3412362,
 		},
 		["Demonic Empire*"] = {
 			{
@@ -779,29 +779,29 @@ BrotherBags = {
 				["deposit"] = 1,
 			}, -- [1]
 			{
+				["icon"] = "Interface\\Icons\\INV_Elemental_Eternal_Shadow",
 				["name"] = "Mats",
 				["withdraw"] = 0,
-				["icon"] = "Interface\\Icons\\INV_Elemental_Eternal_Shadow",
 			}, -- [2]
 			{
+				["icon"] = "Interface\\Icons\\INV_Bracer_45",
 				["name"] = "Boe",
 				["withdraw"] = 0,
-				["icon"] = "Interface\\Icons\\INV_Bracer_45",
 			}, -- [3]
 			{
+				["icon"] = "Interface\\Icons\\INV_Alchemy_EndlessFlask_04",
 				["name"] = "Raid Stuff",
 				["withdraw"] = 0,
-				["icon"] = "Interface\\Icons\\INV_Alchemy_EndlessFlask_04",
 			}, -- [4]
 			{
+				["icon"] = "Interface\\Icons\\INV_Misc_FrostEmblem_01",
 				["name"] = "Officer  Tab 1",
 				["withdraw"] = 0,
-				["icon"] = "Interface\\Icons\\INV_Misc_FrostEmblem_01",
 			}, -- [5]
 			{
+				["icon"] = "Interface\\Icons\\INV_Misc_FrostEmblem_01",
 				["name"] = "Officer Tab 2",
 				["withdraw"] = 0,
-				["icon"] = "Interface\\Icons\\INV_Misc_FrostEmblem_01",
 			}, -- [6]
 		},
 		["Mirceabravo"] = {
@@ -816,6 +816,8 @@ BrotherBags = {
 			{
 			}, -- [5]
 			["race"] = "Human",
+			["money"] = 924009,
+			["sex"] = 2,
 			["equip"] = {
 				[23] = "41599:0:0:0:0:0:0:0:80;20",
 				[20] = "41599:0:0:0:0:0:0:0:80;20",
@@ -823,12 +825,10 @@ BrotherBags = {
 				[68] = "50317:0:0:0:0:0:0:0:80;20",
 				[22] = "41599:0:0:0:0:0:0:0:80;20",
 			},
-			["sex"] = 2,
-			[0] = {
-			},
 			["class"] = "PALADIN",
 			["faction"] = true,
-			["money"] = 924009,
+			[0] = {
+			},
 		},
 		["Praxia"] = {
 			{
@@ -853,6 +853,10 @@ BrotherBags = {
 			}, -- [10]
 			{
 			}, -- [11]
+			["money"] = 9533250,
+			["race"] = "BloodElf",
+			["guild"] = "Not Optimal",
+			["sex"] = 3,
 			["equip"] = {
 				"51286:3817:3628:3525:0:0:0:0:80", -- [1]
 				"51822:0:3525:0:0:0:0:0:80", -- [2]
@@ -885,14 +889,10 @@ BrotherBags = {
 				[73] = "51809:0:0:0:0:0:0:0:80;24",
 				[68] = "856:0:0:0:0:0:0:0:80;8",
 			},
-			["race"] = "BloodElf",
-			["guild"] = "Not Optimal",
-			["sex"] = 3,
-			[0] = {
-			},
 			["class"] = "HUNTER",
 			["faction"] = false,
-			["money"] = 9533250,
+			[0] = {
+			},
 		},
 		["R A G E*"] = {
 			{
@@ -1097,8 +1097,8 @@ BrotherBags = {
 				[94] = "41786:0:0:0:0:0:0:0:80",
 				[65] = "44315:0:0:0:0:0:0:0:80",
 				[17] = "37587:0:0:0:0:0:0:0:80",
+				["withdraw"] = 1,
 				[36] = "24078:0:0:0:0:0:0:0:80",
-				[18] = "37646:0:0:0:0:0:0:0:80",
 				[37] = "24078:0:0:0:0:0:0:0:80",
 				[19] = "40865:0:0:0:0:0:0:0:80",
 				[20] = "40865:0:0:0:0:0:0:0:80",
@@ -1118,7 +1118,7 @@ BrotherBags = {
 				[97] = "14470:0:0:0:0:0:0:0:80",
 				["icon"] = "Interface\\Icons\\INV_Belt_33",
 				[38] = "24078:0:0:0:0:0:0:0:80",
-				["withdraw"] = 1,
+				[18] = "37646:0:0:0:0:0:0:0:80",
 				["deposit"] = 1,
 			}, -- [2]
 			{
@@ -1268,9 +1268,9 @@ BrotherBags = {
 			}, -- [4]
 			{
 				["view"] = 1,
+				["withdraw"] = 0,
 				["name"] = "Epic",
 				["icon"] = "Interface\\Icons\\INV_Axe_113",
-				["withdraw"] = 0,
 			}, -- [5]
 		},
 		["Gligor"] = {
@@ -1345,12 +1345,6 @@ BrotherBags = {
 	["Lordaeron"] = {
 		["Lingurita"] = {
 			["race"] = "Gnome",
-			[0] = {
-			},
-			["sex"] = 2,
-			["money"] = 10,
-			["class"] = "ROGUE",
-			["faction"] = true,
 			["equip"] = {
 				[10] = "6171:0:0:0:0:0:0:0:3",
 				[16] = "2092:0:0:0:0:0:0:0:3",
@@ -1360,19 +1354,25 @@ BrotherBags = {
 				[4] = "49:0:0:0:0:0:0:0:3",
 				[8] = "47:0:0:0:0:0:0:0:3",
 			},
+			["sex"] = 2,
+			[0] = {
+			},
+			["class"] = "ROGUE",
+			["faction"] = true,
+			["money"] = 10,
 		},
 	},
 	["Blackrock [PvP only]"] = {
 		["Mirceabravo"] = {
 			["race"] = "Human",
-			[0] = {
-			},
-			["sex"] = 2,
-			["money"] = 200000000,
-			["class"] = "DEATHKNIGHT",
-			["faction"] = true,
 			["equip"] = {
 			},
+			["sex"] = 2,
+			[0] = {
+			},
+			["class"] = "DEATHKNIGHT",
+			["faction"] = true,
+			["money"] = 200000000,
 		},
 	},
 }

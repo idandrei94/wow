@@ -8,9 +8,9 @@ BagnonFrameSettings = {
 			["x"] = -195.4373111614609,
 		},
 		["bank"] = {
+			["point"] = "TOPLEFT",
 			["y"] = -111.1109122714131,
 			["x"] = 177.3035100229364,
-			["point"] = "TOPLEFT",
 		},
 	},
 	["version"] = "2.13.3",

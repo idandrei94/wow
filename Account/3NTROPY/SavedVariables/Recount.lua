@@ -567,14 +567,14 @@ RecountDB = {
 			["GraphWindowY"] = 0,
 			["MainWindow"] = {
 				["Position"] = {
-					["y"] = 160.9814520813007,
-					["h"] = 329.0000364503986,
-					["w"] = 253.0000301587726,
-					["x"] = -620.833523096525,
+					["y"] = 162.9444218956518,
+					["h"] = 329.000001436132,
+					["w"] = 252.999995144506,
+					["x"] = -633.4629852356736,
 				},
 			},
 			["DetailWindowX"] = 828.2974207547476,
-			["LastInstanceName"] = "Trial of the Champion",
+			["LastInstanceName"] = "The Ruby Sanctum",
 			["CurDataSet"] = "LastFightData",
 			["Colors"] = {
 				["Bar"] = {
@@ -584,9 +584,9 @@ RecountDB = {
 				},
 			},
 			["DetailWindowY"] = -124.1852219141985,
-			["MainWindowHeight"] = 329.1730069274222,
-			["MainWindowWidth"] = 253.0123901948838,
 			["GraphWindowX"] = 0,
+			["MainWindowWidth"] = 253.0123901948838,
+			["MainWindowHeight"] = 329.1730069274222,
 		},
 	},
 }
