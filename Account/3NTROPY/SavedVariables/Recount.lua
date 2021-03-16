@@ -440,6 +440,9 @@ RecountDB = {
 					["h"] = 316.0000095742136,
 				},
 			},
+			["DetailWindowX"] = 0,
+			["LastInstanceName"] = "The Forge of Souls",
+			["CurDataSet"] = "LastFightData",
 			["Colors"] = {
 				["Bar"] = {
 					["Bar Text"] = {
@@ -451,9 +454,6 @@ RecountDB = {
 				},
 			},
 			["DetailWindowY"] = 3.55558224177611,
-			["DetailWindowX"] = 0,
-			["LastInstanceName"] = "The Forge of Souls",
-			["CurDataSet"] = "LastFightData",
 			["GraphWindowX"] = 0,
 			["MainWindowWidth"] = 252.1110164010799,
 			["MainWindowHeight"] = 316.0864052571401,
@@ -567,15 +567,12 @@ RecountDB = {
 			["GraphWindowY"] = 0,
 			["MainWindow"] = {
 				["Position"] = {
-					["y"] = 162.9444218956518,
+					["y"] = 162.9444569099185,
 					["h"] = 329.000001436132,
 					["w"] = 252.999995144506,
-					["x"] = -633.4629852356736,
+					["x"] = -633.4630771481236,
 				},
 			},
-			["DetailWindowX"] = 828.2974207547476,
-			["LastInstanceName"] = "The Ruby Sanctum",
-			["CurDataSet"] = "LastFightData",
 			["Colors"] = {
 				["Bar"] = {
 					["Bar Text"] = {
@@ -584,6 +581,9 @@ RecountDB = {
 				},
 			},
 			["DetailWindowY"] = -124.1852219141985,
+			["DetailWindowX"] = 828.2974207547476,
+			["LastInstanceName"] = "Icecrown Citadel",
+			["CurDataSet"] = "LastFightData",
 			["GraphWindowX"] = 0,
 			["MainWindowWidth"] = 253.0123901948838,
 			["MainWindowHeight"] = 329.1730069274222,
