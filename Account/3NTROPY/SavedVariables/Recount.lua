@@ -29,14 +29,11 @@ RecountDB = {
 			["MainWindow"] = {
 				["Position"] = {
 					["y"] = 157.1666127205326,
-					["x"] = -634.0185303431789,
+					["x"] = -634.0186353859787,
 					["w"] = 251.0000152503544,
 					["h"] = 311.0000073174346,
 				},
 			},
-			["DetailWindowX"] = -105.0000036245237,
-			["LastInstanceName"] = "Icecrown Citadel",
-			["CurDataSet"] = "LastFightData",
 			["Colors"] = {
 				["Bar"] = {
 					["Bar Text"] = {
@@ -48,22 +45,25 @@ RecountDB = {
 				},
 			},
 			["DetailWindowY"] = -10.00000013677448,
-			["MainWindowHeight"] = 310.8518969696999,
-			["MainWindowWidth"] = 251.4197662784027,
+			["DetailWindowX"] = -105.0000036245237,
+			["LastInstanceName"] = "Halls of Reflection",
+			["CurDataSet"] = "Fight2",
 			["GraphWindowX"] = 0,
+			["MainWindowWidth"] = 251.4197662784027,
+			["MainWindowHeight"] = 310.8518969696999,
 		},
 		["Vrael - Icecrown"] = {
 			["GraphWindowY"] = 0,
 			["MainWindow"] = {
 				["Position"] = {
 					["y"] = 157.1666827490658,
-					["x"] = -631.0186611679679,
+					["x"] = -631.0187093125845,
 					["w"] = 245.0000580607663,
 					["h"] = 323.0000267394107,
 				},
 			},
 			["DetailWindowX"] = 317.267070839811,
-			["LastInstanceName"] = "The Ruby Sanctum",
+			["LastInstanceName"] = "Halls of Stone",
 			["CurDataSet"] = "LastFightData",
 			["Colors"] = {
 				["Bar"] = {
@@ -76,10 +76,10 @@ RecountDB = {
 				},
 			},
 			["DetailWindowY"] = -59.9999876902969,
-			["GraphWindowX"] = 0,
-			["ReportLines"] = 1,
-			["MainWindowWidth"] = 244.5308668882732,
 			["MainWindowHeight"] = 323.4446028824811,
+			["MainWindowWidth"] = 244.5308668882732,
+			["ReportLines"] = 1,
+			["GraphWindowX"] = 0,
 		},
 		["Nalar - Icecrown"] = {
 			["GraphWindowY"] = 0,
@@ -267,8 +267,8 @@ RecountDB = {
 				},
 			},
 			["DetailWindowX"] = 160.9111434339599,
-			["LastInstanceName"] = "Pit of Saron",
-			["CurDataSet"] = "Fight1",
+			["LastInstanceName"] = "Trial of the Crusader",
+			["CurDataSet"] = "LastFightData",
 			["Colors"] = {
 				["Bar"] = {
 					["Bar Text"] = {
@@ -277,9 +277,9 @@ RecountDB = {
 				},
 			},
 			["DetailWindowY"] = -107.7333573326952,
-			["MainWindowHeight"] = 319.2665955484968,
-			["MainWindowWidth"] = 239.733352135265,
 			["GraphWindowX"] = 0,
+			["MainWindowWidth"] = 239.733352135265,
+			["MainWindowHeight"] = 319.2665955484968,
 		},
 		["Ulrezaj - Icecrown"] = {
 			["GraphWindowY"] = 0,
@@ -318,8 +318,8 @@ RecountDB = {
 				},
 			},
 			["DetailWindowX"] = 656.2592335937816,
-			["LastInstanceName"] = "Icecrown Citadel",
-			["CurDataSet"] = "LastFightData",
+			["LastInstanceName"] = "Drak'Tharon Keep",
+			["CurDataSet"] = "CurrentFightData",
 			["Colors"] = {
 				["Bar"] = {
 					["Bar Text"] = {
@@ -573,6 +573,9 @@ RecountDB = {
 					["x"] = -633.4630771481236,
 				},
 			},
+			["DetailWindowX"] = 828.2974207547476,
+			["LastInstanceName"] = "Icecrown Citadel",
+			["CurDataSet"] = "LastFightData",
 			["Colors"] = {
 				["Bar"] = {
 					["Bar Text"] = {
@@ -581,9 +584,6 @@ RecountDB = {
 				},
 			},
 			["DetailWindowY"] = -124.1852219141985,
-			["DetailWindowX"] = 828.2974207547476,
-			["LastInstanceName"] = "Icecrown Citadel",
-			["CurDataSet"] = "LastFightData",
 			["GraphWindowX"] = 0,
 			["MainWindowWidth"] = 253.0123901948838,
 			["MainWindowHeight"] = 329.1730069274222,
