@@ -33,7 +33,7 @@ XPerl_TargetTarget: disabled
 XPerl_Tutorial: disabled
 OmniCC_Shine: disabled
 Gladius: enabled
-GearScoreLite: enabled
+GearScoreLite: disabled
 MageNuggets: enabled
 PowerAuras: enabled
 Quartz: enabled
@@ -41,3 +41,4 @@ SimpleUnitFrames: enabled
 SoundAlerter: enabled
 LibStub: enabled
 WowLua: enabled
+GearScore: disabled

@@ -32,7 +32,7 @@ XPerl_Target: disabled
 XPerl_TargetTarget: disabled
 XPerl_Tutorial: disabled
 OmniCC_Shine: disabled
-GearScoreLite: enabled
+GearScoreLite: disabled
 MageNuggets: enabled
 NoDuel: enabled
 PowerAuras: enabled
@@ -43,3 +43,4 @@ SoundAlerter: enabled
 TomTom: enabled
 WowLua: enabled
 XPerl_TeamSpeak: disabled
+GearScore: disabled

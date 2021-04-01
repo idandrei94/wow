@@ -24,7 +24,7 @@ MACRO 16777224 "mount" INV_Misc_QuestionMark
 /cancelaura agility of the vrykul
 /cancelaura speed of the vrykul
 /cancelaura aim of the iron dwarves
-/userandom [flyable] Bloodbathed Frostbrood Vanquisher; Frostwolf Howler
+/userandom [flyable] Bloodbathed Frostbrood Vanquisher; Swift Mistsaber
 END
 MACRO 16777222 "sap" INV_Misc_QuestionMark
 #showtooltip
@@ -46,6 +46,6 @@ MACRO 16777218 "tot" INV_Misc_QuestionMark
 END
 MACRO 16777227 "wep" INV_Misc_QuestionMark
 #showtooltip 17
-/equipslot 17 Warglaive of Azzinoth
+/equipslot 17 Lungbreaker
 /equipslot 17 Scourgeborne Waraxe
 END

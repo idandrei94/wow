@@ -117,13 +117,13 @@ RecountPerCharDB = {
 				[23] = 4.305787423483584,
 				[17] = 4.427518085698386,
 				[11] = 4.53881469115192,
+				[5] = 4.653589315525877,
 				[41] = 3.964941569282137,
 				[29] = 4.191012799109627,
-				[5] = 4.653589315525877,
 			},
 			["type"] = "Ungrouped",
 			["Owner"] = false,
-			["LastAbility"] = 82.212,
+			["LastActive"] = 1614890127,
 			["NextEventNum"] = 1,
 			["LastEventHealthNum"] = {
 				100, -- [1]
@@ -230,6 +230,60 @@ RecountPerCharDB = {
 				"Budey Echoes of Light Babydoodle Crit +14953 (14953 overheal)", -- [50]
 			},
 			["Name"] = "Budey",
+			["LastEventTimes"] = {
+				48829.972, -- [1]
+				48829.972, -- [2]
+				48829.973, -- [3]
+				48829.974, -- [4]
+				48829.974, -- [5]
+				48829.974, -- [6]
+				48829.975, -- [7]
+				48831.007, -- [8]
+				48831.008, -- [9]
+				48831.008, -- [10]
+				48831.008, -- [11]
+				48831.009, -- [12]
+				48831.036, -- [13]
+				48832.066, -- [14]
+				48832.067, -- [15]
+				48832.067, -- [16]
+				48832.067, -- [17]
+				48832.067, -- [18]
+				48832.068, -- [19]
+				48832.905, -- [20]
+				48832.905, -- [21]
+				48832.906, -- [22]
+				48832.906, -- [23]
+				48832.906, -- [24]
+				48832.907, -- [25]
+				48833.984, -- [26]
+				48833.984, -- [27]
+				48833.984, -- [28]
+				48833.985, -- [29]
+				48833.985, -- [30]
+				48833.985, -- [31]
+				48834.905, -- [32]
+				48834.906, -- [33]
+				48834.907, -- [34]
+				48834.907, -- [35]
+				48834.907, -- [36]
+				48834.908, -- [37]
+				48835.964, -- [38]
+				48835.965, -- [39]
+				48835.966, -- [40]
+				48835.966, -- [41]
+				48835.967, -- [42]
+				48835.967, -- [43]
+				48864.257, -- [44]
+				48867.384, -- [45]
+				48870.215, -- [46]
+				48873.30800000001, -- [47]
+				48876.202, -- [48]
+				48879.306, -- [49]
+				48879.307, -- [50]
+			},
+			["Fights"] = {
+			},
 			["LastEventIncoming"] = {
 				false, -- [1]
 				false, -- [2]
@@ -283,61 +337,7 @@ RecountPerCharDB = {
 				false, -- [50]
 			},
 			["UnitLockout"] = 1614890078,
-			["Fights"] = {
-			},
-			["LastEventTimes"] = {
-				48829.972, -- [1]
-				48829.972, -- [2]
-				48829.973, -- [3]
-				48829.974, -- [4]
-				48829.974, -- [5]
-				48829.974, -- [6]
-				48829.975, -- [7]
-				48831.007, -- [8]
-				48831.008, -- [9]
-				48831.008, -- [10]
-				48831.008, -- [11]
-				48831.009, -- [12]
-				48831.036, -- [13]
-				48832.066, -- [14]
-				48832.067, -- [15]
-				48832.067, -- [16]
-				48832.067, -- [17]
-				48832.067, -- [18]
-				48832.068, -- [19]
-				48832.905, -- [20]
-				48832.905, -- [21]
-				48832.906, -- [22]
-				48832.906, -- [23]
-				48832.906, -- [24]
-				48832.907, -- [25]
-				48833.984, -- [26]
-				48833.984, -- [27]
-				48833.984, -- [28]
-				48833.985, -- [29]
-				48833.985, -- [30]
-				48833.985, -- [31]
-				48834.905, -- [32]
-				48834.906, -- [33]
-				48834.907, -- [34]
-				48834.907, -- [35]
-				48834.907, -- [36]
-				48834.908, -- [37]
-				48835.964, -- [38]
-				48835.965, -- [39]
-				48835.966, -- [40]
-				48835.966, -- [41]
-				48835.967, -- [42]
-				48835.967, -- [43]
-				48864.257, -- [44]
-				48867.384, -- [45]
-				48870.215, -- [46]
-				48873.30800000001, -- [47]
-				48876.202, -- [48]
-				48879.306, -- [49]
-				48879.307, -- [50]
-			},
-			["LastActive"] = 1614890127,
+			["LastAbility"] = 1184.572,
 		},
 		["Camping"] = {
 			["GUID"] = "0x070000000046D47D",
@@ -374,7 +374,7 @@ RecountPerCharDB = {
 			},
 			["type"] = "Ungrouped",
 			["Owner"] = false,
-			["LastAbility"] = 82.212,
+			["LastActive"] = 1614890084,
 			["NextEventNum"] = 8,
 			["LastEventHealthNum"] = {
 				100, -- [1]
@@ -395,6 +395,17 @@ RecountPerCharDB = {
 				"Budey Wild Growth Camping Tick +1140 (1140 overheal)", -- [7]
 			},
 			["Name"] = "Camping",
+			["LastEventTimes"] = {
+				48829.974, -- [1]
+				48831.009, -- [2]
+				48832.067, -- [3]
+				48832.906, -- [4]
+				48833.985, -- [5]
+				48834.907, -- [6]
+				48835.967, -- [7]
+			},
+			["Fights"] = {
+			},
 			["LastEventIncoming"] = {
 				true, -- [1]
 				true, -- [2]
@@ -405,18 +416,7 @@ RecountPerCharDB = {
 				true, -- [7]
 			},
 			["UnitLockout"] = 1614890078,
-			["Fights"] = {
-			},
-			["LastEventTimes"] = {
-				48829.974, -- [1]
-				48831.009, -- [2]
-				48832.067, -- [3]
-				48832.906, -- [4]
-				48833.985, -- [5]
-				48834.907, -- [6]
-				48835.967, -- [7]
-			},
-			["LastActive"] = 1614890084,
+			["LastAbility"] = 1184.572,
 		},
 		["Babydoodle"] = {
 			["GUID"] = "0x070000000039B8EB",
@@ -456,7 +456,7 @@ RecountPerCharDB = {
 			},
 			["type"] = "Ungrouped",
 			["Owner"] = false,
-			["LastAbility"] = 82.212,
+			["LastActive"] = 1614890127,
 			["NextEventNum"] = 9,
 			["LastEventHealthNum"] = {
 				100, -- [1]
@@ -479,6 +479,18 @@ RecountPerCharDB = {
 				"Budey Echoes of Light Babydoodle Crit +14953 (14953 overheal)", -- [8]
 			},
 			["Name"] = "Babydoodle",
+			["LastEventTimes"] = {
+				48829.975, -- [1]
+				48831.036, -- [2]
+				48832.068, -- [3]
+				48832.907, -- [4]
+				48833.985, -- [5]
+				48834.908, -- [6]
+				48835.967, -- [7]
+				48879.307, -- [8]
+			},
+			["Fights"] = {
+			},
 			["LastEventIncoming"] = {
 				true, -- [1]
 				true, -- [2]
@@ -490,153 +502,44 @@ RecountPerCharDB = {
 				true, -- [8]
 			},
 			["UnitLockout"] = 1614890078,
-			["Fights"] = {
-			},
-			["LastEventTimes"] = {
-				48829.975, -- [1]
-				48831.036, -- [2]
-				48832.068, -- [3]
-				48832.907, -- [4]
-				48833.985, -- [5]
-				48834.908, -- [6]
-				48835.967, -- [7]
-				48879.307, -- [8]
-			},
-			["LastActive"] = 1614890127,
+			["LastAbility"] = 1184.572,
 		},
-		["Nalar"] = {
-			["GUID"] = "0x070000000027C8A1",
+		["Soulsdie"] = {
+			["GUID"] = "0x0700000000017EB0",
 			["LastEventHealth"] = {
-				"29145 (100%)", -- [1]
-				"29145 (100%)", -- [2]
-				"29145 (100%)", -- [3]
-				"29145 (100%)", -- [4]
-				"29145 (100%)", -- [5]
-				"29145 (100%)", -- [6]
-				"29145 (100%)", -- [7]
+				"31822 (100%)", -- [1]
 			},
 			["LastEventType"] = {
 				"HEAL", -- [1]
-				"HEAL", -- [2]
-				"HEAL", -- [3]
-				"HEAL", -- [4]
-				"HEAL", -- [5]
-				"HEAL", -- [6]
-				"HEAL", -- [7]
 			},
-			["TimeWindows"] = {
-				["ManaGain"] = {
-					277, -- [1]
-				},
-			},
-			["enClass"] = "PRIEST",
-			["unit"] = "Nalar",
+			["enClass"] = "WARLOCK",
+			["unit"] = "Soulsdie",
 			["level"] = 80,
 			["LastFightIn"] = 0,
 			["LastEventNum"] = {
-				4.590838908903757, -- [1]
-				4.477611940298507, -- [2]
-				4.367816091954023, -- [3]
-				4.247726882827243, -- [4]
-				4.134499914221993, -- [5]
-				4.024704065877509, -- [6]
-				3.911477097272259, -- [7]
+				31.3745207717931, -- [1]
 			},
-			["type"] = "Self",
-			["LastAbility"] = 82.212,
+			["type"] = "Ungrouped",
 			["Owner"] = false,
-			["TimeLast"] = {
-				["ManaGain"] = 1614890083,
-				["OVERALL"] = 1614890083,
-			},
-			["NextEventNum"] = 8,
+			["LastActive"] = 1614890078,
+			["NextEventNum"] = 2,
 			["LastEventHealthNum"] = {
 				100, -- [1]
-				100, -- [2]
-				100, -- [3]
-				100, -- [4]
-				100, -- [5]
-				100, -- [6]
-				100, -- [7]
 			},
 			["LastEvents"] = {
-				"Budey Wild Growth Nalar Tick +1338 (1338 overheal)", -- [1]
-				"Budey Wild Growth Nalar Tick +1305 (1305 overheal)", -- [2]
-				"Budey Wild Growth Nalar Tick +1273 (1273 overheal)", -- [3]
-				"Budey Wild Growth Nalar Tick +1238 (1238 overheal)", -- [4]
-				"Budey Wild Growth Nalar Tick +1205 (1205 overheal)", -- [5]
-				"Budey Wild Growth Nalar Tick +1173 (1173 overheal)", -- [6]
-				"Budey Wild Growth Nalar Tick +1140 (1140 overheal)", -- [7]
+				"Budey Echoes of Light Soulsdie Hit +9984 (8343 overheal)", -- [1]
 			},
-			["Name"] = "Nalar",
-			["UnitLockout"] = 1614890078,
+			["Name"] = "Soulsdie",
+			["LastEventTimes"] = {
+				48829.972, -- [1]
+			},
 			["Fights"] = {
-				["CurrentFightData"] = {
-					["ManaGain"] = 277,
-					["ManaGainedFrom"] = {
-						["Budey"] = {
-							["Details"] = {
-								["Revitalize"] = {
-									["count"] = 277,
-								},
-							},
-							["amount"] = 277,
-						},
-					},
-					["ManaGained"] = {
-						["Revitalize"] = {
-							["Details"] = {
-								["Budey"] = {
-									["count"] = 277,
-								},
-							},
-							["amount"] = 277,
-						},
-					},
-				},
-				["OverallData"] = {
-					["ManaGain"] = 277,
-					["ManaGainedFrom"] = {
-						["Budey"] = {
-							["Details"] = {
-								["Revitalize"] = {
-									["count"] = 277,
-								},
-							},
-							["amount"] = 277,
-						},
-					},
-					["ManaGained"] = {
-						["Revitalize"] = {
-							["Details"] = {
-								["Budey"] = {
-									["count"] = 277,
-								},
-							},
-							["amount"] = 277,
-						},
-					},
-				},
 			},
 			["LastEventIncoming"] = {
 				true, -- [1]
-				true, -- [2]
-				true, -- [3]
-				true, -- [4]
-				true, -- [5]
-				true, -- [6]
-				true, -- [7]
 			},
-			["LastEventTimes"] = {
-				48829.972, -- [1]
-				48831.007, -- [2]
-				48832.066, -- [3]
-				48832.905, -- [4]
-				48833.984, -- [5]
-				48834.905, -- [6]
-				48835.964, -- [7]
-			},
-			["LastActive"] = 1614890084,
+			["UnitLockout"] = 1614890078,
+			["LastAbility"] = 1184.572,
 		},
 		["Othemissas"] = {
 			["type"] = "Ungrouped",
@@ -644,12 +547,12 @@ RecountPerCharDB = {
 			["enClass"] = "WARRIOR",
 			["unit"] = "Othemissas",
 			["Name"] = "Othemissas",
-			["LastAbility"] = 82.212,
-			["UnitLockout"] = 1614890101,
-			["level"] = 80,
+			["LastFightIn"] = 0,
 			["Fights"] = {
 			},
-			["LastFightIn"] = 0,
+			["level"] = 80,
+			["UnitLockout"] = 1614890101,
+			["LastAbility"] = 1184.572,
 		},
 		["Zildi"] = {
 			["GUID"] = "0x07000000001F93B0",
@@ -690,11 +593,16 @@ RecountPerCharDB = {
 				3.654783277763529, -- [7]
 			},
 			["type"] = "Ungrouped",
-			["LastAbility"] = 82.212,
+			["LastActive"] = 1614890084,
 			["Owner"] = false,
-			["TimeLast"] = {
-				["ManaGain"] = 1614890081,
-				["OVERALL"] = 1614890081,
+			["LastEventTimes"] = {
+				48829.973, -- [1]
+				48831.008, -- [2]
+				48832.067, -- [3]
+				48832.905, -- [4]
+				48833.984, -- [5]
+				48834.906, -- [6]
+				48835.965, -- [7]
 			},
 			["NextEventNum"] = 8,
 			["LastEventHealthNum"] = {
@@ -716,7 +624,15 @@ RecountPerCharDB = {
 				"Budey Wild Growth Zildi Tick +1140 (1140 overheal)", -- [7]
 			},
 			["Name"] = "Zildi",
-			["UnitLockout"] = 1614890078,
+			["LastEventIncoming"] = {
+				true, -- [1]
+				true, -- [2]
+				true, -- [3]
+				true, -- [4]
+				true, -- [5]
+				true, -- [6]
+				true, -- [7]
+			},
 			["Fights"] = {
 				["CurrentFightData"] = {
 					["ManaGain"] = 159,
@@ -765,25 +681,12 @@ RecountPerCharDB = {
 					},
 				},
 			},
-			["LastEventIncoming"] = {
-				true, -- [1]
-				true, -- [2]
-				true, -- [3]
-				true, -- [4]
-				true, -- [5]
-				true, -- [6]
-				true, -- [7]
+			["TimeLast"] = {
+				["OVERALL"] = 1614890081,
+				["ManaGain"] = 1614890081,
 			},
-			["LastEventTimes"] = {
-				48829.973, -- [1]
-				48831.008, -- [2]
-				48832.067, -- [3]
-				48832.905, -- [4]
-				48833.984, -- [5]
-				48834.906, -- [6]
-				48835.965, -- [7]
-			},
-			["LastActive"] = 1614890084,
+			["UnitLockout"] = 1614890078,
+			["LastAbility"] = 1184.572,
 		},
 		["Bulgarka"] = {
 			["GUID"] = "0x07000000002B3FDE",
@@ -838,7 +741,7 @@ RecountPerCharDB = {
 			},
 			["type"] = "Ungrouped",
 			["Owner"] = false,
-			["LastAbility"] = 82.212,
+			["LastActive"] = 1614890127,
 			["NextEventNum"] = 14,
 			["LastEventHealthNum"] = {
 				100, -- [1]
@@ -871,6 +774,23 @@ RecountPerCharDB = {
 				"Budey Rejuvenation Bulgarka Tick +3991 (3991 overheal)", -- [13]
 			},
 			["Name"] = "Bulgarka",
+			["LastEventTimes"] = {
+				48829.974, -- [1]
+				48831.008, -- [2]
+				48832.067, -- [3]
+				48832.906, -- [4]
+				48833.984, -- [5]
+				48834.907, -- [6]
+				48835.966, -- [7]
+				48864.258, -- [8]
+				48867.384, -- [9]
+				48870.215, -- [10]
+				48873.30800000001, -- [11]
+				48876.202, -- [12]
+				48879.306, -- [13]
+			},
+			["Fights"] = {
+			},
 			["LastEventIncoming"] = {
 				true, -- [1]
 				true, -- [2]
@@ -887,61 +807,141 @@ RecountPerCharDB = {
 				true, -- [13]
 			},
 			["UnitLockout"] = 1614890078,
-			["Fights"] = {
-			},
-			["LastEventTimes"] = {
-				48829.974, -- [1]
-				48831.008, -- [2]
-				48832.067, -- [3]
-				48832.906, -- [4]
-				48833.984, -- [5]
-				48834.907, -- [6]
-				48835.966, -- [7]
-				48864.258, -- [8]
-				48867.384, -- [9]
-				48870.215, -- [10]
-				48873.30800000001, -- [11]
-				48876.202, -- [12]
-				48879.306, -- [13]
-			},
-			["LastActive"] = 1614890127,
+			["LastAbility"] = 1184.572,
 		},
-		["Soulsdie"] = {
-			["GUID"] = "0x0700000000017EB0",
+		["Nalar"] = {
+			["GUID"] = "0x070000000027C8A1",
 			["LastEventHealth"] = {
-				"31822 (100%)", -- [1]
+				"29145 (100%)", -- [1]
+				"29145 (100%)", -- [2]
+				"29145 (100%)", -- [3]
+				"29145 (100%)", -- [4]
+				"29145 (100%)", -- [5]
+				"29145 (100%)", -- [6]
+				"29145 (100%)", -- [7]
 			},
 			["LastEventType"] = {
 				"HEAL", -- [1]
+				"HEAL", -- [2]
+				"HEAL", -- [3]
+				"HEAL", -- [4]
+				"HEAL", -- [5]
+				"HEAL", -- [6]
+				"HEAL", -- [7]
 			},
-			["enClass"] = "WARLOCK",
-			["unit"] = "Soulsdie",
+			["TimeWindows"] = {
+				["ManaGain"] = {
+					277, -- [1]
+				},
+			},
+			["enClass"] = "PRIEST",
+			["unit"] = "Nalar",
 			["level"] = 80,
 			["LastFightIn"] = 0,
 			["LastEventNum"] = {
-				31.3745207717931, -- [1]
+				4.590838908903757, -- [1]
+				4.477611940298507, -- [2]
+				4.367816091954023, -- [3]
+				4.247726882827243, -- [4]
+				4.134499914221993, -- [5]
+				4.024704065877509, -- [6]
+				3.911477097272259, -- [7]
 			},
-			["type"] = "Ungrouped",
+			["type"] = "Self",
+			["LastActive"] = 1614890084,
 			["Owner"] = false,
-			["LastAbility"] = 82.212,
-			["NextEventNum"] = 2,
-			["LastEventHealthNum"] = {
-				100, -- [1]
-			},
-			["LastEvents"] = {
-				"Budey Echoes of Light Soulsdie Hit +9984 (8343 overheal)", -- [1]
-			},
-			["Name"] = "Soulsdie",
-			["LastEventIncoming"] = {
-				true, -- [1]
-			},
-			["UnitLockout"] = 1614890078,
-			["Fights"] = {
-			},
 			["LastEventTimes"] = {
 				48829.972, -- [1]
+				48831.007, -- [2]
+				48832.066, -- [3]
+				48832.905, -- [4]
+				48833.984, -- [5]
+				48834.905, -- [6]
+				48835.964, -- [7]
 			},
-			["LastActive"] = 1614890078,
+			["NextEventNum"] = 8,
+			["LastEventHealthNum"] = {
+				100, -- [1]
+				100, -- [2]
+				100, -- [3]
+				100, -- [4]
+				100, -- [5]
+				100, -- [6]
+				100, -- [7]
+			},
+			["LastEvents"] = {
+				"Budey Wild Growth Nalar Tick +1338 (1338 overheal)", -- [1]
+				"Budey Wild Growth Nalar Tick +1305 (1305 overheal)", -- [2]
+				"Budey Wild Growth Nalar Tick +1273 (1273 overheal)", -- [3]
+				"Budey Wild Growth Nalar Tick +1238 (1238 overheal)", -- [4]
+				"Budey Wild Growth Nalar Tick +1205 (1205 overheal)", -- [5]
+				"Budey Wild Growth Nalar Tick +1173 (1173 overheal)", -- [6]
+				"Budey Wild Growth Nalar Tick +1140 (1140 overheal)", -- [7]
+			},
+			["Name"] = "Nalar",
+			["LastEventIncoming"] = {
+				true, -- [1]
+				true, -- [2]
+				true, -- [3]
+				true, -- [4]
+				true, -- [5]
+				true, -- [6]
+				true, -- [7]
+			},
+			["Fights"] = {
+				["CurrentFightData"] = {
+					["ManaGain"] = 277,
+					["ManaGainedFrom"] = {
+						["Budey"] = {
+							["Details"] = {
+								["Revitalize"] = {
+									["count"] = 277,
+								},
+							},
+							["amount"] = 277,
+						},
+					},
+					["ManaGained"] = {
+						["Revitalize"] = {
+							["Details"] = {
+								["Budey"] = {
+									["count"] = 277,
+								},
+							},
+							["amount"] = 277,
+						},
+					},
+				},
+				["OverallData"] = {
+					["ManaGain"] = 277,
+					["ManaGainedFrom"] = {
+						["Budey"] = {
+							["Details"] = {
+								["Revitalize"] = {
+									["count"] = 277,
+								},
+							},
+							["amount"] = 277,
+						},
+					},
+					["ManaGained"] = {
+						["Revitalize"] = {
+							["Details"] = {
+								["Budey"] = {
+									["count"] = 277,
+								},
+							},
+							["amount"] = 277,
+						},
+					},
+				},
+			},
+			["TimeLast"] = {
+				["OVERALL"] = 1614890083,
+				["ManaGain"] = 1614890083,
+			},
+			["UnitLockout"] = 1614890078,
+			["LastAbility"] = 1184.572,
 		},
 	},
 	["FightNum"] = 0,
