@@ -154,7 +154,7 @@ RecountDB = {
 			},
 			["DetailWindowY"] = 23.44438869364712,
 			["DetailWindowX"] = 62.09879535193817,
-			["LastInstanceName"] = "Utgarde Keep",
+			["LastInstanceName"] = "Scholomance",
 			["CurDataSet"] = "LastFightData",
 			["GraphWindowX"] = 0,
 			["MainWindowWidth"] = 238.9999938458702,
@@ -508,11 +508,11 @@ RecountDB = {
 					},
 				},
 			},
-			["DetailWindowY"] = -124.0493402990752,
+			["GraphWindowX"] = 0,
 			["MainWindowVis"] = false,
 			["MainWindowMode"] = 5,
 			["MainWindowWidth"] = 256.148530518934,
-			["GraphWindowX"] = 0,
+			["DetailWindowY"] = -124.0493402990752,
 		},
 		["Gligor - Icecrown"] = {
 			["GraphWindowY"] = 0,
@@ -576,7 +576,7 @@ RecountDB = {
 			},
 			["DetailWindowX"] = 828.2974207547476,
 			["LastInstanceName"] = "The Nexus",
-			["CurDataSet"] = "CurrentFightData",
+			["CurDataSet"] = "LastFightData",
 			["Colors"] = {
 				["Bar"] = {
 					["Bar Text"] = {
