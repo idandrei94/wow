@@ -2,6 +2,11 @@ MACRO 16777223 "blind" INV_Misc_QuestionMark
 #showtooltip
 /cast [@focus, harm, nodead, modifier:alt][] blind
 END
+MACRO 16777229 "camp" Ability_Creature_Cursed_02
+#showtooltip shadowstep
+/tar niroxxar
+/castsequence shadowstep, ambush
+END
 MACRO 16777220 "dp" INV_Misc_QuestionMark
 #showtooltip
 /use deadly poison ix
@@ -25,6 +30,13 @@ MACRO 16777224 "mount" INV_Misc_QuestionMark
 /cancelaura speed of the vrykul
 /cancelaura aim of the iron dwarves
 /userandom [flyable] Bloodbathed Frostbrood Vanquisher; Swift Mistsaber
+END
+MACRO 16777228 "sap" INV_Misc_QuestionMark
+#showtooltip Sap
+/cleartarget
+/targetenemyplayer
+/cast [harm, nodead] sap
+/stopattack
 END
 MACRO 16777222 "sap" INV_Misc_QuestionMark
 #showtooltip

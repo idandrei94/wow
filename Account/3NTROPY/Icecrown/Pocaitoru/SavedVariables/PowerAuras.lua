@@ -304,7 +304,8 @@ PowaSet = {
 			["a"] = 1,
 			["ShowActivation"] = false,
 		},
-		["InactiveDueToState"] = true,
+		["spec2"] = true,
+		["InactiveDueToState"] = false,
 		["owntex"] = true,
 		["isResting"] = 0,
 		["duration"] = 0,
@@ -347,7 +348,6 @@ PowaSet = {
 		["GTFO"] = 0,
 		["textaura"] = false,
 		["stance"] = 10,
-		["spec2"] = true,
 		["wowtex"] = false,
 		["groupOrSelf"] = false,
 		["strata"] = "LOW",
@@ -521,10 +521,10 @@ PowaMisc = {
 	["DefaultTimerTexture"] = "Original",
 	["AnimationFps"] = 30,
 	["Version"] = "3.0.0S",
-	["debug"] = false,
-	["OnUpdateLimit"] = 0,
-	["DefaultStacksTexture"] = "Original",
 	["AllowInspections"] = true,
+	["DefaultStacksTexture"] = "Original",
+	["OnUpdateLimit"] = 0,
+	["debug"] = false,
 }
 PowaTimer = {
 }

@@ -2,6 +2,18 @@
 RecountPerCharDB = {
 	["version"] = "1.3",
 	["combatants"] = {
+		["Soulsdie"] = {
+			["type"] = "Ungrouped",
+			["Owner"] = false,
+			["enClass"] = "WARLOCK",
+			["Name"] = "Soulsdie",
+			["LastAbility"] = 6725.462,
+			["UnitLockout"] = 1614795023,
+			["level"] = 80,
+			["Fights"] = {
+			},
+			["LastFightIn"] = 0,
+		},
 		["Denathra"] = {
 			["LastEventHealth"] = {
 				"22666 (100%)", -- [1]
@@ -24,6 +36,7 @@ RecountPerCharDB = {
 				"22666 (100%)", -- [18]
 				"22666 (100%)", -- [19]
 				"19787 (79%)", -- [20]
+				"24963 (100%)", -- [21]
 			},
 			["LastEventType"] = {
 				"HEAL", -- [1]
@@ -46,6 +59,7 @@ RecountPerCharDB = {
 				"HEAL", -- [18]
 				"HEAL", -- [19]
 				"HEAL", -- [20]
+				"HEAL", -- [21]
 			},
 			["enClass"] = "WARLOCK",
 			["unit"] = "Denathra",
@@ -72,11 +86,12 @@ RecountPerCharDB = {
 				1.998588193770405, -- [18]
 				1.998588193770405, -- [19]
 				2.599847774706566, -- [20]
+				2.599847774706566, -- [21]
 			},
 			["type"] = "Self",
 			["Owner"] = false,
-			["LastActive"] = 1617270649,
-			["NextEventNum"] = 21,
+			["LastAbility"] = 6725.462,
+			["NextEventNum"] = 22,
 			["LastEventHealthNum"] = {
 				100, -- [1]
 				100, -- [2]
@@ -98,6 +113,7 @@ RecountPerCharDB = {
 				100, -- [18]
 				100, -- [19]
 				79.26531266274085, -- [20]
+				100, -- [21]
 			},
 			["LastEvents"] = {
 				"Denathra Fel Armor Denathra Tick +453 (453 overheal)", -- [1]
@@ -120,32 +136,10 @@ RecountPerCharDB = {
 				"Denathra Fel Armor Denathra Tick +453 (453 overheal)", -- [18]
 				"Denathra Fel Armor Denathra Tick +453 (453 overheal)", -- [19]
 				"Denathra Fel Armor Denathra Tick +649", -- [20]
+				"Denathra Fel Armor Denathra Tick +649 (349 overheal)", -- [21]
 			},
 			["Name"] = "Denathra",
-			["LastEventTimes"] = {
-				280.313, -- [1]
-				285.276, -- [2]
-				297.061, -- [3]
-				327.017, -- [4]
-				327.02, -- [5]
-				327.036, -- [6]
-				327.066, -- [7]
-				327.097, -- [8]
-				327.101, -- [9]
-				327.112, -- [10]
-				330.267, -- [11]
-				335.374, -- [12]
-				340.465, -- [13]
-				345.298, -- [14]
-				350.292, -- [15]
-				355.301, -- [16]
-				360.384, -- [17]
-				365.4, -- [18]
-				370.261, -- [19]
-				1135.774, -- [20]
-			},
-			["Fights"] = {
-			},
+			["UnitLockout"] = 1614794941,
 			["LastEventIncoming"] = {
 				true, -- [1]
 				true, -- [2]
@@ -167,21 +161,34 @@ RecountPerCharDB = {
 				true, -- [18]
 				true, -- [19]
 				true, -- [20]
+				true, -- [21]
 			},
-			["UnitLockout"] = 1614794941,
-			["LastAbility"] = 1131.559,
-		},
-		["Soulsdie"] = {
-			["type"] = "Ungrouped",
-			["Owner"] = false,
-			["enClass"] = "WARLOCK",
-			["Name"] = "Soulsdie",
-			["LastFightIn"] = 0,
 			["Fights"] = {
 			},
-			["level"] = 80,
-			["UnitLockout"] = 1614795023,
-			["LastAbility"] = 1131.559,
+			["LastEventTimes"] = {
+				280.313, -- [1]
+				285.276, -- [2]
+				297.061, -- [3]
+				327.017, -- [4]
+				327.02, -- [5]
+				327.036, -- [6]
+				327.066, -- [7]
+				327.097, -- [8]
+				327.101, -- [9]
+				327.112, -- [10]
+				330.267, -- [11]
+				335.374, -- [12]
+				340.465, -- [13]
+				345.298, -- [14]
+				350.292, -- [15]
+				355.301, -- [16]
+				360.384, -- [17]
+				365.4, -- [18]
+				370.261, -- [19]
+				1135.774, -- [20]
+				6731.383, -- [21]
+			},
+			["LastActive"] = 1617369175,
 		},
 	},
 	["FightNum"] = 0,
