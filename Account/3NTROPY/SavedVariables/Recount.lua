@@ -34,9 +34,6 @@ RecountDB = {
 					["h"] = 311.0000073174346,
 				},
 			},
-			["DetailWindowX"] = -105.0000036245237,
-			["LastInstanceName"] = "Icecrown Citadel",
-			["CurDataSet"] = "LastFightData",
 			["Colors"] = {
 				["Bar"] = {
 					["Bar Text"] = {
@@ -48,6 +45,9 @@ RecountDB = {
 				},
 			},
 			["DetailWindowY"] = -10.00000013677448,
+			["DetailWindowX"] = -105.0000036245237,
+			["LastInstanceName"] = "Pit of Saron",
+			["CurDataSet"] = "CurrentFightData",
 			["GraphWindowX"] = 0,
 			["MainWindowWidth"] = 251.4197662784027,
 			["MainWindowHeight"] = 310.8518969696999,
@@ -92,7 +92,7 @@ RecountDB = {
 				},
 			},
 			["DetailWindowX"] = 867.5926716507743,
-			["LastInstanceName"] = "Icecrown Citadel",
+			["LastInstanceName"] = "Vault of Archavon",
 			["RealtimeWindows"] = {
 				["Realtime_Nalar_DAMAGE"] = {
 					"Nalar", -- [1]
@@ -115,7 +115,7 @@ RecountDB = {
 					false, -- [8]
 				},
 			},
-			["CurDataSet"] = "LastFightData",
+			["CurDataSet"] = "CurrentFightData",
 			["Colors"] = {
 				["Bar"] = {
 					["Bar Text"] = {
@@ -260,14 +260,14 @@ RecountDB = {
 			["GraphWindowY"] = 0,
 			["MainWindow"] = {
 				["Position"] = {
-					["y"] = 159.6666313560554,
-					["h"] = 304.0000251665041,
+					["y"] = 159.6666313560552,
+					["h"] = 304.0000951950373,
 					["w"] = 228.9999913148206,
-					["x"] = -642.018743164268,
+					["x"] = -642.0186862660848,
 				},
 			},
 			["DetailWindowX"] = 160.9111434339599,
-			["LastInstanceName"] = "Trial of the Crusader",
+			["LastInstanceName"] = "Violet Hold",
 			["CurDataSet"] = "LastFightData",
 			["Colors"] = {
 				["Bar"] = {
@@ -318,7 +318,7 @@ RecountDB = {
 				},
 			},
 			["DetailWindowX"] = 656.2592335937816,
-			["LastInstanceName"] = "Utgarde Pinnacle",
+			["LastInstanceName"] = "Icecrown Citadel",
 			["CurDataSet"] = "LastFightData",
 			["Colors"] = {
 				["Bar"] = {
@@ -508,11 +508,11 @@ RecountDB = {
 					},
 				},
 			},
-			["GraphWindowX"] = 0,
+			["DetailWindowY"] = -124.0493402990752,
 			["MainWindowVis"] = false,
 			["MainWindowMode"] = 5,
 			["MainWindowWidth"] = 256.148530518934,
-			["DetailWindowY"] = -124.0493402990752,
+			["GraphWindowX"] = 0,
 		},
 		["Gligor - Icecrown"] = {
 			["GraphWindowY"] = 0,
@@ -574,6 +574,9 @@ RecountDB = {
 					["x"] = -633.4630771481236,
 				},
 			},
+			["DetailWindowX"] = 828.2974207547476,
+			["LastInstanceName"] = "Trial of the Crusader",
+			["CurDataSet"] = "CurrentFightData",
 			["Colors"] = {
 				["Bar"] = {
 					["Bar Text"] = {
@@ -582,9 +585,6 @@ RecountDB = {
 				},
 			},
 			["DetailWindowY"] = -124.1852219141985,
-			["DetailWindowX"] = 828.2974207547476,
-			["LastInstanceName"] = "Trial of the Crusader",
-			["CurDataSet"] = "CurrentFightData",
 			["GraphWindowX"] = 0,
 			["MainWindowWidth"] = 253.0123901948838,
 			["MainWindowHeight"] = 329.1730069274222,

@@ -2,7 +2,6 @@ MACRO 16777232 "bs" INV_Misc_QuestionMark
 #showtooltip blood strike
 /cancelaura hand of protection
 /startattack
-/cast !rune strike
 /cast blood strike
 /cast Claw
 END
@@ -53,7 +52,6 @@ MACRO 16777233 "it" INV_Misc_QuestionMark
 #showtooltip icy touch
 /cancelaura hand of protection
 /startattack
-/cast !rune strike
 /cast icy touch
 /cast Claw
 END
@@ -80,7 +78,6 @@ MACRO 16777234 "ps" INV_Misc_QuestionMark
 #showtooltip plague strike
 /cancelaura hand of protection
 /startattack
-/cast !rune strike
 /cast plague strike
 /cast Claw
 END
@@ -88,7 +85,6 @@ MACRO 16777225 "ss" INV_Misc_QuestionMark
 #showtooltip Scourge Strike
 /cancelaura hand of protection
 /startattack
-/cast !rune strike
 /cast Scourge Strike
 /cast Claw
 END
