@@ -29,14 +29,11 @@ RecountDB = {
 			["MainWindow"] = {
 				["Position"] = {
 					["y"] = 157.1666127205326,
-					["x"] = -634.0186353859787,
+					["x"] = -634.0185916181454,
 					["w"] = 251.0000152503544,
-					["h"] = 310.999972303168,
+					["h"] = 311.0000073174346,
 				},
 			},
-			["DetailWindowX"] = -105.0000036245237,
-			["LastInstanceName"] = "Halls of Reflection",
-			["CurDataSet"] = "LastFightData",
 			["Colors"] = {
 				["Bar"] = {
 					["Bar Text"] = {
@@ -48,6 +45,9 @@ RecountDB = {
 				},
 			},
 			["DetailWindowY"] = -10.00000013677448,
+			["DetailWindowX"] = -105.0000036245237,
+			["LastInstanceName"] = "Pit of Saron",
+			["CurDataSet"] = "LastFightData",
 			["GraphWindowX"] = 0,
 			["MainWindowWidth"] = 251.4197662784027,
 			["MainWindowHeight"] = 310.8518969696999,
@@ -91,19 +91,7 @@ RecountDB = {
 					["x"] = -635.8334029401452,
 				},
 			},
-			["Colors"] = {
-				["Bar"] = {
-					["Bar Text"] = {
-						["a"] = 1,
-					},
-					["Total Bar"] = {
-						["a"] = 1,
-					},
-				},
-			},
-			["DetailWindowY"] = -152.7036942991919,
 			["DetailWindowX"] = 867.5926716507743,
-			["GraphWindowX"] = 0,
 			["LastInstanceName"] = "Vault of Archavon",
 			["RealtimeWindows"] = {
 				["Realtime_Nalar_DAMAGE"] = {
@@ -128,6 +116,18 @@ RecountDB = {
 				},
 			},
 			["CurDataSet"] = "LastFightData",
+			["Colors"] = {
+				["Bar"] = {
+					["Bar Text"] = {
+						["a"] = 1,
+					},
+					["Total Bar"] = {
+						["a"] = 1,
+					},
+				},
+			},
+			["DetailWindowY"] = -152.7036942991919,
+			["GraphWindowX"] = 0,
 			["MainWindowWidth"] = 243.3555780154447,
 			["MainWindowHeight"] = 345.0444837792649,
 		},
@@ -277,9 +277,9 @@ RecountDB = {
 				},
 			},
 			["DetailWindowY"] = -107.7333573326952,
-			["GraphWindowX"] = 0,
-			["MainWindowWidth"] = 239.733352135265,
 			["MainWindowHeight"] = 319.2665955484968,
+			["MainWindowWidth"] = 239.733352135265,
+			["GraphWindowX"] = 0,
 		},
 		["Ulrezaj - Icecrown"] = {
 			["GraphWindowY"] = 0,
@@ -507,11 +507,11 @@ RecountDB = {
 					},
 				},
 			},
-			["DetailWindowY"] = -124.0493402990752,
+			["GraphWindowX"] = 0,
 			["MainWindowVis"] = false,
 			["MainWindowMode"] = 5,
 			["MainWindowWidth"] = 256.148530518934,
-			["GraphWindowX"] = 0,
+			["DetailWindowY"] = -124.0493402990752,
 		},
 		["Gligor - Icecrown"] = {
 			["GraphWindowY"] = 0,
