@@ -34,6 +34,9 @@ RecountDB = {
 					["h"] = 310.999972303168,
 				},
 			},
+			["DetailWindowX"] = -105.0000036245237,
+			["LastInstanceName"] = "Halls of Reflection",
+			["CurDataSet"] = "LastFightData",
 			["Colors"] = {
 				["Bar"] = {
 					["Bar Text"] = {
@@ -45,9 +48,6 @@ RecountDB = {
 				},
 			},
 			["DetailWindowY"] = -10.00000013677448,
-			["DetailWindowX"] = -105.0000036245237,
-			["LastInstanceName"] = "Halls of Reflection",
-			["CurDataSet"] = "LastFightData",
 			["GraphWindowX"] = 0,
 			["MainWindowWidth"] = 251.4197662784027,
 			["MainWindowHeight"] = 310.8518969696999,
@@ -267,7 +267,7 @@ RecountDB = {
 				},
 			},
 			["DetailWindowX"] = 160.9111434339599,
-			["LastInstanceName"] = "Pit of Saron",
+			["LastInstanceName"] = "Halls of Lightning",
 			["CurDataSet"] = "LastFightData",
 			["Colors"] = {
 				["Bar"] = {
@@ -277,9 +277,9 @@ RecountDB = {
 				},
 			},
 			["DetailWindowY"] = -107.7333573326952,
-			["GraphWindowX"] = 0,
-			["MainWindowWidth"] = 239.733352135265,
 			["MainWindowHeight"] = 319.2665955484968,
+			["MainWindowWidth"] = 239.733352135265,
+			["GraphWindowX"] = 0,
 		},
 		["Ulrezaj - Icecrown"] = {
 			["GraphWindowY"] = 0,
@@ -317,9 +317,6 @@ RecountDB = {
 					["x"] = -628.4815274098449,
 				},
 			},
-			["DetailWindowX"] = 656.2592335937816,
-			["LastInstanceName"] = "Icecrown Citadel",
-			["CurDataSet"] = "LastFightData",
 			["Colors"] = {
 				["Bar"] = {
 					["Bar Text"] = {
@@ -331,10 +328,12 @@ RecountDB = {
 				},
 			},
 			["DetailWindowY"] = -299.5554892351304,
-			["MainWindowHeight"] = 328.7999999452902,
-			["MainWindowVis"] = false,
-			["MainWindowWidth"] = 260.0000123097031,
+			["DetailWindowX"] = 656.2592335937816,
 			["GraphWindowX"] = 0,
+			["LastInstanceName"] = "Halls of Lightning",
+			["CurDataSet"] = "LastFightData",
+			["MainWindowWidth"] = 260.0000123097031,
+			["MainWindowHeight"] = 328.7999999452902,
 		},
 		["Kalaam - Icecrown"] = {
 			["GraphWindowY"] = 0,
@@ -493,7 +492,7 @@ RecountDB = {
 			},
 			["DetailWindowX"] = 112.9876419471188,
 			["LastInstanceName"] = "Vault of Archavon",
-			["DetailWindowY"] = -124.0493402990752,
+			["GraphWindowX"] = 0,
 			["CurDataSet"] = "LastFightData",
 			["Colors"] = {
 				["Bar"] = {
@@ -505,7 +504,7 @@ RecountDB = {
 					},
 				},
 			},
-			["GraphWindowX"] = 0,
+			["DetailWindowY"] = -124.0493402990752,
 			["MainWindowVis"] = false,
 			["MainWindowMode"] = 5,
 			["MainWindowWidth"] = 256.148530518934,
