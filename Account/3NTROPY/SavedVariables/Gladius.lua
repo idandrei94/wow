@@ -65,8 +65,8 @@ GladiusDB = {
 		},
 		["Urgash - Icecrown"] = {
 			["locked"] = true,
-			["x"] = 1078.949820798114,
 			["y"] = 531.2111095225328,
+			["x"] = 1078.949820798114,
 		},
 		["Ulrezaj - Icecrown"] = {
 			["locked"] = true,
@@ -106,8 +106,8 @@ GladiusDB = {
 		},
 		["Praxia - Icecrown"] = {
 			["locked"] = true,
-			["y"] = 556.2828637883971,
 			["x"] = 969.0531028795333,
+			["y"] = 556.2828637883971,
 		},
 		["Drext - Icecrown"] = {
 			["locked"] = true,

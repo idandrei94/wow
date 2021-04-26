@@ -29,14 +29,14 @@ RecountDB = {
 			["MainWindow"] = {
 				["Position"] = {
 					["y"] = 157.1666127205326,
-					["x"] = -634.0185916181454,
+					["x"] = -634.0186353859787,
 					["w"] = 251.0000152503544,
 					["h"] = 311.0000073174346,
 				},
 			},
 			["DetailWindowX"] = -105.0000036245237,
 			["LastInstanceName"] = "Pit of Saron",
-			["CurDataSet"] = "LastFightData",
+			["CurDataSet"] = "CurrentFightData",
 			["Colors"] = {
 				["Bar"] = {
 					["Bar Text"] = {
@@ -266,9 +266,6 @@ RecountDB = {
 					["x"] = -642.018743164268,
 				},
 			},
-			["DetailWindowX"] = 160.9111434339599,
-			["LastInstanceName"] = "The Oculus",
-			["CurDataSet"] = "LastFightData",
 			["Colors"] = {
 				["Bar"] = {
 					["Bar Text"] = {
@@ -277,6 +274,9 @@ RecountDB = {
 				},
 			},
 			["DetailWindowY"] = -107.7333573326952,
+			["DetailWindowX"] = 160.9111434339599,
+			["LastInstanceName"] = "Halls of Lightning",
+			["CurDataSet"] = "LastFightData",
 			["GraphWindowX"] = 0,
 			["MainWindowWidth"] = 239.733352135265,
 			["MainWindowHeight"] = 319.2665955484968,
@@ -345,8 +345,8 @@ RecountDB = {
 					["x"] = -633.4630771481236,
 				},
 			},
-			["DetailWindowX"] = 828.2974207547476,
-			["LastInstanceName"] = "Trial of the Crusader",
+			["DetailWindowX"] = 825.6666588477257,
+			["LastInstanceName"] = "Utgarde Pinnacle",
 			["CurDataSet"] = "CurrentFightData",
 			["Colors"] = {
 				["Bar"] = {
@@ -355,7 +355,7 @@ RecountDB = {
 					},
 				},
 			},
-			["DetailWindowY"] = -124.1852219141985,
+			["DetailWindowY"] = -167.2591599407247,
 			["MainWindowHeight"] = 329.1730069274222,
 			["MainWindowWidth"] = 253.0123901948838,
 			["GraphWindowX"] = 0,
@@ -539,12 +539,15 @@ RecountDB = {
 			["GraphWindowY"] = 0,
 			["MainWindow"] = {
 				["Position"] = {
-					["y"] = 155.6666715677522,
-					["x"] = -626.5185794794104,
-					["w"] = 252.0000227045635,
-					["h"] = 316.0000095742136,
+					["y"] = 154.4814386432081,
+					["x"] = -629.7777949505735,
+					["w"] = 260.8889019888445,
+					["h"] = 337.3333968878745,
 				},
 			},
+			["DetailWindowX"] = 0,
+			["LastInstanceName"] = "Pit of Saron",
+			["CurDataSet"] = "LastFightData",
 			["Colors"] = {
 				["Bar"] = {
 					["Bar Text"] = {
@@ -555,13 +558,10 @@ RecountDB = {
 					},
 				},
 			},
-			["DetailWindowY"] = 3.55558224177611,
-			["DetailWindowX"] = 0,
-			["LastInstanceName"] = "Pit of Saron",
-			["CurDataSet"] = "CurrentFightData",
+			["DetailWindowY"] = 3.999978116083373,
 			["GraphWindowX"] = 0,
-			["MainWindowWidth"] = 252.1110164010799,
-			["MainWindowHeight"] = 316.0864052571401,
+			["MainWindowWidth"] = 260.8889019888445,
+			["MainWindowHeight"] = 337.3333968878745,
 		},
 		["Izanagi - Icecrown"] = {
 			["GraphWindowY"] = 0,
