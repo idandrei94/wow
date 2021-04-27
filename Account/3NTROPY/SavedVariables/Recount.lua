@@ -260,12 +260,15 @@ RecountDB = {
 			["GraphWindowY"] = 0,
 			["MainWindow"] = {
 				["Position"] = {
-					["y"] = 159.6666313560554,
-					["h"] = 304.0000951950373,
-					["w"] = 228.9999913148206,
-					["x"] = -642.018743164268,
+					["y"] = 139.2221862429357,
+					["h"] = 317.6297135990283,
+					["w"] = 247.3703663456547,
+					["x"] = -632.2409391865789,
 				},
 			},
+			["DetailWindowX"] = 160.9111434339599,
+			["LastInstanceName"] = "The Nexus",
+			["CurDataSet"] = "LastFightData",
 			["Colors"] = {
 				["Bar"] = {
 					["Bar Text"] = {
@@ -274,12 +277,9 @@ RecountDB = {
 				},
 			},
 			["DetailWindowY"] = -107.7333573326952,
-			["DetailWindowX"] = 160.9111434339599,
-			["LastInstanceName"] = "Halls of Lightning",
-			["CurDataSet"] = "LastFightData",
 			["GraphWindowX"] = 0,
-			["MainWindowWidth"] = 239.733352135265,
-			["MainWindowHeight"] = 319.2665955484968,
+			["MainWindowWidth"] = 247.3703663456547,
+			["MainWindowHeight"] = 317.6297135990283,
 		},
 		["Ulrezaj - Icecrown"] = {
 			["GraphWindowY"] = 0,
@@ -317,9 +317,6 @@ RecountDB = {
 					["x"] = -628.4815274098449,
 				},
 			},
-			["DetailWindowX"] = 656.2592335937816,
-			["LastInstanceName"] = "Halls of Lightning",
-			["CurDataSet"] = "LastFightData",
 			["Colors"] = {
 				["Bar"] = {
 					["Bar Text"] = {
@@ -331,6 +328,9 @@ RecountDB = {
 				},
 			},
 			["DetailWindowY"] = -299.5554892351304,
+			["DetailWindowX"] = 656.2592335937816,
+			["LastInstanceName"] = "Halls of Lightning",
+			["CurDataSet"] = "LastFightData",
 			["GraphWindowX"] = 0,
 			["MainWindowWidth"] = 260.0000123097031,
 			["MainWindowHeight"] = 328.7999999452902,
@@ -347,7 +347,7 @@ RecountDB = {
 			},
 			["DetailWindowX"] = 825.6666588477257,
 			["LastInstanceName"] = "Utgarde Pinnacle",
-			["CurDataSet"] = "CurrentFightData",
+			["CurDataSet"] = "LastFightData",
 			["Colors"] = {
 				["Bar"] = {
 					["Bar Text"] = {
