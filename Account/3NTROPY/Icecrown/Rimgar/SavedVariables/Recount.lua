@@ -141,17 +141,9 @@ RecountPerCharDB = {
 			},
 			["type"] = "Self",
 			["FightsSaved"] = 1,
-			["TimeLast"] = {
-				["RageGain"] = 1619440528,
-				["Overhealing"] = 1619440528,
-				["ActiveTime"] = 1619440535,
-				["TimeDamage"] = 1619440535,
-				["OVERALL"] = 1619440535,
-				["DOT_Time"] = 1619440535,
-				["Damage"] = 1619440535,
-			},
+			["LastActive"] = 1619440535,
 			["Owner"] = false,
-			["LastAbility"] = 24248.78,
+			["UnitLockout"] = 1619440327,
 			["NextEventNum"] = 44,
 			["LastEventHealthNum"] = {
 				100, -- [1]
@@ -258,6 +250,1346 @@ RecountPerCharDB = {
 				"Rimgar Cleave Expert's Training Dummy Crit -8780 (Physical)", -- [50]
 			},
 			["Name"] = "Rimgar",
+			["Fights"] = {
+				["OverallData"] = {
+					["ElementDoneBlock"] = {
+						["Physical"] = 390,
+					},
+					["DOTs"] = {
+						["Deep Wounds (DoT)"] = {
+							["Details"] = {
+								["Expert's Training Dummy"] = {
+									["count"] = 852,
+								},
+								["Grandmaster's Training Dummy"] = {
+									["count"] = 474,
+								},
+							},
+							["amount"] = 1326,
+						},
+					},
+					["TimeSpent"] = {
+						["Expert's Training Dummy"] = {
+							["Details"] = {
+								["Bloodthirst"] = {
+									["count"] = 13.59,
+								},
+								["Melee"] = {
+									["count"] = 24.21000000000001,
+								},
+								["Cleave"] = {
+									["count"] = 22.92,
+								},
+								["Slam"] = {
+									["count"] = 4.92,
+								},
+								["Whirlwind"] = {
+									["count"] = 10.03,
+								},
+								["Deep Wounds (DoT)"] = {
+									["count"] = 79.05000000000001,
+								},
+								["Chaos Bane"] = {
+									["count"] = 3.879999999999999,
+								},
+							},
+							["amount"] = 158.6,
+						},
+						["Grandmaster's Training Dummy"] = {
+							["Details"] = {
+								["Cleave"] = {
+									["count"] = 0.03,
+								},
+								["Whirlwind"] = {
+									["count"] = 0,
+								},
+								["Deep Wounds (DoT)"] = {
+									["count"] = 51.01999999999998,
+								},
+								["Chaos Bane"] = {
+									["count"] = 1.4,
+								},
+							},
+							["amount"] = 52.44999999999999,
+						},
+					},
+					["RageGainedFrom"] = {
+						["Rimgar"] = {
+							["Details"] = {
+								["Unbridled Wrath"] = {
+									["count"] = 152,
+								},
+								["Bloodrage"] = {
+									["count"] = 30,
+								},
+							},
+							["amount"] = 182,
+						},
+					},
+					["Overhealing"] = 43164,
+					["ActiveTime"] = 211.05,
+					["DOT_Time"] = 1326,
+					["Damage"] = 3330538,
+					["ElementDone"] = {
+						["Physical"] = 2987628,
+						["Melee"] = 319056,
+						["Shadow"] = 23854,
+					},
+					["Attacks"] = {
+						["Bloodthirst"] = {
+							["Details"] = {
+								["Crit (Blocked)"] = {
+									["max"] = 14337,
+									["min"] = 10002,
+									["count"] = 5,
+									["amount"] = 58243,
+								},
+								["Crit"] = {
+									["max"] = 14367,
+									["min"] = 9303,
+									["count"] = 26,
+									["amount"] = 305525,
+								},
+								["Hit"] = {
+									["max"] = 6615,
+									["min"] = 4283,
+									["count"] = 13,
+									["amount"] = 69686,
+								},
+							},
+							["count"] = 44,
+							["amount"] = 433454,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 4302,
+									["min"] = 1886,
+									["count"] = 22,
+									["amount"] = 54931,
+								},
+								["Crit"] = {
+									["max"] = 7867,
+									["min"] = 3946,
+									["count"] = 55,
+									["amount"] = 264125,
+								},
+								["Miss"] = {
+									["count"] = 2,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 79,
+							["amount"] = 319056,
+						},
+						["Cleave"] = {
+							["Details"] = {
+								["Crit (Blocked)"] = {
+									["max"] = 10381,
+									["min"] = 8426,
+									["count"] = 5,
+									["amount"] = 47121,
+								},
+								["Crit"] = {
+									["max"] = 11666,
+									["min"] = 6990,
+									["count"] = 115,
+									["amount"] = 1047077,
+								},
+								["Hit"] = {
+									["max"] = 4955,
+									["min"] = 3279,
+									["count"] = 72,
+									["amount"] = 293818,
+								},
+							},
+							["count"] = 192,
+							["amount"] = 1388016,
+						},
+						["Slam"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 11650,
+									["min"] = 8619,
+									["count"] = 11,
+									["amount"] = 109460,
+								},
+								["Hit"] = {
+									["max"] = 4691,
+									["min"] = 3606,
+									["count"] = 5,
+									["amount"] = 21026,
+								},
+							},
+							["count"] = 16,
+							["amount"] = 130486,
+						},
+						["Whirlwind"] = {
+							["Details"] = {
+								["Hit (Blocked)"] = {
+									["max"] = 4011,
+									["min"] = 4011,
+									["count"] = 1,
+									["amount"] = 4011,
+								},
+								["Crit (Blocked)"] = {
+									["max"] = 9738,
+									["min"] = 5967,
+									["count"] = 2,
+									["amount"] = 15705,
+								},
+								["Crit"] = {
+									["max"] = 11922,
+									["min"] = 5082,
+									["count"] = 55,
+									["amount"] = 427740,
+								},
+								["Hit"] = {
+									["max"] = 5194,
+									["min"] = 2219,
+									["count"] = 42,
+									["amount"] = 147796,
+								},
+							},
+							["count"] = 100,
+							["amount"] = 595252,
+						},
+						["Deep Wounds (DoT)"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 4115,
+									["min"] = 186,
+									["count"] = 442,
+									["amount"] = 440420,
+								},
+							},
+							["count"] = 442,
+							["amount"] = 440420,
+						},
+						["Chaos Bane"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 697,
+									["min"] = 478,
+									["count"] = 38,
+									["amount"] = 23854,
+								},
+							},
+							["count"] = 38,
+							["amount"] = 23854,
+						},
+					},
+					["RageGain"] = 182,
+					["DamagedWho"] = {
+						["Expert's Training Dummy"] = {
+							["Details"] = {
+								["Bloodthirst"] = {
+									["count"] = 433454,
+								},
+								["Melee"] = {
+									["count"] = 319056,
+								},
+								["Cleave"] = {
+									["count"] = 968132,
+								},
+								["Slam"] = {
+									["count"] = 130486,
+								},
+								["Whirlwind"] = {
+									["count"] = 348716,
+								},
+								["Deep Wounds (DoT)"] = {
+									["count"] = 350180,
+								},
+								["Chaos Bane"] = {
+									["count"] = 13263,
+								},
+							},
+							["amount"] = 2563287,
+						},
+						["Grandmaster's Training Dummy"] = {
+							["Details"] = {
+								["Cleave"] = {
+									["count"] = 419884,
+								},
+								["Whirlwind"] = {
+									["count"] = 246536,
+								},
+								["Deep Wounds (DoT)"] = {
+									["count"] = 90240,
+								},
+								["Chaos Bane"] = {
+									["count"] = 10591,
+								},
+							},
+							["amount"] = 767251,
+						},
+					},
+					["TimeDamage"] = 211.05,
+					["TimeDamaging"] = {
+						["Expert's Training Dummy"] = {
+							["Details"] = {
+								["Bloodthirst"] = {
+									["count"] = 13.59,
+								},
+								["Melee"] = {
+									["count"] = 24.21000000000001,
+								},
+								["Cleave"] = {
+									["count"] = 22.92,
+								},
+								["Slam"] = {
+									["count"] = 4.92,
+								},
+								["Whirlwind"] = {
+									["count"] = 10.03,
+								},
+								["Deep Wounds (DoT)"] = {
+									["count"] = 79.05000000000001,
+								},
+								["Chaos Bane"] = {
+									["count"] = 3.879999999999999,
+								},
+							},
+							["amount"] = 158.6,
+						},
+						["Grandmaster's Training Dummy"] = {
+							["Details"] = {
+								["Cleave"] = {
+									["count"] = 0.03,
+								},
+								["Whirlwind"] = {
+									["count"] = 0,
+								},
+								["Deep Wounds (DoT)"] = {
+									["count"] = 51.01999999999998,
+								},
+								["Chaos Bane"] = {
+									["count"] = 1.4,
+								},
+							},
+							["amount"] = 52.44999999999999,
+						},
+					},
+					["ElementHitsDone"] = {
+						["Physical"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 133,
+								},
+								["Crit"] = {
+									["count"] = 219,
+								},
+								["Tick"] = {
+									["count"] = 442,
+								},
+							},
+							["amount"] = 794,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 22,
+								},
+								["Crit"] = {
+									["count"] = 55,
+								},
+								["Miss"] = {
+									["count"] = 2,
+								},
+							},
+							["amount"] = 79,
+						},
+						["Shadow"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 38,
+								},
+							},
+							["amount"] = 38,
+						},
+					},
+					["RageGained"] = {
+						["Unbridled Wrath"] = {
+							["Details"] = {
+								["Rimgar"] = {
+									["count"] = 152,
+								},
+							},
+							["amount"] = 152,
+						},
+						["Bloodrage"] = {
+							["Details"] = {
+								["Rimgar"] = {
+									["count"] = 30,
+								},
+							},
+							["amount"] = 30,
+						},
+					},
+					["OverHeals"] = {
+						["Bloodthirst"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 327,
+									["min"] = 327,
+									["count"] = 132,
+									["amount"] = 43164,
+								},
+							},
+							["count"] = 132,
+							["amount"] = 43164,
+						},
+					},
+				},
+				["LastFightData"] = {
+					["ElementDoneBlock"] = {
+						["Physical"] = 390,
+					},
+					["DOTs"] = {
+						["Deep Wounds (DoT)"] = {
+							["Details"] = {
+								["Expert's Training Dummy"] = {
+									["count"] = 846,
+								},
+								["Grandmaster's Training Dummy"] = {
+									["count"] = 474,
+								},
+							},
+							["amount"] = 1320,
+						},
+					},
+					["TimeSpent"] = {
+						["Expert's Training Dummy"] = {
+							["Details"] = {
+								["Bloodthirst"] = {
+									["count"] = 13.59,
+								},
+								["Melee"] = {
+									["count"] = 24.21000000000001,
+								},
+								["Cleave"] = {
+									["count"] = 22.92,
+								},
+								["Slam"] = {
+									["count"] = 4.92,
+								},
+								["Whirlwind"] = {
+									["count"] = 10.03,
+								},
+								["Deep Wounds (DoT)"] = {
+									["count"] = 78.04000000000001,
+								},
+								["Chaos Bane"] = {
+									["count"] = 3.879999999999999,
+								},
+							},
+							["amount"] = 157.59,
+						},
+						["Grandmaster's Training Dummy"] = {
+							["Details"] = {
+								["Cleave"] = {
+									["count"] = 0.03,
+								},
+								["Whirlwind"] = {
+									["count"] = 0,
+								},
+								["Deep Wounds (DoT)"] = {
+									["count"] = 51.01999999999998,
+								},
+								["Chaos Bane"] = {
+									["count"] = 1.4,
+								},
+							},
+							["amount"] = 52.44999999999999,
+						},
+					},
+					["RageGainedFrom"] = {
+						["Rimgar"] = {
+							["Details"] = {
+								["Unbridled Wrath"] = {
+									["count"] = 152,
+								},
+								["Bloodrage"] = {
+									["count"] = 30,
+								},
+							},
+							["amount"] = 182,
+						},
+					},
+					["Overhealing"] = 43164,
+					["ActiveTime"] = 210.04,
+					["DOT_Time"] = 1320,
+					["Damage"] = 3327968,
+					["ElementDone"] = {
+						["Physical"] = 2985058,
+						["Melee"] = 319056,
+						["Shadow"] = 23854,
+					},
+					["Attacks"] = {
+						["Bloodthirst"] = {
+							["Details"] = {
+								["Crit (Blocked)"] = {
+									["max"] = 14337,
+									["min"] = 10002,
+									["count"] = 5,
+									["amount"] = 58243,
+								},
+								["Crit"] = {
+									["max"] = 14367,
+									["min"] = 9303,
+									["count"] = 26,
+									["amount"] = 305525,
+								},
+								["Hit"] = {
+									["max"] = 6615,
+									["min"] = 4283,
+									["count"] = 13,
+									["amount"] = 69686,
+								},
+							},
+							["count"] = 44,
+							["amount"] = 433454,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 4302,
+									["min"] = 1886,
+									["count"] = 22,
+									["amount"] = 54931,
+								},
+								["Crit"] = {
+									["max"] = 7867,
+									["min"] = 3946,
+									["count"] = 55,
+									["amount"] = 264125,
+								},
+								["Miss"] = {
+									["count"] = 2,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 79,
+							["amount"] = 319056,
+						},
+						["Cleave"] = {
+							["Details"] = {
+								["Crit (Blocked)"] = {
+									["max"] = 10381,
+									["min"] = 8426,
+									["count"] = 5,
+									["amount"] = 47121,
+								},
+								["Crit"] = {
+									["max"] = 11666,
+									["min"] = 6990,
+									["count"] = 115,
+									["amount"] = 1047077,
+								},
+								["Hit"] = {
+									["max"] = 4955,
+									["min"] = 3279,
+									["count"] = 72,
+									["amount"] = 293818,
+								},
+							},
+							["count"] = 192,
+							["amount"] = 1388016,
+						},
+						["Slam"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 11650,
+									["min"] = 8619,
+									["count"] = 11,
+									["amount"] = 109460,
+								},
+								["Hit"] = {
+									["max"] = 4691,
+									["min"] = 3606,
+									["count"] = 5,
+									["amount"] = 21026,
+								},
+							},
+							["count"] = 16,
+							["amount"] = 130486,
+						},
+						["Whirlwind"] = {
+							["Details"] = {
+								["Hit (Blocked)"] = {
+									["max"] = 4011,
+									["min"] = 4011,
+									["count"] = 1,
+									["amount"] = 4011,
+								},
+								["Crit (Blocked)"] = {
+									["max"] = 9738,
+									["min"] = 5967,
+									["count"] = 2,
+									["amount"] = 15705,
+								},
+								["Crit"] = {
+									["max"] = 11922,
+									["min"] = 5082,
+									["count"] = 55,
+									["amount"] = 427740,
+								},
+								["Hit"] = {
+									["max"] = 5194,
+									["min"] = 2219,
+									["count"] = 42,
+									["amount"] = 147796,
+								},
+							},
+							["count"] = 100,
+							["amount"] = 595252,
+						},
+						["Deep Wounds (DoT)"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 4115,
+									["min"] = 186,
+									["count"] = 440,
+									["amount"] = 437850,
+								},
+							},
+							["count"] = 440,
+							["amount"] = 437850,
+						},
+						["Chaos Bane"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 697,
+									["min"] = 478,
+									["count"] = 38,
+									["amount"] = 23854,
+								},
+							},
+							["count"] = 38,
+							["amount"] = 23854,
+						},
+					},
+					["RageGain"] = 182,
+					["DamagedWho"] = {
+						["Expert's Training Dummy"] = {
+							["Details"] = {
+								["Bloodthirst"] = {
+									["count"] = 433454,
+								},
+								["Melee"] = {
+									["count"] = 319056,
+								},
+								["Cleave"] = {
+									["count"] = 968132,
+								},
+								["Slam"] = {
+									["count"] = 130486,
+								},
+								["Whirlwind"] = {
+									["count"] = 348716,
+								},
+								["Deep Wounds (DoT)"] = {
+									["count"] = 347610,
+								},
+								["Chaos Bane"] = {
+									["count"] = 13263,
+								},
+							},
+							["amount"] = 2560717,
+						},
+						["Grandmaster's Training Dummy"] = {
+							["Details"] = {
+								["Cleave"] = {
+									["count"] = 419884,
+								},
+								["Whirlwind"] = {
+									["count"] = 246536,
+								},
+								["Deep Wounds (DoT)"] = {
+									["count"] = 90240,
+								},
+								["Chaos Bane"] = {
+									["count"] = 10591,
+								},
+							},
+							["amount"] = 767251,
+						},
+					},
+					["TimeDamage"] = 210.04,
+					["TimeDamaging"] = {
+						["Expert's Training Dummy"] = {
+							["Details"] = {
+								["Bloodthirst"] = {
+									["count"] = 13.59,
+								},
+								["Melee"] = {
+									["count"] = 24.21000000000001,
+								},
+								["Cleave"] = {
+									["count"] = 22.92,
+								},
+								["Slam"] = {
+									["count"] = 4.92,
+								},
+								["Whirlwind"] = {
+									["count"] = 10.03,
+								},
+								["Deep Wounds (DoT)"] = {
+									["count"] = 78.04000000000001,
+								},
+								["Chaos Bane"] = {
+									["count"] = 3.879999999999999,
+								},
+							},
+							["amount"] = 157.59,
+						},
+						["Grandmaster's Training Dummy"] = {
+							["Details"] = {
+								["Cleave"] = {
+									["count"] = 0.03,
+								},
+								["Whirlwind"] = {
+									["count"] = 0,
+								},
+								["Deep Wounds (DoT)"] = {
+									["count"] = 51.01999999999998,
+								},
+								["Chaos Bane"] = {
+									["count"] = 1.4,
+								},
+							},
+							["amount"] = 52.44999999999999,
+						},
+					},
+					["ElementHitsDone"] = {
+						["Physical"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 133,
+								},
+								["Crit"] = {
+									["count"] = 219,
+								},
+								["Tick"] = {
+									["count"] = 440,
+								},
+							},
+							["amount"] = 792,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 22,
+								},
+								["Crit"] = {
+									["count"] = 55,
+								},
+								["Miss"] = {
+									["count"] = 2,
+								},
+							},
+							["amount"] = 79,
+						},
+						["Shadow"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 38,
+								},
+							},
+							["amount"] = 38,
+						},
+					},
+					["RageGained"] = {
+						["Unbridled Wrath"] = {
+							["Details"] = {
+								["Rimgar"] = {
+									["count"] = 152,
+								},
+							},
+							["amount"] = 152,
+						},
+						["Bloodrage"] = {
+							["Details"] = {
+								["Rimgar"] = {
+									["count"] = 30,
+								},
+							},
+							["amount"] = 30,
+						},
+					},
+					["OverHeals"] = {
+						["Bloodthirst"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 327,
+									["min"] = 327,
+									["count"] = 132,
+									["amount"] = 43164,
+								},
+							},
+							["count"] = 132,
+							["amount"] = 43164,
+						},
+					},
+				},
+				["CurrentFightData"] = {
+					["DOTs"] = {
+						["Deep Wounds (DoT)"] = {
+							["Details"] = {
+								["Expert's Training Dummy"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 0,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["HOTs"] = {
+					},
+					["ManaGain"] = 0,
+					["ElementTaken"] = {
+					},
+					["DOT_Time"] = 0,
+					["Damage"] = 0,
+					["ElementDoneAbsorb"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["PartialAbsorb"] = {
+					},
+					["RageGain"] = 0,
+					["FAttacks"] = {
+					},
+					["PartialBlock"] = {
+					},
+					["ElementDone"] = {
+						["Physical"] = 0,
+					},
+					["CCBroken"] = {
+					},
+					["ElementHitsDone"] = {
+						["Physical"] = {
+							["Details"] = {
+								["Tick"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["Dispelled"] = 0,
+					["WhoDamaged"] = {
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["FDamagedWho"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+					},
+					["OverHeals"] = {
+					},
+					["RageGained"] = {
+					},
+					["ActiveTime"] = 0,
+					["CCBreak"] = 0,
+					["EnergyGain"] = 0,
+					["WhoHealed"] = {
+					},
+					["PartialResist"] = {
+					},
+					["ManaGained"] = {
+					},
+					["ElementTakenAbsorb"] = {
+					},
+					["Interrupts"] = 0,
+					["Overhealing"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["InterruptData"] = {
+					},
+					["WhoDispelled"] = {
+					},
+					["TimeSpent"] = {
+						["Expert's Training Dummy"] = {
+							["Details"] = {
+								["Deep Wounds (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["Heals"] = {
+					},
+					["FDamage"] = 0,
+					["EnergyGained"] = {
+					},
+					["HealedWho"] = {
+					},
+					["Healing"] = 0,
+					["RunicPowerGained"] = {
+					},
+					["ManaGainedFrom"] = {
+					},
+					["Attacks"] = {
+						["Deep Wounds (DoT)"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["HealingTaken"] = 0,
+					["DamagedWho"] = {
+						["Expert's Training Dummy"] = {
+							["Details"] = {
+								["Deep Wounds (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["TimeDamage"] = 0,
+					["TimeDamaging"] = {
+						["Expert's Training Dummy"] = {
+							["Details"] = {
+								["Deep Wounds (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["RunicPowerGain"] = 0,
+					["ElementTakenBlock"] = {
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["Fight1"] = {
+					["ElementDoneBlock"] = {
+						["Physical"] = 390,
+					},
+					["DOTs"] = {
+						["Deep Wounds (DoT)"] = {
+							["Details"] = {
+								["Expert's Training Dummy"] = {
+									["count"] = 846,
+								},
+								["Grandmaster's Training Dummy"] = {
+									["count"] = 474,
+								},
+							},
+							["amount"] = 1320,
+						},
+					},
+					["TimeSpent"] = {
+						["Expert's Training Dummy"] = {
+							["Details"] = {
+								["Bloodthirst"] = {
+									["count"] = 13.59,
+								},
+								["Melee"] = {
+									["count"] = 24.21000000000001,
+								},
+								["Cleave"] = {
+									["count"] = 22.92,
+								},
+								["Slam"] = {
+									["count"] = 4.92,
+								},
+								["Whirlwind"] = {
+									["count"] = 10.03,
+								},
+								["Deep Wounds (DoT)"] = {
+									["count"] = 78.04000000000001,
+								},
+								["Chaos Bane"] = {
+									["count"] = 3.879999999999999,
+								},
+							},
+							["amount"] = 157.59,
+						},
+						["Grandmaster's Training Dummy"] = {
+							["Details"] = {
+								["Cleave"] = {
+									["count"] = 0.03,
+								},
+								["Whirlwind"] = {
+									["count"] = 0,
+								},
+								["Deep Wounds (DoT)"] = {
+									["count"] = 51.01999999999998,
+								},
+								["Chaos Bane"] = {
+									["count"] = 1.4,
+								},
+							},
+							["amount"] = 52.44999999999999,
+						},
+					},
+					["RageGainedFrom"] = {
+						["Rimgar"] = {
+							["Details"] = {
+								["Unbridled Wrath"] = {
+									["count"] = 152,
+								},
+								["Bloodrage"] = {
+									["count"] = 30,
+								},
+							},
+							["amount"] = 182,
+						},
+					},
+					["Overhealing"] = 43164,
+					["ActiveTime"] = 210.04,
+					["DOT_Time"] = 1320,
+					["Damage"] = 3327968,
+					["ElementDone"] = {
+						["Physical"] = 2985058,
+						["Melee"] = 319056,
+						["Shadow"] = 23854,
+					},
+					["Attacks"] = {
+						["Bloodthirst"] = {
+							["Details"] = {
+								["Crit (Blocked)"] = {
+									["max"] = 14337,
+									["min"] = 10002,
+									["count"] = 5,
+									["amount"] = 58243,
+								},
+								["Crit"] = {
+									["max"] = 14367,
+									["min"] = 9303,
+									["count"] = 26,
+									["amount"] = 305525,
+								},
+								["Hit"] = {
+									["max"] = 6615,
+									["min"] = 4283,
+									["count"] = 13,
+									["amount"] = 69686,
+								},
+							},
+							["count"] = 44,
+							["amount"] = 433454,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 4302,
+									["min"] = 1886,
+									["count"] = 22,
+									["amount"] = 54931,
+								},
+								["Crit"] = {
+									["max"] = 7867,
+									["min"] = 3946,
+									["count"] = 55,
+									["amount"] = 264125,
+								},
+								["Miss"] = {
+									["count"] = 2,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 79,
+							["amount"] = 319056,
+						},
+						["Cleave"] = {
+							["Details"] = {
+								["Crit (Blocked)"] = {
+									["max"] = 10381,
+									["min"] = 8426,
+									["count"] = 5,
+									["amount"] = 47121,
+								},
+								["Crit"] = {
+									["max"] = 11666,
+									["min"] = 6990,
+									["count"] = 115,
+									["amount"] = 1047077,
+								},
+								["Hit"] = {
+									["max"] = 4955,
+									["min"] = 3279,
+									["count"] = 72,
+									["amount"] = 293818,
+								},
+							},
+							["count"] = 192,
+							["amount"] = 1388016,
+						},
+						["Slam"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 11650,
+									["min"] = 8619,
+									["count"] = 11,
+									["amount"] = 109460,
+								},
+								["Hit"] = {
+									["max"] = 4691,
+									["min"] = 3606,
+									["count"] = 5,
+									["amount"] = 21026,
+								},
+							},
+							["count"] = 16,
+							["amount"] = 130486,
+						},
+						["Whirlwind"] = {
+							["Details"] = {
+								["Hit (Blocked)"] = {
+									["max"] = 4011,
+									["min"] = 4011,
+									["count"] = 1,
+									["amount"] = 4011,
+								},
+								["Crit (Blocked)"] = {
+									["max"] = 9738,
+									["min"] = 5967,
+									["count"] = 2,
+									["amount"] = 15705,
+								},
+								["Crit"] = {
+									["max"] = 11922,
+									["min"] = 5082,
+									["count"] = 55,
+									["amount"] = 427740,
+								},
+								["Hit"] = {
+									["max"] = 5194,
+									["min"] = 2219,
+									["count"] = 42,
+									["amount"] = 147796,
+								},
+							},
+							["count"] = 100,
+							["amount"] = 595252,
+						},
+						["Deep Wounds (DoT)"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 4115,
+									["min"] = 186,
+									["count"] = 440,
+									["amount"] = 437850,
+								},
+							},
+							["count"] = 440,
+							["amount"] = 437850,
+						},
+						["Chaos Bane"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 697,
+									["min"] = 478,
+									["count"] = 38,
+									["amount"] = 23854,
+								},
+							},
+							["count"] = 38,
+							["amount"] = 23854,
+						},
+					},
+					["RageGain"] = 182,
+					["DamagedWho"] = {
+						["Expert's Training Dummy"] = {
+							["Details"] = {
+								["Bloodthirst"] = {
+									["count"] = 433454,
+								},
+								["Melee"] = {
+									["count"] = 319056,
+								},
+								["Cleave"] = {
+									["count"] = 968132,
+								},
+								["Slam"] = {
+									["count"] = 130486,
+								},
+								["Whirlwind"] = {
+									["count"] = 348716,
+								},
+								["Deep Wounds (DoT)"] = {
+									["count"] = 347610,
+								},
+								["Chaos Bane"] = {
+									["count"] = 13263,
+								},
+							},
+							["amount"] = 2560717,
+						},
+						["Grandmaster's Training Dummy"] = {
+							["Details"] = {
+								["Cleave"] = {
+									["count"] = 419884,
+								},
+								["Whirlwind"] = {
+									["count"] = 246536,
+								},
+								["Deep Wounds (DoT)"] = {
+									["count"] = 90240,
+								},
+								["Chaos Bane"] = {
+									["count"] = 10591,
+								},
+							},
+							["amount"] = 767251,
+						},
+					},
+					["TimeDamage"] = 210.04,
+					["TimeDamaging"] = {
+						["Expert's Training Dummy"] = {
+							["Details"] = {
+								["Bloodthirst"] = {
+									["count"] = 13.59,
+								},
+								["Melee"] = {
+									["count"] = 24.21000000000001,
+								},
+								["Cleave"] = {
+									["count"] = 22.92,
+								},
+								["Slam"] = {
+									["count"] = 4.92,
+								},
+								["Whirlwind"] = {
+									["count"] = 10.03,
+								},
+								["Deep Wounds (DoT)"] = {
+									["count"] = 78.04000000000001,
+								},
+								["Chaos Bane"] = {
+									["count"] = 3.879999999999999,
+								},
+							},
+							["amount"] = 157.59,
+						},
+						["Grandmaster's Training Dummy"] = {
+							["Details"] = {
+								["Cleave"] = {
+									["count"] = 0.03,
+								},
+								["Whirlwind"] = {
+									["count"] = 0,
+								},
+								["Deep Wounds (DoT)"] = {
+									["count"] = 51.01999999999998,
+								},
+								["Chaos Bane"] = {
+									["count"] = 1.4,
+								},
+							},
+							["amount"] = 52.44999999999999,
+						},
+					},
+					["ElementHitsDone"] = {
+						["Physical"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 133,
+								},
+								["Crit"] = {
+									["count"] = 219,
+								},
+								["Tick"] = {
+									["count"] = 440,
+								},
+							},
+							["amount"] = 792,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 22,
+								},
+								["Crit"] = {
+									["count"] = 55,
+								},
+								["Miss"] = {
+									["count"] = 2,
+								},
+							},
+							["amount"] = 79,
+						},
+						["Shadow"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 38,
+								},
+							},
+							["amount"] = 38,
+						},
+					},
+					["RageGained"] = {
+						["Unbridled Wrath"] = {
+							["Details"] = {
+								["Rimgar"] = {
+									["count"] = 152,
+								},
+							},
+							["amount"] = 152,
+						},
+						["Bloodrage"] = {
+							["Details"] = {
+								["Rimgar"] = {
+									["count"] = 30,
+								},
+							},
+							["amount"] = 30,
+						},
+					},
+					["OverHeals"] = {
+						["Bloodthirst"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 327,
+									["min"] = 327,
+									["count"] = 132,
+									["amount"] = 43164,
+								},
+							},
+							["count"] = 132,
+							["amount"] = 43164,
+						},
+					},
+				},
+			},
+			["TimeLast"] = {
+				["RageGain"] = 1619440528,
+				["Overhealing"] = 1619440528,
+				["ActiveTime"] = 1619440535,
+				["TimeDamage"] = 1619440535,
+				["OVERALL"] = 1619440535,
+				["DOT_Time"] = 1619440535,
+				["Damage"] = 1619440535,
+			},
 			["LastEventIncoming"] = {
 				false, -- [1]
 				false, -- [2]
@@ -362,1339 +1694,7 @@ RecountPerCharDB = {
 				24236.712, -- [49]
 				24236.714, -- [50]
 			},
-			["Fights"] = {
-				["Fight1"] = {
-					["ElementDoneBlock"] = {
-						["Physical"] = 390,
-					},
-					["DOTs"] = {
-						["Deep Wounds (DoT)"] = {
-							["Details"] = {
-								["Expert's Training Dummy"] = {
-									["count"] = 846,
-								},
-								["Grandmaster's Training Dummy"] = {
-									["count"] = 474,
-								},
-							},
-							["amount"] = 1320,
-						},
-					},
-					["TimeSpent"] = {
-						["Expert's Training Dummy"] = {
-							["Details"] = {
-								["Bloodthirst"] = {
-									["count"] = 13.59,
-								},
-								["Melee"] = {
-									["count"] = 24.21000000000001,
-								},
-								["Cleave"] = {
-									["count"] = 22.92,
-								},
-								["Slam"] = {
-									["count"] = 4.92,
-								},
-								["Whirlwind"] = {
-									["count"] = 10.03,
-								},
-								["Chaos Bane"] = {
-									["count"] = 3.879999999999999,
-								},
-								["Deep Wounds (DoT)"] = {
-									["count"] = 78.04000000000001,
-								},
-							},
-							["amount"] = 157.59,
-						},
-						["Grandmaster's Training Dummy"] = {
-							["Details"] = {
-								["Chaos Bane"] = {
-									["count"] = 1.4,
-								},
-								["Whirlwind"] = {
-									["count"] = 0,
-								},
-								["Deep Wounds (DoT)"] = {
-									["count"] = 51.01999999999998,
-								},
-								["Cleave"] = {
-									["count"] = 0.03,
-								},
-							},
-							["amount"] = 52.44999999999999,
-						},
-					},
-					["RageGainedFrom"] = {
-						["Rimgar"] = {
-							["Details"] = {
-								["Unbridled Wrath"] = {
-									["count"] = 152,
-								},
-								["Bloodrage"] = {
-									["count"] = 30,
-								},
-							},
-							["amount"] = 182,
-						},
-					},
-					["Overhealing"] = 43164,
-					["ActiveTime"] = 210.04,
-					["DOT_Time"] = 1320,
-					["Damage"] = 3327968,
-					["OverHeals"] = {
-						["Bloodthirst"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 327,
-									["min"] = 327,
-									["count"] = 132,
-									["amount"] = 43164,
-								},
-							},
-							["count"] = 132,
-							["amount"] = 43164,
-						},
-					},
-					["Attacks"] = {
-						["Bloodthirst"] = {
-							["Details"] = {
-								["Crit (Blocked)"] = {
-									["max"] = 14337,
-									["min"] = 10002,
-									["count"] = 5,
-									["amount"] = 58243,
-								},
-								["Crit"] = {
-									["max"] = 14367,
-									["min"] = 9303,
-									["count"] = 26,
-									["amount"] = 305525,
-								},
-								["Hit"] = {
-									["max"] = 6615,
-									["min"] = 4283,
-									["count"] = 13,
-									["amount"] = 69686,
-								},
-							},
-							["count"] = 44,
-							["amount"] = 433454,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["Miss"] = {
-									["count"] = 2,
-									["amount"] = 0,
-								},
-								["Crit"] = {
-									["max"] = 7867,
-									["min"] = 3946,
-									["count"] = 55,
-									["amount"] = 264125,
-								},
-								["Hit"] = {
-									["max"] = 4302,
-									["min"] = 1886,
-									["count"] = 22,
-									["amount"] = 54931,
-								},
-							},
-							["count"] = 79,
-							["amount"] = 319056,
-						},
-						["Cleave"] = {
-							["Details"] = {
-								["Crit (Blocked)"] = {
-									["max"] = 10381,
-									["min"] = 8426,
-									["count"] = 5,
-									["amount"] = 47121,
-								},
-								["Crit"] = {
-									["max"] = 11666,
-									["min"] = 6990,
-									["count"] = 115,
-									["amount"] = 1047077,
-								},
-								["Hit"] = {
-									["max"] = 4955,
-									["min"] = 3279,
-									["count"] = 72,
-									["amount"] = 293818,
-								},
-							},
-							["count"] = 192,
-							["amount"] = 1388016,
-						},
-						["Slam"] = {
-							["Details"] = {
-								["Crit"] = {
-									["max"] = 11650,
-									["min"] = 8619,
-									["count"] = 11,
-									["amount"] = 109460,
-								},
-								["Hit"] = {
-									["max"] = 4691,
-									["min"] = 3606,
-									["count"] = 5,
-									["amount"] = 21026,
-								},
-							},
-							["count"] = 16,
-							["amount"] = 130486,
-						},
-						["Whirlwind"] = {
-							["Details"] = {
-								["Hit (Blocked)"] = {
-									["max"] = 4011,
-									["min"] = 4011,
-									["count"] = 1,
-									["amount"] = 4011,
-								},
-								["Crit (Blocked)"] = {
-									["max"] = 9738,
-									["min"] = 5967,
-									["count"] = 2,
-									["amount"] = 15705,
-								},
-								["Crit"] = {
-									["max"] = 11922,
-									["min"] = 5082,
-									["count"] = 55,
-									["amount"] = 427740,
-								},
-								["Hit"] = {
-									["max"] = 5194,
-									["min"] = 2219,
-									["count"] = 42,
-									["amount"] = 147796,
-								},
-							},
-							["count"] = 100,
-							["amount"] = 595252,
-						},
-						["Chaos Bane"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 697,
-									["min"] = 478,
-									["count"] = 38,
-									["amount"] = 23854,
-								},
-							},
-							["count"] = 38,
-							["amount"] = 23854,
-						},
-						["Deep Wounds (DoT)"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 4115,
-									["min"] = 186,
-									["count"] = 440,
-									["amount"] = 437850,
-								},
-							},
-							["count"] = 440,
-							["amount"] = 437850,
-						},
-					},
-					["RageGain"] = 182,
-					["DamagedWho"] = {
-						["Expert's Training Dummy"] = {
-							["Details"] = {
-								["Bloodthirst"] = {
-									["count"] = 433454,
-								},
-								["Melee"] = {
-									["count"] = 319056,
-								},
-								["Cleave"] = {
-									["count"] = 968132,
-								},
-								["Slam"] = {
-									["count"] = 130486,
-								},
-								["Whirlwind"] = {
-									["count"] = 348716,
-								},
-								["Chaos Bane"] = {
-									["count"] = 13263,
-								},
-								["Deep Wounds (DoT)"] = {
-									["count"] = 347610,
-								},
-							},
-							["amount"] = 2560717,
-						},
-						["Grandmaster's Training Dummy"] = {
-							["Details"] = {
-								["Chaos Bane"] = {
-									["count"] = 10591,
-								},
-								["Whirlwind"] = {
-									["count"] = 246536,
-								},
-								["Deep Wounds (DoT)"] = {
-									["count"] = 90240,
-								},
-								["Cleave"] = {
-									["count"] = 419884,
-								},
-							},
-							["amount"] = 767251,
-						},
-					},
-					["TimeDamage"] = 210.04,
-					["TimeDamaging"] = {
-						["Expert's Training Dummy"] = {
-							["Details"] = {
-								["Bloodthirst"] = {
-									["count"] = 13.59,
-								},
-								["Melee"] = {
-									["count"] = 24.21000000000001,
-								},
-								["Cleave"] = {
-									["count"] = 22.92,
-								},
-								["Slam"] = {
-									["count"] = 4.92,
-								},
-								["Whirlwind"] = {
-									["count"] = 10.03,
-								},
-								["Chaos Bane"] = {
-									["count"] = 3.879999999999999,
-								},
-								["Deep Wounds (DoT)"] = {
-									["count"] = 78.04000000000001,
-								},
-							},
-							["amount"] = 157.59,
-						},
-						["Grandmaster's Training Dummy"] = {
-							["Details"] = {
-								["Chaos Bane"] = {
-									["count"] = 1.4,
-								},
-								["Whirlwind"] = {
-									["count"] = 0,
-								},
-								["Deep Wounds (DoT)"] = {
-									["count"] = 51.01999999999998,
-								},
-								["Cleave"] = {
-									["count"] = 0.03,
-								},
-							},
-							["amount"] = 52.44999999999999,
-						},
-					},
-					["RageGained"] = {
-						["Unbridled Wrath"] = {
-							["Details"] = {
-								["Rimgar"] = {
-									["count"] = 152,
-								},
-							},
-							["amount"] = 152,
-						},
-						["Bloodrage"] = {
-							["Details"] = {
-								["Rimgar"] = {
-									["count"] = 30,
-								},
-							},
-							["amount"] = 30,
-						},
-					},
-					["ElementHitsDone"] = {
-						["Physical"] = {
-							["Details"] = {
-								["Tick"] = {
-									["count"] = 440,
-								},
-								["Crit"] = {
-									["count"] = 219,
-								},
-								["Hit"] = {
-									["count"] = 133,
-								},
-							},
-							["amount"] = 792,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["Miss"] = {
-									["count"] = 2,
-								},
-								["Crit"] = {
-									["count"] = 55,
-								},
-								["Hit"] = {
-									["count"] = 22,
-								},
-							},
-							["amount"] = 79,
-						},
-						["Shadow"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 38,
-								},
-							},
-							["amount"] = 38,
-						},
-					},
-					["ElementDone"] = {
-						["Physical"] = 2985058,
-						["Melee"] = 319056,
-						["Shadow"] = 23854,
-					},
-				},
-				["LastFightData"] = {
-					["ElementDoneBlock"] = {
-						["Physical"] = 390,
-					},
-					["DOTs"] = {
-						["Deep Wounds (DoT)"] = {
-							["Details"] = {
-								["Expert's Training Dummy"] = {
-									["count"] = 846,
-								},
-								["Grandmaster's Training Dummy"] = {
-									["count"] = 474,
-								},
-							},
-							["amount"] = 1320,
-						},
-					},
-					["TimeSpent"] = {
-						["Expert's Training Dummy"] = {
-							["Details"] = {
-								["Bloodthirst"] = {
-									["count"] = 13.59,
-								},
-								["Melee"] = {
-									["count"] = 24.21000000000001,
-								},
-								["Cleave"] = {
-									["count"] = 22.92,
-								},
-								["Slam"] = {
-									["count"] = 4.92,
-								},
-								["Whirlwind"] = {
-									["count"] = 10.03,
-								},
-								["Chaos Bane"] = {
-									["count"] = 3.879999999999999,
-								},
-								["Deep Wounds (DoT)"] = {
-									["count"] = 78.04000000000001,
-								},
-							},
-							["amount"] = 157.59,
-						},
-						["Grandmaster's Training Dummy"] = {
-							["Details"] = {
-								["Chaos Bane"] = {
-									["count"] = 1.4,
-								},
-								["Whirlwind"] = {
-									["count"] = 0,
-								},
-								["Deep Wounds (DoT)"] = {
-									["count"] = 51.01999999999998,
-								},
-								["Cleave"] = {
-									["count"] = 0.03,
-								},
-							},
-							["amount"] = 52.44999999999999,
-						},
-					},
-					["RageGainedFrom"] = {
-						["Rimgar"] = {
-							["Details"] = {
-								["Unbridled Wrath"] = {
-									["count"] = 152,
-								},
-								["Bloodrage"] = {
-									["count"] = 30,
-								},
-							},
-							["amount"] = 182,
-						},
-					},
-					["Overhealing"] = 43164,
-					["ActiveTime"] = 210.04,
-					["DOT_Time"] = 1320,
-					["Damage"] = 3327968,
-					["OverHeals"] = {
-						["Bloodthirst"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 327,
-									["min"] = 327,
-									["count"] = 132,
-									["amount"] = 43164,
-								},
-							},
-							["count"] = 132,
-							["amount"] = 43164,
-						},
-					},
-					["Attacks"] = {
-						["Bloodthirst"] = {
-							["Details"] = {
-								["Crit (Blocked)"] = {
-									["max"] = 14337,
-									["min"] = 10002,
-									["count"] = 5,
-									["amount"] = 58243,
-								},
-								["Crit"] = {
-									["max"] = 14367,
-									["min"] = 9303,
-									["count"] = 26,
-									["amount"] = 305525,
-								},
-								["Hit"] = {
-									["max"] = 6615,
-									["min"] = 4283,
-									["count"] = 13,
-									["amount"] = 69686,
-								},
-							},
-							["count"] = 44,
-							["amount"] = 433454,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["Miss"] = {
-									["count"] = 2,
-									["amount"] = 0,
-								},
-								["Crit"] = {
-									["max"] = 7867,
-									["min"] = 3946,
-									["count"] = 55,
-									["amount"] = 264125,
-								},
-								["Hit"] = {
-									["max"] = 4302,
-									["min"] = 1886,
-									["count"] = 22,
-									["amount"] = 54931,
-								},
-							},
-							["count"] = 79,
-							["amount"] = 319056,
-						},
-						["Cleave"] = {
-							["Details"] = {
-								["Crit (Blocked)"] = {
-									["max"] = 10381,
-									["min"] = 8426,
-									["count"] = 5,
-									["amount"] = 47121,
-								},
-								["Crit"] = {
-									["max"] = 11666,
-									["min"] = 6990,
-									["count"] = 115,
-									["amount"] = 1047077,
-								},
-								["Hit"] = {
-									["max"] = 4955,
-									["min"] = 3279,
-									["count"] = 72,
-									["amount"] = 293818,
-								},
-							},
-							["count"] = 192,
-							["amount"] = 1388016,
-						},
-						["Slam"] = {
-							["Details"] = {
-								["Crit"] = {
-									["max"] = 11650,
-									["min"] = 8619,
-									["count"] = 11,
-									["amount"] = 109460,
-								},
-								["Hit"] = {
-									["max"] = 4691,
-									["min"] = 3606,
-									["count"] = 5,
-									["amount"] = 21026,
-								},
-							},
-							["count"] = 16,
-							["amount"] = 130486,
-						},
-						["Whirlwind"] = {
-							["Details"] = {
-								["Hit (Blocked)"] = {
-									["max"] = 4011,
-									["min"] = 4011,
-									["count"] = 1,
-									["amount"] = 4011,
-								},
-								["Crit (Blocked)"] = {
-									["max"] = 9738,
-									["min"] = 5967,
-									["count"] = 2,
-									["amount"] = 15705,
-								},
-								["Crit"] = {
-									["max"] = 11922,
-									["min"] = 5082,
-									["count"] = 55,
-									["amount"] = 427740,
-								},
-								["Hit"] = {
-									["max"] = 5194,
-									["min"] = 2219,
-									["count"] = 42,
-									["amount"] = 147796,
-								},
-							},
-							["count"] = 100,
-							["amount"] = 595252,
-						},
-						["Chaos Bane"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 697,
-									["min"] = 478,
-									["count"] = 38,
-									["amount"] = 23854,
-								},
-							},
-							["count"] = 38,
-							["amount"] = 23854,
-						},
-						["Deep Wounds (DoT)"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 4115,
-									["min"] = 186,
-									["count"] = 440,
-									["amount"] = 437850,
-								},
-							},
-							["count"] = 440,
-							["amount"] = 437850,
-						},
-					},
-					["RageGain"] = 182,
-					["DamagedWho"] = {
-						["Expert's Training Dummy"] = {
-							["Details"] = {
-								["Bloodthirst"] = {
-									["count"] = 433454,
-								},
-								["Melee"] = {
-									["count"] = 319056,
-								},
-								["Cleave"] = {
-									["count"] = 968132,
-								},
-								["Slam"] = {
-									["count"] = 130486,
-								},
-								["Whirlwind"] = {
-									["count"] = 348716,
-								},
-								["Chaos Bane"] = {
-									["count"] = 13263,
-								},
-								["Deep Wounds (DoT)"] = {
-									["count"] = 347610,
-								},
-							},
-							["amount"] = 2560717,
-						},
-						["Grandmaster's Training Dummy"] = {
-							["Details"] = {
-								["Chaos Bane"] = {
-									["count"] = 10591,
-								},
-								["Whirlwind"] = {
-									["count"] = 246536,
-								},
-								["Deep Wounds (DoT)"] = {
-									["count"] = 90240,
-								},
-								["Cleave"] = {
-									["count"] = 419884,
-								},
-							},
-							["amount"] = 767251,
-						},
-					},
-					["TimeDamage"] = 210.04,
-					["TimeDamaging"] = {
-						["Expert's Training Dummy"] = {
-							["Details"] = {
-								["Bloodthirst"] = {
-									["count"] = 13.59,
-								},
-								["Melee"] = {
-									["count"] = 24.21000000000001,
-								},
-								["Cleave"] = {
-									["count"] = 22.92,
-								},
-								["Slam"] = {
-									["count"] = 4.92,
-								},
-								["Whirlwind"] = {
-									["count"] = 10.03,
-								},
-								["Chaos Bane"] = {
-									["count"] = 3.879999999999999,
-								},
-								["Deep Wounds (DoT)"] = {
-									["count"] = 78.04000000000001,
-								},
-							},
-							["amount"] = 157.59,
-						},
-						["Grandmaster's Training Dummy"] = {
-							["Details"] = {
-								["Chaos Bane"] = {
-									["count"] = 1.4,
-								},
-								["Whirlwind"] = {
-									["count"] = 0,
-								},
-								["Deep Wounds (DoT)"] = {
-									["count"] = 51.01999999999998,
-								},
-								["Cleave"] = {
-									["count"] = 0.03,
-								},
-							},
-							["amount"] = 52.44999999999999,
-						},
-					},
-					["RageGained"] = {
-						["Unbridled Wrath"] = {
-							["Details"] = {
-								["Rimgar"] = {
-									["count"] = 152,
-								},
-							},
-							["amount"] = 152,
-						},
-						["Bloodrage"] = {
-							["Details"] = {
-								["Rimgar"] = {
-									["count"] = 30,
-								},
-							},
-							["amount"] = 30,
-						},
-					},
-					["ElementHitsDone"] = {
-						["Physical"] = {
-							["Details"] = {
-								["Tick"] = {
-									["count"] = 440,
-								},
-								["Crit"] = {
-									["count"] = 219,
-								},
-								["Hit"] = {
-									["count"] = 133,
-								},
-							},
-							["amount"] = 792,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["Miss"] = {
-									["count"] = 2,
-								},
-								["Crit"] = {
-									["count"] = 55,
-								},
-								["Hit"] = {
-									["count"] = 22,
-								},
-							},
-							["amount"] = 79,
-						},
-						["Shadow"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 38,
-								},
-							},
-							["amount"] = 38,
-						},
-					},
-					["ElementDone"] = {
-						["Physical"] = 2985058,
-						["Melee"] = 319056,
-						["Shadow"] = 23854,
-					},
-				},
-				["CurrentFightData"] = {
-					["DOTs"] = {
-						["Deep Wounds (DoT)"] = {
-							["Details"] = {
-								["Expert's Training Dummy"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["ElementDoneResist"] = {
-					},
-					["Ressed"] = 0,
-					["DamageTaken"] = 0,
-					["RageGainedFrom"] = {
-					},
-					["ElementHitsTaken"] = {
-					},
-					["DeathCount"] = 0,
-					["HOT_Time"] = 0,
-					["ElementHitsDone"] = {
-						["Physical"] = {
-							["Details"] = {
-								["Tick"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["ElementTakenAbsorb"] = {
-					},
-					["ElementTaken"] = {
-					},
-					["DOT_Time"] = 0,
-					["Damage"] = 0,
-					["ElementTakenBlock"] = {
-					},
-					["TimeHeal"] = 0,
-					["RessedWho"] = {
-					},
-					["Dispels"] = 0,
-					["ElementTakenResist"] = {
-					},
-					["ElementDoneAbsorb"] = {
-					},
-					["FAttacks"] = {
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementDone"] = {
-						["Physical"] = 0,
-					},
-					["PartialAbsorb"] = {
-					},
-					["DamagedWho"] = {
-						["Expert's Training Dummy"] = {
-							["Details"] = {
-								["Deep Wounds (DoT)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["PartialBlock"] = {
-					},
-					["WhoDamaged"] = {
-					},
-					["EnergyGainedFrom"] = {
-					},
-					["PartialResist"] = {
-					},
-					["CCBroken"] = {
-					},
-					["ElementDoneBlock"] = {
-					},
-					["TimeHealing"] = {
-					},
-					["OverHeals"] = {
-					},
-					["ManaGainedFrom"] = {
-					},
-					["RunicPowerGained"] = {
-					},
-					["CCBreak"] = 0,
-					["RageGained"] = {
-					},
-					["HealedWho"] = {
-					},
-					["EnergyGain"] = 0,
-					["ManaGained"] = {
-					},
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
-					["Overhealing"] = 0,
-					["TimeSpent"] = {
-						["Expert's Training Dummy"] = {
-							["Details"] = {
-								["Deep Wounds (DoT)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["WhoDispelled"] = {
-					},
-					["InterruptData"] = {
-					},
-					["RunicPowerGain"] = 0,
-					["Heals"] = {
-					},
-					["WhoHealed"] = {
-					},
-					["EnergyGained"] = {
-					},
-					["ActiveTime"] = 0,
-					["Healing"] = 0,
-					["FDamagedWho"] = {
-					},
-					["Dispelled"] = 0,
-					["Attacks"] = {
-						["Deep Wounds (DoT)"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["HealingTaken"] = 0,
-					["RageGain"] = 0,
-					["TimeDamage"] = 0,
-					["TimeDamaging"] = {
-						["Expert's Training Dummy"] = {
-							["Details"] = {
-								["Deep Wounds (DoT)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["ManaGain"] = 0,
-					["HOTs"] = {
-					},
-					["DispelledWho"] = {
-					},
-				},
-				["OverallData"] = {
-					["ElementDoneBlock"] = {
-						["Physical"] = 390,
-					},
-					["DOTs"] = {
-						["Deep Wounds (DoT)"] = {
-							["Details"] = {
-								["Expert's Training Dummy"] = {
-									["count"] = 852,
-								},
-								["Grandmaster's Training Dummy"] = {
-									["count"] = 474,
-								},
-							},
-							["amount"] = 1326,
-						},
-					},
-					["TimeSpent"] = {
-						["Expert's Training Dummy"] = {
-							["Details"] = {
-								["Bloodthirst"] = {
-									["count"] = 13.59,
-								},
-								["Melee"] = {
-									["count"] = 24.21000000000001,
-								},
-								["Cleave"] = {
-									["count"] = 22.92,
-								},
-								["Slam"] = {
-									["count"] = 4.92,
-								},
-								["Whirlwind"] = {
-									["count"] = 10.03,
-								},
-								["Chaos Bane"] = {
-									["count"] = 3.879999999999999,
-								},
-								["Deep Wounds (DoT)"] = {
-									["count"] = 79.05000000000001,
-								},
-							},
-							["amount"] = 158.6,
-						},
-						["Grandmaster's Training Dummy"] = {
-							["Details"] = {
-								["Chaos Bane"] = {
-									["count"] = 1.4,
-								},
-								["Whirlwind"] = {
-									["count"] = 0,
-								},
-								["Deep Wounds (DoT)"] = {
-									["count"] = 51.01999999999998,
-								},
-								["Cleave"] = {
-									["count"] = 0.03,
-								},
-							},
-							["amount"] = 52.44999999999999,
-						},
-					},
-					["RageGainedFrom"] = {
-						["Rimgar"] = {
-							["Details"] = {
-								["Unbridled Wrath"] = {
-									["count"] = 152,
-								},
-								["Bloodrage"] = {
-									["count"] = 30,
-								},
-							},
-							["amount"] = 182,
-						},
-					},
-					["Overhealing"] = 43164,
-					["ActiveTime"] = 211.05,
-					["DOT_Time"] = 1326,
-					["Damage"] = 3330538,
-					["OverHeals"] = {
-						["Bloodthirst"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 327,
-									["min"] = 327,
-									["count"] = 132,
-									["amount"] = 43164,
-								},
-							},
-							["count"] = 132,
-							["amount"] = 43164,
-						},
-					},
-					["Attacks"] = {
-						["Bloodthirst"] = {
-							["Details"] = {
-								["Crit (Blocked)"] = {
-									["max"] = 14337,
-									["min"] = 10002,
-									["count"] = 5,
-									["amount"] = 58243,
-								},
-								["Crit"] = {
-									["max"] = 14367,
-									["min"] = 9303,
-									["count"] = 26,
-									["amount"] = 305525,
-								},
-								["Hit"] = {
-									["max"] = 6615,
-									["min"] = 4283,
-									["count"] = 13,
-									["amount"] = 69686,
-								},
-							},
-							["count"] = 44,
-							["amount"] = 433454,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["Miss"] = {
-									["count"] = 2,
-									["amount"] = 0,
-								},
-								["Crit"] = {
-									["max"] = 7867,
-									["min"] = 3946,
-									["count"] = 55,
-									["amount"] = 264125,
-								},
-								["Hit"] = {
-									["max"] = 4302,
-									["min"] = 1886,
-									["count"] = 22,
-									["amount"] = 54931,
-								},
-							},
-							["count"] = 79,
-							["amount"] = 319056,
-						},
-						["Cleave"] = {
-							["Details"] = {
-								["Crit (Blocked)"] = {
-									["max"] = 10381,
-									["min"] = 8426,
-									["count"] = 5,
-									["amount"] = 47121,
-								},
-								["Crit"] = {
-									["max"] = 11666,
-									["min"] = 6990,
-									["count"] = 115,
-									["amount"] = 1047077,
-								},
-								["Hit"] = {
-									["max"] = 4955,
-									["min"] = 3279,
-									["count"] = 72,
-									["amount"] = 293818,
-								},
-							},
-							["count"] = 192,
-							["amount"] = 1388016,
-						},
-						["Slam"] = {
-							["Details"] = {
-								["Crit"] = {
-									["max"] = 11650,
-									["min"] = 8619,
-									["count"] = 11,
-									["amount"] = 109460,
-								},
-								["Hit"] = {
-									["max"] = 4691,
-									["min"] = 3606,
-									["count"] = 5,
-									["amount"] = 21026,
-								},
-							},
-							["count"] = 16,
-							["amount"] = 130486,
-						},
-						["Whirlwind"] = {
-							["Details"] = {
-								["Hit (Blocked)"] = {
-									["max"] = 4011,
-									["min"] = 4011,
-									["count"] = 1,
-									["amount"] = 4011,
-								},
-								["Crit (Blocked)"] = {
-									["max"] = 9738,
-									["min"] = 5967,
-									["count"] = 2,
-									["amount"] = 15705,
-								},
-								["Crit"] = {
-									["max"] = 11922,
-									["min"] = 5082,
-									["count"] = 55,
-									["amount"] = 427740,
-								},
-								["Hit"] = {
-									["max"] = 5194,
-									["min"] = 2219,
-									["count"] = 42,
-									["amount"] = 147796,
-								},
-							},
-							["count"] = 100,
-							["amount"] = 595252,
-						},
-						["Chaos Bane"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 697,
-									["min"] = 478,
-									["count"] = 38,
-									["amount"] = 23854,
-								},
-							},
-							["count"] = 38,
-							["amount"] = 23854,
-						},
-						["Deep Wounds (DoT)"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 4115,
-									["min"] = 186,
-									["count"] = 442,
-									["amount"] = 440420,
-								},
-							},
-							["count"] = 442,
-							["amount"] = 440420,
-						},
-					},
-					["RageGain"] = 182,
-					["DamagedWho"] = {
-						["Expert's Training Dummy"] = {
-							["Details"] = {
-								["Bloodthirst"] = {
-									["count"] = 433454,
-								},
-								["Melee"] = {
-									["count"] = 319056,
-								},
-								["Cleave"] = {
-									["count"] = 968132,
-								},
-								["Slam"] = {
-									["count"] = 130486,
-								},
-								["Whirlwind"] = {
-									["count"] = 348716,
-								},
-								["Chaos Bane"] = {
-									["count"] = 13263,
-								},
-								["Deep Wounds (DoT)"] = {
-									["count"] = 350180,
-								},
-							},
-							["amount"] = 2563287,
-						},
-						["Grandmaster's Training Dummy"] = {
-							["Details"] = {
-								["Chaos Bane"] = {
-									["count"] = 10591,
-								},
-								["Whirlwind"] = {
-									["count"] = 246536,
-								},
-								["Deep Wounds (DoT)"] = {
-									["count"] = 90240,
-								},
-								["Cleave"] = {
-									["count"] = 419884,
-								},
-							},
-							["amount"] = 767251,
-						},
-					},
-					["TimeDamage"] = 211.05,
-					["TimeDamaging"] = {
-						["Expert's Training Dummy"] = {
-							["Details"] = {
-								["Bloodthirst"] = {
-									["count"] = 13.59,
-								},
-								["Melee"] = {
-									["count"] = 24.21000000000001,
-								},
-								["Cleave"] = {
-									["count"] = 22.92,
-								},
-								["Slam"] = {
-									["count"] = 4.92,
-								},
-								["Whirlwind"] = {
-									["count"] = 10.03,
-								},
-								["Chaos Bane"] = {
-									["count"] = 3.879999999999999,
-								},
-								["Deep Wounds (DoT)"] = {
-									["count"] = 79.05000000000001,
-								},
-							},
-							["amount"] = 158.6,
-						},
-						["Grandmaster's Training Dummy"] = {
-							["Details"] = {
-								["Chaos Bane"] = {
-									["count"] = 1.4,
-								},
-								["Whirlwind"] = {
-									["count"] = 0,
-								},
-								["Deep Wounds (DoT)"] = {
-									["count"] = 51.01999999999998,
-								},
-								["Cleave"] = {
-									["count"] = 0.03,
-								},
-							},
-							["amount"] = 52.44999999999999,
-						},
-					},
-					["RageGained"] = {
-						["Unbridled Wrath"] = {
-							["Details"] = {
-								["Rimgar"] = {
-									["count"] = 152,
-								},
-							},
-							["amount"] = 152,
-						},
-						["Bloodrage"] = {
-							["Details"] = {
-								["Rimgar"] = {
-									["count"] = 30,
-								},
-							},
-							["amount"] = 30,
-						},
-					},
-					["ElementHitsDone"] = {
-						["Physical"] = {
-							["Details"] = {
-								["Tick"] = {
-									["count"] = 442,
-								},
-								["Crit"] = {
-									["count"] = 219,
-								},
-								["Hit"] = {
-									["count"] = 133,
-								},
-							},
-							["amount"] = 794,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["Miss"] = {
-									["count"] = 2,
-								},
-								["Crit"] = {
-									["count"] = 55,
-								},
-								["Hit"] = {
-									["count"] = 22,
-								},
-							},
-							["amount"] = 79,
-						},
-						["Shadow"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 38,
-								},
-							},
-							["amount"] = 38,
-						},
-					},
-					["ElementDone"] = {
-						["Physical"] = 2987628,
-						["Melee"] = 319056,
-						["Shadow"] = 23854,
-					},
-				},
-			},
-			["UnitLockout"] = 1619440327,
-			["LastActive"] = 1619440535,
+			["LastAbility"] = 1275.136,
 		},
 	},
 	["FightNum"] = 1,
