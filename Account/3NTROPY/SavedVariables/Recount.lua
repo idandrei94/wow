@@ -91,7 +91,19 @@ RecountDB = {
 					["x"] = -635.8334029401452,
 				},
 			},
+			["Colors"] = {
+				["Bar"] = {
+					["Bar Text"] = {
+						["a"] = 1,
+					},
+					["Total Bar"] = {
+						["a"] = 1,
+					},
+				},
+			},
+			["DetailWindowY"] = -152.7036942991919,
 			["DetailWindowX"] = 867.5926716507743,
+			["GraphWindowX"] = 0,
 			["LastInstanceName"] = "Vault of Archavon",
 			["RealtimeWindows"] = {
 				["Realtime_Nalar_DAMAGE"] = {
@@ -116,20 +128,8 @@ RecountDB = {
 				},
 			},
 			["CurDataSet"] = "LastFightData",
-			["Colors"] = {
-				["Bar"] = {
-					["Bar Text"] = {
-						["a"] = 1,
-					},
-					["Total Bar"] = {
-						["a"] = 1,
-					},
-				},
-			},
-			["DetailWindowY"] = -152.7036942991919,
-			["MainWindowHeight"] = 345.0444837792649,
 			["MainWindowWidth"] = 243.3555780154447,
-			["GraphWindowX"] = 0,
+			["MainWindowHeight"] = 345.0444837792649,
 		},
 		["Denathra - Icecrown"] = {
 			["GraphWindowY"] = 0,
@@ -266,6 +266,9 @@ RecountDB = {
 					["x"] = -632.2410310990288,
 				},
 			},
+			["DetailWindowX"] = 160.9111434339599,
+			["LastInstanceName"] = "The Nexus",
+			["CurDataSet"] = "LastFightData",
 			["Colors"] = {
 				["Bar"] = {
 					["Bar Text"] = {
@@ -274,9 +277,6 @@ RecountDB = {
 				},
 			},
 			["DetailWindowY"] = -107.7333573326952,
-			["DetailWindowX"] = 160.9111434339599,
-			["LastInstanceName"] = "The Nexus",
-			["CurDataSet"] = "LastFightData",
 			["GraphWindowX"] = 0,
 			["MainWindowWidth"] = 247.3703663456547,
 			["MainWindowHeight"] = 317.6297135990283,
@@ -318,7 +318,7 @@ RecountDB = {
 				},
 			},
 			["DetailWindowX"] = 656.2592335937816,
-			["LastInstanceName"] = "Halls of Lightning",
+			["LastInstanceName"] = "Trial of the Champion",
 			["CurDataSet"] = "LastFightData",
 			["Colors"] = {
 				["Bar"] = {
@@ -331,9 +331,9 @@ RecountDB = {
 				},
 			},
 			["DetailWindowY"] = -299.5554892351304,
-			["GraphWindowX"] = 0,
-			["MainWindowWidth"] = 260.0000123097031,
 			["MainWindowHeight"] = 328.7999999452902,
+			["MainWindowWidth"] = 260.0000123097031,
+			["GraphWindowX"] = 0,
 		},
 		["Kalaam - Icecrown"] = {
 			["GraphWindowY"] = 0,
@@ -492,7 +492,7 @@ RecountDB = {
 			},
 			["DetailWindowX"] = 112.9876419471188,
 			["LastInstanceName"] = "Vault of Archavon",
-			["GraphWindowX"] = 0,
+			["DetailWindowY"] = -124.0493402990752,
 			["CurDataSet"] = "LastFightData",
 			["Colors"] = {
 				["Bar"] = {
@@ -504,7 +504,7 @@ RecountDB = {
 					},
 				},
 			},
-			["DetailWindowY"] = -124.0493402990752,
+			["GraphWindowX"] = 0,
 			["MainWindowVis"] = false,
 			["MainWindowMode"] = 5,
 			["MainWindowWidth"] = 256.148530518934,

@@ -1,110 +1,6 @@
 
 GridDB = {
-	["disabled"] = {
-		["Default"] = true,
-	},
-	["disabledModules"] = {
-		["Default"] = {
-			["GridFrame"] = true,
-			["GridRoster"] = true,
-			["GridRange"] = true,
-			["GridStatus"] = true,
-			["GridLayout"] = true,
-		},
-	},
 	["namespaces"] = {
-		["GridRoster"] = {
-			["profiles"] = {
-				["Default"] = {
-					["party_state"] = "bg",
-				},
-			},
-		},
-		["GridStatus"] = {
-			["profiles"] = {
-				["Default"] = {
-					["colors"] = {
-						["PALADIN"] = {
-							["b"] = 0.73,
-							["g"] = 0.55,
-							["r"] = 0.96,
-						},
-						["MAGE"] = {
-							["b"] = 0.94,
-							["g"] = 0.8,
-							["r"] = 0.41,
-						},
-						["DRUID"] = {
-							["b"] = 0.04,
-							["g"] = 0.49,
-							["r"] = 1,
-						},
-						["DEATHKNIGHT"] = {
-							["b"] = 0.23,
-							["g"] = 0.12,
-							["r"] = 0.77,
-						},
-						["PRIEST"] = {
-							["b"] = 1,
-							["g"] = 1,
-							["r"] = 1,
-						},
-						["WARLOCK"] = {
-							["b"] = 0.79,
-							["g"] = 0.51,
-							["r"] = 0.58,
-						},
-						["HUNTER"] = {
-							["b"] = 0.45,
-							["g"] = 0.83,
-							["r"] = 0.67,
-						},
-						["WARRIOR"] = {
-							["b"] = 0.43,
-							["g"] = 0.61,
-							["r"] = 0.78,
-						},
-						["SHAMAN"] = {
-							["b"] = 0.87,
-							["g"] = 0.44,
-							["r"] = 0,
-						},
-						["ROGUE"] = {
-							["b"] = 0.41,
-							["g"] = 0.96,
-							["r"] = 1,
-						},
-					},
-				},
-			},
-		},
-		["GridStatusAggro"] = {
-			["profiles"] = {
-				["Default"] = {
-					["alert_aggro"] = {
-						["threatcolors"] = {
-							{
-								["b"] = 0.4666656414046884,
-							}, -- [1]
-						},
-					},
-				},
-			},
-		},
-		["GridLayout"] = {
-			["profiles"] = {
-				["Default"] = {
-					["hideTab"] = true,
-					["anchorRel"] = "TOPLEFT",
-					["layouts"] = {
-						["heroic_raid"] = "By Group 40",
-					},
-					["PosY"] = -367.8671126449615,
-					["layout"] = "By Group 40",
-					["PosX"] = 1080.933364942976,
-				},
-			},
-		},
 		["GridStatusRange"] = {
 			["profiles"] = {
 				["Default"] = {
@@ -212,19 +108,6 @@ GridDB = {
 						["range"] = false,
 						["desc"] = "More than 28 yards away",
 					},
-					["alert_range_60"] = {
-						["color"] = {
-							["a"] = 0.8363636363636364,
-							["b"] = 0.8,
-							["g"] = 0.2,
-							["r"] = 0.6,
-						},
-						["priority"] = 86,
-						["enable"] = true,
-						["text"] = "60 yards",
-						["range"] = false,
-						["desc"] = "More than 60 yards away",
-					},
 					["alert_range_30"] = {
 						["color"] = {
 							["a"] = 0.4545454545454546,
@@ -237,6 +120,19 @@ GridDB = {
 						["text"] = "30 yards",
 						["range"] = false,
 						["desc"] = "More than 30 yards away",
+					},
+					["alert_range_60"] = {
+						["color"] = {
+							["a"] = 0.8363636363636364,
+							["b"] = 0.8,
+							["g"] = 0.2,
+							["r"] = 0.6,
+						},
+						["priority"] = 86,
+						["enable"] = true,
+						["text"] = "60 yards",
+						["range"] = false,
+						["desc"] = "More than 60 yards away",
 					},
 					["alert_range_100"] = {
 						["color"] = {
@@ -251,6 +147,91 @@ GridDB = {
 						["range"] = false,
 						["desc"] = "More than 100 yards away",
 					},
+				},
+			},
+		},
+		["GridStatus"] = {
+			["profiles"] = {
+				["Default"] = {
+					["colors"] = {
+						["PALADIN"] = {
+							["b"] = 0.73,
+							["g"] = 0.55,
+							["r"] = 0.96,
+						},
+						["MAGE"] = {
+							["b"] = 0.94,
+							["g"] = 0.8,
+							["r"] = 0.41,
+						},
+						["DRUID"] = {
+							["b"] = 0.04,
+							["g"] = 0.49,
+							["r"] = 1,
+						},
+						["DEATHKNIGHT"] = {
+							["b"] = 0.23,
+							["g"] = 0.12,
+							["r"] = 0.77,
+						},
+						["PRIEST"] = {
+							["b"] = 1,
+							["g"] = 1,
+							["r"] = 1,
+						},
+						["WARLOCK"] = {
+							["b"] = 0.79,
+							["g"] = 0.51,
+							["r"] = 0.58,
+						},
+						["HUNTER"] = {
+							["b"] = 0.45,
+							["g"] = 0.83,
+							["r"] = 0.67,
+						},
+						["WARRIOR"] = {
+							["b"] = 0.43,
+							["g"] = 0.61,
+							["r"] = 0.78,
+						},
+						["SHAMAN"] = {
+							["b"] = 0.87,
+							["g"] = 0.44,
+							["r"] = 0,
+						},
+						["ROGUE"] = {
+							["b"] = 0.41,
+							["g"] = 0.96,
+							["r"] = 1,
+						},
+					},
+				},
+			},
+		},
+		["GridStatusAggro"] = {
+			["profiles"] = {
+				["Default"] = {
+					["alert_aggro"] = {
+						["threatcolors"] = {
+							{
+								["b"] = 0.4666656414046884,
+							}, -- [1]
+						},
+					},
+				},
+			},
+		},
+		["GridLayout"] = {
+			["profiles"] = {
+				["Default"] = {
+					["hideTab"] = true,
+					["anchorRel"] = "TOPLEFT",
+					["layouts"] = {
+						["heroic_raid"] = "By Group 40",
+					},
+					["PosY"] = -419.0673458842047,
+					["layout"] = "By Group 5",
+					["PosX"] = 1206.799930089478,
 				},
 			},
 		},
