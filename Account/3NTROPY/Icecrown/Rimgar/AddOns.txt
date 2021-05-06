@@ -1,0 +1,10 @@
+XPerl: enabled
+XPerl_ArcaneBar: enabled
+XPerl_CustomHighlight: enabled
+XPerl_Options: enabled
+XPerl_Player: enabled
+XPerl_PlayerBuffs: disabled
+XPerl_PlayerPet: enabled
+XPerl_TeamSpeak: disabled
+XPerl_Target: enabled
+XPerl_TargetTarget: enabled

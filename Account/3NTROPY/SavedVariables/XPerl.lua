@@ -2,6 +2,7 @@
 XPerlConfig = nil
 XPerlConfig_Global = nil
 XPerlConfigNew = {
+	["ConfigVersion"] = "3.0.9",
 	["global"] = {
 		["highlight"] = {
 			["enable"] = 1,
@@ -15,23 +16,23 @@ XPerlConfigNew = {
 		},
 		["rangeFinder"] = {
 			["StatsFrame"] = {
+				["spell"] = "Remove Curse",
 				["FadeAmount"] = 0.5,
-				["spell"] = "Detect Invisibility",
+				["item"] = "Heavy Frostweave Bandage",
 				["HealthLowPoint"] = 0.85,
-				["item"] = "Heavy Netherweave Bandage",
 			},
 			["Main"] = {
 				["enabled"] = true,
-				["spell"] = "Detect Invisibility",
-				["item"] = "Heavy Netherweave Bandage",
+				["spell"] = "Remove Curse",
+				["item"] = "Heavy Frostweave Bandage",
 				["FadeAmount"] = 0.5,
 				["HealthLowPoint"] = 0.85,
 			},
 			["NameFrame"] = {
+				["spell"] = "Remove Curse",
 				["FadeAmount"] = 0.5,
-				["spell"] = "Detect Invisibility",
+				["item"] = "Heavy Frostweave Bandage",
 				["HealthLowPoint"] = 0.85,
-				["item"] = "Heavy Netherweave Bandage",
 			},
 		},
 		["showAFK"] = 1,
@@ -379,31 +380,40 @@ XPerlConfigNew = {
 			["percent"] = 1,
 			["classIcon"] = 1,
 		},
-		["targettarget"] = {
+		["pet"] = {
+			["threat"] = 1,
+			["portrait"] = 1,
 			["debuffs"] = {
 				["enable"] = 1,
-				["curable"] = 0,
-				["size"] = 29,
+				["size"] = 20,
 			},
-			["values"] = 1,
-			["pvpIcon"] = 1,
-			["enable"] = 1,
-			["mana"] = 1,
+			["scale"] = 0.69,
 			["healerMode"] = {
 				["type"] = 1,
 			},
-			["scale"] = 0.7,
-			["buffs"] = {
-				["size"] = 22,
-				["castable"] = 0,
+			["level"] = 1,
+			["happiness"] = {
+				["enabled"] = 1,
+				["flashWhenSad"] = 1,
+				["onlyWhenSad"] = 1,
+			},
+			["castBar"] = {
 				["enable"] = 1,
-				["rows"] = 3,
-				["wrap"] = 1,
+			},
+			["threatMode"] = "portraitFrame",
+			["name"] = 1,
+			["hitIndicator"] = 1,
+			["values"] = 1,
+			["buffs"] = {
+				["enable"] = 1,
+				["size"] = 18,
 				["maxrows"] = 2,
 			},
-			["percent"] = 1,
+			["portrait3D"] = 1,
 			["size"] = {
-				["width"] = 0,
+				["enable"] = 1,
+				["width"] = 82,
+				["size"] = 20,
 			},
 		},
 		["transparency"] = {
@@ -437,7 +447,7 @@ XPerlConfigNew = {
 				["width"] = 0,
 			},
 		},
-		["pettarget"] = {
+		["targettarget"] = {
 			["debuffs"] = {
 				["enable"] = 1,
 				["curable"] = 0,
@@ -538,40 +548,31 @@ XPerlConfigNew = {
 			["percent"] = 1,
 			["energyTicker"] = 1,
 		},
-		["pet"] = {
-			["threat"] = 1,
-			["portrait"] = 1,
+		["pettarget"] = {
 			["debuffs"] = {
 				["enable"] = 1,
-				["size"] = 20,
+				["curable"] = 0,
+				["size"] = 29,
 			},
-			["scale"] = 0.69,
+			["values"] = 1,
+			["pvpIcon"] = 1,
+			["enable"] = 1,
+			["mana"] = 1,
 			["healerMode"] = {
 				["type"] = 1,
 			},
-			["level"] = 1,
-			["happiness"] = {
-				["enabled"] = 1,
-				["flashWhenSad"] = 1,
-				["onlyWhenSad"] = 1,
-			},
-			["castBar"] = {
-				["enable"] = 1,
-			},
-			["threatMode"] = "portraitFrame",
-			["name"] = 1,
-			["hitIndicator"] = 1,
-			["values"] = 1,
+			["scale"] = 0.7,
 			["buffs"] = {
+				["size"] = 22,
+				["castable"] = 0,
 				["enable"] = 1,
-				["size"] = 18,
+				["rows"] = 3,
+				["wrap"] = 1,
 				["maxrows"] = 2,
 			},
-			["portrait3D"] = 1,
+			["percent"] = 1,
 			["size"] = {
-				["enable"] = 1,
-				["width"] = 82,
-				["size"] = 20,
+				["width"] = 0,
 			},
 		},
 		["tooltip"] = {
@@ -623,6 +624,28 @@ XPerlConfigNew = {
 	},
 	["savedPositions"] = {
 		["Icecrown"] = {
+			["Vrael"] = {
+				["XPerl_Player"] = {
+					["top"] = 842.5333799025663,
+					["left"] = 20.70000012867092,
+				},
+				["XPerl_Focus"] = {
+					["top"] = 693.3333578164047,
+					["left"] = 216.8000086468412,
+				},
+				["XPerl_Target"] = {
+					["top"] = 843.7334167368844,
+					["left"] = 216.8000086468412,
+				},
+				["XPerl_TargetTarget"] = {
+					["top"] = 844.9333426973719,
+					["left"] = 412.9999832966964,
+				},
+				["XPerl_FocusTarget"] = {
+					["top"] = 693.3333426803894,
+					["left"] = 414.6999959399009,
+				},
+			},
 			["Denathra"] = {
 				["XPerl_OptionsAnchor"] = {
 					["top"] = 696.6666776542165,
@@ -661,6 +684,36 @@ XPerlConfigNew = {
 				["XPerl_Player"] = {
 					["top"] = 842.5333799025663,
 					["left"] = 20.70000012867092,
+				},
+			},
+			["Rimgar"] = {
+				["XPerl_Player"] = {
+					["top"] = 842.5333799025663,
+					["left"] = 20.70000012867092,
+				},
+				["XPerl_Focus"] = {
+					["top"] = 693.3333578164047,
+					["left"] = 216.8000086468412,
+				},
+				["XPerl_PetTarget"] = {
+					["top"] = 1133.715000206221,
+					["left"] = 315.5000179813089,
+				},
+				["XPerl_Player_Pet"] = {
+					["top"] = 791.9233457600143,
+					["left"] = 71.07000404846362,
+				},
+				["XPerl_Target"] = {
+					["top"] = 843.7334167368844,
+					["left"] = 216.8000086468412,
+				},
+				["XPerl_TargetTarget"] = {
+					["top"] = 844.9333426973719,
+					["left"] = 412.9999832966964,
+				},
+				["XPerl_FocusTarget"] = {
+					["top"] = 693.3333426803894,
+					["left"] = 414.6999959399009,
 				},
 			},
 			["Ulrezaj"] = {
@@ -951,6 +1004,5 @@ XPerlConfigNew = {
 			},
 		},
 	},
-	["ConfigVersion"] = "3.0.9",
 }
 XPerlConfigSavePerCharacter = nil
