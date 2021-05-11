@@ -107,7 +107,7 @@ H: 546
 Frame: GridLayoutFrame
 FrameLevel: 0
 Anchor: RIGHT
-X: -119
-Y: -141
+X: -120
+Y: -15
 W: 57
 H: 56
