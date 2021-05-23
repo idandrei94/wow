@@ -57,14 +57,14 @@ RecountDB = {
 			["MainWindow"] = {
 				["Position"] = {
 					["y"] = 73.16661682376696,
-					["x"] = -617.2777805550595,
-					["w"] = 245.000040553633,
+					["x"] = -617.2778024389762,
+					["w"] = 245.0000580607663,
 					["h"] = 323.0000267394107,
 				},
 			},
 			["DetailWindowX"] = 317.267070839811,
-			["LastInstanceName"] = "Halls of Lightning",
-			["CurDataSet"] = "LastFightData",
+			["LastInstanceName"] = "The Ruby Sanctum",
+			["CurDataSet"] = "CurrentFightData",
 			["Colors"] = {
 				["Bar"] = {
 					["Bar Text"] = {
@@ -266,6 +266,9 @@ RecountDB = {
 					["x"] = -626.6852036206119,
 				},
 			},
+			["DetailWindowX"] = 160.9111434339599,
+			["LastInstanceName"] = "The Nexus",
+			["CurDataSet"] = "LastFightData",
 			["Colors"] = {
 				["Bar"] = {
 					["Bar Text"] = {
@@ -274,9 +277,6 @@ RecountDB = {
 				},
 			},
 			["DetailWindowY"] = -107.7333573326952,
-			["DetailWindowX"] = 160.9111434339599,
-			["LastInstanceName"] = "The Nexus",
-			["CurDataSet"] = "LastFightData",
 			["GraphWindowX"] = 0,
 			["MainWindowWidth"] = 247.3703663456547,
 			["MainWindowHeight"] = 317.6297135990283,
@@ -317,9 +317,6 @@ RecountDB = {
 					["x"] = -628.4815274098449,
 				},
 			},
-			["DetailWindowX"] = 656.2592335937816,
-			["LastInstanceName"] = "Pit of Saron",
-			["CurDataSet"] = "CurrentFightData",
 			["Colors"] = {
 				["Bar"] = {
 					["Bar Text"] = {
@@ -331,6 +328,9 @@ RecountDB = {
 				},
 			},
 			["DetailWindowY"] = -299.5554892351304,
+			["DetailWindowX"] = 656.2592335937816,
+			["LastInstanceName"] = "The Ruby Sanctum",
+			["CurDataSet"] = "LastFightData",
 			["GraphWindowX"] = 0,
 			["MainWindowWidth"] = 260.0000123097031,
 			["MainWindowHeight"] = 328.7999999452902,
@@ -492,7 +492,7 @@ RecountDB = {
 			},
 			["DetailWindowX"] = 112.9876419471188,
 			["LastInstanceName"] = "Vault of Archavon",
-			["DetailWindowY"] = -124.0493402990752,
+			["GraphWindowX"] = 0,
 			["CurDataSet"] = "LastFightData",
 			["Colors"] = {
 				["Bar"] = {
@@ -504,7 +504,7 @@ RecountDB = {
 					},
 				},
 			},
-			["GraphWindowX"] = 0,
+			["DetailWindowY"] = -124.0493402990752,
 			["MainWindowVis"] = false,
 			["MainWindowMode"] = 5,
 			["MainWindowWidth"] = 256.148530518934,
@@ -546,8 +546,8 @@ RecountDB = {
 				},
 			},
 			["DetailWindowX"] = 0,
-			["LastInstanceName"] = "Trial of the Crusader",
-			["CurDataSet"] = "CurrentFightData",
+			["LastInstanceName"] = "Icecrown Citadel",
+			["CurDataSet"] = "LastFightData",
 			["Colors"] = {
 				["Bar"] = {
 					["Bar Text"] = {
@@ -559,9 +559,9 @@ RecountDB = {
 				},
 			},
 			["DetailWindowY"] = 3.999978116083373,
-			["MainWindowHeight"] = 337.3333968878745,
-			["MainWindowWidth"] = 260.8889019888445,
 			["GraphWindowX"] = 0,
+			["MainWindowWidth"] = 260.8889019888445,
+			["MainWindowHeight"] = 337.3333968878745,
 		},
 		["Izanagi - Icecrown"] = {
 			["GraphWindowY"] = 0,
