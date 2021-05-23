@@ -122,17 +122,17 @@ RecountPerCharDB = {
 				["DamageTaken"] = {
 					249706, -- [1]
 				},
+				["Overhealing"] = {
+					159804, -- [1]
+				},
 				["HOT_Time"] = {
 					429, -- [1]
-				},
-				["FDamage"] = {
-					3142, -- [1]
 				},
 				["HealingTaken"] = {
 					241554, -- [1]
 				},
-				["Overhealing"] = {
-					159804, -- [1]
+				["FDamage"] = {
+					3142, -- [1]
 				},
 				["TimeDamage"] = {
 					538.6, -- [1]
@@ -195,7 +195,7 @@ RecountPerCharDB = {
 			},
 			["type"] = "Ungrouped",
 			["FightsSaved"] = 5,
-			["LastAbility"] = 1306.632,
+			["LastAbility"] = 4982.039,
 			["LastEventTimes"] = {
 				4007.336, -- [1]
 				4007.336, -- [2]
@@ -524,8 +524,7 @@ RecountPerCharDB = {
 					},
 					["DeathCount"] = 0,
 					["HOT_Time"] = 18,
-					["ElementTakenBlock"] = {
-					},
+					["Damage"] = 74484,
 					["RunicPowerGain"] = 70,
 					["ElementTaken"] = {
 						["Frost"] = 10469,
@@ -534,25 +533,9 @@ RecountPerCharDB = {
 						["Fire"] = 2516,
 						["Physical"] = 1660,
 					},
-					["HOTs"] = {
-						["Improved Leader of the Pack"] = {
-							["Details"] = {
-								["Jungee"] = {
-									["count"] = 6,
-								},
-							},
-							["amount"] = 6,
-						},
-						["Judgement of Light"] = {
-							["Details"] = {
-								["Jungee"] = {
-									["count"] = 12,
-								},
-							},
-							["amount"] = 12,
-						},
+					["DOT_Time"] = 84,
+					["ElementTakenBlock"] = {
 					},
-					["Damage"] = 74484,
 					["ElementDoneAbsorb"] = {
 					},
 					["TimeHeal"] = 2.21,
@@ -560,120 +543,6 @@ RecountPerCharDB = {
 					},
 					["Dispels"] = 0,
 					["PartialBlock"] = {
-					},
-					["DamagedWho"] = {
-						["Steward"] = {
-							["Details"] = {
-								["Blood Plague (DoT)"] = {
-									["count"] = 1705,
-								},
-								["Death and Decay"] = {
-									["count"] = 4676,
-								},
-								["Melee"] = {
-									["count"] = 3610,
-								},
-								["Frost Fever (DoT)"] = {
-									["count"] = 1678,
-								},
-								["Retribution Aura"] = {
-									["count"] = 333,
-								},
-							},
-							["amount"] = 12002,
-						},
-						["Mage Slayer"] = {
-							["Details"] = {
-								["Blood Plague (DoT)"] = {
-									["count"] = 2774,
-								},
-								["Death and Decay"] = {
-									["count"] = 8214,
-								},
-								["Melee"] = {
-									["count"] = 3572,
-								},
-								["Frost Fever (DoT)"] = {
-									["count"] = 2730,
-								},
-								["Retribution Aura"] = {
-									["count"] = 1139,
-								},
-							},
-							["amount"] = 18429,
-						},
-						["Mage Hunter Initiate"] = {
-							["Details"] = {
-								["Blood Plague (DoT)"] = {
-									["count"] = 1069,
-								},
-								["Death and Decay"] = {
-									["count"] = 3846,
-								},
-								["Icy Touch"] = {
-									["count"] = 2277,
-								},
-								["Melee"] = {
-									["count"] = 1944,
-								},
-								["Frost Fever (DoT)"] = {
-									["count"] = 1052,
-								},
-								["Retribution Aura"] = {
-									["count"] = 111,
-								},
-							},
-							["amount"] = 10299,
-						},
-						["Mage Hunter Ascendant"] = {
-							["Details"] = {
-								["Icy Touch"] = {
-									["count"] = 2014,
-								},
-								["Retribution Aura"] = {
-									["count"] = 472,
-								},
-								["Blood Plague (DoT)"] = {
-									["count"] = 1502,
-								},
-								["Death and Decay"] = {
-									["count"] = 8085,
-								},
-								["Blood Strike"] = {
-									["count"] = 1184,
-								},
-								["Plague Strike"] = {
-									["count"] = 3090,
-								},
-								["Frost Fever (DoT)"] = {
-									["count"] = 2530,
-								},
-								["Melee"] = {
-									["count"] = 14877,
-								},
-							},
-							["amount"] = 33754,
-						},
-					},
-					["FAttacks"] = {
-					},
-					["HealingTaken"] = 58180,
-					["ElementDone"] = {
-						["Holy"] = 2055,
-						["Melee"] = 24003,
-						["Physical"] = 4274,
-						["Frost"] = 12281,
-						["Shadow"] = 31871,
-					},
-					["RunicPowerGainedFrom"] = {
-						["Jungee"] = {
-							["Details"] = {
-								["Scent of Blood"] = {
-									["count"] = 70,
-								},
-							},
-							["amount"] = 70,
-						},
 					},
 					["ElementHitsDone"] = {
 						["Holy"] = {
@@ -732,7 +601,121 @@ RecountPerCharDB = {
 							["amount"] = 82,
 						},
 					},
+					["FAttacks"] = {
+					},
+					["HealingTaken"] = 58180,
+					["ElementDone"] = {
+						["Holy"] = 2055,
+						["Melee"] = 24003,
+						["Physical"] = 4274,
+						["Frost"] = 12281,
+						["Shadow"] = 31871,
+					},
+					["DamagedWho"] = {
+						["Steward"] = {
+							["Details"] = {
+								["Blood Plague (DoT)"] = {
+									["count"] = 1705,
+								},
+								["Death and Decay"] = {
+									["count"] = 4676,
+								},
+								["Melee"] = {
+									["count"] = 3610,
+								},
+								["Retribution Aura"] = {
+									["count"] = 333,
+								},
+								["Frost Fever (DoT)"] = {
+									["count"] = 1678,
+								},
+							},
+							["amount"] = 12002,
+						},
+						["Mage Slayer"] = {
+							["Details"] = {
+								["Blood Plague (DoT)"] = {
+									["count"] = 2774,
+								},
+								["Death and Decay"] = {
+									["count"] = 8214,
+								},
+								["Melee"] = {
+									["count"] = 3572,
+								},
+								["Retribution Aura"] = {
+									["count"] = 1139,
+								},
+								["Frost Fever (DoT)"] = {
+									["count"] = 2730,
+								},
+							},
+							["amount"] = 18429,
+						},
+						["Mage Hunter Initiate"] = {
+							["Details"] = {
+								["Blood Plague (DoT)"] = {
+									["count"] = 1069,
+								},
+								["Death and Decay"] = {
+									["count"] = 3846,
+								},
+								["Icy Touch"] = {
+									["count"] = 2277,
+								},
+								["Melee"] = {
+									["count"] = 1944,
+								},
+								["Retribution Aura"] = {
+									["count"] = 111,
+								},
+								["Frost Fever (DoT)"] = {
+									["count"] = 1052,
+								},
+							},
+							["amount"] = 10299,
+						},
+						["Mage Hunter Ascendant"] = {
+							["Details"] = {
+								["Blood Strike"] = {
+									["count"] = 1184,
+								},
+								["Retribution Aura"] = {
+									["count"] = 472,
+								},
+								["Melee"] = {
+									["count"] = 14877,
+								},
+								["Death and Decay"] = {
+									["count"] = 8085,
+								},
+								["Icy Touch"] = {
+									["count"] = 2014,
+								},
+								["Plague Strike"] = {
+									["count"] = 3090,
+								},
+								["Frost Fever (DoT)"] = {
+									["count"] = 2530,
+								},
+								["Blood Plague (DoT)"] = {
+									["count"] = 1502,
+								},
+							},
+							["amount"] = 33754,
+						},
+					},
 					["ManaGainedFrom"] = {
+					},
+					["RunicPowerGained"] = {
+						["Scent of Blood"] = {
+							["Details"] = {
+								["Jungee"] = {
+									["count"] = 70,
+								},
+							},
+							["amount"] = 70,
+						},
 					},
 					["WhoDamaged"] = {
 						["Steward"] = {
@@ -788,17 +771,17 @@ RecountPerCharDB = {
 					},
 					["EnergyGainedFrom"] = {
 					},
-					["RunicPowerGained"] = {
-						["Scent of Blood"] = {
+					["CCBroken"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+						["Jungee"] = {
 							["Details"] = {
-								["Jungee"] = {
+								["Scent of Blood"] = {
 									["count"] = 70,
 								},
 							},
 							["amount"] = 70,
 						},
-					},
-					["CCBroken"] = {
 					},
 					["ElementDoneBlock"] = {
 					},
@@ -815,7 +798,8 @@ RecountPerCharDB = {
 							["amount"] = 2.21,
 						},
 					},
-					["Dispelled"] = 0,
+					["OverHeals"] = {
+					},
 					["WhoHealed"] = {
 						["Jungee"] = {
 							["Details"] = {
@@ -871,10 +855,6 @@ RecountPerCharDB = {
 						["Melee"] = 662,
 						["Arcane"] = 420,
 					},
-					["FDamage"] = 0,
-					["EnergyGain"] = 0,
-					["ManaGained"] = {
-					},
 					["PartialAbsorb"] = {
 						["Fireball"] = {
 							["Details"] = {
@@ -918,36 +898,6 @@ RecountPerCharDB = {
 							["count"] = 23,
 							["amount"] = 662,
 						},
-						["Cone of Cold"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 2,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 2,
-							["amount"] = 0,
-						},
-						["Magic Burn (DoT)"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 4,
-									["amount"] = 0,
-								},
-								["Absorbed"] = {
-									["max"] = 140,
-									["min"] = 140,
-									["count"] = 3,
-									["amount"] = 420,
-								},
-							},
-							["count"] = 7,
-							["amount"] = 420,
-						},
 						["Spellbreaker"] = {
 							["Details"] = {
 								["No Absorb"] = {
@@ -978,148 +928,36 @@ RecountPerCharDB = {
 							["count"] = 6,
 							["amount"] = 831,
 						},
-					},
-					["ActiveTime"] = 27.97,
-					["Overhealing"] = 0,
-					["TimeSpent"] = {
-						["Jungee"] = {
+						["Cone of Cold"] = {
 							["Details"] = {
-								["Improved Leader of the Pack"] = {
-									["count"] = 0.72,
-								},
-								["Judgement of Light"] = {
-									["count"] = 1.49,
-								},
-							},
-							["amount"] = 2.21,
-						},
-						["Mage Slayer"] = {
-							["Details"] = {
-								["Blood Plague (DoT)"] = {
-									["count"] = 2.35,
-								},
-								["Death and Decay"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Frost Fever (DoT)"] = {
-									["count"] = 0,
-								},
-								["Retribution Aura"] = {
-									["count"] = 3.1,
-								},
-							},
-							["amount"] = 5.449999999999999,
-						},
-						["Steward"] = {
-							["Details"] = {
-								["Blood Plague (DoT)"] = {
-									["count"] = 0,
-								},
-								["Death and Decay"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Frost Fever (DoT)"] = {
-									["count"] = 0,
-								},
-								["Retribution Aura"] = {
-									["count"] = 1.1,
-								},
-							},
-							["amount"] = 1.1,
-						},
-						["Mage Hunter Initiate"] = {
-							["Details"] = {
-								["Blood Plague (DoT)"] = {
-									["count"] = 0,
-								},
-								["Death and Decay"] = {
-									["count"] = 0,
-								},
-								["Icy Touch"] = {
-									["count"] = 1.51,
-								},
-								["Melee"] = {
-									["count"] = 0.69,
-								},
-								["Frost Fever (DoT)"] = {
-									["count"] = 0,
-								},
-								["Retribution Aura"] = {
-									["count"] = 0.1,
-								},
-							},
-							["amount"] = 2.3,
-						},
-						["Mage Hunter Ascendant"] = {
-							["Details"] = {
-								["Icy Touch"] = {
-									["count"] = 0.71,
-								},
-								["Retribution Aura"] = {
-									["count"] = 1.43,
-								},
-								["Blood Plague (DoT)"] = {
-									["count"] = 1.01,
-								},
-								["Death and Decay"] = {
-									["count"] = 5.93,
-								},
-								["Blood Strike"] = {
-									["count"] = 0,
-								},
-								["Plague Strike"] = {
-									["count"] = 1.33,
-								},
-								["Frost Fever (DoT)"] = {
-									["count"] = 1.06,
-								},
-								["Melee"] = {
-									["count"] = 5.44,
-								},
-							},
-							["amount"] = 16.91,
-						},
-					},
-					["WhoDispelled"] = {
-					},
-					["InterruptData"] = {
-					},
-					["ElementTakenResist"] = {
-					},
-					["Heals"] = {
-						["Improved Leader of the Pack"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 899,
-									["min"] = 899,
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
 									["count"] = 2,
-									["amount"] = 1798,
+									["amount"] = 0,
 								},
 							},
 							["count"] = 2,
-							["amount"] = 1798,
+							["amount"] = 0,
 						},
-						["Judgement of Light"] = {
+						["Magic Burn (DoT)"] = {
 							["Details"] = {
-								["Tick"] = {
-									["max"] = 899,
-									["min"] = 899,
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
 									["count"] = 4,
-									["amount"] = 3596,
+									["amount"] = 0,
+								},
+								["Absorbed"] = {
+									["max"] = 140,
+									["min"] = 140,
+									["count"] = 3,
+									["amount"] = 420,
 								},
 							},
-							["count"] = 4,
-							["amount"] = 3596,
+							["count"] = 7,
+							["amount"] = 420,
 						},
-					},
-					["Interrupts"] = 0,
-					["EnergyGained"] = {
 					},
 					["PartialResist"] = {
 						["Fireball"] = {
@@ -1158,30 +996,6 @@ RecountPerCharDB = {
 							["count"] = 23,
 							["amount"] = 0,
 						},
-						["Cone of Cold"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 2,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 2,
-							["amount"] = 0,
-						},
-						["Magic Burn (DoT)"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 7,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 7,
-							["amount"] = 0,
-						},
 						["Spellbreaker"] = {
 							["Details"] = {
 								["No Resist"] = {
@@ -1206,13 +1020,206 @@ RecountPerCharDB = {
 							["count"] = 6,
 							["amount"] = 0,
 						},
+						["Cone of Cold"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 0,
+						},
+						["Magic Burn (DoT)"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 7,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 7,
+							["amount"] = 0,
+						},
 					},
+					["ManaGained"] = {
+					},
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["Overhealing"] = 0,
+					["TimeSpent"] = {
+						["Jungee"] = {
+							["Details"] = {
+								["Improved Leader of the Pack"] = {
+									["count"] = 0.72,
+								},
+								["Judgement of Light"] = {
+									["count"] = 1.49,
+								},
+							},
+							["amount"] = 2.21,
+						},
+						["Mage Slayer"] = {
+							["Details"] = {
+								["Blood Plague (DoT)"] = {
+									["count"] = 2.35,
+								},
+								["Death and Decay"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Retribution Aura"] = {
+									["count"] = 3.1,
+								},
+								["Frost Fever (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 5.449999999999999,
+						},
+						["Steward"] = {
+							["Details"] = {
+								["Blood Plague (DoT)"] = {
+									["count"] = 0,
+								},
+								["Death and Decay"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Retribution Aura"] = {
+									["count"] = 1.1,
+								},
+								["Frost Fever (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 1.1,
+						},
+						["Mage Hunter Initiate"] = {
+							["Details"] = {
+								["Blood Plague (DoT)"] = {
+									["count"] = 0,
+								},
+								["Death and Decay"] = {
+									["count"] = 0,
+								},
+								["Icy Touch"] = {
+									["count"] = 1.51,
+								},
+								["Melee"] = {
+									["count"] = 0.69,
+								},
+								["Retribution Aura"] = {
+									["count"] = 0.1,
+								},
+								["Frost Fever (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 2.3,
+						},
+						["Mage Hunter Ascendant"] = {
+							["Details"] = {
+								["Blood Strike"] = {
+									["count"] = 0,
+								},
+								["Retribution Aura"] = {
+									["count"] = 1.43,
+								},
+								["Melee"] = {
+									["count"] = 5.44,
+								},
+								["Death and Decay"] = {
+									["count"] = 5.93,
+								},
+								["Icy Touch"] = {
+									["count"] = 0.71,
+								},
+								["Plague Strike"] = {
+									["count"] = 1.33,
+								},
+								["Frost Fever (DoT)"] = {
+									["count"] = 1.06,
+								},
+								["Blood Plague (DoT)"] = {
+									["count"] = 1.01,
+								},
+							},
+							["amount"] = 16.91,
+						},
+					},
+					["WhoDispelled"] = {
+					},
+					["InterruptData"] = {
+					},
+					["ElementTakenResist"] = {
+					},
+					["Heals"] = {
+						["Improved Leader of the Pack"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 899,
+									["min"] = 899,
+									["count"] = 2,
+									["amount"] = 1798,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 1798,
+						},
+						["Judgement of Light"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 899,
+									["min"] = 899,
+									["count"] = 4,
+									["amount"] = 3596,
+								},
+							},
+							["count"] = 4,
+							["amount"] = 3596,
+						},
+					},
+					["ActiveTime"] = 27.97,
+					["EnergyGained"] = {
+					},
+					["EnergyGain"] = 0,
 					["Healing"] = 5394,
+					["Dispelled"] = 0,
 					["RageGained"] = {
 					},
-					["OverHeals"] = {
-					},
 					["Attacks"] = {
+						["Blood Plague (DoT)"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 636,
+									["min"] = 433,
+									["count"] = 13,
+									["amount"] = 7050,
+								},
+							},
+							["count"] = 13,
+							["amount"] = 7050,
+						},
+						["Retribution Aura"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 241,
+									["min"] = 111,
+									["count"] = 15,
+									["amount"] = 2055,
+								},
+							},
+							["count"] = 15,
+							["amount"] = 2055,
+						},
 						["Melee"] = {
 							["Details"] = {
 								["Crit"] = {
@@ -1230,30 +1237,6 @@ RecountPerCharDB = {
 							},
 							["count"] = 9,
 							["amount"] = 24003,
-						},
-						["Retribution Aura"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 241,
-									["min"] = 111,
-									["count"] = 15,
-									["amount"] = 2055,
-								},
-							},
-							["count"] = 15,
-							["amount"] = 2055,
-						},
-						["Blood Plague (DoT)"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 636,
-									["min"] = 433,
-									["count"] = 13,
-									["amount"] = 7050,
-								},
-							},
-							["count"] = 13,
-							["amount"] = 7050,
 						},
 						["Death and Decay"] = {
 							["Details"] = {
@@ -1273,23 +1256,17 @@ RecountPerCharDB = {
 							["count"] = 69,
 							["amount"] = 24821,
 						},
-						["Icy Touch"] = {
+						["Blood Strike"] = {
 							["Details"] = {
-								["Crit"] = {
-									["max"] = 2277,
-									["min"] = 2277,
-									["count"] = 1,
-									["amount"] = 2277,
-								},
 								["Hit"] = {
-									["max"] = 1008,
-									["min"] = 1006,
-									["count"] = 2,
-									["amount"] = 2014,
+									["max"] = 1184,
+									["min"] = 1184,
+									["count"] = 1,
+									["amount"] = 1184,
 								},
 							},
-							["count"] = 3,
-							["amount"] = 4291,
+							["count"] = 1,
+							["amount"] = 1184,
 						},
 						["Plague Strike"] = {
 							["Details"] = {
@@ -1315,17 +1292,23 @@ RecountPerCharDB = {
 							["count"] = 15,
 							["amount"] = 7990,
 						},
-						["Blood Strike"] = {
+						["Icy Touch"] = {
 							["Details"] = {
-								["Hit"] = {
-									["max"] = 1184,
-									["min"] = 1184,
+								["Crit"] = {
+									["max"] = 2277,
+									["min"] = 2277,
 									["count"] = 1,
-									["amount"] = 1184,
+									["amount"] = 2277,
+								},
+								["Hit"] = {
+									["max"] = 1008,
+									["min"] = 1006,
+									["count"] = 2,
+									["amount"] = 2014,
 								},
 							},
-							["count"] = 1,
-							["amount"] = 1184,
+							["count"] = 3,
+							["amount"] = 4291,
 						},
 					},
 					["RageGain"] = 0,
@@ -1344,11 +1327,11 @@ RecountPerCharDB = {
 								["Melee"] = {
 									["count"] = 0,
 								},
-								["Frost Fever (DoT)"] = {
-									["count"] = 0,
-								},
 								["Retribution Aura"] = {
 									["count"] = 1.1,
+								},
+								["Frost Fever (DoT)"] = {
+									["count"] = 0,
 								},
 							},
 							["amount"] = 1.1,
@@ -1364,11 +1347,11 @@ RecountPerCharDB = {
 								["Melee"] = {
 									["count"] = 0,
 								},
-								["Frost Fever (DoT)"] = {
-									["count"] = 0,
-								},
 								["Retribution Aura"] = {
 									["count"] = 3.1,
+								},
+								["Frost Fever (DoT)"] = {
+									["count"] = 0,
 								},
 							},
 							["amount"] = 5.449999999999999,
@@ -1387,31 +1370,31 @@ RecountPerCharDB = {
 								["Melee"] = {
 									["count"] = 0.69,
 								},
-								["Frost Fever (DoT)"] = {
-									["count"] = 0,
-								},
 								["Retribution Aura"] = {
 									["count"] = 0.1,
+								},
+								["Frost Fever (DoT)"] = {
+									["count"] = 0,
 								},
 							},
 							["amount"] = 2.3,
 						},
 						["Mage Hunter Ascendant"] = {
 							["Details"] = {
-								["Icy Touch"] = {
-									["count"] = 0.71,
+								["Blood Strike"] = {
+									["count"] = 0,
 								},
 								["Retribution Aura"] = {
 									["count"] = 1.43,
 								},
-								["Blood Plague (DoT)"] = {
-									["count"] = 1.01,
+								["Melee"] = {
+									["count"] = 5.44,
 								},
 								["Death and Decay"] = {
 									["count"] = 5.93,
 								},
-								["Blood Strike"] = {
-									["count"] = 0,
+								["Icy Touch"] = {
+									["count"] = 0.71,
 								},
 								["Plague Strike"] = {
 									["count"] = 1.33,
@@ -1419,15 +1402,32 @@ RecountPerCharDB = {
 								["Frost Fever (DoT)"] = {
 									["count"] = 1.06,
 								},
-								["Melee"] = {
-									["count"] = 5.44,
+								["Blood Plague (DoT)"] = {
+									["count"] = 1.01,
 								},
 							},
 							["amount"] = 16.91,
 						},
 					},
 					["ManaGain"] = 0,
-					["DOT_Time"] = 84,
+					["HOTs"] = {
+						["Improved Leader of the Pack"] = {
+							["Details"] = {
+								["Jungee"] = {
+									["count"] = 6,
+								},
+							},
+							["amount"] = 6,
+						},
+						["Judgement of Light"] = {
+							["Details"] = {
+								["Jungee"] = {
+									["count"] = 12,
+								},
+							},
+							["amount"] = 12,
+						},
+					},
 					["DispelledWho"] = {
 					},
 				},
@@ -1519,33 +1519,16 @@ RecountPerCharDB = {
 					},
 					["DeathCount"] = 0,
 					["HOT_Time"] = 36,
-					["ElementTakenBlock"] = {
-					},
+					["Damage"] = 111818,
 					["RunicPowerGain"] = 130,
 					["ElementTaken"] = {
 						["Physical"] = 5839,
 						["Melee"] = 15561,
 						["Fire"] = 2054,
 					},
-					["HOTs"] = {
-						["Improved Leader of the Pack"] = {
-							["Details"] = {
-								["Jungee"] = {
-									["count"] = 15,
-								},
-							},
-							["amount"] = 15,
-						},
-						["Judgement of Light"] = {
-							["Details"] = {
-								["Jungee"] = {
-									["count"] = 21,
-								},
-							},
-							["amount"] = 21,
-						},
+					["DOT_Time"] = 135,
+					["ElementTakenBlock"] = {
 					},
-					["Damage"] = 111818,
 					["ElementDoneAbsorb"] = {
 						["Frost"] = 626,
 						["Shadow"] = 636,
@@ -1555,129 +1538,6 @@ RecountPerCharDB = {
 					},
 					["Dispels"] = 0,
 					["PartialBlock"] = {
-					},
-					["DamagedWho"] = {
-						["Commander Kolurg"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 20975,
-								},
-								["Death Strike"] = {
-									["count"] = 1940,
-								},
-								["Blood Plague (DoT)"] = {
-									["count"] = 4262,
-								},
-								["Icy Touch"] = {
-									["count"] = 5468,
-								},
-								["Blood Strike"] = {
-									["count"] = 3590,
-								},
-								["Plague Strike"] = {
-									["count"] = 4044,
-								},
-								["Frost Fever (DoT)"] = {
-									["count"] = 4258,
-								},
-								["Retribution Aura"] = {
-									["count"] = 756,
-								},
-							},
-							["amount"] = 45293,
-						},
-						["Horde Ranger"] = {
-							["Details"] = {
-								["Blood Plague (DoT)"] = {
-									["count"] = 636,
-								},
-								["Frost Fever (DoT)"] = {
-									["count"] = 1678,
-								},
-								["Melee"] = {
-									["count"] = 13417,
-								},
-								["Death and Decay"] = {
-									["count"] = 2876,
-								},
-								["Icy Touch"] = {
-									["count"] = 4198,
-								},
-								["Plague Strike"] = {
-									["count"] = 4079,
-								},
-								["Retribution Aura"] = {
-									["count"] = 466,
-								},
-								["Blood Strike"] = {
-									["count"] = 1121,
-								},
-							},
-							["amount"] = 28471,
-						},
-						["Horde Berserker"] = {
-							["Details"] = {
-								["Icy Touch"] = {
-									["count"] = 4338,
-								},
-								["Retribution Aura"] = {
-									["count"] = 496,
-								},
-								["Blood Plague (DoT)"] = {
-									["count"] = 1732,
-								},
-								["Death and Decay"] = {
-									["count"] = 2055,
-								},
-								["Blood Strike"] = {
-									["count"] = 2444,
-								},
-								["Plague Strike"] = {
-									["count"] = 2045,
-								},
-								["Frost Fever (DoT)"] = {
-									["count"] = 2330,
-								},
-								["Melee"] = {
-									["count"] = 10781,
-								},
-							},
-							["amount"] = 26221,
-						},
-						["Horde Cleric"] = {
-							["Details"] = {
-								["Blood Plague (DoT)"] = {
-									["count"] = 5724,
-								},
-								["Retribution Aura"] = {
-									["count"] = 475,
-								},
-								["Frost Fever (DoT)"] = {
-									["count"] = 5634,
-								},
-							},
-							["amount"] = 11833,
-						},
-					},
-					["FAttacks"] = {
-					},
-					["HealingTaken"] = 23062,
-					["ElementDone"] = {
-						["Frost"] = 27904,
-						["Melee"] = 45173,
-						["Physical"] = 19263,
-						["Holy"] = 2193,
-						["Shadow"] = 17285,
-					},
-					["RunicPowerGainedFrom"] = {
-						["Jungee"] = {
-							["Details"] = {
-								["Scent of Blood"] = {
-									["count"] = 130,
-								},
-							},
-							["amount"] = 130,
-						},
 					},
 					["ElementHitsDone"] = {
 						["Frost"] = {
@@ -1745,7 +1605,130 @@ RecountPerCharDB = {
 							["amount"] = 33,
 						},
 					},
+					["FAttacks"] = {
+					},
+					["HealingTaken"] = 23062,
+					["ElementDone"] = {
+						["Frost"] = 27904,
+						["Melee"] = 45173,
+						["Physical"] = 19263,
+						["Holy"] = 2193,
+						["Shadow"] = 17285,
+					},
+					["DamagedWho"] = {
+						["Commander Kolurg"] = {
+							["Details"] = {
+								["Blood Plague (DoT)"] = {
+									["count"] = 4262,
+								},
+								["Death Strike"] = {
+									["count"] = 1940,
+								},
+								["Melee"] = {
+									["count"] = 20975,
+								},
+								["Icy Touch"] = {
+									["count"] = 5468,
+								},
+								["Blood Strike"] = {
+									["count"] = 3590,
+								},
+								["Plague Strike"] = {
+									["count"] = 4044,
+								},
+								["Retribution Aura"] = {
+									["count"] = 756,
+								},
+								["Frost Fever (DoT)"] = {
+									["count"] = 4258,
+								},
+							},
+							["amount"] = 45293,
+						},
+						["Horde Ranger"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 13417,
+								},
+								["Frost Fever (DoT)"] = {
+									["count"] = 1678,
+								},
+								["Blood Plague (DoT)"] = {
+									["count"] = 636,
+								},
+								["Death and Decay"] = {
+									["count"] = 2876,
+								},
+								["Blood Strike"] = {
+									["count"] = 1121,
+								},
+								["Plague Strike"] = {
+									["count"] = 4079,
+								},
+								["Retribution Aura"] = {
+									["count"] = 466,
+								},
+								["Icy Touch"] = {
+									["count"] = 4198,
+								},
+							},
+							["amount"] = 28471,
+						},
+						["Horde Berserker"] = {
+							["Details"] = {
+								["Blood Strike"] = {
+									["count"] = 2444,
+								},
+								["Retribution Aura"] = {
+									["count"] = 496,
+								},
+								["Melee"] = {
+									["count"] = 10781,
+								},
+								["Death and Decay"] = {
+									["count"] = 2055,
+								},
+								["Icy Touch"] = {
+									["count"] = 4338,
+								},
+								["Plague Strike"] = {
+									["count"] = 2045,
+								},
+								["Frost Fever (DoT)"] = {
+									["count"] = 2330,
+								},
+								["Blood Plague (DoT)"] = {
+									["count"] = 1732,
+								},
+							},
+							["amount"] = 26221,
+						},
+						["Horde Cleric"] = {
+							["Details"] = {
+								["Retribution Aura"] = {
+									["count"] = 475,
+								},
+								["Frost Fever (DoT)"] = {
+									["count"] = 5634,
+								},
+								["Blood Plague (DoT)"] = {
+									["count"] = 5724,
+								},
+							},
+							["amount"] = 11833,
+						},
+					},
 					["ManaGainedFrom"] = {
+					},
+					["RunicPowerGained"] = {
+						["Scent of Blood"] = {
+							["Details"] = {
+								["Jungee"] = {
+									["count"] = 130,
+								},
+							},
+							["amount"] = 130,
+						},
 					},
 					["WhoDamaged"] = {
 						["Commander Kolurg"] = {
@@ -1798,17 +1781,17 @@ RecountPerCharDB = {
 					},
 					["EnergyGainedFrom"] = {
 					},
-					["RunicPowerGained"] = {
-						["Scent of Blood"] = {
+					["CCBroken"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+						["Jungee"] = {
 							["Details"] = {
-								["Jungee"] = {
+								["Scent of Blood"] = {
 									["count"] = 130,
 								},
 							},
 							["amount"] = 130,
 						},
-					},
-					["CCBroken"] = {
 					},
 					["ElementDoneBlock"] = {
 						["Melee"] = 81,
@@ -1826,7 +1809,44 @@ RecountPerCharDB = {
 							["amount"] = 4.13,
 						},
 					},
-					["Dispelled"] = 0,
+					["OverHeals"] = {
+						["Death Strike"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 6753,
+									["min"] = 6753,
+									["count"] = 1,
+									["amount"] = 6753,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 6753,
+						},
+						["Judgement of Light"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 899,
+									["min"] = 249,
+									["count"] = 4,
+									["amount"] = 2946,
+								},
+							},
+							["count"] = 4,
+							["amount"] = 2946,
+						},
+						["Improved Leader of the Pack"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 899,
+									["min"] = 899,
+									["count"] = 3,
+									["amount"] = 2697,
+								},
+							},
+							["count"] = 3,
+							["amount"] = 2697,
+						},
+					},
 					["WhoHealed"] = {
 						["Jungee"] = {
 							["Details"] = {
@@ -1874,10 +1894,6 @@ RecountPerCharDB = {
 						["Physical"] = 2919,
 						["Melee"] = 7608,
 						["Fire"] = 954,
-					},
-					["FDamage"] = 0,
-					["EnergyGain"] = 0,
-					["ManaGained"] = {
 					},
 					["PartialAbsorb"] = {
 						["Shoot"] = {
@@ -1971,163 +1987,6 @@ RecountPerCharDB = {
 							["amount"] = 298,
 						},
 					},
-					["ActiveTime"] = 67.29999999999998,
-					["Overhealing"] = 12396,
-					["TimeSpent"] = {
-						["Jungee"] = {
-							["Details"] = {
-								["Improved Leader of the Pack"] = {
-									["count"] = 2.9,
-								},
-								["Judgement of Light"] = {
-									["count"] = 1.23,
-								},
-							},
-							["amount"] = 4.13,
-						},
-						["Horde Cleric"] = {
-							["Details"] = {
-								["Blood Plague"] = {
-									["count"] = 0.38,
-								},
-								["Blood Plague (DoT)"] = {
-									["count"] = 0.69,
-								},
-								["Frost Fever"] = {
-									["count"] = 0,
-								},
-								["Frost Fever (DoT)"] = {
-									["count"] = 0,
-								},
-								["Retribution Aura"] = {
-									["count"] = 3.5,
-								},
-							},
-							["amount"] = 4.569999999999999,
-						},
-						["Horde Ranger"] = {
-							["Details"] = {
-								["Blood Plague (DoT)"] = {
-									["count"] = 0,
-								},
-								["Frost Fever (DoT)"] = {
-									["count"] = 0.69,
-								},
-								["Melee"] = {
-									["count"] = 0.76,
-								},
-								["Death and Decay"] = {
-									["count"] = 0.9,
-								},
-								["Icy Touch"] = {
-									["count"] = 6.29,
-								},
-								["Plague Strike"] = {
-									["count"] = 2.18,
-								},
-								["Retribution Aura"] = {
-									["count"] = 1.19,
-								},
-								["Blood Strike"] = {
-									["count"] = 0.08,
-								},
-							},
-							["amount"] = 12.09,
-						},
-						["Horde Berserker"] = {
-							["Details"] = {
-								["Icy Touch"] = {
-									["count"] = 1.06,
-								},
-								["Retribution Aura"] = {
-									["count"] = 1.15,
-								},
-								["Blood Plague (DoT)"] = {
-									["count"] = 2.49,
-								},
-								["Death and Decay"] = {
-									["count"] = 6.64,
-								},
-								["Blood Strike"] = {
-									["count"] = 0.76,
-								},
-								["Plague Strike"] = {
-									["count"] = 1.75,
-								},
-								["Frost Fever (DoT)"] = {
-									["count"] = 3.3,
-								},
-								["Melee"] = {
-									["count"] = 5.960000000000001,
-								},
-							},
-							["amount"] = 23.11,
-						},
-						["Commander Kolurg"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 4.29,
-								},
-								["Death Strike"] = {
-									["count"] = 0.12,
-								},
-								["Blood Plague (DoT)"] = {
-									["count"] = 6.179999999999999,
-								},
-								["Icy Touch"] = {
-									["count"] = 0.9,
-								},
-								["Blood Strike"] = {
-									["count"] = 1,
-								},
-								["Plague Strike"] = {
-									["count"] = 2.4,
-								},
-								["Frost Fever (DoT)"] = {
-									["count"] = 7.020000000000001,
-								},
-								["Retribution Aura"] = {
-									["count"] = 1.49,
-								},
-							},
-							["amount"] = 23.4,
-						},
-					},
-					["WhoDispelled"] = {
-					},
-					["InterruptData"] = {
-					},
-					["ElementTakenResist"] = {
-					},
-					["Heals"] = {
-						["Improved Leader of the Pack"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 899,
-									["min"] = 899,
-									["count"] = 2,
-									["amount"] = 1798,
-								},
-							},
-							["count"] = 2,
-							["amount"] = 1798,
-						},
-						["Judgement of Light"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 899,
-									["min"] = 650,
-									["count"] = 4,
-									["amount"] = 3347,
-								},
-							},
-							["count"] = 4,
-							["amount"] = 3347,
-						},
-					},
-					["Interrupts"] = 0,
-					["EnergyGained"] = {
-					},
 					["PartialResist"] = {
 						["Shoot"] = {
 							["Details"] = {
@@ -2202,46 +2061,170 @@ RecountPerCharDB = {
 							["amount"] = 0,
 						},
 					},
-					["Healing"] = 5145,
-					["RageGained"] = {
+					["ManaGained"] = {
 					},
-					["OverHeals"] = {
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["Overhealing"] = 12396,
+					["TimeSpent"] = {
+						["Jungee"] = {
+							["Details"] = {
+								["Improved Leader of the Pack"] = {
+									["count"] = 2.9,
+								},
+								["Judgement of Light"] = {
+									["count"] = 1.23,
+								},
+							},
+							["amount"] = 4.13,
+						},
+						["Horde Cleric"] = {
+							["Details"] = {
+								["Blood Plague"] = {
+									["count"] = 0.38,
+								},
+								["Blood Plague (DoT)"] = {
+									["count"] = 0.69,
+								},
+								["Frost Fever"] = {
+									["count"] = 0,
+								},
+								["Retribution Aura"] = {
+									["count"] = 3.5,
+								},
+								["Frost Fever (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 4.569999999999999,
+						},
+						["Horde Ranger"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0.76,
+								},
+								["Frost Fever (DoT)"] = {
+									["count"] = 0.69,
+								},
+								["Blood Plague (DoT)"] = {
+									["count"] = 0,
+								},
+								["Death and Decay"] = {
+									["count"] = 0.9,
+								},
+								["Blood Strike"] = {
+									["count"] = 0.08,
+								},
+								["Plague Strike"] = {
+									["count"] = 2.18,
+								},
+								["Retribution Aura"] = {
+									["count"] = 1.19,
+								},
+								["Icy Touch"] = {
+									["count"] = 6.29,
+								},
+							},
+							["amount"] = 12.09,
+						},
+						["Horde Berserker"] = {
+							["Details"] = {
+								["Blood Strike"] = {
+									["count"] = 0.76,
+								},
+								["Retribution Aura"] = {
+									["count"] = 1.15,
+								},
+								["Melee"] = {
+									["count"] = 5.960000000000001,
+								},
+								["Death and Decay"] = {
+									["count"] = 6.64,
+								},
+								["Icy Touch"] = {
+									["count"] = 1.06,
+								},
+								["Plague Strike"] = {
+									["count"] = 1.75,
+								},
+								["Frost Fever (DoT)"] = {
+									["count"] = 3.3,
+								},
+								["Blood Plague (DoT)"] = {
+									["count"] = 2.49,
+								},
+							},
+							["amount"] = 23.11,
+						},
+						["Commander Kolurg"] = {
+							["Details"] = {
+								["Blood Plague (DoT)"] = {
+									["count"] = 6.179999999999999,
+								},
+								["Death Strike"] = {
+									["count"] = 0.12,
+								},
+								["Melee"] = {
+									["count"] = 4.29,
+								},
+								["Icy Touch"] = {
+									["count"] = 0.9,
+								},
+								["Blood Strike"] = {
+									["count"] = 1,
+								},
+								["Plague Strike"] = {
+									["count"] = 2.4,
+								},
+								["Retribution Aura"] = {
+									["count"] = 1.49,
+								},
+								["Frost Fever (DoT)"] = {
+									["count"] = 7.020000000000001,
+								},
+							},
+							["amount"] = 23.4,
+						},
+					},
+					["WhoDispelled"] = {
+					},
+					["InterruptData"] = {
+					},
+					["ElementTakenResist"] = {
+					},
+					["Heals"] = {
 						["Improved Leader of the Pack"] = {
 							["Details"] = {
 								["Tick"] = {
 									["max"] = 899,
 									["min"] = 899,
-									["count"] = 3,
-									["amount"] = 2697,
+									["count"] = 2,
+									["amount"] = 1798,
 								},
 							},
-							["count"] = 3,
-							["amount"] = 2697,
-						},
-						["Death Strike"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 6753,
-									["min"] = 6753,
-									["count"] = 1,
-									["amount"] = 6753,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 6753,
+							["count"] = 2,
+							["amount"] = 1798,
 						},
 						["Judgement of Light"] = {
 							["Details"] = {
 								["Tick"] = {
 									["max"] = 899,
-									["min"] = 249,
+									["min"] = 650,
 									["count"] = 4,
-									["amount"] = 2946,
+									["amount"] = 3347,
 								},
 							},
 							["count"] = 4,
-							["amount"] = 2946,
+							["amount"] = 3347,
 						},
+					},
+					["ActiveTime"] = 67.29999999999998,
+					["EnergyGained"] = {
+					},
+					["EnergyGain"] = 0,
+					["Healing"] = 5145,
+					["Dispelled"] = 0,
+					["RageGained"] = {
 					},
 					["Attacks"] = {
 						["Melee"] = {
@@ -2416,14 +2399,14 @@ RecountPerCharDB = {
 					["TimeDamaging"] = {
 						["Commander Kolurg"] = {
 							["Details"] = {
-								["Melee"] = {
-									["count"] = 4.29,
+								["Blood Plague (DoT)"] = {
+									["count"] = 6.179999999999999,
 								},
 								["Death Strike"] = {
 									["count"] = 0.12,
 								},
-								["Blood Plague (DoT)"] = {
-									["count"] = 6.179999999999999,
+								["Melee"] = {
+									["count"] = 4.29,
 								},
 								["Icy Touch"] = {
 									["count"] = 0.9,
@@ -2434,31 +2417,31 @@ RecountPerCharDB = {
 								["Plague Strike"] = {
 									["count"] = 2.4,
 								},
-								["Frost Fever (DoT)"] = {
-									["count"] = 7.020000000000001,
-								},
 								["Retribution Aura"] = {
 									["count"] = 1.49,
+								},
+								["Frost Fever (DoT)"] = {
+									["count"] = 7.020000000000001,
 								},
 							},
 							["amount"] = 23.4,
 						},
 						["Horde Ranger"] = {
 							["Details"] = {
-								["Blood Plague (DoT)"] = {
-									["count"] = 0,
+								["Melee"] = {
+									["count"] = 0.76,
 								},
 								["Frost Fever (DoT)"] = {
 									["count"] = 0.69,
 								},
-								["Melee"] = {
-									["count"] = 0.76,
+								["Blood Plague (DoT)"] = {
+									["count"] = 0,
 								},
 								["Death and Decay"] = {
 									["count"] = 0.9,
 								},
-								["Icy Touch"] = {
-									["count"] = 6.29,
+								["Blood Strike"] = {
+									["count"] = 0.08,
 								},
 								["Plague Strike"] = {
 									["count"] = 2.18,
@@ -2466,28 +2449,28 @@ RecountPerCharDB = {
 								["Retribution Aura"] = {
 									["count"] = 1.19,
 								},
-								["Blood Strike"] = {
-									["count"] = 0.08,
+								["Icy Touch"] = {
+									["count"] = 6.29,
 								},
 							},
 							["amount"] = 12.09,
 						},
 						["Horde Berserker"] = {
 							["Details"] = {
-								["Icy Touch"] = {
-									["count"] = 1.06,
+								["Blood Strike"] = {
+									["count"] = 0.76,
 								},
 								["Retribution Aura"] = {
 									["count"] = 1.15,
 								},
-								["Blood Plague (DoT)"] = {
-									["count"] = 2.49,
+								["Melee"] = {
+									["count"] = 5.960000000000001,
 								},
 								["Death and Decay"] = {
 									["count"] = 6.64,
 								},
-								["Blood Strike"] = {
-									["count"] = 0.76,
+								["Icy Touch"] = {
+									["count"] = 1.06,
 								},
 								["Plague Strike"] = {
 									["count"] = 1.75,
@@ -2495,8 +2478,8 @@ RecountPerCharDB = {
 								["Frost Fever (DoT)"] = {
 									["count"] = 3.3,
 								},
-								["Melee"] = {
-									["count"] = 5.960000000000001,
+								["Blood Plague (DoT)"] = {
+									["count"] = 2.49,
 								},
 							},
 							["amount"] = 23.11,
@@ -2512,18 +2495,35 @@ RecountPerCharDB = {
 								["Frost Fever"] = {
 									["count"] = 0,
 								},
-								["Frost Fever (DoT)"] = {
-									["count"] = 0,
-								},
 								["Retribution Aura"] = {
 									["count"] = 3.5,
+								},
+								["Frost Fever (DoT)"] = {
+									["count"] = 0,
 								},
 							},
 							["amount"] = 4.569999999999999,
 						},
 					},
 					["ManaGain"] = 0,
-					["DOT_Time"] = 135,
+					["HOTs"] = {
+						["Improved Leader of the Pack"] = {
+							["Details"] = {
+								["Jungee"] = {
+									["count"] = 15,
+								},
+							},
+							["amount"] = 15,
+						},
+						["Judgement of Light"] = {
+							["Details"] = {
+								["Jungee"] = {
+									["count"] = 21,
+								},
+							},
+							["amount"] = 21,
+						},
+					},
 					["DispelledWho"] = {
 					},
 				},
@@ -2601,25 +2601,16 @@ RecountPerCharDB = {
 					},
 					["DeathCount"] = 0,
 					["HOT_Time"] = 0,
-					["ElementTakenBlock"] = {
-					},
+					["Damage"] = 0,
 					["RunicPowerGain"] = 0,
 					["ElementTaken"] = {
 						["Physical"] = 0,
 						["Melee"] = 0,
 						["Arcane"] = 0,
 					},
-					["HOTs"] = {
-						["Judgement of Light"] = {
-							["Details"] = {
-								["Jungee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
+					["DOT_Time"] = 0,
+					["ElementTakenBlock"] = {
 					},
-					["Damage"] = 0,
 					["ElementDoneAbsorb"] = {
 					},
 					["TimeHeal"] = 0,
@@ -2627,120 +2618,6 @@ RecountPerCharDB = {
 					},
 					["Dispels"] = 0,
 					["PartialBlock"] = {
-					},
-					["DamagedWho"] = {
-						["Horde Cleric"] = {
-							["Details"] = {
-								["Plague Strike"] = {
-									["count"] = 0,
-								},
-								["Rune Strike"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Mage Slayer"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Icy Touch"] = {
-									["count"] = 0,
-								},
-								["Rune Strike"] = {
-									["count"] = 0,
-								},
-								["Retribution Aura"] = {
-									["count"] = 0,
-								},
-								["Blood Plague (DoT)"] = {
-									["count"] = 0,
-								},
-								["Blood Strike"] = {
-									["count"] = 0,
-								},
-								["Plague Strike"] = {
-									["count"] = 0,
-								},
-								["Frost Fever (DoT)"] = {
-									["count"] = 0,
-								},
-								["Death Strike"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Horde Berserker"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Blood Strike"] = {
-									["count"] = 0,
-								},
-								["Rune Strike"] = {
-									["count"] = 0,
-								},
-								["Retribution Aura"] = {
-									["count"] = 0,
-								},
-								["Blood Plague (DoT)"] = {
-									["count"] = 0,
-								},
-								["Frost Fever (DoT)"] = {
-									["count"] = 0,
-								},
-								["Plague Strike"] = {
-									["count"] = 0,
-								},
-								["Death Strike"] = {
-									["count"] = 0,
-								},
-								["Icy Touch"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Mage Hunter Ascendant"] = {
-							["Details"] = {
-								["Blood Plague (DoT)"] = {
-									["count"] = 0,
-								},
-								["Rune Strike"] = {
-									["count"] = 0,
-								},
-								["Retribution Aura"] = {
-									["count"] = 0,
-								},
-								["Frost Fever (DoT)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["FAttacks"] = {
-					},
-					["HealingTaken"] = 0,
-					["ElementDone"] = {
-						["Physical"] = 0,
-						["Melee"] = 0,
-						["Shadow"] = 0,
-						["Frost"] = 0,
-						["Holy"] = 0,
-					},
-					["RunicPowerGainedFrom"] = {
-						["Jungee"] = {
-							["Details"] = {
-								["Scent of Blood"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
 					},
 					["ElementHitsDone"] = {
 						["Physical"] = {
@@ -2790,7 +2667,121 @@ RecountPerCharDB = {
 							["amount"] = 0,
 						},
 					},
+					["FAttacks"] = {
+					},
+					["HealingTaken"] = 0,
+					["ElementDone"] = {
+						["Physical"] = 0,
+						["Melee"] = 0,
+						["Shadow"] = 0,
+						["Frost"] = 0,
+						["Holy"] = 0,
+					},
+					["DamagedWho"] = {
+						["Horde Cleric"] = {
+							["Details"] = {
+								["Plague Strike"] = {
+									["count"] = 0,
+								},
+								["Rune Strike"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Mage Slayer"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Icy Touch"] = {
+									["count"] = 0,
+								},
+								["Rune Strike"] = {
+									["count"] = 0,
+								},
+								["Retribution Aura"] = {
+									["count"] = 0,
+								},
+								["Blood Plague (DoT)"] = {
+									["count"] = 0,
+								},
+								["Blood Strike"] = {
+									["count"] = 0,
+								},
+								["Plague Strike"] = {
+									["count"] = 0,
+								},
+								["Death Strike"] = {
+									["count"] = 0,
+								},
+								["Frost Fever (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Horde Berserker"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Blood Strike"] = {
+									["count"] = 0,
+								},
+								["Rune Strike"] = {
+									["count"] = 0,
+								},
+								["Retribution Aura"] = {
+									["count"] = 0,
+								},
+								["Blood Plague (DoT)"] = {
+									["count"] = 0,
+								},
+								["Death Strike"] = {
+									["count"] = 0,
+								},
+								["Plague Strike"] = {
+									["count"] = 0,
+								},
+								["Frost Fever (DoT)"] = {
+									["count"] = 0,
+								},
+								["Icy Touch"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Mage Hunter Ascendant"] = {
+							["Details"] = {
+								["Retribution Aura"] = {
+									["count"] = 0,
+								},
+								["Rune Strike"] = {
+									["count"] = 0,
+								},
+								["Frost Fever (DoT)"] = {
+									["count"] = 0,
+								},
+								["Blood Plague (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
 					["ManaGainedFrom"] = {
+					},
+					["RunicPowerGained"] = {
+						["Scent of Blood"] = {
+							["Details"] = {
+								["Jungee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
 					},
 					["WhoDamaged"] = {
 						["Mage Slayer"] = {
@@ -2826,17 +2817,17 @@ RecountPerCharDB = {
 					},
 					["EnergyGainedFrom"] = {
 					},
-					["RunicPowerGained"] = {
-						["Scent of Blood"] = {
+					["CCBroken"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+						["Jungee"] = {
 							["Details"] = {
-								["Jungee"] = {
+								["Scent of Blood"] = {
 									["count"] = 0,
 								},
 							},
 							["amount"] = 0,
 						},
-					},
-					["CCBroken"] = {
 					},
 					["ElementDoneBlock"] = {
 						["Melee"] = 0,
@@ -2851,7 +2842,32 @@ RecountPerCharDB = {
 							["amount"] = 0,
 						},
 					},
-					["Dispelled"] = 0,
+					["OverHeals"] = {
+						["Death Strike"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Judgement of Light"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
 					["WhoHealed"] = {
 						["Jungee"] = {
 							["Details"] = {
@@ -2888,23 +2904,7 @@ RecountPerCharDB = {
 						["Melee"] = 0,
 						["Arcane"] = 0,
 					},
-					["FDamage"] = 0,
-					["EnergyGain"] = 0,
-					["ManaGained"] = {
-					},
 					["PartialAbsorb"] = {
-						["Arcane Trap Effect"] = {
-							["Details"] = {
-								["Absorbed"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
 						["Melee"] = {
 							["Details"] = {
 								["No Absorb"] = {
@@ -2935,8 +2935,61 @@ RecountPerCharDB = {
 							["count"] = 0,
 							["amount"] = 0,
 						},
+						["Arcane Trap Effect"] = {
+							["Details"] = {
+								["Absorbed"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
 					},
-					["ActiveTime"] = 0,
+					["PartialResist"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["War Stomp"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Arcane Trap Effect"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["ManaGained"] = {
+					},
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
 					["Overhealing"] = 0,
 					["TimeSpent"] = {
 						["Jungee"] = {
@@ -2970,10 +3023,10 @@ RecountPerCharDB = {
 								["Plague Strike"] = {
 									["count"] = 0,
 								},
-								["Frost Fever (DoT)"] = {
+								["Death Strike"] = {
 									["count"] = 0,
 								},
-								["Death Strike"] = {
+								["Frost Fever (DoT)"] = {
 									["count"] = 0,
 								},
 							},
@@ -3007,13 +3060,13 @@ RecountPerCharDB = {
 								["Blood Plague (DoT)"] = {
 									["count"] = 0,
 								},
-								["Frost Fever (DoT)"] = {
+								["Death Strike"] = {
 									["count"] = 0,
 								},
 								["Plague Strike"] = {
 									["count"] = 0,
 								},
-								["Death Strike"] = {
+								["Frost Fever (DoT)"] = {
 									["count"] = 0,
 								},
 								["Icy Touch"] = {
@@ -3024,16 +3077,16 @@ RecountPerCharDB = {
 						},
 						["Mage Hunter Ascendant"] = {
 							["Details"] = {
-								["Blood Plague (DoT)"] = {
+								["Retribution Aura"] = {
 									["count"] = 0,
 								},
 								["Rune Strike"] = {
 									["count"] = 0,
 								},
-								["Retribution Aura"] = {
+								["Frost Fever (DoT)"] = {
 									["count"] = 0,
 								},
-								["Frost Fever (DoT)"] = {
+								["Blood Plague (DoT)"] = {
 									["count"] = 0,
 								},
 							},
@@ -3068,75 +3121,13 @@ RecountPerCharDB = {
 							["amount"] = 0,
 						},
 					},
-					["Interrupts"] = 0,
+					["ActiveTime"] = 0,
 					["EnergyGained"] = {
 					},
-					["PartialResist"] = {
-						["Arcane Trap Effect"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["War Stomp"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
+					["EnergyGain"] = 0,
 					["Healing"] = 0,
+					["Dispelled"] = 0,
 					["RageGained"] = {
-					},
-					["OverHeals"] = {
-						["Death Strike"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Judgement of Light"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
 					},
 					["Attacks"] = {
 						["Melee"] = {
@@ -3235,9 +3226,9 @@ RecountPerCharDB = {
 							["count"] = 0,
 							["amount"] = 0,
 						},
-						["Frost Fever (DoT)"] = {
+						["Death Strike"] = {
 							["Details"] = {
-								["Tick"] = {
+								["Hit"] = {
 									["max"] = 0,
 									["min"] = 0,
 									["count"] = 0,
@@ -3247,9 +3238,9 @@ RecountPerCharDB = {
 							["count"] = 0,
 							["amount"] = 0,
 						},
-						["Death Strike"] = {
+						["Frost Fever (DoT)"] = {
 							["Details"] = {
-								["Hit"] = {
+								["Tick"] = {
 									["max"] = 0,
 									["min"] = 0,
 									["count"] = 0,
@@ -3299,10 +3290,10 @@ RecountPerCharDB = {
 								["Plague Strike"] = {
 									["count"] = 0,
 								},
-								["Frost Fever (DoT)"] = {
+								["Death Strike"] = {
 									["count"] = 0,
 								},
-								["Death Strike"] = {
+								["Frost Fever (DoT)"] = {
 									["count"] = 0,
 								},
 							},
@@ -3325,13 +3316,13 @@ RecountPerCharDB = {
 								["Blood Plague (DoT)"] = {
 									["count"] = 0,
 								},
-								["Frost Fever (DoT)"] = {
+								["Death Strike"] = {
 									["count"] = 0,
 								},
 								["Plague Strike"] = {
 									["count"] = 0,
 								},
-								["Death Strike"] = {
+								["Frost Fever (DoT)"] = {
 									["count"] = 0,
 								},
 								["Icy Touch"] = {
@@ -3342,16 +3333,16 @@ RecountPerCharDB = {
 						},
 						["Mage Hunter Ascendant"] = {
 							["Details"] = {
-								["Blood Plague (DoT)"] = {
+								["Retribution Aura"] = {
 									["count"] = 0,
 								},
 								["Rune Strike"] = {
 									["count"] = 0,
 								},
-								["Retribution Aura"] = {
+								["Frost Fever (DoT)"] = {
 									["count"] = 0,
 								},
-								["Frost Fever (DoT)"] = {
+								["Blood Plague (DoT)"] = {
 									["count"] = 0,
 								},
 							},
@@ -3359,7 +3350,16 @@ RecountPerCharDB = {
 						},
 					},
 					["ManaGain"] = 0,
-					["DOT_Time"] = 0,
+					["HOTs"] = {
+						["Judgement of Light"] = {
+							["Details"] = {
+								["Jungee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
 					["DispelledWho"] = {
 					},
 				},
@@ -3423,23 +3423,14 @@ RecountPerCharDB = {
 					},
 					["DeathCount"] = 0,
 					["HOT_Time"] = 3,
-					["ElementTakenBlock"] = {
-					},
+					["Damage"] = 27675,
 					["RunicPowerGain"] = 0,
 					["ElementTaken"] = {
 						["Melee"] = 1794,
 					},
-					["HOTs"] = {
-						["Judgement of Light"] = {
-							["Details"] = {
-								["Jungee"] = {
-									["count"] = 3,
-								},
-							},
-							["amount"] = 3,
-						},
+					["DOT_Time"] = 39,
+					["ElementTakenBlock"] = {
 					},
-					["Damage"] = 27675,
 					["ElementDoneAbsorb"] = {
 					},
 					["TimeHeal"] = 0,
@@ -3447,69 +3438,6 @@ RecountPerCharDB = {
 					},
 					["Dispels"] = 0,
 					["PartialBlock"] = {
-					},
-					["DamagedWho"] = {
-						["Azure Enforcer"] = {
-							["Details"] = {
-								["Blood Plague (DoT)"] = {
-									["count"] = 1272,
-								},
-								["Icy Touch"] = {
-									["count"] = 2024,
-								},
-								["Blood Strike"] = {
-									["count"] = 1082,
-								},
-								["Plague Strike"] = {
-									["count"] = 1032,
-								},
-								["Frost Fever (DoT)"] = {
-									["count"] = 1878,
-								},
-								["Melee"] = {
-									["count"] = 3534,
-								},
-							},
-							["amount"] = 10822,
-						},
-						["Azure Scale-Binder"] = {
-							["Details"] = {
-								["Blood Plague (DoT)"] = {
-									["count"] = 2341,
-								},
-								["Melee"] = {
-									["count"] = 5238,
-								},
-								["Retribution Aura"] = {
-									["count"] = 223,
-								},
-								["Icy Touch"] = {
-									["count"] = 3163,
-								},
-								["Plague Strike"] = {
-									["count"] = 900,
-								},
-								["Frost Fever (DoT)"] = {
-									["count"] = 2304,
-								},
-								["Rune Strike"] = {
-									["count"] = 2684,
-								},
-							},
-							["amount"] = 16853,
-						},
-					},
-					["FAttacks"] = {
-					},
-					["HealingTaken"] = 1794,
-					["ElementDone"] = {
-						["Frost"] = 9369,
-						["Melee"] = 8772,
-						["Shadow"] = 3613,
-						["Physical"] = 5698,
-						["Holy"] = 223,
-					},
-					["RunicPowerGainedFrom"] = {
 					},
 					["ElementHitsDone"] = {
 						["Frost"] = {
@@ -3559,7 +3487,70 @@ RecountPerCharDB = {
 							["amount"] = 1,
 						},
 					},
+					["FAttacks"] = {
+					},
+					["HealingTaken"] = 1794,
+					["ElementDone"] = {
+						["Frost"] = 9369,
+						["Melee"] = 8772,
+						["Shadow"] = 3613,
+						["Physical"] = 5698,
+						["Holy"] = 223,
+					},
+					["DamagedWho"] = {
+						["Azure Enforcer"] = {
+							["Details"] = {
+								["Blood Plague (DoT)"] = {
+									["count"] = 1272,
+								},
+								["Blood Strike"] = {
+									["count"] = 1082,
+								},
+								["Icy Touch"] = {
+									["count"] = 2024,
+								},
+								["Plague Strike"] = {
+									["count"] = 1032,
+								},
+								["Frost Fever (DoT)"] = {
+									["count"] = 1878,
+								},
+								["Melee"] = {
+									["count"] = 3534,
+								},
+							},
+							["amount"] = 10822,
+						},
+						["Azure Scale-Binder"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 5238,
+								},
+								["Blood Plague (DoT)"] = {
+									["count"] = 2341,
+								},
+								["Retribution Aura"] = {
+									["count"] = 223,
+								},
+								["Icy Touch"] = {
+									["count"] = 3163,
+								},
+								["Rune Strike"] = {
+									["count"] = 2684,
+								},
+								["Frost Fever (DoT)"] = {
+									["count"] = 2304,
+								},
+								["Plague Strike"] = {
+									["count"] = 900,
+								},
+							},
+							["amount"] = 16853,
+						},
+					},
 					["ManaGainedFrom"] = {
+					},
+					["RunicPowerGained"] = {
 					},
 					["WhoDamaged"] = {
 						["Azure Scale-Binder"] = {
@@ -3573,15 +3564,28 @@ RecountPerCharDB = {
 					},
 					["EnergyGainedFrom"] = {
 					},
-					["RunicPowerGained"] = {
-					},
 					["CCBroken"] = {
+					},
+					["RunicPowerGainedFrom"] = {
 					},
 					["ElementDoneBlock"] = {
 					},
 					["TimeHealing"] = {
 					},
-					["Dispelled"] = 0,
+					["OverHeals"] = {
+						["Judgement of Light"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 899,
+									["min"] = 899,
+									["count"] = 1,
+									["amount"] = 899,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 899,
+						},
+					},
 					["WhoHealed"] = {
 						["Bigepapa"] = {
 							["Details"] = {
@@ -3597,10 +3601,6 @@ RecountPerCharDB = {
 					["CCBreak"] = 0,
 					["ElementTakenAbsorb"] = {
 						["Melee"] = 2090,
-					},
-					["FDamage"] = 0,
-					["EnergyGain"] = 0,
-					["ManaGained"] = {
 					},
 					["PartialAbsorb"] = {
 						["Melee"] = {
@@ -3634,70 +3634,6 @@ RecountPerCharDB = {
 							["amount"] = 0,
 						},
 					},
-					["ActiveTime"] = 15.28,
-					["Overhealing"] = 899,
-					["TimeSpent"] = {
-						["Azure Enforcer"] = {
-							["Details"] = {
-								["Blood Plague (DoT)"] = {
-									["count"] = 1.4,
-								},
-								["Icy Touch"] = {
-									["count"] = 0.57,
-								},
-								["Blood Strike"] = {
-									["count"] = 0.1,
-								},
-								["Plague Strike"] = {
-									["count"] = 0.34,
-								},
-								["Frost Fever (DoT)"] = {
-									["count"] = 1.87,
-								},
-								["Melee"] = {
-									["count"] = 0.73,
-								},
-							},
-							["amount"] = 5.01,
-						},
-						["Azure Scale-Binder"] = {
-							["Details"] = {
-								["Blood Plague (DoT)"] = {
-									["count"] = 1.57,
-								},
-								["Melee"] = {
-									["count"] = 2.39,
-								},
-								["Retribution Aura"] = {
-									["count"] = 3.5,
-								},
-								["Icy Touch"] = {
-									["count"] = 0.25,
-								},
-								["Plague Strike"] = {
-									["count"] = 1.01,
-								},
-								["Frost Fever (DoT)"] = {
-									["count"] = 1.35,
-								},
-								["Rune Strike"] = {
-									["count"] = 0.2,
-								},
-							},
-							["amount"] = 10.27,
-						},
-					},
-					["WhoDispelled"] = {
-					},
-					["InterruptData"] = {
-					},
-					["ElementTakenResist"] = {
-					},
-					["Heals"] = {
-					},
-					["Interrupts"] = 0,
-					["EnergyGained"] = {
-					},
 					["PartialResist"] = {
 						["Melee"] = {
 							["Details"] = {
@@ -3724,35 +3660,90 @@ RecountPerCharDB = {
 							["amount"] = 0,
 						},
 					},
-					["Healing"] = 0,
-					["RageGained"] = {
+					["ManaGained"] = {
 					},
-					["OverHeals"] = {
-						["Judgement of Light"] = {
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["Overhealing"] = 899,
+					["TimeSpent"] = {
+						["Azure Enforcer"] = {
 							["Details"] = {
-								["Tick"] = {
-									["max"] = 899,
-									["min"] = 899,
-									["count"] = 1,
-									["amount"] = 899,
+								["Blood Plague (DoT)"] = {
+									["count"] = 1.4,
+								},
+								["Blood Strike"] = {
+									["count"] = 0.1,
+								},
+								["Icy Touch"] = {
+									["count"] = 0.57,
+								},
+								["Plague Strike"] = {
+									["count"] = 0.34,
+								},
+								["Frost Fever (DoT)"] = {
+									["count"] = 1.87,
+								},
+								["Melee"] = {
+									["count"] = 0.73,
 								},
 							},
-							["count"] = 1,
-							["amount"] = 899,
+							["amount"] = 5.01,
+						},
+						["Azure Scale-Binder"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 2.39,
+								},
+								["Blood Plague (DoT)"] = {
+									["count"] = 1.57,
+								},
+								["Retribution Aura"] = {
+									["count"] = 3.5,
+								},
+								["Icy Touch"] = {
+									["count"] = 0.25,
+								},
+								["Rune Strike"] = {
+									["count"] = 0.2,
+								},
+								["Frost Fever (DoT)"] = {
+									["count"] = 1.35,
+								},
+								["Plague Strike"] = {
+									["count"] = 1.01,
+								},
+							},
+							["amount"] = 10.27,
 						},
 					},
+					["WhoDispelled"] = {
+					},
+					["InterruptData"] = {
+					},
+					["ElementTakenResist"] = {
+					},
+					["Heals"] = {
+					},
+					["ActiveTime"] = 15.28,
+					["EnergyGained"] = {
+					},
+					["EnergyGain"] = 0,
+					["Healing"] = 0,
+					["Dispelled"] = 0,
+					["RageGained"] = {
+					},
 					["Attacks"] = {
-						["Blood Plague (DoT)"] = {
+						["Melee"] = {
 							["Details"] = {
-								["Tick"] = {
-									["max"] = 636,
-									["min"] = 433,
-									["count"] = 6,
-									["amount"] = 3613,
+								["Hit"] = {
+									["max"] = 1899,
+									["min"] = 1635,
+									["count"] = 5,
+									["amount"] = 8772,
 								},
 							},
-							["count"] = 6,
-							["amount"] = 3613,
+							["count"] = 5,
+							["amount"] = 8772,
 						},
 						["Retribution Aura"] = {
 							["Details"] = {
@@ -3766,17 +3757,17 @@ RecountPerCharDB = {
 							["count"] = 1,
 							["amount"] = 223,
 						},
-						["Melee"] = {
+						["Blood Plague (DoT)"] = {
 							["Details"] = {
-								["Hit"] = {
-									["max"] = 1899,
-									["min"] = 1635,
-									["count"] = 5,
-									["amount"] = 8772,
+								["Tick"] = {
+									["max"] = 636,
+									["min"] = 433,
+									["count"] = 6,
+									["amount"] = 3613,
 								},
 							},
-							["count"] = 5,
-							["amount"] = 8772,
+							["count"] = 6,
+							["amount"] = 3613,
 						},
 						["Rune Strike"] = {
 							["Details"] = {
@@ -3790,23 +3781,17 @@ RecountPerCharDB = {
 							["count"] = 1,
 							["amount"] = 2684,
 						},
-						["Icy Touch"] = {
+						["Blood Strike"] = {
 							["Details"] = {
-								["Crit"] = {
-									["max"] = 2024,
-									["min"] = 2021,
-									["count"] = 2,
-									["amount"] = 4045,
-								},
 								["Hit"] = {
-									["max"] = 1142,
-									["min"] = 1142,
+									["max"] = 1082,
+									["min"] = 1082,
 									["count"] = 1,
-									["amount"] = 1142,
+									["amount"] = 1082,
 								},
 							},
-							["count"] = 3,
-							["amount"] = 5187,
+							["count"] = 1,
+							["amount"] = 1082,
 						},
 						["Plague Strike"] = {
 							["Details"] = {
@@ -3832,17 +3817,23 @@ RecountPerCharDB = {
 							["count"] = 7,
 							["amount"] = 4182,
 						},
-						["Blood Strike"] = {
+						["Icy Touch"] = {
 							["Details"] = {
+								["Crit"] = {
+									["max"] = 2024,
+									["min"] = 2021,
+									["count"] = 2,
+									["amount"] = 4045,
+								},
 								["Hit"] = {
-									["max"] = 1082,
-									["min"] = 1082,
+									["max"] = 1142,
+									["min"] = 1142,
 									["count"] = 1,
-									["amount"] = 1082,
+									["amount"] = 1142,
 								},
 							},
-							["count"] = 1,
-							["amount"] = 1082,
+							["count"] = 3,
+							["amount"] = 5187,
 						},
 					},
 					["RageGain"] = 0,
@@ -3855,11 +3846,11 @@ RecountPerCharDB = {
 								["Blood Plague (DoT)"] = {
 									["count"] = 1.4,
 								},
-								["Icy Touch"] = {
-									["count"] = 0.57,
-								},
 								["Blood Strike"] = {
 									["count"] = 0.1,
+								},
+								["Icy Touch"] = {
+									["count"] = 0.57,
 								},
 								["Plague Strike"] = {
 									["count"] = 0.34,
@@ -3875,11 +3866,11 @@ RecountPerCharDB = {
 						},
 						["Azure Scale-Binder"] = {
 							["Details"] = {
-								["Blood Plague (DoT)"] = {
-									["count"] = 1.57,
-								},
 								["Melee"] = {
 									["count"] = 2.39,
+								},
+								["Blood Plague (DoT)"] = {
+									["count"] = 1.57,
 								},
 								["Retribution Aura"] = {
 									["count"] = 3.5,
@@ -3887,21 +3878,30 @@ RecountPerCharDB = {
 								["Icy Touch"] = {
 									["count"] = 0.25,
 								},
-								["Plague Strike"] = {
-									["count"] = 1.01,
+								["Rune Strike"] = {
+									["count"] = 0.2,
 								},
 								["Frost Fever (DoT)"] = {
 									["count"] = 1.35,
 								},
-								["Rune Strike"] = {
-									["count"] = 0.2,
+								["Plague Strike"] = {
+									["count"] = 1.01,
 								},
 							},
 							["amount"] = 10.27,
 						},
 					},
 					["ManaGain"] = 0,
-					["DOT_Time"] = 39,
+					["HOTs"] = {
+						["Judgement of Light"] = {
+							["Details"] = {
+								["Jungee"] = {
+									["count"] = 3,
+								},
+							},
+							["amount"] = 3,
+						},
+					},
 					["DispelledWho"] = {
 					},
 				},
@@ -4029,8 +4029,7 @@ RecountPerCharDB = {
 					},
 					["DeathCount"] = 0,
 					["HOT_Time"] = 54,
-					["ElementTakenBlock"] = {
-					},
+					["Damage"] = 136923,
 					["RunicPowerGain"] = 160,
 					["ElementTaken"] = {
 						["Physical"] = 592,
@@ -4040,25 +4039,9 @@ RecountPerCharDB = {
 						["Shadow"] = 1853,
 						["Frost"] = 11082,
 					},
-					["HOTs"] = {
-						["Improved Leader of the Pack"] = {
-							["Details"] = {
-								["Jungee"] = {
-									["count"] = 18,
-								},
-							},
-							["amount"] = 18,
-						},
-						["Judgement of Light"] = {
-							["Details"] = {
-								["Jungee"] = {
-									["count"] = 36,
-								},
-							},
-							["amount"] = 36,
-						},
+					["DOT_Time"] = 108,
+					["ElementTakenBlock"] = {
 					},
-					["Damage"] = 136923,
 					["ElementDoneAbsorb"] = {
 					},
 					["TimeHeal"] = 11.93,
@@ -4066,170 +4049,6 @@ RecountPerCharDB = {
 					},
 					["Dispels"] = 0,
 					["PartialBlock"] = {
-					},
-					["DamagedWho"] = {
-						["Grand Magus Telestra"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 26068,
-								},
-								["Death and Decay"] = {
-									["count"] = 2711,
-								},
-								["Blood Strike"] = {
-									["count"] = 3175,
-								},
-								["Retribution Aura"] = {
-									["count"] = 669,
-								},
-								["Blood Plague (DoT)"] = {
-									["count"] = 2990,
-								},
-								["Frost Fever (DoT)"] = {
-									["count"] = 9139,
-								},
-								["Plague Strike"] = {
-									["count"] = 2938,
-								},
-								["Death Strike"] = {
-									["count"] = 1760,
-								},
-								["Icy Touch"] = {
-									["count"] = 10952,
-								},
-							},
-							["amount"] = 60402,
-						},
-						["Mage Slayer"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 3646,
-								},
-								["Blood Plague (DoT)"] = {
-									["count"] = 636,
-								},
-								["Icy Touch"] = {
-									["count"] = 1017,
-								},
-								["Plague Strike"] = {
-									["count"] = 2136,
-								},
-								["Frost Fever (DoT)"] = {
-									["count"] = 1052,
-								},
-								["Retribution Aura"] = {
-									["count"] = 709,
-								},
-							},
-							["amount"] = 9196,
-						},
-						["Steward"] = {
-							["Details"] = {
-								["Blood Strike"] = {
-									["count"] = 1058,
-								},
-								["Blood Plague (DoT)"] = {
-									["count"] = 1299,
-								},
-								["Death and Decay"] = {
-									["count"] = 3185,
-								},
-								["Icy Touch"] = {
-									["count"] = 1137,
-								},
-								["Plague Strike"] = {
-									["count"] = 1092,
-								},
-								["Retribution Aura"] = {
-									["count"] = 669,
-								},
-								["Melee"] = {
-									["count"] = 7189,
-								},
-							},
-							["amount"] = 15629,
-						},
-						["Mage Hunter Initiate"] = {
-							["Details"] = {
-								["Icy Touch"] = {
-									["count"] = 2175,
-								},
-								["Rune Strike"] = {
-									["count"] = 2654,
-								},
-								["Blood Plague (DoT)"] = {
-									["count"] = 1705,
-								},
-								["Death and Decay"] = {
-									["count"] = 3221,
-								},
-								["Blood Strike"] = {
-									["count"] = 1202,
-								},
-								["Plague Strike"] = {
-									["count"] = 2077,
-								},
-								["Frost Fever (DoT)"] = {
-									["count"] = 1678,
-								},
-								["Melee"] = {
-									["count"] = 9144,
-								},
-							},
-							["amount"] = 23856,
-						},
-						["Mage Hunter Ascendant"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 9139,
-								},
-								["Death and Decay"] = {
-									["count"] = 3549,
-								},
-								["Icy Touch"] = {
-									["count"] = 1771,
-								},
-								["Rune Strike"] = {
-									["count"] = 8448,
-								},
-								["Retribution Aura"] = {
-									["count"] = 243,
-								},
-								["Blood Plague (DoT)"] = {
-									["count"] = 636,
-								},
-								["Plague Strike"] = {
-									["count"] = 1088,
-								},
-								["Frost Fever (DoT)"] = {
-									["count"] = 732,
-								},
-								["Blood Strike"] = {
-									["count"] = 2234,
-								},
-							},
-							["amount"] = 27840,
-						},
-					},
-					["FAttacks"] = {
-					},
-					["HealingTaken"] = 41399,
-					["ElementDone"] = {
-						["Physical"] = 29862,
-						["Melee"] = 55186,
-						["Shadow"] = 19932,
-						["Holy"] = 2290,
-						["Frost"] = 29653,
-					},
-					["RunicPowerGainedFrom"] = {
-						["Jungee"] = {
-							["Details"] = {
-								["Scent of Blood"] = {
-									["count"] = 160,
-								},
-							},
-							["amount"] = 160,
-						},
 					},
 					["ElementHitsDone"] = {
 						["Physical"] = {
@@ -4294,7 +4113,171 @@ RecountPerCharDB = {
 							["amount"] = 39,
 						},
 					},
+					["FAttacks"] = {
+					},
+					["HealingTaken"] = 41399,
+					["ElementDone"] = {
+						["Physical"] = 29862,
+						["Melee"] = 55186,
+						["Shadow"] = 19932,
+						["Holy"] = 2290,
+						["Frost"] = 29653,
+					},
+					["DamagedWho"] = {
+						["Grand Magus Telestra"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 26068,
+								},
+								["Death and Decay"] = {
+									["count"] = 2711,
+								},
+								["Blood Strike"] = {
+									["count"] = 3175,
+								},
+								["Retribution Aura"] = {
+									["count"] = 669,
+								},
+								["Blood Plague (DoT)"] = {
+									["count"] = 2990,
+								},
+								["Death Strike"] = {
+									["count"] = 1760,
+								},
+								["Plague Strike"] = {
+									["count"] = 2938,
+								},
+								["Frost Fever (DoT)"] = {
+									["count"] = 9139,
+								},
+								["Icy Touch"] = {
+									["count"] = 10952,
+								},
+							},
+							["amount"] = 60402,
+						},
+						["Mage Slayer"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 3646,
+								},
+								["Blood Plague (DoT)"] = {
+									["count"] = 636,
+								},
+								["Icy Touch"] = {
+									["count"] = 1017,
+								},
+								["Plague Strike"] = {
+									["count"] = 2136,
+								},
+								["Retribution Aura"] = {
+									["count"] = 709,
+								},
+								["Frost Fever (DoT)"] = {
+									["count"] = 1052,
+								},
+							},
+							["amount"] = 9196,
+						},
+						["Steward"] = {
+							["Details"] = {
+								["Icy Touch"] = {
+									["count"] = 1137,
+								},
+								["Melee"] = {
+									["count"] = 7189,
+								},
+								["Death and Decay"] = {
+									["count"] = 3185,
+								},
+								["Blood Strike"] = {
+									["count"] = 1058,
+								},
+								["Plague Strike"] = {
+									["count"] = 1092,
+								},
+								["Retribution Aura"] = {
+									["count"] = 669,
+								},
+								["Blood Plague (DoT)"] = {
+									["count"] = 1299,
+								},
+							},
+							["amount"] = 15629,
+						},
+						["Mage Hunter Initiate"] = {
+							["Details"] = {
+								["Blood Strike"] = {
+									["count"] = 1202,
+								},
+								["Rune Strike"] = {
+									["count"] = 2654,
+								},
+								["Melee"] = {
+									["count"] = 9144,
+								},
+								["Death and Decay"] = {
+									["count"] = 3221,
+								},
+								["Icy Touch"] = {
+									["count"] = 2175,
+								},
+								["Plague Strike"] = {
+									["count"] = 2077,
+								},
+								["Frost Fever (DoT)"] = {
+									["count"] = 1678,
+								},
+								["Blood Plague (DoT)"] = {
+									["count"] = 1705,
+								},
+							},
+							["amount"] = 23856,
+						},
+						["Mage Hunter Ascendant"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 9139,
+								},
+								["Death and Decay"] = {
+									["count"] = 3549,
+								},
+								["Icy Touch"] = {
+									["count"] = 1771,
+								},
+								["Rune Strike"] = {
+									["count"] = 8448,
+								},
+								["Retribution Aura"] = {
+									["count"] = 243,
+								},
+								["Blood Plague (DoT)"] = {
+									["count"] = 636,
+								},
+								["Plague Strike"] = {
+									["count"] = 1088,
+								},
+								["Frost Fever (DoT)"] = {
+									["count"] = 732,
+								},
+								["Blood Strike"] = {
+									["count"] = 2234,
+								},
+							},
+							["amount"] = 27840,
+						},
+					},
 					["ManaGainedFrom"] = {
+					},
+					["RunicPowerGained"] = {
+						["Scent of Blood"] = {
+							["Details"] = {
+								["Jungee"] = {
+									["count"] = 160,
+								},
+							},
+							["amount"] = 160,
+						},
 					},
 					["WhoDamaged"] = {
 						["No One"] = {
@@ -4360,17 +4343,17 @@ RecountPerCharDB = {
 						},
 						["Mage Hunter Ascendant"] = {
 							["Details"] = {
-								["Arcane Trap Effect"] = {
-									["count"] = 125,
+								["Arcane Explosion"] = {
+									["count"] = 2734,
 								},
 								["Frostbolt"] = {
 									["count"] = 1339,
 								},
-								["Arcane Explosion"] = {
-									["count"] = 2734,
-								},
 								["Melee"] = {
 									["count"] = 1825,
+								},
+								["Arcane Trap Effect"] = {
+									["count"] = 125,
 								},
 							},
 							["amount"] = 6023,
@@ -4378,17 +4361,17 @@ RecountPerCharDB = {
 					},
 					["EnergyGainedFrom"] = {
 					},
-					["RunicPowerGained"] = {
-						["Scent of Blood"] = {
+					["CCBroken"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+						["Jungee"] = {
 							["Details"] = {
-								["Jungee"] = {
+								["Scent of Blood"] = {
 									["count"] = 160,
 								},
 							},
 							["amount"] = 160,
 						},
-					},
-					["CCBroken"] = {
 					},
 					["ElementDoneBlock"] = {
 						["Physical"] = 40,
@@ -4428,17 +4411,17 @@ RecountPerCharDB = {
 						},
 						["Jungee"] = {
 							["Details"] = {
-								["Death Strike"] = {
-									["count"] = 0.3,
-								},
 								["Rune Tap"] = {
 									["count"] = 3.5,
 								},
-								["Judgement of Light"] = {
-									["count"] = 5.43,
+								["Death Strike"] = {
+									["count"] = 0.3,
 								},
 								["Improved Leader of the Pack"] = {
 									["count"] = 2.7,
+								},
+								["Judgement of Light"] = {
+									["count"] = 5.43,
 								},
 							},
 							["amount"] = 11.93,
@@ -4452,21 +4435,58 @@ RecountPerCharDB = {
 							["amount"] = 0,
 						},
 					},
-					["Dispelled"] = 0,
+					["OverHeals"] = {
+						["Improved Leader of the Pack"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 899,
+									["min"] = 899,
+									["count"] = 3,
+									["amount"] = 2697,
+								},
+							},
+							["count"] = 3,
+							["amount"] = 2697,
+						},
+						["Death Strike"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 6065,
+									["min"] = 6065,
+									["count"] = 1,
+									["amount"] = 6065,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 6065,
+						},
+						["Judgement of Light"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 899,
+									["min"] = 103,
+									["count"] = 10,
+									["amount"] = 6915,
+								},
+							},
+							["count"] = 10,
+							["amount"] = 6915,
+						},
+					},
 					["WhoHealed"] = {
 						["Jungee"] = {
 							["Details"] = {
-								["Death Strike"] = {
-									["count"] = 688,
-								},
 								["Rune Tap"] = {
 									["count"] = 9907,
 								},
-								["Judgement of Light"] = {
-									["count"] = 3873,
+								["Death Strike"] = {
+									["count"] = 688,
 								},
 								["Improved Leader of the Pack"] = {
 									["count"] = 2697,
+								},
+								["Judgement of Light"] = {
+									["count"] = 3873,
 								},
 							},
 							["amount"] = 17165,
@@ -4526,17 +4546,17 @@ RecountPerCharDB = {
 						},
 						["Jungee"] = {
 							["Details"] = {
-								["Death Strike"] = {
-									["count"] = 688,
-								},
 								["Rune Tap"] = {
 									["count"] = 9907,
 								},
-								["Judgement of Light"] = {
-									["count"] = 3873,
+								["Death Strike"] = {
+									["count"] = 688,
 								},
 								["Improved Leader of the Pack"] = {
 									["count"] = 2697,
+								},
+								["Judgement of Light"] = {
+									["count"] = 3873,
 								},
 							},
 							["amount"] = 17165,
@@ -4557,10 +4577,6 @@ RecountPerCharDB = {
 						["Arcane"] = 7545,
 						["Fire"] = 7457,
 						["Shadow"] = 217,
-					},
-					["FDamage"] = 0,
-					["EnergyGain"] = 0,
-					["ManaGained"] = {
 					},
 					["PartialAbsorb"] = {
 						["Ice Nova"] = {
@@ -4635,23 +4651,17 @@ RecountPerCharDB = {
 							["count"] = 1,
 							["amount"] = 0,
 						},
-						["Arcane Explosion"] = {
+						["Arcane Trap Effect"] = {
 							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 0,
-								},
 								["Absorbed"] = {
-									["max"] = 650,
-									["min"] = 650,
+									["max"] = 2779,
+									["min"] = 2779,
 									["count"] = 1,
-									["amount"] = 650,
+									["amount"] = 2779,
 								},
 							},
-							["count"] = 2,
-							["amount"] = 650,
+							["count"] = 1,
+							["amount"] = 2779,
 						},
 						["Fire Blast"] = {
 							["Details"] = {
@@ -4671,18 +4681,6 @@ RecountPerCharDB = {
 							["count"] = 3,
 							["amount"] = 1788,
 						},
-						["Magic Burn"] = {
-							["Details"] = {
-								["Absorbed"] = {
-									["max"] = 2343,
-									["min"] = 654,
-									["count"] = 3,
-									["amount"] = 3651,
-								},
-							},
-							["count"] = 3,
-							["amount"] = 3651,
-						},
 						["Blizzard (DoT)"] = {
 							["Details"] = {
 								["No Absorb"] = {
@@ -4694,6 +4692,18 @@ RecountPerCharDB = {
 							},
 							["count"] = 3,
 							["amount"] = 0,
+						},
+						["Magic Burn"] = {
+							["Details"] = {
+								["Absorbed"] = {
+									["max"] = 2343,
+									["min"] = 654,
+									["count"] = 3,
+									["amount"] = 3651,
+								},
+							},
+							["count"] = 3,
+							["amount"] = 3651,
 						},
 						["Firebomb"] = {
 							["Details"] = {
@@ -4773,280 +4783,24 @@ RecountPerCharDB = {
 							["count"] = 1,
 							["amount"] = 1053,
 						},
-						["Arcane Trap Effect"] = {
+						["Arcane Explosion"] = {
 							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
 								["Absorbed"] = {
-									["max"] = 2779,
-									["min"] = 2779,
+									["max"] = 650,
+									["min"] = 650,
 									["count"] = 1,
-									["amount"] = 2779,
+									["amount"] = 650,
 								},
 							},
-							["count"] = 1,
-							["amount"] = 2779,
+							["count"] = 2,
+							["amount"] = 650,
 						},
-					},
-					["ActiveTime"] = 101.45,
-					["Overhealing"] = 15677,
-					["TimeSpent"] = {
-						["Jungee"] = {
-							["Details"] = {
-								["Death Strike"] = {
-									["count"] = 0.3,
-								},
-								["Rune Tap"] = {
-									["count"] = 3.5,
-								},
-								["Judgement of Light"] = {
-									["count"] = 5.43,
-								},
-								["Improved Leader of the Pack"] = {
-									["count"] = 2.7,
-								},
-							},
-							["amount"] = 11.93,
-						},
-						["Urgash"] = {
-							["Details"] = {
-								["Rune Tap"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Grand Magus Telestra"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 5.23,
-								},
-								["Death and Decay"] = {
-									["count"] = 7.51,
-								},
-								["Blood Strike"] = {
-									["count"] = 2.27,
-								},
-								["Retribution Aura"] = {
-									["count"] = 3.42,
-								},
-								["Blood Plague (DoT)"] = {
-									["count"] = 2.6,
-								},
-								["Frost Fever (DoT)"] = {
-									["count"] = 18.17,
-								},
-								["Plague Strike"] = {
-									["count"] = 2.04,
-								},
-								["Death Strike"] = {
-									["count"] = 0,
-								},
-								["Icy Touch"] = {
-									["count"] = 4.810000000000001,
-								},
-							},
-							["amount"] = 46.04999999999999,
-						},
-						["Mage Slayer"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 3.5,
-								},
-								["Blood Plague (DoT)"] = {
-									["count"] = 0.11,
-								},
-								["Icy Touch"] = {
-									["count"] = 0.11,
-								},
-								["Plague Strike"] = {
-									["count"] = 1.66,
-								},
-								["Frost Fever (DoT)"] = {
-									["count"] = 1.98,
-								},
-								["Retribution Aura"] = {
-									["count"] = 0.97,
-								},
-							},
-							["amount"] = 8.33,
-						},
-						["Mage Hunter Initiate"] = {
-							["Details"] = {
-								["Icy Touch"] = {
-									["count"] = 1.42,
-								},
-								["Rune Strike"] = {
-									["count"] = 1.17,
-								},
-								["Blood Plague (DoT)"] = {
-									["count"] = 1.51,
-								},
-								["Death and Decay"] = {
-									["count"] = 0,
-								},
-								["Blood Strike"] = {
-									["count"] = 0.55,
-								},
-								["Plague Strike"] = {
-									["count"] = 1.75,
-								},
-								["Frost Fever (DoT)"] = {
-									["count"] = 1.14,
-								},
-								["Melee"] = {
-									["count"] = 7.390000000000001,
-								},
-							},
-							["amount"] = 14.93,
-						},
-						["Mage Hunter Ascendant"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 2.38,
-								},
-								["Death and Decay"] = {
-									["count"] = 6.270000000000001,
-								},
-								["Icy Touch"] = {
-									["count"] = 1.31,
-								},
-								["Rune Strike"] = {
-									["count"] = 0.9400000000000001,
-								},
-								["Retribution Aura"] = {
-									["count"] = 0.28,
-								},
-								["Blood Plague (DoT)"] = {
-									["count"] = 1.03,
-								},
-								["Plague Strike"] = {
-									["count"] = 0.18,
-								},
-								["Frost Fever (DoT)"] = {
-									["count"] = 0.66,
-								},
-								["Blood Strike"] = {
-									["count"] = 1.19,
-								},
-							},
-							["amount"] = 14.24,
-						},
-						["Maijuur"] = {
-							["Details"] = {
-								["Rune Tap"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Steward"] = {
-							["Details"] = {
-								["Blood Strike"] = {
-									["count"] = 0.85,
-								},
-								["Blood Plague (DoT)"] = {
-									["count"] = 0.8099999999999999,
-								},
-								["Death and Decay"] = {
-									["count"] = 0,
-								},
-								["Icy Touch"] = {
-									["count"] = 0.26,
-								},
-								["Plague Strike"] = {
-									["count"] = 0.73,
-								},
-								["Retribution Aura"] = {
-									["count"] = 0.91,
-								},
-								["Melee"] = {
-									["count"] = 2.41,
-								},
-							},
-							["amount"] = 5.97,
-						},
-						["Bigepapa"] = {
-							["Details"] = {
-								["Rune Tap"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Casketbasher <Urgash>"] = {
-							["Details"] = {
-								["Rune Tap"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Angeletee"] = {
-							["Details"] = {
-								["Rune Tap"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["WhoDispelled"] = {
-					},
-					["InterruptData"] = {
-					},
-					["ElementTakenResist"] = {
-					},
-					["Heals"] = {
-						["Death Strike"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 688,
-									["min"] = 688,
-									["count"] = 1,
-									["amount"] = 688,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 688,
-						},
-						["Rune Tap"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 9907,
-									["min"] = 2328,
-									["count"] = 6,
-									["amount"] = 23362,
-								},
-							},
-							["count"] = 6,
-							["amount"] = 23362,
-						},
-						["Judgement of Light"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 899,
-									["min"] = 625,
-									["count"] = 5,
-									["amount"] = 3873,
-								},
-							},
-							["count"] = 5,
-							["amount"] = 3873,
-						},
-						["Improved Leader of the Pack"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 899,
-									["min"] = 899,
-									["count"] = 3,
-									["amount"] = 2697,
-								},
-							},
-							["count"] = 3,
-							["amount"] = 2697,
-						},
-					},
-					["Interrupts"] = 0,
-					["EnergyGained"] = {
 					},
 					["PartialResist"] = {
 						["Ice Nova"] = {
@@ -5109,16 +4863,16 @@ RecountPerCharDB = {
 							["count"] = 1,
 							["amount"] = 0,
 						},
-						["Arcane Explosion"] = {
+						["Arcane Trap Effect"] = {
 							["Details"] = {
 								["No Resist"] = {
 									["max"] = 0,
 									["min"] = 0,
-									["count"] = 2,
+									["count"] = 1,
 									["amount"] = 0,
 								},
 							},
-							["count"] = 2,
+							["count"] = 1,
 							["amount"] = 0,
 						},
 						["Fire Blast"] = {
@@ -5133,7 +4887,7 @@ RecountPerCharDB = {
 							["count"] = 3,
 							["amount"] = 0,
 						},
-						["Magic Burn"] = {
+						["Blizzard (DoT)"] = {
 							["Details"] = {
 								["No Resist"] = {
 									["max"] = 0,
@@ -5145,7 +4899,7 @@ RecountPerCharDB = {
 							["count"] = 3,
 							["amount"] = 0,
 						},
-						["Blizzard (DoT)"] = {
+						["Magic Burn"] = {
 							["Details"] = {
 								["No Resist"] = {
 									["max"] = 0,
@@ -5217,34 +4971,255 @@ RecountPerCharDB = {
 							["count"] = 1,
 							["amount"] = 0,
 						},
-						["Arcane Trap Effect"] = {
+						["Arcane Explosion"] = {
 							["Details"] = {
 								["No Resist"] = {
 									["max"] = 0,
 									["min"] = 0,
-									["count"] = 1,
+									["count"] = 2,
 									["amount"] = 0,
 								},
 							},
-							["count"] = 1,
+							["count"] = 2,
 							["amount"] = 0,
 						},
 					},
-					["Healing"] = 30620,
-					["RageGained"] = {
+					["ManaGained"] = {
 					},
-					["OverHeals"] = {
-						["Judgement of Light"] = {
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["Overhealing"] = 15677,
+					["TimeSpent"] = {
+						["Jungee"] = {
 							["Details"] = {
-								["Tick"] = {
-									["max"] = 899,
-									["min"] = 103,
-									["count"] = 10,
-									["amount"] = 6915,
+								["Rune Tap"] = {
+									["count"] = 3.5,
+								},
+								["Death Strike"] = {
+									["count"] = 0.3,
+								},
+								["Improved Leader of the Pack"] = {
+									["count"] = 2.7,
+								},
+								["Judgement of Light"] = {
+									["count"] = 5.43,
 								},
 							},
-							["count"] = 10,
-							["amount"] = 6915,
+							["amount"] = 11.93,
+						},
+						["Urgash"] = {
+							["Details"] = {
+								["Rune Tap"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Grand Magus Telestra"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 5.23,
+								},
+								["Death and Decay"] = {
+									["count"] = 7.51,
+								},
+								["Blood Strike"] = {
+									["count"] = 2.27,
+								},
+								["Retribution Aura"] = {
+									["count"] = 3.42,
+								},
+								["Blood Plague (DoT)"] = {
+									["count"] = 2.6,
+								},
+								["Death Strike"] = {
+									["count"] = 0,
+								},
+								["Plague Strike"] = {
+									["count"] = 2.04,
+								},
+								["Frost Fever (DoT)"] = {
+									["count"] = 18.17,
+								},
+								["Icy Touch"] = {
+									["count"] = 4.810000000000001,
+								},
+							},
+							["amount"] = 46.04999999999999,
+						},
+						["Mage Slayer"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 3.5,
+								},
+								["Blood Plague (DoT)"] = {
+									["count"] = 0.11,
+								},
+								["Icy Touch"] = {
+									["count"] = 0.11,
+								},
+								["Plague Strike"] = {
+									["count"] = 1.66,
+								},
+								["Retribution Aura"] = {
+									["count"] = 0.97,
+								},
+								["Frost Fever (DoT)"] = {
+									["count"] = 1.98,
+								},
+							},
+							["amount"] = 8.33,
+						},
+						["Mage Hunter Initiate"] = {
+							["Details"] = {
+								["Blood Strike"] = {
+									["count"] = 0.55,
+								},
+								["Rune Strike"] = {
+									["count"] = 1.17,
+								},
+								["Melee"] = {
+									["count"] = 7.390000000000001,
+								},
+								["Death and Decay"] = {
+									["count"] = 0,
+								},
+								["Icy Touch"] = {
+									["count"] = 1.42,
+								},
+								["Plague Strike"] = {
+									["count"] = 1.75,
+								},
+								["Frost Fever (DoT)"] = {
+									["count"] = 1.14,
+								},
+								["Blood Plague (DoT)"] = {
+									["count"] = 1.51,
+								},
+							},
+							["amount"] = 14.93,
+						},
+						["Mage Hunter Ascendant"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 2.38,
+								},
+								["Death and Decay"] = {
+									["count"] = 6.270000000000001,
+								},
+								["Icy Touch"] = {
+									["count"] = 1.31,
+								},
+								["Rune Strike"] = {
+									["count"] = 0.9400000000000001,
+								},
+								["Retribution Aura"] = {
+									["count"] = 0.28,
+								},
+								["Blood Plague (DoT)"] = {
+									["count"] = 1.03,
+								},
+								["Plague Strike"] = {
+									["count"] = 0.18,
+								},
+								["Frost Fever (DoT)"] = {
+									["count"] = 0.66,
+								},
+								["Blood Strike"] = {
+									["count"] = 1.19,
+								},
+							},
+							["amount"] = 14.24,
+						},
+						["Maijuur"] = {
+							["Details"] = {
+								["Rune Tap"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Steward"] = {
+							["Details"] = {
+								["Icy Touch"] = {
+									["count"] = 0.26,
+								},
+								["Melee"] = {
+									["count"] = 2.41,
+								},
+								["Death and Decay"] = {
+									["count"] = 0,
+								},
+								["Blood Strike"] = {
+									["count"] = 0.85,
+								},
+								["Plague Strike"] = {
+									["count"] = 0.73,
+								},
+								["Retribution Aura"] = {
+									["count"] = 0.91,
+								},
+								["Blood Plague (DoT)"] = {
+									["count"] = 0.8099999999999999,
+								},
+							},
+							["amount"] = 5.97,
+						},
+						["Bigepapa"] = {
+							["Details"] = {
+								["Rune Tap"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Casketbasher <Urgash>"] = {
+							["Details"] = {
+								["Rune Tap"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Angeletee"] = {
+							["Details"] = {
+								["Rune Tap"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["WhoDispelled"] = {
+					},
+					["InterruptData"] = {
+					},
+					["ElementTakenResist"] = {
+					},
+					["Heals"] = {
+						["Rune Tap"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 9907,
+									["min"] = 2328,
+									["count"] = 6,
+									["amount"] = 23362,
+								},
+							},
+							["count"] = 6,
+							["amount"] = 23362,
+						},
+						["Death Strike"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 688,
+									["min"] = 688,
+									["count"] = 1,
+									["amount"] = 688,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 688,
 						},
 						["Improved Leader of the Pack"] = {
 							["Details"] = {
@@ -5258,18 +5233,26 @@ RecountPerCharDB = {
 							["count"] = 3,
 							["amount"] = 2697,
 						},
-						["Death Strike"] = {
+						["Judgement of Light"] = {
 							["Details"] = {
-								["Hit"] = {
-									["max"] = 6065,
-									["min"] = 6065,
-									["count"] = 1,
-									["amount"] = 6065,
+								["Tick"] = {
+									["max"] = 899,
+									["min"] = 625,
+									["count"] = 5,
+									["amount"] = 3873,
 								},
 							},
-							["count"] = 1,
-							["amount"] = 6065,
+							["count"] = 5,
+							["amount"] = 3873,
 						},
+					},
+					["ActiveTime"] = 101.45,
+					["EnergyGained"] = {
+					},
+					["EnergyGain"] = 0,
+					["Healing"] = 30620,
+					["Dispelled"] = 0,
+					["RageGained"] = {
 					},
 					["Attacks"] = {
 						["Melee"] = {
@@ -5374,17 +5357,17 @@ RecountPerCharDB = {
 							["count"] = 13,
 							["amount"] = 7266,
 						},
-						["Frost Fever (DoT)"] = {
+						["Death Strike"] = {
 							["Details"] = {
-								["Tick"] = {
-									["max"] = 626,
-									["min"] = 106,
-									["count"] = 23,
-									["amount"] = 12601,
+								["Hit"] = {
+									["max"] = 1760,
+									["min"] = 1760,
+									["count"] = 1,
+									["amount"] = 1760,
 								},
 							},
-							["count"] = 23,
-							["amount"] = 12601,
+							["count"] = 1,
+							["amount"] = 1760,
 						},
 						["Plague Strike"] = {
 							["Details"] = {
@@ -5404,17 +5387,17 @@ RecountPerCharDB = {
 							["count"] = 8,
 							["amount"] = 9331,
 						},
-						["Death Strike"] = {
+						["Frost Fever (DoT)"] = {
 							["Details"] = {
-								["Hit"] = {
-									["max"] = 1760,
-									["min"] = 1760,
-									["count"] = 1,
-									["amount"] = 1760,
+								["Tick"] = {
+									["max"] = 626,
+									["min"] = 106,
+									["count"] = 23,
+									["amount"] = 12601,
 								},
 							},
-							["count"] = 1,
-							["amount"] = 1760,
+							["count"] = 23,
+							["amount"] = 12601,
 						},
 						["Blood Strike"] = {
 							["Details"] = {
@@ -5457,14 +5440,14 @@ RecountPerCharDB = {
 								["Blood Plague (DoT)"] = {
 									["count"] = 2.6,
 								},
-								["Frost Fever (DoT)"] = {
-									["count"] = 18.17,
+								["Death Strike"] = {
+									["count"] = 0,
 								},
 								["Plague Strike"] = {
 									["count"] = 2.04,
 								},
-								["Death Strike"] = {
-									["count"] = 0,
+								["Frost Fever (DoT)"] = {
+									["count"] = 18.17,
 								},
 								["Icy Touch"] = {
 									["count"] = 4.810000000000001,
@@ -5486,28 +5469,28 @@ RecountPerCharDB = {
 								["Plague Strike"] = {
 									["count"] = 1.66,
 								},
-								["Frost Fever (DoT)"] = {
-									["count"] = 1.98,
-								},
 								["Retribution Aura"] = {
 									["count"] = 0.97,
+								},
+								["Frost Fever (DoT)"] = {
+									["count"] = 1.98,
 								},
 							},
 							["amount"] = 8.33,
 						},
 						["Steward"] = {
 							["Details"] = {
-								["Blood Strike"] = {
-									["count"] = 0.85,
+								["Icy Touch"] = {
+									["count"] = 0.26,
 								},
-								["Blood Plague (DoT)"] = {
-									["count"] = 0.8099999999999999,
+								["Melee"] = {
+									["count"] = 2.41,
 								},
 								["Death and Decay"] = {
 									["count"] = 0,
 								},
-								["Icy Touch"] = {
-									["count"] = 0.26,
+								["Blood Strike"] = {
+									["count"] = 0.85,
 								},
 								["Plague Strike"] = {
 									["count"] = 0.73,
@@ -5515,28 +5498,28 @@ RecountPerCharDB = {
 								["Retribution Aura"] = {
 									["count"] = 0.91,
 								},
-								["Melee"] = {
-									["count"] = 2.41,
+								["Blood Plague (DoT)"] = {
+									["count"] = 0.8099999999999999,
 								},
 							},
 							["amount"] = 5.97,
 						},
 						["Mage Hunter Initiate"] = {
 							["Details"] = {
-								["Icy Touch"] = {
-									["count"] = 1.42,
+								["Blood Strike"] = {
+									["count"] = 0.55,
 								},
 								["Rune Strike"] = {
 									["count"] = 1.17,
 								},
-								["Blood Plague (DoT)"] = {
-									["count"] = 1.51,
+								["Melee"] = {
+									["count"] = 7.390000000000001,
 								},
 								["Death and Decay"] = {
 									["count"] = 0,
 								},
-								["Blood Strike"] = {
-									["count"] = 0.55,
+								["Icy Touch"] = {
+									["count"] = 1.42,
 								},
 								["Plague Strike"] = {
 									["count"] = 1.75,
@@ -5544,8 +5527,8 @@ RecountPerCharDB = {
 								["Frost Fever (DoT)"] = {
 									["count"] = 1.14,
 								},
-								["Melee"] = {
-									["count"] = 7.390000000000001,
+								["Blood Plague (DoT)"] = {
+									["count"] = 1.51,
 								},
 							},
 							["amount"] = 14.93,
@@ -5584,7 +5567,24 @@ RecountPerCharDB = {
 						},
 					},
 					["ManaGain"] = 0,
-					["DOT_Time"] = 108,
+					["HOTs"] = {
+						["Improved Leader of the Pack"] = {
+							["Details"] = {
+								["Jungee"] = {
+									["count"] = 18,
+								},
+							},
+							["amount"] = 18,
+						},
+						["Judgement of Light"] = {
+							["Details"] = {
+								["Jungee"] = {
+									["count"] = 36,
+								},
+							},
+							["amount"] = 36,
+						},
+					},
 					["DispelledWho"] = {
 					},
 				},
@@ -5616,11 +5616,11 @@ RecountPerCharDB = {
 								["Crystalline Tender"] = {
 									["count"] = 30,
 								},
-								["Crystalline Keeper"] = {
-									["count"] = 51,
-								},
 								["Azure Warder"] = {
 									["count"] = 3,
+								},
+								["Crystalline Keeper"] = {
+									["count"] = 51,
 								},
 								["Azure Enforcer"] = {
 									["count"] = 24,
@@ -5657,11 +5657,11 @@ RecountPerCharDB = {
 								["Crystalline Protector"] = {
 									["count"] = 27,
 								},
-								["Azure Warder"] = {
-									["count"] = 6,
-								},
 								["Crystalline Keeper"] = {
 									["count"] = 51,
+								},
+								["Azure Warder"] = {
+									["count"] = 6,
 								},
 								["Crystalline Tender"] = {
 									["count"] = 30,
@@ -5779,17 +5779,17 @@ RecountPerCharDB = {
 					["WhoHealed"] = {
 						["Jungee"] = {
 							["Details"] = {
-								["Death Strike"] = {
-									["count"] = 14558,
-								},
 								["Rune Tap"] = {
 									["count"] = 1534,
 								},
-								["Judgement of Light"] = {
-									["count"] = 16822,
+								["Death Strike"] = {
+									["count"] = 14558,
 								},
 								["Improved Leader of the Pack"] = {
 									["count"] = 8617,
+								},
+								["Judgement of Light"] = {
+									["count"] = 16822,
 								},
 							},
 							["amount"] = 41531,
@@ -5888,11 +5888,11 @@ RecountPerCharDB = {
 								["Blood Plague (DoT)"] = {
 									["count"] = 1069,
 								},
-								["Frost Fever (DoT)"] = {
-									["count"] = 1900,
-								},
 								["Retribution Aura"] = {
 									["count"] = 223,
+								},
+								["Frost Fever (DoT)"] = {
+									["count"] = 1900,
 								},
 							},
 							["amount"] = 31065,
@@ -5911,25 +5911,25 @@ RecountPerCharDB = {
 								["Melee"] = {
 									["count"] = 6336,
 								},
-								["Retribution Aura"] = {
-									["count"] = 446,
-								},
 								["Frost Fever (DoT)"] = {
 									["count"] = 1065,
+								},
+								["Retribution Aura"] = {
+									["count"] = 446,
 								},
 							},
 							["amount"] = 36824,
 						},
 						["Azure Scale-Binder"] = {
 							["Details"] = {
-								["Retribution Aura"] = {
-									["count"] = 446,
-								},
 								["Death Strike"] = {
 									["count"] = 2044,
 								},
-								["Melee"] = {
-									["count"] = 8865,
+								["Retribution Aura"] = {
+									["count"] = 446,
+								},
+								["Blood Plague (DoT)"] = {
+									["count"] = 1961,
 								},
 								["Icy Touch"] = {
 									["count"] = 2178,
@@ -5943,8 +5943,8 @@ RecountPerCharDB = {
 								["Frost Fever (DoT)"] = {
 									["count"] = 1930,
 								},
-								["Blood Plague (DoT)"] = {
-									["count"] = 1961,
+								["Melee"] = {
+									["count"] = 8865,
 								},
 							},
 							["amount"] = 22084,
@@ -5975,31 +5975,31 @@ RecountPerCharDB = {
 								["Plague Strike"] = {
 									["count"] = 9561,
 								},
-								["Death Strike"] = {
-									["count"] = 4284,
-								},
 								["Frost Fever (DoT)"] = {
 									["count"] = 4117,
+								},
+								["Death Strike"] = {
+									["count"] = 4284,
 								},
 							},
 							["amount"] = 76883,
 						},
 						["Keristrasza"] = {
 							["Details"] = {
-								["Melee"] = {
-									["count"] = 17429,
+								["Blood Plague (DoT)"] = {
+									["count"] = 5659,
 								},
 								["Death Strike"] = {
 									["count"] = 3462,
 								},
-								["Blood Plague (DoT)"] = {
-									["count"] = 5659,
+								["Melee"] = {
+									["count"] = 17429,
 								},
 								["Rune Strike"] = {
 									["count"] = 11267,
 								},
-								["Icy Touch"] = {
-									["count"] = 8350,
+								["Blood Strike"] = {
+									["count"] = 7131,
 								},
 								["Plague Strike"] = {
 									["count"] = 5935,
@@ -6007,8 +6007,8 @@ RecountPerCharDB = {
 								["Frost Fever (DoT)"] = {
 									["count"] = 4497,
 								},
-								["Blood Strike"] = {
-									["count"] = 7131,
+								["Icy Touch"] = {
+									["count"] = 8350,
 								},
 							},
 							["amount"] = 63730,
@@ -6050,14 +6050,14 @@ RecountPerCharDB = {
 								["Blood Plague (DoT)"] = {
 									["count"] = 4452,
 								},
-								["Frost Fever (DoT)"] = {
-									["count"] = 5434,
+								["Death Strike"] = {
+									["count"] = 1971,
 								},
 								["Plague Strike"] = {
 									["count"] = 8024,
 								},
-								["Death Strike"] = {
-									["count"] = 1971,
+								["Frost Fever (DoT)"] = {
+									["count"] = 5434,
 								},
 								["Blood Strike"] = {
 									["count"] = 1118,
@@ -6088,14 +6088,40 @@ RecountPerCharDB = {
 								["Plague Strike"] = {
 									["count"] = 1713,
 								},
-								["Death Strike"] = {
-									["count"] = 1800,
-								},
 								["Frost Fever (DoT)"] = {
 									["count"] = 5352,
 								},
+								["Death Strike"] = {
+									["count"] = 1800,
+								},
 							},
 							["amount"] = 56142,
+						},
+						["Azure Warder"] = {
+							["Details"] = {
+								["Blood Strike"] = {
+									["count"] = 0,
+								},
+								["Blood Plague (DoT)"] = {
+									["count"] = 573,
+								},
+								["Retribution Aura"] = {
+									["count"] = 0,
+								},
+								["Icy Touch"] = {
+									["count"] = 3205,
+								},
+								["Plague Strike"] = {
+									["count"] = 1812,
+								},
+								["Frost Fever (DoT)"] = {
+									["count"] = 1252,
+								},
+								["Melee"] = {
+									["count"] = 3479,
+								},
+							},
+							["amount"] = 10321,
 						},
 						["Crystalline Keeper"] = {
 							["Details"] = {
@@ -6120,48 +6146,22 @@ RecountPerCharDB = {
 							},
 							["amount"] = 58795,
 						},
-						["Azure Warder"] = {
-							["Details"] = {
-								["Icy Touch"] = {
-									["count"] = 3205,
-								},
-								["Melee"] = {
-									["count"] = 3479,
-								},
-								["Retribution Aura"] = {
-									["count"] = 0,
-								},
-								["Blood Strike"] = {
-									["count"] = 0,
-								},
-								["Plague Strike"] = {
-									["count"] = 1812,
-								},
-								["Frost Fever (DoT)"] = {
-									["count"] = 1252,
-								},
-								["Blood Plague (DoT)"] = {
-									["count"] = 573,
-								},
-							},
-							["amount"] = 10321,
-						},
 						["Azure Enforcer"] = {
 							["Details"] = {
-								["Icy Touch"] = {
-									["count"] = 4159,
+								["Blood Strike"] = {
+									["count"] = 2410,
 								},
 								["Retribution Aura"] = {
 									["count"] = 1115,
 								},
-								["Blood Plague (DoT)"] = {
-									["count"] = 3935,
+								["Melee"] = {
+									["count"] = 18011,
 								},
 								["Rune Strike"] = {
 									["count"] = 5732,
 								},
-								["Blood Strike"] = {
-									["count"] = 2410,
+								["Icy Touch"] = {
+									["count"] = 4159,
 								},
 								["Plague Strike"] = {
 									["count"] = 4044,
@@ -6169,8 +6169,8 @@ RecountPerCharDB = {
 								["Frost Fever (DoT)"] = {
 									["count"] = 4499,
 								},
-								["Melee"] = {
-									["count"] = 18011,
+								["Blood Plague (DoT)"] = {
+									["count"] = 3935,
 								},
 							},
 							["amount"] = 43905,
@@ -6192,14 +6192,14 @@ RecountPerCharDB = {
 								["Blood Plague (DoT)"] = {
 									["count"] = 2359,
 								},
-								["Frost Fever (DoT)"] = {
-									["count"] = 3033,
+								["Death Strike"] = {
+									["count"] = 1920,
 								},
 								["Plague Strike"] = {
 									["count"] = 4352,
 								},
-								["Death Strike"] = {
-									["count"] = 1920,
+								["Frost Fever (DoT)"] = {
+									["count"] = 3033,
 								},
 								["Icy Touch"] = {
 									["count"] = 6362,
@@ -6209,20 +6209,20 @@ RecountPerCharDB = {
 						},
 						["Ormorok the Tree-Shaper"] = {
 							["Details"] = {
-								["Blood Plague (DoT)"] = {
-									["count"] = 3464,
+								["Melee"] = {
+									["count"] = 21201,
 								},
 								["Death Strike"] = {
 									["count"] = 3879,
 								},
-								["Melee"] = {
-									["count"] = 21201,
+								["Blood Plague (DoT)"] = {
+									["count"] = 3464,
 								},
 								["Rune Strike"] = {
 									["count"] = 2720,
 								},
-								["Icy Touch"] = {
-									["count"] = 3099,
+								["Blood Strike"] = {
+									["count"] = 5880,
 								},
 								["Plague Strike"] = {
 									["count"] = 4227,
@@ -6230,8 +6230,8 @@ RecountPerCharDB = {
 								["Frost Fever (DoT)"] = {
 									["count"] = 2930,
 								},
-								["Blood Strike"] = {
-									["count"] = 5880,
+								["Icy Touch"] = {
+									["count"] = 3099,
 								},
 							},
 							["amount"] = 47400,
@@ -6246,13 +6246,16 @@ RecountPerCharDB = {
 							},
 							["amount"] = 1596,
 						},
-						["Crystalline Tender"] = {
+						["Anomalus"] = {
 							["Details"] = {
+								["Spark"] = {
+									["count"] = 7291,
+								},
 								["Melee"] = {
-									["count"] = 4402,
+									["count"] = 2938,
 								},
 							},
-							["amount"] = 4402,
+							["amount"] = 10229,
 						},
 						["Crystalline Frayer"] = {
 							["Details"] = {
@@ -6273,24 +6276,30 @@ RecountPerCharDB = {
 							},
 							["amount"] = 1875,
 						},
-						["Anomalus"] = {
+						["Crystalline Tender"] = {
 							["Details"] = {
-								["Spark"] = {
-									["count"] = 7291,
-								},
 								["Melee"] = {
-									["count"] = 2938,
+									["count"] = 4402,
 								},
 							},
-							["amount"] = 10229,
+							["amount"] = 4402,
 						},
-						["Crazed Mana-Surge"] = {
+						["Keristrasza"] = {
 							["Details"] = {
+								["Crystalfire Breath"] = {
+									["count"] = 1196,
+								},
+								["Crystalfire Breath (DoT)"] = {
+									["count"] = 3933,
+								},
 								["Melee"] = {
-									["count"] = 5708,
+									["count"] = 7232,
+								},
+								["Crystallize"] = {
+									["count"] = 3042,
 								},
 							},
-							["amount"] = 5708,
+							["amount"] = 15403,
 						},
 						["Crystalline Protector"] = {
 							["Details"] = {
@@ -6314,6 +6323,14 @@ RecountPerCharDB = {
 							},
 							["amount"] = 5224,
 						},
+						["Environment"] = {
+							["Details"] = {
+								["Falling"] = {
+									["count"] = 2813,
+								},
+							},
+							["amount"] = 2813,
+						},
 						["Crystalline Keeper"] = {
 							["Details"] = {
 								["Melee"] = {
@@ -6324,14 +6341,6 @@ RecountPerCharDB = {
 								},
 							},
 							["amount"] = 8048,
-						},
-						["Environment"] = {
-							["Details"] = {
-								["Falling"] = {
-									["count"] = 2813,
-								},
-							},
-							["amount"] = 2813,
 						},
 						["Azure Warder"] = {
 							["Details"] = {
@@ -6363,22 +6372,13 @@ RecountPerCharDB = {
 							},
 							["amount"] = 17169,
 						},
-						["Keristrasza"] = {
+						["Crazed Mana-Surge"] = {
 							["Details"] = {
-								["Crystalfire Breath"] = {
-									["count"] = 1196,
-								},
-								["Crystalfire Breath (DoT)"] = {
-									["count"] = 3933,
-								},
 								["Melee"] = {
-									["count"] = 7232,
-								},
-								["Crystallize"] = {
-									["count"] = 3042,
+									["count"] = 5708,
 								},
 							},
-							["amount"] = 15403,
+							["amount"] = 5708,
 						},
 						["Ormorok the Tree-Shaper"] = {
 							["Details"] = {
@@ -6406,17 +6406,17 @@ RecountPerCharDB = {
 					["TimeHealing"] = {
 						["Jungee"] = {
 							["Details"] = {
-								["Death Strike"] = {
-									["count"] = 0.61,
-								},
 								["Rune Tap"] = {
 									["count"] = 3.5,
 								},
-								["Judgement of Light"] = {
-									["count"] = 16.57,
+								["Death Strike"] = {
+									["count"] = 0.61,
 								},
 								["Improved Leader of the Pack"] = {
 									["count"] = 9.440000000000001,
+								},
+								["Judgement of Light"] = {
+									["count"] = 16.57,
 								},
 							},
 							["amount"] = 30.12000000000001,
@@ -6447,18 +6447,6 @@ RecountPerCharDB = {
 						},
 					},
 					["OverHeals"] = {
-						["Death Strike"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 6753,
-									["min"] = 160,
-									["count"] = 8,
-									["amount"] = 39466,
-								},
-							},
-							["count"] = 8,
-							["amount"] = 39466,
-						},
 						["Rune Tap"] = {
 							["Details"] = {
 								["Hit"] = {
@@ -6471,17 +6459,17 @@ RecountPerCharDB = {
 							["count"] = 4,
 							["amount"] = 12490,
 						},
-						["Judgement of Light"] = {
+						["Death Strike"] = {
 							["Details"] = {
-								["Tick"] = {
-									["max"] = 899,
-									["min"] = 0,
-									["count"] = 57,
-									["amount"] = 49704,
+								["Hit"] = {
+									["max"] = 6753,
+									["min"] = 160,
+									["count"] = 8,
+									["amount"] = 39466,
 								},
 							},
-							["count"] = 57,
-							["amount"] = 49704,
+							["count"] = 8,
+							["amount"] = 39466,
 						},
 						["Improved Leader of the Pack"] = {
 							["Details"] = {
@@ -6494,6 +6482,18 @@ RecountPerCharDB = {
 							},
 							["count"] = 10,
 							["amount"] = 6666,
+						},
+						["Judgement of Light"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 899,
+									["min"] = 0,
+									["count"] = 57,
+									["amount"] = 49704,
+								},
+							},
+							["count"] = 57,
+							["amount"] = 49704,
 						},
 					},
 					["PartialResist"] = {
@@ -6599,16 +6599,16 @@ RecountPerCharDB = {
 							["count"] = 162,
 							["amount"] = 0,
 						},
-						["Crystal Chains"] = {
+						["Crystalfire Breath (DoT)"] = {
 							["Details"] = {
 								["No Resist"] = {
 									["max"] = 0,
 									["min"] = 0,
-									["count"] = 4,
+									["count"] = 3,
 									["amount"] = 0,
 								},
 							},
-							["count"] = 4,
+							["count"] = 3,
 							["amount"] = 0,
 						},
 						["Intense Cold"] = {
@@ -6623,16 +6623,16 @@ RecountPerCharDB = {
 							["count"] = 11,
 							["amount"] = 0,
 						},
-						["Crystalfire Breath (DoT)"] = {
+						["Crystal Chains"] = {
 							["Details"] = {
 								["No Resist"] = {
 									["max"] = 0,
 									["min"] = 0,
-									["count"] = 3,
+									["count"] = 4,
 									["amount"] = 0,
 								},
 							},
-							["count"] = 3,
+							["count"] = 4,
 							["amount"] = 0,
 						},
 						["Spark"] = {
@@ -6877,6 +6877,30 @@ RecountPerCharDB = {
 							["count"] = 162,
 							["amount"] = 26864,
 						},
+						["Crystalfire Breath (DoT)"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 3,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 3,
+							["amount"] = 0,
+						},
+						["Intense Cold"] = {
+							["Details"] = {
+								["Absorbed"] = {
+									["max"] = 281,
+									["min"] = 67,
+									["count"] = 11,
+									["amount"] = 1739,
+								},
+							},
+							["count"] = 11,
+							["amount"] = 1739,
+						},
 						["Crystal Chains"] = {
 							["Details"] = {
 								["No Absorb"] = {
@@ -6894,30 +6918,6 @@ RecountPerCharDB = {
 							},
 							["count"] = 4,
 							["amount"] = 3611,
-						},
-						["Intense Cold"] = {
-							["Details"] = {
-								["Absorbed"] = {
-									["max"] = 281,
-									["min"] = 67,
-									["count"] = 11,
-									["amount"] = 1739,
-								},
-							},
-							["count"] = 11,
-							["amount"] = 1739,
-						},
-						["Crystalfire Breath (DoT)"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 3,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 3,
-							["amount"] = 0,
 						},
 						["Spark"] = {
 							["Details"] = {
@@ -7109,18 +7109,6 @@ RecountPerCharDB = {
 					},
 					["Dispelled"] = 2,
 					["Heals"] = {
-						["Death Strike"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 6593,
-									["min"] = 3567,
-									["count"] = 3,
-									["amount"] = 14558,
-								},
-							},
-							["count"] = 3,
-							["amount"] = 14558,
-						},
 						["Rune Tap"] = {
 							["Details"] = {
 								["Hit"] = {
@@ -7133,17 +7121,17 @@ RecountPerCharDB = {
 							["count"] = 4,
 							["amount"] = 8288,
 						},
-						["Judgement of Light"] = {
+						["Death Strike"] = {
 							["Details"] = {
-								["Tick"] = {
-									["max"] = 899,
-									["min"] = 0,
-									["count"] = 24,
-									["amount"] = 16822,
+								["Hit"] = {
+									["max"] = 6593,
+									["min"] = 3567,
+									["count"] = 3,
+									["amount"] = 14558,
 								},
 							},
-							["count"] = 24,
-							["amount"] = 16822,
+							["count"] = 3,
+							["amount"] = 14558,
 						},
 						["Improved Leader of the Pack"] = {
 							["Details"] = {
@@ -7156,6 +7144,18 @@ RecountPerCharDB = {
 							},
 							["count"] = 11,
 							["amount"] = 8617,
+						},
+						["Judgement of Light"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 899,
+									["min"] = 0,
+									["count"] = 24,
+									["amount"] = 16822,
+								},
+							},
+							["count"] = 24,
+							["amount"] = 16822,
 						},
 					},
 					["RunicPowerGainedFrom"] = {
@@ -7178,17 +7178,17 @@ RecountPerCharDB = {
 					["TimeSpent"] = {
 						["Jungee"] = {
 							["Details"] = {
-								["Death Strike"] = {
-									["count"] = 0.61,
-								},
 								["Rune Tap"] = {
 									["count"] = 3.5,
 								},
-								["Judgement of Light"] = {
-									["count"] = 16.57,
+								["Death Strike"] = {
+									["count"] = 0.61,
 								},
 								["Improved Leader of the Pack"] = {
 									["count"] = 9.440000000000001,
+								},
+								["Judgement of Light"] = {
+									["count"] = 16.57,
 								},
 							},
 							["amount"] = 30.12000000000001,
@@ -7207,11 +7207,11 @@ RecountPerCharDB = {
 								["Blood Plague (DoT)"] = {
 									["count"] = 0,
 								},
-								["Frost Fever (DoT)"] = {
-									["count"] = 13.96,
-								},
 								["Retribution Aura"] = {
 									["count"] = 0.63,
+								},
+								["Frost Fever (DoT)"] = {
+									["count"] = 13.96,
 								},
 							},
 							["amount"] = 34.66000000000001,
@@ -7280,11 +7280,11 @@ RecountPerCharDB = {
 								["Plague Strike"] = {
 									["count"] = 5.539999999999999,
 								},
-								["Death Strike"] = {
-									["count"] = 0.27,
-								},
 								["Frost Fever (DoT)"] = {
 									["count"] = 3.7,
+								},
+								["Death Strike"] = {
+									["count"] = 0.27,
 								},
 							},
 							["amount"] = 41.61999999999998,
@@ -7329,14 +7329,14 @@ RecountPerCharDB = {
 								["Blood Plague (DoT)"] = {
 									["count"] = 5.15,
 								},
-								["Frost Fever (DoT)"] = {
-									["count"] = 4.98,
+								["Death Strike"] = {
+									["count"] = 0,
 								},
 								["Plague Strike"] = {
 									["count"] = 6.38,
 								},
-								["Death Strike"] = {
-									["count"] = 0,
+								["Frost Fever (DoT)"] = {
+									["count"] = 4.98,
 								},
 								["Blood Strike"] = {
 									["count"] = 0.37,
@@ -7346,20 +7346,20 @@ RecountPerCharDB = {
 						},
 						["Ormorok the Tree-Shaper"] = {
 							["Details"] = {
-								["Blood Plague (DoT)"] = {
-									["count"] = 4.800000000000001,
+								["Melee"] = {
+									["count"] = 4.6,
 								},
 								["Death Strike"] = {
 									["count"] = 0.52,
 								},
-								["Melee"] = {
-									["count"] = 4.6,
+								["Blood Plague (DoT)"] = {
+									["count"] = 4.800000000000001,
 								},
 								["Rune Strike"] = {
 									["count"] = 2.08,
 								},
-								["Icy Touch"] = {
-									["count"] = 4.37,
+								["Blood Strike"] = {
+									["count"] = 2.51,
 								},
 								["Plague Strike"] = {
 									["count"] = 1.68,
@@ -7367,8 +7367,8 @@ RecountPerCharDB = {
 								["Frost Fever (DoT)"] = {
 									["count"] = 2.44,
 								},
-								["Blood Strike"] = {
-									["count"] = 2.51,
+								["Icy Touch"] = {
+									["count"] = 4.37,
 								},
 							},
 							["amount"] = 23,
@@ -7395,11 +7395,11 @@ RecountPerCharDB = {
 								["Melee"] = {
 									["count"] = 2.01,
 								},
-								["Retribution Aura"] = {
-									["count"] = 0.47,
-								},
 								["Frost Fever (DoT)"] = {
 									["count"] = 0,
+								},
+								["Retribution Aura"] = {
+									["count"] = 0.47,
 								},
 							},
 							["amount"] = 11.63,
@@ -7427,11 +7427,11 @@ RecountPerCharDB = {
 								["Plague Strike"] = {
 									["count"] = 0.61,
 								},
-								["Death Strike"] = {
-									["count"] = 1.84,
-								},
 								["Frost Fever (DoT)"] = {
 									["count"] = 0.22,
+								},
+								["Death Strike"] = {
+									["count"] = 1.84,
 								},
 							},
 							["amount"] = 13.9,
@@ -7446,20 +7446,20 @@ RecountPerCharDB = {
 						},
 						["Keristrasza"] = {
 							["Details"] = {
-								["Melee"] = {
-									["count"] = 0.8,
+								["Blood Plague (DoT)"] = {
+									["count"] = 8.390000000000001,
 								},
 								["Death Strike"] = {
 									["count"] = 1.62,
 								},
-								["Blood Plague (DoT)"] = {
-									["count"] = 8.390000000000001,
+								["Melee"] = {
+									["count"] = 0.8,
 								},
 								["Rune Strike"] = {
 									["count"] = 1.29,
 								},
-								["Icy Touch"] = {
-									["count"] = 7.549999999999999,
+								["Blood Strike"] = {
+									["count"] = 2.38,
 								},
 								["Plague Strike"] = {
 									["count"] = 1.96,
@@ -7467,22 +7467,22 @@ RecountPerCharDB = {
 								["Frost Fever (DoT)"] = {
 									["count"] = 6.26,
 								},
-								["Blood Strike"] = {
-									["count"] = 2.38,
+								["Icy Touch"] = {
+									["count"] = 7.549999999999999,
 								},
 							},
 							["amount"] = 30.25,
 						},
 						["Azure Scale-Binder"] = {
 							["Details"] = {
-								["Retribution Aura"] = {
-									["count"] = 1.2,
-								},
 								["Death Strike"] = {
 									["count"] = 0,
 								},
-								["Melee"] = {
-									["count"] = 1.36,
+								["Retribution Aura"] = {
+									["count"] = 1.2,
+								},
+								["Blood Plague (DoT)"] = {
+									["count"] = 1.29,
 								},
 								["Icy Touch"] = {
 									["count"] = 2.54,
@@ -7496,8 +7496,8 @@ RecountPerCharDB = {
 								["Frost Fever (DoT)"] = {
 									["count"] = 0,
 								},
-								["Blood Plague (DoT)"] = {
-									["count"] = 1.29,
+								["Melee"] = {
+									["count"] = 1.36,
 								},
 							},
 							["amount"] = 8.33,
@@ -7512,20 +7512,20 @@ RecountPerCharDB = {
 						},
 						["Azure Enforcer"] = {
 							["Details"] = {
-								["Icy Touch"] = {
-									["count"] = 3.85,
+								["Blood Strike"] = {
+									["count"] = 0,
 								},
 								["Retribution Aura"] = {
 									["count"] = 1.69,
 								},
-								["Blood Plague (DoT)"] = {
-									["count"] = 3.910000000000001,
+								["Melee"] = {
+									["count"] = 4.87,
 								},
 								["Rune Strike"] = {
 									["count"] = 1.37,
 								},
-								["Blood Strike"] = {
-									["count"] = 0,
+								["Icy Touch"] = {
+									["count"] = 3.85,
 								},
 								["Plague Strike"] = {
 									["count"] = 2.79,
@@ -7533,8 +7533,8 @@ RecountPerCharDB = {
 								["Frost Fever (DoT)"] = {
 									["count"] = 1.27,
 								},
-								["Melee"] = {
-									["count"] = 4.87,
+								["Blood Plague (DoT)"] = {
+									["count"] = 3.910000000000001,
 								},
 							},
 							["amount"] = 19.75,
@@ -7561,17 +7561,17 @@ RecountPerCharDB = {
 						},
 						["Azure Warder"] = {
 							["Details"] = {
-								["Icy Touch"] = {
-									["count"] = 4.84,
+								["Blood Strike"] = {
+									["count"] = 0.59,
 								},
-								["Melee"] = {
-									["count"] = 2.77,
+								["Blood Plague (DoT)"] = {
+									["count"] = 1.2,
 								},
 								["Retribution Aura"] = {
 									["count"] = 0,
 								},
-								["Blood Strike"] = {
-									["count"] = 0.59,
+								["Icy Touch"] = {
+									["count"] = 4.84,
 								},
 								["Plague Strike"] = {
 									["count"] = 0.3,
@@ -7579,8 +7579,8 @@ RecountPerCharDB = {
 								["Frost Fever (DoT)"] = {
 									["count"] = 1.14,
 								},
-								["Blood Plague (DoT)"] = {
-									["count"] = 1.2,
+								["Melee"] = {
+									["count"] = 2.77,
 								},
 							},
 							["amount"] = 10.84,
@@ -7590,17 +7590,17 @@ RecountPerCharDB = {
 					["HealedWho"] = {
 						["Jungee"] = {
 							["Details"] = {
-								["Death Strike"] = {
-									["count"] = 14558,
-								},
 								["Rune Tap"] = {
 									["count"] = 1534,
 								},
-								["Judgement of Light"] = {
-									["count"] = 16822,
+								["Death Strike"] = {
+									["count"] = 14558,
 								},
 								["Improved Leader of the Pack"] = {
 									["count"] = 8617,
+								},
+								["Judgement of Light"] = {
+									["count"] = 16822,
 								},
 							},
 							["amount"] = 41531,
@@ -7859,11 +7859,11 @@ RecountPerCharDB = {
 								["Blood Plague (DoT)"] = {
 									["count"] = 0,
 								},
-								["Frost Fever (DoT)"] = {
-									["count"] = 13.96,
-								},
 								["Retribution Aura"] = {
 									["count"] = 0.63,
+								},
+								["Frost Fever (DoT)"] = {
+									["count"] = 13.96,
 								},
 							},
 							["amount"] = 34.66000000000001,
@@ -7882,25 +7882,25 @@ RecountPerCharDB = {
 								["Melee"] = {
 									["count"] = 2.01,
 								},
-								["Retribution Aura"] = {
-									["count"] = 0.47,
-								},
 								["Frost Fever (DoT)"] = {
 									["count"] = 0,
+								},
+								["Retribution Aura"] = {
+									["count"] = 0.47,
 								},
 							},
 							["amount"] = 11.63,
 						},
 						["Azure Scale-Binder"] = {
 							["Details"] = {
-								["Retribution Aura"] = {
-									["count"] = 1.2,
-								},
 								["Death Strike"] = {
 									["count"] = 0,
 								},
-								["Melee"] = {
-									["count"] = 1.36,
+								["Retribution Aura"] = {
+									["count"] = 1.2,
+								},
+								["Blood Plague (DoT)"] = {
+									["count"] = 1.29,
 								},
 								["Icy Touch"] = {
 									["count"] = 2.54,
@@ -7914,8 +7914,8 @@ RecountPerCharDB = {
 								["Frost Fever (DoT)"] = {
 									["count"] = 0,
 								},
-								["Blood Plague (DoT)"] = {
-									["count"] = 1.29,
+								["Melee"] = {
+									["count"] = 1.36,
 								},
 							},
 							["amount"] = 8.33,
@@ -7946,31 +7946,31 @@ RecountPerCharDB = {
 								["Plague Strike"] = {
 									["count"] = 5.539999999999999,
 								},
-								["Death Strike"] = {
-									["count"] = 0.27,
-								},
 								["Frost Fever (DoT)"] = {
 									["count"] = 3.7,
+								},
+								["Death Strike"] = {
+									["count"] = 0.27,
 								},
 							},
 							["amount"] = 41.61999999999998,
 						},
 						["Keristrasza"] = {
 							["Details"] = {
-								["Melee"] = {
-									["count"] = 0.8,
+								["Blood Plague (DoT)"] = {
+									["count"] = 8.390000000000001,
 								},
 								["Death Strike"] = {
 									["count"] = 1.62,
 								},
-								["Blood Plague (DoT)"] = {
-									["count"] = 8.390000000000001,
+								["Melee"] = {
+									["count"] = 0.8,
 								},
 								["Rune Strike"] = {
 									["count"] = 1.29,
 								},
-								["Icy Touch"] = {
-									["count"] = 7.549999999999999,
+								["Blood Strike"] = {
+									["count"] = 2.38,
 								},
 								["Plague Strike"] = {
 									["count"] = 1.96,
@@ -7978,8 +7978,8 @@ RecountPerCharDB = {
 								["Frost Fever (DoT)"] = {
 									["count"] = 6.26,
 								},
-								["Blood Strike"] = {
-									["count"] = 2.38,
+								["Icy Touch"] = {
+									["count"] = 7.549999999999999,
 								},
 							},
 							["amount"] = 30.25,
@@ -8021,14 +8021,14 @@ RecountPerCharDB = {
 								["Blood Plague (DoT)"] = {
 									["count"] = 5.15,
 								},
-								["Frost Fever (DoT)"] = {
-									["count"] = 4.98,
+								["Death Strike"] = {
+									["count"] = 0,
 								},
 								["Plague Strike"] = {
 									["count"] = 6.38,
 								},
-								["Death Strike"] = {
-									["count"] = 0,
+								["Frost Fever (DoT)"] = {
+									["count"] = 4.98,
 								},
 								["Blood Strike"] = {
 									["count"] = 0.37,
@@ -8059,14 +8059,40 @@ RecountPerCharDB = {
 								["Plague Strike"] = {
 									["count"] = 0.61,
 								},
-								["Death Strike"] = {
-									["count"] = 1.84,
-								},
 								["Frost Fever (DoT)"] = {
 									["count"] = 0.22,
 								},
+								["Death Strike"] = {
+									["count"] = 1.84,
+								},
 							},
 							["amount"] = 13.9,
+						},
+						["Azure Warder"] = {
+							["Details"] = {
+								["Blood Strike"] = {
+									["count"] = 0.59,
+								},
+								["Blood Plague (DoT)"] = {
+									["count"] = 1.2,
+								},
+								["Retribution Aura"] = {
+									["count"] = 0,
+								},
+								["Icy Touch"] = {
+									["count"] = 4.84,
+								},
+								["Plague Strike"] = {
+									["count"] = 0.3,
+								},
+								["Frost Fever (DoT)"] = {
+									["count"] = 1.14,
+								},
+								["Melee"] = {
+									["count"] = 2.77,
+								},
+							},
+							["amount"] = 10.84,
 						},
 						["Crystalline Keeper"] = {
 							["Details"] = {
@@ -8091,48 +8117,22 @@ RecountPerCharDB = {
 							},
 							["amount"] = 29.35,
 						},
-						["Azure Warder"] = {
-							["Details"] = {
-								["Icy Touch"] = {
-									["count"] = 4.84,
-								},
-								["Melee"] = {
-									["count"] = 2.77,
-								},
-								["Retribution Aura"] = {
-									["count"] = 0,
-								},
-								["Blood Strike"] = {
-									["count"] = 0.59,
-								},
-								["Plague Strike"] = {
-									["count"] = 0.3,
-								},
-								["Frost Fever (DoT)"] = {
-									["count"] = 1.14,
-								},
-								["Blood Plague (DoT)"] = {
-									["count"] = 1.2,
-								},
-							},
-							["amount"] = 10.84,
-						},
 						["Azure Enforcer"] = {
 							["Details"] = {
-								["Icy Touch"] = {
-									["count"] = 3.85,
+								["Blood Strike"] = {
+									["count"] = 0,
 								},
 								["Retribution Aura"] = {
 									["count"] = 1.69,
 								},
-								["Blood Plague (DoT)"] = {
-									["count"] = 3.910000000000001,
+								["Melee"] = {
+									["count"] = 4.87,
 								},
 								["Rune Strike"] = {
 									["count"] = 1.37,
 								},
-								["Blood Strike"] = {
-									["count"] = 0,
+								["Icy Touch"] = {
+									["count"] = 3.85,
 								},
 								["Plague Strike"] = {
 									["count"] = 2.79,
@@ -8140,8 +8140,8 @@ RecountPerCharDB = {
 								["Frost Fever (DoT)"] = {
 									["count"] = 1.27,
 								},
-								["Melee"] = {
-									["count"] = 4.87,
+								["Blood Plague (DoT)"] = {
+									["count"] = 3.910000000000001,
 								},
 							},
 							["amount"] = 19.75,
@@ -8186,20 +8186,20 @@ RecountPerCharDB = {
 						},
 						["Ormorok the Tree-Shaper"] = {
 							["Details"] = {
-								["Blood Plague (DoT)"] = {
-									["count"] = 4.800000000000001,
+								["Melee"] = {
+									["count"] = 4.6,
 								},
 								["Death Strike"] = {
 									["count"] = 0.52,
 								},
-								["Melee"] = {
-									["count"] = 4.6,
+								["Blood Plague (DoT)"] = {
+									["count"] = 4.800000000000001,
 								},
 								["Rune Strike"] = {
 									["count"] = 2.08,
 								},
-								["Icy Touch"] = {
-									["count"] = 4.37,
+								["Blood Strike"] = {
+									["count"] = 2.51,
 								},
 								["Plague Strike"] = {
 									["count"] = 1.68,
@@ -8207,8 +8207,8 @@ RecountPerCharDB = {
 								["Frost Fever (DoT)"] = {
 									["count"] = 2.44,
 								},
-								["Blood Strike"] = {
-									["count"] = 2.51,
+								["Icy Touch"] = {
+									["count"] = 4.37,
 								},
 							},
 							["amount"] = 23,
@@ -8337,11 +8337,11 @@ RecountPerCharDB = {
 								["Crystalline Tender"] = {
 									["count"] = 30,
 								},
-								["Crystalline Keeper"] = {
-									["count"] = 51,
-								},
 								["Azure Warder"] = {
 									["count"] = 3,
+								},
+								["Crystalline Keeper"] = {
+									["count"] = 51,
 								},
 								["Azure Enforcer"] = {
 									["count"] = 24,
@@ -8378,11 +8378,11 @@ RecountPerCharDB = {
 								["Crystalline Protector"] = {
 									["count"] = 27,
 								},
-								["Azure Warder"] = {
-									["count"] = 6,
-								},
 								["Crystalline Keeper"] = {
 									["count"] = 51,
+								},
+								["Azure Warder"] = {
+									["count"] = 6,
 								},
 								["Crystalline Tender"] = {
 									["count"] = 30,
@@ -8500,17 +8500,17 @@ RecountPerCharDB = {
 					["WhoHealed"] = {
 						["Jungee"] = {
 							["Details"] = {
-								["Death Strike"] = {
-									["count"] = 14558,
-								},
 								["Rune Tap"] = {
 									["count"] = 1534,
 								},
-								["Judgement of Light"] = {
-									["count"] = 16822,
+								["Death Strike"] = {
+									["count"] = 14558,
 								},
 								["Improved Leader of the Pack"] = {
 									["count"] = 8617,
+								},
+								["Judgement of Light"] = {
+									["count"] = 16822,
 								},
 							},
 							["amount"] = 41531,
@@ -8609,11 +8609,11 @@ RecountPerCharDB = {
 								["Blood Plague (DoT)"] = {
 									["count"] = 1069,
 								},
-								["Frost Fever (DoT)"] = {
-									["count"] = 1900,
-								},
 								["Retribution Aura"] = {
 									["count"] = 223,
+								},
+								["Frost Fever (DoT)"] = {
+									["count"] = 1900,
 								},
 							},
 							["amount"] = 31065,
@@ -8632,25 +8632,25 @@ RecountPerCharDB = {
 								["Melee"] = {
 									["count"] = 6336,
 								},
-								["Retribution Aura"] = {
-									["count"] = 446,
-								},
 								["Frost Fever (DoT)"] = {
 									["count"] = 1065,
+								},
+								["Retribution Aura"] = {
+									["count"] = 446,
 								},
 							},
 							["amount"] = 36824,
 						},
 						["Azure Scale-Binder"] = {
 							["Details"] = {
-								["Retribution Aura"] = {
-									["count"] = 446,
-								},
 								["Death Strike"] = {
 									["count"] = 2044,
 								},
-								["Melee"] = {
-									["count"] = 8865,
+								["Retribution Aura"] = {
+									["count"] = 446,
+								},
+								["Blood Plague (DoT)"] = {
+									["count"] = 1961,
 								},
 								["Icy Touch"] = {
 									["count"] = 2178,
@@ -8664,8 +8664,8 @@ RecountPerCharDB = {
 								["Frost Fever (DoT)"] = {
 									["count"] = 1930,
 								},
-								["Blood Plague (DoT)"] = {
-									["count"] = 1961,
+								["Melee"] = {
+									["count"] = 8865,
 								},
 							},
 							["amount"] = 22084,
@@ -8696,31 +8696,31 @@ RecountPerCharDB = {
 								["Plague Strike"] = {
 									["count"] = 9561,
 								},
-								["Death Strike"] = {
-									["count"] = 4284,
-								},
 								["Frost Fever (DoT)"] = {
 									["count"] = 4117,
+								},
+								["Death Strike"] = {
+									["count"] = 4284,
 								},
 							},
 							["amount"] = 76883,
 						},
 						["Keristrasza"] = {
 							["Details"] = {
-								["Melee"] = {
-									["count"] = 17429,
+								["Blood Plague (DoT)"] = {
+									["count"] = 5659,
 								},
 								["Death Strike"] = {
 									["count"] = 3462,
 								},
-								["Blood Plague (DoT)"] = {
-									["count"] = 5659,
+								["Melee"] = {
+									["count"] = 17429,
 								},
 								["Rune Strike"] = {
 									["count"] = 11267,
 								},
-								["Icy Touch"] = {
-									["count"] = 8350,
+								["Blood Strike"] = {
+									["count"] = 7131,
 								},
 								["Plague Strike"] = {
 									["count"] = 5935,
@@ -8728,8 +8728,8 @@ RecountPerCharDB = {
 								["Frost Fever (DoT)"] = {
 									["count"] = 4497,
 								},
-								["Blood Strike"] = {
-									["count"] = 7131,
+								["Icy Touch"] = {
+									["count"] = 8350,
 								},
 							},
 							["amount"] = 63730,
@@ -8771,14 +8771,14 @@ RecountPerCharDB = {
 								["Blood Plague (DoT)"] = {
 									["count"] = 4452,
 								},
-								["Frost Fever (DoT)"] = {
-									["count"] = 5434,
+								["Death Strike"] = {
+									["count"] = 1971,
 								},
 								["Plague Strike"] = {
 									["count"] = 8024,
 								},
-								["Death Strike"] = {
-									["count"] = 1971,
+								["Frost Fever (DoT)"] = {
+									["count"] = 5434,
 								},
 								["Blood Strike"] = {
 									["count"] = 1118,
@@ -8809,14 +8809,40 @@ RecountPerCharDB = {
 								["Plague Strike"] = {
 									["count"] = 1713,
 								},
-								["Death Strike"] = {
-									["count"] = 1800,
-								},
 								["Frost Fever (DoT)"] = {
 									["count"] = 5352,
 								},
+								["Death Strike"] = {
+									["count"] = 1800,
+								},
 							},
 							["amount"] = 56142,
+						},
+						["Azure Warder"] = {
+							["Details"] = {
+								["Blood Strike"] = {
+									["count"] = 0,
+								},
+								["Blood Plague (DoT)"] = {
+									["count"] = 573,
+								},
+								["Retribution Aura"] = {
+									["count"] = 0,
+								},
+								["Icy Touch"] = {
+									["count"] = 3205,
+								},
+								["Plague Strike"] = {
+									["count"] = 1812,
+								},
+								["Frost Fever (DoT)"] = {
+									["count"] = 1252,
+								},
+								["Melee"] = {
+									["count"] = 3479,
+								},
+							},
+							["amount"] = 10321,
 						},
 						["Crystalline Keeper"] = {
 							["Details"] = {
@@ -8841,48 +8867,22 @@ RecountPerCharDB = {
 							},
 							["amount"] = 58795,
 						},
-						["Azure Warder"] = {
-							["Details"] = {
-								["Icy Touch"] = {
-									["count"] = 3205,
-								},
-								["Melee"] = {
-									["count"] = 3479,
-								},
-								["Retribution Aura"] = {
-									["count"] = 0,
-								},
-								["Blood Strike"] = {
-									["count"] = 0,
-								},
-								["Plague Strike"] = {
-									["count"] = 1812,
-								},
-								["Frost Fever (DoT)"] = {
-									["count"] = 1252,
-								},
-								["Blood Plague (DoT)"] = {
-									["count"] = 573,
-								},
-							},
-							["amount"] = 10321,
-						},
 						["Azure Enforcer"] = {
 							["Details"] = {
-								["Icy Touch"] = {
-									["count"] = 4159,
+								["Blood Strike"] = {
+									["count"] = 2410,
 								},
 								["Retribution Aura"] = {
 									["count"] = 1115,
 								},
-								["Blood Plague (DoT)"] = {
-									["count"] = 3935,
+								["Melee"] = {
+									["count"] = 18011,
 								},
 								["Rune Strike"] = {
 									["count"] = 5732,
 								},
-								["Blood Strike"] = {
-									["count"] = 2410,
+								["Icy Touch"] = {
+									["count"] = 4159,
 								},
 								["Plague Strike"] = {
 									["count"] = 4044,
@@ -8890,8 +8890,8 @@ RecountPerCharDB = {
 								["Frost Fever (DoT)"] = {
 									["count"] = 4499,
 								},
-								["Melee"] = {
-									["count"] = 18011,
+								["Blood Plague (DoT)"] = {
+									["count"] = 3935,
 								},
 							},
 							["amount"] = 43905,
@@ -8913,14 +8913,14 @@ RecountPerCharDB = {
 								["Blood Plague (DoT)"] = {
 									["count"] = 2359,
 								},
-								["Frost Fever (DoT)"] = {
-									["count"] = 3033,
+								["Death Strike"] = {
+									["count"] = 1920,
 								},
 								["Plague Strike"] = {
 									["count"] = 4352,
 								},
-								["Death Strike"] = {
-									["count"] = 1920,
+								["Frost Fever (DoT)"] = {
+									["count"] = 3033,
 								},
 								["Icy Touch"] = {
 									["count"] = 6362,
@@ -8930,20 +8930,20 @@ RecountPerCharDB = {
 						},
 						["Ormorok the Tree-Shaper"] = {
 							["Details"] = {
-								["Blood Plague (DoT)"] = {
-									["count"] = 3464,
+								["Melee"] = {
+									["count"] = 21201,
 								},
 								["Death Strike"] = {
 									["count"] = 3879,
 								},
-								["Melee"] = {
-									["count"] = 21201,
+								["Blood Plague (DoT)"] = {
+									["count"] = 3464,
 								},
 								["Rune Strike"] = {
 									["count"] = 2720,
 								},
-								["Icy Touch"] = {
-									["count"] = 3099,
+								["Blood Strike"] = {
+									["count"] = 5880,
 								},
 								["Plague Strike"] = {
 									["count"] = 4227,
@@ -8951,8 +8951,8 @@ RecountPerCharDB = {
 								["Frost Fever (DoT)"] = {
 									["count"] = 2930,
 								},
-								["Blood Strike"] = {
-									["count"] = 5880,
+								["Icy Touch"] = {
+									["count"] = 3099,
 								},
 							},
 							["amount"] = 47400,
@@ -8967,13 +8967,16 @@ RecountPerCharDB = {
 							},
 							["amount"] = 1596,
 						},
-						["Crystalline Tender"] = {
+						["Anomalus"] = {
 							["Details"] = {
+								["Spark"] = {
+									["count"] = 7291,
+								},
 								["Melee"] = {
-									["count"] = 4402,
+									["count"] = 2938,
 								},
 							},
-							["amount"] = 4402,
+							["amount"] = 10229,
 						},
 						["Crystalline Frayer"] = {
 							["Details"] = {
@@ -8994,24 +8997,30 @@ RecountPerCharDB = {
 							},
 							["amount"] = 1875,
 						},
-						["Anomalus"] = {
+						["Crystalline Tender"] = {
 							["Details"] = {
-								["Spark"] = {
-									["count"] = 7291,
-								},
 								["Melee"] = {
-									["count"] = 2938,
+									["count"] = 4402,
 								},
 							},
-							["amount"] = 10229,
+							["amount"] = 4402,
 						},
-						["Crazed Mana-Surge"] = {
+						["Keristrasza"] = {
 							["Details"] = {
+								["Crystalfire Breath"] = {
+									["count"] = 1196,
+								},
+								["Crystalfire Breath (DoT)"] = {
+									["count"] = 3933,
+								},
 								["Melee"] = {
-									["count"] = 5708,
+									["count"] = 7232,
+								},
+								["Crystallize"] = {
+									["count"] = 3042,
 								},
 							},
-							["amount"] = 5708,
+							["amount"] = 15403,
 						},
 						["Crystalline Protector"] = {
 							["Details"] = {
@@ -9035,6 +9044,14 @@ RecountPerCharDB = {
 							},
 							["amount"] = 5224,
 						},
+						["Environment"] = {
+							["Details"] = {
+								["Falling"] = {
+									["count"] = 2813,
+								},
+							},
+							["amount"] = 2813,
+						},
 						["Crystalline Keeper"] = {
 							["Details"] = {
 								["Melee"] = {
@@ -9045,14 +9062,6 @@ RecountPerCharDB = {
 								},
 							},
 							["amount"] = 8048,
-						},
-						["Environment"] = {
-							["Details"] = {
-								["Falling"] = {
-									["count"] = 2813,
-								},
-							},
-							["amount"] = 2813,
 						},
 						["Azure Warder"] = {
 							["Details"] = {
@@ -9084,22 +9093,13 @@ RecountPerCharDB = {
 							},
 							["amount"] = 17169,
 						},
-						["Keristrasza"] = {
+						["Crazed Mana-Surge"] = {
 							["Details"] = {
-								["Crystalfire Breath"] = {
-									["count"] = 1196,
-								},
-								["Crystalfire Breath (DoT)"] = {
-									["count"] = 3933,
-								},
 								["Melee"] = {
-									["count"] = 7232,
-								},
-								["Crystallize"] = {
-									["count"] = 3042,
+									["count"] = 5708,
 								},
 							},
-							["amount"] = 15403,
+							["amount"] = 5708,
 						},
 						["Ormorok the Tree-Shaper"] = {
 							["Details"] = {
@@ -9127,17 +9127,17 @@ RecountPerCharDB = {
 					["TimeHealing"] = {
 						["Jungee"] = {
 							["Details"] = {
-								["Death Strike"] = {
-									["count"] = 0.61,
-								},
 								["Rune Tap"] = {
 									["count"] = 3.5,
 								},
-								["Judgement of Light"] = {
-									["count"] = 16.57,
+								["Death Strike"] = {
+									["count"] = 0.61,
 								},
 								["Improved Leader of the Pack"] = {
 									["count"] = 9.440000000000001,
+								},
+								["Judgement of Light"] = {
+									["count"] = 16.57,
 								},
 							},
 							["amount"] = 30.12000000000001,
@@ -9168,18 +9168,6 @@ RecountPerCharDB = {
 						},
 					},
 					["OverHeals"] = {
-						["Death Strike"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 6753,
-									["min"] = 160,
-									["count"] = 8,
-									["amount"] = 39466,
-								},
-							},
-							["count"] = 8,
-							["amount"] = 39466,
-						},
 						["Rune Tap"] = {
 							["Details"] = {
 								["Hit"] = {
@@ -9192,17 +9180,17 @@ RecountPerCharDB = {
 							["count"] = 4,
 							["amount"] = 12490,
 						},
-						["Judgement of Light"] = {
+						["Death Strike"] = {
 							["Details"] = {
-								["Tick"] = {
-									["max"] = 899,
-									["min"] = 0,
-									["count"] = 57,
-									["amount"] = 49704,
+								["Hit"] = {
+									["max"] = 6753,
+									["min"] = 160,
+									["count"] = 8,
+									["amount"] = 39466,
 								},
 							},
-							["count"] = 57,
-							["amount"] = 49704,
+							["count"] = 8,
+							["amount"] = 39466,
 						},
 						["Improved Leader of the Pack"] = {
 							["Details"] = {
@@ -9215,6 +9203,18 @@ RecountPerCharDB = {
 							},
 							["count"] = 10,
 							["amount"] = 6666,
+						},
+						["Judgement of Light"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 899,
+									["min"] = 0,
+									["count"] = 57,
+									["amount"] = 49704,
+								},
+							},
+							["count"] = 57,
+							["amount"] = 49704,
 						},
 					},
 					["PartialResist"] = {
@@ -9320,16 +9320,16 @@ RecountPerCharDB = {
 							["count"] = 162,
 							["amount"] = 0,
 						},
-						["Crystal Chains"] = {
+						["Crystalfire Breath (DoT)"] = {
 							["Details"] = {
 								["No Resist"] = {
 									["max"] = 0,
 									["min"] = 0,
-									["count"] = 4,
+									["count"] = 3,
 									["amount"] = 0,
 								},
 							},
-							["count"] = 4,
+							["count"] = 3,
 							["amount"] = 0,
 						},
 						["Intense Cold"] = {
@@ -9344,16 +9344,16 @@ RecountPerCharDB = {
 							["count"] = 11,
 							["amount"] = 0,
 						},
-						["Crystalfire Breath (DoT)"] = {
+						["Crystal Chains"] = {
 							["Details"] = {
 								["No Resist"] = {
 									["max"] = 0,
 									["min"] = 0,
-									["count"] = 3,
+									["count"] = 4,
 									["amount"] = 0,
 								},
 							},
-							["count"] = 3,
+							["count"] = 4,
 							["amount"] = 0,
 						},
 						["Spark"] = {
@@ -9598,6 +9598,30 @@ RecountPerCharDB = {
 							["count"] = 162,
 							["amount"] = 26864,
 						},
+						["Crystalfire Breath (DoT)"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 3,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 3,
+							["amount"] = 0,
+						},
+						["Intense Cold"] = {
+							["Details"] = {
+								["Absorbed"] = {
+									["max"] = 281,
+									["min"] = 67,
+									["count"] = 11,
+									["amount"] = 1739,
+								},
+							},
+							["count"] = 11,
+							["amount"] = 1739,
+						},
 						["Crystal Chains"] = {
 							["Details"] = {
 								["No Absorb"] = {
@@ -9615,30 +9639,6 @@ RecountPerCharDB = {
 							},
 							["count"] = 4,
 							["amount"] = 3611,
-						},
-						["Intense Cold"] = {
-							["Details"] = {
-								["Absorbed"] = {
-									["max"] = 281,
-									["min"] = 67,
-									["count"] = 11,
-									["amount"] = 1739,
-								},
-							},
-							["count"] = 11,
-							["amount"] = 1739,
-						},
-						["Crystalfire Breath (DoT)"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 3,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 3,
-							["amount"] = 0,
 						},
 						["Spark"] = {
 							["Details"] = {
@@ -9830,18 +9830,6 @@ RecountPerCharDB = {
 					},
 					["Dispelled"] = 2,
 					["Heals"] = {
-						["Death Strike"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 6593,
-									["min"] = 3567,
-									["count"] = 3,
-									["amount"] = 14558,
-								},
-							},
-							["count"] = 3,
-							["amount"] = 14558,
-						},
 						["Rune Tap"] = {
 							["Details"] = {
 								["Hit"] = {
@@ -9854,17 +9842,17 @@ RecountPerCharDB = {
 							["count"] = 4,
 							["amount"] = 8288,
 						},
-						["Judgement of Light"] = {
+						["Death Strike"] = {
 							["Details"] = {
-								["Tick"] = {
-									["max"] = 899,
-									["min"] = 0,
-									["count"] = 24,
-									["amount"] = 16822,
+								["Hit"] = {
+									["max"] = 6593,
+									["min"] = 3567,
+									["count"] = 3,
+									["amount"] = 14558,
 								},
 							},
-							["count"] = 24,
-							["amount"] = 16822,
+							["count"] = 3,
+							["amount"] = 14558,
 						},
 						["Improved Leader of the Pack"] = {
 							["Details"] = {
@@ -9877,6 +9865,18 @@ RecountPerCharDB = {
 							},
 							["count"] = 11,
 							["amount"] = 8617,
+						},
+						["Judgement of Light"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 899,
+									["min"] = 0,
+									["count"] = 24,
+									["amount"] = 16822,
+								},
+							},
+							["count"] = 24,
+							["amount"] = 16822,
 						},
 					},
 					["RunicPowerGainedFrom"] = {
@@ -9899,17 +9899,17 @@ RecountPerCharDB = {
 					["TimeSpent"] = {
 						["Jungee"] = {
 							["Details"] = {
-								["Death Strike"] = {
-									["count"] = 0.61,
-								},
 								["Rune Tap"] = {
 									["count"] = 3.5,
 								},
-								["Judgement of Light"] = {
-									["count"] = 16.57,
+								["Death Strike"] = {
+									["count"] = 0.61,
 								},
 								["Improved Leader of the Pack"] = {
 									["count"] = 9.440000000000001,
+								},
+								["Judgement of Light"] = {
+									["count"] = 16.57,
 								},
 							},
 							["amount"] = 30.12000000000001,
@@ -9928,11 +9928,11 @@ RecountPerCharDB = {
 								["Blood Plague (DoT)"] = {
 									["count"] = 0,
 								},
-								["Frost Fever (DoT)"] = {
-									["count"] = 13.96,
-								},
 								["Retribution Aura"] = {
 									["count"] = 0.63,
+								},
+								["Frost Fever (DoT)"] = {
+									["count"] = 13.96,
 								},
 							},
 							["amount"] = 34.66000000000001,
@@ -10001,11 +10001,11 @@ RecountPerCharDB = {
 								["Plague Strike"] = {
 									["count"] = 5.539999999999999,
 								},
-								["Death Strike"] = {
-									["count"] = 0.27,
-								},
 								["Frost Fever (DoT)"] = {
 									["count"] = 3.7,
+								},
+								["Death Strike"] = {
+									["count"] = 0.27,
 								},
 							},
 							["amount"] = 41.61999999999998,
@@ -10050,14 +10050,14 @@ RecountPerCharDB = {
 								["Blood Plague (DoT)"] = {
 									["count"] = 5.15,
 								},
-								["Frost Fever (DoT)"] = {
-									["count"] = 4.98,
+								["Death Strike"] = {
+									["count"] = 0,
 								},
 								["Plague Strike"] = {
 									["count"] = 6.38,
 								},
-								["Death Strike"] = {
-									["count"] = 0,
+								["Frost Fever (DoT)"] = {
+									["count"] = 4.98,
 								},
 								["Blood Strike"] = {
 									["count"] = 0.37,
@@ -10067,20 +10067,20 @@ RecountPerCharDB = {
 						},
 						["Ormorok the Tree-Shaper"] = {
 							["Details"] = {
-								["Blood Plague (DoT)"] = {
-									["count"] = 4.800000000000001,
+								["Melee"] = {
+									["count"] = 4.6,
 								},
 								["Death Strike"] = {
 									["count"] = 0.52,
 								},
-								["Melee"] = {
-									["count"] = 4.6,
+								["Blood Plague (DoT)"] = {
+									["count"] = 4.800000000000001,
 								},
 								["Rune Strike"] = {
 									["count"] = 2.08,
 								},
-								["Icy Touch"] = {
-									["count"] = 4.37,
+								["Blood Strike"] = {
+									["count"] = 2.51,
 								},
 								["Plague Strike"] = {
 									["count"] = 1.68,
@@ -10088,8 +10088,8 @@ RecountPerCharDB = {
 								["Frost Fever (DoT)"] = {
 									["count"] = 2.44,
 								},
-								["Blood Strike"] = {
-									["count"] = 2.51,
+								["Icy Touch"] = {
+									["count"] = 4.37,
 								},
 							},
 							["amount"] = 23,
@@ -10116,11 +10116,11 @@ RecountPerCharDB = {
 								["Melee"] = {
 									["count"] = 2.01,
 								},
-								["Retribution Aura"] = {
-									["count"] = 0.47,
-								},
 								["Frost Fever (DoT)"] = {
 									["count"] = 0,
+								},
+								["Retribution Aura"] = {
+									["count"] = 0.47,
 								},
 							},
 							["amount"] = 11.63,
@@ -10148,11 +10148,11 @@ RecountPerCharDB = {
 								["Plague Strike"] = {
 									["count"] = 0.61,
 								},
-								["Death Strike"] = {
-									["count"] = 1.84,
-								},
 								["Frost Fever (DoT)"] = {
 									["count"] = 0.22,
+								},
+								["Death Strike"] = {
+									["count"] = 1.84,
 								},
 							},
 							["amount"] = 13.9,
@@ -10167,20 +10167,20 @@ RecountPerCharDB = {
 						},
 						["Keristrasza"] = {
 							["Details"] = {
-								["Melee"] = {
-									["count"] = 0.8,
+								["Blood Plague (DoT)"] = {
+									["count"] = 8.390000000000001,
 								},
 								["Death Strike"] = {
 									["count"] = 1.62,
 								},
-								["Blood Plague (DoT)"] = {
-									["count"] = 8.390000000000001,
+								["Melee"] = {
+									["count"] = 0.8,
 								},
 								["Rune Strike"] = {
 									["count"] = 1.29,
 								},
-								["Icy Touch"] = {
-									["count"] = 7.549999999999999,
+								["Blood Strike"] = {
+									["count"] = 2.38,
 								},
 								["Plague Strike"] = {
 									["count"] = 1.96,
@@ -10188,22 +10188,22 @@ RecountPerCharDB = {
 								["Frost Fever (DoT)"] = {
 									["count"] = 6.26,
 								},
-								["Blood Strike"] = {
-									["count"] = 2.38,
+								["Icy Touch"] = {
+									["count"] = 7.549999999999999,
 								},
 							},
 							["amount"] = 30.25,
 						},
 						["Azure Scale-Binder"] = {
 							["Details"] = {
-								["Retribution Aura"] = {
-									["count"] = 1.2,
-								},
 								["Death Strike"] = {
 									["count"] = 0,
 								},
-								["Melee"] = {
-									["count"] = 1.36,
+								["Retribution Aura"] = {
+									["count"] = 1.2,
+								},
+								["Blood Plague (DoT)"] = {
+									["count"] = 1.29,
 								},
 								["Icy Touch"] = {
 									["count"] = 2.54,
@@ -10217,8 +10217,8 @@ RecountPerCharDB = {
 								["Frost Fever (DoT)"] = {
 									["count"] = 0,
 								},
-								["Blood Plague (DoT)"] = {
-									["count"] = 1.29,
+								["Melee"] = {
+									["count"] = 1.36,
 								},
 							},
 							["amount"] = 8.33,
@@ -10233,20 +10233,20 @@ RecountPerCharDB = {
 						},
 						["Azure Enforcer"] = {
 							["Details"] = {
-								["Icy Touch"] = {
-									["count"] = 3.85,
+								["Blood Strike"] = {
+									["count"] = 0,
 								},
 								["Retribution Aura"] = {
 									["count"] = 1.69,
 								},
-								["Blood Plague (DoT)"] = {
-									["count"] = 3.910000000000001,
+								["Melee"] = {
+									["count"] = 4.87,
 								},
 								["Rune Strike"] = {
 									["count"] = 1.37,
 								},
-								["Blood Strike"] = {
-									["count"] = 0,
+								["Icy Touch"] = {
+									["count"] = 3.85,
 								},
 								["Plague Strike"] = {
 									["count"] = 2.79,
@@ -10254,8 +10254,8 @@ RecountPerCharDB = {
 								["Frost Fever (DoT)"] = {
 									["count"] = 1.27,
 								},
-								["Melee"] = {
-									["count"] = 4.87,
+								["Blood Plague (DoT)"] = {
+									["count"] = 3.910000000000001,
 								},
 							},
 							["amount"] = 19.75,
@@ -10282,17 +10282,17 @@ RecountPerCharDB = {
 						},
 						["Azure Warder"] = {
 							["Details"] = {
-								["Icy Touch"] = {
-									["count"] = 4.84,
+								["Blood Strike"] = {
+									["count"] = 0.59,
 								},
-								["Melee"] = {
-									["count"] = 2.77,
+								["Blood Plague (DoT)"] = {
+									["count"] = 1.2,
 								},
 								["Retribution Aura"] = {
 									["count"] = 0,
 								},
-								["Blood Strike"] = {
-									["count"] = 0.59,
+								["Icy Touch"] = {
+									["count"] = 4.84,
 								},
 								["Plague Strike"] = {
 									["count"] = 0.3,
@@ -10300,8 +10300,8 @@ RecountPerCharDB = {
 								["Frost Fever (DoT)"] = {
 									["count"] = 1.14,
 								},
-								["Blood Plague (DoT)"] = {
-									["count"] = 1.2,
+								["Melee"] = {
+									["count"] = 2.77,
 								},
 							},
 							["amount"] = 10.84,
@@ -10311,17 +10311,17 @@ RecountPerCharDB = {
 					["HealedWho"] = {
 						["Jungee"] = {
 							["Details"] = {
-								["Death Strike"] = {
-									["count"] = 14558,
-								},
 								["Rune Tap"] = {
 									["count"] = 1534,
 								},
-								["Judgement of Light"] = {
-									["count"] = 16822,
+								["Death Strike"] = {
+									["count"] = 14558,
 								},
 								["Improved Leader of the Pack"] = {
 									["count"] = 8617,
+								},
+								["Judgement of Light"] = {
+									["count"] = 16822,
 								},
 							},
 							["amount"] = 41531,
@@ -10580,11 +10580,11 @@ RecountPerCharDB = {
 								["Blood Plague (DoT)"] = {
 									["count"] = 0,
 								},
-								["Frost Fever (DoT)"] = {
-									["count"] = 13.96,
-								},
 								["Retribution Aura"] = {
 									["count"] = 0.63,
+								},
+								["Frost Fever (DoT)"] = {
+									["count"] = 13.96,
 								},
 							},
 							["amount"] = 34.66000000000001,
@@ -10603,25 +10603,25 @@ RecountPerCharDB = {
 								["Melee"] = {
 									["count"] = 2.01,
 								},
-								["Retribution Aura"] = {
-									["count"] = 0.47,
-								},
 								["Frost Fever (DoT)"] = {
 									["count"] = 0,
+								},
+								["Retribution Aura"] = {
+									["count"] = 0.47,
 								},
 							},
 							["amount"] = 11.63,
 						},
 						["Azure Scale-Binder"] = {
 							["Details"] = {
-								["Retribution Aura"] = {
-									["count"] = 1.2,
-								},
 								["Death Strike"] = {
 									["count"] = 0,
 								},
-								["Melee"] = {
-									["count"] = 1.36,
+								["Retribution Aura"] = {
+									["count"] = 1.2,
+								},
+								["Blood Plague (DoT)"] = {
+									["count"] = 1.29,
 								},
 								["Icy Touch"] = {
 									["count"] = 2.54,
@@ -10635,8 +10635,8 @@ RecountPerCharDB = {
 								["Frost Fever (DoT)"] = {
 									["count"] = 0,
 								},
-								["Blood Plague (DoT)"] = {
-									["count"] = 1.29,
+								["Melee"] = {
+									["count"] = 1.36,
 								},
 							},
 							["amount"] = 8.33,
@@ -10667,31 +10667,31 @@ RecountPerCharDB = {
 								["Plague Strike"] = {
 									["count"] = 5.539999999999999,
 								},
-								["Death Strike"] = {
-									["count"] = 0.27,
-								},
 								["Frost Fever (DoT)"] = {
 									["count"] = 3.7,
+								},
+								["Death Strike"] = {
+									["count"] = 0.27,
 								},
 							},
 							["amount"] = 41.61999999999998,
 						},
 						["Keristrasza"] = {
 							["Details"] = {
-								["Melee"] = {
-									["count"] = 0.8,
+								["Blood Plague (DoT)"] = {
+									["count"] = 8.390000000000001,
 								},
 								["Death Strike"] = {
 									["count"] = 1.62,
 								},
-								["Blood Plague (DoT)"] = {
-									["count"] = 8.390000000000001,
+								["Melee"] = {
+									["count"] = 0.8,
 								},
 								["Rune Strike"] = {
 									["count"] = 1.29,
 								},
-								["Icy Touch"] = {
-									["count"] = 7.549999999999999,
+								["Blood Strike"] = {
+									["count"] = 2.38,
 								},
 								["Plague Strike"] = {
 									["count"] = 1.96,
@@ -10699,8 +10699,8 @@ RecountPerCharDB = {
 								["Frost Fever (DoT)"] = {
 									["count"] = 6.26,
 								},
-								["Blood Strike"] = {
-									["count"] = 2.38,
+								["Icy Touch"] = {
+									["count"] = 7.549999999999999,
 								},
 							},
 							["amount"] = 30.25,
@@ -10742,14 +10742,14 @@ RecountPerCharDB = {
 								["Blood Plague (DoT)"] = {
 									["count"] = 5.15,
 								},
-								["Frost Fever (DoT)"] = {
-									["count"] = 4.98,
+								["Death Strike"] = {
+									["count"] = 0,
 								},
 								["Plague Strike"] = {
 									["count"] = 6.38,
 								},
-								["Death Strike"] = {
-									["count"] = 0,
+								["Frost Fever (DoT)"] = {
+									["count"] = 4.98,
 								},
 								["Blood Strike"] = {
 									["count"] = 0.37,
@@ -10780,14 +10780,40 @@ RecountPerCharDB = {
 								["Plague Strike"] = {
 									["count"] = 0.61,
 								},
-								["Death Strike"] = {
-									["count"] = 1.84,
-								},
 								["Frost Fever (DoT)"] = {
 									["count"] = 0.22,
 								},
+								["Death Strike"] = {
+									["count"] = 1.84,
+								},
 							},
 							["amount"] = 13.9,
+						},
+						["Azure Warder"] = {
+							["Details"] = {
+								["Blood Strike"] = {
+									["count"] = 0.59,
+								},
+								["Blood Plague (DoT)"] = {
+									["count"] = 1.2,
+								},
+								["Retribution Aura"] = {
+									["count"] = 0,
+								},
+								["Icy Touch"] = {
+									["count"] = 4.84,
+								},
+								["Plague Strike"] = {
+									["count"] = 0.3,
+								},
+								["Frost Fever (DoT)"] = {
+									["count"] = 1.14,
+								},
+								["Melee"] = {
+									["count"] = 2.77,
+								},
+							},
+							["amount"] = 10.84,
 						},
 						["Crystalline Keeper"] = {
 							["Details"] = {
@@ -10812,48 +10838,22 @@ RecountPerCharDB = {
 							},
 							["amount"] = 29.35,
 						},
-						["Azure Warder"] = {
-							["Details"] = {
-								["Icy Touch"] = {
-									["count"] = 4.84,
-								},
-								["Melee"] = {
-									["count"] = 2.77,
-								},
-								["Retribution Aura"] = {
-									["count"] = 0,
-								},
-								["Blood Strike"] = {
-									["count"] = 0.59,
-								},
-								["Plague Strike"] = {
-									["count"] = 0.3,
-								},
-								["Frost Fever (DoT)"] = {
-									["count"] = 1.14,
-								},
-								["Blood Plague (DoT)"] = {
-									["count"] = 1.2,
-								},
-							},
-							["amount"] = 10.84,
-						},
 						["Azure Enforcer"] = {
 							["Details"] = {
-								["Icy Touch"] = {
-									["count"] = 3.85,
+								["Blood Strike"] = {
+									["count"] = 0,
 								},
 								["Retribution Aura"] = {
 									["count"] = 1.69,
 								},
-								["Blood Plague (DoT)"] = {
-									["count"] = 3.910000000000001,
+								["Melee"] = {
+									["count"] = 4.87,
 								},
 								["Rune Strike"] = {
 									["count"] = 1.37,
 								},
-								["Blood Strike"] = {
-									["count"] = 0,
+								["Icy Touch"] = {
+									["count"] = 3.85,
 								},
 								["Plague Strike"] = {
 									["count"] = 2.79,
@@ -10861,8 +10861,8 @@ RecountPerCharDB = {
 								["Frost Fever (DoT)"] = {
 									["count"] = 1.27,
 								},
-								["Melee"] = {
-									["count"] = 4.87,
+								["Blood Plague (DoT)"] = {
+									["count"] = 3.910000000000001,
 								},
 							},
 							["amount"] = 19.75,
@@ -10907,20 +10907,20 @@ RecountPerCharDB = {
 						},
 						["Ormorok the Tree-Shaper"] = {
 							["Details"] = {
-								["Blood Plague (DoT)"] = {
-									["count"] = 4.800000000000001,
+								["Melee"] = {
+									["count"] = 4.6,
 								},
 								["Death Strike"] = {
 									["count"] = 0.52,
 								},
-								["Melee"] = {
-									["count"] = 4.6,
+								["Blood Plague (DoT)"] = {
+									["count"] = 4.800000000000001,
 								},
 								["Rune Strike"] = {
 									["count"] = 2.08,
 								},
-								["Icy Touch"] = {
-									["count"] = 4.37,
+								["Blood Strike"] = {
+									["count"] = 2.51,
 								},
 								["Plague Strike"] = {
 									["count"] = 1.68,
@@ -10928,8 +10928,8 @@ RecountPerCharDB = {
 								["Frost Fever (DoT)"] = {
 									["count"] = 2.44,
 								},
-								["Blood Strike"] = {
-									["count"] = 2.51,
+								["Icy Touch"] = {
+									["count"] = 4.37,
 								},
 							},
 							["amount"] = 23,
@@ -11246,6 +11246,17 @@ RecountPerCharDB = {
 							},
 							["amount"] = 103,
 						},
+						["Frostfire"] = {
+							["Details"] = {
+								["Tick"] = {
+									["count"] = 3,
+								},
+								["Hit"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 4,
+						},
 						["Fire"] = {
 							["Details"] = {
 								["Absorb"] = {
@@ -11259,17 +11270,6 @@ RecountPerCharDB = {
 								},
 							},
 							["amount"] = 15,
-						},
-						["Frostfire"] = {
-							["Details"] = {
-								["Tick"] = {
-									["count"] = 3,
-								},
-								["Hit"] = {
-									["count"] = 1,
-								},
-							},
-							["amount"] = 4,
 						},
 						["Shadow"] = {
 							["Details"] = {
@@ -11300,17 +11300,17 @@ RecountPerCharDB = {
 					["WhoHealed"] = {
 						["Jungee"] = {
 							["Details"] = {
-								["Improved Leader of the Pack"] = {
-									["count"] = 14910,
-								},
 								["Rune Tap"] = {
 									["count"] = 11441,
 								},
-								["Judgement of Light"] = {
-									["count"] = 30824,
+								["Improved Leader of the Pack"] = {
+									["count"] = 14910,
 								},
 								["Death Strike"] = {
 									["count"] = 16545,
+								},
+								["Judgement of Light"] = {
+									["count"] = 30824,
 								},
 							},
 							["amount"] = 73720,
@@ -11347,18 +11347,18 @@ RecountPerCharDB = {
 						},
 					},
 					["ElementDoneAbsorb"] = {
-						["Physical"] = 2277,
 						["Shadow"] = 636,
-						["Melee"] = 5124,
 						["Frost"] = 626,
+						["Melee"] = 5124,
+						["Physical"] = 2277,
 					},
 					["Overhealing"] = 159804,
 					["ElementTaken"] = {
 						["Physical"] = 19426,
 						["Melee"] = 135548,
 						["Arcane"] = 35362,
-						["Fire"] = 21808,
 						["Frostfire"] = 5129,
+						["Fire"] = 21808,
 						["Shadow"] = 1853,
 						["Frost"] = 30580,
 					},
@@ -11413,11 +11413,11 @@ RecountPerCharDB = {
 								["Blood Plague (DoT)"] = {
 									["count"] = 1069,
 								},
-								["Frost Fever (DoT)"] = {
-									["count"] = 1900,
-								},
 								["Retribution Aura"] = {
 									["count"] = 223,
+								},
+								["Frost Fever (DoT)"] = {
+									["count"] = 1900,
 								},
 							},
 							["amount"] = 31065,
@@ -11439,14 +11439,14 @@ RecountPerCharDB = {
 								["Blood Plague (DoT)"] = {
 									["count"] = 4302,
 								},
-								["Frost Fever (DoT)"] = {
-									["count"] = 4234,
+								["Death Strike"] = {
+									["count"] = 2044,
 								},
 								["Plague Strike"] = {
 									["count"] = 3078,
 								},
-								["Death Strike"] = {
-									["count"] = 2044,
+								["Frost Fever (DoT)"] = {
+									["count"] = 4234,
 								},
 								["Blood Strike"] = {
 									["count"] = 2482,
@@ -11523,37 +11523,37 @@ RecountPerCharDB = {
 								["Blood Plague (DoT)"] = {
 									["count"] = 5724,
 								},
-								["Retribution Aura"] = {
-									["count"] = 475,
-								},
-								["Rune Strike"] = {
-									["count"] = 2615,
-								},
 								["Frost Fever (DoT)"] = {
 									["count"] = 5634,
 								},
 								["Plague Strike"] = {
 									["count"] = 1032,
 								},
+								["Retribution Aura"] = {
+									["count"] = 475,
+								},
+								["Rune Strike"] = {
+									["count"] = 2615,
+								},
 							},
 							["amount"] = 15480,
 						},
 						["Steward"] = {
 							["Details"] = {
-								["Blood Strike"] = {
-									["count"] = 1058,
+								["Icy Touch"] = {
+									["count"] = 1137,
 								},
 								["Frost Fever (DoT)"] = {
 									["count"] = 1678,
 								},
-								["Blood Plague (DoT)"] = {
-									["count"] = 3004,
+								["Melee"] = {
+									["count"] = 10799,
 								},
 								["Death and Decay"] = {
 									["count"] = 7861,
 								},
-								["Icy Touch"] = {
-									["count"] = 1137,
+								["Blood Strike"] = {
+									["count"] = 1058,
 								},
 								["Plague Strike"] = {
 									["count"] = 1092,
@@ -11561,8 +11561,8 @@ RecountPerCharDB = {
 								["Retribution Aura"] = {
 									["count"] = 1002,
 								},
-								["Melee"] = {
-									["count"] = 10799,
+								["Blood Plague (DoT)"] = {
+									["count"] = 3004,
 								},
 							},
 							["amount"] = 27631,
@@ -11584,14 +11584,14 @@ RecountPerCharDB = {
 								["Blood Plague (DoT)"] = {
 									["count"] = 4452,
 								},
-								["Frost Fever (DoT)"] = {
-									["count"] = 5434,
+								["Death Strike"] = {
+									["count"] = 1971,
 								},
 								["Plague Strike"] = {
 									["count"] = 8024,
 								},
-								["Death Strike"] = {
-									["count"] = 1971,
+								["Frost Fever (DoT)"] = {
+									["count"] = 5434,
 								},
 								["Blood Strike"] = {
 									["count"] = 1118,
@@ -11601,14 +11601,14 @@ RecountPerCharDB = {
 						},
 						["Commander Kolurg"] = {
 							["Details"] = {
-								["Melee"] = {
-									["count"] = 20975,
+								["Blood Plague (DoT)"] = {
+									["count"] = 4262,
 								},
 								["Death Strike"] = {
 									["count"] = 1940,
 								},
-								["Blood Plague (DoT)"] = {
-									["count"] = 4262,
+								["Melee"] = {
+									["count"] = 20975,
 								},
 								["Icy Touch"] = {
 									["count"] = 5468,
@@ -11619,31 +11619,31 @@ RecountPerCharDB = {
 								["Plague Strike"] = {
 									["count"] = 4044,
 								},
-								["Frost Fever (DoT)"] = {
-									["count"] = 4258,
-								},
 								["Retribution Aura"] = {
 									["count"] = 756,
+								},
+								["Frost Fever (DoT)"] = {
+									["count"] = 4258,
 								},
 							},
 							["amount"] = 45293,
 						},
 						["Ormorok the Tree-Shaper"] = {
 							["Details"] = {
-								["Blood Plague (DoT)"] = {
-									["count"] = 3464,
+								["Melee"] = {
+									["count"] = 21201,
 								},
 								["Death Strike"] = {
 									["count"] = 3879,
 								},
-								["Melee"] = {
-									["count"] = 21201,
+								["Blood Plague (DoT)"] = {
+									["count"] = 3464,
 								},
 								["Rune Strike"] = {
 									["count"] = 2720,
 								},
-								["Icy Touch"] = {
-									["count"] = 3099,
+								["Blood Strike"] = {
+									["count"] = 5880,
 								},
 								["Plague Strike"] = {
 									["count"] = 4227,
@@ -11651,8 +11651,8 @@ RecountPerCharDB = {
 								["Frost Fever (DoT)"] = {
 									["count"] = 2930,
 								},
-								["Blood Strike"] = {
-									["count"] = 5880,
+								["Icy Touch"] = {
+									["count"] = 3099,
 								},
 							},
 							["amount"] = 47400,
@@ -11674,14 +11674,14 @@ RecountPerCharDB = {
 								["Blood Plague (DoT)"] = {
 									["count"] = 2990,
 								},
-								["Frost Fever (DoT)"] = {
-									["count"] = 9139,
+								["Death Strike"] = {
+									["count"] = 1760,
 								},
 								["Plague Strike"] = {
 									["count"] = 2938,
 								},
-								["Death Strike"] = {
-									["count"] = 1760,
+								["Frost Fever (DoT)"] = {
+									["count"] = 9139,
 								},
 								["Icy Touch"] = {
 									["count"] = 10952,
@@ -11715,11 +11715,11 @@ RecountPerCharDB = {
 								["Plague Strike"] = {
 									["count"] = 3068,
 								},
-								["Frost Fever (DoT)"] = {
-									["count"] = 5651,
-								},
 								["Death Strike"] = {
 									["count"] = 1731,
+								},
+								["Frost Fever (DoT)"] = {
+									["count"] = 5651,
 								},
 							},
 							["amount"] = 46250,
@@ -11738,11 +11738,11 @@ RecountPerCharDB = {
 								["Melee"] = {
 									["count"] = 6336,
 								},
-								["Retribution Aura"] = {
-									["count"] = 446,
-								},
 								["Frost Fever (DoT)"] = {
 									["count"] = 1065,
+								},
+								["Retribution Aura"] = {
+									["count"] = 446,
 								},
 							},
 							["amount"] = 36824,
@@ -11769,20 +11769,20 @@ RecountPerCharDB = {
 						},
 						["Keristrasza"] = {
 							["Details"] = {
-								["Melee"] = {
-									["count"] = 17429,
+								["Blood Plague (DoT)"] = {
+									["count"] = 5659,
 								},
 								["Death Strike"] = {
 									["count"] = 3462,
 								},
-								["Blood Plague (DoT)"] = {
-									["count"] = 5659,
+								["Melee"] = {
+									["count"] = 17429,
 								},
 								["Rune Strike"] = {
 									["count"] = 11267,
 								},
-								["Icy Touch"] = {
-									["count"] = 8350,
+								["Blood Strike"] = {
+									["count"] = 7131,
 								},
 								["Plague Strike"] = {
 									["count"] = 5935,
@@ -11790,8 +11790,8 @@ RecountPerCharDB = {
 								["Frost Fever (DoT)"] = {
 									["count"] = 4497,
 								},
-								["Blood Strike"] = {
-									["count"] = 7131,
+								["Icy Touch"] = {
+									["count"] = 8350,
 								},
 							},
 							["amount"] = 63730,
@@ -11819,11 +11819,11 @@ RecountPerCharDB = {
 								["Plague Strike"] = {
 									["count"] = 1713,
 								},
-								["Death Strike"] = {
-									["count"] = 1800,
-								},
 								["Frost Fever (DoT)"] = {
 									["count"] = 5352,
+								},
+								["Death Strike"] = {
+									["count"] = 1800,
 								},
 							},
 							["amount"] = 56142,
@@ -11868,14 +11868,14 @@ RecountPerCharDB = {
 								["Blood Plague (DoT)"] = {
 									["count"] = 2359,
 								},
-								["Frost Fever (DoT)"] = {
-									["count"] = 3033,
+								["Death Strike"] = {
+									["count"] = 1920,
 								},
 								["Plague Strike"] = {
 									["count"] = 4352,
 								},
-								["Death Strike"] = {
-									["count"] = 1920,
+								["Frost Fever (DoT)"] = {
+									["count"] = 3033,
 								},
 								["Icy Touch"] = {
 									["count"] = 6362,
@@ -11909,31 +11909,31 @@ RecountPerCharDB = {
 								["Plague Strike"] = {
 									["count"] = 9561,
 								},
-								["Death Strike"] = {
-									["count"] = 4284,
-								},
 								["Frost Fever (DoT)"] = {
 									["count"] = 4117,
+								},
+								["Death Strike"] = {
+									["count"] = 4284,
 								},
 							},
 							["amount"] = 76883,
 						},
 						["Horde Ranger"] = {
 							["Details"] = {
-								["Blood Plague (DoT)"] = {
-									["count"] = 636,
+								["Melee"] = {
+									["count"] = 13417,
 								},
 								["Frost Fever (DoT)"] = {
 									["count"] = 1678,
 								},
-								["Melee"] = {
-									["count"] = 13417,
+								["Blood Plague (DoT)"] = {
+									["count"] = 636,
 								},
 								["Death and Decay"] = {
 									["count"] = 2876,
 								},
-								["Icy Touch"] = {
-									["count"] = 4198,
+								["Blood Strike"] = {
+									["count"] = 1121,
 								},
 								["Plague Strike"] = {
 									["count"] = 4079,
@@ -11941,28 +11941,28 @@ RecountPerCharDB = {
 								["Retribution Aura"] = {
 									["count"] = 466,
 								},
-								["Blood Strike"] = {
-									["count"] = 1121,
+								["Icy Touch"] = {
+									["count"] = 4198,
 								},
 							},
 							["amount"] = 28471,
 						},
 						["Azure Enforcer"] = {
 							["Details"] = {
-								["Icy Touch"] = {
-									["count"] = 6183,
+								["Blood Strike"] = {
+									["count"] = 3492,
 								},
 								["Retribution Aura"] = {
 									["count"] = 1115,
 								},
-								["Melee"] = {
-									["count"] = 21545,
+								["Blood Plague (DoT)"] = {
+									["count"] = 5207,
 								},
 								["Rune Strike"] = {
 									["count"] = 5732,
 								},
-								["Blood Strike"] = {
-									["count"] = 3492,
+								["Icy Touch"] = {
+									["count"] = 6183,
 								},
 								["Plague Strike"] = {
 									["count"] = 5076,
@@ -11970,8 +11970,8 @@ RecountPerCharDB = {
 								["Frost Fever (DoT)"] = {
 									["count"] = 6377,
 								},
-								["Blood Plague (DoT)"] = {
-									["count"] = 5207,
+								["Melee"] = {
+									["count"] = 21545,
 								},
 							},
 							["amount"] = 54727,
@@ -11996,14 +11996,14 @@ RecountPerCharDB = {
 								["Blood Plague (DoT)"] = {
 									["count"] = 3667,
 								},
-								["Frost Fever (DoT)"] = {
-									["count"] = 4034,
+								["Death Strike"] = {
+									["count"] = 1694,
 								},
 								["Plague Strike"] = {
 									["count"] = 4008,
 								},
-								["Death Strike"] = {
-									["count"] = 1694,
+								["Frost Fever (DoT)"] = {
+									["count"] = 4034,
 								},
 								["Icy Touch"] = {
 									["count"] = 6504,
@@ -12013,17 +12013,17 @@ RecountPerCharDB = {
 						},
 						["Azure Warder"] = {
 							["Details"] = {
-								["Icy Touch"] = {
-									["count"] = 7467,
+								["Blood Strike"] = {
+									["count"] = 2420,
 								},
-								["Melee"] = {
-									["count"] = 12515,
+								["Blood Plague (DoT)"] = {
+									["count"] = 2331,
 								},
 								["Retribution Aura"] = {
 									["count"] = 255,
 								},
-								["Blood Strike"] = {
-									["count"] = 2420,
+								["Icy Touch"] = {
+									["count"] = 7467,
 								},
 								["Plague Strike"] = {
 									["count"] = 4704,
@@ -12031,8 +12031,8 @@ RecountPerCharDB = {
 								["Frost Fever (DoT)"] = {
 									["count"] = 3059,
 								},
-								["Blood Plague (DoT)"] = {
-									["count"] = 2331,
+								["Melee"] = {
+									["count"] = 12515,
 								},
 							},
 							["amount"] = 32751,
@@ -12074,17 +12074,17 @@ RecountPerCharDB = {
 								["Melee"] = {
 									["count"] = 7097,
 								},
-								["Arcane Trap Effect"] = {
-									["count"] = 1424,
+								["Arcane Explosion"] = {
+									["count"] = 2734,
 								},
 								["Frostbolt"] = {
 									["count"] = 8209,
 								},
-								["Arcane Explosion"] = {
-									["count"] = 2734,
-								},
 								["Cone of Cold"] = {
 									["count"] = 3599,
+								},
+								["Arcane Trap Effect"] = {
+									["count"] = 1424,
 								},
 							},
 							["amount"] = 25579,
@@ -12371,17 +12371,17 @@ RecountPerCharDB = {
 						},
 						["Jungee"] = {
 							["Details"] = {
-								["Improved Leader of the Pack"] = {
-									["count"] = 15.76,
-								},
 								["Rune Tap"] = {
 									["count"] = 7,
 								},
-								["Judgement of Light"] = {
-									["count"] = 29.65000000000001,
+								["Improved Leader of the Pack"] = {
+									["count"] = 15.76,
 								},
 								["Death Strike"] = {
 									["count"] = 2.47,
+								},
+								["Judgement of Light"] = {
+									["count"] = 29.65000000000001,
 								},
 							},
 							["amount"] = 54.88,
@@ -12396,18 +12396,6 @@ RecountPerCharDB = {
 						},
 					},
 					["OverHeals"] = {
-						["Improved Leader of the Pack"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 899,
-									["min"] = 32,
-									["count"] = 16,
-									["amount"] = 12060,
-								},
-							},
-							["count"] = 16,
-							["amount"] = 12060,
-						},
 						["Rune Tap"] = {
 							["Details"] = {
 								["Hit"] = {
@@ -12420,17 +12408,17 @@ RecountPerCharDB = {
 							["count"] = 4,
 							["amount"] = 12490,
 						},
-						["Judgement of Light"] = {
+						["Improved Leader of the Pack"] = {
 							["Details"] = {
 								["Tick"] = {
 									["max"] = 899,
-									["min"] = 84,
-									["count"] = 85,
-									["amount"] = 70763,
+									["min"] = 32,
+									["count"] = 16,
+									["amount"] = 12060,
 								},
 							},
-							["count"] = 85,
-							["amount"] = 70763,
+							["count"] = 16,
+							["amount"] = 12060,
 						},
 						["Death Strike"] = {
 							["Details"] = {
@@ -12443,6 +12431,18 @@ RecountPerCharDB = {
 							},
 							["count"] = 12,
 							["amount"] = 64491,
+						},
+						["Judgement of Light"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 899,
+									["min"] = 84,
+									["count"] = 85,
+									["amount"] = 70763,
+								},
+							},
+							["count"] = 85,
+							["amount"] = 70763,
 						},
 					},
 					["PartialResist"] = {
@@ -13607,18 +13607,6 @@ RecountPerCharDB = {
 					},
 					["Dispelled"] = 3,
 					["Heals"] = {
-						["Improved Leader of the Pack"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 899,
-									["min"] = 105,
-									["count"] = 18,
-									["amount"] = 14910,
-								},
-							},
-							["count"] = 18,
-							["amount"] = 14910,
-						},
 						["Rune Tap"] = {
 							["Details"] = {
 								["Hit"] = {
@@ -13631,17 +13619,17 @@ RecountPerCharDB = {
 							["count"] = 10,
 							["amount"] = 31650,
 						},
-						["Judgement of Light"] = {
+						["Improved Leader of the Pack"] = {
 							["Details"] = {
 								["Tick"] = {
 									["max"] = 899,
-									["min"] = 60,
-									["count"] = 41,
-									["amount"] = 30824,
+									["min"] = 105,
+									["count"] = 18,
+									["amount"] = 14910,
 								},
 							},
-							["count"] = 41,
-							["amount"] = 30824,
+							["count"] = 18,
+							["amount"] = 14910,
 						},
 						["Death Strike"] = {
 							["Details"] = {
@@ -13654,6 +13642,18 @@ RecountPerCharDB = {
 							},
 							["count"] = 5,
 							["amount"] = 16545,
+						},
+						["Judgement of Light"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 899,
+									["min"] = 60,
+									["count"] = 41,
+									["amount"] = 30824,
+								},
+							},
+							["count"] = 41,
+							["amount"] = 30824,
 						},
 					},
 					["RunicPowerGainedFrom"] = {
@@ -13670,25 +13670,25 @@ RecountPerCharDB = {
 						["Physical"] = 7807,
 						["Melee"] = 43390,
 						["Arcane"] = 25054,
-						["Fire"] = 10987,
 						["Frostfire"] = 3004,
+						["Fire"] = 10987,
 						["Frost"] = 7733,
 						["Shadow"] = 217,
 					},
 					["TimeSpent"] = {
 						["Jungee"] = {
 							["Details"] = {
-								["Improved Leader of the Pack"] = {
-									["count"] = 15.76,
-								},
 								["Rune Tap"] = {
 									["count"] = 7,
 								},
-								["Judgement of Light"] = {
-									["count"] = 29.65000000000001,
+								["Improved Leader of the Pack"] = {
+									["count"] = 15.76,
 								},
 								["Death Strike"] = {
 									["count"] = 2.47,
+								},
+								["Judgement of Light"] = {
+									["count"] = 29.65000000000001,
 								},
 							},
 							["amount"] = 54.88,
@@ -13707,31 +13707,31 @@ RecountPerCharDB = {
 								["Blood Plague (DoT)"] = {
 									["count"] = 0,
 								},
-								["Frost Fever (DoT)"] = {
-									["count"] = 13.96,
-								},
 								["Retribution Aura"] = {
 									["count"] = 0.63,
+								},
+								["Frost Fever (DoT)"] = {
+									["count"] = 13.96,
 								},
 							},
 							["amount"] = 34.66000000000001,
 						},
 						["Horde Ranger"] = {
 							["Details"] = {
-								["Blood Plague (DoT)"] = {
-									["count"] = 0,
+								["Melee"] = {
+									["count"] = 0.76,
 								},
 								["Frost Fever (DoT)"] = {
 									["count"] = 0.69,
 								},
-								["Melee"] = {
-									["count"] = 0.76,
+								["Blood Plague (DoT)"] = {
+									["count"] = 0,
 								},
 								["Death and Decay"] = {
 									["count"] = 0.9,
 								},
-								["Icy Touch"] = {
-									["count"] = 6.29,
+								["Blood Strike"] = {
+									["count"] = 0.08,
 								},
 								["Plague Strike"] = {
 									["count"] = 2.18,
@@ -13739,8 +13739,8 @@ RecountPerCharDB = {
 								["Retribution Aura"] = {
 									["count"] = 1.19,
 								},
-								["Blood Strike"] = {
-									["count"] = 0.08,
+								["Icy Touch"] = {
+									["count"] = 6.29,
 								},
 							},
 							["amount"] = 12.09,
@@ -13811,20 +13811,20 @@ RecountPerCharDB = {
 						},
 						["Keristrasza"] = {
 							["Details"] = {
-								["Melee"] = {
-									["count"] = 0.8,
+								["Blood Plague (DoT)"] = {
+									["count"] = 8.390000000000001,
 								},
 								["Death Strike"] = {
 									["count"] = 1.62,
 								},
-								["Blood Plague (DoT)"] = {
-									["count"] = 8.390000000000001,
+								["Melee"] = {
+									["count"] = 0.8,
 								},
 								["Rune Strike"] = {
 									["count"] = 1.29,
 								},
-								["Icy Touch"] = {
-									["count"] = 7.549999999999999,
+								["Blood Strike"] = {
+									["count"] = 2.38,
 								},
 								["Plague Strike"] = {
 									["count"] = 1.96,
@@ -13832,34 +13832,11 @@ RecountPerCharDB = {
 								["Frost Fever (DoT)"] = {
 									["count"] = 6.26,
 								},
-								["Blood Strike"] = {
-									["count"] = 2.38,
+								["Icy Touch"] = {
+									["count"] = 7.549999999999999,
 								},
 							},
 							["amount"] = 30.25,
-						},
-						["Crystalline Keeper"] = {
-							["Details"] = {
-								["Blood Plague (DoT)"] = {
-									["count"] = 5.270000000000001,
-								},
-								["Death and Decay"] = {
-									["count"] = 14.58,
-								},
-								["Icy Touch"] = {
-									["count"] = 3.11,
-								},
-								["Plague Strike"] = {
-									["count"] = 1.2,
-								},
-								["Frost Fever (DoT)"] = {
-									["count"] = 2.4,
-								},
-								["Melee"] = {
-									["count"] = 2.79,
-								},
-							},
-							["amount"] = 29.35,
 						},
 						["Horde Cleric"] = {
 							["Details"] = {
@@ -13875,34 +13852,60 @@ RecountPerCharDB = {
 								["Frost Fever (DoT)"] = {
 									["count"] = 0,
 								},
-								["Rune Strike"] = {
-									["count"] = 3.23,
+								["Plague Strike"] = {
+									["count"] = 0.12,
 								},
 								["Retribution Aura"] = {
 									["count"] = 3.5,
 								},
-								["Plague Strike"] = {
-									["count"] = 0.12,
+								["Rune Strike"] = {
+									["count"] = 3.23,
 								},
 							},
 							["amount"] = 7.92,
 						},
-						["Steward"] = {
+						["Azure Warder"] = {
 							["Details"] = {
 								["Blood Strike"] = {
-									["count"] = 0.85,
+									["count"] = 0.99,
+								},
+								["Blood Plague (DoT)"] = {
+									["count"] = 3.51,
+								},
+								["Retribution Aura"] = {
+									["count"] = 0.21,
+								},
+								["Icy Touch"] = {
+									["count"] = 6.89,
+								},
+								["Plague Strike"] = {
+									["count"] = 1.9,
+								},
+								["Frost Fever (DoT)"] = {
+									["count"] = 3.7,
+								},
+								["Melee"] = {
+									["count"] = 4.32,
+								},
+							},
+							["amount"] = 21.52,
+						},
+						["Steward"] = {
+							["Details"] = {
+								["Icy Touch"] = {
+									["count"] = 0.26,
 								},
 								["Frost Fever (DoT)"] = {
 									["count"] = 0,
 								},
-								["Blood Plague (DoT)"] = {
-									["count"] = 0.8099999999999999,
+								["Melee"] = {
+									["count"] = 2.41,
 								},
 								["Death and Decay"] = {
 									["count"] = 0,
 								},
-								["Icy Touch"] = {
-									["count"] = 0.26,
+								["Blood Strike"] = {
+									["count"] = 0.85,
 								},
 								["Plague Strike"] = {
 									["count"] = 0.73,
@@ -13910,8 +13913,8 @@ RecountPerCharDB = {
 								["Retribution Aura"] = {
 									["count"] = 2.01,
 								},
-								["Melee"] = {
-									["count"] = 2.41,
+								["Blood Plague (DoT)"] = {
+									["count"] = 0.8099999999999999,
 								},
 							},
 							["amount"] = 7.069999999999999,
@@ -13933,14 +13936,14 @@ RecountPerCharDB = {
 								["Blood Plague (DoT)"] = {
 									["count"] = 5.15,
 								},
-								["Frost Fever (DoT)"] = {
-									["count"] = 4.98,
+								["Death Strike"] = {
+									["count"] = 0,
 								},
 								["Plague Strike"] = {
 									["count"] = 6.38,
 								},
-								["Death Strike"] = {
-									["count"] = 0,
+								["Frost Fever (DoT)"] = {
+									["count"] = 4.98,
 								},
 								["Blood Strike"] = {
 									["count"] = 0.37,
@@ -13950,14 +13953,14 @@ RecountPerCharDB = {
 						},
 						["Commander Kolurg"] = {
 							["Details"] = {
-								["Melee"] = {
-									["count"] = 4.29,
+								["Blood Plague (DoT)"] = {
+									["count"] = 6.179999999999999,
 								},
 								["Death Strike"] = {
 									["count"] = 0.12,
 								},
-								["Blood Plague (DoT)"] = {
-									["count"] = 6.179999999999999,
+								["Melee"] = {
+									["count"] = 4.29,
 								},
 								["Icy Touch"] = {
 									["count"] = 0.9,
@@ -13968,31 +13971,31 @@ RecountPerCharDB = {
 								["Plague Strike"] = {
 									["count"] = 2.4,
 								},
-								["Frost Fever (DoT)"] = {
-									["count"] = 7.020000000000001,
-								},
 								["Retribution Aura"] = {
 									["count"] = 1.49,
+								},
+								["Frost Fever (DoT)"] = {
+									["count"] = 7.020000000000001,
 								},
 							},
 							["amount"] = 23.4,
 						},
 						["Ormorok the Tree-Shaper"] = {
 							["Details"] = {
-								["Blood Plague (DoT)"] = {
-									["count"] = 4.800000000000001,
+								["Melee"] = {
+									["count"] = 4.6,
 								},
 								["Death Strike"] = {
 									["count"] = 0.52,
 								},
-								["Melee"] = {
-									["count"] = 4.6,
+								["Blood Plague (DoT)"] = {
+									["count"] = 4.800000000000001,
 								},
 								["Rune Strike"] = {
 									["count"] = 2.08,
 								},
-								["Icy Touch"] = {
-									["count"] = 4.37,
+								["Blood Strike"] = {
+									["count"] = 2.51,
 								},
 								["Plague Strike"] = {
 									["count"] = 1.68,
@@ -14000,28 +14003,28 @@ RecountPerCharDB = {
 								["Frost Fever (DoT)"] = {
 									["count"] = 2.44,
 								},
-								["Blood Strike"] = {
-									["count"] = 2.51,
+								["Icy Touch"] = {
+									["count"] = 4.37,
 								},
 							},
 							["amount"] = 23,
 						},
 						["Azure Enforcer"] = {
 							["Details"] = {
-								["Icy Touch"] = {
-									["count"] = 4.420000000000001,
+								["Blood Strike"] = {
+									["count"] = 0.1,
 								},
 								["Retribution Aura"] = {
 									["count"] = 1.69,
 								},
-								["Melee"] = {
-									["count"] = 5.600000000000001,
+								["Blood Plague (DoT)"] = {
+									["count"] = 5.310000000000001,
 								},
 								["Rune Strike"] = {
 									["count"] = 1.37,
 								},
-								["Blood Strike"] = {
-									["count"] = 0.1,
+								["Icy Touch"] = {
+									["count"] = 4.420000000000001,
 								},
 								["Plague Strike"] = {
 									["count"] = 3.13,
@@ -14029,8 +14032,8 @@ RecountPerCharDB = {
 								["Frost Fever (DoT)"] = {
 									["count"] = 3.14,
 								},
-								["Blood Plague (DoT)"] = {
-									["count"] = 5.310000000000001,
+								["Melee"] = {
+									["count"] = 5.600000000000001,
 								},
 							},
 							["amount"] = 24.76,
@@ -14060,14 +14063,14 @@ RecountPerCharDB = {
 								["Blood Plague (DoT)"] = {
 									["count"] = 2.6,
 								},
-								["Frost Fever (DoT)"] = {
-									["count"] = 18.17,
+								["Death Strike"] = {
+									["count"] = 0,
 								},
 								["Plague Strike"] = {
 									["count"] = 2.04,
 								},
-								["Death Strike"] = {
-									["count"] = 0,
+								["Frost Fever (DoT)"] = {
+									["count"] = 18.17,
 								},
 								["Icy Touch"] = {
 									["count"] = 4.810000000000001,
@@ -14101,11 +14104,11 @@ RecountPerCharDB = {
 								["Plague Strike"] = {
 									["count"] = 3.07,
 								},
-								["Frost Fever (DoT)"] = {
-									["count"] = 2.29,
-								},
 								["Death Strike"] = {
 									["count"] = 0,
+								},
+								["Frost Fever (DoT)"] = {
+									["count"] = 2.29,
 								},
 							},
 							["amount"] = 22.89000000000001,
@@ -14124,11 +14127,11 @@ RecountPerCharDB = {
 								["Melee"] = {
 									["count"] = 2.01,
 								},
-								["Retribution Aura"] = {
-									["count"] = 0.47,
-								},
 								["Frost Fever (DoT)"] = {
 									["count"] = 0,
+								},
+								["Retribution Aura"] = {
+									["count"] = 0.47,
 								},
 							},
 							["amount"] = 11.63,
@@ -14156,11 +14159,11 @@ RecountPerCharDB = {
 								["Plague Strike"] = {
 									["count"] = 0.61,
 								},
-								["Death Strike"] = {
-									["count"] = 1.84,
-								},
 								["Frost Fever (DoT)"] = {
 									["count"] = 0.22,
+								},
+								["Death Strike"] = {
+									["count"] = 1.84,
 								},
 							},
 							["amount"] = 13.9,
@@ -14245,11 +14248,11 @@ RecountPerCharDB = {
 								["Plague Strike"] = {
 									["count"] = 5.539999999999999,
 								},
-								["Death Strike"] = {
-									["count"] = 0.27,
-								},
 								["Frost Fever (DoT)"] = {
 									["count"] = 3.7,
+								},
+								["Death Strike"] = {
+									["count"] = 0.27,
 								},
 							},
 							["amount"] = 41.61999999999998,
@@ -14291,14 +14294,14 @@ RecountPerCharDB = {
 								["Blood Plague (DoT)"] = {
 									["count"] = 2.86,
 								},
-								["Frost Fever (DoT)"] = {
-									["count"] = 1.35,
+								["Death Strike"] = {
+									["count"] = 0,
 								},
 								["Plague Strike"] = {
 									["count"] = 1.53,
 								},
-								["Death Strike"] = {
-									["count"] = 0,
+								["Frost Fever (DoT)"] = {
+									["count"] = 1.35,
 								},
 								["Blood Strike"] = {
 									["count"] = 1.42,
@@ -14322,31 +14325,28 @@ RecountPerCharDB = {
 							},
 							["amount"] = 0,
 						},
-						["Azure Warder"] = {
+						["Crystalline Keeper"] = {
 							["Details"] = {
+								["Blood Plague (DoT)"] = {
+									["count"] = 5.270000000000001,
+								},
+								["Death and Decay"] = {
+									["count"] = 14.58,
+								},
 								["Icy Touch"] = {
-									["count"] = 6.89,
-								},
-								["Melee"] = {
-									["count"] = 4.32,
-								},
-								["Retribution Aura"] = {
-									["count"] = 0.21,
-								},
-								["Blood Strike"] = {
-									["count"] = 0.99,
+									["count"] = 3.11,
 								},
 								["Plague Strike"] = {
-									["count"] = 1.9,
+									["count"] = 1.2,
 								},
 								["Frost Fever (DoT)"] = {
-									["count"] = 3.7,
+									["count"] = 2.4,
 								},
-								["Blood Plague (DoT)"] = {
-									["count"] = 3.51,
+								["Melee"] = {
+									["count"] = 2.79,
 								},
 							},
-							["amount"] = 21.52,
+							["amount"] = 29.35,
 						},
 						["Horde Berserker"] = {
 							["Details"] = {
@@ -14368,14 +14368,14 @@ RecountPerCharDB = {
 								["Blood Plague (DoT)"] = {
 									["count"] = 5.989999999999999,
 								},
-								["Frost Fever (DoT)"] = {
-									["count"] = 7.65,
+								["Death Strike"] = {
+									["count"] = 0.12,
 								},
 								["Plague Strike"] = {
 									["count"] = 2,
 								},
-								["Death Strike"] = {
-									["count"] = 0.12,
+								["Frost Fever (DoT)"] = {
+									["count"] = 7.65,
 								},
 								["Icy Touch"] = {
 									["count"] = 5.329999999999999,
@@ -14420,17 +14420,17 @@ RecountPerCharDB = {
 						},
 						["Jungee"] = {
 							["Details"] = {
-								["Improved Leader of the Pack"] = {
-									["count"] = 14910,
-								},
 								["Rune Tap"] = {
 									["count"] = 11441,
 								},
-								["Judgement of Light"] = {
-									["count"] = 30824,
+								["Improved Leader of the Pack"] = {
+									["count"] = 14910,
 								},
 								["Death Strike"] = {
 									["count"] = 16545,
+								},
+								["Judgement of Light"] = {
+									["count"] = 30824,
 								},
 							},
 							["amount"] = 73720,
@@ -14687,11 +14687,11 @@ RecountPerCharDB = {
 								["Blood Plague (DoT)"] = {
 									["count"] = 0,
 								},
-								["Frost Fever (DoT)"] = {
-									["count"] = 13.96,
-								},
 								["Retribution Aura"] = {
 									["count"] = 0.63,
+								},
+								["Frost Fever (DoT)"] = {
+									["count"] = 13.96,
 								},
 							},
 							["amount"] = 34.66000000000001,
@@ -14713,14 +14713,14 @@ RecountPerCharDB = {
 								["Blood Plague (DoT)"] = {
 									["count"] = 2.86,
 								},
-								["Frost Fever (DoT)"] = {
-									["count"] = 1.35,
+								["Death Strike"] = {
+									["count"] = 0,
 								},
 								["Plague Strike"] = {
 									["count"] = 1.53,
 								},
-								["Death Strike"] = {
-									["count"] = 0,
+								["Frost Fever (DoT)"] = {
+									["count"] = 1.35,
 								},
 								["Blood Strike"] = {
 									["count"] = 1.42,
@@ -14806,34 +14806,34 @@ RecountPerCharDB = {
 								["Frost Fever (DoT)"] = {
 									["count"] = 0,
 								},
-								["Rune Strike"] = {
-									["count"] = 3.23,
+								["Plague Strike"] = {
+									["count"] = 0.12,
 								},
 								["Retribution Aura"] = {
 									["count"] = 3.5,
 								},
-								["Plague Strike"] = {
-									["count"] = 0.12,
+								["Rune Strike"] = {
+									["count"] = 3.23,
 								},
 							},
 							["amount"] = 7.92,
 						},
 						["Steward"] = {
 							["Details"] = {
-								["Blood Strike"] = {
-									["count"] = 0.85,
+								["Icy Touch"] = {
+									["count"] = 0.26,
 								},
 								["Frost Fever (DoT)"] = {
 									["count"] = 0,
 								},
-								["Blood Plague (DoT)"] = {
-									["count"] = 0.8099999999999999,
+								["Melee"] = {
+									["count"] = 2.41,
 								},
 								["Death and Decay"] = {
 									["count"] = 0,
 								},
-								["Icy Touch"] = {
-									["count"] = 0.26,
+								["Blood Strike"] = {
+									["count"] = 0.85,
 								},
 								["Plague Strike"] = {
 									["count"] = 0.73,
@@ -14841,8 +14841,8 @@ RecountPerCharDB = {
 								["Retribution Aura"] = {
 									["count"] = 2.01,
 								},
-								["Melee"] = {
-									["count"] = 2.41,
+								["Blood Plague (DoT)"] = {
+									["count"] = 0.8099999999999999,
 								},
 							},
 							["amount"] = 7.069999999999999,
@@ -14864,14 +14864,14 @@ RecountPerCharDB = {
 								["Blood Plague (DoT)"] = {
 									["count"] = 5.15,
 								},
-								["Frost Fever (DoT)"] = {
-									["count"] = 4.98,
+								["Death Strike"] = {
+									["count"] = 0,
 								},
 								["Plague Strike"] = {
 									["count"] = 6.38,
 								},
-								["Death Strike"] = {
-									["count"] = 0,
+								["Frost Fever (DoT)"] = {
+									["count"] = 4.98,
 								},
 								["Blood Strike"] = {
 									["count"] = 0.37,
@@ -14881,14 +14881,14 @@ RecountPerCharDB = {
 						},
 						["Commander Kolurg"] = {
 							["Details"] = {
-								["Melee"] = {
-									["count"] = 4.29,
+								["Blood Plague (DoT)"] = {
+									["count"] = 6.179999999999999,
 								},
 								["Death Strike"] = {
 									["count"] = 0.12,
 								},
-								["Blood Plague (DoT)"] = {
-									["count"] = 6.179999999999999,
+								["Melee"] = {
+									["count"] = 4.29,
 								},
 								["Icy Touch"] = {
 									["count"] = 0.9,
@@ -14899,31 +14899,31 @@ RecountPerCharDB = {
 								["Plague Strike"] = {
 									["count"] = 2.4,
 								},
-								["Frost Fever (DoT)"] = {
-									["count"] = 7.020000000000001,
-								},
 								["Retribution Aura"] = {
 									["count"] = 1.49,
+								},
+								["Frost Fever (DoT)"] = {
+									["count"] = 7.020000000000001,
 								},
 							},
 							["amount"] = 23.4,
 						},
 						["Ormorok the Tree-Shaper"] = {
 							["Details"] = {
-								["Blood Plague (DoT)"] = {
-									["count"] = 4.800000000000001,
+								["Melee"] = {
+									["count"] = 4.6,
 								},
 								["Death Strike"] = {
 									["count"] = 0.52,
 								},
-								["Melee"] = {
-									["count"] = 4.6,
+								["Blood Plague (DoT)"] = {
+									["count"] = 4.800000000000001,
 								},
 								["Rune Strike"] = {
 									["count"] = 2.08,
 								},
-								["Icy Touch"] = {
-									["count"] = 4.37,
+								["Blood Strike"] = {
+									["count"] = 2.51,
 								},
 								["Plague Strike"] = {
 									["count"] = 1.68,
@@ -14931,8 +14931,8 @@ RecountPerCharDB = {
 								["Frost Fever (DoT)"] = {
 									["count"] = 2.44,
 								},
-								["Blood Strike"] = {
-									["count"] = 2.51,
+								["Icy Touch"] = {
+									["count"] = 4.37,
 								},
 							},
 							["amount"] = 23,
@@ -14954,14 +14954,14 @@ RecountPerCharDB = {
 								["Blood Plague (DoT)"] = {
 									["count"] = 2.6,
 								},
-								["Frost Fever (DoT)"] = {
-									["count"] = 18.17,
+								["Death Strike"] = {
+									["count"] = 0,
 								},
 								["Plague Strike"] = {
 									["count"] = 2.04,
 								},
-								["Death Strike"] = {
-									["count"] = 0,
+								["Frost Fever (DoT)"] = {
+									["count"] = 18.17,
 								},
 								["Icy Touch"] = {
 									["count"] = 4.810000000000001,
@@ -14995,11 +14995,11 @@ RecountPerCharDB = {
 								["Plague Strike"] = {
 									["count"] = 3.07,
 								},
-								["Frost Fever (DoT)"] = {
-									["count"] = 2.29,
-								},
 								["Death Strike"] = {
 									["count"] = 0,
+								},
+								["Frost Fever (DoT)"] = {
+									["count"] = 2.29,
 								},
 							},
 							["amount"] = 22.89000000000001,
@@ -15018,11 +15018,11 @@ RecountPerCharDB = {
 								["Melee"] = {
 									["count"] = 2.01,
 								},
-								["Retribution Aura"] = {
-									["count"] = 0.47,
-								},
 								["Frost Fever (DoT)"] = {
 									["count"] = 0,
+								},
+								["Retribution Aura"] = {
+									["count"] = 0.47,
 								},
 							},
 							["amount"] = 11.63,
@@ -15049,20 +15049,20 @@ RecountPerCharDB = {
 						},
 						["Keristrasza"] = {
 							["Details"] = {
-								["Melee"] = {
-									["count"] = 0.8,
+								["Blood Plague (DoT)"] = {
+									["count"] = 8.390000000000001,
 								},
 								["Death Strike"] = {
 									["count"] = 1.62,
 								},
-								["Blood Plague (DoT)"] = {
-									["count"] = 8.390000000000001,
+								["Melee"] = {
+									["count"] = 0.8,
 								},
 								["Rune Strike"] = {
 									["count"] = 1.29,
 								},
-								["Icy Touch"] = {
-									["count"] = 7.549999999999999,
+								["Blood Strike"] = {
+									["count"] = 2.38,
 								},
 								["Plague Strike"] = {
 									["count"] = 1.96,
@@ -15070,8 +15070,8 @@ RecountPerCharDB = {
 								["Frost Fever (DoT)"] = {
 									["count"] = 6.26,
 								},
-								["Blood Strike"] = {
-									["count"] = 2.38,
+								["Icy Touch"] = {
+									["count"] = 7.549999999999999,
 								},
 							},
 							["amount"] = 30.25,
@@ -15099,11 +15099,11 @@ RecountPerCharDB = {
 								["Plague Strike"] = {
 									["count"] = 0.61,
 								},
-								["Death Strike"] = {
-									["count"] = 1.84,
-								},
 								["Frost Fever (DoT)"] = {
 									["count"] = 0.22,
+								},
+								["Death Strike"] = {
+									["count"] = 1.84,
 								},
 							},
 							["amount"] = 13.9,
@@ -15195,31 +15195,31 @@ RecountPerCharDB = {
 								["Plague Strike"] = {
 									["count"] = 5.539999999999999,
 								},
-								["Death Strike"] = {
-									["count"] = 0.27,
-								},
 								["Frost Fever (DoT)"] = {
 									["count"] = 3.7,
+								},
+								["Death Strike"] = {
+									["count"] = 0.27,
 								},
 							},
 							["amount"] = 41.61999999999998,
 						},
 						["Horde Ranger"] = {
 							["Details"] = {
-								["Blood Plague (DoT)"] = {
-									["count"] = 0,
+								["Melee"] = {
+									["count"] = 0.76,
 								},
 								["Frost Fever (DoT)"] = {
 									["count"] = 0.69,
 								},
-								["Melee"] = {
-									["count"] = 0.76,
+								["Blood Plague (DoT)"] = {
+									["count"] = 0,
 								},
 								["Death and Decay"] = {
 									["count"] = 0.9,
 								},
-								["Icy Touch"] = {
-									["count"] = 6.29,
+								["Blood Strike"] = {
+									["count"] = 0.08,
 								},
 								["Plague Strike"] = {
 									["count"] = 2.18,
@@ -15227,28 +15227,28 @@ RecountPerCharDB = {
 								["Retribution Aura"] = {
 									["count"] = 1.19,
 								},
-								["Blood Strike"] = {
-									["count"] = 0.08,
+								["Icy Touch"] = {
+									["count"] = 6.29,
 								},
 							},
 							["amount"] = 12.09,
 						},
 						["Azure Enforcer"] = {
 							["Details"] = {
-								["Icy Touch"] = {
-									["count"] = 4.420000000000001,
+								["Blood Strike"] = {
+									["count"] = 0.1,
 								},
 								["Retribution Aura"] = {
 									["count"] = 1.69,
 								},
-								["Melee"] = {
-									["count"] = 5.600000000000001,
+								["Blood Plague (DoT)"] = {
+									["count"] = 5.310000000000001,
 								},
 								["Rune Strike"] = {
 									["count"] = 1.37,
 								},
-								["Blood Strike"] = {
-									["count"] = 0.1,
+								["Icy Touch"] = {
+									["count"] = 4.420000000000001,
 								},
 								["Plague Strike"] = {
 									["count"] = 3.13,
@@ -15256,8 +15256,8 @@ RecountPerCharDB = {
 								["Frost Fever (DoT)"] = {
 									["count"] = 3.14,
 								},
-								["Blood Plague (DoT)"] = {
-									["count"] = 5.310000000000001,
+								["Melee"] = {
+									["count"] = 5.600000000000001,
 								},
 							},
 							["amount"] = 24.76,
@@ -15282,14 +15282,14 @@ RecountPerCharDB = {
 								["Blood Plague (DoT)"] = {
 									["count"] = 5.989999999999999,
 								},
-								["Frost Fever (DoT)"] = {
-									["count"] = 7.65,
+								["Death Strike"] = {
+									["count"] = 0.12,
 								},
 								["Plague Strike"] = {
 									["count"] = 2,
 								},
-								["Death Strike"] = {
-									["count"] = 0.12,
+								["Frost Fever (DoT)"] = {
+									["count"] = 7.65,
 								},
 								["Icy Touch"] = {
 									["count"] = 5.329999999999999,
@@ -15299,17 +15299,17 @@ RecountPerCharDB = {
 						},
 						["Azure Warder"] = {
 							["Details"] = {
-								["Icy Touch"] = {
-									["count"] = 6.89,
+								["Blood Strike"] = {
+									["count"] = 0.99,
 								},
-								["Melee"] = {
-									["count"] = 4.32,
+								["Blood Plague (DoT)"] = {
+									["count"] = 3.51,
 								},
 								["Retribution Aura"] = {
 									["count"] = 0.21,
 								},
-								["Blood Strike"] = {
-									["count"] = 0.99,
+								["Icy Touch"] = {
+									["count"] = 6.89,
 								},
 								["Plague Strike"] = {
 									["count"] = 1.9,
@@ -15317,8 +15317,8 @@ RecountPerCharDB = {
 								["Frost Fever (DoT)"] = {
 									["count"] = 3.7,
 								},
-								["Blood Plague (DoT)"] = {
-									["count"] = 3.51,
+								["Melee"] = {
+									["count"] = 4.32,
 								},
 							},
 							["amount"] = 21.52,
@@ -15479,11 +15479,11 @@ RecountPerCharDB = {
 				"33553 (99%)", -- [45]
 				"32053 (94%)", -- [46]
 				"33444 (99%)", -- [47]
-				"17393 (51%)", -- [48]
+				"25512 (79%)", -- [48]
 				"17731 (52%)", -- [49]
 				"17798 (52%)", -- [50]
 			},
-			["LastAttackedBy"] = "Keristrasza",
+			["LastAttackedBy"] = "Environment",
 			["LastEventType"] = {
 				"DAMAGE", -- [1]
 				"HEAL", -- [2]
@@ -15540,17 +15540,17 @@ RecountPerCharDB = {
 				["TimeHeal"] = {
 					188.82, -- [1]
 				},
-				["HOT_Time"] = {
-					2298, -- [1]
+				["Overhealing"] = {
+					128383, -- [1]
 				},
 				["Healing"] = {
 					135705, -- [1]
 				},
 				["DamageTaken"] = {
-					350042, -- [1]
+					356927, -- [1]
 				},
-				["FDamage"] = {
-					14313, -- [1]
+				["HOT_Time"] = {
+					2298, -- [1]
 				},
 				["Interrupts"] = {
 					7, -- [1]
@@ -15558,8 +15558,8 @@ RecountPerCharDB = {
 				["HealingTaken"] = {
 					345435, -- [1]
 				},
-				["Overhealing"] = {
-					128383, -- [1]
+				["FDamage"] = {
+					14313, -- [1]
 				},
 				["TimeDamage"] = {
 					383.47, -- [1]
@@ -15579,7 +15579,7 @@ RecountPerCharDB = {
 			},
 			["enClass"] = "DEATHKNIGHT",
 			["unit"] = "Urgash",
-			["LastAbility"] = 1306.632,
+			["LastAbility"] = 4982.039,
 			["LastEventTimes"] = {
 				4009.087, -- [1]
 				4009.088, -- [2]
@@ -15628,52 +15628,47 @@ RecountPerCharDB = {
 				4015.232, -- [45]
 				4015.357, -- [46]
 				4015.595, -- [47]
-				4008.251, -- [48]
+				4952.182, -- [48]
 				4009.085, -- [49]
 				4009.087, -- [50]
 			},
 			["level"] = 80,
-			["LastDamageAbility"] = "Crystalfire Breath (DoT)",
-			["LastFightIn"] = 6,
+			["LastDamageAbility"] = "Falling",
+			["LastFightIn"] = 7,
 			["LastEventNum"] = {
 				nil, -- [1]
 				2.094938959345739, -- [2]
 				2.094938959345739, -- [3]
 				nil, -- [4]
 				0.005926277112717791, -- [5]
-				nil, -- [6]
-				nil, -- [7]
-				4.444707834538343, -- [8]
-				0.8978309825767453, -- [9]
-				nil, -- [10]
-				0.2370510845087116, -- [11]
-				nil, -- [12]
-				0.3348346568685552, -- [13]
-				2.094938959345739, -- [14]
-				nil, -- [15]
-				4.444707834538343, -- [16]
-				0.989688277823871, -- [17]
-				0.1955671447196871, -- [18]
-				2.094938959345739, -- [19]
-				[21] = 2.094938959345739,
-				[23] = 0.2222353917269171,
-				[26] = 0.5007704160246533,
+				[14] = 2.094938959345739,
 				[29] = 55.88775631148513,
 				[30] = 0.3822448737702975,
 				[31] = 4.444707834538343,
-				[32] = 1.043024771838331,
-				[33] = 0.1629726205997392,
-				[34] = 2.094938959345739,
-				[45] = 0.5778120184899847,
-				[47] = 4.121725731895223,
-				[49] = 1.001540832049307,
+				[16] = 4.444707834538343,
+				[8] = 4.444707834538343,
+				[17] = 0.989688277823871,
+				[18] = 0.1955671447196871,
+				[9] = 0.8978309825767453,
+				[19] = 2.094938959345739,
 				[42] = 0.708190114969776,
-				[46] = 4.444707834538343,
-				[48] = 3.063885267275098,
-				[50] = 0.198530283276046,
-				[37] = 2.094938959345739,
 				[41] = 0.3407609339812729,
+				[21] = 2.094938959345739,
 				[43] = 2.094938959345739,
+				[46] = 4.444707834538343,
+				[11] = 0.2370510845087116,
+				[23] = 0.2222353917269171,
+				[47] = 4.121725731895223,
+				[48] = 21.42123767150991,
+				[49] = 1.001540832049307,
+				[50] = 0.198530283276046,
+				[45] = 0.5778120184899847,
+				[26] = 0.5007704160246533,
+				[13] = 0.3348346568685552,
+				[37] = 2.094938959345739,
+				[34] = 2.094938959345739,
+				[33] = 0.1629726205997392,
+				[32] = 1.043024771838331,
 			},
 			["type"] = "Self",
 			["FightsSaved"] = 5,
@@ -15689,16 +15684,16 @@ RecountPerCharDB = {
 			},
 			["TimeLast"] = {
 				["TimeHeal"] = 1619545136,
-				["OVERALL"] = 1619545137,
-				["Overhealing"] = 1619545136,
-				["Healing"] = 1619545136,
-				["DamageTaken"] = 1619545137,
-				["FDamage"] = 1619544963,
-				["TimeDamage"] = 1619545136,
-				["HealingTaken"] = 1619545137,
+				["OVERALL"] = 1621774476,
 				["HOT_Time"] = 1619545136,
+				["Healing"] = 1619545136,
+				["DamageTaken"] = 1621774476,
+				["Overhealing"] = 1619545136,
 				["ActiveTime"] = 1619545136,
+				["HealingTaken"] = 1619545137,
+				["FDamage"] = 1619544963,
 				["Interrupts"] = 1619545055,
+				["TimeDamage"] = 1619545136,
 				["RunicPowerGain"] = 1619545109,
 				["DOT_Time"] = 1619545135,
 				["Damage"] = 1619545136,
@@ -15708,7 +15703,7 @@ RecountPerCharDB = {
 				"Casketbasher <Urgash>", -- [1]
 				"Ebon Gargoyle <Urgash>", -- [2]
 			},
-			["NextEventNum"] = 48,
+			["NextEventNum"] = 49,
 			["LastEventHealthNum"] = {
 				52.73794002607562, -- [1]
 				54.83287898542136, -- [2]
@@ -15757,7 +15752,7 @@ RecountPerCharDB = {
 				99.42218798151002, -- [45]
 				94.97748014697167, -- [46]
 				99.0992058788669, -- [47]
-				51.53786891075027, -- [48]
+				79.37525279238356, -- [48]
 				52.53940974279957, -- [49]
 				52.73794002607562, -- [50]
 			},
@@ -15809,7 +15804,7 @@ RecountPerCharDB = {
 				"No One Intense Cold (DoT) Urgash Tick -195 (83 resisted) (Frost)", -- [45]
 				"Keristrasza Crystalfire Breath (DoT) Urgash Tick -1500 (Frostfire)", -- [46]
 				"Bigepapa Glyph of Holy Light Urgash Hit +1391", -- [47]
-				"No One Intense Cold (DoT) Urgash Tick -1034 (258 resisted) (Frost)", -- [48]
+				"Environment Falling Urgash Hit -6885 (Physical)", -- [48]
 				"Urgash Blood Presence Urgash Tick +338", -- [49]
 				"Urgash Blood Presence Urgash Tick +67", -- [50]
 			},
@@ -15866,7 +15861,7 @@ RecountPerCharDB = {
 				true, -- [49]
 				true, -- [50]
 			},
-			["LastDamageTaken"] = 1500,
+			["LastDamageTaken"] = 6885,
 			["Fights"] = {
 				["Fight3"] = {
 					["DOTs"] = {
@@ -15948,32 +15943,15 @@ RecountPerCharDB = {
 					},
 					["DeathCount"] = 0,
 					["HOT_Time"] = 123,
-					["ElementTakenBlock"] = {
-					},
+					["Damage"] = 256553,
 					["RunicPowerGain"] = 0,
 					["ElementTaken"] = {
 						["Melee"] = 10409,
 						["Frost"] = 10006,
 					},
-					["HOTs"] = {
-						["Improved Leader of the Pack"] = {
-							["Details"] = {
-								["Urgash"] = {
-									["count"] = 9,
-								},
-							},
-							["amount"] = 9,
-						},
-						["Blood Presence"] = {
-							["Details"] = {
-								["Urgash"] = {
-									["count"] = 114,
-								},
-							},
-							["amount"] = 114,
-						},
+					["DOT_Time"] = 54,
+					["ElementTakenBlock"] = {
 					},
-					["Damage"] = 256553,
 					["ElementDoneAbsorb"] = {
 					},
 					["TimeHeal"] = 13.75,
@@ -15981,6 +15959,76 @@ RecountPerCharDB = {
 					},
 					["Dispels"] = 0,
 					["PartialBlock"] = {
+					},
+					["ElementHitsDone"] = {
+						["Frost"] = {
+							["Details"] = {
+								["Tick"] = {
+									["count"] = 8,
+								},
+								["Hit"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 9,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 2,
+								},
+								["Crit"] = {
+									["count"] = 4,
+								},
+								["Dodge"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 7,
+						},
+						["Physical"] = {
+							["Details"] = {
+								["Crit"] = {
+									["count"] = 4,
+								},
+								["Hit"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 5,
+						},
+						["Holy"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 5,
+								},
+							},
+							["amount"] = 5,
+						},
+						["Shadow"] = {
+							["Details"] = {
+								["Tick"] = {
+									["count"] = 10,
+								},
+								["Crit"] = {
+									["count"] = 21,
+								},
+								["Hit"] = {
+									["count"] = 83,
+								},
+							},
+							["amount"] = 114,
+						},
+					},
+					["FAttacks"] = {
+					},
+					["HealingTaken"] = 24578,
+					["ElementDone"] = {
+						["Frost"] = 17765,
+						["Melee"] = 39188,
+						["Physical"] = 41739,
+						["Shadow"] = 157112,
+						["Holy"] = 749,
 					},
 					["DamagedWho"] = {
 						["Steward"] = {
@@ -16127,79 +16175,9 @@ RecountPerCharDB = {
 							["amount"] = 98049,
 						},
 					},
-					["FAttacks"] = {
-					},
-					["HealingTaken"] = 24578,
-					["ElementDone"] = {
-						["Frost"] = 17765,
-						["Melee"] = 39188,
-						["Physical"] = 41739,
-						["Shadow"] = 157112,
-						["Holy"] = 749,
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementHitsDone"] = {
-						["Frost"] = {
-							["Details"] = {
-								["Tick"] = {
-									["count"] = 8,
-								},
-								["Hit"] = {
-									["count"] = 1,
-								},
-							},
-							["amount"] = 9,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 2,
-								},
-								["Crit"] = {
-									["count"] = 4,
-								},
-								["Dodge"] = {
-									["count"] = 1,
-								},
-							},
-							["amount"] = 7,
-						},
-						["Physical"] = {
-							["Details"] = {
-								["Crit"] = {
-									["count"] = 4,
-								},
-								["Hit"] = {
-									["count"] = 1,
-								},
-							},
-							["amount"] = 5,
-						},
-						["Holy"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 5,
-								},
-							},
-							["amount"] = 5,
-						},
-						["Shadow"] = {
-							["Details"] = {
-								["Tick"] = {
-									["count"] = 10,
-								},
-								["Crit"] = {
-									["count"] = 21,
-								},
-								["Hit"] = {
-									["count"] = 83,
-								},
-							},
-							["amount"] = 114,
-						},
-					},
 					["ManaGainedFrom"] = {
+					},
+					["RunicPowerGained"] = {
 					},
 					["WhoDamaged"] = {
 						["Steward"] = {
@@ -16235,9 +16213,9 @@ RecountPerCharDB = {
 					},
 					["EnergyGainedFrom"] = {
 					},
-					["RunicPowerGained"] = {
-					},
 					["CCBroken"] = {
+					},
+					["RunicPowerGainedFrom"] = {
 					},
 					["ElementDoneBlock"] = {
 					},
@@ -16257,7 +16235,8 @@ RecountPerCharDB = {
 							["amount"] = 13.75,
 						},
 					},
-					["Dispelled"] = 0,
+					["OverHeals"] = {
+					},
 					["WhoHealed"] = {
 						["Urgash"] = {
 							["Details"] = {
@@ -16317,10 +16296,6 @@ RecountPerCharDB = {
 						["Melee"] = 3715,
 						["Frost"] = 1843,
 					},
-					["FDamage"] = 0,
-					["EnergyGain"] = 0,
-					["ManaGained"] = {
-					},
 					["PartialAbsorb"] = {
 						["Frostbolt"] = {
 							["Details"] = {
@@ -16371,7 +16346,48 @@ RecountPerCharDB = {
 							["amount"] = 3715,
 						},
 					},
-					["ActiveTime"] = 24.79,
+					["PartialResist"] = {
+						["Frostbolt"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 6,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 6,
+							["amount"] = 0,
+						},
+						["Cone of Cold"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 7,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 7,
+							["amount"] = 0,
+						},
+					},
+					["ManaGained"] = {
+					},
+					["FDamage"] = 0,
+					["Interrupts"] = 2,
 					["Overhealing"] = 0,
 					["TimeSpent"] = {
 						["Urgash"] = {
@@ -16592,64 +16608,26 @@ RecountPerCharDB = {
 							["amount"] = 2124,
 						},
 					},
-					["Interrupts"] = 2,
+					["ActiveTime"] = 24.79,
 					["EnergyGained"] = {
 					},
-					["PartialResist"] = {
-						["Frostbolt"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 6,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 6,
-							["amount"] = 0,
-						},
-						["Cone of Cold"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 2,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 2,
-							["amount"] = 0,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 7,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 7,
-							["amount"] = 0,
-						},
-					},
+					["EnergyGain"] = 0,
 					["Healing"] = 9919,
+					["Dispelled"] = 0,
 					["RageGained"] = {
 					},
-					["OverHeals"] = {
-					},
 					["Attacks"] = {
-						["Blood-Caked Strike"] = {
+						["Icy Touch"] = {
 							["Details"] = {
 								["Hit"] = {
-									["max"] = 2466,
-									["min"] = 2466,
+									["max"] = 1983,
+									["min"] = 1983,
 									["count"] = 1,
-									["amount"] = 2466,
+									["amount"] = 1983,
 								},
 							},
 							["count"] = 1,
-							["amount"] = 2466,
+							["amount"] = 1983,
 						},
 						["Scourge Strike"] = {
 							["Details"] = {
@@ -16703,17 +16681,23 @@ RecountPerCharDB = {
 							["count"] = 71,
 							["amount"] = 78502,
 						},
-						["Icy Touch"] = {
+						["Death Coil"] = {
 							["Details"] = {
-								["Hit"] = {
-									["max"] = 1983,
-									["min"] = 1983,
+								["Crit"] = {
+									["max"] = 9083,
+									["min"] = 9083,
 									["count"] = 1,
-									["amount"] = 1983,
+									["amount"] = 9083,
+								},
+								["Hit"] = {
+									["max"] = 4595,
+									["min"] = 4595,
+									["count"] = 1,
+									["amount"] = 4595,
 								},
 							},
-							["count"] = 1,
-							["amount"] = 1983,
+							["count"] = 2,
+							["amount"] = 13678,
 						},
 						["Unholy Blight (DoT)"] = {
 							["Details"] = {
@@ -16835,23 +16819,17 @@ RecountPerCharDB = {
 							["count"] = 8,
 							["amount"] = 15782,
 						},
-						["Death Coil"] = {
+						["Blood-Caked Strike"] = {
 							["Details"] = {
-								["Crit"] = {
-									["max"] = 9083,
-									["min"] = 9083,
-									["count"] = 1,
-									["amount"] = 9083,
-								},
 								["Hit"] = {
-									["max"] = 4595,
-									["min"] = 4595,
+									["max"] = 2466,
+									["min"] = 2466,
 									["count"] = 1,
-									["amount"] = 4595,
+									["amount"] = 2466,
 								},
 							},
-							["count"] = 2,
-							["amount"] = 13678,
+							["count"] = 1,
+							["amount"] = 2466,
 						},
 					},
 					["RageGain"] = 0,
@@ -17004,7 +16982,24 @@ RecountPerCharDB = {
 						},
 					},
 					["ManaGain"] = 0,
-					["DOT_Time"] = 54,
+					["HOTs"] = {
+						["Improved Leader of the Pack"] = {
+							["Details"] = {
+								["Urgash"] = {
+									["count"] = 9,
+								},
+							},
+							["amount"] = 9,
+						},
+						["Blood Presence"] = {
+							["Details"] = {
+								["Urgash"] = {
+									["count"] = 114,
+								},
+							},
+							["amount"] = 114,
+						},
+					},
 					["DispelledWho"] = {
 					},
 				},
@@ -17110,41 +17105,16 @@ RecountPerCharDB = {
 					},
 					["DeathCount"] = 0,
 					["HOT_Time"] = 294,
-					["ElementTakenBlock"] = {
-					},
+					["Damage"] = 559569,
 					["RunicPowerGain"] = 10,
 					["ElementTaken"] = {
 						["Physical"] = 11540,
 						["Melee"] = 39489,
 						["Shadow"] = 8019,
 					},
-					["HOTs"] = {
-						["Blood Presence"] = {
-							["Details"] = {
-								["Urgash"] = {
-									["count"] = 219,
-								},
-							},
-							["amount"] = 219,
-						},
-						["Judgement of Light"] = {
-							["Details"] = {
-								["Urgash"] = {
-									["count"] = 48,
-								},
-							},
-							["amount"] = 48,
-						},
-						["Improved Leader of the Pack"] = {
-							["Details"] = {
-								["Urgash"] = {
-									["count"] = 27,
-								},
-							},
-							["amount"] = 27,
-						},
+					["DOT_Time"] = 165,
+					["ElementTakenBlock"] = {
 					},
-					["Damage"] = 559569,
 					["ElementDoneAbsorb"] = {
 						["Frost"] = 86,
 						["Shadow"] = 1560,
@@ -17154,6 +17124,91 @@ RecountPerCharDB = {
 					},
 					["Dispels"] = 0,
 					["PartialBlock"] = {
+					},
+					["ElementHitsDone"] = {
+						["Holy"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 15,
+								},
+							},
+							["amount"] = 15,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Glancing"] = {
+									["count"] = 1,
+								},
+								["Hit"] = {
+									["count"] = 5,
+								},
+								["Dodge"] = {
+									["count"] = 2,
+								},
+								["Crit"] = {
+									["count"] = 16,
+								},
+								["Parry"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 25,
+						},
+						["Physical"] = {
+							["Details"] = {
+								["Parry"] = {
+									["count"] = 1,
+								},
+								["Crit"] = {
+									["count"] = 6,
+								},
+								["Hit"] = {
+									["count"] = 9,
+								},
+							},
+							["amount"] = 16,
+						},
+						["Frost"] = {
+							["Details"] = {
+								["Tick"] = {
+									["count"] = 22,
+								},
+								["Crit"] = {
+									["count"] = 1,
+								},
+								["Hit"] = {
+									["count"] = 3,
+								},
+							},
+							["amount"] = 26,
+						},
+						["Shadow"] = {
+							["Details"] = {
+								["Tick"] = {
+									["count"] = 33,
+								},
+								["Absorb"] = {
+									["count"] = 1,
+								},
+								["Crit"] = {
+									["count"] = 17,
+								},
+								["Hit"] = {
+									["count"] = 113,
+								},
+							},
+							["amount"] = 164,
+						},
+					},
+					["FAttacks"] = {
+					},
+					["HealingTaken"] = 59342,
+					["ElementDone"] = {
+						["Holy"] = 3674,
+						["Melee"] = 151061,
+						["Physical"] = 79764,
+						["Frost"] = 55165,
+						["Shadow"] = 269905,
 					},
 					["DamagedWho"] = {
 						["Commander Kolurg"] = {
@@ -17308,115 +17363,30 @@ RecountPerCharDB = {
 								["Chaos Bane"] = {
 									["count"] = 2004,
 								},
-								["Wandering Plague"] = {
-									["count"] = 34049,
-								},
 								["Frost Fever (DoT)"] = {
 									["count"] = 17143,
 								},
 								["Retribution Aura"] = {
 									["count"] = 1764,
 								},
+								["Wandering Plague"] = {
+									["count"] = 34049,
+								},
 							},
 							["amount"] = 69716,
 						},
 					},
-					["FAttacks"] = {
+					["ManaGainedFrom"] = {
 					},
-					["HealingTaken"] = 59342,
-					["ElementDone"] = {
-						["Holy"] = 3674,
-						["Melee"] = 151061,
-						["Physical"] = 79764,
-						["Frost"] = 55165,
-						["Shadow"] = 269905,
-					},
-					["RunicPowerGainedFrom"] = {
-						["Urgash"] = {
+					["RunicPowerGained"] = {
+						["Blood Tap"] = {
 							["Details"] = {
-								["Blood Tap"] = {
+								["Urgash"] = {
 									["count"] = 10,
 								},
 							},
 							["amount"] = 10,
 						},
-					},
-					["ElementHitsDone"] = {
-						["Holy"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 15,
-								},
-							},
-							["amount"] = 15,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["Glancing"] = {
-									["count"] = 1,
-								},
-								["Hit"] = {
-									["count"] = 5,
-								},
-								["Dodge"] = {
-									["count"] = 2,
-								},
-								["Crit"] = {
-									["count"] = 16,
-								},
-								["Parry"] = {
-									["count"] = 1,
-								},
-							},
-							["amount"] = 25,
-						},
-						["Physical"] = {
-							["Details"] = {
-								["Parry"] = {
-									["count"] = 1,
-								},
-								["Crit"] = {
-									["count"] = 6,
-								},
-								["Hit"] = {
-									["count"] = 9,
-								},
-							},
-							["amount"] = 16,
-						},
-						["Frost"] = {
-							["Details"] = {
-								["Tick"] = {
-									["count"] = 22,
-								},
-								["Crit"] = {
-									["count"] = 1,
-								},
-								["Hit"] = {
-									["count"] = 3,
-								},
-							},
-							["amount"] = 26,
-						},
-						["Shadow"] = {
-							["Details"] = {
-								["Tick"] = {
-									["count"] = 33,
-								},
-								["Absorb"] = {
-									["count"] = 1,
-								},
-								["Crit"] = {
-									["count"] = 17,
-								},
-								["Hit"] = {
-									["count"] = 113,
-								},
-							},
-							["amount"] = 164,
-						},
-					},
-					["ManaGainedFrom"] = {
 					},
 					["WhoDamaged"] = {
 						["Commander Kolurg"] = {
@@ -17463,17 +17433,17 @@ RecountPerCharDB = {
 					},
 					["EnergyGainedFrom"] = {
 					},
-					["RunicPowerGained"] = {
-						["Blood Tap"] = {
+					["CCBroken"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+						["Urgash"] = {
 							["Details"] = {
-								["Urgash"] = {
+								["Blood Tap"] = {
 									["count"] = 10,
 								},
 							},
 							["amount"] = 10,
 						},
-					},
-					["CCBroken"] = {
 					},
 					["ElementDoneBlock"] = {
 						["Melee"] = 81,
@@ -17498,7 +17468,44 @@ RecountPerCharDB = {
 							["amount"] = 17.69,
 						},
 					},
-					["Dispelled"] = 0,
+					["OverHeals"] = {
+						["Judgement of Light"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 747,
+									["min"] = 464,
+									["count"] = 11,
+									["amount"] = 7934,
+								},
+							},
+							["count"] = 11,
+							["amount"] = 7934,
+						},
+						["Improved Leader of the Pack"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 747,
+									["min"] = 747,
+									["count"] = 4,
+									["amount"] = 2988,
+								},
+							},
+							["count"] = 4,
+							["amount"] = 2988,
+						},
+						["Unholy Strength"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 1122,
+									["min"] = 669,
+									["count"] = 2,
+									["amount"] = 1791,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 1791,
+						},
+					},
 					["WhoHealed"] = {
 						["Urgash"] = {
 							["Details"] = {
@@ -17560,10 +17567,6 @@ RecountPerCharDB = {
 					["ElementTakenAbsorb"] = {
 						["Melee"] = 5189,
 						["Physical"] = 204,
-					},
-					["FDamage"] = 0,
-					["EnergyGain"] = 0,
-					["ManaGained"] = {
 					},
 					["PartialAbsorb"] = {
 						["Shoot"] = {
@@ -17639,7 +17642,72 @@ RecountPerCharDB = {
 							["amount"] = 0,
 						},
 					},
-					["ActiveTime"] = 71.57999999999998,
+					["PartialResist"] = {
+						["Shoot"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 24,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 24,
+							["amount"] = 0,
+						},
+						["Whirlwind"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+						["War Stomp"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 4,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 4,
+							["amount"] = 0,
+						},
+						["Shadow Word: Death"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 0,
+						},
+					},
+					["ManaGained"] = {
+					},
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
 					["Overhealing"] = 12713,
 					["TimeSpent"] = {
 						["Urgash"] = {
@@ -17670,22 +17738,22 @@ RecountPerCharDB = {
 								["Chaos Bane"] = {
 									["count"] = 0.27,
 								},
-								["Wandering Plague"] = {
-									["count"] = 3,
-								},
 								["Frost Fever (DoT)"] = {
 									["count"] = 0,
 								},
 								["Retribution Aura"] = {
 									["count"] = 2.97,
 								},
+								["Wandering Plague"] = {
+									["count"] = 3,
+								},
 							},
 							["amount"] = 6.239999999999999,
 						},
 						["Horde Ranger"] = {
 							["Details"] = {
-								["Blood-Caked Strike"] = {
-									["count"] = 0,
+								["Blood Strike"] = {
+									["count"] = 0.22,
 								},
 								["Scourge Strike"] = {
 									["count"] = 1.04,
@@ -17696,14 +17764,14 @@ RecountPerCharDB = {
 								["Death and Decay"] = {
 									["count"] = 0,
 								},
-								["Blood Strike"] = {
-									["count"] = 0.22,
+								["Blood-Caked Strike"] = {
+									["count"] = 0,
 								},
 								["Unholy Blight (DoT)"] = {
 									["count"] = 1.16,
 								},
-								["Retribution Aura"] = {
-									["count"] = 0.43,
+								["Wandering Plague"] = {
+									["count"] = 0,
 								},
 								["Chaos Bane"] = {
 									["count"] = 0.28,
@@ -17729,8 +17797,8 @@ RecountPerCharDB = {
 								["Frost Fever (DoT)"] = {
 									["count"] = 0.24,
 								},
-								["Wandering Plague"] = {
-									["count"] = 0,
+								["Retribution Aura"] = {
+									["count"] = 0.43,
 								},
 							},
 							["amount"] = 14.16,
@@ -17886,111 +17954,13 @@ RecountPerCharDB = {
 							["amount"] = 3819,
 						},
 					},
-					["Interrupts"] = 0,
+					["ActiveTime"] = 71.57999999999998,
 					["EnergyGained"] = {
 					},
-					["PartialResist"] = {
-						["Shoot"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 2,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 2,
-							["amount"] = 0,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 24,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 24,
-							["amount"] = 0,
-						},
-						["Whirlwind"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 0,
-						},
-						["War Stomp"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 4,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 4,
-							["amount"] = 0,
-						},
-						["Shadow Word: Death"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 2,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 2,
-							["amount"] = 0,
-						},
-					},
+					["EnergyGain"] = 0,
 					["Healing"] = 20479,
+					["Dispelled"] = 0,
 					["RageGained"] = {
-					},
-					["OverHeals"] = {
-						["Judgement of Light"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 747,
-									["min"] = 464,
-									["count"] = 11,
-									["amount"] = 7934,
-								},
-							},
-							["count"] = 11,
-							["amount"] = 7934,
-						},
-						["Improved Leader of the Pack"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 747,
-									["min"] = 747,
-									["count"] = 4,
-									["amount"] = 2988,
-								},
-							},
-							["count"] = 4,
-							["amount"] = 2988,
-						},
-						["Unholy Strength"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 1122,
-									["min"] = 669,
-									["count"] = 2,
-									["amount"] = 1791,
-								},
-							},
-							["count"] = 2,
-							["amount"] = 1791,
-						},
 					},
 					["Attacks"] = {
 						["Scourge Strike"] = {
@@ -18319,8 +18289,8 @@ RecountPerCharDB = {
 						},
 						["Horde Ranger"] = {
 							["Details"] = {
-								["Blood-Caked Strike"] = {
-									["count"] = 0,
+								["Blood Strike"] = {
+									["count"] = 0.22,
 								},
 								["Scourge Strike"] = {
 									["count"] = 1.04,
@@ -18331,14 +18301,14 @@ RecountPerCharDB = {
 								["Death and Decay"] = {
 									["count"] = 0,
 								},
-								["Blood Strike"] = {
-									["count"] = 0.22,
+								["Blood-Caked Strike"] = {
+									["count"] = 0,
 								},
 								["Unholy Blight (DoT)"] = {
 									["count"] = 1.16,
 								},
-								["Retribution Aura"] = {
-									["count"] = 0.43,
+								["Wandering Plague"] = {
+									["count"] = 0,
 								},
 								["Chaos Bane"] = {
 									["count"] = 0.28,
@@ -18364,8 +18334,8 @@ RecountPerCharDB = {
 								["Frost Fever (DoT)"] = {
 									["count"] = 0.24,
 								},
-								["Wandering Plague"] = {
-									["count"] = 0,
+								["Retribution Aura"] = {
+									["count"] = 0.43,
 								},
 							},
 							["amount"] = 14.16,
@@ -18425,21 +18395,46 @@ RecountPerCharDB = {
 								["Chaos Bane"] = {
 									["count"] = 0.27,
 								},
-								["Wandering Plague"] = {
-									["count"] = 3,
-								},
 								["Frost Fever (DoT)"] = {
 									["count"] = 0,
 								},
 								["Retribution Aura"] = {
 									["count"] = 2.97,
 								},
+								["Wandering Plague"] = {
+									["count"] = 3,
+								},
 							},
 							["amount"] = 6.239999999999999,
 						},
 					},
 					["ManaGain"] = 0,
-					["DOT_Time"] = 165,
+					["HOTs"] = {
+						["Blood Presence"] = {
+							["Details"] = {
+								["Urgash"] = {
+									["count"] = 219,
+								},
+							},
+							["amount"] = 219,
+						},
+						["Judgement of Light"] = {
+							["Details"] = {
+								["Urgash"] = {
+									["count"] = 48,
+								},
+							},
+							["amount"] = 48,
+						},
+						["Improved Leader of the Pack"] = {
+							["Details"] = {
+								["Urgash"] = {
+									["count"] = 27,
+								},
+							},
+							["amount"] = 27,
+						},
+					},
 					["DispelledWho"] = {
 					},
 				},
@@ -18565,8 +18560,7 @@ RecountPerCharDB = {
 					},
 					["DeathCount"] = 0,
 					["HOT_Time"] = 0,
-					["ElementTakenBlock"] = {
-					},
+					["Damage"] = 0,
 					["RunicPowerGain"] = 0,
 					["ElementTaken"] = {
 						["Physical"] = 0,
@@ -18575,25 +18569,9 @@ RecountPerCharDB = {
 						["Fire"] = 0,
 						["Shadow"] = 0,
 					},
-					["HOTs"] = {
-						["Judgement of Light"] = {
-							["Details"] = {
-								["Urgash"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Blood Presence"] = {
-							["Details"] = {
-								["Urgash"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
+					["DOT_Time"] = 0,
+					["ElementTakenBlock"] = {
 					},
-					["Damage"] = 0,
 					["ElementDoneAbsorb"] = {
 						["Melee"] = 0,
 					},
@@ -18602,6 +18580,79 @@ RecountPerCharDB = {
 					},
 					["Dispels"] = 0,
 					["PartialBlock"] = {
+					},
+					["ElementHitsDone"] = {
+						["Holy"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Dodge"] = {
+									["count"] = 0,
+								},
+								["Crit"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Physical"] = {
+							["Details"] = {
+								["Dodge"] = {
+									["count"] = 0,
+								},
+								["Crit"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Frost"] = {
+							["Details"] = {
+								["Tick"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Shadow"] = {
+							["Details"] = {
+								["Tick"] = {
+									["count"] = 0,
+								},
+								["Crit"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["FAttacks"] = {
+					},
+					["HealingTaken"] = 0,
+					["ElementDone"] = {
+						["Holy"] = 0,
+						["Melee"] = 0,
+						["Physical"] = 0,
+						["Frost"] = 0,
+						["Shadow"] = 0,
 					},
 					["DamagedWho"] = {
 						["Mage Slayer"] = {
@@ -18791,95 +18842,30 @@ RecountPerCharDB = {
 							["amount"] = 0,
 						},
 					},
-					["FAttacks"] = {
-					},
-					["HealingTaken"] = 0,
-					["ElementDone"] = {
-						["Holy"] = 0,
-						["Melee"] = 0,
-						["Physical"] = 0,
-						["Frost"] = 0,
-						["Shadow"] = 0,
-					},
-					["RunicPowerGainedFrom"] = {
-						["Urgash"] = {
-							["Details"] = {
-								["Anti-Magic Shell"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["ElementHitsDone"] = {
-						["Holy"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["Dodge"] = {
-									["count"] = 0,
-								},
-								["Crit"] = {
-									["count"] = 0,
-								},
-								["Hit"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Physical"] = {
-							["Details"] = {
-								["Dodge"] = {
-									["count"] = 0,
-								},
-								["Crit"] = {
-									["count"] = 0,
-								},
-								["Hit"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Frost"] = {
-							["Details"] = {
-								["Tick"] = {
-									["count"] = 0,
-								},
-								["Hit"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Shadow"] = {
-							["Details"] = {
-								["Tick"] = {
-									["count"] = 0,
-								},
-								["Crit"] = {
-									["count"] = 0,
-								},
-								["Hit"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
 					["ManaGainedFrom"] = {
+					},
+					["RunicPowerGained"] = {
+						["Anti-Magic Shell"] = {
+							["Details"] = {
+								["Urgash"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
 					},
 					["WhoDamaged"] = {
 						["Mage Slayer"] = {
 							["Details"] = {
 								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Environment"] = {
+							["Details"] = {
+								["Falling"] = {
 									["count"] = 0,
 								},
 							},
@@ -18935,17 +18921,17 @@ RecountPerCharDB = {
 					},
 					["EnergyGainedFrom"] = {
 					},
-					["RunicPowerGained"] = {
-						["Anti-Magic Shell"] = {
+					["CCBroken"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+						["Urgash"] = {
 							["Details"] = {
-								["Urgash"] = {
+								["Anti-Magic Shell"] = {
 									["count"] = 0,
 								},
 							},
 							["amount"] = 0,
 						},
-					},
-					["CCBroken"] = {
 					},
 					["ElementDoneBlock"] = {
 						["Melee"] = 0,
@@ -18966,7 +18952,32 @@ RecountPerCharDB = {
 							["amount"] = 0,
 						},
 					},
-					["Dispelled"] = 0,
+					["OverHeals"] = {
+						["Judgement of Light"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Unholy Strength"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
 					["WhoHealed"] = {
 						["Urgash"] = {
 							["Details"] = {
@@ -19025,11 +19036,19 @@ RecountPerCharDB = {
 					["ElementTakenAbsorb"] = {
 						["Arcane"] = 0,
 					},
-					["FDamage"] = 0,
-					["EnergyGain"] = 0,
-					["ManaGained"] = {
-					},
 					["PartialAbsorb"] = {
+						["Falling"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
 						["Rapid Shot"] = {
 							["Details"] = {
 								["No Absorb"] = {
@@ -19115,7 +19134,108 @@ RecountPerCharDB = {
 							["amount"] = 0,
 						},
 					},
-					["ActiveTime"] = 0,
+					["PartialResist"] = {
+						["Falling"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Rapid Shot"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Incendiary Shot"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["War Stomp"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Shadow Word: Death"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Arcane Trap Effect"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Incendiary Shot (DoT)"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["ManaGained"] = {
+					},
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
 					["Overhealing"] = 0,
 					["TimeSpent"] = {
 						["Urgash"] = {
@@ -19366,126 +19486,16 @@ RecountPerCharDB = {
 							["amount"] = 0,
 						},
 					},
-					["Interrupts"] = 0,
+					["ActiveTime"] = 0,
 					["EnergyGained"] = {
 					},
-					["PartialResist"] = {
-						["Rapid Shot"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Incendiary Shot"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["War Stomp"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Shadow Word: Death"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Arcane Trap Effect"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Incendiary Shot (DoT)"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
+					["EnergyGain"] = 0,
 					["Healing"] = 0,
+					["Dispelled"] = 0,
 					["RageGained"] = {
 					},
-					["OverHeals"] = {
-						["Judgement of Light"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Unholy Strength"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
 					["Attacks"] = {
-						["Icy Touch"] = {
+						["Death Coil"] = {
 							["Details"] = {
 								["Hit"] = {
 									["max"] = 0,
@@ -19561,8 +19571,12 @@ RecountPerCharDB = {
 							["count"] = 0,
 							["amount"] = 0,
 						},
-						["Death Coil"] = {
+						["Blood Strike"] = {
 							["Details"] = {
+								["Dodge"] = {
+									["count"] = 0,
+									["amount"] = 0,
+								},
 								["Hit"] = {
 									["max"] = 0,
 									["min"] = 0,
@@ -19693,12 +19707,8 @@ RecountPerCharDB = {
 							["count"] = 0,
 							["amount"] = 0,
 						},
-						["Blood Strike"] = {
+						["Icy Touch"] = {
 							["Details"] = {
-								["Dodge"] = {
-									["count"] = 0,
-									["amount"] = 0,
-								},
 								["Hit"] = {
 									["max"] = 0,
 									["min"] = 0,
@@ -19906,7 +19916,24 @@ RecountPerCharDB = {
 						},
 					},
 					["ManaGain"] = 0,
-					["DOT_Time"] = 0,
+					["HOTs"] = {
+						["Judgement of Light"] = {
+							["Details"] = {
+								["Urgash"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Blood Presence"] = {
+							["Details"] = {
+								["Urgash"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
 					["DispelledWho"] = {
 					},
 				},
@@ -19975,41 +20002,16 @@ RecountPerCharDB = {
 					},
 					["DeathCount"] = 0,
 					["HOT_Time"] = 87,
-					["ElementTakenBlock"] = {
-					},
+					["Damage"] = 125131,
 					["RunicPowerGain"] = 10,
 					["ElementTaken"] = {
 						["Physical"] = 3325,
 						["Melee"] = 11110,
 						["Arcane"] = 2090,
 					},
-					["HOTs"] = {
-						["Blood Presence"] = {
-							["Details"] = {
-								["Urgash"] = {
-									["count"] = 57,
-								},
-							},
-							["amount"] = 57,
-						},
-						["Judgement of Light"] = {
-							["Details"] = {
-								["Urgash"] = {
-									["count"] = 27,
-								},
-							},
-							["amount"] = 27,
-						},
-						["Improved Leader of the Pack"] = {
-							["Details"] = {
-								["Urgash"] = {
-									["count"] = 3,
-								},
-							},
-							["amount"] = 3,
-						},
+					["DOT_Time"] = 33,
+					["ElementTakenBlock"] = {
 					},
-					["Damage"] = 125131,
 					["ElementDoneAbsorb"] = {
 					},
 					["TimeHeal"] = 2.73,
@@ -20017,6 +20019,76 @@ RecountPerCharDB = {
 					},
 					["Dispels"] = 0,
 					["PartialBlock"] = {
+					},
+					["ElementHitsDone"] = {
+						["Frost"] = {
+							["Details"] = {
+								["Tick"] = {
+									["count"] = 6,
+								},
+								["Hit"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 7,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Dodge"] = {
+									["count"] = 1,
+								},
+								["Crit"] = {
+									["count"] = 1,
+								},
+								["Hit"] = {
+									["count"] = 3,
+								},
+							},
+							["amount"] = 5,
+						},
+						["Physical"] = {
+							["Details"] = {
+								["Crit"] = {
+									["count"] = 1,
+								},
+								["Dodge"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 2,
+						},
+						["Holy"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 4,
+								},
+							},
+							["amount"] = 4,
+						},
+						["Shadow"] = {
+							["Details"] = {
+								["Tick"] = {
+									["count"] = 5,
+								},
+								["Crit"] = {
+									["count"] = 14,
+								},
+								["Hit"] = {
+									["count"] = 42,
+								},
+							},
+							["amount"] = 61,
+						},
+					},
+					["FAttacks"] = {
+					},
+					["HealingTaken"] = 14899,
+					["ElementDone"] = {
+						["Frost"] = 12233,
+						["Melee"] = 17172,
+						["Physical"] = 5440,
+						["Holy"] = 959,
+						["Shadow"] = 89327,
 					},
 					["DamagedWho"] = {
 						["Azure Scale-Binder"] = {
@@ -20087,87 +20159,17 @@ RecountPerCharDB = {
 							["amount"] = 64301,
 						},
 					},
-					["FAttacks"] = {
+					["ManaGainedFrom"] = {
 					},
-					["HealingTaken"] = 14899,
-					["ElementDone"] = {
-						["Frost"] = 12233,
-						["Melee"] = 17172,
-						["Physical"] = 5440,
-						["Holy"] = 959,
-						["Shadow"] = 89327,
-					},
-					["RunicPowerGainedFrom"] = {
-						["Urgash"] = {
+					["RunicPowerGained"] = {
+						["Blood Tap"] = {
 							["Details"] = {
-								["Blood Tap"] = {
+								["Urgash"] = {
 									["count"] = 10,
 								},
 							},
 							["amount"] = 10,
 						},
-					},
-					["ElementHitsDone"] = {
-						["Frost"] = {
-							["Details"] = {
-								["Tick"] = {
-									["count"] = 6,
-								},
-								["Hit"] = {
-									["count"] = 1,
-								},
-							},
-							["amount"] = 7,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["Dodge"] = {
-									["count"] = 1,
-								},
-								["Crit"] = {
-									["count"] = 1,
-								},
-								["Hit"] = {
-									["count"] = 3,
-								},
-							},
-							["amount"] = 5,
-						},
-						["Physical"] = {
-							["Details"] = {
-								["Crit"] = {
-									["count"] = 1,
-								},
-								["Dodge"] = {
-									["count"] = 1,
-								},
-							},
-							["amount"] = 2,
-						},
-						["Holy"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 4,
-								},
-							},
-							["amount"] = 4,
-						},
-						["Shadow"] = {
-							["Details"] = {
-								["Tick"] = {
-									["count"] = 5,
-								},
-								["Crit"] = {
-									["count"] = 14,
-								},
-								["Hit"] = {
-									["count"] = 42,
-								},
-							},
-							["amount"] = 61,
-						},
-					},
-					["ManaGainedFrom"] = {
 					},
 					["WhoDamaged"] = {
 						["Azure Enforcer"] = {
@@ -20195,17 +20197,17 @@ RecountPerCharDB = {
 					},
 					["EnergyGainedFrom"] = {
 					},
-					["RunicPowerGained"] = {
-						["Blood Tap"] = {
+					["CCBroken"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+						["Urgash"] = {
 							["Details"] = {
-								["Urgash"] = {
+								["Blood Tap"] = {
 									["count"] = 10,
 								},
 							},
 							["amount"] = 10,
 						},
-					},
-					["CCBroken"] = {
 					},
 					["ElementDoneBlock"] = {
 					},
@@ -20225,7 +20227,20 @@ RecountPerCharDB = {
 							["amount"] = 2.73,
 						},
 					},
-					["Dispelled"] = 0,
+					["OverHeals"] = {
+						["Judgement of Light"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 707,
+									["min"] = 501,
+									["count"] = 4,
+									["amount"] = 2622,
+								},
+							},
+							["count"] = 4,
+							["amount"] = 2622,
+						},
+					},
 					["WhoHealed"] = {
 						["Urgash"] = {
 							["Details"] = {
@@ -20277,10 +20292,6 @@ RecountPerCharDB = {
 					["CCBreak"] = 0,
 					["ElementTakenAbsorb"] = {
 					},
-					["FDamage"] = 0,
-					["EnergyGain"] = 0,
-					["ManaGained"] = {
-					},
 					["PartialAbsorb"] = {
 						["Arcane Blast"] = {
 							["Details"] = {
@@ -20331,7 +20342,60 @@ RecountPerCharDB = {
 							["amount"] = 0,
 						},
 					},
-					["ActiveTime"] = 14.53,
+					["PartialResist"] = {
+						["Arcane Blast"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+						["Brutal Strike"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 4,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 4,
+							["amount"] = 0,
+						},
+						["Cleave"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 0,
+						},
+					},
+					["ManaGained"] = {
+					},
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
 					["Overhealing"] = 2622,
 					["TimeSpent"] = {
 						["Azure Enforcer"] = {
@@ -20463,75 +20527,13 @@ RecountPerCharDB = {
 							["amount"] = 3741,
 						},
 					},
-					["Interrupts"] = 0,
+					["ActiveTime"] = 14.53,
 					["EnergyGained"] = {
 					},
-					["PartialResist"] = {
-						["Arcane Blast"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 0,
-						},
-						["Brutal Strike"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 2,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 2,
-							["amount"] = 0,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 4,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 4,
-							["amount"] = 0,
-						},
-						["Cleave"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 2,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 2,
-							["amount"] = 0,
-						},
-					},
+					["EnergyGain"] = 0,
 					["Healing"] = 6581,
+					["Dispelled"] = 0,
 					["RageGained"] = {
-					},
-					["OverHeals"] = {
-						["Judgement of Light"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 707,
-									["min"] = 501,
-									["count"] = 4,
-									["amount"] = 2622,
-								},
-							},
-							["count"] = 4,
-							["amount"] = 2622,
-						},
 					},
 					["Attacks"] = {
 						["Melee"] = {
@@ -20776,7 +20778,32 @@ RecountPerCharDB = {
 						},
 					},
 					["ManaGain"] = 0,
-					["DOT_Time"] = 33,
+					["HOTs"] = {
+						["Blood Presence"] = {
+							["Details"] = {
+								["Urgash"] = {
+									["count"] = 57,
+								},
+							},
+							["amount"] = 57,
+						},
+						["Judgement of Light"] = {
+							["Details"] = {
+								["Urgash"] = {
+									["count"] = 27,
+								},
+							},
+							["amount"] = 27,
+						},
+						["Improved Leader of the Pack"] = {
+							["Details"] = {
+								["Urgash"] = {
+									["count"] = 3,
+								},
+							},
+							["amount"] = 3,
+						},
+					},
 					["DispelledWho"] = {
 					},
 				},
@@ -20895,8 +20922,7 @@ RecountPerCharDB = {
 					},
 					["DeathCount"] = 0,
 					["HOT_Time"] = 282,
-					["ElementTakenBlock"] = {
-					},
+					["Damage"] = 590772,
 					["RunicPowerGain"] = 0,
 					["ElementTaken"] = {
 						["Frost"] = 8710,
@@ -20905,33 +20931,9 @@ RecountPerCharDB = {
 						["Fire"] = 5977,
 						["Shadow"] = 2250,
 					},
-					["HOTs"] = {
-						["Blood Presence"] = {
-							["Details"] = {
-								["Urgash"] = {
-									["count"] = 192,
-								},
-							},
-							["amount"] = 192,
-						},
-						["Improved Leader of the Pack"] = {
-							["Details"] = {
-								["Urgash"] = {
-									["count"] = 27,
-								},
-							},
-							["amount"] = 27,
-						},
-						["Judgement of Light"] = {
-							["Details"] = {
-								["Urgash"] = {
-									["count"] = 63,
-								},
-							},
-							["amount"] = 63,
-						},
+					["DOT_Time"] = 201,
+					["ElementTakenBlock"] = {
 					},
-					["Damage"] = 590772,
 					["ElementDoneAbsorb"] = {
 					},
 					["TimeHeal"] = 36.64000000000001,
@@ -20940,11 +20942,87 @@ RecountPerCharDB = {
 					["Dispels"] = 0,
 					["PartialBlock"] = {
 					},
+					["ElementHitsDone"] = {
+						["Physical"] = {
+							["Details"] = {
+								["Dodge"] = {
+									["count"] = 1,
+								},
+								["Crit"] = {
+									["count"] = 10,
+								},
+								["Hit"] = {
+									["count"] = 11,
+								},
+							},
+							["amount"] = 22,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Glancing"] = {
+									["count"] = 7,
+								},
+								["Crit"] = {
+									["count"] = 12,
+								},
+								["Hit"] = {
+									["count"] = 8,
+								},
+							},
+							["amount"] = 27,
+						},
+						["Holy"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 7,
+								},
+							},
+							["amount"] = 7,
+						},
+						["Frost"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 6,
+								},
+								["Crit"] = {
+									["count"] = 2,
+								},
+								["Tick"] = {
+									["count"] = 27,
+								},
+							},
+							["amount"] = 35,
+						},
+						["Shadow"] = {
+							["Details"] = {
+								["Tick"] = {
+									["count"] = 40,
+								},
+								["Crit"] = {
+									["count"] = 29,
+								},
+								["Hit"] = {
+									["count"] = 120,
+								},
+							},
+							["amount"] = 189,
+						},
+					},
+					["FAttacks"] = {
+					},
+					["HealingTaken"] = 36290,
+					["ElementDone"] = {
+						["Physical"] = 93921,
+						["Melee"] = 151896,
+						["Holy"] = 1708,
+						["Frost"] = 72704,
+						["Shadow"] = 270543,
+					},
 					["DamagedWho"] = {
 						["Grand Magus Telestra"] = {
 							["Details"] = {
-								["Chaos Bane"] = {
-									["count"] = 2671,
+								["Death and Decay"] = {
+									["count"] = 30108,
 								},
 								["Scourge Strike"] = {
 									["count"] = 20891,
@@ -20952,11 +21030,11 @@ RecountPerCharDB = {
 								["Melee"] = {
 									["count"] = 60753,
 								},
-								["Death and Decay"] = {
-									["count"] = 30108,
+								["Chaos Bane"] = {
+									["count"] = 2671,
 								},
-								["Icy Touch"] = {
-									["count"] = 12830,
+								["Blood Strike"] = {
+									["count"] = 17233,
 								},
 								["Unholy Blight (DoT)"] = {
 									["count"] = 2287,
@@ -20988,8 +21066,8 @@ RecountPerCharDB = {
 								["Frost Fever (DoT)"] = {
 									["count"] = 37963,
 								},
-								["Blood Strike"] = {
-									["count"] = 17233,
+								["Icy Touch"] = {
+									["count"] = 12830,
 								},
 							},
 							["amount"] = 303131,
@@ -21031,17 +21109,17 @@ RecountPerCharDB = {
 						},
 						["Steward"] = {
 							["Details"] = {
-								["Blood Plague (DoT)"] = {
-									["count"] = 1977,
+								["Melee"] = {
+									["count"] = 13377,
 								},
 								["Necrosis"] = {
 									["count"] = 2674,
 								},
-								["Melee"] = {
-									["count"] = 13377,
+								["Blood Plague (DoT)"] = {
+									["count"] = 1977,
 								},
-								["Chaos Bane"] = {
-									["count"] = 709,
+								["Death and Decay"] = {
+									["count"] = 7640,
 								},
 								["Death Coil"] = {
 									["count"] = 11484,
@@ -21052,8 +21130,8 @@ RecountPerCharDB = {
 								["Wandering Plague"] = {
 									["count"] = 4280,
 								},
-								["Death and Decay"] = {
-									["count"] = 7640,
+								["Chaos Bane"] = {
+									["count"] = 709,
 								},
 							},
 							["amount"] = 44735,
@@ -21141,85 +21219,9 @@ RecountPerCharDB = {
 							["amount"] = 118484,
 						},
 					},
-					["FAttacks"] = {
-					},
-					["HealingTaken"] = 36290,
-					["ElementDone"] = {
-						["Physical"] = 93921,
-						["Melee"] = 151896,
-						["Holy"] = 1708,
-						["Frost"] = 72704,
-						["Shadow"] = 270543,
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementHitsDone"] = {
-						["Physical"] = {
-							["Details"] = {
-								["Dodge"] = {
-									["count"] = 1,
-								},
-								["Crit"] = {
-									["count"] = 10,
-								},
-								["Hit"] = {
-									["count"] = 11,
-								},
-							},
-							["amount"] = 22,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["Glancing"] = {
-									["count"] = 7,
-								},
-								["Crit"] = {
-									["count"] = 12,
-								},
-								["Hit"] = {
-									["count"] = 8,
-								},
-							},
-							["amount"] = 27,
-						},
-						["Holy"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 7,
-								},
-							},
-							["amount"] = 7,
-						},
-						["Frost"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 6,
-								},
-								["Crit"] = {
-									["count"] = 2,
-								},
-								["Tick"] = {
-									["count"] = 27,
-								},
-							},
-							["amount"] = 35,
-						},
-						["Shadow"] = {
-							["Details"] = {
-								["Tick"] = {
-									["count"] = 40,
-								},
-								["Crit"] = {
-									["count"] = 29,
-								},
-								["Hit"] = {
-									["count"] = 120,
-								},
-							},
-							["amount"] = 189,
-						},
-					},
 					["ManaGainedFrom"] = {
+					},
+					["RunicPowerGained"] = {
 					},
 					["WhoDamaged"] = {
 						["No One"] = {
@@ -21257,17 +21259,17 @@ RecountPerCharDB = {
 						},
 						["Mage Hunter Ascendant"] = {
 							["Details"] = {
-								["Melee"] = {
-									["count"] = 7074,
+								["Arcane Explosion"] = {
+									["count"] = 3597,
 								},
 								["Frostbolt"] = {
 									["count"] = 1070,
 								},
-								["Arcane Explosion"] = {
-									["count"] = 3597,
-								},
 								["Arcane Trap Effect"] = {
 									["count"] = 3166,
+								},
+								["Melee"] = {
+									["count"] = 7074,
 								},
 							},
 							["amount"] = 14907,
@@ -21275,9 +21277,9 @@ RecountPerCharDB = {
 					},
 					["EnergyGainedFrom"] = {
 					},
-					["RunicPowerGained"] = {
-					},
 					["CCBroken"] = {
+					},
+					["RunicPowerGainedFrom"] = {
 					},
 					["ElementDoneBlock"] = {
 						["Melee"] = 41,
@@ -21302,7 +21304,56 @@ RecountPerCharDB = {
 							["amount"] = 36.64000000000001,
 						},
 					},
-					["Dispelled"] = 0,
+					["OverHeals"] = {
+						["Judgement of Light"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 747,
+									["min"] = 707,
+									["count"] = 15,
+									["amount"] = 11125,
+								},
+							},
+							["count"] = 15,
+							["amount"] = 11125,
+						},
+						["Blood Presence"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 66,
+									["min"] = 66,
+									["count"] = 1,
+									["amount"] = 66,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 66,
+						},
+						["Improved Leader of the Pack"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 747,
+									["min"] = 707,
+									["count"] = 7,
+									["amount"] = 5149,
+								},
+							},
+							["count"] = 7,
+							["amount"] = 5149,
+						},
+						["Unholy Strength"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 1122,
+									["min"] = 556,
+									["count"] = 3,
+									["amount"] = 2800,
+								},
+							},
+							["count"] = 3,
+							["amount"] = 2800,
+						},
+					},
 					["WhoHealed"] = {
 						["Jungee"] = {
 							["Details"] = {
@@ -21371,10 +21422,6 @@ RecountPerCharDB = {
 					["CCBreak"] = 0,
 					["ElementTakenAbsorb"] = {
 					},
-					["FDamage"] = 0,
-					["EnergyGain"] = 0,
-					["ManaGained"] = {
-					},
 					["PartialAbsorb"] = {
 						["Ice Nova"] = {
 							["Details"] = {
@@ -21424,18 +21471,6 @@ RecountPerCharDB = {
 							["count"] = 30,
 							["amount"] = 0,
 						},
-						["Frostbolt"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 0,
-						},
 						["Firebomb"] = {
 							["Details"] = {
 								["No Absorb"] = {
@@ -21448,7 +21483,7 @@ RecountPerCharDB = {
 							["count"] = 2,
 							["amount"] = 0,
 						},
-						["Arcane Trap Effect"] = {
+						["Frostbolt"] = {
 							["Details"] = {
 								["No Absorb"] = {
 									["max"] = 0,
@@ -21472,8 +21507,121 @@ RecountPerCharDB = {
 							["count"] = 2,
 							["amount"] = 0,
 						},
+						["Arcane Trap Effect"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
 					},
-					["ActiveTime"] = 99.95999999999997,
+					["PartialResist"] = {
+						["Ice Nova"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+						["Blizzard (DoT)"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 11,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 11,
+							["amount"] = 0,
+						},
+						["Gravity Well"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 30,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 30,
+							["amount"] = 0,
+						},
+						["Firebomb"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 0,
+						},
+						["Frostbolt"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+						["Arcane Explosion"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 0,
+						},
+						["Arcane Trap Effect"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+					},
+					["ManaGained"] = {
+					},
+					["FDamage"] = 0,
+					["Interrupts"] = 3,
 					["Overhealing"] = 19140,
 					["TimeSpent"] = {
 						["Urgash"] = {
@@ -21495,8 +21643,8 @@ RecountPerCharDB = {
 						},
 						["Grand Magus Telestra"] = {
 							["Details"] = {
-								["Chaos Bane"] = {
-									["count"] = 0.39,
+								["Death and Decay"] = {
+									["count"] = 5.299999999999999,
 								},
 								["Scourge Strike"] = {
 									["count"] = 1.07,
@@ -21504,11 +21652,11 @@ RecountPerCharDB = {
 								["Melee"] = {
 									["count"] = 0,
 								},
-								["Death and Decay"] = {
-									["count"] = 5.299999999999999,
+								["Chaos Bane"] = {
+									["count"] = 0.39,
 								},
-								["Icy Touch"] = {
-									["count"] = 4.1,
+								["Blood Strike"] = {
+									["count"] = 1.42,
 								},
 								["Unholy Blight (DoT)"] = {
 									["count"] = 4.560000000000001,
@@ -21540,8 +21688,8 @@ RecountPerCharDB = {
 								["Frost Fever (DoT)"] = {
 									["count"] = 1.05,
 								},
-								["Blood Strike"] = {
-									["count"] = 1.42,
+								["Icy Touch"] = {
+									["count"] = 4.1,
 								},
 							},
 							["amount"] = 28.54000000000001,
@@ -21583,17 +21731,17 @@ RecountPerCharDB = {
 						},
 						["Steward"] = {
 							["Details"] = {
-								["Blood Plague (DoT)"] = {
-									["count"] = 0,
+								["Melee"] = {
+									["count"] = 0.01,
 								},
 								["Necrosis"] = {
 									["count"] = 2.87,
 								},
-								["Melee"] = {
-									["count"] = 0.01,
+								["Blood Plague (DoT)"] = {
+									["count"] = 0,
 								},
-								["Chaos Bane"] = {
-									["count"] = 0.51,
+								["Death and Decay"] = {
+									["count"] = 0,
 								},
 								["Death Coil"] = {
 									["count"] = 0.67,
@@ -21604,8 +21752,8 @@ RecountPerCharDB = {
 								["Wandering Plague"] = {
 									["count"] = 2.01,
 								},
-								["Death and Decay"] = {
-									["count"] = 0,
+								["Chaos Bane"] = {
+									["count"] = 0.51,
 								},
 							},
 							["amount"] = 6.069999999999999,
@@ -21773,178 +21921,26 @@ RecountPerCharDB = {
 							["amount"] = 1688,
 						},
 					},
-					["Interrupts"] = 3,
+					["ActiveTime"] = 99.95999999999997,
 					["EnergyGained"] = {
 					},
-					["PartialResist"] = {
-						["Ice Nova"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 0,
-						},
-						["Blizzard (DoT)"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 2,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 2,
-							["amount"] = 0,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 11,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 11,
-							["amount"] = 0,
-						},
-						["Gravity Well"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 30,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 30,
-							["amount"] = 0,
-						},
-						["Frostbolt"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 0,
-						},
-						["Firebomb"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 2,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 2,
-							["amount"] = 0,
-						},
-						["Arcane Trap Effect"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 0,
-						},
-						["Arcane Explosion"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 2,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 2,
-							["amount"] = 0,
-						},
-					},
+					["EnergyGain"] = 0,
 					["Healing"] = 14846,
+					["Dispelled"] = 0,
 					["RageGained"] = {
 					},
-					["OverHeals"] = {
-						["Judgement of Light"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 747,
-									["min"] = 707,
-									["count"] = 15,
-									["amount"] = 11125,
-								},
-							},
-							["count"] = 15,
-							["amount"] = 11125,
-						},
-						["Blood Presence"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 66,
-									["min"] = 66,
-									["count"] = 1,
-									["amount"] = 66,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 66,
-						},
-						["Improved Leader of the Pack"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 747,
-									["min"] = 707,
-									["count"] = 7,
-									["amount"] = 5149,
-								},
-							},
-							["count"] = 7,
-							["amount"] = 5149,
-						},
-						["Unholy Strength"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 1122,
-									["min"] = 556,
-									["count"] = 3,
-									["amount"] = 2800,
-								},
-							},
-							["count"] = 3,
-							["amount"] = 2800,
-						},
-					},
 					["Attacks"] = {
-						["Icy Touch"] = {
+						["Blood-Caked Strike"] = {
 							["Details"] = {
-								["Crit"] = {
-									["max"] = 4526,
-									["min"] = 4213,
-									["count"] = 2,
-									["amount"] = 8739,
-								},
 								["Hit"] = {
-									["max"] = 2410,
-									["min"] = 1707,
-									["count"] = 6,
-									["amount"] = 12971,
+									["max"] = 2576,
+									["min"] = 793,
+									["count"] = 8,
+									["amount"] = 12962,
 								},
 							},
 							["count"] = 8,
-							["amount"] = 21710,
+							["amount"] = 12962,
 						},
 						["Scourge Strike"] = {
 							["Details"] = {
@@ -22010,17 +22006,23 @@ RecountPerCharDB = {
 							["count"] = 75,
 							["amount"] = 86565,
 						},
-						["Blood-Caked Strike"] = {
+						["Blood Strike"] = {
 							["Details"] = {
+								["Crit"] = {
+									["max"] = 5899,
+									["min"] = 5761,
+									["count"] = 2,
+									["amount"] = 11660,
+								},
 								["Hit"] = {
-									["max"] = 2576,
-									["min"] = 793,
-									["count"] = 8,
-									["amount"] = 12962,
+									["max"] = 2792,
+									["min"] = 2781,
+									["count"] = 2,
+									["amount"] = 5573,
 								},
 							},
-							["count"] = 8,
-							["amount"] = 12962,
+							["count"] = 4,
+							["amount"] = 17233,
 						},
 						["Unholy Blight (DoT)"] = {
 							["Details"] = {
@@ -22160,23 +22162,23 @@ RecountPerCharDB = {
 							["count"] = 27,
 							["amount"] = 50994,
 						},
-						["Blood Strike"] = {
+						["Icy Touch"] = {
 							["Details"] = {
 								["Crit"] = {
-									["max"] = 5899,
-									["min"] = 5761,
+									["max"] = 4526,
+									["min"] = 4213,
 									["count"] = 2,
-									["amount"] = 11660,
+									["amount"] = 8739,
 								},
 								["Hit"] = {
-									["max"] = 2792,
-									["min"] = 2781,
-									["count"] = 2,
-									["amount"] = 5573,
+									["max"] = 2410,
+									["min"] = 1707,
+									["count"] = 6,
+									["amount"] = 12971,
 								},
 							},
-							["count"] = 4,
-							["amount"] = 17233,
+							["count"] = 8,
+							["amount"] = 21710,
 						},
 					},
 					["RageGain"] = 0,
@@ -22186,8 +22188,8 @@ RecountPerCharDB = {
 					["TimeDamaging"] = {
 						["Grand Magus Telestra"] = {
 							["Details"] = {
-								["Chaos Bane"] = {
-									["count"] = 0.39,
+								["Death and Decay"] = {
+									["count"] = 5.299999999999999,
 								},
 								["Scourge Strike"] = {
 									["count"] = 1.07,
@@ -22195,11 +22197,11 @@ RecountPerCharDB = {
 								["Melee"] = {
 									["count"] = 0,
 								},
-								["Death and Decay"] = {
-									["count"] = 5.299999999999999,
+								["Chaos Bane"] = {
+									["count"] = 0.39,
 								},
-								["Icy Touch"] = {
-									["count"] = 4.1,
+								["Blood Strike"] = {
+									["count"] = 1.42,
 								},
 								["Unholy Blight (DoT)"] = {
 									["count"] = 4.560000000000001,
@@ -22231,8 +22233,8 @@ RecountPerCharDB = {
 								["Frost Fever (DoT)"] = {
 									["count"] = 1.05,
 								},
-								["Blood Strike"] = {
-									["count"] = 1.42,
+								["Icy Touch"] = {
+									["count"] = 4.1,
 								},
 							},
 							["amount"] = 28.54000000000001,
@@ -22274,17 +22276,17 @@ RecountPerCharDB = {
 						},
 						["Steward"] = {
 							["Details"] = {
-								["Blood Plague (DoT)"] = {
-									["count"] = 0,
+								["Melee"] = {
+									["count"] = 0.01,
 								},
 								["Necrosis"] = {
 									["count"] = 2.87,
 								},
-								["Melee"] = {
-									["count"] = 0.01,
+								["Blood Plague (DoT)"] = {
+									["count"] = 0,
 								},
-								["Chaos Bane"] = {
-									["count"] = 0.51,
+								["Death and Decay"] = {
+									["count"] = 0,
 								},
 								["Death Coil"] = {
 									["count"] = 0.67,
@@ -22295,8 +22297,8 @@ RecountPerCharDB = {
 								["Wandering Plague"] = {
 									["count"] = 2.01,
 								},
-								["Death and Decay"] = {
-									["count"] = 0,
+								["Chaos Bane"] = {
+									["count"] = 0.51,
 								},
 							},
 							["amount"] = 6.069999999999999,
@@ -22385,7 +22387,32 @@ RecountPerCharDB = {
 						},
 					},
 					["ManaGain"] = 0,
-					["DOT_Time"] = 201,
+					["HOTs"] = {
+						["Blood Presence"] = {
+							["Details"] = {
+								["Urgash"] = {
+									["count"] = 192,
+								},
+							},
+							["amount"] = 192,
+						},
+						["Improved Leader of the Pack"] = {
+							["Details"] = {
+								["Urgash"] = {
+									["count"] = 27,
+								},
+							},
+							["amount"] = 27,
+						},
+						["Judgement of Light"] = {
+							["Details"] = {
+								["Urgash"] = {
+									["count"] = 63,
+								},
+							},
+							["amount"] = 63,
+						},
+					},
 					["DispelledWho"] = {
 					},
 				},
@@ -22393,14 +22420,14 @@ RecountPerCharDB = {
 					["DOTs"] = {
 						["Unholy Blight (DoT)"] = {
 							["Details"] = {
+								["Azure Warder"] = {
+									["count"] = 24,
+								},
 								["Crystalline Frayer"] = {
 									["count"] = 93,
 								},
 								["Crystalline Keeper"] = {
 									["count"] = 3,
-								},
-								["Azure Warder"] = {
-									["count"] = 24,
 								},
 								["Crystalline Protector"] = {
 									["count"] = 6,
@@ -22596,17 +22623,17 @@ RecountPerCharDB = {
 								["Unholy Strength"] = {
 									["count"] = 3430,
 								},
-								["Judgement of Light"] = {
-									["count"] = 23882,
+								["Improved Leader of the Pack"] = {
+									["count"] = 6648,
 								},
 								["Blood Presence"] = {
 									["count"] = 33795,
 								},
-								["Improved Leader of the Pack"] = {
-									["count"] = 6648,
-								},
 								["Death Strike"] = {
 									["count"] = 5314,
+								},
+								["Judgement of Light"] = {
+									["count"] = 23882,
 								},
 							},
 							["amount"] = 73069,
@@ -22961,11 +22988,11 @@ RecountPerCharDB = {
 						},
 						["Chaotic Rift"] = {
 							["Details"] = {
-								["Necrosis"] = {
-									["count"] = 5959,
-								},
 								["Scourge Strike"] = {
 									["count"] = 4039,
+								},
+								["Necrosis"] = {
+									["count"] = 5959,
 								},
 								["Melee"] = {
 									["count"] = 29805,
@@ -22973,8 +23000,8 @@ RecountPerCharDB = {
 								["Death and Decay"] = {
 									["count"] = 3471,
 								},
-								["Death Coil"] = {
-									["count"] = 4576,
+								["Icy Touch"] = {
+									["count"] = 7776,
 								},
 								["Plague Strike"] = {
 									["count"] = 6073,
@@ -22982,8 +23009,8 @@ RecountPerCharDB = {
 								["Blood-Caked Strike"] = {
 									["count"] = 1008,
 								},
-								["Icy Touch"] = {
-									["count"] = 7776,
+								["Death Coil"] = {
+									["count"] = 4576,
 								},
 							},
 							["amount"] = 62707,
@@ -23139,8 +23166,8 @@ RecountPerCharDB = {
 						},
 						["Crystalline Protector"] = {
 							["Details"] = {
-								["Icy Touch"] = {
-									["count"] = 13745,
+								["Death Coil"] = {
+									["count"] = 4800,
 								},
 								["Scourge Strike"] = {
 									["count"] = 34217,
@@ -23148,11 +23175,11 @@ RecountPerCharDB = {
 								["Melee"] = {
 									["count"] = 126968,
 								},
-								["Death and Decay"] = {
-									["count"] = 36443,
+								["Chaos Bane"] = {
+									["count"] = 344,
 								},
-								["Death Coil"] = {
-									["count"] = 4800,
+								["Icy Touch"] = {
+									["count"] = 13745,
 								},
 								["Unholy Blight (DoT)"] = {
 									["count"] = 96,
@@ -23184,8 +23211,8 @@ RecountPerCharDB = {
 								["Frost Fever (DoT)"] = {
 									["count"] = 19608,
 								},
-								["Chaos Bane"] = {
-									["count"] = 344,
+								["Death and Decay"] = {
+									["count"] = 36443,
 								},
 							},
 							["amount"] = 364335,
@@ -23396,13 +23423,19 @@ RecountPerCharDB = {
 							},
 							["amount"] = 10087,
 						},
-						["Environment"] = {
+						["Crystalline Keeper"] = {
 							["Details"] = {
-								["Falling"] = {
-									["count"] = 10595,
+								["Crystal Strike"] = {
+									["count"] = 16489,
+								},
+								["Melee"] = {
+									["count"] = 35643,
+								},
+								["Crystal Bark"] = {
+									["count"] = 750,
 								},
 							},
-							["amount"] = 10595,
+							["amount"] = 52882,
 						},
 						["Crystalline Protector"] = {
 							["Details"] = {
@@ -23418,19 +23451,13 @@ RecountPerCharDB = {
 							},
 							["amount"] = 19076,
 						},
-						["Crystalline Keeper"] = {
+						["Azure Warder"] = {
 							["Details"] = {
-								["Crystal Strike"] = {
-									["count"] = 16489,
-								},
 								["Melee"] = {
-									["count"] = 35643,
-								},
-								["Crystal Bark"] = {
-									["count"] = 750,
+									["count"] = 4312,
 								},
 							},
-							["amount"] = 52882,
+							["amount"] = 4312,
 						},
 						["Crystalline Tender"] = {
 							["Details"] = {
@@ -23451,13 +23478,13 @@ RecountPerCharDB = {
 							},
 							["amount"] = 6300,
 						},
-						["Azure Warder"] = {
+						["Environment"] = {
 							["Details"] = {
-								["Melee"] = {
-									["count"] = 4312,
+								["Falling"] = {
+									["count"] = 10595,
 								},
 							},
-							["amount"] = 4312,
+							["amount"] = 10595,
 						},
 						["Ormorok the Tree-Shaper"] = {
 							["Details"] = {
@@ -23496,17 +23523,17 @@ RecountPerCharDB = {
 								["Unholy Strength"] = {
 									["count"] = 0,
 								},
-								["Judgement of Light"] = {
-									["count"] = 0.77,
+								["Improved Leader of the Pack"] = {
+									["count"] = 0,
 								},
 								["Blood Presence"] = {
 									["count"] = 96.40000000000002,
 								},
-								["Improved Leader of the Pack"] = {
-									["count"] = 0,
-								},
 								["Death Strike"] = {
 									["count"] = 0.42,
+								},
+								["Judgement of Light"] = {
+									["count"] = 0.77,
 								},
 							},
 							["amount"] = 97.59000000000002,
@@ -24098,17 +24125,17 @@ RecountPerCharDB = {
 							["count"] = 5,
 							["amount"] = 3430,
 						},
-						["Judgement of Light"] = {
+						["Improved Leader of the Pack"] = {
 							["Details"] = {
 								["Tick"] = {
 									["max"] = 707,
-									["min"] = 0,
-									["count"] = 42,
-									["amount"] = 23882,
+									["min"] = 23,
+									["count"] = 11,
+									["amount"] = 6648,
 								},
 							},
-							["count"] = 42,
-							["amount"] = 23882,
+							["count"] = 11,
+							["amount"] = 6648,
 						},
 						["Blood Presence"] = {
 							["Details"] = {
@@ -24122,18 +24149,6 @@ RecountPerCharDB = {
 							["count"] = 291,
 							["amount"] = 33795,
 						},
-						["Improved Leader of the Pack"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 707,
-									["min"] = 23,
-									["count"] = 11,
-									["amount"] = 6648,
-								},
-							},
-							["count"] = 11,
-							["amount"] = 6648,
-						},
 						["Death Strike"] = {
 							["Details"] = {
 								["Hit"] = {
@@ -24145,6 +24160,18 @@ RecountPerCharDB = {
 							},
 							["count"] = 1,
 							["amount"] = 5314,
+						},
+						["Judgement of Light"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 707,
+									["min"] = 0,
+									["count"] = 42,
+									["amount"] = 23882,
+								},
+							},
+							["count"] = 42,
+							["amount"] = 23882,
 						},
 					},
 					["FDamage"] = 14313,
@@ -24167,17 +24194,17 @@ RecountPerCharDB = {
 								["Unholy Strength"] = {
 									["count"] = 0,
 								},
-								["Judgement of Light"] = {
-									["count"] = 0.77,
+								["Improved Leader of the Pack"] = {
+									["count"] = 0,
 								},
 								["Blood Presence"] = {
 									["count"] = 96.40000000000002,
 								},
-								["Improved Leader of the Pack"] = {
-									["count"] = 0,
-								},
 								["Death Strike"] = {
 									["count"] = 0.42,
+								},
+								["Judgement of Light"] = {
+									["count"] = 0.77,
 								},
 							},
 							["amount"] = 97.59000000000002,
@@ -24404,11 +24431,11 @@ RecountPerCharDB = {
 						},
 						["Chaotic Rift"] = {
 							["Details"] = {
-								["Necrosis"] = {
-									["count"] = 0.01,
-								},
 								["Scourge Strike"] = {
 									["count"] = 0.1,
+								},
+								["Necrosis"] = {
+									["count"] = 0.01,
 								},
 								["Melee"] = {
 									["count"] = 0,
@@ -24416,7 +24443,7 @@ RecountPerCharDB = {
 								["Death and Decay"] = {
 									["count"] = 0,
 								},
-								["Death Coil"] = {
+								["Icy Touch"] = {
 									["count"] = 0,
 								},
 								["Plague Strike"] = {
@@ -24425,7 +24452,7 @@ RecountPerCharDB = {
 								["Blood-Caked Strike"] = {
 									["count"] = 0,
 								},
-								["Icy Touch"] = {
+								["Death Coil"] = {
 									["count"] = 0,
 								},
 							},
@@ -24582,8 +24609,8 @@ RecountPerCharDB = {
 						},
 						["Crystalline Protector"] = {
 							["Details"] = {
-								["Icy Touch"] = {
-									["count"] = 3.02,
+								["Death Coil"] = {
+									["count"] = 0,
 								},
 								["Scourge Strike"] = {
 									["count"] = 0.46,
@@ -24591,11 +24618,11 @@ RecountPerCharDB = {
 								["Melee"] = {
 									["count"] = 0.01,
 								},
-								["Death and Decay"] = {
-									["count"] = 6.04,
-								},
-								["Death Coil"] = {
+								["Chaos Bane"] = {
 									["count"] = 0,
+								},
+								["Icy Touch"] = {
+									["count"] = 3.02,
 								},
 								["Unholy Blight (DoT)"] = {
 									["count"] = 0,
@@ -24627,8 +24654,8 @@ RecountPerCharDB = {
 								["Frost Fever (DoT)"] = {
 									["count"] = 1.9,
 								},
-								["Chaos Bane"] = {
-									["count"] = 0,
+								["Death and Decay"] = {
+									["count"] = 6.04,
 								},
 							},
 							["amount"] = 19.76000000000001,
@@ -24785,17 +24812,17 @@ RecountPerCharDB = {
 								["Unholy Strength"] = {
 									["count"] = 3430,
 								},
-								["Judgement of Light"] = {
-									["count"] = 23882,
+								["Improved Leader of the Pack"] = {
+									["count"] = 6648,
 								},
 								["Blood Presence"] = {
 									["count"] = 33795,
 								},
-								["Improved Leader of the Pack"] = {
-									["count"] = 6648,
-								},
 								["Death Strike"] = {
 									["count"] = 5314,
+								},
+								["Judgement of Light"] = {
+									["count"] = 23882,
 								},
 							},
 							["amount"] = 73069,
@@ -24983,18 +25010,6 @@ RecountPerCharDB = {
 							["count"] = 26,
 							["amount"] = 48874,
 						},
-						["Retribution Aura"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 263,
-									["min"] = 223,
-									["count"] = 24,
-									["amount"] = 5519,
-								},
-							},
-							["count"] = 24,
-							["amount"] = 5519,
-						},
 						["Scourge Strike (Shadow)"] = {
 							["Details"] = {
 								["Hit"] = {
@@ -25006,6 +25021,18 @@ RecountPerCharDB = {
 							},
 							["count"] = 20,
 							["amount"] = 78665,
+						},
+						["Retribution Aura"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 263,
+									["min"] = 223,
+									["count"] = 24,
+									["amount"] = 5519,
+								},
+							},
+							["count"] = 24,
+							["amount"] = 5519,
 						},
 						["Blood Boil"] = {
 							["Details"] = {
@@ -25399,11 +25426,11 @@ RecountPerCharDB = {
 						},
 						["Chaotic Rift"] = {
 							["Details"] = {
-								["Necrosis"] = {
-									["count"] = 0.01,
-								},
 								["Scourge Strike"] = {
 									["count"] = 0.1,
+								},
+								["Necrosis"] = {
+									["count"] = 0.01,
 								},
 								["Melee"] = {
 									["count"] = 0,
@@ -25411,7 +25438,7 @@ RecountPerCharDB = {
 								["Death and Decay"] = {
 									["count"] = 0,
 								},
-								["Death Coil"] = {
+								["Icy Touch"] = {
 									["count"] = 0,
 								},
 								["Plague Strike"] = {
@@ -25420,7 +25447,7 @@ RecountPerCharDB = {
 								["Blood-Caked Strike"] = {
 									["count"] = 0,
 								},
-								["Icy Touch"] = {
+								["Death Coil"] = {
 									["count"] = 0,
 								},
 							},
@@ -25577,8 +25604,8 @@ RecountPerCharDB = {
 						},
 						["Crystalline Protector"] = {
 							["Details"] = {
-								["Icy Touch"] = {
-									["count"] = 3.02,
+								["Death Coil"] = {
+									["count"] = 0,
 								},
 								["Scourge Strike"] = {
 									["count"] = 0.46,
@@ -25586,11 +25613,11 @@ RecountPerCharDB = {
 								["Melee"] = {
 									["count"] = 0.01,
 								},
-								["Death and Decay"] = {
-									["count"] = 6.04,
-								},
-								["Death Coil"] = {
+								["Chaos Bane"] = {
 									["count"] = 0,
+								},
+								["Icy Touch"] = {
+									["count"] = 3.02,
 								},
 								["Unholy Blight (DoT)"] = {
 									["count"] = 0,
@@ -25622,8 +25649,8 @@ RecountPerCharDB = {
 								["Frost Fever (DoT)"] = {
 									["count"] = 1.9,
 								},
-								["Chaos Bane"] = {
-									["count"] = 0,
+								["Death and Decay"] = {
+									["count"] = 6.04,
 								},
 							},
 							["amount"] = 19.76000000000001,
@@ -25864,14 +25891,14 @@ RecountPerCharDB = {
 					["DOTs"] = {
 						["Unholy Blight (DoT)"] = {
 							["Details"] = {
+								["Azure Warder"] = {
+									["count"] = 24,
+								},
 								["Crystalline Frayer"] = {
 									["count"] = 93,
 								},
 								["Crystalline Keeper"] = {
 									["count"] = 3,
-								},
-								["Azure Warder"] = {
-									["count"] = 24,
 								},
 								["Crystalline Protector"] = {
 									["count"] = 6,
@@ -26067,17 +26094,17 @@ RecountPerCharDB = {
 								["Unholy Strength"] = {
 									["count"] = 3430,
 								},
-								["Judgement of Light"] = {
-									["count"] = 23882,
+								["Improved Leader of the Pack"] = {
+									["count"] = 6648,
 								},
 								["Blood Presence"] = {
 									["count"] = 33795,
 								},
-								["Improved Leader of the Pack"] = {
-									["count"] = 6648,
-								},
 								["Death Strike"] = {
 									["count"] = 5314,
+								},
+								["Judgement of Light"] = {
+									["count"] = 23882,
 								},
 							},
 							["amount"] = 73069,
@@ -26432,11 +26459,11 @@ RecountPerCharDB = {
 						},
 						["Chaotic Rift"] = {
 							["Details"] = {
-								["Necrosis"] = {
-									["count"] = 5959,
-								},
 								["Scourge Strike"] = {
 									["count"] = 4039,
+								},
+								["Necrosis"] = {
+									["count"] = 5959,
 								},
 								["Melee"] = {
 									["count"] = 29805,
@@ -26444,8 +26471,8 @@ RecountPerCharDB = {
 								["Death and Decay"] = {
 									["count"] = 3471,
 								},
-								["Death Coil"] = {
-									["count"] = 4576,
+								["Icy Touch"] = {
+									["count"] = 7776,
 								},
 								["Plague Strike"] = {
 									["count"] = 6073,
@@ -26453,8 +26480,8 @@ RecountPerCharDB = {
 								["Blood-Caked Strike"] = {
 									["count"] = 1008,
 								},
-								["Icy Touch"] = {
-									["count"] = 7776,
+								["Death Coil"] = {
+									["count"] = 4576,
 								},
 							},
 							["amount"] = 62707,
@@ -26610,8 +26637,8 @@ RecountPerCharDB = {
 						},
 						["Crystalline Protector"] = {
 							["Details"] = {
-								["Icy Touch"] = {
-									["count"] = 13745,
+								["Death Coil"] = {
+									["count"] = 4800,
 								},
 								["Scourge Strike"] = {
 									["count"] = 34217,
@@ -26619,11 +26646,11 @@ RecountPerCharDB = {
 								["Melee"] = {
 									["count"] = 126968,
 								},
-								["Death and Decay"] = {
-									["count"] = 36443,
+								["Chaos Bane"] = {
+									["count"] = 344,
 								},
-								["Death Coil"] = {
-									["count"] = 4800,
+								["Icy Touch"] = {
+									["count"] = 13745,
 								},
 								["Unholy Blight (DoT)"] = {
 									["count"] = 96,
@@ -26655,8 +26682,8 @@ RecountPerCharDB = {
 								["Frost Fever (DoT)"] = {
 									["count"] = 19608,
 								},
-								["Chaos Bane"] = {
-									["count"] = 344,
+								["Death and Decay"] = {
+									["count"] = 36443,
 								},
 							},
 							["amount"] = 364335,
@@ -26867,13 +26894,19 @@ RecountPerCharDB = {
 							},
 							["amount"] = 10087,
 						},
-						["Environment"] = {
+						["Crystalline Keeper"] = {
 							["Details"] = {
-								["Falling"] = {
-									["count"] = 10595,
+								["Crystal Strike"] = {
+									["count"] = 16489,
+								},
+								["Melee"] = {
+									["count"] = 35643,
+								},
+								["Crystal Bark"] = {
+									["count"] = 750,
 								},
 							},
-							["amount"] = 10595,
+							["amount"] = 52882,
 						},
 						["Crystalline Protector"] = {
 							["Details"] = {
@@ -26889,19 +26922,13 @@ RecountPerCharDB = {
 							},
 							["amount"] = 19076,
 						},
-						["Crystalline Keeper"] = {
+						["Azure Warder"] = {
 							["Details"] = {
-								["Crystal Strike"] = {
-									["count"] = 16489,
-								},
 								["Melee"] = {
-									["count"] = 35643,
-								},
-								["Crystal Bark"] = {
-									["count"] = 750,
+									["count"] = 4312,
 								},
 							},
-							["amount"] = 52882,
+							["amount"] = 4312,
 						},
 						["Crystalline Tender"] = {
 							["Details"] = {
@@ -26922,13 +26949,13 @@ RecountPerCharDB = {
 							},
 							["amount"] = 6300,
 						},
-						["Azure Warder"] = {
+						["Environment"] = {
 							["Details"] = {
-								["Melee"] = {
-									["count"] = 4312,
+								["Falling"] = {
+									["count"] = 10595,
 								},
 							},
-							["amount"] = 4312,
+							["amount"] = 10595,
 						},
 						["Ormorok the Tree-Shaper"] = {
 							["Details"] = {
@@ -26967,17 +26994,17 @@ RecountPerCharDB = {
 								["Unholy Strength"] = {
 									["count"] = 0,
 								},
-								["Judgement of Light"] = {
-									["count"] = 0.77,
+								["Improved Leader of the Pack"] = {
+									["count"] = 0,
 								},
 								["Blood Presence"] = {
 									["count"] = 96.40000000000002,
 								},
-								["Improved Leader of the Pack"] = {
-									["count"] = 0,
-								},
 								["Death Strike"] = {
 									["count"] = 0.42,
+								},
+								["Judgement of Light"] = {
+									["count"] = 0.77,
 								},
 							},
 							["amount"] = 97.59000000000002,
@@ -27569,17 +27596,17 @@ RecountPerCharDB = {
 							["count"] = 5,
 							["amount"] = 3430,
 						},
-						["Judgement of Light"] = {
+						["Improved Leader of the Pack"] = {
 							["Details"] = {
 								["Tick"] = {
 									["max"] = 707,
-									["min"] = 0,
-									["count"] = 42,
-									["amount"] = 23882,
+									["min"] = 23,
+									["count"] = 11,
+									["amount"] = 6648,
 								},
 							},
-							["count"] = 42,
-							["amount"] = 23882,
+							["count"] = 11,
+							["amount"] = 6648,
 						},
 						["Blood Presence"] = {
 							["Details"] = {
@@ -27593,18 +27620,6 @@ RecountPerCharDB = {
 							["count"] = 291,
 							["amount"] = 33795,
 						},
-						["Improved Leader of the Pack"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 707,
-									["min"] = 23,
-									["count"] = 11,
-									["amount"] = 6648,
-								},
-							},
-							["count"] = 11,
-							["amount"] = 6648,
-						},
 						["Death Strike"] = {
 							["Details"] = {
 								["Hit"] = {
@@ -27616,6 +27631,18 @@ RecountPerCharDB = {
 							},
 							["count"] = 1,
 							["amount"] = 5314,
+						},
+						["Judgement of Light"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 707,
+									["min"] = 0,
+									["count"] = 42,
+									["amount"] = 23882,
+								},
+							},
+							["count"] = 42,
+							["amount"] = 23882,
 						},
 					},
 					["FDamage"] = 14313,
@@ -27638,17 +27665,17 @@ RecountPerCharDB = {
 								["Unholy Strength"] = {
 									["count"] = 0,
 								},
-								["Judgement of Light"] = {
-									["count"] = 0.77,
+								["Improved Leader of the Pack"] = {
+									["count"] = 0,
 								},
 								["Blood Presence"] = {
 									["count"] = 96.40000000000002,
 								},
-								["Improved Leader of the Pack"] = {
-									["count"] = 0,
-								},
 								["Death Strike"] = {
 									["count"] = 0.42,
+								},
+								["Judgement of Light"] = {
+									["count"] = 0.77,
 								},
 							},
 							["amount"] = 97.59000000000002,
@@ -27875,11 +27902,11 @@ RecountPerCharDB = {
 						},
 						["Chaotic Rift"] = {
 							["Details"] = {
-								["Necrosis"] = {
-									["count"] = 0.01,
-								},
 								["Scourge Strike"] = {
 									["count"] = 0.1,
+								},
+								["Necrosis"] = {
+									["count"] = 0.01,
 								},
 								["Melee"] = {
 									["count"] = 0,
@@ -27887,7 +27914,7 @@ RecountPerCharDB = {
 								["Death and Decay"] = {
 									["count"] = 0,
 								},
-								["Death Coil"] = {
+								["Icy Touch"] = {
 									["count"] = 0,
 								},
 								["Plague Strike"] = {
@@ -27896,7 +27923,7 @@ RecountPerCharDB = {
 								["Blood-Caked Strike"] = {
 									["count"] = 0,
 								},
-								["Icy Touch"] = {
+								["Death Coil"] = {
 									["count"] = 0,
 								},
 							},
@@ -28053,8 +28080,8 @@ RecountPerCharDB = {
 						},
 						["Crystalline Protector"] = {
 							["Details"] = {
-								["Icy Touch"] = {
-									["count"] = 3.02,
+								["Death Coil"] = {
+									["count"] = 0,
 								},
 								["Scourge Strike"] = {
 									["count"] = 0.46,
@@ -28062,11 +28089,11 @@ RecountPerCharDB = {
 								["Melee"] = {
 									["count"] = 0.01,
 								},
-								["Death and Decay"] = {
-									["count"] = 6.04,
-								},
-								["Death Coil"] = {
+								["Chaos Bane"] = {
 									["count"] = 0,
+								},
+								["Icy Touch"] = {
+									["count"] = 3.02,
 								},
 								["Unholy Blight (DoT)"] = {
 									["count"] = 0,
@@ -28098,8 +28125,8 @@ RecountPerCharDB = {
 								["Frost Fever (DoT)"] = {
 									["count"] = 1.9,
 								},
-								["Chaos Bane"] = {
-									["count"] = 0,
+								["Death and Decay"] = {
+									["count"] = 6.04,
 								},
 							},
 							["amount"] = 19.76000000000001,
@@ -28256,17 +28283,17 @@ RecountPerCharDB = {
 								["Unholy Strength"] = {
 									["count"] = 3430,
 								},
-								["Judgement of Light"] = {
-									["count"] = 23882,
+								["Improved Leader of the Pack"] = {
+									["count"] = 6648,
 								},
 								["Blood Presence"] = {
 									["count"] = 33795,
 								},
-								["Improved Leader of the Pack"] = {
-									["count"] = 6648,
-								},
 								["Death Strike"] = {
 									["count"] = 5314,
+								},
+								["Judgement of Light"] = {
+									["count"] = 23882,
 								},
 							},
 							["amount"] = 73069,
@@ -28454,18 +28481,6 @@ RecountPerCharDB = {
 							["count"] = 26,
 							["amount"] = 48874,
 						},
-						["Retribution Aura"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 263,
-									["min"] = 223,
-									["count"] = 24,
-									["amount"] = 5519,
-								},
-							},
-							["count"] = 24,
-							["amount"] = 5519,
-						},
 						["Scourge Strike (Shadow)"] = {
 							["Details"] = {
 								["Hit"] = {
@@ -28477,6 +28492,18 @@ RecountPerCharDB = {
 							},
 							["count"] = 20,
 							["amount"] = 78665,
+						},
+						["Retribution Aura"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 263,
+									["min"] = 223,
+									["count"] = 24,
+									["amount"] = 5519,
+								},
+							},
+							["count"] = 24,
+							["amount"] = 5519,
 						},
 						["Blood Boil"] = {
 							["Details"] = {
@@ -28870,11 +28897,11 @@ RecountPerCharDB = {
 						},
 						["Chaotic Rift"] = {
 							["Details"] = {
-								["Necrosis"] = {
-									["count"] = 0.01,
-								},
 								["Scourge Strike"] = {
 									["count"] = 0.1,
+								},
+								["Necrosis"] = {
+									["count"] = 0.01,
 								},
 								["Melee"] = {
 									["count"] = 0,
@@ -28882,7 +28909,7 @@ RecountPerCharDB = {
 								["Death and Decay"] = {
 									["count"] = 0,
 								},
-								["Death Coil"] = {
+								["Icy Touch"] = {
 									["count"] = 0,
 								},
 								["Plague Strike"] = {
@@ -28891,7 +28918,7 @@ RecountPerCharDB = {
 								["Blood-Caked Strike"] = {
 									["count"] = 0,
 								},
-								["Icy Touch"] = {
+								["Death Coil"] = {
 									["count"] = 0,
 								},
 							},
@@ -29048,8 +29075,8 @@ RecountPerCharDB = {
 						},
 						["Crystalline Protector"] = {
 							["Details"] = {
-								["Icy Touch"] = {
-									["count"] = 3.02,
+								["Death Coil"] = {
+									["count"] = 0,
 								},
 								["Scourge Strike"] = {
 									["count"] = 0.46,
@@ -29057,11 +29084,11 @@ RecountPerCharDB = {
 								["Melee"] = {
 									["count"] = 0.01,
 								},
-								["Death and Decay"] = {
-									["count"] = 6.04,
-								},
-								["Death Coil"] = {
+								["Chaos Bane"] = {
 									["count"] = 0,
+								},
+								["Icy Touch"] = {
+									["count"] = 3.02,
 								},
 								["Unholy Blight (DoT)"] = {
 									["count"] = 0,
@@ -29093,8 +29120,8 @@ RecountPerCharDB = {
 								["Frost Fever (DoT)"] = {
 									["count"] = 1.9,
 								},
-								["Chaos Bane"] = {
-									["count"] = 0,
+								["Death and Decay"] = {
+									["count"] = 6.04,
 								},
 							},
 							["amount"] = 19.76000000000001,
@@ -29534,10 +29561,10 @@ RecountPerCharDB = {
 									["count"] = 2,
 								},
 								["Hit"] = {
-									["count"] = 21,
+									["count"] = 22,
 								},
 							},
-							["amount"] = 26,
+							["amount"] = 27,
 						},
 						["Melee"] = {
 							["Details"] = {
@@ -29576,17 +29603,6 @@ RecountPerCharDB = {
 							},
 							["amount"] = 96,
 						},
-						["Fire"] = {
-							["Details"] = {
-								["Tick"] = {
-									["count"] = 4,
-								},
-								["Hit"] = {
-									["count"] = 3,
-								},
-							},
-							["amount"] = 7,
-						},
 						["Frostfire"] = {
 							["Details"] = {
 								["Tick"] = {
@@ -29597,6 +29613,17 @@ RecountPerCharDB = {
 								},
 							},
 							["amount"] = 12,
+						},
+						["Fire"] = {
+							["Details"] = {
+								["Tick"] = {
+									["count"] = 4,
+								},
+								["Hit"] = {
+									["count"] = 3,
+								},
+							},
+							["amount"] = 7,
 						},
 						["Frost"] = {
 							["Details"] = {
@@ -29641,17 +29668,17 @@ RecountPerCharDB = {
 								["Unholy Strength"] = {
 									["count"] = 12298,
 								},
-								["Judgement of Light"] = {
-									["count"] = 40525,
+								["Improved Leader of the Pack"] = {
+									["count"] = 14625,
 								},
 								["Blood Presence"] = {
 									["count"] = 62943,
 								},
-								["Improved Leader of the Pack"] = {
-									["count"] = 14625,
-								},
 								["Death Strike"] = {
 									["count"] = 5314,
+								},
+								["Judgement of Light"] = {
+									["count"] = 40525,
 								},
 							},
 							["amount"] = 135705,
@@ -29694,18 +29721,18 @@ RecountPerCharDB = {
 						},
 					},
 					["ElementDoneAbsorb"] = {
-						["Shadow"] = 1560,
 						["Frost"] = 86,
-						["Melee"] = 23043,
 						["Physical"] = 10371,
+						["Melee"] = 23043,
+						["Shadow"] = 1560,
 					},
 					["Overhealing"] = 128383,
 					["ElementTaken"] = {
-						["Physical"] = 36612,
+						["Physical"] = 43497,
 						["Melee"] = 180870,
 						["Arcane"] = 55798,
-						["Fire"] = 11240,
 						["Frostfire"] = 20639,
+						["Fire"] = 11240,
 						["Frost"] = 30309,
 						["Shadow"] = 14574,
 					},
@@ -29889,8 +29916,8 @@ RecountPerCharDB = {
 						},
 						["Mage Hunter Ascendant"] = {
 							["Details"] = {
-								["Wandering Plague"] = {
-									["count"] = 18131,
+								["Retribution Aura"] = {
+									["count"] = 1338,
 								},
 								["Scourge Strike"] = {
 									["count"] = 35513,
@@ -29907,8 +29934,8 @@ RecountPerCharDB = {
 								["Unholy Blight (DoT)"] = {
 									["count"] = 270,
 								},
-								["Retribution Aura"] = {
-									["count"] = 1338,
+								["Scourge Strike (Shadow)"] = {
+									["count"] = 5358,
 								},
 								["Death and Decay"] = {
 									["count"] = 53581,
@@ -29934,8 +29961,8 @@ RecountPerCharDB = {
 								["Frost Fever (DoT)"] = {
 									["count"] = 13442,
 								},
-								["Scourge Strike (Shadow)"] = {
-									["count"] = 5358,
+								["Wandering Plague"] = {
+									["count"] = 18131,
 								},
 							},
 							["amount"] = 265725,
@@ -30027,8 +30054,8 @@ RecountPerCharDB = {
 						},
 						["Crystalline Protector"] = {
 							["Details"] = {
-								["Icy Touch"] = {
-									["count"] = 13745,
+								["Death Coil"] = {
+									["count"] = 4800,
 								},
 								["Scourge Strike"] = {
 									["count"] = 34217,
@@ -30036,11 +30063,11 @@ RecountPerCharDB = {
 								["Melee"] = {
 									["count"] = 126968,
 								},
-								["Death and Decay"] = {
-									["count"] = 36443,
+								["Chaos Bane"] = {
+									["count"] = 344,
 								},
-								["Death Coil"] = {
-									["count"] = 4800,
+								["Icy Touch"] = {
+									["count"] = 13745,
 								},
 								["Unholy Blight (DoT)"] = {
 									["count"] = 96,
@@ -30072,8 +30099,8 @@ RecountPerCharDB = {
 								["Frost Fever (DoT)"] = {
 									["count"] = 19608,
 								},
-								["Chaos Bane"] = {
-									["count"] = 344,
+								["Death and Decay"] = {
+									["count"] = 36443,
 								},
 							},
 							["amount"] = 364335,
@@ -30227,8 +30254,8 @@ RecountPerCharDB = {
 						},
 						["Grand Magus Telestra"] = {
 							["Details"] = {
-								["Chaos Bane"] = {
-									["count"] = 2671,
+								["Death and Decay"] = {
+									["count"] = 30108,
 								},
 								["Scourge Strike"] = {
 									["count"] = 20891,
@@ -30236,11 +30263,11 @@ RecountPerCharDB = {
 								["Melee"] = {
 									["count"] = 60753,
 								},
-								["Death and Decay"] = {
-									["count"] = 30108,
+								["Chaos Bane"] = {
+									["count"] = 2671,
 								},
-								["Icy Touch"] = {
-									["count"] = 12830,
+								["Blood Strike"] = {
+									["count"] = 17233,
 								},
 								["Unholy Blight (DoT)"] = {
 									["count"] = 2287,
@@ -30272,16 +30299,16 @@ RecountPerCharDB = {
 								["Frost Fever (DoT)"] = {
 									["count"] = 37963,
 								},
-								["Blood Strike"] = {
-									["count"] = 17233,
+								["Icy Touch"] = {
+									["count"] = 12830,
 								},
 							},
 							["amount"] = 303131,
 						},
 						["Mage Slayer"] = {
 							["Details"] = {
-								["Death and Decay"] = {
-									["count"] = 64987,
+								["Chaos Bane"] = {
+									["count"] = 666,
 								},
 								["Scourge Strike"] = {
 									["count"] = 4209,
@@ -30289,11 +30316,11 @@ RecountPerCharDB = {
 								["Melee"] = {
 									["count"] = 52886,
 								},
-								["Chaos Bane"] = {
-									["count"] = 666,
+								["Death and Decay"] = {
+									["count"] = 64987,
 								},
-								["Death Coil"] = {
-									["count"] = 4956,
+								["Icy Touch"] = {
+									["count"] = 6435,
 								},
 								["Unholy Blight (DoT)"] = {
 									["count"] = 147,
@@ -30325,8 +30352,8 @@ RecountPerCharDB = {
 								["Frost Fever (DoT)"] = {
 									["count"] = 9176,
 								},
-								["Icy Touch"] = {
-									["count"] = 6435,
+								["Death Coil"] = {
+									["count"] = 4956,
 								},
 							},
 							["amount"] = 204304,
@@ -30374,11 +30401,11 @@ RecountPerCharDB = {
 						},
 						["Chaotic Rift"] = {
 							["Details"] = {
-								["Necrosis"] = {
-									["count"] = 5959,
-								},
 								["Scourge Strike"] = {
 									["count"] = 4039,
+								},
+								["Necrosis"] = {
+									["count"] = 5959,
 								},
 								["Melee"] = {
 									["count"] = 29805,
@@ -30386,8 +30413,8 @@ RecountPerCharDB = {
 								["Death and Decay"] = {
 									["count"] = 3471,
 								},
-								["Death Coil"] = {
-									["count"] = 4576,
+								["Icy Touch"] = {
+									["count"] = 7776,
 								},
 								["Plague Strike"] = {
 									["count"] = 6073,
@@ -30395,8 +30422,8 @@ RecountPerCharDB = {
 								["Blood-Caked Strike"] = {
 									["count"] = 1008,
 								},
-								["Icy Touch"] = {
-									["count"] = 7776,
+								["Death Coil"] = {
+									["count"] = 4576,
 								},
 							},
 							["amount"] = 62707,
@@ -30705,8 +30732,8 @@ RecountPerCharDB = {
 								["Death Coil"] = {
 									["count"] = 10942,
 								},
-								["Retribution Aura"] = {
-									["count"] = 698,
+								["Wandering Plague"] = {
+									["count"] = 7408,
 								},
 								["Blood Boil"] = {
 									["count"] = 9150,
@@ -30732,8 +30759,8 @@ RecountPerCharDB = {
 								["Frost Fever (DoT)"] = {
 									["count"] = 9157,
 								},
-								["Wandering Plague"] = {
-									["count"] = 7408,
+								["Retribution Aura"] = {
+									["count"] = 698,
 								},
 							},
 							["amount"] = 192870,
@@ -30854,17 +30881,17 @@ RecountPerCharDB = {
 								["Melee"] = {
 									["count"] = 12368,
 								},
-								["Arcane Trap Effect"] = {
-									["count"] = 3689,
+								["Arcane Explosion"] = {
+									["count"] = 3597,
 								},
 								["Frostbolt"] = {
 									["count"] = 9509,
 								},
-								["Arcane Explosion"] = {
-									["count"] = 3597,
-								},
 								["Cone of Cold"] = {
 									["count"] = 1567,
+								},
+								["Arcane Trap Effect"] = {
+									["count"] = 3689,
 								},
 							},
 							["amount"] = 30730,
@@ -31015,10 +31042,10 @@ RecountPerCharDB = {
 						["Environment"] = {
 							["Details"] = {
 								["Falling"] = {
-									["count"] = 10595,
+									["count"] = 17480,
 								},
 							},
-							["amount"] = 10595,
+							["amount"] = 17480,
 						},
 						["Crystalline Keeper"] = {
 							["Details"] = {
@@ -31105,17 +31132,17 @@ RecountPerCharDB = {
 								["Unholy Strength"] = {
 									["count"] = 0,
 								},
-								["Judgement of Light"] = {
-									["count"] = 3.06,
+								["Improved Leader of the Pack"] = {
+									["count"] = 0,
 								},
 								["Blood Presence"] = {
 									["count"] = 185.3400000000001,
 								},
-								["Improved Leader of the Pack"] = {
-									["count"] = 0,
-								},
 								["Death Strike"] = {
 									["count"] = 0.42,
+								},
+								["Judgement of Light"] = {
+									["count"] = 3.06,
 								},
 							},
 							["amount"] = 188.82,
@@ -31447,11 +31474,11 @@ RecountPerCharDB = {
 								["No Resist"] = {
 									["max"] = 0,
 									["min"] = 0,
-									["count"] = 4,
+									["count"] = 5,
 									["amount"] = 0,
 								},
 							},
-							["count"] = 4,
+							["count"] = 5,
 							["amount"] = 0,
 						},
 						["Intense Cold"] = {
@@ -31514,16 +31541,16 @@ RecountPerCharDB = {
 							["count"] = 4,
 							["amount"] = 0,
 						},
-						["Crystal Spike"] = {
+						["Crystallize"] = {
 							["Details"] = {
 								["No Resist"] = {
 									["max"] = 0,
 									["min"] = 0,
-									["count"] = 1,
+									["count"] = 3,
 									["amount"] = 0,
 								},
 							},
-							["count"] = 1,
+							["count"] = 3,
 							["amount"] = 0,
 						},
 						["Shard Spray"] = {
@@ -31538,16 +31565,16 @@ RecountPerCharDB = {
 							["count"] = 3,
 							["amount"] = 0,
 						},
-						["Crystallize"] = {
+						["Crystal Spike"] = {
 							["Details"] = {
 								["No Resist"] = {
 									["max"] = 0,
 									["min"] = 0,
-									["count"] = 3,
+									["count"] = 1,
 									["amount"] = 0,
 								},
 							},
-							["count"] = 3,
+							["count"] = 1,
 							["amount"] = 0,
 						},
 						["Whirlwind"] = {
@@ -31887,11 +31914,11 @@ RecountPerCharDB = {
 								["No Absorb"] = {
 									["max"] = 0,
 									["min"] = 0,
-									["count"] = 4,
+									["count"] = 5,
 									["amount"] = 0,
 								},
 							},
-							["count"] = 4,
+							["count"] = 5,
 							["amount"] = 0,
 						},
 						["Intense Cold"] = {
@@ -31954,30 +31981,6 @@ RecountPerCharDB = {
 							["count"] = 4,
 							["amount"] = 0,
 						},
-						["Crystal Spike"] = {
-							["Details"] = {
-								["Absorbed"] = {
-									["max"] = 2779,
-									["min"] = 2779,
-									["count"] = 1,
-									["amount"] = 2779,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 2779,
-						},
-						["Shard Spray"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 3,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 3,
-							["amount"] = 0,
-						},
 						["Crystallize"] = {
 							["Details"] = {
 								["No Absorb"] = {
@@ -31995,6 +31998,30 @@ RecountPerCharDB = {
 							},
 							["count"] = 3,
 							["amount"] = 747,
+						},
+						["Shard Spray"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 3,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 3,
+							["amount"] = 0,
+						},
+						["Crystal Spike"] = {
+							["Details"] = {
+								["Absorbed"] = {
+									["max"] = 2779,
+									["min"] = 2779,
+									["count"] = 1,
+									["amount"] = 2779,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 2779,
 						},
 						["Whirlwind"] = {
 							["Details"] = {
@@ -32135,17 +32162,17 @@ RecountPerCharDB = {
 							["count"] = 15,
 							["amount"] = 12298,
 						},
-						["Judgement of Light"] = {
+						["Improved Leader of the Pack"] = {
 							["Details"] = {
 								["Tick"] = {
 									["max"] = 747,
-									["min"] = 16,
-									["count"] = 66,
-									["amount"] = 40525,
+									["min"] = 23,
+									["count"] = 22,
+									["amount"] = 14625,
 								},
 							},
-							["count"] = 66,
-							["amount"] = 40525,
+							["count"] = 22,
+							["amount"] = 14625,
 						},
 						["Blood Presence"] = {
 							["Details"] = {
@@ -32159,18 +32186,6 @@ RecountPerCharDB = {
 							["count"] = 541,
 							["amount"] = 62943,
 						},
-						["Improved Leader of the Pack"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 747,
-									["min"] = 23,
-									["count"] = 22,
-									["amount"] = 14625,
-								},
-							},
-							["count"] = 22,
-							["amount"] = 14625,
-						},
 						["Death Strike"] = {
 							["Details"] = {
 								["Hit"] = {
@@ -32182,6 +32197,18 @@ RecountPerCharDB = {
 							},
 							["count"] = 1,
 							["amount"] = 5314,
+						},
+						["Judgement of Light"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 747,
+									["min"] = 16,
+									["count"] = 66,
+									["amount"] = 40525,
+								},
+							},
+							["count"] = 66,
+							["amount"] = 40525,
 						},
 					},
 					["ElementTakenAbsorb"] = {
@@ -32302,8 +32329,8 @@ RecountPerCharDB = {
 						},
 						["Mage Hunter Ascendant"] = {
 							["Details"] = {
-								["Wandering Plague"] = {
-									["count"] = 0.82,
+								["Retribution Aura"] = {
+									["count"] = 2.35,
 								},
 								["Scourge Strike"] = {
 									["count"] = 2,
@@ -32320,8 +32347,8 @@ RecountPerCharDB = {
 								["Unholy Blight (DoT)"] = {
 									["count"] = 1.01,
 								},
-								["Retribution Aura"] = {
-									["count"] = 2.35,
+								["Scourge Strike (Shadow)"] = {
+									["count"] = 0,
 								},
 								["Death and Decay"] = {
 									["count"] = 23.17,
@@ -32347,8 +32374,8 @@ RecountPerCharDB = {
 								["Frost Fever (DoT)"] = {
 									["count"] = 0.01,
 								},
-								["Scourge Strike (Shadow)"] = {
-									["count"] = 0,
+								["Wandering Plague"] = {
+									["count"] = 0.82,
 								},
 							},
 							["amount"] = 44.37,
@@ -32440,8 +32467,8 @@ RecountPerCharDB = {
 						},
 						["Crystalline Protector"] = {
 							["Details"] = {
-								["Icy Touch"] = {
-									["count"] = 3.02,
+								["Death Coil"] = {
+									["count"] = 0,
 								},
 								["Scourge Strike"] = {
 									["count"] = 0.46,
@@ -32449,11 +32476,11 @@ RecountPerCharDB = {
 								["Melee"] = {
 									["count"] = 0.01,
 								},
-								["Death and Decay"] = {
-									["count"] = 6.04,
-								},
-								["Death Coil"] = {
+								["Chaos Bane"] = {
 									["count"] = 0,
+								},
+								["Icy Touch"] = {
+									["count"] = 3.02,
 								},
 								["Unholy Blight (DoT)"] = {
 									["count"] = 0,
@@ -32485,8 +32512,8 @@ RecountPerCharDB = {
 								["Frost Fever (DoT)"] = {
 									["count"] = 1.9,
 								},
-								["Chaos Bane"] = {
-									["count"] = 0,
+								["Death and Decay"] = {
+									["count"] = 6.04,
 								},
 							},
 							["amount"] = 19.76000000000001,
@@ -32643,25 +32670,25 @@ RecountPerCharDB = {
 								["Unholy Strength"] = {
 									["count"] = 0,
 								},
-								["Judgement of Light"] = {
-									["count"] = 3.06,
+								["Improved Leader of the Pack"] = {
+									["count"] = 0,
 								},
 								["Blood Presence"] = {
 									["count"] = 185.3400000000001,
 								},
-								["Improved Leader of the Pack"] = {
-									["count"] = 0,
-								},
 								["Death Strike"] = {
 									["count"] = 0.42,
+								},
+								["Judgement of Light"] = {
+									["count"] = 3.06,
 								},
 							},
 							["amount"] = 188.82,
 						},
 						["Grand Magus Telestra"] = {
 							["Details"] = {
-								["Chaos Bane"] = {
-									["count"] = 0.39,
+								["Death and Decay"] = {
+									["count"] = 5.299999999999999,
 								},
 								["Scourge Strike"] = {
 									["count"] = 1.07,
@@ -32669,11 +32696,11 @@ RecountPerCharDB = {
 								["Melee"] = {
 									["count"] = 0,
 								},
-								["Death and Decay"] = {
-									["count"] = 5.299999999999999,
+								["Chaos Bane"] = {
+									["count"] = 0.39,
 								},
-								["Icy Touch"] = {
-									["count"] = 4.1,
+								["Blood Strike"] = {
+									["count"] = 1.42,
 								},
 								["Unholy Blight (DoT)"] = {
 									["count"] = 4.560000000000001,
@@ -32705,15 +32732,15 @@ RecountPerCharDB = {
 								["Frost Fever (DoT)"] = {
 									["count"] = 1.05,
 								},
-								["Blood Strike"] = {
-									["count"] = 1.42,
+								["Icy Touch"] = {
+									["count"] = 4.1,
 								},
 							},
 							["amount"] = 28.54000000000001,
 						},
 						["Mage Slayer"] = {
 							["Details"] = {
-								["Death and Decay"] = {
+								["Chaos Bane"] = {
 									["count"] = 0,
 								},
 								["Scourge Strike"] = {
@@ -32722,11 +32749,11 @@ RecountPerCharDB = {
 								["Melee"] = {
 									["count"] = 0,
 								},
-								["Chaos Bane"] = {
+								["Death and Decay"] = {
 									["count"] = 0,
 								},
-								["Death Coil"] = {
-									["count"] = 0,
+								["Icy Touch"] = {
+									["count"] = 0.36,
 								},
 								["Unholy Blight (DoT)"] = {
 									["count"] = 0.53,
@@ -32758,8 +32785,8 @@ RecountPerCharDB = {
 								["Frost Fever (DoT)"] = {
 									["count"] = 0,
 								},
-								["Icy Touch"] = {
-									["count"] = 0.36,
+								["Death Coil"] = {
+									["count"] = 0,
 								},
 							},
 							["amount"] = 2.04,
@@ -32807,11 +32834,11 @@ RecountPerCharDB = {
 						},
 						["Chaotic Rift"] = {
 							["Details"] = {
-								["Necrosis"] = {
-									["count"] = 0.01,
-								},
 								["Scourge Strike"] = {
 									["count"] = 0.1,
+								},
+								["Necrosis"] = {
+									["count"] = 0.01,
 								},
 								["Melee"] = {
 									["count"] = 0,
@@ -32819,7 +32846,7 @@ RecountPerCharDB = {
 								["Death and Decay"] = {
 									["count"] = 0,
 								},
-								["Death Coil"] = {
+								["Icy Touch"] = {
 									["count"] = 0,
 								},
 								["Plague Strike"] = {
@@ -32828,7 +32855,7 @@ RecountPerCharDB = {
 								["Blood-Caked Strike"] = {
 									["count"] = 0,
 								},
-								["Icy Touch"] = {
+								["Death Coil"] = {
 									["count"] = 0,
 								},
 							},
@@ -33038,8 +33065,8 @@ RecountPerCharDB = {
 						},
 						["Horde Ranger"] = {
 							["Details"] = {
-								["Death Coil"] = {
-									["count"] = 2.33,
+								["Blood Strike"] = {
+									["count"] = 0.22,
 								},
 								["Scourge Strike"] = {
 									["count"] = 1.04,
@@ -33050,14 +33077,14 @@ RecountPerCharDB = {
 								["Death and Decay"] = {
 									["count"] = 0,
 								},
-								["Blood Strike"] = {
-									["count"] = 0.22,
+								["Death Coil"] = {
+									["count"] = 2.33,
 								},
 								["Unholy Blight (DoT)"] = {
 									["count"] = 1.16,
 								},
-								["Wandering Plague"] = {
-									["count"] = 0,
+								["Retribution Aura"] = {
+									["count"] = 1.52,
 								},
 								["Chaos Bane"] = {
 									["count"] = 0.28,
@@ -33083,8 +33110,8 @@ RecountPerCharDB = {
 								["Frost Fever (DoT)"] = {
 									["count"] = 0.24,
 								},
-								["Retribution Aura"] = {
-									["count"] = 1.52,
+								["Wandering Plague"] = {
+									["count"] = 0,
 								},
 							},
 							["amount"] = 15.25,
@@ -33241,10 +33268,10 @@ RecountPerCharDB = {
 								["Wandering Plague"] = {
 									["count"] = 3,
 								},
-								["Necrosis"] = {
+								["Blood Plague"] = {
 									["count"] = 0,
 								},
-								["Blood Plague"] = {
+								["Necrosis"] = {
 									["count"] = 0,
 								},
 								["Blood Plague (DoT)"] = {
@@ -33276,17 +33303,17 @@ RecountPerCharDB = {
 								["Unholy Strength"] = {
 									["count"] = 12298,
 								},
-								["Judgement of Light"] = {
-									["count"] = 40525,
+								["Improved Leader of the Pack"] = {
+									["count"] = 14625,
 								},
 								["Blood Presence"] = {
 									["count"] = 62943,
 								},
-								["Improved Leader of the Pack"] = {
-									["count"] = 14625,
-								},
 								["Death Strike"] = {
 									["count"] = 5314,
+								},
+								["Judgement of Light"] = {
+									["count"] = 40525,
 								},
 							},
 							["amount"] = 135705,
@@ -33504,18 +33531,6 @@ RecountPerCharDB = {
 							["count"] = 41,
 							["amount"] = 75382,
 						},
-						["Retribution Aura"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 263,
-									["min"] = 111,
-									["count"] = 62,
-									["amount"] = 14308,
-								},
-							},
-							["count"] = 62,
-							["amount"] = 14308,
-						},
 						["Scourge Strike (Shadow)"] = {
 							["Details"] = {
 								["Hit"] = {
@@ -33527,6 +33542,18 @@ RecountPerCharDB = {
 							},
 							["count"] = 34,
 							["amount"] = 137728,
+						},
+						["Retribution Aura"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 263,
+									["min"] = 111,
+									["count"] = 62,
+									["amount"] = 14308,
+								},
+							},
+							["count"] = 62,
+							["amount"] = 14308,
 						},
 						["Blood Boil"] = {
 							["Details"] = {
@@ -33796,8 +33823,8 @@ RecountPerCharDB = {
 						},
 						["Mage Hunter Ascendant"] = {
 							["Details"] = {
-								["Wandering Plague"] = {
-									["count"] = 0.82,
+								["Retribution Aura"] = {
+									["count"] = 2.35,
 								},
 								["Scourge Strike"] = {
 									["count"] = 2,
@@ -33814,8 +33841,8 @@ RecountPerCharDB = {
 								["Unholy Blight (DoT)"] = {
 									["count"] = 1.01,
 								},
-								["Retribution Aura"] = {
-									["count"] = 2.35,
+								["Scourge Strike (Shadow)"] = {
+									["count"] = 0,
 								},
 								["Death and Decay"] = {
 									["count"] = 23.17,
@@ -33841,8 +33868,8 @@ RecountPerCharDB = {
 								["Frost Fever (DoT)"] = {
 									["count"] = 0.01,
 								},
-								["Scourge Strike (Shadow)"] = {
-									["count"] = 0,
+								["Wandering Plague"] = {
+									["count"] = 0.82,
 								},
 							},
 							["amount"] = 44.37,
@@ -33934,8 +33961,8 @@ RecountPerCharDB = {
 						},
 						["Crystalline Protector"] = {
 							["Details"] = {
-								["Icy Touch"] = {
-									["count"] = 3.02,
+								["Death Coil"] = {
+									["count"] = 0,
 								},
 								["Scourge Strike"] = {
 									["count"] = 0.46,
@@ -33943,11 +33970,11 @@ RecountPerCharDB = {
 								["Melee"] = {
 									["count"] = 0.01,
 								},
-								["Death and Decay"] = {
-									["count"] = 6.04,
-								},
-								["Death Coil"] = {
+								["Chaos Bane"] = {
 									["count"] = 0,
+								},
+								["Icy Touch"] = {
+									["count"] = 3.02,
 								},
 								["Unholy Blight (DoT)"] = {
 									["count"] = 0,
@@ -33979,8 +34006,8 @@ RecountPerCharDB = {
 								["Frost Fever (DoT)"] = {
 									["count"] = 1.9,
 								},
-								["Chaos Bane"] = {
-									["count"] = 0,
+								["Death and Decay"] = {
+									["count"] = 6.04,
 								},
 							},
 							["amount"] = 19.76000000000001,
@@ -34134,8 +34161,8 @@ RecountPerCharDB = {
 						},
 						["Grand Magus Telestra"] = {
 							["Details"] = {
-								["Chaos Bane"] = {
-									["count"] = 0.39,
+								["Death and Decay"] = {
+									["count"] = 5.299999999999999,
 								},
 								["Scourge Strike"] = {
 									["count"] = 1.07,
@@ -34143,11 +34170,11 @@ RecountPerCharDB = {
 								["Melee"] = {
 									["count"] = 0,
 								},
-								["Death and Decay"] = {
-									["count"] = 5.299999999999999,
+								["Chaos Bane"] = {
+									["count"] = 0.39,
 								},
-								["Icy Touch"] = {
-									["count"] = 4.1,
+								["Blood Strike"] = {
+									["count"] = 1.42,
 								},
 								["Unholy Blight (DoT)"] = {
 									["count"] = 4.560000000000001,
@@ -34179,15 +34206,15 @@ RecountPerCharDB = {
 								["Frost Fever (DoT)"] = {
 									["count"] = 1.05,
 								},
-								["Blood Strike"] = {
-									["count"] = 1.42,
+								["Icy Touch"] = {
+									["count"] = 4.1,
 								},
 							},
 							["amount"] = 28.54000000000001,
 						},
 						["Mage Slayer"] = {
 							["Details"] = {
-								["Death and Decay"] = {
+								["Chaos Bane"] = {
 									["count"] = 0,
 								},
 								["Scourge Strike"] = {
@@ -34196,11 +34223,11 @@ RecountPerCharDB = {
 								["Melee"] = {
 									["count"] = 0,
 								},
-								["Chaos Bane"] = {
+								["Death and Decay"] = {
 									["count"] = 0,
 								},
-								["Death Coil"] = {
-									["count"] = 0,
+								["Icy Touch"] = {
+									["count"] = 0.36,
 								},
 								["Unholy Blight (DoT)"] = {
 									["count"] = 0.53,
@@ -34232,8 +34259,8 @@ RecountPerCharDB = {
 								["Frost Fever (DoT)"] = {
 									["count"] = 0,
 								},
-								["Icy Touch"] = {
-									["count"] = 0.36,
+								["Death Coil"] = {
+									["count"] = 0,
 								},
 							},
 							["amount"] = 2.04,
@@ -34281,11 +34308,11 @@ RecountPerCharDB = {
 						},
 						["Chaotic Rift"] = {
 							["Details"] = {
-								["Necrosis"] = {
-									["count"] = 0.01,
-								},
 								["Scourge Strike"] = {
 									["count"] = 0.1,
+								},
+								["Necrosis"] = {
+									["count"] = 0.01,
 								},
 								["Melee"] = {
 									["count"] = 0,
@@ -34293,7 +34320,7 @@ RecountPerCharDB = {
 								["Death and Decay"] = {
 									["count"] = 0,
 								},
-								["Death Coil"] = {
+								["Icy Touch"] = {
 									["count"] = 0,
 								},
 								["Plague Strike"] = {
@@ -34302,7 +34329,7 @@ RecountPerCharDB = {
 								["Blood-Caked Strike"] = {
 									["count"] = 0,
 								},
-								["Icy Touch"] = {
+								["Death Coil"] = {
 									["count"] = 0,
 								},
 							},
@@ -34512,8 +34539,8 @@ RecountPerCharDB = {
 						},
 						["Horde Ranger"] = {
 							["Details"] = {
-								["Death Coil"] = {
-									["count"] = 2.33,
+								["Blood Strike"] = {
+									["count"] = 0.22,
 								},
 								["Scourge Strike"] = {
 									["count"] = 1.04,
@@ -34524,14 +34551,14 @@ RecountPerCharDB = {
 								["Death and Decay"] = {
 									["count"] = 0,
 								},
-								["Blood Strike"] = {
-									["count"] = 0.22,
+								["Death Coil"] = {
+									["count"] = 2.33,
 								},
 								["Unholy Blight (DoT)"] = {
 									["count"] = 1.16,
 								},
-								["Wandering Plague"] = {
-									["count"] = 0,
+								["Retribution Aura"] = {
+									["count"] = 1.52,
 								},
 								["Chaos Bane"] = {
 									["count"] = 0.28,
@@ -34557,8 +34584,8 @@ RecountPerCharDB = {
 								["Frost Fever (DoT)"] = {
 									["count"] = 0.24,
 								},
-								["Retribution Aura"] = {
-									["count"] = 1.52,
+								["Wandering Plague"] = {
+									["count"] = 0,
 								},
 							},
 							["amount"] = 15.25,
@@ -34715,10 +34742,10 @@ RecountPerCharDB = {
 								["Wandering Plague"] = {
 									["count"] = 3,
 								},
-								["Necrosis"] = {
+								["Blood Plague"] = {
 									["count"] = 0,
 								},
-								["Blood Plague"] = {
+								["Necrosis"] = {
 									["count"] = 0,
 								},
 								["Blood Plague (DoT)"] = {
@@ -34744,7 +34771,7 @@ RecountPerCharDB = {
 						},
 					},
 					["RunicPowerGain"] = 87,
-					["DamageTaken"] = 350042,
+					["DamageTaken"] = 356927,
 					["ElementHitsDone"] = {
 						["Shadow"] = {
 							["Details"] = {
@@ -34844,7 +34871,7 @@ RecountPerCharDB = {
 				},
 			},
 			["UnitLockout"] = 1619544301,
-			["LastActive"] = 1619545137,
+			["LastActive"] = 1621774476,
 		},
 		["Grand Magus Telestra"] = {
 			["GUID"] = "0xF13000686B00005A",
@@ -34974,7 +35001,7 @@ RecountPerCharDB = {
 			},
 			["enClass"] = "MOB",
 			["unit"] = "playertarget",
-			["LastAbility"] = 1306.632,
+			["LastAbility"] = 4982.039,
 			["level"] = -1,
 			["LastDamageAbility"] = "Melee",
 			["LastFightIn"] = 3,
@@ -35019,10 +35046,10 @@ RecountPerCharDB = {
 				nil, -- [38]
 				11.00569864060361, -- [39]
 				10.75419439050014, -- [40]
-				[47] = 3.436935934525134,
 				[50] = 4.985514628633282,
-				[49] = 1.142911718824616,
+				[47] = 3.436935934525134,
 				[46] = 0.5501570111020449,
+				[49] = 1.142911718824616,
 			},
 			["type"] = "Boss",
 			["FightsSaved"] = 4,
@@ -38206,16 +38233,16 @@ RecountPerCharDB = {
 							["count"] = 7,
 							["amount"] = 0,
 						},
-						["Melee"] = {
+						["Rake"] = {
 							["Details"] = {
 								["No Resist"] = {
 									["max"] = 0,
 									["min"] = 0,
-									["count"] = 84,
+									["count"] = 1,
 									["amount"] = 0,
 								},
 							},
-							["count"] = 84,
+							["count"] = 1,
 							["amount"] = 0,
 						},
 						["Rake (DoT)"] = {
@@ -38338,16 +38365,16 @@ RecountPerCharDB = {
 							["count"] = 13,
 							["amount"] = 558,
 						},
-						["Rake"] = {
+						["Melee"] = {
 							["Details"] = {
 								["No Resist"] = {
 									["max"] = 0,
 									["min"] = 0,
-									["count"] = 1,
+									["count"] = 84,
 									["amount"] = 0,
 								},
 							},
-							["count"] = 1,
+							["count"] = 84,
 							["amount"] = 0,
 						},
 						["Death and Decay"] = {
@@ -38374,16 +38401,16 @@ RecountPerCharDB = {
 							["count"] = 39,
 							["amount"] = 3438,
 						},
-						["Plague Strike"] = {
+						["Claw"] = {
 							["Details"] = {
 								["No Resist"] = {
 									["max"] = 0,
 									["min"] = 0,
-									["count"] = 6,
+									["count"] = 13,
 									["amount"] = 0,
 								},
 							},
-							["count"] = 6,
+							["count"] = 13,
 							["amount"] = 0,
 						},
 						["Frost Fever (DoT)"] = {
@@ -38404,16 +38431,16 @@ RecountPerCharDB = {
 							["count"] = 37,
 							["amount"] = 1722,
 						},
-						["Claw"] = {
+						["Plague Strike"] = {
 							["Details"] = {
 								["No Resist"] = {
 									["max"] = 0,
 									["min"] = 0,
-									["count"] = 13,
+									["count"] = 6,
 									["amount"] = 0,
 								},
 							},
-							["count"] = 13,
+							["count"] = 6,
 							["amount"] = 0,
 						},
 					},
@@ -38635,16 +38662,16 @@ RecountPerCharDB = {
 							["count"] = 7,
 							["amount"] = 0,
 						},
-						["Melee"] = {
+						["Rake"] = {
 							["Details"] = {
 								["No Absorb"] = {
 									["max"] = 0,
 									["min"] = 0,
-									["count"] = 84,
+									["count"] = 1,
 									["amount"] = 0,
 								},
 							},
-							["count"] = 84,
+							["count"] = 1,
 							["amount"] = 0,
 						},
 						["Rake (DoT)"] = {
@@ -38743,16 +38770,16 @@ RecountPerCharDB = {
 							["count"] = 13,
 							["amount"] = 0,
 						},
-						["Rake"] = {
+						["Melee"] = {
 							["Details"] = {
 								["No Absorb"] = {
 									["max"] = 0,
 									["min"] = 0,
-									["count"] = 1,
+									["count"] = 84,
 									["amount"] = 0,
 								},
 							},
-							["count"] = 1,
+							["count"] = 84,
 							["amount"] = 0,
 						},
 						["Death and Decay"] = {
@@ -38767,16 +38794,16 @@ RecountPerCharDB = {
 							["count"] = 39,
 							["amount"] = 0,
 						},
-						["Plague Strike"] = {
+						["Claw"] = {
 							["Details"] = {
 								["No Absorb"] = {
 									["max"] = 0,
 									["min"] = 0,
-									["count"] = 6,
+									["count"] = 13,
 									["amount"] = 0,
 								},
 							},
-							["count"] = 6,
+							["count"] = 13,
 							["amount"] = 0,
 						},
 						["Frost Fever (DoT)"] = {
@@ -38791,16 +38818,16 @@ RecountPerCharDB = {
 							["count"] = 37,
 							["amount"] = 0,
 						},
-						["Claw"] = {
+						["Plague Strike"] = {
 							["Details"] = {
 								["No Absorb"] = {
 									["max"] = 0,
 									["min"] = 0,
-									["count"] = 13,
+									["count"] = 6,
 									["amount"] = 0,
 								},
 							},
-							["count"] = 13,
+							["count"] = 6,
 							["amount"] = 0,
 						},
 					},
@@ -38846,10 +38873,111 @@ RecountPerCharDB = {
 					["ElementDoneAbsorb"] = {
 						["Fire"] = 7457,
 					},
-					["ElementDone"] = {
-						["Fire"] = 64521,
-						["Melee"] = 18387,
-						["Frost"] = 42022,
+					["Attacks"] = {
+						["Ice Nova"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 3640,
+									["min"] = 362,
+									["count"] = 5,
+									["amount"] = 12855,
+								},
+								["Miss"] = {
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 6,
+							["amount"] = 12855,
+						},
+						["Blizzard (DoT)"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 2000,
+									["min"] = 200,
+									["count"] = 17,
+									["amount"] = 25760,
+								},
+							},
+							["count"] = 17,
+							["amount"] = 25760,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Parry"] = {
+									["count"] = 1,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 3616,
+									["min"] = 1901,
+									["count"] = 7,
+									["amount"] = 18387,
+								},
+								["Dodge"] = {
+									["count"] = 4,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 12,
+							["amount"] = 18387,
+						},
+						["Scorch"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 3428,
+									["min"] = 2118,
+									["count"] = 8,
+									["amount"] = 23691,
+								},
+							},
+							["count"] = 8,
+							["amount"] = 23691,
+						},
+						["Firebomb"] = {
+							["Details"] = {
+								["Absorb"] = {
+									["count"] = 1,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 3575,
+									["min"] = 191,
+									["count"] = 13,
+									["amount"] = 27596,
+								},
+								["Miss"] = {
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 15,
+							["amount"] = 27596,
+						},
+						["Ice Barb"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 901,
+									["min"] = 775,
+									["count"] = 4,
+									["amount"] = 3407,
+								},
+							},
+							["count"] = 4,
+							["amount"] = 3407,
+						},
+						["Fire Blast"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 4205,
+									["min"] = 2016,
+									["count"] = 4,
+									["amount"] = 13234,
+								},
+							},
+							["count"] = 4,
+							["amount"] = 13234,
+						},
 					},
 					["WhoDamaged"] = {
 						["Jungee"] = {
@@ -38869,14 +38997,14 @@ RecountPerCharDB = {
 								["Blood Plague (DoT)"] = {
 									["count"] = 2990,
 								},
-								["Frost Fever (DoT)"] = {
-									["count"] = 9139,
+								["Death Strike"] = {
+									["count"] = 1760,
 								},
 								["Plague Strike"] = {
 									["count"] = 2938,
 								},
-								["Death Strike"] = {
-									["count"] = 1760,
+								["Frost Fever (DoT)"] = {
+									["count"] = 9139,
 								},
 								["Icy Touch"] = {
 									["count"] = 10952,
@@ -38886,8 +39014,8 @@ RecountPerCharDB = {
 						},
 						["Urgash"] = {
 							["Details"] = {
-								["Chaos Bane"] = {
-									["count"] = 2671,
+								["Death and Decay"] = {
+									["count"] = 30108,
 								},
 								["Scourge Strike"] = {
 									["count"] = 20891,
@@ -38895,11 +39023,11 @@ RecountPerCharDB = {
 								["Melee"] = {
 									["count"] = 60753,
 								},
-								["Death and Decay"] = {
-									["count"] = 30108,
+								["Chaos Bane"] = {
+									["count"] = 2671,
 								},
-								["Icy Touch"] = {
-									["count"] = 12830,
+								["Blood Strike"] = {
+									["count"] = 17233,
 								},
 								["Unholy Blight (DoT)"] = {
 									["count"] = 2287,
@@ -38931,22 +39059,22 @@ RecountPerCharDB = {
 								["Frost Fever (DoT)"] = {
 									["count"] = 37963,
 								},
-								["Blood Strike"] = {
-									["count"] = 17233,
+								["Icy Touch"] = {
+									["count"] = 12830,
 								},
 							},
 							["amount"] = 303131,
 						},
 						["Maijuur"] = {
 							["Details"] = {
-								["Rake (DoT)"] = {
-									["count"] = 5646,
-								},
-								["Melee"] = {
-									["count"] = 41714,
-								},
 								["Swipe (Cat)"] = {
 									["count"] = 90388,
+								},
+								["Rake"] = {
+									["count"] = 527,
+								},
+								["Rake (DoT)"] = {
+									["count"] = 5646,
 								},
 								["Shred"] = {
 									["count"] = 4558,
@@ -38957,8 +39085,8 @@ RecountPerCharDB = {
 								["Retribution Aura"] = {
 									["count"] = 446,
 								},
-								["Rake"] = {
-									["count"] = 527,
+								["Melee"] = {
+									["count"] = 41714,
 								},
 							},
 							["amount"] = 152325,
@@ -39021,48 +39149,126 @@ RecountPerCharDB = {
 							["amount"] = 64372,
 						},
 					},
-					["ElementHitsDone"] = {
-						["Fire"] = {
+					["DamagedWho"] = {
+						["Maijuur"] = {
 							["Details"] = {
-								["Absorb"] = {
-									["count"] = 1,
+								["Ice Nova"] = {
+									["count"] = 2052,
 								},
-								["Hit"] = {
-									["count"] = 25,
+								["Blizzard (DoT)"] = {
+									["count"] = 3640,
 								},
-								["Miss"] = {
-									["count"] = 1,
+								["Melee"] = {
+									["count"] = 7185,
+								},
+								["Scorch"] = {
+									["count"] = 2118,
+								},
+								["Firebomb"] = {
+									["count"] = 5900,
+								},
+								["Ice Barb"] = {
+									["count"] = 775,
+								},
+								["Fire Blast"] = {
+									["count"] = 4205,
 								},
 							},
-							["amount"] = 27,
+							["amount"] = 25875,
 						},
-						["Melee"] = {
+						["Casketbasher <Urgash>"] = {
 							["Details"] = {
-								["Parry"] = {
-									["count"] = 1,
+								["Ice Nova"] = {
+									["count"] = 362,
 								},
-								["Hit"] = {
-									["count"] = 7,
+								["Firebomb"] = {
+									["count"] = 638,
 								},
-								["Dodge"] = {
-									["count"] = 4,
+								["Blizzard (DoT)"] = {
+									["count"] = 600,
+								},
+								["Scorch"] = {
+									["count"] = 9589,
 								},
 							},
-							["amount"] = 12,
+							["amount"] = 11189,
 						},
-						["Frost"] = {
+						["Urgash"] = {
 							["Details"] = {
-								["Tick"] = {
-									["count"] = 17,
+								["Ice Nova"] = {
+									["count"] = 3640,
 								},
-								["Miss"] = {
-									["count"] = 1,
+								["Firebomb"] = {
+									["count"] = 5977,
 								},
-								["Hit"] = {
-									["count"] = 9,
+								["Melee"] = {
+									["count"] = 5464,
+								},
+								["Blizzard (DoT)"] = {
+									["count"] = 4000,
 								},
 							},
-							["amount"] = 27,
+							["amount"] = 19081,
+						},
+						["Bigepapa"] = {
+							["Details"] = {
+								["Scorch"] = {
+									["count"] = 3358,
+								},
+								["Firebomb"] = {
+									["count"] = 6098,
+								},
+								["Blizzard (DoT)"] = {
+									["count"] = 6000,
+								},
+							},
+							["amount"] = 15456,
+						},
+						["Jungee"] = {
+							["Details"] = {
+								["Ice Nova"] = {
+									["count"] = 3388,
+								},
+								["Blizzard (DoT)"] = {
+									["count"] = 5520,
+								},
+								["Melee"] = {
+									["count"] = 5738,
+								},
+								["Scorch"] = {
+									["count"] = 5297,
+								},
+								["Firebomb"] = {
+									["count"] = 2912,
+								},
+								["Ice Barb"] = {
+									["count"] = 835,
+								},
+								["Fire Blast"] = {
+									["count"] = 9029,
+								},
+							},
+							["amount"] = 32719,
+						},
+						["Angeletee"] = {
+							["Details"] = {
+								["Ice Nova"] = {
+									["count"] = 3413,
+								},
+								["Blizzard (DoT)"] = {
+									["count"] = 6000,
+								},
+								["Ice Barb"] = {
+									["count"] = 1797,
+								},
+								["Scorch"] = {
+									["count"] = 3329,
+								},
+								["Firebomb"] = {
+									["count"] = 6071,
+								},
+							},
+							["amount"] = 20610,
 						},
 					},
 					["TimeDamage"] = 44.45999999999999,
@@ -39191,233 +39397,54 @@ RecountPerCharDB = {
 							["amount"] = 10.64,
 						},
 					},
-					["DamagedWho"] = {
-						["Maijuur"] = {
+					["ElementHitsDone"] = {
+						["Fire"] = {
 							["Details"] = {
-								["Ice Nova"] = {
-									["count"] = 2052,
+								["Absorb"] = {
+									["count"] = 1,
 								},
-								["Blizzard (DoT)"] = {
-									["count"] = 3640,
-								},
-								["Melee"] = {
-									["count"] = 7185,
-								},
-								["Scorch"] = {
-									["count"] = 2118,
-								},
-								["Firebomb"] = {
-									["count"] = 5900,
-								},
-								["Ice Barb"] = {
-									["count"] = 775,
-								},
-								["Fire Blast"] = {
-									["count"] = 4205,
-								},
-							},
-							["amount"] = 25875,
-						},
-						["Casketbasher <Urgash>"] = {
-							["Details"] = {
-								["Ice Nova"] = {
-									["count"] = 362,
-								},
-								["Firebomb"] = {
-									["count"] = 638,
-								},
-								["Blizzard (DoT)"] = {
-									["count"] = 600,
-								},
-								["Scorch"] = {
-									["count"] = 9589,
-								},
-							},
-							["amount"] = 11189,
-						},
-						["Urgash"] = {
-							["Details"] = {
-								["Ice Nova"] = {
-									["count"] = 3640,
-								},
-								["Firebomb"] = {
-									["count"] = 5977,
-								},
-								["Melee"] = {
-									["count"] = 5464,
-								},
-								["Blizzard (DoT)"] = {
-									["count"] = 4000,
-								},
-							},
-							["amount"] = 19081,
-						},
-						["Bigepapa"] = {
-							["Details"] = {
-								["Scorch"] = {
-									["count"] = 3358,
-								},
-								["Firebomb"] = {
-									["count"] = 6098,
-								},
-								["Blizzard (DoT)"] = {
-									["count"] = 6000,
-								},
-							},
-							["amount"] = 15456,
-						},
-						["Jungee"] = {
-							["Details"] = {
-								["Ice Nova"] = {
-									["count"] = 3388,
-								},
-								["Blizzard (DoT)"] = {
-									["count"] = 5520,
-								},
-								["Melee"] = {
-									["count"] = 5738,
-								},
-								["Scorch"] = {
-									["count"] = 5297,
-								},
-								["Firebomb"] = {
-									["count"] = 2912,
-								},
-								["Ice Barb"] = {
-									["count"] = 835,
-								},
-								["Fire Blast"] = {
-									["count"] = 9029,
-								},
-							},
-							["amount"] = 32719,
-						},
-						["Angeletee"] = {
-							["Details"] = {
-								["Ice Nova"] = {
-									["count"] = 3413,
-								},
-								["Blizzard (DoT)"] = {
-									["count"] = 6000,
-								},
-								["Ice Barb"] = {
-									["count"] = 1797,
-								},
-								["Scorch"] = {
-									["count"] = 3329,
-								},
-								["Firebomb"] = {
-									["count"] = 6071,
-								},
-							},
-							["amount"] = 20610,
-						},
-					},
-					["Attacks"] = {
-						["Ice Nova"] = {
-							["Details"] = {
 								["Hit"] = {
-									["max"] = 3640,
-									["min"] = 362,
-									["count"] = 5,
-									["amount"] = 12855,
+									["count"] = 25,
 								},
 								["Miss"] = {
 									["count"] = 1,
-									["amount"] = 0,
 								},
 							},
-							["count"] = 6,
-							["amount"] = 12855,
-						},
-						["Blizzard (DoT)"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 2000,
-									["min"] = 200,
-									["count"] = 17,
-									["amount"] = 25760,
-								},
-							},
-							["count"] = 17,
-							["amount"] = 25760,
+							["amount"] = 27,
 						},
 						["Melee"] = {
 							["Details"] = {
 								["Parry"] = {
 									["count"] = 1,
-									["amount"] = 0,
 								},
 								["Hit"] = {
-									["max"] = 3616,
-									["min"] = 1901,
 									["count"] = 7,
-									["amount"] = 18387,
 								},
 								["Dodge"] = {
 									["count"] = 4,
-									["amount"] = 0,
 								},
 							},
-							["count"] = 12,
-							["amount"] = 18387,
+							["amount"] = 12,
 						},
-						["Scorch"] = {
+						["Frost"] = {
 							["Details"] = {
-								["Hit"] = {
-									["max"] = 3428,
-									["min"] = 2118,
-									["count"] = 8,
-									["amount"] = 23691,
-								},
-							},
-							["count"] = 8,
-							["amount"] = 23691,
-						},
-						["Firebomb"] = {
-							["Details"] = {
-								["Absorb"] = {
-									["count"] = 1,
-									["amount"] = 0,
-								},
-								["Hit"] = {
-									["max"] = 3575,
-									["min"] = 191,
-									["count"] = 13,
-									["amount"] = 27596,
+								["Tick"] = {
+									["count"] = 17,
 								},
 								["Miss"] = {
 									["count"] = 1,
-									["amount"] = 0,
 								},
-							},
-							["count"] = 15,
-							["amount"] = 27596,
-						},
-						["Ice Barb"] = {
-							["Details"] = {
 								["Hit"] = {
-									["max"] = 901,
-									["min"] = 775,
-									["count"] = 4,
-									["amount"] = 3407,
+									["count"] = 9,
 								},
 							},
-							["count"] = 4,
-							["amount"] = 3407,
+							["amount"] = 27,
 						},
-						["Fire Blast"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 4205,
-									["min"] = 2016,
-									["count"] = 4,
-									["amount"] = 13234,
-								},
-							},
-							["count"] = 4,
-							["amount"] = 13234,
-						},
+					},
+					["ElementDone"] = {
+						["Fire"] = 64521,
+						["Melee"] = 18387,
+						["Frost"] = 42022,
 					},
 					["TimeSpent"] = {
 						["Jungee"] = {
@@ -39558,14 +39585,13 @@ RecountPerCharDB = {
 					},
 					["DeathCount"] = 0,
 					["HOT_Time"] = 0,
-					["ElementTakenBlock"] = {
-					},
+					["Damage"] = 0,
 					["RunicPowerGain"] = 0,
 					["ElementTaken"] = {
 					},
-					["HOTs"] = {
+					["DOT_Time"] = 0,
+					["ElementTakenBlock"] = {
 					},
-					["Damage"] = 0,
 					["ElementDoneAbsorb"] = {
 					},
 					["TimeHeal"] = 0,
@@ -39574,32 +39600,33 @@ RecountPerCharDB = {
 					["Dispels"] = 0,
 					["PartialBlock"] = {
 					},
-					["DamagedWho"] = {
+					["ElementHitsDone"] = {
 					},
 					["FAttacks"] = {
 					},
 					["HealingTaken"] = 0,
 					["ElementDone"] = {
 					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementHitsDone"] = {
+					["DamagedWho"] = {
 					},
 					["ManaGainedFrom"] = {
+					},
+					["RunicPowerGained"] = {
 					},
 					["WhoDamaged"] = {
 					},
 					["EnergyGainedFrom"] = {
 					},
-					["RunicPowerGained"] = {
-					},
 					["CCBroken"] = {
+					},
+					["RunicPowerGainedFrom"] = {
 					},
 					["ElementDoneBlock"] = {
 					},
 					["TimeHealing"] = {
 					},
-					["Dispelled"] = 0,
+					["OverHeals"] = {
+					},
 					["WhoHealed"] = {
 					},
 					["HealedWho"] = {
@@ -39607,13 +39634,14 @@ RecountPerCharDB = {
 					["CCBreak"] = 0,
 					["ElementTakenAbsorb"] = {
 					},
-					["FDamage"] = 0,
-					["EnergyGain"] = 0,
-					["ManaGained"] = {
-					},
 					["PartialAbsorb"] = {
 					},
-					["ActiveTime"] = 0,
+					["PartialResist"] = {
+					},
+					["ManaGained"] = {
+					},
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
 					["Overhealing"] = 0,
 					["TimeSpent"] = {
 					},
@@ -39625,15 +39653,13 @@ RecountPerCharDB = {
 					},
 					["Heals"] = {
 					},
-					["Interrupts"] = 0,
+					["ActiveTime"] = 0,
 					["EnergyGained"] = {
 					},
-					["PartialResist"] = {
-					},
+					["EnergyGain"] = 0,
 					["Healing"] = 0,
+					["Dispelled"] = 0,
 					["RageGained"] = {
-					},
-					["OverHeals"] = {
 					},
 					["Attacks"] = {
 					},
@@ -39644,7 +39670,8 @@ RecountPerCharDB = {
 					["TimeDamaging"] = {
 					},
 					["ManaGain"] = 0,
-					["DOT_Time"] = 0,
+					["HOTs"] = {
+					},
 					["DispelledWho"] = {
 					},
 				},
@@ -39661,14 +39688,13 @@ RecountPerCharDB = {
 					},
 					["DeathCount"] = 0,
 					["HOT_Time"] = 0,
-					["ElementTakenBlock"] = {
-					},
+					["Damage"] = 0,
 					["RunicPowerGain"] = 0,
 					["ElementTaken"] = {
 					},
-					["HOTs"] = {
+					["DOT_Time"] = 0,
+					["ElementTakenBlock"] = {
 					},
-					["Damage"] = 0,
 					["ElementDoneAbsorb"] = {
 					},
 					["TimeHeal"] = 0,
@@ -39677,32 +39703,33 @@ RecountPerCharDB = {
 					["Dispels"] = 0,
 					["PartialBlock"] = {
 					},
-					["DamagedWho"] = {
+					["ElementHitsDone"] = {
 					},
 					["FAttacks"] = {
 					},
 					["HealingTaken"] = 0,
 					["ElementDone"] = {
 					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementHitsDone"] = {
+					["DamagedWho"] = {
 					},
 					["ManaGainedFrom"] = {
+					},
+					["RunicPowerGained"] = {
 					},
 					["WhoDamaged"] = {
 					},
 					["EnergyGainedFrom"] = {
 					},
-					["RunicPowerGained"] = {
-					},
 					["CCBroken"] = {
+					},
+					["RunicPowerGainedFrom"] = {
 					},
 					["ElementDoneBlock"] = {
 					},
 					["TimeHealing"] = {
 					},
-					["Dispelled"] = 0,
+					["OverHeals"] = {
+					},
 					["WhoHealed"] = {
 					},
 					["HealedWho"] = {
@@ -39710,13 +39737,14 @@ RecountPerCharDB = {
 					["CCBreak"] = 0,
 					["ElementTakenAbsorb"] = {
 					},
-					["FDamage"] = 0,
-					["EnergyGain"] = 0,
-					["ManaGained"] = {
-					},
 					["PartialAbsorb"] = {
 					},
-					["ActiveTime"] = 0,
+					["PartialResist"] = {
+					},
+					["ManaGained"] = {
+					},
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
 					["Overhealing"] = 0,
 					["TimeSpent"] = {
 					},
@@ -39728,15 +39756,13 @@ RecountPerCharDB = {
 					},
 					["Heals"] = {
 					},
-					["Interrupts"] = 0,
+					["ActiveTime"] = 0,
 					["EnergyGained"] = {
 					},
-					["PartialResist"] = {
-					},
+					["EnergyGain"] = 0,
 					["Healing"] = 0,
+					["Dispelled"] = 0,
 					["RageGained"] = {
-					},
-					["OverHeals"] = {
 					},
 					["Attacks"] = {
 					},
@@ -39747,7 +39773,8 @@ RecountPerCharDB = {
 					["TimeDamaging"] = {
 					},
 					["ManaGain"] = 0,
-					["DOT_Time"] = 0,
+					["HOTs"] = {
+					},
 					["DispelledWho"] = {
 					},
 				},
@@ -40143,16 +40170,16 @@ RecountPerCharDB = {
 							["count"] = 7,
 							["amount"] = 0,
 						},
-						["Melee"] = {
+						["Rake"] = {
 							["Details"] = {
 								["No Resist"] = {
 									["max"] = 0,
 									["min"] = 0,
-									["count"] = 84,
+									["count"] = 1,
 									["amount"] = 0,
 								},
 							},
-							["count"] = 84,
+							["count"] = 1,
 							["amount"] = 0,
 						},
 						["Rake (DoT)"] = {
@@ -40275,16 +40302,16 @@ RecountPerCharDB = {
 							["count"] = 13,
 							["amount"] = 558,
 						},
-						["Rake"] = {
+						["Melee"] = {
 							["Details"] = {
 								["No Resist"] = {
 									["max"] = 0,
 									["min"] = 0,
-									["count"] = 1,
+									["count"] = 84,
 									["amount"] = 0,
 								},
 							},
-							["count"] = 1,
+							["count"] = 84,
 							["amount"] = 0,
 						},
 						["Death and Decay"] = {
@@ -40311,16 +40338,16 @@ RecountPerCharDB = {
 							["count"] = 39,
 							["amount"] = 3438,
 						},
-						["Plague Strike"] = {
+						["Claw"] = {
 							["Details"] = {
 								["No Resist"] = {
 									["max"] = 0,
 									["min"] = 0,
-									["count"] = 6,
+									["count"] = 13,
 									["amount"] = 0,
 								},
 							},
-							["count"] = 6,
+							["count"] = 13,
 							["amount"] = 0,
 						},
 						["Frost Fever (DoT)"] = {
@@ -40341,16 +40368,16 @@ RecountPerCharDB = {
 							["count"] = 37,
 							["amount"] = 1722,
 						},
-						["Claw"] = {
+						["Plague Strike"] = {
 							["Details"] = {
 								["No Resist"] = {
 									["max"] = 0,
 									["min"] = 0,
-									["count"] = 13,
+									["count"] = 6,
 									["amount"] = 0,
 								},
 							},
-							["count"] = 13,
+							["count"] = 6,
 							["amount"] = 0,
 						},
 					},
@@ -40572,16 +40599,16 @@ RecountPerCharDB = {
 							["count"] = 7,
 							["amount"] = 0,
 						},
-						["Melee"] = {
+						["Rake"] = {
 							["Details"] = {
 								["No Absorb"] = {
 									["max"] = 0,
 									["min"] = 0,
-									["count"] = 84,
+									["count"] = 1,
 									["amount"] = 0,
 								},
 							},
-							["count"] = 84,
+							["count"] = 1,
 							["amount"] = 0,
 						},
 						["Rake (DoT)"] = {
@@ -40680,16 +40707,16 @@ RecountPerCharDB = {
 							["count"] = 13,
 							["amount"] = 0,
 						},
-						["Rake"] = {
+						["Melee"] = {
 							["Details"] = {
 								["No Absorb"] = {
 									["max"] = 0,
 									["min"] = 0,
-									["count"] = 1,
+									["count"] = 84,
 									["amount"] = 0,
 								},
 							},
-							["count"] = 1,
+							["count"] = 84,
 							["amount"] = 0,
 						},
 						["Death and Decay"] = {
@@ -40704,16 +40731,16 @@ RecountPerCharDB = {
 							["count"] = 39,
 							["amount"] = 0,
 						},
-						["Plague Strike"] = {
+						["Claw"] = {
 							["Details"] = {
 								["No Absorb"] = {
 									["max"] = 0,
 									["min"] = 0,
-									["count"] = 6,
+									["count"] = 13,
 									["amount"] = 0,
 								},
 							},
-							["count"] = 6,
+							["count"] = 13,
 							["amount"] = 0,
 						},
 						["Frost Fever (DoT)"] = {
@@ -40728,16 +40755,16 @@ RecountPerCharDB = {
 							["count"] = 37,
 							["amount"] = 0,
 						},
-						["Claw"] = {
+						["Plague Strike"] = {
 							["Details"] = {
 								["No Absorb"] = {
 									["max"] = 0,
 									["min"] = 0,
-									["count"] = 13,
+									["count"] = 6,
 									["amount"] = 0,
 								},
 							},
-							["count"] = 13,
+							["count"] = 6,
 							["amount"] = 0,
 						},
 					},
@@ -40783,10 +40810,111 @@ RecountPerCharDB = {
 					["ElementDoneAbsorb"] = {
 						["Fire"] = 7457,
 					},
-					["ElementDone"] = {
-						["Fire"] = 64521,
-						["Melee"] = 18387,
-						["Frost"] = 42022,
+					["Attacks"] = {
+						["Ice Nova"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 3640,
+									["min"] = 362,
+									["count"] = 5,
+									["amount"] = 12855,
+								},
+								["Miss"] = {
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 6,
+							["amount"] = 12855,
+						},
+						["Blizzard (DoT)"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 2000,
+									["min"] = 200,
+									["count"] = 17,
+									["amount"] = 25760,
+								},
+							},
+							["count"] = 17,
+							["amount"] = 25760,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Parry"] = {
+									["count"] = 1,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 3616,
+									["min"] = 1901,
+									["count"] = 7,
+									["amount"] = 18387,
+								},
+								["Dodge"] = {
+									["count"] = 4,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 12,
+							["amount"] = 18387,
+						},
+						["Scorch"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 3428,
+									["min"] = 2118,
+									["count"] = 8,
+									["amount"] = 23691,
+								},
+							},
+							["count"] = 8,
+							["amount"] = 23691,
+						},
+						["Firebomb"] = {
+							["Details"] = {
+								["Absorb"] = {
+									["count"] = 1,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 3575,
+									["min"] = 191,
+									["count"] = 13,
+									["amount"] = 27596,
+								},
+								["Miss"] = {
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 15,
+							["amount"] = 27596,
+						},
+						["Ice Barb"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 901,
+									["min"] = 775,
+									["count"] = 4,
+									["amount"] = 3407,
+								},
+							},
+							["count"] = 4,
+							["amount"] = 3407,
+						},
+						["Fire Blast"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 4205,
+									["min"] = 2016,
+									["count"] = 4,
+									["amount"] = 13234,
+								},
+							},
+							["count"] = 4,
+							["amount"] = 13234,
+						},
 					},
 					["WhoDamaged"] = {
 						["Jungee"] = {
@@ -40806,14 +40934,14 @@ RecountPerCharDB = {
 								["Blood Plague (DoT)"] = {
 									["count"] = 2990,
 								},
-								["Frost Fever (DoT)"] = {
-									["count"] = 9139,
+								["Death Strike"] = {
+									["count"] = 1760,
 								},
 								["Plague Strike"] = {
 									["count"] = 2938,
 								},
-								["Death Strike"] = {
-									["count"] = 1760,
+								["Frost Fever (DoT)"] = {
+									["count"] = 9139,
 								},
 								["Icy Touch"] = {
 									["count"] = 10952,
@@ -40823,8 +40951,8 @@ RecountPerCharDB = {
 						},
 						["Urgash"] = {
 							["Details"] = {
-								["Chaos Bane"] = {
-									["count"] = 2671,
+								["Death and Decay"] = {
+									["count"] = 30108,
 								},
 								["Scourge Strike"] = {
 									["count"] = 20891,
@@ -40832,11 +40960,11 @@ RecountPerCharDB = {
 								["Melee"] = {
 									["count"] = 60753,
 								},
-								["Death and Decay"] = {
-									["count"] = 30108,
+								["Chaos Bane"] = {
+									["count"] = 2671,
 								},
-								["Icy Touch"] = {
-									["count"] = 12830,
+								["Blood Strike"] = {
+									["count"] = 17233,
 								},
 								["Unholy Blight (DoT)"] = {
 									["count"] = 2287,
@@ -40868,22 +40996,22 @@ RecountPerCharDB = {
 								["Frost Fever (DoT)"] = {
 									["count"] = 37963,
 								},
-								["Blood Strike"] = {
-									["count"] = 17233,
+								["Icy Touch"] = {
+									["count"] = 12830,
 								},
 							},
 							["amount"] = 303131,
 						},
 						["Maijuur"] = {
 							["Details"] = {
-								["Rake (DoT)"] = {
-									["count"] = 5646,
-								},
-								["Melee"] = {
-									["count"] = 41714,
-								},
 								["Swipe (Cat)"] = {
 									["count"] = 90388,
+								},
+								["Rake"] = {
+									["count"] = 527,
+								},
+								["Rake (DoT)"] = {
+									["count"] = 5646,
 								},
 								["Shred"] = {
 									["count"] = 4558,
@@ -40894,8 +41022,8 @@ RecountPerCharDB = {
 								["Retribution Aura"] = {
 									["count"] = 446,
 								},
-								["Rake"] = {
-									["count"] = 527,
+								["Melee"] = {
+									["count"] = 41714,
 								},
 							},
 							["amount"] = 152325,
@@ -40958,48 +41086,126 @@ RecountPerCharDB = {
 							["amount"] = 64372,
 						},
 					},
-					["ElementHitsDone"] = {
-						["Fire"] = {
+					["DamagedWho"] = {
+						["Maijuur"] = {
 							["Details"] = {
-								["Absorb"] = {
-									["count"] = 1,
+								["Ice Nova"] = {
+									["count"] = 2052,
 								},
-								["Hit"] = {
-									["count"] = 25,
+								["Blizzard (DoT)"] = {
+									["count"] = 3640,
 								},
-								["Miss"] = {
-									["count"] = 1,
+								["Melee"] = {
+									["count"] = 7185,
+								},
+								["Scorch"] = {
+									["count"] = 2118,
+								},
+								["Firebomb"] = {
+									["count"] = 5900,
+								},
+								["Ice Barb"] = {
+									["count"] = 775,
+								},
+								["Fire Blast"] = {
+									["count"] = 4205,
 								},
 							},
-							["amount"] = 27,
+							["amount"] = 25875,
 						},
-						["Melee"] = {
+						["Casketbasher <Urgash>"] = {
 							["Details"] = {
-								["Parry"] = {
-									["count"] = 1,
+								["Ice Nova"] = {
+									["count"] = 362,
 								},
-								["Hit"] = {
-									["count"] = 7,
+								["Firebomb"] = {
+									["count"] = 638,
 								},
-								["Dodge"] = {
-									["count"] = 4,
+								["Blizzard (DoT)"] = {
+									["count"] = 600,
+								},
+								["Scorch"] = {
+									["count"] = 9589,
 								},
 							},
-							["amount"] = 12,
+							["amount"] = 11189,
 						},
-						["Frost"] = {
+						["Urgash"] = {
 							["Details"] = {
-								["Tick"] = {
-									["count"] = 17,
+								["Ice Nova"] = {
+									["count"] = 3640,
 								},
-								["Miss"] = {
-									["count"] = 1,
+								["Firebomb"] = {
+									["count"] = 5977,
 								},
-								["Hit"] = {
-									["count"] = 9,
+								["Melee"] = {
+									["count"] = 5464,
+								},
+								["Blizzard (DoT)"] = {
+									["count"] = 4000,
 								},
 							},
-							["amount"] = 27,
+							["amount"] = 19081,
+						},
+						["Bigepapa"] = {
+							["Details"] = {
+								["Scorch"] = {
+									["count"] = 3358,
+								},
+								["Firebomb"] = {
+									["count"] = 6098,
+								},
+								["Blizzard (DoT)"] = {
+									["count"] = 6000,
+								},
+							},
+							["amount"] = 15456,
+						},
+						["Jungee"] = {
+							["Details"] = {
+								["Ice Nova"] = {
+									["count"] = 3388,
+								},
+								["Blizzard (DoT)"] = {
+									["count"] = 5520,
+								},
+								["Melee"] = {
+									["count"] = 5738,
+								},
+								["Scorch"] = {
+									["count"] = 5297,
+								},
+								["Firebomb"] = {
+									["count"] = 2912,
+								},
+								["Ice Barb"] = {
+									["count"] = 835,
+								},
+								["Fire Blast"] = {
+									["count"] = 9029,
+								},
+							},
+							["amount"] = 32719,
+						},
+						["Angeletee"] = {
+							["Details"] = {
+								["Ice Nova"] = {
+									["count"] = 3413,
+								},
+								["Blizzard (DoT)"] = {
+									["count"] = 6000,
+								},
+								["Ice Barb"] = {
+									["count"] = 1797,
+								},
+								["Scorch"] = {
+									["count"] = 3329,
+								},
+								["Firebomb"] = {
+									["count"] = 6071,
+								},
+							},
+							["amount"] = 20610,
 						},
 					},
 					["TimeDamage"] = 44.45999999999999,
@@ -41128,233 +41334,54 @@ RecountPerCharDB = {
 							["amount"] = 10.64,
 						},
 					},
-					["DamagedWho"] = {
-						["Maijuur"] = {
+					["ElementHitsDone"] = {
+						["Fire"] = {
 							["Details"] = {
-								["Ice Nova"] = {
-									["count"] = 2052,
+								["Absorb"] = {
+									["count"] = 1,
 								},
-								["Blizzard (DoT)"] = {
-									["count"] = 3640,
-								},
-								["Melee"] = {
-									["count"] = 7185,
-								},
-								["Scorch"] = {
-									["count"] = 2118,
-								},
-								["Firebomb"] = {
-									["count"] = 5900,
-								},
-								["Ice Barb"] = {
-									["count"] = 775,
-								},
-								["Fire Blast"] = {
-									["count"] = 4205,
-								},
-							},
-							["amount"] = 25875,
-						},
-						["Casketbasher <Urgash>"] = {
-							["Details"] = {
-								["Ice Nova"] = {
-									["count"] = 362,
-								},
-								["Firebomb"] = {
-									["count"] = 638,
-								},
-								["Blizzard (DoT)"] = {
-									["count"] = 600,
-								},
-								["Scorch"] = {
-									["count"] = 9589,
-								},
-							},
-							["amount"] = 11189,
-						},
-						["Urgash"] = {
-							["Details"] = {
-								["Ice Nova"] = {
-									["count"] = 3640,
-								},
-								["Firebomb"] = {
-									["count"] = 5977,
-								},
-								["Melee"] = {
-									["count"] = 5464,
-								},
-								["Blizzard (DoT)"] = {
-									["count"] = 4000,
-								},
-							},
-							["amount"] = 19081,
-						},
-						["Bigepapa"] = {
-							["Details"] = {
-								["Scorch"] = {
-									["count"] = 3358,
-								},
-								["Firebomb"] = {
-									["count"] = 6098,
-								},
-								["Blizzard (DoT)"] = {
-									["count"] = 6000,
-								},
-							},
-							["amount"] = 15456,
-						},
-						["Jungee"] = {
-							["Details"] = {
-								["Ice Nova"] = {
-									["count"] = 3388,
-								},
-								["Blizzard (DoT)"] = {
-									["count"] = 5520,
-								},
-								["Melee"] = {
-									["count"] = 5738,
-								},
-								["Scorch"] = {
-									["count"] = 5297,
-								},
-								["Firebomb"] = {
-									["count"] = 2912,
-								},
-								["Ice Barb"] = {
-									["count"] = 835,
-								},
-								["Fire Blast"] = {
-									["count"] = 9029,
-								},
-							},
-							["amount"] = 32719,
-						},
-						["Angeletee"] = {
-							["Details"] = {
-								["Ice Nova"] = {
-									["count"] = 3413,
-								},
-								["Blizzard (DoT)"] = {
-									["count"] = 6000,
-								},
-								["Ice Barb"] = {
-									["count"] = 1797,
-								},
-								["Scorch"] = {
-									["count"] = 3329,
-								},
-								["Firebomb"] = {
-									["count"] = 6071,
-								},
-							},
-							["amount"] = 20610,
-						},
-					},
-					["Attacks"] = {
-						["Ice Nova"] = {
-							["Details"] = {
 								["Hit"] = {
-									["max"] = 3640,
-									["min"] = 362,
-									["count"] = 5,
-									["amount"] = 12855,
+									["count"] = 25,
 								},
 								["Miss"] = {
 									["count"] = 1,
-									["amount"] = 0,
 								},
 							},
-							["count"] = 6,
-							["amount"] = 12855,
-						},
-						["Blizzard (DoT)"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 2000,
-									["min"] = 200,
-									["count"] = 17,
-									["amount"] = 25760,
-								},
-							},
-							["count"] = 17,
-							["amount"] = 25760,
+							["amount"] = 27,
 						},
 						["Melee"] = {
 							["Details"] = {
 								["Parry"] = {
 									["count"] = 1,
-									["amount"] = 0,
 								},
 								["Hit"] = {
-									["max"] = 3616,
-									["min"] = 1901,
 									["count"] = 7,
-									["amount"] = 18387,
 								},
 								["Dodge"] = {
 									["count"] = 4,
-									["amount"] = 0,
 								},
 							},
-							["count"] = 12,
-							["amount"] = 18387,
+							["amount"] = 12,
 						},
-						["Scorch"] = {
+						["Frost"] = {
 							["Details"] = {
-								["Hit"] = {
-									["max"] = 3428,
-									["min"] = 2118,
-									["count"] = 8,
-									["amount"] = 23691,
-								},
-							},
-							["count"] = 8,
-							["amount"] = 23691,
-						},
-						["Firebomb"] = {
-							["Details"] = {
-								["Absorb"] = {
-									["count"] = 1,
-									["amount"] = 0,
-								},
-								["Hit"] = {
-									["max"] = 3575,
-									["min"] = 191,
-									["count"] = 13,
-									["amount"] = 27596,
+								["Tick"] = {
+									["count"] = 17,
 								},
 								["Miss"] = {
 									["count"] = 1,
-									["amount"] = 0,
 								},
-							},
-							["count"] = 15,
-							["amount"] = 27596,
-						},
-						["Ice Barb"] = {
-							["Details"] = {
 								["Hit"] = {
-									["max"] = 901,
-									["min"] = 775,
-									["count"] = 4,
-									["amount"] = 3407,
+									["count"] = 9,
 								},
 							},
-							["count"] = 4,
-							["amount"] = 3407,
+							["amount"] = 27,
 						},
-						["Fire Blast"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 4205,
-									["min"] = 2016,
-									["count"] = 4,
-									["amount"] = 13234,
-								},
-							},
-							["count"] = 4,
-							["amount"] = 13234,
-						},
+					},
+					["ElementDone"] = {
+						["Fire"] = 64521,
+						["Melee"] = 18387,
+						["Frost"] = 42022,
 					},
 					["TimeSpent"] = {
 						["Jungee"] = {
@@ -41611,7 +41638,7 @@ RecountPerCharDB = {
 			},
 			["enClass"] = "MOB",
 			["unit"] = "party1target",
-			["LastAbility"] = 1306.632,
+			["LastAbility"] = 4982.039,
 			["LastEventTimes"] = {
 				3668.023, -- [1]
 				3668.118, -- [2]
@@ -43328,10 +43355,6 @@ RecountPerCharDB = {
 						["Melee"] = 5020,
 						["Arcane"] = 745,
 					},
-					["ElementDone"] = {
-						["Melee"] = 2938,
-						["Arcane"] = 7291,
-					},
 					["Attacks"] = {
 						["Melee"] = {
 							["Details"] = {
@@ -43370,6 +43393,23 @@ RecountPerCharDB = {
 							["amount"] = 7291,
 						},
 					},
+					["ElementDone"] = {
+						["Melee"] = 2938,
+						["Arcane"] = 7291,
+					},
+					["DamagedWho"] = {
+						["Jungee"] = {
+							["Details"] = {
+								["Spark"] = {
+									["count"] = 7291,
+								},
+								["Melee"] = {
+									["count"] = 2938,
+								},
+							},
+							["amount"] = 10229,
+						},
+					},
 					["ElementHitsDone"] = {
 						["Melee"] = {
 							["Details"] = {
@@ -43397,33 +43437,7 @@ RecountPerCharDB = {
 							["amount"] = 2,
 						},
 					},
-					["DamagedWho"] = {
-						["Jungee"] = {
-							["Details"] = {
-								["Spark"] = {
-									["count"] = 7291,
-								},
-								["Melee"] = {
-									["count"] = 2938,
-								},
-							},
-							["amount"] = 10229,
-						},
-					},
 					["TimeDamage"] = 23.78000000000001,
-					["TimeDamaging"] = {
-						["Jungee"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 19.89,
-								},
-								["Spark"] = {
-									["count"] = 3.89,
-								},
-							},
-							["amount"] = 23.78000000000001,
-						},
-					},
 					["WhoDamaged"] = {
 						["Jungee"] = {
 							["Details"] = {
@@ -43442,14 +43456,14 @@ RecountPerCharDB = {
 								["Blood Plague (DoT)"] = {
 									["count"] = 2359,
 								},
-								["Frost Fever (DoT)"] = {
-									["count"] = 3033,
+								["Death Strike"] = {
+									["count"] = 1920,
 								},
 								["Plague Strike"] = {
 									["count"] = 4352,
 								},
-								["Death Strike"] = {
-									["count"] = 1920,
+								["Frost Fever (DoT)"] = {
+									["count"] = 3033,
 								},
 								["Icy Touch"] = {
 									["count"] = 6362,
@@ -43582,6 +43596,19 @@ RecountPerCharDB = {
 								},
 							},
 							["amount"] = 49697,
+						},
+					},
+					["TimeDamaging"] = {
+						["Jungee"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 19.89,
+								},
+								["Spark"] = {
+									["count"] = 3.89,
+								},
+							},
+							["amount"] = 23.78000000000001,
 						},
 					},
 					["Damage"] = 10229,
@@ -44656,10 +44683,6 @@ RecountPerCharDB = {
 						["Melee"] = 5020,
 						["Arcane"] = 745,
 					},
-					["ElementDone"] = {
-						["Melee"] = 2938,
-						["Arcane"] = 7291,
-					},
 					["Attacks"] = {
 						["Melee"] = {
 							["Details"] = {
@@ -44698,6 +44721,23 @@ RecountPerCharDB = {
 							["amount"] = 7291,
 						},
 					},
+					["ElementDone"] = {
+						["Melee"] = 2938,
+						["Arcane"] = 7291,
+					},
+					["DamagedWho"] = {
+						["Jungee"] = {
+							["Details"] = {
+								["Spark"] = {
+									["count"] = 7291,
+								},
+								["Melee"] = {
+									["count"] = 2938,
+								},
+							},
+							["amount"] = 10229,
+						},
+					},
 					["ElementHitsDone"] = {
 						["Melee"] = {
 							["Details"] = {
@@ -44725,33 +44765,7 @@ RecountPerCharDB = {
 							["amount"] = 2,
 						},
 					},
-					["DamagedWho"] = {
-						["Jungee"] = {
-							["Details"] = {
-								["Spark"] = {
-									["count"] = 7291,
-								},
-								["Melee"] = {
-									["count"] = 2938,
-								},
-							},
-							["amount"] = 10229,
-						},
-					},
 					["TimeDamage"] = 23.78000000000001,
-					["TimeDamaging"] = {
-						["Jungee"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 19.89,
-								},
-								["Spark"] = {
-									["count"] = 3.89,
-								},
-							},
-							["amount"] = 23.78000000000001,
-						},
-					},
 					["WhoDamaged"] = {
 						["Jungee"] = {
 							["Details"] = {
@@ -44770,14 +44784,14 @@ RecountPerCharDB = {
 								["Blood Plague (DoT)"] = {
 									["count"] = 2359,
 								},
-								["Frost Fever (DoT)"] = {
-									["count"] = 3033,
+								["Death Strike"] = {
+									["count"] = 1920,
 								},
 								["Plague Strike"] = {
 									["count"] = 4352,
 								},
-								["Death Strike"] = {
-									["count"] = 1920,
+								["Frost Fever (DoT)"] = {
+									["count"] = 3033,
 								},
 								["Icy Touch"] = {
 									["count"] = 6362,
@@ -44912,6 +44926,19 @@ RecountPerCharDB = {
 							["amount"] = 49697,
 						},
 					},
+					["TimeDamaging"] = {
+						["Jungee"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 19.89,
+								},
+								["Spark"] = {
+									["count"] = 3.89,
+								},
+							},
+							["amount"] = 23.78000000000001,
+						},
+					},
 					["Damage"] = 10229,
 					["TimeSpent"] = {
 						["Jungee"] = {
@@ -44940,14 +44967,13 @@ RecountPerCharDB = {
 					},
 					["DeathCount"] = 0,
 					["HOT_Time"] = 0,
-					["ElementTakenBlock"] = {
-					},
+					["Damage"] = 0,
 					["RunicPowerGain"] = 0,
 					["ElementTaken"] = {
 					},
-					["HOTs"] = {
+					["DOT_Time"] = 0,
+					["ElementTakenBlock"] = {
 					},
-					["Damage"] = 0,
 					["ElementDoneAbsorb"] = {
 					},
 					["TimeHeal"] = 0,
@@ -44956,32 +44982,33 @@ RecountPerCharDB = {
 					["Dispels"] = 0,
 					["PartialBlock"] = {
 					},
-					["DamagedWho"] = {
+					["ElementHitsDone"] = {
 					},
 					["FAttacks"] = {
 					},
 					["HealingTaken"] = 0,
 					["ElementDone"] = {
 					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementHitsDone"] = {
+					["DamagedWho"] = {
 					},
 					["ManaGainedFrom"] = {
+					},
+					["RunicPowerGained"] = {
 					},
 					["WhoDamaged"] = {
 					},
 					["EnergyGainedFrom"] = {
 					},
-					["RunicPowerGained"] = {
-					},
 					["CCBroken"] = {
+					},
+					["RunicPowerGainedFrom"] = {
 					},
 					["ElementDoneBlock"] = {
 					},
 					["TimeHealing"] = {
 					},
-					["Dispelled"] = 0,
+					["OverHeals"] = {
+					},
 					["WhoHealed"] = {
 					},
 					["HealedWho"] = {
@@ -44989,13 +45016,14 @@ RecountPerCharDB = {
 					["CCBreak"] = 0,
 					["ElementTakenAbsorb"] = {
 					},
-					["FDamage"] = 0,
-					["EnergyGain"] = 0,
-					["ManaGained"] = {
-					},
 					["PartialAbsorb"] = {
 					},
-					["ActiveTime"] = 0,
+					["PartialResist"] = {
+					},
+					["ManaGained"] = {
+					},
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
 					["Overhealing"] = 0,
 					["TimeSpent"] = {
 					},
@@ -45007,15 +45035,13 @@ RecountPerCharDB = {
 					},
 					["Heals"] = {
 					},
-					["Interrupts"] = 0,
+					["ActiveTime"] = 0,
 					["EnergyGained"] = {
 					},
-					["PartialResist"] = {
-					},
+					["EnergyGain"] = 0,
 					["Healing"] = 0,
+					["Dispelled"] = 0,
 					["RageGained"] = {
-					},
-					["OverHeals"] = {
 					},
 					["Attacks"] = {
 					},
@@ -45026,7 +45052,8 @@ RecountPerCharDB = {
 					["TimeDamaging"] = {
 					},
 					["ManaGain"] = 0,
-					["DOT_Time"] = 0,
+					["HOTs"] = {
+					},
 					["DispelledWho"] = {
 					},
 				},
@@ -46087,10 +46114,6 @@ RecountPerCharDB = {
 						["Melee"] = 5020,
 						["Arcane"] = 745,
 					},
-					["ElementDone"] = {
-						["Melee"] = 2938,
-						["Arcane"] = 7291,
-					},
 					["Attacks"] = {
 						["Melee"] = {
 							["Details"] = {
@@ -46129,6 +46152,23 @@ RecountPerCharDB = {
 							["amount"] = 7291,
 						},
 					},
+					["ElementDone"] = {
+						["Melee"] = 2938,
+						["Arcane"] = 7291,
+					},
+					["DamagedWho"] = {
+						["Jungee"] = {
+							["Details"] = {
+								["Spark"] = {
+									["count"] = 7291,
+								},
+								["Melee"] = {
+									["count"] = 2938,
+								},
+							},
+							["amount"] = 10229,
+						},
+					},
 					["ElementHitsDone"] = {
 						["Melee"] = {
 							["Details"] = {
@@ -46156,33 +46196,7 @@ RecountPerCharDB = {
 							["amount"] = 2,
 						},
 					},
-					["DamagedWho"] = {
-						["Jungee"] = {
-							["Details"] = {
-								["Spark"] = {
-									["count"] = 7291,
-								},
-								["Melee"] = {
-									["count"] = 2938,
-								},
-							},
-							["amount"] = 10229,
-						},
-					},
 					["TimeDamage"] = 23.78000000000001,
-					["TimeDamaging"] = {
-						["Jungee"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 19.89,
-								},
-								["Spark"] = {
-									["count"] = 3.89,
-								},
-							},
-							["amount"] = 23.78000000000001,
-						},
-					},
 					["WhoDamaged"] = {
 						["Jungee"] = {
 							["Details"] = {
@@ -46201,14 +46215,14 @@ RecountPerCharDB = {
 								["Blood Plague (DoT)"] = {
 									["count"] = 2359,
 								},
-								["Frost Fever (DoT)"] = {
-									["count"] = 3033,
+								["Death Strike"] = {
+									["count"] = 1920,
 								},
 								["Plague Strike"] = {
 									["count"] = 4352,
 								},
-								["Death Strike"] = {
-									["count"] = 1920,
+								["Frost Fever (DoT)"] = {
+									["count"] = 3033,
 								},
 								["Icy Touch"] = {
 									["count"] = 6362,
@@ -46341,6 +46355,19 @@ RecountPerCharDB = {
 								},
 							},
 							["amount"] = 49697,
+						},
+					},
+					["TimeDamaging"] = {
+						["Jungee"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 19.89,
+								},
+								["Spark"] = {
+									["count"] = 3.89,
+								},
+							},
+							["amount"] = 23.78000000000001,
 						},
 					},
 					["Damage"] = 10229,
@@ -46534,7 +46561,7 @@ RecountPerCharDB = {
 			},
 			["type"] = "Boss",
 			["FightsSaved"] = 1,
-			["LastAbility"] = 1306.632,
+			["LastAbility"] = 4982.039,
 			["LastEventTimes"] = {
 				4009.308, -- [1]
 				4009.693, -- [2]
@@ -47426,16 +47453,16 @@ RecountPerCharDB = {
 							["count"] = 4,
 							["amount"] = 0,
 						},
-						["Shred"] = {
+						["Melee"] = {
 							["Details"] = {
 								["No Resist"] = {
 									["max"] = 0,
 									["min"] = 0,
-									["count"] = 5,
+									["count"] = 82,
 									["amount"] = 0,
 								},
 							},
-							["count"] = 5,
+							["count"] = 82,
 							["amount"] = 0,
 						},
 						["Death Strike"] = {
@@ -47468,16 +47495,16 @@ RecountPerCharDB = {
 							["count"] = 5,
 							["amount"] = 309,
 						},
-						["Melee"] = {
+						["Rake"] = {
 							["Details"] = {
 								["No Resist"] = {
 									["max"] = 0,
 									["min"] = 0,
-									["count"] = 82,
+									["count"] = 2,
 									["amount"] = 0,
 								},
 							},
-							["count"] = 82,
+							["count"] = 2,
 							["amount"] = 0,
 						},
 						["Blood-Caked Strike"] = {
@@ -47492,16 +47519,16 @@ RecountPerCharDB = {
 							["count"] = 1,
 							["amount"] = 0,
 						},
-						["Rake"] = {
+						["Shred"] = {
 							["Details"] = {
 								["No Resist"] = {
 									["max"] = 0,
 									["min"] = 0,
-									["count"] = 2,
+									["count"] = 5,
 									["amount"] = 0,
 								},
 							},
-							["count"] = 2,
+							["count"] = 5,
 							["amount"] = 0,
 						},
 						["Rake (DoT)"] = {
@@ -47660,16 +47687,16 @@ RecountPerCharDB = {
 							["count"] = 18,
 							["amount"] = 48,
 						},
-						["Plague Strike"] = {
+						["Claw"] = {
 							["Details"] = {
 								["No Resist"] = {
 									["max"] = 0,
 									["min"] = 0,
-									["count"] = 6,
+									["count"] = 11,
 									["amount"] = 0,
 								},
 							},
-							["count"] = 6,
+							["count"] = 11,
 							["amount"] = 0,
 						},
 						["Frost Fever (DoT)"] = {
@@ -47690,16 +47717,16 @@ RecountPerCharDB = {
 							["count"] = 17,
 							["amount"] = 1391,
 						},
-						["Claw"] = {
+						["Plague Strike"] = {
 							["Details"] = {
 								["No Resist"] = {
 									["max"] = 0,
 									["min"] = 0,
-									["count"] = 11,
+									["count"] = 6,
 									["amount"] = 0,
 								},
 							},
-							["count"] = 11,
+							["count"] = 6,
 							["amount"] = 0,
 						},
 					},
@@ -47849,16 +47876,16 @@ RecountPerCharDB = {
 							["count"] = 4,
 							["amount"] = 0,
 						},
-						["Shred"] = {
+						["Melee"] = {
 							["Details"] = {
 								["No Absorb"] = {
 									["max"] = 0,
 									["min"] = 0,
-									["count"] = 5,
+									["count"] = 82,
 									["amount"] = 0,
 								},
 							},
-							["count"] = 5,
+							["count"] = 82,
 							["amount"] = 0,
 						},
 						["Death Strike"] = {
@@ -47885,16 +47912,16 @@ RecountPerCharDB = {
 							["count"] = 5,
 							["amount"] = 0,
 						},
-						["Melee"] = {
+						["Rake"] = {
 							["Details"] = {
 								["No Absorb"] = {
 									["max"] = 0,
 									["min"] = 0,
-									["count"] = 82,
+									["count"] = 2,
 									["amount"] = 0,
 								},
 							},
-							["count"] = 82,
+							["count"] = 2,
 							["amount"] = 0,
 						},
 						["Blood-Caked Strike"] = {
@@ -47909,16 +47936,16 @@ RecountPerCharDB = {
 							["count"] = 1,
 							["amount"] = 0,
 						},
-						["Rake"] = {
+						["Shred"] = {
 							["Details"] = {
 								["No Absorb"] = {
 									["max"] = 0,
 									["min"] = 0,
-									["count"] = 2,
+									["count"] = 5,
 									["amount"] = 0,
 								},
 							},
-							["count"] = 2,
+							["count"] = 5,
 							["amount"] = 0,
 						},
 						["Rake (DoT)"] = {
@@ -48041,16 +48068,16 @@ RecountPerCharDB = {
 							["count"] = 18,
 							["amount"] = 0,
 						},
-						["Plague Strike"] = {
+						["Claw"] = {
 							["Details"] = {
 								["No Absorb"] = {
 									["max"] = 0,
 									["min"] = 0,
-									["count"] = 6,
+									["count"] = 11,
 									["amount"] = 0,
 								},
 							},
-							["count"] = 6,
+							["count"] = 11,
 							["amount"] = 0,
 						},
 						["Frost Fever (DoT)"] = {
@@ -48065,16 +48092,16 @@ RecountPerCharDB = {
 							["count"] = 17,
 							["amount"] = 0,
 						},
-						["Claw"] = {
+						["Plague Strike"] = {
 							["Details"] = {
 								["No Absorb"] = {
 									["max"] = 0,
 									["min"] = 0,
-									["count"] = 11,
+									["count"] = 6,
 									["amount"] = 0,
 								},
 							},
-							["count"] = 11,
+							["count"] = 6,
 							["amount"] = 0,
 						},
 					},
@@ -48119,29 +48146,109 @@ RecountPerCharDB = {
 						["Frostfire"] = 3004,
 						["Frost"] = 2299,
 					},
-					["ElementDone"] = {
-						["Physical"] = 1673,
-						["Frost"] = 16237,
-						["Melee"] = 13397,
-						["Frostfire"] = 46547,
+					["Attacks"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 3652,
+									["min"] = 1907,
+									["count"] = 5,
+									["amount"] = 13397,
+								},
+								["Dodge"] = {
+									["count"] = 3,
+									["amount"] = 0,
+								},
+								["Parry"] = {
+									["count"] = 5,
+									["amount"] = 0,
+								},
+								["Miss"] = {
+									["count"] = 2,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 15,
+							["amount"] = 13397,
+						},
+						["Tail Sweep"] = {
+							["Details"] = {
+								["Absorb"] = {
+									["count"] = 1,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 485,
+									["min"] = 293,
+									["count"] = 4,
+									["amount"] = 1673,
+								},
+							},
+							["count"] = 5,
+							["amount"] = 1673,
+						},
+						["Crystalfire Breath"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 4860,
+									["min"] = 428,
+									["count"] = 6,
+									["amount"] = 16964,
+								},
+							},
+							["count"] = 6,
+							["amount"] = 16964,
+						},
+						["Crystalfire Breath (DoT)"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 1500,
+									["min"] = 150,
+									["count"] = 27,
+									["amount"] = 29583,
+								},
+							},
+							["count"] = 27,
+							["amount"] = 29583,
+						},
+						["Crystallize"] = {
+							["Details"] = {
+								["Resist"] = {
+									["count"] = 3,
+									["amount"] = 0,
+								},
+								["Absorb"] = {
+									["count"] = 1,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 1849,
+									["min"] = 179,
+									["count"] = 14,
+									["amount"] = 16237,
+								},
+							},
+							["count"] = 18,
+							["amount"] = 16237,
+						},
 					},
 					["WhoDamaged"] = {
 						["Jungee"] = {
 							["Details"] = {
-								["Melee"] = {
-									["count"] = 17429,
+								["Blood Plague (DoT)"] = {
+									["count"] = 5659,
 								},
 								["Death Strike"] = {
 									["count"] = 3462,
 								},
-								["Blood Plague (DoT)"] = {
-									["count"] = 5659,
+								["Melee"] = {
+									["count"] = 17429,
 								},
 								["Rune Strike"] = {
 									["count"] = 11267,
 								},
-								["Icy Touch"] = {
-									["count"] = 8350,
+								["Blood Strike"] = {
+									["count"] = 7131,
 								},
 								["Plague Strike"] = {
 									["count"] = 5935,
@@ -48149,8 +48256,8 @@ RecountPerCharDB = {
 								["Frost Fever (DoT)"] = {
 									["count"] = 4497,
 								},
-								["Blood Strike"] = {
-									["count"] = 7131,
+								["Icy Touch"] = {
+									["count"] = 8350,
 								},
 							},
 							["amount"] = 63730,
@@ -48289,59 +48396,99 @@ RecountPerCharDB = {
 							["amount"] = 42500,
 						},
 					},
-					["ElementHitsDone"] = {
-						["Physical"] = {
+					["DamagedWho"] = {
+						["Maijuur"] = {
 							["Details"] = {
-								["Absorb"] = {
-									["count"] = 1,
+								["Crystalfire Breath"] = {
+									["count"] = 3491,
 								},
-								["Hit"] = {
-									["count"] = 4,
+								["Crystalfire Breath (DoT)"] = {
+									["count"] = 5250,
+								},
+								["Crystallize"] = {
+									["count"] = 2345,
+								},
+								["Tail Sweep"] = {
+									["count"] = 293,
 								},
 							},
-							["amount"] = 5,
+							["amount"] = 11379,
 						},
-						["Frost"] = {
+						["Urgash"] = {
 							["Details"] = {
-								["Resist"] = {
-									["count"] = 3,
+								["Crystalfire Breath"] = {
+									["count"] = 6989,
 								},
-								["Absorb"] = {
-									["count"] = 1,
+								["Crystalfire Breath (DoT)"] = {
+									["count"] = 13650,
 								},
-								["Hit"] = {
-									["count"] = 14,
+								["Melee"] = {
+									["count"] = 6165,
+								},
+								["Crystallize"] = {
+									["count"] = 1445,
 								},
 							},
-							["amount"] = 18,
+							["amount"] = 28249,
 						},
-						["Melee"] = {
+						["Jungee"] = {
 							["Details"] = {
-								["Hit"] = {
-									["count"] = 5,
+								["Crystalfire Breath"] = {
+									["count"] = 1196,
 								},
-								["Dodge"] = {
-									["count"] = 3,
+								["Crystalfire Breath (DoT)"] = {
+									["count"] = 3933,
 								},
-								["Parry"] = {
-									["count"] = 5,
+								["Melee"] = {
+									["count"] = 7232,
 								},
-								["Miss"] = {
-									["count"] = 2,
+								["Crystallize"] = {
+									["count"] = 3042,
 								},
 							},
-							["amount"] = 15,
+							["amount"] = 15403,
 						},
-						["Frostfire"] = {
+						["Bigepapa"] = {
 							["Details"] = {
-								["Tick"] = {
-									["count"] = 27,
+								["Crystallize"] = {
+									["count"] = 5494,
 								},
-								["Hit"] = {
-									["count"] = 6,
+								["Tail Sweep"] = {
+									["count"] = 448,
 								},
 							},
-							["amount"] = 33,
+							["amount"] = 5942,
+						},
+						["Casketbasher <Urgash>"] = {
+							["Details"] = {
+								["Crystalfire Breath"] = {
+									["count"] = 428,
+								},
+								["Crystalfire Breath (DoT)"] = {
+									["count"] = 750,
+								},
+								["Crystallize"] = {
+									["count"] = 540,
+								},
+							},
+							["amount"] = 1718,
+						},
+						["Angeletee"] = {
+							["Details"] = {
+								["Crystalfire Breath"] = {
+									["count"] = 4860,
+								},
+								["Crystalfire Breath (DoT)"] = {
+									["count"] = 6000,
+								},
+								["Crystallize"] = {
+									["count"] = 3371,
+								},
+								["Tail Sweep"] = {
+									["count"] = 932,
+								},
+							},
+							["amount"] = 15163,
 						},
 					},
 					["TimeDamage"] = 41.36,
@@ -48443,186 +48590,66 @@ RecountPerCharDB = {
 							["amount"] = 1.62,
 						},
 					},
-					["DamagedWho"] = {
-						["Maijuur"] = {
-							["Details"] = {
-								["Crystalfire Breath"] = {
-									["count"] = 3491,
-								},
-								["Crystalfire Breath (DoT)"] = {
-									["count"] = 5250,
-								},
-								["Crystallize"] = {
-									["count"] = 2345,
-								},
-								["Tail Sweep"] = {
-									["count"] = 293,
-								},
-							},
-							["amount"] = 11379,
-						},
-						["Urgash"] = {
-							["Details"] = {
-								["Crystalfire Breath"] = {
-									["count"] = 6989,
-								},
-								["Crystalfire Breath (DoT)"] = {
-									["count"] = 13650,
-								},
-								["Melee"] = {
-									["count"] = 6165,
-								},
-								["Crystallize"] = {
-									["count"] = 1445,
-								},
-							},
-							["amount"] = 28249,
-						},
-						["Jungee"] = {
-							["Details"] = {
-								["Crystalfire Breath"] = {
-									["count"] = 1196,
-								},
-								["Crystalfire Breath (DoT)"] = {
-									["count"] = 3933,
-								},
-								["Melee"] = {
-									["count"] = 7232,
-								},
-								["Crystallize"] = {
-									["count"] = 3042,
-								},
-							},
-							["amount"] = 15403,
-						},
-						["Bigepapa"] = {
-							["Details"] = {
-								["Crystallize"] = {
-									["count"] = 5494,
-								},
-								["Tail Sweep"] = {
-									["count"] = 448,
-								},
-							},
-							["amount"] = 5942,
-						},
-						["Casketbasher <Urgash>"] = {
-							["Details"] = {
-								["Crystalfire Breath"] = {
-									["count"] = 428,
-								},
-								["Crystalfire Breath (DoT)"] = {
-									["count"] = 750,
-								},
-								["Crystallize"] = {
-									["count"] = 540,
-								},
-							},
-							["amount"] = 1718,
-						},
-						["Angeletee"] = {
-							["Details"] = {
-								["Crystalfire Breath"] = {
-									["count"] = 4860,
-								},
-								["Crystalfire Breath (DoT)"] = {
-									["count"] = 6000,
-								},
-								["Crystallize"] = {
-									["count"] = 3371,
-								},
-								["Tail Sweep"] = {
-									["count"] = 932,
-								},
-							},
-							["amount"] = 15163,
-						},
-					},
-					["Attacks"] = {
-						["Melee"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 3652,
-									["min"] = 1907,
-									["count"] = 5,
-									["amount"] = 13397,
-								},
-								["Dodge"] = {
-									["count"] = 3,
-									["amount"] = 0,
-								},
-								["Parry"] = {
-									["count"] = 5,
-									["amount"] = 0,
-								},
-								["Miss"] = {
-									["count"] = 2,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 15,
-							["amount"] = 13397,
-						},
-						["Tail Sweep"] = {
-							["Details"] = {
-								["Absorb"] = {
-									["count"] = 1,
-									["amount"] = 0,
-								},
-								["Hit"] = {
-									["max"] = 485,
-									["min"] = 293,
-									["count"] = 4,
-									["amount"] = 1673,
-								},
-							},
-							["count"] = 5,
-							["amount"] = 1673,
-						},
-						["Crystalfire Breath"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 4860,
-									["min"] = 428,
-									["count"] = 6,
-									["amount"] = 16964,
-								},
-							},
-							["count"] = 6,
-							["amount"] = 16964,
-						},
-						["Crystalfire Breath (DoT)"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 1500,
-									["min"] = 150,
-									["count"] = 27,
-									["amount"] = 29583,
-								},
-							},
-							["count"] = 27,
-							["amount"] = 29583,
-						},
-						["Crystallize"] = {
+					["ElementHitsDone"] = {
+						["Frost"] = {
 							["Details"] = {
 								["Resist"] = {
 									["count"] = 3,
-									["amount"] = 0,
 								},
 								["Absorb"] = {
 									["count"] = 1,
-									["amount"] = 0,
 								},
 								["Hit"] = {
-									["max"] = 1849,
-									["min"] = 179,
 									["count"] = 14,
-									["amount"] = 16237,
 								},
 							},
-							["count"] = 18,
-							["amount"] = 16237,
+							["amount"] = 18,
 						},
+						["Frostfire"] = {
+							["Details"] = {
+								["Tick"] = {
+									["count"] = 27,
+								},
+								["Hit"] = {
+									["count"] = 6,
+								},
+							},
+							["amount"] = 33,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 5,
+								},
+								["Dodge"] = {
+									["count"] = 3,
+								},
+								["Parry"] = {
+									["count"] = 5,
+								},
+								["Miss"] = {
+									["count"] = 2,
+								},
+							},
+							["amount"] = 15,
+						},
+						["Physical"] = {
+							["Details"] = {
+								["Absorb"] = {
+									["count"] = 1,
+								},
+								["Hit"] = {
+									["count"] = 4,
+								},
+							},
+							["amount"] = 5,
+						},
+					},
+					["ElementDone"] = {
+						["Frost"] = 16237,
+						["Frostfire"] = 46547,
+						["Melee"] = 13397,
+						["Physical"] = 1673,
 					},
 					["ElementHitsTaken"] = {
 						["Frost"] = {
@@ -49006,16 +49033,16 @@ RecountPerCharDB = {
 							["count"] = 4,
 							["amount"] = 0,
 						},
-						["Shred"] = {
+						["Melee"] = {
 							["Details"] = {
 								["No Resist"] = {
 									["max"] = 0,
 									["min"] = 0,
-									["count"] = 5,
+									["count"] = 82,
 									["amount"] = 0,
 								},
 							},
-							["count"] = 5,
+							["count"] = 82,
 							["amount"] = 0,
 						},
 						["Death Strike"] = {
@@ -49048,16 +49075,16 @@ RecountPerCharDB = {
 							["count"] = 5,
 							["amount"] = 309,
 						},
-						["Melee"] = {
+						["Rake"] = {
 							["Details"] = {
 								["No Resist"] = {
 									["max"] = 0,
 									["min"] = 0,
-									["count"] = 82,
+									["count"] = 2,
 									["amount"] = 0,
 								},
 							},
-							["count"] = 82,
+							["count"] = 2,
 							["amount"] = 0,
 						},
 						["Blood-Caked Strike"] = {
@@ -49072,16 +49099,16 @@ RecountPerCharDB = {
 							["count"] = 1,
 							["amount"] = 0,
 						},
-						["Rake"] = {
+						["Shred"] = {
 							["Details"] = {
 								["No Resist"] = {
 									["max"] = 0,
 									["min"] = 0,
-									["count"] = 2,
+									["count"] = 5,
 									["amount"] = 0,
 								},
 							},
-							["count"] = 2,
+							["count"] = 5,
 							["amount"] = 0,
 						},
 						["Rake (DoT)"] = {
@@ -49240,16 +49267,16 @@ RecountPerCharDB = {
 							["count"] = 18,
 							["amount"] = 48,
 						},
-						["Plague Strike"] = {
+						["Claw"] = {
 							["Details"] = {
 								["No Resist"] = {
 									["max"] = 0,
 									["min"] = 0,
-									["count"] = 6,
+									["count"] = 11,
 									["amount"] = 0,
 								},
 							},
-							["count"] = 6,
+							["count"] = 11,
 							["amount"] = 0,
 						},
 						["Frost Fever (DoT)"] = {
@@ -49270,16 +49297,16 @@ RecountPerCharDB = {
 							["count"] = 17,
 							["amount"] = 1391,
 						},
-						["Claw"] = {
+						["Plague Strike"] = {
 							["Details"] = {
 								["No Resist"] = {
 									["max"] = 0,
 									["min"] = 0,
-									["count"] = 11,
+									["count"] = 6,
 									["amount"] = 0,
 								},
 							},
-							["count"] = 11,
+							["count"] = 6,
 							["amount"] = 0,
 						},
 					},
@@ -49429,16 +49456,16 @@ RecountPerCharDB = {
 							["count"] = 4,
 							["amount"] = 0,
 						},
-						["Shred"] = {
+						["Melee"] = {
 							["Details"] = {
 								["No Absorb"] = {
 									["max"] = 0,
 									["min"] = 0,
-									["count"] = 5,
+									["count"] = 82,
 									["amount"] = 0,
 								},
 							},
-							["count"] = 5,
+							["count"] = 82,
 							["amount"] = 0,
 						},
 						["Death Strike"] = {
@@ -49465,16 +49492,16 @@ RecountPerCharDB = {
 							["count"] = 5,
 							["amount"] = 0,
 						},
-						["Melee"] = {
+						["Rake"] = {
 							["Details"] = {
 								["No Absorb"] = {
 									["max"] = 0,
 									["min"] = 0,
-									["count"] = 82,
+									["count"] = 2,
 									["amount"] = 0,
 								},
 							},
-							["count"] = 82,
+							["count"] = 2,
 							["amount"] = 0,
 						},
 						["Blood-Caked Strike"] = {
@@ -49489,16 +49516,16 @@ RecountPerCharDB = {
 							["count"] = 1,
 							["amount"] = 0,
 						},
-						["Rake"] = {
+						["Shred"] = {
 							["Details"] = {
 								["No Absorb"] = {
 									["max"] = 0,
 									["min"] = 0,
-									["count"] = 2,
+									["count"] = 5,
 									["amount"] = 0,
 								},
 							},
-							["count"] = 2,
+							["count"] = 5,
 							["amount"] = 0,
 						},
 						["Rake (DoT)"] = {
@@ -49621,16 +49648,16 @@ RecountPerCharDB = {
 							["count"] = 18,
 							["amount"] = 0,
 						},
-						["Plague Strike"] = {
+						["Claw"] = {
 							["Details"] = {
 								["No Absorb"] = {
 									["max"] = 0,
 									["min"] = 0,
-									["count"] = 6,
+									["count"] = 11,
 									["amount"] = 0,
 								},
 							},
-							["count"] = 6,
+							["count"] = 11,
 							["amount"] = 0,
 						},
 						["Frost Fever (DoT)"] = {
@@ -49645,16 +49672,16 @@ RecountPerCharDB = {
 							["count"] = 17,
 							["amount"] = 0,
 						},
-						["Claw"] = {
+						["Plague Strike"] = {
 							["Details"] = {
 								["No Absorb"] = {
 									["max"] = 0,
 									["min"] = 0,
-									["count"] = 11,
+									["count"] = 6,
 									["amount"] = 0,
 								},
 							},
-							["count"] = 11,
+							["count"] = 6,
 							["amount"] = 0,
 						},
 					},
@@ -49699,29 +49726,109 @@ RecountPerCharDB = {
 						["Frostfire"] = 3004,
 						["Frost"] = 2299,
 					},
-					["ElementDone"] = {
-						["Physical"] = 1673,
-						["Frost"] = 16237,
-						["Melee"] = 13397,
-						["Frostfire"] = 46547,
+					["Attacks"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 3652,
+									["min"] = 1907,
+									["count"] = 5,
+									["amount"] = 13397,
+								},
+								["Dodge"] = {
+									["count"] = 3,
+									["amount"] = 0,
+								},
+								["Parry"] = {
+									["count"] = 5,
+									["amount"] = 0,
+								},
+								["Miss"] = {
+									["count"] = 2,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 15,
+							["amount"] = 13397,
+						},
+						["Tail Sweep"] = {
+							["Details"] = {
+								["Absorb"] = {
+									["count"] = 1,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 485,
+									["min"] = 293,
+									["count"] = 4,
+									["amount"] = 1673,
+								},
+							},
+							["count"] = 5,
+							["amount"] = 1673,
+						},
+						["Crystalfire Breath"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 4860,
+									["min"] = 428,
+									["count"] = 6,
+									["amount"] = 16964,
+								},
+							},
+							["count"] = 6,
+							["amount"] = 16964,
+						},
+						["Crystalfire Breath (DoT)"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 1500,
+									["min"] = 150,
+									["count"] = 27,
+									["amount"] = 29583,
+								},
+							},
+							["count"] = 27,
+							["amount"] = 29583,
+						},
+						["Crystallize"] = {
+							["Details"] = {
+								["Resist"] = {
+									["count"] = 3,
+									["amount"] = 0,
+								},
+								["Absorb"] = {
+									["count"] = 1,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 1849,
+									["min"] = 179,
+									["count"] = 14,
+									["amount"] = 16237,
+								},
+							},
+							["count"] = 18,
+							["amount"] = 16237,
+						},
 					},
 					["WhoDamaged"] = {
 						["Jungee"] = {
 							["Details"] = {
-								["Melee"] = {
-									["count"] = 17429,
+								["Blood Plague (DoT)"] = {
+									["count"] = 5659,
 								},
 								["Death Strike"] = {
 									["count"] = 3462,
 								},
-								["Blood Plague (DoT)"] = {
-									["count"] = 5659,
+								["Melee"] = {
+									["count"] = 17429,
 								},
 								["Rune Strike"] = {
 									["count"] = 11267,
 								},
-								["Icy Touch"] = {
-									["count"] = 8350,
+								["Blood Strike"] = {
+									["count"] = 7131,
 								},
 								["Plague Strike"] = {
 									["count"] = 5935,
@@ -49729,8 +49836,8 @@ RecountPerCharDB = {
 								["Frost Fever (DoT)"] = {
 									["count"] = 4497,
 								},
-								["Blood Strike"] = {
-									["count"] = 7131,
+								["Icy Touch"] = {
+									["count"] = 8350,
 								},
 							},
 							["amount"] = 63730,
@@ -49869,59 +49976,99 @@ RecountPerCharDB = {
 							["amount"] = 42500,
 						},
 					},
-					["ElementHitsDone"] = {
-						["Physical"] = {
+					["DamagedWho"] = {
+						["Maijuur"] = {
 							["Details"] = {
-								["Absorb"] = {
-									["count"] = 1,
+								["Crystalfire Breath"] = {
+									["count"] = 3491,
 								},
-								["Hit"] = {
-									["count"] = 4,
+								["Crystalfire Breath (DoT)"] = {
+									["count"] = 5250,
+								},
+								["Crystallize"] = {
+									["count"] = 2345,
+								},
+								["Tail Sweep"] = {
+									["count"] = 293,
 								},
 							},
-							["amount"] = 5,
+							["amount"] = 11379,
 						},
-						["Frost"] = {
+						["Urgash"] = {
 							["Details"] = {
-								["Resist"] = {
-									["count"] = 3,
+								["Crystalfire Breath"] = {
+									["count"] = 6989,
 								},
-								["Absorb"] = {
-									["count"] = 1,
+								["Crystalfire Breath (DoT)"] = {
+									["count"] = 13650,
 								},
-								["Hit"] = {
-									["count"] = 14,
+								["Melee"] = {
+									["count"] = 6165,
+								},
+								["Crystallize"] = {
+									["count"] = 1445,
 								},
 							},
-							["amount"] = 18,
+							["amount"] = 28249,
 						},
-						["Melee"] = {
+						["Jungee"] = {
 							["Details"] = {
-								["Hit"] = {
-									["count"] = 5,
+								["Crystalfire Breath"] = {
+									["count"] = 1196,
 								},
-								["Dodge"] = {
-									["count"] = 3,
+								["Crystalfire Breath (DoT)"] = {
+									["count"] = 3933,
 								},
-								["Parry"] = {
-									["count"] = 5,
+								["Melee"] = {
+									["count"] = 7232,
 								},
-								["Miss"] = {
-									["count"] = 2,
+								["Crystallize"] = {
+									["count"] = 3042,
 								},
 							},
-							["amount"] = 15,
+							["amount"] = 15403,
 						},
-						["Frostfire"] = {
+						["Bigepapa"] = {
 							["Details"] = {
-								["Tick"] = {
-									["count"] = 27,
+								["Crystallize"] = {
+									["count"] = 5494,
 								},
-								["Hit"] = {
-									["count"] = 6,
+								["Tail Sweep"] = {
+									["count"] = 448,
 								},
 							},
-							["amount"] = 33,
+							["amount"] = 5942,
+						},
+						["Casketbasher <Urgash>"] = {
+							["Details"] = {
+								["Crystalfire Breath"] = {
+									["count"] = 428,
+								},
+								["Crystalfire Breath (DoT)"] = {
+									["count"] = 750,
+								},
+								["Crystallize"] = {
+									["count"] = 540,
+								},
+							},
+							["amount"] = 1718,
+						},
+						["Angeletee"] = {
+							["Details"] = {
+								["Crystalfire Breath"] = {
+									["count"] = 4860,
+								},
+								["Crystalfire Breath (DoT)"] = {
+									["count"] = 6000,
+								},
+								["Crystallize"] = {
+									["count"] = 3371,
+								},
+								["Tail Sweep"] = {
+									["count"] = 932,
+								},
+							},
+							["amount"] = 15163,
 						},
 					},
 					["TimeDamage"] = 41.36,
@@ -50023,186 +50170,66 @@ RecountPerCharDB = {
 							["amount"] = 1.62,
 						},
 					},
-					["DamagedWho"] = {
-						["Maijuur"] = {
-							["Details"] = {
-								["Crystalfire Breath"] = {
-									["count"] = 3491,
-								},
-								["Crystalfire Breath (DoT)"] = {
-									["count"] = 5250,
-								},
-								["Crystallize"] = {
-									["count"] = 2345,
-								},
-								["Tail Sweep"] = {
-									["count"] = 293,
-								},
-							},
-							["amount"] = 11379,
-						},
-						["Urgash"] = {
-							["Details"] = {
-								["Crystalfire Breath"] = {
-									["count"] = 6989,
-								},
-								["Crystalfire Breath (DoT)"] = {
-									["count"] = 13650,
-								},
-								["Melee"] = {
-									["count"] = 6165,
-								},
-								["Crystallize"] = {
-									["count"] = 1445,
-								},
-							},
-							["amount"] = 28249,
-						},
-						["Jungee"] = {
-							["Details"] = {
-								["Crystalfire Breath"] = {
-									["count"] = 1196,
-								},
-								["Crystalfire Breath (DoT)"] = {
-									["count"] = 3933,
-								},
-								["Melee"] = {
-									["count"] = 7232,
-								},
-								["Crystallize"] = {
-									["count"] = 3042,
-								},
-							},
-							["amount"] = 15403,
-						},
-						["Bigepapa"] = {
-							["Details"] = {
-								["Crystallize"] = {
-									["count"] = 5494,
-								},
-								["Tail Sweep"] = {
-									["count"] = 448,
-								},
-							},
-							["amount"] = 5942,
-						},
-						["Casketbasher <Urgash>"] = {
-							["Details"] = {
-								["Crystalfire Breath"] = {
-									["count"] = 428,
-								},
-								["Crystalfire Breath (DoT)"] = {
-									["count"] = 750,
-								},
-								["Crystallize"] = {
-									["count"] = 540,
-								},
-							},
-							["amount"] = 1718,
-						},
-						["Angeletee"] = {
-							["Details"] = {
-								["Crystalfire Breath"] = {
-									["count"] = 4860,
-								},
-								["Crystalfire Breath (DoT)"] = {
-									["count"] = 6000,
-								},
-								["Crystallize"] = {
-									["count"] = 3371,
-								},
-								["Tail Sweep"] = {
-									["count"] = 932,
-								},
-							},
-							["amount"] = 15163,
-						},
-					},
-					["Attacks"] = {
-						["Melee"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 3652,
-									["min"] = 1907,
-									["count"] = 5,
-									["amount"] = 13397,
-								},
-								["Dodge"] = {
-									["count"] = 3,
-									["amount"] = 0,
-								},
-								["Parry"] = {
-									["count"] = 5,
-									["amount"] = 0,
-								},
-								["Miss"] = {
-									["count"] = 2,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 15,
-							["amount"] = 13397,
-						},
-						["Tail Sweep"] = {
-							["Details"] = {
-								["Absorb"] = {
-									["count"] = 1,
-									["amount"] = 0,
-								},
-								["Hit"] = {
-									["max"] = 485,
-									["min"] = 293,
-									["count"] = 4,
-									["amount"] = 1673,
-								},
-							},
-							["count"] = 5,
-							["amount"] = 1673,
-						},
-						["Crystalfire Breath"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 4860,
-									["min"] = 428,
-									["count"] = 6,
-									["amount"] = 16964,
-								},
-							},
-							["count"] = 6,
-							["amount"] = 16964,
-						},
-						["Crystalfire Breath (DoT)"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 1500,
-									["min"] = 150,
-									["count"] = 27,
-									["amount"] = 29583,
-								},
-							},
-							["count"] = 27,
-							["amount"] = 29583,
-						},
-						["Crystallize"] = {
+					["ElementHitsDone"] = {
+						["Frost"] = {
 							["Details"] = {
 								["Resist"] = {
 									["count"] = 3,
-									["amount"] = 0,
 								},
 								["Absorb"] = {
 									["count"] = 1,
-									["amount"] = 0,
 								},
 								["Hit"] = {
-									["max"] = 1849,
-									["min"] = 179,
 									["count"] = 14,
-									["amount"] = 16237,
 								},
 							},
-							["count"] = 18,
-							["amount"] = 16237,
+							["amount"] = 18,
 						},
+						["Frostfire"] = {
+							["Details"] = {
+								["Tick"] = {
+									["count"] = 27,
+								},
+								["Hit"] = {
+									["count"] = 6,
+								},
+							},
+							["amount"] = 33,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 5,
+								},
+								["Dodge"] = {
+									["count"] = 3,
+								},
+								["Parry"] = {
+									["count"] = 5,
+								},
+								["Miss"] = {
+									["count"] = 2,
+								},
+							},
+							["amount"] = 15,
+						},
+						["Physical"] = {
+							["Details"] = {
+								["Absorb"] = {
+									["count"] = 1,
+								},
+								["Hit"] = {
+									["count"] = 4,
+								},
+							},
+							["amount"] = 5,
+						},
+					},
+					["ElementDone"] = {
+						["Frost"] = 16237,
+						["Frostfire"] = 46547,
+						["Melee"] = 13397,
+						["Physical"] = 1673,
 					},
 					["ElementHitsTaken"] = {
 						["Frost"] = {
@@ -50299,14 +50326,13 @@ RecountPerCharDB = {
 					},
 					["DeathCount"] = 0,
 					["HOT_Time"] = 0,
-					["ElementTakenBlock"] = {
-					},
+					["Damage"] = 0,
 					["RunicPowerGain"] = 0,
 					["ElementTaken"] = {
 					},
-					["HOTs"] = {
+					["DOT_Time"] = 0,
+					["ElementTakenBlock"] = {
 					},
-					["Damage"] = 0,
 					["ElementDoneAbsorb"] = {
 					},
 					["TimeHeal"] = 0,
@@ -50315,32 +50341,33 @@ RecountPerCharDB = {
 					["Dispels"] = 0,
 					["PartialBlock"] = {
 					},
-					["DamagedWho"] = {
+					["ElementHitsDone"] = {
 					},
 					["FAttacks"] = {
 					},
 					["HealingTaken"] = 0,
 					["ElementDone"] = {
 					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementHitsDone"] = {
+					["DamagedWho"] = {
 					},
 					["ManaGainedFrom"] = {
+					},
+					["RunicPowerGained"] = {
 					},
 					["WhoDamaged"] = {
 					},
 					["EnergyGainedFrom"] = {
 					},
-					["RunicPowerGained"] = {
-					},
 					["CCBroken"] = {
+					},
+					["RunicPowerGainedFrom"] = {
 					},
 					["ElementDoneBlock"] = {
 					},
 					["TimeHealing"] = {
 					},
-					["Dispelled"] = 0,
+					["OverHeals"] = {
+					},
 					["WhoHealed"] = {
 					},
 					["HealedWho"] = {
@@ -50348,13 +50375,14 @@ RecountPerCharDB = {
 					["CCBreak"] = 0,
 					["ElementTakenAbsorb"] = {
 					},
-					["FDamage"] = 0,
-					["EnergyGain"] = 0,
-					["ManaGained"] = {
-					},
 					["PartialAbsorb"] = {
 					},
-					["ActiveTime"] = 0,
+					["PartialResist"] = {
+					},
+					["ManaGained"] = {
+					},
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
 					["Overhealing"] = 0,
 					["TimeSpent"] = {
 					},
@@ -50366,15 +50394,13 @@ RecountPerCharDB = {
 					},
 					["Heals"] = {
 					},
-					["Interrupts"] = 0,
+					["ActiveTime"] = 0,
 					["EnergyGained"] = {
 					},
-					["PartialResist"] = {
-					},
+					["EnergyGain"] = 0,
 					["Healing"] = 0,
+					["Dispelled"] = 0,
 					["RageGained"] = {
-					},
-					["OverHeals"] = {
 					},
 					["Attacks"] = {
 					},
@@ -50385,7 +50411,8 @@ RecountPerCharDB = {
 					["TimeDamaging"] = {
 					},
 					["ManaGain"] = 0,
-					["DOT_Time"] = 0,
+					["HOTs"] = {
+					},
 					["DispelledWho"] = {
 					},
 				},
@@ -50689,16 +50716,16 @@ RecountPerCharDB = {
 							["count"] = 4,
 							["amount"] = 0,
 						},
-						["Shred"] = {
+						["Melee"] = {
 							["Details"] = {
 								["No Resist"] = {
 									["max"] = 0,
 									["min"] = 0,
-									["count"] = 5,
+									["count"] = 82,
 									["amount"] = 0,
 								},
 							},
-							["count"] = 5,
+							["count"] = 82,
 							["amount"] = 0,
 						},
 						["Death Strike"] = {
@@ -50731,16 +50758,16 @@ RecountPerCharDB = {
 							["count"] = 5,
 							["amount"] = 309,
 						},
-						["Melee"] = {
+						["Rake"] = {
 							["Details"] = {
 								["No Resist"] = {
 									["max"] = 0,
 									["min"] = 0,
-									["count"] = 82,
+									["count"] = 2,
 									["amount"] = 0,
 								},
 							},
-							["count"] = 82,
+							["count"] = 2,
 							["amount"] = 0,
 						},
 						["Blood-Caked Strike"] = {
@@ -50755,16 +50782,16 @@ RecountPerCharDB = {
 							["count"] = 1,
 							["amount"] = 0,
 						},
-						["Rake"] = {
+						["Shred"] = {
 							["Details"] = {
 								["No Resist"] = {
 									["max"] = 0,
 									["min"] = 0,
-									["count"] = 2,
+									["count"] = 5,
 									["amount"] = 0,
 								},
 							},
-							["count"] = 2,
+							["count"] = 5,
 							["amount"] = 0,
 						},
 						["Rake (DoT)"] = {
@@ -50923,16 +50950,16 @@ RecountPerCharDB = {
 							["count"] = 18,
 							["amount"] = 48,
 						},
-						["Plague Strike"] = {
+						["Claw"] = {
 							["Details"] = {
 								["No Resist"] = {
 									["max"] = 0,
 									["min"] = 0,
-									["count"] = 6,
+									["count"] = 11,
 									["amount"] = 0,
 								},
 							},
-							["count"] = 6,
+							["count"] = 11,
 							["amount"] = 0,
 						},
 						["Frost Fever (DoT)"] = {
@@ -50953,16 +50980,16 @@ RecountPerCharDB = {
 							["count"] = 17,
 							["amount"] = 1391,
 						},
-						["Claw"] = {
+						["Plague Strike"] = {
 							["Details"] = {
 								["No Resist"] = {
 									["max"] = 0,
 									["min"] = 0,
-									["count"] = 11,
+									["count"] = 6,
 									["amount"] = 0,
 								},
 							},
-							["count"] = 11,
+							["count"] = 6,
 							["amount"] = 0,
 						},
 					},
@@ -51112,16 +51139,16 @@ RecountPerCharDB = {
 							["count"] = 4,
 							["amount"] = 0,
 						},
-						["Shred"] = {
+						["Melee"] = {
 							["Details"] = {
 								["No Absorb"] = {
 									["max"] = 0,
 									["min"] = 0,
-									["count"] = 5,
+									["count"] = 82,
 									["amount"] = 0,
 								},
 							},
-							["count"] = 5,
+							["count"] = 82,
 							["amount"] = 0,
 						},
 						["Death Strike"] = {
@@ -51148,16 +51175,16 @@ RecountPerCharDB = {
 							["count"] = 5,
 							["amount"] = 0,
 						},
-						["Melee"] = {
+						["Rake"] = {
 							["Details"] = {
 								["No Absorb"] = {
 									["max"] = 0,
 									["min"] = 0,
-									["count"] = 82,
+									["count"] = 2,
 									["amount"] = 0,
 								},
 							},
-							["count"] = 82,
+							["count"] = 2,
 							["amount"] = 0,
 						},
 						["Blood-Caked Strike"] = {
@@ -51172,16 +51199,16 @@ RecountPerCharDB = {
 							["count"] = 1,
 							["amount"] = 0,
 						},
-						["Rake"] = {
+						["Shred"] = {
 							["Details"] = {
 								["No Absorb"] = {
 									["max"] = 0,
 									["min"] = 0,
-									["count"] = 2,
+									["count"] = 5,
 									["amount"] = 0,
 								},
 							},
-							["count"] = 2,
+							["count"] = 5,
 							["amount"] = 0,
 						},
 						["Rake (DoT)"] = {
@@ -51304,16 +51331,16 @@ RecountPerCharDB = {
 							["count"] = 18,
 							["amount"] = 0,
 						},
-						["Plague Strike"] = {
+						["Claw"] = {
 							["Details"] = {
 								["No Absorb"] = {
 									["max"] = 0,
 									["min"] = 0,
-									["count"] = 6,
+									["count"] = 11,
 									["amount"] = 0,
 								},
 							},
-							["count"] = 6,
+							["count"] = 11,
 							["amount"] = 0,
 						},
 						["Frost Fever (DoT)"] = {
@@ -51328,16 +51355,16 @@ RecountPerCharDB = {
 							["count"] = 17,
 							["amount"] = 0,
 						},
-						["Claw"] = {
+						["Plague Strike"] = {
 							["Details"] = {
 								["No Absorb"] = {
 									["max"] = 0,
 									["min"] = 0,
-									["count"] = 11,
+									["count"] = 6,
 									["amount"] = 0,
 								},
 							},
-							["count"] = 11,
+							["count"] = 6,
 							["amount"] = 0,
 						},
 					},
@@ -51382,29 +51409,109 @@ RecountPerCharDB = {
 						["Frostfire"] = 3004,
 						["Frost"] = 2299,
 					},
-					["ElementDone"] = {
-						["Physical"] = 1673,
-						["Frost"] = 16237,
-						["Melee"] = 13397,
-						["Frostfire"] = 46547,
+					["Attacks"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 3652,
+									["min"] = 1907,
+									["count"] = 5,
+									["amount"] = 13397,
+								},
+								["Dodge"] = {
+									["count"] = 3,
+									["amount"] = 0,
+								},
+								["Parry"] = {
+									["count"] = 5,
+									["amount"] = 0,
+								},
+								["Miss"] = {
+									["count"] = 2,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 15,
+							["amount"] = 13397,
+						},
+						["Tail Sweep"] = {
+							["Details"] = {
+								["Absorb"] = {
+									["count"] = 1,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 485,
+									["min"] = 293,
+									["count"] = 4,
+									["amount"] = 1673,
+								},
+							},
+							["count"] = 5,
+							["amount"] = 1673,
+						},
+						["Crystalfire Breath"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 4860,
+									["min"] = 428,
+									["count"] = 6,
+									["amount"] = 16964,
+								},
+							},
+							["count"] = 6,
+							["amount"] = 16964,
+						},
+						["Crystalfire Breath (DoT)"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 1500,
+									["min"] = 150,
+									["count"] = 27,
+									["amount"] = 29583,
+								},
+							},
+							["count"] = 27,
+							["amount"] = 29583,
+						},
+						["Crystallize"] = {
+							["Details"] = {
+								["Resist"] = {
+									["count"] = 3,
+									["amount"] = 0,
+								},
+								["Absorb"] = {
+									["count"] = 1,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 1849,
+									["min"] = 179,
+									["count"] = 14,
+									["amount"] = 16237,
+								},
+							},
+							["count"] = 18,
+							["amount"] = 16237,
+						},
 					},
 					["WhoDamaged"] = {
 						["Jungee"] = {
 							["Details"] = {
-								["Melee"] = {
-									["count"] = 17429,
+								["Blood Plague (DoT)"] = {
+									["count"] = 5659,
 								},
 								["Death Strike"] = {
 									["count"] = 3462,
 								},
-								["Blood Plague (DoT)"] = {
-									["count"] = 5659,
+								["Melee"] = {
+									["count"] = 17429,
 								},
 								["Rune Strike"] = {
 									["count"] = 11267,
 								},
-								["Icy Touch"] = {
-									["count"] = 8350,
+								["Blood Strike"] = {
+									["count"] = 7131,
 								},
 								["Plague Strike"] = {
 									["count"] = 5935,
@@ -51412,8 +51519,8 @@ RecountPerCharDB = {
 								["Frost Fever (DoT)"] = {
 									["count"] = 4497,
 								},
-								["Blood Strike"] = {
-									["count"] = 7131,
+								["Icy Touch"] = {
+									["count"] = 8350,
 								},
 							},
 							["amount"] = 63730,
@@ -51552,59 +51659,99 @@ RecountPerCharDB = {
 							["amount"] = 42500,
 						},
 					},
-					["ElementHitsDone"] = {
-						["Physical"] = {
+					["DamagedWho"] = {
+						["Maijuur"] = {
 							["Details"] = {
-								["Absorb"] = {
-									["count"] = 1,
+								["Crystalfire Breath"] = {
+									["count"] = 3491,
 								},
-								["Hit"] = {
-									["count"] = 4,
+								["Crystalfire Breath (DoT)"] = {
+									["count"] = 5250,
+								},
+								["Crystallize"] = {
+									["count"] = 2345,
+								},
+								["Tail Sweep"] = {
+									["count"] = 293,
 								},
 							},
-							["amount"] = 5,
+							["amount"] = 11379,
 						},
-						["Frost"] = {
+						["Urgash"] = {
 							["Details"] = {
-								["Resist"] = {
-									["count"] = 3,
+								["Crystalfire Breath"] = {
+									["count"] = 6989,
 								},
-								["Absorb"] = {
-									["count"] = 1,
+								["Crystalfire Breath (DoT)"] = {
+									["count"] = 13650,
 								},
-								["Hit"] = {
-									["count"] = 14,
+								["Melee"] = {
+									["count"] = 6165,
+								},
+								["Crystallize"] = {
+									["count"] = 1445,
 								},
 							},
-							["amount"] = 18,
+							["amount"] = 28249,
 						},
-						["Melee"] = {
+						["Jungee"] = {
 							["Details"] = {
-								["Hit"] = {
-									["count"] = 5,
+								["Crystalfire Breath"] = {
+									["count"] = 1196,
 								},
-								["Dodge"] = {
-									["count"] = 3,
+								["Crystalfire Breath (DoT)"] = {
+									["count"] = 3933,
 								},
-								["Parry"] = {
-									["count"] = 5,
+								["Melee"] = {
+									["count"] = 7232,
 								},
-								["Miss"] = {
-									["count"] = 2,
+								["Crystallize"] = {
+									["count"] = 3042,
 								},
 							},
-							["amount"] = 15,
+							["amount"] = 15403,
 						},
-						["Frostfire"] = {
+						["Bigepapa"] = {
 							["Details"] = {
-								["Tick"] = {
-									["count"] = 27,
+								["Crystallize"] = {
+									["count"] = 5494,
 								},
-								["Hit"] = {
-									["count"] = 6,
+								["Tail Sweep"] = {
+									["count"] = 448,
 								},
 							},
-							["amount"] = 33,
+							["amount"] = 5942,
+						},
+						["Casketbasher <Urgash>"] = {
+							["Details"] = {
+								["Crystalfire Breath"] = {
+									["count"] = 428,
+								},
+								["Crystalfire Breath (DoT)"] = {
+									["count"] = 750,
+								},
+								["Crystallize"] = {
+									["count"] = 540,
+								},
+							},
+							["amount"] = 1718,
+						},
+						["Angeletee"] = {
+							["Details"] = {
+								["Crystalfire Breath"] = {
+									["count"] = 4860,
+								},
+								["Crystalfire Breath (DoT)"] = {
+									["count"] = 6000,
+								},
+								["Crystallize"] = {
+									["count"] = 3371,
+								},
+								["Tail Sweep"] = {
+									["count"] = 932,
+								},
+							},
+							["amount"] = 15163,
 						},
 					},
 					["TimeDamage"] = 41.36,
@@ -51706,186 +51853,66 @@ RecountPerCharDB = {
 							["amount"] = 1.62,
 						},
 					},
-					["DamagedWho"] = {
-						["Maijuur"] = {
-							["Details"] = {
-								["Crystalfire Breath"] = {
-									["count"] = 3491,
-								},
-								["Crystalfire Breath (DoT)"] = {
-									["count"] = 5250,
-								},
-								["Crystallize"] = {
-									["count"] = 2345,
-								},
-								["Tail Sweep"] = {
-									["count"] = 293,
-								},
-							},
-							["amount"] = 11379,
-						},
-						["Urgash"] = {
-							["Details"] = {
-								["Crystalfire Breath"] = {
-									["count"] = 6989,
-								},
-								["Crystalfire Breath (DoT)"] = {
-									["count"] = 13650,
-								},
-								["Melee"] = {
-									["count"] = 6165,
-								},
-								["Crystallize"] = {
-									["count"] = 1445,
-								},
-							},
-							["amount"] = 28249,
-						},
-						["Jungee"] = {
-							["Details"] = {
-								["Crystalfire Breath"] = {
-									["count"] = 1196,
-								},
-								["Crystalfire Breath (DoT)"] = {
-									["count"] = 3933,
-								},
-								["Melee"] = {
-									["count"] = 7232,
-								},
-								["Crystallize"] = {
-									["count"] = 3042,
-								},
-							},
-							["amount"] = 15403,
-						},
-						["Bigepapa"] = {
-							["Details"] = {
-								["Crystallize"] = {
-									["count"] = 5494,
-								},
-								["Tail Sweep"] = {
-									["count"] = 448,
-								},
-							},
-							["amount"] = 5942,
-						},
-						["Casketbasher <Urgash>"] = {
-							["Details"] = {
-								["Crystalfire Breath"] = {
-									["count"] = 428,
-								},
-								["Crystalfire Breath (DoT)"] = {
-									["count"] = 750,
-								},
-								["Crystallize"] = {
-									["count"] = 540,
-								},
-							},
-							["amount"] = 1718,
-						},
-						["Angeletee"] = {
-							["Details"] = {
-								["Crystalfire Breath"] = {
-									["count"] = 4860,
-								},
-								["Crystalfire Breath (DoT)"] = {
-									["count"] = 6000,
-								},
-								["Crystallize"] = {
-									["count"] = 3371,
-								},
-								["Tail Sweep"] = {
-									["count"] = 932,
-								},
-							},
-							["amount"] = 15163,
-						},
-					},
-					["Attacks"] = {
-						["Melee"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 3652,
-									["min"] = 1907,
-									["count"] = 5,
-									["amount"] = 13397,
-								},
-								["Dodge"] = {
-									["count"] = 3,
-									["amount"] = 0,
-								},
-								["Parry"] = {
-									["count"] = 5,
-									["amount"] = 0,
-								},
-								["Miss"] = {
-									["count"] = 2,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 15,
-							["amount"] = 13397,
-						},
-						["Tail Sweep"] = {
-							["Details"] = {
-								["Absorb"] = {
-									["count"] = 1,
-									["amount"] = 0,
-								},
-								["Hit"] = {
-									["max"] = 485,
-									["min"] = 293,
-									["count"] = 4,
-									["amount"] = 1673,
-								},
-							},
-							["count"] = 5,
-							["amount"] = 1673,
-						},
-						["Crystalfire Breath"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 4860,
-									["min"] = 428,
-									["count"] = 6,
-									["amount"] = 16964,
-								},
-							},
-							["count"] = 6,
-							["amount"] = 16964,
-						},
-						["Crystalfire Breath (DoT)"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 1500,
-									["min"] = 150,
-									["count"] = 27,
-									["amount"] = 29583,
-								},
-							},
-							["count"] = 27,
-							["amount"] = 29583,
-						},
-						["Crystallize"] = {
+					["ElementHitsDone"] = {
+						["Frost"] = {
 							["Details"] = {
 								["Resist"] = {
 									["count"] = 3,
-									["amount"] = 0,
 								},
 								["Absorb"] = {
 									["count"] = 1,
-									["amount"] = 0,
 								},
 								["Hit"] = {
-									["max"] = 1849,
-									["min"] = 179,
 									["count"] = 14,
-									["amount"] = 16237,
 								},
 							},
-							["count"] = 18,
-							["amount"] = 16237,
+							["amount"] = 18,
 						},
+						["Frostfire"] = {
+							["Details"] = {
+								["Tick"] = {
+									["count"] = 27,
+								},
+								["Hit"] = {
+									["count"] = 6,
+								},
+							},
+							["amount"] = 33,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 5,
+								},
+								["Dodge"] = {
+									["count"] = 3,
+								},
+								["Parry"] = {
+									["count"] = 5,
+								},
+								["Miss"] = {
+									["count"] = 2,
+								},
+							},
+							["amount"] = 15,
+						},
+						["Physical"] = {
+							["Details"] = {
+								["Absorb"] = {
+									["count"] = 1,
+								},
+								["Hit"] = {
+									["count"] = 4,
+								},
+							},
+							["amount"] = 5,
+						},
+					},
+					["ElementDone"] = {
+						["Frost"] = 16237,
+						["Frostfire"] = 46547,
+						["Melee"] = 13397,
+						["Physical"] = 1673,
 					},
 					["ElementHitsTaken"] = {
 						["Frost"] = {
@@ -52116,7 +52143,7 @@ RecountPerCharDB = {
 			["LastFightIn"] = 6,
 			["type"] = "Pet",
 			["FightsSaved"] = 5,
-			["LastAbility"] = 1306.632,
+			["LastAbility"] = 4982.039,
 			["LastEventTimes"] = {
 				3868.973, -- [1]
 				3870.231, -- [2]
@@ -52367,72 +52394,17 @@ RecountPerCharDB = {
 							["amount"] = 2,
 						},
 					},
-					["PartialResist"] = {
-						["Frightening Shout"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 0,
-						},
-						["Incendiary Shot (DoT)"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 3,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 3,
-							["amount"] = 0,
-						},
-						["War Stomp"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 0,
-						},
-						["Incendiary Shot"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 0,
-						},
+					["ElementDone"] = {
+						["Nature"] = 59504,
 					},
-					["DamagedWho"] = {
-						["Commander Kolurg"] = {
+					["ElementHitsDone"] = {
+						["Nature"] = {
 							["Details"] = {
-								["Gargoyle Strike"] = {
-									["count"] = 37730,
+								["Hit"] = {
+									["count"] = 16,
 								},
 							},
-							["amount"] = 37730,
-						},
-						["Horde Berserker"] = {
-							["Details"] = {
-								["Gargoyle Strike"] = {
-									["count"] = 21774,
-								},
-							},
-							["amount"] = 21774,
+							["amount"] = 16,
 						},
 					},
 					["WhoDamaged"] = {
@@ -52479,8 +52451,37 @@ RecountPerCharDB = {
 					},
 					["DamageTaken"] = 4756,
 					["TimeDamage"] = 28.01,
-					["ElementDone"] = {
-						["Nature"] = 59504,
+					["Attacks"] = {
+						["Gargoyle Strike"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 4101,
+									["min"] = 3281,
+									["count"] = 16,
+									["amount"] = 59504,
+								},
+							},
+							["count"] = 16,
+							["amount"] = 59504,
+						},
+					},
+					["DamagedWho"] = {
+						["Commander Kolurg"] = {
+							["Details"] = {
+								["Gargoyle Strike"] = {
+									["count"] = 37730,
+								},
+							},
+							["amount"] = 37730,
+						},
+						["Horde Berserker"] = {
+							["Details"] = {
+								["Gargoyle Strike"] = {
+									["count"] = 21774,
+								},
+							},
+							["amount"] = 21774,
+						},
 					},
 					["PartialAbsorb"] = {
 						["Frightening Shout"] = {
@@ -52532,16 +52533,6 @@ RecountPerCharDB = {
 							["amount"] = 0,
 						},
 					},
-					["ElementHitsDone"] = {
-						["Nature"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 16,
-								},
-							},
-							["amount"] = 16,
-						},
-					},
 					["ActiveTime"] = 28.01,
 					["TimeDamaging"] = {
 						["Commander Kolurg"] = {
@@ -52565,18 +52556,54 @@ RecountPerCharDB = {
 						["Physical"] = 431,
 						["Fire"] = 4325,
 					},
-					["Attacks"] = {
-						["Gargoyle Strike"] = {
+					["PartialResist"] = {
+						["Frightening Shout"] = {
 							["Details"] = {
-								["Hit"] = {
-									["max"] = 4101,
-									["min"] = 3281,
-									["count"] = 16,
-									["amount"] = 59504,
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
 								},
 							},
-							["count"] = 16,
-							["amount"] = 59504,
+							["count"] = 1,
+							["amount"] = 0,
+						},
+						["Incendiary Shot (DoT)"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 3,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 3,
+							["amount"] = 0,
+						},
+						["War Stomp"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+						["Incendiary Shot"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
 						},
 					},
 					["Damage"] = 59504,
@@ -52594,14 +52621,13 @@ RecountPerCharDB = {
 					},
 					["DeathCount"] = 0,
 					["HOT_Time"] = 0,
-					["ElementTakenBlock"] = {
-					},
+					["Damage"] = 0,
 					["RunicPowerGain"] = 0,
 					["ElementTaken"] = {
 					},
-					["HOTs"] = {
+					["DOT_Time"] = 0,
+					["ElementTakenBlock"] = {
 					},
-					["Damage"] = 0,
 					["ElementDoneAbsorb"] = {
 					},
 					["TimeHeal"] = 0,
@@ -52610,32 +52636,33 @@ RecountPerCharDB = {
 					["Dispels"] = 0,
 					["PartialBlock"] = {
 					},
-					["DamagedWho"] = {
+					["ElementHitsDone"] = {
 					},
 					["FAttacks"] = {
 					},
 					["HealingTaken"] = 0,
 					["ElementDone"] = {
 					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementHitsDone"] = {
+					["DamagedWho"] = {
 					},
 					["ManaGainedFrom"] = {
+					},
+					["RunicPowerGained"] = {
 					},
 					["WhoDamaged"] = {
 					},
 					["EnergyGainedFrom"] = {
 					},
-					["RunicPowerGained"] = {
-					},
 					["CCBroken"] = {
+					},
+					["RunicPowerGainedFrom"] = {
 					},
 					["ElementDoneBlock"] = {
 					},
 					["TimeHealing"] = {
 					},
-					["Dispelled"] = 0,
+					["OverHeals"] = {
+					},
 					["WhoHealed"] = {
 					},
 					["HealedWho"] = {
@@ -52643,13 +52670,14 @@ RecountPerCharDB = {
 					["CCBreak"] = 0,
 					["ElementTakenAbsorb"] = {
 					},
-					["FDamage"] = 0,
-					["EnergyGain"] = 0,
-					["ManaGained"] = {
-					},
 					["PartialAbsorb"] = {
 					},
-					["ActiveTime"] = 0,
+					["PartialResist"] = {
+					},
+					["ManaGained"] = {
+					},
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
 					["Overhealing"] = 0,
 					["TimeSpent"] = {
 					},
@@ -52661,15 +52689,13 @@ RecountPerCharDB = {
 					},
 					["Heals"] = {
 					},
-					["Interrupts"] = 0,
+					["ActiveTime"] = 0,
 					["EnergyGained"] = {
 					},
-					["PartialResist"] = {
-					},
+					["EnergyGain"] = 0,
 					["Healing"] = 0,
+					["Dispelled"] = 0,
 					["RageGained"] = {
-					},
-					["OverHeals"] = {
 					},
 					["Attacks"] = {
 					},
@@ -52680,7 +52706,8 @@ RecountPerCharDB = {
 					["TimeDamaging"] = {
 					},
 					["ManaGain"] = 0,
-					["DOT_Time"] = 0,
+					["HOTs"] = {
+					},
 					["DispelledWho"] = {
 					},
 				},
@@ -52706,23 +52733,14 @@ RecountPerCharDB = {
 					},
 					["DeathCount"] = 0,
 					["HOT_Time"] = 42,
-					["ElementTakenBlock"] = {
-					},
+					["Damage"] = 82908,
 					["RunicPowerGain"] = 0,
 					["ElementTaken"] = {
 						["Physical"] = 1440,
 					},
-					["HOTs"] = {
-						["Judgement of Light"] = {
-							["Details"] = {
-								["Ebon Gargoyle <Urgash>"] = {
-									["count"] = 42,
-								},
-							},
-							["amount"] = 42,
-						},
+					["DOT_Time"] = 0,
+					["ElementTakenBlock"] = {
 					},
-					["Damage"] = 82908,
 					["ElementDoneAbsorb"] = {
 					},
 					["TimeHeal"] = 6.46,
@@ -52730,6 +52748,28 @@ RecountPerCharDB = {
 					},
 					["Dispels"] = 0,
 					["PartialBlock"] = {
+					},
+					["ElementHitsDone"] = {
+						["Nature"] = {
+							["Details"] = {
+								["Immune"] = {
+									["count"] = 4,
+								},
+								["Crit"] = {
+									["count"] = 1,
+								},
+								["Hit"] = {
+									["count"] = 17,
+								},
+							},
+							["amount"] = 22,
+						},
+					},
+					["FAttacks"] = {
+					},
+					["HealingTaken"] = 1440,
+					["ElementDone"] = {
+						["Nature"] = 82908,
 					},
 					["DamagedWho"] = {
 						["Ormorok the Tree-Shaper"] = {
@@ -52749,31 +52789,9 @@ RecountPerCharDB = {
 							["amount"] = 26493,
 						},
 					},
-					["FAttacks"] = {
-					},
-					["HealingTaken"] = 1440,
-					["ElementDone"] = {
-						["Nature"] = 82908,
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementHitsDone"] = {
-						["Nature"] = {
-							["Details"] = {
-								["Immune"] = {
-									["count"] = 4,
-								},
-								["Crit"] = {
-									["count"] = 1,
-								},
-								["Hit"] = {
-									["count"] = 17,
-								},
-							},
-							["amount"] = 22,
-						},
-					},
 					["ManaGainedFrom"] = {
+					},
+					["RunicPowerGained"] = {
 					},
 					["WhoDamaged"] = {
 						["No One"] = {
@@ -52795,9 +52813,9 @@ RecountPerCharDB = {
 					},
 					["EnergyGainedFrom"] = {
 					},
-					["RunicPowerGained"] = {
-					},
 					["CCBroken"] = {
+					},
+					["RunicPowerGainedFrom"] = {
 					},
 					["ElementDoneBlock"] = {
 					},
@@ -52811,7 +52829,20 @@ RecountPerCharDB = {
 							["amount"] = 6.46,
 						},
 					},
-					["Dispelled"] = 0,
+					["OverHeals"] = {
+						["Judgement of Light"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 518,
+									["min"] = 99,
+									["count"] = 13,
+									["amount"] = 5812,
+								},
+							},
+							["count"] = 13,
+							["amount"] = 5812,
+						},
+					},
 					["WhoHealed"] = {
 						["Ebon Gargoyle <Urgash>"] = {
 							["Details"] = {
@@ -52834,10 +52865,6 @@ RecountPerCharDB = {
 					},
 					["CCBreak"] = 0,
 					["ElementTakenAbsorb"] = {
-					},
-					["FDamage"] = 0,
-					["EnergyGain"] = 0,
-					["ManaGained"] = {
 					},
 					["PartialAbsorb"] = {
 						["Crystal Spike"] = {
@@ -52865,7 +52892,36 @@ RecountPerCharDB = {
 							["amount"] = 0,
 						},
 					},
-					["ActiveTime"] = 35.51000000000001,
+					["PartialResist"] = {
+						["Crystal Spike"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+						["Trample"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 0,
+						},
+					},
+					["ManaGained"] = {
+					},
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
 					["Overhealing"] = 5812,
 					["TimeSpent"] = {
 						["Anomalus"] = {
@@ -52913,51 +52969,13 @@ RecountPerCharDB = {
 							["amount"] = 1440,
 						},
 					},
-					["Interrupts"] = 0,
+					["ActiveTime"] = 35.51000000000001,
 					["EnergyGained"] = {
 					},
-					["PartialResist"] = {
-						["Crystal Spike"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 0,
-						},
-						["Trample"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 2,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 2,
-							["amount"] = 0,
-						},
-					},
+					["EnergyGain"] = 0,
 					["Healing"] = 1440,
+					["Dispelled"] = 0,
 					["RageGained"] = {
-					},
-					["OverHeals"] = {
-						["Judgement of Light"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 518,
-									["min"] = 99,
-									["count"] = 13,
-									["amount"] = 5812,
-								},
-							},
-							["count"] = 13,
-							["amount"] = 5812,
-						},
 					},
 					["Attacks"] = {
 						["Gargoyle Strike"] = {
@@ -53006,7 +53024,16 @@ RecountPerCharDB = {
 						},
 					},
 					["ManaGain"] = 0,
-					["DOT_Time"] = 0,
+					["HOTs"] = {
+						["Judgement of Light"] = {
+							["Details"] = {
+								["Ebon Gargoyle <Urgash>"] = {
+									["count"] = 42,
+								},
+							},
+							["amount"] = 42,
+						},
+					},
 					["DispelledWho"] = {
 					},
 				},
@@ -53032,23 +53059,14 @@ RecountPerCharDB = {
 					},
 					["DeathCount"] = 0,
 					["HOT_Time"] = 42,
-					["ElementTakenBlock"] = {
-					},
+					["Damage"] = 82908,
 					["RunicPowerGain"] = 0,
 					["ElementTaken"] = {
 						["Physical"] = 1440,
 					},
-					["HOTs"] = {
-						["Judgement of Light"] = {
-							["Details"] = {
-								["Ebon Gargoyle <Urgash>"] = {
-									["count"] = 42,
-								},
-							},
-							["amount"] = 42,
-						},
+					["DOT_Time"] = 0,
+					["ElementTakenBlock"] = {
 					},
-					["Damage"] = 82908,
 					["ElementDoneAbsorb"] = {
 					},
 					["TimeHeal"] = 6.46,
@@ -53056,6 +53074,28 @@ RecountPerCharDB = {
 					},
 					["Dispels"] = 0,
 					["PartialBlock"] = {
+					},
+					["ElementHitsDone"] = {
+						["Nature"] = {
+							["Details"] = {
+								["Immune"] = {
+									["count"] = 4,
+								},
+								["Crit"] = {
+									["count"] = 1,
+								},
+								["Hit"] = {
+									["count"] = 17,
+								},
+							},
+							["amount"] = 22,
+						},
+					},
+					["FAttacks"] = {
+					},
+					["HealingTaken"] = 1440,
+					["ElementDone"] = {
+						["Nature"] = 82908,
 					},
 					["DamagedWho"] = {
 						["Ormorok the Tree-Shaper"] = {
@@ -53075,31 +53115,9 @@ RecountPerCharDB = {
 							["amount"] = 26493,
 						},
 					},
-					["FAttacks"] = {
-					},
-					["HealingTaken"] = 1440,
-					["ElementDone"] = {
-						["Nature"] = 82908,
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementHitsDone"] = {
-						["Nature"] = {
-							["Details"] = {
-								["Immune"] = {
-									["count"] = 4,
-								},
-								["Crit"] = {
-									["count"] = 1,
-								},
-								["Hit"] = {
-									["count"] = 17,
-								},
-							},
-							["amount"] = 22,
-						},
-					},
 					["ManaGainedFrom"] = {
+					},
+					["RunicPowerGained"] = {
 					},
 					["WhoDamaged"] = {
 						["No One"] = {
@@ -53121,9 +53139,9 @@ RecountPerCharDB = {
 					},
 					["EnergyGainedFrom"] = {
 					},
-					["RunicPowerGained"] = {
-					},
 					["CCBroken"] = {
+					},
+					["RunicPowerGainedFrom"] = {
 					},
 					["ElementDoneBlock"] = {
 					},
@@ -53137,7 +53155,20 @@ RecountPerCharDB = {
 							["amount"] = 6.46,
 						},
 					},
-					["Dispelled"] = 0,
+					["OverHeals"] = {
+						["Judgement of Light"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 518,
+									["min"] = 99,
+									["count"] = 13,
+									["amount"] = 5812,
+								},
+							},
+							["count"] = 13,
+							["amount"] = 5812,
+						},
+					},
 					["WhoHealed"] = {
 						["Ebon Gargoyle <Urgash>"] = {
 							["Details"] = {
@@ -53160,10 +53191,6 @@ RecountPerCharDB = {
 					},
 					["CCBreak"] = 0,
 					["ElementTakenAbsorb"] = {
-					},
-					["FDamage"] = 0,
-					["EnergyGain"] = 0,
-					["ManaGained"] = {
 					},
 					["PartialAbsorb"] = {
 						["Crystal Spike"] = {
@@ -53191,7 +53218,36 @@ RecountPerCharDB = {
 							["amount"] = 0,
 						},
 					},
-					["ActiveTime"] = 35.51000000000001,
+					["PartialResist"] = {
+						["Crystal Spike"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+						["Trample"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 0,
+						},
+					},
+					["ManaGained"] = {
+					},
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
 					["Overhealing"] = 5812,
 					["TimeSpent"] = {
 						["Anomalus"] = {
@@ -53239,51 +53295,13 @@ RecountPerCharDB = {
 							["amount"] = 1440,
 						},
 					},
-					["Interrupts"] = 0,
+					["ActiveTime"] = 35.51000000000001,
 					["EnergyGained"] = {
 					},
-					["PartialResist"] = {
-						["Crystal Spike"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 0,
-						},
-						["Trample"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 2,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 2,
-							["amount"] = 0,
-						},
-					},
+					["EnergyGain"] = 0,
 					["Healing"] = 1440,
+					["Dispelled"] = 0,
 					["RageGained"] = {
-					},
-					["OverHeals"] = {
-						["Judgement of Light"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 518,
-									["min"] = 99,
-									["count"] = 13,
-									["amount"] = 5812,
-								},
-							},
-							["count"] = 13,
-							["amount"] = 5812,
-						},
 					},
 					["Attacks"] = {
 						["Gargoyle Strike"] = {
@@ -53332,7 +53350,16 @@ RecountPerCharDB = {
 						},
 					},
 					["ManaGain"] = 0,
-					["DOT_Time"] = 0,
+					["HOTs"] = {
+						["Judgement of Light"] = {
+							["Details"] = {
+								["Ebon Gargoyle <Urgash>"] = {
+									["count"] = 42,
+								},
+							},
+							["amount"] = 42,
+						},
+					},
 					["DispelledWho"] = {
 					},
 				},
@@ -53948,7 +53975,7 @@ RecountPerCharDB = {
 			},
 			["type"] = "Ungrouped",
 			["FightsSaved"] = 5,
-			["LastAbility"] = 1306.632,
+			["LastAbility"] = 4982.039,
 			["LastEventTimes"] = {
 				4010.835, -- [1]
 				4011.405, -- [2]
@@ -54254,32 +54281,15 @@ RecountPerCharDB = {
 					},
 					["DeathCount"] = 0,
 					["HOT_Time"] = 12,
-					["ElementTakenBlock"] = {
-					},
+					["Damage"] = 163501,
 					["RunicPowerGain"] = 0,
 					["ElementTaken"] = {
 						["Melee"] = 6425,
 						["Frost"] = 5477,
 					},
-					["HOTs"] = {
-						["Improved Leader of the Pack"] = {
-							["Details"] = {
-								["Maijuur"] = {
-									["count"] = 9,
-								},
-							},
-							["amount"] = 9,
-						},
-						["Judgement of Light"] = {
-							["Details"] = {
-								["Maijuur"] = {
-									["count"] = 3,
-								},
-							},
-							["amount"] = 3,
-						},
+					["DOT_Time"] = 3,
+					["ElementTakenBlock"] = {
 					},
-					["Damage"] = 163501,
 					["ElementDoneAbsorb"] = {
 					},
 					["TimeHeal"] = 7.279999999999999,
@@ -54287,6 +54297,49 @@ RecountPerCharDB = {
 					},
 					["Dispels"] = 0,
 					["PartialBlock"] = {
+					},
+					["ElementHitsDone"] = {
+						["Physical"] = {
+							["Details"] = {
+								["Tick"] = {
+									["count"] = 1,
+								},
+								["Crit"] = {
+									["count"] = 13,
+								},
+								["Hit"] = {
+									["count"] = 12,
+								},
+							},
+							["amount"] = 26,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Crit"] = {
+									["count"] = 11,
+								},
+								["Hit"] = {
+									["count"] = 3,
+								},
+							},
+							["amount"] = 14,
+						},
+						["Holy"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 2,
+								},
+							},
+							["amount"] = 2,
+						},
+					},
+					["FAttacks"] = {
+					},
+					["HealingTaken"] = 21761,
+					["ElementDone"] = {
+						["Physical"] = 136409,
+						["Melee"] = 26856,
+						["Holy"] = 236,
 					},
 					["DamagedWho"] = {
 						["Steward"] = {
@@ -54340,51 +54393,6 @@ RecountPerCharDB = {
 							["amount"] = 45895,
 						},
 					},
-					["FAttacks"] = {
-					},
-					["HealingTaken"] = 21761,
-					["ElementDone"] = {
-						["Physical"] = 136409,
-						["Melee"] = 26856,
-						["Holy"] = 236,
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementHitsDone"] = {
-						["Physical"] = {
-							["Details"] = {
-								["Tick"] = {
-									["count"] = 1,
-								},
-								["Crit"] = {
-									["count"] = 13,
-								},
-								["Hit"] = {
-									["count"] = 12,
-								},
-							},
-							["amount"] = 26,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["Crit"] = {
-									["count"] = 11,
-								},
-								["Hit"] = {
-									["count"] = 3,
-								},
-							},
-							["amount"] = 14,
-						},
-						["Holy"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 2,
-								},
-							},
-							["amount"] = 2,
-						},
-					},
 					["ManaGainedFrom"] = {
 						["Maijuur"] = {
 							["Details"] = {
@@ -54394,6 +54402,8 @@ RecountPerCharDB = {
 							},
 							["amount"] = 1191,
 						},
+					},
+					["RunicPowerGained"] = {
 					},
 					["WhoDamaged"] = {
 						["Mage Hunter Initiate"] = {
@@ -54423,9 +54433,9 @@ RecountPerCharDB = {
 							["amount"] = 60,
 						},
 					},
-					["RunicPowerGained"] = {
-					},
 					["CCBroken"] = {
+					},
+					["RunicPowerGainedFrom"] = {
 					},
 					["ElementDoneBlock"] = {
 					},
@@ -54442,7 +54452,8 @@ RecountPerCharDB = {
 							["amount"] = 7.279999999999999,
 						},
 					},
-					["Dispelled"] = 0,
+					["OverHeals"] = {
+					},
 					["WhoHealed"] = {
 						["Maijuur"] = {
 							["Details"] = {
@@ -54494,18 +54505,6 @@ RecountPerCharDB = {
 					["CCBreak"] = 0,
 					["ElementTakenAbsorb"] = {
 					},
-					["FDamage"] = 0,
-					["EnergyGain"] = 60,
-					["ManaGained"] = {
-						["Improved Leader of the Pack"] = {
-							["Details"] = {
-								["Maijuur"] = {
-									["count"] = 1191,
-								},
-							},
-							["amount"] = 1191,
-						},
-					},
 					["PartialAbsorb"] = {
 						["Melee"] = {
 							["Details"] = {
@@ -54532,7 +54531,44 @@ RecountPerCharDB = {
 							["amount"] = 0,
 						},
 					},
-					["ActiveTime"] = 16.46,
+					["PartialResist"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 0,
+						},
+						["Frostbolt"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 6,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 6,
+							["amount"] = 0,
+						},
+					},
+					["ManaGained"] = {
+						["Improved Leader of the Pack"] = {
+							["Details"] = {
+								["Maijuur"] = {
+									["count"] = 1191,
+								},
+							},
+							["amount"] = 1191,
+						},
+					},
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
 					["Overhealing"] = 0,
 					["TimeSpent"] = {
 						["Maijuur"] = {
@@ -54629,7 +54665,7 @@ RecountPerCharDB = {
 							["amount"] = 516,
 						},
 					},
-					["Interrupts"] = 0,
+					["ActiveTime"] = 16.46,
 					["EnergyGained"] = {
 						["King of the Jungle"] = {
 							["Details"] = {
@@ -54640,36 +54676,10 @@ RecountPerCharDB = {
 							["amount"] = 60,
 						},
 					},
-					["PartialResist"] = {
-						["Melee"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 2,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 2,
-							["amount"] = 0,
-						},
-						["Frostbolt"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 6,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 6,
-							["amount"] = 0,
-						},
-					},
+					["EnergyGain"] = 60,
 					["Healing"] = 2064,
+					["Dispelled"] = 0,
 					["RageGained"] = {
-					},
-					["OverHeals"] = {
 					},
 					["Attacks"] = {
 						["Melee"] = {
@@ -54814,7 +54824,24 @@ RecountPerCharDB = {
 						},
 					},
 					["ManaGain"] = 1191,
-					["DOT_Time"] = 3,
+					["HOTs"] = {
+						["Improved Leader of the Pack"] = {
+							["Details"] = {
+								["Maijuur"] = {
+									["count"] = 9,
+								},
+							},
+							["amount"] = 9,
+						},
+						["Judgement of Light"] = {
+							["Details"] = {
+								["Maijuur"] = {
+									["count"] = 3,
+								},
+							},
+							["amount"] = 3,
+						},
+					},
 					["DispelledWho"] = {
 					},
 				},
@@ -54847,31 +54874,14 @@ RecountPerCharDB = {
 					},
 					["DeathCount"] = 0,
 					["HOT_Time"] = 42,
-					["ElementTakenBlock"] = {
-					},
+					["Damage"] = 100432,
 					["RunicPowerGain"] = 0,
 					["ElementTaken"] = {
 						["Physical"] = 15473,
 					},
-					["HOTs"] = {
-						["Improved Leader of the Pack"] = {
-							["Details"] = {
-								["Maijuur"] = {
-									["count"] = 18,
-								},
-							},
-							["amount"] = 18,
-						},
-						["Judgement of Light"] = {
-							["Details"] = {
-								["Maijuur"] = {
-									["count"] = 24,
-								},
-							},
-							["amount"] = 24,
-						},
+					["DOT_Time"] = 9,
+					["ElementTakenBlock"] = {
 					},
-					["Damage"] = 100432,
 					["ElementDoneAbsorb"] = {
 					},
 					["TimeHeal"] = 2.09,
@@ -54879,6 +54889,46 @@ RecountPerCharDB = {
 					},
 					["Dispels"] = 0,
 					["PartialBlock"] = {
+					},
+					["ElementHitsDone"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Glancing"] = {
+									["count"] = 2,
+								},
+								["Parry"] = {
+									["count"] = 1,
+								},
+								["Crit"] = {
+									["count"] = 16,
+								},
+								["Hit"] = {
+									["count"] = 7,
+								},
+							},
+							["amount"] = 26,
+						},
+						["Physical"] = {
+							["Details"] = {
+								["Tick"] = {
+									["count"] = 3,
+								},
+								["Crit"] = {
+									["count"] = 8,
+								},
+								["Hit"] = {
+									["count"] = 8,
+								},
+							},
+							["amount"] = 19,
+						},
+					},
+					["FAttacks"] = {
+					},
+					["HealingTaken"] = 15453,
+					["ElementDone"] = {
+						["Melee"] = 34895,
+						["Physical"] = 65537,
 					},
 					["DamagedWho"] = {
 						["Horde Ranger"] = {
@@ -54920,11 +54970,11 @@ RecountPerCharDB = {
 						},
 						["Commander Kolurg"] = {
 							["Details"] = {
-								["Melee"] = {
-									["count"] = 22806,
-								},
 								["Rake"] = {
 									["count"] = 1097,
+								},
+								["Shred"] = {
+									["count"] = 7405,
 								},
 								["Swipe (Cat)"] = {
 									["count"] = 13063,
@@ -54938,53 +54988,11 @@ RecountPerCharDB = {
 								["Rake (DoT)"] = {
 									["count"] = 5211,
 								},
-								["Shred"] = {
-									["count"] = 7405,
+								["Melee"] = {
+									["count"] = 22806,
 								},
 							},
 							["amount"] = 60008,
-						},
-					},
-					["FAttacks"] = {
-					},
-					["HealingTaken"] = 15453,
-					["ElementDone"] = {
-						["Melee"] = 34895,
-						["Physical"] = 65537,
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementHitsDone"] = {
-						["Melee"] = {
-							["Details"] = {
-								["Glancing"] = {
-									["count"] = 2,
-								},
-								["Parry"] = {
-									["count"] = 1,
-								},
-								["Crit"] = {
-									["count"] = 16,
-								},
-								["Hit"] = {
-									["count"] = 7,
-								},
-							},
-							["amount"] = 26,
-						},
-						["Physical"] = {
-							["Details"] = {
-								["Tick"] = {
-									["count"] = 3,
-								},
-								["Crit"] = {
-									["count"] = 8,
-								},
-								["Hit"] = {
-									["count"] = 8,
-								},
-							},
-							["amount"] = 19,
 						},
 					},
 					["ManaGainedFrom"] = {
@@ -54996,6 +55004,8 @@ RecountPerCharDB = {
 							},
 							["amount"] = 2382,
 						},
+					},
+					["RunicPowerGained"] = {
 					},
 					["WhoDamaged"] = {
 						["Horde Berserker"] = {
@@ -55025,9 +55035,9 @@ RecountPerCharDB = {
 							["amount"] = 60,
 						},
 					},
-					["RunicPowerGained"] = {
-					},
 					["CCBroken"] = {
+					},
+					["RunicPowerGainedFrom"] = {
 					},
 					["ElementDoneBlock"] = {
 						["Melee"] = 40,
@@ -55045,7 +55055,32 @@ RecountPerCharDB = {
 							["amount"] = 2.09,
 						},
 					},
-					["Dispelled"] = 0,
+					["OverHeals"] = {
+						["Improved Leader of the Pack"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 516,
+									["min"] = 516,
+									["count"] = 4,
+									["amount"] = 2064,
+								},
+							},
+							["count"] = 4,
+							["amount"] = 2064,
+						},
+						["Judgement of Light"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 516,
+									["min"] = 516,
+									["count"] = 5,
+									["amount"] = 2580,
+								},
+							},
+							["count"] = 5,
+							["amount"] = 2580,
+						},
+					},
 					["WhoHealed"] = {
 						["Maijuur"] = {
 							["Details"] = {
@@ -55091,18 +55126,6 @@ RecountPerCharDB = {
 					["CCBreak"] = 0,
 					["ElementTakenAbsorb"] = {
 					},
-					["FDamage"] = 0,
-					["EnergyGain"] = 60,
-					["ManaGained"] = {
-						["Improved Leader of the Pack"] = {
-							["Details"] = {
-								["Maijuur"] = {
-									["count"] = 2382,
-								},
-							},
-							["amount"] = 2382,
-						},
-					},
 					["PartialAbsorb"] = {
 						["War Stomp"] = {
 							["Details"] = {
@@ -55129,7 +55152,44 @@ RecountPerCharDB = {
 							["amount"] = 0,
 						},
 					},
-					["ActiveTime"] = 45.25000000000001,
+					["PartialResist"] = {
+						["War Stomp"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 4,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 4,
+							["amount"] = 0,
+						},
+						["Whirlwind"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+					},
+					["ManaGained"] = {
+						["Improved Leader of the Pack"] = {
+							["Details"] = {
+								["Maijuur"] = {
+									["count"] = 2382,
+								},
+							},
+							["amount"] = 2382,
+						},
+					},
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
 					["Overhealing"] = 4644,
 					["TimeSpent"] = {
 						["Maijuur"] = {
@@ -55182,11 +55242,11 @@ RecountPerCharDB = {
 						},
 						["Commander Kolurg"] = {
 							["Details"] = {
-								["Melee"] = {
-									["count"] = 9.609999999999999,
-								},
 								["Rake"] = {
 									["count"] = 0.24,
+								},
+								["Shred"] = {
+									["count"] = 3.5,
 								},
 								["Swipe (Cat)"] = {
 									["count"] = 1.04,
@@ -55200,8 +55260,8 @@ RecountPerCharDB = {
 								["Rake (DoT)"] = {
 									["count"] = 3.51,
 								},
-								["Shred"] = {
-									["count"] = 3.5,
+								["Melee"] = {
+									["count"] = 9.609999999999999,
 								},
 							},
 							["amount"] = 21.71,
@@ -55239,7 +55299,7 @@ RecountPerCharDB = {
 							["amount"] = 1032,
 						},
 					},
-					["Interrupts"] = 0,
+					["ActiveTime"] = 45.25000000000001,
 					["EnergyGained"] = {
 						["King of the Jungle"] = {
 							["Details"] = {
@@ -55250,96 +55310,12 @@ RecountPerCharDB = {
 							["amount"] = 60,
 						},
 					},
-					["PartialResist"] = {
-						["War Stomp"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 4,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 4,
-							["amount"] = 0,
-						},
-						["Whirlwind"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 0,
-						},
-					},
+					["EnergyGain"] = 60,
 					["Healing"] = 2580,
+					["Dispelled"] = 0,
 					["RageGained"] = {
 					},
-					["OverHeals"] = {
-						["Improved Leader of the Pack"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 516,
-									["min"] = 516,
-									["count"] = 4,
-									["amount"] = 2064,
-								},
-							},
-							["count"] = 4,
-							["amount"] = 2064,
-						},
-						["Judgement of Light"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 516,
-									["min"] = 516,
-									["count"] = 5,
-									["amount"] = 2580,
-								},
-							},
-							["count"] = 5,
-							["amount"] = 2580,
-						},
-					},
 					["Attacks"] = {
-						["Melee"] = {
-							["Details"] = {
-								["Glancing"] = {
-									["max"] = 649,
-									["min"] = 491,
-									["count"] = 2,
-									["amount"] = 1140,
-								},
-								["Hit"] = {
-									["max"] = 747,
-									["min"] = 618,
-									["count"] = 6,
-									["amount"] = 4091,
-								},
-								["Hit (Blocked)"] = {
-									["max"] = 714,
-									["min"] = 714,
-									["count"] = 1,
-									["amount"] = 714,
-								},
-								["Crit"] = {
-									["max"] = 2035,
-									["min"] = 1414,
-									["count"] = 16,
-									["amount"] = 28950,
-								},
-								["Parry"] = {
-									["count"] = 1,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 26,
-							["amount"] = 34895,
-						},
 						["Rake"] = {
 							["Details"] = {
 								["Crit"] = {
@@ -55357,6 +55333,18 @@ RecountPerCharDB = {
 							},
 							["count"] = 3,
 							["amount"] = 2161,
+						},
+						["Shred"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 7405,
+									["min"] = 6188,
+									["count"] = 2,
+									["amount"] = 13593,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 13593,
 						},
 						["Swipe (Cat)"] = {
 							["Details"] = {
@@ -55418,17 +55406,39 @@ RecountPerCharDB = {
 							["count"] = 3,
 							["amount"] = 5211,
 						},
-						["Shred"] = {
+						["Melee"] = {
 							["Details"] = {
-								["Crit"] = {
-									["max"] = 7405,
-									["min"] = 6188,
+								["Glancing"] = {
+									["max"] = 649,
+									["min"] = 491,
 									["count"] = 2,
-									["amount"] = 13593,
+									["amount"] = 1140,
+								},
+								["Hit"] = {
+									["max"] = 747,
+									["min"] = 618,
+									["count"] = 6,
+									["amount"] = 4091,
+								},
+								["Hit (Blocked)"] = {
+									["max"] = 714,
+									["min"] = 714,
+									["count"] = 1,
+									["amount"] = 714,
+								},
+								["Crit"] = {
+									["max"] = 2035,
+									["min"] = 1414,
+									["count"] = 16,
+									["amount"] = 28950,
+								},
+								["Parry"] = {
+									["count"] = 1,
+									["amount"] = 0,
 								},
 							},
-							["count"] = 2,
-							["amount"] = 13593,
+							["count"] = 26,
+							["amount"] = 34895,
 						},
 					},
 					["RageGain"] = 0,
@@ -55475,11 +55485,11 @@ RecountPerCharDB = {
 						},
 						["Commander Kolurg"] = {
 							["Details"] = {
-								["Melee"] = {
-									["count"] = 9.609999999999999,
-								},
 								["Rake"] = {
 									["count"] = 0.24,
+								},
+								["Shred"] = {
+									["count"] = 3.5,
 								},
 								["Swipe (Cat)"] = {
 									["count"] = 1.04,
@@ -55493,15 +55503,32 @@ RecountPerCharDB = {
 								["Rake (DoT)"] = {
 									["count"] = 3.51,
 								},
-								["Shred"] = {
-									["count"] = 3.5,
+								["Melee"] = {
+									["count"] = 9.609999999999999,
 								},
 							},
 							["amount"] = 21.71,
 						},
 					},
 					["ManaGain"] = 2382,
-					["DOT_Time"] = 9,
+					["HOTs"] = {
+						["Improved Leader of the Pack"] = {
+							["Details"] = {
+								["Maijuur"] = {
+									["count"] = 18,
+								},
+							},
+							["amount"] = 18,
+						},
+						["Judgement of Light"] = {
+							["Details"] = {
+								["Maijuur"] = {
+									["count"] = 24,
+								},
+							},
+							["amount"] = 24,
+						},
+					},
 					["DispelledWho"] = {
 					},
 				},
@@ -55568,30 +55595,13 @@ RecountPerCharDB = {
 					},
 					["DeathCount"] = 0,
 					["HOT_Time"] = 9,
-					["ElementTakenBlock"] = {
-					},
+					["Damage"] = 68348,
 					["RunicPowerGain"] = 0,
 					["ElementTaken"] = {
 					},
-					["HOTs"] = {
-						["Improved Leader of the Pack"] = {
-							["Details"] = {
-								["Maijuur"] = {
-									["count"] = 6,
-								},
-							},
-							["amount"] = 6,
-						},
-						["Judgement of Light"] = {
-							["Details"] = {
-								["Maijuur"] = {
-									["count"] = 3,
-								},
-							},
-							["amount"] = 3,
-						},
+					["DOT_Time"] = 3,
+					["ElementTakenBlock"] = {
 					},
-					["Damage"] = 68348,
 					["ElementDoneAbsorb"] = {
 					},
 					["TimeHeal"] = 0,
@@ -55599,6 +55609,40 @@ RecountPerCharDB = {
 					},
 					["Dispels"] = 0,
 					["PartialBlock"] = {
+					},
+					["ElementHitsDone"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Crit"] = {
+									["count"] = 6,
+								},
+								["Hit"] = {
+									["count"] = 3,
+								},
+							},
+							["amount"] = 9,
+						},
+						["Physical"] = {
+							["Details"] = {
+								["Tick"] = {
+									["count"] = 1,
+								},
+								["Crit"] = {
+									["count"] = 4,
+								},
+								["Hit"] = {
+									["count"] = 8,
+								},
+							},
+							["amount"] = 13,
+						},
+					},
+					["FAttacks"] = {
+					},
+					["HealingTaken"] = 0,
+					["ElementDone"] = {
+						["Melee"] = 14512,
+						["Physical"] = 53836,
 					},
 					["DamagedWho"] = {
 						["Azure Enforcer"] = {
@@ -55630,42 +55674,6 @@ RecountPerCharDB = {
 							["amount"] = 46928,
 						},
 					},
-					["FAttacks"] = {
-					},
-					["HealingTaken"] = 0,
-					["ElementDone"] = {
-						["Melee"] = 14512,
-						["Physical"] = 53836,
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementHitsDone"] = {
-						["Melee"] = {
-							["Details"] = {
-								["Crit"] = {
-									["count"] = 6,
-								},
-								["Hit"] = {
-									["count"] = 3,
-								},
-							},
-							["amount"] = 9,
-						},
-						["Physical"] = {
-							["Details"] = {
-								["Tick"] = {
-									["count"] = 1,
-								},
-								["Crit"] = {
-									["count"] = 4,
-								},
-								["Hit"] = {
-									["count"] = 8,
-								},
-							},
-							["amount"] = 13,
-						},
-					},
 					["ManaGainedFrom"] = {
 						["Maijuur"] = {
 							["Details"] = {
@@ -55675,6 +55683,8 @@ RecountPerCharDB = {
 							},
 							["amount"] = 794,
 						},
+					},
+					["RunicPowerGained"] = {
 					},
 					["WhoDamaged"] = {
 					},
@@ -55688,33 +55698,46 @@ RecountPerCharDB = {
 							["amount"] = 60,
 						},
 					},
-					["RunicPowerGained"] = {
-					},
 					["CCBroken"] = {
+					},
+					["RunicPowerGainedFrom"] = {
 					},
 					["ElementDoneBlock"] = {
 					},
 					["TimeHealing"] = {
 					},
-					["Dispelled"] = 0,
+					["OverHeals"] = {
+						["Improved Leader of the Pack"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 516,
+									["min"] = 516,
+									["count"] = 2,
+									["amount"] = 1032,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 1032,
+						},
+						["Judgement of Light"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 516,
+									["min"] = 516,
+									["count"] = 1,
+									["amount"] = 516,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 516,
+						},
+					},
 					["WhoHealed"] = {
 					},
 					["HealedWho"] = {
 					},
 					["CCBreak"] = 0,
 					["ElementTakenAbsorb"] = {
-					},
-					["FDamage"] = 0,
-					["EnergyGain"] = 60,
-					["ManaGained"] = {
-						["Improved Leader of the Pack"] = {
-							["Details"] = {
-								["Maijuur"] = {
-									["count"] = 794,
-								},
-							},
-							["amount"] = 794,
-						},
 					},
 					["PartialAbsorb"] = {
 						["Cleave"] = {
@@ -55730,7 +55753,32 @@ RecountPerCharDB = {
 							["amount"] = 0,
 						},
 					},
-					["ActiveTime"] = 12.6,
+					["PartialResist"] = {
+						["Cleave"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+					},
+					["ManaGained"] = {
+						["Improved Leader of the Pack"] = {
+							["Details"] = {
+								["Maijuur"] = {
+									["count"] = 794,
+								},
+							},
+							["amount"] = 794,
+						},
+					},
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
 					["Overhealing"] = 1548,
 					["TimeSpent"] = {
 						["Azure Enforcer"] = {
@@ -55770,7 +55818,7 @@ RecountPerCharDB = {
 					},
 					["Heals"] = {
 					},
-					["Interrupts"] = 0,
+					["ActiveTime"] = 12.6,
 					["EnergyGained"] = {
 						["King of the Jungle"] = {
 							["Details"] = {
@@ -55781,48 +55829,10 @@ RecountPerCharDB = {
 							["amount"] = 60,
 						},
 					},
-					["PartialResist"] = {
-						["Cleave"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 0,
-						},
-					},
+					["EnergyGain"] = 60,
 					["Healing"] = 0,
+					["Dispelled"] = 0,
 					["RageGained"] = {
-					},
-					["OverHeals"] = {
-						["Improved Leader of the Pack"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 516,
-									["min"] = 516,
-									["count"] = 2,
-									["amount"] = 1032,
-								},
-							},
-							["count"] = 2,
-							["amount"] = 1032,
-						},
-						["Judgement of Light"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 516,
-									["min"] = 516,
-									["count"] = 1,
-									["amount"] = 516,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 516,
-						},
 					},
 					["Attacks"] = {
 						["Melee"] = {
@@ -55933,7 +55943,24 @@ RecountPerCharDB = {
 						},
 					},
 					["ManaGain"] = 794,
-					["DOT_Time"] = 3,
+					["HOTs"] = {
+						["Improved Leader of the Pack"] = {
+							["Details"] = {
+								["Maijuur"] = {
+									["count"] = 6,
+								},
+							},
+							["amount"] = 6,
+						},
+						["Judgement of Light"] = {
+							["Details"] = {
+								["Maijuur"] = {
+									["count"] = 3,
+								},
+							},
+							["amount"] = 3,
+						},
+					},
 					["DispelledWho"] = {
 					},
 				},
@@ -56013,8 +56040,7 @@ RecountPerCharDB = {
 					},
 					["DeathCount"] = 0,
 					["HOT_Time"] = 66,
-					["ElementTakenBlock"] = {
-					},
+					["Damage"] = 318999,
 					["RunicPowerGain"] = 0,
 					["ElementTaken"] = {
 						["Frost"] = 7664,
@@ -56023,25 +56049,9 @@ RecountPerCharDB = {
 						["Fire"] = 12223,
 						["Shadow"] = 1560,
 					},
-					["HOTs"] = {
-						["Improved Leader of the Pack"] = {
-							["Details"] = {
-								["Maijuur"] = {
-									["count"] = 33,
-								},
-							},
-							["amount"] = 33,
-						},
-						["Judgement of Light"] = {
-							["Details"] = {
-								["Maijuur"] = {
-									["count"] = 33,
-								},
-							},
-							["amount"] = 33,
-						},
+					["DOT_Time"] = 18,
+					["ElementTakenBlock"] = {
 					},
-					["Damage"] = 318999,
 					["ElementDoneAbsorb"] = {
 					},
 					["TimeHeal"] = 18.72,
@@ -56050,17 +56060,69 @@ RecountPerCharDB = {
 					["Dispels"] = 0,
 					["PartialBlock"] = {
 					},
+					["ElementHitsDone"] = {
+						["Physical"] = {
+							["Details"] = {
+								["Immune"] = {
+									["count"] = 2,
+								},
+								["Hit"] = {
+									["count"] = 14,
+								},
+								["Dodge"] = {
+									["count"] = 1,
+								},
+								["Crit"] = {
+									["count"] = 31,
+								},
+								["Tick"] = {
+									["count"] = 6,
+								},
+							},
+							["amount"] = 54,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Glancing"] = {
+									["count"] = 7,
+								},
+								["Crit"] = {
+									["count"] = 37,
+								},
+								["Hit"] = {
+									["count"] = 12,
+								},
+							},
+							["amount"] = 56,
+						},
+						["Holy"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 4,
+								},
+							},
+							["amount"] = 4,
+						},
+					},
+					["FAttacks"] = {
+					},
+					["HealingTaken"] = 29488,
+					["ElementDone"] = {
+						["Physical"] = 233170,
+						["Melee"] = 84908,
+						["Holy"] = 921,
+					},
 					["DamagedWho"] = {
 						["Grand Magus Telestra"] = {
 							["Details"] = {
-								["Rake (DoT)"] = {
-									["count"] = 5646,
-								},
-								["Melee"] = {
-									["count"] = 41714,
-								},
 								["Swipe (Cat)"] = {
 									["count"] = 90388,
+								},
+								["Rake"] = {
+									["count"] = 527,
+								},
+								["Rake (DoT)"] = {
+									["count"] = 5646,
 								},
 								["Shred"] = {
 									["count"] = 4558,
@@ -56071,8 +56133,8 @@ RecountPerCharDB = {
 								["Retribution Aura"] = {
 									["count"] = 446,
 								},
-								["Rake"] = {
-									["count"] = 527,
+								["Melee"] = {
+									["count"] = 41714,
 								},
 							},
 							["amount"] = 152325,
@@ -56134,60 +56196,6 @@ RecountPerCharDB = {
 							["amount"] = 25369,
 						},
 					},
-					["FAttacks"] = {
-					},
-					["HealingTaken"] = 29488,
-					["ElementDone"] = {
-						["Physical"] = 233170,
-						["Melee"] = 84908,
-						["Holy"] = 921,
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementHitsDone"] = {
-						["Physical"] = {
-							["Details"] = {
-								["Immune"] = {
-									["count"] = 2,
-								},
-								["Hit"] = {
-									["count"] = 14,
-								},
-								["Dodge"] = {
-									["count"] = 1,
-								},
-								["Crit"] = {
-									["count"] = 31,
-								},
-								["Tick"] = {
-									["count"] = 6,
-								},
-							},
-							["amount"] = 54,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["Glancing"] = {
-									["count"] = 7,
-								},
-								["Crit"] = {
-									["count"] = 37,
-								},
-								["Hit"] = {
-									["count"] = 12,
-								},
-							},
-							["amount"] = 56,
-						},
-						["Holy"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 4,
-								},
-							},
-							["amount"] = 4,
-						},
-					},
 					["ManaGainedFrom"] = {
 						["Maijuur"] = {
 							["Details"] = {
@@ -56197,6 +56205,8 @@ RecountPerCharDB = {
 							},
 							["amount"] = 4367,
 						},
+					},
+					["RunicPowerGained"] = {
 					},
 					["WhoDamaged"] = {
 						["No One"] = {
@@ -56272,9 +56282,9 @@ RecountPerCharDB = {
 							["amount"] = 180,
 						},
 					},
-					["RunicPowerGained"] = {
-					},
 					["CCBroken"] = {
+					},
+					["RunicPowerGainedFrom"] = {
 					},
 					["ElementDoneBlock"] = {
 						["Melee"] = 81,
@@ -56292,7 +56302,20 @@ RecountPerCharDB = {
 							["amount"] = 18.72,
 						},
 					},
-					["Dispelled"] = 0,
+					["OverHeals"] = {
+						["Improved Leader of the Pack"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 516,
+									["min"] = 516,
+									["count"] = 1,
+									["amount"] = 516,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 516,
+						},
+					},
 					["WhoHealed"] = {
 						["Maijuur"] = {
 							["Details"] = {
@@ -56348,18 +56371,6 @@ RecountPerCharDB = {
 					},
 					["CCBreak"] = 0,
 					["ElementTakenAbsorb"] = {
-					},
-					["FDamage"] = 0,
-					["EnergyGain"] = 180,
-					["ManaGained"] = {
-						["Improved Leader of the Pack"] = {
-							["Details"] = {
-								["Maijuur"] = {
-									["count"] = 4367,
-								},
-							},
-							["amount"] = 4367,
-						},
 					},
 					["PartialAbsorb"] = {
 						["Ice Nova"] = {
@@ -56529,152 +56540,6 @@ RecountPerCharDB = {
 							},
 							["count"] = 1,
 							["amount"] = 0,
-						},
-					},
-					["ActiveTime"] = 80.05000000000003,
-					["Overhealing"] = 516,
-					["TimeSpent"] = {
-						["Maijuur"] = {
-							["Details"] = {
-								["Judgement of Light"] = {
-									["count"] = 5.850000000000001,
-								},
-								["Improved Leader of the Pack"] = {
-									["count"] = 12.87,
-								},
-							},
-							["amount"] = 18.72,
-						},
-						["Grand Magus Telestra"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 13.5,
-								},
-								["Swipe (Cat)"] = {
-									["count"] = 1.54,
-								},
-								["Rake"] = {
-									["count"] = 0.27,
-								},
-								["Dazed"] = {
-									["count"] = 7,
-								},
-								["Rake (DoT)"] = {
-									["count"] = 3.23,
-								},
-								["Mangle (Cat)"] = {
-									["count"] = 0.7,
-								},
-								["Retribution Aura"] = {
-									["count"] = 5.22,
-								},
-								["Shred"] = {
-									["count"] = 0.66,
-								},
-							},
-							["amount"] = 32.12000000000001,
-						},
-						["Mage Slayer"] = {
-							["Details"] = {
-								["Mangle (Cat)"] = {
-									["count"] = 0.23,
-								},
-								["Melee"] = {
-									["count"] = 5.08,
-								},
-								["Swipe (Cat)"] = {
-									["count"] = 0.8099999999999999,
-								},
-							},
-							["amount"] = 6.119999999999999,
-						},
-						["Steward"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 1.2,
-								},
-								["Swipe (Cat)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 1.2,
-						},
-						["Mage Hunter Initiate"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 13.54,
-								},
-								["Swipe (Cat)"] = {
-									["count"] = 2.16,
-								},
-								["Rake (DoT)"] = {
-									["count"] = 1.08,
-								},
-								["Mangle (Cat)"] = {
-									["count"] = 3.62,
-								},
-								["Retribution Aura"] = {
-									["count"] = 0.6800000000000001,
-								},
-								["Rake"] = {
-									["count"] = 0.7,
-								},
-							},
-							["amount"] = 21.78,
-						},
-						["Mage Hunter Ascendant"] = {
-							["Details"] = {
-								["Swipe (Cat)"] = {
-									["count"] = 0.11,
-								},
-							},
-							["amount"] = 0.11,
-						},
-					},
-					["WhoDispelled"] = {
-					},
-					["InterruptData"] = {
-					},
-					["ElementTakenResist"] = {
-						["Fire"] = 1967,
-						["Frost"] = 1266,
-						["Arcane"] = 2401,
-					},
-					["Heals"] = {
-						["Judgement of Light"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 516,
-									["min"] = 516,
-									["count"] = 11,
-									["amount"] = 5676,
-								},
-							},
-							["count"] = 11,
-							["amount"] = 5676,
-						},
-						["Improved Leader of the Pack"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 516,
-									["min"] = 516,
-									["count"] = 10,
-									["amount"] = 5160,
-								},
-							},
-							["count"] = 10,
-							["amount"] = 5160,
-						},
-					},
-					["Interrupts"] = 0,
-					["EnergyGained"] = {
-						["King of the Jungle"] = {
-							["Details"] = {
-								["Maijuur"] = {
-									["count"] = 180,
-								},
-							},
-							["amount"] = 180,
 						},
 					},
 					["PartialResist"] = {
@@ -56877,64 +56742,169 @@ RecountPerCharDB = {
 							["amount"] = 420,
 						},
 					},
-					["Healing"] = 10836,
-					["RageGained"] = {
+					["ManaGained"] = {
+						["Improved Leader of the Pack"] = {
+							["Details"] = {
+								["Maijuur"] = {
+									["count"] = 4367,
+								},
+							},
+							["amount"] = 4367,
+						},
 					},
-					["OverHeals"] = {
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["Overhealing"] = 516,
+					["TimeSpent"] = {
+						["Maijuur"] = {
+							["Details"] = {
+								["Judgement of Light"] = {
+									["count"] = 5.850000000000001,
+								},
+								["Improved Leader of the Pack"] = {
+									["count"] = 12.87,
+								},
+							},
+							["amount"] = 18.72,
+						},
+						["Grand Magus Telestra"] = {
+							["Details"] = {
+								["Rake"] = {
+									["count"] = 0.27,
+								},
+								["Swipe (Cat)"] = {
+									["count"] = 1.54,
+								},
+								["Shred"] = {
+									["count"] = 0.66,
+								},
+								["Dazed"] = {
+									["count"] = 7,
+								},
+								["Rake (DoT)"] = {
+									["count"] = 3.23,
+								},
+								["Mangle (Cat)"] = {
+									["count"] = 0.7,
+								},
+								["Retribution Aura"] = {
+									["count"] = 5.22,
+								},
+								["Melee"] = {
+									["count"] = 13.5,
+								},
+							},
+							["amount"] = 32.12000000000001,
+						},
+						["Mage Slayer"] = {
+							["Details"] = {
+								["Mangle (Cat)"] = {
+									["count"] = 0.23,
+								},
+								["Melee"] = {
+									["count"] = 5.08,
+								},
+								["Swipe (Cat)"] = {
+									["count"] = 0.8099999999999999,
+								},
+							},
+							["amount"] = 6.119999999999999,
+						},
+						["Steward"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 1.2,
+								},
+								["Swipe (Cat)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 1.2,
+						},
+						["Mage Hunter Initiate"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 13.54,
+								},
+								["Swipe (Cat)"] = {
+									["count"] = 2.16,
+								},
+								["Rake (DoT)"] = {
+									["count"] = 1.08,
+								},
+								["Mangle (Cat)"] = {
+									["count"] = 3.62,
+								},
+								["Retribution Aura"] = {
+									["count"] = 0.6800000000000001,
+								},
+								["Rake"] = {
+									["count"] = 0.7,
+								},
+							},
+							["amount"] = 21.78,
+						},
+						["Mage Hunter Ascendant"] = {
+							["Details"] = {
+								["Swipe (Cat)"] = {
+									["count"] = 0.11,
+								},
+							},
+							["amount"] = 0.11,
+						},
+					},
+					["WhoDispelled"] = {
+					},
+					["InterruptData"] = {
+					},
+					["ElementTakenResist"] = {
+						["Fire"] = 1967,
+						["Frost"] = 1266,
+						["Arcane"] = 2401,
+					},
+					["Heals"] = {
+						["Judgement of Light"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 516,
+									["min"] = 516,
+									["count"] = 11,
+									["amount"] = 5676,
+								},
+							},
+							["count"] = 11,
+							["amount"] = 5676,
+						},
 						["Improved Leader of the Pack"] = {
 							["Details"] = {
 								["Tick"] = {
 									["max"] = 516,
 									["min"] = 516,
-									["count"] = 1,
-									["amount"] = 516,
+									["count"] = 10,
+									["amount"] = 5160,
 								},
 							},
-							["count"] = 1,
-							["amount"] = 516,
+							["count"] = 10,
+							["amount"] = 5160,
 						},
 					},
+					["ActiveTime"] = 80.05000000000003,
+					["EnergyGained"] = {
+						["King of the Jungle"] = {
+							["Details"] = {
+								["Maijuur"] = {
+									["count"] = 180,
+								},
+							},
+							["amount"] = 180,
+						},
+					},
+					["EnergyGain"] = 180,
+					["Healing"] = 10836,
+					["Dispelled"] = 0,
+					["RageGained"] = {
+					},
 					["Attacks"] = {
-						["Melee"] = {
-							["Details"] = {
-								["Hit (Blocked)"] = {
-									["max"] = 838,
-									["min"] = 617,
-									["count"] = 2,
-									["amount"] = 1455,
-								},
-								["Glancing"] = {
-									["max"] = 814,
-									["min"] = 527,
-									["count"] = 7,
-									["amount"] = 4864,
-								},
-								["Crit"] = {
-									["max"] = 2318,
-									["min"] = 1386,
-									["count"] = 37,
-									["amount"] = 69803,
-								},
-								["Hit"] = {
-									["max"] = 1045,
-									["min"] = 631,
-									["count"] = 10,
-									["amount"] = 8786,
-								},
-							},
-							["count"] = 56,
-							["amount"] = 84908,
-						},
-						["Dazed"] = {
-							["Details"] = {
-								["Immune"] = {
-									["count"] = 2,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 2,
-							["amount"] = 0,
-						},
 						["Rake"] = {
 							["Details"] = {
 								["Crit"] = {
@@ -56952,6 +56922,28 @@ RecountPerCharDB = {
 							},
 							["count"] = 3,
 							["amount"] = 2471,
+						},
+						["Dazed"] = {
+							["Details"] = {
+								["Immune"] = {
+									["count"] = 2,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 0,
+						},
+						["Shred"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 4558,
+									["min"] = 4558,
+									["count"] = 1,
+									["amount"] = 4558,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 4558,
 						},
 						["Swipe (Cat)"] = {
 							["Details"] = {
@@ -57017,17 +57009,35 @@ RecountPerCharDB = {
 							["count"] = 4,
 							["amount"] = 921,
 						},
-						["Shred"] = {
+						["Melee"] = {
 							["Details"] = {
+								["Hit (Blocked)"] = {
+									["max"] = 838,
+									["min"] = 617,
+									["count"] = 2,
+									["amount"] = 1455,
+								},
+								["Glancing"] = {
+									["max"] = 814,
+									["min"] = 527,
+									["count"] = 7,
+									["amount"] = 4864,
+								},
 								["Crit"] = {
-									["max"] = 4558,
-									["min"] = 4558,
-									["count"] = 1,
-									["amount"] = 4558,
+									["max"] = 2318,
+									["min"] = 1386,
+									["count"] = 37,
+									["amount"] = 69803,
+								},
+								["Hit"] = {
+									["max"] = 1045,
+									["min"] = 631,
+									["count"] = 10,
+									["amount"] = 8786,
 								},
 							},
-							["count"] = 1,
-							["amount"] = 4558,
+							["count"] = 56,
+							["amount"] = 84908,
 						},
 					},
 					["RageGain"] = 0,
@@ -57037,14 +57047,14 @@ RecountPerCharDB = {
 					["TimeDamaging"] = {
 						["Grand Magus Telestra"] = {
 							["Details"] = {
-								["Melee"] = {
-									["count"] = 13.5,
+								["Rake"] = {
+									["count"] = 0.27,
 								},
 								["Swipe (Cat)"] = {
 									["count"] = 1.54,
 								},
-								["Rake"] = {
-									["count"] = 0.27,
+								["Shred"] = {
+									["count"] = 0.66,
 								},
 								["Dazed"] = {
 									["count"] = 7,
@@ -57058,8 +57068,8 @@ RecountPerCharDB = {
 								["Retribution Aura"] = {
 									["count"] = 5.22,
 								},
-								["Shred"] = {
-									["count"] = 0.66,
+								["Melee"] = {
+									["count"] = 13.5,
 								},
 							},
 							["amount"] = 32.12000000000001,
@@ -57122,7 +57132,24 @@ RecountPerCharDB = {
 						},
 					},
 					["ManaGain"] = 4367,
-					["DOT_Time"] = 18,
+					["HOTs"] = {
+						["Improved Leader of the Pack"] = {
+							["Details"] = {
+								["Maijuur"] = {
+									["count"] = 33,
+								},
+							},
+							["amount"] = 33,
+						},
+						["Judgement of Light"] = {
+							["Details"] = {
+								["Maijuur"] = {
+									["count"] = 33,
+								},
+							},
+							["amount"] = 33,
+						},
+					},
 					["DispelledWho"] = {
 					},
 				},
@@ -57130,14 +57157,14 @@ RecountPerCharDB = {
 					["DOTs"] = {
 						["Rake (DoT)"] = {
 							["Details"] = {
-								["Anomalus"] = {
-									["count"] = 12,
+								["Azure Enforcer"] = {
+									["count"] = 6,
 								},
 								["Keristrasza"] = {
 									["count"] = 18,
 								},
-								["Crystalline Tender"] = {
-									["count"] = 6,
+								["Anomalus"] = {
+									["count"] = 12,
 								},
 								["Azure Warder"] = {
 									["count"] = 3,
@@ -57145,7 +57172,7 @@ RecountPerCharDB = {
 								["Crystalline Protector"] = {
 									["count"] = 9,
 								},
-								["Azure Enforcer"] = {
+								["Crystalline Tender"] = {
 									["count"] = 6,
 								},
 								["Crazed Mana-Surge"] = {
@@ -57220,8 +57247,7 @@ RecountPerCharDB = {
 					},
 					["DeathCount"] = 0,
 					["HOT_Time"] = 267,
-					["ElementTakenBlock"] = {
-					},
+					["Damage"] = 789360,
 					["RunicPowerGain"] = 0,
 					["ElementTaken"] = {
 						["Physical"] = 7633,
@@ -57230,25 +57256,9 @@ RecountPerCharDB = {
 						["Frostfire"] = 8741,
 						["Frost"] = 9338,
 					},
-					["HOTs"] = {
-						["Improved Leader of the Pack"] = {
-							["Details"] = {
-								["Maijuur"] = {
-									["count"] = 102,
-								},
-							},
-							["amount"] = 102,
-						},
-						["Judgement of Light"] = {
-							["Details"] = {
-								["Maijuur"] = {
-									["count"] = 165,
-								},
-							},
-							["amount"] = 165,
-						},
+					["DOT_Time"] = 75,
+					["ElementTakenBlock"] = {
 					},
-					["Damage"] = 789360,
 					["ElementDoneAbsorb"] = {
 						["Melee"] = 2850,
 						["Physical"] = 7132,
@@ -57258,6 +57268,79 @@ RecountPerCharDB = {
 					},
 					["Dispels"] = 0,
 					["PartialBlock"] = {
+					},
+					["ElementHitsDone"] = {
+						["Physical"] = {
+							["Details"] = {
+								["Immune"] = {
+									["count"] = 4,
+								},
+								["Hit"] = {
+									["count"] = 49,
+								},
+								["Absorb"] = {
+									["count"] = 1,
+								},
+								["Crit"] = {
+									["count"] = 63,
+								},
+								["Tick"] = {
+									["count"] = 25,
+								},
+							},
+							["amount"] = 142,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Glancing"] = {
+									["count"] = 13,
+								},
+								["Immune"] = {
+									["count"] = 4,
+								},
+								["Hit"] = {
+									["count"] = 38,
+								},
+								["Absorb"] = {
+									["count"] = 2,
+								},
+								["Crit"] = {
+									["count"] = 95,
+								},
+								["Dodge"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 153,
+						},
+						["Holy"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 1,
+						},
+					},
+					["FAttacks"] = {
+						["Swipe (Cat)"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 3072,
+									["min"] = 3072,
+									["count"] = 1,
+									["amount"] = 3072,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 3072,
+						},
+					},
+					["HealingTaken"] = 48752,
+					["ElementDone"] = {
+						["Physical"] = 562434,
+						["Melee"] = 226703,
+						["Holy"] = 223,
 					},
 					["DamagedWho"] = {
 						["Crystalline Frayer"] = {
@@ -57385,14 +57468,6 @@ RecountPerCharDB = {
 							},
 							["amount"] = 87987,
 						},
-						["Crystalline Keeper"] = {
-							["Details"] = {
-								["Swipe (Cat)"] = {
-									["count"] = 121385,
-								},
-							},
-							["amount"] = 121385,
-						},
 						["Azure Warder"] = {
 							["Details"] = {
 								["Rake"] = {
@@ -57412,6 +57487,14 @@ RecountPerCharDB = {
 								},
 							},
 							["amount"] = 16755,
+						},
+						["Crystalline Keeper"] = {
+							["Details"] = {
+								["Swipe (Cat)"] = {
+									["count"] = 121385,
+								},
+							},
+							["amount"] = 121385,
 						},
 						["Crystalline Tender"] = {
 							["Details"] = {
@@ -57488,81 +57571,6 @@ RecountPerCharDB = {
 							["amount"] = 86205,
 						},
 					},
-					["FAttacks"] = {
-						["Swipe (Cat)"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 3072,
-									["min"] = 3072,
-									["count"] = 1,
-									["amount"] = 3072,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 3072,
-						},
-					},
-					["HealingTaken"] = 48752,
-					["ElementDone"] = {
-						["Physical"] = 562434,
-						["Melee"] = 226703,
-						["Holy"] = 223,
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementHitsDone"] = {
-						["Physical"] = {
-							["Details"] = {
-								["Immune"] = {
-									["count"] = 4,
-								},
-								["Hit"] = {
-									["count"] = 49,
-								},
-								["Absorb"] = {
-									["count"] = 1,
-								},
-								["Crit"] = {
-									["count"] = 63,
-								},
-								["Tick"] = {
-									["count"] = 25,
-								},
-							},
-							["amount"] = 142,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["Glancing"] = {
-									["count"] = 13,
-								},
-								["Immune"] = {
-									["count"] = 4,
-								},
-								["Hit"] = {
-									["count"] = 38,
-								},
-								["Absorb"] = {
-									["count"] = 2,
-								},
-								["Crit"] = {
-									["count"] = 95,
-								},
-								["Dodge"] = {
-									["count"] = 1,
-								},
-							},
-							["amount"] = 153,
-						},
-						["Holy"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 1,
-								},
-							},
-							["amount"] = 1,
-						},
-					},
 					["ManaGainedFrom"] = {
 						["Maijuur"] = {
 							["Details"] = {
@@ -57572,6 +57580,8 @@ RecountPerCharDB = {
 							},
 							["amount"] = 13498,
 						},
+					},
+					["RunicPowerGained"] = {
 					},
 					["WhoDamaged"] = {
 						["Crystalline Frayer"] = {
@@ -57675,9 +57685,9 @@ RecountPerCharDB = {
 							["amount"] = 480,
 						},
 					},
-					["RunicPowerGained"] = {
-					},
 					["CCBroken"] = {
+					},
+					["RunicPowerGainedFrom"] = {
 					},
 					["ElementDoneBlock"] = {
 						["Melee"] = 81,
@@ -57696,7 +57706,32 @@ RecountPerCharDB = {
 							["amount"] = 31.87,
 						},
 					},
-					["Dispelled"] = 0,
+					["OverHeals"] = {
+						["Improved Leader of the Pack"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 516,
+									["min"] = 95,
+									["count"] = 25,
+									["amount"] = 11626,
+								},
+							},
+							["count"] = 25,
+							["amount"] = 11626,
+						},
+						["Judgement of Light"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 516,
+									["min"] = 206,
+									["count"] = 37,
+									["amount"] = 18376,
+								},
+							},
+							["count"] = 37,
+							["amount"] = 18376,
+						},
+					},
 					["WhoHealed"] = {
 						["Maijuur"] = {
 							["Details"] = {
@@ -57759,18 +57794,6 @@ RecountPerCharDB = {
 					["CCBreak"] = 0,
 					["ElementTakenAbsorb"] = {
 					},
-					["FDamage"] = 3072,
-					["EnergyGain"] = 480,
-					["ManaGained"] = {
-						["Improved Leader of the Pack"] = {
-							["Details"] = {
-								["Maijuur"] = {
-									["count"] = 13498,
-								},
-							},
-							["amount"] = 13498,
-						},
-					},
 					["PartialAbsorb"] = {
 						["Trample"] = {
 							["Details"] = {
@@ -57832,16 +57855,16 @@ RecountPerCharDB = {
 							["count"] = 22,
 							["amount"] = 0,
 						},
-						["Tail Sweep"] = {
+						["Intense Cold (DoT)"] = {
 							["Details"] = {
 								["No Absorb"] = {
 									["max"] = 0,
 									["min"] = 0,
-									["count"] = 1,
+									["count"] = 24,
 									["amount"] = 0,
 								},
 							},
-							["count"] = 1,
+							["count"] = 24,
 							["amount"] = 0,
 						},
 						["Shard Spray"] = {
@@ -57856,16 +57879,16 @@ RecountPerCharDB = {
 							["count"] = 1,
 							["amount"] = 0,
 						},
-						["Intense Cold (DoT)"] = {
+						["Tail Sweep"] = {
 							["Details"] = {
 								["No Absorb"] = {
 									["max"] = 0,
 									["min"] = 0,
-									["count"] = 24,
+									["count"] = 1,
 									["amount"] = 0,
 								},
 							},
-							["count"] = 24,
+							["count"] = 1,
 							["amount"] = 0,
 						},
 						["Crystallize"] = {
@@ -57917,19 +57940,206 @@ RecountPerCharDB = {
 							["amount"] = 0,
 						},
 					},
-					["ActiveTime"] = 223.7199999999998,
+					["PartialResist"] = {
+						["Trample"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 6,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 6,
+							["amount"] = 0,
+						},
+						["Crystalfire Breath"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+						["Crystalfire Breath (DoT)"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 5,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 5,
+							["amount"] = 0,
+						},
+						["Crystal Bark"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 22,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 22,
+							["amount"] = 0,
+						},
+						["Intense Cold (DoT)"] = {
+							["Details"] = {
+								["50%Resist"] = {
+									["max"] = 252,
+									["min"] = 31,
+									["count"] = 12,
+									["amount"] = 1484,
+								},
+								["25%Resist"] = {
+									["max"] = 167,
+									["min"] = 20,
+									["count"] = 12,
+									["amount"] = 852,
+								},
+							},
+							["count"] = 24,
+							["amount"] = 2336,
+						},
+						["Shard Spray"] = {
+							["Details"] = {
+								["25%Resist"] = {
+									["max"] = 306,
+									["min"] = 306,
+									["count"] = 1,
+									["amount"] = 306,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 306,
+						},
+						["Tail Sweep"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+						["Crystallize"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 3,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 3,
+							["amount"] = 0,
+						},
+						["Chaotic Energy Burst"] = {
+							["Details"] = {
+								["50%Resist"] = {
+									["max"] = 54,
+									["min"] = 29,
+									["count"] = 3,
+									["amount"] = 125,
+								},
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+								["25%Resist"] = {
+									["max"] = 67,
+									["min"] = 6,
+									["count"] = 11,
+									["amount"] = 301,
+								},
+							},
+							["count"] = 15,
+							["amount"] = 426,
+						},
+						["Crystal Spike"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+						["Charged Chaotic Energy Burst"] = {
+							["Details"] = {
+								["50%Resist"] = {
+									["max"] = 75,
+									["min"] = 75,
+									["count"] = 1,
+									["amount"] = 75,
+								},
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+								["25%Resist"] = {
+									["max"] = 104,
+									["min"] = 52,
+									["count"] = 3,
+									["amount"] = 236,
+								},
+							},
+							["count"] = 5,
+							["amount"] = 311,
+						},
+					},
+					["ManaGained"] = {
+						["Improved Leader of the Pack"] = {
+							["Details"] = {
+								["Maijuur"] = {
+									["count"] = 13498,
+								},
+							},
+							["amount"] = 13498,
+						},
+					},
+					["FDamage"] = 3072,
+					["Interrupts"] = 0,
 					["Overhealing"] = 30002,
 					["TimeSpent"] = {
 						["Keristrasza"] = {
 							["Details"] = {
-								["Dazed"] = {
-									["count"] = 3.19,
-								},
-								["Rake"] = {
-									["count"] = 1.02,
-								},
 								["Rake (DoT)"] = {
 									["count"] = 5.8,
+								},
+								["Melee"] = {
+									["count"] = 12.53,
+								},
+								["Dazed"] = {
+									["count"] = 3.19,
 								},
 								["Ferocious Bite"] = {
 									["count"] = 0.65,
@@ -57940,8 +58150,8 @@ RecountPerCharDB = {
 								["Shred"] = {
 									["count"] = 4.15,
 								},
-								["Melee"] = {
-									["count"] = 12.53,
+								["Rake"] = {
+									["count"] = 1.02,
 								},
 							},
 							["amount"] = 27.33999999999999,
@@ -58059,14 +58269,6 @@ RecountPerCharDB = {
 							},
 							["amount"] = 35.01,
 						},
-						["Crystalline Keeper"] = {
-							["Details"] = {
-								["Swipe (Cat)"] = {
-									["count"] = 1.57,
-								},
-							},
-							["amount"] = 1.57,
-						},
 						["Azure Warder"] = {
 							["Details"] = {
 								["Rake"] = {
@@ -58086,6 +58288,14 @@ RecountPerCharDB = {
 								},
 							},
 							["amount"] = 7.589999999999999,
+						},
+						["Crystalline Keeper"] = {
+							["Details"] = {
+								["Swipe (Cat)"] = {
+									["count"] = 1.57,
+								},
+							},
+							["amount"] = 1.57,
 						},
 						["Crystalline Tender"] = {
 							["Details"] = {
@@ -58196,7 +58406,7 @@ RecountPerCharDB = {
 							["amount"] = 5918,
 						},
 					},
-					["Interrupts"] = 0,
+					["ActiveTime"] = 223.7199999999998,
 					["EnergyGained"] = {
 						["King of the Jungle"] = {
 							["Details"] = {
@@ -58207,210 +58417,10 @@ RecountPerCharDB = {
 							["amount"] = 480,
 						},
 					},
-					["PartialResist"] = {
-						["Trample"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 2,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 2,
-							["amount"] = 0,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 6,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 6,
-							["amount"] = 0,
-						},
-						["Crystalfire Breath"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 0,
-						},
-						["Crystalfire Breath (DoT)"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 5,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 5,
-							["amount"] = 0,
-						},
-						["Crystal Bark"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 22,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 22,
-							["amount"] = 0,
-						},
-						["Tail Sweep"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 0,
-						},
-						["Shard Spray"] = {
-							["Details"] = {
-								["25%Resist"] = {
-									["max"] = 306,
-									["min"] = 306,
-									["count"] = 1,
-									["amount"] = 306,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 306,
-						},
-						["Intense Cold (DoT)"] = {
-							["Details"] = {
-								["50%Resist"] = {
-									["max"] = 252,
-									["min"] = 31,
-									["count"] = 12,
-									["amount"] = 1484,
-								},
-								["25%Resist"] = {
-									["max"] = 167,
-									["min"] = 20,
-									["count"] = 12,
-									["amount"] = 852,
-								},
-							},
-							["count"] = 24,
-							["amount"] = 2336,
-						},
-						["Crystallize"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 3,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 3,
-							["amount"] = 0,
-						},
-						["Chaotic Energy Burst"] = {
-							["Details"] = {
-								["50%Resist"] = {
-									["max"] = 54,
-									["min"] = 29,
-									["count"] = 3,
-									["amount"] = 125,
-								},
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 0,
-								},
-								["25%Resist"] = {
-									["max"] = 67,
-									["min"] = 6,
-									["count"] = 11,
-									["amount"] = 301,
-								},
-							},
-							["count"] = 15,
-							["amount"] = 426,
-						},
-						["Crystal Spike"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 0,
-						},
-						["Charged Chaotic Energy Burst"] = {
-							["Details"] = {
-								["50%Resist"] = {
-									["max"] = 75,
-									["min"] = 75,
-									["count"] = 1,
-									["amount"] = 75,
-								},
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 0,
-								},
-								["25%Resist"] = {
-									["max"] = 104,
-									["min"] = 52,
-									["count"] = 3,
-									["amount"] = 236,
-								},
-							},
-							["count"] = 5,
-							["amount"] = 311,
-						},
-					},
+					["EnergyGain"] = 480,
 					["Healing"] = 15922,
+					["Dispelled"] = 0,
 					["RageGained"] = {
-					},
-					["OverHeals"] = {
-						["Improved Leader of the Pack"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 516,
-									["min"] = 95,
-									["count"] = 25,
-									["amount"] = 11626,
-								},
-							},
-							["count"] = 25,
-							["amount"] = 11626,
-						},
-						["Judgement of Light"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 516,
-									["min"] = 206,
-									["count"] = 37,
-									["amount"] = 18376,
-								},
-							},
-							["count"] = 37,
-							["amount"] = 18376,
-						},
 					},
 					["Attacks"] = {
 						["Rake"] = {
@@ -58672,14 +58682,14 @@ RecountPerCharDB = {
 						},
 						["Keristrasza"] = {
 							["Details"] = {
-								["Dazed"] = {
-									["count"] = 3.19,
-								},
-								["Rake"] = {
-									["count"] = 1.02,
-								},
 								["Rake (DoT)"] = {
 									["count"] = 5.8,
+								},
+								["Melee"] = {
+									["count"] = 12.53,
+								},
+								["Dazed"] = {
+									["count"] = 3.19,
 								},
 								["Ferocious Bite"] = {
 									["count"] = 0.65,
@@ -58690,8 +58700,8 @@ RecountPerCharDB = {
 								["Shred"] = {
 									["count"] = 4.15,
 								},
-								["Melee"] = {
-									["count"] = 12.53,
+								["Rake"] = {
+									["count"] = 1.02,
 								},
 							},
 							["amount"] = 27.33999999999999,
@@ -58739,14 +58749,6 @@ RecountPerCharDB = {
 							},
 							["amount"] = 35.01,
 						},
-						["Crystalline Keeper"] = {
-							["Details"] = {
-								["Swipe (Cat)"] = {
-									["count"] = 1.57,
-								},
-							},
-							["amount"] = 1.57,
-						},
 						["Azure Warder"] = {
 							["Details"] = {
 								["Rake"] = {
@@ -58766,6 +58768,14 @@ RecountPerCharDB = {
 								},
 							},
 							["amount"] = 7.589999999999999,
+						},
+						["Crystalline Keeper"] = {
+							["Details"] = {
+								["Swipe (Cat)"] = {
+									["count"] = 1.57,
+								},
+							},
+							["amount"] = 1.57,
 						},
 						["Crystalline Tender"] = {
 							["Details"] = {
@@ -58843,7 +58853,24 @@ RecountPerCharDB = {
 						},
 					},
 					["ManaGain"] = 13498,
-					["DOT_Time"] = 75,
+					["HOTs"] = {
+						["Improved Leader of the Pack"] = {
+							["Details"] = {
+								["Maijuur"] = {
+									["count"] = 102,
+								},
+							},
+							["amount"] = 102,
+						},
+						["Judgement of Light"] = {
+							["Details"] = {
+								["Maijuur"] = {
+									["count"] = 165,
+								},
+							},
+							["amount"] = 165,
+						},
+					},
 					["DispelledWho"] = {
 					},
 				},
@@ -58851,14 +58878,14 @@ RecountPerCharDB = {
 					["DOTs"] = {
 						["Rake (DoT)"] = {
 							["Details"] = {
-								["Anomalus"] = {
-									["count"] = 12,
+								["Azure Enforcer"] = {
+									["count"] = 6,
 								},
 								["Keristrasza"] = {
 									["count"] = 18,
 								},
-								["Crystalline Tender"] = {
-									["count"] = 6,
+								["Anomalus"] = {
+									["count"] = 12,
 								},
 								["Azure Warder"] = {
 									["count"] = 3,
@@ -58866,7 +58893,7 @@ RecountPerCharDB = {
 								["Crystalline Protector"] = {
 									["count"] = 9,
 								},
-								["Azure Enforcer"] = {
+								["Crystalline Tender"] = {
 									["count"] = 6,
 								},
 								["Crazed Mana-Surge"] = {
@@ -58941,8 +58968,7 @@ RecountPerCharDB = {
 					},
 					["DeathCount"] = 0,
 					["HOT_Time"] = 267,
-					["ElementTakenBlock"] = {
-					},
+					["Damage"] = 789360,
 					["RunicPowerGain"] = 0,
 					["ElementTaken"] = {
 						["Physical"] = 7633,
@@ -58951,25 +58977,9 @@ RecountPerCharDB = {
 						["Frostfire"] = 8741,
 						["Frost"] = 9338,
 					},
-					["HOTs"] = {
-						["Improved Leader of the Pack"] = {
-							["Details"] = {
-								["Maijuur"] = {
-									["count"] = 102,
-								},
-							},
-							["amount"] = 102,
-						},
-						["Judgement of Light"] = {
-							["Details"] = {
-								["Maijuur"] = {
-									["count"] = 165,
-								},
-							},
-							["amount"] = 165,
-						},
+					["DOT_Time"] = 75,
+					["ElementTakenBlock"] = {
 					},
-					["Damage"] = 789360,
 					["ElementDoneAbsorb"] = {
 						["Melee"] = 2850,
 						["Physical"] = 7132,
@@ -58979,6 +58989,79 @@ RecountPerCharDB = {
 					},
 					["Dispels"] = 0,
 					["PartialBlock"] = {
+					},
+					["ElementHitsDone"] = {
+						["Physical"] = {
+							["Details"] = {
+								["Immune"] = {
+									["count"] = 4,
+								},
+								["Hit"] = {
+									["count"] = 49,
+								},
+								["Absorb"] = {
+									["count"] = 1,
+								},
+								["Crit"] = {
+									["count"] = 63,
+								},
+								["Tick"] = {
+									["count"] = 25,
+								},
+							},
+							["amount"] = 142,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Glancing"] = {
+									["count"] = 13,
+								},
+								["Immune"] = {
+									["count"] = 4,
+								},
+								["Hit"] = {
+									["count"] = 38,
+								},
+								["Absorb"] = {
+									["count"] = 2,
+								},
+								["Crit"] = {
+									["count"] = 95,
+								},
+								["Dodge"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 153,
+						},
+						["Holy"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 1,
+						},
+					},
+					["FAttacks"] = {
+						["Swipe (Cat)"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 3072,
+									["min"] = 3072,
+									["count"] = 1,
+									["amount"] = 3072,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 3072,
+						},
+					},
+					["HealingTaken"] = 48752,
+					["ElementDone"] = {
+						["Physical"] = 562434,
+						["Melee"] = 226703,
+						["Holy"] = 223,
 					},
 					["DamagedWho"] = {
 						["Crystalline Frayer"] = {
@@ -59106,14 +59189,6 @@ RecountPerCharDB = {
 							},
 							["amount"] = 87987,
 						},
-						["Crystalline Keeper"] = {
-							["Details"] = {
-								["Swipe (Cat)"] = {
-									["count"] = 121385,
-								},
-							},
-							["amount"] = 121385,
-						},
 						["Azure Warder"] = {
 							["Details"] = {
 								["Rake"] = {
@@ -59133,6 +59208,14 @@ RecountPerCharDB = {
 								},
 							},
 							["amount"] = 16755,
+						},
+						["Crystalline Keeper"] = {
+							["Details"] = {
+								["Swipe (Cat)"] = {
+									["count"] = 121385,
+								},
+							},
+							["amount"] = 121385,
 						},
 						["Crystalline Tender"] = {
 							["Details"] = {
@@ -59209,81 +59292,6 @@ RecountPerCharDB = {
 							["amount"] = 86205,
 						},
 					},
-					["FAttacks"] = {
-						["Swipe (Cat)"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 3072,
-									["min"] = 3072,
-									["count"] = 1,
-									["amount"] = 3072,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 3072,
-						},
-					},
-					["HealingTaken"] = 48752,
-					["ElementDone"] = {
-						["Physical"] = 562434,
-						["Melee"] = 226703,
-						["Holy"] = 223,
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementHitsDone"] = {
-						["Physical"] = {
-							["Details"] = {
-								["Immune"] = {
-									["count"] = 4,
-								},
-								["Hit"] = {
-									["count"] = 49,
-								},
-								["Absorb"] = {
-									["count"] = 1,
-								},
-								["Crit"] = {
-									["count"] = 63,
-								},
-								["Tick"] = {
-									["count"] = 25,
-								},
-							},
-							["amount"] = 142,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["Glancing"] = {
-									["count"] = 13,
-								},
-								["Immune"] = {
-									["count"] = 4,
-								},
-								["Hit"] = {
-									["count"] = 38,
-								},
-								["Absorb"] = {
-									["count"] = 2,
-								},
-								["Crit"] = {
-									["count"] = 95,
-								},
-								["Dodge"] = {
-									["count"] = 1,
-								},
-							},
-							["amount"] = 153,
-						},
-						["Holy"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 1,
-								},
-							},
-							["amount"] = 1,
-						},
-					},
 					["ManaGainedFrom"] = {
 						["Maijuur"] = {
 							["Details"] = {
@@ -59293,6 +59301,8 @@ RecountPerCharDB = {
 							},
 							["amount"] = 13498,
 						},
+					},
+					["RunicPowerGained"] = {
 					},
 					["WhoDamaged"] = {
 						["Crystalline Frayer"] = {
@@ -59396,9 +59406,9 @@ RecountPerCharDB = {
 							["amount"] = 480,
 						},
 					},
-					["RunicPowerGained"] = {
-					},
 					["CCBroken"] = {
+					},
+					["RunicPowerGainedFrom"] = {
 					},
 					["ElementDoneBlock"] = {
 						["Melee"] = 81,
@@ -59417,7 +59427,32 @@ RecountPerCharDB = {
 							["amount"] = 31.87,
 						},
 					},
-					["Dispelled"] = 0,
+					["OverHeals"] = {
+						["Improved Leader of the Pack"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 516,
+									["min"] = 95,
+									["count"] = 25,
+									["amount"] = 11626,
+								},
+							},
+							["count"] = 25,
+							["amount"] = 11626,
+						},
+						["Judgement of Light"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 516,
+									["min"] = 206,
+									["count"] = 37,
+									["amount"] = 18376,
+								},
+							},
+							["count"] = 37,
+							["amount"] = 18376,
+						},
+					},
 					["WhoHealed"] = {
 						["Maijuur"] = {
 							["Details"] = {
@@ -59480,18 +59515,6 @@ RecountPerCharDB = {
 					["CCBreak"] = 0,
 					["ElementTakenAbsorb"] = {
 					},
-					["FDamage"] = 3072,
-					["EnergyGain"] = 480,
-					["ManaGained"] = {
-						["Improved Leader of the Pack"] = {
-							["Details"] = {
-								["Maijuur"] = {
-									["count"] = 13498,
-								},
-							},
-							["amount"] = 13498,
-						},
-					},
 					["PartialAbsorb"] = {
 						["Trample"] = {
 							["Details"] = {
@@ -59553,16 +59576,16 @@ RecountPerCharDB = {
 							["count"] = 22,
 							["amount"] = 0,
 						},
-						["Tail Sweep"] = {
+						["Intense Cold (DoT)"] = {
 							["Details"] = {
 								["No Absorb"] = {
 									["max"] = 0,
 									["min"] = 0,
-									["count"] = 1,
+									["count"] = 24,
 									["amount"] = 0,
 								},
 							},
-							["count"] = 1,
+							["count"] = 24,
 							["amount"] = 0,
 						},
 						["Shard Spray"] = {
@@ -59577,16 +59600,16 @@ RecountPerCharDB = {
 							["count"] = 1,
 							["amount"] = 0,
 						},
-						["Intense Cold (DoT)"] = {
+						["Tail Sweep"] = {
 							["Details"] = {
 								["No Absorb"] = {
 									["max"] = 0,
 									["min"] = 0,
-									["count"] = 24,
+									["count"] = 1,
 									["amount"] = 0,
 								},
 							},
-							["count"] = 24,
+							["count"] = 1,
 							["amount"] = 0,
 						},
 						["Crystallize"] = {
@@ -59638,19 +59661,206 @@ RecountPerCharDB = {
 							["amount"] = 0,
 						},
 					},
-					["ActiveTime"] = 223.7199999999998,
+					["PartialResist"] = {
+						["Trample"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 6,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 6,
+							["amount"] = 0,
+						},
+						["Crystalfire Breath"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+						["Crystalfire Breath (DoT)"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 5,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 5,
+							["amount"] = 0,
+						},
+						["Crystal Bark"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 22,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 22,
+							["amount"] = 0,
+						},
+						["Intense Cold (DoT)"] = {
+							["Details"] = {
+								["50%Resist"] = {
+									["max"] = 252,
+									["min"] = 31,
+									["count"] = 12,
+									["amount"] = 1484,
+								},
+								["25%Resist"] = {
+									["max"] = 167,
+									["min"] = 20,
+									["count"] = 12,
+									["amount"] = 852,
+								},
+							},
+							["count"] = 24,
+							["amount"] = 2336,
+						},
+						["Shard Spray"] = {
+							["Details"] = {
+								["25%Resist"] = {
+									["max"] = 306,
+									["min"] = 306,
+									["count"] = 1,
+									["amount"] = 306,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 306,
+						},
+						["Tail Sweep"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+						["Crystallize"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 3,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 3,
+							["amount"] = 0,
+						},
+						["Chaotic Energy Burst"] = {
+							["Details"] = {
+								["50%Resist"] = {
+									["max"] = 54,
+									["min"] = 29,
+									["count"] = 3,
+									["amount"] = 125,
+								},
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+								["25%Resist"] = {
+									["max"] = 67,
+									["min"] = 6,
+									["count"] = 11,
+									["amount"] = 301,
+								},
+							},
+							["count"] = 15,
+							["amount"] = 426,
+						},
+						["Crystal Spike"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+						["Charged Chaotic Energy Burst"] = {
+							["Details"] = {
+								["50%Resist"] = {
+									["max"] = 75,
+									["min"] = 75,
+									["count"] = 1,
+									["amount"] = 75,
+								},
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+								["25%Resist"] = {
+									["max"] = 104,
+									["min"] = 52,
+									["count"] = 3,
+									["amount"] = 236,
+								},
+							},
+							["count"] = 5,
+							["amount"] = 311,
+						},
+					},
+					["ManaGained"] = {
+						["Improved Leader of the Pack"] = {
+							["Details"] = {
+								["Maijuur"] = {
+									["count"] = 13498,
+								},
+							},
+							["amount"] = 13498,
+						},
+					},
+					["FDamage"] = 3072,
+					["Interrupts"] = 0,
 					["Overhealing"] = 30002,
 					["TimeSpent"] = {
 						["Keristrasza"] = {
 							["Details"] = {
-								["Dazed"] = {
-									["count"] = 3.19,
-								},
-								["Rake"] = {
-									["count"] = 1.02,
-								},
 								["Rake (DoT)"] = {
 									["count"] = 5.8,
+								},
+								["Melee"] = {
+									["count"] = 12.53,
+								},
+								["Dazed"] = {
+									["count"] = 3.19,
 								},
 								["Ferocious Bite"] = {
 									["count"] = 0.65,
@@ -59661,8 +59871,8 @@ RecountPerCharDB = {
 								["Shred"] = {
 									["count"] = 4.15,
 								},
-								["Melee"] = {
-									["count"] = 12.53,
+								["Rake"] = {
+									["count"] = 1.02,
 								},
 							},
 							["amount"] = 27.33999999999999,
@@ -59780,14 +59990,6 @@ RecountPerCharDB = {
 							},
 							["amount"] = 35.01,
 						},
-						["Crystalline Keeper"] = {
-							["Details"] = {
-								["Swipe (Cat)"] = {
-									["count"] = 1.57,
-								},
-							},
-							["amount"] = 1.57,
-						},
 						["Azure Warder"] = {
 							["Details"] = {
 								["Rake"] = {
@@ -59807,6 +60009,14 @@ RecountPerCharDB = {
 								},
 							},
 							["amount"] = 7.589999999999999,
+						},
+						["Crystalline Keeper"] = {
+							["Details"] = {
+								["Swipe (Cat)"] = {
+									["count"] = 1.57,
+								},
+							},
+							["amount"] = 1.57,
 						},
 						["Crystalline Tender"] = {
 							["Details"] = {
@@ -59917,7 +60127,7 @@ RecountPerCharDB = {
 							["amount"] = 5918,
 						},
 					},
-					["Interrupts"] = 0,
+					["ActiveTime"] = 223.7199999999998,
 					["EnergyGained"] = {
 						["King of the Jungle"] = {
 							["Details"] = {
@@ -59928,210 +60138,10 @@ RecountPerCharDB = {
 							["amount"] = 480,
 						},
 					},
-					["PartialResist"] = {
-						["Trample"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 2,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 2,
-							["amount"] = 0,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 6,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 6,
-							["amount"] = 0,
-						},
-						["Crystalfire Breath"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 0,
-						},
-						["Crystalfire Breath (DoT)"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 5,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 5,
-							["amount"] = 0,
-						},
-						["Crystal Bark"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 22,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 22,
-							["amount"] = 0,
-						},
-						["Tail Sweep"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 0,
-						},
-						["Shard Spray"] = {
-							["Details"] = {
-								["25%Resist"] = {
-									["max"] = 306,
-									["min"] = 306,
-									["count"] = 1,
-									["amount"] = 306,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 306,
-						},
-						["Intense Cold (DoT)"] = {
-							["Details"] = {
-								["50%Resist"] = {
-									["max"] = 252,
-									["min"] = 31,
-									["count"] = 12,
-									["amount"] = 1484,
-								},
-								["25%Resist"] = {
-									["max"] = 167,
-									["min"] = 20,
-									["count"] = 12,
-									["amount"] = 852,
-								},
-							},
-							["count"] = 24,
-							["amount"] = 2336,
-						},
-						["Crystallize"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 3,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 3,
-							["amount"] = 0,
-						},
-						["Chaotic Energy Burst"] = {
-							["Details"] = {
-								["50%Resist"] = {
-									["max"] = 54,
-									["min"] = 29,
-									["count"] = 3,
-									["amount"] = 125,
-								},
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 0,
-								},
-								["25%Resist"] = {
-									["max"] = 67,
-									["min"] = 6,
-									["count"] = 11,
-									["amount"] = 301,
-								},
-							},
-							["count"] = 15,
-							["amount"] = 426,
-						},
-						["Crystal Spike"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 0,
-						},
-						["Charged Chaotic Energy Burst"] = {
-							["Details"] = {
-								["50%Resist"] = {
-									["max"] = 75,
-									["min"] = 75,
-									["count"] = 1,
-									["amount"] = 75,
-								},
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 0,
-								},
-								["25%Resist"] = {
-									["max"] = 104,
-									["min"] = 52,
-									["count"] = 3,
-									["amount"] = 236,
-								},
-							},
-							["count"] = 5,
-							["amount"] = 311,
-						},
-					},
+					["EnergyGain"] = 480,
 					["Healing"] = 15922,
+					["Dispelled"] = 0,
 					["RageGained"] = {
-					},
-					["OverHeals"] = {
-						["Improved Leader of the Pack"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 516,
-									["min"] = 95,
-									["count"] = 25,
-									["amount"] = 11626,
-								},
-							},
-							["count"] = 25,
-							["amount"] = 11626,
-						},
-						["Judgement of Light"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 516,
-									["min"] = 206,
-									["count"] = 37,
-									["amount"] = 18376,
-								},
-							},
-							["count"] = 37,
-							["amount"] = 18376,
-						},
 					},
 					["Attacks"] = {
 						["Rake"] = {
@@ -60393,14 +60403,14 @@ RecountPerCharDB = {
 						},
 						["Keristrasza"] = {
 							["Details"] = {
-								["Dazed"] = {
-									["count"] = 3.19,
-								},
-								["Rake"] = {
-									["count"] = 1.02,
-								},
 								["Rake (DoT)"] = {
 									["count"] = 5.8,
+								},
+								["Melee"] = {
+									["count"] = 12.53,
+								},
+								["Dazed"] = {
+									["count"] = 3.19,
 								},
 								["Ferocious Bite"] = {
 									["count"] = 0.65,
@@ -60411,8 +60421,8 @@ RecountPerCharDB = {
 								["Shred"] = {
 									["count"] = 4.15,
 								},
-								["Melee"] = {
-									["count"] = 12.53,
+								["Rake"] = {
+									["count"] = 1.02,
 								},
 							},
 							["amount"] = 27.33999999999999,
@@ -60460,14 +60470,6 @@ RecountPerCharDB = {
 							},
 							["amount"] = 35.01,
 						},
-						["Crystalline Keeper"] = {
-							["Details"] = {
-								["Swipe (Cat)"] = {
-									["count"] = 1.57,
-								},
-							},
-							["amount"] = 1.57,
-						},
 						["Azure Warder"] = {
 							["Details"] = {
 								["Rake"] = {
@@ -60487,6 +60489,14 @@ RecountPerCharDB = {
 								},
 							},
 							["amount"] = 7.589999999999999,
+						},
+						["Crystalline Keeper"] = {
+							["Details"] = {
+								["Swipe (Cat)"] = {
+									["count"] = 1.57,
+								},
+							},
+							["amount"] = 1.57,
 						},
 						["Crystalline Tender"] = {
 							["Details"] = {
@@ -60564,7 +60574,24 @@ RecountPerCharDB = {
 						},
 					},
 					["ManaGain"] = 13498,
-					["DOT_Time"] = 75,
+					["HOTs"] = {
+						["Improved Leader of the Pack"] = {
+							["Details"] = {
+								["Maijuur"] = {
+									["count"] = 102,
+								},
+							},
+							["amount"] = 102,
+						},
+						["Judgement of Light"] = {
+							["Details"] = {
+								["Maijuur"] = {
+									["count"] = 165,
+								},
+							},
+							["amount"] = 165,
+						},
+					},
 					["DispelledWho"] = {
 					},
 				},
@@ -60649,14 +60676,6 @@ RecountPerCharDB = {
 							},
 							["amount"] = 54,
 						},
-						["Fire"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 5,
-								},
-							},
-							["amount"] = 5,
-						},
 						["Frostfire"] = {
 							["Details"] = {
 								["Tick"] = {
@@ -60667,6 +60686,14 @@ RecountPerCharDB = {
 								},
 							},
 							["amount"] = 6,
+						},
+						["Fire"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 5,
+								},
+							},
+							["amount"] = 5,
 						},
 						["Shadow"] = {
 							["Details"] = {
@@ -60702,8 +60729,8 @@ RecountPerCharDB = {
 						["Physical"] = 23106,
 						["Melee"] = 34695,
 						["Arcane"] = 18812,
-						["Fire"] = 12223,
 						["Frostfire"] = 8741,
+						["Fire"] = 12223,
 						["Shadow"] = 1560,
 						["Frost"] = 22479,
 					},
@@ -61555,11 +61582,11 @@ RecountPerCharDB = {
 						},
 						["Commander Kolurg"] = {
 							["Details"] = {
-								["Melee"] = {
-									["count"] = 9.609999999999999,
-								},
 								["Rake"] = {
 									["count"] = 0.24,
+								},
+								["Shred"] = {
+									["count"] = 3.5,
 								},
 								["Swipe (Cat)"] = {
 									["count"] = 1.04,
@@ -61573,8 +61600,8 @@ RecountPerCharDB = {
 								["Rake (DoT)"] = {
 									["count"] = 3.51,
 								},
-								["Shred"] = {
-									["count"] = 3.5,
+								["Melee"] = {
+									["count"] = 9.609999999999999,
 								},
 							},
 							["amount"] = 21.71,
@@ -61601,14 +61628,14 @@ RecountPerCharDB = {
 						},
 						["Grand Magus Telestra"] = {
 							["Details"] = {
-								["Melee"] = {
-									["count"] = 13.5,
+								["Rake"] = {
+									["count"] = 0.27,
 								},
 								["Swipe (Cat)"] = {
 									["count"] = 1.54,
 								},
-								["Rake"] = {
-									["count"] = 0.27,
+								["Shred"] = {
+									["count"] = 0.66,
 								},
 								["Dazed"] = {
 									["count"] = 7,
@@ -61622,8 +61649,8 @@ RecountPerCharDB = {
 								["Retribution Aura"] = {
 									["count"] = 5.22,
 								},
-								["Shred"] = {
-									["count"] = 0.66,
+								["Melee"] = {
+									["count"] = 13.5,
 								},
 							},
 							["amount"] = 32.12000000000001,
@@ -61669,14 +61696,14 @@ RecountPerCharDB = {
 						},
 						["Keristrasza"] = {
 							["Details"] = {
-								["Dazed"] = {
-									["count"] = 3.19,
-								},
-								["Rake"] = {
-									["count"] = 1.02,
-								},
 								["Rake (DoT)"] = {
 									["count"] = 5.8,
+								},
+								["Melee"] = {
+									["count"] = 12.53,
+								},
+								["Dazed"] = {
+									["count"] = 3.19,
 								},
 								["Ferocious Bite"] = {
 									["count"] = 0.65,
@@ -61687,8 +61714,8 @@ RecountPerCharDB = {
 								["Shred"] = {
 									["count"] = 4.15,
 								},
-								["Melee"] = {
-									["count"] = 12.53,
+								["Rake"] = {
+									["count"] = 1.02,
 								},
 							},
 							["amount"] = 27.33999999999999,
@@ -62606,11 +62633,11 @@ RecountPerCharDB = {
 						},
 						["Commander Kolurg"] = {
 							["Details"] = {
-								["Melee"] = {
-									["count"] = 9.609999999999999,
-								},
 								["Rake"] = {
 									["count"] = 0.24,
+								},
+								["Shred"] = {
+									["count"] = 3.5,
 								},
 								["Swipe (Cat)"] = {
 									["count"] = 1.04,
@@ -62624,8 +62651,8 @@ RecountPerCharDB = {
 								["Rake (DoT)"] = {
 									["count"] = 3.51,
 								},
-								["Shred"] = {
-									["count"] = 3.5,
+								["Melee"] = {
+									["count"] = 9.609999999999999,
 								},
 							},
 							["amount"] = 21.71,
@@ -62652,14 +62679,14 @@ RecountPerCharDB = {
 						},
 						["Grand Magus Telestra"] = {
 							["Details"] = {
-								["Melee"] = {
-									["count"] = 13.5,
+								["Rake"] = {
+									["count"] = 0.27,
 								},
 								["Swipe (Cat)"] = {
 									["count"] = 1.54,
 								},
-								["Rake"] = {
-									["count"] = 0.27,
+								["Shred"] = {
+									["count"] = 0.66,
 								},
 								["Dazed"] = {
 									["count"] = 7,
@@ -62673,8 +62700,8 @@ RecountPerCharDB = {
 								["Retribution Aura"] = {
 									["count"] = 5.22,
 								},
-								["Shred"] = {
-									["count"] = 0.66,
+								["Melee"] = {
+									["count"] = 13.5,
 								},
 							},
 							["amount"] = 32.12000000000001,
@@ -62720,14 +62747,14 @@ RecountPerCharDB = {
 						},
 						["Keristrasza"] = {
 							["Details"] = {
-								["Dazed"] = {
-									["count"] = 3.19,
-								},
-								["Rake"] = {
-									["count"] = 1.02,
-								},
 								["Rake (DoT)"] = {
 									["count"] = 5.8,
+								},
+								["Melee"] = {
+									["count"] = 12.53,
+								},
+								["Dazed"] = {
+									["count"] = 3.19,
 								},
 								["Ferocious Bite"] = {
 									["count"] = 0.65,
@@ -62738,8 +62765,8 @@ RecountPerCharDB = {
 								["Shred"] = {
 									["count"] = 4.15,
 								},
-								["Melee"] = {
-									["count"] = 12.53,
+								["Rake"] = {
+									["count"] = 1.02,
 								},
 							},
 							["amount"] = 27.33999999999999,
@@ -63006,11 +63033,11 @@ RecountPerCharDB = {
 						},
 						["Commander Kolurg"] = {
 							["Details"] = {
-								["Melee"] = {
-									["count"] = 22806,
-								},
 								["Rake"] = {
 									["count"] = 1097,
+								},
+								["Shred"] = {
+									["count"] = 7405,
 								},
 								["Swipe (Cat)"] = {
 									["count"] = 13063,
@@ -63024,8 +63051,8 @@ RecountPerCharDB = {
 								["Rake (DoT)"] = {
 									["count"] = 5211,
 								},
-								["Shred"] = {
-									["count"] = 7405,
+								["Melee"] = {
+									["count"] = 22806,
 								},
 							},
 							["amount"] = 60008,
@@ -63052,14 +63079,14 @@ RecountPerCharDB = {
 						},
 						["Grand Magus Telestra"] = {
 							["Details"] = {
-								["Rake (DoT)"] = {
-									["count"] = 5646,
-								},
-								["Melee"] = {
-									["count"] = 41714,
-								},
 								["Swipe (Cat)"] = {
 									["count"] = 90388,
+								},
+								["Rake"] = {
+									["count"] = 527,
+								},
+								["Rake (DoT)"] = {
+									["count"] = 5646,
 								},
 								["Shred"] = {
 									["count"] = 4558,
@@ -63070,8 +63097,8 @@ RecountPerCharDB = {
 								["Retribution Aura"] = {
 									["count"] = 446,
 								},
-								["Rake"] = {
-									["count"] = 527,
+								["Melee"] = {
+									["count"] = 41714,
 								},
 							},
 							["amount"] = 152325,
@@ -63484,7 +63511,7 @@ RecountPerCharDB = {
 			},
 			["type"] = "Pet",
 			["FightsSaved"] = 5,
-			["LastAbility"] = 1306.632,
+			["LastAbility"] = 4982.039,
 			["LastEventTimes"] = {
 				3998.379, -- [1]
 				3999.244, -- [2]
@@ -63732,23 +63759,14 @@ RecountPerCharDB = {
 					},
 					["DeathCount"] = 0,
 					["HOT_Time"] = 3,
-					["ElementTakenBlock"] = {
-					},
+					["Damage"] = 17118,
 					["RunicPowerGain"] = 0,
 					["ElementTaken"] = {
 						["Frost"] = 942,
 					},
-					["HOTs"] = {
-						["Judgement of Light"] = {
-							["Details"] = {
-								["Casketbasher <Urgash>"] = {
-									["count"] = 3,
-								},
-							},
-							["amount"] = 3,
-						},
+					["DOT_Time"] = 0,
+					["ElementTakenBlock"] = {
 					},
-					["Damage"] = 17118,
 					["ElementDoneAbsorb"] = {
 					},
 					["TimeHeal"] = 0.94,
@@ -63756,6 +63774,31 @@ RecountPerCharDB = {
 					},
 					["Dispels"] = 0,
 					["PartialBlock"] = {
+					},
+					["ElementHitsDone"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 13,
+								},
+							},
+							["amount"] = 13,
+						},
+						["Physical"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 6,
+								},
+							},
+							["amount"] = 6,
+						},
+					},
+					["FAttacks"] = {
+					},
+					["HealingTaken"] = 6345,
+					["ElementDone"] = {
+						["Melee"] = 10309,
+						["Physical"] = 6809,
 					},
 					["DamagedWho"] = {
 						["Steward"] = {
@@ -63792,34 +63835,9 @@ RecountPerCharDB = {
 							["amount"] = 11614,
 						},
 					},
-					["FAttacks"] = {
-					},
-					["HealingTaken"] = 6345,
-					["ElementDone"] = {
-						["Melee"] = 10309,
-						["Physical"] = 6809,
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementHitsDone"] = {
-						["Melee"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 13,
-								},
-							},
-							["amount"] = 13,
-						},
-						["Physical"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 6,
-								},
-							},
-							["amount"] = 6,
-						},
-					},
 					["ManaGainedFrom"] = {
+					},
+					["RunicPowerGained"] = {
 					},
 					["WhoDamaged"] = {
 						["Mage Hunter Ascendant"] = {
@@ -63833,9 +63851,9 @@ RecountPerCharDB = {
 					},
 					["EnergyGainedFrom"] = {
 					},
-					["RunicPowerGained"] = {
-					},
 					["CCBroken"] = {
+					},
+					["RunicPowerGainedFrom"] = {
 					},
 					["ElementDoneBlock"] = {
 					},
@@ -63849,7 +63867,8 @@ RecountPerCharDB = {
 							["amount"] = 0.94,
 						},
 					},
-					["Dispelled"] = 0,
+					["OverHeals"] = {
+					},
 					["WhoHealed"] = {
 						["Bigepapa"] = {
 							["Details"] = {
@@ -63889,10 +63908,6 @@ RecountPerCharDB = {
 					["CCBreak"] = 0,
 					["ElementTakenAbsorb"] = {
 					},
-					["FDamage"] = 0,
-					["EnergyGain"] = 0,
-					["ManaGained"] = {
-					},
 					["PartialAbsorb"] = {
 						["Frostbolt"] = {
 							["Details"] = {
@@ -63907,7 +63922,24 @@ RecountPerCharDB = {
 							["amount"] = 0,
 						},
 					},
-					["ActiveTime"] = 21.9,
+					["PartialResist"] = {
+						["Frostbolt"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 6,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 6,
+							["amount"] = 0,
+						},
+					},
+					["ManaGained"] = {
+					},
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
 					["Overhealing"] = 0,
 					["TimeSpent"] = {
 						["Steward"] = {
@@ -63972,27 +64004,13 @@ RecountPerCharDB = {
 							["amount"] = 532,
 						},
 					},
-					["Interrupts"] = 0,
+					["ActiveTime"] = 21.9,
 					["EnergyGained"] = {
 					},
-					["PartialResist"] = {
-						["Frostbolt"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 6,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 6,
-							["amount"] = 0,
-						},
-					},
+					["EnergyGain"] = 0,
 					["Healing"] = 532,
+					["Dispelled"] = 0,
 					["RageGained"] = {
-					},
-					["OverHeals"] = {
 					},
 					["Attacks"] = {
 						["Melee"] = {
@@ -64060,7 +64078,16 @@ RecountPerCharDB = {
 						},
 					},
 					["ManaGain"] = 0,
-					["DOT_Time"] = 0,
+					["HOTs"] = {
+						["Judgement of Light"] = {
+							["Details"] = {
+								["Casketbasher <Urgash>"] = {
+									["count"] = 3,
+								},
+							},
+							["amount"] = 3,
+						},
+					},
 					["DispelledWho"] = {
 					},
 				},
@@ -64088,31 +64115,14 @@ RecountPerCharDB = {
 					},
 					["DeathCount"] = 0,
 					["HOT_Time"] = 54,
-					["ElementTakenBlock"] = {
-					},
+					["Damage"] = 60592,
 					["RunicPowerGain"] = 0,
 					["ElementTaken"] = {
 						["Physical"] = 1658,
 					},
-					["HOTs"] = {
-						["Judgement of Light"] = {
-							["Details"] = {
-								["Casketbasher <Urgash>"] = {
-									["count"] = 33,
-								},
-							},
-							["amount"] = 33,
-						},
-						["Improved Leader of the Pack"] = {
-							["Details"] = {
-								["Casketbasher <Urgash>"] = {
-									["count"] = 21,
-								},
-							},
-							["amount"] = 21,
-						},
+					["DOT_Time"] = 0,
+					["ElementTakenBlock"] = {
 					},
-					["Damage"] = 60592,
 					["ElementDoneAbsorb"] = {
 					},
 					["TimeHeal"] = 5.609999999999999,
@@ -64120,6 +64130,40 @@ RecountPerCharDB = {
 					},
 					["Dispels"] = 0,
 					["PartialBlock"] = {
+					},
+					["ElementHitsDone"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Glancing"] = {
+									["count"] = 4,
+								},
+								["Crit"] = {
+									["count"] = 5,
+								},
+								["Hit"] = {
+									["count"] = 31,
+								},
+							},
+							["amount"] = 40,
+						},
+						["Physical"] = {
+							["Details"] = {
+								["Crit"] = {
+									["count"] = 6,
+								},
+								["Hit"] = {
+									["count"] = 14,
+								},
+							},
+							["amount"] = 20,
+						},
+					},
+					["FAttacks"] = {
+					},
+					["HealingTaken"] = 1658,
+					["ElementDone"] = {
+						["Melee"] = 32257,
+						["Physical"] = 28335,
 					},
 					["DamagedWho"] = {
 						["Horde Ranger"] = {
@@ -64156,43 +64200,9 @@ RecountPerCharDB = {
 							["amount"] = 29320,
 						},
 					},
-					["FAttacks"] = {
-					},
-					["HealingTaken"] = 1658,
-					["ElementDone"] = {
-						["Melee"] = 32257,
-						["Physical"] = 28335,
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementHitsDone"] = {
-						["Melee"] = {
-							["Details"] = {
-								["Glancing"] = {
-									["count"] = 4,
-								},
-								["Crit"] = {
-									["count"] = 5,
-								},
-								["Hit"] = {
-									["count"] = 31,
-								},
-							},
-							["amount"] = 40,
-						},
-						["Physical"] = {
-							["Details"] = {
-								["Crit"] = {
-									["count"] = 6,
-								},
-								["Hit"] = {
-									["count"] = 14,
-								},
-							},
-							["amount"] = 20,
-						},
-					},
 					["ManaGainedFrom"] = {
+					},
+					["RunicPowerGained"] = {
 					},
 					["WhoDamaged"] = {
 						["Horde Berserker"] = {
@@ -64214,9 +64224,9 @@ RecountPerCharDB = {
 					},
 					["EnergyGainedFrom"] = {
 					},
-					["RunicPowerGained"] = {
-					},
 					["CCBroken"] = {
+					},
+					["RunicPowerGainedFrom"] = {
 					},
 					["ElementDoneBlock"] = {
 						["Physical"] = 80,
@@ -64234,7 +64244,32 @@ RecountPerCharDB = {
 							["amount"] = 5.609999999999999,
 						},
 					},
-					["Dispelled"] = 0,
+					["OverHeals"] = {
+						["Judgement of Light"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 564,
+									["min"] = 260,
+									["count"] = 11,
+									["amount"] = 5900,
+								},
+							},
+							["count"] = 11,
+							["amount"] = 5900,
+						},
+						["Improved Leader of the Pack"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 564,
+									["min"] = 261,
+									["count"] = 6,
+									["amount"] = 2736,
+								},
+							},
+							["count"] = 6,
+							["amount"] = 2736,
+						},
+					},
 					["WhoHealed"] = {
 						["Casketbasher <Urgash>"] = {
 							["Details"] = {
@@ -64271,10 +64306,6 @@ RecountPerCharDB = {
 					},
 					["CCBreak"] = 0,
 					["ElementTakenAbsorb"] = {
-					},
-					["FDamage"] = 0,
-					["EnergyGain"] = 0,
-					["ManaGained"] = {
 					},
 					["PartialAbsorb"] = {
 						["Frightening Shout"] = {
@@ -64314,89 +64345,6 @@ RecountPerCharDB = {
 							["amount"] = 0,
 						},
 					},
-					["ActiveTime"] = 60.62000000000001,
-					["Overhealing"] = 8636,
-					["TimeSpent"] = {
-						["Horde Berserker"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 6.129999999999999,
-								},
-								["Claw"] = {
-									["count"] = 1.11,
-								},
-							},
-							["amount"] = 7.24,
-						},
-						["Casketbasher <Urgash>"] = {
-							["Details"] = {
-								["Improved Leader of the Pack"] = {
-									["count"] = 2.11,
-								},
-								["Judgement of Light"] = {
-									["count"] = 3.5,
-								},
-							},
-							["amount"] = 5.609999999999999,
-						},
-						["Commander Kolurg"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 19.21,
-								},
-								["Claw"] = {
-									["count"] = 4.98,
-								},
-							},
-							["amount"] = 24.19,
-						},
-						["Horde Ranger"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 22.14,
-								},
-								["Claw"] = {
-									["count"] = 1.44,
-								},
-							},
-							["amount"] = 23.58000000000001,
-						},
-					},
-					["WhoDispelled"] = {
-					},
-					["InterruptData"] = {
-					},
-					["ElementTakenResist"] = {
-					},
-					["Heals"] = {
-						["Improved Leader of the Pack"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 564,
-									["min"] = 154,
-									["count"] = 4,
-									["amount"] = 1212,
-								},
-							},
-							["count"] = 4,
-							["amount"] = 1212,
-						},
-						["Judgement of Light"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 304,
-									["min"] = 304,
-									["count"] = 1,
-									["amount"] = 304,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 304,
-						},
-					},
-					["Interrupts"] = 0,
-					["EnergyGained"] = {
-					},
 					["PartialResist"] = {
 						["Frightening Shout"] = {
 							["Details"] = {
@@ -64435,34 +64383,96 @@ RecountPerCharDB = {
 							["amount"] = 0,
 						},
 					},
-					["Healing"] = 1516,
-					["RageGained"] = {
+					["ManaGained"] = {
 					},
-					["OverHeals"] = {
-						["Judgement of Light"] = {
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["Overhealing"] = 8636,
+					["TimeSpent"] = {
+						["Commander Kolurg"] = {
 							["Details"] = {
-								["Tick"] = {
-									["max"] = 564,
-									["min"] = 260,
-									["count"] = 11,
-									["amount"] = 5900,
+								["Melee"] = {
+									["count"] = 19.21,
+								},
+								["Claw"] = {
+									["count"] = 4.98,
 								},
 							},
-							["count"] = 11,
-							["amount"] = 5900,
+							["amount"] = 24.19,
 						},
+						["Horde Ranger"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 22.14,
+								},
+								["Claw"] = {
+									["count"] = 1.44,
+								},
+							},
+							["amount"] = 23.58000000000001,
+						},
+						["Horde Berserker"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 6.129999999999999,
+								},
+								["Claw"] = {
+									["count"] = 1.11,
+								},
+							},
+							["amount"] = 7.24,
+						},
+						["Casketbasher <Urgash>"] = {
+							["Details"] = {
+								["Improved Leader of the Pack"] = {
+									["count"] = 2.11,
+								},
+								["Judgement of Light"] = {
+									["count"] = 3.5,
+								},
+							},
+							["amount"] = 5.609999999999999,
+						},
+					},
+					["WhoDispelled"] = {
+					},
+					["InterruptData"] = {
+					},
+					["ElementTakenResist"] = {
+					},
+					["Heals"] = {
 						["Improved Leader of the Pack"] = {
 							["Details"] = {
 								["Tick"] = {
 									["max"] = 564,
-									["min"] = 261,
-									["count"] = 6,
-									["amount"] = 2736,
+									["min"] = 154,
+									["count"] = 4,
+									["amount"] = 1212,
 								},
 							},
-							["count"] = 6,
-							["amount"] = 2736,
+							["count"] = 4,
+							["amount"] = 1212,
 						},
+						["Judgement of Light"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 304,
+									["min"] = 304,
+									["count"] = 1,
+									["amount"] = 304,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 304,
+						},
+					},
+					["ActiveTime"] = 60.62000000000001,
+					["EnergyGained"] = {
+					},
+					["EnergyGain"] = 0,
+					["Healing"] = 1516,
+					["Dispelled"] = 0,
+					["RageGained"] = {
 					},
 					["Attacks"] = {
 						["Melee"] = {
@@ -64560,7 +64570,24 @@ RecountPerCharDB = {
 						},
 					},
 					["ManaGain"] = 0,
-					["DOT_Time"] = 0,
+					["HOTs"] = {
+						["Judgement of Light"] = {
+							["Details"] = {
+								["Casketbasher <Urgash>"] = {
+									["count"] = 33,
+								},
+							},
+							["amount"] = 33,
+						},
+						["Improved Leader of the Pack"] = {
+							["Details"] = {
+								["Casketbasher <Urgash>"] = {
+									["count"] = 21,
+								},
+							},
+							["amount"] = 21,
+						},
+					},
 					["DispelledWho"] = {
 					},
 				},
@@ -64593,16 +64620,15 @@ RecountPerCharDB = {
 					},
 					["DeathCount"] = 0,
 					["HOT_Time"] = 0,
-					["ElementTakenBlock"] = {
-					},
+					["Damage"] = 0,
 					["RunicPowerGain"] = 0,
 					["ElementTaken"] = {
 						["Physical"] = 0,
 						["Arcane"] = 0,
 					},
-					["HOTs"] = {
+					["DOT_Time"] = 0,
+					["ElementTakenBlock"] = {
 					},
-					["Damage"] = 0,
 					["ElementDoneAbsorb"] = {
 						["Melee"] = 0,
 					},
@@ -64611,6 +64637,40 @@ RecountPerCharDB = {
 					},
 					["Dispels"] = 0,
 					["PartialBlock"] = {
+					},
+					["ElementHitsDone"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Absorb"] = {
+									["count"] = 0,
+								},
+								["Crit"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Physical"] = {
+							["Details"] = {
+								["Crit"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["FAttacks"] = {
+					},
+					["HealingTaken"] = 0,
+					["ElementDone"] = {
+						["Melee"] = 0,
+						["Physical"] = 0,
 					},
 					["DamagedWho"] = {
 						["Horde Cleric"] = {
@@ -64658,43 +64718,9 @@ RecountPerCharDB = {
 							["amount"] = 0,
 						},
 					},
-					["FAttacks"] = {
-					},
-					["HealingTaken"] = 0,
-					["ElementDone"] = {
-						["Melee"] = 0,
-						["Physical"] = 0,
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementHitsDone"] = {
-						["Melee"] = {
-							["Details"] = {
-								["Absorb"] = {
-									["count"] = 0,
-								},
-								["Crit"] = {
-									["count"] = 0,
-								},
-								["Hit"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Physical"] = {
-							["Details"] = {
-								["Crit"] = {
-									["count"] = 0,
-								},
-								["Hit"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
 					["ManaGainedFrom"] = {
+					},
+					["RunicPowerGained"] = {
 					},
 					["WhoDamaged"] = {
 						["Horde Berserker"] = {
@@ -64716,15 +64742,16 @@ RecountPerCharDB = {
 					},
 					["EnergyGainedFrom"] = {
 					},
-					["RunicPowerGained"] = {
-					},
 					["CCBroken"] = {
+					},
+					["RunicPowerGainedFrom"] = {
 					},
 					["ElementDoneBlock"] = {
 					},
 					["TimeHealing"] = {
 					},
-					["Dispelled"] = 0,
+					["OverHeals"] = {
+					},
 					["WhoHealed"] = {
 						["Angeletee"] = {
 							["Details"] = {
@@ -64739,10 +64766,6 @@ RecountPerCharDB = {
 					},
 					["CCBreak"] = 0,
 					["ElementTakenAbsorb"] = {
-					},
-					["FDamage"] = 0,
-					["EnergyGain"] = 0,
-					["ManaGained"] = {
 					},
 					["PartialAbsorb"] = {
 						["Arcane Trap Effect"] = {
@@ -64770,7 +64793,36 @@ RecountPerCharDB = {
 							["amount"] = 0,
 						},
 					},
-					["ActiveTime"] = 0,
+					["PartialResist"] = {
+						["Arcane Trap Effect"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["War Stomp"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["ManaGained"] = {
+					},
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
 					["Overhealing"] = 0,
 					["TimeSpent"] = {
 						["Horde Cleric"] = {
@@ -64826,39 +64878,13 @@ RecountPerCharDB = {
 					},
 					["Heals"] = {
 					},
-					["Interrupts"] = 0,
+					["ActiveTime"] = 0,
 					["EnergyGained"] = {
 					},
-					["PartialResist"] = {
-						["Arcane Trap Effect"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["War Stomp"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
+					["EnergyGain"] = 0,
 					["Healing"] = 0,
+					["Dispelled"] = 0,
 					["RageGained"] = {
-					},
-					["OverHeals"] = {
 					},
 					["Attacks"] = {
 						["Melee"] = {
@@ -64953,7 +64979,8 @@ RecountPerCharDB = {
 						},
 					},
 					["ManaGain"] = 0,
-					["DOT_Time"] = 0,
+					["HOTs"] = {
+					},
 					["DispelledWho"] = {
 					},
 				},
@@ -64978,31 +65005,14 @@ RecountPerCharDB = {
 					},
 					["DeathCount"] = 0,
 					["HOT_Time"] = 12,
-					["ElementTakenBlock"] = {
-					},
+					["Damage"] = 10244,
 					["RunicPowerGain"] = 0,
 					["ElementTaken"] = {
 						["Physical"] = 403,
 					},
-					["HOTs"] = {
-						["Improved Leader of the Pack"] = {
-							["Details"] = {
-								["Casketbasher <Urgash>"] = {
-									["count"] = 3,
-								},
-							},
-							["amount"] = 3,
-						},
-						["Judgement of Light"] = {
-							["Details"] = {
-								["Casketbasher <Urgash>"] = {
-									["count"] = 9,
-								},
-							},
-							["amount"] = 9,
-						},
+					["DOT_Time"] = 0,
+					["ElementTakenBlock"] = {
 					},
-					["Damage"] = 10244,
 					["ElementDoneAbsorb"] = {
 					},
 					["TimeHeal"] = 0,
@@ -65010,6 +65020,34 @@ RecountPerCharDB = {
 					},
 					["Dispels"] = 0,
 					["PartialBlock"] = {
+					},
+					["ElementHitsDone"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 8,
+								},
+							},
+							["amount"] = 8,
+						},
+						["Physical"] = {
+							["Details"] = {
+								["Crit"] = {
+									["count"] = 1,
+								},
+								["Hit"] = {
+									["count"] = 3,
+								},
+							},
+							["amount"] = 4,
+						},
+					},
+					["FAttacks"] = {
+					},
+					["HealingTaken"] = 403,
+					["ElementDone"] = {
+						["Melee"] = 5312,
+						["Physical"] = 4932,
 					},
 					["DamagedWho"] = {
 						["Azure Scale-Binder"] = {
@@ -65035,37 +65073,9 @@ RecountPerCharDB = {
 							["amount"] = 8552,
 						},
 					},
-					["FAttacks"] = {
-					},
-					["HealingTaken"] = 403,
-					["ElementDone"] = {
-						["Melee"] = 5312,
-						["Physical"] = 4932,
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementHitsDone"] = {
-						["Melee"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 8,
-								},
-							},
-							["amount"] = 8,
-						},
-						["Physical"] = {
-							["Details"] = {
-								["Crit"] = {
-									["count"] = 1,
-								},
-								["Hit"] = {
-									["count"] = 3,
-								},
-							},
-							["amount"] = 4,
-						},
-					},
 					["ManaGainedFrom"] = {
+					},
+					["RunicPowerGained"] = {
 					},
 					["WhoDamaged"] = {
 						["Azure Enforcer"] = {
@@ -65079,15 +65089,40 @@ RecountPerCharDB = {
 					},
 					["EnergyGainedFrom"] = {
 					},
-					["RunicPowerGained"] = {
-					},
 					["CCBroken"] = {
+					},
+					["RunicPowerGainedFrom"] = {
 					},
 					["ElementDoneBlock"] = {
 					},
 					["TimeHealing"] = {
 					},
-					["Dispelled"] = 0,
+					["OverHeals"] = {
+						["Improved Leader of the Pack"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 532,
+									["min"] = 532,
+									["count"] = 1,
+									["amount"] = 532,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 532,
+						},
+						["Judgement of Light"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 532,
+									["min"] = 532,
+									["count"] = 3,
+									["amount"] = 1596,
+								},
+							},
+							["count"] = 3,
+							["amount"] = 1596,
+						},
+					},
 					["WhoHealed"] = {
 						["Bigepapa"] = {
 							["Details"] = {
@@ -65103,10 +65138,6 @@ RecountPerCharDB = {
 					["CCBreak"] = 0,
 					["ElementTakenAbsorb"] = {
 					},
-					["FDamage"] = 0,
-					["EnergyGain"] = 0,
-					["ManaGained"] = {
-					},
 					["PartialAbsorb"] = {
 						["Cleave"] = {
 							["Details"] = {
@@ -65121,7 +65152,24 @@ RecountPerCharDB = {
 							["amount"] = 0,
 						},
 					},
-					["ActiveTime"] = 13.74,
+					["PartialResist"] = {
+						["Cleave"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+					},
+					["ManaGained"] = {
+					},
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
 					["Overhealing"] = 2128,
 					["TimeSpent"] = {
 						["Azure Scale-Binder"] = {
@@ -65155,51 +65203,13 @@ RecountPerCharDB = {
 					},
 					["Heals"] = {
 					},
-					["Interrupts"] = 0,
+					["ActiveTime"] = 13.74,
 					["EnergyGained"] = {
 					},
-					["PartialResist"] = {
-						["Cleave"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 0,
-						},
-					},
+					["EnergyGain"] = 0,
 					["Healing"] = 0,
+					["Dispelled"] = 0,
 					["RageGained"] = {
-					},
-					["OverHeals"] = {
-						["Improved Leader of the Pack"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 532,
-									["min"] = 532,
-									["count"] = 1,
-									["amount"] = 532,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 532,
-						},
-						["Judgement of Light"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 532,
-									["min"] = 532,
-									["count"] = 3,
-									["amount"] = 1596,
-								},
-							},
-							["count"] = 3,
-							["amount"] = 1596,
-						},
 					},
 					["Attacks"] = {
 						["Melee"] = {
@@ -65262,7 +65272,24 @@ RecountPerCharDB = {
 						},
 					},
 					["ManaGain"] = 0,
-					["DOT_Time"] = 0,
+					["HOTs"] = {
+						["Improved Leader of the Pack"] = {
+							["Details"] = {
+								["Casketbasher <Urgash>"] = {
+									["count"] = 3,
+								},
+							},
+							["amount"] = 3,
+						},
+						["Judgement of Light"] = {
+							["Details"] = {
+								["Casketbasher <Urgash>"] = {
+									["count"] = 9,
+								},
+							},
+							["amount"] = 9,
+						},
+					},
 					["DispelledWho"] = {
 					},
 				},
@@ -65314,8 +65341,7 @@ RecountPerCharDB = {
 					},
 					["DeathCount"] = 0,
 					["HOT_Time"] = 48,
-					["ElementTakenBlock"] = {
-					},
+					["Damage"] = 68501,
 					["RunicPowerGain"] = 0,
 					["ElementTaken"] = {
 						["Shadow"] = 161,
@@ -65323,25 +65349,9 @@ RecountPerCharDB = {
 						["Fire"] = 10227,
 						["Arcane"] = 310,
 					},
-					["HOTs"] = {
-						["Improved Leader of the Pack"] = {
-							["Details"] = {
-								["Casketbasher <Urgash>"] = {
-									["count"] = 15,
-								},
-							},
-							["amount"] = 15,
-						},
-						["Judgement of Light"] = {
-							["Details"] = {
-								["Casketbasher <Urgash>"] = {
-									["count"] = 33,
-								},
-							},
-							["amount"] = 33,
-						},
+					["DOT_Time"] = 0,
+					["ElementTakenBlock"] = {
 					},
-					["Damage"] = 68501,
 					["ElementDoneAbsorb"] = {
 					},
 					["TimeHeal"] = 3.12,
@@ -65349,6 +65359,40 @@ RecountPerCharDB = {
 					},
 					["Dispels"] = 0,
 					["PartialBlock"] = {
+					},
+					["ElementHitsDone"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Glancing"] = {
+									["count"] = 6,
+								},
+								["Crit"] = {
+									["count"] = 5,
+								},
+								["Hit"] = {
+									["count"] = 35,
+								},
+							},
+							["amount"] = 46,
+						},
+						["Physical"] = {
+							["Details"] = {
+								["Crit"] = {
+									["count"] = 4,
+								},
+								["Hit"] = {
+									["count"] = 19,
+								},
+							},
+							["amount"] = 23,
+						},
+					},
+					["FAttacks"] = {
+					},
+					["HealingTaken"] = 4969,
+					["ElementDone"] = {
+						["Melee"] = 37857,
+						["Physical"] = 30644,
 					},
 					["DamagedWho"] = {
 						["Grand Magus Telestra"] = {
@@ -65407,43 +65451,9 @@ RecountPerCharDB = {
 							["amount"] = 9302,
 						},
 					},
-					["FAttacks"] = {
-					},
-					["HealingTaken"] = 4969,
-					["ElementDone"] = {
-						["Melee"] = 37857,
-						["Physical"] = 30644,
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementHitsDone"] = {
-						["Melee"] = {
-							["Details"] = {
-								["Glancing"] = {
-									["count"] = 6,
-								},
-								["Crit"] = {
-									["count"] = 5,
-								},
-								["Hit"] = {
-									["count"] = 35,
-								},
-							},
-							["amount"] = 46,
-						},
-						["Physical"] = {
-							["Details"] = {
-								["Crit"] = {
-									["count"] = 4,
-								},
-								["Hit"] = {
-									["count"] = 19,
-								},
-							},
-							["amount"] = 23,
-						},
-					},
 					["ManaGainedFrom"] = {
+					},
+					["RunicPowerGained"] = {
 					},
 					["WhoDamaged"] = {
 						["No One"] = {
@@ -65485,9 +65495,9 @@ RecountPerCharDB = {
 					},
 					["EnergyGainedFrom"] = {
 					},
-					["RunicPowerGained"] = {
-					},
 					["CCBroken"] = {
+					},
+					["RunicPowerGainedFrom"] = {
 					},
 					["ElementDoneBlock"] = {
 						["Melee"] = 40,
@@ -65505,7 +65515,32 @@ RecountPerCharDB = {
 							["amount"] = 3.12,
 						},
 					},
-					["Dispelled"] = 0,
+					["OverHeals"] = {
+						["Improved Leader of the Pack"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 564,
+									["min"] = 225,
+									["count"] = 4,
+									["amount"] = 1885,
+								},
+							},
+							["count"] = 4,
+							["amount"] = 1885,
+						},
+						["Judgement of Light"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 564,
+									["min"] = 265,
+									["count"] = 10,
+									["amount"] = 5309,
+								},
+							},
+							["count"] = 10,
+							["amount"] = 5309,
+						},
+					},
 					["WhoHealed"] = {
 						["Jungee"] = {
 							["Details"] = {
@@ -65550,10 +65585,6 @@ RecountPerCharDB = {
 					},
 					["CCBreak"] = 0,
 					["ElementTakenAbsorb"] = {
-					},
-					["FDamage"] = 0,
-					["EnergyGain"] = 0,
-					["ManaGained"] = {
 					},
 					["PartialAbsorb"] = {
 						["Ice Nova"] = {
@@ -65641,7 +65672,96 @@ RecountPerCharDB = {
 							["amount"] = 0,
 						},
 					},
-					["ActiveTime"] = 72.32999999999998,
+					["PartialResist"] = {
+						["Ice Nova"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+						["Blizzard (DoT)"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 3,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 3,
+							["amount"] = 0,
+						},
+						["Gravity Well"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 23,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 23,
+							["amount"] = 0,
+						},
+						["Scorch"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 3,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 3,
+							["amount"] = 0,
+						},
+						["Frostbolt"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+						["Arcane Trap Effect"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+						["Firebomb"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 0,
+						},
+					},
+					["ManaGained"] = {
+					},
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
 					["Overhealing"] = 7194,
 					["TimeSpent"] = {
 						["Casketbasher <Urgash>"] = {
@@ -65743,123 +65863,13 @@ RecountPerCharDB = {
 							["amount"] = 831,
 						},
 					},
-					["Interrupts"] = 0,
+					["ActiveTime"] = 72.32999999999998,
 					["EnergyGained"] = {
 					},
-					["PartialResist"] = {
-						["Ice Nova"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 0,
-						},
-						["Blizzard (DoT)"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 3,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 3,
-							["amount"] = 0,
-						},
-						["Gravity Well"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 23,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 23,
-							["amount"] = 0,
-						},
-						["Scorch"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 3,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 3,
-							["amount"] = 0,
-						},
-						["Frostbolt"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 0,
-						},
-						["Arcane Trap Effect"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 0,
-						},
-						["Firebomb"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 2,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 2,
-							["amount"] = 0,
-						},
-					},
+					["EnergyGain"] = 0,
 					["Healing"] = 1702,
+					["Dispelled"] = 0,
 					["RageGained"] = {
-					},
-					["OverHeals"] = {
-						["Improved Leader of the Pack"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 564,
-									["min"] = 225,
-									["count"] = 4,
-									["amount"] = 1885,
-								},
-							},
-							["count"] = 4,
-							["amount"] = 1885,
-						},
-						["Judgement of Light"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 564,
-									["min"] = 265,
-									["count"] = 10,
-									["amount"] = 5309,
-								},
-							},
-							["count"] = 10,
-							["amount"] = 5309,
-						},
 					},
 					["Attacks"] = {
 						["Melee"] = {
@@ -65973,7 +65983,24 @@ RecountPerCharDB = {
 						},
 					},
 					["ManaGain"] = 0,
-					["DOT_Time"] = 0,
+					["HOTs"] = {
+						["Improved Leader of the Pack"] = {
+							["Details"] = {
+								["Casketbasher <Urgash>"] = {
+									["count"] = 15,
+								},
+							},
+							["amount"] = 15,
+						},
+						["Judgement of Light"] = {
+							["Details"] = {
+								["Casketbasher <Urgash>"] = {
+									["count"] = 33,
+								},
+							},
+							["amount"] = 33,
+						},
+					},
 					["DispelledWho"] = {
 					},
 				},
@@ -66020,171 +66047,59 @@ RecountPerCharDB = {
 							["amount"] = 9496,
 						},
 					},
-					["ElementDoneAbsorb"] = {
-						["Melee"] = 1902,
-						["Physical"] = 1006,
+					["ElementTakenResist"] = {
+						["Frost"] = 2330,
 					},
-					["Overhealing"] = 38815,
-					["TimeSpent"] = {
-						["Casketbasher <Urgash>"] = {
+					["HOT_Time"] = 276,
+					["ElementHitsTaken"] = {
+						["Physical"] = {
 							["Details"] = {
-								["Judgement of Light"] = {
-									["count"] = 18.19000000000001,
-								},
-								["Improved Leader of the Pack"] = {
-									["count"] = 4.960000000000001,
+								["Hit"] = {
+									["count"] = 2,
 								},
 							},
-							["amount"] = 23.15,
+							["amount"] = 2,
 						},
-						["Crystalline Frayer"] = {
+						["Melee"] = {
 							["Details"] = {
-								["Melee"] = {
+								["Hit"] = {
+									["count"] = 2,
+								},
+							},
+							["amount"] = 2,
+						},
+						["Arcane"] = {
+							["Details"] = {
+								["Hit"] = {
 									["count"] = 12,
 								},
-								["Claw"] = {
-									["count"] = 0.65,
-								},
 							},
-							["amount"] = 12.65,
+							["amount"] = 12,
 						},
-						["Crazed Mana-Wraith"] = {
+						["Frostfire"] = {
 							["Details"] = {
-								["Melee"] = {
-									["count"] = 6.07,
+								["Tick"] = {
+									["count"] = 5,
 								},
-								["Claw"] = {
-									["count"] = 0.21,
+								["Hit"] = {
+									["count"] = 1,
 								},
 							},
-							["amount"] = 6.28,
+							["amount"] = 6,
 						},
-						["Azure Scale-Binder"] = {
+						["Frost"] = {
 							["Details"] = {
-								["Melee"] = {
-									["count"] = 2.74,
+								["Hit"] = {
+									["count"] = 3,
 								},
-								["Claw"] = {
-									["count"] = 1.32,
+								["Tick"] = {
+									["count"] = 25,
 								},
 							},
-							["amount"] = 4.060000000000001,
-						},
-						["Crazed Mana-Surge"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 7.100000000000001,
-								},
-								["Claw"] = {
-									["count"] = 1.38,
-								},
-							},
-							["amount"] = 8.479999999999999,
-						},
-						["Keristrasza"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 15.09,
-								},
-								["Claw"] = {
-									["count"] = 6.59,
-								},
-							},
-							["amount"] = 21.67999999999999,
-						},
-						["Chaotic Rift"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 12.48,
-								},
-								["Claw"] = {
-									["count"] = 1.35,
-								},
-							},
-							["amount"] = 13.83,
-						},
-						["Crystalline Protector"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 43.83,
-								},
-								["Claw"] = {
-									["count"] = 7.23,
-								},
-							},
-							["amount"] = 51.06,
-						},
-						["Azure Warder"] = {
-							["Details"] = {
-								["Gnaw"] = {
-									["count"] = 0.32,
-								},
-								["Claw"] = {
-									["count"] = 1.17,
-								},
-								["Melee"] = {
-									["count"] = 7.079999999999999,
-								},
-							},
-							["amount"] = 8.57,
-						},
-						["Crystalline Keeper"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 10.97,
-								},
-								["Claw"] = {
-									["count"] = 3.370000000000001,
-								},
-							},
-							["amount"] = 14.34,
-						},
-						["Crystalline Tender"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 13.48,
-								},
-								["Claw"] = {
-									["count"] = 0.5600000000000001,
-								},
-							},
-							["amount"] = 14.04,
-						},
-						["Azure Enforcer"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 12.26,
-								},
-								["Claw"] = {
-									["count"] = 1.37,
-								},
-							},
-							["amount"] = 13.63,
-						},
-						["Anomalus"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 19.33,
-								},
-								["Claw"] = {
-									["count"] = 4.859999999999999,
-								},
-							},
-							["amount"] = 24.19,
-						},
-						["Ormorok the Tree-Shaper"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 16.39,
-								},
-								["Claw"] = {
-									["count"] = 2.85,
-								},
-							},
-							["amount"] = 19.24,
+							["amount"] = 28,
 						},
 					},
-					["WhoHealed"] = {
+					["HealedWho"] = {
 						["Casketbasher <Urgash>"] = {
 							["Details"] = {
 								["Judgement of Light"] = {
@@ -66196,25 +66111,10 @@ RecountPerCharDB = {
 							},
 							["amount"] = 10129,
 						},
-						["Bigepapa"] = {
-							["Details"] = {
-								["Glyph of Holy Light"] = {
-									["count"] = 920,
-								},
-							},
-							["amount"] = 920,
-						},
-						["Angeletee"] = {
-							["Details"] = {
-								["Divine Storm"] = {
-									["count"] = 355,
-								},
-							},
-							["amount"] = 355,
-						},
 					},
-					["ElementTakenResist"] = {
-						["Frost"] = 2330,
+					["ElementDoneAbsorb"] = {
+						["Melee"] = 1902,
+						["Physical"] = 1006,
 					},
 					["PartialResist"] = {
 						["Crystal Bark"] = {
@@ -66320,7 +66220,6 @@ RecountPerCharDB = {
 							["amount"] = 0,
 						},
 					},
-					["HOT_Time"] = 276,
 					["FDamagedWho"] = {
 						["Crystalline Frayer"] = {
 							["Details"] = {
@@ -66331,6 +66230,7 @@ RecountPerCharDB = {
 							["amount"] = 1055,
 						},
 					},
+					["Overhealing"] = 38815,
 					["ActiveTime"] = 235.1999999999999,
 					["WhoDamaged"] = {
 						["No One"] = {
@@ -66414,7 +66314,6 @@ RecountPerCharDB = {
 						},
 					},
 					["Damage"] = 224805,
-					["FDamage"] = 1055,
 					["Heals"] = {
 						["Judgement of Light"] = {
 							["Details"] = {
@@ -66441,6 +66340,7 @@ RecountPerCharDB = {
 							["amount"] = 1676,
 						},
 					},
+					["TimeHeal"] = 23.15,
 					["ElementHitsDone"] = {
 						["Melee"] = {
 							["Details"] = {
@@ -66761,6 +66661,17 @@ RecountPerCharDB = {
 							},
 							["amount"] = 52061,
 						},
+						["Crystalline Keeper"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 11235,
+								},
+								["Claw"] = {
+									["count"] = 6765,
+								},
+							},
+							["amount"] = 18000,
+						},
 						["Azure Warder"] = {
 							["Details"] = {
 								["Gnaw"] = {
@@ -66774,17 +66685,6 @@ RecountPerCharDB = {
 								},
 							},
 							["amount"] = 8213,
-						},
-						["Crystalline Keeper"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 11235,
-								},
-								["Claw"] = {
-									["count"] = 6765,
-								},
-							},
-							["amount"] = 18000,
 						},
 						["Crystalline Tender"] = {
 							["Details"] = {
@@ -66910,6 +66810,17 @@ RecountPerCharDB = {
 							},
 							["amount"] = 51.06,
 						},
+						["Crystalline Keeper"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 10.97,
+								},
+								["Claw"] = {
+									["count"] = 3.370000000000001,
+								},
+							},
+							["amount"] = 14.34,
+						},
 						["Azure Warder"] = {
 							["Details"] = {
 								["Gnaw"] = {
@@ -66923,17 +66834,6 @@ RecountPerCharDB = {
 								},
 							},
 							["amount"] = 8.57,
-						},
-						["Crystalline Keeper"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 10.97,
-								},
-								["Claw"] = {
-									["count"] = 3.370000000000001,
-								},
-							},
-							["amount"] = 14.34,
 						},
 						["Crystalline Tender"] = {
 							["Details"] = {
@@ -66980,56 +66880,8 @@ RecountPerCharDB = {
 							["amount"] = 19.24,
 						},
 					},
-					["TimeHeal"] = 23.15,
-					["ElementHitsTaken"] = {
-						["Physical"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 2,
-								},
-							},
-							["amount"] = 2,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 2,
-								},
-							},
-							["amount"] = 2,
-						},
-						["Arcane"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 12,
-								},
-							},
-							["amount"] = 12,
-						},
-						["Frostfire"] = {
-							["Details"] = {
-								["Tick"] = {
-									["count"] = 5,
-								},
-								["Hit"] = {
-									["count"] = 1,
-								},
-							},
-							["amount"] = 6,
-						},
-						["Frost"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 3,
-								},
-								["Tick"] = {
-									["count"] = 25,
-								},
-							},
-							["amount"] = 28,
-						},
-					},
-					["HealedWho"] = {
+					["FDamage"] = 1055,
+					["WhoHealed"] = {
 						["Casketbasher <Urgash>"] = {
 							["Details"] = {
 								["Judgement of Light"] = {
@@ -67040,6 +66892,181 @@ RecountPerCharDB = {
 								},
 							},
 							["amount"] = 10129,
+						},
+						["Bigepapa"] = {
+							["Details"] = {
+								["Glyph of Holy Light"] = {
+									["count"] = 920,
+								},
+							},
+							["amount"] = 920,
+						},
+						["Angeletee"] = {
+							["Details"] = {
+								["Divine Storm"] = {
+									["count"] = 355,
+								},
+							},
+							["amount"] = 355,
+						},
+					},
+					["TimeSpent"] = {
+						["Casketbasher <Urgash>"] = {
+							["Details"] = {
+								["Judgement of Light"] = {
+									["count"] = 18.19000000000001,
+								},
+								["Improved Leader of the Pack"] = {
+									["count"] = 4.960000000000001,
+								},
+							},
+							["amount"] = 23.15,
+						},
+						["Crystalline Frayer"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 12,
+								},
+								["Claw"] = {
+									["count"] = 0.65,
+								},
+							},
+							["amount"] = 12.65,
+						},
+						["Crazed Mana-Wraith"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 6.07,
+								},
+								["Claw"] = {
+									["count"] = 0.21,
+								},
+							},
+							["amount"] = 6.28,
+						},
+						["Azure Scale-Binder"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 2.74,
+								},
+								["Claw"] = {
+									["count"] = 1.32,
+								},
+							},
+							["amount"] = 4.060000000000001,
+						},
+						["Crazed Mana-Surge"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 7.100000000000001,
+								},
+								["Claw"] = {
+									["count"] = 1.38,
+								},
+							},
+							["amount"] = 8.479999999999999,
+						},
+						["Keristrasza"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 15.09,
+								},
+								["Claw"] = {
+									["count"] = 6.59,
+								},
+							},
+							["amount"] = 21.67999999999999,
+						},
+						["Chaotic Rift"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 12.48,
+								},
+								["Claw"] = {
+									["count"] = 1.35,
+								},
+							},
+							["amount"] = 13.83,
+						},
+						["Crystalline Protector"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 43.83,
+								},
+								["Claw"] = {
+									["count"] = 7.23,
+								},
+							},
+							["amount"] = 51.06,
+						},
+						["Crystalline Keeper"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 10.97,
+								},
+								["Claw"] = {
+									["count"] = 3.370000000000001,
+								},
+							},
+							["amount"] = 14.34,
+						},
+						["Azure Warder"] = {
+							["Details"] = {
+								["Gnaw"] = {
+									["count"] = 0.32,
+								},
+								["Claw"] = {
+									["count"] = 1.17,
+								},
+								["Melee"] = {
+									["count"] = 7.079999999999999,
+								},
+							},
+							["amount"] = 8.57,
+						},
+						["Crystalline Tender"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 13.48,
+								},
+								["Claw"] = {
+									["count"] = 0.5600000000000001,
+								},
+							},
+							["amount"] = 14.04,
+						},
+						["Azure Enforcer"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 12.26,
+								},
+								["Claw"] = {
+									["count"] = 1.37,
+								},
+							},
+							["amount"] = 13.63,
+						},
+						["Anomalus"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 19.33,
+								},
+								["Claw"] = {
+									["count"] = 4.859999999999999,
+								},
+							},
+							["amount"] = 24.19,
+						},
+						["Ormorok the Tree-Shaper"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 16.39,
+								},
+								["Claw"] = {
+									["count"] = 2.85,
+								},
+							},
+							["amount"] = 19.24,
 						},
 					},
 				},
@@ -67086,171 +67113,59 @@ RecountPerCharDB = {
 							["amount"] = 9496,
 						},
 					},
-					["ElementDoneAbsorb"] = {
-						["Melee"] = 1902,
-						["Physical"] = 1006,
+					["ElementTakenResist"] = {
+						["Frost"] = 2330,
 					},
-					["Overhealing"] = 38815,
-					["TimeSpent"] = {
-						["Casketbasher <Urgash>"] = {
+					["HOT_Time"] = 276,
+					["ElementHitsTaken"] = {
+						["Physical"] = {
 							["Details"] = {
-								["Judgement of Light"] = {
-									["count"] = 18.19000000000001,
-								},
-								["Improved Leader of the Pack"] = {
-									["count"] = 4.960000000000001,
+								["Hit"] = {
+									["count"] = 2,
 								},
 							},
-							["amount"] = 23.15,
+							["amount"] = 2,
 						},
-						["Crystalline Frayer"] = {
+						["Melee"] = {
 							["Details"] = {
-								["Melee"] = {
+								["Hit"] = {
+									["count"] = 2,
+								},
+							},
+							["amount"] = 2,
+						},
+						["Arcane"] = {
+							["Details"] = {
+								["Hit"] = {
 									["count"] = 12,
 								},
-								["Claw"] = {
-									["count"] = 0.65,
-								},
 							},
-							["amount"] = 12.65,
+							["amount"] = 12,
 						},
-						["Crazed Mana-Wraith"] = {
+						["Frostfire"] = {
 							["Details"] = {
-								["Melee"] = {
-									["count"] = 6.07,
+								["Tick"] = {
+									["count"] = 5,
 								},
-								["Claw"] = {
-									["count"] = 0.21,
+								["Hit"] = {
+									["count"] = 1,
 								},
 							},
-							["amount"] = 6.28,
+							["amount"] = 6,
 						},
-						["Azure Scale-Binder"] = {
+						["Frost"] = {
 							["Details"] = {
-								["Melee"] = {
-									["count"] = 2.74,
+								["Hit"] = {
+									["count"] = 3,
 								},
-								["Claw"] = {
-									["count"] = 1.32,
+								["Tick"] = {
+									["count"] = 25,
 								},
 							},
-							["amount"] = 4.060000000000001,
-						},
-						["Crazed Mana-Surge"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 7.100000000000001,
-								},
-								["Claw"] = {
-									["count"] = 1.38,
-								},
-							},
-							["amount"] = 8.479999999999999,
-						},
-						["Keristrasza"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 15.09,
-								},
-								["Claw"] = {
-									["count"] = 6.59,
-								},
-							},
-							["amount"] = 21.67999999999999,
-						},
-						["Chaotic Rift"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 12.48,
-								},
-								["Claw"] = {
-									["count"] = 1.35,
-								},
-							},
-							["amount"] = 13.83,
-						},
-						["Crystalline Protector"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 43.83,
-								},
-								["Claw"] = {
-									["count"] = 7.23,
-								},
-							},
-							["amount"] = 51.06,
-						},
-						["Azure Warder"] = {
-							["Details"] = {
-								["Gnaw"] = {
-									["count"] = 0.32,
-								},
-								["Claw"] = {
-									["count"] = 1.17,
-								},
-								["Melee"] = {
-									["count"] = 7.079999999999999,
-								},
-							},
-							["amount"] = 8.57,
-						},
-						["Crystalline Keeper"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 10.97,
-								},
-								["Claw"] = {
-									["count"] = 3.370000000000001,
-								},
-							},
-							["amount"] = 14.34,
-						},
-						["Crystalline Tender"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 13.48,
-								},
-								["Claw"] = {
-									["count"] = 0.5600000000000001,
-								},
-							},
-							["amount"] = 14.04,
-						},
-						["Azure Enforcer"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 12.26,
-								},
-								["Claw"] = {
-									["count"] = 1.37,
-								},
-							},
-							["amount"] = 13.63,
-						},
-						["Anomalus"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 19.33,
-								},
-								["Claw"] = {
-									["count"] = 4.859999999999999,
-								},
-							},
-							["amount"] = 24.19,
-						},
-						["Ormorok the Tree-Shaper"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 16.39,
-								},
-								["Claw"] = {
-									["count"] = 2.85,
-								},
-							},
-							["amount"] = 19.24,
+							["amount"] = 28,
 						},
 					},
-					["WhoHealed"] = {
+					["HealedWho"] = {
 						["Casketbasher <Urgash>"] = {
 							["Details"] = {
 								["Judgement of Light"] = {
@@ -67262,25 +67177,10 @@ RecountPerCharDB = {
 							},
 							["amount"] = 10129,
 						},
-						["Bigepapa"] = {
-							["Details"] = {
-								["Glyph of Holy Light"] = {
-									["count"] = 920,
-								},
-							},
-							["amount"] = 920,
-						},
-						["Angeletee"] = {
-							["Details"] = {
-								["Divine Storm"] = {
-									["count"] = 355,
-								},
-							},
-							["amount"] = 355,
-						},
 					},
-					["ElementTakenResist"] = {
-						["Frost"] = 2330,
+					["ElementDoneAbsorb"] = {
+						["Melee"] = 1902,
+						["Physical"] = 1006,
 					},
 					["PartialResist"] = {
 						["Crystal Bark"] = {
@@ -67386,7 +67286,6 @@ RecountPerCharDB = {
 							["amount"] = 0,
 						},
 					},
-					["HOT_Time"] = 276,
 					["FDamagedWho"] = {
 						["Crystalline Frayer"] = {
 							["Details"] = {
@@ -67397,6 +67296,7 @@ RecountPerCharDB = {
 							["amount"] = 1055,
 						},
 					},
+					["Overhealing"] = 38815,
 					["ActiveTime"] = 235.1999999999999,
 					["WhoDamaged"] = {
 						["No One"] = {
@@ -67480,7 +67380,6 @@ RecountPerCharDB = {
 						},
 					},
 					["Damage"] = 224805,
-					["FDamage"] = 1055,
 					["Heals"] = {
 						["Judgement of Light"] = {
 							["Details"] = {
@@ -67507,6 +67406,7 @@ RecountPerCharDB = {
 							["amount"] = 1676,
 						},
 					},
+					["TimeHeal"] = 23.15,
 					["ElementHitsDone"] = {
 						["Melee"] = {
 							["Details"] = {
@@ -67827,6 +67727,17 @@ RecountPerCharDB = {
 							},
 							["amount"] = 52061,
 						},
+						["Crystalline Keeper"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 11235,
+								},
+								["Claw"] = {
+									["count"] = 6765,
+								},
+							},
+							["amount"] = 18000,
+						},
 						["Azure Warder"] = {
 							["Details"] = {
 								["Gnaw"] = {
@@ -67840,17 +67751,6 @@ RecountPerCharDB = {
 								},
 							},
 							["amount"] = 8213,
-						},
-						["Crystalline Keeper"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 11235,
-								},
-								["Claw"] = {
-									["count"] = 6765,
-								},
-							},
-							["amount"] = 18000,
 						},
 						["Crystalline Tender"] = {
 							["Details"] = {
@@ -67976,6 +67876,17 @@ RecountPerCharDB = {
 							},
 							["amount"] = 51.06,
 						},
+						["Crystalline Keeper"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 10.97,
+								},
+								["Claw"] = {
+									["count"] = 3.370000000000001,
+								},
+							},
+							["amount"] = 14.34,
+						},
 						["Azure Warder"] = {
 							["Details"] = {
 								["Gnaw"] = {
@@ -67989,17 +67900,6 @@ RecountPerCharDB = {
 								},
 							},
 							["amount"] = 8.57,
-						},
-						["Crystalline Keeper"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 10.97,
-								},
-								["Claw"] = {
-									["count"] = 3.370000000000001,
-								},
-							},
-							["amount"] = 14.34,
 						},
 						["Crystalline Tender"] = {
 							["Details"] = {
@@ -68046,56 +67946,8 @@ RecountPerCharDB = {
 							["amount"] = 19.24,
 						},
 					},
-					["TimeHeal"] = 23.15,
-					["ElementHitsTaken"] = {
-						["Physical"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 2,
-								},
-							},
-							["amount"] = 2,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 2,
-								},
-							},
-							["amount"] = 2,
-						},
-						["Arcane"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 12,
-								},
-							},
-							["amount"] = 12,
-						},
-						["Frostfire"] = {
-							["Details"] = {
-								["Tick"] = {
-									["count"] = 5,
-								},
-								["Hit"] = {
-									["count"] = 1,
-								},
-							},
-							["amount"] = 6,
-						},
-						["Frost"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 3,
-								},
-								["Tick"] = {
-									["count"] = 25,
-								},
-							},
-							["amount"] = 28,
-						},
-					},
-					["HealedWho"] = {
+					["FDamage"] = 1055,
+					["WhoHealed"] = {
 						["Casketbasher <Urgash>"] = {
 							["Details"] = {
 								["Judgement of Light"] = {
@@ -68106,6 +67958,181 @@ RecountPerCharDB = {
 								},
 							},
 							["amount"] = 10129,
+						},
+						["Bigepapa"] = {
+							["Details"] = {
+								["Glyph of Holy Light"] = {
+									["count"] = 920,
+								},
+							},
+							["amount"] = 920,
+						},
+						["Angeletee"] = {
+							["Details"] = {
+								["Divine Storm"] = {
+									["count"] = 355,
+								},
+							},
+							["amount"] = 355,
+						},
+					},
+					["TimeSpent"] = {
+						["Casketbasher <Urgash>"] = {
+							["Details"] = {
+								["Judgement of Light"] = {
+									["count"] = 18.19000000000001,
+								},
+								["Improved Leader of the Pack"] = {
+									["count"] = 4.960000000000001,
+								},
+							},
+							["amount"] = 23.15,
+						},
+						["Crystalline Frayer"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 12,
+								},
+								["Claw"] = {
+									["count"] = 0.65,
+								},
+							},
+							["amount"] = 12.65,
+						},
+						["Crazed Mana-Wraith"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 6.07,
+								},
+								["Claw"] = {
+									["count"] = 0.21,
+								},
+							},
+							["amount"] = 6.28,
+						},
+						["Azure Scale-Binder"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 2.74,
+								},
+								["Claw"] = {
+									["count"] = 1.32,
+								},
+							},
+							["amount"] = 4.060000000000001,
+						},
+						["Crazed Mana-Surge"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 7.100000000000001,
+								},
+								["Claw"] = {
+									["count"] = 1.38,
+								},
+							},
+							["amount"] = 8.479999999999999,
+						},
+						["Keristrasza"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 15.09,
+								},
+								["Claw"] = {
+									["count"] = 6.59,
+								},
+							},
+							["amount"] = 21.67999999999999,
+						},
+						["Chaotic Rift"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 12.48,
+								},
+								["Claw"] = {
+									["count"] = 1.35,
+								},
+							},
+							["amount"] = 13.83,
+						},
+						["Crystalline Protector"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 43.83,
+								},
+								["Claw"] = {
+									["count"] = 7.23,
+								},
+							},
+							["amount"] = 51.06,
+						},
+						["Crystalline Keeper"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 10.97,
+								},
+								["Claw"] = {
+									["count"] = 3.370000000000001,
+								},
+							},
+							["amount"] = 14.34,
+						},
+						["Azure Warder"] = {
+							["Details"] = {
+								["Gnaw"] = {
+									["count"] = 0.32,
+								},
+								["Claw"] = {
+									["count"] = 1.17,
+								},
+								["Melee"] = {
+									["count"] = 7.079999999999999,
+								},
+							},
+							["amount"] = 8.57,
+						},
+						["Crystalline Tender"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 13.48,
+								},
+								["Claw"] = {
+									["count"] = 0.5600000000000001,
+								},
+							},
+							["amount"] = 14.04,
+						},
+						["Azure Enforcer"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 12.26,
+								},
+								["Claw"] = {
+									["count"] = 1.37,
+								},
+							},
+							["amount"] = 13.63,
+						},
+						["Anomalus"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 19.33,
+								},
+								["Claw"] = {
+									["count"] = 4.859999999999999,
+								},
+							},
+							["amount"] = 24.19,
+						},
+						["Ormorok the Tree-Shaper"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 16.39,
+								},
+								["Claw"] = {
+									["count"] = 2.85,
+								},
+							},
+							["amount"] = 19.24,
 						},
 					},
 				},
@@ -68153,278 +68180,78 @@ RecountPerCharDB = {
 							["amount"] = 14649,
 						},
 					},
-					["ElementDoneAbsorb"] = {
-						["Melee"] = 6359,
-						["Physical"] = 2153,
+					["ElementTakenResist"] = {
+						["Frost"] = 2330,
 					},
-					["Overhealing"] = 60239,
-					["TimeSpent"] = {
-						["Crystalline Frayer"] = {
+					["HOT_Time"] = 420,
+					["ElementHitsTaken"] = {
+						["Frost"] = {
 							["Details"] = {
-								["Melee"] = {
-									["count"] = 12,
+								["Tick"] = {
+									["count"] = 28,
 								},
-								["Claw"] = {
-									["count"] = 0.65,
+								["Hit"] = {
+									["count"] = 11,
 								},
 							},
-							["amount"] = 12.65,
+							["amount"] = 39,
 						},
-						["Azure Scale-Binder"] = {
+						["Melee"] = {
 							["Details"] = {
-								["Melee"] = {
-									["count"] = 6.24,
-								},
-								["Claw"] = {
-									["count"] = 1.8,
-								},
-							},
-							["amount"] = 8.040000000000001,
-						},
-						["Mage Hunter Initiate"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 12.78,
-								},
-								["Claw"] = {
-									["count"] = 0.5599999999999999,
-								},
-							},
-							["amount"] = 13.34,
-						},
-						["Mage Hunter Ascendant"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 24.93,
-								},
-								["Claw"] = {
-									["count"] = 2.26,
-								},
-							},
-							["amount"] = 27.18999999999999,
-						},
-						["Azure Warder"] = {
-							["Details"] = {
-								["Gnaw"] = {
-									["count"] = 1.2,
-								},
-								["Claw"] = {
-									["count"] = 2.05,
-								},
-								["Melee"] = {
-									["count"] = 17.24,
-								},
-							},
-							["amount"] = 20.49000000000001,
-						},
-						["Steward"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 6.789999999999999,
-								},
-								["Claw"] = {
-									["count"] = 0.94,
-								},
-							},
-							["amount"] = 7.73,
-						},
-						["Crystalline Protector"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 43.83,
-								},
-								["Claw"] = {
-									["count"] = 7.23,
-								},
-							},
-							["amount"] = 51.06,
-						},
-						["Commander Kolurg"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 19.21,
-								},
-								["Claw"] = {
-									["count"] = 4.98,
-								},
-							},
-							["amount"] = 24.19,
-						},
-						["Ormorok the Tree-Shaper"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 16.39,
-								},
-								["Claw"] = {
-									["count"] = 2.85,
-								},
-							},
-							["amount"] = 19.24,
-						},
-						["Casketbasher <Urgash>"] = {
-							["Details"] = {
-								["Judgement of Light"] = {
-									["count"] = 28.51000000000001,
-								},
-								["Improved Leader of the Pack"] = {
-									["count"] = 8.34,
-								},
-							},
-							["amount"] = 36.85,
-						},
-						["Grand Magus Telestra"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 27.13,
-								},
-								["Claw"] = {
-									["count"] = 10.33,
-								},
-							},
-							["amount"] = 37.46,
-						},
-						["Mage Slayer"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 18.77,
-								},
-								["Claw"] = {
+								["Hit"] = {
 									["count"] = 2,
 								},
 							},
-							["amount"] = 20.77,
+							["amount"] = 2,
 						},
-						["Crazed Mana-Wraith"] = {
+						["Arcane"] = {
 							["Details"] = {
-								["Melee"] = {
-									["count"] = 6.07,
-								},
-								["Claw"] = {
-									["count"] = 0.21,
+								["Hit"] = {
+									["count"] = 14,
 								},
 							},
-							["amount"] = 6.28,
+							["amount"] = 14,
 						},
-						["Chaotic Rift"] = {
+						["Frostfire"] = {
 							["Details"] = {
-								["Melee"] = {
-									["count"] = 12.48,
+								["Tick"] = {
+									["count"] = 5,
 								},
-								["Claw"] = {
-									["count"] = 1.35,
+								["Hit"] = {
+									["count"] = 1,
 								},
 							},
-							["amount"] = 13.83,
+							["amount"] = 6,
 						},
-						["Keristrasza"] = {
+						["Fire"] = {
 							["Details"] = {
-								["Melee"] = {
-									["count"] = 15.09,
-								},
-								["Claw"] = {
-									["count"] = 6.59,
+								["Hit"] = {
+									["count"] = 5,
 								},
 							},
-							["amount"] = 21.67999999999999,
+							["amount"] = 5,
 						},
-						["Crystalline Keeper"] = {
+						["Shadow"] = {
 							["Details"] = {
-								["Melee"] = {
-									["count"] = 10.97,
-								},
-								["Claw"] = {
-									["count"] = 3.370000000000001,
+								["Hit"] = {
+									["count"] = 23,
 								},
 							},
-							["amount"] = 14.34,
+							["amount"] = 23,
 						},
-						["Crystalline Tender"] = {
+						["Physical"] = {
 							["Details"] = {
-								["Melee"] = {
-									["count"] = 13.48,
+								["Immune"] = {
+									["count"] = 1,
 								},
-								["Claw"] = {
-									["count"] = 0.5600000000000001,
+								["Hit"] = {
+									["count"] = 8,
 								},
 							},
-							["amount"] = 14.04,
-						},
-						["Anomalus"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 19.33,
-								},
-								["Claw"] = {
-									["count"] = 4.859999999999999,
-								},
-							},
-							["amount"] = 24.19,
-						},
-						["Crazed Mana-Surge"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 7.100000000000001,
-								},
-								["Claw"] = {
-									["count"] = 1.38,
-								},
-							},
-							["amount"] = 8.479999999999999,
-						},
-						["Horde Ranger"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 25.32,
-								},
-								["Claw"] = {
-									["count"] = 1.83,
-								},
-							},
-							["amount"] = 27.15000000000001,
-						},
-						["Azure Enforcer"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 21.44,
-								},
-								["Claw"] = {
-									["count"] = 1.95,
-								},
-							},
-							["amount"] = 23.39,
-						},
-						["Horde Berserker"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 6.129999999999999,
-								},
-								["Claw"] = {
-									["count"] = 1.11,
-								},
-							},
-							["amount"] = 7.24,
-						},
-						["Horde Cleric"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 8.34,
-								},
-								["Claw"] = {
-									["count"] = 1.45,
-								},
-							},
-							["amount"] = 9.790000000000001,
+							["amount"] = 9,
 						},
 					},
-					["WhoHealed"] = {
-						["Jungee"] = {
-							["Details"] = {
-								["Rune Tap"] = {
-									["count"] = 2662,
-								},
-							},
-							["amount"] = 2662,
-						},
+					["HealedWho"] = {
 						["Casketbasher <Urgash>"] = {
 							["Details"] = {
 								["Judgement of Light"] = {
@@ -68436,25 +68263,10 @@ RecountPerCharDB = {
 							},
 							["amount"] = 15489,
 						},
-						["Bigepapa"] = {
-							["Details"] = {
-								["Glyph of Holy Light"] = {
-									["count"] = 6721,
-								},
-							},
-							["amount"] = 6721,
-						},
-						["Angeletee"] = {
-							["Details"] = {
-								["Divine Storm"] = {
-									["count"] = 1768,
-								},
-							},
-							["amount"] = 1768,
-						},
 					},
-					["ElementTakenResist"] = {
-						["Frost"] = 2330,
+					["ElementDoneAbsorb"] = {
+						["Melee"] = 6359,
+						["Physical"] = 2153,
 					},
 					["PartialResist"] = {
 						["Cleave"] = {
@@ -68692,7 +68504,6 @@ RecountPerCharDB = {
 							["amount"] = 0,
 						},
 					},
-					["HOT_Time"] = 420,
 					["FDamagedWho"] = {
 						["Crystalline Frayer"] = {
 							["Details"] = {
@@ -68703,6 +68514,7 @@ RecountPerCharDB = {
 							["amount"] = 1055,
 						},
 					},
+					["Overhealing"] = 60239,
 					["ActiveTime"] = 449.42,
 					["WhoDamaged"] = {
 						["Grand Magus Telestra"] = {
@@ -68819,8 +68631,8 @@ RecountPerCharDB = {
 						["Frost"] = 8674,
 						["Melee"] = 471,
 						["Arcane"] = 3217,
-						["Fire"] = 10227,
 						["Frostfire"] = 1178,
+						["Fire"] = 10227,
 						["Shadow"] = 161,
 						["Physical"] = 2862,
 					},
@@ -68843,7 +68655,6 @@ RecountPerCharDB = {
 						},
 					},
 					["Damage"] = 419073,
-					["FDamage"] = 1055,
 					["Heals"] = {
 						["Judgement of Light"] = {
 							["Details"] = {
@@ -68870,6 +68681,7 @@ RecountPerCharDB = {
 							["amount"] = 3759,
 						},
 					},
+					["TimeHeal"] = 36.85,
 					["ElementHitsDone"] = {
 						["Melee"] = {
 							["Details"] = {
@@ -69751,75 +69563,16 @@ RecountPerCharDB = {
 							["amount"] = 9.790000000000001,
 						},
 					},
-					["TimeHeal"] = 36.85,
-					["ElementHitsTaken"] = {
-						["Frost"] = {
+					["FDamage"] = 1055,
+					["WhoHealed"] = {
+						["Jungee"] = {
 							["Details"] = {
-								["Tick"] = {
-									["count"] = 28,
-								},
-								["Hit"] = {
-									["count"] = 11,
+								["Rune Tap"] = {
+									["count"] = 2662,
 								},
 							},
-							["amount"] = 39,
+							["amount"] = 2662,
 						},
-						["Melee"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 2,
-								},
-							},
-							["amount"] = 2,
-						},
-						["Arcane"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 14,
-								},
-							},
-							["amount"] = 14,
-						},
-						["Fire"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 5,
-								},
-							},
-							["amount"] = 5,
-						},
-						["Frostfire"] = {
-							["Details"] = {
-								["Tick"] = {
-									["count"] = 5,
-								},
-								["Hit"] = {
-									["count"] = 1,
-								},
-							},
-							["amount"] = 6,
-						},
-						["Shadow"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 23,
-								},
-							},
-							["amount"] = 23,
-						},
-						["Physical"] = {
-							["Details"] = {
-								["Immune"] = {
-									["count"] = 1,
-								},
-								["Hit"] = {
-									["count"] = 8,
-								},
-							},
-							["amount"] = 9,
-						},
-					},
-					["HealedWho"] = {
 						["Casketbasher <Urgash>"] = {
 							["Details"] = {
 								["Judgement of Light"] = {
@@ -69830,6 +69583,280 @@ RecountPerCharDB = {
 								},
 							},
 							["amount"] = 15489,
+						},
+						["Bigepapa"] = {
+							["Details"] = {
+								["Glyph of Holy Light"] = {
+									["count"] = 6721,
+								},
+							},
+							["amount"] = 6721,
+						},
+						["Angeletee"] = {
+							["Details"] = {
+								["Divine Storm"] = {
+									["count"] = 1768,
+								},
+							},
+							["amount"] = 1768,
+						},
+					},
+					["TimeSpent"] = {
+						["Crystalline Frayer"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 12,
+								},
+								["Claw"] = {
+									["count"] = 0.65,
+								},
+							},
+							["amount"] = 12.65,
+						},
+						["Azure Scale-Binder"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 6.24,
+								},
+								["Claw"] = {
+									["count"] = 1.8,
+								},
+							},
+							["amount"] = 8.040000000000001,
+						},
+						["Mage Hunter Initiate"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 12.78,
+								},
+								["Claw"] = {
+									["count"] = 0.5599999999999999,
+								},
+							},
+							["amount"] = 13.34,
+						},
+						["Mage Hunter Ascendant"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 24.93,
+								},
+								["Claw"] = {
+									["count"] = 2.26,
+								},
+							},
+							["amount"] = 27.18999999999999,
+						},
+						["Azure Warder"] = {
+							["Details"] = {
+								["Gnaw"] = {
+									["count"] = 1.2,
+								},
+								["Claw"] = {
+									["count"] = 2.05,
+								},
+								["Melee"] = {
+									["count"] = 17.24,
+								},
+							},
+							["amount"] = 20.49000000000001,
+						},
+						["Steward"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 6.789999999999999,
+								},
+								["Claw"] = {
+									["count"] = 0.94,
+								},
+							},
+							["amount"] = 7.73,
+						},
+						["Crystalline Protector"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 43.83,
+								},
+								["Claw"] = {
+									["count"] = 7.23,
+								},
+							},
+							["amount"] = 51.06,
+						},
+						["Commander Kolurg"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 19.21,
+								},
+								["Claw"] = {
+									["count"] = 4.98,
+								},
+							},
+							["amount"] = 24.19,
+						},
+						["Ormorok the Tree-Shaper"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 16.39,
+								},
+								["Claw"] = {
+									["count"] = 2.85,
+								},
+							},
+							["amount"] = 19.24,
+						},
+						["Casketbasher <Urgash>"] = {
+							["Details"] = {
+								["Judgement of Light"] = {
+									["count"] = 28.51000000000001,
+								},
+								["Improved Leader of the Pack"] = {
+									["count"] = 8.34,
+								},
+							},
+							["amount"] = 36.85,
+						},
+						["Grand Magus Telestra"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 27.13,
+								},
+								["Claw"] = {
+									["count"] = 10.33,
+								},
+							},
+							["amount"] = 37.46,
+						},
+						["Mage Slayer"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 18.77,
+								},
+								["Claw"] = {
+									["count"] = 2,
+								},
+							},
+							["amount"] = 20.77,
+						},
+						["Crazed Mana-Wraith"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 6.07,
+								},
+								["Claw"] = {
+									["count"] = 0.21,
+								},
+							},
+							["amount"] = 6.28,
+						},
+						["Chaotic Rift"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 12.48,
+								},
+								["Claw"] = {
+									["count"] = 1.35,
+								},
+							},
+							["amount"] = 13.83,
+						},
+						["Keristrasza"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 15.09,
+								},
+								["Claw"] = {
+									["count"] = 6.59,
+								},
+							},
+							["amount"] = 21.67999999999999,
+						},
+						["Crystalline Keeper"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 10.97,
+								},
+								["Claw"] = {
+									["count"] = 3.370000000000001,
+								},
+							},
+							["amount"] = 14.34,
+						},
+						["Crystalline Tender"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 13.48,
+								},
+								["Claw"] = {
+									["count"] = 0.5600000000000001,
+								},
+							},
+							["amount"] = 14.04,
+						},
+						["Anomalus"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 19.33,
+								},
+								["Claw"] = {
+									["count"] = 4.859999999999999,
+								},
+							},
+							["amount"] = 24.19,
+						},
+						["Crazed Mana-Surge"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 7.100000000000001,
+								},
+								["Claw"] = {
+									["count"] = 1.38,
+								},
+							},
+							["amount"] = 8.479999999999999,
+						},
+						["Horde Ranger"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 25.32,
+								},
+								["Claw"] = {
+									["count"] = 1.83,
+								},
+							},
+							["amount"] = 27.15000000000001,
+						},
+						["Azure Enforcer"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 21.44,
+								},
+								["Claw"] = {
+									["count"] = 1.95,
+								},
+							},
+							["amount"] = 23.39,
+						},
+						["Horde Berserker"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 6.129999999999999,
+								},
+								["Claw"] = {
+									["count"] = 1.11,
+								},
+							},
+							["amount"] = 7.24,
+						},
+						["Horde Cleric"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 8.34,
+								},
+								["Claw"] = {
+									["count"] = 1.45,
+								},
+							},
+							["amount"] = 9.790000000000001,
 						},
 					},
 				},
@@ -70037,7 +70064,7 @@ RecountPerCharDB = {
 			},
 			["type"] = "Ungrouped",
 			["FightsSaved"] = 5,
-			["LastAbility"] = 1306.632,
+			["LastAbility"] = 4982.039,
 			["LastEventTimes"] = {
 				4007.335, -- [1]
 				4007.335, -- [2]
@@ -70252,13 +70279,13 @@ RecountPerCharDB = {
 			},
 			["TimeLast"] = {
 				["TimeHeal"] = 1619545134,
-				["HOT_Time"] = 1619545134,
+				["Overhealing"] = 1619545108,
 				["OVERALL"] = 1619545149,
 				["DamageTaken"] = 1619545149,
-				["FDamage"] = 1619544953,
+				["HOT_Time"] = 1619545134,
 				["ActiveTime"] = 1619545134,
 				["HealingTaken"] = 1619545139,
-				["Overhealing"] = 1619545108,
+				["FDamage"] = 1619544953,
 				["TimeDamage"] = 1619545134,
 				["Healing"] = 1619545134,
 				["ManaGain"] = 1619545134,
@@ -70315,54 +70342,14 @@ RecountPerCharDB = {
 					},
 					["DeathCount"] = 0,
 					["HOT_Time"] = 66,
-					["ElementTakenBlock"] = {
-					},
+					["Damage"] = 57406,
 					["RunicPowerGain"] = 0,
 					["ElementTaken"] = {
 						["Frost"] = 7283,
 					},
-					["HOTs"] = {
-						["Improved Leader of the Pack"] = {
-							["Details"] = {
-								["Angeletee"] = {
-									["count"] = 9,
-								},
-							},
-							["amount"] = 9,
-						},
-						["Divine Storm"] = {
-							["Details"] = {
-								["Jungee"] = {
-									["count"] = 3,
-								},
-								["Casketbasher <Urgash>"] = {
-									["count"] = 6,
-								},
-								["Maijuur"] = {
-									["count"] = 3,
-								},
-								["Bigepapa"] = {
-									["count"] = 9,
-								},
-								["Urgash"] = {
-									["count"] = 9,
-								},
-								["Angeletee"] = {
-									["count"] = 6,
-								},
-							},
-							["amount"] = 36,
-						},
-						["Judgement of Light"] = {
-							["Details"] = {
-								["Angeletee"] = {
-									["count"] = 21,
-								},
-							},
-							["amount"] = 21,
-						},
+					["DOT_Time"] = 72,
+					["ElementTakenBlock"] = {
 					},
-					["Damage"] = 57406,
 					["ElementDoneAbsorb"] = {
 					},
 					["TimeHeal"] = 2.28,
@@ -70370,6 +70357,52 @@ RecountPerCharDB = {
 					},
 					["Dispels"] = 0,
 					["PartialBlock"] = {
+					},
+					["ElementHitsDone"] = {
+						["Holy"] = {
+							["Details"] = {
+								["Tick"] = {
+									["count"] = 20,
+								},
+								["Crit"] = {
+									["count"] = 6,
+								},
+								["Hit"] = {
+									["count"] = 3,
+								},
+							},
+							["amount"] = 29,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Crit"] = {
+									["count"] = 6,
+								},
+								["Hit"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 7,
+						},
+						["Physical"] = {
+							["Details"] = {
+								["Crit"] = {
+									["count"] = 2,
+								},
+								["Hit"] = {
+									["count"] = 6,
+								},
+							},
+							["amount"] = 8,
+						},
+					},
+					["FAttacks"] = {
+					},
+					["HealingTaken"] = 13045,
+					["ElementDone"] = {
+						["Holy"] = 24155,
+						["Melee"] = 18370,
+						["Physical"] = 14881,
 					},
 					["DamagedWho"] = {
 						["Steward"] = {
@@ -70450,54 +70483,6 @@ RecountPerCharDB = {
 							["amount"] = 23717,
 						},
 					},
-					["FAttacks"] = {
-					},
-					["HealingTaken"] = 13045,
-					["ElementDone"] = {
-						["Holy"] = 24155,
-						["Melee"] = 18370,
-						["Physical"] = 14881,
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementHitsDone"] = {
-						["Holy"] = {
-							["Details"] = {
-								["Tick"] = {
-									["count"] = 20,
-								},
-								["Crit"] = {
-									["count"] = 6,
-								},
-								["Hit"] = {
-									["count"] = 3,
-								},
-							},
-							["amount"] = 29,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["Crit"] = {
-									["count"] = 6,
-								},
-								["Hit"] = {
-									["count"] = 1,
-								},
-							},
-							["amount"] = 7,
-						},
-						["Physical"] = {
-							["Details"] = {
-								["Crit"] = {
-									["count"] = 2,
-								},
-								["Hit"] = {
-									["count"] = 6,
-								},
-							},
-							["amount"] = 8,
-						},
-					},
 					["ManaGainedFrom"] = {
 						["Angeletee"] = {
 							["Details"] = {
@@ -70507,6 +70492,8 @@ RecountPerCharDB = {
 							},
 							["amount"] = 3540,
 						},
+					},
+					["RunicPowerGained"] = {
 					},
 					["WhoDamaged"] = {
 						["Mage Hunter Ascendant"] = {
@@ -70520,9 +70507,9 @@ RecountPerCharDB = {
 					},
 					["EnergyGainedFrom"] = {
 					},
-					["RunicPowerGained"] = {
-					},
 					["CCBroken"] = {
+					},
+					["RunicPowerGainedFrom"] = {
 					},
 					["ElementDoneBlock"] = {
 					},
@@ -70569,20 +70556,45 @@ RecountPerCharDB = {
 						},
 						["Angeletee"] = {
 							["Details"] = {
-								["Divine Storm"] = {
-									["count"] = 0,
-								},
 								["Improved Leader of the Pack"] = {
 									["count"] = 0.8,
 								},
 								["Judgement of Light"] = {
 									["count"] = 1.48,
 								},
+								["Divine Storm"] = {
+									["count"] = 0,
+								},
 							},
 							["amount"] = 2.28,
 						},
 					},
-					["Dispelled"] = 0,
+					["OverHeals"] = {
+						["Improved Leader of the Pack"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 465,
+									["min"] = 465,
+									["count"] = 1,
+									["amount"] = 465,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 465,
+						},
+						["Judgement of Light"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 465,
+									["min"] = 465,
+									["count"] = 1,
+									["amount"] = 465,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 465,
+						},
+					},
 					["WhoHealed"] = {
 						["Bigepapa"] = {
 							["Details"] = {
@@ -70597,14 +70609,14 @@ RecountPerCharDB = {
 						},
 						["Angeletee"] = {
 							["Details"] = {
-								["Divine Storm"] = {
-									["count"] = 419,
-								},
 								["Improved Leader of the Pack"] = {
 									["count"] = 930,
 								},
 								["Judgement of Light"] = {
 									["count"] = 2790,
+								},
+								["Divine Storm"] = {
+									["count"] = 419,
 								},
 							},
 							["amount"] = 4139,
@@ -70653,14 +70665,14 @@ RecountPerCharDB = {
 						},
 						["Angeletee"] = {
 							["Details"] = {
-								["Divine Storm"] = {
-									["count"] = 419,
-								},
 								["Improved Leader of the Pack"] = {
 									["count"] = 930,
 								},
 								["Judgement of Light"] = {
 									["count"] = 2790,
+								},
+								["Divine Storm"] = {
+									["count"] = 419,
 								},
 							},
 							["amount"] = 4139,
@@ -70668,18 +70680,6 @@ RecountPerCharDB = {
 					},
 					["CCBreak"] = 0,
 					["ElementTakenAbsorb"] = {
-					},
-					["FDamage"] = 0,
-					["EnergyGain"] = 0,
-					["ManaGained"] = {
-						["Seal of Wisdom"] = {
-							["Details"] = {
-								["Angeletee"] = {
-									["count"] = 3540,
-								},
-							},
-							["amount"] = 3540,
-						},
 					},
 					["PartialAbsorb"] = {
 						["Frostbolt"] = {
@@ -70695,7 +70695,32 @@ RecountPerCharDB = {
 							["amount"] = 0,
 						},
 					},
-					["ActiveTime"] = 24.52,
+					["PartialResist"] = {
+						["Frostbolt"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 6,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 6,
+							["amount"] = 0,
+						},
+					},
+					["ManaGained"] = {
+						["Seal of Wisdom"] = {
+							["Details"] = {
+								["Angeletee"] = {
+									["count"] = 3540,
+								},
+							},
+							["amount"] = 3540,
+						},
+					},
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
 					["Overhealing"] = 930,
 					["TimeSpent"] = {
 						["Jungee"] = {
@@ -70756,14 +70781,14 @@ RecountPerCharDB = {
 						},
 						["Angeletee"] = {
 							["Details"] = {
-								["Divine Storm"] = {
-									["count"] = 0,
-								},
 								["Improved Leader of the Pack"] = {
 									["count"] = 0.8,
 								},
 								["Judgement of Light"] = {
 									["count"] = 1.48,
+								},
+								["Divine Storm"] = {
+									["count"] = 0,
 								},
 							},
 							["amount"] = 2.28,
@@ -70837,18 +70862,6 @@ RecountPerCharDB = {
 					["ElementTakenResist"] = {
 					},
 					["Heals"] = {
-						["Improved Leader of the Pack"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 465,
-									["min"] = 465,
-									["count"] = 2,
-									["amount"] = 930,
-								},
-							},
-							["count"] = 2,
-							["amount"] = 930,
-						},
 						["Divine Storm"] = {
 							["Details"] = {
 								["Tick"] = {
@@ -70873,52 +70886,26 @@ RecountPerCharDB = {
 							["count"] = 6,
 							["amount"] = 2790,
 						},
-					},
-					["Interrupts"] = 0,
-					["EnergyGained"] = {
-					},
-					["PartialResist"] = {
-						["Frostbolt"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 6,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 6,
-							["amount"] = 0,
-						},
-					},
-					["Healing"] = 5868,
-					["RageGained"] = {
-					},
-					["OverHeals"] = {
 						["Improved Leader of the Pack"] = {
 							["Details"] = {
 								["Tick"] = {
 									["max"] = 465,
 									["min"] = 465,
-									["count"] = 1,
-									["amount"] = 465,
+									["count"] = 2,
+									["amount"] = 930,
 								},
 							},
-							["count"] = 1,
-							["amount"] = 465,
+							["count"] = 2,
+							["amount"] = 930,
 						},
-						["Judgement of Light"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 465,
-									["min"] = 465,
-									["count"] = 1,
-									["amount"] = 465,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 465,
-						},
+					},
+					["ActiveTime"] = 24.52,
+					["EnergyGained"] = {
+					},
+					["EnergyGain"] = 0,
+					["Healing"] = 5868,
+					["Dispelled"] = 0,
+					["RageGained"] = {
 					},
 					["Attacks"] = {
 						["Consecration (DoT)"] = {
@@ -71126,7 +71113,47 @@ RecountPerCharDB = {
 						},
 					},
 					["ManaGain"] = 3540,
-					["DOT_Time"] = 72,
+					["HOTs"] = {
+						["Divine Storm"] = {
+							["Details"] = {
+								["Jungee"] = {
+									["count"] = 3,
+								},
+								["Casketbasher <Urgash>"] = {
+									["count"] = 6,
+								},
+								["Maijuur"] = {
+									["count"] = 3,
+								},
+								["Bigepapa"] = {
+									["count"] = 9,
+								},
+								["Urgash"] = {
+									["count"] = 9,
+								},
+								["Angeletee"] = {
+									["count"] = 6,
+								},
+							},
+							["amount"] = 36,
+						},
+						["Judgement of Light"] = {
+							["Details"] = {
+								["Angeletee"] = {
+									["count"] = 21,
+								},
+							},
+							["amount"] = 21,
+						},
+						["Improved Leader of the Pack"] = {
+							["Details"] = {
+								["Angeletee"] = {
+									["count"] = 9,
+								},
+							},
+							["amount"] = 9,
+						},
+					},
 					["DispelledWho"] = {
 					},
 				},
@@ -71170,55 +71197,15 @@ RecountPerCharDB = {
 					},
 					["DeathCount"] = 0,
 					["HOT_Time"] = 126,
-					["ElementTakenBlock"] = {
-					},
+					["Damage"] = 75568,
 					["RunicPowerGain"] = 0,
 					["ElementTaken"] = {
 						["Melee"] = 6077,
 						["Physical"] = 8157,
 					},
-					["HOTs"] = {
-						["Divine Storm"] = {
-							["Details"] = {
-								["Jungee"] = {
-									["count"] = 15,
-								},
-								["Casketbasher <Urgash>"] = {
-									["count"] = 12,
-								},
-								["Maijuur"] = {
-									["count"] = 9,
-								},
-								["Bigepapa"] = {
-									["count"] = 15,
-								},
-								["Urgash"] = {
-									["count"] = 12,
-								},
-								["Angeletee"] = {
-									["count"] = 9,
-								},
-							},
-							["amount"] = 72,
-						},
-						["Judgement of Light"] = {
-							["Details"] = {
-								["Angeletee"] = {
-									["count"] = 33,
-								},
-							},
-							["amount"] = 33,
-						},
-						["Improved Leader of the Pack"] = {
-							["Details"] = {
-								["Angeletee"] = {
-									["count"] = 21,
-								},
-							},
-							["amount"] = 21,
-						},
+					["DOT_Time"] = 27,
+					["ElementTakenBlock"] = {
 					},
-					["Damage"] = 75568,
 					["ElementDoneAbsorb"] = {
 						["Melee"] = 1323,
 						["Physical"] = 1969,
@@ -71229,20 +71216,72 @@ RecountPerCharDB = {
 					["Dispels"] = 0,
 					["PartialBlock"] = {
 					},
+					["ElementHitsDone"] = {
+						["Holy"] = {
+							["Details"] = {
+								["Tick"] = {
+									["count"] = 5,
+								},
+								["Crit"] = {
+									["count"] = 8,
+								},
+								["Hit"] = {
+									["count"] = 8,
+								},
+							},
+							["amount"] = 21,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Dodge"] = {
+									["count"] = 2,
+								},
+								["Absorb"] = {
+									["count"] = 1,
+								},
+								["Crit"] = {
+									["count"] = 6,
+								},
+								["Hit"] = {
+									["count"] = 3,
+								},
+							},
+							["amount"] = 12,
+						},
+						["Physical"] = {
+							["Details"] = {
+								["Crit"] = {
+									["count"] = 5,
+								},
+								["Hit"] = {
+									["count"] = 10,
+								},
+							},
+							["amount"] = 15,
+						},
+					},
+					["FAttacks"] = {
+					},
+					["HealingTaken"] = 16244,
+					["ElementDone"] = {
+						["Holy"] = 29817,
+						["Melee"] = 20041,
+						["Physical"] = 25710,
+					},
 					["DamagedWho"] = {
 						["Commander Kolurg"] = {
 							["Details"] = {
-								["Melee"] = {
-									["count"] = 2568,
+								["Divine Storm"] = {
+									["count"] = 3186,
 								},
 								["Crusader Strike"] = {
 									["count"] = 1114,
 								},
-								["Divine Storm"] = {
-									["count"] = 3186,
-								},
 								["Hammer of Wrath"] = {
 									["count"] = 5174,
+								},
+								["Melee"] = {
+									["count"] = 2568,
 								},
 							},
 							["amount"] = 12042,
@@ -71317,60 +71356,6 @@ RecountPerCharDB = {
 							["amount"] = 24714,
 						},
 					},
-					["FAttacks"] = {
-					},
-					["HealingTaken"] = 16244,
-					["ElementDone"] = {
-						["Holy"] = 29817,
-						["Melee"] = 20041,
-						["Physical"] = 25710,
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementHitsDone"] = {
-						["Holy"] = {
-							["Details"] = {
-								["Tick"] = {
-									["count"] = 5,
-								},
-								["Crit"] = {
-									["count"] = 8,
-								},
-								["Hit"] = {
-									["count"] = 8,
-								},
-							},
-							["amount"] = 21,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["Dodge"] = {
-									["count"] = 2,
-								},
-								["Absorb"] = {
-									["count"] = 1,
-								},
-								["Crit"] = {
-									["count"] = 6,
-								},
-								["Hit"] = {
-									["count"] = 3,
-								},
-							},
-							["amount"] = 12,
-						},
-						["Physical"] = {
-							["Details"] = {
-								["Crit"] = {
-									["count"] = 5,
-								},
-								["Hit"] = {
-									["count"] = 10,
-								},
-							},
-							["amount"] = 15,
-						},
-					},
 					["ManaGainedFrom"] = {
 						["Angeletee"] = {
 							["Details"] = {
@@ -71380,6 +71365,8 @@ RecountPerCharDB = {
 							},
 							["amount"] = 7080,
 						},
+					},
+					["RunicPowerGained"] = {
 					},
 					["WhoDamaged"] = {
 						["Horde Berserker"] = {
@@ -71401,9 +71388,9 @@ RecountPerCharDB = {
 					},
 					["EnergyGainedFrom"] = {
 					},
-					["RunicPowerGained"] = {
-					},
 					["CCBroken"] = {
+					},
+					["RunicPowerGainedFrom"] = {
 					},
 					["ElementDoneBlock"] = {
 					},
@@ -71450,20 +71437,57 @@ RecountPerCharDB = {
 						},
 						["Angeletee"] = {
 							["Details"] = {
-								["Improved Leader of the Pack"] = {
-									["count"] = 6.73,
-								},
 								["Judgement of Light"] = {
 									["count"] = 7.69,
 								},
 								["Divine Storm"] = {
 									["count"] = 0,
 								},
+								["Improved Leader of the Pack"] = {
+									["count"] = 6.73,
+								},
 							},
 							["amount"] = 14.42,
 						},
 					},
-					["Dispelled"] = 0,
+					["OverHeals"] = {
+						["Divine Storm"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 258,
+									["min"] = 115,
+									["count"] = 8,
+									["amount"] = 1193,
+								},
+							},
+							["count"] = 8,
+							["amount"] = 1193,
+						},
+						["Judgement of Light"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 465,
+									["min"] = 465,
+									["count"] = 3,
+									["amount"] = 1395,
+								},
+							},
+							["count"] = 3,
+							["amount"] = 1395,
+						},
+						["Improved Leader of the Pack"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 465,
+									["min"] = 316,
+									["count"] = 3,
+									["amount"] = 1246,
+								},
+							},
+							["count"] = 3,
+							["amount"] = 1246,
+						},
+					},
 					["WhoHealed"] = {
 						["Bigepapa"] = {
 							["Details"] = {
@@ -71475,14 +71499,14 @@ RecountPerCharDB = {
 						},
 						["Angeletee"] = {
 							["Details"] = {
-								["Improved Leader of the Pack"] = {
-									["count"] = 2009,
-								},
 								["Judgement of Light"] = {
 									["count"] = 3720,
 								},
 								["Divine Storm"] = {
 									["count"] = 270,
+								},
+								["Improved Leader of the Pack"] = {
+									["count"] = 2009,
 								},
 							},
 							["amount"] = 5999,
@@ -71531,14 +71555,14 @@ RecountPerCharDB = {
 						},
 						["Angeletee"] = {
 							["Details"] = {
-								["Improved Leader of the Pack"] = {
-									["count"] = 2009,
-								},
 								["Judgement of Light"] = {
 									["count"] = 3720,
 								},
 								["Divine Storm"] = {
 									["count"] = 270,
+								},
+								["Improved Leader of the Pack"] = {
+									["count"] = 2009,
 								},
 							},
 							["amount"] = 5999,
@@ -71546,18 +71570,6 @@ RecountPerCharDB = {
 					},
 					["CCBreak"] = 0,
 					["ElementTakenAbsorb"] = {
-					},
-					["FDamage"] = 0,
-					["EnergyGain"] = 0,
-					["ManaGained"] = {
-						["Seal of Wisdom"] = {
-							["Details"] = {
-								["Angeletee"] = {
-									["count"] = 7080,
-								},
-							},
-							["amount"] = 7080,
-						},
 					},
 					["PartialAbsorb"] = {
 						["War Stomp"] = {
@@ -71585,7 +71597,44 @@ RecountPerCharDB = {
 							["amount"] = 0,
 						},
 					},
-					["ActiveTime"] = 62.07,
+					["PartialResist"] = {
+						["War Stomp"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 3,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 3,
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 0,
+						},
+					},
+					["ManaGained"] = {
+						["Seal of Wisdom"] = {
+							["Details"] = {
+								["Angeletee"] = {
+									["count"] = 7080,
+								},
+							},
+							["amount"] = 7080,
+						},
+					},
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
 					["Overhealing"] = 3834,
 					["TimeSpent"] = {
 						["Jungee"] = {
@@ -71649,14 +71698,14 @@ RecountPerCharDB = {
 						},
 						["Angeletee"] = {
 							["Details"] = {
-								["Improved Leader of the Pack"] = {
-									["count"] = 6.73,
-								},
 								["Judgement of Light"] = {
 									["count"] = 7.69,
 								},
 								["Divine Storm"] = {
 									["count"] = 0,
+								},
+								["Improved Leader of the Pack"] = {
+									["count"] = 6.73,
 								},
 							},
 							["amount"] = 14.42,
@@ -71705,17 +71754,17 @@ RecountPerCharDB = {
 						},
 						["Commander Kolurg"] = {
 							["Details"] = {
-								["Melee"] = {
-									["count"] = 1.58,
+								["Divine Storm"] = {
+									["count"] = 0,
 								},
 								["Crusader Strike"] = {
 									["count"] = 0.1,
 								},
-								["Divine Storm"] = {
-									["count"] = 0,
-								},
 								["Hammer of Wrath"] = {
 									["count"] = 1.97,
+								},
+								["Melee"] = {
+									["count"] = 1.58,
 								},
 							},
 							["amount"] = 3.65,
@@ -71736,18 +71785,6 @@ RecountPerCharDB = {
 					["ElementTakenResist"] = {
 					},
 					["Heals"] = {
-						["Divine Storm"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 270,
-									["min"] = 115,
-									["count"] = 16,
-									["amount"] = 2449,
-								},
-							},
-							["count"] = 16,
-							["amount"] = 2449,
-						},
 						["Judgement of Light"] = {
 							["Details"] = {
 								["Tick"] = {
@@ -71772,89 +71809,45 @@ RecountPerCharDB = {
 							["count"] = 5,
 							["amount"] = 2009,
 						},
-					},
-					["Interrupts"] = 0,
-					["EnergyGained"] = {
-					},
-					["PartialResist"] = {
-						["War Stomp"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 3,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 3,
-							["amount"] = 0,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 2,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 2,
-							["amount"] = 0,
-						},
-					},
-					["Healing"] = 8178,
-					["RageGained"] = {
-					},
-					["OverHeals"] = {
-						["Improved Leader of the Pack"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 465,
-									["min"] = 316,
-									["count"] = 3,
-									["amount"] = 1246,
-								},
-							},
-							["count"] = 3,
-							["amount"] = 1246,
-						},
 						["Divine Storm"] = {
 							["Details"] = {
 								["Tick"] = {
-									["max"] = 258,
+									["max"] = 270,
 									["min"] = 115,
-									["count"] = 8,
-									["amount"] = 1193,
+									["count"] = 16,
+									["amount"] = 2449,
 								},
 							},
-							["count"] = 8,
-							["amount"] = 1193,
-						},
-						["Judgement of Light"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 465,
-									["min"] = 465,
-									["count"] = 3,
-									["amount"] = 1395,
-								},
-							},
-							["count"] = 3,
-							["amount"] = 1395,
+							["count"] = 16,
+							["amount"] = 2449,
 						},
 					},
+					["ActiveTime"] = 62.07,
+					["EnergyGained"] = {
+					},
+					["EnergyGain"] = 0,
+					["Healing"] = 8178,
+					["Dispelled"] = 0,
+					["RageGained"] = {
+					},
 					["Attacks"] = {
-						["Retribution Aura"] = {
+						["Righteous Vengeance (DoT)"] = {
 							["Details"] = {
-								["Hit"] = {
-									["max"] = 252,
-									["min"] = 223,
-									["count"] = 2,
-									["amount"] = 475,
+								["Crit"] = {
+									["max"] = 444,
+									["min"] = 361,
+									["count"] = 4,
+									["amount"] = 1674,
+								},
+								["Tick"] = {
+									["max"] = 222,
+									["min"] = 181,
+									["count"] = 5,
+									["amount"] = 987,
 								},
 							},
-							["count"] = 2,
-							["amount"] = 475,
+							["count"] = 9,
+							["amount"] = 2661,
 						},
 						["Exorcism"] = {
 							["Details"] = {
@@ -71900,17 +71893,17 @@ RecountPerCharDB = {
 							["count"] = 12,
 							["amount"] = 20041,
 						},
-						["Hammer of Wrath"] = {
+						["Retribution Aura"] = {
 							["Details"] = {
-								["Crit"] = {
-									["max"] = 5174,
-									["min"] = 5174,
-									["count"] = 1,
-									["amount"] = 5174,
+								["Hit"] = {
+									["max"] = 252,
+									["min"] = 223,
+									["count"] = 2,
+									["amount"] = 475,
 								},
 							},
-							["count"] = 1,
-							["amount"] = 5174,
+							["count"] = 2,
+							["amount"] = 475,
 						},
 						["Divine Storm"] = {
 							["Details"] = {
@@ -71948,23 +71941,17 @@ RecountPerCharDB = {
 							["count"] = 7,
 							["amount"] = 11764,
 						},
-						["Righteous Vengeance (DoT)"] = {
+						["Hammer of Wrath"] = {
 							["Details"] = {
 								["Crit"] = {
-									["max"] = 444,
-									["min"] = 361,
-									["count"] = 4,
-									["amount"] = 1674,
-								},
-								["Tick"] = {
-									["max"] = 222,
-									["min"] = 181,
-									["count"] = 5,
-									["amount"] = 987,
+									["max"] = 5174,
+									["min"] = 5174,
+									["count"] = 1,
+									["amount"] = 5174,
 								},
 							},
-							["count"] = 9,
-							["amount"] = 2661,
+							["count"] = 1,
+							["amount"] = 5174,
 						},
 						["Judgement"] = {
 							["Details"] = {
@@ -71992,17 +71979,17 @@ RecountPerCharDB = {
 					["TimeDamaging"] = {
 						["Commander Kolurg"] = {
 							["Details"] = {
-								["Melee"] = {
-									["count"] = 1.58,
+								["Divine Storm"] = {
+									["count"] = 0,
 								},
 								["Crusader Strike"] = {
 									["count"] = 0.1,
 								},
-								["Divine Storm"] = {
-									["count"] = 0,
-								},
 								["Hammer of Wrath"] = {
 									["count"] = 1.97,
+								},
+								["Melee"] = {
+									["count"] = 1.58,
 								},
 							},
 							["amount"] = 3.65,
@@ -72078,7 +72065,47 @@ RecountPerCharDB = {
 						},
 					},
 					["ManaGain"] = 7080,
-					["DOT_Time"] = 27,
+					["HOTs"] = {
+						["Judgement of Light"] = {
+							["Details"] = {
+								["Angeletee"] = {
+									["count"] = 33,
+								},
+							},
+							["amount"] = 33,
+						},
+						["Improved Leader of the Pack"] = {
+							["Details"] = {
+								["Angeletee"] = {
+									["count"] = 21,
+								},
+							},
+							["amount"] = 21,
+						},
+						["Divine Storm"] = {
+							["Details"] = {
+								["Jungee"] = {
+									["count"] = 15,
+								},
+								["Casketbasher <Urgash>"] = {
+									["count"] = 12,
+								},
+								["Maijuur"] = {
+									["count"] = 9,
+								},
+								["Bigepapa"] = {
+									["count"] = 15,
+								},
+								["Urgash"] = {
+									["count"] = 12,
+								},
+								["Angeletee"] = {
+									["count"] = 9,
+								},
+							},
+							["amount"] = 72,
+						},
+					},
 					["DispelledWho"] = {
 					},
 				},
@@ -72120,43 +72147,14 @@ RecountPerCharDB = {
 					},
 					["DeathCount"] = 0,
 					["HOT_Time"] = 0,
-					["ElementTakenBlock"] = {
-					},
+					["Damage"] = 0,
 					["RunicPowerGain"] = 0,
 					["ElementTaken"] = {
 						["Physical"] = 0,
 					},
-					["HOTs"] = {
-						["Divine Storm"] = {
-							["Details"] = {
-								["Maijuur"] = {
-									["count"] = 0,
-								},
-								["Casketbasher <Urgash>"] = {
-									["count"] = 0,
-								},
-								["Bigepapa"] = {
-									["count"] = 0,
-								},
-								["Urgash"] = {
-									["count"] = 0,
-								},
-								["Angeletee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Judgement of Light"] = {
-							["Details"] = {
-								["Angeletee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
+					["DOT_Time"] = 0,
+					["ElementTakenBlock"] = {
 					},
-					["Damage"] = 0,
 					["ElementDoneAbsorb"] = {
 					},
 					["TimeHeal"] = 0,
@@ -72164,6 +72162,52 @@ RecountPerCharDB = {
 					},
 					["Dispels"] = 0,
 					["PartialBlock"] = {
+					},
+					["ElementHitsDone"] = {
+						["Holy"] = {
+							["Details"] = {
+								["Crit"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 0,
+								},
+								["Crit"] = {
+									["count"] = 0,
+								},
+								["Parry"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Physical"] = {
+							["Details"] = {
+								["Crit"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["FAttacks"] = {
+					},
+					["HealingTaken"] = 0,
+					["ElementDone"] = {
+						["Holy"] = 0,
+						["Melee"] = 0,
+						["Physical"] = 0,
 					},
 					["DamagedWho"] = {
 						["Horde Cleric"] = {
@@ -72232,54 +72276,6 @@ RecountPerCharDB = {
 							["amount"] = 0,
 						},
 					},
-					["FAttacks"] = {
-					},
-					["HealingTaken"] = 0,
-					["ElementDone"] = {
-						["Holy"] = 0,
-						["Melee"] = 0,
-						["Physical"] = 0,
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementHitsDone"] = {
-						["Holy"] = {
-							["Details"] = {
-								["Crit"] = {
-									["count"] = 0,
-								},
-								["Hit"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 0,
-								},
-								["Crit"] = {
-									["count"] = 0,
-								},
-								["Parry"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Physical"] = {
-							["Details"] = {
-								["Crit"] = {
-									["count"] = 0,
-								},
-								["Hit"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
 					["ManaGainedFrom"] = {
 						["Angeletee"] = {
 							["Details"] = {
@@ -72289,6 +72285,8 @@ RecountPerCharDB = {
 							},
 							["amount"] = 0,
 						},
+					},
+					["RunicPowerGained"] = {
 					},
 					["WhoDamaged"] = {
 						["Horde Berserker"] = {
@@ -72313,9 +72311,9 @@ RecountPerCharDB = {
 					},
 					["EnergyGainedFrom"] = {
 					},
-					["RunicPowerGained"] = {
-					},
 					["CCBroken"] = {
+					},
+					["RunicPowerGainedFrom"] = {
 					},
 					["ElementDoneBlock"] = {
 					},
@@ -72364,7 +72362,32 @@ RecountPerCharDB = {
 							["amount"] = 0,
 						},
 					},
-					["Dispelled"] = 0,
+					["OverHeals"] = {
+						["Divine Storm"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Judgement of Light"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
 					["WhoHealed"] = {
 						["Angeletee"] = {
 							["Details"] = {
@@ -72426,18 +72449,6 @@ RecountPerCharDB = {
 					["CCBreak"] = 0,
 					["ElementTakenAbsorb"] = {
 					},
-					["FDamage"] = 0,
-					["EnergyGain"] = 0,
-					["ManaGained"] = {
-						["Seal of Wisdom"] = {
-							["Details"] = {
-								["Angeletee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
 					["PartialAbsorb"] = {
 						["Shoot"] = {
 							["Details"] = {
@@ -72476,7 +72487,56 @@ RecountPerCharDB = {
 							["amount"] = 0,
 						},
 					},
-					["ActiveTime"] = 0,
+					["PartialResist"] = {
+						["Shoot"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["War Stomp"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Rapid Shot"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["ManaGained"] = {
+						["Seal of Wisdom"] = {
+							["Details"] = {
+								["Angeletee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
 					["Overhealing"] = 0,
 					["TimeSpent"] = {
 						["Casketbasher <Urgash>"] = {
@@ -72620,75 +72680,13 @@ RecountPerCharDB = {
 							["amount"] = 0,
 						},
 					},
-					["Interrupts"] = 0,
+					["ActiveTime"] = 0,
 					["EnergyGained"] = {
 					},
-					["PartialResist"] = {
-						["Shoot"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["War Stomp"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Rapid Shot"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
+					["EnergyGain"] = 0,
 					["Healing"] = 0,
+					["Dispelled"] = 0,
 					["RageGained"] = {
-					},
-					["OverHeals"] = {
-						["Divine Storm"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Judgement of Light"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
 					},
 					["Attacks"] = {
 						["Exorcism"] = {
@@ -72870,7 +72868,36 @@ RecountPerCharDB = {
 						},
 					},
 					["ManaGain"] = 0,
-					["DOT_Time"] = 0,
+					["HOTs"] = {
+						["Divine Storm"] = {
+							["Details"] = {
+								["Maijuur"] = {
+									["count"] = 0,
+								},
+								["Casketbasher <Urgash>"] = {
+									["count"] = 0,
+								},
+								["Bigepapa"] = {
+									["count"] = 0,
+								},
+								["Urgash"] = {
+									["count"] = 0,
+								},
+								["Angeletee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Judgement of Light"] = {
+							["Details"] = {
+								["Angeletee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
 					["DispelledWho"] = {
 					},
 				},
@@ -72909,53 +72936,13 @@ RecountPerCharDB = {
 					},
 					["DeathCount"] = 0,
 					["HOT_Time"] = 48,
-					["ElementTakenBlock"] = {
-					},
+					["Damage"] = 49370,
 					["RunicPowerGain"] = 0,
 					["ElementTaken"] = {
 					},
-					["HOTs"] = {
-						["Divine Storm"] = {
-							["Details"] = {
-								["Maijuur"] = {
-									["count"] = 6,
-								},
-								["Urgash"] = {
-									["count"] = 9,
-								},
-								["Casketbasher <Urgash>"] = {
-									["count"] = 3,
-								},
-								["Bigepapa"] = {
-									["count"] = 6,
-								},
-								["Jungee"] = {
-									["count"] = 3,
-								},
-								["Angeletee"] = {
-									["count"] = 9,
-								},
-							},
-							["amount"] = 36,
-						},
-						["Improved Leader of the Pack"] = {
-							["Details"] = {
-								["Angeletee"] = {
-									["count"] = 6,
-								},
-							},
-							["amount"] = 6,
-						},
-						["Judgement of Light"] = {
-							["Details"] = {
-								["Angeletee"] = {
-									["count"] = 6,
-								},
-							},
-							["amount"] = 6,
-						},
+					["DOT_Time"] = 105,
+					["ElementTakenBlock"] = {
 					},
-					["Damage"] = 49370,
 					["ElementDoneAbsorb"] = {
 					},
 					["TimeHeal"] = 0,
@@ -72963,67 +72950,6 @@ RecountPerCharDB = {
 					},
 					["Dispels"] = 0,
 					["PartialBlock"] = {
-					},
-					["DamagedWho"] = {
-						["Azure Enforcer"] = {
-							["Details"] = {
-								["Consecration (DoT)"] = {
-									["count"] = 5378,
-								},
-								["Divine Storm"] = {
-									["count"] = 5287,
-								},
-								["Righteous Vengeance (DoT)"] = {
-									["count"] = 819,
-								},
-								["Crusader Strike"] = {
-									["count"] = 1276,
-								},
-								["Hammer of Wrath"] = {
-									["count"] = 5562,
-								},
-								["Melee"] = {
-									["count"] = 3070,
-								},
-							},
-							["amount"] = 21392,
-						},
-						["Azure Scale-Binder"] = {
-							["Details"] = {
-								["Consecration (DoT)"] = {
-									["count"] = 5729,
-								},
-								["Exorcism"] = {
-									["count"] = 2671,
-								},
-								["Melee"] = {
-									["count"] = 7133,
-								},
-								["Divine Storm"] = {
-									["count"] = 5249,
-								},
-								["Crusader Strike"] = {
-									["count"] = 2724,
-								},
-								["Righteous Vengeance (DoT)"] = {
-									["count"] = 2796,
-								},
-								["Judgement"] = {
-									["count"] = 1676,
-								},
-							},
-							["amount"] = 27978,
-						},
-					},
-					["FAttacks"] = {
-					},
-					["HealingTaken"] = 0,
-					["ElementDone"] = {
-						["Physical"] = 14536,
-						["Melee"] = 10203,
-						["Holy"] = 24631,
-					},
-					["RunicPowerGainedFrom"] = {
 					},
 					["ElementHitsDone"] = {
 						["Physical"] = {
@@ -73063,6 +72989,65 @@ RecountPerCharDB = {
 							["amount"] = 38,
 						},
 					},
+					["FAttacks"] = {
+					},
+					["HealingTaken"] = 0,
+					["ElementDone"] = {
+						["Physical"] = 14536,
+						["Melee"] = 10203,
+						["Holy"] = 24631,
+					},
+					["DamagedWho"] = {
+						["Azure Enforcer"] = {
+							["Details"] = {
+								["Consecration (DoT)"] = {
+									["count"] = 5378,
+								},
+								["Divine Storm"] = {
+									["count"] = 5287,
+								},
+								["Hammer of Wrath"] = {
+									["count"] = 5562,
+								},
+								["Crusader Strike"] = {
+									["count"] = 1276,
+								},
+								["Righteous Vengeance (DoT)"] = {
+									["count"] = 819,
+								},
+								["Melee"] = {
+									["count"] = 3070,
+								},
+							},
+							["amount"] = 21392,
+						},
+						["Azure Scale-Binder"] = {
+							["Details"] = {
+								["Consecration (DoT)"] = {
+									["count"] = 5729,
+								},
+								["Exorcism"] = {
+									["count"] = 2671,
+								},
+								["Melee"] = {
+									["count"] = 7133,
+								},
+								["Divine Storm"] = {
+									["count"] = 5249,
+								},
+								["Crusader Strike"] = {
+									["count"] = 2724,
+								},
+								["Righteous Vengeance (DoT)"] = {
+									["count"] = 2796,
+								},
+								["Judgement"] = {
+									["count"] = 1676,
+								},
+							},
+							["amount"] = 27978,
+						},
+					},
 					["ManaGainedFrom"] = {
 						["Angeletee"] = {
 							["Details"] = {
@@ -73073,13 +73058,15 @@ RecountPerCharDB = {
 							["amount"] = 2124,
 						},
 					},
+					["RunicPowerGained"] = {
+					},
 					["WhoDamaged"] = {
 					},
 					["EnergyGainedFrom"] = {
 					},
-					["RunicPowerGained"] = {
-					},
 					["CCBroken"] = {
+					},
+					["RunicPowerGainedFrom"] = {
 					},
 					["ElementDoneBlock"] = {
 					},
@@ -73101,7 +73088,44 @@ RecountPerCharDB = {
 							["amount"] = 0,
 						},
 					},
-					["Dispelled"] = 0,
+					["OverHeals"] = {
+						["Improved Leader of the Pack"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 465,
+									["min"] = 465,
+									["count"] = 2,
+									["amount"] = 930,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 930,
+						},
+						["Judgement of Light"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 465,
+									["min"] = 465,
+									["count"] = 2,
+									["amount"] = 930,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 930,
+						},
+						["Divine Storm"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 318,
+									["min"] = 142,
+									["count"] = 7,
+									["amount"] = 1843,
+								},
+							},
+							["count"] = 7,
+							["amount"] = 1843,
+						},
+					},
 					["WhoHealed"] = {
 					},
 					["HealedWho"] = {
@@ -73125,8 +73149,10 @@ RecountPerCharDB = {
 					["CCBreak"] = 0,
 					["ElementTakenAbsorb"] = {
 					},
-					["FDamage"] = 0,
-					["EnergyGain"] = 0,
+					["PartialAbsorb"] = {
+					},
+					["PartialResist"] = {
+					},
 					["ManaGained"] = {
 						["Seal of Wisdom"] = {
 							["Details"] = {
@@ -73137,11 +73163,49 @@ RecountPerCharDB = {
 							["amount"] = 2124,
 						},
 					},
-					["PartialAbsorb"] = {
-					},
-					["ActiveTime"] = 15.32,
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
 					["Overhealing"] = 3703,
 					["TimeSpent"] = {
+						["Azure Enforcer"] = {
+							["Details"] = {
+								["Consecration (DoT)"] = {
+									["count"] = 2.7,
+								},
+								["Divine Storm"] = {
+									["count"] = 0,
+								},
+								["Hammer of Wrath"] = {
+									["count"] = 0.11,
+								},
+								["Crusader Strike"] = {
+									["count"] = 0.41,
+								},
+								["Righteous Vengeance (DoT)"] = {
+									["count"] = 1.79,
+								},
+								["Melee"] = {
+									["count"] = 0.29,
+								},
+							},
+							["amount"] = 5.3,
+						},
+						["Urgash"] = {
+							["Details"] = {
+								["Divine Storm"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Bigepapa"] = {
+							["Details"] = {
+								["Divine Storm"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
 						["Azure Scale-Binder"] = {
 							["Details"] = {
 								["Consecration (DoT)"] = {
@@ -73168,45 +73232,6 @@ RecountPerCharDB = {
 							},
 							["amount"] = 10.02,
 						},
-						["Azure Enforcer"] = {
-							["Details"] = {
-								["Consecration (DoT)"] = {
-									["count"] = 2.7,
-								},
-								["Divine Storm"] = {
-									["count"] = 0,
-								},
-								["Righteous Vengeance (DoT)"] = {
-									["count"] = 1.79,
-								},
-								["Crusader Strike"] = {
-									["count"] = 0.41,
-								},
-								["Hammer of Wrath"] = {
-									["count"] = 0.11,
-								},
-								["Melee"] = {
-									["count"] = 0.29,
-								},
-							},
-							["amount"] = 5.3,
-						},
-						["Bigepapa"] = {
-							["Details"] = {
-								["Divine Storm"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Urgash"] = {
-							["Details"] = {
-								["Divine Storm"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
 					},
 					["WhoDispelled"] = {
 					},
@@ -73228,51 +73253,13 @@ RecountPerCharDB = {
 							["amount"] = 907,
 						},
 					},
-					["Interrupts"] = 0,
+					["ActiveTime"] = 15.32,
 					["EnergyGained"] = {
 					},
-					["PartialResist"] = {
-					},
+					["EnergyGain"] = 0,
 					["Healing"] = 907,
+					["Dispelled"] = 0,
 					["RageGained"] = {
-					},
-					["OverHeals"] = {
-						["Divine Storm"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 318,
-									["min"] = 142,
-									["count"] = 7,
-									["amount"] = 1843,
-								},
-							},
-							["count"] = 7,
-							["amount"] = 1843,
-						},
-						["Improved Leader of the Pack"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 465,
-									["min"] = 465,
-									["count"] = 2,
-									["amount"] = 930,
-								},
-							},
-							["count"] = 2,
-							["amount"] = 930,
-						},
-						["Judgement of Light"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 465,
-									["min"] = 465,
-									["count"] = 2,
-									["amount"] = 930,
-								},
-							},
-							["count"] = 2,
-							["amount"] = 930,
-						},
 					},
 					["Attacks"] = {
 						["Consecration (DoT)"] = {
@@ -73409,14 +73396,14 @@ RecountPerCharDB = {
 								["Divine Storm"] = {
 									["count"] = 0,
 								},
-								["Righteous Vengeance (DoT)"] = {
-									["count"] = 1.79,
+								["Hammer of Wrath"] = {
+									["count"] = 0.11,
 								},
 								["Crusader Strike"] = {
 									["count"] = 0.41,
 								},
-								["Hammer of Wrath"] = {
-									["count"] = 0.11,
+								["Righteous Vengeance (DoT)"] = {
+									["count"] = 1.79,
 								},
 								["Melee"] = {
 									["count"] = 0.29,
@@ -73452,7 +73439,47 @@ RecountPerCharDB = {
 						},
 					},
 					["ManaGain"] = 2124,
-					["DOT_Time"] = 105,
+					["HOTs"] = {
+						["Improved Leader of the Pack"] = {
+							["Details"] = {
+								["Angeletee"] = {
+									["count"] = 6,
+								},
+							},
+							["amount"] = 6,
+						},
+						["Judgement of Light"] = {
+							["Details"] = {
+								["Angeletee"] = {
+									["count"] = 6,
+								},
+							},
+							["amount"] = 6,
+						},
+						["Divine Storm"] = {
+							["Details"] = {
+								["Maijuur"] = {
+									["count"] = 6,
+								},
+								["Urgash"] = {
+									["count"] = 9,
+								},
+								["Casketbasher <Urgash>"] = {
+									["count"] = 3,
+								},
+								["Bigepapa"] = {
+									["count"] = 6,
+								},
+								["Jungee"] = {
+									["count"] = 3,
+								},
+								["Angeletee"] = {
+									["count"] = 9,
+								},
+							},
+							["amount"] = 36,
+						},
+					},
 					["DispelledWho"] = {
 					},
 				},
@@ -73547,8 +73574,7 @@ RecountPerCharDB = {
 					},
 					["DeathCount"] = 0,
 					["HOT_Time"] = 216,
-					["ElementTakenBlock"] = {
-					},
+					["Damage"] = 143377,
 					["RunicPowerGain"] = 0,
 					["ElementTaken"] = {
 						["Frost"] = 12644,
@@ -73557,48 +73583,9 @@ RecountPerCharDB = {
 						["Physical"] = 1034,
 						["Shadow"] = 2250,
 					},
-					["HOTs"] = {
-						["Judgement of Light"] = {
-							["Details"] = {
-								["Angeletee"] = {
-									["count"] = 60,
-								},
-							},
-							["amount"] = 60,
-						},
-						["Improved Leader of the Pack"] = {
-							["Details"] = {
-								["Angeletee"] = {
-									["count"] = 30,
-								},
-							},
-							["amount"] = 30,
-						},
-						["Divine Storm"] = {
-							["Details"] = {
-								["Jungee"] = {
-									["count"] = 18,
-								},
-								["Urgash"] = {
-									["count"] = 24,
-								},
-								["Casketbasher <Urgash>"] = {
-									["count"] = 15,
-								},
-								["Bigepapa"] = {
-									["count"] = 18,
-								},
-								["Maijuur"] = {
-									["count"] = 15,
-								},
-								["Angeletee"] = {
-									["count"] = 36,
-								},
-							},
-							["amount"] = 126,
-						},
+					["DOT_Time"] = 99,
+					["ElementTakenBlock"] = {
 					},
-					["Damage"] = 143377,
 					["ElementDoneAbsorb"] = {
 					},
 					["TimeHeal"] = 13.52,
@@ -73606,6 +73593,61 @@ RecountPerCharDB = {
 					},
 					["Dispels"] = 0,
 					["PartialBlock"] = {
+					},
+					["ElementHitsDone"] = {
+						["Holy"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 4,
+								},
+								["Crit"] = {
+									["count"] = 16,
+								},
+								["Tick"] = {
+									["count"] = 25,
+								},
+							},
+							["amount"] = 45,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Glancing"] = {
+									["count"] = 2,
+								},
+								["Dodge"] = {
+									["count"] = 1,
+								},
+								["Crit"] = {
+									["count"] = 6,
+								},
+								["Hit"] = {
+									["count"] = 9,
+								},
+							},
+							["amount"] = 18,
+						},
+						["Physical"] = {
+							["Details"] = {
+								["Dodge"] = {
+									["count"] = 1,
+								},
+								["Crit"] = {
+									["count"] = 11,
+								},
+								["Hit"] = {
+									["count"] = 11,
+								},
+							},
+							["amount"] = 23,
+						},
+					},
+					["FAttacks"] = {
+					},
+					["HealingTaken"] = 24535,
+					["ElementDone"] = {
+						["Holy"] = 54127,
+						["Melee"] = 34820,
+						["Physical"] = 54430,
 					},
 					["DamagedWho"] = {
 						["Grand Magus Telestra"] = {
@@ -73708,77 +73750,20 @@ RecountPerCharDB = {
 						},
 						["Mage Hunter Ascendant"] = {
 							["Details"] = {
-								["Divine Storm"] = {
-									["count"] = 5367,
+								["Melee"] = {
+									["count"] = 1370,
 								},
 								["Crusader Strike"] = {
 									["count"] = 2626,
 								},
-								["Melee"] = {
-									["count"] = 1370,
-								},
 								["Righteous Vengeance (DoT)"] = {
 									["count"] = 528,
 								},
+								["Divine Storm"] = {
+									["count"] = 5367,
+								},
 							},
 							["amount"] = 9891,
-						},
-					},
-					["FAttacks"] = {
-					},
-					["HealingTaken"] = 24535,
-					["ElementDone"] = {
-						["Holy"] = 54127,
-						["Melee"] = 34820,
-						["Physical"] = 54430,
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementHitsDone"] = {
-						["Holy"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 4,
-								},
-								["Crit"] = {
-									["count"] = 16,
-								},
-								["Tick"] = {
-									["count"] = 25,
-								},
-							},
-							["amount"] = 45,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["Glancing"] = {
-									["count"] = 2,
-								},
-								["Dodge"] = {
-									["count"] = 1,
-								},
-								["Crit"] = {
-									["count"] = 6,
-								},
-								["Hit"] = {
-									["count"] = 9,
-								},
-							},
-							["amount"] = 18,
-						},
-						["Physical"] = {
-							["Details"] = {
-								["Dodge"] = {
-									["count"] = 1,
-								},
-								["Crit"] = {
-									["count"] = 11,
-								},
-								["Hit"] = {
-									["count"] = 11,
-								},
-							},
-							["amount"] = 23,
 						},
 					},
 					["ManaGainedFrom"] = {
@@ -73790,6 +73775,8 @@ RecountPerCharDB = {
 							},
 							["amount"] = 11682,
 						},
+					},
+					["RunicPowerGained"] = {
 					},
 					["WhoDamaged"] = {
 						["No One"] = {
@@ -73845,9 +73832,9 @@ RecountPerCharDB = {
 					},
 					["EnergyGainedFrom"] = {
 					},
-					["RunicPowerGained"] = {
-					},
 					["CCBroken"] = {
+					},
+					["RunicPowerGainedFrom"] = {
 					},
 					["ElementDoneBlock"] = {
 					},
@@ -73894,23 +73881,60 @@ RecountPerCharDB = {
 						},
 						["Angeletee"] = {
 							["Details"] = {
-								["Divine Storm"] = {
-									["count"] = 0,
+								["Judgement of Light"] = {
+									["count"] = 4.38,
 								},
 								["Holy Light"] = {
 									["count"] = 3.5,
 								},
-								["Judgement of Light"] = {
-									["count"] = 4.38,
-								},
 								["Improved Leader of the Pack"] = {
 									["count"] = 5.630000000000001,
+								},
+								["Divine Storm"] = {
+									["count"] = 0,
 								},
 							},
 							["amount"] = 13.51,
 						},
 					},
-					["Dispelled"] = 0,
+					["OverHeals"] = {
+						["Improved Leader of the Pack"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 465,
+									["min"] = 465,
+									["count"] = 5,
+									["amount"] = 2325,
+								},
+							},
+							["count"] = 5,
+							["amount"] = 2325,
+						},
+						["Divine Storm"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 319,
+									["min"] = 93,
+									["count"] = 10,
+									["amount"] = 1893,
+								},
+							},
+							["count"] = 10,
+							["amount"] = 1893,
+						},
+						["Judgement of Light"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 465,
+									["min"] = 465,
+									["count"] = 11,
+									["amount"] = 5115,
+								},
+							},
+							["count"] = 11,
+							["amount"] = 5115,
+						},
+					},
 					["WhoHealed"] = {
 						["Jungee"] = {
 							["Details"] = {
@@ -73930,17 +73954,17 @@ RecountPerCharDB = {
 						},
 						["Angeletee"] = {
 							["Details"] = {
-								["Divine Storm"] = {
-									["count"] = 2079,
+								["Judgement of Light"] = {
+									["count"] = 4277,
 								},
 								["Holy Light"] = {
 									["count"] = 9628,
 								},
-								["Judgement of Light"] = {
-									["count"] = 4277,
-								},
 								["Improved Leader of the Pack"] = {
 									["count"] = 2325,
+								},
+								["Divine Storm"] = {
+									["count"] = 2079,
 								},
 							},
 							["amount"] = 18309,
@@ -73989,17 +74013,17 @@ RecountPerCharDB = {
 						},
 						["Angeletee"] = {
 							["Details"] = {
-								["Divine Storm"] = {
-									["count"] = 2079,
+								["Judgement of Light"] = {
+									["count"] = 4277,
 								},
 								["Holy Light"] = {
 									["count"] = 9628,
 								},
-								["Judgement of Light"] = {
-									["count"] = 4277,
-								},
 								["Improved Leader of the Pack"] = {
 									["count"] = 2325,
+								},
+								["Divine Storm"] = {
+									["count"] = 2079,
 								},
 							},
 							["amount"] = 18309,
@@ -74007,18 +74031,6 @@ RecountPerCharDB = {
 					},
 					["CCBreak"] = 0,
 					["ElementTakenAbsorb"] = {
-					},
-					["FDamage"] = 0,
-					["EnergyGain"] = 0,
-					["ManaGained"] = {
-						["Seal of Wisdom"] = {
-							["Details"] = {
-								["Angeletee"] = {
-									["count"] = 11682,
-								},
-							},
-							["amount"] = 11682,
-						},
 					},
 					["PartialAbsorb"] = {
 						["Ice Nova"] = {
@@ -74142,241 +74154,6 @@ RecountPerCharDB = {
 							["amount"] = 0,
 						},
 					},
-					["ActiveTime"] = 89.23999999999997,
-					["Overhealing"] = 9333,
-					["TimeSpent"] = {
-						["Jungee"] = {
-							["Details"] = {
-								["Divine Storm"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Urgash"] = {
-							["Details"] = {
-								["Divine Storm"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Grand Magus Telestra"] = {
-							["Details"] = {
-								["Consecration (DoT)"] = {
-									["count"] = 10.45,
-								},
-								["Exorcism"] = {
-									["count"] = 2.08,
-								},
-								["Melee"] = {
-									["count"] = 3.77,
-								},
-								["Divine Storm"] = {
-									["count"] = 2.34,
-								},
-								["Hammer of Wrath"] = {
-									["count"] = 0,
-								},
-								["Crusader Strike"] = {
-									["count"] = 5.41,
-								},
-								["Righteous Vengeance (DoT)"] = {
-									["count"] = 12.57,
-								},
-								["Judgement"] = {
-									["count"] = 2.82,
-								},
-							},
-							["amount"] = 39.44,
-						},
-						["Mage Slayer"] = {
-							["Details"] = {
-								["Exorcism"] = {
-									["count"] = 1.5,
-								},
-								["Melee"] = {
-									["count"] = 0.23,
-								},
-								["Divine Storm"] = {
-									["count"] = 0.28,
-								},
-								["Righteous Vengeance (DoT)"] = {
-									["count"] = 0.25,
-								},
-								["Judgement"] = {
-									["count"] = 3.5,
-								},
-							},
-							["amount"] = 5.760000000000001,
-						},
-						["Mage Hunter Initiate"] = {
-							["Details"] = {
-								["Exorcism"] = {
-									["count"] = 1.59,
-								},
-								["Divine Storm"] = {
-									["count"] = 3.5,
-								},
-								["Melee"] = {
-									["count"] = 1.46,
-								},
-								["Crusader Strike"] = {
-									["count"] = 0.1,
-								},
-								["Righteous Vengeance (DoT)"] = {
-									["count"] = 3.58,
-								},
-								["Judgement"] = {
-									["count"] = 0.96,
-								},
-							},
-							["amount"] = 11.19,
-						},
-						["Angeletee"] = {
-							["Details"] = {
-								["Divine Storm"] = {
-									["count"] = 0,
-								},
-								["Holy Light"] = {
-									["count"] = 3.5,
-								},
-								["Judgement of Light"] = {
-									["count"] = 4.38,
-								},
-								["Improved Leader of the Pack"] = {
-									["count"] = 5.630000000000001,
-								},
-							},
-							["amount"] = 13.51,
-						},
-						["Maijuur"] = {
-							["Details"] = {
-								["Divine Storm"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Steward"] = {
-							["Details"] = {
-								["Consecration (DoT)"] = {
-									["count"] = 1.06,
-								},
-								["Melee"] = {
-									["count"] = 7.25,
-								},
-								["Divine Storm"] = {
-									["count"] = 0.22,
-								},
-								["Hammer of Wrath"] = {
-									["count"] = 0.62,
-								},
-								["Crusader Strike"] = {
-									["count"] = 2.4,
-								},
-								["Righteous Vengeance (DoT)"] = {
-									["count"] = 3.48,
-								},
-								["Judgement"] = {
-									["count"] = 0.64,
-								},
-							},
-							["amount"] = 15.67,
-						},
-						["Bigepapa"] = {
-							["Details"] = {
-								["Divine Storm"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Casketbasher <Urgash>"] = {
-							["Details"] = {
-								["Divine Storm"] = {
-									["count"] = 0.01,
-								},
-							},
-							["amount"] = 0.01,
-						},
-						["Mage Hunter Ascendant"] = {
-							["Details"] = {
-								["Divine Storm"] = {
-									["count"] = 0,
-								},
-								["Crusader Strike"] = {
-									["count"] = 1.48,
-								},
-								["Melee"] = {
-									["count"] = 1.06,
-								},
-								["Righteous Vengeance (DoT)"] = {
-									["count"] = 1.12,
-								},
-							},
-							["amount"] = 3.66,
-						},
-					},
-					["WhoDispelled"] = {
-					},
-					["InterruptData"] = {
-					},
-					["ElementTakenResist"] = {
-					},
-					["Heals"] = {
-						["Divine Storm"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 340,
-									["min"] = 49,
-									["count"] = 34,
-									["amount"] = 7467,
-								},
-							},
-							["count"] = 34,
-							["amount"] = 7467,
-						},
-						["Holy Light"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 9628,
-									["min"] = 9628,
-									["count"] = 1,
-									["amount"] = 9628,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 9628,
-						},
-						["Judgement of Light"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 557,
-									["min"] = 465,
-									["count"] = 9,
-									["amount"] = 4277,
-								},
-							},
-							["count"] = 9,
-							["amount"] = 4277,
-						},
-						["Improved Leader of the Pack"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 465,
-									["min"] = 465,
-									["count"] = 5,
-									["amount"] = 2325,
-								},
-							},
-							["count"] = 5,
-							["amount"] = 2325,
-						},
-					},
-					["Interrupts"] = 0,
-					["EnergyGained"] = {
-					},
 					["PartialResist"] = {
 						["Ice Nova"] = {
 							["Details"] = {
@@ -74499,21 +74276,223 @@ RecountPerCharDB = {
 							["amount"] = 0,
 						},
 					},
-					["Healing"] = 23697,
-					["RageGained"] = {
+					["ManaGained"] = {
+						["Seal of Wisdom"] = {
+							["Details"] = {
+								["Angeletee"] = {
+									["count"] = 11682,
+								},
+							},
+							["amount"] = 11682,
+						},
 					},
-					["OverHeals"] = {
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["Overhealing"] = 9333,
+					["TimeSpent"] = {
+						["Jungee"] = {
+							["Details"] = {
+								["Divine Storm"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Urgash"] = {
+							["Details"] = {
+								["Divine Storm"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Grand Magus Telestra"] = {
+							["Details"] = {
+								["Consecration (DoT)"] = {
+									["count"] = 10.45,
+								},
+								["Exorcism"] = {
+									["count"] = 2.08,
+								},
+								["Melee"] = {
+									["count"] = 3.77,
+								},
+								["Divine Storm"] = {
+									["count"] = 2.34,
+								},
+								["Hammer of Wrath"] = {
+									["count"] = 0,
+								},
+								["Crusader Strike"] = {
+									["count"] = 5.41,
+								},
+								["Righteous Vengeance (DoT)"] = {
+									["count"] = 12.57,
+								},
+								["Judgement"] = {
+									["count"] = 2.82,
+								},
+							},
+							["amount"] = 39.44,
+						},
+						["Mage Slayer"] = {
+							["Details"] = {
+								["Exorcism"] = {
+									["count"] = 1.5,
+								},
+								["Melee"] = {
+									["count"] = 0.23,
+								},
+								["Divine Storm"] = {
+									["count"] = 0.28,
+								},
+								["Righteous Vengeance (DoT)"] = {
+									["count"] = 0.25,
+								},
+								["Judgement"] = {
+									["count"] = 3.5,
+								},
+							},
+							["amount"] = 5.760000000000001,
+						},
+						["Mage Hunter Initiate"] = {
+							["Details"] = {
+								["Exorcism"] = {
+									["count"] = 1.59,
+								},
+								["Divine Storm"] = {
+									["count"] = 3.5,
+								},
+								["Melee"] = {
+									["count"] = 1.46,
+								},
+								["Crusader Strike"] = {
+									["count"] = 0.1,
+								},
+								["Righteous Vengeance (DoT)"] = {
+									["count"] = 3.58,
+								},
+								["Judgement"] = {
+									["count"] = 0.96,
+								},
+							},
+							["amount"] = 11.19,
+						},
+						["Angeletee"] = {
+							["Details"] = {
+								["Judgement of Light"] = {
+									["count"] = 4.38,
+								},
+								["Holy Light"] = {
+									["count"] = 3.5,
+								},
+								["Improved Leader of the Pack"] = {
+									["count"] = 5.630000000000001,
+								},
+								["Divine Storm"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 13.51,
+						},
+						["Maijuur"] = {
+							["Details"] = {
+								["Divine Storm"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Steward"] = {
+							["Details"] = {
+								["Consecration (DoT)"] = {
+									["count"] = 1.06,
+								},
+								["Melee"] = {
+									["count"] = 7.25,
+								},
+								["Divine Storm"] = {
+									["count"] = 0.22,
+								},
+								["Hammer of Wrath"] = {
+									["count"] = 0.62,
+								},
+								["Crusader Strike"] = {
+									["count"] = 2.4,
+								},
+								["Righteous Vengeance (DoT)"] = {
+									["count"] = 3.48,
+								},
+								["Judgement"] = {
+									["count"] = 0.64,
+								},
+							},
+							["amount"] = 15.67,
+						},
+						["Bigepapa"] = {
+							["Details"] = {
+								["Divine Storm"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Casketbasher <Urgash>"] = {
+							["Details"] = {
+								["Divine Storm"] = {
+									["count"] = 0.01,
+								},
+							},
+							["amount"] = 0.01,
+						},
+						["Mage Hunter Ascendant"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 1.06,
+								},
+								["Crusader Strike"] = {
+									["count"] = 1.48,
+								},
+								["Righteous Vengeance (DoT)"] = {
+									["count"] = 1.12,
+								},
+								["Divine Storm"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 3.66,
+						},
+					},
+					["WhoDispelled"] = {
+					},
+					["InterruptData"] = {
+					},
+					["ElementTakenResist"] = {
+					},
+					["Heals"] = {
 						["Judgement of Light"] = {
 							["Details"] = {
 								["Tick"] = {
-									["max"] = 465,
+									["max"] = 557,
 									["min"] = 465,
-									["count"] = 11,
-									["amount"] = 5115,
+									["count"] = 9,
+									["amount"] = 4277,
 								},
 							},
-							["count"] = 11,
-							["amount"] = 5115,
+							["count"] = 9,
+							["amount"] = 4277,
+						},
+						["Holy Light"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 9628,
+									["min"] = 9628,
+									["count"] = 1,
+									["amount"] = 9628,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 9628,
 						},
 						["Improved Leader of the Pack"] = {
 							["Details"] = {
@@ -74530,15 +74509,23 @@ RecountPerCharDB = {
 						["Divine Storm"] = {
 							["Details"] = {
 								["Tick"] = {
-									["max"] = 319,
-									["min"] = 93,
-									["count"] = 10,
-									["amount"] = 1893,
+									["max"] = 340,
+									["min"] = 49,
+									["count"] = 34,
+									["amount"] = 7467,
 								},
 							},
-							["count"] = 10,
-							["amount"] = 1893,
+							["count"] = 34,
+							["amount"] = 7467,
 						},
+					},
+					["ActiveTime"] = 89.23999999999997,
+					["EnergyGained"] = {
+					},
+					["EnergyGain"] = 0,
+					["Healing"] = 23697,
+					["Dispelled"] = 0,
+					["RageGained"] = {
 					},
 					["Attacks"] = {
 						["Consecration (DoT)"] = {
@@ -74793,24 +74780,64 @@ RecountPerCharDB = {
 						},
 						["Mage Hunter Ascendant"] = {
 							["Details"] = {
-								["Divine Storm"] = {
-									["count"] = 0,
+								["Melee"] = {
+									["count"] = 1.06,
 								},
 								["Crusader Strike"] = {
 									["count"] = 1.48,
 								},
-								["Melee"] = {
-									["count"] = 1.06,
-								},
 								["Righteous Vengeance (DoT)"] = {
 									["count"] = 1.12,
+								},
+								["Divine Storm"] = {
+									["count"] = 0,
 								},
 							},
 							["amount"] = 3.66,
 						},
 					},
 					["ManaGain"] = 11682,
-					["DOT_Time"] = 99,
+					["HOTs"] = {
+						["Improved Leader of the Pack"] = {
+							["Details"] = {
+								["Angeletee"] = {
+									["count"] = 30,
+								},
+							},
+							["amount"] = 30,
+						},
+						["Divine Storm"] = {
+							["Details"] = {
+								["Jungee"] = {
+									["count"] = 18,
+								},
+								["Urgash"] = {
+									["count"] = 24,
+								},
+								["Casketbasher <Urgash>"] = {
+									["count"] = 15,
+								},
+								["Bigepapa"] = {
+									["count"] = 18,
+								},
+								["Maijuur"] = {
+									["count"] = 15,
+								},
+								["Angeletee"] = {
+									["count"] = 36,
+								},
+							},
+							["amount"] = 126,
+						},
+						["Judgement of Light"] = {
+							["Details"] = {
+								["Angeletee"] = {
+									["count"] = 60,
+								},
+							},
+							["amount"] = 60,
+						},
+					},
 					["DispelledWho"] = {
 					},
 				},
@@ -74839,11 +74866,11 @@ RecountPerCharDB = {
 								["Crystalline Protector"] = {
 									["count"] = 3,
 								},
-								["Crystalline Keeper"] = {
-									["count"] = 24,
-								},
 								["Azure Warder"] = {
 									["count"] = 6,
+								},
+								["Crystalline Keeper"] = {
+									["count"] = 24,
 								},
 								["Crystalline Tender"] = {
 									["count"] = 6,
@@ -75090,14 +75117,14 @@ RecountPerCharDB = {
 						},
 						["Angeletee"] = {
 							["Details"] = {
-								["Divine Storm"] = {
-									["count"] = 0.02,
-								},
 								["Judgement of Light"] = {
 									["count"] = 41.95,
 								},
 								["Improved Leader of the Pack"] = {
 									["count"] = 15.38,
+								},
+								["Divine Storm"] = {
+									["count"] = 0.02,
 								},
 							},
 							["amount"] = 57.35000000000002,
@@ -75281,14 +75308,14 @@ RecountPerCharDB = {
 						},
 						["Angeletee"] = {
 							["Details"] = {
-								["Divine Storm"] = {
-									["count"] = 2878,
-								},
 								["Judgement of Light"] = {
 									["count"] = 14073,
 								},
 								["Improved Leader of the Pack"] = {
 									["count"] = 5663,
+								},
+								["Divine Storm"] = {
+									["count"] = 2878,
 								},
 							},
 							["amount"] = 22614,
@@ -75480,17 +75507,6 @@ RecountPerCharDB = {
 							},
 							["amount"] = 2600,
 						},
-						["Crystalline Protector"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 2355,
-								},
-								["Shard Spray"] = {
-									["count"] = 4131,
-								},
-							},
-							["amount"] = 6486,
-						},
 						["Azure Enforcer"] = {
 							["Details"] = {
 								["Cleave"] = {
@@ -75501,6 +75517,17 @@ RecountPerCharDB = {
 								},
 							},
 							["amount"] = 11946,
+						},
+						["Crystalline Protector"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 2355,
+								},
+								["Shard Spray"] = {
+									["count"] = 4131,
+								},
+							},
+							["amount"] = 6486,
 						},
 						["Ormorok the Tree-Shaper"] = {
 							["Details"] = {
@@ -75558,14 +75585,14 @@ RecountPerCharDB = {
 						},
 						["Angeletee"] = {
 							["Details"] = {
-								["Divine Storm"] = {
-									["count"] = 0.02,
-								},
 								["Judgement of Light"] = {
 									["count"] = 41.95,
 								},
 								["Improved Leader of the Pack"] = {
 									["count"] = 15.38,
+								},
+								["Divine Storm"] = {
+									["count"] = 0.02,
 								},
 							},
 							["amount"] = 57.35000000000002,
@@ -75583,18 +75610,6 @@ RecountPerCharDB = {
 							},
 							["count"] = 1,
 							["amount"] = 2917,
-						},
-						["Improved Leader of the Pack"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 557,
-									["min"] = 465,
-									["count"] = 15,
-									["amount"] = 7071,
-								},
-							},
-							["count"] = 15,
-							["amount"] = 7071,
 						},
 						["Judgement of Light"] = {
 							["Details"] = {
@@ -75620,18 +75635,30 @@ RecountPerCharDB = {
 							["count"] = 82,
 							["amount"] = 19212,
 						},
+						["Improved Leader of the Pack"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 557,
+									["min"] = 465,
+									["count"] = 15,
+									["amount"] = 7071,
+								},
+							},
+							["count"] = 15,
+							["amount"] = 7071,
+						},
 					},
 					["PartialResist"] = {
-						["Arcane Missiles"] = {
+						["Crystalfire Breath (DoT)"] = {
 							["Details"] = {
 								["No Resist"] = {
 									["max"] = 0,
 									["min"] = 0,
-									["count"] = 3,
+									["count"] = 4,
 									["amount"] = 0,
 								},
 							},
-							["count"] = 3,
+							["count"] = 4,
 							["amount"] = 0,
 						},
 						["Trample"] = {
@@ -75658,16 +75685,16 @@ RecountPerCharDB = {
 							["count"] = 6,
 							["amount"] = 0,
 						},
-						["Mana Burn"] = {
+						["Cleave"] = {
 							["Details"] = {
 								["No Resist"] = {
 									["max"] = 0,
 									["min"] = 0,
-									["count"] = 5,
+									["count"] = 2,
 									["amount"] = 0,
 								},
 							},
-							["count"] = 5,
+							["count"] = 2,
 							["amount"] = 0,
 						},
 						["Crystalfire Breath"] = {
@@ -75682,31 +75709,7 @@ RecountPerCharDB = {
 							["count"] = 1,
 							["amount"] = 0,
 						},
-						["Crystalfire Breath (DoT)"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 4,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 4,
-							["amount"] = 0,
-						},
-						["Tail Sweep"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 2,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 2,
-							["amount"] = 0,
-						},
-						["Falling"] = {
+						["Arcane Missiles"] = {
 							["Details"] = {
 								["No Resist"] = {
 									["max"] = 0,
@@ -75728,6 +75731,54 @@ RecountPerCharDB = {
 								},
 							},
 							["count"] = 4,
+							["amount"] = 0,
+						},
+						["Chaotic Energy Burst"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 13,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 13,
+							["amount"] = 0,
+						},
+						["Crystal Bark"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 17,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 17,
+							["amount"] = 0,
+						},
+						["Crystallize"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 3,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 3,
+							["amount"] = 0,
+						},
+						["Shard Spray"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
 							["amount"] = 0,
 						},
 						["Intense Cold (DoT)"] = {
@@ -75754,40 +75805,16 @@ RecountPerCharDB = {
 							["count"] = 34,
 							["amount"] = 5707,
 						},
-						["Shard Spray"] = {
+						["Tail Sweep"] = {
 							["Details"] = {
 								["No Resist"] = {
 									["max"] = 0,
 									["min"] = 0,
-									["count"] = 1,
+									["count"] = 2,
 									["amount"] = 0,
 								},
 							},
-							["count"] = 1,
-							["amount"] = 0,
-						},
-						["Crystallize"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 3,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 3,
-							["amount"] = 0,
-						},
-						["Chaotic Energy Burst"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 13,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 13,
+							["count"] = 2,
 							["amount"] = 0,
 						},
 						["Brutal Strike"] = {
@@ -75802,28 +75829,28 @@ RecountPerCharDB = {
 							["count"] = 1,
 							["amount"] = 0,
 						},
-						["Crystal Bark"] = {
+						["Falling"] = {
 							["Details"] = {
 								["No Resist"] = {
 									["max"] = 0,
 									["min"] = 0,
-									["count"] = 17,
+									["count"] = 3,
 									["amount"] = 0,
 								},
 							},
-							["count"] = 17,
+							["count"] = 3,
 							["amount"] = 0,
 						},
-						["Cleave"] = {
+						["Mana Burn"] = {
 							["Details"] = {
 								["No Resist"] = {
 									["max"] = 0,
 									["min"] = 0,
-									["count"] = 2,
+									["count"] = 5,
 									["amount"] = 0,
 								},
 							},
-							["count"] = 2,
+							["count"] = 5,
 							["amount"] = 0,
 						},
 					},
@@ -75838,16 +75865,16 @@ RecountPerCharDB = {
 						},
 					},
 					["PartialAbsorb"] = {
-						["Arcane Missiles"] = {
+						["Crystalfire Breath (DoT)"] = {
 							["Details"] = {
 								["No Absorb"] = {
 									["max"] = 0,
 									["min"] = 0,
-									["count"] = 3,
+									["count"] = 4,
 									["amount"] = 0,
 								},
 							},
-							["count"] = 3,
+							["count"] = 4,
 							["amount"] = 0,
 						},
 						["Trample"] = {
@@ -75874,16 +75901,16 @@ RecountPerCharDB = {
 							["count"] = 6,
 							["amount"] = 0,
 						},
-						["Mana Burn"] = {
+						["Cleave"] = {
 							["Details"] = {
 								["No Absorb"] = {
 									["max"] = 0,
 									["min"] = 0,
-									["count"] = 5,
+									["count"] = 2,
 									["amount"] = 0,
 								},
 							},
-							["count"] = 5,
+							["count"] = 2,
 							["amount"] = 0,
 						},
 						["Crystalfire Breath"] = {
@@ -75898,31 +75925,7 @@ RecountPerCharDB = {
 							["count"] = 1,
 							["amount"] = 0,
 						},
-						["Crystalfire Breath (DoT)"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 4,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 4,
-							["amount"] = 0,
-						},
-						["Tail Sweep"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 2,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 2,
-							["amount"] = 0,
-						},
-						["Falling"] = {
+						["Arcane Missiles"] = {
 							["Details"] = {
 								["No Absorb"] = {
 									["max"] = 0,
@@ -75946,42 +75949,6 @@ RecountPerCharDB = {
 							["count"] = 4,
 							["amount"] = 0,
 						},
-						["Intense Cold (DoT)"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 34,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 34,
-							["amount"] = 0,
-						},
-						["Shard Spray"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 0,
-						},
-						["Crystallize"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 3,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 3,
-							["amount"] = 0,
-						},
 						["Chaotic Energy Burst"] = {
 							["Details"] = {
 								["No Absorb"] = {
@@ -75992,18 +75959,6 @@ RecountPerCharDB = {
 								},
 							},
 							["count"] = 13,
-							["amount"] = 0,
-						},
-						["Brutal Strike"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 1,
 							["amount"] = 0,
 						},
 						["Crystal Bark"] = {
@@ -76018,7 +75973,43 @@ RecountPerCharDB = {
 							["count"] = 17,
 							["amount"] = 0,
 						},
-						["Cleave"] = {
+						["Crystallize"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 3,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 3,
+							["amount"] = 0,
+						},
+						["Shard Spray"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+						["Intense Cold (DoT)"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 34,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 34,
+							["amount"] = 0,
+						},
+						["Tail Sweep"] = {
 							["Details"] = {
 								["No Absorb"] = {
 									["max"] = 0,
@@ -76028,6 +76019,42 @@ RecountPerCharDB = {
 								},
 							},
 							["count"] = 2,
+							["amount"] = 0,
+						},
+						["Brutal Strike"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+						["Falling"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 3,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 3,
+							["amount"] = 0,
+						},
+						["Mana Burn"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 5,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 5,
 							["amount"] = 0,
 						},
 					},
@@ -76049,18 +76076,6 @@ RecountPerCharDB = {
 						},
 					},
 					["Heals"] = {
-						["Divine Storm"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 448,
-									["min"] = 33,
-									["count"] = 47,
-									["amount"] = 9155,
-								},
-							},
-							["count"] = 47,
-							["amount"] = 9155,
-						},
 						["Judgement of Light"] = {
 							["Details"] = {
 								["Tick"] = {
@@ -76084,6 +76099,18 @@ RecountPerCharDB = {
 							},
 							["count"] = 12,
 							["amount"] = 5663,
+						},
+						["Divine Storm"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 448,
+									["min"] = 33,
+									["count"] = 47,
+									["amount"] = 9155,
+								},
+							},
+							["count"] = 47,
+							["amount"] = 9155,
 						},
 					},
 					["FDamage"] = 5942,
@@ -76206,14 +76233,14 @@ RecountPerCharDB = {
 						},
 						["Angeletee"] = {
 							["Details"] = {
-								["Divine Storm"] = {
-									["count"] = 2878,
-								},
 								["Judgement of Light"] = {
 									["count"] = 14073,
 								},
 								["Improved Leader of the Pack"] = {
 									["count"] = 5663,
+								},
+								["Divine Storm"] = {
+									["count"] = 2878,
 								},
 							},
 							["amount"] = 22614,
@@ -76351,21 +76378,21 @@ RecountPerCharDB = {
 									["count"] = 0,
 									["amount"] = 0,
 								},
+								["Dodge"] = {
+									["count"] = 2,
+									["amount"] = 0,
+								},
 								["Hit"] = {
 									["max"] = 2100,
 									["min"] = 1187,
 									["count"] = 20,
 									["amount"] = 30114,
 								},
-								["Dodge"] = {
+								["Crit (Blocked)"] = {
+									["max"] = 2780,
+									["min"] = 2500,
 									["count"] = 2,
-									["amount"] = 0,
-								},
-								["Hit (Blocked)"] = {
-									["max"] = 1196,
-									["min"] = 1196,
-									["count"] = 1,
-									["amount"] = 1196,
+									["amount"] = 5280,
 								},
 								["Immune"] = {
 									["count"] = 1,
@@ -76377,11 +76404,11 @@ RecountPerCharDB = {
 									["count"] = 6,
 									["amount"] = 17318,
 								},
-								["Crit (Blocked)"] = {
-									["max"] = 2780,
-									["min"] = 2500,
-									["count"] = 2,
-									["amount"] = 5280,
+								["Hit (Blocked)"] = {
+									["max"] = 1196,
+									["min"] = 1196,
+									["count"] = 1,
+									["amount"] = 1196,
 								},
 							},
 							["count"] = 32,
@@ -76426,14 +76453,6 @@ RecountPerCharDB = {
 					},
 					["HealingTaken"] = 62575,
 					["HOTs"] = {
-						["Improved Leader of the Pack"] = {
-							["Details"] = {
-								["Angeletee"] = {
-									["count"] = 78,
-								},
-							},
-							["amount"] = 78,
-						},
 						["Judgement of Light"] = {
 							["Details"] = {
 								["Angeletee"] = {
@@ -76464,6 +76483,14 @@ RecountPerCharDB = {
 								},
 							},
 							["amount"] = 351,
+						},
+						["Improved Leader of the Pack"] = {
+							["Details"] = {
+								["Angeletee"] = {
+									["count"] = 78,
+								},
+							},
+							["amount"] = 78,
 						},
 					},
 					["TimeDamage"] = 206.7199999999999,
@@ -76629,29 +76656,6 @@ RecountPerCharDB = {
 							},
 							["amount"] = 24.17,
 						},
-						["Azure Warder"] = {
-							["Details"] = {
-								["Exorcism"] = {
-									["count"] = 3.1,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Divine Storm"] = {
-									["count"] = 1.54,
-								},
-								["Crusader Strike"] = {
-									["count"] = 0.79,
-								},
-								["Righteous Vengeance (DoT)"] = {
-									["count"] = 2.58,
-								},
-								["Judgement"] = {
-									["count"] = 3.68,
-								},
-							},
-							["amount"] = 11.69,
-						},
 						["Crystalline Keeper"] = {
 							["Details"] = {
 								["Consecration (DoT)"] = {
@@ -76680,6 +76684,29 @@ RecountPerCharDB = {
 								},
 							},
 							["amount"] = 17.13,
+						},
+						["Azure Warder"] = {
+							["Details"] = {
+								["Exorcism"] = {
+									["count"] = 3.1,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Divine Storm"] = {
+									["count"] = 1.54,
+								},
+								["Crusader Strike"] = {
+									["count"] = 0.79,
+								},
+								["Righteous Vengeance (DoT)"] = {
+									["count"] = 2.58,
+								},
+								["Judgement"] = {
+									["count"] = 3.68,
+								},
+							},
+							["amount"] = 11.69,
 						},
 						["Crystalline Tender"] = {
 							["Details"] = {
@@ -76947,6 +76974,29 @@ RecountPerCharDB = {
 							},
 							["amount"] = 31368,
 						},
+						["Azure Warder"] = {
+							["Details"] = {
+								["Exorcism"] = {
+									["count"] = 2750,
+								},
+								["Melee"] = {
+									["count"] = 4005,
+								},
+								["Divine Storm"] = {
+									["count"] = 1627,
+								},
+								["Crusader Strike"] = {
+									["count"] = 2430,
+								},
+								["Righteous Vengeance (DoT)"] = {
+									["count"] = 546,
+								},
+								["Judgement"] = {
+									["count"] = 2943,
+								},
+							},
+							["amount"] = 14301,
+						},
 						["Crystalline Keeper"] = {
 							["Details"] = {
 								["Consecration (DoT)"] = {
@@ -76975,29 +77025,6 @@ RecountPerCharDB = {
 								},
 							},
 							["amount"] = 65455,
-						},
-						["Azure Warder"] = {
-							["Details"] = {
-								["Exorcism"] = {
-									["count"] = 2750,
-								},
-								["Melee"] = {
-									["count"] = 4005,
-								},
-								["Divine Storm"] = {
-									["count"] = 1627,
-								},
-								["Crusader Strike"] = {
-									["count"] = 2430,
-								},
-								["Righteous Vengeance (DoT)"] = {
-									["count"] = 546,
-								},
-								["Judgement"] = {
-									["count"] = 2943,
-								},
-							},
-							["amount"] = 14301,
 						},
 						["Crystalline Tender"] = {
 							["Details"] = {
@@ -77121,11 +77148,11 @@ RecountPerCharDB = {
 								["Crystalline Protector"] = {
 									["count"] = 3,
 								},
-								["Crystalline Keeper"] = {
-									["count"] = 24,
-								},
 								["Azure Warder"] = {
 									["count"] = 6,
+								},
+								["Crystalline Keeper"] = {
+									["count"] = 24,
 								},
 								["Crystalline Tender"] = {
 									["count"] = 6,
@@ -77372,14 +77399,14 @@ RecountPerCharDB = {
 						},
 						["Angeletee"] = {
 							["Details"] = {
-								["Divine Storm"] = {
-									["count"] = 0.02,
-								},
 								["Judgement of Light"] = {
 									["count"] = 41.95,
 								},
 								["Improved Leader of the Pack"] = {
 									["count"] = 15.38,
+								},
+								["Divine Storm"] = {
+									["count"] = 0.02,
 								},
 							},
 							["amount"] = 57.35000000000002,
@@ -77563,14 +77590,14 @@ RecountPerCharDB = {
 						},
 						["Angeletee"] = {
 							["Details"] = {
-								["Divine Storm"] = {
-									["count"] = 2878,
-								},
 								["Judgement of Light"] = {
 									["count"] = 14073,
 								},
 								["Improved Leader of the Pack"] = {
 									["count"] = 5663,
+								},
+								["Divine Storm"] = {
+									["count"] = 2878,
 								},
 							},
 							["amount"] = 22614,
@@ -77762,17 +77789,6 @@ RecountPerCharDB = {
 							},
 							["amount"] = 2600,
 						},
-						["Crystalline Protector"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 2355,
-								},
-								["Shard Spray"] = {
-									["count"] = 4131,
-								},
-							},
-							["amount"] = 6486,
-						},
 						["Azure Enforcer"] = {
 							["Details"] = {
 								["Cleave"] = {
@@ -77783,6 +77799,17 @@ RecountPerCharDB = {
 								},
 							},
 							["amount"] = 11946,
+						},
+						["Crystalline Protector"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 2355,
+								},
+								["Shard Spray"] = {
+									["count"] = 4131,
+								},
+							},
+							["amount"] = 6486,
 						},
 						["Ormorok the Tree-Shaper"] = {
 							["Details"] = {
@@ -77840,14 +77867,14 @@ RecountPerCharDB = {
 						},
 						["Angeletee"] = {
 							["Details"] = {
-								["Divine Storm"] = {
-									["count"] = 0.02,
-								},
 								["Judgement of Light"] = {
 									["count"] = 41.95,
 								},
 								["Improved Leader of the Pack"] = {
 									["count"] = 15.38,
+								},
+								["Divine Storm"] = {
+									["count"] = 0.02,
 								},
 							},
 							["amount"] = 57.35000000000002,
@@ -77865,18 +77892,6 @@ RecountPerCharDB = {
 							},
 							["count"] = 1,
 							["amount"] = 2917,
-						},
-						["Improved Leader of the Pack"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 557,
-									["min"] = 465,
-									["count"] = 15,
-									["amount"] = 7071,
-								},
-							},
-							["count"] = 15,
-							["amount"] = 7071,
 						},
 						["Judgement of Light"] = {
 							["Details"] = {
@@ -77902,18 +77917,30 @@ RecountPerCharDB = {
 							["count"] = 82,
 							["amount"] = 19212,
 						},
+						["Improved Leader of the Pack"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 557,
+									["min"] = 465,
+									["count"] = 15,
+									["amount"] = 7071,
+								},
+							},
+							["count"] = 15,
+							["amount"] = 7071,
+						},
 					},
 					["PartialResist"] = {
-						["Arcane Missiles"] = {
+						["Crystalfire Breath (DoT)"] = {
 							["Details"] = {
 								["No Resist"] = {
 									["max"] = 0,
 									["min"] = 0,
-									["count"] = 3,
+									["count"] = 4,
 									["amount"] = 0,
 								},
 							},
-							["count"] = 3,
+							["count"] = 4,
 							["amount"] = 0,
 						},
 						["Trample"] = {
@@ -77940,16 +77967,16 @@ RecountPerCharDB = {
 							["count"] = 6,
 							["amount"] = 0,
 						},
-						["Mana Burn"] = {
+						["Cleave"] = {
 							["Details"] = {
 								["No Resist"] = {
 									["max"] = 0,
 									["min"] = 0,
-									["count"] = 5,
+									["count"] = 2,
 									["amount"] = 0,
 								},
 							},
-							["count"] = 5,
+							["count"] = 2,
 							["amount"] = 0,
 						},
 						["Crystalfire Breath"] = {
@@ -77964,31 +77991,7 @@ RecountPerCharDB = {
 							["count"] = 1,
 							["amount"] = 0,
 						},
-						["Crystalfire Breath (DoT)"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 4,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 4,
-							["amount"] = 0,
-						},
-						["Tail Sweep"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 2,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 2,
-							["amount"] = 0,
-						},
-						["Falling"] = {
+						["Arcane Missiles"] = {
 							["Details"] = {
 								["No Resist"] = {
 									["max"] = 0,
@@ -78010,6 +78013,54 @@ RecountPerCharDB = {
 								},
 							},
 							["count"] = 4,
+							["amount"] = 0,
+						},
+						["Chaotic Energy Burst"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 13,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 13,
+							["amount"] = 0,
+						},
+						["Crystal Bark"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 17,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 17,
+							["amount"] = 0,
+						},
+						["Crystallize"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 3,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 3,
+							["amount"] = 0,
+						},
+						["Shard Spray"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
 							["amount"] = 0,
 						},
 						["Intense Cold (DoT)"] = {
@@ -78036,40 +78087,16 @@ RecountPerCharDB = {
 							["count"] = 34,
 							["amount"] = 5707,
 						},
-						["Shard Spray"] = {
+						["Tail Sweep"] = {
 							["Details"] = {
 								["No Resist"] = {
 									["max"] = 0,
 									["min"] = 0,
-									["count"] = 1,
+									["count"] = 2,
 									["amount"] = 0,
 								},
 							},
-							["count"] = 1,
-							["amount"] = 0,
-						},
-						["Crystallize"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 3,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 3,
-							["amount"] = 0,
-						},
-						["Chaotic Energy Burst"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 13,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 13,
+							["count"] = 2,
 							["amount"] = 0,
 						},
 						["Brutal Strike"] = {
@@ -78084,28 +78111,28 @@ RecountPerCharDB = {
 							["count"] = 1,
 							["amount"] = 0,
 						},
-						["Crystal Bark"] = {
+						["Falling"] = {
 							["Details"] = {
 								["No Resist"] = {
 									["max"] = 0,
 									["min"] = 0,
-									["count"] = 17,
+									["count"] = 3,
 									["amount"] = 0,
 								},
 							},
-							["count"] = 17,
+							["count"] = 3,
 							["amount"] = 0,
 						},
-						["Cleave"] = {
+						["Mana Burn"] = {
 							["Details"] = {
 								["No Resist"] = {
 									["max"] = 0,
 									["min"] = 0,
-									["count"] = 2,
+									["count"] = 5,
 									["amount"] = 0,
 								},
 							},
-							["count"] = 2,
+							["count"] = 5,
 							["amount"] = 0,
 						},
 					},
@@ -78120,16 +78147,16 @@ RecountPerCharDB = {
 						},
 					},
 					["PartialAbsorb"] = {
-						["Arcane Missiles"] = {
+						["Crystalfire Breath (DoT)"] = {
 							["Details"] = {
 								["No Absorb"] = {
 									["max"] = 0,
 									["min"] = 0,
-									["count"] = 3,
+									["count"] = 4,
 									["amount"] = 0,
 								},
 							},
-							["count"] = 3,
+							["count"] = 4,
 							["amount"] = 0,
 						},
 						["Trample"] = {
@@ -78156,16 +78183,16 @@ RecountPerCharDB = {
 							["count"] = 6,
 							["amount"] = 0,
 						},
-						["Mana Burn"] = {
+						["Cleave"] = {
 							["Details"] = {
 								["No Absorb"] = {
 									["max"] = 0,
 									["min"] = 0,
-									["count"] = 5,
+									["count"] = 2,
 									["amount"] = 0,
 								},
 							},
-							["count"] = 5,
+							["count"] = 2,
 							["amount"] = 0,
 						},
 						["Crystalfire Breath"] = {
@@ -78180,31 +78207,7 @@ RecountPerCharDB = {
 							["count"] = 1,
 							["amount"] = 0,
 						},
-						["Crystalfire Breath (DoT)"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 4,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 4,
-							["amount"] = 0,
-						},
-						["Tail Sweep"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 2,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 2,
-							["amount"] = 0,
-						},
-						["Falling"] = {
+						["Arcane Missiles"] = {
 							["Details"] = {
 								["No Absorb"] = {
 									["max"] = 0,
@@ -78228,42 +78231,6 @@ RecountPerCharDB = {
 							["count"] = 4,
 							["amount"] = 0,
 						},
-						["Intense Cold (DoT)"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 34,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 34,
-							["amount"] = 0,
-						},
-						["Shard Spray"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 0,
-						},
-						["Crystallize"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 3,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 3,
-							["amount"] = 0,
-						},
 						["Chaotic Energy Burst"] = {
 							["Details"] = {
 								["No Absorb"] = {
@@ -78274,18 +78241,6 @@ RecountPerCharDB = {
 								},
 							},
 							["count"] = 13,
-							["amount"] = 0,
-						},
-						["Brutal Strike"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 1,
 							["amount"] = 0,
 						},
 						["Crystal Bark"] = {
@@ -78300,7 +78255,43 @@ RecountPerCharDB = {
 							["count"] = 17,
 							["amount"] = 0,
 						},
-						["Cleave"] = {
+						["Crystallize"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 3,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 3,
+							["amount"] = 0,
+						},
+						["Shard Spray"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+						["Intense Cold (DoT)"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 34,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 34,
+							["amount"] = 0,
+						},
+						["Tail Sweep"] = {
 							["Details"] = {
 								["No Absorb"] = {
 									["max"] = 0,
@@ -78310,6 +78301,42 @@ RecountPerCharDB = {
 								},
 							},
 							["count"] = 2,
+							["amount"] = 0,
+						},
+						["Brutal Strike"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+						["Falling"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 3,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 3,
+							["amount"] = 0,
+						},
+						["Mana Burn"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 5,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 5,
 							["amount"] = 0,
 						},
 					},
@@ -78331,18 +78358,6 @@ RecountPerCharDB = {
 						},
 					},
 					["Heals"] = {
-						["Divine Storm"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 448,
-									["min"] = 33,
-									["count"] = 47,
-									["amount"] = 9155,
-								},
-							},
-							["count"] = 47,
-							["amount"] = 9155,
-						},
 						["Judgement of Light"] = {
 							["Details"] = {
 								["Tick"] = {
@@ -78366,6 +78381,18 @@ RecountPerCharDB = {
 							},
 							["count"] = 12,
 							["amount"] = 5663,
+						},
+						["Divine Storm"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 448,
+									["min"] = 33,
+									["count"] = 47,
+									["amount"] = 9155,
+								},
+							},
+							["count"] = 47,
+							["amount"] = 9155,
 						},
 					},
 					["FDamage"] = 5942,
@@ -78488,14 +78515,14 @@ RecountPerCharDB = {
 						},
 						["Angeletee"] = {
 							["Details"] = {
-								["Divine Storm"] = {
-									["count"] = 2878,
-								},
 								["Judgement of Light"] = {
 									["count"] = 14073,
 								},
 								["Improved Leader of the Pack"] = {
 									["count"] = 5663,
+								},
+								["Divine Storm"] = {
+									["count"] = 2878,
 								},
 							},
 							["amount"] = 22614,
@@ -78633,21 +78660,21 @@ RecountPerCharDB = {
 									["count"] = 0,
 									["amount"] = 0,
 								},
+								["Dodge"] = {
+									["count"] = 2,
+									["amount"] = 0,
+								},
 								["Hit"] = {
 									["max"] = 2100,
 									["min"] = 1187,
 									["count"] = 20,
 									["amount"] = 30114,
 								},
-								["Dodge"] = {
+								["Crit (Blocked)"] = {
+									["max"] = 2780,
+									["min"] = 2500,
 									["count"] = 2,
-									["amount"] = 0,
-								},
-								["Hit (Blocked)"] = {
-									["max"] = 1196,
-									["min"] = 1196,
-									["count"] = 1,
-									["amount"] = 1196,
+									["amount"] = 5280,
 								},
 								["Immune"] = {
 									["count"] = 1,
@@ -78659,11 +78686,11 @@ RecountPerCharDB = {
 									["count"] = 6,
 									["amount"] = 17318,
 								},
-								["Crit (Blocked)"] = {
-									["max"] = 2780,
-									["min"] = 2500,
-									["count"] = 2,
-									["amount"] = 5280,
+								["Hit (Blocked)"] = {
+									["max"] = 1196,
+									["min"] = 1196,
+									["count"] = 1,
+									["amount"] = 1196,
 								},
 							},
 							["count"] = 32,
@@ -78708,14 +78735,6 @@ RecountPerCharDB = {
 					},
 					["HealingTaken"] = 62575,
 					["HOTs"] = {
-						["Improved Leader of the Pack"] = {
-							["Details"] = {
-								["Angeletee"] = {
-									["count"] = 78,
-								},
-							},
-							["amount"] = 78,
-						},
 						["Judgement of Light"] = {
 							["Details"] = {
 								["Angeletee"] = {
@@ -78746,6 +78765,14 @@ RecountPerCharDB = {
 								},
 							},
 							["amount"] = 351,
+						},
+						["Improved Leader of the Pack"] = {
+							["Details"] = {
+								["Angeletee"] = {
+									["count"] = 78,
+								},
+							},
+							["amount"] = 78,
 						},
 					},
 					["TimeDamage"] = 206.7199999999999,
@@ -78911,29 +78938,6 @@ RecountPerCharDB = {
 							},
 							["amount"] = 24.17,
 						},
-						["Azure Warder"] = {
-							["Details"] = {
-								["Exorcism"] = {
-									["count"] = 3.1,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Divine Storm"] = {
-									["count"] = 1.54,
-								},
-								["Crusader Strike"] = {
-									["count"] = 0.79,
-								},
-								["Righteous Vengeance (DoT)"] = {
-									["count"] = 2.58,
-								},
-								["Judgement"] = {
-									["count"] = 3.68,
-								},
-							},
-							["amount"] = 11.69,
-						},
 						["Crystalline Keeper"] = {
 							["Details"] = {
 								["Consecration (DoT)"] = {
@@ -78962,6 +78966,29 @@ RecountPerCharDB = {
 								},
 							},
 							["amount"] = 17.13,
+						},
+						["Azure Warder"] = {
+							["Details"] = {
+								["Exorcism"] = {
+									["count"] = 3.1,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Divine Storm"] = {
+									["count"] = 1.54,
+								},
+								["Crusader Strike"] = {
+									["count"] = 0.79,
+								},
+								["Righteous Vengeance (DoT)"] = {
+									["count"] = 2.58,
+								},
+								["Judgement"] = {
+									["count"] = 3.68,
+								},
+							},
+							["amount"] = 11.69,
 						},
 						["Crystalline Tender"] = {
 							["Details"] = {
@@ -79229,6 +79256,29 @@ RecountPerCharDB = {
 							},
 							["amount"] = 31368,
 						},
+						["Azure Warder"] = {
+							["Details"] = {
+								["Exorcism"] = {
+									["count"] = 2750,
+								},
+								["Melee"] = {
+									["count"] = 4005,
+								},
+								["Divine Storm"] = {
+									["count"] = 1627,
+								},
+								["Crusader Strike"] = {
+									["count"] = 2430,
+								},
+								["Righteous Vengeance (DoT)"] = {
+									["count"] = 546,
+								},
+								["Judgement"] = {
+									["count"] = 2943,
+								},
+							},
+							["amount"] = 14301,
+						},
 						["Crystalline Keeper"] = {
 							["Details"] = {
 								["Consecration (DoT)"] = {
@@ -79257,29 +79307,6 @@ RecountPerCharDB = {
 								},
 							},
 							["amount"] = 65455,
-						},
-						["Azure Warder"] = {
-							["Details"] = {
-								["Exorcism"] = {
-									["count"] = 2750,
-								},
-								["Melee"] = {
-									["count"] = 4005,
-								},
-								["Divine Storm"] = {
-									["count"] = 1627,
-								},
-								["Crusader Strike"] = {
-									["count"] = 2430,
-								},
-								["Righteous Vengeance (DoT)"] = {
-									["count"] = 546,
-								},
-								["Judgement"] = {
-									["count"] = 2943,
-								},
-							},
-							["amount"] = 14301,
 						},
 						["Crystalline Tender"] = {
 							["Details"] = {
@@ -79623,35 +79650,6 @@ RecountPerCharDB = {
 							},
 							["amount"] = 20.8,
 						},
-						["Crystalline Keeper"] = {
-							["Details"] = {
-								["Consecration (DoT)"] = {
-									["count"] = 6.469999999999999,
-								},
-								["Exorcism"] = {
-									["count"] = 0.32,
-								},
-								["Divine Storm"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 1.49,
-								},
-								["Hammer of Wrath"] = {
-									["count"] = 0.8100000000000001,
-								},
-								["Crusader Strike"] = {
-									["count"] = 2.24,
-								},
-								["Righteous Vengeance (DoT)"] = {
-									["count"] = 5.8,
-								},
-								["Judgement"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 17.13,
-						},
 						["Horde Cleric"] = {
 							["Details"] = {
 								["Exorcism"] = {
@@ -79677,6 +79675,29 @@ RecountPerCharDB = {
 								},
 							},
 							["amount"] = 20.7,
+						},
+						["Azure Warder"] = {
+							["Details"] = {
+								["Exorcism"] = {
+									["count"] = 3.1,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Divine Storm"] = {
+									["count"] = 1.54,
+								},
+								["Crusader Strike"] = {
+									["count"] = 0.9300000000000001,
+								},
+								["Righteous Vengeance (DoT)"] = {
+									["count"] = 2.58,
+								},
+								["Judgement"] = {
+									["count"] = 3.68,
+								},
+							},
+							["amount"] = 11.83,
 						},
 						["Steward"] = {
 							["Details"] = {
@@ -79732,17 +79753,17 @@ RecountPerCharDB = {
 						},
 						["Commander Kolurg"] = {
 							["Details"] = {
-								["Melee"] = {
-									["count"] = 1.58,
+								["Divine Storm"] = {
+									["count"] = 0,
 								},
 								["Crusader Strike"] = {
 									["count"] = 0.1,
 								},
-								["Divine Storm"] = {
-									["count"] = 0,
-								},
 								["Hammer of Wrath"] = {
 									["count"] = 1.97,
+								},
+								["Melee"] = {
+									["count"] = 1.58,
 								},
 							},
 							["amount"] = 3.65,
@@ -79936,17 +79957,17 @@ RecountPerCharDB = {
 						},
 						["Angeletee"] = {
 							["Details"] = {
-								["Divine Storm"] = {
-									["count"] = 0.02,
+								["Judgement of Light"] = {
+									["count"] = 64.52999999999999,
 								},
 								["Holy Light"] = {
 									["count"] = 3.5,
 								},
-								["Judgement of Light"] = {
-									["count"] = 64.52999999999999,
-								},
 								["Improved Leader of the Pack"] = {
 									["count"] = 28.54,
+								},
+								["Divine Storm"] = {
+									["count"] = 0.02,
 								},
 							},
 							["amount"] = 96.58999999999998,
@@ -80041,28 +80062,34 @@ RecountPerCharDB = {
 							},
 							["amount"] = 0,
 						},
-						["Azure Warder"] = {
+						["Crystalline Keeper"] = {
 							["Details"] = {
-								["Exorcism"] = {
-									["count"] = 3.1,
+								["Consecration (DoT)"] = {
+									["count"] = 6.469999999999999,
 								},
-								["Melee"] = {
-									["count"] = 0,
+								["Exorcism"] = {
+									["count"] = 0.32,
 								},
 								["Divine Storm"] = {
-									["count"] = 1.54,
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 1.49,
+								},
+								["Hammer of Wrath"] = {
+									["count"] = 0.8100000000000001,
 								},
 								["Crusader Strike"] = {
-									["count"] = 0.9300000000000001,
+									["count"] = 2.24,
 								},
 								["Righteous Vengeance (DoT)"] = {
-									["count"] = 2.58,
+									["count"] = 5.8,
 								},
 								["Judgement"] = {
-									["count"] = 3.68,
+									["count"] = 0,
 								},
 							},
-							["amount"] = 11.83,
+							["amount"] = 17.13,
 						},
 						["Mage Hunter Initiate"] = {
 							["Details"] = {
@@ -80127,17 +80154,17 @@ RecountPerCharDB = {
 						},
 						["Angeletee"] = {
 							["Details"] = {
-								["Divine Storm"] = {
-									["count"] = 6058,
+								["Judgement of Light"] = {
+									["count"] = 27439,
 								},
 								["Holy Light"] = {
 									["count"] = 9628,
 								},
-								["Judgement of Light"] = {
-									["count"] = 27439,
-								},
 								["Improved Leader of the Pack"] = {
 									["count"] = 10927,
+								},
+								["Divine Storm"] = {
+									["count"] = 6058,
 								},
 							},
 							["amount"] = 54052,
@@ -80152,12 +80179,28 @@ RecountPerCharDB = {
 						["Physical"] = 33689,
 						["Melee"] = 8919,
 						["Arcane"] = 14468,
-						["Fire"] = 9400,
 						["Frostfire"] = 10860,
+						["Fire"] = 9400,
 						["Shadow"] = 8166,
 						["Frost"] = 41115,
 					},
 					["HOTs"] = {
+						["Judgement of Light"] = {
+							["Details"] = {
+								["Angeletee"] = {
+									["count"] = 363,
+								},
+							},
+							["amount"] = 363,
+						},
+						["Improved Leader of the Pack"] = {
+							["Details"] = {
+								["Angeletee"] = {
+									["count"] = 144,
+								},
+							},
+							["amount"] = 144,
+						},
 						["Divine Storm"] = {
 							["Details"] = {
 								["Maijuur"] = {
@@ -80180,22 +80223,6 @@ RecountPerCharDB = {
 								},
 							},
 							["amount"] = 648,
-						},
-						["Judgement of Light"] = {
-							["Details"] = {
-								["Angeletee"] = {
-									["count"] = 363,
-								},
-							},
-							["amount"] = 363,
-						},
-						["Improved Leader of the Pack"] = {
-							["Details"] = {
-								["Angeletee"] = {
-									["count"] = 144,
-								},
-							},
-							["amount"] = 144,
 						},
 					},
 					["Damage"] = 817741,
@@ -80305,13 +80332,13 @@ RecountPerCharDB = {
 							},
 							["amount"] = 1575,
 						},
-						["Crystalline Keeper"] = {
+						["Environment"] = {
 							["Details"] = {
-								["Crystal Bark"] = {
-									["count"] = 2600,
+								["Falling"] = {
+									["count"] = 4004,
 								},
 							},
-							["amount"] = 2600,
+							["amount"] = 4004,
 						},
 						["Grand Magus Telestra"] = {
 							["Details"] = {
@@ -80363,13 +80390,22 @@ RecountPerCharDB = {
 							},
 							["amount"] = 1805,
 						},
-						["Horde Berserker"] = {
+						["Keristrasza"] = {
 							["Details"] = {
-								["War Stomp"] = {
-									["count"] = 10816,
+								["Crystalfire Breath"] = {
+									["count"] = 4860,
+								},
+								["Crystalfire Breath (DoT)"] = {
+									["count"] = 6000,
+								},
+								["Crystallize"] = {
+									["count"] = 3371,
+								},
+								["Tail Sweep"] = {
+									["count"] = 932,
 								},
 							},
-							["amount"] = 10816,
+							["amount"] = 15163,
 						},
 						["Mage Hunter Ascendant"] = {
 							["Details"] = {
@@ -80407,14 +80443,6 @@ RecountPerCharDB = {
 							},
 							["amount"] = 6486,
 						},
-						["Environment"] = {
-							["Details"] = {
-								["Falling"] = {
-									["count"] = 4004,
-								},
-							},
-							["amount"] = 4004,
-						},
 						["Horde Cleric"] = {
 							["Details"] = {
 								["Melee"] = {
@@ -80422,6 +80450,14 @@ RecountPerCharDB = {
 								},
 							},
 							["amount"] = 6077,
+						},
+						["Crystalline Keeper"] = {
+							["Details"] = {
+								["Crystal Bark"] = {
+									["count"] = 2600,
+								},
+							},
+							["amount"] = 2600,
 						},
 						["Crazed Mana-Surge"] = {
 							["Details"] = {
@@ -80442,22 +80478,13 @@ RecountPerCharDB = {
 							},
 							["amount"] = 11946,
 						},
-						["Keristrasza"] = {
+						["Horde Berserker"] = {
 							["Details"] = {
-								["Crystalfire Breath"] = {
-									["count"] = 4860,
-								},
-								["Crystalfire Breath (DoT)"] = {
-									["count"] = 6000,
-								},
-								["Crystallize"] = {
-									["count"] = 3371,
-								},
-								["Tail Sweep"] = {
-									["count"] = 932,
+								["War Stomp"] = {
+									["count"] = 10816,
 								},
 							},
-							["amount"] = 15163,
+							["amount"] = 10816,
 						},
 						["Ormorok the Tree-Shaper"] = {
 							["Details"] = {
@@ -80515,17 +80542,17 @@ RecountPerCharDB = {
 						},
 						["Angeletee"] = {
 							["Details"] = {
-								["Divine Storm"] = {
-									["count"] = 0.02,
+								["Judgement of Light"] = {
+									["count"] = 64.52999999999999,
 								},
 								["Holy Light"] = {
 									["count"] = 3.5,
 								},
-								["Judgement of Light"] = {
-									["count"] = 64.52999999999999,
-								},
 								["Improved Leader of the Pack"] = {
 									["count"] = 28.54,
+								},
+								["Divine Storm"] = {
+									["count"] = 0.02,
 								},
 							},
 							["amount"] = 96.58999999999998,
@@ -80543,18 +80570,6 @@ RecountPerCharDB = {
 							},
 							["count"] = 1,
 							["amount"] = 2917,
-						},
-						["Judgement of Light"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 557,
-									["min"] = 15,
-									["count"] = 70,
-									["amount"] = 30850,
-								},
-							},
-							["count"] = 70,
-							["amount"] = 30850,
 						},
 						["Divine Storm"] = {
 							["Details"] = {
@@ -80579,6 +80594,18 @@ RecountPerCharDB = {
 							},
 							["count"] = 26,
 							["amount"] = 12037,
+						},
+						["Judgement of Light"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 557,
+									["min"] = 15,
+									["count"] = 70,
+									["amount"] = 30850,
+								},
+							},
+							["count"] = 70,
+							["amount"] = 30850,
 						},
 					},
 					["PartialResist"] = {
@@ -80786,18 +80813,6 @@ RecountPerCharDB = {
 							["count"] = 4,
 							["amount"] = 0,
 						},
-						["Arcane Missiles"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 3,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 3,
-							["amount"] = 0,
-						},
 						["Crystalfire Breath (DoT)"] = {
 							["Details"] = {
 								["No Resist"] = {
@@ -80808,6 +80823,18 @@ RecountPerCharDB = {
 								},
 							},
 							["count"] = 4,
+							["amount"] = 0,
+						},
+						["Arcane Missiles"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 3,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 3,
 							["amount"] = 0,
 						},
 						["Cleave"] = {
@@ -81134,18 +81161,6 @@ RecountPerCharDB = {
 							["count"] = 4,
 							["amount"] = 0,
 						},
-						["Arcane Missiles"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 3,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 3,
-							["amount"] = 0,
-						},
 						["Crystalfire Breath (DoT)"] = {
 							["Details"] = {
 								["No Absorb"] = {
@@ -81156,6 +81171,18 @@ RecountPerCharDB = {
 								},
 							},
 							["count"] = 4,
+							["amount"] = 0,
+						},
+						["Arcane Missiles"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 3,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 3,
 							["amount"] = 0,
 						},
 						["Cleave"] = {
@@ -81297,17 +81324,17 @@ RecountPerCharDB = {
 						},
 					},
 					["Heals"] = {
-						["Divine Storm"] = {
+						["Judgement of Light"] = {
 							["Details"] = {
 								["Tick"] = {
-									["max"] = 448,
-									["min"] = 33,
-									["count"] = 122,
-									["amount"] = 23985,
+									["max"] = 557,
+									["min"] = 145,
+									["count"] = 63,
+									["amount"] = 27439,
 								},
 							},
-							["count"] = 122,
-							["amount"] = 23985,
+							["count"] = 63,
+							["amount"] = 27439,
 						},
 						["Holy Light"] = {
 							["Details"] = {
@@ -81321,18 +81348,6 @@ RecountPerCharDB = {
 							["count"] = 1,
 							["amount"] = 9628,
 						},
-						["Judgement of Light"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 557,
-									["min"] = 145,
-									["count"] = 63,
-									["amount"] = 27439,
-								},
-							},
-							["count"] = 63,
-							["amount"] = 27439,
-						},
 						["Improved Leader of the Pack"] = {
 							["Details"] = {
 								["Tick"] = {
@@ -81344,6 +81359,18 @@ RecountPerCharDB = {
 							},
 							["count"] = 24,
 							["amount"] = 10927,
+						},
+						["Divine Storm"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 448,
+									["min"] = 33,
+									["count"] = 122,
+									["amount"] = 23985,
+								},
+							},
+							["count"] = 122,
+							["amount"] = 23985,
 						},
 					},
 					["FDamage"] = 5942,
@@ -81388,17 +81415,6 @@ RecountPerCharDB = {
 							},
 							["amount"] = 40,
 						},
-						["Fire"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 3,
-								},
-								["Miss"] = {
-									["count"] = 1,
-								},
-							},
-							["amount"] = 4,
-						},
 						["Frostfire"] = {
 							["Details"] = {
 								["Tick"] = {
@@ -81409,6 +81425,17 @@ RecountPerCharDB = {
 								},
 							},
 							["amount"] = 5,
+						},
+						["Fire"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 3,
+								},
+								["Miss"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 4,
 						},
 						["Shadow"] = {
 							["Details"] = {
@@ -81483,17 +81510,17 @@ RecountPerCharDB = {
 						},
 						["Angeletee"] = {
 							["Details"] = {
-								["Divine Storm"] = {
-									["count"] = 6058,
+								["Judgement of Light"] = {
+									["count"] = 27439,
 								},
 								["Holy Light"] = {
 									["count"] = 9628,
 								},
-								["Judgement of Light"] = {
-									["count"] = 27439,
-								},
 								["Improved Leader of the Pack"] = {
 									["count"] = 10927,
+								},
+								["Divine Storm"] = {
+									["count"] = 6058,
 								},
 							},
 							["amount"] = 54052,
@@ -81645,9 +81672,11 @@ RecountPerCharDB = {
 									["count"] = 1,
 									["amount"] = 0,
 								},
-								["Dodge"] = {
-									["count"] = 3,
-									["amount"] = 0,
+								["Hit"] = {
+									["max"] = 2100,
+									["min"] = 982,
+									["count"] = 34,
+									["amount"] = 48068,
 								},
 								["Crit (Blocked)"] = {
 									["max"] = 2780,
@@ -81667,11 +81696,9 @@ RecountPerCharDB = {
 									["count"] = 17,
 									["amount"] = 46360,
 								},
-								["Hit"] = {
-									["max"] = 2100,
-									["min"] = 982,
-									["count"] = 34,
-									["amount"] = 48068,
+								["Dodge"] = {
+									["count"] = 3,
+									["amount"] = 0,
 								},
 							},
 							["count"] = 59,
@@ -81902,17 +81929,17 @@ RecountPerCharDB = {
 						},
 						["Commander Kolurg"] = {
 							["Details"] = {
-								["Melee"] = {
-									["count"] = 1.58,
+								["Divine Storm"] = {
+									["count"] = 0,
 								},
 								["Crusader Strike"] = {
 									["count"] = 0.1,
 								},
-								["Divine Storm"] = {
-									["count"] = 0,
-								},
 								["Hammer of Wrath"] = {
 									["count"] = 1.97,
+								},
+								["Melee"] = {
+									["count"] = 1.58,
 								},
 							},
 							["amount"] = 3.65,
@@ -82454,17 +82481,17 @@ RecountPerCharDB = {
 						},
 						["Commander Kolurg"] = {
 							["Details"] = {
-								["Melee"] = {
-									["count"] = 2568,
+								["Divine Storm"] = {
+									["count"] = 3186,
 								},
 								["Crusader Strike"] = {
 									["count"] = 1114,
 								},
-								["Divine Storm"] = {
-									["count"] = 3186,
-								},
 								["Hammer of Wrath"] = {
 									["count"] = 5174,
+								},
+								["Melee"] = {
+									["count"] = 2568,
 								},
 							},
 							["amount"] = 12042,
@@ -82975,26 +83002,26 @@ RecountPerCharDB = {
 				0.7915567282321899, -- [1]
 				0.7915567282321899, -- [2]
 				1.187335092348285, -- [3]
+				[24] = 2.308707124010554,
+				[32] = 0.395778364116095,
 				[6] = 6.879004900113079,
 				[11] = 1.33810780248775,
-				[12] = 1.187335092348285,
-				[16] = 10.49283829626838,
-				[19] = 1.187335092348285,
-				[24] = 2.308707124010554,
 				[34] = 0.7915567282321899,
-				[28] = 2.308707124010554,
+				[40] = 2.308707124010554,
 				[42] = 0.343950245005654,
 				[47] = 10.28081417263475,
+				[16] = 10.49283829626838,
+				[19] = 1.187335092348285,
 				[35] = 2.308707124010554,
 				[37] = 8.711835657745947,
 				[39] = 2.308707124010554,
-				[40] = 2.308707124010554,
+				[28] = 2.308707124010554,
 				[43] = 0.7915567282321899,
-				[32] = 0.395778364116095,
+				[12] = 1.187335092348285,
 			},
 			["type"] = "Ungrouped",
 			["FightsSaved"] = 5,
-			["LastAbility"] = 1306.632,
+			["LastAbility"] = 4982.039,
 			["LastEventTimes"] = {
 				4013.218, -- [1]
 				4014.301, -- [2]
@@ -83292,32 +83319,15 @@ RecountPerCharDB = {
 					},
 					["DeathCount"] = 0,
 					["HOT_Time"] = 18,
-					["ElementTakenBlock"] = {
-					},
+					["Damage"] = 8588,
 					["RunicPowerGain"] = 0,
 					["ElementTaken"] = {
 						["Melee"] = 2910,
 						["Fire"] = 2345,
 					},
-					["HOTs"] = {
-						["Judgement of Light"] = {
-							["Details"] = {
-								["Bigepapa"] = {
-									["count"] = 3,
-								},
-							},
-							["amount"] = 3,
-						},
-						["Flash of Light"] = {
-							["Details"] = {
-								["Urgash"] = {
-									["count"] = 15,
-								},
-							},
-							["amount"] = 15,
-						},
+					["DOT_Time"] = 129,
+					["ElementTakenBlock"] = {
 					},
-					["Damage"] = 8588,
 					["ElementDoneAbsorb"] = {
 					},
 					["TimeHeal"] = 16.23,
@@ -83325,6 +83335,25 @@ RecountPerCharDB = {
 					},
 					["Dispels"] = 0,
 					["PartialBlock"] = {
+					},
+					["ElementHitsDone"] = {
+						["Holy"] = {
+							["Details"] = {
+								["Tick"] = {
+									["count"] = 43,
+								},
+								["Hit"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 44,
+						},
+					},
+					["FAttacks"] = {
+					},
+					["HealingTaken"] = 6574,
+					["ElementDone"] = {
+						["Holy"] = 8588,
 					},
 					["DamagedWho"] = {
 						["Steward"] = {
@@ -83363,27 +83392,6 @@ RecountPerCharDB = {
 							["amount"] = 1110,
 						},
 					},
-					["FAttacks"] = {
-					},
-					["HealingTaken"] = 6574,
-					["ElementDone"] = {
-						["Holy"] = 8588,
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementHitsDone"] = {
-						["Holy"] = {
-							["Details"] = {
-								["Tick"] = {
-									["count"] = 43,
-								},
-								["Hit"] = {
-									["count"] = 1,
-								},
-							},
-							["amount"] = 44,
-						},
-					},
 					["ManaGainedFrom"] = {
 						["Bigepapa"] = {
 							["Details"] = {
@@ -83393,6 +83401,8 @@ RecountPerCharDB = {
 							},
 							["amount"] = 1567,
 						},
+					},
+					["RunicPowerGained"] = {
 					},
 					["WhoDamaged"] = {
 						["Steward"] = {
@@ -83414,9 +83424,9 @@ RecountPerCharDB = {
 					},
 					["EnergyGainedFrom"] = {
 					},
-					["RunicPowerGained"] = {
-					},
 					["CCBroken"] = {
+					},
+					["RunicPowerGainedFrom"] = {
 					},
 					["ElementDoneBlock"] = {
 					},
@@ -83491,7 +83501,98 @@ RecountPerCharDB = {
 							["amount"] = 3.34,
 						},
 					},
-					["Dispelled"] = 0,
+					["OverHeals"] = {
+						["Holy Light"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 19245,
+									["min"] = 11978,
+									["count"] = 2,
+									["amount"] = 31223,
+								},
+								["Hit"] = {
+									["max"] = 13429,
+									["min"] = 13429,
+									["count"] = 1,
+									["amount"] = 13429,
+								},
+							},
+							["count"] = 3,
+							["amount"] = 44652,
+						},
+						["Glyph of Holy Light"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 2170,
+									["min"] = 512,
+									["count"] = 4,
+									["amount"] = 5140,
+								},
+							},
+							["count"] = 4,
+							["amount"] = 5140,
+						},
+						["Flash of Light"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 670,
+									["min"] = 475,
+									["count"] = 5,
+									["amount"] = 3155,
+								},
+								["Crit"] = {
+									["max"] = 7314,
+									["min"] = 7314,
+									["count"] = 1,
+									["amount"] = 7314,
+								},
+								["Hit"] = {
+									["max"] = 1726,
+									["min"] = 1726,
+									["count"] = 1,
+									["amount"] = 1726,
+								},
+							},
+							["count"] = 7,
+							["amount"] = 12195,
+						},
+						["Beacon of Light"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 18764,
+									["min"] = 370,
+									["count"] = 6,
+									["amount"] = 48547,
+								},
+							},
+							["count"] = 6,
+							["amount"] = 48547,
+						},
+						["Judgement of Light"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 490,
+									["min"] = 490,
+									["count"] = 1,
+									["amount"] = 490,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 490,
+						},
+						["Holy Shock"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 3060,
+									["min"] = 3060,
+									["count"] = 1,
+									["amount"] = 3060,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 3060,
+						},
+					},
 					["WhoHealed"] = {
 						["Bigepapa"] = {
 							["Details"] = {
@@ -83584,18 +83685,6 @@ RecountPerCharDB = {
 					["CCBreak"] = 0,
 					["ElementTakenAbsorb"] = {
 					},
-					["FDamage"] = 0,
-					["EnergyGain"] = 0,
-					["ManaGained"] = {
-						["Illumination"] = {
-							["Details"] = {
-								["Bigepapa"] = {
-									["count"] = 1567,
-								},
-							},
-							["amount"] = 1567,
-						},
-					},
 					["PartialAbsorb"] = {
 						["Fireball"] = {
 							["Details"] = {
@@ -83670,7 +83759,92 @@ RecountPerCharDB = {
 							["amount"] = 0,
 						},
 					},
-					["ActiveTime"] = 26.21,
+					["PartialResist"] = {
+						["Fireball"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 0,
+						},
+						["Arcane Torrent"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 0,
+						},
+						["Frostbolt"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 4,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 4,
+							["amount"] = 0,
+						},
+						["Freezing Trap Effect"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+						["Magic Burn"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+					},
+					["ManaGained"] = {
+						["Illumination"] = {
+							["Details"] = {
+								["Bigepapa"] = {
+									["count"] = 1567,
+								},
+							},
+							["amount"] = 1567,
+						},
+					},
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
 					["Overhealing"] = 114084,
 					["TimeSpent"] = {
 						["Jungee"] = {
@@ -83852,177 +84026,13 @@ RecountPerCharDB = {
 							["amount"] = 21610,
 						},
 					},
-					["Interrupts"] = 0,
+					["ActiveTime"] = 26.21,
 					["EnergyGained"] = {
 					},
-					["PartialResist"] = {
-						["Fireball"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 2,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 2,
-							["amount"] = 0,
-						},
-						["Arcane Torrent"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 0,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 2,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 2,
-							["amount"] = 0,
-						},
-						["Frostbolt"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 4,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 4,
-							["amount"] = 0,
-						},
-						["Freezing Trap Effect"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 0,
-						},
-						["Magic Burn"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 0,
-						},
-					},
+					["EnergyGain"] = 0,
 					["Healing"] = 106706,
+					["Dispelled"] = 0,
 					["RageGained"] = {
-					},
-					["OverHeals"] = {
-						["Holy Light"] = {
-							["Details"] = {
-								["Crit"] = {
-									["max"] = 19245,
-									["min"] = 11978,
-									["count"] = 2,
-									["amount"] = 31223,
-								},
-								["Hit"] = {
-									["max"] = 13429,
-									["min"] = 13429,
-									["count"] = 1,
-									["amount"] = 13429,
-								},
-							},
-							["count"] = 3,
-							["amount"] = 44652,
-						},
-						["Glyph of Holy Light"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 2170,
-									["min"] = 512,
-									["count"] = 4,
-									["amount"] = 5140,
-								},
-							},
-							["count"] = 4,
-							["amount"] = 5140,
-						},
-						["Flash of Light"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 670,
-									["min"] = 475,
-									["count"] = 5,
-									["amount"] = 3155,
-								},
-								["Crit"] = {
-									["max"] = 7314,
-									["min"] = 7314,
-									["count"] = 1,
-									["amount"] = 7314,
-								},
-								["Hit"] = {
-									["max"] = 1726,
-									["min"] = 1726,
-									["count"] = 1,
-									["amount"] = 1726,
-								},
-							},
-							["count"] = 7,
-							["amount"] = 12195,
-						},
-						["Beacon of Light"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 18764,
-									["min"] = 370,
-									["count"] = 6,
-									["amount"] = 48547,
-								},
-							},
-							["count"] = 6,
-							["amount"] = 48547,
-						},
-						["Judgement of Light"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 490,
-									["min"] = 490,
-									["count"] = 1,
-									["amount"] = 490,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 490,
-						},
-						["Holy Shock"] = {
-							["Details"] = {
-								["Crit"] = {
-									["max"] = 3060,
-									["min"] = 3060,
-									["count"] = 1,
-									["amount"] = 3060,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 3060,
-						},
 					},
 					["Attacks"] = {
 						["Retribution Aura"] = {
@@ -84092,7 +84102,24 @@ RecountPerCharDB = {
 						},
 					},
 					["ManaGain"] = 1567,
-					["DOT_Time"] = 129,
+					["HOTs"] = {
+						["Judgement of Light"] = {
+							["Details"] = {
+								["Bigepapa"] = {
+									["count"] = 3,
+								},
+							},
+							["amount"] = 3,
+						},
+						["Flash of Light"] = {
+							["Details"] = {
+								["Urgash"] = {
+									["count"] = 15,
+								},
+							},
+							["amount"] = 15,
+						},
+					},
 					["DispelledWho"] = {
 					},
 				},
@@ -84124,26 +84151,7 @@ RecountPerCharDB = {
 					["RageGainedFrom"] = {
 					},
 					["ElementHitsTaken"] = {
-						["Fire"] = {
-							["Details"] = {
-								["Tick"] = {
-									["count"] = 4,
-								},
-								["Hit"] = {
-									["count"] = 1,
-								},
-							},
-							["amount"] = 5,
-						},
 						["Physical"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 4,
-								},
-							},
-							["amount"] = 4,
-						},
-						["Melee"] = {
 							["Details"] = {
 								["Hit"] = {
 									["count"] = 4,
@@ -84159,45 +84167,39 @@ RecountPerCharDB = {
 							},
 							["amount"] = 1,
 						},
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 4,
+								},
+							},
+							["amount"] = 4,
+						},
+						["Fire"] = {
+							["Details"] = {
+								["Tick"] = {
+									["count"] = 4,
+								},
+								["Hit"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 5,
+						},
 					},
 					["DeathCount"] = 0,
 					["HOT_Time"] = 57,
-					["ElementTakenBlock"] = {
-					},
+					["Damage"] = 25725,
 					["RunicPowerGain"] = 0,
 					["ElementTaken"] = {
-						["Fire"] = 5038,
 						["Physical"] = 14038,
-						["Melee"] = 12653,
 						["Shadow"] = 4283,
+						["Melee"] = 12653,
+						["Fire"] = 5038,
 					},
-					["HOTs"] = {
-						["Flash of Light"] = {
-							["Details"] = {
-								["Urgash"] = {
-									["count"] = 42,
-								},
-							},
-							["amount"] = 42,
-						},
-						["Improved Leader of the Pack"] = {
-							["Details"] = {
-								["Bigepapa"] = {
-									["count"] = 6,
-								},
-							},
-							["amount"] = 6,
-						},
-						["Judgement of Light"] = {
-							["Details"] = {
-								["Bigepapa"] = {
-									["count"] = 9,
-								},
-							},
-							["amount"] = 9,
-						},
+					["DOT_Time"] = 132,
+					["ElementTakenBlock"] = {
 					},
-					["Damage"] = 25725,
 					["ElementDoneAbsorb"] = {
 					},
 					["TimeHeal"] = 36.43,
@@ -84205,6 +84207,37 @@ RecountPerCharDB = {
 					},
 					["Dispels"] = 0,
 					["PartialBlock"] = {
+					},
+					["ElementHitsDone"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 4,
+								},
+							},
+							["amount"] = 4,
+						},
+						["Holy"] = {
+							["Details"] = {
+								["Tick"] = {
+									["count"] = 44,
+								},
+								["Crit"] = {
+									["count"] = 2,
+								},
+								["Hit"] = {
+									["count"] = 7,
+								},
+							},
+							["amount"] = 53,
+						},
+					},
+					["FAttacks"] = {
+					},
+					["HealingTaken"] = 35920,
+					["ElementDone"] = {
+						["Melee"] = 891,
+						["Holy"] = 24834,
 					},
 					["DamagedWho"] = {
 						["Commander Kolurg"] = {
@@ -84267,39 +84300,6 @@ RecountPerCharDB = {
 							["amount"] = 8824,
 						},
 					},
-					["FAttacks"] = {
-					},
-					["HealingTaken"] = 35920,
-					["ElementDone"] = {
-						["Melee"] = 891,
-						["Holy"] = 24834,
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementHitsDone"] = {
-						["Melee"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 4,
-								},
-							},
-							["amount"] = 4,
-						},
-						["Holy"] = {
-							["Details"] = {
-								["Tick"] = {
-									["count"] = 44,
-								},
-								["Crit"] = {
-									["count"] = 2,
-								},
-								["Hit"] = {
-									["count"] = 7,
-								},
-							},
-							["amount"] = 53,
-						},
-					},
 					["ManaGainedFrom"] = {
 						["Bigepapa"] = {
 							["Details"] = {
@@ -84312,6 +84312,8 @@ RecountPerCharDB = {
 							},
 							["amount"] = 9467,
 						},
+					},
+					["RunicPowerGained"] = {
 					},
 					["WhoDamaged"] = {
 						["Commander Kolurg"] = {
@@ -84361,9 +84363,9 @@ RecountPerCharDB = {
 					},
 					["EnergyGainedFrom"] = {
 					},
-					["RunicPowerGained"] = {
-					},
 					["CCBroken"] = {
+					},
+					["RunicPowerGainedFrom"] = {
 					},
 					["ElementDoneBlock"] = {
 					},
@@ -84421,7 +84423,80 @@ RecountPerCharDB = {
 							["amount"] = 2.68,
 						},
 					},
-					["Dispelled"] = 0,
+					["OverHeals"] = {
+						["Improved Leader of the Pack"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 490,
+									["min"] = 490,
+									["count"] = 1,
+									["amount"] = 490,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 490,
+						},
+						["Flash of Light"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 4893,
+									["min"] = 7,
+									["count"] = 7,
+									["amount"] = 16469,
+								},
+								["Crit"] = {
+									["max"] = 7399,
+									["min"] = 1523,
+									["count"] = 7,
+									["amount"] = 27164,
+								},
+								["Tick"] = {
+									["max"] = 416,
+									["min"] = 187,
+									["count"] = 10,
+									["amount"] = 3804,
+								},
+							},
+							["count"] = 24,
+							["amount"] = 47437,
+						},
+						["Beacon of Light"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 9199,
+									["min"] = 2317,
+									["count"] = 23,
+									["amount"] = 132184,
+								},
+							},
+							["count"] = 23,
+							["amount"] = 132184,
+						},
+						["Judgement of Light"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 490,
+									["min"] = 77,
+									["count"] = 2,
+									["amount"] = 567,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 567,
+						},
+						["Holy Shock"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 6740,
+									["min"] = 4136,
+									["count"] = 3,
+									["amount"] = 15555,
+								},
+							},
+							["count"] = 3,
+							["amount"] = 15555,
+						},
+					},
 					["WhoHealed"] = {
 						["Angeletee"] = {
 							["Details"] = {
@@ -84505,26 +84580,6 @@ RecountPerCharDB = {
 					},
 					["CCBreak"] = 0,
 					["ElementTakenAbsorb"] = {
-					},
-					["FDamage"] = 0,
-					["EnergyGain"] = 0,
-					["ManaGained"] = {
-						["Seal of Wisdom"] = {
-							["Details"] = {
-								["Bigepapa"] = {
-									["count"] = 7362,
-								},
-							},
-							["amount"] = 7362,
-						},
-						["Illumination"] = {
-							["Details"] = {
-								["Bigepapa"] = {
-									["count"] = 2105,
-								},
-							},
-							["amount"] = 2105,
-						},
 					},
 					["PartialAbsorb"] = {
 						["Shoot"] = {
@@ -84612,7 +84667,112 @@ RecountPerCharDB = {
 							["amount"] = 0,
 						},
 					},
-					["ActiveTime"] = 64.96000000000001,
+					["PartialResist"] = {
+						["Shoot"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 4,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 4,
+							["amount"] = 0,
+						},
+						["Incendiary Shot"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+						["Shadow Word: Death"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+						["Whirlwind"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+						["War Stomp"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 0,
+						},
+						["Incendiary Shot (DoT)"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 4,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 4,
+							["amount"] = 0,
+						},
+					},
+					["ManaGained"] = {
+						["Seal of Wisdom"] = {
+							["Details"] = {
+								["Bigepapa"] = {
+									["count"] = 7362,
+								},
+							},
+							["amount"] = 7362,
+						},
+						["Illumination"] = {
+							["Details"] = {
+								["Bigepapa"] = {
+									["count"] = 2105,
+								},
+							},
+							["amount"] = 2105,
+						},
+					},
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
 					["Overhealing"] = 196233,
 					["TimeSpent"] = {
 						["Jungee"] = {
@@ -84734,17 +84894,17 @@ RecountPerCharDB = {
 					["ElementTakenResist"] = {
 					},
 					["Heals"] = {
-						["Beacon of Light"] = {
+						["Judgement of Light"] = {
 							["Details"] = {
-								["Hit"] = {
-									["max"] = 3584,
-									["min"] = 501,
-									["count"] = 10,
-									["amount"] = 17387,
+								["Tick"] = {
+									["max"] = 490,
+									["min"] = 413,
+									["count"] = 2,
+									["amount"] = 903,
 								},
 							},
-							["count"] = 10,
-							["amount"] = 17387,
+							["count"] = 2,
+							["amount"] = 903,
 						},
 						["Flash of Light"] = {
 							["Details"] = {
@@ -84770,6 +84930,18 @@ RecountPerCharDB = {
 							["count"] = 21,
 							["amount"] = 63610,
 						},
+						["Beacon of Light"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 3584,
+									["min"] = 501,
+									["count"] = 10,
+									["amount"] = 17387,
+								},
+							},
+							["count"] = 10,
+							["amount"] = 17387,
+						},
 						["Improved Leader of the Pack"] = {
 							["Details"] = {
 								["Tick"] = {
@@ -84781,18 +84953,6 @@ RecountPerCharDB = {
 							},
 							["count"] = 1,
 							["amount"] = 490,
-						},
-						["Judgement of Light"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 490,
-									["min"] = 413,
-									["count"] = 2,
-									["amount"] = 903,
-								},
-							},
-							["count"] = 2,
-							["amount"] = 903,
 						},
 						["Holy Shock"] = {
 							["Details"] = {
@@ -84807,171 +84967,13 @@ RecountPerCharDB = {
 							["amount"] = 31391,
 						},
 					},
-					["Interrupts"] = 0,
+					["ActiveTime"] = 64.96000000000001,
 					["EnergyGained"] = {
 					},
-					["PartialResist"] = {
-						["Shoot"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 0,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 4,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 4,
-							["amount"] = 0,
-						},
-						["Incendiary Shot"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 0,
-						},
-						["Shadow Word: Death"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 0,
-						},
-						["Whirlwind"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 0,
-						},
-						["War Stomp"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 2,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 2,
-							["amount"] = 0,
-						},
-						["Incendiary Shot (DoT)"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 4,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 4,
-							["amount"] = 0,
-						},
-					},
+					["EnergyGain"] = 0,
 					["Healing"] = 113781,
+					["Dispelled"] = 0,
 					["RageGained"] = {
-					},
-					["OverHeals"] = {
-						["Beacon of Light"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 9199,
-									["min"] = 2317,
-									["count"] = 23,
-									["amount"] = 132184,
-								},
-							},
-							["count"] = 23,
-							["amount"] = 132184,
-						},
-						["Flash of Light"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 4893,
-									["min"] = 7,
-									["count"] = 7,
-									["amount"] = 16469,
-								},
-								["Crit"] = {
-									["max"] = 7399,
-									["min"] = 1523,
-									["count"] = 7,
-									["amount"] = 27164,
-								},
-								["Tick"] = {
-									["max"] = 416,
-									["min"] = 187,
-									["count"] = 10,
-									["amount"] = 3804,
-								},
-							},
-							["count"] = 24,
-							["amount"] = 47437,
-						},
-						["Judgement of Light"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 490,
-									["min"] = 77,
-									["count"] = 2,
-									["amount"] = 567,
-								},
-							},
-							["count"] = 2,
-							["amount"] = 567,
-						},
-						["Improved Leader of the Pack"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 490,
-									["min"] = 490,
-									["count"] = 1,
-									["amount"] = 490,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 490,
-						},
-						["Holy Shock"] = {
-							["Details"] = {
-								["Crit"] = {
-									["max"] = 6740,
-									["min"] = 4136,
-									["count"] = 3,
-									["amount"] = 15555,
-								},
-							},
-							["count"] = 3,
-							["amount"] = 15555,
-						},
 					},
 					["Attacks"] = {
 						["Consecration (DoT)"] = {
@@ -85095,7 +85097,32 @@ RecountPerCharDB = {
 						},
 					},
 					["ManaGain"] = 9467,
-					["DOT_Time"] = 132,
+					["HOTs"] = {
+						["Flash of Light"] = {
+							["Details"] = {
+								["Urgash"] = {
+									["count"] = 42,
+								},
+							},
+							["amount"] = 42,
+						},
+						["Improved Leader of the Pack"] = {
+							["Details"] = {
+								["Bigepapa"] = {
+									["count"] = 6,
+								},
+							},
+							["amount"] = 6,
+						},
+						["Judgement of Light"] = {
+							["Details"] = {
+								["Bigepapa"] = {
+									["count"] = 9,
+								},
+							},
+							["amount"] = 9,
+						},
+					},
 					["DispelledWho"] = {
 					},
 				},
@@ -85120,31 +85147,14 @@ RecountPerCharDB = {
 					},
 					["DeathCount"] = 0,
 					["HOT_Time"] = 0,
-					["ElementTakenBlock"] = {
-					},
+					["Damage"] = 0,
 					["RunicPowerGain"] = 0,
 					["ElementTaken"] = {
 						["Physical"] = 0,
 					},
-					["HOTs"] = {
-						["Flash of Light"] = {
-							["Details"] = {
-								["Jungee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Judgement of Light"] = {
-							["Details"] = {
-								["Bigepapa"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
+					["DOT_Time"] = 0,
+					["ElementTakenBlock"] = {
 					},
-					["Damage"] = 0,
 					["ElementDoneAbsorb"] = {
 					},
 					["TimeHeal"] = 0,
@@ -85152,6 +85162,37 @@ RecountPerCharDB = {
 					},
 					["Dispels"] = 0,
 					["PartialBlock"] = {
+					},
+					["ElementHitsDone"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Crit"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Holy"] = {
+							["Details"] = {
+								["Crit"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["FAttacks"] = {
+					},
+					["HealingTaken"] = 0,
+					["ElementDone"] = {
+						["Melee"] = 0,
+						["Holy"] = 0,
 					},
 					["DamagedWho"] = {
 						["Horde Ranger"] = {
@@ -85185,39 +85226,6 @@ RecountPerCharDB = {
 							["amount"] = 0,
 						},
 					},
-					["FAttacks"] = {
-					},
-					["HealingTaken"] = 0,
-					["ElementDone"] = {
-						["Melee"] = 0,
-						["Holy"] = 0,
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementHitsDone"] = {
-						["Melee"] = {
-							["Details"] = {
-								["Crit"] = {
-									["count"] = 0,
-								},
-								["Hit"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Holy"] = {
-							["Details"] = {
-								["Crit"] = {
-									["count"] = 0,
-								},
-								["Hit"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
 					["ManaGainedFrom"] = {
 						["Bigepapa"] = {
 							["Details"] = {
@@ -85230,6 +85238,8 @@ RecountPerCharDB = {
 							},
 							["amount"] = 0,
 						},
+					},
+					["RunicPowerGained"] = {
 					},
 					["WhoDamaged"] = {
 						["Horde Berserker"] = {
@@ -85251,9 +85261,9 @@ RecountPerCharDB = {
 					},
 					["EnergyGainedFrom"] = {
 					},
-					["RunicPowerGained"] = {
-					},
 					["CCBroken"] = {
+					},
+					["RunicPowerGainedFrom"] = {
 					},
 					["ElementDoneBlock"] = {
 					},
@@ -85295,7 +85305,68 @@ RecountPerCharDB = {
 							["amount"] = 0,
 						},
 					},
-					["Dispelled"] = 0,
+					["OverHeals"] = {
+						["Flash of Light"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Tick"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Judgement of Light"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Beacon of Light"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Holy Shock"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
 					["WhoHealed"] = {
 						["Bigepapa"] = {
 							["Details"] = {
@@ -85358,26 +85429,6 @@ RecountPerCharDB = {
 					["CCBreak"] = 0,
 					["ElementTakenAbsorb"] = {
 					},
-					["FDamage"] = 0,
-					["EnergyGain"] = 0,
-					["ManaGained"] = {
-						["Seal of Wisdom"] = {
-							["Details"] = {
-								["Bigepapa"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Illumination"] = {
-							["Details"] = {
-								["Bigepapa"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
 					["PartialAbsorb"] = {
 						["War Stomp"] = {
 							["Details"] = {
@@ -85404,7 +85455,52 @@ RecountPerCharDB = {
 							["amount"] = 0,
 						},
 					},
-					["ActiveTime"] = 0,
+					["PartialResist"] = {
+						["War Stomp"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Shoot"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["ManaGained"] = {
+						["Seal of Wisdom"] = {
+							["Details"] = {
+								["Bigepapa"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Illumination"] = {
+							["Details"] = {
+								["Bigepapa"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
 					["Overhealing"] = 0,
 					["TimeSpent"] = {
 						["Jungee"] = {
@@ -85542,99 +85638,13 @@ RecountPerCharDB = {
 							["amount"] = 0,
 						},
 					},
-					["Interrupts"] = 0,
+					["ActiveTime"] = 0,
 					["EnergyGained"] = {
 					},
-					["PartialResist"] = {
-						["War Stomp"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Shoot"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
+					["EnergyGain"] = 0,
 					["Healing"] = 0,
+					["Dispelled"] = 0,
 					["RageGained"] = {
-					},
-					["OverHeals"] = {
-						["Flash of Light"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Crit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Tick"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Judgement of Light"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Beacon of Light"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Holy Shock"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
 					},
 					["Attacks"] = {
 						["Hammer of Wrath"] = {
@@ -85717,7 +85727,24 @@ RecountPerCharDB = {
 						},
 					},
 					["ManaGain"] = 0,
-					["DOT_Time"] = 0,
+					["HOTs"] = {
+						["Flash of Light"] = {
+							["Details"] = {
+								["Jungee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Judgement of Light"] = {
+							["Details"] = {
+								["Bigepapa"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
 					["DispelledWho"] = {
 						["Jungee"] = {
 							["Details"] = {
@@ -85750,31 +85777,14 @@ RecountPerCharDB = {
 					},
 					["DeathCount"] = 0,
 					["HOT_Time"] = 6,
-					["ElementTakenBlock"] = {
-					},
+					["Damage"] = 3551,
 					["RunicPowerGain"] = 0,
 					["ElementTaken"] = {
 						["Melee"] = 9781,
 					},
-					["HOTs"] = {
-						["Improved Leader of the Pack"] = {
-							["Details"] = {
-								["Bigepapa"] = {
-									["count"] = 3,
-								},
-							},
-							["amount"] = 3,
-						},
-						["Judgement of Light"] = {
-							["Details"] = {
-								["Bigepapa"] = {
-									["count"] = 3,
-								},
-							},
-							["amount"] = 3,
-						},
+					["DOT_Time"] = 0,
+					["ElementTakenBlock"] = {
 					},
-					["Damage"] = 3551,
 					["ElementDoneAbsorb"] = {
 					},
 					["TimeHeal"] = 9.5,
@@ -85782,6 +85792,34 @@ RecountPerCharDB = {
 					},
 					["Dispels"] = 0,
 					["PartialBlock"] = {
+					},
+					["ElementHitsDone"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 1,
+						},
+						["Holy"] = {
+							["Details"] = {
+								["Crit"] = {
+									["count"] = 1,
+								},
+								["Hit"] = {
+									["count"] = 3,
+								},
+							},
+							["amount"] = 4,
+						},
+					},
+					["FAttacks"] = {
+					},
+					["HealingTaken"] = 9781,
+					["ElementDone"] = {
+						["Melee"] = 290,
+						["Holy"] = 3261,
 					},
 					["DamagedWho"] = {
 						["Azure Enforcer"] = {
@@ -85807,36 +85845,6 @@ RecountPerCharDB = {
 							["amount"] = 223,
 						},
 					},
-					["FAttacks"] = {
-					},
-					["HealingTaken"] = 9781,
-					["ElementDone"] = {
-						["Melee"] = 290,
-						["Holy"] = 3261,
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementHitsDone"] = {
-						["Melee"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 1,
-								},
-							},
-							["amount"] = 1,
-						},
-						["Holy"] = {
-							["Details"] = {
-								["Crit"] = {
-									["count"] = 1,
-								},
-								["Hit"] = {
-									["count"] = 3,
-								},
-							},
-							["amount"] = 4,
-						},
-					},
 					["ManaGainedFrom"] = {
 						["Bigepapa"] = {
 							["Details"] = {
@@ -85852,6 +85860,8 @@ RecountPerCharDB = {
 							},
 							["amount"] = 9516,
 						},
+					},
+					["RunicPowerGained"] = {
 					},
 					["WhoDamaged"] = {
 						["Azure Enforcer"] = {
@@ -85873,9 +85883,9 @@ RecountPerCharDB = {
 					},
 					["EnergyGainedFrom"] = {
 					},
-					["RunicPowerGained"] = {
-					},
 					["CCBroken"] = {
+					},
+					["RunicPowerGainedFrom"] = {
 					},
 					["ElementDoneBlock"] = {
 						["Melee"] = 40,
@@ -85923,7 +85933,50 @@ RecountPerCharDB = {
 							["amount"] = 3.44,
 						},
 					},
-					["Dispelled"] = 0,
+					["OverHeals"] = {
+						["Holy Light"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 9159,
+									["min"] = 9159,
+									["count"] = 1,
+									["amount"] = 9159,
+								},
+								["Hit"] = {
+									["max"] = 1301,
+									["min"] = 1301,
+									["count"] = 1,
+									["amount"] = 1301,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 10460,
+						},
+						["Beacon of Light"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 10061,
+									["min"] = 710,
+									["count"] = 4,
+									["amount"] = 24412,
+								},
+							},
+							["count"] = 4,
+							["amount"] = 24412,
+						},
+						["Glyph of Holy Light"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 1108,
+									["min"] = 312,
+									["count"] = 8,
+									["amount"] = 6942,
+								},
+							},
+							["count"] = 8,
+							["amount"] = 6942,
+						},
+					},
 					["WhoHealed"] = {
 						["Angeletee"] = {
 							["Details"] = {
@@ -85997,8 +86050,34 @@ RecountPerCharDB = {
 					["CCBreak"] = 0,
 					["ElementTakenAbsorb"] = {
 					},
-					["FDamage"] = 0,
-					["EnergyGain"] = 0,
+					["PartialAbsorb"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 3,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 3,
+							["amount"] = 0,
+						},
+					},
+					["PartialResist"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 3,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 3,
+							["amount"] = 0,
+						},
+					},
 					["ManaGained"] = {
 						["Divine Plea"] = {
 							["Details"] = {
@@ -86025,21 +86104,8 @@ RecountPerCharDB = {
 							["amount"] = 1227,
 						},
 					},
-					["PartialAbsorb"] = {
-						["Melee"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 3,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 3,
-							["amount"] = 0,
-						},
-					},
-					["ActiveTime"] = 13.13,
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
 					["Overhealing"] = 41814,
 					["TimeSpent"] = {
 						["Jungee"] = {
@@ -86066,28 +86132,6 @@ RecountPerCharDB = {
 							},
 							["amount"] = 0,
 						},
-						["Azure Enforcer"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Retribution Aura"] = {
-									["count"] = 0.12,
-								},
-								["Judgement"] = {
-									["count"] = 0.01,
-								},
-							},
-							["amount"] = 0.13,
-						},
-						["Azure Scale-Binder"] = {
-							["Details"] = {
-								["Retribution Aura"] = {
-									["count"] = 3.5,
-								},
-							},
-							["amount"] = 3.5,
-						},
 						["Bigepapa"] = {
 							["Details"] = {
 								["Flash of Light"] = {
@@ -86104,6 +86148,28 @@ RecountPerCharDB = {
 								},
 							},
 							["amount"] = 6.060000000000001,
+						},
+						["Azure Scale-Binder"] = {
+							["Details"] = {
+								["Retribution Aura"] = {
+									["count"] = 3.5,
+								},
+							},
+							["amount"] = 3.5,
+						},
+						["Azure Enforcer"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Retribution Aura"] = {
+									["count"] = 0.12,
+								},
+								["Judgement"] = {
+									["count"] = 0.01,
+								},
+							},
+							["amount"] = 0.13,
 						},
 					},
 					["WhoDispelled"] = {
@@ -86131,17 +86197,17 @@ RecountPerCharDB = {
 							["count"] = 3,
 							["amount"] = 13583,
 						},
-						["Improved Leader of the Pack"] = {
+						["Beacon of Light"] = {
 							["Details"] = {
-								["Tick"] = {
-									["max"] = 490,
-									["min"] = 490,
+								["Hit"] = {
+									["max"] = 1794,
+									["min"] = 1794,
 									["count"] = 1,
-									["amount"] = 490,
+									["amount"] = 1794,
 								},
 							},
 							["count"] = 1,
-							["amount"] = 490,
+							["amount"] = 1794,
 						},
 						["Flash of Light"] = {
 							["Details"] = {
@@ -86155,7 +86221,7 @@ RecountPerCharDB = {
 							["count"] = 1,
 							["amount"] = 2629,
 						},
-						["Judgement of Light"] = {
+						["Improved Leader of the Pack"] = {
 							["Details"] = {
 								["Tick"] = {
 									["max"] = 490,
@@ -86167,17 +86233,17 @@ RecountPerCharDB = {
 							["count"] = 1,
 							["amount"] = 490,
 						},
-						["Beacon of Light"] = {
+						["Judgement of Light"] = {
 							["Details"] = {
-								["Hit"] = {
-									["max"] = 1794,
-									["min"] = 1794,
+								["Tick"] = {
+									["max"] = 490,
+									["min"] = 490,
 									["count"] = 1,
-									["amount"] = 1794,
+									["amount"] = 490,
 								},
 							},
 							["count"] = 1,
-							["amount"] = 1794,
+							["amount"] = 490,
 						},
 						["Glyph of Holy Light"] = {
 							["Details"] = {
@@ -86192,69 +86258,13 @@ RecountPerCharDB = {
 							["amount"] = 403,
 						},
 					},
-					["Interrupts"] = 0,
+					["ActiveTime"] = 13.13,
 					["EnergyGained"] = {
 					},
-					["PartialResist"] = {
-						["Melee"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 3,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 3,
-							["amount"] = 0,
-						},
-					},
+					["EnergyGain"] = 0,
 					["Healing"] = 19389,
+					["Dispelled"] = 0,
 					["RageGained"] = {
-					},
-					["OverHeals"] = {
-						["Holy Light"] = {
-							["Details"] = {
-								["Crit"] = {
-									["max"] = 9159,
-									["min"] = 9159,
-									["count"] = 1,
-									["amount"] = 9159,
-								},
-								["Hit"] = {
-									["max"] = 1301,
-									["min"] = 1301,
-									["count"] = 1,
-									["amount"] = 1301,
-								},
-							},
-							["count"] = 2,
-							["amount"] = 10460,
-						},
-						["Beacon of Light"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 10061,
-									["min"] = 710,
-									["count"] = 4,
-									["amount"] = 24412,
-								},
-							},
-							["count"] = 4,
-							["amount"] = 24412,
-						},
-						["Glyph of Holy Light"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 1108,
-									["min"] = 312,
-									["count"] = 8,
-									["amount"] = 6942,
-								},
-							},
-							["count"] = 8,
-							["amount"] = 6942,
-						},
 					},
 					["Attacks"] = {
 						["Melee"] = {
@@ -86323,7 +86333,24 @@ RecountPerCharDB = {
 						},
 					},
 					["ManaGain"] = 9516,
-					["DOT_Time"] = 0,
+					["HOTs"] = {
+						["Improved Leader of the Pack"] = {
+							["Details"] = {
+								["Bigepapa"] = {
+									["count"] = 3,
+								},
+							},
+							["amount"] = 3,
+						},
+						["Judgement of Light"] = {
+							["Details"] = {
+								["Bigepapa"] = {
+									["count"] = 3,
+								},
+							},
+							["amount"] = 3,
+						},
+					},
 					["DispelledWho"] = {
 					},
 				},
@@ -86415,8 +86442,7 @@ RecountPerCharDB = {
 					},
 					["DeathCount"] = 0,
 					["HOT_Time"] = 78,
-					["ElementTakenBlock"] = {
-					},
+					["Damage"] = 36084,
 					["RunicPowerGain"] = 0,
 					["ElementTaken"] = {
 						["Physical"] = 2992,
@@ -86426,33 +86452,9 @@ RecountPerCharDB = {
 						["Frost"] = 6000,
 						["Shadow"] = 2250,
 					},
-					["HOTs"] = {
-						["Flash of Light"] = {
-							["Details"] = {
-								["Jungee"] = {
-									["count"] = 51,
-								},
-							},
-							["amount"] = 51,
-						},
-						["Improved Leader of the Pack"] = {
-							["Details"] = {
-								["Bigepapa"] = {
-									["count"] = 12,
-								},
-							},
-							["amount"] = 12,
-						},
-						["Judgement of Light"] = {
-							["Details"] = {
-								["Bigepapa"] = {
-									["count"] = 15,
-								},
-							},
-							["amount"] = 15,
-						},
+					["DOT_Time"] = 153,
+					["ElementTakenBlock"] = {
 					},
-					["Damage"] = 36084,
 					["ElementDoneAbsorb"] = {
 					},
 					["TimeHeal"] = 25.73,
@@ -86460,6 +86462,40 @@ RecountPerCharDB = {
 					},
 					["Dispels"] = 0,
 					["PartialBlock"] = {
+					},
+					["ElementHitsDone"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Crit"] = {
+									["count"] = 2,
+								},
+								["Hit"] = {
+									["count"] = 2,
+								},
+							},
+							["amount"] = 4,
+						},
+						["Holy"] = {
+							["Details"] = {
+								["Tick"] = {
+									["count"] = 51,
+								},
+								["Crit"] = {
+									["count"] = 3,
+								},
+								["Hit"] = {
+									["count"] = 10,
+								},
+							},
+							["amount"] = 64,
+						},
+					},
+					["FAttacks"] = {
+					},
+					["HealingTaken"] = 30391,
+					["ElementDone"] = {
+						["Melee"] = 1391,
+						["Holy"] = 34693,
 					},
 					["DamagedWho"] = {
 						["Grand Magus Telestra"] = {
@@ -86527,42 +86563,6 @@ RecountPerCharDB = {
 							["amount"] = 3249,
 						},
 					},
-					["FAttacks"] = {
-					},
-					["HealingTaken"] = 30391,
-					["ElementDone"] = {
-						["Melee"] = 1391,
-						["Holy"] = 34693,
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementHitsDone"] = {
-						["Melee"] = {
-							["Details"] = {
-								["Crit"] = {
-									["count"] = 2,
-								},
-								["Hit"] = {
-									["count"] = 2,
-								},
-							},
-							["amount"] = 4,
-						},
-						["Holy"] = {
-							["Details"] = {
-								["Tick"] = {
-									["count"] = 51,
-								},
-								["Crit"] = {
-									["count"] = 3,
-								},
-								["Hit"] = {
-									["count"] = 10,
-								},
-							},
-							["amount"] = 64,
-						},
-					},
 					["ManaGainedFrom"] = {
 						["Bigepapa"] = {
 							["Details"] = {
@@ -86578,6 +86578,8 @@ RecountPerCharDB = {
 							},
 							["amount"] = 15729,
 						},
+					},
+					["RunicPowerGained"] = {
 					},
 					["WhoDamaged"] = {
 						["Steward"] = {
@@ -86627,9 +86629,9 @@ RecountPerCharDB = {
 					},
 					["EnergyGainedFrom"] = {
 					},
-					["RunicPowerGained"] = {
-					},
 					["CCBroken"] = {
+					},
+					["RunicPowerGainedFrom"] = {
 					},
 					["ElementDoneBlock"] = {
 					},
@@ -86690,7 +86692,80 @@ RecountPerCharDB = {
 							["amount"] = 1.28,
 						},
 					},
-					["Dispelled"] = 0,
+					["OverHeals"] = {
+						["Improved Leader of the Pack"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 490,
+									["min"] = 490,
+									["count"] = 4,
+									["amount"] = 1960,
+								},
+							},
+							["count"] = 4,
+							["amount"] = 1960,
+						},
+						["Flash of Light"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 4606,
+									["min"] = 678,
+									["count"] = 7,
+									["amount"] = 17496,
+								},
+								["Crit"] = {
+									["max"] = 6768,
+									["min"] = 1774,
+									["count"] = 4,
+									["amount"] = 17539,
+								},
+								["Tick"] = {
+									["max"] = 634,
+									["min"] = 391,
+									["count"] = 11,
+									["amount"] = 5030,
+								},
+							},
+							["count"] = 22,
+							["amount"] = 40065,
+						},
+						["Beacon of Light"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 9016,
+									["min"] = 549,
+									["count"] = 18,
+									["amount"] = 79770,
+								},
+							},
+							["count"] = 18,
+							["amount"] = 79770,
+						},
+						["Judgement of Light"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 490,
+									["min"] = 490,
+									["count"] = 3,
+									["amount"] = 1470,
+								},
+							},
+							["count"] = 3,
+							["amount"] = 1470,
+						},
+						["Holy Shock"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 7909,
+									["min"] = 7909,
+									["count"] = 1,
+									["amount"] = 7909,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 7909,
+						},
+					},
 					["WhoHealed"] = {
 						["Jungee"] = {
 							["Details"] = {
@@ -86782,34 +86857,6 @@ RecountPerCharDB = {
 					},
 					["CCBreak"] = 0,
 					["ElementTakenAbsorb"] = {
-					},
-					["FDamage"] = 0,
-					["EnergyGain"] = 0,
-					["ManaGained"] = {
-						["Divine Plea"] = {
-							["Details"] = {
-								["Bigepapa"] = {
-									["count"] = 7670,
-								},
-							},
-							["amount"] = 7670,
-						},
-						["Illumination"] = {
-							["Details"] = {
-								["Bigepapa"] = {
-									["count"] = 697,
-								},
-							},
-							["amount"] = 697,
-						},
-						["Seal of Wisdom"] = {
-							["Details"] = {
-								["Bigepapa"] = {
-									["count"] = 7362,
-								},
-							},
-							["amount"] = 7362,
-						},
 					},
 					["PartialAbsorb"] = {
 						["Ice Nova"] = {
@@ -86921,7 +86968,144 @@ RecountPerCharDB = {
 							["amount"] = 0,
 						},
 					},
-					["ActiveTime"] = 69.13999999999999,
+					["PartialResist"] = {
+						["Ice Nova"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 5,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 5,
+							["amount"] = 0,
+						},
+						["Gravity Well"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 30,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 30,
+							["amount"] = 0,
+						},
+						["Firebomb"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 0,
+						},
+						["Arcane Trap Effect"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+						["Blizzard (DoT)"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 3,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 3,
+							["amount"] = 0,
+						},
+						["Scorch"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+						["Spellbreaker"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+						["Arcane Explosion"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 0,
+						},
+					},
+					["ManaGained"] = {
+						["Divine Plea"] = {
+							["Details"] = {
+								["Bigepapa"] = {
+									["count"] = 7670,
+								},
+							},
+							["amount"] = 7670,
+						},
+						["Illumination"] = {
+							["Details"] = {
+								["Bigepapa"] = {
+									["count"] = 697,
+								},
+							},
+							["amount"] = 697,
+						},
+						["Seal of Wisdom"] = {
+							["Details"] = {
+								["Bigepapa"] = {
+									["count"] = 7362,
+								},
+							},
+							["amount"] = 7362,
+						},
+					},
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
 					["Overhealing"] = 131174,
 					["TimeSpent"] = {
 						["Jungee"] = {
@@ -87118,195 +87302,13 @@ RecountPerCharDB = {
 							["amount"] = 13250,
 						},
 					},
-					["Interrupts"] = 0,
+					["ActiveTime"] = 69.13999999999999,
 					["EnergyGained"] = {
 					},
-					["PartialResist"] = {
-						["Ice Nova"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 0,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 5,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 5,
-							["amount"] = 0,
-						},
-						["Gravity Well"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 30,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 30,
-							["amount"] = 0,
-						},
-						["Firebomb"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 2,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 2,
-							["amount"] = 0,
-						},
-						["Arcane Trap Effect"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 0,
-						},
-						["Blizzard (DoT)"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 3,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 3,
-							["amount"] = 0,
-						},
-						["Scorch"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 0,
-						},
-						["Spellbreaker"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 0,
-						},
-						["Arcane Explosion"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 2,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 2,
-							["amount"] = 0,
-						},
-					},
+					["EnergyGain"] = 0,
 					["Healing"] = 85371,
+					["Dispelled"] = 0,
 					["RageGained"] = {
-					},
-					["OverHeals"] = {
-						["Beacon of Light"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 9016,
-									["min"] = 549,
-									["count"] = 18,
-									["amount"] = 79770,
-								},
-							},
-							["count"] = 18,
-							["amount"] = 79770,
-						},
-						["Flash of Light"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 4606,
-									["min"] = 678,
-									["count"] = 7,
-									["amount"] = 17496,
-								},
-								["Crit"] = {
-									["max"] = 6768,
-									["min"] = 1774,
-									["count"] = 4,
-									["amount"] = 17539,
-								},
-								["Tick"] = {
-									["max"] = 634,
-									["min"] = 391,
-									["count"] = 11,
-									["amount"] = 5030,
-								},
-							},
-							["count"] = 22,
-							["amount"] = 40065,
-						},
-						["Judgement of Light"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 490,
-									["min"] = 490,
-									["count"] = 3,
-									["amount"] = 1470,
-								},
-							},
-							["count"] = 3,
-							["amount"] = 1470,
-						},
-						["Improved Leader of the Pack"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 490,
-									["min"] = 490,
-									["count"] = 4,
-									["amount"] = 1960,
-								},
-							},
-							["count"] = 4,
-							["amount"] = 1960,
-						},
-						["Holy Shock"] = {
-							["Details"] = {
-								["Crit"] = {
-									["max"] = 7909,
-									["min"] = 7909,
-									["count"] = 1,
-									["amount"] = 7909,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 7909,
-						},
 					},
 					["Attacks"] = {
 						["Consecration (DoT)"] = {
@@ -87465,7 +87467,32 @@ RecountPerCharDB = {
 						},
 					},
 					["ManaGain"] = 15729,
-					["DOT_Time"] = 153,
+					["HOTs"] = {
+						["Flash of Light"] = {
+							["Details"] = {
+								["Jungee"] = {
+									["count"] = 51,
+								},
+							},
+							["amount"] = 51,
+						},
+						["Improved Leader of the Pack"] = {
+							["Details"] = {
+								["Bigepapa"] = {
+									["count"] = 12,
+								},
+							},
+							["amount"] = 12,
+						},
+						["Judgement of Light"] = {
+							["Details"] = {
+								["Bigepapa"] = {
+									["count"] = 15,
+								},
+							},
+							["amount"] = 15,
+						},
+					},
 					["DispelledWho"] = {
 					},
 				},
@@ -88319,30 +88346,6 @@ RecountPerCharDB = {
 							["count"] = 8,
 							["amount"] = 0,
 						},
-						["Crystallize"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 3,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 3,
-							["amount"] = 0,
-						},
-						["Charged Chaotic Energy Burst"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 0,
-						},
 						["Tail Sweep"] = {
 							["Details"] = {
 								["No Resist"] = {
@@ -88355,16 +88358,16 @@ RecountPerCharDB = {
 							["count"] = 1,
 							["amount"] = 0,
 						},
-						["Shard Spray"] = {
+						["Chaotic Energy Burst"] = {
 							["Details"] = {
 								["No Resist"] = {
 									["max"] = 0,
 									["min"] = 0,
-									["count"] = 2,
+									["count"] = 5,
 									["amount"] = 0,
 								},
 							},
-							["count"] = 2,
+							["count"] = 5,
 							["amount"] = 0,
 						},
 						["Intense Cold (DoT)"] = {
@@ -88384,6 +88387,30 @@ RecountPerCharDB = {
 							},
 							["count"] = 16,
 							["amount"] = 640,
+						},
+						["Ensnare"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 0,
+						},
+						["Crystallize"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 3,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 3,
+							["amount"] = 0,
 						},
 						["Crystal Bark"] = {
 							["Details"] = {
@@ -88409,7 +88436,7 @@ RecountPerCharDB = {
 							["count"] = 2,
 							["amount"] = 0,
 						},
-						["Ensnare"] = {
+						["Shard Spray"] = {
 							["Details"] = {
 								["No Resist"] = {
 									["max"] = 0,
@@ -88421,16 +88448,16 @@ RecountPerCharDB = {
 							["count"] = 2,
 							["amount"] = 0,
 						},
-						["Chaotic Energy Burst"] = {
+						["Charged Chaotic Energy Burst"] = {
 							["Details"] = {
 								["No Resist"] = {
 									["max"] = 0,
 									["min"] = 0,
-									["count"] = 5,
+									["count"] = 1,
 									["amount"] = 0,
 								},
 							},
-							["count"] = 5,
+							["count"] = 1,
 							["amount"] = 0,
 						},
 					},
@@ -88501,30 +88528,6 @@ RecountPerCharDB = {
 							["count"] = 8,
 							["amount"] = 0,
 						},
-						["Crystallize"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 3,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 3,
-							["amount"] = 0,
-						},
-						["Charged Chaotic Energy Burst"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 0,
-						},
 						["Tail Sweep"] = {
 							["Details"] = {
 								["No Absorb"] = {
@@ -88537,16 +88540,16 @@ RecountPerCharDB = {
 							["count"] = 1,
 							["amount"] = 0,
 						},
-						["Shard Spray"] = {
+						["Chaotic Energy Burst"] = {
 							["Details"] = {
 								["No Absorb"] = {
 									["max"] = 0,
 									["min"] = 0,
-									["count"] = 2,
+									["count"] = 5,
 									["amount"] = 0,
 								},
 							},
-							["count"] = 2,
+							["count"] = 5,
 							["amount"] = 0,
 						},
 						["Intense Cold (DoT)"] = {
@@ -88559,6 +88562,30 @@ RecountPerCharDB = {
 								},
 							},
 							["count"] = 16,
+							["amount"] = 0,
+						},
+						["Ensnare"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 0,
+						},
+						["Crystallize"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 3,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 3,
 							["amount"] = 0,
 						},
 						["Crystal Bark"] = {
@@ -88585,7 +88612,7 @@ RecountPerCharDB = {
 							["count"] = 2,
 							["amount"] = 0,
 						},
-						["Ensnare"] = {
+						["Shard Spray"] = {
 							["Details"] = {
 								["No Absorb"] = {
 									["max"] = 0,
@@ -88597,16 +88624,16 @@ RecountPerCharDB = {
 							["count"] = 2,
 							["amount"] = 0,
 						},
-						["Chaotic Energy Burst"] = {
+						["Charged Chaotic Energy Burst"] = {
 							["Details"] = {
 								["No Absorb"] = {
 									["max"] = 0,
 									["min"] = 0,
-									["count"] = 5,
+									["count"] = 1,
 									["amount"] = 0,
 								},
 							},
-							["count"] = 5,
+							["count"] = 1,
 							["amount"] = 0,
 						},
 					},
@@ -88860,20 +88887,6 @@ RecountPerCharDB = {
 							},
 							["amount"] = 7673,
 						},
-						["Crystalline Keeper"] = {
-							["Details"] = {
-								["Consecration (DoT)"] = {
-									["count"] = 7638,
-								},
-								["Melee"] = {
-									["count"] = 189,
-								},
-								["Judgement"] = {
-									["count"] = 6836,
-								},
-							},
-							["amount"] = 14663,
-						},
 						["Azure Warder"] = {
 							["Details"] = {
 								["Holy Shock"] = {
@@ -88887,6 +88900,20 @@ RecountPerCharDB = {
 								},
 							},
 							["amount"] = 5556,
+						},
+						["Crystalline Keeper"] = {
+							["Details"] = {
+								["Consecration (DoT)"] = {
+									["count"] = 7638,
+								},
+								["Melee"] = {
+									["count"] = 189,
+								},
+								["Judgement"] = {
+									["count"] = 6836,
+								},
+							},
+							["amount"] = 14663,
 						},
 						["Azure Enforcer"] = {
 							["Details"] = {
@@ -89364,20 +89391,6 @@ RecountPerCharDB = {
 							},
 							["amount"] = 4.37,
 						},
-						["Crystalline Keeper"] = {
-							["Details"] = {
-								["Consecration (DoT)"] = {
-									["count"] = 17.32,
-								},
-								["Melee"] = {
-									["count"] = 1.32,
-								},
-								["Judgement"] = {
-									["count"] = 7.57,
-								},
-							},
-							["amount"] = 26.21,
-						},
 						["Azure Warder"] = {
 							["Details"] = {
 								["Holy Shock"] = {
@@ -89391,6 +89404,20 @@ RecountPerCharDB = {
 								},
 							},
 							["amount"] = 7.14,
+						},
+						["Crystalline Keeper"] = {
+							["Details"] = {
+								["Consecration (DoT)"] = {
+									["count"] = 17.32,
+								},
+								["Melee"] = {
+									["count"] = 1.32,
+								},
+								["Judgement"] = {
+									["count"] = 7.57,
+								},
+							},
+							["amount"] = 26.21,
 						},
 						["Azure Enforcer"] = {
 							["Details"] = {
@@ -90327,30 +90354,6 @@ RecountPerCharDB = {
 							["count"] = 8,
 							["amount"] = 0,
 						},
-						["Crystallize"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 3,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 3,
-							["amount"] = 0,
-						},
-						["Charged Chaotic Energy Burst"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 0,
-						},
 						["Tail Sweep"] = {
 							["Details"] = {
 								["No Resist"] = {
@@ -90363,16 +90366,16 @@ RecountPerCharDB = {
 							["count"] = 1,
 							["amount"] = 0,
 						},
-						["Shard Spray"] = {
+						["Chaotic Energy Burst"] = {
 							["Details"] = {
 								["No Resist"] = {
 									["max"] = 0,
 									["min"] = 0,
-									["count"] = 2,
+									["count"] = 5,
 									["amount"] = 0,
 								},
 							},
-							["count"] = 2,
+							["count"] = 5,
 							["amount"] = 0,
 						},
 						["Intense Cold (DoT)"] = {
@@ -90392,6 +90395,30 @@ RecountPerCharDB = {
 							},
 							["count"] = 16,
 							["amount"] = 640,
+						},
+						["Ensnare"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 0,
+						},
+						["Crystallize"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 3,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 3,
+							["amount"] = 0,
 						},
 						["Crystal Bark"] = {
 							["Details"] = {
@@ -90417,7 +90444,7 @@ RecountPerCharDB = {
 							["count"] = 2,
 							["amount"] = 0,
 						},
-						["Ensnare"] = {
+						["Shard Spray"] = {
 							["Details"] = {
 								["No Resist"] = {
 									["max"] = 0,
@@ -90429,16 +90456,16 @@ RecountPerCharDB = {
 							["count"] = 2,
 							["amount"] = 0,
 						},
-						["Chaotic Energy Burst"] = {
+						["Charged Chaotic Energy Burst"] = {
 							["Details"] = {
 								["No Resist"] = {
 									["max"] = 0,
 									["min"] = 0,
-									["count"] = 5,
+									["count"] = 1,
 									["amount"] = 0,
 								},
 							},
-							["count"] = 5,
+							["count"] = 1,
 							["amount"] = 0,
 						},
 					},
@@ -90509,30 +90536,6 @@ RecountPerCharDB = {
 							["count"] = 8,
 							["amount"] = 0,
 						},
-						["Crystallize"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 3,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 3,
-							["amount"] = 0,
-						},
-						["Charged Chaotic Energy Burst"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 0,
-						},
 						["Tail Sweep"] = {
 							["Details"] = {
 								["No Absorb"] = {
@@ -90545,16 +90548,16 @@ RecountPerCharDB = {
 							["count"] = 1,
 							["amount"] = 0,
 						},
-						["Shard Spray"] = {
+						["Chaotic Energy Burst"] = {
 							["Details"] = {
 								["No Absorb"] = {
 									["max"] = 0,
 									["min"] = 0,
-									["count"] = 2,
+									["count"] = 5,
 									["amount"] = 0,
 								},
 							},
-							["count"] = 2,
+							["count"] = 5,
 							["amount"] = 0,
 						},
 						["Intense Cold (DoT)"] = {
@@ -90567,6 +90570,30 @@ RecountPerCharDB = {
 								},
 							},
 							["count"] = 16,
+							["amount"] = 0,
+						},
+						["Ensnare"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 0,
+						},
+						["Crystallize"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 3,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 3,
 							["amount"] = 0,
 						},
 						["Crystal Bark"] = {
@@ -90593,7 +90620,7 @@ RecountPerCharDB = {
 							["count"] = 2,
 							["amount"] = 0,
 						},
-						["Ensnare"] = {
+						["Shard Spray"] = {
 							["Details"] = {
 								["No Absorb"] = {
 									["max"] = 0,
@@ -90605,16 +90632,16 @@ RecountPerCharDB = {
 							["count"] = 2,
 							["amount"] = 0,
 						},
-						["Chaotic Energy Burst"] = {
+						["Charged Chaotic Energy Burst"] = {
 							["Details"] = {
 								["No Absorb"] = {
 									["max"] = 0,
 									["min"] = 0,
-									["count"] = 5,
+									["count"] = 1,
 									["amount"] = 0,
 								},
 							},
-							["count"] = 5,
+							["count"] = 1,
 							["amount"] = 0,
 						},
 					},
@@ -90868,20 +90895,6 @@ RecountPerCharDB = {
 							},
 							["amount"] = 7673,
 						},
-						["Crystalline Keeper"] = {
-							["Details"] = {
-								["Consecration (DoT)"] = {
-									["count"] = 7638,
-								},
-								["Melee"] = {
-									["count"] = 189,
-								},
-								["Judgement"] = {
-									["count"] = 6836,
-								},
-							},
-							["amount"] = 14663,
-						},
 						["Azure Warder"] = {
 							["Details"] = {
 								["Holy Shock"] = {
@@ -90895,6 +90908,20 @@ RecountPerCharDB = {
 								},
 							},
 							["amount"] = 5556,
+						},
+						["Crystalline Keeper"] = {
+							["Details"] = {
+								["Consecration (DoT)"] = {
+									["count"] = 7638,
+								},
+								["Melee"] = {
+									["count"] = 189,
+								},
+								["Judgement"] = {
+									["count"] = 6836,
+								},
+							},
+							["amount"] = 14663,
 						},
 						["Azure Enforcer"] = {
 							["Details"] = {
@@ -91372,20 +91399,6 @@ RecountPerCharDB = {
 							},
 							["amount"] = 4.37,
 						},
-						["Crystalline Keeper"] = {
-							["Details"] = {
-								["Consecration (DoT)"] = {
-									["count"] = 17.32,
-								},
-								["Melee"] = {
-									["count"] = 1.32,
-								},
-								["Judgement"] = {
-									["count"] = 7.57,
-								},
-							},
-							["amount"] = 26.21,
-						},
 						["Azure Warder"] = {
 							["Details"] = {
 								["Holy Shock"] = {
@@ -91399,6 +91412,20 @@ RecountPerCharDB = {
 								},
 							},
 							["amount"] = 7.14,
+						},
+						["Crystalline Keeper"] = {
+							["Details"] = {
+								["Consecration (DoT)"] = {
+									["count"] = 17.32,
+								},
+								["Melee"] = {
+									["count"] = 1.32,
+								},
+								["Judgement"] = {
+									["count"] = 7.57,
+								},
+							},
+							["amount"] = 26.21,
 						},
 						["Azure Enforcer"] = {
 							["Details"] = {
@@ -91638,20 +91665,6 @@ RecountPerCharDB = {
 							},
 							["amount"] = 27.31000000000001,
 						},
-						["Crystalline Keeper"] = {
-							["Details"] = {
-								["Consecration (DoT)"] = {
-									["count"] = 17.32,
-								},
-								["Melee"] = {
-									["count"] = 1.32,
-								},
-								["Judgement"] = {
-									["count"] = 7.57,
-								},
-							},
-							["amount"] = 26.21,
-						},
 						["Azure Warder"] = {
 							["Details"] = {
 								["Holy Shock"] = {
@@ -91665,6 +91678,26 @@ RecountPerCharDB = {
 								},
 							},
 							["amount"] = 11.22,
+						},
+						["Horde Cleric"] = {
+							["Details"] = {
+								["Consecration (DoT)"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 4.55,
+								},
+								["Retribution Aura"] = {
+									["count"] = 0.85,
+								},
+								["Hammer of Wrath"] = {
+									["count"] = 0.33,
+								},
+								["Judgement"] = {
+									["count"] = 3.5,
+								},
+							},
+							["amount"] = 9.23,
 						},
 						["Steward"] = {
 							["Details"] = {
@@ -91948,25 +91981,19 @@ RecountPerCharDB = {
 							},
 							["amount"] = 65.08000000000001,
 						},
-						["Horde Cleric"] = {
+						["Crystalline Keeper"] = {
 							["Details"] = {
 								["Consecration (DoT)"] = {
-									["count"] = 0,
+									["count"] = 17.32,
 								},
 								["Melee"] = {
-									["count"] = 4.55,
-								},
-								["Retribution Aura"] = {
-									["count"] = 0.85,
-								},
-								["Hammer of Wrath"] = {
-									["count"] = 0.33,
+									["count"] = 1.32,
 								},
 								["Judgement"] = {
-									["count"] = 3.5,
+									["count"] = 7.57,
 								},
 							},
-							["amount"] = 9.23,
+							["amount"] = 26.21,
 						},
 						["Horde Berserker"] = {
 							["Details"] = {
@@ -92559,16 +92586,16 @@ RecountPerCharDB = {
 							["count"] = 2,
 							["amount"] = 0,
 						},
-						["Firebomb"] = {
+						["Frostbolt"] = {
 							["Details"] = {
 								["No Resist"] = {
 									["max"] = 0,
 									["min"] = 0,
-									["count"] = 2,
+									["count"] = 4,
 									["amount"] = 0,
 								},
 							},
-							["count"] = 2,
+							["count"] = 4,
 							["amount"] = 0,
 						},
 						["Arcane Trap Effect"] = {
@@ -92595,40 +92622,40 @@ RecountPerCharDB = {
 							["count"] = 30,
 							["amount"] = 0,
 						},
-						["Crystal Bark"] = {
+						["Shoot"] = {
 							["Details"] = {
 								["No Resist"] = {
 									["max"] = 0,
 									["min"] = 0,
-									["count"] = 4,
+									["count"] = 2,
 									["amount"] = 0,
 								},
 							},
-							["count"] = 4,
+							["count"] = 2,
 							["amount"] = 0,
 						},
-						["Frostbolt"] = {
+						["Firebomb"] = {
 							["Details"] = {
 								["No Resist"] = {
 									["max"] = 0,
 									["min"] = 0,
-									["count"] = 4,
+									["count"] = 2,
 									["amount"] = 0,
 								},
 							},
-							["count"] = 4,
+							["count"] = 2,
 							["amount"] = 0,
 						},
-						["Spellbreaker"] = {
+						["Arcane Explosion"] = {
 							["Details"] = {
 								["No Resist"] = {
 									["max"] = 0,
 									["min"] = 0,
-									["count"] = 1,
+									["count"] = 2,
 									["amount"] = 0,
 								},
 							},
-							["count"] = 1,
+							["count"] = 2,
 							["amount"] = 0,
 						},
 						["Incendiary Shot (DoT)"] = {
@@ -92643,16 +92670,16 @@ RecountPerCharDB = {
 							["count"] = 4,
 							["amount"] = 0,
 						},
-						["Shoot"] = {
+						["Crystal Bark"] = {
 							["Details"] = {
 								["No Resist"] = {
 									["max"] = 0,
 									["min"] = 0,
-									["count"] = 2,
+									["count"] = 4,
 									["amount"] = 0,
 								},
 							},
-							["count"] = 2,
+							["count"] = 4,
 							["amount"] = 0,
 						},
 						["Blizzard (DoT)"] = {
@@ -92679,17 +92706,23 @@ RecountPerCharDB = {
 							["count"] = 2,
 							["amount"] = 0,
 						},
-						["Tail Sweep"] = {
+						["Intense Cold (DoT)"] = {
 							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 0,
+								["50%Resist"] = {
+									["max"] = 62,
+									["min"] = 31,
+									["count"] = 3,
+									["amount"] = 124,
+								},
+								["25%Resist"] = {
+									["max"] = 63,
+									["min"] = 10,
+									["count"] = 13,
+									["amount"] = 516,
 								},
 							},
-							["count"] = 1,
-							["amount"] = 0,
+							["count"] = 16,
+							["amount"] = 640,
 						},
 						["Scorch"] = {
 							["Details"] = {
@@ -92895,23 +92928,17 @@ RecountPerCharDB = {
 							["count"] = 1,
 							["amount"] = 0,
 						},
-						["Intense Cold (DoT)"] = {
+						["Tail Sweep"] = {
 							["Details"] = {
-								["50%Resist"] = {
-									["max"] = 62,
-									["min"] = 31,
-									["count"] = 3,
-									["amount"] = 124,
-								},
-								["25%Resist"] = {
-									["max"] = 63,
-									["min"] = 10,
-									["count"] = 13,
-									["amount"] = 516,
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
 								},
 							},
-							["count"] = 16,
-							["amount"] = 640,
+							["count"] = 1,
+							["amount"] = 0,
 						},
 						["War Stomp"] = {
 							["Details"] = {
@@ -92925,16 +92952,16 @@ RecountPerCharDB = {
 							["count"] = 3,
 							["amount"] = 0,
 						},
-						["Arcane Explosion"] = {
+						["Spellbreaker"] = {
 							["Details"] = {
 								["No Resist"] = {
 									["max"] = 0,
 									["min"] = 0,
-									["count"] = 2,
+									["count"] = 1,
 									["amount"] = 0,
 								},
 							},
-							["count"] = 2,
+							["count"] = 1,
 							["amount"] = 0,
 						},
 					},
@@ -92977,16 +93004,16 @@ RecountPerCharDB = {
 							["count"] = 2,
 							["amount"] = 0,
 						},
-						["Firebomb"] = {
+						["Frostbolt"] = {
 							["Details"] = {
 								["No Absorb"] = {
 									["max"] = 0,
 									["min"] = 0,
-									["count"] = 2,
+									["count"] = 4,
 									["amount"] = 0,
 								},
 							},
-							["count"] = 2,
+							["count"] = 4,
 							["amount"] = 0,
 						},
 						["Arcane Trap Effect"] = {
@@ -93013,40 +93040,40 @@ RecountPerCharDB = {
 							["count"] = 30,
 							["amount"] = 0,
 						},
-						["Crystal Bark"] = {
+						["Shoot"] = {
 							["Details"] = {
 								["No Absorb"] = {
 									["max"] = 0,
 									["min"] = 0,
-									["count"] = 4,
+									["count"] = 2,
 									["amount"] = 0,
 								},
 							},
-							["count"] = 4,
+							["count"] = 2,
 							["amount"] = 0,
 						},
-						["Frostbolt"] = {
+						["Firebomb"] = {
 							["Details"] = {
 								["No Absorb"] = {
 									["max"] = 0,
 									["min"] = 0,
-									["count"] = 4,
+									["count"] = 2,
 									["amount"] = 0,
 								},
 							},
-							["count"] = 4,
+							["count"] = 2,
 							["amount"] = 0,
 						},
-						["Spellbreaker"] = {
+						["Arcane Explosion"] = {
 							["Details"] = {
 								["No Absorb"] = {
 									["max"] = 0,
 									["min"] = 0,
-									["count"] = 1,
+									["count"] = 2,
 									["amount"] = 0,
 								},
 							},
-							["count"] = 1,
+							["count"] = 2,
 							["amount"] = 0,
 						},
 						["Incendiary Shot (DoT)"] = {
@@ -93061,16 +93088,16 @@ RecountPerCharDB = {
 							["count"] = 4,
 							["amount"] = 0,
 						},
-						["Shoot"] = {
+						["Crystal Bark"] = {
 							["Details"] = {
 								["No Absorb"] = {
 									["max"] = 0,
 									["min"] = 0,
-									["count"] = 2,
+									["count"] = 4,
 									["amount"] = 0,
 								},
 							},
-							["count"] = 2,
+							["count"] = 4,
 							["amount"] = 0,
 						},
 						["Blizzard (DoT)"] = {
@@ -93097,16 +93124,16 @@ RecountPerCharDB = {
 							["count"] = 2,
 							["amount"] = 0,
 						},
-						["Tail Sweep"] = {
+						["Intense Cold (DoT)"] = {
 							["Details"] = {
 								["No Absorb"] = {
 									["max"] = 0,
 									["min"] = 0,
-									["count"] = 1,
+									["count"] = 16,
 									["amount"] = 0,
 								},
 							},
-							["count"] = 1,
+							["count"] = 16,
 							["amount"] = 0,
 						},
 						["Scorch"] = {
@@ -93313,16 +93340,16 @@ RecountPerCharDB = {
 							["count"] = 1,
 							["amount"] = 0,
 						},
-						["Intense Cold (DoT)"] = {
+						["Tail Sweep"] = {
 							["Details"] = {
 								["No Absorb"] = {
 									["max"] = 0,
 									["min"] = 0,
-									["count"] = 16,
+									["count"] = 1,
 									["amount"] = 0,
 								},
 							},
-							["count"] = 16,
+							["count"] = 1,
 							["amount"] = 0,
 						},
 						["War Stomp"] = {
@@ -93337,16 +93364,16 @@ RecountPerCharDB = {
 							["count"] = 3,
 							["amount"] = 0,
 						},
-						["Arcane Explosion"] = {
+						["Spellbreaker"] = {
 							["Details"] = {
 								["No Absorb"] = {
 									["max"] = 0,
 									["min"] = 0,
-									["count"] = 2,
+									["count"] = 1,
 									["amount"] = 0,
 								},
 							},
-							["count"] = 2,
+							["count"] = 1,
 							["amount"] = 0,
 						},
 					},
@@ -94651,7 +94678,7 @@ RecountPerCharDB = {
 			},
 			["enClass"] = "MOB",
 			["unit"] = "party4target",
-			["LastAbility"] = 1306.632,
+			["LastAbility"] = 4982.039,
 			["level"] = -1,
 			["LastDamageAbility"] = "Hammer of Wrath",
 			["LastFightIn"] = 2,
@@ -95507,6 +95534,18 @@ RecountPerCharDB = {
 							["count"] = 2,
 							["amount"] = 0,
 						},
+						["Plague Strike"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 4,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 4,
+							["amount"] = 0,
+						},
 						["Claw"] = {
 							["Details"] = {
 								["No Resist"] = {
@@ -95517,18 +95556,6 @@ RecountPerCharDB = {
 								},
 							},
 							["count"] = 7,
-							["amount"] = 0,
-						},
-						["Crusader Strike"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 1,
 							["amount"] = 0,
 						},
 						["Death Strike"] = {
@@ -95567,19 +95594,19 @@ RecountPerCharDB = {
 							["count"] = 3,
 							["amount"] = 0,
 						},
-						["Melee"] = {
+						["Rake"] = {
 							["Details"] = {
 								["No Resist"] = {
 									["max"] = 0,
 									["min"] = 0,
-									["count"] = 58,
+									["count"] = 1,
 									["amount"] = 0,
 								},
 							},
-							["count"] = 58,
+							["count"] = 1,
 							["amount"] = 0,
 						},
-						["Rake"] = {
+						["Shred"] = {
 							["Details"] = {
 								["No Resist"] = {
 									["max"] = 0,
@@ -95603,16 +95630,16 @@ RecountPerCharDB = {
 							["count"] = 3,
 							["amount"] = 0,
 						},
-						["Icy Touch"] = {
+						["Blood-Caked Strike"] = {
 							["Details"] = {
 								["No Resist"] = {
 									["max"] = 0,
 									["min"] = 0,
-									["count"] = 4,
+									["count"] = 1,
 									["amount"] = 0,
 								},
 							},
-							["count"] = 4,
+							["count"] = 1,
 							["amount"] = 0,
 						},
 						["Mangle (Cat)"] = {
@@ -95705,31 +95732,7 @@ RecountPerCharDB = {
 							["count"] = 13,
 							["amount"] = 498,
 						},
-						["Blood-Caked Strike"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 0,
-						},
-						["Shred"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 0,
-						},
-						["Plague Strike"] = {
+						["Icy Touch"] = {
 							["Details"] = {
 								["No Resist"] = {
 									["max"] = 0,
@@ -95739,6 +95742,30 @@ RecountPerCharDB = {
 								},
 							},
 							["count"] = 4,
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 58,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 58,
+							["amount"] = 0,
+						},
+						["Crusader Strike"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
 							["amount"] = 0,
 						},
 						["Frost Fever (DoT)"] = {
@@ -95882,6 +95909,18 @@ RecountPerCharDB = {
 							["count"] = 2,
 							["amount"] = 0,
 						},
+						["Plague Strike"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 4,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 4,
+							["amount"] = 0,
+						},
 						["Claw"] = {
 							["Details"] = {
 								["No Absorb"] = {
@@ -95892,18 +95931,6 @@ RecountPerCharDB = {
 								},
 							},
 							["count"] = 7,
-							["amount"] = 0,
-						},
-						["Crusader Strike"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 1,
 							["amount"] = 0,
 						},
 						["Death Strike"] = {
@@ -95942,19 +95969,19 @@ RecountPerCharDB = {
 							["count"] = 3,
 							["amount"] = 0,
 						},
-						["Melee"] = {
+						["Rake"] = {
 							["Details"] = {
 								["No Absorb"] = {
 									["max"] = 0,
 									["min"] = 0,
-									["count"] = 58,
+									["count"] = 1,
 									["amount"] = 0,
 								},
 							},
-							["count"] = 58,
+							["count"] = 1,
 							["amount"] = 0,
 						},
-						["Rake"] = {
+						["Shred"] = {
 							["Details"] = {
 								["No Absorb"] = {
 									["max"] = 0,
@@ -95978,16 +96005,16 @@ RecountPerCharDB = {
 							["count"] = 3,
 							["amount"] = 0,
 						},
-						["Icy Touch"] = {
+						["Blood-Caked Strike"] = {
 							["Details"] = {
 								["No Absorb"] = {
 									["max"] = 0,
 									["min"] = 0,
-									["count"] = 4,
+									["count"] = 1,
 									["amount"] = 0,
 								},
 							},
-							["count"] = 4,
+							["count"] = 1,
 							["amount"] = 0,
 						},
 						["Mangle (Cat)"] = {
@@ -96062,31 +96089,7 @@ RecountPerCharDB = {
 							["count"] = 13,
 							["amount"] = 0,
 						},
-						["Blood-Caked Strike"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 0,
-						},
-						["Shred"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 0,
-						},
-						["Plague Strike"] = {
+						["Icy Touch"] = {
 							["Details"] = {
 								["No Absorb"] = {
 									["max"] = 0,
@@ -96096,6 +96099,30 @@ RecountPerCharDB = {
 								},
 							},
 							["count"] = 4,
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 58,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 58,
+							["amount"] = 0,
+						},
+						["Crusader Strike"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
 							["amount"] = 0,
 						},
 						["Frost Fever (DoT)"] = {
@@ -96142,69 +96169,21 @@ RecountPerCharDB = {
 						["Nature"] = 3280,
 					},
 					["Damage"] = 24615,
-					["Attacks"] = {
-						["Frightening Shout"] = {
-							["Details"] = {
-								["Immune"] = {
-									["count"] = 2,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 2,
-							["amount"] = 0,
-						},
-						["Whirlwind"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 7267,
-									["min"] = 755,
-									["count"] = 4,
-									["amount"] = 15448,
-								},
-								["Parry"] = {
-									["count"] = 1,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 5,
-							["amount"] = 15448,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["Parry"] = {
-									["count"] = 2,
-									["amount"] = 0,
-								},
-								["Absorb"] = {
-									["count"] = 1,
-									["amount"] = 0,
-								},
-								["Hit"] = {
-									["max"] = 3192,
-									["min"] = 1594,
-									["count"] = 4,
-									["amount"] = 9167,
-								},
-								["Dodge"] = {
-									["count"] = 3,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 10,
-							["amount"] = 9167,
-						},
+					["ElementDone"] = {
+						["Melee"] = 9167,
+						["Physical"] = 15448,
 					},
 					["WhoDamaged"] = {
 						["Jungee"] = {
 							["Details"] = {
-								["Melee"] = {
-									["count"] = 20975,
+								["Blood Plague (DoT)"] = {
+									["count"] = 4262,
 								},
 								["Death Strike"] = {
 									["count"] = 1940,
 								},
-								["Blood Plague (DoT)"] = {
-									["count"] = 4262,
+								["Melee"] = {
+									["count"] = 20975,
 								},
 								["Icy Touch"] = {
 									["count"] = 5468,
@@ -96215,11 +96194,11 @@ RecountPerCharDB = {
 								["Plague Strike"] = {
 									["count"] = 4044,
 								},
-								["Frost Fever (DoT)"] = {
-									["count"] = 4258,
-								},
 								["Retribution Aura"] = {
 									["count"] = 756,
+								},
+								["Frost Fever (DoT)"] = {
+									["count"] = 4258,
 								},
 							},
 							["amount"] = 45293,
@@ -96245,11 +96224,11 @@ RecountPerCharDB = {
 						},
 						["Maijuur"] = {
 							["Details"] = {
-								["Melee"] = {
-									["count"] = 22806,
-								},
 								["Rake"] = {
 									["count"] = 1097,
+								},
+								["Shred"] = {
+									["count"] = 7405,
 								},
 								["Swipe (Cat)"] = {
 									["count"] = 13063,
@@ -96263,8 +96242,8 @@ RecountPerCharDB = {
 								["Rake (DoT)"] = {
 									["count"] = 5211,
 								},
-								["Shred"] = {
-									["count"] = 7405,
+								["Melee"] = {
+									["count"] = 22806,
 								},
 							},
 							["amount"] = 60008,
@@ -96332,58 +96311,118 @@ RecountPerCharDB = {
 						},
 						["Angeletee"] = {
 							["Details"] = {
-								["Melee"] = {
-									["count"] = 2568,
+								["Divine Storm"] = {
+									["count"] = 3186,
 								},
 								["Crusader Strike"] = {
 									["count"] = 1114,
 								},
-								["Divine Storm"] = {
-									["count"] = 3186,
-								},
 								["Hammer of Wrath"] = {
 									["count"] = 5174,
+								},
+								["Melee"] = {
+									["count"] = 2568,
 								},
 							},
 							["amount"] = 12042,
 						},
 					},
-					["ElementDone"] = {
-						["Melee"] = 9167,
-						["Physical"] = 15448,
-					},
-					["HealingTaken"] = 23586,
-					["ElementHitsDone"] = {
+					["Attacks"] = {
+						["Frightening Shout"] = {
+							["Details"] = {
+								["Immune"] = {
+									["count"] = 2,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 0,
+						},
+						["Whirlwind"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 7267,
+									["min"] = 755,
+									["count"] = 4,
+									["amount"] = 15448,
+								},
+								["Parry"] = {
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 5,
+							["amount"] = 15448,
+						},
 						["Melee"] = {
 							["Details"] = {
 								["Parry"] = {
 									["count"] = 2,
+									["amount"] = 0,
 								},
 								["Absorb"] = {
 									["count"] = 1,
+									["amount"] = 0,
 								},
 								["Hit"] = {
+									["max"] = 3192,
+									["min"] = 1594,
 									["count"] = 4,
+									["amount"] = 9167,
 								},
 								["Dodge"] = {
 									["count"] = 3,
+									["amount"] = 0,
 								},
 							},
-							["amount"] = 10,
+							["count"] = 10,
+							["amount"] = 9167,
 						},
-						["Physical"] = {
+					},
+					["HealingTaken"] = 23586,
+					["DamagedWho"] = {
+						["Maijuur"] = {
 							["Details"] = {
-								["Immune"] = {
-									["count"] = 2,
-								},
-								["Hit"] = {
-									["count"] = 4,
-								},
-								["Parry"] = {
-									["count"] = 1,
+								["Whirlwind"] = {
+									["count"] = 5929,
 								},
 							},
-							["amount"] = 7,
+							["amount"] = 5929,
+						},
+						["Casketbasher <Urgash>"] = {
+							["Details"] = {
+								["Whirlwind"] = {
+									["count"] = 755,
+								},
+							},
+							["amount"] = 755,
+						},
+						["Bigepapa"] = {
+							["Details"] = {
+								["Whirlwind"] = {
+									["count"] = 7267,
+								},
+							},
+							["amount"] = 7267,
+						},
+						["Urgash"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 3192,
+								},
+							},
+							["amount"] = 3192,
+						},
+						["Jungee"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 5975,
+								},
+								["Whirlwind"] = {
+									["count"] = 1497,
+								},
+							},
+							["amount"] = 7472,
 						},
 					},
 					["TimeDamage"] = 27.26000000000001,
@@ -96446,49 +96485,37 @@ RecountPerCharDB = {
 							["amount"] = 0,
 						},
 					},
-					["DamagedWho"] = {
-						["Maijuur"] = {
+					["ElementHitsDone"] = {
+						["Melee"] = {
 							["Details"] = {
-								["Whirlwind"] = {
-									["count"] = 5929,
+								["Parry"] = {
+									["count"] = 2,
+								},
+								["Absorb"] = {
+									["count"] = 1,
+								},
+								["Hit"] = {
+									["count"] = 4,
+								},
+								["Dodge"] = {
+									["count"] = 3,
 								},
 							},
-							["amount"] = 5929,
+							["amount"] = 10,
 						},
-						["Casketbasher <Urgash>"] = {
+						["Physical"] = {
 							["Details"] = {
-								["Whirlwind"] = {
-									["count"] = 755,
+								["Immune"] = {
+									["count"] = 2,
+								},
+								["Hit"] = {
+									["count"] = 4,
+								},
+								["Parry"] = {
+									["count"] = 1,
 								},
 							},
-							["amount"] = 755,
-						},
-						["Bigepapa"] = {
-							["Details"] = {
-								["Whirlwind"] = {
-									["count"] = 7267,
-								},
-							},
-							["amount"] = 7267,
-						},
-						["Urgash"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 3192,
-								},
-							},
-							["amount"] = 3192,
-						},
-						["Jungee"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 5975,
-								},
-								["Whirlwind"] = {
-									["count"] = 1497,
-								},
-							},
-							["amount"] = 7472,
+							["amount"] = 7,
 						},
 					},
 					["WhoHealed"] = {
@@ -96598,14 +96625,13 @@ RecountPerCharDB = {
 					},
 					["DeathCount"] = 0,
 					["HOT_Time"] = 0,
-					["ElementTakenBlock"] = {
-					},
+					["Damage"] = 0,
 					["RunicPowerGain"] = 0,
 					["ElementTaken"] = {
 					},
-					["HOTs"] = {
+					["DOT_Time"] = 0,
+					["ElementTakenBlock"] = {
 					},
-					["Damage"] = 0,
 					["ElementDoneAbsorb"] = {
 					},
 					["TimeHeal"] = 0,
@@ -96614,32 +96640,33 @@ RecountPerCharDB = {
 					["Dispels"] = 0,
 					["PartialBlock"] = {
 					},
-					["DamagedWho"] = {
+					["ElementHitsDone"] = {
 					},
 					["FAttacks"] = {
 					},
 					["HealingTaken"] = 0,
 					["ElementDone"] = {
 					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementHitsDone"] = {
+					["DamagedWho"] = {
 					},
 					["ManaGainedFrom"] = {
+					},
+					["RunicPowerGained"] = {
 					},
 					["WhoDamaged"] = {
 					},
 					["EnergyGainedFrom"] = {
 					},
-					["RunicPowerGained"] = {
-					},
 					["CCBroken"] = {
+					},
+					["RunicPowerGainedFrom"] = {
 					},
 					["ElementDoneBlock"] = {
 					},
 					["TimeHealing"] = {
 					},
-					["Dispelled"] = 0,
+					["OverHeals"] = {
+					},
 					["WhoHealed"] = {
 					},
 					["HealedWho"] = {
@@ -96647,13 +96674,14 @@ RecountPerCharDB = {
 					["CCBreak"] = 0,
 					["ElementTakenAbsorb"] = {
 					},
-					["FDamage"] = 0,
-					["EnergyGain"] = 0,
-					["ManaGained"] = {
-					},
 					["PartialAbsorb"] = {
 					},
-					["ActiveTime"] = 0,
+					["PartialResist"] = {
+					},
+					["ManaGained"] = {
+					},
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
 					["Overhealing"] = 0,
 					["TimeSpent"] = {
 					},
@@ -96665,15 +96693,13 @@ RecountPerCharDB = {
 					},
 					["Heals"] = {
 					},
-					["Interrupts"] = 0,
+					["ActiveTime"] = 0,
 					["EnergyGained"] = {
 					},
-					["PartialResist"] = {
-					},
+					["EnergyGain"] = 0,
 					["Healing"] = 0,
+					["Dispelled"] = 0,
 					["RageGained"] = {
-					},
-					["OverHeals"] = {
 					},
 					["Attacks"] = {
 					},
@@ -96684,7 +96710,8 @@ RecountPerCharDB = {
 					["TimeDamaging"] = {
 					},
 					["ManaGain"] = 0,
-					["DOT_Time"] = 0,
+					["HOTs"] = {
+					},
 					["DispelledWho"] = {
 					},
 				},
@@ -96701,14 +96728,13 @@ RecountPerCharDB = {
 					},
 					["DeathCount"] = 0,
 					["HOT_Time"] = 0,
-					["ElementTakenBlock"] = {
-					},
+					["Damage"] = 0,
 					["RunicPowerGain"] = 0,
 					["ElementTaken"] = {
 					},
-					["HOTs"] = {
+					["DOT_Time"] = 0,
+					["ElementTakenBlock"] = {
 					},
-					["Damage"] = 0,
 					["ElementDoneAbsorb"] = {
 					},
 					["TimeHeal"] = 0,
@@ -96717,32 +96743,33 @@ RecountPerCharDB = {
 					["Dispels"] = 0,
 					["PartialBlock"] = {
 					},
-					["DamagedWho"] = {
+					["ElementHitsDone"] = {
 					},
 					["FAttacks"] = {
 					},
 					["HealingTaken"] = 0,
 					["ElementDone"] = {
 					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementHitsDone"] = {
+					["DamagedWho"] = {
 					},
 					["ManaGainedFrom"] = {
+					},
+					["RunicPowerGained"] = {
 					},
 					["WhoDamaged"] = {
 					},
 					["EnergyGainedFrom"] = {
 					},
-					["RunicPowerGained"] = {
-					},
 					["CCBroken"] = {
+					},
+					["RunicPowerGainedFrom"] = {
 					},
 					["ElementDoneBlock"] = {
 					},
 					["TimeHealing"] = {
 					},
-					["Dispelled"] = 0,
+					["OverHeals"] = {
+					},
 					["WhoHealed"] = {
 					},
 					["HealedWho"] = {
@@ -96750,13 +96777,14 @@ RecountPerCharDB = {
 					["CCBreak"] = 0,
 					["ElementTakenAbsorb"] = {
 					},
-					["FDamage"] = 0,
-					["EnergyGain"] = 0,
-					["ManaGained"] = {
-					},
 					["PartialAbsorb"] = {
 					},
-					["ActiveTime"] = 0,
+					["PartialResist"] = {
+					},
+					["ManaGained"] = {
+					},
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
 					["Overhealing"] = 0,
 					["TimeSpent"] = {
 					},
@@ -96768,15 +96796,13 @@ RecountPerCharDB = {
 					},
 					["Heals"] = {
 					},
-					["Interrupts"] = 0,
+					["ActiveTime"] = 0,
 					["EnergyGained"] = {
 					},
-					["PartialResist"] = {
-					},
+					["EnergyGain"] = 0,
 					["Healing"] = 0,
+					["Dispelled"] = 0,
 					["RageGained"] = {
-					},
-					["OverHeals"] = {
 					},
 					["Attacks"] = {
 					},
@@ -96787,7 +96813,8 @@ RecountPerCharDB = {
 					["TimeDamaging"] = {
 					},
 					["ManaGain"] = 0,
-					["DOT_Time"] = 0,
+					["HOTs"] = {
+					},
 					["DispelledWho"] = {
 					},
 				},
@@ -96997,6 +97024,18 @@ RecountPerCharDB = {
 							["count"] = 2,
 							["amount"] = 0,
 						},
+						["Plague Strike"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 4,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 4,
+							["amount"] = 0,
+						},
 						["Claw"] = {
 							["Details"] = {
 								["No Resist"] = {
@@ -97007,18 +97046,6 @@ RecountPerCharDB = {
 								},
 							},
 							["count"] = 7,
-							["amount"] = 0,
-						},
-						["Crusader Strike"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 1,
 							["amount"] = 0,
 						},
 						["Death Strike"] = {
@@ -97057,19 +97084,19 @@ RecountPerCharDB = {
 							["count"] = 3,
 							["amount"] = 0,
 						},
-						["Melee"] = {
+						["Rake"] = {
 							["Details"] = {
 								["No Resist"] = {
 									["max"] = 0,
 									["min"] = 0,
-									["count"] = 58,
+									["count"] = 1,
 									["amount"] = 0,
 								},
 							},
-							["count"] = 58,
+							["count"] = 1,
 							["amount"] = 0,
 						},
-						["Rake"] = {
+						["Shred"] = {
 							["Details"] = {
 								["No Resist"] = {
 									["max"] = 0,
@@ -97093,16 +97120,16 @@ RecountPerCharDB = {
 							["count"] = 3,
 							["amount"] = 0,
 						},
-						["Icy Touch"] = {
+						["Blood-Caked Strike"] = {
 							["Details"] = {
 								["No Resist"] = {
 									["max"] = 0,
 									["min"] = 0,
-									["count"] = 4,
+									["count"] = 1,
 									["amount"] = 0,
 								},
 							},
-							["count"] = 4,
+							["count"] = 1,
 							["amount"] = 0,
 						},
 						["Mangle (Cat)"] = {
@@ -97195,31 +97222,7 @@ RecountPerCharDB = {
 							["count"] = 13,
 							["amount"] = 498,
 						},
-						["Blood-Caked Strike"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 0,
-						},
-						["Shred"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 0,
-						},
-						["Plague Strike"] = {
+						["Icy Touch"] = {
 							["Details"] = {
 								["No Resist"] = {
 									["max"] = 0,
@@ -97229,6 +97232,30 @@ RecountPerCharDB = {
 								},
 							},
 							["count"] = 4,
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 58,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 58,
+							["amount"] = 0,
+						},
+						["Crusader Strike"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
 							["amount"] = 0,
 						},
 						["Frost Fever (DoT)"] = {
@@ -97372,6 +97399,18 @@ RecountPerCharDB = {
 							["count"] = 2,
 							["amount"] = 0,
 						},
+						["Plague Strike"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 4,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 4,
+							["amount"] = 0,
+						},
 						["Claw"] = {
 							["Details"] = {
 								["No Absorb"] = {
@@ -97382,18 +97421,6 @@ RecountPerCharDB = {
 								},
 							},
 							["count"] = 7,
-							["amount"] = 0,
-						},
-						["Crusader Strike"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 1,
 							["amount"] = 0,
 						},
 						["Death Strike"] = {
@@ -97432,19 +97459,19 @@ RecountPerCharDB = {
 							["count"] = 3,
 							["amount"] = 0,
 						},
-						["Melee"] = {
+						["Rake"] = {
 							["Details"] = {
 								["No Absorb"] = {
 									["max"] = 0,
 									["min"] = 0,
-									["count"] = 58,
+									["count"] = 1,
 									["amount"] = 0,
 								},
 							},
-							["count"] = 58,
+							["count"] = 1,
 							["amount"] = 0,
 						},
-						["Rake"] = {
+						["Shred"] = {
 							["Details"] = {
 								["No Absorb"] = {
 									["max"] = 0,
@@ -97468,16 +97495,16 @@ RecountPerCharDB = {
 							["count"] = 3,
 							["amount"] = 0,
 						},
-						["Icy Touch"] = {
+						["Blood-Caked Strike"] = {
 							["Details"] = {
 								["No Absorb"] = {
 									["max"] = 0,
 									["min"] = 0,
-									["count"] = 4,
+									["count"] = 1,
 									["amount"] = 0,
 								},
 							},
-							["count"] = 4,
+							["count"] = 1,
 							["amount"] = 0,
 						},
 						["Mangle (Cat)"] = {
@@ -97552,31 +97579,7 @@ RecountPerCharDB = {
 							["count"] = 13,
 							["amount"] = 0,
 						},
-						["Blood-Caked Strike"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 0,
-						},
-						["Shred"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 0,
-						},
-						["Plague Strike"] = {
+						["Icy Touch"] = {
 							["Details"] = {
 								["No Absorb"] = {
 									["max"] = 0,
@@ -97586,6 +97589,30 @@ RecountPerCharDB = {
 								},
 							},
 							["count"] = 4,
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 58,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 58,
+							["amount"] = 0,
+						},
+						["Crusader Strike"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
 							["amount"] = 0,
 						},
 						["Frost Fever (DoT)"] = {
@@ -97632,69 +97659,21 @@ RecountPerCharDB = {
 						["Nature"] = 3280,
 					},
 					["Damage"] = 24615,
-					["Attacks"] = {
-						["Frightening Shout"] = {
-							["Details"] = {
-								["Immune"] = {
-									["count"] = 2,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 2,
-							["amount"] = 0,
-						},
-						["Whirlwind"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 7267,
-									["min"] = 755,
-									["count"] = 4,
-									["amount"] = 15448,
-								},
-								["Parry"] = {
-									["count"] = 1,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 5,
-							["amount"] = 15448,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["Parry"] = {
-									["count"] = 2,
-									["amount"] = 0,
-								},
-								["Absorb"] = {
-									["count"] = 1,
-									["amount"] = 0,
-								},
-								["Hit"] = {
-									["max"] = 3192,
-									["min"] = 1594,
-									["count"] = 4,
-									["amount"] = 9167,
-								},
-								["Dodge"] = {
-									["count"] = 3,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 10,
-							["amount"] = 9167,
-						},
+					["ElementDone"] = {
+						["Melee"] = 9167,
+						["Physical"] = 15448,
 					},
 					["WhoDamaged"] = {
 						["Jungee"] = {
 							["Details"] = {
-								["Melee"] = {
-									["count"] = 20975,
+								["Blood Plague (DoT)"] = {
+									["count"] = 4262,
 								},
 								["Death Strike"] = {
 									["count"] = 1940,
 								},
-								["Blood Plague (DoT)"] = {
-									["count"] = 4262,
+								["Melee"] = {
+									["count"] = 20975,
 								},
 								["Icy Touch"] = {
 									["count"] = 5468,
@@ -97705,11 +97684,11 @@ RecountPerCharDB = {
 								["Plague Strike"] = {
 									["count"] = 4044,
 								},
-								["Frost Fever (DoT)"] = {
-									["count"] = 4258,
-								},
 								["Retribution Aura"] = {
 									["count"] = 756,
+								},
+								["Frost Fever (DoT)"] = {
+									["count"] = 4258,
 								},
 							},
 							["amount"] = 45293,
@@ -97735,11 +97714,11 @@ RecountPerCharDB = {
 						},
 						["Maijuur"] = {
 							["Details"] = {
-								["Melee"] = {
-									["count"] = 22806,
-								},
 								["Rake"] = {
 									["count"] = 1097,
+								},
+								["Shred"] = {
+									["count"] = 7405,
 								},
 								["Swipe (Cat)"] = {
 									["count"] = 13063,
@@ -97753,8 +97732,8 @@ RecountPerCharDB = {
 								["Rake (DoT)"] = {
 									["count"] = 5211,
 								},
-								["Shred"] = {
-									["count"] = 7405,
+								["Melee"] = {
+									["count"] = 22806,
 								},
 							},
 							["amount"] = 60008,
@@ -97822,58 +97801,118 @@ RecountPerCharDB = {
 						},
 						["Angeletee"] = {
 							["Details"] = {
-								["Melee"] = {
-									["count"] = 2568,
+								["Divine Storm"] = {
+									["count"] = 3186,
 								},
 								["Crusader Strike"] = {
 									["count"] = 1114,
 								},
-								["Divine Storm"] = {
-									["count"] = 3186,
-								},
 								["Hammer of Wrath"] = {
 									["count"] = 5174,
+								},
+								["Melee"] = {
+									["count"] = 2568,
 								},
 							},
 							["amount"] = 12042,
 						},
 					},
-					["ElementDone"] = {
-						["Melee"] = 9167,
-						["Physical"] = 15448,
-					},
-					["HealingTaken"] = 23586,
-					["ElementHitsDone"] = {
+					["Attacks"] = {
+						["Frightening Shout"] = {
+							["Details"] = {
+								["Immune"] = {
+									["count"] = 2,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 0,
+						},
+						["Whirlwind"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 7267,
+									["min"] = 755,
+									["count"] = 4,
+									["amount"] = 15448,
+								},
+								["Parry"] = {
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 5,
+							["amount"] = 15448,
+						},
 						["Melee"] = {
 							["Details"] = {
 								["Parry"] = {
 									["count"] = 2,
+									["amount"] = 0,
 								},
 								["Absorb"] = {
 									["count"] = 1,
+									["amount"] = 0,
 								},
 								["Hit"] = {
+									["max"] = 3192,
+									["min"] = 1594,
 									["count"] = 4,
+									["amount"] = 9167,
 								},
 								["Dodge"] = {
 									["count"] = 3,
+									["amount"] = 0,
 								},
 							},
-							["amount"] = 10,
+							["count"] = 10,
+							["amount"] = 9167,
 						},
-						["Physical"] = {
+					},
+					["HealingTaken"] = 23586,
+					["DamagedWho"] = {
+						["Maijuur"] = {
 							["Details"] = {
-								["Immune"] = {
-									["count"] = 2,
-								},
-								["Hit"] = {
-									["count"] = 4,
-								},
-								["Parry"] = {
-									["count"] = 1,
+								["Whirlwind"] = {
+									["count"] = 5929,
 								},
 							},
-							["amount"] = 7,
+							["amount"] = 5929,
+						},
+						["Casketbasher <Urgash>"] = {
+							["Details"] = {
+								["Whirlwind"] = {
+									["count"] = 755,
+								},
+							},
+							["amount"] = 755,
+						},
+						["Bigepapa"] = {
+							["Details"] = {
+								["Whirlwind"] = {
+									["count"] = 7267,
+								},
+							},
+							["amount"] = 7267,
+						},
+						["Urgash"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 3192,
+								},
+							},
+							["amount"] = 3192,
+						},
+						["Jungee"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 5975,
+								},
+								["Whirlwind"] = {
+									["count"] = 1497,
+								},
+							},
+							["amount"] = 7472,
 						},
 					},
 					["TimeDamage"] = 27.26000000000001,
@@ -97936,49 +97975,37 @@ RecountPerCharDB = {
 							["amount"] = 0,
 						},
 					},
-					["DamagedWho"] = {
-						["Maijuur"] = {
+					["ElementHitsDone"] = {
+						["Melee"] = {
 							["Details"] = {
-								["Whirlwind"] = {
-									["count"] = 5929,
+								["Parry"] = {
+									["count"] = 2,
+								},
+								["Absorb"] = {
+									["count"] = 1,
+								},
+								["Hit"] = {
+									["count"] = 4,
+								},
+								["Dodge"] = {
+									["count"] = 3,
 								},
 							},
-							["amount"] = 5929,
+							["amount"] = 10,
 						},
-						["Casketbasher <Urgash>"] = {
+						["Physical"] = {
 							["Details"] = {
-								["Whirlwind"] = {
-									["count"] = 755,
+								["Immune"] = {
+									["count"] = 2,
+								},
+								["Hit"] = {
+									["count"] = 4,
+								},
+								["Parry"] = {
+									["count"] = 1,
 								},
 							},
-							["amount"] = 755,
-						},
-						["Bigepapa"] = {
-							["Details"] = {
-								["Whirlwind"] = {
-									["count"] = 7267,
-								},
-							},
-							["amount"] = 7267,
-						},
-						["Urgash"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 3192,
-								},
-							},
-							["amount"] = 3192,
-						},
-						["Jungee"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 5975,
-								},
-								["Whirlwind"] = {
-									["count"] = 1497,
-								},
-							},
-							["amount"] = 7472,
+							["amount"] = 7,
 						},
 					},
 					["WhoHealed"] = {
@@ -98204,7 +98231,7 @@ RecountPerCharDB = {
 			},
 			["enClass"] = "MOB",
 			["unit"] = "party1target",
-			["LastAbility"] = 1306.632,
+			["LastAbility"] = 4982.039,
 			["level"] = -1,
 			["LastDamageAbility"] = "Melee",
 			["LastFightIn"] = 6,
@@ -99174,16 +99201,16 @@ RecountPerCharDB = {
 							["count"] = 3,
 							["amount"] = 0,
 						},
-						["Rake"] = {
+						["Shred"] = {
 							["Details"] = {
 								["No Resist"] = {
 									["max"] = 0,
 									["min"] = 0,
-									["count"] = 2,
+									["count"] = 3,
 									["amount"] = 0,
 								},
 							},
-							["count"] = 2,
+							["count"] = 3,
 							["amount"] = 0,
 						},
 						["Rake (DoT)"] = {
@@ -99306,16 +99333,16 @@ RecountPerCharDB = {
 							["count"] = 11,
 							["amount"] = 342,
 						},
-						["Shred"] = {
+						["Rake"] = {
 							["Details"] = {
 								["No Resist"] = {
 									["max"] = 0,
 									["min"] = 0,
-									["count"] = 3,
+									["count"] = 2,
 									["amount"] = 0,
 								},
 							},
-							["count"] = 3,
+							["count"] = 2,
 							["amount"] = 0,
 						},
 						["Crusader Strike"] = {
@@ -99555,16 +99582,16 @@ RecountPerCharDB = {
 							["count"] = 3,
 							["amount"] = 0,
 						},
-						["Rake"] = {
+						["Shred"] = {
 							["Details"] = {
 								["No Absorb"] = {
 									["max"] = 0,
 									["min"] = 0,
-									["count"] = 2,
+									["count"] = 3,
 									["amount"] = 0,
 								},
 							},
-							["count"] = 2,
+							["count"] = 3,
 							["amount"] = 0,
 						},
 						["Rake (DoT)"] = {
@@ -99663,16 +99690,16 @@ RecountPerCharDB = {
 							["count"] = 11,
 							["amount"] = 0,
 						},
-						["Shred"] = {
+						["Rake"] = {
 							["Details"] = {
 								["No Absorb"] = {
 									["max"] = 0,
 									["min"] = 0,
-									["count"] = 3,
+									["count"] = 2,
 									["amount"] = 0,
 								},
 							},
-							["count"] = 3,
+							["count"] = 2,
 							["amount"] = 0,
 						},
 						["Crusader Strike"] = {
@@ -99736,10 +99763,6 @@ RecountPerCharDB = {
 					["ElementTakenBlock"] = {
 						["Physical"] = 41,
 					},
-					["ElementDone"] = {
-						["Melee"] = 8310,
-						["Physical"] = 15440,
-					},
 					["Attacks"] = {
 						["Melee"] = {
 							["Details"] = {
@@ -99786,38 +99809,9 @@ RecountPerCharDB = {
 							["amount"] = 15440,
 						},
 					},
-					["ElementHitsDone"] = {
-						["Melee"] = {
-							["Details"] = {
-								["Parry"] = {
-									["count"] = 1,
-								},
-								["Hit"] = {
-									["count"] = 3,
-								},
-								["Dodge"] = {
-									["count"] = 2,
-								},
-								["Miss"] = {
-									["count"] = 2,
-								},
-							},
-							["amount"] = 8,
-						},
-						["Physical"] = {
-							["Details"] = {
-								["Parry"] = {
-									["count"] = 1,
-								},
-								["Hit"] = {
-									["count"] = 11,
-								},
-								["Miss"] = {
-									["count"] = 1,
-								},
-							},
-							["amount"] = 13,
-						},
+					["ElementDone"] = {
+						["Melee"] = 8310,
+						["Physical"] = 15440,
 					},
 					["DamagedWho"] = {
 						["Maijuur"] = {
@@ -99877,69 +99871,40 @@ RecountPerCharDB = {
 							["amount"] = 4416,
 						},
 					},
-					["TimeDamage"] = 23.69,
-					["TimeDamaging"] = {
-						["Maijuur"] = {
+					["ElementHitsDone"] = {
+						["Melee"] = {
 							["Details"] = {
-								["Trample"] = {
-									["count"] = 0,
+								["Parry"] = {
+									["count"] = 1,
+								},
+								["Hit"] = {
+									["count"] = 3,
+								},
+								["Dodge"] = {
+									["count"] = 2,
+								},
+								["Miss"] = {
+									["count"] = 2,
 								},
 							},
-							["amount"] = 0,
+							["amount"] = 8,
 						},
-						["Urgash"] = {
+						["Physical"] = {
 							["Details"] = {
-								["Trample"] = {
-									["count"] = 0,
+								["Parry"] = {
+									["count"] = 1,
+								},
+								["Hit"] = {
+									["count"] = 11,
+								},
+								["Miss"] = {
+									["count"] = 1,
 								},
 							},
-							["amount"] = 0,
-						},
-						["Ebon Gargoyle <Urgash>"] = {
-							["Details"] = {
-								["Trample"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Casketbasher <Urgash>"] = {
-							["Details"] = {
-								["Trample"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Bigepapa"] = {
-							["Details"] = {
-								["Trample"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Jungee"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 21.74,
-								},
-								["Trample"] = {
-									["count"] = 1.95,
-								},
-							},
-							["amount"] = 23.69,
-						},
-						["Angeletee"] = {
-							["Details"] = {
-								["Trample"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
+							["amount"] = 13,
 						},
 					},
-					["Damage"] = 23750,
+					["TimeDamage"] = 23.69,
 					["WhoDamaged"] = {
 						["Maijuur"] = {
 							["Details"] = {
@@ -100043,20 +100008,20 @@ RecountPerCharDB = {
 						},
 						["Jungee"] = {
 							["Details"] = {
-								["Blood Plague (DoT)"] = {
-									["count"] = 3464,
+								["Melee"] = {
+									["count"] = 21201,
 								},
 								["Death Strike"] = {
 									["count"] = 3879,
 								},
-								["Melee"] = {
-									["count"] = 21201,
+								["Blood Plague (DoT)"] = {
+									["count"] = 3464,
 								},
 								["Rune Strike"] = {
 									["count"] = 2720,
 								},
-								["Icy Touch"] = {
-									["count"] = 3099,
+								["Blood Strike"] = {
+									["count"] = 5880,
 								},
 								["Plague Strike"] = {
 									["count"] = 4227,
@@ -100064,8 +100029,8 @@ RecountPerCharDB = {
 								["Frost Fever (DoT)"] = {
 									["count"] = 2930,
 								},
-								["Blood Strike"] = {
-									["count"] = 5880,
+								["Icy Touch"] = {
+									["count"] = 3099,
 								},
 							},
 							["amount"] = 47400,
@@ -100095,6 +100060,68 @@ RecountPerCharDB = {
 								},
 							},
 							["amount"] = 46434,
+						},
+					},
+					["Damage"] = 23750,
+					["TimeDamaging"] = {
+						["Maijuur"] = {
+							["Details"] = {
+								["Trample"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Urgash"] = {
+							["Details"] = {
+								["Trample"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Ebon Gargoyle <Urgash>"] = {
+							["Details"] = {
+								["Trample"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Casketbasher <Urgash>"] = {
+							["Details"] = {
+								["Trample"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Bigepapa"] = {
+							["Details"] = {
+								["Trample"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Jungee"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 21.74,
+								},
+								["Trample"] = {
+									["count"] = 1.95,
+								},
+							},
+							["amount"] = 23.69,
+						},
+						["Angeletee"] = {
+							["Details"] = {
+								["Trample"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
 						},
 					},
 					["TimeSpent"] = {
@@ -100487,16 +100514,16 @@ RecountPerCharDB = {
 							["count"] = 3,
 							["amount"] = 0,
 						},
-						["Rake"] = {
+						["Shred"] = {
 							["Details"] = {
 								["No Resist"] = {
 									["max"] = 0,
 									["min"] = 0,
-									["count"] = 2,
+									["count"] = 3,
 									["amount"] = 0,
 								},
 							},
-							["count"] = 2,
+							["count"] = 3,
 							["amount"] = 0,
 						},
 						["Rake (DoT)"] = {
@@ -100619,16 +100646,16 @@ RecountPerCharDB = {
 							["count"] = 11,
 							["amount"] = 342,
 						},
-						["Shred"] = {
+						["Rake"] = {
 							["Details"] = {
 								["No Resist"] = {
 									["max"] = 0,
 									["min"] = 0,
-									["count"] = 3,
+									["count"] = 2,
 									["amount"] = 0,
 								},
 							},
-							["count"] = 3,
+							["count"] = 2,
 							["amount"] = 0,
 						},
 						["Crusader Strike"] = {
@@ -100868,16 +100895,16 @@ RecountPerCharDB = {
 							["count"] = 3,
 							["amount"] = 0,
 						},
-						["Rake"] = {
+						["Shred"] = {
 							["Details"] = {
 								["No Absorb"] = {
 									["max"] = 0,
 									["min"] = 0,
-									["count"] = 2,
+									["count"] = 3,
 									["amount"] = 0,
 								},
 							},
-							["count"] = 2,
+							["count"] = 3,
 							["amount"] = 0,
 						},
 						["Rake (DoT)"] = {
@@ -100976,16 +101003,16 @@ RecountPerCharDB = {
 							["count"] = 11,
 							["amount"] = 0,
 						},
-						["Shred"] = {
+						["Rake"] = {
 							["Details"] = {
 								["No Absorb"] = {
 									["max"] = 0,
 									["min"] = 0,
-									["count"] = 3,
+									["count"] = 2,
 									["amount"] = 0,
 								},
 							},
-							["count"] = 3,
+							["count"] = 2,
 							["amount"] = 0,
 						},
 						["Crusader Strike"] = {
@@ -101049,10 +101076,6 @@ RecountPerCharDB = {
 					["ElementTakenBlock"] = {
 						["Physical"] = 41,
 					},
-					["ElementDone"] = {
-						["Melee"] = 8310,
-						["Physical"] = 15440,
-					},
 					["Attacks"] = {
 						["Melee"] = {
 							["Details"] = {
@@ -101099,38 +101122,9 @@ RecountPerCharDB = {
 							["amount"] = 15440,
 						},
 					},
-					["ElementHitsDone"] = {
-						["Melee"] = {
-							["Details"] = {
-								["Parry"] = {
-									["count"] = 1,
-								},
-								["Hit"] = {
-									["count"] = 3,
-								},
-								["Dodge"] = {
-									["count"] = 2,
-								},
-								["Miss"] = {
-									["count"] = 2,
-								},
-							},
-							["amount"] = 8,
-						},
-						["Physical"] = {
-							["Details"] = {
-								["Parry"] = {
-									["count"] = 1,
-								},
-								["Hit"] = {
-									["count"] = 11,
-								},
-								["Miss"] = {
-									["count"] = 1,
-								},
-							},
-							["amount"] = 13,
-						},
+					["ElementDone"] = {
+						["Melee"] = 8310,
+						["Physical"] = 15440,
 					},
 					["DamagedWho"] = {
 						["Maijuur"] = {
@@ -101190,69 +101184,40 @@ RecountPerCharDB = {
 							["amount"] = 4416,
 						},
 					},
-					["TimeDamage"] = 23.69,
-					["TimeDamaging"] = {
-						["Maijuur"] = {
+					["ElementHitsDone"] = {
+						["Melee"] = {
 							["Details"] = {
-								["Trample"] = {
-									["count"] = 0,
+								["Parry"] = {
+									["count"] = 1,
+								},
+								["Hit"] = {
+									["count"] = 3,
+								},
+								["Dodge"] = {
+									["count"] = 2,
+								},
+								["Miss"] = {
+									["count"] = 2,
 								},
 							},
-							["amount"] = 0,
+							["amount"] = 8,
 						},
-						["Urgash"] = {
+						["Physical"] = {
 							["Details"] = {
-								["Trample"] = {
-									["count"] = 0,
+								["Parry"] = {
+									["count"] = 1,
+								},
+								["Hit"] = {
+									["count"] = 11,
+								},
+								["Miss"] = {
+									["count"] = 1,
 								},
 							},
-							["amount"] = 0,
-						},
-						["Ebon Gargoyle <Urgash>"] = {
-							["Details"] = {
-								["Trample"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Casketbasher <Urgash>"] = {
-							["Details"] = {
-								["Trample"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Bigepapa"] = {
-							["Details"] = {
-								["Trample"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Jungee"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 21.74,
-								},
-								["Trample"] = {
-									["count"] = 1.95,
-								},
-							},
-							["amount"] = 23.69,
-						},
-						["Angeletee"] = {
-							["Details"] = {
-								["Trample"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
+							["amount"] = 13,
 						},
 					},
-					["Damage"] = 23750,
+					["TimeDamage"] = 23.69,
 					["WhoDamaged"] = {
 						["Maijuur"] = {
 							["Details"] = {
@@ -101356,20 +101321,20 @@ RecountPerCharDB = {
 						},
 						["Jungee"] = {
 							["Details"] = {
-								["Blood Plague (DoT)"] = {
-									["count"] = 3464,
+								["Melee"] = {
+									["count"] = 21201,
 								},
 								["Death Strike"] = {
 									["count"] = 3879,
 								},
-								["Melee"] = {
-									["count"] = 21201,
+								["Blood Plague (DoT)"] = {
+									["count"] = 3464,
 								},
 								["Rune Strike"] = {
 									["count"] = 2720,
 								},
-								["Icy Touch"] = {
-									["count"] = 3099,
+								["Blood Strike"] = {
+									["count"] = 5880,
 								},
 								["Plague Strike"] = {
 									["count"] = 4227,
@@ -101377,8 +101342,8 @@ RecountPerCharDB = {
 								["Frost Fever (DoT)"] = {
 									["count"] = 2930,
 								},
-								["Blood Strike"] = {
-									["count"] = 5880,
+								["Icy Touch"] = {
+									["count"] = 3099,
 								},
 							},
 							["amount"] = 47400,
@@ -101408,6 +101373,68 @@ RecountPerCharDB = {
 								},
 							},
 							["amount"] = 46434,
+						},
+					},
+					["Damage"] = 23750,
+					["TimeDamaging"] = {
+						["Maijuur"] = {
+							["Details"] = {
+								["Trample"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Urgash"] = {
+							["Details"] = {
+								["Trample"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Ebon Gargoyle <Urgash>"] = {
+							["Details"] = {
+								["Trample"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Casketbasher <Urgash>"] = {
+							["Details"] = {
+								["Trample"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Bigepapa"] = {
+							["Details"] = {
+								["Trample"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Jungee"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 21.74,
+								},
+								["Trample"] = {
+									["count"] = 1.95,
+								},
+							},
+							["amount"] = 23.69,
+						},
+						["Angeletee"] = {
+							["Details"] = {
+								["Trample"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
 						},
 					},
 					["TimeSpent"] = {
@@ -101485,14 +101512,13 @@ RecountPerCharDB = {
 					},
 					["DeathCount"] = 0,
 					["HOT_Time"] = 0,
-					["ElementTakenBlock"] = {
-					},
+					["Damage"] = 0,
 					["RunicPowerGain"] = 0,
 					["ElementTaken"] = {
 					},
-					["HOTs"] = {
+					["DOT_Time"] = 0,
+					["ElementTakenBlock"] = {
 					},
-					["Damage"] = 0,
 					["ElementDoneAbsorb"] = {
 					},
 					["TimeHeal"] = 0,
@@ -101501,32 +101527,33 @@ RecountPerCharDB = {
 					["Dispels"] = 0,
 					["PartialBlock"] = {
 					},
-					["DamagedWho"] = {
+					["ElementHitsDone"] = {
 					},
 					["FAttacks"] = {
 					},
 					["HealingTaken"] = 0,
 					["ElementDone"] = {
 					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementHitsDone"] = {
+					["DamagedWho"] = {
 					},
 					["ManaGainedFrom"] = {
+					},
+					["RunicPowerGained"] = {
 					},
 					["WhoDamaged"] = {
 					},
 					["EnergyGainedFrom"] = {
 					},
-					["RunicPowerGained"] = {
-					},
 					["CCBroken"] = {
+					},
+					["RunicPowerGainedFrom"] = {
 					},
 					["ElementDoneBlock"] = {
 					},
 					["TimeHealing"] = {
 					},
-					["Dispelled"] = 0,
+					["OverHeals"] = {
+					},
 					["WhoHealed"] = {
 					},
 					["HealedWho"] = {
@@ -101534,13 +101561,14 @@ RecountPerCharDB = {
 					["CCBreak"] = 0,
 					["ElementTakenAbsorb"] = {
 					},
-					["FDamage"] = 0,
-					["EnergyGain"] = 0,
-					["ManaGained"] = {
-					},
 					["PartialAbsorb"] = {
 					},
-					["ActiveTime"] = 0,
+					["PartialResist"] = {
+					},
+					["ManaGained"] = {
+					},
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
 					["Overhealing"] = 0,
 					["TimeSpent"] = {
 					},
@@ -101552,15 +101580,13 @@ RecountPerCharDB = {
 					},
 					["Heals"] = {
 					},
-					["Interrupts"] = 0,
+					["ActiveTime"] = 0,
 					["EnergyGained"] = {
 					},
-					["PartialResist"] = {
-					},
+					["EnergyGain"] = 0,
 					["Healing"] = 0,
+					["Dispelled"] = 0,
 					["RageGained"] = {
-					},
-					["OverHeals"] = {
 					},
 					["Attacks"] = {
 					},
@@ -101571,7 +101597,8 @@ RecountPerCharDB = {
 					["TimeDamaging"] = {
 					},
 					["ManaGain"] = 0,
-					["DOT_Time"] = 0,
+					["HOTs"] = {
+					},
 					["DispelledWho"] = {
 					},
 				},
@@ -101903,16 +101930,16 @@ RecountPerCharDB = {
 							["count"] = 3,
 							["amount"] = 0,
 						},
-						["Rake"] = {
+						["Shred"] = {
 							["Details"] = {
 								["No Resist"] = {
 									["max"] = 0,
 									["min"] = 0,
-									["count"] = 2,
+									["count"] = 3,
 									["amount"] = 0,
 								},
 							},
-							["count"] = 2,
+							["count"] = 3,
 							["amount"] = 0,
 						},
 						["Rake (DoT)"] = {
@@ -102035,16 +102062,16 @@ RecountPerCharDB = {
 							["count"] = 11,
 							["amount"] = 342,
 						},
-						["Shred"] = {
+						["Rake"] = {
 							["Details"] = {
 								["No Resist"] = {
 									["max"] = 0,
 									["min"] = 0,
-									["count"] = 3,
+									["count"] = 2,
 									["amount"] = 0,
 								},
 							},
-							["count"] = 3,
+							["count"] = 2,
 							["amount"] = 0,
 						},
 						["Crusader Strike"] = {
@@ -102284,16 +102311,16 @@ RecountPerCharDB = {
 							["count"] = 3,
 							["amount"] = 0,
 						},
-						["Rake"] = {
+						["Shred"] = {
 							["Details"] = {
 								["No Absorb"] = {
 									["max"] = 0,
 									["min"] = 0,
-									["count"] = 2,
+									["count"] = 3,
 									["amount"] = 0,
 								},
 							},
-							["count"] = 2,
+							["count"] = 3,
 							["amount"] = 0,
 						},
 						["Rake (DoT)"] = {
@@ -102392,16 +102419,16 @@ RecountPerCharDB = {
 							["count"] = 11,
 							["amount"] = 0,
 						},
-						["Shred"] = {
+						["Rake"] = {
 							["Details"] = {
 								["No Absorb"] = {
 									["max"] = 0,
 									["min"] = 0,
-									["count"] = 3,
+									["count"] = 2,
 									["amount"] = 0,
 								},
 							},
-							["count"] = 3,
+							["count"] = 2,
 							["amount"] = 0,
 						},
 						["Crusader Strike"] = {
@@ -102465,10 +102492,6 @@ RecountPerCharDB = {
 					["ElementTakenBlock"] = {
 						["Physical"] = 41,
 					},
-					["ElementDone"] = {
-						["Melee"] = 8310,
-						["Physical"] = 15440,
-					},
 					["Attacks"] = {
 						["Melee"] = {
 							["Details"] = {
@@ -102515,38 +102538,9 @@ RecountPerCharDB = {
 							["amount"] = 15440,
 						},
 					},
-					["ElementHitsDone"] = {
-						["Melee"] = {
-							["Details"] = {
-								["Parry"] = {
-									["count"] = 1,
-								},
-								["Hit"] = {
-									["count"] = 3,
-								},
-								["Dodge"] = {
-									["count"] = 2,
-								},
-								["Miss"] = {
-									["count"] = 2,
-								},
-							},
-							["amount"] = 8,
-						},
-						["Physical"] = {
-							["Details"] = {
-								["Parry"] = {
-									["count"] = 1,
-								},
-								["Hit"] = {
-									["count"] = 11,
-								},
-								["Miss"] = {
-									["count"] = 1,
-								},
-							},
-							["amount"] = 13,
-						},
+					["ElementDone"] = {
+						["Melee"] = 8310,
+						["Physical"] = 15440,
 					},
 					["DamagedWho"] = {
 						["Maijuur"] = {
@@ -102606,69 +102600,40 @@ RecountPerCharDB = {
 							["amount"] = 4416,
 						},
 					},
-					["TimeDamage"] = 23.69,
-					["TimeDamaging"] = {
-						["Maijuur"] = {
+					["ElementHitsDone"] = {
+						["Melee"] = {
 							["Details"] = {
-								["Trample"] = {
-									["count"] = 0,
+								["Parry"] = {
+									["count"] = 1,
+								},
+								["Hit"] = {
+									["count"] = 3,
+								},
+								["Dodge"] = {
+									["count"] = 2,
+								},
+								["Miss"] = {
+									["count"] = 2,
 								},
 							},
-							["amount"] = 0,
+							["amount"] = 8,
 						},
-						["Urgash"] = {
+						["Physical"] = {
 							["Details"] = {
-								["Trample"] = {
-									["count"] = 0,
+								["Parry"] = {
+									["count"] = 1,
+								},
+								["Hit"] = {
+									["count"] = 11,
+								},
+								["Miss"] = {
+									["count"] = 1,
 								},
 							},
-							["amount"] = 0,
-						},
-						["Ebon Gargoyle <Urgash>"] = {
-							["Details"] = {
-								["Trample"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Casketbasher <Urgash>"] = {
-							["Details"] = {
-								["Trample"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Bigepapa"] = {
-							["Details"] = {
-								["Trample"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Jungee"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 21.74,
-								},
-								["Trample"] = {
-									["count"] = 1.95,
-								},
-							},
-							["amount"] = 23.69,
-						},
-						["Angeletee"] = {
-							["Details"] = {
-								["Trample"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
+							["amount"] = 13,
 						},
 					},
-					["Damage"] = 23750,
+					["TimeDamage"] = 23.69,
 					["WhoDamaged"] = {
 						["Maijuur"] = {
 							["Details"] = {
@@ -102772,20 +102737,20 @@ RecountPerCharDB = {
 						},
 						["Jungee"] = {
 							["Details"] = {
-								["Blood Plague (DoT)"] = {
-									["count"] = 3464,
+								["Melee"] = {
+									["count"] = 21201,
 								},
 								["Death Strike"] = {
 									["count"] = 3879,
 								},
-								["Melee"] = {
-									["count"] = 21201,
+								["Blood Plague (DoT)"] = {
+									["count"] = 3464,
 								},
 								["Rune Strike"] = {
 									["count"] = 2720,
 								},
-								["Icy Touch"] = {
-									["count"] = 3099,
+								["Blood Strike"] = {
+									["count"] = 5880,
 								},
 								["Plague Strike"] = {
 									["count"] = 4227,
@@ -102793,8 +102758,8 @@ RecountPerCharDB = {
 								["Frost Fever (DoT)"] = {
 									["count"] = 2930,
 								},
-								["Blood Strike"] = {
-									["count"] = 5880,
+								["Icy Touch"] = {
+									["count"] = 3099,
 								},
 							},
 							["amount"] = 47400,
@@ -102824,6 +102789,68 @@ RecountPerCharDB = {
 								},
 							},
 							["amount"] = 46434,
+						},
+					},
+					["Damage"] = 23750,
+					["TimeDamaging"] = {
+						["Maijuur"] = {
+							["Details"] = {
+								["Trample"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Urgash"] = {
+							["Details"] = {
+								["Trample"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Ebon Gargoyle <Urgash>"] = {
+							["Details"] = {
+								["Trample"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Casketbasher <Urgash>"] = {
+							["Details"] = {
+								["Trample"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Bigepapa"] = {
+							["Details"] = {
+								["Trample"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Jungee"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 21.74,
+								},
+								["Trample"] = {
+									["count"] = 1.95,
+								},
+							},
+							["amount"] = 23.69,
+						},
+						["Angeletee"] = {
+							["Details"] = {
+								["Trample"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
 						},
 					},
 					["TimeSpent"] = {

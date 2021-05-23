@@ -1,1 +1,2 @@
 PowerAuras: disabled
+XPerl_TeamSpeak: disabled
