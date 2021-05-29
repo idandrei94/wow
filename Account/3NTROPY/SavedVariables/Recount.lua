@@ -28,15 +28,15 @@ RecountDB = {
 			["GraphWindowY"] = 0,
 			["MainWindow"] = {
 				["Position"] = {
-					["y"] = 157.1666127205326,
-					["x"] = -634.0186353859787,
+					["y"] = 116.2777224942932,
+					["x"] = -630.4630329015797,
 					["w"] = 251.0000152503544,
-					["h"] = 311.0000073174346,
+					["h"] = 310.999972303168,
 				},
 			},
 			["DetailWindowX"] = -105.0000036245237,
-			["LastInstanceName"] = "The Forge of Souls",
-			["CurDataSet"] = "LastFightData",
+			["LastInstanceName"] = "Trial of the Crusader",
+			["CurDataSet"] = "CurrentFightData",
 			["Colors"] = {
 				["Bar"] = {
 					["Bar Text"] = {
@@ -48,9 +48,9 @@ RecountDB = {
 				},
 			},
 			["DetailWindowY"] = -10.00000013677448,
-			["MainWindowHeight"] = 310.8518969696999,
-			["MainWindowWidth"] = 251.4197662784027,
 			["GraphWindowX"] = 0,
+			["MainWindowWidth"] = 251.4197662784027,
+			["MainWindowHeight"] = 310.8518969696999,
 		},
 		["Vrael - Icecrown"] = {
 			["GraphWindowY"] = 0,
@@ -260,15 +260,12 @@ RecountDB = {
 			["GraphWindowY"] = 0,
 			["MainWindow"] = {
 				["Position"] = {
-					["y"] = 100.1480854547796,
+					["y"] = 99.99997510704485,
 					["h"] = 317.9999894683651,
-					["w"] = 247.0000029406513,
-					["x"] = -626.6852036206119,
+					["w"] = 247.0000204477846,
+					["x"] = -627.018530685115,
 				},
 			},
-			["DetailWindowX"] = 160.9111434339599,
-			["LastInstanceName"] = "The Nexus",
-			["CurDataSet"] = "LastFightData",
 			["Colors"] = {
 				["Bar"] = {
 					["Bar Text"] = {
@@ -277,6 +274,10 @@ RecountDB = {
 				},
 			},
 			["DetailWindowY"] = -107.7333573326952,
+			["DetailWindowX"] = 160.9111434339599,
+			["MainWindowVis"] = false,
+			["LastInstanceName"] = "The Nexus",
+			["CurDataSet"] = "CurrentFightData",
 			["GraphWindowX"] = 0,
 			["MainWindowWidth"] = 247.3703663456547,
 			["MainWindowHeight"] = 317.6297135990283,
@@ -317,6 +318,9 @@ RecountDB = {
 					["x"] = -628.4815274098449,
 				},
 			},
+			["DetailWindowX"] = 656.2592335937816,
+			["LastInstanceName"] = "The Ruby Sanctum",
+			["CurDataSet"] = "LastFightData",
 			["Colors"] = {
 				["Bar"] = {
 					["Bar Text"] = {
@@ -328,9 +332,6 @@ RecountDB = {
 				},
 			},
 			["DetailWindowY"] = -299.5554892351304,
-			["DetailWindowX"] = 656.2592335937816,
-			["LastInstanceName"] = "The Ruby Sanctum",
-			["CurDataSet"] = "LastFightData",
 			["GraphWindowX"] = 0,
 			["MainWindowWidth"] = 260.0000123097031,
 			["MainWindowHeight"] = 328.7999999452902,
@@ -346,8 +347,8 @@ RecountDB = {
 				},
 			},
 			["DetailWindowX"] = 825.6666588477257,
-			["LastInstanceName"] = "Utgarde Pinnacle",
-			["CurDataSet"] = "LastFightData",
+			["LastInstanceName"] = "Warsong Gulch",
+			["CurDataSet"] = "CurrentFightData",
 			["Colors"] = {
 				["Bar"] = {
 					["Bar Text"] = {
@@ -357,8 +358,9 @@ RecountDB = {
 			},
 			["DetailWindowY"] = -167.2591599407247,
 			["MainWindowHeight"] = 329.1730069274222,
-			["MainWindowWidth"] = 253.0123901948838,
 			["GraphWindowX"] = 0,
+			["MainWindowWidth"] = 253.0123901948838,
+			["MainWindowVis"] = false,
 		},
 		["Lingurita - Lordaeron"] = {
 			["GraphWindowY"] = 0,
@@ -492,7 +494,7 @@ RecountDB = {
 			},
 			["DetailWindowX"] = 112.9876419471188,
 			["LastInstanceName"] = "Vault of Archavon",
-			["GraphWindowX"] = 0,
+			["DetailWindowY"] = -124.0493402990752,
 			["CurDataSet"] = "LastFightData",
 			["Colors"] = {
 				["Bar"] = {
@@ -504,7 +506,7 @@ RecountDB = {
 					},
 				},
 			},
-			["DetailWindowY"] = -124.0493402990752,
+			["GraphWindowX"] = 0,
 			["MainWindowVis"] = false,
 			["MainWindowMode"] = 5,
 			["MainWindowWidth"] = 256.148530518934,
@@ -546,7 +548,7 @@ RecountDB = {
 				},
 			},
 			["DetailWindowX"] = 0,
-			["LastInstanceName"] = "Icecrown Citadel",
+			["LastInstanceName"] = "The Ruby Sanctum",
 			["CurDataSet"] = "LastFightData",
 			["Colors"] = {
 				["Bar"] = {
@@ -559,6 +561,7 @@ RecountDB = {
 				},
 			},
 			["DetailWindowY"] = 3.999978116083373,
+			["MainWindowVis"] = false,
 			["GraphWindowX"] = 0,
 			["MainWindowWidth"] = 260.8889019888445,
 			["MainWindowHeight"] = 337.3333968878745,

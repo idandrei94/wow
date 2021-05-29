@@ -35,16 +35,16 @@ MACRO 16777224 "mount" INV_Misc_QuestionMark
 /cancelaura aim of the iron dwarves
 /userandom [flyable] Bloodbathed Frostbrood Vanquisher; Swift Mistsaber
 END
-MACRO 16777222 "sap" INV_Misc_QuestionMark
-#showtooltip
-/cast [@focus, harm, nodead, modifier:alt][] sap
-END
 MACRO 16777228 "sap" INV_Misc_QuestionMark
 #showtooltip Sap
 /cleartarget
 /targetenemyplayer
 /cast [harm, nodead] sap
 /stopattack
+END
+MACRO 16777222 "sap" INV_Misc_QuestionMark
+#showtooltip
+/cast [@focus, harm, nodead, modifier:alt][] sap
 END
 MACRO 16777217 "ss" INV_Misc_QuestionMark
 #showtooltip sinister strike

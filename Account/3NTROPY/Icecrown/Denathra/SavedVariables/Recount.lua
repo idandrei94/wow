@@ -57,7 +57,374 @@ RecountPerCharDB = {
 			},
 			["enClass"] = "MOB",
 			["LastDamageTaken"] = 14851,
-			["unit"] = "playertarget",
+			["LastActive"] = 1617372449,
+			["level"] = -1,
+			["LastDamageAbility"] = "Soul Fire",
+			["LastFightIn"] = 51,
+			["LastEventNum"] = {
+				[13] = 47.59443339960239,
+				[14] = 98.41616964877402,
+			},
+			["type"] = "Boss",
+			["FightsSaved"] = 5,
+			["UnitLockout"] = 1617372447,
+			["Fights"] = {
+				["LastFightData"] = {
+					["DOTs"] = {
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 0,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["HOTs"] = {
+					},
+					["ManaGain"] = 0,
+					["ElementTaken"] = {
+					},
+					["DOT_Time"] = 0,
+					["Damage"] = 0,
+					["ElementDoneAbsorb"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["PartialAbsorb"] = {
+					},
+					["RageGain"] = 0,
+					["FAttacks"] = {
+					},
+					["PartialBlock"] = {
+					},
+					["ElementDone"] = {
+					},
+					["CCBroken"] = {
+					},
+					["ElementHitsDone"] = {
+					},
+					["Dispelled"] = 0,
+					["WhoDamaged"] = {
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["FDamagedWho"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+					},
+					["OverHeals"] = {
+					},
+					["RageGained"] = {
+					},
+					["ActiveTime"] = 0,
+					["CCBreak"] = 0,
+					["EnergyGain"] = 0,
+					["WhoHealed"] = {
+					},
+					["PartialResist"] = {
+					},
+					["ManaGained"] = {
+					},
+					["ElementTakenAbsorb"] = {
+					},
+					["Interrupts"] = 0,
+					["Overhealing"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["InterruptData"] = {
+					},
+					["WhoDispelled"] = {
+					},
+					["TimeSpent"] = {
+					},
+					["Heals"] = {
+					},
+					["FDamage"] = 0,
+					["EnergyGained"] = {
+					},
+					["HealedWho"] = {
+					},
+					["Healing"] = 0,
+					["RunicPowerGained"] = {
+					},
+					["ManaGainedFrom"] = {
+					},
+					["Attacks"] = {
+					},
+					["HealingTaken"] = 0,
+					["DamagedWho"] = {
+					},
+					["TimeDamage"] = 0,
+					["TimeDamaging"] = {
+					},
+					["RunicPowerGain"] = 0,
+					["ElementTakenBlock"] = {
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["CurrentFightData"] = {
+					["DOTs"] = {
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 0,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["HOTs"] = {
+					},
+					["ManaGain"] = 0,
+					["ElementTaken"] = {
+					},
+					["DOT_Time"] = 0,
+					["Damage"] = 0,
+					["ElementDoneAbsorb"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["PartialAbsorb"] = {
+					},
+					["RageGain"] = 0,
+					["FAttacks"] = {
+					},
+					["PartialBlock"] = {
+					},
+					["ElementDone"] = {
+					},
+					["CCBroken"] = {
+					},
+					["ElementHitsDone"] = {
+					},
+					["Dispelled"] = 0,
+					["WhoDamaged"] = {
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["FDamagedWho"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+					},
+					["OverHeals"] = {
+					},
+					["RageGained"] = {
+					},
+					["ActiveTime"] = 0,
+					["CCBreak"] = 0,
+					["EnergyGain"] = 0,
+					["WhoHealed"] = {
+					},
+					["PartialResist"] = {
+					},
+					["ManaGained"] = {
+					},
+					["ElementTakenAbsorb"] = {
+					},
+					["Interrupts"] = 0,
+					["Overhealing"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["InterruptData"] = {
+					},
+					["WhoDispelled"] = {
+					},
+					["TimeSpent"] = {
+					},
+					["Heals"] = {
+					},
+					["FDamage"] = 0,
+					["EnergyGained"] = {
+					},
+					["HealedWho"] = {
+					},
+					["Healing"] = 0,
+					["RunicPowerGained"] = {
+					},
+					["ManaGainedFrom"] = {
+					},
+					["Attacks"] = {
+					},
+					["HealingTaken"] = 0,
+					["DamagedWho"] = {
+					},
+					["TimeDamage"] = 0,
+					["TimeDamaging"] = {
+					},
+					["RunicPowerGain"] = 0,
+					["ElementTakenBlock"] = {
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["OverallData"] = {
+					["ElementHitsTaken"] = {
+						["Fire"] = {
+							["Details"] = {
+								["Crit"] = {
+									["count"] = 1,
+								},
+								["Hit"] = {
+									["count"] = 9,
+								},
+							},
+							["amount"] = 10,
+						},
+					},
+					["DamageTaken"] = 38353,
+					["ElementDoneAbsorb"] = {
+						["Melee"] = 79,
+					},
+					["PartialResist"] = {
+						["Immolation"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 8,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 8,
+							["amount"] = 0,
+						},
+						["Soul Fire"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 0,
+						},
+					},
+					["DeathCount"] = 2,
+					["PartialAbsorb"] = {
+						["Immolation"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 8,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 8,
+							["amount"] = 0,
+						},
+						["Soul Fire"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 0,
+						},
+					},
+					["ActiveTime"] = 7.51,
+					["ElementTaken"] = {
+						["Fire"] = 38353,
+					},
+					["Damage"] = 324,
+					["Attacks"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 112,
+									["min"] = 105,
+									["count"] = 3,
+									["amount"] = 324,
+								},
+							},
+							["count"] = 3,
+							["amount"] = 324,
+						},
+					},
+					["TimeDamaging"] = {
+						["Denathra"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 7.51,
+								},
+							},
+							["amount"] = 7.51,
+						},
+					},
+					["ElementHitsDone"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 3,
+								},
+							},
+							["amount"] = 3,
+						},
+					},
+					["TimeDamage"] = 7.51,
+					["WhoDamaged"] = {
+						["Denathra"] = {
+							["Details"] = {
+								["Immolation"] = {
+									["count"] = 16320,
+								},
+								["Soul Fire"] = {
+									["count"] = 22033,
+								},
+							},
+							["amount"] = 38353,
+						},
+					},
+					["ElementDone"] = {
+						["Melee"] = 324,
+					},
+					["TimeSpent"] = {
+						["Denathra"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 7.51,
+								},
+							},
+							["amount"] = 7.51,
+						},
+					},
+					["DamagedWho"] = {
+						["Denathra"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 324,
+								},
+							},
+							["amount"] = 324,
+						},
+					},
+				},
+			},
+			["Owner"] = false,
 			["DeathLogs"] = {
 				{
 					["MessageIncoming"] = {
@@ -201,25 +568,6 @@ RecountPerCharDB = {
 					},
 				}, -- [2]
 			},
-			["level"] = -1,
-			["LastDamageAbility"] = "Soul Fire",
-			["LastFightIn"] = 51,
-			["LastEventNum"] = {
-				[13] = 47.59443339960239,
-				[14] = 98.41616964877402,
-			},
-			["type"] = "Boss",
-			["FightsSaved"] = 5,
-			["LastAbility"] = 8838.933999999999,
-			["Owner"] = false,
-			["TimeLast"] = {
-				["DeathCount"] = 1617372449,
-				["ActiveTime"] = 1617371283,
-				["TimeDamage"] = 1617371283,
-				["OVERALL"] = 1617372449,
-				["DamageTaken"] = 1617372449,
-				["Damage"] = 1617371283,
-			},
 			["NextEventNum"] = 16,
 			["LastEventHealthNum"] = {
 				0, -- [1]
@@ -273,6 +621,15 @@ RecountPerCharDB = {
 				true, -- [14]
 				true, -- [15]
 			},
+			["TimeLast"] = {
+				["DeathCount"] = 1617372449,
+				["ActiveTime"] = 1617371283,
+				["TimeDamage"] = 1617371283,
+				["OVERALL"] = 1617372449,
+				["DamageTaken"] = 1617372449,
+				["Damage"] = 1617371283,
+			},
+			["unit"] = "playertarget",
 			["LastEventTimes"] = {
 				8834.926, -- [1]
 				8834.928, -- [2]
@@ -290,364 +647,7 @@ RecountPerCharDB = {
 				10004.456, -- [14]
 				10004.456, -- [15]
 			},
-			["Fights"] = {
-				["LastFightData"] = {
-					["DOTs"] = {
-					},
-					["ElementDoneResist"] = {
-					},
-					["Ressed"] = 0,
-					["DamageTaken"] = 0,
-					["RageGainedFrom"] = {
-					},
-					["ElementHitsTaken"] = {
-					},
-					["DeathCount"] = 0,
-					["HOT_Time"] = 0,
-					["ElementHitsDone"] = {
-					},
-					["ElementTakenAbsorb"] = {
-					},
-					["ElementTaken"] = {
-					},
-					["DOT_Time"] = 0,
-					["Damage"] = 0,
-					["ElementTakenBlock"] = {
-					},
-					["TimeHeal"] = 0,
-					["RessedWho"] = {
-					},
-					["Dispels"] = 0,
-					["ElementTakenResist"] = {
-					},
-					["ElementDoneAbsorb"] = {
-					},
-					["FAttacks"] = {
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementDone"] = {
-					},
-					["PartialAbsorb"] = {
-					},
-					["DamagedWho"] = {
-					},
-					["PartialBlock"] = {
-					},
-					["WhoDamaged"] = {
-					},
-					["EnergyGainedFrom"] = {
-					},
-					["PartialResist"] = {
-					},
-					["CCBroken"] = {
-					},
-					["ElementDoneBlock"] = {
-					},
-					["TimeHealing"] = {
-					},
-					["OverHeals"] = {
-					},
-					["ManaGainedFrom"] = {
-					},
-					["RunicPowerGained"] = {
-					},
-					["CCBreak"] = 0,
-					["RageGained"] = {
-					},
-					["HealedWho"] = {
-					},
-					["EnergyGain"] = 0,
-					["ManaGained"] = {
-					},
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
-					["Overhealing"] = 0,
-					["TimeSpent"] = {
-					},
-					["WhoDispelled"] = {
-					},
-					["InterruptData"] = {
-					},
-					["RunicPowerGain"] = 0,
-					["Heals"] = {
-					},
-					["WhoHealed"] = {
-					},
-					["EnergyGained"] = {
-					},
-					["ActiveTime"] = 0,
-					["Healing"] = 0,
-					["FDamagedWho"] = {
-					},
-					["Dispelled"] = 0,
-					["Attacks"] = {
-					},
-					["HealingTaken"] = 0,
-					["RageGain"] = 0,
-					["TimeDamage"] = 0,
-					["TimeDamaging"] = {
-					},
-					["ManaGain"] = 0,
-					["HOTs"] = {
-					},
-					["DispelledWho"] = {
-					},
-				},
-				["CurrentFightData"] = {
-					["DOTs"] = {
-					},
-					["ElementDoneResist"] = {
-					},
-					["Ressed"] = 0,
-					["DamageTaken"] = 0,
-					["RageGainedFrom"] = {
-					},
-					["ElementHitsTaken"] = {
-					},
-					["DeathCount"] = 0,
-					["HOT_Time"] = 0,
-					["ElementHitsDone"] = {
-					},
-					["ElementTakenAbsorb"] = {
-					},
-					["ElementTaken"] = {
-					},
-					["DOT_Time"] = 0,
-					["Damage"] = 0,
-					["ElementTakenBlock"] = {
-					},
-					["TimeHeal"] = 0,
-					["RessedWho"] = {
-					},
-					["Dispels"] = 0,
-					["ElementTakenResist"] = {
-					},
-					["ElementDoneAbsorb"] = {
-					},
-					["FAttacks"] = {
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementDone"] = {
-					},
-					["PartialAbsorb"] = {
-					},
-					["DamagedWho"] = {
-					},
-					["PartialBlock"] = {
-					},
-					["WhoDamaged"] = {
-					},
-					["EnergyGainedFrom"] = {
-					},
-					["PartialResist"] = {
-					},
-					["CCBroken"] = {
-					},
-					["ElementDoneBlock"] = {
-					},
-					["TimeHealing"] = {
-					},
-					["OverHeals"] = {
-					},
-					["ManaGainedFrom"] = {
-					},
-					["RunicPowerGained"] = {
-					},
-					["CCBreak"] = 0,
-					["RageGained"] = {
-					},
-					["HealedWho"] = {
-					},
-					["EnergyGain"] = 0,
-					["ManaGained"] = {
-					},
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
-					["Overhealing"] = 0,
-					["TimeSpent"] = {
-					},
-					["WhoDispelled"] = {
-					},
-					["InterruptData"] = {
-					},
-					["RunicPowerGain"] = 0,
-					["Heals"] = {
-					},
-					["WhoHealed"] = {
-					},
-					["EnergyGained"] = {
-					},
-					["ActiveTime"] = 0,
-					["Healing"] = 0,
-					["FDamagedWho"] = {
-					},
-					["Dispelled"] = 0,
-					["Attacks"] = {
-					},
-					["HealingTaken"] = 0,
-					["RageGain"] = 0,
-					["TimeDamage"] = 0,
-					["TimeDamaging"] = {
-					},
-					["ManaGain"] = 0,
-					["HOTs"] = {
-					},
-					["DispelledWho"] = {
-					},
-				},
-				["OverallData"] = {
-					["ElementHitsTaken"] = {
-						["Fire"] = {
-							["Details"] = {
-								["Crit"] = {
-									["count"] = 1,
-								},
-								["Hit"] = {
-									["count"] = 9,
-								},
-							},
-							["amount"] = 10,
-						},
-					},
-					["DamageTaken"] = 38353,
-					["ElementDoneAbsorb"] = {
-						["Melee"] = 79,
-					},
-					["PartialResist"] = {
-						["Soul Fire"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 2,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 2,
-							["amount"] = 0,
-						},
-						["Immolation"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 8,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 8,
-							["amount"] = 0,
-						},
-					},
-					["DeathCount"] = 2,
-					["PartialAbsorb"] = {
-						["Soul Fire"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 2,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 2,
-							["amount"] = 0,
-						},
-						["Immolation"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 8,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 8,
-							["amount"] = 0,
-						},
-					},
-					["ActiveTime"] = 7.51,
-					["ElementTaken"] = {
-						["Fire"] = 38353,
-					},
-					["Damage"] = 324,
-					["Attacks"] = {
-						["Melee"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 112,
-									["min"] = 105,
-									["count"] = 3,
-									["amount"] = 324,
-								},
-							},
-							["count"] = 3,
-							["amount"] = 324,
-						},
-					},
-					["ElementHitsDone"] = {
-						["Melee"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 3,
-								},
-							},
-							["amount"] = 3,
-						},
-					},
-					["DamagedWho"] = {
-						["Denathra"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 324,
-								},
-							},
-							["amount"] = 324,
-						},
-					},
-					["TimeDamage"] = 7.51,
-					["WhoDamaged"] = {
-						["Denathra"] = {
-							["Details"] = {
-								["Soul Fire"] = {
-									["count"] = 22033,
-								},
-								["Immolation"] = {
-									["count"] = 16320,
-								},
-							},
-							["amount"] = 38353,
-						},
-					},
-					["TimeSpent"] = {
-						["Denathra"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 7.51,
-								},
-							},
-							["amount"] = 7.51,
-						},
-					},
-					["ElementDone"] = {
-						["Melee"] = 324,
-					},
-					["TimeDamaging"] = {
-						["Denathra"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 7.51,
-								},
-							},
-							["amount"] = 7.51,
-						},
-					},
-				},
-			},
-			["UnitLockout"] = 1617372447,
-			["LastActive"] = 1617372449,
+			["LastAbility"] = 1519.363,
 		},
 		["Shaathun <Denathra>"] = {
 			["GUID"] = "0xF1400065BB000002",
@@ -832,6328 +832,10 @@ RecountPerCharDB = {
 			},
 			["type"] = "Pet",
 			["FightsSaved"] = 5,
-			["LastDamageTaken"] = 98,
-			["TimeLast"] = {
-				["HealingTaken"] = 1617372706,
-				["ActiveTime"] = 1617372732,
-				["TimeDamage"] = 1617372732,
-				["OVERALL"] = 1617372732,
-				["DamageTaken"] = 1617372485,
-				["Damage"] = 1617372732,
-			},
+			["LastActive"] = 1617372786,
+			["UnitLockout"] = 1617371251,
 			["Owner"] = "Denathra",
-			["LastAbility"] = 10288.037,
-			["NextEventNum"] = 43,
-			["LastEventHealthNum"] = {
-				100, -- [1]
-				100, -- [2]
-				100, -- [3]
-				100, -- [4]
-				100, -- [5]
-				100, -- [6]
-				100, -- [7]
-				100, -- [8]
-				100, -- [9]
-				100, -- [10]
-				100, -- [11]
-				100, -- [12]
-				100, -- [13]
-				100, -- [14]
-				100, -- [15]
-				100, -- [16]
-				100, -- [17]
-				99.91596991723037, -- [18]
-				99.91596991723037, -- [19]
-				99.91596991723037, -- [20]
-				100, -- [21]
-				100, -- [22]
-				100, -- [23]
-				100, -- [24]
-				100, -- [25]
-				100, -- [26]
-				100, -- [27]
-				100, -- [28]
-				100, -- [29]
-				100, -- [30]
-				100, -- [31]
-				100, -- [32]
-				100, -- [33]
-				100, -- [34]
-				100, -- [35]
-				100, -- [36]
-				100, -- [37]
-				100, -- [38]
-				100, -- [39]
-				100, -- [40]
-				100, -- [41]
-				100, -- [42]
-				100, -- [43]
-				100, -- [44]
-				99.91596991723037, -- [45]
-				100, -- [46]
-				100, -- [47]
-				100, -- [48]
-				100, -- [49]
-				100, -- [50]
-			},
-			["LastEvents"] = {
-				"Denathra Fel Synergy Shaathun <Denathra> Hit +327 (327 overheal)", -- [1]
-				"Denathra Fel Synergy Shaathun <Denathra> Hit +327 (327 overheal)", -- [2]
-				"Denathra Fel Synergy Shaathun <Denathra> Hit +327 (327 overheal)", -- [3]
-				"Denathra Fel Synergy Shaathun <Denathra> Hit +327 (327 overheal)", -- [4]
-				"Denathra Fel Synergy Shaathun <Denathra> Hit +323 (323 overheal)", -- [5]
-				"Denathra Fel Synergy Shaathun <Denathra> Hit +323 (323 overheal)", -- [6]
-				"Denathra Fel Synergy Shaathun <Denathra> Hit +323 (323 overheal)", -- [7]
-				"Denathra Fel Synergy Shaathun <Denathra> Hit +327 (327 overheal)", -- [8]
-				"Denathra Fel Synergy Shaathun <Denathra> Hit +327 (327 overheal)", -- [9]
-				"Denathra Fel Synergy Shaathun <Denathra> Hit +327 (327 overheal)", -- [10]
-				"Denathra Fel Synergy Shaathun <Denathra> Hit +327 (327 overheal)", -- [11]
-				"Denathra Fel Synergy Shaathun <Denathra> Hit +327 (327 overheal)", -- [12]
-				"Denathra Fel Synergy Shaathun <Denathra> Hit +323 (323 overheal)", -- [13]
-				"Denathra Fel Synergy Shaathun <Denathra> Hit +323 (323 overheal)", -- [14]
-				"Denathra Fel Synergy Shaathun <Denathra> Hit +323 (323 overheal)", -- [15]
-				"Denathra Fel Synergy Shaathun <Denathra> Hit +323 (323 overheal)", -- [16]
-				"Denathra Fel Synergy Shaathun <Denathra> Hit +323 (323 overheal)", -- [17]
-				"Denathra Soul Link Shaathun <Denathra> Split -20 (Shadow)", -- [18]
-				"Shaathun <Denathra> Melee Spectral Tutor Crit -1850 (Physical)", -- [19]
-				"Shaathun <Denathra> Cleave Spectral Tutor Crit -2346 (Physical)", -- [20]
-				"Shaathun <Denathra> Intercept Necrofiend Hit -484 (Physical)", -- [21]
-				"Shaathun <Denathra> Cleave Necrofiend Crit -2312 (Physical)", -- [22]
-				"Shaathun <Denathra> Melee Necrofiend Crit -2138 (Physical)", -- [23]
-				"Denathra Fel Synergy Shaathun <Denathra> Hit +2284 (2284 overheal)", -- [24]
-				"Denathra Fel Synergy Shaathun <Denathra> Hit +2602 (2602 overheal)", -- [25]
-				"Denathra Fel Synergy Shaathun <Denathra> Hit +2624 (2624 overheal)", -- [26]
-				"Denathra Fel Synergy Shaathun <Denathra> Hit +2565 (2565 overheal)", -- [27]
-				"Denathra Fel Synergy Shaathun <Denathra> Hit +1228 (1228 overheal)", -- [28]
-				"Denathra Fel Synergy Shaathun <Denathra> Hit +2531 (2531 overheal)", -- [29]
-				"Denathra Fel Synergy Shaathun <Denathra> Hit +2551 (2551 overheal)", -- [30]
-				"Denathra Fel Synergy Shaathun <Denathra> Hit +1235 (1235 overheal)", -- [31]
-				"Denathra Fel Synergy Shaathun <Denathra> Hit +2272 (2272 overheal)", -- [32]
-				"Denathra Fel Synergy Shaathun <Denathra> Hit +2634 (2634 overheal)", -- [33]
-				"Denathra Fel Synergy Shaathun <Denathra> Hit +2722 (2722 overheal)", -- [34]
-				"Denathra Fel Synergy Shaathun <Denathra> Hit +2673 (2673 overheal)", -- [35]
-				"Denathra Fel Synergy Shaathun <Denathra> Hit +1259 (1259 overheal)", -- [36]
-				"Denathra Fel Synergy Shaathun <Denathra> Hit +2672 (2672 overheal)", -- [37]
-				"Denathra Fel Synergy Shaathun <Denathra> Hit +1266 (1266 overheal)", -- [38]
-				"Denathra Fel Synergy Shaathun <Denathra> Hit +2299 (2299 overheal)", -- [39]
-				"Denathra Fel Synergy Shaathun <Denathra> Hit +2336 (2336 overheal)", -- [40]
-				"Denathra Fel Synergy Shaathun <Denathra> Hit +2294 (2294 overheal)", -- [41]
-				"Denathra Fel Synergy Shaathun <Denathra> Hit +1097 (1097 overheal)", -- [42]
-				"Denathra Fel Synergy Shaathun <Denathra> Hit +327 (327 overheal)", -- [43]
-				"Denathra Fel Synergy Shaathun <Denathra> Hit +323 (323 overheal)", -- [44]
-				"Denathra Soul Link Shaathun <Denathra> Split -20 (Shadow)", -- [45]
-				"Denathra Fel Synergy Shaathun <Denathra> Hit +327 (307 overheal)", -- [46]
-				"Denathra Fel Synergy Shaathun <Denathra> Hit +323 (323 overheal)", -- [47]
-				"Denathra Fel Synergy Shaathun <Denathra> Hit +323 (323 overheal)", -- [48]
-				"Denathra Fel Synergy Shaathun <Denathra> Hit +323 (323 overheal)", -- [49]
-				"Denathra Fel Synergy Shaathun <Denathra> Hit +327 (327 overheal)", -- [50]
-			},
-			["Name"] = "Shaathun",
-			["LastEventIncoming"] = {
-				true, -- [1]
-				true, -- [2]
-				true, -- [3]
-				true, -- [4]
-				true, -- [5]
-				true, -- [6]
-				true, -- [7]
-				true, -- [8]
-				true, -- [9]
-				true, -- [10]
-				true, -- [11]
-				true, -- [12]
-				true, -- [13]
-				true, -- [14]
-				true, -- [15]
-				true, -- [16]
-				true, -- [17]
-				true, -- [18]
-				false, -- [19]
-				false, -- [20]
-				false, -- [21]
-				false, -- [22]
-				false, -- [23]
-				true, -- [24]
-				true, -- [25]
-				true, -- [26]
-				true, -- [27]
-				true, -- [28]
-				true, -- [29]
-				true, -- [30]
-				true, -- [31]
-				true, -- [32]
-				true, -- [33]
-				true, -- [34]
-				true, -- [35]
-				true, -- [36]
-				true, -- [37]
-				true, -- [38]
-				true, -- [39]
-				true, -- [40]
-				true, -- [41]
-				true, -- [42]
-				true, -- [43]
-				true, -- [44]
-				true, -- [45]
-				true, -- [46]
-				true, -- [47]
-				true, -- [48]
-				true, -- [49]
-				true, -- [50]
-			},
-			["LastEventTimes"] = {
-				10262.185, -- [1]
-				10262.185, -- [2]
-				10262.186, -- [3]
-				10262.186, -- [4]
-				10262.187, -- [5]
-				10262.187, -- [6]
-				10262.188, -- [7]
-				10262.869, -- [8]
-				10262.87, -- [9]
-				10262.87, -- [10]
-				10262.871, -- [11]
-				10262.871, -- [12]
-				10262.872, -- [13]
-				10262.872, -- [14]
-				10262.873, -- [15]
-				10263.569, -- [16]
-				10263.57, -- [17]
-				10269.844, -- [18]
-				10270.963, -- [19]
-				10271.197, -- [20]
-				10285.968, -- [21]
-				10287.688, -- [22]
-				10288.037, -- [23]
-				10288.155, -- [24]
-				10292.344, -- [25]
-				10294.248, -- [26]
-				10296, -- [27]
-				10306.114, -- [28]
-				10312.892, -- [29]
-				10314.644, -- [30]
-				10316.38, -- [31]
-				10319.567, -- [32]
-				10321.236, -- [33]
-				10323.106, -- [34]
-				10326.361, -- [35]
-				10328.18, -- [36]
-				10329.9, -- [37]
-				10331.668, -- [38]
-				10335.09, -- [39]
-				10337.11, -- [40]
-				10340.181, -- [41]
-				10341.983, -- [42]
-				10260.864, -- [43]
-				10260.865, -- [44]
-				10261.031, -- [45]
-				10261.566, -- [46]
-				10261.566, -- [47]
-				10261.567, -- [48]
-				10261.567, -- [49]
-				10262.184, -- [50]
-			},
 			["Fights"] = {
-				["Fight5"] = {
-					["DOTs"] = {
-					},
-					["ElementDoneResist"] = {
-					},
-					["Ressed"] = 0,
-					["DamageTaken"] = 0,
-					["RageGainedFrom"] = {
-					},
-					["ElementHitsTaken"] = {
-						["Frost"] = {
-							["Details"] = {
-								["Miss"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Shadow"] = {
-							["Details"] = {
-								["Immune"] = {
-									["count"] = 0,
-								},
-								["Miss"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["Parry"] = {
-									["count"] = 0,
-								},
-								["Dodge"] = {
-									["count"] = 0,
-								},
-								["Miss"] = {
-									["count"] = 0,
-								},
-								["Hit"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Nature"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 0,
-								},
-								["Tick"] = {
-									["count"] = 0,
-								},
-								["Miss"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["DeathCount"] = 0,
-					["HOT_Time"] = 0,
-					["ElementHitsDone"] = {
-						["Melee"] = {
-							["Details"] = {
-								["Crit"] = {
-									["count"] = 0,
-								},
-								["Hit"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Physical"] = {
-							["Details"] = {
-								["Crit"] = {
-									["count"] = 0,
-								},
-								["Hit"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["ElementTakenAbsorb"] = {
-					},
-					["ElementTaken"] = {
-						["Melee"] = 0,
-						["Nature"] = 0,
-					},
-					["DOT_Time"] = 0,
-					["Damage"] = 0,
-					["ElementTakenBlock"] = {
-					},
-					["TimeHeal"] = 0,
-					["RessedWho"] = {
-					},
-					["Dispels"] = 0,
-					["ElementTakenResist"] = {
-						["Nature"] = 0,
-					},
-					["ElementDoneAbsorb"] = {
-					},
-					["FAttacks"] = {
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementDone"] = {
-						["Melee"] = 0,
-						["Physical"] = 0,
-					},
-					["PartialAbsorb"] = {
-						["Melee"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Mana Burn"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Drain Life"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Cloud of Disease (DoT)"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Shadow Bolt"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Wail of Souls"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Wandering Plague"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Disease Cloud"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Frostbolt"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Mind Flay"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["DamagedWho"] = {
-						["Scholomance Acolyte"] = {
-							["Details"] = {
-								["Intercept"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Cleave"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Scholomance Necromancer"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Cleave"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Plagued Hatchling"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Cleave"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Scholomance Neophyte"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Cleave"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Diseased Ghoul"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Cleave"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Risen Aberration"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Cleave"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Spectral Researcher"] = {
-							["Details"] = {
-								["Cleave"] = {
-									["count"] = 0,
-								},
-								["Intercept"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Spectral Tutor"] = {
-							["Details"] = {
-								["Cleave"] = {
-									["count"] = 0,
-								},
-								["Intercept"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Reanimated Corpse"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Scholomance Handler"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Cleave"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Jandice Barov"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Cleave"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["PartialBlock"] = {
-					},
-					["WhoDamaged"] = {
-						["Risen Aberration"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Reanimated Corpse"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Scholomance Necromancer"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Plagued Hatchling"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Spectral Researcher"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Jandice Barov"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Scholomance Neophyte"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Diseased Ghoul"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Cloud of Disease (DoT)"] = {
-									["count"] = 0,
-								},
-								["Disease Cloud"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["EnergyGainedFrom"] = {
-					},
-					["PartialResist"] = {
-						["Melee"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Mana Burn"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Drain Life"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Cloud of Disease (DoT)"] = {
-							["Details"] = {
-								["50%Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["25%Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Shadow Bolt"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Wail of Souls"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Wandering Plague"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Disease Cloud"] = {
-							["Details"] = {
-								["50%Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Frostbolt"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Mind Flay"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["CCBroken"] = {
-					},
-					["ElementDoneBlock"] = {
-						["Physical"] = 0,
-					},
-					["TimeHealing"] = {
-					},
-					["OverHeals"] = {
-					},
-					["ManaGainedFrom"] = {
-					},
-					["RunicPowerGained"] = {
-					},
-					["CCBreak"] = 0,
-					["RageGained"] = {
-					},
-					["HealedWho"] = {
-					},
-					["EnergyGain"] = 0,
-					["ManaGained"] = {
-					},
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
-					["Overhealing"] = 0,
-					["TimeSpent"] = {
-						["Scholomance Acolyte"] = {
-							["Details"] = {
-								["Intercept"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Cleave"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Scholomance Necromancer"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Cleave"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Plagued Hatchling"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Cleave"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Scholomance Neophyte"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Cleave"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Diseased Ghoul"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Cleave"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Risen Aberration"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Cleave"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Spectral Researcher"] = {
-							["Details"] = {
-								["Cleave"] = {
-									["count"] = 0,
-								},
-								["Intercept"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Spectral Tutor"] = {
-							["Details"] = {
-								["Cleave"] = {
-									["count"] = 0,
-								},
-								["Intercept"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Reanimated Corpse"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Scholomance Handler"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Cleave"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Jandice Barov"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Cleave"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["WhoDispelled"] = {
-					},
-					["InterruptData"] = {
-					},
-					["RunicPowerGain"] = 0,
-					["Heals"] = {
-					},
-					["WhoHealed"] = {
-						["Denathra"] = {
-							["Details"] = {
-								["Fel Synergy"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["EnergyGained"] = {
-					},
-					["ActiveTime"] = 0,
-					["Healing"] = 0,
-					["FDamagedWho"] = {
-					},
-					["Dispelled"] = 0,
-					["Attacks"] = {
-						["Intercept"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["Crit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Cleave"] = {
-							["Details"] = {
-								["Hit (Blocked)"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Crit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["HealingTaken"] = 0,
-					["RageGain"] = 0,
-					["TimeDamage"] = 0,
-					["TimeDamaging"] = {
-						["Scholomance Acolyte"] = {
-							["Details"] = {
-								["Intercept"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Cleave"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Scholomance Necromancer"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Cleave"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Plagued Hatchling"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Cleave"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Scholomance Neophyte"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Cleave"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Diseased Ghoul"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Cleave"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Risen Aberration"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Cleave"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Spectral Researcher"] = {
-							["Details"] = {
-								["Cleave"] = {
-									["count"] = 0,
-								},
-								["Intercept"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Spectral Tutor"] = {
-							["Details"] = {
-								["Cleave"] = {
-									["count"] = 0,
-								},
-								["Intercept"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Reanimated Corpse"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Scholomance Handler"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Cleave"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Jandice Barov"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Cleave"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["ManaGain"] = 0,
-					["HOTs"] = {
-					},
-					["DispelledWho"] = {
-					},
-				},
-				["Fight2"] = {
-					["DOTs"] = {
-					},
-					["ElementDoneResist"] = {
-					},
-					["Ressed"] = 0,
-					["DamageTaken"] = 0,
-					["RageGainedFrom"] = {
-					},
-					["ElementHitsTaken"] = {
-						["Shadow"] = {
-							["Details"] = {
-								["Miss"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["Dodge"] = {
-									["count"] = 0,
-								},
-								["Hit"] = {
-									["count"] = 0,
-								},
-								["Miss"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Physical"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Frost"] = {
-							["Details"] = {
-								["Miss"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Nature"] = {
-							["Details"] = {
-								["Miss"] = {
-									["count"] = 0,
-								},
-								["Tick"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["DeathCount"] = 0,
-					["HOT_Time"] = 0,
-					["ElementHitsDone"] = {
-						["Melee"] = {
-							["Details"] = {
-								["Crit"] = {
-									["count"] = 0,
-								},
-								["Hit"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Physical"] = {
-							["Details"] = {
-								["Crit"] = {
-									["count"] = 0,
-								},
-								["Hit"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["ElementTakenAbsorb"] = {
-					},
-					["ElementTaken"] = {
-						["Physical"] = 0,
-						["Melee"] = 0,
-						["Nature"] = 0,
-					},
-					["DOT_Time"] = 0,
-					["Damage"] = 0,
-					["ElementTakenBlock"] = {
-					},
-					["TimeHeal"] = 0,
-					["RessedWho"] = {
-					},
-					["Dispels"] = 0,
-					["ElementTakenResist"] = {
-						["Nature"] = 0,
-					},
-					["ElementDoneAbsorb"] = {
-					},
-					["FAttacks"] = {
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementDone"] = {
-						["Melee"] = 0,
-						["Physical"] = 0,
-					},
-					["PartialAbsorb"] = {
-						["Arcing Smash"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Trample"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Frostbolt"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Cloud of Disease (DoT)"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Shadow Bolt"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Shadow Shock"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Call of the Grave"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Silence"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["DamagedWho"] = {
-						["Scholomance Adept"] = {
-							["Details"] = {
-								["Intercept"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Cleave"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Scholomance Necromancer"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Cleave"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Reanimated Corpse"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Cleave"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Risen Aberration"] = {
-							["Details"] = {
-								["Intercept"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Cleave"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Spectral Projection"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Cleave"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Scholomance Dark Summoner"] = {
-							["Details"] = {
-								["Cleave"] = {
-									["count"] = 0,
-								},
-								["Intercept"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Spectral Tutor"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Cleave"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Risen Construct"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Cleave"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Frail Skeleton"] = {
-							["Details"] = {
-								["Cleave"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Scholomance Necrolyte"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["PartialBlock"] = {
-					},
-					["WhoDamaged"] = {
-						["Risen Aberration"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Risen Protector"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Reanimated Corpse"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Trample"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Spectral Tutor"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Risen Construct"] = {
-							["Details"] = {
-								["Arcing Smash"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Scholomance Necromancer"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Diseased Ghoul"] = {
-							["Details"] = {
-								["Cloud of Disease (DoT)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["EnergyGainedFrom"] = {
-					},
-					["PartialResist"] = {
-						["Arcing Smash"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Trample"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Frostbolt"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Cloud of Disease (DoT)"] = {
-							["Details"] = {
-								["50%Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["25%Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Shadow Bolt"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Shadow Shock"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Call of the Grave"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Silence"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["CCBroken"] = {
-					},
-					["ElementDoneBlock"] = {
-					},
-					["TimeHealing"] = {
-					},
-					["OverHeals"] = {
-					},
-					["ManaGainedFrom"] = {
-					},
-					["RunicPowerGained"] = {
-					},
-					["CCBreak"] = 0,
-					["RageGained"] = {
-					},
-					["HealedWho"] = {
-					},
-					["EnergyGain"] = 0,
-					["ManaGained"] = {
-					},
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
-					["Overhealing"] = 0,
-					["TimeSpent"] = {
-						["Scholomance Adept"] = {
-							["Details"] = {
-								["Intercept"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Cleave"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Scholomance Necromancer"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Cleave"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Reanimated Corpse"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Cleave"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Risen Aberration"] = {
-							["Details"] = {
-								["Intercept"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Cleave"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Spectral Projection"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Cleave"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Scholomance Dark Summoner"] = {
-							["Details"] = {
-								["Cleave"] = {
-									["count"] = 0,
-								},
-								["Intercept"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Spectral Tutor"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Cleave"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Risen Construct"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Cleave"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Frail Skeleton"] = {
-							["Details"] = {
-								["Cleave"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Scholomance Necrolyte"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["WhoDispelled"] = {
-					},
-					["InterruptData"] = {
-					},
-					["RunicPowerGain"] = 0,
-					["Heals"] = {
-					},
-					["WhoHealed"] = {
-						["Denathra"] = {
-							["Details"] = {
-								["Fel Synergy"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["EnergyGained"] = {
-					},
-					["ActiveTime"] = 0,
-					["Healing"] = 0,
-					["FDamagedWho"] = {
-					},
-					["Dispelled"] = 0,
-					["Attacks"] = {
-						["Cleave"] = {
-							["Details"] = {
-								["Crit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["Crit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Intercept"] = {
-							["Details"] = {
-								["Crit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["HealingTaken"] = 0,
-					["RageGain"] = 0,
-					["TimeDamage"] = 0,
-					["TimeDamaging"] = {
-						["Scholomance Adept"] = {
-							["Details"] = {
-								["Intercept"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Cleave"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Scholomance Necromancer"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Cleave"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Reanimated Corpse"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Cleave"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Risen Aberration"] = {
-							["Details"] = {
-								["Intercept"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Cleave"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Spectral Projection"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Cleave"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Scholomance Dark Summoner"] = {
-							["Details"] = {
-								["Cleave"] = {
-									["count"] = 0,
-								},
-								["Intercept"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Spectral Tutor"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Cleave"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Risen Construct"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Cleave"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Frail Skeleton"] = {
-							["Details"] = {
-								["Cleave"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Scholomance Necrolyte"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["ManaGain"] = 0,
-					["HOTs"] = {
-					},
-					["DispelledWho"] = {
-					},
-				},
-				["CurrentFightData"] = {
-					["DOTs"] = {
-					},
-					["ElementDoneResist"] = {
-					},
-					["Ressed"] = 0,
-					["DamageTaken"] = 0,
-					["RageGainedFrom"] = {
-					},
-					["ElementHitsTaken"] = {
-						["Shadow"] = {
-							["Details"] = {
-								["Miss"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["Dodge"] = {
-									["count"] = 0,
-								},
-								["Miss"] = {
-									["count"] = 0,
-								},
-								["Hit"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Fire"] = {
-							["Details"] = {
-								["Miss"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Frost"] = {
-							["Details"] = {
-								["Miss"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Nature"] = {
-							["Details"] = {
-								["Miss"] = {
-									["count"] = 0,
-								},
-								["Tick"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["DeathCount"] = 0,
-					["HOT_Time"] = 0,
-					["ElementHitsDone"] = {
-						["Melee"] = {
-							["Details"] = {
-								["Crit"] = {
-									["count"] = 0,
-								},
-								["Hit"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Physical"] = {
-							["Details"] = {
-								["Crit"] = {
-									["count"] = 0,
-								},
-								["Hit"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["ElementTakenAbsorb"] = {
-					},
-					["ElementTaken"] = {
-						["Melee"] = 0,
-						["Nature"] = 0,
-					},
-					["DOT_Time"] = 0,
-					["Damage"] = 0,
-					["ElementTakenBlock"] = {
-					},
-					["TimeHeal"] = 0,
-					["RessedWho"] = {
-					},
-					["Dispels"] = 0,
-					["ElementTakenResist"] = {
-						["Nature"] = 0,
-					},
-					["ElementDoneAbsorb"] = {
-					},
-					["FAttacks"] = {
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementDone"] = {
-						["Melee"] = 0,
-						["Physical"] = 0,
-					},
-					["PartialAbsorb"] = {
-						["Shadow Shock"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Cone of Cold"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Blast Wave"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Diseased Spit"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Disease Cloud"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Cloud of Disease (DoT)"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Shadow Bolt"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["DamagedWho"] = {
-						["Scholomance Acolyte"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Cleave"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Scholomance Necromancer"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Cleave"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Plagued Hatchling"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Cleave"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Scholomance Neophyte"] = {
-							["Details"] = {
-								["Cleave"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Risen Aberration"] = {
-							["Details"] = {
-								["Cleave"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Intercept"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Risen Protector"] = {
-							["Details"] = {
-								["Cleave"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Intercept"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Reanimated Corpse"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Spectral Tutor"] = {
-							["Details"] = {
-								["Cleave"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Scholomance Dark Summoner"] = {
-							["Details"] = {
-								["Cleave"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Scholomance Handler"] = {
-							["Details"] = {
-								["Cleave"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Intercept"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Risen Guard"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["PartialBlock"] = {
-					},
-					["WhoDamaged"] = {
-						["Scholomance Acolyte"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Plagued Hatchling"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Scholomance Neophyte"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Diseased Ghoul"] = {
-							["Details"] = {
-								["Cloud of Disease (DoT)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Risen Aberration"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Risen Guard"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Frail Skeleton"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Scholomance Handler"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Scholomance Dark Summoner"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["EnergyGainedFrom"] = {
-					},
-					["PartialResist"] = {
-						["Shadow Shock"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Cone of Cold"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Blast Wave"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Diseased Spit"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Disease Cloud"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Cloud of Disease (DoT)"] = {
-							["Details"] = {
-								["50%Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Shadow Bolt"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["CCBroken"] = {
-					},
-					["ElementDoneBlock"] = {
-						["Physical"] = 0,
-					},
-					["TimeHealing"] = {
-					},
-					["OverHeals"] = {
-					},
-					["ManaGainedFrom"] = {
-					},
-					["RunicPowerGained"] = {
-					},
-					["CCBreak"] = 0,
-					["RageGained"] = {
-					},
-					["HealedWho"] = {
-					},
-					["EnergyGain"] = 0,
-					["ManaGained"] = {
-					},
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
-					["Overhealing"] = 0,
-					["TimeSpent"] = {
-						["Scholomance Acolyte"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Cleave"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Scholomance Necromancer"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Cleave"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Plagued Hatchling"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Cleave"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Scholomance Neophyte"] = {
-							["Details"] = {
-								["Cleave"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Risen Aberration"] = {
-							["Details"] = {
-								["Cleave"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Intercept"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Risen Protector"] = {
-							["Details"] = {
-								["Cleave"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Intercept"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Reanimated Corpse"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Spectral Tutor"] = {
-							["Details"] = {
-								["Cleave"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Scholomance Dark Summoner"] = {
-							["Details"] = {
-								["Cleave"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Scholomance Handler"] = {
-							["Details"] = {
-								["Cleave"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Intercept"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Risen Guard"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["WhoDispelled"] = {
-					},
-					["InterruptData"] = {
-					},
-					["RunicPowerGain"] = 0,
-					["Heals"] = {
-					},
-					["WhoHealed"] = {
-						["Denathra"] = {
-							["Details"] = {
-								["Fel Synergy"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["EnergyGained"] = {
-					},
-					["ActiveTime"] = 0,
-					["Healing"] = 0,
-					["FDamagedWho"] = {
-					},
-					["Dispelled"] = 0,
-					["Attacks"] = {
-						["Intercept"] = {
-							["Details"] = {
-								["Crit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["Crit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Cleave"] = {
-							["Details"] = {
-								["Crit (Blocked)"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Hit (Blocked)"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Crit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["HealingTaken"] = 0,
-					["RageGain"] = 0,
-					["TimeDamage"] = 0,
-					["TimeDamaging"] = {
-						["Scholomance Acolyte"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Cleave"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Scholomance Necromancer"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Cleave"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Plagued Hatchling"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Cleave"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Scholomance Neophyte"] = {
-							["Details"] = {
-								["Cleave"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Risen Aberration"] = {
-							["Details"] = {
-								["Cleave"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Intercept"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Risen Protector"] = {
-							["Details"] = {
-								["Cleave"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Intercept"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Reanimated Corpse"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Spectral Tutor"] = {
-							["Details"] = {
-								["Cleave"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Scholomance Dark Summoner"] = {
-							["Details"] = {
-								["Cleave"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Scholomance Handler"] = {
-							["Details"] = {
-								["Cleave"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Intercept"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Risen Guard"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["ManaGain"] = 0,
-					["HOTs"] = {
-					},
-					["DispelledWho"] = {
-					},
-				},
-				["Fight3"] = {
-					["DOTs"] = {
-					},
-					["ElementDoneResist"] = {
-					},
-					["Ressed"] = 0,
-					["DamageTaken"] = 0,
-					["RageGainedFrom"] = {
-					},
-					["ElementHitsTaken"] = {
-						["Shadow"] = {
-							["Details"] = {
-								["Miss"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["Dodge"] = {
-									["count"] = 0,
-								},
-								["Parry"] = {
-									["count"] = 0,
-								},
-								["Hit"] = {
-									["count"] = 0,
-								},
-								["Miss"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Nature"] = {
-							["Details"] = {
-								["Tick"] = {
-									["count"] = 0,
-								},
-								["Miss"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["DeathCount"] = 0,
-					["HOT_Time"] = 0,
-					["ElementHitsDone"] = {
-						["Melee"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Physical"] = {
-							["Details"] = {
-								["Crit"] = {
-									["count"] = 0,
-								},
-								["Hit"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["ElementTakenAbsorb"] = {
-					},
-					["ElementTaken"] = {
-						["Melee"] = 0,
-						["Nature"] = 0,
-					},
-					["DOT_Time"] = 0,
-					["Damage"] = 0,
-					["ElementTakenBlock"] = {
-					},
-					["TimeHeal"] = 0,
-					["RessedWho"] = {
-					},
-					["Dispels"] = 0,
-					["ElementTakenResist"] = {
-						["Nature"] = 0,
-					},
-					["ElementDoneAbsorb"] = {
-					},
-					["FAttacks"] = {
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementDone"] = {
-						["Melee"] = 0,
-						["Physical"] = 0,
-					},
-					["PartialAbsorb"] = {
-						["Cloud of Disease (DoT)"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Shadow Bolt Volley"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Disease Cloud"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["DamagedWho"] = {
-						["Scholomance Acolyte"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Cleave"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Scholomance Neophyte"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Cleave"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Diseased Ghoul"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Intercept"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Risen Aberration"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Cleave"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Necrofiend"] = {
-							["Details"] = {
-								["Cleave"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Intercept"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Risen Guard"] = {
-							["Details"] = {
-								["Cleave"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Intercept"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Risen Construct"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Cleave"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Spectral Researcher"] = {
-							["Details"] = {
-								["Cleave"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Reanimated Corpse"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Cleave"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["PartialBlock"] = {
-					},
-					["WhoDamaged"] = {
-						["Risen Aberration"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Spectral Researcher"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Reanimated Corpse"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Diseased Ghoul"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Cloud of Disease (DoT)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["EnergyGainedFrom"] = {
-					},
-					["PartialResist"] = {
-						["Cloud of Disease (DoT)"] = {
-							["Details"] = {
-								["50%Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["25%Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Shadow Bolt Volley"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Disease Cloud"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["CCBroken"] = {
-					},
-					["ElementDoneBlock"] = {
-						["Physical"] = 0,
-					},
-					["TimeHealing"] = {
-					},
-					["OverHeals"] = {
-					},
-					["ManaGainedFrom"] = {
-					},
-					["RunicPowerGained"] = {
-					},
-					["CCBreak"] = 0,
-					["RageGained"] = {
-					},
-					["HealedWho"] = {
-					},
-					["EnergyGain"] = 0,
-					["ManaGained"] = {
-					},
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
-					["Overhealing"] = 0,
-					["TimeSpent"] = {
-						["Scholomance Acolyte"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Cleave"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Scholomance Neophyte"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Cleave"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Diseased Ghoul"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Intercept"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Risen Aberration"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Cleave"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Necrofiend"] = {
-							["Details"] = {
-								["Cleave"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Intercept"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Risen Guard"] = {
-							["Details"] = {
-								["Cleave"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Intercept"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Risen Construct"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Cleave"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Spectral Researcher"] = {
-							["Details"] = {
-								["Cleave"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Reanimated Corpse"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Cleave"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["WhoDispelled"] = {
-					},
-					["InterruptData"] = {
-					},
-					["RunicPowerGain"] = 0,
-					["Heals"] = {
-					},
-					["WhoHealed"] = {
-						["Denathra"] = {
-							["Details"] = {
-								["Fel Synergy"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["EnergyGained"] = {
-					},
-					["ActiveTime"] = 0,
-					["Healing"] = 0,
-					["FDamagedWho"] = {
-					},
-					["Dispelled"] = 0,
-					["Attacks"] = {
-						["Intercept"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Cleave"] = {
-							["Details"] = {
-								["Hit (Blocked)"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Crit (Blocked)"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Crit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["HealingTaken"] = 0,
-					["RageGain"] = 0,
-					["TimeDamage"] = 0,
-					["TimeDamaging"] = {
-						["Scholomance Acolyte"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Cleave"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Scholomance Neophyte"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Cleave"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Diseased Ghoul"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Intercept"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Risen Aberration"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Cleave"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Necrofiend"] = {
-							["Details"] = {
-								["Cleave"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Intercept"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Risen Guard"] = {
-							["Details"] = {
-								["Cleave"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Intercept"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Risen Construct"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Cleave"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Spectral Researcher"] = {
-							["Details"] = {
-								["Cleave"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Reanimated Corpse"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Cleave"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["ManaGain"] = 0,
-					["HOTs"] = {
-					},
-					["DispelledWho"] = {
-					},
-				},
-				["Fight4"] = {
-					["DOTs"] = {
-					},
-					["ElementDoneResist"] = {
-					},
-					["Ressed"] = 0,
-					["DamageTaken"] = 0,
-					["RageGainedFrom"] = {
-					},
-					["ElementHitsTaken"] = {
-						["Shadow"] = {
-							["Details"] = {
-								["Miss"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["Miss"] = {
-									["count"] = 0,
-								},
-								["Parry"] = {
-									["count"] = 0,
-								},
-								["Hit"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Nature"] = {
-							["Details"] = {
-								["Tick"] = {
-									["count"] = 0,
-								},
-								["Miss"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["DeathCount"] = 0,
-					["HOT_Time"] = 0,
-					["ElementHitsDone"] = {
-						["Melee"] = {
-							["Details"] = {
-								["Crit"] = {
-									["count"] = 0,
-								},
-								["Hit"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Physical"] = {
-							["Details"] = {
-								["Crit"] = {
-									["count"] = 0,
-								},
-								["Hit"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["ElementTakenAbsorb"] = {
-					},
-					["ElementTaken"] = {
-						["Melee"] = 0,
-						["Nature"] = 0,
-					},
-					["DOT_Time"] = 0,
-					["Damage"] = 0,
-					["ElementTakenBlock"] = {
-					},
-					["TimeHeal"] = 0,
-					["RessedWho"] = {
-					},
-					["Dispels"] = 0,
-					["ElementTakenResist"] = {
-						["Nature"] = 0,
-					},
-					["ElementDoneAbsorb"] = {
-					},
-					["FAttacks"] = {
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementDone"] = {
-						["Melee"] = 0,
-						["Physical"] = 0,
-					},
-					["PartialAbsorb"] = {
-						["Wail of Souls"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Shadow Shock"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Cloud of Disease (DoT)"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Disease Cloud"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["DamagedWho"] = {
-						["Scholomance Dark Summoner"] = {
-							["Details"] = {
-								["Cleave"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Scholomance Neophyte"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Cleave"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Diseased Ghoul"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Risen Aberration"] = {
-							["Details"] = {
-								["Intercept"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Cleave"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Risen Protector"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Cleave"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Scholomance Acolyte"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Spectral Researcher"] = {
-							["Details"] = {
-								["Cleave"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Risen Construct"] = {
-							["Details"] = {
-								["Cleave"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Intercept"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Reanimated Corpse"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Scholomance Necrolyte"] = {
-							["Details"] = {
-								["Cleave"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Intercept"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["PartialBlock"] = {
-					},
-					["WhoDamaged"] = {
-						["Risen Aberration"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Spectral Researcher"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Reanimated Corpse"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Scholomance Neophyte"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Diseased Ghoul"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Cloud of Disease (DoT)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["EnergyGainedFrom"] = {
-					},
-					["PartialResist"] = {
-						["Wail of Souls"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Shadow Shock"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Cloud of Disease (DoT)"] = {
-							["Details"] = {
-								["50%Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["25%Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Disease Cloud"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["CCBroken"] = {
-					},
-					["ElementDoneBlock"] = {
-						["Physical"] = 0,
-					},
-					["TimeHealing"] = {
-					},
-					["OverHeals"] = {
-					},
-					["ManaGainedFrom"] = {
-					},
-					["RunicPowerGained"] = {
-					},
-					["CCBreak"] = 0,
-					["RageGained"] = {
-					},
-					["HealedWho"] = {
-					},
-					["EnergyGain"] = 0,
-					["ManaGained"] = {
-					},
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
-					["Overhealing"] = 0,
-					["TimeSpent"] = {
-						["Scholomance Dark Summoner"] = {
-							["Details"] = {
-								["Cleave"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Scholomance Neophyte"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Cleave"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Diseased Ghoul"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Risen Aberration"] = {
-							["Details"] = {
-								["Intercept"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Cleave"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Risen Protector"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Cleave"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Scholomance Acolyte"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Spectral Researcher"] = {
-							["Details"] = {
-								["Cleave"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Risen Construct"] = {
-							["Details"] = {
-								["Cleave"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Intercept"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Reanimated Corpse"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Scholomance Necrolyte"] = {
-							["Details"] = {
-								["Cleave"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Intercept"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["WhoDispelled"] = {
-					},
-					["InterruptData"] = {
-					},
-					["RunicPowerGain"] = 0,
-					["Heals"] = {
-					},
-					["WhoHealed"] = {
-						["Denathra"] = {
-							["Details"] = {
-								["Fel Synergy"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["EnergyGained"] = {
-					},
-					["ActiveTime"] = 0,
-					["Healing"] = 0,
-					["FDamagedWho"] = {
-					},
-					["Dispelled"] = 0,
-					["Attacks"] = {
-						["Intercept"] = {
-							["Details"] = {
-								["Crit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["Crit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Cleave"] = {
-							["Details"] = {
-								["Crit (Blocked)"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Crit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["HealingTaken"] = 0,
-					["RageGain"] = 0,
-					["TimeDamage"] = 0,
-					["TimeDamaging"] = {
-						["Scholomance Dark Summoner"] = {
-							["Details"] = {
-								["Cleave"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Scholomance Neophyte"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Cleave"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Diseased Ghoul"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Risen Aberration"] = {
-							["Details"] = {
-								["Intercept"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Cleave"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Risen Protector"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Cleave"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Scholomance Acolyte"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Spectral Researcher"] = {
-							["Details"] = {
-								["Cleave"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Risen Construct"] = {
-							["Details"] = {
-								["Cleave"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Intercept"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Reanimated Corpse"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Scholomance Necrolyte"] = {
-							["Details"] = {
-								["Cleave"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Intercept"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["ManaGain"] = 0,
-					["HOTs"] = {
-					},
-					["DispelledWho"] = {
-					},
-				},
-				["LastFightData"] = {
-					["TimeSpent"] = {
-						["Scholomance Adept"] = {
-							["Details"] = {
-								["Cleave"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Intercept"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Plagued Hatchling"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Cleave"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Scholomance Acolyte"] = {
-							["Details"] = {
-								["Cleave"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Intercept"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Scholomance Neophyte"] = {
-							["Details"] = {
-								["Cleave"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Intercept"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Diseased Ghoul"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Cleave"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Reanimated Corpse"] = {
-							["Details"] = {
-								["Cleave"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Risen Aberration"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Cleave"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Risen Protector"] = {
-							["Details"] = {
-								["Cleave"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Intercept"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Necrofiend"] = {
-							["Details"] = {
-								["Cleave"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Intercept"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Spectral Researcher"] = {
-							["Details"] = {
-								["Cleave"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Intercept"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Risen Construct"] = {
-							["Details"] = {
-								["Cleave"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Intercept"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Scholomance Handler"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Cleave"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Scholomance Necrolyte"] = {
-							["Details"] = {
-								["Cleave"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Intercept"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["DamageTaken"] = 0,
-					["ElementTakenResist"] = {
-						["Nature"] = 0,
-					},
-					["PartialResist"] = {
-						["Arcane Blast"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Mana Burn"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Diseased Spit"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Frostbolt"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Cloud of Disease (DoT)"] = {
-							["Details"] = {
-								["50%Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["25%Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Disease Cloud"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Wail of Souls"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Blast Wave"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Shadow Shock"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Cone of Cold"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Shadow Bolt"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["PartialAbsorb"] = {
-						["Arcane Blast"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Mana Burn"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Diseased Spit"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Frostbolt"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Cloud of Disease (DoT)"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Disease Cloud"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Wail of Souls"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Blast Wave"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Shadow Shock"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Cone of Cold"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Shadow Bolt"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["ActiveTime"] = 0,
-					["ElementTaken"] = {
-						["Melee"] = 0,
-						["Nature"] = 0,
-					},
-					["Damage"] = 0,
-					["WhoHealed"] = {
-						["Denathra"] = {
-							["Details"] = {
-								["Fel Synergy"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["ElementHitsDone"] = {
-						["Melee"] = {
-							["Details"] = {
-								["Crit"] = {
-									["count"] = 0,
-								},
-								["Hit"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Physical"] = {
-							["Details"] = {
-								["Crit"] = {
-									["count"] = 0,
-								},
-								["Hit"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["ElementDone"] = {
-						["Melee"] = 0,
-						["Physical"] = 0,
-					},
-					["HealingTaken"] = 0,
-					["DamagedWho"] = {
-						["Scholomance Adept"] = {
-							["Details"] = {
-								["Cleave"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Intercept"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Plagued Hatchling"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Cleave"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Scholomance Acolyte"] = {
-							["Details"] = {
-								["Cleave"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Intercept"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Scholomance Neophyte"] = {
-							["Details"] = {
-								["Cleave"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Intercept"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Diseased Ghoul"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Cleave"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Reanimated Corpse"] = {
-							["Details"] = {
-								["Cleave"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Risen Aberration"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Cleave"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Risen Protector"] = {
-							["Details"] = {
-								["Cleave"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Intercept"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Necrofiend"] = {
-							["Details"] = {
-								["Cleave"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Intercept"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Spectral Researcher"] = {
-							["Details"] = {
-								["Cleave"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Intercept"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Risen Construct"] = {
-							["Details"] = {
-								["Cleave"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Intercept"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Scholomance Handler"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Cleave"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Scholomance Necrolyte"] = {
-							["Details"] = {
-								["Cleave"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Intercept"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["TimeDamage"] = 0,
-					["TimeDamaging"] = {
-						["Scholomance Adept"] = {
-							["Details"] = {
-								["Cleave"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Intercept"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Plagued Hatchling"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Cleave"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Scholomance Acolyte"] = {
-							["Details"] = {
-								["Cleave"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Intercept"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Scholomance Neophyte"] = {
-							["Details"] = {
-								["Cleave"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Intercept"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Diseased Ghoul"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Cleave"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Reanimated Corpse"] = {
-							["Details"] = {
-								["Cleave"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Risen Aberration"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Cleave"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Risen Protector"] = {
-							["Details"] = {
-								["Cleave"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Intercept"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Necrofiend"] = {
-							["Details"] = {
-								["Cleave"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Intercept"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Spectral Researcher"] = {
-							["Details"] = {
-								["Cleave"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Intercept"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Risen Construct"] = {
-							["Details"] = {
-								["Cleave"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Intercept"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Scholomance Handler"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Cleave"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Scholomance Necrolyte"] = {
-							["Details"] = {
-								["Cleave"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Intercept"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["Attacks"] = {
-						["Cleave"] = {
-							["Details"] = {
-								["Crit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["Crit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Intercept"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["WhoDamaged"] = {
-						["Scholomance Adept"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Plagued Hatchling"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Scholomance Neophyte"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Diseased Ghoul"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Cloud of Disease (DoT)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Reanimated Corpse"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Risen Protector"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Spectral Researcher"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Scholomance Handler"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Risen Aberration"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["ElementHitsTaken"] = {
-						["Shadow"] = {
-							["Details"] = {
-								["Miss"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["Parry"] = {
-									["count"] = 0,
-								},
-								["Miss"] = {
-									["count"] = 0,
-								},
-								["Hit"] = {
-									["count"] = 0,
-								},
-								["Dodge"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Arcane"] = {
-							["Details"] = {
-								["Miss"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Fire"] = {
-							["Details"] = {
-								["Miss"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Frost"] = {
-							["Details"] = {
-								["Miss"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Nature"] = {
-							["Details"] = {
-								["Tick"] = {
-									["count"] = 0,
-								},
-								["Miss"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-				},
-				["Fight1"] = {
-					["TimeSpent"] = {
-						["Scholomance Adept"] = {
-							["Details"] = {
-								["Cleave"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Intercept"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Plagued Hatchling"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Cleave"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Scholomance Acolyte"] = {
-							["Details"] = {
-								["Cleave"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Intercept"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Scholomance Neophyte"] = {
-							["Details"] = {
-								["Cleave"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Intercept"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Diseased Ghoul"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Cleave"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Reanimated Corpse"] = {
-							["Details"] = {
-								["Cleave"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Risen Aberration"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Cleave"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Risen Protector"] = {
-							["Details"] = {
-								["Cleave"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Intercept"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Necrofiend"] = {
-							["Details"] = {
-								["Cleave"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Intercept"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Spectral Researcher"] = {
-							["Details"] = {
-								["Cleave"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Intercept"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Risen Construct"] = {
-							["Details"] = {
-								["Cleave"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Intercept"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Scholomance Handler"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Cleave"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Scholomance Necrolyte"] = {
-							["Details"] = {
-								["Cleave"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Intercept"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["DamageTaken"] = 0,
-					["ElementTakenResist"] = {
-						["Nature"] = 0,
-					},
-					["PartialResist"] = {
-						["Arcane Blast"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Mana Burn"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Diseased Spit"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Frostbolt"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Cloud of Disease (DoT)"] = {
-							["Details"] = {
-								["50%Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["25%Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Disease Cloud"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Wail of Souls"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Blast Wave"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Shadow Shock"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Cone of Cold"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Shadow Bolt"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["PartialAbsorb"] = {
-						["Arcane Blast"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Mana Burn"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Diseased Spit"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Frostbolt"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Cloud of Disease (DoT)"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Disease Cloud"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Wail of Souls"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Blast Wave"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Shadow Shock"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Cone of Cold"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Shadow Bolt"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["ActiveTime"] = 0,
-					["ElementTaken"] = {
-						["Melee"] = 0,
-						["Nature"] = 0,
-					},
-					["Damage"] = 0,
-					["WhoHealed"] = {
-						["Denathra"] = {
-							["Details"] = {
-								["Fel Synergy"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["ElementHitsDone"] = {
-						["Melee"] = {
-							["Details"] = {
-								["Crit"] = {
-									["count"] = 0,
-								},
-								["Hit"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Physical"] = {
-							["Details"] = {
-								["Crit"] = {
-									["count"] = 0,
-								},
-								["Hit"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["ElementDone"] = {
-						["Melee"] = 0,
-						["Physical"] = 0,
-					},
-					["HealingTaken"] = 0,
-					["DamagedWho"] = {
-						["Scholomance Adept"] = {
-							["Details"] = {
-								["Cleave"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Intercept"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Plagued Hatchling"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Cleave"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Scholomance Acolyte"] = {
-							["Details"] = {
-								["Cleave"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Intercept"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Scholomance Neophyte"] = {
-							["Details"] = {
-								["Cleave"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Intercept"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Diseased Ghoul"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Cleave"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Reanimated Corpse"] = {
-							["Details"] = {
-								["Cleave"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Risen Aberration"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Cleave"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Risen Protector"] = {
-							["Details"] = {
-								["Cleave"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Intercept"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Necrofiend"] = {
-							["Details"] = {
-								["Cleave"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Intercept"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Spectral Researcher"] = {
-							["Details"] = {
-								["Cleave"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Intercept"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Risen Construct"] = {
-							["Details"] = {
-								["Cleave"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Intercept"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Scholomance Handler"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Cleave"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Scholomance Necrolyte"] = {
-							["Details"] = {
-								["Cleave"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Intercept"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["TimeDamage"] = 0,
-					["TimeDamaging"] = {
-						["Scholomance Adept"] = {
-							["Details"] = {
-								["Cleave"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Intercept"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Plagued Hatchling"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Cleave"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Scholomance Acolyte"] = {
-							["Details"] = {
-								["Cleave"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Intercept"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Scholomance Neophyte"] = {
-							["Details"] = {
-								["Cleave"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Intercept"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Diseased Ghoul"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Cleave"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Reanimated Corpse"] = {
-							["Details"] = {
-								["Cleave"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Risen Aberration"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Cleave"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Risen Protector"] = {
-							["Details"] = {
-								["Cleave"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Intercept"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Necrofiend"] = {
-							["Details"] = {
-								["Cleave"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Intercept"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Spectral Researcher"] = {
-							["Details"] = {
-								["Cleave"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Intercept"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Risen Construct"] = {
-							["Details"] = {
-								["Cleave"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Intercept"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Scholomance Handler"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Cleave"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Scholomance Necrolyte"] = {
-							["Details"] = {
-								["Cleave"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Intercept"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["Attacks"] = {
-						["Cleave"] = {
-							["Details"] = {
-								["Crit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["Crit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Intercept"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["WhoDamaged"] = {
-						["Scholomance Adept"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Plagued Hatchling"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Scholomance Neophyte"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Diseased Ghoul"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Cloud of Disease (DoT)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Reanimated Corpse"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Risen Protector"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Spectral Researcher"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Scholomance Handler"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Risen Aberration"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["ElementHitsTaken"] = {
-						["Shadow"] = {
-							["Details"] = {
-								["Miss"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["Parry"] = {
-									["count"] = 0,
-								},
-								["Miss"] = {
-									["count"] = 0,
-								},
-								["Hit"] = {
-									["count"] = 0,
-								},
-								["Dodge"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Arcane"] = {
-							["Details"] = {
-								["Miss"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Fire"] = {
-							["Details"] = {
-								["Miss"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Frost"] = {
-							["Details"] = {
-								["Miss"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Nature"] = {
-							["Details"] = {
-								["Tick"] = {
-									["count"] = 0,
-								},
-								["Miss"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-				},
 				["OverallData"] = {
 					["ElementDoneBlock"] = {
 						["Physical"] = 171,
@@ -7169,70 +851,70 @@ RecountPerCharDB = {
 						},
 						["Scholomance Neophyte"] = {
 							["Details"] = {
-								["Cleave"] = {
-									["count"] = 1.84,
+								["Intercept"] = {
+									["count"] = 3.5,
 								},
 								["Melee"] = {
 									["count"] = 12.12,
 								},
-								["Intercept"] = {
-									["count"] = 3.5,
+								["Cleave"] = {
+									["count"] = 1.84,
 								},
 							},
 							["amount"] = 17.46,
 						},
 						["Diseased Ghoul"] = {
 							["Details"] = {
-								["Cleave"] = {
-									["count"] = 2.59,
+								["Intercept"] = {
+									["count"] = 2.19,
 								},
 								["Melee"] = {
 									["count"] = 30.33,
 								},
-								["Intercept"] = {
-									["count"] = 2.19,
+								["Cleave"] = {
+									["count"] = 2.59,
 								},
 							},
 							["amount"] = 35.10999999999999,
 						},
 						["Risen Aberration"] = {
 							["Details"] = {
-								["Intercept"] = {
-									["count"] = 7.62,
+								["Cleave"] = {
+									["count"] = 14.75,
 								},
 								["Melee"] = {
 									["count"] = 90.26999999999998,
 								},
-								["Cleave"] = {
-									["count"] = 14.75,
+								["Intercept"] = {
+									["count"] = 7.62,
 								},
 							},
 							["amount"] = 112.64,
 						},
 						["Risen Protector"] = {
 							["Details"] = {
-								["Cleave"] = {
-									["count"] = 3.44,
+								["Intercept"] = {
+									["count"] = 7,
 								},
 								["Melee"] = {
 									["count"] = 3.83,
 								},
-								["Intercept"] = {
-									["count"] = 7,
+								["Cleave"] = {
+									["count"] = 3.44,
 								},
 							},
 							["amount"] = 14.27,
 						},
 						["Spectral Researcher"] = {
 							["Details"] = {
-								["Intercept"] = {
-									["count"] = 7,
+								["Cleave"] = {
+									["count"] = 3.24,
 								},
 								["Melee"] = {
 									["count"] = 0.89,
 								},
-								["Cleave"] = {
-									["count"] = 3.24,
+								["Intercept"] = {
+									["count"] = 7,
 								},
 							},
 							["amount"] = 11.13,
@@ -7250,14 +932,14 @@ RecountPerCharDB = {
 						},
 						["Scholomance Acolyte"] = {
 							["Details"] = {
-								["Intercept"] = {
-									["count"] = 7,
+								["Cleave"] = {
+									["count"] = 4.19,
 								},
 								["Melee"] = {
 									["count"] = 21.74,
 								},
-								["Cleave"] = {
-									["count"] = 4.19,
+								["Intercept"] = {
+									["count"] = 7,
 								},
 							},
 							["amount"] = 32.93000000000001,
@@ -7284,33 +966,33 @@ RecountPerCharDB = {
 							},
 							["amount"] = 29.45,
 						},
-						["Risen Guard"] = {
-							["Details"] = {
-								["Cleave"] = {
-									["count"] = 1.55,
-								},
-								["Melee"] = {
-									["count"] = 4.2,
-								},
-								["Intercept"] = {
-									["count"] = 3.5,
-								},
-							},
-							["amount"] = 9.25,
-						},
 						["Scholomance Handler"] = {
 							["Details"] = {
-								["Intercept"] = {
-									["count"] = 3.5,
+								["Cleave"] = {
+									["count"] = 2.94,
 								},
 								["Melee"] = {
 									["count"] = 9.379999999999999,
 								},
-								["Cleave"] = {
-									["count"] = 2.94,
+								["Intercept"] = {
+									["count"] = 3.5,
 								},
 							},
 							["amount"] = 15.82,
+						},
+						["Scholomance Adept"] = {
+							["Details"] = {
+								["Cleave"] = {
+									["count"] = 2.1,
+								},
+								["Melee"] = {
+									["count"] = 7.8,
+								},
+								["Intercept"] = {
+									["count"] = 7,
+								},
+							},
+							["amount"] = 16.9,
 						},
 						["Reanimated Corpse"] = {
 							["Details"] = {
@@ -7323,6 +1005,73 @@ RecountPerCharDB = {
 							},
 							["amount"] = 22.35,
 						},
+						["Scholomance Dark Summoner"] = {
+							["Details"] = {
+								["Cleave"] = {
+									["count"] = 1.71,
+								},
+								["Intercept"] = {
+									["count"] = 3.5,
+								},
+							},
+							["amount"] = 5.21,
+						},
+						["Spectral Tutor"] = {
+							["Details"] = {
+								["Cleave"] = {
+									["count"] = 2.15,
+								},
+								["Melee"] = {
+									["count"] = 8.01,
+								},
+								["Intercept"] = {
+									["count"] = 3.5,
+								},
+							},
+							["amount"] = 13.66,
+						},
+						["Necrofiend"] = {
+							["Details"] = {
+								["Intercept"] = {
+									["count"] = 7,
+								},
+								["Melee"] = {
+									["count"] = 0.58,
+								},
+								["Cleave"] = {
+									["count"] = 3.36,
+								},
+							},
+							["amount"] = 10.94,
+						},
+						["Risen Guard"] = {
+							["Details"] = {
+								["Intercept"] = {
+									["count"] = 3.5,
+								},
+								["Melee"] = {
+									["count"] = 4.2,
+								},
+								["Cleave"] = {
+									["count"] = 1.55,
+								},
+							},
+							["amount"] = 9.25,
+						},
+						["Risen Construct"] = {
+							["Details"] = {
+								["Intercept"] = {
+									["count"] = 7,
+								},
+								["Melee"] = {
+									["count"] = 11.8,
+								},
+								["Cleave"] = {
+									["count"] = 3.32,
+								},
+							},
+							["amount"] = 22.12,
+						},
 						["Spectral Projection"] = {
 							["Details"] = {
 								["Melee"] = {
@@ -7334,83 +1083,16 @@ RecountPerCharDB = {
 							},
 							["amount"] = 6.28,
 						},
-						["Scholomance Dark Summoner"] = {
-							["Details"] = {
-								["Intercept"] = {
-									["count"] = 3.5,
-								},
-								["Cleave"] = {
-									["count"] = 1.71,
-								},
-							},
-							["amount"] = 5.21,
-						},
-						["Necrofiend"] = {
-							["Details"] = {
-								["Cleave"] = {
-									["count"] = 3.36,
-								},
-								["Melee"] = {
-									["count"] = 0.58,
-								},
-								["Intercept"] = {
-									["count"] = 7,
-								},
-							},
-							["amount"] = 10.94,
-						},
-						["Spectral Tutor"] = {
-							["Details"] = {
-								["Intercept"] = {
-									["count"] = 3.5,
-								},
-								["Melee"] = {
-									["count"] = 8.01,
-								},
-								["Cleave"] = {
-									["count"] = 2.15,
-								},
-							},
-							["amount"] = 13.66,
-						},
-						["Risen Construct"] = {
-							["Details"] = {
-								["Cleave"] = {
-									["count"] = 3.32,
-								},
-								["Melee"] = {
-									["count"] = 11.8,
-								},
-								["Intercept"] = {
-									["count"] = 7,
-								},
-							},
-							["amount"] = 22.12,
-						},
-						["Scholomance Adept"] = {
-							["Details"] = {
-								["Intercept"] = {
-									["count"] = 7,
-								},
-								["Melee"] = {
-									["count"] = 7.8,
-								},
-								["Cleave"] = {
-									["count"] = 2.1,
-								},
-							},
-							["amount"] = 16.9,
-						},
 						["Scholomance Necrolyte"] = {
 							["Details"] = {
-								["Cleave"] = {
-									["count"] = 4.61,
+								["Intercept"] = {
+									["count"] = 10.5,
 								},
 								["Melee"] = {
 									["count"] = 6.45,
 								},
-								["Intercept"] = {
-									["count"] = 10.5,
+								["Cleave"] = {
+									["count"] = 4.61,
 								},
 							},
 							["amount"] = 21.56,
@@ -7601,7 +1283,7 @@ RecountPerCharDB = {
 							["count"] = 3,
 							["amount"] = 0,
 						},
-						["Wandering Plague"] = {
+						["Silence"] = {
 							["Details"] = {
 								["No Resist"] = {
 									["max"] = 0,
@@ -7661,7 +1343,7 @@ RecountPerCharDB = {
 							["count"] = 3,
 							["amount"] = 0,
 						},
-						["Silence"] = {
+						["Wandering Plague"] = {
 							["Details"] = {
 								["No Resist"] = {
 									["max"] = 0,
@@ -7843,7 +1525,7 @@ RecountPerCharDB = {
 							["count"] = 3,
 							["amount"] = 0,
 						},
-						["Wandering Plague"] = {
+						["Silence"] = {
 							["Details"] = {
 								["No Absorb"] = {
 									["max"] = 0,
@@ -7903,7 +1585,7 @@ RecountPerCharDB = {
 							["count"] = 3,
 							["amount"] = 0,
 						},
-						["Silence"] = {
+						["Wandering Plague"] = {
 							["Details"] = {
 								["No Absorb"] = {
 									["max"] = 0,
@@ -7923,17 +1605,143 @@ RecountPerCharDB = {
 						["Nature"] = 3603,
 					},
 					["Damage"] = 424254,
-					["WhoHealed"] = {
-						["Denathra"] = {
+					["ElementHitsDone"] = {
+						["Melee"] = {
 							["Details"] = {
-								["Fel Synergy"] = {
-									["count"] = 19144,
+								["Crit"] = {
+									["count"] = 41,
+								},
+								["Hit"] = {
+									["count"] = 104,
 								},
 							},
-							["amount"] = 19144,
+							["amount"] = 145,
+						},
+						["Physical"] = {
+							["Details"] = {
+								["Crit"] = {
+									["count"] = 40,
+								},
+								["Hit"] = {
+									["count"] = 92,
+								},
+							},
+							["amount"] = 132,
+						},
+					},
+					["ElementHitsTaken"] = {
+						["Shadow"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 25,
+								},
+								["Immune"] = {
+									["count"] = 2,
+								},
+							},
+							["amount"] = 27,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Dodge"] = {
+									["count"] = 12,
+								},
+								["Hit"] = {
+									["count"] = 167,
+								},
+								["Miss"] = {
+									["count"] = 154,
+								},
+								["Parry"] = {
+									["count"] = 8,
+								},
+							},
+							["amount"] = 341,
+						},
+						["Arcane"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 1,
+						},
+						["Physical"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 2,
+								},
+							},
+							["amount"] = 2,
+						},
+						["Fire"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 3,
+								},
+							},
+							["amount"] = 3,
+						},
+						["Frost"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 9,
+								},
+							},
+							["amount"] = 9,
+						},
+						["Nature"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 66,
+								},
+								["Tick"] = {
+									["count"] = 176,
+								},
+								["Hit"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 243,
 						},
 					},
 					["Attacks"] = {
+						["Intercept"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 751,
+									["min"] = 729,
+									["count"] = 3,
+									["amount"] = 2218,
+								},
+								["Hit"] = {
+									["max"] = 623,
+									["min"] = 419,
+									["count"] = 21,
+									["amount"] = 10260,
+								},
+							},
+							["count"] = 24,
+							["amount"] = 12478,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 2960,
+									["min"] = 1742,
+									["count"] = 41,
+									["amount"] = 101148,
+								},
+								["Hit"] = {
+									["max"] = 1726,
+									["min"] = 712,
+									["count"] = 104,
+									["amount"] = 124870,
+								},
+							},
+							["count"] = 145,
+							["amount"] = 226018,
+						},
 						["Cleave"] = {
 							["Details"] = {
 								["Crit (Blocked)"] = {
@@ -7964,46 +1772,6 @@ RecountPerCharDB = {
 							["count"] = 108,
 							["amount"] = 185758,
 						},
-						["Melee"] = {
-							["Details"] = {
-								["Crit"] = {
-									["max"] = 2960,
-									["min"] = 1742,
-									["count"] = 41,
-									["amount"] = 101148,
-								},
-								["Hit"] = {
-									["max"] = 1726,
-									["min"] = 712,
-									["count"] = 104,
-									["amount"] = 124870,
-								},
-							},
-							["count"] = 145,
-							["amount"] = 226018,
-						},
-						["Intercept"] = {
-							["Details"] = {
-								["Crit"] = {
-									["max"] = 751,
-									["min"] = 729,
-									["count"] = 3,
-									["amount"] = 2218,
-								},
-								["Hit"] = {
-									["max"] = 623,
-									["min"] = 419,
-									["count"] = 21,
-									["amount"] = 10260,
-								},
-							},
-							["count"] = 24,
-							["amount"] = 12478,
-						},
-					},
-					["ElementDone"] = {
-						["Melee"] = 226018,
-						["Physical"] = 198236,
 					},
 					["HealingTaken"] = 19144,
 					["DamagedWho"] = {
@@ -8017,70 +1785,70 @@ RecountPerCharDB = {
 						},
 						["Scholomance Neophyte"] = {
 							["Details"] = {
-								["Cleave"] = {
-									["count"] = 10947,
+								["Intercept"] = {
+									["count"] = 504,
 								},
 								["Melee"] = {
 									["count"] = 9152,
 								},
-								["Intercept"] = {
-									["count"] = 504,
+								["Cleave"] = {
+									["count"] = 10947,
 								},
 							},
 							["amount"] = 20603,
 						},
 						["Diseased Ghoul"] = {
 							["Details"] = {
-								["Cleave"] = {
-									["count"] = 6909,
+								["Intercept"] = {
+									["count"] = 485,
 								},
 								["Melee"] = {
 									["count"] = 28841,
 								},
-								["Intercept"] = {
-									["count"] = 485,
+								["Cleave"] = {
+									["count"] = 6909,
 								},
 							},
 							["amount"] = 36235,
 						},
 						["Risen Aberration"] = {
 							["Details"] = {
-								["Intercept"] = {
-									["count"] = 1925,
+								["Cleave"] = {
+									["count"] = 72075,
 								},
 								["Melee"] = {
 									["count"] = 66973,
 								},
-								["Cleave"] = {
-									["count"] = 72075,
+								["Intercept"] = {
+									["count"] = 1925,
 								},
 							},
 							["amount"] = 140973,
 						},
 						["Risen Protector"] = {
 							["Details"] = {
-								["Cleave"] = {
-									["count"] = 5137,
+								["Intercept"] = {
+									["count"] = 878,
 								},
 								["Melee"] = {
 									["count"] = 3895,
 								},
-								["Intercept"] = {
-									["count"] = 878,
+								["Cleave"] = {
+									["count"] = 5137,
 								},
 							},
 							["amount"] = 9910,
 						},
 						["Spectral Researcher"] = {
 							["Details"] = {
-								["Intercept"] = {
-									["count"] = 945,
+								["Cleave"] = {
+									["count"] = 6870,
 								},
 								["Melee"] = {
 									["count"] = 2048,
 								},
-								["Cleave"] = {
-									["count"] = 6870,
+								["Intercept"] = {
+									["count"] = 945,
 								},
 							},
 							["amount"] = 9863,
@@ -8098,14 +1866,14 @@ RecountPerCharDB = {
 						},
 						["Scholomance Acolyte"] = {
 							["Details"] = {
-								["Intercept"] = {
-									["count"] = 1006,
+								["Cleave"] = {
+									["count"] = 8830,
 								},
 								["Melee"] = {
 									["count"] = 10022,
 								},
-								["Cleave"] = {
-									["count"] = 8830,
+								["Intercept"] = {
+									["count"] = 1006,
 								},
 							},
 							["amount"] = 19858,
@@ -8132,33 +1900,33 @@ RecountPerCharDB = {
 							},
 							["amount"] = 43563,
 						},
-						["Risen Guard"] = {
-							["Details"] = {
-								["Cleave"] = {
-									["count"] = 1890,
-								},
-								["Melee"] = {
-									["count"] = 1745,
-								},
-								["Intercept"] = {
-									["count"] = 419,
-								},
-							},
-							["amount"] = 4054,
-						},
 						["Scholomance Handler"] = {
 							["Details"] = {
-								["Intercept"] = {
-									["count"] = 506,
+								["Cleave"] = {
+									["count"] = 6139,
 								},
 								["Melee"] = {
 									["count"] = 8158,
 								},
-								["Cleave"] = {
-									["count"] = 6139,
+								["Intercept"] = {
+									["count"] = 506,
 								},
 							},
 							["amount"] = 14803,
+						},
+						["Scholomance Adept"] = {
+							["Details"] = {
+								["Cleave"] = {
+									["count"] = 5005,
+								},
+								["Melee"] = {
+									["count"] = 5362,
+								},
+								["Intercept"] = {
+									["count"] = 1251,
+								},
+							},
+							["amount"] = 11618,
 						},
 						["Reanimated Corpse"] = {
 							["Details"] = {
@@ -8171,6 +1939,73 @@ RecountPerCharDB = {
 							},
 							["amount"] = 27518,
 						},
+						["Scholomance Dark Summoner"] = {
+							["Details"] = {
+								["Cleave"] = {
+									["count"] = 4540,
+								},
+								["Intercept"] = {
+									["count"] = 506,
+								},
+							},
+							["amount"] = 5046,
+						},
+						["Spectral Tutor"] = {
+							["Details"] = {
+								["Cleave"] = {
+									["count"] = 7533,
+								},
+								["Melee"] = {
+									["count"] = 4919,
+								},
+								["Intercept"] = {
+									["count"] = 502,
+								},
+							},
+							["amount"] = 12954,
+						},
+						["Necrofiend"] = {
+							["Details"] = {
+								["Intercept"] = {
+									["count"] = 934,
+								},
+								["Melee"] = {
+									["count"] = 3049,
+								},
+								["Cleave"] = {
+									["count"] = 3362,
+								},
+							},
+							["amount"] = 7345,
+						},
+						["Risen Guard"] = {
+							["Details"] = {
+								["Intercept"] = {
+									["count"] = 419,
+								},
+								["Melee"] = {
+									["count"] = 1745,
+								},
+								["Cleave"] = {
+									["count"] = 1890,
+								},
+							},
+							["amount"] = 4054,
+						},
+						["Risen Construct"] = {
+							["Details"] = {
+								["Intercept"] = {
+									["count"] = 959,
+								},
+								["Melee"] = {
+									["count"] = 9097,
+								},
+								["Cleave"] = {
+									["count"] = 5021,
+								},
+							},
+							["amount"] = 15077,
+						},
 						["Spectral Projection"] = {
 							["Details"] = {
 								["Melee"] = {
@@ -8182,83 +2017,16 @@ RecountPerCharDB = {
 							},
 							["amount"] = 9447,
 						},
-						["Scholomance Dark Summoner"] = {
-							["Details"] = {
-								["Intercept"] = {
-									["count"] = 506,
-								},
-								["Cleave"] = {
-									["count"] = 4540,
-								},
-							},
-							["amount"] = 5046,
-						},
-						["Necrofiend"] = {
-							["Details"] = {
-								["Cleave"] = {
-									["count"] = 3362,
-								},
-								["Melee"] = {
-									["count"] = 3049,
-								},
-								["Intercept"] = {
-									["count"] = 934,
-								},
-							},
-							["amount"] = 7345,
-						},
-						["Spectral Tutor"] = {
-							["Details"] = {
-								["Intercept"] = {
-									["count"] = 502,
-								},
-								["Melee"] = {
-									["count"] = 4919,
-								},
-								["Cleave"] = {
-									["count"] = 7533,
-								},
-							},
-							["amount"] = 12954,
-						},
-						["Risen Construct"] = {
-							["Details"] = {
-								["Cleave"] = {
-									["count"] = 5021,
-								},
-								["Melee"] = {
-									["count"] = 9097,
-								},
-								["Intercept"] = {
-									["count"] = 959,
-								},
-							},
-							["amount"] = 15077,
-						},
-						["Scholomance Adept"] = {
-							["Details"] = {
-								["Intercept"] = {
-									["count"] = 1251,
-								},
-								["Melee"] = {
-									["count"] = 5362,
-								},
-								["Cleave"] = {
-									["count"] = 5005,
-								},
-							},
-							["amount"] = 11618,
-						},
 						["Scholomance Necrolyte"] = {
 							["Details"] = {
-								["Cleave"] = {
-									["count"] = 4677,
+								["Intercept"] = {
+									["count"] = 1658,
 								},
 								["Melee"] = {
 									["count"] = 8328,
 								},
-								["Intercept"] = {
-									["count"] = 1658,
+								["Cleave"] = {
+									["count"] = 4677,
 								},
 							},
 							["amount"] = 14663,
@@ -8276,70 +2044,70 @@ RecountPerCharDB = {
 						},
 						["Scholomance Neophyte"] = {
 							["Details"] = {
-								["Cleave"] = {
-									["count"] = 1.84,
+								["Intercept"] = {
+									["count"] = 3.5,
 								},
 								["Melee"] = {
 									["count"] = 12.12,
 								},
-								["Intercept"] = {
-									["count"] = 3.5,
+								["Cleave"] = {
+									["count"] = 1.84,
 								},
 							},
 							["amount"] = 17.46,
 						},
 						["Diseased Ghoul"] = {
 							["Details"] = {
-								["Cleave"] = {
-									["count"] = 2.59,
+								["Intercept"] = {
+									["count"] = 2.19,
 								},
 								["Melee"] = {
 									["count"] = 30.33,
 								},
-								["Intercept"] = {
-									["count"] = 2.19,
+								["Cleave"] = {
+									["count"] = 2.59,
 								},
 							},
 							["amount"] = 35.10999999999999,
 						},
 						["Risen Aberration"] = {
 							["Details"] = {
-								["Intercept"] = {
-									["count"] = 7.62,
+								["Cleave"] = {
+									["count"] = 14.75,
 								},
 								["Melee"] = {
 									["count"] = 90.26999999999998,
 								},
-								["Cleave"] = {
-									["count"] = 14.75,
+								["Intercept"] = {
+									["count"] = 7.62,
 								},
 							},
 							["amount"] = 112.64,
 						},
 						["Risen Protector"] = {
 							["Details"] = {
-								["Cleave"] = {
-									["count"] = 3.44,
+								["Intercept"] = {
+									["count"] = 7,
 								},
 								["Melee"] = {
 									["count"] = 3.83,
 								},
-								["Intercept"] = {
-									["count"] = 7,
+								["Cleave"] = {
+									["count"] = 3.44,
 								},
 							},
 							["amount"] = 14.27,
 						},
 						["Spectral Researcher"] = {
 							["Details"] = {
-								["Intercept"] = {
-									["count"] = 7,
+								["Cleave"] = {
+									["count"] = 3.24,
 								},
 								["Melee"] = {
 									["count"] = 0.89,
 								},
-								["Cleave"] = {
-									["count"] = 3.24,
+								["Intercept"] = {
+									["count"] = 7,
 								},
 							},
 							["amount"] = 11.13,
@@ -8357,14 +2125,14 @@ RecountPerCharDB = {
 						},
 						["Scholomance Acolyte"] = {
 							["Details"] = {
-								["Intercept"] = {
-									["count"] = 7,
+								["Cleave"] = {
+									["count"] = 4.19,
 								},
 								["Melee"] = {
 									["count"] = 21.74,
 								},
-								["Cleave"] = {
-									["count"] = 4.19,
+								["Intercept"] = {
+									["count"] = 7,
 								},
 							},
 							["amount"] = 32.93000000000001,
@@ -8391,33 +2159,33 @@ RecountPerCharDB = {
 							},
 							["amount"] = 29.45,
 						},
-						["Risen Guard"] = {
-							["Details"] = {
-								["Cleave"] = {
-									["count"] = 1.55,
-								},
-								["Melee"] = {
-									["count"] = 4.2,
-								},
-								["Intercept"] = {
-									["count"] = 3.5,
-								},
-							},
-							["amount"] = 9.25,
-						},
 						["Scholomance Handler"] = {
 							["Details"] = {
-								["Intercept"] = {
-									["count"] = 3.5,
+								["Cleave"] = {
+									["count"] = 2.94,
 								},
 								["Melee"] = {
 									["count"] = 9.379999999999999,
 								},
-								["Cleave"] = {
-									["count"] = 2.94,
+								["Intercept"] = {
+									["count"] = 3.5,
 								},
 							},
 							["amount"] = 15.82,
+						},
+						["Scholomance Adept"] = {
+							["Details"] = {
+								["Cleave"] = {
+									["count"] = 2.1,
+								},
+								["Melee"] = {
+									["count"] = 7.8,
+								},
+								["Intercept"] = {
+									["count"] = 7,
+								},
+							},
+							["amount"] = 16.9,
 						},
 						["Reanimated Corpse"] = {
 							["Details"] = {
@@ -8430,6 +2198,73 @@ RecountPerCharDB = {
 							},
 							["amount"] = 22.35,
 						},
+						["Scholomance Dark Summoner"] = {
+							["Details"] = {
+								["Cleave"] = {
+									["count"] = 1.71,
+								},
+								["Intercept"] = {
+									["count"] = 3.5,
+								},
+							},
+							["amount"] = 5.21,
+						},
+						["Spectral Tutor"] = {
+							["Details"] = {
+								["Cleave"] = {
+									["count"] = 2.15,
+								},
+								["Melee"] = {
+									["count"] = 8.01,
+								},
+								["Intercept"] = {
+									["count"] = 3.5,
+								},
+							},
+							["amount"] = 13.66,
+						},
+						["Necrofiend"] = {
+							["Details"] = {
+								["Intercept"] = {
+									["count"] = 7,
+								},
+								["Melee"] = {
+									["count"] = 0.58,
+								},
+								["Cleave"] = {
+									["count"] = 3.36,
+								},
+							},
+							["amount"] = 10.94,
+						},
+						["Risen Guard"] = {
+							["Details"] = {
+								["Intercept"] = {
+									["count"] = 3.5,
+								},
+								["Melee"] = {
+									["count"] = 4.2,
+								},
+								["Cleave"] = {
+									["count"] = 1.55,
+								},
+							},
+							["amount"] = 9.25,
+						},
+						["Risen Construct"] = {
+							["Details"] = {
+								["Intercept"] = {
+									["count"] = 7,
+								},
+								["Melee"] = {
+									["count"] = 11.8,
+								},
+								["Cleave"] = {
+									["count"] = 3.32,
+								},
+							},
+							["amount"] = 22.12,
+						},
 						["Spectral Projection"] = {
 							["Details"] = {
 								["Melee"] = {
@@ -8441,83 +2276,16 @@ RecountPerCharDB = {
 							},
 							["amount"] = 6.28,
 						},
-						["Scholomance Dark Summoner"] = {
-							["Details"] = {
-								["Intercept"] = {
-									["count"] = 3.5,
-								},
-								["Cleave"] = {
-									["count"] = 1.71,
-								},
-							},
-							["amount"] = 5.21,
-						},
-						["Necrofiend"] = {
-							["Details"] = {
-								["Cleave"] = {
-									["count"] = 3.36,
-								},
-								["Melee"] = {
-									["count"] = 0.58,
-								},
-								["Intercept"] = {
-									["count"] = 7,
-								},
-							},
-							["amount"] = 10.94,
-						},
-						["Spectral Tutor"] = {
-							["Details"] = {
-								["Intercept"] = {
-									["count"] = 3.5,
-								},
-								["Melee"] = {
-									["count"] = 8.01,
-								},
-								["Cleave"] = {
-									["count"] = 2.15,
-								},
-							},
-							["amount"] = 13.66,
-						},
-						["Risen Construct"] = {
-							["Details"] = {
-								["Cleave"] = {
-									["count"] = 3.32,
-								},
-								["Melee"] = {
-									["count"] = 11.8,
-								},
-								["Intercept"] = {
-									["count"] = 7,
-								},
-							},
-							["amount"] = 22.12,
-						},
-						["Scholomance Adept"] = {
-							["Details"] = {
-								["Intercept"] = {
-									["count"] = 7,
-								},
-								["Melee"] = {
-									["count"] = 7.8,
-								},
-								["Cleave"] = {
-									["count"] = 2.1,
-								},
-							},
-							["amount"] = 16.9,
-						},
 						["Scholomance Necrolyte"] = {
 							["Details"] = {
-								["Cleave"] = {
-									["count"] = 4.61,
+								["Intercept"] = {
+									["count"] = 10.5,
 								},
 								["Melee"] = {
 									["count"] = 6.45,
 								},
-								["Intercept"] = {
-									["count"] = 10.5,
+								["Cleave"] = {
+									["count"] = 4.61,
 								},
 							},
 							["amount"] = 21.56,
@@ -8542,11 +2310,11 @@ RecountPerCharDB = {
 						},
 						["Diseased Ghoul"] = {
 							["Details"] = {
-								["Melee"] = {
-									["count"] = 1959,
-								},
 								["Cloud of Disease (DoT)"] = {
 									["count"] = 3599,
+								},
+								["Melee"] = {
+									["count"] = 1959,
 								},
 								["Disease Cloud"] = {
 									["count"] = 4,
@@ -8621,37 +2389,13 @@ RecountPerCharDB = {
 							},
 							["amount"] = 171,
 						},
-						["Spectral Tutor"] = {
+						["Frail Skeleton"] = {
 							["Details"] = {
 								["Melee"] = {
-									["count"] = 216,
+									["count"] = 1,
 								},
 							},
-							["amount"] = 216,
-						},
-						["Scholomance Handler"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 922,
-								},
-							},
-							["amount"] = 922,
-						},
-						["Risen Guard"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 104,
-								},
-							},
-							["amount"] = 104,
-						},
-						["Risen Construct"] = {
-							["Details"] = {
-								["Arcing Smash"] = {
-									["count"] = 28,
-								},
-							},
-							["amount"] = 28,
+							["amount"] = 1,
 						},
 						["Scholomance Adept"] = {
 							["Details"] = {
@@ -8661,119 +2405,6375 @@ RecountPerCharDB = {
 							},
 							["amount"] = 106,
 						},
-						["Frail Skeleton"] = {
+						["Spectral Tutor"] = {
 							["Details"] = {
 								["Melee"] = {
-									["count"] = 1,
+									["count"] = 216,
 								},
 							},
-							["amount"] = 1,
+							["amount"] = 216,
 						},
+						["Risen Construct"] = {
+							["Details"] = {
+								["Arcing Smash"] = {
+									["count"] = 28,
+								},
+							},
+							["amount"] = 28,
+						},
+						["Risen Guard"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 104,
+								},
+							},
+							["amount"] = 104,
+						},
+						["Scholomance Handler"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 922,
+								},
+							},
+							["amount"] = 922,
+						},
+					},
+					["ElementDone"] = {
+						["Melee"] = 226018,
+						["Physical"] = 198236,
+					},
+					["WhoHealed"] = {
+						["Denathra"] = {
+							["Details"] = {
+								["Fel Synergy"] = {
+									["count"] = 19144,
+								},
+							},
+							["amount"] = 19144,
+						},
+					},
+				},
+				["Fight5"] = {
+					["DOTs"] = {
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 0,
+					["RageGainedFrom"] = {
 					},
 					["ElementHitsTaken"] = {
 						["Shadow"] = {
 							["Details"] = {
+								["Miss"] = {
+									["count"] = 0,
+								},
 								["Immune"] = {
-									["count"] = 2,
-								},
-								["Miss"] = {
-									["count"] = 25,
+									["count"] = 0,
 								},
 							},
-							["amount"] = 27,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["Parry"] = {
-									["count"] = 8,
-								},
-								["Miss"] = {
-									["count"] = 154,
-								},
-								["Hit"] = {
-									["count"] = 167,
-								},
-								["Dodge"] = {
-									["count"] = 12,
-								},
-							},
-							["amount"] = 341,
-						},
-						["Arcane"] = {
-							["Details"] = {
-								["Miss"] = {
-									["count"] = 1,
-								},
-							},
-							["amount"] = 1,
-						},
-						["Physical"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 2,
-								},
-							},
-							["amount"] = 2,
-						},
-						["Fire"] = {
-							["Details"] = {
-								["Miss"] = {
-									["count"] = 3,
-								},
-							},
-							["amount"] = 3,
+							["amount"] = 0,
 						},
 						["Frost"] = {
 							["Details"] = {
 								["Miss"] = {
-									["count"] = 9,
+									["count"] = 0,
 								},
 							},
-							["amount"] = 9,
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 0,
+								},
+								["Miss"] = {
+									["count"] = 0,
+								},
+								["Dodge"] = {
+									["count"] = 0,
+								},
+								["Parry"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
 						},
 						["Nature"] = {
 							["Details"] = {
-								["Hit"] = {
-									["count"] = 1,
+								["Miss"] = {
+									["count"] = 0,
 								},
 								["Tick"] = {
-									["count"] = 176,
+									["count"] = 0,
 								},
-								["Miss"] = {
-									["count"] = 66,
+								["Hit"] = {
+									["count"] = 0,
 								},
 							},
-							["amount"] = 243,
+							["amount"] = 0,
 						},
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["HOTs"] = {
+					},
+					["ManaGain"] = 0,
+					["ElementTaken"] = {
+						["Melee"] = 0,
+						["Nature"] = 0,
+					},
+					["DOT_Time"] = 0,
+					["Damage"] = 0,
+					["ElementDoneAbsorb"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["PartialAbsorb"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Mana Burn"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Drain Life"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Cloud of Disease (DoT)"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Shadow Bolt"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Wail of Souls"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Mind Flay"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Frostbolt"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Disease Cloud"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Wandering Plague"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["RageGain"] = 0,
+					["FAttacks"] = {
+					},
+					["PartialBlock"] = {
+					},
+					["ElementDone"] = {
+						["Melee"] = 0,
+						["Physical"] = 0,
+					},
+					["CCBroken"] = {
 					},
 					["ElementHitsDone"] = {
 						["Melee"] = {
 							["Details"] = {
 								["Crit"] = {
-									["count"] = 41,
+									["count"] = 0,
 								},
 								["Hit"] = {
-									["count"] = 104,
+									["count"] = 0,
 								},
 							},
-							["amount"] = 145,
+							["amount"] = 0,
 						},
 						["Physical"] = {
 							["Details"] = {
 								["Crit"] = {
-									["count"] = 40,
+									["count"] = 0,
 								},
 								["Hit"] = {
-									["count"] = 92,
+									["count"] = 0,
 								},
 							},
-							["amount"] = 132,
+							["amount"] = 0,
+						},
+					},
+					["Dispelled"] = 0,
+					["WhoDamaged"] = {
+						["Risen Aberration"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Reanimated Corpse"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Scholomance Necromancer"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Plagued Hatchling"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Spectral Researcher"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Scholomance Neophyte"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Jandice Barov"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Diseased Ghoul"] = {
+							["Details"] = {
+								["Cloud of Disease (DoT)"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Disease Cloud"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["FDamagedWho"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDoneBlock"] = {
+						["Physical"] = 0,
+					},
+					["TimeHealing"] = {
+					},
+					["OverHeals"] = {
+					},
+					["RageGained"] = {
+					},
+					["ActiveTime"] = 0,
+					["CCBreak"] = 0,
+					["EnergyGain"] = 0,
+					["WhoHealed"] = {
+						["Denathra"] = {
+							["Details"] = {
+								["Fel Synergy"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["PartialResist"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Mana Burn"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Drain Life"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Cloud of Disease (DoT)"] = {
+							["Details"] = {
+								["50%Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["25%Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Shadow Bolt"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Wail of Souls"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Mind Flay"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Frostbolt"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Disease Cloud"] = {
+							["Details"] = {
+								["50%Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Wandering Plague"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["ManaGained"] = {
+					},
+					["ElementTakenAbsorb"] = {
+					},
+					["Interrupts"] = 0,
+					["Overhealing"] = 0,
+					["ElementTakenResist"] = {
+						["Nature"] = 0,
+					},
+					["InterruptData"] = {
+					},
+					["WhoDispelled"] = {
+					},
+					["TimeSpent"] = {
+						["Scholomance Acolyte"] = {
+							["Details"] = {
+								["Cleave"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Intercept"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Scholomance Necromancer"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Cleave"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Plagued Hatchling"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Cleave"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Scholomance Neophyte"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Cleave"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Diseased Ghoul"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Cleave"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Risen Aberration"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Cleave"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Jandice Barov"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Cleave"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Spectral Researcher"] = {
+							["Details"] = {
+								["Intercept"] = {
+									["count"] = 0,
+								},
+								["Cleave"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Reanimated Corpse"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Scholomance Handler"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Cleave"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Spectral Tutor"] = {
+							["Details"] = {
+								["Intercept"] = {
+									["count"] = 0,
+								},
+								["Cleave"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["Heals"] = {
+					},
+					["FDamage"] = 0,
+					["EnergyGained"] = {
+					},
+					["HealedWho"] = {
+					},
+					["Healing"] = 0,
+					["RunicPowerGained"] = {
+					},
+					["ManaGainedFrom"] = {
+					},
+					["Attacks"] = {
+						["Cleave"] = {
+							["Details"] = {
+								["Hit (Blocked)"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Intercept"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["HealingTaken"] = 0,
+					["DamagedWho"] = {
+						["Scholomance Acolyte"] = {
+							["Details"] = {
+								["Cleave"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Intercept"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Scholomance Necromancer"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Cleave"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Plagued Hatchling"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Cleave"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Scholomance Neophyte"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Cleave"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Diseased Ghoul"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Cleave"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Risen Aberration"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Cleave"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Jandice Barov"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Cleave"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Spectral Researcher"] = {
+							["Details"] = {
+								["Intercept"] = {
+									["count"] = 0,
+								},
+								["Cleave"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Reanimated Corpse"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Scholomance Handler"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Cleave"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Spectral Tutor"] = {
+							["Details"] = {
+								["Intercept"] = {
+									["count"] = 0,
+								},
+								["Cleave"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["TimeDamage"] = 0,
+					["TimeDamaging"] = {
+						["Scholomance Acolyte"] = {
+							["Details"] = {
+								["Cleave"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Intercept"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Scholomance Necromancer"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Cleave"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Plagued Hatchling"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Cleave"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Scholomance Neophyte"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Cleave"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Diseased Ghoul"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Cleave"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Risen Aberration"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Cleave"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Jandice Barov"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Cleave"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Spectral Researcher"] = {
+							["Details"] = {
+								["Intercept"] = {
+									["count"] = 0,
+								},
+								["Cleave"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Reanimated Corpse"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Scholomance Handler"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Cleave"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Spectral Tutor"] = {
+							["Details"] = {
+								["Intercept"] = {
+									["count"] = 0,
+								},
+								["Cleave"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["RunicPowerGain"] = 0,
+					["ElementTakenBlock"] = {
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["CurrentFightData"] = {
+					["DOTs"] = {
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 0,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+						["Shadow"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 0,
+								},
+								["Miss"] = {
+									["count"] = 0,
+								},
+								["Dodge"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Fire"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Frost"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Nature"] = {
+							["Details"] = {
+								["Tick"] = {
+									["count"] = 0,
+								},
+								["Miss"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["HOTs"] = {
+					},
+					["ManaGain"] = 0,
+					["ElementTaken"] = {
+						["Melee"] = 0,
+						["Nature"] = 0,
+					},
+					["DOT_Time"] = 0,
+					["Damage"] = 0,
+					["ElementDoneAbsorb"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["PartialAbsorb"] = {
+						["Shadow Bolt"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Cloud of Disease (DoT)"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Blast Wave"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Shadow Shock"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Diseased Spit"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Cone of Cold"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Disease Cloud"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["RageGain"] = 0,
+					["FAttacks"] = {
+					},
+					["PartialBlock"] = {
+					},
+					["ElementDone"] = {
+						["Melee"] = 0,
+						["Physical"] = 0,
+					},
+					["CCBroken"] = {
+					},
+					["ElementHitsDone"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Crit"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Physical"] = {
+							["Details"] = {
+								["Crit"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["Dispelled"] = 0,
+					["WhoDamaged"] = {
+						["Scholomance Acolyte"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Plagued Hatchling"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Scholomance Neophyte"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Diseased Ghoul"] = {
+							["Details"] = {
+								["Cloud of Disease (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Risen Aberration"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Risen Guard"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Scholomance Dark Summoner"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Scholomance Handler"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Frail Skeleton"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["FDamagedWho"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDoneBlock"] = {
+						["Physical"] = 0,
+					},
+					["TimeHealing"] = {
+					},
+					["OverHeals"] = {
+					},
+					["RageGained"] = {
+					},
+					["ActiveTime"] = 0,
+					["CCBreak"] = 0,
+					["EnergyGain"] = 0,
+					["WhoHealed"] = {
+						["Denathra"] = {
+							["Details"] = {
+								["Fel Synergy"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["PartialResist"] = {
+						["Shadow Bolt"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Cloud of Disease (DoT)"] = {
+							["Details"] = {
+								["50%Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Blast Wave"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Shadow Shock"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Diseased Spit"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Cone of Cold"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Disease Cloud"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["ManaGained"] = {
+					},
+					["ElementTakenAbsorb"] = {
+					},
+					["Interrupts"] = 0,
+					["Overhealing"] = 0,
+					["ElementTakenResist"] = {
+						["Nature"] = 0,
+					},
+					["InterruptData"] = {
+					},
+					["WhoDispelled"] = {
+					},
+					["TimeSpent"] = {
+						["Scholomance Acolyte"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Cleave"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Scholomance Necromancer"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Cleave"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Plagued Hatchling"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Cleave"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Scholomance Neophyte"] = {
+							["Details"] = {
+								["Cleave"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Risen Aberration"] = {
+							["Details"] = {
+								["Intercept"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Cleave"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Risen Protector"] = {
+							["Details"] = {
+								["Intercept"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Cleave"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Risen Guard"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Spectral Tutor"] = {
+							["Details"] = {
+								["Cleave"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Scholomance Dark Summoner"] = {
+							["Details"] = {
+								["Cleave"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Scholomance Handler"] = {
+							["Details"] = {
+								["Intercept"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Cleave"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Reanimated Corpse"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["Heals"] = {
+					},
+					["FDamage"] = 0,
+					["EnergyGained"] = {
+					},
+					["HealedWho"] = {
+					},
+					["Healing"] = 0,
+					["RunicPowerGained"] = {
+					},
+					["ManaGainedFrom"] = {
+					},
+					["Attacks"] = {
+						["Cleave"] = {
+							["Details"] = {
+								["Crit (Blocked)"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit (Blocked)"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Intercept"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["HealingTaken"] = 0,
+					["DamagedWho"] = {
+						["Scholomance Acolyte"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Cleave"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Scholomance Necromancer"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Cleave"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Plagued Hatchling"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Cleave"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Scholomance Neophyte"] = {
+							["Details"] = {
+								["Cleave"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Risen Aberration"] = {
+							["Details"] = {
+								["Intercept"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Cleave"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Risen Protector"] = {
+							["Details"] = {
+								["Intercept"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Cleave"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Risen Guard"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Spectral Tutor"] = {
+							["Details"] = {
+								["Cleave"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Scholomance Dark Summoner"] = {
+							["Details"] = {
+								["Cleave"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Scholomance Handler"] = {
+							["Details"] = {
+								["Intercept"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Cleave"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Reanimated Corpse"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["TimeDamage"] = 0,
+					["TimeDamaging"] = {
+						["Scholomance Acolyte"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Cleave"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Scholomance Necromancer"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Cleave"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Plagued Hatchling"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Cleave"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Scholomance Neophyte"] = {
+							["Details"] = {
+								["Cleave"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Risen Aberration"] = {
+							["Details"] = {
+								["Intercept"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Cleave"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Risen Protector"] = {
+							["Details"] = {
+								["Intercept"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Cleave"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Risen Guard"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Spectral Tutor"] = {
+							["Details"] = {
+								["Cleave"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Scholomance Dark Summoner"] = {
+							["Details"] = {
+								["Cleave"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Scholomance Handler"] = {
+							["Details"] = {
+								["Intercept"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Cleave"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Reanimated Corpse"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["RunicPowerGain"] = 0,
+					["ElementTakenBlock"] = {
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["Fight1"] = {
+					["TimeSpent"] = {
+						["Scholomance Adept"] = {
+							["Details"] = {
+								["Intercept"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Cleave"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Plagued Hatchling"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Cleave"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Scholomance Acolyte"] = {
+							["Details"] = {
+								["Intercept"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Cleave"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Scholomance Neophyte"] = {
+							["Details"] = {
+								["Intercept"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Cleave"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Diseased Ghoul"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Cleave"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Reanimated Corpse"] = {
+							["Details"] = {
+								["Cleave"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Risen Aberration"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Cleave"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Risen Protector"] = {
+							["Details"] = {
+								["Intercept"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Cleave"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Necrofiend"] = {
+							["Details"] = {
+								["Intercept"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Cleave"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Spectral Researcher"] = {
+							["Details"] = {
+								["Intercept"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Cleave"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Risen Construct"] = {
+							["Details"] = {
+								["Intercept"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Cleave"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Scholomance Handler"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Cleave"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Scholomance Necrolyte"] = {
+							["Details"] = {
+								["Intercept"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Cleave"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["DamageTaken"] = 0,
+					["ElementTakenResist"] = {
+						["Nature"] = 0,
+					},
+					["PartialResist"] = {
+						["Arcane Blast"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Mana Burn"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Diseased Spit"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Frostbolt"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Cloud of Disease (DoT)"] = {
+							["Details"] = {
+								["50%Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["25%Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Disease Cloud"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Wail of Souls"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Blast Wave"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Shadow Shock"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Cone of Cold"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Shadow Bolt"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["PartialAbsorb"] = {
+						["Arcane Blast"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Mana Burn"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Diseased Spit"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Frostbolt"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Cloud of Disease (DoT)"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Disease Cloud"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Wail of Souls"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Blast Wave"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Shadow Shock"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Cone of Cold"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Shadow Bolt"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["ActiveTime"] = 0,
+					["ElementTaken"] = {
+						["Melee"] = 0,
+						["Nature"] = 0,
+					},
+					["Damage"] = 0,
+					["ElementHitsTaken"] = {
+						["Shadow"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Dodge"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 0,
+								},
+								["Miss"] = {
+									["count"] = 0,
+								},
+								["Parry"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Arcane"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Fire"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Frost"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Nature"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 0,
+								},
+								["Tick"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["WhoDamaged"] = {
+						["Scholomance Adept"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Plagued Hatchling"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Scholomance Neophyte"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Diseased Ghoul"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Cloud of Disease (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Reanimated Corpse"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Risen Protector"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Spectral Researcher"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Scholomance Handler"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Risen Aberration"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ElementDone"] = {
+						["Melee"] = 0,
+						["Physical"] = 0,
+					},
+					["HealingTaken"] = 0,
+					["ElementHitsDone"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Crit"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Physical"] = {
+							["Details"] = {
+								["Crit"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["TimeDamage"] = 0,
+					["TimeDamaging"] = {
+						["Scholomance Adept"] = {
+							["Details"] = {
+								["Intercept"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Cleave"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Plagued Hatchling"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Cleave"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Scholomance Acolyte"] = {
+							["Details"] = {
+								["Intercept"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Cleave"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Scholomance Neophyte"] = {
+							["Details"] = {
+								["Intercept"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Cleave"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Diseased Ghoul"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Cleave"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Reanimated Corpse"] = {
+							["Details"] = {
+								["Cleave"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Risen Aberration"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Cleave"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Risen Protector"] = {
+							["Details"] = {
+								["Intercept"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Cleave"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Necrofiend"] = {
+							["Details"] = {
+								["Intercept"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Cleave"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Spectral Researcher"] = {
+							["Details"] = {
+								["Intercept"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Cleave"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Risen Construct"] = {
+							["Details"] = {
+								["Intercept"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Cleave"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Scholomance Handler"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Cleave"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Scholomance Necrolyte"] = {
+							["Details"] = {
+								["Intercept"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Cleave"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["Attacks"] = {
+						["Intercept"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Cleave"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["DamagedWho"] = {
+						["Scholomance Adept"] = {
+							["Details"] = {
+								["Intercept"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Cleave"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Plagued Hatchling"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Cleave"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Scholomance Acolyte"] = {
+							["Details"] = {
+								["Intercept"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Cleave"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Scholomance Neophyte"] = {
+							["Details"] = {
+								["Intercept"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Cleave"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Diseased Ghoul"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Cleave"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Reanimated Corpse"] = {
+							["Details"] = {
+								["Cleave"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Risen Aberration"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Cleave"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Risen Protector"] = {
+							["Details"] = {
+								["Intercept"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Cleave"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Necrofiend"] = {
+							["Details"] = {
+								["Intercept"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Cleave"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Spectral Researcher"] = {
+							["Details"] = {
+								["Intercept"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Cleave"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Risen Construct"] = {
+							["Details"] = {
+								["Intercept"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Cleave"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Scholomance Handler"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Cleave"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Scholomance Necrolyte"] = {
+							["Details"] = {
+								["Intercept"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Cleave"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["WhoHealed"] = {
+						["Denathra"] = {
+							["Details"] = {
+								["Fel Synergy"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
 						},
 					},
 				},
+				["Fight4"] = {
+					["DOTs"] = {
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 0,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+						["Shadow"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 0,
+								},
+								["Parry"] = {
+									["count"] = 0,
+								},
+								["Miss"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Nature"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 0,
+								},
+								["Tick"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["HOTs"] = {
+					},
+					["ManaGain"] = 0,
+					["ElementTaken"] = {
+						["Melee"] = 0,
+						["Nature"] = 0,
+					},
+					["DOT_Time"] = 0,
+					["Damage"] = 0,
+					["ElementDoneAbsorb"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["PartialAbsorb"] = {
+						["Wail of Souls"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Shadow Shock"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Cloud of Disease (DoT)"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Disease Cloud"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["RageGain"] = 0,
+					["FAttacks"] = {
+					},
+					["PartialBlock"] = {
+					},
+					["ElementDone"] = {
+						["Melee"] = 0,
+						["Physical"] = 0,
+					},
+					["CCBroken"] = {
+					},
+					["ElementHitsDone"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Crit"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Physical"] = {
+							["Details"] = {
+								["Crit"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["Dispelled"] = 0,
+					["WhoDamaged"] = {
+						["Risen Aberration"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Spectral Researcher"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Reanimated Corpse"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Scholomance Neophyte"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Diseased Ghoul"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Cloud of Disease (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["FDamagedWho"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDoneBlock"] = {
+						["Physical"] = 0,
+					},
+					["TimeHealing"] = {
+					},
+					["OverHeals"] = {
+					},
+					["RageGained"] = {
+					},
+					["ActiveTime"] = 0,
+					["CCBreak"] = 0,
+					["EnergyGain"] = 0,
+					["WhoHealed"] = {
+						["Denathra"] = {
+							["Details"] = {
+								["Fel Synergy"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["PartialResist"] = {
+						["Wail of Souls"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Shadow Shock"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Cloud of Disease (DoT)"] = {
+							["Details"] = {
+								["50%Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["25%Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Disease Cloud"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["ManaGained"] = {
+					},
+					["ElementTakenAbsorb"] = {
+					},
+					["Interrupts"] = 0,
+					["Overhealing"] = 0,
+					["ElementTakenResist"] = {
+						["Nature"] = 0,
+					},
+					["InterruptData"] = {
+					},
+					["WhoDispelled"] = {
+					},
+					["TimeSpent"] = {
+						["Scholomance Dark Summoner"] = {
+							["Details"] = {
+								["Cleave"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Scholomance Neophyte"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Cleave"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Diseased Ghoul"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Risen Aberration"] = {
+							["Details"] = {
+								["Cleave"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Intercept"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Risen Protector"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Cleave"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Scholomance Acolyte"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Spectral Researcher"] = {
+							["Details"] = {
+								["Cleave"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Risen Construct"] = {
+							["Details"] = {
+								["Intercept"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Cleave"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Reanimated Corpse"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Scholomance Necrolyte"] = {
+							["Details"] = {
+								["Intercept"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Cleave"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["Heals"] = {
+					},
+					["FDamage"] = 0,
+					["EnergyGained"] = {
+					},
+					["HealedWho"] = {
+					},
+					["Healing"] = 0,
+					["RunicPowerGained"] = {
+					},
+					["ManaGainedFrom"] = {
+					},
+					["Attacks"] = {
+						["Cleave"] = {
+							["Details"] = {
+								["Crit (Blocked)"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Intercept"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["HealingTaken"] = 0,
+					["DamagedWho"] = {
+						["Scholomance Dark Summoner"] = {
+							["Details"] = {
+								["Cleave"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Scholomance Neophyte"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Cleave"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Diseased Ghoul"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Risen Aberration"] = {
+							["Details"] = {
+								["Cleave"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Intercept"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Risen Protector"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Cleave"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Scholomance Acolyte"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Spectral Researcher"] = {
+							["Details"] = {
+								["Cleave"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Risen Construct"] = {
+							["Details"] = {
+								["Intercept"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Cleave"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Reanimated Corpse"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Scholomance Necrolyte"] = {
+							["Details"] = {
+								["Intercept"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Cleave"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["TimeDamage"] = 0,
+					["TimeDamaging"] = {
+						["Scholomance Dark Summoner"] = {
+							["Details"] = {
+								["Cleave"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Scholomance Neophyte"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Cleave"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Diseased Ghoul"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Risen Aberration"] = {
+							["Details"] = {
+								["Cleave"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Intercept"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Risen Protector"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Cleave"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Scholomance Acolyte"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Spectral Researcher"] = {
+							["Details"] = {
+								["Cleave"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Risen Construct"] = {
+							["Details"] = {
+								["Intercept"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Cleave"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Reanimated Corpse"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Scholomance Necrolyte"] = {
+							["Details"] = {
+								["Intercept"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Cleave"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["RunicPowerGain"] = 0,
+					["ElementTakenBlock"] = {
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["LastFightData"] = {
+					["TimeSpent"] = {
+						["Scholomance Adept"] = {
+							["Details"] = {
+								["Intercept"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Cleave"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Plagued Hatchling"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Cleave"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Scholomance Acolyte"] = {
+							["Details"] = {
+								["Intercept"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Cleave"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Scholomance Neophyte"] = {
+							["Details"] = {
+								["Intercept"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Cleave"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Diseased Ghoul"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Cleave"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Reanimated Corpse"] = {
+							["Details"] = {
+								["Cleave"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Risen Aberration"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Cleave"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Risen Protector"] = {
+							["Details"] = {
+								["Intercept"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Cleave"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Necrofiend"] = {
+							["Details"] = {
+								["Intercept"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Cleave"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Spectral Researcher"] = {
+							["Details"] = {
+								["Intercept"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Cleave"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Risen Construct"] = {
+							["Details"] = {
+								["Intercept"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Cleave"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Scholomance Handler"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Cleave"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Scholomance Necrolyte"] = {
+							["Details"] = {
+								["Intercept"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Cleave"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["DamageTaken"] = 0,
+					["ElementTakenResist"] = {
+						["Nature"] = 0,
+					},
+					["PartialResist"] = {
+						["Arcane Blast"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Mana Burn"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Diseased Spit"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Frostbolt"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Cloud of Disease (DoT)"] = {
+							["Details"] = {
+								["50%Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["25%Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Disease Cloud"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Wail of Souls"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Blast Wave"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Shadow Shock"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Cone of Cold"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Shadow Bolt"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["PartialAbsorb"] = {
+						["Arcane Blast"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Mana Burn"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Diseased Spit"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Frostbolt"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Cloud of Disease (DoT)"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Disease Cloud"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Wail of Souls"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Blast Wave"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Shadow Shock"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Cone of Cold"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Shadow Bolt"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["ActiveTime"] = 0,
+					["ElementTaken"] = {
+						["Melee"] = 0,
+						["Nature"] = 0,
+					},
+					["Damage"] = 0,
+					["ElementHitsTaken"] = {
+						["Shadow"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Dodge"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 0,
+								},
+								["Miss"] = {
+									["count"] = 0,
+								},
+								["Parry"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Arcane"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Fire"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Frost"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Nature"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 0,
+								},
+								["Tick"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["WhoDamaged"] = {
+						["Scholomance Adept"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Plagued Hatchling"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Scholomance Neophyte"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Diseased Ghoul"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Cloud of Disease (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Reanimated Corpse"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Risen Protector"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Spectral Researcher"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Scholomance Handler"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Risen Aberration"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ElementDone"] = {
+						["Melee"] = 0,
+						["Physical"] = 0,
+					},
+					["HealingTaken"] = 0,
+					["ElementHitsDone"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Crit"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Physical"] = {
+							["Details"] = {
+								["Crit"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["TimeDamage"] = 0,
+					["TimeDamaging"] = {
+						["Scholomance Adept"] = {
+							["Details"] = {
+								["Intercept"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Cleave"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Plagued Hatchling"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Cleave"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Scholomance Acolyte"] = {
+							["Details"] = {
+								["Intercept"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Cleave"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Scholomance Neophyte"] = {
+							["Details"] = {
+								["Intercept"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Cleave"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Diseased Ghoul"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Cleave"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Reanimated Corpse"] = {
+							["Details"] = {
+								["Cleave"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Risen Aberration"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Cleave"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Risen Protector"] = {
+							["Details"] = {
+								["Intercept"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Cleave"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Necrofiend"] = {
+							["Details"] = {
+								["Intercept"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Cleave"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Spectral Researcher"] = {
+							["Details"] = {
+								["Intercept"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Cleave"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Risen Construct"] = {
+							["Details"] = {
+								["Intercept"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Cleave"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Scholomance Handler"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Cleave"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Scholomance Necrolyte"] = {
+							["Details"] = {
+								["Intercept"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Cleave"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["Attacks"] = {
+						["Intercept"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Cleave"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["DamagedWho"] = {
+						["Scholomance Adept"] = {
+							["Details"] = {
+								["Intercept"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Cleave"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Plagued Hatchling"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Cleave"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Scholomance Acolyte"] = {
+							["Details"] = {
+								["Intercept"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Cleave"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Scholomance Neophyte"] = {
+							["Details"] = {
+								["Intercept"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Cleave"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Diseased Ghoul"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Cleave"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Reanimated Corpse"] = {
+							["Details"] = {
+								["Cleave"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Risen Aberration"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Cleave"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Risen Protector"] = {
+							["Details"] = {
+								["Intercept"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Cleave"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Necrofiend"] = {
+							["Details"] = {
+								["Intercept"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Cleave"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Spectral Researcher"] = {
+							["Details"] = {
+								["Intercept"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Cleave"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Risen Construct"] = {
+							["Details"] = {
+								["Intercept"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Cleave"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Scholomance Handler"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Cleave"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Scholomance Necrolyte"] = {
+							["Details"] = {
+								["Intercept"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Cleave"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["WhoHealed"] = {
+						["Denathra"] = {
+							["Details"] = {
+								["Fel Synergy"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+				},
+				["Fight2"] = {
+					["DOTs"] = {
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 0,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+						["Shadow"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 0,
+								},
+								["Dodge"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Physical"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Frost"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Nature"] = {
+							["Details"] = {
+								["Tick"] = {
+									["count"] = 0,
+								},
+								["Miss"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["HOTs"] = {
+					},
+					["ManaGain"] = 0,
+					["ElementTaken"] = {
+						["Physical"] = 0,
+						["Melee"] = 0,
+						["Nature"] = 0,
+					},
+					["DOT_Time"] = 0,
+					["Damage"] = 0,
+					["ElementDoneAbsorb"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["PartialAbsorb"] = {
+						["Arcing Smash"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Trample"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Frostbolt"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Cloud of Disease (DoT)"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Shadow Bolt"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Shadow Shock"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Silence"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Call of the Grave"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["RageGain"] = 0,
+					["FAttacks"] = {
+					},
+					["PartialBlock"] = {
+					},
+					["ElementDone"] = {
+						["Melee"] = 0,
+						["Physical"] = 0,
+					},
+					["CCBroken"] = {
+					},
+					["ElementHitsDone"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Crit"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Physical"] = {
+							["Details"] = {
+								["Crit"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["Dispelled"] = 0,
+					["WhoDamaged"] = {
+						["Risen Aberration"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Risen Protector"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Reanimated Corpse"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Trample"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Spectral Tutor"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Risen Construct"] = {
+							["Details"] = {
+								["Arcing Smash"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Scholomance Necromancer"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Diseased Ghoul"] = {
+							["Details"] = {
+								["Cloud of Disease (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["FDamagedWho"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+					},
+					["OverHeals"] = {
+					},
+					["RageGained"] = {
+					},
+					["ActiveTime"] = 0,
+					["CCBreak"] = 0,
+					["EnergyGain"] = 0,
+					["WhoHealed"] = {
+						["Denathra"] = {
+							["Details"] = {
+								["Fel Synergy"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["PartialResist"] = {
+						["Arcing Smash"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Trample"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Frostbolt"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Cloud of Disease (DoT)"] = {
+							["Details"] = {
+								["50%Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["25%Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Shadow Bolt"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Shadow Shock"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Silence"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Call of the Grave"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["ManaGained"] = {
+					},
+					["ElementTakenAbsorb"] = {
+					},
+					["Interrupts"] = 0,
+					["Overhealing"] = 0,
+					["ElementTakenResist"] = {
+						["Nature"] = 0,
+					},
+					["InterruptData"] = {
+					},
+					["WhoDispelled"] = {
+					},
+					["TimeSpent"] = {
+						["Scholomance Adept"] = {
+							["Details"] = {
+								["Cleave"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Intercept"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Scholomance Necromancer"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Cleave"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Reanimated Corpse"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Cleave"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Risen Aberration"] = {
+							["Details"] = {
+								["Cleave"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Intercept"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Spectral Projection"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Cleave"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Frail Skeleton"] = {
+							["Details"] = {
+								["Cleave"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Spectral Tutor"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Cleave"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Risen Construct"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Cleave"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Scholomance Dark Summoner"] = {
+							["Details"] = {
+								["Intercept"] = {
+									["count"] = 0,
+								},
+								["Cleave"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Scholomance Necrolyte"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["Heals"] = {
+					},
+					["FDamage"] = 0,
+					["EnergyGained"] = {
+					},
+					["HealedWho"] = {
+					},
+					["Healing"] = 0,
+					["RunicPowerGained"] = {
+					},
+					["ManaGainedFrom"] = {
+					},
+					["Attacks"] = {
+						["Intercept"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Cleave"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["HealingTaken"] = 0,
+					["DamagedWho"] = {
+						["Scholomance Adept"] = {
+							["Details"] = {
+								["Cleave"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Intercept"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Scholomance Necromancer"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Cleave"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Reanimated Corpse"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Cleave"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Risen Aberration"] = {
+							["Details"] = {
+								["Cleave"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Intercept"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Spectral Projection"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Cleave"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Frail Skeleton"] = {
+							["Details"] = {
+								["Cleave"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Spectral Tutor"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Cleave"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Risen Construct"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Cleave"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Scholomance Dark Summoner"] = {
+							["Details"] = {
+								["Intercept"] = {
+									["count"] = 0,
+								},
+								["Cleave"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Scholomance Necrolyte"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["TimeDamage"] = 0,
+					["TimeDamaging"] = {
+						["Scholomance Adept"] = {
+							["Details"] = {
+								["Cleave"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Intercept"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Scholomance Necromancer"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Cleave"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Reanimated Corpse"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Cleave"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Risen Aberration"] = {
+							["Details"] = {
+								["Cleave"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Intercept"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Spectral Projection"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Cleave"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Frail Skeleton"] = {
+							["Details"] = {
+								["Cleave"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Spectral Tutor"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Cleave"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Risen Construct"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Cleave"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Scholomance Dark Summoner"] = {
+							["Details"] = {
+								["Intercept"] = {
+									["count"] = 0,
+								},
+								["Cleave"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Scholomance Necrolyte"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["RunicPowerGain"] = 0,
+					["ElementTakenBlock"] = {
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["Fight3"] = {
+					["DOTs"] = {
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 0,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+						["Shadow"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 0,
+								},
+								["Parry"] = {
+									["count"] = 0,
+								},
+								["Dodge"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Nature"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 0,
+								},
+								["Tick"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["HOTs"] = {
+					},
+					["ManaGain"] = 0,
+					["ElementTaken"] = {
+						["Melee"] = 0,
+						["Nature"] = 0,
+					},
+					["DOT_Time"] = 0,
+					["Damage"] = 0,
+					["ElementDoneAbsorb"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["PartialAbsorb"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Shadow Bolt Volley"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Cloud of Disease (DoT)"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Disease Cloud"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["RageGain"] = 0,
+					["FAttacks"] = {
+					},
+					["PartialBlock"] = {
+					},
+					["ElementDone"] = {
+						["Melee"] = 0,
+						["Physical"] = 0,
+					},
+					["CCBroken"] = {
+					},
+					["ElementHitsDone"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Physical"] = {
+							["Details"] = {
+								["Crit"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["Dispelled"] = 0,
+					["WhoDamaged"] = {
+						["Risen Aberration"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Spectral Researcher"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Reanimated Corpse"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Diseased Ghoul"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Cloud of Disease (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["FDamagedWho"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDoneBlock"] = {
+						["Physical"] = 0,
+					},
+					["TimeHealing"] = {
+					},
+					["OverHeals"] = {
+					},
+					["RageGained"] = {
+					},
+					["ActiveTime"] = 0,
+					["CCBreak"] = 0,
+					["EnergyGain"] = 0,
+					["WhoHealed"] = {
+						["Denathra"] = {
+							["Details"] = {
+								["Fel Synergy"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["PartialResist"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Shadow Bolt Volley"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Cloud of Disease (DoT)"] = {
+							["Details"] = {
+								["50%Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["25%Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Disease Cloud"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["ManaGained"] = {
+					},
+					["ElementTakenAbsorb"] = {
+					},
+					["Interrupts"] = 0,
+					["Overhealing"] = 0,
+					["ElementTakenResist"] = {
+						["Nature"] = 0,
+					},
+					["InterruptData"] = {
+					},
+					["WhoDispelled"] = {
+					},
+					["TimeSpent"] = {
+						["Scholomance Acolyte"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Cleave"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Scholomance Neophyte"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Cleave"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Diseased Ghoul"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Intercept"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Risen Aberration"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Cleave"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Necrofiend"] = {
+							["Details"] = {
+								["Intercept"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Cleave"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Risen Guard"] = {
+							["Details"] = {
+								["Intercept"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Cleave"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Risen Construct"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Cleave"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Reanimated Corpse"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Cleave"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Spectral Researcher"] = {
+							["Details"] = {
+								["Cleave"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["Heals"] = {
+					},
+					["FDamage"] = 0,
+					["EnergyGained"] = {
+					},
+					["HealedWho"] = {
+					},
+					["Healing"] = 0,
+					["RunicPowerGained"] = {
+					},
+					["ManaGainedFrom"] = {
+					},
+					["Attacks"] = {
+						["Cleave"] = {
+							["Details"] = {
+								["Hit (Blocked)"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Crit (Blocked)"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Intercept"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["HealingTaken"] = 0,
+					["DamagedWho"] = {
+						["Scholomance Acolyte"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Cleave"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Scholomance Neophyte"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Cleave"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Diseased Ghoul"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Intercept"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Risen Aberration"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Cleave"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Necrofiend"] = {
+							["Details"] = {
+								["Intercept"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Cleave"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Risen Guard"] = {
+							["Details"] = {
+								["Intercept"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Cleave"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Risen Construct"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Cleave"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Reanimated Corpse"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Cleave"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Spectral Researcher"] = {
+							["Details"] = {
+								["Cleave"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["TimeDamage"] = 0,
+					["TimeDamaging"] = {
+						["Scholomance Acolyte"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Cleave"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Scholomance Neophyte"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Cleave"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Diseased Ghoul"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Intercept"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Risen Aberration"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Cleave"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Necrofiend"] = {
+							["Details"] = {
+								["Intercept"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Cleave"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Risen Guard"] = {
+							["Details"] = {
+								["Intercept"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Cleave"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Risen Construct"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Cleave"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Reanimated Corpse"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Cleave"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Spectral Researcher"] = {
+							["Details"] = {
+								["Cleave"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["RunicPowerGain"] = 0,
+					["ElementTakenBlock"] = {
+					},
+					["DispelledWho"] = {
+					},
+				},
 			},
-			["UnitLockout"] = 1617371251,
-			["LastActive"] = 1617372786,
+			["NextEventNum"] = 43,
+			["LastEventHealthNum"] = {
+				100, -- [1]
+				100, -- [2]
+				100, -- [3]
+				100, -- [4]
+				100, -- [5]
+				100, -- [6]
+				100, -- [7]
+				100, -- [8]
+				100, -- [9]
+				100, -- [10]
+				100, -- [11]
+				100, -- [12]
+				100, -- [13]
+				100, -- [14]
+				100, -- [15]
+				100, -- [16]
+				100, -- [17]
+				99.91596991723037, -- [18]
+				99.91596991723037, -- [19]
+				99.91596991723037, -- [20]
+				100, -- [21]
+				100, -- [22]
+				100, -- [23]
+				100, -- [24]
+				100, -- [25]
+				100, -- [26]
+				100, -- [27]
+				100, -- [28]
+				100, -- [29]
+				100, -- [30]
+				100, -- [31]
+				100, -- [32]
+				100, -- [33]
+				100, -- [34]
+				100, -- [35]
+				100, -- [36]
+				100, -- [37]
+				100, -- [38]
+				100, -- [39]
+				100, -- [40]
+				100, -- [41]
+				100, -- [42]
+				100, -- [43]
+				100, -- [44]
+				99.91596991723037, -- [45]
+				100, -- [46]
+				100, -- [47]
+				100, -- [48]
+				100, -- [49]
+				100, -- [50]
+			},
+			["LastEvents"] = {
+				"Denathra Fel Synergy Shaathun <Denathra> Hit +327 (327 overheal)", -- [1]
+				"Denathra Fel Synergy Shaathun <Denathra> Hit +327 (327 overheal)", -- [2]
+				"Denathra Fel Synergy Shaathun <Denathra> Hit +327 (327 overheal)", -- [3]
+				"Denathra Fel Synergy Shaathun <Denathra> Hit +327 (327 overheal)", -- [4]
+				"Denathra Fel Synergy Shaathun <Denathra> Hit +323 (323 overheal)", -- [5]
+				"Denathra Fel Synergy Shaathun <Denathra> Hit +323 (323 overheal)", -- [6]
+				"Denathra Fel Synergy Shaathun <Denathra> Hit +323 (323 overheal)", -- [7]
+				"Denathra Fel Synergy Shaathun <Denathra> Hit +327 (327 overheal)", -- [8]
+				"Denathra Fel Synergy Shaathun <Denathra> Hit +327 (327 overheal)", -- [9]
+				"Denathra Fel Synergy Shaathun <Denathra> Hit +327 (327 overheal)", -- [10]
+				"Denathra Fel Synergy Shaathun <Denathra> Hit +327 (327 overheal)", -- [11]
+				"Denathra Fel Synergy Shaathun <Denathra> Hit +327 (327 overheal)", -- [12]
+				"Denathra Fel Synergy Shaathun <Denathra> Hit +323 (323 overheal)", -- [13]
+				"Denathra Fel Synergy Shaathun <Denathra> Hit +323 (323 overheal)", -- [14]
+				"Denathra Fel Synergy Shaathun <Denathra> Hit +323 (323 overheal)", -- [15]
+				"Denathra Fel Synergy Shaathun <Denathra> Hit +323 (323 overheal)", -- [16]
+				"Denathra Fel Synergy Shaathun <Denathra> Hit +323 (323 overheal)", -- [17]
+				"Denathra Soul Link Shaathun <Denathra> Split -20 (Shadow)", -- [18]
+				"Shaathun <Denathra> Melee Spectral Tutor Crit -1850 (Physical)", -- [19]
+				"Shaathun <Denathra> Cleave Spectral Tutor Crit -2346 (Physical)", -- [20]
+				"Shaathun <Denathra> Intercept Necrofiend Hit -484 (Physical)", -- [21]
+				"Shaathun <Denathra> Cleave Necrofiend Crit -2312 (Physical)", -- [22]
+				"Shaathun <Denathra> Melee Necrofiend Crit -2138 (Physical)", -- [23]
+				"Denathra Fel Synergy Shaathun <Denathra> Hit +2284 (2284 overheal)", -- [24]
+				"Denathra Fel Synergy Shaathun <Denathra> Hit +2602 (2602 overheal)", -- [25]
+				"Denathra Fel Synergy Shaathun <Denathra> Hit +2624 (2624 overheal)", -- [26]
+				"Denathra Fel Synergy Shaathun <Denathra> Hit +2565 (2565 overheal)", -- [27]
+				"Denathra Fel Synergy Shaathun <Denathra> Hit +1228 (1228 overheal)", -- [28]
+				"Denathra Fel Synergy Shaathun <Denathra> Hit +2531 (2531 overheal)", -- [29]
+				"Denathra Fel Synergy Shaathun <Denathra> Hit +2551 (2551 overheal)", -- [30]
+				"Denathra Fel Synergy Shaathun <Denathra> Hit +1235 (1235 overheal)", -- [31]
+				"Denathra Fel Synergy Shaathun <Denathra> Hit +2272 (2272 overheal)", -- [32]
+				"Denathra Fel Synergy Shaathun <Denathra> Hit +2634 (2634 overheal)", -- [33]
+				"Denathra Fel Synergy Shaathun <Denathra> Hit +2722 (2722 overheal)", -- [34]
+				"Denathra Fel Synergy Shaathun <Denathra> Hit +2673 (2673 overheal)", -- [35]
+				"Denathra Fel Synergy Shaathun <Denathra> Hit +1259 (1259 overheal)", -- [36]
+				"Denathra Fel Synergy Shaathun <Denathra> Hit +2672 (2672 overheal)", -- [37]
+				"Denathra Fel Synergy Shaathun <Denathra> Hit +1266 (1266 overheal)", -- [38]
+				"Denathra Fel Synergy Shaathun <Denathra> Hit +2299 (2299 overheal)", -- [39]
+				"Denathra Fel Synergy Shaathun <Denathra> Hit +2336 (2336 overheal)", -- [40]
+				"Denathra Fel Synergy Shaathun <Denathra> Hit +2294 (2294 overheal)", -- [41]
+				"Denathra Fel Synergy Shaathun <Denathra> Hit +1097 (1097 overheal)", -- [42]
+				"Denathra Fel Synergy Shaathun <Denathra> Hit +327 (327 overheal)", -- [43]
+				"Denathra Fel Synergy Shaathun <Denathra> Hit +323 (323 overheal)", -- [44]
+				"Denathra Soul Link Shaathun <Denathra> Split -20 (Shadow)", -- [45]
+				"Denathra Fel Synergy Shaathun <Denathra> Hit +327 (307 overheal)", -- [46]
+				"Denathra Fel Synergy Shaathun <Denathra> Hit +323 (323 overheal)", -- [47]
+				"Denathra Fel Synergy Shaathun <Denathra> Hit +323 (323 overheal)", -- [48]
+				"Denathra Fel Synergy Shaathun <Denathra> Hit +323 (323 overheal)", -- [49]
+				"Denathra Fel Synergy Shaathun <Denathra> Hit +327 (327 overheal)", -- [50]
+			},
+			["Name"] = "Shaathun",
+			["TimeLast"] = {
+				["HealingTaken"] = 1617372706,
+				["ActiveTime"] = 1617372732,
+				["TimeDamage"] = 1617372732,
+				["OVERALL"] = 1617372732,
+				["DamageTaken"] = 1617372485,
+				["Damage"] = 1617372732,
+			},
+			["LastEventIncoming"] = {
+				true, -- [1]
+				true, -- [2]
+				true, -- [3]
+				true, -- [4]
+				true, -- [5]
+				true, -- [6]
+				true, -- [7]
+				true, -- [8]
+				true, -- [9]
+				true, -- [10]
+				true, -- [11]
+				true, -- [12]
+				true, -- [13]
+				true, -- [14]
+				true, -- [15]
+				true, -- [16]
+				true, -- [17]
+				true, -- [18]
+				false, -- [19]
+				false, -- [20]
+				false, -- [21]
+				false, -- [22]
+				false, -- [23]
+				true, -- [24]
+				true, -- [25]
+				true, -- [26]
+				true, -- [27]
+				true, -- [28]
+				true, -- [29]
+				true, -- [30]
+				true, -- [31]
+				true, -- [32]
+				true, -- [33]
+				true, -- [34]
+				true, -- [35]
+				true, -- [36]
+				true, -- [37]
+				true, -- [38]
+				true, -- [39]
+				true, -- [40]
+				true, -- [41]
+				true, -- [42]
+				true, -- [43]
+				true, -- [44]
+				true, -- [45]
+				true, -- [46]
+				true, -- [47]
+				true, -- [48]
+				true, -- [49]
+				true, -- [50]
+			},
+			["LastDamageTaken"] = 98,
+			["LastEventTimes"] = {
+				10262.185, -- [1]
+				10262.185, -- [2]
+				10262.186, -- [3]
+				10262.186, -- [4]
+				10262.187, -- [5]
+				10262.187, -- [6]
+				10262.188, -- [7]
+				10262.869, -- [8]
+				10262.87, -- [9]
+				10262.87, -- [10]
+				10262.871, -- [11]
+				10262.871, -- [12]
+				10262.872, -- [13]
+				10262.872, -- [14]
+				10262.873, -- [15]
+				10263.569, -- [16]
+				10263.57, -- [17]
+				10269.844, -- [18]
+				10270.963, -- [19]
+				10271.197, -- [20]
+				10285.968, -- [21]
+				10287.688, -- [22]
+				10288.037, -- [23]
+				10288.155, -- [24]
+				10292.344, -- [25]
+				10294.248, -- [26]
+				10296, -- [27]
+				10306.114, -- [28]
+				10312.892, -- [29]
+				10314.644, -- [30]
+				10316.38, -- [31]
+				10319.567, -- [32]
+				10321.236, -- [33]
+				10323.106, -- [34]
+				10326.361, -- [35]
+				10328.18, -- [36]
+				10329.9, -- [37]
+				10331.668, -- [38]
+				10335.09, -- [39]
+				10337.11, -- [40]
+				10340.181, -- [41]
+				10341.983, -- [42]
+				10260.864, -- [43]
+				10260.865, -- [44]
+				10261.031, -- [45]
+				10261.566, -- [46]
+				10261.566, -- [47]
+				10261.567, -- [48]
+				10261.567, -- [49]
+				10262.184, -- [50]
+			},
+			["LastAbility"] = 1519.363,
 		},
 		["Selrah <Denathra>"] = {
 			["GUID"] = "0xF1400065BA000001",
@@ -8884,10 +8884,11 @@ RecountPerCharDB = {
 			},
 			["type"] = "Pet",
 			["FightsSaved"] = 5,
+			["LastAbility"] = 1519.363,
 			["Owner"] = "Denathra",
 			["TimeLast"] = {
-				["OVERALL"] = 1617371190,
 				["HealingTaken"] = 1617371190,
+				["OVERALL"] = 1617371190,
 			},
 			["NextEventNum"] = 31,
 			["LastEventHealthNum"] = {
@@ -8955,6 +8956,266 @@ RecountPerCharDB = {
 				"Denathra Fel Synergy Selrah <Denathra> Hit +630 (630 overheal)", -- [30]
 			},
 			["Name"] = "Selrah",
+			["UnitLockout"] = 1617371151,
+			["Fights"] = {
+				["LastFightData"] = {
+					["DOTs"] = {
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 0,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["HOTs"] = {
+					},
+					["ManaGain"] = 0,
+					["ElementTaken"] = {
+					},
+					["DOT_Time"] = 0,
+					["Damage"] = 0,
+					["ElementDoneAbsorb"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["PartialAbsorb"] = {
+					},
+					["RageGain"] = 0,
+					["FAttacks"] = {
+					},
+					["PartialBlock"] = {
+					},
+					["ElementDone"] = {
+					},
+					["CCBroken"] = {
+					},
+					["ElementHitsDone"] = {
+					},
+					["Dispelled"] = 0,
+					["WhoDamaged"] = {
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["FDamagedWho"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+					},
+					["OverHeals"] = {
+					},
+					["RageGained"] = {
+					},
+					["ActiveTime"] = 0,
+					["CCBreak"] = 0,
+					["EnergyGain"] = 0,
+					["WhoHealed"] = {
+					},
+					["PartialResist"] = {
+					},
+					["ManaGained"] = {
+					},
+					["ElementTakenAbsorb"] = {
+					},
+					["Interrupts"] = 0,
+					["Overhealing"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["InterruptData"] = {
+					},
+					["WhoDispelled"] = {
+					},
+					["TimeSpent"] = {
+					},
+					["Heals"] = {
+					},
+					["FDamage"] = 0,
+					["EnergyGained"] = {
+					},
+					["HealedWho"] = {
+					},
+					["Healing"] = 0,
+					["RunicPowerGained"] = {
+					},
+					["ManaGainedFrom"] = {
+					},
+					["Attacks"] = {
+					},
+					["HealingTaken"] = 0,
+					["DamagedWho"] = {
+					},
+					["TimeDamage"] = 0,
+					["TimeDamaging"] = {
+					},
+					["RunicPowerGain"] = 0,
+					["ElementTakenBlock"] = {
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["CurrentFightData"] = {
+					["DOTs"] = {
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 0,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["HOTs"] = {
+					},
+					["ManaGain"] = 0,
+					["ElementTaken"] = {
+					},
+					["DOT_Time"] = 0,
+					["Damage"] = 0,
+					["ElementDoneAbsorb"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["PartialAbsorb"] = {
+					},
+					["RageGain"] = 0,
+					["FAttacks"] = {
+					},
+					["PartialBlock"] = {
+					},
+					["ElementDone"] = {
+					},
+					["CCBroken"] = {
+					},
+					["ElementHitsDone"] = {
+					},
+					["Dispelled"] = 0,
+					["WhoDamaged"] = {
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["FDamagedWho"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+					},
+					["OverHeals"] = {
+					},
+					["RageGained"] = {
+					},
+					["ActiveTime"] = 0,
+					["CCBreak"] = 0,
+					["EnergyGain"] = 0,
+					["WhoHealed"] = {
+					},
+					["PartialResist"] = {
+					},
+					["ManaGained"] = {
+					},
+					["ElementTakenAbsorb"] = {
+					},
+					["Interrupts"] = 0,
+					["Overhealing"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["InterruptData"] = {
+					},
+					["WhoDispelled"] = {
+					},
+					["TimeSpent"] = {
+					},
+					["Heals"] = {
+					},
+					["FDamage"] = 0,
+					["EnergyGained"] = {
+					},
+					["HealedWho"] = {
+					},
+					["Healing"] = 0,
+					["RunicPowerGained"] = {
+					},
+					["ManaGainedFrom"] = {
+					},
+					["Attacks"] = {
+					},
+					["HealingTaken"] = 0,
+					["DamagedWho"] = {
+					},
+					["TimeDamage"] = 0,
+					["TimeDamaging"] = {
+					},
+					["RunicPowerGain"] = 0,
+					["ElementTakenBlock"] = {
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["OverallData"] = {
+					["PartialResist"] = {
+						["Wail of Souls"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+					},
+					["HealingTaken"] = 160,
+					["PartialAbsorb"] = {
+						["Wail of Souls"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+					},
+					["ElementHitsTaken"] = {
+						["Shadow"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 1,
+						},
+					},
+					["WhoHealed"] = {
+						["Denathra"] = {
+							["Details"] = {
+								["Fel Synergy"] = {
+									["count"] = 160,
+								},
+							},
+							["amount"] = 160,
+						},
+					},
+				},
+			},
 			["LastEventIncoming"] = {
 				true, -- [1]
 				true, -- [2]
@@ -9019,266 +9280,6 @@ RecountPerCharDB = {
 				8760.42, -- [29]
 				8761.522000000001, -- [30]
 			},
-			["Fights"] = {
-				["LastFightData"] = {
-					["DOTs"] = {
-					},
-					["ElementDoneResist"] = {
-					},
-					["Ressed"] = 0,
-					["DamageTaken"] = 0,
-					["RageGainedFrom"] = {
-					},
-					["ElementHitsTaken"] = {
-					},
-					["DeathCount"] = 0,
-					["HOT_Time"] = 0,
-					["ElementHitsDone"] = {
-					},
-					["ElementTakenAbsorb"] = {
-					},
-					["ElementTaken"] = {
-					},
-					["DOT_Time"] = 0,
-					["Damage"] = 0,
-					["ElementTakenBlock"] = {
-					},
-					["TimeHeal"] = 0,
-					["RessedWho"] = {
-					},
-					["Dispels"] = 0,
-					["ElementTakenResist"] = {
-					},
-					["ElementDoneAbsorb"] = {
-					},
-					["FAttacks"] = {
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementDone"] = {
-					},
-					["PartialAbsorb"] = {
-					},
-					["DamagedWho"] = {
-					},
-					["PartialBlock"] = {
-					},
-					["WhoDamaged"] = {
-					},
-					["EnergyGainedFrom"] = {
-					},
-					["PartialResist"] = {
-					},
-					["CCBroken"] = {
-					},
-					["ElementDoneBlock"] = {
-					},
-					["TimeHealing"] = {
-					},
-					["OverHeals"] = {
-					},
-					["ManaGainedFrom"] = {
-					},
-					["RunicPowerGained"] = {
-					},
-					["CCBreak"] = 0,
-					["RageGained"] = {
-					},
-					["HealedWho"] = {
-					},
-					["EnergyGain"] = 0,
-					["ManaGained"] = {
-					},
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
-					["Overhealing"] = 0,
-					["TimeSpent"] = {
-					},
-					["WhoDispelled"] = {
-					},
-					["InterruptData"] = {
-					},
-					["RunicPowerGain"] = 0,
-					["Heals"] = {
-					},
-					["WhoHealed"] = {
-					},
-					["EnergyGained"] = {
-					},
-					["ActiveTime"] = 0,
-					["Healing"] = 0,
-					["FDamagedWho"] = {
-					},
-					["Dispelled"] = 0,
-					["Attacks"] = {
-					},
-					["HealingTaken"] = 0,
-					["RageGain"] = 0,
-					["TimeDamage"] = 0,
-					["TimeDamaging"] = {
-					},
-					["ManaGain"] = 0,
-					["HOTs"] = {
-					},
-					["DispelledWho"] = {
-					},
-				},
-				["CurrentFightData"] = {
-					["DOTs"] = {
-					},
-					["ElementDoneResist"] = {
-					},
-					["Ressed"] = 0,
-					["DamageTaken"] = 0,
-					["RageGainedFrom"] = {
-					},
-					["ElementHitsTaken"] = {
-					},
-					["DeathCount"] = 0,
-					["HOT_Time"] = 0,
-					["ElementHitsDone"] = {
-					},
-					["ElementTakenAbsorb"] = {
-					},
-					["ElementTaken"] = {
-					},
-					["DOT_Time"] = 0,
-					["Damage"] = 0,
-					["ElementTakenBlock"] = {
-					},
-					["TimeHeal"] = 0,
-					["RessedWho"] = {
-					},
-					["Dispels"] = 0,
-					["ElementTakenResist"] = {
-					},
-					["ElementDoneAbsorb"] = {
-					},
-					["FAttacks"] = {
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementDone"] = {
-					},
-					["PartialAbsorb"] = {
-					},
-					["DamagedWho"] = {
-					},
-					["PartialBlock"] = {
-					},
-					["WhoDamaged"] = {
-					},
-					["EnergyGainedFrom"] = {
-					},
-					["PartialResist"] = {
-					},
-					["CCBroken"] = {
-					},
-					["ElementDoneBlock"] = {
-					},
-					["TimeHealing"] = {
-					},
-					["OverHeals"] = {
-					},
-					["ManaGainedFrom"] = {
-					},
-					["RunicPowerGained"] = {
-					},
-					["CCBreak"] = 0,
-					["RageGained"] = {
-					},
-					["HealedWho"] = {
-					},
-					["EnergyGain"] = 0,
-					["ManaGained"] = {
-					},
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
-					["Overhealing"] = 0,
-					["TimeSpent"] = {
-					},
-					["WhoDispelled"] = {
-					},
-					["InterruptData"] = {
-					},
-					["RunicPowerGain"] = 0,
-					["Heals"] = {
-					},
-					["WhoHealed"] = {
-					},
-					["EnergyGained"] = {
-					},
-					["ActiveTime"] = 0,
-					["Healing"] = 0,
-					["FDamagedWho"] = {
-					},
-					["Dispelled"] = 0,
-					["Attacks"] = {
-					},
-					["HealingTaken"] = 0,
-					["RageGain"] = 0,
-					["TimeDamage"] = 0,
-					["TimeDamaging"] = {
-					},
-					["ManaGain"] = 0,
-					["HOTs"] = {
-					},
-					["DispelledWho"] = {
-					},
-				},
-				["OverallData"] = {
-					["PartialResist"] = {
-						["Wail of Souls"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 0,
-						},
-					},
-					["HealingTaken"] = 160,
-					["PartialAbsorb"] = {
-						["Wail of Souls"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 0,
-						},
-					},
-					["ElementHitsTaken"] = {
-						["Shadow"] = {
-							["Details"] = {
-								["Miss"] = {
-									["count"] = 1,
-								},
-							},
-							["amount"] = 1,
-						},
-					},
-					["WhoHealed"] = {
-						["Denathra"] = {
-							["Details"] = {
-								["Fel Synergy"] = {
-									["count"] = 160,
-								},
-							},
-							["amount"] = 160,
-						},
-					},
-				},
-			},
-			["UnitLockout"] = 1617371151,
 			["LastActive"] = 1617371205,
 		},
 		["Rattlegore"] = {
@@ -9320,75 +9321,7 @@ RecountPerCharDB = {
 			},
 			["enClass"] = "MOB",
 			["LastDamageTaken"] = 17565,
-			["DeathLogs"] = {
-				{
-					["MessageIncoming"] = {
-						true, -- [1]
-						false, -- [2]
-						false, -- [3]
-						true, -- [4]
-						false, -- [5]
-						true, -- [6]
-						true, -- [7]
-					},
-					["Messages"] = {
-						"Denathra Soul Fire Rattlegore Crit -17744 (Fire)", -- [1]
-						"Rattlegore Melee Denathra Hit -404 (101 Absorbed) (Physical)", -- [2]
-						"Rattlegore Melee Denathra Hit -392 (97 Absorbed) (Physical)", -- [3]
-						"Denathra Soul Fire Rattlegore Hit -7994 (Fire)", -- [4]
-						"Rattlegore Melee Denathra Hit -402 (100 Absorbed) (Physical)", -- [5]
-						"Denathra Soul Fire Rattlegore Crit -17565 (Fire)", -- [6]
-						"Rattlegore dies.", -- [7]
-					},
-					["DeathAt"] = 1617372035,
-					["HealthNum"] = {
-						0, -- [1]
-						0, -- [2]
-						41.20609675281644, -- [3]
-						14.71835652750166, -- [4]
-						14.71835652750166, -- [5]
-						0.003313452617627568, -- [6]
-						0, -- [7]
-					},
-					["MessageTimes"] = {
-						-7.944999999999709, -- [1]
-						-5.626000000000204, -- [2]
-						-3.605999999999767, -- [3]
-						-1.836999999999534, -- [4]
-						-1.569999999999709, -- [5]
-						-0.001000000000203727, -- [6]
-						0, -- [7]
-					},
-					["KilledBy"] = "Denathra",
-					["Health"] = {
-						"???", -- [1]
-						"???", -- [2]
-						"12436 (41%)", -- [3]
-						"4442 (14%)", -- [4]
-						"4442 (14%)", -- [5]
-						"1 (0%)", -- [6]
-						"0 (0%)", -- [7]
-					},
-					["EventNum"] = {
-						0, -- [1]
-						0, -- [2]
-						0, -- [3]
-						26.48774022531478, -- [4]
-						0, -- [5]
-						58.20079522862823, -- [6]
-						0, -- [7]
-					},
-					["MessageType"] = {
-						"DAMAGE", -- [1]
-						"DAMAGE", -- [2]
-						"DAMAGE", -- [3]
-						"DAMAGE", -- [4]
-						"DAMAGE", -- [5]
-						"DAMAGE", -- [6]
-						"MISC", -- [7]
-					},
-				}, -- [1]
-			},
+			["LastActive"] = 1617372033,
 			["level"] = -1,
 			["LastDamageAbility"] = "Soul Fire",
 			["LastFightIn"] = 37,
@@ -9398,55 +9331,7 @@ RecountPerCharDB = {
 			},
 			["type"] = "Boss",
 			["FightsSaved"] = 5,
-			["LastAbility"] = 9587.566000000001,
-			["unit"] = "playertarget",
-			["Owner"] = false,
-			["TimeLast"] = {
-				["DeathCount"] = 1617372033,
-				["ActiveTime"] = 1617372032,
-				["TimeDamage"] = 1617372032,
-				["OVERALL"] = 1617372033,
-				["DamageTaken"] = 1617372033,
-				["Damage"] = 1617372032,
-			},
-			["NextEventNum"] = 8,
-			["LastEventHealthNum"] = {
-				0, -- [1]
-				0, -- [2]
-				41.20609675281644, -- [3]
-				14.71835652750166, -- [4]
-				14.71835652750166, -- [5]
-				0.003313452617627568, -- [6]
-				0, -- [7]
-			},
-			["LastEvents"] = {
-				"Denathra Soul Fire Rattlegore Crit -17744 (Fire)", -- [1]
-				"Rattlegore Melee Denathra Hit -404 (101 Absorbed) (Physical)", -- [2]
-				"Rattlegore Melee Denathra Hit -392 (97 Absorbed) (Physical)", -- [3]
-				"Denathra Soul Fire Rattlegore Hit -7994 (Fire)", -- [4]
-				"Rattlegore Melee Denathra Hit -402 (100 Absorbed) (Physical)", -- [5]
-				"Denathra Soul Fire Rattlegore Crit -17565 (Fire)", -- [6]
-				"Rattlegore dies.", -- [7]
-			},
-			["Name"] = "Rattlegore",
-			["LastEventIncoming"] = {
-				true, -- [1]
-				false, -- [2]
-				false, -- [3]
-				true, -- [4]
-				false, -- [5]
-				true, -- [6]
-				true, -- [7]
-			},
-			["LastEventTimes"] = {
-				9581.191000000001, -- [1]
-				9583.51, -- [2]
-				9585.530000000001, -- [3]
-				9587.299000000001, -- [4]
-				9587.566000000001, -- [5]
-				9589.135, -- [6]
-				9589.136, -- [7]
-			},
+			["UnitLockout"] = 1617372030,
 			["Fights"] = {
 				["LastFightData"] = {
 					["DOTs"] = {
@@ -9461,43 +9346,40 @@ RecountPerCharDB = {
 					},
 					["DeathCount"] = 0,
 					["HOT_Time"] = 0,
-					["ElementHitsDone"] = {
+					["HOTs"] = {
 					},
-					["ElementTakenAbsorb"] = {
-					},
+					["ManaGain"] = 0,
 					["ElementTaken"] = {
 					},
 					["DOT_Time"] = 0,
 					["Damage"] = 0,
-					["ElementTakenBlock"] = {
+					["ElementDoneAbsorb"] = {
 					},
 					["TimeHeal"] = 0,
 					["RessedWho"] = {
 					},
 					["Dispels"] = 0,
-					["ElementTakenResist"] = {
-					},
-					["ElementDoneAbsorb"] = {
-					},
-					["FAttacks"] = {
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementDone"] = {
-					},
 					["PartialAbsorb"] = {
 					},
-					["DamagedWho"] = {
+					["RageGain"] = 0,
+					["FAttacks"] = {
 					},
 					["PartialBlock"] = {
 					},
+					["ElementDone"] = {
+					},
+					["CCBroken"] = {
+					},
+					["ElementHitsDone"] = {
+					},
+					["Dispelled"] = 0,
 					["WhoDamaged"] = {
 					},
 					["EnergyGainedFrom"] = {
 					},
-					["PartialResist"] = {
+					["FDamagedWho"] = {
 					},
-					["CCBroken"] = {
+					["RunicPowerGainedFrom"] = {
 					},
 					["ElementDoneBlock"] = {
 					},
@@ -9505,48 +9387,51 @@ RecountPerCharDB = {
 					},
 					["OverHeals"] = {
 					},
-					["ManaGainedFrom"] = {
-					},
-					["RunicPowerGained"] = {
-					},
-					["CCBreak"] = 0,
 					["RageGained"] = {
 					},
-					["HealedWho"] = {
-					},
+					["ActiveTime"] = 0,
+					["CCBreak"] = 0,
 					["EnergyGain"] = 0,
+					["WhoHealed"] = {
+					},
+					["PartialResist"] = {
+					},
 					["ManaGained"] = {
 					},
-					["FDamage"] = 0,
+					["ElementTakenAbsorb"] = {
+					},
 					["Interrupts"] = 0,
 					["Overhealing"] = 0,
-					["TimeSpent"] = {
-					},
-					["WhoDispelled"] = {
+					["ElementTakenResist"] = {
 					},
 					["InterruptData"] = {
 					},
-					["RunicPowerGain"] = 0,
+					["WhoDispelled"] = {
+					},
+					["TimeSpent"] = {
+					},
 					["Heals"] = {
 					},
-					["WhoHealed"] = {
-					},
+					["FDamage"] = 0,
 					["EnergyGained"] = {
 					},
-					["ActiveTime"] = 0,
-					["Healing"] = 0,
-					["FDamagedWho"] = {
+					["HealedWho"] = {
 					},
-					["Dispelled"] = 0,
+					["Healing"] = 0,
+					["RunicPowerGained"] = {
+					},
+					["ManaGainedFrom"] = {
+					},
 					["Attacks"] = {
 					},
 					["HealingTaken"] = 0,
-					["RageGain"] = 0,
+					["DamagedWho"] = {
+					},
 					["TimeDamage"] = 0,
 					["TimeDamaging"] = {
 					},
-					["ManaGain"] = 0,
-					["HOTs"] = {
+					["RunicPowerGain"] = 0,
+					["ElementTakenBlock"] = {
 					},
 					["DispelledWho"] = {
 					},
@@ -9564,43 +9449,40 @@ RecountPerCharDB = {
 					},
 					["DeathCount"] = 0,
 					["HOT_Time"] = 0,
-					["ElementHitsDone"] = {
+					["HOTs"] = {
 					},
-					["ElementTakenAbsorb"] = {
-					},
+					["ManaGain"] = 0,
 					["ElementTaken"] = {
 					},
 					["DOT_Time"] = 0,
 					["Damage"] = 0,
-					["ElementTakenBlock"] = {
+					["ElementDoneAbsorb"] = {
 					},
 					["TimeHeal"] = 0,
 					["RessedWho"] = {
 					},
 					["Dispels"] = 0,
-					["ElementTakenResist"] = {
-					},
-					["ElementDoneAbsorb"] = {
-					},
-					["FAttacks"] = {
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementDone"] = {
-					},
 					["PartialAbsorb"] = {
 					},
-					["DamagedWho"] = {
+					["RageGain"] = 0,
+					["FAttacks"] = {
 					},
 					["PartialBlock"] = {
 					},
+					["ElementDone"] = {
+					},
+					["CCBroken"] = {
+					},
+					["ElementHitsDone"] = {
+					},
+					["Dispelled"] = 0,
 					["WhoDamaged"] = {
 					},
 					["EnergyGainedFrom"] = {
 					},
-					["PartialResist"] = {
+					["FDamagedWho"] = {
 					},
-					["CCBroken"] = {
+					["RunicPowerGainedFrom"] = {
 					},
 					["ElementDoneBlock"] = {
 					},
@@ -9608,48 +9490,51 @@ RecountPerCharDB = {
 					},
 					["OverHeals"] = {
 					},
-					["ManaGainedFrom"] = {
-					},
-					["RunicPowerGained"] = {
-					},
-					["CCBreak"] = 0,
 					["RageGained"] = {
 					},
-					["HealedWho"] = {
-					},
+					["ActiveTime"] = 0,
+					["CCBreak"] = 0,
 					["EnergyGain"] = 0,
+					["WhoHealed"] = {
+					},
+					["PartialResist"] = {
+					},
 					["ManaGained"] = {
 					},
-					["FDamage"] = 0,
+					["ElementTakenAbsorb"] = {
+					},
 					["Interrupts"] = 0,
 					["Overhealing"] = 0,
-					["TimeSpent"] = {
-					},
-					["WhoDispelled"] = {
+					["ElementTakenResist"] = {
 					},
 					["InterruptData"] = {
 					},
-					["RunicPowerGain"] = 0,
+					["WhoDispelled"] = {
+					},
+					["TimeSpent"] = {
+					},
 					["Heals"] = {
 					},
-					["WhoHealed"] = {
-					},
+					["FDamage"] = 0,
 					["EnergyGained"] = {
 					},
-					["ActiveTime"] = 0,
-					["Healing"] = 0,
-					["FDamagedWho"] = {
+					["HealedWho"] = {
 					},
-					["Dispelled"] = 0,
+					["Healing"] = 0,
+					["RunicPowerGained"] = {
+					},
+					["ManaGainedFrom"] = {
+					},
 					["Attacks"] = {
 					},
 					["HealingTaken"] = 0,
-					["RageGain"] = 0,
+					["DamagedWho"] = {
+					},
 					["TimeDamage"] = 0,
 					["TimeDamaging"] = {
 					},
-					["ManaGain"] = 0,
-					["HOTs"] = {
+					["RunicPowerGain"] = 0,
+					["ElementTakenBlock"] = {
 					},
 					["DispelledWho"] = {
 					},
@@ -9720,6 +9605,16 @@ RecountPerCharDB = {
 							["amount"] = 1198,
 						},
 					},
+					["TimeDamaging"] = {
+						["Denathra"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 7.56,
+								},
+							},
+							["amount"] = 7.56,
+						},
+					},
 					["ElementHitsDone"] = {
 						["Melee"] = {
 							["Details"] = {
@@ -9728,16 +9623,6 @@ RecountPerCharDB = {
 								},
 							},
 							["amount"] = 3,
-						},
-					},
-					["DamagedWho"] = {
-						["Denathra"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 1198,
-								},
-							},
-							["amount"] = 1198,
 						},
 					},
 					["TimeDamage"] = 7.56,
@@ -9751,6 +9636,9 @@ RecountPerCharDB = {
 							["amount"] = 43303,
 						},
 					},
+					["ElementDone"] = {
+						["Melee"] = 1198,
+					},
 					["TimeSpent"] = {
 						["Denathra"] = {
 							["Details"] = {
@@ -9761,23 +9649,136 @@ RecountPerCharDB = {
 							["amount"] = 7.56,
 						},
 					},
-					["ElementDone"] = {
-						["Melee"] = 1198,
-					},
-					["TimeDamaging"] = {
+					["DamagedWho"] = {
 						["Denathra"] = {
 							["Details"] = {
 								["Melee"] = {
-									["count"] = 7.56,
+									["count"] = 1198,
 								},
 							},
-							["amount"] = 7.56,
+							["amount"] = 1198,
 						},
 					},
 				},
 			},
-			["UnitLockout"] = 1617372030,
-			["LastActive"] = 1617372033,
+			["Owner"] = false,
+			["DeathLogs"] = {
+				{
+					["MessageIncoming"] = {
+						true, -- [1]
+						false, -- [2]
+						false, -- [3]
+						true, -- [4]
+						false, -- [5]
+						true, -- [6]
+						true, -- [7]
+					},
+					["Messages"] = {
+						"Denathra Soul Fire Rattlegore Crit -17744 (Fire)", -- [1]
+						"Rattlegore Melee Denathra Hit -404 (101 Absorbed) (Physical)", -- [2]
+						"Rattlegore Melee Denathra Hit -392 (97 Absorbed) (Physical)", -- [3]
+						"Denathra Soul Fire Rattlegore Hit -7994 (Fire)", -- [4]
+						"Rattlegore Melee Denathra Hit -402 (100 Absorbed) (Physical)", -- [5]
+						"Denathra Soul Fire Rattlegore Crit -17565 (Fire)", -- [6]
+						"Rattlegore dies.", -- [7]
+					},
+					["DeathAt"] = 1617372035,
+					["HealthNum"] = {
+						0, -- [1]
+						0, -- [2]
+						41.20609675281644, -- [3]
+						14.71835652750166, -- [4]
+						14.71835652750166, -- [5]
+						0.003313452617627568, -- [6]
+						0, -- [7]
+					},
+					["MessageTimes"] = {
+						-7.944999999999709, -- [1]
+						-5.626000000000204, -- [2]
+						-3.605999999999767, -- [3]
+						-1.836999999999534, -- [4]
+						-1.569999999999709, -- [5]
+						-0.001000000000203727, -- [6]
+						0, -- [7]
+					},
+					["KilledBy"] = "Denathra",
+					["Health"] = {
+						"???", -- [1]
+						"???", -- [2]
+						"12436 (41%)", -- [3]
+						"4442 (14%)", -- [4]
+						"4442 (14%)", -- [5]
+						"1 (0%)", -- [6]
+						"0 (0%)", -- [7]
+					},
+					["EventNum"] = {
+						0, -- [1]
+						0, -- [2]
+						0, -- [3]
+						26.48774022531478, -- [4]
+						0, -- [5]
+						58.20079522862823, -- [6]
+						0, -- [7]
+					},
+					["MessageType"] = {
+						"DAMAGE", -- [1]
+						"DAMAGE", -- [2]
+						"DAMAGE", -- [3]
+						"DAMAGE", -- [4]
+						"DAMAGE", -- [5]
+						"DAMAGE", -- [6]
+						"MISC", -- [7]
+					},
+				}, -- [1]
+			},
+			["NextEventNum"] = 8,
+			["LastEventHealthNum"] = {
+				0, -- [1]
+				0, -- [2]
+				41.20609675281644, -- [3]
+				14.71835652750166, -- [4]
+				14.71835652750166, -- [5]
+				0.003313452617627568, -- [6]
+				0, -- [7]
+			},
+			["LastEvents"] = {
+				"Denathra Soul Fire Rattlegore Crit -17744 (Fire)", -- [1]
+				"Rattlegore Melee Denathra Hit -404 (101 Absorbed) (Physical)", -- [2]
+				"Rattlegore Melee Denathra Hit -392 (97 Absorbed) (Physical)", -- [3]
+				"Denathra Soul Fire Rattlegore Hit -7994 (Fire)", -- [4]
+				"Rattlegore Melee Denathra Hit -402 (100 Absorbed) (Physical)", -- [5]
+				"Denathra Soul Fire Rattlegore Crit -17565 (Fire)", -- [6]
+				"Rattlegore dies.", -- [7]
+			},
+			["Name"] = "Rattlegore",
+			["LastEventIncoming"] = {
+				true, -- [1]
+				false, -- [2]
+				false, -- [3]
+				true, -- [4]
+				false, -- [5]
+				true, -- [6]
+				true, -- [7]
+			},
+			["TimeLast"] = {
+				["DeathCount"] = 1617372033,
+				["ActiveTime"] = 1617372032,
+				["TimeDamage"] = 1617372032,
+				["OVERALL"] = 1617372033,
+				["DamageTaken"] = 1617372033,
+				["Damage"] = 1617372032,
+			},
+			["unit"] = "playertarget",
+			["LastEventTimes"] = {
+				9581.191000000001, -- [1]
+				9583.51, -- [2]
+				9585.530000000001, -- [3]
+				9587.299000000001, -- [4]
+				9587.566000000001, -- [5]
+				9589.135, -- [6]
+				9589.136, -- [7]
+			},
+			["LastAbility"] = 1519.363,
 		},
 		["Jandice Barov"] = {
 			["GUID"] = "0xF130002907000166",
@@ -9787,8 +9788,8 @@ RecountPerCharDB = {
 			["Owner"] = false,
 			["enClass"] = "MOB",
 			["LastDamageTaken"] = 14781,
-			["LastAbility"] = 9425.326999999999,
-			["LastDamageAbility"] = "Shadow Bolt",
+			["LastFightIn"] = 28,
+			["UnitLockout"] = 1617371867,
 			["Name"] = "Jandice Barov",
 			["LastActive"] = 1617371870,
 			["Fights"] = {
@@ -9805,43 +9806,40 @@ RecountPerCharDB = {
 					},
 					["DeathCount"] = 0,
 					["HOT_Time"] = 0,
-					["ElementHitsDone"] = {
+					["HOTs"] = {
 					},
-					["ElementTakenAbsorb"] = {
-					},
+					["ManaGain"] = 0,
 					["ElementTaken"] = {
 					},
 					["DOT_Time"] = 0,
 					["Damage"] = 0,
-					["ElementTakenBlock"] = {
+					["ElementDoneAbsorb"] = {
 					},
 					["TimeHeal"] = 0,
 					["RessedWho"] = {
 					},
 					["Dispels"] = 0,
-					["ElementTakenResist"] = {
-					},
-					["ElementDoneAbsorb"] = {
-					},
-					["FAttacks"] = {
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementDone"] = {
-					},
 					["PartialAbsorb"] = {
 					},
-					["DamagedWho"] = {
+					["RageGain"] = 0,
+					["FAttacks"] = {
 					},
 					["PartialBlock"] = {
 					},
+					["ElementDone"] = {
+					},
+					["CCBroken"] = {
+					},
+					["ElementHitsDone"] = {
+					},
+					["Dispelled"] = 0,
 					["WhoDamaged"] = {
 					},
 					["EnergyGainedFrom"] = {
 					},
-					["PartialResist"] = {
+					["FDamagedWho"] = {
 					},
-					["CCBroken"] = {
+					["RunicPowerGainedFrom"] = {
 					},
 					["ElementDoneBlock"] = {
 					},
@@ -9849,48 +9847,51 @@ RecountPerCharDB = {
 					},
 					["OverHeals"] = {
 					},
-					["ManaGainedFrom"] = {
-					},
-					["RunicPowerGained"] = {
-					},
-					["CCBreak"] = 0,
 					["RageGained"] = {
 					},
-					["HealedWho"] = {
-					},
+					["ActiveTime"] = 0,
+					["CCBreak"] = 0,
 					["EnergyGain"] = 0,
+					["WhoHealed"] = {
+					},
+					["PartialResist"] = {
+					},
 					["ManaGained"] = {
 					},
-					["FDamage"] = 0,
+					["ElementTakenAbsorb"] = {
+					},
 					["Interrupts"] = 0,
 					["Overhealing"] = 0,
-					["TimeSpent"] = {
-					},
-					["WhoDispelled"] = {
+					["ElementTakenResist"] = {
 					},
 					["InterruptData"] = {
 					},
-					["RunicPowerGain"] = 0,
+					["WhoDispelled"] = {
+					},
+					["TimeSpent"] = {
+					},
 					["Heals"] = {
 					},
-					["WhoHealed"] = {
-					},
+					["FDamage"] = 0,
 					["EnergyGained"] = {
 					},
-					["ActiveTime"] = 0,
-					["Healing"] = 0,
-					["FDamagedWho"] = {
+					["HealedWho"] = {
 					},
-					["Dispelled"] = 0,
+					["Healing"] = 0,
+					["RunicPowerGained"] = {
+					},
+					["ManaGainedFrom"] = {
+					},
 					["Attacks"] = {
 					},
 					["HealingTaken"] = 0,
-					["RageGain"] = 0,
+					["DamagedWho"] = {
+					},
 					["TimeDamage"] = 0,
 					["TimeDamaging"] = {
 					},
-					["ManaGain"] = 0,
-					["HOTs"] = {
+					["RunicPowerGain"] = 0,
+					["ElementTakenBlock"] = {
 					},
 					["DispelledWho"] = {
 					},
@@ -9908,43 +9909,40 @@ RecountPerCharDB = {
 					},
 					["DeathCount"] = 0,
 					["HOT_Time"] = 0,
-					["ElementHitsDone"] = {
+					["HOTs"] = {
 					},
-					["ElementTakenAbsorb"] = {
-					},
+					["ManaGain"] = 0,
 					["ElementTaken"] = {
 					},
 					["DOT_Time"] = 0,
 					["Damage"] = 0,
-					["ElementTakenBlock"] = {
+					["ElementDoneAbsorb"] = {
 					},
 					["TimeHeal"] = 0,
 					["RessedWho"] = {
 					},
 					["Dispels"] = 0,
-					["ElementTakenResist"] = {
-					},
-					["ElementDoneAbsorb"] = {
-					},
-					["FAttacks"] = {
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementDone"] = {
-					},
 					["PartialAbsorb"] = {
 					},
-					["DamagedWho"] = {
+					["RageGain"] = 0,
+					["FAttacks"] = {
 					},
 					["PartialBlock"] = {
 					},
+					["ElementDone"] = {
+					},
+					["CCBroken"] = {
+					},
+					["ElementHitsDone"] = {
+					},
+					["Dispelled"] = 0,
 					["WhoDamaged"] = {
 					},
 					["EnergyGainedFrom"] = {
 					},
-					["PartialResist"] = {
+					["FDamagedWho"] = {
 					},
-					["CCBroken"] = {
+					["RunicPowerGainedFrom"] = {
 					},
 					["ElementDoneBlock"] = {
 					},
@@ -9952,62 +9950,57 @@ RecountPerCharDB = {
 					},
 					["OverHeals"] = {
 					},
-					["ManaGainedFrom"] = {
-					},
-					["RunicPowerGained"] = {
-					},
-					["CCBreak"] = 0,
 					["RageGained"] = {
 					},
-					["HealedWho"] = {
-					},
+					["ActiveTime"] = 0,
+					["CCBreak"] = 0,
 					["EnergyGain"] = 0,
+					["WhoHealed"] = {
+					},
+					["PartialResist"] = {
+					},
 					["ManaGained"] = {
 					},
-					["FDamage"] = 0,
+					["ElementTakenAbsorb"] = {
+					},
 					["Interrupts"] = 0,
 					["Overhealing"] = 0,
-					["TimeSpent"] = {
-					},
-					["WhoDispelled"] = {
+					["ElementTakenResist"] = {
 					},
 					["InterruptData"] = {
 					},
-					["RunicPowerGain"] = 0,
+					["WhoDispelled"] = {
+					},
+					["TimeSpent"] = {
+					},
 					["Heals"] = {
 					},
-					["WhoHealed"] = {
-					},
+					["FDamage"] = 0,
 					["EnergyGained"] = {
 					},
-					["ActiveTime"] = 0,
-					["Healing"] = 0,
-					["FDamagedWho"] = {
+					["HealedWho"] = {
 					},
-					["Dispelled"] = 0,
+					["Healing"] = 0,
+					["RunicPowerGained"] = {
+					},
+					["ManaGainedFrom"] = {
+					},
 					["Attacks"] = {
 					},
 					["HealingTaken"] = 0,
-					["RageGain"] = 0,
+					["DamagedWho"] = {
+					},
 					["TimeDamage"] = 0,
 					["TimeDamaging"] = {
 					},
-					["ManaGain"] = 0,
-					["HOTs"] = {
+					["RunicPowerGain"] = 0,
+					["ElementTakenBlock"] = {
 					},
 					["DispelledWho"] = {
 					},
 				},
 				["OverallData"] = {
 					["WhoDamaged"] = {
-						["Denathra"] = {
-							["Details"] = {
-								["Shadow Bolt"] = {
-									["count"] = 29649,
-								},
-							},
-							["amount"] = 29649,
-						},
 						["Shaathun <Denathra>"] = {
 							["Details"] = {
 								["Melee"] = {
@@ -10019,16 +10012,16 @@ RecountPerCharDB = {
 							},
 							["amount"] = 6011,
 						},
-					},
-					["TimeSpent"] = {
 						["Denathra"] = {
 							["Details"] = {
-								["Melee"] = {
-									["count"] = 2,
+								["Shadow Bolt"] = {
+									["count"] = 29649,
 								},
 							},
-							["amount"] = 2,
+							["amount"] = 29649,
 						},
+					},
+					["TimeSpent"] = {
 						["Shaathun <Denathra>"] = {
 							["Details"] = {
 								["Melee"] = {
@@ -10036,6 +10029,14 @@ RecountPerCharDB = {
 								},
 							},
 							["amount"] = 3.5,
+						},
+						["Denathra"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 2,
+								},
+							},
+							["amount"] = 2,
 						},
 					},
 					["DamagedWho"] = {
@@ -10049,14 +10050,6 @@ RecountPerCharDB = {
 						},
 					},
 					["TimeDamaging"] = {
-						["Denathra"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 2,
-								},
-							},
-							["amount"] = 2,
-						},
 						["Shaathun <Denathra>"] = {
 							["Details"] = {
 								["Melee"] = {
@@ -10065,12 +10058,20 @@ RecountPerCharDB = {
 							},
 							["amount"] = 3.5,
 						},
+						["Denathra"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 2,
+								},
+							},
+							["amount"] = 2,
+						},
 					},
 				},
 			},
 			["level"] = 61,
-			["UnitLockout"] = 1617371867,
-			["LastFightIn"] = 28,
+			["LastDamageAbility"] = "Shadow Bolt",
+			["LastAbility"] = 1519.363,
 		},
 		["Denathra"] = {
 			["GUID"] = "0x0700000000004B99",
@@ -10109,11 +10110,11 @@ RecountPerCharDB = {
 				"24963 (100%)", -- [32]
 				"24963 (100%)", -- [33]
 				"24963 (100%)", -- [34]
-				"21681 (86%)", -- [35]
-				"21681 (86%)", -- [36]
-				"21699 (86%)", -- [37]
-				"21699 (86%)", -- [38]
-				"22348 (89%)", -- [39]
+				"24963 (100%)", -- [35]
+				"24963 (100%)", -- [36]
+				"24963 (100%)", -- [37]
+				"24963 (100%)", -- [38]
+				"24963 (100%)", -- [39]
 				"22348 (89%)", -- [40]
 				"22348 (89%)", -- [41]
 				"22348 (89%)", -- [42]
@@ -10163,9 +10164,9 @@ RecountPerCharDB = {
 				"HEAL", -- [33]
 				"HEAL", -- [34]
 				"HEAL", -- [35]
-				"DAMAGE", -- [36]
+				"HEAL", -- [36]
 				"HEAL", -- [37]
-				"DAMAGE", -- [38]
+				"HEAL", -- [38]
 				"HEAL", -- [39]
 				"HEAL", -- [40]
 				"DAMAGE", -- [41]
@@ -10189,20 +10190,20 @@ RecountPerCharDB = {
 				["DamageTaken"] = {
 					51712, -- [1]
 				},
-				["ActiveTime"] = {
-					889.9800000000033, -- [1]
-				},
-				["HOT_Time"] = {
-					465, -- [1]
-				},
-				["HealingTaken"] = {
-					85679, -- [1]
-				},
 				["FDamage"] = {
 					12663, -- [1]
 				},
 				["TimeDamage"] = {
 					662.4799999999997, -- [1]
+				},
+				["HealingTaken"] = {
+					85679, -- [1]
+				},
+				["HOT_Time"] = {
+					465, -- [1]
+				},
+				["ActiveTime"] = {
+					889.9800000000033, -- [1]
 				},
 				["Overhealing"] = {
 					427134, -- [1]
@@ -10219,7 +10220,7 @@ RecountPerCharDB = {
 			},
 			["enClass"] = "WARLOCK",
 			["unit"] = "Denathra",
-			["LastDamageTaken"] = 83,
+			["LastActive"] = 1622316893,
 			["level"] = 80,
 			["LastDamageAbility"] = "Melee",
 			["LastFightIn"] = 68,
@@ -10233,7 +10234,9 @@ RecountPerCharDB = {
 				[16] = 2.599847774706566,
 				[33] = 2.599847774706566,
 				[17] = 2.599847774706566,
+				[35] = 2.599847774706566,
 				[18] = 2.599847774706566,
+				[37] = 2.599847774706566,
 				[19] = 2.599847774706566,
 				[39] = 2.599847774706566,
 				[20] = 2.599847774706566,
@@ -10241,9841 +10244,24 @@ RecountPerCharDB = {
 				[22] = 2.599847774706566,
 				[11] = 2.599847774706566,
 				[23] = 2.599847774706566,
+				[38] = 2.599847774706566,
 				[24] = 2.599847774706566,
+				[36] = 2.599847774706566,
 				[25] = 2.599847774706566,
-				[32] = 2.599847774706566,
+				[44] = 2.599847774706566,
 				[6] = 2.599847774706566,
 				[26] = 2.599847774706566,
 				[27] = 2.599847774706566,
 				[34] = 2.599847774706566,
 				[28] = 2.599847774706566,
-				[44] = 2.599847774706566,
+				[32] = 2.599847774706566,
 			},
 			["type"] = "Self",
 			["FightsSaved"] = 5,
-			["TimeLast"] = {
-				["TimeHeal"] = 1617372784,
-				["ActiveTime"] = 1617372786,
-				["OVERALL"] = 1617372786,
-				["DamageTaken"] = 1617372714,
-				["Healing"] = 1617372784,
-				["HOT_Time"] = 1617372784,
-				["HealingTaken"] = 1617372784,
-				["Overhealing"] = 1617372786,
-				["TimeDamage"] = 1617372786,
-				["FDamage"] = 1617372714,
-				["ManaGain"] = 1617372745,
-				["DOT_Time"] = 1617372571,
-				["Damage"] = 1617372786,
-			},
-			["LastAbility"] = 10341.984,
-			["Owner"] = false,
-			["Pet"] = {
-				"Selrah <Denathra>", -- [1]
-				"Shaathun <Denathra>", -- [2]
-			},
-			["NextEventNum"] = 35,
-			["LastEventHealthNum"] = {
-				94.72419180386973, -- [1]
-				94.72419180386973, -- [2]
-				94.72419180386973, -- [3]
-				94.79629852181228, -- [4]
-				94.79629852181228, -- [5]
-				97.39614629651885, -- [6]
-				97.39614629651885, -- [7]
-				97.39614629651885, -- [8]
-				97.46424708568682, -- [9]
-				97.46424708568682, -- [10]
-				100, -- [11]
-				100, -- [12]
-				100, -- [13]
-				100, -- [14]
-				100, -- [15]
-				100, -- [16]
-				100, -- [17]
-				100, -- [18]
-				100, -- [19]
-				100, -- [20]
-				100, -- [21]
-				100, -- [22]
-				100, -- [23]
-				100, -- [24]
-				100, -- [25]
-				100, -- [26]
-				100, -- [27]
-				100, -- [28]
-				100, -- [29]
-				100, -- [30]
-				100, -- [31]
-				100, -- [32]
-				100, -- [33]
-				100, -- [34]
-				86.85254176180747, -- [35]
-				86.85254176180747, -- [36]
-				86.92464847975003, -- [37]
-				86.92464847975003, -- [38]
-				89.52449625445659, -- [39]
-				89.52449625445659, -- [40]
-				89.52449625445659, -- [41]
-				89.52449625445659, -- [42]
-				89.52449625445659, -- [43]
-				92.12434402916317, -- [44]
-				92.12434402916317, -- [45]
-				92.12434402916317, -- [46]
-				92.12434402916317, -- [47]
-				92.12434402916317, -- [48]
-				92.12434402916317, -- [49]
-				92.12434402916317, -- [50]
-			},
-			["LastEvents"] = {
-				"Denathra Fel Armor Denathra Tick +649", -- [1]
-				"Denathra Fel Synergy Shaathun <Denathra> Hit +1266 (1266 overheal)", -- [2]
-				"Denathra Soul Fire Spectral Tutor Hit -8445 (Fire)", -- [3]
-				"Denathra Fel Synergy Shaathun <Denathra> Hit +2299 (2299 overheal)", -- [4]
-				"Denathra Soul Fire Risen Protector Crit -15329 (Fire)", -- [5]
-				"Denathra Fel Armor Denathra Tick +649", -- [6]
-				"Denathra Fel Synergy Shaathun <Denathra> Hit +2336 (2336 overheal)", -- [7]
-				"Denathra Soul Fire Scholomance Adept Crit -15574 (Fire)", -- [8]
-				"Denathra Fel Synergy Shaathun <Denathra> Hit +2294 (2294 overheal)", -- [9]
-				"Denathra Soul Fire Scholomance Necromancer Crit -15295 (Fire)", -- [10]
-				"Denathra Fel Armor Denathra Tick +649 (16 overheal)", -- [11]
-				"Denathra Fel Synergy Shaathun <Denathra> Hit +1097 (1097 overheal)", -- [12]
-				"Denathra Soul Fire Spectral Tutor Hit -7315 (Fire)", -- [13]
-				"Denathra Fel Armor Denathra Tick +649 (649 overheal)", -- [14]
-				"Denathra Fel Armor Denathra Tick +649 (649 overheal)", -- [15]
-				"Denathra Fel Armor Denathra Tick +649 (649 overheal)", -- [16]
-				"Denathra Fel Armor Denathra Tick +649 (649 overheal)", -- [17]
-				"Denathra Fel Armor Denathra Tick +649 (649 overheal)", -- [18]
-				"Denathra Fel Armor Denathra Tick +649 (649 overheal)", -- [19]
-				"Denathra Fel Armor Denathra Tick +649 (649 overheal)", -- [20]
-				"Denathra Fel Armor Denathra Tick +649 (649 overheal)", -- [21]
-				"Denathra Fel Armor Denathra Tick +649 (649 overheal)", -- [22]
-				"Denathra Fel Armor Denathra Tick +649 (649 overheal)", -- [23]
-				"Denathra Fel Armor Denathra Tick +649 (649 overheal)", -- [24]
-				"Denathra Fel Armor Denathra Tick +649 (649 overheal)", -- [25]
-				"Denathra Fel Armor Denathra Tick +649 (649 overheal)", -- [26]
-				"Denathra Fel Armor Denathra Tick +649 (649 overheal)", -- [27]
-				"Denathra Fel Armor Denathra Tick +649 (649 overheal)", -- [28]
-				"Denathra Fel Armor Denathra Tick +649 (649 overheal)", -- [29]
-				"Denathra Fel Armor Denathra Tick +649 (649 overheal)", -- [30]
-				"Denathra Fel Armor Denathra Tick +649 (649 overheal)", -- [31]
-				"Denathra Fel Armor Denathra Tick +649 (649 overheal)", -- [32]
-				"Denathra Fel Armor Denathra Tick +649 (649 overheal)", -- [33]
-				"Denathra Fel Armor Denathra Tick +649 (649 overheal)", -- [34]
-				"Denathra Fel Synergy Shaathun <Denathra> Hit +1235 (1235 overheal)", -- [35]
-				"Denathra Soul Fire Spectral Tutor Hit -8234 (Fire)", -- [36]
-				"Denathra Fel Synergy Shaathun <Denathra> Hit +2272 (2272 overheal)", -- [37]
-				"Denathra Soul Fire Scholomance Adept Crit -15153 (Fire)", -- [38]
-				"Denathra Fel Armor Denathra Tick +649", -- [39]
-				"Denathra Fel Synergy Shaathun <Denathra> Hit +2634 (2634 overheal)", -- [40]
-				"Denathra Soul Fire Scholomance Necromancer Crit -17564 (Fire)", -- [41]
-				"Denathra Fel Synergy Shaathun <Denathra> Hit +2722 (2722 overheal)", -- [42]
-				"Denathra Soul Fire Spectral Tutor Crit -18153 (Fire)", -- [43]
-				"Denathra Fel Armor Denathra Tick +649", -- [44]
-				"Denathra Fel Synergy Shaathun <Denathra> Hit +2673 (2673 overheal)", -- [45]
-				"Denathra Soul Fire Scholomance Adept Crit -17826 (Fire)", -- [46]
-				"Denathra Fel Synergy Shaathun <Denathra> Hit +1259 (1259 overheal)", -- [47]
-				"Denathra Soul Fire Scholomance Adept Hit -8398 (Fire)", -- [48]
-				"Denathra Fel Synergy Shaathun <Denathra> Hit +2672 (2672 overheal)", -- [49]
-				"Denathra Soul Fire Scholomance Necromancer Crit -17818 (Fire)", -- [50]
-			},
-			["Name"] = "Denathra",
-			["LastEventIncoming"] = {
-				true, -- [1]
-				false, -- [2]
-				false, -- [3]
-				false, -- [4]
-				false, -- [5]
-				true, -- [6]
-				false, -- [7]
-				false, -- [8]
-				false, -- [9]
-				false, -- [10]
-				true, -- [11]
-				false, -- [12]
-				false, -- [13]
-				true, -- [14]
-				true, -- [15]
-				true, -- [16]
-				true, -- [17]
-				true, -- [18]
-				true, -- [19]
-				true, -- [20]
-				true, -- [21]
-				true, -- [22]
-				true, -- [23]
-				true, -- [24]
-				true, -- [25]
-				true, -- [26]
-				true, -- [27]
-				true, -- [28]
-				true, -- [29]
-				true, -- [30]
-				true, -- [31]
-				true, -- [32]
-				true, -- [33]
-				true, -- [34]
-				false, -- [35]
-				false, -- [36]
-				false, -- [37]
-				false, -- [38]
-				true, -- [39]
-				false, -- [40]
-				false, -- [41]
-				false, -- [42]
-				false, -- [43]
-				true, -- [44]
-				false, -- [45]
-				false, -- [46]
-				false, -- [47]
-				false, -- [48]
-				false, -- [49]
-				false, -- [50]
-			},
-			["LastEventTimes"] = {
-				10330.2, -- [1]
-				10331.668, -- [2]
-				10331.668, -- [3]
-				10335.09, -- [4]
-				10335.09, -- [5]
-				10335.173, -- [6]
-				10337.11, -- [7]
-				10337.111, -- [8]
-				10340.181, -- [9]
-				10340.181, -- [10]
-				10340.181, -- [11]
-				10341.983, -- [12]
-				10341.984, -- [13]
-				10345.238, -- [14]
-				10350.245, -- [15]
-				10355.253, -- [16]
-				10360.159, -- [17]
-				10365.267, -- [18]
-				10370.192, -- [19]
-				10375.181, -- [20]
-				10380.272, -- [21]
-				10385.163, -- [22]
-				10390.171, -- [23]
-				10395.161, -- [24]
-				10400.235, -- [25]
-				10405.193, -- [26]
-				10410.15, -- [27]
-				10415.157, -- [28]
-				10420.754, -- [29]
-				10425.827, -- [30]
-				10431.558, -- [31]
-				10435.926, -- [32]
-				10440.82, -- [33]
-				10445.946, -- [34]
-				10316.38, -- [35]
-				10316.38, -- [36]
-				10319.567, -- [37]
-				10319.567, -- [38]
-				10320.218, -- [39]
-				10321.236, -- [40]
-				10321.236, -- [41]
-				10323.106, -- [42]
-				10323.107, -- [43]
-				10325.192, -- [44]
-				10326.361, -- [45]
-				10326.361, -- [46]
-				10328.18, -- [47]
-				10328.18, -- [48]
-				10329.9, -- [49]
-				10329.9, -- [50]
-			},
+			["UnitLockout"] = 1617371146,
 			["Fights"] = {
-				["Fight5"] = {
-					["DOTs"] = {
-					},
-					["ElementDoneResist"] = {
-					},
-					["Ressed"] = 0,
-					["DamageTaken"] = 0,
-					["RageGainedFrom"] = {
-					},
-					["ElementHitsTaken"] = {
-						["Shadow"] = {
-							["Details"] = {
-								["Miss"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["Parry"] = {
-									["count"] = 0,
-								},
-								["Dodge"] = {
-									["count"] = 0,
-								},
-								["Miss"] = {
-									["count"] = 0,
-								},
-								["Hit"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Nature"] = {
-							["Details"] = {
-								["Miss"] = {
-									["count"] = 0,
-								},
-								["Tick"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["DeathCount"] = 0,
-					["HOT_Time"] = 3,
-					["ElementHitsDone"] = {
-						["Shadow"] = {
-							["Details"] = {
-								["Immune"] = {
-									["count"] = 0,
-								},
-								["Crit"] = {
-									["count"] = 0,
-								},
-								["Hit"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Fire"] = {
-							["Details"] = {
-								["Immune"] = {
-									["count"] = 0,
-								},
-								["Crit"] = {
-									["count"] = 2,
-								},
-								["Hit"] = {
-									["count"] = 1,
-								},
-							},
-							["amount"] = 3,
-						},
-					},
-					["ElementTakenAbsorb"] = {
-						["Melee"] = 0,
-						["Nature"] = 0,
-					},
-					["ElementTaken"] = {
-						["Melee"] = 0,
-						["Nature"] = 0,
-					},
-					["DOT_Time"] = 0,
-					["Damage"] = 42118,
-					["ElementTakenBlock"] = {
-					},
-					["TimeHeal"] = 0.53,
-					["RessedWho"] = {
-					},
-					["Dispels"] = 0,
-					["ElementTakenResist"] = {
-						["Nature"] = 0,
-					},
-					["ElementDoneAbsorb"] = {
-					},
-					["FAttacks"] = {
-						["Soul Link"] = {
-							["Details"] = {
-								["Split"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementDone"] = {
-						["Shadow"] = 0,
-						["Fire"] = 42118,
-					},
-					["PartialAbsorb"] = {
-						["Cripple"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Absorbed"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Mana Burn"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Shadow Word: Pain"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Mind Flay"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Cloud of Disease (DoT)"] = {
-							["Details"] = {
-								["Absorbed"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Shadow Bolt"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Wail of Souls"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Wandering Plague"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Disease Cloud"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["DamagedWho"] = {
-						["Scholomance Adept"] = {
-							["Details"] = {
-								["Soul Fire"] = {
-									["count"] = 17009,
-								},
-							},
-							["amount"] = 17009,
-						},
-						["Scholomance Neophyte"] = {
-							["Details"] = {
-								["Immolation"] = {
-									["count"] = 0,
-								},
-								["Soul Fire"] = {
-									["count"] = 0,
-								},
-								["Shadow Bolt"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Diseased Ghoul"] = {
-							["Details"] = {
-								["Rain of Fire"] = {
-									["count"] = 0,
-								},
-								["Immolation"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Risen Protector"] = {
-							["Details"] = {
-								["Soul Fire"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Spectral Researcher"] = {
-							["Details"] = {
-								["Immolation"] = {
-									["count"] = 0,
-								},
-								["Shadow Bolt"] = {
-									["count"] = 0,
-								},
-								["Soul Fire"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Jandice Barov"] = {
-							["Details"] = {
-								["Shadow Bolt"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Blood Steward of Kirtonos"] = {
-							["Details"] = {
-								["Immolation"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Scholomance Necromancer"] = {
-							["Details"] = {
-								["Shadow Bolt"] = {
-									["count"] = 0,
-								},
-								["Soul Fire"] = {
-									["count"] = 16875,
-								},
-							},
-							["amount"] = 16875,
-						},
-						["Plagued Hatchling"] = {
-							["Details"] = {
-								["Soul Fire"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Scholomance Acolyte"] = {
-							["Details"] = {
-								["Immolation"] = {
-									["count"] = 0,
-								},
-								["Soul Fire"] = {
-									["count"] = 0,
-								},
-								["Shadow Bolt"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Rat"] = {
-							["Details"] = {
-								["Immolation"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Reanimated Corpse"] = {
-							["Details"] = {
-								["Rain of Fire"] = {
-									["count"] = 0,
-								},
-								["Immolation"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Scholomance Dark Summoner"] = {
-							["Details"] = {
-								["Soul Fire"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Scholomance Handler"] = {
-							["Details"] = {
-								["Shadow Bolt"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Necrofiend"] = {
-							["Details"] = {
-								["Immolation"] = {
-									["count"] = 0,
-								},
-								["Soul Fire"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Spectral Tutor"] = {
-							["Details"] = {
-								["Soul Fire"] = {
-									["count"] = 8234,
-								},
-								["Shadow Bolt"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 8234,
-						},
-						["Risen Construct"] = {
-							["Details"] = {
-								["Soul Fire"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Risen Guard"] = {
-							["Details"] = {
-								["Soul Fire"] = {
-									["count"] = 0,
-								},
-								["Immolation"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Scholomance Necrolyte"] = {
-							["Details"] = {
-								["Soul Fire"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["PartialBlock"] = {
-					},
-					["WhoDamaged"] = {
-						["Scholomance Dark Summoner"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Scholomance Neophyte"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Diseased Ghoul"] = {
-							["Details"] = {
-								["Cloud of Disease (DoT)"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Risen Aberration"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Necrofiend"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Spectral Researcher"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Reanimated Corpse"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Blood Steward of Kirtonos"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Risen Guard"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["EnergyGainedFrom"] = {
-					},
-					["PartialResist"] = {
-						["Cripple"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Mana Burn"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Shadow Word: Pain"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Mind Flay"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Cloud of Disease (DoT)"] = {
-							["Details"] = {
-								["50%Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Shadow Bolt"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Wail of Souls"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Wandering Plague"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Disease Cloud"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["CCBroken"] = {
-					},
-					["ElementDoneBlock"] = {
-					},
-					["TimeHealing"] = {
-						["Denathra"] = {
-							["Details"] = {
-								["Fel Armor"] = {
-									["count"] = 0.53,
-								},
-							},
-							["amount"] = 0.53,
-						},
-						["Shaathun <Denathra>"] = {
-							["Details"] = {
-								["Fel Synergy"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["OverHeals"] = {
-						["Fel Armor"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Fel Synergy"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 2551,
-									["min"] = 0,
-									["count"] = 2,
-									["amount"] = 3786,
-								},
-							},
-							["count"] = 2,
-							["amount"] = 3786,
-						},
-					},
-					["ManaGainedFrom"] = {
-						["Denathra"] = {
-							["Details"] = {
-								["Life Tap"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["RunicPowerGained"] = {
-					},
-					["CCBreak"] = 0,
-					["RageGained"] = {
-					},
-					["HealedWho"] = {
-						["Denathra"] = {
-							["Details"] = {
-								["Fel Armor"] = {
-									["count"] = 649,
-								},
-							},
-							["amount"] = 649,
-						},
-						["Shaathun <Denathra>"] = {
-							["Details"] = {
-								["Fel Synergy"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["EnergyGain"] = 0,
-					["ManaGained"] = {
-						["Life Tap"] = {
-							["Details"] = {
-								["Denathra"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
-					["Overhealing"] = 3786,
-					["TimeSpent"] = {
-						["Scholomance Dark Summoner"] = {
-							["Details"] = {
-								["Soul Fire"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Shaathun <Denathra>"] = {
-							["Details"] = {
-								["Fel Synergy"] = {
-									["count"] = 0,
-								},
-								["Soul Link"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Scholomance Neophyte"] = {
-							["Details"] = {
-								["Immolation"] = {
-									["count"] = 0,
-								},
-								["Soul Fire"] = {
-									["count"] = 0,
-								},
-								["Shadow Bolt"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Diseased Ghoul"] = {
-							["Details"] = {
-								["Rain of Fire"] = {
-									["count"] = 0,
-								},
-								["Immolation"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Risen Aberration"] = {
-							["Details"] = {
-								["Soulshatter"] = {
-									["count"] = 0,
-								},
-								["Immolation"] = {
-									["count"] = 0,
-								},
-								["Drain Life"] = {
-									["count"] = 0,
-								},
-								["Rain of Fire"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Risen Protector"] = {
-							["Details"] = {
-								["Soul Fire"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Spectral Researcher"] = {
-							["Details"] = {
-								["Immolation"] = {
-									["count"] = 0,
-								},
-								["Shadow Bolt"] = {
-									["count"] = 0,
-								},
-								["Soul Fire"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Jandice Barov"] = {
-							["Details"] = {
-								["Shadow Bolt"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Blood Steward of Kirtonos"] = {
-							["Details"] = {
-								["Immolation"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Scholomance Necromancer"] = {
-							["Details"] = {
-								["Shadow Bolt"] = {
-									["count"] = 0,
-								},
-								["Soul Fire"] = {
-									["count"] = 3.5,
-								},
-							},
-							["amount"] = 3.5,
-						},
-						["Plagued Hatchling"] = {
-							["Details"] = {
-								["Soul Fire"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Scholomance Acolyte"] = {
-							["Details"] = {
-								["Immolation"] = {
-									["count"] = 0,
-								},
-								["Soul Fire"] = {
-									["count"] = 0,
-								},
-								["Shadow Bolt"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Rat"] = {
-							["Details"] = {
-								["Immolation"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Spectral Tutor"] = {
-							["Details"] = {
-								["Soul Fire"] = {
-									["count"] = 1.2,
-								},
-								["Shadow Bolt"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 1.2,
-						},
-						["Reanimated Corpse"] = {
-							["Details"] = {
-								["Rain of Fire"] = {
-									["count"] = 0,
-								},
-								["Immolation"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Denathra"] = {
-							["Details"] = {
-								["Fel Armor"] = {
-									["count"] = 0.53,
-								},
-							},
-							["amount"] = 0.53,
-						},
-						["Scholomance Handler"] = {
-							["Details"] = {
-								["Shadow Bolt"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Necrofiend"] = {
-							["Details"] = {
-								["Immolation"] = {
-									["count"] = 0,
-								},
-								["Soul Fire"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Risen Guard"] = {
-							["Details"] = {
-								["Soul Fire"] = {
-									["count"] = 0,
-								},
-								["Immolation"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Risen Construct"] = {
-							["Details"] = {
-								["Soul Fire"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Scholomance Adept"] = {
-							["Details"] = {
-								["Soul Fire"] = {
-									["count"] = 1.75,
-								},
-							},
-							["amount"] = 1.75,
-						},
-						["Scholomance Necrolyte"] = {
-							["Details"] = {
-								["Soul Fire"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["WhoDispelled"] = {
-					},
-					["InterruptData"] = {
-					},
-					["RunicPowerGain"] = 0,
-					["Heals"] = {
-						["Fel Armor"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 649,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 649,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 649,
-						},
-						["Fel Synergy"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["WhoHealed"] = {
-						["Denathra"] = {
-							["Details"] = {
-								["Fel Armor"] = {
-									["count"] = 649,
-								},
-							},
-							["amount"] = 649,
-						},
-					},
-					["EnergyGained"] = {
-					},
-					["ActiveTime"] = 6.98,
-					["Healing"] = 649,
-					["FDamagedWho"] = {
-						["Shaathun <Denathra>"] = {
-							["Details"] = {
-								["Soul Link"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["Dispelled"] = 0,
-					["Attacks"] = {
-						["Drain Life"] = {
-							["Details"] = {
-								["Immune"] = {
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Soul Fire"] = {
-							["Details"] = {
-								["Crit"] = {
-									["max"] = 17009,
-									["min"] = 0,
-									["count"] = 2,
-									["amount"] = 33884,
-								},
-								["Hit"] = {
-									["max"] = 8234,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 8234,
-								},
-							},
-							["count"] = 3,
-							["amount"] = 42118,
-						},
-						["Soulshatter"] = {
-							["Details"] = {
-								["Immune"] = {
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Immolation"] = {
-							["Details"] = {
-								["Immune"] = {
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Rain of Fire"] = {
-							["Details"] = {
-								["Immune"] = {
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Crit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Shadow Bolt"] = {
-							["Details"] = {
-								["Crit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["HealingTaken"] = 649,
-					["RageGain"] = 0,
-					["TimeDamage"] = 6.45,
-					["TimeDamaging"] = {
-						["Scholomance Adept"] = {
-							["Details"] = {
-								["Soul Fire"] = {
-									["count"] = 1.75,
-								},
-							},
-							["amount"] = 1.75,
-						},
-						["Shaathun <Denathra>"] = {
-							["Details"] = {
-								["Soul Link"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Scholomance Neophyte"] = {
-							["Details"] = {
-								["Immolation"] = {
-									["count"] = 0,
-								},
-								["Soul Fire"] = {
-									["count"] = 0,
-								},
-								["Shadow Bolt"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Diseased Ghoul"] = {
-							["Details"] = {
-								["Rain of Fire"] = {
-									["count"] = 0,
-								},
-								["Immolation"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Risen Aberration"] = {
-							["Details"] = {
-								["Soulshatter"] = {
-									["count"] = 0,
-								},
-								["Immolation"] = {
-									["count"] = 0,
-								},
-								["Drain Life"] = {
-									["count"] = 0,
-								},
-								["Rain of Fire"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Risen Protector"] = {
-							["Details"] = {
-								["Soul Fire"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Spectral Researcher"] = {
-							["Details"] = {
-								["Immolation"] = {
-									["count"] = 0,
-								},
-								["Shadow Bolt"] = {
-									["count"] = 0,
-								},
-								["Soul Fire"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Jandice Barov"] = {
-							["Details"] = {
-								["Shadow Bolt"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Blood Steward of Kirtonos"] = {
-							["Details"] = {
-								["Immolation"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Scholomance Necromancer"] = {
-							["Details"] = {
-								["Shadow Bolt"] = {
-									["count"] = 0,
-								},
-								["Soul Fire"] = {
-									["count"] = 3.5,
-								},
-							},
-							["amount"] = 3.5,
-						},
-						["Plagued Hatchling"] = {
-							["Details"] = {
-								["Soul Fire"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Risen Guard"] = {
-							["Details"] = {
-								["Soul Fire"] = {
-									["count"] = 0,
-								},
-								["Immolation"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Rat"] = {
-							["Details"] = {
-								["Immolation"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Reanimated Corpse"] = {
-							["Details"] = {
-								["Rain of Fire"] = {
-									["count"] = 0,
-								},
-								["Immolation"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Scholomance Acolyte"] = {
-							["Details"] = {
-								["Immolation"] = {
-									["count"] = 0,
-								},
-								["Soul Fire"] = {
-									["count"] = 0,
-								},
-								["Shadow Bolt"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Scholomance Handler"] = {
-							["Details"] = {
-								["Shadow Bolt"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Necrofiend"] = {
-							["Details"] = {
-								["Immolation"] = {
-									["count"] = 0,
-								},
-								["Soul Fire"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Spectral Tutor"] = {
-							["Details"] = {
-								["Soul Fire"] = {
-									["count"] = 1.2,
-								},
-								["Shadow Bolt"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 1.2,
-						},
-						["Risen Construct"] = {
-							["Details"] = {
-								["Soul Fire"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Scholomance Dark Summoner"] = {
-							["Details"] = {
-								["Soul Fire"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Scholomance Necrolyte"] = {
-							["Details"] = {
-								["Soul Fire"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["ManaGain"] = 0,
-					["HOTs"] = {
-						["Fel Armor"] = {
-							["Details"] = {
-								["Denathra"] = {
-									["count"] = 3,
-								},
-							},
-							["amount"] = 3,
-						},
-					},
-					["DispelledWho"] = {
-					},
-				},
-				["Fight2"] = {
-					["DOTs"] = {
-						["Drain Life (DoT)"] = {
-							["Details"] = {
-								["Scholomance Adept"] = {
-									["count"] = 0,
-								},
-								["Risen Construct"] = {
-									["count"] = 0,
-								},
-								["Scholomance Necromancer"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Conflagrate (DoT)"] = {
-							["Details"] = {
-								["Scholomance Neophyte"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["ElementDoneResist"] = {
-					},
-					["Ressed"] = 0,
-					["DamageTaken"] = 0,
-					["RageGainedFrom"] = {
-					},
-					["ElementHitsTaken"] = {
-						["Shadow"] = {
-							["Details"] = {
-								["Miss"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["Parry"] = {
-									["count"] = 0,
-								},
-								["Miss"] = {
-									["count"] = 0,
-								},
-								["Dodge"] = {
-									["count"] = 0,
-								},
-								["Hit"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Frost"] = {
-							["Details"] = {
-								["Miss"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Physical"] = {
-							["Details"] = {
-								["Dodge"] = {
-									["count"] = 0,
-								},
-								["Hit"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Nature"] = {
-							["Details"] = {
-								["Miss"] = {
-									["count"] = 0,
-								},
-								["Tick"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["DeathCount"] = 0,
-					["HOT_Time"] = 3,
-					["ElementHitsDone"] = {
-						["Shadow"] = {
-							["Details"] = {
-								["Tick"] = {
-									["count"] = 0,
-								},
-								["Immune"] = {
-									["count"] = 0,
-								},
-								["Crit"] = {
-									["count"] = 0,
-								},
-								["Hit"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["Crit"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Fire"] = {
-							["Details"] = {
-								["Immune"] = {
-									["count"] = 0,
-								},
-								["Crit"] = {
-									["count"] = 2,
-								},
-								["Hit"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 2,
-						},
-					},
-					["ElementTakenAbsorb"] = {
-						["Physical"] = 0,
-						["Melee"] = 0,
-						["Nature"] = 0,
-					},
-					["ElementTaken"] = {
-						["Physical"] = 0,
-						["Melee"] = 0,
-						["Nature"] = 0,
-					},
-					["DOT_Time"] = 0,
-					["Damage"] = 30903,
-					["ElementTakenBlock"] = {
-					},
-					["TimeHeal"] = 0.08,
-					["RessedWho"] = {
-					},
-					["Dispels"] = 0,
-					["ElementTakenResist"] = {
-						["Nature"] = 0,
-					},
-					["ElementDoneAbsorb"] = {
-					},
-					["FAttacks"] = {
-						["Soul Link"] = {
-							["Details"] = {
-								["Split"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementDone"] = {
-						["Shadow"] = 0,
-						["Melee"] = 0,
-						["Fire"] = 30903,
-					},
-					["PartialAbsorb"] = {
-						["Cripple"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Trample"] = {
-							["Details"] = {
-								["Absorbed"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Absorbed"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Mana Burn"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Shadow Word: Pain"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Frostbolt"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Cloud of Disease (DoT)"] = {
-							["Details"] = {
-								["Absorbed"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Shadow Bolt"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Wail of Souls"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Arcing Smash"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Call of the Grave"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Disease Cloud"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["DamagedWho"] = {
-						["Scholomance Acolyte"] = {
-							["Details"] = {
-								["Shadowfury"] = {
-									["count"] = 0,
-								},
-								["Soul Fire"] = {
-									["count"] = 0,
-								},
-								["Incinerate"] = {
-									["count"] = 0,
-								},
-								["Immolate"] = {
-									["count"] = 0,
-								},
-								["Conflagrate"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Scholomance Necromancer"] = {
-							["Details"] = {
-								["Immolation"] = {
-									["count"] = 0,
-								},
-								["Drain Life (DoT)"] = {
-									["count"] = 0,
-								},
-								["Shadow Bolt"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Risen Guard"] = {
-							["Details"] = {
-								["Soul Fire"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Rattlegore"] = {
-							["Details"] = {
-								["Soul Fire"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Scholomance Dark Summoner"] = {
-							["Details"] = {
-								["Shadow Bolt"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Scholomance Neophyte"] = {
-							["Details"] = {
-								["Shadowfury"] = {
-									["count"] = 0,
-								},
-								["Soul Fire"] = {
-									["count"] = 0,
-								},
-								["Conflagrate (DoT)"] = {
-									["count"] = 0,
-								},
-								["Immolate"] = {
-									["count"] = 0,
-								},
-								["Conflagrate"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Diseased Ghoul"] = {
-							["Details"] = {
-								["Immolation"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Reanimated Corpse"] = {
-							["Details"] = {
-								["Immolation"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Rain of Fire"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Spectral Tutor"] = {
-							["Details"] = {
-								["Immolation"] = {
-									["count"] = 0,
-								},
-								["Shadow Bolt"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Risen Protector"] = {
-							["Details"] = {
-								["Soul Fire"] = {
-									["count"] = 15329,
-								},
-							},
-							["amount"] = 15329,
-						},
-						["Spectral Projection"] = {
-							["Details"] = {
-								["Immolation"] = {
-									["count"] = 0,
-								},
-								["Shadow Bolt"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Spectral Researcher"] = {
-							["Details"] = {
-								["Incinerate"] = {
-									["count"] = 0,
-								},
-								["Shadowfury"] = {
-									["count"] = 0,
-								},
-								["Soul Fire"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Risen Construct"] = {
-							["Details"] = {
-								["Drain Life (DoT)"] = {
-									["count"] = 0,
-								},
-								["Soul Fire"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Scholomance Adept"] = {
-							["Details"] = {
-								["Drain Life (DoT)"] = {
-									["count"] = 0,
-								},
-								["Immolation"] = {
-									["count"] = 0,
-								},
-								["Soul Fire"] = {
-									["count"] = 15574,
-								},
-								["Shadow Bolt"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 15574,
-						},
-						["Scholomance Necrolyte"] = {
-							["Details"] = {
-								["Soul Fire"] = {
-									["count"] = 0,
-								},
-								["Shadow Bolt"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["PartialBlock"] = {
-					},
-					["WhoDamaged"] = {
-						["Scholomance Necromancer"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Diseased Ghoul"] = {
-							["Details"] = {
-								["Cloud of Disease (DoT)"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Reanimated Corpse"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Trample"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Risen Guard"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Risen Protector"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Risen Aberration"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Spectral Researcher"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Risen Construct"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Rattlegore"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Spectral Tutor"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["EnergyGainedFrom"] = {
-					},
-					["PartialResist"] = {
-						["Cripple"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Trample"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Mana Burn"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Shadow Word: Pain"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Frostbolt"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Cloud of Disease (DoT)"] = {
-							["Details"] = {
-								["50%Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Shadow Bolt"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Wail of Souls"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Arcing Smash"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Call of the Grave"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Disease Cloud"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["CCBroken"] = {
-					},
-					["ElementDoneBlock"] = {
-					},
-					["TimeHealing"] = {
-						["Selrah <Denathra>"] = {
-							["Details"] = {
-								["Fel Synergy"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Denathra"] = {
-							["Details"] = {
-								["Drain Life"] = {
-									["count"] = 0,
-								},
-								["Fel Armor"] = {
-									["count"] = 0.08,
-								},
-							},
-							["amount"] = 0.08,
-						},
-						["Shaathun <Denathra>"] = {
-							["Details"] = {
-								["Fel Synergy"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["OverHeals"] = {
-						["Fel Armor"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Fel Synergy"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 2336,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 2336,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 2336,
-						},
-					},
-					["ManaGainedFrom"] = {
-						["Denathra"] = {
-							["Details"] = {
-								["Life Tap"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["RunicPowerGained"] = {
-					},
-					["CCBreak"] = 0,
-					["RageGained"] = {
-					},
-					["HealedWho"] = {
-						["Selrah <Denathra>"] = {
-							["Details"] = {
-								["Fel Synergy"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Denathra"] = {
-							["Details"] = {
-								["Drain Life"] = {
-									["count"] = 0,
-								},
-								["Fel Armor"] = {
-									["count"] = 649,
-								},
-							},
-							["amount"] = 649,
-						},
-						["Shaathun <Denathra>"] = {
-							["Details"] = {
-								["Fel Synergy"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["EnergyGain"] = 0,
-					["ManaGained"] = {
-						["Life Tap"] = {
-							["Details"] = {
-								["Denathra"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
-					["Overhealing"] = 2336,
-					["TimeSpent"] = {
-						["Scholomance Adept"] = {
-							["Details"] = {
-								["Drain Life (DoT)"] = {
-									["count"] = 0,
-								},
-								["Immolation"] = {
-									["count"] = 0,
-								},
-								["Soul Fire"] = {
-									["count"] = 1.94,
-								},
-								["Shadow Bolt"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 1.94,
-						},
-						["Denathra"] = {
-							["Details"] = {
-								["Drain Life"] = {
-									["count"] = 0,
-								},
-								["Fel Armor"] = {
-									["count"] = 0.08,
-								},
-							},
-							["amount"] = 0.08,
-						},
-						["Scholomance Neophyte"] = {
-							["Details"] = {
-								["Shadowfury"] = {
-									["count"] = 0,
-								},
-								["Soul Fire"] = {
-									["count"] = 0,
-								},
-								["Conflagrate (DoT)"] = {
-									["count"] = 0,
-								},
-								["Immolate"] = {
-									["count"] = 0,
-								},
-								["Conflagrate"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Diseased Ghoul"] = {
-							["Details"] = {
-								["Immolation"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Risen Aberration"] = {
-							["Details"] = {
-								["Immolation"] = {
-									["count"] = 0,
-								},
-								["Rain of Fire"] = {
-									["count"] = 0,
-								},
-								["Shadowflame"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Risen Protector"] = {
-							["Details"] = {
-								["Soul Fire"] = {
-									["count"] = 3.42,
-								},
-							},
-							["amount"] = 3.42,
-						},
-						["Spectral Researcher"] = {
-							["Details"] = {
-								["Incinerate"] = {
-									["count"] = 0,
-								},
-								["Shadowfury"] = {
-									["count"] = 0,
-								},
-								["Soul Fire"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Scholomance Acolyte"] = {
-							["Details"] = {
-								["Shadowfury"] = {
-									["count"] = 0,
-								},
-								["Soul Fire"] = {
-									["count"] = 0,
-								},
-								["Incinerate"] = {
-									["count"] = 0,
-								},
-								["Immolate"] = {
-									["count"] = 0,
-								},
-								["Conflagrate"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Scholomance Necromancer"] = {
-							["Details"] = {
-								["Immolation"] = {
-									["count"] = 0,
-								},
-								["Drain Life (DoT)"] = {
-									["count"] = 0,
-								},
-								["Shadow Bolt"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Selrah <Denathra>"] = {
-							["Details"] = {
-								["Fel Synergy"] = {
-									["count"] = 0,
-								},
-								["Soul Link"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Risen Guard"] = {
-							["Details"] = {
-								["Soul Fire"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Reanimated Corpse"] = {
-							["Details"] = {
-								["Immolation"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Rain of Fire"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Rattlegore"] = {
-							["Details"] = {
-								["Soul Fire"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Shaathun <Denathra>"] = {
-							["Details"] = {
-								["Soul Link"] = {
-									["count"] = 0,
-								},
-								["Fel Synergy"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Scholomance Dark Summoner"] = {
-							["Details"] = {
-								["Shadow Bolt"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Spectral Tutor"] = {
-							["Details"] = {
-								["Immolation"] = {
-									["count"] = 0,
-								},
-								["Shadow Bolt"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Risen Construct"] = {
-							["Details"] = {
-								["Drain Life (DoT)"] = {
-									["count"] = 0,
-								},
-								["Soul Fire"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Spectral Projection"] = {
-							["Details"] = {
-								["Immolation"] = {
-									["count"] = 0,
-								},
-								["Shadow Bolt"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Scholomance Necrolyte"] = {
-							["Details"] = {
-								["Soul Fire"] = {
-									["count"] = 0,
-								},
-								["Shadow Bolt"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["WhoDispelled"] = {
-					},
-					["InterruptData"] = {
-					},
-					["RunicPowerGain"] = 0,
-					["Heals"] = {
-						["Fel Synergy"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Drain Life"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Fel Armor"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 649,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 649,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 649,
-						},
-					},
-					["WhoHealed"] = {
-						["Denathra"] = {
-							["Details"] = {
-								["Drain Life"] = {
-									["count"] = 0,
-								},
-								["Fel Armor"] = {
-									["count"] = 649,
-								},
-							},
-							["amount"] = 649,
-						},
-					},
-					["EnergyGained"] = {
-					},
-					["ActiveTime"] = 5.44,
-					["Healing"] = 649,
-					["FDamagedWho"] = {
-						["Selrah <Denathra>"] = {
-							["Details"] = {
-								["Soul Link"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Shaathun <Denathra>"] = {
-							["Details"] = {
-								["Soul Link"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["Dispelled"] = 0,
-					["Attacks"] = {
-						["Shadowfury"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["Crit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Shadowflame"] = {
-							["Details"] = {
-								["Immune"] = {
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Incinerate"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Immolation"] = {
-							["Details"] = {
-								["Immune"] = {
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Immolate"] = {
-							["Details"] = {
-								["Crit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Conflagrate"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Soul Fire"] = {
-							["Details"] = {
-								["Crit"] = {
-									["max"] = 15574,
-									["min"] = 0,
-									["count"] = 2,
-									["amount"] = 30903,
-								},
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 2,
-							["amount"] = 30903,
-						},
-						["Drain Life (DoT)"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Shadow Bolt"] = {
-							["Details"] = {
-								["Immune"] = {
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Crit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Conflagrate (DoT)"] = {
-							["Details"] = {
-								["Crit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Rain of Fire"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Immune"] = {
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["HealingTaken"] = 649,
-					["RageGain"] = 0,
-					["TimeDamage"] = 5.359999999999999,
-					["TimeDamaging"] = {
-						["Scholomance Adept"] = {
-							["Details"] = {
-								["Drain Life (DoT)"] = {
-									["count"] = 0,
-								},
-								["Immolation"] = {
-									["count"] = 0,
-								},
-								["Soul Fire"] = {
-									["count"] = 1.94,
-								},
-								["Shadow Bolt"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 1.94,
-						},
-						["Shaathun <Denathra>"] = {
-							["Details"] = {
-								["Soul Link"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Scholomance Neophyte"] = {
-							["Details"] = {
-								["Shadowfury"] = {
-									["count"] = 0,
-								},
-								["Soul Fire"] = {
-									["count"] = 0,
-								},
-								["Conflagrate (DoT)"] = {
-									["count"] = 0,
-								},
-								["Immolate"] = {
-									["count"] = 0,
-								},
-								["Conflagrate"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Diseased Ghoul"] = {
-							["Details"] = {
-								["Immolation"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Risen Aberration"] = {
-							["Details"] = {
-								["Immolation"] = {
-									["count"] = 0,
-								},
-								["Rain of Fire"] = {
-									["count"] = 0,
-								},
-								["Shadowflame"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Risen Protector"] = {
-							["Details"] = {
-								["Soul Fire"] = {
-									["count"] = 3.42,
-								},
-							},
-							["amount"] = 3.42,
-						},
-						["Spectral Researcher"] = {
-							["Details"] = {
-								["Incinerate"] = {
-									["count"] = 0,
-								},
-								["Shadowfury"] = {
-									["count"] = 0,
-								},
-								["Soul Fire"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Scholomance Acolyte"] = {
-							["Details"] = {
-								["Shadowfury"] = {
-									["count"] = 0,
-								},
-								["Soul Fire"] = {
-									["count"] = 0,
-								},
-								["Incinerate"] = {
-									["count"] = 0,
-								},
-								["Immolate"] = {
-									["count"] = 0,
-								},
-								["Conflagrate"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Scholomance Necromancer"] = {
-							["Details"] = {
-								["Immolation"] = {
-									["count"] = 0,
-								},
-								["Drain Life (DoT)"] = {
-									["count"] = 0,
-								},
-								["Shadow Bolt"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Selrah <Denathra>"] = {
-							["Details"] = {
-								["Soul Link"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Reanimated Corpse"] = {
-							["Details"] = {
-								["Immolation"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Rain of Fire"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Risen Guard"] = {
-							["Details"] = {
-								["Soul Fire"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Rattlegore"] = {
-							["Details"] = {
-								["Soul Fire"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Scholomance Dark Summoner"] = {
-							["Details"] = {
-								["Shadow Bolt"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Spectral Tutor"] = {
-							["Details"] = {
-								["Immolation"] = {
-									["count"] = 0,
-								},
-								["Shadow Bolt"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Risen Construct"] = {
-							["Details"] = {
-								["Drain Life (DoT)"] = {
-									["count"] = 0,
-								},
-								["Soul Fire"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Spectral Projection"] = {
-							["Details"] = {
-								["Immolation"] = {
-									["count"] = 0,
-								},
-								["Shadow Bolt"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Scholomance Necrolyte"] = {
-							["Details"] = {
-								["Soul Fire"] = {
-									["count"] = 0,
-								},
-								["Shadow Bolt"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["ManaGain"] = 0,
-					["HOTs"] = {
-						["Fel Armor"] = {
-							["Details"] = {
-								["Denathra"] = {
-									["count"] = 3,
-								},
-							},
-							["amount"] = 3,
-						},
-					},
-					["DispelledWho"] = {
-					},
-				},
-				["CurrentFightData"] = {
-					["DOTs"] = {
-						["Shadowflame (DoT)"] = {
-							["Details"] = {
-								["Diseased Ghoul"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["ElementDoneResist"] = {
-					},
-					["Ressed"] = 0,
-					["DamageTaken"] = 0,
-					["RageGainedFrom"] = {
-					},
-					["ElementHitsTaken"] = {
-						["Frost"] = {
-							["Details"] = {
-								["Miss"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Shadow"] = {
-							["Details"] = {
-								["Miss"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["Dodge"] = {
-									["count"] = 0,
-								},
-								["Miss"] = {
-									["count"] = 0,
-								},
-								["Parry"] = {
-									["count"] = 0,
-								},
-								["Hit"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Nature"] = {
-							["Details"] = {
-								["Tick"] = {
-									["count"] = 0,
-								},
-								["Miss"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["DeathCount"] = 0,
-					["HOT_Time"] = 0,
-					["ElementHitsDone"] = {
-						["Shadow"] = {
-							["Details"] = {
-								["Immune"] = {
-									["count"] = 0,
-								},
-								["Crit"] = {
-									["count"] = 0,
-								},
-								["Hit"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Fire"] = {
-							["Details"] = {
-								["Tick"] = {
-									["count"] = 0,
-								},
-								["Immune"] = {
-									["count"] = 0,
-								},
-								["Crit"] = {
-									["count"] = 0,
-								},
-								["Hit"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["ElementTakenAbsorb"] = {
-						["Melee"] = 0,
-						["Nature"] = 0,
-					},
-					["ElementTaken"] = {
-						["Melee"] = 0,
-						["Nature"] = 0,
-					},
-					["DOT_Time"] = 0,
-					["Damage"] = 0,
-					["ElementTakenBlock"] = {
-					},
-					["TimeHeal"] = 0,
-					["RessedWho"] = {
-					},
-					["Dispels"] = 0,
-					["ElementTakenResist"] = {
-						["Nature"] = 0,
-					},
-					["ElementDoneAbsorb"] = {
-					},
-					["FAttacks"] = {
-						["Soul Link"] = {
-							["Details"] = {
-								["Split"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementDone"] = {
-						["Shadow"] = 0,
-						["Melee"] = 0,
-						["Fire"] = 0,
-					},
-					["PartialAbsorb"] = {
-						["Cripple"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Absorbed"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Mana Burn"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Diseased Spit"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Frostbolt"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Cloud of Disease (DoT)"] = {
-							["Details"] = {
-								["Absorbed"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Disease Cloud"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Shadow Shock"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Shadow Bolt"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Mind Flay"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Drain Life"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["DamagedWho"] = {
-						["Frail Skeleton"] = {
-							["Details"] = {
-								["Soul Fire"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Scholomance Neophyte"] = {
-							["Details"] = {
-								["Soul Fire"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Diseased Ghoul"] = {
-							["Details"] = {
-								["Shadowflame"] = {
-									["count"] = 0,
-								},
-								["Shadowflame (DoT)"] = {
-									["count"] = 0,
-								},
-								["Immolate"] = {
-									["count"] = 0,
-								},
-								["Rain of Fire"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Risen Protector"] = {
-							["Details"] = {
-								["Shadow Bolt"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Spectral Researcher"] = {
-							["Details"] = {
-								["Soul Fire"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Scholomance Handler"] = {
-							["Details"] = {
-								["Rain of Fire"] = {
-									["count"] = 0,
-								},
-								["Shadow Bolt"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Scholomance Acolyte"] = {
-							["Details"] = {
-								["Soul Fire"] = {
-									["count"] = 0,
-								},
-								["Shadow Bolt"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Scholomance Necromancer"] = {
-							["Details"] = {
-								["Shadow Bolt"] = {
-									["count"] = 0,
-								},
-								["Soul Fire"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Plagued Hatchling"] = {
-							["Details"] = {
-								["Rain of Fire"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Shadow Bolt"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Blood Steward of Kirtonos"] = {
-							["Details"] = {
-								["Soul Fire"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Reanimated Corpse"] = {
-							["Details"] = {
-								["Rain of Fire"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Scholomance Dark Summoner"] = {
-							["Details"] = {
-								["Soul Fire"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Scholomance Adept"] = {
-							["Details"] = {
-								["Shadow Bolt"] = {
-									["count"] = 0,
-								},
-								["Soul Fire"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Rat"] = {
-							["Details"] = {
-								["Rain of Fire"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Risen Guard"] = {
-							["Details"] = {
-								["Soul Fire"] = {
-									["count"] = 0,
-								},
-								["Shadow Bolt"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Risen Construct"] = {
-							["Details"] = {
-								["Soul Fire"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Spectral Tutor"] = {
-							["Details"] = {
-								["Soul Fire"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Scholomance Necrolyte"] = {
-							["Details"] = {
-								["Soul Fire"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["PartialBlock"] = {
-					},
-					["WhoDamaged"] = {
-						["Frail Skeleton"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Risen Aberration"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Plagued Hatchling"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Risen Guard"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Risen Construct"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Scholomance Handler"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Diseased Ghoul"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Cloud of Disease (DoT)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["EnergyGainedFrom"] = {
-					},
-					["PartialResist"] = {
-						["Cripple"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Mana Burn"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Diseased Spit"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Frostbolt"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Cloud of Disease (DoT)"] = {
-							["Details"] = {
-								["50%Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Disease Cloud"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Shadow Shock"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Shadow Bolt"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Mind Flay"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Drain Life"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["CCBroken"] = {
-					},
-					["ElementDoneBlock"] = {
-					},
-					["TimeHealing"] = {
-						["Shaathun <Denathra>"] = {
-							["Details"] = {
-								["Fel Synergy"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Denathra"] = {
-							["Details"] = {
-								["Fel Armor"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["OverHeals"] = {
-						["Fel Armor"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Fel Synergy"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["ManaGainedFrom"] = {
-						["Denathra"] = {
-							["Details"] = {
-								["Life Tap"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["RunicPowerGained"] = {
-					},
-					["CCBreak"] = 0,
-					["RageGained"] = {
-					},
-					["HealedWho"] = {
-						["Shaathun <Denathra>"] = {
-							["Details"] = {
-								["Fel Synergy"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Denathra"] = {
-							["Details"] = {
-								["Fel Armor"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["EnergyGain"] = 0,
-					["ManaGained"] = {
-						["Life Tap"] = {
-							["Details"] = {
-								["Denathra"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
-					["Overhealing"] = 0,
-					["TimeSpent"] = {
-						["Scholomance Adept"] = {
-							["Details"] = {
-								["Shadow Bolt"] = {
-									["count"] = 0,
-								},
-								["Soul Fire"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Shaathun <Denathra>"] = {
-							["Details"] = {
-								["Soul Link"] = {
-									["count"] = 0,
-								},
-								["Fel Synergy"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Scholomance Neophyte"] = {
-							["Details"] = {
-								["Soul Fire"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Diseased Ghoul"] = {
-							["Details"] = {
-								["Shadowflame"] = {
-									["count"] = 0,
-								},
-								["Shadowflame (DoT)"] = {
-									["count"] = 0,
-								},
-								["Immolate"] = {
-									["count"] = 0,
-								},
-								["Rain of Fire"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Risen Aberration"] = {
-							["Details"] = {
-								["Shadowflame"] = {
-									["count"] = 0,
-								},
-								["Immolate"] = {
-									["count"] = 0,
-								},
-								["Rain of Fire"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Risen Protector"] = {
-							["Details"] = {
-								["Shadow Bolt"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Spectral Researcher"] = {
-							["Details"] = {
-								["Soul Fire"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Scholomance Handler"] = {
-							["Details"] = {
-								["Rain of Fire"] = {
-									["count"] = 0,
-								},
-								["Shadow Bolt"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Scholomance Acolyte"] = {
-							["Details"] = {
-								["Soul Fire"] = {
-									["count"] = 0,
-								},
-								["Shadow Bolt"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Scholomance Necromancer"] = {
-							["Details"] = {
-								["Shadow Bolt"] = {
-									["count"] = 0,
-								},
-								["Soul Fire"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Plagued Hatchling"] = {
-							["Details"] = {
-								["Rain of Fire"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Shadow Bolt"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Blood Steward of Kirtonos"] = {
-							["Details"] = {
-								["Soul Fire"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Scholomance Dark Summoner"] = {
-							["Details"] = {
-								["Soul Fire"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Reanimated Corpse"] = {
-							["Details"] = {
-								["Rain of Fire"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Frail Skeleton"] = {
-							["Details"] = {
-								["Soul Fire"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Denathra"] = {
-							["Details"] = {
-								["Fel Armor"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Rat"] = {
-							["Details"] = {
-								["Rain of Fire"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Risen Guard"] = {
-							["Details"] = {
-								["Soul Fire"] = {
-									["count"] = 0,
-								},
-								["Shadow Bolt"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Risen Construct"] = {
-							["Details"] = {
-								["Soul Fire"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Spectral Tutor"] = {
-							["Details"] = {
-								["Soul Fire"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Scholomance Necrolyte"] = {
-							["Details"] = {
-								["Soul Fire"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["WhoDispelled"] = {
-					},
-					["InterruptData"] = {
-					},
-					["RunicPowerGain"] = 0,
-					["Heals"] = {
-						["Fel Synergy"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Fel Armor"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["WhoHealed"] = {
-						["Denathra"] = {
-							["Details"] = {
-								["Fel Armor"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["EnergyGained"] = {
-					},
-					["ActiveTime"] = 0,
-					["Healing"] = 0,
-					["FDamagedWho"] = {
-						["Shaathun <Denathra>"] = {
-							["Details"] = {
-								["Soul Link"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["Dispelled"] = 0,
-					["Attacks"] = {
-						["Shadowflame (DoT)"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Soul Fire"] = {
-							["Details"] = {
-								["Crit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Rain of Fire"] = {
-							["Details"] = {
-								["Immune"] = {
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Crit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Shadowflame"] = {
-							["Details"] = {
-								["Crit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Immune"] = {
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Immolate"] = {
-							["Details"] = {
-								["Immune"] = {
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Shadow Bolt"] = {
-							["Details"] = {
-								["Crit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["HealingTaken"] = 0,
-					["RageGain"] = 0,
-					["TimeDamage"] = 0,
-					["TimeDamaging"] = {
-						["Scholomance Adept"] = {
-							["Details"] = {
-								["Shadow Bolt"] = {
-									["count"] = 0,
-								},
-								["Soul Fire"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Shaathun <Denathra>"] = {
-							["Details"] = {
-								["Soul Link"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Scholomance Neophyte"] = {
-							["Details"] = {
-								["Soul Fire"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Diseased Ghoul"] = {
-							["Details"] = {
-								["Shadowflame"] = {
-									["count"] = 0,
-								},
-								["Shadowflame (DoT)"] = {
-									["count"] = 0,
-								},
-								["Immolate"] = {
-									["count"] = 0,
-								},
-								["Rain of Fire"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Risen Aberration"] = {
-							["Details"] = {
-								["Shadowflame"] = {
-									["count"] = 0,
-								},
-								["Immolate"] = {
-									["count"] = 0,
-								},
-								["Rain of Fire"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Risen Protector"] = {
-							["Details"] = {
-								["Shadow Bolt"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Spectral Researcher"] = {
-							["Details"] = {
-								["Soul Fire"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Scholomance Handler"] = {
-							["Details"] = {
-								["Rain of Fire"] = {
-									["count"] = 0,
-								},
-								["Shadow Bolt"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Scholomance Acolyte"] = {
-							["Details"] = {
-								["Soul Fire"] = {
-									["count"] = 0,
-								},
-								["Shadow Bolt"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Scholomance Necromancer"] = {
-							["Details"] = {
-								["Shadow Bolt"] = {
-									["count"] = 0,
-								},
-								["Soul Fire"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Plagued Hatchling"] = {
-							["Details"] = {
-								["Rain of Fire"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Shadow Bolt"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Blood Steward of Kirtonos"] = {
-							["Details"] = {
-								["Soul Fire"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Reanimated Corpse"] = {
-							["Details"] = {
-								["Rain of Fire"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Frail Skeleton"] = {
-							["Details"] = {
-								["Soul Fire"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Scholomance Dark Summoner"] = {
-							["Details"] = {
-								["Soul Fire"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Rat"] = {
-							["Details"] = {
-								["Rain of Fire"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Risen Guard"] = {
-							["Details"] = {
-								["Soul Fire"] = {
-									["count"] = 0,
-								},
-								["Shadow Bolt"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Risen Construct"] = {
-							["Details"] = {
-								["Soul Fire"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Spectral Tutor"] = {
-							["Details"] = {
-								["Soul Fire"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Scholomance Necrolyte"] = {
-							["Details"] = {
-								["Soul Fire"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["ManaGain"] = 0,
-					["HOTs"] = {
-						["Fel Armor"] = {
-							["Details"] = {
-								["Denathra"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["DispelledWho"] = {
-					},
-				},
-				["Fight3"] = {
-					["DOTs"] = {
-						["Conflagrate (DoT)"] = {
-							["Details"] = {
-								["Risen Guard"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Immolate (DoT)"] = {
-							["Details"] = {
-								["Risen Guard"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Drain Life (DoT)"] = {
-							["Details"] = {
-								["Scholomance Neophyte"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["ElementHitsTaken"] = {
-						["Shadow"] = {
-							["Details"] = {
-								["Miss"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["Dodge"] = {
-									["count"] = 0,
-								},
-								["Miss"] = {
-									["count"] = 0,
-								},
-								["Parry"] = {
-									["count"] = 0,
-								},
-								["Hit"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Nature"] = {
-							["Details"] = {
-								["Tick"] = {
-									["count"] = 0,
-								},
-								["Miss"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["HealedWho"] = {
-						["Selrah <Denathra>"] = {
-							["Details"] = {
-								["Fel Synergy"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Denathra"] = {
-							["Details"] = {
-								["Drain Life"] = {
-									["count"] = 0,
-								},
-								["Fel Armor"] = {
-									["count"] = 649,
-								},
-							},
-							["amount"] = 649,
-						},
-						["Shaathun <Denathra>"] = {
-							["Details"] = {
-								["Fel Synergy"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["ElementTakenResist"] = {
-						["Nature"] = 0,
-					},
-					["FDamagedWho"] = {
-						["Selrah <Denathra>"] = {
-							["Details"] = {
-								["Soul Link"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Shaathun <Denathra>"] = {
-							["Details"] = {
-								["Soul Link"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["ElementTaken"] = {
-						["Melee"] = 0,
-						["Nature"] = 0,
-					},
-					["DOT_Time"] = 0,
-					["Damage"] = 52487,
-					["TimeHeal"] = 0.3,
-					["FAttacks"] = {
-						["Soul Link"] = {
-							["Details"] = {
-								["Split"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["ElementDone"] = {
-						["Fire"] = 52487,
-						["Melee"] = 0,
-						["Shadow"] = 0,
-					},
-					["ElementHitsDone"] = {
-						["Fire"] = {
-							["Details"] = {
-								["Tick"] = {
-									["count"] = 0,
-								},
-								["Immune"] = {
-									["count"] = 0,
-								},
-								["Crit"] = {
-									["count"] = 2,
-								},
-								["Hit"] = {
-									["count"] = 2,
-								},
-							},
-							["amount"] = 4,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["Crit"] = {
-									["count"] = 0,
-								},
-								["Hit"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Shadow"] = {
-							["Details"] = {
-								["Evade"] = {
-									["count"] = 0,
-								},
-								["Hit"] = {
-									["count"] = 0,
-								},
-								["Crit"] = {
-									["count"] = 0,
-								},
-								["Tick"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["WhoDamaged"] = {
-						["Risen Aberration"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Scholomance Necromancer"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Risen Guard"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Reanimated Corpse"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Diseased Ghoul"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Cloud of Disease (DoT)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["TimeHealing"] = {
-						["Selrah <Denathra>"] = {
-							["Details"] = {
-								["Fel Synergy"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Denathra"] = {
-							["Details"] = {
-								["Drain Life"] = {
-									["count"] = 0,
-								},
-								["Fel Armor"] = {
-									["count"] = 0.3,
-								},
-							},
-							["amount"] = 0.3,
-						},
-						["Shaathun <Denathra>"] = {
-							["Details"] = {
-								["Fel Synergy"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["OverHeals"] = {
-						["Fel Synergy"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 2672,
-									["min"] = 0,
-									["count"] = 3,
-									["amount"] = 5197,
-								},
-							},
-							["count"] = 3,
-							["amount"] = 5197,
-						},
-						["Drain Life"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Fel Armor"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["PartialResist"] = {
-						["Wandering Plague"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Shadow Bolt Volley"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Disease Cloud"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Shadow Word: Pain"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Mind Flay"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Cloud of Disease (DoT)"] = {
-							["Details"] = {
-								["50%Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["75%Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Shadow Bolt"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["ManaGained"] = {
-						["Life Tap"] = {
-							["Details"] = {
-								["Denathra"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["FDamage"] = 0,
-					["ActiveTime"] = 8.560000000000001,
-					["ManaGainedFrom"] = {
-						["Denathra"] = {
-							["Details"] = {
-								["Life Tap"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["PartialAbsorb"] = {
-						["Wandering Plague"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Shadow Bolt Volley"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Absorbed"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Disease Cloud"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Shadow Word: Pain"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Mind Flay"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Cloud of Disease (DoT)"] = {
-							["Details"] = {
-								["Absorbed"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Shadow Bolt"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["Heals"] = {
-						["Fel Synergy"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Drain Life"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Fel Armor"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 649,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 649,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 649,
-						},
-					},
-					["WhoHealed"] = {
-						["Denathra"] = {
-							["Details"] = {
-								["Drain Life"] = {
-									["count"] = 0,
-								},
-								["Fel Armor"] = {
-									["count"] = 649,
-								},
-							},
-							["amount"] = 649,
-						},
-					},
-					["HOTs"] = {
-						["Fel Armor"] = {
-							["Details"] = {
-								["Denathra"] = {
-									["count"] = 3,
-								},
-							},
-							["amount"] = 3,
-						},
-					},
-					["TimeSpent"] = {
-						["Scholomance Dark Summoner"] = {
-							["Details"] = {
-								["Soul Fire"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Shaathun <Denathra>"] = {
-							["Details"] = {
-								["Fel Synergy"] = {
-									["count"] = 0,
-								},
-								["Soul Link"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Scholomance Neophyte"] = {
-							["Details"] = {
-								["Soul Fire"] = {
-									["count"] = 0,
-								},
-								["Shadow Bolt"] = {
-									["count"] = 0,
-								},
-								["Drain Life (DoT)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Diseased Ghoul"] = {
-							["Details"] = {
-								["Soul Fire"] = {
-									["count"] = 0,
-								},
-								["Shadow Bolt"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Risen Aberration"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Soul Fire"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Spectral Researcher"] = {
-							["Details"] = {
-								["Soul Fire"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Scholomance Acolyte"] = {
-							["Details"] = {
-								["Shadow Bolt"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Scholomance Necromancer"] = {
-							["Details"] = {
-								["Soul Fire"] = {
-									["count"] = 1.72,
-								},
-							},
-							["amount"] = 1.72,
-						},
-						["Selrah <Denathra>"] = {
-							["Details"] = {
-								["Fel Synergy"] = {
-									["count"] = 0,
-								},
-								["Soul Link"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Spectral Tutor"] = {
-							["Details"] = {
-								["Soul Fire"] = {
-									["count"] = 1.47,
-								},
-							},
-							["amount"] = 1.47,
-						},
-						["Frail Skeleton"] = {
-							["Details"] = {
-								["Soul Fire"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Reanimated Corpse"] = {
-							["Details"] = {
-								["Soul Fire"] = {
-									["count"] = 0,
-								},
-								["Shadow Bolt"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Denathra"] = {
-							["Details"] = {
-								["Drain Life"] = {
-									["count"] = 0,
-								},
-								["Fel Armor"] = {
-									["count"] = 0.3,
-								},
-							},
-							["amount"] = 0.3,
-						},
-						["Rat"] = {
-							["Details"] = {
-								["Shadowflame"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Necrofiend"] = {
-							["Details"] = {
-								["Shadow Bolt"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Risen Guard"] = {
-							["Details"] = {
-								["Conflagrate (DoT)"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Incinerate"] = {
-									["count"] = 0,
-								},
-								["Immolate"] = {
-									["count"] = 0,
-								},
-								["Conflagrate"] = {
-									["count"] = 0,
-								},
-								["Chaos Bolt"] = {
-									["count"] = 0,
-								},
-								["Soul Fire"] = {
-									["count"] = 0,
-								},
-								["Immolate (DoT)"] = {
-									["count"] = 0,
-								},
-								["Shadow Bolt"] = {
-									["count"] = 0,
-								},
-								["Shadowfury"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Risen Construct"] = {
-							["Details"] = {
-								["Soul Fire"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Scholomance Adept"] = {
-							["Details"] = {
-								["Soul Fire"] = {
-									["count"] = 5.07,
-								},
-							},
-							["amount"] = 5.07,
-						},
-						["Scholomance Necrolyte"] = {
-							["Details"] = {
-								["Soul Fire"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["Healing"] = 649,
-					["DamageTaken"] = 0,
-					["HOT_Time"] = 3,
-					["Attacks"] = {
-						["Conflagrate (DoT)"] = {
-							["Details"] = {
-								["Crit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Tick"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["Crit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Shadowflame"] = {
-							["Details"] = {
-								["Crit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Incinerate"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Immolate"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Conflagrate"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Chaos Bolt"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Soul Fire"] = {
-							["Details"] = {
-								["Immune"] = {
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Crit"] = {
-									["max"] = 17826,
-									["min"] = 0,
-									["count"] = 2,
-									["amount"] = 35644,
-								},
-								["Hit"] = {
-									["max"] = 8445,
-									["min"] = 0,
-									["count"] = 2,
-									["amount"] = 16843,
-								},
-							},
-							["count"] = 4,
-							["amount"] = 52487,
-						},
-						["Shadow Bolt"] = {
-							["Details"] = {
-								["Evade"] = {
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Crit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Immolate (DoT)"] = {
-							["Details"] = {
-								["Crit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Shadowfury"] = {
-							["Details"] = {
-								["Crit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Drain Life (DoT)"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["HealingTaken"] = 649,
-					["Overhealing"] = 5197,
-					["TimeDamage"] = 8.26,
-					["TimeDamaging"] = {
-						["Scholomance Dark Summoner"] = {
-							["Details"] = {
-								["Soul Fire"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Shaathun <Denathra>"] = {
-							["Details"] = {
-								["Soul Link"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Scholomance Neophyte"] = {
-							["Details"] = {
-								["Soul Fire"] = {
-									["count"] = 0,
-								},
-								["Shadow Bolt"] = {
-									["count"] = 0,
-								},
-								["Drain Life (DoT)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Diseased Ghoul"] = {
-							["Details"] = {
-								["Soul Fire"] = {
-									["count"] = 0,
-								},
-								["Shadow Bolt"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Risen Aberration"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Soul Fire"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Spectral Researcher"] = {
-							["Details"] = {
-								["Soul Fire"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Scholomance Acolyte"] = {
-							["Details"] = {
-								["Shadow Bolt"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Scholomance Necromancer"] = {
-							["Details"] = {
-								["Soul Fire"] = {
-									["count"] = 1.72,
-								},
-							},
-							["amount"] = 1.72,
-						},
-						["Selrah <Denathra>"] = {
-							["Details"] = {
-								["Soul Link"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Spectral Tutor"] = {
-							["Details"] = {
-								["Soul Fire"] = {
-									["count"] = 1.47,
-								},
-							},
-							["amount"] = 1.47,
-						},
-						["Reanimated Corpse"] = {
-							["Details"] = {
-								["Soul Fire"] = {
-									["count"] = 0,
-								},
-								["Shadow Bolt"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Frail Skeleton"] = {
-							["Details"] = {
-								["Soul Fire"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Scholomance Adept"] = {
-							["Details"] = {
-								["Soul Fire"] = {
-									["count"] = 5.07,
-								},
-							},
-							["amount"] = 5.07,
-						},
-						["Necrofiend"] = {
-							["Details"] = {
-								["Shadow Bolt"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Risen Guard"] = {
-							["Details"] = {
-								["Conflagrate (DoT)"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Incinerate"] = {
-									["count"] = 0,
-								},
-								["Immolate"] = {
-									["count"] = 0,
-								},
-								["Conflagrate"] = {
-									["count"] = 0,
-								},
-								["Chaos Bolt"] = {
-									["count"] = 0,
-								},
-								["Soul Fire"] = {
-									["count"] = 0,
-								},
-								["Immolate (DoT)"] = {
-									["count"] = 0,
-								},
-								["Shadow Bolt"] = {
-									["count"] = 0,
-								},
-								["Shadowfury"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Risen Construct"] = {
-							["Details"] = {
-								["Soul Fire"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Rat"] = {
-							["Details"] = {
-								["Shadowflame"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Scholomance Necrolyte"] = {
-							["Details"] = {
-								["Soul Fire"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["ManaGain"] = 0,
-					["ElementTakenAbsorb"] = {
-						["Melee"] = 0,
-						["Nature"] = 0,
-					},
-					["DamagedWho"] = {
-						["Frail Skeleton"] = {
-							["Details"] = {
-								["Soul Fire"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Spectral Tutor"] = {
-							["Details"] = {
-								["Soul Fire"] = {
-									["count"] = 8445,
-								},
-							},
-							["amount"] = 8445,
-						},
-						["Scholomance Necromancer"] = {
-							["Details"] = {
-								["Soul Fire"] = {
-									["count"] = 17818,
-								},
-							},
-							["amount"] = 17818,
-						},
-						["Spectral Researcher"] = {
-							["Details"] = {
-								["Soul Fire"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Scholomance Acolyte"] = {
-							["Details"] = {
-								["Shadow Bolt"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Scholomance Dark Summoner"] = {
-							["Details"] = {
-								["Soul Fire"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Scholomance Neophyte"] = {
-							["Details"] = {
-								["Soul Fire"] = {
-									["count"] = 0,
-								},
-								["Shadow Bolt"] = {
-									["count"] = 0,
-								},
-								["Drain Life (DoT)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Diseased Ghoul"] = {
-							["Details"] = {
-								["Soul Fire"] = {
-									["count"] = 0,
-								},
-								["Shadow Bolt"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Reanimated Corpse"] = {
-							["Details"] = {
-								["Soul Fire"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Rat"] = {
-							["Details"] = {
-								["Shadowflame"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Risen Aberration"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Necrofiend"] = {
-							["Details"] = {
-								["Shadow Bolt"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Risen Guard"] = {
-							["Details"] = {
-								["Conflagrate (DoT)"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Incinerate"] = {
-									["count"] = 0,
-								},
-								["Immolate"] = {
-									["count"] = 0,
-								},
-								["Conflagrate"] = {
-									["count"] = 0,
-								},
-								["Chaos Bolt"] = {
-									["count"] = 0,
-								},
-								["Soul Fire"] = {
-									["count"] = 0,
-								},
-								["Immolate (DoT)"] = {
-									["count"] = 0,
-								},
-								["Shadow Bolt"] = {
-									["count"] = 0,
-								},
-								["Shadowfury"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Risen Construct"] = {
-							["Details"] = {
-								["Soul Fire"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Scholomance Adept"] = {
-							["Details"] = {
-								["Soul Fire"] = {
-									["count"] = 26224,
-								},
-							},
-							["amount"] = 26224,
-						},
-						["Scholomance Necrolyte"] = {
-							["Details"] = {
-								["Soul Fire"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-				},
-				["Fight4"] = {
-					["DOTs"] = {
-						["Drain Life (DoT)"] = {
-							["Details"] = {
-								["Scholomance Necrolyte"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["ElementDoneResist"] = {
-					},
-					["Ressed"] = 0,
-					["DamageTaken"] = 0,
-					["RageGainedFrom"] = {
-					},
-					["ElementHitsTaken"] = {
-						["Shadow"] = {
-							["Details"] = {
-								["Miss"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["Miss"] = {
-									["count"] = 0,
-								},
-								["Hit"] = {
-									["count"] = 0,
-								},
-								["Dodge"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Nature"] = {
-							["Details"] = {
-								["Tick"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["DeathCount"] = 0,
-					["HOT_Time"] = 3,
-					["ElementHitsDone"] = {
-						["Shadow"] = {
-							["Details"] = {
-								["Tick"] = {
-									["count"] = 0,
-								},
-								["Crit"] = {
-									["count"] = 0,
-								},
-								["Hit"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["Crit"] = {
-									["count"] = 0,
-								},
-								["Hit"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Fire"] = {
-							["Details"] = {
-								["Immune"] = {
-									["count"] = 0,
-								},
-								["Crit"] = {
-									["count"] = 3,
-								},
-								["Hit"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 3,
-						},
-					},
-					["ElementTakenAbsorb"] = {
-						["Melee"] = 0,
-						["Nature"] = 0,
-					},
-					["ElementTaken"] = {
-						["Melee"] = 0,
-						["Nature"] = 0,
-					},
-					["DOT_Time"] = 0,
-					["Damage"] = 50870,
-					["ElementTakenBlock"] = {
-					},
-					["TimeHeal"] = 0.65,
-					["RessedWho"] = {
-					},
-					["Dispels"] = 0,
-					["ElementTakenResist"] = {
-						["Nature"] = 0,
-					},
-					["ElementDoneAbsorb"] = {
-					},
-					["FAttacks"] = {
-						["Soul Link"] = {
-							["Details"] = {
-								["Split"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementDone"] = {
-						["Shadow"] = 0,
-						["Melee"] = 0,
-						["Fire"] = 50870,
-					},
-					["PartialAbsorb"] = {
-						["Wail of Souls"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Absorbed"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Cloud of Disease (DoT)"] = {
-							["Details"] = {
-								["Absorbed"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["DamagedWho"] = {
-						["Frail Skeleton"] = {
-							["Details"] = {
-								["Soul Fire"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Scholomance Acolyte"] = {
-							["Details"] = {
-								["Soul Fire"] = {
-									["count"] = 0,
-								},
-								["Shadow Bolt"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Scholomance Necromancer"] = {
-							["Details"] = {
-								["Soul Fire"] = {
-									["count"] = 17564,
-								},
-							},
-							["amount"] = 17564,
-						},
-						["Scholomance Dark Summoner"] = {
-							["Details"] = {
-								["Soul Fire"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Scholomance Adept"] = {
-							["Details"] = {
-								["Soul Fire"] = {
-									["count"] = 15153,
-								},
-							},
-							["amount"] = 15153,
-						},
-						["Risen Aberration"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Scholomance Neophyte"] = {
-							["Details"] = {
-								["Soul Fire"] = {
-									["count"] = 0,
-								},
-								["Shadow Bolt"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Diseased Ghoul"] = {
-							["Details"] = {
-								["Rain of Fire"] = {
-									["count"] = 0,
-								},
-								["Soul Fire"] = {
-									["count"] = 0,
-								},
-								["Shadow Bolt"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Reanimated Corpse"] = {
-							["Details"] = {
-								["Rain of Fire"] = {
-									["count"] = 0,
-								},
-								["Soul Fire"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Spectral Tutor"] = {
-							["Details"] = {
-								["Soul Fire"] = {
-									["count"] = 18153,
-								},
-							},
-							["amount"] = 18153,
-						},
-						["Risen Protector"] = {
-							["Details"] = {
-								["Shadow Bolt"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Rat"] = {
-							["Details"] = {
-								["Rain of Fire"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Spectral Researcher"] = {
-							["Details"] = {
-								["Soul Fire"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Risen Construct"] = {
-							["Details"] = {
-								["Shadow Bolt"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Risen Guard"] = {
-							["Details"] = {
-								["Soul Fire"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Scholomance Necrolyte"] = {
-							["Details"] = {
-								["Drain Life (DoT)"] = {
-									["count"] = 0,
-								},
-								["Soul Fire"] = {
-									["count"] = 0,
-								},
-								["Shadow Bolt"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["PartialBlock"] = {
-					},
-					["WhoDamaged"] = {
-						["Reanimated Corpse"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Risen Aberration"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Diseased Ghoul"] = {
-							["Details"] = {
-								["Cloud of Disease (DoT)"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["EnergyGainedFrom"] = {
-					},
-					["PartialResist"] = {
-						["Wail of Souls"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Cloud of Disease (DoT)"] = {
-							["Details"] = {
-								["50%Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["75%Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["CCBroken"] = {
-					},
-					["ElementDoneBlock"] = {
-					},
-					["TimeHealing"] = {
-						["Denathra"] = {
-							["Details"] = {
-								["Drain Life"] = {
-									["count"] = 0,
-								},
-								["Fel Armor"] = {
-									["count"] = 0.65,
-								},
-							},
-							["amount"] = 0.65,
-						},
-						["Shaathun <Denathra>"] = {
-							["Details"] = {
-								["Fel Synergy"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["OverHeals"] = {
-						["Fel Armor"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Fel Synergy"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 2722,
-									["min"] = 0,
-									["count"] = 2,
-									["amount"] = 5356,
-								},
-							},
-							["count"] = 2,
-							["amount"] = 5356,
-						},
-					},
-					["ManaGainedFrom"] = {
-						["Denathra"] = {
-							["Details"] = {
-								["Life Tap"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["RunicPowerGained"] = {
-					},
-					["CCBreak"] = 0,
-					["RageGained"] = {
-					},
-					["HealedWho"] = {
-						["Denathra"] = {
-							["Details"] = {
-								["Drain Life"] = {
-									["count"] = 0,
-								},
-								["Fel Armor"] = {
-									["count"] = 649,
-								},
-							},
-							["amount"] = 649,
-						},
-						["Shaathun <Denathra>"] = {
-							["Details"] = {
-								["Fel Synergy"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["EnergyGain"] = 0,
-					["ManaGained"] = {
-						["Life Tap"] = {
-							["Details"] = {
-								["Denathra"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
-					["Overhealing"] = 5356,
-					["TimeSpent"] = {
-						["Scholomance Dark Summoner"] = {
-							["Details"] = {
-								["Soul Fire"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Denathra"] = {
-							["Details"] = {
-								["Drain Life"] = {
-									["count"] = 0,
-								},
-								["Fel Armor"] = {
-									["count"] = 0.65,
-								},
-							},
-							["amount"] = 0.65,
-						},
-						["Scholomance Neophyte"] = {
-							["Details"] = {
-								["Soul Fire"] = {
-									["count"] = 0,
-								},
-								["Shadow Bolt"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Diseased Ghoul"] = {
-							["Details"] = {
-								["Rain of Fire"] = {
-									["count"] = 0,
-								},
-								["Soul Fire"] = {
-									["count"] = 0,
-								},
-								["Shadow Bolt"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Risen Aberration"] = {
-							["Details"] = {
-								["Rain of Fire"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Soul Fire"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Risen Protector"] = {
-							["Details"] = {
-								["Shadow Bolt"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Spectral Researcher"] = {
-							["Details"] = {
-								["Soul Fire"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Scholomance Acolyte"] = {
-							["Details"] = {
-								["Soul Fire"] = {
-									["count"] = 0,
-								},
-								["Shadow Bolt"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Scholomance Necromancer"] = {
-							["Details"] = {
-								["Soul Fire"] = {
-									["count"] = 1.02,
-								},
-							},
-							["amount"] = 1.02,
-						},
-						["Spectral Tutor"] = {
-							["Details"] = {
-								["Soul Fire"] = {
-									["count"] = 1.87,
-								},
-							},
-							["amount"] = 1.87,
-						},
-						["Reanimated Corpse"] = {
-							["Details"] = {
-								["Rain of Fire"] = {
-									["count"] = 0,
-								},
-								["Soul Fire"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Frail Skeleton"] = {
-							["Details"] = {
-								["Soul Fire"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Shaathun <Denathra>"] = {
-							["Details"] = {
-								["Soul Link"] = {
-									["count"] = 0,
-								},
-								["Fel Synergy"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Rat"] = {
-							["Details"] = {
-								["Rain of Fire"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Risen Guard"] = {
-							["Details"] = {
-								["Soul Fire"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Risen Construct"] = {
-							["Details"] = {
-								["Shadow Bolt"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Scholomance Adept"] = {
-							["Details"] = {
-								["Soul Fire"] = {
-									["count"] = 3.19,
-								},
-							},
-							["amount"] = 3.19,
-						},
-						["Scholomance Necrolyte"] = {
-							["Details"] = {
-								["Drain Life (DoT)"] = {
-									["count"] = 0,
-								},
-								["Soul Fire"] = {
-									["count"] = 0,
-								},
-								["Shadow Bolt"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["WhoDispelled"] = {
-					},
-					["InterruptData"] = {
-					},
-					["RunicPowerGain"] = 0,
-					["Heals"] = {
-						["Fel Synergy"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Drain Life"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Fel Armor"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 649,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 649,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 649,
-						},
-					},
-					["WhoHealed"] = {
-						["Denathra"] = {
-							["Details"] = {
-								["Drain Life"] = {
-									["count"] = 0,
-								},
-								["Fel Armor"] = {
-									["count"] = 649,
-								},
-							},
-							["amount"] = 649,
-						},
-					},
-					["EnergyGained"] = {
-					},
-					["ActiveTime"] = 6.73,
-					["Healing"] = 649,
-					["FDamagedWho"] = {
-						["Shaathun <Denathra>"] = {
-							["Details"] = {
-								["Soul Link"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["Dispelled"] = 0,
-					["Attacks"] = {
-						["Melee"] = {
-							["Details"] = {
-								["Crit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Soul Fire"] = {
-							["Details"] = {
-								["Immune"] = {
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Crit"] = {
-									["max"] = 18153,
-									["min"] = 0,
-									["count"] = 3,
-									["amount"] = 50870,
-								},
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 3,
-							["amount"] = 50870,
-						},
-						["Drain Life (DoT)"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Rain of Fire"] = {
-							["Details"] = {
-								["Crit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Immune"] = {
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Shadow Bolt"] = {
-							["Details"] = {
-								["Crit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["HealingTaken"] = 649,
-					["RageGain"] = 0,
-					["TimeDamage"] = 6.08,
-					["TimeDamaging"] = {
-						["Scholomance Adept"] = {
-							["Details"] = {
-								["Soul Fire"] = {
-									["count"] = 3.19,
-								},
-							},
-							["amount"] = 3.19,
-						},
-						["Shaathun <Denathra>"] = {
-							["Details"] = {
-								["Soul Link"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Scholomance Neophyte"] = {
-							["Details"] = {
-								["Soul Fire"] = {
-									["count"] = 0,
-								},
-								["Shadow Bolt"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Diseased Ghoul"] = {
-							["Details"] = {
-								["Rain of Fire"] = {
-									["count"] = 0,
-								},
-								["Soul Fire"] = {
-									["count"] = 0,
-								},
-								["Shadow Bolt"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Risen Aberration"] = {
-							["Details"] = {
-								["Rain of Fire"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Soul Fire"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Risen Protector"] = {
-							["Details"] = {
-								["Shadow Bolt"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Spectral Researcher"] = {
-							["Details"] = {
-								["Soul Fire"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Scholomance Acolyte"] = {
-							["Details"] = {
-								["Soul Fire"] = {
-									["count"] = 0,
-								},
-								["Shadow Bolt"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Scholomance Necromancer"] = {
-							["Details"] = {
-								["Soul Fire"] = {
-									["count"] = 1.02,
-								},
-							},
-							["amount"] = 1.02,
-						},
-						["Reanimated Corpse"] = {
-							["Details"] = {
-								["Rain of Fire"] = {
-									["count"] = 0,
-								},
-								["Soul Fire"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Frail Skeleton"] = {
-							["Details"] = {
-								["Soul Fire"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Scholomance Dark Summoner"] = {
-							["Details"] = {
-								["Soul Fire"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Rat"] = {
-							["Details"] = {
-								["Rain of Fire"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Risen Guard"] = {
-							["Details"] = {
-								["Soul Fire"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Risen Construct"] = {
-							["Details"] = {
-								["Shadow Bolt"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Spectral Tutor"] = {
-							["Details"] = {
-								["Soul Fire"] = {
-									["count"] = 1.87,
-								},
-							},
-							["amount"] = 1.87,
-						},
-						["Scholomance Necrolyte"] = {
-							["Details"] = {
-								["Drain Life (DoT)"] = {
-									["count"] = 0,
-								},
-								["Soul Fire"] = {
-									["count"] = 0,
-								},
-								["Shadow Bolt"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["ManaGain"] = 0,
-					["HOTs"] = {
-						["Fel Armor"] = {
-							["Details"] = {
-								["Denathra"] = {
-									["count"] = 3,
-								},
-							},
-							["amount"] = 3,
-						},
-					},
-					["DispelledWho"] = {
-					},
-				},
-				["LastFightData"] = {
-					["DOTs"] = {
-						["Shadowflame (DoT)"] = {
-							["Details"] = {
-								["Scholomance Handler"] = {
-									["count"] = 0,
-								},
-								["Scholomance Necrolyte"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["ElementDoneResist"] = {
-					},
-					["Ressed"] = 0,
-					["DamageTaken"] = 0,
-					["RageGainedFrom"] = {
-					},
-					["ElementHitsTaken"] = {
-						["Frost"] = {
-							["Details"] = {
-								["Miss"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Shadow"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 0,
-								},
-								["Miss"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["Dodge"] = {
-									["count"] = 0,
-								},
-								["Miss"] = {
-									["count"] = 0,
-								},
-								["Parry"] = {
-									["count"] = 0,
-								},
-								["Hit"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Arcane"] = {
-							["Details"] = {
-								["Miss"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["DeathCount"] = 0,
-					["HOT_Time"] = 3,
-					["ElementHitsDone"] = {
-						["Fire"] = {
-							["Details"] = {
-								["Tick"] = {
-									["count"] = 0,
-								},
-								["Immune"] = {
-									["count"] = 0,
-								},
-								["Crit"] = {
-									["count"] = 1,
-								},
-								["Hit"] = {
-									["count"] = 1,
-								},
-							},
-							["amount"] = 2,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Shadow"] = {
-							["Details"] = {
-								["Crit"] = {
-									["count"] = 0,
-								},
-								["Hit"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["ElementTakenAbsorb"] = {
-						["Melee"] = 0,
-						["Shadow"] = 0,
-					},
-					["ElementTaken"] = {
-						["Melee"] = 0,
-						["Shadow"] = 0,
-					},
-					["DOT_Time"] = 0,
-					["Damage"] = 22610,
-					["ElementTakenBlock"] = {
-					},
-					["TimeHeal"] = 0,
-					["RessedWho"] = {
-					},
-					["Dispels"] = 0,
-					["ElementTakenResist"] = {
-						["Shadow"] = 0,
-					},
-					["ElementDoneAbsorb"] = {
-					},
-					["FAttacks"] = {
-						["Soul Link"] = {
-							["Details"] = {
-								["Split"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementDone"] = {
-						["Fire"] = 22610,
-						["Melee"] = 0,
-						["Shadow"] = 0,
-					},
-					["PartialAbsorb"] = {
-						["Cripple"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Absorbed"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Frostbolt"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Shadow Bolt"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Absorbed"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Wail of Souls"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Drain Life"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Arcane Blast"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Shadow Shock"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Mind Flay"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Frost Shock"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Fear"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["DamagedWho"] = {
-						["Frail Skeleton"] = {
-							["Details"] = {
-								["Immolation"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Scholomance Neophyte"] = {
-							["Details"] = {
-								["Soul Fire"] = {
-									["count"] = 0,
-								},
-								["Shadow Bolt"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Diseased Ghoul"] = {
-							["Details"] = {
-								["Rain of Fire"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Risen Protector"] = {
-							["Details"] = {
-								["Soul Fire"] = {
-									["count"] = 0,
-								},
-								["Shadow Bolt"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Spectral Researcher"] = {
-							["Details"] = {
-								["Soul Fire"] = {
-									["count"] = 0,
-								},
-								["Shadow Bolt"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Scholomance Handler"] = {
-							["Details"] = {
-								["Shadowflame (DoT)"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Shadowflame"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Scholomance Acolyte"] = {
-							["Details"] = {
-								["Shadow Bolt"] = {
-									["count"] = 0,
-								},
-								["Soul Fire"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Scholomance Necromancer"] = {
-							["Details"] = {
-								["Soul Fire"] = {
-									["count"] = 15295,
-								},
-							},
-							["amount"] = 15295,
-						},
-						["Plagued Hatchling"] = {
-							["Details"] = {
-								["Shadowflame"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Risen Lackey"] = {
-							["Details"] = {
-								["Immolation"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Reanimated Corpse"] = {
-							["Details"] = {
-								["Incinerate"] = {
-									["count"] = 0,
-								},
-								["Rain of Fire"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Scholomance Dark Summoner"] = {
-							["Details"] = {
-								["Immolation"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Scholomance Adept"] = {
-							["Details"] = {
-								["Soul Fire"] = {
-									["count"] = 0,
-								},
-								["Shadow Bolt"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Necrofiend"] = {
-							["Details"] = {
-								["Shadow Bolt"] = {
-									["count"] = 0,
-								},
-								["Immolation"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Risen Guard"] = {
-							["Details"] = {
-								["Incinerate"] = {
-									["count"] = 0,
-								},
-								["Chaos Bolt"] = {
-									["count"] = 0,
-								},
-								["Immolation"] = {
-									["count"] = 0,
-								},
-								["Shadowflame"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Risen Construct"] = {
-							["Details"] = {
-								["Shadow Bolt"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Spectral Tutor"] = {
-							["Details"] = {
-								["Soul Fire"] = {
-									["count"] = 7315,
-								},
-							},
-							["amount"] = 7315,
-						},
-						["Scholomance Necrolyte"] = {
-							["Details"] = {
-								["Shadowflame (DoT)"] = {
-									["count"] = 0,
-								},
-								["Shadowflame"] = {
-									["count"] = 0,
-								},
-								["Immolation"] = {
-									["count"] = 0,
-								},
-								["Soul Fire"] = {
-									["count"] = 0,
-								},
-								["Shadow Bolt"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["PartialBlock"] = {
-					},
-					["WhoDamaged"] = {
-						["Frail Skeleton"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Scholomance Necromancer"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Risen Lackey"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Reanimated Corpse"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Spectral Tutor"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Risen Protector"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Necrofiend"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Spectral Researcher"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Risen Guard"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Scholomance Dark Summoner"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Scholomance Necrolyte"] = {
-							["Details"] = {
-								["Shadow Bolt"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["EnergyGainedFrom"] = {
-					},
-					["PartialResist"] = {
-						["Cripple"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Frostbolt"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Shadow Bolt"] = {
-							["Details"] = {
-								["75%Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Wail of Souls"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Drain Life"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Arcane Blast"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Shadow Shock"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Mind Flay"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Frost Shock"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Fear"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["CCBroken"] = {
-					},
-					["ElementDoneBlock"] = {
-					},
-					["TimeHealing"] = {
-						["Shaathun <Denathra>"] = {
-							["Details"] = {
-								["Fel Synergy"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Denathra"] = {
-							["Details"] = {
-								["Fel Armor"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["OverHeals"] = {
-						["Fel Armor"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 16,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 16,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 16,
-						},
-						["Fel Synergy"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 1097,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 1097,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 1097,
-						},
-					},
-					["ManaGainedFrom"] = {
-						["Denathra"] = {
-							["Details"] = {
-								["Life Tap"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["RunicPowerGained"] = {
-					},
-					["CCBreak"] = 0,
-					["RageGained"] = {
-					},
-					["HealedWho"] = {
-						["Shaathun <Denathra>"] = {
-							["Details"] = {
-								["Fel Synergy"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Denathra"] = {
-							["Details"] = {
-								["Fel Armor"] = {
-									["count"] = 633,
-								},
-							},
-							["amount"] = 633,
-						},
-					},
-					["EnergyGain"] = 0,
-					["ManaGained"] = {
-						["Life Tap"] = {
-							["Details"] = {
-								["Denathra"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
-					["Overhealing"] = 1113,
-					["TimeSpent"] = {
-						["Scholomance Adept"] = {
-							["Details"] = {
-								["Soul Fire"] = {
-									["count"] = 0,
-								},
-								["Shadow Bolt"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Denathra"] = {
-							["Details"] = {
-								["Fel Armor"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Scholomance Neophyte"] = {
-							["Details"] = {
-								["Soul Fire"] = {
-									["count"] = 0,
-								},
-								["Shadow Bolt"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Diseased Ghoul"] = {
-							["Details"] = {
-								["Rain of Fire"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Risen Aberration"] = {
-							["Details"] = {
-								["Rain of Fire"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Risen Protector"] = {
-							["Details"] = {
-								["Soul Fire"] = {
-									["count"] = 0,
-								},
-								["Shadow Bolt"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Spectral Researcher"] = {
-							["Details"] = {
-								["Soul Fire"] = {
-									["count"] = 0,
-								},
-								["Shadow Bolt"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Scholomance Handler"] = {
-							["Details"] = {
-								["Shadowflame (DoT)"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Shadowflame"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Scholomance Acolyte"] = {
-							["Details"] = {
-								["Shadow Bolt"] = {
-									["count"] = 0,
-								},
-								["Soul Fire"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Scholomance Necromancer"] = {
-							["Details"] = {
-								["Soul Fire"] = {
-									["count"] = 3.07,
-								},
-							},
-							["amount"] = 3.07,
-						},
-						["Plagued Hatchling"] = {
-							["Details"] = {
-								["Shadowflame"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Risen Lackey"] = {
-							["Details"] = {
-								["Immolation"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Frail Skeleton"] = {
-							["Details"] = {
-								["Immolation"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Reanimated Corpse"] = {
-							["Details"] = {
-								["Incinerate"] = {
-									["count"] = 0,
-								},
-								["Rain of Fire"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Spectral Tutor"] = {
-							["Details"] = {
-								["Soul Fire"] = {
-									["count"] = 1.8,
-								},
-							},
-							["amount"] = 1.8,
-						},
-						["Scholomance Dark Summoner"] = {
-							["Details"] = {
-								["Immolation"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Necrofiend"] = {
-							["Details"] = {
-								["Shadow Bolt"] = {
-									["count"] = 0,
-								},
-								["Immolation"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Risen Guard"] = {
-							["Details"] = {
-								["Incinerate"] = {
-									["count"] = 0,
-								},
-								["Chaos Bolt"] = {
-									["count"] = 0,
-								},
-								["Immolation"] = {
-									["count"] = 0,
-								},
-								["Shadowflame"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Risen Construct"] = {
-							["Details"] = {
-								["Shadow Bolt"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Shaathun <Denathra>"] = {
-							["Details"] = {
-								["Soul Link"] = {
-									["count"] = 0,
-								},
-								["Fel Synergy"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Scholomance Necrolyte"] = {
-							["Details"] = {
-								["Shadowflame (DoT)"] = {
-									["count"] = 0,
-								},
-								["Shadowflame"] = {
-									["count"] = 0,
-								},
-								["Immolation"] = {
-									["count"] = 0,
-								},
-								["Soul Fire"] = {
-									["count"] = 0,
-								},
-								["Shadow Bolt"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["WhoDispelled"] = {
-					},
-					["InterruptData"] = {
-					},
-					["RunicPowerGain"] = 0,
-					["Heals"] = {
-						["Fel Synergy"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Fel Armor"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 633,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 633,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 633,
-						},
-					},
-					["WhoHealed"] = {
-						["Denathra"] = {
-							["Details"] = {
-								["Fel Armor"] = {
-									["count"] = 633,
-								},
-							},
-							["amount"] = 633,
-						},
-					},
-					["EnergyGained"] = {
-					},
-					["ActiveTime"] = 4.87,
-					["Healing"] = 633,
-					["FDamagedWho"] = {
-						["Shaathun <Denathra>"] = {
-							["Details"] = {
-								["Soul Link"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["Dispelled"] = 0,
-					["Attacks"] = {
-						["Shadowflame (DoT)"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Shadowflame"] = {
-							["Details"] = {
-								["Crit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Incinerate"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Immolation"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Shadow Bolt"] = {
-							["Details"] = {
-								["Crit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Chaos Bolt"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Soul Fire"] = {
-							["Details"] = {
-								["Crit"] = {
-									["max"] = 15295,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 15295,
-								},
-								["Hit"] = {
-									["max"] = 7315,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 7315,
-								},
-							},
-							["count"] = 2,
-							["amount"] = 22610,
-						},
-						["Rain of Fire"] = {
-							["Details"] = {
-								["Immune"] = {
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Crit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["HealingTaken"] = 633,
-					["RageGain"] = 0,
-					["TimeDamage"] = 4.87,
-					["TimeDamaging"] = {
-						["Frail Skeleton"] = {
-							["Details"] = {
-								["Immolation"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Shaathun <Denathra>"] = {
-							["Details"] = {
-								["Soul Link"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Scholomance Neophyte"] = {
-							["Details"] = {
-								["Soul Fire"] = {
-									["count"] = 0,
-								},
-								["Shadow Bolt"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Diseased Ghoul"] = {
-							["Details"] = {
-								["Rain of Fire"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Risen Aberration"] = {
-							["Details"] = {
-								["Rain of Fire"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Risen Protector"] = {
-							["Details"] = {
-								["Soul Fire"] = {
-									["count"] = 0,
-								},
-								["Shadow Bolt"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Spectral Researcher"] = {
-							["Details"] = {
-								["Soul Fire"] = {
-									["count"] = 0,
-								},
-								["Shadow Bolt"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Scholomance Handler"] = {
-							["Details"] = {
-								["Shadowflame (DoT)"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Shadowflame"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Scholomance Acolyte"] = {
-							["Details"] = {
-								["Shadow Bolt"] = {
-									["count"] = 0,
-								},
-								["Soul Fire"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Scholomance Necromancer"] = {
-							["Details"] = {
-								["Soul Fire"] = {
-									["count"] = 3.07,
-								},
-							},
-							["amount"] = 3.07,
-						},
-						["Plagued Hatchling"] = {
-							["Details"] = {
-								["Shadowflame"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Risen Lackey"] = {
-							["Details"] = {
-								["Immolation"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Reanimated Corpse"] = {
-							["Details"] = {
-								["Incinerate"] = {
-									["count"] = 0,
-								},
-								["Rain of Fire"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Scholomance Dark Summoner"] = {
-							["Details"] = {
-								["Immolation"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Spectral Tutor"] = {
-							["Details"] = {
-								["Soul Fire"] = {
-									["count"] = 1.8,
-								},
-							},
-							["amount"] = 1.8,
-						},
-						["Necrofiend"] = {
-							["Details"] = {
-								["Shadow Bolt"] = {
-									["count"] = 0,
-								},
-								["Immolation"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Risen Guard"] = {
-							["Details"] = {
-								["Incinerate"] = {
-									["count"] = 0,
-								},
-								["Chaos Bolt"] = {
-									["count"] = 0,
-								},
-								["Immolation"] = {
-									["count"] = 0,
-								},
-								["Shadowflame"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Risen Construct"] = {
-							["Details"] = {
-								["Shadow Bolt"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Scholomance Adept"] = {
-							["Details"] = {
-								["Soul Fire"] = {
-									["count"] = 0,
-								},
-								["Shadow Bolt"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Scholomance Necrolyte"] = {
-							["Details"] = {
-								["Shadowflame (DoT)"] = {
-									["count"] = 0,
-								},
-								["Shadowflame"] = {
-									["count"] = 0,
-								},
-								["Immolation"] = {
-									["count"] = 0,
-								},
-								["Soul Fire"] = {
-									["count"] = 0,
-								},
-								["Shadow Bolt"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["ManaGain"] = 0,
-					["HOTs"] = {
-						["Fel Armor"] = {
-							["Details"] = {
-								["Denathra"] = {
-									["count"] = 3,
-								},
-							},
-							["amount"] = 3,
-						},
-					},
-					["DispelledWho"] = {
-					},
-				},
-				["Fight1"] = {
-					["DOTs"] = {
-						["Shadowflame (DoT)"] = {
-							["Details"] = {
-								["Scholomance Handler"] = {
-									["count"] = 0,
-								},
-								["Scholomance Necrolyte"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["ElementDoneResist"] = {
-					},
-					["Ressed"] = 0,
-					["DamageTaken"] = 0,
-					["RageGainedFrom"] = {
-					},
-					["ElementHitsTaken"] = {
-						["Frost"] = {
-							["Details"] = {
-								["Miss"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Shadow"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 0,
-								},
-								["Miss"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["Dodge"] = {
-									["count"] = 0,
-								},
-								["Miss"] = {
-									["count"] = 0,
-								},
-								["Parry"] = {
-									["count"] = 0,
-								},
-								["Hit"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Arcane"] = {
-							["Details"] = {
-								["Miss"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["DeathCount"] = 0,
-					["HOT_Time"] = 3,
-					["ElementHitsDone"] = {
-						["Fire"] = {
-							["Details"] = {
-								["Tick"] = {
-									["count"] = 0,
-								},
-								["Immune"] = {
-									["count"] = 0,
-								},
-								["Crit"] = {
-									["count"] = 1,
-								},
-								["Hit"] = {
-									["count"] = 1,
-								},
-							},
-							["amount"] = 2,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Shadow"] = {
-							["Details"] = {
-								["Crit"] = {
-									["count"] = 0,
-								},
-								["Hit"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["ElementTakenAbsorb"] = {
-						["Melee"] = 0,
-						["Shadow"] = 0,
-					},
-					["ElementTaken"] = {
-						["Melee"] = 0,
-						["Shadow"] = 0,
-					},
-					["DOT_Time"] = 0,
-					["Damage"] = 22610,
-					["ElementTakenBlock"] = {
-					},
-					["TimeHeal"] = 0,
-					["RessedWho"] = {
-					},
-					["Dispels"] = 0,
-					["ElementTakenResist"] = {
-						["Shadow"] = 0,
-					},
-					["ElementDoneAbsorb"] = {
-					},
-					["FAttacks"] = {
-						["Soul Link"] = {
-							["Details"] = {
-								["Split"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementDone"] = {
-						["Fire"] = 22610,
-						["Melee"] = 0,
-						["Shadow"] = 0,
-					},
-					["PartialAbsorb"] = {
-						["Cripple"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Absorbed"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Frostbolt"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Shadow Bolt"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Absorbed"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Wail of Souls"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Drain Life"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Arcane Blast"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Shadow Shock"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Mind Flay"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Frost Shock"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Fear"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["DamagedWho"] = {
-						["Frail Skeleton"] = {
-							["Details"] = {
-								["Immolation"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Scholomance Neophyte"] = {
-							["Details"] = {
-								["Soul Fire"] = {
-									["count"] = 0,
-								},
-								["Shadow Bolt"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Diseased Ghoul"] = {
-							["Details"] = {
-								["Rain of Fire"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Risen Protector"] = {
-							["Details"] = {
-								["Soul Fire"] = {
-									["count"] = 0,
-								},
-								["Shadow Bolt"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Spectral Researcher"] = {
-							["Details"] = {
-								["Soul Fire"] = {
-									["count"] = 0,
-								},
-								["Shadow Bolt"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Scholomance Handler"] = {
-							["Details"] = {
-								["Shadowflame (DoT)"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Shadowflame"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Scholomance Acolyte"] = {
-							["Details"] = {
-								["Shadow Bolt"] = {
-									["count"] = 0,
-								},
-								["Soul Fire"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Scholomance Necromancer"] = {
-							["Details"] = {
-								["Soul Fire"] = {
-									["count"] = 15295,
-								},
-							},
-							["amount"] = 15295,
-						},
-						["Plagued Hatchling"] = {
-							["Details"] = {
-								["Shadowflame"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Risen Lackey"] = {
-							["Details"] = {
-								["Immolation"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Reanimated Corpse"] = {
-							["Details"] = {
-								["Incinerate"] = {
-									["count"] = 0,
-								},
-								["Rain of Fire"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Scholomance Dark Summoner"] = {
-							["Details"] = {
-								["Immolation"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Scholomance Adept"] = {
-							["Details"] = {
-								["Soul Fire"] = {
-									["count"] = 0,
-								},
-								["Shadow Bolt"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Necrofiend"] = {
-							["Details"] = {
-								["Shadow Bolt"] = {
-									["count"] = 0,
-								},
-								["Immolation"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Risen Guard"] = {
-							["Details"] = {
-								["Incinerate"] = {
-									["count"] = 0,
-								},
-								["Chaos Bolt"] = {
-									["count"] = 0,
-								},
-								["Immolation"] = {
-									["count"] = 0,
-								},
-								["Shadowflame"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Risen Construct"] = {
-							["Details"] = {
-								["Shadow Bolt"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Spectral Tutor"] = {
-							["Details"] = {
-								["Soul Fire"] = {
-									["count"] = 7315,
-								},
-							},
-							["amount"] = 7315,
-						},
-						["Scholomance Necrolyte"] = {
-							["Details"] = {
-								["Shadowflame (DoT)"] = {
-									["count"] = 0,
-								},
-								["Shadowflame"] = {
-									["count"] = 0,
-								},
-								["Immolation"] = {
-									["count"] = 0,
-								},
-								["Soul Fire"] = {
-									["count"] = 0,
-								},
-								["Shadow Bolt"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["PartialBlock"] = {
-					},
-					["WhoDamaged"] = {
-						["Frail Skeleton"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Scholomance Necromancer"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Risen Lackey"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Reanimated Corpse"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Spectral Tutor"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Risen Protector"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Necrofiend"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Spectral Researcher"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Risen Guard"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Scholomance Dark Summoner"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Scholomance Necrolyte"] = {
-							["Details"] = {
-								["Shadow Bolt"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["EnergyGainedFrom"] = {
-					},
-					["PartialResist"] = {
-						["Cripple"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Frostbolt"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Shadow Bolt"] = {
-							["Details"] = {
-								["75%Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Wail of Souls"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Drain Life"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Arcane Blast"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Shadow Shock"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Mind Flay"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Frost Shock"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Fear"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["CCBroken"] = {
-					},
-					["ElementDoneBlock"] = {
-					},
-					["TimeHealing"] = {
-						["Shaathun <Denathra>"] = {
-							["Details"] = {
-								["Fel Synergy"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Denathra"] = {
-							["Details"] = {
-								["Fel Armor"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["OverHeals"] = {
-						["Fel Armor"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 16,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 16,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 16,
-						},
-						["Fel Synergy"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 1097,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 1097,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 1097,
-						},
-					},
-					["ManaGainedFrom"] = {
-						["Denathra"] = {
-							["Details"] = {
-								["Life Tap"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["RunicPowerGained"] = {
-					},
-					["CCBreak"] = 0,
-					["RageGained"] = {
-					},
-					["HealedWho"] = {
-						["Shaathun <Denathra>"] = {
-							["Details"] = {
-								["Fel Synergy"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Denathra"] = {
-							["Details"] = {
-								["Fel Armor"] = {
-									["count"] = 633,
-								},
-							},
-							["amount"] = 633,
-						},
-					},
-					["EnergyGain"] = 0,
-					["ManaGained"] = {
-						["Life Tap"] = {
-							["Details"] = {
-								["Denathra"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
-					["Overhealing"] = 1113,
-					["TimeSpent"] = {
-						["Scholomance Adept"] = {
-							["Details"] = {
-								["Soul Fire"] = {
-									["count"] = 0,
-								},
-								["Shadow Bolt"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Denathra"] = {
-							["Details"] = {
-								["Fel Armor"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Scholomance Neophyte"] = {
-							["Details"] = {
-								["Soul Fire"] = {
-									["count"] = 0,
-								},
-								["Shadow Bolt"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Diseased Ghoul"] = {
-							["Details"] = {
-								["Rain of Fire"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Risen Aberration"] = {
-							["Details"] = {
-								["Rain of Fire"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Risen Protector"] = {
-							["Details"] = {
-								["Soul Fire"] = {
-									["count"] = 0,
-								},
-								["Shadow Bolt"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Spectral Researcher"] = {
-							["Details"] = {
-								["Soul Fire"] = {
-									["count"] = 0,
-								},
-								["Shadow Bolt"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Scholomance Handler"] = {
-							["Details"] = {
-								["Shadowflame (DoT)"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Shadowflame"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Scholomance Acolyte"] = {
-							["Details"] = {
-								["Shadow Bolt"] = {
-									["count"] = 0,
-								},
-								["Soul Fire"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Scholomance Necromancer"] = {
-							["Details"] = {
-								["Soul Fire"] = {
-									["count"] = 3.07,
-								},
-							},
-							["amount"] = 3.07,
-						},
-						["Plagued Hatchling"] = {
-							["Details"] = {
-								["Shadowflame"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Risen Lackey"] = {
-							["Details"] = {
-								["Immolation"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Frail Skeleton"] = {
-							["Details"] = {
-								["Immolation"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Reanimated Corpse"] = {
-							["Details"] = {
-								["Incinerate"] = {
-									["count"] = 0,
-								},
-								["Rain of Fire"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Spectral Tutor"] = {
-							["Details"] = {
-								["Soul Fire"] = {
-									["count"] = 1.8,
-								},
-							},
-							["amount"] = 1.8,
-						},
-						["Scholomance Dark Summoner"] = {
-							["Details"] = {
-								["Immolation"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Necrofiend"] = {
-							["Details"] = {
-								["Shadow Bolt"] = {
-									["count"] = 0,
-								},
-								["Immolation"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Risen Guard"] = {
-							["Details"] = {
-								["Incinerate"] = {
-									["count"] = 0,
-								},
-								["Chaos Bolt"] = {
-									["count"] = 0,
-								},
-								["Immolation"] = {
-									["count"] = 0,
-								},
-								["Shadowflame"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Risen Construct"] = {
-							["Details"] = {
-								["Shadow Bolt"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Shaathun <Denathra>"] = {
-							["Details"] = {
-								["Soul Link"] = {
-									["count"] = 0,
-								},
-								["Fel Synergy"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Scholomance Necrolyte"] = {
-							["Details"] = {
-								["Shadowflame (DoT)"] = {
-									["count"] = 0,
-								},
-								["Shadowflame"] = {
-									["count"] = 0,
-								},
-								["Immolation"] = {
-									["count"] = 0,
-								},
-								["Soul Fire"] = {
-									["count"] = 0,
-								},
-								["Shadow Bolt"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["WhoDispelled"] = {
-					},
-					["InterruptData"] = {
-					},
-					["RunicPowerGain"] = 0,
-					["Heals"] = {
-						["Fel Synergy"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Fel Armor"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 633,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 633,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 633,
-						},
-					},
-					["WhoHealed"] = {
-						["Denathra"] = {
-							["Details"] = {
-								["Fel Armor"] = {
-									["count"] = 633,
-								},
-							},
-							["amount"] = 633,
-						},
-					},
-					["EnergyGained"] = {
-					},
-					["ActiveTime"] = 4.87,
-					["Healing"] = 633,
-					["FDamagedWho"] = {
-						["Shaathun <Denathra>"] = {
-							["Details"] = {
-								["Soul Link"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["Dispelled"] = 0,
-					["Attacks"] = {
-						["Shadowflame (DoT)"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Shadowflame"] = {
-							["Details"] = {
-								["Crit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Incinerate"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Immolation"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Shadow Bolt"] = {
-							["Details"] = {
-								["Crit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Chaos Bolt"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Soul Fire"] = {
-							["Details"] = {
-								["Crit"] = {
-									["max"] = 15295,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 15295,
-								},
-								["Hit"] = {
-									["max"] = 7315,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 7315,
-								},
-							},
-							["count"] = 2,
-							["amount"] = 22610,
-						},
-						["Rain of Fire"] = {
-							["Details"] = {
-								["Immune"] = {
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Crit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["HealingTaken"] = 633,
-					["RageGain"] = 0,
-					["TimeDamage"] = 4.87,
-					["TimeDamaging"] = {
-						["Frail Skeleton"] = {
-							["Details"] = {
-								["Immolation"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Shaathun <Denathra>"] = {
-							["Details"] = {
-								["Soul Link"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Scholomance Neophyte"] = {
-							["Details"] = {
-								["Soul Fire"] = {
-									["count"] = 0,
-								},
-								["Shadow Bolt"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Diseased Ghoul"] = {
-							["Details"] = {
-								["Rain of Fire"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Risen Aberration"] = {
-							["Details"] = {
-								["Rain of Fire"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Risen Protector"] = {
-							["Details"] = {
-								["Soul Fire"] = {
-									["count"] = 0,
-								},
-								["Shadow Bolt"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Spectral Researcher"] = {
-							["Details"] = {
-								["Soul Fire"] = {
-									["count"] = 0,
-								},
-								["Shadow Bolt"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Scholomance Handler"] = {
-							["Details"] = {
-								["Shadowflame (DoT)"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Shadowflame"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Scholomance Acolyte"] = {
-							["Details"] = {
-								["Shadow Bolt"] = {
-									["count"] = 0,
-								},
-								["Soul Fire"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Scholomance Necromancer"] = {
-							["Details"] = {
-								["Soul Fire"] = {
-									["count"] = 3.07,
-								},
-							},
-							["amount"] = 3.07,
-						},
-						["Plagued Hatchling"] = {
-							["Details"] = {
-								["Shadowflame"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Risen Lackey"] = {
-							["Details"] = {
-								["Immolation"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Reanimated Corpse"] = {
-							["Details"] = {
-								["Incinerate"] = {
-									["count"] = 0,
-								},
-								["Rain of Fire"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Scholomance Dark Summoner"] = {
-							["Details"] = {
-								["Immolation"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Spectral Tutor"] = {
-							["Details"] = {
-								["Soul Fire"] = {
-									["count"] = 1.8,
-								},
-							},
-							["amount"] = 1.8,
-						},
-						["Necrofiend"] = {
-							["Details"] = {
-								["Shadow Bolt"] = {
-									["count"] = 0,
-								},
-								["Immolation"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Risen Guard"] = {
-							["Details"] = {
-								["Incinerate"] = {
-									["count"] = 0,
-								},
-								["Chaos Bolt"] = {
-									["count"] = 0,
-								},
-								["Immolation"] = {
-									["count"] = 0,
-								},
-								["Shadowflame"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Risen Construct"] = {
-							["Details"] = {
-								["Shadow Bolt"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Scholomance Adept"] = {
-							["Details"] = {
-								["Soul Fire"] = {
-									["count"] = 0,
-								},
-								["Shadow Bolt"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Scholomance Necrolyte"] = {
-							["Details"] = {
-								["Shadowflame (DoT)"] = {
-									["count"] = 0,
-								},
-								["Shadowflame"] = {
-									["count"] = 0,
-								},
-								["Immolation"] = {
-									["count"] = 0,
-								},
-								["Soul Fire"] = {
-									["count"] = 0,
-								},
-								["Shadow Bolt"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["ManaGain"] = 0,
-					["HOTs"] = {
-						["Fel Armor"] = {
-							["Details"] = {
-								["Denathra"] = {
-									["count"] = 3,
-								},
-							},
-							["amount"] = 3,
-						},
-					},
-					["DispelledWho"] = {
-					},
-				},
 				["OverallData"] = {
 					["DOTs"] = {
-						["Shadowflame (DoT)"] = {
-							["Details"] = {
-								["Scholomance Necrolyte"] = {
-									["count"] = 12,
-								},
-								["Scholomance Handler"] = {
-									["count"] = 3,
-								},
-								["Diseased Ghoul"] = {
-									["count"] = 6,
-								},
-							},
-							["amount"] = 21,
-						},
 						["Conflagrate (DoT)"] = {
 							["Details"] = {
 								["Risen Guard"] = {
@@ -20086,6 +10272,20 @@ RecountPerCharDB = {
 								},
 							},
 							["amount"] = 9,
+						},
+						["Shadowflame (DoT)"] = {
+							["Details"] = {
+								["Diseased Ghoul"] = {
+									["count"] = 6,
+								},
+								["Scholomance Handler"] = {
+									["count"] = 3,
+								},
+								["Scholomance Necrolyte"] = {
+									["count"] = 12,
+								},
+							},
+							["amount"] = 21,
 						},
 						["Immolate (DoT)"] = {
 							["Details"] = {
@@ -20119,28 +10319,28 @@ RecountPerCharDB = {
 					["ElementHitsTaken"] = {
 						["Shadow"] = {
 							["Details"] = {
-								["Hit"] = {
-									["count"] = 1,
-								},
 								["Miss"] = {
 									["count"] = 74,
+								},
+								["Hit"] = {
+									["count"] = 1,
 								},
 							},
 							["amount"] = 75,
 						},
 						["Melee"] = {
 							["Details"] = {
-								["Dodge"] = {
-									["count"] = 44,
-								},
-								["Miss"] = {
-									["count"] = 59,
+								["Hit"] = {
+									["count"] = 472,
 								},
 								["Parry"] = {
 									["count"] = 23,
 								},
-								["Hit"] = {
-									["count"] = 472,
+								["Miss"] = {
+									["count"] = 59,
+								},
+								["Dodge"] = {
+									["count"] = 44,
 								},
 							},
 							["amount"] = 598,
@@ -20155,10 +10355,10 @@ RecountPerCharDB = {
 						},
 						["Physical"] = {
 							["Details"] = {
-								["Dodge"] = {
+								["Hit"] = {
 									["count"] = 1,
 								},
-								["Hit"] = {
+								["Dodge"] = {
 									["count"] = 1,
 								},
 							},
@@ -20174,11 +10374,11 @@ RecountPerCharDB = {
 						},
 						["Nature"] = {
 							["Details"] = {
-								["Miss"] = {
-									["count"] = 48,
-								},
 								["Tick"] = {
 									["count"] = 55,
+								},
+								["Miss"] = {
+									["count"] = 48,
 								},
 							},
 							["amount"] = 103,
@@ -20195,11 +10395,11 @@ RecountPerCharDB = {
 						},
 						["Denathra"] = {
 							["Details"] = {
-								["Drain Life"] = {
-									["count"] = 16300,
-								},
 								["Fel Armor"] = {
 									["count"] = 69379,
+								},
+								["Drain Life"] = {
+									["count"] = 16300,
 								},
 							},
 							["amount"] = 85679,
@@ -20214,8 +10414,8 @@ RecountPerCharDB = {
 						},
 					},
 					["ElementTakenResist"] = {
-						["Shadow"] = 281,
 						["Nature"] = 7468,
+						["Shadow"] = 281,
 					},
 					["FDamagedWho"] = {
 						["Selrah <Denathra>"] = {
@@ -20236,8 +10436,8 @@ RecountPerCharDB = {
 						},
 					},
 					["ElementTaken"] = {
-						["Shadow"] = 151,
 						["Physical"] = 34,
+						["Shadow"] = 151,
 						["Melee"] = 42833,
 						["Nature"] = 8694,
 					},
@@ -20266,8 +10466,8 @@ RecountPerCharDB = {
 					["ElementHitsDone"] = {
 						["Fire"] = {
 							["Details"] = {
-								["Tick"] = {
-									["count"] = 8,
+								["Hit"] = {
+									["count"] = 340,
 								},
 								["Immune"] = {
 									["count"] = 292,
@@ -20275,8 +10475,8 @@ RecountPerCharDB = {
 								["Crit"] = {
 									["count"] = 113,
 								},
-								["Hit"] = {
-									["count"] = 340,
+								["Tick"] = {
+									["count"] = 8,
 								},
 							},
 							["amount"] = 753,
@@ -20416,6 +10616,30 @@ RecountPerCharDB = {
 							},
 							["amount"] = 1279,
 						},
+						["Risen Guard"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 1468,
+								},
+							},
+							["amount"] = 1468,
+						},
+						["Frail Skeleton"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 4,
+								},
+							},
+							["amount"] = 4,
+						},
+						["Necrofiend"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 206,
+								},
+							},
+							["amount"] = 206,
+						},
 						["Spectral Tutor"] = {
 							["Details"] = {
 								["Melee"] = {
@@ -20432,22 +10656,6 @@ RecountPerCharDB = {
 							},
 							["amount"] = 1198,
 						},
-						["Necrofiend"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 206,
-								},
-							},
-							["amount"] = 206,
-						},
-						["Risen Guard"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 1468,
-								},
-							},
-							["amount"] = 1468,
-						},
 						["Risen Construct"] = {
 							["Details"] = {
 								["Melee"] = {
@@ -20455,14 +10663,6 @@ RecountPerCharDB = {
 								},
 							},
 							["amount"] = 6962,
-						},
-						["Frail Skeleton"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 4,
-								},
-							},
-							["amount"] = 4,
 						},
 						["Scholomance Necrolyte"] = {
 							["Details"] = {
@@ -20484,11 +10684,11 @@ RecountPerCharDB = {
 						},
 						["Denathra"] = {
 							["Details"] = {
-								["Drain Life"] = {
-									["count"] = 0,
-								},
 								["Fel Armor"] = {
 									["count"] = 130.9999999999999,
+								},
+								["Drain Life"] = {
+									["count"] = 0,
 								},
 							},
 							["amount"] = 130.9999999999999,
@@ -20515,18 +10715,6 @@ RecountPerCharDB = {
 							["count"] = 474,
 							["amount"] = 393254,
 						},
-						["Drain Life"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 1059,
-									["min"] = 681,
-									["count"] = 2,
-									["amount"] = 1740,
-								},
-							},
-							["count"] = 2,
-							["amount"] = 1740,
-						},
 						["Fel Armor"] = {
 							["Details"] = {
 								["Tick"] = {
@@ -20538,6 +10726,18 @@ RecountPerCharDB = {
 							},
 							["count"] = 60,
 							["amount"] = 32140,
+						},
+						["Drain Life"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 1059,
+									["min"] = 681,
+									["count"] = 2,
+									["amount"] = 1740,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 1740,
 						},
 					},
 					["PartialResist"] = {
@@ -20727,43 +10927,7 @@ RecountPerCharDB = {
 							["count"] = 4,
 							["amount"] = 0,
 						},
-						["Diseased Spit"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 0,
-						},
-						["Arcane Blast"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 0,
-						},
-						["Mind Flay"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 10,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 10,
-							["amount"] = 0,
-						},
-						["Shadow Bolt Volley"] = {
+						["Frost Shock"] = {
 							["Details"] = {
 								["No Resist"] = {
 									["max"] = 0,
@@ -20793,7 +10957,43 @@ RecountPerCharDB = {
 							["count"] = 55,
 							["amount"] = 7468,
 						},
-						["Frost Shock"] = {
+						["Mind Flay"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 10,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 10,
+							["amount"] = 0,
+						},
+						["Shadow Bolt Volley"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+						["Arcane Blast"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+						["Diseased Spit"] = {
 							["Details"] = {
 								["No Resist"] = {
 									["max"] = 0,
@@ -20818,16 +11018,1676 @@ RecountPerCharDB = {
 					},
 					["FDamage"] = 12663,
 					["ActiveTime"] = 889.9800000000033,
-					["ManaGainedFrom"] = {
-						["Denathra"] = {
+					["DamagedWho"] = {
+						["Frail Skeleton"] = {
 							["Details"] = {
-								["Life Tap"] = {
-									["count"] = 212621,
+								["Soul Fire"] = {
+									["count"] = 90192,
+								},
+								["Immolation"] = {
+									["count"] = 18463,
 								},
 							},
-							["amount"] = 212621,
+							["amount"] = 108655,
+						},
+						["Scholomance Neophyte"] = {
+							["Details"] = {
+								["Conflagrate"] = {
+									["count"] = 3853,
+								},
+								["Shadowfury"] = {
+									["count"] = 1726,
+								},
+								["Conflagrate (DoT)"] = {
+									["count"] = 2056,
+								},
+								["Soul Fire"] = {
+									["count"] = 249992,
+								},
+								["Shadow Bolt"] = {
+									["count"] = 52980,
+								},
+								["Immolation"] = {
+									["count"] = 24464,
+								},
+								["Immolate"] = {
+									["count"] = 1665,
+								},
+								["Drain Life (DoT)"] = {
+									["count"] = 6408,
+								},
+							},
+							["amount"] = 343144,
+						},
+						["Diseased Ghoul"] = {
+							["Details"] = {
+								["Shadowflame (DoT)"] = {
+									["count"] = 1150,
+								},
+								["Shadow Bolt"] = {
+									["count"] = 18880,
+								},
+								["Soul Fire"] = {
+									["count"] = 66757,
+								},
+								["Shadowflame"] = {
+									["count"] = 4117,
+								},
+								["Immolation"] = {
+									["count"] = 94472,
+								},
+								["Immolate"] = {
+									["count"] = 1686,
+								},
+								["Rain of Fire"] = {
+									["count"] = 52878,
+								},
+							},
+							["amount"] = 239940,
+						},
+						["Risen Aberration"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 2244,
+								},
+							},
+							["amount"] = 2244,
+						},
+						["Risen Protector"] = {
+							["Details"] = {
+								["Shadow Bolt"] = {
+									["count"] = 29181,
+								},
+								["Soul Fire"] = {
+									["count"] = 55862,
+								},
+							},
+							["amount"] = 85043,
+						},
+						["Spectral Researcher"] = {
+							["Details"] = {
+								["Shadowfury"] = {
+									["count"] = 1833,
+								},
+								["Soul Fire"] = {
+									["count"] = 109830,
+								},
+								["Incinerate"] = {
+									["count"] = 8257,
+								},
+								["Immolation"] = {
+									["count"] = 8260,
+								},
+								["Shadow Bolt"] = {
+									["count"] = 17178,
+								},
+							},
+							["amount"] = 145358,
+						},
+						["Jandice Barov"] = {
+							["Details"] = {
+								["Shadow Bolt"] = {
+									["count"] = 29649,
+								},
+							},
+							["amount"] = 29649,
+						},
+						["Scholomance Handler"] = {
+							["Details"] = {
+								["Shadowflame (DoT)"] = {
+									["count"] = 554,
+								},
+								["Melee"] = {
+									["count"] = 241,
+								},
+								["Shadowflame"] = {
+									["count"] = 3966,
+								},
+								["Shadow Bolt"] = {
+									["count"] = 18654,
+								},
+								["Rain of Fire"] = {
+									["count"] = 9467,
+								},
+							},
+							["amount"] = 32882,
+						},
+						["Scholomance Acolyte"] = {
+							["Details"] = {
+								["Shadowfury"] = {
+									["count"] = 3454,
+								},
+								["Conflagrate"] = {
+									["count"] = 3853,
+								},
+								["Soul Fire"] = {
+									["count"] = 128760,
+								},
+								["Incinerate"] = {
+									["count"] = 8264,
+								},
+								["Immolation"] = {
+									["count"] = 22404,
+								},
+								["Immolate"] = {
+									["count"] = 3477,
+								},
+								["Shadow Bolt"] = {
+									["count"] = 62298,
+								},
+							},
+							["amount"] = 232510,
+						},
+						["Scholomance Dark Summoner"] = {
+							["Details"] = {
+								["Immolation"] = {
+									["count"] = 40882,
+								},
+								["Soul Fire"] = {
+									["count"] = 49331,
+								},
+								["Shadow Bolt"] = {
+									["count"] = 12760,
+								},
+							},
+							["amount"] = 102973,
+						},
+						["Scholomance Necromancer"] = {
+							["Details"] = {
+								["Soul Fire"] = {
+									["count"] = 257231,
+								},
+								["Immolation"] = {
+									["count"] = 17008,
+								},
+								["Shadow Bolt"] = {
+									["count"] = 26554,
+								},
+								["Drain Life (DoT)"] = {
+									["count"] = 3501,
+								},
+							},
+							["amount"] = 304294,
+						},
+						["Plagued Hatchling"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 222,
+								},
+								["Shadowflame"] = {
+									["count"] = 3970,
+								},
+								["Shadow Bolt"] = {
+									["count"] = 6111,
+								},
+								["Soul Fire"] = {
+									["count"] = 15615,
+								},
+								["Rain of Fire"] = {
+									["count"] = 56951,
+								},
+							},
+							["amount"] = 82869,
+						},
+						["Risen Construct"] = {
+							["Details"] = {
+								["Shadow Bolt"] = {
+									["count"] = 25263,
+								},
+								["Soul Fire"] = {
+									["count"] = 181633,
+								},
+								["Drain Life (DoT)"] = {
+									["count"] = 3960,
+								},
+							},
+							["amount"] = 210856,
+						},
+						["Risen Lackey"] = {
+							["Details"] = {
+								["Immolation"] = {
+									["count"] = 10466,
+								},
+							},
+							["amount"] = 10466,
+						},
+						["Risen Guard"] = {
+							["Details"] = {
+								["Conflagrate (DoT)"] = {
+									["count"] = 4330,
+								},
+								["Melee"] = {
+									["count"] = 320,
+								},
+								["Shadowflame"] = {
+									["count"] = 2397,
+								},
+								["Incinerate"] = {
+									["count"] = 17246,
+								},
+								["Immolation"] = {
+									["count"] = 27331,
+								},
+								["Immolate"] = {
+									["count"] = 3969,
+								},
+								["Conflagrate"] = {
+									["count"] = 10478,
+								},
+								["Chaos Bolt"] = {
+									["count"] = 10515,
+								},
+								["Soul Fire"] = {
+									["count"] = 177960,
+								},
+								["Immolate (DoT)"] = {
+									["count"] = 3261,
+								},
+								["Shadowfury"] = {
+									["count"] = 4715,
+								},
+								["Shadow Bolt"] = {
+									["count"] = 18143,
+								},
+							},
+							["amount"] = 280665,
+						},
+						["Necrofiend"] = {
+							["Details"] = {
+								["Immolation"] = {
+									["count"] = 30014,
+								},
+								["Soul Fire"] = {
+									["count"] = 25610,
+								},
+								["Shadow Bolt"] = {
+									["count"] = 26901,
+								},
+							},
+							["amount"] = 82525,
+						},
+						["Reanimated Corpse"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 539,
+								},
+								["Soul Fire"] = {
+									["count"] = 41531,
+								},
+								["Incinerate"] = {
+									["count"] = 4580,
+								},
+								["Immolation"] = {
+									["count"] = 18071,
+								},
+								["Rain of Fire"] = {
+									["count"] = 39762,
+								},
+							},
+							["amount"] = 104483,
+						},
+						["Scholomance Adept"] = {
+							["Details"] = {
+								["Soul Fire"] = {
+									["count"] = 271173,
+								},
+								["Immolation"] = {
+									["count"] = 34016,
+								},
+								["Shadow Bolt"] = {
+									["count"] = 23854,
+								},
+								["Drain Life (DoT)"] = {
+									["count"] = 2784,
+								},
+							},
+							["amount"] = 331827,
+						},
+						["Blood Steward of Kirtonos"] = {
+							["Details"] = {
+								["Immolation"] = {
+									["count"] = 16320,
+								},
+								["Soul Fire"] = {
+									["count"] = 22033,
+								},
+							},
+							["amount"] = 38353,
+						},
+						["Rat"] = {
+							["Details"] = {
+								["Immolation"] = {
+									["count"] = 2026,
+								},
+								["Rain of Fire"] = {
+									["count"] = 7152,
+								},
+								["Shadowflame"] = {
+									["count"] = 9713,
+								},
+							},
+							["amount"] = 18891,
+						},
+						["Spectral Tutor"] = {
+							["Details"] = {
+								["Immolation"] = {
+									["count"] = 4360,
+								},
+								["Soul Fire"] = {
+									["count"] = 145147,
+								},
+								["Shadow Bolt"] = {
+									["count"] = 20928,
+								},
+							},
+							["amount"] = 170435,
+						},
+						["Rattlegore"] = {
+							["Details"] = {
+								["Soul Fire"] = {
+									["count"] = 43303,
+								},
+							},
+							["amount"] = 43303,
+						},
+						["Spectral Projection"] = {
+							["Details"] = {
+								["Shadow Bolt"] = {
+									["count"] = 22978,
+								},
+								["Immolation"] = {
+									["count"] = 21800,
+								},
+							},
+							["amount"] = 44778,
+						},
+						["Scholomance Necrolyte"] = {
+							["Details"] = {
+								["Shadowflame (DoT)"] = {
+									["count"] = 2876,
+								},
+								["Soul Fire"] = {
+									["count"] = 161491,
+								},
+								["Shadow Bolt"] = {
+									["count"] = 28238,
+								},
+								["Immolation"] = {
+									["count"] = 42106,
+								},
+								["Shadowflame"] = {
+									["count"] = 2389,
+								},
+								["Drain Life (DoT)"] = {
+									["count"] = 2784,
+								},
+							},
+							["amount"] = 239884,
 						},
 					},
+					["ElementTakenAbsorb"] = {
+						["Physical"] = 8,
+						["Shadow"] = 37,
+						["Melee"] = 10465,
+						["Nature"] = 2153,
+					},
+					["Heals"] = {
+						["Fel Synergy"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 729,
+									["min"] = 2,
+									["count"] = 130,
+									["amount"] = 19304,
+								},
+							},
+							["count"] = 130,
+							["amount"] = 19304,
+						},
+						["Fel Armor"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 781,
+									["min"] = 1,
+									["count"] = 118,
+									["amount"] = 69379,
+								},
+							},
+							["count"] = 118,
+							["amount"] = 69379,
+						},
+						["Drain Life"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 1167,
+									["min"] = 94,
+									["count"] = 18,
+									["amount"] = 16300,
+								},
+							},
+							["count"] = 18,
+							["amount"] = 16300,
+						},
+					},
+					["WhoHealed"] = {
+						["Denathra"] = {
+							["Details"] = {
+								["Fel Armor"] = {
+									["count"] = 69379,
+								},
+								["Drain Life"] = {
+									["count"] = 16300,
+								},
+							},
+							["amount"] = 85679,
+						},
+					},
+					["HOTs"] = {
+						["Fel Armor"] = {
+							["Details"] = {
+								["Denathra"] = {
+									["count"] = 465,
+								},
+							},
+							["amount"] = 465,
+						},
+					},
+					["TimeSpent"] = {
+						["Frail Skeleton"] = {
+							["Details"] = {
+								["Soul Fire"] = {
+									["count"] = 13.24,
+								},
+								["Immolation"] = {
+									["count"] = 2.04,
+								},
+							},
+							["amount"] = 15.28,
+						},
+						["Denathra"] = {
+							["Details"] = {
+								["Fel Armor"] = {
+									["count"] = 130.9999999999999,
+								},
+								["Drain Life"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 130.9999999999999,
+						},
+						["Scholomance Neophyte"] = {
+							["Details"] = {
+								["Conflagrate"] = {
+									["count"] = 0.74,
+								},
+								["Shadowfury"] = {
+									["count"] = 0,
+								},
+								["Conflagrate (DoT)"] = {
+									["count"] = 1.55,
+								},
+								["Soul Fire"] = {
+									["count"] = 40.05,
+								},
+								["Shadow Bolt"] = {
+									["count"] = 8.5,
+								},
+								["Immolation"] = {
+									["count"] = 1.31,
+								},
+								["Immolate"] = {
+									["count"] = 3.5,
+								},
+								["Drain Life (DoT)"] = {
+									["count"] = 7.02,
+								},
+							},
+							["amount"] = 62.67,
+						},
+						["Diseased Ghoul"] = {
+							["Details"] = {
+								["Shadowflame (DoT)"] = {
+									["count"] = 0,
+								},
+								["Shadow Bolt"] = {
+									["count"] = 0,
+								},
+								["Soul Fire"] = {
+									["count"] = 0,
+								},
+								["Shadowflame"] = {
+									["count"] = 0,
+								},
+								["Immolation"] = {
+									["count"] = 0,
+								},
+								["Immolate"] = {
+									["count"] = 0,
+								},
+								["Rain of Fire"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Risen Aberration"] = {
+							["Details"] = {
+								["Soul Fire"] = {
+									["count"] = 5.39,
+								},
+								["Immolation"] = {
+									["count"] = 10.8,
+								},
+								["Melee"] = {
+									["count"] = 3.66,
+								},
+								["Shadowflame"] = {
+									["count"] = 0.51,
+								},
+								["Soulshatter"] = {
+									["count"] = 0.5,
+								},
+								["Drain Life"] = {
+									["count"] = 0.35,
+								},
+								["Immolate"] = {
+									["count"] = 0.38,
+								},
+								["Rain of Fire"] = {
+									["count"] = 14.45,
+								},
+							},
+							["amount"] = 36.03999999999999,
+						},
+						["Risen Protector"] = {
+							["Details"] = {
+								["Shadow Bolt"] = {
+									["count"] = 7,
+								},
+								["Soul Fire"] = {
+									["count"] = 10.06,
+								},
+							},
+							["amount"] = 17.06,
+						},
+						["Spectral Projection"] = {
+							["Details"] = {
+								["Shadow Bolt"] = {
+									["count"] = 1.79,
+								},
+								["Immolation"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 1.79,
+						},
+						["Spectral Researcher"] = {
+							["Details"] = {
+								["Shadowfury"] = {
+									["count"] = 3.5,
+								},
+								["Soul Fire"] = {
+									["count"] = 14.6,
+								},
+								["Incinerate"] = {
+									["count"] = 0.57,
+								},
+								["Immolation"] = {
+									["count"] = 3.5,
+								},
+								["Shadow Bolt"] = {
+									["count"] = 5.91,
+								},
+							},
+							["amount"] = 28.08,
+						},
+						["Scholomance Dark Summoner"] = {
+							["Details"] = {
+								["Immolation"] = {
+									["count"] = 1.31,
+								},
+								["Soul Fire"] = {
+									["count"] = 6.76,
+								},
+								["Shadow Bolt"] = {
+									["count"] = 3.5,
+								},
+							},
+							["amount"] = 11.57,
+						},
+						["Jandice Barov"] = {
+							["Details"] = {
+								["Shadow Bolt"] = {
+									["count"] = 1.64,
+								},
+							},
+							["amount"] = 1.64,
+						},
+						["Risen Construct"] = {
+							["Details"] = {
+								["Shadow Bolt"] = {
+									["count"] = 7,
+								},
+								["Soul Fire"] = {
+									["count"] = 22.24,
+								},
+								["Drain Life (DoT)"] = {
+									["count"] = 1.1,
+								},
+							},
+							["amount"] = 30.34,
+						},
+						["Scholomance Acolyte"] = {
+							["Details"] = {
+								["Shadowfury"] = {
+									["count"] = 0,
+								},
+								["Conflagrate"] = {
+									["count"] = 0.75,
+								},
+								["Soul Fire"] = {
+									["count"] = 25.4,
+								},
+								["Incinerate"] = {
+									["count"] = 6.87,
+								},
+								["Immolation"] = {
+									["count"] = 1.83,
+								},
+								["Immolate"] = {
+									["count"] = 1.83,
+								},
+								["Shadow Bolt"] = {
+									["count"] = 9.560000000000001,
+								},
+							},
+							["amount"] = 46.24,
+						},
+						["Risen Guard"] = {
+							["Details"] = {
+								["Conflagrate (DoT)"] = {
+									["count"] = 2.01,
+								},
+								["Melee"] = {
+									["count"] = 1.83,
+								},
+								["Shadowflame"] = {
+									["count"] = 1.55,
+								},
+								["Incinerate"] = {
+									["count"] = 3.65,
+								},
+								["Immolation"] = {
+									["count"] = 1.36,
+								},
+								["Immolate"] = {
+									["count"] = 5.82,
+								},
+								["Conflagrate"] = {
+									["count"] = 1.47,
+								},
+								["Chaos Bolt"] = {
+									["count"] = 1.97,
+								},
+								["Soul Fire"] = {
+									["count"] = 26.91,
+								},
+								["Immolate (DoT)"] = {
+									["count"] = 0,
+								},
+								["Shadowfury"] = {
+									["count"] = 2.1,
+								},
+								["Shadow Bolt"] = {
+									["count"] = 3.5,
+								},
+							},
+							["amount"] = 52.17,
+						},
+						["Scholomance Necromancer"] = {
+							["Details"] = {
+								["Soul Fire"] = {
+									["count"] = 34.04,
+								},
+								["Immolation"] = {
+									["count"] = 4.82,
+								},
+								["Shadow Bolt"] = {
+									["count"] = 2.02,
+								},
+								["Drain Life (DoT)"] = {
+									["count"] = 3.45,
+								},
+							},
+							["amount"] = 44.33000000000001,
+						},
+						["Plagued Hatchling"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0.15,
+								},
+								["Shadowflame"] = {
+									["count"] = 0,
+								},
+								["Shadow Bolt"] = {
+									["count"] = 0,
+								},
+								["Soul Fire"] = {
+									["count"] = 1.07,
+								},
+								["Rain of Fire"] = {
+									["count"] = 0.01,
+								},
+							},
+							["amount"] = 1.23,
+						},
+						["Selrah <Denathra>"] = {
+							["Details"] = {
+								["Soul Link"] = {
+									["count"] = 0.1,
+								},
+								["Fel Synergy"] = {
+									["count"] = 1.09,
+								},
+							},
+							["amount"] = 1.19,
+						},
+						["Risen Lackey"] = {
+							["Details"] = {
+								["Immolation"] = {
+									["count"] = 1.54,
+								},
+							},
+							["amount"] = 1.54,
+						},
+						["Necrofiend"] = {
+							["Details"] = {
+								["Immolation"] = {
+									["count"] = 0,
+								},
+								["Soul Fire"] = {
+									["count"] = 4.45,
+								},
+								["Shadow Bolt"] = {
+									["count"] = 7,
+								},
+							},
+							["amount"] = 11.45,
+						},
+						["Scholomance Handler"] = {
+							["Details"] = {
+								["Shadowflame (DoT)"] = {
+									["count"] = 0.72,
+								},
+								["Melee"] = {
+									["count"] = 1.35,
+								},
+								["Shadowflame"] = {
+									["count"] = 0,
+								},
+								["Shadow Bolt"] = {
+									["count"] = 3.5,
+								},
+								["Rain of Fire"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 5.57,
+						},
+						["Reanimated Corpse"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0.23,
+								},
+								["Soul Fire"] = {
+									["count"] = 0,
+								},
+								["Incinerate"] = {
+									["count"] = 0,
+								},
+								["Immolation"] = {
+									["count"] = 3.5,
+								},
+								["Shadow Bolt"] = {
+									["count"] = 0.17,
+								},
+								["Rain of Fire"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 3.9,
+						},
+						["Shaathun <Denathra>"] = {
+							["Details"] = {
+								["Fel Synergy"] = {
+									["count"] = 95.41,
+								},
+								["Soul Link"] = {
+									["count"] = 173.4899999999997,
+								},
+							},
+							["amount"] = 268.8999999999999,
+						},
+						["Blood Steward of Kirtonos"] = {
+							["Details"] = {
+								["Immolation"] = {
+									["count"] = 0.74,
+								},
+								["Soul Fire"] = {
+									["count"] = 3.46,
+								},
+							},
+							["amount"] = 4.2,
+						},
+						["Rat"] = {
+							["Details"] = {
+								["Immolation"] = {
+									["count"] = 0,
+								},
+								["Rain of Fire"] = {
+									["count"] = 0,
+								},
+								["Shadowflame"] = {
+									["count"] = 3.5,
+								},
+							},
+							["amount"] = 3.5,
+						},
+						["Spectral Tutor"] = {
+							["Details"] = {
+								["Immolation"] = {
+									["count"] = 5.79,
+								},
+								["Soul Fire"] = {
+									["count"] = 14.64,
+								},
+								["Shadow Bolt"] = {
+									["count"] = 1.18,
+								},
+							},
+							["amount"] = 21.61,
+						},
+						["Rattlegore"] = {
+							["Details"] = {
+								["Soul Fire"] = {
+									["count"] = 1.6,
+								},
+							},
+							["amount"] = 1.6,
+						},
+						["Scholomance Adept"] = {
+							["Details"] = {
+								["Soul Fire"] = {
+									["count"] = 45.89999999999999,
+								},
+								["Immolation"] = {
+									["count"] = 0,
+								},
+								["Shadow Bolt"] = {
+									["count"] = 7,
+								},
+								["Drain Life (DoT)"] = {
+									["count"] = 4.25,
+								},
+							},
+							["amount"] = 57.15,
+						},
+						["Scholomance Necrolyte"] = {
+							["Details"] = {
+								["Shadowflame (DoT)"] = {
+									["count"] = 5.59,
+								},
+								["Soul Fire"] = {
+									["count"] = 17.71,
+								},
+								["Shadow Bolt"] = {
+									["count"] = 3.71,
+								},
+								["Immolation"] = {
+									["count"] = 0,
+								},
+								["Shadowflame"] = {
+									["count"] = 0,
+								},
+								["Drain Life (DoT)"] = {
+									["count"] = 2.92,
+								},
+							},
+							["amount"] = 29.93,
+						},
+					},
+					["Healing"] = 104983,
+					["Overhealing"] = 427134,
+					["HOT_Time"] = 465,
+					["Attacks"] = {
+						["Shadowfury"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 4715,
+									["min"] = 4715,
+									["count"] = 1,
+									["amount"] = 4715,
+								},
+								["Hit"] = {
+									["max"] = 1833,
+									["min"] = 1648,
+									["count"] = 4,
+									["amount"] = 7013,
+								},
+							},
+							["count"] = 5,
+							["amount"] = 11728,
+						},
+						["Shadowflame"] = {
+							["Details"] = {
+								["Immune"] = {
+									["count"] = 10,
+									["amount"] = 0,
+								},
+								["Crit"] = {
+									["max"] = 4117,
+									["min"] = 3908,
+									["count"] = 5,
+									["amount"] = 19874,
+								},
+								["Hit"] = {
+									["max"] = 2397,
+									["min"] = 1892,
+									["count"] = 3,
+									["amount"] = 6678,
+								},
+							},
+							["count"] = 18,
+							["amount"] = 26552,
+						},
+						["Immolate"] = {
+							["Details"] = {
+								["Immune"] = {
+									["count"] = 1,
+									["amount"] = 0,
+								},
+								["Crit"] = {
+									["max"] = 3477,
+									["min"] = 3477,
+									["count"] = 1,
+									["amount"] = 3477,
+								},
+								["Hit"] = {
+									["max"] = 2288,
+									["min"] = 1665,
+									["count"] = 4,
+									["amount"] = 7320,
+								},
+							},
+							["count"] = 6,
+							["amount"] = 10797,
+						},
+						["Conflagrate"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 5797,
+									["min"] = 3853,
+									["count"] = 4,
+									["amount"] = 18184,
+								},
+							},
+							["count"] = 4,
+							["amount"] = 18184,
+						},
+						["Soul Fire"] = {
+							["Details"] = {
+								["Immune"] = {
+									["count"] = 7,
+									["amount"] = 0,
+								},
+								["Crit"] = {
+									["max"] = 23558,
+									["min"] = 14831,
+									["count"] = 85,
+									["amount"] = 1459001,
+								},
+								["Hit"] = {
+									["max"] = 11318,
+									["min"] = 7078,
+									["count"] = 77,
+									["amount"] = 634450,
+								},
+							},
+							["count"] = 169,
+							["amount"] = 2093451,
+						},
+						["Soulshatter"] = {
+							["Details"] = {
+								["Immune"] = {
+									["count"] = 4,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 4,
+							["amount"] = 0,
+						},
+						["Drain Life (DoT)"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 1167,
+									["min"] = 858,
+									["count"] = 20,
+									["amount"] = 19437,
+								},
+							},
+							["count"] = 20,
+							["amount"] = 19437,
+						},
+						["Shadowflame (DoT)"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 719,
+									["min"] = 554,
+									["count"] = 7,
+									["amount"] = 4580,
+								},
+							},
+							["count"] = 7,
+							["amount"] = 4580,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 788,
+									["min"] = 362,
+									["count"] = 4,
+									["amount"] = 2269,
+								},
+								["Hit"] = {
+									["max"] = 320,
+									["min"] = 216,
+									["count"] = 5,
+									["amount"] = 1297,
+								},
+							},
+							["count"] = 9,
+							["amount"] = 3566,
+						},
+						["Incinerate"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 6532,
+									["min"] = 4102,
+									["count"] = 8,
+									["amount"] = 38347,
+								},
+							},
+							["count"] = 8,
+							["amount"] = 38347,
+						},
+						["Immolation"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 2304,
+									["min"] = 1762,
+									["count"] = 209,
+									["amount"] = 432463,
+								},
+								["Immune"] = {
+									["count"] = 188,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 397,
+							["amount"] = 432463,
+						},
+						["Shadow Bolt"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 8530,
+									["min"] = 5421,
+									["count"] = 22,
+									["amount"] = 142401,
+								},
+								["Immune"] = {
+									["count"] = 1,
+									["amount"] = 0,
+								},
+								["Crit"] = {
+									["max"] = 15328,
+									["min"] = 11557,
+									["count"] = 23,
+									["amount"] = 298149,
+								},
+								["Evade"] = {
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 47,
+							["amount"] = 440550,
+						},
+						["Chaos Bolt"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 5410,
+									["min"] = 5105,
+									["count"] = 2,
+									["amount"] = 10515,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 10515,
+						},
+						["Drain Life"] = {
+							["Details"] = {
+								["Immune"] = {
+									["count"] = 2,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 0,
+						},
+						["Immolate (DoT)"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 3261,
+									["min"] = 3261,
+									["count"] = 1,
+									["amount"] = 3261,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 3261,
+						},
+						["Conflagrate (DoT)"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 3123,
+									["min"] = 2056,
+									["count"] = 2,
+									["amount"] = 5179,
+								},
+								["Tick"] = {
+									["max"] = 1207,
+									["min"] = 1207,
+									["count"] = 1,
+									["amount"] = 1207,
+								},
+							},
+							["count"] = 3,
+							["amount"] = 6386,
+						},
+						["Rain of Fire"] = {
+							["Details"] = {
+								["Immune"] = {
+									["count"] = 96,
+									["amount"] = 0,
+								},
+								["Crit"] = {
+									["max"] = 4886,
+									["min"] = 2417,
+									["count"] = 24,
+									["amount"] = 98684,
+								},
+								["Hit"] = {
+									["max"] = 2805,
+									["min"] = 1157,
+									["count"] = 36,
+									["amount"] = 67526,
+								},
+							},
+							["count"] = 156,
+							["amount"] = 166210,
+						},
+					},
+					["HealingTaken"] = 85679,
+					["DamageTaken"] = 51712,
+					["TimeDamage"] = 662.4799999999997,
+					["TimeDamaging"] = {
+						["Frail Skeleton"] = {
+							["Details"] = {
+								["Soul Fire"] = {
+									["count"] = 13.24,
+								},
+								["Immolation"] = {
+									["count"] = 2.04,
+								},
+							},
+							["amount"] = 15.28,
+						},
+						["Shaathun <Denathra>"] = {
+							["Details"] = {
+								["Soul Link"] = {
+									["count"] = 173.4899999999997,
+								},
+							},
+							["amount"] = 173.4899999999997,
+						},
+						["Scholomance Neophyte"] = {
+							["Details"] = {
+								["Conflagrate"] = {
+									["count"] = 0.74,
+								},
+								["Shadowfury"] = {
+									["count"] = 0,
+								},
+								["Conflagrate (DoT)"] = {
+									["count"] = 1.55,
+								},
+								["Soul Fire"] = {
+									["count"] = 40.05,
+								},
+								["Shadow Bolt"] = {
+									["count"] = 8.5,
+								},
+								["Immolation"] = {
+									["count"] = 1.31,
+								},
+								["Immolate"] = {
+									["count"] = 3.5,
+								},
+								["Drain Life (DoT)"] = {
+									["count"] = 7.02,
+								},
+							},
+							["amount"] = 62.67,
+						},
+						["Diseased Ghoul"] = {
+							["Details"] = {
+								["Shadowflame (DoT)"] = {
+									["count"] = 0,
+								},
+								["Shadow Bolt"] = {
+									["count"] = 0,
+								},
+								["Soul Fire"] = {
+									["count"] = 0,
+								},
+								["Shadowflame"] = {
+									["count"] = 0,
+								},
+								["Immolation"] = {
+									["count"] = 0,
+								},
+								["Immolate"] = {
+									["count"] = 0,
+								},
+								["Rain of Fire"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Risen Aberration"] = {
+							["Details"] = {
+								["Soul Fire"] = {
+									["count"] = 5.39,
+								},
+								["Immolation"] = {
+									["count"] = 10.8,
+								},
+								["Melee"] = {
+									["count"] = 3.66,
+								},
+								["Shadowflame"] = {
+									["count"] = 0.51,
+								},
+								["Soulshatter"] = {
+									["count"] = 0.5,
+								},
+								["Drain Life"] = {
+									["count"] = 0.35,
+								},
+								["Immolate"] = {
+									["count"] = 0.38,
+								},
+								["Rain of Fire"] = {
+									["count"] = 14.45,
+								},
+							},
+							["amount"] = 36.03999999999999,
+						},
+						["Risen Protector"] = {
+							["Details"] = {
+								["Shadow Bolt"] = {
+									["count"] = 7,
+								},
+								["Soul Fire"] = {
+									["count"] = 10.06,
+								},
+							},
+							["amount"] = 17.06,
+						},
+						["Spectral Researcher"] = {
+							["Details"] = {
+								["Shadowfury"] = {
+									["count"] = 3.5,
+								},
+								["Soul Fire"] = {
+									["count"] = 14.6,
+								},
+								["Incinerate"] = {
+									["count"] = 0.57,
+								},
+								["Immolation"] = {
+									["count"] = 3.5,
+								},
+								["Shadow Bolt"] = {
+									["count"] = 5.91,
+								},
+							},
+							["amount"] = 28.08,
+						},
+						["Jandice Barov"] = {
+							["Details"] = {
+								["Shadow Bolt"] = {
+									["count"] = 1.64,
+								},
+							},
+							["amount"] = 1.64,
+						},
+						["Scholomance Handler"] = {
+							["Details"] = {
+								["Shadowflame (DoT)"] = {
+									["count"] = 0.72,
+								},
+								["Melee"] = {
+									["count"] = 1.35,
+								},
+								["Shadowflame"] = {
+									["count"] = 0,
+								},
+								["Shadow Bolt"] = {
+									["count"] = 3.5,
+								},
+								["Rain of Fire"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 5.57,
+						},
+						["Scholomance Dark Summoner"] = {
+							["Details"] = {
+								["Immolation"] = {
+									["count"] = 1.31,
+								},
+								["Soul Fire"] = {
+									["count"] = 6.76,
+								},
+								["Shadow Bolt"] = {
+									["count"] = 3.5,
+								},
+							},
+							["amount"] = 11.57,
+						},
+						["Scholomance Acolyte"] = {
+							["Details"] = {
+								["Shadowfury"] = {
+									["count"] = 0,
+								},
+								["Conflagrate"] = {
+									["count"] = 0.75,
+								},
+								["Soul Fire"] = {
+									["count"] = 25.4,
+								},
+								["Incinerate"] = {
+									["count"] = 6.87,
+								},
+								["Immolation"] = {
+									["count"] = 1.83,
+								},
+								["Immolate"] = {
+									["count"] = 1.83,
+								},
+								["Shadow Bolt"] = {
+									["count"] = 9.560000000000001,
+								},
+							},
+							["amount"] = 46.24,
+						},
+						["Risen Construct"] = {
+							["Details"] = {
+								["Shadow Bolt"] = {
+									["count"] = 7,
+								},
+								["Soul Fire"] = {
+									["count"] = 22.24,
+								},
+								["Drain Life (DoT)"] = {
+									["count"] = 1.1,
+								},
+							},
+							["amount"] = 30.34,
+						},
+						["Scholomance Necromancer"] = {
+							["Details"] = {
+								["Soul Fire"] = {
+									["count"] = 34.04,
+								},
+								["Immolation"] = {
+									["count"] = 4.82,
+								},
+								["Shadow Bolt"] = {
+									["count"] = 2.02,
+								},
+								["Drain Life (DoT)"] = {
+									["count"] = 3.45,
+								},
+							},
+							["amount"] = 44.33000000000001,
+						},
+						["Plagued Hatchling"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0.15,
+								},
+								["Shadowflame"] = {
+									["count"] = 0,
+								},
+								["Shadow Bolt"] = {
+									["count"] = 0,
+								},
+								["Soul Fire"] = {
+									["count"] = 1.07,
+								},
+								["Rain of Fire"] = {
+									["count"] = 0.01,
+								},
+							},
+							["amount"] = 1.23,
+						},
+						["Selrah <Denathra>"] = {
+							["Details"] = {
+								["Soul Link"] = {
+									["count"] = 0.1,
+								},
+							},
+							["amount"] = 0.1,
+						},
+						["Risen Lackey"] = {
+							["Details"] = {
+								["Immolation"] = {
+									["count"] = 1.54,
+								},
+							},
+							["amount"] = 1.54,
+						},
+						["Risen Guard"] = {
+							["Details"] = {
+								["Conflagrate (DoT)"] = {
+									["count"] = 2.01,
+								},
+								["Melee"] = {
+									["count"] = 1.83,
+								},
+								["Shadowflame"] = {
+									["count"] = 1.55,
+								},
+								["Incinerate"] = {
+									["count"] = 3.65,
+								},
+								["Immolation"] = {
+									["count"] = 1.36,
+								},
+								["Immolate"] = {
+									["count"] = 5.82,
+								},
+								["Conflagrate"] = {
+									["count"] = 1.47,
+								},
+								["Chaos Bolt"] = {
+									["count"] = 1.97,
+								},
+								["Soul Fire"] = {
+									["count"] = 26.91,
+								},
+								["Immolate (DoT)"] = {
+									["count"] = 0,
+								},
+								["Shadowfury"] = {
+									["count"] = 2.1,
+								},
+								["Shadow Bolt"] = {
+									["count"] = 3.5,
+								},
+							},
+							["amount"] = 52.17,
+						},
+						["Necrofiend"] = {
+							["Details"] = {
+								["Immolation"] = {
+									["count"] = 0,
+								},
+								["Soul Fire"] = {
+									["count"] = 4.45,
+								},
+								["Shadow Bolt"] = {
+									["count"] = 7,
+								},
+							},
+							["amount"] = 11.45,
+						},
+						["Reanimated Corpse"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0.23,
+								},
+								["Soul Fire"] = {
+									["count"] = 0,
+								},
+								["Incinerate"] = {
+									["count"] = 0,
+								},
+								["Immolation"] = {
+									["count"] = 3.5,
+								},
+								["Shadow Bolt"] = {
+									["count"] = 0.17,
+								},
+								["Rain of Fire"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 3.9,
+						},
+						["Scholomance Adept"] = {
+							["Details"] = {
+								["Soul Fire"] = {
+									["count"] = 45.89999999999999,
+								},
+								["Immolation"] = {
+									["count"] = 0,
+								},
+								["Shadow Bolt"] = {
+									["count"] = 7,
+								},
+								["Drain Life (DoT)"] = {
+									["count"] = 4.25,
+								},
+							},
+							["amount"] = 57.15,
+						},
+						["Blood Steward of Kirtonos"] = {
+							["Details"] = {
+								["Immolation"] = {
+									["count"] = 0.74,
+								},
+								["Soul Fire"] = {
+									["count"] = 3.46,
+								},
+							},
+							["amount"] = 4.2,
+						},
+						["Rat"] = {
+							["Details"] = {
+								["Immolation"] = {
+									["count"] = 0,
+								},
+								["Rain of Fire"] = {
+									["count"] = 0,
+								},
+								["Shadowflame"] = {
+									["count"] = 3.5,
+								},
+							},
+							["amount"] = 3.5,
+						},
+						["Spectral Tutor"] = {
+							["Details"] = {
+								["Immolation"] = {
+									["count"] = 5.79,
+								},
+								["Soul Fire"] = {
+									["count"] = 14.64,
+								},
+								["Shadow Bolt"] = {
+									["count"] = 1.18,
+								},
+							},
+							["amount"] = 21.61,
+						},
+						["Rattlegore"] = {
+							["Details"] = {
+								["Soul Fire"] = {
+									["count"] = 1.6,
+								},
+							},
+							["amount"] = 1.6,
+						},
+						["Spectral Projection"] = {
+							["Details"] = {
+								["Shadow Bolt"] = {
+									["count"] = 1.79,
+								},
+								["Immolation"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 1.79,
+						},
+						["Scholomance Necrolyte"] = {
+							["Details"] = {
+								["Shadowflame (DoT)"] = {
+									["count"] = 5.59,
+								},
+								["Soul Fire"] = {
+									["count"] = 17.71,
+								},
+								["Shadow Bolt"] = {
+									["count"] = 3.71,
+								},
+								["Immolation"] = {
+									["count"] = 0,
+								},
+								["Shadowflame"] = {
+									["count"] = 0,
+								},
+								["Drain Life (DoT)"] = {
+									["count"] = 2.92,
+								},
+							},
+							["amount"] = 29.93,
+						},
+					},
+					["ManaGain"] = 212621,
 					["PartialAbsorb"] = {
 						["Cripple"] = {
 							["Details"] = {
@@ -21021,7 +12881,7 @@ RecountPerCharDB = {
 							["count"] = 4,
 							["amount"] = 0,
 						},
-						["Diseased Spit"] = {
+						["Frost Shock"] = {
 							["Details"] = {
 								["No Absorb"] = {
 									["max"] = 0,
@@ -21033,17 +12893,17 @@ RecountPerCharDB = {
 							["count"] = 1,
 							["amount"] = 0,
 						},
-						["Arcane Blast"] = {
+						["Cloud of Disease (DoT)"] = {
 							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 0,
+								["Absorbed"] = {
+									["max"] = 46,
+									["min"] = 26,
+									["count"] = 55,
+									["amount"] = 2153,
 								},
 							},
-							["count"] = 1,
-							["amount"] = 0,
+							["count"] = 55,
+							["amount"] = 2153,
 						},
 						["Mind Flay"] = {
 							["Details"] = {
@@ -21069,19 +12929,19 @@ RecountPerCharDB = {
 							["count"] = 1,
 							["amount"] = 0,
 						},
-						["Cloud of Disease (DoT)"] = {
+						["Arcane Blast"] = {
 							["Details"] = {
-								["Absorbed"] = {
-									["max"] = 46,
-									["min"] = 26,
-									["count"] = 55,
-									["amount"] = 2153,
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
 								},
 							},
-							["count"] = 55,
-							["amount"] = 2153,
+							["count"] = 1,
+							["amount"] = 0,
 						},
-						["Frost Shock"] = {
+						["Diseased Spit"] = {
 							["Details"] = {
 								["No Absorb"] = {
 									["max"] = 0,
@@ -21094,140 +12954,8933 @@ RecountPerCharDB = {
 							["amount"] = 0,
 						},
 					},
-					["Heals"] = {
+					["ManaGainedFrom"] = {
+						["Denathra"] = {
+							["Details"] = {
+								["Life Tap"] = {
+									["count"] = 212621,
+								},
+							},
+							["amount"] = 212621,
+						},
+					},
+				},
+				["Fight5"] = {
+					["DOTs"] = {
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 0,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+						["Shadow"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 0,
+								},
+								["Miss"] = {
+									["count"] = 0,
+								},
+								["Dodge"] = {
+									["count"] = 0,
+								},
+								["Parry"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Nature"] = {
+							["Details"] = {
+								["Tick"] = {
+									["count"] = 0,
+								},
+								["Miss"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 3,
+					["HOTs"] = {
+						["Fel Armor"] = {
+							["Details"] = {
+								["Denathra"] = {
+									["count"] = 3,
+								},
+							},
+							["amount"] = 3,
+						},
+					},
+					["ManaGain"] = 0,
+					["ElementTaken"] = {
+						["Melee"] = 0,
+						["Nature"] = 0,
+					},
+					["DOT_Time"] = 0,
+					["Damage"] = 42118,
+					["ElementDoneAbsorb"] = {
+					},
+					["TimeHeal"] = 0.53,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["PartialAbsorb"] = {
+						["Cripple"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Absorbed"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Mana Burn"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Shadow Word: Pain"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Mind Flay"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Cloud of Disease (DoT)"] = {
+							["Details"] = {
+								["Absorbed"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Shadow Bolt"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Wail of Souls"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Disease Cloud"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Wandering Plague"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["RageGain"] = 0,
+					["FAttacks"] = {
+						["Soul Link"] = {
+							["Details"] = {
+								["Split"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["PartialBlock"] = {
+					},
+					["ElementDone"] = {
+						["Fire"] = 42118,
+						["Shadow"] = 0,
+					},
+					["CCBroken"] = {
+					},
+					["ElementHitsDone"] = {
+						["Fire"] = {
+							["Details"] = {
+								["Immune"] = {
+									["count"] = 0,
+								},
+								["Crit"] = {
+									["count"] = 2,
+								},
+								["Hit"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 3,
+						},
+						["Shadow"] = {
+							["Details"] = {
+								["Immune"] = {
+									["count"] = 0,
+								},
+								["Crit"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["Dispelled"] = 0,
+					["WhoDamaged"] = {
+						["Scholomance Dark Summoner"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Scholomance Neophyte"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Diseased Ghoul"] = {
+							["Details"] = {
+								["Cloud of Disease (DoT)"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Risen Aberration"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Necrofiend"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Spectral Researcher"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Risen Guard"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Blood Steward of Kirtonos"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Reanimated Corpse"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["FDamagedWho"] = {
+						["Shaathun <Denathra>"] = {
+							["Details"] = {
+								["Soul Link"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+						["Shaathun <Denathra>"] = {
+							["Details"] = {
+								["Fel Synergy"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Denathra"] = {
+							["Details"] = {
+								["Fel Armor"] = {
+									["count"] = 0.53,
+								},
+							},
+							["amount"] = 0.53,
+						},
+					},
+					["OverHeals"] = {
 						["Fel Synergy"] = {
 							["Details"] = {
 								["Hit"] = {
-									["max"] = 729,
-									["min"] = 2,
-									["count"] = 130,
-									["amount"] = 19304,
+									["max"] = 2551,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 3786,
 								},
 							},
-							["count"] = 130,
-							["amount"] = 19304,
-						},
-						["Drain Life"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 1167,
-									["min"] = 94,
-									["count"] = 18,
-									["amount"] = 16300,
-								},
-							},
-							["count"] = 18,
-							["amount"] = 16300,
+							["count"] = 2,
+							["amount"] = 3786,
 						},
 						["Fel Armor"] = {
 							["Details"] = {
 								["Tick"] = {
-									["max"] = 781,
-									["min"] = 1,
-									["count"] = 118,
-									["amount"] = 69379,
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
 								},
 							},
-							["count"] = 118,
-							["amount"] = 69379,
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["RageGained"] = {
+					},
+					["ActiveTime"] = 6.98,
+					["CCBreak"] = 0,
+					["EnergyGain"] = 0,
+					["WhoHealed"] = {
+						["Denathra"] = {
+							["Details"] = {
+								["Fel Armor"] = {
+									["count"] = 649,
+								},
+							},
+							["amount"] = 649,
+						},
+					},
+					["PartialResist"] = {
+						["Cripple"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Mana Burn"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Shadow Word: Pain"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Mind Flay"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Cloud of Disease (DoT)"] = {
+							["Details"] = {
+								["50%Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Shadow Bolt"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Wail of Souls"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Disease Cloud"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Wandering Plague"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["ManaGained"] = {
+						["Life Tap"] = {
+							["Details"] = {
+								["Denathra"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ElementTakenAbsorb"] = {
+						["Melee"] = 0,
+						["Nature"] = 0,
+					},
+					["Interrupts"] = 0,
+					["Overhealing"] = 3786,
+					["ElementTakenResist"] = {
+						["Nature"] = 0,
+					},
+					["InterruptData"] = {
+					},
+					["WhoDispelled"] = {
+					},
+					["TimeSpent"] = {
+						["Scholomance Dark Summoner"] = {
+							["Details"] = {
+								["Soul Fire"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Shaathun <Denathra>"] = {
+							["Details"] = {
+								["Soul Link"] = {
+									["count"] = 0,
+								},
+								["Fel Synergy"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Scholomance Neophyte"] = {
+							["Details"] = {
+								["Immolation"] = {
+									["count"] = 0,
+								},
+								["Shadow Bolt"] = {
+									["count"] = 0,
+								},
+								["Soul Fire"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Diseased Ghoul"] = {
+							["Details"] = {
+								["Immolation"] = {
+									["count"] = 0,
+								},
+								["Rain of Fire"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Risen Aberration"] = {
+							["Details"] = {
+								["Soulshatter"] = {
+									["count"] = 0,
+								},
+								["Immolation"] = {
+									["count"] = 0,
+								},
+								["Drain Life"] = {
+									["count"] = 0,
+								},
+								["Rain of Fire"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Risen Protector"] = {
+							["Details"] = {
+								["Soul Fire"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Spectral Researcher"] = {
+							["Details"] = {
+								["Immolation"] = {
+									["count"] = 0,
+								},
+								["Soul Fire"] = {
+									["count"] = 0,
+								},
+								["Shadow Bolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Jandice Barov"] = {
+							["Details"] = {
+								["Shadow Bolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Blood Steward of Kirtonos"] = {
+							["Details"] = {
+								["Immolation"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Scholomance Necromancer"] = {
+							["Details"] = {
+								["Soul Fire"] = {
+									["count"] = 3.5,
+								},
+								["Shadow Bolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 3.5,
+						},
+						["Plagued Hatchling"] = {
+							["Details"] = {
+								["Soul Fire"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Scholomance Acolyte"] = {
+							["Details"] = {
+								["Immolation"] = {
+									["count"] = 0,
+								},
+								["Shadow Bolt"] = {
+									["count"] = 0,
+								},
+								["Soul Fire"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Scholomance Adept"] = {
+							["Details"] = {
+								["Soul Fire"] = {
+									["count"] = 1.75,
+								},
+							},
+							["amount"] = 1.75,
+						},
+						["Scholomance Handler"] = {
+							["Details"] = {
+								["Shadow Bolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Reanimated Corpse"] = {
+							["Details"] = {
+								["Immolation"] = {
+									["count"] = 0,
+								},
+								["Rain of Fire"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Risen Guard"] = {
+							["Details"] = {
+								["Immolation"] = {
+									["count"] = 0,
+								},
+								["Soul Fire"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Necrofiend"] = {
+							["Details"] = {
+								["Soul Fire"] = {
+									["count"] = 0,
+								},
+								["Immolation"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Rat"] = {
+							["Details"] = {
+								["Immolation"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Spectral Tutor"] = {
+							["Details"] = {
+								["Shadow Bolt"] = {
+									["count"] = 0,
+								},
+								["Soul Fire"] = {
+									["count"] = 1.2,
+								},
+							},
+							["amount"] = 1.2,
+						},
+						["Risen Construct"] = {
+							["Details"] = {
+								["Soul Fire"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Denathra"] = {
+							["Details"] = {
+								["Fel Armor"] = {
+									["count"] = 0.53,
+								},
+							},
+							["amount"] = 0.53,
+						},
+						["Scholomance Necrolyte"] = {
+							["Details"] = {
+								["Soul Fire"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["Heals"] = {
+						["Fel Synergy"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Fel Armor"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 649,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 649,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 649,
+						},
+					},
+					["FDamage"] = 0,
+					["EnergyGained"] = {
+					},
+					["HealedWho"] = {
+						["Shaathun <Denathra>"] = {
+							["Details"] = {
+								["Fel Synergy"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Denathra"] = {
+							["Details"] = {
+								["Fel Armor"] = {
+									["count"] = 649,
+								},
+							},
+							["amount"] = 649,
+						},
+					},
+					["Healing"] = 649,
+					["RunicPowerGained"] = {
+					},
+					["ManaGainedFrom"] = {
+						["Denathra"] = {
+							["Details"] = {
+								["Life Tap"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["Attacks"] = {
+						["Shadow Bolt"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Soul Fire"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 17009,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 33884,
+								},
+								["Hit"] = {
+									["max"] = 8234,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 8234,
+								},
+							},
+							["count"] = 3,
+							["amount"] = 42118,
+						},
+						["Soulshatter"] = {
+							["Details"] = {
+								["Immune"] = {
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Drain Life"] = {
+							["Details"] = {
+								["Immune"] = {
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Immolation"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Immune"] = {
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Rain of Fire"] = {
+							["Details"] = {
+								["Immune"] = {
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["HealingTaken"] = 649,
+					["DamagedWho"] = {
+						["Scholomance Adept"] = {
+							["Details"] = {
+								["Soul Fire"] = {
+									["count"] = 17009,
+								},
+							},
+							["amount"] = 17009,
+						},
+						["Scholomance Neophyte"] = {
+							["Details"] = {
+								["Immolation"] = {
+									["count"] = 0,
+								},
+								["Shadow Bolt"] = {
+									["count"] = 0,
+								},
+								["Soul Fire"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Diseased Ghoul"] = {
+							["Details"] = {
+								["Immolation"] = {
+									["count"] = 0,
+								},
+								["Rain of Fire"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Risen Protector"] = {
+							["Details"] = {
+								["Soul Fire"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Spectral Researcher"] = {
+							["Details"] = {
+								["Immolation"] = {
+									["count"] = 0,
+								},
+								["Soul Fire"] = {
+									["count"] = 0,
+								},
+								["Shadow Bolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Jandice Barov"] = {
+							["Details"] = {
+								["Shadow Bolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Blood Steward of Kirtonos"] = {
+							["Details"] = {
+								["Immolation"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Scholomance Necromancer"] = {
+							["Details"] = {
+								["Soul Fire"] = {
+									["count"] = 16875,
+								},
+								["Shadow Bolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 16875,
+						},
+						["Plagued Hatchling"] = {
+							["Details"] = {
+								["Soul Fire"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Scholomance Acolyte"] = {
+							["Details"] = {
+								["Immolation"] = {
+									["count"] = 0,
+								},
+								["Shadow Bolt"] = {
+									["count"] = 0,
+								},
+								["Soul Fire"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Risen Guard"] = {
+							["Details"] = {
+								["Immolation"] = {
+									["count"] = 0,
+								},
+								["Soul Fire"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Reanimated Corpse"] = {
+							["Details"] = {
+								["Immolation"] = {
+									["count"] = 0,
+								},
+								["Rain of Fire"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Scholomance Handler"] = {
+							["Details"] = {
+								["Shadow Bolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Necrofiend"] = {
+							["Details"] = {
+								["Soul Fire"] = {
+									["count"] = 0,
+								},
+								["Immolation"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Rat"] = {
+							["Details"] = {
+								["Immolation"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Spectral Tutor"] = {
+							["Details"] = {
+								["Shadow Bolt"] = {
+									["count"] = 0,
+								},
+								["Soul Fire"] = {
+									["count"] = 8234,
+								},
+							},
+							["amount"] = 8234,
+						},
+						["Risen Construct"] = {
+							["Details"] = {
+								["Soul Fire"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Scholomance Dark Summoner"] = {
+							["Details"] = {
+								["Soul Fire"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Scholomance Necrolyte"] = {
+							["Details"] = {
+								["Soul Fire"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["TimeDamage"] = 6.45,
+					["TimeDamaging"] = {
+						["Scholomance Adept"] = {
+							["Details"] = {
+								["Soul Fire"] = {
+									["count"] = 1.75,
+								},
+							},
+							["amount"] = 1.75,
+						},
+						["Shaathun <Denathra>"] = {
+							["Details"] = {
+								["Soul Link"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Scholomance Neophyte"] = {
+							["Details"] = {
+								["Immolation"] = {
+									["count"] = 0,
+								},
+								["Shadow Bolt"] = {
+									["count"] = 0,
+								},
+								["Soul Fire"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Diseased Ghoul"] = {
+							["Details"] = {
+								["Immolation"] = {
+									["count"] = 0,
+								},
+								["Rain of Fire"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Risen Aberration"] = {
+							["Details"] = {
+								["Soulshatter"] = {
+									["count"] = 0,
+								},
+								["Immolation"] = {
+									["count"] = 0,
+								},
+								["Drain Life"] = {
+									["count"] = 0,
+								},
+								["Rain of Fire"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Risen Protector"] = {
+							["Details"] = {
+								["Soul Fire"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Spectral Researcher"] = {
+							["Details"] = {
+								["Immolation"] = {
+									["count"] = 0,
+								},
+								["Soul Fire"] = {
+									["count"] = 0,
+								},
+								["Shadow Bolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Jandice Barov"] = {
+							["Details"] = {
+								["Shadow Bolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Blood Steward of Kirtonos"] = {
+							["Details"] = {
+								["Immolation"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Scholomance Necromancer"] = {
+							["Details"] = {
+								["Soul Fire"] = {
+									["count"] = 3.5,
+								},
+								["Shadow Bolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 3.5,
+						},
+						["Plagued Hatchling"] = {
+							["Details"] = {
+								["Soul Fire"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Scholomance Acolyte"] = {
+							["Details"] = {
+								["Immolation"] = {
+									["count"] = 0,
+								},
+								["Shadow Bolt"] = {
+									["count"] = 0,
+								},
+								["Soul Fire"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Scholomance Dark Summoner"] = {
+							["Details"] = {
+								["Soul Fire"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Reanimated Corpse"] = {
+							["Details"] = {
+								["Immolation"] = {
+									["count"] = 0,
+								},
+								["Rain of Fire"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Necrofiend"] = {
+							["Details"] = {
+								["Soul Fire"] = {
+									["count"] = 0,
+								},
+								["Immolation"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Spectral Tutor"] = {
+							["Details"] = {
+								["Shadow Bolt"] = {
+									["count"] = 0,
+								},
+								["Soul Fire"] = {
+									["count"] = 1.2,
+								},
+							},
+							["amount"] = 1.2,
+						},
+						["Rat"] = {
+							["Details"] = {
+								["Immolation"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Risen Guard"] = {
+							["Details"] = {
+								["Immolation"] = {
+									["count"] = 0,
+								},
+								["Soul Fire"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Risen Construct"] = {
+							["Details"] = {
+								["Soul Fire"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Scholomance Handler"] = {
+							["Details"] = {
+								["Shadow Bolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Scholomance Necrolyte"] = {
+							["Details"] = {
+								["Soul Fire"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["RunicPowerGain"] = 0,
+					["ElementTakenBlock"] = {
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["CurrentFightData"] = {
+					["DOTs"] = {
+						["Shadowflame (DoT)"] = {
+							["Details"] = {
+								["Diseased Ghoul"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 0,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+						["Shadow"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Frost"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 0,
+								},
+								["Parry"] = {
+									["count"] = 0,
+								},
+								["Miss"] = {
+									["count"] = 0,
+								},
+								["Dodge"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Nature"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 0,
+								},
+								["Tick"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["HOTs"] = {
+						["Fel Armor"] = {
+							["Details"] = {
+								["Denathra"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ManaGain"] = 0,
+					["ElementTaken"] = {
+						["Melee"] = 0,
+						["Nature"] = 0,
+					},
+					["DOT_Time"] = 0,
+					["Damage"] = 0,
+					["ElementDoneAbsorb"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["PartialAbsorb"] = {
+						["Cripple"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Absorbed"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Mana Burn"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Diseased Spit"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Frostbolt"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Cloud of Disease (DoT)"] = {
+							["Details"] = {
+								["Absorbed"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Disease Cloud"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Shadow Shock"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Drain Life"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Mind Flay"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Shadow Bolt"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["RageGain"] = 0,
+					["FAttacks"] = {
+						["Soul Link"] = {
+							["Details"] = {
+								["Split"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["PartialBlock"] = {
+					},
+					["ElementDone"] = {
+						["Shadow"] = 0,
+						["Melee"] = 0,
+						["Fire"] = 0,
+					},
+					["CCBroken"] = {
+					},
+					["ElementHitsDone"] = {
+						["Shadow"] = {
+							["Details"] = {
+								["Immune"] = {
+									["count"] = 0,
+								},
+								["Crit"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Fire"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 0,
+								},
+								["Immune"] = {
+									["count"] = 0,
+								},
+								["Crit"] = {
+									["count"] = 0,
+								},
+								["Tick"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["Dispelled"] = 0,
+					["WhoDamaged"] = {
+						["Frail Skeleton"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Risen Aberration"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Plagued Hatchling"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Risen Guard"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Risen Construct"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Scholomance Handler"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Diseased Ghoul"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Cloud of Disease (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["FDamagedWho"] = {
+						["Shaathun <Denathra>"] = {
+							["Details"] = {
+								["Soul Link"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+						["Denathra"] = {
+							["Details"] = {
+								["Fel Armor"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Shaathun <Denathra>"] = {
+							["Details"] = {
+								["Fel Synergy"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["OverHeals"] = {
+						["Fel Synergy"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Fel Armor"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["RageGained"] = {
+					},
+					["ActiveTime"] = 0,
+					["CCBreak"] = 0,
+					["EnergyGain"] = 0,
+					["WhoHealed"] = {
+						["Denathra"] = {
+							["Details"] = {
+								["Fel Armor"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["PartialResist"] = {
+						["Cripple"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Mana Burn"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Diseased Spit"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Frostbolt"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Cloud of Disease (DoT)"] = {
+							["Details"] = {
+								["50%Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Disease Cloud"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Shadow Shock"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Drain Life"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Mind Flay"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Shadow Bolt"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["ManaGained"] = {
+						["Life Tap"] = {
+							["Details"] = {
+								["Denathra"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ElementTakenAbsorb"] = {
+						["Melee"] = 0,
+						["Nature"] = 0,
+					},
+					["Interrupts"] = 0,
+					["Overhealing"] = 0,
+					["ElementTakenResist"] = {
+						["Nature"] = 0,
+					},
+					["InterruptData"] = {
+					},
+					["WhoDispelled"] = {
+					},
+					["TimeSpent"] = {
+						["Scholomance Adept"] = {
+							["Details"] = {
+								["Soul Fire"] = {
+									["count"] = 0,
+								},
+								["Shadow Bolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Shaathun <Denathra>"] = {
+							["Details"] = {
+								["Fel Synergy"] = {
+									["count"] = 0,
+								},
+								["Soul Link"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Scholomance Neophyte"] = {
+							["Details"] = {
+								["Soul Fire"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Diseased Ghoul"] = {
+							["Details"] = {
+								["Rain of Fire"] = {
+									["count"] = 0,
+								},
+								["Shadowflame (DoT)"] = {
+									["count"] = 0,
+								},
+								["Immolate"] = {
+									["count"] = 0,
+								},
+								["Shadowflame"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Risen Aberration"] = {
+							["Details"] = {
+								["Rain of Fire"] = {
+									["count"] = 0,
+								},
+								["Immolate"] = {
+									["count"] = 0,
+								},
+								["Shadowflame"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Risen Protector"] = {
+							["Details"] = {
+								["Shadow Bolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Spectral Researcher"] = {
+							["Details"] = {
+								["Soul Fire"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Scholomance Handler"] = {
+							["Details"] = {
+								["Shadow Bolt"] = {
+									["count"] = 0,
+								},
+								["Rain of Fire"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Scholomance Acolyte"] = {
+							["Details"] = {
+								["Shadow Bolt"] = {
+									["count"] = 0,
+								},
+								["Soul Fire"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Scholomance Necromancer"] = {
+							["Details"] = {
+								["Soul Fire"] = {
+									["count"] = 0,
+								},
+								["Shadow Bolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Plagued Hatchling"] = {
+							["Details"] = {
+								["Shadow Bolt"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Rain of Fire"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Blood Steward of Kirtonos"] = {
+							["Details"] = {
+								["Soul Fire"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Spectral Tutor"] = {
+							["Details"] = {
+								["Soul Fire"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Reanimated Corpse"] = {
+							["Details"] = {
+								["Rain of Fire"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Frail Skeleton"] = {
+							["Details"] = {
+								["Soul Fire"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Denathra"] = {
+							["Details"] = {
+								["Fel Armor"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Rat"] = {
+							["Details"] = {
+								["Rain of Fire"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Risen Guard"] = {
+							["Details"] = {
+								["Shadow Bolt"] = {
+									["count"] = 0,
+								},
+								["Soul Fire"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Risen Construct"] = {
+							["Details"] = {
+								["Soul Fire"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Scholomance Dark Summoner"] = {
+							["Details"] = {
+								["Soul Fire"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Scholomance Necrolyte"] = {
+							["Details"] = {
+								["Soul Fire"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["Heals"] = {
+						["Fel Armor"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Fel Synergy"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["FDamage"] = 0,
+					["EnergyGained"] = {
+					},
+					["HealedWho"] = {
+						["Denathra"] = {
+							["Details"] = {
+								["Fel Armor"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Shaathun <Denathra>"] = {
+							["Details"] = {
+								["Fel Synergy"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["Healing"] = 0,
+					["RunicPowerGained"] = {
+					},
+					["ManaGainedFrom"] = {
+						["Denathra"] = {
+							["Details"] = {
+								["Life Tap"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["Attacks"] = {
+						["Shadowflame (DoT)"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Soul Fire"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Shadow Bolt"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Shadowflame"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Immune"] = {
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Immolate"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Immune"] = {
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Rain of Fire"] = {
+							["Details"] = {
+								["Immune"] = {
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["HealingTaken"] = 0,
+					["DamagedWho"] = {
+						["Frail Skeleton"] = {
+							["Details"] = {
+								["Soul Fire"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Scholomance Neophyte"] = {
+							["Details"] = {
+								["Soul Fire"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Diseased Ghoul"] = {
+							["Details"] = {
+								["Rain of Fire"] = {
+									["count"] = 0,
+								},
+								["Shadowflame (DoT)"] = {
+									["count"] = 0,
+								},
+								["Immolate"] = {
+									["count"] = 0,
+								},
+								["Shadowflame"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Risen Protector"] = {
+							["Details"] = {
+								["Shadow Bolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Spectral Researcher"] = {
+							["Details"] = {
+								["Soul Fire"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Scholomance Handler"] = {
+							["Details"] = {
+								["Shadow Bolt"] = {
+									["count"] = 0,
+								},
+								["Rain of Fire"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Scholomance Acolyte"] = {
+							["Details"] = {
+								["Shadow Bolt"] = {
+									["count"] = 0,
+								},
+								["Soul Fire"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Scholomance Necromancer"] = {
+							["Details"] = {
+								["Soul Fire"] = {
+									["count"] = 0,
+								},
+								["Shadow Bolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Plagued Hatchling"] = {
+							["Details"] = {
+								["Shadow Bolt"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Rain of Fire"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Blood Steward of Kirtonos"] = {
+							["Details"] = {
+								["Soul Fire"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Reanimated Corpse"] = {
+							["Details"] = {
+								["Rain of Fire"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Spectral Tutor"] = {
+							["Details"] = {
+								["Soul Fire"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Scholomance Adept"] = {
+							["Details"] = {
+								["Soul Fire"] = {
+									["count"] = 0,
+								},
+								["Shadow Bolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Rat"] = {
+							["Details"] = {
+								["Rain of Fire"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Risen Guard"] = {
+							["Details"] = {
+								["Shadow Bolt"] = {
+									["count"] = 0,
+								},
+								["Soul Fire"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Risen Construct"] = {
+							["Details"] = {
+								["Soul Fire"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Scholomance Dark Summoner"] = {
+							["Details"] = {
+								["Soul Fire"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Scholomance Necrolyte"] = {
+							["Details"] = {
+								["Soul Fire"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["TimeDamage"] = 0,
+					["TimeDamaging"] = {
+						["Scholomance Adept"] = {
+							["Details"] = {
+								["Soul Fire"] = {
+									["count"] = 0,
+								},
+								["Shadow Bolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Shaathun <Denathra>"] = {
+							["Details"] = {
+								["Soul Link"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Scholomance Neophyte"] = {
+							["Details"] = {
+								["Soul Fire"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Diseased Ghoul"] = {
+							["Details"] = {
+								["Rain of Fire"] = {
+									["count"] = 0,
+								},
+								["Shadowflame (DoT)"] = {
+									["count"] = 0,
+								},
+								["Immolate"] = {
+									["count"] = 0,
+								},
+								["Shadowflame"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Risen Aberration"] = {
+							["Details"] = {
+								["Rain of Fire"] = {
+									["count"] = 0,
+								},
+								["Immolate"] = {
+									["count"] = 0,
+								},
+								["Shadowflame"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Risen Protector"] = {
+							["Details"] = {
+								["Shadow Bolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Spectral Researcher"] = {
+							["Details"] = {
+								["Soul Fire"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Scholomance Handler"] = {
+							["Details"] = {
+								["Shadow Bolt"] = {
+									["count"] = 0,
+								},
+								["Rain of Fire"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Scholomance Acolyte"] = {
+							["Details"] = {
+								["Shadow Bolt"] = {
+									["count"] = 0,
+								},
+								["Soul Fire"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Scholomance Necromancer"] = {
+							["Details"] = {
+								["Soul Fire"] = {
+									["count"] = 0,
+								},
+								["Shadow Bolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Plagued Hatchling"] = {
+							["Details"] = {
+								["Shadow Bolt"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Rain of Fire"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Blood Steward of Kirtonos"] = {
+							["Details"] = {
+								["Soul Fire"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Reanimated Corpse"] = {
+							["Details"] = {
+								["Rain of Fire"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Spectral Tutor"] = {
+							["Details"] = {
+								["Soul Fire"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Scholomance Dark Summoner"] = {
+							["Details"] = {
+								["Soul Fire"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Rat"] = {
+							["Details"] = {
+								["Rain of Fire"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Risen Guard"] = {
+							["Details"] = {
+								["Shadow Bolt"] = {
+									["count"] = 0,
+								},
+								["Soul Fire"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Risen Construct"] = {
+							["Details"] = {
+								["Soul Fire"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Frail Skeleton"] = {
+							["Details"] = {
+								["Soul Fire"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Scholomance Necrolyte"] = {
+							["Details"] = {
+								["Soul Fire"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["RunicPowerGain"] = 0,
+					["ElementTakenBlock"] = {
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["Fight1"] = {
+					["DOTs"] = {
+						["Shadowflame (DoT)"] = {
+							["Details"] = {
+								["Scholomance Handler"] = {
+									["count"] = 0,
+								},
+								["Scholomance Necrolyte"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 0,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+						["Shadow"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Frost"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 0,
+								},
+								["Parry"] = {
+									["count"] = 0,
+								},
+								["Miss"] = {
+									["count"] = 0,
+								},
+								["Dodge"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Arcane"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 3,
+					["HOTs"] = {
+						["Fel Armor"] = {
+							["Details"] = {
+								["Denathra"] = {
+									["count"] = 3,
+								},
+							},
+							["amount"] = 3,
+						},
+					},
+					["ManaGain"] = 0,
+					["ElementTaken"] = {
+						["Melee"] = 0,
+						["Shadow"] = 0,
+					},
+					["DOT_Time"] = 0,
+					["Damage"] = 22610,
+					["ElementDoneAbsorb"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["PartialAbsorb"] = {
+						["Cripple"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Absorbed"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Frostbolt"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Shadow Bolt"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Absorbed"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Wail of Souls"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Drain Life"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Frost Shock"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Shadow Shock"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Mind Flay"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Arcane Blast"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Fear"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["RageGain"] = 0,
+					["FAttacks"] = {
+						["Soul Link"] = {
+							["Details"] = {
+								["Split"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["PartialBlock"] = {
+					},
+					["ElementDone"] = {
+						["Fire"] = 22610,
+						["Melee"] = 0,
+						["Shadow"] = 0,
+					},
+					["CCBroken"] = {
+					},
+					["ElementHitsDone"] = {
+						["Fire"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 1,
+								},
+								["Immune"] = {
+									["count"] = 0,
+								},
+								["Crit"] = {
+									["count"] = 1,
+								},
+								["Tick"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 2,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Shadow"] = {
+							["Details"] = {
+								["Crit"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["Dispelled"] = 0,
+					["WhoDamaged"] = {
+						["Frail Skeleton"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Scholomance Necromancer"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Risen Lackey"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Reanimated Corpse"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Spectral Researcher"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Risen Protector"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Necrofiend"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Spectral Tutor"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Scholomance Dark Summoner"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Risen Guard"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Scholomance Necrolyte"] = {
+							["Details"] = {
+								["Shadow Bolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["FDamagedWho"] = {
+						["Shaathun <Denathra>"] = {
+							["Details"] = {
+								["Soul Link"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+						["Denathra"] = {
+							["Details"] = {
+								["Fel Armor"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Shaathun <Denathra>"] = {
+							["Details"] = {
+								["Fel Synergy"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["OverHeals"] = {
+						["Fel Synergy"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 1097,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 1097,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 1097,
+						},
+						["Fel Armor"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 16,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 16,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 16,
+						},
+					},
+					["RageGained"] = {
+					},
+					["ActiveTime"] = 4.87,
+					["CCBreak"] = 0,
+					["EnergyGain"] = 0,
+					["WhoHealed"] = {
+						["Denathra"] = {
+							["Details"] = {
+								["Fel Armor"] = {
+									["count"] = 633,
+								},
+							},
+							["amount"] = 633,
+						},
+					},
+					["PartialResist"] = {
+						["Cripple"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Frostbolt"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Shadow Bolt"] = {
+							["Details"] = {
+								["75%Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Wail of Souls"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Drain Life"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Frost Shock"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Shadow Shock"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Mind Flay"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Arcane Blast"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Fear"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["ManaGained"] = {
+						["Life Tap"] = {
+							["Details"] = {
+								["Denathra"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ElementTakenAbsorb"] = {
+						["Melee"] = 0,
+						["Shadow"] = 0,
+					},
+					["Interrupts"] = 0,
+					["Overhealing"] = 1113,
+					["ElementTakenResist"] = {
+						["Shadow"] = 0,
+					},
+					["InterruptData"] = {
+					},
+					["WhoDispelled"] = {
+					},
+					["TimeSpent"] = {
+						["Scholomance Adept"] = {
+							["Details"] = {
+								["Shadow Bolt"] = {
+									["count"] = 0,
+								},
+								["Soul Fire"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Denathra"] = {
+							["Details"] = {
+								["Fel Armor"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Scholomance Neophyte"] = {
+							["Details"] = {
+								["Shadow Bolt"] = {
+									["count"] = 0,
+								},
+								["Soul Fire"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Diseased Ghoul"] = {
+							["Details"] = {
+								["Rain of Fire"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Risen Aberration"] = {
+							["Details"] = {
+								["Rain of Fire"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Risen Protector"] = {
+							["Details"] = {
+								["Shadow Bolt"] = {
+									["count"] = 0,
+								},
+								["Soul Fire"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Spectral Researcher"] = {
+							["Details"] = {
+								["Shadow Bolt"] = {
+									["count"] = 0,
+								},
+								["Soul Fire"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Scholomance Handler"] = {
+							["Details"] = {
+								["Shadowflame (DoT)"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Shadowflame"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Scholomance Acolyte"] = {
+							["Details"] = {
+								["Soul Fire"] = {
+									["count"] = 0,
+								},
+								["Shadow Bolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Scholomance Necromancer"] = {
+							["Details"] = {
+								["Soul Fire"] = {
+									["count"] = 3.07,
+								},
+							},
+							["amount"] = 3.07,
+						},
+						["Plagued Hatchling"] = {
+							["Details"] = {
+								["Shadowflame"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Risen Lackey"] = {
+							["Details"] = {
+								["Immolation"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Frail Skeleton"] = {
+							["Details"] = {
+								["Immolation"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Reanimated Corpse"] = {
+							["Details"] = {
+								["Incinerate"] = {
+									["count"] = 0,
+								},
+								["Rain of Fire"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Shaathun <Denathra>"] = {
+							["Details"] = {
+								["Fel Synergy"] = {
+									["count"] = 0,
+								},
+								["Soul Link"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Risen Guard"] = {
+							["Details"] = {
+								["Incinerate"] = {
+									["count"] = 0,
+								},
+								["Chaos Bolt"] = {
+									["count"] = 0,
+								},
+								["Immolation"] = {
+									["count"] = 0,
+								},
+								["Shadowflame"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Necrofiend"] = {
+							["Details"] = {
+								["Immolation"] = {
+									["count"] = 0,
+								},
+								["Shadow Bolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Spectral Tutor"] = {
+							["Details"] = {
+								["Soul Fire"] = {
+									["count"] = 1.8,
+								},
+							},
+							["amount"] = 1.8,
+						},
+						["Risen Construct"] = {
+							["Details"] = {
+								["Shadow Bolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Scholomance Dark Summoner"] = {
+							["Details"] = {
+								["Immolation"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Scholomance Necrolyte"] = {
+							["Details"] = {
+								["Shadowflame (DoT)"] = {
+									["count"] = 0,
+								},
+								["Shadowflame"] = {
+									["count"] = 0,
+								},
+								["Immolation"] = {
+									["count"] = 0,
+								},
+								["Soul Fire"] = {
+									["count"] = 0,
+								},
+								["Shadow Bolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["Heals"] = {
+						["Fel Armor"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 633,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 633,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 633,
+						},
+						["Fel Synergy"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["FDamage"] = 0,
+					["EnergyGained"] = {
+					},
+					["HealedWho"] = {
+						["Denathra"] = {
+							["Details"] = {
+								["Fel Armor"] = {
+									["count"] = 633,
+								},
+							},
+							["amount"] = 633,
+						},
+						["Shaathun <Denathra>"] = {
+							["Details"] = {
+								["Fel Synergy"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["Healing"] = 633,
+					["RunicPowerGained"] = {
+					},
+					["ManaGainedFrom"] = {
+						["Denathra"] = {
+							["Details"] = {
+								["Life Tap"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["Attacks"] = {
+						["Shadowflame (DoT)"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Shadowflame"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Incinerate"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Immolation"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Shadow Bolt"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Chaos Bolt"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Soul Fire"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 15295,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 15295,
+								},
+								["Hit"] = {
+									["max"] = 7315,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 7315,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 22610,
+						},
+						["Rain of Fire"] = {
+							["Details"] = {
+								["Immune"] = {
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["HealingTaken"] = 633,
+					["DamagedWho"] = {
+						["Frail Skeleton"] = {
+							["Details"] = {
+								["Immolation"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Scholomance Neophyte"] = {
+							["Details"] = {
+								["Shadow Bolt"] = {
+									["count"] = 0,
+								},
+								["Soul Fire"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Diseased Ghoul"] = {
+							["Details"] = {
+								["Rain of Fire"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Risen Protector"] = {
+							["Details"] = {
+								["Shadow Bolt"] = {
+									["count"] = 0,
+								},
+								["Soul Fire"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Spectral Researcher"] = {
+							["Details"] = {
+								["Shadow Bolt"] = {
+									["count"] = 0,
+								},
+								["Soul Fire"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Scholomance Handler"] = {
+							["Details"] = {
+								["Shadowflame (DoT)"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Shadowflame"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Scholomance Acolyte"] = {
+							["Details"] = {
+								["Soul Fire"] = {
+									["count"] = 0,
+								},
+								["Shadow Bolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Scholomance Necromancer"] = {
+							["Details"] = {
+								["Soul Fire"] = {
+									["count"] = 15295,
+								},
+							},
+							["amount"] = 15295,
+						},
+						["Plagued Hatchling"] = {
+							["Details"] = {
+								["Shadowflame"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Risen Lackey"] = {
+							["Details"] = {
+								["Immolation"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Reanimated Corpse"] = {
+							["Details"] = {
+								["Incinerate"] = {
+									["count"] = 0,
+								},
+								["Rain of Fire"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Scholomance Dark Summoner"] = {
+							["Details"] = {
+								["Immolation"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Spectral Tutor"] = {
+							["Details"] = {
+								["Soul Fire"] = {
+									["count"] = 7315,
+								},
+							},
+							["amount"] = 7315,
+						},
+						["Necrofiend"] = {
+							["Details"] = {
+								["Immolation"] = {
+									["count"] = 0,
+								},
+								["Shadow Bolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Risen Guard"] = {
+							["Details"] = {
+								["Incinerate"] = {
+									["count"] = 0,
+								},
+								["Chaos Bolt"] = {
+									["count"] = 0,
+								},
+								["Immolation"] = {
+									["count"] = 0,
+								},
+								["Shadowflame"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Risen Construct"] = {
+							["Details"] = {
+								["Shadow Bolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Scholomance Adept"] = {
+							["Details"] = {
+								["Shadow Bolt"] = {
+									["count"] = 0,
+								},
+								["Soul Fire"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Scholomance Necrolyte"] = {
+							["Details"] = {
+								["Shadowflame (DoT)"] = {
+									["count"] = 0,
+								},
+								["Shadowflame"] = {
+									["count"] = 0,
+								},
+								["Immolation"] = {
+									["count"] = 0,
+								},
+								["Soul Fire"] = {
+									["count"] = 0,
+								},
+								["Shadow Bolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["TimeDamage"] = 4.87,
+					["TimeDamaging"] = {
+						["Frail Skeleton"] = {
+							["Details"] = {
+								["Immolation"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Shaathun <Denathra>"] = {
+							["Details"] = {
+								["Soul Link"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Scholomance Neophyte"] = {
+							["Details"] = {
+								["Shadow Bolt"] = {
+									["count"] = 0,
+								},
+								["Soul Fire"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Diseased Ghoul"] = {
+							["Details"] = {
+								["Rain of Fire"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Risen Aberration"] = {
+							["Details"] = {
+								["Rain of Fire"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Risen Protector"] = {
+							["Details"] = {
+								["Shadow Bolt"] = {
+									["count"] = 0,
+								},
+								["Soul Fire"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Spectral Researcher"] = {
+							["Details"] = {
+								["Shadow Bolt"] = {
+									["count"] = 0,
+								},
+								["Soul Fire"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Scholomance Handler"] = {
+							["Details"] = {
+								["Shadowflame (DoT)"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Shadowflame"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Scholomance Acolyte"] = {
+							["Details"] = {
+								["Soul Fire"] = {
+									["count"] = 0,
+								},
+								["Shadow Bolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Scholomance Necromancer"] = {
+							["Details"] = {
+								["Soul Fire"] = {
+									["count"] = 3.07,
+								},
+							},
+							["amount"] = 3.07,
+						},
+						["Plagued Hatchling"] = {
+							["Details"] = {
+								["Shadowflame"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Risen Lackey"] = {
+							["Details"] = {
+								["Immolation"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Reanimated Corpse"] = {
+							["Details"] = {
+								["Incinerate"] = {
+									["count"] = 0,
+								},
+								["Rain of Fire"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Scholomance Dark Summoner"] = {
+							["Details"] = {
+								["Immolation"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Scholomance Adept"] = {
+							["Details"] = {
+								["Shadow Bolt"] = {
+									["count"] = 0,
+								},
+								["Soul Fire"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Necrofiend"] = {
+							["Details"] = {
+								["Immolation"] = {
+									["count"] = 0,
+								},
+								["Shadow Bolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Spectral Tutor"] = {
+							["Details"] = {
+								["Soul Fire"] = {
+									["count"] = 1.8,
+								},
+							},
+							["amount"] = 1.8,
+						},
+						["Risen Construct"] = {
+							["Details"] = {
+								["Shadow Bolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Risen Guard"] = {
+							["Details"] = {
+								["Incinerate"] = {
+									["count"] = 0,
+								},
+								["Chaos Bolt"] = {
+									["count"] = 0,
+								},
+								["Immolation"] = {
+									["count"] = 0,
+								},
+								["Shadowflame"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Scholomance Necrolyte"] = {
+							["Details"] = {
+								["Shadowflame (DoT)"] = {
+									["count"] = 0,
+								},
+								["Shadowflame"] = {
+									["count"] = 0,
+								},
+								["Immolation"] = {
+									["count"] = 0,
+								},
+								["Soul Fire"] = {
+									["count"] = 0,
+								},
+								["Shadow Bolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["RunicPowerGain"] = 0,
+					["ElementTakenBlock"] = {
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["Fight4"] = {
+					["DOTs"] = {
+						["Drain Life (DoT)"] = {
+							["Details"] = {
+								["Scholomance Necrolyte"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 0,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+						["Shadow"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Dodge"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 0,
+								},
+								["Miss"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Nature"] = {
+							["Details"] = {
+								["Tick"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 3,
+					["HOTs"] = {
+						["Fel Armor"] = {
+							["Details"] = {
+								["Denathra"] = {
+									["count"] = 3,
+								},
+							},
+							["amount"] = 3,
+						},
+					},
+					["ManaGain"] = 0,
+					["ElementTaken"] = {
+						["Melee"] = 0,
+						["Nature"] = 0,
+					},
+					["DOT_Time"] = 0,
+					["Damage"] = 50870,
+					["ElementDoneAbsorb"] = {
+					},
+					["TimeHeal"] = 0.65,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["PartialAbsorb"] = {
+						["Wail of Souls"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Absorbed"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Cloud of Disease (DoT)"] = {
+							["Details"] = {
+								["Absorbed"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["RageGain"] = 0,
+					["FAttacks"] = {
+						["Soul Link"] = {
+							["Details"] = {
+								["Split"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["PartialBlock"] = {
+					},
+					["ElementDone"] = {
+						["Shadow"] = 0,
+						["Melee"] = 0,
+						["Fire"] = 50870,
+					},
+					["CCBroken"] = {
+					},
+					["ElementHitsDone"] = {
+						["Shadow"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 0,
+								},
+								["Crit"] = {
+									["count"] = 0,
+								},
+								["Tick"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Crit"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Fire"] = {
+							["Details"] = {
+								["Immune"] = {
+									["count"] = 0,
+								},
+								["Crit"] = {
+									["count"] = 3,
+								},
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 3,
+						},
+					},
+					["Dispelled"] = 0,
+					["WhoDamaged"] = {
+						["Reanimated Corpse"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Risen Aberration"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Diseased Ghoul"] = {
+							["Details"] = {
+								["Cloud of Disease (DoT)"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["FDamagedWho"] = {
+						["Shaathun <Denathra>"] = {
+							["Details"] = {
+								["Soul Link"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+						["Shaathun <Denathra>"] = {
+							["Details"] = {
+								["Fel Synergy"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Denathra"] = {
+							["Details"] = {
+								["Fel Armor"] = {
+									["count"] = 0.65,
+								},
+								["Drain Life"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0.65,
+						},
+					},
+					["OverHeals"] = {
+						["Fel Synergy"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 2722,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 5356,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 5356,
+						},
+						["Fel Armor"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["RageGained"] = {
+					},
+					["ActiveTime"] = 6.73,
+					["CCBreak"] = 0,
+					["EnergyGain"] = 0,
+					["WhoHealed"] = {
+						["Denathra"] = {
+							["Details"] = {
+								["Fel Armor"] = {
+									["count"] = 649,
+								},
+								["Drain Life"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 649,
+						},
+					},
+					["PartialResist"] = {
+						["Wail of Souls"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Cloud of Disease (DoT)"] = {
+							["Details"] = {
+								["50%Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["75%Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["ManaGained"] = {
+						["Life Tap"] = {
+							["Details"] = {
+								["Denathra"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ElementTakenAbsorb"] = {
+						["Melee"] = 0,
+						["Nature"] = 0,
+					},
+					["Interrupts"] = 0,
+					["Overhealing"] = 5356,
+					["ElementTakenResist"] = {
+						["Nature"] = 0,
+					},
+					["InterruptData"] = {
+					},
+					["WhoDispelled"] = {
+					},
+					["TimeSpent"] = {
+						["Scholomance Dark Summoner"] = {
+							["Details"] = {
+								["Soul Fire"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Denathra"] = {
+							["Details"] = {
+								["Fel Armor"] = {
+									["count"] = 0.65,
+								},
+								["Drain Life"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0.65,
+						},
+						["Scholomance Neophyte"] = {
+							["Details"] = {
+								["Shadow Bolt"] = {
+									["count"] = 0,
+								},
+								["Soul Fire"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Diseased Ghoul"] = {
+							["Details"] = {
+								["Shadow Bolt"] = {
+									["count"] = 0,
+								},
+								["Soul Fire"] = {
+									["count"] = 0,
+								},
+								["Rain of Fire"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Risen Aberration"] = {
+							["Details"] = {
+								["Soul Fire"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Rain of Fire"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Risen Protector"] = {
+							["Details"] = {
+								["Shadow Bolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Spectral Researcher"] = {
+							["Details"] = {
+								["Soul Fire"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Scholomance Acolyte"] = {
+							["Details"] = {
+								["Shadow Bolt"] = {
+									["count"] = 0,
+								},
+								["Soul Fire"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Scholomance Necromancer"] = {
+							["Details"] = {
+								["Soul Fire"] = {
+									["count"] = 1.02,
+								},
+							},
+							["amount"] = 1.02,
+						},
+						["Frail Skeleton"] = {
+							["Details"] = {
+								["Soul Fire"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Reanimated Corpse"] = {
+							["Details"] = {
+								["Soul Fire"] = {
+									["count"] = 0,
+								},
+								["Rain of Fire"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Scholomance Adept"] = {
+							["Details"] = {
+								["Soul Fire"] = {
+									["count"] = 3.19,
+								},
+							},
+							["amount"] = 3.19,
+						},
+						["Risen Guard"] = {
+							["Details"] = {
+								["Soul Fire"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Rat"] = {
+							["Details"] = {
+								["Rain of Fire"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Spectral Tutor"] = {
+							["Details"] = {
+								["Soul Fire"] = {
+									["count"] = 1.87,
+								},
+							},
+							["amount"] = 1.87,
+						},
+						["Risen Construct"] = {
+							["Details"] = {
+								["Shadow Bolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Shaathun <Denathra>"] = {
+							["Details"] = {
+								["Fel Synergy"] = {
+									["count"] = 0,
+								},
+								["Soul Link"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Scholomance Necrolyte"] = {
+							["Details"] = {
+								["Shadow Bolt"] = {
+									["count"] = 0,
+								},
+								["Soul Fire"] = {
+									["count"] = 0,
+								},
+								["Drain Life (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["Heals"] = {
+						["Fel Synergy"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Fel Armor"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 649,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 649,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 649,
+						},
+						["Drain Life"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["FDamage"] = 0,
+					["EnergyGained"] = {
+					},
+					["HealedWho"] = {
+						["Shaathun <Denathra>"] = {
+							["Details"] = {
+								["Fel Synergy"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Denathra"] = {
+							["Details"] = {
+								["Fel Armor"] = {
+									["count"] = 649,
+								},
+								["Drain Life"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 649,
+						},
+					},
+					["Healing"] = 649,
+					["RunicPowerGained"] = {
+					},
+					["ManaGainedFrom"] = {
+						["Denathra"] = {
+							["Details"] = {
+								["Life Tap"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["Attacks"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Soul Fire"] = {
+							["Details"] = {
+								["Immune"] = {
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Crit"] = {
+									["max"] = 18153,
+									["min"] = 0,
+									["count"] = 3,
+									["amount"] = 50870,
+								},
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 3,
+							["amount"] = 50870,
+						},
+						["Shadow Bolt"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Rain of Fire"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Immune"] = {
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Drain Life (DoT)"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["HealingTaken"] = 649,
+					["DamagedWho"] = {
+						["Frail Skeleton"] = {
+							["Details"] = {
+								["Soul Fire"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Scholomance Acolyte"] = {
+							["Details"] = {
+								["Shadow Bolt"] = {
+									["count"] = 0,
+								},
+								["Soul Fire"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Scholomance Necromancer"] = {
+							["Details"] = {
+								["Soul Fire"] = {
+									["count"] = 17564,
+								},
+							},
+							["amount"] = 17564,
+						},
+						["Risen Guard"] = {
+							["Details"] = {
+								["Soul Fire"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Scholomance Adept"] = {
+							["Details"] = {
+								["Soul Fire"] = {
+									["count"] = 15153,
+								},
+							},
+							["amount"] = 15153,
+						},
+						["Spectral Researcher"] = {
+							["Details"] = {
+								["Soul Fire"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Scholomance Neophyte"] = {
+							["Details"] = {
+								["Shadow Bolt"] = {
+									["count"] = 0,
+								},
+								["Soul Fire"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Diseased Ghoul"] = {
+							["Details"] = {
+								["Shadow Bolt"] = {
+									["count"] = 0,
+								},
+								["Soul Fire"] = {
+									["count"] = 0,
+								},
+								["Rain of Fire"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Risen Aberration"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Reanimated Corpse"] = {
+							["Details"] = {
+								["Soul Fire"] = {
+									["count"] = 0,
+								},
+								["Rain of Fire"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Risen Protector"] = {
+							["Details"] = {
+								["Shadow Bolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Rat"] = {
+							["Details"] = {
+								["Rain of Fire"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Spectral Tutor"] = {
+							["Details"] = {
+								["Soul Fire"] = {
+									["count"] = 18153,
+								},
+							},
+							["amount"] = 18153,
+						},
+						["Risen Construct"] = {
+							["Details"] = {
+								["Shadow Bolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Scholomance Dark Summoner"] = {
+							["Details"] = {
+								["Soul Fire"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Scholomance Necrolyte"] = {
+							["Details"] = {
+								["Shadow Bolt"] = {
+									["count"] = 0,
+								},
+								["Soul Fire"] = {
+									["count"] = 0,
+								},
+								["Drain Life (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["TimeDamage"] = 6.08,
+					["TimeDamaging"] = {
+						["Scholomance Adept"] = {
+							["Details"] = {
+								["Soul Fire"] = {
+									["count"] = 3.19,
+								},
+							},
+							["amount"] = 3.19,
+						},
+						["Shaathun <Denathra>"] = {
+							["Details"] = {
+								["Soul Link"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Scholomance Neophyte"] = {
+							["Details"] = {
+								["Shadow Bolt"] = {
+									["count"] = 0,
+								},
+								["Soul Fire"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Diseased Ghoul"] = {
+							["Details"] = {
+								["Shadow Bolt"] = {
+									["count"] = 0,
+								},
+								["Soul Fire"] = {
+									["count"] = 0,
+								},
+								["Rain of Fire"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Risen Aberration"] = {
+							["Details"] = {
+								["Soul Fire"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Rain of Fire"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Risen Protector"] = {
+							["Details"] = {
+								["Shadow Bolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Spectral Researcher"] = {
+							["Details"] = {
+								["Soul Fire"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Scholomance Acolyte"] = {
+							["Details"] = {
+								["Shadow Bolt"] = {
+									["count"] = 0,
+								},
+								["Soul Fire"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Scholomance Necromancer"] = {
+							["Details"] = {
+								["Soul Fire"] = {
+									["count"] = 1.02,
+								},
+							},
+							["amount"] = 1.02,
+						},
+						["Reanimated Corpse"] = {
+							["Details"] = {
+								["Soul Fire"] = {
+									["count"] = 0,
+								},
+								["Rain of Fire"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Frail Skeleton"] = {
+							["Details"] = {
+								["Soul Fire"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Spectral Tutor"] = {
+							["Details"] = {
+								["Soul Fire"] = {
+									["count"] = 1.87,
+								},
+							},
+							["amount"] = 1.87,
+						},
+						["Rat"] = {
+							["Details"] = {
+								["Rain of Fire"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Risen Guard"] = {
+							["Details"] = {
+								["Soul Fire"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Risen Construct"] = {
+							["Details"] = {
+								["Shadow Bolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Scholomance Dark Summoner"] = {
+							["Details"] = {
+								["Soul Fire"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Scholomance Necrolyte"] = {
+							["Details"] = {
+								["Shadow Bolt"] = {
+									["count"] = 0,
+								},
+								["Soul Fire"] = {
+									["count"] = 0,
+								},
+								["Drain Life (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["RunicPowerGain"] = 0,
+					["ElementTakenBlock"] = {
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["LastFightData"] = {
+					["DOTs"] = {
+						["Shadowflame (DoT)"] = {
+							["Details"] = {
+								["Scholomance Handler"] = {
+									["count"] = 0,
+								},
+								["Scholomance Necrolyte"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 0,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+						["Shadow"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Frost"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 0,
+								},
+								["Parry"] = {
+									["count"] = 0,
+								},
+								["Miss"] = {
+									["count"] = 0,
+								},
+								["Dodge"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Arcane"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 3,
+					["HOTs"] = {
+						["Fel Armor"] = {
+							["Details"] = {
+								["Denathra"] = {
+									["count"] = 3,
+								},
+							},
+							["amount"] = 3,
+						},
+					},
+					["ManaGain"] = 0,
+					["ElementTaken"] = {
+						["Melee"] = 0,
+						["Shadow"] = 0,
+					},
+					["DOT_Time"] = 0,
+					["Damage"] = 22610,
+					["ElementDoneAbsorb"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["PartialAbsorb"] = {
+						["Cripple"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Absorbed"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Frostbolt"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Shadow Bolt"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Absorbed"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Wail of Souls"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Drain Life"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Frost Shock"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Shadow Shock"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Mind Flay"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Arcane Blast"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Fear"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["RageGain"] = 0,
+					["FAttacks"] = {
+						["Soul Link"] = {
+							["Details"] = {
+								["Split"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["PartialBlock"] = {
+					},
+					["ElementDone"] = {
+						["Fire"] = 22610,
+						["Melee"] = 0,
+						["Shadow"] = 0,
+					},
+					["CCBroken"] = {
+					},
+					["ElementHitsDone"] = {
+						["Fire"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 1,
+								},
+								["Immune"] = {
+									["count"] = 0,
+								},
+								["Crit"] = {
+									["count"] = 1,
+								},
+								["Tick"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 2,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Shadow"] = {
+							["Details"] = {
+								["Crit"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["Dispelled"] = 0,
+					["WhoDamaged"] = {
+						["Frail Skeleton"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Scholomance Necromancer"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Risen Lackey"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Reanimated Corpse"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Spectral Researcher"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Risen Protector"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Necrofiend"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Spectral Tutor"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Scholomance Dark Summoner"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Risen Guard"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Scholomance Necrolyte"] = {
+							["Details"] = {
+								["Shadow Bolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["FDamagedWho"] = {
+						["Shaathun <Denathra>"] = {
+							["Details"] = {
+								["Soul Link"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+						["Denathra"] = {
+							["Details"] = {
+								["Fel Armor"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Shaathun <Denathra>"] = {
+							["Details"] = {
+								["Fel Synergy"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["OverHeals"] = {
+						["Fel Synergy"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 1097,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 1097,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 1097,
+						},
+						["Fel Armor"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 16,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 16,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 16,
+						},
+					},
+					["RageGained"] = {
+					},
+					["ActiveTime"] = 4.87,
+					["CCBreak"] = 0,
+					["EnergyGain"] = 0,
+					["WhoHealed"] = {
+						["Denathra"] = {
+							["Details"] = {
+								["Fel Armor"] = {
+									["count"] = 633,
+								},
+							},
+							["amount"] = 633,
+						},
+					},
+					["PartialResist"] = {
+						["Cripple"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Frostbolt"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Shadow Bolt"] = {
+							["Details"] = {
+								["75%Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Wail of Souls"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Drain Life"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Frost Shock"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Shadow Shock"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Mind Flay"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Arcane Blast"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Fear"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["ManaGained"] = {
+						["Life Tap"] = {
+							["Details"] = {
+								["Denathra"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ElementTakenAbsorb"] = {
+						["Melee"] = 0,
+						["Shadow"] = 0,
+					},
+					["Interrupts"] = 0,
+					["Overhealing"] = 1113,
+					["ElementTakenResist"] = {
+						["Shadow"] = 0,
+					},
+					["InterruptData"] = {
+					},
+					["WhoDispelled"] = {
+					},
+					["TimeSpent"] = {
+						["Scholomance Adept"] = {
+							["Details"] = {
+								["Shadow Bolt"] = {
+									["count"] = 0,
+								},
+								["Soul Fire"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Denathra"] = {
+							["Details"] = {
+								["Fel Armor"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Scholomance Neophyte"] = {
+							["Details"] = {
+								["Shadow Bolt"] = {
+									["count"] = 0,
+								},
+								["Soul Fire"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Diseased Ghoul"] = {
+							["Details"] = {
+								["Rain of Fire"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Risen Aberration"] = {
+							["Details"] = {
+								["Rain of Fire"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Risen Protector"] = {
+							["Details"] = {
+								["Shadow Bolt"] = {
+									["count"] = 0,
+								},
+								["Soul Fire"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Spectral Researcher"] = {
+							["Details"] = {
+								["Shadow Bolt"] = {
+									["count"] = 0,
+								},
+								["Soul Fire"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Scholomance Handler"] = {
+							["Details"] = {
+								["Shadowflame (DoT)"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Shadowflame"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Scholomance Acolyte"] = {
+							["Details"] = {
+								["Soul Fire"] = {
+									["count"] = 0,
+								},
+								["Shadow Bolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Scholomance Necromancer"] = {
+							["Details"] = {
+								["Soul Fire"] = {
+									["count"] = 3.07,
+								},
+							},
+							["amount"] = 3.07,
+						},
+						["Plagued Hatchling"] = {
+							["Details"] = {
+								["Shadowflame"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Risen Lackey"] = {
+							["Details"] = {
+								["Immolation"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Frail Skeleton"] = {
+							["Details"] = {
+								["Immolation"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Reanimated Corpse"] = {
+							["Details"] = {
+								["Incinerate"] = {
+									["count"] = 0,
+								},
+								["Rain of Fire"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Shaathun <Denathra>"] = {
+							["Details"] = {
+								["Fel Synergy"] = {
+									["count"] = 0,
+								},
+								["Soul Link"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Risen Guard"] = {
+							["Details"] = {
+								["Incinerate"] = {
+									["count"] = 0,
+								},
+								["Chaos Bolt"] = {
+									["count"] = 0,
+								},
+								["Immolation"] = {
+									["count"] = 0,
+								},
+								["Shadowflame"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Necrofiend"] = {
+							["Details"] = {
+								["Immolation"] = {
+									["count"] = 0,
+								},
+								["Shadow Bolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Spectral Tutor"] = {
+							["Details"] = {
+								["Soul Fire"] = {
+									["count"] = 1.8,
+								},
+							},
+							["amount"] = 1.8,
+						},
+						["Risen Construct"] = {
+							["Details"] = {
+								["Shadow Bolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Scholomance Dark Summoner"] = {
+							["Details"] = {
+								["Immolation"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Scholomance Necrolyte"] = {
+							["Details"] = {
+								["Shadowflame (DoT)"] = {
+									["count"] = 0,
+								},
+								["Shadowflame"] = {
+									["count"] = 0,
+								},
+								["Immolation"] = {
+									["count"] = 0,
+								},
+								["Soul Fire"] = {
+									["count"] = 0,
+								},
+								["Shadow Bolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["Heals"] = {
+						["Fel Armor"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 633,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 633,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 633,
+						},
+						["Fel Synergy"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["FDamage"] = 0,
+					["EnergyGained"] = {
+					},
+					["HealedWho"] = {
+						["Denathra"] = {
+							["Details"] = {
+								["Fel Armor"] = {
+									["count"] = 633,
+								},
+							},
+							["amount"] = 633,
+						},
+						["Shaathun <Denathra>"] = {
+							["Details"] = {
+								["Fel Synergy"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["Healing"] = 633,
+					["RunicPowerGained"] = {
+					},
+					["ManaGainedFrom"] = {
+						["Denathra"] = {
+							["Details"] = {
+								["Life Tap"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["Attacks"] = {
+						["Shadowflame (DoT)"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Shadowflame"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Incinerate"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Immolation"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Shadow Bolt"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Chaos Bolt"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Soul Fire"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 15295,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 15295,
+								},
+								["Hit"] = {
+									["max"] = 7315,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 7315,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 22610,
+						},
+						["Rain of Fire"] = {
+							["Details"] = {
+								["Immune"] = {
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["HealingTaken"] = 633,
+					["DamagedWho"] = {
+						["Frail Skeleton"] = {
+							["Details"] = {
+								["Immolation"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Scholomance Neophyte"] = {
+							["Details"] = {
+								["Shadow Bolt"] = {
+									["count"] = 0,
+								},
+								["Soul Fire"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Diseased Ghoul"] = {
+							["Details"] = {
+								["Rain of Fire"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Risen Protector"] = {
+							["Details"] = {
+								["Shadow Bolt"] = {
+									["count"] = 0,
+								},
+								["Soul Fire"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Spectral Researcher"] = {
+							["Details"] = {
+								["Shadow Bolt"] = {
+									["count"] = 0,
+								},
+								["Soul Fire"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Scholomance Handler"] = {
+							["Details"] = {
+								["Shadowflame (DoT)"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Shadowflame"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Scholomance Acolyte"] = {
+							["Details"] = {
+								["Soul Fire"] = {
+									["count"] = 0,
+								},
+								["Shadow Bolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Scholomance Necromancer"] = {
+							["Details"] = {
+								["Soul Fire"] = {
+									["count"] = 15295,
+								},
+							},
+							["amount"] = 15295,
+						},
+						["Plagued Hatchling"] = {
+							["Details"] = {
+								["Shadowflame"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Risen Lackey"] = {
+							["Details"] = {
+								["Immolation"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Reanimated Corpse"] = {
+							["Details"] = {
+								["Incinerate"] = {
+									["count"] = 0,
+								},
+								["Rain of Fire"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Scholomance Dark Summoner"] = {
+							["Details"] = {
+								["Immolation"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Spectral Tutor"] = {
+							["Details"] = {
+								["Soul Fire"] = {
+									["count"] = 7315,
+								},
+							},
+							["amount"] = 7315,
+						},
+						["Necrofiend"] = {
+							["Details"] = {
+								["Immolation"] = {
+									["count"] = 0,
+								},
+								["Shadow Bolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Risen Guard"] = {
+							["Details"] = {
+								["Incinerate"] = {
+									["count"] = 0,
+								},
+								["Chaos Bolt"] = {
+									["count"] = 0,
+								},
+								["Immolation"] = {
+									["count"] = 0,
+								},
+								["Shadowflame"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Risen Construct"] = {
+							["Details"] = {
+								["Shadow Bolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Scholomance Adept"] = {
+							["Details"] = {
+								["Shadow Bolt"] = {
+									["count"] = 0,
+								},
+								["Soul Fire"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Scholomance Necrolyte"] = {
+							["Details"] = {
+								["Shadowflame (DoT)"] = {
+									["count"] = 0,
+								},
+								["Shadowflame"] = {
+									["count"] = 0,
+								},
+								["Immolation"] = {
+									["count"] = 0,
+								},
+								["Soul Fire"] = {
+									["count"] = 0,
+								},
+								["Shadow Bolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["TimeDamage"] = 4.87,
+					["TimeDamaging"] = {
+						["Frail Skeleton"] = {
+							["Details"] = {
+								["Immolation"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Shaathun <Denathra>"] = {
+							["Details"] = {
+								["Soul Link"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Scholomance Neophyte"] = {
+							["Details"] = {
+								["Shadow Bolt"] = {
+									["count"] = 0,
+								},
+								["Soul Fire"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Diseased Ghoul"] = {
+							["Details"] = {
+								["Rain of Fire"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Risen Aberration"] = {
+							["Details"] = {
+								["Rain of Fire"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Risen Protector"] = {
+							["Details"] = {
+								["Shadow Bolt"] = {
+									["count"] = 0,
+								},
+								["Soul Fire"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Spectral Researcher"] = {
+							["Details"] = {
+								["Shadow Bolt"] = {
+									["count"] = 0,
+								},
+								["Soul Fire"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Scholomance Handler"] = {
+							["Details"] = {
+								["Shadowflame (DoT)"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Shadowflame"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Scholomance Acolyte"] = {
+							["Details"] = {
+								["Soul Fire"] = {
+									["count"] = 0,
+								},
+								["Shadow Bolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Scholomance Necromancer"] = {
+							["Details"] = {
+								["Soul Fire"] = {
+									["count"] = 3.07,
+								},
+							},
+							["amount"] = 3.07,
+						},
+						["Plagued Hatchling"] = {
+							["Details"] = {
+								["Shadowflame"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Risen Lackey"] = {
+							["Details"] = {
+								["Immolation"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Reanimated Corpse"] = {
+							["Details"] = {
+								["Incinerate"] = {
+									["count"] = 0,
+								},
+								["Rain of Fire"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Scholomance Dark Summoner"] = {
+							["Details"] = {
+								["Immolation"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Scholomance Adept"] = {
+							["Details"] = {
+								["Shadow Bolt"] = {
+									["count"] = 0,
+								},
+								["Soul Fire"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Necrofiend"] = {
+							["Details"] = {
+								["Immolation"] = {
+									["count"] = 0,
+								},
+								["Shadow Bolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Spectral Tutor"] = {
+							["Details"] = {
+								["Soul Fire"] = {
+									["count"] = 1.8,
+								},
+							},
+							["amount"] = 1.8,
+						},
+						["Risen Construct"] = {
+							["Details"] = {
+								["Shadow Bolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Risen Guard"] = {
+							["Details"] = {
+								["Incinerate"] = {
+									["count"] = 0,
+								},
+								["Chaos Bolt"] = {
+									["count"] = 0,
+								},
+								["Immolation"] = {
+									["count"] = 0,
+								},
+								["Shadowflame"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Scholomance Necrolyte"] = {
+							["Details"] = {
+								["Shadowflame (DoT)"] = {
+									["count"] = 0,
+								},
+								["Shadowflame"] = {
+									["count"] = 0,
+								},
+								["Immolation"] = {
+									["count"] = 0,
+								},
+								["Soul Fire"] = {
+									["count"] = 0,
+								},
+								["Shadow Bolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["RunicPowerGain"] = 0,
+					["ElementTakenBlock"] = {
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["Fight2"] = {
+					["DOTs"] = {
+						["Conflagrate (DoT)"] = {
+							["Details"] = {
+								["Scholomance Neophyte"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Drain Life (DoT)"] = {
+							["Details"] = {
+								["Scholomance Adept"] = {
+									["count"] = 0,
+								},
+								["Risen Construct"] = {
+									["count"] = 0,
+								},
+								["Scholomance Necromancer"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 0,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+						["Shadow"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 0,
+								},
+								["Dodge"] = {
+									["count"] = 0,
+								},
+								["Miss"] = {
+									["count"] = 0,
+								},
+								["Parry"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Frost"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Physical"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 0,
+								},
+								["Dodge"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Nature"] = {
+							["Details"] = {
+								["Tick"] = {
+									["count"] = 0,
+								},
+								["Miss"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 3,
+					["HOTs"] = {
+						["Fel Armor"] = {
+							["Details"] = {
+								["Denathra"] = {
+									["count"] = 3,
+								},
+							},
+							["amount"] = 3,
+						},
+					},
+					["ManaGain"] = 0,
+					["ElementTaken"] = {
+						["Physical"] = 0,
+						["Melee"] = 0,
+						["Nature"] = 0,
+					},
+					["DOT_Time"] = 0,
+					["Damage"] = 30903,
+					["ElementDoneAbsorb"] = {
+					},
+					["TimeHeal"] = 0.08,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["PartialAbsorb"] = {
+						["Cripple"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Trample"] = {
+							["Details"] = {
+								["Absorbed"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Absorbed"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Mana Burn"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Shadow Word: Pain"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Frostbolt"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Cloud of Disease (DoT)"] = {
+							["Details"] = {
+								["Absorbed"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Shadow Bolt"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Wail of Souls"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Disease Cloud"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Call of the Grave"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Arcing Smash"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["RageGain"] = 0,
+					["FAttacks"] = {
+						["Soul Link"] = {
+							["Details"] = {
+								["Split"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["PartialBlock"] = {
+					},
+					["ElementDone"] = {
+						["Shadow"] = 0,
+						["Melee"] = 0,
+						["Fire"] = 30903,
+					},
+					["CCBroken"] = {
+					},
+					["ElementHitsDone"] = {
+						["Shadow"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 0,
+								},
+								["Immune"] = {
+									["count"] = 0,
+								},
+								["Crit"] = {
+									["count"] = 0,
+								},
+								["Tick"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Crit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Fire"] = {
+							["Details"] = {
+								["Immune"] = {
+									["count"] = 0,
+								},
+								["Crit"] = {
+									["count"] = 2,
+								},
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 2,
+						},
+					},
+					["Dispelled"] = 0,
+					["WhoDamaged"] = {
+						["Scholomance Necromancer"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Diseased Ghoul"] = {
+							["Details"] = {
+								["Cloud of Disease (DoT)"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Reanimated Corpse"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Trample"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Spectral Tutor"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Risen Protector"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Rattlegore"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Risen Guard"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Risen Construct"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Spectral Researcher"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Risen Aberration"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["FDamagedWho"] = {
+						["Selrah <Denathra>"] = {
+							["Details"] = {
+								["Soul Link"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Shaathun <Denathra>"] = {
+							["Details"] = {
+								["Soul Link"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+						["Selrah <Denathra>"] = {
+							["Details"] = {
+								["Fel Synergy"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Denathra"] = {
+							["Details"] = {
+								["Fel Armor"] = {
+									["count"] = 0.08,
+								},
+								["Drain Life"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0.08,
+						},
+						["Shaathun <Denathra>"] = {
+							["Details"] = {
+								["Fel Synergy"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["OverHeals"] = {
+						["Fel Synergy"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 2336,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 2336,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 2336,
+						},
+						["Fel Armor"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["RageGained"] = {
+					},
+					["ActiveTime"] = 5.44,
+					["CCBreak"] = 0,
+					["EnergyGain"] = 0,
+					["WhoHealed"] = {
+						["Denathra"] = {
+							["Details"] = {
+								["Fel Armor"] = {
+									["count"] = 649,
+								},
+								["Drain Life"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 649,
+						},
+					},
+					["PartialResist"] = {
+						["Cripple"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Trample"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Mana Burn"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Shadow Word: Pain"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Frostbolt"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Cloud of Disease (DoT)"] = {
+							["Details"] = {
+								["50%Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Shadow Bolt"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Wail of Souls"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Disease Cloud"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Call of the Grave"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Arcing Smash"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["ManaGained"] = {
+						["Life Tap"] = {
+							["Details"] = {
+								["Denathra"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ElementTakenAbsorb"] = {
+						["Physical"] = 0,
+						["Melee"] = 0,
+						["Nature"] = 0,
+					},
+					["Interrupts"] = 0,
+					["Overhealing"] = 2336,
+					["ElementTakenResist"] = {
+						["Nature"] = 0,
+					},
+					["InterruptData"] = {
+					},
+					["WhoDispelled"] = {
+					},
+					["TimeSpent"] = {
+						["Scholomance Adept"] = {
+							["Details"] = {
+								["Shadow Bolt"] = {
+									["count"] = 0,
+								},
+								["Immolation"] = {
+									["count"] = 0,
+								},
+								["Soul Fire"] = {
+									["count"] = 1.94,
+								},
+								["Drain Life (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 1.94,
+						},
+						["Denathra"] = {
+							["Details"] = {
+								["Fel Armor"] = {
+									["count"] = 0.08,
+								},
+								["Drain Life"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0.08,
+						},
+						["Scholomance Neophyte"] = {
+							["Details"] = {
+								["Shadowfury"] = {
+									["count"] = 0,
+								},
+								["Soul Fire"] = {
+									["count"] = 0,
+								},
+								["Conflagrate (DoT)"] = {
+									["count"] = 0,
+								},
+								["Immolate"] = {
+									["count"] = 0,
+								},
+								["Conflagrate"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Diseased Ghoul"] = {
+							["Details"] = {
+								["Immolation"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Risen Aberration"] = {
+							["Details"] = {
+								["Immolation"] = {
+									["count"] = 0,
+								},
+								["Shadowflame"] = {
+									["count"] = 0,
+								},
+								["Rain of Fire"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Risen Protector"] = {
+							["Details"] = {
+								["Soul Fire"] = {
+									["count"] = 3.42,
+								},
+							},
+							["amount"] = 3.42,
+						},
+						["Spectral Researcher"] = {
+							["Details"] = {
+								["Incinerate"] = {
+									["count"] = 0,
+								},
+								["Shadowfury"] = {
+									["count"] = 0,
+								},
+								["Soul Fire"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Scholomance Acolyte"] = {
+							["Details"] = {
+								["Shadowfury"] = {
+									["count"] = 0,
+								},
+								["Soul Fire"] = {
+									["count"] = 0,
+								},
+								["Incinerate"] = {
+									["count"] = 0,
+								},
+								["Immolate"] = {
+									["count"] = 0,
+								},
+								["Conflagrate"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Scholomance Necromancer"] = {
+							["Details"] = {
+								["Immolation"] = {
+									["count"] = 0,
+								},
+								["Shadow Bolt"] = {
+									["count"] = 0,
+								},
+								["Drain Life (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Selrah <Denathra>"] = {
+							["Details"] = {
+								["Soul Link"] = {
+									["count"] = 0,
+								},
+								["Fel Synergy"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Shaathun <Denathra>"] = {
+							["Details"] = {
+								["Fel Synergy"] = {
+									["count"] = 0,
+								},
+								["Soul Link"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Reanimated Corpse"] = {
+							["Details"] = {
+								["Immolation"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Rain of Fire"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Spectral Projection"] = {
+							["Details"] = {
+								["Shadow Bolt"] = {
+									["count"] = 0,
+								},
+								["Immolation"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Risen Construct"] = {
+							["Details"] = {
+								["Soul Fire"] = {
+									["count"] = 0,
+								},
+								["Drain Life (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Spectral Tutor"] = {
+							["Details"] = {
+								["Shadow Bolt"] = {
+									["count"] = 0,
+								},
+								["Immolation"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Risen Guard"] = {
+							["Details"] = {
+								["Soul Fire"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Rattlegore"] = {
+							["Details"] = {
+								["Soul Fire"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Scholomance Dark Summoner"] = {
+							["Details"] = {
+								["Shadow Bolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Scholomance Necrolyte"] = {
+							["Details"] = {
+								["Shadow Bolt"] = {
+									["count"] = 0,
+								},
+								["Soul Fire"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["Heals"] = {
+						["Fel Synergy"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Fel Armor"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 649,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 649,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 649,
+						},
+						["Drain Life"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["FDamage"] = 0,
+					["EnergyGained"] = {
+					},
+					["HealedWho"] = {
+						["Selrah <Denathra>"] = {
+							["Details"] = {
+								["Fel Synergy"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Denathra"] = {
+							["Details"] = {
+								["Fel Armor"] = {
+									["count"] = 649,
+								},
+								["Drain Life"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 649,
+						},
+						["Shaathun <Denathra>"] = {
+							["Details"] = {
+								["Fel Synergy"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["Healing"] = 649,
+					["RunicPowerGained"] = {
+					},
+					["ManaGainedFrom"] = {
+						["Denathra"] = {
+							["Details"] = {
+								["Life Tap"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["Attacks"] = {
+						["Shadowfury"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Shadowflame"] = {
+							["Details"] = {
+								["Immune"] = {
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Incinerate"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Immolation"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Immune"] = {
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Immolate"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Conflagrate"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Soul Fire"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 15574,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 30903,
+								},
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 30903,
+						},
+						["Rain of Fire"] = {
+							["Details"] = {
+								["Immune"] = {
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Conflagrate (DoT)"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Shadow Bolt"] = {
+							["Details"] = {
+								["Immune"] = {
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Drain Life (DoT)"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["HealingTaken"] = 649,
+					["DamagedWho"] = {
+						["Scholomance Acolyte"] = {
+							["Details"] = {
+								["Shadowfury"] = {
+									["count"] = 0,
+								},
+								["Soul Fire"] = {
+									["count"] = 0,
+								},
+								["Incinerate"] = {
+									["count"] = 0,
+								},
+								["Immolate"] = {
+									["count"] = 0,
+								},
+								["Conflagrate"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Scholomance Necromancer"] = {
+							["Details"] = {
+								["Immolation"] = {
+									["count"] = 0,
+								},
+								["Shadow Bolt"] = {
+									["count"] = 0,
+								},
+								["Drain Life (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Scholomance Dark Summoner"] = {
+							["Details"] = {
+								["Shadow Bolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Scholomance Adept"] = {
+							["Details"] = {
+								["Shadow Bolt"] = {
+									["count"] = 0,
+								},
+								["Immolation"] = {
+									["count"] = 0,
+								},
+								["Soul Fire"] = {
+									["count"] = 15574,
+								},
+								["Drain Life (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 15574,
+						},
+						["Risen Construct"] = {
+							["Details"] = {
+								["Soul Fire"] = {
+									["count"] = 0,
+								},
+								["Drain Life (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Scholomance Neophyte"] = {
+							["Details"] = {
+								["Shadowfury"] = {
+									["count"] = 0,
+								},
+								["Soul Fire"] = {
+									["count"] = 0,
+								},
+								["Conflagrate (DoT)"] = {
+									["count"] = 0,
+								},
+								["Immolate"] = {
+									["count"] = 0,
+								},
+								["Conflagrate"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Diseased Ghoul"] = {
+							["Details"] = {
+								["Immolation"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Reanimated Corpse"] = {
+							["Details"] = {
+								["Immolation"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Rain of Fire"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Spectral Researcher"] = {
+							["Details"] = {
+								["Incinerate"] = {
+									["count"] = 0,
+								},
+								["Shadowfury"] = {
+									["count"] = 0,
+								},
+								["Soul Fire"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Risen Protector"] = {
+							["Details"] = {
+								["Soul Fire"] = {
+									["count"] = 15329,
+								},
+							},
+							["amount"] = 15329,
+						},
+						["Spectral Projection"] = {
+							["Details"] = {
+								["Shadow Bolt"] = {
+									["count"] = 0,
+								},
+								["Immolation"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Risen Guard"] = {
+							["Details"] = {
+								["Soul Fire"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Rattlegore"] = {
+							["Details"] = {
+								["Soul Fire"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Spectral Tutor"] = {
+							["Details"] = {
+								["Shadow Bolt"] = {
+									["count"] = 0,
+								},
+								["Immolation"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Scholomance Necrolyte"] = {
+							["Details"] = {
+								["Shadow Bolt"] = {
+									["count"] = 0,
+								},
+								["Soul Fire"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["TimeDamage"] = 5.359999999999999,
+					["TimeDamaging"] = {
+						["Scholomance Adept"] = {
+							["Details"] = {
+								["Shadow Bolt"] = {
+									["count"] = 0,
+								},
+								["Immolation"] = {
+									["count"] = 0,
+								},
+								["Soul Fire"] = {
+									["count"] = 1.94,
+								},
+								["Drain Life (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 1.94,
+						},
+						["Shaathun <Denathra>"] = {
+							["Details"] = {
+								["Soul Link"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Scholomance Neophyte"] = {
+							["Details"] = {
+								["Shadowfury"] = {
+									["count"] = 0,
+								},
+								["Soul Fire"] = {
+									["count"] = 0,
+								},
+								["Conflagrate (DoT)"] = {
+									["count"] = 0,
+								},
+								["Immolate"] = {
+									["count"] = 0,
+								},
+								["Conflagrate"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Diseased Ghoul"] = {
+							["Details"] = {
+								["Immolation"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Risen Aberration"] = {
+							["Details"] = {
+								["Immolation"] = {
+									["count"] = 0,
+								},
+								["Shadowflame"] = {
+									["count"] = 0,
+								},
+								["Rain of Fire"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Risen Protector"] = {
+							["Details"] = {
+								["Soul Fire"] = {
+									["count"] = 3.42,
+								},
+							},
+							["amount"] = 3.42,
+						},
+						["Spectral Researcher"] = {
+							["Details"] = {
+								["Incinerate"] = {
+									["count"] = 0,
+								},
+								["Shadowfury"] = {
+									["count"] = 0,
+								},
+								["Soul Fire"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Scholomance Acolyte"] = {
+							["Details"] = {
+								["Shadowfury"] = {
+									["count"] = 0,
+								},
+								["Soul Fire"] = {
+									["count"] = 0,
+								},
+								["Incinerate"] = {
+									["count"] = 0,
+								},
+								["Immolate"] = {
+									["count"] = 0,
+								},
+								["Conflagrate"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Scholomance Necromancer"] = {
+							["Details"] = {
+								["Immolation"] = {
+									["count"] = 0,
+								},
+								["Shadow Bolt"] = {
+									["count"] = 0,
+								},
+								["Drain Life (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Selrah <Denathra>"] = {
+							["Details"] = {
+								["Soul Link"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Reanimated Corpse"] = {
+							["Details"] = {
+								["Immolation"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Rain of Fire"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Scholomance Dark Summoner"] = {
+							["Details"] = {
+								["Shadow Bolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Spectral Projection"] = {
+							["Details"] = {
+								["Shadow Bolt"] = {
+									["count"] = 0,
+								},
+								["Immolation"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Risen Construct"] = {
+							["Details"] = {
+								["Soul Fire"] = {
+									["count"] = 0,
+								},
+								["Drain Life (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Risen Guard"] = {
+							["Details"] = {
+								["Soul Fire"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Rattlegore"] = {
+							["Details"] = {
+								["Soul Fire"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Spectral Tutor"] = {
+							["Details"] = {
+								["Shadow Bolt"] = {
+									["count"] = 0,
+								},
+								["Immolation"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Scholomance Necrolyte"] = {
+							["Details"] = {
+								["Shadow Bolt"] = {
+									["count"] = 0,
+								},
+								["Soul Fire"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["RunicPowerGain"] = 0,
+					["ElementTakenBlock"] = {
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["Fight3"] = {
+					["DOTs"] = {
+						["Conflagrate (DoT)"] = {
+							["Details"] = {
+								["Risen Guard"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Immolate (DoT)"] = {
+							["Details"] = {
+								["Risen Guard"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Drain Life (DoT)"] = {
+							["Details"] = {
+								["Scholomance Neophyte"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ElementHitsTaken"] = {
+						["Shadow"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 0,
+								},
+								["Parry"] = {
+									["count"] = 0,
+								},
+								["Miss"] = {
+									["count"] = 0,
+								},
+								["Dodge"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Nature"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 0,
+								},
+								["Tick"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["HealedWho"] = {
+						["Selrah <Denathra>"] = {
+							["Details"] = {
+								["Fel Synergy"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Denathra"] = {
+							["Details"] = {
+								["Fel Armor"] = {
+									["count"] = 649,
+								},
+								["Drain Life"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 649,
+						},
+						["Shaathun <Denathra>"] = {
+							["Details"] = {
+								["Fel Synergy"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ElementTakenResist"] = {
+						["Nature"] = 0,
+					},
+					["FDamagedWho"] = {
+						["Selrah <Denathra>"] = {
+							["Details"] = {
+								["Soul Link"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Shaathun <Denathra>"] = {
+							["Details"] = {
+								["Soul Link"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ElementTaken"] = {
+						["Melee"] = 0,
+						["Nature"] = 0,
+					},
+					["DOT_Time"] = 0,
+					["Damage"] = 52487,
+					["TimeHeal"] = 0.3,
+					["FAttacks"] = {
+						["Soul Link"] = {
+							["Details"] = {
+								["Split"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["ElementDone"] = {
+						["Fire"] = 52487,
+						["Melee"] = 0,
+						["Shadow"] = 0,
+					},
+					["ElementHitsDone"] = {
+						["Fire"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 2,
+								},
+								["Immune"] = {
+									["count"] = 0,
+								},
+								["Crit"] = {
+									["count"] = 2,
+								},
+								["Tick"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 4,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Crit"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Shadow"] = {
+							["Details"] = {
+								["Tick"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 0,
+								},
+								["Crit"] = {
+									["count"] = 0,
+								},
+								["Evade"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["WhoDamaged"] = {
+						["Risen Aberration"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Scholomance Necromancer"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Risen Guard"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Reanimated Corpse"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Diseased Ghoul"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Cloud of Disease (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["TimeHealing"] = {
+						["Selrah <Denathra>"] = {
+							["Details"] = {
+								["Fel Synergy"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Denathra"] = {
+							["Details"] = {
+								["Fel Armor"] = {
+									["count"] = 0.3,
+								},
+								["Drain Life"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0.3,
+						},
+						["Shaathun <Denathra>"] = {
+							["Details"] = {
+								["Fel Synergy"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["OverHeals"] = {
+						["Fel Synergy"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 2672,
+									["min"] = 0,
+									["count"] = 3,
+									["amount"] = 5197,
+								},
+							},
+							["count"] = 3,
+							["amount"] = 5197,
+						},
+						["Fel Armor"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Drain Life"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["PartialResist"] = {
+						["Shadow Bolt"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Cloud of Disease (DoT)"] = {
+							["Details"] = {
+								["50%Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["75%Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Mind Flay"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Shadow Word: Pain"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Shadow Bolt Volley"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Wandering Plague"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Disease Cloud"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["ManaGained"] = {
+						["Life Tap"] = {
+							["Details"] = {
+								["Denathra"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["FDamage"] = 0,
+					["ActiveTime"] = 8.560000000000001,
+					["DamagedWho"] = {
+						["Frail Skeleton"] = {
+							["Details"] = {
+								["Soul Fire"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Spectral Researcher"] = {
+							["Details"] = {
+								["Soul Fire"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Scholomance Necromancer"] = {
+							["Details"] = {
+								["Soul Fire"] = {
+									["count"] = 17818,
+								},
+							},
+							["amount"] = 17818,
+						},
+						["Scholomance Adept"] = {
+							["Details"] = {
+								["Soul Fire"] = {
+									["count"] = 26224,
+								},
+							},
+							["amount"] = 26224,
+						},
+						["Scholomance Dark Summoner"] = {
+							["Details"] = {
+								["Soul Fire"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Risen Guard"] = {
+							["Details"] = {
+								["Conflagrate (DoT)"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Incinerate"] = {
+									["count"] = 0,
+								},
+								["Immolate"] = {
+									["count"] = 0,
+								},
+								["Conflagrate"] = {
+									["count"] = 0,
+								},
+								["Chaos Bolt"] = {
+									["count"] = 0,
+								},
+								["Soul Fire"] = {
+									["count"] = 0,
+								},
+								["Immolate (DoT)"] = {
+									["count"] = 0,
+								},
+								["Shadowfury"] = {
+									["count"] = 0,
+								},
+								["Shadow Bolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Scholomance Neophyte"] = {
+							["Details"] = {
+								["Drain Life (DoT)"] = {
+									["count"] = 0,
+								},
+								["Shadow Bolt"] = {
+									["count"] = 0,
+								},
+								["Soul Fire"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Diseased Ghoul"] = {
+							["Details"] = {
+								["Shadow Bolt"] = {
+									["count"] = 0,
+								},
+								["Soul Fire"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Reanimated Corpse"] = {
+							["Details"] = {
+								["Soul Fire"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Necrofiend"] = {
+							["Details"] = {
+								["Shadow Bolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Risen Aberration"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Rat"] = {
+							["Details"] = {
+								["Shadowflame"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Spectral Tutor"] = {
+							["Details"] = {
+								["Soul Fire"] = {
+									["count"] = 8445,
+								},
+							},
+							["amount"] = 8445,
+						},
+						["Risen Construct"] = {
+							["Details"] = {
+								["Soul Fire"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Scholomance Acolyte"] = {
+							["Details"] = {
+								["Shadow Bolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Scholomance Necrolyte"] = {
+							["Details"] = {
+								["Soul Fire"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ElementTakenAbsorb"] = {
+						["Melee"] = 0,
+						["Nature"] = 0,
+					},
+					["Heals"] = {
+						["Fel Synergy"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Fel Armor"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 649,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 649,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 649,
+						},
+						["Drain Life"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
 						},
 					},
 					["WhoHealed"] = {
 						["Denathra"] = {
 							["Details"] = {
-								["Drain Life"] = {
-									["count"] = 16300,
-								},
 								["Fel Armor"] = {
-									["count"] = 69379,
+									["count"] = 649,
+								},
+								["Drain Life"] = {
+									["count"] = 0,
 								},
 							},
-							["amount"] = 85679,
+							["amount"] = 649,
 						},
 					},
 					["HOTs"] = {
 						["Fel Armor"] = {
 							["Details"] = {
 								["Denathra"] = {
-									["count"] = 465,
+									["count"] = 3,
 								},
 							},
-							["amount"] = 465,
+							["amount"] = 3,
 						},
 					},
 					["TimeSpent"] = {
-						["Frail Skeleton"] = {
+						["Scholomance Dark Summoner"] = {
 							["Details"] = {
-								["Immolation"] = {
-									["count"] = 2.04,
-								},
 								["Soul Fire"] = {
-									["count"] = 13.24,
-								},
-							},
-							["amount"] = 15.28,
-						},
-						["Denathra"] = {
-							["Details"] = {
-								["Drain Life"] = {
 									["count"] = 0,
 								},
-								["Fel Armor"] = {
-									["count"] = 130.9999999999999,
+							},
+							["amount"] = 0,
+						},
+						["Shaathun <Denathra>"] = {
+							["Details"] = {
+								["Soul Link"] = {
+									["count"] = 0,
+								},
+								["Fel Synergy"] = {
+									["count"] = 0,
 								},
 							},
-							["amount"] = 130.9999999999999,
+							["amount"] = 0,
 						},
 						["Scholomance Neophyte"] = {
 							["Details"] = {
 								["Drain Life (DoT)"] = {
-									["count"] = 7.02,
-								},
-								["Shadowfury"] = {
 									["count"] = 0,
 								},
-								["Conflagrate (DoT)"] = {
-									["count"] = 1.55,
+								["Shadow Bolt"] = {
+									["count"] = 0,
 								},
 								["Soul Fire"] = {
-									["count"] = 40.05,
-								},
-								["Shadow Bolt"] = {
-									["count"] = 8.5,
-								},
-								["Immolation"] = {
-									["count"] = 1.31,
-								},
-								["Immolate"] = {
-									["count"] = 3.5,
-								},
-								["Conflagrate"] = {
-									["count"] = 0.74,
+									["count"] = 0,
 								},
 							},
-							["amount"] = 62.67,
+							["amount"] = 0,
 						},
 						["Diseased Ghoul"] = {
 							["Details"] = {
-								["Shadowflame (DoT)"] = {
-									["count"] = 0,
-								},
-								["Rain of Fire"] = {
+								["Shadow Bolt"] = {
 									["count"] = 0,
 								},
 								["Soul Fire"] = {
-									["count"] = 0,
-								},
-								["Shadowflame"] = {
-									["count"] = 0,
-								},
-								["Immolation"] = {
-									["count"] = 0,
-								},
-								["Immolate"] = {
-									["count"] = 0,
-								},
-								["Shadow Bolt"] = {
 									["count"] = 0,
 								},
 							},
@@ -21235,741 +21888,493 @@ RecountPerCharDB = {
 						},
 						["Risen Aberration"] = {
 							["Details"] = {
-								["Shadowflame"] = {
-									["count"] = 0.51,
-								},
-								["Drain Life"] = {
-									["count"] = 0.35,
-								},
 								["Melee"] = {
-									["count"] = 3.66,
-								},
-								["Soul Fire"] = {
-									["count"] = 5.39,
-								},
-								["Soulshatter"] = {
-									["count"] = 0.5,
-								},
-								["Immolation"] = {
-									["count"] = 10.8,
-								},
-								["Immolate"] = {
-									["count"] = 0.38,
-								},
-								["Rain of Fire"] = {
-									["count"] = 14.45,
-								},
-							},
-							["amount"] = 36.03999999999999,
-						},
-						["Risen Protector"] = {
-							["Details"] = {
-								["Soul Fire"] = {
-									["count"] = 10.06,
-								},
-								["Shadow Bolt"] = {
-									["count"] = 7,
-								},
-							},
-							["amount"] = 17.06,
-						},
-						["Spectral Projection"] = {
-							["Details"] = {
-								["Immolation"] = {
 									["count"] = 0,
 								},
-								["Shadow Bolt"] = {
-									["count"] = 1.79,
+								["Soul Fire"] = {
+									["count"] = 0,
 								},
 							},
-							["amount"] = 1.79,
+							["amount"] = 0,
 						},
 						["Spectral Researcher"] = {
 							["Details"] = {
-								["Shadowfury"] = {
-									["count"] = 3.5,
-								},
 								["Soul Fire"] = {
-									["count"] = 14.6,
-								},
-								["Incinerate"] = {
-									["count"] = 0.57,
-								},
-								["Immolation"] = {
-									["count"] = 3.5,
-								},
-								["Shadow Bolt"] = {
-									["count"] = 5.91,
-								},
-							},
-							["amount"] = 28.08,
-						},
-						["Rattlegore"] = {
-							["Details"] = {
-								["Soul Fire"] = {
-									["count"] = 1.6,
-								},
-							},
-							["amount"] = 1.6,
-						},
-						["Jandice Barov"] = {
-							["Details"] = {
-								["Shadow Bolt"] = {
-									["count"] = 1.64,
-								},
-							},
-							["amount"] = 1.64,
-						},
-						["Scholomance Adept"] = {
-							["Details"] = {
-								["Drain Life (DoT)"] = {
-									["count"] = 4.25,
-								},
-								["Immolation"] = {
 									["count"] = 0,
 								},
-								["Shadow Bolt"] = {
-									["count"] = 7,
-								},
-								["Soul Fire"] = {
-									["count"] = 45.89999999999999,
-								},
 							},
-							["amount"] = 57.15,
+							["amount"] = 0,
 						},
 						["Scholomance Acolyte"] = {
 							["Details"] = {
-								["Shadowfury"] = {
-									["count"] = 0,
-								},
 								["Shadow Bolt"] = {
-									["count"] = 9.560000000000001,
-								},
-								["Soul Fire"] = {
-									["count"] = 25.4,
-								},
-								["Incinerate"] = {
-									["count"] = 6.87,
-								},
-								["Immolation"] = {
-									["count"] = 1.83,
-								},
-								["Immolate"] = {
-									["count"] = 1.83,
-								},
-								["Conflagrate"] = {
-									["count"] = 0.75,
+									["count"] = 0,
 								},
 							},
-							["amount"] = 46.24,
-						},
-						["Scholomance Handler"] = {
-							["Details"] = {
-								["Shadowflame (DoT)"] = {
-									["count"] = 0.72,
-								},
-								["Melee"] = {
-									["count"] = 1.35,
-								},
-								["Shadowflame"] = {
-									["count"] = 0,
-								},
-								["Rain of Fire"] = {
-									["count"] = 0,
-								},
-								["Shadow Bolt"] = {
-									["count"] = 3.5,
-								},
-							},
-							["amount"] = 5.57,
+							["amount"] = 0,
 						},
 						["Scholomance Necromancer"] = {
 							["Details"] = {
-								["Drain Life (DoT)"] = {
-									["count"] = 3.45,
-								},
-								["Immolation"] = {
-									["count"] = 4.82,
-								},
-								["Shadow Bolt"] = {
-									["count"] = 2.02,
-								},
 								["Soul Fire"] = {
-									["count"] = 34.04,
+									["count"] = 1.72,
 								},
 							},
-							["amount"] = 44.33000000000001,
-						},
-						["Plagued Hatchling"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0.15,
-								},
-								["Shadowflame"] = {
-									["count"] = 0,
-								},
-								["Soul Fire"] = {
-									["count"] = 1.07,
-								},
-								["Rain of Fire"] = {
-									["count"] = 0.01,
-								},
-								["Shadow Bolt"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 1.23,
+							["amount"] = 1.72,
 						},
 						["Selrah <Denathra>"] = {
 							["Details"] = {
-								["Fel Synergy"] = {
-									["count"] = 1.09,
-								},
 								["Soul Link"] = {
-									["count"] = 0.1,
-								},
-							},
-							["amount"] = 1.19,
-						},
-						["Risen Lackey"] = {
-							["Details"] = {
-								["Immolation"] = {
-									["count"] = 1.54,
-								},
-							},
-							["amount"] = 1.54,
-						},
-						["Rat"] = {
-							["Details"] = {
-								["Immolation"] = {
 									["count"] = 0,
 								},
-								["Shadowflame"] = {
-									["count"] = 3.5,
-								},
-								["Rain of Fire"] = {
+								["Fel Synergy"] = {
 									["count"] = 0,
 								},
 							},
-							["amount"] = 3.5,
+							["amount"] = 0,
 						},
-						["Blood Steward of Kirtonos"] = {
+						["Frail Skeleton"] = {
 							["Details"] = {
 								["Soul Fire"] = {
-									["count"] = 3.46,
-								},
-								["Immolation"] = {
-									["count"] = 0.74,
+									["count"] = 0,
 								},
 							},
-							["amount"] = 4.2,
+							["amount"] = 0,
+						},
+						["Scholomance Adept"] = {
+							["Details"] = {
+								["Soul Fire"] = {
+									["count"] = 5.07,
+								},
+							},
+							["amount"] = 5.07,
 						},
 						["Reanimated Corpse"] = {
 							["Details"] = {
-								["Melee"] = {
-									["count"] = 0.23,
+								["Shadow Bolt"] = {
+									["count"] = 0,
 								},
 								["Soul Fire"] = {
 									["count"] = 0,
 								},
-								["Incinerate"] = {
-									["count"] = 0,
-								},
-								["Immolation"] = {
-									["count"] = 3.5,
-								},
-								["Rain of Fire"] = {
-									["count"] = 0,
-								},
-								["Shadow Bolt"] = {
-									["count"] = 0.17,
-								},
 							},
-							["amount"] = 3.9,
-						},
-						["Shaathun <Denathra>"] = {
-							["Details"] = {
-								["Soul Link"] = {
-									["count"] = 173.4899999999997,
-								},
-								["Fel Synergy"] = {
-									["count"] = 95.41,
-								},
-							},
-							["amount"] = 268.8999999999999,
-						},
-						["Spectral Tutor"] = {
-							["Details"] = {
-								["Immolation"] = {
-									["count"] = 5.79,
-								},
-								["Shadow Bolt"] = {
-									["count"] = 1.18,
-								},
-								["Soul Fire"] = {
-									["count"] = 14.64,
-								},
-							},
-							["amount"] = 21.61,
+							["amount"] = 0,
 						},
 						["Necrofiend"] = {
 							["Details"] = {
-								["Immolation"] = {
+								["Shadow Bolt"] = {
 									["count"] = 0,
 								},
-								["Shadow Bolt"] = {
-									["count"] = 7,
-								},
-								["Soul Fire"] = {
-									["count"] = 4.45,
-								},
 							},
-							["amount"] = 11.45,
+							["amount"] = 0,
 						},
 						["Risen Guard"] = {
 							["Details"] = {
 								["Conflagrate (DoT)"] = {
-									["count"] = 2.01,
+									["count"] = 0,
 								},
 								["Melee"] = {
-									["count"] = 1.83,
-								},
-								["Shadowflame"] = {
-									["count"] = 1.55,
+									["count"] = 0,
 								},
 								["Incinerate"] = {
-									["count"] = 3.65,
-								},
-								["Immolation"] = {
-									["count"] = 1.36,
+									["count"] = 0,
 								},
 								["Immolate"] = {
-									["count"] = 5.82,
+									["count"] = 0,
 								},
 								["Conflagrate"] = {
-									["count"] = 1.47,
+									["count"] = 0,
 								},
 								["Chaos Bolt"] = {
-									["count"] = 1.97,
+									["count"] = 0,
 								},
 								["Soul Fire"] = {
-									["count"] = 26.91,
+									["count"] = 0,
 								},
 								["Immolate (DoT)"] = {
 									["count"] = 0,
 								},
-								["Shadow Bolt"] = {
-									["count"] = 3.5,
-								},
 								["Shadowfury"] = {
-									["count"] = 2.1,
-								},
-							},
-							["amount"] = 52.17,
-						},
-						["Risen Construct"] = {
-							["Details"] = {
-								["Drain Life (DoT)"] = {
-									["count"] = 1.1,
-								},
-								["Soul Fire"] = {
-									["count"] = 22.24,
+									["count"] = 0,
 								},
 								["Shadow Bolt"] = {
-									["count"] = 7,
+									["count"] = 0,
 								},
 							},
-							["amount"] = 30.34,
+							["amount"] = 0,
 						},
-						["Scholomance Dark Summoner"] = {
+						["Rat"] = {
 							["Details"] = {
-								["Immolation"] = {
-									["count"] = 1.31,
-								},
-								["Shadow Bolt"] = {
-									["count"] = 3.5,
-								},
-								["Soul Fire"] = {
-									["count"] = 6.76,
-								},
-							},
-							["amount"] = 11.57,
-						},
-						["Scholomance Necrolyte"] = {
-							["Details"] = {
-								["Shadowflame (DoT)"] = {
-									["count"] = 5.59,
-								},
-								["Soul Fire"] = {
-									["count"] = 17.71,
-								},
 								["Shadowflame"] = {
 									["count"] = 0,
 								},
-								["Immolation"] = {
-									["count"] = 0,
-								},
-								["Drain Life (DoT)"] = {
-									["count"] = 2.92,
-								},
-								["Shadow Bolt"] = {
-									["count"] = 3.71,
-								},
 							},
-							["amount"] = 29.93,
-						},
-					},
-					["Healing"] = 104983,
-					["DamageTaken"] = 51712,
-					["HOT_Time"] = 465,
-					["Attacks"] = {
-						["Shadowfury"] = {
-							["Details"] = {
-								["Crit"] = {
-									["max"] = 4715,
-									["min"] = 4715,
-									["count"] = 1,
-									["amount"] = 4715,
-								},
-								["Hit"] = {
-									["max"] = 1833,
-									["min"] = 1648,
-									["count"] = 4,
-									["amount"] = 7013,
-								},
-							},
-							["count"] = 5,
-							["amount"] = 11728,
-						},
-						["Shadowflame"] = {
-							["Details"] = {
-								["Immune"] = {
-									["count"] = 10,
-									["amount"] = 0,
-								},
-								["Crit"] = {
-									["max"] = 4117,
-									["min"] = 3908,
-									["count"] = 5,
-									["amount"] = 19874,
-								},
-								["Hit"] = {
-									["max"] = 2397,
-									["min"] = 1892,
-									["count"] = 3,
-									["amount"] = 6678,
-								},
-							},
-							["count"] = 18,
-							["amount"] = 26552,
-						},
-						["Immolate"] = {
-							["Details"] = {
-								["Immune"] = {
-									["count"] = 1,
-									["amount"] = 0,
-								},
-								["Crit"] = {
-									["max"] = 3477,
-									["min"] = 3477,
-									["count"] = 1,
-									["amount"] = 3477,
-								},
-								["Hit"] = {
-									["max"] = 2288,
-									["min"] = 1665,
-									["count"] = 4,
-									["amount"] = 7320,
-								},
-							},
-							["count"] = 6,
-							["amount"] = 10797,
-						},
-						["Conflagrate"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 5797,
-									["min"] = 3853,
-									["count"] = 4,
-									["amount"] = 18184,
-								},
-							},
-							["count"] = 4,
-							["amount"] = 18184,
-						},
-						["Soul Fire"] = {
-							["Details"] = {
-								["Immune"] = {
-									["count"] = 7,
-									["amount"] = 0,
-								},
-								["Crit"] = {
-									["max"] = 23558,
-									["min"] = 14831,
-									["count"] = 85,
-									["amount"] = 1459001,
-								},
-								["Hit"] = {
-									["max"] = 11318,
-									["min"] = 7078,
-									["count"] = 77,
-									["amount"] = 634450,
-								},
-							},
-							["count"] = 169,
-							["amount"] = 2093451,
-						},
-						["Soulshatter"] = {
-							["Details"] = {
-								["Immune"] = {
-									["count"] = 4,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 4,
 							["amount"] = 0,
 						},
-						["Drain Life (DoT)"] = {
+						["Spectral Tutor"] = {
 							["Details"] = {
-								["Tick"] = {
-									["max"] = 1167,
-									["min"] = 858,
-									["count"] = 20,
-									["amount"] = 19437,
+								["Soul Fire"] = {
+									["count"] = 1.47,
 								},
 							},
-							["count"] = 20,
-							["amount"] = 19437,
+							["amount"] = 1.47,
 						},
-						["Shadowflame (DoT)"] = {
+						["Risen Construct"] = {
 							["Details"] = {
-								["Tick"] = {
-									["max"] = 719,
-									["min"] = 554,
-									["count"] = 7,
-									["amount"] = 4580,
+								["Soul Fire"] = {
+									["count"] = 0,
 								},
 							},
-							["count"] = 7,
-							["amount"] = 4580,
+							["amount"] = 0,
+						},
+						["Denathra"] = {
+							["Details"] = {
+								["Fel Armor"] = {
+									["count"] = 0.3,
+								},
+								["Drain Life"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0.3,
+						},
+						["Scholomance Necrolyte"] = {
+							["Details"] = {
+								["Soul Fire"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["Healing"] = 649,
+					["Overhealing"] = 5197,
+					["HOT_Time"] = 3,
+					["Attacks"] = {
+						["Conflagrate (DoT)"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Tick"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
 						},
 						["Melee"] = {
 							["Details"] = {
 								["Crit"] = {
-									["max"] = 788,
-									["min"] = 362,
-									["count"] = 4,
-									["amount"] = 2269,
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
 								},
 								["Hit"] = {
-									["max"] = 320,
-									["min"] = 216,
-									["count"] = 5,
-									["amount"] = 1297,
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
 								},
 							},
-							["count"] = 9,
-							["amount"] = 3566,
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Shadowflame"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
 						},
 						["Incinerate"] = {
 							["Details"] = {
 								["Hit"] = {
-									["max"] = 6532,
-									["min"] = 4102,
-									["count"] = 8,
-									["amount"] = 38347,
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
 								},
 							},
-							["count"] = 8,
-							["amount"] = 38347,
+							["count"] = 0,
+							["amount"] = 0,
 						},
-						["Immolation"] = {
+						["Immolate"] = {
 							["Details"] = {
-								["Immune"] = {
-									["count"] = 188,
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
 									["amount"] = 0,
 								},
-								["Hit"] = {
-									["max"] = 2304,
-									["min"] = 1762,
-									["count"] = 209,
-									["amount"] = 432463,
-								},
 							},
-							["count"] = 397,
-							["amount"] = 432463,
+							["count"] = 0,
+							["amount"] = 0,
 						},
-						["Shadow Bolt"] = {
+						["Conflagrate"] = {
 							["Details"] = {
-								["Evade"] = {
-									["count"] = 1,
-									["amount"] = 0,
-								},
-								["Immune"] = {
-									["count"] = 1,
-									["amount"] = 0,
-								},
-								["Crit"] = {
-									["max"] = 15328,
-									["min"] = 11557,
-									["count"] = 23,
-									["amount"] = 298149,
-								},
 								["Hit"] = {
-									["max"] = 8530,
-									["min"] = 5421,
-									["count"] = 22,
-									["amount"] = 142401,
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
 								},
 							},
-							["count"] = 47,
-							["amount"] = 440550,
+							["count"] = 0,
+							["amount"] = 0,
 						},
 						["Chaos Bolt"] = {
 							["Details"] = {
 								["Hit"] = {
-									["max"] = 5410,
-									["min"] = 5105,
-									["count"] = 2,
-									["amount"] = 10515,
-								},
-							},
-							["count"] = 2,
-							["amount"] = 10515,
-						},
-						["Drain Life"] = {
-							["Details"] = {
-								["Immune"] = {
-									["count"] = 2,
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
 									["amount"] = 0,
 								},
 							},
-							["count"] = 2,
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Soul Fire"] = {
+							["Details"] = {
+								["Immune"] = {
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Crit"] = {
+									["max"] = 17826,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 35644,
+								},
+								["Hit"] = {
+									["max"] = 8445,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 16843,
+								},
+							},
+							["count"] = 4,
+							["amount"] = 52487,
+						},
+						["Shadow Bolt"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Evade"] = {
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
 							["amount"] = 0,
 						},
 						["Immolate (DoT)"] = {
 							["Details"] = {
 								["Crit"] = {
-									["max"] = 3261,
-									["min"] = 3261,
-									["count"] = 1,
-									["amount"] = 3261,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 3261,
-						},
-						["Conflagrate (DoT)"] = {
-							["Details"] = {
-								["Crit"] = {
-									["max"] = 3123,
-									["min"] = 2056,
-									["count"] = 2,
-									["amount"] = 5179,
-								},
-								["Tick"] = {
-									["max"] = 1207,
-									["min"] = 1207,
-									["count"] = 1,
-									["amount"] = 1207,
-								},
-							},
-							["count"] = 3,
-							["amount"] = 6386,
-						},
-						["Rain of Fire"] = {
-							["Details"] = {
-								["Immune"] = {
-									["count"] = 96,
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
 									["amount"] = 0,
 								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Shadowfury"] = {
+							["Details"] = {
 								["Crit"] = {
-									["max"] = 4886,
-									["min"] = 2417,
-									["count"] = 24,
-									["amount"] = 98684,
-								},
-								["Hit"] = {
-									["max"] = 2805,
-									["min"] = 1157,
-									["count"] = 36,
-									["amount"] = 67526,
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
 								},
 							},
-							["count"] = 156,
-							["amount"] = 166210,
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Drain Life (DoT)"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
 						},
 					},
-					["HealingTaken"] = 85679,
-					["Overhealing"] = 427134,
-					["TimeDamage"] = 662.4799999999997,
+					["HealingTaken"] = 649,
+					["DamageTaken"] = 0,
+					["TimeDamage"] = 8.26,
 					["TimeDamaging"] = {
-						["Frail Skeleton"] = {
+						["Scholomance Dark Summoner"] = {
 							["Details"] = {
-								["Immolation"] = {
-									["count"] = 2.04,
-								},
 								["Soul Fire"] = {
-									["count"] = 13.24,
+									["count"] = 0,
 								},
 							},
-							["amount"] = 15.28,
+							["amount"] = 0,
 						},
 						["Shaathun <Denathra>"] = {
 							["Details"] = {
 								["Soul Link"] = {
-									["count"] = 173.4899999999997,
+									["count"] = 0,
 								},
 							},
-							["amount"] = 173.4899999999997,
+							["amount"] = 0,
 						},
 						["Scholomance Neophyte"] = {
 							["Details"] = {
 								["Drain Life (DoT)"] = {
-									["count"] = 7.02,
-								},
-								["Shadowfury"] = {
 									["count"] = 0,
 								},
-								["Conflagrate (DoT)"] = {
-									["count"] = 1.55,
+								["Shadow Bolt"] = {
+									["count"] = 0,
 								},
 								["Soul Fire"] = {
-									["count"] = 40.05,
-								},
-								["Shadow Bolt"] = {
-									["count"] = 8.5,
-								},
-								["Immolation"] = {
-									["count"] = 1.31,
-								},
-								["Immolate"] = {
-									["count"] = 3.5,
-								},
-								["Conflagrate"] = {
-									["count"] = 0.74,
+									["count"] = 0,
 								},
 							},
-							["amount"] = 62.67,
+							["amount"] = 0,
 						},
 						["Diseased Ghoul"] = {
 							["Details"] = {
-								["Shadowflame (DoT)"] = {
-									["count"] = 0,
-								},
-								["Rain of Fire"] = {
+								["Shadow Bolt"] = {
 									["count"] = 0,
 								},
 								["Soul Fire"] = {
 									["count"] = 0,
 								},
+							},
+							["amount"] = 0,
+						},
+						["Risen Aberration"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Soul Fire"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Spectral Researcher"] = {
+							["Details"] = {
+								["Soul Fire"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Scholomance Acolyte"] = {
+							["Details"] = {
+								["Shadow Bolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Scholomance Necromancer"] = {
+							["Details"] = {
+								["Soul Fire"] = {
+									["count"] = 1.72,
+								},
+							},
+							["amount"] = 1.72,
+						},
+						["Selrah <Denathra>"] = {
+							["Details"] = {
+								["Soul Link"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Frail Skeleton"] = {
+							["Details"] = {
+								["Soul Fire"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Reanimated Corpse"] = {
+							["Details"] = {
+								["Shadow Bolt"] = {
+									["count"] = 0,
+								},
+								["Soul Fire"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Rat"] = {
+							["Details"] = {
 								["Shadowflame"] = {
 									["count"] = 0,
 								},
-								["Immolation"] = {
+							},
+							["amount"] = 0,
+						},
+						["Risen Guard"] = {
+							["Details"] = {
+								["Conflagrate (DoT)"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Incinerate"] = {
 									["count"] = 0,
 								},
 								["Immolate"] = {
+									["count"] = 0,
+								},
+								["Conflagrate"] = {
+									["count"] = 0,
+								},
+								["Chaos Bolt"] = {
+									["count"] = 0,
+								},
+								["Soul Fire"] = {
+									["count"] = 0,
+								},
+								["Immolate (DoT)"] = {
+									["count"] = 0,
+								},
+								["Shadowfury"] = {
 									["count"] = 0,
 								},
 								["Shadow Bolt"] = {
@@ -21978,796 +22383,396 @@ RecountPerCharDB = {
 							},
 							["amount"] = 0,
 						},
-						["Risen Aberration"] = {
+						["Necrofiend"] = {
 							["Details"] = {
-								["Shadowflame"] = {
-									["count"] = 0.51,
-								},
-								["Drain Life"] = {
-									["count"] = 0.35,
-								},
-								["Melee"] = {
-									["count"] = 3.66,
-								},
-								["Soul Fire"] = {
-									["count"] = 5.39,
-								},
-								["Soulshatter"] = {
-									["count"] = 0.5,
-								},
-								["Immolation"] = {
-									["count"] = 10.8,
-								},
-								["Immolate"] = {
-									["count"] = 0.38,
-								},
-								["Rain of Fire"] = {
-									["count"] = 14.45,
-								},
-							},
-							["amount"] = 36.03999999999999,
-						},
-						["Risen Protector"] = {
-							["Details"] = {
-								["Soul Fire"] = {
-									["count"] = 10.06,
-								},
 								["Shadow Bolt"] = {
-									["count"] = 7,
-								},
-							},
-							["amount"] = 17.06,
-						},
-						["Spectral Researcher"] = {
-							["Details"] = {
-								["Shadowfury"] = {
-									["count"] = 3.5,
-								},
-								["Soul Fire"] = {
-									["count"] = 14.6,
-								},
-								["Incinerate"] = {
-									["count"] = 0.57,
-								},
-								["Immolation"] = {
-									["count"] = 3.5,
-								},
-								["Shadow Bolt"] = {
-									["count"] = 5.91,
-								},
-							},
-							["amount"] = 28.08,
-						},
-						["Scholomance Handler"] = {
-							["Details"] = {
-								["Shadowflame (DoT)"] = {
-									["count"] = 0.72,
-								},
-								["Melee"] = {
-									["count"] = 1.35,
-								},
-								["Shadowflame"] = {
 									["count"] = 0,
 								},
-								["Rain of Fire"] = {
-									["count"] = 0,
-								},
-								["Shadow Bolt"] = {
-									["count"] = 3.5,
-								},
 							},
-							["amount"] = 5.57,
-						},
-						["Jandice Barov"] = {
-							["Details"] = {
-								["Shadow Bolt"] = {
-									["count"] = 1.64,
-								},
-							},
-							["amount"] = 1.64,
-						},
-						["Rattlegore"] = {
-							["Details"] = {
-								["Soul Fire"] = {
-									["count"] = 1.6,
-								},
-							},
-							["amount"] = 1.6,
-						},
-						["Scholomance Acolyte"] = {
-							["Details"] = {
-								["Shadowfury"] = {
-									["count"] = 0,
-								},
-								["Shadow Bolt"] = {
-									["count"] = 9.560000000000001,
-								},
-								["Soul Fire"] = {
-									["count"] = 25.4,
-								},
-								["Incinerate"] = {
-									["count"] = 6.87,
-								},
-								["Immolation"] = {
-									["count"] = 1.83,
-								},
-								["Immolate"] = {
-									["count"] = 1.83,
-								},
-								["Conflagrate"] = {
-									["count"] = 0.75,
-								},
-							},
-							["amount"] = 46.24,
+							["amount"] = 0,
 						},
 						["Spectral Tutor"] = {
 							["Details"] = {
-								["Immolation"] = {
-									["count"] = 5.79,
-								},
-								["Shadow Bolt"] = {
-									["count"] = 1.18,
-								},
 								["Soul Fire"] = {
-									["count"] = 14.64,
-								},
-							},
-							["amount"] = 21.61,
-						},
-						["Scholomance Necromancer"] = {
-							["Details"] = {
-								["Drain Life (DoT)"] = {
-									["count"] = 3.45,
-								},
-								["Immolation"] = {
-									["count"] = 4.82,
-								},
-								["Shadow Bolt"] = {
-									["count"] = 2.02,
-								},
-								["Soul Fire"] = {
-									["count"] = 34.04,
-								},
-							},
-							["amount"] = 44.33000000000001,
-						},
-						["Plagued Hatchling"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0.15,
-								},
-								["Shadowflame"] = {
-									["count"] = 0,
-								},
-								["Soul Fire"] = {
-									["count"] = 1.07,
-								},
-								["Rain of Fire"] = {
-									["count"] = 0.01,
-								},
-								["Shadow Bolt"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 1.23,
-						},
-						["Selrah <Denathra>"] = {
-							["Details"] = {
-								["Soul Link"] = {
-									["count"] = 0.1,
-								},
-							},
-							["amount"] = 0.1,
-						},
-						["Risen Lackey"] = {
-							["Details"] = {
-								["Immolation"] = {
-									["count"] = 1.54,
-								},
-							},
-							["amount"] = 1.54,
-						},
-						["Spectral Projection"] = {
-							["Details"] = {
-								["Immolation"] = {
-									["count"] = 0,
-								},
-								["Shadow Bolt"] = {
-									["count"] = 1.79,
-								},
-							},
-							["amount"] = 1.79,
-						},
-						["Rat"] = {
-							["Details"] = {
-								["Immolation"] = {
-									["count"] = 0,
-								},
-								["Shadowflame"] = {
-									["count"] = 3.5,
-								},
-								["Rain of Fire"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 3.5,
-						},
-						["Reanimated Corpse"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0.23,
-								},
-								["Soul Fire"] = {
-									["count"] = 0,
-								},
-								["Incinerate"] = {
-									["count"] = 0,
-								},
-								["Immolation"] = {
-									["count"] = 3.5,
-								},
-								["Rain of Fire"] = {
-									["count"] = 0,
-								},
-								["Shadow Bolt"] = {
-									["count"] = 0.17,
-								},
-							},
-							["amount"] = 3.9,
-						},
-						["Blood Steward of Kirtonos"] = {
-							["Details"] = {
-								["Soul Fire"] = {
-									["count"] = 3.46,
-								},
-								["Immolation"] = {
-									["count"] = 0.74,
-								},
-							},
-							["amount"] = 4.2,
-						},
-						["Scholomance Adept"] = {
-							["Details"] = {
-								["Drain Life (DoT)"] = {
-									["count"] = 4.25,
-								},
-								["Immolation"] = {
-									["count"] = 0,
-								},
-								["Shadow Bolt"] = {
-									["count"] = 7,
-								},
-								["Soul Fire"] = {
-									["count"] = 45.89999999999999,
-								},
-							},
-							["amount"] = 57.15,
-						},
-						["Necrofiend"] = {
-							["Details"] = {
-								["Immolation"] = {
-									["count"] = 0,
-								},
-								["Shadow Bolt"] = {
-									["count"] = 7,
-								},
-								["Soul Fire"] = {
-									["count"] = 4.45,
-								},
-							},
-							["amount"] = 11.45,
-						},
-						["Risen Guard"] = {
-							["Details"] = {
-								["Conflagrate (DoT)"] = {
-									["count"] = 2.01,
-								},
-								["Melee"] = {
-									["count"] = 1.83,
-								},
-								["Shadowflame"] = {
-									["count"] = 1.55,
-								},
-								["Incinerate"] = {
-									["count"] = 3.65,
-								},
-								["Immolation"] = {
-									["count"] = 1.36,
-								},
-								["Immolate"] = {
-									["count"] = 5.82,
-								},
-								["Conflagrate"] = {
 									["count"] = 1.47,
 								},
-								["Chaos Bolt"] = {
-									["count"] = 1.97,
-								},
-								["Soul Fire"] = {
-									["count"] = 26.91,
-								},
-								["Immolate (DoT)"] = {
-									["count"] = 0,
-								},
-								["Shadow Bolt"] = {
-									["count"] = 3.5,
-								},
-								["Shadowfury"] = {
-									["count"] = 2.1,
-								},
 							},
-							["amount"] = 52.17,
+							["amount"] = 1.47,
 						},
 						["Risen Construct"] = {
 							["Details"] = {
-								["Drain Life (DoT)"] = {
-									["count"] = 1.1,
-								},
 								["Soul Fire"] = {
-									["count"] = 22.24,
-								},
-								["Shadow Bolt"] = {
-									["count"] = 7,
-								},
-							},
-							["amount"] = 30.34,
-						},
-						["Scholomance Dark Summoner"] = {
-							["Details"] = {
-								["Immolation"] = {
-									["count"] = 1.31,
-								},
-								["Shadow Bolt"] = {
-									["count"] = 3.5,
-								},
-								["Soul Fire"] = {
-									["count"] = 6.76,
-								},
-							},
-							["amount"] = 11.57,
-						},
-						["Scholomance Necrolyte"] = {
-							["Details"] = {
-								["Shadowflame (DoT)"] = {
-									["count"] = 5.59,
-								},
-								["Soul Fire"] = {
-									["count"] = 17.71,
-								},
-								["Shadowflame"] = {
 									["count"] = 0,
 								},
-								["Immolation"] = {
-									["count"] = 0,
-								},
-								["Drain Life (DoT)"] = {
-									["count"] = 2.92,
-								},
-								["Shadow Bolt"] = {
-									["count"] = 3.71,
-								},
 							},
-							["amount"] = 29.93,
-						},
-					},
-					["ManaGain"] = 212621,
-					["ElementTakenAbsorb"] = {
-						["Shadow"] = 37,
-						["Physical"] = 8,
-						["Melee"] = 10465,
-						["Nature"] = 2153,
-					},
-					["DamagedWho"] = {
-						["Frail Skeleton"] = {
-							["Details"] = {
-								["Immolation"] = {
-									["count"] = 18463,
-								},
-								["Soul Fire"] = {
-									["count"] = 90192,
-								},
-							},
-							["amount"] = 108655,
-						},
-						["Scholomance Neophyte"] = {
-							["Details"] = {
-								["Drain Life (DoT)"] = {
-									["count"] = 6408,
-								},
-								["Shadowfury"] = {
-									["count"] = 1726,
-								},
-								["Conflagrate (DoT)"] = {
-									["count"] = 2056,
-								},
-								["Soul Fire"] = {
-									["count"] = 249992,
-								},
-								["Shadow Bolt"] = {
-									["count"] = 52980,
-								},
-								["Immolation"] = {
-									["count"] = 24464,
-								},
-								["Immolate"] = {
-									["count"] = 1665,
-								},
-								["Conflagrate"] = {
-									["count"] = 3853,
-								},
-							},
-							["amount"] = 343144,
-						},
-						["Diseased Ghoul"] = {
-							["Details"] = {
-								["Shadowflame (DoT)"] = {
-									["count"] = 1150,
-								},
-								["Rain of Fire"] = {
-									["count"] = 52878,
-								},
-								["Soul Fire"] = {
-									["count"] = 66757,
-								},
-								["Shadowflame"] = {
-									["count"] = 4117,
-								},
-								["Immolation"] = {
-									["count"] = 94472,
-								},
-								["Immolate"] = {
-									["count"] = 1686,
-								},
-								["Shadow Bolt"] = {
-									["count"] = 18880,
-								},
-							},
-							["amount"] = 239940,
-						},
-						["Risen Aberration"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 2244,
-								},
-							},
-							["amount"] = 2244,
-						},
-						["Risen Protector"] = {
-							["Details"] = {
-								["Soul Fire"] = {
-									["count"] = 55862,
-								},
-								["Shadow Bolt"] = {
-									["count"] = 29181,
-								},
-							},
-							["amount"] = 85043,
-						},
-						["Spectral Researcher"] = {
-							["Details"] = {
-								["Shadowfury"] = {
-									["count"] = 1833,
-								},
-								["Soul Fire"] = {
-									["count"] = 109830,
-								},
-								["Incinerate"] = {
-									["count"] = 8257,
-								},
-								["Immolation"] = {
-									["count"] = 8260,
-								},
-								["Shadow Bolt"] = {
-									["count"] = 17178,
-								},
-							},
-							["amount"] = 145358,
-						},
-						["Jandice Barov"] = {
-							["Details"] = {
-								["Shadow Bolt"] = {
-									["count"] = 29649,
-								},
-							},
-							["amount"] = 29649,
-						},
-						["Scholomance Handler"] = {
-							["Details"] = {
-								["Shadowflame (DoT)"] = {
-									["count"] = 554,
-								},
-								["Melee"] = {
-									["count"] = 241,
-								},
-								["Shadowflame"] = {
-									["count"] = 3966,
-								},
-								["Rain of Fire"] = {
-									["count"] = 9467,
-								},
-								["Shadow Bolt"] = {
-									["count"] = 18654,
-								},
-							},
-							["amount"] = 32882,
-						},
-						["Scholomance Acolyte"] = {
-							["Details"] = {
-								["Shadowfury"] = {
-									["count"] = 3454,
-								},
-								["Shadow Bolt"] = {
-									["count"] = 62298,
-								},
-								["Soul Fire"] = {
-									["count"] = 128760,
-								},
-								["Incinerate"] = {
-									["count"] = 8264,
-								},
-								["Immolation"] = {
-									["count"] = 22404,
-								},
-								["Immolate"] = {
-									["count"] = 3477,
-								},
-								["Conflagrate"] = {
-									["count"] = 3853,
-								},
-							},
-							["amount"] = 232510,
-						},
-						["Rattlegore"] = {
-							["Details"] = {
-								["Soul Fire"] = {
-									["count"] = 43303,
-								},
-							},
-							["amount"] = 43303,
-						},
-						["Scholomance Necromancer"] = {
-							["Details"] = {
-								["Drain Life (DoT)"] = {
-									["count"] = 3501,
-								},
-								["Immolation"] = {
-									["count"] = 17008,
-								},
-								["Shadow Bolt"] = {
-									["count"] = 26554,
-								},
-								["Soul Fire"] = {
-									["count"] = 257231,
-								},
-							},
-							["amount"] = 304294,
-						},
-						["Plagued Hatchling"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 222,
-								},
-								["Shadowflame"] = {
-									["count"] = 3970,
-								},
-								["Soul Fire"] = {
-									["count"] = 15615,
-								},
-								["Rain of Fire"] = {
-									["count"] = 56951,
-								},
-								["Shadow Bolt"] = {
-									["count"] = 6111,
-								},
-							},
-							["amount"] = 82869,
-						},
-						["Spectral Tutor"] = {
-							["Details"] = {
-								["Immolation"] = {
-									["count"] = 4360,
-								},
-								["Shadow Bolt"] = {
-									["count"] = 20928,
-								},
-								["Soul Fire"] = {
-									["count"] = 145147,
-								},
-							},
-							["amount"] = 170435,
-						},
-						["Risen Lackey"] = {
-							["Details"] = {
-								["Immolation"] = {
-									["count"] = 10466,
-								},
-							},
-							["amount"] = 10466,
-						},
-						["Spectral Projection"] = {
-							["Details"] = {
-								["Immolation"] = {
-									["count"] = 21800,
-								},
-								["Shadow Bolt"] = {
-									["count"] = 22978,
-								},
-							},
-							["amount"] = 44778,
-						},
-						["Rat"] = {
-							["Details"] = {
-								["Immolation"] = {
-									["count"] = 2026,
-								},
-								["Shadowflame"] = {
-									["count"] = 9713,
-								},
-								["Rain of Fire"] = {
-									["count"] = 7152,
-								},
-							},
-							["amount"] = 18891,
-						},
-						["Reanimated Corpse"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 539,
-								},
-								["Soul Fire"] = {
-									["count"] = 41531,
-								},
-								["Incinerate"] = {
-									["count"] = 4580,
-								},
-								["Immolation"] = {
-									["count"] = 18071,
-								},
-								["Rain of Fire"] = {
-									["count"] = 39762,
-								},
-							},
-							["amount"] = 104483,
-						},
-						["Blood Steward of Kirtonos"] = {
-							["Details"] = {
-								["Soul Fire"] = {
-									["count"] = 22033,
-								},
-								["Immolation"] = {
-									["count"] = 16320,
-								},
-							},
-							["amount"] = 38353,
+							["amount"] = 0,
 						},
 						["Scholomance Adept"] = {
 							["Details"] = {
-								["Drain Life (DoT)"] = {
-									["count"] = 2784,
-								},
-								["Immolation"] = {
-									["count"] = 34016,
-								},
-								["Shadow Bolt"] = {
-									["count"] = 23854,
-								},
 								["Soul Fire"] = {
-									["count"] = 271173,
+									["count"] = 5.07,
 								},
 							},
-							["amount"] = 331827,
-						},
-						["Necrofiend"] = {
-							["Details"] = {
-								["Immolation"] = {
-									["count"] = 30014,
-								},
-								["Shadow Bolt"] = {
-									["count"] = 26901,
-								},
-								["Soul Fire"] = {
-									["count"] = 25610,
-								},
-							},
-							["amount"] = 82525,
-						},
-						["Risen Guard"] = {
-							["Details"] = {
-								["Conflagrate (DoT)"] = {
-									["count"] = 4330,
-								},
-								["Melee"] = {
-									["count"] = 320,
-								},
-								["Shadowflame"] = {
-									["count"] = 2397,
-								},
-								["Incinerate"] = {
-									["count"] = 17246,
-								},
-								["Immolation"] = {
-									["count"] = 27331,
-								},
-								["Immolate"] = {
-									["count"] = 3969,
-								},
-								["Conflagrate"] = {
-									["count"] = 10478,
-								},
-								["Chaos Bolt"] = {
-									["count"] = 10515,
-								},
-								["Soul Fire"] = {
-									["count"] = 177960,
-								},
-								["Immolate (DoT)"] = {
-									["count"] = 3261,
-								},
-								["Shadow Bolt"] = {
-									["count"] = 18143,
-								},
-								["Shadowfury"] = {
-									["count"] = 4715,
-								},
-							},
-							["amount"] = 280665,
-						},
-						["Risen Construct"] = {
-							["Details"] = {
-								["Drain Life (DoT)"] = {
-									["count"] = 3960,
-								},
-								["Soul Fire"] = {
-									["count"] = 181633,
-								},
-								["Shadow Bolt"] = {
-									["count"] = 25263,
-								},
-							},
-							["amount"] = 210856,
-						},
-						["Scholomance Dark Summoner"] = {
-							["Details"] = {
-								["Immolation"] = {
-									["count"] = 40882,
-								},
-								["Shadow Bolt"] = {
-									["count"] = 12760,
-								},
-								["Soul Fire"] = {
-									["count"] = 49331,
-								},
-							},
-							["amount"] = 102973,
+							["amount"] = 5.07,
 						},
 						["Scholomance Necrolyte"] = {
 							["Details"] = {
-								["Shadowflame (DoT)"] = {
-									["count"] = 2876,
-								},
 								["Soul Fire"] = {
-									["count"] = 161491,
-								},
-								["Shadowflame"] = {
-									["count"] = 2389,
-								},
-								["Immolation"] = {
-									["count"] = 42106,
-								},
-								["Drain Life (DoT)"] = {
-									["count"] = 2784,
-								},
-								["Shadow Bolt"] = {
-									["count"] = 28238,
+									["count"] = 0,
 								},
 							},
-							["amount"] = 239884,
+							["amount"] = 0,
+						},
+					},
+					["ManaGain"] = 0,
+					["PartialAbsorb"] = {
+						["Shadow Bolt"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Cloud of Disease (DoT)"] = {
+							["Details"] = {
+								["Absorbed"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Absorbed"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Mind Flay"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Shadow Word: Pain"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Shadow Bolt Volley"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Wandering Plague"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Disease Cloud"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["ManaGainedFrom"] = {
+						["Denathra"] = {
+							["Details"] = {
+								["Life Tap"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
 						},
 					},
 				},
 			},
-			["UnitLockout"] = 1617371146,
-			["LastActive"] = 1617372875,
+			["Owner"] = false,
+			["Pet"] = {
+				"Selrah <Denathra>", -- [1]
+				"Shaathun <Denathra>", -- [2]
+			},
+			["NextEventNum"] = 40,
+			["LastEventHealthNum"] = {
+				94.72419180386973, -- [1]
+				94.72419180386973, -- [2]
+				94.72419180386973, -- [3]
+				94.79629852181228, -- [4]
+				94.79629852181228, -- [5]
+				97.39614629651885, -- [6]
+				97.39614629651885, -- [7]
+				97.39614629651885, -- [8]
+				97.46424708568682, -- [9]
+				97.46424708568682, -- [10]
+				100, -- [11]
+				100, -- [12]
+				100, -- [13]
+				100, -- [14]
+				100, -- [15]
+				100, -- [16]
+				100, -- [17]
+				100, -- [18]
+				100, -- [19]
+				100, -- [20]
+				100, -- [21]
+				100, -- [22]
+				100, -- [23]
+				100, -- [24]
+				100, -- [25]
+				100, -- [26]
+				100, -- [27]
+				100, -- [28]
+				100, -- [29]
+				100, -- [30]
+				100, -- [31]
+				100, -- [32]
+				100, -- [33]
+				100, -- [34]
+				100, -- [35]
+				100, -- [36]
+				100, -- [37]
+				100, -- [38]
+				100, -- [39]
+				89.52449625445659, -- [40]
+				89.52449625445659, -- [41]
+				89.52449625445659, -- [42]
+				89.52449625445659, -- [43]
+				92.12434402916317, -- [44]
+				92.12434402916317, -- [45]
+				92.12434402916317, -- [46]
+				92.12434402916317, -- [47]
+				92.12434402916317, -- [48]
+				92.12434402916317, -- [49]
+				92.12434402916317, -- [50]
+			},
+			["LastEvents"] = {
+				"Denathra Fel Armor Denathra Tick +649", -- [1]
+				"Denathra Fel Synergy Shaathun <Denathra> Hit +1266 (1266 overheal)", -- [2]
+				"Denathra Soul Fire Spectral Tutor Hit -8445 (Fire)", -- [3]
+				"Denathra Fel Synergy Shaathun <Denathra> Hit +2299 (2299 overheal)", -- [4]
+				"Denathra Soul Fire Risen Protector Crit -15329 (Fire)", -- [5]
+				"Denathra Fel Armor Denathra Tick +649", -- [6]
+				"Denathra Fel Synergy Shaathun <Denathra> Hit +2336 (2336 overheal)", -- [7]
+				"Denathra Soul Fire Scholomance Adept Crit -15574 (Fire)", -- [8]
+				"Denathra Fel Synergy Shaathun <Denathra> Hit +2294 (2294 overheal)", -- [9]
+				"Denathra Soul Fire Scholomance Necromancer Crit -15295 (Fire)", -- [10]
+				"Denathra Fel Armor Denathra Tick +649 (16 overheal)", -- [11]
+				"Denathra Fel Synergy Shaathun <Denathra> Hit +1097 (1097 overheal)", -- [12]
+				"Denathra Soul Fire Spectral Tutor Hit -7315 (Fire)", -- [13]
+				"Denathra Fel Armor Denathra Tick +649 (649 overheal)", -- [14]
+				"Denathra Fel Armor Denathra Tick +649 (649 overheal)", -- [15]
+				"Denathra Fel Armor Denathra Tick +649 (649 overheal)", -- [16]
+				"Denathra Fel Armor Denathra Tick +649 (649 overheal)", -- [17]
+				"Denathra Fel Armor Denathra Tick +649 (649 overheal)", -- [18]
+				"Denathra Fel Armor Denathra Tick +649 (649 overheal)", -- [19]
+				"Denathra Fel Armor Denathra Tick +649 (649 overheal)", -- [20]
+				"Denathra Fel Armor Denathra Tick +649 (649 overheal)", -- [21]
+				"Denathra Fel Armor Denathra Tick +649 (649 overheal)", -- [22]
+				"Denathra Fel Armor Denathra Tick +649 (649 overheal)", -- [23]
+				"Denathra Fel Armor Denathra Tick +649 (649 overheal)", -- [24]
+				"Denathra Fel Armor Denathra Tick +649 (649 overheal)", -- [25]
+				"Denathra Fel Armor Denathra Tick +649 (649 overheal)", -- [26]
+				"Denathra Fel Armor Denathra Tick +649 (649 overheal)", -- [27]
+				"Denathra Fel Armor Denathra Tick +649 (649 overheal)", -- [28]
+				"Denathra Fel Armor Denathra Tick +649 (649 overheal)", -- [29]
+				"Denathra Fel Armor Denathra Tick +649 (649 overheal)", -- [30]
+				"Denathra Fel Armor Denathra Tick +649 (649 overheal)", -- [31]
+				"Denathra Fel Armor Denathra Tick +649 (649 overheal)", -- [32]
+				"Denathra Fel Armor Denathra Tick +649 (649 overheal)", -- [33]
+				"Denathra Fel Armor Denathra Tick +649 (649 overheal)", -- [34]
+				"Denathra Fel Armor Denathra Tick +649 (649 overheal)", -- [35]
+				"Denathra Fel Armor Denathra Tick +649 (649 overheal)", -- [36]
+				"Denathra Fel Armor Denathra Tick +649 (649 overheal)", -- [37]
+				"Denathra Fel Armor Denathra Tick +649 (649 overheal)", -- [38]
+				"Denathra Fel Armor Denathra Tick +649 (649 overheal)", -- [39]
+				"Denathra Fel Synergy Shaathun <Denathra> Hit +2634 (2634 overheal)", -- [40]
+				"Denathra Soul Fire Scholomance Necromancer Crit -17564 (Fire)", -- [41]
+				"Denathra Fel Synergy Shaathun <Denathra> Hit +2722 (2722 overheal)", -- [42]
+				"Denathra Soul Fire Spectral Tutor Crit -18153 (Fire)", -- [43]
+				"Denathra Fel Armor Denathra Tick +649", -- [44]
+				"Denathra Fel Synergy Shaathun <Denathra> Hit +2673 (2673 overheal)", -- [45]
+				"Denathra Soul Fire Scholomance Adept Crit -17826 (Fire)", -- [46]
+				"Denathra Fel Synergy Shaathun <Denathra> Hit +1259 (1259 overheal)", -- [47]
+				"Denathra Soul Fire Scholomance Adept Hit -8398 (Fire)", -- [48]
+				"Denathra Fel Synergy Shaathun <Denathra> Hit +2672 (2672 overheal)", -- [49]
+				"Denathra Soul Fire Scholomance Necromancer Crit -17818 (Fire)", -- [50]
+			},
+			["Name"] = "Denathra",
+			["TimeLast"] = {
+				["TimeHeal"] = 1617372784,
+				["Healing"] = 1617372784,
+				["OVERALL"] = 1617372786,
+				["DamageTaken"] = 1617372714,
+				["Overhealing"] = 1617372786,
+				["TimeDamage"] = 1617372786,
+				["HealingTaken"] = 1617372784,
+				["HOT_Time"] = 1617372784,
+				["ActiveTime"] = 1617372786,
+				["FDamage"] = 1617372714,
+				["ManaGain"] = 1617372745,
+				["DOT_Time"] = 1617372571,
+				["Damage"] = 1617372786,
+			},
+			["LastEventIncoming"] = {
+				true, -- [1]
+				false, -- [2]
+				false, -- [3]
+				false, -- [4]
+				false, -- [5]
+				true, -- [6]
+				false, -- [7]
+				false, -- [8]
+				false, -- [9]
+				false, -- [10]
+				true, -- [11]
+				false, -- [12]
+				false, -- [13]
+				true, -- [14]
+				true, -- [15]
+				true, -- [16]
+				true, -- [17]
+				true, -- [18]
+				true, -- [19]
+				true, -- [20]
+				true, -- [21]
+				true, -- [22]
+				true, -- [23]
+				true, -- [24]
+				true, -- [25]
+				true, -- [26]
+				true, -- [27]
+				true, -- [28]
+				true, -- [29]
+				true, -- [30]
+				true, -- [31]
+				true, -- [32]
+				true, -- [33]
+				true, -- [34]
+				true, -- [35]
+				true, -- [36]
+				true, -- [37]
+				true, -- [38]
+				true, -- [39]
+				false, -- [40]
+				false, -- [41]
+				false, -- [42]
+				false, -- [43]
+				true, -- [44]
+				false, -- [45]
+				false, -- [46]
+				false, -- [47]
+				false, -- [48]
+				false, -- [49]
+				false, -- [50]
+			},
+			["LastDamageTaken"] = 83,
+			["LastEventTimes"] = {
+				10330.2, -- [1]
+				10331.668, -- [2]
+				10331.668, -- [3]
+				10335.09, -- [4]
+				10335.09, -- [5]
+				10335.173, -- [6]
+				10337.11, -- [7]
+				10337.111, -- [8]
+				10340.181, -- [9]
+				10340.181, -- [10]
+				10340.181, -- [11]
+				10341.983, -- [12]
+				10341.984, -- [13]
+				10345.238, -- [14]
+				10350.245, -- [15]
+				10355.253, -- [16]
+				10360.159, -- [17]
+				10365.267, -- [18]
+				10370.192, -- [19]
+				10375.181, -- [20]
+				10380.272, -- [21]
+				10385.163, -- [22]
+				10390.171, -- [23]
+				10395.161, -- [24]
+				10400.235, -- [25]
+				10405.193, -- [26]
+				10410.15, -- [27]
+				10415.157, -- [28]
+				10420.754, -- [29]
+				10425.827, -- [30]
+				10431.558, -- [31]
+				10435.926, -- [32]
+				10440.82, -- [33]
+				10445.946, -- [34]
+				1522.738, -- [35]
+				1527.759, -- [36]
+				1532.774, -- [37]
+				1537.761, -- [38]
+				1542.782, -- [39]
+				10321.236, -- [40]
+				10321.236, -- [41]
+				10323.106, -- [42]
+				10323.107, -- [43]
+				10325.192, -- [44]
+				10326.361, -- [45]
+				10326.361, -- [46]
+				10328.18, -- [47]
+				10328.18, -- [48]
+				10329.9, -- [49]
+				10329.9, -- [50]
+			},
+			["LastAbility"] = 1519.363,
 		},
 	},
 	["FightNum"] = 69,

@@ -1,9 +1,9 @@
 Version: 1
 Frame: FocusFrame
 FrameLevel: 7
-Anchor: RIGHT
-X: -365
-Y: -225
+Anchor: BOTTOM
+X: 278
+Y: 152
 W: 232
 H: 100
 Frame: LootFrame
@@ -125,10 +125,3 @@ X: 451
 Y: -227
 W: 160
 H: 60
-Frame: XPerl_OptionsAnchor
-FrameLevel: 1
-Anchor: CENTER
-X: 53
-Y: 1
-W: 700
-H: 540

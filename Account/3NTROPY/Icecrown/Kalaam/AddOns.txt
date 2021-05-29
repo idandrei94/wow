@@ -1,2 +1,3 @@
 GearScore: disabled
 GearScoreLite: enabled
+XPerl_TeamSpeak: disabled
