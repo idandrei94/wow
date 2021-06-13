@@ -46,8 +46,8 @@ RecountDB = {
 			},
 			["DetailWindowY"] = -10.00000013677448,
 			["DetailWindowX"] = -105.0000036245237,
-			["LastInstanceName"] = "Trial of the Crusader",
-			["CurDataSet"] = "LastFightData",
+			["LastInstanceName"] = "Trial of the Champion",
+			["CurDataSet"] = "CurrentFightData",
 			["GraphWindowX"] = 0,
 			["MainWindowWidth"] = 251.4197662784027,
 			["MainWindowHeight"] = 310.8518969696999,
@@ -57,14 +57,14 @@ RecountDB = {
 			["MainWindow"] = {
 				["Position"] = {
 					["y"] = 73.16661682376696,
-					["x"] = -617.2778024389762,
+					["x"] = -617.2778943514261,
 					["w"] = 245.0000580607663,
 					["h"] = 323.0000267394107,
 				},
 			},
 			["DetailWindowX"] = 317.267070839811,
 			["LastInstanceName"] = "The Ruby Sanctum",
-			["CurDataSet"] = "CurrentFightData",
+			["CurDataSet"] = "LastFightData",
 			["Colors"] = {
 				["Bar"] = {
 					["Bar Text"] = {
@@ -494,7 +494,7 @@ RecountDB = {
 			},
 			["DetailWindowX"] = 112.9876419471188,
 			["LastInstanceName"] = "Vault of Archavon",
-			["GraphWindowX"] = 0,
+			["DetailWindowY"] = -124.0493402990752,
 			["CurDataSet"] = "LastFightData",
 			["Colors"] = {
 				["Bar"] = {
@@ -506,7 +506,7 @@ RecountDB = {
 					},
 				},
 			},
-			["DetailWindowY"] = -124.0493402990752,
+			["GraphWindowX"] = 0,
 			["MainWindowVis"] = false,
 			["MainWindowMode"] = 5,
 			["MainWindowWidth"] = 256.148530518934,

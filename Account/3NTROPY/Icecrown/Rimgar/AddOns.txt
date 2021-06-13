@@ -1,10 +1,10 @@
 XPerl: enabled
-XPerl_ArcaneBar: enabled
-XPerl_CustomHighlight: enabled
-XPerl_Options: enabled
-XPerl_Player: enabled
+XPerl_ArcaneBar: disabled
+XPerl_CustomHighlight: disabled
+XPerl_Options: disabled
+XPerl_Player: disabled
 XPerl_PlayerBuffs: disabled
-XPerl_PlayerPet: enabled
+XPerl_PlayerPet: disabled
 XPerl_TeamSpeak: disabled
-XPerl_Target: enabled
-XPerl_TargetTarget: enabled
+XPerl_Target: disabled
+XPerl_TargetTarget: disabled
