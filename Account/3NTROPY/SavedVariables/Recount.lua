@@ -34,6 +34,9 @@ RecountDB = {
 					["h"] = 310.999972303168,
 				},
 			},
+			["DetailWindowX"] = -105.0000036245237,
+			["LastInstanceName"] = "Icecrown Citadel",
+			["CurDataSet"] = "Fight1",
 			["Colors"] = {
 				["Bar"] = {
 					["Bar Text"] = {
@@ -45,12 +48,9 @@ RecountDB = {
 				},
 			},
 			["DetailWindowY"] = -10.00000013677448,
-			["DetailWindowX"] = -105.0000036245237,
-			["LastInstanceName"] = "Icecrown Citadel",
-			["CurDataSet"] = "Fight1",
-			["GraphWindowX"] = 0,
-			["MainWindowWidth"] = 251.4197662784027,
 			["MainWindowHeight"] = 310.8518969696999,
+			["MainWindowWidth"] = 251.4197662784027,
+			["GraphWindowX"] = 0,
 		},
 		["Vrael - Icecrown"] = {
 			["GraphWindowY"] = 0,
@@ -260,15 +260,12 @@ RecountDB = {
 			["GraphWindowY"] = 0,
 			["MainWindow"] = {
 				["Position"] = {
-					["y"] = 126.6666304670212,
+					["y"] = 126.6666304670213,
 					["h"] = 317.9999894683651,
-					["w"] = 247.0000204477846,
-					["x"] = -628.7963012898312,
+					["w"] = 247.0000029406513,
+					["x"] = -628.7963275505312,
 				},
 			},
-			["DetailWindowX"] = 160.9111434339599,
-			["LastInstanceName"] = "Icecrown Citadel",
-			["CurDataSet"] = "Fight1",
 			["Colors"] = {
 				["Bar"] = {
 					["Bar Text"] = {
@@ -277,10 +274,13 @@ RecountDB = {
 				},
 			},
 			["DetailWindowY"] = -107.7333573326952,
-			["MainWindowHeight"] = 317.6297135990283,
-			["MainWindowVis"] = false,
-			["MainWindowWidth"] = 247.3703663456547,
+			["DetailWindowX"] = 160.9111434339599,
 			["GraphWindowX"] = 0,
+			["MainWindowVis"] = false,
+			["LastInstanceName"] = "Icecrown Citadel",
+			["CurDataSet"] = "Fight1",
+			["MainWindowWidth"] = 247.3703663456547,
+			["MainWindowHeight"] = 317.6297135990283,
 		},
 		["Ulrezaj - Icecrown"] = {
 			["GraphWindowY"] = 0,
@@ -494,7 +494,7 @@ RecountDB = {
 			},
 			["DetailWindowX"] = 112.9876419471188,
 			["LastInstanceName"] = "Vault of Archavon",
-			["GraphWindowX"] = 0,
+			["DetailWindowY"] = -124.0493402990752,
 			["CurDataSet"] = "LastFightData",
 			["Colors"] = {
 				["Bar"] = {
@@ -506,7 +506,7 @@ RecountDB = {
 					},
 				},
 			},
-			["DetailWindowY"] = -124.0493402990752,
+			["GraphWindowX"] = 0,
 			["MainWindowVis"] = false,
 			["MainWindowMode"] = 5,
 			["MainWindowWidth"] = 256.148530518934,
