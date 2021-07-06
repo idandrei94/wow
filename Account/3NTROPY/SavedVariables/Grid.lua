@@ -1,5 +1,17 @@
 
 GridDB = {
+	["disabled"] = {
+		["Default"] = true,
+	},
+	["disabledModules"] = {
+		["Default"] = {
+			["GridFrame"] = true,
+			["GridRoster"] = true,
+			["GridRange"] = true,
+			["GridStatus"] = true,
+			["GridLayout"] = true,
+		},
+	},
 	["namespaces"] = {
 		["GridStatusRange"] = {
 			["profiles"] = {

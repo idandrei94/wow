@@ -40,8 +40,8 @@ GladiusDB = {
 		},
 		["Denathra - Icecrown"] = {
 			["locked"] = true,
-			["y"] = 541.654370892245,
 			["x"] = 946.3785340279685,
+			["y"] = 541.654370892245,
 		},
 		["Vhalanor - Icecrown"] = {
 			["locked"] = true,
@@ -65,8 +65,8 @@ GladiusDB = {
 		},
 		["Urgash - Icecrown"] = {
 			["locked"] = true,
-			["x"] = 1078.949820798114,
 			["y"] = 531.2111095225328,
+			["x"] = 1078.949820798114,
 		},
 		["Ulrezaj - Icecrown"] = {
 			["locked"] = true,

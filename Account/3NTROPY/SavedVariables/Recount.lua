@@ -28,15 +28,15 @@ RecountDB = {
 			["GraphWindowY"] = 0,
 			["MainWindow"] = {
 				["Position"] = {
-					["y"] = 116.2777575085598,
-					["x"] = -630.4631029301129,
+					["y"] = 152.1480529024536,
+					["x"] = -632.3889576218638,
 					["w"] = 251.0000152503544,
 					["h"] = 310.999972303168,
 				},
 			},
 			["DetailWindowX"] = -105.0000036245237,
-			["LastInstanceName"] = "Icecrown Citadel",
-			["CurDataSet"] = "Fight1",
+			["LastInstanceName"] = "Halls of Reflection",
+			["CurDataSet"] = "LastFightData",
 			["Colors"] = {
 				["Bar"] = {
 					["Bar Text"] = {
@@ -141,7 +141,9 @@ RecountDB = {
 					["h"] = 289.9999908361099,
 				},
 			},
-			["ReportLines"] = 1,
+			["DetailWindowX"] = 62.09879535193817,
+			["LastInstanceName"] = "Trial of the Crusader",
+			["CurDataSet"] = "LastFightData",
 			["Colors"] = {
 				["Bar"] = {
 					["Bar Text"] = {
@@ -153,10 +155,8 @@ RecountDB = {
 				},
 			},
 			["DetailWindowY"] = 23.44438869364712,
-			["DetailWindowX"] = 62.09879535193817,
-			["LastInstanceName"] = "Trial of the Crusader",
-			["CurDataSet"] = "LastFightData",
 			["GraphWindowX"] = 0,
+			["ReportLines"] = 1,
 			["MainWindowWidth"] = 238.9999938458702,
 			["MainWindowHeight"] = 289.9999422879386,
 		},
@@ -260,15 +260,12 @@ RecountDB = {
 			["GraphWindowY"] = 0,
 			["MainWindow"] = {
 				["Position"] = {
-					["y"] = 126.6666304670213,
+					["y"] = 160.0370472824586,
 					["h"] = 317.9999894683651,
-					["w"] = 247.0000029406513,
-					["x"] = -628.7963275505312,
+					["w"] = 247.0000204477846,
+					["x"] = -634.055645465779,
 				},
 			},
-			["DetailWindowX"] = 160.9111434339599,
-			["LastInstanceName"] = "Icecrown Citadel",
-			["CurDataSet"] = "Fight1",
 			["Colors"] = {
 				["Bar"] = {
 					["Bar Text"] = {
@@ -277,10 +274,12 @@ RecountDB = {
 				},
 			},
 			["DetailWindowY"] = -107.7333573326952,
-			["MainWindowHeight"] = 317.6297135990283,
-			["MainWindowVis"] = false,
-			["MainWindowWidth"] = 247.3703663456547,
+			["DetailWindowX"] = 160.9111434339599,
+			["LastInstanceName"] = "Utgarde Pinnacle",
+			["CurDataSet"] = "LastFightData",
 			["GraphWindowX"] = 0,
+			["MainWindowWidth"] = 247.3703663456547,
+			["MainWindowHeight"] = 317.6297135990283,
 		},
 		["Ulrezaj - Icecrown"] = {
 			["GraphWindowY"] = 0,
