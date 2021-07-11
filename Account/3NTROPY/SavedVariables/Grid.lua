@@ -1,17 +1,5 @@
 
 GridDB = {
-	["disabled"] = {
-		["Default"] = true,
-	},
-	["disabledModules"] = {
-		["Default"] = {
-			["GridFrame"] = true,
-			["GridRoster"] = true,
-			["GridRange"] = true,
-			["GridStatus"] = true,
-			["GridLayout"] = true,
-		},
-	},
 	["namespaces"] = {
 		["GridStatusRange"] = {
 			["profiles"] = {
@@ -94,18 +82,18 @@ GridDB = {
 						["range"] = false,
 						["desc"] = "More than 46 yards away",
 					},
-					["alert_range_30"] = {
-						["enable"] = false,
-						["text"] = "30 yards",
+					["alert_range_60"] = {
+						["enable"] = true,
+						["text"] = "60 yards",
 						["color"] = {
-							["a"] = 0.4545454545454546,
-							["r"] = 0.3,
-							["g"] = 0.6,
-							["b"] = 0.9,
+							["a"] = 0.8363636363636364,
+							["r"] = 0.6,
+							["g"] = 0.2,
+							["b"] = 0.8,
 						},
-						["priority"] = 83,
+						["priority"] = 86,
 						["range"] = false,
-						["desc"] = "More than 30 yards away",
+						["desc"] = "More than 60 yards away",
 					},
 					["alert_range_28"] = {
 						["enable"] = false,
@@ -120,18 +108,18 @@ GridDB = {
 						["range"] = false,
 						["desc"] = "More than 28 yards away",
 					},
-					["alert_range_60"] = {
-						["enable"] = true,
-						["text"] = "60 yards",
+					["alert_range_30"] = {
+						["enable"] = false,
+						["text"] = "30 yards",
 						["color"] = {
-							["a"] = 0.8363636363636364,
-							["r"] = 0.6,
-							["g"] = 0.2,
-							["b"] = 0.8,
+							["a"] = 0.4545454545454546,
+							["r"] = 0.3,
+							["g"] = 0.6,
+							["b"] = 0.9,
 						},
-						["priority"] = 86,
+						["priority"] = 83,
 						["range"] = false,
-						["desc"] = "More than 60 yards away",
+						["desc"] = "More than 30 yards away",
 					},
 					["alert_range_36"] = {
 						["enable"] = true,
@@ -241,9 +229,9 @@ GridDB = {
 					["layouts"] = {
 						["heroic_raid"] = "By Group 40",
 					},
-					["PosY"] = -394.0011512976028,
+					["PosY"] = -436.667959808907,
 					["layout"] = "By Group 5",
-					["PosX"] = 1192.933398522129,
+					["PosX"] = 1236.666538483195,
 				},
 			},
 		},

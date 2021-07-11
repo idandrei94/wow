@@ -311,10 +311,10 @@ RecountDB = {
 			["GraphWindowY"] = 0,
 			["MainWindow"] = {
 				["Position"] = {
-					["y"] = 145.5739492762271,
-					["h"] = 329.0000364503986,
-					["w"] = 260.0000123097031,
-					["x"] = -623.18526944333,
+					["y"] = 142.5184993295657,
+					["h"] = 329.000001436132,
+					["w"] = 260.0000298168364,
+					["x"] = -622.4074581482063,
 				},
 			},
 			["Colors"] = {
@@ -329,7 +329,7 @@ RecountDB = {
 			},
 			["DetailWindowY"] = -299.5554892351304,
 			["DetailWindowX"] = 656.2592335937816,
-			["LastInstanceName"] = "Halls of Reflection",
+			["LastInstanceName"] = "Halls of Lightning",
 			["CurDataSet"] = "LastFightData",
 			["GraphWindowX"] = 0,
 			["MainWindowWidth"] = 260.0000123097031,
@@ -508,11 +508,11 @@ RecountDB = {
 					},
 				},
 			},
-			["DetailWindowY"] = -124.0493402990752,
+			["GraphWindowX"] = 0,
 			["MainWindowVis"] = false,
 			["MainWindowMode"] = 5,
 			["MainWindowWidth"] = 256.148530518934,
-			["GraphWindowX"] = 0,
+			["DetailWindowY"] = -124.0493402990752,
 		},
 		["Gligor - Icecrown"] = {
 			["GraphWindowY"] = 0,
