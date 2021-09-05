@@ -63,7 +63,7 @@ Y: -93
 W: 225
 H: 360
 Frame: Recount_MainWindow
-FrameLevel: 29
+FrameLevel: 19
 Anchor: TOPLEFT
 X: 3
 Y: -114
