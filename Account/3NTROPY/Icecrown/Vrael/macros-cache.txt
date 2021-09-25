@@ -59,6 +59,10 @@ MACRO 16777223 "fpoly" INV_Misc_QuestionMark
 #showtooltip Polymorph
 /castrandom [target=focus] Polymorph(Rank 4),Polymorph(Turtle),Polymorph(Pig),Polymorph(Black Cat),Polymorph(Rabbit)
 END
+MACRO 16777233 "fs" INV_Misc_QuestionMark
+#showtooltip flamestrike
+/cast !flamestrike
+END
 MACRO 16777219 "ib" INV_Misc_QuestionMark
 #showtooltip ice block
 /cancelaura ice block

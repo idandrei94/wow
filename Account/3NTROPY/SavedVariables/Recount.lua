@@ -56,14 +56,14 @@ RecountDB = {
 			["GraphWindowY"] = 0,
 			["MainWindow"] = {
 				["Position"] = {
-					["y"] = 73.16661682376696,
-					["x"] = -617.2778943514261,
-					["w"] = 245.0000580607663,
+					["y"] = 147.0741005146072,
+					["x"] = -635.9814914039635,
+					["w"] = 245.0000055393664,
 					["h"] = 323.0000267394107,
 				},
 			},
 			["DetailWindowX"] = 317.267070839811,
-			["LastInstanceName"] = "The Ruby Sanctum",
+			["LastInstanceName"] = "Gundrak",
 			["CurDataSet"] = "LastFightData",
 			["Colors"] = {
 				["Bar"] = {
@@ -76,10 +76,10 @@ RecountDB = {
 				},
 			},
 			["DetailWindowY"] = -59.9999876902969,
-			["MainWindowHeight"] = 323.4446028824811,
-			["MainWindowWidth"] = 244.5308668882732,
-			["ReportLines"] = 1,
 			["GraphWindowX"] = 0,
+			["ReportLines"] = 1,
+			["MainWindowWidth"] = 244.5308668882732,
+			["MainWindowHeight"] = 323.4446028824811,
 		},
 		["Nalar - Icecrown"] = {
 			["GraphWindowY"] = 0,
@@ -92,7 +92,7 @@ RecountDB = {
 				},
 			},
 			["DetailWindowX"] = 867.5926716507743,
-			["LastInstanceName"] = "Vault of Archavon",
+			["LastInstanceName"] = "The Oculus",
 			["RealtimeWindows"] = {
 				["Realtime_Nalar_DAMAGE"] = {
 					"Nalar", -- [1]
@@ -115,7 +115,7 @@ RecountDB = {
 					false, -- [8]
 				},
 			},
-			["CurDataSet"] = "CurrentFightData",
+			["CurDataSet"] = "LastFightData",
 			["Colors"] = {
 				["Bar"] = {
 					["Bar Text"] = {
@@ -276,7 +276,7 @@ RecountDB = {
 			["DetailWindowY"] = -107.7333573326952,
 			["DetailWindowX"] = 160.9111434339599,
 			["LastInstanceName"] = "The Nexus",
-			["CurDataSet"] = "CurrentFightData",
+			["CurDataSet"] = "LastFightData",
 			["GraphWindowX"] = 0,
 			["MainWindowWidth"] = 247.3703663456547,
 			["MainWindowHeight"] = 317.6297135990283,
