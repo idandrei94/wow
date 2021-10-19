@@ -9,8 +9,8 @@ H: 100
 Frame: LootFrame
 FrameLevel: 8
 Anchor: CENTER
-X: 285
-Y: -9
+X: 95
+Y: -3
 W: 256
 H: 256
 Frame: WorldMapScreenAnchor
@@ -42,10 +42,10 @@ Y: -3
 W: 328
 H: 457
 Frame: Recount_MainWindow
-FrameLevel: 26
+FrameLevel: 18
 Anchor: TOPLEFT
-X: -2
-Y: -104
+X: -1
+Y: -106
 W: 261
 H: 337
 Frame: Recount_DetailWindow
