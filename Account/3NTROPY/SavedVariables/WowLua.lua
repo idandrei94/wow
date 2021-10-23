@@ -1,11 +1,11 @@
 
 WowLua_DB = {
-	["currentPage"] = 5,
+	["currentPage"] = 1,
 	["fontSize"] = 14,
 	["pages"] = {
 		{
 			["name"] = "autoflood",
-			["content"] = "delay = 60\nenabled = true\n\nflood_msg = \"WTB Full (all recipe) tailoring, my mats + tip\"\nif (flood_frame == nil) then\n   flood_frame = CreateFrame(\"Frame\");\nend\n\nflood_frame:SetScript(\"OnUpdate\", function(self, sinceLastUpdate) flood_frame:onUpdate(sinceLastUpdate); end);\n\n\nfunction flood_frame:onUpdate(sinceLastUpdate)\n   self.sinceLastUpdate = (self.sinceLastUpdate or 0) + sinceLastUpdate;\n   if ( enabled and self.sinceLastUpdate >= delay ) then -- in seconds\n      -- do stuff here\n      self.sinceLastUpdate = 0;\n      SendChatMessage(flood_msg,CHANNEL,nil,GetChannelName(\"Global\"))\n      SendChatMessage(flood_msg,CHANNEL,nil,GetChannelName(\"Trade\"))\n   end\nend",
+			["content"] = "delay = 60\nenabled = true\n\nlocal _, alch = GetSpellLink(\"Alchemy\")\n\nflood_msg = \"WTS free \"..alch..\" your mats only\"\nif (flood_frame == nil) then\n   flood_frame = CreateFrame(\"Frame\");\nend\n\nflood_frame:SetScript(\"OnUpdate\", function(self, sinceLastUpdate) flood_frame:onUpdate(sinceLastUpdate); end);\n\n\nfunction flood_frame:onUpdate(sinceLastUpdate)\n   self.sinceLastUpdate = (self.sinceLastUpdate or 0) + sinceLastUpdate;\n   if ( enabled and self.sinceLastUpdate >= delay ) then -- in seconds\n      -- do stuff here\n      self.sinceLastUpdate = 0;\n      SendChatMessage(flood_msg,CHANNEL,nil,GetChannelName(\"Global\"))\n      SendChatMessage(flood_msg,CHANNEL,nil,GetChannelName(\"Trade\"))\n   end\nend",
 		}, -- [1]
 		{
 			["name"] = "functions",

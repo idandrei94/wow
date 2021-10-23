@@ -47,6 +47,11 @@ MACRO 16777228 "renew" INV_Misc_QuestionMark
 #showtooltip
 /castsequence reset=10 prayer of mending, renew,  !shadowform
 END
+MACRO 16777233 "ress" INV_Misc_QuestionMark
+#showtooltip
+/say Tia mi aven Moridin isainde vadin! - The grave is no bar to my call!
+/cast Resurrection
+END
 MACRO 16777217 "sf" INV_Misc_QuestionMark
 #showtooltip shadowform
 /cast !shadowform

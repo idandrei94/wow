@@ -28,14 +28,14 @@ RecountDB = {
 			["GraphWindowY"] = 0,
 			["MainWindow"] = {
 				["Position"] = {
-					["y"] = 148.7222220436555,
-					["x"] = -633.7223096477093,
+					["y"] = 148.7222220436556,
+					["x"] = -633.7223709226759,
 					["w"] = 250.9999802360878,
 					["h"] = 311.0000073174346,
 				},
 			},
 			["DetailWindowX"] = -105.0000036245237,
-			["LastInstanceName"] = "Pit of Saron",
+			["LastInstanceName"] = "Gundrak",
 			["CurDataSet"] = "LastFightData",
 			["Colors"] = {
 				["Bar"] = {
@@ -49,7 +49,6 @@ RecountDB = {
 			},
 			["DetailWindowY"] = -10.00000013677448,
 			["MainWindowHeight"] = 310.8518969696999,
-			["MainWindowVis"] = false,
 			["MainWindowWidth"] = 251.4197662784027,
 			["GraphWindowX"] = 0,
 		},
@@ -64,7 +63,7 @@ RecountDB = {
 				},
 			},
 			["DetailWindowX"] = 317.267070839811,
-			["LastInstanceName"] = "Scarlet Monastery",
+			["LastInstanceName"] = "Icecrown Citadel",
 			["CurDataSet"] = "LastFightData",
 			["Colors"] = {
 				["Bar"] = {
@@ -93,7 +92,7 @@ RecountDB = {
 				},
 			},
 			["DetailWindowX"] = 867.5926716507743,
-			["LastInstanceName"] = "Trial of the Crusader",
+			["LastInstanceName"] = "Pit of Saron",
 			["RealtimeWindows"] = {
 				["Realtime_Nalar_DAMAGE"] = {
 					"Nalar", -- [1]
@@ -128,22 +127,22 @@ RecountDB = {
 				},
 			},
 			["DetailWindowY"] = -152.7036942991919,
-			["MainWindowHeight"] = 345.0444837792649,
-			["MainWindowWidth"] = 243.3555780154447,
 			["GraphWindowX"] = 0,
+			["MainWindowWidth"] = 243.3555780154447,
+			["MainWindowHeight"] = 345.0444837792649,
 		},
 		["Denathra - Icecrown"] = {
 			["GraphWindowY"] = 0,
 			["MainWindow"] = {
 				["Position"] = {
-					["y"] = 153.0000900659944,
-					["x"] = -634.6483801012008,
-					["w"] = 238.9999433069785,
+					["y"] = 147.3333461445428,
+					["x"] = -631.462961573689,
+					["w"] = 239.0000133355117,
 					["h"] = 289.9999908361099,
 				},
 			},
 			["DetailWindowX"] = 62.09879535193817,
-			["LastInstanceName"] = "Scarlet Monastery",
+			["LastInstanceName"] = "The Forge of Souls",
 			["CurDataSet"] = "LastFightData",
 			["Colors"] = {
 				["Bar"] = {
@@ -261,12 +260,15 @@ RecountDB = {
 			["GraphWindowY"] = 0,
 			["MainWindow"] = {
 				["Position"] = {
-					["y"] = 165.2220999382395,
+					["y"] = 146.7036145596706,
 					["h"] = 317.9999894683651,
 					["w"] = 247.0000204477846,
-					["x"] = -597.8333253890157,
+					["x"] = -634.7593096745854,
 				},
 			},
+			["DetailWindowX"] = 160.9111434339599,
+			["LastInstanceName"] = "The Nexus",
+			["CurDataSet"] = "LastFightData",
 			["Colors"] = {
 				["Bar"] = {
 					["Bar Text"] = {
@@ -275,12 +277,9 @@ RecountDB = {
 				},
 			},
 			["DetailWindowY"] = -107.7333573326952,
-			["DetailWindowX"] = 160.9111434339599,
-			["LastInstanceName"] = "Azjol-Nerub",
-			["CurDataSet"] = "LastFightData",
-			["GraphWindowX"] = 0,
-			["MainWindowWidth"] = 247.3703663456547,
 			["MainWindowHeight"] = 317.6297135990283,
+			["MainWindowWidth"] = 247.3703663456547,
+			["GraphWindowX"] = 0,
 		},
 		["Ulrezaj - Icecrown"] = {
 			["GraphWindowY"] = 0,
@@ -332,9 +331,9 @@ RecountDB = {
 				},
 			},
 			["DetailWindowY"] = -299.5554892351304,
-			["MainWindowHeight"] = 328.7999999452902,
-			["MainWindowWidth"] = 260.0000123097031,
 			["GraphWindowX"] = 0,
+			["MainWindowWidth"] = 260.0000123097031,
+			["MainWindowHeight"] = 328.7999999452902,
 		},
 		["Izanagi - Icecrown"] = {
 			["GraphWindowY"] = 0,
@@ -441,9 +440,6 @@ RecountDB = {
 					["h"] = 336.9999910412716,
 				},
 			},
-			["DetailWindowX"] = 0,
-			["LastInstanceName"] = "Trial of the Champion",
-			["CurDataSet"] = "LastFightData",
 			["Colors"] = {
 				["Bar"] = {
 					["Bar Text"] = {
@@ -455,9 +451,12 @@ RecountDB = {
 				},
 			},
 			["DetailWindowY"] = 3.999978116083373,
-			["MainWindowHeight"] = 337.3333968878745,
-			["MainWindowWidth"] = 260.8889019888445,
+			["DetailWindowX"] = 0,
+			["LastInstanceName"] = "Icecrown Citadel",
+			["CurDataSet"] = "LastFightData",
 			["GraphWindowX"] = 0,
+			["MainWindowWidth"] = 260.8889019888445,
+			["MainWindowHeight"] = 337.3333968878745,
 		},
 		["Rakhnis - Icecrown"] = {
 			["GraphWindowY"] = 0,
@@ -575,7 +574,7 @@ RecountDB = {
 				},
 			},
 			["DetailWindowX"] = 825.6666588477257,
-			["LastInstanceName"] = "Scarlet Monastery",
+			["LastInstanceName"] = "Utgarde Pinnacle",
 			["CurDataSet"] = "LastFightData",
 			["Colors"] = {
 				["Bar"] = {
@@ -586,7 +585,6 @@ RecountDB = {
 			},
 			["DetailWindowY"] = -167.2591599407247,
 			["GraphWindowX"] = 0,
-			["MainWindowVis"] = false,
 			["MainWindowWidth"] = 253.0123901948838,
 			["MainWindowHeight"] = 329.1730069274222,
 		},

@@ -56,10 +56,6 @@ MACRO 16777229 "sdrain" INV_Misc_QuestionMark
 #showtooldop drain soul
 /cast [nochanneling] drain soul
 END
-MACRO 16777231 "sf" INV_Misc_QuestionMark
-#showtooltip shadowfury
-/cast !shadowfury
-END
 MACRO 16777218 "sf" INV_Misc_QuestionMark
 #showtooltip soul fire
 /startattack
@@ -67,6 +63,10 @@ MACRO 16777218 "sf" INV_Misc_QuestionMark
 /petattack
 /cast shadow cleave
 /cast soul fire
+END
+MACRO 16777231 "sf" INV_Misc_QuestionMark
+#showtooltip shadowfury
+/cast !shadowfury
 END
 MACRO 16777226 "stone" INV_Misc_QuestionMark
 #showtooltip
