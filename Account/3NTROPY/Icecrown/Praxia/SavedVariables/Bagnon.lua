@@ -21,9 +21,9 @@ BagnonFrameSettings = {
 			["y"] = -134.9999489891021,
 		},
 		["bank"] = {
+			["point"] = "TOPLEFT",
 			["y"] = -47.18522567549667,
 			["x"] = 191.7899800521261,
-			["point"] = "TOPLEFT",
 		},
 	},
 	["version"] = "2.13.3",
