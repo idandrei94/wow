@@ -28,12 +28,15 @@ RecountDB = {
 			["GraphWindowY"] = 0,
 			["MainWindow"] = {
 				["Position"] = {
-					["y"] = 127.9999737393,
-					["x"] = -635.2037282534562,
+					["y"] = 128.0000087535667,
+					["x"] = -635.2037982819895,
 					["w"] = 251.0000152503544,
 					["h"] = 310.999972303168,
 				},
 			},
+			["DetailWindowX"] = -105.0000036245237,
+			["LastInstanceName"] = "Pit of Saron",
+			["CurDataSet"] = "LastFightData",
 			["Colors"] = {
 				["Bar"] = {
 					["Bar Text"] = {
@@ -45,12 +48,9 @@ RecountDB = {
 				},
 			},
 			["DetailWindowY"] = -10.00000013677448,
-			["DetailWindowX"] = -105.0000036245237,
-			["LastInstanceName"] = "Icecrown Citadel",
-			["CurDataSet"] = "CurrentFightData",
-			["GraphWindowX"] = 0,
-			["MainWindowWidth"] = 251.4197662784027,
 			["MainWindowHeight"] = 310.8518969696999,
+			["MainWindowWidth"] = 251.4197662784027,
+			["GraphWindowX"] = 0,
 		},
 		["Vrael - Icecrown"] = {
 			["GraphWindowY"] = 0,
@@ -260,10 +260,10 @@ RecountDB = {
 			["GraphWindowY"] = 0,
 			["MainWindow"] = {
 				["Position"] = {
-					["y"] = 146.6666394941367,
+					["y"] = 146.6666044798703,
 					["h"] = 317.9999894683651,
 					["w"] = 247.0000029406513,
-					["x"] = -635.0185290438212,
+					["x"] = -635.0185990723545,
 				},
 			},
 			["DetailWindowX"] = 75.37030972102041,
@@ -317,9 +317,6 @@ RecountDB = {
 					["x"] = -625.4815969596675,
 				},
 			},
-			["DetailWindowX"] = 656.2592335937816,
-			["LastInstanceName"] = "Icecrown Citadel",
-			["CurDataSet"] = "LastFightData",
 			["Colors"] = {
 				["Bar"] = {
 					["Bar Text"] = {
@@ -331,9 +328,12 @@ RecountDB = {
 				},
 			},
 			["DetailWindowY"] = -299.5554892351304,
-			["MainWindowHeight"] = 328.7999999452902,
-			["MainWindowWidth"] = 260.0000123097031,
+			["DetailWindowX"] = 656.2592335937816,
+			["LastInstanceName"] = "Icecrown Citadel",
+			["CurDataSet"] = "CurrentFightData",
 			["GraphWindowX"] = 0,
+			["MainWindowWidth"] = 260.0000123097031,
+			["MainWindowHeight"] = 328.7999999452902,
 		},
 		["Kalaam - Icecrown"] = {
 			["GraphWindowY"] = 0,
@@ -546,7 +546,7 @@ RecountDB = {
 				},
 			},
 			["DetailWindowX"] = 0,
-			["LastInstanceName"] = "Icecrown Citadel",
+			["LastInstanceName"] = "The Nexus",
 			["CurDataSet"] = "LastFightData",
 			["Colors"] = {
 				["Bar"] = {

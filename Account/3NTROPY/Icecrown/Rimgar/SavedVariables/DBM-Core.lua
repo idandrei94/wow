@@ -8,16 +8,16 @@ DBM_SavedOptions = {
 	["HPFramePoint"] = "CENTER",
 	["HideBossEmoteFrame"] = false,
 	["SpecialWarningSound"] = "Sound\\Spells\\PVPFlagTaken.wav",
-	["AutoRespond"] = true,
+	["HealthFrameLocked"] = false,
 	["HealthFrameGrowUp"] = false,
 	["StatusEnabled"] = true,
 	["RangeFrameFrames"] = "radar",
 	["RangeFrameRadarX"] = 100,
 	["ShowBigBrotherOnCombatStart"] = false,
-	["RangeFrameY"] = 130.5996692382776,
 	["RangeFrameRadarY"] = -100,
+	["RangeFrameY"] = 130.5996692382776,
 	["BlockVersionUpdatePopup"] = true,
-	["RangeFramePoint"] = "BOTTOM",
+	["ArrowPoint"] = "TOP",
 	["WarningColors"] = {
 		{
 			["b"] = 0.9411764705882353,
@@ -45,12 +45,12 @@ DBM_SavedOptions = {
 	["PullDifficultyAnnounce"] = true,
 	["SpecialWarningFont"] = "Fonts\\FRIZQT__.TTF",
 	["HealthFrameHeight"] = 32,
-	["RangeFrameUpdates"] = "Average",
-	["ArrowPoint"] = "TOP",
+	["RangeFramePoint"] = "BOTTOM",
+	["PullTimerCountdown"] = true,
 	["ShowFakedRaidWarnings"] = false,
 	["LatencyThreshold"] = 250,
 	["DontSendBossAnnounces"] = false,
-	["RangeFrameSound1"] = "none",
+	["RangeFrameLocked"] = false,
 	["SpecialWarningFontColor2"] = {
 		["b"] = 0,
 		["g"] = 1,
@@ -61,7 +61,11 @@ DBM_SavedOptions = {
 	["HealthFrameBarTexture"] = "Interface\\PaperDollInfoFrame\\UI-Character-Skills-Bar",
 	["ArrowPosY"] = -150,
 	["SpecialWarningPoint"] = "CENTER",
-	["RangeFrameLocked"] = false,
+	["SpecialWarningFontColor"] = {
+		0, -- [1]
+		0, -- [2]
+		1, -- [3]
+	},
 	["RaidWarningSound"] = "Sound\\Doodad\\BellTollNightElf.wav",
 	["CombatlogFixEnabled"] = true,
 	["WarningIconLeft"] = true,
@@ -80,20 +84,16 @@ DBM_SavedOptions = {
 	["HealthFrameWidth"] = 200,
 	["RangeFrameSound2"] = "none",
 	["DontSendBossWhispers"] = false,
-	["SpecialWarningFontColor"] = {
-		0, -- [1]
-		0, -- [2]
-		1, -- [3]
-	},
+	["RangeFrameSound1"] = "none",
 	["HPFrameY"] = -57.1404294349347,
 	["FixCLEUOnCombatStart"] = false,
 	["RangeFrameRadarPoint"] = "CENTER",
 	["ShowMinimapButton"] = true,
 	["HPFrameX"] = -195.541093447675,
-	["PullTimerCountdown"] = true,
+	["RangeFrameUpdates"] = "Average",
 	["SpamBlockBossWhispers"] = false,
-	["HealthFrameLocked"] = false,
 	["WarningIconRight"] = true,
+	["AutoRespond"] = true,
 }
 DBT_SavedOptions = {
 	["DBM"] = {
