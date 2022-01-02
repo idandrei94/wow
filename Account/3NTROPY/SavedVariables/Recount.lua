@@ -85,13 +85,26 @@ RecountDB = {
 			["GraphWindowY"] = 0,
 			["MainWindow"] = {
 				["Position"] = {
-					["y"] = 137.3148540982181,
+					["y"] = 137.3148891124848,
 					["h"] = 345.0000156606778,
 					["w"] = 243.0000256452148,
-					["x"] = -638.3888973043187,
+					["x"] = -638.3889760864186,
 				},
 			},
+			["Colors"] = {
+				["Bar"] = {
+					["Bar Text"] = {
+						["a"] = 1,
+					},
+					["Total Bar"] = {
+						["a"] = 1,
+					},
+				},
+			},
+			["DetailWindowY"] = -152.7036942991919,
 			["DetailWindowX"] = 867.5926716507743,
+			["GraphWindowX"] = 0,
+			["MainWindowVis"] = false,
 			["LastInstanceName"] = "Trial of the Crusader",
 			["RealtimeWindows"] = {
 				["Realtime_Nalar_DAMAGE"] = {
@@ -116,18 +129,6 @@ RecountDB = {
 				},
 			},
 			["CurDataSet"] = "LastFightData",
-			["Colors"] = {
-				["Bar"] = {
-					["Bar Text"] = {
-						["a"] = 1,
-					},
-					["Total Bar"] = {
-						["a"] = 1,
-					},
-				},
-			},
-			["DetailWindowY"] = -152.7036942991919,
-			["GraphWindowX"] = 0,
 			["MainWindowWidth"] = 243.3555780154447,
 			["MainWindowHeight"] = 345.0444837792649,
 		},
@@ -317,6 +318,9 @@ RecountDB = {
 					["x"] = -625.4815969596675,
 				},
 			},
+			["DetailWindowX"] = 656.2592335937816,
+			["LastInstanceName"] = "Icecrown Citadel",
+			["CurDataSet"] = "LastFightData",
 			["Colors"] = {
 				["Bar"] = {
 					["Bar Text"] = {
@@ -328,12 +332,10 @@ RecountDB = {
 				},
 			},
 			["DetailWindowY"] = -299.5554892351304,
-			["DetailWindowX"] = 656.2592335937816,
-			["LastInstanceName"] = "Icecrown Citadel",
-			["CurDataSet"] = "CurrentFightData",
+			["MainWindowHeight"] = 328.7999999452902,
 			["GraphWindowX"] = 0,
 			["MainWindowWidth"] = 260.0000123097031,
-			["MainWindowHeight"] = 328.7999999452902,
+			["MainWindowVis"] = false,
 		},
 		["Kalaam - Icecrown"] = {
 			["GraphWindowY"] = 0,
@@ -492,7 +494,7 @@ RecountDB = {
 			},
 			["DetailWindowX"] = 112.9876419471188,
 			["LastInstanceName"] = "Vault of Archavon",
-			["DetailWindowY"] = -124.0493402990752,
+			["GraphWindowX"] = 0,
 			["CurDataSet"] = "LastFightData",
 			["Colors"] = {
 				["Bar"] = {
@@ -504,7 +506,7 @@ RecountDB = {
 					},
 				},
 			},
-			["GraphWindowX"] = 0,
+			["DetailWindowY"] = -124.0493402990752,
 			["MainWindowVis"] = false,
 			["MainWindowMode"] = 5,
 			["MainWindowWidth"] = 256.148530518934,
