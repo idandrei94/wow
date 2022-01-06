@@ -40,8 +40,8 @@ GladiusDB = {
 		},
 		["Denathra - Icecrown"] = {
 			["locked"] = true,
-			["y"] = 541.654370892245,
 			["x"] = 946.3785340279685,
+			["y"] = 541.654370892245,
 		},
 		["Vhalanor - Icecrown"] = {
 			["locked"] = true,
@@ -91,8 +91,8 @@ GladiusDB = {
 		},
 		["Kalaam - Icecrown"] = {
 			["locked"] = true,
-			["x"] = 1094.593424388484,
 			["y"] = 553.2556640183522,
+			["x"] = 1094.593424388484,
 		},
 		["Nalar - Icecrown"] = {
 			["locked"] = true,

@@ -1,3 +1,7 @@
 GearScore: disabled
 GearScoreLite: enabled
 XPerl_TeamSpeak: disabled
+Icicle: enabled
+Gladius: enabled
+MagicRunes: disabled
+MageNuggets: enabled
