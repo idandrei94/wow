@@ -38,7 +38,7 @@ MACRO 16777224 "meta" INV_Misc_QuestionMark
 END
 MACRO 16777220 "mount" INV_Misc_QuestionMark
 #showtootlip
-/userandom [flyable] Bloodbathed Frostbrood Vanquisher,X-53 Touring Rocket,Vengeful Nether Drake;Dreadsteed
+/userandom [flyable] Bloodbathed Frostbrood Vanquisher,X-53 Touring Rocket,Vengeful Nether Drake,Invincible;Dreadsteed,Invincible
 END
 MACRO 16777228 "rain" INV_Misc_QuestionMark
 #showtooltip rain of fire
