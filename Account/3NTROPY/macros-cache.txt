@@ -20,7 +20,7 @@ MACRO 82 "fragment" INV_Misc_QuestionMark
 /cancelaura soul fragment
 END
 MACRO 8 "freeze" Spell_Frost_SummonWaterElemental_2
-#showtooltip Summon Water Elemental
+#showtooltip 
 /cast [nopet] Summon Water Elemental
 /stop macro [nopet]
 /petpassive

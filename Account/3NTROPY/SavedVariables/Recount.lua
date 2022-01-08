@@ -35,8 +35,8 @@ RecountDB = {
 				},
 			},
 			["DetailWindowX"] = -105.0000036245237,
-			["LastInstanceName"] = "Violet Hold",
-			["CurDataSet"] = "LastFightData",
+			["LastInstanceName"] = "Vault of Archavon",
+			["CurDataSet"] = "CurrentFightData",
 			["Colors"] = {
 				["Bar"] = {
 					["Bar Text"] = {
@@ -48,22 +48,22 @@ RecountDB = {
 				},
 			},
 			["DetailWindowY"] = -10.00000013677448,
-			["MainWindowHeight"] = 310.8518969696999,
-			["MainWindowWidth"] = 251.4197662784027,
 			["GraphWindowX"] = 0,
+			["MainWindowWidth"] = 251.4197662784027,
+			["MainWindowHeight"] = 310.8518969696999,
 		},
 		["Vrael - Icecrown"] = {
 			["GraphWindowY"] = 0,
 			["MainWindow"] = {
 				["Position"] = {
-					["y"] = 147.0740655003405,
-					["x"] = -635.9815351717966,
-					["w"] = 245.0000055393664,
+					["y"] = 138.277746429827,
+					["x"] = -634.2408009075808,
+					["w"] = 245.000040553633,
 					["h"] = 323.0000267394107,
 				},
 			},
 			["DetailWindowX"] = 317.267070839811,
-			["LastInstanceName"] = "Gundrak",
+			["LastInstanceName"] = "Halls of Lightning",
 			["CurDataSet"] = "LastFightData",
 			["Colors"] = {
 				["Bar"] = {
@@ -76,10 +76,10 @@ RecountDB = {
 				},
 			},
 			["DetailWindowY"] = -59.9999876902969,
-			["GraphWindowX"] = 0,
-			["ReportLines"] = 1,
-			["MainWindowWidth"] = 244.5308668882732,
 			["MainWindowHeight"] = 323.4446028824811,
+			["MainWindowWidth"] = 244.5308668882732,
+			["ReportLines"] = 1,
+			["GraphWindowX"] = 0,
 		},
 		["Nalar - Icecrown"] = {
 			["GraphWindowY"] = 0,
@@ -88,11 +88,23 @@ RecountDB = {
 					["y"] = 137.3148891124848,
 					["h"] = 345.0000156606778,
 					["w"] = 243.0000256452148,
-					["x"] = -638.3890242310351,
+					["x"] = -638.3891161434849,
 				},
 			},
+			["Colors"] = {
+				["Bar"] = {
+					["Bar Text"] = {
+						["a"] = 1,
+					},
+					["Total Bar"] = {
+						["a"] = 1,
+					},
+				},
+			},
+			["DetailWindowY"] = -152.7036942991919,
 			["DetailWindowX"] = 867.5926716507743,
-			["LastInstanceName"] = "Vault of Archavon",
+			["GraphWindowX"] = 0,
+			["LastInstanceName"] = "Drak'Tharon Keep",
 			["RealtimeWindows"] = {
 				["Realtime_Nalar_DAMAGE"] = {
 					"Nalar", -- [1]
@@ -116,18 +128,6 @@ RecountDB = {
 				},
 			},
 			["CurDataSet"] = "LastFightData",
-			["Colors"] = {
-				["Bar"] = {
-					["Bar Text"] = {
-						["a"] = 1,
-					},
-					["Total Bar"] = {
-						["a"] = 1,
-					},
-				},
-			},
-			["DetailWindowY"] = -152.7036942991919,
-			["GraphWindowX"] = 0,
 			["MainWindowWidth"] = 243.3555780154447,
 			["MainWindowHeight"] = 345.0444837792649,
 		},
@@ -260,23 +260,26 @@ RecountDB = {
 			["GraphWindowY"] = 0,
 			["MainWindow"] = {
 				["Position"] = {
-					["y"] = 146.6666044798703,
+					["y"] = 146.6665694656036,
 					["h"] = 317.9999894683651,
 					["w"] = 247.0000029406513,
-					["x"] = -635.0186428401877,
+					["x"] = -635.0186078259212,
 				},
 			},
-			["DetailWindowX"] = 75.37030972102041,
-			["LastInstanceName"] = "Trial of the Crusader",
-			["CurDataSet"] = "OverallData",
+			["DetailWindowX"] = 74.99999883741693,
+			["LastInstanceName"] = "Vault of Archavon",
+			["CurDataSet"] = "LastFightData",
 			["Colors"] = {
 				["Bar"] = {
 					["Bar Text"] = {
 						["a"] = 1,
 					},
+					["Total Bar"] = {
+						["a"] = 1,
+					},
 				},
 			},
-			["DetailWindowY"] = -194.7777824357086,
+			["DetailWindowY"] = 59.00000212000442,
 			["GraphWindowX"] = 0,
 			["MainWindowWidth"] = 247.3703663456547,
 			["MainWindowHeight"] = 317.6297135990283,
@@ -318,7 +321,7 @@ RecountDB = {
 				},
 			},
 			["DetailWindowX"] = 656.2592335937816,
-			["LastInstanceName"] = "Pit of Saron",
+			["LastInstanceName"] = "Trial of the Crusader",
 			["CurDataSet"] = "LastFightData",
 			["Colors"] = {
 				["Bar"] = {
@@ -332,7 +335,6 @@ RecountDB = {
 			},
 			["DetailWindowY"] = -299.5554892351304,
 			["MainWindowHeight"] = 328.7999999452902,
-			["MainWindowVis"] = false,
 			["MainWindowWidth"] = 260.0000123097031,
 			["GraphWindowX"] = 0,
 		},
@@ -508,11 +510,11 @@ RecountDB = {
 					},
 				},
 			},
-			["DetailWindowY"] = -124.0493402990752,
+			["GraphWindowX"] = 0,
 			["MainWindowVis"] = false,
 			["MainWindowMode"] = 5,
 			["MainWindowWidth"] = 256.148530518934,
-			["GraphWindowX"] = 0,
+			["DetailWindowY"] = -124.0493402990752,
 		},
 		["Gligor - Icecrown"] = {
 			["GraphWindowY"] = 0,
@@ -574,6 +576,9 @@ RecountDB = {
 					["x"] = -633.4630771481236,
 				},
 			},
+			["DetailWindowX"] = 825.6666588477257,
+			["LastInstanceName"] = "Trial of the Crusader",
+			["CurDataSet"] = "LastFightData",
 			["Colors"] = {
 				["Bar"] = {
 					["Bar Text"] = {
@@ -582,12 +587,9 @@ RecountDB = {
 				},
 			},
 			["DetailWindowY"] = -167.2591599407247,
-			["DetailWindowX"] = 825.6666588477257,
-			["LastInstanceName"] = "Utgarde Pinnacle",
-			["CurDataSet"] = "CurrentFightData",
-			["GraphWindowX"] = 0,
-			["MainWindowWidth"] = 253.0123901948838,
 			["MainWindowHeight"] = 329.1730069274222,
+			["MainWindowWidth"] = 253.0123901948838,
+			["GraphWindowX"] = 0,
 		},
 	},
 }

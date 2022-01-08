@@ -91,13 +91,13 @@ GladiusDB = {
 		},
 		["Kalaam - Icecrown"] = {
 			["locked"] = true,
-			["y"] = 553.2556640183522,
 			["x"] = 1094.593424388484,
+			["y"] = 553.2556640183522,
 		},
 		["Nalar - Icecrown"] = {
 			["locked"] = true,
-			["x"] = 1091.038524034304,
 			["y"] = 556.8110685779587,
+			["x"] = 1091.038524034304,
 		},
 		["Mirceabravo - Icecrown"] = {
 			["locked"] = true,

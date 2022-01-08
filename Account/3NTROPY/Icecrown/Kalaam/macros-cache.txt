@@ -65,3 +65,8 @@ MACRO 16777227 "wep" INV_Misc_QuestionMark
 /equipslot 17 Lungbreaker
 /equipslot 17 Scourgeborne Waraxe
 END
+MACRO 16777231 "wep2" INV_Misc_QuestionMark
+#showtooltip 17
+/equipslot 17 Warglaive of Azzinoth
+/equipslot 17 Scourgeborne Waraxe
+END
