@@ -35,8 +35,8 @@ RecountDB = {
 				},
 			},
 			["DetailWindowX"] = -105.0000036245237,
-			["LastInstanceName"] = "Icecrown Citadel",
-			["CurDataSet"] = "CurrentFightData",
+			["LastInstanceName"] = "Trial of the Crusader",
+			["CurDataSet"] = "LastFightData",
 			["Colors"] = {
 				["Bar"] = {
 					["Bar Text"] = {
@@ -267,7 +267,7 @@ RecountDB = {
 				},
 			},
 			["DetailWindowX"] = 74.99999883741693,
-			["LastInstanceName"] = "Pit of Saron",
+			["LastInstanceName"] = "Trial of the Crusader",
 			["CurDataSet"] = "LastFightData",
 			["Colors"] = {
 				["Bar"] = {
@@ -332,7 +332,7 @@ RecountDB = {
 			},
 			["DetailWindowY"] = -299.5554892351304,
 			["DetailWindowX"] = 656.2592335937816,
-			["LastInstanceName"] = "Halls of Reflection",
+			["LastInstanceName"] = "Violet Hold",
 			["CurDataSet"] = "LastFightData",
 			["GraphWindowX"] = 0,
 			["MainWindowWidth"] = 260.0000123097031,
@@ -495,7 +495,7 @@ RecountDB = {
 			},
 			["DetailWindowX"] = 112.9876419471188,
 			["LastInstanceName"] = "Vault of Archavon",
-			["GraphWindowX"] = 0,
+			["DetailWindowY"] = -124.0493402990752,
 			["CurDataSet"] = "LastFightData",
 			["Colors"] = {
 				["Bar"] = {
@@ -507,7 +507,7 @@ RecountDB = {
 					},
 				},
 			},
-			["DetailWindowY"] = -124.0493402990752,
+			["GraphWindowX"] = 0,
 			["MainWindowVis"] = false,
 			["MainWindowMode"] = 5,
 			["MainWindowWidth"] = 256.148530518934,

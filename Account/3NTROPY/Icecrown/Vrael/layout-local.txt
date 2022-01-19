@@ -181,3 +181,10 @@ X: -3
 Y: -15
 W: 831
 H: 503
+Frame: GridLayoutFrame
+FrameLevel: 0
+Anchor: RIGHT
+X: -259
+Y: -89
+W: 57
+H: 56
