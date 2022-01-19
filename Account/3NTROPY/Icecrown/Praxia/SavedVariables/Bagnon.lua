@@ -2,15 +2,15 @@
 BagnonFrameSettings = {
 	["frames"] = {
 		["inventory"] = {
+			["y"] = 113.8526518964363,
+			["x"] = -112.9802539368652,
+			["itemFrameColumns"] = 15,
 			["hiddenBags"] = {
 				nil, -- [1]
 				nil, -- [2]
 				nil, -- [3]
 				true, -- [4]
 			},
-			["itemFrameColumns"] = 15,
-			["y"] = 113.8526518964363,
-			["x"] = -112.9802539368652,
 		},
 		["keys"] = {
 			["y"] = 149.9999976748339,
@@ -21,9 +21,9 @@ BagnonFrameSettings = {
 			["y"] = -134.9999489891021,
 		},
 		["bank"] = {
-			["point"] = "TOPLEFT",
 			["y"] = -47.18522567549667,
 			["x"] = 191.7899800521261,
+			["point"] = "TOPLEFT",
 		},
 	},
 	["version"] = "2.13.3",
