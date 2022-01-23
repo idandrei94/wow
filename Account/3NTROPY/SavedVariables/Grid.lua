@@ -1,6 +1,13 @@
 
 GridDB = {
 	["namespaces"] = {
+		["GridRoster"] = {
+			["profiles"] = {
+				["Default"] = {
+					["party_state"] = "heroic_raid",
+				},
+			},
+		},
 		["GridStatusRange"] = {
 			["profiles"] = {
 				["Default"] = {
@@ -230,8 +237,8 @@ GridDB = {
 						["heroic_raid"] = "By Group 40",
 					},
 					["PosY"] = -438.3846217193566,
-					["layout"] = "By Group 5",
-					["PosX"] = 1031.100221689949,
+					["layout"] = "By Group 40",
+					["PosX"] = 1031.100347741306,
 				},
 			},
 		},
