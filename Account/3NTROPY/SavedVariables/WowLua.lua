@@ -31,7 +31,7 @@ WowLua_DB = {
 		}, -- [6]
 		{
 			["name"] = "res",
-			["content"] = "/run SetCVar(\"gxWindow\",1-GetCVar(\"gxWindow\"))SetCVar(\"gxMaximize\",0)RestartGx()",
+			["content"] = "SetCVar(\"gxWindow\",1-GetCVar(\"gxWindow\"))SetCVar(\"gxMaximize\",0)RestartGx()\nSetCVar(\"gxWindow\",1-GetCVar(\"gxWindow\"))SetCVar(\"gxMaximize\",0)RestartGx()",
 		}, -- [7]
 	},
 	["untitled"] = 8,
