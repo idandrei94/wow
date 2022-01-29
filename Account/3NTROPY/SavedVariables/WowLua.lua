@@ -1,6 +1,6 @@
 
 WowLua_DB = {
-	["currentPage"] = 7,
+	["currentPage"] = 8,
 	["fontSize"] = 14,
 	["pages"] = {
 		{
@@ -33,6 +33,10 @@ WowLua_DB = {
 			["name"] = "res",
 			["content"] = "SetCVar(\"gxWindow\",1-GetCVar(\"gxWindow\"))SetCVar(\"gxMaximize\",0)RestartGx()\nSetCVar(\"gxWindow\",1-GetCVar(\"gxWindow\"))SetCVar(\"gxMaximize\",0)RestartGx()",
 		}, -- [7]
+		{
+			["name"] = "hallo guyz",
+			["content"] = "local f = CreateFrame(\"Frame\")\nlocal isEnabled = true;\nf:RegisterEvent(\"RAID_ROSTER_UPDATE\")\n\nf:SetScript(\"OnEvent\", function() \n      if(isEnabled and UnitInRaid(\"player\")) then\n         isEnabled = false;\n         SendChatMessage(\"hallo guyz\", \"RAID\", nil, nil)\n         SendChatMessage(\"dis dungeon hard?\", \"RAID\", nil, nil)\n      elseif (not UnitInRaid(\"player\")) then\n         print(\"left raid, resetting...\")\n      end\n   end\n)",
+		}, -- [8]
 	},
-	["untitled"] = 8,
+	["untitled"] = 9,
 }
