@@ -35,7 +35,7 @@ WowLua_DB = {
 		}, -- [7]
 		{
 			["name"] = "hallo guyz",
-			["content"] = "local f = CreateFrame(\"Frame\")\nlocal isEnabled = true;\nf:RegisterEvent(\"RAID_ROSTER_UPDATE\")\n\nf:SetScript(\"OnEvent\", function() \n      if(isEnabled and UnitInRaid(\"player\")) then\n         isEnabled = false;\n         SendChatMessage(\"hallo guyz\", \"RAID\", nil, nil)\n         SendChatMessage(\"dis dungeon hard?\", \"RAID\", nil, nil)\n      elseif (not UnitInRaid(\"player\")) then\n         print(\"left raid, resetting...\")\n      end\n   end\n)",
+			["content"] = "local f = CreateFrame(\"Frame\")\nlocal isEnabled = true;\nif(UnitInRaid(\"player\")) then\n   print(\"HalloGuyz: Player already in raid, troll go sleep...\");\n   isEnabled = false;\nend\nf:RegisterEvent(\"RAID_ROSTER_UPDATE\")\n\nf:SetScript(\"OnEvent\", function() \n      if(isEnabled and UnitInRaid(\"player\")) then\n         isEnabled = false;\n         SendChatMessage(\"hallo guyz\", \"RAID\", nil, nil)\n         SendChatMessage(\"dis dungeon hard?\", \"RAID\", nil, nil)\n      elseif (not UnitInRaid(\"player\")) then\n         print(\"HalloGuyz: Player left the raid, waking up the troll...\");\n         isEnabled = true;\n      end\n   end\n)",
 		}, -- [8]
 	},
 	["untitled"] = 9,
