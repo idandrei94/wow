@@ -28,14 +28,14 @@ RecountDB = {
 			["GraphWindowY"] = 0,
 			["MainWindow"] = {
 				["Position"] = {
-					["y"] = 120.2963098724297,
-					["x"] = -632.0556918323274,
-					["w"] = 251.000050264621,
-					["h"] = 310.999972303168,
+					["y"] = 119.9999841341604,
+					["x"] = -632.0185329418939,
+					["w"] = 251.0000327574877,
+					["h"] = 311.0000073174346,
 				},
 			},
-			["DetailWindowX"] = 654.2593587424298,
-			["LastInstanceName"] = "Vault of Archavon",
+			["DetailWindowX"] = 566.8148343684995,
+			["LastInstanceName"] = "Trial of the Crusader",
 			["CurDataSet"] = "LastFightData",
 			["Colors"] = {
 				["Bar"] = {
@@ -47,7 +47,7 @@ RecountDB = {
 					},
 				},
 			},
-			["DetailWindowY"] = -282.0370113107707,
+			["DetailWindowY"] = -270.407407815198,
 			["GraphWindowX"] = 0,
 			["MainWindowWidth"] = 251.4197662784027,
 			["MainWindowHeight"] = 310.8518969696999,
@@ -278,8 +278,8 @@ RecountDB = {
 			},
 			["DetailWindowY"] = 59.00000212000442,
 			["DetailWindowX"] = 74.99999883741693,
-			["LastInstanceName"] = "Violet Hold",
-			["CurDataSet"] = "LastFightData",
+			["LastInstanceName"] = "Trial of the Crusader",
+			["CurDataSet"] = "CurrentFightData",
 			["GraphWindowX"] = 0,
 			["MainWindowWidth"] = 247.3703663456547,
 			["MainWindowHeight"] = 317.6297135990283,
@@ -322,7 +322,7 @@ RecountDB = {
 			},
 			["DetailWindowX"] = 656.2592335937816,
 			["LastInstanceName"] = "Trial of the Crusader",
-			["CurDataSet"] = "CurrentFightData",
+			["CurDataSet"] = "LastFightData",
 			["Colors"] = {
 				["Bar"] = {
 					["Bar Text"] = {
