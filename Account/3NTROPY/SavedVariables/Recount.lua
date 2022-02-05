@@ -266,9 +266,6 @@ RecountDB = {
 					["x"] = -635.0186428401877,
 				},
 			},
-			["DetailWindowX"] = 74.99999883741693,
-			["LastInstanceName"] = "Trial of the Crusader",
-			["CurDataSet"] = "LastFightData",
 			["Colors"] = {
 				["Bar"] = {
 					["Bar Text"] = {
@@ -280,6 +277,9 @@ RecountDB = {
 				},
 			},
 			["DetailWindowY"] = 59.00000212000442,
+			["DetailWindowX"] = 74.99999883741693,
+			["LastInstanceName"] = "Violet Hold",
+			["CurDataSet"] = "LastFightData",
 			["GraphWindowX"] = 0,
 			["MainWindowWidth"] = 247.3703663456547,
 			["MainWindowHeight"] = 317.6297135990283,
@@ -320,6 +320,9 @@ RecountDB = {
 					["x"] = -625.4815969596675,
 				},
 			},
+			["DetailWindowX"] = 656.2592335937816,
+			["LastInstanceName"] = "Trial of the Crusader",
+			["CurDataSet"] = "CurrentFightData",
 			["Colors"] = {
 				["Bar"] = {
 					["Bar Text"] = {
@@ -331,12 +334,9 @@ RecountDB = {
 				},
 			},
 			["DetailWindowY"] = -299.5554892351304,
-			["DetailWindowX"] = 656.2592335937816,
-			["LastInstanceName"] = "Trial of the Crusader",
-			["CurDataSet"] = "LastFightData",
-			["GraphWindowX"] = 0,
-			["MainWindowWidth"] = 260.0000123097031,
 			["MainWindowHeight"] = 328.7999999452902,
+			["MainWindowWidth"] = 260.0000123097031,
+			["GraphWindowX"] = 0,
 		},
 		["Izanagi - Icecrown"] = {
 			["GraphWindowY"] = 0,
