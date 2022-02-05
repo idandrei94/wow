@@ -63,7 +63,7 @@ Y: -93
 W: 225
 H: 360
 Frame: Recount_MainWindow
-FrameLevel: 22
+FrameLevel: 15
 Anchor: TOPLEFT
 X: 3
 Y: -114
@@ -98,16 +98,9 @@ Y: -187
 W: 100
 H: 30
 Frame: WowLuaFrame
-FrameLevel: 18
+FrameLevel: 19
 Anchor: LEFT
 X: 50
 Y: -15
 W: 811
 H: 546
-Frame: GridLayoutFrame
-FrameLevel: 0
-Anchor: RIGHT
-X: -316
-Y: -88
-W: 57
-H: 56
