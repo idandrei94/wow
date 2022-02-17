@@ -127,6 +127,6 @@ MACRO 16777228 "swall" INV_Misc_QuestionMark
 /cast defensive stance
 /equipslot [spec:2]16 Wrathful Gladiator's Truncheon
 /equipslot [spec:1]16 Shadowmourne
-/equipslot 17 Icecrown Glacial Wall
+/equipslot 17 Wrathful Gladiator's Shield Wall
 /cast shield wall
 END
