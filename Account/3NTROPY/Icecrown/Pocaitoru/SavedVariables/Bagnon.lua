@@ -11,10 +11,10 @@ BagnonFrameSettings = {
 			["x"] = -350.0000879459899,
 		},
 		["bank"] = {
-			["point"] = "TOPLEFT",
-			["itemFrameColumns"] = 15,
 			["y"] = -147.5311417365887,
 			["x"] = 148.5820424273066,
+			["point"] = "TOPLEFT",
+			["itemFrameColumns"] = 15,
 		},
 	},
 	["version"] = "2.13.3",
