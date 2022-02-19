@@ -2,9 +2,9 @@ MACRO 16777226 "bash" INV_Misc_QuestionMark
 #showtooltip shield bash
 /equipslot [spec:2]16 Wrathful Gladiator's Truncheon
 /equipslot [spec:1]16 Shadowmourne
-/equipslot 17 Wrathful Gladiator's Shield Wall
-/cast [stance: 3] defensive stance
-/cast shield bash
+/equipslot [spec: 1] 17 Icecrown Glacial Wall
+/equipslot [spec: 2]  17 Wrathful Gladiator's Shield Wall
+/cast [stance: 3] defen
 END
 MACRO 16777219 "cbt" INV_Misc_QuestionMark
 #showtooltip bloodthirst
@@ -120,13 +120,15 @@ MACRO 16777227 "sm" INV_Misc_QuestionMark
 #showtooltip 16
 /equipslot 16 Shadowmourne
 /equipslot 17 Glorenzelg, High-Blade of the Silver Hand
-/equipslot 18 Fal'inrush, Defender of Quel'thalas
+/equipslot [spec:1] 18 Fal'inrush, Defender of Quel'thalas
+/equipslot [spec:2] 18 Wrathful Gladiator's Shotgun
 END
 MACRO 16777228 "swall" INV_Misc_QuestionMark
 #showtooltip shield wall
 /cast defensive stance
 /equipslot [spec:2]16 Wrathful Gladiator's Truncheon
 /equipslot [spec:1]16 Shadowmourne
-/equipslot 17 Wrathful Gladiator's Shield Wall
-/cast shield wall
+/equipslot [spec1]  17 Icecrown Glacial Wall
+/equipslot [spec2]  17 Wrathful Gladiator's Shield Wall
+/cast s
 END

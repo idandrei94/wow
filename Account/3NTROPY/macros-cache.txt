@@ -142,16 +142,15 @@ END
 MACRO 96 "sb" INV_Misc_QuestionMark
 #showtooltip shield block
 /cast defensive stance
-/cast shield block
+/equipslot [spec: 1] 16 Shadowmourne
+/equipslot [spec: 2] 16 Wrathful Gladiator's Truncheon
+/equipslot [spec: 1] 17 Icecrown Glacial Wall
+/equipslot [spec: 2] 17 Wrathful Gladiator's Shield Wall
+/cast shiel
 END
 MACRO 94 "schute" INV_Misc_QuestionMark
 #showtooltip
 /use 15
-END
-MACRO 58 "SM" INV_Misc_QuestionMark
-#showtooltip 16
-/equip  shadowmourne
-/equipslot 17 glorenzelg
 END
 MACRO 46 "soulfire" INV_Misc_QuestionMark
 #showtooltip soul fire

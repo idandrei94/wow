@@ -34,9 +34,6 @@ RecountDB = {
 					["h"] = 311.0000073174346,
 				},
 			},
-			["DetailWindowX"] = 566.8148343684995,
-			["LastInstanceName"] = "Trial of the Crusader",
-			["CurDataSet"] = "LastFightData",
 			["Colors"] = {
 				["Bar"] = {
 					["Bar Text"] = {
@@ -48,9 +45,12 @@ RecountDB = {
 				},
 			},
 			["DetailWindowY"] = -270.407407815198,
-			["MainWindowHeight"] = 310.8518969696999,
-			["MainWindowWidth"] = 251.4197662784027,
+			["DetailWindowX"] = 566.8148343684995,
+			["LastInstanceName"] = "Trial of the Crusader",
+			["CurDataSet"] = "LastFightData",
 			["GraphWindowX"] = 0,
+			["MainWindowWidth"] = 251.4197662784027,
+			["MainWindowHeight"] = 310.8518969696999,
 		},
 		["Vrael - Icecrown"] = {
 			["GraphWindowY"] = 0,
@@ -135,15 +135,15 @@ RecountDB = {
 			["GraphWindowY"] = 0,
 			["MainWindow"] = {
 				["Position"] = {
-					["y"] = 147.6666469483459,
-					["x"] = -631.0185342412515,
+					["y"] = 147.6666119340793,
+					["x"] = -631.0186130233514,
 					["w"] = 239.0000133355117,
 					["h"] = 289.9999908361099,
 				},
 			},
 			["DetailWindowX"] = 62.09879535193817,
 			["LastInstanceName"] = "The Eye of Eternity",
-			["CurDataSet"] = "CurrentFightData",
+			["CurDataSet"] = "LastFightData",
 			["Colors"] = {
 				["Bar"] = {
 					["Bar Text"] = {
@@ -260,10 +260,10 @@ RecountDB = {
 			["GraphWindowY"] = 0,
 			["MainWindow"] = {
 				["Position"] = {
-					["y"] = 146.6666044798703,
+					["y"] = 146.6665694656036,
 					["h"] = 317.9999894683651,
 					["w"] = 247.0000029406513,
-					["x"] = -635.0186428401877,
+					["x"] = -635.0186078259212,
 				},
 			},
 			["DetailWindowX"] = 74.99999883741693,
@@ -279,10 +279,10 @@ RecountDB = {
 					},
 				},
 			},
-			["DetailWindowY"] = 59.00000212000442,
-			["GraphWindowX"] = 0,
-			["MainWindowWidth"] = 247.3703663456547,
+			["DetailWindowY"] = -194.6666296463744,
 			["MainWindowHeight"] = 317.6297135990283,
+			["MainWindowWidth"] = 247.3703663456547,
+			["GraphWindowX"] = 0,
 		},
 		["Ulrezaj - Icecrown"] = {
 			["GraphWindowY"] = 0,
@@ -320,6 +320,9 @@ RecountDB = {
 					["x"] = -625.5186201698178,
 				},
 			},
+			["DetailWindowX"] = 656.2592335937816,
+			["LastInstanceName"] = "Trial of the Crusader",
+			["CurDataSet"] = "LastFightData",
 			["Colors"] = {
 				["Bar"] = {
 					["Bar Text"] = {
@@ -331,12 +334,9 @@ RecountDB = {
 				},
 			},
 			["DetailWindowY"] = -299.5554892351304,
-			["DetailWindowX"] = 656.2592335937816,
-			["LastInstanceName"] = "Icecrown Citadel",
-			["CurDataSet"] = "LastFightData",
-			["GraphWindowX"] = 0,
-			["MainWindowWidth"] = 260.0000123097031,
 			["MainWindowHeight"] = 328.7999999452902,
+			["MainWindowWidth"] = 260.0000123097031,
+			["GraphWindowX"] = 0,
 		},
 		["Kalaam - Icecrown"] = {
 			["GraphWindowY"] = 0,
@@ -359,9 +359,9 @@ RecountDB = {
 				},
 			},
 			["DetailWindowY"] = -167.2591599407247,
-			["MainWindowHeight"] = 329.1730069274222,
-			["MainWindowWidth"] = 253.0123901948838,
 			["GraphWindowX"] = 0,
+			["MainWindowWidth"] = 253.0123901948838,
+			["MainWindowHeight"] = 329.1730069274222,
 		},
 		["Lingurita - Lordaeron"] = {
 			["GraphWindowY"] = 0,
@@ -549,7 +549,7 @@ RecountDB = {
 				},
 			},
 			["DetailWindowX"] = 0,
-			["LastInstanceName"] = "Icecrown Citadel",
+			["LastInstanceName"] = "The Eye of Eternity",
 			["CurDataSet"] = "LastFightData",
 			["Colors"] = {
 				["Bar"] = {
@@ -562,9 +562,9 @@ RecountDB = {
 				},
 			},
 			["DetailWindowY"] = 3.999978116083373,
-			["MainWindowHeight"] = 337.3333968878745,
-			["MainWindowWidth"] = 260.8889019888445,
 			["GraphWindowX"] = 0,
+			["MainWindowWidth"] = 260.8889019888445,
+			["MainWindowHeight"] = 337.3333968878745,
 		},
 		["Izanagi - Icecrown"] = {
 			["GraphWindowY"] = 0,
