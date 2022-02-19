@@ -2,6 +2,18 @@
 RecountPerCharDB = {
 	["version"] = "1.3",
 	["combatants"] = {
+		["Rimgar"] = {
+			["type"] = "Self",
+			["Owner"] = false,
+			["enClass"] = "WARRIOR",
+			["Name"] = "Rimgar",
+			["LastAbility"] = 12543.981,
+			["UnitLockout"] = 1645312726,
+			["level"] = 80,
+			["Fights"] = {
+			},
+			["LastFightIn"] = 0,
+		},
 		["Samayel"] = {
 			["GUID"] = "0x0700000000498A17",
 			["LastEventHealth"] = {
@@ -124,6 +136,7 @@ RecountPerCharDB = {
 			},
 			["type"] = "Grouped",
 			["Owner"] = false,
+			["LastAbility"] = 12543.981,
 			["NextEventNum"] = 37,
 			["LastEventHealthNum"] = {
 				100, -- [1]
@@ -240,6 +253,9 @@ RecountPerCharDB = {
 				true, -- [35]
 				true, -- [36]
 			},
+			["UnitLockout"] = 1645312864,
+			["Fights"] = {
+			},
 			["LastEventTimes"] = {
 				12083.594, -- [1]
 				12088.589, -- [2]
@@ -278,21 +294,7 @@ RecountPerCharDB = {
 				12253.482, -- [35]
 				12258.501, -- [36]
 			},
-			["Fights"] = {
-			},
-			["UnitLockout"] = 1645312864,
 			["LastActive"] = 1645313039,
-		},
-		["Rimgar"] = {
-			["Fights"] = {
-			},
-			["type"] = "Self",
-			["Name"] = "Rimgar",
-			["UnitLockout"] = 1645312726,
-			["level"] = 80,
-			["Owner"] = false,
-			["enClass"] = "WARRIOR",
-			["LastFightIn"] = 0,
 		},
 	},
 	["FightNum"] = 0,
