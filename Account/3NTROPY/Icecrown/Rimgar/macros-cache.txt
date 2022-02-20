@@ -97,12 +97,10 @@ MACRO 16777217 "mount" INV_Misc_QuestionMark
 END
 MACRO 16777222 "reflect" INV_Misc_QuestionMark
 #showtooltip spell reflection
-/equipslot [spec:2]16 Wrathful Gladiator's Truncheon
-/equipslot [spec:1]16 Shadowmourne
-/equipslot [spec:1] 17 Icecrown Glacial Wall
-/equipslot [spec:2] 17 Wrathful Gladiator's Shield Wall
+/equipslot 16 Wrathful Gladiator's Truncheon
+/equipslot 17 Icecrown Glacial Wall
 /cast  [stance:3] battle stance
-/cas
+/cast spell reflection
 END
 MACRO 16777221 "rend" INV_Misc_QuestionMark
 #showtooltip rend
@@ -131,5 +129,5 @@ MACRO 16777228 "swall" INV_Misc_QuestionMark
 /equipslot [spec:1]16 Shadowmourne
 /equipslot [spec1]  17 Icecrown Glacial Wall
 /equipslot [spec2]  17 Wrathful Gladiator's Shield Wall
-/cast s
+/cast shield wall
 END

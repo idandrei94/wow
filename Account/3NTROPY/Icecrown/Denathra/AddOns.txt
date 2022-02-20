@@ -44,3 +44,4 @@ TomTom: enabled
 WowLua: enabled
 XPerl_TeamSpeak: disabled
 GearScore: disabled
+HalloGuyz: disabled

@@ -43,3 +43,4 @@ LibStub: enabled
 WowLua: enabled
 GearScore: disabled
 XPerl_TeamSpeak: disabled
+HalloGuyz: disabled

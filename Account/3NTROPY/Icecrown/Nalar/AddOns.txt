@@ -33,3 +33,4 @@ XPerl_RaidFrames: disabled
 XPerl_Target: disabled
 XPerl_TargetTarget: disabled
 XPerl_Tutorial: disabled
+HalloGuyz: disabled

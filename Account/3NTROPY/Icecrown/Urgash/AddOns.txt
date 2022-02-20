@@ -7,3 +7,4 @@ XPerl_CustomHighlight: disabled
 XPerl_Player: disabled
 XPerl_Target: disabled
 XPerl_TargetTarget: disabled
+HalloGuyz: disabled
