@@ -34,6 +34,9 @@ RecountDB = {
 					["h"] = 311.0000073174346,
 				},
 			},
+			["DetailWindowX"] = 566.8148343684995,
+			["LastInstanceName"] = "Halls of Stone",
+			["CurDataSet"] = "LastFightData",
 			["Colors"] = {
 				["Bar"] = {
 					["Bar Text"] = {
@@ -45,9 +48,6 @@ RecountDB = {
 				},
 			},
 			["DetailWindowY"] = -270.407407815198,
-			["DetailWindowX"] = 566.8148343684995,
-			["LastInstanceName"] = "Halls of Stone",
-			["CurDataSet"] = "LastFightData",
 			["GraphWindowX"] = 0,
 			["MainWindowWidth"] = 251.4197662784027,
 			["MainWindowHeight"] = 310.8518969696999,
@@ -314,15 +314,12 @@ RecountDB = {
 			["GraphWindowY"] = 0,
 			["MainWindow"] = {
 				["Position"] = {
-					["y"] = 148.1666506754505,
-					["h"] = 329.000001436132,
+					["y"] = 141.0556032708522,
+					["h"] = 329.0000714646652,
 					["w"] = 260.0000123097031,
-					["x"] = -625.5186201698178,
+					["x"] = -629.0741745096003,
 				},
 			},
-			["DetailWindowX"] = 656.2592335937816,
-			["LastInstanceName"] = "Pit of Saron",
-			["CurDataSet"] = "CurrentFightData",
 			["Colors"] = {
 				["Bar"] = {
 					["Bar Text"] = {
@@ -334,9 +331,13 @@ RecountDB = {
 				},
 			},
 			["DetailWindowY"] = -299.5554892351304,
-			["MainWindowHeight"] = 328.7999999452902,
-			["MainWindowWidth"] = 260.0000123097031,
+			["DetailWindowX"] = 656.2592335937816,
+			["LastInstanceName"] = "Icecrown Citadel",
+			["MainWindowMode"] = 5,
+			["CurDataSet"] = "LastFightData",
 			["GraphWindowX"] = 0,
+			["MainWindowWidth"] = 260.0000123097031,
+			["MainWindowHeight"] = 328.7999999452902,
 		},
 		["Izanagi - Icecrown"] = {
 			["GraphWindowY"] = 0,
@@ -510,11 +511,11 @@ RecountDB = {
 					},
 				},
 			},
-			["GraphWindowX"] = 0,
+			["DetailWindowY"] = -124.0493402990752,
 			["MainWindowVis"] = false,
 			["MainWindowMode"] = 5,
 			["MainWindowWidth"] = 256.148530518934,
-			["DetailWindowY"] = -124.0493402990752,
+			["GraphWindowX"] = 0,
 		},
 		["Gligor - Icecrown"] = {
 			["GraphWindowY"] = 0,
