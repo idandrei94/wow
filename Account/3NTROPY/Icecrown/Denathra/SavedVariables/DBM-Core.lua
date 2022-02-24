@@ -5,19 +5,19 @@ DBM_SavedOptions = {
 	["DontSetIcons"] = false,
 	["BigBrotherAnnounceToRaid"] = false,
 	["ArrowPosX"] = 0,
-	["WarningIconRight"] = true,
-	["HealthFrameLocked"] = false,
-	["HPFramePoint"] = "CENTER",
 	["AutoRespond"] = true,
+	["WarningIconRight"] = true,
+	["HPFramePoint"] = "CENTER",
+	["HealthFrameLocked"] = false,
 	["HealthFrameGrowUp"] = false,
 	["StatusEnabled"] = true,
 	["HideBossEmoteFrame"] = false,
 	["RangeFrameRadarX"] = 100,
 	["ShowBigBrotherOnCombatStart"] = false,
 	["RangeFrameRadarY"] = -100,
-	["PullTimerCountdown"] = true,
-	["BlockVersionUpdatePopup"] = true,
 	["RangeFrameUpdates"] = "Average",
+	["BlockVersionUpdatePopup"] = true,
+	["PullTimerCountdown"] = true,
 	["WarningColors"] = {
 		{
 			["r"] = 0.4117647058823529,
@@ -50,11 +50,7 @@ DBM_SavedOptions = {
 	["ShowFakedRaidWarnings"] = false,
 	["PullDifficultyAnnounce"] = true,
 	["DontSendBossAnnounces"] = false,
-	["SpecialWarningFontColor"] = {
-		0, -- [1]
-		0, -- [2]
-		1, -- [3]
-	},
+	["RangeFrameSound1"] = "none",
 	["SpecialWarningFontColor2"] = {
 		["r"] = 0,
 		["g"] = 1,
@@ -65,7 +61,7 @@ DBM_SavedOptions = {
 	["HealthFrameBarTexture"] = "Interface\\PaperDollInfoFrame\\UI-Character-Skills-Bar",
 	["RangeFramePoint"] = "BOTTOM",
 	["SpecialWarningPoint"] = "CENTER",
-	["RangeFrameSound1"] = "none",
+	["RangeFrameLocked"] = false,
 	["RaidWarningSound"] = "Sound\\Doodad\\BellTollNightElf.wav",
 	["CombatlogFixEnabled"] = true,
 	["DontSendBossWhispers"] = false,
@@ -84,7 +80,11 @@ DBM_SavedOptions = {
 	["HealthFrameWidth"] = 200,
 	["SpecialWarningY"] = 75,
 	["WarningIconLeft"] = true,
-	["RangeFrameLocked"] = false,
+	["SpecialWarningFontColor"] = {
+		0, -- [1]
+		0, -- [2]
+		1, -- [3]
+	},
 	["HPFrameY"] = -23.14281956895386,
 	["FixCLEUOnCombatStart"] = false,
 	["LatencyThreshold"] = 250,

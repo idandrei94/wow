@@ -40,8 +40,8 @@ GladiusDB = {
 		},
 		["Denathra - Icecrown"] = {
 			["locked"] = true,
-			["x"] = 946.3785340279685,
 			["y"] = 541.654370892245,
+			["x"] = 946.3785340279685,
 		},
 		["Vhalanor - Icecrown"] = {
 			["locked"] = true,
@@ -75,8 +75,8 @@ GladiusDB = {
 		},
 		["Pocaitoru - Icecrown"] = {
 			["locked"] = true,
-			["y"] = 591.6555710886522,
 			["x"] = 1068.283355016582,
+			["y"] = 591.6555710886522,
 		},
 		["Lingurita - Lordaeron"] = {
 			["locked"] = true,

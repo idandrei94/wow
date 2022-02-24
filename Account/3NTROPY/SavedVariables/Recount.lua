@@ -28,14 +28,14 @@ RecountDB = {
 			["GraphWindowY"] = 0,
 			["MainWindow"] = {
 				["Position"] = {
-					["y"] = 118.8148912666828,
-					["x"] = -632.6111581577326,
-					["w"] = 251.0000327574877,
+					["y"] = 126.1110941130828,
+					["x"] = -625.9074054558382,
+					["w"] = 251.0000152503544,
 					["h"] = 311.0000073174346,
 				},
 			},
 			["DetailWindowX"] = 566.8148343684995,
-			["LastInstanceName"] = "Halls of Stone",
+			["LastInstanceName"] = "Pit of Saron",
 			["CurDataSet"] = "LastFightData",
 			["Colors"] = {
 				["Bar"] = {
@@ -136,14 +136,12 @@ RecountDB = {
 			["MainWindow"] = {
 				["Position"] = {
 					["y"] = 147.6666119340793,
-					["x"] = -631.0186130233514,
+					["x"] = -631.0187530804177,
 					["w"] = 239.0000133355117,
 					["h"] = 289.9999908361099,
 				},
 			},
-			["DetailWindowX"] = 62.09879535193817,
-			["LastInstanceName"] = "The Eye of Eternity",
-			["CurDataSet"] = "LastFightData",
+			["ReportLines"] = 1,
 			["Colors"] = {
 				["Bar"] = {
 					["Bar Text"] = {
@@ -155,8 +153,10 @@ RecountDB = {
 				},
 			},
 			["DetailWindowY"] = 23.44438869364712,
+			["DetailWindowX"] = 62.09879535193817,
+			["LastInstanceName"] = "Trial of the Crusader",
+			["CurDataSet"] = "LastFightData",
 			["GraphWindowX"] = 0,
-			["ReportLines"] = 1,
 			["MainWindowWidth"] = 238.9999938458702,
 			["MainWindowHeight"] = 289.9999422879386,
 		},
@@ -260,10 +260,10 @@ RecountDB = {
 			["GraphWindowY"] = 0,
 			["MainWindow"] = {
 				["Position"] = {
-					["y"] = 146.6665694656036,
+					["y"] = 146.6666044798703,
 					["h"] = 317.9999894683651,
 					["w"] = 247.0000029406513,
-					["x"] = -635.0186078259212,
+					["x"] = -635.0186428401877,
 				},
 			},
 			["DetailWindowX"] = 74.99999883741693,
@@ -314,12 +314,15 @@ RecountDB = {
 			["GraphWindowY"] = 0,
 			["MainWindow"] = {
 				["Position"] = {
-					["y"] = 141.0556032708522,
+					["y"] = 141.0556382851189,
 					["h"] = 329.0000714646652,
 					["w"] = 260.0000123097031,
-					["x"] = -629.0741745096003,
+					["x"] = -629.0742489149168,
 				},
 			},
+			["DetailWindowX"] = 656.2592335937816,
+			["LastInstanceName"] = "The Forge of Souls",
+			["CurDataSet"] = "LastFightData",
 			["Colors"] = {
 				["Bar"] = {
 					["Bar Text"] = {
@@ -331,13 +334,9 @@ RecountDB = {
 				},
 			},
 			["DetailWindowY"] = -299.5554892351304,
-			["DetailWindowX"] = 656.2592335937816,
-			["LastInstanceName"] = "Icecrown Citadel",
-			["MainWindowMode"] = 5,
-			["CurDataSet"] = "LastFightData",
-			["GraphWindowX"] = 0,
-			["MainWindowWidth"] = 260.0000123097031,
 			["MainWindowHeight"] = 328.7999999452902,
+			["MainWindowWidth"] = 260.0000123097031,
+			["GraphWindowX"] = 0,
 		},
 		["Izanagi - Icecrown"] = {
 			["GraphWindowY"] = 0,
@@ -511,11 +510,11 @@ RecountDB = {
 					},
 				},
 			},
-			["DetailWindowY"] = -124.0493402990752,
+			["GraphWindowX"] = 0,
 			["MainWindowVis"] = false,
 			["MainWindowMode"] = 5,
 			["MainWindowWidth"] = 256.148530518934,
-			["GraphWindowX"] = 0,
+			["DetailWindowY"] = -124.0493402990752,
 		},
 		["Gligor - Icecrown"] = {
 			["GraphWindowY"] = 0,

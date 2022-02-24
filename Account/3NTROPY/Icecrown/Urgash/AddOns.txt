@@ -1,4 +1,4 @@
-PowerAuras: disabled
+PowerAuras: enabled
 XPerl_TeamSpeak: disabled
 XPerl: disabled
 XPerl_ArcaneBar: disabled
@@ -7,4 +7,5 @@ XPerl_CustomHighlight: disabled
 XPerl_Player: disabled
 XPerl_Target: disabled
 XPerl_TargetTarget: disabled
-HalloGuyz: disabled
+HalloGuyz: enabled
+HealBot: disabled
