@@ -266,9 +266,6 @@ RecountDB = {
 					["x"] = -635.0186428401877,
 				},
 			},
-			["DetailWindowX"] = 74.99999883741693,
-			["LastInstanceName"] = "Trial of the Crusader",
-			["CurDataSet"] = "LastFightData",
 			["Colors"] = {
 				["Bar"] = {
 					["Bar Text"] = {
@@ -280,6 +277,9 @@ RecountDB = {
 				},
 			},
 			["DetailWindowY"] = -194.6666296463744,
+			["DetailWindowX"] = 74.99999883741693,
+			["LastInstanceName"] = "Vault of Archavon",
+			["CurDataSet"] = "LastFightData",
 			["GraphWindowX"] = 0,
 			["MainWindowWidth"] = 247.3703663456547,
 			["MainWindowHeight"] = 317.6297135990283,
@@ -317,9 +317,12 @@ RecountDB = {
 					["y"] = 141.1666335102534,
 					["h"] = 329.000001436132,
 					["w"] = 260.0000123097031,
-					["x"] = -628.9259416119324,
+					["x"] = -628.925976626199,
 				},
 			},
+			["DetailWindowX"] = 654.7408049082343,
+			["LastInstanceName"] = "Icecrown Citadel",
+			["CurDataSet"] = "LastFightData",
 			["Colors"] = {
 				["Bar"] = {
 					["Bar Text"] = {
@@ -331,12 +334,10 @@ RecountDB = {
 				},
 			},
 			["DetailWindowY"] = -299.6666945458646,
-			["DetailWindowX"] = 654.7408049082343,
-			["LastInstanceName"] = "Icecrown Citadel",
-			["CurDataSet"] = "LastFightData",
-			["GraphWindowX"] = 0,
-			["MainWindowWidth"] = 260.0000123097031,
 			["MainWindowHeight"] = 328.7999999452902,
+			["MainWindowWidth"] = 260.0000123097031,
+			["ReportLines"] = 2,
+			["GraphWindowX"] = 0,
 		},
 		["Izanagi - Icecrown"] = {
 			["GraphWindowY"] = 0,
@@ -510,11 +511,11 @@ RecountDB = {
 					},
 				},
 			},
-			["DetailWindowY"] = -124.0493402990752,
+			["GraphWindowX"] = 0,
 			["MainWindowVis"] = false,
 			["MainWindowMode"] = 5,
 			["MainWindowWidth"] = 256.148530518934,
-			["GraphWindowX"] = 0,
+			["DetailWindowY"] = -124.0493402990752,
 		},
 		["Gligor - Icecrown"] = {
 			["GraphWindowY"] = 0,
