@@ -2,6 +2,7 @@
 XPerlConfig = nil
 XPerlConfig_Global = nil
 XPerlConfigNew = {
+	["ConfigVersion"] = "3.0.9",
 	["global"] = {
 		["highlight"] = {
 			["enable"] = 1,
@@ -263,12 +264,6 @@ XPerlConfigNew = {
 				},
 			},
 			["classbarBright"] = 1,
-			["frame"] = {
-				["a"] = 1,
-				["r"] = 0,
-				["g"] = 0,
-				["b"] = 0,
-			},
 			["gradient"] = {
 				["enable"] = 1,
 				["s"] = {
@@ -283,6 +278,12 @@ XPerlConfigNew = {
 					["g"] = 0.1,
 					["b"] = 0.1,
 				},
+			},
+			["frame"] = {
+				["a"] = 1,
+				["r"] = 0,
+				["g"] = 0,
+				["b"] = 0,
 			},
 			["class"] = 1,
 			["bar"] = {
@@ -301,9 +302,9 @@ XPerlConfigNew = {
 					["g"] = 0.5,
 					["b"] = 0.25,
 				},
-				["healthEmpty"] = {
+				["energy"] = {
 					["r"] = 1,
-					["g"] = 0,
+					["g"] = 1,
 					["b"] = 0,
 				},
 				["mana"] = {
@@ -311,9 +312,9 @@ XPerlConfigNew = {
 					["g"] = 0,
 					["b"] = 1,
 				},
-				["energy"] = {
+				["healthEmpty"] = {
 					["r"] = 1,
-					["g"] = 1,
+					["g"] = 0,
 					["b"] = 0,
 				},
 				["runic_power"] = {
@@ -376,7 +377,47 @@ XPerlConfigNew = {
 			["percent"] = 1,
 			["classIcon"] = 1,
 		},
-		["targettarget"] = {
+		["pet"] = {
+			["threat"] = 1,
+			["portrait"] = 1,
+			["debuffs"] = {
+				["enable"] = 1,
+				["size"] = 20,
+			},
+			["scale"] = 0.66,
+			["healerMode"] = {
+				["type"] = 1,
+			},
+			["level"] = 1,
+			["happiness"] = {
+				["enabled"] = 1,
+				["flashWhenSad"] = 1,
+				["onlyWhenSad"] = 1,
+			},
+			["castBar"] = {
+				["enable"] = 1,
+			},
+			["threatMode"] = "portraitFrame",
+			["name"] = 1,
+			["hitIndicator"] = 1,
+			["values"] = 1,
+			["buffs"] = {
+				["enable"] = 1,
+				["size"] = 18,
+				["maxrows"] = 2,
+			},
+			["portrait3D"] = 1,
+			["size"] = {
+				["enable"] = 1,
+				["width"] = 82,
+				["size"] = 20,
+			},
+		},
+		["transparency"] = {
+			["frame"] = 1,
+			["text"] = 1,
+		},
+		["focustarget"] = {
 			["debuffs"] = {
 				["enable"] = 1,
 				["curable"] = 0,
@@ -403,16 +444,7 @@ XPerlConfigNew = {
 				["width"] = 0,
 			},
 		},
-		["transparency"] = {
-			["frame"] = 1,
-			["text"] = 1,
-		},
-		["tooltip"] = {
-			["enable"] = 1,
-			["enableBuffs"] = 1,
-			["modifier"] = "all",
-		},
-		["pettarget"] = {
+		["targettarget"] = {
 			["debuffs"] = {
 				["enable"] = 1,
 				["curable"] = 0,
@@ -513,43 +545,7 @@ XPerlConfigNew = {
 			["percent"] = 1,
 			["energyTicker"] = 1,
 		},
-		["pet"] = {
-			["threat"] = 1,
-			["portrait"] = 1,
-			["debuffs"] = {
-				["enable"] = 1,
-				["size"] = 20,
-			},
-			["scale"] = 0.66,
-			["healerMode"] = {
-				["type"] = 1,
-			},
-			["level"] = 1,
-			["castBar"] = {
-				["enable"] = 1,
-			},
-			["happiness"] = {
-				["enabled"] = 1,
-				["flashWhenSad"] = 1,
-				["onlyWhenSad"] = 1,
-			},
-			["threatMode"] = "portraitFrame",
-			["name"] = 1,
-			["hitIndicator"] = 1,
-			["values"] = 1,
-			["buffs"] = {
-				["enable"] = 1,
-				["size"] = 18,
-				["maxrows"] = 2,
-			},
-			["portrait3D"] = 1,
-			["size"] = {
-				["enable"] = 1,
-				["width"] = 82,
-				["size"] = 20,
-			},
-		},
-		["focustarget"] = {
+		["pettarget"] = {
 			["debuffs"] = {
 				["enable"] = 1,
 				["curable"] = 0,
@@ -575,6 +571,11 @@ XPerlConfigNew = {
 			["size"] = {
 				["width"] = 0,
 			},
+		},
+		["tooltip"] = {
+			["enable"] = 1,
+			["enableBuffs"] = 1,
+			["modifier"] = "all",
 		},
 		["targettargettarget"] = {
 			["debuffs"] = {
@@ -643,13 +644,13 @@ XPerlConfigNew = {
 					["top"] = 733.3333764666827,
 					["left"] = 0,
 				},
-				["XPerl_FocusTarget"] = {
-					["top"] = 693.3333426803894,
-					["left"] = 414.6999959399009,
-				},
 				["XPerl_Target"] = {
 					["top"] = 843.7334167368844,
 					["left"] = 216.8000086468412,
+				},
+				["XPerl_FocusTarget"] = {
+					["top"] = 693.3333426803894,
+					["left"] = 414.6999959399009,
 				},
 				["XPerl_TargetTarget"] = {
 					["top"] = 844.9333426973719,
@@ -665,9 +666,9 @@ XPerlConfigNew = {
 					["top"] = 842.5333799025663,
 					["left"] = 20.70000012867092,
 				},
-				["XPerl_FocusTarget"] = {
-					["top"] = 693.3333426803894,
-					["left"] = 414.6999959399009,
+				["XPerl_Target"] = {
+					["top"] = 843.7334167368844,
+					["left"] = 216.8000086468412,
 				},
 				["XPerl_Focus"] = {
 					["top"] = 693.3333578164047,
@@ -681,9 +682,9 @@ XPerlConfigNew = {
 					["top"] = 791.9233457600143,
 					["left"] = 71.07000404846362,
 				},
-				["XPerl_Target"] = {
-					["top"] = 843.7334167368844,
-					["left"] = 216.8000086468412,
+				["XPerl_FocusTarget"] = {
+					["top"] = 693.3333426803894,
+					["left"] = 414.6999959399009,
 				},
 				["XPerl_TargetTarget"] = {
 					["top"] = 844.9333426973719,
@@ -1092,6 +1093,5 @@ XPerlConfigNew = {
 			},
 		},
 	},
-	["ConfigVersion"] = "3.0.9",
 }
 XPerlConfigSavePerCharacter = nil
