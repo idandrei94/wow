@@ -5,4 +5,4 @@ Icicle: enabled
 Gladius: enabled
 MagicRunes: disabled
 MageNuggets: enabled
-HalloGuyz: disabled
+HalloGuyz: enabled

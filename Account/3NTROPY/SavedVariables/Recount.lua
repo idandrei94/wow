@@ -28,15 +28,12 @@ RecountDB = {
 			["GraphWindowY"] = 0,
 			["MainWindow"] = {
 				["Position"] = {
-					["y"] = 125.9999588308819,
-					["x"] = -626.0185319844726,
+					["y"] = 125.9999938451484,
+					["x"] = -626.0185757523058,
 					["w"] = 251.0000152503544,
 					["h"] = 310.999972303168,
 				},
 			},
-			["DetailWindowX"] = 566.8148343684995,
-			["LastInstanceName"] = "Trial of the Champion",
-			["CurDataSet"] = "LastFightData",
 			["Colors"] = {
 				["Bar"] = {
 					["Bar Text"] = {
@@ -48,6 +45,9 @@ RecountDB = {
 				},
 			},
 			["DetailWindowY"] = -270.407407815198,
+			["DetailWindowX"] = 566.8148343684995,
+			["LastInstanceName"] = "Trial of the Crusader",
+			["CurDataSet"] = "LastFightData",
 			["GraphWindowX"] = 0,
 			["MainWindowWidth"] = 251.4197662784027,
 			["MainWindowHeight"] = 310.8518969696999,
@@ -76,10 +76,10 @@ RecountDB = {
 				},
 			},
 			["DetailWindowY"] = -59.9999876902969,
-			["MainWindowHeight"] = 323.4446028824811,
-			["MainWindowWidth"] = 244.5308668882732,
-			["ReportLines"] = 1,
 			["GraphWindowX"] = 0,
+			["ReportLines"] = 1,
+			["MainWindowWidth"] = 244.5308668882732,
+			["MainWindowHeight"] = 323.4446028824811,
 		},
 		["Nalar - Icecrown"] = {
 			["GraphWindowY"] = 0,
@@ -266,6 +266,9 @@ RecountDB = {
 					["x"] = -635.0186428401877,
 				},
 			},
+			["DetailWindowX"] = 74.99999883741693,
+			["LastInstanceName"] = "Vault of Archavon",
+			["CurDataSet"] = "LastFightData",
 			["Colors"] = {
 				["Bar"] = {
 					["Bar Text"] = {
@@ -277,12 +280,9 @@ RecountDB = {
 				},
 			},
 			["DetailWindowY"] = -194.6666296463744,
-			["DetailWindowX"] = 74.99999883741693,
-			["LastInstanceName"] = "Vault of Archavon",
-			["CurDataSet"] = "LastFightData",
-			["GraphWindowX"] = 0,
-			["MainWindowWidth"] = 247.3703663456547,
 			["MainWindowHeight"] = 317.6297135990283,
+			["MainWindowWidth"] = 247.3703663456547,
+			["GraphWindowX"] = 0,
 		},
 		["Ulrezaj - Icecrown"] = {
 			["GraphWindowY"] = 0,
@@ -321,8 +321,8 @@ RecountDB = {
 				},
 			},
 			["DetailWindowX"] = 654.7408049082343,
-			["LastInstanceName"] = "Utgarde Keep",
-			["CurDataSet"] = "LastFightData",
+			["LastInstanceName"] = "Halls of Reflection",
+			["CurDataSet"] = "CurrentFightData",
 			["Colors"] = {
 				["Bar"] = {
 					["Bar Text"] = {
@@ -334,10 +334,10 @@ RecountDB = {
 				},
 			},
 			["DetailWindowY"] = -299.6666945458646,
-			["MainWindowHeight"] = 328.7999999452902,
-			["MainWindowWidth"] = 260.0000123097031,
-			["ReportLines"] = 2,
 			["GraphWindowX"] = 0,
+			["ReportLines"] = 2,
+			["MainWindowWidth"] = 260.0000123097031,
+			["MainWindowHeight"] = 328.7999999452902,
 		},
 		["Kalaam - Icecrown"] = {
 			["GraphWindowY"] = 0,
@@ -360,9 +360,9 @@ RecountDB = {
 				},
 			},
 			["DetailWindowY"] = -167.2591599407247,
-			["GraphWindowX"] = 0,
-			["MainWindowWidth"] = 253.0123901948838,
 			["MainWindowHeight"] = 329.1730069274222,
+			["MainWindowWidth"] = 253.0123901948838,
+			["GraphWindowX"] = 0,
 		},
 		["Lingurita - Lordaeron"] = {
 			["GraphWindowY"] = 0,
@@ -496,7 +496,7 @@ RecountDB = {
 			},
 			["DetailWindowX"] = 112.9876419471188,
 			["LastInstanceName"] = "Vault of Archavon",
-			["DetailWindowY"] = -124.0493402990752,
+			["GraphWindowX"] = 0,
 			["CurDataSet"] = "LastFightData",
 			["Colors"] = {
 				["Bar"] = {
@@ -508,7 +508,7 @@ RecountDB = {
 					},
 				},
 			},
-			["GraphWindowX"] = 0,
+			["DetailWindowY"] = -124.0493402990752,
 			["MainWindowVis"] = false,
 			["MainWindowMode"] = 5,
 			["MainWindowWidth"] = 256.148530518934,

@@ -18,8 +18,8 @@ FrameLevel: 11
 Anchor: TOP
 X: -246
 Y: -98
-W: 259
-H: 49
+W: 285
+H: 282
 Frame: DBMMinimapButton
 FrameLevel: 3
 Anchor: TOPRIGHT
@@ -42,14 +42,14 @@ Y: 59
 W: 328
 H: 457
 Frame: Recount_MainWindow
-FrameLevel: 28
+FrameLevel: 16
 Anchor: LEFT
 X: 7
 Y: 126
 W: 251
 H: 311
 Frame: Recount_DetailWindow
-FrameLevel: 38
+FrameLevel: 46
 Anchor: CENTER
 X: 58
 Y: -17
@@ -77,7 +77,7 @@ Y: 193
 W: 100
 H: 30
 Frame: WowLuaFrame
-FrameLevel: 14
+FrameLevel: 12
 Anchor: CENTER
 X: -31
 Y: 58

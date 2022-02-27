@@ -12,7 +12,7 @@ MACRO 75 "arcane" INV_Misc_QuestionMark
 END
 MACRO 97 "boom" INV_Misc_QuestionMark
 #showtooltip shield slam
-/castsequence reset=2 berserker stance, recklessness, defensive stance, shield block, battle stance, shield slam
+/castsequence reset=2  recklessness, defensive stance, shield block, battle stance, shield slam
 END
 MACRO 95 "dev" INV_Misc_QuestionMark
 #showtooltip devastate
