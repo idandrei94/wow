@@ -34,6 +34,9 @@ RecountDB = {
 					["h"] = 310.999972303168,
 				},
 			},
+			["DetailWindowX"] = 566.8148343684995,
+			["LastInstanceName"] = "Pit of Saron",
+			["CurDataSet"] = "LastFightData",
 			["Colors"] = {
 				["Bar"] = {
 					["Bar Text"] = {
@@ -45,12 +48,9 @@ RecountDB = {
 				},
 			},
 			["DetailWindowY"] = -270.407407815198,
-			["DetailWindowX"] = 566.8148343684995,
-			["LastInstanceName"] = "The Oculus",
-			["CurDataSet"] = "Fight1",
-			["GraphWindowX"] = 0,
-			["MainWindowWidth"] = 251.4197662784027,
 			["MainWindowHeight"] = 310.8518969696999,
+			["MainWindowWidth"] = 251.4197662784027,
+			["GraphWindowX"] = 0,
 		},
 		["Vrael - Icecrown"] = {
 			["GraphWindowY"] = 0,
@@ -92,7 +92,7 @@ RecountDB = {
 				},
 			},
 			["DetailWindowX"] = 867.5926716507743,
-			["LastInstanceName"] = "Drak'Tharon Keep",
+			["LastInstanceName"] = "Trial of the Crusader",
 			["RealtimeWindows"] = {
 				["Realtime_Nalar_DAMAGE"] = {
 					"Nalar", -- [1]
@@ -260,14 +260,14 @@ RecountDB = {
 			["GraphWindowY"] = 0,
 			["MainWindow"] = {
 				["Position"] = {
-					["y"] = 146.6666044798703,
+					["y"] = 133.6295325096182,
 					["h"] = 317.9999894683651,
 					["w"] = 247.0000029406513,
-					["x"] = -635.0186428401877,
+					["x"] = -632.6482251357162,
 				},
 			},
 			["DetailWindowX"] = 74.99999883741693,
-			["LastInstanceName"] = "Vault of Archavon",
+			["LastInstanceName"] = "The Culling of Stratholme",
 			["CurDataSet"] = "LastFightData",
 			["Colors"] = {
 				["Bar"] = {
@@ -280,9 +280,9 @@ RecountDB = {
 				},
 			},
 			["DetailWindowY"] = -194.6666296463744,
-			["GraphWindowX"] = 0,
-			["MainWindowWidth"] = 247.3703663456547,
 			["MainWindowHeight"] = 317.6297135990283,
+			["MainWindowWidth"] = 247.3703663456547,
+			["GraphWindowX"] = 0,
 		},
 		["Ulrezaj - Icecrown"] = {
 			["GraphWindowY"] = 0,
@@ -444,9 +444,6 @@ RecountDB = {
 					["h"] = 336.9999910412716,
 				},
 			},
-			["DetailWindowX"] = 0,
-			["LastInstanceName"] = "The Eye of Eternity",
-			["CurDataSet"] = "LastFightData",
 			["Colors"] = {
 				["Bar"] = {
 					["Bar Text"] = {
@@ -458,9 +455,12 @@ RecountDB = {
 				},
 			},
 			["DetailWindowY"] = 3.999978116083373,
-			["MainWindowHeight"] = 337.3333968878745,
-			["MainWindowWidth"] = 260.8889019888445,
+			["DetailWindowX"] = 0,
+			["LastInstanceName"] = "Trial of the Crusader",
+			["CurDataSet"] = "LastFightData",
 			["GraphWindowX"] = 0,
+			["MainWindowWidth"] = 260.8889019888445,
+			["MainWindowHeight"] = 337.3333968878745,
 		},
 		["Rakhnis - Icecrown"] = {
 			["GraphWindowY"] = 0,
@@ -511,11 +511,11 @@ RecountDB = {
 					},
 				},
 			},
-			["GraphWindowX"] = 0,
+			["DetailWindowY"] = -124.0493402990752,
 			["MainWindowVis"] = false,
 			["MainWindowMode"] = 5,
 			["MainWindowWidth"] = 256.148530518934,
-			["DetailWindowY"] = -124.0493402990752,
+			["GraphWindowX"] = 0,
 		},
 		["Gligor - Icecrown"] = {
 			["GraphWindowY"] = 0,
