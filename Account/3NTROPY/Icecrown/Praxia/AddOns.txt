@@ -32,4 +32,4 @@ XPerl_Target: disabled
 XPerl_TargetTarget: disabled
 XPerl_Tutorial: disabled
 OmniCC_Shine: disabled
-HalloGuyz: disabled
+HalloGuyz: enabled
