@@ -98,16 +98,9 @@ Y: -187
 W: 100
 H: 30
 Frame: WowLuaFrame
-FrameLevel: 17
+FrameLevel: 22
 Anchor: LEFT
 X: 50
 Y: -16
 W: 811
 H: 546
-Frame: GridLayoutFrame
-FrameLevel: 0
-Anchor: RIGHT
-X: -140
-Y: -51
-W: 57
-H: 56

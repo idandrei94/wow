@@ -34,4 +34,4 @@ XPerl_Tutorial: disabled
 OmniCC_Shine: disabled
 Chaosbaneremove: disabled
 XPerl_TeamSpeak: disabled
-HalloGuyz: enabled
+HalloGuyz: disabled

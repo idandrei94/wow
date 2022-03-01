@@ -7,5 +7,5 @@ XPerl_CustomHighlight: disabled
 XPerl_Player: disabled
 XPerl_Target: disabled
 XPerl_TargetTarget: disabled
-HalloGuyz: enabled
+HalloGuyz: disabled
 HealBot: disabled

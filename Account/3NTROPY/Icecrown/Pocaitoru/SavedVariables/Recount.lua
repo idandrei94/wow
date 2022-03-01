@@ -9,8 +9,8 @@ RecountPerCharDB = {
 			["Owner"] = false,
 			["enClass"] = "ROGUE",
 			["unit"] = "Backtouch",
+			["LastFightIn"] = 4,
 			["Name"] = "Backtouch",
-			["lazysync"] = true,
 			["Fights"] = {
 				["CurrentFightData"] = {
 					["DOTs"] = {
@@ -25,41 +25,40 @@ RecountPerCharDB = {
 					},
 					["DeathCount"] = 0,
 					["HOT_Time"] = 0,
-					["ElementHitsDone"] = {
+					["ElementTakenBlock"] = {
 					},
-					["ElementTakenAbsorb"] = {
-					},
+					["RunicPowerGain"] = 0,
 					["ElementTaken"] = {
 					},
-					["DOT_Time"] = 0,
+					["HOTs"] = {
+					},
 					["Damage"] = 0,
-					["ElementTakenBlock"] = {
+					["ElementDoneAbsorb"] = {
 					},
 					["TimeHeal"] = 0,
 					["RessedWho"] = {
 					},
 					["Dispels"] = 0,
-					["ElementTakenResist"] = {
-					},
-					["ElementDoneAbsorb"] = {
-					},
-					["FAttacks"] = {
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementDone"] = {
-					},
-					["PartialAbsorb"] = {
+					["PartialBlock"] = {
 					},
 					["DamagedWho"] = {
 					},
-					["PartialBlock"] = {
+					["FAttacks"] = {
+					},
+					["HealingTaken"] = 0,
+					["ElementDone"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementHitsDone"] = {
+					},
+					["ManaGainedFrom"] = {
 					},
 					["WhoDamaged"] = {
 					},
 					["EnergyGainedFrom"] = {
 					},
-					["PartialResist"] = {
+					["RunicPowerGained"] = {
 					},
 					["CCBroken"] = {
 					},
@@ -67,22 +66,21 @@ RecountPerCharDB = {
 					},
 					["TimeHealing"] = {
 					},
-					["OverHeals"] = {
-					},
-					["ManaGainedFrom"] = {
-					},
-					["RunicPowerGained"] = {
-					},
-					["CCBreak"] = 0,
-					["RageGained"] = {
+					["Dispelled"] = 0,
+					["WhoHealed"] = {
 					},
 					["HealedWho"] = {
 					},
+					["CCBreak"] = 0,
+					["ElementTakenAbsorb"] = {
+					},
+					["FDamage"] = 0,
 					["EnergyGain"] = 0,
 					["ManaGained"] = {
 					},
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
+					["PartialAbsorb"] = {
+					},
+					["ActiveTime"] = 0,
 					["Overhealing"] = 0,
 					["TimeSpent"] = {
 					},
@@ -90,35 +88,38 @@ RecountPerCharDB = {
 					},
 					["InterruptData"] = {
 					},
-					["RunicPowerGain"] = 0,
+					["ElementTakenResist"] = {
+					},
 					["Heals"] = {
 					},
-					["WhoHealed"] = {
-					},
+					["Interrupts"] = 0,
 					["EnergyGained"] = {
 					},
-					["ActiveTime"] = 0,
-					["Healing"] = 0,
-					["FDamagedWho"] = {
+					["PartialResist"] = {
 					},
-					["Dispelled"] = 0,
+					["Healing"] = 0,
+					["RageGained"] = {
+					},
+					["OverHeals"] = {
+					},
 					["Attacks"] = {
 					},
-					["HealingTaken"] = 0,
 					["RageGain"] = 0,
+					["FDamagedWho"] = {
+					},
 					["TimeDamage"] = 0,
 					["TimeDamaging"] = {
 					},
 					["ManaGain"] = 0,
-					["HOTs"] = {
-					},
+					["DOT_Time"] = 0,
 					["DispelledWho"] = {
 					},
 				},
 			},
+			["lazysync"] = true,
 			["level"] = 80,
 			["UnitLockout"] = 1645985675,
-			["LastFightIn"] = 4,
+			["LastAbility"] = 25706.589,
 		},
 		["Caryrraent"] = {
 			["GUID"] = "0x070000000079B0B1",
@@ -264,23 +265,74 @@ RecountPerCharDB = {
 			},
 			["enClass"] = "PALADIN",
 			["unit"] = "Caryrraent",
-			["lazysync"] = true,
+			["LastAbility"] = 25706.589,
 			["level"] = 80,
 			["LastDamageAbility"] = "Melee",
 			["LastFightIn"] = 1,
 			["LastEventNum"] = {
-				[12] = 12.11545375173335,
-				[47] = 18.0576241590057,
-				[2] = 13.34805608340609,
-				[48] = 9.059627137794669,
 				[19] = 8.566586205125571,
-				[43] = 21.82733295670484,
+				[12] = 12.11545375173335,
 				[37] = 6.599558317497817,
+				[2] = 13.34805608340609,
+				[47] = 18.0576241590057,
+				[48] = 9.059627137794669,
+				[43] = 21.82733295670484,
+			},
+			["lazysync"] = true,
+			["FightsSaved"] = 5,
+			["LastEventTimes"] = {
+				22277.217, -- [1]
+				22277.459, -- [2]
+				22277.46, -- [3]
+				22278.23, -- [4]
+				22278.626, -- [5]
+				22279.008, -- [6]
+				22279.238, -- [7]
+				22279.578, -- [8]
+				22279.807, -- [9]
+				22279.807, -- [10]
+				22280.189, -- [11]
+				22280.78, -- [12]
+				22281.453, -- [13]
+				22267.125, -- [14]
+				22267.66, -- [15]
+				22267.66, -- [16]
+				22267.875, -- [17]
+				22268.187, -- [18]
+				22268.937, -- [19]
+				22269.035, -- [20]
+				22269.278, -- [21]
+				22269.278, -- [22]
+				22269.667, -- [23]
+				22269.799, -- [24]
+				22270.883, -- [25]
+				22270.883, -- [26]
+				22271.112, -- [27]
+				22271.341, -- [28]
+				22271.341, -- [29]
+				22272.5, -- [30]
+				22272.501, -- [31]
+				22272.675, -- [32]
+				22272.904, -- [33]
+				22273.155, -- [34]
+				22273.155, -- [35]
+				22273.765, -- [36]
+				22273.765, -- [37]
+				22274.035, -- [38]
+				22274.036, -- [39]
+				22274.251, -- [40]
+				22274.251, -- [41]
+				22274.251, -- [42]
+				22274.377, -- [43]
+				22275.154, -- [44]
+				22275.154, -- [45]
+				22275.647, -- [46]
+				22275.987, -- [47]
+				22276.106, -- [48]
+				22276.224, -- [49]
+				22276.224, -- [50]
 			},
 			["type"] = "Ungrouped",
-			["FightsSaved"] = 5,
-			["LastDamageTaken"] = 2359,
-			["LastAbility"] = 22281.453,
 			["Owner"] = false,
 			["TimeLast"] = {
 				["TimeHeal"] = 1645985426,
@@ -454,60 +506,50 @@ RecountPerCharDB = {
 				false, -- [49]
 				false, -- [50]
 			},
-			["LastEventTimes"] = {
-				22277.217, -- [1]
-				22277.459, -- [2]
-				22277.46, -- [3]
-				22278.23, -- [4]
-				22278.626, -- [5]
-				22279.008, -- [6]
-				22279.238, -- [7]
-				22279.578, -- [8]
-				22279.807, -- [9]
-				22279.807, -- [10]
-				22280.189, -- [11]
-				22280.78, -- [12]
-				22281.453, -- [13]
-				22267.125, -- [14]
-				22267.66, -- [15]
-				22267.66, -- [16]
-				22267.875, -- [17]
-				22268.187, -- [18]
-				22268.937, -- [19]
-				22269.035, -- [20]
-				22269.278, -- [21]
-				22269.278, -- [22]
-				22269.667, -- [23]
-				22269.799, -- [24]
-				22270.883, -- [25]
-				22270.883, -- [26]
-				22271.112, -- [27]
-				22271.341, -- [28]
-				22271.341, -- [29]
-				22272.5, -- [30]
-				22272.501, -- [31]
-				22272.675, -- [32]
-				22272.904, -- [33]
-				22273.155, -- [34]
-				22273.155, -- [35]
-				22273.765, -- [36]
-				22273.765, -- [37]
-				22274.035, -- [38]
-				22274.036, -- [39]
-				22274.251, -- [40]
-				22274.251, -- [41]
-				22274.251, -- [42]
-				22274.377, -- [43]
-				22275.154, -- [44]
-				22275.154, -- [45]
-				22275.647, -- [46]
-				22275.987, -- [47]
-				22276.106, -- [48]
-				22276.224, -- [49]
-				22276.224, -- [50]
-			},
+			["LastDamageTaken"] = 2359,
 			["Fights"] = {
 				["Fight5"] = {
+					["ManaGainedFrom"] = {
+						["Caryrraent"] = {
+							["Details"] = {
+								["Spiritual Attunement"] = {
+									["count"] = 85,
+								},
+								["Divine Plea"] = {
+									["count"] = 294,
+								},
+							},
+							["amount"] = 379,
+						},
+						["Pocaitoru"] = {
+							["Details"] = {
+								["Replenishment"] = {
+									["count"] = 77,
+								},
+							},
+							["amount"] = 77,
+						},
+					},
+					["Attacks"] = {
+						["Avenger's Shield"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 3446,
+									["min"] = 3446,
+									["count"] = 1,
+									["amount"] = 3446,
+								},
+								["Hit"] = {
+									["max"] = 1896,
+									["min"] = 1896,
+									["count"] = 1,
+									["amount"] = 1896,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 5342,
+						},
+					},
 					["ElementHitsDone"] = {
 						["Holy"] = {
 							["Details"] = {
@@ -520,19 +562,6 @@ RecountPerCharDB = {
 							},
 							["amount"] = 2,
 						},
-					},
-					["DamagedWho"] = {
-						["Dragonflayer Ironhelm"] = {
-							["Details"] = {
-								["Avenger's Shield"] = {
-									["count"] = 5342,
-								},
-							},
-							["amount"] = 5342,
-						},
-					},
-					["ElementDone"] = {
-						["Holy"] = 5342,
 					},
 					["TimeSpent"] = {
 						["Dragonflayer Ironhelm"] = {
@@ -554,26 +583,9 @@ RecountPerCharDB = {
 							["amount"] = 1777,
 						},
 					},
-					["HealingTaken"] = 1777,
-					["Attacks"] = {
-						["Avenger's Shield"] = {
-							["Details"] = {
-								["Crit"] = {
-									["max"] = 3446,
-									["min"] = 3446,
-									["count"] = 1,
-									["amount"] = 3446,
-								},
-								["Hit"] = {
-									["max"] = 1896,
-									["min"] = 1896,
-									["count"] = 1,
-									["amount"] = 1896,
-								},
-							},
-							["count"] = 2,
-							["amount"] = 5342,
-						},
+					["ActiveTime"] = 3.76,
+					["ElementDone"] = {
+						["Holy"] = 5342,
 					},
 					["ManaGained"] = {
 						["Replenishment"] = {
@@ -601,28 +613,17 @@ RecountPerCharDB = {
 							["amount"] = 294,
 						},
 					},
-					["ManaGainedFrom"] = {
-						["Caryrraent"] = {
+					["DamagedWho"] = {
+						["Dragonflayer Ironhelm"] = {
 							["Details"] = {
-								["Spiritual Attunement"] = {
-									["count"] = 85,
-								},
-								["Divine Plea"] = {
-									["count"] = 294,
+								["Avenger's Shield"] = {
+									["count"] = 5342,
 								},
 							},
-							["amount"] = 379,
-						},
-						["Pocaitoru"] = {
-							["Details"] = {
-								["Replenishment"] = {
-									["count"] = 77,
-								},
-							},
-							["amount"] = 77,
+							["amount"] = 5342,
 						},
 					},
-					["ActiveTime"] = 3.76,
+					["TimeDamage"] = 3.76,
 					["TimeDamaging"] = {
 						["Dragonflayer Ironhelm"] = {
 							["Details"] = {
@@ -634,7 +635,7 @@ RecountPerCharDB = {
 						},
 					},
 					["ManaGain"] = 456,
-					["TimeDamage"] = 3.76,
+					["HealingTaken"] = 1777,
 					["Damage"] = 5342,
 				},
 				["CurrentFightData"] = {
@@ -650,41 +651,40 @@ RecountPerCharDB = {
 					},
 					["DeathCount"] = 0,
 					["HOT_Time"] = 0,
-					["ElementHitsDone"] = {
+					["ElementTakenBlock"] = {
 					},
-					["ElementTakenAbsorb"] = {
-					},
+					["RunicPowerGain"] = 0,
 					["ElementTaken"] = {
 					},
-					["DOT_Time"] = 0,
+					["HOTs"] = {
+					},
 					["Damage"] = 0,
-					["ElementTakenBlock"] = {
+					["ElementDoneAbsorb"] = {
 					},
 					["TimeHeal"] = 0,
 					["RessedWho"] = {
 					},
 					["Dispels"] = 0,
-					["ElementTakenResist"] = {
-					},
-					["ElementDoneAbsorb"] = {
-					},
-					["FAttacks"] = {
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementDone"] = {
-					},
-					["PartialAbsorb"] = {
+					["PartialBlock"] = {
 					},
 					["DamagedWho"] = {
 					},
-					["PartialBlock"] = {
+					["FAttacks"] = {
+					},
+					["HealingTaken"] = 0,
+					["ElementDone"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementHitsDone"] = {
+					},
+					["ManaGainedFrom"] = {
 					},
 					["WhoDamaged"] = {
 					},
 					["EnergyGainedFrom"] = {
 					},
-					["PartialResist"] = {
+					["RunicPowerGained"] = {
 					},
 					["CCBroken"] = {
 					},
@@ -692,22 +692,21 @@ RecountPerCharDB = {
 					},
 					["TimeHealing"] = {
 					},
-					["OverHeals"] = {
-					},
-					["ManaGainedFrom"] = {
-					},
-					["RunicPowerGained"] = {
-					},
-					["CCBreak"] = 0,
-					["RageGained"] = {
+					["Dispelled"] = 0,
+					["WhoHealed"] = {
 					},
 					["HealedWho"] = {
 					},
+					["CCBreak"] = 0,
+					["ElementTakenAbsorb"] = {
+					},
+					["FDamage"] = 0,
 					["EnergyGain"] = 0,
 					["ManaGained"] = {
 					},
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
+					["PartialAbsorb"] = {
+					},
+					["ActiveTime"] = 0,
 					["Overhealing"] = 0,
 					["TimeSpent"] = {
 					},
@@ -715,28 +714,30 @@ RecountPerCharDB = {
 					},
 					["InterruptData"] = {
 					},
-					["RunicPowerGain"] = 0,
+					["ElementTakenResist"] = {
+					},
 					["Heals"] = {
 					},
-					["WhoHealed"] = {
-					},
+					["Interrupts"] = 0,
 					["EnergyGained"] = {
 					},
-					["ActiveTime"] = 0,
-					["Healing"] = 0,
-					["FDamagedWho"] = {
+					["PartialResist"] = {
 					},
-					["Dispelled"] = 0,
+					["Healing"] = 0,
+					["RageGained"] = {
+					},
+					["OverHeals"] = {
+					},
 					["Attacks"] = {
 					},
-					["HealingTaken"] = 0,
 					["RageGain"] = 0,
+					["FDamagedWho"] = {
+					},
 					["TimeDamage"] = 0,
 					["TimeDamaging"] = {
 					},
 					["ManaGain"] = 0,
-					["HOTs"] = {
-					},
+					["DOT_Time"] = 0,
 					["DispelledWho"] = {
 					},
 				},
@@ -810,6 +811,122 @@ RecountPerCharDB = {
 					},
 					["DeathCount"] = 0,
 					["HOT_Time"] = 0,
+					["ElementTakenBlock"] = {
+						["Melee"] = 1746,
+						["Physical"] = 873,
+					},
+					["RunicPowerGain"] = 0,
+					["ElementTaken"] = {
+						["Melee"] = 33126,
+						["Physical"] = 5397,
+					},
+					["HOTs"] = {
+					},
+					["Damage"] = 62185,
+					["ElementDoneAbsorb"] = {
+					},
+					["TimeHeal"] = 1.1,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["PartialBlock"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Blocked"] = {
+									["max"] = 873,
+									["min"] = 873,
+									["count"] = 2,
+									["amount"] = 1746,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 1746,
+						},
+						["Concussion Blow"] = {
+							["Details"] = {
+								["Blocked"] = {
+									["max"] = 873,
+									["min"] = 873,
+									["count"] = 1,
+									["amount"] = 873,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 873,
+						},
+					},
+					["DamagedWho"] = {
+						["Dragonflayer Weaponsmith"] = {
+							["Details"] = {
+								["Consecration (DoT)"] = {
+									["count"] = 1830,
+								},
+								["Melee"] = {
+									["count"] = 3871,
+								},
+								["Argent Fury"] = {
+									["count"] = 1676,
+								},
+								["Holy Vengeance (DoT)"] = {
+									["count"] = 2424,
+								},
+								["Hand of Reckoning"] = {
+									["count"] = 1809,
+								},
+								["Hammer of the Righteous"] = {
+									["count"] = 4812,
+								},
+								["Holy Shield"] = {
+									["count"] = 582,
+								},
+								["Judgement of Vengeance"] = {
+									["count"] = 1231,
+								},
+								["Shield of Righteousness"] = {
+									["count"] = 4827,
+								},
+								["Seal of Vengeance"] = {
+									["count"] = 1889,
+								},
+							},
+							["amount"] = 24951,
+						},
+						["Dragonflayer Metalworker"] = {
+							["Details"] = {
+								["Consecration (DoT)"] = {
+									["count"] = 7642,
+								},
+								["Melee"] = {
+									["count"] = 4730,
+								},
+								["Judgement of Vengeance"] = {
+									["count"] = 2414,
+								},
+								["Holy Vengeance (DoT)"] = {
+									["count"] = 7507,
+								},
+								["Hammer of the Righteous"] = {
+									["count"] = 9197,
+								},
+								["Shield of Righteousness"] = {
+									["count"] = 3266,
+								},
+								["Seal of Vengeance"] = {
+									["count"] = 2478,
+								},
+							},
+							["amount"] = 37234,
+						},
+					},
+					["FAttacks"] = {
+					},
+					["HealingTaken"] = 22034,
+					["ElementDone"] = {
+						["Melee"] = 8601,
+						["Holy"] = 53584,
+					},
+					["RunicPowerGainedFrom"] = {
+					},
 					["ElementHitsDone"] = {
 						["Melee"] = {
 							["Details"] = {
@@ -843,34 +960,173 @@ RecountPerCharDB = {
 							["amount"] = 104,
 						},
 					},
+					["ManaGainedFrom"] = {
+						["Pocaitoru"] = {
+							["Details"] = {
+								["Replenishment"] = {
+									["count"] = 341,
+								},
+							},
+							["amount"] = 341,
+						},
+						["Caryrraent"] = {
+							["Details"] = {
+								["Divine Plea"] = {
+									["count"] = 1176,
+								},
+								["Blessing of Sanctuary"] = {
+									["count"] = 1872,
+								},
+								["Lay on Hands"] = {
+									["count"] = 1950,
+								},
+								["Spiritual Attunement"] = {
+									["count"] = 159,
+								},
+								["Judgement of Wisdom"] = {
+									["count"] = 174,
+								},
+							},
+							["amount"] = 5331,
+						},
+					},
+					["WhoDamaged"] = {
+						["Dragonflayer Weaponsmith"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 4165,
+								},
+								["Concussion Blow"] = {
+									["count"] = 2965,
+								},
+								["Cleave"] = {
+									["count"] = 2432,
+								},
+							},
+							["amount"] = 9562,
+						},
+						["Dragonflayer Metalworker"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 28961,
+								},
+							},
+							["amount"] = 28961,
+						},
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["RunicPowerGained"] = {
+					},
+					["CCBroken"] = {
+					},
+					["ElementDoneBlock"] = {
+						["Melee"] = 40,
+						["Holy"] = 80,
+					},
+					["TimeHealing"] = {
+						["Caryrraent"] = {
+							["Details"] = {
+								["Ardent Defender"] = {
+									["count"] = 0.24,
+								},
+								["Lay on Hands"] = {
+									["count"] = 0.86,
+								},
+							},
+							["amount"] = 1.1,
+						},
+					},
+					["Dispelled"] = 0,
+					["WhoHealed"] = {
+						["Pocaitoru"] = {
+							["Details"] = {
+								["Divine Storm"] = {
+									["count"] = 3155,
+								},
+							},
+							["amount"] = 3155,
+						},
+						["Caryrraent"] = {
+							["Details"] = {
+								["Ardent Defender"] = {
+									["count"] = 2599,
+								},
+								["Lay on Hands"] = {
+									["count"] = 16280,
+								},
+							},
+							["amount"] = 18879,
+						},
+					},
+					["HealedWho"] = {
+						["Caryrraent"] = {
+							["Details"] = {
+								["Ardent Defender"] = {
+									["count"] = 2599,
+								},
+								["Lay on Hands"] = {
+									["count"] = 16280,
+								},
+							},
+							["amount"] = 18879,
+						},
+					},
+					["CCBreak"] = 0,
 					["ElementTakenAbsorb"] = {
 						["Melee"] = 6977,
 					},
-					["ElementTaken"] = {
-						["Melee"] = 33126,
-						["Physical"] = 5397,
-					},
-					["DOT_Time"] = 171,
-					["Damage"] = 62185,
-					["ElementTakenBlock"] = {
-						["Melee"] = 1746,
-						["Physical"] = 873,
-					},
-					["TimeHeal"] = 1.1,
-					["RessedWho"] = {
-					},
-					["Dispels"] = 0,
-					["ElementTakenResist"] = {
-					},
-					["ElementDoneAbsorb"] = {
-					},
-					["FAttacks"] = {
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementDone"] = {
-						["Melee"] = 8601,
-						["Holy"] = 53584,
+					["FDamage"] = 0,
+					["EnergyGain"] = 0,
+					["ManaGained"] = {
+						["Replenishment"] = {
+							["Details"] = {
+								["Pocaitoru"] = {
+									["count"] = 341,
+								},
+							},
+							["amount"] = 341,
+						},
+						["Blessing of Sanctuary"] = {
+							["Details"] = {
+								["Caryrraent"] = {
+									["count"] = 1872,
+								},
+							},
+							["amount"] = 1872,
+						},
+						["Lay on Hands"] = {
+							["Details"] = {
+								["Caryrraent"] = {
+									["count"] = 1950,
+								},
+							},
+							["amount"] = 1950,
+						},
+						["Divine Plea"] = {
+							["Details"] = {
+								["Caryrraent"] = {
+									["count"] = 1176,
+								},
+							},
+							["amount"] = 1176,
+						},
+						["Spiritual Attunement"] = {
+							["Details"] = {
+								["Caryrraent"] = {
+									["count"] = 159,
+								},
+							},
+							["amount"] = 159,
+						},
+						["Judgement of Wisdom"] = {
+							["Details"] = {
+								["Caryrraent"] = {
+									["count"] = 174,
+								},
+							},
+							["amount"] = 174,
+						},
 					},
 					["PartialAbsorb"] = {
 						["Concussion Blow"] = {
@@ -940,317 +1196,7 @@ RecountPerCharDB = {
 							["amount"] = 6977,
 						},
 					},
-					["DamagedWho"] = {
-						["Dragonflayer Weaponsmith"] = {
-							["Details"] = {
-								["Consecration (DoT)"] = {
-									["count"] = 1830,
-								},
-								["Melee"] = {
-									["count"] = 3871,
-								},
-								["Argent Fury"] = {
-									["count"] = 1676,
-								},
-								["Holy Vengeance (DoT)"] = {
-									["count"] = 2424,
-								},
-								["Hand of Reckoning"] = {
-									["count"] = 1809,
-								},
-								["Hammer of the Righteous"] = {
-									["count"] = 4812,
-								},
-								["Holy Shield"] = {
-									["count"] = 582,
-								},
-								["Judgement of Vengeance"] = {
-									["count"] = 1231,
-								},
-								["Shield of Righteousness"] = {
-									["count"] = 4827,
-								},
-								["Seal of Vengeance"] = {
-									["count"] = 1889,
-								},
-							},
-							["amount"] = 24951,
-						},
-						["Dragonflayer Metalworker"] = {
-							["Details"] = {
-								["Consecration (DoT)"] = {
-									["count"] = 7642,
-								},
-								["Melee"] = {
-									["count"] = 4730,
-								},
-								["Judgement of Vengeance"] = {
-									["count"] = 2414,
-								},
-								["Holy Vengeance (DoT)"] = {
-									["count"] = 7507,
-								},
-								["Hammer of the Righteous"] = {
-									["count"] = 9197,
-								},
-								["Shield of Righteousness"] = {
-									["count"] = 3266,
-								},
-								["Seal of Vengeance"] = {
-									["count"] = 2478,
-								},
-							},
-							["amount"] = 37234,
-						},
-					},
-					["PartialBlock"] = {
-						["Melee"] = {
-							["Details"] = {
-								["Blocked"] = {
-									["max"] = 873,
-									["min"] = 873,
-									["count"] = 2,
-									["amount"] = 1746,
-								},
-							},
-							["count"] = 2,
-							["amount"] = 1746,
-						},
-						["Concussion Blow"] = {
-							["Details"] = {
-								["Blocked"] = {
-									["max"] = 873,
-									["min"] = 873,
-									["count"] = 1,
-									["amount"] = 873,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 873,
-						},
-					},
-					["WhoDamaged"] = {
-						["Dragonflayer Weaponsmith"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 4165,
-								},
-								["Concussion Blow"] = {
-									["count"] = 2965,
-								},
-								["Cleave"] = {
-									["count"] = 2432,
-								},
-							},
-							["amount"] = 9562,
-						},
-						["Dragonflayer Metalworker"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 28961,
-								},
-							},
-							["amount"] = 28961,
-						},
-					},
-					["EnergyGainedFrom"] = {
-					},
-					["PartialResist"] = {
-						["Concussion Blow"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 2,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 2,
-							["amount"] = 0,
-						},
-						["Cleave"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 2,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 2,
-							["amount"] = 0,
-						},
-						["Disarm"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 2,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 2,
-							["amount"] = 0,
-						},
-						["Sunder Armor"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 2,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 2,
-							["amount"] = 0,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 25,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 25,
-							["amount"] = 0,
-						},
-					},
-					["CCBroken"] = {
-					},
-					["ElementDoneBlock"] = {
-						["Melee"] = 40,
-						["Holy"] = 80,
-					},
-					["TimeHealing"] = {
-						["Caryrraent"] = {
-							["Details"] = {
-								["Ardent Defender"] = {
-									["count"] = 0.24,
-								},
-								["Lay on Hands"] = {
-									["count"] = 0.86,
-								},
-							},
-							["amount"] = 1.1,
-						},
-					},
-					["OverHeals"] = {
-						["Lay on Hands"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 5391,
-									["min"] = 5391,
-									["count"] = 1,
-									["amount"] = 5391,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 5391,
-						},
-					},
-					["ManaGainedFrom"] = {
-						["Pocaitoru"] = {
-							["Details"] = {
-								["Replenishment"] = {
-									["count"] = 341,
-								},
-							},
-							["amount"] = 341,
-						},
-						["Caryrraent"] = {
-							["Details"] = {
-								["Divine Plea"] = {
-									["count"] = 1176,
-								},
-								["Blessing of Sanctuary"] = {
-									["count"] = 1872,
-								},
-								["Lay on Hands"] = {
-									["count"] = 1950,
-								},
-								["Spiritual Attunement"] = {
-									["count"] = 159,
-								},
-								["Judgement of Wisdom"] = {
-									["count"] = 174,
-								},
-							},
-							["amount"] = 5331,
-						},
-					},
-					["RunicPowerGained"] = {
-					},
-					["CCBreak"] = 0,
-					["RageGained"] = {
-					},
-					["HealedWho"] = {
-						["Caryrraent"] = {
-							["Details"] = {
-								["Ardent Defender"] = {
-									["count"] = 2599,
-								},
-								["Lay on Hands"] = {
-									["count"] = 16280,
-								},
-							},
-							["amount"] = 18879,
-						},
-					},
-					["EnergyGain"] = 0,
-					["ManaGained"] = {
-						["Replenishment"] = {
-							["Details"] = {
-								["Pocaitoru"] = {
-									["count"] = 341,
-								},
-							},
-							["amount"] = 341,
-						},
-						["Blessing of Sanctuary"] = {
-							["Details"] = {
-								["Caryrraent"] = {
-									["count"] = 1872,
-								},
-							},
-							["amount"] = 1872,
-						},
-						["Lay on Hands"] = {
-							["Details"] = {
-								["Caryrraent"] = {
-									["count"] = 1950,
-								},
-							},
-							["amount"] = 1950,
-						},
-						["Divine Plea"] = {
-							["Details"] = {
-								["Caryrraent"] = {
-									["count"] = 1176,
-								},
-							},
-							["amount"] = 1176,
-						},
-						["Spiritual Attunement"] = {
-							["Details"] = {
-								["Caryrraent"] = {
-									["count"] = 159,
-								},
-							},
-							["amount"] = 159,
-						},
-						["Judgement of Wisdom"] = {
-							["Details"] = {
-								["Caryrraent"] = {
-									["count"] = 174,
-								},
-							},
-							["amount"] = 174,
-						},
-					},
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
+					["ActiveTime"] = 50.23,
 					["Overhealing"] = 5391,
 					["TimeSpent"] = {
 						["Caryrraent"] = {
@@ -1333,7 +1279,8 @@ RecountPerCharDB = {
 					},
 					["InterruptData"] = {
 					},
-					["RunicPowerGain"] = 0,
+					["ElementTakenResist"] = {
+					},
 					["Heals"] = {
 						["Ardent Defender"] = {
 							["Details"] = {
@@ -1360,34 +1307,88 @@ RecountPerCharDB = {
 							["amount"] = 16280,
 						},
 					},
-					["WhoHealed"] = {
-						["Pocaitoru"] = {
-							["Details"] = {
-								["Divine Storm"] = {
-									["count"] = 3155,
-								},
-							},
-							["amount"] = 3155,
-						},
-						["Caryrraent"] = {
-							["Details"] = {
-								["Ardent Defender"] = {
-									["count"] = 2599,
-								},
-								["Lay on Hands"] = {
-									["count"] = 16280,
-								},
-							},
-							["amount"] = 18879,
-						},
-					},
+					["Interrupts"] = 0,
 					["EnergyGained"] = {
 					},
-					["ActiveTime"] = 50.23,
-					["Healing"] = 18879,
-					["FDamagedWho"] = {
+					["PartialResist"] = {
+						["Concussion Blow"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 0,
+						},
+						["Cleave"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 0,
+						},
+						["Disarm"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 0,
+						},
+						["Sunder Armor"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 25,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 25,
+							["amount"] = 0,
+						},
 					},
-					["Dispelled"] = 0,
+					["Healing"] = 18879,
+					["RageGained"] = {
+					},
+					["OverHeals"] = {
+						["Lay on Hands"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 5391,
+									["min"] = 5391,
+									["count"] = 1,
+									["amount"] = 5391,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 5391,
+						},
+					},
 					["Attacks"] = {
 						["Consecration (DoT)"] = {
 							["Details"] = {
@@ -1554,8 +1555,9 @@ RecountPerCharDB = {
 							["amount"] = 4367,
 						},
 					},
-					["HealingTaken"] = 22034,
 					["RageGain"] = 0,
+					["FDamagedWho"] = {
+					},
 					["TimeDamage"] = 49.13,
 					["TimeDamaging"] = {
 						["Dragonflayer Weaponsmith"] = {
@@ -1624,8 +1626,7 @@ RecountPerCharDB = {
 						},
 					},
 					["ManaGain"] = 5672,
-					["HOTs"] = {
-					},
+					["DOT_Time"] = 171,
 					["DispelledWho"] = {
 					},
 				},
@@ -1642,41 +1643,40 @@ RecountPerCharDB = {
 					},
 					["DeathCount"] = 0,
 					["HOT_Time"] = 0,
-					["ElementHitsDone"] = {
+					["ElementTakenBlock"] = {
 					},
-					["ElementTakenAbsorb"] = {
-					},
+					["RunicPowerGain"] = 0,
 					["ElementTaken"] = {
 					},
-					["DOT_Time"] = 0,
+					["HOTs"] = {
+					},
 					["Damage"] = 0,
-					["ElementTakenBlock"] = {
+					["ElementDoneAbsorb"] = {
 					},
 					["TimeHeal"] = 0,
 					["RessedWho"] = {
 					},
 					["Dispels"] = 0,
-					["ElementTakenResist"] = {
-					},
-					["ElementDoneAbsorb"] = {
-					},
-					["FAttacks"] = {
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementDone"] = {
-					},
-					["PartialAbsorb"] = {
+					["PartialBlock"] = {
 					},
 					["DamagedWho"] = {
 					},
-					["PartialBlock"] = {
+					["FAttacks"] = {
+					},
+					["HealingTaken"] = 0,
+					["ElementDone"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementHitsDone"] = {
+					},
+					["ManaGainedFrom"] = {
 					},
 					["WhoDamaged"] = {
 					},
 					["EnergyGainedFrom"] = {
 					},
-					["PartialResist"] = {
+					["RunicPowerGained"] = {
 					},
 					["CCBroken"] = {
 					},
@@ -1684,22 +1684,21 @@ RecountPerCharDB = {
 					},
 					["TimeHealing"] = {
 					},
-					["OverHeals"] = {
-					},
-					["ManaGainedFrom"] = {
-					},
-					["RunicPowerGained"] = {
-					},
-					["CCBreak"] = 0,
-					["RageGained"] = {
+					["Dispelled"] = 0,
+					["WhoHealed"] = {
 					},
 					["HealedWho"] = {
 					},
+					["CCBreak"] = 0,
+					["ElementTakenAbsorb"] = {
+					},
+					["FDamage"] = 0,
 					["EnergyGain"] = 0,
 					["ManaGained"] = {
 					},
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
+					["PartialAbsorb"] = {
+					},
+					["ActiveTime"] = 0,
 					["Overhealing"] = 0,
 					["TimeSpent"] = {
 					},
@@ -1707,28 +1706,30 @@ RecountPerCharDB = {
 					},
 					["InterruptData"] = {
 					},
-					["RunicPowerGain"] = 0,
+					["ElementTakenResist"] = {
+					},
 					["Heals"] = {
 					},
-					["WhoHealed"] = {
-					},
+					["Interrupts"] = 0,
 					["EnergyGained"] = {
 					},
-					["ActiveTime"] = 0,
-					["Healing"] = 0,
-					["FDamagedWho"] = {
+					["PartialResist"] = {
 					},
-					["Dispelled"] = 0,
+					["Healing"] = 0,
+					["RageGained"] = {
+					},
+					["OverHeals"] = {
+					},
 					["Attacks"] = {
 					},
-					["HealingTaken"] = 0,
 					["RageGain"] = 0,
+					["FDamagedWho"] = {
+					},
 					["TimeDamage"] = 0,
 					["TimeDamaging"] = {
 					},
 					["ManaGain"] = 0,
-					["HOTs"] = {
-					},
+					["DOT_Time"] = 0,
 					["DispelledWho"] = {
 					},
 				},
@@ -2138,6 +2139,35 @@ RecountPerCharDB = {
 							},
 							["amount"] = 1.1,
 						},
+						["Dragonflayer Metalworker"] = {
+							["Details"] = {
+								["Consecration (DoT)"] = {
+									["count"] = 11.1,
+								},
+								["Judgement of Vengeance"] = {
+									["count"] = 0.7,
+								},
+								["Melee"] = {
+									["count"] = 1.57,
+								},
+								["Holy Vengeance"] = {
+									["count"] = 0.88,
+								},
+								["Holy Vengeance (DoT)"] = {
+									["count"] = 7.61,
+								},
+								["Hammer of the Righteous"] = {
+									["count"] = 0.25,
+								},
+								["Shield of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Seal of Vengeance"] = {
+									["count"] = 8.85,
+								},
+							},
+							["amount"] = 30.95999999999999,
+						},
 						["Dragonflayer Weaponsmith"] = {
 							["Details"] = {
 								["Consecration (DoT)"] = {
@@ -2172,35 +2202,6 @@ RecountPerCharDB = {
 								},
 							},
 							["amount"] = 18.17,
-						},
-						["Dragonflayer Metalworker"] = {
-							["Details"] = {
-								["Consecration (DoT)"] = {
-									["count"] = 11.1,
-								},
-								["Judgement of Vengeance"] = {
-									["count"] = 0.7,
-								},
-								["Melee"] = {
-									["count"] = 1.57,
-								},
-								["Holy Vengeance"] = {
-									["count"] = 0.88,
-								},
-								["Holy Vengeance (DoT)"] = {
-									["count"] = 7.61,
-								},
-								["Hammer of the Righteous"] = {
-									["count"] = 0.25,
-								},
-								["Shield of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Seal of Vengeance"] = {
-									["count"] = 8.85,
-								},
-							},
-							["amount"] = 30.95999999999999,
 						},
 					},
 					["Healing"] = 18879,
@@ -2734,8 +2735,59 @@ RecountPerCharDB = {
 			},
 			["type"] = "Pet",
 			["FightsSaved"] = 5,
-			["LastDamageTaken"] = 2957,
-			["LastAbility"] = 22281.454,
+			["LastAbility"] = 25706.589,
+			["LastEventTimes"] = {
+				22316.614, -- [1]
+				22319.643, -- [2]
+				22322.575, -- [3]
+				22325.563, -- [4]
+				22239.135, -- [5]
+				22240.678, -- [6]
+				22240.912, -- [7]
+				22242.17, -- [8]
+				22242.609, -- [9]
+				22243.572, -- [10]
+				22244.052, -- [11]
+				22249.192, -- [12]
+				22249.469, -- [13]
+				22250.699, -- [14]
+				22251.199, -- [15]
+				22252.186, -- [16]
+				22252.577, -- [17]
+				22252.887, -- [18]
+				22253.762, -- [19]
+				22254.283, -- [20]
+				22254.942, -- [21]
+				22255.178, -- [22]
+				22255.755, -- [23]
+				22256.72, -- [24]
+				22256.908, -- [25]
+				22257.297, -- [26]
+				22258.29, -- [27]
+				22258.797, -- [28]
+				22258.929, -- [29]
+				22259.901, -- [30]
+				22260.978, -- [31]
+				22266.757, -- [32]
+				22267.007, -- [33]
+				22268.298, -- [34]
+				22268.715, -- [35]
+				22269.799, -- [36]
+				22270.118, -- [37]
+				22271.341, -- [38]
+				22271.723, -- [39]
+				22272.903, -- [40]
+				22273.376, -- [41]
+				22274.376, -- [42]
+				22275.036, -- [43]
+				22275.987, -- [44]
+				22278.418, -- [45]
+				22278.8, -- [46]
+				22279.953, -- [47]
+				22280.349, -- [48]
+				22281.454, -- [49]
+				22313.59, -- [50]
+			},
 			["Owner"] = "Kindagood",
 			["LastEventHealth"] = {
 				"7562 (59%)", -- [1]
@@ -2947,58 +2999,7 @@ RecountPerCharDB = {
 				false, -- [49]
 				true, -- [50]
 			},
-			["LastEventTimes"] = {
-				22316.614, -- [1]
-				22319.643, -- [2]
-				22322.575, -- [3]
-				22325.563, -- [4]
-				22239.135, -- [5]
-				22240.678, -- [6]
-				22240.912, -- [7]
-				22242.17, -- [8]
-				22242.609, -- [9]
-				22243.572, -- [10]
-				22244.052, -- [11]
-				22249.192, -- [12]
-				22249.469, -- [13]
-				22250.699, -- [14]
-				22251.199, -- [15]
-				22252.186, -- [16]
-				22252.577, -- [17]
-				22252.887, -- [18]
-				22253.762, -- [19]
-				22254.283, -- [20]
-				22254.942, -- [21]
-				22255.178, -- [22]
-				22255.755, -- [23]
-				22256.72, -- [24]
-				22256.908, -- [25]
-				22257.297, -- [26]
-				22258.29, -- [27]
-				22258.797, -- [28]
-				22258.929, -- [29]
-				22259.901, -- [30]
-				22260.978, -- [31]
-				22266.757, -- [32]
-				22267.007, -- [33]
-				22268.298, -- [34]
-				22268.715, -- [35]
-				22269.799, -- [36]
-				22270.118, -- [37]
-				22271.341, -- [38]
-				22271.723, -- [39]
-				22272.903, -- [40]
-				22273.376, -- [41]
-				22274.376, -- [42]
-				22275.036, -- [43]
-				22275.987, -- [44]
-				22278.418, -- [45]
-				22278.8, -- [46]
-				22279.953, -- [47]
-				22280.349, -- [48]
-				22281.454, -- [49]
-				22313.59, -- [50]
-			},
+			["LastDamageTaken"] = 2957,
 			["Fights"] = {
 				["Fight5"] = {
 					["EnergyGained"] = {
@@ -3022,24 +3023,6 @@ RecountPerCharDB = {
 								},
 							},
 							["amount"] = 4.04,
-						},
-					},
-					["ElementHitsDone"] = {
-						["Melee"] = {
-							["Details"] = {
-								["Crit"] = {
-									["count"] = 1,
-								},
-							},
-							["amount"] = 1,
-						},
-						["Physical"] = {
-							["Details"] = {
-								["Crit"] = {
-									["count"] = 1,
-								},
-							},
-							["amount"] = 1,
 						},
 					},
 					["Attacks"] = {
@@ -3068,11 +3051,12 @@ RecountPerCharDB = {
 							["amount"] = 688,
 						},
 					},
-					["EnergyGain"] = 75,
 					["ElementDone"] = {
 						["Melee"] = 802,
 						["Physical"] = 688,
 					},
+					["EnergyGain"] = 75,
+					["TimeDamage"] = 4.04,
 					["DamagedWho"] = {
 						["Dragonflayer Ironhelm"] = {
 							["Details"] = {
@@ -3086,7 +3070,7 @@ RecountPerCharDB = {
 							["amount"] = 1490,
 						},
 					},
-					["TimeDamage"] = 4.04,
+					["ActiveTime"] = 4.04,
 					["TimeDamaging"] = {
 						["Dragonflayer Ironhelm"] = {
 							["Details"] = {
@@ -3110,7 +3094,24 @@ RecountPerCharDB = {
 							["amount"] = 75,
 						},
 					},
-					["ActiveTime"] = 4.04,
+					["ElementHitsDone"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Crit"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 1,
+						},
+						["Physical"] = {
+							["Details"] = {
+								["Crit"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 1,
+						},
+					},
 					["Damage"] = 1490,
 				},
 				["CurrentFightData"] = {
@@ -3126,41 +3127,40 @@ RecountPerCharDB = {
 					},
 					["DeathCount"] = 0,
 					["HOT_Time"] = 0,
-					["ElementHitsDone"] = {
+					["ElementTakenBlock"] = {
 					},
-					["ElementTakenAbsorb"] = {
-					},
+					["RunicPowerGain"] = 0,
 					["ElementTaken"] = {
 					},
-					["DOT_Time"] = 0,
+					["HOTs"] = {
+					},
 					["Damage"] = 0,
-					["ElementTakenBlock"] = {
+					["ElementDoneAbsorb"] = {
 					},
 					["TimeHeal"] = 0,
 					["RessedWho"] = {
 					},
 					["Dispels"] = 0,
-					["ElementTakenResist"] = {
-					},
-					["ElementDoneAbsorb"] = {
-					},
-					["FAttacks"] = {
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementDone"] = {
-					},
-					["PartialAbsorb"] = {
+					["PartialBlock"] = {
 					},
 					["DamagedWho"] = {
 					},
-					["PartialBlock"] = {
+					["FAttacks"] = {
+					},
+					["HealingTaken"] = 0,
+					["ElementDone"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementHitsDone"] = {
+					},
+					["ManaGainedFrom"] = {
 					},
 					["WhoDamaged"] = {
 					},
 					["EnergyGainedFrom"] = {
 					},
-					["PartialResist"] = {
+					["RunicPowerGained"] = {
 					},
 					["CCBroken"] = {
 					},
@@ -3168,22 +3168,21 @@ RecountPerCharDB = {
 					},
 					["TimeHealing"] = {
 					},
-					["OverHeals"] = {
-					},
-					["ManaGainedFrom"] = {
-					},
-					["RunicPowerGained"] = {
-					},
-					["CCBreak"] = 0,
-					["RageGained"] = {
+					["Dispelled"] = 0,
+					["WhoHealed"] = {
 					},
 					["HealedWho"] = {
 					},
+					["CCBreak"] = 0,
+					["ElementTakenAbsorb"] = {
+					},
+					["FDamage"] = 0,
 					["EnergyGain"] = 0,
 					["ManaGained"] = {
 					},
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
+					["PartialAbsorb"] = {
+					},
+					["ActiveTime"] = 0,
 					["Overhealing"] = 0,
 					["TimeSpent"] = {
 					},
@@ -3191,28 +3190,30 @@ RecountPerCharDB = {
 					},
 					["InterruptData"] = {
 					},
-					["RunicPowerGain"] = 0,
+					["ElementTakenResist"] = {
+					},
 					["Heals"] = {
 					},
-					["WhoHealed"] = {
-					},
+					["Interrupts"] = 0,
 					["EnergyGained"] = {
 					},
-					["ActiveTime"] = 0,
-					["Healing"] = 0,
-					["FDamagedWho"] = {
+					["PartialResist"] = {
 					},
-					["Dispelled"] = 0,
+					["Healing"] = 0,
+					["RageGained"] = {
+					},
+					["OverHeals"] = {
+					},
 					["Attacks"] = {
 					},
-					["HealingTaken"] = 0,
 					["RageGain"] = 0,
+					["FDamagedWho"] = {
+					},
 					["TimeDamage"] = 0,
 					["TimeDamaging"] = {
 					},
 					["ManaGain"] = 0,
-					["HOTs"] = {
-					},
+					["DOT_Time"] = 0,
 					["DispelledWho"] = {
 					},
 				},
@@ -3245,6 +3246,57 @@ RecountPerCharDB = {
 					},
 					["DeathCount"] = 0,
 					["HOT_Time"] = 0,
+					["ElementTakenBlock"] = {
+					},
+					["RunicPowerGain"] = 0,
+					["ElementTaken"] = {
+						["Melee"] = 5849,
+						["Physical"] = 3190,
+					},
+					["HOTs"] = {
+					},
+					["Damage"] = 16382,
+					["ElementDoneAbsorb"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["PartialBlock"] = {
+					},
+					["DamagedWho"] = {
+						["Dragonflayer Weaponsmith"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 7678,
+								},
+								["Bite"] = {
+									["count"] = 5220,
+								},
+							},
+							["amount"] = 12898,
+						},
+						["Dragonflayer Metalworker"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 2116,
+								},
+								["Bite"] = {
+									["count"] = 1368,
+								},
+							},
+							["amount"] = 3484,
+						},
+					},
+					["FAttacks"] = {
+					},
+					["HealingTaken"] = 0,
+					["ElementDone"] = {
+						["Melee"] = 9794,
+						["Physical"] = 6588,
+					},
+					["RunicPowerGainedFrom"] = {
+					},
 					["ElementHitsDone"] = {
 						["Melee"] = {
 							["Details"] = {
@@ -3269,31 +3321,54 @@ RecountPerCharDB = {
 							["amount"] = 19,
 						},
 					},
+					["ManaGainedFrom"] = {
+					},
+					["WhoDamaged"] = {
+						["Dragonflayer Weaponsmith"] = {
+							["Details"] = {
+								["Concussion Blow"] = {
+									["count"] = 2957,
+								},
+								["Melee"] = {
+									["count"] = 5849,
+								},
+								["Cleave"] = {
+									["count"] = 233,
+								},
+							},
+							["amount"] = 9039,
+						},
+					},
+					["EnergyGainedFrom"] = {
+						["Kindagood"] = {
+							["Details"] = {
+								["Go for the Throat"] = {
+									["count"] = 650,
+								},
+							},
+							["amount"] = 650,
+						},
+					},
+					["RunicPowerGained"] = {
+					},
+					["CCBroken"] = {
+					},
+					["ElementDoneBlock"] = {
+						["Physical"] = 40,
+					},
+					["TimeHealing"] = {
+					},
+					["Dispelled"] = 0,
+					["WhoHealed"] = {
+					},
+					["HealedWho"] = {
+					},
+					["CCBreak"] = 0,
 					["ElementTakenAbsorb"] = {
 					},
-					["ElementTaken"] = {
-						["Melee"] = 5849,
-						["Physical"] = 3190,
-					},
-					["DOT_Time"] = 0,
-					["Damage"] = 16382,
-					["ElementTakenBlock"] = {
-					},
-					["TimeHeal"] = 0,
-					["RessedWho"] = {
-					},
-					["Dispels"] = 0,
-					["ElementTakenResist"] = {
-					},
-					["ElementDoneAbsorb"] = {
-					},
-					["FAttacks"] = {
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementDone"] = {
-						["Melee"] = 9794,
-						["Physical"] = 6588,
+					["FDamage"] = 0,
+					["EnergyGain"] = 650,
+					["ManaGained"] = {
 					},
 					["PartialAbsorb"] = {
 						["Concussion Blow"] = {
@@ -3333,52 +3408,45 @@ RecountPerCharDB = {
 							["amount"] = 0,
 						},
 					},
-					["DamagedWho"] = {
+					["ActiveTime"] = 42.3,
+					["Overhealing"] = 0,
+					["TimeSpent"] = {
 						["Dragonflayer Weaponsmith"] = {
 							["Details"] = {
 								["Melee"] = {
-									["count"] = 7678,
+									["count"] = 25.72,
 								},
 								["Bite"] = {
-									["count"] = 5220,
+									["count"] = 6.2,
 								},
 							},
-							["amount"] = 12898,
+							["amount"] = 31.92,
 						},
 						["Dragonflayer Metalworker"] = {
 							["Details"] = {
 								["Melee"] = {
-									["count"] = 2116,
+									["count"] = 8.44,
 								},
 								["Bite"] = {
-									["count"] = 1368,
+									["count"] = 1.94,
 								},
 							},
-							["amount"] = 3484,
+							["amount"] = 10.38,
 						},
 					},
-					["PartialBlock"] = {
+					["WhoDispelled"] = {
 					},
-					["WhoDamaged"] = {
-						["Dragonflayer Weaponsmith"] = {
-							["Details"] = {
-								["Concussion Blow"] = {
-									["count"] = 2957,
-								},
-								["Melee"] = {
-									["count"] = 5849,
-								},
-								["Cleave"] = {
-									["count"] = 233,
-								},
-							},
-							["amount"] = 9039,
-						},
+					["InterruptData"] = {
 					},
-					["EnergyGainedFrom"] = {
-						["Kindagood"] = {
+					["ElementTakenResist"] = {
+					},
+					["Heals"] = {
+					},
+					["Interrupts"] = 0,
+					["EnergyGained"] = {
+						["Go for the Throat"] = {
 							["Details"] = {
-								["Go for the Throat"] = {
+								["Kindagood"] = {
 									["count"] = 650,
 								},
 							},
@@ -3423,78 +3491,11 @@ RecountPerCharDB = {
 							["amount"] = 0,
 						},
 					},
-					["CCBroken"] = {
-					},
-					["ElementDoneBlock"] = {
-						["Physical"] = 40,
-					},
-					["TimeHealing"] = {
+					["Healing"] = 0,
+					["RageGained"] = {
 					},
 					["OverHeals"] = {
 					},
-					["ManaGainedFrom"] = {
-					},
-					["RunicPowerGained"] = {
-					},
-					["CCBreak"] = 0,
-					["RageGained"] = {
-					},
-					["HealedWho"] = {
-					},
-					["EnergyGain"] = 650,
-					["ManaGained"] = {
-					},
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
-					["Overhealing"] = 0,
-					["TimeSpent"] = {
-						["Dragonflayer Weaponsmith"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 25.72,
-								},
-								["Bite"] = {
-									["count"] = 6.2,
-								},
-							},
-							["amount"] = 31.92,
-						},
-						["Dragonflayer Metalworker"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 8.44,
-								},
-								["Bite"] = {
-									["count"] = 1.94,
-								},
-							},
-							["amount"] = 10.38,
-						},
-					},
-					["WhoDispelled"] = {
-					},
-					["InterruptData"] = {
-					},
-					["RunicPowerGain"] = 0,
-					["Heals"] = {
-					},
-					["WhoHealed"] = {
-					},
-					["EnergyGained"] = {
-						["Go for the Throat"] = {
-							["Details"] = {
-								["Kindagood"] = {
-									["count"] = 650,
-								},
-							},
-							["amount"] = 650,
-						},
-					},
-					["ActiveTime"] = 42.3,
-					["Healing"] = 0,
-					["FDamagedWho"] = {
-					},
-					["Dispelled"] = 0,
 					["Attacks"] = {
 						["Melee"] = {
 							["Details"] = {
@@ -3539,8 +3540,9 @@ RecountPerCharDB = {
 							["amount"] = 6588,
 						},
 					},
-					["HealingTaken"] = 0,
 					["RageGain"] = 0,
+					["FDamagedWho"] = {
+					},
 					["TimeDamage"] = 42.3,
 					["TimeDamaging"] = {
 						["Dragonflayer Weaponsmith"] = {
@@ -3567,8 +3569,7 @@ RecountPerCharDB = {
 						},
 					},
 					["ManaGain"] = 0,
-					["HOTs"] = {
-					},
+					["DOT_Time"] = 0,
 					["DispelledWho"] = {
 					},
 				},
@@ -3585,41 +3586,40 @@ RecountPerCharDB = {
 					},
 					["DeathCount"] = 0,
 					["HOT_Time"] = 0,
-					["ElementHitsDone"] = {
+					["ElementTakenBlock"] = {
 					},
-					["ElementTakenAbsorb"] = {
-					},
+					["RunicPowerGain"] = 0,
 					["ElementTaken"] = {
 					},
-					["DOT_Time"] = 0,
+					["HOTs"] = {
+					},
 					["Damage"] = 0,
-					["ElementTakenBlock"] = {
+					["ElementDoneAbsorb"] = {
 					},
 					["TimeHeal"] = 0,
 					["RessedWho"] = {
 					},
 					["Dispels"] = 0,
-					["ElementTakenResist"] = {
-					},
-					["ElementDoneAbsorb"] = {
-					},
-					["FAttacks"] = {
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementDone"] = {
-					},
-					["PartialAbsorb"] = {
+					["PartialBlock"] = {
 					},
 					["DamagedWho"] = {
 					},
-					["PartialBlock"] = {
+					["FAttacks"] = {
+					},
+					["HealingTaken"] = 0,
+					["ElementDone"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementHitsDone"] = {
+					},
+					["ManaGainedFrom"] = {
 					},
 					["WhoDamaged"] = {
 					},
 					["EnergyGainedFrom"] = {
 					},
-					["PartialResist"] = {
+					["RunicPowerGained"] = {
 					},
 					["CCBroken"] = {
 					},
@@ -3627,22 +3627,21 @@ RecountPerCharDB = {
 					},
 					["TimeHealing"] = {
 					},
-					["OverHeals"] = {
-					},
-					["ManaGainedFrom"] = {
-					},
-					["RunicPowerGained"] = {
-					},
-					["CCBreak"] = 0,
-					["RageGained"] = {
+					["Dispelled"] = 0,
+					["WhoHealed"] = {
 					},
 					["HealedWho"] = {
 					},
+					["CCBreak"] = 0,
+					["ElementTakenAbsorb"] = {
+					},
+					["FDamage"] = 0,
 					["EnergyGain"] = 0,
 					["ManaGained"] = {
 					},
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
+					["PartialAbsorb"] = {
+					},
+					["ActiveTime"] = 0,
 					["Overhealing"] = 0,
 					["TimeSpent"] = {
 					},
@@ -3650,28 +3649,30 @@ RecountPerCharDB = {
 					},
 					["InterruptData"] = {
 					},
-					["RunicPowerGain"] = 0,
+					["ElementTakenResist"] = {
+					},
 					["Heals"] = {
 					},
-					["WhoHealed"] = {
-					},
+					["Interrupts"] = 0,
 					["EnergyGained"] = {
 					},
-					["ActiveTime"] = 0,
-					["Healing"] = 0,
-					["FDamagedWho"] = {
+					["PartialResist"] = {
 					},
-					["Dispelled"] = 0,
+					["Healing"] = 0,
+					["RageGained"] = {
+					},
+					["OverHeals"] = {
+					},
 					["Attacks"] = {
 					},
-					["HealingTaken"] = 0,
 					["RageGain"] = 0,
+					["FDamagedWho"] = {
+					},
 					["TimeDamage"] = 0,
 					["TimeDamaging"] = {
 					},
 					["ManaGain"] = 0,
-					["HOTs"] = {
-					},
+					["DOT_Time"] = 0,
 					["DispelledWho"] = {
 					},
 				},
@@ -3826,9 +3827,49 @@ RecountPerCharDB = {
 							["amount"] = 0,
 						},
 					},
-					["ElementDone"] = {
-						["Melee"] = 10596,
-						["Physical"] = 7276,
+					["Attacks"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 802,
+									["min"] = 578,
+									["count"] = 7,
+									["amount"] = 4814,
+								},
+								["Hit"] = {
+									["max"] = 385,
+									["min"] = 295,
+									["count"] = 17,
+									["amount"] = 5782,
+								},
+							},
+							["count"] = 24,
+							["amount"] = 10596,
+						},
+						["Bite"] = {
+							["Details"] = {
+								["Crit (Blocked)"] = {
+									["max"] = 580,
+									["min"] = 580,
+									["count"] = 1,
+									["amount"] = 580,
+								},
+								["Crit"] = {
+									["max"] = 688,
+									["min"] = 598,
+									["count"] = 3,
+									["amount"] = 1906,
+								},
+								["Hit"] = {
+									["max"] = 337,
+									["min"] = 259,
+									["count"] = 16,
+									["amount"] = 4790,
+								},
+							},
+							["count"] = 20,
+							["amount"] = 7276,
+						},
 					},
 					["WhoDamaged"] = {
 						["Dragonflayer Weaponsmith"] = {
@@ -3846,39 +3887,28 @@ RecountPerCharDB = {
 							["amount"] = 9039,
 						},
 					},
-					["DamagedWho"] = {
-						["Dragonflayer Ironhelm"] = {
+					["ElementHitsDone"] = {
+						["Melee"] = {
 							["Details"] = {
-								["Melee"] = {
-									["count"] = 802,
+								["Crit"] = {
+									["count"] = 7,
 								},
-								["Bite"] = {
-									["count"] = 688,
+								["Hit"] = {
+									["count"] = 17,
 								},
 							},
-							["amount"] = 1490,
+							["amount"] = 24,
 						},
-						["Dragonflayer Weaponsmith"] = {
+						["Physical"] = {
 							["Details"] = {
-								["Melee"] = {
-									["count"] = 7678,
+								["Crit"] = {
+									["count"] = 4,
 								},
-								["Bite"] = {
-									["count"] = 5220,
+								["Hit"] = {
+									["count"] = 16,
 								},
 							},
-							["amount"] = 12898,
-						},
-						["Dragonflayer Metalworker"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 2116,
-								},
-								["Bite"] = {
-									["count"] = 1368,
-								},
-							},
-							["amount"] = 3484,
+							["amount"] = 20,
 						},
 					},
 					["TimeDamage"] = 46.34,
@@ -3927,73 +3957,44 @@ RecountPerCharDB = {
 							["amount"] = 725,
 						},
 					},
-					["ElementHitsDone"] = {
-						["Melee"] = {
+					["DamagedWho"] = {
+						["Dragonflayer Ironhelm"] = {
 							["Details"] = {
-								["Crit"] = {
-									["count"] = 7,
+								["Melee"] = {
+									["count"] = 802,
 								},
-								["Hit"] = {
-									["count"] = 17,
+								["Bite"] = {
+									["count"] = 688,
 								},
 							},
-							["amount"] = 24,
+							["amount"] = 1490,
 						},
-						["Physical"] = {
+						["Dragonflayer Weaponsmith"] = {
 							["Details"] = {
-								["Crit"] = {
-									["count"] = 4,
+								["Melee"] = {
+									["count"] = 7678,
 								},
-								["Hit"] = {
-									["count"] = 16,
+								["Bite"] = {
+									["count"] = 5220,
 								},
 							},
-							["amount"] = 20,
+							["amount"] = 12898,
+						},
+						["Dragonflayer Metalworker"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 2116,
+								},
+								["Bite"] = {
+									["count"] = 1368,
+								},
+							},
+							["amount"] = 3484,
 						},
 					},
-					["Attacks"] = {
-						["Melee"] = {
-							["Details"] = {
-								["Crit"] = {
-									["max"] = 802,
-									["min"] = 578,
-									["count"] = 7,
-									["amount"] = 4814,
-								},
-								["Hit"] = {
-									["max"] = 385,
-									["min"] = 295,
-									["count"] = 17,
-									["amount"] = 5782,
-								},
-							},
-							["count"] = 24,
-							["amount"] = 10596,
-						},
-						["Bite"] = {
-							["Details"] = {
-								["Crit (Blocked)"] = {
-									["max"] = 580,
-									["min"] = 580,
-									["count"] = 1,
-									["amount"] = 580,
-								},
-								["Crit"] = {
-									["max"] = 688,
-									["min"] = 598,
-									["count"] = 3,
-									["amount"] = 1906,
-								},
-								["Hit"] = {
-									["max"] = 337,
-									["min"] = 259,
-									["count"] = 16,
-									["amount"] = 4790,
-								},
-							},
-							["count"] = 20,
-							["amount"] = 7276,
-						},
+					["ElementDone"] = {
+						["Melee"] = 10596,
+						["Physical"] = 7276,
 					},
 				},
 			},
@@ -4007,8 +4008,8 @@ RecountPerCharDB = {
 				["DeathCount"] = 1645985401,
 				["OVERALL"] = 1645985690,
 				["DamageTaken"] = 1645985644,
-				["TimeDamage"] = 1645985683,
 				["Overhealing"] = 1645985679,
+				["TimeDamage"] = 1645985683,
 				["HealingTaken"] = 1645985679,
 				["HOT_Time"] = 1645985644,
 				["ActiveTime"] = 1645985683,
@@ -4110,6 +4111,80 @@ RecountPerCharDB = {
 			},
 			["enClass"] = "PALADIN",
 			["unit"] = "Pocaitoru",
+			["LastAbility"] = 25706.589,
+			["level"] = 80,
+			["LastDamageAbility"] = "Melee",
+			["LastFightIn"] = 5,
+			["LastEventNum"] = {
+				[24] = 1.387167029653208,
+				[6] = 18.77701457530575,
+				[36] = 0.9323435246103508,
+				[38] = 0.9323435246103508,
+				[14] = 1.08895962472776,
+				[7] = 1.08895962472776,
+				[30] = 13.96883900150779,
+				[17] = 9.026637627743341,
+				[9] = 1.08895962472776,
+				[40] = 0.9323435246103508,
+				[39] = 0.9323435246103508,
+				[41] = 3.00887920924778,
+				[22] = 1.08895962472776,
+				[33] = 16.40220947823945,
+			},
+			["type"] = "Self",
+			["FightsSaved"] = 5,
+			["LastEventTimes"] = {
+				22481.86, -- [1]
+				22481.866, -- [2]
+				22481.867, -- [3]
+				22481.876, -- [4]
+				22481.876, -- [5]
+				22483.437, -- [6]
+				22486.519, -- [7]
+				22488.312, -- [8]
+				22489.499, -- [9]
+				22490.899, -- [10]
+				22491.687, -- [11]
+				22491.94, -- [12]
+				22491.946, -- [13]
+				22492.497, -- [14]
+				22492.673, -- [15]
+				22492.673, -- [16]
+				22493.75, -- [17]
+				22494.225, -- [18]
+				22494.226, -- [19]
+				22494.862, -- [20]
+				22494.863, -- [21]
+				22495.521, -- [22]
+				22495.792, -- [23]
+				22495.793, -- [24]
+				22496.25, -- [25]
+				22497.816, -- [26]
+				22497.817, -- [27]
+				22498.243, -- [28]
+				22498.669, -- [29]
+				22501.571, -- [30]
+				22526.251, -- [31]
+				22528.331, -- [32]
+				22530.083, -- [33]
+				22530.325, -- [34]
+				22532.353, -- [35]
+				22533.201, -- [36]
+				22534.304, -- [37]
+				22536.11, -- [38]
+				22539.125, -- [39]
+				22542.146, -- [40]
+				22478.404, -- [41]
+				22478.504, -- [42]
+				22478.915, -- [43]
+				22478.915, -- [44]
+				22480.021, -- [45]
+				22480.406, -- [46]
+				22480.407, -- [47]
+				22480.505, -- [48]
+				22480.505, -- [49]
+				22481.858, -- [50]
+			},
 			["DeathLogs"] = {
 				{
 					["MessageIncoming"] = {
@@ -4480,29 +4555,6 @@ RecountPerCharDB = {
 					},
 				}, -- [1]
 			},
-			["level"] = 80,
-			["LastDamageAbility"] = "Melee",
-			["LastFightIn"] = 5,
-			["LastEventNum"] = {
-				[24] = 1.387167029653208,
-				[6] = 18.77701457530575,
-				[36] = 0.9323435246103508,
-				[38] = 0.9323435246103508,
-				[14] = 1.08895962472776,
-				[7] = 1.08895962472776,
-				[30] = 13.96883900150779,
-				[40] = 0.9323435246103508,
-				[17] = 9.026637627743341,
-				[9] = 1.08895962472776,
-				[39] = 0.9323435246103508,
-				[41] = 3.00887920924778,
-				[22] = 1.08895962472776,
-				[33] = 16.40220947823945,
-			},
-			["type"] = "Self",
-			["FightsSaved"] = 5,
-			["LastDamageTaken"] = 414,
-			["LastAbility"] = 22534.304,
 			["Owner"] = false,
 			["LastEventHealth"] = {
 				"27749 (92%)", -- [1]
@@ -4714,59 +4766,639 @@ RecountPerCharDB = {
 				true, -- [49]
 				false, -- [50]
 			},
-			["LastEventTimes"] = {
-				22481.86, -- [1]
-				22481.866, -- [2]
-				22481.867, -- [3]
-				22481.876, -- [4]
-				22481.876, -- [5]
-				22483.437, -- [6]
-				22486.519, -- [7]
-				22488.312, -- [8]
-				22489.499, -- [9]
-				22490.899, -- [10]
-				22491.687, -- [11]
-				22491.94, -- [12]
-				22491.946, -- [13]
-				22492.497, -- [14]
-				22492.673, -- [15]
-				22492.673, -- [16]
-				22493.75, -- [17]
-				22494.225, -- [18]
-				22494.226, -- [19]
-				22494.862, -- [20]
-				22494.863, -- [21]
-				22495.521, -- [22]
-				22495.792, -- [23]
-				22495.793, -- [24]
-				22496.25, -- [25]
-				22497.816, -- [26]
-				22497.817, -- [27]
-				22498.243, -- [28]
-				22498.669, -- [29]
-				22501.571, -- [30]
-				22526.251, -- [31]
-				22528.331, -- [32]
-				22530.083, -- [33]
-				22530.325, -- [34]
-				22532.353, -- [35]
-				22533.201, -- [36]
-				22534.304, -- [37]
-				22536.11, -- [38]
-				22539.125, -- [39]
-				22542.146, -- [40]
-				22478.404, -- [41]
-				22478.504, -- [42]
-				22478.915, -- [43]
-				22478.915, -- [44]
-				22480.021, -- [45]
-				22480.406, -- [46]
-				22480.407, -- [47]
-				22480.505, -- [48]
-				22480.505, -- [49]
-				22481.858, -- [50]
-			},
+			["LastDamageTaken"] = 414,
 			["Fights"] = {
+				["Fight3"] = {
+					["DOTs"] = {
+						["Righteous Vengeance (DoT)"] = {
+							["Details"] = {
+								["Dragonflayer Weaponsmith"] = {
+									["count"] = 9,
+								},
+							},
+							["amount"] = 9,
+						},
+					},
+					["ElementDoneResist"] = {
+						["Holy"] = 832,
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 6311,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Dodge"] = {
+									["count"] = 1,
+								},
+								["Hit"] = {
+									["count"] = 2,
+								},
+							},
+							["amount"] = 3,
+						},
+						["Physical"] = {
+							["Details"] = {
+								["Dodge"] = {
+									["count"] = 1,
+								},
+								["Hit"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 2,
+						},
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 12,
+					["ElementTakenBlock"] = {
+					},
+					["RunicPowerGain"] = 0,
+					["ElementTaken"] = {
+						["Melee"] = 5522,
+						["Physical"] = 789,
+					},
+					["HOTs"] = {
+						["Sheath of Light"] = {
+							["Details"] = {
+								["Pocaitoru"] = {
+									["count"] = 6,
+								},
+							},
+							["amount"] = 6,
+						},
+						["Divine Storm"] = {
+							["Details"] = {
+								["Pocaitoru"] = {
+									["count"] = 6,
+								},
+							},
+							["amount"] = 6,
+						},
+					},
+					["Damage"] = 68503,
+					["ElementDoneAbsorb"] = {
+					},
+					["TimeHeal"] = 3.4,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["PartialBlock"] = {
+					},
+					["DamagedWho"] = {
+						["Dragonflayer Weaponsmith"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 2878,
+								},
+								["Righteous Vengeance (DoT)"] = {
+									["count"] = 1813,
+								},
+								["Divine Storm"] = {
+									["count"] = 9259,
+								},
+								["Manifest Anger"] = {
+									["count"] = 2939,
+								},
+								["Crusader Strike"] = {
+									["count"] = 9640,
+								},
+								["Seal of Command"] = {
+									["count"] = 23521,
+								},
+								["Judgement of Command"] = {
+									["count"] = 3807,
+								},
+								["Melee"] = {
+									["count"] = 14646,
+								},
+							},
+							["amount"] = 68503,
+						},
+					},
+					["FAttacks"] = {
+					},
+					["HealingTaken"] = 8849,
+					["ElementDone"] = {
+						["Holy"] = 32019,
+						["Melee"] = 14646,
+						["Physical"] = 21838,
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementHitsDone"] = {
+						["Holy"] = {
+							["Details"] = {
+								["Tick"] = {
+									["count"] = 3,
+								},
+								["Crit"] = {
+									["count"] = 6,
+								},
+								["Hit"] = {
+									["count"] = 8,
+								},
+							},
+							["amount"] = 17,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Crit"] = {
+									["count"] = 1,
+								},
+								["Hit"] = {
+									["count"] = 5,
+								},
+							},
+							["amount"] = 6,
+						},
+						["Physical"] = {
+							["Details"] = {
+								["Crit"] = {
+									["count"] = 4,
+								},
+								["Hit"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 5,
+						},
+					},
+					["ManaGainedFrom"] = {
+						["Pocaitoru"] = {
+							["Details"] = {
+								["Divine Plea"] = {
+									["count"] = 9345,
+								},
+								["Judgement of Wisdom"] = {
+									["count"] = 957,
+								},
+								["Replenishment"] = {
+									["count"] = 121,
+								},
+								["Judgements of the Wise"] = {
+									["count"] = 2196,
+								},
+							},
+							["amount"] = 12619,
+						},
+					},
+					["WhoDamaged"] = {
+						["Dragonflayer Weaponsmith"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 5522,
+								},
+								["Concussion Blow"] = {
+									["count"] = 789,
+								},
+							},
+							["amount"] = 6311,
+						},
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["RunicPowerGained"] = {
+					},
+					["CCBroken"] = {
+					},
+					["ElementDoneBlock"] = {
+						["Melee"] = 40,
+						["Holy"] = 40,
+					},
+					["TimeHealing"] = {
+						["Pocaitoru"] = {
+							["Details"] = {
+								["Flash of Light"] = {
+									["count"] = 1.41,
+								},
+								["Divine Storm"] = {
+									["count"] = 0,
+								},
+								["Sheath of Light"] = {
+									["count"] = 1.99,
+								},
+							},
+							["amount"] = 3.4,
+						},
+					},
+					["Dispelled"] = 0,
+					["WhoHealed"] = {
+						["Pocaitoru"] = {
+							["Details"] = {
+								["Flash of Light"] = {
+									["count"] = 3512,
+								},
+								["Divine Storm"] = {
+									["count"] = 2575,
+								},
+								["Sheath of Light"] = {
+									["count"] = 2762,
+								},
+							},
+							["amount"] = 8849,
+						},
+					},
+					["HealedWho"] = {
+						["Pocaitoru"] = {
+							["Details"] = {
+								["Flash of Light"] = {
+									["count"] = 3512,
+								},
+								["Divine Storm"] = {
+									["count"] = 2575,
+								},
+								["Sheath of Light"] = {
+									["count"] = 2762,
+								},
+							},
+							["amount"] = 8849,
+						},
+					},
+					["CCBreak"] = 0,
+					["ElementTakenAbsorb"] = {
+						["Physical"] = 1983,
+					},
+					["FDamage"] = 0,
+					["EnergyGain"] = 0,
+					["ManaGained"] = {
+						["Divine Plea"] = {
+							["Details"] = {
+								["Pocaitoru"] = {
+									["count"] = 9345,
+								},
+							},
+							["amount"] = 9345,
+						},
+						["Judgement of Wisdom"] = {
+							["Details"] = {
+								["Pocaitoru"] = {
+									["count"] = 957,
+								},
+							},
+							["amount"] = 957,
+						},
+						["Replenishment"] = {
+							["Details"] = {
+								["Pocaitoru"] = {
+									["count"] = 121,
+								},
+							},
+							["amount"] = 121,
+						},
+						["Judgements of the Wise"] = {
+							["Details"] = {
+								["Pocaitoru"] = {
+									["count"] = 2196,
+								},
+							},
+							["amount"] = 2196,
+						},
+					},
+					["PartialAbsorb"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 3,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 3,
+							["amount"] = 0,
+						},
+						["Concussion Blow"] = {
+							["Details"] = {
+								["Absorbed"] = {
+									["max"] = 1983,
+									["min"] = 1983,
+									["count"] = 1,
+									["amount"] = 1983,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 1983,
+						},
+						["Cleave"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+					},
+					["ActiveTime"] = 16.61,
+					["Overhealing"] = 0,
+					["TimeSpent"] = {
+						["Dragonflayer Weaponsmith"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 3.5,
+								},
+								["Righteous Vengeance (DoT)"] = {
+									["count"] = 0.84,
+								},
+								["Divine Storm"] = {
+									["count"] = 0,
+								},
+								["Manifest Anger"] = {
+									["count"] = 0,
+								},
+								["Crusader Strike"] = {
+									["count"] = 0,
+								},
+								["Seal of Command"] = {
+									["count"] = 6.540000000000001,
+								},
+								["Judgement of Command"] = {
+									["count"] = 2.33,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 13.21,
+						},
+						["Pocaitoru"] = {
+							["Details"] = {
+								["Flash of Light"] = {
+									["count"] = 1.41,
+								},
+								["Divine Storm"] = {
+									["count"] = 0,
+								},
+								["Sheath of Light"] = {
+									["count"] = 1.99,
+								},
+							},
+							["amount"] = 3.4,
+						},
+					},
+					["WhoDispelled"] = {
+					},
+					["InterruptData"] = {
+					},
+					["ElementTakenResist"] = {
+					},
+					["Heals"] = {
+						["Flash of Light"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 3512,
+									["min"] = 3512,
+									["count"] = 1,
+									["amount"] = 3512,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 3512,
+						},
+						["Divine Storm"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 1677,
+									["min"] = 898,
+									["count"] = 2,
+									["amount"] = 2575,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 2575,
+						},
+						["Sheath of Light"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 1381,
+									["min"] = 1381,
+									["count"] = 2,
+									["amount"] = 2762,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 2762,
+						},
+					},
+					["Interrupts"] = 0,
+					["EnergyGained"] = {
+					},
+					["PartialResist"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 3,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 3,
+							["amount"] = 0,
+						},
+						["Concussion Blow"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+						["Cleave"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+					},
+					["Healing"] = 8849,
+					["RageGained"] = {
+					},
+					["OverHeals"] = {
+					},
+					["Attacks"] = {
+						["Hand of Reckoning"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 2878,
+									["min"] = 2878,
+									["count"] = 1,
+									["amount"] = 2878,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 2878,
+						},
+						["Righteous Vengeance (DoT)"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 709,
+									["min"] = 465,
+									["count"] = 3,
+									["amount"] = 1813,
+								},
+							},
+							["count"] = 3,
+							["amount"] = 1813,
+						},
+						["Divine Storm"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 6029,
+									["min"] = 6029,
+									["count"] = 1,
+									["amount"] = 6029,
+								},
+								["Hit"] = {
+									["max"] = 3230,
+									["min"] = 3230,
+									["count"] = 1,
+									["amount"] = 3230,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 9259,
+						},
+						["Manifest Anger"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 2939,
+									["min"] = 2939,
+									["count"] = 1,
+									["amount"] = 2939,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 2939,
+						},
+						["Crusader Strike"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 4970,
+									["min"] = 4670,
+									["count"] = 2,
+									["amount"] = 9640,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 9640,
+						},
+						["Seal of Command"] = {
+							["Details"] = {
+								["Hit (Blocked)"] = {
+									["max"] = 396,
+									["min"] = 396,
+									["count"] = 1,
+									["amount"] = 396,
+								},
+								["Crit"] = {
+									["max"] = 3569,
+									["min"] = 994,
+									["count"] = 6,
+									["amount"] = 16829,
+								},
+								["Hit"] = {
+									["max"] = 1632,
+									["min"] = 1497,
+									["count"] = 4,
+									["amount"] = 6296,
+								},
+							},
+							["count"] = 11,
+							["amount"] = 23521,
+						},
+						["Judgement of Command"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 2123,
+									["min"] = 1684,
+									["count"] = 2,
+									["amount"] = 3807,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 3807,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Hit (Blocked)"] = {
+									["max"] = 2133,
+									["min"] = 2133,
+									["count"] = 1,
+									["amount"] = 2133,
+								},
+								["Crit"] = {
+									["max"] = 5675,
+									["min"] = 5675,
+									["count"] = 1,
+									["amount"] = 5675,
+								},
+								["Hit"] = {
+									["max"] = 2853,
+									["min"] = 814,
+									["count"] = 4,
+									["amount"] = 6838,
+								},
+							},
+							["count"] = 6,
+							["amount"] = 14646,
+						},
+					},
+					["RageGain"] = 0,
+					["FDamagedWho"] = {
+					},
+					["TimeDamage"] = 13.21,
+					["TimeDamaging"] = {
+						["Dragonflayer Weaponsmith"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 3.5,
+								},
+								["Righteous Vengeance (DoT)"] = {
+									["count"] = 0.84,
+								},
+								["Divine Storm"] = {
+									["count"] = 0,
+								},
+								["Manifest Anger"] = {
+									["count"] = 0,
+								},
+								["Crusader Strike"] = {
+									["count"] = 0,
+								},
+								["Seal of Command"] = {
+									["count"] = 6.540000000000001,
+								},
+								["Judgement of Command"] = {
+									["count"] = 2.33,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 13.21,
+						},
+					},
+					["ManaGain"] = 12619,
+					["DOT_Time"] = 9,
+					["DispelledWho"] = {
+					},
+				},
 				["Fight5"] = {
 					["TimeHealing"] = {
 						["Pocaitoru"] = {
@@ -4810,7 +5442,16 @@ RecountPerCharDB = {
 							["amount"] = 3,
 						},
 					},
-					["DOT_Time"] = 3,
+					["WhoHealed"] = {
+						["Pocaitoru"] = {
+							["Details"] = {
+								["Divine Storm"] = {
+									["count"] = 10607,
+								},
+							},
+							["amount"] = 10607,
+						},
+					},
 					["TimeSpent"] = {
 						["Pocaitoru"] = {
 							["Details"] = {
@@ -4830,17 +5471,17 @@ RecountPerCharDB = {
 						},
 						["Dragonflayer Ironhelm"] = {
 							["Details"] = {
-								["Righteous Vengeance (DoT)"] = {
-									["count"] = 0.26,
+								["Judgement of Command"] = {
+									["count"] = 1.64,
 								},
-								["Melee"] = {
+								["Divine Storm"] = {
 									["count"] = 0,
 								},
 								["Chaos Bane"] = {
 									["count"] = 0.62,
 								},
-								["Judgement of Command"] = {
-									["count"] = 1.64,
+								["Righteous Vengeance (DoT)"] = {
+									["count"] = 0.26,
 								},
 								["Seal of Command"] = {
 									["count"] = 5.79,
@@ -4848,7 +5489,7 @@ RecountPerCharDB = {
 								["Manifest Anger"] = {
 									["count"] = 0,
 								},
-								["Divine Storm"] = {
+								["Melee"] = {
 									["count"] = 0,
 								},
 							},
@@ -4856,14 +5497,23 @@ RecountPerCharDB = {
 						},
 					},
 					["DamageTaken"] = 9720,
-					["WhoHealed"] = {
+					["ManaGainedFrom"] = {
 						["Pocaitoru"] = {
 							["Details"] = {
-								["Divine Storm"] = {
-									["count"] = 10607,
+								["Divine Plea"] = {
+									["count"] = 2465,
+								},
+								["Judgement of Wisdom"] = {
+									["count"] = 87,
+								},
+								["Replenishment"] = {
+									["count"] = 84,
+								},
+								["Judgements of the Wise"] = {
+									["count"] = 1098,
 								},
 							},
-							["amount"] = 10607,
+							["amount"] = 3734,
 						},
 					},
 					["PartialResist"] = {
@@ -4913,14 +5563,6 @@ RecountPerCharDB = {
 							},
 							["amount"] = 2465,
 						},
-						["Replenishment"] = {
-							["Details"] = {
-								["Pocaitoru"] = {
-									["count"] = 84,
-								},
-							},
-							["amount"] = 84,
-						},
 						["Judgement of Wisdom"] = {
 							["Details"] = {
 								["Pocaitoru"] = {
@@ -4928,6 +5570,14 @@ RecountPerCharDB = {
 								},
 							},
 							["amount"] = 87,
+						},
+						["Replenishment"] = {
+							["Details"] = {
+								["Pocaitoru"] = {
+									["count"] = 84,
+								},
+							},
+							["amount"] = 84,
 						},
 						["Judgements of the Wise"] = {
 							["Details"] = {
@@ -4977,32 +5627,17 @@ RecountPerCharDB = {
 						},
 					},
 					["ActiveTime"] = 8.309999999999999,
-					["DamagedWho"] = {
+					["WhoDamaged"] = {
 						["Dragonflayer Ironhelm"] = {
 							["Details"] = {
-								["Righteous Vengeance (DoT)"] = {
-									["count"] = 901,
-								},
 								["Melee"] = {
-									["count"] = 12753,
+									["count"] = 5186,
 								},
-								["Chaos Bane"] = {
-									["count"] = 1319,
-								},
-								["Judgement of Command"] = {
-									["count"] = 8921,
-								},
-								["Seal of Command"] = {
-									["count"] = 37705,
-								},
-								["Manifest Anger"] = {
-									["count"] = 2447,
-								},
-								["Divine Storm"] = {
-									["count"] = 41546,
+								["Heroic Strike"] = {
+									["count"] = 4534,
 								},
 							},
-							["amount"] = 105592,
+							["amount"] = 9720,
 						},
 					},
 					["ElementTaken"] = {
@@ -5023,26 +5658,6 @@ RecountPerCharDB = {
 						},
 					},
 					["Damage"] = 105592,
-					["Overhealing"] = 1485,
-					["TimeHeal"] = 0,
-					["HealedWho"] = {
-						["Pocaitoru"] = {
-							["Details"] = {
-								["Divine Storm"] = {
-									["count"] = 10607,
-								},
-							},
-							["amount"] = 10607,
-						},
-						["Caryrraent"] = {
-							["Details"] = {
-								["Divine Storm"] = {
-									["count"] = 1777,
-								},
-							},
-							["amount"] = 1777,
-						},
-					},
 					["Heals"] = {
 						["Divine Storm"] = {
 							["Details"] = {
@@ -5057,72 +5672,66 @@ RecountPerCharDB = {
 							["amount"] = 12384,
 						},
 					},
-					["HOT_Time"] = 9,
-					["Healing"] = 12384,
-					["ElementHitsTaken"] = {
-						["Melee"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 2,
-								},
-							},
-							["amount"] = 2,
-						},
-						["Physical"] = {
-							["Details"] = {
-								["Dodge"] = {
-									["count"] = 1,
-								},
-								["Hit"] = {
-									["count"] = 1,
-								},
-							},
-							["amount"] = 2,
-						},
-					},
-					["WhoDamaged"] = {
+					["TimeHeal"] = 0,
+					["DamagedWho"] = {
 						["Dragonflayer Ironhelm"] = {
 							["Details"] = {
-								["Melee"] = {
-									["count"] = 5186,
+								["Judgement of Command"] = {
+									["count"] = 8921,
 								},
-								["Heroic Strike"] = {
-									["count"] = 4534,
+								["Divine Storm"] = {
+									["count"] = 41546,
+								},
+								["Chaos Bane"] = {
+									["count"] = 1319,
+								},
+								["Righteous Vengeance (DoT)"] = {
+									["count"] = 901,
+								},
+								["Seal of Command"] = {
+									["count"] = 37705,
+								},
+								["Manifest Anger"] = {
+									["count"] = 2447,
+								},
+								["Melee"] = {
+									["count"] = 12753,
 								},
 							},
-							["amount"] = 9720,
+							["amount"] = 105592,
 						},
 					},
+					["HOT_Time"] = 9,
 					["Attacks"] = {
-						["Righteous Vengeance (DoT)"] = {
+						["Judgement of Command"] = {
 							["Details"] = {
-								["Tick"] = {
-									["max"] = 901,
-									["min"] = 901,
+								["Crit"] = {
+									["max"] = 8921,
+									["min"] = 8921,
 									["count"] = 1,
-									["amount"] = 901,
+									["amount"] = 8921,
 								},
 							},
 							["count"] = 1,
-							["amount"] = 901,
+							["amount"] = 8921,
 						},
-						["Melee"] = {
+						["Divine Storm"] = {
 							["Details"] = {
 								["Crit"] = {
-									["max"] = 7766,
-									["min"] = 7766,
-									["count"] = 1,
-									["amount"] = 7766,
+									["max"] = 12053,
+									["min"] = 11356,
+									["count"] = 3,
+									["amount"] = 35085,
 								},
 								["Hit"] = {
-									["max"] = 4987,
-									["min"] = 4987,
+									["max"] = 6461,
+									["min"] = 6461,
 									["count"] = 1,
-									["amount"] = 4987,
+									["amount"] = 6461,
 								},
 							},
-							["count"] = 2,
-							["amount"] = 12753,
+							["count"] = 4,
+							["amount"] = 41546,
 						},
 						["Chaos Bane"] = {
 							["Details"] = {
@@ -5136,17 +5745,17 @@ RecountPerCharDB = {
 							["count"] = 1,
 							["amount"] = 1319,
 						},
-						["Judgement of Command"] = {
+						["Righteous Vengeance (DoT)"] = {
 							["Details"] = {
-								["Crit"] = {
-									["max"] = 8921,
-									["min"] = 8921,
+								["Tick"] = {
+									["max"] = 901,
+									["min"] = 901,
 									["count"] = 1,
-									["amount"] = 8921,
+									["amount"] = 901,
 								},
 							},
 							["count"] = 1,
-							["amount"] = 8921,
+							["amount"] = 901,
 						},
 						["Seal of Command"] = {
 							["Details"] = {
@@ -5178,84 +5787,56 @@ RecountPerCharDB = {
 							["count"] = 1,
 							["amount"] = 2447,
 						},
-						["Divine Storm"] = {
+						["Melee"] = {
 							["Details"] = {
 								["Crit"] = {
-									["max"] = 12053,
-									["min"] = 11356,
-									["count"] = 3,
-									["amount"] = 35085,
+									["max"] = 7766,
+									["min"] = 7766,
+									["count"] = 1,
+									["amount"] = 7766,
 								},
 								["Hit"] = {
-									["max"] = 6461,
-									["min"] = 6461,
+									["max"] = 4987,
+									["min"] = 4987,
 									["count"] = 1,
-									["amount"] = 6461,
+									["amount"] = 4987,
 								},
 							},
-							["count"] = 4,
-							["amount"] = 41546,
+							["count"] = 2,
+							["amount"] = 12753,
 						},
+					},
+					["Healing"] = 12384,
+					["ElementHitsTaken"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 2,
+								},
+							},
+							["amount"] = 2,
+						},
+						["Physical"] = {
+							["Details"] = {
+								["Dodge"] = {
+									["count"] = 1,
+								},
+								["Hit"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 2,
+						},
+					},
+					["Overhealing"] = 1485,
+					["ElementDone"] = {
+						["Holy"] = 47527,
+						["Physical"] = 43993,
+						["Melee"] = 12753,
+						["Shadow"] = 1319,
 					},
 					["HealingTaken"] = 10607,
-					["ManaGainedFrom"] = {
-						["Pocaitoru"] = {
-							["Details"] = {
-								["Divine Plea"] = {
-									["count"] = 2465,
-								},
-								["Replenishment"] = {
-									["count"] = 84,
-								},
-								["Judgement of Wisdom"] = {
-									["count"] = 87,
-								},
-								["Judgements of the Wise"] = {
-									["count"] = 1098,
-								},
-							},
-							["amount"] = 3734,
-						},
-					},
-					["TimeDamage"] = 8.309999999999999,
-					["TimeDamaging"] = {
-						["Dragonflayer Ironhelm"] = {
-							["Details"] = {
-								["Righteous Vengeance (DoT)"] = {
-									["count"] = 0.26,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Chaos Bane"] = {
-									["count"] = 0.62,
-								},
-								["Judgement of Command"] = {
-									["count"] = 1.64,
-								},
-								["Seal of Command"] = {
-									["count"] = 5.79,
-								},
-								["Manifest Anger"] = {
-									["count"] = 0,
-								},
-								["Divine Storm"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 8.309999999999999,
-						},
-					},
-					["ManaGain"] = 3734,
 					["ElementHitsDone"] = {
-						["Shadow"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 1,
-								},
-							},
-							["amount"] = 1,
-						},
 						["Holy"] = {
 							["Details"] = {
 								["Tick"] = {
@@ -5270,17 +5851,6 @@ RecountPerCharDB = {
 							},
 							["amount"] = 12,
 						},
-						["Melee"] = {
-							["Details"] = {
-								["Crit"] = {
-									["count"] = 1,
-								},
-								["Hit"] = {
-									["count"] = 1,
-								},
-							},
-							["amount"] = 2,
-						},
 						["Physical"] = {
 							["Details"] = {
 								["Crit"] = {
@@ -5292,12 +5862,246 @@ RecountPerCharDB = {
 							},
 							["amount"] = 5,
 						},
+						["Melee"] = {
+							["Details"] = {
+								["Crit"] = {
+									["count"] = 1,
+								},
+								["Hit"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 2,
+						},
+						["Shadow"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 1,
+						},
 					},
+					["TimeDamage"] = 8.309999999999999,
+					["TimeDamaging"] = {
+						["Dragonflayer Ironhelm"] = {
+							["Details"] = {
+								["Judgement of Command"] = {
+									["count"] = 1.64,
+								},
+								["Divine Storm"] = {
+									["count"] = 0,
+								},
+								["Chaos Bane"] = {
+									["count"] = 0.62,
+								},
+								["Righteous Vengeance (DoT)"] = {
+									["count"] = 0.26,
+								},
+								["Seal of Command"] = {
+									["count"] = 5.79,
+								},
+								["Manifest Anger"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 8.309999999999999,
+						},
+					},
+					["ManaGain"] = 3734,
+					["HealedWho"] = {
+						["Pocaitoru"] = {
+							["Details"] = {
+								["Divine Storm"] = {
+									["count"] = 10607,
+								},
+							},
+							["amount"] = 10607,
+						},
+						["Caryrraent"] = {
+							["Details"] = {
+								["Divine Storm"] = {
+									["count"] = 1777,
+								},
+							},
+							["amount"] = 1777,
+						},
+					},
+					["DOT_Time"] = 3,
+				},
+				["CurrentFightData"] = {
+					["DOTs"] = {
+						["Righteous Vengeance (DoT)"] = {
+							["Details"] = {
+								["Grandmaster's Training Dummy"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 0,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["ElementTakenBlock"] = {
+					},
+					["RunicPowerGain"] = 0,
+					["ElementTaken"] = {
+					},
+					["HOTs"] = {
+					},
+					["Damage"] = 0,
+					["ElementDoneAbsorb"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["PartialBlock"] = {
+					},
+					["DamagedWho"] = {
+						["Grandmaster's Training Dummy"] = {
+							["Details"] = {
+								["Righteous Vengeance (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["FAttacks"] = {
+					},
+					["HealingTaken"] = 0,
 					["ElementDone"] = {
-						["Shadow"] = 1319,
-						["Holy"] = 47527,
-						["Melee"] = 12753,
-						["Physical"] = 43993,
+						["Holy"] = 0,
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementHitsDone"] = {
+						["Holy"] = {
+							["Details"] = {
+								["Tick"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ManaGainedFrom"] = {
+						["Pocaitoru"] = {
+							["Details"] = {
+								["Replenishment"] = {
+									["count"] = 126,
+								},
+							},
+							["amount"] = 126,
+						},
+					},
+					["WhoDamaged"] = {
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["RunicPowerGained"] = {
+					},
+					["CCBroken"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+					},
+					["Dispelled"] = 0,
+					["WhoHealed"] = {
+					},
+					["HealedWho"] = {
+					},
+					["CCBreak"] = 0,
+					["ElementTakenAbsorb"] = {
+					},
+					["FDamage"] = 0,
+					["EnergyGain"] = 0,
+					["ManaGained"] = {
+						["Replenishment"] = {
+							["Details"] = {
+								["Pocaitoru"] = {
+									["count"] = 126,
+								},
+							},
+							["amount"] = 126,
+						},
+					},
+					["PartialAbsorb"] = {
+					},
+					["ActiveTime"] = 0,
+					["Overhealing"] = 0,
+					["TimeSpent"] = {
+						["Grandmaster's Training Dummy"] = {
+							["Details"] = {
+								["Righteous Vengeance (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["WhoDispelled"] = {
+					},
+					["InterruptData"] = {
+					},
+					["ElementTakenResist"] = {
+					},
+					["Heals"] = {
+					},
+					["Interrupts"] = 0,
+					["EnergyGained"] = {
+					},
+					["PartialResist"] = {
+					},
+					["Healing"] = 0,
+					["RageGained"] = {
+					},
+					["OverHeals"] = {
+					},
+					["Attacks"] = {
+						["Righteous Vengeance (DoT)"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["RageGain"] = 0,
+					["FDamagedWho"] = {
+					},
+					["TimeDamage"] = 0,
+					["TimeDamaging"] = {
+						["Grandmaster's Training Dummy"] = {
+							["Details"] = {
+								["Righteous Vengeance (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ManaGain"] = 126,
+					["DOT_Time"] = 0,
+					["DispelledWho"] = {
 					},
 				},
 				["Fight2"] = {
@@ -5338,6 +6142,75 @@ RecountPerCharDB = {
 					},
 					["DeathCount"] = 0,
 					["HOT_Time"] = 9,
+					["ElementTakenBlock"] = {
+					},
+					["RunicPowerGain"] = 0,
+					["ElementTaken"] = {
+						["Melee"] = 3108,
+					},
+					["HOTs"] = {
+						["Sheath of Light"] = {
+							["Details"] = {
+								["Pocaitoru"] = {
+									["count"] = 9,
+								},
+							},
+							["amount"] = 9,
+						},
+					},
+					["Damage"] = 66980,
+					["ElementDoneAbsorb"] = {
+					},
+					["TimeHeal"] = 0.66,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["PartialBlock"] = {
+					},
+					["DamagedWho"] = {
+						["Dragonflayer Weaponsmith"] = {
+							["Details"] = {
+								["Exorcism"] = {
+									["count"] = 3332,
+								},
+								["Divine Storm"] = {
+									["count"] = 6575,
+								},
+								["Judgement of Command"] = {
+									["count"] = 2801,
+								},
+								["Hand of Reckoning"] = {
+									["count"] = 7035,
+								},
+								["Hammer of Wrath"] = {
+									["count"] = 6947,
+								},
+								["Seal of Command"] = {
+									["count"] = 13538,
+								},
+								["Crusader Strike"] = {
+									["count"] = 5780,
+								},
+								["Righteous Vengeance (DoT)"] = {
+									["count"] = 1811,
+								},
+								["Melee"] = {
+									["count"] = 19161,
+								},
+							},
+							["amount"] = 66980,
+						},
+					},
+					["FAttacks"] = {
+					},
+					["HealingTaken"] = 325,
+					["ElementDone"] = {
+						["Holy"] = 35464,
+						["Melee"] = 19161,
+						["Physical"] = 12355,
+					},
+					["RunicPowerGainedFrom"] = {
+					},
 					["ElementHitsDone"] = {
 						["Holy"] = {
 							["Details"] = {
@@ -5370,32 +6243,102 @@ RecountPerCharDB = {
 							["amount"] = 2,
 						},
 					},
+					["ManaGainedFrom"] = {
+						["Pocaitoru"] = {
+							["Details"] = {
+								["Replenishment"] = {
+									["count"] = 176,
+								},
+								["Judgement of Wisdom"] = {
+									["count"] = 609,
+								},
+								["Judgements of the Wise"] = {
+									["count"] = 1098,
+								},
+							},
+							["amount"] = 1883,
+						},
+					},
+					["WhoDamaged"] = {
+						["Dragonflayer Weaponsmith"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 3108,
+								},
+							},
+							["amount"] = 3108,
+						},
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["RunicPowerGained"] = {
+					},
+					["CCBroken"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+						["Pocaitoru"] = {
+							["Details"] = {
+								["Sheath of Light"] = {
+									["count"] = 0.66,
+								},
+							},
+							["amount"] = 0.66,
+						},
+					},
+					["Dispelled"] = 0,
+					["WhoHealed"] = {
+						["Pocaitoru"] = {
+							["Details"] = {
+								["Sheath of Light"] = {
+									["count"] = 325,
+								},
+							},
+							["amount"] = 325,
+						},
+					},
+					["HealedWho"] = {
+						["Pocaitoru"] = {
+							["Details"] = {
+								["Sheath of Light"] = {
+									["count"] = 325,
+								},
+							},
+							["amount"] = 325,
+						},
+					},
+					["CCBreak"] = 0,
 					["ElementTakenAbsorb"] = {
 						["Melee"] = 2468,
 					},
-					["ElementTaken"] = {
-						["Melee"] = 3108,
-					},
-					["DOT_Time"] = 6,
-					["Damage"] = 66980,
-					["ElementTakenBlock"] = {
-					},
-					["TimeHeal"] = 0.66,
-					["RessedWho"] = {
-					},
-					["Dispels"] = 0,
-					["ElementTakenResist"] = {
-					},
-					["ElementDoneAbsorb"] = {
-					},
-					["FAttacks"] = {
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementDone"] = {
-						["Holy"] = 35464,
-						["Melee"] = 19161,
-						["Physical"] = 12355,
+					["FDamage"] = 0,
+					["EnergyGain"] = 0,
+					["ManaGained"] = {
+						["Replenishment"] = {
+							["Details"] = {
+								["Pocaitoru"] = {
+									["count"] = 176,
+								},
+							},
+							["amount"] = 176,
+						},
+						["Judgement of Wisdom"] = {
+							["Details"] = {
+								["Pocaitoru"] = {
+									["count"] = 609,
+								},
+							},
+							["amount"] = 609,
+						},
+						["Judgements of the Wise"] = {
+							["Details"] = {
+								["Pocaitoru"] = {
+									["count"] = 1098,
+								},
+							},
+							["amount"] = 1098,
+						},
 					},
 					["PartialAbsorb"] = {
 						["Concussion Blow"] = {
@@ -5429,53 +6372,72 @@ RecountPerCharDB = {
 							["amount"] = 2468,
 						},
 					},
-					["DamagedWho"] = {
+					["ActiveTime"] = 13.88,
+					["Overhealing"] = 650,
+					["TimeSpent"] = {
 						["Dragonflayer Weaponsmith"] = {
 							["Details"] = {
 								["Exorcism"] = {
-									["count"] = 3332,
+									["count"] = 0.27,
 								},
 								["Divine Storm"] = {
-									["count"] = 6575,
+									["count"] = 0,
 								},
 								["Judgement of Command"] = {
-									["count"] = 2801,
+									["count"] = 2.59,
 								},
 								["Hand of Reckoning"] = {
-									["count"] = 7035,
+									["count"] = 3.5,
 								},
 								["Hammer of Wrath"] = {
-									["count"] = 6947,
-								},
-								["Melee"] = {
-									["count"] = 19161,
+									["count"] = 0.43,
 								},
 								["Seal of Command"] = {
-									["count"] = 13538,
-								},
-								["Righteous Vengeance (DoT)"] = {
-									["count"] = 1811,
+									["count"] = 5.53,
 								},
 								["Crusader Strike"] = {
-									["count"] = 5780,
+									["count"] = 0,
 								},
-							},
-							["amount"] = 66980,
-						},
-					},
-					["PartialBlock"] = {
-					},
-					["WhoDamaged"] = {
-						["Dragonflayer Weaponsmith"] = {
-							["Details"] = {
+								["Righteous Vengeance (DoT)"] = {
+									["count"] = 0.89,
+								},
 								["Melee"] = {
-									["count"] = 3108,
+									["count"] = 0.01,
 								},
 							},
-							["amount"] = 3108,
+							["amount"] = 13.22,
+						},
+						["Pocaitoru"] = {
+							["Details"] = {
+								["Sheath of Light"] = {
+									["count"] = 0.66,
+								},
+							},
+							["amount"] = 0.66,
 						},
 					},
-					["EnergyGainedFrom"] = {
+					["WhoDispelled"] = {
+					},
+					["InterruptData"] = {
+					},
+					["ElementTakenResist"] = {
+					},
+					["Heals"] = {
+						["Sheath of Light"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 325,
+									["min"] = 325,
+									["count"] = 1,
+									["amount"] = 325,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 325,
+						},
+					},
+					["Interrupts"] = 0,
+					["EnergyGained"] = {
 					},
 					["PartialResist"] = {
 						["Concussion Blow"] = {
@@ -5503,19 +6465,8 @@ RecountPerCharDB = {
 							["amount"] = 0,
 						},
 					},
-					["CCBroken"] = {
-					},
-					["ElementDoneBlock"] = {
-					},
-					["TimeHealing"] = {
-						["Pocaitoru"] = {
-							["Details"] = {
-								["Sheath of Light"] = {
-									["count"] = 0.66,
-								},
-							},
-							["amount"] = 0.66,
-						},
+					["Healing"] = 325,
+					["RageGained"] = {
 					},
 					["OverHeals"] = {
 						["Sheath of Light"] = {
@@ -5531,145 +6482,6 @@ RecountPerCharDB = {
 							["amount"] = 650,
 						},
 					},
-					["ManaGainedFrom"] = {
-						["Pocaitoru"] = {
-							["Details"] = {
-								["Replenishment"] = {
-									["count"] = 176,
-								},
-								["Judgement of Wisdom"] = {
-									["count"] = 609,
-								},
-								["Judgements of the Wise"] = {
-									["count"] = 1098,
-								},
-							},
-							["amount"] = 1883,
-						},
-					},
-					["RunicPowerGained"] = {
-					},
-					["CCBreak"] = 0,
-					["RageGained"] = {
-					},
-					["HealedWho"] = {
-						["Pocaitoru"] = {
-							["Details"] = {
-								["Sheath of Light"] = {
-									["count"] = 325,
-								},
-							},
-							["amount"] = 325,
-						},
-					},
-					["EnergyGain"] = 0,
-					["ManaGained"] = {
-						["Replenishment"] = {
-							["Details"] = {
-								["Pocaitoru"] = {
-									["count"] = 176,
-								},
-							},
-							["amount"] = 176,
-						},
-						["Judgement of Wisdom"] = {
-							["Details"] = {
-								["Pocaitoru"] = {
-									["count"] = 609,
-								},
-							},
-							["amount"] = 609,
-						},
-						["Judgements of the Wise"] = {
-							["Details"] = {
-								["Pocaitoru"] = {
-									["count"] = 1098,
-								},
-							},
-							["amount"] = 1098,
-						},
-					},
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
-					["Overhealing"] = 650,
-					["TimeSpent"] = {
-						["Dragonflayer Weaponsmith"] = {
-							["Details"] = {
-								["Exorcism"] = {
-									["count"] = 0.27,
-								},
-								["Divine Storm"] = {
-									["count"] = 0,
-								},
-								["Judgement of Command"] = {
-									["count"] = 2.59,
-								},
-								["Hand of Reckoning"] = {
-									["count"] = 3.5,
-								},
-								["Hammer of Wrath"] = {
-									["count"] = 0.43,
-								},
-								["Melee"] = {
-									["count"] = 0.01,
-								},
-								["Seal of Command"] = {
-									["count"] = 5.53,
-								},
-								["Righteous Vengeance (DoT)"] = {
-									["count"] = 0.89,
-								},
-								["Crusader Strike"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 13.22,
-						},
-						["Pocaitoru"] = {
-							["Details"] = {
-								["Sheath of Light"] = {
-									["count"] = 0.66,
-								},
-							},
-							["amount"] = 0.66,
-						},
-					},
-					["WhoDispelled"] = {
-					},
-					["InterruptData"] = {
-					},
-					["RunicPowerGain"] = 0,
-					["Heals"] = {
-						["Sheath of Light"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 325,
-									["min"] = 325,
-									["count"] = 1,
-									["amount"] = 325,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 325,
-						},
-					},
-					["WhoHealed"] = {
-						["Pocaitoru"] = {
-							["Details"] = {
-								["Sheath of Light"] = {
-									["count"] = 325,
-								},
-							},
-							["amount"] = 325,
-						},
-					},
-					["EnergyGained"] = {
-					},
-					["ActiveTime"] = 13.88,
-					["Healing"] = 325,
-					["FDamagedWho"] = {
-					},
-					["Dispelled"] = 0,
 					["Attacks"] = {
 						["Exorcism"] = {
 							["Details"] = {
@@ -5731,18 +6543,6 @@ RecountPerCharDB = {
 							["count"] = 1,
 							["amount"] = 6947,
 						},
-						["Melee"] = {
-							["Details"] = {
-								["Crit"] = {
-									["max"] = 6841,
-									["min"] = 5906,
-									["count"] = 3,
-									["amount"] = 19161,
-								},
-							},
-							["count"] = 3,
-							["amount"] = 19161,
-						},
 						["Seal of Command"] = {
 							["Details"] = {
 								["Crit"] = {
@@ -5761,18 +6561,6 @@ RecountPerCharDB = {
 							["count"] = 5,
 							["amount"] = 13538,
 						},
-						["Righteous Vengeance (DoT)"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 953,
-									["min"] = 858,
-									["count"] = 2,
-									["amount"] = 1811,
-								},
-							},
-							["count"] = 2,
-							["amount"] = 1811,
-						},
 						["Crusader Strike"] = {
 							["Details"] = {
 								["Crit"] = {
@@ -5785,9 +6573,34 @@ RecountPerCharDB = {
 							["count"] = 1,
 							["amount"] = 5780,
 						},
+						["Righteous Vengeance (DoT)"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 953,
+									["min"] = 858,
+									["count"] = 2,
+									["amount"] = 1811,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 1811,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 6841,
+									["min"] = 5906,
+									["count"] = 3,
+									["amount"] = 19161,
+								},
+							},
+							["count"] = 3,
+							["amount"] = 19161,
+						},
 					},
-					["HealingTaken"] = 325,
 					["RageGain"] = 0,
+					["FDamagedWho"] = {
+					},
 					["TimeDamage"] = 13.22,
 					["TimeDamaging"] = {
 						["Dragonflayer Weaponsmith"] = {
@@ -5807,836 +6620,24 @@ RecountPerCharDB = {
 								["Hammer of Wrath"] = {
 									["count"] = 0.43,
 								},
-								["Melee"] = {
-									["count"] = 0.01,
-								},
 								["Seal of Command"] = {
 									["count"] = 5.53,
+								},
+								["Crusader Strike"] = {
+									["count"] = 0,
 								},
 								["Righteous Vengeance (DoT)"] = {
 									["count"] = 0.89,
 								},
-								["Crusader Strike"] = {
-									["count"] = 0,
+								["Melee"] = {
+									["count"] = 0.01,
 								},
 							},
 							["amount"] = 13.22,
 						},
 					},
 					["ManaGain"] = 1883,
-					["HOTs"] = {
-						["Sheath of Light"] = {
-							["Details"] = {
-								["Pocaitoru"] = {
-									["count"] = 9,
-								},
-							},
-							["amount"] = 9,
-						},
-					},
-					["DispelledWho"] = {
-					},
-				},
-				["CurrentFightData"] = {
-					["DOTs"] = {
-						["Righteous Vengeance (DoT)"] = {
-							["Details"] = {
-								["Grandmaster's Training Dummy"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["ElementDoneResist"] = {
-					},
-					["Ressed"] = 0,
-					["DamageTaken"] = 0,
-					["RageGainedFrom"] = {
-					},
-					["ElementHitsTaken"] = {
-					},
-					["DeathCount"] = 0,
-					["HOT_Time"] = 0,
-					["ElementHitsDone"] = {
-						["Holy"] = {
-							["Details"] = {
-								["Tick"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["ElementTakenAbsorb"] = {
-					},
-					["ElementTaken"] = {
-					},
-					["DOT_Time"] = 0,
-					["Damage"] = 0,
-					["ElementTakenBlock"] = {
-					},
-					["TimeHeal"] = 0,
-					["RessedWho"] = {
-					},
-					["Dispels"] = 0,
-					["ElementTakenResist"] = {
-					},
-					["ElementDoneAbsorb"] = {
-					},
-					["FAttacks"] = {
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementDone"] = {
-						["Holy"] = 0,
-					},
-					["PartialAbsorb"] = {
-					},
-					["DamagedWho"] = {
-						["Grandmaster's Training Dummy"] = {
-							["Details"] = {
-								["Righteous Vengeance (DoT)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["PartialBlock"] = {
-					},
-					["WhoDamaged"] = {
-					},
-					["EnergyGainedFrom"] = {
-					},
-					["PartialResist"] = {
-					},
-					["CCBroken"] = {
-					},
-					["ElementDoneBlock"] = {
-					},
-					["TimeHealing"] = {
-					},
-					["OverHeals"] = {
-					},
-					["ManaGainedFrom"] = {
-						["Pocaitoru"] = {
-							["Details"] = {
-								["Replenishment"] = {
-									["count"] = 126,
-								},
-							},
-							["amount"] = 126,
-						},
-					},
-					["RunicPowerGained"] = {
-					},
-					["CCBreak"] = 0,
-					["RageGained"] = {
-					},
-					["HealedWho"] = {
-					},
-					["EnergyGain"] = 0,
-					["ManaGained"] = {
-						["Replenishment"] = {
-							["Details"] = {
-								["Pocaitoru"] = {
-									["count"] = 126,
-								},
-							},
-							["amount"] = 126,
-						},
-					},
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
-					["Overhealing"] = 0,
-					["TimeSpent"] = {
-						["Grandmaster's Training Dummy"] = {
-							["Details"] = {
-								["Righteous Vengeance (DoT)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["WhoDispelled"] = {
-					},
-					["InterruptData"] = {
-					},
-					["RunicPowerGain"] = 0,
-					["Heals"] = {
-					},
-					["WhoHealed"] = {
-					},
-					["EnergyGained"] = {
-					},
-					["ActiveTime"] = 0,
-					["Healing"] = 0,
-					["FDamagedWho"] = {
-					},
-					["Dispelled"] = 0,
-					["Attacks"] = {
-						["Righteous Vengeance (DoT)"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["HealingTaken"] = 0,
-					["RageGain"] = 0,
-					["TimeDamage"] = 0,
-					["TimeDamaging"] = {
-						["Grandmaster's Training Dummy"] = {
-							["Details"] = {
-								["Righteous Vengeance (DoT)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["ManaGain"] = 126,
-					["HOTs"] = {
-					},
-					["DispelledWho"] = {
-					},
-				},
-				["Fight3"] = {
-					["DOTs"] = {
-						["Righteous Vengeance (DoT)"] = {
-							["Details"] = {
-								["Dragonflayer Weaponsmith"] = {
-									["count"] = 9,
-								},
-							},
-							["amount"] = 9,
-						},
-					},
-					["ElementDoneResist"] = {
-						["Holy"] = 832,
-					},
-					["Ressed"] = 0,
-					["DamageTaken"] = 6311,
-					["RageGainedFrom"] = {
-					},
-					["ElementHitsTaken"] = {
-						["Melee"] = {
-							["Details"] = {
-								["Dodge"] = {
-									["count"] = 1,
-								},
-								["Hit"] = {
-									["count"] = 2,
-								},
-							},
-							["amount"] = 3,
-						},
-						["Physical"] = {
-							["Details"] = {
-								["Dodge"] = {
-									["count"] = 1,
-								},
-								["Hit"] = {
-									["count"] = 1,
-								},
-							},
-							["amount"] = 2,
-						},
-					},
-					["DeathCount"] = 0,
-					["HOT_Time"] = 12,
-					["ElementHitsDone"] = {
-						["Holy"] = {
-							["Details"] = {
-								["Tick"] = {
-									["count"] = 3,
-								},
-								["Crit"] = {
-									["count"] = 6,
-								},
-								["Hit"] = {
-									["count"] = 8,
-								},
-							},
-							["amount"] = 17,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["Crit"] = {
-									["count"] = 1,
-								},
-								["Hit"] = {
-									["count"] = 5,
-								},
-							},
-							["amount"] = 6,
-						},
-						["Physical"] = {
-							["Details"] = {
-								["Crit"] = {
-									["count"] = 4,
-								},
-								["Hit"] = {
-									["count"] = 1,
-								},
-							},
-							["amount"] = 5,
-						},
-					},
-					["ElementTakenAbsorb"] = {
-						["Physical"] = 1983,
-					},
-					["ElementTaken"] = {
-						["Melee"] = 5522,
-						["Physical"] = 789,
-					},
-					["DOT_Time"] = 9,
-					["Damage"] = 68503,
-					["ElementTakenBlock"] = {
-					},
-					["TimeHeal"] = 3.4,
-					["RessedWho"] = {
-					},
-					["Dispels"] = 0,
-					["ElementTakenResist"] = {
-					},
-					["ElementDoneAbsorb"] = {
-					},
-					["FAttacks"] = {
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementDone"] = {
-						["Holy"] = 32019,
-						["Melee"] = 14646,
-						["Physical"] = 21838,
-					},
-					["PartialAbsorb"] = {
-						["Melee"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 3,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 3,
-							["amount"] = 0,
-						},
-						["Concussion Blow"] = {
-							["Details"] = {
-								["Absorbed"] = {
-									["max"] = 1983,
-									["min"] = 1983,
-									["count"] = 1,
-									["amount"] = 1983,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 1983,
-						},
-						["Cleave"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 0,
-						},
-					},
-					["DamagedWho"] = {
-						["Dragonflayer Weaponsmith"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 2878,
-								},
-								["Manifest Anger"] = {
-									["count"] = 2939,
-								},
-								["Melee"] = {
-									["count"] = 14646,
-								},
-								["Crusader Strike"] = {
-									["count"] = 9640,
-								},
-								["Righteous Vengeance (DoT)"] = {
-									["count"] = 1813,
-								},
-								["Seal of Command"] = {
-									["count"] = 23521,
-								},
-								["Judgement of Command"] = {
-									["count"] = 3807,
-								},
-								["Divine Storm"] = {
-									["count"] = 9259,
-								},
-							},
-							["amount"] = 68503,
-						},
-					},
-					["PartialBlock"] = {
-					},
-					["WhoDamaged"] = {
-						["Dragonflayer Weaponsmith"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 5522,
-								},
-								["Concussion Blow"] = {
-									["count"] = 789,
-								},
-							},
-							["amount"] = 6311,
-						},
-					},
-					["EnergyGainedFrom"] = {
-					},
-					["PartialResist"] = {
-						["Melee"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 3,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 3,
-							["amount"] = 0,
-						},
-						["Concussion Blow"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 0,
-						},
-						["Cleave"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 0,
-						},
-					},
-					["CCBroken"] = {
-					},
-					["ElementDoneBlock"] = {
-						["Melee"] = 40,
-						["Holy"] = 40,
-					},
-					["TimeHealing"] = {
-						["Pocaitoru"] = {
-							["Details"] = {
-								["Flash of Light"] = {
-									["count"] = 1.41,
-								},
-								["Divine Storm"] = {
-									["count"] = 0,
-								},
-								["Sheath of Light"] = {
-									["count"] = 1.99,
-								},
-							},
-							["amount"] = 3.4,
-						},
-					},
-					["OverHeals"] = {
-					},
-					["ManaGainedFrom"] = {
-						["Pocaitoru"] = {
-							["Details"] = {
-								["Divine Plea"] = {
-									["count"] = 9345,
-								},
-								["Replenishment"] = {
-									["count"] = 121,
-								},
-								["Judgement of Wisdom"] = {
-									["count"] = 957,
-								},
-								["Judgements of the Wise"] = {
-									["count"] = 2196,
-								},
-							},
-							["amount"] = 12619,
-						},
-					},
-					["RunicPowerGained"] = {
-					},
-					["CCBreak"] = 0,
-					["RageGained"] = {
-					},
-					["HealedWho"] = {
-						["Pocaitoru"] = {
-							["Details"] = {
-								["Flash of Light"] = {
-									["count"] = 3512,
-								},
-								["Divine Storm"] = {
-									["count"] = 2575,
-								},
-								["Sheath of Light"] = {
-									["count"] = 2762,
-								},
-							},
-							["amount"] = 8849,
-						},
-					},
-					["EnergyGain"] = 0,
-					["ManaGained"] = {
-						["Divine Plea"] = {
-							["Details"] = {
-								["Pocaitoru"] = {
-									["count"] = 9345,
-								},
-							},
-							["amount"] = 9345,
-						},
-						["Replenishment"] = {
-							["Details"] = {
-								["Pocaitoru"] = {
-									["count"] = 121,
-								},
-							},
-							["amount"] = 121,
-						},
-						["Judgement of Wisdom"] = {
-							["Details"] = {
-								["Pocaitoru"] = {
-									["count"] = 957,
-								},
-							},
-							["amount"] = 957,
-						},
-						["Judgements of the Wise"] = {
-							["Details"] = {
-								["Pocaitoru"] = {
-									["count"] = 2196,
-								},
-							},
-							["amount"] = 2196,
-						},
-					},
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
-					["Overhealing"] = 0,
-					["TimeSpent"] = {
-						["Dragonflayer Weaponsmith"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 3.5,
-								},
-								["Manifest Anger"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Crusader Strike"] = {
-									["count"] = 0,
-								},
-								["Righteous Vengeance (DoT)"] = {
-									["count"] = 0.84,
-								},
-								["Seal of Command"] = {
-									["count"] = 6.540000000000001,
-								},
-								["Judgement of Command"] = {
-									["count"] = 2.33,
-								},
-								["Divine Storm"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 13.21,
-						},
-						["Pocaitoru"] = {
-							["Details"] = {
-								["Flash of Light"] = {
-									["count"] = 1.41,
-								},
-								["Divine Storm"] = {
-									["count"] = 0,
-								},
-								["Sheath of Light"] = {
-									["count"] = 1.99,
-								},
-							},
-							["amount"] = 3.4,
-						},
-					},
-					["WhoDispelled"] = {
-					},
-					["InterruptData"] = {
-					},
-					["RunicPowerGain"] = 0,
-					["Heals"] = {
-						["Flash of Light"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 3512,
-									["min"] = 3512,
-									["count"] = 1,
-									["amount"] = 3512,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 3512,
-						},
-						["Divine Storm"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 1677,
-									["min"] = 898,
-									["count"] = 2,
-									["amount"] = 2575,
-								},
-							},
-							["count"] = 2,
-							["amount"] = 2575,
-						},
-						["Sheath of Light"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 1381,
-									["min"] = 1381,
-									["count"] = 2,
-									["amount"] = 2762,
-								},
-							},
-							["count"] = 2,
-							["amount"] = 2762,
-						},
-					},
-					["WhoHealed"] = {
-						["Pocaitoru"] = {
-							["Details"] = {
-								["Flash of Light"] = {
-									["count"] = 3512,
-								},
-								["Divine Storm"] = {
-									["count"] = 2575,
-								},
-								["Sheath of Light"] = {
-									["count"] = 2762,
-								},
-							},
-							["amount"] = 8849,
-						},
-					},
-					["EnergyGained"] = {
-					},
-					["ActiveTime"] = 16.61,
-					["Healing"] = 8849,
-					["FDamagedWho"] = {
-					},
-					["Dispelled"] = 0,
-					["Attacks"] = {
-						["Hand of Reckoning"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 2878,
-									["min"] = 2878,
-									["count"] = 1,
-									["amount"] = 2878,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 2878,
-						},
-						["Manifest Anger"] = {
-							["Details"] = {
-								["Crit"] = {
-									["max"] = 2939,
-									["min"] = 2939,
-									["count"] = 1,
-									["amount"] = 2939,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 2939,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["Hit (Blocked)"] = {
-									["max"] = 2133,
-									["min"] = 2133,
-									["count"] = 1,
-									["amount"] = 2133,
-								},
-								["Crit"] = {
-									["max"] = 5675,
-									["min"] = 5675,
-									["count"] = 1,
-									["amount"] = 5675,
-								},
-								["Hit"] = {
-									["max"] = 2853,
-									["min"] = 814,
-									["count"] = 4,
-									["amount"] = 6838,
-								},
-							},
-							["count"] = 6,
-							["amount"] = 14646,
-						},
-						["Crusader Strike"] = {
-							["Details"] = {
-								["Crit"] = {
-									["max"] = 4970,
-									["min"] = 4670,
-									["count"] = 2,
-									["amount"] = 9640,
-								},
-							},
-							["count"] = 2,
-							["amount"] = 9640,
-						},
-						["Righteous Vengeance (DoT)"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 709,
-									["min"] = 465,
-									["count"] = 3,
-									["amount"] = 1813,
-								},
-							},
-							["count"] = 3,
-							["amount"] = 1813,
-						},
-						["Seal of Command"] = {
-							["Details"] = {
-								["Hit (Blocked)"] = {
-									["max"] = 396,
-									["min"] = 396,
-									["count"] = 1,
-									["amount"] = 396,
-								},
-								["Crit"] = {
-									["max"] = 3569,
-									["min"] = 994,
-									["count"] = 6,
-									["amount"] = 16829,
-								},
-								["Hit"] = {
-									["max"] = 1632,
-									["min"] = 1497,
-									["count"] = 4,
-									["amount"] = 6296,
-								},
-							},
-							["count"] = 11,
-							["amount"] = 23521,
-						},
-						["Judgement of Command"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 2123,
-									["min"] = 1684,
-									["count"] = 2,
-									["amount"] = 3807,
-								},
-							},
-							["count"] = 2,
-							["amount"] = 3807,
-						},
-						["Divine Storm"] = {
-							["Details"] = {
-								["Crit"] = {
-									["max"] = 6029,
-									["min"] = 6029,
-									["count"] = 1,
-									["amount"] = 6029,
-								},
-								["Hit"] = {
-									["max"] = 3230,
-									["min"] = 3230,
-									["count"] = 1,
-									["amount"] = 3230,
-								},
-							},
-							["count"] = 2,
-							["amount"] = 9259,
-						},
-					},
-					["HealingTaken"] = 8849,
-					["RageGain"] = 0,
-					["TimeDamage"] = 13.21,
-					["TimeDamaging"] = {
-						["Dragonflayer Weaponsmith"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 3.5,
-								},
-								["Manifest Anger"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Crusader Strike"] = {
-									["count"] = 0,
-								},
-								["Righteous Vengeance (DoT)"] = {
-									["count"] = 0.84,
-								},
-								["Seal of Command"] = {
-									["count"] = 6.540000000000001,
-								},
-								["Judgement of Command"] = {
-									["count"] = 2.33,
-								},
-								["Divine Storm"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 13.21,
-						},
-					},
-					["ManaGain"] = 12619,
-					["HOTs"] = {
-						["Sheath of Light"] = {
-							["Details"] = {
-								["Pocaitoru"] = {
-									["count"] = 6,
-								},
-							},
-							["amount"] = 6,
-						},
-						["Divine Storm"] = {
-							["Details"] = {
-								["Pocaitoru"] = {
-									["count"] = 6,
-								},
-							},
-							["amount"] = 6,
-						},
-					},
+					["DOT_Time"] = 6,
 					["DispelledWho"] = {
 					},
 				},
@@ -6693,15 +6694,104 @@ RecountPerCharDB = {
 					},
 					["DeathCount"] = 1,
 					["HOT_Time"] = 6,
-					["ElementHitsDone"] = {
-						["Shadow"] = {
+					["ElementTakenBlock"] = {
+					},
+					["RunicPowerGain"] = 0,
+					["ElementTaken"] = {
+						["Melee"] = 35686,
+						["Physical"] = 6101,
+					},
+					["HOTs"] = {
+						["Divine Storm"] = {
 							["Details"] = {
-								["Hit"] = {
-									["count"] = 2,
+								["Caryrraent"] = {
+									["count"] = 3,
+								},
+								["Pocaitoru"] = {
+									["count"] = 3,
 								},
 							},
-							["amount"] = 2,
+							["amount"] = 6,
 						},
+					},
+					["Damage"] = 192563,
+					["ElementDoneAbsorb"] = {
+					},
+					["TimeHeal"] = 0.19,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["PartialBlock"] = {
+					},
+					["DamagedWho"] = {
+						["Dragonflayer Weaponsmith"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 9233,
+								},
+								["Divine Storm"] = {
+									["count"] = 7809,
+								},
+								["Judgement of Command"] = {
+									["count"] = 5658,
+								},
+								["Seal of Command"] = {
+									["count"] = 15183,
+								},
+								["Manifest Anger"] = {
+									["count"] = 3019,
+								},
+								["Crusader Strike"] = {
+									["count"] = 5298,
+								},
+							},
+							["amount"] = 46200,
+						},
+						["Dragonflayer Metalworker"] = {
+							["Details"] = {
+								["Exorcism"] = {
+									["count"] = 4162,
+								},
+								["Melee"] = {
+									["count"] = 20774,
+								},
+								["Chaos Bane"] = {
+									["count"] = 1547,
+								},
+								["Judgement of Command"] = {
+									["count"] = 6830,
+								},
+								["Divine Storm"] = {
+									["count"] = 19826,
+								},
+								["Crusader Strike"] = {
+									["count"] = 8875,
+								},
+								["Seal of Command"] = {
+									["count"] = 78597,
+								},
+								["Righteous Vengeance (DoT)"] = {
+									["count"] = 4131,
+								},
+								["Manifest Anger"] = {
+									["count"] = 1621,
+								},
+							},
+							["amount"] = 146363,
+						},
+					},
+					["FAttacks"] = {
+					},
+					["HealingTaken"] = 9264,
+					["ElementDone"] = {
+						["Holy"] = 114561,
+						["Physical"] = 46448,
+						["Melee"] = 30007,
+						["Shadow"] = 1547,
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementHitsDone"] = {
 						["Holy"] = {
 							["Details"] = {
 								["Tick"] = {
@@ -6716,17 +6806,6 @@ RecountPerCharDB = {
 							},
 							["amount"] = 42,
 						},
-						["Melee"] = {
-							["Details"] = {
-								["Crit"] = {
-									["count"] = 4,
-								},
-								["Hit"] = {
-									["count"] = 1,
-								},
-							},
-							["amount"] = 5,
-						},
 						["Physical"] = {
 							["Details"] = {
 								["Crit"] = {
@@ -6738,35 +6817,162 @@ RecountPerCharDB = {
 							},
 							["amount"] = 9,
 						},
+						["Melee"] = {
+							["Details"] = {
+								["Crit"] = {
+									["count"] = 4,
+								},
+								["Hit"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 5,
+						},
+						["Shadow"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 2,
+								},
+							},
+							["amount"] = 2,
+						},
 					},
+					["ManaGainedFrom"] = {
+						["Pocaitoru"] = {
+							["Details"] = {
+								["Replenishment"] = {
+									["count"] = 288,
+								},
+								["Judgement of Wisdom"] = {
+									["count"] = 435,
+								},
+								["Judgements of the Wise"] = {
+									["count"] = 2196,
+								},
+							},
+							["amount"] = 2919,
+						},
+					},
+					["WhoDamaged"] = {
+						["Dragonflayer Weaponsmith"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 2911,
+								},
+								["Concussion Blow"] = {
+									["count"] = 3034,
+								},
+								["Cleave"] = {
+									["count"] = 3067,
+								},
+							},
+							["amount"] = 9012,
+						},
+						["Dragonflayer Metalworker"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 32775,
+								},
+							},
+							["amount"] = 32775,
+						},
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["RunicPowerGained"] = {
+					},
+					["CCBroken"] = {
+					},
+					["ElementDoneBlock"] = {
+						["Holy"] = 40,
+					},
+					["TimeHealing"] = {
+						["Caryrraent"] = {
+							["Details"] = {
+								["Divine Storm"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Pocaitoru"] = {
+							["Details"] = {
+								["Divine Storm"] = {
+									["count"] = 0,
+								},
+								["Flash of Light"] = {
+									["count"] = 0.19,
+								},
+							},
+							["amount"] = 0.19,
+						},
+					},
+					["Dispelled"] = 0,
+					["WhoHealed"] = {
+						["Pocaitoru"] = {
+							["Details"] = {
+								["Divine Storm"] = {
+									["count"] = 4533,
+								},
+								["Flash of Light"] = {
+									["count"] = 4731,
+								},
+							},
+							["amount"] = 9264,
+						},
+					},
+					["HealedWho"] = {
+						["Caryrraent"] = {
+							["Details"] = {
+								["Divine Storm"] = {
+									["count"] = 3155,
+								},
+							},
+							["amount"] = 3155,
+						},
+						["Pocaitoru"] = {
+							["Details"] = {
+								["Divine Storm"] = {
+									["count"] = 4533,
+								},
+								["Flash of Light"] = {
+									["count"] = 4731,
+								},
+							},
+							["amount"] = 9264,
+						},
+					},
+					["CCBreak"] = 0,
 					["ElementTakenAbsorb"] = {
 						["Melee"] = 7486,
 					},
-					["ElementTaken"] = {
-						["Melee"] = 35686,
-						["Physical"] = 6101,
-					},
-					["DOT_Time"] = 24,
-					["Damage"] = 192563,
-					["ElementTakenBlock"] = {
-					},
-					["TimeHeal"] = 0.19,
-					["RessedWho"] = {
-					},
-					["Dispels"] = 0,
-					["ElementTakenResist"] = {
-					},
-					["ElementDoneAbsorb"] = {
-					},
-					["FAttacks"] = {
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementDone"] = {
-						["Shadow"] = 1547,
-						["Holy"] = 114561,
-						["Melee"] = 30007,
-						["Physical"] = 46448,
+					["FDamage"] = 0,
+					["EnergyGain"] = 0,
+					["ManaGained"] = {
+						["Replenishment"] = {
+							["Details"] = {
+								["Pocaitoru"] = {
+									["count"] = 288,
+								},
+							},
+							["amount"] = 288,
+						},
+						["Judgement of Wisdom"] = {
+							["Details"] = {
+								["Pocaitoru"] = {
+									["count"] = 435,
+								},
+							},
+							["amount"] = 435,
+						},
+						["Judgements of the Wise"] = {
+							["Details"] = {
+								["Pocaitoru"] = {
+									["count"] = 2196,
+								},
+							},
+							["amount"] = 2196,
+						},
 					},
 					["PartialAbsorb"] = {
 						["Concussion Blow"] = {
@@ -6824,90 +7030,118 @@ RecountPerCharDB = {
 							["amount"] = 0,
 						},
 					},
-					["DamagedWho"] = {
+					["ActiveTime"] = 21.94,
+					["Overhealing"] = 0,
+					["TimeSpent"] = {
+						["Caryrraent"] = {
+							["Details"] = {
+								["Divine Storm"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Pocaitoru"] = {
+							["Details"] = {
+								["Divine Storm"] = {
+									["count"] = 0,
+								},
+								["Flash of Light"] = {
+									["count"] = 0.19,
+								},
+							},
+							["amount"] = 0.19,
+						},
 						["Dragonflayer Weaponsmith"] = {
 							["Details"] = {
 								["Melee"] = {
-									["count"] = 9233,
-								},
-								["Crusader Strike"] = {
-									["count"] = 5298,
+									["count"] = 0,
 								},
 								["Divine Storm"] = {
-									["count"] = 7809,
-								},
-								["Seal of Command"] = {
-									["count"] = 15183,
+									["count"] = 0,
 								},
 								["Judgement of Command"] = {
-									["count"] = 5658,
+									["count"] = 0.23,
+								},
+								["Seal of Command"] = {
+									["count"] = 5.09,
 								},
 								["Manifest Anger"] = {
-									["count"] = 3019,
+									["count"] = 0,
+								},
+								["Crusader Strike"] = {
+									["count"] = 0.01,
 								},
 							},
-							["amount"] = 46200,
+							["amount"] = 5.329999999999999,
 						},
 						["Dragonflayer Metalworker"] = {
 							["Details"] = {
 								["Exorcism"] = {
-									["count"] = 4162,
+									["count"] = 1.13,
 								},
 								["Melee"] = {
-									["count"] = 20774,
+									["count"] = 0,
 								},
 								["Chaos Bane"] = {
-									["count"] = 1547,
+									["count"] = 0.43,
 								},
 								["Judgement of Command"] = {
-									["count"] = 6830,
-								},
-								["Crusader Strike"] = {
-									["count"] = 8875,
+									["count"] = 1.67,
 								},
 								["Divine Storm"] = {
-									["count"] = 19826,
+									["count"] = 0,
+								},
+								["Crusader Strike"] = {
+									["count"] = 0,
 								},
 								["Seal of Command"] = {
-									["count"] = 78597,
+									["count"] = 5.7,
 								},
 								["Righteous Vengeance (DoT)"] = {
-									["count"] = 4131,
+									["count"] = 7.49,
 								},
 								["Manifest Anger"] = {
-									["count"] = 1621,
+									["count"] = 0,
 								},
 							},
-							["amount"] = 146363,
+							["amount"] = 16.42000000000001,
 						},
 					},
-					["PartialBlock"] = {
+					["WhoDispelled"] = {
 					},
-					["WhoDamaged"] = {
-						["Dragonflayer Weaponsmith"] = {
+					["InterruptData"] = {
+					},
+					["ElementTakenResist"] = {
+					},
+					["Heals"] = {
+						["Divine Storm"] = {
 							["Details"] = {
-								["Melee"] = {
-									["count"] = 2911,
-								},
-								["Concussion Blow"] = {
-									["count"] = 3034,
-								},
-								["Cleave"] = {
-									["count"] = 3067,
+								["Tick"] = {
+									["max"] = 4533,
+									["min"] = 3155,
+									["count"] = 2,
+									["amount"] = 7688,
 								},
 							},
-							["amount"] = 9012,
+							["count"] = 2,
+							["amount"] = 7688,
 						},
-						["Dragonflayer Metalworker"] = {
+						["Flash of Light"] = {
 							["Details"] = {
-								["Melee"] = {
-									["count"] = 32775,
+								["Hit"] = {
+									["max"] = 4731,
+									["min"] = 4731,
+									["count"] = 1,
+									["amount"] = 4731,
 								},
 							},
-							["amount"] = 32775,
+							["count"] = 1,
+							["amount"] = 4731,
 						},
 					},
-					["EnergyGainedFrom"] = {
+					["Interrupts"] = 0,
+					["EnergyGained"] = {
 					},
 					["PartialResist"] = {
 						["Concussion Blow"] = {
@@ -6959,233 +7193,11 @@ RecountPerCharDB = {
 							["amount"] = 0,
 						},
 					},
-					["CCBroken"] = {
-					},
-					["ElementDoneBlock"] = {
-						["Holy"] = 40,
-					},
-					["TimeHealing"] = {
-						["Caryrraent"] = {
-							["Details"] = {
-								["Divine Storm"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Pocaitoru"] = {
-							["Details"] = {
-								["Divine Storm"] = {
-									["count"] = 0,
-								},
-								["Flash of Light"] = {
-									["count"] = 0.19,
-								},
-							},
-							["amount"] = 0.19,
-						},
+					["Healing"] = 12419,
+					["RageGained"] = {
 					},
 					["OverHeals"] = {
 					},
-					["ManaGainedFrom"] = {
-						["Pocaitoru"] = {
-							["Details"] = {
-								["Replenishment"] = {
-									["count"] = 288,
-								},
-								["Judgement of Wisdom"] = {
-									["count"] = 435,
-								},
-								["Judgements of the Wise"] = {
-									["count"] = 2196,
-								},
-							},
-							["amount"] = 2919,
-						},
-					},
-					["RunicPowerGained"] = {
-					},
-					["CCBreak"] = 0,
-					["RageGained"] = {
-					},
-					["HealedWho"] = {
-						["Caryrraent"] = {
-							["Details"] = {
-								["Divine Storm"] = {
-									["count"] = 3155,
-								},
-							},
-							["amount"] = 3155,
-						},
-						["Pocaitoru"] = {
-							["Details"] = {
-								["Divine Storm"] = {
-									["count"] = 4533,
-								},
-								["Flash of Light"] = {
-									["count"] = 4731,
-								},
-							},
-							["amount"] = 9264,
-						},
-					},
-					["EnergyGain"] = 0,
-					["ManaGained"] = {
-						["Replenishment"] = {
-							["Details"] = {
-								["Pocaitoru"] = {
-									["count"] = 288,
-								},
-							},
-							["amount"] = 288,
-						},
-						["Judgement of Wisdom"] = {
-							["Details"] = {
-								["Pocaitoru"] = {
-									["count"] = 435,
-								},
-							},
-							["amount"] = 435,
-						},
-						["Judgements of the Wise"] = {
-							["Details"] = {
-								["Pocaitoru"] = {
-									["count"] = 2196,
-								},
-							},
-							["amount"] = 2196,
-						},
-					},
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
-					["Overhealing"] = 0,
-					["TimeSpent"] = {
-						["Caryrraent"] = {
-							["Details"] = {
-								["Divine Storm"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Pocaitoru"] = {
-							["Details"] = {
-								["Divine Storm"] = {
-									["count"] = 0,
-								},
-								["Flash of Light"] = {
-									["count"] = 0.19,
-								},
-							},
-							["amount"] = 0.19,
-						},
-						["Dragonflayer Metalworker"] = {
-							["Details"] = {
-								["Exorcism"] = {
-									["count"] = 1.13,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Chaos Bane"] = {
-									["count"] = 0.43,
-								},
-								["Judgement of Command"] = {
-									["count"] = 1.67,
-								},
-								["Crusader Strike"] = {
-									["count"] = 0,
-								},
-								["Divine Storm"] = {
-									["count"] = 0,
-								},
-								["Seal of Command"] = {
-									["count"] = 5.7,
-								},
-								["Righteous Vengeance (DoT)"] = {
-									["count"] = 7.49,
-								},
-								["Manifest Anger"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 16.42000000000001,
-						},
-						["Dragonflayer Weaponsmith"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Crusader Strike"] = {
-									["count"] = 0.01,
-								},
-								["Divine Storm"] = {
-									["count"] = 0,
-								},
-								["Seal of Command"] = {
-									["count"] = 5.09,
-								},
-								["Judgement of Command"] = {
-									["count"] = 0.23,
-								},
-								["Manifest Anger"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 5.329999999999999,
-						},
-					},
-					["WhoDispelled"] = {
-					},
-					["InterruptData"] = {
-					},
-					["RunicPowerGain"] = 0,
-					["Heals"] = {
-						["Divine Storm"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 4533,
-									["min"] = 3155,
-									["count"] = 2,
-									["amount"] = 7688,
-								},
-							},
-							["count"] = 2,
-							["amount"] = 7688,
-						},
-						["Flash of Light"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 4731,
-									["min"] = 4731,
-									["count"] = 1,
-									["amount"] = 4731,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 4731,
-						},
-					},
-					["WhoHealed"] = {
-						["Pocaitoru"] = {
-							["Details"] = {
-								["Divine Storm"] = {
-									["count"] = 4533,
-								},
-								["Flash of Light"] = {
-									["count"] = 4731,
-								},
-							},
-							["amount"] = 9264,
-						},
-					},
-					["EnergyGained"] = {
-					},
-					["ActiveTime"] = 21.94,
-					["Healing"] = 12419,
-					["FDamagedWho"] = {
-					},
-					["Dispelled"] = 0,
 					["Attacks"] = {
 						["Exorcism"] = {
 							["Details"] = {
@@ -7332,8 +7344,9 @@ RecountPerCharDB = {
 							["amount"] = 4640,
 						},
 					},
-					["HealingTaken"] = 9264,
 					["RageGain"] = 0,
+					["FDamagedWho"] = {
+					},
 					["TimeDamage"] = 21.74999999999999,
 					["TimeDamaging"] = {
 						["Dragonflayer Weaponsmith"] = {
@@ -7341,20 +7354,20 @@ RecountPerCharDB = {
 								["Melee"] = {
 									["count"] = 0,
 								},
-								["Crusader Strike"] = {
-									["count"] = 0.01,
-								},
 								["Divine Storm"] = {
 									["count"] = 0,
-								},
-								["Seal of Command"] = {
-									["count"] = 5.09,
 								},
 								["Judgement of Command"] = {
 									["count"] = 0.23,
 								},
+								["Seal of Command"] = {
+									["count"] = 5.09,
+								},
 								["Manifest Anger"] = {
 									["count"] = 0,
+								},
+								["Crusader Strike"] = {
+									["count"] = 0.01,
 								},
 							},
 							["amount"] = 5.329999999999999,
@@ -7373,10 +7386,10 @@ RecountPerCharDB = {
 								["Judgement of Command"] = {
 									["count"] = 1.67,
 								},
-								["Crusader Strike"] = {
+								["Divine Storm"] = {
 									["count"] = 0,
 								},
-								["Divine Storm"] = {
+								["Crusader Strike"] = {
 									["count"] = 0,
 								},
 								["Seal of Command"] = {
@@ -7393,19 +7406,7 @@ RecountPerCharDB = {
 						},
 					},
 					["ManaGain"] = 2919,
-					["HOTs"] = {
-						["Divine Storm"] = {
-							["Details"] = {
-								["Caryrraent"] = {
-									["count"] = 3,
-								},
-								["Pocaitoru"] = {
-									["count"] = 3,
-								},
-							},
-							["amount"] = 6,
-						},
-					},
+					["DOT_Time"] = 24,
 					["DispelledWho"] = {
 					},
 				},
@@ -7430,43 +7431,21 @@ RecountPerCharDB = {
 					},
 					["DeathCount"] = 0,
 					["HOT_Time"] = 0,
-					["ElementHitsDone"] = {
-						["Holy"] = {
-							["Details"] = {
-								["Crit"] = {
-									["count"] = 1,
-								},
-								["Tick"] = {
-									["count"] = 2,
-								},
-							},
-							["amount"] = 3,
-						},
+					["ElementTakenBlock"] = {
 					},
-					["ElementTakenAbsorb"] = {
-					},
+					["RunicPowerGain"] = 0,
 					["ElementTaken"] = {
 					},
-					["DOT_Time"] = 6,
+					["HOTs"] = {
+					},
 					["Damage"] = 3820,
-					["ElementTakenBlock"] = {
+					["ElementDoneAbsorb"] = {
 					},
 					["TimeHeal"] = 1.75,
 					["RessedWho"] = {
 					},
 					["Dispels"] = 0,
-					["ElementTakenResist"] = {
-					},
-					["ElementDoneAbsorb"] = {
-					},
-					["FAttacks"] = {
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementDone"] = {
-						["Holy"] = 3820,
-					},
-					["PartialAbsorb"] = {
+					["PartialBlock"] = {
 					},
 					["DamagedWho"] = {
 						["Grandmaster's Training Dummy"] = {
@@ -7481,40 +7460,25 @@ RecountPerCharDB = {
 							["amount"] = 3820,
 						},
 					},
-					["PartialBlock"] = {
+					["FAttacks"] = {
 					},
-					["WhoDamaged"] = {
+					["HealingTaken"] = 1771,
+					["ElementDone"] = {
+						["Holy"] = 3820,
 					},
-					["EnergyGainedFrom"] = {
+					["RunicPowerGainedFrom"] = {
 					},
-					["PartialResist"] = {
-					},
-					["CCBroken"] = {
-					},
-					["ElementDoneBlock"] = {
-					},
-					["TimeHealing"] = {
-						["Pocaitoru"] = {
-							["Details"] = {
-								["Flash of Light"] = {
-									["count"] = 1.75,
-								},
-							},
-							["amount"] = 1.75,
-						},
-					},
-					["OverHeals"] = {
-						["Flash of Light"] = {
+					["ElementHitsDone"] = {
+						["Holy"] = {
 							["Details"] = {
 								["Crit"] = {
-									["max"] = 2891,
-									["min"] = 2891,
 									["count"] = 1,
-									["amount"] = 2891,
+								},
+								["Tick"] = {
+									["count"] = 2,
 								},
 							},
-							["count"] = 1,
-							["amount"] = 2891,
+							["amount"] = 3,
 						},
 					},
 					["ManaGainedFrom"] = {
@@ -7533,10 +7497,36 @@ RecountPerCharDB = {
 							["amount"] = 3620,
 						},
 					},
+					["WhoDamaged"] = {
+					},
+					["EnergyGainedFrom"] = {
+					},
 					["RunicPowerGained"] = {
 					},
-					["CCBreak"] = 0,
-					["RageGained"] = {
+					["CCBroken"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+						["Pocaitoru"] = {
+							["Details"] = {
+								["Flash of Light"] = {
+									["count"] = 1.75,
+								},
+							},
+							["amount"] = 1.75,
+						},
+					},
+					["Dispelled"] = 0,
+					["WhoHealed"] = {
+						["Pocaitoru"] = {
+							["Details"] = {
+								["Flash of Light"] = {
+									["count"] = 1771,
+								},
+							},
+							["amount"] = 1771,
+						},
 					},
 					["HealedWho"] = {
 						["Pocaitoru"] = {
@@ -7548,6 +7538,10 @@ RecountPerCharDB = {
 							["amount"] = 1771,
 						},
 					},
+					["CCBreak"] = 0,
+					["ElementTakenAbsorb"] = {
+					},
+					["FDamage"] = 0,
 					["EnergyGain"] = 0,
 					["ManaGained"] = {
 						["Divine Plea"] = {
@@ -7575,8 +7569,9 @@ RecountPerCharDB = {
 							["amount"] = 1098,
 						},
 					},
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
+					["PartialAbsorb"] = {
+					},
+					["ActiveTime"] = 7.57,
 					["Overhealing"] = 2891,
 					["TimeSpent"] = {
 						["Grandmaster's Training Dummy"] = {
@@ -7603,7 +7598,8 @@ RecountPerCharDB = {
 					},
 					["InterruptData"] = {
 					},
-					["RunicPowerGain"] = 0,
+					["ElementTakenResist"] = {
+					},
 					["Heals"] = {
 						["Flash of Light"] = {
 							["Details"] = {
@@ -7618,23 +7614,28 @@ RecountPerCharDB = {
 							["amount"] = 1771,
 						},
 					},
-					["WhoHealed"] = {
-						["Pocaitoru"] = {
-							["Details"] = {
-								["Flash of Light"] = {
-									["count"] = 1771,
-								},
-							},
-							["amount"] = 1771,
-						},
-					},
+					["Interrupts"] = 0,
 					["EnergyGained"] = {
 					},
-					["ActiveTime"] = 7.57,
-					["Healing"] = 1771,
-					["FDamagedWho"] = {
+					["PartialResist"] = {
 					},
-					["Dispelled"] = 0,
+					["Healing"] = 1771,
+					["RageGained"] = {
+					},
+					["OverHeals"] = {
+						["Flash of Light"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 2891,
+									["min"] = 2891,
+									["count"] = 1,
+									["amount"] = 2891,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 2891,
+						},
+					},
 					["Attacks"] = {
 						["Judgement of Command"] = {
 							["Details"] = {
@@ -7661,8 +7662,9 @@ RecountPerCharDB = {
 							["amount"] = 498,
 						},
 					},
-					["HealingTaken"] = 1771,
 					["RageGain"] = 0,
+					["FDamagedWho"] = {
+					},
 					["TimeDamage"] = 5.82,
 					["TimeDamaging"] = {
 						["Grandmaster's Training Dummy"] = {
@@ -7678,8 +7680,7 @@ RecountPerCharDB = {
 						},
 					},
 					["ManaGain"] = 3620,
-					["HOTs"] = {
-					},
+					["DOT_Time"] = 6,
 					["DispelledWho"] = {
 					},
 				},
@@ -7704,43 +7705,21 @@ RecountPerCharDB = {
 					},
 					["DeathCount"] = 0,
 					["HOT_Time"] = 0,
-					["ElementHitsDone"] = {
-						["Holy"] = {
-							["Details"] = {
-								["Crit"] = {
-									["count"] = 1,
-								},
-								["Tick"] = {
-									["count"] = 2,
-								},
-							},
-							["amount"] = 3,
-						},
+					["ElementTakenBlock"] = {
 					},
-					["ElementTakenAbsorb"] = {
-					},
+					["RunicPowerGain"] = 0,
 					["ElementTaken"] = {
 					},
-					["DOT_Time"] = 6,
+					["HOTs"] = {
+					},
 					["Damage"] = 3820,
-					["ElementTakenBlock"] = {
+					["ElementDoneAbsorb"] = {
 					},
 					["TimeHeal"] = 1.75,
 					["RessedWho"] = {
 					},
 					["Dispels"] = 0,
-					["ElementTakenResist"] = {
-					},
-					["ElementDoneAbsorb"] = {
-					},
-					["FAttacks"] = {
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementDone"] = {
-						["Holy"] = 3820,
-					},
-					["PartialAbsorb"] = {
+					["PartialBlock"] = {
 					},
 					["DamagedWho"] = {
 						["Grandmaster's Training Dummy"] = {
@@ -7755,40 +7734,25 @@ RecountPerCharDB = {
 							["amount"] = 3820,
 						},
 					},
-					["PartialBlock"] = {
+					["FAttacks"] = {
 					},
-					["WhoDamaged"] = {
+					["HealingTaken"] = 1771,
+					["ElementDone"] = {
+						["Holy"] = 3820,
 					},
-					["EnergyGainedFrom"] = {
+					["RunicPowerGainedFrom"] = {
 					},
-					["PartialResist"] = {
-					},
-					["CCBroken"] = {
-					},
-					["ElementDoneBlock"] = {
-					},
-					["TimeHealing"] = {
-						["Pocaitoru"] = {
-							["Details"] = {
-								["Flash of Light"] = {
-									["count"] = 1.75,
-								},
-							},
-							["amount"] = 1.75,
-						},
-					},
-					["OverHeals"] = {
-						["Flash of Light"] = {
+					["ElementHitsDone"] = {
+						["Holy"] = {
 							["Details"] = {
 								["Crit"] = {
-									["max"] = 2891,
-									["min"] = 2891,
 									["count"] = 1,
-									["amount"] = 2891,
+								},
+								["Tick"] = {
+									["count"] = 2,
 								},
 							},
-							["count"] = 1,
-							["amount"] = 2891,
+							["amount"] = 3,
 						},
 					},
 					["ManaGainedFrom"] = {
@@ -7807,10 +7771,36 @@ RecountPerCharDB = {
 							["amount"] = 3620,
 						},
 					},
+					["WhoDamaged"] = {
+					},
+					["EnergyGainedFrom"] = {
+					},
 					["RunicPowerGained"] = {
 					},
-					["CCBreak"] = 0,
-					["RageGained"] = {
+					["CCBroken"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+						["Pocaitoru"] = {
+							["Details"] = {
+								["Flash of Light"] = {
+									["count"] = 1.75,
+								},
+							},
+							["amount"] = 1.75,
+						},
+					},
+					["Dispelled"] = 0,
+					["WhoHealed"] = {
+						["Pocaitoru"] = {
+							["Details"] = {
+								["Flash of Light"] = {
+									["count"] = 1771,
+								},
+							},
+							["amount"] = 1771,
+						},
 					},
 					["HealedWho"] = {
 						["Pocaitoru"] = {
@@ -7822,6 +7812,10 @@ RecountPerCharDB = {
 							["amount"] = 1771,
 						},
 					},
+					["CCBreak"] = 0,
+					["ElementTakenAbsorb"] = {
+					},
+					["FDamage"] = 0,
 					["EnergyGain"] = 0,
 					["ManaGained"] = {
 						["Divine Plea"] = {
@@ -7849,8 +7843,9 @@ RecountPerCharDB = {
 							["amount"] = 1098,
 						},
 					},
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
+					["PartialAbsorb"] = {
+					},
+					["ActiveTime"] = 7.57,
 					["Overhealing"] = 2891,
 					["TimeSpent"] = {
 						["Grandmaster's Training Dummy"] = {
@@ -7877,7 +7872,8 @@ RecountPerCharDB = {
 					},
 					["InterruptData"] = {
 					},
-					["RunicPowerGain"] = 0,
+					["ElementTakenResist"] = {
+					},
 					["Heals"] = {
 						["Flash of Light"] = {
 							["Details"] = {
@@ -7892,23 +7888,28 @@ RecountPerCharDB = {
 							["amount"] = 1771,
 						},
 					},
-					["WhoHealed"] = {
-						["Pocaitoru"] = {
-							["Details"] = {
-								["Flash of Light"] = {
-									["count"] = 1771,
-								},
-							},
-							["amount"] = 1771,
-						},
-					},
+					["Interrupts"] = 0,
 					["EnergyGained"] = {
 					},
-					["ActiveTime"] = 7.57,
-					["Healing"] = 1771,
-					["FDamagedWho"] = {
+					["PartialResist"] = {
 					},
-					["Dispelled"] = 0,
+					["Healing"] = 1771,
+					["RageGained"] = {
+					},
+					["OverHeals"] = {
+						["Flash of Light"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 2891,
+									["min"] = 2891,
+									["count"] = 1,
+									["amount"] = 2891,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 2891,
+						},
+					},
 					["Attacks"] = {
 						["Judgement of Command"] = {
 							["Details"] = {
@@ -7935,8 +7936,9 @@ RecountPerCharDB = {
 							["amount"] = 498,
 						},
 					},
-					["HealingTaken"] = 1771,
 					["RageGain"] = 0,
+					["FDamagedWho"] = {
+					},
 					["TimeDamage"] = 5.82,
 					["TimeDamaging"] = {
 						["Grandmaster's Training Dummy"] = {
@@ -7952,8 +7954,7 @@ RecountPerCharDB = {
 						},
 					},
 					["ManaGain"] = 3620,
-					["HOTs"] = {
-					},
+					["DOT_Time"] = 6,
 					["DispelledWho"] = {
 					},
 				},
@@ -7967,11 +7968,11 @@ RecountPerCharDB = {
 								["Grandmaster's Training Dummy"] = {
 									["count"] = 12,
 								},
-								["Dragonflayer Metalworker"] = {
-									["count"] = 24,
-								},
 								["Dragonflayer Weaponsmith"] = {
 									["count"] = 15,
+								},
+								["Dragonflayer Metalworker"] = {
+									["count"] = 24,
 								},
 							},
 							["amount"] = 54,
@@ -8070,20 +8071,12 @@ RecountPerCharDB = {
 					["Damage"] = 437956,
 					["TimeHeal"] = 6,
 					["ElementDone"] = {
-						["Shadow"] = 2866,
 						["Holy"] = 233889,
-						["Melee"] = 76567,
 						["Physical"] = 124634,
+						["Melee"] = 76567,
+						["Shadow"] = 2866,
 					},
 					["ElementHitsDone"] = {
-						["Shadow"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 3,
-								},
-							},
-							["amount"] = 3,
-						},
 						["Holy"] = {
 							["Details"] = {
 								["Tick"] = {
@@ -8098,6 +8091,17 @@ RecountPerCharDB = {
 							},
 							["amount"] = 87,
 						},
+						["Physical"] = {
+							["Details"] = {
+								["Crit"] = {
+									["count"] = 15,
+								},
+								["Hit"] = {
+									["count"] = 6,
+								},
+							},
+							["amount"] = 21,
+						},
 						["Melee"] = {
 							["Details"] = {
 								["Crit"] = {
@@ -8109,16 +8113,13 @@ RecountPerCharDB = {
 							},
 							["amount"] = 16,
 						},
-						["Physical"] = {
+						["Shadow"] = {
 							["Details"] = {
-								["Crit"] = {
-									["count"] = 15,
-								},
 								["Hit"] = {
-									["count"] = 6,
+									["count"] = 3,
 								},
 							},
-							["amount"] = 21,
+							["amount"] = 3,
 						},
 					},
 					["WhoDamaged"] = {
@@ -8305,14 +8306,6 @@ RecountPerCharDB = {
 							},
 							["amount"] = 14165,
 						},
-						["Replenishment"] = {
-							["Details"] = {
-								["Pocaitoru"] = {
-									["count"] = 1016,
-								},
-							},
-							["amount"] = 1016,
-						},
 						["Judgement of Wisdom"] = {
 							["Details"] = {
 								["Pocaitoru"] = {
@@ -8320,6 +8313,14 @@ RecountPerCharDB = {
 								},
 							},
 							["amount"] = 2088,
+						},
+						["Replenishment"] = {
+							["Details"] = {
+								["Pocaitoru"] = {
+									["count"] = 1016,
+								},
+							},
+							["amount"] = 1016,
 						},
 						["Judgements of the Wise"] = {
 							["Details"] = {
@@ -8469,17 +8470,17 @@ RecountPerCharDB = {
 					["TimeSpent"] = {
 						["Dragonflayer Ironhelm"] = {
 							["Details"] = {
-								["Righteous Vengeance (DoT)"] = {
-									["count"] = 0.26,
+								["Judgement of Command"] = {
+									["count"] = 1.64,
 								},
-								["Melee"] = {
+								["Divine Storm"] = {
 									["count"] = 0,
 								},
 								["Chaos Bane"] = {
 									["count"] = 0.62,
 								},
-								["Judgement of Command"] = {
-									["count"] = 1.64,
+								["Righteous Vengeance (DoT)"] = {
+									["count"] = 0.26,
 								},
 								["Seal of Command"] = {
 									["count"] = 5.79,
@@ -8487,7 +8488,7 @@ RecountPerCharDB = {
 								["Manifest Anger"] = {
 									["count"] = 0,
 								},
-								["Divine Storm"] = {
+								["Melee"] = {
 									["count"] = 0,
 								},
 							},
@@ -8507,10 +8508,10 @@ RecountPerCharDB = {
 								["Judgement of Command"] = {
 									["count"] = 1.67,
 								},
-								["Crusader Strike"] = {
+								["Divine Storm"] = {
 									["count"] = 0,
 								},
-								["Divine Storm"] = {
+								["Crusader Strike"] = {
 									["count"] = 0,
 								},
 								["Seal of Command"] = {
@@ -8561,10 +8562,10 @@ RecountPerCharDB = {
 								["Hammer of Wrath"] = {
 									["count"] = 0.43,
 								},
-								["Crusader Strike"] = {
+								["Melee"] = {
 									["count"] = 0.01,
 								},
-								["Melee"] = {
+								["Crusader Strike"] = {
 									["count"] = 0.01,
 								},
 								["Seal of Command"] = {
@@ -8703,24 +8704,6 @@ RecountPerCharDB = {
 							["count"] = 1,
 							["amount"] = 6947,
 						},
-						["Crusader Strike"] = {
-							["Details"] = {
-								["Crit"] = {
-									["max"] = 5852,
-									["min"] = 4670,
-									["count"] = 5,
-									["amount"] = 26570,
-								},
-								["Hit"] = {
-									["max"] = 3023,
-									["min"] = 3023,
-									["count"] = 1,
-									["amount"] = 3023,
-								},
-							},
-							["count"] = 6,
-							["amount"] = 29593,
-						},
 						["Melee"] = {
 							["Details"] = {
 								["Hit (Blocked)"] = {
@@ -8744,6 +8727,24 @@ RecountPerCharDB = {
 							},
 							["count"] = 16,
 							["amount"] = 76567,
+						},
+						["Crusader Strike"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 5852,
+									["min"] = 4670,
+									["count"] = 5,
+									["amount"] = 26570,
+								},
+								["Hit"] = {
+									["max"] = 3023,
+									["min"] = 3023,
+									["count"] = 1,
+									["amount"] = 3023,
+								},
+							},
+							["count"] = 6,
+							["amount"] = 29593,
 						},
 						["Seal of Command"] = {
 							["Details"] = {
@@ -8804,17 +8805,17 @@ RecountPerCharDB = {
 					["DamagedWho"] = {
 						["Dragonflayer Ironhelm"] = {
 							["Details"] = {
-								["Righteous Vengeance (DoT)"] = {
-									["count"] = 901,
+								["Judgement of Command"] = {
+									["count"] = 8921,
 								},
-								["Melee"] = {
-									["count"] = 12753,
+								["Divine Storm"] = {
+									["count"] = 41546,
 								},
 								["Chaos Bane"] = {
 									["count"] = 1319,
 								},
-								["Judgement of Command"] = {
-									["count"] = 8921,
+								["Righteous Vengeance (DoT)"] = {
+									["count"] = 901,
 								},
 								["Seal of Command"] = {
 									["count"] = 37705,
@@ -8822,8 +8823,8 @@ RecountPerCharDB = {
 								["Manifest Anger"] = {
 									["count"] = 2447,
 								},
-								["Divine Storm"] = {
-									["count"] = 41546,
+								["Melee"] = {
+									["count"] = 12753,
 								},
 							},
 							["amount"] = 105592,
@@ -8838,6 +8839,38 @@ RecountPerCharDB = {
 								},
 							},
 							["amount"] = 4318,
+						},
+						["Dragonflayer Metalworker"] = {
+							["Details"] = {
+								["Exorcism"] = {
+									["count"] = 4162,
+								},
+								["Melee"] = {
+									["count"] = 20774,
+								},
+								["Chaos Bane"] = {
+									["count"] = 1547,
+								},
+								["Judgement of Command"] = {
+									["count"] = 6830,
+								},
+								["Divine Storm"] = {
+									["count"] = 19826,
+								},
+								["Crusader Strike"] = {
+									["count"] = 8875,
+								},
+								["Seal of Command"] = {
+									["count"] = 78597,
+								},
+								["Righteous Vengeance (DoT)"] = {
+									["count"] = 4131,
+								},
+								["Manifest Anger"] = {
+									["count"] = 1621,
+								},
+							},
+							["amount"] = 146363,
 						},
 						["Dragonflayer Weaponsmith"] = {
 							["Details"] = {
@@ -8856,11 +8889,11 @@ RecountPerCharDB = {
 								["Hammer of Wrath"] = {
 									["count"] = 6947,
 								},
-								["Crusader Strike"] = {
-									["count"] = 20718,
-								},
 								["Melee"] = {
 									["count"] = 43040,
+								},
+								["Crusader Strike"] = {
+									["count"] = 20718,
 								},
 								["Seal of Command"] = {
 									["count"] = 52242,
@@ -8874,54 +8907,22 @@ RecountPerCharDB = {
 							},
 							["amount"] = 181683,
 						},
-						["Dragonflayer Metalworker"] = {
-							["Details"] = {
-								["Exorcism"] = {
-									["count"] = 4162,
-								},
-								["Melee"] = {
-									["count"] = 20774,
-								},
-								["Chaos Bane"] = {
-									["count"] = 1547,
-								},
-								["Judgement of Command"] = {
-									["count"] = 6830,
-								},
-								["Crusader Strike"] = {
-									["count"] = 8875,
-								},
-								["Divine Storm"] = {
-									["count"] = 19826,
-								},
-								["Seal of Command"] = {
-									["count"] = 78597,
-								},
-								["Righteous Vengeance (DoT)"] = {
-									["count"] = 4131,
-								},
-								["Manifest Anger"] = {
-									["count"] = 1621,
-								},
-							},
-							["amount"] = 146363,
-						},
 					},
 					["TimeDamage"] = 66.28999999999998,
 					["TimeDamaging"] = {
 						["Dragonflayer Ironhelm"] = {
 							["Details"] = {
-								["Righteous Vengeance (DoT)"] = {
-									["count"] = 0.26,
+								["Judgement of Command"] = {
+									["count"] = 1.64,
 								},
-								["Melee"] = {
+								["Divine Storm"] = {
 									["count"] = 0,
 								},
 								["Chaos Bane"] = {
 									["count"] = 0.62,
 								},
-								["Judgement of Command"] = {
-									["count"] = 1.64,
+								["Righteous Vengeance (DoT)"] = {
+									["count"] = 0.26,
 								},
 								["Seal of Command"] = {
 									["count"] = 5.79,
@@ -8929,7 +8930,7 @@ RecountPerCharDB = {
 								["Manifest Anger"] = {
 									["count"] = 0,
 								},
-								["Divine Storm"] = {
+								["Melee"] = {
 									["count"] = 0,
 								},
 							},
@@ -8945,6 +8946,38 @@ RecountPerCharDB = {
 								},
 							},
 							["amount"] = 9.799999999999999,
+						},
+						["Dragonflayer Metalworker"] = {
+							["Details"] = {
+								["Exorcism"] = {
+									["count"] = 1.13,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Chaos Bane"] = {
+									["count"] = 0.43,
+								},
+								["Judgement of Command"] = {
+									["count"] = 1.67,
+								},
+								["Divine Storm"] = {
+									["count"] = 0,
+								},
+								["Crusader Strike"] = {
+									["count"] = 0,
+								},
+								["Seal of Command"] = {
+									["count"] = 5.7,
+								},
+								["Righteous Vengeance (DoT)"] = {
+									["count"] = 7.49,
+								},
+								["Manifest Anger"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 16.42000000000001,
 						},
 						["Dragonflayer Weaponsmith"] = {
 							["Details"] = {
@@ -8963,10 +8996,10 @@ RecountPerCharDB = {
 								["Hammer of Wrath"] = {
 									["count"] = 0.43,
 								},
-								["Crusader Strike"] = {
+								["Melee"] = {
 									["count"] = 0.01,
 								},
-								["Melee"] = {
+								["Crusader Strike"] = {
 									["count"] = 0.01,
 								},
 								["Seal of Command"] = {
@@ -8981,38 +9014,6 @@ RecountPerCharDB = {
 							},
 							["amount"] = 31.76000000000001,
 						},
-						["Dragonflayer Metalworker"] = {
-							["Details"] = {
-								["Exorcism"] = {
-									["count"] = 1.13,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Chaos Bane"] = {
-									["count"] = 0.43,
-								},
-								["Judgement of Command"] = {
-									["count"] = 1.67,
-								},
-								["Crusader Strike"] = {
-									["count"] = 0,
-								},
-								["Divine Storm"] = {
-									["count"] = 0,
-								},
-								["Seal of Command"] = {
-									["count"] = 5.7,
-								},
-								["Righteous Vengeance (DoT)"] = {
-									["count"] = 7.49,
-								},
-								["Manifest Anger"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 16.42000000000001,
-						},
 					},
 					["ManaGain"] = 24955,
 					["Overhealing"] = 5026,
@@ -9022,11 +9023,11 @@ RecountPerCharDB = {
 								["Divine Plea"] = {
 									["count"] = 14165,
 								},
-								["Replenishment"] = {
-									["count"] = 1016,
-								},
 								["Judgement of Wisdom"] = {
 									["count"] = 2088,
+								},
+								["Replenishment"] = {
+									["count"] = 1016,
 								},
 								["Judgements of the Wise"] = {
 									["count"] = 7686,
@@ -9148,14 +9149,14 @@ RecountPerCharDB = {
 				"DAMAGE", -- [50]
 			},
 			["TimeWindows"] = {
-				["DamageTaken"] = {
-					12005, -- [1]
-				},
 				["ActiveTime"] = {
 					54.77, -- [1]
 				},
 				["TimeDamage"] = {
 					54.77, -- [1]
+				},
+				["DamageTaken"] = {
+					12005, -- [1]
 				},
 				["ManaGain"] = {
 					3033, -- [1]
@@ -9169,28 +9170,79 @@ RecountPerCharDB = {
 			},
 			["enClass"] = "HUNTER",
 			["unit"] = "Kindagood",
-			["lazysync"] = true,
-			["LastDamageTaken"] = 6069,
+			["LastAbility"] = 25706.589,
+			["LastEventTimes"] = {
+				22263.582, -- [1]
+				22264.381, -- [2]
+				22264.381, -- [3]
+				22264.486, -- [4]
+				22264.625, -- [5]
+				22264.742, -- [6]
+				22265.916, -- [7]
+				22266.396, -- [8]
+				22267.417, -- [9]
+				22267.875, -- [10]
+				22268.809, -- [11]
+				22271.598, -- [12]
+				22271.952, -- [13]
+				22272.501, -- [14]
+				22274.133, -- [15]
+				22275.716, -- [16]
+				22276.224, -- [17]
+				22276.348, -- [18]
+				22276.45, -- [19]
+				22278.307, -- [20]
+				22278.696, -- [21]
+				22279.69, -- [22]
+				22280.189, -- [23]
+				22280.669, -- [24]
+				22281.597, -- [25]
+				22313.59, -- [26]
+				22316.614, -- [27]
+				22319.643, -- [28]
+				22322.575, -- [29]
+				22325.562, -- [30]
+				22251.713, -- [31]
+				22251.713, -- [32]
+				22251.713, -- [33]
+				22251.714, -- [34]
+				22252.651, -- [35]
+				22253.643, -- [36]
+				22254.068, -- [37]
+				22254.435, -- [38]
+				22256.415, -- [39]
+				22256.415, -- [40]
+				22257.505, -- [41]
+				22258.091, -- [42]
+				22258.381, -- [43]
+				22258.477, -- [44]
+				22259.519, -- [45]
+				22260.478, -- [46]
+				22261.478, -- [47]
+				22262.499, -- [48]
+				22263.041, -- [49]
+				22263.465, -- [50]
+			},
 			["level"] = 80,
 			["LastDamageAbility"] = "Melee",
 			["LastFightIn"] = 1,
 			["LastEventNum"] = {
-				[3] = 28.63681404237248,
 				[40] = 13.3912140801208,
 				[43] = 14.61803425659416,
+				[3] = 28.63681404237248,
 			},
-			["type"] = "Ungrouped",
+			["lazysync"] = true,
 			["FightsSaved"] = 5,
 			["TimeLast"] = {
-				["DamageTaken"] = 1645985413,
 				["TimeDamage"] = 1645985430,
+				["DamageTaken"] = 1645985413,
 				["ActiveTime"] = 1645985430,
 				["ManaGain"] = 1645985436,
 				["OVERALL"] = 1645985436,
 				["DOT_Time"] = 1645985425,
 				["Damage"] = 1645985430,
 			},
-			["LastAbility"] = 22281.597,
+			["LastDamageTaken"] = 6069,
 			["Owner"] = false,
 			["Pet"] = {
 				"Vulcho <Kindagood>", -- [1]
@@ -9300,59 +9352,6 @@ RecountPerCharDB = {
 				"Kindagood Auto Shot Dragonflayer Metalworker Crit -2853 (Physical)", -- [49]
 				"Kindagood Piercing Shots (DoT) Dragonflayer Metalworker Tick -278 (Physical)", -- [50]
 			},
-			["Name"] = "Kindagood",
-			["LastEventTimes"] = {
-				22263.582, -- [1]
-				22264.381, -- [2]
-				22264.381, -- [3]
-				22264.486, -- [4]
-				22264.625, -- [5]
-				22264.742, -- [6]
-				22265.916, -- [7]
-				22266.396, -- [8]
-				22267.417, -- [9]
-				22267.875, -- [10]
-				22268.809, -- [11]
-				22271.598, -- [12]
-				22271.952, -- [13]
-				22272.501, -- [14]
-				22274.133, -- [15]
-				22275.716, -- [16]
-				22276.224, -- [17]
-				22276.348, -- [18]
-				22276.45, -- [19]
-				22278.307, -- [20]
-				22278.696, -- [21]
-				22279.69, -- [22]
-				22280.189, -- [23]
-				22280.669, -- [24]
-				22281.597, -- [25]
-				22313.59, -- [26]
-				22316.614, -- [27]
-				22319.643, -- [28]
-				22322.575, -- [29]
-				22325.562, -- [30]
-				22251.713, -- [31]
-				22251.713, -- [32]
-				22251.713, -- [33]
-				22251.714, -- [34]
-				22252.651, -- [35]
-				22253.643, -- [36]
-				22254.068, -- [37]
-				22254.435, -- [38]
-				22256.415, -- [39]
-				22256.415, -- [40]
-				22257.505, -- [41]
-				22258.091, -- [42]
-				22258.381, -- [43]
-				22258.477, -- [44]
-				22259.519, -- [45]
-				22260.478, -- [46]
-				22261.478, -- [47]
-				22262.499, -- [48]
-				22263.041, -- [49]
-				22263.465, -- [50]
-			},
 			["LastEventIncoming"] = {
 				false, -- [1]
 				false, -- [2]
@@ -9405,6 +9404,8 @@ RecountPerCharDB = {
 				false, -- [49]
 				false, -- [50]
 			},
+			["type"] = "Ungrouped",
+			["Name"] = "Kindagood",
 			["Fights"] = {
 				["Fight5"] = {
 					["DOTs"] = {
@@ -9417,69 +9418,26 @@ RecountPerCharDB = {
 							["amount"] = 3,
 						},
 					},
-					["ActiveTime"] = 7.010000000000002,
-					["ManaGainedFrom"] = {
-						["Pocaitoru"] = {
-							["Details"] = {
-								["Replenishment"] = {
-									["count"] = 189,
-								},
-							},
-							["amount"] = 189,
-						},
-						["Kindagood"] = {
-							["Details"] = {
-								["Rapid Recuperation"] = {
-									["count"] = 274,
-								},
-							},
-							["amount"] = 274,
-						},
-					},
-					["TimeSpent"] = {
+					["DamagedWho"] = {
 						["Dragonflayer Ironhelm"] = {
 							["Details"] = {
 								["Chimera Shot"] = {
-									["count"] = 1.48,
+									["count"] = 3003,
 								},
 								["Serpent Sting (DoT)"] = {
-									["count"] = 0.61,
+									["count"] = 768,
 								},
 								["Auto Shot"] = {
-									["count"] = 4.270000000000001,
+									["count"] = 8369,
 								},
 								["Chimera Shot - Serpent"] = {
-									["count"] = 0.52,
+									["count"] = 2153,
 								},
 								["Aimed Shot"] = {
-									["count"] = 0.13,
+									["count"] = 2133,
 								},
 							},
-							["amount"] = 7.010000000000002,
-						},
-					},
-					["ElementHitsDone"] = {
-						["Nature"] = {
-							["Details"] = {
-								["Tick"] = {
-									["count"] = 1,
-								},
-								["Hit"] = {
-									["count"] = 2,
-								},
-							},
-							["amount"] = 3,
-						},
-						["Physical"] = {
-							["Details"] = {
-								["Crit"] = {
-									["count"] = 3,
-								},
-								["Hit"] = {
-									["count"] = 1,
-								},
-							},
-							["amount"] = 4,
+							["amount"] = 16426,
 						},
 					},
 					["Attacks"] = {
@@ -9544,6 +9502,47 @@ RecountPerCharDB = {
 							["amount"] = 2133,
 						},
 					},
+					["TimeSpent"] = {
+						["Dragonflayer Ironhelm"] = {
+							["Details"] = {
+								["Chimera Shot"] = {
+									["count"] = 1.48,
+								},
+								["Serpent Sting (DoT)"] = {
+									["count"] = 0.61,
+								},
+								["Auto Shot"] = {
+									["count"] = 4.270000000000001,
+								},
+								["Chimera Shot - Serpent"] = {
+									["count"] = 0.52,
+								},
+								["Aimed Shot"] = {
+									["count"] = 0.13,
+								},
+							},
+							["amount"] = 7.010000000000002,
+						},
+					},
+					["ManaGainedFrom"] = {
+						["Pocaitoru"] = {
+							["Details"] = {
+								["Replenishment"] = {
+									["count"] = 189,
+								},
+							},
+							["amount"] = 189,
+						},
+						["Kindagood"] = {
+							["Details"] = {
+								["Rapid Recuperation"] = {
+									["count"] = 274,
+								},
+							},
+							["amount"] = 274,
+						},
+					},
+					["ActiveTime"] = 7.010000000000002,
 					["ElementDone"] = {
 						["Nature"] = 5924,
 						["Physical"] = 10502,
@@ -9566,26 +9565,28 @@ RecountPerCharDB = {
 							["amount"] = 274,
 						},
 					},
-					["DamagedWho"] = {
-						["Dragonflayer Ironhelm"] = {
+					["ElementHitsDone"] = {
+						["Nature"] = {
 							["Details"] = {
-								["Chimera Shot"] = {
-									["count"] = 3003,
+								["Tick"] = {
+									["count"] = 1,
 								},
-								["Serpent Sting (DoT)"] = {
-									["count"] = 768,
-								},
-								["Auto Shot"] = {
-									["count"] = 8369,
-								},
-								["Chimera Shot - Serpent"] = {
-									["count"] = 2153,
-								},
-								["Aimed Shot"] = {
-									["count"] = 2133,
+								["Hit"] = {
+									["count"] = 2,
 								},
 							},
-							["amount"] = 16426,
+							["amount"] = 3,
+						},
+						["Physical"] = {
+							["Details"] = {
+								["Crit"] = {
+									["count"] = 3,
+								},
+								["Hit"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 4,
 						},
 					},
 					["TimeDamage"] = 7.010000000000002,
@@ -9628,41 +9629,40 @@ RecountPerCharDB = {
 					},
 					["DeathCount"] = 0,
 					["HOT_Time"] = 0,
-					["ElementHitsDone"] = {
+					["ElementTakenBlock"] = {
 					},
-					["ElementTakenAbsorb"] = {
-					},
+					["RunicPowerGain"] = 0,
 					["ElementTaken"] = {
 					},
-					["DOT_Time"] = 0,
+					["HOTs"] = {
+					},
 					["Damage"] = 0,
-					["ElementTakenBlock"] = {
+					["ElementDoneAbsorb"] = {
 					},
 					["TimeHeal"] = 0,
 					["RessedWho"] = {
 					},
 					["Dispels"] = 0,
-					["ElementTakenResist"] = {
-					},
-					["ElementDoneAbsorb"] = {
-					},
-					["FAttacks"] = {
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementDone"] = {
-					},
-					["PartialAbsorb"] = {
+					["PartialBlock"] = {
 					},
 					["DamagedWho"] = {
 					},
-					["PartialBlock"] = {
+					["FAttacks"] = {
+					},
+					["HealingTaken"] = 0,
+					["ElementDone"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementHitsDone"] = {
+					},
+					["ManaGainedFrom"] = {
 					},
 					["WhoDamaged"] = {
 					},
 					["EnergyGainedFrom"] = {
 					},
-					["PartialResist"] = {
+					["RunicPowerGained"] = {
 					},
 					["CCBroken"] = {
 					},
@@ -9670,22 +9670,21 @@ RecountPerCharDB = {
 					},
 					["TimeHealing"] = {
 					},
-					["OverHeals"] = {
-					},
-					["ManaGainedFrom"] = {
-					},
-					["RunicPowerGained"] = {
-					},
-					["CCBreak"] = 0,
-					["RageGained"] = {
+					["Dispelled"] = 0,
+					["WhoHealed"] = {
 					},
 					["HealedWho"] = {
 					},
+					["CCBreak"] = 0,
+					["ElementTakenAbsorb"] = {
+					},
+					["FDamage"] = 0,
 					["EnergyGain"] = 0,
 					["ManaGained"] = {
 					},
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
+					["PartialAbsorb"] = {
+					},
+					["ActiveTime"] = 0,
 					["Overhealing"] = 0,
 					["TimeSpent"] = {
 					},
@@ -9693,28 +9692,30 @@ RecountPerCharDB = {
 					},
 					["InterruptData"] = {
 					},
-					["RunicPowerGain"] = 0,
+					["ElementTakenResist"] = {
+					},
 					["Heals"] = {
 					},
-					["WhoHealed"] = {
-					},
+					["Interrupts"] = 0,
 					["EnergyGained"] = {
 					},
-					["ActiveTime"] = 0,
-					["Healing"] = 0,
-					["FDamagedWho"] = {
+					["PartialResist"] = {
 					},
-					["Dispelled"] = 0,
+					["Healing"] = 0,
+					["RageGained"] = {
+					},
+					["OverHeals"] = {
+					},
 					["Attacks"] = {
 					},
-					["HealingTaken"] = 0,
 					["RageGain"] = 0,
+					["FDamagedWho"] = {
+					},
 					["TimeDamage"] = 0,
 					["TimeDamaging"] = {
 					},
 					["ManaGain"] = 0,
-					["HOTs"] = {
-					},
+					["DOT_Time"] = 0,
 					["DispelledWho"] = {
 					},
 				},
@@ -9766,98 +9767,22 @@ RecountPerCharDB = {
 					},
 					["DeathCount"] = 0,
 					["HOT_Time"] = 0,
-					["ElementHitsDone"] = {
-						["Arcane"] = {
-							["Details"] = {
-								["Crit"] = {
-									["count"] = 9,
-								},
-								["Hit"] = {
-									["count"] = 12,
-								},
-							},
-							["amount"] = 21,
-						},
-						["Physical"] = {
-							["Details"] = {
-								["Tick"] = {
-									["count"] = 8,
-								},
-								["Crit"] = {
-									["count"] = 11,
-								},
-								["Hit"] = {
-									["count"] = 8,
-								},
-							},
-							["amount"] = 27,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["Crit"] = {
-									["count"] = 1,
-								},
-								["Hit"] = {
-									["count"] = 1,
-								},
-							},
-							["amount"] = 2,
-						},
-						["Nature"] = {
-							["Details"] = {
-								["Tick"] = {
-									["count"] = 3,
-								},
-								["Crit"] = {
-									["count"] = 6,
-								},
-								["Hit"] = {
-									["count"] = 4,
-								},
-							},
-							["amount"] = 13,
-						},
+					["ElementTakenBlock"] = {
 					},
-					["ElementTakenAbsorb"] = {
-					},
+					["RunicPowerGain"] = 0,
 					["ElementTaken"] = {
 						["Melee"] = 12005,
 					},
-					["DOT_Time"] = 33,
+					["HOTs"] = {
+					},
 					["Damage"] = 132305,
-					["ElementTakenBlock"] = {
+					["ElementDoneAbsorb"] = {
 					},
 					["TimeHeal"] = 0,
 					["RessedWho"] = {
 					},
 					["Dispels"] = 0,
-					["ElementTakenResist"] = {
-					},
-					["ElementDoneAbsorb"] = {
-					},
-					["FAttacks"] = {
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementDone"] = {
-						["Arcane"] = 37572,
-						["Physical"] = 49133,
-						["Melee"] = 4473,
-						["Nature"] = 41127,
-					},
-					["PartialAbsorb"] = {
-						["Melee"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 5,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 5,
-							["amount"] = 0,
-						},
+					["PartialBlock"] = {
 					},
 					["DamagedWho"] = {
 						["Dragonflayer Weaponsmith"] = {
@@ -9919,42 +9844,68 @@ RecountPerCharDB = {
 							["amount"] = 85501,
 						},
 					},
-					["PartialBlock"] = {
+					["FAttacks"] = {
 					},
-					["WhoDamaged"] = {
-						["Dragonflayer Metalworker"] = {
+					["HealingTaken"] = 0,
+					["ElementDone"] = {
+						["Arcane"] = 37572,
+						["Physical"] = 49133,
+						["Melee"] = 4473,
+						["Nature"] = 41127,
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementHitsDone"] = {
+						["Arcane"] = {
 							["Details"] = {
-								["Melee"] = {
-									["count"] = 12005,
+								["Crit"] = {
+									["count"] = 9,
+								},
+								["Hit"] = {
+									["count"] = 12,
 								},
 							},
-							["amount"] = 12005,
+							["amount"] = 21,
 						},
-					},
-					["EnergyGainedFrom"] = {
-					},
-					["PartialResist"] = {
+						["Physical"] = {
+							["Details"] = {
+								["Tick"] = {
+									["count"] = 8,
+								},
+								["Crit"] = {
+									["count"] = 11,
+								},
+								["Hit"] = {
+									["count"] = 8,
+								},
+							},
+							["amount"] = 27,
+						},
 						["Melee"] = {
 							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 5,
-									["amount"] = 0,
+								["Crit"] = {
+									["count"] = 1,
+								},
+								["Hit"] = {
+									["count"] = 1,
 								},
 							},
-							["count"] = 5,
-							["amount"] = 0,
+							["amount"] = 2,
 						},
-					},
-					["CCBroken"] = {
-					},
-					["ElementDoneBlock"] = {
-						["Arcane"] = 40,
-					},
-					["TimeHealing"] = {
-					},
-					["OverHeals"] = {
+						["Nature"] = {
+							["Details"] = {
+								["Tick"] = {
+									["count"] = 3,
+								},
+								["Crit"] = {
+									["count"] = 6,
+								},
+								["Hit"] = {
+									["count"] = 4,
+								},
+							},
+							["amount"] = 13,
+						},
 					},
 					["ManaGainedFrom"] = {
 						["Pocaitoru"] = {
@@ -9985,13 +9936,36 @@ RecountPerCharDB = {
 							["amount"] = 822,
 						},
 					},
+					["WhoDamaged"] = {
+						["Dragonflayer Metalworker"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 12005,
+								},
+							},
+							["amount"] = 12005,
+						},
+					},
+					["EnergyGainedFrom"] = {
+					},
 					["RunicPowerGained"] = {
 					},
-					["CCBreak"] = 0,
-					["RageGained"] = {
+					["CCBroken"] = {
+					},
+					["ElementDoneBlock"] = {
+						["Arcane"] = 40,
+					},
+					["TimeHealing"] = {
+					},
+					["Dispelled"] = 0,
+					["WhoHealed"] = {
 					},
 					["HealedWho"] = {
 					},
+					["CCBreak"] = 0,
+					["ElementTakenAbsorb"] = {
+					},
+					["FDamage"] = 0,
 					["EnergyGain"] = 0,
 					["ManaGained"] = {
 						["Replenishment"] = {
@@ -10022,8 +9996,21 @@ RecountPerCharDB = {
 							["amount"] = 822,
 						},
 					},
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
+					["PartialAbsorb"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 5,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 5,
+							["amount"] = 0,
+						},
+					},
+					["ActiveTime"] = 47.76000000000001,
 					["Overhealing"] = 0,
 					["TimeSpent"] = {
 						["Dragonflayer Weaponsmith"] = {
@@ -10089,18 +10076,32 @@ RecountPerCharDB = {
 					},
 					["InterruptData"] = {
 					},
-					["RunicPowerGain"] = 0,
+					["ElementTakenResist"] = {
+					},
 					["Heals"] = {
 					},
-					["WhoHealed"] = {
-					},
+					["Interrupts"] = 0,
 					["EnergyGained"] = {
 					},
-					["ActiveTime"] = 47.76000000000001,
-					["Healing"] = 0,
-					["FDamagedWho"] = {
+					["PartialResist"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 5,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 5,
+							["amount"] = 0,
+						},
 					},
-					["Dispelled"] = 0,
+					["Healing"] = 0,
+					["RageGained"] = {
+					},
+					["OverHeals"] = {
+					},
 					["Attacks"] = {
 						["Piercing Shots (DoT)"] = {
 							["Details"] = {
@@ -10277,8 +10278,9 @@ RecountPerCharDB = {
 							["amount"] = 37572,
 						},
 					},
-					["HealingTaken"] = 0,
 					["RageGain"] = 0,
+					["FDamagedWho"] = {
+					},
 					["TimeDamage"] = 47.76000000000001,
 					["TimeDamaging"] = {
 						["Dragonflayer Weaponsmith"] = {
@@ -10341,8 +10343,7 @@ RecountPerCharDB = {
 						},
 					},
 					["ManaGain"] = 2159,
-					["HOTs"] = {
-					},
+					["DOT_Time"] = 33,
 					["DispelledWho"] = {
 					},
 				},
@@ -10359,41 +10360,40 @@ RecountPerCharDB = {
 					},
 					["DeathCount"] = 0,
 					["HOT_Time"] = 0,
-					["ElementHitsDone"] = {
+					["ElementTakenBlock"] = {
 					},
-					["ElementTakenAbsorb"] = {
-					},
+					["RunicPowerGain"] = 0,
 					["ElementTaken"] = {
 					},
-					["DOT_Time"] = 0,
+					["HOTs"] = {
+					},
 					["Damage"] = 0,
-					["ElementTakenBlock"] = {
+					["ElementDoneAbsorb"] = {
 					},
 					["TimeHeal"] = 0,
 					["RessedWho"] = {
 					},
 					["Dispels"] = 0,
-					["ElementTakenResist"] = {
-					},
-					["ElementDoneAbsorb"] = {
-					},
-					["FAttacks"] = {
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementDone"] = {
-					},
-					["PartialAbsorb"] = {
+					["PartialBlock"] = {
 					},
 					["DamagedWho"] = {
 					},
-					["PartialBlock"] = {
+					["FAttacks"] = {
+					},
+					["HealingTaken"] = 0,
+					["ElementDone"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementHitsDone"] = {
+					},
+					["ManaGainedFrom"] = {
 					},
 					["WhoDamaged"] = {
 					},
 					["EnergyGainedFrom"] = {
 					},
-					["PartialResist"] = {
+					["RunicPowerGained"] = {
 					},
 					["CCBroken"] = {
 					},
@@ -10401,22 +10401,21 @@ RecountPerCharDB = {
 					},
 					["TimeHealing"] = {
 					},
-					["OverHeals"] = {
-					},
-					["ManaGainedFrom"] = {
-					},
-					["RunicPowerGained"] = {
-					},
-					["CCBreak"] = 0,
-					["RageGained"] = {
+					["Dispelled"] = 0,
+					["WhoHealed"] = {
 					},
 					["HealedWho"] = {
 					},
+					["CCBreak"] = 0,
+					["ElementTakenAbsorb"] = {
+					},
+					["FDamage"] = 0,
 					["EnergyGain"] = 0,
 					["ManaGained"] = {
 					},
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
+					["PartialAbsorb"] = {
+					},
+					["ActiveTime"] = 0,
 					["Overhealing"] = 0,
 					["TimeSpent"] = {
 					},
@@ -10424,28 +10423,30 @@ RecountPerCharDB = {
 					},
 					["InterruptData"] = {
 					},
-					["RunicPowerGain"] = 0,
+					["ElementTakenResist"] = {
+					},
 					["Heals"] = {
 					},
-					["WhoHealed"] = {
-					},
+					["Interrupts"] = 0,
 					["EnergyGained"] = {
 					},
-					["ActiveTime"] = 0,
-					["Healing"] = 0,
-					["FDamagedWho"] = {
+					["PartialResist"] = {
 					},
-					["Dispelled"] = 0,
+					["Healing"] = 0,
+					["RageGained"] = {
+					},
+					["OverHeals"] = {
+					},
 					["Attacks"] = {
 					},
-					["HealingTaken"] = 0,
 					["RageGain"] = 0,
+					["FDamagedWho"] = {
+					},
 					["TimeDamage"] = 0,
 					["TimeDamaging"] = {
 					},
 					["ManaGain"] = 0,
-					["HOTs"] = {
-					},
+					["DOT_Time"] = 0,
 					["DispelledWho"] = {
 					},
 				},
@@ -10625,16 +10626,6 @@ RecountPerCharDB = {
 					},
 					["DOT_Time"] = 36,
 					["Damage"] = 148731,
-					["WhoDamaged"] = {
-						["Dragonflayer Metalworker"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 12005,
-								},
-							},
-							["amount"] = 12005,
-						},
-					},
 					["ElementHitsTaken"] = {
 						["Melee"] = {
 							["Details"] = {
@@ -10649,41 +10640,6 @@ RecountPerCharDB = {
 								},
 							},
 							["amount"] = 5,
-						},
-					},
-					["ElementDone"] = {
-						["Arcane"] = 37572,
-						["Physical"] = 59635,
-						["Melee"] = 4473,
-						["Nature"] = 47051,
-					},
-					["ManaGainedFrom"] = {
-						["Pocaitoru"] = {
-							["Details"] = {
-								["Replenishment"] = {
-									["count"] = 1026,
-								},
-								["Judgement of Wisdom"] = {
-									["count"] = 100,
-								},
-							},
-							["amount"] = 1126,
-						},
-						["Caryrraent"] = {
-							["Details"] = {
-								["Judgement of Wisdom"] = {
-									["count"] = 400,
-								},
-							},
-							["amount"] = 400,
-						},
-						["Kindagood"] = {
-							["Details"] = {
-								["Rapid Recuperation"] = {
-									["count"] = 1507,
-								},
-							},
-							["amount"] = 1507,
 						},
 					},
 					["DamagedWho"] = {
@@ -10764,140 +10720,6 @@ RecountPerCharDB = {
 								},
 							},
 							["amount"] = 85501,
-						},
-					},
-					["TimeDamage"] = 54.77,
-					["TimeDamaging"] = {
-						["Dragonflayer Ironhelm"] = {
-							["Details"] = {
-								["Chimera Shot"] = {
-									["count"] = 1.48,
-								},
-								["Serpent Sting (DoT)"] = {
-									["count"] = 0.61,
-								},
-								["Auto Shot"] = {
-									["count"] = 4.270000000000001,
-								},
-								["Chimera Shot - Serpent"] = {
-									["count"] = 0.52,
-								},
-								["Aimed Shot"] = {
-									["count"] = 0.13,
-								},
-							},
-							["amount"] = 7.010000000000002,
-						},
-						["Dragonflayer Weaponsmith"] = {
-							["Details"] = {
-								["Steady Shot"] = {
-									["count"] = 0.1,
-								},
-								["Chimera Shot"] = {
-									["count"] = 4.23,
-								},
-								["Serpent Sting (DoT)"] = {
-									["count"] = 0.51,
-								},
-								["Volley"] = {
-									["count"] = 8.200000000000001,
-								},
-								["Chimera Shot - Serpent"] = {
-									["count"] = 0.5,
-								},
-								["Wild Quiver Auto Shot"] = {
-									["count"] = 0.67,
-								},
-								["Auto Shot"] = {
-									["count"] = 8.26,
-								},
-							},
-							["amount"] = 22.47000000000001,
-						},
-						["Dragonflayer Metalworker"] = {
-							["Details"] = {
-								["Piercing Shots (DoT)"] = {
-									["count"] = 6.02,
-								},
-								["Wild Quiver Auto Shot"] = {
-									["count"] = 0.99,
-								},
-								["Melee"] = {
-									["count"] = 0.54,
-								},
-								["Serpent Sting (DoT)"] = {
-									["count"] = 1.82,
-								},
-								["Volley"] = {
-									["count"] = 0,
-								},
-								["Kill Shot"] = {
-									["count"] = 1.65,
-								},
-								["Aimed Shot"] = {
-									["count"] = 2.5,
-								},
-								["Chimera Shot"] = {
-									["count"] = 3.28,
-								},
-								["Auto Shot"] = {
-									["count"] = 8.49,
-								},
-							},
-							["amount"] = 25.29,
-						},
-					},
-					["ManaGain"] = 3033,
-					["ElementHitsDone"] = {
-						["Arcane"] = {
-							["Details"] = {
-								["Crit"] = {
-									["count"] = 9,
-								},
-								["Hit"] = {
-									["count"] = 12,
-								},
-							},
-							["amount"] = 21,
-						},
-						["Physical"] = {
-							["Details"] = {
-								["Tick"] = {
-									["count"] = 8,
-								},
-								["Crit"] = {
-									["count"] = 14,
-								},
-								["Hit"] = {
-									["count"] = 9,
-								},
-							},
-							["amount"] = 31,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["Crit"] = {
-									["count"] = 1,
-								},
-								["Hit"] = {
-									["count"] = 1,
-								},
-							},
-							["amount"] = 2,
-						},
-						["Nature"] = {
-							["Details"] = {
-								["Tick"] = {
-									["count"] = 4,
-								},
-								["Crit"] = {
-									["count"] = 6,
-								},
-								["Hit"] = {
-									["count"] = 6,
-								},
-							},
-							["amount"] = 16,
 						},
 					},
 					["Attacks"] = {
@@ -11081,6 +10903,185 @@ RecountPerCharDB = {
 							["count"] = 17,
 							["amount"] = 37948,
 						},
+					},
+					["WhoDamaged"] = {
+						["Dragonflayer Metalworker"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 12005,
+								},
+							},
+							["amount"] = 12005,
+						},
+					},
+					["ElementHitsDone"] = {
+						["Arcane"] = {
+							["Details"] = {
+								["Crit"] = {
+									["count"] = 9,
+								},
+								["Hit"] = {
+									["count"] = 12,
+								},
+							},
+							["amount"] = 21,
+						},
+						["Physical"] = {
+							["Details"] = {
+								["Tick"] = {
+									["count"] = 8,
+								},
+								["Crit"] = {
+									["count"] = 14,
+								},
+								["Hit"] = {
+									["count"] = 9,
+								},
+							},
+							["amount"] = 31,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Crit"] = {
+									["count"] = 1,
+								},
+								["Hit"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 2,
+						},
+						["Nature"] = {
+							["Details"] = {
+								["Tick"] = {
+									["count"] = 4,
+								},
+								["Crit"] = {
+									["count"] = 6,
+								},
+								["Hit"] = {
+									["count"] = 6,
+								},
+							},
+							["amount"] = 16,
+						},
+					},
+					["TimeDamage"] = 54.77,
+					["TimeDamaging"] = {
+						["Dragonflayer Ironhelm"] = {
+							["Details"] = {
+								["Chimera Shot"] = {
+									["count"] = 1.48,
+								},
+								["Serpent Sting (DoT)"] = {
+									["count"] = 0.61,
+								},
+								["Auto Shot"] = {
+									["count"] = 4.270000000000001,
+								},
+								["Chimera Shot - Serpent"] = {
+									["count"] = 0.52,
+								},
+								["Aimed Shot"] = {
+									["count"] = 0.13,
+								},
+							},
+							["amount"] = 7.010000000000002,
+						},
+						["Dragonflayer Weaponsmith"] = {
+							["Details"] = {
+								["Steady Shot"] = {
+									["count"] = 0.1,
+								},
+								["Chimera Shot"] = {
+									["count"] = 4.23,
+								},
+								["Serpent Sting (DoT)"] = {
+									["count"] = 0.51,
+								},
+								["Volley"] = {
+									["count"] = 8.200000000000001,
+								},
+								["Chimera Shot - Serpent"] = {
+									["count"] = 0.5,
+								},
+								["Wild Quiver Auto Shot"] = {
+									["count"] = 0.67,
+								},
+								["Auto Shot"] = {
+									["count"] = 8.26,
+								},
+							},
+							["amount"] = 22.47000000000001,
+						},
+						["Dragonflayer Metalworker"] = {
+							["Details"] = {
+								["Piercing Shots (DoT)"] = {
+									["count"] = 6.02,
+								},
+								["Wild Quiver Auto Shot"] = {
+									["count"] = 0.99,
+								},
+								["Melee"] = {
+									["count"] = 0.54,
+								},
+								["Serpent Sting (DoT)"] = {
+									["count"] = 1.82,
+								},
+								["Volley"] = {
+									["count"] = 0,
+								},
+								["Kill Shot"] = {
+									["count"] = 1.65,
+								},
+								["Aimed Shot"] = {
+									["count"] = 2.5,
+								},
+								["Chimera Shot"] = {
+									["count"] = 3.28,
+								},
+								["Auto Shot"] = {
+									["count"] = 8.49,
+								},
+							},
+							["amount"] = 25.29,
+						},
+					},
+					["ManaGain"] = 3033,
+					["ManaGainedFrom"] = {
+						["Pocaitoru"] = {
+							["Details"] = {
+								["Replenishment"] = {
+									["count"] = 1026,
+								},
+								["Judgement of Wisdom"] = {
+									["count"] = 100,
+								},
+							},
+							["amount"] = 1126,
+						},
+						["Caryrraent"] = {
+							["Details"] = {
+								["Judgement of Wisdom"] = {
+									["count"] = 400,
+								},
+							},
+							["amount"] = 400,
+						},
+						["Kindagood"] = {
+							["Details"] = {
+								["Rapid Recuperation"] = {
+									["count"] = 1507,
+								},
+							},
+							["amount"] = 1507,
+						},
+					},
+					["ElementDone"] = {
+						["Arcane"] = 37572,
+						["Physical"] = 59635,
+						["Melee"] = 4473,
+						["Nature"] = 47051,
 					},
 				},
 			},

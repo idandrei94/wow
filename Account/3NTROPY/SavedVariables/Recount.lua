@@ -320,9 +320,7 @@ RecountDB = {
 					["x"] = -628.925976626199,
 				},
 			},
-			["DetailWindowX"] = 654.7408049082343,
-			["LastInstanceName"] = "Utgarde Keep",
-			["CurDataSet"] = "CurrentFightData",
+			["ReportLines"] = 2,
 			["Colors"] = {
 				["Bar"] = {
 					["Bar Text"] = {
@@ -334,8 +332,10 @@ RecountDB = {
 				},
 			},
 			["DetailWindowY"] = -299.6666945458646,
+			["DetailWindowX"] = 654.7408049082343,
+			["LastInstanceName"] = "Utgarde Keep",
+			["CurDataSet"] = "LastFightData",
 			["GraphWindowX"] = 0,
-			["ReportLines"] = 2,
 			["MainWindowWidth"] = 260.0000123097031,
 			["MainWindowHeight"] = 328.7999999452902,
 		},
@@ -444,6 +444,9 @@ RecountDB = {
 					["h"] = 336.9999910412716,
 				},
 			},
+			["DetailWindowX"] = 0,
+			["LastInstanceName"] = "Trial of the Crusader",
+			["CurDataSet"] = "LastFightData",
 			["Colors"] = {
 				["Bar"] = {
 					["Bar Text"] = {
@@ -455,9 +458,6 @@ RecountDB = {
 				},
 			},
 			["DetailWindowY"] = 3.999978116083373,
-			["DetailWindowX"] = 0,
-			["LastInstanceName"] = "Trial of the Crusader",
-			["CurDataSet"] = "LastFightData",
 			["GraphWindowX"] = 0,
 			["MainWindowWidth"] = 260.8889019888445,
 			["MainWindowHeight"] = 337.3333968878745,
@@ -511,11 +511,11 @@ RecountDB = {
 					},
 				},
 			},
-			["GraphWindowX"] = 0,
+			["DetailWindowY"] = -124.0493402990752,
 			["MainWindowVis"] = false,
 			["MainWindowMode"] = 5,
 			["MainWindowWidth"] = 256.148530518934,
-			["DetailWindowY"] = -124.0493402990752,
+			["GraphWindowX"] = 0,
 		},
 		["Gligor - Icecrown"] = {
 			["GraphWindowY"] = 0,

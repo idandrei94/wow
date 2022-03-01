@@ -75,8 +75,8 @@ GladiusDB = {
 		},
 		["Pocaitoru - Icecrown"] = {
 			["locked"] = true,
-			["x"] = 1068.283355016582,
 			["y"] = 591.6555710886522,
+			["x"] = 1068.283355016582,
 		},
 		["Lingurita - Lordaeron"] = {
 			["locked"] = true,
@@ -106,8 +106,8 @@ GladiusDB = {
 		},
 		["Praxia - Icecrown"] = {
 			["locked"] = true,
-			["y"] = 556.2828637883971,
 			["x"] = 969.0531028795333,
+			["y"] = 556.2828637883971,
 		},
 		["Drext - Icecrown"] = {
 			["locked"] = true,
