@@ -154,7 +154,7 @@ Y: -127
 W: 245
 H: 323
 Frame: Recount_DetailWindow
-FrameLevel: 10
+FrameLevel: 33
 Anchor: TOP
 X: -115
 Y: -60
@@ -181,3 +181,17 @@ X: -3
 Y: -15
 W: 831
 H: 503
+Frame: BagnonFrameinventory
+FrameLevel: 1
+Anchor: RIGHT
+X: -86
+Y: 63
+W: 586
+H: 509
+Frame: BagnonFramebank
+FrameLevel: 1
+Anchor: LEFT
+X: 106
+Y: 65
+W: 668
+H: 509
