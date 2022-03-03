@@ -8,4 +8,4 @@ XPerl_PlayerPet: disabled
 XPerl_TeamSpeak: disabled
 XPerl_Target: disabled
 XPerl_TargetTarget: disabled
-HalloGuyz: disabled
+HalloGuyz: enabled
