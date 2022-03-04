@@ -260,7 +260,7 @@ RecountDB = {
 			["GraphWindowY"] = 0,
 			["MainWindow"] = {
 				["Position"] = {
-					["y"] = 146.1110681259318,
+					["y"] = 146.1110331116652,
 					["h"] = 317.9999894683651,
 					["w"] = 247.0000029406513,
 					["x"] = -637.1666980678075,
@@ -278,7 +278,7 @@ RecountDB = {
 			},
 			["DetailWindowY"] = -194.6666296463744,
 			["DetailWindowX"] = 74.99999883741693,
-			["LastInstanceName"] = "Trial of the Crusader",
+			["LastInstanceName"] = "Icecrown Citadel",
 			["CurDataSet"] = "LastFightData",
 			["GraphWindowX"] = 0,
 			["MainWindowWidth"] = 247.3703663456547,
