@@ -120,7 +120,8 @@ MACRO 16777227 "sm" INV_Misc_QuestionMark
 #showtooltip 16
 /equipslot 16 Shadowmourne
 /equipslot 17 Glorenzelg, High-Blade of the Silver Hand
-/equipslot [spec:1] 18 Fal'inrush, Defender of Quel'thalas
+/equipslot [spec:1] 18 item:50733:3608:3525:0:0:0:0:0:80
+/equipslot [spec:2] 18 item:50733:3843:3530:0:0:0:0:0:80
 END
 MACRO 16777228 "swall" INV_Misc_QuestionMark
 #showtooltip shield wall
