@@ -34,7 +34,9 @@ RecountDB = {
 					["h"] = 310.999972303168,
 				},
 			},
-			["ReportLines"] = 1,
+			["DetailWindowX"] = 566.8148343684995,
+			["LastInstanceName"] = "Violet Hold",
+			["CurDataSet"] = "LastFightData",
 			["Colors"] = {
 				["Bar"] = {
 					["Bar Text"] = {
@@ -46,12 +48,10 @@ RecountDB = {
 				},
 			},
 			["DetailWindowY"] = -270.407407815198,
-			["DetailWindowX"] = 566.8148343684995,
-			["LastInstanceName"] = "Violet Hold",
-			["CurDataSet"] = "LastFightData",
-			["GraphWindowX"] = 0,
-			["MainWindowWidth"] = 251.4197662784027,
 			["MainWindowHeight"] = 310.8518969696999,
+			["MainWindowWidth"] = 251.4197662784027,
+			["ReportLines"] = 1,
+			["GraphWindowX"] = 0,
 		},
 		["Vrael - Icecrown"] = {
 			["GraphWindowY"] = 0,
@@ -321,9 +321,7 @@ RecountDB = {
 					["x"] = -628.5186425324451,
 				},
 			},
-			["DetailWindowX"] = 655.7037672683764,
-			["LastInstanceName"] = "Trial of the Crusader",
-			["CurDataSet"] = "LastFightData",
+			["ReportLines"] = 2,
 			["Colors"] = {
 				["Bar"] = {
 					["Bar Text"] = {
@@ -335,10 +333,12 @@ RecountDB = {
 				},
 			},
 			["DetailWindowY"] = -296.7037172773043,
-			["MainWindowHeight"] = 328.7999999452902,
-			["MainWindowWidth"] = 260.0000123097031,
-			["ReportLines"] = 2,
+			["DetailWindowX"] = 655.7037672683764,
+			["LastInstanceName"] = "Icecrown Citadel",
+			["CurDataSet"] = "LastFightData",
 			["GraphWindowX"] = 0,
+			["MainWindowWidth"] = 260.0000123097031,
+			["MainWindowHeight"] = 328.7999999452902,
 		},
 		["Kalaam - Icecrown"] = {
 			["GraphWindowY"] = 0,
