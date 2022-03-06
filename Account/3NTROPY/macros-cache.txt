@@ -11,8 +11,9 @@ MACRO 75 "arcane" INV_Misc_QuestionMark
 /cast [nochanneling] arcane barrage
 END
 MACRO 97 "boom" INV_Misc_QuestionMark
-#showtooltip shield slam
-/castsequence reset=2  recklessness, defensive stance, shield block, battle stance, shield slam
+#showtooltip revenge
+/cast [stance:1][stance:3] defensive stance
+/cast revenge
 END
 MACRO 95 "dev" INV_Misc_QuestionMark
 #showtooltip devastate
@@ -141,7 +142,7 @@ MACRO 96 "sb" INV_Misc_QuestionMark
 #showtooltip shield block
 /cast defensive stance
 /equipslot  Wrathful Gladiator's Truncheon
-/equipslot [spec:1]  17 Icecrown Glacial Wall
+/equipslot [spec:1]  17 Wrathful Gladiator's Shield Wall
 /equipslot [spec:2]  17 Wrathful Gladiator's Shield Wall
 /cast shield block
 END
