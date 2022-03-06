@@ -142,7 +142,7 @@ MACRO 96 "sb" INV_Misc_QuestionMark
 #showtooltip shield block
 /cast defensive stance
 /equipslot  Wrathful Gladiator's Truncheon
-/equipslot [spec:1]  17 Wrathful Gladiator's Shield Wall
+/equipslot [spec:1]  17 Icecrown Glacial Wall
 /equipslot [spec:2]  17 Wrathful Gladiator's Shield Wall
 /cast shield block
 END
