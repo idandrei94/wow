@@ -19,6 +19,11 @@ MACRO 95 "dev" INV_Misc_QuestionMark
 /startattack
 /cast devastate
 END
+MACRO 98 "dkswap" INV_Misc_QuestionMark
+#showtooltip 16
+/equipslot 16 Shadowmourne
+/equipslot 16 Glorenzelg, High-Blade of the Silver Hand
+END
 MACRO 82 "fragment" INV_Misc_QuestionMark
 #showtooltip soul fragment
 /cancelaura soul fragment
@@ -115,17 +120,6 @@ MACRO 11 "poly" Spell_Nature_Polymorph
 #showtooltip Polymorph(Rank 4)
 /petpassive
 /cast [target=focus] Polymorph(Rank 4)
-END
-MACRO 83 "pretty1" INV_Misc_QuestionMark
-/console groundEffectDensity 1024
-/console groundEffectDist 200
-/console detailDoodadAlpha 100
-/console horizonfarclip 6226
-/console farclip 999
-/console characterAmbient 
-/console groundEffectDensity 256
-/console groundEffectDist 1
-/console m2Faste
 END
 MACRO 90 "remallwep" INV_Misc_QuestionMark
 #showtooltip 16
