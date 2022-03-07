@@ -119,20 +119,20 @@ RecountPerCharDB = {
 				["DamageTaken"] = {
 					974, -- [1]
 				},
-				["DeathCount"] = {
-					1, -- [1]
-				},
-				["TimeDamage"] = {
-					357.5100000000001, -- [1]
-				},
 				["HealingTaken"] = {
 					239, -- [1]
+				},
+				["ActiveTime"] = {
+					374.4000000000002, -- [1]
+				},
+				["DeathCount"] = {
+					1, -- [1]
 				},
 				["HOT_Time"] = {
 					30, -- [1]
 				},
-				["ActiveTime"] = {
-					374.4000000000002, -- [1]
+				["TimeDamage"] = {
+					357.5100000000001, -- [1]
 				},
 				["Overhealing"] = {
 					28, -- [1]
@@ -149,6 +149,2241 @@ RecountPerCharDB = {
 			},
 			["enClass"] = "PRIEST",
 			["unit"] = "Howevertheyc",
+			["LastActive"] = 1634929617,
+			["UnitLockout"] = 1634926835,
+			["level"] = 3,
+			["LastDamageAbility"] = "Melee",
+			["LastFightIn"] = 50,
+			["LastEventNum"] = {
+				3.167420814479638, -- [1]
+				[14] = 3.393665158371041,
+				[15] = 2.48868778280543,
+				[16] = 3.619909502262444,
+				[33] = 2.48868778280543,
+				[18] = 3.393665158371041,
+				[19] = 2.48868778280543,
+				[10] = 2.714932126696833,
+				[21] = 6.787330316742081,
+				[43] = 2.036199095022624,
+				[44] = 2.036199095022624,
+				[23] = 6.787330316742081,
+				[47] = 2.48868778280543,
+				[24] = 2.48868778280543,
+				[12] = 3.619909502262444,
+				[50] = 3.393665158371041,
+				[38] = 2.036199095022624,
+				[36] = 2.036199095022624,
+				[28] = 2.48868778280543,
+				[41] = 2.036199095022624,
+			},
+			["lazysync"] = true,
+			["FightsSaved"] = 5,
+			["Fights"] = {
+				["Fight5"] = {
+					["DOTs"] = {
+						["Shadow Word: Pain (DoT)"] = {
+							["Details"] = {
+								["Harvest Watcher"] = {
+									["count"] = 0,
+								},
+								["Young Goretusk"] = {
+									["count"] = 12,
+								},
+							},
+							["amount"] = 12,
+						},
+					},
+					["ElementDoneResist"] = {
+						["Shadow"] = 0,
+						["Holy"] = 0,
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 91,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 0,
+								},
+								["Absorb"] = {
+									["count"] = 0,
+								},
+								["Crit"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 5,
+								},
+							},
+							["amount"] = 5,
+						},
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["HOTs"] = {
+					},
+					["ManaGain"] = 0,
+					["ElementTaken"] = {
+						["Melee"] = 91,
+					},
+					["DOT_Time"] = 12,
+					["Damage"] = 44,
+					["ElementDoneAbsorb"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["PartialAbsorb"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 5,
+									["amount"] = 0,
+								},
+								["Absorbed"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 5,
+							["amount"] = 0,
+						},
+					},
+					["RageGain"] = 0,
+					["FAttacks"] = {
+					},
+					["PartialBlock"] = {
+					},
+					["ElementDone"] = {
+						["Shadow"] = 44,
+						["Melee"] = 0,
+						["Holy"] = 0,
+					},
+					["CCBroken"] = {
+					},
+					["ElementHitsDone"] = {
+						["Shadow"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 0,
+								},
+								["Crit"] = {
+									["count"] = 0,
+								},
+								["Tick"] = {
+									["count"] = 4,
+								},
+							},
+							["amount"] = 4,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Holy"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["Dispelled"] = 0,
+					["WhoDamaged"] = {
+						["Harvest Watcher"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Young Goretusk"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 91,
+								},
+							},
+							["amount"] = 91,
+						},
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["FDamagedWho"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+					},
+					["OverHeals"] = {
+					},
+					["RageGained"] = {
+					},
+					["ActiveTime"] = 12.49,
+					["CCBreak"] = 0,
+					["EnergyGain"] = 0,
+					["WhoHealed"] = {
+						["Bliess"] = {
+							["Details"] = {
+								["Renew"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["PartialResist"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 5,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 5,
+							["amount"] = 0,
+						},
+					},
+					["ManaGained"] = {
+					},
+					["ElementTakenAbsorb"] = {
+						["Melee"] = 0,
+					},
+					["Interrupts"] = 0,
+					["Overhealing"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["InterruptData"] = {
+					},
+					["WhoDispelled"] = {
+					},
+					["TimeSpent"] = {
+						["Harvest Watcher"] = {
+							["Details"] = {
+								["Shadow Word: Pain (DoT)"] = {
+									["count"] = 0,
+								},
+								["Mind Blast"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Smite"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Young Goretusk"] = {
+							["Details"] = {
+								["Shadow Word: Pain (DoT)"] = {
+									["count"] = 12.49,
+								},
+							},
+							["amount"] = 12.49,
+						},
+					},
+					["Heals"] = {
+					},
+					["FDamage"] = 0,
+					["EnergyGained"] = {
+					},
+					["HealedWho"] = {
+					},
+					["Healing"] = 0,
+					["RunicPowerGained"] = {
+					},
+					["ManaGainedFrom"] = {
+					},
+					["Attacks"] = {
+						["Shadow Word: Pain (DoT)"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 11,
+									["min"] = 0,
+									["count"] = 4,
+									["amount"] = 44,
+								},
+							},
+							["count"] = 4,
+							["amount"] = 44,
+						},
+						["Mind Blast"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Smite"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["HealingTaken"] = 0,
+					["DamagedWho"] = {
+						["Harvest Watcher"] = {
+							["Details"] = {
+								["Shadow Word: Pain (DoT)"] = {
+									["count"] = 0,
+								},
+								["Mind Blast"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Smite"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Young Goretusk"] = {
+							["Details"] = {
+								["Shadow Word: Pain (DoT)"] = {
+									["count"] = 44,
+								},
+							},
+							["amount"] = 44,
+						},
+					},
+					["TimeDamage"] = 12.49,
+					["TimeDamaging"] = {
+						["Harvest Watcher"] = {
+							["Details"] = {
+								["Shadow Word: Pain (DoT)"] = {
+									["count"] = 0,
+								},
+								["Mind Blast"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Smite"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Young Goretusk"] = {
+							["Details"] = {
+								["Shadow Word: Pain (DoT)"] = {
+									["count"] = 12.49,
+								},
+							},
+							["amount"] = 12.49,
+						},
+					},
+					["RunicPowerGain"] = 0,
+					["ElementTakenBlock"] = {
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["CurrentFightData"] = {
+					["DOTs"] = {
+						["Shadow Word: Pain (DoT)"] = {
+							["Details"] = {
+								["Riverpaw Outrunner"] = {
+									["count"] = 0,
+								},
+								["Harvest Watcher"] = {
+									["count"] = 0,
+								},
+								["Riverpaw Gnoll"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ElementDoneResist"] = {
+						["Shadow"] = 0,
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 0,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Absorb"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 0,
+								},
+								["Miss"] = {
+									["count"] = 0,
+								},
+								["Crit"] = {
+									["count"] = 0,
+								},
+								["Dodge"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Physical"] = {
+							["Details"] = {
+								["Absorb"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["HOTs"] = {
+						["Renew"] = {
+							["Details"] = {
+								["Howevertheyc"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ManaGain"] = 0,
+					["ElementTaken"] = {
+						["Melee"] = 0,
+					},
+					["DOT_Time"] = 0,
+					["Damage"] = 0,
+					["ElementDoneAbsorb"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["PartialAbsorb"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Absorbed"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Shoot"] = {
+							["Details"] = {
+								["Absorbed"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["RageGain"] = 0,
+					["FAttacks"] = {
+					},
+					["PartialBlock"] = {
+					},
+					["ElementDone"] = {
+						["Holy"] = 0,
+						["Melee"] = 0,
+						["Shadow"] = 0,
+					},
+					["CCBroken"] = {
+					},
+					["ElementHitsDone"] = {
+						["Holy"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Parry"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Shadow"] = {
+							["Details"] = {
+								["Tick"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["Dispelled"] = 0,
+					["WhoDamaged"] = {
+						["Riverpaw Outrunner"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Harvest Watcher"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["FDamagedWho"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+						["Howevertheyc"] = {
+							["Details"] = {
+								["Renew"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["OverHeals"] = {
+						["Renew"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["RageGained"] = {
+					},
+					["ActiveTime"] = 0,
+					["CCBreak"] = 0,
+					["EnergyGain"] = 0,
+					["WhoHealed"] = {
+						["Howevertheyc"] = {
+							["Details"] = {
+								["Renew"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Bliess"] = {
+							["Details"] = {
+								["Renew"] = {
+									["count"] = 0,
+								},
+								["Lesser Heal"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["PartialResist"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Shoot"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["ManaGained"] = {
+					},
+					["ElementTakenAbsorb"] = {
+						["Melee"] = 0,
+						["Physical"] = 0,
+					},
+					["Interrupts"] = 0,
+					["Overhealing"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["InterruptData"] = {
+					},
+					["WhoDispelled"] = {
+					},
+					["TimeSpent"] = {
+						["Howevertheyc"] = {
+							["Details"] = {
+								["Renew"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Riverpaw Gnoll"] = {
+							["Details"] = {
+								["Shadow Word: Pain (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Harvest Watcher"] = {
+							["Details"] = {
+								["Shadow Word: Pain (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Riverpaw Outrunner"] = {
+							["Details"] = {
+								["Shadow Word: Pain (DoT)"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Smite"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["Heals"] = {
+						["Renew"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["FDamage"] = 0,
+					["EnergyGained"] = {
+					},
+					["HealedWho"] = {
+						["Howevertheyc"] = {
+							["Details"] = {
+								["Renew"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["Healing"] = 0,
+					["RunicPowerGained"] = {
+					},
+					["ManaGainedFrom"] = {
+					},
+					["Attacks"] = {
+						["Shadow Word: Pain (DoT)"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Parry"] = {
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Smite"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["HealingTaken"] = 0,
+					["DamagedWho"] = {
+						["Riverpaw Outrunner"] = {
+							["Details"] = {
+								["Shadow Word: Pain (DoT)"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Smite"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Harvest Watcher"] = {
+							["Details"] = {
+								["Shadow Word: Pain (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Riverpaw Gnoll"] = {
+							["Details"] = {
+								["Shadow Word: Pain (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["TimeDamage"] = 0,
+					["TimeDamaging"] = {
+						["Riverpaw Outrunner"] = {
+							["Details"] = {
+								["Shadow Word: Pain (DoT)"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Smite"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Harvest Watcher"] = {
+							["Details"] = {
+								["Shadow Word: Pain (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Riverpaw Gnoll"] = {
+							["Details"] = {
+								["Shadow Word: Pain (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["RunicPowerGain"] = 0,
+					["ElementTakenBlock"] = {
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["LastFightData"] = {
+					["DOTs"] = {
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 0,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["HOTs"] = {
+					},
+					["ManaGain"] = 0,
+					["ElementTaken"] = {
+					},
+					["DOT_Time"] = 0,
+					["Damage"] = 0,
+					["ElementDoneAbsorb"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["PartialAbsorb"] = {
+					},
+					["RageGain"] = 0,
+					["FAttacks"] = {
+					},
+					["PartialBlock"] = {
+					},
+					["ElementDone"] = {
+					},
+					["CCBroken"] = {
+					},
+					["ElementHitsDone"] = {
+					},
+					["Dispelled"] = 0,
+					["WhoDamaged"] = {
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["FDamagedWho"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+					},
+					["OverHeals"] = {
+					},
+					["RageGained"] = {
+					},
+					["ActiveTime"] = 0,
+					["CCBreak"] = 0,
+					["EnergyGain"] = 0,
+					["WhoHealed"] = {
+					},
+					["PartialResist"] = {
+					},
+					["ManaGained"] = {
+					},
+					["ElementTakenAbsorb"] = {
+					},
+					["Interrupts"] = 0,
+					["Overhealing"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["InterruptData"] = {
+					},
+					["WhoDispelled"] = {
+					},
+					["TimeSpent"] = {
+					},
+					["Heals"] = {
+					},
+					["FDamage"] = 0,
+					["EnergyGained"] = {
+					},
+					["HealedWho"] = {
+					},
+					["Healing"] = 0,
+					["RunicPowerGained"] = {
+					},
+					["ManaGainedFrom"] = {
+					},
+					["Attacks"] = {
+					},
+					["HealingTaken"] = 0,
+					["DamagedWho"] = {
+					},
+					["TimeDamage"] = 0,
+					["TimeDamaging"] = {
+					},
+					["RunicPowerGain"] = 0,
+					["ElementTakenBlock"] = {
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["OverallData"] = {
+					["DOTs"] = {
+						["Shadow Word: Pain (DoT)"] = {
+							["Details"] = {
+								["Rusty Harvest Golem"] = {
+									["count"] = 9,
+								},
+								["Riverpaw Gnoll"] = {
+									["count"] = 3,
+								},
+								["Hogger"] = {
+									["count"] = 3,
+								},
+								["Riverpaw Outrunner"] = {
+									["count"] = 3,
+								},
+								["Harvest Watcher"] = {
+									["count"] = 282,
+								},
+								["Young Goretusk"] = {
+									["count"] = 12,
+								},
+							},
+							["amount"] = 312,
+						},
+					},
+					["ElementDoneResist"] = {
+						["Shadow"] = 63,
+						["Holy"] = 6,
+					},
+					["ElementHitsTaken"] = {
+						["Physical"] = {
+							["Details"] = {
+								["Absorb"] = {
+									["count"] = 4,
+								},
+							},
+							["amount"] = 4,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Absorb"] = {
+									["count"] = 45,
+								},
+								["Hit"] = {
+									["count"] = 72,
+								},
+								["Miss"] = {
+									["count"] = 7,
+								},
+								["Crit"] = {
+									["count"] = 6,
+								},
+								["Dodge"] = {
+									["count"] = 4,
+								},
+							},
+							["amount"] = 134,
+						},
+						["Nature"] = {
+							["Details"] = {
+								["Tick"] = {
+									["count"] = 3,
+								},
+							},
+							["amount"] = 3,
+						},
+					},
+					["HealedWho"] = {
+						["Howevertheyc"] = {
+							["Details"] = {
+								["Renew"] = {
+									["count"] = 97,
+								},
+							},
+							["amount"] = 97,
+						},
+					},
+					["DeathCount"] = 1,
+					["HOT_Time"] = 30,
+					["ElementTaken"] = {
+						["Melee"] = 965,
+						["Nature"] = 9,
+					},
+					["HOTs"] = {
+						["Renew"] = {
+							["Details"] = {
+								["Howevertheyc"] = {
+									["count"] = 30,
+								},
+							},
+							["amount"] = 30,
+						},
+					},
+					["Damage"] = 2778,
+					["TimeHeal"] = 16.89,
+					["ElementDone"] = {
+						["Holy"] = 1173,
+						["Melee"] = 46,
+						["Shadow"] = 1559,
+					},
+					["ElementHitsDone"] = {
+						["Holy"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 53,
+								},
+								["Crit"] = {
+									["count"] = 3,
+								},
+								["Miss"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 57,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 6,
+								},
+								["Parry"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 7,
+						},
+						["Shadow"] = {
+							["Details"] = {
+								["Tick"] = {
+									["count"] = 104,
+								},
+								["Crit"] = {
+									["count"] = 1,
+								},
+								["Hit"] = {
+									["count"] = 7,
+								},
+							},
+							["amount"] = 112,
+						},
+					},
+					["WhoDamaged"] = {
+						["Mangy Wolf"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 21,
+								},
+							},
+							["amount"] = 21,
+						},
+						["Diseased Young Wolf"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 4,
+								},
+							},
+							["amount"] = 4,
+						},
+						["Riverpaw Outrunner"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 33,
+								},
+							},
+							["amount"] = 33,
+						},
+						["Kobold Vermin"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 6,
+								},
+							},
+							["amount"] = 6,
+						},
+						["Forest Spider"] = {
+							["Details"] = {
+								["Poison (DoT)"] = {
+									["count"] = 9,
+								},
+							},
+							["amount"] = 9,
+						},
+						["Diseased Timber Wolf"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 8,
+								},
+							},
+							["amount"] = 8,
+						},
+						["Harvest Watcher"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 802,
+								},
+							},
+							["amount"] = 802,
+						},
+						["Young Goretusk"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 91,
+								},
+							},
+							["amount"] = 91,
+						},
+					},
+					["TimeHealing"] = {
+						["Howevertheyc"] = {
+							["Details"] = {
+								["Renew"] = {
+									["count"] = 16.89,
+								},
+							},
+							["amount"] = 16.89,
+						},
+					},
+					["OverHeals"] = {
+						["Renew"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 14,
+									["min"] = 14,
+									["count"] = 2,
+									["amount"] = 28,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 28,
+						},
+					},
+					["PartialResist"] = {
+						["Poison (DoT)"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 3,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 3,
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 134,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 134,
+							["amount"] = 0,
+						},
+						["Shoot"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 4,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 4,
+							["amount"] = 0,
+						},
+					},
+					["ManaGained"] = {
+						["Judgement of Wisdom"] = {
+							["Details"] = {
+								["Pufarin"] = {
+									["count"] = 5,
+								},
+							},
+							["amount"] = 5,
+						},
+					},
+					["PartialAbsorb"] = {
+						["Poison (DoT)"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 3,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 3,
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 83,
+									["amount"] = 0,
+								},
+								["Absorbed"] = {
+									["max"] = 20,
+									["min"] = 4,
+									["count"] = 51,
+									["amount"] = 774,
+								},
+							},
+							["count"] = 134,
+							["amount"] = 774,
+						},
+						["Shoot"] = {
+							["Details"] = {
+								["Absorbed"] = {
+									["max"] = 22,
+									["min"] = 17,
+									["count"] = 4,
+									["amount"] = 83,
+								},
+							},
+							["count"] = 4,
+							["amount"] = 83,
+						},
+					},
+					["ActiveTime"] = 374.4000000000002,
+					["Heals"] = {
+						["Renew"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 14,
+									["min"] = 11,
+									["count"] = 8,
+									["amount"] = 97,
+								},
+							},
+							["count"] = 8,
+							["amount"] = 97,
+						},
+					},
+					["DamagedWho"] = {
+						["Rusty Harvest Golem"] = {
+							["Details"] = {
+								["Shadow Word: Pain (DoT)"] = {
+									["count"] = 36,
+								},
+								["Mind Blast"] = {
+									["count"] = 96,
+								},
+								["Smite"] = {
+									["count"] = 66,
+								},
+							},
+							["amount"] = 198,
+						},
+						["Diseased Young Wolf"] = {
+							["Details"] = {
+								["Smite"] = {
+									["count"] = 255,
+								},
+							},
+							["amount"] = 255,
+						},
+						["Riverpaw Gnoll"] = {
+							["Details"] = {
+								["Shadow Word: Pain (DoT)"] = {
+									["count"] = 12,
+								},
+							},
+							["amount"] = 12,
+						},
+						["Hogger"] = {
+							["Details"] = {
+								["Shadow Word: Pain (DoT)"] = {
+									["count"] = 12,
+								},
+								["Mind Blast"] = {
+									["count"] = 47,
+								},
+								["Smite"] = {
+									["count"] = 72,
+								},
+							},
+							["amount"] = 131,
+						},
+						["Harvest Watcher"] = {
+							["Details"] = {
+								["Mind Blast"] = {
+									["count"] = 253,
+								},
+								["Shadow Word: Pain (DoT)"] = {
+									["count"] = 1047,
+								},
+								["Melee"] = {
+									["count"] = 28,
+								},
+								["Smite"] = {
+									["count"] = 129,
+								},
+							},
+							["amount"] = 1457,
+						},
+						["Young Goretusk"] = {
+							["Details"] = {
+								["Shadow Word: Pain (DoT)"] = {
+									["count"] = 44,
+								},
+							},
+							["amount"] = 44,
+						},
+						["Riverpaw Outrunner"] = {
+							["Details"] = {
+								["Shadow Word: Pain (DoT)"] = {
+									["count"] = 12,
+								},
+								["Melee"] = {
+									["count"] = 4,
+								},
+								["Smite"] = {
+									["count"] = 76,
+								},
+							},
+							["amount"] = 92,
+						},
+						["Diseased Timber Wolf"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 9,
+								},
+								["Smite"] = {
+									["count"] = 212,
+								},
+							},
+							["amount"] = 221,
+						},
+						["Forest Spider"] = {
+							["Details"] = {
+								["Smite"] = {
+									["count"] = 109,
+								},
+							},
+							["amount"] = 109,
+						},
+						["Kobold Vermin"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 5,
+								},
+								["Smite"] = {
+									["count"] = 254,
+								},
+							},
+							["amount"] = 259,
+						},
+					},
+					["WhoHealed"] = {
+						["Howevertheyc"] = {
+							["Details"] = {
+								["Renew"] = {
+									["count"] = 97,
+								},
+							},
+							["amount"] = 97,
+						},
+						["Bliess"] = {
+							["Details"] = {
+								["Renew"] = {
+									["count"] = 90,
+								},
+								["Lesser Heal"] = {
+									["count"] = 52,
+								},
+							},
+							["amount"] = 142,
+						},
+					},
+					["TimeSpent"] = {
+						["Rusty Harvest Golem"] = {
+							["Details"] = {
+								["Shadow Word: Pain (DoT)"] = {
+									["count"] = 6.290000000000001,
+								},
+								["Mind Blast"] = {
+									["count"] = 3.8,
+								},
+								["Smite"] = {
+									["count"] = 3.13,
+								},
+							},
+							["amount"] = 13.22,
+						},
+						["Diseased Young Wolf"] = {
+							["Details"] = {
+								["Smite"] = {
+									["count"] = 38.25,
+								},
+							},
+							["amount"] = 38.25,
+						},
+						["Riverpaw Gnoll"] = {
+							["Details"] = {
+								["Shadow Word: Pain (DoT)"] = {
+									["count"] = 3.5,
+								},
+							},
+							["amount"] = 3.5,
+						},
+						["Hogger"] = {
+							["Details"] = {
+								["Shadow Word: Pain (DoT)"] = {
+									["count"] = 3.44,
+								},
+								["Mind Blast"] = {
+									["count"] = 3.5,
+								},
+								["Smite"] = {
+									["count"] = 2.37,
+								},
+							},
+							["amount"] = 9.309999999999999,
+						},
+						["Harvest Watcher"] = {
+							["Details"] = {
+								["Mind Blast"] = {
+									["count"] = 9.359999999999999,
+								},
+								["Shadow Word: Pain (DoT)"] = {
+									["count"] = 168.6000000000001,
+								},
+								["Melee"] = {
+									["count"] = 1.84,
+								},
+								["Smite"] = {
+									["count"] = 3.93,
+								},
+							},
+							["amount"] = 183.73,
+						},
+						["Young Goretusk"] = {
+							["Details"] = {
+								["Shadow Word: Pain (DoT)"] = {
+									["count"] = 12.49,
+								},
+							},
+							["amount"] = 12.49,
+						},
+						["Howevertheyc"] = {
+							["Details"] = {
+								["Renew"] = {
+									["count"] = 16.89,
+								},
+							},
+							["amount"] = 16.89,
+						},
+						["Riverpaw Outrunner"] = {
+							["Details"] = {
+								["Shadow Word: Pain (DoT)"] = {
+									["count"] = 1.72,
+								},
+								["Melee"] = {
+									["count"] = 5.49,
+								},
+								["Smite"] = {
+									["count"] = 6.58,
+								},
+							},
+							["amount"] = 13.79,
+						},
+						["Diseased Timber Wolf"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 5.35,
+								},
+								["Smite"] = {
+									["count"] = 29.22,
+								},
+							},
+							["amount"] = 34.56999999999999,
+						},
+						["Forest Spider"] = {
+							["Details"] = {
+								["Smite"] = {
+									["count"] = 13.95,
+								},
+							},
+							["amount"] = 13.95,
+						},
+						["Kobold Vermin"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 2.62,
+								},
+								["Smite"] = {
+									["count"] = 32.08,
+								},
+							},
+							["amount"] = 34.7,
+						},
+					},
+					["Healing"] = 97,
+					["DamageTaken"] = 974,
+					["ElementTakenAbsorb"] = {
+						["Melee"] = 774,
+						["Physical"] = 83,
+					},
+					["Attacks"] = {
+						["Shadow Word: Pain (DoT)"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 12,
+									["min"] = 9,
+									["count"] = 104,
+									["amount"] = 1163,
+								},
+							},
+							["count"] = 104,
+							["amount"] = 1163,
+						},
+						["Mind Blast"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 73,
+									["min"] = 73,
+									["count"] = 1,
+									["amount"] = 73,
+								},
+								["Hit"] = {
+									["max"] = 50,
+									["min"] = 35,
+									["count"] = 7,
+									["amount"] = 323,
+								},
+							},
+							["count"] = 8,
+							["amount"] = 396,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 15,
+									["min"] = 4,
+									["count"] = 6,
+									["amount"] = 46,
+								},
+								["Parry"] = {
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 7,
+							["amount"] = 46,
+						},
+						["Smite"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 38,
+									["min"] = 15,
+									["count"] = 53,
+									["amount"] = 1090,
+								},
+								["Crit"] = {
+									["max"] = 31,
+									["min"] = 25,
+									["count"] = 3,
+									["amount"] = 83,
+								},
+								["Miss"] = {
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 57,
+							["amount"] = 1173,
+						},
+					},
+					["HealingTaken"] = 239,
+					["DOT_Time"] = 312,
+					["TimeDamage"] = 357.5100000000001,
+					["TimeDamaging"] = {
+						["Rusty Harvest Golem"] = {
+							["Details"] = {
+								["Shadow Word: Pain (DoT)"] = {
+									["count"] = 6.290000000000001,
+								},
+								["Mind Blast"] = {
+									["count"] = 3.8,
+								},
+								["Smite"] = {
+									["count"] = 3.13,
+								},
+							},
+							["amount"] = 13.22,
+						},
+						["Diseased Young Wolf"] = {
+							["Details"] = {
+								["Smite"] = {
+									["count"] = 38.25,
+								},
+							},
+							["amount"] = 38.25,
+						},
+						["Riverpaw Gnoll"] = {
+							["Details"] = {
+								["Shadow Word: Pain (DoT)"] = {
+									["count"] = 3.5,
+								},
+							},
+							["amount"] = 3.5,
+						},
+						["Hogger"] = {
+							["Details"] = {
+								["Shadow Word: Pain (DoT)"] = {
+									["count"] = 3.44,
+								},
+								["Mind Blast"] = {
+									["count"] = 3.5,
+								},
+								["Smite"] = {
+									["count"] = 2.37,
+								},
+							},
+							["amount"] = 9.309999999999999,
+						},
+						["Harvest Watcher"] = {
+							["Details"] = {
+								["Mind Blast"] = {
+									["count"] = 9.359999999999999,
+								},
+								["Shadow Word: Pain (DoT)"] = {
+									["count"] = 168.6000000000001,
+								},
+								["Melee"] = {
+									["count"] = 1.84,
+								},
+								["Smite"] = {
+									["count"] = 3.93,
+								},
+							},
+							["amount"] = 183.73,
+						},
+						["Young Goretusk"] = {
+							["Details"] = {
+								["Shadow Word: Pain (DoT)"] = {
+									["count"] = 12.49,
+								},
+							},
+							["amount"] = 12.49,
+						},
+						["Riverpaw Outrunner"] = {
+							["Details"] = {
+								["Shadow Word: Pain (DoT)"] = {
+									["count"] = 1.72,
+								},
+								["Melee"] = {
+									["count"] = 5.49,
+								},
+								["Smite"] = {
+									["count"] = 6.58,
+								},
+							},
+							["amount"] = 13.79,
+						},
+						["Diseased Timber Wolf"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 5.35,
+								},
+								["Smite"] = {
+									["count"] = 29.22,
+								},
+							},
+							["amount"] = 34.56999999999999,
+						},
+						["Forest Spider"] = {
+							["Details"] = {
+								["Smite"] = {
+									["count"] = 13.95,
+								},
+							},
+							["amount"] = 13.95,
+						},
+						["Kobold Vermin"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 2.62,
+								},
+								["Smite"] = {
+									["count"] = 32.08,
+								},
+							},
+							["amount"] = 34.7,
+						},
+					},
+					["ManaGain"] = 5,
+					["Overhealing"] = 28,
+					["ManaGainedFrom"] = {
+						["Pufarin"] = {
+							["Details"] = {
+								["Judgement of Wisdom"] = {
+									["count"] = 5,
+								},
+							},
+							["amount"] = 5,
+						},
+					},
+				},
+				["Fight3"] = {
+					["DOTs"] = {
+						["Shadow Word: Pain (DoT)"] = {
+							["Details"] = {
+								["Harvest Watcher"] = {
+									["count"] = 54,
+								},
+							},
+							["amount"] = 54,
+						},
+					},
+					["ElementDoneResist"] = {
+						["Shadow"] = 0,
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 190,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Absorb"] = {
+									["count"] = 8,
+								},
+								["Hit"] = {
+									["count"] = 8,
+								},
+								["Dodge"] = {
+									["count"] = 0,
+								},
+								["Crit"] = {
+									["count"] = 3,
+								},
+								["Miss"] = {
+									["count"] = 2,
+								},
+							},
+							["amount"] = 21,
+						},
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 15,
+					["HOTs"] = {
+						["Renew"] = {
+							["Details"] = {
+								["Howevertheyc"] = {
+									["count"] = 15,
+								},
+							},
+							["amount"] = 15,
+						},
+					},
+					["ManaGain"] = 0,
+					["ElementTaken"] = {
+						["Melee"] = 190,
+					},
+					["DOT_Time"] = 54,
+					["Damage"] = 310,
+					["ElementDoneAbsorb"] = {
+					},
+					["TimeHeal"] = 7.88,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["PartialAbsorb"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 11,
+									["amount"] = 0,
+								},
+								["Absorbed"] = {
+									["max"] = 17,
+									["min"] = 0,
+									["count"] = 10,
+									["amount"] = 148,
+								},
+							},
+							["count"] = 21,
+							["amount"] = 148,
+						},
+					},
+					["RageGain"] = 0,
+					["FAttacks"] = {
+					},
+					["PartialBlock"] = {
+					},
+					["ElementDone"] = {
+						["Shadow"] = 243,
+						["Holy"] = 67,
+					},
+					["CCBroken"] = {
+					},
+					["ElementHitsDone"] = {
+						["Shadow"] = {
+							["Details"] = {
+								["Tick"] = {
+									["count"] = 18,
+								},
+								["Hit"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 19,
+						},
+						["Holy"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 2,
+								},
+							},
+							["amount"] = 2,
+						},
+					},
+					["Dispelled"] = 0,
+					["WhoDamaged"] = {
+						["Harvest Watcher"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 190,
+								},
+							},
+							["amount"] = 190,
+						},
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["FDamagedWho"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+						["Howevertheyc"] = {
+							["Details"] = {
+								["Renew"] = {
+									["count"] = 7.88,
+								},
+							},
+							["amount"] = 7.88,
+						},
+					},
+					["OverHeals"] = {
+					},
+					["RageGained"] = {
+					},
+					["ActiveTime"] = 44.89,
+					["CCBreak"] = 0,
+					["EnergyGain"] = 0,
+					["WhoHealed"] = {
+						["Howevertheyc"] = {
+							["Details"] = {
+								["Renew"] = {
+									["count"] = 55,
+								},
+							},
+							["amount"] = 55,
+						},
+						["Bliess"] = {
+							["Details"] = {
+								["Renew"] = {
+									["count"] = 45,
+								},
+							},
+							["amount"] = 45,
+						},
+					},
+					["PartialResist"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 21,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 21,
+							["amount"] = 0,
+						},
+					},
+					["ManaGained"] = {
+					},
+					["ElementTakenAbsorb"] = {
+						["Melee"] = 148,
+					},
+					["Interrupts"] = 0,
+					["Overhealing"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["InterruptData"] = {
+					},
+					["WhoDispelled"] = {
+					},
+					["TimeSpent"] = {
+						["Harvest Watcher"] = {
+							["Details"] = {
+								["Mind Blast"] = {
+									["count"] = 0.45,
+								},
+								["Shadow Word: Pain (DoT)"] = {
+									["count"] = 33.74999999999999,
+								},
+								["Smite"] = {
+									["count"] = 2.81,
+								},
+							},
+							["amount"] = 37.00999999999999,
+						},
+						["Howevertheyc"] = {
+							["Details"] = {
+								["Renew"] = {
+									["count"] = 7.88,
+								},
+							},
+							["amount"] = 7.88,
+						},
+					},
+					["Heals"] = {
+						["Renew"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 11,
+									["min"] = 11,
+									["count"] = 5,
+									["amount"] = 55,
+								},
+							},
+							["count"] = 5,
+							["amount"] = 55,
+						},
+					},
+					["FDamage"] = 0,
+					["EnergyGained"] = {
+					},
+					["HealedWho"] = {
+						["Howevertheyc"] = {
+							["Details"] = {
+								["Renew"] = {
+									["count"] = 55,
+								},
+							},
+							["amount"] = 55,
+						},
+					},
+					["Healing"] = 55,
+					["RunicPowerGained"] = {
+					},
+					["ManaGainedFrom"] = {
+					},
+					["Attacks"] = {
+						["Mind Blast"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 45,
+									["min"] = 45,
+									["count"] = 1,
+									["amount"] = 45,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 45,
+						},
+						["Shadow Word: Pain (DoT)"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 11,
+									["min"] = 0,
+									["count"] = 18,
+									["amount"] = 198,
+								},
+							},
+							["count"] = 18,
+							["amount"] = 198,
+						},
+						["Smite"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 34,
+									["min"] = 33,
+									["count"] = 2,
+									["amount"] = 67,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 67,
+						},
+					},
+					["HealingTaken"] = 100,
+					["DamagedWho"] = {
+						["Harvest Watcher"] = {
+							["Details"] = {
+								["Mind Blast"] = {
+									["count"] = 45,
+								},
+								["Shadow Word: Pain (DoT)"] = {
+									["count"] = 198,
+								},
+								["Smite"] = {
+									["count"] = 67,
+								},
+							},
+							["amount"] = 310,
+						},
+					},
+					["TimeDamage"] = 37.00999999999999,
+					["TimeDamaging"] = {
+						["Harvest Watcher"] = {
+							["Details"] = {
+								["Mind Blast"] = {
+									["count"] = 0.45,
+								},
+								["Shadow Word: Pain (DoT)"] = {
+									["count"] = 33.74999999999999,
+								},
+								["Smite"] = {
+									["count"] = 2.81,
+								},
+							},
+							["amount"] = 37.00999999999999,
+						},
+					},
+					["RunicPowerGain"] = 0,
+					["ElementTakenBlock"] = {
+					},
+					["DispelledWho"] = {
+					},
+				},
+			},
+			["type"] = "Ungrouped",
+			["Owner"] = false,
+			["LastEventIncoming"] = {
+				true, -- [1]
+				false, -- [2]
+				true, -- [3]
+				true, -- [4]
+				true, -- [5]
+				false, -- [6]
+				true, -- [7]
+				false, -- [8]
+				true, -- [9]
+				true, -- [10]
+				false, -- [11]
+				true, -- [12]
+				false, -- [13]
+				true, -- [14]
+				true, -- [15]
+				true, -- [16]
+				false, -- [17]
+				true, -- [18]
+				true, -- [19]
+				false, -- [20]
+				true, -- [21]
+				false, -- [22]
+				true, -- [23]
+				true, -- [24]
+				false, -- [25]
+				false, -- [26]
+				true, -- [27]
+				true, -- [28]
+				false, -- [29]
+				true, -- [30]
+				false, -- [31]
+				true, -- [32]
+				true, -- [33]
+				false, -- [34]
+				false, -- [35]
+				true, -- [36]
+				false, -- [37]
+				true, -- [38]
+				true, -- [39]
+				false, -- [40]
+				true, -- [41]
+				false, -- [42]
+				true, -- [43]
+				true, -- [44]
+				false, -- [45]
+				false, -- [46]
+				true, -- [47]
+				false, -- [48]
+				false, -- [49]
+				true, -- [50]
+			},
+			["NextEventNum"] = 3,
+			["LastEventHealthNum"] = {
+				82.8054298642534, -- [1]
+				79.63800904977376, -- [2]
+				96.38009049773756, -- [3]
+				96.38009049773756, -- [4]
+				96.38009049773756, -- [5]
+				96.38009049773756, -- [6]
+				96.38009049773756, -- [7]
+				96.38009049773756, -- [8]
+				96.38009049773756, -- [9]
+				96.38009049773756, -- [10]
+				93.66515837104072, -- [11]
+				93.66515837104072, -- [12]
+				90.04524886877829, -- [13]
+				90.04524886877829, -- [14]
+				89.14027149321267, -- [15]
+				89.14027149321267, -- [16]
+				85.52036199095022, -- [17]
+				85.52036199095022, -- [18]
+				84.61538461538461, -- [19]
+				84.61538461538461, -- [20]
+				84.61538461538461, -- [21]
+				77.82805429864253, -- [22]
+				77.82805429864253, -- [23]
+				73.52941176470588, -- [24]
+				73.52941176470588, -- [25]
+				73.52941176470588, -- [26]
+				73.52941176470588, -- [27]
+				76.01809954751131, -- [28]
+				76.01809954751131, -- [29]
+				76.01809954751131, -- [30]
+				76.01809954751131, -- [31]
+				76.01809954751131, -- [32]
+				78.50678733031674, -- [33]
+				78.50678733031674, -- [34]
+				78.50678733031674, -- [35]
+				80.54298642533937, -- [36]
+				80.54298642533937, -- [37]
+				82.57918552036199, -- [38]
+				82.57918552036199, -- [39]
+				82.57918552036199, -- [40]
+				84.61538461538461, -- [41]
+				84.61538461538461, -- [42]
+				86.65158371040724, -- [43]
+				88.68778280542986, -- [44]
+				88.68778280542986, -- [45]
+				88.68778280542986, -- [46]
+				88.68778280542986, -- [47]
+				86.19909502262443, -- [48]
+				86.19909502262443, -- [49]
+				86.19909502262443, -- [50]
+			},
+			["LastEvents"] = {
+				"Harvest Watcher Melee Howevertheyc Hit -14 (Physical)", -- [1]
+				"Howevertheyc Smite Harvest Watcher Hit -33 (Holy)", -- [2]
+				"Harvest Watcher Melee Howevertheyc Absorb (16 Absorbed)", -- [3]
+				"Harvest Watcher Melee Howevertheyc Absorb (16 Absorbed)", -- [4]
+				"Harvest Watcher Melee Howevertheyc Absorb (16 Absorbed)", -- [5]
+				"Howevertheyc Shadow Word: Pain (DoT) Harvest Watcher Tick -11 (Shadow)", -- [6]
+				"Harvest Watcher Melee Howevertheyc Absorb (16 Absorbed)", -- [7]
+				"Howevertheyc Shadow Word: Pain (DoT) Harvest Watcher Tick -11 (Shadow)", -- [8]
+				"Harvest Watcher Melee Howevertheyc Absorb (16 Absorbed)", -- [9]
+				"Harvest Watcher Melee Howevertheyc Hit -12 (4 Absorbed) (Physical)", -- [10]
+				"Howevertheyc Shadow Word: Pain (DoT) Harvest Watcher Tick -11 (Shadow)", -- [11]
+				"Harvest Watcher Melee Howevertheyc Hit -16 (Physical)", -- [12]
+				"Howevertheyc Shadow Word: Pain (DoT) Harvest Watcher Tick -11 (Shadow)", -- [13]
+				"Harvest Watcher Melee Howevertheyc Hit -15 (Physical)", -- [14]
+				"Howevertheyc Renew Howevertheyc Tick +11", -- [15]
+				"Harvest Watcher Melee Howevertheyc Hit -16 (Physical)", -- [16]
+				"Howevertheyc Shadow Word: Pain (DoT) Harvest Watcher Tick -11 (Shadow)", -- [17]
+				"Harvest Watcher Melee Howevertheyc Hit -15 (Physical)", -- [18]
+				"Howevertheyc Renew Howevertheyc Tick +11", -- [19]
+				"Howevertheyc Shadow Word: Pain (DoT) Harvest Watcher Tick -11 (Shadow)", -- [20]
+				"Harvest Watcher Melee Howevertheyc Crit -30 (Physical)", -- [21]
+				"Howevertheyc Shadow Word: Pain (DoT) Harvest Watcher Tick -11 (Shadow)", -- [22]
+				"Harvest Watcher Melee Howevertheyc Crit -30 (Physical)", -- [23]
+				"Howevertheyc Renew Howevertheyc Tick +11", -- [24]
+				"Howevertheyc Shadow Word: Pain (DoT) Harvest Watcher Tick -11 (Shadow)", -- [25]
+				"Howevertheyc Shadow Word: Pain (DoT) Harvest Watcher Tick -11 (Shadow)", -- [26]
+				"Harvest Watcher Melee Howevertheyc Absorb (15 Absorbed)", -- [27]
+				"Howevertheyc Renew Howevertheyc Tick +11", -- [28]
+				"Howevertheyc Shadow Word: Pain (DoT) Harvest Watcher Tick -11 (Shadow)", -- [29]
+				"Harvest Watcher Melee Howevertheyc Miss", -- [30]
+				"Howevertheyc Shadow Word: Pain (DoT) Harvest Watcher Tick -11 (Shadow)", -- [31]
+				"Harvest Watcher Melee Howevertheyc Miss", -- [32]
+				"Howevertheyc Renew Howevertheyc Tick +11", -- [33]
+				"Howevertheyc Shadow Word: Pain (DoT) Harvest Watcher Tick -11 (Shadow)", -- [34]
+				"Howevertheyc Shadow Word: Pain (DoT) Harvest Watcher Tick -11 (Shadow)", -- [35]
+				"Bliess Renew Howevertheyc Tick +9", -- [36]
+				"Howevertheyc Shadow Word: Pain (DoT) Harvest Watcher Tick -11 (Shadow)", -- [37]
+				"Bliess Renew Howevertheyc Tick +9", -- [38]
+				"Harvest Watcher Melee Howevertheyc Absorb (16 Absorbed)", -- [39]
+				"Howevertheyc Shadow Word: Pain (DoT) Harvest Watcher Tick -11 (Shadow)", -- [40]
+				"Bliess Renew Howevertheyc Tick +9", -- [41]
+				"Howevertheyc Shadow Word: Pain (DoT) Harvest Watcher Tick -11 (Shadow)", -- [42]
+				"Bliess Renew Howevertheyc Tick +9", -- [43]
+				"Bliess Renew Howevertheyc Tick +9", -- [44]
+				"Howevertheyc Shadow Word: Pain (DoT) Harvest Watcher Tick -11 (Shadow)", -- [45]
+				"Howevertheyc Mind Blast Harvest Watcher Hit -45 (Shadow)", -- [46]
+				"Harvest Watcher Melee Howevertheyc Crit -11 (17 Absorbed) (Physical)", -- [47]
+				"Howevertheyc Shadow Word: Pain (DoT) Harvest Watcher Tick -11 (Shadow)", -- [48]
+				"Howevertheyc Smite Harvest Watcher Hit -34 (Holy)", -- [49]
+				"Harvest Watcher Melee Howevertheyc Hit -15 (Physical)", -- [50]
+			},
+			["Name"] = "Howevertheyc",
 			["DeathLogs"] = {
 				{
 					["MessageIncoming"] = {
@@ -428,210 +2663,22 @@ RecountPerCharDB = {
 					},
 				}, -- [1]
 			},
-			["lazysync"] = true,
-			["level"] = 3,
-			["LastDamageAbility"] = "Melee",
-			["LastFightIn"] = 50,
-			["LastEventNum"] = {
-				3.167420814479638, -- [1]
-				[14] = 3.393665158371041,
-				[15] = 2.48868778280543,
-				[16] = 3.619909502262444,
-				[33] = 2.48868778280543,
-				[18] = 3.393665158371041,
-				[19] = 2.48868778280543,
-				[10] = 2.714932126696833,
-				[21] = 6.787330316742081,
-				[43] = 2.036199095022624,
-				[44] = 2.036199095022624,
-				[23] = 6.787330316742081,
-				[47] = 2.48868778280543,
-				[24] = 2.48868778280543,
-				[12] = 3.619909502262444,
-				[50] = 3.393665158371041,
-				[41] = 2.036199095022624,
-				[38] = 2.036199095022624,
-				[36] = 2.036199095022624,
-				[28] = 2.48868778280543,
-			},
-			["type"] = "Grouped",
-			["FightsSaved"] = 5,
-			["LastDamageTaken"] = 14,
 			["TimeLast"] = {
 				["TimeHeal"] = 1634929593,
-				["DeathCount"] = 1634929393,
+				["HealingTaken"] = 1634929609,
 				["OVERALL"] = 1634929617,
 				["DamageTaken"] = 1634929616,
-				["ActiveTime"] = 1634929617,
-				["Overhealing"] = 1634928380,
-				["HealingTaken"] = 1634929609,
 				["HOT_Time"] = 1634929593,
 				["TimeDamage"] = 1634929617,
+				["DeathCount"] = 1634929393,
+				["Overhealing"] = 1634928380,
+				["ActiveTime"] = 1634929617,
 				["Healing"] = 1634929593,
 				["ManaGain"] = 1634929133,
 				["DOT_Time"] = 1634929614,
 				["Damage"] = 1634929617,
 			},
-			["Owner"] = false,
-			["LastAbility"] = 5659.727,
-			["NextEventNum"] = 3,
-			["LastEventHealthNum"] = {
-				82.8054298642534, -- [1]
-				79.63800904977376, -- [2]
-				96.38009049773756, -- [3]
-				96.38009049773756, -- [4]
-				96.38009049773756, -- [5]
-				96.38009049773756, -- [6]
-				96.38009049773756, -- [7]
-				96.38009049773756, -- [8]
-				96.38009049773756, -- [9]
-				96.38009049773756, -- [10]
-				93.66515837104072, -- [11]
-				93.66515837104072, -- [12]
-				90.04524886877829, -- [13]
-				90.04524886877829, -- [14]
-				89.14027149321267, -- [15]
-				89.14027149321267, -- [16]
-				85.52036199095022, -- [17]
-				85.52036199095022, -- [18]
-				84.61538461538461, -- [19]
-				84.61538461538461, -- [20]
-				84.61538461538461, -- [21]
-				77.82805429864253, -- [22]
-				77.82805429864253, -- [23]
-				73.52941176470588, -- [24]
-				73.52941176470588, -- [25]
-				73.52941176470588, -- [26]
-				73.52941176470588, -- [27]
-				76.01809954751131, -- [28]
-				76.01809954751131, -- [29]
-				76.01809954751131, -- [30]
-				76.01809954751131, -- [31]
-				76.01809954751131, -- [32]
-				78.50678733031674, -- [33]
-				78.50678733031674, -- [34]
-				78.50678733031674, -- [35]
-				80.54298642533937, -- [36]
-				80.54298642533937, -- [37]
-				82.57918552036199, -- [38]
-				82.57918552036199, -- [39]
-				82.57918552036199, -- [40]
-				84.61538461538461, -- [41]
-				84.61538461538461, -- [42]
-				86.65158371040724, -- [43]
-				88.68778280542986, -- [44]
-				88.68778280542986, -- [45]
-				88.68778280542986, -- [46]
-				88.68778280542986, -- [47]
-				86.19909502262443, -- [48]
-				86.19909502262443, -- [49]
-				86.19909502262443, -- [50]
-			},
-			["LastEvents"] = {
-				"Harvest Watcher Melee Howevertheyc Hit -14 (Physical)", -- [1]
-				"Howevertheyc Smite Harvest Watcher Hit -33 (Holy)", -- [2]
-				"Harvest Watcher Melee Howevertheyc Absorb (16 Absorbed)", -- [3]
-				"Harvest Watcher Melee Howevertheyc Absorb (16 Absorbed)", -- [4]
-				"Harvest Watcher Melee Howevertheyc Absorb (16 Absorbed)", -- [5]
-				"Howevertheyc Shadow Word: Pain (DoT) Harvest Watcher Tick -11 (Shadow)", -- [6]
-				"Harvest Watcher Melee Howevertheyc Absorb (16 Absorbed)", -- [7]
-				"Howevertheyc Shadow Word: Pain (DoT) Harvest Watcher Tick -11 (Shadow)", -- [8]
-				"Harvest Watcher Melee Howevertheyc Absorb (16 Absorbed)", -- [9]
-				"Harvest Watcher Melee Howevertheyc Hit -12 (4 Absorbed) (Physical)", -- [10]
-				"Howevertheyc Shadow Word: Pain (DoT) Harvest Watcher Tick -11 (Shadow)", -- [11]
-				"Harvest Watcher Melee Howevertheyc Hit -16 (Physical)", -- [12]
-				"Howevertheyc Shadow Word: Pain (DoT) Harvest Watcher Tick -11 (Shadow)", -- [13]
-				"Harvest Watcher Melee Howevertheyc Hit -15 (Physical)", -- [14]
-				"Howevertheyc Renew Howevertheyc Tick +11", -- [15]
-				"Harvest Watcher Melee Howevertheyc Hit -16 (Physical)", -- [16]
-				"Howevertheyc Shadow Word: Pain (DoT) Harvest Watcher Tick -11 (Shadow)", -- [17]
-				"Harvest Watcher Melee Howevertheyc Hit -15 (Physical)", -- [18]
-				"Howevertheyc Renew Howevertheyc Tick +11", -- [19]
-				"Howevertheyc Shadow Word: Pain (DoT) Harvest Watcher Tick -11 (Shadow)", -- [20]
-				"Harvest Watcher Melee Howevertheyc Crit -30 (Physical)", -- [21]
-				"Howevertheyc Shadow Word: Pain (DoT) Harvest Watcher Tick -11 (Shadow)", -- [22]
-				"Harvest Watcher Melee Howevertheyc Crit -30 (Physical)", -- [23]
-				"Howevertheyc Renew Howevertheyc Tick +11", -- [24]
-				"Howevertheyc Shadow Word: Pain (DoT) Harvest Watcher Tick -11 (Shadow)", -- [25]
-				"Howevertheyc Shadow Word: Pain (DoT) Harvest Watcher Tick -11 (Shadow)", -- [26]
-				"Harvest Watcher Melee Howevertheyc Absorb (15 Absorbed)", -- [27]
-				"Howevertheyc Renew Howevertheyc Tick +11", -- [28]
-				"Howevertheyc Shadow Word: Pain (DoT) Harvest Watcher Tick -11 (Shadow)", -- [29]
-				"Harvest Watcher Melee Howevertheyc Miss", -- [30]
-				"Howevertheyc Shadow Word: Pain (DoT) Harvest Watcher Tick -11 (Shadow)", -- [31]
-				"Harvest Watcher Melee Howevertheyc Miss", -- [32]
-				"Howevertheyc Renew Howevertheyc Tick +11", -- [33]
-				"Howevertheyc Shadow Word: Pain (DoT) Harvest Watcher Tick -11 (Shadow)", -- [34]
-				"Howevertheyc Shadow Word: Pain (DoT) Harvest Watcher Tick -11 (Shadow)", -- [35]
-				"Bliess Renew Howevertheyc Tick +9", -- [36]
-				"Howevertheyc Shadow Word: Pain (DoT) Harvest Watcher Tick -11 (Shadow)", -- [37]
-				"Bliess Renew Howevertheyc Tick +9", -- [38]
-				"Harvest Watcher Melee Howevertheyc Absorb (16 Absorbed)", -- [39]
-				"Howevertheyc Shadow Word: Pain (DoT) Harvest Watcher Tick -11 (Shadow)", -- [40]
-				"Bliess Renew Howevertheyc Tick +9", -- [41]
-				"Howevertheyc Shadow Word: Pain (DoT) Harvest Watcher Tick -11 (Shadow)", -- [42]
-				"Bliess Renew Howevertheyc Tick +9", -- [43]
-				"Bliess Renew Howevertheyc Tick +9", -- [44]
-				"Howevertheyc Shadow Word: Pain (DoT) Harvest Watcher Tick -11 (Shadow)", -- [45]
-				"Howevertheyc Mind Blast Harvest Watcher Hit -45 (Shadow)", -- [46]
-				"Harvest Watcher Melee Howevertheyc Crit -11 (17 Absorbed) (Physical)", -- [47]
-				"Howevertheyc Shadow Word: Pain (DoT) Harvest Watcher Tick -11 (Shadow)", -- [48]
-				"Howevertheyc Smite Harvest Watcher Hit -34 (Holy)", -- [49]
-				"Harvest Watcher Melee Howevertheyc Hit -15 (Physical)", -- [50]
-			},
-			["Name"] = "Howevertheyc",
-			["LastEventIncoming"] = {
-				true, -- [1]
-				false, -- [2]
-				true, -- [3]
-				true, -- [4]
-				true, -- [5]
-				false, -- [6]
-				true, -- [7]
-				false, -- [8]
-				true, -- [9]
-				true, -- [10]
-				false, -- [11]
-				true, -- [12]
-				false, -- [13]
-				true, -- [14]
-				true, -- [15]
-				true, -- [16]
-				false, -- [17]
-				true, -- [18]
-				true, -- [19]
-				false, -- [20]
-				true, -- [21]
-				false, -- [22]
-				true, -- [23]
-				true, -- [24]
-				false, -- [25]
-				false, -- [26]
-				true, -- [27]
-				true, -- [28]
-				false, -- [29]
-				true, -- [30]
-				false, -- [31]
-				true, -- [32]
-				true, -- [33]
-				false, -- [34]
-				false, -- [35]
-				true, -- [36]
-				false, -- [37]
-				true, -- [38]
-				true, -- [39]
-				false, -- [40]
-				true, -- [41]
-				false, -- [42]
-				true, -- [43]
-				true, -- [44]
-				false, -- [45]
-				false, -- [46]
-				true, -- [47]
-				false, -- [48]
-				false, -- [49]
-				true, -- [50]
-			},
+			["LastDamageTaken"] = 14,
 			["LastEventTimes"] = {
 				5659.003, -- [1]
 				5659.727, -- [2]
@@ -684,2054 +2731,7 @@ RecountPerCharDB = {
 				5656.996, -- [49]
 				5657.024, -- [50]
 			},
-			["Fights"] = {
-				["Fight5"] = {
-					["DOTs"] = {
-						["Shadow Word: Pain (DoT)"] = {
-							["Details"] = {
-								["Harvest Watcher"] = {
-									["count"] = 0,
-								},
-								["Young Goretusk"] = {
-									["count"] = 12,
-								},
-							},
-							["amount"] = 12,
-						},
-					},
-					["ElementDoneResist"] = {
-						["Holy"] = 0,
-						["Shadow"] = 0,
-					},
-					["Ressed"] = 0,
-					["DamageTaken"] = 91,
-					["RageGainedFrom"] = {
-					},
-					["ElementHitsTaken"] = {
-						["Melee"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 5,
-								},
-								["Absorb"] = {
-									["count"] = 0,
-								},
-								["Crit"] = {
-									["count"] = 0,
-								},
-								["Miss"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 5,
-						},
-					},
-					["DeathCount"] = 0,
-					["HOT_Time"] = 0,
-					["ElementHitsDone"] = {
-						["Shadow"] = {
-							["Details"] = {
-								["Tick"] = {
-									["count"] = 4,
-								},
-								["Crit"] = {
-									["count"] = 0,
-								},
-								["Hit"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 4,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Holy"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["ElementTakenAbsorb"] = {
-						["Melee"] = 0,
-					},
-					["ElementTaken"] = {
-						["Melee"] = 91,
-					},
-					["DOT_Time"] = 12,
-					["Damage"] = 44,
-					["ElementTakenBlock"] = {
-					},
-					["TimeHeal"] = 0,
-					["RessedWho"] = {
-					},
-					["Dispels"] = 0,
-					["ElementTakenResist"] = {
-					},
-					["ElementDoneAbsorb"] = {
-					},
-					["FAttacks"] = {
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementDone"] = {
-						["Shadow"] = 44,
-						["Melee"] = 0,
-						["Holy"] = 0,
-					},
-					["PartialAbsorb"] = {
-						["Melee"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 5,
-									["amount"] = 0,
-								},
-								["Absorbed"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 5,
-							["amount"] = 0,
-						},
-					},
-					["DamagedWho"] = {
-						["Harvest Watcher"] = {
-							["Details"] = {
-								["Shadow Word: Pain (DoT)"] = {
-									["count"] = 0,
-								},
-								["Mind Blast"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Smite"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Young Goretusk"] = {
-							["Details"] = {
-								["Shadow Word: Pain (DoT)"] = {
-									["count"] = 44,
-								},
-							},
-							["amount"] = 44,
-						},
-					},
-					["PartialBlock"] = {
-					},
-					["WhoDamaged"] = {
-						["Harvest Watcher"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Young Goretusk"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 91,
-								},
-							},
-							["amount"] = 91,
-						},
-					},
-					["EnergyGainedFrom"] = {
-					},
-					["PartialResist"] = {
-						["Melee"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 5,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 5,
-							["amount"] = 0,
-						},
-					},
-					["CCBroken"] = {
-					},
-					["ElementDoneBlock"] = {
-					},
-					["TimeHealing"] = {
-					},
-					["OverHeals"] = {
-					},
-					["ManaGainedFrom"] = {
-					},
-					["RunicPowerGained"] = {
-					},
-					["CCBreak"] = 0,
-					["RageGained"] = {
-					},
-					["HealedWho"] = {
-					},
-					["EnergyGain"] = 0,
-					["ManaGained"] = {
-					},
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
-					["Overhealing"] = 0,
-					["TimeSpent"] = {
-						["Harvest Watcher"] = {
-							["Details"] = {
-								["Shadow Word: Pain (DoT)"] = {
-									["count"] = 0,
-								},
-								["Mind Blast"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Smite"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Young Goretusk"] = {
-							["Details"] = {
-								["Shadow Word: Pain (DoT)"] = {
-									["count"] = 12.49,
-								},
-							},
-							["amount"] = 12.49,
-						},
-					},
-					["WhoDispelled"] = {
-					},
-					["InterruptData"] = {
-					},
-					["RunicPowerGain"] = 0,
-					["Heals"] = {
-					},
-					["WhoHealed"] = {
-						["Bliess"] = {
-							["Details"] = {
-								["Renew"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["EnergyGained"] = {
-					},
-					["ActiveTime"] = 12.49,
-					["Healing"] = 0,
-					["FDamagedWho"] = {
-					},
-					["Dispelled"] = 0,
-					["Attacks"] = {
-						["Shadow Word: Pain (DoT)"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 11,
-									["min"] = 0,
-									["count"] = 4,
-									["amount"] = 44,
-								},
-							},
-							["count"] = 4,
-							["amount"] = 44,
-						},
-						["Mind Blast"] = {
-							["Details"] = {
-								["Crit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Smite"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["HealingTaken"] = 0,
-					["RageGain"] = 0,
-					["TimeDamage"] = 12.49,
-					["TimeDamaging"] = {
-						["Harvest Watcher"] = {
-							["Details"] = {
-								["Shadow Word: Pain (DoT)"] = {
-									["count"] = 0,
-								},
-								["Mind Blast"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Smite"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Young Goretusk"] = {
-							["Details"] = {
-								["Shadow Word: Pain (DoT)"] = {
-									["count"] = 12.49,
-								},
-							},
-							["amount"] = 12.49,
-						},
-					},
-					["ManaGain"] = 0,
-					["HOTs"] = {
-					},
-					["DispelledWho"] = {
-					},
-				},
-				["CurrentFightData"] = {
-					["DOTs"] = {
-						["Shadow Word: Pain (DoT)"] = {
-							["Details"] = {
-								["Harvest Watcher"] = {
-									["count"] = 0,
-								},
-								["Riverpaw Gnoll"] = {
-									["count"] = 0,
-								},
-								["Riverpaw Outrunner"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["ElementDoneResist"] = {
-						["Shadow"] = 0,
-					},
-					["Ressed"] = 0,
-					["DamageTaken"] = 0,
-					["RageGainedFrom"] = {
-					},
-					["ElementHitsTaken"] = {
-						["Melee"] = {
-							["Details"] = {
-								["Absorb"] = {
-									["count"] = 0,
-								},
-								["Hit"] = {
-									["count"] = 0,
-								},
-								["Dodge"] = {
-									["count"] = 0,
-								},
-								["Crit"] = {
-									["count"] = 0,
-								},
-								["Miss"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Physical"] = {
-							["Details"] = {
-								["Absorb"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["DeathCount"] = 0,
-					["HOT_Time"] = 0,
-					["ElementHitsDone"] = {
-						["Holy"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 0,
-								},
-								["Parry"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Shadow"] = {
-							["Details"] = {
-								["Tick"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["ElementTakenAbsorb"] = {
-						["Melee"] = 0,
-						["Physical"] = 0,
-					},
-					["ElementTaken"] = {
-						["Melee"] = 0,
-					},
-					["DOT_Time"] = 0,
-					["Damage"] = 0,
-					["ElementTakenBlock"] = {
-					},
-					["TimeHeal"] = 0,
-					["RessedWho"] = {
-					},
-					["Dispels"] = 0,
-					["ElementTakenResist"] = {
-					},
-					["ElementDoneAbsorb"] = {
-					},
-					["FAttacks"] = {
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementDone"] = {
-						["Holy"] = 0,
-						["Melee"] = 0,
-						["Shadow"] = 0,
-					},
-					["PartialAbsorb"] = {
-						["Melee"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Absorbed"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Shoot"] = {
-							["Details"] = {
-								["Absorbed"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["DamagedWho"] = {
-						["Harvest Watcher"] = {
-							["Details"] = {
-								["Shadow Word: Pain (DoT)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Riverpaw Gnoll"] = {
-							["Details"] = {
-								["Shadow Word: Pain (DoT)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Riverpaw Outrunner"] = {
-							["Details"] = {
-								["Shadow Word: Pain (DoT)"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Smite"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["PartialBlock"] = {
-					},
-					["WhoDamaged"] = {
-						["Riverpaw Outrunner"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Harvest Watcher"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["EnergyGainedFrom"] = {
-					},
-					["PartialResist"] = {
-						["Melee"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Shoot"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["CCBroken"] = {
-					},
-					["ElementDoneBlock"] = {
-					},
-					["TimeHealing"] = {
-						["Howevertheyc"] = {
-							["Details"] = {
-								["Renew"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["OverHeals"] = {
-						["Renew"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["ManaGainedFrom"] = {
-					},
-					["RunicPowerGained"] = {
-					},
-					["CCBreak"] = 0,
-					["RageGained"] = {
-					},
-					["HealedWho"] = {
-						["Howevertheyc"] = {
-							["Details"] = {
-								["Renew"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["EnergyGain"] = 0,
-					["ManaGained"] = {
-					},
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
-					["Overhealing"] = 0,
-					["TimeSpent"] = {
-						["Howevertheyc"] = {
-							["Details"] = {
-								["Renew"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Harvest Watcher"] = {
-							["Details"] = {
-								["Shadow Word: Pain (DoT)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Riverpaw Outrunner"] = {
-							["Details"] = {
-								["Shadow Word: Pain (DoT)"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Smite"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Riverpaw Gnoll"] = {
-							["Details"] = {
-								["Shadow Word: Pain (DoT)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["WhoDispelled"] = {
-					},
-					["InterruptData"] = {
-					},
-					["RunicPowerGain"] = 0,
-					["Heals"] = {
-						["Renew"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["WhoHealed"] = {
-						["Howevertheyc"] = {
-							["Details"] = {
-								["Renew"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Bliess"] = {
-							["Details"] = {
-								["Renew"] = {
-									["count"] = 0,
-								},
-								["Lesser Heal"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["EnergyGained"] = {
-					},
-					["ActiveTime"] = 0,
-					["Healing"] = 0,
-					["FDamagedWho"] = {
-					},
-					["Dispelled"] = 0,
-					["Attacks"] = {
-						["Shadow Word: Pain (DoT)"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Parry"] = {
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Smite"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["HealingTaken"] = 0,
-					["RageGain"] = 0,
-					["TimeDamage"] = 0,
-					["TimeDamaging"] = {
-						["Harvest Watcher"] = {
-							["Details"] = {
-								["Shadow Word: Pain (DoT)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Riverpaw Gnoll"] = {
-							["Details"] = {
-								["Shadow Word: Pain (DoT)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Riverpaw Outrunner"] = {
-							["Details"] = {
-								["Shadow Word: Pain (DoT)"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Smite"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["ManaGain"] = 0,
-					["HOTs"] = {
-						["Renew"] = {
-							["Details"] = {
-								["Howevertheyc"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["DispelledWho"] = {
-					},
-				},
-				["Fight3"] = {
-					["DOTs"] = {
-						["Shadow Word: Pain (DoT)"] = {
-							["Details"] = {
-								["Harvest Watcher"] = {
-									["count"] = 54,
-								},
-							},
-							["amount"] = 54,
-						},
-					},
-					["ElementDoneResist"] = {
-						["Shadow"] = 0,
-					},
-					["Ressed"] = 0,
-					["DamageTaken"] = 190,
-					["RageGainedFrom"] = {
-					},
-					["ElementHitsTaken"] = {
-						["Melee"] = {
-							["Details"] = {
-								["Absorb"] = {
-									["count"] = 8,
-								},
-								["Hit"] = {
-									["count"] = 8,
-								},
-								["Miss"] = {
-									["count"] = 2,
-								},
-								["Crit"] = {
-									["count"] = 3,
-								},
-								["Dodge"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 21,
-						},
-					},
-					["DeathCount"] = 0,
-					["HOT_Time"] = 15,
-					["ElementHitsDone"] = {
-						["Holy"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 2,
-								},
-							},
-							["amount"] = 2,
-						},
-						["Shadow"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 1,
-								},
-								["Tick"] = {
-									["count"] = 18,
-								},
-							},
-							["amount"] = 19,
-						},
-					},
-					["ElementTakenAbsorb"] = {
-						["Melee"] = 148,
-					},
-					["ElementTaken"] = {
-						["Melee"] = 190,
-					},
-					["DOT_Time"] = 54,
-					["Damage"] = 310,
-					["ElementTakenBlock"] = {
-					},
-					["TimeHeal"] = 7.88,
-					["RessedWho"] = {
-					},
-					["Dispels"] = 0,
-					["ElementTakenResist"] = {
-					},
-					["ElementDoneAbsorb"] = {
-					},
-					["FAttacks"] = {
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementDone"] = {
-						["Holy"] = 67,
-						["Shadow"] = 243,
-					},
-					["PartialAbsorb"] = {
-						["Melee"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 11,
-									["amount"] = 0,
-								},
-								["Absorbed"] = {
-									["max"] = 17,
-									["min"] = 0,
-									["count"] = 10,
-									["amount"] = 148,
-								},
-							},
-							["count"] = 21,
-							["amount"] = 148,
-						},
-					},
-					["DamagedWho"] = {
-						["Harvest Watcher"] = {
-							["Details"] = {
-								["Mind Blast"] = {
-									["count"] = 45,
-								},
-								["Shadow Word: Pain (DoT)"] = {
-									["count"] = 198,
-								},
-								["Smite"] = {
-									["count"] = 67,
-								},
-							},
-							["amount"] = 310,
-						},
-					},
-					["PartialBlock"] = {
-					},
-					["WhoDamaged"] = {
-						["Harvest Watcher"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 190,
-								},
-							},
-							["amount"] = 190,
-						},
-					},
-					["EnergyGainedFrom"] = {
-					},
-					["PartialResist"] = {
-						["Melee"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 21,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 21,
-							["amount"] = 0,
-						},
-					},
-					["CCBroken"] = {
-					},
-					["ElementDoneBlock"] = {
-					},
-					["TimeHealing"] = {
-						["Howevertheyc"] = {
-							["Details"] = {
-								["Renew"] = {
-									["count"] = 7.88,
-								},
-							},
-							["amount"] = 7.88,
-						},
-					},
-					["OverHeals"] = {
-					},
-					["ManaGainedFrom"] = {
-					},
-					["RunicPowerGained"] = {
-					},
-					["CCBreak"] = 0,
-					["RageGained"] = {
-					},
-					["HealedWho"] = {
-						["Howevertheyc"] = {
-							["Details"] = {
-								["Renew"] = {
-									["count"] = 55,
-								},
-							},
-							["amount"] = 55,
-						},
-					},
-					["EnergyGain"] = 0,
-					["ManaGained"] = {
-					},
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
-					["Overhealing"] = 0,
-					["TimeSpent"] = {
-						["Harvest Watcher"] = {
-							["Details"] = {
-								["Mind Blast"] = {
-									["count"] = 0.45,
-								},
-								["Shadow Word: Pain (DoT)"] = {
-									["count"] = 33.74999999999999,
-								},
-								["Smite"] = {
-									["count"] = 2.81,
-								},
-							},
-							["amount"] = 37.00999999999999,
-						},
-						["Howevertheyc"] = {
-							["Details"] = {
-								["Renew"] = {
-									["count"] = 7.88,
-								},
-							},
-							["amount"] = 7.88,
-						},
-					},
-					["WhoDispelled"] = {
-					},
-					["InterruptData"] = {
-					},
-					["RunicPowerGain"] = 0,
-					["Heals"] = {
-						["Renew"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 11,
-									["min"] = 11,
-									["count"] = 5,
-									["amount"] = 55,
-								},
-							},
-							["count"] = 5,
-							["amount"] = 55,
-						},
-					},
-					["WhoHealed"] = {
-						["Howevertheyc"] = {
-							["Details"] = {
-								["Renew"] = {
-									["count"] = 55,
-								},
-							},
-							["amount"] = 55,
-						},
-						["Bliess"] = {
-							["Details"] = {
-								["Renew"] = {
-									["count"] = 45,
-								},
-							},
-							["amount"] = 45,
-						},
-					},
-					["EnergyGained"] = {
-					},
-					["ActiveTime"] = 44.89,
-					["Healing"] = 55,
-					["FDamagedWho"] = {
-					},
-					["Dispelled"] = 0,
-					["Attacks"] = {
-						["Mind Blast"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 45,
-									["min"] = 45,
-									["count"] = 1,
-									["amount"] = 45,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 45,
-						},
-						["Shadow Word: Pain (DoT)"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 11,
-									["min"] = 0,
-									["count"] = 18,
-									["amount"] = 198,
-								},
-							},
-							["count"] = 18,
-							["amount"] = 198,
-						},
-						["Smite"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 34,
-									["min"] = 33,
-									["count"] = 2,
-									["amount"] = 67,
-								},
-							},
-							["count"] = 2,
-							["amount"] = 67,
-						},
-					},
-					["HealingTaken"] = 100,
-					["RageGain"] = 0,
-					["TimeDamage"] = 37.00999999999999,
-					["TimeDamaging"] = {
-						["Harvest Watcher"] = {
-							["Details"] = {
-								["Mind Blast"] = {
-									["count"] = 0.45,
-								},
-								["Shadow Word: Pain (DoT)"] = {
-									["count"] = 33.74999999999999,
-								},
-								["Smite"] = {
-									["count"] = 2.81,
-								},
-							},
-							["amount"] = 37.00999999999999,
-						},
-					},
-					["ManaGain"] = 0,
-					["HOTs"] = {
-						["Renew"] = {
-							["Details"] = {
-								["Howevertheyc"] = {
-									["count"] = 15,
-								},
-							},
-							["amount"] = 15,
-						},
-					},
-					["DispelledWho"] = {
-					},
-				},
-				["LastFightData"] = {
-					["DOTs"] = {
-					},
-					["ElementDoneResist"] = {
-					},
-					["Ressed"] = 0,
-					["DamageTaken"] = 0,
-					["RageGainedFrom"] = {
-					},
-					["ElementHitsTaken"] = {
-					},
-					["DeathCount"] = 0,
-					["HOT_Time"] = 0,
-					["ElementHitsDone"] = {
-					},
-					["ElementTakenAbsorb"] = {
-					},
-					["ElementTaken"] = {
-					},
-					["DOT_Time"] = 0,
-					["Damage"] = 0,
-					["ElementTakenBlock"] = {
-					},
-					["TimeHeal"] = 0,
-					["RessedWho"] = {
-					},
-					["Dispels"] = 0,
-					["ElementTakenResist"] = {
-					},
-					["ElementDoneAbsorb"] = {
-					},
-					["FAttacks"] = {
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementDone"] = {
-					},
-					["PartialAbsorb"] = {
-					},
-					["DamagedWho"] = {
-					},
-					["PartialBlock"] = {
-					},
-					["WhoDamaged"] = {
-					},
-					["EnergyGainedFrom"] = {
-					},
-					["PartialResist"] = {
-					},
-					["CCBroken"] = {
-					},
-					["ElementDoneBlock"] = {
-					},
-					["TimeHealing"] = {
-					},
-					["OverHeals"] = {
-					},
-					["ManaGainedFrom"] = {
-					},
-					["RunicPowerGained"] = {
-					},
-					["CCBreak"] = 0,
-					["RageGained"] = {
-					},
-					["HealedWho"] = {
-					},
-					["EnergyGain"] = 0,
-					["ManaGained"] = {
-					},
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
-					["Overhealing"] = 0,
-					["TimeSpent"] = {
-					},
-					["WhoDispelled"] = {
-					},
-					["InterruptData"] = {
-					},
-					["RunicPowerGain"] = 0,
-					["Heals"] = {
-					},
-					["WhoHealed"] = {
-					},
-					["EnergyGained"] = {
-					},
-					["ActiveTime"] = 0,
-					["Healing"] = 0,
-					["FDamagedWho"] = {
-					},
-					["Dispelled"] = 0,
-					["Attacks"] = {
-					},
-					["HealingTaken"] = 0,
-					["RageGain"] = 0,
-					["TimeDamage"] = 0,
-					["TimeDamaging"] = {
-					},
-					["ManaGain"] = 0,
-					["HOTs"] = {
-					},
-					["DispelledWho"] = {
-					},
-				},
-				["OverallData"] = {
-					["DOTs"] = {
-						["Shadow Word: Pain (DoT)"] = {
-							["Details"] = {
-								["Rusty Harvest Golem"] = {
-									["count"] = 9,
-								},
-								["Riverpaw Gnoll"] = {
-									["count"] = 3,
-								},
-								["Hogger"] = {
-									["count"] = 3,
-								},
-								["Riverpaw Outrunner"] = {
-									["count"] = 3,
-								},
-								["Harvest Watcher"] = {
-									["count"] = 282,
-								},
-								["Young Goretusk"] = {
-									["count"] = 12,
-								},
-							},
-							["amount"] = 312,
-						},
-					},
-					["ElementDoneResist"] = {
-						["Holy"] = 6,
-						["Shadow"] = 63,
-					},
-					["ElementHitsTaken"] = {
-						["Physical"] = {
-							["Details"] = {
-								["Absorb"] = {
-									["count"] = 4,
-								},
-							},
-							["amount"] = 4,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["Absorb"] = {
-									["count"] = 45,
-								},
-								["Hit"] = {
-									["count"] = 72,
-								},
-								["Dodge"] = {
-									["count"] = 4,
-								},
-								["Crit"] = {
-									["count"] = 6,
-								},
-								["Miss"] = {
-									["count"] = 7,
-								},
-							},
-							["amount"] = 134,
-						},
-						["Nature"] = {
-							["Details"] = {
-								["Tick"] = {
-									["count"] = 3,
-								},
-							},
-							["amount"] = 3,
-						},
-					},
-					["HealedWho"] = {
-						["Howevertheyc"] = {
-							["Details"] = {
-								["Renew"] = {
-									["count"] = 97,
-								},
-							},
-							["amount"] = 97,
-						},
-					},
-					["DeathCount"] = 1,
-					["HOT_Time"] = 30,
-					["ElementTaken"] = {
-						["Melee"] = 965,
-						["Nature"] = 9,
-					},
-					["HOTs"] = {
-						["Renew"] = {
-							["Details"] = {
-								["Howevertheyc"] = {
-									["count"] = 30,
-								},
-							},
-							["amount"] = 30,
-						},
-					},
-					["Damage"] = 2778,
-					["TimeHeal"] = 16.89,
-					["ElementDone"] = {
-						["Holy"] = 1173,
-						["Melee"] = 46,
-						["Shadow"] = 1559,
-					},
-					["ElementHitsDone"] = {
-						["Holy"] = {
-							["Details"] = {
-								["Miss"] = {
-									["count"] = 1,
-								},
-								["Crit"] = {
-									["count"] = 3,
-								},
-								["Hit"] = {
-									["count"] = 53,
-								},
-							},
-							["amount"] = 57,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["Parry"] = {
-									["count"] = 1,
-								},
-								["Hit"] = {
-									["count"] = 6,
-								},
-							},
-							["amount"] = 7,
-						},
-						["Shadow"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 7,
-								},
-								["Crit"] = {
-									["count"] = 1,
-								},
-								["Tick"] = {
-									["count"] = 104,
-								},
-							},
-							["amount"] = 112,
-						},
-					},
-					["WhoDamaged"] = {
-						["Mangy Wolf"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 21,
-								},
-							},
-							["amount"] = 21,
-						},
-						["Diseased Young Wolf"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 4,
-								},
-							},
-							["amount"] = 4,
-						},
-						["Riverpaw Outrunner"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 33,
-								},
-							},
-							["amount"] = 33,
-						},
-						["Young Goretusk"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 91,
-								},
-							},
-							["amount"] = 91,
-						},
-						["Forest Spider"] = {
-							["Details"] = {
-								["Poison (DoT)"] = {
-									["count"] = 9,
-								},
-							},
-							["amount"] = 9,
-						},
-						["Diseased Timber Wolf"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 8,
-								},
-							},
-							["amount"] = 8,
-						},
-						["Harvest Watcher"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 802,
-								},
-							},
-							["amount"] = 802,
-						},
-						["Kobold Vermin"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 6,
-								},
-							},
-							["amount"] = 6,
-						},
-					},
-					["TimeHealing"] = {
-						["Howevertheyc"] = {
-							["Details"] = {
-								["Renew"] = {
-									["count"] = 16.89,
-								},
-							},
-							["amount"] = 16.89,
-						},
-					},
-					["OverHeals"] = {
-						["Renew"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 14,
-									["min"] = 14,
-									["count"] = 2,
-									["amount"] = 28,
-								},
-							},
-							["count"] = 2,
-							["amount"] = 28,
-						},
-					},
-					["PartialResist"] = {
-						["Poison (DoT)"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 3,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 3,
-							["amount"] = 0,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 134,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 134,
-							["amount"] = 0,
-						},
-						["Shoot"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 4,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 4,
-							["amount"] = 0,
-						},
-					},
-					["ManaGained"] = {
-						["Judgement of Wisdom"] = {
-							["Details"] = {
-								["Pufarin"] = {
-									["count"] = 5,
-								},
-							},
-							["amount"] = 5,
-						},
-					},
-					["PartialAbsorb"] = {
-						["Poison (DoT)"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 3,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 3,
-							["amount"] = 0,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 83,
-									["amount"] = 0,
-								},
-								["Absorbed"] = {
-									["max"] = 20,
-									["min"] = 4,
-									["count"] = 51,
-									["amount"] = 774,
-								},
-							},
-							["count"] = 134,
-							["amount"] = 774,
-						},
-						["Shoot"] = {
-							["Details"] = {
-								["Absorbed"] = {
-									["max"] = 22,
-									["min"] = 17,
-									["count"] = 4,
-									["amount"] = 83,
-								},
-							},
-							["count"] = 4,
-							["amount"] = 83,
-						},
-					},
-					["ActiveTime"] = 374.4000000000002,
-					["Heals"] = {
-						["Renew"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 14,
-									["min"] = 11,
-									["count"] = 8,
-									["amount"] = 97,
-								},
-							},
-							["count"] = 8,
-							["amount"] = 97,
-						},
-					},
-					["ManaGainedFrom"] = {
-						["Pufarin"] = {
-							["Details"] = {
-								["Judgement of Wisdom"] = {
-									["count"] = 5,
-								},
-							},
-							["amount"] = 5,
-						},
-					},
-					["Overhealing"] = 28,
-					["TimeSpent"] = {
-						["Rusty Harvest Golem"] = {
-							["Details"] = {
-								["Shadow Word: Pain (DoT)"] = {
-									["count"] = 6.290000000000001,
-								},
-								["Mind Blast"] = {
-									["count"] = 3.8,
-								},
-								["Smite"] = {
-									["count"] = 3.13,
-								},
-							},
-							["amount"] = 13.22,
-						},
-						["Diseased Young Wolf"] = {
-							["Details"] = {
-								["Smite"] = {
-									["count"] = 38.25,
-								},
-							},
-							["amount"] = 38.25,
-						},
-						["Riverpaw Gnoll"] = {
-							["Details"] = {
-								["Shadow Word: Pain (DoT)"] = {
-									["count"] = 3.5,
-								},
-							},
-							["amount"] = 3.5,
-						},
-						["Hogger"] = {
-							["Details"] = {
-								["Shadow Word: Pain (DoT)"] = {
-									["count"] = 3.44,
-								},
-								["Mind Blast"] = {
-									["count"] = 3.5,
-								},
-								["Smite"] = {
-									["count"] = 2.37,
-								},
-							},
-							["amount"] = 9.309999999999999,
-						},
-						["Harvest Watcher"] = {
-							["Details"] = {
-								["Mind Blast"] = {
-									["count"] = 9.359999999999999,
-								},
-								["Shadow Word: Pain (DoT)"] = {
-									["count"] = 168.6000000000001,
-								},
-								["Melee"] = {
-									["count"] = 1.84,
-								},
-								["Smite"] = {
-									["count"] = 3.93,
-								},
-							},
-							["amount"] = 183.73,
-						},
-						["Young Goretusk"] = {
-							["Details"] = {
-								["Shadow Word: Pain (DoT)"] = {
-									["count"] = 12.49,
-								},
-							},
-							["amount"] = 12.49,
-						},
-						["Howevertheyc"] = {
-							["Details"] = {
-								["Renew"] = {
-									["count"] = 16.89,
-								},
-							},
-							["amount"] = 16.89,
-						},
-						["Riverpaw Outrunner"] = {
-							["Details"] = {
-								["Shadow Word: Pain (DoT)"] = {
-									["count"] = 1.72,
-								},
-								["Melee"] = {
-									["count"] = 5.49,
-								},
-								["Smite"] = {
-									["count"] = 6.58,
-								},
-							},
-							["amount"] = 13.79,
-						},
-						["Diseased Timber Wolf"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 5.35,
-								},
-								["Smite"] = {
-									["count"] = 29.22,
-								},
-							},
-							["amount"] = 34.56999999999999,
-						},
-						["Forest Spider"] = {
-							["Details"] = {
-								["Smite"] = {
-									["count"] = 13.95,
-								},
-							},
-							["amount"] = 13.95,
-						},
-						["Kobold Vermin"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 2.62,
-								},
-								["Smite"] = {
-									["count"] = 32.08,
-								},
-							},
-							["amount"] = 34.7,
-						},
-					},
-					["Healing"] = 97,
-					["DamageTaken"] = 974,
-					["ElementTakenAbsorb"] = {
-						["Melee"] = 774,
-						["Physical"] = 83,
-					},
-					["Attacks"] = {
-						["Shadow Word: Pain (DoT)"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 12,
-									["min"] = 9,
-									["count"] = 104,
-									["amount"] = 1163,
-								},
-							},
-							["count"] = 104,
-							["amount"] = 1163,
-						},
-						["Mind Blast"] = {
-							["Details"] = {
-								["Crit"] = {
-									["max"] = 73,
-									["min"] = 73,
-									["count"] = 1,
-									["amount"] = 73,
-								},
-								["Hit"] = {
-									["max"] = 50,
-									["min"] = 35,
-									["count"] = 7,
-									["amount"] = 323,
-								},
-							},
-							["count"] = 8,
-							["amount"] = 396,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["Parry"] = {
-									["count"] = 1,
-									["amount"] = 0,
-								},
-								["Hit"] = {
-									["max"] = 15,
-									["min"] = 4,
-									["count"] = 6,
-									["amount"] = 46,
-								},
-							},
-							["count"] = 7,
-							["amount"] = 46,
-						},
-						["Smite"] = {
-							["Details"] = {
-								["Miss"] = {
-									["count"] = 1,
-									["amount"] = 0,
-								},
-								["Crit"] = {
-									["max"] = 31,
-									["min"] = 25,
-									["count"] = 3,
-									["amount"] = 83,
-								},
-								["Hit"] = {
-									["max"] = 38,
-									["min"] = 15,
-									["count"] = 53,
-									["amount"] = 1090,
-								},
-							},
-							["count"] = 57,
-							["amount"] = 1173,
-						},
-					},
-					["HealingTaken"] = 239,
-					["DOT_Time"] = 312,
-					["TimeDamage"] = 357.5100000000001,
-					["TimeDamaging"] = {
-						["Rusty Harvest Golem"] = {
-							["Details"] = {
-								["Shadow Word: Pain (DoT)"] = {
-									["count"] = 6.290000000000001,
-								},
-								["Mind Blast"] = {
-									["count"] = 3.8,
-								},
-								["Smite"] = {
-									["count"] = 3.13,
-								},
-							},
-							["amount"] = 13.22,
-						},
-						["Diseased Young Wolf"] = {
-							["Details"] = {
-								["Smite"] = {
-									["count"] = 38.25,
-								},
-							},
-							["amount"] = 38.25,
-						},
-						["Riverpaw Gnoll"] = {
-							["Details"] = {
-								["Shadow Word: Pain (DoT)"] = {
-									["count"] = 3.5,
-								},
-							},
-							["amount"] = 3.5,
-						},
-						["Hogger"] = {
-							["Details"] = {
-								["Shadow Word: Pain (DoT)"] = {
-									["count"] = 3.44,
-								},
-								["Mind Blast"] = {
-									["count"] = 3.5,
-								},
-								["Smite"] = {
-									["count"] = 2.37,
-								},
-							},
-							["amount"] = 9.309999999999999,
-						},
-						["Harvest Watcher"] = {
-							["Details"] = {
-								["Mind Blast"] = {
-									["count"] = 9.359999999999999,
-								},
-								["Shadow Word: Pain (DoT)"] = {
-									["count"] = 168.6000000000001,
-								},
-								["Melee"] = {
-									["count"] = 1.84,
-								},
-								["Smite"] = {
-									["count"] = 3.93,
-								},
-							},
-							["amount"] = 183.73,
-						},
-						["Young Goretusk"] = {
-							["Details"] = {
-								["Shadow Word: Pain (DoT)"] = {
-									["count"] = 12.49,
-								},
-							},
-							["amount"] = 12.49,
-						},
-						["Riverpaw Outrunner"] = {
-							["Details"] = {
-								["Shadow Word: Pain (DoT)"] = {
-									["count"] = 1.72,
-								},
-								["Melee"] = {
-									["count"] = 5.49,
-								},
-								["Smite"] = {
-									["count"] = 6.58,
-								},
-							},
-							["amount"] = 13.79,
-						},
-						["Diseased Timber Wolf"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 5.35,
-								},
-								["Smite"] = {
-									["count"] = 29.22,
-								},
-							},
-							["amount"] = 34.56999999999999,
-						},
-						["Forest Spider"] = {
-							["Details"] = {
-								["Smite"] = {
-									["count"] = 13.95,
-								},
-							},
-							["amount"] = 13.95,
-						},
-						["Kobold Vermin"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 2.62,
-								},
-								["Smite"] = {
-									["count"] = 32.08,
-								},
-							},
-							["amount"] = 34.7,
-						},
-					},
-					["ManaGain"] = 5,
-					["WhoHealed"] = {
-						["Howevertheyc"] = {
-							["Details"] = {
-								["Renew"] = {
-									["count"] = 97,
-								},
-							},
-							["amount"] = 97,
-						},
-						["Bliess"] = {
-							["Details"] = {
-								["Renew"] = {
-									["count"] = 90,
-								},
-								["Lesser Heal"] = {
-									["count"] = 52,
-								},
-							},
-							["amount"] = 142,
-						},
-					},
-					["DamagedWho"] = {
-						["Rusty Harvest Golem"] = {
-							["Details"] = {
-								["Shadow Word: Pain (DoT)"] = {
-									["count"] = 36,
-								},
-								["Mind Blast"] = {
-									["count"] = 96,
-								},
-								["Smite"] = {
-									["count"] = 66,
-								},
-							},
-							["amount"] = 198,
-						},
-						["Diseased Young Wolf"] = {
-							["Details"] = {
-								["Smite"] = {
-									["count"] = 255,
-								},
-							},
-							["amount"] = 255,
-						},
-						["Riverpaw Gnoll"] = {
-							["Details"] = {
-								["Shadow Word: Pain (DoT)"] = {
-									["count"] = 12,
-								},
-							},
-							["amount"] = 12,
-						},
-						["Hogger"] = {
-							["Details"] = {
-								["Shadow Word: Pain (DoT)"] = {
-									["count"] = 12,
-								},
-								["Mind Blast"] = {
-									["count"] = 47,
-								},
-								["Smite"] = {
-									["count"] = 72,
-								},
-							},
-							["amount"] = 131,
-						},
-						["Harvest Watcher"] = {
-							["Details"] = {
-								["Mind Blast"] = {
-									["count"] = 253,
-								},
-								["Shadow Word: Pain (DoT)"] = {
-									["count"] = 1047,
-								},
-								["Melee"] = {
-									["count"] = 28,
-								},
-								["Smite"] = {
-									["count"] = 129,
-								},
-							},
-							["amount"] = 1457,
-						},
-						["Young Goretusk"] = {
-							["Details"] = {
-								["Shadow Word: Pain (DoT)"] = {
-									["count"] = 44,
-								},
-							},
-							["amount"] = 44,
-						},
-						["Riverpaw Outrunner"] = {
-							["Details"] = {
-								["Shadow Word: Pain (DoT)"] = {
-									["count"] = 12,
-								},
-								["Melee"] = {
-									["count"] = 4,
-								},
-								["Smite"] = {
-									["count"] = 76,
-								},
-							},
-							["amount"] = 92,
-						},
-						["Diseased Timber Wolf"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 9,
-								},
-								["Smite"] = {
-									["count"] = 212,
-								},
-							},
-							["amount"] = 221,
-						},
-						["Forest Spider"] = {
-							["Details"] = {
-								["Smite"] = {
-									["count"] = 109,
-								},
-							},
-							["amount"] = 109,
-						},
-						["Kobold Vermin"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 5,
-								},
-								["Smite"] = {
-									["count"] = 254,
-								},
-							},
-							["amount"] = 259,
-						},
-					},
-				},
-			},
-			["UnitLockout"] = 1634926835,
-			["LastActive"] = 1634929617,
+			["LastAbility"] = 230.048,
 		},
 		["Bliess"] = {
 			["GUID"] = "0x0700000000731579",
@@ -2850,8 +2850,8 @@ RecountPerCharDB = {
 				["DamageTaken"] = {
 					558, -- [1]
 				},
-				["ActiveTime"] = {
-					186.88, -- [1]
+				["TimeDamage"] = {
+					101.53, -- [1]
 				},
 				["HealingTaken"] = {
 					193, -- [1]
@@ -2859,8 +2859,8 @@ RecountPerCharDB = {
 				["HOT_Time"] = {
 					144, -- [1]
 				},
-				["TimeDamage"] = {
-					101.53, -- [1]
+				["ActiveTime"] = {
+					186.88, -- [1]
 				},
 				["Overhealing"] = {
 					232, -- [1]
@@ -2877,97 +2877,1548 @@ RecountPerCharDB = {
 			},
 			["enClass"] = "PRIEST",
 			["unit"] = "Bliess",
-			["LastAbility"] = 5651.925,
+			["LastActive"] = 1634929717,
 			["level"] = 14,
 			["LastDamageAbility"] = "Melee",
 			["LastFightIn"] = 50,
 			["LastEventNum"] = {
+				[24] = 15.26717557251909,
+				[34] = 7.633587786259542,
+				[36] = 7.633587786259542,
+				[38] = 8.01526717557252,
+				[17] = 43.32129963898917,
 				[29] = 3.816793893129771,
 				[30] = 7.633587786259542,
 				[16] = 37.18411552346571,
 				[33] = 7.251908396946565,
-				[34] = 7.633587786259542,
 				[35] = 7.633587786259542,
 				[37] = 8.01526717557252,
-				[38] = 8.01526717557252,
 				[20] = 3.435114503816794,
 				[21] = 3.435114503816794,
-				[24] = 15.26717557251909,
-				[25] = 16.03053435114504,
 				[19] = 53.42960288808664,
-				[17] = 43.32129963898917,
-				[36] = 7.633587786259542,
+				[25] = 16.03053435114504,
 			},
 			["lazysync"] = true,
 			["FightsSaved"] = 5,
-			["LastDamageTaken"] = 21,
-			["TimeLast"] = {
-				["TimeHeal"] = 1634929609,
-				["OVERALL"] = 1634929609,
-				["DamageTaken"] = 1634929406,
-				["TimeDamage"] = 1634929365,
-				["Overhealing"] = 1634929487,
-				["HealingTaken"] = 1634929188,
-				["HOT_Time"] = 1634929609,
-				["ActiveTime"] = 1634929609,
-				["Healing"] = 1634929609,
-				["ManaGain"] = 1634929155,
-				["DOT_Time"] = 1634929352,
-				["Damage"] = 1634929365,
+			["UnitLockout"] = 1634927725,
+			["Fights"] = {
+				["CurrentFightData"] = {
+					["DOTs"] = {
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 0,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["HOTs"] = {
+						["Renew"] = {
+							["Details"] = {
+								["Howevertheyc"] = {
+									["count"] = 0,
+								},
+								["Pufarin"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ManaGain"] = 0,
+					["ElementTaken"] = {
+					},
+					["DOT_Time"] = 0,
+					["Damage"] = 0,
+					["ElementDoneAbsorb"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["PartialAbsorb"] = {
+					},
+					["RageGain"] = 0,
+					["FAttacks"] = {
+					},
+					["PartialBlock"] = {
+					},
+					["ElementDone"] = {
+						["Holy"] = 0,
+					},
+					["CCBroken"] = {
+					},
+					["ElementHitsDone"] = {
+						["Holy"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["Dispelled"] = 0,
+					["WhoDamaged"] = {
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["FDamagedWho"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+						["Howevertheyc"] = {
+							["Details"] = {
+								["Renew"] = {
+									["count"] = 0,
+								},
+								["Lesser Heal"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Pufarin"] = {
+							["Details"] = {
+								["Renew"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["OverHeals"] = {
+						["Renew"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Lesser Heal"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["RageGained"] = {
+					},
+					["ActiveTime"] = 0,
+					["CCBreak"] = 0,
+					["EnergyGain"] = 0,
+					["WhoHealed"] = {
+					},
+					["PartialResist"] = {
+					},
+					["ManaGained"] = {
+						["Judgement of Wisdom"] = {
+							["Details"] = {
+								["Pufarin"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ElementTakenAbsorb"] = {
+					},
+					["Interrupts"] = 0,
+					["Overhealing"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["InterruptData"] = {
+					},
+					["WhoDispelled"] = {
+					},
+					["TimeSpent"] = {
+						["Young Fleshripper"] = {
+							["Details"] = {
+								["Smite"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Howevertheyc"] = {
+							["Details"] = {
+								["Renew"] = {
+									["count"] = 0,
+								},
+								["Lesser Heal"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Harvest Watcher"] = {
+							["Details"] = {
+								["Smite"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Pufarin"] = {
+							["Details"] = {
+								["Renew"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["Heals"] = {
+						["Renew"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Lesser Heal"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["FDamage"] = 0,
+					["EnergyGained"] = {
+					},
+					["HealedWho"] = {
+						["Howevertheyc"] = {
+							["Details"] = {
+								["Renew"] = {
+									["count"] = 0,
+								},
+								["Lesser Heal"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Pufarin"] = {
+							["Details"] = {
+								["Renew"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["Healing"] = 0,
+					["RunicPowerGained"] = {
+					},
+					["ManaGainedFrom"] = {
+						["Pufarin"] = {
+							["Details"] = {
+								["Judgement of Wisdom"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["Attacks"] = {
+						["Smite"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["HealingTaken"] = 0,
+					["DamagedWho"] = {
+						["Young Fleshripper"] = {
+							["Details"] = {
+								["Smite"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Harvest Watcher"] = {
+							["Details"] = {
+								["Smite"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["TimeDamage"] = 0,
+					["TimeDamaging"] = {
+						["Young Fleshripper"] = {
+							["Details"] = {
+								["Smite"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Harvest Watcher"] = {
+							["Details"] = {
+								["Smite"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["RunicPowerGain"] = 0,
+					["ElementTakenBlock"] = {
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["Fight4"] = {
+					["DOTs"] = {
+						["Shadow Word: Pain (DoT)"] = {
+							["Details"] = {
+								["Rusty Harvest Golem"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 0,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 15,
+					["HOTs"] = {
+						["Renew"] = {
+							["Details"] = {
+								["Adamsandler"] = {
+									["count"] = 15,
+								},
+							},
+							["amount"] = 15,
+						},
+					},
+					["ManaGain"] = 0,
+					["ElementTaken"] = {
+						["Melee"] = 0,
+					},
+					["DOT_Time"] = 0,
+					["Damage"] = 0,
+					["ElementDoneAbsorb"] = {
+					},
+					["TimeHeal"] = 15.57,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["PartialAbsorb"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["RageGain"] = 0,
+					["FAttacks"] = {
+					},
+					["PartialBlock"] = {
+					},
+					["ElementDone"] = {
+						["Shadow"] = 0,
+					},
+					["CCBroken"] = {
+					},
+					["ElementHitsDone"] = {
+						["Shadow"] = {
+							["Details"] = {
+								["Tick"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["Dispelled"] = 0,
+					["WhoDamaged"] = {
+						["Rusty Harvest Golem"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["FDamagedWho"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+						["Adamsandler"] = {
+							["Details"] = {
+								["Renew"] = {
+									["count"] = 15.57,
+								},
+							},
+							["amount"] = 15.57,
+						},
+					},
+					["OverHeals"] = {
+					},
+					["RageGained"] = {
+					},
+					["ActiveTime"] = 15.57,
+					["CCBreak"] = 0,
+					["EnergyGain"] = 0,
+					["WhoHealed"] = {
+					},
+					["PartialResist"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["ManaGained"] = {
+					},
+					["ElementTakenAbsorb"] = {
+					},
+					["Interrupts"] = 0,
+					["Overhealing"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["InterruptData"] = {
+					},
+					["WhoDispelled"] = {
+					},
+					["TimeSpent"] = {
+						["Rusty Harvest Golem"] = {
+							["Details"] = {
+								["Shadow Word: Pain (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Adamsandler"] = {
+							["Details"] = {
+								["Renew"] = {
+									["count"] = 15.57,
+								},
+							},
+							["amount"] = 15.57,
+						},
+					},
+					["Heals"] = {
+						["Renew"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 9,
+									["min"] = 9,
+									["count"] = 5,
+									["amount"] = 45,
+								},
+							},
+							["count"] = 5,
+							["amount"] = 45,
+						},
+					},
+					["FDamage"] = 0,
+					["EnergyGained"] = {
+					},
+					["HealedWho"] = {
+						["Adamsandler"] = {
+							["Details"] = {
+								["Renew"] = {
+									["count"] = 45,
+								},
+							},
+							["amount"] = 45,
+						},
+					},
+					["Healing"] = 45,
+					["RunicPowerGained"] = {
+					},
+					["ManaGainedFrom"] = {
+					},
+					["Attacks"] = {
+						["Shadow Word: Pain (DoT)"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["HealingTaken"] = 0,
+					["DamagedWho"] = {
+						["Rusty Harvest Golem"] = {
+							["Details"] = {
+								["Shadow Word: Pain (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["TimeDamage"] = 0,
+					["TimeDamaging"] = {
+						["Rusty Harvest Golem"] = {
+							["Details"] = {
+								["Shadow Word: Pain (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["RunicPowerGain"] = 0,
+					["ElementTakenBlock"] = {
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["LastFightData"] = {
+					["DOTs"] = {
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 0,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["HOTs"] = {
+					},
+					["ManaGain"] = 0,
+					["ElementTaken"] = {
+					},
+					["DOT_Time"] = 0,
+					["Damage"] = 0,
+					["ElementDoneAbsorb"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["PartialAbsorb"] = {
+					},
+					["RageGain"] = 0,
+					["FAttacks"] = {
+					},
+					["PartialBlock"] = {
+					},
+					["ElementDone"] = {
+					},
+					["CCBroken"] = {
+					},
+					["ElementHitsDone"] = {
+					},
+					["Dispelled"] = 0,
+					["WhoDamaged"] = {
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["FDamagedWho"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+					},
+					["OverHeals"] = {
+					},
+					["RageGained"] = {
+					},
+					["ActiveTime"] = 0,
+					["CCBreak"] = 0,
+					["EnergyGain"] = 0,
+					["WhoHealed"] = {
+					},
+					["PartialResist"] = {
+					},
+					["ManaGained"] = {
+					},
+					["ElementTakenAbsorb"] = {
+					},
+					["Interrupts"] = 0,
+					["Overhealing"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["InterruptData"] = {
+					},
+					["WhoDispelled"] = {
+					},
+					["TimeSpent"] = {
+					},
+					["Heals"] = {
+					},
+					["FDamage"] = 0,
+					["EnergyGained"] = {
+					},
+					["HealedWho"] = {
+					},
+					["Healing"] = 0,
+					["RunicPowerGained"] = {
+					},
+					["ManaGainedFrom"] = {
+					},
+					["Attacks"] = {
+					},
+					["HealingTaken"] = 0,
+					["DamagedWho"] = {
+					},
+					["TimeDamage"] = 0,
+					["TimeDamaging"] = {
+					},
+					["RunicPowerGain"] = 0,
+					["ElementTakenBlock"] = {
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["OverallData"] = {
+					["TimeDamaging"] = {
+						["Young Fleshripper"] = {
+							["Details"] = {
+								["Smite"] = {
+									["count"] = 5.529999999999999,
+								},
+							},
+							["amount"] = 5.529999999999999,
+						},
+						["Kobold Tunneler"] = {
+							["Details"] = {
+								["Shadow Word: Pain (DoT)"] = {
+									["count"] = 27.88,
+								},
+								["Melee"] = {
+									["count"] = 0.9300000000000001,
+								},
+								["Smite"] = {
+									["count"] = 15.2,
+								},
+							},
+							["amount"] = 44.01000000000001,
+						},
+						["Riverpaw Runt"] = {
+							["Details"] = {
+								["Smite"] = {
+									["count"] = 0.73,
+								},
+							},
+							["amount"] = 0.73,
+						},
+						["Harvest Watcher"] = {
+							["Details"] = {
+								["Shadow Word: Pain (DoT)"] = {
+									["count"] = 18.48,
+								},
+								["Smite"] = {
+									["count"] = 29.28,
+								},
+							},
+							["amount"] = 47.76000000000001,
+						},
+						["Rusty Harvest Golem"] = {
+							["Details"] = {
+								["Shadow Word: Pain (DoT)"] = {
+									["count"] = 3.5,
+								},
+							},
+							["amount"] = 3.5,
+						},
+					},
+					["TimeHealing"] = {
+						["Howevertheyc"] = {
+							["Details"] = {
+								["Renew"] = {
+									["count"] = 30.24,
+								},
+								["Lesser Heal"] = {
+									["count"] = 0.79,
+								},
+							},
+							["amount"] = 31.03,
+						},
+						["Adamsandler"] = {
+							["Details"] = {
+								["Renew"] = {
+									["count"] = 15.57,
+								},
+							},
+							["amount"] = 15.57,
+						},
+						["Pufarin"] = {
+							["Details"] = {
+								["Renew"] = {
+									["count"] = 12.48,
+								},
+							},
+							["amount"] = 12.48,
+						},
+						["Wojtektypalo"] = {
+							["Details"] = {
+								["Renew"] = {
+									["count"] = 5.7,
+								},
+							},
+							["amount"] = 5.7,
+						},
+						["Paydelroy"] = {
+							["Details"] = {
+								["Renew"] = {
+									["count"] = 9.48,
+								},
+							},
+							["amount"] = 9.48,
+						},
+						["Bliess"] = {
+							["Details"] = {
+								["Renew"] = {
+									["count"] = 11.09,
+								},
+							},
+							["amount"] = 11.09,
+						},
+					},
+					["DOTs"] = {
+						["Shadow Word: Pain (DoT)"] = {
+							["Details"] = {
+								["Rusty Harvest Golem"] = {
+									["count"] = 3,
+								},
+								["Harvest Watcher"] = {
+									["count"] = 27,
+								},
+								["Kobold Tunneler"] = {
+									["count"] = 78,
+								},
+							},
+							["amount"] = 108,
+						},
+					},
+					["TimeSpent"] = {
+						["Rusty Harvest Golem"] = {
+							["Details"] = {
+								["Shadow Word: Pain (DoT)"] = {
+									["count"] = 3.5,
+								},
+							},
+							["amount"] = 3.5,
+						},
+						["Adamsandler"] = {
+							["Details"] = {
+								["Renew"] = {
+									["count"] = 15.57,
+								},
+							},
+							["amount"] = 15.57,
+						},
+						["Kobold Tunneler"] = {
+							["Details"] = {
+								["Shadow Word: Pain (DoT)"] = {
+									["count"] = 27.88,
+								},
+								["Melee"] = {
+									["count"] = 0.9300000000000001,
+								},
+								["Smite"] = {
+									["count"] = 15.2,
+								},
+							},
+							["amount"] = 44.01000000000001,
+						},
+						["Harvest Watcher"] = {
+							["Details"] = {
+								["Shadow Word: Pain (DoT)"] = {
+									["count"] = 18.48,
+								},
+								["Smite"] = {
+									["count"] = 29.28,
+								},
+							},
+							["amount"] = 47.76000000000001,
+						},
+						["Young Fleshripper"] = {
+							["Details"] = {
+								["Smite"] = {
+									["count"] = 5.529999999999999,
+								},
+							},
+							["amount"] = 5.529999999999999,
+						},
+						["Howevertheyc"] = {
+							["Details"] = {
+								["Renew"] = {
+									["count"] = 30.24,
+								},
+								["Lesser Heal"] = {
+									["count"] = 0.79,
+								},
+							},
+							["amount"] = 31.03,
+						},
+						["Pufarin"] = {
+							["Details"] = {
+								["Renew"] = {
+									["count"] = 12.48,
+								},
+							},
+							["amount"] = 12.48,
+						},
+						["Wojtektypalo"] = {
+							["Details"] = {
+								["Renew"] = {
+									["count"] = 5.7,
+								},
+							},
+							["amount"] = 5.7,
+						},
+						["Riverpaw Runt"] = {
+							["Details"] = {
+								["Smite"] = {
+									["count"] = 0.73,
+								},
+							},
+							["amount"] = 0.73,
+						},
+						["Paydelroy"] = {
+							["Details"] = {
+								["Renew"] = {
+									["count"] = 9.48,
+								},
+							},
+							["amount"] = 9.48,
+						},
+						["Bliess"] = {
+							["Details"] = {
+								["Renew"] = {
+									["count"] = 11.09,
+								},
+							},
+							["amount"] = 11.09,
+						},
+					},
+					["WhoHealed"] = {
+						["Bliess"] = {
+							["Details"] = {
+								["Renew"] = {
+									["count"] = 81,
+								},
+							},
+							["amount"] = 81,
+						},
+						["Pufarin"] = {
+							["Details"] = {
+								["Holy Light"] = {
+									["count"] = 112,
+								},
+							},
+							["amount"] = 112,
+						},
+					},
+					["ElementHitsTaken"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Absorb"] = {
+									["count"] = 12,
+								},
+								["Hit"] = {
+									["count"] = 50,
+								},
+								["Miss"] = {
+									["count"] = 5,
+								},
+								["Dodge"] = {
+									["count"] = 2,
+								},
+								["Crit"] = {
+									["count"] = 4,
+								},
+								["Parry"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 74,
+						},
+					},
+					["DamageTaken"] = 558,
+					["ElementHitsDone"] = {
+						["Shadow"] = {
+							["Details"] = {
+								["Tick"] = {
+									["count"] = 36,
+								},
+							},
+							["amount"] = 36,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 1,
+						},
+						["Holy"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 21,
+								},
+								["Evade"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 22,
+						},
+					},
+					["PartialResist"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 74,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 74,
+							["amount"] = 0,
+						},
+					},
+					["ManaGained"] = {
+						["Judgement of Wisdom"] = {
+							["Details"] = {
+								["Pufarin"] = {
+									["count"] = 10,
+								},
+							},
+							["amount"] = 10,
+						},
+					},
+					["Overhealing"] = 232,
+					["ActiveTime"] = 186.88,
+					["HealedWho"] = {
+						["Howevertheyc"] = {
+							["Details"] = {
+								["Renew"] = {
+									["count"] = 90,
+								},
+								["Lesser Heal"] = {
+									["count"] = 52,
+								},
+							},
+							["amount"] = 142,
+						},
+						["Adamsandler"] = {
+							["Details"] = {
+								["Renew"] = {
+									["count"] = 45,
+								},
+							},
+							["amount"] = 45,
+						},
+						["Pufarin"] = {
+							["Details"] = {
+								["Renew"] = {
+									["count"] = 36,
+								},
+							},
+							["amount"] = 36,
+						},
+						["Wojtektypalo"] = {
+							["Details"] = {
+								["Renew"] = {
+									["count"] = 18,
+								},
+							},
+							["amount"] = 18,
+						},
+						["Paydelroy"] = {
+							["Details"] = {
+								["Renew"] = {
+									["count"] = 27,
+								},
+							},
+							["amount"] = 27,
+						},
+						["Bliess"] = {
+							["Details"] = {
+								["Renew"] = {
+									["count"] = 81,
+								},
+							},
+							["amount"] = 81,
+						},
+					},
+					["ElementTaken"] = {
+						["Melee"] = 558,
+					},
+					["DOT_Time"] = 108,
+					["Damage"] = 1059,
+					["DamagedWho"] = {
+						["Young Fleshripper"] = {
+							["Details"] = {
+								["Smite"] = {
+									["count"] = 60,
+								},
+							},
+							["amount"] = 60,
+						},
+						["Rusty Harvest Golem"] = {
+							["Details"] = {
+								["Shadow Word: Pain (DoT)"] = {
+									["count"] = 11,
+								},
+							},
+							["amount"] = 11,
+						},
+						["Harvest Watcher"] = {
+							["Details"] = {
+								["Shadow Word: Pain (DoT)"] = {
+									["count"] = 99,
+								},
+								["Smite"] = {
+									["count"] = 439,
+								},
+							},
+							["amount"] = 538,
+						},
+						["Kobold Tunneler"] = {
+							["Details"] = {
+								["Shadow Word: Pain (DoT)"] = {
+									["count"] = 286,
+								},
+								["Melee"] = {
+									["count"] = 5,
+								},
+								["Smite"] = {
+									["count"] = 159,
+								},
+							},
+							["amount"] = 450,
+						},
+					},
+					["TimeHeal"] = 85.35000000000001,
+					["Heals"] = {
+						["Renew"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 9,
+									["min"] = 9,
+									["count"] = 33,
+									["amount"] = 297,
+								},
+							},
+							["count"] = 33,
+							["amount"] = 297,
+						},
+						["Lesser Heal"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 52,
+									["min"] = 52,
+									["count"] = 1,
+									["amount"] = 52,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 52,
+						},
+					},
+					["Attacks"] = {
+						["Shadow Word: Pain (DoT)"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 11,
+									["min"] = 11,
+									["count"] = 36,
+									["amount"] = 396,
+								},
+							},
+							["count"] = 36,
+							["amount"] = 396,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 5,
+									["min"] = 5,
+									["count"] = 1,
+									["amount"] = 5,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 5,
+						},
+						["Smite"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 34,
+									["min"] = 28,
+									["count"] = 21,
+									["amount"] = 658,
+								},
+								["Evade"] = {
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 22,
+							["amount"] = 658,
+						},
+					},
+					["ElementTakenAbsorb"] = {
+						["Melee"] = 144,
+					},
+					["Healing"] = 349,
+					["HOT_Time"] = 144,
+					["HOTs"] = {
+						["Renew"] = {
+							["Details"] = {
+								["Bliess"] = {
+									["count"] = 45,
+								},
+								["Adamsandler"] = {
+									["count"] = 15,
+								},
+								["Pufarin"] = {
+									["count"] = 18,
+								},
+								["Wojtektypalo"] = {
+									["count"] = 6,
+								},
+								["Paydelroy"] = {
+									["count"] = 15,
+								},
+								["Howevertheyc"] = {
+									["count"] = 45,
+								},
+							},
+							["amount"] = 144,
+						},
+					},
+					["ElementDone"] = {
+						["Shadow"] = 396,
+						["Melee"] = 5,
+						["Holy"] = 658,
+					},
+					["HealingTaken"] = 193,
+					["ManaGainedFrom"] = {
+						["Pufarin"] = {
+							["Details"] = {
+								["Judgement of Wisdom"] = {
+									["count"] = 10,
+								},
+							},
+							["amount"] = 10,
+						},
+					},
+					["TimeDamage"] = 101.53,
+					["WhoDamaged"] = {
+						["Mangy Wolf"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 5,
+								},
+							},
+							["amount"] = 5,
+						},
+						["Rusty Harvest Golem"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 18,
+								},
+							},
+							["amount"] = 18,
+						},
+						["Harvest Watcher"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 350,
+								},
+							},
+							["amount"] = 350,
+						},
+						["Kobold Tunneler"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 185,
+								},
+							},
+							["amount"] = 185,
+						},
+					},
+					["ManaGain"] = 10,
+					["PartialAbsorb"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 59,
+									["amount"] = 0,
+								},
+								["Absorbed"] = {
+									["max"] = 21,
+									["min"] = 5,
+									["count"] = 15,
+									["amount"] = 144,
+								},
+							},
+							["count"] = 74,
+							["amount"] = 144,
+						},
+					},
+					["OverHeals"] = {
+						["Renew"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 9,
+									["min"] = 9,
+									["count"] = 15,
+									["amount"] = 135,
+								},
+							},
+							["count"] = 15,
+							["amount"] = 135,
+						},
+						["Lesser Heal"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 97,
+									["min"] = 97,
+									["count"] = 1,
+									["amount"] = 97,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 97,
+						},
+					},
+				},
+				["Fight3"] = {
+					["DOTs"] = {
+						["Shadow Word: Pain (DoT)"] = {
+							["Details"] = {
+								["Harvest Watcher"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 0,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 15,
+					["HOTs"] = {
+						["Renew"] = {
+							["Details"] = {
+								["Bliess"] = {
+									["count"] = 0,
+								},
+								["Howevertheyc"] = {
+									["count"] = 15,
+								},
+							},
+							["amount"] = 15,
+						},
+					},
+					["ManaGain"] = 0,
+					["ElementTaken"] = {
+					},
+					["DOT_Time"] = 0,
+					["Damage"] = 0,
+					["ElementDoneAbsorb"] = {
+					},
+					["TimeHeal"] = 15.44,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["PartialAbsorb"] = {
+					},
+					["RageGain"] = 0,
+					["FAttacks"] = {
+					},
+					["PartialBlock"] = {
+					},
+					["ElementDone"] = {
+						["Shadow"] = 0,
+						["Holy"] = 0,
+					},
+					["CCBroken"] = {
+					},
+					["ElementHitsDone"] = {
+						["Shadow"] = {
+							["Details"] = {
+								["Tick"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Holy"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["Dispelled"] = 0,
+					["WhoDamaged"] = {
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["FDamagedWho"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+						["Howevertheyc"] = {
+							["Details"] = {
+								["Renew"] = {
+									["count"] = 15.44,
+								},
+							},
+							["amount"] = 15.44,
+						},
+					},
+					["OverHeals"] = {
+						["Renew"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["RageGained"] = {
+					},
+					["ActiveTime"] = 15.44,
+					["CCBreak"] = 0,
+					["EnergyGain"] = 0,
+					["WhoHealed"] = {
+					},
+					["PartialResist"] = {
+					},
+					["ManaGained"] = {
+					},
+					["ElementTakenAbsorb"] = {
+					},
+					["Interrupts"] = 0,
+					["Overhealing"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["InterruptData"] = {
+					},
+					["WhoDispelled"] = {
+					},
+					["TimeSpent"] = {
+						["Harvest Watcher"] = {
+							["Details"] = {
+								["Shadow Word: Pain (DoT)"] = {
+									["count"] = 0,
+								},
+								["Smite"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Howevertheyc"] = {
+							["Details"] = {
+								["Renew"] = {
+									["count"] = 15.44,
+								},
+							},
+							["amount"] = 15.44,
+						},
+					},
+					["Heals"] = {
+						["Renew"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 9,
+									["min"] = 9,
+									["count"] = 5,
+									["amount"] = 45,
+								},
+							},
+							["count"] = 5,
+							["amount"] = 45,
+						},
+					},
+					["FDamage"] = 0,
+					["EnergyGained"] = {
+					},
+					["HealedWho"] = {
+						["Howevertheyc"] = {
+							["Details"] = {
+								["Renew"] = {
+									["count"] = 45,
+								},
+							},
+							["amount"] = 45,
+						},
+					},
+					["Healing"] = 45,
+					["RunicPowerGained"] = {
+					},
+					["ManaGainedFrom"] = {
+					},
+					["Attacks"] = {
+						["Shadow Word: Pain (DoT)"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Smite"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["HealingTaken"] = 0,
+					["DamagedWho"] = {
+						["Harvest Watcher"] = {
+							["Details"] = {
+								["Shadow Word: Pain (DoT)"] = {
+									["count"] = 0,
+								},
+								["Smite"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["TimeDamage"] = 0,
+					["TimeDamaging"] = {
+						["Harvest Watcher"] = {
+							["Details"] = {
+								["Shadow Word: Pain (DoT)"] = {
+									["count"] = 0,
+								},
+								["Smite"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["RunicPowerGain"] = 0,
+					["ElementTakenBlock"] = {
+					},
+					["DispelledWho"] = {
+					},
+				},
 			},
 			["Owner"] = false,
-			["LastEventIncoming"] = {
-				false, -- [1]
-				false, -- [2]
-				false, -- [3]
-				false, -- [4]
-				false, -- [5]
-				false, -- [6]
-				false, -- [7]
-				false, -- [8]
-				false, -- [9]
-				false, -- [10]
-				false, -- [11]
-				false, -- [12]
-				false, -- [13]
-				false, -- [14]
-				false, -- [15]
-				true, -- [16]
-				true, -- [17]
-				false, -- [18]
-				true, -- [19]
-				true, -- [20]
-				true, -- [21]
-				false, -- [22]
-				false, -- [23]
-				true, -- [24]
-				true, -- [25]
-				true, -- [26]
-				true, -- [27]
-				true, -- [28]
-				true, -- [29]
-				true, -- [30]
-				true, -- [31]
-				true, -- [32]
-				true, -- [33]
-				true, -- [34]
-				true, -- [35]
-				true, -- [36]
-				true, -- [37]
-				true, -- [38]
-				false, -- [39]
-				false, -- [40]
-				false, -- [41]
-				false, -- [42]
-				false, -- [43]
-				false, -- [44]
-				false, -- [45]
-				false, -- [46]
-				false, -- [47]
-				false, -- [48]
-				false, -- [49]
-				false, -- [50]
-			},
+			["LastDamageTaken"] = 21,
 			["NextEventNum"] = 20,
 			["LastEventHealthNum"] = {
 				99.61832061068702, -- [1]
@@ -3073,8 +4524,74 @@ RecountPerCharDB = {
 				"Bliess Renew Howevertheyc Tick +9 (9 overheal)", -- [49]
 				"Bliess Renew Pufarin Tick +9", -- [50]
 			},
+			["LastEventIncoming"] = {
+				false, -- [1]
+				false, -- [2]
+				false, -- [3]
+				false, -- [4]
+				false, -- [5]
+				false, -- [6]
+				false, -- [7]
+				false, -- [8]
+				false, -- [9]
+				false, -- [10]
+				false, -- [11]
+				false, -- [12]
+				false, -- [13]
+				false, -- [14]
+				false, -- [15]
+				true, -- [16]
+				true, -- [17]
+				false, -- [18]
+				true, -- [19]
+				true, -- [20]
+				true, -- [21]
+				false, -- [22]
+				false, -- [23]
+				true, -- [24]
+				true, -- [25]
+				true, -- [26]
+				true, -- [27]
+				true, -- [28]
+				true, -- [29]
+				true, -- [30]
+				true, -- [31]
+				true, -- [32]
+				true, -- [33]
+				true, -- [34]
+				true, -- [35]
+				true, -- [36]
+				true, -- [37]
+				true, -- [38]
+				false, -- [39]
+				false, -- [40]
+				false, -- [41]
+				false, -- [42]
+				false, -- [43]
+				false, -- [44]
+				false, -- [45]
+				false, -- [46]
+				false, -- [47]
+				false, -- [48]
+				false, -- [49]
+				false, -- [50]
+			},
+			["type"] = "Ungrouped",
 			["Name"] = "Bliess",
-			["type"] = "Grouped",
+			["TimeLast"] = {
+				["TimeHeal"] = 1634929609,
+				["OVERALL"] = 1634929609,
+				["DamageTaken"] = 1634929406,
+				["HOT_Time"] = 1634929609,
+				["ActiveTime"] = 1634929609,
+				["HealingTaken"] = 1634929188,
+				["Overhealing"] = 1634929487,
+				["TimeDamage"] = 1634929365,
+				["Healing"] = 1634929609,
+				["ManaGain"] = 1634929155,
+				["DOT_Time"] = 1634929352,
+				["Damage"] = 1634929365,
+			},
 			["LastEventTimes"] = {
 				5524.246, -- [1]
 				5524.566, -- [2]
@@ -3127,1524 +4644,7 @@ RecountPerCharDB = {
 				5521.287, -- [49]
 				5521.538000000001, -- [50]
 			},
-			["Fights"] = {
-				["CurrentFightData"] = {
-					["DOTs"] = {
-					},
-					["ElementDoneResist"] = {
-					},
-					["Ressed"] = 0,
-					["DamageTaken"] = 0,
-					["RageGainedFrom"] = {
-					},
-					["ElementHitsTaken"] = {
-					},
-					["DeathCount"] = 0,
-					["HOT_Time"] = 0,
-					["ElementHitsDone"] = {
-						["Holy"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["ElementTakenAbsorb"] = {
-					},
-					["ElementTaken"] = {
-					},
-					["DOT_Time"] = 0,
-					["Damage"] = 0,
-					["ElementTakenBlock"] = {
-					},
-					["TimeHeal"] = 0,
-					["RessedWho"] = {
-					},
-					["Dispels"] = 0,
-					["ElementTakenResist"] = {
-					},
-					["ElementDoneAbsorb"] = {
-					},
-					["FAttacks"] = {
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementDone"] = {
-						["Holy"] = 0,
-					},
-					["PartialAbsorb"] = {
-					},
-					["DamagedWho"] = {
-						["Young Fleshripper"] = {
-							["Details"] = {
-								["Smite"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Harvest Watcher"] = {
-							["Details"] = {
-								["Smite"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["PartialBlock"] = {
-					},
-					["WhoDamaged"] = {
-					},
-					["EnergyGainedFrom"] = {
-					},
-					["PartialResist"] = {
-					},
-					["CCBroken"] = {
-					},
-					["ElementDoneBlock"] = {
-					},
-					["TimeHealing"] = {
-						["Howevertheyc"] = {
-							["Details"] = {
-								["Renew"] = {
-									["count"] = 0,
-								},
-								["Lesser Heal"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Pufarin"] = {
-							["Details"] = {
-								["Renew"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["OverHeals"] = {
-						["Renew"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Lesser Heal"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["ManaGainedFrom"] = {
-						["Pufarin"] = {
-							["Details"] = {
-								["Judgement of Wisdom"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["RunicPowerGained"] = {
-					},
-					["CCBreak"] = 0,
-					["RageGained"] = {
-					},
-					["HealedWho"] = {
-						["Howevertheyc"] = {
-							["Details"] = {
-								["Renew"] = {
-									["count"] = 0,
-								},
-								["Lesser Heal"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Pufarin"] = {
-							["Details"] = {
-								["Renew"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["EnergyGain"] = 0,
-					["ManaGained"] = {
-						["Judgement of Wisdom"] = {
-							["Details"] = {
-								["Pufarin"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
-					["Overhealing"] = 0,
-					["TimeSpent"] = {
-						["Young Fleshripper"] = {
-							["Details"] = {
-								["Smite"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Howevertheyc"] = {
-							["Details"] = {
-								["Renew"] = {
-									["count"] = 0,
-								},
-								["Lesser Heal"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Harvest Watcher"] = {
-							["Details"] = {
-								["Smite"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Pufarin"] = {
-							["Details"] = {
-								["Renew"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["WhoDispelled"] = {
-					},
-					["InterruptData"] = {
-					},
-					["RunicPowerGain"] = 0,
-					["Heals"] = {
-						["Renew"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Lesser Heal"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["WhoHealed"] = {
-					},
-					["EnergyGained"] = {
-					},
-					["ActiveTime"] = 0,
-					["Healing"] = 0,
-					["FDamagedWho"] = {
-					},
-					["Dispelled"] = 0,
-					["Attacks"] = {
-						["Smite"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["HealingTaken"] = 0,
-					["RageGain"] = 0,
-					["TimeDamage"] = 0,
-					["TimeDamaging"] = {
-						["Young Fleshripper"] = {
-							["Details"] = {
-								["Smite"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Harvest Watcher"] = {
-							["Details"] = {
-								["Smite"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["ManaGain"] = 0,
-					["HOTs"] = {
-						["Renew"] = {
-							["Details"] = {
-								["Howevertheyc"] = {
-									["count"] = 0,
-								},
-								["Pufarin"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["DispelledWho"] = {
-					},
-				},
-				["Fight4"] = {
-					["DOTs"] = {
-						["Shadow Word: Pain (DoT)"] = {
-							["Details"] = {
-								["Rusty Harvest Golem"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["ElementDoneResist"] = {
-					},
-					["Ressed"] = 0,
-					["DamageTaken"] = 0,
-					["RageGainedFrom"] = {
-					},
-					["ElementHitsTaken"] = {
-						["Melee"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["DeathCount"] = 0,
-					["HOT_Time"] = 15,
-					["ElementHitsDone"] = {
-						["Shadow"] = {
-							["Details"] = {
-								["Tick"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["ElementTakenAbsorb"] = {
-					},
-					["ElementTaken"] = {
-						["Melee"] = 0,
-					},
-					["DOT_Time"] = 0,
-					["Damage"] = 0,
-					["ElementTakenBlock"] = {
-					},
-					["TimeHeal"] = 15.57,
-					["RessedWho"] = {
-					},
-					["Dispels"] = 0,
-					["ElementTakenResist"] = {
-					},
-					["ElementDoneAbsorb"] = {
-					},
-					["FAttacks"] = {
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementDone"] = {
-						["Shadow"] = 0,
-					},
-					["PartialAbsorb"] = {
-						["Melee"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["DamagedWho"] = {
-						["Rusty Harvest Golem"] = {
-							["Details"] = {
-								["Shadow Word: Pain (DoT)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["PartialBlock"] = {
-					},
-					["WhoDamaged"] = {
-						["Rusty Harvest Golem"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["EnergyGainedFrom"] = {
-					},
-					["PartialResist"] = {
-						["Melee"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["CCBroken"] = {
-					},
-					["ElementDoneBlock"] = {
-					},
-					["TimeHealing"] = {
-						["Adamsandler"] = {
-							["Details"] = {
-								["Renew"] = {
-									["count"] = 15.57,
-								},
-							},
-							["amount"] = 15.57,
-						},
-					},
-					["OverHeals"] = {
-					},
-					["ManaGainedFrom"] = {
-					},
-					["RunicPowerGained"] = {
-					},
-					["CCBreak"] = 0,
-					["RageGained"] = {
-					},
-					["HealedWho"] = {
-						["Adamsandler"] = {
-							["Details"] = {
-								["Renew"] = {
-									["count"] = 45,
-								},
-							},
-							["amount"] = 45,
-						},
-					},
-					["EnergyGain"] = 0,
-					["ManaGained"] = {
-					},
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
-					["Overhealing"] = 0,
-					["TimeSpent"] = {
-						["Rusty Harvest Golem"] = {
-							["Details"] = {
-								["Shadow Word: Pain (DoT)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Adamsandler"] = {
-							["Details"] = {
-								["Renew"] = {
-									["count"] = 15.57,
-								},
-							},
-							["amount"] = 15.57,
-						},
-					},
-					["WhoDispelled"] = {
-					},
-					["InterruptData"] = {
-					},
-					["RunicPowerGain"] = 0,
-					["Heals"] = {
-						["Renew"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 9,
-									["min"] = 9,
-									["count"] = 5,
-									["amount"] = 45,
-								},
-							},
-							["count"] = 5,
-							["amount"] = 45,
-						},
-					},
-					["WhoHealed"] = {
-					},
-					["EnergyGained"] = {
-					},
-					["ActiveTime"] = 15.57,
-					["Healing"] = 45,
-					["FDamagedWho"] = {
-					},
-					["Dispelled"] = 0,
-					["Attacks"] = {
-						["Shadow Word: Pain (DoT)"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["HealingTaken"] = 0,
-					["RageGain"] = 0,
-					["TimeDamage"] = 0,
-					["TimeDamaging"] = {
-						["Rusty Harvest Golem"] = {
-							["Details"] = {
-								["Shadow Word: Pain (DoT)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["ManaGain"] = 0,
-					["HOTs"] = {
-						["Renew"] = {
-							["Details"] = {
-								["Adamsandler"] = {
-									["count"] = 15,
-								},
-							},
-							["amount"] = 15,
-						},
-					},
-					["DispelledWho"] = {
-					},
-				},
-				["LastFightData"] = {
-					["DOTs"] = {
-					},
-					["ElementDoneResist"] = {
-					},
-					["Ressed"] = 0,
-					["DamageTaken"] = 0,
-					["RageGainedFrom"] = {
-					},
-					["ElementHitsTaken"] = {
-					},
-					["DeathCount"] = 0,
-					["HOT_Time"] = 0,
-					["ElementHitsDone"] = {
-					},
-					["ElementTakenAbsorb"] = {
-					},
-					["ElementTaken"] = {
-					},
-					["DOT_Time"] = 0,
-					["Damage"] = 0,
-					["ElementTakenBlock"] = {
-					},
-					["TimeHeal"] = 0,
-					["RessedWho"] = {
-					},
-					["Dispels"] = 0,
-					["ElementTakenResist"] = {
-					},
-					["ElementDoneAbsorb"] = {
-					},
-					["FAttacks"] = {
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementDone"] = {
-					},
-					["PartialAbsorb"] = {
-					},
-					["DamagedWho"] = {
-					},
-					["PartialBlock"] = {
-					},
-					["WhoDamaged"] = {
-					},
-					["EnergyGainedFrom"] = {
-					},
-					["PartialResist"] = {
-					},
-					["CCBroken"] = {
-					},
-					["ElementDoneBlock"] = {
-					},
-					["TimeHealing"] = {
-					},
-					["OverHeals"] = {
-					},
-					["ManaGainedFrom"] = {
-					},
-					["RunicPowerGained"] = {
-					},
-					["CCBreak"] = 0,
-					["RageGained"] = {
-					},
-					["HealedWho"] = {
-					},
-					["EnergyGain"] = 0,
-					["ManaGained"] = {
-					},
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
-					["Overhealing"] = 0,
-					["TimeSpent"] = {
-					},
-					["WhoDispelled"] = {
-					},
-					["InterruptData"] = {
-					},
-					["RunicPowerGain"] = 0,
-					["Heals"] = {
-					},
-					["WhoHealed"] = {
-					},
-					["EnergyGained"] = {
-					},
-					["ActiveTime"] = 0,
-					["Healing"] = 0,
-					["FDamagedWho"] = {
-					},
-					["Dispelled"] = 0,
-					["Attacks"] = {
-					},
-					["HealingTaken"] = 0,
-					["RageGain"] = 0,
-					["TimeDamage"] = 0,
-					["TimeDamaging"] = {
-					},
-					["ManaGain"] = 0,
-					["HOTs"] = {
-					},
-					["DispelledWho"] = {
-					},
-				},
-				["Fight3"] = {
-					["DOTs"] = {
-						["Shadow Word: Pain (DoT)"] = {
-							["Details"] = {
-								["Harvest Watcher"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["ElementDoneResist"] = {
-					},
-					["Ressed"] = 0,
-					["DamageTaken"] = 0,
-					["RageGainedFrom"] = {
-					},
-					["ElementHitsTaken"] = {
-					},
-					["DeathCount"] = 0,
-					["HOT_Time"] = 15,
-					["ElementHitsDone"] = {
-						["Holy"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Shadow"] = {
-							["Details"] = {
-								["Tick"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["ElementTakenAbsorb"] = {
-					},
-					["ElementTaken"] = {
-					},
-					["DOT_Time"] = 0,
-					["Damage"] = 0,
-					["ElementTakenBlock"] = {
-					},
-					["TimeHeal"] = 15.44,
-					["RessedWho"] = {
-					},
-					["Dispels"] = 0,
-					["ElementTakenResist"] = {
-					},
-					["ElementDoneAbsorb"] = {
-					},
-					["FAttacks"] = {
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementDone"] = {
-						["Holy"] = 0,
-						["Shadow"] = 0,
-					},
-					["PartialAbsorb"] = {
-					},
-					["DamagedWho"] = {
-						["Harvest Watcher"] = {
-							["Details"] = {
-								["Shadow Word: Pain (DoT)"] = {
-									["count"] = 0,
-								},
-								["Smite"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["PartialBlock"] = {
-					},
-					["WhoDamaged"] = {
-					},
-					["EnergyGainedFrom"] = {
-					},
-					["PartialResist"] = {
-					},
-					["CCBroken"] = {
-					},
-					["ElementDoneBlock"] = {
-					},
-					["TimeHealing"] = {
-						["Howevertheyc"] = {
-							["Details"] = {
-								["Renew"] = {
-									["count"] = 15.44,
-								},
-							},
-							["amount"] = 15.44,
-						},
-					},
-					["OverHeals"] = {
-						["Renew"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["ManaGainedFrom"] = {
-					},
-					["RunicPowerGained"] = {
-					},
-					["CCBreak"] = 0,
-					["RageGained"] = {
-					},
-					["HealedWho"] = {
-						["Howevertheyc"] = {
-							["Details"] = {
-								["Renew"] = {
-									["count"] = 45,
-								},
-							},
-							["amount"] = 45,
-						},
-					},
-					["EnergyGain"] = 0,
-					["ManaGained"] = {
-					},
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
-					["Overhealing"] = 0,
-					["TimeSpent"] = {
-						["Harvest Watcher"] = {
-							["Details"] = {
-								["Shadow Word: Pain (DoT)"] = {
-									["count"] = 0,
-								},
-								["Smite"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Howevertheyc"] = {
-							["Details"] = {
-								["Renew"] = {
-									["count"] = 15.44,
-								},
-							},
-							["amount"] = 15.44,
-						},
-					},
-					["WhoDispelled"] = {
-					},
-					["InterruptData"] = {
-					},
-					["RunicPowerGain"] = 0,
-					["Heals"] = {
-						["Renew"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 9,
-									["min"] = 9,
-									["count"] = 5,
-									["amount"] = 45,
-								},
-							},
-							["count"] = 5,
-							["amount"] = 45,
-						},
-					},
-					["WhoHealed"] = {
-					},
-					["EnergyGained"] = {
-					},
-					["ActiveTime"] = 15.44,
-					["Healing"] = 45,
-					["FDamagedWho"] = {
-					},
-					["Dispelled"] = 0,
-					["Attacks"] = {
-						["Shadow Word: Pain (DoT)"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Smite"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["HealingTaken"] = 0,
-					["RageGain"] = 0,
-					["TimeDamage"] = 0,
-					["TimeDamaging"] = {
-						["Harvest Watcher"] = {
-							["Details"] = {
-								["Shadow Word: Pain (DoT)"] = {
-									["count"] = 0,
-								},
-								["Smite"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["ManaGain"] = 0,
-					["HOTs"] = {
-						["Renew"] = {
-							["Details"] = {
-								["Bliess"] = {
-									["count"] = 0,
-								},
-								["Howevertheyc"] = {
-									["count"] = 15,
-								},
-							},
-							["amount"] = 15,
-						},
-					},
-					["DispelledWho"] = {
-					},
-				},
-				["OverallData"] = {
-					["ManaGainedFrom"] = {
-						["Pufarin"] = {
-							["Details"] = {
-								["Judgement of Wisdom"] = {
-									["count"] = 10,
-								},
-							},
-							["amount"] = 10,
-						},
-					},
-					["TimeHealing"] = {
-						["Howevertheyc"] = {
-							["Details"] = {
-								["Renew"] = {
-									["count"] = 30.24,
-								},
-								["Lesser Heal"] = {
-									["count"] = 0.79,
-								},
-							},
-							["amount"] = 31.03,
-						},
-						["Adamsandler"] = {
-							["Details"] = {
-								["Renew"] = {
-									["count"] = 15.57,
-								},
-							},
-							["amount"] = 15.57,
-						},
-						["Pufarin"] = {
-							["Details"] = {
-								["Renew"] = {
-									["count"] = 12.48,
-								},
-							},
-							["amount"] = 12.48,
-						},
-						["Wojtektypalo"] = {
-							["Details"] = {
-								["Renew"] = {
-									["count"] = 5.7,
-								},
-							},
-							["amount"] = 5.7,
-						},
-						["Paydelroy"] = {
-							["Details"] = {
-								["Renew"] = {
-									["count"] = 9.48,
-								},
-							},
-							["amount"] = 9.48,
-						},
-						["Bliess"] = {
-							["Details"] = {
-								["Renew"] = {
-									["count"] = 11.09,
-								},
-							},
-							["amount"] = 11.09,
-						},
-					},
-					["DOTs"] = {
-						["Shadow Word: Pain (DoT)"] = {
-							["Details"] = {
-								["Rusty Harvest Golem"] = {
-									["count"] = 3,
-								},
-								["Harvest Watcher"] = {
-									["count"] = 27,
-								},
-								["Kobold Tunneler"] = {
-									["count"] = 78,
-								},
-							},
-							["amount"] = 108,
-						},
-					},
-					["Overhealing"] = 232,
-					["ElementDone"] = {
-						["Shadow"] = 396,
-						["Melee"] = 5,
-						["Holy"] = 658,
-					},
-					["ElementHitsTaken"] = {
-						["Melee"] = {
-							["Details"] = {
-								["Absorb"] = {
-									["count"] = 12,
-								},
-								["Hit"] = {
-									["count"] = 50,
-								},
-								["Miss"] = {
-									["count"] = 5,
-								},
-								["Dodge"] = {
-									["count"] = 2,
-								},
-								["Crit"] = {
-									["count"] = 4,
-								},
-								["Parry"] = {
-									["count"] = 1,
-								},
-							},
-							["amount"] = 74,
-						},
-					},
-					["DamageTaken"] = 558,
-					["OverHeals"] = {
-						["Renew"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 9,
-									["min"] = 9,
-									["count"] = 15,
-									["amount"] = 135,
-								},
-							},
-							["count"] = 15,
-							["amount"] = 135,
-						},
-						["Lesser Heal"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 97,
-									["min"] = 97,
-									["count"] = 1,
-									["amount"] = 97,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 97,
-						},
-					},
-					["PartialResist"] = {
-						["Melee"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 74,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 74,
-							["amount"] = 0,
-						},
-					},
-					["ManaGained"] = {
-						["Judgement of Wisdom"] = {
-							["Details"] = {
-								["Pufarin"] = {
-									["count"] = 10,
-								},
-							},
-							["amount"] = 10,
-						},
-					},
-					["PartialAbsorb"] = {
-						["Melee"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 59,
-									["amount"] = 0,
-								},
-								["Absorbed"] = {
-									["max"] = 21,
-									["min"] = 5,
-									["count"] = 15,
-									["amount"] = 144,
-								},
-							},
-							["count"] = 74,
-							["amount"] = 144,
-						},
-					},
-					["ActiveTime"] = 186.88,
-					["WhoHealed"] = {
-						["Bliess"] = {
-							["Details"] = {
-								["Renew"] = {
-									["count"] = 81,
-								},
-							},
-							["amount"] = 81,
-						},
-						["Pufarin"] = {
-							["Details"] = {
-								["Holy Light"] = {
-									["count"] = 112,
-								},
-							},
-							["amount"] = 112,
-						},
-					},
-					["ElementTaken"] = {
-						["Melee"] = 558,
-					},
-					["DOT_Time"] = 108,
-					["Damage"] = 1059,
-					["ElementHitsDone"] = {
-						["Shadow"] = {
-							["Details"] = {
-								["Tick"] = {
-									["count"] = 36,
-								},
-							},
-							["amount"] = 36,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 1,
-								},
-							},
-							["amount"] = 1,
-						},
-						["Holy"] = {
-							["Details"] = {
-								["Evade"] = {
-									["count"] = 1,
-								},
-								["Hit"] = {
-									["count"] = 21,
-								},
-							},
-							["amount"] = 22,
-						},
-					},
-					["TimeHeal"] = 85.35000000000001,
-					["HealedWho"] = {
-						["Howevertheyc"] = {
-							["Details"] = {
-								["Renew"] = {
-									["count"] = 90,
-								},
-								["Lesser Heal"] = {
-									["count"] = 52,
-								},
-							},
-							["amount"] = 142,
-						},
-						["Adamsandler"] = {
-							["Details"] = {
-								["Renew"] = {
-									["count"] = 45,
-								},
-							},
-							["amount"] = 45,
-						},
-						["Pufarin"] = {
-							["Details"] = {
-								["Renew"] = {
-									["count"] = 36,
-								},
-							},
-							["amount"] = 36,
-						},
-						["Wojtektypalo"] = {
-							["Details"] = {
-								["Renew"] = {
-									["count"] = 18,
-								},
-							},
-							["amount"] = 18,
-						},
-						["Paydelroy"] = {
-							["Details"] = {
-								["Renew"] = {
-									["count"] = 27,
-								},
-							},
-							["amount"] = 27,
-						},
-						["Bliess"] = {
-							["Details"] = {
-								["Renew"] = {
-									["count"] = 81,
-								},
-							},
-							["amount"] = 81,
-						},
-					},
-					["Heals"] = {
-						["Renew"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 9,
-									["min"] = 9,
-									["count"] = 33,
-									["amount"] = 297,
-								},
-							},
-							["count"] = 33,
-							["amount"] = 297,
-						},
-						["Lesser Heal"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 52,
-									["min"] = 52,
-									["count"] = 1,
-									["amount"] = 52,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 52,
-						},
-					},
-					["HOTs"] = {
-						["Renew"] = {
-							["Details"] = {
-								["Bliess"] = {
-									["count"] = 45,
-								},
-								["Adamsandler"] = {
-									["count"] = 15,
-								},
-								["Pufarin"] = {
-									["count"] = 18,
-								},
-								["Wojtektypalo"] = {
-									["count"] = 6,
-								},
-								["Paydelroy"] = {
-									["count"] = 15,
-								},
-								["Howevertheyc"] = {
-									["count"] = 45,
-								},
-							},
-							["amount"] = 144,
-						},
-					},
-					["Healing"] = 349,
-					["HOT_Time"] = 144,
-					["ElementTakenAbsorb"] = {
-						["Melee"] = 144,
-					},
-					["Attacks"] = {
-						["Shadow Word: Pain (DoT)"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 11,
-									["min"] = 11,
-									["count"] = 36,
-									["amount"] = 396,
-								},
-							},
-							["count"] = 36,
-							["amount"] = 396,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 5,
-									["min"] = 5,
-									["count"] = 1,
-									["amount"] = 5,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 5,
-						},
-						["Smite"] = {
-							["Details"] = {
-								["Evade"] = {
-									["count"] = 1,
-									["amount"] = 0,
-								},
-								["Hit"] = {
-									["max"] = 34,
-									["min"] = 28,
-									["count"] = 21,
-									["amount"] = 658,
-								},
-							},
-							["count"] = 22,
-							["amount"] = 658,
-						},
-					},
-					["HealingTaken"] = 193,
-					["DamagedWho"] = {
-						["Young Fleshripper"] = {
-							["Details"] = {
-								["Smite"] = {
-									["count"] = 60,
-								},
-							},
-							["amount"] = 60,
-						},
-						["Rusty Harvest Golem"] = {
-							["Details"] = {
-								["Shadow Word: Pain (DoT)"] = {
-									["count"] = 11,
-								},
-							},
-							["amount"] = 11,
-						},
-						["Harvest Watcher"] = {
-							["Details"] = {
-								["Shadow Word: Pain (DoT)"] = {
-									["count"] = 99,
-								},
-								["Smite"] = {
-									["count"] = 439,
-								},
-							},
-							["amount"] = 538,
-						},
-						["Kobold Tunneler"] = {
-							["Details"] = {
-								["Shadow Word: Pain (DoT)"] = {
-									["count"] = 286,
-								},
-								["Melee"] = {
-									["count"] = 5,
-								},
-								["Smite"] = {
-									["count"] = 159,
-								},
-							},
-							["amount"] = 450,
-						},
-					},
-					["TimeDamage"] = 101.53,
-					["WhoDamaged"] = {
-						["Mangy Wolf"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 5,
-								},
-							},
-							["amount"] = 5,
-						},
-						["Rusty Harvest Golem"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 18,
-								},
-							},
-							["amount"] = 18,
-						},
-						["Harvest Watcher"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 350,
-								},
-							},
-							["amount"] = 350,
-						},
-						["Kobold Tunneler"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 185,
-								},
-							},
-							["amount"] = 185,
-						},
-					},
-					["ManaGain"] = 10,
-					["TimeSpent"] = {
-						["Rusty Harvest Golem"] = {
-							["Details"] = {
-								["Shadow Word: Pain (DoT)"] = {
-									["count"] = 3.5,
-								},
-							},
-							["amount"] = 3.5,
-						},
-						["Adamsandler"] = {
-							["Details"] = {
-								["Renew"] = {
-									["count"] = 15.57,
-								},
-							},
-							["amount"] = 15.57,
-						},
-						["Kobold Tunneler"] = {
-							["Details"] = {
-								["Shadow Word: Pain (DoT)"] = {
-									["count"] = 27.88,
-								},
-								["Melee"] = {
-									["count"] = 0.9300000000000001,
-								},
-								["Smite"] = {
-									["count"] = 15.2,
-								},
-							},
-							["amount"] = 44.01000000000001,
-						},
-						["Harvest Watcher"] = {
-							["Details"] = {
-								["Shadow Word: Pain (DoT)"] = {
-									["count"] = 18.48,
-								},
-								["Smite"] = {
-									["count"] = 29.28,
-								},
-							},
-							["amount"] = 47.76000000000001,
-						},
-						["Young Fleshripper"] = {
-							["Details"] = {
-								["Smite"] = {
-									["count"] = 5.529999999999999,
-								},
-							},
-							["amount"] = 5.529999999999999,
-						},
-						["Bliess"] = {
-							["Details"] = {
-								["Renew"] = {
-									["count"] = 11.09,
-								},
-							},
-							["amount"] = 11.09,
-						},
-						["Pufarin"] = {
-							["Details"] = {
-								["Renew"] = {
-									["count"] = 12.48,
-								},
-							},
-							["amount"] = 12.48,
-						},
-						["Wojtektypalo"] = {
-							["Details"] = {
-								["Renew"] = {
-									["count"] = 5.7,
-								},
-							},
-							["amount"] = 5.7,
-						},
-						["Riverpaw Runt"] = {
-							["Details"] = {
-								["Smite"] = {
-									["count"] = 0.73,
-								},
-							},
-							["amount"] = 0.73,
-						},
-						["Paydelroy"] = {
-							["Details"] = {
-								["Renew"] = {
-									["count"] = 9.48,
-								},
-							},
-							["amount"] = 9.48,
-						},
-						["Howevertheyc"] = {
-							["Details"] = {
-								["Renew"] = {
-									["count"] = 30.24,
-								},
-								["Lesser Heal"] = {
-									["count"] = 0.79,
-								},
-							},
-							["amount"] = 31.03,
-						},
-					},
-					["TimeDamaging"] = {
-						["Young Fleshripper"] = {
-							["Details"] = {
-								["Smite"] = {
-									["count"] = 5.529999999999999,
-								},
-							},
-							["amount"] = 5.529999999999999,
-						},
-						["Kobold Tunneler"] = {
-							["Details"] = {
-								["Shadow Word: Pain (DoT)"] = {
-									["count"] = 27.88,
-								},
-								["Melee"] = {
-									["count"] = 0.9300000000000001,
-								},
-								["Smite"] = {
-									["count"] = 15.2,
-								},
-							},
-							["amount"] = 44.01000000000001,
-						},
-						["Riverpaw Runt"] = {
-							["Details"] = {
-								["Smite"] = {
-									["count"] = 0.73,
-								},
-							},
-							["amount"] = 0.73,
-						},
-						["Harvest Watcher"] = {
-							["Details"] = {
-								["Shadow Word: Pain (DoT)"] = {
-									["count"] = 18.48,
-								},
-								["Smite"] = {
-									["count"] = 29.28,
-								},
-							},
-							["amount"] = 47.76000000000001,
-						},
-						["Rusty Harvest Golem"] = {
-							["Details"] = {
-								["Shadow Word: Pain (DoT)"] = {
-									["count"] = 3.5,
-								},
-							},
-							["amount"] = 3.5,
-						},
-					},
-				},
-			},
-			["UnitLockout"] = 1634927725,
-			["LastActive"] = 1634929717,
+			["LastAbility"] = 230.048,
 		},
 		["Adamsandler"] = {
 			["GUID"] = "0x07000000007338BB",
@@ -4652,21 +4652,12 @@ RecountPerCharDB = {
 			["FightsSaved"] = 5,
 			["Owner"] = false,
 			["enClass"] = "UNGROUPED",
+			["LastAbility"] = 230.048,
 			["Name"] = "Adamsandler",
-			["LastActive"] = 1634929470,
+			["LastFightIn"] = 47,
+			["UnitLockout"] = 1634929470,
+			["level"] = 1,
 			["Fights"] = {
-				["CurrentFightData"] = {
-					["ManaGainedFrom"] = {
-						["Pufarin"] = {
-							["Details"] = {
-								["Judgement of Wisdom"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-				},
 				["LastFightData"] = {
 					["DOTs"] = {
 					},
@@ -4680,43 +4671,40 @@ RecountPerCharDB = {
 					},
 					["DeathCount"] = 0,
 					["HOT_Time"] = 0,
-					["ElementHitsDone"] = {
+					["HOTs"] = {
 					},
-					["ElementTakenAbsorb"] = {
-					},
+					["ManaGain"] = 0,
 					["ElementTaken"] = {
 					},
 					["DOT_Time"] = 0,
 					["Damage"] = 0,
-					["ElementTakenBlock"] = {
+					["ElementDoneAbsorb"] = {
 					},
 					["TimeHeal"] = 0,
 					["RessedWho"] = {
 					},
 					["Dispels"] = 0,
-					["ElementTakenResist"] = {
-					},
-					["ElementDoneAbsorb"] = {
-					},
-					["FAttacks"] = {
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementDone"] = {
-					},
 					["PartialAbsorb"] = {
 					},
-					["DamagedWho"] = {
+					["RageGain"] = 0,
+					["FAttacks"] = {
 					},
 					["PartialBlock"] = {
 					},
+					["ElementDone"] = {
+					},
+					["CCBroken"] = {
+					},
+					["ElementHitsDone"] = {
+					},
+					["Dispelled"] = 0,
 					["WhoDamaged"] = {
 					},
 					["EnergyGainedFrom"] = {
 					},
-					["PartialResist"] = {
+					["FDamagedWho"] = {
 					},
-					["CCBroken"] = {
+					["RunicPowerGainedFrom"] = {
 					},
 					["ElementDoneBlock"] = {
 					},
@@ -4724,50 +4712,65 @@ RecountPerCharDB = {
 					},
 					["OverHeals"] = {
 					},
-					["ManaGainedFrom"] = {
-					},
-					["RunicPowerGained"] = {
-					},
-					["CCBreak"] = 0,
 					["RageGained"] = {
 					},
-					["HealedWho"] = {
-					},
+					["ActiveTime"] = 0,
+					["CCBreak"] = 0,
 					["EnergyGain"] = 0,
+					["WhoHealed"] = {
+					},
+					["PartialResist"] = {
+					},
 					["ManaGained"] = {
 					},
-					["FDamage"] = 0,
+					["ElementTakenAbsorb"] = {
+					},
 					["Interrupts"] = 0,
 					["Overhealing"] = 0,
-					["TimeSpent"] = {
-					},
-					["WhoDispelled"] = {
+					["ElementTakenResist"] = {
 					},
 					["InterruptData"] = {
 					},
-					["RunicPowerGain"] = 0,
+					["WhoDispelled"] = {
+					},
+					["TimeSpent"] = {
+					},
 					["Heals"] = {
 					},
-					["WhoHealed"] = {
-					},
+					["FDamage"] = 0,
 					["EnergyGained"] = {
 					},
-					["ActiveTime"] = 0,
-					["Healing"] = 0,
-					["FDamagedWho"] = {
+					["HealedWho"] = {
 					},
-					["Dispelled"] = 0,
+					["Healing"] = 0,
+					["RunicPowerGained"] = {
+					},
+					["ManaGainedFrom"] = {
+					},
 					["Attacks"] = {
 					},
 					["HealingTaken"] = 0,
-					["RageGain"] = 0,
+					["DamagedWho"] = {
+					},
 					["TimeDamage"] = 0,
 					["TimeDamaging"] = {
 					},
-					["ManaGain"] = 0,
-					["HOTs"] = {
+					["RunicPowerGain"] = 0,
+					["ElementTakenBlock"] = {
 					},
 					["DispelledWho"] = {
+					},
+				},
+				["CurrentFightData"] = {
+					["ManaGainedFrom"] = {
+						["Pufarin"] = {
+							["Details"] = {
+								["Judgement of Wisdom"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
 					},
 				},
 				["OverallData"] = {
@@ -4783,9 +4786,7 @@ RecountPerCharDB = {
 					},
 				},
 			},
-			["level"] = 1,
-			["UnitLockout"] = 1634929470,
-			["LastFightIn"] = 47,
+			["LastActive"] = 1634929470,
 		},
 		["Pufarin"] = {
 			["GUID"] = "0x07000000007339CF",
@@ -4943,4971 +4944,19 @@ RecountPerCharDB = {
 				[21] = 2.616822429906542,
 				[45] = 1.946902654867257,
 				[46] = 1.946902654867257,
-				[8] = 1.803607214428858,
 				[50] = 3.006012024048096,
 				[26] = 2.803738317757009,
-				[6] = 3.006012024048096,
-				[23] = 2.429906542056075,
 				[27] = 2.616822429906542,
+				[23] = 2.429906542056075,
+				[6] = 3.006012024048096,
+				[8] = 1.803607214428858,
 			},
 			["type"] = "Self",
 			["FightsSaved"] = 5,
-			["LastAbility"] = 5850.854,
-			["LastDamageTaken"] = 11,
+			["LastActive"] = 1634929808,
+			["UnitLockout"] = 1634926834,
 			["Owner"] = false,
-			["TimeLast"] = {
-				["TimeHeal"] = 1634929808,
-				["OVERALL"] = 1634929808,
-				["DamageTaken"] = 1634929804,
-				["Healing"] = 1634929808,
-				["HealingTaken"] = 1634929808,
-				["Overhealing"] = 1634929578,
-				["TimeDamage"] = 1634929808,
-				["HOT_Time"] = 1634928511,
-				["ManaGain"] = 1634929806,
-				["ActiveTime"] = 1634929808,
-				["Damage"] = 1634929808,
-			},
-			["NextEventNum"] = 49,
-			["LastEventHealthNum"] = {
-				96.99398797595191, -- [1]
-				96.99398797595191, -- [2]
-				96.99398797595191, -- [3]
-				93.98797595190381, -- [4]
-				93.98797595190381, -- [5]
-				93.98797595190381, -- [6]
-				90.98196392785572, -- [7]
-				92.78557114228457, -- [8]
-				94.58917835671343, -- [9]
-				94.58917835671343, -- [10]
-				97.79559118236473, -- [11]
-				97.79559118236473, -- [12]
-				97.79559118236473, -- [13]
-				97.79559118236473, -- [14]
-				97.79559118236473, -- [15]
-				100, -- [16]
-				100, -- [17]
-				100, -- [18]
-				100, -- [19]
-				100, -- [20]
-				100, -- [21]
-				97.38317757009345, -- [22]
-				97.38317757009345, -- [23]
-				94.95327102803738, -- [24]
-				94.95327102803738, -- [25]
-				94.95327102803738, -- [26]
-				92.14953271028037, -- [27]
-				89.53271028037383, -- [28]
-				89.53271028037383, -- [29]
-				89.53271028037383, -- [30]
-				89.53271028037383, -- [31]
-				86.91588785046729, -- [32]
-				88.78504672897196, -- [33]
-				90.65420560747664, -- [34]
-				90.65420560747664, -- [35]
-				99.29203539823008, -- [36]
-				99.29203539823008, -- [37]
-				99.29203539823008, -- [38]
-				97.34513274336283, -- [39]
-				97.34513274336283, -- [40]
-				97.34513274336283, -- [41]
-				95.39823008849558, -- [42]
-				95.39823008849558, -- [43]
-				95.39823008849558, -- [44]
-				97.34513274336283, -- [45]
-				99.29203539823008, -- [46]
-				99.29203539823008, -- [47]
-				99.29203539823008, -- [48]
-				100, -- [49]
-				100, -- [50]
-			},
-			["LastEvents"] = {
-				"Pufarin Seal of Righteousness Harvest Watcher Hit -12 (2 resisted) (Holy)", -- [1]
-				"Pufarin Melee Harvest Watcher Crit -124 (Physical)", -- [2]
-				"Harvest Watcher Melee Pufarin Hit -15 (Physical)", -- [3]
-				"Pufarin Judgement of Righteousness Harvest Watcher Hit -35 (3 resisted) (Holy)", -- [4]
-				"Pufarin Seal of Righteousness Harvest Watcher Hit -12 (2 resisted) (Holy)", -- [5]
-				"Harvest Watcher Melee Pufarin Hit -15 (Physical)", -- [6]
-				"Pufarin Seal of Righteousness Harvest Watcher Hit -14 (Holy)", -- [7]
-				"Pufarin Swift Hand of Justice Pufarin Hit +9", -- [8]
-				"Pufarin Swift Hand of Justice Pufarin Hit +9", -- [9]
-				"Pufarin Melee Harvest Watcher Hit -75 (Physical)", -- [10]
-				"Pufarin Seal of Righteousness Harvest Watcher Hit -14 (Holy)", -- [11]
-				"Pufarin Melee Harvest Watcher Hit -80 (Physical)", -- [12]
-				"Pufarin Melee Harvest Watcher Dodge", -- [13]
-				"Pufarin Judgement of Righteousness Harvest Watcher Crit -76 (Holy)", -- [14]
-				"Pufarin Seal of Righteousness Harvest Watcher Hit -14 (Holy)", -- [15]
-				"Pufarin Holy Light Bliess Hit +103 (103 overheal)", -- [16]
-				"Pufarin Holy Light Bliess Hit +120 (120 overheal)", -- [17]
-				"Bliess Lesser Heal Pufarin Hit +147 (147 overheal)", -- [18]
-				"Pufarin Judgement of Righteousness Harvest Watcher Hit -40 (Holy)", -- [19]
-				"Pufarin Seal of Righteousness Harvest Watcher Hit -15 (Holy)", -- [20]
-				"Harvest Watcher Melee Pufarin Hit -14 (Physical)", -- [21]
-				"Pufarin Melee Harvest Watcher Dodge", -- [22]
-				"Harvest Watcher Melee Pufarin Hit -13 (Physical)", -- [23]
-				"Pufarin Seal of Righteousness Harvest Watcher Hit -15 (Holy)", -- [24]
-				"Pufarin Melee Harvest Watcher Hit -88 (Physical)", -- [25]
-				"Harvest Watcher Melee Pufarin Hit -15 (Physical)", -- [26]
-				"Harvest Watcher Melee Pufarin Hit -14 (Physical)", -- [27]
-				"Pufarin Seal of Righteousness Harvest Watcher Hit -15 (Holy)", -- [28]
-				"Pufarin Melee Harvest Watcher Hit -73 (Physical)", -- [29]
-				"Harvest Watcher Melee Pufarin Miss", -- [30]
-				"Harvest Watcher Melee Pufarin Hit -14 (Physical)", -- [31]
-				"Pufarin Seal of Righteousness Harvest Watcher Hit -15 (Holy)", -- [32]
-				"Pufarin Swift Hand of Justice Pufarin Hit +10", -- [33]
-				"Pufarin Swift Hand of Justice Pufarin Hit +10", -- [34]
-				"Pufarin Melee Harvest Watcher Hit -94 (Physical)", -- [35]
-				"Pufarin Seal of Righteousness Young Goretusk Hit -15 (Holy)", -- [36]
-				"Pufarin Melee Young Goretusk Hit -90 (Physical)", -- [37]
-				"Young Goretusk Melee Pufarin Hit -11 (Physical)", -- [38]
-				"Pufarin Judgement of Righteousness Young Goretusk Hit -40 (Holy)", -- [39]
-				"Pufarin Seal of Righteousness Young Goretusk Hit -15 (Holy)", -- [40]
-				"Young Goretusk Melee Pufarin Hit -11 (Physical)", -- [41]
-				"Pufarin Seal of Righteousness Young Goretusk Hit -15 (Holy)", -- [42]
-				"Pufarin Melee Young Goretusk Hit -70 (Physical)", -- [43]
-				"Young Goretusk Melee Pufarin Parry", -- [44]
-				"Pufarin Swift Hand of Justice Pufarin Hit +11", -- [45]
-				"Pufarin Swift Hand of Justice Pufarin Hit +11", -- [46]
-				"Pufarin Seal of Righteousness Young Goretusk Hit -15 (Holy)", -- [47]
-				"Pufarin Melee Young Goretusk Hit -96 (Physical)", -- [48]
-				"Pufarin Melee Harvest Watcher Hit -71 (Physical)", -- [49]
-				"Harvest Watcher Melee Pufarin Hit -15 (Physical)", -- [50]
-			},
-			["Name"] = "Pufarin",
-			["LastEventIncoming"] = {
-				false, -- [1]
-				false, -- [2]
-				true, -- [3]
-				false, -- [4]
-				false, -- [5]
-				true, -- [6]
-				false, -- [7]
-				true, -- [8]
-				true, -- [9]
-				false, -- [10]
-				false, -- [11]
-				false, -- [12]
-				false, -- [13]
-				false, -- [14]
-				false, -- [15]
-				false, -- [16]
-				false, -- [17]
-				true, -- [18]
-				false, -- [19]
-				false, -- [20]
-				true, -- [21]
-				false, -- [22]
-				true, -- [23]
-				false, -- [24]
-				false, -- [25]
-				true, -- [26]
-				true, -- [27]
-				false, -- [28]
-				false, -- [29]
-				true, -- [30]
-				true, -- [31]
-				false, -- [32]
-				true, -- [33]
-				true, -- [34]
-				false, -- [35]
-				false, -- [36]
-				false, -- [37]
-				true, -- [38]
-				false, -- [39]
-				false, -- [40]
-				true, -- [41]
-				false, -- [42]
-				false, -- [43]
-				true, -- [44]
-				true, -- [45]
-				true, -- [46]
-				false, -- [47]
-				false, -- [48]
-				false, -- [49]
-				true, -- [50]
-			},
-			["LastEventTimes"] = {
-				5648.293, -- [1]
-				5648.293, -- [2]
-				5648.398, -- [3]
-				5648.696, -- [4]
-				5648.696, -- [5]
-				5650.432, -- [6]
-				5651.648, -- [7]
-				5651.649, -- [8]
-				5651.649, -- [9]
-				5651.650000000001, -- [10]
-				5655.134, -- [11]
-				5655.135, -- [12]
-				5658.496, -- [13]
-				5659.073, -- [14]
-				5659.073, -- [15]
-				5742.258, -- [16]
-				5745.8, -- [17]
-				5748.426, -- [18]
-				5794.677, -- [19]
-				5794.677, -- [20]
-				5794.697, -- [21]
-				5794.78, -- [22]
-				5796.663000000001, -- [23]
-				5798.295, -- [24]
-				5798.296, -- [25]
-				5798.67, -- [26]
-				5800.587, -- [27]
-				5801.782, -- [28]
-				5801.782, -- [29]
-				5802.698, -- [30]
-				5804.657, -- [31]
-				5805.227, -- [32]
-				5805.228, -- [33]
-				5805.228, -- [34]
-				5805.229, -- [35]
-				5845.448, -- [36]
-				5845.448, -- [37]
-				5845.469, -- [38]
-				5846.553, -- [39]
-				5846.553, -- [40]
-				5847.414, -- [41]
-				5848.99, -- [42]
-				5848.991, -- [43]
-				5849.511, -- [44]
-				5850.853, -- [45]
-				5850.853, -- [46]
-				5850.854, -- [47]
-				5850.854, -- [48]
-				5644.855000000001, -- [49]
-				5646.404000000001, -- [50]
-			},
 			["Fights"] = {
-				["Fight5"] = {
-					["ElementDone"] = {
-						["Melee"] = 368,
-						["Holy"] = 184,
-					},
-					["TimeHealing"] = {
-						["Pufarin"] = {
-							["Details"] = {
-								["Swift Hand of Justice"] = {
-									["count"] = 0,
-								},
-								["Judgement of Light"] = {
-									["count"] = 0,
-								},
-								["Holy Strength"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["OverHeals"] = {
-						["Swift Hand of Justice"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 9,
-									["min"] = 0,
-									["count"] = 2,
-									["amount"] = 18,
-								},
-							},
-							["count"] = 2,
-							["amount"] = 18,
-						},
-						["Judgement of Light"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Holy Strength"] = {
-							["Details"] = {
-								["Crit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["ManaGainedFrom"] = {
-						["Pufarin"] = {
-							["Details"] = {
-								["Judgement of Wisdom"] = {
-									["count"] = 10,
-								},
-							},
-							["amount"] = 10,
-						},
-					},
-					["ElementDoneResist"] = {
-						["Holy"] = 0,
-					},
-					["TimeSpent"] = {
-						["Rusty Harvest Golem"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Diseased Young Wolf"] = {
-							["Details"] = {
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Kobold Tunneler"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Hogger"] = {
-							["Details"] = {
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Harvest Watcher"] = {
-							["Details"] = {
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Young Goretusk"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 3.63,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 3.29,
-								},
-							},
-							["amount"] = 6.92,
-						},
-						["Bliess"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Pufarin"] = {
-							["Details"] = {
-								["Swift Hand of Justice"] = {
-									["count"] = 0,
-								},
-								["Judgement of Light"] = {
-									["count"] = 0,
-								},
-								["Holy Strength"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Diseased Timber Wolf"] = {
-							["Details"] = {
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Fleshripper"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 6.890000000000001,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 3.5,
-								},
-							},
-							["amount"] = 10.39,
-						},
-						["Kobold Vermin"] = {
-							["Details"] = {
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["DamageTaken"] = 22,
-					["ElementDoneAbsorb"] = {
-						["Melee"] = 0,
-					},
-					["PartialResist"] = {
-						["Shadow Word: Pain (DoT)"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 5,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 5,
-							["amount"] = 0,
-						},
-						["Smite"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["ManaGained"] = {
-						["Judgement of Wisdom"] = {
-							["Details"] = {
-								["Pufarin"] = {
-									["count"] = 10,
-								},
-							},
-							["amount"] = 10,
-						},
-					},
-					["PartialAbsorb"] = {
-						["Shadow Word: Pain (DoT)"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 3,
-									["amount"] = 0,
-								},
-								["Absorbed"] = {
-									["max"] = 12,
-									["min"] = 0,
-									["count"] = 2,
-									["amount"] = 24,
-								},
-							},
-							["count"] = 5,
-							["amount"] = 24,
-						},
-						["Smite"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["ActiveTime"] = 17.31,
-					["ElementTakenAbsorb"] = {
-						["Melee"] = 24,
-					},
-					["ElementTaken"] = {
-						["Shadow"] = 0,
-						["Melee"] = 22,
-						["Holy"] = 0,
-					},
-					["HOTs"] = {
-						["Judgement of Light"] = {
-							["Details"] = {
-								["Howevertheyc"] = {
-									["count"] = 0,
-								},
-								["Pufarin"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["Damage"] = 552,
-					["HOT_Time"] = 0,
-					["TimeHeal"] = 0,
-					["Overhealing"] = 18,
-					["WhoHealed"] = {
-						["Pufarin"] = {
-							["Details"] = {
-								["Swift Hand of Justice"] = {
-									["count"] = 18,
-								},
-								["Judgement of Light"] = {
-									["count"] = 0,
-								},
-								["Holy Strength"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 18,
-						},
-					},
-					["ElementHitsDone"] = {
-						["Melee"] = {
-							["Details"] = {
-								["Glancing"] = {
-									["count"] = 0,
-								},
-								["Parry"] = {
-									["count"] = 0,
-								},
-								["Crit"] = {
-									["count"] = 0,
-								},
-								["Hit"] = {
-									["count"] = 5,
-								},
-							},
-							["amount"] = 5,
-						},
-						["Holy"] = {
-							["Details"] = {
-								["Crit"] = {
-									["count"] = 0,
-								},
-								["Hit"] = {
-									["count"] = 9,
-								},
-							},
-							["amount"] = 9,
-						},
-					},
-					["Healing"] = 18,
-					["HealedWho"] = {
-						["Pufarin"] = {
-							["Details"] = {
-								["Swift Hand of Justice"] = {
-									["count"] = 18,
-								},
-								["Judgement of Light"] = {
-									["count"] = 0,
-								},
-								["Holy Strength"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 18,
-						},
-					},
-					["Heals"] = {
-						["Swift Hand of Justice"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 9,
-									["min"] = 0,
-									["count"] = 2,
-									["amount"] = 18,
-								},
-							},
-							["count"] = 2,
-							["amount"] = 18,
-						},
-						["Judgement of Light"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Holy Strength"] = {
-							["Details"] = {
-								["Crit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["Attacks"] = {
-						["Seal of Righteousness"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 15,
-									["min"] = 0,
-									["count"] = 7,
-									["amount"] = 104,
-								},
-							},
-							["count"] = 7,
-							["amount"] = 104,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["Glancing"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Parry"] = {
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Crit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Hit"] = {
-									["max"] = 81,
-									["min"] = 0,
-									["count"] = 5,
-									["amount"] = 368,
-								},
-							},
-							["count"] = 5,
-							["amount"] = 368,
-						},
-						["Judgement of Righteousness"] = {
-							["Details"] = {
-								["Crit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Hit"] = {
-									["max"] = 40,
-									["min"] = 0,
-									["count"] = 2,
-									["amount"] = 80,
-								},
-							},
-							["count"] = 2,
-							["amount"] = 80,
-						},
-					},
-					["HealingTaken"] = 18,
-					["DamagedWho"] = {
-						["Rusty Harvest Golem"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Diseased Young Wolf"] = {
-							["Details"] = {
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Kobold Tunneler"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Hogger"] = {
-							["Details"] = {
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Harvest Watcher"] = {
-							["Details"] = {
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Young Goretusk"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 150,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 44,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 40,
-								},
-							},
-							["amount"] = 234,
-						},
-						["Bliess"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Fleshripper"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 218,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 60,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 40,
-								},
-							},
-							["amount"] = 318,
-						},
-						["Diseased Timber Wolf"] = {
-							["Details"] = {
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Kobold Vermin"] = {
-							["Details"] = {
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["TimeDamage"] = 17.31,
-					["WhoDamaged"] = {
-						["Bliess"] = {
-							["Details"] = {
-								["Shadow Word: Pain (DoT)"] = {
-									["count"] = 0,
-								},
-								["Smite"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Young Goretusk"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 22,
-								},
-							},
-							["amount"] = 22,
-						},
-						["Rusty Harvest Golem"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Kobold Tunneler"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Hogger"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Diseased Timber Wolf"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Harvest Watcher"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Kobold Vermin"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["ManaGain"] = 10,
-					["ElementHitsTaken"] = {
-						["Shadow"] = {
-							["Details"] = {
-								["Tick"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["Miss"] = {
-									["count"] = 1,
-								},
-								["Absorb"] = {
-									["count"] = 2,
-								},
-								["Dodge"] = {
-									["count"] = 0,
-								},
-								["Hit"] = {
-									["count"] = 2,
-								},
-							},
-							["amount"] = 5,
-						},
-						["Holy"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["TimeDamaging"] = {
-						["Rusty Harvest Golem"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Diseased Young Wolf"] = {
-							["Details"] = {
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Kobold Tunneler"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Hogger"] = {
-							["Details"] = {
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Harvest Watcher"] = {
-							["Details"] = {
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Young Goretusk"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 3.63,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 3.29,
-								},
-							},
-							["amount"] = 6.92,
-						},
-						["Bliess"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Fleshripper"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 6.890000000000001,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 3.5,
-								},
-							},
-							["amount"] = 10.39,
-						},
-						["Diseased Timber Wolf"] = {
-							["Details"] = {
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Kobold Vermin"] = {
-							["Details"] = {
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-				},
-				["Fight2"] = {
-					["DOTs"] = {
-					},
-					["ElementDoneResist"] = {
-						["Holy"] = 0,
-					},
-					["Ressed"] = 0,
-					["DamageTaken"] = 70,
-					["RageGainedFrom"] = {
-					},
-					["ElementHitsTaken"] = {
-						["Melee"] = {
-							["Details"] = {
-								["Absorb"] = {
-									["count"] = 0,
-								},
-								["Hit"] = {
-									["count"] = 5,
-								},
-								["Miss"] = {
-									["count"] = 1,
-								},
-								["Dodge"] = {
-									["count"] = 0,
-								},
-								["Parry"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 6,
-						},
-						["Physical"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["DeathCount"] = 0,
-					["HOT_Time"] = 0,
-					["ElementHitsDone"] = {
-						["Melee"] = {
-							["Details"] = {
-								["Dodge"] = {
-									["count"] = 1,
-								},
-								["Crit"] = {
-									["count"] = 0,
-								},
-								["Hit"] = {
-									["count"] = 3,
-								},
-							},
-							["amount"] = 4,
-						},
-						["Holy"] = {
-							["Details"] = {
-								["Crit"] = {
-									["count"] = 0,
-								},
-								["Hit"] = {
-									["count"] = 5,
-								},
-							},
-							["amount"] = 5,
-						},
-					},
-					["ElementTakenAbsorb"] = {
-						["Melee"] = 0,
-					},
-					["ElementTaken"] = {
-						["Melee"] = 70,
-						["Physical"] = 0,
-					},
-					["DOT_Time"] = 0,
-					["Damage"] = 355,
-					["ElementTakenBlock"] = {
-					},
-					["TimeHeal"] = 0,
-					["RessedWho"] = {
-					},
-					["Dispels"] = 0,
-					["ElementTakenResist"] = {
-					},
-					["ElementDoneAbsorb"] = {
-					},
-					["FAttacks"] = {
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementDone"] = {
-						["Melee"] = 255,
-						["Holy"] = 100,
-					},
-					["PartialAbsorb"] = {
-						["Melee"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 6,
-									["amount"] = 0,
-								},
-								["Absorbed"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 6,
-							["amount"] = 0,
-						},
-						["Throw"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["DamagedWho"] = {
-						["Defias Smuggler"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Riverpaw Outrunner"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Kobold Tunneler"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Defias Trapper"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Harvest Watcher"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 255,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 60,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 40,
-								},
-							},
-							["amount"] = 355,
-						},
-						["Coyote"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Young Goretusk"] = {
-							["Details"] = {
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["PartialBlock"] = {
-					},
-					["WhoDamaged"] = {
-						["Defias Smuggler"] = {
-							["Details"] = {
-								["Throw"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Riverpaw Outrunner"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Kobold Tunneler"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Defias Trapper"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Harvest Watcher"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 70,
-								},
-							},
-							["amount"] = 70,
-						},
-						["Young Goretusk"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["EnergyGainedFrom"] = {
-					},
-					["PartialResist"] = {
-						["Melee"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 6,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 6,
-							["amount"] = 0,
-						},
-						["Throw"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["CCBroken"] = {
-					},
-					["ElementDoneBlock"] = {
-					},
-					["TimeHealing"] = {
-						["Bliess"] = {
-							["Details"] = {
-								["Holy Light"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Pufarin"] = {
-							["Details"] = {
-								["Judgement of Light"] = {
-									["count"] = 0,
-								},
-								["Swift Hand of Justice"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["OverHeals"] = {
-						["Swift Hand of Justice"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Judgement of Light"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Holy Strength"] = {
-							["Details"] = {
-								["Crit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["ManaGainedFrom"] = {
-						["Pufarin"] = {
-							["Details"] = {
-								["Judgement of Wisdom"] = {
-									["count"] = 10,
-								},
-							},
-							["amount"] = 10,
-						},
-					},
-					["RunicPowerGained"] = {
-					},
-					["CCBreak"] = 0,
-					["RageGained"] = {
-					},
-					["HealedWho"] = {
-						["Bliess"] = {
-							["Details"] = {
-								["Holy Light"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Pufarin"] = {
-							["Details"] = {
-								["Judgement of Light"] = {
-									["count"] = 0,
-								},
-								["Swift Hand of Justice"] = {
-									["count"] = 20,
-								},
-							},
-							["amount"] = 20,
-						},
-					},
-					["EnergyGain"] = 0,
-					["ManaGained"] = {
-						["Judgement of Wisdom"] = {
-							["Details"] = {
-								["Pufarin"] = {
-									["count"] = 10,
-								},
-							},
-							["amount"] = 10,
-						},
-					},
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
-					["Overhealing"] = 0,
-					["TimeSpent"] = {
-						["Defias Smuggler"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Kobold Tunneler"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Coyote"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Young Goretusk"] = {
-							["Details"] = {
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Bliess"] = {
-							["Details"] = {
-								["Holy Light"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Riverpaw Outrunner"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Pufarin"] = {
-							["Details"] = {
-								["Judgement of Light"] = {
-									["count"] = 0,
-								},
-								["Swift Hand of Justice"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Defias Trapper"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Harvest Watcher"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0.1,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 10.43,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 3.5,
-								},
-							},
-							["amount"] = 14.03,
-						},
-					},
-					["WhoDispelled"] = {
-					},
-					["InterruptData"] = {
-					},
-					["RunicPowerGain"] = 0,
-					["Heals"] = {
-						["Holy Light"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Judgement of Light"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Swift Hand of Justice"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 10,
-									["min"] = 0,
-									["count"] = 2,
-									["amount"] = 20,
-								},
-							},
-							["count"] = 2,
-							["amount"] = 20,
-						},
-					},
-					["WhoHealed"] = {
-						["Pufarin"] = {
-							["Details"] = {
-								["Judgement of Light"] = {
-									["count"] = 0,
-								},
-								["Swift Hand of Justice"] = {
-									["count"] = 20,
-								},
-							},
-							["amount"] = 20,
-						},
-					},
-					["EnergyGained"] = {
-					},
-					["ActiveTime"] = 14.03,
-					["Healing"] = 20,
-					["FDamagedWho"] = {
-					},
-					["Dispelled"] = 0,
-					["Attacks"] = {
-						["Melee"] = {
-							["Details"] = {
-								["Dodge"] = {
-									["count"] = 1,
-									["amount"] = 0,
-								},
-								["Crit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Hit"] = {
-									["max"] = 94,
-									["min"] = 0,
-									["count"] = 3,
-									["amount"] = 255,
-								},
-							},
-							["count"] = 4,
-							["amount"] = 255,
-						},
-						["Seal of Righteousness"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 15,
-									["min"] = 0,
-									["count"] = 4,
-									["amount"] = 60,
-								},
-							},
-							["count"] = 4,
-							["amount"] = 60,
-						},
-						["Judgement of Righteousness"] = {
-							["Details"] = {
-								["Crit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Hit"] = {
-									["max"] = 40,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 40,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 40,
-						},
-					},
-					["HealingTaken"] = 20,
-					["RageGain"] = 0,
-					["TimeDamage"] = 14.03,
-					["TimeDamaging"] = {
-						["Defias Smuggler"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Riverpaw Outrunner"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Kobold Tunneler"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Defias Trapper"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Harvest Watcher"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0.1,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 10.43,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 3.5,
-								},
-							},
-							["amount"] = 14.03,
-						},
-						["Coyote"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Young Goretusk"] = {
-							["Details"] = {
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["ManaGain"] = 10,
-					["HOTs"] = {
-						["Judgement of Light"] = {
-							["Details"] = {
-								["Pufarin"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["DispelledWho"] = {
-					},
-				},
-				["CurrentFightData"] = {
-					["DOTs"] = {
-					},
-					["ElementDoneResist"] = {
-						["Holy"] = 0,
-					},
-					["Ressed"] = 0,
-					["DamageTaken"] = 0,
-					["RageGainedFrom"] = {
-					},
-					["ElementHitsTaken"] = {
-						["Melee"] = {
-							["Details"] = {
-								["Absorb"] = {
-									["count"] = 0,
-								},
-								["Dodge"] = {
-									["count"] = 0,
-								},
-								["Hit"] = {
-									["count"] = 0,
-								},
-								["Crit"] = {
-									["count"] = 0,
-								},
-								["Parry"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["DeathCount"] = 0,
-					["HOT_Time"] = 0,
-					["ElementHitsDone"] = {
-						["Melee"] = {
-							["Details"] = {
-								["Glancing"] = {
-									["count"] = 0,
-								},
-								["Crit"] = {
-									["count"] = 0,
-								},
-								["Hit"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Holy"] = {
-							["Details"] = {
-								["Crit"] = {
-									["count"] = 0,
-								},
-								["Hit"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["ElementTakenAbsorb"] = {
-						["Melee"] = 0,
-					},
-					["ElementTaken"] = {
-						["Melee"] = 0,
-					},
-					["DOT_Time"] = 0,
-					["Damage"] = 0,
-					["ElementTakenBlock"] = {
-					},
-					["TimeHeal"] = 0,
-					["RessedWho"] = {
-					},
-					["Dispels"] = 0,
-					["ElementTakenResist"] = {
-					},
-					["ElementDoneAbsorb"] = {
-					},
-					["FAttacks"] = {
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementDone"] = {
-						["Melee"] = 0,
-						["Holy"] = 0,
-					},
-					["PartialAbsorb"] = {
-						["Melee"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Absorbed"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["DamagedWho"] = {
-						["Young Fleshripper"] = {
-							["Details"] = {
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Harvest Watcher"] = {
-							["Details"] = {
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Young Goretusk"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["PartialBlock"] = {
-					},
-					["WhoDamaged"] = {
-						["Harvest Watcher"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Young Goretusk"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["EnergyGainedFrom"] = {
-					},
-					["PartialResist"] = {
-						["Melee"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["CCBroken"] = {
-					},
-					["ElementDoneBlock"] = {
-					},
-					["TimeHealing"] = {
-						["Pufarin"] = {
-							["Details"] = {
-								["Swift Hand of Justice"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["OverHeals"] = {
-						["Swift Hand of Justice"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["ManaGainedFrom"] = {
-						["Pufarin"] = {
-							["Details"] = {
-								["Judgement of Wisdom"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["RunicPowerGained"] = {
-					},
-					["CCBreak"] = 0,
-					["RageGained"] = {
-					},
-					["HealedWho"] = {
-						["Pufarin"] = {
-							["Details"] = {
-								["Swift Hand of Justice"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["EnergyGain"] = 0,
-					["ManaGained"] = {
-						["Judgement of Wisdom"] = {
-							["Details"] = {
-								["Pufarin"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
-					["Overhealing"] = 0,
-					["TimeSpent"] = {
-						["Young Fleshripper"] = {
-							["Details"] = {
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Pufarin"] = {
-							["Details"] = {
-								["Swift Hand of Justice"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Harvest Watcher"] = {
-							["Details"] = {
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Young Goretusk"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["WhoDispelled"] = {
-					},
-					["InterruptData"] = {
-					},
-					["RunicPowerGain"] = 0,
-					["Heals"] = {
-						["Swift Hand of Justice"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["WhoHealed"] = {
-						["Bliess"] = {
-							["Details"] = {
-								["Renew"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Adamsandler"] = {
-							["Details"] = {
-								["Judgement of Light"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Pufarin"] = {
-							["Details"] = {
-								["Swift Hand of Justice"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["EnergyGained"] = {
-					},
-					["ActiveTime"] = 0,
-					["Healing"] = 0,
-					["FDamagedWho"] = {
-					},
-					["Dispelled"] = 0,
-					["Attacks"] = {
-						["Seal of Righteousness"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["Glancing"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Crit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Judgement of Righteousness"] = {
-							["Details"] = {
-								["Crit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["HealingTaken"] = 0,
-					["RageGain"] = 0,
-					["TimeDamage"] = 0,
-					["TimeDamaging"] = {
-						["Young Fleshripper"] = {
-							["Details"] = {
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Harvest Watcher"] = {
-							["Details"] = {
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Young Goretusk"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["ManaGain"] = 0,
-					["HOTs"] = {
-					},
-					["DispelledWho"] = {
-					},
-				},
-				["Fight3"] = {
-					["DOTs"] = {
-					},
-					["ElementDoneResist"] = {
-						["Holy"] = 22,
-					},
-					["Ressed"] = 0,
-					["DamageTaken"] = 106,
-					["RageGainedFrom"] = {
-					},
-					["ElementHitsTaken"] = {
-						["Melee"] = {
-							["Details"] = {
-								["Parry"] = {
-									["count"] = 1,
-								},
-								["Absorb"] = {
-									["count"] = 2,
-								},
-								["Dodge"] = {
-									["count"] = 2,
-								},
-								["Hit"] = {
-									["count"] = 7,
-								},
-							},
-							["amount"] = 12,
-						},
-					},
-					["DeathCount"] = 0,
-					["HOT_Time"] = 0,
-					["ElementHitsDone"] = {
-						["Melee"] = {
-							["Details"] = {
-								["Glancing"] = {
-									["count"] = 1,
-								},
-								["Dodge"] = {
-									["count"] = 1,
-								},
-								["Crit"] = {
-									["count"] = 3,
-								},
-								["Hit"] = {
-									["count"] = 8,
-								},
-							},
-							["amount"] = 13,
-						},
-						["Holy"] = {
-							["Details"] = {
-								["Crit"] = {
-									["count"] = 2,
-								},
-								["Hit"] = {
-									["count"] = 20,
-								},
-							},
-							["amount"] = 22,
-						},
-					},
-					["ElementTakenAbsorb"] = {
-						["Melee"] = 33,
-					},
-					["ElementTaken"] = {
-						["Melee"] = 106,
-					},
-					["DOT_Time"] = 0,
-					["Damage"] = 1566,
-					["ElementTakenBlock"] = {
-					},
-					["TimeHeal"] = 0,
-					["RessedWho"] = {
-					},
-					["Dispels"] = 0,
-					["ElementTakenResist"] = {
-					},
-					["ElementDoneAbsorb"] = {
-					},
-					["FAttacks"] = {
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementDone"] = {
-						["Melee"] = 1084,
-						["Holy"] = 482,
-					},
-					["PartialAbsorb"] = {
-						["Melee"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 9,
-									["amount"] = 0,
-								},
-								["Absorbed"] = {
-									["max"] = 16,
-									["min"] = 0,
-									["count"] = 3,
-									["amount"] = 33,
-								},
-							},
-							["count"] = 12,
-							["amount"] = 33,
-						},
-					},
-					["DamagedWho"] = {
-						["Riverpaw Outrunner"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Kobold Tunneler"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Kobold Miner"] = {
-							["Details"] = {
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Coyote"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Harvest Watcher"] = {
-							["Details"] = {
-								["Seal of Righteousness"] = {
-									["count"] = 222,
-								},
-								["Melee"] = {
-									["count"] = 1084,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 260,
-								},
-							},
-							["amount"] = 1566,
-						},
-					},
-					["PartialBlock"] = {
-					},
-					["WhoDamaged"] = {
-						["Riverpaw Outrunner"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Kobold Tunneler"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Kobold Miner"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Coyote"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Harvest Watcher"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 106,
-								},
-							},
-							["amount"] = 106,
-						},
-					},
-					["EnergyGainedFrom"] = {
-					},
-					["PartialResist"] = {
-						["Melee"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 12,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 12,
-							["amount"] = 0,
-						},
-					},
-					["CCBroken"] = {
-					},
-					["ElementDoneBlock"] = {
-						["Melee"] = 7,
-					},
-					["TimeHealing"] = {
-						["Pufarin"] = {
-							["Details"] = {
-								["Judgement of Light"] = {
-									["count"] = 0,
-								},
-								["Swift Hand of Justice"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["OverHeals"] = {
-						["Swift Hand of Justice"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 4,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 4,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 4,
-						},
-						["Judgement of Light"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Holy Strength"] = {
-							["Details"] = {
-								["Crit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["ManaGainedFrom"] = {
-						["Pufarin"] = {
-							["Details"] = {
-								["Judgement of Wisdom"] = {
-									["count"] = 25,
-								},
-							},
-							["amount"] = 25,
-						},
-					},
-					["RunicPowerGained"] = {
-					},
-					["CCBreak"] = 0,
-					["RageGained"] = {
-					},
-					["HealedWho"] = {
-						["Pufarin"] = {
-							["Details"] = {
-								["Judgement of Light"] = {
-									["count"] = 0,
-								},
-								["Swift Hand of Justice"] = {
-									["count"] = 68,
-								},
-							},
-							["amount"] = 68,
-						},
-					},
-					["EnergyGain"] = 0,
-					["ManaGained"] = {
-						["Judgement of Wisdom"] = {
-							["Details"] = {
-								["Pufarin"] = {
-									["count"] = 25,
-								},
-							},
-							["amount"] = 25,
-						},
-					},
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
-					["Overhealing"] = 4,
-					["TimeSpent"] = {
-						["Riverpaw Outrunner"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Kobold Tunneler"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Kobold Miner"] = {
-							["Details"] = {
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Harvest Watcher"] = {
-							["Details"] = {
-								["Seal of Righteousness"] = {
-									["count"] = 31.21,
-								},
-								["Melee"] = {
-									["count"] = 3.39,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 11.33,
-								},
-							},
-							["amount"] = 45.93,
-						},
-						["Coyote"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Pufarin"] = {
-							["Details"] = {
-								["Judgement of Light"] = {
-									["count"] = 0,
-								},
-								["Swift Hand of Justice"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["WhoDispelled"] = {
-					},
-					["InterruptData"] = {
-					},
-					["RunicPowerGain"] = 0,
-					["Heals"] = {
-						["Judgement of Light"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Swift Hand of Justice"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 9,
-									["min"] = 0,
-									["count"] = 8,
-									["amount"] = 68,
-								},
-							},
-							["count"] = 8,
-							["amount"] = 68,
-						},
-					},
-					["WhoHealed"] = {
-						["Pufarin"] = {
-							["Details"] = {
-								["Judgement of Light"] = {
-									["count"] = 0,
-								},
-								["Swift Hand of Justice"] = {
-									["count"] = 68,
-								},
-							},
-							["amount"] = 68,
-						},
-					},
-					["EnergyGained"] = {
-					},
-					["ActiveTime"] = 45.93,
-					["Healing"] = 68,
-					["FDamagedWho"] = {
-					},
-					["Dispelled"] = 0,
-					["Attacks"] = {
-						["Melee"] = {
-							["Details"] = {
-								["Glancing"] = {
-									["max"] = 54,
-									["min"] = 54,
-									["count"] = 1,
-									["amount"] = 54,
-								},
-								["Hit"] = {
-									["max"] = 84,
-									["min"] = 0,
-									["count"] = 7,
-									["amount"] = 543,
-								},
-								["Hit (Blocked)"] = {
-									["max"] = 75,
-									["min"] = 75,
-									["count"] = 1,
-									["amount"] = 75,
-								},
-								["Crit"] = {
-									["max"] = 154,
-									["min"] = 0,
-									["count"] = 3,
-									["amount"] = 412,
-								},
-								["Dodge"] = {
-									["count"] = 1,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 13,
-							["amount"] = 1084,
-						},
-						["Seal of Righteousness"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 14,
-									["min"] = 0,
-									["count"] = 17,
-									["amount"] = 222,
-								},
-							},
-							["count"] = 17,
-							["amount"] = 222,
-						},
-						["Judgement of Righteousness"] = {
-							["Details"] = {
-								["Crit"] = {
-									["max"] = 76,
-									["min"] = 0,
-									["count"] = 2,
-									["amount"] = 152,
-								},
-								["Hit"] = {
-									["max"] = 38,
-									["min"] = 0,
-									["count"] = 3,
-									["amount"] = 108,
-								},
-							},
-							["count"] = 5,
-							["amount"] = 260,
-						},
-					},
-					["HealingTaken"] = 68,
-					["RageGain"] = 0,
-					["TimeDamage"] = 45.93,
-					["TimeDamaging"] = {
-						["Riverpaw Outrunner"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Kobold Tunneler"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Kobold Miner"] = {
-							["Details"] = {
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Coyote"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Harvest Watcher"] = {
-							["Details"] = {
-								["Seal of Righteousness"] = {
-									["count"] = 31.21,
-								},
-								["Melee"] = {
-									["count"] = 3.39,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 11.33,
-								},
-							},
-							["amount"] = 45.93,
-						},
-					},
-					["ManaGain"] = 25,
-					["HOTs"] = {
-						["Judgement of Light"] = {
-							["Details"] = {
-								["Pufarin"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["DispelledWho"] = {
-					},
-				},
-				["Fight4"] = {
-					["DOTs"] = {
-					},
-					["ElementDoneResist"] = {
-					},
-					["Ressed"] = 0,
-					["DamageTaken"] = 0,
-					["RageGainedFrom"] = {
-					},
-					["ElementHitsTaken"] = {
-						["Melee"] = {
-							["Details"] = {
-								["Dodge"] = {
-									["count"] = 0,
-								},
-								["Absorb"] = {
-									["count"] = 1,
-								},
-								["Parry"] = {
-									["count"] = 1,
-								},
-								["Hit"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 2,
-						},
-						["Nature"] = {
-							["Details"] = {
-								["Miss"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["DeathCount"] = 0,
-					["HOT_Time"] = 0,
-					["ElementHitsDone"] = {
-						["Melee"] = {
-							["Details"] = {
-								["Crit"] = {
-									["count"] = 1,
-								},
-								["Hit"] = {
-									["count"] = 1,
-								},
-							},
-							["amount"] = 2,
-						},
-						["Holy"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 4,
-								},
-							},
-							["amount"] = 4,
-						},
-					},
-					["ElementTakenAbsorb"] = {
-						["Melee"] = 15,
-					},
-					["ElementTaken"] = {
-						["Melee"] = 0,
-					},
-					["DOT_Time"] = 0,
-					["Damage"] = 326,
-					["ElementTakenBlock"] = {
-					},
-					["TimeHeal"] = 0,
-					["RessedWho"] = {
-					},
-					["Dispels"] = 0,
-					["ElementTakenResist"] = {
-					},
-					["ElementDoneAbsorb"] = {
-					},
-					["FAttacks"] = {
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementDone"] = {
-						["Melee"] = 246,
-						["Holy"] = 80,
-					},
-					["PartialAbsorb"] = {
-						["Melee"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 0,
-								},
-								["Absorbed"] = {
-									["max"] = 15,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 15,
-								},
-							},
-							["count"] = 2,
-							["amount"] = 15,
-						},
-						["Tetanus"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["DamagedWho"] = {
-						["Rusty Harvest Golem"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Harvest Watcher"] = {
-							["Details"] = {
-								["Seal of Righteousness"] = {
-									["count"] = 42,
-								},
-								["Melee"] = {
-									["count"] = 246,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 38,
-								},
-							},
-							["amount"] = 326,
-						},
-					},
-					["PartialBlock"] = {
-					},
-					["WhoDamaged"] = {
-						["Rusty Harvest Golem"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["EnergyGainedFrom"] = {
-					},
-					["PartialResist"] = {
-						["Melee"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 2,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 2,
-							["amount"] = 0,
-						},
-						["Tetanus"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["CCBroken"] = {
-					},
-					["ElementDoneBlock"] = {
-					},
-					["TimeHealing"] = {
-						["Pufarin"] = {
-							["Details"] = {
-								["Swift Hand of Justice"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["OverHeals"] = {
-						["Swift Hand of Justice"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 9,
-									["min"] = 0,
-									["count"] = 2,
-									["amount"] = 18,
-								},
-							},
-							["count"] = 2,
-							["amount"] = 18,
-						},
-					},
-					["ManaGainedFrom"] = {
-						["Pufarin"] = {
-							["Details"] = {
-								["Judgement of Wisdom"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["RunicPowerGained"] = {
-					},
-					["CCBreak"] = 0,
-					["RageGained"] = {
-					},
-					["HealedWho"] = {
-						["Pufarin"] = {
-							["Details"] = {
-								["Swift Hand of Justice"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["EnergyGain"] = 0,
-					["ManaGained"] = {
-						["Judgement of Wisdom"] = {
-							["Details"] = {
-								["Pufarin"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
-					["Overhealing"] = 18,
-					["TimeSpent"] = {
-						["Rusty Harvest Golem"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Harvest Watcher"] = {
-							["Details"] = {
-								["Seal of Righteousness"] = {
-									["count"] = 6.810000000000001,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0.1,
-								},
-							},
-							["amount"] = 6.91,
-						},
-						["Pufarin"] = {
-							["Details"] = {
-								["Swift Hand of Justice"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["WhoDispelled"] = {
-					},
-					["InterruptData"] = {
-					},
-					["RunicPowerGain"] = 0,
-					["Heals"] = {
-						["Swift Hand of Justice"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["WhoHealed"] = {
-						["Pufarin"] = {
-							["Details"] = {
-								["Swift Hand of Justice"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["EnergyGained"] = {
-					},
-					["ActiveTime"] = 6.91,
-					["Healing"] = 0,
-					["FDamagedWho"] = {
-					},
-					["Dispelled"] = 0,
-					["Attacks"] = {
-						["Melee"] = {
-							["Details"] = {
-								["Crit"] = {
-									["max"] = 172,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 172,
-								},
-								["Hit"] = {
-									["max"] = 74,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 74,
-								},
-							},
-							["count"] = 2,
-							["amount"] = 246,
-						},
-						["Seal of Righteousness"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 14,
-									["min"] = 0,
-									["count"] = 3,
-									["amount"] = 42,
-								},
-							},
-							["count"] = 3,
-							["amount"] = 42,
-						},
-						["Judgement of Righteousness"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 38,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 38,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 38,
-						},
-					},
-					["HealingTaken"] = 0,
-					["RageGain"] = 0,
-					["TimeDamage"] = 6.91,
-					["TimeDamaging"] = {
-						["Rusty Harvest Golem"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Harvest Watcher"] = {
-							["Details"] = {
-								["Seal of Righteousness"] = {
-									["count"] = 6.810000000000001,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0.1,
-								},
-							},
-							["amount"] = 6.91,
-						},
-					},
-					["ManaGain"] = 0,
-					["HOTs"] = {
-					},
-					["DispelledWho"] = {
-					},
-				},
-				["LastFightData"] = {
-					["DOTs"] = {
-					},
-					["ElementDoneResist"] = {
-						["Holy"] = 0,
-					},
-					["Ressed"] = 0,
-					["DamageTaken"] = 22,
-					["RageGainedFrom"] = {
-					},
-					["ElementHitsTaken"] = {
-						["Melee"] = {
-							["Details"] = {
-								["Absorb"] = {
-									["count"] = 0,
-								},
-								["Hit"] = {
-									["count"] = 2,
-								},
-								["Dodge"] = {
-									["count"] = 0,
-								},
-								["Miss"] = {
-									["count"] = 0,
-								},
-								["Crit"] = {
-									["count"] = 0,
-								},
-								["Parry"] = {
-									["count"] = 1,
-								},
-							},
-							["amount"] = 3,
-						},
-					},
-					["DeathCount"] = 0,
-					["HOT_Time"] = 0,
-					["ElementHitsDone"] = {
-						["Melee"] = {
-							["Details"] = {
-								["Crit"] = {
-									["count"] = 0,
-								},
-								["Hit"] = {
-									["count"] = 3,
-								},
-							},
-							["amount"] = 3,
-						},
-						["Holy"] = {
-							["Details"] = {
-								["Crit"] = {
-									["count"] = 0,
-								},
-								["Hit"] = {
-									["count"] = 5,
-								},
-							},
-							["amount"] = 5,
-						},
-					},
-					["ElementTakenAbsorb"] = {
-						["Melee"] = 0,
-					},
-					["ElementTaken"] = {
-						["Melee"] = 22,
-					},
-					["DOT_Time"] = 0,
-					["Damage"] = 356,
-					["ElementTakenBlock"] = {
-					},
-					["TimeHeal"] = 1.86,
-					["RessedWho"] = {
-					},
-					["Dispels"] = 0,
-					["ElementTakenResist"] = {
-					},
-					["ElementDoneAbsorb"] = {
-					},
-					["FAttacks"] = {
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementDone"] = {
-						["Melee"] = 256,
-						["Holy"] = 100,
-					},
-					["PartialAbsorb"] = {
-						["Melee"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 3,
-									["amount"] = 0,
-								},
-								["Absorbed"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 3,
-							["amount"] = 0,
-						},
-					},
-					["DamagedWho"] = {
-						["Mangy Wolf"] = {
-							["Details"] = {
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Kobold Tunneler"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Riverpaw Outrunner"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Defias Cutpurse"] = {
-							["Details"] = {
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Young Fleshripper"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Defias Trapper"] = {
-							["Details"] = {
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Harvest Watcher"] = {
-							["Details"] = {
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Young Goretusk"] = {
-							["Details"] = {
-								["Seal of Righteousness"] = {
-									["count"] = 60,
-								},
-								["Melee"] = {
-									["count"] = 256,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 40,
-								},
-							},
-							["amount"] = 356,
-						},
-					},
-					["PartialBlock"] = {
-					},
-					["WhoDamaged"] = {
-						["Mangy Wolf"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Defias Cutpurse"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Defias Trapper"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Young Fleshripper"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Harvest Watcher"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Young Goretusk"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 22,
-								},
-							},
-							["amount"] = 22,
-						},
-					},
-					["EnergyGainedFrom"] = {
-					},
-					["PartialResist"] = {
-						["Melee"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 3,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 3,
-							["amount"] = 0,
-						},
-					},
-					["CCBroken"] = {
-					},
-					["ElementDoneBlock"] = {
-						["Melee"] = 0,
-					},
-					["TimeHealing"] = {
-						["Pufarin"] = {
-							["Details"] = {
-								["Swift Hand of Justice"] = {
-									["count"] = 1.86,
-								},
-								["Judgement of Light"] = {
-									["count"] = 0,
-								},
-								["Holy Strength"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 1.86,
-						},
-					},
-					["OverHeals"] = {
-						["Swift Hand of Justice"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Judgement of Light"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Holy Strength"] = {
-							["Details"] = {
-								["Crit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["ManaGainedFrom"] = {
-						["Pufarin"] = {
-							["Details"] = {
-								["Judgement of Wisdom"] = {
-									["count"] = 5,
-								},
-							},
-							["amount"] = 5,
-						},
-					},
-					["RunicPowerGained"] = {
-					},
-					["CCBreak"] = 0,
-					["RageGained"] = {
-					},
-					["HealedWho"] = {
-						["Pufarin"] = {
-							["Details"] = {
-								["Swift Hand of Justice"] = {
-									["count"] = 22,
-								},
-								["Judgement of Light"] = {
-									["count"] = 0,
-								},
-								["Holy Strength"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 22,
-						},
-					},
-					["EnergyGain"] = 0,
-					["ManaGained"] = {
-						["Judgement of Wisdom"] = {
-							["Details"] = {
-								["Pufarin"] = {
-									["count"] = 5,
-								},
-							},
-							["amount"] = 5,
-						},
-					},
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
-					["Overhealing"] = 0,
-					["TimeSpent"] = {
-						["Mangy Wolf"] = {
-							["Details"] = {
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Kobold Tunneler"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Harvest Watcher"] = {
-							["Details"] = {
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Young Goretusk"] = {
-							["Details"] = {
-								["Seal of Righteousness"] = {
-									["count"] = 5.94,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 1.1,
-								},
-							},
-							["amount"] = 7.039999999999999,
-						},
-						["Young Fleshripper"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Riverpaw Outrunner"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Pufarin"] = {
-							["Details"] = {
-								["Swift Hand of Justice"] = {
-									["count"] = 1.86,
-								},
-								["Judgement of Light"] = {
-									["count"] = 0,
-								},
-								["Holy Strength"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 1.86,
-						},
-						["Defias Cutpurse"] = {
-							["Details"] = {
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Defias Trapper"] = {
-							["Details"] = {
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["WhoDispelled"] = {
-					},
-					["InterruptData"] = {
-					},
-					["RunicPowerGain"] = 0,
-					["Heals"] = {
-						["Swift Hand of Justice"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 11,
-									["min"] = 0,
-									["count"] = 2,
-									["amount"] = 22,
-								},
-							},
-							["count"] = 2,
-							["amount"] = 22,
-						},
-						["Judgement of Light"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Holy Strength"] = {
-							["Details"] = {
-								["Crit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["WhoHealed"] = {
-						["Pufarin"] = {
-							["Details"] = {
-								["Swift Hand of Justice"] = {
-									["count"] = 22,
-								},
-								["Judgement of Light"] = {
-									["count"] = 0,
-								},
-								["Holy Strength"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 22,
-						},
-					},
-					["EnergyGained"] = {
-					},
-					["ActiveTime"] = 8.899999999999999,
-					["Healing"] = 22,
-					["FDamagedWho"] = {
-					},
-					["Dispelled"] = 0,
-					["Attacks"] = {
-						["Seal of Righteousness"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 15,
-									["min"] = 0,
-									["count"] = 4,
-									["amount"] = 60,
-								},
-							},
-							["count"] = 4,
-							["amount"] = 60,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["Hit (Blocked)"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Crit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Hit"] = {
-									["max"] = 96,
-									["min"] = 0,
-									["count"] = 3,
-									["amount"] = 256,
-								},
-							},
-							["count"] = 3,
-							["amount"] = 256,
-						},
-						["Judgement of Righteousness"] = {
-							["Details"] = {
-								["Crit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Hit"] = {
-									["max"] = 40,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 40,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 40,
-						},
-					},
-					["HealingTaken"] = 22,
-					["RageGain"] = 0,
-					["TimeDamage"] = 7.039999999999999,
-					["TimeDamaging"] = {
-						["Mangy Wolf"] = {
-							["Details"] = {
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Kobold Tunneler"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Riverpaw Outrunner"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Defias Cutpurse"] = {
-							["Details"] = {
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Young Fleshripper"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Defias Trapper"] = {
-							["Details"] = {
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Harvest Watcher"] = {
-							["Details"] = {
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Young Goretusk"] = {
-							["Details"] = {
-								["Seal of Righteousness"] = {
-									["count"] = 5.94,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 1.1,
-								},
-							},
-							["amount"] = 7.039999999999999,
-						},
-					},
-					["ManaGain"] = 5,
-					["HOTs"] = {
-						["Judgement of Light"] = {
-							["Details"] = {
-								["Pufarin"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["DispelledWho"] = {
-					},
-				},
-				["Fight1"] = {
-					["DOTs"] = {
-					},
-					["ElementDoneResist"] = {
-						["Holy"] = 0,
-					},
-					["Ressed"] = 0,
-					["DamageTaken"] = 22,
-					["RageGainedFrom"] = {
-					},
-					["ElementHitsTaken"] = {
-						["Melee"] = {
-							["Details"] = {
-								["Absorb"] = {
-									["count"] = 0,
-								},
-								["Hit"] = {
-									["count"] = 2,
-								},
-								["Dodge"] = {
-									["count"] = 0,
-								},
-								["Miss"] = {
-									["count"] = 0,
-								},
-								["Crit"] = {
-									["count"] = 0,
-								},
-								["Parry"] = {
-									["count"] = 1,
-								},
-							},
-							["amount"] = 3,
-						},
-					},
-					["DeathCount"] = 0,
-					["HOT_Time"] = 0,
-					["ElementHitsDone"] = {
-						["Melee"] = {
-							["Details"] = {
-								["Crit"] = {
-									["count"] = 0,
-								},
-								["Hit"] = {
-									["count"] = 3,
-								},
-							},
-							["amount"] = 3,
-						},
-						["Holy"] = {
-							["Details"] = {
-								["Crit"] = {
-									["count"] = 0,
-								},
-								["Hit"] = {
-									["count"] = 5,
-								},
-							},
-							["amount"] = 5,
-						},
-					},
-					["ElementTakenAbsorb"] = {
-						["Melee"] = 0,
-					},
-					["ElementTaken"] = {
-						["Melee"] = 22,
-					},
-					["DOT_Time"] = 0,
-					["Damage"] = 356,
-					["ElementTakenBlock"] = {
-					},
-					["TimeHeal"] = 1.86,
-					["RessedWho"] = {
-					},
-					["Dispels"] = 0,
-					["ElementTakenResist"] = {
-					},
-					["ElementDoneAbsorb"] = {
-					},
-					["FAttacks"] = {
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementDone"] = {
-						["Melee"] = 256,
-						["Holy"] = 100,
-					},
-					["PartialAbsorb"] = {
-						["Melee"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 3,
-									["amount"] = 0,
-								},
-								["Absorbed"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 3,
-							["amount"] = 0,
-						},
-					},
-					["DamagedWho"] = {
-						["Mangy Wolf"] = {
-							["Details"] = {
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Kobold Tunneler"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Riverpaw Outrunner"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Defias Cutpurse"] = {
-							["Details"] = {
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Young Fleshripper"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Defias Trapper"] = {
-							["Details"] = {
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Harvest Watcher"] = {
-							["Details"] = {
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Young Goretusk"] = {
-							["Details"] = {
-								["Seal of Righteousness"] = {
-									["count"] = 60,
-								},
-								["Melee"] = {
-									["count"] = 256,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 40,
-								},
-							},
-							["amount"] = 356,
-						},
-					},
-					["PartialBlock"] = {
-					},
-					["WhoDamaged"] = {
-						["Mangy Wolf"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Defias Cutpurse"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Defias Trapper"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Young Fleshripper"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Harvest Watcher"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Young Goretusk"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 22,
-								},
-							},
-							["amount"] = 22,
-						},
-					},
-					["EnergyGainedFrom"] = {
-					},
-					["PartialResist"] = {
-						["Melee"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 3,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 3,
-							["amount"] = 0,
-						},
-					},
-					["CCBroken"] = {
-					},
-					["ElementDoneBlock"] = {
-						["Melee"] = 0,
-					},
-					["TimeHealing"] = {
-						["Pufarin"] = {
-							["Details"] = {
-								["Swift Hand of Justice"] = {
-									["count"] = 1.86,
-								},
-								["Judgement of Light"] = {
-									["count"] = 0,
-								},
-								["Holy Strength"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 1.86,
-						},
-					},
-					["OverHeals"] = {
-						["Swift Hand of Justice"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Judgement of Light"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Holy Strength"] = {
-							["Details"] = {
-								["Crit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["ManaGainedFrom"] = {
-						["Pufarin"] = {
-							["Details"] = {
-								["Judgement of Wisdom"] = {
-									["count"] = 5,
-								},
-							},
-							["amount"] = 5,
-						},
-					},
-					["RunicPowerGained"] = {
-					},
-					["CCBreak"] = 0,
-					["RageGained"] = {
-					},
-					["HealedWho"] = {
-						["Pufarin"] = {
-							["Details"] = {
-								["Swift Hand of Justice"] = {
-									["count"] = 22,
-								},
-								["Judgement of Light"] = {
-									["count"] = 0,
-								},
-								["Holy Strength"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 22,
-						},
-					},
-					["EnergyGain"] = 0,
-					["ManaGained"] = {
-						["Judgement of Wisdom"] = {
-							["Details"] = {
-								["Pufarin"] = {
-									["count"] = 5,
-								},
-							},
-							["amount"] = 5,
-						},
-					},
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
-					["Overhealing"] = 0,
-					["TimeSpent"] = {
-						["Mangy Wolf"] = {
-							["Details"] = {
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Kobold Tunneler"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Harvest Watcher"] = {
-							["Details"] = {
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Young Goretusk"] = {
-							["Details"] = {
-								["Seal of Righteousness"] = {
-									["count"] = 5.94,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 1.1,
-								},
-							},
-							["amount"] = 7.039999999999999,
-						},
-						["Young Fleshripper"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Riverpaw Outrunner"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Pufarin"] = {
-							["Details"] = {
-								["Swift Hand of Justice"] = {
-									["count"] = 1.86,
-								},
-								["Judgement of Light"] = {
-									["count"] = 0,
-								},
-								["Holy Strength"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 1.86,
-						},
-						["Defias Cutpurse"] = {
-							["Details"] = {
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Defias Trapper"] = {
-							["Details"] = {
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["WhoDispelled"] = {
-					},
-					["InterruptData"] = {
-					},
-					["RunicPowerGain"] = 0,
-					["Heals"] = {
-						["Swift Hand of Justice"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 11,
-									["min"] = 0,
-									["count"] = 2,
-									["amount"] = 22,
-								},
-							},
-							["count"] = 2,
-							["amount"] = 22,
-						},
-						["Judgement of Light"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Holy Strength"] = {
-							["Details"] = {
-								["Crit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["WhoHealed"] = {
-						["Pufarin"] = {
-							["Details"] = {
-								["Swift Hand of Justice"] = {
-									["count"] = 22,
-								},
-								["Judgement of Light"] = {
-									["count"] = 0,
-								},
-								["Holy Strength"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 22,
-						},
-					},
-					["EnergyGained"] = {
-					},
-					["ActiveTime"] = 8.899999999999999,
-					["Healing"] = 22,
-					["FDamagedWho"] = {
-					},
-					["Dispelled"] = 0,
-					["Attacks"] = {
-						["Seal of Righteousness"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 15,
-									["min"] = 0,
-									["count"] = 4,
-									["amount"] = 60,
-								},
-							},
-							["count"] = 4,
-							["amount"] = 60,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["Hit (Blocked)"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Crit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Hit"] = {
-									["max"] = 96,
-									["min"] = 0,
-									["count"] = 3,
-									["amount"] = 256,
-								},
-							},
-							["count"] = 3,
-							["amount"] = 256,
-						},
-						["Judgement of Righteousness"] = {
-							["Details"] = {
-								["Crit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Hit"] = {
-									["max"] = 40,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 40,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 40,
-						},
-					},
-					["HealingTaken"] = 22,
-					["RageGain"] = 0,
-					["TimeDamage"] = 7.039999999999999,
-					["TimeDamaging"] = {
-						["Mangy Wolf"] = {
-							["Details"] = {
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Kobold Tunneler"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Riverpaw Outrunner"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Defias Cutpurse"] = {
-							["Details"] = {
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Young Fleshripper"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Defias Trapper"] = {
-							["Details"] = {
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Harvest Watcher"] = {
-							["Details"] = {
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Young Goretusk"] = {
-							["Details"] = {
-								["Seal of Righteousness"] = {
-									["count"] = 5.94,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 1.1,
-								},
-							},
-							["amount"] = 7.039999999999999,
-						},
-					},
-					["ManaGain"] = 5,
-					["HOTs"] = {
-						["Judgement of Light"] = {
-							["Details"] = {
-								["Pufarin"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["DispelledWho"] = {
-					},
-				},
 				["OverallData"] = {
 					["ElementDoneResist"] = {
 						["Holy"] = 161,
@@ -10006,10 +5055,10 @@ RecountPerCharDB = {
 					},
 					["Overhealing"] = 1846,
 					["ElementTaken"] = {
-						["Physical"] = 17,
-						["Shadow"] = 11,
-						["Melee"] = 1245,
 						["Holy"] = 29,
+						["Physical"] = 17,
+						["Melee"] = 1245,
+						["Shadow"] = 11,
 					},
 					["HOTs"] = {
 						["Judgement of Light"] = {
@@ -10033,11 +5082,11 @@ RecountPerCharDB = {
 					["DamagedWho"] = {
 						["Kobold Tunneler"] = {
 							["Details"] = {
-								["Melee"] = {
-									["count"] = 1795,
-								},
 								["Seal of Righteousness"] = {
 									["count"] = 259,
+								},
+								["Melee"] = {
+									["count"] = 1795,
 								},
 								["Judgement of Righteousness"] = {
 									["count"] = 206,
@@ -10047,11 +5096,11 @@ RecountPerCharDB = {
 						},
 						["Harvest Watcher"] = {
 							["Details"] = {
-								["Melee"] = {
-									["count"] = 4099,
-								},
 								["Seal of Righteousness"] = {
 									["count"] = 842,
+								},
+								["Melee"] = {
+									["count"] = 4099,
 								},
 								["Judgement of Righteousness"] = {
 									["count"] = 841,
@@ -10061,11 +5110,11 @@ RecountPerCharDB = {
 						},
 						["Young Forest Bear"] = {
 							["Details"] = {
-								["Seal of Righteousness"] = {
-									["count"] = 22,
-								},
 								["Melee"] = {
 									["count"] = 144,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 22,
 								},
 								["Judgement of Righteousness"] = {
 									["count"] = 30,
@@ -10075,11 +5124,11 @@ RecountPerCharDB = {
 						},
 						["Riverpaw Outrunner"] = {
 							["Details"] = {
-								["Seal of Righteousness"] = {
-									["count"] = 249,
-								},
 								["Melee"] = {
 									["count"] = 1187,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 249,
 								},
 								["Judgement of Righteousness"] = {
 									["count"] = 240,
@@ -10089,11 +5138,11 @@ RecountPerCharDB = {
 						},
 						["Stonetusk Boar"] = {
 							["Details"] = {
-								["Melee"] = {
-									["count"] = 119,
-								},
 								["Seal of Righteousness"] = {
 									["count"] = 21,
+								},
+								["Melee"] = {
+									["count"] = 119,
 								},
 								["Judgement of Righteousness"] = {
 									["count"] = 19,
@@ -10103,11 +5152,11 @@ RecountPerCharDB = {
 						},
 						["Riverpaw Runt"] = {
 							["Details"] = {
-								["Melee"] = {
-									["count"] = 132,
-								},
 								["Seal of Righteousness"] = {
 									["count"] = 33,
+								},
+								["Melee"] = {
+									["count"] = 132,
 								},
 								["Judgement of Righteousness"] = {
 									["count"] = 60,
@@ -10117,11 +5166,11 @@ RecountPerCharDB = {
 						},
 						["Rusty Harvest Golem"] = {
 							["Details"] = {
-								["Melee"] = {
-									["count"] = 919,
-								},
 								["Seal of Righteousness"] = {
 									["count"] = 189,
+								},
+								["Melee"] = {
+									["count"] = 919,
 								},
 								["Judgement of Righteousness"] = {
 									["count"] = 190,
@@ -10131,11 +5180,11 @@ RecountPerCharDB = {
 						},
 						["Diseased Young Wolf"] = {
 							["Details"] = {
-								["Seal of Righteousness"] = {
-									["count"] = 18,
-								},
 								["Melee"] = {
 									["count"] = 93,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 18,
 								},
 								["Judgement of Righteousness"] = {
 									["count"] = 128,
@@ -10145,11 +5194,11 @@ RecountPerCharDB = {
 						},
 						["Defias Cutpurse"] = {
 							["Details"] = {
-								["Seal of Righteousness"] = {
-									["count"] = 42,
-								},
 								["Melee"] = {
 									["count"] = 291,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 42,
 								},
 								["Judgement of Righteousness"] = {
 									["count"] = 38,
@@ -10159,11 +5208,11 @@ RecountPerCharDB = {
 						},
 						["Hogger"] = {
 							["Details"] = {
-								["Seal of Righteousness"] = {
-									["count"] = 151,
-								},
 								["Melee"] = {
 									["count"] = 355,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 151,
 								},
 								["Judgement of Righteousness"] = {
 									["count"] = 135,
@@ -10173,11 +5222,11 @@ RecountPerCharDB = {
 						},
 						["Fleshripper"] = {
 							["Details"] = {
-								["Melee"] = {
-									["count"] = 218,
-								},
 								["Seal of Righteousness"] = {
 									["count"] = 60,
+								},
+								["Melee"] = {
+									["count"] = 218,
 								},
 								["Judgement of Righteousness"] = {
 									["count"] = 40,
@@ -10187,11 +5236,11 @@ RecountPerCharDB = {
 						},
 						["Coyote"] = {
 							["Details"] = {
-								["Melee"] = {
-									["count"] = 293,
-								},
 								["Seal of Righteousness"] = {
 									["count"] = 65,
+								},
+								["Melee"] = {
+									["count"] = 293,
 								},
 								["Judgement of Righteousness"] = {
 									["count"] = 140,
@@ -10201,11 +5250,11 @@ RecountPerCharDB = {
 						},
 						["Young Goretusk"] = {
 							["Details"] = {
-								["Seal of Righteousness"] = {
-									["count"] = 273,
-								},
 								["Melee"] = {
 									["count"] = 996,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 273,
 								},
 								["Judgement of Righteousness"] = {
 									["count"] = 330,
@@ -10215,11 +5264,11 @@ RecountPerCharDB = {
 						},
 						["Young Fleshripper"] = {
 							["Details"] = {
-								["Seal of Righteousness"] = {
-									["count"] = 101,
-								},
 								["Melee"] = {
 									["count"] = 451,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 101,
 								},
 								["Judgement of Righteousness"] = {
 									["count"] = 75,
@@ -10227,27 +5276,27 @@ RecountPerCharDB = {
 							},
 							["amount"] = 627,
 						},
-						["Defias Trapper"] = {
+						["Bliess"] = {
 							["Details"] = {
-								["Melee"] = {
-									["count"] = 352,
-								},
 								["Seal of Righteousness"] = {
-									["count"] = 90,
+									["count"] = 62,
+								},
+								["Melee"] = {
+									["count"] = 332,
 								},
 								["Judgement of Righteousness"] = {
-									["count"] = 80,
+									["count"] = 19,
 								},
 							},
-							["amount"] = 522,
+							["amount"] = 413,
 						},
 						["Defias Smuggler"] = {
 							["Details"] = {
-								["Melee"] = {
-									["count"] = 203,
-								},
 								["Seal of Righteousness"] = {
 									["count"] = 45,
+								},
+								["Melee"] = {
+									["count"] = 203,
 								},
 								["Judgement of Righteousness"] = {
 									["count"] = 40,
@@ -10257,11 +5306,11 @@ RecountPerCharDB = {
 						},
 						["Mangy Wolf"] = {
 							["Details"] = {
-								["Seal of Righteousness"] = {
-									["count"] = 119,
-								},
 								["Melee"] = {
 									["count"] = 668,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 119,
 								},
 								["Judgement of Righteousness"] = {
 									["count"] = 72,
@@ -10271,11 +5320,11 @@ RecountPerCharDB = {
 						},
 						["Kobold Miner"] = {
 							["Details"] = {
-								["Seal of Righteousness"] = {
-									["count"] = 24,
-								},
 								["Melee"] = {
 									["count"] = 106,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 24,
 								},
 								["Judgement of Righteousness"] = {
 									["count"] = 42,
@@ -10294,19 +5343,19 @@ RecountPerCharDB = {
 							},
 							["amount"] = 178,
 						},
-						["Bliess"] = {
+						["Defias Trapper"] = {
 							["Details"] = {
-								["Melee"] = {
-									["count"] = 332,
-								},
 								["Seal of Righteousness"] = {
-									["count"] = 62,
+									["count"] = 90,
+								},
+								["Melee"] = {
+									["count"] = 352,
 								},
 								["Judgement of Righteousness"] = {
-									["count"] = 19,
+									["count"] = 80,
 								},
 							},
-							["amount"] = 413,
+							["amount"] = 522,
 						},
 						["Kobold Vermin"] = {
 							["Details"] = {
@@ -10433,13 +5482,16 @@ RecountPerCharDB = {
 							},
 							["amount"] = 17,
 						},
-						["Mangy Wolf"] = {
+						["Bliess"] = {
 							["Details"] = {
-								["Melee"] = {
-									["count"] = 18,
+								["Shadow Word: Pain (DoT)"] = {
+									["count"] = 11,
+								},
+								["Smite"] = {
+									["count"] = 29,
 								},
 							},
-							["amount"] = 18,
+							["amount"] = 40,
 						},
 						["Kobold Miner"] = {
 							["Details"] = {
@@ -10457,16 +5509,13 @@ RecountPerCharDB = {
 							},
 							["amount"] = 9,
 						},
-						["Bliess"] = {
+						["Mangy Wolf"] = {
 							["Details"] = {
-								["Shadow Word: Pain (DoT)"] = {
-									["count"] = 11,
-								},
-								["Smite"] = {
-									["count"] = 29,
+								["Melee"] = {
+									["count"] = 18,
 								},
 							},
-							["amount"] = 40,
+							["amount"] = 18,
 						},
 						["Kobold Vermin"] = {
 							["Details"] = {
@@ -10513,18 +5562,6 @@ RecountPerCharDB = {
 						},
 					},
 					["OverHeals"] = {
-						["Holy Light"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 76,
-									["min"] = 76,
-									["count"] = 1,
-									["amount"] = 76,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 76,
-						},
 						["Swift Hand of Justice"] = {
 							["Details"] = {
 								["Hit"] = {
@@ -10536,6 +5573,18 @@ RecountPerCharDB = {
 							},
 							["count"] = 93,
 							["amount"] = 596,
+						},
+						["Holy Light"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 76,
+									["min"] = 76,
+									["count"] = 1,
+									["amount"] = 76,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 76,
 						},
 						["Judgement of Light"] = {
 							["Details"] = {
@@ -10645,18 +5694,6 @@ RecountPerCharDB = {
 					},
 					["ActiveTime"] = 617.5500000000006,
 					["Heals"] = {
-						["Holy Light"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 112,
-									["min"] = 50,
-									["count"] = 2,
-									["amount"] = 162,
-								},
-							},
-							["count"] = 2,
-							["amount"] = 162,
-						},
 						["Swift Hand of Justice"] = {
 							["Details"] = {
 								["Hit"] = {
@@ -10668,6 +5705,18 @@ RecountPerCharDB = {
 							},
 							["count"] = 86,
 							["amount"] = 604,
+						},
+						["Holy Light"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 112,
+									["min"] = 50,
+									["count"] = 2,
+									["amount"] = 162,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 162,
 						},
 						["Judgement of Light"] = {
 							["Details"] = {
@@ -10700,329 +5749,69 @@ RecountPerCharDB = {
 							["amount"] = 183,
 						},
 					},
-					["ManaGainedFrom"] = {
-						["Pufarin"] = {
+					["ElementHitsDone"] = {
+						["Melee"] = {
 							["Details"] = {
-								["Judgement of Wisdom"] = {
-									["count"] = 120,
-								},
-							},
-							["amount"] = 120,
-						},
-					},
-					["TimeSpent"] = {
-						["Nelexi"] = {
-							["Details"] = {
-								["Holy Light"] = {
-									["count"] = 3.5,
-								},
-							},
-							["amount"] = 3.5,
-						},
-						["Kobold Tunneler"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0.02,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 64.63999999999999,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 15.78,
-								},
-							},
-							["amount"] = 80.44,
-						},
-						["Harvest Watcher"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 3.5,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 118.69,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 35.82,
-								},
-							},
-							["amount"] = 158.01,
-						},
-						["Bliess"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 9.560000000000001,
-								},
-								["Holy Light"] = {
-									["count"] = 3.5,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0.59,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 3.5,
-								},
-							},
-							["amount"] = 17.15,
-						},
-						["Riverpaw Outrunner"] = {
-							["Details"] = {
-								["Seal of Righteousness"] = {
-									["count"] = 21.06,
-								},
-								["Melee"] = {
-									["count"] = 3.51,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 13.33,
-								},
-							},
-							["amount"] = 37.9,
-						},
-						["Stonetusk Boar"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 3.42,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 3.5,
-								},
-							},
-							["amount"] = 6.92,
-						},
-						["Riverpaw Runt"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
+								["Glancing"] = {
 									["count"] = 6,
 								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0.67,
+								["Hit"] = {
+									["count"] = 128,
+								},
+								["Dodge"] = {
+									["count"] = 3,
+								},
+								["Crit"] = {
+									["count"] = 41,
+								},
+								["Parry"] = {
+									["count"] = 2,
 								},
 							},
-							["amount"] = 6.67,
+							["amount"] = 180,
 						},
-						["Rusty Harvest Golem"] = {
+						["Holy"] = {
 							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
+								["Crit"] = {
+									["count"] = 16,
 								},
-								["Seal of Righteousness"] = {
-									["count"] = 16.97,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 13.7,
+								["Hit"] = {
+									["count"] = 280,
 								},
 							},
-							["amount"] = 30.67,
+							["amount"] = 296,
 						},
-						["Diseased Young Wolf"] = {
+					},
+					["WhoHealed"] = {
+						["Bliess"] = {
 							["Details"] = {
-								["Seal of Righteousness"] = {
-									["count"] = 16.07,
-								},
-								["Melee"] = {
-									["count"] = 0.01,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 2.54,
+								["Renew"] = {
+									["count"] = 36,
 								},
 							},
-							["amount"] = 18.62,
+							["amount"] = 36,
 						},
-						["Fleshripper"] = {
+						["Adamsandler"] = {
 							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 6.890000000000001,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 3.5,
+								["Judgement of Light"] = {
+									["count"] = 9,
 								},
 							},
-							["amount"] = 10.39,
-						},
-						["Defias Cutpurse"] = {
-							["Details"] = {
-								["Seal of Righteousness"] = {
-									["count"] = 10.28,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 1.7,
-								},
-							},
-							["amount"] = 11.98,
-						},
-						["Hogger"] = {
-							["Details"] = {
-								["Seal of Righteousness"] = {
-									["count"] = 10.79,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0.12,
-								},
-							},
-							["amount"] = 10.91,
-						},
-						["Defias Trapper"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 8.91,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 3.56,
-								},
-							},
-							["amount"] = 12.47,
-						},
-						["Coyote"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 3.61,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 7,
-								},
-							},
-							["amount"] = 10.61,
-						},
-						["Young Goretusk"] = {
-							["Details"] = {
-								["Seal of Righteousness"] = {
-									["count"] = 20.33,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 11.47,
-								},
-							},
-							["amount"] = 31.8,
-						},
-						["Young Fleshripper"] = {
-							["Details"] = {
-								["Seal of Righteousness"] = {
-									["count"] = 9.539999999999999,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 4.75,
-								},
-							},
-							["amount"] = 14.29,
-						},
-						["Defias Smuggler"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 3.58,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 3.5,
-								},
-							},
-							["amount"] = 7.08,
-						},
-						["Mangy Wolf"] = {
-							["Details"] = {
-								["Seal of Righteousness"] = {
-									["count"] = 20.63,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 3.58,
-								},
-							},
-							["amount"] = 24.21,
+							["amount"] = 9,
 						},
 						["Pufarin"] = {
 							["Details"] = {
 								["Swift Hand of Justice"] = {
-									["count"] = 25.19,
+									["count"] = 604,
 								},
 								["Judgement of Light"] = {
-									["count"] = 5.29,
+									["count"] = 106,
 								},
 								["Holy Strength"] = {
-									["count"] = 0.99,
+									["count"] = 183,
 								},
 							},
-							["amount"] = 31.47,
-						},
-						["Kobold Miner"] = {
-							["Details"] = {
-								["Seal of Righteousness"] = {
-									["count"] = 6.529999999999999,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0.13,
-								},
-							},
-							["amount"] = 6.66,
-						},
-						["Diseased Timber Wolf"] = {
-							["Details"] = {
-								["Seal of Righteousness"] = {
-									["count"] = 27.88,
-								},
-								["Melee"] = {
-									["count"] = 0.01,
-								},
-							},
-							["amount"] = 27.89,
-						},
-						["Young Forest Bear"] = {
-							["Details"] = {
-								["Seal of Righteousness"] = {
-									["count"] = 3.5,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0.76,
-								},
-							},
-							["amount"] = 4.26,
-						},
-						["Kobold Vermin"] = {
-							["Details"] = {
-								["Seal of Righteousness"] = {
-									["count"] = 53.65,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 53.65,
+							["amount"] = 893,
 						},
 					},
 					["Healing"] = 1055,
@@ -11096,18 +5885,6 @@ RecountPerCharDB = {
 						},
 					},
 					["Attacks"] = {
-						["Seal of Righteousness"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 32,
-									["min"] = 3,
-									["count"] = 233,
-									["amount"] = 2750,
-								},
-							},
-							["count"] = 233,
-							["amount"] = 2750,
-						},
 						["Melee"] = {
 							["Details"] = {
 								["Glancing"] = {
@@ -11146,6 +5923,18 @@ RecountPerCharDB = {
 							["count"] = 180,
 							["amount"] = 13160,
 						},
+						["Seal of Righteousness"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 32,
+									["min"] = 3,
+									["count"] = 233,
+									["amount"] = 2750,
+								},
+							},
+							["count"] = 233,
+							["amount"] = 2750,
+						},
 						["Judgement of Righteousness"] = {
 							["Details"] = {
 								["Crit"] = {
@@ -11171,11 +5960,11 @@ RecountPerCharDB = {
 					["TimeDamaging"] = {
 						["Kobold Tunneler"] = {
 							["Details"] = {
-								["Melee"] = {
-									["count"] = 0.02,
-								},
 								["Seal of Righteousness"] = {
 									["count"] = 64.63999999999999,
+								},
+								["Melee"] = {
+									["count"] = 0.02,
 								},
 								["Judgement of Righteousness"] = {
 									["count"] = 15.78,
@@ -11185,11 +5974,11 @@ RecountPerCharDB = {
 						},
 						["Harvest Watcher"] = {
 							["Details"] = {
-								["Melee"] = {
-									["count"] = 3.5,
-								},
 								["Seal of Righteousness"] = {
 									["count"] = 118.69,
+								},
+								["Melee"] = {
+									["count"] = 3.5,
 								},
 								["Judgement of Righteousness"] = {
 									["count"] = 35.82,
@@ -11199,11 +5988,11 @@ RecountPerCharDB = {
 						},
 						["Young Forest Bear"] = {
 							["Details"] = {
-								["Seal of Righteousness"] = {
-									["count"] = 3.5,
-								},
 								["Melee"] = {
 									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 3.5,
 								},
 								["Judgement of Righteousness"] = {
 									["count"] = 0.76,
@@ -11213,11 +6002,11 @@ RecountPerCharDB = {
 						},
 						["Riverpaw Outrunner"] = {
 							["Details"] = {
-								["Seal of Righteousness"] = {
-									["count"] = 21.06,
-								},
 								["Melee"] = {
 									["count"] = 3.51,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 21.06,
 								},
 								["Judgement of Righteousness"] = {
 									["count"] = 13.33,
@@ -11227,11 +6016,11 @@ RecountPerCharDB = {
 						},
 						["Stonetusk Boar"] = {
 							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
 								["Seal of Righteousness"] = {
 									["count"] = 3.42,
+								},
+								["Melee"] = {
+									["count"] = 0,
 								},
 								["Judgement of Righteousness"] = {
 									["count"] = 3.5,
@@ -11241,11 +6030,11 @@ RecountPerCharDB = {
 						},
 						["Riverpaw Runt"] = {
 							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
 								["Seal of Righteousness"] = {
 									["count"] = 6,
+								},
+								["Melee"] = {
+									["count"] = 0,
 								},
 								["Judgement of Righteousness"] = {
 									["count"] = 0.67,
@@ -11255,11 +6044,11 @@ RecountPerCharDB = {
 						},
 						["Rusty Harvest Golem"] = {
 							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
 								["Seal of Righteousness"] = {
 									["count"] = 16.97,
+								},
+								["Melee"] = {
+									["count"] = 0,
 								},
 								["Judgement of Righteousness"] = {
 									["count"] = 13.7,
@@ -11269,11 +6058,11 @@ RecountPerCharDB = {
 						},
 						["Diseased Young Wolf"] = {
 							["Details"] = {
-								["Seal of Righteousness"] = {
-									["count"] = 16.07,
-								},
 								["Melee"] = {
 									["count"] = 0.01,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 16.07,
 								},
 								["Judgement of Righteousness"] = {
 									["count"] = 2.54,
@@ -11283,11 +6072,11 @@ RecountPerCharDB = {
 						},
 						["Defias Cutpurse"] = {
 							["Details"] = {
-								["Seal of Righteousness"] = {
-									["count"] = 10.28,
-								},
 								["Melee"] = {
 									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 10.28,
 								},
 								["Judgement of Righteousness"] = {
 									["count"] = 1.7,
@@ -11297,11 +6086,11 @@ RecountPerCharDB = {
 						},
 						["Hogger"] = {
 							["Details"] = {
-								["Seal of Righteousness"] = {
-									["count"] = 10.79,
-								},
 								["Melee"] = {
 									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 10.79,
 								},
 								["Judgement of Righteousness"] = {
 									["count"] = 0.12,
@@ -11311,11 +6100,11 @@ RecountPerCharDB = {
 						},
 						["Fleshripper"] = {
 							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
 								["Seal of Righteousness"] = {
 									["count"] = 6.890000000000001,
+								},
+								["Melee"] = {
+									["count"] = 0,
 								},
 								["Judgement of Righteousness"] = {
 									["count"] = 3.5,
@@ -11325,11 +6114,11 @@ RecountPerCharDB = {
 						},
 						["Coyote"] = {
 							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
 								["Seal of Righteousness"] = {
 									["count"] = 3.61,
+								},
+								["Melee"] = {
+									["count"] = 0,
 								},
 								["Judgement of Righteousness"] = {
 									["count"] = 7,
@@ -11339,11 +6128,11 @@ RecountPerCharDB = {
 						},
 						["Young Goretusk"] = {
 							["Details"] = {
-								["Seal of Righteousness"] = {
-									["count"] = 20.33,
-								},
 								["Melee"] = {
 									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 20.33,
 								},
 								["Judgement of Righteousness"] = {
 									["count"] = 11.47,
@@ -11353,11 +6142,11 @@ RecountPerCharDB = {
 						},
 						["Young Fleshripper"] = {
 							["Details"] = {
-								["Seal of Righteousness"] = {
-									["count"] = 9.539999999999999,
-								},
 								["Melee"] = {
 									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 9.539999999999999,
 								},
 								["Judgement of Righteousness"] = {
 									["count"] = 4.75,
@@ -11365,27 +6154,27 @@ RecountPerCharDB = {
 							},
 							["amount"] = 14.29,
 						},
-						["Defias Trapper"] = {
+						["Bliess"] = {
 							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
 								["Seal of Righteousness"] = {
-									["count"] = 8.91,
+									["count"] = 0.59,
+								},
+								["Melee"] = {
+									["count"] = 9.560000000000001,
 								},
 								["Judgement of Righteousness"] = {
-									["count"] = 3.56,
+									["count"] = 3.5,
 								},
 							},
-							["amount"] = 12.47,
+							["amount"] = 13.65,
 						},
 						["Defias Smuggler"] = {
 							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
 								["Seal of Righteousness"] = {
 									["count"] = 3.58,
+								},
+								["Melee"] = {
+									["count"] = 0,
 								},
 								["Judgement of Righteousness"] = {
 									["count"] = 3.5,
@@ -11395,11 +6184,11 @@ RecountPerCharDB = {
 						},
 						["Mangy Wolf"] = {
 							["Details"] = {
-								["Seal of Righteousness"] = {
-									["count"] = 20.63,
-								},
 								["Melee"] = {
 									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 20.63,
 								},
 								["Judgement of Righteousness"] = {
 									["count"] = 3.58,
@@ -11409,11 +6198,11 @@ RecountPerCharDB = {
 						},
 						["Kobold Miner"] = {
 							["Details"] = {
-								["Seal of Righteousness"] = {
-									["count"] = 6.529999999999999,
-								},
 								["Melee"] = {
 									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 6.529999999999999,
 								},
 								["Judgement of Righteousness"] = {
 									["count"] = 0.13,
@@ -11432,19 +6221,19 @@ RecountPerCharDB = {
 							},
 							["amount"] = 27.89,
 						},
-						["Bliess"] = {
+						["Defias Trapper"] = {
 							["Details"] = {
-								["Melee"] = {
-									["count"] = 9.560000000000001,
-								},
 								["Seal of Righteousness"] = {
-									["count"] = 0.59,
+									["count"] = 8.91,
+								},
+								["Melee"] = {
+									["count"] = 0,
 								},
 								["Judgement of Righteousness"] = {
-									["count"] = 3.5,
+									["count"] = 3.56,
 								},
 							},
-							["amount"] = 13.65,
+							["amount"] = 12.47,
 						},
 						["Kobold Vermin"] = {
 							["Details"] = {
@@ -11459,75 +6248,5287 @@ RecountPerCharDB = {
 						},
 					},
 					["ManaGain"] = 120,
-					["WhoHealed"] = {
-						["Bliess"] = {
+					["TimeSpent"] = {
+						["Nelexi"] = {
 							["Details"] = {
-								["Renew"] = {
-									["count"] = 36,
+								["Holy Light"] = {
+									["count"] = 3.5,
 								},
 							},
-							["amount"] = 36,
+							["amount"] = 3.5,
 						},
-						["Adamsandler"] = {
+						["Kobold Tunneler"] = {
 							["Details"] = {
+								["Seal of Righteousness"] = {
+									["count"] = 64.63999999999999,
+								},
+								["Melee"] = {
+									["count"] = 0.02,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 15.78,
+								},
+							},
+							["amount"] = 80.44,
+						},
+						["Harvest Watcher"] = {
+							["Details"] = {
+								["Seal of Righteousness"] = {
+									["count"] = 118.69,
+								},
+								["Melee"] = {
+									["count"] = 3.5,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 35.82,
+								},
+							},
+							["amount"] = 158.01,
+						},
+						["Bliess"] = {
+							["Details"] = {
+								["Seal of Righteousness"] = {
+									["count"] = 0.59,
+								},
+								["Holy Light"] = {
+									["count"] = 3.5,
+								},
+								["Melee"] = {
+									["count"] = 9.560000000000001,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 3.5,
+								},
+							},
+							["amount"] = 17.15,
+						},
+						["Riverpaw Outrunner"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 3.51,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 21.06,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 13.33,
+								},
+							},
+							["amount"] = 37.9,
+						},
+						["Stonetusk Boar"] = {
+							["Details"] = {
+								["Seal of Righteousness"] = {
+									["count"] = 3.42,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 3.5,
+								},
+							},
+							["amount"] = 6.92,
+						},
+						["Riverpaw Runt"] = {
+							["Details"] = {
+								["Seal of Righteousness"] = {
+									["count"] = 6,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0.67,
+								},
+							},
+							["amount"] = 6.67,
+						},
+						["Rusty Harvest Golem"] = {
+							["Details"] = {
+								["Seal of Righteousness"] = {
+									["count"] = 16.97,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 13.7,
+								},
+							},
+							["amount"] = 30.67,
+						},
+						["Diseased Young Wolf"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0.01,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 16.07,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 2.54,
+								},
+							},
+							["amount"] = 18.62,
+						},
+						["Fleshripper"] = {
+							["Details"] = {
+								["Seal of Righteousness"] = {
+									["count"] = 6.890000000000001,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 3.5,
+								},
+							},
+							["amount"] = 10.39,
+						},
+						["Defias Cutpurse"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 10.28,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 1.7,
+								},
+							},
+							["amount"] = 11.98,
+						},
+						["Hogger"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 10.79,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0.12,
+								},
+							},
+							["amount"] = 10.91,
+						},
+						["Young Forest Bear"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 3.5,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0.76,
+								},
+							},
+							["amount"] = 4.26,
+						},
+						["Coyote"] = {
+							["Details"] = {
+								["Seal of Righteousness"] = {
+									["count"] = 3.61,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 7,
+								},
+							},
+							["amount"] = 10.61,
+						},
+						["Young Goretusk"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 20.33,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 11.47,
+								},
+							},
+							["amount"] = 31.8,
+						},
+						["Young Fleshripper"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 9.539999999999999,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 4.75,
+								},
+							},
+							["amount"] = 14.29,
+						},
+						["Defias Smuggler"] = {
+							["Details"] = {
+								["Seal of Righteousness"] = {
+									["count"] = 3.58,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 3.5,
+								},
+							},
+							["amount"] = 7.08,
+						},
+						["Mangy Wolf"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 20.63,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 3.58,
+								},
+							},
+							["amount"] = 24.21,
+						},
+						["Pufarin"] = {
+							["Details"] = {
+								["Swift Hand of Justice"] = {
+									["count"] = 25.19,
+								},
 								["Judgement of Light"] = {
+									["count"] = 5.29,
+								},
+								["Holy Strength"] = {
+									["count"] = 0.99,
+								},
+							},
+							["amount"] = 31.47,
+						},
+						["Kobold Miner"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 6.529999999999999,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0.13,
+								},
+							},
+							["amount"] = 6.66,
+						},
+						["Diseased Timber Wolf"] = {
+							["Details"] = {
+								["Seal of Righteousness"] = {
+									["count"] = 27.88,
+								},
+								["Melee"] = {
+									["count"] = 0.01,
+								},
+							},
+							["amount"] = 27.89,
+						},
+						["Defias Trapper"] = {
+							["Details"] = {
+								["Seal of Righteousness"] = {
+									["count"] = 8.91,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 3.56,
+								},
+							},
+							["amount"] = 12.47,
+						},
+						["Kobold Vermin"] = {
+							["Details"] = {
+								["Seal of Righteousness"] = {
+									["count"] = 53.65,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 53.65,
+						},
+					},
+					["ManaGainedFrom"] = {
+						["Pufarin"] = {
+							["Details"] = {
+								["Judgement of Wisdom"] = {
+									["count"] = 120,
+								},
+							},
+							["amount"] = 120,
+						},
+					},
+				},
+				["Fight5"] = {
+					["TimeDamaging"] = {
+						["Rusty Harvest Golem"] = {
+							["Details"] = {
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Diseased Young Wolf"] = {
+							["Details"] = {
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Tunneler"] = {
+							["Details"] = {
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Hogger"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Harvest Watcher"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Young Goretusk"] = {
+							["Details"] = {
+								["Seal of Righteousness"] = {
+									["count"] = 3.63,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 3.29,
+								},
+							},
+							["amount"] = 6.92,
+						},
+						["Bliess"] = {
+							["Details"] = {
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Fleshripper"] = {
+							["Details"] = {
+								["Seal of Righteousness"] = {
+									["count"] = 6.890000000000001,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 3.5,
+								},
+							},
+							["amount"] = 10.39,
+						},
+						["Diseased Timber Wolf"] = {
+							["Details"] = {
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Vermin"] = {
+							["Details"] = {
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["TimeHealing"] = {
+						["Pufarin"] = {
+							["Details"] = {
+								["Swift Hand of Justice"] = {
+									["count"] = 0,
+								},
+								["Judgement of Light"] = {
+									["count"] = 0,
+								},
+								["Holy Strength"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["OverHeals"] = {
+						["Swift Hand of Justice"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 9,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 18,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 18,
+						},
+						["Judgement of Light"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Holy Strength"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["ElementHitsTaken"] = {
+						["Shadow"] = {
+							["Details"] = {
+								["Tick"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 2,
+								},
+								["Absorb"] = {
+									["count"] = 2,
+								},
+								["Dodge"] = {
+									["count"] = 0,
+								},
+								["Miss"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 5,
+						},
+						["Holy"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ElementDoneResist"] = {
+						["Holy"] = 0,
+					},
+					["TimeSpent"] = {
+						["Rusty Harvest Golem"] = {
+							["Details"] = {
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Diseased Young Wolf"] = {
+							["Details"] = {
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Tunneler"] = {
+							["Details"] = {
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Hogger"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Harvest Watcher"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Young Goretusk"] = {
+							["Details"] = {
+								["Seal of Righteousness"] = {
+									["count"] = 3.63,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 3.29,
+								},
+							},
+							["amount"] = 6.92,
+						},
+						["Bliess"] = {
+							["Details"] = {
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Pufarin"] = {
+							["Details"] = {
+								["Swift Hand of Justice"] = {
+									["count"] = 0,
+								},
+								["Judgement of Light"] = {
+									["count"] = 0,
+								},
+								["Holy Strength"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Diseased Timber Wolf"] = {
+							["Details"] = {
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Fleshripper"] = {
+							["Details"] = {
+								["Seal of Righteousness"] = {
+									["count"] = 6.890000000000001,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 3.5,
+								},
+							},
+							["amount"] = 10.39,
+						},
+						["Kobold Vermin"] = {
+							["Details"] = {
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["DamageTaken"] = 22,
+					["ElementDoneAbsorb"] = {
+						["Melee"] = 0,
+					},
+					["PartialResist"] = {
+						["Shadow Word: Pain (DoT)"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 5,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 5,
+							["amount"] = 0,
+						},
+						["Smite"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["ManaGained"] = {
+						["Judgement of Wisdom"] = {
+							["Details"] = {
+								["Pufarin"] = {
+									["count"] = 10,
+								},
+							},
+							["amount"] = 10,
+						},
+					},
+					["PartialAbsorb"] = {
+						["Shadow Word: Pain (DoT)"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 3,
+									["amount"] = 0,
+								},
+								["Absorbed"] = {
+									["max"] = 12,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 24,
+								},
+							},
+							["count"] = 5,
+							["amount"] = 24,
+						},
+						["Smite"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["ActiveTime"] = 17.31,
+					["Overhealing"] = 18,
+					["ElementTaken"] = {
+						["Shadow"] = 0,
+						["Melee"] = 22,
+						["Holy"] = 0,
+					},
+					["HOTs"] = {
+						["Judgement of Light"] = {
+							["Details"] = {
+								["Howevertheyc"] = {
+									["count"] = 0,
+								},
+								["Pufarin"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["Damage"] = 552,
+					["WhoHealed"] = {
+						["Pufarin"] = {
+							["Details"] = {
+								["Swift Hand of Justice"] = {
+									["count"] = 18,
+								},
+								["Judgement of Light"] = {
+									["count"] = 0,
+								},
+								["Holy Strength"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 18,
+						},
+					},
+					["TimeHeal"] = 0,
+					["ElementHitsDone"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Glancing"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 5,
+								},
+								["Crit"] = {
+									["count"] = 0,
+								},
+								["Parry"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 5,
+						},
+						["Holy"] = {
+							["Details"] = {
+								["Crit"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
 									["count"] = 9,
 								},
 							},
 							["amount"] = 9,
 						},
+					},
+					["DamagedWho"] = {
+						["Rusty Harvest Golem"] = {
+							["Details"] = {
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Diseased Young Wolf"] = {
+							["Details"] = {
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Tunneler"] = {
+							["Details"] = {
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Hogger"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Harvest Watcher"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Young Goretusk"] = {
+							["Details"] = {
+								["Seal of Righteousness"] = {
+									["count"] = 44,
+								},
+								["Melee"] = {
+									["count"] = 150,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 40,
+								},
+							},
+							["amount"] = 234,
+						},
+						["Bliess"] = {
+							["Details"] = {
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Fleshripper"] = {
+							["Details"] = {
+								["Seal of Righteousness"] = {
+									["count"] = 60,
+								},
+								["Melee"] = {
+									["count"] = 218,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 40,
+								},
+							},
+							["amount"] = 318,
+						},
+						["Diseased Timber Wolf"] = {
+							["Details"] = {
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Vermin"] = {
+							["Details"] = {
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["HealedWho"] = {
 						["Pufarin"] = {
 							["Details"] = {
 								["Swift Hand of Justice"] = {
-									["count"] = 604,
+									["count"] = 18,
 								},
 								["Judgement of Light"] = {
-									["count"] = 106,
+									["count"] = 0,
 								},
 								["Holy Strength"] = {
-									["count"] = 183,
+									["count"] = 0,
 								},
 							},
-							["amount"] = 893,
+							["amount"] = 18,
 						},
+					},
+					["Healing"] = 18,
+					["Attacks"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Glancing"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 81,
+									["min"] = 0,
+									["count"] = 5,
+									["amount"] = 368,
+								},
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Parry"] = {
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 5,
+							["amount"] = 368,
+						},
+						["Seal of Righteousness"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 15,
+									["min"] = 0,
+									["count"] = 7,
+									["amount"] = 104,
+								},
+							},
+							["count"] = 7,
+							["amount"] = 104,
+						},
+						["Judgement of Righteousness"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 40,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 80,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 80,
+						},
+					},
+					["Heals"] = {
+						["Swift Hand of Justice"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 9,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 18,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 18,
+						},
+						["Judgement of Light"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Holy Strength"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["ElementDone"] = {
+						["Melee"] = 368,
+						["Holy"] = 184,
+					},
+					["HealingTaken"] = 18,
+					["ManaGainedFrom"] = {
+						["Pufarin"] = {
+							["Details"] = {
+								["Judgement of Wisdom"] = {
+									["count"] = 10,
+								},
+							},
+							["amount"] = 10,
+						},
+					},
+					["TimeDamage"] = 17.31,
+					["WhoDamaged"] = {
+						["Bliess"] = {
+							["Details"] = {
+								["Shadow Word: Pain (DoT)"] = {
+									["count"] = 0,
+								},
+								["Smite"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Vermin"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Rusty Harvest Golem"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Tunneler"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Hogger"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Diseased Timber Wolf"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Harvest Watcher"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Young Goretusk"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 22,
+								},
+							},
+							["amount"] = 22,
+						},
+					},
+					["ManaGain"] = 10,
+					["HOT_Time"] = 0,
+					["ElementTakenAbsorb"] = {
+						["Melee"] = 24,
+					},
+				},
+				["CurrentFightData"] = {
+					["DOTs"] = {
+					},
+					["ElementDoneResist"] = {
+						["Holy"] = 0,
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 0,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Absorb"] = {
+									["count"] = 0,
+								},
+								["Dodge"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 0,
+								},
+								["Crit"] = {
+									["count"] = 0,
+								},
+								["Parry"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["HOTs"] = {
+					},
+					["ManaGain"] = 0,
+					["ElementTaken"] = {
+						["Melee"] = 0,
+					},
+					["DOT_Time"] = 0,
+					["Damage"] = 0,
+					["ElementDoneAbsorb"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["PartialAbsorb"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Absorbed"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["RageGain"] = 0,
+					["FAttacks"] = {
+					},
+					["PartialBlock"] = {
+					},
+					["ElementDone"] = {
+						["Melee"] = 0,
+						["Holy"] = 0,
+					},
+					["CCBroken"] = {
 					},
 					["ElementHitsDone"] = {
 						["Melee"] = {
 							["Details"] = {
 								["Glancing"] = {
-									["count"] = 6,
-								},
-								["Hit"] = {
-									["count"] = 128,
-								},
-								["Dodge"] = {
-									["count"] = 3,
+									["count"] = 0,
 								},
 								["Crit"] = {
-									["count"] = 41,
+									["count"] = 0,
 								},
-								["Parry"] = {
-									["count"] = 2,
+								["Hit"] = {
+									["count"] = 0,
 								},
 							},
-							["amount"] = 180,
+							["amount"] = 0,
 						},
 						["Holy"] = {
 							["Details"] = {
 								["Crit"] = {
-									["count"] = 16,
+									["count"] = 0,
 								},
 								["Hit"] = {
-									["count"] = 280,
+									["count"] = 0,
 								},
 							},
-							["amount"] = 296,
+							["amount"] = 0,
 						},
+					},
+					["Dispelled"] = 0,
+					["WhoDamaged"] = {
+						["Harvest Watcher"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Young Goretusk"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["FDamagedWho"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+						["Pufarin"] = {
+							["Details"] = {
+								["Swift Hand of Justice"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["OverHeals"] = {
+						["Swift Hand of Justice"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["RageGained"] = {
+					},
+					["ActiveTime"] = 0,
+					["CCBreak"] = 0,
+					["EnergyGain"] = 0,
+					["WhoHealed"] = {
+						["Bliess"] = {
+							["Details"] = {
+								["Renew"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Adamsandler"] = {
+							["Details"] = {
+								["Judgement of Light"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Pufarin"] = {
+							["Details"] = {
+								["Swift Hand of Justice"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["PartialResist"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["ManaGained"] = {
+						["Judgement of Wisdom"] = {
+							["Details"] = {
+								["Pufarin"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ElementTakenAbsorb"] = {
+						["Melee"] = 0,
+					},
+					["Interrupts"] = 0,
+					["Overhealing"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["InterruptData"] = {
+					},
+					["WhoDispelled"] = {
+					},
+					["TimeSpent"] = {
+						["Young Fleshripper"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Young Goretusk"] = {
+							["Details"] = {
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Harvest Watcher"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Pufarin"] = {
+							["Details"] = {
+								["Swift Hand of Justice"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["Heals"] = {
+						["Swift Hand of Justice"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["FDamage"] = 0,
+					["EnergyGained"] = {
+					},
+					["HealedWho"] = {
+						["Pufarin"] = {
+							["Details"] = {
+								["Swift Hand of Justice"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["Healing"] = 0,
+					["RunicPowerGained"] = {
+					},
+					["ManaGainedFrom"] = {
+						["Pufarin"] = {
+							["Details"] = {
+								["Judgement of Wisdom"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["Attacks"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Glancing"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Seal of Righteousness"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Judgement of Righteousness"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["HealingTaken"] = 0,
+					["DamagedWho"] = {
+						["Young Fleshripper"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Harvest Watcher"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Young Goretusk"] = {
+							["Details"] = {
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["TimeDamage"] = 0,
+					["TimeDamaging"] = {
+						["Young Fleshripper"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Harvest Watcher"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Young Goretusk"] = {
+							["Details"] = {
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["RunicPowerGain"] = 0,
+					["ElementTakenBlock"] = {
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["Fight1"] = {
+					["DOTs"] = {
+					},
+					["ElementDoneResist"] = {
+						["Holy"] = 0,
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 22,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Absorb"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 2,
+								},
+								["Dodge"] = {
+									["count"] = 0,
+								},
+								["Miss"] = {
+									["count"] = 0,
+								},
+								["Crit"] = {
+									["count"] = 0,
+								},
+								["Parry"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 3,
+						},
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["HOTs"] = {
+						["Judgement of Light"] = {
+							["Details"] = {
+								["Pufarin"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ManaGain"] = 5,
+					["ElementTaken"] = {
+						["Melee"] = 22,
+					},
+					["DOT_Time"] = 0,
+					["Damage"] = 356,
+					["ElementDoneAbsorb"] = {
+					},
+					["TimeHeal"] = 1.86,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["PartialAbsorb"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 3,
+									["amount"] = 0,
+								},
+								["Absorbed"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 3,
+							["amount"] = 0,
+						},
+					},
+					["RageGain"] = 0,
+					["FAttacks"] = {
+					},
+					["PartialBlock"] = {
+					},
+					["ElementDone"] = {
+						["Melee"] = 256,
+						["Holy"] = 100,
+					},
+					["CCBroken"] = {
+					},
+					["ElementHitsDone"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Crit"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 3,
+								},
+							},
+							["amount"] = 3,
+						},
+						["Holy"] = {
+							["Details"] = {
+								["Crit"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 5,
+								},
+							},
+							["amount"] = 5,
+						},
+					},
+					["Dispelled"] = 0,
+					["WhoDamaged"] = {
+						["Mangy Wolf"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Defias Cutpurse"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Defias Trapper"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Young Fleshripper"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Harvest Watcher"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Young Goretusk"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 22,
+								},
+							},
+							["amount"] = 22,
+						},
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["FDamagedWho"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDoneBlock"] = {
+						["Melee"] = 0,
+					},
+					["TimeHealing"] = {
+						["Pufarin"] = {
+							["Details"] = {
+								["Swift Hand of Justice"] = {
+									["count"] = 1.86,
+								},
+								["Judgement of Light"] = {
+									["count"] = 0,
+								},
+								["Holy Strength"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 1.86,
+						},
+					},
+					["OverHeals"] = {
+						["Swift Hand of Justice"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Judgement of Light"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Holy Strength"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["RageGained"] = {
+					},
+					["ActiveTime"] = 8.899999999999999,
+					["CCBreak"] = 0,
+					["EnergyGain"] = 0,
+					["WhoHealed"] = {
+						["Pufarin"] = {
+							["Details"] = {
+								["Swift Hand of Justice"] = {
+									["count"] = 22,
+								},
+								["Judgement of Light"] = {
+									["count"] = 0,
+								},
+								["Holy Strength"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 22,
+						},
+					},
+					["PartialResist"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 3,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 3,
+							["amount"] = 0,
+						},
+					},
+					["ManaGained"] = {
+						["Judgement of Wisdom"] = {
+							["Details"] = {
+								["Pufarin"] = {
+									["count"] = 5,
+								},
+							},
+							["amount"] = 5,
+						},
+					},
+					["ElementTakenAbsorb"] = {
+						["Melee"] = 0,
+					},
+					["Interrupts"] = 0,
+					["Overhealing"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["InterruptData"] = {
+					},
+					["WhoDispelled"] = {
+					},
+					["TimeSpent"] = {
+						["Mangy Wolf"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Tunneler"] = {
+							["Details"] = {
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Harvest Watcher"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Young Goretusk"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 5.94,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 1.1,
+								},
+							},
+							["amount"] = 7.039999999999999,
+						},
+						["Young Fleshripper"] = {
+							["Details"] = {
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Riverpaw Outrunner"] = {
+							["Details"] = {
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Pufarin"] = {
+							["Details"] = {
+								["Swift Hand of Justice"] = {
+									["count"] = 1.86,
+								},
+								["Judgement of Light"] = {
+									["count"] = 0,
+								},
+								["Holy Strength"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 1.86,
+						},
+						["Defias Trapper"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Defias Cutpurse"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["Heals"] = {
+						["Swift Hand of Justice"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 11,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 22,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 22,
+						},
+						["Judgement of Light"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Holy Strength"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["FDamage"] = 0,
+					["EnergyGained"] = {
+					},
+					["HealedWho"] = {
+						["Pufarin"] = {
+							["Details"] = {
+								["Swift Hand of Justice"] = {
+									["count"] = 22,
+								},
+								["Judgement of Light"] = {
+									["count"] = 0,
+								},
+								["Holy Strength"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 22,
+						},
+					},
+					["Healing"] = 22,
+					["RunicPowerGained"] = {
+					},
+					["ManaGainedFrom"] = {
+						["Pufarin"] = {
+							["Details"] = {
+								["Judgement of Wisdom"] = {
+									["count"] = 5,
+								},
+							},
+							["amount"] = 5,
+						},
+					},
+					["Attacks"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Hit (Blocked)"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 96,
+									["min"] = 0,
+									["count"] = 3,
+									["amount"] = 256,
+								},
+							},
+							["count"] = 3,
+							["amount"] = 256,
+						},
+						["Seal of Righteousness"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 15,
+									["min"] = 0,
+									["count"] = 4,
+									["amount"] = 60,
+								},
+							},
+							["count"] = 4,
+							["amount"] = 60,
+						},
+						["Judgement of Righteousness"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 40,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 40,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 40,
+						},
+					},
+					["HealingTaken"] = 22,
+					["DamagedWho"] = {
+						["Mangy Wolf"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Defias Cutpurse"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Riverpaw Outrunner"] = {
+							["Details"] = {
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Tunneler"] = {
+							["Details"] = {
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Young Fleshripper"] = {
+							["Details"] = {
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Defias Trapper"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Harvest Watcher"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Young Goretusk"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 256,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 60,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 40,
+								},
+							},
+							["amount"] = 356,
+						},
+					},
+					["TimeDamage"] = 7.039999999999999,
+					["TimeDamaging"] = {
+						["Mangy Wolf"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Defias Cutpurse"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Riverpaw Outrunner"] = {
+							["Details"] = {
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Tunneler"] = {
+							["Details"] = {
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Young Fleshripper"] = {
+							["Details"] = {
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Defias Trapper"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Harvest Watcher"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Young Goretusk"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 5.94,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 1.1,
+								},
+							},
+							["amount"] = 7.039999999999999,
+						},
+					},
+					["RunicPowerGain"] = 0,
+					["ElementTakenBlock"] = {
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["Fight4"] = {
+					["DOTs"] = {
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 0,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 0,
+								},
+								["Absorb"] = {
+									["count"] = 1,
+								},
+								["Parry"] = {
+									["count"] = 1,
+								},
+								["Dodge"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 2,
+						},
+						["Nature"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["HOTs"] = {
+					},
+					["ManaGain"] = 0,
+					["ElementTaken"] = {
+						["Melee"] = 0,
+					},
+					["DOT_Time"] = 0,
+					["Damage"] = 326,
+					["ElementDoneAbsorb"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["PartialAbsorb"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+								["Absorbed"] = {
+									["max"] = 15,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 15,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 15,
+						},
+						["Tetanus"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["RageGain"] = 0,
+					["FAttacks"] = {
+					},
+					["PartialBlock"] = {
+					},
+					["ElementDone"] = {
+						["Melee"] = 246,
+						["Holy"] = 80,
+					},
+					["CCBroken"] = {
+					},
+					["ElementHitsDone"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Crit"] = {
+									["count"] = 1,
+								},
+								["Hit"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 2,
+						},
+						["Holy"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 4,
+								},
+							},
+							["amount"] = 4,
+						},
+					},
+					["Dispelled"] = 0,
+					["WhoDamaged"] = {
+						["Rusty Harvest Golem"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["FDamagedWho"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+						["Pufarin"] = {
+							["Details"] = {
+								["Swift Hand of Justice"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["OverHeals"] = {
+						["Swift Hand of Justice"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 9,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 18,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 18,
+						},
+					},
+					["RageGained"] = {
+					},
+					["ActiveTime"] = 6.91,
+					["CCBreak"] = 0,
+					["EnergyGain"] = 0,
+					["WhoHealed"] = {
+						["Pufarin"] = {
+							["Details"] = {
+								["Swift Hand of Justice"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["PartialResist"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 0,
+						},
+						["Tetanus"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["ManaGained"] = {
+						["Judgement of Wisdom"] = {
+							["Details"] = {
+								["Pufarin"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ElementTakenAbsorb"] = {
+						["Melee"] = 15,
+					},
+					["Interrupts"] = 0,
+					["Overhealing"] = 18,
+					["ElementTakenResist"] = {
+					},
+					["InterruptData"] = {
+					},
+					["WhoDispelled"] = {
+					},
+					["TimeSpent"] = {
+						["Rusty Harvest Golem"] = {
+							["Details"] = {
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Harvest Watcher"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 6.810000000000001,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0.1,
+								},
+							},
+							["amount"] = 6.91,
+						},
+						["Pufarin"] = {
+							["Details"] = {
+								["Swift Hand of Justice"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["Heals"] = {
+						["Swift Hand of Justice"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["FDamage"] = 0,
+					["EnergyGained"] = {
+					},
+					["HealedWho"] = {
+						["Pufarin"] = {
+							["Details"] = {
+								["Swift Hand of Justice"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["Healing"] = 0,
+					["RunicPowerGained"] = {
+					},
+					["ManaGainedFrom"] = {
+						["Pufarin"] = {
+							["Details"] = {
+								["Judgement of Wisdom"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["Attacks"] = {
+						["Seal of Righteousness"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 14,
+									["min"] = 0,
+									["count"] = 3,
+									["amount"] = 42,
+								},
+							},
+							["count"] = 3,
+							["amount"] = 42,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 172,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 172,
+								},
+								["Hit"] = {
+									["max"] = 74,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 74,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 246,
+						},
+						["Judgement of Righteousness"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 38,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 38,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 38,
+						},
+					},
+					["HealingTaken"] = 0,
+					["DamagedWho"] = {
+						["Rusty Harvest Golem"] = {
+							["Details"] = {
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Harvest Watcher"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 246,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 42,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 38,
+								},
+							},
+							["amount"] = 326,
+						},
+					},
+					["TimeDamage"] = 6.91,
+					["TimeDamaging"] = {
+						["Rusty Harvest Golem"] = {
+							["Details"] = {
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Harvest Watcher"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 6.810000000000001,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0.1,
+								},
+							},
+							["amount"] = 6.91,
+						},
+					},
+					["RunicPowerGain"] = 0,
+					["ElementTakenBlock"] = {
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["LastFightData"] = {
+					["DOTs"] = {
+					},
+					["ElementDoneResist"] = {
+						["Holy"] = 0,
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 22,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Absorb"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 2,
+								},
+								["Dodge"] = {
+									["count"] = 0,
+								},
+								["Miss"] = {
+									["count"] = 0,
+								},
+								["Crit"] = {
+									["count"] = 0,
+								},
+								["Parry"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 3,
+						},
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["HOTs"] = {
+						["Judgement of Light"] = {
+							["Details"] = {
+								["Pufarin"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ManaGain"] = 5,
+					["ElementTaken"] = {
+						["Melee"] = 22,
+					},
+					["DOT_Time"] = 0,
+					["Damage"] = 356,
+					["ElementDoneAbsorb"] = {
+					},
+					["TimeHeal"] = 1.86,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["PartialAbsorb"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 3,
+									["amount"] = 0,
+								},
+								["Absorbed"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 3,
+							["amount"] = 0,
+						},
+					},
+					["RageGain"] = 0,
+					["FAttacks"] = {
+					},
+					["PartialBlock"] = {
+					},
+					["ElementDone"] = {
+						["Melee"] = 256,
+						["Holy"] = 100,
+					},
+					["CCBroken"] = {
+					},
+					["ElementHitsDone"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Crit"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 3,
+								},
+							},
+							["amount"] = 3,
+						},
+						["Holy"] = {
+							["Details"] = {
+								["Crit"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 5,
+								},
+							},
+							["amount"] = 5,
+						},
+					},
+					["Dispelled"] = 0,
+					["WhoDamaged"] = {
+						["Mangy Wolf"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Defias Cutpurse"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Defias Trapper"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Young Fleshripper"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Harvest Watcher"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Young Goretusk"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 22,
+								},
+							},
+							["amount"] = 22,
+						},
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["FDamagedWho"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDoneBlock"] = {
+						["Melee"] = 0,
+					},
+					["TimeHealing"] = {
+						["Pufarin"] = {
+							["Details"] = {
+								["Swift Hand of Justice"] = {
+									["count"] = 1.86,
+								},
+								["Judgement of Light"] = {
+									["count"] = 0,
+								},
+								["Holy Strength"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 1.86,
+						},
+					},
+					["OverHeals"] = {
+						["Swift Hand of Justice"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Judgement of Light"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Holy Strength"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["RageGained"] = {
+					},
+					["ActiveTime"] = 8.899999999999999,
+					["CCBreak"] = 0,
+					["EnergyGain"] = 0,
+					["WhoHealed"] = {
+						["Pufarin"] = {
+							["Details"] = {
+								["Swift Hand of Justice"] = {
+									["count"] = 22,
+								},
+								["Judgement of Light"] = {
+									["count"] = 0,
+								},
+								["Holy Strength"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 22,
+						},
+					},
+					["PartialResist"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 3,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 3,
+							["amount"] = 0,
+						},
+					},
+					["ManaGained"] = {
+						["Judgement of Wisdom"] = {
+							["Details"] = {
+								["Pufarin"] = {
+									["count"] = 5,
+								},
+							},
+							["amount"] = 5,
+						},
+					},
+					["ElementTakenAbsorb"] = {
+						["Melee"] = 0,
+					},
+					["Interrupts"] = 0,
+					["Overhealing"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["InterruptData"] = {
+					},
+					["WhoDispelled"] = {
+					},
+					["TimeSpent"] = {
+						["Mangy Wolf"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Tunneler"] = {
+							["Details"] = {
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Harvest Watcher"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Young Goretusk"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 5.94,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 1.1,
+								},
+							},
+							["amount"] = 7.039999999999999,
+						},
+						["Young Fleshripper"] = {
+							["Details"] = {
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Riverpaw Outrunner"] = {
+							["Details"] = {
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Pufarin"] = {
+							["Details"] = {
+								["Swift Hand of Justice"] = {
+									["count"] = 1.86,
+								},
+								["Judgement of Light"] = {
+									["count"] = 0,
+								},
+								["Holy Strength"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 1.86,
+						},
+						["Defias Trapper"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Defias Cutpurse"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["Heals"] = {
+						["Swift Hand of Justice"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 11,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 22,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 22,
+						},
+						["Judgement of Light"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Holy Strength"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["FDamage"] = 0,
+					["EnergyGained"] = {
+					},
+					["HealedWho"] = {
+						["Pufarin"] = {
+							["Details"] = {
+								["Swift Hand of Justice"] = {
+									["count"] = 22,
+								},
+								["Judgement of Light"] = {
+									["count"] = 0,
+								},
+								["Holy Strength"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 22,
+						},
+					},
+					["Healing"] = 22,
+					["RunicPowerGained"] = {
+					},
+					["ManaGainedFrom"] = {
+						["Pufarin"] = {
+							["Details"] = {
+								["Judgement of Wisdom"] = {
+									["count"] = 5,
+								},
+							},
+							["amount"] = 5,
+						},
+					},
+					["Attacks"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Hit (Blocked)"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 96,
+									["min"] = 0,
+									["count"] = 3,
+									["amount"] = 256,
+								},
+							},
+							["count"] = 3,
+							["amount"] = 256,
+						},
+						["Seal of Righteousness"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 15,
+									["min"] = 0,
+									["count"] = 4,
+									["amount"] = 60,
+								},
+							},
+							["count"] = 4,
+							["amount"] = 60,
+						},
+						["Judgement of Righteousness"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 40,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 40,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 40,
+						},
+					},
+					["HealingTaken"] = 22,
+					["DamagedWho"] = {
+						["Mangy Wolf"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Defias Cutpurse"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Riverpaw Outrunner"] = {
+							["Details"] = {
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Tunneler"] = {
+							["Details"] = {
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Young Fleshripper"] = {
+							["Details"] = {
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Defias Trapper"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Harvest Watcher"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Young Goretusk"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 256,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 60,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 40,
+								},
+							},
+							["amount"] = 356,
+						},
+					},
+					["TimeDamage"] = 7.039999999999999,
+					["TimeDamaging"] = {
+						["Mangy Wolf"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Defias Cutpurse"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Riverpaw Outrunner"] = {
+							["Details"] = {
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Tunneler"] = {
+							["Details"] = {
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Young Fleshripper"] = {
+							["Details"] = {
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Defias Trapper"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Harvest Watcher"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Young Goretusk"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 5.94,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 1.1,
+								},
+							},
+							["amount"] = 7.039999999999999,
+						},
+					},
+					["RunicPowerGain"] = 0,
+					["ElementTakenBlock"] = {
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["Fight2"] = {
+					["DOTs"] = {
+					},
+					["ElementDoneResist"] = {
+						["Holy"] = 0,
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 70,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Absorb"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 5,
+								},
+								["Miss"] = {
+									["count"] = 1,
+								},
+								["Dodge"] = {
+									["count"] = 0,
+								},
+								["Parry"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 6,
+						},
+						["Physical"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["HOTs"] = {
+						["Judgement of Light"] = {
+							["Details"] = {
+								["Pufarin"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ManaGain"] = 10,
+					["ElementTaken"] = {
+						["Melee"] = 70,
+						["Physical"] = 0,
+					},
+					["DOT_Time"] = 0,
+					["Damage"] = 355,
+					["ElementDoneAbsorb"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["PartialAbsorb"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 6,
+									["amount"] = 0,
+								},
+								["Absorbed"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 6,
+							["amount"] = 0,
+						},
+						["Throw"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["RageGain"] = 0,
+					["FAttacks"] = {
+					},
+					["PartialBlock"] = {
+					},
+					["ElementDone"] = {
+						["Melee"] = 255,
+						["Holy"] = 100,
+					},
+					["CCBroken"] = {
+					},
+					["ElementHitsDone"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 3,
+								},
+								["Crit"] = {
+									["count"] = 0,
+								},
+								["Dodge"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 4,
+						},
+						["Holy"] = {
+							["Details"] = {
+								["Crit"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 5,
+								},
+							},
+							["amount"] = 5,
+						},
+					},
+					["Dispelled"] = 0,
+					["WhoDamaged"] = {
+						["Defias Smuggler"] = {
+							["Details"] = {
+								["Throw"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Riverpaw Outrunner"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Tunneler"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Defias Trapper"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Harvest Watcher"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 70,
+								},
+							},
+							["amount"] = 70,
+						},
+						["Young Goretusk"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["FDamagedWho"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+						["Bliess"] = {
+							["Details"] = {
+								["Holy Light"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Pufarin"] = {
+							["Details"] = {
+								["Judgement of Light"] = {
+									["count"] = 0,
+								},
+								["Swift Hand of Justice"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["OverHeals"] = {
+						["Swift Hand of Justice"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Judgement of Light"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Holy Strength"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["RageGained"] = {
+					},
+					["ActiveTime"] = 14.03,
+					["CCBreak"] = 0,
+					["EnergyGain"] = 0,
+					["WhoHealed"] = {
+						["Pufarin"] = {
+							["Details"] = {
+								["Judgement of Light"] = {
+									["count"] = 0,
+								},
+								["Swift Hand of Justice"] = {
+									["count"] = 20,
+								},
+							},
+							["amount"] = 20,
+						},
+					},
+					["PartialResist"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 6,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 6,
+							["amount"] = 0,
+						},
+						["Throw"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["ManaGained"] = {
+						["Judgement of Wisdom"] = {
+							["Details"] = {
+								["Pufarin"] = {
+									["count"] = 10,
+								},
+							},
+							["amount"] = 10,
+						},
+					},
+					["ElementTakenAbsorb"] = {
+						["Melee"] = 0,
+					},
+					["Interrupts"] = 0,
+					["Overhealing"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["InterruptData"] = {
+					},
+					["WhoDispelled"] = {
+					},
+					["TimeSpent"] = {
+						["Defias Smuggler"] = {
+							["Details"] = {
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Tunneler"] = {
+							["Details"] = {
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Coyote"] = {
+							["Details"] = {
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Young Goretusk"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Bliess"] = {
+							["Details"] = {
+								["Holy Light"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Riverpaw Outrunner"] = {
+							["Details"] = {
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Pufarin"] = {
+							["Details"] = {
+								["Judgement of Light"] = {
+									["count"] = 0,
+								},
+								["Swift Hand of Justice"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Harvest Watcher"] = {
+							["Details"] = {
+								["Seal of Righteousness"] = {
+									["count"] = 10.43,
+								},
+								["Melee"] = {
+									["count"] = 0.1,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 3.5,
+								},
+							},
+							["amount"] = 14.03,
+						},
+						["Defias Trapper"] = {
+							["Details"] = {
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["Heals"] = {
+						["Holy Light"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Judgement of Light"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Swift Hand of Justice"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 10,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 20,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 20,
+						},
+					},
+					["FDamage"] = 0,
+					["EnergyGained"] = {
+					},
+					["HealedWho"] = {
+						["Bliess"] = {
+							["Details"] = {
+								["Holy Light"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Pufarin"] = {
+							["Details"] = {
+								["Judgement of Light"] = {
+									["count"] = 0,
+								},
+								["Swift Hand of Justice"] = {
+									["count"] = 20,
+								},
+							},
+							["amount"] = 20,
+						},
+					},
+					["Healing"] = 20,
+					["RunicPowerGained"] = {
+					},
+					["ManaGainedFrom"] = {
+						["Pufarin"] = {
+							["Details"] = {
+								["Judgement of Wisdom"] = {
+									["count"] = 10,
+								},
+							},
+							["amount"] = 10,
+						},
+					},
+					["Attacks"] = {
+						["Seal of Righteousness"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 15,
+									["min"] = 0,
+									["count"] = 4,
+									["amount"] = 60,
+								},
+							},
+							["count"] = 4,
+							["amount"] = 60,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 94,
+									["min"] = 0,
+									["count"] = 3,
+									["amount"] = 255,
+								},
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Dodge"] = {
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 4,
+							["amount"] = 255,
+						},
+						["Judgement of Righteousness"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 40,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 40,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 40,
+						},
+					},
+					["HealingTaken"] = 20,
+					["DamagedWho"] = {
+						["Defias Smuggler"] = {
+							["Details"] = {
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Riverpaw Outrunner"] = {
+							["Details"] = {
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Tunneler"] = {
+							["Details"] = {
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Defias Trapper"] = {
+							["Details"] = {
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Coyote"] = {
+							["Details"] = {
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Harvest Watcher"] = {
+							["Details"] = {
+								["Seal of Righteousness"] = {
+									["count"] = 60,
+								},
+								["Melee"] = {
+									["count"] = 255,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 40,
+								},
+							},
+							["amount"] = 355,
+						},
+						["Young Goretusk"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["TimeDamage"] = 14.03,
+					["TimeDamaging"] = {
+						["Defias Smuggler"] = {
+							["Details"] = {
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Riverpaw Outrunner"] = {
+							["Details"] = {
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Tunneler"] = {
+							["Details"] = {
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Defias Trapper"] = {
+							["Details"] = {
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Coyote"] = {
+							["Details"] = {
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Harvest Watcher"] = {
+							["Details"] = {
+								["Seal of Righteousness"] = {
+									["count"] = 10.43,
+								},
+								["Melee"] = {
+									["count"] = 0.1,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 3.5,
+								},
+							},
+							["amount"] = 14.03,
+						},
+						["Young Goretusk"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["RunicPowerGain"] = 0,
+					["ElementTakenBlock"] = {
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["Fight3"] = {
+					["DOTs"] = {
+					},
+					["ElementDoneResist"] = {
+						["Holy"] = 22,
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 106,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 7,
+								},
+								["Absorb"] = {
+									["count"] = 2,
+								},
+								["Dodge"] = {
+									["count"] = 2,
+								},
+								["Parry"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 12,
+						},
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["HOTs"] = {
+						["Judgement of Light"] = {
+							["Details"] = {
+								["Pufarin"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ManaGain"] = 25,
+					["ElementTaken"] = {
+						["Melee"] = 106,
+					},
+					["DOT_Time"] = 0,
+					["Damage"] = 1566,
+					["ElementDoneAbsorb"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["PartialAbsorb"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 9,
+									["amount"] = 0,
+								},
+								["Absorbed"] = {
+									["max"] = 16,
+									["min"] = 0,
+									["count"] = 3,
+									["amount"] = 33,
+								},
+							},
+							["count"] = 12,
+							["amount"] = 33,
+						},
+					},
+					["RageGain"] = 0,
+					["FAttacks"] = {
+					},
+					["PartialBlock"] = {
+					},
+					["ElementDone"] = {
+						["Melee"] = 1084,
+						["Holy"] = 482,
+					},
+					["CCBroken"] = {
+					},
+					["ElementHitsDone"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Glancing"] = {
+									["count"] = 1,
+								},
+								["Hit"] = {
+									["count"] = 8,
+								},
+								["Crit"] = {
+									["count"] = 3,
+								},
+								["Dodge"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 13,
+						},
+						["Holy"] = {
+							["Details"] = {
+								["Crit"] = {
+									["count"] = 2,
+								},
+								["Hit"] = {
+									["count"] = 20,
+								},
+							},
+							["amount"] = 22,
+						},
+					},
+					["Dispelled"] = 0,
+					["WhoDamaged"] = {
+						["Riverpaw Outrunner"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Tunneler"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Miner"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Coyote"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Harvest Watcher"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 106,
+								},
+							},
+							["amount"] = 106,
+						},
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["FDamagedWho"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDoneBlock"] = {
+						["Melee"] = 7,
+					},
+					["TimeHealing"] = {
+						["Pufarin"] = {
+							["Details"] = {
+								["Judgement of Light"] = {
+									["count"] = 0,
+								},
+								["Swift Hand of Justice"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["OverHeals"] = {
+						["Swift Hand of Justice"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 4,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 4,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 4,
+						},
+						["Judgement of Light"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Holy Strength"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["RageGained"] = {
+					},
+					["ActiveTime"] = 45.93,
+					["CCBreak"] = 0,
+					["EnergyGain"] = 0,
+					["WhoHealed"] = {
+						["Pufarin"] = {
+							["Details"] = {
+								["Judgement of Light"] = {
+									["count"] = 0,
+								},
+								["Swift Hand of Justice"] = {
+									["count"] = 68,
+								},
+							},
+							["amount"] = 68,
+						},
+					},
+					["PartialResist"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 12,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 12,
+							["amount"] = 0,
+						},
+					},
+					["ManaGained"] = {
+						["Judgement of Wisdom"] = {
+							["Details"] = {
+								["Pufarin"] = {
+									["count"] = 25,
+								},
+							},
+							["amount"] = 25,
+						},
+					},
+					["ElementTakenAbsorb"] = {
+						["Melee"] = 33,
+					},
+					["Interrupts"] = 0,
+					["Overhealing"] = 4,
+					["ElementTakenResist"] = {
+					},
+					["InterruptData"] = {
+					},
+					["WhoDispelled"] = {
+					},
+					["TimeSpent"] = {
+						["Riverpaw Outrunner"] = {
+							["Details"] = {
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Tunneler"] = {
+							["Details"] = {
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Miner"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Pufarin"] = {
+							["Details"] = {
+								["Judgement of Light"] = {
+									["count"] = 0,
+								},
+								["Swift Hand of Justice"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Harvest Watcher"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 3.39,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 31.21,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 11.33,
+								},
+							},
+							["amount"] = 45.93,
+						},
+						["Coyote"] = {
+							["Details"] = {
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["Heals"] = {
+						["Judgement of Light"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Swift Hand of Justice"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 9,
+									["min"] = 0,
+									["count"] = 8,
+									["amount"] = 68,
+								},
+							},
+							["count"] = 8,
+							["amount"] = 68,
+						},
+					},
+					["FDamage"] = 0,
+					["EnergyGained"] = {
+					},
+					["HealedWho"] = {
+						["Pufarin"] = {
+							["Details"] = {
+								["Judgement of Light"] = {
+									["count"] = 0,
+								},
+								["Swift Hand of Justice"] = {
+									["count"] = 68,
+								},
+							},
+							["amount"] = 68,
+						},
+					},
+					["Healing"] = 68,
+					["RunicPowerGained"] = {
+					},
+					["ManaGainedFrom"] = {
+						["Pufarin"] = {
+							["Details"] = {
+								["Judgement of Wisdom"] = {
+									["count"] = 25,
+								},
+							},
+							["amount"] = 25,
+						},
+					},
+					["Attacks"] = {
+						["Seal of Righteousness"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 14,
+									["min"] = 0,
+									["count"] = 17,
+									["amount"] = 222,
+								},
+							},
+							["count"] = 17,
+							["amount"] = 222,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Glancing"] = {
+									["max"] = 54,
+									["min"] = 54,
+									["count"] = 1,
+									["amount"] = 54,
+								},
+								["Hit"] = {
+									["max"] = 84,
+									["min"] = 0,
+									["count"] = 7,
+									["amount"] = 543,
+								},
+								["Hit (Blocked)"] = {
+									["max"] = 75,
+									["min"] = 75,
+									["count"] = 1,
+									["amount"] = 75,
+								},
+								["Crit"] = {
+									["max"] = 154,
+									["min"] = 0,
+									["count"] = 3,
+									["amount"] = 412,
+								},
+								["Dodge"] = {
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 13,
+							["amount"] = 1084,
+						},
+						["Judgement of Righteousness"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 76,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 152,
+								},
+								["Hit"] = {
+									["max"] = 38,
+									["min"] = 0,
+									["count"] = 3,
+									["amount"] = 108,
+								},
+							},
+							["count"] = 5,
+							["amount"] = 260,
+						},
+					},
+					["HealingTaken"] = 68,
+					["DamagedWho"] = {
+						["Riverpaw Outrunner"] = {
+							["Details"] = {
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Tunneler"] = {
+							["Details"] = {
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Miner"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Coyote"] = {
+							["Details"] = {
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Harvest Watcher"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 1084,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 222,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 260,
+								},
+							},
+							["amount"] = 1566,
+						},
+					},
+					["TimeDamage"] = 45.93,
+					["TimeDamaging"] = {
+						["Riverpaw Outrunner"] = {
+							["Details"] = {
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Tunneler"] = {
+							["Details"] = {
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Miner"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Coyote"] = {
+							["Details"] = {
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Harvest Watcher"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 3.39,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 31.21,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 11.33,
+								},
+							},
+							["amount"] = 45.93,
+						},
+					},
+					["RunicPowerGain"] = 0,
+					["ElementTakenBlock"] = {
+					},
+					["DispelledWho"] = {
 					},
 				},
 			},
-			["UnitLockout"] = 1634926834,
-			["LastActive"] = 1634929808,
+			["NextEventNum"] = 49,
+			["LastEventHealthNum"] = {
+				96.99398797595191, -- [1]
+				96.99398797595191, -- [2]
+				96.99398797595191, -- [3]
+				93.98797595190381, -- [4]
+				93.98797595190381, -- [5]
+				93.98797595190381, -- [6]
+				90.98196392785572, -- [7]
+				92.78557114228457, -- [8]
+				94.58917835671343, -- [9]
+				94.58917835671343, -- [10]
+				97.79559118236473, -- [11]
+				97.79559118236473, -- [12]
+				97.79559118236473, -- [13]
+				97.79559118236473, -- [14]
+				97.79559118236473, -- [15]
+				100, -- [16]
+				100, -- [17]
+				100, -- [18]
+				100, -- [19]
+				100, -- [20]
+				100, -- [21]
+				97.38317757009345, -- [22]
+				97.38317757009345, -- [23]
+				94.95327102803738, -- [24]
+				94.95327102803738, -- [25]
+				94.95327102803738, -- [26]
+				92.14953271028037, -- [27]
+				89.53271028037383, -- [28]
+				89.53271028037383, -- [29]
+				89.53271028037383, -- [30]
+				89.53271028037383, -- [31]
+				86.91588785046729, -- [32]
+				88.78504672897196, -- [33]
+				90.65420560747664, -- [34]
+				90.65420560747664, -- [35]
+				99.29203539823008, -- [36]
+				99.29203539823008, -- [37]
+				99.29203539823008, -- [38]
+				97.34513274336283, -- [39]
+				97.34513274336283, -- [40]
+				97.34513274336283, -- [41]
+				95.39823008849558, -- [42]
+				95.39823008849558, -- [43]
+				95.39823008849558, -- [44]
+				97.34513274336283, -- [45]
+				99.29203539823008, -- [46]
+				99.29203539823008, -- [47]
+				99.29203539823008, -- [48]
+				100, -- [49]
+				100, -- [50]
+			},
+			["LastEvents"] = {
+				"Pufarin Seal of Righteousness Harvest Watcher Hit -12 (2 resisted) (Holy)", -- [1]
+				"Pufarin Melee Harvest Watcher Crit -124 (Physical)", -- [2]
+				"Harvest Watcher Melee Pufarin Hit -15 (Physical)", -- [3]
+				"Pufarin Judgement of Righteousness Harvest Watcher Hit -35 (3 resisted) (Holy)", -- [4]
+				"Pufarin Seal of Righteousness Harvest Watcher Hit -12 (2 resisted) (Holy)", -- [5]
+				"Harvest Watcher Melee Pufarin Hit -15 (Physical)", -- [6]
+				"Pufarin Seal of Righteousness Harvest Watcher Hit -14 (Holy)", -- [7]
+				"Pufarin Swift Hand of Justice Pufarin Hit +9", -- [8]
+				"Pufarin Swift Hand of Justice Pufarin Hit +9", -- [9]
+				"Pufarin Melee Harvest Watcher Hit -75 (Physical)", -- [10]
+				"Pufarin Seal of Righteousness Harvest Watcher Hit -14 (Holy)", -- [11]
+				"Pufarin Melee Harvest Watcher Hit -80 (Physical)", -- [12]
+				"Pufarin Melee Harvest Watcher Dodge", -- [13]
+				"Pufarin Judgement of Righteousness Harvest Watcher Crit -76 (Holy)", -- [14]
+				"Pufarin Seal of Righteousness Harvest Watcher Hit -14 (Holy)", -- [15]
+				"Pufarin Holy Light Bliess Hit +103 (103 overheal)", -- [16]
+				"Pufarin Holy Light Bliess Hit +120 (120 overheal)", -- [17]
+				"Bliess Lesser Heal Pufarin Hit +147 (147 overheal)", -- [18]
+				"Pufarin Judgement of Righteousness Harvest Watcher Hit -40 (Holy)", -- [19]
+				"Pufarin Seal of Righteousness Harvest Watcher Hit -15 (Holy)", -- [20]
+				"Harvest Watcher Melee Pufarin Hit -14 (Physical)", -- [21]
+				"Pufarin Melee Harvest Watcher Dodge", -- [22]
+				"Harvest Watcher Melee Pufarin Hit -13 (Physical)", -- [23]
+				"Pufarin Seal of Righteousness Harvest Watcher Hit -15 (Holy)", -- [24]
+				"Pufarin Melee Harvest Watcher Hit -88 (Physical)", -- [25]
+				"Harvest Watcher Melee Pufarin Hit -15 (Physical)", -- [26]
+				"Harvest Watcher Melee Pufarin Hit -14 (Physical)", -- [27]
+				"Pufarin Seal of Righteousness Harvest Watcher Hit -15 (Holy)", -- [28]
+				"Pufarin Melee Harvest Watcher Hit -73 (Physical)", -- [29]
+				"Harvest Watcher Melee Pufarin Miss", -- [30]
+				"Harvest Watcher Melee Pufarin Hit -14 (Physical)", -- [31]
+				"Pufarin Seal of Righteousness Harvest Watcher Hit -15 (Holy)", -- [32]
+				"Pufarin Swift Hand of Justice Pufarin Hit +10", -- [33]
+				"Pufarin Swift Hand of Justice Pufarin Hit +10", -- [34]
+				"Pufarin Melee Harvest Watcher Hit -94 (Physical)", -- [35]
+				"Pufarin Seal of Righteousness Young Goretusk Hit -15 (Holy)", -- [36]
+				"Pufarin Melee Young Goretusk Hit -90 (Physical)", -- [37]
+				"Young Goretusk Melee Pufarin Hit -11 (Physical)", -- [38]
+				"Pufarin Judgement of Righteousness Young Goretusk Hit -40 (Holy)", -- [39]
+				"Pufarin Seal of Righteousness Young Goretusk Hit -15 (Holy)", -- [40]
+				"Young Goretusk Melee Pufarin Hit -11 (Physical)", -- [41]
+				"Pufarin Seal of Righteousness Young Goretusk Hit -15 (Holy)", -- [42]
+				"Pufarin Melee Young Goretusk Hit -70 (Physical)", -- [43]
+				"Young Goretusk Melee Pufarin Parry", -- [44]
+				"Pufarin Swift Hand of Justice Pufarin Hit +11", -- [45]
+				"Pufarin Swift Hand of Justice Pufarin Hit +11", -- [46]
+				"Pufarin Seal of Righteousness Young Goretusk Hit -15 (Holy)", -- [47]
+				"Pufarin Melee Young Goretusk Hit -96 (Physical)", -- [48]
+				"Pufarin Melee Harvest Watcher Hit -71 (Physical)", -- [49]
+				"Harvest Watcher Melee Pufarin Hit -15 (Physical)", -- [50]
+			},
+			["Name"] = "Pufarin",
+			["LastDamageTaken"] = 11,
+			["LastEventIncoming"] = {
+				false, -- [1]
+				false, -- [2]
+				true, -- [3]
+				false, -- [4]
+				false, -- [5]
+				true, -- [6]
+				false, -- [7]
+				true, -- [8]
+				true, -- [9]
+				false, -- [10]
+				false, -- [11]
+				false, -- [12]
+				false, -- [13]
+				false, -- [14]
+				false, -- [15]
+				false, -- [16]
+				false, -- [17]
+				true, -- [18]
+				false, -- [19]
+				false, -- [20]
+				true, -- [21]
+				false, -- [22]
+				true, -- [23]
+				false, -- [24]
+				false, -- [25]
+				true, -- [26]
+				true, -- [27]
+				false, -- [28]
+				false, -- [29]
+				true, -- [30]
+				true, -- [31]
+				false, -- [32]
+				true, -- [33]
+				true, -- [34]
+				false, -- [35]
+				false, -- [36]
+				false, -- [37]
+				true, -- [38]
+				false, -- [39]
+				false, -- [40]
+				true, -- [41]
+				false, -- [42]
+				false, -- [43]
+				true, -- [44]
+				true, -- [45]
+				true, -- [46]
+				false, -- [47]
+				false, -- [48]
+				false, -- [49]
+				true, -- [50]
+			},
+			["TimeLast"] = {
+				["TimeHeal"] = 1634929808,
+				["OVERALL"] = 1634929808,
+				["DamageTaken"] = 1634929804,
+				["Healing"] = 1634929808,
+				["HealingTaken"] = 1634929808,
+				["Overhealing"] = 1634929578,
+				["TimeDamage"] = 1634929808,
+				["ActiveTime"] = 1634929808,
+				["ManaGain"] = 1634929806,
+				["HOT_Time"] = 1634928511,
+				["Damage"] = 1634929808,
+			},
+			["LastEventTimes"] = {
+				5648.293, -- [1]
+				5648.293, -- [2]
+				5648.398, -- [3]
+				5648.696, -- [4]
+				5648.696, -- [5]
+				5650.432, -- [6]
+				5651.648, -- [7]
+				5651.649, -- [8]
+				5651.649, -- [9]
+				5651.650000000001, -- [10]
+				5655.134, -- [11]
+				5655.135, -- [12]
+				5658.496, -- [13]
+				5659.073, -- [14]
+				5659.073, -- [15]
+				5742.258, -- [16]
+				5745.8, -- [17]
+				5748.426, -- [18]
+				5794.677, -- [19]
+				5794.677, -- [20]
+				5794.697, -- [21]
+				5794.78, -- [22]
+				5796.663000000001, -- [23]
+				5798.295, -- [24]
+				5798.296, -- [25]
+				5798.67, -- [26]
+				5800.587, -- [27]
+				5801.782, -- [28]
+				5801.782, -- [29]
+				5802.698, -- [30]
+				5804.657, -- [31]
+				5805.227, -- [32]
+				5805.228, -- [33]
+				5805.228, -- [34]
+				5805.229, -- [35]
+				5845.448, -- [36]
+				5845.448, -- [37]
+				5845.469, -- [38]
+				5846.553, -- [39]
+				5846.553, -- [40]
+				5847.414, -- [41]
+				5848.99, -- [42]
+				5848.991, -- [43]
+				5849.511, -- [44]
+				5850.853, -- [45]
+				5850.853, -- [46]
+				5850.854, -- [47]
+				5850.854, -- [48]
+				5644.855000000001, -- [49]
+				5646.404000000001, -- [50]
+			},
+			["LastAbility"] = 230.048,
 		},
 	},
 	["FightNum"] = 53,
