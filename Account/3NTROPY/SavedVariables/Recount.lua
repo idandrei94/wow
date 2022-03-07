@@ -34,9 +34,7 @@ RecountDB = {
 					["h"] = 310.999972303168,
 				},
 			},
-			["DetailWindowX"] = 566.8148343684995,
-			["LastInstanceName"] = "Violet Hold",
-			["CurDataSet"] = "LastFightData",
+			["ReportLines"] = 1,
 			["Colors"] = {
 				["Bar"] = {
 					["Bar Text"] = {
@@ -48,10 +46,12 @@ RecountDB = {
 				},
 			},
 			["DetailWindowY"] = -270.407407815198,
-			["MainWindowHeight"] = 310.8518969696999,
-			["MainWindowWidth"] = 251.4197662784027,
-			["ReportLines"] = 1,
+			["DetailWindowX"] = 566.8148343684995,
+			["LastInstanceName"] = "Vault of Archavon",
+			["CurDataSet"] = "LastFightData",
 			["GraphWindowX"] = 0,
+			["MainWindowWidth"] = 251.4197662784027,
+			["MainWindowHeight"] = 310.8518969696999,
 		},
 		["Vrael - Icecrown"] = {
 			["GraphWindowY"] = 0,
@@ -268,8 +268,8 @@ RecountDB = {
 				},
 			},
 			["DetailWindowX"] = 74.99999883741693,
-			["LastInstanceName"] = "Trial of the Crusader",
-			["CurDataSet"] = "LastFightData",
+			["LastInstanceName"] = "Icecrown Citadel",
+			["CurDataSet"] = "Fight1",
 			["Colors"] = {
 				["Bar"] = {
 					["Bar Text"] = {
@@ -281,6 +281,7 @@ RecountDB = {
 				},
 			},
 			["DetailWindowY"] = -194.6666296463744,
+			["MainWindowVis"] = false,
 			["GraphWindowX"] = 0,
 			["MainWindowWidth"] = 247.3703663456547,
 			["MainWindowHeight"] = 317.6297135990283,
@@ -321,7 +322,9 @@ RecountDB = {
 					["x"] = -628.5186425324451,
 				},
 			},
-			["ReportLines"] = 2,
+			["DetailWindowX"] = 655.7037672683764,
+			["LastInstanceName"] = "Icecrown Citadel",
+			["CurDataSet"] = "LastFightData",
 			["Colors"] = {
 				["Bar"] = {
 					["Bar Text"] = {
@@ -333,10 +336,8 @@ RecountDB = {
 				},
 			},
 			["DetailWindowY"] = -296.7037172773043,
-			["DetailWindowX"] = 655.7037672683764,
-			["LastInstanceName"] = "Icecrown Citadel",
-			["CurDataSet"] = "LastFightData",
 			["GraphWindowX"] = 0,
+			["ReportLines"] = 2,
 			["MainWindowWidth"] = 260.0000123097031,
 			["MainWindowHeight"] = 328.7999999452902,
 		},
