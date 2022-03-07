@@ -16,12 +16,12 @@ RecountDB = {
 		["Noobschmoq - Icecrown"] = "Noobschmoq - Icecrown",
 		["Lingurita - Lordaeron"] = "Lingurita - Lordaeron",
 		["Mirceabravo - Blackrock [PvP only]"] = "Mirceabravo - Blackrock [PvP only]",
-		["Pufarin - Icecrown"] = "Pufarin - Icecrown",
+		["Maciucaru - Icecrown"] = "Maciucaru - Icecrown",
 		["Gligor - Icecrown"] = "Gligor - Icecrown",
 		["Rakhnis - Icecrown"] = "Rakhnis - Icecrown",
 		["Mirceabravo - Icecrown"] = "Mirceabravo - Icecrown",
 		["Praxia - Icecrown"] = "Praxia - Icecrown",
-		["Maciucaru - Icecrown"] = "Maciucaru - Icecrown",
+		["Pufarin - Icecrown"] = "Pufarin - Icecrown",
 		["Izanagi - Icecrown"] = "Izanagi - Icecrown",
 	},
 	["profiles"] = {
@@ -35,7 +35,9 @@ RecountDB = {
 					["h"] = 310.999972303168,
 				},
 			},
-			["ReportLines"] = 1,
+			["DetailWindowX"] = 566.8148343684995,
+			["LastInstanceName"] = "Arathi Basin",
+			["CurDataSet"] = "LastFightData",
 			["Colors"] = {
 				["Bar"] = {
 					["Bar Text"] = {
@@ -47,12 +49,10 @@ RecountDB = {
 				},
 			},
 			["DetailWindowY"] = -270.407407815198,
-			["DetailWindowX"] = 566.8148343684995,
-			["LastInstanceName"] = "Pit of Saron",
-			["CurDataSet"] = "LastFightData",
-			["GraphWindowX"] = 0,
-			["MainWindowWidth"] = 251.4197662784027,
 			["MainWindowHeight"] = 310.8518969696999,
+			["MainWindowWidth"] = 251.4197662784027,
+			["ReportLines"] = 1,
+			["GraphWindowX"] = 0,
 		},
 		["Vrael - Icecrown"] = {
 			["GraphWindowY"] = 0,
@@ -268,9 +268,6 @@ RecountDB = {
 					["x"] = -637.1666980678075,
 				},
 			},
-			["DetailWindowX"] = 74.99999883741693,
-			["LastInstanceName"] = "Icecrown Citadel",
-			["CurDataSet"] = "Fight1",
 			["Colors"] = {
 				["Bar"] = {
 					["Bar Text"] = {
@@ -282,8 +279,11 @@ RecountDB = {
 				},
 			},
 			["DetailWindowY"] = -194.6666296463744,
-			["MainWindowVis"] = false,
+			["DetailWindowX"] = 74.99999883741693,
 			["GraphWindowX"] = 0,
+			["MainWindowVis"] = false,
+			["LastInstanceName"] = "Arathi Basin",
+			["CurDataSet"] = "OverallData",
 			["MainWindowWidth"] = 247.3703663456547,
 			["MainWindowHeight"] = 317.6297135990283,
 		},
@@ -434,25 +434,33 @@ RecountDB = {
 			["GraphWindowX"] = 0,
 			["MainWindowVis"] = false,
 		},
-		["Pufarin - Icecrown"] = {
+		["Maciucaru - Icecrown"] = {
 			["GraphWindowY"] = 0,
 			["MainWindow"] = {
 				["Position"] = {
-					["w"] = 140.0000106684094,
-					["h"] = 200.0000027354896,
+					["y"] = 156.6954257348431,
+					["x"] = -560.8539355933082,
+					["w"] = 238.0000759098358,
+					["h"] = 277.0000164813247,
 				},
 			},
+			["DetailWindowX"] = 0,
+			["LastInstanceName"] = "Icecrown Citadel",
+			["CurDataSet"] = "LastFightData",
 			["Colors"] = {
 				["Bar"] = {
 					["Bar Text"] = {
 						["a"] = 1,
 					},
+					["Total Bar"] = {
+						["a"] = 1,
+					},
 				},
 			},
 			["DetailWindowY"] = 0,
-			["CurDataSet"] = "OverallData",
 			["GraphWindowX"] = 0,
-			["DetailWindowX"] = 0,
+			["MainWindowWidth"] = 237.8127110108764,
+			["MainWindowHeight"] = 277.3143752700402,
 		},
 		["Gligor - Icecrown"] = {
 			["GraphWindowY"] = 0,
@@ -516,7 +524,7 @@ RecountDB = {
 			},
 			["DetailWindowX"] = 112.9876419471188,
 			["LastInstanceName"] = "Vault of Archavon",
-			["GraphWindowX"] = 0,
+			["DetailWindowY"] = -124.0493402990752,
 			["CurDataSet"] = "LastFightData",
 			["Colors"] = {
 				["Bar"] = {
@@ -528,7 +536,7 @@ RecountDB = {
 					},
 				},
 			},
-			["DetailWindowY"] = -124.0493402990752,
+			["GraphWindowX"] = 0,
 			["MainWindowVis"] = false,
 			["MainWindowMode"] = 5,
 			["MainWindowWidth"] = 256.148530518934,
@@ -562,33 +570,25 @@ RecountDB = {
 			["MainWindowWidth"] = 260.8889019888445,
 			["GraphWindowX"] = 0,
 		},
-		["Maciucaru - Icecrown"] = {
+		["Pufarin - Icecrown"] = {
 			["GraphWindowY"] = 0,
 			["MainWindow"] = {
 				["Position"] = {
-					["y"] = 156.6954257348431,
-					["x"] = -560.8539355933082,
-					["w"] = 238.0000759098358,
-					["h"] = 277.0000164813247,
+					["w"] = 140.0000106684094,
+					["h"] = 200.0000027354896,
 				},
 			},
-			["DetailWindowX"] = 0,
-			["LastInstanceName"] = "Icecrown Citadel",
-			["CurDataSet"] = "LastFightData",
 			["Colors"] = {
 				["Bar"] = {
 					["Bar Text"] = {
 						["a"] = 1,
 					},
-					["Total Bar"] = {
-						["a"] = 1,
-					},
 				},
 			},
 			["DetailWindowY"] = 0,
+			["CurDataSet"] = "OverallData",
 			["GraphWindowX"] = 0,
-			["MainWindowWidth"] = 237.8127110108764,
-			["MainWindowHeight"] = 277.3143752700402,
+			["DetailWindowX"] = 0,
 		},
 		["Izanagi - Icecrown"] = {
 			["GraphWindowY"] = 0,
