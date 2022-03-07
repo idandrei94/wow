@@ -16,14 +16,14 @@ Quartz3DB = {
 				},
 			},
 		},
+		["EnemyCasts"] = {
+		},
 		["Player"] = {
 			["profiles"] = {
 				["Default"] = {
 					["x"] = 557.6666906585209,
 				},
 			},
-		},
-		["EnemyCasts"] = {
 		},
 		["GCD"] = {
 		},
@@ -45,9 +45,9 @@ Quartz3DB = {
 				},
 			},
 		},
-		["Mirror"] = {
-		},
 		["Range"] = {
+		},
+		["Mirror"] = {
 		},
 		["Latency"] = {
 		},
@@ -64,17 +64,17 @@ Quartz3DB = {
 		["Urgash - Icecrown"] = "Default",
 		["Ulrezaj - Icecrown"] = "Default",
 		["Pocaitoru - Icecrown"] = "Default",
-		["Izanagi - Icecrown"] = "Default",
-		["Maciucaru - Icecrown"] = "Default",
+		["Kalaam - Icecrown"] = "Default",
+		["Drext - Icecrown"] = "Default",
 		["Gligor - Icecrown"] = "Default",
 		["Mirceabravo - Blackrock [PvP only]"] = "Default",
 		["Pufarin - Icecrown"] = "Default",
-		["Praxia - Icecrown"] = "Default",
+		["Lingurita - Lordaeron"] = "Default",
 		["Rakhnis - Icecrown"] = "Default",
 		["Mirceabravo - Icecrown"] = "Default",
-		["Lingurita - Lordaeron"] = "Default",
-		["Drext - Icecrown"] = "Default",
-		["Kalaam - Icecrown"] = "Default",
+		["Praxia - Icecrown"] = "Default",
+		["Maciucaru - Icecrown"] = "Default",
+		["Izanagi - Icecrown"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {
