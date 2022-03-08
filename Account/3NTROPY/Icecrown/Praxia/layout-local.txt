@@ -83,10 +83,3 @@ X: 15
 Y: 37
 W: 930
 H: 544
-Frame: BagnonFrameinventory
-FrameLevel: 1
-Anchor: RIGHT
-X: -90
-Y: 71
-W: 627
-H: 386

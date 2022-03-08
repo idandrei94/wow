@@ -12,16 +12,16 @@ GladiusDB = {
 		["Urgash - Icecrown"] = "Urgash - Icecrown",
 		["Ulrezaj - Icecrown"] = "Ulrezaj - Icecrown",
 		["Pocaitoru - Icecrown"] = "Pocaitoru - Icecrown",
-		["Izanagi - Icecrown"] = "Izanagi - Icecrown",
+		["Pufarin - Icecrown"] = "Pufarin - Icecrown",
 		["Lingurita - Lordaeron"] = "Lingurita - Lordaeron",
 		["Mirceabravo - Blackrock [PvP only]"] = "Mirceabravo - Blackrock [PvP only]",
 		["Maciucaru - Icecrown"] = "Maciucaru - Icecrown",
-		["Drext - Icecrown"] = "Drext - Icecrown",
-		["Praxia - Icecrown"] = "Praxia - Icecrown",
-		["Mirceabravo - Icecrown"] = "Mirceabravo - Icecrown",
-		["Nalar - Icecrown"] = "Nalar - Icecrown",
 		["Kalaam - Icecrown"] = "Kalaam - Icecrown",
-		["Pufarin - Icecrown"] = "Pufarin - Icecrown",
+		["Nalar - Icecrown"] = "Nalar - Icecrown",
+		["Mirceabravo - Icecrown"] = "Mirceabravo - Icecrown",
+		["Praxia - Icecrown"] = "Praxia - Icecrown",
+		["Drext - Icecrown"] = "Drext - Icecrown",
+		["Izanagi - Icecrown"] = "Izanagi - Icecrown",
 	},
 	["profiles"] = {
 		["Rimgar - Icecrown"] = {
@@ -66,8 +66,8 @@ GladiusDB = {
 		},
 		["Urgash - Icecrown"] = {
 			["locked"] = true,
-			["y"] = 531.2111095225328,
 			["x"] = 1078.949820798114,
+			["y"] = 531.2111095225328,
 		},
 		["Ulrezaj - Icecrown"] = {
 			["locked"] = true,
@@ -79,10 +79,7 @@ GladiusDB = {
 			["x"] = 1068.283355016582,
 			["y"] = 591.6555710886522,
 		},
-		["Izanagi - Icecrown"] = {
-			["locked"] = true,
-			["x"] = 1115.216434712108,
-			["y"] = 551.122181785011,
+		["Pufarin - Icecrown"] = {
 		},
 		["Lingurita - Lordaeron"] = {
 			["locked"] = true,
@@ -95,32 +92,35 @@ GladiusDB = {
 			["x"] = 1049.500140519296,
 			["y"] = 529.9999838625041,
 		},
-		["Drext - Icecrown"] = {
+		["Kalaam - Icecrown"] = {
 			["locked"] = true,
-			["x"] = 1050.499960681949,
-			["y"] = 522.0000221548672,
-		},
-		["Praxia - Icecrown"] = {
-			["locked"] = true,
-			["x"] = 969.0531028795333,
-			["y"] = 556.2828637883971,
-		},
-		["Mirceabravo - Icecrown"] = {
-			["locked"] = true,
-			["x"] = 1055.500041779703,
-			["y"] = 523.9999425614554,
+			["x"] = 1094.593424388484,
+			["y"] = 553.2556640183522,
 		},
 		["Nalar - Icecrown"] = {
 			["locked"] = true,
 			["x"] = 1091.038524034304,
 			["y"] = 556.8110685779587,
 		},
-		["Kalaam - Icecrown"] = {
+		["Mirceabravo - Icecrown"] = {
 			["locked"] = true,
-			["x"] = 1094.593424388484,
-			["y"] = 553.2556640183522,
+			["x"] = 1055.500041779703,
+			["y"] = 523.9999425614554,
 		},
-		["Pufarin - Icecrown"] = {
+		["Praxia - Icecrown"] = {
+			["locked"] = true,
+			["y"] = 556.2828637883971,
+			["x"] = 969.0531028795333,
+		},
+		["Drext - Icecrown"] = {
+			["locked"] = true,
+			["x"] = 1050.499960681949,
+			["y"] = 522.0000221548672,
+		},
+		["Izanagi - Icecrown"] = {
+			["locked"] = true,
+			["x"] = 1115.216434712108,
+			["y"] = 551.122181785011,
 		},
 	},
 }
