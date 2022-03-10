@@ -35,9 +35,7 @@ RecountDB = {
 					["h"] = 310.999972303168,
 				},
 			},
-			["DetailWindowX"] = 566.8148343684995,
-			["LastInstanceName"] = "Arathi Basin",
-			["CurDataSet"] = "LastFightData",
+			["ReportLines"] = 1,
 			["Colors"] = {
 				["Bar"] = {
 					["Bar Text"] = {
@@ -49,10 +47,12 @@ RecountDB = {
 				},
 			},
 			["DetailWindowY"] = -270.407407815198,
-			["MainWindowHeight"] = 310.8518969696999,
-			["MainWindowWidth"] = 251.4197662784027,
-			["ReportLines"] = 1,
+			["DetailWindowX"] = 566.8148343684995,
+			["LastInstanceName"] = "Pit of Saron",
+			["CurDataSet"] = "CurrentFightData",
 			["GraphWindowX"] = 0,
+			["MainWindowWidth"] = 251.4197662784027,
+			["MainWindowHeight"] = 310.8518969696999,
 		},
 		["Vrael - Icecrown"] = {
 			["GraphWindowY"] = 0,
@@ -262,12 +262,15 @@ RecountDB = {
 			["GraphWindowY"] = 0,
 			["MainWindow"] = {
 				["Position"] = {
-					["y"] = 146.1110331116652,
+					["y"] = 175.8888461164698,
 					["h"] = 317.9999894683651,
-					["w"] = 247.0000029406513,
-					["x"] = -637.1666980678075,
+					["w"] = 247.0000554620512,
+					["x"] = -635.8333197812622,
 				},
 			},
+			["DetailWindowX"] = 74.40742614297815,
+			["LastInstanceName"] = "Trial of the Crusader",
+			["CurDataSet"] = "OverallData",
 			["Colors"] = {
 				["Bar"] = {
 					["Bar Text"] = {
@@ -279,12 +282,9 @@ RecountDB = {
 				},
 			},
 			["DetailWindowY"] = -165.0369795107044,
-			["DetailWindowX"] = 74.40742614297815,
-			["LastInstanceName"] = "The Ruby Sanctum",
-			["CurDataSet"] = "LastFightData",
-			["GraphWindowX"] = 0,
-			["MainWindowWidth"] = 247.3703663456547,
 			["MainWindowHeight"] = 317.6297135990283,
+			["MainWindowWidth"] = 247.3703663456547,
+			["GraphWindowX"] = 0,
 		},
 		["Ulrezaj - Icecrown"] = {
 			["GraphWindowY"] = 0,
@@ -565,9 +565,9 @@ RecountDB = {
 				},
 			},
 			["DetailWindowY"] = 3.999978116083373,
-			["MainWindowHeight"] = 337.3333968878745,
-			["MainWindowWidth"] = 260.8889019888445,
 			["GraphWindowX"] = 0,
+			["MainWindowWidth"] = 260.8889019888445,
+			["MainWindowHeight"] = 337.3333968878745,
 		},
 		["Pufarin - Icecrown"] = {
 			["GraphWindowY"] = 0,

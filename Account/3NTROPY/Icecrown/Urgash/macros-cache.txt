@@ -13,9 +13,7 @@ END
 MACRO 16777219 "ce" INV_Misc_QuestionMark
 #showtooltip
 /cast [nopet] raise dead
-/target pet
 /cast Corpse Explosion
-/targetlasttarget
 END
 MACRO 16777218 "chain" INV_Misc_QuestionMark
 #showtooltip chains of ice
