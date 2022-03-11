@@ -25,8 +25,8 @@ FrameLevel: 1
 Anchor: TOP
 X: -102
 Y: -101
-W: 352
-H: 199
+W: 285
+H: 242
 Frame: DBMMinimapButton
 FrameLevel: 3
 Anchor: TOPRIGHT
@@ -56,9 +56,9 @@ Y: 28
 W: 328
 H: 457
 Frame: Recount_MainWindow
-FrameLevel: 38
+FrameLevel: 30
 Anchor: TOPLEFT
-X: -1
+X: 0
 Y: -92
 W: 247
 H: 318

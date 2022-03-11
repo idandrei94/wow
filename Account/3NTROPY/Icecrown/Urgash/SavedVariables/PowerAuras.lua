@@ -56,7 +56,7 @@ PowaSet = {
 			["a"] = 1,
 			["ShowActivation"] = true,
 		},
-		["InactiveDueToState"] = false,
+		["InactiveDueToState"] = true,
 		["owntex"] = true,
 		["isResting"] = false,
 		["duration"] = 0,
