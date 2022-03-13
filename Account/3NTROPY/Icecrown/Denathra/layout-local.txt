@@ -25,8 +25,8 @@ FrameLevel: 1
 Anchor: CENTER
 X: -7
 Y: -43
-W: 251
-H: 215
+W: 187
+H: 173
 Frame: DBMMinimapButton
 FrameLevel: 3
 Anchor: TOPRIGHT
@@ -63,7 +63,7 @@ Y: -134
 W: 239
 H: 290
 Frame: Recount_DetailWindow
-FrameLevel: 43
+FrameLevel: 37
 Anchor: LEFT
 X: 62
 Y: 23
@@ -76,6 +76,13 @@ X: 138
 Y: -2
 W: 162
 H: 20
+Frame: TomTomCrazyArrow
+FrameLevel: 1
+Anchor: CENTER
+X: 2
+Y: -54
+W: 56
+H: 42
 Frame: WowLuaFrame
 FrameLevel: 7
 Anchor: TOP

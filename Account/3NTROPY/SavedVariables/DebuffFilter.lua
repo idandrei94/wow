@@ -1140,12 +1140,12 @@ DebuffFilter_Config = {
 		["lock"] = false,
 		["cooldowncount"] = false,
 	},
-	["Maciucaru - Icecrown"] = {
+	["Pufarin - Icecrown"] = {
 		["fdebuff_layout"] = {
 			["grow"] = "rightdown",
 			["per_row"] = 8,
-			["time_tb"] = "bottom",
 			["time_lr"] = "right",
+			["time_tb"] = "bottom",
 		},
 		["debuffs"] = true,
 		["combat"] = false,
@@ -1154,14 +1154,14 @@ DebuffFilter_Config = {
 		["debuff_layout"] = {
 			["grow"] = "rightdown",
 			["per_row"] = 8,
-			["time_tb"] = "bottom",
 			["time_lr"] = "right",
+			["time_tb"] = "bottom",
 		},
 		["pbuff_layout"] = {
 			["grow"] = "rightdown",
 			["per_row"] = 8,
-			["time_tb"] = "bottom",
 			["time_lr"] = "right",
+			["time_tb"] = "bottom",
 		},
 		["pdebuff_list"] = {
 			["Bloodboil"] = {
@@ -1185,8 +1185,8 @@ DebuffFilter_Config = {
 		["fbuff_layout"] = {
 			["grow"] = "rightdown",
 			["per_row"] = 8,
-			["time_tb"] = "bottom",
 			["time_lr"] = "right",
+			["time_tb"] = "bottom",
 		},
 		["all_fdebuffs"] = false,
 		["fdebuffs"] = false,
@@ -1198,41 +1198,41 @@ DebuffFilter_Config = {
 		["pbuff_list"] = {
 			["Battle Shout"] = {
 			},
-			["Adrenaline Rush"] = {
+			["Blade Flurry"] = {
 			},
 			["Lightning Speed"] = {
 			},
-			["Blade Flurry"] = {
+			["Adrenaline Rush"] = {
 			},
 		},
-		["lock"] = false,
-		["fbuff_list"] = {
-			["Fear Ward"] = {
-			},
+		["all_pdebuffs"] = false,
+		["buffs"] = false,
+		["buff_layout"] = {
+			["grow"] = "rightdown",
+			["per_row"] = 8,
+			["time_lr"] = "right",
+			["time_tb"] = "bottom",
 		},
-		["tooltips"] = true,
+		["pdebuff_layout"] = {
+			["grow"] = "rightdown",
+			["per_row"] = 8,
+			["time_lr"] = "right",
+			["time_tb"] = "bottom",
+		},
+		["fbuffs"] = false,
+		["count"] = false,
 		["buff_list"] = {
 			["Renew"] = {
 			},
 			["Rejuvenation"] = {
 			},
 		},
-		["fbuffs"] = false,
-		["pdebuff_layout"] = {
-			["grow"] = "rightdown",
-			["per_row"] = 8,
-			["time_tb"] = "bottom",
-			["time_lr"] = "right",
+		["tooltips"] = true,
+		["fbuff_list"] = {
+			["Fear Ward"] = {
+			},
 		},
-		["count"] = false,
-		["buff_layout"] = {
-			["grow"] = "rightdown",
-			["per_row"] = 8,
-			["time_tb"] = "bottom",
-			["time_lr"] = "right",
-		},
-		["buffs"] = false,
-		["all_pdebuffs"] = false,
+		["lock"] = false,
 		["cooldowncount"] = false,
 	},
 	["Lingurita - Lordaeron"] = {
@@ -1425,12 +1425,12 @@ DebuffFilter_Config = {
 		["lock"] = false,
 		["cooldowncount"] = false,
 	},
-	["Pufarin - Icecrown"] = {
+	["Maciucaru - Icecrown"] = {
 		["fdebuff_layout"] = {
 			["grow"] = "rightdown",
 			["per_row"] = 8,
-			["time_lr"] = "right",
 			["time_tb"] = "bottom",
+			["time_lr"] = "right",
 		},
 		["debuffs"] = true,
 		["combat"] = false,
@@ -1439,14 +1439,14 @@ DebuffFilter_Config = {
 		["debuff_layout"] = {
 			["grow"] = "rightdown",
 			["per_row"] = 8,
-			["time_lr"] = "right",
 			["time_tb"] = "bottom",
+			["time_lr"] = "right",
 		},
 		["pbuff_layout"] = {
 			["grow"] = "rightdown",
 			["per_row"] = 8,
-			["time_lr"] = "right",
 			["time_tb"] = "bottom",
+			["time_lr"] = "right",
 		},
 		["pdebuff_list"] = {
 			["Bloodboil"] = {
@@ -1470,8 +1470,8 @@ DebuffFilter_Config = {
 		["fbuff_layout"] = {
 			["grow"] = "rightdown",
 			["per_row"] = 8,
-			["time_lr"] = "right",
 			["time_tb"] = "bottom",
+			["time_lr"] = "right",
 		},
 		["all_fdebuffs"] = false,
 		["fdebuffs"] = false,
@@ -1483,41 +1483,41 @@ DebuffFilter_Config = {
 		["pbuff_list"] = {
 			["Battle Shout"] = {
 			},
-			["Blade Flurry"] = {
+			["Adrenaline Rush"] = {
 			},
 			["Lightning Speed"] = {
 			},
-			["Adrenaline Rush"] = {
+			["Blade Flurry"] = {
 			},
 		},
-		["all_pdebuffs"] = false,
-		["buffs"] = false,
-		["buff_layout"] = {
-			["grow"] = "rightdown",
-			["per_row"] = 8,
-			["time_lr"] = "right",
-			["time_tb"] = "bottom",
+		["lock"] = false,
+		["fbuff_list"] = {
+			["Fear Ward"] = {
+			},
 		},
-		["pdebuff_layout"] = {
-			["grow"] = "rightdown",
-			["per_row"] = 8,
-			["time_lr"] = "right",
-			["time_tb"] = "bottom",
-		},
-		["fbuffs"] = false,
-		["count"] = false,
+		["tooltips"] = true,
 		["buff_list"] = {
 			["Renew"] = {
 			},
 			["Rejuvenation"] = {
 			},
 		},
-		["tooltips"] = true,
-		["fbuff_list"] = {
-			["Fear Ward"] = {
-			},
+		["fbuffs"] = false,
+		["pdebuff_layout"] = {
+			["grow"] = "rightdown",
+			["per_row"] = 8,
+			["time_tb"] = "bottom",
+			["time_lr"] = "right",
 		},
-		["lock"] = false,
+		["count"] = false,
+		["buff_layout"] = {
+			["grow"] = "rightdown",
+			["per_row"] = 8,
+			["time_tb"] = "bottom",
+			["time_lr"] = "right",
+		},
+		["buffs"] = false,
+		["all_pdebuffs"] = false,
 		["cooldowncount"] = false,
 	},
 	["Praxia - Icecrown"] = {
