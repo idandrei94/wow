@@ -1,6 +1,6 @@
 
 WowLua_DB = {
-	["currentPage"] = 7,
+	["currentPage"] = 10,
 	["fontSize"] = 14,
 	["pages"] = {
 		{
@@ -41,6 +41,10 @@ WowLua_DB = {
 			["name"] = "itemid",
 			["content"] = "",
 		}, -- [9]
+		{
+			["name"] = "error clear",
+			["content"] = "UIErrorsFrame: UnregisterEvent(\"UI_ERROR_MESSAGE\");",
+		}, -- [10]
 	},
-	["untitled"] = 10,
+	["untitled"] = 11,
 }
