@@ -2,51 +2,26 @@
 RecountPerCharDB = {
 	["version"] = "1.3",
 	["combatants"] = {
-		["Sayyess"] = {
-			["type"] = "Ungrouped",
-			["Owner"] = false,
-			["enClass"] = "PALADIN",
-			["unit"] = "Sayyess",
-			["Name"] = "Sayyess",
-			["Fights"] = {
-			},
-			["level"] = 80,
-			["UnitLockout"] = 1647037749,
-			["LastFightIn"] = 0,
-		},
 		["Pocaitoru"] = {
 			["Fights"] = {
 			},
 			["type"] = "Self",
 			["Name"] = "Pocaitoru",
-			["UnitLockout"] = 1647037376,
+			["UnitLockout"] = 1647551270,
 			["level"] = 80,
 			["Owner"] = false,
 			["enClass"] = "PALADIN",
 			["LastFightIn"] = 0,
 		},
-		["Katheliin"] = {
-			["type"] = "Ungrouped",
-			["Owner"] = false,
-			["enClass"] = "MAGE",
-			["unit"] = "Katheliin",
-			["Name"] = "Katheliin",
+		["Bowlicious"] = {
 			["Fights"] = {
 			},
-			["level"] = 80,
-			["UnitLockout"] = 1647037432,
-			["LastFightIn"] = 0,
-		},
-		["Nannase"] = {
 			["type"] = "Ungrouped",
-			["Owner"] = false,
-			["enClass"] = "PALADIN",
-			["unit"] = "Nannase",
-			["Name"] = "Nannase",
-			["Fights"] = {
-			},
+			["Name"] = "Bowlicious",
+			["UnitLockout"] = 1647551274,
 			["level"] = 80,
-			["UnitLockout"] = 1647037961,
+			["Owner"] = false,
+			["enClass"] = "HUNTER",
 			["LastFightIn"] = 0,
 		},
 	},
