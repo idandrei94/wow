@@ -5,16 +5,16 @@ DBM_SavedOptions = {
 	["DontSetIcons"] = false,
 	["BigBrotherAnnounceToRaid"] = false,
 	["ArrowPosX"] = 0,
-	["AutoRespond"] = true,
-	["WarningIconRight"] = true,
-	["SpecialWarningSound"] = "Sound\\Spells\\PVPFlagTaken.wav",
 	["HealthFrameLocked"] = false,
+	["AutoRespond"] = true,
+	["SpecialWarningSound"] = "Sound\\Spells\\PVPFlagTaken.wav",
+	["WarningIconRight"] = true,
 	["HealthFrameGrowUp"] = false,
 	["StatusEnabled"] = true,
 	["RangeFrameFrames"] = "radar",
-	["RangeFrameRadarX"] = 100,
+	["RangeFrameRadarX"] = 157.4815660486352,
 	["ShowBigBrotherOnCombatStart"] = false,
-	["RangeFrameRadarY"] = -100,
+	["RangeFrameRadarY"] = -119.5554430053566,
 	["ArrowPosY"] = -150,
 	["BlockVersionUpdatePopup"] = true,
 	["PullTimerCountdown"] = true,
@@ -54,14 +54,18 @@ DBM_SavedOptions = {
 	["ShowFakedRaidWarnings"] = false,
 	["LatencyThreshold"] = 250,
 	["DontSendBossAnnounces"] = false,
-	["RangeFrameSound1"] = "none",
+	["RangeFrameLocked"] = false,
 	["RangeFrameRadarPoint"] = "CENTER",
 	["HPFrameMaxEntries"] = 5,
 	["TTSEnabled"] = true,
 	["HealthFrameBarTexture"] = "Interface\\PaperDollInfoFrame\\UI-Character-Skills-Bar",
 	["RangeFramePoint"] = "BOTTOM",
 	["SpecialWarningPoint"] = "CENTER",
-	["RangeFrameLocked"] = false,
+	["SpecialWarningFontColor"] = {
+		0, -- [1]
+		0, -- [2]
+		1, -- [3]
+	},
 	["RaidWarningSound"] = "Sound\\Doodad\\BellTollNightElf.wav",
 	["CombatlogFixEnabled"] = true,
 	["DontSendBossWhispers"] = false,
@@ -80,11 +84,7 @@ DBM_SavedOptions = {
 	["HealthFrameWidth"] = 200,
 	["SpecialWarningY"] = 75,
 	["WarningIconLeft"] = true,
-	["SpecialWarningFontColor"] = {
-		0, -- [1]
-		0, -- [2]
-		1, -- [3]
-	},
+	["RangeFrameSound1"] = "none",
 	["HPFrameY"] = -6.177777142536309,
 	["FixCLEUOnCombatStart"] = false,
 	["PullDifficultyAnnounce"] = true,
