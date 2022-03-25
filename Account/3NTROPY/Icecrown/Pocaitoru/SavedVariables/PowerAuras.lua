@@ -163,7 +163,7 @@ PowaSet = {
 		["Instance10ManHeroic"] = 0,
 		["raid"] = false,
 		["texture"] = 8,
-		["slot"] = 9,
+		["slot"] = 66,
 		["alpha"] = 0.75,
 		["aurastext"] = "",
 		["InstanceBg"] = 0,
@@ -522,10 +522,10 @@ PowaMisc = {
 	["DefaultTimerTexture"] = "Original",
 	["AnimationFps"] = 30,
 	["Version"] = "3.0.0S",
-	["AllowInspections"] = true,
-	["DefaultStacksTexture"] = "Original",
-	["OnUpdateLimit"] = 0,
 	["debug"] = false,
+	["OnUpdateLimit"] = 0,
+	["DefaultStacksTexture"] = "Original",
+	["AllowInspections"] = true,
 }
 PowaTimer = {
 }
