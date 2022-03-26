@@ -12,7 +12,7 @@ RecountPerCharDB = {
 			},
 			["level"] = 80,
 			["UnitLockout"] = 1647551270,
-			["LastAbility"] = 6997.522,
+			["LastAbility"] = 4959.327,
 		},
 		["Bowlicious"] = {
 			["type"] = "Ungrouped",
@@ -24,7 +24,7 @@ RecountPerCharDB = {
 			},
 			["level"] = 80,
 			["UnitLockout"] = 1647551274,
-			["LastAbility"] = 6997.522,
+			["LastAbility"] = 4959.327,
 		},
 	},
 	["FightNum"] = 0,
