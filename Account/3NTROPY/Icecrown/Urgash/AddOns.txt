@@ -9,3 +9,4 @@ XPerl_Target: disabled
 XPerl_TargetTarget: disabled
 HalloGuyz: disabled
 HealBot: disabled
+PreformAVEnabler: enabled
