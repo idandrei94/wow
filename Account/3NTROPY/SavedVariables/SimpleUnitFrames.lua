@@ -1,10 +1,5 @@
 
 SimpleUnitFramesDB = {
-	["global"] = {
-		["overlayfont"] = {
-			["fontsize"] = 12,
-		},
-	},
 	["profileKeys"] = {
 		["Rimgar - Icecrown"] = "Rimgar - Icecrown",
 		["Praxia - Icecrown"] = "Praxia - Icecrown",
@@ -17,17 +12,22 @@ SimpleUnitFramesDB = {
 		["Urgash - Icecrown"] = "Urgash - Icecrown",
 		["Ulrezaj - Icecrown"] = "Ulrezaj - Icecrown",
 		["Pocaitoru - Icecrown"] = "Pocaitoru - Icecrown",
-		["Izanagi - Icecrown"] = "Izanagi - Icecrown",
-		["Maciucaru - Icecrown"] = "Maciucaru - Icecrown",
+		["Kalaam - Icecrown"] = "Kalaam - Icecrown",
+		["Drext - Icecrown"] = "Drext - Icecrown",
 		["Gligor - Icecrown"] = "Gligor - Icecrown",
 		["Mirceabravo - Blackrock [PvP only]"] = "Mirceabravo - Blackrock [PvP only]",
-		["Pufarin - Icecrown"] = "Pufarin - Icecrown",
-		["Vrael - Icecrown"] = "Vrael - Icecrown",
+		["Maciucaru - Icecrown"] = "Maciucaru - Icecrown",
+		["Lingurita - Lordaeron"] = "Lingurita - Lordaeron",
 		["Rakhnis - Icecrown"] = "Rakhnis - Icecrown",
 		["Mirceabravo - Icecrown"] = "Mirceabravo - Icecrown",
-		["Lingurita - Lordaeron"] = "Lingurita - Lordaeron",
-		["Drext - Icecrown"] = "Drext - Icecrown",
-		["Kalaam - Icecrown"] = "Kalaam - Icecrown",
+		["Vrael - Icecrown"] = "Vrael - Icecrown",
+		["Pufarin - Icecrown"] = "Pufarin - Icecrown",
+		["Izanagi - Icecrown"] = "Izanagi - Icecrown",
+	},
+	["global"] = {
+		["overlayfont"] = {
+			["fontsize"] = 12,
+		},
 	},
 	["profiles"] = {
 		["Rimgar - Icecrown"] = {
@@ -35,9 +35,9 @@ SimpleUnitFramesDB = {
 		["Praxia - Icecrown"] = {
 			["pet"] = {
 				["rmp"] = "MPpercent",
-				["mhp"] = "HPcurrmax",
-				["rhp"] = "HPpercent",
 				["mmp"] = "MPcurrmax",
+				["rhp"] = "HPpercent",
+				["mhp"] = "HPcurrmax",
 			},
 		},
 		["Nalar - Icecrown"] = {
@@ -58,27 +58,27 @@ SimpleUnitFramesDB = {
 		},
 		["Pocaitoru - Icecrown"] = {
 		},
-		["Izanagi - Icecrown"] = {
+		["Kalaam - Icecrown"] = {
 		},
-		["Maciucaru - Icecrown"] = {
+		["Drext - Icecrown"] = {
 		},
 		["Gligor - Icecrown"] = {
 		},
 		["Mirceabravo - Blackrock [PvP only]"] = {
 		},
-		["Pufarin - Icecrown"] = {
+		["Maciucaru - Icecrown"] = {
 		},
-		["Vrael - Icecrown"] = {
+		["Lingurita - Lordaeron"] = {
 		},
 		["Rakhnis - Icecrown"] = {
 		},
 		["Mirceabravo - Icecrown"] = {
 		},
-		["Lingurita - Lordaeron"] = {
+		["Vrael - Icecrown"] = {
 		},
-		["Drext - Icecrown"] = {
+		["Pufarin - Icecrown"] = {
 		},
-		["Kalaam - Icecrown"] = {
+		["Izanagi - Icecrown"] = {
 		},
 	},
 }
