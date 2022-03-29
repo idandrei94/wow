@@ -8,112 +8,12 @@ RecountPerCharDB = {
 			["FightsSaved"] = 2,
 			["Owner"] = false,
 			["enClass"] = "PALADIN",
+			["LastAbility"] = 34189.44,
 			["Name"] = "Dixi",
 			["lazysync"] = true,
+			["UnitLockout"] = 1648547740,
+			["level"] = 80,
 			["Fights"] = {
-				["LastFightData"] = {
-					["DOTs"] = {
-					},
-					["ElementDoneResist"] = {
-					},
-					["Ressed"] = 0,
-					["DamageTaken"] = 0,
-					["RageGainedFrom"] = {
-					},
-					["ElementHitsTaken"] = {
-					},
-					["DeathCount"] = 0,
-					["HOT_Time"] = 0,
-					["ElementHitsDone"] = {
-					},
-					["ElementTakenAbsorb"] = {
-					},
-					["ElementTaken"] = {
-					},
-					["DOT_Time"] = 0,
-					["Damage"] = 0,
-					["ElementTakenBlock"] = {
-					},
-					["TimeHeal"] = 0,
-					["RessedWho"] = {
-					},
-					["Dispels"] = 0,
-					["ElementTakenResist"] = {
-					},
-					["ElementDoneAbsorb"] = {
-					},
-					["FAttacks"] = {
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementDone"] = {
-					},
-					["PartialAbsorb"] = {
-					},
-					["DamagedWho"] = {
-					},
-					["PartialBlock"] = {
-					},
-					["WhoDamaged"] = {
-					},
-					["EnergyGainedFrom"] = {
-					},
-					["PartialResist"] = {
-					},
-					["CCBroken"] = {
-					},
-					["ElementDoneBlock"] = {
-					},
-					["TimeHealing"] = {
-					},
-					["OverHeals"] = {
-					},
-					["ManaGainedFrom"] = {
-					},
-					["RunicPowerGained"] = {
-					},
-					["CCBreak"] = 0,
-					["RageGained"] = {
-					},
-					["HealedWho"] = {
-					},
-					["EnergyGain"] = 0,
-					["ManaGained"] = {
-					},
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
-					["Overhealing"] = 0,
-					["TimeSpent"] = {
-					},
-					["WhoDispelled"] = {
-					},
-					["InterruptData"] = {
-					},
-					["RunicPowerGain"] = 0,
-					["Heals"] = {
-					},
-					["WhoHealed"] = {
-					},
-					["EnergyGained"] = {
-					},
-					["ActiveTime"] = 0,
-					["Healing"] = 0,
-					["FDamagedWho"] = {
-					},
-					["Dispelled"] = 0,
-					["Attacks"] = {
-					},
-					["HealingTaken"] = 0,
-					["RageGain"] = 0,
-					["TimeDamage"] = 0,
-					["TimeDamaging"] = {
-					},
-					["ManaGain"] = 0,
-					["HOTs"] = {
-					},
-					["DispelledWho"] = {
-					},
-				},
 				["CurrentFightData"] = {
 					["DOTs"] = {
 					},
@@ -127,43 +27,40 @@ RecountPerCharDB = {
 					},
 					["DeathCount"] = 0,
 					["HOT_Time"] = 0,
-					["ElementHitsDone"] = {
+					["HOTs"] = {
 					},
-					["ElementTakenAbsorb"] = {
-					},
+					["ManaGain"] = 0,
 					["ElementTaken"] = {
 					},
 					["DOT_Time"] = 0,
 					["Damage"] = 0,
-					["ElementTakenBlock"] = {
+					["ElementDoneAbsorb"] = {
 					},
 					["TimeHeal"] = 0,
 					["RessedWho"] = {
 					},
 					["Dispels"] = 0,
-					["ElementTakenResist"] = {
-					},
-					["ElementDoneAbsorb"] = {
-					},
-					["FAttacks"] = {
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementDone"] = {
-					},
 					["PartialAbsorb"] = {
 					},
-					["DamagedWho"] = {
+					["RageGain"] = 0,
+					["FAttacks"] = {
 					},
 					["PartialBlock"] = {
 					},
+					["ElementDone"] = {
+					},
+					["CCBroken"] = {
+					},
+					["ElementHitsDone"] = {
+					},
+					["Dispelled"] = 0,
 					["WhoDamaged"] = {
 					},
 					["EnergyGainedFrom"] = {
 					},
-					["PartialResist"] = {
+					["FDamagedWho"] = {
 					},
-					["CCBroken"] = {
+					["RunicPowerGainedFrom"] = {
 					},
 					["ElementDoneBlock"] = {
 					},
@@ -171,55 +68,159 @@ RecountPerCharDB = {
 					},
 					["OverHeals"] = {
 					},
-					["ManaGainedFrom"] = {
-					},
-					["RunicPowerGained"] = {
-					},
-					["CCBreak"] = 0,
 					["RageGained"] = {
 					},
-					["HealedWho"] = {
-					},
+					["ActiveTime"] = 0,
+					["CCBreak"] = 0,
 					["EnergyGain"] = 0,
+					["WhoHealed"] = {
+					},
+					["PartialResist"] = {
+					},
 					["ManaGained"] = {
 					},
-					["FDamage"] = 0,
+					["ElementTakenAbsorb"] = {
+					},
 					["Interrupts"] = 0,
 					["Overhealing"] = 0,
-					["TimeSpent"] = {
-					},
-					["WhoDispelled"] = {
+					["ElementTakenResist"] = {
 					},
 					["InterruptData"] = {
 					},
-					["RunicPowerGain"] = 0,
+					["WhoDispelled"] = {
+					},
+					["TimeSpent"] = {
+					},
 					["Heals"] = {
 					},
-					["WhoHealed"] = {
-					},
+					["FDamage"] = 0,
 					["EnergyGained"] = {
 					},
-					["ActiveTime"] = 0,
-					["Healing"] = 0,
-					["FDamagedWho"] = {
+					["HealedWho"] = {
 					},
-					["Dispelled"] = 0,
+					["Healing"] = 0,
+					["RunicPowerGained"] = {
+					},
+					["ManaGainedFrom"] = {
+					},
 					["Attacks"] = {
 					},
 					["HealingTaken"] = 0,
-					["RageGain"] = 0,
+					["DamagedWho"] = {
+					},
 					["TimeDamage"] = 0,
 					["TimeDamaging"] = {
 					},
-					["ManaGain"] = 0,
+					["RunicPowerGain"] = 0,
+					["ElementTakenBlock"] = {
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["LastFightData"] = {
+					["DOTs"] = {
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 0,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
 					["HOTs"] = {
+					},
+					["ManaGain"] = 0,
+					["ElementTaken"] = {
+					},
+					["DOT_Time"] = 0,
+					["Damage"] = 0,
+					["ElementDoneAbsorb"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["PartialAbsorb"] = {
+					},
+					["RageGain"] = 0,
+					["FAttacks"] = {
+					},
+					["PartialBlock"] = {
+					},
+					["ElementDone"] = {
+					},
+					["CCBroken"] = {
+					},
+					["ElementHitsDone"] = {
+					},
+					["Dispelled"] = 0,
+					["WhoDamaged"] = {
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["FDamagedWho"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+					},
+					["OverHeals"] = {
+					},
+					["RageGained"] = {
+					},
+					["ActiveTime"] = 0,
+					["CCBreak"] = 0,
+					["EnergyGain"] = 0,
+					["WhoHealed"] = {
+					},
+					["PartialResist"] = {
+					},
+					["ManaGained"] = {
+					},
+					["ElementTakenAbsorb"] = {
+					},
+					["Interrupts"] = 0,
+					["Overhealing"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["InterruptData"] = {
+					},
+					["WhoDispelled"] = {
+					},
+					["TimeSpent"] = {
+					},
+					["Heals"] = {
+					},
+					["FDamage"] = 0,
+					["EnergyGained"] = {
+					},
+					["HealedWho"] = {
+					},
+					["Healing"] = 0,
+					["RunicPowerGained"] = {
+					},
+					["ManaGainedFrom"] = {
+					},
+					["Attacks"] = {
+					},
+					["HealingTaken"] = 0,
+					["DamagedWho"] = {
+					},
+					["TimeDamage"] = 0,
+					["TimeDamaging"] = {
+					},
+					["RunicPowerGain"] = 0,
+					["ElementTakenBlock"] = {
 					},
 					["DispelledWho"] = {
 					},
 				},
 			},
-			["level"] = 80,
-			["UnitLockout"] = 1648547740,
 			["LastFightIn"] = 0,
 		},
 		["Xobobo"] = {
@@ -228,112 +229,12 @@ RecountPerCharDB = {
 			["FightsSaved"] = 2,
 			["Owner"] = false,
 			["enClass"] = "PALADIN",
+			["LastAbility"] = 34189.44,
 			["Name"] = "Xobobo",
 			["lazysync"] = true,
+			["UnitLockout"] = 1648547740,
+			["level"] = 80,
 			["Fights"] = {
-				["LastFightData"] = {
-					["DOTs"] = {
-					},
-					["ElementDoneResist"] = {
-					},
-					["Ressed"] = 0,
-					["DamageTaken"] = 0,
-					["RageGainedFrom"] = {
-					},
-					["ElementHitsTaken"] = {
-					},
-					["DeathCount"] = 0,
-					["HOT_Time"] = 0,
-					["ElementHitsDone"] = {
-					},
-					["ElementTakenAbsorb"] = {
-					},
-					["ElementTaken"] = {
-					},
-					["DOT_Time"] = 0,
-					["Damage"] = 0,
-					["ElementTakenBlock"] = {
-					},
-					["TimeHeal"] = 0,
-					["RessedWho"] = {
-					},
-					["Dispels"] = 0,
-					["ElementTakenResist"] = {
-					},
-					["ElementDoneAbsorb"] = {
-					},
-					["FAttacks"] = {
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementDone"] = {
-					},
-					["PartialAbsorb"] = {
-					},
-					["DamagedWho"] = {
-					},
-					["PartialBlock"] = {
-					},
-					["WhoDamaged"] = {
-					},
-					["EnergyGainedFrom"] = {
-					},
-					["PartialResist"] = {
-					},
-					["CCBroken"] = {
-					},
-					["ElementDoneBlock"] = {
-					},
-					["TimeHealing"] = {
-					},
-					["OverHeals"] = {
-					},
-					["ManaGainedFrom"] = {
-					},
-					["RunicPowerGained"] = {
-					},
-					["CCBreak"] = 0,
-					["RageGained"] = {
-					},
-					["HealedWho"] = {
-					},
-					["EnergyGain"] = 0,
-					["ManaGained"] = {
-					},
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
-					["Overhealing"] = 0,
-					["TimeSpent"] = {
-					},
-					["WhoDispelled"] = {
-					},
-					["InterruptData"] = {
-					},
-					["RunicPowerGain"] = 0,
-					["Heals"] = {
-					},
-					["WhoHealed"] = {
-					},
-					["EnergyGained"] = {
-					},
-					["ActiveTime"] = 0,
-					["Healing"] = 0,
-					["FDamagedWho"] = {
-					},
-					["Dispelled"] = 0,
-					["Attacks"] = {
-					},
-					["HealingTaken"] = 0,
-					["RageGain"] = 0,
-					["TimeDamage"] = 0,
-					["TimeDamaging"] = {
-					},
-					["ManaGain"] = 0,
-					["HOTs"] = {
-					},
-					["DispelledWho"] = {
-					},
-				},
 				["CurrentFightData"] = {
 					["DOTs"] = {
 					},
@@ -347,43 +248,40 @@ RecountPerCharDB = {
 					},
 					["DeathCount"] = 0,
 					["HOT_Time"] = 0,
-					["ElementHitsDone"] = {
+					["HOTs"] = {
 					},
-					["ElementTakenAbsorb"] = {
-					},
+					["ManaGain"] = 0,
 					["ElementTaken"] = {
 					},
 					["DOT_Time"] = 0,
 					["Damage"] = 0,
-					["ElementTakenBlock"] = {
+					["ElementDoneAbsorb"] = {
 					},
 					["TimeHeal"] = 0,
 					["RessedWho"] = {
 					},
 					["Dispels"] = 0,
-					["ElementTakenResist"] = {
-					},
-					["ElementDoneAbsorb"] = {
-					},
-					["FAttacks"] = {
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementDone"] = {
-					},
 					["PartialAbsorb"] = {
 					},
-					["DamagedWho"] = {
+					["RageGain"] = 0,
+					["FAttacks"] = {
 					},
 					["PartialBlock"] = {
 					},
+					["ElementDone"] = {
+					},
+					["CCBroken"] = {
+					},
+					["ElementHitsDone"] = {
+					},
+					["Dispelled"] = 0,
 					["WhoDamaged"] = {
 					},
 					["EnergyGainedFrom"] = {
 					},
-					["PartialResist"] = {
+					["FDamagedWho"] = {
 					},
-					["CCBroken"] = {
+					["RunicPowerGainedFrom"] = {
 					},
 					["ElementDoneBlock"] = {
 					},
@@ -391,55 +289,159 @@ RecountPerCharDB = {
 					},
 					["OverHeals"] = {
 					},
-					["ManaGainedFrom"] = {
-					},
-					["RunicPowerGained"] = {
-					},
-					["CCBreak"] = 0,
 					["RageGained"] = {
 					},
-					["HealedWho"] = {
-					},
+					["ActiveTime"] = 0,
+					["CCBreak"] = 0,
 					["EnergyGain"] = 0,
+					["WhoHealed"] = {
+					},
+					["PartialResist"] = {
+					},
 					["ManaGained"] = {
 					},
-					["FDamage"] = 0,
+					["ElementTakenAbsorb"] = {
+					},
 					["Interrupts"] = 0,
 					["Overhealing"] = 0,
-					["TimeSpent"] = {
-					},
-					["WhoDispelled"] = {
+					["ElementTakenResist"] = {
 					},
 					["InterruptData"] = {
 					},
-					["RunicPowerGain"] = 0,
+					["WhoDispelled"] = {
+					},
+					["TimeSpent"] = {
+					},
 					["Heals"] = {
 					},
-					["WhoHealed"] = {
-					},
+					["FDamage"] = 0,
 					["EnergyGained"] = {
 					},
-					["ActiveTime"] = 0,
-					["Healing"] = 0,
-					["FDamagedWho"] = {
+					["HealedWho"] = {
 					},
-					["Dispelled"] = 0,
+					["Healing"] = 0,
+					["RunicPowerGained"] = {
+					},
+					["ManaGainedFrom"] = {
+					},
 					["Attacks"] = {
 					},
 					["HealingTaken"] = 0,
-					["RageGain"] = 0,
+					["DamagedWho"] = {
+					},
 					["TimeDamage"] = 0,
 					["TimeDamaging"] = {
 					},
-					["ManaGain"] = 0,
+					["RunicPowerGain"] = 0,
+					["ElementTakenBlock"] = {
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["LastFightData"] = {
+					["DOTs"] = {
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 0,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
 					["HOTs"] = {
+					},
+					["ManaGain"] = 0,
+					["ElementTaken"] = {
+					},
+					["DOT_Time"] = 0,
+					["Damage"] = 0,
+					["ElementDoneAbsorb"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["PartialAbsorb"] = {
+					},
+					["RageGain"] = 0,
+					["FAttacks"] = {
+					},
+					["PartialBlock"] = {
+					},
+					["ElementDone"] = {
+					},
+					["CCBroken"] = {
+					},
+					["ElementHitsDone"] = {
+					},
+					["Dispelled"] = 0,
+					["WhoDamaged"] = {
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["FDamagedWho"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+					},
+					["OverHeals"] = {
+					},
+					["RageGained"] = {
+					},
+					["ActiveTime"] = 0,
+					["CCBreak"] = 0,
+					["EnergyGain"] = 0,
+					["WhoHealed"] = {
+					},
+					["PartialResist"] = {
+					},
+					["ManaGained"] = {
+					},
+					["ElementTakenAbsorb"] = {
+					},
+					["Interrupts"] = 0,
+					["Overhealing"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["InterruptData"] = {
+					},
+					["WhoDispelled"] = {
+					},
+					["TimeSpent"] = {
+					},
+					["Heals"] = {
+					},
+					["FDamage"] = 0,
+					["EnergyGained"] = {
+					},
+					["HealedWho"] = {
+					},
+					["Healing"] = 0,
+					["RunicPowerGained"] = {
+					},
+					["ManaGainedFrom"] = {
+					},
+					["Attacks"] = {
+					},
+					["HealingTaken"] = 0,
+					["DamagedWho"] = {
+					},
+					["TimeDamage"] = 0,
+					["TimeDamaging"] = {
+					},
+					["RunicPowerGain"] = 0,
+					["ElementTakenBlock"] = {
 					},
 					["DispelledWho"] = {
 					},
 				},
 			},
-			["level"] = 80,
-			["UnitLockout"] = 1648547740,
 			["LastFightIn"] = 0,
 		},
 		["Pocaitoru"] = {
@@ -532,104 +534,9 @@ RecountPerCharDB = {
 			},
 			["type"] = "Self",
 			["FightsSaved"] = 2,
-			["LastDamageTaken"] = 215,
-			["TimeLast"] = {
-				["TimeHeal"] = 1648547878,
-				["OVERALL"] = 1648547894,
-				["DamageTaken"] = 1648547873,
-				["HOT_Time"] = 1648547881,
-				["HealingTaken"] = 1648547878,
-				["Overhealing"] = 1648547881,
-				["ActiveTime"] = 1648547878,
-				["Healing"] = 1648547878,
-				["ManaGain"] = 1648547894,
-				["TimeDamage"] = 1648547875,
-				["Damage"] = 1648547875,
-			},
+			["LastActive"] = 1648547894,
+			["UnitLockout"] = 1648547740,
 			["Owner"] = false,
-			["LastAbility"] = 12689.413,
-			["NextEventNum"] = 19,
-			["LastEventHealthNum"] = {
-				100, -- [1]
-				100, -- [2]
-				100, -- [3]
-				100, -- [4]
-				100, -- [5]
-				100, -- [6]
-				100, -- [7]
-				100, -- [8]
-				100, -- [9]
-				99.24730429911777, -- [10]
-				99.24730429911777, -- [11]
-				99.24730429911777, -- [12]
-				99.24730429911777, -- [13]
-				100, -- [14]
-				100, -- [15]
-				100, -- [16]
-				100, -- [17]
-				100, -- [18]
-			},
-			["LastEvents"] = {
-				"Pocaitoru Melee Squirrel Crit -6140 (Physical)", -- [1]
-				"Pocaitoru Melee Squirrel Crit -6816 (Physical)", -- [2]
-				"Pocaitoru Seal of Command Sunreaver Dragonhawk Crit -3205 (Holy)", -- [3]
-				"Pocaitoru Melee Sunreaver Dragonhawk Crit -6048 (Physical)", -- [4]
-				"Sunreaver Dragonhawk Melee Pocaitoru Dodge", -- [5]
-				"Pocaitoru Judgement of Command Sunreaver Dragonhawk Crit -5127 (Holy)", -- [6]
-				"Pocaitoru Seal of Command Sunreaver Dragonhawk Hit -1848 (Holy)", -- [7]
-				"Pocaitoru Divine Storm Sunreaver Dragonhawk Crit -8211 (Physical)", -- [8]
-				"Sunreaver Dragonhawk Melee Pocaitoru Hit -215 (Physical)", -- [9]
-				"Pocaitoru Seal of Command Sunreaver Dragonhawk Crit -4029 (Holy)", -- [10]
-				"Pocaitoru Melee Sunreaver Dragonhawk Crit -7935 (Physical)", -- [11]
-				"Pocaitoru Seal of Command Sunreaver Dragonhawk Hit -2107 (Holy)", -- [12]
-				"Pocaitoru Crusader Strike Sunreaver Dragonhawk Crit -7990 (Physical)", -- [13]
-				"Pocaitoru Flash of Light Pocaitoru Crit +6609 (6394 overheal)", -- [14]
-				"Pocaitoru Sheath of Light Pocaitoru Tick +38 (38 overheal)", -- [15]
-				"Pocaitoru Sheath of Light Pocaitoru Tick +38 (38 overheal)", -- [16]
-				"Pocaitoru Sheath of Light Pocaitoru Tick +38 (38 overheal)", -- [17]
-				"Pocaitoru Sheath of Light Pocaitoru Tick +38 (38 overheal)", -- [18]
-			},
-			["Name"] = "Pocaitoru",
-			["LastEventIncoming"] = {
-				false, -- [1]
-				false, -- [2]
-				false, -- [3]
-				false, -- [4]
-				true, -- [5]
-				false, -- [6]
-				false, -- [7]
-				false, -- [8]
-				true, -- [9]
-				false, -- [10]
-				false, -- [11]
-				false, -- [12]
-				false, -- [13]
-				true, -- [14]
-				true, -- [15]
-				true, -- [16]
-				true, -- [17]
-				true, -- [18]
-			},
-			["LastEventTimes"] = {
-				12551.699, -- [1]
-				12554.627, -- [2]
-				12683.122, -- [3]
-				12683.123, -- [4]
-				12683.135, -- [5]
-				12683.308, -- [6]
-				12684.796, -- [7]
-				12684.796, -- [8]
-				12685.087, -- [9]
-				12685.816, -- [10]
-				12685.817, -- [11]
-				12686.409, -- [12]
-				12686.409, -- [13]
-				12689.413, -- [14]
-				12692.466, -- [15]
-				12695.478, -- [16]
-				12698.401, -- [17]
-				12701.416, -- [18]
-			},
 			["Fights"] = {
 				["Fight2"] = {
 					["TimeSpent"] = {
@@ -645,16 +552,6 @@ RecountPerCharDB = {
 					["ElementDone"] = {
 						["Melee"] = 12956,
 					},
-					["ElementHitsDone"] = {
-						["Melee"] = {
-							["Details"] = {
-								["Crit"] = {
-									["count"] = 2,
-								},
-							},
-							["amount"] = 2,
-						},
-					},
 					["DamagedWho"] = {
 						["Squirrel"] = {
 							["Details"] = {
@@ -663,6 +560,16 @@ RecountPerCharDB = {
 								},
 							},
 							["amount"] = 12956,
+						},
+					},
+					["ElementHitsDone"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Crit"] = {
+									["count"] = 2,
+								},
+							},
+							["amount"] = 2,
 						},
 					},
 					["TimeDamage"] = 6.43,
@@ -676,6 +583,7 @@ RecountPerCharDB = {
 							["amount"] = 6.43,
 						},
 					},
+					["ActiveTime"] = 6.43,
 					["Attacks"] = {
 						["Melee"] = {
 							["Details"] = {
@@ -690,7 +598,6 @@ RecountPerCharDB = {
 							["amount"] = 12956,
 						},
 					},
-					["ActiveTime"] = 6.43,
 					["Damage"] = 12956,
 				},
 				["CurrentFightData"] = {
@@ -706,43 +613,40 @@ RecountPerCharDB = {
 					},
 					["DeathCount"] = 0,
 					["HOT_Time"] = 0,
-					["ElementHitsDone"] = {
+					["HOTs"] = {
 					},
-					["ElementTakenAbsorb"] = {
-					},
+					["ManaGain"] = 1292,
 					["ElementTaken"] = {
 					},
 					["DOT_Time"] = 0,
 					["Damage"] = 0,
-					["ElementTakenBlock"] = {
+					["ElementDoneAbsorb"] = {
 					},
 					["TimeHeal"] = 0,
 					["RessedWho"] = {
 					},
 					["Dispels"] = 0,
-					["ElementTakenResist"] = {
-					},
-					["ElementDoneAbsorb"] = {
-					},
-					["FAttacks"] = {
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementDone"] = {
-					},
 					["PartialAbsorb"] = {
 					},
-					["DamagedWho"] = {
+					["RageGain"] = 0,
+					["FAttacks"] = {
 					},
 					["PartialBlock"] = {
 					},
+					["ElementDone"] = {
+					},
+					["CCBroken"] = {
+					},
+					["ElementHitsDone"] = {
+					},
+					["Dispelled"] = 0,
 					["WhoDamaged"] = {
 					},
 					["EnergyGainedFrom"] = {
 					},
-					["PartialResist"] = {
+					["FDamagedWho"] = {
 					},
-					["CCBroken"] = {
+					["RunicPowerGainedFrom"] = {
 					},
 					["ElementDoneBlock"] = {
 					},
@@ -750,27 +654,15 @@ RecountPerCharDB = {
 					},
 					["OverHeals"] = {
 					},
-					["ManaGainedFrom"] = {
-						["Pocaitoru"] = {
-							["Details"] = {
-								["Replenishment"] = {
-									["count"] = 60,
-								},
-								["Divine Plea"] = {
-									["count"] = 1232,
-								},
-							},
-							["amount"] = 1292,
-						},
-					},
-					["RunicPowerGained"] = {
-					},
-					["CCBreak"] = 0,
 					["RageGained"] = {
 					},
-					["HealedWho"] = {
-					},
+					["ActiveTime"] = 0,
+					["CCBreak"] = 0,
 					["EnergyGain"] = 0,
+					["WhoHealed"] = {
+					},
+					["PartialResist"] = {
+					},
 					["ManaGained"] = {
 						["Replenishment"] = {
 							["Details"] = {
@@ -789,36 +681,51 @@ RecountPerCharDB = {
 							["amount"] = 1232,
 						},
 					},
-					["FDamage"] = 0,
+					["ElementTakenAbsorb"] = {
+					},
 					["Interrupts"] = 0,
 					["Overhealing"] = 0,
-					["TimeSpent"] = {
-					},
-					["WhoDispelled"] = {
+					["ElementTakenResist"] = {
 					},
 					["InterruptData"] = {
 					},
-					["RunicPowerGain"] = 0,
+					["WhoDispelled"] = {
+					},
+					["TimeSpent"] = {
+					},
 					["Heals"] = {
 					},
-					["WhoHealed"] = {
-					},
+					["FDamage"] = 0,
 					["EnergyGained"] = {
 					},
-					["ActiveTime"] = 0,
-					["Healing"] = 0,
-					["FDamagedWho"] = {
+					["HealedWho"] = {
 					},
-					["Dispelled"] = 0,
+					["Healing"] = 0,
+					["RunicPowerGained"] = {
+					},
+					["ManaGainedFrom"] = {
+						["Pocaitoru"] = {
+							["Details"] = {
+								["Replenishment"] = {
+									["count"] = 60,
+								},
+								["Divine Plea"] = {
+									["count"] = 1232,
+								},
+							},
+							["amount"] = 1292,
+						},
+					},
 					["Attacks"] = {
 					},
 					["HealingTaken"] = 0,
-					["RageGain"] = 0,
+					["DamagedWho"] = {
+					},
 					["TimeDamage"] = 0,
 					["TimeDamaging"] = {
 					},
-					["ManaGain"] = 1292,
-					["HOTs"] = {
+					["RunicPowerGain"] = 0,
+					["ElementTakenBlock"] = {
 					},
 					["DispelledWho"] = {
 					},
@@ -835,10 +742,10 @@ RecountPerCharDB = {
 					["ElementHitsTaken"] = {
 						["Melee"] = {
 							["Details"] = {
-								["Hit"] = {
+								["Dodge"] = {
 									["count"] = 1,
 								},
-								["Dodge"] = {
+								["Hit"] = {
 									["count"] = 1,
 								},
 							},
@@ -847,6 +754,54 @@ RecountPerCharDB = {
 					},
 					["DeathCount"] = 0,
 					["HOT_Time"] = 3,
+					["HOTs"] = {
+						["Sheath of Light"] = {
+							["Details"] = {
+								["Pocaitoru"] = {
+									["count"] = 3,
+								},
+							},
+							["amount"] = 3,
+						},
+					},
+					["ManaGain"] = 1613,
+					["ElementTaken"] = {
+						["Melee"] = 215,
+					},
+					["DOT_Time"] = 0,
+					["Damage"] = 46500,
+					["ElementDoneAbsorb"] = {
+					},
+					["TimeHeal"] = 3,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["PartialAbsorb"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 0,
+						},
+					},
+					["RageGain"] = 0,
+					["FAttacks"] = {
+					},
+					["PartialBlock"] = {
+					},
+					["ElementDone"] = {
+						["Holy"] = 16316,
+						["Melee"] = 13983,
+						["Physical"] = 16201,
+					},
+					["CCBroken"] = {
+					},
 					["ElementHitsDone"] = {
 						["Holy"] = {
 							["Details"] = {
@@ -876,70 +831,7 @@ RecountPerCharDB = {
 							["amount"] = 2,
 						},
 					},
-					["ElementTakenAbsorb"] = {
-					},
-					["ElementTaken"] = {
-						["Melee"] = 215,
-					},
-					["DOT_Time"] = 0,
-					["Damage"] = 46500,
-					["ElementTakenBlock"] = {
-					},
-					["TimeHeal"] = 3,
-					["RessedWho"] = {
-					},
-					["Dispels"] = 0,
-					["ElementTakenResist"] = {
-					},
-					["ElementDoneAbsorb"] = {
-					},
-					["FAttacks"] = {
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementDone"] = {
-						["Holy"] = 16316,
-						["Melee"] = 13983,
-						["Physical"] = 16201,
-					},
-					["PartialAbsorb"] = {
-						["Melee"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 2,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 2,
-							["amount"] = 0,
-						},
-					},
-					["DamagedWho"] = {
-						["Sunreaver Dragonhawk"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 13983,
-								},
-								["Crusader Strike"] = {
-									["count"] = 7990,
-								},
-								["Seal of Command"] = {
-									["count"] = 11189,
-								},
-								["Judgement of Command"] = {
-									["count"] = 5127,
-								},
-								["Divine Storm"] = {
-									["count"] = 8211,
-								},
-							},
-							["amount"] = 46500,
-						},
-					},
-					["PartialBlock"] = {
-					},
+					["Dispelled"] = 0,
 					["WhoDamaged"] = {
 						["Sunreaver Dragonhawk"] = {
 							["Details"] = {
@@ -952,21 +844,9 @@ RecountPerCharDB = {
 					},
 					["EnergyGainedFrom"] = {
 					},
-					["PartialResist"] = {
-						["Melee"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 2,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 2,
-							["amount"] = 0,
-						},
+					["FDamagedWho"] = {
 					},
-					["CCBroken"] = {
+					["RunicPowerGainedFrom"] = {
 					},
 					["ElementDoneBlock"] = {
 					},
@@ -1006,127 +886,11 @@ RecountPerCharDB = {
 							["amount"] = 38,
 						},
 					},
-					["ManaGainedFrom"] = {
-						["Pocaitoru"] = {
-							["Details"] = {
-								["Replenishment"] = {
-									["count"] = 120,
-								},
-								["Divine Plea"] = {
-									["count"] = 308,
-								},
-								["Judgement of Wisdom"] = {
-									["count"] = 87,
-								},
-								["Judgements of the Wise"] = {
-									["count"] = 1098,
-								},
-							},
-							["amount"] = 1613,
-						},
-					},
-					["RunicPowerGained"] = {
-					},
-					["CCBreak"] = 0,
 					["RageGained"] = {
 					},
-					["HealedWho"] = {
-						["Pocaitoru"] = {
-							["Details"] = {
-								["Flash of Light"] = {
-									["count"] = 215,
-								},
-							},
-							["amount"] = 215,
-						},
-					},
+					["ActiveTime"] = 9.789999999999999,
+					["CCBreak"] = 0,
 					["EnergyGain"] = 0,
-					["ManaGained"] = {
-						["Replenishment"] = {
-							["Details"] = {
-								["Pocaitoru"] = {
-									["count"] = 120,
-								},
-							},
-							["amount"] = 120,
-						},
-						["Divine Plea"] = {
-							["Details"] = {
-								["Pocaitoru"] = {
-									["count"] = 308,
-								},
-							},
-							["amount"] = 308,
-						},
-						["Judgement of Wisdom"] = {
-							["Details"] = {
-								["Pocaitoru"] = {
-									["count"] = 87,
-								},
-							},
-							["amount"] = 87,
-						},
-						["Judgements of the Wise"] = {
-							["Details"] = {
-								["Pocaitoru"] = {
-									["count"] = 1098,
-								},
-							},
-							["amount"] = 1098,
-						},
-					},
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
-					["Overhealing"] = 6432,
-					["TimeSpent"] = {
-						["Pocaitoru"] = {
-							["Details"] = {
-								["Flash of Light"] = {
-									["count"] = 3,
-								},
-							},
-							["amount"] = 3,
-						},
-						["Sunreaver Dragonhawk"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Crusader Strike"] = {
-									["count"] = 0,
-								},
-								["Seal of Command"] = {
-									["count"] = 6.6,
-								},
-								["Judgement of Command"] = {
-									["count"] = 0.19,
-								},
-								["Divine Storm"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 6.789999999999999,
-						},
-					},
-					["WhoDispelled"] = {
-					},
-					["InterruptData"] = {
-					},
-					["RunicPowerGain"] = 0,
-					["Heals"] = {
-						["Flash of Light"] = {
-							["Details"] = {
-								["Crit"] = {
-									["max"] = 215,
-									["min"] = 215,
-									["count"] = 1,
-									["amount"] = 215,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 215,
-						},
-					},
 					["WhoHealed"] = {
 						["Pocaitoru"] = {
 							["Details"] = {
@@ -1136,249 +900,6 @@ RecountPerCharDB = {
 							},
 							["amount"] = 215,
 						},
-					},
-					["EnergyGained"] = {
-					},
-					["ActiveTime"] = 9.789999999999999,
-					["Healing"] = 215,
-					["FDamagedWho"] = {
-					},
-					["Dispelled"] = 0,
-					["Attacks"] = {
-						["Melee"] = {
-							["Details"] = {
-								["Crit"] = {
-									["max"] = 7935,
-									["min"] = 6048,
-									["count"] = 2,
-									["amount"] = 13983,
-								},
-							},
-							["count"] = 2,
-							["amount"] = 13983,
-						},
-						["Crusader Strike"] = {
-							["Details"] = {
-								["Crit"] = {
-									["max"] = 7990,
-									["min"] = 7990,
-									["count"] = 1,
-									["amount"] = 7990,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 7990,
-						},
-						["Seal of Command"] = {
-							["Details"] = {
-								["Crit"] = {
-									["max"] = 4029,
-									["min"] = 3205,
-									["count"] = 2,
-									["amount"] = 7234,
-								},
-								["Hit"] = {
-									["max"] = 2107,
-									["min"] = 1848,
-									["count"] = 2,
-									["amount"] = 3955,
-								},
-							},
-							["count"] = 4,
-							["amount"] = 11189,
-						},
-						["Judgement of Command"] = {
-							["Details"] = {
-								["Crit"] = {
-									["max"] = 5127,
-									["min"] = 5127,
-									["count"] = 1,
-									["amount"] = 5127,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 5127,
-						},
-						["Divine Storm"] = {
-							["Details"] = {
-								["Crit"] = {
-									["max"] = 8211,
-									["min"] = 8211,
-									["count"] = 1,
-									["amount"] = 8211,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 8211,
-						},
-					},
-					["HealingTaken"] = 215,
-					["RageGain"] = 0,
-					["TimeDamage"] = 6.789999999999999,
-					["TimeDamaging"] = {
-						["Sunreaver Dragonhawk"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Crusader Strike"] = {
-									["count"] = 0,
-								},
-								["Seal of Command"] = {
-									["count"] = 6.6,
-								},
-								["Judgement of Command"] = {
-									["count"] = 0.19,
-								},
-								["Divine Storm"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 6.789999999999999,
-						},
-					},
-					["ManaGain"] = 1613,
-					["HOTs"] = {
-						["Sheath of Light"] = {
-							["Details"] = {
-								["Pocaitoru"] = {
-									["count"] = 3,
-								},
-							},
-							["amount"] = 3,
-						},
-					},
-					["DispelledWho"] = {
-					},
-				},
-				["Fight1"] = {
-					["DOTs"] = {
-					},
-					["ElementDoneResist"] = {
-					},
-					["Ressed"] = 0,
-					["DamageTaken"] = 215,
-					["RageGainedFrom"] = {
-					},
-					["ElementHitsTaken"] = {
-						["Melee"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 1,
-								},
-								["Dodge"] = {
-									["count"] = 1,
-								},
-							},
-							["amount"] = 2,
-						},
-					},
-					["DeathCount"] = 0,
-					["HOT_Time"] = 3,
-					["ElementHitsDone"] = {
-						["Holy"] = {
-							["Details"] = {
-								["Crit"] = {
-									["count"] = 3,
-								},
-								["Hit"] = {
-									["count"] = 2,
-								},
-							},
-							["amount"] = 5,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["Crit"] = {
-									["count"] = 2,
-								},
-							},
-							["amount"] = 2,
-						},
-						["Physical"] = {
-							["Details"] = {
-								["Crit"] = {
-									["count"] = 2,
-								},
-							},
-							["amount"] = 2,
-						},
-					},
-					["ElementTakenAbsorb"] = {
-					},
-					["ElementTaken"] = {
-						["Melee"] = 215,
-					},
-					["DOT_Time"] = 0,
-					["Damage"] = 46500,
-					["ElementTakenBlock"] = {
-					},
-					["TimeHeal"] = 3,
-					["RessedWho"] = {
-					},
-					["Dispels"] = 0,
-					["ElementTakenResist"] = {
-					},
-					["ElementDoneAbsorb"] = {
-					},
-					["FAttacks"] = {
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementDone"] = {
-						["Holy"] = 16316,
-						["Melee"] = 13983,
-						["Physical"] = 16201,
-					},
-					["PartialAbsorb"] = {
-						["Melee"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 2,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 2,
-							["amount"] = 0,
-						},
-					},
-					["DamagedWho"] = {
-						["Sunreaver Dragonhawk"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 13983,
-								},
-								["Crusader Strike"] = {
-									["count"] = 7990,
-								},
-								["Seal of Command"] = {
-									["count"] = 11189,
-								},
-								["Judgement of Command"] = {
-									["count"] = 5127,
-								},
-								["Divine Storm"] = {
-									["count"] = 8211,
-								},
-							},
-							["amount"] = 46500,
-						},
-					},
-					["PartialBlock"] = {
-					},
-					["WhoDamaged"] = {
-						["Sunreaver Dragonhawk"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 215,
-								},
-							},
-							["amount"] = 215,
-						},
-					},
-					["EnergyGainedFrom"] = {
 					},
 					["PartialResist"] = {
 						["Melee"] = {
@@ -1394,81 +915,6 @@ RecountPerCharDB = {
 							["amount"] = 0,
 						},
 					},
-					["CCBroken"] = {
-					},
-					["ElementDoneBlock"] = {
-					},
-					["TimeHealing"] = {
-						["Pocaitoru"] = {
-							["Details"] = {
-								["Flash of Light"] = {
-									["count"] = 3,
-								},
-							},
-							["amount"] = 3,
-						},
-					},
-					["OverHeals"] = {
-						["Flash of Light"] = {
-							["Details"] = {
-								["Crit"] = {
-									["max"] = 6394,
-									["min"] = 6394,
-									["count"] = 1,
-									["amount"] = 6394,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 6394,
-						},
-						["Sheath of Light"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 38,
-									["min"] = 38,
-									["count"] = 1,
-									["amount"] = 38,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 38,
-						},
-					},
-					["ManaGainedFrom"] = {
-						["Pocaitoru"] = {
-							["Details"] = {
-								["Replenishment"] = {
-									["count"] = 120,
-								},
-								["Divine Plea"] = {
-									["count"] = 308,
-								},
-								["Judgement of Wisdom"] = {
-									["count"] = 87,
-								},
-								["Judgements of the Wise"] = {
-									["count"] = 1098,
-								},
-							},
-							["amount"] = 1613,
-						},
-					},
-					["RunicPowerGained"] = {
-					},
-					["CCBreak"] = 0,
-					["RageGained"] = {
-					},
-					["HealedWho"] = {
-						["Pocaitoru"] = {
-							["Details"] = {
-								["Flash of Light"] = {
-									["count"] = 215,
-								},
-							},
-							["amount"] = 215,
-						},
-					},
-					["EnergyGain"] = 0,
 					["ManaGained"] = {
 						["Replenishment"] = {
 							["Details"] = {
@@ -1477,6 +923,14 @@ RecountPerCharDB = {
 								},
 							},
 							["amount"] = 120,
+						},
+						["Judgements of the Wise"] = {
+							["Details"] = {
+								["Pocaitoru"] = {
+									["count"] = 1098,
+								},
+							},
+							["amount"] = 1098,
 						},
 						["Divine Plea"] = {
 							["Details"] = {
@@ -1494,18 +948,17 @@ RecountPerCharDB = {
 							},
 							["amount"] = 87,
 						},
-						["Judgements of the Wise"] = {
-							["Details"] = {
-								["Pocaitoru"] = {
-									["count"] = 1098,
-								},
-							},
-							["amount"] = 1098,
-						},
 					},
-					["FDamage"] = 0,
+					["ElementTakenAbsorb"] = {
+					},
 					["Interrupts"] = 0,
 					["Overhealing"] = 6432,
+					["ElementTakenResist"] = {
+					},
+					["InterruptData"] = {
+					},
+					["WhoDispelled"] = {
+					},
 					["TimeSpent"] = {
 						["Pocaitoru"] = {
 							["Details"] = {
@@ -1520,27 +973,22 @@ RecountPerCharDB = {
 								["Melee"] = {
 									["count"] = 0,
 								},
-								["Crusader Strike"] = {
+								["Divine Storm"] = {
 									["count"] = 0,
 								},
-								["Seal of Command"] = {
-									["count"] = 6.6,
+								["Crusader Strike"] = {
+									["count"] = 0,
 								},
 								["Judgement of Command"] = {
 									["count"] = 0.19,
 								},
-								["Divine Storm"] = {
-									["count"] = 0,
+								["Seal of Command"] = {
+									["count"] = 6.6,
 								},
 							},
 							["amount"] = 6.789999999999999,
 						},
 					},
-					["WhoDispelled"] = {
-					},
-					["InterruptData"] = {
-					},
-					["RunicPowerGain"] = 0,
 					["Heals"] = {
 						["Flash of Light"] = {
 							["Details"] = {
@@ -1555,7 +1003,10 @@ RecountPerCharDB = {
 							["amount"] = 215,
 						},
 					},
-					["WhoHealed"] = {
+					["FDamage"] = 0,
+					["EnergyGained"] = {
+					},
+					["HealedWho"] = {
 						["Pocaitoru"] = {
 							["Details"] = {
 								["Flash of Light"] = {
@@ -1565,13 +1016,28 @@ RecountPerCharDB = {
 							["amount"] = 215,
 						},
 					},
-					["EnergyGained"] = {
-					},
-					["ActiveTime"] = 9.789999999999999,
 					["Healing"] = 215,
-					["FDamagedWho"] = {
+					["RunicPowerGained"] = {
 					},
-					["Dispelled"] = 0,
+					["ManaGainedFrom"] = {
+						["Pocaitoru"] = {
+							["Details"] = {
+								["Replenishment"] = {
+									["count"] = 120,
+								},
+								["Judgements of the Wise"] = {
+									["count"] = 1098,
+								},
+								["Divine Plea"] = {
+									["count"] = 308,
+								},
+								["Judgement of Wisdom"] = {
+									["count"] = 87,
+								},
+							},
+							["amount"] = 1613,
+						},
+					},
 					["Attacks"] = {
 						["Melee"] = {
 							["Details"] = {
@@ -1585,6 +1051,18 @@ RecountPerCharDB = {
 							["count"] = 2,
 							["amount"] = 13983,
 						},
+						["Divine Storm"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 8211,
+									["min"] = 8211,
+									["count"] = 1,
+									["amount"] = 8211,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 8211,
+						},
 						["Crusader Strike"] = {
 							["Details"] = {
 								["Crit"] = {
@@ -1596,6 +1074,18 @@ RecountPerCharDB = {
 							},
 							["count"] = 1,
 							["amount"] = 7990,
+						},
+						["Judgement of Command"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 5127,
+									["min"] = 5127,
+									["count"] = 1,
+									["amount"] = 5127,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 5127,
 						},
 						["Seal of Command"] = {
 							["Details"] = {
@@ -1615,33 +1105,30 @@ RecountPerCharDB = {
 							["count"] = 4,
 							["amount"] = 11189,
 						},
-						["Judgement of Command"] = {
-							["Details"] = {
-								["Crit"] = {
-									["max"] = 5127,
-									["min"] = 5127,
-									["count"] = 1,
-									["amount"] = 5127,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 5127,
-						},
-						["Divine Storm"] = {
-							["Details"] = {
-								["Crit"] = {
-									["max"] = 8211,
-									["min"] = 8211,
-									["count"] = 1,
-									["amount"] = 8211,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 8211,
-						},
 					},
 					["HealingTaken"] = 215,
-					["RageGain"] = 0,
+					["DamagedWho"] = {
+						["Sunreaver Dragonhawk"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 13983,
+								},
+								["Divine Storm"] = {
+									["count"] = 8211,
+								},
+								["Crusader Strike"] = {
+									["count"] = 7990,
+								},
+								["Judgement of Command"] = {
+									["count"] = 5127,
+								},
+								["Seal of Command"] = {
+									["count"] = 11189,
+								},
+							},
+							["amount"] = 46500,
+						},
+					},
 					["TimeDamage"] = 6.789999999999999,
 					["TimeDamaging"] = {
 						["Sunreaver Dragonhawk"] = {
@@ -1649,32 +1136,24 @@ RecountPerCharDB = {
 								["Melee"] = {
 									["count"] = 0,
 								},
-								["Crusader Strike"] = {
+								["Divine Storm"] = {
 									["count"] = 0,
 								},
-								["Seal of Command"] = {
-									["count"] = 6.6,
+								["Crusader Strike"] = {
+									["count"] = 0,
 								},
 								["Judgement of Command"] = {
 									["count"] = 0.19,
 								},
-								["Divine Storm"] = {
-									["count"] = 0,
+								["Seal of Command"] = {
+									["count"] = 6.6,
 								},
 							},
 							["amount"] = 6.789999999999999,
 						},
 					},
-					["ManaGain"] = 1613,
-					["HOTs"] = {
-						["Sheath of Light"] = {
-							["Details"] = {
-								["Pocaitoru"] = {
-									["count"] = 3,
-								},
-							},
-							["amount"] = 3,
-						},
+					["RunicPowerGain"] = 0,
+					["ElementTakenBlock"] = {
 					},
 					["DispelledWho"] = {
 					},
@@ -1738,31 +1217,34 @@ RecountPerCharDB = {
 								["Melee"] = {
 									["count"] = 0,
 								},
-								["Crusader Strike"] = {
+								["Divine Storm"] = {
 									["count"] = 0,
 								},
-								["Seal of Command"] = {
-									["count"] = 6.6,
+								["Crusader Strike"] = {
+									["count"] = 0,
 								},
 								["Judgement of Command"] = {
 									["count"] = 0.19,
 								},
-								["Divine Storm"] = {
-									["count"] = 0,
+								["Seal of Command"] = {
+									["count"] = 6.6,
 								},
 							},
 							["amount"] = 6.789999999999999,
 						},
 					},
 					["DamageTaken"] = 215,
-					["WhoHealed"] = {
-						["Pocaitoru"] = {
+					["ElementHitsTaken"] = {
+						["Melee"] = {
 							["Details"] = {
-								["Flash of Light"] = {
-									["count"] = 215,
+								["Dodge"] = {
+									["count"] = 1,
+								},
+								["Hit"] = {
+									["count"] = 1,
 								},
 							},
-							["amount"] = 215,
+							["amount"] = 2,
 						},
 					},
 					["PartialResist"] = {
@@ -1788,6 +1270,14 @@ RecountPerCharDB = {
 							},
 							["amount"] = 180,
 						},
+						["Judgements of the Wise"] = {
+							["Details"] = {
+								["Pocaitoru"] = {
+									["count"] = 1098,
+								},
+							},
+							["amount"] = 1098,
+						},
 						["Divine Plea"] = {
 							["Details"] = {
 								["Pocaitoru"] = {
@@ -1803,14 +1293,6 @@ RecountPerCharDB = {
 								},
 							},
 							["amount"] = 87,
-						},
-						["Judgements of the Wise"] = {
-							["Details"] = {
-								["Pocaitoru"] = {
-									["count"] = 1098,
-								},
-							},
-							["amount"] = 1098,
 						},
 					},
 					["PartialAbsorb"] = {
@@ -1828,7 +1310,74 @@ RecountPerCharDB = {
 						},
 					},
 					["ActiveTime"] = 16.22,
-					["HOT_Time"] = 3,
+					["Attacks"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 7935,
+									["min"] = 6048,
+									["count"] = 4,
+									["amount"] = 26939,
+								},
+							},
+							["count"] = 4,
+							["amount"] = 26939,
+						},
+						["Divine Storm"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 8211,
+									["min"] = 8211,
+									["count"] = 1,
+									["amount"] = 8211,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 8211,
+						},
+						["Crusader Strike"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 7990,
+									["min"] = 7990,
+									["count"] = 1,
+									["amount"] = 7990,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 7990,
+						},
+						["Judgement of Command"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 5127,
+									["min"] = 5127,
+									["count"] = 1,
+									["amount"] = 5127,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 5127,
+						},
+						["Seal of Command"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 4029,
+									["min"] = 3205,
+									["count"] = 2,
+									["amount"] = 7234,
+								},
+								["Hit"] = {
+									["max"] = 2107,
+									["min"] = 1848,
+									["count"] = 2,
+									["amount"] = 3955,
+								},
+							},
+							["count"] = 4,
+							["amount"] = 11189,
+						},
+					},
 					["ElementTaken"] = {
 						["Melee"] = 215,
 					},
@@ -1843,6 +1392,118 @@ RecountPerCharDB = {
 						},
 					},
 					["Damage"] = 59456,
+					["Overhealing"] = 6432,
+					["TimeHeal"] = 3,
+					["TimeDamaging"] = {
+						["Squirrel"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 6.43,
+								},
+							},
+							["amount"] = 6.43,
+						},
+						["Sunreaver Dragonhawk"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Divine Storm"] = {
+									["count"] = 0,
+								},
+								["Crusader Strike"] = {
+									["count"] = 0,
+								},
+								["Judgement of Command"] = {
+									["count"] = 0.19,
+								},
+								["Seal of Command"] = {
+									["count"] = 6.6,
+								},
+							},
+							["amount"] = 6.789999999999999,
+						},
+					},
+					["Heals"] = {
+						["Flash of Light"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 215,
+									["min"] = 215,
+									["count"] = 1,
+									["amount"] = 215,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 215,
+						},
+					},
+					["DamagedWho"] = {
+						["Squirrel"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 12956,
+								},
+							},
+							["amount"] = 12956,
+						},
+						["Sunreaver Dragonhawk"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 13983,
+								},
+								["Divine Storm"] = {
+									["count"] = 8211,
+								},
+								["Crusader Strike"] = {
+									["count"] = 7990,
+								},
+								["Judgement of Command"] = {
+									["count"] = 5127,
+								},
+								["Seal of Command"] = {
+									["count"] = 11189,
+								},
+							},
+							["amount"] = 46500,
+						},
+					},
+					["Healing"] = 215,
+					["HealedWho"] = {
+						["Pocaitoru"] = {
+							["Details"] = {
+								["Flash of Light"] = {
+									["count"] = 215,
+								},
+							},
+							["amount"] = 215,
+						},
+					},
+					["ManaGainedFrom"] = {
+						["Pocaitoru"] = {
+							["Details"] = {
+								["Replenishment"] = {
+									["count"] = 180,
+								},
+								["Judgements of the Wise"] = {
+									["count"] = 1098,
+								},
+								["Divine Plea"] = {
+									["count"] = 1540,
+								},
+								["Judgement of Wisdom"] = {
+									["count"] = 87,
+								},
+							},
+							["amount"] = 2905,
+						},
+					},
+					["ElementDone"] = {
+						["Holy"] = 16316,
+						["Melee"] = 26939,
+						["Physical"] = 16201,
+					},
+					["HealingTaken"] = 215,
 					["ElementHitsDone"] = {
 						["Holy"] = {
 							["Details"] = {
@@ -1872,9 +1533,20 @@ RecountPerCharDB = {
 							["amount"] = 2,
 						},
 					},
-					["TimeHeal"] = 3,
-					["Overhealing"] = 6432,
-					["HealedWho"] = {
+					["TimeDamage"] = 13.22,
+					["WhoDamaged"] = {
+						["Sunreaver Dragonhawk"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 215,
+								},
+							},
+							["amount"] = 215,
+						},
+					},
+					["ManaGain"] = 2905,
+					["HOT_Time"] = 3,
+					["WhoHealed"] = {
 						["Pocaitoru"] = {
 							["Details"] = {
 								["Flash of Light"] = {
@@ -1882,6 +1554,266 @@ RecountPerCharDB = {
 								},
 							},
 							["amount"] = 215,
+						},
+					},
+				},
+				["Fight1"] = {
+					["DOTs"] = {
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 215,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Dodge"] = {
+									["count"] = 1,
+								},
+								["Hit"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 2,
+						},
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 3,
+					["HOTs"] = {
+						["Sheath of Light"] = {
+							["Details"] = {
+								["Pocaitoru"] = {
+									["count"] = 3,
+								},
+							},
+							["amount"] = 3,
+						},
+					},
+					["ManaGain"] = 1613,
+					["ElementTaken"] = {
+						["Melee"] = 215,
+					},
+					["DOT_Time"] = 0,
+					["Damage"] = 46500,
+					["ElementDoneAbsorb"] = {
+					},
+					["TimeHeal"] = 3,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["PartialAbsorb"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 0,
+						},
+					},
+					["RageGain"] = 0,
+					["FAttacks"] = {
+					},
+					["PartialBlock"] = {
+					},
+					["ElementDone"] = {
+						["Holy"] = 16316,
+						["Melee"] = 13983,
+						["Physical"] = 16201,
+					},
+					["CCBroken"] = {
+					},
+					["ElementHitsDone"] = {
+						["Holy"] = {
+							["Details"] = {
+								["Crit"] = {
+									["count"] = 3,
+								},
+								["Hit"] = {
+									["count"] = 2,
+								},
+							},
+							["amount"] = 5,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Crit"] = {
+									["count"] = 2,
+								},
+							},
+							["amount"] = 2,
+						},
+						["Physical"] = {
+							["Details"] = {
+								["Crit"] = {
+									["count"] = 2,
+								},
+							},
+							["amount"] = 2,
+						},
+					},
+					["Dispelled"] = 0,
+					["WhoDamaged"] = {
+						["Sunreaver Dragonhawk"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 215,
+								},
+							},
+							["amount"] = 215,
+						},
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["FDamagedWho"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+						["Pocaitoru"] = {
+							["Details"] = {
+								["Flash of Light"] = {
+									["count"] = 3,
+								},
+							},
+							["amount"] = 3,
+						},
+					},
+					["OverHeals"] = {
+						["Flash of Light"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 6394,
+									["min"] = 6394,
+									["count"] = 1,
+									["amount"] = 6394,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 6394,
+						},
+						["Sheath of Light"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 38,
+									["min"] = 38,
+									["count"] = 1,
+									["amount"] = 38,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 38,
+						},
+					},
+					["RageGained"] = {
+					},
+					["ActiveTime"] = 9.789999999999999,
+					["CCBreak"] = 0,
+					["EnergyGain"] = 0,
+					["WhoHealed"] = {
+						["Pocaitoru"] = {
+							["Details"] = {
+								["Flash of Light"] = {
+									["count"] = 215,
+								},
+							},
+							["amount"] = 215,
+						},
+					},
+					["PartialResist"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 0,
+						},
+					},
+					["ManaGained"] = {
+						["Replenishment"] = {
+							["Details"] = {
+								["Pocaitoru"] = {
+									["count"] = 120,
+								},
+							},
+							["amount"] = 120,
+						},
+						["Judgements of the Wise"] = {
+							["Details"] = {
+								["Pocaitoru"] = {
+									["count"] = 1098,
+								},
+							},
+							["amount"] = 1098,
+						},
+						["Divine Plea"] = {
+							["Details"] = {
+								["Pocaitoru"] = {
+									["count"] = 308,
+								},
+							},
+							["amount"] = 308,
+						},
+						["Judgement of Wisdom"] = {
+							["Details"] = {
+								["Pocaitoru"] = {
+									["count"] = 87,
+								},
+							},
+							["amount"] = 87,
+						},
+					},
+					["ElementTakenAbsorb"] = {
+					},
+					["Interrupts"] = 0,
+					["Overhealing"] = 6432,
+					["ElementTakenResist"] = {
+					},
+					["InterruptData"] = {
+					},
+					["WhoDispelled"] = {
+					},
+					["TimeSpent"] = {
+						["Pocaitoru"] = {
+							["Details"] = {
+								["Flash of Light"] = {
+									["count"] = 3,
+								},
+							},
+							["amount"] = 3,
+						},
+						["Sunreaver Dragonhawk"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Divine Storm"] = {
+									["count"] = 0,
+								},
+								["Crusader Strike"] = {
+									["count"] = 0,
+								},
+								["Judgement of Command"] = {
+									["count"] = 0.19,
+								},
+								["Seal of Command"] = {
+									["count"] = 6.6,
+								},
+							},
+							["amount"] = 6.789999999999999,
 						},
 					},
 					["Heals"] = {
@@ -1898,116 +1830,65 @@ RecountPerCharDB = {
 							["amount"] = 215,
 						},
 					},
-					["Healing"] = 215,
-					["WhoDamaged"] = {
-						["Sunreaver Dragonhawk"] = {
+					["FDamage"] = 0,
+					["EnergyGained"] = {
+					},
+					["HealedWho"] = {
+						["Pocaitoru"] = {
 							["Details"] = {
-								["Melee"] = {
+								["Flash of Light"] = {
 									["count"] = 215,
 								},
 							},
 							["amount"] = 215,
 						},
 					},
+					["Healing"] = 215,
+					["RunicPowerGained"] = {
+					},
 					["ManaGainedFrom"] = {
 						["Pocaitoru"] = {
 							["Details"] = {
 								["Replenishment"] = {
-									["count"] = 180,
-								},
-								["Divine Plea"] = {
-									["count"] = 1540,
-								},
-								["Judgement of Wisdom"] = {
-									["count"] = 87,
+									["count"] = 120,
 								},
 								["Judgements of the Wise"] = {
 									["count"] = 1098,
 								},
+								["Divine Plea"] = {
+									["count"] = 308,
+								},
+								["Judgement of Wisdom"] = {
+									["count"] = 87,
+								},
 							},
-							["amount"] = 2905,
+							["amount"] = 1613,
 						},
 					},
-					["ElementDone"] = {
-						["Holy"] = 16316,
-						["Melee"] = 26939,
-						["Physical"] = 16201,
-					},
-					["HealingTaken"] = 215,
-					["DamagedWho"] = {
-						["Squirrel"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 12956,
-								},
-							},
-							["amount"] = 12956,
-						},
-						["Sunreaver Dragonhawk"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 13983,
-								},
-								["Crusader Strike"] = {
-									["count"] = 7990,
-								},
-								["Seal of Command"] = {
-									["count"] = 11189,
-								},
-								["Judgement of Command"] = {
-									["count"] = 5127,
-								},
-								["Divine Storm"] = {
-									["count"] = 8211,
-								},
-							},
-							["amount"] = 46500,
-						},
-					},
-					["TimeDamage"] = 13.22,
-					["TimeDamaging"] = {
-						["Squirrel"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 6.43,
-								},
-							},
-							["amount"] = 6.43,
-						},
-						["Sunreaver Dragonhawk"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Crusader Strike"] = {
-									["count"] = 0,
-								},
-								["Seal of Command"] = {
-									["count"] = 6.6,
-								},
-								["Judgement of Command"] = {
-									["count"] = 0.19,
-								},
-								["Divine Storm"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 6.789999999999999,
-						},
-					},
-					["ManaGain"] = 2905,
 					["Attacks"] = {
 						["Melee"] = {
 							["Details"] = {
 								["Crit"] = {
 									["max"] = 7935,
 									["min"] = 6048,
-									["count"] = 4,
-									["amount"] = 26939,
+									["count"] = 2,
+									["amount"] = 13983,
 								},
 							},
-							["count"] = 4,
-							["amount"] = 26939,
+							["count"] = 2,
+							["amount"] = 13983,
+						},
+						["Divine Storm"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 8211,
+									["min"] = 8211,
+									["count"] = 1,
+									["amount"] = 8211,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 8211,
 						},
 						["Crusader Strike"] = {
 							["Details"] = {
@@ -2020,6 +1901,18 @@ RecountPerCharDB = {
 							},
 							["count"] = 1,
 							["amount"] = 7990,
+						},
+						["Judgement of Command"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 5127,
+									["min"] = 5127,
+									["count"] = 1,
+									["amount"] = 5127,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 5127,
 						},
 						["Seal of Command"] = {
 							["Details"] = {
@@ -2039,48 +1932,157 @@ RecountPerCharDB = {
 							["count"] = 4,
 							["amount"] = 11189,
 						},
-						["Judgement of Command"] = {
+					},
+					["HealingTaken"] = 215,
+					["DamagedWho"] = {
+						["Sunreaver Dragonhawk"] = {
 							["Details"] = {
-								["Crit"] = {
-									["max"] = 5127,
-									["min"] = 5127,
-									["count"] = 1,
-									["amount"] = 5127,
+								["Melee"] = {
+									["count"] = 13983,
+								},
+								["Divine Storm"] = {
+									["count"] = 8211,
+								},
+								["Crusader Strike"] = {
+									["count"] = 7990,
+								},
+								["Judgement of Command"] = {
+									["count"] = 5127,
+								},
+								["Seal of Command"] = {
+									["count"] = 11189,
 								},
 							},
-							["count"] = 1,
-							["amount"] = 5127,
-						},
-						["Divine Storm"] = {
-							["Details"] = {
-								["Crit"] = {
-									["max"] = 8211,
-									["min"] = 8211,
-									["count"] = 1,
-									["amount"] = 8211,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 8211,
+							["amount"] = 46500,
 						},
 					},
-					["ElementHitsTaken"] = {
-						["Melee"] = {
+					["TimeDamage"] = 6.789999999999999,
+					["TimeDamaging"] = {
+						["Sunreaver Dragonhawk"] = {
 							["Details"] = {
-								["Hit"] = {
-									["count"] = 1,
+								["Melee"] = {
+									["count"] = 0,
 								},
-								["Dodge"] = {
-									["count"] = 1,
+								["Divine Storm"] = {
+									["count"] = 0,
+								},
+								["Crusader Strike"] = {
+									["count"] = 0,
+								},
+								["Judgement of Command"] = {
+									["count"] = 0.19,
+								},
+								["Seal of Command"] = {
+									["count"] = 6.6,
 								},
 							},
-							["amount"] = 2,
+							["amount"] = 6.789999999999999,
 						},
+					},
+					["RunicPowerGain"] = 0,
+					["ElementTakenBlock"] = {
+					},
+					["DispelledWho"] = {
 					},
 				},
 			},
-			["UnitLockout"] = 1648547740,
-			["LastActive"] = 1648547894,
+			["NextEventNum"] = 19,
+			["LastEventHealthNum"] = {
+				100, -- [1]
+				100, -- [2]
+				100, -- [3]
+				100, -- [4]
+				100, -- [5]
+				100, -- [6]
+				100, -- [7]
+				100, -- [8]
+				100, -- [9]
+				99.24730429911777, -- [10]
+				99.24730429911777, -- [11]
+				99.24730429911777, -- [12]
+				99.24730429911777, -- [13]
+				100, -- [14]
+				100, -- [15]
+				100, -- [16]
+				100, -- [17]
+				100, -- [18]
+			},
+			["LastEvents"] = {
+				"Pocaitoru Melee Squirrel Crit -6140 (Physical)", -- [1]
+				"Pocaitoru Melee Squirrel Crit -6816 (Physical)", -- [2]
+				"Pocaitoru Seal of Command Sunreaver Dragonhawk Crit -3205 (Holy)", -- [3]
+				"Pocaitoru Melee Sunreaver Dragonhawk Crit -6048 (Physical)", -- [4]
+				"Sunreaver Dragonhawk Melee Pocaitoru Dodge", -- [5]
+				"Pocaitoru Judgement of Command Sunreaver Dragonhawk Crit -5127 (Holy)", -- [6]
+				"Pocaitoru Seal of Command Sunreaver Dragonhawk Hit -1848 (Holy)", -- [7]
+				"Pocaitoru Divine Storm Sunreaver Dragonhawk Crit -8211 (Physical)", -- [8]
+				"Sunreaver Dragonhawk Melee Pocaitoru Hit -215 (Physical)", -- [9]
+				"Pocaitoru Seal of Command Sunreaver Dragonhawk Crit -4029 (Holy)", -- [10]
+				"Pocaitoru Melee Sunreaver Dragonhawk Crit -7935 (Physical)", -- [11]
+				"Pocaitoru Seal of Command Sunreaver Dragonhawk Hit -2107 (Holy)", -- [12]
+				"Pocaitoru Crusader Strike Sunreaver Dragonhawk Crit -7990 (Physical)", -- [13]
+				"Pocaitoru Flash of Light Pocaitoru Crit +6609 (6394 overheal)", -- [14]
+				"Pocaitoru Sheath of Light Pocaitoru Tick +38 (38 overheal)", -- [15]
+				"Pocaitoru Sheath of Light Pocaitoru Tick +38 (38 overheal)", -- [16]
+				"Pocaitoru Sheath of Light Pocaitoru Tick +38 (38 overheal)", -- [17]
+				"Pocaitoru Sheath of Light Pocaitoru Tick +38 (38 overheal)", -- [18]
+			},
+			["Name"] = "Pocaitoru",
+			["TimeLast"] = {
+				["TimeHeal"] = 1648547878,
+				["OVERALL"] = 1648547894,
+				["DamageTaken"] = 1648547873,
+				["Overhealing"] = 1648547881,
+				["HealingTaken"] = 1648547878,
+				["HOT_Time"] = 1648547881,
+				["ActiveTime"] = 1648547878,
+				["TimeDamage"] = 1648547875,
+				["ManaGain"] = 1648547894,
+				["Healing"] = 1648547878,
+				["Damage"] = 1648547875,
+			},
+			["LastEventIncoming"] = {
+				false, -- [1]
+				false, -- [2]
+				false, -- [3]
+				false, -- [4]
+				true, -- [5]
+				false, -- [6]
+				false, -- [7]
+				false, -- [8]
+				true, -- [9]
+				false, -- [10]
+				false, -- [11]
+				false, -- [12]
+				false, -- [13]
+				true, -- [14]
+				true, -- [15]
+				true, -- [16]
+				true, -- [17]
+				true, -- [18]
+			},
+			["LastDamageTaken"] = 215,
+			["LastEventTimes"] = {
+				12551.699, -- [1]
+				12554.627, -- [2]
+				12683.122, -- [3]
+				12683.123, -- [4]
+				12683.135, -- [5]
+				12683.308, -- [6]
+				12684.796, -- [7]
+				12684.796, -- [8]
+				12685.087, -- [9]
+				12685.816, -- [10]
+				12685.817, -- [11]
+				12686.409, -- [12]
+				12686.409, -- [13]
+				12689.413, -- [14]
+				12692.466, -- [15]
+				12695.478, -- [16]
+				12698.401, -- [17]
+				12701.416, -- [18]
+			},
+			["LastAbility"] = 34189.44,
 		},
 		["Naroma"] = {
 			["GUID"] = "0x07000000007B95DE",
@@ -2088,112 +2090,12 @@ RecountPerCharDB = {
 			["FightsSaved"] = 2,
 			["Owner"] = false,
 			["enClass"] = "DRUID",
+			["LastAbility"] = 34189.44,
 			["Name"] = "Naroma",
 			["lazysync"] = true,
+			["UnitLockout"] = 1648547740,
+			["level"] = 80,
 			["Fights"] = {
-				["LastFightData"] = {
-					["DOTs"] = {
-					},
-					["ElementDoneResist"] = {
-					},
-					["Ressed"] = 0,
-					["DamageTaken"] = 0,
-					["RageGainedFrom"] = {
-					},
-					["ElementHitsTaken"] = {
-					},
-					["DeathCount"] = 0,
-					["HOT_Time"] = 0,
-					["ElementHitsDone"] = {
-					},
-					["ElementTakenAbsorb"] = {
-					},
-					["ElementTaken"] = {
-					},
-					["DOT_Time"] = 0,
-					["Damage"] = 0,
-					["ElementTakenBlock"] = {
-					},
-					["TimeHeal"] = 0,
-					["RessedWho"] = {
-					},
-					["Dispels"] = 0,
-					["ElementTakenResist"] = {
-					},
-					["ElementDoneAbsorb"] = {
-					},
-					["FAttacks"] = {
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementDone"] = {
-					},
-					["PartialAbsorb"] = {
-					},
-					["DamagedWho"] = {
-					},
-					["PartialBlock"] = {
-					},
-					["WhoDamaged"] = {
-					},
-					["EnergyGainedFrom"] = {
-					},
-					["PartialResist"] = {
-					},
-					["CCBroken"] = {
-					},
-					["ElementDoneBlock"] = {
-					},
-					["TimeHealing"] = {
-					},
-					["OverHeals"] = {
-					},
-					["ManaGainedFrom"] = {
-					},
-					["RunicPowerGained"] = {
-					},
-					["CCBreak"] = 0,
-					["RageGained"] = {
-					},
-					["HealedWho"] = {
-					},
-					["EnergyGain"] = 0,
-					["ManaGained"] = {
-					},
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
-					["Overhealing"] = 0,
-					["TimeSpent"] = {
-					},
-					["WhoDispelled"] = {
-					},
-					["InterruptData"] = {
-					},
-					["RunicPowerGain"] = 0,
-					["Heals"] = {
-					},
-					["WhoHealed"] = {
-					},
-					["EnergyGained"] = {
-					},
-					["ActiveTime"] = 0,
-					["Healing"] = 0,
-					["FDamagedWho"] = {
-					},
-					["Dispelled"] = 0,
-					["Attacks"] = {
-					},
-					["HealingTaken"] = 0,
-					["RageGain"] = 0,
-					["TimeDamage"] = 0,
-					["TimeDamaging"] = {
-					},
-					["ManaGain"] = 0,
-					["HOTs"] = {
-					},
-					["DispelledWho"] = {
-					},
-				},
 				["CurrentFightData"] = {
 					["DOTs"] = {
 					},
@@ -2207,43 +2109,40 @@ RecountPerCharDB = {
 					},
 					["DeathCount"] = 0,
 					["HOT_Time"] = 0,
-					["ElementHitsDone"] = {
+					["HOTs"] = {
 					},
-					["ElementTakenAbsorb"] = {
-					},
+					["ManaGain"] = 0,
 					["ElementTaken"] = {
 					},
 					["DOT_Time"] = 0,
 					["Damage"] = 0,
-					["ElementTakenBlock"] = {
+					["ElementDoneAbsorb"] = {
 					},
 					["TimeHeal"] = 0,
 					["RessedWho"] = {
 					},
 					["Dispels"] = 0,
-					["ElementTakenResist"] = {
-					},
-					["ElementDoneAbsorb"] = {
-					},
-					["FAttacks"] = {
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementDone"] = {
-					},
 					["PartialAbsorb"] = {
 					},
-					["DamagedWho"] = {
+					["RageGain"] = 0,
+					["FAttacks"] = {
 					},
 					["PartialBlock"] = {
 					},
+					["ElementDone"] = {
+					},
+					["CCBroken"] = {
+					},
+					["ElementHitsDone"] = {
+					},
+					["Dispelled"] = 0,
 					["WhoDamaged"] = {
 					},
 					["EnergyGainedFrom"] = {
 					},
-					["PartialResist"] = {
+					["FDamagedWho"] = {
 					},
-					["CCBroken"] = {
+					["RunicPowerGainedFrom"] = {
 					},
 					["ElementDoneBlock"] = {
 					},
@@ -2251,55 +2150,159 @@ RecountPerCharDB = {
 					},
 					["OverHeals"] = {
 					},
-					["ManaGainedFrom"] = {
-					},
-					["RunicPowerGained"] = {
-					},
-					["CCBreak"] = 0,
 					["RageGained"] = {
 					},
-					["HealedWho"] = {
-					},
+					["ActiveTime"] = 0,
+					["CCBreak"] = 0,
 					["EnergyGain"] = 0,
+					["WhoHealed"] = {
+					},
+					["PartialResist"] = {
+					},
 					["ManaGained"] = {
 					},
-					["FDamage"] = 0,
+					["ElementTakenAbsorb"] = {
+					},
 					["Interrupts"] = 0,
 					["Overhealing"] = 0,
-					["TimeSpent"] = {
-					},
-					["WhoDispelled"] = {
+					["ElementTakenResist"] = {
 					},
 					["InterruptData"] = {
 					},
-					["RunicPowerGain"] = 0,
+					["WhoDispelled"] = {
+					},
+					["TimeSpent"] = {
+					},
 					["Heals"] = {
 					},
-					["WhoHealed"] = {
-					},
+					["FDamage"] = 0,
 					["EnergyGained"] = {
 					},
-					["ActiveTime"] = 0,
-					["Healing"] = 0,
-					["FDamagedWho"] = {
+					["HealedWho"] = {
 					},
-					["Dispelled"] = 0,
+					["Healing"] = 0,
+					["RunicPowerGained"] = {
+					},
+					["ManaGainedFrom"] = {
+					},
 					["Attacks"] = {
 					},
 					["HealingTaken"] = 0,
-					["RageGain"] = 0,
+					["DamagedWho"] = {
+					},
 					["TimeDamage"] = 0,
 					["TimeDamaging"] = {
 					},
-					["ManaGain"] = 0,
+					["RunicPowerGain"] = 0,
+					["ElementTakenBlock"] = {
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["LastFightData"] = {
+					["DOTs"] = {
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 0,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
 					["HOTs"] = {
+					},
+					["ManaGain"] = 0,
+					["ElementTaken"] = {
+					},
+					["DOT_Time"] = 0,
+					["Damage"] = 0,
+					["ElementDoneAbsorb"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["PartialAbsorb"] = {
+					},
+					["RageGain"] = 0,
+					["FAttacks"] = {
+					},
+					["PartialBlock"] = {
+					},
+					["ElementDone"] = {
+					},
+					["CCBroken"] = {
+					},
+					["ElementHitsDone"] = {
+					},
+					["Dispelled"] = 0,
+					["WhoDamaged"] = {
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["FDamagedWho"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+					},
+					["OverHeals"] = {
+					},
+					["RageGained"] = {
+					},
+					["ActiveTime"] = 0,
+					["CCBreak"] = 0,
+					["EnergyGain"] = 0,
+					["WhoHealed"] = {
+					},
+					["PartialResist"] = {
+					},
+					["ManaGained"] = {
+					},
+					["ElementTakenAbsorb"] = {
+					},
+					["Interrupts"] = 0,
+					["Overhealing"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["InterruptData"] = {
+					},
+					["WhoDispelled"] = {
+					},
+					["TimeSpent"] = {
+					},
+					["Heals"] = {
+					},
+					["FDamage"] = 0,
+					["EnergyGained"] = {
+					},
+					["HealedWho"] = {
+					},
+					["Healing"] = 0,
+					["RunicPowerGained"] = {
+					},
+					["ManaGainedFrom"] = {
+					},
+					["Attacks"] = {
+					},
+					["HealingTaken"] = 0,
+					["DamagedWho"] = {
+					},
+					["TimeDamage"] = 0,
+					["TimeDamaging"] = {
+					},
+					["RunicPowerGain"] = 0,
+					["ElementTakenBlock"] = {
 					},
 					["DispelledWho"] = {
 					},
 				},
 			},
-			["level"] = 80,
-			["UnitLockout"] = 1648547740,
 			["LastFightIn"] = 0,
 		},
 		["Tajniak"] = {
@@ -2308,112 +2311,12 @@ RecountPerCharDB = {
 			["FightsSaved"] = 2,
 			["Owner"] = false,
 			["enClass"] = "ROGUE",
+			["LastAbility"] = 34189.44,
 			["Name"] = "Tajniak",
 			["lazysync"] = true,
+			["UnitLockout"] = 1648547740,
+			["level"] = 80,
 			["Fights"] = {
-				["LastFightData"] = {
-					["DOTs"] = {
-					},
-					["ElementDoneResist"] = {
-					},
-					["Ressed"] = 0,
-					["DamageTaken"] = 0,
-					["RageGainedFrom"] = {
-					},
-					["ElementHitsTaken"] = {
-					},
-					["DeathCount"] = 0,
-					["HOT_Time"] = 0,
-					["ElementHitsDone"] = {
-					},
-					["ElementTakenAbsorb"] = {
-					},
-					["ElementTaken"] = {
-					},
-					["DOT_Time"] = 0,
-					["Damage"] = 0,
-					["ElementTakenBlock"] = {
-					},
-					["TimeHeal"] = 0,
-					["RessedWho"] = {
-					},
-					["Dispels"] = 0,
-					["ElementTakenResist"] = {
-					},
-					["ElementDoneAbsorb"] = {
-					},
-					["FAttacks"] = {
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementDone"] = {
-					},
-					["PartialAbsorb"] = {
-					},
-					["DamagedWho"] = {
-					},
-					["PartialBlock"] = {
-					},
-					["WhoDamaged"] = {
-					},
-					["EnergyGainedFrom"] = {
-					},
-					["PartialResist"] = {
-					},
-					["CCBroken"] = {
-					},
-					["ElementDoneBlock"] = {
-					},
-					["TimeHealing"] = {
-					},
-					["OverHeals"] = {
-					},
-					["ManaGainedFrom"] = {
-					},
-					["RunicPowerGained"] = {
-					},
-					["CCBreak"] = 0,
-					["RageGained"] = {
-					},
-					["HealedWho"] = {
-					},
-					["EnergyGain"] = 0,
-					["ManaGained"] = {
-					},
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
-					["Overhealing"] = 0,
-					["TimeSpent"] = {
-					},
-					["WhoDispelled"] = {
-					},
-					["InterruptData"] = {
-					},
-					["RunicPowerGain"] = 0,
-					["Heals"] = {
-					},
-					["WhoHealed"] = {
-					},
-					["EnergyGained"] = {
-					},
-					["ActiveTime"] = 0,
-					["Healing"] = 0,
-					["FDamagedWho"] = {
-					},
-					["Dispelled"] = 0,
-					["Attacks"] = {
-					},
-					["HealingTaken"] = 0,
-					["RageGain"] = 0,
-					["TimeDamage"] = 0,
-					["TimeDamaging"] = {
-					},
-					["ManaGain"] = 0,
-					["HOTs"] = {
-					},
-					["DispelledWho"] = {
-					},
-				},
 				["CurrentFightData"] = {
 					["DOTs"] = {
 					},
@@ -2427,43 +2330,40 @@ RecountPerCharDB = {
 					},
 					["DeathCount"] = 0,
 					["HOT_Time"] = 0,
-					["ElementHitsDone"] = {
+					["HOTs"] = {
 					},
-					["ElementTakenAbsorb"] = {
-					},
+					["ManaGain"] = 0,
 					["ElementTaken"] = {
 					},
 					["DOT_Time"] = 0,
 					["Damage"] = 0,
-					["ElementTakenBlock"] = {
+					["ElementDoneAbsorb"] = {
 					},
 					["TimeHeal"] = 0,
 					["RessedWho"] = {
 					},
 					["Dispels"] = 0,
-					["ElementTakenResist"] = {
-					},
-					["ElementDoneAbsorb"] = {
-					},
-					["FAttacks"] = {
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementDone"] = {
-					},
 					["PartialAbsorb"] = {
 					},
-					["DamagedWho"] = {
+					["RageGain"] = 0,
+					["FAttacks"] = {
 					},
 					["PartialBlock"] = {
 					},
+					["ElementDone"] = {
+					},
+					["CCBroken"] = {
+					},
+					["ElementHitsDone"] = {
+					},
+					["Dispelled"] = 0,
 					["WhoDamaged"] = {
 					},
 					["EnergyGainedFrom"] = {
 					},
-					["PartialResist"] = {
+					["FDamagedWho"] = {
 					},
-					["CCBroken"] = {
+					["RunicPowerGainedFrom"] = {
 					},
 					["ElementDoneBlock"] = {
 					},
@@ -2471,55 +2371,159 @@ RecountPerCharDB = {
 					},
 					["OverHeals"] = {
 					},
-					["ManaGainedFrom"] = {
-					},
-					["RunicPowerGained"] = {
-					},
-					["CCBreak"] = 0,
 					["RageGained"] = {
 					},
-					["HealedWho"] = {
-					},
+					["ActiveTime"] = 0,
+					["CCBreak"] = 0,
 					["EnergyGain"] = 0,
+					["WhoHealed"] = {
+					},
+					["PartialResist"] = {
+					},
 					["ManaGained"] = {
 					},
-					["FDamage"] = 0,
+					["ElementTakenAbsorb"] = {
+					},
 					["Interrupts"] = 0,
 					["Overhealing"] = 0,
-					["TimeSpent"] = {
-					},
-					["WhoDispelled"] = {
+					["ElementTakenResist"] = {
 					},
 					["InterruptData"] = {
 					},
-					["RunicPowerGain"] = 0,
+					["WhoDispelled"] = {
+					},
+					["TimeSpent"] = {
+					},
 					["Heals"] = {
 					},
-					["WhoHealed"] = {
-					},
+					["FDamage"] = 0,
 					["EnergyGained"] = {
 					},
-					["ActiveTime"] = 0,
-					["Healing"] = 0,
-					["FDamagedWho"] = {
+					["HealedWho"] = {
 					},
-					["Dispelled"] = 0,
+					["Healing"] = 0,
+					["RunicPowerGained"] = {
+					},
+					["ManaGainedFrom"] = {
+					},
 					["Attacks"] = {
 					},
 					["HealingTaken"] = 0,
-					["RageGain"] = 0,
+					["DamagedWho"] = {
+					},
 					["TimeDamage"] = 0,
 					["TimeDamaging"] = {
 					},
-					["ManaGain"] = 0,
+					["RunicPowerGain"] = 0,
+					["ElementTakenBlock"] = {
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["LastFightData"] = {
+					["DOTs"] = {
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 0,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
 					["HOTs"] = {
+					},
+					["ManaGain"] = 0,
+					["ElementTaken"] = {
+					},
+					["DOT_Time"] = 0,
+					["Damage"] = 0,
+					["ElementDoneAbsorb"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["PartialAbsorb"] = {
+					},
+					["RageGain"] = 0,
+					["FAttacks"] = {
+					},
+					["PartialBlock"] = {
+					},
+					["ElementDone"] = {
+					},
+					["CCBroken"] = {
+					},
+					["ElementHitsDone"] = {
+					},
+					["Dispelled"] = 0,
+					["WhoDamaged"] = {
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["FDamagedWho"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+					},
+					["OverHeals"] = {
+					},
+					["RageGained"] = {
+					},
+					["ActiveTime"] = 0,
+					["CCBreak"] = 0,
+					["EnergyGain"] = 0,
+					["WhoHealed"] = {
+					},
+					["PartialResist"] = {
+					},
+					["ManaGained"] = {
+					},
+					["ElementTakenAbsorb"] = {
+					},
+					["Interrupts"] = 0,
+					["Overhealing"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["InterruptData"] = {
+					},
+					["WhoDispelled"] = {
+					},
+					["TimeSpent"] = {
+					},
+					["Heals"] = {
+					},
+					["FDamage"] = 0,
+					["EnergyGained"] = {
+					},
+					["HealedWho"] = {
+					},
+					["Healing"] = 0,
+					["RunicPowerGained"] = {
+					},
+					["ManaGainedFrom"] = {
+					},
+					["Attacks"] = {
+					},
+					["HealingTaken"] = 0,
+					["DamagedWho"] = {
+					},
+					["TimeDamage"] = 0,
+					["TimeDamaging"] = {
+					},
+					["RunicPowerGain"] = 0,
+					["ElementTakenBlock"] = {
 					},
 					["DispelledWho"] = {
 					},
 				},
 			},
-			["level"] = 80,
-			["UnitLockout"] = 1648547740,
 			["LastFightIn"] = 0,
 		},
 		["Uzeir"] = {
@@ -2528,112 +2532,12 @@ RecountPerCharDB = {
 			["FightsSaved"] = 2,
 			["Owner"] = false,
 			["enClass"] = "DRUID",
+			["LastAbility"] = 34189.44,
 			["Name"] = "Uzeir",
 			["lazysync"] = true,
+			["UnitLockout"] = 1648547740,
+			["level"] = 80,
 			["Fights"] = {
-				["LastFightData"] = {
-					["DOTs"] = {
-					},
-					["ElementDoneResist"] = {
-					},
-					["Ressed"] = 0,
-					["DamageTaken"] = 0,
-					["RageGainedFrom"] = {
-					},
-					["ElementHitsTaken"] = {
-					},
-					["DeathCount"] = 0,
-					["HOT_Time"] = 0,
-					["ElementHitsDone"] = {
-					},
-					["ElementTakenAbsorb"] = {
-					},
-					["ElementTaken"] = {
-					},
-					["DOT_Time"] = 0,
-					["Damage"] = 0,
-					["ElementTakenBlock"] = {
-					},
-					["TimeHeal"] = 0,
-					["RessedWho"] = {
-					},
-					["Dispels"] = 0,
-					["ElementTakenResist"] = {
-					},
-					["ElementDoneAbsorb"] = {
-					},
-					["FAttacks"] = {
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementDone"] = {
-					},
-					["PartialAbsorb"] = {
-					},
-					["DamagedWho"] = {
-					},
-					["PartialBlock"] = {
-					},
-					["WhoDamaged"] = {
-					},
-					["EnergyGainedFrom"] = {
-					},
-					["PartialResist"] = {
-					},
-					["CCBroken"] = {
-					},
-					["ElementDoneBlock"] = {
-					},
-					["TimeHealing"] = {
-					},
-					["OverHeals"] = {
-					},
-					["ManaGainedFrom"] = {
-					},
-					["RunicPowerGained"] = {
-					},
-					["CCBreak"] = 0,
-					["RageGained"] = {
-					},
-					["HealedWho"] = {
-					},
-					["EnergyGain"] = 0,
-					["ManaGained"] = {
-					},
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
-					["Overhealing"] = 0,
-					["TimeSpent"] = {
-					},
-					["WhoDispelled"] = {
-					},
-					["InterruptData"] = {
-					},
-					["RunicPowerGain"] = 0,
-					["Heals"] = {
-					},
-					["WhoHealed"] = {
-					},
-					["EnergyGained"] = {
-					},
-					["ActiveTime"] = 0,
-					["Healing"] = 0,
-					["FDamagedWho"] = {
-					},
-					["Dispelled"] = 0,
-					["Attacks"] = {
-					},
-					["HealingTaken"] = 0,
-					["RageGain"] = 0,
-					["TimeDamage"] = 0,
-					["TimeDamaging"] = {
-					},
-					["ManaGain"] = 0,
-					["HOTs"] = {
-					},
-					["DispelledWho"] = {
-					},
-				},
 				["CurrentFightData"] = {
 					["DOTs"] = {
 					},
@@ -2647,43 +2551,40 @@ RecountPerCharDB = {
 					},
 					["DeathCount"] = 0,
 					["HOT_Time"] = 0,
-					["ElementHitsDone"] = {
+					["HOTs"] = {
 					},
-					["ElementTakenAbsorb"] = {
-					},
+					["ManaGain"] = 0,
 					["ElementTaken"] = {
 					},
 					["DOT_Time"] = 0,
 					["Damage"] = 0,
-					["ElementTakenBlock"] = {
+					["ElementDoneAbsorb"] = {
 					},
 					["TimeHeal"] = 0,
 					["RessedWho"] = {
 					},
 					["Dispels"] = 0,
-					["ElementTakenResist"] = {
-					},
-					["ElementDoneAbsorb"] = {
-					},
-					["FAttacks"] = {
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementDone"] = {
-					},
 					["PartialAbsorb"] = {
 					},
-					["DamagedWho"] = {
+					["RageGain"] = 0,
+					["FAttacks"] = {
 					},
 					["PartialBlock"] = {
 					},
+					["ElementDone"] = {
+					},
+					["CCBroken"] = {
+					},
+					["ElementHitsDone"] = {
+					},
+					["Dispelled"] = 0,
 					["WhoDamaged"] = {
 					},
 					["EnergyGainedFrom"] = {
 					},
-					["PartialResist"] = {
+					["FDamagedWho"] = {
 					},
-					["CCBroken"] = {
+					["RunicPowerGainedFrom"] = {
 					},
 					["ElementDoneBlock"] = {
 					},
@@ -2691,55 +2592,159 @@ RecountPerCharDB = {
 					},
 					["OverHeals"] = {
 					},
-					["ManaGainedFrom"] = {
-					},
-					["RunicPowerGained"] = {
-					},
-					["CCBreak"] = 0,
 					["RageGained"] = {
 					},
-					["HealedWho"] = {
-					},
+					["ActiveTime"] = 0,
+					["CCBreak"] = 0,
 					["EnergyGain"] = 0,
+					["WhoHealed"] = {
+					},
+					["PartialResist"] = {
+					},
 					["ManaGained"] = {
 					},
-					["FDamage"] = 0,
+					["ElementTakenAbsorb"] = {
+					},
 					["Interrupts"] = 0,
 					["Overhealing"] = 0,
-					["TimeSpent"] = {
-					},
-					["WhoDispelled"] = {
+					["ElementTakenResist"] = {
 					},
 					["InterruptData"] = {
 					},
-					["RunicPowerGain"] = 0,
+					["WhoDispelled"] = {
+					},
+					["TimeSpent"] = {
+					},
 					["Heals"] = {
 					},
-					["WhoHealed"] = {
-					},
+					["FDamage"] = 0,
 					["EnergyGained"] = {
 					},
-					["ActiveTime"] = 0,
-					["Healing"] = 0,
-					["FDamagedWho"] = {
+					["HealedWho"] = {
 					},
-					["Dispelled"] = 0,
+					["Healing"] = 0,
+					["RunicPowerGained"] = {
+					},
+					["ManaGainedFrom"] = {
+					},
 					["Attacks"] = {
 					},
 					["HealingTaken"] = 0,
-					["RageGain"] = 0,
+					["DamagedWho"] = {
+					},
 					["TimeDamage"] = 0,
 					["TimeDamaging"] = {
 					},
-					["ManaGain"] = 0,
+					["RunicPowerGain"] = 0,
+					["ElementTakenBlock"] = {
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["LastFightData"] = {
+					["DOTs"] = {
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 0,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
 					["HOTs"] = {
+					},
+					["ManaGain"] = 0,
+					["ElementTaken"] = {
+					},
+					["DOT_Time"] = 0,
+					["Damage"] = 0,
+					["ElementDoneAbsorb"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["PartialAbsorb"] = {
+					},
+					["RageGain"] = 0,
+					["FAttacks"] = {
+					},
+					["PartialBlock"] = {
+					},
+					["ElementDone"] = {
+					},
+					["CCBroken"] = {
+					},
+					["ElementHitsDone"] = {
+					},
+					["Dispelled"] = 0,
+					["WhoDamaged"] = {
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["FDamagedWho"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+					},
+					["OverHeals"] = {
+					},
+					["RageGained"] = {
+					},
+					["ActiveTime"] = 0,
+					["CCBreak"] = 0,
+					["EnergyGain"] = 0,
+					["WhoHealed"] = {
+					},
+					["PartialResist"] = {
+					},
+					["ManaGained"] = {
+					},
+					["ElementTakenAbsorb"] = {
+					},
+					["Interrupts"] = 0,
+					["Overhealing"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["InterruptData"] = {
+					},
+					["WhoDispelled"] = {
+					},
+					["TimeSpent"] = {
+					},
+					["Heals"] = {
+					},
+					["FDamage"] = 0,
+					["EnergyGained"] = {
+					},
+					["HealedWho"] = {
+					},
+					["Healing"] = 0,
+					["RunicPowerGained"] = {
+					},
+					["ManaGainedFrom"] = {
+					},
+					["Attacks"] = {
+					},
+					["HealingTaken"] = 0,
+					["DamagedWho"] = {
+					},
+					["TimeDamage"] = 0,
+					["TimeDamaging"] = {
+					},
+					["RunicPowerGain"] = 0,
+					["ElementTakenBlock"] = {
 					},
 					["DispelledWho"] = {
 					},
 				},
 			},
-			["level"] = 80,
-			["UnitLockout"] = 1648547740,
 			["LastFightIn"] = 0,
 		},
 	},
