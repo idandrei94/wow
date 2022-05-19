@@ -36,8 +36,8 @@ RecountDB = {
 				},
 			},
 			["DetailWindowX"] = 58.00000341936197,
-			["LastInstanceName"] = "Gundrak",
-			["CurDataSet"] = "LastFightData",
+			["LastInstanceName"] = "Trial of the Crusader",
+			["CurDataSet"] = "CurrentFightData",
 			["Colors"] = {
 				["Bar"] = {
 					["Bar Text"] = {
@@ -49,10 +49,10 @@ RecountDB = {
 				},
 			},
 			["DetailWindowY"] = -16.99999979483828,
-			["GraphWindowX"] = 0,
-			["ReportLines"] = 1,
-			["MainWindowWidth"] = 251.4197662784027,
 			["MainWindowHeight"] = 310.8518969696999,
+			["MainWindowWidth"] = 251.4197662784027,
+			["ReportLines"] = 1,
+			["GraphWindowX"] = 0,
 		},
 		["Vrael - Icecrown"] = {
 			["GraphWindowY"] = 0,
@@ -270,6 +270,9 @@ RecountDB = {
 					["x"] = -635.0186428401877,
 				},
 			},
+			["DetailWindowX"] = 74.40742614297815,
+			["LastInstanceName"] = "Trial of the Crusader",
+			["CurDataSet"] = "LastFightData",
 			["Colors"] = {
 				["Bar"] = {
 					["Bar Text"] = {
@@ -281,9 +284,6 @@ RecountDB = {
 				},
 			},
 			["DetailWindowY"] = -165.0369795107044,
-			["DetailWindowX"] = 74.40742614297815,
-			["LastInstanceName"] = "Trial of the Crusader",
-			["CurDataSet"] = "LastFightData",
 			["GraphWindowX"] = 0,
 			["MainWindowWidth"] = 247.3703663456547,
 			["MainWindowHeight"] = 317.6297135990283,
@@ -324,9 +324,7 @@ RecountDB = {
 					["x"] = -628.5186425324451,
 				},
 			},
-			["DetailWindowX"] = 655.7037672683764,
-			["LastInstanceName"] = "Trial of the Crusader",
-			["CurDataSet"] = "LastFightData",
+			["ReportLines"] = 2,
 			["Colors"] = {
 				["Bar"] = {
 					["Bar Text"] = {
@@ -338,10 +336,12 @@ RecountDB = {
 				},
 			},
 			["DetailWindowY"] = -296.7037172773043,
-			["MainWindowHeight"] = 328.7999999452902,
-			["MainWindowWidth"] = 260.0000123097031,
-			["ReportLines"] = 2,
+			["DetailWindowX"] = 655.7037672683764,
+			["LastInstanceName"] = "Trial of the Crusader",
+			["CurDataSet"] = "LastFightData",
 			["GraphWindowX"] = 0,
+			["MainWindowWidth"] = 260.0000123097031,
+			["MainWindowHeight"] = 328.7999999452902,
 		},
 		["Izanagi - Icecrown"] = {
 			["GraphWindowY"] = 0,
