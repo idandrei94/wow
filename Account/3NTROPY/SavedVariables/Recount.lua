@@ -270,9 +270,6 @@ RecountDB = {
 					["x"] = -635.0186428401877,
 				},
 			},
-			["DetailWindowX"] = 74.40742614297815,
-			["LastInstanceName"] = "Trial of the Crusader",
-			["CurDataSet"] = "LastFightData",
 			["Colors"] = {
 				["Bar"] = {
 					["Bar Text"] = {
@@ -284,6 +281,9 @@ RecountDB = {
 				},
 			},
 			["DetailWindowY"] = -165.0369795107044,
+			["DetailWindowX"] = 74.40742614297815,
+			["LastInstanceName"] = "Trial of the Crusader",
+			["CurDataSet"] = "LastFightData",
 			["GraphWindowX"] = 0,
 			["MainWindowWidth"] = 247.3703663456547,
 			["MainWindowHeight"] = 317.6297135990283,
@@ -324,7 +324,10 @@ RecountDB = {
 					["x"] = -628.5186425324451,
 				},
 			},
-			["ReportLines"] = 2,
+			["DetailWindowX"] = 655.7037672683764,
+			["LastInstanceName"] = "Strand of the Ancients",
+			["MainWindowHeight"] = 328.7999999452902,
+			["CurDataSet"] = "LastFightData",
 			["Colors"] = {
 				["Bar"] = {
 					["Bar Text"] = {
@@ -336,12 +339,10 @@ RecountDB = {
 				},
 			},
 			["DetailWindowY"] = -296.7037172773043,
-			["DetailWindowX"] = 655.7037672683764,
-			["LastInstanceName"] = "Trial of the Crusader",
-			["CurDataSet"] = "LastFightData",
-			["GraphWindowX"] = 0,
 			["MainWindowWidth"] = 260.0000123097031,
-			["MainWindowHeight"] = 328.7999999452902,
+			["GraphWindowX"] = 0,
+			["ReportLines"] = 2,
+			["MainWindowVis"] = false,
 		},
 		["Izanagi - Icecrown"] = {
 			["GraphWindowY"] = 0,
