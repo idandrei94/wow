@@ -72,1019 +72,10 @@ RecountPerCharDB = {
 			},
 			["type"] = "Self",
 			["FightsSaved"] = 1,
-			["LastDamageTaken"] = 74,
-			["TimeLast"] = {
-				["TimeHeal"] = 1657993007,
-				["OVERALL"] = 1657993021,
-				["DamageTaken"] = 1657993005,
-				["HealingTaken"] = 1657993007,
-				["HOT_Time"] = 1657993007,
-				["TimeDamage"] = 1657993007,
-				["Healing"] = 1657993007,
-				["ManaGain"] = 1657993021,
-				["ActiveTime"] = 1657993007,
-				["Damage"] = 1657993007,
-			},
+			["LastActive"] = 1657993021,
+			["UnitLockout"] = 1657993004,
 			["Owner"] = false,
-			["LastAbility"] = 3035.328,
-			["NextEventNum"] = 12,
-			["LastEventHealthNum"] = {
-				83.49149404004166, -- [1]
-				83.49149404004166, -- [2]
-				83.49149404004166, -- [3]
-				83.08644832773985, -- [4]
-				83.08644832773985, -- [5]
-				83.08644832773985, -- [6]
-				83.08644832773985, -- [7]
-				83.08644832773985, -- [8]
-				83.08644832773985, -- [9]
-				83.08644832773985, -- [10]
-				86.36442541372526, -- [11]
-			},
-			["LastEvents"] = {
-				"Pocaitoru Thorns Spider Hit -69 (Nature)", -- [1]
-				"Spider Melee Pocaitoru Hit -66 (Physical)", -- [2]
-				"Spider Growl Pocaitoru Miss (Physical)", -- [3]
-				"Spider Bite Pocaitoru Hit -74 (Physical)", -- [4]
-				"Pocaitoru Melee Punkter Hit -3408 (Physical)", -- [5]
-				"Pocaitoru Seal of Righteousness Punkter Hit -1297 (Holy)", -- [6]
-				"Pocaitoru Seal of Righteousness Punkter Hit -1325 (Holy)", -- [7]
-				"Pocaitoru Judgement of Righteousness Punkter Hit -3245 (Holy)", -- [8]
-				"Pocaitoru Seal of Righteousness Punkter Hit -1354 (Holy)", -- [9]
-				"Pocaitoru Divine Storm Punkter Hit -3703 (Physical)", -- [10]
-				"Pocaitoru Divine Storm Pocaitoru Tick +1133", -- [11]
-			},
-			["Name"] = "Pocaitoru",
-			["LastEventIncoming"] = {
-				false, -- [1]
-				true, -- [2]
-				true, -- [3]
-				true, -- [4]
-				false, -- [5]
-				false, -- [6]
-				false, -- [7]
-				false, -- [8]
-				false, -- [9]
-				false, -- [10]
-				true, -- [11]
-			},
-			["LastEventTimes"] = {
-				3032.291, -- [1]
-				3032.291, -- [2]
-				3032.291, -- [3]
-				3032.604, -- [4]
-				3032.923, -- [5]
-				3033.188, -- [6]
-				3033.758, -- [7]
-				3033.761, -- [8]
-				3035.32, -- [9]
-				3035.327, -- [10]
-				3035.328, -- [11]
-			},
 			["Fights"] = {
-				["Fight1"] = {
-					["TimeHealing"] = {
-						["Pocaitoru"] = {
-							["Details"] = {
-								["Divine Storm"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["TimeSpent"] = {
-						["Punkter"] = {
-							["Details"] = {
-								["Divine Storm"] = {
-									["count"] = 0.01,
-								},
-								["Melee"] = {
-									["count"] = 0.63,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 2.39,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 3.03,
-						},
-						["Spider"] = {
-							["Details"] = {
-								["Thorns"] = {
-									["count"] = 3.5,
-								},
-							},
-							["amount"] = 3.5,
-						},
-						["Pocaitoru"] = {
-							["Details"] = {
-								["Divine Storm"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["DamageTaken"] = 140,
-					["PartialResist"] = {
-						["Growl"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 0,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 0,
-						},
-						["Bite"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 0,
-						},
-					},
-					["ManaGained"] = {
-						["Replenishment"] = {
-							["Details"] = {
-								["Pocaitoru"] = {
-									["count"] = 96,
-								},
-							},
-							["amount"] = 96,
-						},
-						["Judgements of the Wise"] = {
-							["Details"] = {
-								["Pocaitoru"] = {
-									["count"] = 1098,
-								},
-							},
-							["amount"] = 1098,
-						},
-						["Judgement of Wisdom"] = {
-							["Details"] = {
-								["Pocaitoru"] = {
-									["count"] = 174,
-								},
-							},
-							["amount"] = 174,
-						},
-					},
-					["PartialAbsorb"] = {
-						["Growl"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 0,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 0,
-						},
-						["Bite"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 0,
-						},
-					},
-					["ActiveTime"] = 6.529999999999999,
-					["WhoHealed"] = {
-						["Pocaitoru"] = {
-							["Details"] = {
-								["Divine Storm"] = {
-									["count"] = 1133,
-								},
-							},
-							["amount"] = 1133,
-						},
-					},
-					["ElementTaken"] = {
-						["Melee"] = 66,
-						["Physical"] = 74,
-					},
-					["HOTs"] = {
-						["Divine Storm"] = {
-							["Details"] = {
-								["Pocaitoru"] = {
-									["count"] = 3,
-								},
-							},
-							["amount"] = 3,
-						},
-					},
-					["Damage"] = 14401,
-					["ElementHitsTaken"] = {
-						["Melee"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 1,
-								},
-							},
-							["amount"] = 1,
-						},
-						["Physical"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 1,
-								},
-								["Miss"] = {
-									["count"] = 1,
-								},
-							},
-							["amount"] = 2,
-						},
-					},
-					["TimeHeal"] = 0,
-					["HealedWho"] = {
-						["Pocaitoru"] = {
-							["Details"] = {
-								["Divine Storm"] = {
-									["count"] = 1133,
-								},
-							},
-							["amount"] = 1133,
-						},
-					},
-					["Heals"] = {
-						["Divine Storm"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 1133,
-									["min"] = 1133,
-									["count"] = 1,
-									["amount"] = 1133,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 1133,
-						},
-					},
-					["HOT_Time"] = 3,
-					["Healing"] = 1133,
-					["ManaGainedFrom"] = {
-						["Pocaitoru"] = {
-							["Details"] = {
-								["Replenishment"] = {
-									["count"] = 96,
-								},
-								["Judgements of the Wise"] = {
-									["count"] = 1098,
-								},
-								["Judgement of Wisdom"] = {
-									["count"] = 174,
-								},
-							},
-							["amount"] = 1368,
-						},
-					},
-					["Attacks"] = {
-						["Melee"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 3408,
-									["min"] = 3408,
-									["count"] = 1,
-									["amount"] = 3408,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 3408,
-						},
-						["Divine Storm"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 3703,
-									["min"] = 3703,
-									["count"] = 1,
-									["amount"] = 3703,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 3703,
-						},
-						["Judgement of Righteousness"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 3245,
-									["min"] = 3245,
-									["count"] = 1,
-									["amount"] = 3245,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 3245,
-						},
-						["Seal of Righteousness"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 1354,
-									["min"] = 1297,
-									["count"] = 3,
-									["amount"] = 3976,
-								},
-							},
-							["count"] = 3,
-							["amount"] = 3976,
-						},
-						["Thorns"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 69,
-									["min"] = 69,
-									["count"] = 1,
-									["amount"] = 69,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 69,
-						},
-					},
-					["ElementDone"] = {
-						["Physical"] = 3703,
-						["Holy"] = 7221,
-						["Melee"] = 3408,
-						["Nature"] = 69,
-					},
-					["HealingTaken"] = 1133,
-					["DamagedWho"] = {
-						["Spider"] = {
-							["Details"] = {
-								["Thorns"] = {
-									["count"] = 69,
-								},
-							},
-							["amount"] = 69,
-						},
-						["Punkter"] = {
-							["Details"] = {
-								["Divine Storm"] = {
-									["count"] = 3703,
-								},
-								["Melee"] = {
-									["count"] = 3408,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 3976,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 3245,
-								},
-							},
-							["amount"] = 14332,
-						},
-					},
-					["TimeDamage"] = 6.529999999999999,
-					["TimeDamaging"] = {
-						["Spider"] = {
-							["Details"] = {
-								["Thorns"] = {
-									["count"] = 3.5,
-								},
-							},
-							["amount"] = 3.5,
-						},
-						["Punkter"] = {
-							["Details"] = {
-								["Divine Storm"] = {
-									["count"] = 0.01,
-								},
-								["Melee"] = {
-									["count"] = 0.63,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 2.39,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 3.03,
-						},
-					},
-					["ManaGain"] = 1368,
-					["WhoDamaged"] = {
-						["Spider"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 66,
-								},
-								["Bite"] = {
-									["count"] = 74,
-								},
-							},
-							["amount"] = 140,
-						},
-					},
-					["ElementHitsDone"] = {
-						["Physical"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 1,
-								},
-							},
-							["amount"] = 1,
-						},
-						["Holy"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 4,
-								},
-							},
-							["amount"] = 4,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 1,
-								},
-							},
-							["amount"] = 1,
-						},
-						["Nature"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 1,
-								},
-							},
-							["amount"] = 1,
-						},
-					},
-				},
-				["LastFightData"] = {
-					["TimeHealing"] = {
-						["Pocaitoru"] = {
-							["Details"] = {
-								["Divine Storm"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["TimeSpent"] = {
-						["Punkter"] = {
-							["Details"] = {
-								["Divine Storm"] = {
-									["count"] = 0.01,
-								},
-								["Melee"] = {
-									["count"] = 0.63,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 2.39,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 3.03,
-						},
-						["Spider"] = {
-							["Details"] = {
-								["Thorns"] = {
-									["count"] = 3.5,
-								},
-							},
-							["amount"] = 3.5,
-						},
-						["Pocaitoru"] = {
-							["Details"] = {
-								["Divine Storm"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["DamageTaken"] = 140,
-					["PartialResist"] = {
-						["Growl"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 0,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 0,
-						},
-						["Bite"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 0,
-						},
-					},
-					["ManaGained"] = {
-						["Replenishment"] = {
-							["Details"] = {
-								["Pocaitoru"] = {
-									["count"] = 96,
-								},
-							},
-							["amount"] = 96,
-						},
-						["Judgements of the Wise"] = {
-							["Details"] = {
-								["Pocaitoru"] = {
-									["count"] = 1098,
-								},
-							},
-							["amount"] = 1098,
-						},
-						["Judgement of Wisdom"] = {
-							["Details"] = {
-								["Pocaitoru"] = {
-									["count"] = 174,
-								},
-							},
-							["amount"] = 174,
-						},
-					},
-					["PartialAbsorb"] = {
-						["Growl"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 0,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 0,
-						},
-						["Bite"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 0,
-						},
-					},
-					["ActiveTime"] = 6.529999999999999,
-					["WhoHealed"] = {
-						["Pocaitoru"] = {
-							["Details"] = {
-								["Divine Storm"] = {
-									["count"] = 1133,
-								},
-							},
-							["amount"] = 1133,
-						},
-					},
-					["ElementTaken"] = {
-						["Melee"] = 66,
-						["Physical"] = 74,
-					},
-					["HOTs"] = {
-						["Divine Storm"] = {
-							["Details"] = {
-								["Pocaitoru"] = {
-									["count"] = 3,
-								},
-							},
-							["amount"] = 3,
-						},
-					},
-					["Damage"] = 14401,
-					["ElementHitsTaken"] = {
-						["Melee"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 1,
-								},
-							},
-							["amount"] = 1,
-						},
-						["Physical"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 1,
-								},
-								["Miss"] = {
-									["count"] = 1,
-								},
-							},
-							["amount"] = 2,
-						},
-					},
-					["TimeHeal"] = 0,
-					["HealedWho"] = {
-						["Pocaitoru"] = {
-							["Details"] = {
-								["Divine Storm"] = {
-									["count"] = 1133,
-								},
-							},
-							["amount"] = 1133,
-						},
-					},
-					["Heals"] = {
-						["Divine Storm"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 1133,
-									["min"] = 1133,
-									["count"] = 1,
-									["amount"] = 1133,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 1133,
-						},
-					},
-					["HOT_Time"] = 3,
-					["Healing"] = 1133,
-					["ManaGainedFrom"] = {
-						["Pocaitoru"] = {
-							["Details"] = {
-								["Replenishment"] = {
-									["count"] = 96,
-								},
-								["Judgements of the Wise"] = {
-									["count"] = 1098,
-								},
-								["Judgement of Wisdom"] = {
-									["count"] = 174,
-								},
-							},
-							["amount"] = 1368,
-						},
-					},
-					["Attacks"] = {
-						["Melee"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 3408,
-									["min"] = 3408,
-									["count"] = 1,
-									["amount"] = 3408,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 3408,
-						},
-						["Divine Storm"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 3703,
-									["min"] = 3703,
-									["count"] = 1,
-									["amount"] = 3703,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 3703,
-						},
-						["Judgement of Righteousness"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 3245,
-									["min"] = 3245,
-									["count"] = 1,
-									["amount"] = 3245,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 3245,
-						},
-						["Seal of Righteousness"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 1354,
-									["min"] = 1297,
-									["count"] = 3,
-									["amount"] = 3976,
-								},
-							},
-							["count"] = 3,
-							["amount"] = 3976,
-						},
-						["Thorns"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 69,
-									["min"] = 69,
-									["count"] = 1,
-									["amount"] = 69,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 69,
-						},
-					},
-					["ElementDone"] = {
-						["Physical"] = 3703,
-						["Holy"] = 7221,
-						["Melee"] = 3408,
-						["Nature"] = 69,
-					},
-					["HealingTaken"] = 1133,
-					["DamagedWho"] = {
-						["Spider"] = {
-							["Details"] = {
-								["Thorns"] = {
-									["count"] = 69,
-								},
-							},
-							["amount"] = 69,
-						},
-						["Punkter"] = {
-							["Details"] = {
-								["Divine Storm"] = {
-									["count"] = 3703,
-								},
-								["Melee"] = {
-									["count"] = 3408,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 3976,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 3245,
-								},
-							},
-							["amount"] = 14332,
-						},
-					},
-					["TimeDamage"] = 6.529999999999999,
-					["TimeDamaging"] = {
-						["Spider"] = {
-							["Details"] = {
-								["Thorns"] = {
-									["count"] = 3.5,
-								},
-							},
-							["amount"] = 3.5,
-						},
-						["Punkter"] = {
-							["Details"] = {
-								["Divine Storm"] = {
-									["count"] = 0.01,
-								},
-								["Melee"] = {
-									["count"] = 0.63,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 2.39,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 3.03,
-						},
-					},
-					["ManaGain"] = 1368,
-					["WhoDamaged"] = {
-						["Spider"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 66,
-								},
-								["Bite"] = {
-									["count"] = 74,
-								},
-							},
-							["amount"] = 140,
-						},
-					},
-					["ElementHitsDone"] = {
-						["Physical"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 1,
-								},
-							},
-							["amount"] = 1,
-						},
-						["Holy"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 4,
-								},
-							},
-							["amount"] = 4,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 1,
-								},
-							},
-							["amount"] = 1,
-						},
-						["Nature"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 1,
-								},
-							},
-							["amount"] = 1,
-						},
-					},
-				},
-				["CurrentFightData"] = {
-					["DOTs"] = {
-					},
-					["ElementDoneResist"] = {
-					},
-					["Ressed"] = 0,
-					["DamageTaken"] = 0,
-					["RageGainedFrom"] = {
-					},
-					["ElementHitsTaken"] = {
-					},
-					["DeathCount"] = 0,
-					["HOT_Time"] = 0,
-					["ElementHitsDone"] = {
-					},
-					["ElementTakenAbsorb"] = {
-					},
-					["ElementTaken"] = {
-					},
-					["DOT_Time"] = 0,
-					["Damage"] = 0,
-					["ElementTakenBlock"] = {
-					},
-					["TimeHeal"] = 0,
-					["RessedWho"] = {
-					},
-					["Dispels"] = 0,
-					["ElementTakenResist"] = {
-					},
-					["ElementDoneAbsorb"] = {
-					},
-					["FAttacks"] = {
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementDone"] = {
-					},
-					["PartialAbsorb"] = {
-					},
-					["DamagedWho"] = {
-					},
-					["PartialBlock"] = {
-					},
-					["WhoDamaged"] = {
-					},
-					["EnergyGainedFrom"] = {
-					},
-					["PartialResist"] = {
-					},
-					["CCBroken"] = {
-					},
-					["ElementDoneBlock"] = {
-					},
-					["TimeHealing"] = {
-					},
-					["OverHeals"] = {
-					},
-					["ManaGainedFrom"] = {
-						["Pocaitoru"] = {
-							["Details"] = {
-								["Replenishment"] = {
-									["count"] = 84,
-								},
-							},
-							["amount"] = 84,
-						},
-					},
-					["RunicPowerGained"] = {
-					},
-					["CCBreak"] = 0,
-					["RageGained"] = {
-					},
-					["HealedWho"] = {
-					},
-					["EnergyGain"] = 0,
-					["ManaGained"] = {
-						["Replenishment"] = {
-							["Details"] = {
-								["Pocaitoru"] = {
-									["count"] = 84,
-								},
-							},
-							["amount"] = 84,
-						},
-					},
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
-					["Overhealing"] = 0,
-					["TimeSpent"] = {
-					},
-					["WhoDispelled"] = {
-					},
-					["InterruptData"] = {
-					},
-					["RunicPowerGain"] = 0,
-					["Heals"] = {
-					},
-					["WhoHealed"] = {
-					},
-					["EnergyGained"] = {
-					},
-					["ActiveTime"] = 0,
-					["Healing"] = 0,
-					["FDamagedWho"] = {
-					},
-					["Dispelled"] = 0,
-					["Attacks"] = {
-					},
-					["HealingTaken"] = 0,
-					["RageGain"] = 0,
-					["TimeDamage"] = 0,
-					["TimeDamaging"] = {
-					},
-					["ManaGain"] = 84,
-					["HOTs"] = {
-					},
-					["DispelledWho"] = {
-					},
-				},
 				["OverallData"] = {
 					["TimeHealing"] = {
 						["Pocaitoru"] = {
@@ -1099,14 +90,14 @@ RecountPerCharDB = {
 					["TimeSpent"] = {
 						["Punkter"] = {
 							["Details"] = {
-								["Divine Storm"] = {
-									["count"] = 0.01,
-								},
 								["Melee"] = {
 									["count"] = 0.63,
 								},
 								["Seal of Righteousness"] = {
 									["count"] = 2.39,
+								},
+								["Divine Storm"] = {
+									["count"] = 0.01,
 								},
 								["Judgement of Righteousness"] = {
 									["count"] = 0,
@@ -1179,14 +170,6 @@ RecountPerCharDB = {
 							},
 							["amount"] = 180,
 						},
-						["Judgements of the Wise"] = {
-							["Details"] = {
-								["Pocaitoru"] = {
-									["count"] = 1098,
-								},
-							},
-							["amount"] = 1098,
-						},
 						["Judgement of Wisdom"] = {
 							["Details"] = {
 								["Pocaitoru"] = {
@@ -1194,6 +177,14 @@ RecountPerCharDB = {
 								},
 							},
 							["amount"] = 174,
+						},
+						["Judgements of the Wise"] = {
+							["Details"] = {
+								["Pocaitoru"] = {
+									["count"] = 1098,
+								},
+							},
+							["amount"] = 1098,
 						},
 					},
 					["PartialAbsorb"] = {
@@ -1235,14 +226,38 @@ RecountPerCharDB = {
 						},
 					},
 					["ActiveTime"] = 6.529999999999999,
-					["WhoHealed"] = {
-						["Pocaitoru"] = {
+					["ElementHitsDone"] = {
+						["Holy"] = {
 							["Details"] = {
-								["Divine Storm"] = {
-									["count"] = 1133,
+								["Hit"] = {
+									["count"] = 4,
 								},
 							},
-							["amount"] = 1133,
+							["amount"] = 4,
+						},
+						["Physical"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 1,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 1,
+						},
+						["Nature"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 1,
 						},
 					},
 					["ElementTaken"] = {
@@ -1260,25 +275,17 @@ RecountPerCharDB = {
 						},
 					},
 					["Damage"] = 14401,
-					["ElementHitsTaken"] = {
-						["Melee"] = {
+					["WhoDamaged"] = {
+						["Spider"] = {
 							["Details"] = {
-								["Hit"] = {
-									["count"] = 1,
+								["Melee"] = {
+									["count"] = 66,
+								},
+								["Bite"] = {
+									["count"] = 74,
 								},
 							},
-							["amount"] = 1,
-						},
-						["Physical"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 1,
-								},
-								["Miss"] = {
-									["count"] = 1,
-								},
-							},
-							["amount"] = 2,
+							["amount"] = 140,
 						},
 					},
 					["TimeHeal"] = 0,
@@ -1308,21 +315,38 @@ RecountPerCharDB = {
 					},
 					["HOT_Time"] = 3,
 					["Healing"] = 1133,
-					["ManaGainedFrom"] = {
-						["Pocaitoru"] = {
+					["DamagedWho"] = {
+						["Spider"] = {
 							["Details"] = {
-								["Replenishment"] = {
-									["count"] = 180,
-								},
-								["Judgements of the Wise"] = {
-									["count"] = 1098,
-								},
-								["Judgement of Wisdom"] = {
-									["count"] = 174,
+								["Thorns"] = {
+									["count"] = 69,
 								},
 							},
-							["amount"] = 1452,
+							["amount"] = 69,
 						},
+						["Punkter"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 3408,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 3976,
+								},
+								["Divine Storm"] = {
+									["count"] = 3703,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 3245,
+								},
+							},
+							["amount"] = 14332,
+						},
+					},
+					["ElementDone"] = {
+						["Holy"] = 7221,
+						["Physical"] = 3703,
+						["Melee"] = 3408,
+						["Nature"] = 69,
 					},
 					["Attacks"] = {
 						["Melee"] = {
@@ -1336,6 +360,30 @@ RecountPerCharDB = {
 							},
 							["count"] = 1,
 							["amount"] = 3408,
+						},
+						["Thorns"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 69,
+									["min"] = 69,
+									["count"] = 1,
+									["amount"] = 69,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 69,
+						},
+						["Seal of Righteousness"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 1354,
+									["min"] = 1297,
+									["count"] = 3,
+									["amount"] = 3976,
+								},
+							},
+							["count"] = 3,
+							["amount"] = 3976,
 						},
 						["Divine Storm"] = {
 							["Details"] = {
@@ -1361,63 +409,22 @@ RecountPerCharDB = {
 							["count"] = 1,
 							["amount"] = 3245,
 						},
-						["Seal of Righteousness"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 1354,
-									["min"] = 1297,
-									["count"] = 3,
-									["amount"] = 3976,
-								},
-							},
-							["count"] = 3,
-							["amount"] = 3976,
-						},
-						["Thorns"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 69,
-									["min"] = 69,
-									["count"] = 1,
-									["amount"] = 69,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 69,
-						},
-					},
-					["ElementDone"] = {
-						["Physical"] = 3703,
-						["Holy"] = 7221,
-						["Melee"] = 3408,
-						["Nature"] = 69,
 					},
 					["HealingTaken"] = 1133,
-					["DamagedWho"] = {
-						["Spider"] = {
+					["ManaGainedFrom"] = {
+						["Pocaitoru"] = {
 							["Details"] = {
-								["Thorns"] = {
-									["count"] = 69,
+								["Replenishment"] = {
+									["count"] = 180,
+								},
+								["Judgement of Wisdom"] = {
+									["count"] = 174,
+								},
+								["Judgements of the Wise"] = {
+									["count"] = 1098,
 								},
 							},
-							["amount"] = 69,
-						},
-						["Punkter"] = {
-							["Details"] = {
-								["Divine Storm"] = {
-									["count"] = 3703,
-								},
-								["Melee"] = {
-									["count"] = 3408,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 3976,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 3245,
-								},
-							},
-							["amount"] = 14332,
+							["amount"] = 1452,
 						},
 					},
 					["TimeDamage"] = 6.529999999999999,
@@ -1432,14 +439,14 @@ RecountPerCharDB = {
 						},
 						["Punkter"] = {
 							["Details"] = {
-								["Divine Storm"] = {
-									["count"] = 0.01,
-								},
 								["Melee"] = {
 									["count"] = 0.63,
 								},
 								["Seal of Righteousness"] = {
 									["count"] = 2.39,
+								},
+								["Divine Storm"] = {
+									["count"] = 0.01,
 								},
 								["Judgement of Righteousness"] = {
 									["count"] = 0,
@@ -1449,21 +456,8 @@ RecountPerCharDB = {
 						},
 					},
 					["ManaGain"] = 1452,
-					["WhoDamaged"] = {
-						["Spider"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 66,
-								},
-								["Bite"] = {
-									["count"] = 74,
-								},
-							},
-							["amount"] = 140,
-						},
-					},
-					["ElementHitsDone"] = {
-						["Physical"] = {
+					["ElementHitsTaken"] = {
+						["Melee"] = {
 							["Details"] = {
 								["Hit"] = {
 									["count"] = 1,
@@ -1471,6 +465,180 @@ RecountPerCharDB = {
 							},
 							["amount"] = 1,
 						},
+						["Physical"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 1,
+								},
+								["Hit"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 2,
+						},
+					},
+					["WhoHealed"] = {
+						["Pocaitoru"] = {
+							["Details"] = {
+								["Divine Storm"] = {
+									["count"] = 1133,
+								},
+							},
+							["amount"] = 1133,
+						},
+					},
+				},
+				["LastFightData"] = {
+					["TimeHealing"] = {
+						["Pocaitoru"] = {
+							["Details"] = {
+								["Divine Storm"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["TimeSpent"] = {
+						["Punkter"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0.63,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 2.39,
+								},
+								["Divine Storm"] = {
+									["count"] = 0.01,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 3.03,
+						},
+						["Spider"] = {
+							["Details"] = {
+								["Thorns"] = {
+									["count"] = 3.5,
+								},
+							},
+							["amount"] = 3.5,
+						},
+						["Pocaitoru"] = {
+							["Details"] = {
+								["Divine Storm"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["DamageTaken"] = 140,
+					["PartialResist"] = {
+						["Growl"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+						["Bite"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+					},
+					["ManaGained"] = {
+						["Replenishment"] = {
+							["Details"] = {
+								["Pocaitoru"] = {
+									["count"] = 96,
+								},
+							},
+							["amount"] = 96,
+						},
+						["Judgement of Wisdom"] = {
+							["Details"] = {
+								["Pocaitoru"] = {
+									["count"] = 174,
+								},
+							},
+							["amount"] = 174,
+						},
+						["Judgements of the Wise"] = {
+							["Details"] = {
+								["Pocaitoru"] = {
+									["count"] = 1098,
+								},
+							},
+							["amount"] = 1098,
+						},
+					},
+					["PartialAbsorb"] = {
+						["Growl"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+						["Bite"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+					},
+					["ActiveTime"] = 6.529999999999999,
+					["ElementHitsDone"] = {
 						["Holy"] = {
 							["Details"] = {
 								["Hit"] = {
@@ -1478,6 +646,14 @@ RecountPerCharDB = {
 								},
 							},
 							["amount"] = 4,
+						},
+						["Physical"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 1,
 						},
 						["Melee"] = {
 							["Details"] = {
@@ -1496,10 +672,834 @@ RecountPerCharDB = {
 							["amount"] = 1,
 						},
 					},
+					["ElementTaken"] = {
+						["Melee"] = 66,
+						["Physical"] = 74,
+					},
+					["HOTs"] = {
+						["Divine Storm"] = {
+							["Details"] = {
+								["Pocaitoru"] = {
+									["count"] = 3,
+								},
+							},
+							["amount"] = 3,
+						},
+					},
+					["Damage"] = 14401,
+					["WhoDamaged"] = {
+						["Spider"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 66,
+								},
+								["Bite"] = {
+									["count"] = 74,
+								},
+							},
+							["amount"] = 140,
+						},
+					},
+					["TimeHeal"] = 0,
+					["HealedWho"] = {
+						["Pocaitoru"] = {
+							["Details"] = {
+								["Divine Storm"] = {
+									["count"] = 1133,
+								},
+							},
+							["amount"] = 1133,
+						},
+					},
+					["Heals"] = {
+						["Divine Storm"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 1133,
+									["min"] = 1133,
+									["count"] = 1,
+									["amount"] = 1133,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 1133,
+						},
+					},
+					["HOT_Time"] = 3,
+					["Healing"] = 1133,
+					["DamagedWho"] = {
+						["Spider"] = {
+							["Details"] = {
+								["Thorns"] = {
+									["count"] = 69,
+								},
+							},
+							["amount"] = 69,
+						},
+						["Punkter"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 3408,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 3976,
+								},
+								["Divine Storm"] = {
+									["count"] = 3703,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 3245,
+								},
+							},
+							["amount"] = 14332,
+						},
+					},
+					["ElementDone"] = {
+						["Holy"] = 7221,
+						["Physical"] = 3703,
+						["Melee"] = 3408,
+						["Nature"] = 69,
+					},
+					["Attacks"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 3408,
+									["min"] = 3408,
+									["count"] = 1,
+									["amount"] = 3408,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 3408,
+						},
+						["Thorns"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 69,
+									["min"] = 69,
+									["count"] = 1,
+									["amount"] = 69,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 69,
+						},
+						["Seal of Righteousness"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 1354,
+									["min"] = 1297,
+									["count"] = 3,
+									["amount"] = 3976,
+								},
+							},
+							["count"] = 3,
+							["amount"] = 3976,
+						},
+						["Divine Storm"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 3703,
+									["min"] = 3703,
+									["count"] = 1,
+									["amount"] = 3703,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 3703,
+						},
+						["Judgement of Righteousness"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 3245,
+									["min"] = 3245,
+									["count"] = 1,
+									["amount"] = 3245,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 3245,
+						},
+					},
+					["HealingTaken"] = 1133,
+					["ManaGainedFrom"] = {
+						["Pocaitoru"] = {
+							["Details"] = {
+								["Replenishment"] = {
+									["count"] = 96,
+								},
+								["Judgement of Wisdom"] = {
+									["count"] = 174,
+								},
+								["Judgements of the Wise"] = {
+									["count"] = 1098,
+								},
+							},
+							["amount"] = 1368,
+						},
+					},
+					["TimeDamage"] = 6.529999999999999,
+					["TimeDamaging"] = {
+						["Spider"] = {
+							["Details"] = {
+								["Thorns"] = {
+									["count"] = 3.5,
+								},
+							},
+							["amount"] = 3.5,
+						},
+						["Punkter"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0.63,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 2.39,
+								},
+								["Divine Storm"] = {
+									["count"] = 0.01,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 3.03,
+						},
+					},
+					["ManaGain"] = 1368,
+					["ElementHitsTaken"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 1,
+						},
+						["Physical"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 1,
+								},
+								["Hit"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 2,
+						},
+					},
+					["WhoHealed"] = {
+						["Pocaitoru"] = {
+							["Details"] = {
+								["Divine Storm"] = {
+									["count"] = 1133,
+								},
+							},
+							["amount"] = 1133,
+						},
+					},
+				},
+				["CurrentFightData"] = {
+					["DOTs"] = {
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 0,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["HOTs"] = {
+					},
+					["ManaGain"] = 84,
+					["ElementTaken"] = {
+					},
+					["DOT_Time"] = 0,
+					["Damage"] = 0,
+					["ElementDoneAbsorb"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["PartialAbsorb"] = {
+					},
+					["RageGain"] = 0,
+					["FAttacks"] = {
+					},
+					["PartialBlock"] = {
+					},
+					["ElementDone"] = {
+					},
+					["CCBroken"] = {
+					},
+					["ElementHitsDone"] = {
+					},
+					["Dispelled"] = 0,
+					["WhoDamaged"] = {
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["FDamagedWho"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+					},
+					["OverHeals"] = {
+					},
+					["RageGained"] = {
+					},
+					["ActiveTime"] = 0,
+					["CCBreak"] = 0,
+					["EnergyGain"] = 0,
+					["WhoHealed"] = {
+					},
+					["PartialResist"] = {
+					},
+					["ManaGained"] = {
+						["Replenishment"] = {
+							["Details"] = {
+								["Pocaitoru"] = {
+									["count"] = 84,
+								},
+							},
+							["amount"] = 84,
+						},
+					},
+					["ElementTakenAbsorb"] = {
+					},
+					["Interrupts"] = 0,
+					["Overhealing"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["InterruptData"] = {
+					},
+					["WhoDispelled"] = {
+					},
+					["TimeSpent"] = {
+					},
+					["Heals"] = {
+					},
+					["FDamage"] = 0,
+					["EnergyGained"] = {
+					},
+					["HealedWho"] = {
+					},
+					["Healing"] = 0,
+					["RunicPowerGained"] = {
+					},
+					["ManaGainedFrom"] = {
+						["Pocaitoru"] = {
+							["Details"] = {
+								["Replenishment"] = {
+									["count"] = 84,
+								},
+							},
+							["amount"] = 84,
+						},
+					},
+					["Attacks"] = {
+					},
+					["HealingTaken"] = 0,
+					["DamagedWho"] = {
+					},
+					["TimeDamage"] = 0,
+					["TimeDamaging"] = {
+					},
+					["RunicPowerGain"] = 0,
+					["ElementTakenBlock"] = {
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["Fight1"] = {
+					["TimeHealing"] = {
+						["Pocaitoru"] = {
+							["Details"] = {
+								["Divine Storm"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["TimeSpent"] = {
+						["Punkter"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0.63,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 2.39,
+								},
+								["Divine Storm"] = {
+									["count"] = 0.01,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 3.03,
+						},
+						["Spider"] = {
+							["Details"] = {
+								["Thorns"] = {
+									["count"] = 3.5,
+								},
+							},
+							["amount"] = 3.5,
+						},
+						["Pocaitoru"] = {
+							["Details"] = {
+								["Divine Storm"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["DamageTaken"] = 140,
+					["PartialResist"] = {
+						["Growl"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+						["Bite"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+					},
+					["ManaGained"] = {
+						["Replenishment"] = {
+							["Details"] = {
+								["Pocaitoru"] = {
+									["count"] = 96,
+								},
+							},
+							["amount"] = 96,
+						},
+						["Judgement of Wisdom"] = {
+							["Details"] = {
+								["Pocaitoru"] = {
+									["count"] = 174,
+								},
+							},
+							["amount"] = 174,
+						},
+						["Judgements of the Wise"] = {
+							["Details"] = {
+								["Pocaitoru"] = {
+									["count"] = 1098,
+								},
+							},
+							["amount"] = 1098,
+						},
+					},
+					["PartialAbsorb"] = {
+						["Growl"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+						["Bite"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+					},
+					["ActiveTime"] = 6.529999999999999,
+					["ElementHitsDone"] = {
+						["Holy"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 4,
+								},
+							},
+							["amount"] = 4,
+						},
+						["Physical"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 1,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 1,
+						},
+						["Nature"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 1,
+						},
+					},
+					["ElementTaken"] = {
+						["Melee"] = 66,
+						["Physical"] = 74,
+					},
+					["HOTs"] = {
+						["Divine Storm"] = {
+							["Details"] = {
+								["Pocaitoru"] = {
+									["count"] = 3,
+								},
+							},
+							["amount"] = 3,
+						},
+					},
+					["Damage"] = 14401,
+					["WhoDamaged"] = {
+						["Spider"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 66,
+								},
+								["Bite"] = {
+									["count"] = 74,
+								},
+							},
+							["amount"] = 140,
+						},
+					},
+					["TimeHeal"] = 0,
+					["HealedWho"] = {
+						["Pocaitoru"] = {
+							["Details"] = {
+								["Divine Storm"] = {
+									["count"] = 1133,
+								},
+							},
+							["amount"] = 1133,
+						},
+					},
+					["Heals"] = {
+						["Divine Storm"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 1133,
+									["min"] = 1133,
+									["count"] = 1,
+									["amount"] = 1133,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 1133,
+						},
+					},
+					["HOT_Time"] = 3,
+					["Healing"] = 1133,
+					["DamagedWho"] = {
+						["Spider"] = {
+							["Details"] = {
+								["Thorns"] = {
+									["count"] = 69,
+								},
+							},
+							["amount"] = 69,
+						},
+						["Punkter"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 3408,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 3976,
+								},
+								["Divine Storm"] = {
+									["count"] = 3703,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 3245,
+								},
+							},
+							["amount"] = 14332,
+						},
+					},
+					["ElementDone"] = {
+						["Holy"] = 7221,
+						["Physical"] = 3703,
+						["Melee"] = 3408,
+						["Nature"] = 69,
+					},
+					["Attacks"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 3408,
+									["min"] = 3408,
+									["count"] = 1,
+									["amount"] = 3408,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 3408,
+						},
+						["Thorns"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 69,
+									["min"] = 69,
+									["count"] = 1,
+									["amount"] = 69,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 69,
+						},
+						["Seal of Righteousness"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 1354,
+									["min"] = 1297,
+									["count"] = 3,
+									["amount"] = 3976,
+								},
+							},
+							["count"] = 3,
+							["amount"] = 3976,
+						},
+						["Divine Storm"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 3703,
+									["min"] = 3703,
+									["count"] = 1,
+									["amount"] = 3703,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 3703,
+						},
+						["Judgement of Righteousness"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 3245,
+									["min"] = 3245,
+									["count"] = 1,
+									["amount"] = 3245,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 3245,
+						},
+					},
+					["HealingTaken"] = 1133,
+					["ManaGainedFrom"] = {
+						["Pocaitoru"] = {
+							["Details"] = {
+								["Replenishment"] = {
+									["count"] = 96,
+								},
+								["Judgement of Wisdom"] = {
+									["count"] = 174,
+								},
+								["Judgements of the Wise"] = {
+									["count"] = 1098,
+								},
+							},
+							["amount"] = 1368,
+						},
+					},
+					["TimeDamage"] = 6.529999999999999,
+					["TimeDamaging"] = {
+						["Spider"] = {
+							["Details"] = {
+								["Thorns"] = {
+									["count"] = 3.5,
+								},
+							},
+							["amount"] = 3.5,
+						},
+						["Punkter"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0.63,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 2.39,
+								},
+								["Divine Storm"] = {
+									["count"] = 0.01,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 3.03,
+						},
+					},
+					["ManaGain"] = 1368,
+					["ElementHitsTaken"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 1,
+						},
+						["Physical"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 1,
+								},
+								["Hit"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 2,
+						},
+					},
+					["WhoHealed"] = {
+						["Pocaitoru"] = {
+							["Details"] = {
+								["Divine Storm"] = {
+									["count"] = 1133,
+								},
+							},
+							["amount"] = 1133,
+						},
+					},
 				},
 			},
-			["UnitLockout"] = 1657993004,
-			["LastActive"] = 1657993021,
+			["NextEventNum"] = 12,
+			["LastEventHealthNum"] = {
+				83.49149404004166, -- [1]
+				83.49149404004166, -- [2]
+				83.49149404004166, -- [3]
+				83.08644832773985, -- [4]
+				83.08644832773985, -- [5]
+				83.08644832773985, -- [6]
+				83.08644832773985, -- [7]
+				83.08644832773985, -- [8]
+				83.08644832773985, -- [9]
+				83.08644832773985, -- [10]
+				86.36442541372526, -- [11]
+			},
+			["LastEvents"] = {
+				"Pocaitoru Thorns Spider Hit -69 (Nature)", -- [1]
+				"Spider Melee Pocaitoru Hit -66 (Physical)", -- [2]
+				"Spider Growl Pocaitoru Miss (Physical)", -- [3]
+				"Spider Bite Pocaitoru Hit -74 (Physical)", -- [4]
+				"Pocaitoru Melee Punkter Hit -3408 (Physical)", -- [5]
+				"Pocaitoru Seal of Righteousness Punkter Hit -1297 (Holy)", -- [6]
+				"Pocaitoru Seal of Righteousness Punkter Hit -1325 (Holy)", -- [7]
+				"Pocaitoru Judgement of Righteousness Punkter Hit -3245 (Holy)", -- [8]
+				"Pocaitoru Seal of Righteousness Punkter Hit -1354 (Holy)", -- [9]
+				"Pocaitoru Divine Storm Punkter Hit -3703 (Physical)", -- [10]
+				"Pocaitoru Divine Storm Pocaitoru Tick +1133", -- [11]
+			},
+			["Name"] = "Pocaitoru",
+			["TimeLast"] = {
+				["TimeHeal"] = 1657993007,
+				["OVERALL"] = 1657993021,
+				["DamageTaken"] = 1657993005,
+				["HealingTaken"] = 1657993007,
+				["HOT_Time"] = 1657993007,
+				["TimeDamage"] = 1657993007,
+				["Healing"] = 1657993007,
+				["ManaGain"] = 1657993021,
+				["ActiveTime"] = 1657993007,
+				["Damage"] = 1657993007,
+			},
+			["LastEventIncoming"] = {
+				false, -- [1]
+				true, -- [2]
+				true, -- [3]
+				true, -- [4]
+				false, -- [5]
+				false, -- [6]
+				false, -- [7]
+				false, -- [8]
+				false, -- [9]
+				false, -- [10]
+				true, -- [11]
+			},
+			["LastDamageTaken"] = 74,
+			["LastEventTimes"] = {
+				3032.291, -- [1]
+				3032.291, -- [2]
+				3032.291, -- [3]
+				3032.604, -- [4]
+				3032.923, -- [5]
+				3033.188, -- [6]
+				3033.758, -- [7]
+				3033.761, -- [8]
+				3035.32, -- [9]
+				3035.327, -- [10]
+				3035.328, -- [11]
+			},
+			["LastAbility"] = 2591.299,
 		},
 		["Budey"] = {
 			["GUID"] = "0x07000000000028E6",
@@ -1507,8 +1507,11 @@ RecountPerCharDB = {
 			["FightsSaved"] = 1,
 			["Owner"] = false,
 			["enClass"] = "DRUID",
+			["LastAbility"] = 2591.299,
 			["Name"] = "Budey",
 			["lazysync"] = true,
+			["UnitLockout"] = 1657993004,
+			["level"] = 80,
 			["Fights"] = {
 				["CurrentFightData"] = {
 					["DOTs"] = {
@@ -1523,43 +1526,40 @@ RecountPerCharDB = {
 					},
 					["DeathCount"] = 0,
 					["HOT_Time"] = 0,
-					["ElementHitsDone"] = {
+					["HOTs"] = {
 					},
-					["ElementTakenAbsorb"] = {
-					},
+					["ManaGain"] = 0,
 					["ElementTaken"] = {
 					},
 					["DOT_Time"] = 0,
 					["Damage"] = 0,
-					["ElementTakenBlock"] = {
+					["ElementDoneAbsorb"] = {
 					},
 					["TimeHeal"] = 0,
 					["RessedWho"] = {
 					},
 					["Dispels"] = 0,
-					["ElementTakenResist"] = {
-					},
-					["ElementDoneAbsorb"] = {
-					},
-					["FAttacks"] = {
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementDone"] = {
-					},
 					["PartialAbsorb"] = {
 					},
-					["DamagedWho"] = {
+					["RageGain"] = 0,
+					["FAttacks"] = {
 					},
 					["PartialBlock"] = {
 					},
+					["ElementDone"] = {
+					},
+					["CCBroken"] = {
+					},
+					["ElementHitsDone"] = {
+					},
+					["Dispelled"] = 0,
 					["WhoDamaged"] = {
 					},
 					["EnergyGainedFrom"] = {
 					},
-					["PartialResist"] = {
+					["FDamagedWho"] = {
 					},
-					["CCBroken"] = {
+					["RunicPowerGainedFrom"] = {
 					},
 					["ElementDoneBlock"] = {
 					},
@@ -1567,55 +1567,56 @@ RecountPerCharDB = {
 					},
 					["OverHeals"] = {
 					},
-					["ManaGainedFrom"] = {
-					},
-					["RunicPowerGained"] = {
-					},
-					["CCBreak"] = 0,
 					["RageGained"] = {
 					},
-					["HealedWho"] = {
-					},
+					["ActiveTime"] = 0,
+					["CCBreak"] = 0,
 					["EnergyGain"] = 0,
+					["WhoHealed"] = {
+					},
+					["PartialResist"] = {
+					},
 					["ManaGained"] = {
 					},
-					["FDamage"] = 0,
+					["ElementTakenAbsorb"] = {
+					},
 					["Interrupts"] = 0,
 					["Overhealing"] = 0,
-					["TimeSpent"] = {
-					},
-					["WhoDispelled"] = {
+					["ElementTakenResist"] = {
 					},
 					["InterruptData"] = {
 					},
-					["RunicPowerGain"] = 0,
+					["WhoDispelled"] = {
+					},
+					["TimeSpent"] = {
+					},
 					["Heals"] = {
 					},
-					["WhoHealed"] = {
-					},
+					["FDamage"] = 0,
 					["EnergyGained"] = {
 					},
-					["ActiveTime"] = 0,
-					["Healing"] = 0,
-					["FDamagedWho"] = {
+					["HealedWho"] = {
 					},
-					["Dispelled"] = 0,
+					["Healing"] = 0,
+					["RunicPowerGained"] = {
+					},
+					["ManaGainedFrom"] = {
+					},
 					["Attacks"] = {
 					},
 					["HealingTaken"] = 0,
-					["RageGain"] = 0,
+					["DamagedWho"] = {
+					},
 					["TimeDamage"] = 0,
 					["TimeDamaging"] = {
 					},
-					["ManaGain"] = 0,
-					["HOTs"] = {
+					["RunicPowerGain"] = 0,
+					["ElementTakenBlock"] = {
 					},
 					["DispelledWho"] = {
 					},
 				},
 			},
-			["level"] = 80,
-			["UnitLockout"] = 1657993004,
 			["LastFightIn"] = 0,
 		},
 		["Poof"] = {
@@ -1624,8 +1625,11 @@ RecountPerCharDB = {
 			["FightsSaved"] = 1,
 			["Owner"] = false,
 			["enClass"] = "PALADIN",
+			["LastAbility"] = 2591.299,
 			["Name"] = "Poof",
 			["lazysync"] = true,
+			["UnitLockout"] = 1657993004,
+			["level"] = 80,
 			["Fights"] = {
 				["CurrentFightData"] = {
 					["DOTs"] = {
@@ -1640,43 +1644,40 @@ RecountPerCharDB = {
 					},
 					["DeathCount"] = 0,
 					["HOT_Time"] = 0,
-					["ElementHitsDone"] = {
+					["HOTs"] = {
 					},
-					["ElementTakenAbsorb"] = {
-					},
+					["ManaGain"] = 0,
 					["ElementTaken"] = {
 					},
 					["DOT_Time"] = 0,
 					["Damage"] = 0,
-					["ElementTakenBlock"] = {
+					["ElementDoneAbsorb"] = {
 					},
 					["TimeHeal"] = 0,
 					["RessedWho"] = {
 					},
 					["Dispels"] = 0,
-					["ElementTakenResist"] = {
-					},
-					["ElementDoneAbsorb"] = {
-					},
-					["FAttacks"] = {
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementDone"] = {
-					},
 					["PartialAbsorb"] = {
 					},
-					["DamagedWho"] = {
+					["RageGain"] = 0,
+					["FAttacks"] = {
 					},
 					["PartialBlock"] = {
 					},
+					["ElementDone"] = {
+					},
+					["CCBroken"] = {
+					},
+					["ElementHitsDone"] = {
+					},
+					["Dispelled"] = 0,
 					["WhoDamaged"] = {
 					},
 					["EnergyGainedFrom"] = {
 					},
-					["PartialResist"] = {
+					["FDamagedWho"] = {
 					},
-					["CCBroken"] = {
+					["RunicPowerGainedFrom"] = {
 					},
 					["ElementDoneBlock"] = {
 					},
@@ -1684,55 +1685,56 @@ RecountPerCharDB = {
 					},
 					["OverHeals"] = {
 					},
-					["ManaGainedFrom"] = {
-					},
-					["RunicPowerGained"] = {
-					},
-					["CCBreak"] = 0,
 					["RageGained"] = {
 					},
-					["HealedWho"] = {
-					},
+					["ActiveTime"] = 0,
+					["CCBreak"] = 0,
 					["EnergyGain"] = 0,
+					["WhoHealed"] = {
+					},
+					["PartialResist"] = {
+					},
 					["ManaGained"] = {
 					},
-					["FDamage"] = 0,
+					["ElementTakenAbsorb"] = {
+					},
 					["Interrupts"] = 0,
 					["Overhealing"] = 0,
-					["TimeSpent"] = {
-					},
-					["WhoDispelled"] = {
+					["ElementTakenResist"] = {
 					},
 					["InterruptData"] = {
 					},
-					["RunicPowerGain"] = 0,
+					["WhoDispelled"] = {
+					},
+					["TimeSpent"] = {
+					},
 					["Heals"] = {
 					},
-					["WhoHealed"] = {
-					},
+					["FDamage"] = 0,
 					["EnergyGained"] = {
 					},
-					["ActiveTime"] = 0,
-					["Healing"] = 0,
-					["FDamagedWho"] = {
+					["HealedWho"] = {
 					},
-					["Dispelled"] = 0,
+					["Healing"] = 0,
+					["RunicPowerGained"] = {
+					},
+					["ManaGainedFrom"] = {
+					},
 					["Attacks"] = {
 					},
 					["HealingTaken"] = 0,
-					["RageGain"] = 0,
+					["DamagedWho"] = {
+					},
 					["TimeDamage"] = 0,
 					["TimeDamaging"] = {
 					},
-					["ManaGain"] = 0,
-					["HOTs"] = {
+					["RunicPowerGain"] = 0,
+					["ElementTakenBlock"] = {
 					},
 					["DispelledWho"] = {
 					},
 				},
 			},
-			["level"] = 80,
-			["UnitLockout"] = 1657993004,
 			["LastFightIn"] = 0,
 		},
 	},
