@@ -13,10 +13,10 @@ RecountDB = {
 		["Ulrezaj - Icecrown"] = "Ulrezaj - Icecrown",
 		["Pocaitoru - Icecrown"] = "Pocaitoru - Icecrown",
 		["Izanagi - Icecrown"] = "Izanagi - Icecrown",
-		["Pufarin - Icecrown"] = "Pufarin - Icecrown",
+		["Maciucaru - Icecrown"] = "Maciucaru - Icecrown",
 		["Lingurita - Lordaeron"] = "Lingurita - Lordaeron",
 		["Mirceabravo - Blackrock [PvP only]"] = "Mirceabravo - Blackrock [PvP only]",
-		["Maciucaru - Icecrown"] = "Maciucaru - Icecrown",
+		["Pufarin - Icecrown"] = "Pufarin - Icecrown",
 		["Praxia - Icecrown"] = "Praxia - Icecrown",
 		["Rakhnis - Icecrown"] = "Rakhnis - Icecrown",
 		["Mirceabravo - Icecrown"] = "Mirceabravo - Icecrown",
@@ -35,9 +35,7 @@ RecountDB = {
 					["h"] = 311.0000073174346,
 				},
 			},
-			["DetailWindowX"] = 58.00000341936197,
-			["LastInstanceName"] = "The Forge of Souls",
-			["CurDataSet"] = "LastFightData",
+			["ReportLines"] = 1,
 			["Colors"] = {
 				["Bar"] = {
 					["Bar Text"] = {
@@ -49,10 +47,12 @@ RecountDB = {
 				},
 			},
 			["DetailWindowY"] = -16.99999979483828,
-			["MainWindowHeight"] = 310.8518969696999,
-			["MainWindowWidth"] = 251.4197662784027,
-			["ReportLines"] = 1,
+			["DetailWindowX"] = 58.00000341936197,
+			["LastInstanceName"] = "Trial of the Crusader",
+			["CurDataSet"] = "LastFightData",
 			["GraphWindowX"] = 0,
+			["MainWindowWidth"] = 251.4197662784027,
+			["MainWindowHeight"] = 310.8518969696999,
 		},
 		["Vrael - Icecrown"] = {
 			["GraphWindowY"] = 0,
@@ -66,7 +66,7 @@ RecountDB = {
 			},
 			["DetailWindowX"] = 317.267070839811,
 			["LastInstanceName"] = "The Ruby Sanctum",
-			["DetailWindowY"] = -59.9999876902969,
+			["GraphWindowX"] = 0,
 			["CurDataSet"] = "OverallData",
 			["Colors"] = {
 				["Bar"] = {
@@ -78,7 +78,7 @@ RecountDB = {
 					},
 				},
 			},
-			["GraphWindowX"] = 0,
+			["DetailWindowY"] = -59.9999876902969,
 			["ReportLines"] = 1,
 			["MainWindowVis"] = false,
 			["MainWindowWidth"] = 244.5308668882732,
@@ -324,7 +324,9 @@ RecountDB = {
 					["x"] = -628.5186425324451,
 				},
 			},
-			["ReportLines"] = 2,
+			["DetailWindowX"] = 655.7037672683764,
+			["LastInstanceName"] = "Trial of the Crusader",
+			["CurDataSet"] = "CurrentFightData",
 			["Colors"] = {
 				["Bar"] = {
 					["Bar Text"] = {
@@ -336,13 +338,10 @@ RecountDB = {
 				},
 			},
 			["DetailWindowY"] = -296.7037172773043,
-			["DetailWindowX"] = 655.7037672683764,
-			["GraphWindowX"] = 0,
-			["MainWindowVis"] = false,
-			["LastInstanceName"] = "Strand of the Ancients",
-			["CurDataSet"] = "LastFightData",
-			["MainWindowWidth"] = 260.0000123097031,
 			["MainWindowHeight"] = 328.7999999452902,
+			["MainWindowWidth"] = 260.0000123097031,
+			["ReportLines"] = 2,
+			["GraphWindowX"] = 0,
 		},
 		["Izanagi - Icecrown"] = {
 			["GraphWindowY"] = 0,
@@ -369,25 +368,33 @@ RecountDB = {
 			["MainWindowWidth"] = 254.3704360322517,
 			["MainWindowHeight"] = 294.0741808696135,
 		},
-		["Pufarin - Icecrown"] = {
+		["Maciucaru - Icecrown"] = {
 			["GraphWindowY"] = 0,
 			["MainWindow"] = {
 				["Position"] = {
-					["w"] = 140.0000106684094,
-					["h"] = 200.0000027354896,
+					["y"] = 156.6954257348431,
+					["x"] = -560.8539355933082,
+					["w"] = 238.0000759098358,
+					["h"] = 277.0000164813247,
 				},
 			},
+			["DetailWindowX"] = 0,
+			["LastInstanceName"] = "Icecrown Citadel",
+			["CurDataSet"] = "LastFightData",
 			["Colors"] = {
 				["Bar"] = {
 					["Bar Text"] = {
 						["a"] = 1,
 					},
+					["Total Bar"] = {
+						["a"] = 1,
+					},
 				},
 			},
 			["DetailWindowY"] = 0,
-			["DetailWindowX"] = 0,
+			["MainWindowHeight"] = 277.3143752700402,
+			["MainWindowWidth"] = 237.8127110108764,
 			["GraphWindowX"] = 0,
-			["CurDataSet"] = "OverallData",
 		},
 		["Lingurita - Lordaeron"] = {
 			["GraphWindowY"] = 0,
@@ -431,33 +438,25 @@ RecountDB = {
 			["MainWindowVis"] = false,
 			["GraphWindowX"] = 0,
 		},
-		["Maciucaru - Icecrown"] = {
+		["Pufarin - Icecrown"] = {
 			["GraphWindowY"] = 0,
 			["MainWindow"] = {
 				["Position"] = {
-					["y"] = 156.6954257348431,
-					["x"] = -560.8539355933082,
-					["w"] = 238.0000759098358,
-					["h"] = 277.0000164813247,
+					["w"] = 140.0000106684094,
+					["h"] = 200.0000027354896,
 				},
 			},
-			["DetailWindowX"] = 0,
-			["LastInstanceName"] = "Icecrown Citadel",
-			["CurDataSet"] = "LastFightData",
 			["Colors"] = {
 				["Bar"] = {
 					["Bar Text"] = {
 						["a"] = 1,
 					},
-					["Total Bar"] = {
-						["a"] = 1,
-					},
 				},
 			},
 			["DetailWindowY"] = 0,
-			["MainWindowHeight"] = 277.3143752700402,
-			["MainWindowWidth"] = 237.8127110108764,
+			["DetailWindowX"] = 0,
 			["GraphWindowX"] = 0,
+			["CurDataSet"] = "OverallData",
 		},
 		["Praxia - Icecrown"] = {
 			["GraphWindowY"] = 0,
@@ -536,11 +535,11 @@ RecountDB = {
 					},
 				},
 			},
-			["DetailWindowY"] = -124.0493402990752,
+			["GraphWindowX"] = 0,
 			["MainWindowVis"] = false,
 			["MainWindowMode"] = 5,
 			["MainWindowWidth"] = 256.148530518934,
-			["GraphWindowX"] = 0,
+			["DetailWindowY"] = -124.0493402990752,
 		},
 		["Gligor - Icecrown"] = {
 			["GraphWindowY"] = 0,
