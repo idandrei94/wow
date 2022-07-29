@@ -35,7 +35,9 @@ RecountDB = {
 					["h"] = 311.0000073174346,
 				},
 			},
-			["ReportLines"] = 1,
+			["DetailWindowX"] = 58.00000341936197,
+			["LastInstanceName"] = "Trial of the Crusader",
+			["CurDataSet"] = "LastFightData",
 			["Colors"] = {
 				["Bar"] = {
 					["Bar Text"] = {
@@ -47,12 +49,10 @@ RecountDB = {
 				},
 			},
 			["DetailWindowY"] = -16.99999979483828,
-			["DetailWindowX"] = 58.00000341936197,
-			["LastInstanceName"] = "Trial of the Crusader",
-			["CurDataSet"] = "LastFightData",
-			["GraphWindowX"] = 0,
-			["MainWindowWidth"] = 251.4197662784027,
 			["MainWindowHeight"] = 310.8518969696999,
+			["MainWindowWidth"] = 251.4197662784027,
+			["ReportLines"] = 1,
+			["GraphWindowX"] = 0,
 		},
 		["Vrael - Icecrown"] = {
 			["GraphWindowY"] = 0,
@@ -66,7 +66,7 @@ RecountDB = {
 			},
 			["DetailWindowX"] = 317.267070839811,
 			["LastInstanceName"] = "The Ruby Sanctum",
-			["GraphWindowX"] = 0,
+			["MainWindowHeight"] = 323.4446028824811,
 			["CurDataSet"] = "OverallData",
 			["Colors"] = {
 				["Bar"] = {
@@ -79,10 +79,10 @@ RecountDB = {
 				},
 			},
 			["DetailWindowY"] = -59.9999876902969,
-			["ReportLines"] = 1,
-			["MainWindowVis"] = false,
 			["MainWindowWidth"] = 244.5308668882732,
-			["MainWindowHeight"] = 323.4446028824811,
+			["MainWindowVis"] = false,
+			["ReportLines"] = 1,
+			["GraphWindowX"] = 0,
 		},
 		["Nalar - Icecrown"] = {
 			["GraphWindowY"] = 0,
@@ -95,7 +95,7 @@ RecountDB = {
 				},
 			},
 			["DetailWindowX"] = 867.5926716507743,
-			["LastInstanceName"] = "Icecrown Citadel",
+			["LastInstanceName"] = "Trial of the Crusader",
 			["RealtimeWindows"] = {
 				["Realtime_Nalar_DAMAGE"] = {
 					"Nalar", -- [1]
@@ -118,7 +118,7 @@ RecountDB = {
 					false, -- [8]
 				},
 			},
-			["CurDataSet"] = "Fight2",
+			["CurDataSet"] = "LastFightData",
 			["Colors"] = {
 				["Bar"] = {
 					["Bar Text"] = {
@@ -130,9 +130,9 @@ RecountDB = {
 				},
 			},
 			["DetailWindowY"] = -152.7036942991919,
-			["MainWindowHeight"] = 345.0444837792649,
-			["MainWindowWidth"] = 243.3555780154447,
 			["GraphWindowX"] = 0,
+			["MainWindowWidth"] = 243.3555780154447,
+			["MainWindowHeight"] = 345.0444837792649,
 		},
 		["Denathra - Icecrown"] = {
 			["GraphWindowY"] = 0,
@@ -270,9 +270,6 @@ RecountDB = {
 					["x"] = -635.0186428401877,
 				},
 			},
-			["DetailWindowX"] = 74.40742614297815,
-			["LastInstanceName"] = "Trial of the Crusader",
-			["CurDataSet"] = "LastFightData",
 			["Colors"] = {
 				["Bar"] = {
 					["Bar Text"] = {
@@ -284,6 +281,9 @@ RecountDB = {
 				},
 			},
 			["DetailWindowY"] = -165.0369795107044,
+			["DetailWindowX"] = 74.40742614297815,
+			["LastInstanceName"] = "Gnomeregan",
+			["CurDataSet"] = "LastFightData",
 			["GraphWindowX"] = 0,
 			["MainWindowWidth"] = 247.3703663456547,
 			["MainWindowHeight"] = 317.6297135990283,

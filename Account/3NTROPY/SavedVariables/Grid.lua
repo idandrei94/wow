@@ -229,7 +229,7 @@ GridDB = {
 					["layouts"] = {
 						["heroic_raid"] = "By Group 40",
 					},
-					["PosY"] = -404.9018520122309,
+					["PosY"] = -402.7685903687635,
 					["layout"] = "By Group 5",
 					["PosX"] = 1080.933364942976,
 				},
