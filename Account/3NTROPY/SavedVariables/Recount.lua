@@ -35,9 +35,7 @@ RecountDB = {
 					["h"] = 311.0000073174346,
 				},
 			},
-			["DetailWindowX"] = 58.00000341936197,
-			["LastInstanceName"] = "The Forge of Souls",
-			["CurDataSet"] = "LastFightData",
+			["ReportLines"] = 1,
 			["Colors"] = {
 				["Bar"] = {
 					["Bar Text"] = {
@@ -49,22 +47,26 @@ RecountDB = {
 				},
 			},
 			["DetailWindowY"] = -16.99999979483828,
-			["MainWindowHeight"] = 310.8518969696999,
-			["MainWindowWidth"] = 251.4197662784027,
-			["ReportLines"] = 1,
+			["DetailWindowX"] = 58.00000341936197,
+			["LastInstanceName"] = "The Forge of Souls",
+			["CurDataSet"] = "LastFightData",
 			["GraphWindowX"] = 0,
+			["MainWindowWidth"] = 251.4197662784027,
+			["MainWindowHeight"] = 310.8518969696999,
 		},
 		["Vrael - Icecrown"] = {
 			["GraphWindowY"] = 0,
 			["MainWindow"] = {
 				["Position"] = {
 					["y"] = 138.1666461618927,
-					["x"] = -634.0185303431789,
+					["x"] = -634.0185916181454,
 					["w"] = 245.0000055393664,
 					["h"] = 323.0000267394107,
 				},
 			},
-			["ReportLines"] = 1,
+			["DetailWindowX"] = -115.0000081380815,
+			["LastInstanceName"] = "Violet Hold",
+			["CurDataSet"] = "LastFightData",
 			["Colors"] = {
 				["Bar"] = {
 					["Bar Text"] = {
@@ -76,12 +78,10 @@ RecountDB = {
 				},
 			},
 			["DetailWindowY"] = -60.00000082064688,
-			["DetailWindowX"] = -115.0000081380815,
-			["GraphWindowX"] = 0,
-			["LastInstanceName"] = "Ahn'kahet: The Old Kingdom",
-			["CurDataSet"] = "LastFightData",
-			["MainWindowWidth"] = 244.5308668882732,
 			["MainWindowHeight"] = 323.4446028824811,
+			["MainWindowWidth"] = 244.5308668882732,
+			["ReportLines"] = 1,
+			["GraphWindowX"] = 0,
 		},
 		["Nalar - Icecrown"] = {
 			["GraphWindowY"] = 0,
@@ -324,8 +324,8 @@ RecountDB = {
 				},
 			},
 			["DetailWindowX"] = 655.7037672683764,
-			["LastInstanceName"] = "Utgarde Pinnacle",
-			["CurDataSet"] = "LastFightData",
+			["LastInstanceName"] = "The Forge of Souls",
+			["CurDataSet"] = "CurrentFightData",
 			["Colors"] = {
 				["Bar"] = {
 					["Bar Text"] = {

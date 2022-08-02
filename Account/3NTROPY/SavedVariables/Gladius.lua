@@ -26,13 +26,13 @@ GladiusDB = {
 	["profiles"] = {
 		["Rimgar - Icecrown"] = {
 			["locked"] = true,
-			["x"] = 1073.972052732495,
 			["y"] = 513.4333619292002,
+			["x"] = 1073.972052732495,
 		},
 		["Vrael - Icecrown"] = {
 			["locked"] = true,
-			["y"] = 534.3400596661643,
 			["x"] = 941.2586748758234,
+			["y"] = 534.3400596661643,
 		},
 		["Rakhnis - Icecrown"] = {
 			["locked"] = true,
