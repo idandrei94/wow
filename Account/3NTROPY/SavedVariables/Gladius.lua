@@ -15,19 +15,19 @@ GladiusDB = {
 		["Izanagi - Icecrown"] = "Izanagi - Icecrown",
 		["Lingurita - Lordaeron"] = "Lingurita - Lordaeron",
 		["Mirceabravo - Blackrock [PvP only]"] = "Mirceabravo - Blackrock [PvP only]",
-		["Pufarin - Icecrown"] = "Pufarin - Icecrown",
+		["Maciucaru - Icecrown"] = "Maciucaru - Icecrown",
 		["Drext - Icecrown"] = "Drext - Icecrown",
 		["Praxia - Icecrown"] = "Praxia - Icecrown",
 		["Mirceabravo - Icecrown"] = "Mirceabravo - Icecrown",
 		["Nalar - Icecrown"] = "Nalar - Icecrown",
 		["Kalaam - Icecrown"] = "Kalaam - Icecrown",
-		["Maciucaru - Icecrown"] = "Maciucaru - Icecrown",
+		["Pufarin - Icecrown"] = "Pufarin - Icecrown",
 	},
 	["profiles"] = {
 		["Rimgar - Icecrown"] = {
 			["locked"] = true,
-			["y"] = 513.4333619292002,
 			["x"] = 1073.972052732495,
+			["y"] = 513.4333619292002,
 		},
 		["Vrael - Icecrown"] = {
 			["locked"] = true,
@@ -66,8 +66,8 @@ GladiusDB = {
 		},
 		["Urgash - Icecrown"] = {
 			["locked"] = true,
-			["x"] = 1078.949820798114,
 			["y"] = 531.2111095225328,
+			["x"] = 1078.949820798114,
 		},
 		["Ulrezaj - Icecrown"] = {
 			["locked"] = true,
@@ -90,7 +90,10 @@ GladiusDB = {
 		["Mirceabravo - Blackrock [PvP only]"] = {
 			["locked"] = true,
 		},
-		["Pufarin - Icecrown"] = {
+		["Maciucaru - Icecrown"] = {
+			["locked"] = true,
+			["x"] = 1049.500140519296,
+			["y"] = 529.9999838625041,
 		},
 		["Drext - Icecrown"] = {
 			["locked"] = true,
@@ -117,10 +120,7 @@ GladiusDB = {
 			["x"] = 1094.593424388484,
 			["y"] = 553.2556640183522,
 		},
-		["Maciucaru - Icecrown"] = {
-			["locked"] = true,
-			["x"] = 1049.500140519296,
-			["y"] = 529.9999838625041,
+		["Pufarin - Icecrown"] = {
 		},
 	},
 }
