@@ -1,3 +1,7 @@
+MACRO 16777240 "beacon" INV_Misc_QuestionMark
+#showtooltip 
+/cast [target=focus][target=target] beacon of light
+END
 MACRO 16777228 "bubble" INV_Misc_QuestionMark
 #showtooltip
 /cancelaura divine shield
@@ -35,12 +39,6 @@ MACRO 16777223 "exo" INV_Misc_QuestionMark
 /cast exorcism
 /stopcasting
 END
-MACRO 16777226 "hw" INV_Misc_QuestionMark
-#showtooltip hammer of wrath
-/startattack
-/use 10
-/cast hammer of wrath
-END
 MACRO 16777222 "judgement" INV_Misc_QuestionMark
 #showtooltip judgement of wisdom
 /startattack
@@ -53,7 +51,7 @@ MACRO 16777220 "nitro" INV_Misc_QuestionMark
 END
 MACRO 16777230 "pflash" INV_Misc_QuestionMark
 #showtooltip flash of light
-/cast [target=Impeding] flash of light
+/cast [target=pocaitoru] flash of light
 END
 MACRO 16777237 "pvpjud" INV_Misc_QuestionMark
 #showtooltip judgement of light

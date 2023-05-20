@@ -46,10 +46,10 @@ MACRO 16777228 "rain" INV_Misc_QuestionMark
 END
 MACRO 16777217 "sb" INV_Misc_QuestionMark
 #showtooltip shadow bolt
+/cast !shadow cleave
 /startattack
 /cast Demonic Empowerment
 /petattack
-/cast shadow cleave
 /cast shadow bolt
 END
 MACRO 16777229 "sdrain" INV_Misc_QuestionMark
@@ -58,10 +58,10 @@ MACRO 16777229 "sdrain" INV_Misc_QuestionMark
 END
 MACRO 16777218 "sf" INV_Misc_QuestionMark
 #showtooltip soul fire
+/cast !shadow cleave
 /startattack
 /cast Demonic Empowerment
 /petattack
-/cast shadow cleave
 /cast soul fire
 END
 MACRO 16777231 "sf" INV_Misc_QuestionMark

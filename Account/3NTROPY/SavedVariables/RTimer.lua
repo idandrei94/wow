@@ -1,8 +1,8 @@
 
 Hidden = false
 Position = {
-	["yOfs"] = -106.9999922722419,
-	["xOfs"] = -238.0000233884359,
+	["yOfs"] = -112.3332603185573,
+	["xOfs"] = -241.5549868624694,
 	["point"] = "CENTER",
 	["relativePoint"] = "CENTER",
 }

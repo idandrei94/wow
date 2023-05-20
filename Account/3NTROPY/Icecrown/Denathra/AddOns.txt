@@ -1,7 +1,7 @@
 DroodFocus: disabled
 Enchantrix: disabled
 Enchantrix-Barker: disabled
-Grid: disabled
+Grid: enabled
 HealBot: disabled
 Informant: disabled
 MagicRunes: disabled
