@@ -63,10 +63,10 @@ MACRO 92 "huntermark" INV_Misc_QuestionMark
 END
 MACRO 45 "incinerate" INV_Misc_QuestionMark
 #showtooltip incinerate
+/cast !shadow cleave
 /startattack
 /cast Demonic Empowerment
 /petattack
-/cast shadow cleave
 /cast incinerate
 END
 MACRO 76 "inferno" Spell_Fire_Fire
@@ -152,10 +152,10 @@ MACRO 94 "schute" INV_Misc_QuestionMark
 END
 MACRO 46 "soulfire" INV_Misc_QuestionMark
 #showtooltip soul fire
+/cast !shadow cleave
 /startattack
 /petattack
 /cast Demonic Empowerment
-/cast shadow cleave
 /cast soul fire
 END
 MACRO 77 "spellstone" INV_Misc_QuestionMark

@@ -7,7 +7,7 @@ Y: 177
 W: 232
 H: 100
 Frame: LootFrame
-FrameLevel: 10
+FrameLevel: 9
 Anchor: CENTER
 X: 102
 Y: 33
@@ -91,7 +91,7 @@ Y: -95
 W: 56
 H: 42
 Frame: TomTomBlock
-FrameLevel: 12
+FrameLevel: 11
 Anchor: TOPRIGHT
 X: -38
 Y: -187
