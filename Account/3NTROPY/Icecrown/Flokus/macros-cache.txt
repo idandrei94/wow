@@ -1,0 +1,86 @@
+MACRO 16777227 "agem" INV_Misc_QuestionMark
+#showtooltip mana sapphire
+/equip [nomodifier:alt] Heroes' Frostfire Gloves
+/equip [nomodifier:alt] Heroes' Frostfire Shoulderpads
+/cast [modifier:alt] conjure mana gem
+/use Mana Sapphire
+/equipset arc
+END
+MACRO 16777226 "ama" INV_Misc_QuestionMark
+#showtooltip molten armor
+/equip Sunstrider's Gauntlets of Conquest
+/equip Sunstrider's Shoulderpads of Conquest
+/cast molten armor
+/equipset arc
+END
+MACRO 16777232 "bauble" INV_Misc_QuestionMark
+#showtooltip 13
+/use [modifier:alt;target=self] 13
+/use [nomodifier:alt;target=party2] 13
+END
+MACRO 16777228 "blink" INV_Misc_QuestionMark
+#showtooltip blink
+/cast [nochanneling] blink
+END
+MACRO 16777218 "blizz" INV_Misc_QuestionMark
+#showtooltip blizzard
+/cast !blizzard
+END
+MACRO 16777220 "cd" INV_Misc_QuestionMark
+#showtooltip mirror image
+/cast combustion
+/cast berserking
+/cast icy veins
+/cast arcane power
+/cast mirror image
+END
+MACRO 16777221 "fb" INV_Misc_QuestionMark
+#showtooltip Frostbolt(Rank 1)
+/cast Frostbolt(Rank 1)
+END
+MACRO 16777229 "fblast" INV_Misc_QuestionMark
+#showtooltip fire blast
+/cast [nochanneling] fire blast
+END
+MACRO 16777231 "fbolt" INV_Misc_QuestionMark
+#showtooltip
+/cast frostbolt
+/petattack
+END
+MACRO 16777225 "fcs" INV_Misc_QuestionMark
+#showtooltip counterspell
+/cast [target=focus] counterspell
+END
+MACRO 16777230 "fdf" INV_Misc_QuestionMark
+#showtooltip
+/cast [target=focus] deep freeze
+END
+MACRO 16777223 "fpoly" INV_Misc_QuestionMark
+#showtooltip
+/castrandom [target=focus] Polymorph(Rank 4),Polymorph(Turtle),Polymorph(Pig),Polymorph(Black Cat),Polymorph(Rabbit)
+END
+MACRO 16777233 "fs" INV_Misc_QuestionMark
+#showtooltip flamestrike
+/cast !flamestrike
+END
+MACRO 16777219 "ib" INV_Misc_QuestionMark
+#showtooltip ice block
+/cancelaura ice block
+/stopcasting
+/cast ice block
+END
+MACRO 16777224 "mount" INV_Misc_QuestionMark
+#showtooltip
+/userandom [flyable] Bronze Drake,Invincible,Vengeful Nether Drake,X-53 Touring Rocket,Wrathful Gladiator's Frost Wyrm;Swift Spectral Tiger,Black Qiraji Battle Tank,Invincible
+END
+MACRO 16777222 "poly" INV_Misc_QuestionMark
+#showtooltip
+/castrandom Polymorph(Rank 4),Polymorph(Turtle),Polymorph(Pig),Polymorph(Black Cat),Polymorph(Rabbit)
+END
+MACRO 16777217 "spellsteal" INV_Misc_QuestionMark
+#showtooltip spellsteal
+/cast spellsteal
+/cancelaura hand of sacrifice
+/cancelaura mana shield
+/cancelaura divine sacrifice
+END

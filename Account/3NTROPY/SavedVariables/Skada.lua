@@ -4,14 +4,6 @@ SkadaDB = {
 		["LibDualSpec-1.0"] = {
 		},
 	},
-	["global"] = {
-		["version"] = 1878,
-		["nicknames"] = {
-			["reset"] = 1690367536,
-			["cache"] = {
-			},
-		},
-	},
 	["profileKeys"] = {
 		["Rimgar - Icecrown"] = "Default",
 		["Vrael - Icecrown"] = "Default",
@@ -21,9 +13,17 @@ SkadaDB = {
 		["Flokus - Icecrown"] = "Default",
 		["Kalaam - Icecrown"] = "Default",
 		["Inarya - Icecrown"] = "Default",
-		["Pocaitoru - Icecrown"] = "Default",
 		["Praxia - Icecrown"] = "Default",
+		["Pocaitoru - Icecrown"] = "Default",
 		["Urgash - Icecrown"] = "Default",
+	},
+	["global"] = {
+		["nicknames"] = {
+			["cache"] = {
+			},
+			["reset"] = 1690367536,
+		},
+		["version"] = 1878,
 	},
 	["profiles"] = {
 		["Default"] = {
@@ -34,7 +34,7 @@ SkadaDB = {
 			},
 			["namedisplay"] = 2,
 			["modules"] = {
-				["deathlogthreshold"] = 1000,
+				["sunderchannel"] = "SAY",
 				["threat"] = {
 					["soundfile"] = "Fel Nova",
 					["ignorePets"] = true,
@@ -42,8 +42,8 @@ SkadaDB = {
 					["threshold"] = 90,
 					["notankwarnings"] = true,
 					["output"] = 1,
-					["showAggroBar"] = true,
 					["sound"] = true,
+					["showAggroBar"] = true,
 					["frequency"] = 2,
 				},
 				["failschannel"] = "AUTO",
@@ -51,25 +51,25 @@ SkadaDB = {
 				["deathchannel"] = "AUTO",
 				["interruptchannel"] = "SAY",
 				["parrychannel"] = "AUTO",
-				["sunderchannel"] = "SAY",
+				["deathlogthreshold"] = 1000,
 			},
 			["prepotion"] = true,
 			["windows"] = {
 				{
 					["barslocked"] = true,
+					["background"] = {
+						["color"] = {
+							["a"] = 0.9000000059604645,
+						},
+						["height"] = 272,
+					},
 					["hidden"] = true,
 					["y"] = 164.4442229913659,
 					["x"] = -642.6667915873574,
 					["strata"] = "HIGH",
-					["snapto"] = true,
 					["mode"] = "Damage",
+					["snapto"] = true,
 					["barwidth"] = 218.0737368996549,
-					["background"] = {
-						["height"] = 272,
-						["color"] = {
-							["a"] = 0.9000000059604645,
-						},
-					},
 				}, -- [1]
 			},
 			["report"] = {
