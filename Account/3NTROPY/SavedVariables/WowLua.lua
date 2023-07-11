@@ -1,6 +1,6 @@
 
 WowLua_DB = {
-	["currentPage"] = 7,
+	["currentPage"] = 12,
 	["fontSize"] = 14,
 	["pages"] = {
 		{
@@ -45,6 +45,16 @@ WowLua_DB = {
 			["name"] = "error clear",
 			["content"] = "UIErrorsFrame: UnregisterEvent(\"UI_ERROR_MESSAGE\");",
 		}, -- [10]
+		{
+			["untitled"] = true,
+			["name"] = "Untitled 11",
+			["content"] = "",
+		}, -- [11]
+		{
+			["untitled"] = true,
+			["name"] = "Untitled 12",
+			["content"] = "",
+		}, -- [12]
 	},
-	["untitled"] = 11,
+	["untitled"] = 13,
 }

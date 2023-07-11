@@ -1,0 +1,8888 @@
+
+RecountPerCharDB = {
+	["version"] = "1.3",
+	["combatants"] = {
+		["Nohir"] = {
+			["GUID"] = "0x070000000097266C",
+			["LastEventHealth"] = {
+				"58 (45%)", -- [1]
+				"58 (45%)", -- [2]
+				"51 (40%)", -- [3]
+				"43 (33%)", -- [4]
+				"119 (93%)", -- [5]
+				"119 (93%)", -- [6]
+				"111 (87%)", -- [7]
+				"104 (81%)", -- [8]
+				"96 (75%)", -- [9]
+				"96 (75%)", -- [10]
+				"89 (70%)", -- [11]
+				"127 (100%)", -- [12]
+				"127 (100%)", -- [13]
+				"122 (96%)", -- [14]
+				"117 (92%)", -- [15]
+				"117 (92%)", -- [16]
+				"109 (85%)", -- [17]
+				"103 (81%)", -- [18]
+				"99 (77%)", -- [19]
+				"94 (74%)", -- [20]
+				"90 (70%)", -- [21]
+				"90 (70%)", -- [22]
+				"90 (70%)", -- [23]
+				"87 (68%)", -- [24]
+				"75 (59%)", -- [25]
+				"71 (55%)", -- [26]
+				"127 (100%)", -- [27]
+				"127 (100%)", -- [28]
+				"121 (95%)", -- [29]
+				"116 (91%)", -- [30]
+				"112 (88%)", -- [31]
+				"106 (83%)", -- [32]
+				"103 (81%)", -- [33]
+				"98 (77%)", -- [34]
+				"98 (77%)", -- [35]
+				"94 (74%)", -- [36]
+				"88 (69%)", -- [37]
+				"88 (69%)", -- [38]
+				"80 (62%)", -- [39]
+				"75 (59%)", -- [40]
+				"75 (59%)", -- [41]
+				"72 (56%)", -- [42]
+				"60 (47%)", -- [43]
+				"57 (44%)", -- [44]
+				"57 (44%)", -- [45]
+				"53 (41%)", -- [46]
+				"53 (41%)", -- [47]
+				"53 (41%)", -- [48]
+				"53 (41%)", -- [49]
+				"65 (51%)", -- [50]
+			},
+			["LastAttackedBy"] = "Kobold Tunneler",
+			["LastEventType"] = {
+				"DAMAGE", -- [1]
+				"DAMAGE", -- [2]
+				"DAMAGE", -- [3]
+				"DAMAGE", -- [4]
+				"HEAL", -- [5]
+				"DAMAGE", -- [6]
+				"DAMAGE", -- [7]
+				"DAMAGE", -- [8]
+				"DAMAGE", -- [9]
+				"DAMAGE", -- [10]
+				"DAMAGE", -- [11]
+				"HEAL", -- [12]
+				"DAMAGE", -- [13]
+				"DAMAGE", -- [14]
+				"DAMAGE", -- [15]
+				"DAMAGE", -- [16]
+				"DAMAGE", -- [17]
+				"DAMAGE", -- [18]
+				"DAMAGE", -- [19]
+				"DAMAGE", -- [20]
+				"DAMAGE", -- [21]
+				"DAMAGE", -- [22]
+				"DAMAGE", -- [23]
+				"DAMAGE", -- [24]
+				"DAMAGE", -- [25]
+				"DAMAGE", -- [26]
+				"HEAL", -- [27]
+				"DAMAGE", -- [28]
+				"DAMAGE", -- [29]
+				"DAMAGE", -- [30]
+				"DAMAGE", -- [31]
+				"DAMAGE", -- [32]
+				"DAMAGE", -- [33]
+				"DAMAGE", -- [34]
+				"DAMAGE", -- [35]
+				"DAMAGE", -- [36]
+				"DAMAGE", -- [37]
+				"DAMAGE", -- [38]
+				"DAMAGE", -- [39]
+				"DAMAGE", -- [40]
+				"DAMAGE", -- [41]
+				"DAMAGE", -- [42]
+				"DAMAGE", -- [43]
+				"DAMAGE", -- [44]
+				"DAMAGE", -- [45]
+				"DAMAGE", -- [46]
+				"DAMAGE", -- [47]
+				"DAMAGE", -- [48]
+				"DAMAGE", -- [49]
+				"DAMAGE", -- [50]
+			},
+			["TimeWindows"] = {
+				["TimeHeal"] = {
+					7, -- [1]
+				},
+				["Healing"] = {
+					146, -- [1]
+				},
+				["DamageTaken"] = {
+					415, -- [1]
+				},
+				["HealingTaken"] = {
+					146, -- [1]
+				},
+				["Overhealing"] = {
+					13, -- [1]
+				},
+				["ActiveTime"] = {
+					520.3300000000002, -- [1]
+				},
+				["TimeDamage"] = {
+					513.3300000000003, -- [1]
+				},
+				["DOT_Time"] = {
+					72, -- [1]
+				},
+				["Damage"] = {
+					3089, -- [1]
+				},
+			},
+			["enClass"] = "PRIEST",
+			["unit"] = "Nohir",
+			["level"] = 2,
+			["LastDamageAbility"] = "Melee",
+			["LastFightIn"] = 59,
+			["LastEventNum"] = {
+				nil, -- [1]
+				5.511811023622047, -- [2]
+				6.299212598425197, -- [3]
+				6.299212598425197, -- [4]
+				66.14173228346456, -- [5]
+				6.299212598425197, -- [6]
+				5.511811023622047, -- [7]
+				6.299212598425197, -- [8]
+				nil, -- [9]
+				5.511811023622047, -- [10]
+				nil, -- [11]
+				nil, -- [12]
+				3.937007874015748, -- [13]
+				3.937007874015748, -- [14]
+				nil, -- [15]
+				6.299212598425197, -- [16]
+				4.724409448818897, -- [17]
+				3.149606299212599, -- [18]
+				3.937007874015748, -- [19]
+				3.149606299212599, -- [20]
+				nil, -- [21]
+				nil, -- [22]
+				2.362204724409449, -- [23]
+				9.448818897637795, -- [24]
+				3.149606299212599, -- [25]
+				4.724409448818897, -- [26]
+				59.05511811023622, -- [27]
+				4.724409448818897, -- [28]
+				3.937007874015748, -- [29]
+				3.149606299212599, -- [30]
+				4.724409448818897, -- [31]
+				2.362204724409449, -- [32]
+				3.937007874015748, -- [33]
+				nil, -- [34]
+				3.149606299212599, -- [35]
+				4.724409448818897, -- [36]
+				nil, -- [37]
+				6.299212598425197, -- [38]
+				3.937007874015748, -- [39]
+				[41] = 2.362204724409449,
+				[42] = 9.448818897637795,
+				[43] = 2.362204724409449,
+				[45] = 3.149606299212599,
+				[49] = 6.299212598425197,
+				[50] = 5.511811023622047,
+			},
+			["type"] = "Grouped",
+			["FightsSaved"] = 5,
+			["LastDamageTaken"] = 8,
+			["TimeLast"] = {
+				["TimeHeal"] = 1689084004,
+				["OVERALL"] = 1689084023,
+				["DamageTaken"] = 1689084023,
+				["HealingTaken"] = 1689084004,
+				["Overhealing"] = 1689084004,
+				["TimeDamage"] = 1689084022,
+				["Healing"] = 1689084004,
+				["ActiveTime"] = 1689084022,
+				["DOT_Time"] = 1689083837,
+				["Damage"] = 1689084022,
+			},
+			["Owner"] = false,
+			["LastAbility"] = 13023.761,
+			["NextEventNum"] = 50,
+			["LastEventHealthNum"] = {
+				45.66929133858267, -- [1]
+				45.66929133858267, -- [2]
+				40.15748031496063, -- [3]
+				33.85826771653543, -- [4]
+				93.7007874015748, -- [5]
+				93.7007874015748, -- [6]
+				87.4015748031496, -- [7]
+				81.88976377952756, -- [8]
+				75.59055118110236, -- [9]
+				75.59055118110236, -- [10]
+				70.07874015748031, -- [11]
+				100, -- [12]
+				100, -- [13]
+				96.06299212598425, -- [14]
+				92.1259842519685, -- [15]
+				92.1259842519685, -- [16]
+				85.8267716535433, -- [17]
+				81.10236220472442, -- [18]
+				77.95275590551181, -- [19]
+				74.01574803149606, -- [20]
+				70.86614173228347, -- [21]
+				70.86614173228347, -- [22]
+				70.86614173228347, -- [23]
+				68.50393700787402, -- [24]
+				59.05511811023622, -- [25]
+				55.90551181102362, -- [26]
+				100, -- [27]
+				100, -- [28]
+				95.2755905511811, -- [29]
+				91.33858267716535, -- [30]
+				88.18897637795276, -- [31]
+				83.46456692913385, -- [32]
+				81.10236220472442, -- [33]
+				77.16535433070867, -- [34]
+				77.16535433070867, -- [35]
+				74.01574803149606, -- [36]
+				69.29133858267717, -- [37]
+				69.29133858267717, -- [38]
+				62.99212598425197, -- [39]
+				59.05511811023622, -- [40]
+				59.05511811023622, -- [41]
+				56.69291338582677, -- [42]
+				47.24409448818898, -- [43]
+				44.88188976377953, -- [44]
+				44.88188976377953, -- [45]
+				41.73228346456693, -- [46]
+				41.73228346456693, -- [47]
+				41.73228346456693, -- [48]
+				41.73228346456693, -- [49]
+				51.18110236220473, -- [50]
+			},
+			["LastEvents"] = {
+				"Nohir Smite Kobold Miner Hit -14 (3 resisted) (Holy)", -- [1]
+				"Kobold Miner Melee Nohir Hit -7 (Physical)", -- [2]
+				"Kobold Miner Melee Nohir Hit -8 (Physical)", -- [3]
+				"Kobold Miner Melee Nohir Hit -8 (Physical)", -- [4]
+				"Nohir Lesser Heal Nohir Hit +84", -- [5]
+				"Kobold Miner Melee Nohir Hit -8 (Physical)", -- [6]
+				"Kobold Miner Melee Nohir Hit -7 (Physical)", -- [7]
+				"Kobold Miner Melee Nohir Hit -8 (Physical)", -- [8]
+				"Nohir Smite Kobold Miner Miss (Holy)", -- [9]
+				"Kobold Miner Melee Nohir Hit -7 (Physical)", -- [10]
+				"Nohir Smite Kobold Miner Hit -16 (Holy)", -- [11]
+				"Nohir Lesser Heal Sculatru Hit +84 (65 overheal)", -- [12]
+				"Kobold Tunneler Melee Nohir Hit -5 (Physical)", -- [13]
+				"Kobold Tunneler Melee Nohir Hit -5 (Physical)", -- [14]
+				"Nohir Smite Kobold Tunneler Miss (Holy)", -- [15]
+				"Kobold Tunneler Melee Nohir Crit -8 (Physical)", -- [16]
+				"Kobold Tunneler Melee Nohir Hit -6 (Physical)", -- [17]
+				"Kobold Tunneler Melee Nohir Hit -4 (Physical)", -- [18]
+				"Kobold Tunneler Melee Nohir Hit -5 (Physical)", -- [19]
+				"Kobold Tunneler Melee Nohir Hit -4 (Physical)", -- [20]
+				"Kobold Tunneler Melee Nohir Miss", -- [21]
+				"Nohir Smite Kobold Tunneler Hit -18 (Holy)", -- [22]
+				"Kobold Tunneler Melee Nohir Hit -3 (Physical)", -- [23]
+				"Kobold Tunneler Melee Nohir Crit -12 (Physical)", -- [24]
+				"Kobold Tunneler Melee Nohir Hit -4 (Physical)", -- [25]
+				"Kobold Tunneler Melee Nohir Hit -6 (Physical)", -- [26]
+				"Nohir Lesser Heal Nohir Hit +75 (13 overheal)", -- [27]
+				"Kobold Tunneler Melee Nohir Crit -6 (Physical)", -- [28]
+				"Kobold Tunneler Melee Nohir Hit -5 (Physical)", -- [29]
+				"Kobold Tunneler Melee Nohir Hit -4 (Physical)", -- [30]
+				"Kobold Tunneler Melee Nohir Hit -6 (Physical)", -- [31]
+				"Kobold Tunneler Melee Nohir Hit -3 (Physical)", -- [32]
+				"Kobold Tunneler Melee Nohir Hit -5 (Physical)", -- [33]
+				"Nohir Smite Kobold Tunneler Hit -19 (Holy)", -- [34]
+				"Kobold Tunneler Melee Nohir Hit -4 (Physical)", -- [35]
+				"Kobold Tunneler Melee Nohir Hit -6 (Physical)", -- [36]
+				"Nohir Smite Kobold Tunneler Hit -17 (Holy)", -- [37]
+				"Kobold Tunneler Melee Nohir Crit -8 (Physical)", -- [38]
+				"Kobold Tunneler Melee Nohir Hit -5 (Physical)", -- [39]
+				"Nohir Smite Kobold Tunneler Hit -16 (1 resisted) (Holy)", -- [40]
+				"Kobold Tunneler Melee Nohir Hit -3 (Physical)", -- [41]
+				"Kobold Tunneler Melee Nohir Crit -12 (Physical)", -- [42]
+				"Kobold Tunneler Melee Nohir Hit -3 (Physical)", -- [43]
+				"Nohir Smite Kobold Tunneler Hit -12 (3 resisted) (Holy)", -- [44]
+				"Kobold Tunneler Melee Nohir Hit -4 (Physical)", -- [45]
+				"Nohir Smite Kobold Tunneler Hit -18 (Holy)", -- [46]
+				"Kobold Tunneler Melee Nohir Miss", -- [47]
+				"Nohir Smite Kobold Tunneler Hit -15 (Holy)", -- [48]
+				"Kobold Tunneler Melee Nohir Crit -8 (Physical)", -- [49]
+				"Kobold Miner Melee Nohir Hit -7 (Physical)", -- [50]
+			},
+			["Name"] = "Nohir",
+			["LastEventIncoming"] = {
+				false, -- [1]
+				true, -- [2]
+				true, -- [3]
+				true, -- [4]
+				true, -- [5]
+				true, -- [6]
+				true, -- [7]
+				true, -- [8]
+				false, -- [9]
+				true, -- [10]
+				false, -- [11]
+				false, -- [12]
+				true, -- [13]
+				true, -- [14]
+				false, -- [15]
+				true, -- [16]
+				true, -- [17]
+				true, -- [18]
+				true, -- [19]
+				true, -- [20]
+				true, -- [21]
+				false, -- [22]
+				true, -- [23]
+				true, -- [24]
+				true, -- [25]
+				true, -- [26]
+				true, -- [27]
+				true, -- [28]
+				true, -- [29]
+				true, -- [30]
+				true, -- [31]
+				true, -- [32]
+				true, -- [33]
+				false, -- [34]
+				true, -- [35]
+				true, -- [36]
+				false, -- [37]
+				true, -- [38]
+				true, -- [39]
+				false, -- [40]
+				true, -- [41]
+				true, -- [42]
+				true, -- [43]
+				false, -- [44]
+				true, -- [45]
+				false, -- [46]
+				true, -- [47]
+				false, -- [48]
+				true, -- [49]
+				true, -- [50]
+			},
+			["LastEventTimes"] = {
+				12911.297, -- [1]
+				12911.646, -- [2]
+				12913.629, -- [3]
+				12915.662, -- [4]
+				12917.679, -- [5]
+				12917.679, -- [6]
+				12919.679, -- [7]
+				12921.631, -- [8]
+				12923.171, -- [9]
+				12923.662, -- [10]
+				12926.045, -- [11]
+				12950.67, -- [12]
+				12993.928, -- [13]
+				12995.961, -- [14]
+				12996.453, -- [15]
+				12996.47, -- [16]
+				12997.953, -- [17]
+				12998.454, -- [18]
+				12999.953, -- [19]
+				13000.445, -- [20]
+				13001.963, -- [21]
+				13002.103, -- [22]
+				13002.486, -- [23]
+				13003.911, -- [24]
+				13004.753, -- [25]
+				13005.153, -- [26]
+				13005.862, -- [27]
+				13006.495, -- [28]
+				13007.12, -- [29]
+				13008.495, -- [30]
+				13009.137, -- [31]
+				13010.453, -- [32]
+				13011.119, -- [33]
+				13011.261, -- [34]
+				13012.495, -- [35]
+				13013.12, -- [36]
+				13013.878, -- [37]
+				13014.47, -- [38]
+				13015.136, -- [39]
+				13016.253, -- [40]
+				13016.462, -- [41]
+				13017.153, -- [42]
+				13018.503, -- [43]
+				13020.178, -- [44]
+				13020.503, -- [45]
+				13022.219, -- [46]
+				13022.494, -- [47]
+				13023.761, -- [48]
+				13024.486, -- [49]
+				12909.654, -- [50]
+			},
+			["Fights"] = {
+				["Fight2"] = {
+					["DOTs"] = {
+						["Shadow Word: Pain (DoT)"] = {
+							["Details"] = {
+								["Kobold Miner"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ElementDoneResist"] = {
+						["Holy"] = 4,
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 144,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 2,
+								},
+								["Crit"] = {
+									["count"] = 6,
+								},
+								["Hit"] = {
+									["count"] = 20,
+								},
+							},
+							["amount"] = 28,
+						},
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["ElementHitsDone"] = {
+						["Shadow"] = {
+							["Details"] = {
+								["Tick"] = {
+									["count"] = 0,
+								},
+								["Evade"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Holy"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 1,
+								},
+								["Hit"] = {
+									["count"] = 7,
+								},
+							},
+							["amount"] = 8,
+						},
+					},
+					["ElementTakenAbsorb"] = {
+					},
+					["ElementTaken"] = {
+						["Melee"] = 144,
+					},
+					["DOT_Time"] = 0,
+					["Damage"] = 115,
+					["ElementTakenBlock"] = {
+					},
+					["TimeHeal"] = 3.5,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["ElementDoneAbsorb"] = {
+					},
+					["FAttacks"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDone"] = {
+						["Shadow"] = 0,
+						["Holy"] = 115,
+					},
+					["PartialAbsorb"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 28,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 28,
+							["amount"] = 0,
+						},
+					},
+					["DamagedWho"] = {
+						["Diseased Young Wolf"] = {
+							["Details"] = {
+								["Smite"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Tunneler"] = {
+							["Details"] = {
+								["Smite"] = {
+									["count"] = 115,
+								},
+							},
+							["amount"] = 115,
+						},
+						["Kobold Miner"] = {
+							["Details"] = {
+								["Shadow Word: Pain (DoT)"] = {
+									["count"] = 0,
+								},
+								["Smite"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Worker"] = {
+							["Details"] = {
+								["Smite"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Laborer"] = {
+							["Details"] = {
+								["Smite"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Defias Thug"] = {
+							["Details"] = {
+								["Smite"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["PartialBlock"] = {
+					},
+					["WhoDamaged"] = {
+						["Kobold Worker"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Tunneler"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 144,
+								},
+							},
+							["amount"] = 144,
+						},
+						["Defias Thug"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["PartialResist"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 28,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 28,
+							["amount"] = 0,
+						},
+					},
+					["CCBroken"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+						["Nohir"] = {
+							["Details"] = {
+								["Lesser Heal"] = {
+									["count"] = 3.5,
+								},
+							},
+							["amount"] = 3.5,
+						},
+					},
+					["OverHeals"] = {
+						["Lesser Heal"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 13,
+									["min"] = 13,
+									["count"] = 1,
+									["amount"] = 13,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 13,
+						},
+					},
+					["ManaGainedFrom"] = {
+					},
+					["RunicPowerGained"] = {
+					},
+					["CCBreak"] = 0,
+					["RageGained"] = {
+					},
+					["HealedWho"] = {
+						["Nohir"] = {
+							["Details"] = {
+								["Lesser Heal"] = {
+									["count"] = 62,
+								},
+							},
+							["amount"] = 62,
+						},
+					},
+					["EnergyGain"] = 0,
+					["ManaGained"] = {
+					},
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["Overhealing"] = 13,
+					["TimeSpent"] = {
+						["Diseased Young Wolf"] = {
+							["Details"] = {
+								["Smite"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Nohir"] = {
+							["Details"] = {
+								["Lesser Heal"] = {
+									["count"] = 3.5,
+								},
+							},
+							["amount"] = 3.5,
+						},
+						["Kobold Tunneler"] = {
+							["Details"] = {
+								["Smite"] = {
+									["count"] = 22.58,
+								},
+							},
+							["amount"] = 22.58,
+						},
+						["Kobold Miner"] = {
+							["Details"] = {
+								["Shadow Word: Pain (DoT)"] = {
+									["count"] = 0,
+								},
+								["Shadow Word: Pain"] = {
+									["count"] = 0,
+								},
+								["Smite"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Worker"] = {
+							["Details"] = {
+								["Smite"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Laborer"] = {
+							["Details"] = {
+								["Smite"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Defias Thug"] = {
+							["Details"] = {
+								["Smite"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["WhoDispelled"] = {
+					},
+					["InterruptData"] = {
+					},
+					["RunicPowerGain"] = 0,
+					["Heals"] = {
+						["Lesser Heal"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 62,
+									["min"] = 62,
+									["count"] = 1,
+									["amount"] = 62,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 62,
+						},
+					},
+					["WhoHealed"] = {
+						["Nohir"] = {
+							["Details"] = {
+								["Lesser Heal"] = {
+									["count"] = 62,
+								},
+							},
+							["amount"] = 62,
+						},
+					},
+					["EnergyGained"] = {
+					},
+					["ActiveTime"] = 26.08,
+					["Healing"] = 62,
+					["FDamagedWho"] = {
+					},
+					["Dispelled"] = 0,
+					["Attacks"] = {
+						["Shadow Word: Pain"] = {
+							["Details"] = {
+								["Evade"] = {
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Shadow Word: Pain (DoT)"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Smite"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 1,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 19,
+									["min"] = 0,
+									["count"] = 7,
+									["amount"] = 115,
+								},
+							},
+							["count"] = 8,
+							["amount"] = 115,
+						},
+					},
+					["HealingTaken"] = 62,
+					["RageGain"] = 0,
+					["TimeDamage"] = 22.58,
+					["TimeDamaging"] = {
+						["Diseased Young Wolf"] = {
+							["Details"] = {
+								["Smite"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Tunneler"] = {
+							["Details"] = {
+								["Smite"] = {
+									["count"] = 22.58,
+								},
+							},
+							["amount"] = 22.58,
+						},
+						["Kobold Miner"] = {
+							["Details"] = {
+								["Shadow Word: Pain (DoT)"] = {
+									["count"] = 0,
+								},
+								["Shadow Word: Pain"] = {
+									["count"] = 0,
+								},
+								["Smite"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Worker"] = {
+							["Details"] = {
+								["Smite"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Laborer"] = {
+							["Details"] = {
+								["Smite"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Defias Thug"] = {
+							["Details"] = {
+								["Smite"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ManaGain"] = 0,
+					["HOTs"] = {
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["Fight5"] = {
+					["DOTs"] = {
+					},
+					["ElementDoneResist"] = {
+						["Holy"] = 10,
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 3,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Crit"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 1,
+						},
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["ElementHitsDone"] = {
+						["Holy"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 2,
+								},
+								["Crit"] = {
+									["count"] = 1,
+								},
+								["Hit"] = {
+									["count"] = 6,
+								},
+							},
+							["amount"] = 9,
+						},
+					},
+					["ElementTakenAbsorb"] = {
+					},
+					["ElementTaken"] = {
+						["Melee"] = 3,
+					},
+					["DOT_Time"] = 0,
+					["Damage"] = 116,
+					["ElementTakenBlock"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["ElementDoneAbsorb"] = {
+					},
+					["FAttacks"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDone"] = {
+						["Holy"] = 116,
+					},
+					["PartialAbsorb"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+					},
+					["DamagedWho"] = {
+						["Kobold Worker"] = {
+							["Details"] = {
+								["Smite"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Diseased Young Wolf"] = {
+							["Details"] = {
+								["Smite"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Laborer"] = {
+							["Details"] = {
+								["Smite"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Tunneler"] = {
+							["Details"] = {
+								["Smite"] = {
+									["count"] = 64,
+								},
+							},
+							["amount"] = 64,
+						},
+						["Kobold Miner"] = {
+							["Details"] = {
+								["Smite"] = {
+									["count"] = 52,
+								},
+							},
+							["amount"] = 52,
+						},
+						["Diseased Timber Wolf"] = {
+							["Details"] = {
+								["Smite"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Defias Thug"] = {
+							["Details"] = {
+								["Smite"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Vermin"] = {
+							["Details"] = {
+								["Smite"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["PartialBlock"] = {
+					},
+					["WhoDamaged"] = {
+						["Kobold Tunneler"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 3,
+								},
+							},
+							["amount"] = 3,
+						},
+						["Kobold Laborer"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Worker"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Defias Thug"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Vermin"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["PartialResist"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+					},
+					["CCBroken"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+					},
+					["OverHeals"] = {
+					},
+					["ManaGainedFrom"] = {
+					},
+					["RunicPowerGained"] = {
+					},
+					["CCBreak"] = 0,
+					["RageGained"] = {
+					},
+					["HealedWho"] = {
+					},
+					["EnergyGain"] = 0,
+					["ManaGained"] = {
+					},
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["Overhealing"] = 0,
+					["TimeSpent"] = {
+						["Kobold Worker"] = {
+							["Details"] = {
+								["Smite"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Diseased Young Wolf"] = {
+							["Details"] = {
+								["Smite"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Laborer"] = {
+							["Details"] = {
+								["Smite"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Tunneler"] = {
+							["Details"] = {
+								["Smite"] = {
+									["count"] = 7.949999999999999,
+								},
+							},
+							["amount"] = 7.949999999999999,
+						},
+						["Kobold Miner"] = {
+							["Details"] = {
+								["Smite"] = {
+									["count"] = 11.01,
+								},
+							},
+							["amount"] = 11.01,
+						},
+						["Diseased Timber Wolf"] = {
+							["Details"] = {
+								["Smite"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Defias Thug"] = {
+							["Details"] = {
+								["Smite"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Vermin"] = {
+							["Details"] = {
+								["Smite"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["WhoDispelled"] = {
+					},
+					["InterruptData"] = {
+					},
+					["RunicPowerGain"] = 0,
+					["Heals"] = {
+					},
+					["WhoHealed"] = {
+					},
+					["EnergyGained"] = {
+					},
+					["ActiveTime"] = 18.96,
+					["Healing"] = 0,
+					["FDamagedWho"] = {
+					},
+					["Dispelled"] = 0,
+					["Attacks"] = {
+						["Smite"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 2,
+									["amount"] = 0,
+								},
+								["Crit"] = {
+									["max"] = 22,
+									["min"] = 22,
+									["count"] = 1,
+									["amount"] = 22,
+								},
+								["Hit"] = {
+									["max"] = 18,
+									["min"] = 0,
+									["count"] = 6,
+									["amount"] = 94,
+								},
+							},
+							["count"] = 9,
+							["amount"] = 116,
+						},
+					},
+					["HealingTaken"] = 0,
+					["RageGain"] = 0,
+					["TimeDamage"] = 18.96,
+					["TimeDamaging"] = {
+						["Kobold Worker"] = {
+							["Details"] = {
+								["Smite"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Diseased Young Wolf"] = {
+							["Details"] = {
+								["Smite"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Laborer"] = {
+							["Details"] = {
+								["Smite"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Tunneler"] = {
+							["Details"] = {
+								["Smite"] = {
+									["count"] = 7.949999999999999,
+								},
+							},
+							["amount"] = 7.949999999999999,
+						},
+						["Kobold Miner"] = {
+							["Details"] = {
+								["Smite"] = {
+									["count"] = 11.01,
+								},
+							},
+							["amount"] = 11.01,
+						},
+						["Diseased Timber Wolf"] = {
+							["Details"] = {
+								["Smite"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Defias Thug"] = {
+							["Details"] = {
+								["Smite"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Vermin"] = {
+							["Details"] = {
+								["Smite"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ManaGain"] = 0,
+					["HOTs"] = {
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["CurrentFightData"] = {
+					["DOTs"] = {
+						["Shadow Word: Pain (DoT)"] = {
+							["Details"] = {
+								["Forest Spider"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ElementDoneResist"] = {
+						["Holy"] = 0,
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 0,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Dodge"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Nature"] = {
+							["Details"] = {
+								["Tick"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["ElementHitsDone"] = {
+						["Shadow"] = {
+							["Details"] = {
+								["Tick"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Holy"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 0,
+								},
+								["Crit"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ElementTakenAbsorb"] = {
+					},
+					["ElementTaken"] = {
+						["Melee"] = 0,
+						["Nature"] = 0,
+					},
+					["DOT_Time"] = 0,
+					["Damage"] = 0,
+					["ElementTakenBlock"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["ElementDoneAbsorb"] = {
+					},
+					["FAttacks"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDone"] = {
+						["Shadow"] = 0,
+						["Holy"] = 0,
+					},
+					["PartialAbsorb"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Poison (DoT)"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["DamagedWho"] = {
+						["Kobold Miner"] = {
+							["Details"] = {
+								["Smite"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Diseased Young Wolf"] = {
+							["Details"] = {
+								["Smite"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Laborer"] = {
+							["Details"] = {
+								["Smite"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Tunneler"] = {
+							["Details"] = {
+								["Smite"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Forest Spider"] = {
+							["Details"] = {
+								["Shadow Word: Pain (DoT)"] = {
+									["count"] = 0,
+								},
+								["Smite"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Diseased Timber Wolf"] = {
+							["Details"] = {
+								["Smite"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Vermin"] = {
+							["Details"] = {
+								["Smite"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Defias Thug"] = {
+							["Details"] = {
+								["Smite"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["PartialBlock"] = {
+					},
+					["WhoDamaged"] = {
+						["Diseased Young Wolf"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Laborer"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Tunneler"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Forest Spider"] = {
+							["Details"] = {
+								["Poison (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Diseased Timber Wolf"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Vermin"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Defias Thug"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["PartialResist"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Poison (DoT)"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["CCBroken"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+					},
+					["OverHeals"] = {
+					},
+					["ManaGainedFrom"] = {
+					},
+					["RunicPowerGained"] = {
+					},
+					["CCBreak"] = 0,
+					["RageGained"] = {
+					},
+					["HealedWho"] = {
+					},
+					["EnergyGain"] = 0,
+					["ManaGained"] = {
+					},
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["Overhealing"] = 0,
+					["TimeSpent"] = {
+						["Kobold Miner"] = {
+							["Details"] = {
+								["Smite"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Diseased Young Wolf"] = {
+							["Details"] = {
+								["Smite"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Laborer"] = {
+							["Details"] = {
+								["Smite"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Tunneler"] = {
+							["Details"] = {
+								["Smite"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Forest Spider"] = {
+							["Details"] = {
+								["Shadow Word: Pain (DoT)"] = {
+									["count"] = 0,
+								},
+								["Smite"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Diseased Timber Wolf"] = {
+							["Details"] = {
+								["Smite"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Vermin"] = {
+							["Details"] = {
+								["Smite"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Defias Thug"] = {
+							["Details"] = {
+								["Smite"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["WhoDispelled"] = {
+					},
+					["InterruptData"] = {
+					},
+					["RunicPowerGain"] = 0,
+					["Heals"] = {
+					},
+					["WhoHealed"] = {
+					},
+					["EnergyGained"] = {
+					},
+					["ActiveTime"] = 0,
+					["Healing"] = 0,
+					["FDamagedWho"] = {
+					},
+					["Dispelled"] = 0,
+					["Attacks"] = {
+						["Shadow Word: Pain (DoT)"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Smite"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["HealingTaken"] = 0,
+					["RageGain"] = 0,
+					["TimeDamage"] = 0,
+					["TimeDamaging"] = {
+						["Kobold Miner"] = {
+							["Details"] = {
+								["Smite"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Diseased Young Wolf"] = {
+							["Details"] = {
+								["Smite"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Laborer"] = {
+							["Details"] = {
+								["Smite"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Tunneler"] = {
+							["Details"] = {
+								["Smite"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Forest Spider"] = {
+							["Details"] = {
+								["Shadow Word: Pain (DoT)"] = {
+									["count"] = 0,
+								},
+								["Smite"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Diseased Timber Wolf"] = {
+							["Details"] = {
+								["Smite"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Vermin"] = {
+							["Details"] = {
+								["Smite"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Defias Thug"] = {
+							["Details"] = {
+								["Smite"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ManaGain"] = 0,
+					["HOTs"] = {
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["Fight4"] = {
+					["DOTs"] = {
+						["Shadow Word: Pain (DoT)"] = {
+							["Details"] = {
+								["Kobold Miner"] = {
+									["count"] = 0,
+								},
+								["Kobold Tunneler"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ElementDoneResist"] = {
+						["Shadow"] = 0,
+						["Holy"] = 7,
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 122,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 2,
+								},
+								["Hit"] = {
+									["count"] = 16,
+								},
+							},
+							["amount"] = 18,
+						},
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["ElementHitsDone"] = {
+						["Holy"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 4,
+								},
+								["Hit"] = {
+									["count"] = 5,
+								},
+							},
+							["amount"] = 9,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Glancing"] = {
+									["count"] = 1,
+								},
+								["Hit"] = {
+									["count"] = 1,
+								},
+								["Dodge"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 3,
+						},
+						["Shadow"] = {
+							["Details"] = {
+								["Tick"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ElementTakenAbsorb"] = {
+					},
+					["ElementTaken"] = {
+						["Melee"] = 122,
+					},
+					["DOT_Time"] = 0,
+					["Damage"] = 87,
+					["ElementTakenBlock"] = {
+					},
+					["TimeHeal"] = 3.5,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["ElementDoneAbsorb"] = {
+					},
+					["FAttacks"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDone"] = {
+						["Holy"] = 76,
+						["Melee"] = 11,
+						["Shadow"] = 0,
+					},
+					["PartialAbsorb"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 18,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 18,
+							["amount"] = 0,
+						},
+					},
+					["DamagedWho"] = {
+						["Kobold Miner"] = {
+							["Details"] = {
+								["Shadow Word: Pain (DoT)"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 11,
+								},
+								["Smite"] = {
+									["count"] = 76,
+								},
+							},
+							["amount"] = 87,
+						},
+						["Kobold Tunneler"] = {
+							["Details"] = {
+								["Shadow Word: Pain (DoT)"] = {
+									["count"] = 0,
+								},
+								["Smite"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Laborer"] = {
+							["Details"] = {
+								["Smite"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["PartialBlock"] = {
+					},
+					["WhoDamaged"] = {
+						["Kobold Miner"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 122,
+								},
+							},
+							["amount"] = 122,
+						},
+						["Kobold Tunneler"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Laborer"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["PartialResist"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 18,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 18,
+							["amount"] = 0,
+						},
+					},
+					["CCBroken"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+						["Nohir"] = {
+							["Details"] = {
+								["Lesser Heal"] = {
+									["count"] = 3.5,
+								},
+							},
+							["amount"] = 3.5,
+						},
+					},
+					["OverHeals"] = {
+					},
+					["ManaGainedFrom"] = {
+					},
+					["RunicPowerGained"] = {
+					},
+					["CCBreak"] = 0,
+					["RageGained"] = {
+					},
+					["HealedWho"] = {
+						["Nohir"] = {
+							["Details"] = {
+								["Lesser Heal"] = {
+									["count"] = 84,
+								},
+							},
+							["amount"] = 84,
+						},
+					},
+					["EnergyGain"] = 0,
+					["ManaGained"] = {
+					},
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["Overhealing"] = 0,
+					["TimeSpent"] = {
+						["Kobold Miner"] = {
+							["Details"] = {
+								["Shadow Word: Pain (DoT)"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 8.33,
+								},
+								["Smite"] = {
+									["count"] = 21.46,
+								},
+							},
+							["amount"] = 29.79,
+						},
+						["Kobold Tunneler"] = {
+							["Details"] = {
+								["Shadow Word: Pain (DoT)"] = {
+									["count"] = 0,
+								},
+								["Smite"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Nohir"] = {
+							["Details"] = {
+								["Lesser Heal"] = {
+									["count"] = 3.5,
+								},
+							},
+							["amount"] = 3.5,
+						},
+						["Kobold Laborer"] = {
+							["Details"] = {
+								["Smite"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["WhoDispelled"] = {
+					},
+					["InterruptData"] = {
+					},
+					["RunicPowerGain"] = 0,
+					["Heals"] = {
+						["Lesser Heal"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 84,
+									["min"] = 84,
+									["count"] = 1,
+									["amount"] = 84,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 84,
+						},
+					},
+					["WhoHealed"] = {
+						["Nohir"] = {
+							["Details"] = {
+								["Lesser Heal"] = {
+									["count"] = 84,
+								},
+							},
+							["amount"] = 84,
+						},
+					},
+					["EnergyGained"] = {
+					},
+					["ActiveTime"] = 33.29,
+					["Healing"] = 84,
+					["FDamagedWho"] = {
+					},
+					["Dispelled"] = 0,
+					["Attacks"] = {
+						["Shadow Word: Pain (DoT)"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Glancing"] = {
+									["max"] = 4,
+									["min"] = 4,
+									["count"] = 1,
+									["amount"] = 4,
+								},
+								["Hit"] = {
+									["max"] = 7,
+									["min"] = 7,
+									["count"] = 1,
+									["amount"] = 7,
+								},
+								["Dodge"] = {
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 3,
+							["amount"] = 11,
+						},
+						["Smite"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 4,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 18,
+									["min"] = 0,
+									["count"] = 5,
+									["amount"] = 76,
+								},
+							},
+							["count"] = 9,
+							["amount"] = 76,
+						},
+					},
+					["HealingTaken"] = 84,
+					["RageGain"] = 0,
+					["TimeDamage"] = 29.79,
+					["TimeDamaging"] = {
+						["Kobold Miner"] = {
+							["Details"] = {
+								["Shadow Word: Pain (DoT)"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 8.33,
+								},
+								["Smite"] = {
+									["count"] = 21.46,
+								},
+							},
+							["amount"] = 29.79,
+						},
+						["Kobold Tunneler"] = {
+							["Details"] = {
+								["Shadow Word: Pain (DoT)"] = {
+									["count"] = 0,
+								},
+								["Smite"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Laborer"] = {
+							["Details"] = {
+								["Smite"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ManaGain"] = 0,
+					["HOTs"] = {
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["LastFightData"] = {
+					["DOTs"] = {
+						["Shadow Word: Pain (DoT)"] = {
+							["Details"] = {
+								["Forest Spider"] = {
+									["count"] = 0,
+								},
+								["Kobold Miner"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ElementDoneResist"] = {
+						["Holy"] = 0,
+						["Shadow"] = 0,
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 0,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+						["Physical"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Nature"] = {
+							["Details"] = {
+								["Tick"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["ElementHitsDone"] = {
+						["Shadow"] = {
+							["Details"] = {
+								["Tick"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Holy"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 0,
+								},
+								["Crit"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ElementTakenAbsorb"] = {
+					},
+					["ElementTaken"] = {
+						["Physical"] = 0,
+						["Melee"] = 0,
+						["Nature"] = 0,
+					},
+					["DOT_Time"] = 0,
+					["Damage"] = 0,
+					["ElementTakenBlock"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["ElementDoneAbsorb"] = {
+					},
+					["FAttacks"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDone"] = {
+						["Shadow"] = 0,
+						["Holy"] = 0,
+					},
+					["PartialAbsorb"] = {
+						["Falling"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Poison (DoT)"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["DamagedWho"] = {
+						["Diseased Young Wolf"] = {
+							["Details"] = {
+								["Smite"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Miner"] = {
+							["Details"] = {
+								["Shadow Word: Pain (DoT)"] = {
+									["count"] = 0,
+								},
+								["Smite"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Tunneler"] = {
+							["Details"] = {
+								["Smite"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Forest Spider"] = {
+							["Details"] = {
+								["Shadow Word: Pain (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Worker"] = {
+							["Details"] = {
+								["Smite"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Laborer"] = {
+							["Details"] = {
+								["Smite"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Defias Thug"] = {
+							["Details"] = {
+								["Smite"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["PartialBlock"] = {
+					},
+					["WhoDamaged"] = {
+						["Forest Spider"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Poison (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Diseased Young Wolf"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Environment"] = {
+							["Details"] = {
+								["Falling"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["PartialResist"] = {
+						["Falling"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Poison (DoT)"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["CCBroken"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+					},
+					["OverHeals"] = {
+					},
+					["ManaGainedFrom"] = {
+					},
+					["RunicPowerGained"] = {
+					},
+					["CCBreak"] = 0,
+					["RageGained"] = {
+					},
+					["HealedWho"] = {
+					},
+					["EnergyGain"] = 0,
+					["ManaGained"] = {
+					},
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["Overhealing"] = 0,
+					["TimeSpent"] = {
+						["Diseased Young Wolf"] = {
+							["Details"] = {
+								["Smite"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Miner"] = {
+							["Details"] = {
+								["Shadow Word: Pain (DoT)"] = {
+									["count"] = 0,
+								},
+								["Smite"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Tunneler"] = {
+							["Details"] = {
+								["Smite"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Forest Spider"] = {
+							["Details"] = {
+								["Shadow Word: Pain (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Worker"] = {
+							["Details"] = {
+								["Smite"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Laborer"] = {
+							["Details"] = {
+								["Smite"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Defias Thug"] = {
+							["Details"] = {
+								["Smite"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["WhoDispelled"] = {
+					},
+					["InterruptData"] = {
+					},
+					["RunicPowerGain"] = 0,
+					["Heals"] = {
+					},
+					["WhoHealed"] = {
+					},
+					["EnergyGained"] = {
+					},
+					["ActiveTime"] = 0,
+					["Healing"] = 0,
+					["FDamagedWho"] = {
+					},
+					["Dispelled"] = 0,
+					["Attacks"] = {
+						["Shadow Word: Pain (DoT)"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Smite"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["HealingTaken"] = 0,
+					["RageGain"] = 0,
+					["TimeDamage"] = 0,
+					["TimeDamaging"] = {
+						["Diseased Young Wolf"] = {
+							["Details"] = {
+								["Smite"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Miner"] = {
+							["Details"] = {
+								["Shadow Word: Pain (DoT)"] = {
+									["count"] = 0,
+								},
+								["Smite"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Tunneler"] = {
+							["Details"] = {
+								["Smite"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Forest Spider"] = {
+							["Details"] = {
+								["Shadow Word: Pain (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Worker"] = {
+							["Details"] = {
+								["Smite"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Laborer"] = {
+							["Details"] = {
+								["Smite"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Defias Thug"] = {
+							["Details"] = {
+								["Smite"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ManaGain"] = 0,
+					["HOTs"] = {
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["OverallData"] = {
+					["TimeHealing"] = {
+						["Nohir"] = {
+							["Details"] = {
+								["Lesser Heal"] = {
+									["count"] = 7,
+								},
+							},
+							["amount"] = 7,
+						},
+					},
+					["DOTs"] = {
+						["Shadow Word: Pain (DoT)"] = {
+							["Details"] = {
+								["Forest Spider"] = {
+									["count"] = 18,
+								},
+								["Kobold Miner"] = {
+									["count"] = 33,
+								},
+								["Kobold Tunneler"] = {
+									["count"] = 21,
+								},
+							},
+							["amount"] = 72,
+						},
+					},
+					["ElementDoneResist"] = {
+						["Shadow"] = 3,
+						["Holy"] = 73,
+					},
+					["TimeSpent"] = {
+						["Diseased Young Wolf"] = {
+							["Details"] = {
+								["Smite"] = {
+									["count"] = 35.41,
+								},
+							},
+							["amount"] = 35.41,
+						},
+						["Kobold Tunneler"] = {
+							["Details"] = {
+								["Shadow Word: Pain (DoT)"] = {
+									["count"] = 10.41,
+								},
+								["Smite"] = {
+									["count"] = 90.31000000000002,
+								},
+							},
+							["amount"] = 100.72,
+						},
+						["Forest Spider"] = {
+							["Details"] = {
+								["Shadow Word: Pain (DoT)"] = {
+									["count"] = 17.23,
+								},
+								["Smite"] = {
+									["count"] = 4.609999999999999,
+								},
+							},
+							["amount"] = 21.84,
+						},
+						["Garrick Padfoot"] = {
+							["Details"] = {
+								["Smite"] = {
+									["count"] = 6.69,
+								},
+							},
+							["amount"] = 6.69,
+						},
+						["Kobold Laborer"] = {
+							["Details"] = {
+								["Smite"] = {
+									["count"] = 54.68,
+								},
+							},
+							["amount"] = 54.68,
+						},
+						["Nohir"] = {
+							["Details"] = {
+								["Lesser Heal"] = {
+									["count"] = 7,
+								},
+							},
+							["amount"] = 7,
+						},
+						["Defias Thug"] = {
+							["Details"] = {
+								["Smite"] = {
+									["count"] = 91.71000000000001,
+								},
+							},
+							["amount"] = 91.71000000000001,
+						},
+						["Kobold Miner"] = {
+							["Details"] = {
+								["Shadow Word: Pain (DoT)"] = {
+									["count"] = 20.59,
+								},
+								["Shadow Word: Pain"] = {
+									["count"] = 3.5,
+								},
+								["Melee"] = {
+									["count"] = 8.33,
+								},
+								["Smite"] = {
+									["count"] = 64.54000000000001,
+								},
+							},
+							["amount"] = 96.95999999999999,
+						},
+						["Kobold Worker"] = {
+							["Details"] = {
+								["Smite"] = {
+									["count"] = 54.42000000000002,
+								},
+							},
+							["amount"] = 54.42000000000002,
+						},
+						["Diseased Timber Wolf"] = {
+							["Details"] = {
+								["Smite"] = {
+									["count"] = 20.69,
+								},
+							},
+							["amount"] = 20.69,
+						},
+						["Kobold Vermin"] = {
+							["Details"] = {
+								["Smite"] = {
+									["count"] = 30.21,
+								},
+							},
+							["amount"] = 30.21,
+						},
+					},
+					["DamageTaken"] = 415,
+					["PartialResist"] = {
+						["Falling"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 109,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 109,
+							["amount"] = 0,
+						},
+						["Poison (DoT)"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 5,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 5,
+							["amount"] = 0,
+						},
+					},
+					["PartialAbsorb"] = {
+						["Falling"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 109,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 109,
+							["amount"] = 0,
+						},
+						["Poison (DoT)"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 5,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 5,
+							["amount"] = 0,
+						},
+					},
+					["ActiveTime"] = 520.3300000000002,
+					["ElementTaken"] = {
+						["Physical"] = 7,
+						["Melee"] = 394,
+						["Nature"] = 14,
+					},
+					["DOT_Time"] = 72,
+					["Damage"] = 3089,
+					["OverHeals"] = {
+						["Lesser Heal"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 13,
+									["min"] = 13,
+									["count"] = 1,
+									["amount"] = 13,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 13,
+						},
+					},
+					["TimeHeal"] = 7,
+					["Overhealing"] = 13,
+					["WhoHealed"] = {
+						["Nohir"] = {
+							["Details"] = {
+								["Lesser Heal"] = {
+									["count"] = 146,
+								},
+							},
+							["amount"] = 146,
+						},
+					},
+					["Attacks"] = {
+						["Shadow Word: Pain (DoT)"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 5,
+									["min"] = 4,
+									["count"] = 24,
+									["amount"] = 117,
+								},
+							},
+							["count"] = 24,
+							["amount"] = 117,
+						},
+						["Shadow Word: Pain"] = {
+							["Details"] = {
+								["Evade"] = {
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Glancing"] = {
+									["max"] = 4,
+									["min"] = 4,
+									["count"] = 1,
+									["amount"] = 4,
+								},
+								["Hit"] = {
+									["max"] = 7,
+									["min"] = 7,
+									["count"] = 1,
+									["amount"] = 7,
+								},
+								["Dodge"] = {
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 3,
+							["amount"] = 11,
+						},
+						["Smite"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 19,
+									["amount"] = 0,
+								},
+								["Crit"] = {
+									["max"] = 25,
+									["min"] = 21,
+									["count"] = 7,
+									["amount"] = 160,
+								},
+								["Hit"] = {
+									["max"] = 19,
+									["min"] = 12,
+									["count"] = 177,
+									["amount"] = 2801,
+								},
+							},
+							["count"] = 203,
+							["amount"] = 2961,
+						},
+					},
+					["Healing"] = 146,
+					["HealedWho"] = {
+						["Nohir"] = {
+							["Details"] = {
+								["Lesser Heal"] = {
+									["count"] = 146,
+								},
+							},
+							["amount"] = 146,
+						},
+					},
+					["Heals"] = {
+						["Lesser Heal"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 84,
+									["min"] = 62,
+									["count"] = 2,
+									["amount"] = 146,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 146,
+						},
+					},
+					["ElementDone"] = {
+						["Holy"] = 2961,
+						["Melee"] = 11,
+						["Shadow"] = 117,
+					},
+					["HealingTaken"] = 146,
+					["DamagedWho"] = {
+						["Diseased Young Wolf"] = {
+							["Details"] = {
+								["Smite"] = {
+									["count"] = 213,
+								},
+							},
+							["amount"] = 213,
+						},
+						["Kobold Tunneler"] = {
+							["Details"] = {
+								["Shadow Word: Pain (DoT)"] = {
+									["count"] = 34,
+								},
+								["Smite"] = {
+									["count"] = 650,
+								},
+							},
+							["amount"] = 684,
+						},
+						["Forest Spider"] = {
+							["Details"] = {
+								["Shadow Word: Pain (DoT)"] = {
+									["count"] = 29,
+								},
+								["Smite"] = {
+									["count"] = 60,
+								},
+							},
+							["amount"] = 89,
+						},
+						["Garrick Padfoot"] = {
+							["Details"] = {
+								["Smite"] = {
+									["count"] = 55,
+								},
+							},
+							["amount"] = 55,
+						},
+						["Kobold Laborer"] = {
+							["Details"] = {
+								["Smite"] = {
+									["count"] = 322,
+								},
+							},
+							["amount"] = 322,
+						},
+						["Defias Thug"] = {
+							["Details"] = {
+								["Smite"] = {
+									["count"] = 597,
+								},
+							},
+							["amount"] = 597,
+						},
+						["Kobold Miner"] = {
+							["Details"] = {
+								["Shadow Word: Pain (DoT)"] = {
+									["count"] = 54,
+								},
+								["Melee"] = {
+									["count"] = 11,
+								},
+								["Smite"] = {
+									["count"] = 366,
+								},
+							},
+							["amount"] = 431,
+						},
+						["Kobold Worker"] = {
+							["Details"] = {
+								["Smite"] = {
+									["count"] = 354,
+								},
+							},
+							["amount"] = 354,
+						},
+						["Diseased Timber Wolf"] = {
+							["Details"] = {
+								["Smite"] = {
+									["count"] = 140,
+								},
+							},
+							["amount"] = 140,
+						},
+						["Kobold Vermin"] = {
+							["Details"] = {
+								["Smite"] = {
+									["count"] = 204,
+								},
+							},
+							["amount"] = 204,
+						},
+					},
+					["TimeDamage"] = 513.3300000000003,
+					["TimeDamaging"] = {
+						["Diseased Young Wolf"] = {
+							["Details"] = {
+								["Smite"] = {
+									["count"] = 35.41,
+								},
+							},
+							["amount"] = 35.41,
+						},
+						["Kobold Tunneler"] = {
+							["Details"] = {
+								["Shadow Word: Pain (DoT)"] = {
+									["count"] = 10.41,
+								},
+								["Smite"] = {
+									["count"] = 90.31000000000002,
+								},
+							},
+							["amount"] = 100.72,
+						},
+						["Forest Spider"] = {
+							["Details"] = {
+								["Shadow Word: Pain (DoT)"] = {
+									["count"] = 17.23,
+								},
+								["Smite"] = {
+									["count"] = 4.609999999999999,
+								},
+							},
+							["amount"] = 21.84,
+						},
+						["Garrick Padfoot"] = {
+							["Details"] = {
+								["Smite"] = {
+									["count"] = 6.69,
+								},
+							},
+							["amount"] = 6.69,
+						},
+						["Kobold Laborer"] = {
+							["Details"] = {
+								["Smite"] = {
+									["count"] = 54.68,
+								},
+							},
+							["amount"] = 54.68,
+						},
+						["Defias Thug"] = {
+							["Details"] = {
+								["Smite"] = {
+									["count"] = 91.71000000000001,
+								},
+							},
+							["amount"] = 91.71000000000001,
+						},
+						["Kobold Miner"] = {
+							["Details"] = {
+								["Shadow Word: Pain (DoT)"] = {
+									["count"] = 20.59,
+								},
+								["Shadow Word: Pain"] = {
+									["count"] = 3.5,
+								},
+								["Melee"] = {
+									["count"] = 8.33,
+								},
+								["Smite"] = {
+									["count"] = 64.54000000000001,
+								},
+							},
+							["amount"] = 96.95999999999999,
+						},
+						["Kobold Worker"] = {
+							["Details"] = {
+								["Smite"] = {
+									["count"] = 54.42000000000002,
+								},
+							},
+							["amount"] = 54.42000000000002,
+						},
+						["Diseased Timber Wolf"] = {
+							["Details"] = {
+								["Smite"] = {
+									["count"] = 20.69,
+								},
+							},
+							["amount"] = 20.69,
+						},
+						["Kobold Vermin"] = {
+							["Details"] = {
+								["Smite"] = {
+									["count"] = 30.21,
+								},
+							},
+							["amount"] = 30.21,
+						},
+					},
+					["ElementHitsTaken"] = {
+						["Physical"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 1,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Dodge"] = {
+									["count"] = 1,
+								},
+								["Miss"] = {
+									["count"] = 5,
+								},
+								["Crit"] = {
+									["count"] = 10,
+								},
+								["Hit"] = {
+									["count"] = 93,
+								},
+							},
+							["amount"] = 109,
+						},
+						["Nature"] = {
+							["Details"] = {
+								["Tick"] = {
+									["count"] = 5,
+								},
+							},
+							["amount"] = 5,
+						},
+					},
+					["WhoDamaged"] = {
+						["Diseased Young Wolf"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 2,
+								},
+							},
+							["amount"] = 2,
+						},
+						["Kobold Tunneler"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 196,
+								},
+							},
+							["amount"] = 196,
+						},
+						["Forest Spider"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 6,
+								},
+								["Poison (DoT)"] = {
+									["count"] = 14,
+								},
+							},
+							["amount"] = 20,
+						},
+						["Kobold Laborer"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 20,
+								},
+							},
+							["amount"] = 20,
+						},
+						["Defias Thug"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 27,
+								},
+							},
+							["amount"] = 27,
+						},
+						["Environment"] = {
+							["Details"] = {
+								["Falling"] = {
+									["count"] = 7,
+								},
+							},
+							["amount"] = 7,
+						},
+						["Kobold Miner"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 122,
+								},
+							},
+							["amount"] = 122,
+						},
+						["Kobold Worker"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 14,
+								},
+							},
+							["amount"] = 14,
+						},
+						["Diseased Timber Wolf"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 1,
+						},
+						["Kobold Vermin"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 6,
+								},
+							},
+							["amount"] = 6,
+						},
+					},
+					["ElementHitsDone"] = {
+						["Holy"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 19,
+								},
+								["Crit"] = {
+									["count"] = 7,
+								},
+								["Hit"] = {
+									["count"] = 177,
+								},
+							},
+							["amount"] = 203,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Glancing"] = {
+									["count"] = 1,
+								},
+								["Hit"] = {
+									["count"] = 1,
+								},
+								["Dodge"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 3,
+						},
+						["Shadow"] = {
+							["Details"] = {
+								["Evade"] = {
+									["count"] = 1,
+								},
+								["Tick"] = {
+									["count"] = 24,
+								},
+							},
+							["amount"] = 25,
+						},
+					},
+				},
+			},
+			["UnitLockout"] = 1689081992,
+			["LastActive"] = 1689084023,
+		},
+		["Sculatru"] = {
+			["GUID"] = "0x0700000000972669",
+			["LastEventHealth"] = {
+				"55 (43%)", -- [1]
+				"47 (37%)", -- [2]
+				"47 (37%)", -- [3]
+				"63 (49%)", -- [4]
+				"63 (49%)", -- [5]
+				"63 (49%)", -- [6]
+				"63 (49%)", -- [7]
+				"63 (49%)", -- [8]
+				"63 (49%)", -- [9]
+				"63 (49%)", -- [10]
+				"63 (49%)", -- [11]
+				"108 (85%)", -- [12]
+				"108 (85%)", -- [13]
+				"108 (85%)", -- [14]
+				"108 (85%)", -- [15]
+				"108 (85%)", -- [16]
+				"102 (80%)", -- [17]
+				"102 (80%)", -- [18]
+				"97 (76%)", -- [19]
+				"97 (76%)", -- [20]
+				"127 (100%)", -- [21]
+				"127 (100%)", -- [22]
+				"127 (100%)", -- [23]
+				"127 (100%)", -- [24]
+				"127 (100%)", -- [25]
+				"127 (100%)", -- [26]
+				"127 (100%)", -- [27]
+				"127 (100%)", -- [28]
+				"127 (100%)", -- [29]
+				"127 (100%)", -- [30]
+				"127 (100%)", -- [31]
+				"127 (100%)", -- [32]
+				"127 (100%)", -- [33]
+				"127 (100%)", -- [34]
+				"166 (86%)", -- [35]
+				"192 (100%)", -- [36]
+				"192 (100%)", -- [37]
+				"192 (100%)", -- [38]
+				"192 (100%)", -- [39]
+				"87 (68%)", -- [40]
+				"87 (68%)", -- [41]
+				"71 (55%)", -- [42]
+				"71 (55%)", -- [43]
+				"71 (55%)", -- [44]
+				"63 (49%)", -- [45]
+				"63 (49%)", -- [46]
+				"63 (49%)", -- [47]
+				"63 (49%)", -- [48]
+				"55 (43%)", -- [49]
+				"55 (43%)", -- [50]
+			},
+			["LastAttackedBy"] = "Defias Cutpurse",
+			["LastEventType"] = {
+				"DAMAGE", -- [1]
+				"DAMAGE", -- [2]
+				"DAMAGE", -- [3]
+				"DAMAGE", -- [4]
+				"DAMAGE", -- [5]
+				"DAMAGE", -- [6]
+				"DAMAGE", -- [7]
+				"DAMAGE", -- [8]
+				"DAMAGE", -- [9]
+				"DAMAGE", -- [10]
+				"DAMAGE", -- [11]
+				"DAMAGE", -- [12]
+				"DAMAGE", -- [13]
+				"DAMAGE", -- [14]
+				"DAMAGE", -- [15]
+				"DAMAGE", -- [16]
+				"DAMAGE", -- [17]
+				"DAMAGE", -- [18]
+				"DAMAGE", -- [19]
+				"DAMAGE", -- [20]
+				"HEAL", -- [21]
+				"DAMAGE", -- [22]
+				"DAMAGE", -- [23]
+				"DAMAGE", -- [24]
+				"DAMAGE", -- [25]
+				"DAMAGE", -- [26]
+				"DAMAGE", -- [27]
+				"DAMAGE", -- [28]
+				"DAMAGE", -- [29]
+				"DAMAGE", -- [30]
+				"DAMAGE", -- [31]
+				"DAMAGE", -- [32]
+				"DAMAGE", -- [33]
+				"DAMAGE", -- [34]
+				"HEAL", -- [35]
+				"HEAL", -- [36]
+				"HEAL", -- [37]
+				"HEAL", -- [38]
+				"HEAL", -- [39]
+				"DAMAGE", -- [40]
+				"DAMAGE", -- [41]
+				"DAMAGE", -- [42]
+				"DAMAGE", -- [43]
+				"DAMAGE", -- [44]
+				"DAMAGE", -- [45]
+				"DAMAGE", -- [46]
+				"DAMAGE", -- [47]
+				"DAMAGE", -- [48]
+				"DAMAGE", -- [49]
+				"DAMAGE", -- [50]
+			},
+			["TimeWindows"] = {
+				["ActiveTime"] = {
+					605.5499999999998, -- [1]
+				},
+				["DamageTaken"] = {
+					475, -- [1]
+				},
+				["TimeDamage"] = {
+					605.5499999999998, -- [1]
+				},
+				["DOT_Time"] = {
+					68, -- [1]
+				},
+				["Damage"] = {
+					4247, -- [1]
+				},
+			},
+			["enClass"] = "MAGE",
+			["unit"] = "Sculatru",
+			["level"] = 2,
+			["LastDamageAbility"] = "Melee",
+			["LastFightIn"] = 60,
+			["LastEventNum"] = {
+				6.299212598425197, -- [1]
+				[34] = 3.937007874015748,
+				[36] = 11.97916666666667,
+				[38] = 11.97916666666667,
+				[3] = 5.511811023622047,
+				[35] = 11.97916666666667,
+				[44] = 6.299212598425197,
+				[16] = 4.724409448818897,
+				[48] = 6.299212598425197,
+				[18] = 3.937007874015748,
+				[37] = 11.97916666666667,
+				[39] = 11.97916666666667,
+				[21] = 66.14173228346456,
+				[41] = 12.59842519685039,
+			},
+			["type"] = "Self",
+			["FightsSaved"] = 5,
+			["LastDamageTaken"] = 5,
+			["TimeLast"] = {
+				["DamageTaken"] = 1689084209,
+				["ActiveTime"] = 1689084024,
+				["TimeDamage"] = 1689084024,
+				["OVERALL"] = 1689084209,
+				["DOT_Time"] = 1689084012,
+				["Damage"] = 1689084024,
+			},
+			["Owner"] = false,
+			["LastAbility"] = 13025.904,
+			["NextEventNum"] = 40,
+			["LastEventHealthNum"] = {
+				43.30708661417323, -- [1]
+				37.00787401574803, -- [2]
+				37.00787401574803, -- [3]
+				49.60629921259842, -- [4]
+				49.60629921259842, -- [5]
+				49.60629921259842, -- [6]
+				49.60629921259842, -- [7]
+				49.60629921259842, -- [8]
+				49.60629921259842, -- [9]
+				49.60629921259842, -- [10]
+				49.60629921259842, -- [11]
+				85.03937007874016, -- [12]
+				85.03937007874016, -- [13]
+				85.03937007874016, -- [14]
+				85.03937007874016, -- [15]
+				85.03937007874016, -- [16]
+				80.31496062992126, -- [17]
+				80.31496062992126, -- [18]
+				76.37795275590551, -- [19]
+				76.37795275590551, -- [20]
+				100, -- [21]
+				100, -- [22]
+				100, -- [23]
+				100, -- [24]
+				100, -- [25]
+				100, -- [26]
+				100, -- [27]
+				100, -- [28]
+				100, -- [29]
+				100, -- [30]
+				100, -- [31]
+				100, -- [32]
+				100, -- [33]
+				100, -- [34]
+				86.45833333333333, -- [35]
+				100, -- [36]
+				100, -- [37]
+				100, -- [38]
+				100, -- [39]
+				68.50393700787402, -- [40]
+				68.50393700787402, -- [41]
+				55.90551181102362, -- [42]
+				55.90551181102362, -- [43]
+				55.90551181102362, -- [44]
+				49.60629921259842, -- [45]
+				49.60629921259842, -- [46]
+				49.60629921259842, -- [47]
+				49.60629921259842, -- [48]
+				43.30708661417323, -- [49]
+				43.30708661417323, -- [50]
+			},
+			["LastEvents"] = {
+				"Kobold Miner Melee Sculatru Hit -8 (Physical)", -- [1]
+				"Sculatru Fireball Kobold Miner Hit -14 (9 resisted) (Fire)", -- [2]
+				"Kobold Miner Melee Sculatru Hit -7 (Physical)", -- [3]
+				"Sculatru Frostbolt Kobold Miner Hit -17 (1 resisted) (Frost)", -- [4]
+				"Sculatru Frostbolt Kobold Miner Miss (Frost)", -- [5]
+				"Sculatru Frostbolt Kobold Miner Hit -17 (1 resisted) (Frost)", -- [6]
+				"Sculatru Frostbolt Kobold Miner Hit -15 (3 resisted) (Frost)", -- [7]
+				"Sculatru Frostbolt Kobold Miner Miss (Frost)", -- [8]
+				"Sculatru Frostbolt Kobold Miner Hit -18 (2 resisted) (Frost)", -- [9]
+				"Sculatru Frostbolt Kobold Miner Hit -17 (1 resisted) (Frost)", -- [10]
+				"Sculatru Frostbolt Kobold Miner Hit -20 (Frost)", -- [11]
+				"Sculatru Frostbolt Kobold Miner Hit -18 (1 resisted) (Frost)", -- [12]
+				"Sculatru Frostbolt Kobold Miner Hit -19 (Frost)", -- [13]
+				"Sculatru Frostbolt Kobold Miner Hit -18 (1 resisted) (Frost)", -- [14]
+				"Sculatru Frostbolt Kobold Miner Hit -19 (Frost)", -- [15]
+				"Kobold Miner Melee Sculatru Hit -6 (Physical)", -- [16]
+				"Sculatru Frostbolt Kobold Miner Hit -20 (Frost)", -- [17]
+				"Kobold Miner Melee Sculatru Hit -5 (Physical)", -- [18]
+				"Sculatru Frostbolt Kobold Miner Hit -16 (3 resisted) (Frost)", -- [19]
+				"Sculatru Frostbolt Kobold Miner Hit -19 (Frost)", -- [20]
+				"Nohir Lesser Heal Sculatru Hit +84 (65 overheal)", -- [21]
+				"Sculatru Melee Kobold Tunneler Parry", -- [22]
+				"Sculatru Melee Kobold Tunneler Hit -6 (Physical)", -- [23]
+				"Sculatru Fireball Kobold Tunneler Hit -10 (6 resisted) (Fire)", -- [24]
+				"Sculatru Fireball (DoT) Kobold Tunneler Tick -1 (Fire)", -- [25]
+				"Sculatru Fireball Kobold Tunneler Hit -9 (8 resisted) (Fire)", -- [26]
+				"Sculatru Fireball Kobold Tunneler Hit -14 (8 resisted) (Fire)", -- [27]
+				"Sculatru Fireball Kobold Tunneler Hit -10 (9 resisted) (Fire)", -- [28]
+				"Sculatru Fireball Kobold Tunneler Hit -14 (8 resisted) (Fire)", -- [29]
+				"Sculatru Fireball Kobold Tunneler Hit -11 (11 resisted) (Fire)", -- [30]
+				"Sculatru Fireball Kobold Tunneler Hit -8 (12 resisted) (Fire)", -- [31]
+				"Sculatru Fireball Kobold Tunneler Hit -14 (9 resisted) (Fire)", -- [32]
+				"Sculatru Fireball Kobold Tunneler Hit -11 (11 resisted) (Fire)", -- [33]
+				"Defias Cutpurse Melee Sculatru Hit -5 (Physical)", -- [34]
+				"Salems Renew Sculatru Tick +23", -- [35]
+				"Salems Renew Sculatru Tick +23 (7 overheal)", -- [36]
+				"Salems Renew Sculatru Tick +23 (23 overheal)", -- [37]
+				"Salems Renew Sculatru Tick +23 (23 overheal)", -- [38]
+				"Salems Renew Sculatru Tick +23 (23 overheal)", -- [39]
+				"Sculatru Fireball Kobold Miner Miss (Fire)", -- [40]
+				"Kobold Miner Melee Sculatru Crit -16 (Physical)", -- [41]
+				"Sculatru Fireball Kobold Miner Hit -16 (6 resisted) (Fire)", -- [42]
+				"Sculatru Chilled Kobold Miner Miss (Frost)", -- [43]
+				"Kobold Miner Melee Sculatru Hit -8 (Physical)", -- [44]
+				"Sculatru Fireball (DoT) Kobold Miner Tick -1 (Fire)", -- [45]
+				"Sculatru Fireball Kobold Miner Miss (Fire)", -- [46]
+				"Sculatru Fireball Kobold Miner Hit -7 (9 resisted) (Fire)", -- [47]
+				"Kobold Miner Melee Sculatru Hit -8 (Physical)", -- [48]
+				"Sculatru Fireball (DoT) Kobold Miner Tick -1 (Fire)", -- [49]
+				"Sculatru Fireball Kobold Miner Miss (Fire)", -- [50]
+			},
+			["Name"] = "Sculatru",
+			["LastEventIncoming"] = {
+				true, -- [1]
+				false, -- [2]
+				true, -- [3]
+				false, -- [4]
+				false, -- [5]
+				false, -- [6]
+				false, -- [7]
+				false, -- [8]
+				false, -- [9]
+				false, -- [10]
+				false, -- [11]
+				false, -- [12]
+				false, -- [13]
+				false, -- [14]
+				false, -- [15]
+				true, -- [16]
+				false, -- [17]
+				true, -- [18]
+				false, -- [19]
+				false, -- [20]
+				true, -- [21]
+				false, -- [22]
+				false, -- [23]
+				false, -- [24]
+				false, -- [25]
+				false, -- [26]
+				false, -- [27]
+				false, -- [28]
+				false, -- [29]
+				false, -- [30]
+				false, -- [31]
+				false, -- [32]
+				false, -- [33]
+				true, -- [34]
+				true, -- [35]
+				true, -- [36]
+				true, -- [37]
+				true, -- [38]
+				true, -- [39]
+				false, -- [40]
+				true, -- [41]
+				false, -- [42]
+				false, -- [43]
+				true, -- [44]
+				false, -- [45]
+				false, -- [46]
+				false, -- [47]
+				true, -- [48]
+				false, -- [49]
+				false, -- [50]
+			},
+			["LastEventTimes"] = {
+				12908.738, -- [1]
+				12910.021, -- [2]
+				12911.255, -- [3]
+				12914.629, -- [4]
+				12916.721, -- [5]
+				12919.346, -- [6]
+				12920.946, -- [7]
+				12922.98, -- [8]
+				12924.062, -- [9]
+				12925.621, -- [10]
+				12927.03, -- [11]
+				12936.871, -- [12]
+				12938.596, -- [13]
+				12940.171, -- [14]
+				12941.612, -- [15]
+				12941.905, -- [16]
+				12943.612, -- [17]
+				12944.421, -- [18]
+				12945.662, -- [19]
+				12947.18, -- [20]
+				12950.67, -- [21]
+				13004.203, -- [22]
+				13007.053, -- [23]
+				13010.878, -- [24]
+				13012.936, -- [25]
+				13013.953, -- [26]
+				13015.694, -- [27]
+				13017.312, -- [28]
+				13019.594, -- [29]
+				13021.128, -- [30]
+				13022.819, -- [31]
+				13024.419, -- [32]
+				13025.904, -- [33]
+				13210.384, -- [34]
+				13885.818, -- [35]
+				13888.835, -- [36]
+				13891.86, -- [37]
+				13894.835, -- [38]
+				13897.827, -- [39]
+				12900.88, -- [40]
+				12901.238, -- [41]
+				12902.571, -- [42]
+				12903.762, -- [43]
+				12903.763, -- [44]
+				12904.562, -- [45]
+				12904.938, -- [46]
+				12906.104, -- [47]
+				12906.255, -- [48]
+				12908.154, -- [49]
+				12908.38, -- [50]
+			},
+			["Fights"] = {
+				["Fight2"] = {
+					["DOTs"] = {
+						["Fireball (DoT)"] = {
+							["Details"] = {
+								["Kobold Worker"] = {
+									["count"] = 0,
+								},
+								["Kobold Tunneler"] = {
+									["count"] = 2,
+								},
+								["Defias Thug"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 2,
+						},
+					},
+					["ElementDoneResist"] = {
+						["Frost"] = 0,
+						["Fire"] = 82,
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 0,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["ElementHitsDone"] = {
+						["Fire"] = {
+							["Details"] = {
+								["Tick"] = {
+									["count"] = 1,
+								},
+								["Crit"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 9,
+								},
+							},
+							["amount"] = 10,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Parry"] = {
+									["count"] = 1,
+								},
+								["Crit"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 2,
+						},
+						["Frost"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 0,
+								},
+								["Crit"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ElementTakenAbsorb"] = {
+					},
+					["ElementTaken"] = {
+						["Melee"] = 0,
+					},
+					["DOT_Time"] = 2,
+					["Damage"] = 108,
+					["ElementTakenBlock"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["ElementDoneAbsorb"] = {
+					},
+					["FAttacks"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDone"] = {
+						["Fire"] = 102,
+						["Melee"] = 6,
+						["Frost"] = 0,
+					},
+					["PartialAbsorb"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["DamagedWho"] = {
+						["Diseased Young Wolf"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Laborer"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Fireball"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Tunneler"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 101,
+								},
+								["Frostbolt"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 6,
+								},
+								["Fireball (DoT)"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 108,
+						},
+						["Kobold Miner"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Frostbolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Diseased Timber Wolf"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Worker"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Fireball (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Defias Thug"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Fireball (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["PartialBlock"] = {
+					},
+					["WhoDamaged"] = {
+						["Kobold Tunneler"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Miner"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Worker"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Laborer"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Defias Thug"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["PartialResist"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["CCBroken"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+					},
+					["OverHeals"] = {
+					},
+					["ManaGainedFrom"] = {
+					},
+					["RunicPowerGained"] = {
+					},
+					["CCBreak"] = 0,
+					["RageGained"] = {
+					},
+					["HealedWho"] = {
+					},
+					["EnergyGain"] = 0,
+					["ManaGained"] = {
+					},
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["Overhealing"] = 0,
+					["TimeSpent"] = {
+						["Diseased Young Wolf"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Laborer"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Fireball"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Tunneler"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 16.47,
+								},
+								["Frostbolt"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 6.35,
+								},
+								["Fireball (DoT)"] = {
+									["count"] = 2.06,
+								},
+							},
+							["amount"] = 24.88,
+						},
+						["Kobold Miner"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Frostbolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Diseased Timber Wolf"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Worker"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Fireball (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Defias Thug"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Fireball (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["WhoDispelled"] = {
+					},
+					["InterruptData"] = {
+					},
+					["RunicPowerGain"] = 0,
+					["Heals"] = {
+					},
+					["WhoHealed"] = {
+					},
+					["EnergyGained"] = {
+					},
+					["ActiveTime"] = 24.88,
+					["Healing"] = 0,
+					["FDamagedWho"] = {
+					},
+					["Dispelled"] = 0,
+					["Attacks"] = {
+						["Fireball"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 14,
+									["min"] = 0,
+									["count"] = 9,
+									["amount"] = 101,
+								},
+							},
+							["count"] = 9,
+							["amount"] = 101,
+						},
+						["Frostbolt"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Parry"] = {
+									["count"] = 1,
+									["amount"] = 0,
+								},
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 6,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 6,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 6,
+						},
+						["Fireball (DoT)"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 1,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 1,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 1,
+						},
+					},
+					["HealingTaken"] = 0,
+					["RageGain"] = 0,
+					["TimeDamage"] = 24.88,
+					["TimeDamaging"] = {
+						["Diseased Young Wolf"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Laborer"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Fireball"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Tunneler"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 16.47,
+								},
+								["Frostbolt"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 6.35,
+								},
+								["Fireball (DoT)"] = {
+									["count"] = 2.06,
+								},
+							},
+							["amount"] = 24.88,
+						},
+						["Kobold Miner"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Frostbolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Diseased Timber Wolf"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Worker"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Fireball (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Defias Thug"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Fireball (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ManaGain"] = 0,
+					["HOTs"] = {
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["Fight5"] = {
+					["DOTs"] = {
+						["Fireball (DoT)"] = {
+							["Details"] = {
+								["Kobold Tunneler"] = {
+									["count"] = 0,
+								},
+								["Defias Thug"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ElementDoneResist"] = {
+						["Frost"] = 7,
+						["Fire"] = 0,
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 66,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 0,
+								},
+								["Crit"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 10,
+								},
+							},
+							["amount"] = 10,
+						},
+						["Nature"] = {
+							["Details"] = {
+								["Tick"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["ElementHitsDone"] = {
+						["Fire"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 0,
+								},
+								["Tick"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Glancing"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Frost"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 5,
+								},
+								["Crit"] = {
+									["count"] = 1,
+								},
+								["Hit"] = {
+									["count"] = 6,
+								},
+							},
+							["amount"] = 12,
+						},
+					},
+					["ElementTakenAbsorb"] = {
+					},
+					["ElementTaken"] = {
+						["Melee"] = 66,
+						["Nature"] = 0,
+					},
+					["DOT_Time"] = 0,
+					["Damage"] = 133,
+					["ElementTakenBlock"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["ElementDoneAbsorb"] = {
+					},
+					["FAttacks"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDone"] = {
+						["Fire"] = 0,
+						["Melee"] = 0,
+						["Frost"] = 133,
+					},
+					["PartialAbsorb"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 10,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 10,
+							["amount"] = 0,
+						},
+						["Poison (DoT)"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["DamagedWho"] = {
+						["Kobold Worker"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Diseased Young Wolf"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Laborer"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Tunneler"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+								["Frostbolt"] = {
+									["count"] = 38,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Fireball (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 38,
+						},
+						["Kobold Miner"] = {
+							["Details"] = {
+								["Frostbolt"] = {
+									["count"] = 95,
+								},
+							},
+							["amount"] = 95,
+						},
+						["Diseased Timber Wolf"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Defias Thug"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Fireball (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Vermin"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["PartialBlock"] = {
+					},
+					["WhoDamaged"] = {
+						["Kobold Miner"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 59,
+								},
+							},
+							["amount"] = 59,
+						},
+						["Kobold Tunneler"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 7,
+								},
+							},
+							["amount"] = 7,
+						},
+						["Forest Spider"] = {
+							["Details"] = {
+								["Poison (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Worker"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Defias Thug"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Vermin"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["PartialResist"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 10,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 10,
+							["amount"] = 0,
+						},
+						["Poison (DoT)"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["CCBroken"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+					},
+					["OverHeals"] = {
+					},
+					["ManaGainedFrom"] = {
+					},
+					["RunicPowerGained"] = {
+					},
+					["CCBreak"] = 0,
+					["RageGained"] = {
+					},
+					["HealedWho"] = {
+					},
+					["EnergyGain"] = 0,
+					["ManaGained"] = {
+					},
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["Overhealing"] = 0,
+					["TimeSpent"] = {
+						["Kobold Worker"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Diseased Young Wolf"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Laborer"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Tunneler"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Fireball (DoT)"] = {
+									["count"] = 0,
+								},
+								["Frostbolt"] = {
+									["count"] = 6.65,
+								},
+								["Chilled"] = {
+									["count"] = 0.55,
+								},
+							},
+							["amount"] = 7.199999999999999,
+						},
+						["Kobold Miner"] = {
+							["Details"] = {
+								["Chilled"] = {
+									["count"] = 0.77,
+								},
+								["Frostbolt"] = {
+									["count"] = 13.68,
+								},
+							},
+							["amount"] = 14.45,
+						},
+						["Diseased Timber Wolf"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Defias Thug"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Fireball (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Vermin"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["WhoDispelled"] = {
+					},
+					["InterruptData"] = {
+					},
+					["RunicPowerGain"] = 0,
+					["Heals"] = {
+					},
+					["WhoHealed"] = {
+					},
+					["EnergyGained"] = {
+					},
+					["ActiveTime"] = 21.65,
+					["Healing"] = 0,
+					["FDamagedWho"] = {
+					},
+					["Dispelled"] = 0,
+					["Attacks"] = {
+						["Fireball"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Glancing"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Fireball (DoT)"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Frostbolt"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 3,
+									["amount"] = 0,
+								},
+								["Crit"] = {
+									["max"] = 22,
+									["min"] = 22,
+									["count"] = 1,
+									["amount"] = 22,
+								},
+								["Hit"] = {
+									["max"] = 20,
+									["min"] = 0,
+									["count"] = 6,
+									["amount"] = 111,
+								},
+							},
+							["count"] = 10,
+							["amount"] = 133,
+						},
+						["Chilled"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 2,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 0,
+						},
+					},
+					["HealingTaken"] = 0,
+					["RageGain"] = 0,
+					["TimeDamage"] = 21.65,
+					["TimeDamaging"] = {
+						["Kobold Worker"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Diseased Young Wolf"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Laborer"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Tunneler"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Fireball (DoT)"] = {
+									["count"] = 0,
+								},
+								["Frostbolt"] = {
+									["count"] = 6.65,
+								},
+								["Chilled"] = {
+									["count"] = 0.55,
+								},
+							},
+							["amount"] = 7.199999999999999,
+						},
+						["Kobold Miner"] = {
+							["Details"] = {
+								["Chilled"] = {
+									["count"] = 0.77,
+								},
+								["Frostbolt"] = {
+									["count"] = 13.68,
+								},
+							},
+							["amount"] = 14.45,
+						},
+						["Diseased Timber Wolf"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Defias Thug"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Fireball (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Vermin"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ManaGain"] = 0,
+					["HOTs"] = {
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["CurrentFightData"] = {
+					["DOTs"] = {
+						["Fireball (DoT)"] = {
+							["Details"] = {
+								["Defias Thug"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ElementDoneResist"] = {
+						["Frost"] = 0,
+						["Fire"] = 0,
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 0,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 0,
+								},
+								["Crit"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Nature"] = {
+							["Details"] = {
+								["Tick"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["ElementHitsDone"] = {
+						["Fire"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 0,
+								},
+								["Tick"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Frost"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ElementTakenAbsorb"] = {
+					},
+					["ElementTaken"] = {
+						["Melee"] = 0,
+						["Nature"] = 0,
+					},
+					["DOT_Time"] = 0,
+					["Damage"] = 0,
+					["ElementTakenBlock"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["ElementDoneAbsorb"] = {
+					},
+					["FAttacks"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDone"] = {
+						["Fire"] = 0,
+						["Melee"] = 0,
+						["Frost"] = 0,
+					},
+					["PartialAbsorb"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Poison (DoT)"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["DamagedWho"] = {
+						["Kobold Miner"] = {
+							["Details"] = {
+								["Frostbolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Tunneler"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+								["Frostbolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Forest Spider"] = {
+							["Details"] = {
+								["Frostbolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Worker"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Laborer"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Defias Thug"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Fireball (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["PartialBlock"] = {
+					},
+					["WhoDamaged"] = {
+						["Kobold Tunneler"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Forest Spider"] = {
+							["Details"] = {
+								["Poison (DoT)"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Worker"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Miner"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Defias Thug"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["PartialResist"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Poison (DoT)"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["CCBroken"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+					},
+					["OverHeals"] = {
+					},
+					["ManaGainedFrom"] = {
+					},
+					["RunicPowerGained"] = {
+					},
+					["CCBreak"] = 0,
+					["RageGained"] = {
+					},
+					["HealedWho"] = {
+					},
+					["EnergyGain"] = 0,
+					["ManaGained"] = {
+					},
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["Overhealing"] = 0,
+					["TimeSpent"] = {
+						["Kobold Miner"] = {
+							["Details"] = {
+								["Chilled"] = {
+									["count"] = 0,
+								},
+								["Frostbolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Tunneler"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+								["Frostbolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Forest Spider"] = {
+							["Details"] = {
+								["Chilled"] = {
+									["count"] = 0,
+								},
+								["Frostbolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Worker"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Laborer"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Defias Thug"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Fireball (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["WhoDispelled"] = {
+					},
+					["InterruptData"] = {
+					},
+					["RunicPowerGain"] = 0,
+					["Heals"] = {
+					},
+					["WhoHealed"] = {
+					},
+					["EnergyGained"] = {
+					},
+					["ActiveTime"] = 0,
+					["Healing"] = 0,
+					["FDamagedWho"] = {
+					},
+					["Dispelled"] = 0,
+					["Attacks"] = {
+						["Fireball"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Fireball (DoT)"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Frostbolt"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Chilled"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["HealingTaken"] = 0,
+					["RageGain"] = 0,
+					["TimeDamage"] = 0,
+					["TimeDamaging"] = {
+						["Kobold Miner"] = {
+							["Details"] = {
+								["Chilled"] = {
+									["count"] = 0,
+								},
+								["Frostbolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Tunneler"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+								["Frostbolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Forest Spider"] = {
+							["Details"] = {
+								["Chilled"] = {
+									["count"] = 0,
+								},
+								["Frostbolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Worker"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Laborer"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Defias Thug"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Fireball (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ManaGain"] = 0,
+					["HOTs"] = {
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["Fight1"] = {
+					["DOTs"] = {
+						["Fireball (DoT)"] = {
+							["Details"] = {
+								["Kobold Laborer"] = {
+									["count"] = 0,
+								},
+								["Diseased Young Wolf"] = {
+									["count"] = 0,
+								},
+								["Diseased Timber Wolf"] = {
+									["count"] = 0,
+								},
+								["Defias Thug"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ElementDoneResist"] = {
+						["Frost"] = 0,
+					},
+					["TimeSpent"] = {
+						["Kobold Miner"] = {
+							["Details"] = {
+								["Frostbolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Diseased Young Wolf"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+								["Fireball (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Laborer"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+								["Fireball (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Tunneler"] = {
+							["Details"] = {
+								["Frostbolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Forest Spider"] = {
+							["Details"] = {
+								["Frostbolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Diseased Timber Wolf"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+								["Fireball (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Worker"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Defias Thug"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+								["Fireball (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["DamageTaken"] = 5,
+					["PartialResist"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+						["Falling"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["PartialAbsorb"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+						["Falling"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["ActiveTime"] = 0,
+					["ElementTaken"] = {
+						["Melee"] = 5,
+						["Physical"] = 0,
+					},
+					["DOT_Time"] = 0,
+					["Damage"] = 0,
+					["ElementDone"] = {
+						["Frost"] = 0,
+						["Fire"] = 0,
+					},
+					["ElementHitsTaken"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 1,
+						},
+						["Physical"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["DamagedWho"] = {
+						["Kobold Miner"] = {
+							["Details"] = {
+								["Frostbolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Diseased Young Wolf"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+								["Fireball (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Laborer"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+								["Fireball (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Tunneler"] = {
+							["Details"] = {
+								["Frostbolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Forest Spider"] = {
+							["Details"] = {
+								["Frostbolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Diseased Timber Wolf"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+								["Fireball (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Worker"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Defias Thug"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+								["Fireball (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["TimeDamage"] = 0,
+					["TimeDamaging"] = {
+						["Kobold Miner"] = {
+							["Details"] = {
+								["Frostbolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Diseased Young Wolf"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+								["Fireball (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Laborer"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+								["Fireball (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Tunneler"] = {
+							["Details"] = {
+								["Frostbolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Forest Spider"] = {
+							["Details"] = {
+								["Frostbolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Diseased Timber Wolf"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+								["Fireball (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Worker"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Defias Thug"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+								["Fireball (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["Attacks"] = {
+						["Fireball"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Frostbolt"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Fireball (DoT)"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["WhoDamaged"] = {
+						["Defias Cutpurse"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 5,
+								},
+							},
+							["amount"] = 5,
+						},
+						["Kobold Miner"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Environment"] = {
+							["Details"] = {
+								["Falling"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Forest Spider"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Diseased Timber Wolf"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Laborer"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Defias Thug"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ElementHitsDone"] = {
+						["Frost"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Fire"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 0,
+								},
+								["Tick"] = {
+									["count"] = 0,
+								},
+								["Crit"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+				},
+				["Fight4"] = {
+					["DOTs"] = {
+						["Fireball (DoT)"] = {
+							["Details"] = {
+								["Kobold Tunneler"] = {
+									["count"] = 0,
+								},
+								["Kobold Miner"] = {
+									["count"] = 6,
+								},
+								["Kobold Worker"] = {
+									["count"] = 0,
+								},
+								["Defias Thug"] = {
+									["count"] = 0,
+								},
+								["Kobold Vermin"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 6,
+						},
+					},
+					["ElementDoneResist"] = {
+						["Frost"] = 9,
+						["Fire"] = 39,
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 62,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 6,
+								},
+								["Crit"] = {
+									["count"] = 1,
+								},
+								["Miss"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 8,
+						},
+						["Physical"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 1,
+						},
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["ElementHitsDone"] = {
+						["Fire"] = {
+							["Details"] = {
+								["Tick"] = {
+									["count"] = 3,
+								},
+								["Miss"] = {
+									["count"] = 3,
+								},
+								["Crit"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 5,
+								},
+							},
+							["amount"] = 11,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Glancing"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Frost"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 5,
+								},
+								["Hit"] = {
+									["count"] = 8,
+								},
+							},
+							["amount"] = 13,
+						},
+					},
+					["ElementTakenAbsorb"] = {
+					},
+					["ElementTaken"] = {
+						["Melee"] = 62,
+					},
+					["DOT_Time"] = 6,
+					["Damage"] = 204,
+					["ElementTakenBlock"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["ElementDoneAbsorb"] = {
+					},
+					["FAttacks"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDone"] = {
+						["Fire"] = 65,
+						["Melee"] = 0,
+						["Frost"] = 139,
+					},
+					["PartialAbsorb"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 8,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 8,
+							["amount"] = 0,
+						},
+						["Pierce Armor"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+					},
+					["DamagedWho"] = {
+						["Kobold Worker"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Fireball (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Laborer"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Tunneler"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+								["Frostbolt"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Fireball (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Miner"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 62,
+								},
+								["Frostbolt"] = {
+									["count"] = 139,
+								},
+								["Fireball (DoT)"] = {
+									["count"] = 3,
+								},
+							},
+							["amount"] = 204,
+						},
+						["Diseased Timber Wolf"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Defias Thug"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Fireball (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Vermin"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Fireball (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["PartialBlock"] = {
+					},
+					["WhoDamaged"] = {
+						["Kobold Laborer"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Tunneler"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Miner"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 62,
+								},
+							},
+							["amount"] = 62,
+						},
+						["Kobold Worker"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Defias Thug"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Vermin"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["PartialResist"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 8,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 8,
+							["amount"] = 0,
+						},
+						["Pierce Armor"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+					},
+					["CCBroken"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+					},
+					["OverHeals"] = {
+					},
+					["ManaGainedFrom"] = {
+					},
+					["RunicPowerGained"] = {
+					},
+					["CCBreak"] = 0,
+					["RageGained"] = {
+					},
+					["HealedWho"] = {
+					},
+					["EnergyGain"] = 0,
+					["ManaGained"] = {
+					},
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["Overhealing"] = 0,
+					["TimeSpent"] = {
+						["Kobold Worker"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Fireball (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Laborer"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Tunneler"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Fireball (DoT)"] = {
+									["count"] = 0,
+								},
+								["Frostbolt"] = {
+									["count"] = 0,
+								},
+								["Chilled"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Miner"] = {
+							["Details"] = {
+								["Chilled"] = {
+									["count"] = 2.77,
+								},
+								["Frostbolt"] = {
+									["count"] = 22.26,
+								},
+								["Fireball"] = {
+									["count"] = 7.959999999999999,
+								},
+								["Fireball (DoT)"] = {
+									["count"] = 4.87,
+								},
+							},
+							["amount"] = 37.86,
+						},
+						["Diseased Timber Wolf"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Defias Thug"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Fireball (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Vermin"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Fireball (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["WhoDispelled"] = {
+					},
+					["InterruptData"] = {
+					},
+					["RunicPowerGain"] = 0,
+					["Heals"] = {
+					},
+					["WhoHealed"] = {
+					},
+					["EnergyGained"] = {
+					},
+					["ActiveTime"] = 37.86,
+					["Healing"] = 0,
+					["FDamagedWho"] = {
+					},
+					["Dispelled"] = 0,
+					["Attacks"] = {
+						["Fireball"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 3,
+									["amount"] = 0,
+								},
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 16,
+									["min"] = 0,
+									["count"] = 5,
+									["amount"] = 62,
+								},
+							},
+							["count"] = 8,
+							["amount"] = 62,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Glancing"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Fireball (DoT)"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 1,
+									["min"] = 0,
+									["count"] = 3,
+									["amount"] = 3,
+								},
+							},
+							["count"] = 3,
+							["amount"] = 3,
+						},
+						["Frostbolt"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 3,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 20,
+									["min"] = 0,
+									["count"] = 8,
+									["amount"] = 139,
+								},
+							},
+							["count"] = 11,
+							["amount"] = 139,
+						},
+						["Chilled"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 2,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 0,
+						},
+					},
+					["HealingTaken"] = 0,
+					["RageGain"] = 0,
+					["TimeDamage"] = 37.86,
+					["TimeDamaging"] = {
+						["Kobold Worker"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Fireball (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Laborer"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Tunneler"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Fireball (DoT)"] = {
+									["count"] = 0,
+								},
+								["Frostbolt"] = {
+									["count"] = 0,
+								},
+								["Chilled"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Miner"] = {
+							["Details"] = {
+								["Chilled"] = {
+									["count"] = 2.77,
+								},
+								["Frostbolt"] = {
+									["count"] = 22.26,
+								},
+								["Fireball"] = {
+									["count"] = 7.959999999999999,
+								},
+								["Fireball (DoT)"] = {
+									["count"] = 4.87,
+								},
+							},
+							["amount"] = 37.86,
+						},
+						["Diseased Timber Wolf"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Defias Thug"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Fireball (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Vermin"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Fireball (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ManaGain"] = 0,
+					["HOTs"] = {
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["LastFightData"] = {
+					["DOTs"] = {
+						["Fireball (DoT)"] = {
+							["Details"] = {
+								["Kobold Laborer"] = {
+									["count"] = 0,
+								},
+								["Diseased Young Wolf"] = {
+									["count"] = 0,
+								},
+								["Diseased Timber Wolf"] = {
+									["count"] = 0,
+								},
+								["Defias Thug"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ElementDoneResist"] = {
+						["Frost"] = 0,
+					},
+					["TimeSpent"] = {
+						["Kobold Miner"] = {
+							["Details"] = {
+								["Frostbolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Diseased Young Wolf"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+								["Fireball (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Laborer"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+								["Fireball (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Tunneler"] = {
+							["Details"] = {
+								["Frostbolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Forest Spider"] = {
+							["Details"] = {
+								["Frostbolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Diseased Timber Wolf"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+								["Fireball (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Worker"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Defias Thug"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+								["Fireball (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["DamageTaken"] = 5,
+					["PartialResist"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+						["Falling"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["PartialAbsorb"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+						["Falling"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["ActiveTime"] = 0,
+					["ElementTaken"] = {
+						["Melee"] = 5,
+						["Physical"] = 0,
+					},
+					["DOT_Time"] = 0,
+					["Damage"] = 0,
+					["ElementDone"] = {
+						["Frost"] = 0,
+						["Fire"] = 0,
+					},
+					["ElementHitsTaken"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 1,
+						},
+						["Physical"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["DamagedWho"] = {
+						["Kobold Miner"] = {
+							["Details"] = {
+								["Frostbolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Diseased Young Wolf"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+								["Fireball (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Laborer"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+								["Fireball (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Tunneler"] = {
+							["Details"] = {
+								["Frostbolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Forest Spider"] = {
+							["Details"] = {
+								["Frostbolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Diseased Timber Wolf"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+								["Fireball (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Worker"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Defias Thug"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+								["Fireball (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["TimeDamage"] = 0,
+					["TimeDamaging"] = {
+						["Kobold Miner"] = {
+							["Details"] = {
+								["Frostbolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Diseased Young Wolf"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+								["Fireball (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Laborer"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+								["Fireball (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Tunneler"] = {
+							["Details"] = {
+								["Frostbolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Forest Spider"] = {
+							["Details"] = {
+								["Frostbolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Diseased Timber Wolf"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+								["Fireball (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Worker"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Defias Thug"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+								["Fireball (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["Attacks"] = {
+						["Fireball"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Frostbolt"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Fireball (DoT)"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["WhoDamaged"] = {
+						["Defias Cutpurse"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 5,
+								},
+							},
+							["amount"] = 5,
+						},
+						["Kobold Miner"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Environment"] = {
+							["Details"] = {
+								["Falling"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Forest Spider"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Diseased Timber Wolf"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Laborer"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Defias Thug"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ElementHitsDone"] = {
+						["Frost"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Fire"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 0,
+								},
+								["Tick"] = {
+									["count"] = 0,
+								},
+								["Crit"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+				},
+				["Fight3"] = {
+					["DOTs"] = {
+						["Fireball (DoT)"] = {
+							["Details"] = {
+								["Kobold Tunneler"] = {
+									["count"] = 0,
+								},
+								["Kobold Laborer"] = {
+									["count"] = 0,
+								},
+								["Defias Thug"] = {
+									["count"] = 0,
+								},
+								["Kobold Vermin"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ElementDoneResist"] = {
+						["Frost"] = 5,
+						["Fire"] = 0,
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 11,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 0,
+								},
+								["Crit"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 2,
+								},
+							},
+							["amount"] = 2,
+						},
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["ElementHitsDone"] = {
+						["Fire"] = {
+							["Details"] = {
+								["Tick"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Frost"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 7,
+								},
+								["Miss"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 7,
+						},
+					},
+					["ElementTakenAbsorb"] = {
+					},
+					["ElementTaken"] = {
+						["Melee"] = 11,
+					},
+					["DOT_Time"] = 0,
+					["Damage"] = 129,
+					["ElementTakenBlock"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["ElementDoneAbsorb"] = {
+					},
+					["FAttacks"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDone"] = {
+						["Fire"] = 0,
+						["Melee"] = 0,
+						["Frost"] = 129,
+					},
+					["PartialAbsorb"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 0,
+						},
+					},
+					["DamagedWho"] = {
+						["Garrick Padfoot"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Diseased Young Wolf"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Laborer"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Fireball (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Tunneler"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+								["Frostbolt"] = {
+									["count"] = 0,
+								},
+								["Fireball (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Miner"] = {
+							["Details"] = {
+								["Frostbolt"] = {
+									["count"] = 129,
+								},
+							},
+							["amount"] = 129,
+						},
+						["Kobold Worker"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Defias Thug"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Fireball (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Vermin"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+								["Fireball (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["PartialBlock"] = {
+					},
+					["WhoDamaged"] = {
+						["Kobold Laborer"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Tunneler"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Miner"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 11,
+								},
+							},
+							["amount"] = 11,
+						},
+						["Garrick Padfoot"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Defias Thug"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Vermin"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["PartialResist"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 0,
+						},
+					},
+					["CCBroken"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+					},
+					["OverHeals"] = {
+					},
+					["ManaGainedFrom"] = {
+					},
+					["RunicPowerGained"] = {
+					},
+					["CCBreak"] = 0,
+					["RageGained"] = {
+					},
+					["HealedWho"] = {
+					},
+					["EnergyGain"] = 0,
+					["ManaGained"] = {
+					},
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["Overhealing"] = 0,
+					["TimeSpent"] = {
+						["Garrick Padfoot"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Diseased Young Wolf"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Laborer"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Fireball (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Tunneler"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+								["Frostbolt"] = {
+									["count"] = 0,
+								},
+								["Fireball (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Miner"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Frostbolt"] = {
+									["count"] = 13.81,
+								},
+							},
+							["amount"] = 13.81,
+						},
+						["Kobold Worker"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Defias Thug"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+								["Chilled"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Fireball (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Vermin"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+								["Fireball (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["WhoDispelled"] = {
+					},
+					["InterruptData"] = {
+					},
+					["RunicPowerGain"] = 0,
+					["Heals"] = {
+					},
+					["WhoHealed"] = {
+					},
+					["EnergyGained"] = {
+					},
+					["ActiveTime"] = 13.81,
+					["Healing"] = 0,
+					["FDamagedWho"] = {
+					},
+					["Dispelled"] = 0,
+					["Attacks"] = {
+						["Chilled"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Fireball (DoT)"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Frostbolt"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 20,
+									["min"] = 0,
+									["count"] = 7,
+									["amount"] = 129,
+								},
+							},
+							["count"] = 7,
+							["amount"] = 129,
+						},
+						["Fireball"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["HealingTaken"] = 0,
+					["RageGain"] = 0,
+					["TimeDamage"] = 13.81,
+					["TimeDamaging"] = {
+						["Garrick Padfoot"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Diseased Young Wolf"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Laborer"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Fireball (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Tunneler"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+								["Frostbolt"] = {
+									["count"] = 0,
+								},
+								["Fireball (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Miner"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Frostbolt"] = {
+									["count"] = 13.81,
+								},
+							},
+							["amount"] = 13.81,
+						},
+						["Kobold Worker"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Defias Thug"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+								["Chilled"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Fireball (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Vermin"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+								["Fireball (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ManaGain"] = 0,
+					["HOTs"] = {
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["OverallData"] = {
+					["DOTs"] = {
+						["Fireball (DoT)"] = {
+							["Details"] = {
+								["Kobold Worker"] = {
+									["count"] = 6,
+								},
+								["Diseased Young Wolf"] = {
+									["count"] = 2,
+								},
+								["Kobold Laborer"] = {
+									["count"] = 6,
+								},
+								["Kobold Tunneler"] = {
+									["count"] = 16,
+								},
+								["Kobold Miner"] = {
+									["count"] = 6,
+								},
+								["Diseased Timber Wolf"] = {
+									["count"] = 2,
+								},
+								["Defias Thug"] = {
+									["count"] = 24,
+								},
+								["Kobold Vermin"] = {
+									["count"] = 6,
+								},
+							},
+							["amount"] = 68,
+						},
+					},
+					["ElementDoneResist"] = {
+						["Frost"] = 58,
+						["Fire"] = 261,
+					},
+					["TimeSpent"] = {
+						["Diseased Young Wolf"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 26.9,
+								},
+								["Fireball (DoT)"] = {
+									["count"] = 0.38,
+								},
+							},
+							["amount"] = 27.28,
+						},
+						["Kobold Tunneler"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 42.34,
+								},
+								["Melee"] = {
+									["count"] = 7.99,
+								},
+								["Fireball (DoT)"] = {
+									["count"] = 9.210000000000001,
+								},
+								["Frostbolt"] = {
+									["count"] = 47.60000000000001,
+								},
+								["Chilled"] = {
+									["count"] = 0.9300000000000001,
+								},
+							},
+							["amount"] = 108.07,
+						},
+						["Forest Spider"] = {
+							["Details"] = {
+								["Chilled"] = {
+									["count"] = 0.05,
+								},
+								["Frostbolt"] = {
+									["count"] = 21.57,
+								},
+							},
+							["amount"] = 21.62,
+						},
+						["Garrick Padfoot"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 6.56,
+								},
+							},
+							["amount"] = 6.56,
+						},
+						["Kobold Laborer"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 36.13,
+								},
+								["Melee"] = {
+									["count"] = 5.99,
+								},
+								["Fireball (DoT)"] = {
+									["count"] = 6.19,
+								},
+							},
+							["amount"] = 48.31,
+						},
+						["Kobold Worker"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 64.42,
+								},
+								["Melee"] = {
+									["count"] = 3.9,
+								},
+								["Fireball (DoT)"] = {
+									["count"] = 5.65,
+								},
+							},
+							["amount"] = 73.97,
+						},
+						["Kobold Miner"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 7.959999999999999,
+								},
+								["Melee"] = {
+									["count"] = 7,
+								},
+								["Fireball (DoT)"] = {
+									["count"] = 4.87,
+								},
+								["Frostbolt"] = {
+									["count"] = 95.76999999999998,
+								},
+								["Chilled"] = {
+									["count"] = 4.4,
+								},
+							},
+							["amount"] = 120,
+						},
+						["Diseased Timber Wolf"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 43.11,
+								},
+								["Fireball (DoT)"] = {
+									["count"] = 1.67,
+								},
+							},
+							["amount"] = 44.78,
+						},
+						["Defias Thug"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 84.15000000000001,
+								},
+								["Chilled"] = {
+									["count"] = 0.9,
+								},
+								["Melee"] = {
+									["count"] = 8.109999999999999,
+								},
+								["Fireball (DoT)"] = {
+									["count"] = 18.89,
+								},
+							},
+							["amount"] = 112.05,
+						},
+						["Kobold Vermin"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 35.91,
+								},
+								["Melee"] = {
+									["count"] = 0.91,
+								},
+								["Fireball (DoT)"] = {
+									["count"] = 6.09,
+								},
+							},
+							["amount"] = 42.90999999999999,
+						},
+					},
+					["DamageTaken"] = 475,
+					["PartialResist"] = {
+						["Falling"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+						["Pierce Armor"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 110,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 110,
+							["amount"] = 0,
+						},
+						["Poison (DoT)"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 10,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 10,
+							["amount"] = 0,
+						},
+					},
+					["PartialAbsorb"] = {
+						["Falling"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+						["Pierce Armor"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 110,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 110,
+							["amount"] = 0,
+						},
+						["Poison (DoT)"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 10,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 10,
+							["amount"] = 0,
+						},
+					},
+					["ActiveTime"] = 605.5499999999998,
+					["ElementTaken"] = {
+						["Physical"] = 7,
+						["Melee"] = 437,
+						["Nature"] = 31,
+					},
+					["DOT_Time"] = 68,
+					["Damage"] = 4247,
+					["ElementDone"] = {
+						["Fire"] = 2917,
+						["Melee"] = 137,
+						["Frost"] = 1193,
+					},
+					["ElementHitsTaken"] = {
+						["Physical"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 1,
+								},
+								["Hit"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 2,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 7,
+								},
+								["Crit"] = {
+									["count"] = 7,
+								},
+								["Hit"] = {
+									["count"] = 96,
+								},
+							},
+							["amount"] = 110,
+						},
+						["Nature"] = {
+							["Details"] = {
+								["Tick"] = {
+									["count"] = 10,
+								},
+							},
+							["amount"] = 10,
+						},
+					},
+					["DamagedWho"] = {
+						["Diseased Young Wolf"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 188,
+								},
+								["Fireball (DoT)"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 189,
+						},
+						["Kobold Tunneler"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 277,
+								},
+								["Frostbolt"] = {
+									["count"] = 384,
+								},
+								["Melee"] = {
+									["count"] = 19,
+								},
+								["Fireball (DoT)"] = {
+									["count"] = 8,
+								},
+							},
+							["amount"] = 688,
+						},
+						["Forest Spider"] = {
+							["Details"] = {
+								["Frostbolt"] = {
+									["count"] = 150,
+								},
+							},
+							["amount"] = 150,
+						},
+						["Garrick Padfoot"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 61,
+								},
+							},
+							["amount"] = 61,
+						},
+						["Kobold Laborer"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 302,
+								},
+								["Melee"] = {
+									["count"] = 22,
+								},
+								["Fireball (DoT)"] = {
+									["count"] = 3,
+								},
+							},
+							["amount"] = 327,
+						},
+						["Kobold Worker"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 550,
+								},
+								["Melee"] = {
+									["count"] = 26,
+								},
+								["Fireball (DoT)"] = {
+									["count"] = 3,
+								},
+							},
+							["amount"] = 579,
+						},
+						["Kobold Miner"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 62,
+								},
+								["Frostbolt"] = {
+									["count"] = 659,
+								},
+								["Melee"] = {
+									["count"] = 12,
+								},
+								["Fireball (DoT)"] = {
+									["count"] = 3,
+								},
+							},
+							["amount"] = 736,
+						},
+						["Diseased Timber Wolf"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 393,
+								},
+								["Fireball (DoT)"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 394,
+						},
+						["Defias Thug"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 743,
+								},
+								["Melee"] = {
+									["count"] = 37,
+								},
+								["Fireball (DoT)"] = {
+									["count"] = 12,
+								},
+							},
+							["amount"] = 792,
+						},
+						["Kobold Vermin"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 307,
+								},
+								["Melee"] = {
+									["count"] = 21,
+								},
+								["Fireball (DoT)"] = {
+									["count"] = 3,
+								},
+							},
+							["amount"] = 331,
+						},
+					},
+					["TimeDamage"] = 605.5499999999998,
+					["TimeDamaging"] = {
+						["Diseased Young Wolf"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 26.9,
+								},
+								["Fireball (DoT)"] = {
+									["count"] = 0.38,
+								},
+							},
+							["amount"] = 27.28,
+						},
+						["Kobold Tunneler"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 42.34,
+								},
+								["Melee"] = {
+									["count"] = 7.99,
+								},
+								["Fireball (DoT)"] = {
+									["count"] = 9.210000000000001,
+								},
+								["Frostbolt"] = {
+									["count"] = 47.60000000000001,
+								},
+								["Chilled"] = {
+									["count"] = 0.9300000000000001,
+								},
+							},
+							["amount"] = 108.07,
+						},
+						["Forest Spider"] = {
+							["Details"] = {
+								["Chilled"] = {
+									["count"] = 0.05,
+								},
+								["Frostbolt"] = {
+									["count"] = 21.57,
+								},
+							},
+							["amount"] = 21.62,
+						},
+						["Garrick Padfoot"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 6.56,
+								},
+							},
+							["amount"] = 6.56,
+						},
+						["Kobold Laborer"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 36.13,
+								},
+								["Melee"] = {
+									["count"] = 5.99,
+								},
+								["Fireball (DoT)"] = {
+									["count"] = 6.19,
+								},
+							},
+							["amount"] = 48.31,
+						},
+						["Kobold Worker"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 64.42,
+								},
+								["Melee"] = {
+									["count"] = 3.9,
+								},
+								["Fireball (DoT)"] = {
+									["count"] = 5.65,
+								},
+							},
+							["amount"] = 73.97,
+						},
+						["Kobold Miner"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 7.959999999999999,
+								},
+								["Melee"] = {
+									["count"] = 7,
+								},
+								["Fireball (DoT)"] = {
+									["count"] = 4.87,
+								},
+								["Frostbolt"] = {
+									["count"] = 95.76999999999998,
+								},
+								["Chilled"] = {
+									["count"] = 4.4,
+								},
+							},
+							["amount"] = 120,
+						},
+						["Diseased Timber Wolf"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 43.11,
+								},
+								["Fireball (DoT)"] = {
+									["count"] = 1.67,
+								},
+							},
+							["amount"] = 44.78,
+						},
+						["Defias Thug"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 84.15000000000001,
+								},
+								["Chilled"] = {
+									["count"] = 0.9,
+								},
+								["Melee"] = {
+									["count"] = 8.109999999999999,
+								},
+								["Fireball (DoT)"] = {
+									["count"] = 18.89,
+								},
+							},
+							["amount"] = 112.05,
+						},
+						["Kobold Vermin"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 35.91,
+								},
+								["Melee"] = {
+									["count"] = 0.91,
+								},
+								["Fireball (DoT)"] = {
+									["count"] = 6.09,
+								},
+							},
+							["amount"] = 42.90999999999999,
+						},
+					},
+					["Attacks"] = {
+						["Chilled"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 9,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 9,
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Glancing"] = {
+									["max"] = 7,
+									["min"] = 4,
+									["count"] = 3,
+									["amount"] = 18,
+								},
+								["Hit"] = {
+									["max"] = 10,
+									["min"] = 4,
+									["count"] = 15,
+									["amount"] = 93,
+								},
+								["Miss"] = {
+									["count"] = 1,
+									["amount"] = 0,
+								},
+								["Crit"] = {
+									["max"] = 14,
+									["min"] = 12,
+									["count"] = 2,
+									["amount"] = 26,
+								},
+								["Parry"] = {
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 22,
+							["amount"] = 137,
+						},
+						["Fireball (DoT)"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 1,
+									["min"] = 1,
+									["count"] = 34,
+									["amount"] = 34,
+								},
+							},
+							["count"] = 34,
+							["amount"] = 34,
+						},
+						["Frostbolt"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 12,
+									["amount"] = 0,
+								},
+								["Crit"] = {
+									["max"] = 30,
+									["min"] = 22,
+									["count"] = 2,
+									["amount"] = 52,
+								},
+								["Hit"] = {
+									["max"] = 20,
+									["min"] = 15,
+									["count"] = 63,
+									["amount"] = 1141,
+								},
+							},
+							["count"] = 77,
+							["amount"] = 1193,
+						},
+						["Fireball"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 9,
+									["amount"] = 0,
+								},
+								["Crit"] = {
+									["max"] = 34,
+									["min"] = 12,
+									["count"] = 8,
+									["amount"] = 200,
+								},
+								["Hit"] = {
+									["max"] = 24,
+									["min"] = 7,
+									["count"] = 152,
+									["amount"] = 2683,
+								},
+							},
+							["count"] = 169,
+							["amount"] = 2883,
+						},
+					},
+					["WhoDamaged"] = {
+						["Kobold Tunneler"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 88,
+								},
+							},
+							["amount"] = 88,
+						},
+						["Forest Spider"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 26,
+								},
+								["Poison (DoT)"] = {
+									["count"] = 31,
+								},
+							},
+							["amount"] = 57,
+						},
+						["Kobold Laborer"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 17,
+								},
+							},
+							["amount"] = 17,
+						},
+						["Defias Cutpurse"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 5,
+								},
+							},
+							["amount"] = 5,
+						},
+						["Garrick Padfoot"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 3,
+								},
+							},
+							["amount"] = 3,
+						},
+						["Kobold Worker"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 15,
+								},
+							},
+							["amount"] = 15,
+						},
+						["Environment"] = {
+							["Details"] = {
+								["Falling"] = {
+									["count"] = 7,
+								},
+							},
+							["amount"] = 7,
+						},
+						["Kobold Miner"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 231,
+								},
+							},
+							["amount"] = 231,
+						},
+						["Diseased Timber Wolf"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 2,
+								},
+							},
+							["amount"] = 2,
+						},
+						["Defias Thug"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 44,
+								},
+							},
+							["amount"] = 44,
+						},
+						["Kobold Vermin"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 6,
+								},
+							},
+							["amount"] = 6,
+						},
+					},
+					["ElementHitsDone"] = {
+						["Fire"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 9,
+								},
+								["Tick"] = {
+									["count"] = 34,
+								},
+								["Crit"] = {
+									["count"] = 8,
+								},
+								["Hit"] = {
+									["count"] = 152,
+								},
+							},
+							["amount"] = 203,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Glancing"] = {
+									["count"] = 3,
+								},
+								["Hit"] = {
+									["count"] = 15,
+								},
+								["Miss"] = {
+									["count"] = 1,
+								},
+								["Crit"] = {
+									["count"] = 2,
+								},
+								["Parry"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 22,
+						},
+						["Frost"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 63,
+								},
+								["Crit"] = {
+									["count"] = 2,
+								},
+								["Miss"] = {
+									["count"] = 21,
+								},
+							},
+							["amount"] = 86,
+						},
+					},
+				},
+			},
+			["UnitLockout"] = 1689081998,
+			["LastActive"] = 1689084896,
+		},
+	},
+	["FightNum"] = 61,
+	["CombatTimes"] = {
+		{
+			1689082003, -- [1]
+			1689082009, -- [2]
+			"15:26:43", -- [3]
+			"15:26:49", -- [4]
+			"Diseased Young Wolf", -- [5]
+		}, -- [1]
+		{
+			1689082017, -- [1]
+			1689082022, -- [2]
+			"15:26:58", -- [3]
+			"15:27:02", -- [4]
+			"Kobold Vermin", -- [5]
+		}, -- [2]
+		{
+			1689082025, -- [1]
+			1689082037, -- [2]
+			"15:27:05", -- [3]
+			"15:27:17", -- [4]
+			"Kobold Vermin", -- [5]
+		}, -- [3]
+		{
+			1689082039, -- [1]
+			1689082049, -- [2]
+			"15:27:20", -- [3]
+			"15:27:29", -- [4]
+			"Kobold Vermin", -- [5]
+		}, -- [4]
+		{
+			1689082053, -- [1]
+			1689082073, -- [2]
+			"15:27:34", -- [3]
+			"15:27:53", -- [4]
+			"Kobold Worker", -- [5]
+		}, -- [5]
+		{
+			1689082080, -- [1]
+			1689082086, -- [2]
+			"15:28:00", -- [3]
+			"15:28:06", -- [4]
+			"Diseased Timber Wolf", -- [5]
+		}, -- [6]
+		{
+			1689082096, -- [1]
+			1689082101, -- [2]
+			"15:28:16", -- [3]
+			"15:28:21", -- [4]
+			"Diseased Timber Wolf", -- [5]
+		}, -- [7]
+		{
+			1689082103, -- [1]
+			1689082111, -- [2]
+			"15:28:23", -- [3]
+			"15:28:31", -- [4]
+			"Diseased Timber Wolf", -- [5]
+		}, -- [8]
+		{
+			1689082116, -- [1]
+			1689082120, -- [2]
+			"15:28:37", -- [3]
+			"15:28:40", -- [4]
+			"Diseased Timber Wolf", -- [5]
+		}, -- [9]
+		{
+			1689082122, -- [1]
+			1689082130, -- [2]
+			"15:28:42", -- [3]
+			"15:28:50", -- [4]
+			"Diseased Timber Wolf", -- [5]
+		}, -- [10]
+		{
+			1689082143, -- [1]
+			1689082147, -- [2]
+			"15:29:04", -- [3]
+			"15:29:07", -- [4]
+			"Diseased Young Wolf", -- [5]
+		}, -- [11]
+		{
+			1689082154, -- [1]
+			1689082159, -- [2]
+			"15:29:15", -- [3]
+			"15:29:19", -- [4]
+			"Diseased Young Wolf", -- [5]
+		}, -- [12]
+		{
+			1689082161, -- [1]
+			1689082175, -- [2]
+			"15:29:22", -- [3]
+			"15:29:35", -- [4]
+			"Diseased Timber Wolf", -- [5]
+		}, -- [13]
+		{
+			1689082179, -- [1]
+			1689082184, -- [2]
+			"15:29:39", -- [3]
+			"15:29:44", -- [4]
+			"Diseased Young Wolf", -- [5]
+		}, -- [14]
+		{
+			1689082368, -- [1]
+			1689082373, -- [2]
+			"15:32:48", -- [3]
+			"15:32:53", -- [4]
+			"Defias Thug", -- [5]
+		}, -- [15]
+		{
+			1689082380, -- [1]
+			1689082386, -- [2]
+			"15:33:00", -- [3]
+			"15:33:06", -- [4]
+			"Defias Thug", -- [5]
+		}, -- [16]
+		{
+			1689082389, -- [1]
+			1689082394, -- [2]
+			"15:33:09", -- [3]
+			"15:33:14", -- [4]
+			"Defias Thug", -- [5]
+		}, -- [17]
+		{
+			1689082398, -- [1]
+			1689082409, -- [2]
+			"15:33:18", -- [3]
+			"15:33:29", -- [4]
+			"Defias Thug", -- [5]
+		}, -- [18]
+		{
+			1689082413, -- [1]
+			1689082419, -- [2]
+			"15:33:33", -- [3]
+			"15:33:39", -- [4]
+			"Defias Thug", -- [5]
+		}, -- [19]
+		{
+			1689082424, -- [1]
+			1689082438, -- [2]
+			"15:33:44", -- [3]
+			"15:33:58", -- [4]
+			"Defias Thug", -- [5]
+		}, -- [20]
+		{
+			1689082442, -- [1]
+			1689082455, -- [2]
+			"15:34:02", -- [3]
+			"15:34:15", -- [4]
+			"Defias Thug", -- [5]
+		}, -- [21]
+		{
+			1689082458, -- [1]
+			1689082470, -- [2]
+			"15:34:19", -- [3]
+			"15:34:30", -- [4]
+			"Defias Thug", -- [5]
+		}, -- [22]
+		{
+			1689082475, -- [1]
+			1689082487, -- [2]
+			"15:34:35", -- [3]
+			"15:34:47", -- [4]
+			"Defias Thug", -- [5]
+		}, -- [23]
+		{
+			1689082488, -- [1]
+			1689082493, -- [2]
+			"15:34:48", -- [3]
+			"15:34:53", -- [4]
+			"Defias Thug", -- [5]
+		}, -- [24]
+		{
+			1689082500, -- [1]
+			1689082508, -- [2]
+			"15:35:00", -- [3]
+			"15:35:08", -- [4]
+			"Defias Thug", -- [5]
+		}, -- [25]
+		{
+			1689082510, -- [1]
+			1689082515, -- [2]
+			"15:35:11", -- [3]
+			"15:35:15", -- [4]
+			"Defias Thug", -- [5]
+		}, -- [26]
+		{
+			1689082614, -- [1]
+			1689082619, -- [2]
+			"15:36:54", -- [3]
+			"15:36:59", -- [4]
+			"Kobold Worker", -- [5]
+		}, -- [27]
+		{
+			1689082620, -- [1]
+			1689082625, -- [2]
+			"15:37:00", -- [3]
+			"15:37:05", -- [4]
+			"Kobold Worker", -- [5]
+		}, -- [28]
+		{
+			1689082625, -- [1]
+			1689082630, -- [2]
+			"15:37:05", -- [3]
+			"15:37:10", -- [4]
+			"Kobold Worker", -- [5]
+		}, -- [29]
+		{
+			1689082632, -- [1]
+			1689082637, -- [2]
+			"15:37:12", -- [3]
+			"15:37:17", -- [4]
+			"Kobold Worker", -- [5]
+		}, -- [30]
+		{
+			1689082638, -- [1]
+			1689082642, -- [2]
+			"15:37:18", -- [3]
+			"15:37:22", -- [4]
+			"Kobold Worker", -- [5]
+		}, -- [31]
+		{
+			1689082643, -- [1]
+			1689082654, -- [2]
+			"15:37:24", -- [3]
+			"15:37:34", -- [4]
+			"Kobold Vermin", -- [5]
+		}, -- [32]
+		{
+			1689082660, -- [1]
+			1689082669, -- [2]
+			"15:37:40", -- [3]
+			"15:37:49", -- [4]
+			"Kobold Worker", -- [5]
+		}, -- [33]
+		{
+			1689082685, -- [1]
+			1689082697, -- [2]
+			"15:38:05", -- [3]
+			"15:38:17", -- [4]
+			"Kobold Worker", -- [5]
+		}, -- [34]
+		{
+			1689082857, -- [1]
+			1689082863, -- [2]
+			"15:40:57", -- [3]
+			"15:41:03", -- [4]
+			"Garrick Padfoot", -- [5]
+		}, -- [35]
+		{
+			1689083026, -- [1]
+			1689083033, -- [2]
+			"15:43:46", -- [3]
+			"15:43:53", -- [4]
+			"Kobold Laborer", -- [5]
+		}, -- [36]
+		{
+			1689083033, -- [1]
+			1689083040, -- [2]
+			"15:43:54", -- [3]
+			"15:44:00", -- [4]
+			"Kobold Laborer", -- [5]
+		}, -- [37]
+		{
+			1689083056, -- [1]
+			1689083070, -- [2]
+			"15:44:16", -- [3]
+			"15:44:30", -- [4]
+			"Kobold Laborer", -- [5]
+		}, -- [38]
+		{
+			1689083090, -- [1]
+			1689083095, -- [2]
+			"15:44:50", -- [3]
+			"15:44:55", -- [4]
+			"Kobold Laborer", -- [5]
+		}, -- [39]
+		{
+			1689083101, -- [1]
+			1689083115, -- [2]
+			"15:45:01", -- [3]
+			"15:45:15", -- [4]
+			"Kobold Laborer", -- [5]
+		}, -- [40]
+		{
+			1689083165, -- [1]
+			1689083175, -- [2]
+			"15:46:05", -- [3]
+			"15:46:15", -- [4]
+			"Kobold Laborer", -- [5]
+		}, -- [41]
+		{
+			1689083187, -- [1]
+			1689083201, -- [2]
+			"15:46:27", -- [3]
+			"15:46:41", -- [4]
+			"Kobold Worker", -- [5]
+		}, -- [42]
+		{
+			1689083557, -- [1]
+			1689083571, -- [2]
+			"15:52:37", -- [3]
+			"15:52:51", -- [4]
+			"Forest Spider", -- [5]
+		}, -- [43]
+		{
+			1689083580, -- [1]
+			1689083598, -- [2]
+			"15:53:00", -- [3]
+			"15:53:18", -- [4]
+			"Forest Spider", -- [5]
+		}, -- [44]
+		{
+			1689083608, -- [1]
+			1689083616, -- [2]
+			"15:53:28", -- [3]
+			"15:53:36", -- [4]
+			"Kobold Tunneler", -- [5]
+		}, -- [45]
+		{
+			1689083645, -- [1]
+			1689083666, -- [2]
+			"15:54:05", -- [3]
+			"15:54:26", -- [4]
+			"Kobold Tunneler", -- [5]
+		}, -- [46]
+		{
+			1689083673, -- [1]
+			1689083687, -- [2]
+			"15:54:33", -- [3]
+			"15:54:47", -- [4]
+			"Kobold Tunneler", -- [5]
+		}, -- [47]
+		{
+			1689083698, -- [1]
+			1689083705, -- [2]
+			"15:54:58", -- [3]
+			"15:55:05", -- [4]
+			"Kobold Tunneler", -- [5]
+		}, -- [48]
+		{
+			1689083711, -- [1]
+			1689083717, -- [2]
+			"15:55:11", -- [3]
+			"15:55:17", -- [4]
+			"Kobold Tunneler", -- [5]
+		}, -- [49]
+		{
+			1689083719, -- [1]
+			1689083727, -- [2]
+			"15:55:19", -- [3]
+			"15:55:27", -- [4]
+			"Kobold Tunneler", -- [5]
+		}, -- [50]
+		{
+			1689083731, -- [1]
+			1689083741, -- [2]
+			"15:55:31", -- [3]
+			"15:55:41", -- [4]
+			"Kobold Tunneler", -- [5]
+		}, -- [51]
+		{
+			1689083772, -- [1]
+			1689083779, -- [2]
+			"15:56:12", -- [3]
+			"15:56:19", -- [4]
+			"Kobold Miner", -- [5]
+		}, -- [52]
+		{
+			1689083789, -- [1]
+			1689083802, -- [2]
+			"15:56:30", -- [3]
+			"15:56:42", -- [4]
+			"Kobold Miner", -- [5]
+		}, -- [53]
+		{
+			1689083813, -- [1]
+			1689083824, -- [2]
+			"15:56:53", -- [3]
+			"15:57:04", -- [4]
+			"Kobold Miner", -- [5]
+		}, -- [54]
+		{
+			1689083828, -- [1]
+			1689083840, -- [2]
+			"15:57:08", -- [3]
+			"15:57:20", -- [4]
+			"Kobold Miner", -- [5]
+		}, -- [55]
+		{
+			1689083844, -- [1]
+			1689083854, -- [2]
+			"15:57:24", -- [3]
+			"15:57:34", -- [4]
+			"Kobold Miner", -- [5]
+		}, -- [56]
+		{
+			1689083859, -- [1]
+			1689083883, -- [2]
+			"15:57:40", -- [3]
+			"15:58:03", -- [4]
+			"Kobold Miner", -- [5]
+		}, -- [57]
+		{
+			1689083887, -- [1]
+			1689083928, -- [2]
+			"15:58:08", -- [3]
+			"15:58:48", -- [4]
+			"Kobold Miner", -- [5]
+		}, -- [58]
+		{
+			1689083935, -- [1]
+			1689083948, -- [2]
+			"15:58:56", -- [3]
+			"15:59:08", -- [4]
+			"Kobold Miner", -- [5]
+		}, -- [59]
+		{
+			1689083993, -- [1]
+			1689084026, -- [2]
+			"15:59:53", -- [3]
+			"16:00:26", -- [4]
+			"Kobold Tunneler", -- [5]
+		}, -- [60]
+		{
+			1689084209, -- [1]
+			1689084219, -- [2]
+			"16:03:29", -- [3]
+			"16:03:39", -- [4]
+			"Defias Cutpurse", -- [5]
+		}, -- [61]
+	},
+	["FoughtWho"] = {
+		"Defias Cutpurse 16:03:29-16:03:39", -- [1]
+		"Kobold Tunneler 15:59:53-16:00:26", -- [2]
+		"Kobold Miner 15:58:56-15:59:08", -- [3]
+		"Kobold Miner 15:58:08-15:58:48", -- [4]
+		"Kobold Miner 15:57:40-15:58:03", -- [5]
+	},
+}
