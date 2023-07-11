@@ -18,8 +18,8 @@ FrameLevel: 11
 Anchor: TOP
 X: -246
 Y: -98
-W: 142
-H: 49
+W: 319
+H: 345
 Frame: DBMMinimapButton
 FrameLevel: 3
 Anchor: TOPRIGHT
@@ -93,7 +93,7 @@ H: 16
 Frame: GridLayoutFrame
 FrameLevel: 0
 Anchor: RIGHT
-X: -259
-Y: -49
+X: -260
+Y: -33
 W: 57
 H: 56

@@ -20,11 +20,11 @@ SimpleUnitFramesDB = {
 		["Izanagi - Icecrown"] = "Izanagi - Icecrown",
 		["Pocaitoru - Icecrown"] = "Pocaitoru - Icecrown",
 		["Vrael - Icecrown"] = "Vrael - Icecrown",
-		["Pufarin - Icecrown"] = "Pufarin - Icecrown",
+		["Maciucaru - Icecrown"] = "Maciucaru - Icecrown",
 		["Mirceabravo - Icecrown"] = "Mirceabravo - Icecrown",
 		["Lingurita - Lordaeron"] = "Lingurita - Lordaeron",
 		["Mirceabravo - Blackrock [PvP only]"] = "Mirceabravo - Blackrock [PvP only]",
-		["Maciucaru - Icecrown"] = "Maciucaru - Icecrown",
+		["Pufarin - Icecrown"] = "Pufarin - Icecrown",
 		["Rakhnis - Icecrown"] = "Rakhnis - Icecrown",
 		["Gligor - Icecrown"] = "Gligor - Icecrown",
 		["Inarya - Icecrown"] = "Inarya - Icecrown",
@@ -67,7 +67,7 @@ SimpleUnitFramesDB = {
 		},
 		["Vrael - Icecrown"] = {
 		},
-		["Pufarin - Icecrown"] = {
+		["Maciucaru - Icecrown"] = {
 		},
 		["Mirceabravo - Icecrown"] = {
 		},
@@ -75,7 +75,7 @@ SimpleUnitFramesDB = {
 		},
 		["Mirceabravo - Blackrock [PvP only]"] = {
 		},
-		["Maciucaru - Icecrown"] = {
+		["Pufarin - Icecrown"] = {
 		},
 		["Rakhnis - Icecrown"] = {
 		},
