@@ -1,6 +1,6 @@
 MACRO 16777240 "beacon" INV_Misc_QuestionMark
 #showtooltip 
-/cast [target=focus][target=target] beacon of light
+/cast [nomodifier:shift,target=focus][modifier:shift,target=target] beacon of light
 END
 MACRO 16777228 "bubble" INV_Misc_QuestionMark
 #showtooltip

@@ -69,9 +69,7 @@ RecountDB = {
 					["h"] = 323.0000267394107,
 				},
 			},
-			["DetailWindowX"] = -115.0000081380815,
-			["LastInstanceName"] = "Violet Hold",
-			["CurDataSet"] = "LastFightData",
+			["ReportLines"] = 1,
 			["Colors"] = {
 				["Bar"] = {
 					["Bar Text"] = {
@@ -83,10 +81,13 @@ RecountDB = {
 				},
 			},
 			["DetailWindowY"] = -60.00000082064688,
-			["MainWindowHeight"] = 323.4446028824811,
-			["MainWindowWidth"] = 244.5308668882732,
-			["ReportLines"] = 1,
+			["DetailWindowX"] = -115.0000081380815,
+			["MainWindowVis"] = false,
+			["LastInstanceName"] = "Trial of the Crusader",
+			["CurDataSet"] = "CurrentFightData",
 			["GraphWindowX"] = 0,
+			["MainWindowWidth"] = 244.5308668882732,
+			["MainWindowHeight"] = 323.4446028824811,
 		},
 		["Nalar - Icecrown"] = {
 			["GraphWindowY"] = 0,
@@ -170,9 +171,9 @@ RecountDB = {
 				},
 			},
 			["DetailWindowX"] = 62.09879535193817,
-			["LastInstanceName"] = "Azjol-Nerub",
-			["DetailWindowY"] = 23.44438869364712,
-			["CurDataSet"] = "CurrentFightData",
+			["LastInstanceName"] = "Vault of Archavon",
+			["MainWindowHeight"] = 289.9999422879386,
+			["CurDataSet"] = "LastFightData",
 			["Colors"] = {
 				["Bar"] = {
 					["Bar Text"] = {
@@ -183,11 +184,11 @@ RecountDB = {
 					},
 				},
 			},
-			["GraphWindowX"] = 0,
-			["ReportLines"] = 1,
-			["MainWindowVis"] = false,
+			["DetailWindowY"] = 23.44438869364712,
 			["MainWindowWidth"] = 238.9999938458702,
-			["MainWindowHeight"] = 289.9999422879386,
+			["MainWindowVis"] = false,
+			["ReportLines"] = 1,
+			["GraphWindowX"] = 0,
 		},
 		["Vhalanor - Icecrown"] = {
 			["GraphWindowY"] = 0,
@@ -422,8 +423,8 @@ RecountDB = {
 			["GraphWindowY"] = 0,
 			["MainWindow"] = {
 				["Position"] = {
-					["h"] = 200.0000027354896,
 					["w"] = 140.0000106684094,
+					["h"] = 200.0000027354896,
 				},
 			},
 			["Colors"] = {
@@ -618,7 +619,7 @@ RecountDB = {
 				},
 			},
 			["DetailWindowX"] = 0,
-			["LastInstanceName"] = "The Forge of Souls",
+			["LastInstanceName"] = "Vault of Archavon",
 			["CurDataSet"] = "OverallData",
 			["Colors"] = {
 				["Bar"] = {
@@ -628,8 +629,8 @@ RecountDB = {
 				},
 			},
 			["DetailWindowY"] = 0,
-			["GraphWindowX"] = 0,
 			["MainWindowVis"] = false,
+			["GraphWindowX"] = 0,
 		},
 		["Noobschmoq - Icecrown"] = {
 			["GraphWindowY"] = 0,
@@ -667,8 +668,8 @@ RecountDB = {
 				},
 			},
 			["DetailWindowX"] = 655.7037672683764,
-			["LastInstanceName"] = "Ahn'kahet: The Old Kingdom",
-			["GraphWindowX"] = 0,
+			["LastInstanceName"] = "Vault of Archavon",
+			["MainWindowHeight"] = 328.7999999452902,
 			["CurDataSet"] = "LastFightData",
 			["Colors"] = {
 				["Bar"] = {
@@ -680,11 +681,11 @@ RecountDB = {
 					},
 				},
 			},
-			["DetailWindowY"] = -296.7037172773043,
-			["ReportLines"] = 2,
-			["MainWindowVis"] = false,
+			["GraphWindowX"] = 0,
 			["MainWindowWidth"] = 260.0000123097031,
-			["MainWindowHeight"] = 328.7999999452902,
+			["MainWindowVis"] = false,
+			["ReportLines"] = 2,
+			["DetailWindowY"] = -296.7037172773043,
 		},
 		["Flokus - Icecrown"] = {
 			["GraphWindowY"] = 0,
