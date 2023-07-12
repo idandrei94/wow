@@ -4,6 +4,14 @@ SkadaDB = {
 		["LibDualSpec-1.0"] = {
 		},
 	},
+	["global"] = {
+		["version"] = 1878,
+		["nicknames"] = {
+			["reset"] = 1690367536,
+			["cache"] = {
+			},
+		},
+	},
 	["profileKeys"] = {
 		["Rimgar - Icecrown"] = "Default",
 		["Vrael - Icecrown"] = "Default",
@@ -11,19 +19,12 @@ SkadaDB = {
 		["Sculatru - Icecrown"] = "Default",
 		["Denathra - Icecrown"] = "Default",
 		["Flokus - Icecrown"] = "Default",
+		["Elgorath - Icecrown"] = "Default",
 		["Kalaam - Icecrown"] = "Default",
 		["Inarya - Icecrown"] = "Default",
-		["Praxia - Icecrown"] = "Default",
 		["Pocaitoru - Icecrown"] = "Default",
+		["Praxia - Icecrown"] = "Default",
 		["Urgash - Icecrown"] = "Default",
-	},
-	["global"] = {
-		["nicknames"] = {
-			["cache"] = {
-			},
-			["reset"] = 1690367536,
-		},
-		["version"] = 1878,
 	},
 	["profiles"] = {
 		["Default"] = {
@@ -34,7 +35,7 @@ SkadaDB = {
 			},
 			["namedisplay"] = 2,
 			["modules"] = {
-				["sunderchannel"] = "SAY",
+				["deathlogthreshold"] = 1000,
 				["threat"] = {
 					["soundfile"] = "Fel Nova",
 					["ignorePets"] = true,
@@ -42,8 +43,8 @@ SkadaDB = {
 					["threshold"] = 90,
 					["notankwarnings"] = true,
 					["output"] = 1,
-					["sound"] = true,
 					["showAggroBar"] = true,
+					["sound"] = true,
 					["frequency"] = 2,
 				},
 				["failschannel"] = "AUTO",
@@ -51,18 +52,12 @@ SkadaDB = {
 				["deathchannel"] = "AUTO",
 				["interruptchannel"] = "SAY",
 				["parrychannel"] = "AUTO",
-				["deathlogthreshold"] = 1000,
+				["sunderchannel"] = "SAY",
 			},
 			["prepotion"] = true,
 			["windows"] = {
 				{
 					["barslocked"] = true,
-					["background"] = {
-						["color"] = {
-							["a"] = 0.9000000059604645,
-						},
-						["height"] = 272,
-					},
 					["hidden"] = false,
 					["y"] = 164.4442229913659,
 					["x"] = -642.6667915873574,
@@ -70,6 +65,12 @@ SkadaDB = {
 					["mode"] = "Damage",
 					["snapto"] = true,
 					["barwidth"] = 218.0737368996549,
+					["background"] = {
+						["height"] = 272,
+						["color"] = {
+							["a"] = 0.9000000059604645,
+						},
+					},
 				}, -- [1]
 			},
 			["report"] = {
