@@ -12,20 +12,20 @@ GladiusDB = {
 		["Aevie - Icecrown"] = "Aevie - Icecrown",
 		["Urgash - Icecrown"] = "Urgash - Icecrown",
 		["Ulrezaj - Icecrown"] = "Ulrezaj - Icecrown",
+		["Flokus - Icecrown"] = "Flokus - Icecrown",
 		["Kalaam - Icecrown"] = "Kalaam - Icecrown",
-		["Pocaitoru - Icecrown"] = "Pocaitoru - Icecrown",
 		["Elgorath - Icecrown"] = "Elgorath - Icecrown",
-		["Nalar - Icecrown"] = "Nalar - Icecrown",
-		["Pufarin - Icecrown"] = "Pufarin - Icecrown",
+		["Izanagi - Icecrown"] = "Izanagi - Icecrown",
+		["Drext - Icecrown"] = "Drext - Icecrown",
 		["Lingurita - Lordaeron"] = "Lingurita - Lordaeron",
 		["Mirceabravo - Blackrock [PvP only]"] = "Mirceabravo - Blackrock [PvP only]",
-		["Maciucaru - Icecrown"] = "Maciucaru - Icecrown",
-		["Mirceabravo - Icecrown"] = "Mirceabravo - Icecrown",
-		["Praxia - Icecrown"] = "Praxia - Icecrown",
+		["Pufarin - Icecrown"] = "Pufarin - Icecrown",
 		["Inarya - Icecrown"] = "Inarya - Icecrown",
-		["Drext - Icecrown"] = "Drext - Icecrown",
-		["Izanagi - Icecrown"] = "Izanagi - Icecrown",
-		["Flokus - Icecrown"] = "Flokus - Icecrown",
+		["Praxia - Icecrown"] = "Praxia - Icecrown",
+		["Mirceabravo - Icecrown"] = "Mirceabravo - Icecrown",
+		["Maciucaru - Icecrown"] = "Maciucaru - Icecrown",
+		["Nalar - Icecrown"] = "Nalar - Icecrown",
+		["Pocaitoru - Icecrown"] = "Pocaitoru - Icecrown",
 	},
 	["profiles"] = {
 		["Rimgar - Icecrown"] = {
@@ -35,8 +35,8 @@ GladiusDB = {
 		},
 		["Vrael - Icecrown"] = {
 			["locked"] = true,
-			["y"] = 534.3400596661643,
 			["x"] = 941.2586748758234,
+			["y"] = 534.3400596661643,
 		},
 		["Rakhnis - Icecrown"] = {
 			["locked"] = true,
@@ -83,27 +83,30 @@ GladiusDB = {
 			["x"] = 953.6932015330746,
 			["y"] = 521.9056625649222,
 		},
+		["Flokus - Icecrown"] = {
+			["locked"] = true,
+			["y"] = 487.299953533341,
+			["x"] = 1172.283413208229,
+		},
 		["Kalaam - Icecrown"] = {
 			["locked"] = true,
 			["x"] = 1094.593424388484,
 			["y"] = 553.2556640183522,
-		},
-		["Pocaitoru - Icecrown"] = {
-			["locked"] = true,
-			["x"] = 1068.283355016582,
-			["y"] = 591.6555710886522,
 		},
 		["Elgorath - Icecrown"] = {
 			["locked"] = true,
 			["x"] = 1168.703932839543,
 			["y"] = 515.2998358767728,
 		},
-		["Nalar - Icecrown"] = {
+		["Izanagi - Icecrown"] = {
 			["locked"] = true,
-			["x"] = 1091.038524034304,
-			["y"] = 556.8110685779587,
+			["x"] = 1115.216434712108,
+			["y"] = 551.122181785011,
 		},
-		["Pufarin - Icecrown"] = {
+		["Drext - Icecrown"] = {
+			["locked"] = true,
+			["x"] = 1050.499960681949,
+			["y"] = 522.0000221548672,
 		},
 		["Lingurita - Lordaeron"] = {
 			["locked"] = true,
@@ -111,40 +114,37 @@ GladiusDB = {
 		["Mirceabravo - Blackrock [PvP only]"] = {
 			["locked"] = true,
 		},
-		["Maciucaru - Icecrown"] = {
-			["locked"] = true,
-			["x"] = 1049.500140519296,
-			["y"] = 529.9999838625041,
-		},
-		["Mirceabravo - Icecrown"] = {
-			["locked"] = true,
-			["x"] = 1055.500041779703,
-			["y"] = 523.9999425614554,
-		},
-		["Praxia - Icecrown"] = {
-			["locked"] = true,
-			["x"] = 969.0531028795333,
-			["y"] = 556.2828637883971,
+		["Pufarin - Icecrown"] = {
 		},
 		["Inarya - Icecrown"] = {
 			["locked"] = true,
 			["x"] = 1097.083064729433,
 			["y"] = 505.4333235160159,
 		},
-		["Drext - Icecrown"] = {
+		["Praxia - Icecrown"] = {
 			["locked"] = true,
-			["x"] = 1050.499960681949,
-			["y"] = 522.0000221548672,
+			["x"] = 969.0531028795333,
+			["y"] = 556.2828637883971,
 		},
-		["Izanagi - Icecrown"] = {
+		["Mirceabravo - Icecrown"] = {
 			["locked"] = true,
-			["x"] = 1115.216434712108,
-			["y"] = 551.122181785011,
+			["x"] = 1055.500041779703,
+			["y"] = 523.9999425614554,
 		},
-		["Flokus - Icecrown"] = {
+		["Maciucaru - Icecrown"] = {
 			["locked"] = true,
-			["x"] = 1172.283413208229,
-			["y"] = 487.299953533341,
+			["x"] = 1049.500140519296,
+			["y"] = 529.9999838625041,
+		},
+		["Nalar - Icecrown"] = {
+			["locked"] = true,
+			["x"] = 1091.038524034304,
+			["y"] = 556.8110685779587,
+		},
+		["Pocaitoru - Icecrown"] = {
+			["locked"] = true,
+			["x"] = 1068.283355016582,
+			["y"] = 591.6555710886522,
 		},
 	},
 }
