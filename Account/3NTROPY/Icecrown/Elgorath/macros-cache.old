@@ -1,0 +1,43 @@
+MACRO 16777222 "banish" INV_Misc_QuestionMark
+#showtootlip banish
+/cast [target=focus] banish
+END
+MACRO 16777221 "ffear" INV_Misc_QuestionMark
+#showtooltip fear
+/cast [target=focus] fear
+END
+MACRO 16777219 "fsb" INV_Misc_QuestionMark
+#showtooltip Shadow Bolt(Rank 1)
+/cast [target=mouseover] Shadow Bolt(Rank 1)
+/cast Shadow Bolt(Rank 1)
+END
+MACRO 16777223 "mbanish" INV_Misc_QuestionMark
+#showtootlip banish
+/cast [target=mouseover] banish
+/cast banish
+END
+MACRO 16777224 "meta" INV_Misc_QuestionMark
+#showtooltip metamorphosis
+/cast metamorphosis
+/cast immolation aura
+END
+MACRO 16777220 "mount" INV_Misc_QuestionMark
+#showtootlip
+/userandom [flyable] Bloodbathed Frostbrood Vanquisher,X-53 Touring Rocket,Vengeful Nether Drake;Traveler's Tundra Mammoth,Dreadsteed
+END
+MACRO 16777217 "sb" INV_Misc_QuestionMark
+#showtooltip shadow bolt
+/startattack
+/cast Demonic Empowerment
+/petattack
+/cast shadow cleave
+/cast shadow bolt
+END
+MACRO 16777218 "sf" INV_Misc_QuestionMark
+#showtooltip soul fire
+/startattack
+/cast Demonic Empowerment
+/petattack
+/cast shadow cleave
+/cast soul fire
+END
