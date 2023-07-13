@@ -2,38 +2,43 @@
 SkadaStorageDB = {
 	["total"] = {
 		["mana"] = 63635,
-		["rage"] = 1299,
 		["dispel"] = 6,
 		["totaldamage"] = 6215653,
 		["time"] = 386,
-		["starttime"] = 1689110712,
 		["totaldamagetaken"] = 1051132,
 		["damage"] = 6215653,
-		["overheal"] = 366049,
+		["rage"] = 1299,
 		["ress"] = 1,
 		["damagetaken"] = 944550,
+		["interrupt"] = 4,
+		["overkill"] = 252900,
+		["heal"] = 966481,
+		["name"] = "Total",
+		["ccdone"] = 8,
+		["starttime"] = 1689110712,
 		["players"] = {
 			{
-				["flag"] = 1298,
-				["mana"] = 17928,
-				["dispel"] = 6,
-				["time"] = 240.99,
-				["totaldamagetaken"] = 66429,
-				["damage"] = 404716,
 				["overheal"] = 267439,
+				["totaldamage"] = 404716,
 				["damagetaken"] = 66429,
 				["id"] = "0x070000000096874A",
-				["spec"] = 264,
-				["overkill"] = 102125,
+				["flag"] = 1298,
+				["mana"] = 17928,
 				["heal"] = 847251,
-				["name"] = "Zbeguini",
-				["class"] = "SHAMAN",
-				["totaldamage"] = 404716,
+				["overkill"] = 102125,
+				["dispel"] = 6,
 				["role"] = "HEALER",
+				["time"] = 240.99,
+				["spec"] = 264,
+				["name"] = "Zbeguini",
+				["totaldamagetaken"] = 66429,
+				["class"] = "SHAMAN",
+				["damage"] = 404716,
 			}, -- [1]
 			{
 				["flag"] = 1298,
 				["class"] = "DRUID",
+				["totaldamage"] = 1294776,
 				["time"] = 347.8700000000001,
 				["totaldamagetaken"] = 431932,
 				["damage"] = 1294776,
@@ -42,18 +47,18 @@ SkadaStorageDB = {
 				["id"] = "0x070000000086CEC0",
 				["spec"] = 103,
 				["overkill"] = 22735,
-				["interrupt"] = 2,
 				["heal"] = 31580,
 				["name"] = "Moonsoonx",
 				["ccdone"] = 4,
+				["interrupt"] = 2,
 				["overheal"] = 40638,
 				["mana"] = 25346,
-				["totaldamage"] = 1294776,
 				["role"] = "TANK",
 			}, -- [2]
 			{
 				["flag"] = 1297,
 				["class"] = "WARRIOR",
+				["totaldamage"] = 3197030,
 				["time"] = 330.3900000000004,
 				["totaldamagetaken"] = 302347,
 				["damage"] = 3197030,
@@ -67,28 +72,28 @@ SkadaStorageDB = {
 				["ccdone"] = 3,
 				["rage"] = 76,
 				["interrupt"] = 2,
-				["totaldamage"] = 3197030,
 				["role"] = "DAMAGER",
 			}, -- [3]
 			{
 				["overheal"] = 16178,
 				["damagetaken"] = 90174,
-				["heal"] = 12201,
 				["id"] = "0x0700000000951145",
 				["class"] = "DEATHKNIGHT",
-				["name"] = "Torreznos",
+				["spec"] = 252,
 				["overkill"] = 2183,
-				["totaldamage"] = 603202,
 				["role"] = "DAMAGER",
+				["totaldamage"] = 603202,
+				["name"] = "Torreznos",
 				["time"] = 229.91,
 				["flag"] = 1298,
 				["totaldamagetaken"] = 90174,
-				["spec"] = 252,
+				["heal"] = 12201,
 				["damage"] = 603202,
 			}, -- [4]
 			{
 				["flag"] = 1298,
 				["mana"] = 20361,
+				["totaldamage"] = 715929,
 				["time"] = 307.5899999999999,
 				["totaldamagetaken"] = 160250,
 				["damage"] = 715929,
@@ -101,27 +106,21 @@ SkadaStorageDB = {
 				["heal"] = 34815,
 				["name"] = "Anusalro",
 				["ccdone"] = 1,
-				["totaldamage"] = 715929,
 				["class"] = "DRUID",
 				["energy"] = 520,
 				["role"] = "DAMAGER",
 			}, -- [5]
 		},
-		["interrupt"] = 4,
-		["overkill"] = 252900,
-		["name"] = "Total",
-		["heal"] = 966481,
-		["ccdone"] = 8,
 		["energy"] = 520,
+		["overheal"] = 366049,
 	},
 	["version"] = 1878,
 	["sets"] = {
 		{
-			["damage"] = 1210495,
-			["success"] = true,
-			["ccdone"] = 1,
+			["rage"] = 304,
+			["etotaldamagetaken"] = 1210495,
 			["mana"] = 17885,
-			["gotboss"] = 35451,
+			["energy"] = 120,
 			["enemies"] = {
 				{
 					["damagespells"] = {
@@ -375,15 +374,6 @@ SkadaStorageDB = {
 							},
 							["amount"] = 3791,
 						},
-						[21179] = {
-							["school"] = 8,
-							["sources"] = {
-								["Moonsoonx"] = {
-									["amount"] = 243,
-								},
-							},
-							["amount"] = 243,
-						},
 						[47520] = {
 							["school"] = 1,
 							["sources"] = {
@@ -393,14 +383,37 @@ SkadaStorageDB = {
 							},
 							["amount"] = 14817,
 						},
-						[47632] = {
-							["school"] = 32,
+						[21179] = {
+							["school"] = 8,
 							["sources"] = {
-								["Torreznos"] = {
-									["amount"] = 11024,
+								["Moonsoonx"] = {
+									["amount"] = 243,
 								},
 							},
-							["amount"] = 11024,
+							["amount"] = 243,
+						},
+						[6603] = {
+							["school"] = 1,
+							["sources"] = {
+								["Torreznos"] = {
+									["overkill"] = 1320,
+									["amount"] = 35430,
+								},
+								["Moonsoonx"] = {
+									["amount"] = 3469,
+								},
+								["Rimgar"] = {
+									["amount"] = 81882,
+								},
+								["Anusalro"] = {
+									["amount"] = 46445,
+								},
+								["Zbeguini"] = {
+									["amount"] = 494,
+								},
+							},
+							["overkill"] = 1320,
+							["amount"] = 167720,
 						},
 						[60089] = {
 							["school"] = 8,
@@ -523,28 +536,14 @@ SkadaStorageDB = {
 							},
 							["amount"] = 21510,
 						},
-						[6603] = {
-							["school"] = 1,
+						[49909] = {
+							["school"] = 16,
 							["sources"] = {
 								["Torreznos"] = {
-									["overkill"] = 1320,
-									["amount"] = 35430,
-								},
-								["Moonsoonx"] = {
-									["amount"] = 3469,
-								},
-								["Rimgar"] = {
-									["amount"] = 81882,
-								},
-								["Anusalro"] = {
-									["amount"] = 46445,
-								},
-								["Zbeguini"] = {
-									["amount"] = 494,
+									["amount"] = 4162,
 								},
 							},
-							["overkill"] = 1320,
-							["amount"] = 167720,
+							["amount"] = 4162,
 						},
 						[70890] = {
 							["school"] = 32,
@@ -555,14 +554,14 @@ SkadaStorageDB = {
 							},
 							["amount"] = 9893,
 						},
-						[49909] = {
-							["school"] = 16,
+						[47632] = {
+							["school"] = 32,
 							["sources"] = {
 								["Torreznos"] = {
-									["amount"] = 4162,
+									["amount"] = 11024,
 								},
 							},
-							["amount"] = 4162,
+							["amount"] = 11024,
 						},
 						[50463] = {
 							["school"] = 1,
@@ -574,8 +573,8 @@ SkadaStorageDB = {
 							["amount"] = 5109,
 						},
 					},
-					["name"] = "The Black Knight",
 					["totaldamage"] = 190892,
+					["name"] = "The Black Knight",
 					["totaldamagetaken"] = 875586,
 					["id"] = "0xF130008A7B0000B4",
 					["damage"] = 169683,
@@ -706,8 +705,8 @@ SkadaStorageDB = {
 							["amount"] = 507,
 						},
 					},
-					["name"] = "Risen Arelas Brightstar",
 					["totaldamage"] = 3253,
+					["name"] = "Risen Arelas Brightstar",
 					["totaldamagetaken"] = 55331,
 					["id"] = "0xF130008AEC0000B5",
 					["damage"] = 2990,
@@ -847,6 +846,15 @@ SkadaStorageDB = {
 							},
 							["amount"] = 5893,
 						},
+						[71904] = {
+							["school"] = 32,
+							["sources"] = {
+								["Rimgar"] = {
+									["amount"] = 1804,
+								},
+							},
+							["amount"] = 1804,
+						},
 						[50622] = {
 							["school"] = 1,
 							["sources"] = {
@@ -867,18 +875,9 @@ SkadaStorageDB = {
 							},
 							["amount"] = 13645,
 						},
-						[71904] = {
-							["school"] = 32,
-							["sources"] = {
-								["Rimgar"] = {
-									["amount"] = 1804,
-								},
-							},
-							["amount"] = 1804,
-						},
 					},
-					["name"] = "Risen Champion",
 					["totaldamage"] = 43944,
+					["name"] = "Risen Champion",
 					["totaldamagetaken"] = 279578,
 					["id"] = "0xF130008B060000B6",
 					["damage"] = 43696,
@@ -887,10 +886,22 @@ SkadaStorageDB = {
 			["dispel"] = 6,
 			["totaldamage"] = 1210495,
 			["time"] = 74,
-			["energy"] = 120,
+			["damage"] = 1210495,
 			["totaldamagetaken"] = 295325,
-			["etotaldamagetaken"] = 1210495,
+			["etotaldamage"] = 238089,
 			["last_time"] = 11468.08,
+			["starttime"] = 1689111162,
+			["type"] = "party",
+			["damagetaken"] = 273605,
+			["gotboss"] = 35451,
+			["ccdone"] = 1,
+			["success"] = true,
+			["overheal"] = 83824,
+			["overkill"] = 60593,
+			["edamagetaken"] = 1210495,
+			["heal"] = 278656,
+			["name"] = "The Black Knight",
+			["mobname"] = "The Black Knight",
 			["players"] = {
 				{
 					["last"] = 11460.976,
@@ -913,9 +924,9 @@ SkadaStorageDB = {
 							["uptime"] = 74,
 						},
 						[46924] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 1,
 							["uptime"] = 6,
 						},
 						[60503] = {
@@ -926,9 +937,9 @@ SkadaStorageDB = {
 							["uptime"] = 13,
 						},
 						[12328] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 1,
 							["uptime"] = 12,
 						},
 						[71905] = {
@@ -939,9 +950,9 @@ SkadaStorageDB = {
 							["uptime"] = 35,
 						},
 						[65156] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 2,
-							["school"] = 1,
 							["uptime"] = 3,
 						},
 						[70855] = {
@@ -957,46 +968,16 @@ SkadaStorageDB = {
 							["uptime"] = 74,
 						},
 						[71541] = {
+							["school"] = 64,
 							["type"] = "BUFF",
 							["count"] = 2,
-							["school"] = 64,
 							["uptime"] = 30,
 						},
 						[75456] = {
-							["type"] = "BUFF",
-							["count"] = 2,
 							["school"] = 64,
+							["type"] = "BUFF",
+							["count"] = 2,
 							["uptime"] = 30,
-						},
-						[61301] = {
-							["type"] = "BUFF",
-							["count"] = 2,
-							["school"] = 8,
-							["uptime"] = 18,
-						},
-						[52000] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 8,
-							["refresh"] = 1,
-							["uptime"] = 19,
-						},
-						[16237] = {
-							["type"] = "BUFF",
-							["count"] = 2,
-							["school"] = 2,
-							["refresh"] = 3,
-							["uptime"] = 40,
-						},
-						[52113] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 74,
-						},
-						[28878] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 74,
 						},
 						[47465] = {
 							["type"] = "DEBUFF",
@@ -1010,6 +991,36 @@ SkadaStorageDB = {
 							},
 							["uptime"] = 47,
 						},
+						[61301] = {
+							["school"] = 8,
+							["type"] = "BUFF",
+							["count"] = 2,
+							["uptime"] = 18,
+						},
+						[52000] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 8,
+							["refresh"] = 1,
+							["uptime"] = 19,
+						},
+						[52113] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 74,
+						},
+						[28878] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 74,
+						},
+						[16237] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 2,
+							["refresh"] = 3,
+							["uptime"] = 40,
+						},
 						[52437] = {
 							["type"] = "BUFF",
 							["count"] = 5,
@@ -1018,9 +1029,9 @@ SkadaStorageDB = {
 							["uptime"] = 25,
 						},
 						[72412] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 1,
 							["uptime"] = 10,
 						},
 						[59620] = {
@@ -1031,9 +1042,9 @@ SkadaStorageDB = {
 							["uptime"] = 59,
 						},
 						[73422] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 3,
-							["school"] = 1,
 							["uptime"] = 30,
 						},
 						[47486] = {
@@ -1043,8 +1054,8 @@ SkadaStorageDB = {
 							["refresh"] = 5,
 							["targets"] = {
 								["The Black Knight"] = {
-									["count"] = 3,
 									["refresh"] = 5,
+									["count"] = 3,
 									["uptime"] = 37,
 								},
 								["Risen Arelas Brightstar"] = {
@@ -1079,9 +1090,9 @@ SkadaStorageDB = {
 							["uptime"] = 72,
 						},
 						[29131] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 1,
 							["uptime"] = 10,
 						},
 						[12721] = {
@@ -1095,13 +1106,13 @@ SkadaStorageDB = {
 									["count"] = 1,
 								},
 								["The Black Knight"] = {
-									["count"] = 5,
 									["refresh"] = 20,
+									["count"] = 5,
 									["uptime"] = 61,
 								},
 								["Risen Champion"] = {
-									["count"] = 7,
 									["refresh"] = 10,
+									["count"] = 7,
 									["uptime"] = 11,
 								},
 							},
@@ -1118,13 +1129,13 @@ SkadaStorageDB = {
 									["count"] = 1,
 								},
 								["The Black Knight"] = {
-									["count"] = 10,
 									["refresh"] = 16,
+									["count"] = 10,
 									["uptime"] = 39,
 								},
 								["Risen Champion"] = {
-									["count"] = 7,
 									["refresh"] = 10,
+									["count"] = 7,
 									["uptime"] = 11,
 								},
 							},
@@ -1136,25 +1147,21 @@ SkadaStorageDB = {
 							["uptime"] = 74,
 						},
 					},
+					["totaldamage"] = 736626,
 					["time"] = 66.83999999999999,
 					["totaldamagetaken"] = 54904,
 					["damage"] = 736626,
 					["overheal"] = 6205,
-					["ragespells"] = {
-						[2687] = 20,
-						[29131] = 10,
-					},
 					["damagetaken"] = 54904,
 					["id"] = "0x070000000040A064",
 					["spec"] = 71,
 					["healspells"] = {
 						[34299] = {
 							["overheal"] = 6205,
-							["max"] = 1394,
+							["school"] = 1,
 							["count"] = 9,
 							["amount"] = 6337,
-							["school"] = 1,
-							["min"] = 763,
+							["max"] = 1394,
 							["ishot"] = true,
 							["targets"] = {
 								["Rimgar"] = {
@@ -1162,9 +1169,15 @@ SkadaStorageDB = {
 									["amount"] = 6337,
 								},
 							},
+							["min"] = 763,
 						},
 					},
 					["overkill"] = 43819,
+					["ragespells"] = {
+						[2687] = 20,
+						[29131] = 10,
+					},
+					["name"] = "Rimgar",
 					["damagetakenspells"] = {
 						["Melee"] = {
 							["DODGE"] = 3,
@@ -1244,7 +1257,6 @@ SkadaStorageDB = {
 						},
 					},
 					["heal"] = 6337,
-					["name"] = "Rimgar",
 					["rage"] = 30,
 					["damagespells"] = {
 						["Melee"] = {
@@ -1259,14 +1271,14 @@ SkadaStorageDB = {
 									["amount"] = 4411,
 								},
 							},
-							["hitmax"] = 4831,
-							["count"] = 12,
-							["criticalmax"] = 10760,
+							["criticalmin"] = 6832,
 							["critical"] = 7,
+							["criticalmax"] = 10760,
+							["count"] = 12,
 							["amount"] = 86293,
 							["school"] = 1,
 							["hit"] = 5,
-							["criticalmin"] = 6832,
+							["hitmax"] = 4831,
 							["hitamount"] = 22363,
 						},
 						["Chaos Bane"] = {
@@ -1294,11 +1306,11 @@ SkadaStorageDB = {
 							["hitamount"] = 6674,
 						},
 						["Execute"] = {
-							["criticalmax"] = 12485,
-							["hitmin"] = 4179,
 							["criticalamount"] = 24038,
-							["id"] = 20647,
+							["hitmin"] = 4179,
 							["criticalmin"] = 11553,
+							["id"] = 20647,
+							["casts"] = 1,
 							["targets"] = {
 								["The Black Knight"] = {
 									["overkill"] = 2379,
@@ -1306,22 +1318,22 @@ SkadaStorageDB = {
 								},
 							},
 							["overkill"] = 2379,
-							["critical"] = 2,
-							["casts"] = 1,
 							["count"] = 4,
-							["hit"] = 2,
-							["school"] = 1,
+							["criticalmax"] = 12485,
 							["hitmax"] = 5040,
 							["amount"] = 33257,
+							["school"] = 1,
+							["hit"] = 2,
+							["critical"] = 2,
 							["hitamount"] = 9219,
 						},
 						["Whirlwind"] = {
-							["count"] = 28,
-							["blocked"] = 40,
+							["criticalmin"] = 8072,
+							["hit"] = 11,
 							["hitmin"] = 3460,
 							["criticalamount"] = 154378,
 							["id"] = 50622,
-							["hitmax"] = 4193,
+							["critical"] = 17,
 							["targets"] = {
 								["Risen Champion"] = {
 									["overkill"] = 5330,
@@ -1332,37 +1344,21 @@ SkadaStorageDB = {
 								},
 							},
 							["overkill"] = 5330,
-							["hit"] = 11,
-							["casts"] = 1,
-							["critical"] = 17,
+							["blocked"] = 40,
+							["criticalmax"] = 9912,
+							["hitmax"] = 4193,
 							["amount"] = 196329,
 							["school"] = 1,
-							["criticalmin"] = 8072,
-							["criticalmax"] = 9912,
+							["count"] = 28,
+							["casts"] = 1,
 							["hitamount"] = 41951,
 						},
-						["Victory Rush"] = {
-							["hitmin"] = 3791,
-							["id"] = 34428,
-							["targets"] = {
-								["The Black Knight"] = {
-									["amount"] = 3791,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 1,
-							["hitmax"] = 3791,
-							["amount"] = 3791,
-							["hitamount"] = 3791,
-						},
 						["Cleave"] = {
-							["count"] = 4,
+							["criticalmin"] = 9407,
 							["hitmin"] = 4538,
 							["criticalamount"] = 29637,
 							["id"] = 47520,
-							["hitmax"] = 4538,
+							["critical"] = 3,
 							["targets"] = {
 								["The Black Knight"] = {
 									["amount"] = 14817,
@@ -1373,14 +1369,37 @@ SkadaStorageDB = {
 								},
 							},
 							["overkill"] = 3202,
-							["hit"] = 1,
-							["casts"] = 2,
-							["critical"] = 3,
 							["amount"] = 34175,
-							["school"] = 1,
-							["criticalmin"] = 9407,
 							["criticalmax"] = 10279,
+							["hitmax"] = 4538,
+							["hit"] = 1,
+							["school"] = 1,
+							["count"] = 4,
+							["casts"] = 2,
 							["hitamount"] = 4538,
+						},
+						["Thunder Clap"] = {
+							["hitmin"] = 1491,
+							["criticalamount"] = 10569,
+							["id"] = 47502,
+							["criticalmin"] = 3523,
+							["targets"] = {
+								["Risen Champion"] = {
+									["amount"] = 13611,
+								},
+								["The Black Knight"] = {
+									["amount"] = 1581,
+								},
+							},
+							["casts"] = 1,
+							["count"] = 6,
+							["criticalmax"] = 3523,
+							["hitmax"] = 1581,
+							["amount"] = 15192,
+							["school"] = 1,
+							["hit"] = 3,
+							["critical"] = 3,
+							["hitamount"] = 4623,
 						},
 						["Sweeping Strikes"] = {
 							["hitmin"] = 3694,
@@ -1435,36 +1454,29 @@ SkadaStorageDB = {
 							["amount"] = 29101,
 							["hitamount"] = 29101,
 						},
-						["Thunder Clap"] = {
-							["hitmin"] = 1491,
-							["criticalamount"] = 10569,
-							["id"] = 47502,
-							["criticalmin"] = 3523,
+						["Victory Rush"] = {
+							["hitmin"] = 3791,
+							["id"] = 34428,
 							["targets"] = {
-								["Risen Champion"] = {
-									["amount"] = 13611,
-								},
 								["The Black Knight"] = {
-									["amount"] = 1581,
+									["amount"] = 3791,
 								},
 							},
-							["criticalmax"] = 3523,
-							["critical"] = 3,
 							["casts"] = 1,
-							["count"] = 6,
-							["hit"] = 3,
+							["count"] = 1,
+							["hit"] = 1,
 							["school"] = 1,
-							["hitmax"] = 1581,
-							["amount"] = 15192,
-							["hitamount"] = 4623,
+							["hitmax"] = 3791,
+							["amount"] = 3791,
+							["hitamount"] = 3791,
 						},
 						["Mortal Strike"] = {
-							["count"] = 9,
-							["hitmax"] = 5821,
+							["criticalmin"] = 10497,
+							["blocked"] = 40,
 							["hitmin"] = 5821,
 							["criticalamount"] = 105518,
 							["id"] = 47486,
-							["hit"] = 1,
+							["critical"] = 8,
 							["targets"] = {
 								["The Black Knight"] = {
 									["overkill"] = 1991,
@@ -1475,13 +1487,13 @@ SkadaStorageDB = {
 								},
 							},
 							["overkill"] = 1991,
-							["blocked"] = 40,
-							["casts"] = 9,
-							["critical"] = 8,
+							["hit"] = 1,
+							["criticalmax"] = 15014,
+							["hitmax"] = 5821,
 							["amount"] = 111339,
 							["school"] = 1,
-							["criticalmin"] = 10497,
-							["criticalmax"] = 15014,
+							["count"] = 9,
+							["casts"] = 9,
 							["hitamount"] = 5821,
 						},
 						["Overpower"] = {
@@ -1535,18 +1547,17 @@ SkadaStorageDB = {
 									["amount"] = 21510,
 								},
 							},
-							["criticalmax"] = 11488,
-							["critical"] = 1,
 							["casts"] = 3,
 							["count"] = 3,
-							["hit"] = 2,
-							["school"] = 1,
+							["criticalmax"] = 11488,
 							["hitmax"] = 5694,
 							["amount"] = 21510,
+							["school"] = 1,
+							["hit"] = 2,
+							["critical"] = 1,
 							["hitamount"] = 10022,
 						},
 					},
-					["totaldamage"] = 736626,
 					["role"] = "DAMAGER",
 				}, -- [1]
 				{
@@ -1587,9 +1598,9 @@ SkadaStorageDB = {
 							["uptime"] = 74,
 						},
 						[49284] = {
+							["school"] = 8,
 							["type"] = "BUFF",
 							["count"] = 2,
-							["school"] = 8,
 							["uptime"] = 48,
 						},
 						[72221] = {
@@ -1597,17 +1608,26 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 74,
 						},
-						[16237] = {
-							["type"] = "BUFF",
-							["count"] = 2,
-							["school"] = 2,
-							["refresh"] = 2,
-							["uptime"] = 36,
-						},
 						[58646] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 74,
+						},
+						[48564] = {
+							["type"] = "DEBUFF",
+							["count"] = 3,
+							["school"] = 1,
+							["targets"] = {
+								["The Black Knight"] = {
+									["uptime"] = 3,
+									["count"] = 2,
+								},
+								["Risen Arelas Brightstar"] = {
+									["uptime"] = 2,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 5,
 						},
 						[48560] = {
 							["type"] = "DEBUFF",
@@ -1632,21 +1652,12 @@ SkadaStorageDB = {
 							["refresh"] = 15,
 							["uptime"] = 69,
 						},
-						[48564] = {
-							["type"] = "DEBUFF",
-							["count"] = 3,
-							["school"] = 1,
-							["targets"] = {
-								["The Black Knight"] = {
-									["uptime"] = 3,
-									["count"] = 2,
-								},
-								["Risen Arelas Brightstar"] = {
-									["uptime"] = 2,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 5,
+						[16237] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 2,
+							["refresh"] = 2,
+							["uptime"] = 36,
 						},
 						[52113] = {
 							["type"] = "BUFF",
@@ -1664,15 +1675,15 @@ SkadaStorageDB = {
 							["uptime"] = 74,
 						},
 						[61301] = {
+							["school"] = 8,
 							["type"] = "BUFF",
 							["count"] = 2,
-							["school"] = 8,
 							["uptime"] = 30,
 						},
 						[47436] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 1,
 							["uptime"] = 25,
 						},
 						[59620] = {
@@ -1694,13 +1705,13 @@ SkadaStorageDB = {
 							["refresh"] = 11,
 							["targets"] = {
 								["The Black Knight"] = {
-									["count"] = 4,
 									["refresh"] = 10,
+									["count"] = 4,
 									["uptime"] = 49,
 								},
 								["Risen Arelas Brightstar"] = {
-									["count"] = 1,
 									["refresh"] = 1,
+									["count"] = 1,
 									["uptime"] = 5,
 								},
 							},
@@ -1719,9 +1730,9 @@ SkadaStorageDB = {
 							["uptime"] = 33,
 						},
 						[16870] = {
+							["school"] = 8,
 							["type"] = "BUFF",
 							["count"] = 3,
-							["school"] = 8,
 							["uptime"] = 5,
 						},
 						[52000] = {
@@ -1743,8 +1754,8 @@ SkadaStorageDB = {
 							["refresh"] = 2,
 							["targets"] = {
 								["The Black Knight"] = {
-									["count"] = 6,
 									["refresh"] = 2,
+									["count"] = 6,
 									["uptime"] = 26,
 								},
 							},
@@ -1756,12 +1767,9 @@ SkadaStorageDB = {
 							["uptime"] = 7,
 						},
 					},
+					["totaldamage"] = 217597,
 					["time"] = 64.83000000000001,
-					["manaspells"] = {
-						[68285] = 5336,
-					},
 					["totaldamagetaken"] = 127337,
-					["overkill"] = 14591,
 					["damage"] = 217597,
 					["damagespells"] = {
 						["Melee"] = {
@@ -1784,11 +1792,11 @@ SkadaStorageDB = {
 							["glancemin"] = 1035,
 						},
 						["Lacerate"] = {
-							["blocked"] = 40,
+							["criticalmin"] = 282,
 							["hitmin"] = 120,
 							["criticalamount"] = 2656,
 							["id"] = 48568,
-							["hitmax"] = 191,
+							["hit"] = 8,
 							["targets"] = {
 								["The Black Knight"] = {
 									["amount"] = 3490,
@@ -1797,15 +1805,41 @@ SkadaStorageDB = {
 									["amount"] = 432,
 								},
 							},
-							["count"] = 16,
-							["hit"] = 8,
-							["casts"] = 16,
 							["critical"] = 8,
+							["blocked"] = 40,
+							["criticalmax"] = 382,
+							["count"] = 16,
 							["amount"] = 3922,
 							["school"] = 1,
-							["criticalmin"] = 282,
-							["criticalmax"] = 382,
+							["hitmax"] = 191,
+							["casts"] = 16,
 							["hitamount"] = 1266,
+						},
+						["Swipe (Bear)"] = {
+							["criticalmin"] = 1046,
+							["hit"] = 23,
+							["hitmin"] = 523,
+							["criticalamount"] = 14698,
+							["id"] = 48562,
+							["critical"] = 13,
+							["targets"] = {
+								["Risen Champion"] = {
+									["overkill"] = 38,
+									["amount"] = 20230,
+								},
+								["The Black Knight"] = {
+									["amount"] = 7452,
+								},
+							},
+							["overkill"] = 38,
+							["blocked"] = 80,
+							["criticalmax"] = 1168,
+							["hitmax"] = 584,
+							["amount"] = 27682,
+							["school"] = 1,
+							["count"] = 36,
+							["casts"] = 9,
+							["hitamount"] = 12984,
 						},
 						["Lacerate (DoT)"] = {
 							["hitmin"] = 215,
@@ -1819,69 +1853,43 @@ SkadaStorageDB = {
 									["amount"] = 414,
 								},
 							},
-							["hitmax"] = 1163,
-							["count"] = 16,
-							["criticalmax"] = 2154,
+							["criticalmin"] = 414,
 							["critical"] = 10,
+							["criticalmax"] = 2154,
+							["count"] = 16,
 							["amount"] = 13660,
 							["school"] = 1,
 							["hit"] = 6,
-							["criticalmin"] = 414,
+							["hitmax"] = 1163,
 							["hitamount"] = 4277,
-						},
-						["Swipe (Bear)"] = {
-							["blocked"] = 80,
-							["count"] = 36,
-							["hitmin"] = 523,
-							["criticalamount"] = 14698,
-							["id"] = 48562,
-							["hitmax"] = 584,
-							["targets"] = {
-								["Risen Champion"] = {
-									["overkill"] = 38,
-									["amount"] = 20230,
-								},
-								["The Black Knight"] = {
-									["amount"] = 7452,
-								},
-							},
-							["overkill"] = 38,
-							["hit"] = 23,
-							["casts"] = 9,
-							["critical"] = 13,
-							["amount"] = 27682,
-							["school"] = 1,
-							["criticalmin"] = 1046,
-							["criticalmax"] = 1168,
-							["hitamount"] = 12984,
 						},
 						["Faerie Fire (Feral)"] = {
 							["hitmin"] = 982,
 							["criticalamount"] = 3139,
 							["id"] = 60089,
-							["hitmax"] = 1289,
+							["criticalmin"] = 1474,
 							["targets"] = {
 								["The Black Knight"] = {
 									["amount"] = 10284,
 								},
 							},
-							["count"] = 8,
-							["hit"] = 6,
-							["casts"] = 8,
 							["critical"] = 2,
 							["amount"] = 10284,
-							["school"] = 8,
-							["criticalmin"] = 1474,
 							["criticalmax"] = 1665,
+							["count"] = 8,
+							["hit"] = 6,
+							["school"] = 8,
+							["hitmax"] = 1289,
+							["casts"] = 8,
 							["hitamount"] = 7145,
 						},
 						["Maul"] = {
-							["blocked"] = 40,
-							["count"] = 34,
+							["criticalmin"] = 3494,
+							["hit"] = 15,
 							["hitmin"] = 1739,
 							["criticalamount"] = 102196,
 							["id"] = 48480,
-							["hitmax"] = 3390,
+							["critical"] = 19,
 							["targets"] = {
 								["Risen Arelas Brightstar"] = {
 									["overkill"] = 4931,
@@ -1897,13 +1905,13 @@ SkadaStorageDB = {
 								},
 							},
 							["overkill"] = 14553,
-							["hit"] = 15,
-							["casts"] = 24,
-							["critical"] = 19,
+							["blocked"] = 40,
+							["criticalmax"] = 6678,
+							["hitmax"] = 3390,
 							["amount"] = 145345,
 							["school"] = 1,
-							["criticalmin"] = 3494,
-							["criticalmax"] = 6678,
+							["count"] = 34,
+							["casts"] = 24,
 							["hitamount"] = 43149,
 						},
 						["Mangle (Bear)"] = {
@@ -1919,14 +1927,14 @@ SkadaStorageDB = {
 									["amount"] = 3342,
 								},
 							},
-							["criticalmax"] = 3970,
-							["critical"] = 2,
 							["casts"] = 4,
 							["count"] = 4,
-							["hit"] = 2,
-							["school"] = 1,
+							["criticalmax"] = 3970,
 							["hitmax"] = 2042,
 							["amount"] = 11375,
+							["school"] = 1,
+							["hit"] = 2,
+							["critical"] = 2,
 							["hitamount"] = 4063,
 						},
 						["Chain Lightning"] = {
@@ -1965,18 +1973,17 @@ SkadaStorageDB = {
 							["hitamount"] = 1318,
 						},
 					},
-					["overheal"] = 6309,
 					["damagetaken"] = 105617,
+					["overheal"] = 6309,
 					["id"] = "0x070000000086CEC0",
 					["spec"] = 103,
 					["healspells"] = {
 						[34299] = {
 							["overheal"] = 6309,
-							["max"] = 1901,
+							["school"] = 1,
 							["count"] = 8,
 							["amount"] = 8896,
-							["school"] = 1,
-							["min"] = 1294,
+							["max"] = 1901,
 							["ishot"] = true,
 							["targets"] = {
 								["Moonsoonx"] = {
@@ -1984,16 +1991,18 @@ SkadaStorageDB = {
 									["amount"] = 8896,
 								},
 							},
+							["min"] = 1294,
 						},
 					},
+					["overkill"] = 14591,
 					["damagetakenspells"] = {
 						["Melee"] = {
 							["DODGE"] = 16,
 							["total"] = 45156,
 							["hitmin"] = 985,
 							["id"] = 6603,
+							["hit"] = 15,
 							["amount"] = 28319,
-							["ABSORB"] = 2,
 							["sources"] = {
 								["Risen Arelas Brightstar"] = {
 									["total"] = 263,
@@ -2009,7 +2018,7 @@ SkadaStorageDB = {
 								},
 							},
 							["count"] = 35,
-							["hit"] = 15,
+							["ABSORB"] = 2,
 							["school"] = 1,
 							["hitmax"] = 3614,
 							["MISS"] = 2,
@@ -2048,21 +2057,15 @@ SkadaStorageDB = {
 							["amount"] = 3271,
 							["hitamount"] = 3271,
 						},
-						["Death's Bite"] = {
-							["hitmin"] = 1840,
-							["id"] = 67875,
-							["hitmax"] = 2872,
-							["sources"] = {
-								["The Black Knight"] = {
-									["amount"] = 12545,
-								},
-							},
-							["count"] = 5,
-							["hit"] = 5,
-							["school"] = 48,
-							["resisted"] = 1976,
-							["amount"] = 12545,
-							["hitamount"] = 12545,
+						["Desecration"] = {
+							["hitmin"] = 1727,
+							["count"] = 4,
+							["hitmax"] = 1756,
+							["hit"] = 4,
+							["school"] = 32,
+							["id"] = 67876,
+							["amount"] = 6979,
+							["hitamount"] = 6979,
 						},
 						["Blood Plague (DoT)"] = {
 							["hitmin"] = 2251,
@@ -2079,32 +2082,6 @@ SkadaStorageDB = {
 							["resisted"] = 2850,
 							["amount"] = 22389,
 							["hitamount"] = 22389,
-						},
-						["Desecration"] = {
-							["hitmin"] = 1727,
-							["hitmax"] = 1756,
-							["count"] = 4,
-							["amount"] = 6979,
-							["school"] = 32,
-							["id"] = 67876,
-							["hit"] = 4,
-							["hitamount"] = 6979,
-						},
-						["Explode"] = {
-							["hitmin"] = 5419,
-							["id"] = 67886,
-							["hitmax"] = 5419,
-							["sources"] = {
-								["Risen Champion"] = {
-									["amount"] = 5419,
-								},
-							},
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 32,
-							["resisted"] = 2322,
-							["amount"] = 5419,
-							["hitamount"] = 5419,
 						},
 						["Plague Strike"] = {
 							["total"] = 6840,
@@ -2123,6 +2100,34 @@ SkadaStorageDB = {
 							["amount"] = 3620,
 							["hitamount"] = 3620,
 						},
+						["Death's Bite"] = {
+							["hitmin"] = 1840,
+							["id"] = 67875,
+							["hitmax"] = 2872,
+							["sources"] = {
+								["The Black Knight"] = {
+									["amount"] = 12545,
+								},
+							},
+							["count"] = 5,
+							["hit"] = 5,
+							["school"] = 48,
+							["resisted"] = 1976,
+							["amount"] = 12545,
+							["hitamount"] = 12545,
+						},
+						["Claw"] = {
+							["DODGE"] = 1,
+							["sources"] = {
+								["Risen Arelas Brightstar"] = {
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+							["school"] = 1,
+							["id"] = 67879,
+						},
 						["Frost Fever (DoT)"] = {
 							["hitmin"] = 2496,
 							["id"] = 67878,
@@ -2139,20 +2144,27 @@ SkadaStorageDB = {
 							["amount"] = 8461,
 							["hitamount"] = 8461,
 						},
-						["Claw"] = {
-							["DODGE"] = 1,
+						["Explode"] = {
+							["hitmin"] = 5419,
+							["id"] = 67886,
+							["hitmax"] = 5419,
 							["sources"] = {
-								["Risen Arelas Brightstar"] = {
-									["amount"] = 0,
+								["Risen Champion"] = {
+									["amount"] = 5419,
 								},
 							},
 							["count"] = 1,
-							["amount"] = 0,
-							["school"] = 1,
-							["id"] = 67879,
+							["hit"] = 1,
+							["school"] = 32,
+							["resisted"] = 2322,
+							["amount"] = 5419,
+							["hitamount"] = 5419,
 						},
 					},
 					["heal"] = 8896,
+					["manaspells"] = {
+						[68285] = 5336,
+					},
 					["ragespells"] = {
 						[5229] = 8,
 						[16959] = 215,
@@ -2161,7 +2173,6 @@ SkadaStorageDB = {
 					["name"] = "Moonsoonx",
 					["rage"] = 274,
 					["mana"] = 5336,
-					["totaldamage"] = 217597,
 					["role"] = "TANK",
 				}, -- [2]
 				{
@@ -2175,9 +2186,9 @@ SkadaStorageDB = {
 							["uptime"] = 74,
 						},
 						[47436] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 1,
 							["uptime"] = 25,
 						},
 						[28878] = {
@@ -2188,28 +2199,22 @@ SkadaStorageDB = {
 						[57960] = {
 							["type"] = "BUFF",
 							["count"] = 2,
-							["refresh"] = 1,
 							["school"] = 8,
+							["refresh"] = 1,
 							["uptime"] = 60,
 						},
-						[52000] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 8,
-							["uptime"] = 12,
-						},
 						[72418] = {
+							["school"] = 64,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 64,
 							["uptime"] = 10,
 						},
-						[16237] = {
+						[53390] = {
 							["type"] = "BUFF",
-							["count"] = 2,
-							["school"] = 2,
-							["refresh"] = 1,
-							["uptime"] = 32,
+							["count"] = 1,
+							["school"] = 1,
+							["refresh"] = 12,
+							["uptime"] = 66,
 						},
 						[71220] = {
 							["type"] = "BUFF",
@@ -2219,10 +2224,16 @@ SkadaStorageDB = {
 							["uptime"] = 66,
 						},
 						[60520] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 2,
-							["school"] = 1,
 							["uptime"] = 24,
+						},
+						[52000] = {
+							["school"] = 8,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 12,
 						},
 						[52113] = {
 							["type"] = "BUFF",
@@ -2234,12 +2245,12 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 74,
 						},
-						[53390] = {
+						[16237] = {
 							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["refresh"] = 12,
-							["uptime"] = 66,
+							["count"] = 2,
+							["school"] = 2,
+							["refresh"] = 1,
+							["uptime"] = 32,
 						},
 						[24932] = {
 							["type"] = "BUFF",
@@ -2258,11 +2269,11 @@ SkadaStorageDB = {
 						},
 					},
 					["dispel"] = 6,
+					["totaldamage"] = 494,
 					["time"] = 64.32000000000001,
 					["totaldamagetaken"] = 25706,
 					["damage"] = 494,
 					["overheal"] = 63888,
-					["totaldamage"] = 494,
 					["damagetaken"] = 25706,
 					["id"] = "0x070000000096874A",
 					["spec"] = 264,
@@ -2293,12 +2304,12 @@ SkadaStorageDB = {
 									["amount"] = 23331,
 								},
 							},
-							["casts"] = 10,
 							["min"] = 1038,
-							["criticalmax"] = 12206,
+							["casts"] = 10,
 							["critical"] = 16,
 							["amount"] = 148193,
 							["school"] = 8,
+							["criticalmax"] = 12206,
 							["criticalmin"] = 1781,
 							["count"] = 38,
 						},
@@ -2345,20 +2356,19 @@ SkadaStorageDB = {
 							["criticalmin"] = 2949,
 							["min"] = 517,
 							["casts"] = 6,
-							["count"] = 32,
+							["critical"] = 3,
 							["amount"] = 41742,
 							["school"] = 8,
 							["criticalmax"] = 4872,
 							["ishot"] = true,
-							["critical"] = 3,
+							["count"] = 32,
 						},
 						[52042] = {
 							["overheal"] = 20842,
-							["max"] = 454,
+							["school"] = 8,
 							["count"] = 75,
 							["amount"] = 10074,
-							["school"] = 8,
-							["min"] = 170,
+							["max"] = 454,
 							["ishot"] = true,
 							["targets"] = {
 								["Torreznos"] = {
@@ -2382,9 +2392,14 @@ SkadaStorageDB = {
 									["amount"] = 1209,
 								},
 							},
+							["min"] = 170,
 						},
 						[52000] = {
 							["overheal"] = 6618,
+							["max"] = 732,
+							["count"] = 30,
+							["amount"] = 15245,
+							["school"] = 8,
 							["targets"] = {
 								["Torreznos"] = {
 									["overheal"] = 1462,
@@ -2407,12 +2422,22 @@ SkadaStorageDB = {
 									["amount"] = 731,
 								},
 							},
-							["count"] = 30,
-							["amount"] = 15245,
-							["school"] = 8,
-							["max"] = 732,
 							["ishot"] = true,
 							["min"] = 638,
+						},
+						[49276] = {
+							["overheal"] = 0,
+							["count"] = 1,
+							["amount"] = 5666,
+							["school"] = 8,
+							["max"] = 5666,
+							["targets"] = {
+								["Moonsoonx"] = {
+									["overheal"] = 0,
+									["amount"] = 5666,
+								},
+							},
+							["min"] = 5666,
 						},
 						[379] = {
 							["overheal"] = 1070,
@@ -2431,20 +2456,6 @@ SkadaStorageDB = {
 							["school"] = 8,
 							["criticalmin"] = 4396,
 							["critical"] = 3,
-						},
-						[49276] = {
-							["overheal"] = 0,
-							["count"] = 1,
-							["amount"] = 5666,
-							["school"] = 8,
-							["max"] = 5666,
-							["targets"] = {
-								["Moonsoonx"] = {
-									["overheal"] = 0,
-									["amount"] = 5666,
-								},
-							},
-							["min"] = 5666,
 						},
 					},
 					["damagetakenspells"] = {
@@ -2486,8 +2497,8 @@ SkadaStorageDB = {
 						["Death's Bite"] = {
 							["hitmin"] = 2170,
 							["id"] = 67875,
-							["amount"] = 11357,
 							["hitmax"] = 3137,
+							["amount"] = 11357,
 							["sources"] = {
 								["The Black Knight"] = {
 									["amount"] = 11357,
@@ -2532,6 +2543,8 @@ SkadaStorageDB = {
 							["hitamount"] = 1943,
 						},
 					},
+					["heal"] = 254270,
+					["name"] = "Zbeguini",
 					["damagespells"] = {
 						["Melee"] = {
 							["hitmin"] = 243,
@@ -2549,8 +2562,6 @@ SkadaStorageDB = {
 							["hitamount"] = 494,
 						},
 					},
-					["heal"] = 254270,
-					["name"] = "Zbeguini",
 					["manaspells"] = {
 						[57961] = 6396,
 						[55382] = 600,
@@ -2595,9 +2606,9 @@ SkadaStorageDB = {
 							["uptime"] = 70,
 						},
 						[71403] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 1,
 							["uptime"] = 10,
 						},
 						[55078] = {
@@ -2607,8 +2618,8 @@ SkadaStorageDB = {
 							["refresh"] = 3,
 							["targets"] = {
 								["The Black Knight"] = {
-									["count"] = 3,
 									["refresh"] = 3,
+									["count"] = 3,
 									["uptime"] = 48,
 								},
 								["Risen Champion"] = {
@@ -2664,8 +2675,8 @@ SkadaStorageDB = {
 							["refresh"] = 2,
 							["targets"] = {
 								["The Black Knight"] = {
-									["count"] = 3,
 									["refresh"] = 2,
+									["count"] = 3,
 									["uptime"] = 20,
 								},
 							},
@@ -2678,8 +2689,8 @@ SkadaStorageDB = {
 							["refresh"] = 3,
 							["targets"] = {
 								["The Black Knight"] = {
-									["count"] = 3,
 									["refresh"] = 3,
+									["count"] = 3,
 									["uptime"] = 53,
 								},
 								["Risen Champion"] = {
@@ -2697,15 +2708,15 @@ SkadaStorageDB = {
 							["uptime"] = 32,
 						},
 						[61301] = {
+							["school"] = 8,
 							["type"] = "BUFF",
 							["count"] = 2,
-							["school"] = 8,
 							["uptime"] = 30,
 						},
 						[47436] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 1,
 							["uptime"] = 25,
 						},
 						[51735] = {
@@ -2715,19 +2726,20 @@ SkadaStorageDB = {
 							["refresh"] = 8,
 							["targets"] = {
 								["The Black Knight"] = {
-									["count"] = 3,
 									["refresh"] = 7,
+									["count"] = 3,
 									["uptime"] = 53,
 								},
 								["Risen Champion"] = {
-									["count"] = 2,
 									["refresh"] = 1,
+									["count"] = 2,
 									["uptime"] = 1,
 								},
 							},
 							["uptime"] = 53,
 						},
 					},
+					["totaldamage"] = 132860,
 					["time"] = 59.65,
 					["totaldamagetaken"] = 52850,
 					["damage"] = 132860,
@@ -2742,14 +2754,14 @@ SkadaStorageDB = {
 									["amount"] = 19463,
 								},
 							},
-							["criticalmax"] = 4422,
-							["critical"] = 2,
 							["casts"] = 8,
 							["count"] = 8,
-							["hit"] = 6,
-							["school"] = 1,
+							["criticalmax"] = 4422,
 							["hitmax"] = 2012,
 							["amount"] = 19463,
+							["school"] = 1,
+							["hit"] = 6,
+							["critical"] = 2,
 							["hitamount"] = 10970,
 						},
 						["Melee"] = {
@@ -2923,14 +2935,14 @@ SkadaStorageDB = {
 									["amount"] = 7149,
 								},
 							},
-							["criticalmax"] = 3019,
-							["critical"] = 2,
 							["casts"] = 4,
 							["count"] = 4,
-							["hit"] = 2,
-							["school"] = 1,
+							["criticalmax"] = 3019,
 							["hitmax"] = 1096,
 							["amount"] = 7149,
+							["school"] = 1,
+							["hit"] = 2,
+							["critical"] = 2,
 							["hitamount"] = 2044,
 						},
 						["Frost Fever (DoT)"] = {
@@ -2971,31 +2983,31 @@ SkadaStorageDB = {
 					["healspells"] = {
 						[50475] = {
 							["overheal"] = 1311,
+							["max"] = 185,
+							["count"] = 51,
+							["amount"] = 1941,
+							["school"] = 1,
 							["targets"] = {
 								["Torreznos"] = {
 									["overheal"] = 1311,
 									["amount"] = 1941,
 								},
 							},
-							["count"] = 51,
-							["amount"] = 1941,
-							["school"] = 1,
-							["max"] = 185,
 							["ishot"] = true,
 							["min"] = 1,
 						},
 						[34299] = {
 							["overheal"] = 1936,
+							["max"] = 968,
+							["count"] = 6,
+							["amount"] = 3872,
+							["school"] = 1,
 							["targets"] = {
 								["Torreznos"] = {
 									["overheal"] = 1936,
 									["amount"] = 3872,
 								},
 							},
-							["count"] = 6,
-							["amount"] = 3872,
-							["school"] = 1,
-							["max"] = 968,
 							["ishot"] = true,
 							["min"] = 968,
 						},
@@ -3034,12 +3046,12 @@ SkadaStorageDB = {
 						},
 						["Desecration"] = {
 							["hitmin"] = 1956,
-							["hitmax"] = 2095,
 							["count"] = 13,
-							["amount"] = 25996,
+							["hitmax"] = 2095,
+							["hit"] = 13,
 							["school"] = 32,
 							["id"] = 67876,
-							["hit"] = 13,
+							["amount"] = 25996,
 							["hitamount"] = 25996,
 						},
 						["Icy Touch"] = {
@@ -3062,7 +3074,6 @@ SkadaStorageDB = {
 					["name"] = "Torreznos",
 					["overkill"] = 2183,
 					["overheal"] = 3247,
-					["totaldamage"] = 132860,
 					["role"] = "DAMAGER",
 				}, -- [4]
 				{
@@ -3095,29 +3106,29 @@ SkadaStorageDB = {
 							["refresh"] = 1,
 							["targets"] = {
 								["The Black Knight"] = {
-									["count"] = 8,
 									["refresh"] = 1,
+									["count"] = 8,
 									["uptime"] = 9,
 								},
 							},
 							["uptime"] = 9,
 						},
 						[71403] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 2,
-							["school"] = 1,
 							["uptime"] = 21,
 						},
 						[22812] = {
+							["school"] = 8,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 8,
 							["uptime"] = 12,
 						},
 						[50213] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 2,
-							["school"] = 1,
 							["uptime"] = 13,
 						},
 						[58646] = {
@@ -3139,8 +3150,8 @@ SkadaStorageDB = {
 							["refresh"] = 5,
 							["targets"] = {
 								["The Black Knight"] = {
-									["count"] = 3,
 									["refresh"] = 5,
+									["count"] = 3,
 									["uptime"] = 29,
 								},
 							},
@@ -3157,9 +3168,9 @@ SkadaStorageDB = {
 							["uptime"] = 74,
 						},
 						[52610] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 2,
-							["school"] = 1,
 							["uptime"] = 23,
 						},
 						[16237] = {
@@ -3170,9 +3181,9 @@ SkadaStorageDB = {
 							["uptime"] = 29,
 						},
 						[47436] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 1,
 							["uptime"] = 25,
 						},
 						[2895] = {
@@ -3193,26 +3204,10 @@ SkadaStorageDB = {
 							["uptime"] = 1,
 						},
 						[53312] = {
+							["school"] = 8,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 8,
 							["uptime"] = 45,
-						},
-						[768] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 74,
-						},
-						[52000] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 8,
-							["uptime"] = 7,
-						},
-						[28878] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 74,
 						},
 						[16870] = {
 							["type"] = "BUFF",
@@ -3221,6 +3216,22 @@ SkadaStorageDB = {
 							["refresh"] = 2,
 							["uptime"] = 17,
 						},
+						[52000] = {
+							["school"] = 8,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 7,
+						},
+						[768] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 74,
+						},
+						[28878] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 74,
+						},
 						[16857] = {
 							["type"] = "DEBUFF",
 							["count"] = 3,
@@ -3228,8 +3239,8 @@ SkadaStorageDB = {
 							["refresh"] = 1,
 							["targets"] = {
 								["The Black Knight"] = {
-									["count"] = 3,
 									["refresh"] = 1,
+									["count"] = 3,
 									["uptime"] = 27,
 								},
 							},
@@ -3239,147 +3250,21 @@ SkadaStorageDB = {
 					["energyspells"] = {
 						[51178] = 120,
 					},
+					["totaldamage"] = 122918,
 					["time"] = 59.67999999999999,
 					["totaldamagetaken"] = 34528,
 					["damage"] = 122918,
 					["overheal"] = 4175,
-					["damagespells"] = {
-						["Melee"] = {
-							["glance"] = 4357,
-							["hitmin"] = 428,
-							["criticalmin"] = 899,
-							["targets"] = {
-								["The Black Knight"] = {
-									["amount"] = 46445,
-								},
-								["Risen Arelas Brightstar"] = {
-									["amount"] = 546,
-								},
-							},
-							["glancing"] = 8,
-							["amount"] = 46991,
-							["glancemin"] = 407,
-							["criticalamount"] = 34288,
-							["id"] = 6603,
-							["glancemax"] = 654,
-							["criticalmax"] = 1687,
-							["critical"] = 31,
-							["hit"] = 16,
-							["school"] = 1,
-							["count"] = 55,
-							["hitmax"] = 772,
-							["hitamount"] = 8346,
-						},
-						["Rake (DoT)"] = {
-							["hitmin"] = 1448,
-							["id"] = 48574,
-							["targets"] = {
-								["The Black Knight"] = {
-									["amount"] = 9299,
-								},
-							},
-							["count"] = 6,
-							["hit"] = 6,
-							["school"] = 1,
-							["hitmax"] = 1926,
-							["amount"] = 9299,
-							["hitamount"] = 9299,
-						},
-						["Ferocious Bite"] = {
-							["hitmin"] = 1354,
-							["criticalamount"] = 21561,
-							["id"] = 48577,
-							["hitmax"] = 3452,
-							["targets"] = {
-								["The Black Knight"] = {
-									["amount"] = 26367,
-								},
-							},
-							["count"] = 5,
-							["hit"] = 2,
-							["casts"] = 5,
-							["critical"] = 3,
-							["amount"] = 26367,
-							["school"] = 1,
-							["criticalmin"] = 4472,
-							["criticalmax"] = 9719,
-							["hitamount"] = 4806,
-						},
-						["Mangle (Cat)"] = {
-							["hitmin"] = 1482,
-							["criticalamount"] = 18729,
-							["id"] = 48566,
-							["criticalmin"] = 3392,
-							["targets"] = {
-								["The Black Knight"] = {
-									["amount"] = 26111,
-								},
-							},
-							["criticalmax"] = 4083,
-							["critical"] = 5,
-							["casts"] = 9,
-							["count"] = 9,
-							["hit"] = 4,
-							["school"] = 1,
-							["hitmax"] = 2230,
-							["amount"] = 26111,
-							["hitamount"] = 7382,
-						},
-						["Rake"] = {
-							["hitmin"] = 449,
-							["criticalamount"] = 6922,
-							["id"] = 48574,
-							["criticalmin"] = 987,
-							["targets"] = {
-								["The Black Knight"] = {
-									["amount"] = 6967,
-								},
-								["Risen Arelas Brightstar"] = {
-									["amount"] = 1313,
-								},
-							},
-							["criticalmax"] = 1313,
-							["critical"] = 6,
-							["casts"] = 9,
-							["count"] = 9,
-							["hit"] = 3,
-							["school"] = 1,
-							["hitmax"] = 460,
-							["amount"] = 8280,
-							["hitamount"] = 1358,
-						},
-						["Shred"] = {
-							["hitmin"] = 2843,
-							["criticalamount"] = 3027,
-							["id"] = 48572,
-							["hitmax"] = 2843,
-							["targets"] = {
-								["The Black Knight"] = {
-									["amount"] = 5870,
-								},
-							},
-							["count"] = 2,
-							["hit"] = 1,
-							["casts"] = 2,
-							["critical"] = 1,
-							["amount"] = 5870,
-							["school"] = 1,
-							["criticalmin"] = 3027,
-							["criticalmax"] = 3027,
-							["hitamount"] = 2843,
-						},
-					},
 					["damagetaken"] = 34528,
 					["id"] = "0x070000000095AC38",
 					["spec"] = 103,
 					["healspells"] = {
 						[34299] = {
 							["overheal"] = 4175,
-							["max"] = 835,
+							["school"] = 1,
 							["count"] = 9,
 							["amount"] = 3340,
-							["school"] = 1,
-							["min"] = 835,
+							["max"] = 835,
 							["ishot"] = true,
 							["targets"] = {
 								["Anusalro"] = {
@@ -3387,6 +3272,7 @@ SkadaStorageDB = {
 									["amount"] = 3340,
 								},
 							},
+							["min"] = 835,
 						},
 					},
 					["damagetakenspells"] = {
@@ -3449,39 +3335,3379 @@ SkadaStorageDB = {
 							["hitamount"] = 14186,
 						},
 					},
+					["damagespells"] = {
+						["Melee"] = {
+							["glance"] = 4357,
+							["hitmin"] = 428,
+							["criticalmin"] = 899,
+							["targets"] = {
+								["The Black Knight"] = {
+									["amount"] = 46445,
+								},
+								["Risen Arelas Brightstar"] = {
+									["amount"] = 546,
+								},
+							},
+							["glancing"] = 8,
+							["amount"] = 46991,
+							["glancemin"] = 407,
+							["criticalamount"] = 34288,
+							["id"] = 6603,
+							["glancemax"] = 654,
+							["criticalmax"] = 1687,
+							["critical"] = 31,
+							["hit"] = 16,
+							["school"] = 1,
+							["count"] = 55,
+							["hitmax"] = 772,
+							["hitamount"] = 8346,
+						},
+						["Rake (DoT)"] = {
+							["hitmin"] = 1448,
+							["id"] = 48574,
+							["targets"] = {
+								["The Black Knight"] = {
+									["amount"] = 9299,
+								},
+							},
+							["count"] = 6,
+							["hit"] = 6,
+							["school"] = 1,
+							["hitmax"] = 1926,
+							["amount"] = 9299,
+							["hitamount"] = 9299,
+						},
+						["Ferocious Bite"] = {
+							["hitmin"] = 1354,
+							["criticalamount"] = 21561,
+							["id"] = 48577,
+							["criticalmin"] = 4472,
+							["targets"] = {
+								["The Black Knight"] = {
+									["amount"] = 26367,
+								},
+							},
+							["critical"] = 3,
+							["amount"] = 26367,
+							["criticalmax"] = 9719,
+							["count"] = 5,
+							["hit"] = 2,
+							["school"] = 1,
+							["hitmax"] = 3452,
+							["casts"] = 5,
+							["hitamount"] = 4806,
+						},
+						["Mangle (Cat)"] = {
+							["hitmin"] = 1482,
+							["criticalamount"] = 18729,
+							["id"] = 48566,
+							["criticalmin"] = 3392,
+							["targets"] = {
+								["The Black Knight"] = {
+									["amount"] = 26111,
+								},
+							},
+							["casts"] = 9,
+							["count"] = 9,
+							["criticalmax"] = 4083,
+							["hitmax"] = 2230,
+							["amount"] = 26111,
+							["school"] = 1,
+							["hit"] = 4,
+							["critical"] = 5,
+							["hitamount"] = 7382,
+						},
+						["Rake"] = {
+							["hitmin"] = 449,
+							["criticalamount"] = 6922,
+							["id"] = 48574,
+							["criticalmin"] = 987,
+							["targets"] = {
+								["The Black Knight"] = {
+									["amount"] = 6967,
+								},
+								["Risen Arelas Brightstar"] = {
+									["amount"] = 1313,
+								},
+							},
+							["casts"] = 9,
+							["count"] = 9,
+							["criticalmax"] = 1313,
+							["hitmax"] = 460,
+							["amount"] = 8280,
+							["school"] = 1,
+							["hit"] = 3,
+							["critical"] = 6,
+							["hitamount"] = 1358,
+						},
+						["Shred"] = {
+							["hitmin"] = 2843,
+							["criticalamount"] = 3027,
+							["id"] = 48572,
+							["criticalmin"] = 3027,
+							["targets"] = {
+								["The Black Knight"] = {
+									["amount"] = 5870,
+								},
+							},
+							["critical"] = 1,
+							["amount"] = 5870,
+							["criticalmax"] = 3027,
+							["count"] = 2,
+							["hit"] = 1,
+							["school"] = 1,
+							["hitmax"] = 2843,
+							["casts"] = 2,
+							["hitamount"] = 2843,
+						},
+					},
+					["heal"] = 3340,
 					["manaspells"] = {
 						[68285] = 5553,
 					},
-					["heal"] = 3340,
-					["name"] = "Anusalro",
 					["ccdone"] = 1,
-					["totaldamage"] = 122918,
+					["name"] = "Anusalro",
 					["class"] = "DRUID",
 					["energy"] = 120,
 					["role"] = "DAMAGER",
 				}, -- [5]
 			},
-			["type"] = "party",
-			["damagetaken"] = 273605,
-			["etotaldamage"] = 238089,
-			["rage"] = 304,
-			["overheal"] = 83824,
-			["overkill"] = 60593,
-			["edamagetaken"] = 1210495,
-			["heal"] = 278656,
-			["name"] = "The Black Knight",
-			["mobname"] = "The Black Knight",
-			["starttime"] = 1689111162,
 			["edamage"] = 216369,
 			["last_action"] = 1689111236,
 			["endtime"] = 1689111236,
 		}, -- [1]
 		{
-			["damage"] = 2236730,
-			["ress"] = 1,
-			["etotaldamage"] = 523739,
+			["players"] = {
+				{
+					["ccdonespells"] = {
+						[7922] = {
+							["count"] = 2,
+							["targets"] = {
+								["Argent Priestess"] = 1,
+								["Argent Lightwielder"] = 1,
+							},
+						},
+					},
+					["last"] = 11340.669,
+					["flag"] = 1297,
+					["class"] = "WARRIOR",
+					["auras"] = {
+						[72221] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 158,
+						},
+						[52437] = {
+							["type"] = "BUFF",
+							["count"] = 4,
+							["school"] = 1,
+							["refresh"] = 6,
+							["uptime"] = 42,
+						},
+						[64850] = {
+							["type"] = "DEBUFF",
+							["count"] = 3,
+							["school"] = 1,
+							["refresh"] = 1,
+							["targets"] = {
+								["Argent Priestess"] = {
+									["uptime"] = 5,
+									["count"] = 1,
+								},
+								["Eadric the Pure"] = {
+									["refresh"] = 1,
+									["count"] = 2,
+									["uptime"] = 17,
+								},
+							},
+							["uptime"] = 22,
+						},
+						[52000] = {
+							["school"] = 8,
+							["type"] = "BUFF",
+							["count"] = 2,
+							["uptime"] = 24,
+						},
+						[70855] = {
+							["type"] = "BUFF",
+							["count"] = 5,
+							["school"] = 8,
+							["refresh"] = 2,
+							["uptime"] = 60,
+						},
+						[12328] = {
+							["school"] = 1,
+							["type"] = "BUFF",
+							["count"] = 4,
+							["uptime"] = 41,
+						},
+						[28878] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 158,
+						},
+						[29131] = {
+							["school"] = 1,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 10,
+						},
+						[16237] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 2,
+							["refresh"] = 5,
+							["uptime"] = 76,
+						},
+						[47486] = {
+							["type"] = "DEBUFF",
+							["count"] = 10,
+							["school"] = 1,
+							["refresh"] = 8,
+							["targets"] = {
+								["Argent Priestess"] = {
+									["refresh"] = 1,
+									["count"] = 2,
+									["uptime"] = 14,
+								},
+								["Argent Lightwielder"] = {
+									["refresh"] = 1,
+									["count"] = 3,
+									["uptime"] = 21,
+								},
+								["Eadric the Pure"] = {
+									["refresh"] = 6,
+									["count"] = 2,
+									["uptime"] = 46,
+								},
+								["Argent Monk"] = {
+									["uptime"] = 19,
+									["count"] = 3,
+								},
+							},
+							["uptime"] = 100,
+						},
+						[71541] = {
+							["school"] = 64,
+							["type"] = "BUFF",
+							["count"] = 4,
+							["uptime"] = 55,
+						},
+						[47502] = {
+							["type"] = "DEBUFF",
+							["count"] = 9,
+							["school"] = 1,
+							["refresh"] = 12,
+							["targets"] = {
+								["Argent Priestess"] = {
+									["refresh"] = 2,
+									["count"] = 3,
+									["uptime"] = 52,
+								},
+								["Argent Lightwielder"] = {
+									["refresh"] = 6,
+									["count"] = 3,
+									["uptime"] = 69,
+								},
+								["Argent Monk"] = {
+									["refresh"] = 4,
+									["count"] = 3,
+									["uptime"] = 54,
+								},
+							},
+							["uptime"] = 74,
+						},
+						[61301] = {
+							["school"] = 8,
+							["type"] = "BUFF",
+							["count"] = 3,
+							["uptime"] = 45,
+						},
+						[57399] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 158,
+						},
+						[52113] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 158,
+						},
+						[65156] = {
+							["school"] = 1,
+							["type"] = "BUFF",
+							["count"] = 3,
+							["uptime"] = 13,
+						},
+						[29842] = {
+							["school"] = 1,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 9,
+						},
+						[49284] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 24,
+						},
+						[72412] = {
+							["school"] = 1,
+							["type"] = "BUFF",
+							["count"] = 2,
+							["uptime"] = 20,
+						},
+						[59620] = {
+							["type"] = "BUFF",
+							["count"] = 5,
+							["school"] = 2,
+							["refresh"] = 5,
+							["uptime"] = 91,
+						},
+						[24932] = {
+							["school"] = 1,
+							["type"] = "BUFF",
+							["count"] = 2,
+							["uptime"] = 155,
+						},
+						[47465] = {
+							["type"] = "DEBUFF",
+							["count"] = 5,
+							["school"] = 1,
+							["targets"] = {
+								["Argent Monk"] = {
+									["uptime"] = 17,
+									["count"] = 1,
+								},
+								["Argent Lightwielder"] = {
+									["uptime"] = 5,
+									["count"] = 1,
+								},
+								["Eadric the Pure"] = {
+									["uptime"] = 42,
+									["count"] = 2,
+								},
+								["Argent Priestess"] = {
+									["uptime"] = 9,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 73,
+						},
+						[12721] = {
+							["type"] = "DEBUFF",
+							["count"] = 19,
+							["school"] = 1,
+							["refresh"] = 63,
+							["targets"] = {
+								["Argent Priestess"] = {
+									["refresh"] = 16,
+									["count"] = 5,
+									["uptime"] = 40,
+								},
+								["Argent Lightwielder"] = {
+									["refresh"] = 15,
+									["count"] = 5,
+									["uptime"] = 39,
+								},
+								["Eadric the Pure"] = {
+									["refresh"] = 21,
+									["count"] = 1,
+									["uptime"] = 55,
+								},
+								["Argent Monk"] = {
+									["refresh"] = 11,
+									["count"] = 8,
+									["uptime"] = 47,
+								},
+							},
+							["uptime"] = 126,
+						},
+						[7922] = {
+							["type"] = "DEBUFF",
+							["count"] = 2,
+							["school"] = 1,
+							["targets"] = {
+								["Argent Priestess"] = {
+									["uptime"] = 1,
+									["count"] = 1,
+								},
+								["Argent Lightwielder"] = {
+									["uptime"] = 2,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 3,
+						},
+						[46857] = {
+							["type"] = "DEBUFF",
+							["count"] = 19,
+							["school"] = 1,
+							["refresh"] = 55,
+							["targets"] = {
+								["Argent Priestess"] = {
+									["refresh"] = 16,
+									["count"] = 3,
+									["uptime"] = 51,
+								},
+								["Argent Lightwielder"] = {
+									["refresh"] = 12,
+									["count"] = 4,
+									["uptime"] = 23,
+								},
+								["Eadric the Pure"] = {
+									["refresh"] = 17,
+									["count"] = 5,
+									["uptime"] = 48,
+								},
+								["Argent Monk"] = {
+									["refresh"] = 10,
+									["count"] = 7,
+									["uptime"] = 45,
+								},
+							},
+							["uptime"] = 123,
+						},
+						[71905] = {
+							["type"] = "BUFF",
+							["count"] = 6,
+							["school"] = 1,
+							["refresh"] = 39,
+							["uptime"] = 95,
+						},
+						[46924] = {
+							["school"] = 1,
+							["type"] = "BUFF",
+							["count"] = 2,
+							["uptime"] = 12,
+						},
+						[58646] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 158,
+						},
+						[57522] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 1,
+							["refresh"] = 66,
+							["uptime"] = 157,
+						},
+						[48447] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 8,
+							["refresh"] = 1,
+							["uptime"] = 5,
+						},
+						[16491] = {
+							["school"] = 1,
+							["type"] = "BUFF",
+							["count"] = 2,
+							["uptime"] = 12,
+						},
+						[48470] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 158,
+						},
+						[75456] = {
+							["school"] = 64,
+							["type"] = "BUFF",
+							["count"] = 4,
+							["uptime"] = 53,
+						},
+						[60503] = {
+							["type"] = "BUFF",
+							["count"] = 10,
+							["school"] = 1,
+							["refresh"] = 2,
+							["uptime"] = 27,
+						},
+						[57623] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 48,
+						},
+						[73422] = {
+							["school"] = 1,
+							["type"] = "BUFF",
+							["count"] = 6,
+							["uptime"] = 54,
+						},
+					},
+					["totaldamage"] = 1400660,
+					["time"] = 142,
+					["totaldamagetaken"] = 123463,
+					["damage"] = 1400660,
+					["overheal"] = 14128,
+					["damagetaken"] = 123463,
+					["id"] = "0x070000000040A064",
+					["spec"] = 71,
+					["healspells"] = {
+						[29842] = {
+							["overheal"] = 2788,
+							["count"] = 4,
+							["amount"] = 0,
+							["school"] = 1,
+							["ishot"] = true,
+							["targets"] = {
+								["Rimgar"] = {
+									["overheal"] = 2788,
+									["amount"] = 0,
+								},
+							},
+						},
+						[34299] = {
+							["overheal"] = 11340,
+							["school"] = 1,
+							["count"] = 20,
+							["amount"] = 16529,
+							["max"] = 1394,
+							["ishot"] = true,
+							["targets"] = {
+								["Rimgar"] = {
+									["overheal"] = 11340,
+									["amount"] = 16529,
+								},
+							},
+							["min"] = 1200,
+						},
+						[16491] = {
+							["overheal"] = 0,
+							["max"] = 348,
+							["count"] = 12,
+							["amount"] = 4176,
+							["school"] = 1,
+							["targets"] = {
+								["Rimgar"] = {
+									["overheal"] = 0,
+									["amount"] = 4176,
+								},
+							},
+							["ishot"] = true,
+							["min"] = 348,
+						},
+					},
+					["damagetakenspells"] = {
+						["Holy Smite"] = {
+							["hitmin"] = 1628,
+							["id"] = 67289,
+							["sources"] = {
+								["Argent Priestess"] = {
+									["amount"] = 3518,
+								},
+							},
+							["count"] = 2,
+							["hit"] = 2,
+							["school"] = 2,
+							["hitmax"] = 1890,
+							["amount"] = 3518,
+							["hitamount"] = 3518,
+						},
+						["Blazing Light"] = {
+							["hitmin"] = 5865,
+							["id"] = 67291,
+							["sources"] = {
+								["Argent Lightwielder"] = {
+									["amount"] = 30302,
+								},
+							},
+							["count"] = 5,
+							["hit"] = 5,
+							["school"] = 2,
+							["hitmax"] = 6242,
+							["amount"] = 30302,
+							["hitamount"] = 30302,
+						},
+						["Melee"] = {
+							["DODGE"] = 2,
+							["criticalamount"] = 10620,
+							["hitmin"] = 1914,
+							["criticalmin"] = 4634,
+							["id"] = 6603,
+							["count"] = 23,
+							["sources"] = {
+								["Argent Monk"] = {
+									["amount"] = 37025,
+								},
+								["Argent Lightwielder"] = {
+									["amount"] = 10851,
+								},
+								["Eadric the Pure"] = {
+									["amount"] = 12592,
+								},
+							},
+							["critical"] = 2,
+							["amount"] = 60468,
+							["criticalmax"] = 5986,
+							["hitmax"] = 6548,
+							["hit"] = 16,
+							["school"] = 1,
+							["PARRY"] = 2,
+							["MISS"] = 1,
+							["hitamount"] = 49848,
+						},
+						["Cleave"] = {
+							["hitmin"] = 3525,
+							["id"] = 68868,
+							["amount"] = 29175,
+							["sources"] = {
+								["Argent Lightwielder"] = {
+									["amount"] = 29175,
+								},
+							},
+							["count"] = 8,
+							["hit"] = 7,
+							["school"] = 1,
+							["hitmax"] = 4787,
+							["MISS"] = 1,
+							["hitamount"] = 29175,
+						},
+					},
+					["rage"] = 46,
+					["ragespells"] = {
+						[29131] = 10,
+						[2687] = 20,
+						[29842] = 16,
+					},
+					["name"] = "Rimgar",
+					["ccdone"] = 2,
+					["heal"] = 20705,
+					["overkill"] = 63445,
+					["damagespells"] = {
+						["Chaos Bane"] = {
+							["hitmin"] = 406,
+							["id"] = 71904,
+							["targets"] = {
+								["Argent Priestess"] = {
+									["amount"] = 1662,
+								},
+								["Fountain of Light"] = {
+									["amount"] = 536,
+								},
+								["Argent Lightwielder"] = {
+									["amount"] = 2106,
+								},
+								["Eadric the Pure"] = {
+									["amount"] = 6654,
+								},
+								["Argent Monk"] = {
+									["amount"] = 2006,
+								},
+							},
+							["hitmax"] = 2341,
+							["casts"] = 1,
+							["count"] = 15,
+							["hit"] = 15,
+							["school"] = 32,
+							["resisted"] = 479,
+							["amount"] = 12964,
+							["hitamount"] = 12964,
+						},
+						["Execute"] = {
+							["hitmin"] = 4285,
+							["criticalamount"] = 40353,
+							["id"] = 20647,
+							["criticalmin"] = 9879,
+							["targets"] = {
+								["Argent Priestess"] = {
+									["amount"] = 19890,
+								},
+								["Eadric the Pure"] = {
+									["amount"] = 19043,
+								},
+								["Argent Monk"] = {
+									["amount"] = 14762,
+								},
+							},
+							["critical"] = 4,
+							["amount"] = 53695,
+							["criticalmax"] = 10477,
+							["count"] = 7,
+							["hit"] = 3,
+							["school"] = 1,
+							["hitmax"] = 4542,
+							["casts"] = 1,
+							["hitamount"] = 13342,
+						},
+						["Whirlwind"] = {
+							["criticalamount"] = 145307,
+							["hitmin"] = 3606,
+							["criticalmin"] = 9581,
+							["id"] = 50622,
+							["casts"] = 1,
+							["targets"] = {
+								["Argent Monk"] = {
+									["amount"] = 29550,
+								},
+								["Fountain of Light"] = {
+									["overkill"] = 19688,
+									["amount"] = 29836,
+								},
+								["Argent Lightwielder"] = {
+									["overkill"] = 7944,
+									["amount"] = 54951,
+								},
+								["Eadric the Pure"] = {
+									["amount"] = 40599,
+								},
+								["Argent Priestess"] = {
+									["amount"] = 54243,
+								},
+							},
+							["overkill"] = 27632,
+							["count"] = 29,
+							["criticalmax"] = 11055,
+							["hitmax"] = 4799,
+							["amount"] = 209179,
+							["school"] = 1,
+							["hit"] = 15,
+							["critical"] = 14,
+							["hitamount"] = 63872,
+						},
+						["Sweeping Strikes"] = {
+							["hitmin"] = 3953,
+							["id"] = 12723,
+							["targets"] = {
+								["Argent Priestess"] = {
+									["overkill"] = 3625,
+									["amount"] = 22529,
+								},
+								["Argent Lightwielder"] = {
+									["amount"] = 82605,
+								},
+								["Argent Monk"] = {
+									["amount"] = 42104,
+								},
+							},
+							["overkill"] = 3625,
+							["casts"] = 4,
+							["count"] = 19,
+							["hit"] = 19,
+							["school"] = 1,
+							["hitmax"] = 14974,
+							["amount"] = 147238,
+							["hitamount"] = 147238,
+						},
+						["Thunder Clap"] = {
+							["criticalmin"] = 2645,
+							["hitmin"] = 1165,
+							["criticalamount"] = 45697,
+							["id"] = 47502,
+							["IMMUNE"] = 1,
+							["targets"] = {
+								["Argent Priestess"] = {
+									["amount"] = 12101,
+								},
+								["Argent Lightwielder"] = {
+									["amount"] = 26804,
+								},
+								["Eadric the Pure"] = {
+									["amount"] = 1188,
+								},
+								["Argent Monk"] = {
+									["amount"] = 17496,
+								},
+							},
+							["critical"] = 14,
+							["amount"] = 57589,
+							["criticalmax"] = 3753,
+							["count"] = 24,
+							["hit"] = 9,
+							["school"] = 1,
+							["hitmax"] = 1588,
+							["casts"] = 7,
+							["hitamount"] = 11892,
+						},
+						["Rend (DoT)"] = {
+							["hitmin"] = 1278,
+							["id"] = 47465,
+							["targets"] = {
+								["Argent Monk"] = {
+									["amount"] = 8302,
+								},
+								["Argent Lightwielder"] = {
+									["amount"] = 1449,
+								},
+								["Eadric the Pure"] = {
+									["amount"] = 22260,
+								},
+								["Argent Priestess"] = {
+									["amount"] = 2916,
+								},
+							},
+							["casts"] = 5,
+							["count"] = 22,
+							["hit"] = 22,
+							["school"] = 1,
+							["hitmax"] = 1902,
+							["amount"] = 34927,
+							["hitamount"] = 34927,
+						},
+						["Shattering Throw"] = {
+							["casts"] = 1,
+							["count"] = 1,
+							["amount"] = 0,
+							["school"] = 1,
+							["IMMUNE"] = 1,
+							["targets"] = {
+								["Argent Monk"] = {
+									["amount"] = 0,
+								},
+							},
+							["id"] = 64382,
+						},
+						["Overpower"] = {
+							["criticalamount"] = 105636,
+							["id"] = 7384,
+							["targets"] = {
+								["Argent Monk"] = {
+									["amount"] = 22610,
+								},
+								["Argent Lightwielder"] = {
+									["amount"] = 11316,
+								},
+								["Eadric the Pure"] = {
+									["amount"] = 59596,
+								},
+								["Argent Priestess"] = {
+									["amount"] = 12114,
+								},
+							},
+							["casts"] = 10,
+							["critical"] = 10,
+							["amount"] = 105636,
+							["school"] = 1,
+							["criticalmin"] = 8796,
+							["criticalmax"] = 13225,
+							["count"] = 10,
+						},
+						["Heroic Strike"] = {
+							["hitmin"] = 3822,
+							["criticalamount"] = 11508,
+							["id"] = 47450,
+							["criticalmin"] = 11508,
+							["targets"] = {
+								["Eadric the Pure"] = {
+									["amount"] = 24388,
+								},
+							},
+							["critical"] = 1,
+							["amount"] = 24388,
+							["criticalmax"] = 11508,
+							["count"] = 4,
+							["hit"] = 3,
+							["school"] = 1,
+							["hitmax"] = 4782,
+							["casts"] = 4,
+							["hitamount"] = 12880,
+						},
+						["Deep Wounds (DoT)"] = {
+							["hitmin"] = 340,
+							["id"] = 12721,
+							["targets"] = {
+								["Argent Priestess"] = {
+									["overkill"] = 55,
+									["amount"] = 26863,
+								},
+								["Argent Lightwielder"] = {
+									["amount"] = 30065,
+								},
+								["Eadric the Pure"] = {
+									["amount"] = 62017,
+								},
+								["Argent Monk"] = {
+									["amount"] = 35328,
+								},
+							},
+							["overkill"] = 55,
+							["count"] = 159,
+							["hit"] = 159,
+							["school"] = 1,
+							["hitmax"] = 4159,
+							["amount"] = 154273,
+							["hitamount"] = 154273,
+						},
+						["Charge Stun"] = {
+							["casts"] = 1,
+							["count"] = 1,
+							["amount"] = 0,
+							["school"] = 1,
+							["IMMUNE"] = 1,
+							["targets"] = {
+								["Eadric the Pure"] = {
+									["amount"] = 0,
+								},
+							},
+							["id"] = 7922,
+						},
+						["Hammer of the Righteous"] = {
+							["hitmin"] = 17820,
+							["id"] = 66905,
+							["targets"] = {
+								["Eadric the Pure"] = {
+									["amount"] = 17820,
+								},
+							},
+							["casts"] = 1,
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 2,
+							["hitmax"] = 17820,
+							["amount"] = 17820,
+							["hitamount"] = 17820,
+						},
+						["Deep Wounds"] = {
+							["casts"] = 1,
+							["count"] = 2,
+							["amount"] = 0,
+							["school"] = 1,
+							["IMMUNE"] = 2,
+							["targets"] = {
+								["Argent Monk"] = {
+									["amount"] = 0,
+								},
+							},
+							["id"] = 12721,
+						},
+						["Cleave"] = {
+							["criticalmin"] = 9502,
+							["casts"] = 12,
+							["hitmin"] = 3776,
+							["criticalamount"] = 124969,
+							["id"] = 47520,
+							["IMMUNE"] = 1,
+							["targets"] = {
+								["Argent Priestess"] = {
+									["overkill"] = 6389,
+									["amount"] = 56213,
+								},
+								["Argent Lightwielder"] = {
+									["amount"] = 44330,
+								},
+								["Argent Monk"] = {
+									["overkill"] = 11346,
+									["amount"] = 75528,
+								},
+							},
+							["overkill"] = 17735,
+							["count"] = 24,
+							["criticalmax"] = 11687,
+							["hitmax"] = 5192,
+							["amount"] = 176071,
+							["school"] = 1,
+							["hit"] = 11,
+							["critical"] = 12,
+							["hitamount"] = 51102,
+						},
+						["Victory Rush"] = {
+							["criticalamount"] = 61748,
+							["id"] = 34428,
+							["targets"] = {
+								["Argent Monk"] = {
+									["overkill"] = 8852,
+									["amount"] = 19198,
+								},
+								["Argent Lightwielder"] = {
+									["amount"] = 17690,
+								},
+								["Eadric the Pure"] = {
+									["amount"] = 12835,
+								},
+								["Argent Priestess"] = {
+									["amount"] = 12025,
+								},
+							},
+							["overkill"] = 8852,
+							["casts"] = 6,
+							["critical"] = 6,
+							["amount"] = 61748,
+							["school"] = 1,
+							["criticalmin"] = 8121,
+							["criticalmax"] = 12835,
+							["count"] = 6,
+						},
+						["Melee"] = {
+							["glance"] = 3208,
+							["hitmin"] = 4139,
+							["criticalmin"] = 6819,
+							["IMMUNE"] = 1,
+							["targets"] = {
+								["Argent Priestess"] = {
+									["amount"] = 34950,
+								},
+								["Argent Lightwielder"] = {
+									["overkill"] = 5546,
+									["amount"] = 24196,
+								},
+								["Eadric the Pure"] = {
+									["amount"] = 80974,
+								},
+								["Argent Monk"] = {
+									["amount"] = 35893,
+								},
+							},
+							["glancing"] = 1,
+							["amount"] = 176013,
+							["glancemin"] = 3208,
+							["criticalamount"] = 150842,
+							["id"] = 6603,
+							["glancemax"] = 3208,
+							["overkill"] = 5546,
+							["criticalmax"] = 10083,
+							["critical"] = 18,
+							["hit"] = 5,
+							["school"] = 1,
+							["count"] = 25,
+							["hitmax"] = 5147,
+							["hitamount"] = 21963,
+						},
+						["Mortal Strike"] = {
+							["criticalmin"] = 9833,
+							["hitmin"] = 4243,
+							["criticalamount"] = 133097,
+							["id"] = 47486,
+							["hit"] = 7,
+							["targets"] = {
+								["Argent Priestess"] = {
+									["amount"] = 29832,
+								},
+								["Argent Lightwielder"] = {
+									["amount"] = 39718,
+								},
+								["Eadric the Pure"] = {
+									["amount"] = 68707,
+								},
+								["Argent Monk"] = {
+									["amount"] = 30862,
+								},
+							},
+							["critical"] = 11,
+							["blocked"] = 40,
+							["criticalmax"] = 14684,
+							["count"] = 18,
+							["amount"] = 169119,
+							["school"] = 1,
+							["hitmax"] = 5703,
+							["casts"] = 18,
+							["hitamount"] = 36022,
+						},
+					},
+					["role"] = "DAMAGER",
+				}, -- [1]
+				{
+					["ccdonespells"] = {
+						[8983] = {
+							["count"] = 1,
+							["targets"] = {
+								["Argent Priestess"] = 1,
+							},
+						},
+						[45334] = {
+							["count"] = 2,
+							["targets"] = {
+								["Argent Priestess"] = 2,
+							},
+						},
+					},
+					["last"] = 11339.769,
+					["flag"] = 1298,
+					["class"] = "DRUID",
+					["auras"] = {
+						[24932] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 158,
+						},
+						[48470] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 158,
+						},
+						[53307] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 158,
+						},
+						[5229] = {
+							["school"] = 1,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 10,
+						},
+						[6795] = {
+							["type"] = "DEBUFF",
+							["count"] = 8,
+							["school"] = 1,
+							["targets"] = {
+								["Argent Monk"] = {
+									["uptime"] = 3,
+									["count"] = 1,
+								},
+								["Argent Lightwielder"] = {
+									["uptime"] = 3,
+									["count"] = 1,
+								},
+								["Eadric the Pure"] = {
+									["uptime"] = 18,
+									["count"] = 6,
+								},
+							},
+							["uptime"] = 24,
+						},
+						[17619] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 158,
+						},
+						[58646] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 158,
+						},
+						[48560] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["targets"] = {
+								["Eadric the Pure"] = {
+									["uptime"] = 30,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 30,
+						},
+						[48447] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 8,
+							["refresh"] = 1,
+							["uptime"] = 5,
+						},
+						[52000] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 8,
+							["refresh"] = 1,
+							["uptime"] = 22,
+						},
+						[72221] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 158,
+						},
+						[45334] = {
+							["type"] = "DEBUFF",
+							["count"] = 2,
+							["school"] = 1,
+							["targets"] = {
+								["Argent Priestess"] = {
+									["uptime"] = 8,
+									["count"] = 2,
+								},
+							},
+							["uptime"] = 8,
+						},
+						[62606] = {
+							["type"] = "BUFF",
+							["count"] = 44,
+							["school"] = 8,
+							["refresh"] = 35,
+							["uptime"] = 100,
+						},
+						[49284] = {
+							["school"] = 8,
+							["type"] = "BUFF",
+							["count"] = 3,
+							["uptime"] = 124,
+						},
+						[71175] = {
+							["type"] = "BUFF",
+							["count"] = 3,
+							["school"] = 8,
+							["refresh"] = 37,
+							["uptime"] = 146,
+						},
+						[9634] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 158,
+						},
+						[52113] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 158,
+						},
+						[28878] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 158,
+						},
+						[16237] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 2,
+							["refresh"] = 2,
+							["uptime"] = 43,
+						},
+						[48564] = {
+							["type"] = "DEBUFF",
+							["count"] = 6,
+							["school"] = 1,
+							["targets"] = {
+								["Argent Monk"] = {
+									["uptime"] = 1,
+									["count"] = 1,
+								},
+								["Argent Lightwielder"] = {
+									["uptime"] = 33,
+									["count"] = 1,
+								},
+								["Eadric the Pure"] = {
+									["uptime"] = 7,
+									["count"] = 4,
+								},
+							},
+							["uptime"] = 41,
+						},
+						[47436] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 157,
+						},
+						[59620] = {
+							["type"] = "BUFF",
+							["count"] = 3,
+							["school"] = 2,
+							["refresh"] = 5,
+							["uptime"] = 69,
+						},
+						[8983] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["targets"] = {
+								["Argent Priestess"] = {
+									["uptime"] = 2,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 2,
+						},
+						[67695] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 11,
+						},
+						[48568] = {
+							["type"] = "DEBUFF",
+							["count"] = 7,
+							["school"] = 1,
+							["refresh"] = 23,
+							["targets"] = {
+								["Argent Monk"] = {
+									["refresh"] = 2,
+									["count"] = 2,
+									["uptime"] = 35,
+								},
+								["Argent Lightwielder"] = {
+									["uptime"] = 9,
+									["count"] = 1,
+								},
+								["Eadric the Pure"] = {
+									["refresh"] = 18,
+									["count"] = 1,
+									["uptime"] = 56,
+								},
+								["Argent Priestess"] = {
+									["refresh"] = 3,
+									["count"] = 3,
+									["uptime"] = 28,
+								},
+							},
+							["uptime"] = 113,
+						},
+						[57623] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 48,
+						},
+						[16870] = {
+							["type"] = "BUFF",
+							["count"] = 11,
+							["school"] = 8,
+							["refresh"] = 1,
+							["uptime"] = 16,
+						},
+						[67016] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 158,
+						},
+						[61301] = {
+							["school"] = 8,
+							["type"] = "BUFF",
+							["count"] = 5,
+							["uptime"] = 51,
+						},
+						[48418] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 158,
+						},
+						[16857] = {
+							["type"] = "DEBUFF",
+							["count"] = 7,
+							["school"] = 8,
+							["refresh"] = 7,
+							["targets"] = {
+								["Argent Monk"] = {
+									["refresh"] = 1,
+									["count"] = 1,
+									["uptime"] = 10,
+								},
+								["Argent Lightwielder"] = {
+									["uptime"] = 2,
+									["count"] = 1,
+								},
+								["Eadric the Pure"] = {
+									["refresh"] = 5,
+									["count"] = 2,
+									["uptime"] = 47,
+								},
+								["Argent Priestess"] = {
+									["refresh"] = 1,
+									["count"] = 3,
+									["uptime"] = 29,
+								},
+							},
+							["uptime"] = 88,
+						},
+					},
+					["totaldamage"] = 509887,
+					["time"] = 150.6,
+					["damagespells"] = {
+						["Feral Charge Effect"] = {
+							["casts"] = 1,
+							["count"] = 2,
+							["amount"] = 0,
+							["school"] = 1,
+							["IMMUNE"] = 2,
+							["targets"] = {
+								["Eadric the Pure"] = {
+									["amount"] = 0,
+								},
+							},
+							["id"] = 19675,
+						},
+						["Melee"] = {
+							["glance"] = 861,
+							["hitmin"] = 1181,
+							["criticalmin"] = 2118,
+							["targets"] = {
+								["Argent Priestess"] = {
+									["amount"] = 1181,
+								},
+								["Argent Lightwielder"] = {
+									["amount"] = 4712,
+								},
+								["Eadric the Pure"] = {
+									["amount"] = 5141,
+								},
+							},
+							["glancing"] = 1,
+							["amount"] = 11034,
+							["glancemin"] = 861,
+							["criticalamount"] = 8992,
+							["id"] = 6603,
+							["glancemax"] = 861,
+							["criticalmax"] = 2480,
+							["critical"] = 4,
+							["hit"] = 1,
+							["school"] = 1,
+							["count"] = 6,
+							["hitmax"] = 1181,
+							["hitamount"] = 1181,
+						},
+						["Lacerate"] = {
+							["criticalmin"] = 266,
+							["hitmin"] = 121,
+							["criticalamount"] = 3301,
+							["id"] = 48568,
+							["hit"] = 20,
+							["targets"] = {
+								["Argent Monk"] = {
+									["amount"] = 694,
+								},
+								["Argent Lightwielder"] = {
+									["amount"] = 366,
+								},
+								["Eadric the Pure"] = {
+									["amount"] = 4092,
+								},
+								["Argent Priestess"] = {
+									["amount"] = 1341,
+								},
+							},
+							["critical"] = 10,
+							["blocked"] = 41,
+							["criticalmax"] = 376,
+							["count"] = 30,
+							["amount"] = 6493,
+							["school"] = 1,
+							["hitmax"] = 188,
+							["casts"] = 30,
+							["hitamount"] = 3192,
+						},
+						["Swipe (Bear)"] = {
+							["hitmin"] = 491,
+							["criticalmin"] = 1062,
+							["IMMUNE"] = 8,
+							["targets"] = {
+								["Argent Monk"] = {
+									["overkill"] = 559,
+									["amount"] = 34485,
+								},
+								["Argent Lightwielder"] = {
+									["amount"] = 42727,
+								},
+								["Argent Priestess"] = {
+									["amount"] = 25575,
+								},
+								["Fountain of Light"] = {
+									["amount"] = 2872,
+								},
+							},
+							["amount"] = 105659,
+							["criticalamount"] = 66494,
+							["id"] = 48562,
+							["criticalmax"] = 1330,
+							["overkill"] = 559,
+							["hit"] = 68,
+							["casts"] = 32,
+							["count"] = 134,
+							["blocked"] = 120,
+							["school"] = 1,
+							["critical"] = 58,
+							["hitmax"] = 665,
+							["hitamount"] = 39165,
+						},
+						["Mangle (Bear)"] = {
+							["hitmin"] = 1771,
+							["criticalamount"] = 14688,
+							["id"] = 48564,
+							["criticalmin"] = 3494,
+							["targets"] = {
+								["Argent Monk"] = {
+									["amount"] = 3974,
+								},
+								["Argent Lightwielder"] = {
+									["amount"] = 3662,
+								},
+								["Eadric the Pure"] = {
+									["amount"] = 12632,
+								},
+							},
+							["critical"] = 4,
+							["amount"] = 20268,
+							["criticalmax"] = 3974,
+							["count"] = 7,
+							["hit"] = 3,
+							["school"] = 1,
+							["hitmax"] = 2021,
+							["casts"] = 7,
+							["hitamount"] = 5580,
+						},
+						["Faerie Fire (Feral)"] = {
+							["criticalamount"] = 3391,
+							["hitmin"] = 1003,
+							["criticalmin"] = 1690,
+							["id"] = 60089,
+							["critical"] = 2,
+							["targets"] = {
+								["Argent Monk"] = {
+									["amount"] = 2357,
+								},
+								["Argent Lightwielder"] = {
+									["amount"] = 1230,
+								},
+								["Eadric the Pure"] = {
+									["amount"] = 7694,
+								},
+								["Argent Priestess"] = {
+									["amount"] = 5589,
+								},
+							},
+							["hitmax"] = 1230,
+							["hit"] = 12,
+							["casts"] = 14,
+							["count"] = 14,
+							["amount"] = 16870,
+							["school"] = 8,
+							["resisted"] = 113,
+							["criticalmax"] = 1701,
+							["hitamount"] = 13479,
+						},
+						["Maul"] = {
+							["criticalamount"] = 212642,
+							["hitmin"] = 1757,
+							["criticalmin"] = 3762,
+							["id"] = 48480,
+							["casts"] = 52,
+							["targets"] = {
+								["Argent Priestess"] = {
+									["amount"] = 108096,
+								},
+								["Argent Lightwielder"] = {
+									["amount"] = 38686,
+								},
+								["Eadric the Pure"] = {
+									["amount"] = 93243,
+								},
+								["Argent Monk"] = {
+									["amount"] = 64145,
+								},
+							},
+							["count"] = 74,
+							["blocked"] = 81,
+							["criticalmax"] = 6820,
+							["hitmax"] = 3321,
+							["amount"] = 304170,
+							["school"] = 1,
+							["critical"] = 39,
+							["hit"] = 35,
+							["hitamount"] = 91528,
+						},
+						["Lacerate (DoT)"] = {
+							["hitmin"] = 167,
+							["criticalamount"] = 26810,
+							["id"] = 48568,
+							["targets"] = {
+								["Argent Monk"] = {
+									["amount"] = 5292,
+								},
+								["Argent Lightwielder"] = {
+									["amount"] = 971,
+								},
+								["Eadric the Pure"] = {
+									["amount"] = 28135,
+								},
+								["Argent Priestess"] = {
+									["amount"] = 4265,
+								},
+							},
+							["criticalmin"] = 333,
+							["count"] = 40,
+							["criticalmax"] = 2504,
+							["critical"] = 21,
+							["amount"] = 38663,
+							["school"] = 1,
+							["hitmax"] = 1251,
+							["hit"] = 19,
+							["hitamount"] = 11853,
+						},
+						["Chain Lightning"] = {
+							["criticalamount"] = 496,
+							["hitmin"] = 101,
+							["criticalmin"] = 188,
+							["id"] = 21179,
+							["critical"] = 2,
+							["targets"] = {
+								["Argent Monk"] = {
+									["amount"] = 857,
+								},
+								["Argent Lightwielder"] = {
+									["amount"] = 915,
+								},
+								["Eadric the Pure"] = {
+									["amount"] = 881,
+								},
+								["Argent Priestess"] = {
+									["amount"] = 420,
+								},
+							},
+							["hitmax"] = 257,
+							["hit"] = 15,
+							["casts"] = 1,
+							["count"] = 17,
+							["amount"] = 3073,
+							["school"] = 8,
+							["resisted"] = 20,
+							["criticalmax"] = 308,
+							["hitamount"] = 2577,
+						},
+						["Thorns"] = {
+							["hitmin"] = 78,
+							["id"] = 53307,
+							["IMMUNE"] = 1,
+							["targets"] = {
+								["Argent Monk"] = {
+									["amount"] = 1908,
+								},
+								["Argent Lightwielder"] = {
+									["amount"] = 951,
+								},
+								["Eadric the Pure"] = {
+									["amount"] = 798,
+								},
+							},
+							["casts"] = 1,
+							["count"] = 46,
+							["hit"] = 45,
+							["school"] = 8,
+							["hitmax"] = 89,
+							["amount"] = 3657,
+							["hitamount"] = 3657,
+						},
+					},
+					["totaldamagetaken"] = 269712,
+					["mana"] = 14674,
+					["damage"] = 509887,
+					["overheal"] = 21147,
+					["damagetakenspells"] = {
+						["Holy Smite"] = {
+							["hitmin"] = 722,
+							["id"] = 67289,
+							["amount"] = 30025,
+							["sources"] = {
+								["Argent Priestess"] = {
+									["amount"] = 30025,
+								},
+							},
+							["count"] = 23,
+							["hit"] = 21,
+							["school"] = 2,
+							["hitmax"] = 1742,
+							["MISS"] = 2,
+							["hitamount"] = 30025,
+						},
+						["Melee"] = {
+							["DODGE"] = 29,
+							["hitmin"] = 48,
+							["criticalmin"] = 5779,
+							["sources"] = {
+								["Argent Monk"] = {
+									["total"] = 53673,
+									["amount"] = 27572,
+								},
+								["Argent Lightwielder"] = {
+									["total"] = 26194,
+									["amount"] = 8957,
+								},
+								["Eadric the Pure"] = {
+									["total"] = 49079,
+									["amount"] = 36351,
+								},
+							},
+							["amount"] = 72880,
+							["MISS"] = 4,
+							["total"] = 128946,
+							["criticalamount"] = 15611,
+							["id"] = 6603,
+							["critical"] = 2,
+							["criticalmax"] = 9832,
+							["count"] = 84,
+							["ABSORB"] = 5,
+							["school"] = 1,
+							["hit"] = 44,
+							["hitmax"] = 3482,
+							["hitamount"] = 57269,
+						},
+						["Cleave"] = {
+							["DODGE"] = 4,
+							["total"] = 34851,
+							["hitmin"] = 465,
+							["id"] = 68868,
+							["amount"] = 19252,
+							["sources"] = {
+								["Argent Lightwielder"] = {
+									["total"] = 34851,
+									["amount"] = 19252,
+								},
+							},
+							["count"] = 20,
+							["hit"] = 14,
+							["school"] = 1,
+							["hitmax"] = 2779,
+							["MISS"] = 2,
+							["hitamount"] = 19252,
+						},
+						["Blazing Light"] = {
+							["hitmin"] = 5026,
+							["id"] = 67291,
+							["amount"] = 31505,
+							["sources"] = {
+								["Argent Monk"] = {
+									["amount"] = 0,
+								},
+								["Argent Lightwielder"] = {
+									["amount"] = 31505,
+								},
+							},
+							["count"] = 7,
+							["hit"] = 6,
+							["school"] = 2,
+							["hitmax"] = 5487,
+							["MISS"] = 1,
+							["hitamount"] = 31505,
+						},
+						["Final Meditation"] = {
+							["sources"] = {
+								["Argent Monk"] = {
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+							["school"] = 2,
+							["MISS"] = 1,
+							["id"] = 67255,
+						},
+						["Shadow Word: Pain (DoT)"] = {
+							["hitmin"] = 3826,
+							["id"] = 68088,
+							["hitmax"] = 5466,
+							["sources"] = {
+								["Argent Priestess"] = {
+									["amount"] = 44385,
+								},
+							},
+							["count"] = 10,
+							["hit"] = 10,
+							["school"] = 32,
+							["resisted"] = 7911,
+							["amount"] = 44385,
+							["hitamount"] = 44385,
+						},
+					},
+					["damagetaken"] = 198047,
+					["rage"] = 704,
+					["id"] = "0x070000000086CEC0",
+					["spec"] = 103,
+					["healspells"] = {
+						[34299] = {
+							["overheal"] = 21147,
+							["school"] = 1,
+							["count"] = 22,
+							["amount"] = 20665,
+							["max"] = 1901,
+							["ishot"] = true,
+							["targets"] = {
+								["Moonsoonx"] = {
+									["overheal"] = 21147,
+									["amount"] = 20665,
+								},
+							},
+							["min"] = 451,
+						},
+					},
+					["overkill"] = 559,
+					["name"] = "Moonsoonx",
+					["heal"] = 20665,
+					["manaspells"] = {
+						[68285] = 14674,
+					},
+					["ccdone"] = 3,
+					["ragespells"] = {
+						[5229] = 30,
+						[59072] = 99,
+						[16959] = 575,
+					},
+					["interrupt"] = 2,
+					["interruptspells"] = {
+						[32747] = {
+							["spells"] = {
+								[67289] = 1,
+							},
+							["count"] = 1,
+							["targets"] = {
+								["Argent Priestess"] = 1,
+							},
+						},
+						[19675] = {
+							["spells"] = {
+								[67229] = 1,
+							},
+							["count"] = 1,
+							["targets"] = {
+								["Argent Priestess"] = 1,
+							},
+						},
+					},
+					["role"] = "TANK",
+				}, -- [2]
+				{
+					["last"] = 11339.595,
+					["flag"] = 4370,
+					["class"] = "SHAMAN",
+					["auras"] = {
+						[24932] = {
+							["school"] = 1,
+							["type"] = "BUFF",
+							["count"] = 4,
+							["uptime"] = 152,
+						},
+						[48470] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 158,
+						},
+						[55198] = {
+							["school"] = 1,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 2,
+						},
+						[57960] = {
+							["refresh"] = 8,
+							["type"] = "BUFF",
+							["uptime"] = 158,
+							["count"] = 1,
+						},
+						[58646] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 158,
+						},
+						[72221] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 158,
+						},
+						[52113] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 158,
+						},
+						[28878] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 158,
+						},
+						[16237] = {
+							["school"] = 2,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 15,
+						},
+						[47436] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 157,
+						},
+						[71220] = {
+							["type"] = "BUFF",
+							["count"] = 4,
+							["school"] = 8,
+							["refresh"] = 10,
+							["uptime"] = 136,
+						},
+						[53390] = {
+							["type"] = "BUFF",
+							["count"] = 5,
+							["school"] = 1,
+							["refresh"] = 14,
+							["uptime"] = 120,
+						},
+						[55166] = {
+							["school"] = 1,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 5,
+						},
+						[60520] = {
+							["school"] = 1,
+							["type"] = "BUFF",
+							["count"] = 2,
+							["uptime"] = 18,
+						},
+						[52000] = {
+							["school"] = 8,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 12,
+						},
+						[61301] = {
+							["school"] = 8,
+							["type"] = "BUFF",
+							["count"] = 2,
+							["uptime"] = 31,
+						},
+						[57623] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 48,
+						},
+						[72418] = {
+							["school"] = 64,
+							["type"] = "BUFF",
+							["count"] = 2,
+							["uptime"] = 20,
+						},
+					},
+					["totaldamage"] = 1993,
+					["time"] = 136.59,
+					["totaldamagetaken"] = 40723,
+					["damage"] = 1993,
+					["damagespells"] = {
+						["Purge"] = {
+							["casts"] = 1,
+							["count"] = 1,
+							["amount"] = 0,
+							["school"] = 8,
+							["IMMUNE"] = 1,
+							["targets"] = {
+								["Argent Monk"] = {
+									["amount"] = 0,
+								},
+							},
+							["id"] = 8012,
+						},
+						["Melee"] = {
+							["criticalamount"] = 392,
+							["id"] = 6603,
+							["IMMUNE"] = 3,
+							["targets"] = {
+								["Argent Monk"] = {
+									["overkill"] = 391,
+									["amount"] = 392,
+								},
+							},
+							["overkill"] = 391,
+							["criticalmax"] = 392,
+							["count"] = 4,
+							["amount"] = 392,
+							["school"] = 1,
+							["criticalmin"] = 392,
+							["critical"] = 1,
+						},
+						["Flame Shock (DoT)"] = {
+							["hitmin"] = 291,
+							["criticalamount"] = 1310,
+							["id"] = 25457,
+							["targets"] = {
+								["Argent Priestess"] = {
+									["amount"] = 1601,
+								},
+							},
+							["criticalmin"] = 436,
+							["critical"] = 3,
+							["criticalmax"] = 437,
+							["count"] = 4,
+							["amount"] = 1601,
+							["school"] = 4,
+							["hit"] = 1,
+							["hitmax"] = 291,
+							["hitamount"] = 291,
+						},
+					},
+					["damagetaken"] = 40723,
+					["id"] = "0x070000000096874A",
+					["spec"] = 264,
+					["healspells"] = {
+						[379] = {
+							["overheal"] = 13138,
+							["criticalamount"] = 46793,
+							["max"] = 4912,
+							["targets"] = {
+								["Moonsoonx"] = {
+									["overheal"] = 13138,
+									["amount"] = 79749,
+								},
+								["Rimgar"] = {
+									["overheal"] = 0,
+									["amount"] = 6337,
+								},
+							},
+							["min"] = 1061,
+							["criticalmax"] = 4912,
+							["count"] = 25,
+							["amount"] = 86086,
+							["school"] = 8,
+							["criticalmin"] = 1378,
+							["critical"] = 12,
+						},
+						[52042] = {
+							["overheal"] = 34402,
+							["school"] = 8,
+							["count"] = 105,
+							["amount"] = 8999,
+							["max"] = 466,
+							["ishot"] = true,
+							["targets"] = {
+								["Moonsoonx"] = {
+									["overheal"] = 2015,
+									["amount"] = 2040,
+								},
+								["Rimgar"] = {
+									["overheal"] = 3422,
+									["amount"] = 2326,
+								},
+								["Anusalro"] = {
+									["overheal"] = 5069,
+									["amount"] = 0,
+								},
+								["Zbeguini"] = {
+									["overheal"] = 23896,
+									["amount"] = 4633,
+								},
+							},
+							["min"] = 287,
+						},
+						[49276] = {
+							["overheal"] = 7088,
+							["criticalamount"] = 45620,
+							["max"] = 9001,
+							["targets"] = {
+								["Moonsoonx"] = {
+									["overheal"] = 0,
+									["amount"] = 23477,
+								},
+								["Anusalro"] = {
+									["overheal"] = 0,
+									["amount"] = 11860,
+								},
+								["Rimgar"] = {
+									["overheal"] = 5676,
+									["amount"] = 14350,
+								},
+								["Zbeguini"] = {
+									["overheal"] = 1412,
+									["amount"] = 15528,
+								},
+							},
+							["min"] = 1726,
+							["casts"] = 11,
+							["count"] = 11,
+							["amount"] = 65215,
+							["school"] = 8,
+							["criticalmin"] = 1726,
+							["criticalmax"] = 9001,
+							["critical"] = 7,
+						},
+						[34299] = {
+							["overheal"] = 0,
+							["max"] = 959,
+							["count"] = 1,
+							["amount"] = 959,
+							["school"] = 1,
+							["targets"] = {
+								["Zbeguini"] = {
+									["overheal"] = 0,
+									["amount"] = 959,
+								},
+							},
+							["ishot"] = true,
+							["min"] = 959,
+						},
+						[52000] = {
+							["overheal"] = 6205,
+							["max"] = 732,
+							["count"] = 32,
+							["amount"] = 16445,
+							["school"] = 8,
+							["targets"] = {
+								["Moonsoonx"] = {
+									["overheal"] = 2019,
+									["amount"] = 2965,
+								},
+								["Anusalro"] = {
+									["overheal"] = 1993,
+									["amount"] = 6900,
+								},
+								["Rimgar"] = {
+									["overheal"] = 731,
+									["amount"] = 5118,
+								},
+								["Zbeguini"] = {
+									["overheal"] = 1462,
+									["amount"] = 1462,
+								},
+							},
+							["ishot"] = true,
+							["min"] = 74,
+						},
+						[61301] = {
+							["overheal"] = 35052,
+							["criticalamount"] = 17026,
+							["max"] = 4489,
+							["targets"] = {
+								["Torreznos"] = {
+									["overheal"] = 6304,
+									["amount"] = 3073,
+								},
+								["Moonsoonx"] = {
+									["overheal"] = 7366,
+									["amount"] = 24478,
+								},
+								["Anusalro"] = {
+									["overheal"] = 10199,
+									["amount"] = 14241,
+								},
+								["Rimgar"] = {
+									["overheal"] = 6616,
+									["amount"] = 18964,
+								},
+								["Zbeguini"] = {
+									["overheal"] = 4567,
+									["amount"] = 11087,
+								},
+							},
+							["criticalmin"] = 1890,
+							["min"] = 90,
+							["casts"] = 14,
+							["critical"] = 5,
+							["amount"] = 71843,
+							["school"] = 8,
+							["criticalmax"] = 4489,
+							["ishot"] = true,
+							["count"] = 73,
+						},
+						[55459] = {
+							["overheal"] = 19998,
+							["criticalamount"] = 68613,
+							["max"] = 10026,
+							["targets"] = {
+								["Moonsoonx"] = {
+									["overheal"] = 9397,
+									["amount"] = 36308,
+								},
+								["Rimgar"] = {
+									["overheal"] = 2965,
+									["amount"] = 43871,
+								},
+								["Torreznos"] = {
+									["overheal"] = 1165,
+									["amount"] = 10272,
+								},
+								["Anusalro"] = {
+									["overheal"] = 6471,
+									["amount"] = 34040,
+								},
+							},
+							["min"] = 266,
+							["casts"] = 11,
+							["count"] = 25,
+							["amount"] = 124491,
+							["school"] = 8,
+							["criticalmin"] = 1405,
+							["criticalmax"] = 10026,
+							["critical"] = 11,
+						},
+						[52752] = {
+							["overheal"] = 4345,
+							["count"] = 12,
+							["amount"] = 19042,
+							["max"] = 2807,
+							["school"] = 8,
+							["targets"] = {
+								["Torreznos"] = {
+									["overheal"] = 0,
+									["amount"] = 4959,
+								},
+								["Moonsoonx"] = {
+									["overheal"] = 0,
+									["amount"] = 4645,
+								},
+								["Anusalro"] = {
+									["overheal"] = 2028,
+									["amount"] = 2872,
+								},
+								["Rimgar"] = {
+									["overheal"] = 0,
+									["amount"] = 5055,
+								},
+								["Zbeguini"] = {
+									["overheal"] = 2317,
+									["amount"] = 1511,
+								},
+							},
+							["min"] = 663,
+						},
+						[49273] = {
+							["overheal"] = 7232,
+							["count"] = 1,
+							["amount"] = 5543,
+							["school"] = 8,
+							["max"] = 5543,
+							["targets"] = {
+								["Zbeguini"] = {
+									["overheal"] = 7232,
+									["amount"] = 5543,
+								},
+							},
+							["min"] = 5543,
+						},
+					},
+					["damagetakenspells"] = {
+						["Holy Smite"] = {
+							["hitmin"] = 1601,
+							["id"] = 67289,
+							["sources"] = {
+								["Argent Priestess"] = {
+									["amount"] = 1601,
+								},
+							},
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 2,
+							["hitmax"] = 1601,
+							["amount"] = 1601,
+							["hitamount"] = 1601,
+						},
+						["Mind Control"] = {
+							["sources"] = {
+								["Argent Priestess"] = {
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+							["school"] = 32,
+							["RESIST"] = 1,
+							["id"] = 67229,
+						},
+						["Melee"] = {
+							["hitmin"] = 3265,
+							["id"] = 6603,
+							["sources"] = {
+								["Argent Monk"] = {
+									["amount"] = 10081,
+								},
+							},
+							["count"] = 3,
+							["hit"] = 3,
+							["school"] = 1,
+							["hitmax"] = 3533,
+							["amount"] = 10081,
+							["hitamount"] = 10081,
+						},
+						["Shadow Word: Pain (DoT)"] = {
+							["hitmin"] = 5051,
+							["id"] = 68088,
+							["hitmax"] = 6313,
+							["sources"] = {
+								["Argent Priestess"] = {
+									["amount"] = 29041,
+								},
+							},
+							["count"] = 5,
+							["hit"] = 5,
+							["school"] = 32,
+							["resisted"] = 2524,
+							["amount"] = 29041,
+							["hitamount"] = 29041,
+						},
+					},
+					["heal"] = 398623,
+					["manaspells"] = {
+						[57961] = 6888,
+					},
+					["overkill"] = 391,
+					["name"] = "Zbeguini",
+					["mana"] = 6888,
+					["overheal"] = 127460,
+					["role"] = "HEALER",
+				}, -- [3]
+				{
+					["last"] = 11341.071,
+					["flag"] = 1298,
+					["class"] = "DRUID",
+					["auras"] = {
+						[24932] = {
+							["school"] = 1,
+							["type"] = "BUFF",
+							["count"] = 5,
+							["uptime"] = 154,
+						},
+						[48470] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 158,
+						},
+						[61336] = {
+							["school"] = 1,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 20,
+						},
+						[48566] = {
+							["type"] = "DEBUFF",
+							["count"] = 6,
+							["school"] = 1,
+							["refresh"] = 3,
+							["targets"] = {
+								["Argent Monk"] = {
+									["uptime"] = 7,
+									["count"] = 3,
+								},
+								["Argent Lightwielder"] = {
+									["refresh"] = 3,
+									["count"] = 2,
+									["uptime"] = 19,
+								},
+							},
+							["uptime"] = 26,
+						},
+						[50334] = {
+							["school"] = 1,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 15,
+						},
+						[22812] = {
+							["school"] = 8,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 12,
+						},
+						[50213] = {
+							["school"] = 1,
+							["type"] = "BUFF",
+							["count"] = 3,
+							["uptime"] = 18,
+						},
+						[58646] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 158,
+						},
+						[69369] = {
+							["school"] = 1,
+							["type"] = "BUFF",
+							["count"] = 7,
+							["uptime"] = 50,
+						},
+						[48574] = {
+							["type"] = "DEBUFF",
+							["count"] = 9,
+							["school"] = 1,
+							["refresh"] = 11,
+							["targets"] = {
+								["Argent Monk"] = {
+									["uptime"] = 16,
+									["count"] = 3,
+								},
+								["Argent Lightwielder"] = {
+									["refresh"] = 4,
+									["count"] = 2,
+									["uptime"] = 17,
+								},
+								["Eadric the Pure"] = {
+									["refresh"] = 6,
+									["count"] = 2,
+									["uptime"] = 35,
+								},
+								["Argent Priestess"] = {
+									["refresh"] = 1,
+									["count"] = 2,
+									["uptime"] = 21,
+								},
+							},
+							["uptime"] = 83,
+						},
+						[48420] = {
+							["school"] = 8,
+							["type"] = "BUFF",
+							["count"] = 3,
+							["uptime"] = 149,
+						},
+						[52113] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 158,
+						},
+						[52610] = {
+							["school"] = 1,
+							["type"] = "BUFF",
+							["count"] = 3,
+							["uptime"] = 53,
+						},
+						[16237] = {
+							["type"] = "BUFF",
+							["count"] = 4,
+							["school"] = 2,
+							["refresh"] = 5,
+							["uptime"] = 80,
+						},
+						[47436] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 157,
+						},
+						[71403] = {
+							["school"] = 1,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 10,
+						},
+						[50259] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["targets"] = {
+								["Argent Lightwielder"] = {
+									["uptime"] = 3,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 3,
+						},
+						[48447] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 8,
+							["refresh"] = 1,
+							["uptime"] = 5,
+						},
+						[28878] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 158,
+						},
+						[16870] = {
+							["school"] = 8,
+							["type"] = "BUFF",
+							["count"] = 7,
+							["uptime"] = 24,
+						},
+						[768] = {
+							["school"] = 1,
+							["type"] = "BUFF",
+							["count"] = 3,
+							["uptime"] = 149,
+						},
+						[52000] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 8,
+							["refresh"] = 3,
+							["uptime"] = 43,
+						},
+						[61301] = {
+							["school"] = 8,
+							["type"] = "BUFF",
+							["count"] = 3,
+							["uptime"] = 36,
+						},
+						[57623] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 48,
+						},
+						[16857] = {
+							["type"] = "DEBUFF",
+							["count"] = 3,
+							["school"] = 8,
+							["refresh"] = 1,
+							["targets"] = {
+								["Argent Priestess"] = {
+									["uptime"] = 27,
+									["count"] = 1,
+								},
+								["Argent Lightwielder"] = {
+									["uptime"] = 9,
+									["count"] = 1,
+								},
+								["Eadric the Pure"] = {
+									["refresh"] = 1,
+									["count"] = 1,
+									["uptime"] = 10,
+								},
+							},
+							["uptime"] = 46,
+						},
+					},
+					["energyspells"] = {
+						[51178] = 180,
+						[17099] = 160,
+					},
+					["totaldamage"] = 203095,
+					["time"] = 128.48,
+					["resspells"] = {
+						[48477] = {
+							["count"] = 1,
+							["targets"] = {
+								["Torreznos"] = 1,
+							},
+						},
+					},
+					["totaldamagetaken"] = 80966,
+					["damage"] = 203095,
+					["damagespells"] = {
+						["Melee"] = {
+							["glance"] = 4810,
+							["hitmin"] = 409,
+							["criticalmin"] = 880,
+							["IMMUNE"] = 3,
+							["targets"] = {
+								["Argent Monk"] = {
+									["amount"] = 14602,
+								},
+								["Argent Lightwielder"] = {
+									["amount"] = 17574,
+								},
+								["Eadric the Pure"] = {
+									["overkill"] = 273,
+									["amount"] = 13060,
+								},
+								["Argent Priestess"] = {
+									["amount"] = 9676,
+								},
+							},
+							["glancing"] = 11,
+							["amount"] = 54912,
+							["glancemin"] = 331,
+							["criticalamount"] = 30559,
+							["id"] = 6603,
+							["glancemax"] = 611,
+							["overkill"] = 273,
+							["blocked"] = 40,
+							["criticalmax"] = 1504,
+							["hitmax"] = 696,
+							["hit"] = 38,
+							["school"] = 1,
+							["critical"] = 29,
+							["count"] = 81,
+							["hitamount"] = 19543,
+						},
+						["Rake (DoT)"] = {
+							["hitmin"] = 1076,
+							["id"] = 48574,
+							["targets"] = {
+								["Argent Monk"] = {
+									["amount"] = 6553,
+								},
+								["Argent Lightwielder"] = {
+									["amount"] = 9403,
+								},
+								["Eadric the Pure"] = {
+									["amount"] = 11632,
+								},
+								["Argent Priestess"] = {
+									["amount"] = 8964,
+								},
+							},
+							["casts"] = 2,
+							["count"] = 24,
+							["hit"] = 24,
+							["school"] = 1,
+							["hitmax"] = 2013,
+							["amount"] = 36552,
+							["hitamount"] = 36552,
+						},
+						["Ferocious Bite"] = {
+							["hitmin"] = 2345,
+							["criticalamount"] = 40629,
+							["id"] = 48577,
+							["criticalmin"] = 3531,
+							["targets"] = {
+								["Argent Monk"] = {
+									["amount"] = 4144,
+								},
+								["Argent Lightwielder"] = {
+									["amount"] = 17505,
+								},
+								["Eadric the Pure"] = {
+									["amount"] = 24338,
+								},
+							},
+							["critical"] = 8,
+							["amount"] = 45987,
+							["criticalmax"] = 7990,
+							["count"] = 10,
+							["hit"] = 2,
+							["school"] = 1,
+							["hitmax"] = 3013,
+							["casts"] = 10,
+							["hitamount"] = 5358,
+						},
+						["Mangle (Cat)"] = {
+							["hitmin"] = 1524,
+							["criticalamount"] = 20153,
+							["id"] = 48566,
+							["criticalmin"] = 3214,
+							["targets"] = {
+								["Argent Monk"] = {
+									["amount"] = 9952,
+								},
+								["Argent Lightwielder"] = {
+									["amount"] = 13593,
+								},
+								["Eadric the Pure"] = {
+									["amount"] = 4008,
+								},
+							},
+							["critical"] = 5,
+							["amount"] = 27553,
+							["criticalmax"] = 4741,
+							["count"] = 9,
+							["hit"] = 4,
+							["school"] = 1,
+							["hitmax"] = 2345,
+							["casts"] = 9,
+							["hitamount"] = 7400,
+						},
+						["Shred"] = {
+							["hitmin"] = 2422,
+							["criticalamount"] = 21005,
+							["id"] = 48572,
+							["criticalmin"] = 4846,
+							["targets"] = {
+								["Argent Priestess"] = {
+									["amount"] = 7796,
+								},
+								["Eadric the Pure"] = {
+									["amount"] = 15631,
+								},
+							},
+							["critical"] = 4,
+							["amount"] = 23427,
+							["criticalmax"] = 5871,
+							["count"] = 5,
+							["hit"] = 1,
+							["school"] = 1,
+							["hitmax"] = 2422,
+							["casts"] = 5,
+							["hitamount"] = 2422,
+						},
+						["Rake"] = {
+							["criticalmin"] = 972,
+							["hitmin"] = 333,
+							["criticalamount"] = 8624,
+							["id"] = 48574,
+							["IMMUNE"] = 1,
+							["targets"] = {
+								["Argent Monk"] = {
+									["amount"] = 2914,
+								},
+								["Argent Lightwielder"] = {
+									["amount"] = 5163,
+								},
+								["Eadric the Pure"] = {
+									["amount"] = 4822,
+								},
+								["Argent Priestess"] = {
+									["amount"] = 1765,
+								},
+							},
+							["critical"] = 8,
+							["amount"] = 14664,
+							["criticalmax"] = 1344,
+							["count"] = 22,
+							["hit"] = 13,
+							["school"] = 1,
+							["hitmax"] = 598,
+							["casts"] = 22,
+							["hitamount"] = 6040,
+						},
+					},
+					["ress"] = 1,
+					["damagetaken"] = 80966,
+					["id"] = "0x070000000095AC38",
+					["spec"] = 103,
+					["healspells"] = {
+						[34299] = {
+							["overheal"] = 9842,
+							["school"] = 1,
+							["count"] = 17,
+							["amount"] = 4855,
+							["max"] = 1086,
+							["ishot"] = true,
+							["targets"] = {
+								["Anusalro"] = {
+									["overheal"] = 9842,
+									["amount"] = 4855,
+								},
+							},
+							["min"] = 429,
+						},
+						[48445] = {
+							["overheal"] = 3596,
+							["count"] = 8,
+							["amount"] = 22128,
+							["school"] = 8,
+							["max"] = 3255,
+							["targets"] = {
+								["Moonsoonx"] = {
+									["overheal"] = 2844,
+									["amount"] = 3664,
+								},
+								["Anusalro"] = {
+									["overheal"] = 0,
+									["amount"] = 6198,
+								},
+								["Torreznos"] = {
+									["overheal"] = 752,
+									["amount"] = 5758,
+								},
+								["Rimgar"] = {
+									["overheal"] = 0,
+									["amount"] = 6508,
+								},
+							},
+							["min"] = 410,
+						},
+					},
+					["overkill"] = 273,
+					["damagetakenspells"] = {
+						["Radiance"] = {
+							["hitmin"] = 1769,
+							["id"] = 67681,
+							["sources"] = {
+								["Eadric the Pure"] = {
+									["amount"] = 8145,
+								},
+							},
+							["count"] = 3,
+							["hit"] = 3,
+							["school"] = 2,
+							["hitmax"] = 4181,
+							["amount"] = 8145,
+							["hitamount"] = 8145,
+						},
+						["Hammer of the Righteous"] = {
+							["hitmin"] = 8000,
+							["id"] = 67680,
+							["sources"] = {
+								["Eadric the Pure"] = {
+									["amount"] = 8000,
+								},
+							},
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 2,
+							["hitmax"] = 8000,
+							["amount"] = 8000,
+							["hitamount"] = 8000,
+						},
+						["Cleave"] = {
+							["hitmin"] = 4187,
+							["id"] = 68868,
+							["sources"] = {
+								["Argent Lightwielder"] = {
+									["amount"] = 8931,
+								},
+							},
+							["count"] = 2,
+							["hit"] = 2,
+							["school"] = 1,
+							["hitmax"] = 4744,
+							["amount"] = 8931,
+							["hitamount"] = 8931,
+						},
+						["Shadow Word: Pain (DoT)"] = {
+							["hitmin"] = 4119,
+							["id"] = 68088,
+							["hitmax"] = 5883,
+							["sources"] = {
+								["Argent Priestess"] = {
+									["amount"] = 25299,
+								},
+							},
+							["count"] = 5,
+							["hit"] = 5,
+							["school"] = 32,
+							["resisted"] = 4116,
+							["amount"] = 25299,
+							["hitamount"] = 25299,
+						},
+						["Blazing Light"] = {
+							["hitmin"] = 3967,
+							["id"] = 67291,
+							["sources"] = {
+								["Argent Lightwielder"] = {
+									["amount"] = 30591,
+								},
+							},
+							["count"] = 7,
+							["hit"] = 7,
+							["school"] = 2,
+							["hitmax"] = 5674,
+							["amount"] = 30591,
+							["hitamount"] = 30591,
+						},
+					},
+					["heal"] = 26983,
+					["manaspells"] = {
+						[68285] = 10489,
+					},
+					["overheal"] = 13438,
+					["name"] = "Anusalro",
+					["mana"] = 10489,
+					["energy"] = 340,
+					["role"] = "DAMAGER",
+				}, -- [4]
+				{
+					["last"] = 11339.969,
+					["flag"] = 1298,
+					["class"] = "DEATHKNIGHT",
+					["auras"] = {
+						[55078] = {
+							["type"] = "DEBUFF",
+							["count"] = 4,
+							["school"] = 32,
+							["refresh"] = 7,
+							["targets"] = {
+								["Argent Priestess"] = {
+									["refresh"] = 1,
+									["count"] = 1,
+									["uptime"] = 10,
+								},
+								["Argent Lightwielder"] = {
+									["refresh"] = 1,
+									["count"] = 1,
+									["uptime"] = 8,
+								},
+								["Eadric the Pure"] = {
+									["refresh"] = 4,
+									["count"] = 1,
+									["uptime"] = 56,
+								},
+								["Argent Monk"] = {
+									["refresh"] = 1,
+									["count"] = 1,
+									["uptime"] = 7,
+								},
+							},
+							["uptime"] = 68,
+						},
+						[51735] = {
+							["type"] = "DEBUFF",
+							["count"] = 5,
+							["school"] = 32,
+							["refresh"] = 14,
+							["targets"] = {
+								["Argent Monk"] = {
+									["refresh"] = 2,
+									["count"] = 1,
+									["uptime"] = 7,
+								},
+								["Argent Lightwielder"] = {
+									["refresh"] = 1,
+									["count"] = 2,
+									["uptime"] = 9,
+								},
+								["Eadric the Pure"] = {
+									["refresh"] = 9,
+									["count"] = 1,
+									["uptime"] = 57,
+								},
+								["Argent Priestess"] = {
+									["refresh"] = 2,
+									["count"] = 1,
+									["uptime"] = 10,
+								},
+							},
+							["uptime"] = 70,
+						},
+						[55095] = {
+							["type"] = "DEBUFF",
+							["count"] = 4,
+							["school"] = 16,
+							["refresh"] = 5,
+							["targets"] = {
+								["Argent Monk"] = {
+									["uptime"] = 4,
+									["count"] = 1,
+								},
+								["Argent Lightwielder"] = {
+									["uptime"] = 1,
+									["count"] = 1,
+								},
+								["Eadric the Pure"] = {
+									["refresh"] = 5,
+									["count"] = 1,
+									["uptime"] = 57,
+								},
+								["Argent Priestess"] = {
+									["uptime"] = 1,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 63,
+						},
+						[50536] = {
+							["type"] = "DEBUFF",
+							["count"] = 3,
+							["school"] = 32,
+							["refresh"] = 2,
+							["targets"] = {
+								["Eadric the Pure"] = {
+									["refresh"] = 2,
+									["count"] = 3,
+									["uptime"] = 39,
+								},
+							},
+							["uptime"] = 39,
+						},
+						[67383] = {
+							["school"] = 8,
+							["type"] = "BUFF",
+							["count"] = 2,
+							["uptime"] = 40,
+						},
+						[58578] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["refresh"] = 8,
+							["uptime"] = 78,
+						},
+						[24932] = {
+							["school"] = 1,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 81,
+						},
+						[49938] = {
+							["type"] = "DEBUFF",
+							["count"] = 2,
+							["school"] = 32,
+							["targets"] = {
+								["Eadric the Pure"] = {
+									["uptime"] = 20,
+									["count"] = 2,
+								},
+							},
+							["uptime"] = 20,
+						},
+						[67117] = {
+							["school"] = 1,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 15,
+						},
+						[66803] = {
+							["school"] = 32,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 20,
+						},
+						[48447] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 8,
+							["refresh"] = 1,
+							["uptime"] = 5,
+						},
+						[61301] = {
+							["school"] = 8,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 15,
+						},
+						[16237] = {
+							["school"] = 2,
+							["type"] = "BUFF",
+							["count"] = 2,
+							["uptime"] = 30,
+						},
+					},
+					["totaldamage"] = 121095,
+					["time"] = 75.99000000000004,
+					["totaldamagetaken"] = 8875,
+					["damage"] = 121095,
+					["overheal"] = 7297,
+					["damagetaken"] = 8875,
+					["id"] = "0x0700000000951145",
+					["spec"] = 252,
+					["healspells"] = {
+						[50475] = {
+							["overheal"] = 2457,
+							["max"] = 91,
+							["count"] = 67,
+							["amount"] = 394,
+							["school"] = 1,
+							["targets"] = {
+								["Torreznos"] = {
+									["overheal"] = 2457,
+									["amount"] = 394,
+								},
+							},
+							["ishot"] = true,
+							["min"] = 35,
+						},
+						[34299] = {
+							["overheal"] = 4840,
+							["max"] = 968,
+							["count"] = 6,
+							["amount"] = 968,
+							["school"] = 1,
+							["targets"] = {
+								["Torreznos"] = {
+									["overheal"] = 4840,
+									["amount"] = 968,
+								},
+							},
+							["ishot"] = true,
+							["min"] = 968,
+						},
+					},
+					["damagetakenspells"] = {
+						["Blazing Light"] = {
+							["hitmin"] = 5802,
+							["id"] = 67291,
+							["sources"] = {
+								["Argent Lightwielder"] = {
+									["amount"] = 5802,
+								},
+							},
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 2,
+							["hitmax"] = 5802,
+							["amount"] = 5802,
+							["hitamount"] = 5802,
+						},
+						["Radiance"] = {
+							["hitmin"] = 3073,
+							["id"] = 67681,
+							["sources"] = {
+								["Eadric the Pure"] = {
+									["amount"] = 3073,
+								},
+							},
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 2,
+							["hitmax"] = 3073,
+							["amount"] = 3073,
+							["hitamount"] = 3073,
+						},
+					},
+					["heal"] = 1362,
+					["name"] = "Torreznos",
+					["damagespells"] = {
+						["Scourge Strike"] = {
+							["hitmin"] = 1543,
+							["id"] = 55271,
+							["targets"] = {
+								["Eadric the Pure"] = {
+									["amount"] = 5120,
+								},
+							},
+							["casts"] = 3,
+							["count"] = 3,
+							["hit"] = 3,
+							["school"] = 1,
+							["hitmax"] = 1894,
+							["amount"] = 5120,
+							["hitamount"] = 5120,
+						},
+						["Melee"] = {
+							["DODGE"] = 1,
+							["glance"] = 4041,
+							["hitmin"] = 1028,
+							["criticalmin"] = 2152,
+							["targets"] = {
+								["Argent Monk"] = {
+									["amount"] = 2086,
+								},
+								["Argent Lightwielder"] = {
+									["amount"] = 1194,
+								},
+								["Eadric the Pure"] = {
+									["amount"] = 27136,
+								},
+								["Argent Priestess"] = {
+									["amount"] = 1195,
+								},
+							},
+							["glancing"] = 4,
+							["amount"] = 31611,
+							["glancemin"] = 903,
+							["criticalamount"] = 15582,
+							["id"] = 6603,
+							["glancemax"] = 1128,
+							["criticalmax"] = 3044,
+							["hitmax"] = 1416,
+							["hit"] = 10,
+							["school"] = 1,
+							["critical"] = 6,
+							["count"] = 21,
+							["hitamount"] = 11988,
+						},
+						["Death and Decay"] = {
+							["criticalamount"] = 805,
+							["hitmin"] = 309,
+							["criticalmin"] = 805,
+							["id"] = 52212,
+							["critical"] = 1,
+							["targets"] = {
+								["Eadric the Pure"] = {
+									["amount"] = 8649,
+								},
+							},
+							["hitmax"] = 402,
+							["hit"] = 21,
+							["casts"] = 2,
+							["count"] = 22,
+							["amount"] = 8649,
+							["school"] = 32,
+							["resisted"] = 349,
+							["criticalmax"] = 805,
+							["hitamount"] = 7844,
+						},
+						["Icy Touch"] = {
+							["criticalamount"] = 2116,
+							["hitmin"] = 664,
+							["criticalmin"] = 2116,
+							["id"] = 49909,
+							["critical"] = 1,
+							["targets"] = {
+								["Argent Monk"] = {
+									["amount"] = 2116,
+								},
+								["Argent Lightwielder"] = {
+									["amount"] = 832,
+								},
+								["Eadric the Pure"] = {
+									["amount"] = 5475,
+								},
+								["Argent Priestess"] = {
+									["amount"] = 1055,
+								},
+							},
+							["hitmax"] = 1362,
+							["hit"] = 7,
+							["casts"] = 8,
+							["count"] = 8,
+							["amount"] = 9478,
+							["school"] = 16,
+							["resisted"] = 292,
+							["criticalmax"] = 2116,
+							["hitamount"] = 7362,
+						},
+						["Unholy Blight (DoT)"] = {
+							["hitmin"] = 15,
+							["id"] = 50536,
+							["targets"] = {
+								["Eadric the Pure"] = {
+									["amount"] = 1083,
+								},
+							},
+							["hitmax"] = 40,
+							["count"] = 38,
+							["hit"] = 38,
+							["school"] = 32,
+							["resisted"] = 69,
+							["amount"] = 1083,
+							["hitamount"] = 1083,
+						},
+						["Wandering Plague"] = {
+							["hitmin"] = 399,
+							["id"] = 50526,
+							["targets"] = {
+								["Argent Monk"] = {
+									["amount"] = 861,
+								},
+								["Argent Lightwielder"] = {
+									["amount"] = 1289,
+								},
+								["Eadric the Pure"] = {
+									["amount"] = 4084,
+								},
+								["Argent Priestess"] = {
+									["amount"] = 1289,
+								},
+							},
+							["hitmax"] = 632,
+							["casts"] = 1,
+							["count"] = 16,
+							["hit"] = 16,
+							["school"] = 32,
+							["resisted"] = 265,
+							["amount"] = 7523,
+							["hitamount"] = 7523,
+						},
+						["Blood Boil"] = {
+							["hitmin"] = 956,
+							["id"] = 49941,
+							["targets"] = {
+								["Eadric the Pure"] = {
+									["amount"] = 956,
+								},
+							},
+							["casts"] = 1,
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 32,
+							["hitmax"] = 956,
+							["amount"] = 956,
+							["hitamount"] = 956,
+						},
+						["Blood Strike"] = {
+							["hitmin"] = 1146,
+							["id"] = 49930,
+							["targets"] = {
+								["Eadric the Pure"] = {
+									["amount"] = 1146,
+								},
+							},
+							["casts"] = 1,
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 1,
+							["hitmax"] = 1146,
+							["amount"] = 1146,
+							["hitamount"] = 1146,
+						},
+						["Necrosis"] = {
+							["hitmin"] = 180,
+							["id"] = 51460,
+							["targets"] = {
+								["Argent Monk"] = {
+									["amount"] = 416,
+								},
+								["Argent Lightwielder"] = {
+									["amount"] = 238,
+								},
+								["Eadric the Pure"] = {
+									["amount"] = 5300,
+								},
+								["Argent Priestess"] = {
+									["amount"] = 239,
+								},
+							},
+							["hitmax"] = 608,
+							["casts"] = 1,
+							["count"] = 20,
+							["hit"] = 20,
+							["school"] = 32,
+							["resisted"] = 121,
+							["amount"] = 6193,
+							["hitamount"] = 6193,
+						},
+						["Blood Plague (DoT)"] = {
+							["hitmin"] = 416,
+							["id"] = 55078,
+							["targets"] = {
+								["Argent Priestess"] = {
+									["amount"] = 912,
+								},
+								["Argent Lightwielder"] = {
+									["amount"] = 911,
+								},
+								["Eadric the Pure"] = {
+									["amount"] = 8868,
+								},
+								["Argent Monk"] = {
+									["amount"] = 912,
+								},
+							},
+							["hitmax"] = 666,
+							["count"] = 22,
+							["hit"] = 22,
+							["school"] = 32,
+							["resisted"] = 401,
+							["amount"] = 11603,
+							["hitamount"] = 11603,
+						},
+						["Death Coil"] = {
+							["criticalmin"] = 4081,
+							["hitmin"] = 1837,
+							["criticalamount"] = 4081,
+							["id"] = 47632,
+							["hitmax"] = 2064,
+							["targets"] = {
+								["Eadric the Pure"] = {
+									["amount"] = 11904,
+								},
+							},
+							["critical"] = 1,
+							["hit"] = 4,
+							["casts"] = 5,
+							["count"] = 5,
+							["amount"] = 11904,
+							["school"] = 32,
+							["resisted"] = 433,
+							["criticalmax"] = 4081,
+							["hitamount"] = 7823,
+						},
+						["Scourge Strike (Shadow)"] = {
+							["hitmin"] = 784,
+							["id"] = 70890,
+							["targets"] = {
+								["Eadric the Pure"] = {
+									["amount"] = 2640,
+								},
+							},
+							["casts"] = 1,
+							["count"] = 3,
+							["hit"] = 3,
+							["school"] = 32,
+							["hitmax"] = 1001,
+							["amount"] = 2640,
+							["hitamount"] = 2640,
+						},
+						["Plague Strike"] = {
+							["hitmin"] = 873,
+							["criticalamount"] = 4419,
+							["id"] = 49921,
+							["criticalmin"] = 2198,
+							["targets"] = {
+								["Argent Monk"] = {
+									["amount"] = 2198,
+								},
+								["Eadric the Pure"] = {
+									["amount"] = 5352,
+								},
+							},
+							["critical"] = 2,
+							["amount"] = 7550,
+							["criticalmax"] = 2221,
+							["count"] = 5,
+							["hit"] = 3,
+							["school"] = 1,
+							["hitmax"] = 1142,
+							["casts"] = 5,
+							["hitamount"] = 3131,
+						},
+						["Frost Fever (DoT)"] = {
+							["hitmin"] = 480,
+							["id"] = 55095,
+							["targets"] = {
+								["Argent Monk"] = {
+									["amount"] = 586,
+								},
+								["Eadric the Pure"] = {
+									["amount"] = 11261,
+								},
+							},
+							["hitmax"] = 851,
+							["count"] = 18,
+							["hit"] = 18,
+							["school"] = 16,
+							["resisted"] = 870,
+							["amount"] = 11847,
+							["hitamount"] = 11847,
+						},
+						["Blood-Caked Strike"] = {
+							["hitmin"] = 529,
+							["id"] = 50463,
+							["targets"] = {
+								["Eadric the Pure"] = {
+									["amount"] = 3263,
+								},
+								["Argent Lightwielder"] = {
+									["amount"] = 529,
+								},
+							},
+							["casts"] = 1,
+							["count"] = 5,
+							["hit"] = 5,
+							["school"] = 1,
+							["hitmax"] = 883,
+							["amount"] = 3792,
+							["hitamount"] = 3792,
+						},
+					},
+					["role"] = "DAMAGER",
+				}, -- [5]
+			},
 			["mana"] = 32051,
-			["overheal"] = 183470,
+			["etotaldamage"] = 523739,
 			["enemies"] = {
 				{
 					["damagespells"] = {
@@ -3796,8 +7022,8 @@ SkadaStorageDB = {
 							["amount"] = 44330,
 						},
 					},
-					["name"] = "Argent Lightwielder",
 					["totaldamage"] = 208202,
+					["name"] = "Argent Lightwielder",
 					["totaldamagetaken"] = 497681,
 					["id"] = "0xF1300089ED00009C",
 					["damage"] = 175366,
@@ -3969,14 +7195,14 @@ SkadaStorageDB = {
 							},
 							["amount"] = 912,
 						},
-						[50526] = {
-							["school"] = 32,
+						[48568] = {
+							["school"] = 1,
 							["sources"] = {
-								["Torreznos"] = {
-									["amount"] = 1289,
+								["Moonsoonx"] = {
+									["amount"] = 5606,
 								},
 							},
-							["amount"] = 1289,
+							["amount"] = 5606,
 						},
 						[71904] = {
 							["school"] = 32,
@@ -4014,6 +7240,15 @@ SkadaStorageDB = {
 							},
 							["amount"] = 5589,
 						},
+						[21179] = {
+							["school"] = 8,
+							["sources"] = {
+								["Moonsoonx"] = {
+									["amount"] = 420,
+								},
+							},
+							["amount"] = 420,
+						},
 						[25457] = {
 							["school"] = 4,
 							["sources"] = {
@@ -4022,15 +7257,6 @@ SkadaStorageDB = {
 								},
 							},
 							["amount"] = 1601,
-						},
-						[48568] = {
-							["school"] = 1,
-							["sources"] = {
-								["Moonsoonx"] = {
-									["amount"] = 5606,
-								},
-							},
-							["amount"] = 5606,
 						},
 						[12721] = {
 							["school"] = 1,
@@ -4042,6 +7268,15 @@ SkadaStorageDB = {
 							},
 							["overkill"] = 55,
 							["amount"] = 26863,
+						},
+						[50526] = {
+							["school"] = 32,
+							["sources"] = {
+								["Torreznos"] = {
+									["amount"] = 1289,
+								},
+							},
+							["amount"] = 1289,
 						},
 						[6603] = {
 							["school"] = 1,
@@ -4061,18 +7296,9 @@ SkadaStorageDB = {
 							},
 							["amount"] = 47002,
 						},
-						[21179] = {
-							["school"] = 8,
-							["sources"] = {
-								["Moonsoonx"] = {
-									["amount"] = 420,
-								},
-							},
-							["amount"] = 420,
-						},
 					},
-					["name"] = "Argent Priestess",
 					["totaldamage"] = 133869,
+					["name"] = "Argent Priestess",
 					["totaldamagetaken"] = 466297,
 					["id"] = "0xF1300089EB00009E",
 					["damage"] = 133869,
@@ -4157,14 +7383,14 @@ SkadaStorageDB = {
 							},
 							["amount"] = 30862,
 						},
-						[55095] = {
-							["school"] = 16,
+						[55078] = {
+							["school"] = 32,
 							["sources"] = {
 								["Torreznos"] = {
-									["amount"] = 586,
+									["amount"] = 912,
 								},
 							},
-							["amount"] = 586,
+							["amount"] = 912,
 						},
 						[48480] = {
 							["school"] = 1,
@@ -4184,14 +7410,14 @@ SkadaStorageDB = {
 							},
 							["amount"] = 9467,
 						},
-						[55078] = {
+						[50526] = {
 							["school"] = 32,
 							["sources"] = {
 								["Torreznos"] = {
-									["amount"] = 912,
+									["amount"] = 861,
 								},
 							},
-							["amount"] = 912,
+							["amount"] = 861,
 						},
 						[50622] = {
 							["school"] = 1,
@@ -4211,14 +7437,14 @@ SkadaStorageDB = {
 							},
 							["amount"] = 4144,
 						},
-						[50526] = {
-							["school"] = 32,
+						[49909] = {
+							["school"] = 16,
 							["sources"] = {
 								["Torreznos"] = {
-									["amount"] = 861,
+									["amount"] = 2116,
 								},
 							},
-							["amount"] = 861,
+							["amount"] = 2116,
 						},
 						[20647] = {
 							["school"] = 1,
@@ -4229,14 +7455,14 @@ SkadaStorageDB = {
 							},
 							["amount"] = 14762,
 						},
-						[49909] = {
-							["school"] = 16,
+						[51460] = {
+							["school"] = 32,
 							["sources"] = {
 								["Torreznos"] = {
-									["amount"] = 2116,
+									["amount"] = 416,
 								},
 							},
-							["amount"] = 2116,
+							["amount"] = 416,
 						},
 						[6603] = {
 							["school"] = 1,
@@ -4258,14 +7484,14 @@ SkadaStorageDB = {
 							["overkill"] = 391,
 							["amount"] = 52973,
 						},
-						[51460] = {
-							["school"] = 32,
+						[47465] = {
+							["school"] = 1,
 							["sources"] = {
-								["Torreznos"] = {
-									["amount"] = 416,
+								["Rimgar"] = {
+									["amount"] = 8302,
 								},
 							},
-							["amount"] = 416,
+							["amount"] = 8302,
 						},
 						[49921] = {
 							["school"] = 1,
@@ -4276,14 +7502,14 @@ SkadaStorageDB = {
 							},
 							["amount"] = 2198,
 						},
-						[47465] = {
-							["school"] = 1,
+						[55095] = {
+							["school"] = 16,
 							["sources"] = {
-								["Rimgar"] = {
-									["amount"] = 8302,
+								["Torreznos"] = {
+									["amount"] = 586,
 								},
 							},
-							["amount"] = 8302,
+							["amount"] = 586,
 						},
 						[71904] = {
 							["school"] = 32,
@@ -4378,12 +7604,12 @@ SkadaStorageDB = {
 					["damage"] = 74678,
 				}, -- [3]
 				{
-					["id"] = "0xF1300089EF0000AA",
-					["name"] = "Fountain of Light",
-					["totaldamagetaken"] = 33244,
-					["flag"] = 2632,
-					["class"] = "MONSTER",
 					["damagetaken"] = 33244,
+					["name"] = "Fountain of Light",
+					["class"] = "MONSTER",
+					["flag"] = 2632,
+					["totaldamagetaken"] = 33244,
+					["id"] = "0xF1300089EF0000AA",
 					["damagetakenspells"] = {
 						[48562] = {
 							["school"] = 1,
@@ -4611,14 +7837,14 @@ SkadaStorageDB = {
 							},
 							["amount"] = 1188,
 						},
-						[47632] = {
+						[70890] = {
 							["school"] = 32,
 							["sources"] = {
 								["Torreznos"] = {
-									["amount"] = 11904,
+									["amount"] = 2640,
 								},
 							},
-							["amount"] = 11904,
+							["amount"] = 2640,
 						},
 						[52212] = {
 							["school"] = 32,
@@ -4674,14 +7900,25 @@ SkadaStorageDB = {
 							},
 							["amount"] = 32227,
 						},
-						[50463] = {
+						[6603] = {
 							["school"] = 1,
 							["sources"] = {
+								["Moonsoonx"] = {
+									["amount"] = 5141,
+								},
+								["Rimgar"] = {
+									["amount"] = 80974,
+								},
 								["Torreznos"] = {
-									["amount"] = 3263,
+									["amount"] = 27136,
+								},
+								["Anusalro"] = {
+									["overkill"] = 273,
+									["amount"] = 13060,
 								},
 							},
-							["amount"] = 3263,
+							["overkill"] = 273,
+							["amount"] = 126311,
 						},
 						[48572] = {
 							["school"] = 1,
@@ -4746,35 +7983,6 @@ SkadaStorageDB = {
 							},
 							["amount"] = 24388,
 						},
-						[6603] = {
-							["school"] = 1,
-							["sources"] = {
-								["Moonsoonx"] = {
-									["amount"] = 5141,
-								},
-								["Rimgar"] = {
-									["amount"] = 80974,
-								},
-								["Torreznos"] = {
-									["amount"] = 27136,
-								},
-								["Anusalro"] = {
-									["overkill"] = 273,
-									["amount"] = 13060,
-								},
-							},
-							["overkill"] = 273,
-							["amount"] = 126311,
-						},
-						[70890] = {
-							["school"] = 32,
-							["sources"] = {
-								["Torreznos"] = {
-									["amount"] = 2640,
-								},
-							},
-							["amount"] = 2640,
-						},
 						[49909] = {
 							["school"] = 16,
 							["sources"] = {
@@ -4793,6 +8001,24 @@ SkadaStorageDB = {
 							},
 							["amount"] = 881,
 						},
+						[50463] = {
+							["school"] = 1,
+							["sources"] = {
+								["Torreznos"] = {
+									["amount"] = 3263,
+								},
+							},
+							["amount"] = 3263,
+						},
+						[47632] = {
+							["school"] = 32,
+							["sources"] = {
+								["Torreznos"] = {
+									["amount"] = 11904,
+								},
+							},
+							["amount"] = 11904,
+						},
 					},
 					["totaldamage"] = 80889,
 					["name"] = "Eadric the Pure",
@@ -4801,928 +8027,783 @@ SkadaStorageDB = {
 					["damage"] = 68161,
 				}, -- [5]
 			},
+			["energy"] = 340,
 			["totaldamage"] = 2236730,
 			["time"] = 158,
-			["energy"] = 340,
+			["damage"] = 2236730,
 			["totaldamagetaken"] = 523739,
 			["etotaldamagetaken"] = 2236730,
 			["last_time"] = 11342.266,
+			["starttime"] = 1689110952,
+			["ress"] = 1,
+			["damagetaken"] = 452074,
+			["ccdone"] = 5,
+			["interrupt"] = 2,
+			["type"] = "party",
+			["rage"] = 750,
+			["overkill"] = 64668,
+			["edamagetaken"] = 2236730,
+			["heal"] = 468338,
+			["name"] = "Argent Lightwielder",
+			["mobname"] = "Argent Lightwielder",
+			["overheal"] = 183470,
+			["edamage"] = 452074,
+			["last_action"] = 1689111110,
+			["endtime"] = 1689111110,
+		}, -- [2]
+		{
 			["players"] = {
 				{
 					["ccdonespells"] = {
 						[7922] = {
-							["count"] = 2,
+							["count"] = 1,
 							["targets"] = {
-								["Argent Priestess"] = 1,
-								["Argent Lightwielder"] = 1,
+								["Deathstalker Visceri"] = 1,
 							},
 						},
 					},
-					["last"] = 11340.669,
+					["last"] = 11146.338,
 					["flag"] = 1297,
 					["class"] = "WARRIOR",
 					["auras"] = {
 						[72221] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 158,
+							["uptime"] = 53,
 						},
 						[52437] = {
 							["type"] = "BUFF",
-							["count"] = 4,
+							["count"] = 1,
 							["school"] = 1,
-							["refresh"] = 6,
-							["uptime"] = 42,
+							["refresh"] = 2,
+							["uptime"] = 25,
 						},
-						[64850] = {
-							["type"] = "DEBUFF",
-							["count"] = 3,
+						[60503] = {
 							["school"] = 1,
-							["refresh"] = 1,
-							["targets"] = {
-								["Argent Priestess"] = {
-									["uptime"] = 5,
-									["count"] = 1,
-								},
-								["Eadric the Pure"] = {
-									["count"] = 2,
-									["refresh"] = 1,
-									["uptime"] = 17,
-								},
-							},
-							["uptime"] = 22,
+							["type"] = "BUFF",
+							["count"] = 6,
+							["uptime"] = 16,
 						},
 						[52000] = {
-							["type"] = "BUFF",
-							["count"] = 2,
 							["school"] = 8,
-							["uptime"] = 24,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 12,
 						},
 						[70855] = {
-							["type"] = "BUFF",
-							["count"] = 5,
 							["school"] = 8,
-							["refresh"] = 2,
-							["uptime"] = 60,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 10,
 						},
 						[12328] = {
-							["type"] = "BUFF",
-							["count"] = 4,
 							["school"] = 1,
-							["uptime"] = 41,
+							["type"] = "BUFF",
+							["count"] = 2,
+							["uptime"] = 22,
 						},
 						[28878] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 158,
-						},
-						[29131] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["uptime"] = 10,
+							["uptime"] = 53,
 						},
 						[16237] = {
 							["type"] = "BUFF",
 							["count"] = 2,
 							["school"] = 2,
-							["refresh"] = 5,
-							["uptime"] = 76,
+							["refresh"] = 3,
+							["uptime"] = 36,
 						},
 						[47486] = {
 							["type"] = "DEBUFF",
-							["count"] = 10,
+							["count"] = 3,
 							["school"] = 1,
-							["refresh"] = 8,
+							["refresh"] = 3,
 							["targets"] = {
-								["Argent Priestess"] = {
-									["count"] = 2,
+								["Runok Wildmane"] = {
+									["refresh"] = 2,
+									["count"] = 1,
+									["uptime"] = 18,
+								},
+								["Zul'tore"] = {
 									["refresh"] = 1,
-									["uptime"] = 14,
+									["count"] = 1,
+									["uptime"] = 8,
 								},
-								["Argent Lightwielder"] = {
-									["count"] = 3,
-									["refresh"] = 1,
-									["uptime"] = 21,
-								},
-								["Eadric the Pure"] = {
-									["count"] = 2,
-									["refresh"] = 6,
-									["uptime"] = 46,
-								},
-								["Argent Monk"] = {
-									["uptime"] = 19,
-									["count"] = 3,
+								["Deathstalker Visceri"] = {
+									["uptime"] = 3,
+									["count"] = 1,
 								},
 							},
-							["uptime"] = 100,
+							["uptime"] = 29,
 						},
 						[71541] = {
-							["type"] = "BUFF",
-							["count"] = 4,
 							["school"] = 64,
-							["uptime"] = 55,
+							["type"] = "BUFF",
+							["count"] = 2,
+							["uptime"] = 19,
+						},
+						[2895] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 53,
 						},
 						[47502] = {
 							["type"] = "DEBUFF",
-							["count"] = 9,
+							["count"] = 3,
 							["school"] = 1,
-							["refresh"] = 12,
 							["targets"] = {
-								["Argent Priestess"] = {
-									["count"] = 3,
-									["refresh"] = 2,
-									["uptime"] = 52,
+								["Runok Wildmane"] = {
+									["uptime"] = 1,
+									["count"] = 1,
 								},
-								["Argent Lightwielder"] = {
-									["count"] = 3,
-									["refresh"] = 6,
-									["uptime"] = 69,
+								["Zul'tore"] = {
+									["uptime"] = 6,
+									["count"] = 1,
 								},
-								["Argent Monk"] = {
-									["count"] = 3,
-									["refresh"] = 4,
-									["uptime"] = 54,
+								["Deathstalker Visceri"] = {
+									["uptime"] = 6,
+									["count"] = 1,
 								},
 							},
-							["uptime"] = 74,
+							["uptime"] = 6,
 						},
 						[61301] = {
 							["type"] = "BUFF",
 							["count"] = 3,
 							["school"] = 8,
-							["uptime"] = 45,
+							["refresh"] = 1,
+							["uptime"] = 16,
 						},
 						[57399] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 158,
+							["uptime"] = 53,
 						},
 						[52113] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 158,
+							["uptime"] = 53,
 						},
 						[65156] = {
-							["type"] = "BUFF",
-							["count"] = 3,
 							["school"] = 1,
-							["uptime"] = 13,
-						},
-						[29842] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 1,
-							["uptime"] = 9,
+							["uptime"] = 10,
 						},
 						[49284] = {
+							["school"] = 8,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 24,
+							["uptime"] = 17,
 						},
 						[72412] = {
-							["type"] = "BUFF",
-							["count"] = 2,
 							["school"] = 1,
-							["uptime"] = 20,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 10,
 						},
 						[59620] = {
 							["type"] = "BUFF",
-							["count"] = 5,
+							["count"] = 3,
 							["school"] = 2,
-							["refresh"] = 5,
-							["uptime"] = 91,
+							["refresh"] = 1,
+							["uptime"] = 37,
 						},
 						[24932] = {
 							["type"] = "BUFF",
-							["count"] = 2,
-							["school"] = 1,
-							["uptime"] = 155,
+							["count"] = 1,
+							["uptime"] = 53,
 						},
 						[47465] = {
 							["type"] = "DEBUFF",
-							["count"] = 5,
+							["count"] = 3,
 							["school"] = 1,
 							["targets"] = {
-								["Argent Monk"] = {
-									["uptime"] = 17,
+								["Runok Wildmane"] = {
+									["uptime"] = 20,
 									["count"] = 1,
 								},
-								["Argent Lightwielder"] = {
+								["Zul'tore"] = {
+									["uptime"] = 12,
+									["count"] = 1,
+								},
+								["Deathstalker Visceri"] = {
 									["uptime"] = 5,
 									["count"] = 1,
 								},
-								["Eadric the Pure"] = {
-									["uptime"] = 42,
-									["count"] = 2,
-								},
-								["Argent Priestess"] = {
-									["uptime"] = 9,
-									["count"] = 1,
-								},
 							},
-							["uptime"] = 73,
+							["uptime"] = 37,
 						},
 						[12721] = {
 							["type"] = "DEBUFF",
-							["count"] = 19,
+							["count"] = 6,
 							["school"] = 1,
-							["refresh"] = 63,
+							["refresh"] = 30,
 							["targets"] = {
-								["Argent Priestess"] = {
-									["count"] = 5,
-									["refresh"] = 16,
-									["uptime"] = 40,
-								},
-								["Argent Lightwielder"] = {
-									["count"] = 5,
-									["refresh"] = 15,
-									["uptime"] = 39,
-								},
-								["Eadric the Pure"] = {
-									["count"] = 1,
-									["refresh"] = 21,
-									["uptime"] = 55,
-								},
-								["Argent Monk"] = {
-									["count"] = 8,
+								["Runok Wildmane"] = {
 									["refresh"] = 11,
-									["uptime"] = 47,
+									["count"] = 1,
+									["uptime"] = 26,
+								},
+								["Zul'tore"] = {
+									["refresh"] = 7,
+									["count"] = 3,
+									["uptime"] = 25,
+								},
+								["Deathstalker Visceri"] = {
+									["refresh"] = 12,
+									["count"] = 2,
+									["uptime"] = 30,
 								},
 							},
-							["uptime"] = 126,
+							["uptime"] = 41,
+						},
+						[32182] = {
+							["school"] = 8,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 40,
 						},
 						[7922] = {
 							["type"] = "DEBUFF",
-							["count"] = 2,
+							["count"] = 1,
 							["school"] = 1,
 							["targets"] = {
-								["Argent Priestess"] = {
-									["uptime"] = 1,
-									["count"] = 1,
-								},
-								["Argent Lightwielder"] = {
+								["Deathstalker Visceri"] = {
 									["uptime"] = 2,
 									["count"] = 1,
 								},
 							},
-							["uptime"] = 3,
+							["uptime"] = 2,
 						},
 						[46857] = {
 							["type"] = "DEBUFF",
-							["count"] = 19,
+							["count"] = 8,
 							["school"] = 1,
-							["refresh"] = 55,
+							["refresh"] = 27,
 							["targets"] = {
-								["Argent Priestess"] = {
-									["count"] = 3,
-									["refresh"] = 16,
-									["uptime"] = 51,
-								},
-								["Argent Lightwielder"] = {
-									["count"] = 4,
+								["Runok Wildmane"] = {
 									["refresh"] = 12,
-									["uptime"] = 23,
+									["count"] = 1,
+									["uptime"] = 26,
 								},
-								["Eadric the Pure"] = {
-									["count"] = 5,
-									["refresh"] = 17,
-									["uptime"] = 48,
+								["Zul'tore"] = {
+									["refresh"] = 5,
+									["count"] = 4,
+									["uptime"] = 35,
 								},
-								["Argent Monk"] = {
-									["count"] = 7,
+								["Deathstalker Visceri"] = {
 									["refresh"] = 10,
-									["uptime"] = 45,
+									["count"] = 3,
+									["uptime"] = 32,
 								},
 							},
-							["uptime"] = 123,
+							["uptime"] = 43,
 						},
 						[71905] = {
 							["type"] = "BUFF",
-							["count"] = 6,
-							["refresh"] = 39,
+							["count"] = 4,
 							["school"] = 1,
-							["uptime"] = 95,
+							["refresh"] = 18,
+							["uptime"] = 24,
 						},
 						[46924] = {
-							["type"] = "BUFF",
-							["count"] = 2,
 							["school"] = 1,
-							["uptime"] = 12,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 6,
 						},
 						[58646] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 158,
+							["uptime"] = 53,
 						},
 						[57522] = {
 							["type"] = "BUFF",
-							["count"] = 2,
-							["school"] = 1,
-							["refresh"] = 66,
-							["uptime"] = 157,
-						},
-						[48447] = {
-							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 8,
-							["refresh"] = 1,
-							["uptime"] = 5,
-						},
-						[16491] = {
-							["type"] = "BUFF",
-							["count"] = 2,
 							["school"] = 1,
-							["uptime"] = 12,
+							["refresh"] = 25,
+							["uptime"] = 49,
+						},
+						[64850] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["targets"] = {
+								["Zul'tore"] = {
+									["uptime"] = 6,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 6,
 						},
 						[48470] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 158,
-						},
-						[75456] = {
-							["type"] = "BUFF",
-							["count"] = 4,
-							["school"] = 64,
 							["uptime"] = 53,
 						},
-						[60503] = {
-							["type"] = "BUFF",
-							["count"] = 10,
-							["school"] = 1,
-							["refresh"] = 2,
-							["uptime"] = 27,
-						},
 						[57623] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 48,
+							["uptime"] = 36,
+						},
+						[16491] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 1,
+							["refresh"] = 1,
+							["uptime"] = 17,
+						},
+						[75456] = {
+							["school"] = 64,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 15,
 						},
 						[73422] = {
-							["type"] = "BUFF",
-							["count"] = 6,
 							["school"] = 1,
-							["uptime"] = 54,
+							["type"] = "BUFF",
+							["count"] = 2,
+							["uptime"] = 20,
 						},
 					},
-					["time"] = 142,
-					["totaldamagetaken"] = 123463,
-					["damage"] = 1400660,
-					["overheal"] = 14128,
-					["ragespells"] = {
-						[29131] = 10,
-						[2687] = 20,
-						[29842] = 16,
-					},
-					["damagetaken"] = 123463,
+					["totaldamage"] = 603644,
+					["time"] = 51.08999999999996,
+					["totaldamagetaken"] = 123980,
+					["damage"] = 603644,
+					["overheal"] = 1742,
+					["damagetaken"] = 123980,
 					["id"] = "0x070000000040A064",
 					["spec"] = 71,
 					["healspells"] = {
-						[29842] = {
-							["overheal"] = 2788,
-							["count"] = 4,
-							["amount"] = 0,
-							["school"] = 1,
-							["ishot"] = true,
-							["targets"] = {
-								["Rimgar"] = {
-									["overheal"] = 2788,
-									["amount"] = 0,
-								},
-							},
-						},
 						[34299] = {
-							["overheal"] = 11340,
-							["max"] = 1394,
-							["count"] = 20,
-							["amount"] = 16529,
+							["overheal"] = 1394,
 							["school"] = 1,
-							["min"] = 1200,
+							["count"] = 7,
+							["amount"] = 8360,
+							["max"] = 1394,
 							["ishot"] = true,
 							["targets"] = {
 								["Rimgar"] = {
-									["overheal"] = 11340,
-									["amount"] = 16529,
+									["overheal"] = 1394,
+									["amount"] = 8360,
 								},
 							},
+							["min"] = 1393,
 						},
 						[16491] = {
-							["overheal"] = 0,
+							["overheal"] = 348,
+							["max"] = 360,
+							["count"] = 16,
+							["amount"] = 5232,
+							["school"] = 1,
 							["targets"] = {
 								["Rimgar"] = {
-									["overheal"] = 0,
-									["amount"] = 4176,
+									["overheal"] = 348,
+									["amount"] = 5232,
 								},
 							},
-							["count"] = 12,
-							["amount"] = 4176,
-							["school"] = 1,
-							["max"] = 348,
 							["ishot"] = true,
 							["min"] = 348,
 						},
 					},
+					["overkill"] = 230,
 					["damagetakenspells"] = {
-						["Holy Smite"] = {
-							["hitmin"] = 1628,
-							["id"] = 67289,
+						["Eviscerate"] = {
+							["DODGE"] = 2,
+							["hitmin"] = 5792,
+							["id"] = 68317,
 							["sources"] = {
-								["Argent Priestess"] = {
-									["amount"] = 3518,
-								},
-							},
-							["count"] = 2,
-							["hit"] = 2,
-							["school"] = 2,
-							["hitmax"] = 1890,
-							["amount"] = 3518,
-							["hitamount"] = 3518,
-						},
-						["Blazing Light"] = {
-							["hitmin"] = 5865,
-							["id"] = 67291,
-							["sources"] = {
-								["Argent Lightwielder"] = {
-									["amount"] = 30302,
+								["Deathstalker Visceri"] = {
+									["amount"] = 21336,
 								},
 							},
 							["count"] = 5,
-							["hit"] = 5,
-							["school"] = 2,
-							["hitmax"] = 6242,
-							["amount"] = 30302,
-							["hitamount"] = 30302,
+							["hit"] = 3,
+							["school"] = 1,
+							["hitmax"] = 8101,
+							["amount"] = 21336,
+							["hitamount"] = 21336,
+						},
+						["Fan of Knives"] = {
+							["hitmin"] = 3999,
+							["id"] = 67706,
+							["sources"] = {
+								["Deathstalker Visceri"] = {
+									["amount"] = 12867,
+								},
+							},
+							["count"] = 3,
+							["hit"] = 3,
+							["school"] = 1,
+							["hitmax"] = 4519,
+							["amount"] = 12867,
+							["hitamount"] = 12867,
+						},
+						["Poison Bottle (DoT)"] = {
+							["hitmin"] = 1400,
+							["id"] = 68316,
+							["hitmax"] = 1750,
+							["sources"] = {
+								["Deathstalker Visceri"] = {
+									["amount"] = 4725,
+								},
+							},
+							["count"] = 3,
+							["hit"] = 3,
+							["school"] = 8,
+							["resisted"] = 525,
+							["amount"] = 4725,
+							["hitamount"] = 4725,
+						},
+						["Multi-Shot"] = {
+							["hitmin"] = 3847,
+							["id"] = 66081,
+							["sources"] = {
+								["Zul'tore"] = {
+									["amount"] = 3847,
+								},
+							},
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 1,
+							["hitmax"] = 3847,
+							["amount"] = 3847,
+							["hitamount"] = 3847,
 						},
 						["Melee"] = {
-							["DODGE"] = 2,
-							["PARRY"] = 2,
-							["hitmin"] = 1914,
-							["criticalamount"] = 10620,
+							["DODGE"] = 4,
+							["hitmin"] = 1596,
+							["criticalmin"] = 4522,
+							["sources"] = {
+								["Runok Wildmane"] = {
+									["amount"] = 11993,
+								},
+								["Deathstalker Visceri"] = {
+									["amount"] = 69212,
+								},
+							},
+							["amount"] = 81205,
+							["MISS"] = 9,
+							["criticalamount"] = 22228,
 							["id"] = 6603,
-							["amount"] = 60468,
-							["criticalmin"] = 4634,
-							["criticalmax"] = 5986,
-							["critical"] = 2,
-							["sources"] = {
-								["Argent Monk"] = {
-									["amount"] = 37025,
-								},
-								["Argent Lightwielder"] = {
-									["amount"] = 10851,
-								},
-								["Eadric the Pure"] = {
-									["amount"] = 12592,
-								},
-							},
-							["count"] = 23,
-							["hit"] = 16,
+							["criticalmax"] = 9024,
+							["hit"] = 18,
+							["PARRY"] = 3,
+							["critical"] = 3,
+							["blocked"] = 1201,
 							["school"] = 1,
-							["hitmax"] = 6548,
-							["MISS"] = 1,
-							["hitamount"] = 49848,
-						},
-						["Cleave"] = {
-							["hitmin"] = 3525,
-							["id"] = 68868,
-							["amount"] = 29175,
-							["sources"] = {
-								["Argent Lightwielder"] = {
-									["amount"] = 29175,
-								},
-							},
-							["count"] = 8,
-							["hit"] = 7,
-							["school"] = 1,
-							["hitmax"] = 4787,
-							["MISS"] = 1,
-							["hitamount"] = 29175,
+							["count"] = 37,
+							["hitmax"] = 4723,
+							["hitamount"] = 58977,
 						},
 					},
-					["rage"] = 46,
-					["heal"] = 20705,
+					["heal"] = 13592,
 					["name"] = "Rimgar",
-					["ccdone"] = 2,
-					["overkill"] = 63445,
+					["ccdone"] = 1,
+					["interrupt"] = 2,
 					["damagespells"] = {
-						["Chaos Bane"] = {
-							["hitmin"] = 406,
-							["id"] = 71904,
+						["Melee"] = {
+							["hitmin"] = 3997,
+							["criticalamount"] = 60273,
+							["id"] = 6603,
 							["targets"] = {
-								["Argent Priestess"] = {
-									["amount"] = 1662,
+								["Runok Wildmane"] = {
+									["amount"] = 28827,
 								},
-								["Fountain of Light"] = {
-									["amount"] = 536,
+								["Zul'tore"] = {
+									["amount"] = 25466,
 								},
-								["Argent Lightwielder"] = {
-									["amount"] = 2106,
-								},
-								["Eadric the Pure"] = {
-									["amount"] = 6654,
-								},
-								["Argent Monk"] = {
-									["amount"] = 2006,
+								["Deathstalker Visceri"] = {
+									["amount"] = 14233,
 								},
 							},
-							["hitmax"] = 2341,
-							["casts"] = 1,
-							["count"] = 15,
-							["hit"] = 15,
-							["school"] = 32,
-							["resisted"] = 479,
-							["amount"] = 12964,
-							["hitamount"] = 12964,
+							["criticalmin"] = 5980,
+							["critical"] = 7,
+							["criticalmax"] = 10077,
+							["count"] = 9,
+							["amount"] = 68526,
+							["school"] = 1,
+							["hit"] = 2,
+							["hitmax"] = 4256,
+							["hitamount"] = 8253,
+						},
+						["Cleave"] = {
+							["hitmin"] = 4311,
+							["criticalamount"] = 84134,
+							["id"] = 47520,
+							["criticalmin"] = 9898,
+							["targets"] = {
+								["Runok Wildmane"] = {
+									["amount"] = 45969,
+								},
+								["Deathstalker Visceri"] = {
+									["amount"] = 60854,
+								},
+							},
+							["casts"] = 7,
+							["count"] = 13,
+							["criticalmax"] = 11284,
+							["hitmax"] = 4769,
+							["amount"] = 106823,
+							["school"] = 1,
+							["hit"] = 5,
+							["critical"] = 8,
+							["hitamount"] = 22689,
 						},
 						["Execute"] = {
-							["hitmin"] = 4285,
-							["criticalamount"] = 40353,
+							["hitmin"] = 4179,
 							["id"] = 20647,
-							["hitmax"] = 4542,
 							["targets"] = {
-								["Argent Priestess"] = {
-									["amount"] = 19890,
+								["Runok Wildmane"] = {
+									["amount"] = 9169,
 								},
-								["Eadric the Pure"] = {
-									["amount"] = 19043,
-								},
-								["Argent Monk"] = {
-									["amount"] = 14762,
+								["Deathstalker Visceri"] = {
+									["amount"] = 4179,
 								},
 							},
-							["count"] = 7,
-							["hit"] = 3,
+							["blocked"] = 40,
 							["casts"] = 1,
-							["critical"] = 4,
-							["amount"] = 53695,
+							["count"] = 3,
+							["hit"] = 3,
 							["school"] = 1,
-							["criticalmin"] = 9879,
-							["criticalmax"] = 10477,
-							["hitamount"] = 13342,
+							["hitmax"] = 4784,
+							["amount"] = 13348,
+							["hitamount"] = 13348,
 						},
 						["Whirlwind"] = {
-							["criticalmax"] = 11055,
-							["hitmin"] = 3606,
-							["criticalamount"] = 145307,
+							["criticalmin"] = 7300,
+							["hitmin"] = 3422,
+							["criticalamount"] = 101982,
 							["id"] = 50622,
-							["criticalmin"] = 9581,
-							["targets"] = {
-								["Argent Monk"] = {
-									["amount"] = 29550,
-								},
-								["Fountain of Light"] = {
-									["overkill"] = 19688,
-									["amount"] = 29836,
-								},
-								["Argent Lightwielder"] = {
-									["overkill"] = 7944,
-									["amount"] = 54951,
-								},
-								["Eadric the Pure"] = {
-									["amount"] = 40599,
-								},
-								["Argent Priestess"] = {
-									["amount"] = 54243,
-								},
-							},
-							["overkill"] = 27632,
-							["critical"] = 14,
 							["casts"] = 1,
-							["count"] = 29,
-							["hit"] = 15,
-							["school"] = 1,
-							["hitmax"] = 4799,
-							["amount"] = 209179,
-							["hitamount"] = 63872,
-						},
-						["Sweeping Strikes"] = {
-							["hitmin"] = 3953,
-							["id"] = 12723,
 							["targets"] = {
-								["Argent Priestess"] = {
-									["overkill"] = 3625,
-									["amount"] = 22529,
+								["Runok Wildmane"] = {
+									["amount"] = 42604,
 								},
-								["Argent Lightwielder"] = {
-									["amount"] = 82605,
+								["Zul'tore"] = {
+									["amount"] = 35550,
 								},
-								["Argent Monk"] = {
-									["amount"] = 42104,
+								["Deathstalker Visceri"] = {
+									["amount"] = 53848,
 								},
 							},
-							["overkill"] = 3625,
-							["casts"] = 4,
 							["count"] = 19,
-							["hit"] = 19,
+							["blocked"] = 40,
+							["criticalmax"] = 10425,
+							["hitmax"] = 4207,
+							["amount"] = 132002,
 							["school"] = 1,
-							["hitmax"] = 14974,
-							["amount"] = 147238,
-							["hitamount"] = 147238,
+							["critical"] = 11,
+							["hit"] = 8,
+							["hitamount"] = 30020,
+						},
+						["Chaos Bane"] = {
+							["hitmin"] = 665,
+							["id"] = 71904,
+							["targets"] = {
+								["Runok Wildmane"] = {
+									["amount"] = 665,
+								},
+								["Zul'tore"] = {
+									["amount"] = 1880,
+								},
+								["Deathstalker Visceri"] = {
+									["overkill"] = 230,
+									["amount"] = 1903,
+								},
+							},
+							["overkill"] = 230,
+							["casts"] = 1,
+							["count"] = 5,
+							["hit"] = 5,
+							["school"] = 32,
+							["hitmax"] = 1237,
+							["amount"] = 4448,
+							["hitamount"] = 4448,
+						},
+						["Mortal Strike"] = {
+							["hitmin"] = 4601,
+							["criticalamount"] = 25300,
+							["id"] = 47486,
+							["criticalmin"] = 12446,
+							["targets"] = {
+								["Runok Wildmane"] = {
+									["amount"] = 23496,
+								},
+								["Zul'tore"] = {
+									["amount"] = 9798,
+								},
+								["Deathstalker Visceri"] = {
+									["amount"] = 12854,
+								},
+							},
+							["critical"] = 2,
+							["amount"] = 46148,
+							["criticalmax"] = 12854,
+							["count"] = 6,
+							["hit"] = 4,
+							["school"] = 1,
+							["hitmax"] = 5906,
+							["casts"] = 6,
+							["hitamount"] = 20848,
 						},
 						["Thunder Clap"] = {
-							["hitmax"] = 1588,
-							["hitmin"] = 1165,
-							["criticalamount"] = 45697,
+							["hitmin"] = 1642,
+							["criticalamount"] = 7177,
 							["id"] = 47502,
-							["IMMUNE"] = 1,
+							["criticalmin"] = 3518,
 							["targets"] = {
-								["Argent Priestess"] = {
-									["amount"] = 12101,
+								["Runok Wildmane"] = {
+									["amount"] = 1642,
 								},
-								["Argent Lightwielder"] = {
-									["amount"] = 26804,
+								["Zul'tore"] = {
+									["amount"] = 3518,
 								},
-								["Eadric the Pure"] = {
-									["amount"] = 1188,
-								},
-								["Argent Monk"] = {
-									["amount"] = 17496,
+								["Deathstalker Visceri"] = {
+									["amount"] = 3659,
 								},
 							},
-							["count"] = 24,
-							["hit"] = 9,
-							["casts"] = 7,
-							["critical"] = 14,
-							["amount"] = 57589,
+							["casts"] = 1,
+							["count"] = 3,
+							["criticalmax"] = 3659,
+							["hitmax"] = 1642,
+							["amount"] = 8819,
 							["school"] = 1,
-							["criticalmin"] = 2645,
-							["criticalmax"] = 3753,
-							["hitamount"] = 11892,
+							["hit"] = 1,
+							["critical"] = 2,
+							["hitamount"] = 1642,
 						},
 						["Rend (DoT)"] = {
-							["hitmin"] = 1278,
+							["hitmin"] = 1368,
 							["id"] = 47465,
 							["targets"] = {
-								["Argent Monk"] = {
-									["amount"] = 8302,
+								["Runok Wildmane"] = {
+									["amount"] = 9230,
 								},
-								["Argent Lightwielder"] = {
-									["amount"] = 1449,
+								["Zul'tore"] = {
+									["amount"] = 4104,
 								},
-								["Eadric the Pure"] = {
-									["amount"] = 22260,
-								},
-								["Argent Priestess"] = {
-									["amount"] = 2916,
+								["Deathstalker Visceri"] = {
+									["amount"] = 1473,
 								},
 							},
-							["casts"] = 5,
-							["count"] = 22,
-							["hit"] = 22,
-							["school"] = 1,
-							["hitmax"] = 1902,
-							["amount"] = 34927,
-							["hitamount"] = 34927,
-						},
-						["Shattering Throw"] = {
-							["casts"] = 1,
-							["count"] = 1,
-							["amount"] = 0,
-							["school"] = 1,
-							["IMMUNE"] = 1,
-							["targets"] = {
-								["Argent Monk"] = {
-									["amount"] = 0,
-								},
-							},
-							["id"] = 64382,
-						},
-						["Overpower"] = {
-							["criticalamount"] = 105636,
-							["id"] = 7384,
-							["targets"] = {
-								["Argent Monk"] = {
-									["amount"] = 22610,
-								},
-								["Argent Lightwielder"] = {
-									["amount"] = 11316,
-								},
-								["Eadric the Pure"] = {
-									["amount"] = 59596,
-								},
-								["Argent Priestess"] = {
-									["amount"] = 12114,
-								},
-							},
-							["casts"] = 10,
-							["critical"] = 10,
-							["amount"] = 105636,
-							["school"] = 1,
-							["criticalmin"] = 8796,
-							["criticalmax"] = 13225,
+							["casts"] = 3,
 							["count"] = 10,
+							["hit"] = 10,
+							["school"] = 1,
+							["hitmax"] = 1539,
+							["amount"] = 14807,
+							["hitamount"] = 14807,
 						},
-						["Heroic Strike"] = {
-							["hitmin"] = 3822,
-							["criticalamount"] = 11508,
-							["id"] = 47450,
-							["hitmax"] = 4782,
+						["Sweeping Strikes"] = {
+							["hitmin"] = 3474,
+							["id"] = 26654,
 							["targets"] = {
-								["Eadric the Pure"] = {
-									["amount"] = 24388,
+								["Zul'tore"] = {
+									["amount"] = 16839,
+								},
+								["Deathstalker Visceri"] = {
+									["amount"] = 19715,
 								},
 							},
-							["count"] = 4,
-							["hit"] = 3,
-							["casts"] = 4,
-							["critical"] = 1,
-							["amount"] = 24388,
+							["casts"] = 2,
+							["count"] = 8,
+							["hit"] = 8,
 							["school"] = 1,
-							["criticalmin"] = 11508,
-							["criticalmax"] = 11508,
-							["hitamount"] = 12880,
+							["hitmax"] = 9077,
+							["amount"] = 36554,
+							["hitamount"] = 36554,
 						},
-						["Deep Wounds (DoT)"] = {
-							["hitmin"] = 340,
-							["id"] = 12721,
+						["Victory Rush"] = {
+							["hitmin"] = 3791,
+							["id"] = 34428,
 							["targets"] = {
-								["Argent Priestess"] = {
-									["overkill"] = 55,
-									["amount"] = 26863,
-								},
-								["Argent Lightwielder"] = {
-									["amount"] = 30065,
-								},
-								["Eadric the Pure"] = {
-									["amount"] = 62017,
-								},
-								["Argent Monk"] = {
-									["amount"] = 35328,
-								},
-							},
-							["overkill"] = 55,
-							["count"] = 159,
-							["hit"] = 159,
-							["school"] = 1,
-							["hitmax"] = 4159,
-							["amount"] = 154273,
-							["hitamount"] = 154273,
-						},
-						["Charge Stun"] = {
-							["casts"] = 1,
-							["count"] = 1,
-							["amount"] = 0,
-							["school"] = 1,
-							["IMMUNE"] = 1,
-							["targets"] = {
-								["Eadric the Pure"] = {
-									["amount"] = 0,
-								},
-							},
-							["id"] = 7922,
-						},
-						["Hammer of the Righteous"] = {
-							["hitmin"] = 17820,
-							["id"] = 66905,
-							["targets"] = {
-								["Eadric the Pure"] = {
-									["amount"] = 17820,
+								["Zul'tore"] = {
+									["amount"] = 3791,
 								},
 							},
 							["casts"] = 1,
 							["count"] = 1,
 							["hit"] = 1,
-							["school"] = 2,
-							["hitmax"] = 17820,
-							["amount"] = 17820,
-							["hitamount"] = 17820,
-						},
-						["Deep Wounds"] = {
-							["casts"] = 1,
-							["count"] = 2,
-							["amount"] = 0,
 							["school"] = 1,
-							["IMMUNE"] = 2,
-							["targets"] = {
-								["Argent Monk"] = {
-									["amount"] = 0,
-								},
-							},
-							["id"] = 12721,
+							["hitmax"] = 3791,
+							["amount"] = 3791,
+							["hitamount"] = 3791,
 						},
-						["Cleave"] = {
-							["criticalmin"] = 9502,
-							["criticalmax"] = 11687,
-							["hitmin"] = 3776,
-							["criticalamount"] = 124969,
-							["id"] = 47520,
-							["IMMUNE"] = 1,
+						["Overpower"] = {
+							["criticalamount"] = 66237,
+							["id"] = 7384,
 							["targets"] = {
-								["Argent Priestess"] = {
-									["overkill"] = 6389,
-									["amount"] = 56213,
+								["Runok Wildmane"] = {
+									["amount"] = 34933,
 								},
-								["Argent Lightwielder"] = {
-									["amount"] = 44330,
+								["Zul'tore"] = {
+									["amount"] = 21864,
 								},
-								["Argent Monk"] = {
-									["overkill"] = 11346,
-									["amount"] = 75528,
+								["Deathstalker Visceri"] = {
+									["amount"] = 9440,
 								},
 							},
-							["overkill"] = 17735,
-							["critical"] = 12,
-							["casts"] = 12,
-							["count"] = 24,
-							["hit"] = 11,
-							["school"] = 1,
-							["hitmax"] = 5192,
-							["amount"] = 176071,
-							["hitamount"] = 51102,
-						},
-						["Victory Rush"] = {
-							["criticalamount"] = 61748,
-							["id"] = 34428,
-							["targets"] = {
-								["Argent Monk"] = {
-									["overkill"] = 8852,
-									["amount"] = 19198,
-								},
-								["Argent Lightwielder"] = {
-									["amount"] = 17690,
-								},
-								["Eadric the Pure"] = {
-									["amount"] = 12835,
-								},
-								["Argent Priestess"] = {
-									["amount"] = 12025,
-								},
-							},
-							["overkill"] = 8852,
 							["casts"] = 6,
 							["critical"] = 6,
-							["amount"] = 61748,
+							["amount"] = 66237,
 							["school"] = 1,
-							["criticalmin"] = 8121,
-							["criticalmax"] = 12835,
+							["criticalmin"] = 9440,
+							["criticalmax"] = 12169,
 							["count"] = 6,
 						},
-						["Melee"] = {
-							["glance"] = 3208,
-							["hitmin"] = 4139,
-							["criticalmin"] = 6819,
-							["IMMUNE"] = 1,
+						["Deep Wounds (DoT)"] = {
+							["hitmin"] = 416,
+							["id"] = 12721,
 							["targets"] = {
-								["Argent Priestess"] = {
-									["amount"] = 34950,
+								["Runok Wildmane"] = {
+									["amount"] = 35096,
 								},
-								["Argent Lightwielder"] = {
-									["overkill"] = 5546,
-									["amount"] = 24196,
+								["Zul'tore"] = {
+									["amount"] = 18567,
 								},
-								["Eadric the Pure"] = {
-									["amount"] = 80974,
-								},
-								["Argent Monk"] = {
-									["amount"] = 35893,
+								["Deathstalker Visceri"] = {
+									["amount"] = 38568,
 								},
 							},
-							["glancing"] = 1,
-							["amount"] = 176013,
-							["glancemin"] = 3208,
-							["criticalamount"] = 150842,
-							["id"] = 6603,
-							["glancemax"] = 3208,
-							["overkill"] = 5546,
-							["criticalmax"] = 10083,
-							["critical"] = 18,
-							["hit"] = 5,
+							["count"] = 64,
+							["hit"] = 64,
 							["school"] = 1,
-							["count"] = 25,
-							["hitmax"] = 5147,
-							["hitamount"] = 21963,
+							["hitmax"] = 2201,
+							["amount"] = 92231,
+							["hitamount"] = 92231,
 						},
-						["Mortal Strike"] = {
-							["blocked"] = 40,
-							["hitmin"] = 4243,
-							["criticalamount"] = 133097,
-							["id"] = 47486,
-							["hitmax"] = 5703,
+						["Heroic Strike"] = {
+							["criticalamount"] = 9910,
+							["id"] = 47450,
 							["targets"] = {
-								["Argent Priestess"] = {
-									["amount"] = 29832,
-								},
-								["Argent Lightwielder"] = {
-									["amount"] = 39718,
-								},
-								["Eadric the Pure"] = {
-									["amount"] = 68707,
-								},
-								["Argent Monk"] = {
-									["amount"] = 30862,
+								["Zul'tore"] = {
+									["amount"] = 9910,
 								},
 							},
-							["count"] = 18,
-							["hit"] = 7,
-							["casts"] = 18,
-							["critical"] = 11,
-							["amount"] = 169119,
+							["casts"] = 1,
+							["critical"] = 1,
+							["amount"] = 9910,
 							["school"] = 1,
-							["criticalmin"] = 9833,
-							["criticalmax"] = 14684,
-							["hitamount"] = 36022,
+							["criticalmin"] = 9910,
+							["criticalmax"] = 9910,
+							["count"] = 1,
 						},
 					},
-					["totaldamage"] = 1400660,
+					["interruptspells"] = {
+						[72] = {
+							["spells"] = {
+								[68318] = 2,
+							},
+							["count"] = 2,
+							["targets"] = {
+								["Runok Wildmane"] = 2,
+							},
+						},
+					},
 					["role"] = "DAMAGER",
 				}, -- [1]
 				{
@@ -5730,2330 +8811,1911 @@ SkadaStorageDB = {
 						[8983] = {
 							["count"] = 1,
 							["targets"] = {
-								["Argent Priestess"] = 1,
-							},
-						},
-						[45334] = {
-							["count"] = 2,
-							["targets"] = {
-								["Argent Priestess"] = 2,
+								["Runok Wildmane"] = 1,
 							},
 						},
 					},
-					["last"] = 11339.769,
+					["last"] = 11146.766,
 					["flag"] = 1298,
 					["class"] = "DRUID",
 					["auras"] = {
 						[24932] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 158,
+							["uptime"] = 53,
 						},
 						[48470] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 158,
+							["uptime"] = 53,
 						},
 						[53307] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 158,
-						},
-						[5229] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["uptime"] = 10,
+							["uptime"] = 53,
 						},
 						[6795] = {
 							["type"] = "DEBUFF",
-							["count"] = 8,
+							["count"] = 6,
 							["school"] = 1,
 							["targets"] = {
-								["Argent Monk"] = {
-									["uptime"] = 3,
-									["count"] = 1,
+								["Runok Wildmane"] = {
+									["uptime"] = 6,
+									["count"] = 2,
 								},
-								["Argent Lightwielder"] = {
-									["uptime"] = 3,
-									["count"] = 1,
-								},
-								["Eadric the Pure"] = {
-									["uptime"] = 18,
-									["count"] = 6,
+								["Zul'tore"] = {
+									["uptime"] = 12,
+									["count"] = 4,
 								},
 							},
-							["uptime"] = 24,
+							["uptime"] = 18,
 						},
 						[17619] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 158,
-						},
-						[48560] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["targets"] = {
-								["Eadric the Pure"] = {
-									["uptime"] = 30,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 30,
-						},
-						[48447] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 8,
-							["refresh"] = 1,
-							["uptime"] = 5,
+							["uptime"] = 53,
 						},
 						[58646] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 158,
+							["uptime"] = 53,
+						},
+						[16857] = {
+							["type"] = "DEBUFF",
+							["count"] = 2,
+							["school"] = 8,
+							["refresh"] = 1,
+							["targets"] = {
+								["Runok Wildmane"] = {
+									["uptime"] = 2,
+									["count"] = 1,
+								},
+								["Zul'tore"] = {
+									["refresh"] = 1,
+									["count"] = 1,
+									["uptime"] = 15,
+								},
+							},
+							["uptime"] = 17,
+						},
+						[72221] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 53,
+						},
+						[48568] = {
+							["type"] = "DEBUFF",
+							["count"] = 3,
+							["school"] = 1,
+							["refresh"] = 10,
+							["targets"] = {
+								["Runok Wildmane"] = {
+									["refresh"] = 3,
+									["count"] = 1,
+									["uptime"] = 14,
+								},
+								["Zul'tore"] = {
+									["refresh"] = 7,
+									["count"] = 1,
+									["uptime"] = 32,
+								},
+							},
+							["uptime"] = 35,
+						},
+						[57623] = {
+							["school"] = 1,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 36,
 						},
 						[52000] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["school"] = 8,
 							["refresh"] = 1,
-							["uptime"] = 22,
-						},
-						[48418] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 158,
-						},
-						[16237] = {
-							["type"] = "BUFF",
-							["count"] = 2,
-							["school"] = 2,
-							["refresh"] = 2,
-							["uptime"] = 43,
-						},
-						[49284] = {
-							["type"] = "BUFF",
-							["count"] = 3,
-							["school"] = 8,
-							["uptime"] = 124,
-						},
-						[62606] = {
-							["type"] = "BUFF",
-							["count"] = 44,
-							["school"] = 8,
-							["refresh"] = 35,
-							["uptime"] = 100,
+							["uptime"] = 17,
 						},
 						[71175] = {
 							["type"] = "BUFF",
-							["count"] = 3,
+							["count"] = 1,
 							["school"] = 8,
-							["refresh"] = 37,
-							["uptime"] = 146,
-						},
-						[45334] = {
-							["type"] = "DEBUFF",
-							["count"] = 2,
-							["school"] = 1,
-							["targets"] = {
-								["Argent Priestess"] = {
-									["uptime"] = 8,
-									["count"] = 2,
-								},
-							},
-							["uptime"] = 8,
-						},
-						[52113] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 158,
-						},
-						[28878] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 158,
-						},
-						[9634] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 158,
-						},
-						[48564] = {
-							["type"] = "DEBUFF",
-							["count"] = 6,
-							["school"] = 1,
-							["targets"] = {
-								["Argent Monk"] = {
-									["uptime"] = 1,
-									["count"] = 1,
-								},
-								["Argent Lightwielder"] = {
-									["uptime"] = 33,
-									["count"] = 1,
-								},
-								["Eadric the Pure"] = {
-									["uptime"] = 7,
-									["count"] = 4,
-								},
-							},
-							["uptime"] = 41,
-						},
-						[47436] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 157,
-						},
-						[59620] = {
-							["type"] = "BUFF",
-							["count"] = 3,
-							["school"] = 2,
-							["refresh"] = 5,
-							["uptime"] = 69,
+							["refresh"] = 13,
+							["uptime"] = 33,
 						},
 						[8983] = {
 							["type"] = "DEBUFF",
 							["count"] = 1,
 							["school"] = 1,
 							["targets"] = {
-								["Argent Priestess"] = {
-									["uptime"] = 2,
+								["Runok Wildmane"] = {
+									["uptime"] = 4,
 									["count"] = 1,
 								},
 							},
-							["uptime"] = 2,
+							["uptime"] = 4,
 						},
-						[67695] = {
+						[52113] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 11,
+							["uptime"] = 53,
 						},
-						[48568] = {
+						[28878] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 53,
+						},
+						[9634] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 53,
+						},
+						[48564] = {
 							["type"] = "DEBUFF",
-							["count"] = 7,
+							["count"] = 4,
 							["school"] = 1,
-							["refresh"] = 23,
 							["targets"] = {
-								["Argent Monk"] = {
-									["count"] = 2,
-									["refresh"] = 2,
-									["uptime"] = 35,
-								},
-								["Argent Lightwielder"] = {
-									["uptime"] = 9,
-									["count"] = 1,
-								},
-								["Eadric the Pure"] = {
-									["count"] = 1,
-									["refresh"] = 18,
-									["uptime"] = 56,
-								},
-								["Argent Priestess"] = {
+								["Zul'tore"] = {
+									["uptime"] = 5,
 									["count"] = 3,
-									["refresh"] = 3,
-									["uptime"] = 28,
 								},
 							},
-							["uptime"] = 113,
+							["uptime"] = 5,
 						},
-						[57623] = {
+						[62606] = {
+							["type"] = "BUFF",
+							["count"] = 10,
+							["school"] = 8,
+							["refresh"] = 20,
+							["uptime"] = 43,
+						},
+						[59620] = {
+							["school"] = 2,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 48,
+							["uptime"] = 15,
+						},
+						[32182] = {
+							["school"] = 8,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 40,
+						},
+						[49284] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 36,
+						},
+						[16237] = {
+							["school"] = 2,
+							["type"] = "BUFF",
+							["count"] = 2,
+							["uptime"] = 26,
+						},
+						[2895] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 53,
 						},
 						[16870] = {
-							["type"] = "BUFF",
-							["count"] = 11,
 							["school"] = 8,
-							["refresh"] = 1,
-							["uptime"] = 16,
+							["type"] = "BUFF",
+							["count"] = 4,
+							["uptime"] = 8,
 						},
 						[67016] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 158,
+							["uptime"] = 53,
 						},
 						[61301] = {
-							["type"] = "BUFF",
-							["count"] = 5,
 							["school"] = 8,
-							["uptime"] = 51,
-						},
-						[16857] = {
-							["type"] = "DEBUFF",
-							["count"] = 7,
-							["school"] = 8,
-							["refresh"] = 7,
-							["targets"] = {
-								["Argent Monk"] = {
-									["count"] = 1,
-									["refresh"] = 1,
-									["uptime"] = 10,
-								},
-								["Argent Lightwielder"] = {
-									["uptime"] = 2,
-									["count"] = 1,
-								},
-								["Eadric the Pure"] = {
-									["count"] = 2,
-									["refresh"] = 5,
-									["uptime"] = 47,
-								},
-								["Argent Priestess"] = {
-									["count"] = 3,
-									["refresh"] = 1,
-									["uptime"] = 29,
-								},
-							},
-							["uptime"] = 88,
-						},
-						[72221] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 158,
+							["uptime"] = 5,
+						},
+						[48418] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 53,
+						},
+						[5229] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 8,
 						},
 					},
-					["overkill"] = 559,
-					["time"] = 150.6,
-					["overheal"] = 21147,
-					["totaldamage"] = 509887,
-					["totaldamagetaken"] = 269712,
-					["interrupt"] = 2,
-					["damage"] = 509887,
+					["role"] = "TANK",
+					["time"] = 51.85,
+					["totaldamagetaken"] = 34883,
+					["damage"] = 192242,
+					["overheal"] = 13182,
+					["rage"] = 245,
+					["damagetaken"] = 21686,
 					["damagespells"] = {
-						["Feral Charge Effect"] = {
-							["casts"] = 1,
-							["count"] = 2,
-							["amount"] = 0,
-							["school"] = 1,
-							["IMMUNE"] = 2,
-							["targets"] = {
-								["Eadric the Pure"] = {
-									["amount"] = 0,
-								},
-							},
-							["id"] = 19675,
-						},
 						["Melee"] = {
-							["glance"] = 861,
-							["hitmin"] = 1181,
-							["criticalmin"] = 2118,
+							["hitmin"] = 1065,
+							["criticalamount"] = 4598,
+							["id"] = 6603,
 							["targets"] = {
-								["Argent Priestess"] = {
-									["amount"] = 1181,
-								},
-								["Argent Lightwielder"] = {
-									["amount"] = 4712,
-								},
-								["Eadric the Pure"] = {
-									["amount"] = 5141,
+								["Zul'tore"] = {
+									["amount"] = 6785,
 								},
 							},
-							["glancing"] = 1,
-							["amount"] = 11034,
-							["glancemin"] = 861,
-							["criticalamount"] = 8992,
-							["id"] = 6603,
-							["glancemax"] = 861,
-							["criticalmax"] = 2480,
-							["critical"] = 4,
-							["hit"] = 1,
+							["criticalmin"] = 2264,
+							["critical"] = 2,
+							["criticalmax"] = 2334,
+							["count"] = 4,
+							["amount"] = 6785,
 							["school"] = 1,
-							["count"] = 6,
-							["hitmax"] = 1181,
-							["hitamount"] = 1181,
+							["hit"] = 2,
+							["hitmax"] = 1122,
+							["hitamount"] = 2187,
 						},
 						["Lacerate"] = {
-							["blocked"] = 41,
-							["hitmin"] = 121,
-							["criticalamount"] = 3301,
+							["hitmin"] = 161,
+							["criticalamount"] = 1608,
 							["id"] = 48568,
-							["hitmax"] = 188,
+							["criticalmin"] = 312,
 							["targets"] = {
-								["Argent Monk"] = {
-									["amount"] = 694,
+								["Runok Wildmane"] = {
+									["amount"] = 986,
 								},
-								["Argent Lightwielder"] = {
-									["amount"] = 366,
+								["Zul'tore"] = {
+									["amount"] = 1791,
 								},
-								["Eadric the Pure"] = {
-									["amount"] = 4092,
-								},
-								["Argent Priestess"] = {
-									["amount"] = 1341,
+								["Deathstalker Visceri"] = {
+									["amount"] = 165,
 								},
 							},
-							["count"] = 30,
-							["hit"] = 20,
-							["casts"] = 30,
-							["critical"] = 10,
-							["amount"] = 6493,
+							["casts"] = 13,
+							["count"] = 13,
+							["criticalmax"] = 330,
+							["hitmax"] = 170,
+							["amount"] = 2942,
 							["school"] = 1,
-							["criticalmin"] = 266,
-							["criticalmax"] = 376,
-							["hitamount"] = 3192,
-						},
-						["Swipe (Bear)"] = {
-							["hitmin"] = 491,
-							["criticalmin"] = 1062,
-							["IMMUNE"] = 8,
-							["targets"] = {
-								["Argent Monk"] = {
-									["overkill"] = 559,
-									["amount"] = 34485,
-								},
-								["Argent Lightwielder"] = {
-									["amount"] = 42727,
-								},
-								["Argent Priestess"] = {
-									["amount"] = 25575,
-								},
-								["Fountain of Light"] = {
-									["amount"] = 2872,
-								},
-							},
-							["amount"] = 105659,
-							["criticalamount"] = 66494,
-							["id"] = 48562,
-							["blocked"] = 120,
-							["overkill"] = 559,
-							["criticalmax"] = 1330,
-							["casts"] = 32,
-							["hitmax"] = 665,
-							["hit"] = 68,
-							["school"] = 1,
-							["critical"] = 58,
-							["count"] = 134,
-							["hitamount"] = 39165,
-						},
-						["Mangle (Bear)"] = {
-							["hitmin"] = 1771,
-							["criticalamount"] = 14688,
-							["id"] = 48564,
-							["hitmax"] = 2021,
-							["targets"] = {
-								["Argent Monk"] = {
-									["amount"] = 3974,
-								},
-								["Argent Lightwielder"] = {
-									["amount"] = 3662,
-								},
-								["Eadric the Pure"] = {
-									["amount"] = 12632,
-								},
-							},
-							["count"] = 7,
-							["hit"] = 3,
-							["casts"] = 7,
-							["critical"] = 4,
-							["amount"] = 20268,
-							["school"] = 1,
-							["criticalmin"] = 3494,
-							["criticalmax"] = 3974,
-							["hitamount"] = 5580,
-						},
-						["Faerie Fire (Feral)"] = {
-							["hitmax"] = 1230,
-							["hitmin"] = 1003,
-							["criticalamount"] = 3391,
-							["id"] = 60089,
-							["criticalmin"] = 1690,
-							["targets"] = {
-								["Argent Monk"] = {
-									["amount"] = 2357,
-								},
-								["Argent Lightwielder"] = {
-									["amount"] = 1230,
-								},
-								["Eadric the Pure"] = {
-									["amount"] = 7694,
-								},
-								["Argent Priestess"] = {
-									["amount"] = 5589,
-								},
-							},
-							["criticalmax"] = 1701,
-							["critical"] = 2,
-							["casts"] = 14,
-							["count"] = 14,
-							["hit"] = 12,
-							["school"] = 8,
-							["resisted"] = 113,
-							["amount"] = 16870,
-							["hitamount"] = 13479,
-						},
-						["Maul"] = {
-							["blocked"] = 81,
-							["hitmin"] = 1757,
-							["criticalamount"] = 212642,
-							["id"] = 48480,
-							["criticalmin"] = 3762,
-							["targets"] = {
-								["Argent Priestess"] = {
-									["amount"] = 108096,
-								},
-								["Argent Lightwielder"] = {
-									["amount"] = 38686,
-								},
-								["Eadric the Pure"] = {
-									["amount"] = 93243,
-								},
-								["Argent Monk"] = {
-									["amount"] = 64145,
-								},
-							},
-							["criticalmax"] = 6820,
-							["critical"] = 39,
-							["casts"] = 52,
-							["count"] = 74,
-							["hit"] = 35,
-							["school"] = 1,
-							["hitmax"] = 3321,
-							["amount"] = 304170,
-							["hitamount"] = 91528,
-						},
-						["Lacerate (DoT)"] = {
-							["hitmin"] = 167,
-							["criticalamount"] = 26810,
-							["id"] = 48568,
-							["targets"] = {
-								["Argent Monk"] = {
-									["amount"] = 5292,
-								},
-								["Argent Lightwielder"] = {
-									["amount"] = 971,
-								},
-								["Eadric the Pure"] = {
-									["amount"] = 28135,
-								},
-								["Argent Priestess"] = {
-									["amount"] = 4265,
-								},
-							},
-							["criticalmin"] = 333,
-							["critical"] = 21,
-							["criticalmax"] = 2504,
-							["count"] = 40,
-							["hit"] = 19,
-							["school"] = 1,
-							["hitmax"] = 1251,
-							["amount"] = 38663,
-							["hitamount"] = 11853,
-						},
-						["Chain Lightning"] = {
-							["hitmax"] = 257,
-							["hitmin"] = 101,
-							["criticalamount"] = 496,
-							["id"] = 21179,
-							["criticalmin"] = 188,
-							["targets"] = {
-								["Argent Monk"] = {
-									["amount"] = 857,
-								},
-								["Argent Lightwielder"] = {
-									["amount"] = 915,
-								},
-								["Eadric the Pure"] = {
-									["amount"] = 881,
-								},
-								["Argent Priestess"] = {
-									["amount"] = 420,
-								},
-							},
-							["criticalmax"] = 308,
-							["critical"] = 2,
-							["casts"] = 1,
-							["count"] = 17,
-							["hit"] = 15,
-							["school"] = 8,
-							["resisted"] = 20,
-							["amount"] = 3073,
-							["hitamount"] = 2577,
+							["hit"] = 8,
+							["critical"] = 5,
+							["hitamount"] = 1334,
 						},
 						["Thorns"] = {
-							["hitmin"] = 78,
+							["hitmin"] = 79,
 							["id"] = 53307,
-							["IMMUNE"] = 1,
 							["targets"] = {
-								["Argent Monk"] = {
-									["amount"] = 1908,
+								["Zul'tore"] = {
+									["amount"] = 256,
 								},
-								["Argent Lightwielder"] = {
-									["amount"] = 951,
-								},
-								["Eadric the Pure"] = {
-									["amount"] = 798,
+								["Deathstalker Visceri"] = {
+									["amount"] = 79,
 								},
 							},
 							["casts"] = 1,
-							["count"] = 46,
-							["hit"] = 45,
+							["count"] = 4,
+							["hit"] = 4,
 							["school"] = 8,
 							["hitmax"] = 89,
-							["amount"] = 3657,
-							["hitamount"] = 3657,
+							["amount"] = 335,
+							["hitamount"] = 335,
+						},
+						["Lacerate (DoT)"] = {
+							["hitmin"] = 205,
+							["criticalamount"] = 4836,
+							["id"] = 48568,
+							["targets"] = {
+								["Runok Wildmane"] = {
+									["amount"] = 2120,
+								},
+								["Zul'tore"] = {
+									["amount"] = 8900,
+								},
+							},
+							["criticalmin"] = 416,
+							["count"] = 14,
+							["criticalmax"] = 2210,
+							["critical"] = 3,
+							["amount"] = 11020,
+							["school"] = 1,
+							["hitmax"] = 1105,
+							["hit"] = 11,
+							["hitamount"] = 6184,
+						},
+						["Faerie Fire (Feral)"] = {
+							["hitmin"] = 1094,
+							["id"] = 60089,
+							["targets"] = {
+								["Runok Wildmane"] = {
+									["amount"] = 1094,
+								},
+								["Zul'tore"] = {
+									["amount"] = 2263,
+								},
+							},
+							["casts"] = 3,
+							["count"] = 3,
+							["hit"] = 3,
+							["school"] = 8,
+							["hitmax"] = 1169,
+							["amount"] = 3357,
+							["hitamount"] = 3357,
+						},
+						["Maul"] = {
+							["criticalmin"] = 3964,
+							["hit"] = 16,
+							["hitmin"] = 1999,
+							["criticalamount"] = 83880,
+							["id"] = 48480,
+							["critical"] = 15,
+							["targets"] = {
+								["Runok Wildmane"] = {
+									["overkill"] = 1905,
+									["amount"] = 38264,
+								},
+								["Zul'tore"] = {
+									["overkill"] = 1740,
+									["amount"] = 39898,
+								},
+								["Deathstalker Visceri"] = {
+									["amount"] = 50745,
+								},
+							},
+							["overkill"] = 3645,
+							["blocked"] = 40,
+							["criticalmax"] = 6028,
+							["hitmax"] = 3187,
+							["amount"] = 128907,
+							["school"] = 1,
+							["count"] = 31,
+							["casts"] = 18,
+							["hitamount"] = 45027,
+						},
+						["Mangle (Bear)"] = {
+							["hitmin"] = 1631,
+							["criticalamount"] = 7024,
+							["id"] = 48564,
+							["criticalmin"] = 3364,
+							["targets"] = {
+								["Zul'tore"] = {
+									["amount"] = 7115,
+								},
+								["Deathstalker Visceri"] = {
+									["amount"] = 3364,
+								},
+							},
+							["critical"] = 2,
+							["amount"] = 10479,
+							["criticalmax"] = 3660,
+							["count"] = 4,
+							["hit"] = 2,
+							["school"] = 1,
+							["hitmax"] = 1824,
+							["casts"] = 4,
+							["hitamount"] = 3455,
+						},
+						["Chain Lightning"] = {
+							["hitmin"] = 88,
+							["criticalamount"] = 477,
+							["id"] = 21179,
+							["criticalmin"] = 173,
+							["targets"] = {
+								["Runok Wildmane"] = {
+									["amount"] = 387,
+								},
+								["Zul'tore"] = {
+									["amount"] = 377,
+								},
+								["Deathstalker Visceri"] = {
+									["amount"] = 477,
+								},
+							},
+							["critical"] = 2,
+							["amount"] = 1241,
+							["criticalmax"] = 304,
+							["count"] = 6,
+							["hit"] = 4,
+							["school"] = 8,
+							["hitmax"] = 289,
+							["casts"] = 1,
+							["hitamount"] = 764,
+						},
+						["Swipe (Bear)"] = {
+							["hitmin"] = 513,
+							["criticalamount"] = 17720,
+							["id"] = 48562,
+							["criticalmin"] = 1026,
+							["targets"] = {
+								["Runok Wildmane"] = {
+									["amount"] = 8436,
+								},
+								["Zul'tore"] = {
+									["amount"] = 9853,
+								},
+								["Deathstalker Visceri"] = {
+									["amount"] = 8887,
+								},
+							},
+							["critical"] = 16,
+							["amount"] = 27176,
+							["criticalmax"] = 1188,
+							["count"] = 33,
+							["hit"] = 17,
+							["school"] = 1,
+							["hitmax"] = 594,
+							["casts"] = 11,
+							["hitamount"] = 9456,
 						},
 					},
-					["ragespells"] = {
-						[5229] = 30,
-						[59072] = 99,
-						[16959] = 575,
-					},
-					["damagetaken"] = 198047,
 					["id"] = "0x070000000086CEC0",
 					["spec"] = 103,
 					["healspells"] = {
 						[34299] = {
-							["overheal"] = 21147,
-							["max"] = 1901,
-							["count"] = 22,
-							["amount"] = 20665,
+							["overheal"] = 13182,
+							["max"] = 1364,
+							["count"] = 8,
+							["amount"] = 2019,
 							["school"] = 1,
-							["min"] = 451,
+							["targets"] = {
+								["Moonsoonx"] = {
+									["overheal"] = 13182,
+									["amount"] = 2019,
+								},
+							},
+							["ishot"] = true,
+							["min"] = 655,
+						},
+					},
+					["overkill"] = 3645,
+					["damagetakenspells"] = {
+						["Shoot"] = {
+							["total"] = 4278,
+							["hitmin"] = 594,
+							["id"] = 3018,
+							["amount"] = 2833,
+							["sources"] = {
+								["Zul'tore"] = {
+									["total"] = 4278,
+									["amount"] = 2833,
+								},
+							},
+							["count"] = 3,
+							["hit"] = 2,
+							["school"] = 1,
+							["hitmax"] = 2239,
+							["MISS"] = 1,
+							["hitamount"] = 2833,
+						},
+						["Melee"] = {
+							["DODGE"] = 11,
+							["total"] = 12623,
+							["hitmin"] = 1048,
+							["id"] = 6603,
+							["hit"] = 4,
+							["ABSORB"] = 2,
+							["sources"] = {
+								["Runok Wildmane"] = {
+									["total"] = 2620,
+									["amount"] = 0,
+								},
+								["Zul'tore"] = {
+									["total"] = 8569,
+									["amount"] = 3861,
+								},
+								["Deathstalker Visceri"] = {
+									["amount"] = 1434,
+								},
+							},
+							["count"] = 25,
+							["amount"] = 5295,
+							["school"] = 1,
+							["hitmax"] = 1692,
+							["MISS"] = 8,
+							["hitamount"] = 5295,
+						},
+						["Chain Lightning"] = {
+							["hitmin"] = 5446,
+							["id"] = 68319,
+							["hitmax"] = 5446,
+							["sources"] = {
+								["Runok Wildmane"] = {
+									["amount"] = 5446,
+								},
+							},
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 8,
+							["resisted"] = 1361,
+							["amount"] = 5446,
+							["hitamount"] = 5446,
+						},
+						["Poison Bottle (DoT)"] = {
+							["hitmin"] = 1078,
+							["id"] = 68316,
+							["hitmax"] = 1386,
+							["sources"] = {
+								["Deathstalker Visceri"] = {
+									["amount"] = 5082,
+								},
+							},
+							["count"] = 4,
+							["hit"] = 4,
+							["school"] = 8,
+							["resisted"] = 1078,
+							["amount"] = 5082,
+							["hitamount"] = 5082,
+						},
+						["Multi-Shot"] = {
+							["total"] = 2075,
+							["hitmin"] = 630,
+							["id"] = 66081,
+							["sources"] = {
+								["Zul'tore"] = {
+									["total"] = 2075,
+									["amount"] = 630,
+								},
+							},
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 1,
+							["hitmax"] = 630,
+							["amount"] = 630,
+							["hitamount"] = 630,
+						},
+						["Fan of Knives"] = {
+							["total"] = 5379,
+							["hitmin"] = 1065,
+							["id"] = 67706,
+							["sources"] = {
+								["Deathstalker Visceri"] = {
+									["total"] = 5379,
+									["amount"] = 2400,
+								},
+							},
+							["count"] = 2,
+							["hit"] = 2,
+							["school"] = 1,
+							["hitmax"] = 1335,
+							["amount"] = 2400,
+							["hitamount"] = 2400,
+						},
+					},
+					["heal"] = 2019,
+					["manaspells"] = {
+						[68285] = 5336,
+					},
+					["ccdone"] = 1,
+					["totaldamage"] = 192242,
+					["name"] = "Moonsoonx",
+					["ragespells"] = {
+						[5229] = 9,
+						[59072] = 36,
+						[16959] = 200,
+					},
+					["mana"] = 5336,
+				}, -- [2]
+				{
+					["overheal"] = 76091,
+					["last"] = 11137.419,
+					["flag"] = 4370,
+					["spec"] = 264,
+					["healspells"] = {
+						[55459] = {
+							["overheal"] = 34703,
+							["criticalamount"] = 55233,
+							["max"] = 10918,
+							["targets"] = {
+								["Moonsoonx"] = {
+									["overheal"] = 18305,
+									["amount"] = 7957,
+								},
+								["Rimgar"] = {
+									["overheal"] = 3643,
+									["amount"] = 63467,
+								},
+								["Torreznos"] = {
+									["overheal"] = 2190,
+									["amount"] = 16405,
+								},
+								["Anusalro"] = {
+									["overheal"] = 10565,
+									["amount"] = 33712,
+								},
+							},
+							["min"] = 39,
+							["criticalmax"] = 10918,
+							["count"] = 26,
+							["amount"] = 121541,
+							["school"] = 8,
+							["criticalmin"] = 39,
+							["casts"] = 10,
+							["critical"] = 10,
+						},
+						[52752] = {
+							["overheal"] = 2783,
+							["count"] = 4,
+							["amount"] = 4059,
+							["school"] = 8,
+							["max"] = 2402,
+							["targets"] = {
+								["Rimgar"] = {
+									["overheal"] = 0,
+									["amount"] = 2402,
+								},
+								["Torreznos"] = {
+									["overheal"] = 2783,
+									["amount"] = 136,
+								},
+								["Anusalro"] = {
+									["overheal"] = 0,
+									["amount"] = 1521,
+								},
+							},
+							["min"] = 136,
+						},
+						[61301] = {
+							["overheal"] = 6680,
+							["criticalamount"] = 9505,
+							["max"] = 5119,
+							["targets"] = {
+								["Moonsoonx"] = {
+									["overheal"] = 4654,
+									["amount"] = 928,
+								},
+								["Anusalro"] = {
+									["overheal"] = 1704,
+									["amount"] = 0,
+								},
+								["Rimgar"] = {
+									["overheal"] = 322,
+									["amount"] = 18132,
+								},
+							},
+							["min"] = 928,
+							["criticalmax"] = 5119,
+							["count"] = 10,
+							["amount"] = 19060,
+							["school"] = 8,
+							["casts"] = 6,
+							["criticalmin"] = 0,
+							["critical"] = 3,
+						},
+						[52000] = {
+							["overheal"] = 3579,
+							["school"] = 8,
+							["count"] = 18,
+							["amount"] = 9641,
+							["max"] = 787,
 							["ishot"] = true,
 							["targets"] = {
 								["Moonsoonx"] = {
-									["overheal"] = 21147,
-									["amount"] = 20665,
+									["overheal"] = 2178,
+									["amount"] = 1462,
+								},
+								["Anusalro"] = {
+									["overheal"] = 1401,
+									["amount"] = 5031,
+								},
+								["Rimgar"] = {
+									["overheal"] = 0,
+									["amount"] = 3148,
 								},
 							},
+							["min"] = 696,
 						},
-					},
-					["damagetakenspells"] = {
-						["Holy Smite"] = {
-							["hitmin"] = 722,
-							["id"] = 67289,
-							["amount"] = 30025,
-							["sources"] = {
-								["Argent Priestess"] = {
-									["amount"] = 30025,
+						[379] = {
+							["overheal"] = 11593,
+							["criticalamount"] = 11450,
+							["max"] = 4282,
+							["targets"] = {
+								["Moonsoonx"] = {
+									["overheal"] = 9299,
+									["amount"] = 10684,
+								},
+								["Rimgar"] = {
+									["overheal"] = 2294,
+									["amount"] = 2458,
 								},
 							},
-							["count"] = 23,
-							["hit"] = 21,
-							["school"] = 2,
-							["hitmax"] = 1742,
-							["MISS"] = 2,
-							["hitamount"] = 30025,
+							["min"] = 630,
+							["criticalmax"] = 4282,
+							["count"] = 6,
+							["amount"] = 13142,
+							["school"] = 8,
+							["criticalmin"] = 630,
+							["critical"] = 5,
 						},
-						["Melee"] = {
-							["DODGE"] = 29,
-							["hitmin"] = 48,
-							["criticalmin"] = 5779,
-							["sources"] = {
-								["Argent Monk"] = {
-									["total"] = 53673,
-									["amount"] = 27572,
+						[49276] = {
+							["overheal"] = 687,
+							["criticalamount"] = 7018,
+							["max"] = 7018,
+							["targets"] = {
+								["Torreznos"] = {
+									["overheal"] = 687,
+									["amount"] = 7018,
 								},
-								["Argent Lightwielder"] = {
-									["total"] = 26194,
-									["amount"] = 8957,
-								},
-								["Eadric the Pure"] = {
-									["total"] = 49079,
-									["amount"] = 36351,
+								["Rimgar"] = {
+									["overheal"] = 0,
+									["amount"] = 19494,
 								},
 							},
-							["amount"] = 72880,
-							["MISS"] = 4,
-							["total"] = 128946,
-							["criticalamount"] = 15611,
-							["id"] = 6603,
-							["critical"] = 2,
-							["criticalmax"] = 9832,
-							["count"] = 84,
-							["ABSORB"] = 5,
-							["school"] = 1,
-							["hit"] = 44,
-							["hitmax"] = 3482,
-							["hitamount"] = 57269,
+							["min"] = 4789,
+							["casts"] = 5,
+							["count"] = 5,
+							["amount"] = 26512,
+							["school"] = 8,
+							["criticalmin"] = 7018,
+							["criticalmax"] = 7018,
+							["critical"] = 1,
 						},
-						["Cleave"] = {
-							["DODGE"] = 4,
-							["total"] = 34851,
-							["hitmin"] = 465,
-							["id"] = 68868,
-							["amount"] = 19252,
-							["sources"] = {
-								["Argent Lightwielder"] = {
-									["total"] = 34851,
-									["amount"] = 19252,
-								},
-							},
-							["count"] = 20,
-							["hit"] = 14,
-							["school"] = 1,
-							["hitmax"] = 2779,
-							["MISS"] = 2,
-							["hitamount"] = 19252,
-						},
-						["Blazing Light"] = {
-							["hitmin"] = 5026,
-							["id"] = 67291,
-							["amount"] = 31505,
-							["sources"] = {
-								["Argent Monk"] = {
+						[52042] = {
+							["overheal"] = 16066,
+							["max"] = 403,
+							["count"] = 39,
+							["amount"] = 403,
+							["school"] = 8,
+							["targets"] = {
+								["Anusalro"] = {
+									["overheal"] = 779,
 									["amount"] = 0,
 								},
-								["Argent Lightwielder"] = {
-									["amount"] = 31505,
+								["Rimgar"] = {
+									["overheal"] = 817,
+									["amount"] = 0,
 								},
-							},
-							["count"] = 7,
-							["hit"] = 6,
-							["school"] = 2,
-							["hitmax"] = 5487,
-							["MISS"] = 1,
-							["hitamount"] = 31505,
-						},
-						["Final Meditation"] = {
-							["sources"] = {
-								["Argent Monk"] = {
+								["Torreznos"] = {
+									["overheal"] = 2953,
+									["amount"] = 403,
+								},
+								["Zbeguini"] = {
+									["overheal"] = 11517,
 									["amount"] = 0,
 								},
 							},
-							["count"] = 1,
-							["amount"] = 0,
-							["school"] = 2,
-							["MISS"] = 1,
-							["id"] = 67255,
-						},
-						["Shadow Word: Pain (DoT)"] = {
-							["hitmin"] = 3826,
-							["id"] = 68088,
-							["hitmax"] = 5466,
-							["sources"] = {
-								["Argent Priestess"] = {
-									["amount"] = 44385,
-								},
-							},
-							["count"] = 10,
-							["hit"] = 10,
-							["school"] = 32,
-							["resisted"] = 7911,
-							["amount"] = 44385,
-							["hitamount"] = 44385,
+							["ishot"] = true,
+							["min"] = 403,
 						},
 					},
-					["rage"] = 704,
-					["heal"] = 20665,
-					["name"] = "Moonsoonx",
-					["ccdone"] = 3,
-					["manaspells"] = {
-						[68285] = 14674,
-					},
-					["mana"] = 14674,
-					["interruptspells"] = {
-						[32747] = {
-							["spells"] = {
-								[67289] = 1,
-							},
-							["count"] = 1,
-							["targets"] = {
-								["Argent Priestess"] = 1,
-							},
-						},
-						[19675] = {
-							["spells"] = {
-								[67229] = 1,
-							},
-							["count"] = 1,
-							["targets"] = {
-								["Argent Priestess"] = 1,
-							},
-						},
-					},
-					["role"] = "TANK",
-				}, -- [2]
-				{
-					["last"] = 11339.595,
-					["flag"] = 4370,
-					["class"] = "SHAMAN",
 					["auras"] = {
-						[24932] = {
-							["type"] = "BUFF",
-							["count"] = 4,
-							["school"] = 1,
-							["uptime"] = 152,
-						},
-						[48470] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 158,
-						},
-						[55198] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["uptime"] = 2,
-						},
-						[57960] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["refresh"] = 8,
-							["uptime"] = 158,
-						},
-						[58646] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 158,
-						},
 						[72221] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 158,
-						},
-						[52113] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 158,
+							["uptime"] = 53,
 						},
 						[28878] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 158,
+							["uptime"] = 53,
 						},
-						[16237] = {
+						[32182] = {
+							["school"] = 8,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 2,
-							["uptime"] = 15,
-						},
-						[47436] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 157,
+							["uptime"] = 40,
 						},
 						[71220] = {
+							["refresh"] = 5,
 							["type"] = "BUFF",
-							["count"] = 4,
-							["school"] = 8,
-							["refresh"] = 10,
-							["uptime"] = 136,
+							["uptime"] = 46,
+							["count"] = 1,
+						},
+						[57623] = {
+							["school"] = 1,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 36,
+						},
+						[57960] = {
+							["refresh"] = 2,
+							["type"] = "BUFF",
+							["uptime"] = 53,
+							["count"] = 1,
 						},
 						[53390] = {
 							["type"] = "BUFF",
-							["count"] = 5,
+							["count"] = 2,
 							["school"] = 1,
-							["refresh"] = 14,
-							["uptime"] = 120,
-						},
-						[55166] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["uptime"] = 5,
+							["refresh"] = 11,
+							["uptime"] = 53,
 						},
 						[60520] = {
-							["type"] = "BUFF",
-							["count"] = 2,
 							["school"] = 1,
-							["uptime"] = 18,
-						},
-						[52000] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 8,
-							["uptime"] = 12,
-						},
-						[61301] = {
-							["type"] = "BUFF",
-							["count"] = 2,
-							["school"] = 8,
-							["uptime"] = 31,
-						},
-						[57623] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 48,
-						},
-						[72418] = {
-							["type"] = "BUFF",
-							["count"] = 2,
-							["school"] = 64,
-							["uptime"] = 20,
-						},
-					},
-					["time"] = 136.59,
-					["totaldamagetaken"] = 40723,
-					["damage"] = 1993,
-					["damagespells"] = {
-						["Purge"] = {
-							["casts"] = 1,
-							["count"] = 1,
-							["amount"] = 0,
-							["school"] = 8,
-							["IMMUNE"] = 1,
-							["targets"] = {
-								["Argent Monk"] = {
-									["amount"] = 0,
-								},
-							},
-							["id"] = 8012,
-						},
-						["Melee"] = {
-							["criticalamount"] = 392,
-							["id"] = 6603,
-							["IMMUNE"] = 3,
-							["targets"] = {
-								["Argent Monk"] = {
-									["overkill"] = 391,
-									["amount"] = 392,
-								},
-							},
-							["overkill"] = 391,
-							["criticalmax"] = 392,
-							["count"] = 4,
-							["amount"] = 392,
-							["school"] = 1,
-							["criticalmin"] = 392,
-							["critical"] = 1,
-						},
-						["Flame Shock (DoT)"] = {
-							["hitmin"] = 291,
-							["criticalamount"] = 1310,
-							["id"] = 25457,
-							["targets"] = {
-								["Argent Priestess"] = {
-									["amount"] = 1601,
-								},
-							},
-							["hitmax"] = 291,
-							["count"] = 4,
-							["criticalmax"] = 437,
-							["critical"] = 3,
-							["amount"] = 1601,
-							["school"] = 4,
-							["hit"] = 1,
-							["criticalmin"] = 436,
-							["hitamount"] = 291,
-						},
-					},
-					["manaspells"] = {
-						[57961] = 6888,
-					},
-					["damagetaken"] = 40723,
-					["id"] = "0x070000000096874A",
-					["spec"] = 264,
-					["healspells"] = {
-						[379] = {
-							["overheal"] = 13138,
-							["criticalamount"] = 46793,
-							["max"] = 4912,
-							["targets"] = {
-								["Moonsoonx"] = {
-									["overheal"] = 13138,
-									["amount"] = 79749,
-								},
-								["Rimgar"] = {
-									["overheal"] = 0,
-									["amount"] = 6337,
-								},
-							},
-							["min"] = 1061,
-							["criticalmax"] = 4912,
-							["count"] = 25,
-							["amount"] = 86086,
-							["school"] = 8,
-							["criticalmin"] = 1378,
-							["critical"] = 12,
-						},
-						[52042] = {
-							["overheal"] = 34402,
-							["max"] = 466,
-							["count"] = 105,
-							["amount"] = 8999,
-							["school"] = 8,
-							["min"] = 287,
-							["ishot"] = true,
-							["targets"] = {
-								["Moonsoonx"] = {
-									["overheal"] = 2015,
-									["amount"] = 2040,
-								},
-								["Rimgar"] = {
-									["overheal"] = 3422,
-									["amount"] = 2326,
-								},
-								["Anusalro"] = {
-									["overheal"] = 5069,
-									["amount"] = 0,
-								},
-								["Zbeguini"] = {
-									["overheal"] = 23896,
-									["amount"] = 4633,
-								},
-							},
-						},
-						[49276] = {
-							["overheal"] = 7088,
-							["criticalamount"] = 45620,
-							["max"] = 9001,
-							["targets"] = {
-								["Moonsoonx"] = {
-									["overheal"] = 0,
-									["amount"] = 23477,
-								},
-								["Anusalro"] = {
-									["overheal"] = 0,
-									["amount"] = 11860,
-								},
-								["Rimgar"] = {
-									["overheal"] = 5676,
-									["amount"] = 14350,
-								},
-								["Zbeguini"] = {
-									["overheal"] = 1412,
-									["amount"] = 15528,
-								},
-							},
-							["criticalmin"] = 1726,
-							["min"] = 1726,
-							["casts"] = 11,
-							["count"] = 11,
-							["amount"] = 65215,
-							["school"] = 8,
-							["criticalmax"] = 9001,
-							["critical"] = 7,
-						},
-						[34299] = {
-							["overheal"] = 0,
-							["targets"] = {
-								["Zbeguini"] = {
-									["overheal"] = 0,
-									["amount"] = 959,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 959,
-							["school"] = 1,
-							["max"] = 959,
-							["ishot"] = true,
-							["min"] = 959,
-						},
-						[52000] = {
-							["overheal"] = 6205,
-							["targets"] = {
-								["Moonsoonx"] = {
-									["overheal"] = 2019,
-									["amount"] = 2965,
-								},
-								["Anusalro"] = {
-									["overheal"] = 1993,
-									["amount"] = 6900,
-								},
-								["Rimgar"] = {
-									["overheal"] = 731,
-									["amount"] = 5118,
-								},
-								["Zbeguini"] = {
-									["overheal"] = 1462,
-									["amount"] = 1462,
-								},
-							},
-							["count"] = 32,
-							["amount"] = 16445,
-							["school"] = 8,
-							["max"] = 732,
-							["ishot"] = true,
-							["min"] = 74,
-						},
-						[61301] = {
-							["overheal"] = 35052,
-							["criticalamount"] = 17026,
-							["max"] = 4489,
-							["targets"] = {
-								["Torreznos"] = {
-									["overheal"] = 6304,
-									["amount"] = 3073,
-								},
-								["Moonsoonx"] = {
-									["overheal"] = 7366,
-									["amount"] = 24478,
-								},
-								["Anusalro"] = {
-									["overheal"] = 10199,
-									["amount"] = 14241,
-								},
-								["Rimgar"] = {
-									["overheal"] = 6616,
-									["amount"] = 18964,
-								},
-								["Zbeguini"] = {
-									["overheal"] = 4567,
-									["amount"] = 11087,
-								},
-							},
-							["criticalmin"] = 1890,
-							["min"] = 90,
-							["casts"] = 14,
-							["count"] = 73,
-							["amount"] = 71843,
-							["school"] = 8,
-							["criticalmax"] = 4489,
-							["ishot"] = true,
-							["critical"] = 5,
-						},
-						[55459] = {
-							["overheal"] = 19998,
-							["criticalamount"] = 68613,
-							["max"] = 10026,
-							["targets"] = {
-								["Moonsoonx"] = {
-									["overheal"] = 9397,
-									["amount"] = 36308,
-								},
-								["Rimgar"] = {
-									["overheal"] = 2965,
-									["amount"] = 43871,
-								},
-								["Torreznos"] = {
-									["overheal"] = 1165,
-									["amount"] = 10272,
-								},
-								["Anusalro"] = {
-									["overheal"] = 6471,
-									["amount"] = 34040,
-								},
-							},
-							["criticalmin"] = 1405,
-							["min"] = 266,
-							["casts"] = 11,
-							["count"] = 25,
-							["amount"] = 124491,
-							["school"] = 8,
-							["criticalmax"] = 10026,
-							["critical"] = 11,
-						},
-						[52752] = {
-							["overheal"] = 4345,
-							["max"] = 2807,
-							["count"] = 12,
-							["amount"] = 19042,
-							["school"] = 8,
-							["min"] = 663,
-							["targets"] = {
-								["Torreznos"] = {
-									["overheal"] = 0,
-									["amount"] = 4959,
-								},
-								["Moonsoonx"] = {
-									["overheal"] = 0,
-									["amount"] = 4645,
-								},
-								["Anusalro"] = {
-									["overheal"] = 2028,
-									["amount"] = 2872,
-								},
-								["Rimgar"] = {
-									["overheal"] = 0,
-									["amount"] = 5055,
-								},
-								["Zbeguini"] = {
-									["overheal"] = 2317,
-									["amount"] = 1511,
-								},
-							},
-						},
-						[49273] = {
-							["overheal"] = 7232,
-							["count"] = 1,
-							["amount"] = 5543,
-							["school"] = 8,
-							["max"] = 5543,
-							["targets"] = {
-								["Zbeguini"] = {
-									["overheal"] = 7232,
-									["amount"] = 5543,
-								},
-							},
-							["min"] = 5543,
-						},
-					},
-					["damagetakenspells"] = {
-						["Holy Smite"] = {
-							["hitmin"] = 1601,
-							["id"] = 67289,
-							["sources"] = {
-								["Argent Priestess"] = {
-									["amount"] = 1601,
-								},
-							},
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 2,
-							["hitmax"] = 1601,
-							["amount"] = 1601,
-							["hitamount"] = 1601,
-						},
-						["Mind Control"] = {
-							["sources"] = {
-								["Argent Priestess"] = {
-									["amount"] = 0,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 0,
-							["school"] = 32,
-							["RESIST"] = 1,
-							["id"] = 67229,
-						},
-						["Melee"] = {
-							["hitmin"] = 3265,
-							["id"] = 6603,
-							["sources"] = {
-								["Argent Monk"] = {
-									["amount"] = 10081,
-								},
-							},
-							["count"] = 3,
-							["hit"] = 3,
-							["school"] = 1,
-							["hitmax"] = 3533,
-							["amount"] = 10081,
-							["hitamount"] = 10081,
-						},
-						["Shadow Word: Pain (DoT)"] = {
-							["hitmin"] = 5051,
-							["id"] = 68088,
-							["hitmax"] = 6313,
-							["sources"] = {
-								["Argent Priestess"] = {
-									["amount"] = 29041,
-								},
-							},
-							["count"] = 5,
-							["hit"] = 5,
-							["school"] = 32,
-							["resisted"] = 2524,
-							["amount"] = 29041,
-							["hitamount"] = 29041,
-						},
-					},
-					["overkill"] = 391,
-					["heal"] = 398623,
-					["name"] = "Zbeguini",
-					["mana"] = 6888,
-					["overheal"] = 127460,
-					["totaldamage"] = 1993,
-					["role"] = "HEALER",
-				}, -- [3]
-				{
-					["last"] = 11341.071,
-					["flag"] = 1298,
-					["class"] = "DRUID",
-					["auras"] = {
-						[24932] = {
-							["type"] = "BUFF",
-							["count"] = 5,
-							["school"] = 1,
-							["uptime"] = 154,
-						},
-						[48470] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 158,
-						},
-						[61336] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["uptime"] = 20,
-						},
-						[48566] = {
-							["type"] = "DEBUFF",
-							["count"] = 6,
-							["school"] = 1,
-							["refresh"] = 3,
-							["targets"] = {
-								["Argent Monk"] = {
-									["uptime"] = 7,
-									["count"] = 3,
-								},
-								["Argent Lightwielder"] = {
-									["count"] = 2,
-									["refresh"] = 3,
-									["uptime"] = 19,
-								},
-							},
-							["uptime"] = 26,
-						},
-						[50334] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 1,
 							["uptime"] = 15,
 						},
-						[22812] = {
+						[52113] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 8,
-							["uptime"] = 12,
-						},
-						[50213] = {
-							["type"] = "BUFF",
-							["count"] = 3,
-							["school"] = 1,
-							["uptime"] = 18,
+							["uptime"] = 53,
 						},
 						[58646] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 158,
-						},
-						[69369] = {
-							["type"] = "BUFF",
-							["count"] = 7,
-							["school"] = 1,
-							["uptime"] = 50,
-						},
-						[48574] = {
-							["type"] = "DEBUFF",
-							["count"] = 9,
-							["school"] = 1,
-							["refresh"] = 11,
-							["targets"] = {
-								["Argent Monk"] = {
-									["uptime"] = 16,
-									["count"] = 3,
-								},
-								["Argent Lightwielder"] = {
-									["count"] = 2,
-									["refresh"] = 4,
-									["uptime"] = 17,
-								},
-								["Eadric the Pure"] = {
-									["count"] = 2,
-									["refresh"] = 6,
-									["uptime"] = 35,
-								},
-								["Argent Priestess"] = {
-									["count"] = 2,
-									["refresh"] = 1,
-									["uptime"] = 21,
-								},
-							},
-							["uptime"] = 83,
-						},
-						[48420] = {
-							["type"] = "BUFF",
-							["count"] = 3,
-							["school"] = 8,
-							["uptime"] = 149,
-						},
-						[52113] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 158,
-						},
-						[52610] = {
-							["type"] = "BUFF",
-							["count"] = 3,
-							["school"] = 1,
 							["uptime"] = 53,
 						},
-						[16237] = {
-							["type"] = "BUFF",
-							["count"] = 4,
-							["school"] = 2,
-							["refresh"] = 5,
-							["uptime"] = 80,
-						},
-						[47436] = {
+						[2895] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 157,
+							["uptime"] = 53,
 						},
-						[71403] = {
+						[24932] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 1,
+							["uptime"] = 53,
+						},
+						[48470] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 53,
+						},
+						[72418] = {
+							["school"] = 64,
+							["type"] = "BUFF",
+							["count"] = 1,
 							["uptime"] = 10,
 						},
-						[50259] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["targets"] = {
-								["Argent Lightwielder"] = {
-									["uptime"] = 3,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 3,
-						},
-						[48447] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 8,
-							["refresh"] = 1,
-							["uptime"] = 5,
-						},
-						[16870] = {
-							["type"] = "BUFF",
-							["count"] = 7,
-							["school"] = 8,
-							["uptime"] = 24,
-						},
-						[28878] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 158,
-						},
-						[768] = {
-							["type"] = "BUFF",
-							["count"] = 3,
-							["school"] = 1,
-							["uptime"] = 149,
-						},
-						[52000] = {
-							["type"] = "BUFF",
-							["count"] = 2,
-							["school"] = 8,
-							["refresh"] = 3,
-							["uptime"] = 43,
-						},
-						[61301] = {
-							["type"] = "BUFF",
-							["count"] = 3,
-							["school"] = 8,
-							["uptime"] = 36,
-						},
-						[57623] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 48,
-						},
-						[16857] = {
-							["type"] = "DEBUFF",
-							["count"] = 3,
-							["school"] = 8,
-							["refresh"] = 1,
-							["targets"] = {
-								["Argent Priestess"] = {
-									["uptime"] = 27,
-									["count"] = 1,
-								},
-								["Argent Lightwielder"] = {
-									["uptime"] = 9,
-									["count"] = 1,
-								},
-								["Eadric the Pure"] = {
-									["count"] = 1,
-									["refresh"] = 1,
-									["uptime"] = 10,
-								},
-							},
-							["uptime"] = 46,
-						},
 					},
-					["energyspells"] = {
-						[51178] = 180,
-						[17099] = 160,
-					},
-					["time"] = 128.48,
-					["resspells"] = {
-						[48477] = {
-							["count"] = 1,
-							["targets"] = {
-								["Torreznos"] = 1,
-							},
-						},
-					},
+					["class"] = "SHAMAN",
+					["heal"] = 194358,
 					["manaspells"] = {
-						[68285] = 10489,
+						[57961] = 3444,
 					},
-					["totaldamagetaken"] = 80966,
-					["overkill"] = 273,
-					["damage"] = 203095,
-					["damagespells"] = {
-						["Melee"] = {
-							["glance"] = 4810,
-							["hitmin"] = 409,
-							["criticalmin"] = 880,
-							["IMMUNE"] = 3,
-							["targets"] = {
-								["Argent Monk"] = {
-									["amount"] = 14602,
-								},
-								["Argent Lightwielder"] = {
-									["amount"] = 17574,
-								},
-								["Eadric the Pure"] = {
-									["overkill"] = 273,
-									["amount"] = 13060,
-								},
-								["Argent Priestess"] = {
-									["amount"] = 9676,
-								},
-							},
-							["glancing"] = 11,
-							["amount"] = 54912,
-							["glancemin"] = 331,
-							["criticalamount"] = 30559,
-							["id"] = 6603,
-							["glancemax"] = 611,
-							["overkill"] = 273,
-							["blocked"] = 40,
-							["criticalmax"] = 1504,
-							["hitmax"] = 696,
-							["hit"] = 38,
-							["school"] = 1,
-							["critical"] = 29,
-							["count"] = 81,
-							["hitamount"] = 19543,
-						},
-						["Rake (DoT)"] = {
-							["hitmin"] = 1076,
-							["id"] = 48574,
-							["targets"] = {
-								["Argent Monk"] = {
-									["amount"] = 6553,
-								},
-								["Argent Lightwielder"] = {
-									["amount"] = 9403,
-								},
-								["Eadric the Pure"] = {
-									["amount"] = 11632,
-								},
-								["Argent Priestess"] = {
-									["amount"] = 8964,
-								},
-							},
-							["casts"] = 2,
-							["count"] = 24,
-							["hit"] = 24,
-							["school"] = 1,
-							["hitmax"] = 2013,
-							["amount"] = 36552,
-							["hitamount"] = 36552,
-						},
-						["Ferocious Bite"] = {
-							["hitmin"] = 2345,
-							["criticalamount"] = 40629,
-							["id"] = 48577,
-							["hitmax"] = 3013,
-							["targets"] = {
-								["Argent Monk"] = {
-									["amount"] = 4144,
-								},
-								["Argent Lightwielder"] = {
-									["amount"] = 17505,
-								},
-								["Eadric the Pure"] = {
-									["amount"] = 24338,
-								},
-							},
-							["count"] = 10,
-							["hit"] = 2,
-							["casts"] = 10,
-							["critical"] = 8,
-							["amount"] = 45987,
-							["school"] = 1,
-							["criticalmin"] = 3531,
-							["criticalmax"] = 7990,
-							["hitamount"] = 5358,
-						},
-						["Mangle (Cat)"] = {
-							["hitmin"] = 1524,
-							["criticalamount"] = 20153,
-							["id"] = 48566,
-							["hitmax"] = 2345,
-							["targets"] = {
-								["Argent Monk"] = {
-									["amount"] = 9952,
-								},
-								["Argent Lightwielder"] = {
-									["amount"] = 13593,
-								},
-								["Eadric the Pure"] = {
-									["amount"] = 4008,
-								},
-							},
-							["count"] = 9,
-							["hit"] = 4,
-							["casts"] = 9,
-							["critical"] = 5,
-							["amount"] = 27553,
-							["school"] = 1,
-							["criticalmin"] = 3214,
-							["criticalmax"] = 4741,
-							["hitamount"] = 7400,
-						},
-						["Shred"] = {
-							["hitmin"] = 2422,
-							["criticalamount"] = 21005,
-							["id"] = 48572,
-							["hitmax"] = 2422,
-							["targets"] = {
-								["Argent Priestess"] = {
-									["amount"] = 7796,
-								},
-								["Eadric the Pure"] = {
-									["amount"] = 15631,
-								},
-							},
-							["count"] = 5,
-							["hit"] = 1,
-							["casts"] = 5,
-							["critical"] = 4,
-							["amount"] = 23427,
-							["school"] = 1,
-							["criticalmin"] = 4846,
-							["criticalmax"] = 5871,
-							["hitamount"] = 2422,
-						},
-						["Rake"] = {
-							["hitmax"] = 598,
-							["hitmin"] = 333,
-							["criticalamount"] = 8624,
-							["id"] = 48574,
-							["IMMUNE"] = 1,
-							["targets"] = {
-								["Argent Monk"] = {
-									["amount"] = 2914,
-								},
-								["Argent Lightwielder"] = {
-									["amount"] = 5163,
-								},
-								["Eadric the Pure"] = {
-									["amount"] = 4822,
-								},
-								["Argent Priestess"] = {
-									["amount"] = 1765,
-								},
-							},
-							["count"] = 22,
-							["hit"] = 13,
-							["casts"] = 22,
-							["critical"] = 8,
-							["amount"] = 14664,
-							["school"] = 1,
-							["criticalmin"] = 972,
-							["criticalmax"] = 1344,
-							["hitamount"] = 6040,
-						},
-					},
-					["ress"] = 1,
-					["damagetaken"] = 80966,
-					["id"] = "0x070000000095AC38",
-					["spec"] = 103,
-					["healspells"] = {
-						[34299] = {
-							["overheal"] = 9842,
-							["max"] = 1086,
-							["count"] = 17,
-							["amount"] = 4855,
-							["school"] = 1,
-							["min"] = 429,
-							["ishot"] = true,
-							["targets"] = {
-								["Anusalro"] = {
-									["overheal"] = 9842,
-									["amount"] = 4855,
-								},
-							},
-						},
-						[48445] = {
-							["overheal"] = 3596,
-							["count"] = 8,
-							["amount"] = 22128,
-							["school"] = 8,
-							["max"] = 3255,
-							["targets"] = {
-								["Moonsoonx"] = {
-									["overheal"] = 2844,
-									["amount"] = 3664,
-								},
-								["Anusalro"] = {
-									["overheal"] = 0,
-									["amount"] = 6198,
-								},
-								["Torreznos"] = {
-									["overheal"] = 752,
-									["amount"] = 5758,
-								},
-								["Rimgar"] = {
-									["overheal"] = 0,
-									["amount"] = 6508,
-								},
-							},
-							["min"] = 410,
-						},
-					},
-					["damagetakenspells"] = {
-						["Radiance"] = {
-							["hitmin"] = 1769,
-							["id"] = 67681,
-							["sources"] = {
-								["Eadric the Pure"] = {
-									["amount"] = 8145,
-								},
-							},
-							["count"] = 3,
-							["hit"] = 3,
-							["school"] = 2,
-							["hitmax"] = 4181,
-							["amount"] = 8145,
-							["hitamount"] = 8145,
-						},
-						["Hammer of the Righteous"] = {
-							["hitmin"] = 8000,
-							["id"] = 67680,
-							["sources"] = {
-								["Eadric the Pure"] = {
-									["amount"] = 8000,
-								},
-							},
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 2,
-							["hitmax"] = 8000,
-							["amount"] = 8000,
-							["hitamount"] = 8000,
-						},
-						["Cleave"] = {
-							["hitmin"] = 4187,
-							["id"] = 68868,
-							["sources"] = {
-								["Argent Lightwielder"] = {
-									["amount"] = 8931,
-								},
-							},
-							["count"] = 2,
-							["hit"] = 2,
-							["school"] = 1,
-							["hitmax"] = 4744,
-							["amount"] = 8931,
-							["hitamount"] = 8931,
-						},
-						["Shadow Word: Pain (DoT)"] = {
-							["hitmin"] = 4119,
-							["id"] = 68088,
-							["hitmax"] = 5883,
-							["sources"] = {
-								["Argent Priestess"] = {
-									["amount"] = 25299,
-								},
-							},
-							["count"] = 5,
-							["hit"] = 5,
-							["school"] = 32,
-							["resisted"] = 4116,
-							["amount"] = 25299,
-							["hitamount"] = 25299,
-						},
-						["Blazing Light"] = {
-							["hitmin"] = 3967,
-							["id"] = 67291,
-							["sources"] = {
-								["Argent Lightwielder"] = {
-									["amount"] = 30591,
-								},
-							},
-							["count"] = 7,
-							["hit"] = 7,
-							["school"] = 2,
-							["hitmax"] = 5674,
-							["amount"] = 30591,
-							["hitamount"] = 30591,
-						},
-					},
-					["overheal"] = 13438,
-					["heal"] = 26983,
-					["name"] = "Anusalro",
-					["mana"] = 10489,
-					["totaldamage"] = 203095,
-					["energy"] = 340,
-					["role"] = "DAMAGER",
-				}, -- [4]
+					["id"] = "0x070000000096874A",
+					["time"] = 42.52,
+					["mana"] = 3444,
+					["name"] = "Zbeguini",
+					["role"] = "HEALER",
+				}, -- [3]
 				{
-					["last"] = 11339.969,
+					["last"] = 11146.719,
 					["flag"] = 1298,
 					["class"] = "DEATHKNIGHT",
 					["auras"] = {
-						[55078] = {
-							["type"] = "DEBUFF",
-							["count"] = 4,
-							["school"] = 32,
-							["refresh"] = 7,
-							["targets"] = {
-								["Argent Priestess"] = {
-									["count"] = 1,
-									["refresh"] = 1,
-									["uptime"] = 10,
-								},
-								["Argent Lightwielder"] = {
-									["count"] = 1,
-									["refresh"] = 1,
-									["uptime"] = 8,
-								},
-								["Eadric the Pure"] = {
-									["count"] = 1,
-									["refresh"] = 4,
-									["uptime"] = 56,
-								},
-								["Argent Monk"] = {
-									["count"] = 1,
-									["refresh"] = 1,
-									["uptime"] = 7,
-								},
-							},
-							["uptime"] = 68,
-						},
-						[51735] = {
-							["type"] = "DEBUFF",
-							["count"] = 5,
-							["school"] = 32,
-							["refresh"] = 14,
-							["targets"] = {
-								["Argent Monk"] = {
-									["count"] = 1,
-									["refresh"] = 2,
-									["uptime"] = 7,
-								},
-								["Argent Lightwielder"] = {
-									["count"] = 2,
-									["refresh"] = 1,
-									["uptime"] = 9,
-								},
-								["Eadric the Pure"] = {
-									["count"] = 1,
-									["refresh"] = 9,
-									["uptime"] = 57,
-								},
-								["Argent Priestess"] = {
-									["count"] = 1,
-									["refresh"] = 2,
-									["uptime"] = 10,
-								},
-							},
-							["uptime"] = 70,
-						},
-						[61301] = {
+						[24932] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 8,
-							["uptime"] = 15,
+							["uptime"] = 53,
 						},
-						[50536] = {
-							["type"] = "DEBUFF",
-							["count"] = 3,
-							["school"] = 32,
-							["refresh"] = 2,
-							["targets"] = {
-								["Eadric the Pure"] = {
-									["count"] = 3,
-									["refresh"] = 2,
-									["uptime"] = 39,
-								},
-							},
-							["uptime"] = 39,
-						},
-						[67383] = {
+						[48470] = {
 							["type"] = "BUFF",
-							["count"] = 2,
-							["school"] = 8,
-							["uptime"] = 40,
-						},
-						[49938] = {
-							["type"] = "DEBUFF",
-							["count"] = 2,
-							["school"] = 32,
-							["targets"] = {
-								["Eadric the Pure"] = {
-									["uptime"] = 20,
-									["count"] = 2,
-								},
-							},
-							["uptime"] = 20,
-						},
-						[55095] = {
-							["type"] = "DEBUFF",
-							["count"] = 4,
-							["school"] = 16,
-							["refresh"] = 5,
-							["targets"] = {
-								["Argent Monk"] = {
-									["uptime"] = 4,
-									["count"] = 1,
-								},
-								["Argent Lightwielder"] = {
-									["uptime"] = 1,
-									["count"] = 1,
-								},
-								["Eadric the Pure"] = {
-									["count"] = 1,
-									["refresh"] = 5,
-									["uptime"] = 57,
-								},
-								["Argent Priestess"] = {
-									["uptime"] = 1,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 63,
+							["count"] = 1,
+							["uptime"] = 53,
 						},
 						[58578] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["school"] = 1,
-							["refresh"] = 8,
-							["uptime"] = 78,
+							["refresh"] = 10,
+							["uptime"] = 35,
 						},
-						[67117] = {
-							["type"] = "BUFF",
-							["count"] = 1,
+						[71403] = {
 							["school"] = 1,
-							["uptime"] = 15,
-						},
-						[66803] = {
 							["type"] = "BUFF",
 							["count"] = 1,
+							["uptime"] = 10,
+						},
+						[55078] = {
+							["type"] = "DEBUFF",
+							["count"] = 3,
 							["school"] = 32,
-							["uptime"] = 20,
+							["refresh"] = 5,
+							["targets"] = {
+								["Runok Wildmane"] = {
+									["refresh"] = 1,
+									["count"] = 1,
+									["uptime"] = 3,
+								},
+								["Zul'tore"] = {
+									["refresh"] = 3,
+									["count"] = 1,
+									["uptime"] = 22,
+								},
+								["Deathstalker Visceri"] = {
+									["refresh"] = 1,
+									["count"] = 1,
+									["uptime"] = 9,
+								},
+							},
+							["uptime"] = 24,
 						},
-						[24932] = {
+						[58646] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 1,
-							["uptime"] = 81,
+							["uptime"] = 53,
 						},
-						[48447] = {
-							["type"] = "BUFF",
-							["count"] = 1,
+						[67383] = {
 							["school"] = 8,
-							["refresh"] = 1,
-							["uptime"] = 5,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 9,
+						},
+						[72221] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 53,
+						},
+						[49938] = {
+							["type"] = "DEBUFF",
+							["count"] = 3,
+							["school"] = 32,
+							["targets"] = {
+								["Runok Wildmane"] = {
+									["uptime"] = 10,
+									["count"] = 1,
+								},
+								["Zul'tore"] = {
+									["uptime"] = 10,
+									["count"] = 1,
+								},
+								["Deathstalker Visceri"] = {
+									["uptime"] = 10,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 10,
+						},
+						[48266] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 53,
+						},
+						[52113] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 53,
+						},
+						[28878] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 53,
 						},
 						[16237] = {
 							["type"] = "BUFF",
-							["count"] = 2,
+							["count"] = 1,
 							["school"] = 2,
-							["uptime"] = 30,
+							["refresh"] = 2,
+							["uptime"] = 20,
+						},
+						[50536] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 32,
+							["refresh"] = 1,
+							["targets"] = {
+								["Zul'tore"] = {
+									["refresh"] = 1,
+									["count"] = 1,
+									["uptime"] = 9,
+								},
+							},
+							["uptime"] = 9,
+						},
+						[55095] = {
+							["type"] = "DEBUFF",
+							["count"] = 3,
+							["school"] = 16,
+							["refresh"] = 10,
+							["targets"] = {
+								["Runok Wildmane"] = {
+									["refresh"] = 3,
+									["count"] = 1,
+									["uptime"] = 13,
+								},
+								["Zul'tore"] = {
+									["refresh"] = 5,
+									["count"] = 1,
+									["uptime"] = 29,
+								},
+								["Deathstalker Visceri"] = {
+									["refresh"] = 2,
+									["count"] = 1,
+									["uptime"] = 16,
+								},
+							},
+							["uptime"] = 34,
+						},
+						[49206] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 32,
+							["targets"] = {
+								["Runok Wildmane"] = {
+									["uptime"] = 5,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 5,
+						},
+						[2895] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 53,
+						},
+						[32182] = {
+							["school"] = 8,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 40,
+						},
+						[57623] = {
+							["school"] = 1,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 36,
+						},
+						[51735] = {
+							["type"] = "DEBUFF",
+							["count"] = 3,
+							["school"] = 32,
+							["refresh"] = 12,
+							["targets"] = {
+								["Runok Wildmane"] = {
+									["refresh"] = 4,
+									["count"] = 1,
+									["uptime"] = 13,
+								},
+								["Zul'tore"] = {
+									["refresh"] = 6,
+									["count"] = 1,
+									["uptime"] = 29,
+								},
+								["Deathstalker Visceri"] = {
+									["refresh"] = 2,
+									["count"] = 1,
+									["uptime"] = 15,
+								},
+							},
+							["uptime"] = 34,
+						},
+						[49222] = {
+							["school"] = 8,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 38,
 						},
 					},
-					["time"] = 75.99000000000004,
-					["totaldamagetaken"] = 8875,
-					["damage"] = 121095,
-					["overheal"] = 7297,
-					["damagetaken"] = 8875,
+					["totaldamage"] = 120262,
+					["time"] = 40.86999999999998,
+					["totaldamagetaken"] = 28449,
+					["damage"] = 120262,
+					["overheal"] = 1680,
+					["damagetaken"] = 28449,
 					["id"] = "0x0700000000951145",
 					["spec"] = 252,
 					["healspells"] = {
 						[50475] = {
-							["overheal"] = 2457,
+							["overheal"] = 486,
+							["school"] = 1,
+							["count"] = 28,
+							["amount"] = 1586,
+							["max"] = 199,
+							["ishot"] = true,
 							["targets"] = {
 								["Torreznos"] = {
-									["overheal"] = 2457,
-									["amount"] = 394,
+									["overheal"] = 486,
+									["amount"] = 1586,
 								},
 							},
-							["count"] = 67,
-							["amount"] = 394,
-							["school"] = 1,
-							["max"] = 91,
-							["ishot"] = true,
-							["min"] = 35,
+							["min"] = 49,
 						},
 						[34299] = {
-							["overheal"] = 4840,
+							["overheal"] = 1194,
+							["max"] = 1159,
+							["count"] = 4,
+							["amount"] = 3440,
+							["school"] = 1,
 							["targets"] = {
 								["Torreznos"] = {
-									["overheal"] = 4840,
-									["amount"] = 968,
+									["overheal"] = 1194,
+									["amount"] = 3440,
 								},
 							},
-							["count"] = 6,
-							["amount"] = 968,
-							["school"] = 1,
-							["max"] = 968,
 							["ishot"] = true,
-							["min"] = 968,
+							["min"] = 1123,
 						},
 					},
 					["damagetakenspells"] = {
-						["Blazing Light"] = {
-							["hitmin"] = 5802,
-							["id"] = 67291,
+						["Poison Bottle (DoT)"] = {
+							["hitmin"] = 980,
+							["id"] = 68316,
+							["hitmax"] = 1260,
 							["sources"] = {
-								["Argent Lightwielder"] = {
-									["amount"] = 5802,
+								["Deathstalker Visceri"] = {
+									["amount"] = 17220,
 								},
 							},
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 2,
-							["hitmax"] = 5802,
-							["amount"] = 5802,
-							["hitamount"] = 5802,
+							["count"] = 15,
+							["hit"] = 15,
+							["school"] = 8,
+							["resisted"] = 3780,
+							["amount"] = 17220,
+							["hitamount"] = 17220,
 						},
-						["Radiance"] = {
-							["hitmin"] = 3073,
-							["id"] = 67681,
+						["Chain Lightning"] = {
+							["hitmin"] = 4294,
+							["id"] = 68319,
+							["hitmax"] = 4294,
 							["sources"] = {
-								["Eadric the Pure"] = {
-									["amount"] = 3073,
+								["Runok Wildmane"] = {
+									["amount"] = 4294,
 								},
 							},
 							["count"] = 1,
 							["hit"] = 1,
-							["school"] = 2,
-							["hitmax"] = 3073,
-							["amount"] = 3073,
-							["hitamount"] = 3073,
+							["school"] = 8,
+							["resisted"] = 1839,
+							["amount"] = 4294,
+							["hitamount"] = 4294,
+						},
+						["Fan of Knives"] = {
+							["hitmin"] = 3294,
+							["id"] = 67706,
+							["sources"] = {
+								["Deathstalker Visceri"] = {
+									["amount"] = 6935,
+								},
+							},
+							["count"] = 2,
+							["hit"] = 2,
+							["school"] = 1,
+							["hitmax"] = 3641,
+							["amount"] = 6935,
+							["hitamount"] = 6935,
 						},
 					},
-					["heal"] = 1362,
+					["heal"] = 5026,
 					["name"] = "Torreznos",
 					["damagespells"] = {
 						["Scourge Strike"] = {
-							["hitmin"] = 1543,
+							["hitmin"] = 1850,
 							["id"] = 55271,
 							["targets"] = {
-								["Eadric the Pure"] = {
-									["amount"] = 5120,
+								["Runok Wildmane"] = {
+									["amount"] = 1874,
+								},
+								["Zul'tore"] = {
+									["amount"] = 3780,
 								},
 							},
 							["casts"] = 3,
 							["count"] = 3,
 							["hit"] = 3,
 							["school"] = 1,
-							["hitmax"] = 1894,
-							["amount"] = 5120,
-							["hitamount"] = 5120,
+							["hitmax"] = 1930,
+							["amount"] = 5654,
+							["hitamount"] = 5654,
 						},
 						["Melee"] = {
-							["DODGE"] = 1,
-							["glance"] = 4041,
-							["hitmin"] = 1028,
-							["criticalmin"] = 2152,
+							["glance"] = 5519,
+							["hitmin"] = 1412,
+							["criticalmin"] = 2674,
 							["targets"] = {
-								["Argent Monk"] = {
-									["amount"] = 2086,
+								["Runok Wildmane"] = {
+									["amount"] = 14251,
 								},
-								["Argent Lightwielder"] = {
-									["amount"] = 1194,
+								["Zul'tore"] = {
+									["amount"] = 12546,
 								},
-								["Eadric the Pure"] = {
-									["amount"] = 27136,
-								},
-								["Argent Priestess"] = {
-									["amount"] = 1195,
+								["Deathstalker Visceri"] = {
+									["amount"] = 1360,
 								},
 							},
 							["glancing"] = 4,
-							["amount"] = 31611,
-							["glancemin"] = 903,
-							["criticalamount"] = 15582,
+							["amount"] = 28157,
+							["glancemin"] = 1312,
+							["criticalamount"] = 18120,
 							["id"] = 6603,
-							["glancemax"] = 1128,
-							["criticalmax"] = 3044,
-							["hitmax"] = 1416,
-							["hit"] = 10,
+							["glancemax"] = 1523,
+							["criticalmax"] = 3382,
+							["count"] = 13,
+							["hit"] = 3,
 							["school"] = 1,
+							["hitmax"] = 1651,
 							["critical"] = 6,
-							["count"] = 21,
-							["hitamount"] = 11988,
+							["hitamount"] = 4518,
 						},
 						["Death and Decay"] = {
-							["hitmax"] = 402,
-							["hitmin"] = 309,
-							["criticalamount"] = 805,
+							["hitmin"] = 333,
+							["criticalamount"] = 3576,
 							["id"] = 52212,
-							["criticalmin"] = 805,
+							["criticalmin"] = 680,
 							["targets"] = {
-								["Eadric the Pure"] = {
-									["amount"] = 8649,
+								["Runok Wildmane"] = {
+									["amount"] = 4717,
+								},
+								["Zul'tore"] = {
+									["amount"] = 4156,
+								},
+								["Deathstalker Visceri"] = {
+									["amount"] = 4540,
 								},
 							},
-							["criticalmax"] = 805,
-							["critical"] = 1,
-							["casts"] = 2,
-							["count"] = 22,
-							["hit"] = 21,
+							["casts"] = 1,
+							["count"] = 33,
+							["criticalmax"] = 768,
+							["hitmax"] = 385,
+							["amount"] = 13413,
 							["school"] = 32,
-							["resisted"] = 349,
-							["amount"] = 8649,
-							["hitamount"] = 7844,
+							["hit"] = 28,
+							["critical"] = 5,
+							["hitamount"] = 9837,
 						},
 						["Icy Touch"] = {
-							["hitmax"] = 1362,
-							["hitmin"] = 664,
-							["criticalamount"] = 2116,
+							["hitmin"] = 976,
 							["id"] = 49909,
-							["criticalmin"] = 2116,
 							["targets"] = {
-								["Argent Monk"] = {
-									["amount"] = 2116,
+								["Runok Wildmane"] = {
+									["amount"] = 2206,
 								},
-								["Argent Lightwielder"] = {
-									["amount"] = 832,
-								},
-								["Eadric the Pure"] = {
-									["amount"] = 5475,
-								},
-								["Argent Priestess"] = {
-									["amount"] = 1055,
+								["Zul'tore"] = {
+									["amount"] = 2482,
 								},
 							},
-							["criticalmax"] = 2116,
-							["critical"] = 1,
-							["casts"] = 8,
-							["count"] = 8,
-							["hit"] = 7,
+							["casts"] = 4,
+							["count"] = 4,
+							["hit"] = 4,
 							["school"] = 16,
-							["resisted"] = 292,
-							["amount"] = 9478,
-							["hitamount"] = 7362,
+							["hitmax"] = 1242,
+							["amount"] = 4688,
+							["hitamount"] = 4688,
 						},
 						["Unholy Blight (DoT)"] = {
-							["hitmin"] = 15,
+							["hitmin"] = 21,
 							["id"] = 50536,
 							["targets"] = {
-								["Eadric the Pure"] = {
-									["amount"] = 1083,
+								["Zul'tore"] = {
+									["amount"] = 307,
 								},
 							},
-							["hitmax"] = 40,
-							["count"] = 38,
-							["hit"] = 38,
+							["count"] = 7,
+							["hit"] = 7,
 							["school"] = 32,
-							["resisted"] = 69,
-							["amount"] = 1083,
-							["hitamount"] = 1083,
+							["hitmax"] = 61,
+							["amount"] = 307,
+							["hitamount"] = 307,
 						},
 						["Wandering Plague"] = {
-							["hitmin"] = 399,
+							["hitmin"] = 543,
 							["id"] = 50526,
 							["targets"] = {
-								["Argent Monk"] = {
-									["amount"] = 861,
+								["Runok Wildmane"] = {
+									["amount"] = 2088,
 								},
-								["Argent Lightwielder"] = {
-									["amount"] = 1289,
+								["Zul'tore"] = {
+									["amount"] = 3850,
 								},
-								["Eadric the Pure"] = {
-									["amount"] = 4084,
-								},
-								["Argent Priestess"] = {
-									["amount"] = 1289,
-								},
-							},
-							["hitmax"] = 632,
-							["casts"] = 1,
-							["count"] = 16,
-							["hit"] = 16,
-							["school"] = 32,
-							["resisted"] = 265,
-							["amount"] = 7523,
-							["hitamount"] = 7523,
-						},
-						["Blood Boil"] = {
-							["hitmin"] = 956,
-							["id"] = 49941,
-							["targets"] = {
-								["Eadric the Pure"] = {
-									["amount"] = 956,
+								["Deathstalker Visceri"] = {
+									["amount"] = 3253,
 								},
 							},
 							["casts"] = 1,
-							["count"] = 1,
-							["hit"] = 1,
+							["count"] = 14,
+							["hit"] = 14,
 							["school"] = 32,
-							["hitmax"] = 956,
-							["amount"] = 956,
-							["hitamount"] = 956,
-						},
-						["Blood Strike"] = {
-							["hitmin"] = 1146,
-							["id"] = 49930,
-							["targets"] = {
-								["Eadric the Pure"] = {
-									["amount"] = 1146,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 1,
-							["hitmax"] = 1146,
-							["amount"] = 1146,
-							["hitamount"] = 1146,
-						},
-						["Necrosis"] = {
-							["hitmin"] = 180,
-							["id"] = 51460,
-							["targets"] = {
-								["Argent Monk"] = {
-									["amount"] = 416,
-								},
-								["Argent Lightwielder"] = {
-									["amount"] = 238,
-								},
-								["Eadric the Pure"] = {
-									["amount"] = 5300,
-								},
-								["Argent Priestess"] = {
-									["amount"] = 239,
-								},
-							},
-							["hitmax"] = 608,
-							["casts"] = 1,
-							["count"] = 20,
-							["hit"] = 20,
-							["school"] = 32,
-							["resisted"] = 121,
-							["amount"] = 6193,
-							["hitamount"] = 6193,
-						},
-						["Blood Plague (DoT)"] = {
-							["hitmin"] = 416,
-							["id"] = 55078,
-							["targets"] = {
-								["Argent Priestess"] = {
-									["amount"] = 912,
-								},
-								["Argent Lightwielder"] = {
-									["amount"] = 911,
-								},
-								["Eadric the Pure"] = {
-									["amount"] = 8868,
-								},
-								["Argent Monk"] = {
-									["amount"] = 912,
-								},
-							},
-							["hitmax"] = 666,
-							["count"] = 22,
-							["hit"] = 22,
-							["school"] = 32,
-							["resisted"] = 401,
-							["amount"] = 11603,
-							["hitamount"] = 11603,
+							["hitmax"] = 702,
+							["amount"] = 9191,
+							["hitamount"] = 9191,
 						},
 						["Death Coil"] = {
-							["criticalmin"] = 4081,
-							["hitmin"] = 1837,
-							["criticalamount"] = 4081,
+							["hitmin"] = 2193,
+							["criticalamount"] = 4744,
 							["id"] = 47632,
-							["criticalmax"] = 4081,
+							["criticalmin"] = 4744,
 							["targets"] = {
-								["Eadric the Pure"] = {
-									["amount"] = 11904,
+								["Zul'tore"] = {
+									["amount"] = 6937,
+								},
+							},
+							["casts"] = 2,
+							["count"] = 2,
+							["criticalmax"] = 4744,
+							["hitmax"] = 2193,
+							["amount"] = 6937,
+							["school"] = 32,
+							["hit"] = 1,
+							["critical"] = 1,
+							["hitamount"] = 2193,
+						},
+						["Necrosis"] = {
+							["hitmin"] = 262,
+							["id"] = 51460,
+							["targets"] = {
+								["Runok Wildmane"] = {
+									["amount"] = 2848,
+								},
+								["Zul'tore"] = {
+									["amount"] = 2506,
+								},
+								["Deathstalker Visceri"] = {
+									["amount"] = 272,
+								},
+							},
+							["casts"] = 1,
+							["count"] = 13,
+							["hit"] = 13,
+							["school"] = 32,
+							["hitmax"] = 676,
+							["amount"] = 5626,
+							["hitamount"] = 5626,
+						},
+						["Blood Plague (DoT)"] = {
+							["hitmin"] = 574,
+							["id"] = 55078,
+							["targets"] = {
+								["Runok Wildmane"] = {
+									["amount"] = 574,
+								},
+								["Zul'tore"] = {
+									["amount"] = 3620,
+								},
+								["Deathstalker Visceri"] = {
+									["amount"] = 1207,
+								},
+							},
+							["count"] = 9,
+							["hit"] = 9,
+							["school"] = 32,
+							["hitmax"] = 632,
+							["amount"] = 5401,
+							["hitamount"] = 5401,
+						},
+						["Blood-Caked Strike"] = {
+							["hitmin"] = 773,
+							["id"] = 50463,
+							["targets"] = {
+								["Runok Wildmane"] = {
+									["amount"] = 862,
+								},
+								["Zul'tore"] = {
+									["amount"] = 1609,
+								},
+							},
+							["casts"] = 1,
+							["count"] = 3,
+							["hit"] = 3,
+							["school"] = 1,
+							["hitmax"] = 862,
+							["amount"] = 2471,
+							["hitamount"] = 2471,
+						},
+						["Gargoyle Strike (Ebon Gargoyle)"] = {
+							["hitmin"] = 1539,
+							["id"] = 51963,
+							["targets"] = {
+								["Runok Wildmane"] = {
+									["amount"] = 3143,
+								},
+								["Zul'tore"] = {
+									["amount"] = 12529,
+								},
+								["Deathstalker Visceri"] = {
+									["amount"] = 6181,
+								},
+							},
+							["casts"] = 1,
+							["count"] = 14,
+							["hit"] = 14,
+							["school"] = 8,
+							["hitmax"] = 1576,
+							["amount"] = 21853,
+							["hitamount"] = 21853,
+						},
+						["Plague Strike"] = {
+							["hitmin"] = 1157,
+							["criticalamount"] = 2794,
+							["id"] = 49921,
+							["criticalmin"] = 2794,
+							["targets"] = {
+								["Runok Wildmane"] = {
+									["amount"] = 2794,
+								},
+								["Zul'tore"] = {
+									["amount"] = 1157,
 								},
 							},
 							["critical"] = 1,
-							["hitmax"] = 2064,
-							["casts"] = 5,
-							["count"] = 5,
-							["hit"] = 4,
-							["school"] = 32,
-							["resisted"] = 433,
-							["amount"] = 11904,
-							["hitamount"] = 7823,
+							["amount"] = 3951,
+							["criticalmax"] = 2794,
+							["count"] = 2,
+							["hit"] = 1,
+							["school"] = 1,
+							["hitmax"] = 1157,
+							["casts"] = 2,
+							["hitamount"] = 1157,
+						},
+						["Frost Fever (DoT)"] = {
+							["hitmin"] = 675,
+							["id"] = 55095,
+							["targets"] = {
+								["Runok Wildmane"] = {
+									["amount"] = 2025,
+								},
+								["Zul'tore"] = {
+									["amount"] = 5156,
+								},
+								["Deathstalker Visceri"] = {
+									["amount"] = 2835,
+								},
+							},
+							["count"] = 14,
+							["hit"] = 14,
+							["school"] = 16,
+							["hitmax"] = 836,
+							["amount"] = 10016,
+							["hitamount"] = 10016,
 						},
 						["Scourge Strike (Shadow)"] = {
-							["hitmin"] = 784,
+							["hitmin"] = 645,
 							["id"] = 70890,
 							["targets"] = {
-								["Eadric the Pure"] = {
-									["amount"] = 2640,
+								["Runok Wildmane"] = {
+									["amount"] = 645,
+								},
+								["Zul'tore"] = {
+									["amount"] = 1952,
 								},
 							},
 							["casts"] = 1,
 							["count"] = 3,
 							["hit"] = 3,
 							["school"] = 32,
-							["hitmax"] = 1001,
-							["amount"] = 2640,
-							["hitamount"] = 2640,
-						},
-						["Plague Strike"] = {
-							["hitmin"] = 873,
-							["criticalamount"] = 4419,
-							["id"] = 49921,
-							["hitmax"] = 1142,
-							["targets"] = {
-								["Argent Monk"] = {
-									["amount"] = 2198,
-								},
-								["Eadric the Pure"] = {
-									["amount"] = 5352,
-								},
-							},
-							["count"] = 5,
-							["hit"] = 3,
-							["casts"] = 5,
-							["critical"] = 2,
-							["amount"] = 7550,
-							["school"] = 1,
-							["criticalmin"] = 2198,
-							["criticalmax"] = 2221,
-							["hitamount"] = 3131,
-						},
-						["Frost Fever (DoT)"] = {
-							["hitmin"] = 480,
-							["id"] = 55095,
-							["targets"] = {
-								["Argent Monk"] = {
-									["amount"] = 586,
-								},
-								["Eadric the Pure"] = {
-									["amount"] = 11261,
-								},
-							},
-							["hitmax"] = 851,
-							["count"] = 18,
-							["hit"] = 18,
-							["school"] = 16,
-							["resisted"] = 870,
-							["amount"] = 11847,
-							["hitamount"] = 11847,
-						},
-						["Blood-Caked Strike"] = {
-							["hitmin"] = 529,
-							["id"] = 50463,
-							["targets"] = {
-								["Eadric the Pure"] = {
-									["amount"] = 3263,
-								},
-								["Argent Lightwielder"] = {
-									["amount"] = 529,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 5,
-							["hit"] = 5,
-							["school"] = 1,
-							["hitmax"] = 883,
-							["amount"] = 3792,
-							["hitamount"] = 3792,
+							["hitmax"] = 997,
+							["amount"] = 2597,
+							["hitamount"] = 2597,
 						},
 					},
-					["totaldamage"] = 121095,
+					["role"] = "DAMAGER",
+				}, -- [4]
+				{
+					["last"] = 11145.959,
+					["flag"] = 1298,
+					["class"] = "DRUID",
+					["auras"] = {
+						[24932] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 53,
+						},
+						[48470] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 53,
+						},
+						[61336] = {
+							["school"] = 1,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 20,
+						},
+						[48566] = {
+							["type"] = "DEBUFF",
+							["count"] = 4,
+							["school"] = 1,
+							["refresh"] = 1,
+							["targets"] = {
+								["Runok Wildmane"] = {
+									["refresh"] = 1,
+									["count"] = 1,
+									["uptime"] = 1,
+								},
+								["Zul'tore"] = {
+									["uptime"] = 4,
+									["count"] = 2,
+								},
+								["Deathstalker Visceri"] = {
+									["uptime"] = 3,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 8,
+						},
+						[71403] = {
+							["school"] = 1,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 10,
+						},
+						[22812] = {
+							["school"] = 8,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 12,
+						},
+						[50213] = {
+							["school"] = 1,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 6,
+						},
+						[58646] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 53,
+						},
+						[69369] = {
+							["type"] = "BUFF",
+							["count"] = 4,
+							["school"] = 1,
+							["refresh"] = 1,
+							["uptime"] = 32,
+						},
+						[48574] = {
+							["type"] = "DEBUFF",
+							["count"] = 3,
+							["school"] = 1,
+							["refresh"] = 12,
+							["targets"] = {
+								["Runok Wildmane"] = {
+									["refresh"] = 5,
+									["count"] = 1,
+									["uptime"] = 24,
+								},
+								["Zul'tore"] = {
+									["refresh"] = 5,
+									["count"] = 1,
+									["uptime"] = 14,
+								},
+								["Deathstalker Visceri"] = {
+									["refresh"] = 2,
+									["count"] = 1,
+									["uptime"] = 9,
+								},
+							},
+							["uptime"] = 45,
+						},
+						[48420] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 53,
+						},
+						[52113] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 53,
+						},
+						[28878] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 53,
+						},
+						[16237] = {
+							["type"] = "BUFF",
+							["count"] = 3,
+							["school"] = 2,
+							["refresh"] = 2,
+							["uptime"] = 42,
+						},
+						[50334] = {
+							["school"] = 1,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 15,
+						},
+						[52610] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["refresh"] = 1,
+							["uptime"] = 31,
+						},
+						[32182] = {
+							["school"] = 8,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 40,
+						},
+						[53312] = {
+							["school"] = 8,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 37,
+						},
+						[16857] = {
+							["type"] = "DEBUFF",
+							["count"] = 2,
+							["school"] = 8,
+							["targets"] = {
+								["Runok Wildmane"] = {
+									["uptime"] = 19,
+									["count"] = 1,
+								},
+								["Deathstalker Visceri"] = {
+									["uptime"] = 3,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 22,
+						},
+						[768] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 53,
+						},
+						[16870] = {
+							["school"] = 8,
+							["type"] = "BUFF",
+							["count"] = 5,
+							["uptime"] = 6,
+						},
+						[52000] = {
+							["school"] = 8,
+							["type"] = "BUFF",
+							["count"] = 3,
+							["uptime"] = 25,
+						},
+						[61301] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 4,
+						},
+						[57623] = {
+							["school"] = 1,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 36,
+						},
+						[2895] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 53,
+						},
+					},
+					["energyspells"] = {
+						[51178] = 60,
+					},
+					["totaldamage"] = 108516,
+					["time"] = 50.50000000000001,
+					["totaldamagetaken"] = 44756,
+					["damage"] = 108516,
+					["damagespells"] = {
+						["Entangling Roots"] = {
+							["casts"] = 1,
+							["count"] = 1,
+							["amount"] = 0,
+							["school"] = 8,
+							["IMMUNE"] = 1,
+							["targets"] = {
+								["Deathstalker Visceri"] = {
+									["amount"] = 0,
+								},
+							},
+							["id"] = 53313,
+						},
+						["Rake"] = {
+							["hitmin"] = 449,
+							["criticalamount"] = 10360,
+							["id"] = 48574,
+							["criticalmin"] = 987,
+							["targets"] = {
+								["Runok Wildmane"] = {
+									["amount"] = 4994,
+								},
+								["Zul'tore"] = {
+									["amount"] = 5628,
+								},
+								["Deathstalker Visceri"] = {
+									["amount"] = 3172,
+								},
+							},
+							["critical"] = 9,
+							["amount"] = 13794,
+							["criticalmax"] = 1313,
+							["count"] = 15,
+							["hit"] = 6,
+							["school"] = 1,
+							["hitmax"] = 597,
+							["casts"] = 15,
+							["hitamount"] = 3434,
+						},
+						["Rake (DoT)"] = {
+							["hitmin"] = 1448,
+							["id"] = 48574,
+							["targets"] = {
+								["Runok Wildmane"] = {
+									["amount"] = 7721,
+								},
+								["Zul'tore"] = {
+									["amount"] = 1926,
+								},
+								["Deathstalker Visceri"] = {
+									["amount"] = 3779,
+								},
+							},
+							["count"] = 8,
+							["hit"] = 8,
+							["school"] = 1,
+							["hitmax"] = 1927,
+							["amount"] = 13426,
+							["hitamount"] = 13426,
+						},
+						["Ferocious Bite"] = {
+							["hitmin"] = 2726,
+							["criticalamount"] = 18596,
+							["id"] = 48577,
+							["criticalmin"] = 8014,
+							["targets"] = {
+								["Runok Wildmane"] = {
+									["amount"] = 10740,
+								},
+								["Zul'tore"] = {
+									["amount"] = 10582,
+								},
+							},
+							["critical"] = 2,
+							["amount"] = 21322,
+							["criticalmax"] = 10582,
+							["count"] = 3,
+							["hit"] = 1,
+							["school"] = 1,
+							["hitmax"] = 2726,
+							["casts"] = 3,
+							["hitamount"] = 2726,
+						},
+						["Mangle (Cat)"] = {
+							["hitmin"] = 1473,
+							["criticalamount"] = 7501,
+							["id"] = 48566,
+							["criticalmin"] = 3238,
+							["targets"] = {
+								["Runok Wildmane"] = {
+									["amount"] = 4711,
+								},
+								["Zul'tore"] = {
+									["amount"] = 3997,
+								},
+								["Deathstalker Visceri"] = {
+									["amount"] = 4263,
+								},
+							},
+							["critical"] = 2,
+							["amount"] = 12971,
+							["criticalmax"] = 4263,
+							["count"] = 5,
+							["hit"] = 3,
+							["school"] = 1,
+							["hitmax"] = 2041,
+							["casts"] = 5,
+							["hitamount"] = 5470,
+						},
+						["Melee"] = {
+							["glance"] = 3025,
+							["hitmin"] = 414,
+							["criticalmin"] = 904,
+							["targets"] = {
+								["Runok Wildmane"] = {
+									["amount"] = 23353,
+								},
+								["Zul'tore"] = {
+									["amount"] = 12473,
+								},
+								["Deathstalker Visceri"] = {
+									["amount"] = 11177,
+								},
+							},
+							["glancing"] = 6,
+							["amount"] = 47003,
+							["glancemin"] = 411,
+							["criticalamount"] = 30571,
+							["id"] = 6603,
+							["glancemax"] = 556,
+							["blocked"] = 120,
+							["criticalmax"] = 1502,
+							["critical"] = 26,
+							["hit"] = 25,
+							["school"] = 1,
+							["hitmax"] = 580,
+							["count"] = 57,
+							["hitamount"] = 13407,
+						},
+					},
+					["damagetaken"] = 44756,
+					["id"] = "0x070000000095AC38",
+					["spec"] = 103,
+					["healspells"] = {
+						[34299] = {
+							["overheal"] = 2106,
+							["school"] = 1,
+							["count"] = 7,
+							["amount"] = 4492,
+							["max"] = 1086,
+							["ishot"] = true,
+							["targets"] = {
+								["Anusalro"] = {
+									["overheal"] = 2106,
+									["amount"] = 4492,
+								},
+							},
+							["min"] = 399,
+						},
+					},
+					["damagetakenspells"] = {
+						["Shoot"] = {
+							["hitmin"] = 4568,
+							["id"] = 67988,
+							["amount"] = 20183,
+							["sources"] = {
+								["Zul'tore"] = {
+									["amount"] = 20183,
+								},
+							},
+							["count"] = 5,
+							["hit"] = 4,
+							["school"] = 1,
+							["hitmax"] = 6021,
+							["MISS"] = 1,
+							["hitamount"] = 20183,
+						},
+						["Fan of Knives"] = {
+							["hitmin"] = 4141,
+							["id"] = 67706,
+							["sources"] = {
+								["Deathstalker Visceri"] = {
+									["amount"] = 8963,
+								},
+							},
+							["count"] = 2,
+							["hit"] = 2,
+							["school"] = 1,
+							["hitmax"] = 4822,
+							["amount"] = 8963,
+							["hitamount"] = 8963,
+						},
+						["Poison Bottle (DoT)"] = {
+							["hitmin"] = 784,
+							["id"] = 68316,
+							["hitmax"] = 1103,
+							["sources"] = {
+								["Deathstalker Visceri"] = {
+									["amount"] = 8845,
+								},
+							},
+							["count"] = 10,
+							["hit"] = 10,
+							["school"] = 8,
+							["resisted"] = 1445,
+							["amount"] = 8845,
+							["hitamount"] = 8845,
+						},
+						["Multi-Shot"] = {
+							["hitmin"] = 3233,
+							["id"] = 66081,
+							["sources"] = {
+								["Zul'tore"] = {
+									["amount"] = 3233,
+								},
+							},
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 1,
+							["hitmax"] = 3233,
+							["amount"] = 3233,
+							["hitamount"] = 3233,
+						},
+						["Chain Lightning"] = {
+							["hitmin"] = 3532,
+							["id"] = 68319,
+							["hitmax"] = 3532,
+							["sources"] = {
+								["Runok Wildmane"] = {
+									["amount"] = 3532,
+								},
+							},
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 8,
+							["resisted"] = 882,
+							["amount"] = 3532,
+							["hitamount"] = 3532,
+						},
+					},
+					["heal"] = 4492,
+					["name"] = "Anusalro",
+					["overheal"] = 2106,
+					["manaspells"] = {
+						[68285] = 4319,
+					},
+					["mana"] = 4319,
+					["energy"] = 60,
 					["role"] = "DAMAGER",
 				}, -- [5]
 			},
-			["type"] = "party",
-			["damagetaken"] = 452074,
-			["interrupt"] = 2,
-			["ccdone"] = 5,
-			["rage"] = 750,
-			["overkill"] = 64668,
-			["edamagetaken"] = 2236730,
-			["heal"] = 468338,
-			["name"] = "Argent Lightwielder",
-			["mobname"] = "Argent Lightwielder",
-			["starttime"] = 1689110952,
-			["edamage"] = 452074,
-			["last_action"] = 1689111110,
-			["endtime"] = 1689111110,
-		}, -- [2]
-		{
-			["rage"] = 245,
-			["damage"] = 1024664,
 			["mana"] = 13099,
 			["etotaldamage"] = 232068,
 			["enemies"] = {
@@ -8138,14 +10800,14 @@ SkadaStorageDB = {
 							},
 							["amount"] = 574,
 						},
-						[55095] = {
-							["school"] = 16,
+						[51460] = {
+							["school"] = 32,
 							["sources"] = {
 								["Torreznos"] = {
-									["amount"] = 2025,
+									["amount"] = 2848,
 								},
 							},
-							["amount"] = 2025,
+							["amount"] = 2848,
 						},
 						[47486] = {
 							["school"] = 1,
@@ -8176,14 +10838,14 @@ SkadaStorageDB = {
 							["overkill"] = 1905,
 							["amount"] = 38264,
 						},
-						[48574] = {
+						[47520] = {
 							["school"] = 1,
 							["sources"] = {
-								["Anusalro"] = {
-									["amount"] = 12715,
+								["Rimgar"] = {
+									["amount"] = 45969,
 								},
 							},
-							["amount"] = 12715,
+							["amount"] = 45969,
 						},
 						[55271] = {
 							["school"] = 1,
@@ -8212,33 +10874,6 @@ SkadaStorageDB = {
 							},
 							["amount"] = 10740,
 						},
-						[60089] = {
-							["school"] = 8,
-							["sources"] = {
-								["Moonsoonx"] = {
-									["amount"] = 1094,
-								},
-							},
-							["amount"] = 1094,
-						},
-						[20647] = {
-							["school"] = 1,
-							["sources"] = {
-								["Rimgar"] = {
-									["amount"] = 9169,
-								},
-							},
-							["amount"] = 9169,
-						},
-						[51460] = {
-							["school"] = 32,
-							["sources"] = {
-								["Torreznos"] = {
-									["amount"] = 2848,
-								},
-							},
-							["amount"] = 2848,
-						},
 						[6603] = {
 							["school"] = 1,
 							["sources"] = {
@@ -8254,14 +10889,14 @@ SkadaStorageDB = {
 							},
 							["amount"] = 66431,
 						},
-						[49909] = {
-							["school"] = 16,
+						[20647] = {
+							["school"] = 1,
 							["sources"] = {
-								["Torreznos"] = {
-									["amount"] = 2206,
+								["Rimgar"] = {
+									["amount"] = 9169,
 								},
 							},
-							["amount"] = 2206,
+							["amount"] = 9169,
 						},
 						[70890] = {
 							["school"] = 32,
@@ -8272,6 +10907,33 @@ SkadaStorageDB = {
 							},
 							["amount"] = 645,
 						},
+						[47465] = {
+							["school"] = 1,
+							["sources"] = {
+								["Rimgar"] = {
+									["amount"] = 9230,
+								},
+							},
+							["amount"] = 9230,
+						},
+						[55095] = {
+							["school"] = 16,
+							["sources"] = {
+								["Torreznos"] = {
+									["amount"] = 2025,
+								},
+							},
+							["amount"] = 2025,
+						},
+						[60089] = {
+							["school"] = 8,
+							["sources"] = {
+								["Moonsoonx"] = {
+									["amount"] = 1094,
+								},
+							},
+							["amount"] = 1094,
+						},
 						[51963] = {
 							["school"] = 8,
 							["sources"] = {
@@ -8281,14 +10943,14 @@ SkadaStorageDB = {
 							},
 							["amount"] = 3143,
 						},
-						[52212] = {
+						[71904] = {
 							["school"] = 32,
 							["sources"] = {
-								["Torreznos"] = {
-									["amount"] = 4717,
+								["Rimgar"] = {
+									["amount"] = 665,
 								},
 							},
-							["amount"] = 4717,
+							["amount"] = 665,
 						},
 						[50526] = {
 							["school"] = 32,
@@ -8326,14 +10988,14 @@ SkadaStorageDB = {
 							},
 							["amount"] = 387,
 						},
-						[71904] = {
+						[52212] = {
 							["school"] = 32,
 							["sources"] = {
-								["Rimgar"] = {
-									["amount"] = 665,
+								["Torreznos"] = {
+									["amount"] = 4717,
 								},
 							},
-							["amount"] = 665,
+							["amount"] = 4717,
 						},
 						[12721] = {
 							["school"] = 1,
@@ -8344,27 +11006,27 @@ SkadaStorageDB = {
 							},
 							["amount"] = 35096,
 						},
-						[47520] = {
-							["school"] = 1,
+						[49909] = {
+							["school"] = 16,
 							["sources"] = {
-								["Rimgar"] = {
-									["amount"] = 45969,
+								["Torreznos"] = {
+									["amount"] = 2206,
 								},
 							},
-							["amount"] = 45969,
+							["amount"] = 2206,
 						},
-						[47465] = {
+						[48574] = {
 							["school"] = 1,
 							["sources"] = {
-								["Rimgar"] = {
-									["amount"] = 9230,
+								["Anusalro"] = {
+									["amount"] = 12715,
 								},
 							},
-							["amount"] = 9230,
+							["amount"] = 12715,
 						},
 					},
-					["name"] = "Runok Wildmane",
 					["totaldamage"] = 27885,
+					["name"] = "Runok Wildmane",
 					["totaldamagetaken"] = 372464,
 					["id"] = "0xF130008AF3000092",
 					["damage"] = 25265,
@@ -8585,16 +11247,14 @@ SkadaStorageDB = {
 							},
 							["amount"] = 6181,
 						},
-						[71904] = {
+						[52212] = {
 							["school"] = 32,
 							["sources"] = {
-								["Rimgar"] = {
-									["overkill"] = 230,
-									["amount"] = 1903,
+								["Torreznos"] = {
+									["amount"] = 4540,
 								},
 							},
-							["overkill"] = 230,
-							["amount"] = 1903,
+							["amount"] = 4540,
 						},
 						[48574] = {
 							["school"] = 1,
@@ -8650,14 +11310,16 @@ SkadaStorageDB = {
 							},
 							["amount"] = 38568,
 						},
-						[52212] = {
+						[71904] = {
 							["school"] = 32,
 							["sources"] = {
-								["Torreznos"] = {
-									["amount"] = 4540,
+								["Rimgar"] = {
+									["overkill"] = 230,
+									["amount"] = 1903,
 								},
 							},
-							["amount"] = 4540,
+							["overkill"] = 230,
+							["amount"] = 1903,
 						},
 						[48564] = {
 							["school"] = 1,
@@ -8669,8 +11331,8 @@ SkadaStorageDB = {
 							["amount"] = 3364,
 						},
 					},
-					["name"] = "Deathstalker Visceri",
 					["totaldamage"] = 161998,
+					["name"] = "Deathstalker Visceri",
 					["totaldamagetaken"] = 326482,
 					["id"] = "0xF130008B21000088",
 					["damage"] = 159019,
@@ -8868,6 +11530,15 @@ SkadaStorageDB = {
 							},
 							["amount"] = 10582,
 						},
+						[51460] = {
+							["school"] = 32,
+							["sources"] = {
+								["Torreznos"] = {
+									["amount"] = 2506,
+								},
+							},
+							["amount"] = 2506,
+						},
 						[70890] = {
 							["school"] = 32,
 							["sources"] = {
@@ -8876,15 +11547,6 @@ SkadaStorageDB = {
 								},
 							},
 							["amount"] = 1952,
-						},
-						[48562] = {
-							["school"] = 1,
-							["sources"] = {
-								["Moonsoonx"] = {
-									["amount"] = 9853,
-								},
-							},
-							["amount"] = 9853,
 						},
 						[52212] = {
 							["school"] = 32,
@@ -8904,14 +11566,14 @@ SkadaStorageDB = {
 							},
 							["amount"] = 2263,
 						},
-						[51460] = {
-							["school"] = 32,
+						[48562] = {
+							["school"] = 1,
 							["sources"] = {
-								["Torreznos"] = {
-									["amount"] = 2506,
+								["Moonsoonx"] = {
+									["amount"] = 9853,
 								},
 							},
-							["amount"] = 2506,
+							["amount"] = 9853,
 						},
 						[48564] = {
 							["school"] = 1,
@@ -8940,14 +11602,23 @@ SkadaStorageDB = {
 							},
 							["amount"] = 10691,
 						},
-						[34428] = {
+						[6603] = {
 							["school"] = 1,
 							["sources"] = {
+								["Moonsoonx"] = {
+									["amount"] = 6785,
+								},
+								["Anusalro"] = {
+									["amount"] = 12473,
+								},
+								["Torreznos"] = {
+									["amount"] = 12546,
+								},
 								["Rimgar"] = {
-									["amount"] = 3791,
+									["amount"] = 25466,
 								},
 							},
-							["amount"] = 3791,
+							["amount"] = 57270,
 						},
 						[50526] = {
 							["school"] = 32,
@@ -9012,23 +11683,14 @@ SkadaStorageDB = {
 							},
 							["amount"] = 9910,
 						},
-						[6603] = {
-							["school"] = 1,
+						[49909] = {
+							["school"] = 16,
 							["sources"] = {
-								["Moonsoonx"] = {
-									["amount"] = 6785,
-								},
-								["Anusalro"] = {
-									["amount"] = 12473,
-								},
 								["Torreznos"] = {
-									["amount"] = 12546,
-								},
-								["Rimgar"] = {
-									["amount"] = 25466,
+									["amount"] = 2482,
 								},
 							},
-							["amount"] = 57270,
+							["amount"] = 2482,
 						},
 						[21179] = {
 							["school"] = 8,
@@ -9039,14 +11701,14 @@ SkadaStorageDB = {
 							},
 							["amount"] = 377,
 						},
-						[49909] = {
-							["school"] = 16,
+						[34428] = {
+							["school"] = 1,
 							["sources"] = {
-								["Torreznos"] = {
-									["amount"] = 2482,
+								["Rimgar"] = {
+									["amount"] = 3791,
 								},
 							},
-							["amount"] = 2482,
+							["amount"] = 3791,
 						},
 						[48480] = {
 							["school"] = 1,
@@ -9060,8 +11722,8 @@ SkadaStorageDB = {
 							["amount"] = 39898,
 						},
 					},
-					["name"] = "Zul'tore",
 					["totaldamage"] = 42185,
+					["name"] = "Zul'tore",
 					["totaldamagetaken"] = 325718,
 					["id"] = "0xF130008AF200008D",
 					["damage"] = 34587,
@@ -9070,2685 +11732,23 @@ SkadaStorageDB = {
 			["energy"] = 60,
 			["totaldamage"] = 1024664,
 			["time"] = 53,
-			["ccdone"] = 2,
+			["damage"] = 1024664,
 			["totaldamagetaken"] = 232068,
 			["etotaldamagetaken"] = 1024664,
 			["last_time"] = 11147.761,
-			["players"] = {
-				{
-					["ccdonespells"] = {
-						[7922] = {
-							["count"] = 1,
-							["targets"] = {
-								["Deathstalker Visceri"] = 1,
-							},
-						},
-					},
-					["last"] = 11146.338,
-					["flag"] = 1297,
-					["class"] = "WARRIOR",
-					["auras"] = {
-						[72221] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 53,
-						},
-						[52437] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["refresh"] = 2,
-							["uptime"] = 25,
-						},
-						[60503] = {
-							["type"] = "BUFF",
-							["count"] = 6,
-							["school"] = 1,
-							["uptime"] = 16,
-						},
-						[52000] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 8,
-							["uptime"] = 12,
-						},
-						[70855] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 8,
-							["uptime"] = 10,
-						},
-						[12328] = {
-							["type"] = "BUFF",
-							["count"] = 2,
-							["school"] = 1,
-							["uptime"] = 22,
-						},
-						[28878] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 53,
-						},
-						[16237] = {
-							["type"] = "BUFF",
-							["count"] = 2,
-							["school"] = 2,
-							["refresh"] = 3,
-							["uptime"] = 36,
-						},
-						[47486] = {
-							["type"] = "DEBUFF",
-							["count"] = 3,
-							["school"] = 1,
-							["refresh"] = 3,
-							["targets"] = {
-								["Runok Wildmane"] = {
-									["count"] = 1,
-									["refresh"] = 2,
-									["uptime"] = 18,
-								},
-								["Zul'tore"] = {
-									["count"] = 1,
-									["refresh"] = 1,
-									["uptime"] = 8,
-								},
-								["Deathstalker Visceri"] = {
-									["uptime"] = 3,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 29,
-						},
-						[71541] = {
-							["type"] = "BUFF",
-							["count"] = 2,
-							["school"] = 64,
-							["uptime"] = 19,
-						},
-						[2895] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 53,
-						},
-						[47502] = {
-							["type"] = "DEBUFF",
-							["count"] = 3,
-							["school"] = 1,
-							["targets"] = {
-								["Runok Wildmane"] = {
-									["uptime"] = 1,
-									["count"] = 1,
-								},
-								["Zul'tore"] = {
-									["uptime"] = 6,
-									["count"] = 1,
-								},
-								["Deathstalker Visceri"] = {
-									["uptime"] = 6,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 6,
-						},
-						[61301] = {
-							["type"] = "BUFF",
-							["count"] = 3,
-							["school"] = 8,
-							["refresh"] = 1,
-							["uptime"] = 16,
-						},
-						[57399] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 53,
-						},
-						[52113] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 53,
-						},
-						[65156] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["uptime"] = 10,
-						},
-						[49284] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 8,
-							["uptime"] = 17,
-						},
-						[72412] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["uptime"] = 10,
-						},
-						[59620] = {
-							["type"] = "BUFF",
-							["count"] = 3,
-							["school"] = 2,
-							["refresh"] = 1,
-							["uptime"] = 37,
-						},
-						[24932] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 53,
-						},
-						[47465] = {
-							["type"] = "DEBUFF",
-							["count"] = 3,
-							["school"] = 1,
-							["targets"] = {
-								["Runok Wildmane"] = {
-									["uptime"] = 20,
-									["count"] = 1,
-								},
-								["Zul'tore"] = {
-									["uptime"] = 12,
-									["count"] = 1,
-								},
-								["Deathstalker Visceri"] = {
-									["uptime"] = 5,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 37,
-						},
-						[12721] = {
-							["type"] = "DEBUFF",
-							["count"] = 6,
-							["school"] = 1,
-							["refresh"] = 30,
-							["targets"] = {
-								["Runok Wildmane"] = {
-									["count"] = 1,
-									["refresh"] = 11,
-									["uptime"] = 26,
-								},
-								["Zul'tore"] = {
-									["count"] = 3,
-									["refresh"] = 7,
-									["uptime"] = 25,
-								},
-								["Deathstalker Visceri"] = {
-									["count"] = 2,
-									["refresh"] = 12,
-									["uptime"] = 30,
-								},
-							},
-							["uptime"] = 41,
-						},
-						[32182] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 8,
-							["uptime"] = 40,
-						},
-						[7922] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["targets"] = {
-								["Deathstalker Visceri"] = {
-									["uptime"] = 2,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 2,
-						},
-						[46857] = {
-							["type"] = "DEBUFF",
-							["count"] = 8,
-							["school"] = 1,
-							["refresh"] = 27,
-							["targets"] = {
-								["Runok Wildmane"] = {
-									["count"] = 1,
-									["refresh"] = 12,
-									["uptime"] = 26,
-								},
-								["Zul'tore"] = {
-									["count"] = 4,
-									["refresh"] = 5,
-									["uptime"] = 35,
-								},
-								["Deathstalker Visceri"] = {
-									["count"] = 3,
-									["refresh"] = 10,
-									["uptime"] = 32,
-								},
-							},
-							["uptime"] = 43,
-						},
-						[71905] = {
-							["type"] = "BUFF",
-							["count"] = 4,
-							["school"] = 1,
-							["refresh"] = 18,
-							["uptime"] = 24,
-						},
-						[46924] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["uptime"] = 6,
-						},
-						[58646] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 53,
-						},
-						[57522] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["refresh"] = 25,
-							["uptime"] = 49,
-						},
-						[64850] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["targets"] = {
-								["Zul'tore"] = {
-									["uptime"] = 6,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 6,
-						},
-						[48470] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 53,
-						},
-						[57623] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["uptime"] = 36,
-						},
-						[16491] = {
-							["type"] = "BUFF",
-							["count"] = 2,
-							["school"] = 1,
-							["refresh"] = 1,
-							["uptime"] = 17,
-						},
-						[75456] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 64,
-							["uptime"] = 15,
-						},
-						[73422] = {
-							["type"] = "BUFF",
-							["count"] = 2,
-							["school"] = 1,
-							["uptime"] = 20,
-						},
-					},
-					["time"] = 51.08999999999996,
-					["totaldamagetaken"] = 123980,
-					["damage"] = 603644,
-					["overheal"] = 1742,
-					["overkill"] = 230,
-					["damagetaken"] = 123980,
-					["id"] = "0x070000000040A064",
-					["spec"] = 71,
-					["healspells"] = {
-						[34299] = {
-							["overheal"] = 1394,
-							["max"] = 1394,
-							["count"] = 7,
-							["amount"] = 8360,
-							["school"] = 1,
-							["min"] = 1393,
-							["ishot"] = true,
-							["targets"] = {
-								["Rimgar"] = {
-									["overheal"] = 1394,
-									["amount"] = 8360,
-								},
-							},
-						},
-						[16491] = {
-							["overheal"] = 348,
-							["targets"] = {
-								["Rimgar"] = {
-									["overheal"] = 348,
-									["amount"] = 5232,
-								},
-							},
-							["count"] = 16,
-							["amount"] = 5232,
-							["school"] = 1,
-							["max"] = 360,
-							["ishot"] = true,
-							["min"] = 348,
-						},
-					},
-					["damagetakenspells"] = {
-						["Eviscerate"] = {
-							["DODGE"] = 2,
-							["hitmin"] = 5792,
-							["id"] = 68317,
-							["sources"] = {
-								["Deathstalker Visceri"] = {
-									["amount"] = 21336,
-								},
-							},
-							["count"] = 5,
-							["hit"] = 3,
-							["school"] = 1,
-							["hitmax"] = 8101,
-							["amount"] = 21336,
-							["hitamount"] = 21336,
-						},
-						["Fan of Knives"] = {
-							["hitmin"] = 3999,
-							["id"] = 67706,
-							["sources"] = {
-								["Deathstalker Visceri"] = {
-									["amount"] = 12867,
-								},
-							},
-							["count"] = 3,
-							["hit"] = 3,
-							["school"] = 1,
-							["hitmax"] = 4519,
-							["amount"] = 12867,
-							["hitamount"] = 12867,
-						},
-						["Poison Bottle (DoT)"] = {
-							["hitmin"] = 1400,
-							["id"] = 68316,
-							["hitmax"] = 1750,
-							["sources"] = {
-								["Deathstalker Visceri"] = {
-									["amount"] = 4725,
-								},
-							},
-							["count"] = 3,
-							["hit"] = 3,
-							["school"] = 8,
-							["resisted"] = 525,
-							["amount"] = 4725,
-							["hitamount"] = 4725,
-						},
-						["Multi-Shot"] = {
-							["hitmin"] = 3847,
-							["id"] = 66081,
-							["sources"] = {
-								["Zul'tore"] = {
-									["amount"] = 3847,
-								},
-							},
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 1,
-							["hitmax"] = 3847,
-							["amount"] = 3847,
-							["hitamount"] = 3847,
-						},
-						["Melee"] = {
-							["DODGE"] = 4,
-							["hitmin"] = 1596,
-							["criticalmin"] = 4522,
-							["sources"] = {
-								["Runok Wildmane"] = {
-									["amount"] = 11993,
-								},
-								["Deathstalker Visceri"] = {
-									["amount"] = 69212,
-								},
-							},
-							["amount"] = 81205,
-							["MISS"] = 9,
-							["criticalamount"] = 22228,
-							["id"] = 6603,
-							["blocked"] = 1201,
-							["hitmax"] = 4723,
-							["criticalmax"] = 9024,
-							["critical"] = 3,
-							["hit"] = 18,
-							["school"] = 1,
-							["count"] = 37,
-							["PARRY"] = 3,
-							["hitamount"] = 58977,
-						},
-					},
-					["totaldamage"] = 603644,
-					["heal"] = 13592,
-					["name"] = "Rimgar",
-					["ccdone"] = 1,
-					["interrupt"] = 2,
-					["damagespells"] = {
-						["Melee"] = {
-							["hitmin"] = 3997,
-							["criticalamount"] = 60273,
-							["id"] = 6603,
-							["targets"] = {
-								["Runok Wildmane"] = {
-									["amount"] = 28827,
-								},
-								["Zul'tore"] = {
-									["amount"] = 25466,
-								},
-								["Deathstalker Visceri"] = {
-									["amount"] = 14233,
-								},
-							},
-							["hitmax"] = 4256,
-							["count"] = 9,
-							["criticalmax"] = 10077,
-							["critical"] = 7,
-							["amount"] = 68526,
-							["school"] = 1,
-							["hit"] = 2,
-							["criticalmin"] = 5980,
-							["hitamount"] = 8253,
-						},
-						["Cleave"] = {
-							["hitmin"] = 4311,
-							["criticalamount"] = 84134,
-							["id"] = 47520,
-							["criticalmin"] = 9898,
-							["targets"] = {
-								["Runok Wildmane"] = {
-									["amount"] = 45969,
-								},
-								["Deathstalker Visceri"] = {
-									["amount"] = 60854,
-								},
-							},
-							["criticalmax"] = 11284,
-							["critical"] = 8,
-							["casts"] = 7,
-							["count"] = 13,
-							["hit"] = 5,
-							["school"] = 1,
-							["hitmax"] = 4769,
-							["amount"] = 106823,
-							["hitamount"] = 22689,
-						},
-						["Execute"] = {
-							["hitmin"] = 4179,
-							["id"] = 20647,
-							["targets"] = {
-								["Runok Wildmane"] = {
-									["amount"] = 9169,
-								},
-								["Deathstalker Visceri"] = {
-									["amount"] = 4179,
-								},
-							},
-							["blocked"] = 40,
-							["casts"] = 1,
-							["count"] = 3,
-							["hit"] = 3,
-							["school"] = 1,
-							["hitmax"] = 4784,
-							["amount"] = 13348,
-							["hitamount"] = 13348,
-						},
-						["Whirlwind"] = {
-							["criticalmin"] = 7300,
-							["hitmin"] = 3422,
-							["criticalamount"] = 101982,
-							["id"] = 50622,
-							["criticalmax"] = 10425,
-							["targets"] = {
-								["Runok Wildmane"] = {
-									["amount"] = 42604,
-								},
-								["Zul'tore"] = {
-									["amount"] = 35550,
-								},
-								["Deathstalker Visceri"] = {
-									["amount"] = 53848,
-								},
-							},
-							["critical"] = 11,
-							["blocked"] = 40,
-							["casts"] = 1,
-							["count"] = 19,
-							["hit"] = 8,
-							["school"] = 1,
-							["hitmax"] = 4207,
-							["amount"] = 132002,
-							["hitamount"] = 30020,
-						},
-						["Chaos Bane"] = {
-							["hitmin"] = 665,
-							["id"] = 71904,
-							["targets"] = {
-								["Runok Wildmane"] = {
-									["amount"] = 665,
-								},
-								["Zul'tore"] = {
-									["amount"] = 1880,
-								},
-								["Deathstalker Visceri"] = {
-									["overkill"] = 230,
-									["amount"] = 1903,
-								},
-							},
-							["overkill"] = 230,
-							["casts"] = 1,
-							["count"] = 5,
-							["hit"] = 5,
-							["school"] = 32,
-							["hitmax"] = 1237,
-							["amount"] = 4448,
-							["hitamount"] = 4448,
-						},
-						["Mortal Strike"] = {
-							["hitmin"] = 4601,
-							["criticalamount"] = 25300,
-							["id"] = 47486,
-							["hitmax"] = 5906,
-							["targets"] = {
-								["Runok Wildmane"] = {
-									["amount"] = 23496,
-								},
-								["Zul'tore"] = {
-									["amount"] = 9798,
-								},
-								["Deathstalker Visceri"] = {
-									["amount"] = 12854,
-								},
-							},
-							["count"] = 6,
-							["hit"] = 4,
-							["casts"] = 6,
-							["critical"] = 2,
-							["amount"] = 46148,
-							["school"] = 1,
-							["criticalmin"] = 12446,
-							["criticalmax"] = 12854,
-							["hitamount"] = 20848,
-						},
-						["Thunder Clap"] = {
-							["hitmin"] = 1642,
-							["criticalamount"] = 7177,
-							["id"] = 47502,
-							["criticalmin"] = 3518,
-							["targets"] = {
-								["Runok Wildmane"] = {
-									["amount"] = 1642,
-								},
-								["Zul'tore"] = {
-									["amount"] = 3518,
-								},
-								["Deathstalker Visceri"] = {
-									["amount"] = 3659,
-								},
-							},
-							["criticalmax"] = 3659,
-							["critical"] = 2,
-							["casts"] = 1,
-							["count"] = 3,
-							["hit"] = 1,
-							["school"] = 1,
-							["hitmax"] = 1642,
-							["amount"] = 8819,
-							["hitamount"] = 1642,
-						},
-						["Rend (DoT)"] = {
-							["hitmin"] = 1368,
-							["id"] = 47465,
-							["targets"] = {
-								["Runok Wildmane"] = {
-									["amount"] = 9230,
-								},
-								["Zul'tore"] = {
-									["amount"] = 4104,
-								},
-								["Deathstalker Visceri"] = {
-									["amount"] = 1473,
-								},
-							},
-							["casts"] = 3,
-							["count"] = 10,
-							["hit"] = 10,
-							["school"] = 1,
-							["hitmax"] = 1539,
-							["amount"] = 14807,
-							["hitamount"] = 14807,
-						},
-						["Victory Rush"] = {
-							["hitmin"] = 3791,
-							["id"] = 34428,
-							["targets"] = {
-								["Zul'tore"] = {
-									["amount"] = 3791,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 1,
-							["hitmax"] = 3791,
-							["amount"] = 3791,
-							["hitamount"] = 3791,
-						},
-						["Sweeping Strikes"] = {
-							["hitmin"] = 3474,
-							["id"] = 26654,
-							["targets"] = {
-								["Zul'tore"] = {
-									["amount"] = 16839,
-								},
-								["Deathstalker Visceri"] = {
-									["amount"] = 19715,
-								},
-							},
-							["casts"] = 2,
-							["count"] = 8,
-							["hit"] = 8,
-							["school"] = 1,
-							["hitmax"] = 9077,
-							["amount"] = 36554,
-							["hitamount"] = 36554,
-						},
-						["Overpower"] = {
-							["criticalamount"] = 66237,
-							["id"] = 7384,
-							["targets"] = {
-								["Runok Wildmane"] = {
-									["amount"] = 34933,
-								},
-								["Zul'tore"] = {
-									["amount"] = 21864,
-								},
-								["Deathstalker Visceri"] = {
-									["amount"] = 9440,
-								},
-							},
-							["casts"] = 6,
-							["critical"] = 6,
-							["amount"] = 66237,
-							["school"] = 1,
-							["criticalmin"] = 9440,
-							["criticalmax"] = 12169,
-							["count"] = 6,
-						},
-						["Deep Wounds (DoT)"] = {
-							["hitmin"] = 416,
-							["id"] = 12721,
-							["targets"] = {
-								["Runok Wildmane"] = {
-									["amount"] = 35096,
-								},
-								["Zul'tore"] = {
-									["amount"] = 18567,
-								},
-								["Deathstalker Visceri"] = {
-									["amount"] = 38568,
-								},
-							},
-							["count"] = 64,
-							["hit"] = 64,
-							["school"] = 1,
-							["hitmax"] = 2201,
-							["amount"] = 92231,
-							["hitamount"] = 92231,
-						},
-						["Heroic Strike"] = {
-							["criticalamount"] = 9910,
-							["id"] = 47450,
-							["targets"] = {
-								["Zul'tore"] = {
-									["amount"] = 9910,
-								},
-							},
-							["casts"] = 1,
-							["critical"] = 1,
-							["amount"] = 9910,
-							["school"] = 1,
-							["criticalmin"] = 9910,
-							["criticalmax"] = 9910,
-							["count"] = 1,
-						},
-					},
-					["interruptspells"] = {
-						[72] = {
-							["spells"] = {
-								[68318] = 2,
-							},
-							["count"] = 2,
-							["targets"] = {
-								["Runok Wildmane"] = 2,
-							},
-						},
-					},
-					["role"] = "DAMAGER",
-				}, -- [1]
-				{
-					["ccdonespells"] = {
-						[8983] = {
-							["count"] = 1,
-							["targets"] = {
-								["Runok Wildmane"] = 1,
-							},
-						},
-					},
-					["last"] = 11146.766,
-					["flag"] = 1298,
-					["class"] = "DRUID",
-					["auras"] = {
-						[24932] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 53,
-						},
-						[48470] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 53,
-						},
-						[53307] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 53,
-						},
-						[6795] = {
-							["type"] = "DEBUFF",
-							["count"] = 6,
-							["school"] = 1,
-							["targets"] = {
-								["Runok Wildmane"] = {
-									["uptime"] = 6,
-									["count"] = 2,
-								},
-								["Zul'tore"] = {
-									["uptime"] = 12,
-									["count"] = 4,
-								},
-							},
-							["uptime"] = 18,
-						},
-						[17619] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 53,
-						},
-						[58646] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 53,
-						},
-						[52000] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 8,
-							["refresh"] = 1,
-							["uptime"] = 17,
-						},
-						[72221] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 53,
-						},
-						[16857] = {
-							["type"] = "DEBUFF",
-							["count"] = 2,
-							["school"] = 8,
-							["refresh"] = 1,
-							["targets"] = {
-								["Runok Wildmane"] = {
-									["uptime"] = 2,
-									["count"] = 1,
-								},
-								["Zul'tore"] = {
-									["count"] = 1,
-									["refresh"] = 1,
-									["uptime"] = 15,
-								},
-							},
-							["uptime"] = 17,
-						},
-						[48568] = {
-							["type"] = "DEBUFF",
-							["count"] = 3,
-							["school"] = 1,
-							["refresh"] = 10,
-							["targets"] = {
-								["Runok Wildmane"] = {
-									["count"] = 1,
-									["refresh"] = 3,
-									["uptime"] = 14,
-								},
-								["Zul'tore"] = {
-									["count"] = 1,
-									["refresh"] = 7,
-									["uptime"] = 32,
-								},
-							},
-							["uptime"] = 35,
-						},
-						[57623] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["uptime"] = 36,
-						},
-						[71175] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 8,
-							["refresh"] = 13,
-							["uptime"] = 33,
-						},
-						[8983] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["targets"] = {
-								["Runok Wildmane"] = {
-									["uptime"] = 4,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 4,
-						},
-						[52113] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 53,
-						},
-						[28878] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 53,
-						},
-						[9634] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 53,
-						},
-						[48564] = {
-							["type"] = "DEBUFF",
-							["count"] = 4,
-							["school"] = 1,
-							["targets"] = {
-								["Zul'tore"] = {
-									["uptime"] = 5,
-									["count"] = 3,
-								},
-							},
-							["uptime"] = 5,
-						},
-						[62606] = {
-							["type"] = "BUFF",
-							["count"] = 10,
-							["school"] = 8,
-							["refresh"] = 20,
-							["uptime"] = 43,
-						},
-						[59620] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 2,
-							["uptime"] = 15,
-						},
-						[32182] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 8,
-							["uptime"] = 40,
-						},
-						[49284] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 36,
-						},
-						[16237] = {
-							["type"] = "BUFF",
-							["count"] = 2,
-							["school"] = 2,
-							["uptime"] = 26,
-						},
-						[2895] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 53,
-						},
-						[16870] = {
-							["type"] = "BUFF",
-							["count"] = 4,
-							["school"] = 8,
-							["uptime"] = 8,
-						},
-						[67016] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 53,
-						},
-						[61301] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 8,
-							["uptime"] = 5,
-						},
-						[48418] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 53,
-						},
-						[5229] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 8,
-						},
-					},
-					["role"] = "TANK",
-					["time"] = 51.85,
-					["overkill"] = 3645,
-					["totaldamagetaken"] = 34883,
-					["overheal"] = 13182,
-					["damage"] = 192242,
-					["rage"] = 245,
-					["damagespells"] = {
-						["Melee"] = {
-							["hitmin"] = 1065,
-							["criticalamount"] = 4598,
-							["id"] = 6603,
-							["targets"] = {
-								["Zul'tore"] = {
-									["amount"] = 6785,
-								},
-							},
-							["hitmax"] = 1122,
-							["count"] = 4,
-							["criticalmax"] = 2334,
-							["critical"] = 2,
-							["amount"] = 6785,
-							["school"] = 1,
-							["hit"] = 2,
-							["criticalmin"] = 2264,
-							["hitamount"] = 2187,
-						},
-						["Lacerate"] = {
-							["hitmin"] = 161,
-							["criticalamount"] = 1608,
-							["id"] = 48568,
-							["criticalmin"] = 312,
-							["targets"] = {
-								["Runok Wildmane"] = {
-									["amount"] = 986,
-								},
-								["Zul'tore"] = {
-									["amount"] = 1791,
-								},
-								["Deathstalker Visceri"] = {
-									["amount"] = 165,
-								},
-							},
-							["criticalmax"] = 330,
-							["critical"] = 5,
-							["casts"] = 13,
-							["count"] = 13,
-							["hit"] = 8,
-							["school"] = 1,
-							["hitmax"] = 170,
-							["amount"] = 2942,
-							["hitamount"] = 1334,
-						},
-						["Lacerate (DoT)"] = {
-							["hitmin"] = 205,
-							["criticalamount"] = 4836,
-							["id"] = 48568,
-							["targets"] = {
-								["Runok Wildmane"] = {
-									["amount"] = 2120,
-								},
-								["Zul'tore"] = {
-									["amount"] = 8900,
-								},
-							},
-							["criticalmin"] = 416,
-							["critical"] = 3,
-							["criticalmax"] = 2210,
-							["count"] = 14,
-							["hit"] = 11,
-							["school"] = 1,
-							["hitmax"] = 1105,
-							["amount"] = 11020,
-							["hitamount"] = 6184,
-						},
-						["Thorns"] = {
-							["hitmin"] = 79,
-							["id"] = 53307,
-							["targets"] = {
-								["Zul'tore"] = {
-									["amount"] = 256,
-								},
-								["Deathstalker Visceri"] = {
-									["amount"] = 79,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 4,
-							["hit"] = 4,
-							["school"] = 8,
-							["hitmax"] = 89,
-							["amount"] = 335,
-							["hitamount"] = 335,
-						},
-						["Faerie Fire (Feral)"] = {
-							["hitmin"] = 1094,
-							["id"] = 60089,
-							["targets"] = {
-								["Runok Wildmane"] = {
-									["amount"] = 1094,
-								},
-								["Zul'tore"] = {
-									["amount"] = 2263,
-								},
-							},
-							["casts"] = 3,
-							["count"] = 3,
-							["hit"] = 3,
-							["school"] = 8,
-							["hitmax"] = 1169,
-							["amount"] = 3357,
-							["hitamount"] = 3357,
-						},
-						["Maul"] = {
-							["blocked"] = 40,
-							["count"] = 31,
-							["hitmin"] = 1999,
-							["criticalamount"] = 83880,
-							["id"] = 48480,
-							["hitmax"] = 3187,
-							["targets"] = {
-								["Runok Wildmane"] = {
-									["overkill"] = 1905,
-									["amount"] = 38264,
-								},
-								["Zul'tore"] = {
-									["overkill"] = 1740,
-									["amount"] = 39898,
-								},
-								["Deathstalker Visceri"] = {
-									["amount"] = 50745,
-								},
-							},
-							["overkill"] = 3645,
-							["hit"] = 16,
-							["casts"] = 18,
-							["critical"] = 15,
-							["amount"] = 128907,
-							["school"] = 1,
-							["criticalmin"] = 3964,
-							["criticalmax"] = 6028,
-							["hitamount"] = 45027,
-						},
-						["Mangle (Bear)"] = {
-							["hitmin"] = 1631,
-							["criticalamount"] = 7024,
-							["id"] = 48564,
-							["hitmax"] = 1824,
-							["targets"] = {
-								["Zul'tore"] = {
-									["amount"] = 7115,
-								},
-								["Deathstalker Visceri"] = {
-									["amount"] = 3364,
-								},
-							},
-							["count"] = 4,
-							["hit"] = 2,
-							["casts"] = 4,
-							["critical"] = 2,
-							["amount"] = 10479,
-							["school"] = 1,
-							["criticalmin"] = 3364,
-							["criticalmax"] = 3660,
-							["hitamount"] = 3455,
-						},
-						["Chain Lightning"] = {
-							["hitmin"] = 88,
-							["criticalamount"] = 477,
-							["id"] = 21179,
-							["hitmax"] = 289,
-							["targets"] = {
-								["Runok Wildmane"] = {
-									["amount"] = 387,
-								},
-								["Zul'tore"] = {
-									["amount"] = 377,
-								},
-								["Deathstalker Visceri"] = {
-									["amount"] = 477,
-								},
-							},
-							["count"] = 6,
-							["hit"] = 4,
-							["casts"] = 1,
-							["critical"] = 2,
-							["amount"] = 1241,
-							["school"] = 8,
-							["criticalmin"] = 173,
-							["criticalmax"] = 304,
-							["hitamount"] = 764,
-						},
-						["Swipe (Bear)"] = {
-							["hitmin"] = 513,
-							["criticalamount"] = 17720,
-							["id"] = 48562,
-							["hitmax"] = 594,
-							["targets"] = {
-								["Runok Wildmane"] = {
-									["amount"] = 8436,
-								},
-								["Zul'tore"] = {
-									["amount"] = 9853,
-								},
-								["Deathstalker Visceri"] = {
-									["amount"] = 8887,
-								},
-							},
-							["count"] = 33,
-							["hit"] = 17,
-							["casts"] = 11,
-							["critical"] = 16,
-							["amount"] = 27176,
-							["school"] = 1,
-							["criticalmin"] = 1026,
-							["criticalmax"] = 1188,
-							["hitamount"] = 9456,
-						},
-					},
-					["damagetaken"] = 21686,
-					["id"] = "0x070000000086CEC0",
-					["spec"] = 103,
-					["healspells"] = {
-						[34299] = {
-							["overheal"] = 13182,
-							["targets"] = {
-								["Moonsoonx"] = {
-									["overheal"] = 13182,
-									["amount"] = 2019,
-								},
-							},
-							["count"] = 8,
-							["amount"] = 2019,
-							["school"] = 1,
-							["max"] = 1364,
-							["ishot"] = true,
-							["min"] = 655,
-						},
-					},
-					["damagetakenspells"] = {
-						["Shoot"] = {
-							["total"] = 4278,
-							["hitmin"] = 594,
-							["id"] = 3018,
-							["amount"] = 2833,
-							["sources"] = {
-								["Zul'tore"] = {
-									["total"] = 4278,
-									["amount"] = 2833,
-								},
-							},
-							["count"] = 3,
-							["hit"] = 2,
-							["school"] = 1,
-							["hitmax"] = 2239,
-							["MISS"] = 1,
-							["hitamount"] = 2833,
-						},
-						["Melee"] = {
-							["DODGE"] = 11,
-							["total"] = 12623,
-							["hitmin"] = 1048,
-							["id"] = 6603,
-							["ABSORB"] = 2,
-							["amount"] = 5295,
-							["sources"] = {
-								["Runok Wildmane"] = {
-									["total"] = 2620,
-									["amount"] = 0,
-								},
-								["Zul'tore"] = {
-									["total"] = 8569,
-									["amount"] = 3861,
-								},
-								["Deathstalker Visceri"] = {
-									["amount"] = 1434,
-								},
-							},
-							["count"] = 25,
-							["hit"] = 4,
-							["school"] = 1,
-							["hitmax"] = 1692,
-							["MISS"] = 8,
-							["hitamount"] = 5295,
-						},
-						["Multi-Shot"] = {
-							["total"] = 2075,
-							["hitmin"] = 630,
-							["id"] = 66081,
-							["sources"] = {
-								["Zul'tore"] = {
-									["total"] = 2075,
-									["amount"] = 630,
-								},
-							},
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 1,
-							["hitmax"] = 630,
-							["amount"] = 630,
-							["hitamount"] = 630,
-						},
-						["Poison Bottle (DoT)"] = {
-							["hitmin"] = 1078,
-							["id"] = 68316,
-							["hitmax"] = 1386,
-							["sources"] = {
-								["Deathstalker Visceri"] = {
-									["amount"] = 5082,
-								},
-							},
-							["count"] = 4,
-							["hit"] = 4,
-							["school"] = 8,
-							["resisted"] = 1078,
-							["amount"] = 5082,
-							["hitamount"] = 5082,
-						},
-						["Chain Lightning"] = {
-							["hitmin"] = 5446,
-							["id"] = 68319,
-							["hitmax"] = 5446,
-							["sources"] = {
-								["Runok Wildmane"] = {
-									["amount"] = 5446,
-								},
-							},
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 8,
-							["resisted"] = 1361,
-							["amount"] = 5446,
-							["hitamount"] = 5446,
-						},
-						["Fan of Knives"] = {
-							["total"] = 5379,
-							["hitmin"] = 1065,
-							["id"] = 67706,
-							["sources"] = {
-								["Deathstalker Visceri"] = {
-									["total"] = 5379,
-									["amount"] = 2400,
-								},
-							},
-							["count"] = 2,
-							["hit"] = 2,
-							["school"] = 1,
-							["hitmax"] = 1335,
-							["amount"] = 2400,
-							["hitamount"] = 2400,
-						},
-					},
-					["totaldamage"] = 192242,
-					["ragespells"] = {
-						[5229] = 9,
-						[59072] = 36,
-						[16959] = 200,
-					},
-					["name"] = "Moonsoonx",
-					["ccdone"] = 1,
-					["heal"] = 2019,
-					["manaspells"] = {
-						[68285] = 5336,
-					},
-					["mana"] = 5336,
-				}, -- [2]
-				{
-					["overheal"] = 76091,
-					["last"] = 11137.419,
-					["spec"] = 264,
-					["manaspells"] = {
-						[57961] = 3444,
-					},
-					["flag"] = 4370,
-					["class"] = "SHAMAN",
-					["healspells"] = {
-						[55459] = {
-							["overheal"] = 34703,
-							["criticalamount"] = 55233,
-							["max"] = 10918,
-							["targets"] = {
-								["Moonsoonx"] = {
-									["overheal"] = 18305,
-									["amount"] = 7957,
-								},
-								["Rimgar"] = {
-									["overheal"] = 3643,
-									["amount"] = 63467,
-								},
-								["Torreznos"] = {
-									["overheal"] = 2190,
-									["amount"] = 16405,
-								},
-								["Anusalro"] = {
-									["overheal"] = 10565,
-									["amount"] = 33712,
-								},
-							},
-							["criticalmin"] = 39,
-							["min"] = 39,
-							["criticalmax"] = 10918,
-							["count"] = 26,
-							["amount"] = 121541,
-							["school"] = 8,
-							["casts"] = 10,
-							["critical"] = 10,
-						},
-						[52752] = {
-							["overheal"] = 2783,
-							["count"] = 4,
-							["amount"] = 4059,
-							["school"] = 8,
-							["max"] = 2402,
-							["targets"] = {
-								["Rimgar"] = {
-									["overheal"] = 0,
-									["amount"] = 2402,
-								},
-								["Torreznos"] = {
-									["overheal"] = 2783,
-									["amount"] = 136,
-								},
-								["Anusalro"] = {
-									["overheal"] = 0,
-									["amount"] = 1521,
-								},
-							},
-							["min"] = 136,
-						},
-						[61301] = {
-							["overheal"] = 6680,
-							["criticalamount"] = 9505,
-							["max"] = 5119,
-							["targets"] = {
-								["Moonsoonx"] = {
-									["overheal"] = 4654,
-									["amount"] = 928,
-								},
-								["Anusalro"] = {
-									["overheal"] = 1704,
-									["amount"] = 0,
-								},
-								["Rimgar"] = {
-									["overheal"] = 322,
-									["amount"] = 18132,
-								},
-							},
-							["criticalmax"] = 5119,
-							["min"] = 928,
-							["casts"] = 6,
-							["count"] = 10,
-							["amount"] = 19060,
-							["school"] = 8,
-							["criticalmin"] = 0,
-							["critical"] = 3,
-						},
-						[52000] = {
-							["overheal"] = 3579,
-							["max"] = 787,
-							["count"] = 18,
-							["amount"] = 9641,
-							["school"] = 8,
-							["min"] = 696,
-							["ishot"] = true,
-							["targets"] = {
-								["Moonsoonx"] = {
-									["overheal"] = 2178,
-									["amount"] = 1462,
-								},
-								["Anusalro"] = {
-									["overheal"] = 1401,
-									["amount"] = 5031,
-								},
-								["Rimgar"] = {
-									["overheal"] = 0,
-									["amount"] = 3148,
-								},
-							},
-						},
-						[49276] = {
-							["overheal"] = 687,
-							["criticalamount"] = 7018,
-							["max"] = 7018,
-							["targets"] = {
-								["Torreznos"] = {
-									["overheal"] = 687,
-									["amount"] = 7018,
-								},
-								["Rimgar"] = {
-									["overheal"] = 0,
-									["amount"] = 19494,
-								},
-							},
-							["criticalmin"] = 7018,
-							["min"] = 4789,
-							["casts"] = 5,
-							["count"] = 5,
-							["amount"] = 26512,
-							["school"] = 8,
-							["criticalmax"] = 7018,
-							["critical"] = 1,
-						},
-						[379] = {
-							["overheal"] = 11593,
-							["criticalamount"] = 11450,
-							["max"] = 4282,
-							["targets"] = {
-								["Moonsoonx"] = {
-									["overheal"] = 9299,
-									["amount"] = 10684,
-								},
-								["Rimgar"] = {
-									["overheal"] = 2294,
-									["amount"] = 2458,
-								},
-							},
-							["min"] = 630,
-							["criticalmax"] = 4282,
-							["count"] = 6,
-							["amount"] = 13142,
-							["school"] = 8,
-							["criticalmin"] = 630,
-							["critical"] = 5,
-						},
-						[52042] = {
-							["overheal"] = 16066,
-							["targets"] = {
-								["Anusalro"] = {
-									["overheal"] = 779,
-									["amount"] = 0,
-								},
-								["Rimgar"] = {
-									["overheal"] = 817,
-									["amount"] = 0,
-								},
-								["Torreznos"] = {
-									["overheal"] = 2953,
-									["amount"] = 403,
-								},
-								["Zbeguini"] = {
-									["overheal"] = 11517,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 39,
-							["amount"] = 403,
-							["school"] = 8,
-							["max"] = 403,
-							["ishot"] = true,
-							["min"] = 403,
-						},
-					},
-					["auras"] = {
-						[72221] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 53,
-						},
-						[28878] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 53,
-						},
-						[32182] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 8,
-							["uptime"] = 40,
-						},
-						[71220] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["refresh"] = 5,
-							["uptime"] = 46,
-						},
-						[57623] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["uptime"] = 36,
-						},
-						[57960] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["refresh"] = 2,
-							["uptime"] = 53,
-						},
-						[72418] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 64,
-							["uptime"] = 10,
-						},
-						[60520] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["uptime"] = 15,
-						},
-						[52113] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 53,
-						},
-						[58646] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 53,
-						},
-						[2895] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 53,
-						},
-						[24932] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 53,
-						},
-						[53390] = {
-							["type"] = "BUFF",
-							["count"] = 2,
-							["refresh"] = 11,
-							["school"] = 1,
-							["uptime"] = 53,
-						},
-						[48470] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 53,
-						},
-					},
-					["id"] = "0x070000000096874A",
-					["time"] = 42.52,
-					["mana"] = 3444,
-					["role"] = "HEALER",
-					["name"] = "Zbeguini",
-					["heal"] = 194358,
-				}, -- [3]
-				{
-					["last"] = 11146.719,
-					["flag"] = 1298,
-					["class"] = "DEATHKNIGHT",
-					["auras"] = {
-						[24932] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 53,
-						},
-						[48470] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 53,
-						},
-						[58578] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["refresh"] = 10,
-							["uptime"] = 35,
-						},
-						[71403] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["uptime"] = 10,
-						},
-						[55078] = {
-							["type"] = "DEBUFF",
-							["count"] = 3,
-							["school"] = 32,
-							["refresh"] = 5,
-							["targets"] = {
-								["Runok Wildmane"] = {
-									["count"] = 1,
-									["refresh"] = 1,
-									["uptime"] = 3,
-								},
-								["Zul'tore"] = {
-									["count"] = 1,
-									["refresh"] = 3,
-									["uptime"] = 22,
-								},
-								["Deathstalker Visceri"] = {
-									["count"] = 1,
-									["refresh"] = 1,
-									["uptime"] = 9,
-								},
-							},
-							["uptime"] = 24,
-						},
-						[58646] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 53,
-						},
-						[67383] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 8,
-							["uptime"] = 9,
-						},
-						[72221] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 53,
-						},
-						[49938] = {
-							["type"] = "DEBUFF",
-							["count"] = 3,
-							["school"] = 32,
-							["targets"] = {
-								["Runok Wildmane"] = {
-									["uptime"] = 10,
-									["count"] = 1,
-								},
-								["Zul'tore"] = {
-									["uptime"] = 10,
-									["count"] = 1,
-								},
-								["Deathstalker Visceri"] = {
-									["uptime"] = 10,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 10,
-						},
-						[48266] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 53,
-						},
-						[52113] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 53,
-						},
-						[28878] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 53,
-						},
-						[16237] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 2,
-							["refresh"] = 2,
-							["uptime"] = 20,
-						},
-						[50536] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 32,
-							["refresh"] = 1,
-							["targets"] = {
-								["Zul'tore"] = {
-									["count"] = 1,
-									["refresh"] = 1,
-									["uptime"] = 9,
-								},
-							},
-							["uptime"] = 9,
-						},
-						[55095] = {
-							["type"] = "DEBUFF",
-							["count"] = 3,
-							["school"] = 16,
-							["refresh"] = 10,
-							["targets"] = {
-								["Runok Wildmane"] = {
-									["count"] = 1,
-									["refresh"] = 3,
-									["uptime"] = 13,
-								},
-								["Zul'tore"] = {
-									["count"] = 1,
-									["refresh"] = 5,
-									["uptime"] = 29,
-								},
-								["Deathstalker Visceri"] = {
-									["count"] = 1,
-									["refresh"] = 2,
-									["uptime"] = 16,
-								},
-							},
-							["uptime"] = 34,
-						},
-						[49206] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 32,
-							["targets"] = {
-								["Runok Wildmane"] = {
-									["uptime"] = 5,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 5,
-						},
-						[2895] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 53,
-						},
-						[32182] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 8,
-							["uptime"] = 40,
-						},
-						[57623] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["uptime"] = 36,
-						},
-						[51735] = {
-							["type"] = "DEBUFF",
-							["count"] = 3,
-							["school"] = 32,
-							["refresh"] = 12,
-							["targets"] = {
-								["Runok Wildmane"] = {
-									["count"] = 1,
-									["refresh"] = 4,
-									["uptime"] = 13,
-								},
-								["Zul'tore"] = {
-									["count"] = 1,
-									["refresh"] = 6,
-									["uptime"] = 29,
-								},
-								["Deathstalker Visceri"] = {
-									["count"] = 1,
-									["refresh"] = 2,
-									["uptime"] = 15,
-								},
-							},
-							["uptime"] = 34,
-						},
-						[49222] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 8,
-							["uptime"] = 38,
-						},
-					},
-					["time"] = 40.86999999999998,
-					["totaldamagetaken"] = 28449,
-					["damage"] = 120262,
-					["overheal"] = 1680,
-					["damagetaken"] = 28449,
-					["id"] = "0x0700000000951145",
-					["spec"] = 252,
-					["healspells"] = {
-						[50475] = {
-							["overheal"] = 486,
-							["max"] = 199,
-							["count"] = 28,
-							["amount"] = 1586,
-							["school"] = 1,
-							["min"] = 49,
-							["ishot"] = true,
-							["targets"] = {
-								["Torreznos"] = {
-									["overheal"] = 486,
-									["amount"] = 1586,
-								},
-							},
-						},
-						[34299] = {
-							["overheal"] = 1194,
-							["targets"] = {
-								["Torreznos"] = {
-									["overheal"] = 1194,
-									["amount"] = 3440,
-								},
-							},
-							["count"] = 4,
-							["amount"] = 3440,
-							["school"] = 1,
-							["max"] = 1159,
-							["ishot"] = true,
-							["min"] = 1123,
-						},
-					},
-					["damagetakenspells"] = {
-						["Poison Bottle (DoT)"] = {
-							["hitmin"] = 980,
-							["id"] = 68316,
-							["hitmax"] = 1260,
-							["sources"] = {
-								["Deathstalker Visceri"] = {
-									["amount"] = 17220,
-								},
-							},
-							["count"] = 15,
-							["hit"] = 15,
-							["school"] = 8,
-							["resisted"] = 3780,
-							["amount"] = 17220,
-							["hitamount"] = 17220,
-						},
-						["Chain Lightning"] = {
-							["hitmin"] = 4294,
-							["id"] = 68319,
-							["hitmax"] = 4294,
-							["sources"] = {
-								["Runok Wildmane"] = {
-									["amount"] = 4294,
-								},
-							},
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 8,
-							["resisted"] = 1839,
-							["amount"] = 4294,
-							["hitamount"] = 4294,
-						},
-						["Fan of Knives"] = {
-							["hitmin"] = 3294,
-							["id"] = 67706,
-							["sources"] = {
-								["Deathstalker Visceri"] = {
-									["amount"] = 6935,
-								},
-							},
-							["count"] = 2,
-							["hit"] = 2,
-							["school"] = 1,
-							["hitmax"] = 3641,
-							["amount"] = 6935,
-							["hitamount"] = 6935,
-						},
-					},
-					["heal"] = 5026,
-					["name"] = "Torreznos",
-					["damagespells"] = {
-						["Scourge Strike"] = {
-							["hitmin"] = 1850,
-							["id"] = 55271,
-							["targets"] = {
-								["Runok Wildmane"] = {
-									["amount"] = 1874,
-								},
-								["Zul'tore"] = {
-									["amount"] = 3780,
-								},
-							},
-							["casts"] = 3,
-							["count"] = 3,
-							["hit"] = 3,
-							["school"] = 1,
-							["hitmax"] = 1930,
-							["amount"] = 5654,
-							["hitamount"] = 5654,
-						},
-						["Melee"] = {
-							["glance"] = 5519,
-							["hitmin"] = 1412,
-							["criticalmin"] = 2674,
-							["targets"] = {
-								["Runok Wildmane"] = {
-									["amount"] = 14251,
-								},
-								["Zul'tore"] = {
-									["amount"] = 12546,
-								},
-								["Deathstalker Visceri"] = {
-									["amount"] = 1360,
-								},
-							},
-							["glancing"] = 4,
-							["amount"] = 28157,
-							["glancemin"] = 1312,
-							["criticalamount"] = 18120,
-							["id"] = 6603,
-							["glancemax"] = 1523,
-							["criticalmax"] = 3382,
-							["count"] = 13,
-							["hit"] = 3,
-							["school"] = 1,
-							["hitmax"] = 1651,
-							["critical"] = 6,
-							["hitamount"] = 4518,
-						},
-						["Death and Decay"] = {
-							["hitmin"] = 333,
-							["criticalamount"] = 3576,
-							["id"] = 52212,
-							["criticalmin"] = 680,
-							["targets"] = {
-								["Runok Wildmane"] = {
-									["amount"] = 4717,
-								},
-								["Zul'tore"] = {
-									["amount"] = 4156,
-								},
-								["Deathstalker Visceri"] = {
-									["amount"] = 4540,
-								},
-							},
-							["criticalmax"] = 768,
-							["critical"] = 5,
-							["casts"] = 1,
-							["count"] = 33,
-							["hit"] = 28,
-							["school"] = 32,
-							["hitmax"] = 385,
-							["amount"] = 13413,
-							["hitamount"] = 9837,
-						},
-						["Icy Touch"] = {
-							["hitmin"] = 976,
-							["id"] = 49909,
-							["targets"] = {
-								["Runok Wildmane"] = {
-									["amount"] = 2206,
-								},
-								["Zul'tore"] = {
-									["amount"] = 2482,
-								},
-							},
-							["casts"] = 4,
-							["count"] = 4,
-							["hit"] = 4,
-							["school"] = 16,
-							["hitmax"] = 1242,
-							["amount"] = 4688,
-							["hitamount"] = 4688,
-						},
-						["Unholy Blight (DoT)"] = {
-							["hitmin"] = 21,
-							["id"] = 50536,
-							["targets"] = {
-								["Zul'tore"] = {
-									["amount"] = 307,
-								},
-							},
-							["count"] = 7,
-							["hit"] = 7,
-							["school"] = 32,
-							["hitmax"] = 61,
-							["amount"] = 307,
-							["hitamount"] = 307,
-						},
-						["Wandering Plague"] = {
-							["hitmin"] = 543,
-							["id"] = 50526,
-							["targets"] = {
-								["Runok Wildmane"] = {
-									["amount"] = 2088,
-								},
-								["Zul'tore"] = {
-									["amount"] = 3850,
-								},
-								["Deathstalker Visceri"] = {
-									["amount"] = 3253,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 14,
-							["hit"] = 14,
-							["school"] = 32,
-							["hitmax"] = 702,
-							["amount"] = 9191,
-							["hitamount"] = 9191,
-						},
-						["Death Coil"] = {
-							["hitmin"] = 2193,
-							["criticalamount"] = 4744,
-							["id"] = 47632,
-							["criticalmin"] = 4744,
-							["targets"] = {
-								["Zul'tore"] = {
-									["amount"] = 6937,
-								},
-							},
-							["criticalmax"] = 4744,
-							["critical"] = 1,
-							["casts"] = 2,
-							["count"] = 2,
-							["hit"] = 1,
-							["school"] = 32,
-							["hitmax"] = 2193,
-							["amount"] = 6937,
-							["hitamount"] = 2193,
-						},
-						["Necrosis"] = {
-							["hitmin"] = 262,
-							["id"] = 51460,
-							["targets"] = {
-								["Runok Wildmane"] = {
-									["amount"] = 2848,
-								},
-								["Zul'tore"] = {
-									["amount"] = 2506,
-								},
-								["Deathstalker Visceri"] = {
-									["amount"] = 272,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 13,
-							["hit"] = 13,
-							["school"] = 32,
-							["hitmax"] = 676,
-							["amount"] = 5626,
-							["hitamount"] = 5626,
-						},
-						["Blood Plague (DoT)"] = {
-							["hitmin"] = 574,
-							["id"] = 55078,
-							["targets"] = {
-								["Runok Wildmane"] = {
-									["amount"] = 574,
-								},
-								["Zul'tore"] = {
-									["amount"] = 3620,
-								},
-								["Deathstalker Visceri"] = {
-									["amount"] = 1207,
-								},
-							},
-							["count"] = 9,
-							["hit"] = 9,
-							["school"] = 32,
-							["hitmax"] = 632,
-							["amount"] = 5401,
-							["hitamount"] = 5401,
-						},
-						["Gargoyle Strike (Ebon Gargoyle)"] = {
-							["hitmin"] = 1539,
-							["id"] = 51963,
-							["targets"] = {
-								["Runok Wildmane"] = {
-									["amount"] = 3143,
-								},
-								["Zul'tore"] = {
-									["amount"] = 12529,
-								},
-								["Deathstalker Visceri"] = {
-									["amount"] = 6181,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 14,
-							["hit"] = 14,
-							["school"] = 8,
-							["hitmax"] = 1576,
-							["amount"] = 21853,
-							["hitamount"] = 21853,
-						},
-						["Blood-Caked Strike"] = {
-							["hitmin"] = 773,
-							["id"] = 50463,
-							["targets"] = {
-								["Runok Wildmane"] = {
-									["amount"] = 862,
-								},
-								["Zul'tore"] = {
-									["amount"] = 1609,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 3,
-							["hit"] = 3,
-							["school"] = 1,
-							["hitmax"] = 862,
-							["amount"] = 2471,
-							["hitamount"] = 2471,
-						},
-						["Plague Strike"] = {
-							["hitmin"] = 1157,
-							["criticalamount"] = 2794,
-							["id"] = 49921,
-							["hitmax"] = 1157,
-							["targets"] = {
-								["Runok Wildmane"] = {
-									["amount"] = 2794,
-								},
-								["Zul'tore"] = {
-									["amount"] = 1157,
-								},
-							},
-							["count"] = 2,
-							["hit"] = 1,
-							["casts"] = 2,
-							["critical"] = 1,
-							["amount"] = 3951,
-							["school"] = 1,
-							["criticalmin"] = 2794,
-							["criticalmax"] = 2794,
-							["hitamount"] = 1157,
-						},
-						["Frost Fever (DoT)"] = {
-							["hitmin"] = 675,
-							["id"] = 55095,
-							["targets"] = {
-								["Runok Wildmane"] = {
-									["amount"] = 2025,
-								},
-								["Zul'tore"] = {
-									["amount"] = 5156,
-								},
-								["Deathstalker Visceri"] = {
-									["amount"] = 2835,
-								},
-							},
-							["count"] = 14,
-							["hit"] = 14,
-							["school"] = 16,
-							["hitmax"] = 836,
-							["amount"] = 10016,
-							["hitamount"] = 10016,
-						},
-						["Scourge Strike (Shadow)"] = {
-							["hitmin"] = 645,
-							["id"] = 70890,
-							["targets"] = {
-								["Runok Wildmane"] = {
-									["amount"] = 645,
-								},
-								["Zul'tore"] = {
-									["amount"] = 1952,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 3,
-							["hit"] = 3,
-							["school"] = 32,
-							["hitmax"] = 997,
-							["amount"] = 2597,
-							["hitamount"] = 2597,
-						},
-					},
-					["totaldamage"] = 120262,
-					["role"] = "DAMAGER",
-				}, -- [4]
-				{
-					["last"] = 11145.959,
-					["flag"] = 1298,
-					["class"] = "DRUID",
-					["auras"] = {
-						[24932] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 53,
-						},
-						[48470] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 53,
-						},
-						[61336] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["uptime"] = 20,
-						},
-						[48566] = {
-							["type"] = "DEBUFF",
-							["count"] = 4,
-							["school"] = 1,
-							["refresh"] = 1,
-							["targets"] = {
-								["Runok Wildmane"] = {
-									["count"] = 1,
-									["refresh"] = 1,
-									["uptime"] = 1,
-								},
-								["Zul'tore"] = {
-									["uptime"] = 4,
-									["count"] = 2,
-								},
-								["Deathstalker Visceri"] = {
-									["uptime"] = 3,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 8,
-						},
-						[71403] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["uptime"] = 10,
-						},
-						[22812] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 8,
-							["uptime"] = 12,
-						},
-						[50213] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["uptime"] = 6,
-						},
-						[58646] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 53,
-						},
-						[69369] = {
-							["type"] = "BUFF",
-							["count"] = 4,
-							["school"] = 1,
-							["refresh"] = 1,
-							["uptime"] = 32,
-						},
-						[48574] = {
-							["type"] = "DEBUFF",
-							["count"] = 3,
-							["school"] = 1,
-							["refresh"] = 12,
-							["targets"] = {
-								["Runok Wildmane"] = {
-									["count"] = 1,
-									["refresh"] = 5,
-									["uptime"] = 24,
-								},
-								["Zul'tore"] = {
-									["count"] = 1,
-									["refresh"] = 5,
-									["uptime"] = 14,
-								},
-								["Deathstalker Visceri"] = {
-									["count"] = 1,
-									["refresh"] = 2,
-									["uptime"] = 9,
-								},
-							},
-							["uptime"] = 45,
-						},
-						[48420] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 53,
-						},
-						[52113] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 53,
-						},
-						[28878] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 53,
-						},
-						[16237] = {
-							["type"] = "BUFF",
-							["count"] = 3,
-							["refresh"] = 2,
-							["school"] = 2,
-							["uptime"] = 42,
-						},
-						[50334] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["uptime"] = 15,
-						},
-						[52610] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["refresh"] = 1,
-							["uptime"] = 31,
-						},
-						[32182] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 8,
-							["uptime"] = 40,
-						},
-						[57623] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["uptime"] = 36,
-						},
-						[53312] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 8,
-							["uptime"] = 37,
-						},
-						[16857] = {
-							["type"] = "DEBUFF",
-							["count"] = 2,
-							["school"] = 8,
-							["targets"] = {
-								["Runok Wildmane"] = {
-									["uptime"] = 19,
-									["count"] = 1,
-								},
-								["Deathstalker Visceri"] = {
-									["uptime"] = 3,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 22,
-						},
-						[768] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 53,
-						},
-						[52000] = {
-							["type"] = "BUFF",
-							["count"] = 3,
-							["school"] = 8,
-							["uptime"] = 25,
-						},
-						[61301] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 4,
-						},
-						[2895] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 53,
-						},
-						[16870] = {
-							["type"] = "BUFF",
-							["count"] = 5,
-							["school"] = 8,
-							["uptime"] = 6,
-						},
-					},
-					["energyspells"] = {
-						[51178] = 60,
-					},
-					["time"] = 50.50000000000001,
-					["totaldamagetaken"] = 44756,
-					["damage"] = 108516,
-					["damagespells"] = {
-						["Entangling Roots"] = {
-							["casts"] = 1,
-							["count"] = 1,
-							["amount"] = 0,
-							["school"] = 8,
-							["IMMUNE"] = 1,
-							["targets"] = {
-								["Deathstalker Visceri"] = {
-									["amount"] = 0,
-								},
-							},
-							["id"] = 53313,
-						},
-						["Rake"] = {
-							["hitmin"] = 449,
-							["criticalamount"] = 10360,
-							["id"] = 48574,
-							["hitmax"] = 597,
-							["targets"] = {
-								["Runok Wildmane"] = {
-									["amount"] = 4994,
-								},
-								["Zul'tore"] = {
-									["amount"] = 5628,
-								},
-								["Deathstalker Visceri"] = {
-									["amount"] = 3172,
-								},
-							},
-							["count"] = 15,
-							["hit"] = 6,
-							["casts"] = 15,
-							["critical"] = 9,
-							["amount"] = 13794,
-							["school"] = 1,
-							["criticalmin"] = 987,
-							["criticalmax"] = 1313,
-							["hitamount"] = 3434,
-						},
-						["Rake (DoT)"] = {
-							["hitmin"] = 1448,
-							["id"] = 48574,
-							["targets"] = {
-								["Runok Wildmane"] = {
-									["amount"] = 7721,
-								},
-								["Zul'tore"] = {
-									["amount"] = 1926,
-								},
-								["Deathstalker Visceri"] = {
-									["amount"] = 3779,
-								},
-							},
-							["count"] = 8,
-							["hit"] = 8,
-							["school"] = 1,
-							["hitmax"] = 1927,
-							["amount"] = 13426,
-							["hitamount"] = 13426,
-						},
-						["Ferocious Bite"] = {
-							["hitmin"] = 2726,
-							["criticalamount"] = 18596,
-							["id"] = 48577,
-							["hitmax"] = 2726,
-							["targets"] = {
-								["Runok Wildmane"] = {
-									["amount"] = 10740,
-								},
-								["Zul'tore"] = {
-									["amount"] = 10582,
-								},
-							},
-							["count"] = 3,
-							["hit"] = 1,
-							["casts"] = 3,
-							["critical"] = 2,
-							["amount"] = 21322,
-							["school"] = 1,
-							["criticalmin"] = 8014,
-							["criticalmax"] = 10582,
-							["hitamount"] = 2726,
-						},
-						["Mangle (Cat)"] = {
-							["hitmin"] = 1473,
-							["criticalamount"] = 7501,
-							["id"] = 48566,
-							["hitmax"] = 2041,
-							["targets"] = {
-								["Runok Wildmane"] = {
-									["amount"] = 4711,
-								},
-								["Zul'tore"] = {
-									["amount"] = 3997,
-								},
-								["Deathstalker Visceri"] = {
-									["amount"] = 4263,
-								},
-							},
-							["count"] = 5,
-							["hit"] = 3,
-							["casts"] = 5,
-							["critical"] = 2,
-							["amount"] = 12971,
-							["school"] = 1,
-							["criticalmin"] = 3238,
-							["criticalmax"] = 4263,
-							["hitamount"] = 5470,
-						},
-						["Melee"] = {
-							["glance"] = 3025,
-							["hitmin"] = 414,
-							["criticalmin"] = 904,
-							["targets"] = {
-								["Runok Wildmane"] = {
-									["amount"] = 23353,
-								},
-								["Zul'tore"] = {
-									["amount"] = 12473,
-								},
-								["Deathstalker Visceri"] = {
-									["amount"] = 11177,
-								},
-							},
-							["glancing"] = 6,
-							["amount"] = 47003,
-							["glancemin"] = 411,
-							["criticalamount"] = 30571,
-							["id"] = 6603,
-							["glancemax"] = 556,
-							["blocked"] = 120,
-							["criticalmax"] = 1502,
-							["critical"] = 26,
-							["hit"] = 25,
-							["school"] = 1,
-							["hitmax"] = 580,
-							["count"] = 57,
-							["hitamount"] = 13407,
-						},
-					},
-					["overheal"] = 2106,
-					["damagetaken"] = 44756,
-					["id"] = "0x070000000095AC38",
-					["spec"] = 103,
-					["healspells"] = {
-						[34299] = {
-							["overheal"] = 2106,
-							["max"] = 1086,
-							["count"] = 7,
-							["amount"] = 4492,
-							["school"] = 1,
-							["min"] = 399,
-							["ishot"] = true,
-							["targets"] = {
-								["Anusalro"] = {
-									["overheal"] = 2106,
-									["amount"] = 4492,
-								},
-							},
-						},
-					},
-					["damagetakenspells"] = {
-						["Shoot"] = {
-							["hitmin"] = 4568,
-							["id"] = 67988,
-							["amount"] = 20183,
-							["sources"] = {
-								["Zul'tore"] = {
-									["amount"] = 20183,
-								},
-							},
-							["count"] = 5,
-							["hit"] = 4,
-							["school"] = 1,
-							["hitmax"] = 6021,
-							["MISS"] = 1,
-							["hitamount"] = 20183,
-						},
-						["Fan of Knives"] = {
-							["hitmin"] = 4141,
-							["id"] = 67706,
-							["sources"] = {
-								["Deathstalker Visceri"] = {
-									["amount"] = 8963,
-								},
-							},
-							["count"] = 2,
-							["hit"] = 2,
-							["school"] = 1,
-							["hitmax"] = 4822,
-							["amount"] = 8963,
-							["hitamount"] = 8963,
-						},
-						["Poison Bottle (DoT)"] = {
-							["hitmin"] = 784,
-							["id"] = 68316,
-							["hitmax"] = 1103,
-							["sources"] = {
-								["Deathstalker Visceri"] = {
-									["amount"] = 8845,
-								},
-							},
-							["count"] = 10,
-							["hit"] = 10,
-							["school"] = 8,
-							["resisted"] = 1445,
-							["amount"] = 8845,
-							["hitamount"] = 8845,
-						},
-						["Multi-Shot"] = {
-							["hitmin"] = 3233,
-							["id"] = 66081,
-							["sources"] = {
-								["Zul'tore"] = {
-									["amount"] = 3233,
-								},
-							},
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 1,
-							["hitmax"] = 3233,
-							["amount"] = 3233,
-							["hitamount"] = 3233,
-						},
-						["Chain Lightning"] = {
-							["hitmin"] = 3532,
-							["id"] = 68319,
-							["hitmax"] = 3532,
-							["sources"] = {
-								["Runok Wildmane"] = {
-									["amount"] = 3532,
-								},
-							},
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 8,
-							["resisted"] = 882,
-							["amount"] = 3532,
-							["hitamount"] = 3532,
-						},
-					},
-					["totaldamage"] = 108516,
-					["heal"] = 4492,
-					["name"] = "Anusalro",
-					["manaspells"] = {
-						[68285] = 4319,
-					},
-					["mana"] = 4319,
-					["energy"] = 60,
-					["role"] = "DAMAGER",
-				}, -- [5]
-			},
+			["starttime"] = 1689110863,
 			["type"] = "party",
 			["damagetaken"] = 218871,
-			["interrupt"] = 2,
-			["overheal"] = 94801,
 			["gotboss"] = 35571,
+			["interrupt"] = 2,
+			["ccdone"] = 2,
+			["overheal"] = 94801,
 			["overkill"] = 3875,
 			["edamagetaken"] = 1024664,
 			["heal"] = 219487,
 			["name"] = "Runok Wildmane (2)",
 			["mobname"] = "Runok Wildmane",
-			["starttime"] = 1689110863,
+			["rage"] = 245,
 			["edamage"] = 218871,
 			["last_action"] = 1689110916,
 			["endtime"] = 1689110916,
@@ -11757,12 +11757,12 @@ SkadaStorageDB = {
 			["mana"] = 600,
 			["enemies"] = {
 				{
-					["id"] = "0xF1300089FF000089",
-					["name"] = "Undercity Champion",
-					["totaldamagetaken"] = 242076,
-					["flag"] = 2632,
-					["class"] = "MONSTER",
 					["damagetaken"] = 242076,
+					["name"] = "Undercity Champion",
+					["class"] = "MONSTER",
+					["flag"] = 2632,
+					["totaldamagetaken"] = 242076,
+					["id"] = "0xF1300089FF000089",
 					["damagetakenspells"] = {
 						[68498] = {
 							["school"] = 1,
@@ -11841,12 +11841,12 @@ SkadaStorageDB = {
 					},
 				}, -- [1]
 				{
-					["id"] = "0xF1300089FB00008F",
-					["name"] = "Sen'jin Champion",
-					["totaldamagetaken"] = 266296,
-					["flag"] = 68168,
-					["class"] = "MONSTER",
 					["damagetaken"] = 266296,
+					["name"] = "Sen'jin Champion",
+					["class"] = "MONSTER",
+					["flag"] = 68168,
+					["totaldamagetaken"] = 266296,
+					["id"] = "0xF1300089FB00008F",
 					["damagetakenspells"] = {
 						[68498] = {
 							["school"] = 1,
@@ -11913,12 +11913,12 @@ SkadaStorageDB = {
 					},
 				}, -- [2]
 				{
-					["id"] = "0xF1300089FD000094",
-					["name"] = "Thunder Bluff Champion",
-					["totaldamagetaken"] = 244557,
-					["flag"] = 2632,
-					["class"] = "MONSTER",
 					["damagetaken"] = 244557,
+					["name"] = "Thunder Bluff Champion",
+					["class"] = "MONSTER",
+					["flag"] = 2632,
+					["totaldamagetaken"] = 244557,
+					["id"] = "0xF1300089FD000094",
 					["damagetakenspells"] = {
 						[62626] = {
 							["school"] = 1,
@@ -11985,12 +11985,12 @@ SkadaStorageDB = {
 					},
 				}, -- [3]
 				{
-					["id"] = "0xF130008AF200008D",
-					["name"] = "Zul'tore",
-					["totaldamagetaken"] = 334322,
-					["flag"] = 2632,
-					["class"] = "BOSS",
 					["damagetaken"] = 334322,
+					["name"] = "Zul'tore",
+					["class"] = "BOSS",
+					["flag"] = 2632,
+					["totaldamagetaken"] = 334322,
+					["id"] = "0xF130008AF200008D",
 					["damagetakenspells"] = {
 						[68498] = {
 							["school"] = 1,
@@ -12048,12 +12048,12 @@ SkadaStorageDB = {
 					},
 				}, -- [4]
 				{
-					["id"] = "0xF130008AF3000092",
-					["name"] = "Runok Wildmane",
-					["totaldamagetaken"] = 335971,
-					["flag"] = 68168,
-					["class"] = "BOSS",
 					["damagetaken"] = 335971,
+					["name"] = "Runok Wildmane",
+					["class"] = "BOSS",
+					["flag"] = 68168,
+					["totaldamagetaken"] = 335971,
+					["id"] = "0xF130008AF3000092",
 					["damagetakenspells"] = {
 						[68498] = {
 							["school"] = 1,
@@ -12108,12 +12108,12 @@ SkadaStorageDB = {
 					},
 				}, -- [5]
 				{
-					["id"] = "0xF130008B21000088",
-					["name"] = "Deathstalker Visceri",
-					["totaldamagetaken"] = 320542,
-					["flag"] = 2632,
-					["class"] = "BOSS",
 					["damagetaken"] = 320542,
+					["name"] = "Deathstalker Visceri",
+					["class"] = "BOSS",
+					["flag"] = 2632,
+					["totaldamagetaken"] = 320542,
+					["id"] = "0xF130008B21000088",
 					["damagetakenspells"] = {
 						[68498] = {
 							["school"] = 1,
@@ -12270,10 +12270,12 @@ SkadaStorageDB = {
 						},
 					},
 					["last"] = 11075.888,
-					["class"] = "WARRIOR",
 					["id"] = "0x070000000040A064",
-					["spec"] = 71,
+					["class"] = "WARRIOR",
 					["overkill"] = 17478,
+					["spec"] = 71,
+					["totaldamage"] = 456100,
+					["name"] = "Rimgar",
 					["auras"] = {
 						[72221] = {
 							["type"] = "BUFF",
@@ -12286,9 +12288,9 @@ SkadaStorageDB = {
 							["uptime"] = 101,
 						},
 						[62977] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 1,
 							["uptime"] = 3,
 						},
 						[57399] = {
@@ -12297,21 +12299,21 @@ SkadaStorageDB = {
 							["uptime"] = 101,
 						},
 						[68284] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 14,
-							["school"] = 1,
 							["uptime"] = 36,
 						},
 						[71541] = {
+							["school"] = 64,
 							["type"] = "BUFF",
 							["count"] = 2,
-							["school"] = 64,
 							["uptime"] = 30,
 						},
 						[75456] = {
+							["school"] = 64,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 64,
 							["uptime"] = 14,
 						},
 						[48470] = {
@@ -12325,9 +12327,7 @@ SkadaStorageDB = {
 							["uptime"] = 101,
 						},
 					},
-					["totaldamage"] = 456100,
 					["role"] = "DAMAGER",
-					["name"] = "Rimgar",
 					["flag"] = 1297,
 					["time"] = 77.51000000000002,
 					["damage"] = 456100,
@@ -12422,10 +12422,12 @@ SkadaStorageDB = {
 						},
 					},
 					["last"] = 11074.978,
-					["class"] = "DRUID",
 					["id"] = "0x070000000086CEC0",
-					["spec"] = 103,
+					["class"] = "DRUID",
 					["overkill"] = 3940,
+					["spec"] = 103,
+					["totaldamage"] = 375050,
+					["name"] = "Moonsoonx",
 					["auras"] = {
 						[67016] = {
 							["type"] = "BUFF",
@@ -12433,9 +12435,9 @@ SkadaStorageDB = {
 							["uptime"] = 101,
 						},
 						[62977] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 2,
-							["school"] = 1,
 							["uptime"] = 6,
 						},
 						[49284] = {
@@ -12469,71 +12471,18 @@ SkadaStorageDB = {
 							["uptime"] = 101,
 						},
 						[68284] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 11,
-							["school"] = 1,
 							["uptime"] = 23,
 						},
 					},
-					["totaldamage"] = 375050,
 					["role"] = "TANK",
-					["name"] = "Moonsoonx",
 					["flag"] = 1298,
 					["time"] = 84.69999999999999,
 					["damage"] = 375050,
 				}, -- [2]
 				{
-					["last"] = 10979.496,
-					["flag"] = 1298,
-					["class"] = "SHAMAN",
-					["auras"] = {
-						[72221] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 101,
-						},
-						[57960] = {
-							["type"] = "BUFF",
-							["count"] = 2,
-							["school"] = 8,
-							["uptime"] = 75,
-						},
-						[48470] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 101,
-						},
-						[62977] = {
-							["type"] = "BUFF",
-							["count"] = 3,
-							["school"] = 1,
-							["uptime"] = 7,
-						},
-						[28878] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 101,
-						},
-						[60520] = {
-							["type"] = "BUFF",
-							["count"] = 2,
-							["school"] = 1,
-							["uptime"] = 30,
-						},
-						[68284] = {
-							["type"] = "BUFF",
-							["count"] = 13,
-							["school"] = 1,
-							["uptime"] = 32,
-						},
-						[62552] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 101,
-						},
-					},
-					["time"] = 0,
-					["damage"] = 402229,
 					["damagespells"] = {
 						["Thrust"] = {
 							["hitmin"] = 6014,
@@ -12642,21 +12591,89 @@ SkadaStorageDB = {
 							["hitamount"] = 281073,
 						},
 					},
+					["last"] = 10979.496,
+					["mana"] = 600,
+					["flag"] = 1298,
+					["class"] = "SHAMAN",
 					["id"] = "0x070000000096874A",
+					["auras"] = {
+						[72221] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 101,
+						},
+						[57960] = {
+							["school"] = 8,
+							["type"] = "BUFF",
+							["count"] = 2,
+							["uptime"] = 75,
+						},
+						[48470] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 101,
+						},
+						[62977] = {
+							["school"] = 1,
+							["type"] = "BUFF",
+							["count"] = 3,
+							["uptime"] = 7,
+						},
+						[28878] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 101,
+						},
+						[60520] = {
+							["school"] = 1,
+							["type"] = "BUFF",
+							["count"] = 2,
+							["uptime"] = 30,
+						},
+						[68284] = {
+							["school"] = 1,
+							["type"] = "BUFF",
+							["count"] = 13,
+							["uptime"] = 32,
+						},
+						[62552] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 101,
+						},
+					},
 					["spec"] = 264,
-					["overkill"] = 101734,
-					["name"] = "Zbeguini",
+					["role"] = "HEALER",
 					["manaspells"] = {
 						[55382] = 600,
 					},
-					["mana"] = 600,
+					["overkill"] = 101734,
+					["name"] = "Zbeguini",
+					["time"] = 0,
 					["totaldamage"] = 402229,
-					["role"] = "HEALER",
+					["damage"] = 402229,
 				}, -- [3]
 				{
+					["overheal"] = 3954,
 					["last"] = 11072.97,
+					["totaldamage"] = 228985,
 					["flag"] = 1298,
 					["class"] = "DEATHKNIGHT",
+					["healspells"] = {
+						[50475] = {
+							["overheal"] = 3954,
+							["count"] = 6,
+							["amount"] = 0,
+							["school"] = 1,
+							["ishot"] = true,
+							["targets"] = {
+								["Torreznos"] = {
+									["overheal"] = 3954,
+									["amount"] = 0,
+								},
+							},
+						},
+					},
 					["auras"] = {
 						[72221] = {
 							["type"] = "BUFF",
@@ -12679,39 +12696,22 @@ SkadaStorageDB = {
 							["uptime"] = 101,
 						},
 						[62977] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 1,
 							["uptime"] = 3,
 						},
 						[68284] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 6,
-							["school"] = 1,
 							["uptime"] = 15,
 						},
 					},
-					["time"] = 65.05000000000001,
-					["damage"] = 228985,
-					["overheal"] = 3954,
 					["id"] = "0x0700000000951145",
+					["role"] = "DAMAGER",
+					["time"] = 65.05000000000001,
 					["spec"] = 252,
-					["healspells"] = {
-						[50475] = {
-							["overheal"] = 3954,
-							["count"] = 6,
-							["amount"] = 0,
-							["school"] = 1,
-							["ishot"] = true,
-							["targets"] = {
-								["Torreznos"] = {
-									["overheal"] = 3954,
-									["amount"] = 0,
-								},
-							},
-						},
-					},
-					["heal"] = 0,
 					["name"] = "Torreznos",
 					["damagespells"] = {
 						["Thrust"] = {
@@ -12784,8 +12784,8 @@ SkadaStorageDB = {
 							["hitamount"] = 2000,
 						},
 					},
-					["totaldamage"] = 228985,
-					["role"] = "DAMAGER",
+					["heal"] = 0,
+					["damage"] = 228985,
 				}, -- [4]
 				{
 					["damagespells"] = {
@@ -12878,18 +12878,25 @@ SkadaStorageDB = {
 						},
 					},
 					["last"] = 11075.744,
-					["class"] = "DRUID",
 					["id"] = "0x070000000095AC38",
-					["spec"] = 103,
+					["class"] = "DRUID",
 					["overkill"] = 612,
+					["spec"] = 103,
+					["totaldamage"] = 281400,
+					["name"] = "Anusalro",
 					["auras"] = {
+						[28878] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 101,
+						},
 						[68284] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 11,
-							["school"] = 1,
 							["uptime"] = 30,
 						},
-						[28878] = {
+						[48470] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 101,
@@ -12899,30 +12906,23 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 101,
 						},
-						[48470] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 101,
-						},
 					},
-					["totaldamage"] = 281400,
 					["role"] = "DAMAGER",
-					["name"] = "Anusalro",
 					["flag"] = 1298,
 					["time"] = 78.27,
 					["damage"] = 281400,
 				}, -- [5]
 			},
 			["type"] = "party",
+			["gotboss"] = 35571,
 			["damage"] = 1743764,
-			["overheal"] = 3954,
 			["overkill"] = 123764,
 			["edamagetaken"] = 1743764,
 			["heal"] = 0,
 			["name"] = "Runok Wildmane",
 			["mobname"] = "Runok Wildmane",
+			["overheal"] = 3954,
 			["starttime"] = 1689110747,
-			["gotboss"] = 35571,
 			["last_action"] = 1689110847,
 			["endtime"] = 1689110848,
 		}, -- [4]

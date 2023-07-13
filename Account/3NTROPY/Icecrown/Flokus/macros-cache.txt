@@ -7,6 +7,11 @@ MACRO 16777228 "bubble" INV_Misc_QuestionMark
 /cancelaura divine shield
 /cast divine shield
 END
+MACRO 16777242 "buffs" INV_Misc_QuestionMark
+#showtooltip
+/cast [nomodifier:ctrl, @player] blessing of might
+/cast [modifier:ctrl, @party1] blessing of wisdom
+END
 MACRO 16777231 "cleanse" INV_Misc_QuestionMark
 #showtooltip cleanse
 /cast [nomodifier:alt] cleanse
@@ -59,33 +64,19 @@ MACRO 16777237 "pvpjud" INV_Misc_QuestionMark
 /use 10
 /cast judgement of wisdom
 END
+MACRO 16777243 "reckoning" INV_Misc_QuestionMark
+#showtooltip hand of reckoning
+/cast [@mouseover, harm][@target] hand of reckoning
+END
 MACRO 16777232 "shield" INV_Misc_QuestionMark
 #showtooltip sacred shield
 /cast [noflying] sacred shield
 END
+MACRO 16777241 "taunt" INV_Misc_QuestionMark
+#showtooltip righteous defense
+/cast [@mouseover,help, nodead] Righteous Defense
+END
 MACRO 16777239 "turn" INV_Misc_QuestionMark
 #showtooltip
 /cast [target=focus,exists,nodead,harm][target=mouseover,exists,nodead,harm][] turn evil
-END
-MACRO 16777227 "wep" INV_Misc_QuestionMark
-#showtooltip 16
-/equip Shadowmourne
-/equip Royal Scepter of Terenas II
-/equip Wrathful Gladiator's Barrier
-END
-MACRO 16777234 "wep2" INV_Misc_QuestionMark
-#showtooltip 16
-/equip Shadowmourne
-/equip Bloodsurge, Kel'Thuzad's Blade of Agony
-/equip Bulwark of Smouldering Steel
-END
-MACRO 16777235 "wep3" INV_Misc_QuestionMark
-#showtooltip Icecrown Glacial Wall
-/equip Royal Scepter of Terenas II
-/equip Icecrown Glacial Wall
-END
-MACRO 16777236 "wep4" INV_Misc_QuestionMark
-#showtooltip Wrathful Gladiator's Barrier
-/equip Royal Scepter of Terenas II
-/equip Wrathful Gladiator's Barrier
 END
