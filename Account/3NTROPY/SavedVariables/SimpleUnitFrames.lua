@@ -14,23 +14,24 @@ SimpleUnitFramesDB = {
 		["Vhalanor - Icecrown"] = "Vhalanor - Icecrown",
 		["Noobschmoq - Icecrown"] = "Noobschmoq - Icecrown",
 		["Muiex - Icecrown"] = "Muiex - Icecrown",
+		["Flocius - Icecrown"] = "Flocius - Icecrown",
 		["Aevie - Icecrown"] = "Aevie - Icecrown",
 		["Urgash - Icecrown"] = "Urgash - Icecrown",
 		["Izanagi - Icecrown"] = "Izanagi - Icecrown",
 		["Ulrezaj - Icecrown"] = "Ulrezaj - Icecrown",
 		["Vrael - Icecrown"] = "Vrael - Icecrown",
-		["Pocaitoru - Icecrown"] = "Pocaitoru - Icecrown",
+		["Kalaam - Icecrown"] = "Kalaam - Icecrown",
 		["Elgorath - Icecrown"] = "Elgorath - Icecrown",
-		["Maciucaru - Icecrown"] = "Maciucaru - Icecrown",
+		["Pufarin - Icecrown"] = "Pufarin - Icecrown",
 		["Mirceabravo - Icecrown"] = "Mirceabravo - Icecrown",
 		["Lingurita - Lordaeron"] = "Lingurita - Lordaeron",
 		["Mirceabravo - Blackrock [PvP only]"] = "Mirceabravo - Blackrock [PvP only]",
-		["Pufarin - Icecrown"] = "Pufarin - Icecrown",
+		["Maciucaru - Icecrown"] = "Maciucaru - Icecrown",
 		["Rakhnis - Icecrown"] = "Rakhnis - Icecrown",
 		["Gligor - Icecrown"] = "Gligor - Icecrown",
 		["Inarya - Icecrown"] = "Inarya - Icecrown",
 		["Drext - Icecrown"] = "Drext - Icecrown",
-		["Kalaam - Icecrown"] = "Kalaam - Icecrown",
+		["Pocaitoru - Icecrown"] = "Pocaitoru - Icecrown",
 		["Flokus - Icecrown"] = "Flokus - Icecrown",
 	},
 	["profiles"] = {
@@ -56,6 +57,8 @@ SimpleUnitFramesDB = {
 		},
 		["Muiex - Icecrown"] = {
 		},
+		["Flocius - Icecrown"] = {
+		},
 		["Aevie - Icecrown"] = {
 		},
 		["Urgash - Icecrown"] = {
@@ -66,11 +69,11 @@ SimpleUnitFramesDB = {
 		},
 		["Vrael - Icecrown"] = {
 		},
-		["Pocaitoru - Icecrown"] = {
+		["Kalaam - Icecrown"] = {
 		},
 		["Elgorath - Icecrown"] = {
 		},
-		["Maciucaru - Icecrown"] = {
+		["Pufarin - Icecrown"] = {
 		},
 		["Mirceabravo - Icecrown"] = {
 		},
@@ -78,7 +81,7 @@ SimpleUnitFramesDB = {
 		},
 		["Mirceabravo - Blackrock [PvP only]"] = {
 		},
-		["Pufarin - Icecrown"] = {
+		["Maciucaru - Icecrown"] = {
 		},
 		["Rakhnis - Icecrown"] = {
 		},
@@ -88,7 +91,7 @@ SimpleUnitFramesDB = {
 		},
 		["Drext - Icecrown"] = {
 		},
-		["Kalaam - Icecrown"] = {
+		["Pocaitoru - Icecrown"] = {
 		},
 		["Flokus - Icecrown"] = {
 		},
