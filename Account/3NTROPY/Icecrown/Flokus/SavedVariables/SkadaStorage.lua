@@ -9,26 +9,26 @@ SkadaStorageDB = {
 							["school"] = 1,
 							["targets"] = {
 								["Flokus"] = {
-									["amount"] = 4,
+									["amount"] = 5,
 								},
 							},
-							["amount"] = 4,
+							["amount"] = 5,
 						},
 					},
-					["damagetaken"] = 257,
-					["flag"] = 68168,
+					["damagetaken"] = 389,
+					["id"] = "0xF1300001DB147E77",
 					["class"] = "MONSTER",
 					["damagetakenspells"] = {
 						[6603] = {
 							["school"] = 1,
 							["sources"] = {
 								["Flokus"] = {
-									["overkill"] = 11,
-									["amount"] = 181,
+									["overkill"] = 151,
+									["amount"] = 202,
 								},
 							},
-							["overkill"] = 11,
-							["amount"] = 181,
+							["overkill"] = 151,
+							["amount"] = 202,
 						},
 						[25742] = {
 							["school"] = 2,
@@ -43,56 +43,131 @@ SkadaStorageDB = {
 							["school"] = 2,
 							["sources"] = {
 								["Flokus"] = {
-									["overkill"] = 6,
-									["amount"] = 46,
+									["amount"] = 49,
 								},
 							},
-							["overkill"] = 6,
-							["amount"] = 46,
+							["amount"] = 49,
+						},
+						[26573] = {
+							["school"] = 2,
+							["sources"] = {
+								["Flokus"] = {
+									["overkill"] = 16,
+									["amount"] = 108,
+								},
+							},
+							["overkill"] = 16,
+							["amount"] = 108,
 						},
 					},
+					["totaldamage"] = 5,
 					["name"] = "Kobold Tunneler",
-					["totaldamage"] = 4,
-					["totaldamagetaken"] = 257,
-					["id"] = "0xF1300001DB0FA1E8",
-					["damage"] = 4,
+					["totaldamagetaken"] = 389,
+					["flag"] = 2632,
+					["damage"] = 5,
 				}, -- [1]
 			},
-			["totaldamage"] = 257,
-			["time"] = 5,
-			["damage"] = 257,
-			["totaldamagetaken"] = 4,
-			["etotaldamagetaken"] = 257,
-			["last_time"] = 37533.582,
+			["totaldamage"] = 389,
+			["time"] = 9,
+			["totaldamagetaken"] = 5,
+			["etotaldamage"] = 5,
+			["last_time"] = 17283.146,
 			["players"] = {
 				{
-					["last"] = 37533.409,
-					["flag"] = 134219025,
+					["last"] = 17283.13,
+					["flag"] = 1297,
 					["class"] = "PALADIN",
 					["auras"] = {
-						[19834] = {
+						[25780] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 5,
+							["uptime"] = 9,
 						},
 						[21084] = {
 							["type"] = "BUFF",
 							["count"] = 1,
+							["uptime"] = 9,
+						},
+						[26573] = {
+							["type"] = "DEBUFF",
+							["count"] = 2,
+							["school"] = 2,
+							["targets"] = {
+								["Kobold Tunneler"] = {
+									["uptime"] = 5,
+									["count"] = 2,
+								},
+							},
 							["uptime"] = 5,
 						},
-						[10290] = {
+						[19742] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 5,
+							["uptime"] = 9,
+						},
+						[13819] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 3,
+						},
+						[20186] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 2,
+							["targets"] = {
+								["Kobold Tunneler"] = {
+									["uptime"] = 1,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 1,
+						},
+						[643] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 9,
 						},
 					},
-					["role"] = "TANK",
-					["time"] = 3.86,
-					["totaldamagetaken"] = 4,
-					["damage"] = 257,
+					["time"] = 7.48,
+					["totaldamagetaken"] = 5,
+					["damage"] = 389,
 					["damagespells"] = {
+						["Consecration (DoT)"] = {
+							["hitmin"] = 18,
+							["id"] = 26573,
+							["targets"] = {
+								["Kobold Tunneler"] = {
+									["overkill"] = 16,
+									["amount"] = 108,
+								},
+							},
+							["overkill"] = 16,
+							["count"] = 6,
+							["hit"] = 6,
+							["school"] = 2,
+							["hitmax"] = 18,
+							["amount"] = 108,
+							["hitamount"] = 108,
+						},
+						["Melee"] = {
+							["glance"] = 202,
+							["id"] = 6603,
+							["glancemax"] = 202,
+							["overkill"] = 151,
+							["glancing"] = 1,
+							["count"] = 1,
+							["amount"] = 202,
+							["school"] = 1,
+							["targets"] = {
+								["Kobold Tunneler"] = {
+									["overkill"] = 151,
+									["amount"] = 202,
+								},
+							},
+							["glancemin"] = 202,
+						},
 						["Seal of Righteousness"] = {
-							["hitmin"] = 10,
+							["hitmin"] = 15,
 							["id"] = 25742,
 							["targets"] = {
 								["Kobold Tunneler"] = {
@@ -100,110 +175,68 @@ SkadaStorageDB = {
 								},
 							},
 							["casts"] = 1,
-							["count"] = 3,
-							["hit"] = 3,
+							["count"] = 2,
+							["hit"] = 2,
 							["school"] = 2,
-							["hitmax"] = 10,
+							["hitmax"] = 15,
 							["amount"] = 30,
 							["hitamount"] = 30,
 						},
-						["Melee"] = {
-							["glance"] = 121,
-							["hitmin"] = 60,
-							["id"] = 6603,
-							["hitmax"] = 60,
-							["glancemax"] = 121,
-							["overkill"] = 11,
-							["glancing"] = 1,
-							["hitamount"] = 60,
-							["count"] = 2,
-							["amount"] = 181,
-							["school"] = 1,
-							["hit"] = 1,
-							["targets"] = {
-								["Kobold Tunneler"] = {
-									["overkill"] = 11,
-									["amount"] = 181,
-								},
-							},
-							["glancemin"] = 121,
-						},
 						["Judgement of Righteousness"] = {
-							["hitmin"] = 46,
+							["hitmin"] = 49,
 							["id"] = 20187,
 							["targets"] = {
 								["Kobold Tunneler"] = {
-									["overkill"] = 6,
-									["amount"] = 46,
+									["amount"] = 49,
 								},
 							},
-							["overkill"] = 6,
 							["casts"] = 1,
 							["count"] = 1,
 							["hit"] = 1,
 							["school"] = 2,
-							["hitmax"] = 46,
-							["amount"] = 46,
-							["hitamount"] = 46,
+							["hitmax"] = 49,
+							["amount"] = 49,
+							["hitamount"] = 49,
 						},
 					},
-					["damagetaken"] = 4,
+					["damagetaken"] = 5,
 					["id"] = "0x0700000000972811",
 					["spec"] = 66,
-					["healspells"] = {
-						[20267] = {
-							["overheal"] = 7,
-							["targets"] = {
-								["Flokus"] = {
-									["overheal"] = 7,
-									["amount"] = 6,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 6,
-							["school"] = 2,
-							["max"] = 6,
-							["ishot"] = true,
-							["min"] = 6,
-						},
-					},
-					["overkill"] = 17,
-					["heal"] = 6,
-					["name"] = "Flokus",
-					["overheal"] = 7,
 					["damagetakenspells"] = {
 						["Melee"] = {
-							["hitmin"] = 2,
+							["hitmin"] = 1,
 							["id"] = 6603,
 							["sources"] = {
 								["Kobold Tunneler"] = {
-									["amount"] = 4,
+									["amount"] = 5,
 								},
 							},
-							["count"] = 2,
-							["hit"] = 2,
+							["count"] = 4,
+							["hit"] = 4,
 							["school"] = 1,
 							["hitmax"] = 2,
-							["amount"] = 4,
-							["hitamount"] = 4,
+							["amount"] = 5,
+							["hitamount"] = 5,
 						},
 					},
-					["totaldamage"] = 257,
+					["name"] = "Flokus",
+					["overkill"] = 167,
+					["totaldamage"] = 389,
+					["role"] = "TANK",
 				}, -- [1]
 			},
 			["type"] = "group",
-			["damagetaken"] = 4,
-			["overheal"] = 7,
-			["etotaldamage"] = 4,
-			["overkill"] = 17,
-			["edamagetaken"] = 257,
-			["heal"] = 6,
-			["name"] = "Kobold Tunneler (16)",
+			["damagetaken"] = 5,
+			["damage"] = 389,
+			["overkill"] = 167,
+			["edamagetaken"] = 389,
+			["etotaldamagetaken"] = 389,
+			["name"] = "Kobold Tunneler (11)",
 			["mobname"] = "Kobold Tunneler",
-			["starttime"] = 1689274416,
-			["edamage"] = 4,
-			["last_action"] = 1689274420,
-			["endtime"] = 1689274421,
+			["starttime"] = 1689337219,
+			["edamage"] = 5,
+			["last_action"] = 1689337227,
+			["endtime"] = 1689337228,
 		}, -- [1]
 		{
 			["enemies"] = {
@@ -213,44 +246,42 @@ SkadaStorageDB = {
 							["school"] = 1,
 							["targets"] = {
 								["Flokus"] = {
-									["amount"] = 4,
+									["amount"] = 48,
 								},
 							},
-							["amount"] = 4,
+							["amount"] = 48,
 						},
 					},
-					["damagetaken"] = 128,
-					["id"] = "0xF1300001DB0FA020",
+					["damagetaken"] = 531,
+					["id"] = "0xF130000028147CD3",
 					["class"] = "MONSTER",
 					["damagetakenspells"] = {
-						[25742] = {
-							["school"] = 2,
-							["sources"] = {
-								["Flokus"] = {
-									["overkill"] = 5,
-									["amount"] = 10,
-								},
-							},
-							["overkill"] = 5,
-							["amount"] = 10,
-						},
-						[6603] = {
+						[9784] = {
 							["school"] = 1,
 							["sources"] = {
 								["Flokus"] = {
-									["overkill"] = 118,
-									["amount"] = 118,
+									["amount"] = 9,
 								},
 							},
-							["overkill"] = 118,
-							["amount"] = 118,
+							["amount"] = 9,
+						},
+						[26573] = {
+							["school"] = 2,
+							["sources"] = {
+								["Flokus"] = {
+									["overkill"] = 34,
+									["amount"] = 522,
+								},
+							},
+							["overkill"] = 34,
+							["amount"] = 522,
 						},
 					},
-					["totaldamage"] = 4,
-					["name"] = "Kobold Tunneler",
-					["totaldamagetaken"] = 128,
-					["flag"] = 68168,
-					["damage"] = 4,
+					["totaldamage"] = 48,
+					["name"] = "Kobold Miner",
+					["totaldamagetaken"] = 531,
+					["flag"] = 2632,
+					["damage"] = 48,
 				}, -- [1]
 				{
 					["damagespells"] = {
@@ -258,214 +289,183 @@ SkadaStorageDB = {
 							["school"] = 1,
 							["targets"] = {
 								["Flokus"] = {
-									["amount"] = 6,
+									["amount"] = 2,
 								},
 							},
-							["amount"] = 6,
+							["amount"] = 2,
 						},
 					},
-					["damagetaken"] = 194,
-					["id"] = "0xF1300000280FA023",
+					["damagetaken"] = 108,
+					["flag"] = 2632,
 					["class"] = "MONSTER",
 					["damagetakenspells"] = {
-						[6603] = {
-							["school"] = 1,
-							["sources"] = {
-								["Flokus"] = {
-									["overkill"] = 57,
-									["amount"] = 118,
-								},
-							},
-							["overkill"] = 57,
-							["amount"] = 118,
-						},
-						[25742] = {
+						[26573] = {
 							["school"] = 2,
 							["sources"] = {
 								["Flokus"] = {
-									["amount"] = 30,
+									["overkill"] = 6,
+									["amount"] = 108,
 								},
 							},
-							["amount"] = 30,
-						},
-						[20187] = {
-							["school"] = 2,
-							["sources"] = {
-								["Flokus"] = {
-									["amount"] = 46,
-								},
-							},
-							["amount"] = 46,
+							["overkill"] = 6,
+							["amount"] = 108,
 						},
 					},
-					["totaldamage"] = 6,
-					["name"] = "Kobold Miner",
-					["totaldamagetaken"] = 194,
-					["flag"] = 68168,
-					["damage"] = 6,
+					["name"] = "Kobold Tunneler",
+					["totaldamage"] = 2,
+					["totaldamagetaken"] = 108,
+					["id"] = "0xF1300001DB147D38",
+					["damage"] = 2,
 				}, -- [2]
 			},
-			["totaldamage"] = 322,
-			["time"] = 8,
-			["totaldamagetaken"] = 10,
-			["etotaldamage"] = 10,
-			["last_time"] = 37498.573,
+			["totaldamage"] = 639,
+			["time"] = 16,
+			["totaldamagetaken"] = 50,
+			["etotaldamage"] = 50,
+			["last_time"] = 17186.707,
 			["players"] = {
 				{
-					["last"] = 37497.6,
-					["flag"] = 134219025,
+					["last"] = 17186.706,
+					["flag"] = 1297,
 					["class"] = "PALADIN",
 					["auras"] = {
+						[25780] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 16,
+						},
 						[21084] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 8,
+							["uptime"] = 16,
 						},
-						[62124] = {
+						[26573] = {
 							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 2,
-							["targets"] = {
-								["Kobold Tunneler"] = {
-									["uptime"] = 2,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 2,
-						},
-						[10290] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 8,
-						},
-						[20185] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
+							["count"] = 5,
 							["school"] = 2,
 							["targets"] = {
 								["Kobold Miner"] = {
-									["uptime"] = 1,
+									["uptime"] = 9,
+									["count"] = 4,
+								},
+								["Kobold Tunneler"] = {
+									["uptime"] = 7,
 									["count"] = 1,
 								},
 							},
-							["uptime"] = 1,
+							["uptime"] = 9,
 						},
-						[19834] = {
+						[19742] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 8,
+							["uptime"] = 16,
+						},
+						[643] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 16,
 						},
 					},
-					["time"] = 6.92,
-					["totaldamagetaken"] = 10,
-					["damage"] = 322,
+					["time"] = 13.81,
+					["totaldamagetaken"] = 50,
+					["damage"] = 639,
 					["damagespells"] = {
-						["Melee"] = {
-							["glance"] = 118,
-							["hitmin"] = 57,
-							["hitmax"] = 61,
-							["id"] = 6603,
-							["hitamount"] = 118,
+						["Iron Shield Spike"] = {
+							["hitmin"] = 9,
+							["id"] = 9784,
 							["targets"] = {
 								["Kobold Miner"] = {
-									["overkill"] = 57,
-									["amount"] = 118,
-								},
-								["Kobold Tunneler"] = {
-									["overkill"] = 118,
-									["amount"] = 118,
-								},
-							},
-							["overkill"] = 175,
-							["glancing"] = 1,
-							["PARRY"] = 1,
-							["count"] = 4,
-							["amount"] = 236,
-							["school"] = 1,
-							["hit"] = 2,
-							["glancemax"] = 118,
-							["glancemin"] = 118,
-						},
-						["Seal of Righteousness"] = {
-							["hitmin"] = 10,
-							["id"] = 25742,
-							["targets"] = {
-								["Kobold Miner"] = {
-									["amount"] = 30,
-								},
-								["Kobold Tunneler"] = {
-									["overkill"] = 5,
-									["amount"] = 10,
-								},
-							},
-							["overkill"] = 5,
-							["casts"] = 1,
-							["count"] = 4,
-							["hit"] = 4,
-							["school"] = 2,
-							["hitmax"] = 10,
-							["amount"] = 40,
-							["hitamount"] = 40,
-						},
-						["Judgement of Righteousness"] = {
-							["hitmin"] = 46,
-							["id"] = 20187,
-							["targets"] = {
-								["Kobold Miner"] = {
-									["amount"] = 46,
+									["amount"] = 9,
 								},
 							},
 							["casts"] = 1,
 							["count"] = 1,
 							["hit"] = 1,
+							["school"] = 1,
+							["hitmax"] = 9,
+							["amount"] = 9,
+							["hitamount"] = 9,
+						},
+						["Consecration (DoT)"] = {
+							["hitmin"] = 18,
+							["id"] = 26573,
+							["targets"] = {
+								["Kobold Miner"] = {
+									["overkill"] = 34,
+									["amount"] = 522,
+								},
+								["Kobold Tunneler"] = {
+									["overkill"] = 6,
+									["amount"] = 108,
+								},
+							},
+							["overkill"] = 40,
+							["count"] = 35,
+							["hit"] = 35,
 							["school"] = 2,
-							["hitmax"] = 46,
-							["amount"] = 46,
-							["hitamount"] = 46,
+							["hitmax"] = 18,
+							["amount"] = 630,
+							["hitamount"] = 630,
 						},
 					},
-					["damagetaken"] = 10,
+					["damagetaken"] = 50,
 					["id"] = "0x0700000000972811",
 					["spec"] = 66,
 					["damagetakenspells"] = {
 						["Melee"] = {
-							["DODGE"] = 1,
-							["hitmin"] = 2,
+							["DODGE"] = 2,
+							["hitmin"] = 1,
 							["id"] = 6603,
+							["PARRY"] = 2,
+							["amount"] = 50,
+							["blocked"] = 4,
+							["BLOCK"] = 1,
 							["sources"] = {
 								["Kobold Miner"] = {
-									["amount"] = 6,
+									["amount"] = 48,
 								},
 								["Kobold Tunneler"] = {
-									["amount"] = 4,
+									["amount"] = 2,
 								},
 							},
-							["count"] = 5,
-							["hit"] = 4,
+							["count"] = 26,
+							["hit"] = 20,
 							["school"] = 1,
-							["hitmax"] = 3,
-							["amount"] = 10,
-							["hitamount"] = 10,
+							["hitmax"] = 4,
+							["MISS"] = 1,
+							["hitamount"] = 50,
+						},
+						["Pierce Armor"] = {
+							["DODGE"] = 1,
+							["sources"] = {
+								["Kobold Miner"] = {
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+							["school"] = 1,
+							["id"] = 6016,
 						},
 					},
 					["name"] = "Flokus",
-					["overkill"] = 180,
-					["totaldamage"] = 322,
+					["overkill"] = 40,
+					["totaldamage"] = 639,
 					["role"] = "TANK",
 				}, -- [1]
 			},
 			["type"] = "group",
-			["damagetaken"] = 10,
-			["etotaldamagetaken"] = 322,
-			["overkill"] = 180,
-			["edamagetaken"] = 322,
-			["damage"] = 322,
-			["name"] = "Kobold Tunneler (15)",
-			["mobname"] = "Kobold Tunneler",
-			["starttime"] = 1689274377,
-			["edamage"] = 10,
-			["last_action"] = 1689274385,
-			["endtime"] = 1689274385,
+			["damagetaken"] = 50,
+			["starttime"] = 1689337115,
+			["overkill"] = 40,
+			["edamagetaken"] = 639,
+			["damage"] = 639,
+			["name"] = "Kobold Miner (10)",
+			["mobname"] = "Kobold Miner",
+			["etotaldamagetaken"] = 639,
+			["edamage"] = 50,
+			["last_action"] = 1689337131,
+			["endtime"] = 1689337131,
 		}, -- [2]
 		{
 			["enemies"] = {
@@ -475,677 +475,665 @@ SkadaStorageDB = {
 							["school"] = 1,
 							["targets"] = {
 								["Flokus"] = {
-									["amount"] = 15,
+									["amount"] = 45,
 								},
 							},
-							["amount"] = 15,
+							["amount"] = 45,
 						},
 					},
-					["damagetaken"] = 508,
-					["id"] = "0xF1300000280F9F84",
+					["damagetaken"] = 540,
+					["id"] = "0xF130000028147DCC",
 					["class"] = "MONSTER",
 					["damagetakenspells"] = {
-						[6603] = {
-							["school"] = 1,
-							["sources"] = {
-								["Flokus"] = {
-									["overkill"] = 211,
-									["amount"] = 412,
-								},
-							},
-							["overkill"] = 211,
-							["amount"] = 412,
-						},
-						[25742] = {
+						[26573] = {
 							["school"] = 2,
 							["sources"] = {
 								["Flokus"] = {
-									["amount"] = 50,
+									["overkill"] = 26,
+									["amount"] = 540,
 								},
 							},
-							["amount"] = 50,
-						},
-						[20187] = {
-							["school"] = 2,
-							["sources"] = {
-								["Flokus"] = {
-									["amount"] = 46,
-								},
-							},
-							["amount"] = 46,
+							["overkill"] = 26,
+							["amount"] = 540,
 						},
 					},
-					["totaldamage"] = 15,
+					["totaldamage"] = 45,
 					["name"] = "Kobold Miner",
-					["totaldamagetaken"] = 508,
-					["flag"] = 68168,
-					["damage"] = 15,
+					["totaldamagetaken"] = 540,
+					["flag"] = 2632,
+					["damage"] = 45,
 				}, -- [1]
+				{
+					["damagespells"] = {
+						[6603] = {
+							["school"] = 1,
+							["targets"] = {
+								["Flokus"] = {
+									["amount"] = 4,
+								},
+							},
+							["amount"] = 4,
+						},
+					},
+					["damagetaken"] = 216,
+					["id"] = "0xF1300001DB147C8C",
+					["class"] = "MONSTER",
+					["damagetakenspells"] = {
+						[26573] = {
+							["school"] = 2,
+							["sources"] = {
+								["Flokus"] = {
+									["overkill"] = 12,
+									["amount"] = 216,
+								},
+							},
+							["overkill"] = 12,
+							["amount"] = 216,
+						},
+					},
+					["totaldamage"] = 4,
+					["name"] = "Kobold Tunneler",
+					["totaldamagetaken"] = 216,
+					["flag"] = 2632,
+					["damage"] = 4,
+				}, -- [2]
 			},
-			["totaldamage"] = 508,
-			["time"] = 8,
-			["totaldamagetaken"] = 15,
-			["etotaldamage"] = 15,
-			["last_time"] = 37484.998,
+			["totaldamage"] = 756,
+			["time"] = 19,
+			["totaldamagetaken"] = 49,
+			["etotaldamage"] = 49,
+			["last_time"] = 17162.314,
 			["players"] = {
 				{
-					["last"] = 37484.91,
-					["flag"] = 134219025,
+					["last"] = 17162.308,
+					["flag"] = 1297,
 					["class"] = "PALADIN",
 					["auras"] = {
-						[19834] = {
+						[25780] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 8,
+							["uptime"] = 19,
 						},
 						[21084] = {
 							["type"] = "BUFF",
 							["count"] = 1,
+							["uptime"] = 19,
+						},
+						[26573] = {
+							["type"] = "DEBUFF",
+							["count"] = 6,
+							["school"] = 2,
+							["targets"] = {
+								["Kobold Miner"] = {
+									["uptime"] = 8,
+									["count"] = 4,
+								},
+								["Kobold Tunneler"] = {
+									["uptime"] = 6,
+									["count"] = 2,
+								},
+							},
 							["uptime"] = 8,
 						},
-						[10290] = {
+						[19742] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 8,
+							["uptime"] = 19,
 						},
-					},
-					["time"] = 6.93,
-					["totaldamagetaken"] = 15,
-					["damage"] = 508,
-					["damagespells"] = {
-						["Seal of Righteousness"] = {
-							["hitmin"] = 10,
-							["id"] = 25742,
-							["targets"] = {
-								["Kobold Miner"] = {
-									["amount"] = 50,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 5,
-							["hit"] = 5,
-							["school"] = 2,
-							["hitmax"] = 10,
-							["amount"] = 50,
-							["hitamount"] = 50,
-						},
-						["Melee"] = {
-							["glance"] = 250,
-							["hitmin"] = 54,
-							["criticalmin"] = 108,
-							["targets"] = {
-								["Kobold Miner"] = {
-									["overkill"] = 211,
-									["amount"] = 412,
-								},
-							},
-							["glancing"] = 2,
-							["amount"] = 412,
-							["glancemin"] = 125,
-							["criticalamount"] = 108,
-							["id"] = 6603,
-							["glancemax"] = 125,
-							["overkill"] = 211,
-							["criticalmax"] = 108,
-							["count"] = 4,
-							["hit"] = 1,
-							["school"] = 1,
-							["critical"] = 1,
-							["hitmax"] = 54,
-							["hitamount"] = 54,
-						},
-						["Judgement of Righteousness"] = {
-							["hitmin"] = 46,
-							["id"] = 20187,
-							["targets"] = {
-								["Kobold Miner"] = {
-									["amount"] = 46,
-								},
-							},
-							["casts"] = 1,
+						[643] = {
+							["type"] = "BUFF",
 							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 2,
-							["hitmax"] = 46,
-							["amount"] = 46,
-							["hitamount"] = 46,
+							["uptime"] = 19,
 						},
 					},
-					["damagetaken"] = 15,
+					["time"] = 10.47,
+					["totaldamagetaken"] = 49,
+					["damage"] = 756,
+					["damagespells"] = {
+						["Consecration (DoT)"] = {
+							["hitmin"] = 18,
+							["id"] = 26573,
+							["targets"] = {
+								["Kobold Miner"] = {
+									["overkill"] = 26,
+									["amount"] = 540,
+								},
+								["Kobold Tunneler"] = {
+									["overkill"] = 12,
+									["amount"] = 216,
+								},
+							},
+							["overkill"] = 38,
+							["count"] = 42,
+							["hit"] = 42,
+							["school"] = 2,
+							["hitmax"] = 18,
+							["amount"] = 756,
+							["hitamount"] = 756,
+						},
+					},
+					["damagetaken"] = 49,
 					["id"] = "0x0700000000972811",
 					["spec"] = 66,
-					["healspells"] = {
-						[20267] = {
-							["overheal"] = 0,
-							["targets"] = {
-								["Flokus"] = {
-									["overheal"] = 0,
-									["amount"] = 13,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 13,
-							["school"] = 2,
-							["max"] = 13,
-							["ishot"] = true,
-							["min"] = 13,
-						},
-					},
 					["damagetakenspells"] = {
 						["Melee"] = {
-							["hitmin"] = 3,
+							["DODGE"] = 7,
+							["hitmin"] = 1,
 							["id"] = 6603,
+							["amount"] = 49,
 							["sources"] = {
 								["Kobold Miner"] = {
-									["amount"] = 15,
+									["amount"] = 45,
+								},
+								["Kobold Tunneler"] = {
+									["amount"] = 4,
 								},
 							},
-							["count"] = 5,
-							["hit"] = 5,
+							["count"] = 35,
+							["hit"] = 24,
 							["school"] = 1,
-							["hitmax"] = 3,
-							["amount"] = 15,
-							["hitamount"] = 15,
+							["hitmax"] = 4,
+							["MISS"] = 4,
+							["hitamount"] = 49,
 						},
 					},
-					["heal"] = 13,
 					["name"] = "Flokus",
-					["overheal"] = 0,
-					["overkill"] = 211,
-					["totaldamage"] = 508,
+					["overkill"] = 38,
+					["totaldamage"] = 756,
 					["role"] = "TANK",
 				}, -- [1]
 			},
 			["type"] = "group",
-			["damagetaken"] = 15,
-			["overheal"] = 0,
-			["damage"] = 508,
-			["etotaldamagetaken"] = 508,
-			["overkill"] = 211,
-			["edamagetaken"] = 508,
-			["heal"] = 13,
-			["name"] = "Kobold Miner (18)",
+			["damagetaken"] = 49,
+			["starttime"] = 1689337088,
+			["damage"] = 756,
+			["overkill"] = 38,
+			["edamagetaken"] = 756,
+			["etotaldamagetaken"] = 756,
+			["name"] = "Kobold Miner (9)",
 			["mobname"] = "Kobold Miner",
-			["starttime"] = 1689274365,
-			["edamage"] = 15,
-			["last_action"] = 1689274372,
-			["endtime"] = 1689274373,
+			["edamage"] = 49,
+			["last_action"] = 1689337106,
+			["endtime"] = 1689337107,
 		}, -- [3]
 		{
+			["mana"] = 8,
 			["enemies"] = {
 				{
-					["id"] = "0xF1300000280F9DE5",
-					["name"] = "Kobold Miner",
-					["totaldamagetaken"] = 365,
-					["flag"] = 68168,
+					["damagespells"] = {
+						[6603] = {
+							["school"] = 1,
+							["targets"] = {
+								["Flokus"] = {
+									["amount"] = 4,
+								},
+							},
+							["amount"] = 4,
+						},
+					},
+					["damagetaken"] = 155,
+					["id"] = "0xF13000004F147894",
 					["class"] = "MONSTER",
-					["damagetaken"] = 365,
+					["damagetakenspells"] = {
+						[25742] = {
+							["school"] = 2,
+							["sources"] = {
+								["Flokus"] = {
+									["amount"] = 15,
+								},
+							},
+							["amount"] = 15,
+						},
+						[6603] = {
+							["school"] = 1,
+							["sources"] = {
+								["Flokus"] = {
+									["overkill"] = 19,
+									["amount"] = 140,
+								},
+							},
+							["overkill"] = 19,
+							["amount"] = 140,
+						},
+					},
+					["totaldamage"] = 4,
+					["name"] = "Narg the Taskmaster",
+					["totaldamagetaken"] = 155,
+					["flag"] = 68168,
+					["damage"] = 4,
+				}, -- [1]
+				{
+					["damagespells"] = {
+						[6603] = {
+							["school"] = 1,
+							["targets"] = {
+								["Flokus"] = {
+									["amount"] = 2,
+								},
+							},
+							["amount"] = 2,
+						},
+					},
+					["damagetaken"] = 202,
+					["id"] = "0xF13000002814785D",
+					["class"] = "MONSTER",
 					["damagetakenspells"] = {
 						[6603] = {
 							["school"] = 1,
 							["sources"] = {
 								["Flokus"] = {
-									["overkill"] = 205,
-									["amount"] = 279,
+									["amount"] = 74,
 								},
 							},
-							["overkill"] = 205,
-							["amount"] = 279,
+							["amount"] = 74,
 						},
 						[25742] = {
 							["school"] = 2,
 							["sources"] = {
 								["Flokus"] = {
-									["amount"] = 40,
+									["amount"] = 30,
 								},
 							},
-							["amount"] = 40,
+							["amount"] = 30,
 						},
 						[20187] = {
 							["school"] = 2,
 							["sources"] = {
 								["Flokus"] = {
-									["amount"] = 46,
+									["overkill"] = 82,
+									["amount"] = 98,
 								},
 							},
-							["amount"] = 46,
+							["overkill"] = 82,
+							["amount"] = 98,
 						},
 					},
-				}, -- [1]
+					["totaldamage"] = 2,
+					["name"] = "Kobold Miner",
+					["totaldamagetaken"] = 202,
+					["flag"] = 2632,
+					["damage"] = 2,
+				}, -- [2]
 			},
-			["totaldamage"] = 365,
-			["time"] = 6,
-			["totaldamagetaken"] = 0,
-			["etotaldamagetaken"] = 365,
-			["last_time"] = 37436.3,
+			["totaldamage"] = 357,
+			["time"] = 7,
+			["totaldamagetaken"] = 6,
+			["etotaldamage"] = 6,
+			["last_time"] = 16899.017,
 			["players"] = {
 				{
-					["last"] = 37436.267,
-					["flag"] = 134219025,
+					["last"] = 16897.202,
+					["flag"] = 1297,
 					["class"] = "PALADIN",
 					["auras"] = {
+						[25780] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 7,
+						},
 						[21084] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 6,
+							["uptime"] = 7,
+						},
+						[19742] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 7,
 						},
 						[62124] = {
 							["type"] = "DEBUFF",
 							["count"] = 1,
 							["school"] = 2,
 							["targets"] = {
-								["Kobold Miner"] = {
-									["uptime"] = 2,
+								["Narg the Taskmaster"] = {
+									["uptime"] = 1,
 									["count"] = 1,
 								},
 							},
-							["uptime"] = 2,
+							["uptime"] = 1,
 						},
-						[10290] = {
+						[643] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 6,
-						},
-						[20185] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 2,
-							["targets"] = {
-								["Kobold Miner"] = {
-									["uptime"] = 2,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 2,
-						},
-						[19834] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 6,
+							["uptime"] = 7,
 						},
 					},
-					["role"] = "TANK",
-					["time"] = 5.68,
-					["totaldamagetaken"] = 0,
-					["damage"] = 365,
+					["time"] = 4.93,
+					["totaldamagetaken"] = 6,
+					["damage"] = 357,
 					["damagespells"] = {
 						["Seal of Righteousness"] = {
-							["hitmin"] = 10,
+							["hitmin"] = 15,
 							["id"] = 25742,
 							["targets"] = {
+								["Narg the Taskmaster"] = {
+									["amount"] = 15,
+								},
 								["Kobold Miner"] = {
-									["amount"] = 40,
+									["amount"] = 30,
 								},
 							},
 							["casts"] = 1,
-							["count"] = 4,
-							["hit"] = 4,
+							["count"] = 3,
+							["hit"] = 3,
 							["school"] = 2,
-							["hitmax"] = 10,
-							["amount"] = 40,
-							["hitamount"] = 40,
+							["hitmax"] = 15,
+							["amount"] = 45,
+							["hitamount"] = 45,
 						},
 						["Melee"] = {
-							["hitmin"] = 59,
-							["criticalamount"] = 220,
+							["glance"] = 140,
+							["hitmin"] = 74,
 							["id"] = 6603,
-							["hitmax"] = 59,
-							["targets"] = {
-								["Kobold Miner"] = {
-									["overkill"] = 205,
-									["amount"] = 279,
-								},
-							},
-							["overkill"] = 205,
-							["count"] = 3,
-							["criticalmax"] = 118,
-							["critical"] = 2,
-							["amount"] = 279,
+							["hitmax"] = 74,
+							["glancemax"] = 140,
+							["overkill"] = 19,
+							["glancing"] = 1,
+							["hitamount"] = 74,
+							["count"] = 2,
+							["amount"] = 214,
 							["school"] = 1,
 							["hit"] = 1,
-							["criticalmin"] = 102,
-							["hitamount"] = 59,
+							["targets"] = {
+								["Narg the Taskmaster"] = {
+									["overkill"] = 19,
+									["amount"] = 140,
+								},
+								["Kobold Miner"] = {
+									["amount"] = 74,
+								},
+							},
+							["glancemin"] = 140,
 						},
 						["Judgement of Righteousness"] = {
-							["hitmin"] = 46,
+							["criticalamount"] = 98,
 							["id"] = 20187,
 							["targets"] = {
 								["Kobold Miner"] = {
-									["amount"] = 46,
+									["overkill"] = 82,
+									["amount"] = 98,
 								},
 							},
+							["overkill"] = 82,
 							["casts"] = 1,
-							["count"] = 1,
-							["hit"] = 1,
+							["critical"] = 1,
+							["amount"] = 98,
 							["school"] = 2,
-							["hitmax"] = 46,
-							["amount"] = 46,
-							["hitamount"] = 46,
+							["criticalmin"] = 98,
+							["criticalmax"] = 98,
+							["count"] = 1,
 						},
 					},
-					["damagetaken"] = 0,
+					["damagetaken"] = 6,
 					["id"] = "0x0700000000972811",
 					["spec"] = 66,
-					["healspells"] = {
-						[20267] = {
-							["overheal"] = 26,
-							["count"] = 2,
-							["amount"] = 0,
-							["school"] = 2,
-							["ishot"] = true,
-							["targets"] = {
-								["Flokus"] = {
-									["overheal"] = 26,
-									["amount"] = 0,
-								},
-							},
-						},
-					},
-					["overkill"] = 205,
-					["heal"] = 0,
-					["name"] = "Flokus",
-					["overheal"] = 26,
 					["damagetakenspells"] = {
 						["Melee"] = {
-							["DODGE"] = 1,
+							["hitmin"] = 2,
+							["id"] = 6603,
 							["sources"] = {
+								["Narg the Taskmaster"] = {
+									["amount"] = 4,
+								},
 								["Kobold Miner"] = {
-									["amount"] = 0,
+									["amount"] = 2,
 								},
 							},
 							["count"] = 2,
-							["amount"] = 0,
+							["hit"] = 2,
 							["school"] = 1,
-							["blocked"] = 3,
-							["BLOCK"] = 1,
-							["id"] = 6603,
+							["hitmax"] = 4,
+							["amount"] = 6,
+							["hitamount"] = 6,
 						},
 					},
-					["totaldamage"] = 365,
+					["manaspells"] = {
+						[20268] = 8,
+					},
+					["name"] = "Flokus",
+					["mana"] = 8,
+					["overkill"] = 101,
+					["totaldamage"] = 357,
+					["role"] = "TANK",
 				}, -- [1]
 			},
 			["type"] = "group",
-			["damagetaken"] = 0,
-			["damage"] = 365,
-			["overheal"] = 26,
-			["overkill"] = 205,
-			["edamagetaken"] = 365,
-			["heal"] = 0,
-			["name"] = "Kobold Miner (17)",
-			["mobname"] = "Kobold Miner",
-			["starttime"] = 1689274317,
-			["last_action"] = 1689274323,
-			["endtime"] = 1689274323,
+			["damagetaken"] = 6,
+			["damage"] = 357,
+			["overkill"] = 101,
+			["edamagetaken"] = 357,
+			["etotaldamagetaken"] = 357,
+			["name"] = "Narg the Taskmaster",
+			["mobname"] = "Narg the Taskmaster",
+			["starttime"] = 1689336836,
+			["edamage"] = 6,
+			["last_action"] = 1689336843,
+			["endtime"] = 1689336843,
 		}, -- [4]
 		{
 			["enemies"] = {
+				{
+					["id"] = "0xF13000002814784F",
+					["name"] = "Kobold Miner",
+					["totaldamagetaken"] = 164,
+					["flag"] = 68168,
+					["class"] = "MONSTER",
+					["damagetaken"] = 164,
+					["damagetakenspells"] = {
+						[6603] = {
+							["school"] = 1,
+							["sources"] = {
+								["Flokus"] = {
+									["amount"] = 85,
+								},
+							},
+							["amount"] = 85,
+						},
+						[25742] = {
+							["school"] = 2,
+							["sources"] = {
+								["Flokus"] = {
+									["amount"] = 30,
+								},
+							},
+							["amount"] = 30,
+						},
+						[20187] = {
+							["school"] = 2,
+							["sources"] = {
+								["Flokus"] = {
+									["overkill"] = 27,
+									["amount"] = 49,
+								},
+							},
+							["overkill"] = 27,
+							["amount"] = 49,
+						},
+					},
+				}, -- [1]
 				{
 					["damagespells"] = {
 						[6603] = {
 							["school"] = 1,
 							["targets"] = {
 								["Flokus"] = {
-									["amount"] = 6,
+									["amount"] = 1,
 								},
 							},
-							["amount"] = 6,
+							["amount"] = 1,
 						},
 					},
-					["damagetaken"] = 336,
-					["id"] = "0xF1300001DB0F9D2E",
+					["damagetaken"] = 179,
+					["flag"] = 68168,
 					["class"] = "MONSTER",
 					["damagetakenspells"] = {
 						[25742] = {
 							["school"] = 2,
 							["sources"] = {
 								["Flokus"] = {
-									["overkill"] = 4,
 									["amount"] = 30,
 								},
 							},
-							["overkill"] = 4,
 							["amount"] = 30,
 						},
 						[6603] = {
 							["school"] = 1,
 							["sources"] = {
 								["Flokus"] = {
-									["overkill"] = 206,
-									["amount"] = 306,
+									["overkill"] = 59,
+									["amount"] = 149,
 								},
 							},
-							["overkill"] = 206,
-							["amount"] = 306,
+							["overkill"] = 59,
+							["amount"] = 149,
 						},
 					},
-					["totaldamage"] = 6,
 					["name"] = "Kobold Tunneler",
-					["totaldamagetaken"] = 336,
-					["flag"] = 68168,
-					["damage"] = 6,
-				}, -- [1]
-				{
-					["id"] = "0xF1300000280F9D30",
-					["name"] = "Kobold Miner",
-					["totaldamagetaken"] = 191,
-					["flag"] = 68168,
-					["class"] = "MONSTER",
-					["damagetaken"] = 191,
-					["damagetakenspells"] = {
-						[6603] = {
-							["school"] = 1,
-							["sources"] = {
-								["Flokus"] = {
-									["overkill"] = 71,
-									["amount"] = 125,
-								},
-							},
-							["overkill"] = 71,
-							["amount"] = 125,
-						},
-						[25742] = {
-							["school"] = 2,
-							["sources"] = {
-								["Flokus"] = {
-									["amount"] = 20,
-								},
-							},
-							["amount"] = 20,
-						},
-						[20187] = {
-							["school"] = 2,
-							["sources"] = {
-								["Flokus"] = {
-									["amount"] = 46,
-								},
-							},
-							["amount"] = 46,
-						},
-					},
+					["totaldamage"] = 1,
+					["totaldamagetaken"] = 179,
+					["id"] = "0xF1300001DB147844",
+					["damage"] = 1,
 				}, -- [2]
 			},
-			["totaldamage"] = 527,
-			["time"] = 9,
-			["totaldamagetaken"] = 6,
-			["etotaldamage"] = 6,
-			["last_time"] = 37405.366,
+			["totaldamage"] = 343,
+			["time"] = 7,
+			["totaldamagetaken"] = 1,
+			["etotaldamagetaken"] = 343,
+			["last_time"] = 16890.15,
 			["players"] = {
 				{
-					["last"] = 37405.326,
-					["flag"] = 134219025,
+					["last"] = 16889.594,
+					["flag"] = 1297,
 					["class"] = "PALADIN",
 					["auras"] = {
+						[643] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 7,
+						},
+						[19742] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 7,
+						},
 						[21084] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 9,
+							["uptime"] = 7,
 						},
-						[62124] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 2,
-							["targets"] = {
-								["Kobold Tunneler"] = {
-									["uptime"] = 1,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 1,
-						},
-						[10290] = {
+						[25780] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 9,
-						},
-						[20185] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 2,
-							["targets"] = {
-								["Kobold Miner"] = {
-									["uptime"] = 1,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 1,
-						},
-						[19834] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 9,
+							["uptime"] = 7,
 						},
 					},
-					["time"] = 8.24,
-					["totaldamagetaken"] = 6,
-					["damage"] = 527,
+					["role"] = "TANK",
+					["time"] = 5.97,
+					["totaldamagetaken"] = 1,
+					["damage"] = 343,
 					["damagespells"] = {
 						["Seal of Righteousness"] = {
-							["hitmin"] = 10,
+							["hitmin"] = 15,
 							["id"] = 25742,
 							["targets"] = {
 								["Kobold Miner"] = {
-									["amount"] = 20,
+									["amount"] = 30,
 								},
 								["Kobold Tunneler"] = {
-									["overkill"] = 4,
 									["amount"] = 30,
 								},
 							},
-							["overkill"] = 4,
 							["casts"] = 1,
-							["count"] = 5,
-							["hit"] = 5,
+							["count"] = 4,
+							["hit"] = 4,
 							["school"] = 2,
-							["hitmax"] = 10,
-							["amount"] = 50,
-							["hitamount"] = 50,
+							["hitmax"] = 15,
+							["amount"] = 60,
+							["hitamount"] = 60,
 						},
 						["Melee"] = {
-							["glance"] = 371,
-							["hitmin"] = 60,
+							["hitmin"] = 69,
 							["id"] = 6603,
-							["hitmax"] = 60,
-							["glancemax"] = 132,
-							["overkill"] = 277,
-							["glancing"] = 3,
-							["hitamount"] = 60,
-							["count"] = 4,
-							["amount"] = 431,
-							["school"] = 1,
-							["hit"] = 1,
 							["targets"] = {
 								["Kobold Miner"] = {
-									["overkill"] = 71,
-									["amount"] = 125,
+									["amount"] = 85,
 								},
 								["Kobold Tunneler"] = {
-									["overkill"] = 206,
-									["amount"] = 306,
+									["overkill"] = 59,
+									["amount"] = 149,
 								},
 							},
-							["glancemin"] = 114,
+							["overkill"] = 59,
+							["blocked"] = 3,
+							["count"] = 3,
+							["hit"] = 3,
+							["school"] = 1,
+							["hitmax"] = 85,
+							["amount"] = 234,
+							["hitamount"] = 234,
 						},
 						["Judgement of Righteousness"] = {
-							["hitmin"] = 46,
+							["hitmin"] = 49,
 							["id"] = 20187,
 							["targets"] = {
 								["Kobold Miner"] = {
-									["amount"] = 46,
+									["overkill"] = 27,
+									["amount"] = 49,
 								},
 							},
+							["overkill"] = 27,
 							["casts"] = 1,
 							["count"] = 1,
 							["hit"] = 1,
 							["school"] = 2,
-							["hitmax"] = 46,
-							["amount"] = 46,
-							["hitamount"] = 46,
+							["hitmax"] = 49,
+							["amount"] = 49,
+							["hitamount"] = 49,
 						},
 					},
-					["damagetaken"] = 6,
+					["damagetaken"] = 1,
 					["id"] = "0x0700000000972811",
 					["spec"] = 66,
-					["healspells"] = {
-						[20267] = {
-							["overheal"] = 22,
-							["targets"] = {
-								["Flokus"] = {
-									["overheal"] = 22,
-									["amount"] = 4,
-								},
-							},
-							["count"] = 2,
-							["amount"] = 4,
-							["school"] = 2,
-							["max"] = 2,
-							["ishot"] = true,
-							["min"] = 2,
-						},
-					},
 					["damagetakenspells"] = {
 						["Melee"] = {
 							["DODGE"] = 1,
-							["hitmin"] = 2,
+							["hitmin"] = 1,
 							["id"] = 6603,
-							["amount"] = 6,
+							["hitmax"] = 1,
 							["sources"] = {
 								["Kobold Miner"] = {
 									["amount"] = 0,
 								},
 								["Kobold Tunneler"] = {
-									["amount"] = 6,
+									["amount"] = 1,
 								},
 							},
-							["count"] = 5,
-							["hit"] = 3,
+							["count"] = 3,
+							["hit"] = 1,
 							["school"] = 1,
-							["hitmax"] = 2,
+							["amount"] = 1,
 							["MISS"] = 1,
-							["hitamount"] = 6,
+							["hitamount"] = 1,
 						},
 					},
-					["heal"] = 4,
 					["name"] = "Flokus",
-					["overheal"] = 22,
-					["overkill"] = 281,
-					["totaldamage"] = 527,
-					["role"] = "TANK",
+					["overkill"] = 86,
+					["totaldamage"] = 343,
 				}, -- [1]
 			},
 			["type"] = "group",
-			["damagetaken"] = 6,
-			["overheal"] = 22,
-			["damage"] = 527,
-			["etotaldamagetaken"] = 527,
-			["overkill"] = 281,
-			["edamagetaken"] = 527,
-			["heal"] = 4,
-			["name"] = "Kobold Tunneler (14)",
-			["mobname"] = "Kobold Tunneler",
-			["starttime"] = 1689274284,
-			["edamage"] = 6,
-			["last_action"] = 1689274292,
-			["endtime"] = 1689274293,
+			["damagetaken"] = 1,
+			["damage"] = 343,
+			["overkill"] = 86,
+			["edamagetaken"] = 343,
+			["etotaldamage"] = 1,
+			["name"] = "Kobold Miner (8)",
+			["mobname"] = "Kobold Miner",
+			["starttime"] = 1689336827,
+			["edamage"] = 1,
+			["last_action"] = 1689336834,
+			["endtime"] = 1689336834,
 		}, -- [5]
 		{
 			["enemies"] = {
@@ -1155,156 +1143,211 @@ SkadaStorageDB = {
 							["school"] = 1,
 							["targets"] = {
 								["Flokus"] = {
-									["amount"] = 10,
+									["amount"] = 4,
 								},
 							},
-							["amount"] = 10,
+							["amount"] = 4,
 						},
 					},
-					["damagetaken"] = 64,
-					["id"] = "0xF1300001DB0F9B97",
+					["damagetaken"] = 316,
+					["id"] = "0xF13000002814780E",
 					["class"] = "MONSTER",
 					["damagetakenspells"] = {
-						[25742] = {
-							["school"] = 2,
-							["sources"] = {
-								["Flokus"] = {
-									["amount"] = 9,
-								},
-							},
-							["amount"] = 9,
-						},
 						[6603] = {
 							["school"] = 1,
 							["sources"] = {
 								["Flokus"] = {
-									["overkill"] = 41,
-									["amount"] = 55,
+									["overkill"] = 153,
+									["amount"] = 170,
 								},
 							},
-							["overkill"] = 41,
-							["amount"] = 55,
+							["overkill"] = 153,
+							["amount"] = 170,
+						},
+						[25742] = {
+							["school"] = 2,
+							["sources"] = {
+								["Flokus"] = {
+									["amount"] = 30,
+								},
+							},
+							["amount"] = 30,
+						},
+						[20187] = {
+							["school"] = 2,
+							["sources"] = {
+								["Flokus"] = {
+									["overkill"] = 11,
+									["amount"] = 98,
+								},
+							},
+							["overkill"] = 11,
+							["amount"] = 98,
+						},
+						[9784] = {
+							["school"] = 1,
+							["sources"] = {
+								["Flokus"] = {
+									["amount"] = 18,
+								},
+							},
+							["amount"] = 18,
 						},
 					},
-					["totaldamage"] = 10,
-					["name"] = "Kobold Tunneler",
-					["totaldamagetaken"] = 64,
-					["flag"] = 68168,
-					["damage"] = 10,
+					["totaldamage"] = 4,
+					["name"] = "Kobold Miner",
+					["totaldamagetaken"] = 316,
+					["flag"] = 2632,
+					["damage"] = 4,
 				}, -- [1]
 			},
-			["totaldamage"] = 64,
-			["time"] = 10,
-			["totaldamagetaken"] = 10,
-			["etotaldamage"] = 10,
-			["last_time"] = 37372.351,
+			["totaldamage"] = 316,
+			["time"] = 6,
+			["totaldamagetaken"] = 4,
+			["etotaldamage"] = 4,
+			["last_time"] = 16875.718,
 			["players"] = {
 				{
-					["last"] = 37372.326,
-					["flag"] = 134219025,
+					["last"] = 16875.695,
+					["flag"] = 1297,
 					["class"] = "PALADIN",
 					["auras"] = {
-						[62124] = {
-							["type"] = "DEBUFF",
+						[643] = {
+							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 2,
-							["targets"] = {
-								["Kobold Tunneler"] = {
-									["uptime"] = 3,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 3,
+							["uptime"] = 6,
+						},
+						[19742] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 6,
 						},
 						[21084] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 10,
+							["uptime"] = 6,
 						},
-						[10290] = {
+						[25780] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 10,
+							["uptime"] = 6,
 						},
 					},
-					["time"] = 3.5,
-					["totaldamagetaken"] = 10,
-					["damage"] = 64,
+					["time"] = 4.55,
+					["totaldamagetaken"] = 4,
+					["damage"] = 316,
 					["damagespells"] = {
-						["Seal of Righteousness"] = {
+						["Iron Shield Spike"] = {
 							["hitmin"] = 9,
-							["id"] = 25742,
+							["id"] = 9784,
 							["targets"] = {
-								["Kobold Tunneler"] = {
-									["amount"] = 9,
+								["Kobold Miner"] = {
+									["amount"] = 18,
 								},
 							},
 							["casts"] = 1,
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 2,
+							["count"] = 2,
+							["hit"] = 2,
+							["school"] = 1,
 							["hitmax"] = 9,
-							["amount"] = 9,
-							["hitamount"] = 9,
+							["amount"] = 18,
+							["hitamount"] = 18,
 						},
 						["Melee"] = {
-							["hitmin"] = 55,
+							["glance"] = 170,
 							["id"] = 6603,
+							["glancemax"] = 170,
+							["overkill"] = 153,
+							["glancing"] = 1,
+							["count"] = 1,
+							["amount"] = 170,
+							["school"] = 1,
 							["targets"] = {
-								["Kobold Tunneler"] = {
-									["overkill"] = 41,
-									["amount"] = 55,
+								["Kobold Miner"] = {
+									["overkill"] = 153,
+									["amount"] = 170,
 								},
 							},
-							["overkill"] = 41,
+							["glancemin"] = 170,
+						},
+						["Seal of Righteousness"] = {
+							["hitmin"] = 15,
+							["id"] = 25742,
+							["targets"] = {
+								["Kobold Miner"] = {
+									["amount"] = 30,
+								},
+							},
+							["casts"] = 1,
+							["count"] = 2,
+							["hit"] = 2,
+							["school"] = 2,
+							["hitmax"] = 15,
+							["amount"] = 30,
+							["hitamount"] = 30,
+						},
+						["Judgement of Righteousness"] = {
+							["criticalamount"] = 98,
+							["id"] = 20187,
+							["targets"] = {
+								["Kobold Miner"] = {
+									["overkill"] = 11,
+									["amount"] = 98,
+								},
+							},
+							["overkill"] = 11,
+							["casts"] = 1,
+							["critical"] = 1,
+							["amount"] = 98,
+							["school"] = 2,
+							["criticalmin"] = 98,
+							["criticalmax"] = 98,
 							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 1,
-							["hitmax"] = 55,
-							["amount"] = 55,
-							["hitamount"] = 55,
 						},
 					},
-					["damagetaken"] = 10,
+					["damagetaken"] = 4,
 					["id"] = "0x0700000000972811",
 					["spec"] = 66,
 					["damagetakenspells"] = {
 						["Melee"] = {
 							["hitmin"] = 2,
 							["id"] = 6603,
+							["blocked"] = 2,
+							["BLOCK"] = 2,
 							["sources"] = {
-								["Kobold Tunneler"] = {
-									["amount"] = 10,
+								["Kobold Miner"] = {
+									["amount"] = 4,
 								},
 							},
-							["count"] = 5,
-							["hit"] = 5,
+							["count"] = 4,
+							["hit"] = 2,
 							["school"] = 1,
 							["hitmax"] = 2,
-							["amount"] = 10,
-							["hitamount"] = 10,
+							["amount"] = 4,
+							["hitamount"] = 4,
 						},
 					},
 					["name"] = "Flokus",
-					["overkill"] = 41,
-					["totaldamage"] = 64,
+					["overkill"] = 164,
+					["totaldamage"] = 316,
 					["role"] = "TANK",
 				}, -- [1]
 			},
 			["type"] = "group",
-			["damagetaken"] = 10,
-			["etotaldamagetaken"] = 64,
-			["overkill"] = 41,
-			["edamagetaken"] = 64,
-			["damage"] = 64,
-			["name"] = "Kobold Tunneler (13)",
-			["mobname"] = "Kobold Tunneler",
-			["starttime"] = 1689274250,
-			["edamage"] = 10,
-			["last_action"] = 1689274259,
-			["endtime"] = 1689274260,
+			["damagetaken"] = 4,
+			["starttime"] = 1689336815,
+			["overkill"] = 164,
+			["edamagetaken"] = 316,
+			["damage"] = 316,
+			["name"] = "Kobold Miner (7)",
+			["mobname"] = "Kobold Miner",
+			["etotaldamagetaken"] = 316,
+			["edamage"] = 4,
+			["last_action"] = 1689336820,
+			["endtime"] = 1689336821,
 		}, -- [6]
 		{
+			["mana"] = 8,
 			["enemies"] = {
 				{
 					["damagespells"] = {
@@ -1312,13 +1355,13 @@ SkadaStorageDB = {
 							["school"] = 1,
 							["targets"] = {
 								["Flokus"] = {
-									["amount"] = 2,
+									["amount"] = 3,
 								},
 							},
-							["amount"] = 2,
+							["amount"] = 3,
 						},
 					},
-					["damagetaken"] = 435,
+					["damagetaken"] = 159,
 					["flag"] = 68168,
 					["class"] = "MONSTER",
 					["damagetakenspells"] = {
@@ -1326,182 +1369,258 @@ SkadaStorageDB = {
 							["school"] = 1,
 							["sources"] = {
 								["Flokus"] = {
-									["overkill"] = 223,
-									["amount"] = 321,
+									["overkill"] = 3,
+									["amount"] = 80,
 								},
 							},
-							["overkill"] = 223,
-							["amount"] = 321,
+							["overkill"] = 3,
+							["amount"] = 80,
 						},
 						[25742] = {
 							["school"] = 2,
 							["sources"] = {
 								["Flokus"] = {
-									["overkill"] = 8,
-									["amount"] = 36,
+									["amount"] = 30,
 								},
 							},
-							["overkill"] = 8,
-							["amount"] = 36,
+							["amount"] = 30,
 						},
 						[20187] = {
 							["school"] = 2,
 							["sources"] = {
 								["Flokus"] = {
-									["amount"] = 78,
+									["amount"] = 49,
 								},
 							},
-							["amount"] = 78,
+							["amount"] = 49,
 						},
 					},
-					["name"] = "Kobold Tunneler",
-					["totaldamage"] = 2,
-					["totaldamagetaken"] = 435,
-					["id"] = "0xF1300001DB0F9D15",
-					["damage"] = 2,
+					["name"] = "Goldtooth",
+					["totaldamage"] = 3,
+					["totaldamagetaken"] = 159,
+					["id"] = "0xF13000014714769A",
+					["damage"] = 3,
 				}, -- [1]
+				{
+					["damagespells"] = {
+						[6603] = {
+							["school"] = 1,
+							["targets"] = {
+								["Flokus"] = {
+									["amount"] = 2,
+								},
+							},
+							["amount"] = 2,
+						},
+					},
+					["damagetaken"] = 210,
+					["id"] = "0xF1300000281476B8",
+					["class"] = "MONSTER",
+					["damagetakenspells"] = {
+						[25742] = {
+							["school"] = 2,
+							["sources"] = {
+								["Flokus"] = {
+									["amount"] = 15,
+								},
+							},
+							["amount"] = 15,
+						},
+						[6603] = {
+							["school"] = 1,
+							["sources"] = {
+								["Flokus"] = {
+									["overkill"] = 73,
+									["amount"] = 195,
+								},
+							},
+							["overkill"] = 73,
+							["amount"] = 195,
+						},
+					},
+					["totaldamage"] = 2,
+					["name"] = "Kobold Miner",
+					["totaldamagetaken"] = 210,
+					["flag"] = 68168,
+					["damage"] = 2,
+				}, -- [2]
 			},
-			["totaldamage"] = 435,
+			["totaldamage"] = 369,
 			["time"] = 5,
-			["damage"] = 435,
-			["totaldamagetaken"] = 2,
-			["etotaldamagetaken"] = 435,
-			["last_time"] = 37329.092,
+			["damage"] = 369,
+			["totaldamagetaken"] = 5,
+			["etotaldamagetaken"] = 369,
+			["last_time"] = 16830.601,
 			["players"] = {
 				{
-					["last"] = 37329.069,
-					["flag"] = 134219025,
+					["ccdonespells"] = {
+						[853] = {
+							["count"] = 1,
+							["targets"] = {
+								["Kobold Miner"] = 1,
+							},
+						},
+					},
+					["last"] = 16830.528,
+					["flag"] = 1297,
 					["class"] = "PALADIN",
 					["auras"] = {
+						[25780] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 5,
+						},
 						[21084] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 5,
 						},
-						[10290] = {
+						[19742] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 5,
+						},
+						[62124] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 2,
+							["targets"] = {
+								["Kobold Miner"] = {
+									["uptime"] = 1,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 1,
+						},
+						[20186] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 2,
+							["targets"] = {
+								["Goldtooth"] = {
+									["uptime"] = 1,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 1,
+						},
+						[643] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 5,
 						},
 					},
-					["time"] = 5.359999999999999,
-					["totaldamagetaken"] = 2,
-					["damage"] = 435,
-					["overheal"] = 13,
-					["damagetaken"] = 2,
-					["id"] = "0x0700000000972811",
-					["spec"] = 66,
-					["healspells"] = {
-						[20267] = {
-							["overheal"] = 13,
-							["count"] = 1,
-							["amount"] = 0,
-							["school"] = 2,
-							["ishot"] = true,
+					["role"] = "TANK",
+					["time"] = 3.23,
+					["totaldamagetaken"] = 5,
+					["damage"] = 369,
+					["damagespells"] = {
+						["Melee"] = {
+							["glance"] = 195,
+							["hitmin"] = 80,
+							["id"] = 6603,
+							["glancemin"] = 195,
 							["targets"] = {
-								["Flokus"] = {
-									["overheal"] = 13,
-									["amount"] = 0,
+								["Goldtooth"] = {
+									["overkill"] = 3,
+									["amount"] = 80,
+								},
+								["Kobold Miner"] = {
+									["overkill"] = 73,
+									["amount"] = 195,
 								},
 							},
+							["overkill"] = 76,
+							["glancing"] = 1,
+							["glancemax"] = 195,
+							["count"] = 2,
+							["hit"] = 1,
+							["school"] = 1,
+							["hitmax"] = 80,
+							["amount"] = 275,
+							["hitamount"] = 80,
+						},
+						["Seal of Righteousness"] = {
+							["hitmin"] = 15,
+							["id"] = 25742,
+							["targets"] = {
+								["Goldtooth"] = {
+									["amount"] = 30,
+								},
+								["Kobold Miner"] = {
+									["amount"] = 15,
+								},
+							},
+							["casts"] = 1,
+							["count"] = 3,
+							["hit"] = 3,
+							["school"] = 2,
+							["hitmax"] = 15,
+							["amount"] = 45,
+							["hitamount"] = 45,
+						},
+						["Judgement of Righteousness"] = {
+							["hitmin"] = 49,
+							["id"] = 20187,
+							["targets"] = {
+								["Goldtooth"] = {
+									["amount"] = 49,
+								},
+							},
+							["casts"] = 1,
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 2,
+							["hitmax"] = 49,
+							["amount"] = 49,
+							["hitamount"] = 49,
 						},
 					},
+					["damagetaken"] = 5,
+					["id"] = "0x0700000000972811",
+					["spec"] = 66,
 					["damagetakenspells"] = {
 						["Melee"] = {
-							["hitmin"] = 1,
+							["hitmin"] = 2,
 							["id"] = 6603,
-							["blocked"] = 1,
-							["BLOCK"] = 1,
 							["sources"] = {
-								["Kobold Tunneler"] = {
+								["Goldtooth"] = {
+									["amount"] = 3,
+								},
+								["Kobold Miner"] = {
 									["amount"] = 2,
 								},
 							},
-							["count"] = 3,
+							["count"] = 2,
 							["hit"] = 2,
 							["school"] = 1,
-							["hitmax"] = 1,
-							["amount"] = 2,
-							["hitamount"] = 2,
+							["hitmax"] = 3,
+							["amount"] = 5,
+							["hitamount"] = 5,
 						},
 					},
-					["heal"] = 0,
+					["overkill"] = 76,
 					["name"] = "Flokus",
-					["overkill"] = 231,
-					["damagespells"] = {
-						["Melee"] = {
-							["glance"] = 135,
-							["criticalamount"] = 186,
-							["id"] = 6603,
-							["criticalmin"] = 92,
-							["glancemax"] = 135,
-							["overkill"] = 223,
-							["glancing"] = 1,
-							["criticalmax"] = 94,
-							["count"] = 3,
-							["amount"] = 321,
-							["school"] = 1,
-							["critical"] = 2,
-							["targets"] = {
-								["Kobold Tunneler"] = {
-									["overkill"] = 223,
-									["amount"] = 321,
-								},
-							},
-							["glancemin"] = 135,
-						},
-						["Seal of Righteousness"] = {
-							["hitmin"] = 9,
-							["id"] = 25742,
-							["targets"] = {
-								["Kobold Tunneler"] = {
-									["overkill"] = 8,
-									["amount"] = 36,
-								},
-							},
-							["overkill"] = 8,
-							["casts"] = 1,
-							["count"] = 4,
-							["hit"] = 4,
-							["school"] = 2,
-							["hitmax"] = 9,
-							["amount"] = 36,
-							["hitamount"] = 36,
-						},
-						["Judgement of Righteousness"] = {
-							["criticalamount"] = 78,
-							["id"] = 20187,
-							["targets"] = {
-								["Kobold Tunneler"] = {
-									["amount"] = 78,
-								},
-							},
-							["casts"] = 1,
-							["critical"] = 1,
-							["amount"] = 78,
-							["school"] = 2,
-							["criticalmin"] = 78,
-							["criticalmax"] = 78,
-							["count"] = 1,
-						},
+					["ccdone"] = 1,
+					["manaspells"] = {
+						[20268] = 8,
 					},
-					["totaldamage"] = 435,
-					["role"] = "TANK",
+					["mana"] = 8,
+					["totaldamage"] = 369,
 				}, -- [1]
 			},
 			["type"] = "group",
-			["damagetaken"] = 2,
-			["overheal"] = 13,
-			["etotaldamage"] = 2,
-			["overkill"] = 231,
-			["edamagetaken"] = 435,
-			["heal"] = 0,
-			["name"] = "Kobold Tunneler (12)",
-			["mobname"] = "Kobold Tunneler",
-			["starttime"] = 1689274211,
-			["edamage"] = 2,
-			["last_action"] = 1689274216,
-			["endtime"] = 1689274216,
+			["damagetaken"] = 5,
+			["ccdone"] = 1,
+			["etotaldamage"] = 5,
+			["overkill"] = 76,
+			["edamagetaken"] = 369,
+			["name"] = "Goldtooth (4)",
+			["mobname"] = "Goldtooth",
+			["starttime"] = 1689336771,
+			["edamage"] = 5,
+			["last_action"] = 1689336774,
+			["endtime"] = 1689336776,
 		}, -- [7]
 		{
 			["enemies"] = {
@@ -1511,415 +1630,190 @@ SkadaStorageDB = {
 							["school"] = 1,
 							["targets"] = {
 								["Flokus"] = {
-									["amount"] = 1,
+									["amount"] = 2,
 								},
 							},
-							["amount"] = 1,
+							["amount"] = 2,
 						},
 					},
-					["damagetaken"] = 280,
-					["id"] = "0xF1300001DB0F9AF5",
+					["damagetaken"] = 480,
+					["flag"] = 68168,
 					["class"] = "MONSTER",
 					["damagetakenspells"] = {
 						[6603] = {
 							["school"] = 1,
 							["sources"] = {
 								["Flokus"] = {
-									["overkill"] = 126,
-									["amount"] = 214,
+									["overkill"] = 232,
+									["amount"] = 322,
 								},
 							},
-							["overkill"] = 126,
-							["amount"] = 214,
+							["overkill"] = 232,
+							["amount"] = 322,
 						},
 						[25742] = {
 							["school"] = 2,
 							["sources"] = {
 								["Flokus"] = {
-									["overkill"] = 4,
-									["amount"] = 27,
+									["overkill"] = 8,
+									["amount"] = 60,
 								},
 							},
-							["overkill"] = 4,
-							["amount"] = 27,
+							["overkill"] = 8,
+							["amount"] = 60,
 						},
 						[20187] = {
 							["school"] = 2,
 							["sources"] = {
 								["Flokus"] = {
-									["overkill"] = 25,
-									["amount"] = 39,
+									["amount"] = 98,
 								},
 							},
-							["overkill"] = 25,
-							["amount"] = 39,
-						},
-					},
-					["totaldamage"] = 1,
-					["name"] = "Kobold Tunneler",
-					["totaldamagetaken"] = 280,
-					["flag"] = 68168,
-					["damage"] = 1,
-				}, -- [1]
-			},
-			["totaldamage"] = 280,
-			["time"] = 6,
-			["totaldamagetaken"] = 1,
-			["etotaldamage"] = 1,
-			["last_time"] = 37304.577,
-			["players"] = {
-				{
-					["last"] = 37304.553,
-					["flag"] = 134219025,
-					["class"] = "PALADIN",
-					["auras"] = {
-						[62124] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 2,
-							["targets"] = {
-								["Kobold Tunneler"] = {
-									["uptime"] = 1,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 1,
-						},
-						[21084] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 6,
-						},
-						[10290] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 6,
-						},
-					},
-					["time"] = 4.430000000000001,
-					["totaldamagetaken"] = 1,
-					["damage"] = 280,
-					["damagespells"] = {
-						["Seal of Righteousness"] = {
-							["hitmin"] = 9,
-							["id"] = 25742,
-							["targets"] = {
-								["Kobold Tunneler"] = {
-									["overkill"] = 4,
-									["amount"] = 27,
-								},
-							},
-							["overkill"] = 4,
-							["casts"] = 1,
-							["count"] = 3,
-							["hit"] = 3,
-							["school"] = 2,
-							["hitmax"] = 9,
-							["amount"] = 27,
-							["hitamount"] = 27,
-						},
-						["Melee"] = {
-							["glance"] = 126,
-							["criticalamount"] = 88,
-							["id"] = 6603,
-							["criticalmin"] = 88,
-							["glancemax"] = 126,
-							["overkill"] = 126,
-							["glancing"] = 1,
-							["criticalmax"] = 88,
-							["count"] = 2,
-							["amount"] = 214,
-							["school"] = 1,
-							["critical"] = 1,
-							["targets"] = {
-								["Kobold Tunneler"] = {
-									["overkill"] = 126,
-									["amount"] = 214,
-								},
-							},
-							["glancemin"] = 126,
-						},
-						["Judgement of Righteousness"] = {
-							["hitmin"] = 39,
-							["id"] = 20187,
-							["targets"] = {
-								["Kobold Tunneler"] = {
-									["overkill"] = 25,
-									["amount"] = 39,
-								},
-							},
-							["overkill"] = 25,
-							["casts"] = 1,
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 2,
-							["hitmax"] = 39,
-							["amount"] = 39,
-							["hitamount"] = 39,
-						},
-					},
-					["damagetaken"] = 1,
-					["id"] = "0x0700000000972811",
-					["spec"] = 66,
-					["healspells"] = {
-						[20267] = {
-							["overheal"] = 12,
-							["targets"] = {
-								["Flokus"] = {
-									["overheal"] = 12,
-									["amount"] = 1,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 1,
-							["school"] = 2,
-							["max"] = 1,
-							["ishot"] = true,
-							["min"] = 1,
-						},
-					},
-					["damagetakenspells"] = {
-						["Melee"] = {
-							["DODGE"] = 1,
-							["hitmin"] = 1,
-							["id"] = 6603,
-							["blocked"] = 2,
-							["BLOCK"] = 1,
-							["sources"] = {
-								["Kobold Tunneler"] = {
-									["amount"] = 1,
-								},
-							},
-							["count"] = 3,
-							["hit"] = 1,
-							["school"] = 1,
-							["hitmax"] = 1,
-							["amount"] = 1,
-							["hitamount"] = 1,
-						},
-					},
-					["heal"] = 1,
-					["name"] = "Flokus",
-					["overheal"] = 12,
-					["overkill"] = 155,
-					["totaldamage"] = 280,
-					["role"] = "TANK",
-				}, -- [1]
-			},
-			["type"] = "group",
-			["damagetaken"] = 1,
-			["overheal"] = 12,
-			["damage"] = 280,
-			["etotaldamagetaken"] = 280,
-			["overkill"] = 155,
-			["edamagetaken"] = 280,
-			["heal"] = 1,
-			["name"] = "Kobold Tunneler (11)",
-			["mobname"] = "Kobold Tunneler",
-			["starttime"] = 1689274186,
-			["edamage"] = 1,
-			["last_action"] = 1689274191,
-			["endtime"] = 1689274192,
-		}, -- [8]
-		{
-			["enemies"] = {
-				{
-					["damagespells"] = {
-						[6603] = {
-							["school"] = 1,
-							["targets"] = {
-								["Flokus"] = {
-									["amount"] = 8,
-								},
-							},
-							["amount"] = 8,
-						},
-					},
-					["damagetaken"] = 269,
-					["id"] = "0xF1300001DB0F95E5",
-					["class"] = "MONSTER",
-					["damagetakenspells"] = {
-						[25742] = {
-							["school"] = 2,
-							["sources"] = {
-								["Flokus"] = {
-									["amount"] = 30,
-								},
-							},
-							["amount"] = 30,
-						},
-						[6603] = {
-							["school"] = 1,
-							["sources"] = {
-								["Flokus"] = {
-									["overkill"] = 90,
-									["amount"] = 239,
-								},
-							},
-							["overkill"] = 90,
-							["amount"] = 239,
-						},
-					},
-					["totaldamage"] = 8,
-					["name"] = "Kobold Tunneler",
-					["totaldamagetaken"] = 269,
-					["flag"] = 2632,
-					["damage"] = 8,
-				}, -- [1]
-			},
-			["totaldamage"] = 269,
-			["time"] = 7,
-			["totaldamagetaken"] = 8,
-			["etotaldamage"] = 8,
-			["last_time"] = 37143.561,
-			["players"] = {
-				{
-					["last"] = 37143.087,
-					["flag"] = 134219025,
-					["class"] = "PALADIN",
-					["auras"] = {
-						[19834] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 7,
-						},
-						[10290] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 7,
-						},
-						[21084] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 7,
-						},
-					},
-					["time"] = 6.279999999999999,
-					["totaldamagetaken"] = 8,
-					["damage"] = 269,
-					["damagespells"] = {
-						["Seal of Righteousness"] = {
-							["hitmin"] = 10,
-							["id"] = 25742,
-							["targets"] = {
-								["Kobold Tunneler"] = {
-									["amount"] = 30,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 3,
-							["hit"] = 3,
-							["school"] = 2,
-							["hitmax"] = 10,
-							["amount"] = 30,
-							["hitamount"] = 30,
-						},
-						["Melee"] = {
-							["hitmin"] = 54,
-							["criticalamount"] = 124,
-							["id"] = 6603,
-							["criticalmin"] = 124,
-							["targets"] = {
-								["Kobold Tunneler"] = {
-									["overkill"] = 90,
-									["amount"] = 239,
-								},
-							},
-							["overkill"] = 90,
-							["critical"] = 1,
-							["criticalmax"] = 124,
-							["count"] = 3,
-							["hit"] = 2,
-							["school"] = 1,
-							["hitmax"] = 61,
-							["amount"] = 239,
-							["hitamount"] = 115,
-						},
-					},
-					["damagetaken"] = 8,
-					["id"] = "0x0700000000972811",
-					["spec"] = 66,
-					["damagetakenspells"] = {
-						["Melee"] = {
-							["hitmin"] = 2,
-							["id"] = 6603,
-							["sources"] = {
-								["Kobold Tunneler"] = {
-									["amount"] = 8,
-								},
-							},
-							["count"] = 4,
-							["hit"] = 4,
-							["school"] = 1,
-							["hitmax"] = 2,
-							["amount"] = 8,
-							["hitamount"] = 8,
-						},
-					},
-					["name"] = "Flokus",
-					["overkill"] = 90,
-					["totaldamage"] = 269,
-					["role"] = "TANK",
-				}, -- [1]
-			},
-			["type"] = "group",
-			["damagetaken"] = 8,
-			["starttime"] = 1689274024,
-			["overkill"] = 90,
-			["edamagetaken"] = 269,
-			["etotaldamagetaken"] = 269,
-			["name"] = "Kobold Tunneler (10)",
-			["mobname"] = "Kobold Tunneler",
-			["damage"] = 269,
-			["edamage"] = 8,
-			["last_action"] = 1689274030,
-			["endtime"] = 1689274031,
-		}, -- [9]
-		{
-			["enemies"] = {
-				{
-					["damagespells"] = {
-						[6603] = {
-							["school"] = 1,
-							["targets"] = {
-								["Flokus"] = {
-									["amount"] = 4,
-								},
-							},
-							["amount"] = 4,
-						},
-					},
-					["damagetaken"] = 129,
-					["flag"] = 68168,
-					["class"] = "MONSTER",
-					["damagetakenspells"] = {
-						[25742] = {
-							["school"] = 2,
-							["sources"] = {
-								["Flokus"] = {
-									["amount"] = 20,
-								},
-							},
-							["amount"] = 20,
-						},
-						[6603] = {
-							["school"] = 1,
-							["sources"] = {
-								["Flokus"] = {
-									["overkill"] = 9,
-									["amount"] = 109,
-								},
-							},
-							["overkill"] = 9,
-							["amount"] = 109,
+							["amount"] = 98,
 						},
 					},
 					["name"] = "Kobold Miner",
-					["totaldamage"] = 4,
-					["totaldamagetaken"] = 129,
-					["id"] = "0xF1300000280F9391",
-					["damage"] = 4,
+					["totaldamage"] = 2,
+					["totaldamagetaken"] = 480,
+					["id"] = "0xF130000028147599",
+					["damage"] = 2,
 				}, -- [1]
+			},
+			["totaldamage"] = 480,
+			["time"] = 8,
+			["totaldamagetaken"] = 2,
+			["etotaldamagetaken"] = 480,
+			["last_time"] = 16814.527,
+			["players"] = {
+				{
+					["last"] = 16814.512,
+					["flag"] = 1297,
+					["class"] = "PALADIN",
+					["auras"] = {
+						[25780] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 8,
+						},
+						[21084] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 8,
+						},
+						[19742] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 8,
+						},
+						[643] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 8,
+						},
+					},
+					["time"] = 7,
+					["totaldamagetaken"] = 2,
+					["damage"] = 480,
+					["damagespells"] = {
+						["Seal of Righteousness"] = {
+							["hitmin"] = 15,
+							["id"] = 25742,
+							["targets"] = {
+								["Kobold Miner"] = {
+									["overkill"] = 8,
+									["amount"] = 60,
+								},
+							},
+							["overkill"] = 8,
+							["casts"] = 1,
+							["count"] = 4,
+							["hit"] = 4,
+							["school"] = 2,
+							["hitmax"] = 15,
+							["amount"] = 60,
+							["hitamount"] = 60,
+						},
+						["Melee"] = {
+							["hitmin"] = 77,
+							["criticalamount"] = 162,
+							["id"] = 6603,
+							["criticalmin"] = 162,
+							["targets"] = {
+								["Kobold Miner"] = {
+									["overkill"] = 232,
+									["amount"] = 322,
+								},
+							},
+							["overkill"] = 232,
+							["critical"] = 1,
+							["criticalmax"] = 162,
+							["count"] = 3,
+							["hit"] = 2,
+							["school"] = 1,
+							["hitmax"] = 83,
+							["amount"] = 322,
+							["hitamount"] = 160,
+						},
+						["Judgement of Righteousness"] = {
+							["criticalamount"] = 98,
+							["id"] = 20187,
+							["targets"] = {
+								["Kobold Miner"] = {
+									["amount"] = 98,
+								},
+							},
+							["casts"] = 1,
+							["critical"] = 1,
+							["amount"] = 98,
+							["school"] = 2,
+							["criticalmin"] = 98,
+							["criticalmax"] = 98,
+							["count"] = 1,
+						},
+					},
+					["damagetaken"] = 2,
+					["id"] = "0x0700000000972811",
+					["spec"] = 66,
+					["damagetakenspells"] = {
+						["Melee"] = {
+							["DODGE"] = 1,
+							["hitmin"] = 2,
+							["id"] = 6603,
+							["hitmax"] = 2,
+							["sources"] = {
+								["Kobold Miner"] = {
+									["amount"] = 2,
+								},
+							},
+							["count"] = 3,
+							["hit"] = 1,
+							["school"] = 1,
+							["amount"] = 2,
+							["MISS"] = 1,
+							["hitamount"] = 2,
+						},
+					},
+					["name"] = "Flokus",
+					["overkill"] = 240,
+					["totaldamage"] = 480,
+					["role"] = "TANK",
+				}, -- [1]
+			},
+			["type"] = "group",
+			["damagetaken"] = 2,
+			["damage"] = 480,
+			["etotaldamage"] = 2,
+			["overkill"] = 240,
+			["edamagetaken"] = 480,
+			["starttime"] = 1689336751,
+			["name"] = "Kobold Miner (6)",
+			["mobname"] = "Kobold Miner",
+			["edamage"] = 2,
+			["last_action"] = 1689336758,
+			["endtime"] = 1689336759,
+		}, -- [8]
+		{
+			["enemies"] = {
 				{
 					["damagespells"] = {
 						[6603] = {
@@ -1932,214 +1826,379 @@ SkadaStorageDB = {
 							["amount"] = 12,
 						},
 					},
-					["damagetaken"] = 216,
-					["id"] = "0xF1300001470F93B8",
+					["damagetaken"] = 229,
+					["id"] = "0xF1300001DB146DAD",
 					["class"] = "MONSTER",
 					["damagetakenspells"] = {
-						[6603] = {
+						[9784] = {
 							["school"] = 1,
 							["sources"] = {
 								["Flokus"] = {
-									["amount"] = 104,
+									["amount"] = 9,
 								},
 							},
-							["amount"] = 104,
+							["amount"] = 9,
 						},
-						[25742] = {
+						[26573] = {
 							["school"] = 2,
 							["sources"] = {
 								["Flokus"] = {
-									["amount"] = 20,
+									["overkill"] = 25,
+									["amount"] = 220,
 								},
 							},
-							["amount"] = 20,
-						},
-						[20187] = {
-							["school"] = 2,
-							["sources"] = {
-								["Flokus"] = {
-									["overkill"] = 60,
-									["amount"] = 92,
-								},
-							},
-							["overkill"] = 60,
-							["amount"] = 92,
+							["overkill"] = 25,
+							["amount"] = 220,
 						},
 					},
 					["totaldamage"] = 12,
-					["name"] = "Goldtooth",
-					["totaldamagetaken"] = 216,
+					["name"] = "Kobold Tunneler",
+					["totaldamagetaken"] = 229,
 					["flag"] = 68168,
 					["damage"] = 12,
-				}, -- [2]
-			},
-			["totaldamage"] = 345,
-			["time"] = 9,
-			["totaldamagetaken"] = 16,
-			["etotaldamagetaken"] = 345,
-			["last_time"] = 37072.736,
-			["players"] = {
+				}, -- [1]
 				{
-					["last"] = 37071.865,
-					["flag"] = 134219025,
-					["class"] = "PALADIN",
-					["auras"] = {
-						[19834] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 9,
-						},
-						[62124] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 2,
+					["damagespells"] = {
+						[6603] = {
+							["school"] = 1,
 							["targets"] = {
-								["Goldtooth"] = {
-									["uptime"] = 3,
-									["count"] = 1,
+								["Flokus"] = {
+									["amount"] = 27,
 								},
 							},
-							["uptime"] = 3,
+							["amount"] = 27,
 						},
-						[10290] = {
+					},
+					["damagetaken"] = 500,
+					["id"] = "0xF130000028146DBC",
+					["class"] = "MONSTER",
+					["damagetakenspells"] = {
+						[26573] = {
+							["school"] = 2,
+							["sources"] = {
+								["Flokus"] = {
+									["overkill"] = 12,
+									["amount"] = 500,
+								},
+							},
+							["overkill"] = 12,
+							["amount"] = 500,
+						},
+					},
+					["totaldamage"] = 27,
+					["name"] = "Kobold Miner",
+					["totaldamagetaken"] = 500,
+					["flag"] = 2632,
+					["damage"] = 27,
+				}, -- [2]
+			},
+			["totaldamage"] = 729,
+			["time"] = 17,
+			["totaldamagetaken"] = 39,
+			["etotaldamage"] = 39,
+			["last_time"] = 16555.255,
+			["players"] = {
+				{
+					["last"] = 16555.239,
+					["flag"] = 1297,
+					["class"] = "PALADIN",
+					["auras"] = {
+						[25780] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 9,
+							["uptime"] = 17,
 						},
 						[21084] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 9,
+							["uptime"] = 17,
 						},
-					},
-					["role"] = "TANK",
-					["time"] = 7.59,
-					["totaldamagetaken"] = 16,
-					["damage"] = 345,
-					["damagespells"] = {
-						["Seal of Righteousness"] = {
-							["hitmin"] = 10,
-							["id"] = 25742,
+						[26573] = {
+							["type"] = "DEBUFF",
+							["count"] = 6,
+							["school"] = 2,
 							["targets"] = {
 								["Kobold Miner"] = {
-									["amount"] = 20,
+									["uptime"] = 7,
+									["count"] = 4,
 								},
-								["Goldtooth"] = {
-									["amount"] = 20,
+								["Kobold Tunneler"] = {
+									["uptime"] = 6,
+									["count"] = 2,
 								},
 							},
-							["casts"] = 1,
-							["count"] = 4,
-							["hit"] = 4,
-							["school"] = 2,
-							["hitmax"] = 10,
-							["amount"] = 40,
-							["hitamount"] = 40,
+							["uptime"] = 7,
 						},
-						["Melee"] = {
-							["glance"] = 104,
-							["hitmin"] = 52,
-							["id"] = 6603,
-							["glancemin"] = 104,
-							["targets"] = {
-								["Kobold Miner"] = {
-									["overkill"] = 9,
-									["amount"] = 109,
-								},
-								["Goldtooth"] = {
-									["amount"] = 104,
-								},
-							},
-							["overkill"] = 9,
-							["glancing"] = 1,
-							["glancemax"] = 104,
-							["count"] = 3,
-							["hit"] = 2,
-							["school"] = 1,
-							["hitmax"] = 57,
-							["amount"] = 213,
-							["hitamount"] = 109,
-						},
-						["Judgement of Righteousness"] = {
-							["criticalamount"] = 92,
-							["id"] = 20187,
-							["targets"] = {
-								["Goldtooth"] = {
-									["overkill"] = 60,
-									["amount"] = 92,
-								},
-							},
-							["overkill"] = 60,
-							["casts"] = 1,
-							["critical"] = 1,
-							["amount"] = 92,
-							["school"] = 2,
-							["criticalmin"] = 92,
-							["criticalmax"] = 92,
+						[19834] = {
+							["type"] = "BUFF",
 							["count"] = 1,
+							["uptime"] = 17,
+						},
+						[643] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 17,
 						},
 					},
-					["damagetaken"] = 16,
+					["time"] = 10.3,
+					["totaldamagetaken"] = 39,
+					["damage"] = 729,
+					["damagespells"] = {
+						["Iron Shield Spike"] = {
+							["hitmin"] = 9,
+							["id"] = 9784,
+							["targets"] = {
+								["Kobold Tunneler"] = {
+									["amount"] = 9,
+								},
+							},
+							["casts"] = 1,
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 1,
+							["hitmax"] = 9,
+							["amount"] = 9,
+							["hitamount"] = 9,
+						},
+						["Consecration (DoT)"] = {
+							["hitmin"] = 20,
+							["id"] = 26573,
+							["targets"] = {
+								["Kobold Miner"] = {
+									["overkill"] = 12,
+									["amount"] = 500,
+								},
+								["Kobold Tunneler"] = {
+									["overkill"] = 25,
+									["amount"] = 220,
+								},
+							},
+							["overkill"] = 37,
+							["count"] = 36,
+							["hit"] = 36,
+							["school"] = 2,
+							["hitmax"] = 20,
+							["amount"] = 720,
+							["hitamount"] = 720,
+						},
+					},
+					["damagetaken"] = 39,
 					["id"] = "0x0700000000972811",
 					["spec"] = 66,
-					["healspells"] = {
-						[20267] = {
-							["overheal"] = 0,
-							["targets"] = {
-								["Flokus"] = {
-									["overheal"] = 0,
-									["amount"] = 13,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 13,
-							["school"] = 2,
-							["max"] = 13,
-							["ishot"] = true,
-							["min"] = 13,
-						},
-					},
 					["damagetakenspells"] = {
 						["Melee"] = {
-							["hitmin"] = 2,
+							["DODGE"] = 6,
+							["hitmin"] = 1,
 							["id"] = 6603,
+							["blocked"] = 1,
+							["BLOCK"] = 1,
+							["PARRY"] = 1,
+							["amount"] = 39,
 							["sources"] = {
 								["Kobold Miner"] = {
-									["amount"] = 4,
+									["amount"] = 27,
 								},
-								["Goldtooth"] = {
+								["Kobold Tunneler"] = {
 									["amount"] = 12,
 								},
 							},
-							["count"] = 5,
-							["hit"] = 5,
+							["count"] = 35,
+							["hit"] = 26,
 							["school"] = 1,
-							["hitmax"] = 4,
-							["amount"] = 16,
-							["hitamount"] = 16,
+							["hitmax"] = 3,
+							["MISS"] = 1,
+							["hitamount"] = 39,
+						},
+						["Pierce Armor"] = {
+							["sources"] = {
+								["Kobold Miner"] = {
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+							["school"] = 1,
+							["MISS"] = 1,
+							["id"] = 6016,
 						},
 					},
-					["heal"] = 13,
 					["name"] = "Flokus",
-					["overheal"] = 0,
-					["overkill"] = 69,
-					["totaldamage"] = 345,
+					["overkill"] = 37,
+					["totaldamage"] = 729,
+					["role"] = "TANK",
 				}, -- [1]
 			},
 			["type"] = "group",
-			["damagetaken"] = 16,
-			["damage"] = 345,
-			["overheal"] = 0,
-			["etotaldamage"] = 16,
-			["overkill"] = 69,
-			["edamagetaken"] = 345,
-			["heal"] = 13,
-			["name"] = "Kobold Miner (16)",
-			["mobname"] = "Kobold Miner",
-			["starttime"] = 1689273951,
-			["edamage"] = 16,
-			["last_action"] = 1689273960,
-			["endtime"] = 1689273960,
+			["damagetaken"] = 39,
+			["starttime"] = 1689336482,
+			["damage"] = 729,
+			["overkill"] = 37,
+			["edamagetaken"] = 729,
+			["etotaldamagetaken"] = 729,
+			["name"] = "Kobold Tunneler (10)",
+			["mobname"] = "Kobold Tunneler",
+			["edamage"] = 39,
+			["last_action"] = 1689336499,
+			["endtime"] = 1689336499,
+		}, -- [9]
+		{
+			["enemies"] = {
+				{
+					["damagespells"] = {
+						[6603] = {
+							["school"] = 1,
+							["targets"] = {
+								["Flokus"] = {
+									["amount"] = 3,
+								},
+							},
+							["amount"] = 3,
+						},
+					},
+					["damagetaken"] = 261,
+					["id"] = "0xF1300001DB146BCC",
+					["class"] = "MONSTER",
+					["damagetakenspells"] = {
+						[25742] = {
+							["school"] = 2,
+							["sources"] = {
+								["Flokus"] = {
+									["amount"] = 34,
+								},
+							},
+							["amount"] = 34,
+						},
+						[6603] = {
+							["school"] = 1,
+							["sources"] = {
+								["Flokus"] = {
+									["overkill"] = 141,
+									["amount"] = 227,
+								},
+							},
+							["overkill"] = 141,
+							["amount"] = 227,
+						},
+					},
+					["totaldamage"] = 3,
+					["name"] = "Kobold Tunneler",
+					["totaldamagetaken"] = 261,
+					["flag"] = 68168,
+					["damage"] = 3,
+				}, -- [1]
+			},
+			["totaldamage"] = 261,
+			["time"] = 5,
+			["totaldamagetaken"] = 3,
+			["etotaldamage"] = 3,
+			["last_time"] = 16455.532,
+			["players"] = {
+				{
+					["last"] = 16455.5,
+					["flag"] = 1297,
+					["class"] = "PALADIN",
+					["auras"] = {
+						[643] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 5,
+						},
+						[19834] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 5,
+						},
+						[21084] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 5,
+						},
+						[25780] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 5,
+						},
+					},
+					["time"] = 4.17,
+					["totaldamagetaken"] = 3,
+					["damage"] = 261,
+					["damagespells"] = {
+						["Seal of Righteousness"] = {
+							["hitmin"] = 17,
+							["id"] = 25742,
+							["targets"] = {
+								["Kobold Tunneler"] = {
+									["amount"] = 34,
+								},
+							},
+							["casts"] = 1,
+							["count"] = 2,
+							["hit"] = 2,
+							["school"] = 2,
+							["hitmax"] = 17,
+							["amount"] = 34,
+							["hitamount"] = 34,
+						},
+						["Melee"] = {
+							["hitmin"] = 75,
+							["criticalamount"] = 152,
+							["id"] = 6603,
+							["criticalmin"] = 152,
+							["targets"] = {
+								["Kobold Tunneler"] = {
+									["overkill"] = 141,
+									["amount"] = 227,
+								},
+							},
+							["overkill"] = 141,
+							["critical"] = 1,
+							["criticalmax"] = 152,
+							["count"] = 2,
+							["hit"] = 1,
+							["school"] = 1,
+							["hitmax"] = 75,
+							["amount"] = 227,
+							["hitamount"] = 75,
+						},
+					},
+					["damagetaken"] = 3,
+					["id"] = "0x0700000000972811",
+					["spec"] = 66,
+					["damagetakenspells"] = {
+						["Melee"] = {
+							["hitmin"] = 1,
+							["id"] = 6603,
+							["sources"] = {
+								["Kobold Tunneler"] = {
+									["amount"] = 3,
+								},
+							},
+							["count"] = 2,
+							["hit"] = 2,
+							["school"] = 1,
+							["hitmax"] = 2,
+							["amount"] = 3,
+							["hitamount"] = 3,
+						},
+					},
+					["name"] = "Flokus",
+					["overkill"] = 141,
+					["totaldamage"] = 261,
+					["role"] = "TANK",
+				}, -- [1]
+			},
+			["type"] = "group",
+			["damagetaken"] = 3,
+			["starttime"] = 1689336395,
+			["overkill"] = 141,
+			["edamagetaken"] = 261,
+			["damage"] = 261,
+			["name"] = "Kobold Tunneler (9)",
+			["mobname"] = "Kobold Tunneler",
+			["etotaldamagetaken"] = 261,
+			["edamage"] = 3,
+			["last_action"] = 1689336399,
+			["endtime"] = 1689336400,
 		}, -- [10]
 		{
 			["enemies"] = {
@@ -2149,84 +2208,56 @@ SkadaStorageDB = {
 							["school"] = 1,
 							["targets"] = {
 								["Flokus"] = {
-									["amount"] = 8,
+									["amount"] = 3,
 								},
 							},
-							["amount"] = 8,
+							["amount"] = 3,
 						},
 					},
-					["damagetaken"] = 394,
-					["flag"] = 68168,
+					["damagetaken"] = 447,
+					["id"] = "0xF1300001DB146AA2",
 					["class"] = "MONSTER",
 					["damagetakenspells"] = {
-						[6603] = {
-							["school"] = 1,
-							["sources"] = {
-								["Flokus"] = {
-									["overkill"] = 148,
-									["amount"] = 308,
-								},
-							},
-							["overkill"] = 148,
-							["amount"] = 308,
-						},
 						[25742] = {
 							["school"] = 2,
 							["sources"] = {
 								["Flokus"] = {
-									["overkill"] = 6,
-									["amount"] = 40,
+									["amount"] = 34,
 								},
 							},
-							["overkill"] = 6,
-							["amount"] = 40,
+							["amount"] = 34,
 						},
-						[20187] = {
-							["school"] = 2,
+						[6603] = {
+							["school"] = 1,
 							["sources"] = {
 								["Flokus"] = {
-									["amount"] = 46,
+									["overkill"] = 225,
+									["amount"] = 413,
 								},
 							},
-							["amount"] = 46,
+							["overkill"] = 225,
+							["amount"] = 413,
 						},
 					},
-					["name"] = "Kobold Miner",
-					["totaldamage"] = 8,
-					["totaldamagetaken"] = 394,
-					["id"] = "0xF1300000280F94AE",
-					["damage"] = 8,
+					["totaldamage"] = 3,
+					["name"] = "Kobold Tunneler",
+					["totaldamagetaken"] = 447,
+					["flag"] = 68168,
+					["damage"] = 3,
 				}, -- [1]
 			},
-			["totaldamage"] = 394,
+			["totaldamage"] = 447,
 			["time"] = 5,
-			["totaldamagetaken"] = 8,
-			["etotaldamagetaken"] = 394,
-			["last_time"] = 37033.913,
+			["totaldamagetaken"] = 3,
+			["etotaldamage"] = 3,
+			["last_time"] = 16399.857,
 			["players"] = {
 				{
-					["last"] = 37033.881,
-					["flag"] = 134219025,
+					["last"] = 16399.825,
+					["flag"] = 1297,
 					["class"] = "PALADIN",
 					["auras"] = {
-						[19834] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 5,
-						},
-						[20185] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 2,
-							["targets"] = {
-								["Kobold Miner"] = {
-									["uptime"] = 3,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 3,
-						},
-						[10290] = {
+						[25780] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 5,
@@ -2236,110 +2267,358 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 5,
 						},
-					},
-					["role"] = "TANK",
-					["time"] = 4.66,
-					["totaldamagetaken"] = 8,
-					["damage"] = 394,
-					["damagespells"] = {
-						["Melee"] = {
-							["glance"] = 138,
-							["hitmin"] = 50,
-							["criticalmin"] = 120,
+						[19834] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 5,
+						},
+						[62124] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 2,
 							["targets"] = {
-								["Kobold Miner"] = {
-									["overkill"] = 148,
-									["amount"] = 308,
+								["Kobold Tunneler"] = {
+									["uptime"] = 3,
+									["count"] = 1,
 								},
 							},
-							["glancing"] = 1,
-							["amount"] = 308,
-							["glancemin"] = 138,
-							["criticalamount"] = 120,
+							["uptime"] = 3,
+						},
+						[643] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 5,
+						},
+					},
+					["time"] = 4.63,
+					["totaldamagetaken"] = 3,
+					["damage"] = 447,
+					["damagespells"] = {
+						["Seal of Righteousness"] = {
+							["hitmin"] = 17,
+							["id"] = 25742,
+							["targets"] = {
+								["Kobold Tunneler"] = {
+									["amount"] = 34,
+								},
+							},
+							["casts"] = 1,
+							["count"] = 2,
+							["hit"] = 2,
+							["school"] = 2,
+							["hitmax"] = 17,
+							["amount"] = 34,
+							["hitamount"] = 34,
+						},
+						["Melee"] = {
+							["glance"] = 413,
 							["id"] = 6603,
-							["glancemax"] = 138,
-							["overkill"] = 148,
-							["criticalmax"] = 120,
-							["hitmax"] = 50,
+							["glancemax"] = 211,
+							["overkill"] = 225,
+							["glancing"] = 2,
+							["count"] = 2,
+							["amount"] = 413,
+							["school"] = 1,
+							["targets"] = {
+								["Kobold Tunneler"] = {
+									["overkill"] = 225,
+									["amount"] = 413,
+								},
+							},
+							["glancemin"] = 202,
+						},
+					},
+					["damagetaken"] = 3,
+					["id"] = "0x0700000000972811",
+					["spec"] = 66,
+					["damagetakenspells"] = {
+						["Melee"] = {
+							["DODGE"] = 1,
+							["hitmin"] = 1,
+							["id"] = 6603,
+							["PARRY"] = 1,
+							["sources"] = {
+								["Kobold Tunneler"] = {
+									["amount"] = 3,
+								},
+							},
+							["count"] = 4,
+							["hit"] = 2,
+							["school"] = 1,
+							["hitmax"] = 2,
+							["amount"] = 3,
+							["hitamount"] = 3,
+						},
+					},
+					["name"] = "Flokus",
+					["overkill"] = 225,
+					["totaldamage"] = 447,
+					["role"] = "TANK",
+				}, -- [1]
+			},
+			["type"] = "group",
+			["damagetaken"] = 3,
+			["damage"] = 447,
+			["overkill"] = 225,
+			["edamagetaken"] = 447,
+			["etotaldamagetaken"] = 447,
+			["name"] = "Kobold Tunneler (8)",
+			["mobname"] = "Kobold Tunneler",
+			["starttime"] = 1689336339,
+			["edamage"] = 3,
+			["last_action"] = 1689336344,
+			["endtime"] = 1689336344,
+		}, -- [11]
+		{
+			["mana"] = 8,
+			["enemies"] = {
+				{
+					["id"] = "0xF1300001DB14696B",
+					["name"] = "Kobold Tunneler",
+					["totaldamagetaken"] = 184,
+					["flag"] = 68168,
+					["class"] = "MONSTER",
+					["damagetaken"] = 184,
+					["damagetakenspells"] = {
+						[6603] = {
+							["school"] = 1,
+							["sources"] = {
+								["Flokus"] = {
+									["overkill"] = 64,
+									["amount"] = 94,
+								},
+							},
+							["overkill"] = 64,
+							["amount"] = 94,
+						},
+						[25742] = {
+							["school"] = 2,
+							["sources"] = {
+								["Flokus"] = {
+									["amount"] = 34,
+								},
+							},
+							["amount"] = 34,
+						},
+						[20187] = {
+							["school"] = 2,
+							["sources"] = {
+								["Flokus"] = {
+									["amount"] = 56,
+								},
+							},
+							["amount"] = 56,
+						},
+					},
+				}, -- [1]
+				{
+					["id"] = "0xF1300000281469CC",
+					["name"] = "Kobold Miner",
+					["totaldamagetaken"] = 235,
+					["flag"] = 2632,
+					["class"] = "MONSTER",
+					["damagetaken"] = 235,
+					["damagetakenspells"] = {
+						[6603] = {
+							["school"] = 1,
+							["sources"] = {
+								["Flokus"] = {
+									["overkill"] = 98,
+									["amount"] = 209,
+								},
+							},
+							["overkill"] = 98,
+							["amount"] = 209,
+						},
+						[25742] = {
+							["school"] = 2,
+							["sources"] = {
+								["Flokus"] = {
+									["amount"] = 17,
+								},
+							},
+							["amount"] = 17,
+						},
+						[9784] = {
+							["school"] = 1,
+							["sources"] = {
+								["Flokus"] = {
+									["amount"] = 9,
+								},
+							},
+							["amount"] = 9,
+						},
+					},
+				}, -- [2]
+			},
+			["totaldamage"] = 419,
+			["time"] = 7,
+			["totaldamagetaken"] = 0,
+			["etotaldamagetaken"] = 419,
+			["last_time"] = 16257.275,
+			["players"] = {
+				{
+					["last"] = 16257.252,
+					["flag"] = 1297,
+					["class"] = "PALADIN",
+					["auras"] = {
+						[25780] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 7,
+						},
+						[21084] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 7,
+						},
+						[19834] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 7,
+						},
+						[20186] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 2,
+							["targets"] = {
+								["Kobold Tunneler"] = {
+									["uptime"] = 2,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 2,
+						},
+						[643] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 7,
+						},
+					},
+					["role"] = "TANK",
+					["time"] = 5.91,
+					["totaldamagetaken"] = 0,
+					["damage"] = 419,
+					["damagespells"] = {
+						["Iron Shield Spike"] = {
+							["hitmin"] = 9,
+							["id"] = 9784,
+							["targets"] = {
+								["Kobold Miner"] = {
+									["amount"] = 9,
+								},
+							},
+							["casts"] = 1,
+							["count"] = 1,
 							["hit"] = 1,
 							["school"] = 1,
-							["critical"] = 1,
-							["count"] = 3,
-							["hitamount"] = 50,
+							["hitmax"] = 9,
+							["amount"] = 9,
+							["hitamount"] = 9,
+						},
+						["Melee"] = {
+							["glance"] = 209,
+							["hitmin"] = 94,
+							["id"] = 6603,
+							["glancemin"] = 209,
+							["targets"] = {
+								["Kobold Miner"] = {
+									["overkill"] = 98,
+									["amount"] = 209,
+								},
+								["Kobold Tunneler"] = {
+									["overkill"] = 64,
+									["amount"] = 94,
+								},
+							},
+							["overkill"] = 162,
+							["glancing"] = 1,
+							["glancemax"] = 209,
+							["count"] = 2,
+							["hit"] = 1,
+							["school"] = 1,
+							["hitmax"] = 94,
+							["amount"] = 303,
+							["hitamount"] = 94,
 						},
 						["Seal of Righteousness"] = {
-							["hitmin"] = 10,
+							["hitmin"] = 17,
 							["id"] = 25742,
 							["targets"] = {
 								["Kobold Miner"] = {
-									["overkill"] = 6,
-									["amount"] = 40,
+									["amount"] = 17,
+								},
+								["Kobold Tunneler"] = {
+									["amount"] = 34,
 								},
 							},
-							["overkill"] = 6,
 							["casts"] = 1,
-							["count"] = 4,
-							["hit"] = 4,
+							["count"] = 3,
+							["hit"] = 3,
 							["school"] = 2,
-							["hitmax"] = 10,
-							["amount"] = 40,
-							["hitamount"] = 40,
+							["hitmax"] = 17,
+							["amount"] = 51,
+							["hitamount"] = 51,
 						},
 						["Judgement of Righteousness"] = {
-							["hitmin"] = 46,
+							["hitmin"] = 56,
 							["id"] = 20187,
 							["targets"] = {
-								["Kobold Miner"] = {
-									["amount"] = 46,
+								["Kobold Tunneler"] = {
+									["amount"] = 56,
 								},
 							},
 							["casts"] = 1,
 							["count"] = 1,
 							["hit"] = 1,
 							["school"] = 2,
-							["hitmax"] = 46,
-							["amount"] = 46,
-							["hitamount"] = 46,
+							["hitmax"] = 56,
+							["amount"] = 56,
+							["hitamount"] = 56,
 						},
 					},
-					["damagetaken"] = 8,
+					["damagetaken"] = 0,
 					["id"] = "0x0700000000972811",
 					["spec"] = 66,
 					["damagetakenspells"] = {
 						["Melee"] = {
-							["hitmin"] = 2,
-							["id"] = 6603,
+							["DODGE"] = 1,
 							["sources"] = {
 								["Kobold Miner"] = {
-									["amount"] = 8,
+									["amount"] = 0,
+								},
+								["Kobold Tunneler"] = {
+									["amount"] = 0,
 								},
 							},
-							["count"] = 4,
-							["hit"] = 4,
+							["count"] = 2,
+							["amount"] = 0,
 							["school"] = 1,
-							["hitmax"] = 2,
-							["amount"] = 8,
-							["hitamount"] = 8,
+							["blocked"] = 2,
+							["BLOCK"] = 1,
+							["id"] = 6603,
 						},
 					},
+					["overkill"] = 162,
 					["name"] = "Flokus",
-					["overkill"] = 154,
-					["totaldamage"] = 394,
+					["manaspells"] = {
+						[20268] = 8,
+					},
+					["mana"] = 8,
+					["totaldamage"] = 419,
 				}, -- [1]
 			},
 			["type"] = "group",
-			["damagetaken"] = 8,
-			["damage"] = 394,
-			["etotaldamage"] = 8,
-			["overkill"] = 154,
-			["edamagetaken"] = 394,
-			["name"] = "Kobold Miner (15)",
-			["mobname"] = "Kobold Miner",
-			["starttime"] = 1689273916,
-			["edamage"] = 8,
-			["last_action"] = 1689273921,
-			["endtime"] = 1689273921,
-		}, -- [11]
+			["damagetaken"] = 0,
+			["damage"] = 419,
+			["overkill"] = 162,
+			["edamagetaken"] = 419,
+			["name"] = "Kobold Tunneler (7)",
+			["mobname"] = "Kobold Tunneler",
+			["starttime"] = 1689336195,
+			["last_action"] = 1689336201,
+			["endtime"] = 1689336202,
+		}, -- [12]
 		{
 			["enemies"] = {
 				{
@@ -2348,186 +2627,470 @@ SkadaStorageDB = {
 							["school"] = 1,
 							["targets"] = {
 								["Flokus"] = {
-									["amount"] = 9,
+									["amount"] = 13,
 								},
 							},
-							["amount"] = 9,
+							["amount"] = 13,
 						},
 					},
-					["damagetaken"] = 416,
-					["flag"] = 68168,
+					["damagetaken"] = 268,
+					["id"] = "0xF1300001DB14688C",
 					["class"] = "MONSTER",
 					["damagetakenspells"] = {
 						[6603] = {
 							["school"] = 1,
 							["sources"] = {
 								["Flokus"] = {
-									["overkill"] = 150,
-									["amount"] = 320,
+									["overkill"] = 46,
+									["amount"] = 91,
 								},
 							},
-							["overkill"] = 150,
-							["amount"] = 320,
+							["overkill"] = 46,
+							["amount"] = 91,
 						},
 						[25742] = {
 							["school"] = 2,
 							["sources"] = {
 								["Flokus"] = {
-									["overkill"] = 9,
-									["amount"] = 50,
+									["amount"] = 17,
 								},
 							},
-							["overkill"] = 9,
-							["amount"] = 50,
+							["amount"] = 17,
 						},
-						[20187] = {
+						[26573] = {
 							["school"] = 2,
 							["sources"] = {
 								["Flokus"] = {
-									["amount"] = 46,
+									["overkill"] = 18,
+									["amount"] = 160,
 								},
 							},
-							["amount"] = 46,
+							["overkill"] = 18,
+							["amount"] = 160,
 						},
 					},
-					["name"] = "Kobold Miner",
-					["totaldamage"] = 9,
-					["totaldamagetaken"] = 416,
-					["id"] = "0xF1300000280F8EDC",
-					["damage"] = 9,
+					["totaldamage"] = 13,
+					["name"] = "Kobold Tunneler",
+					["totaldamagetaken"] = 268,
+					["flag"] = 2632,
+					["damage"] = 13,
 				}, -- [1]
+				{
+					["damagespells"] = {
+						[6603] = {
+							["school"] = 1,
+							["targets"] = {
+								["Flokus"] = {
+									["amount"] = 35,
+								},
+							},
+							["amount"] = 35,
+						},
+					},
+					["damagetaken"] = 660,
+					["id"] = "0xF13000002814688E",
+					["class"] = "MONSTER",
+					["damagetakenspells"] = {
+						[6603] = {
+							["school"] = 1,
+							["sources"] = {
+								["Flokus"] = {
+									["overkill"] = 134,
+									["amount"] = 165,
+								},
+							},
+							["overkill"] = 134,
+							["amount"] = 165,
+						},
+						[26573] = {
+							["school"] = 2,
+							["sources"] = {
+								["Flokus"] = {
+									["overkill"] = 12,
+									["amount"] = 460,
+								},
+							},
+							["overkill"] = 12,
+							["amount"] = 460,
+						},
+						[25742] = {
+							["school"] = 2,
+							["sources"] = {
+								["Flokus"] = {
+									["amount"] = 17,
+								},
+							},
+							["amount"] = 17,
+						},
+						[9784] = {
+							["school"] = 1,
+							["sources"] = {
+								["Flokus"] = {
+									["amount"] = 18,
+								},
+							},
+							["amount"] = 18,
+						},
+					},
+					["totaldamage"] = 35,
+					["name"] = "Kobold Miner",
+					["totaldamagetaken"] = 660,
+					["flag"] = 68168,
+					["damage"] = 35,
+				}, -- [2]
 			},
-			["totaldamage"] = 416,
-			["time"] = 8,
-			["totaldamagetaken"] = 9,
-			["etotaldamagetaken"] = 416,
-			["last_time"] = 36842.589,
+			["totaldamage"] = 928,
+			["time"] = 17,
+			["totaldamagetaken"] = 48,
+			["etotaldamage"] = 48,
+			["last_time"] = 16212.209,
 			["players"] = {
 				{
-					["last"] = 36841.108,
-					["flag"] = 134219025,
+					["last"] = 16212.185,
+					["flag"] = 1297,
 					["class"] = "PALADIN",
 					["auras"] = {
-						[19834] = {
+						[25780] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 8,
-						},
-						[10290] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 8,
+							["uptime"] = 17,
 						},
 						[21084] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 8,
+							["uptime"] = 17,
+						},
+						[26573] = {
+							["type"] = "DEBUFF",
+							["count"] = 6,
+							["school"] = 2,
+							["targets"] = {
+								["Kobold Miner"] = {
+									["uptime"] = 7,
+									["count"] = 4,
+								},
+								["Kobold Tunneler"] = {
+									["uptime"] = 6,
+									["count"] = 2,
+								},
+							},
+							["uptime"] = 7,
+						},
+						[19834] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 17,
+						},
+						[643] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 17,
 						},
 					},
-					["role"] = "TANK",
-					["time"] = 6.46,
-					["totaldamagetaken"] = 9,
-					["damage"] = 416,
+					["time"] = 10.15,
+					["totaldamagetaken"] = 48,
+					["damage"] = 928,
 					["damagespells"] = {
+						["Consecration (DoT)"] = {
+							["hitmin"] = 20,
+							["id"] = 26573,
+							["targets"] = {
+								["Kobold Miner"] = {
+									["overkill"] = 12,
+									["amount"] = 460,
+								},
+								["Kobold Tunneler"] = {
+									["overkill"] = 18,
+									["amount"] = 160,
+								},
+							},
+							["overkill"] = 30,
+							["count"] = 31,
+							["hit"] = 31,
+							["school"] = 2,
+							["hitmax"] = 20,
+							["amount"] = 620,
+							["hitamount"] = 620,
+						},
+						["Melee"] = {
+							["glance"] = 165,
+							["hitmin"] = 91,
+							["id"] = 6603,
+							["glancemin"] = 165,
+							["targets"] = {
+								["Kobold Miner"] = {
+									["overkill"] = 134,
+									["amount"] = 165,
+								},
+								["Kobold Tunneler"] = {
+									["overkill"] = 46,
+									["amount"] = 91,
+								},
+							},
+							["overkill"] = 180,
+							["glancing"] = 1,
+							["glancemax"] = 165,
+							["count"] = 2,
+							["hit"] = 1,
+							["school"] = 1,
+							["hitmax"] = 91,
+							["amount"] = 256,
+							["hitamount"] = 91,
+						},
+						["Iron Shield Spike"] = {
+							["hitmin"] = 9,
+							["id"] = 9784,
+							["targets"] = {
+								["Kobold Miner"] = {
+									["amount"] = 18,
+								},
+							},
+							["casts"] = 1,
+							["count"] = 2,
+							["hit"] = 2,
+							["school"] = 1,
+							["hitmax"] = 9,
+							["amount"] = 18,
+							["hitamount"] = 18,
+						},
 						["Seal of Righteousness"] = {
-							["hitmin"] = 10,
+							["hitmin"] = 17,
 							["id"] = 25742,
 							["targets"] = {
 								["Kobold Miner"] = {
-									["overkill"] = 9,
-									["amount"] = 50,
+									["amount"] = 17,
+								},
+								["Kobold Tunneler"] = {
+									["amount"] = 17,
 								},
 							},
-							["overkill"] = 9,
 							["casts"] = 1,
-							["count"] = 5,
-							["hit"] = 5,
-							["school"] = 2,
-							["hitmax"] = 10,
-							["amount"] = 50,
-							["hitamount"] = 50,
-						},
-						["Melee"] = {
-							["glance"] = 118,
-							["hitmin"] = 53,
-							["criticalmin"] = 96,
-							["targets"] = {
-								["Kobold Miner"] = {
-									["overkill"] = 150,
-									["amount"] = 320,
-								},
-							},
-							["glancing"] = 1,
-							["amount"] = 320,
-							["glancemin"] = 118,
-							["criticalamount"] = 96,
-							["id"] = 6603,
-							["glancemax"] = 118,
-							["overkill"] = 150,
-							["criticalmax"] = 96,
-							["hitmax"] = 53,
+							["count"] = 2,
 							["hit"] = 2,
-							["school"] = 1,
-							["critical"] = 1,
-							["count"] = 4,
-							["hitamount"] = 106,
-						},
-						["Judgement of Righteousness"] = {
-							["hitmin"] = 46,
-							["id"] = 20187,
-							["targets"] = {
-								["Kobold Miner"] = {
-									["amount"] = 46,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 1,
-							["hit"] = 1,
 							["school"] = 2,
-							["hitmax"] = 46,
-							["amount"] = 46,
-							["hitamount"] = 46,
+							["hitmax"] = 17,
+							["amount"] = 34,
+							["hitamount"] = 34,
 						},
 					},
-					["damagetaken"] = 9,
+					["damagetaken"] = 48,
+					["id"] = "0x0700000000972811",
+					["spec"] = 66,
+					["damagetakenspells"] = {
+						["Melee"] = {
+							["DODGE"] = 3,
+							["hitmin"] = 1,
+							["id"] = 6603,
+							["PARRY"] = 2,
+							["blocked"] = 6,
+							["BLOCK"] = 2,
+							["sources"] = {
+								["Kobold Miner"] = {
+									["amount"] = 35,
+								},
+								["Kobold Tunneler"] = {
+									["amount"] = 13,
+								},
+							},
+							["count"] = 34,
+							["hit"] = 27,
+							["school"] = 1,
+							["hitmax"] = 4,
+							["amount"] = 48,
+							["hitamount"] = 48,
+						},
+						["Pierce Armor"] = {
+							["PARRY"] = 1,
+							["count"] = 1,
+							["amount"] = 0,
+							["school"] = 1,
+							["sources"] = {
+								["Kobold Miner"] = {
+									["amount"] = 0,
+								},
+							},
+							["id"] = 6016,
+						},
+					},
+					["name"] = "Flokus",
+					["overkill"] = 210,
+					["totaldamage"] = 928,
+					["role"] = "TANK",
+				}, -- [1]
+			},
+			["type"] = "group",
+			["damagetaken"] = 48,
+			["starttime"] = 1689336139,
+			["damage"] = 928,
+			["overkill"] = 210,
+			["edamagetaken"] = 928,
+			["etotaldamagetaken"] = 928,
+			["name"] = "Kobold Tunneler (6)",
+			["mobname"] = "Kobold Tunneler",
+			["edamage"] = 48,
+			["last_action"] = 1689336156,
+			["endtime"] = 1689336156,
+		}, -- [13]
+		{
+			["enemies"] = {
+				{
+					["damagespells"] = {
+						[6603] = {
+							["school"] = 1,
+							["targets"] = {
+								["Flokus"] = {
+									["amount"] = 2,
+								},
+							},
+							["amount"] = 2,
+						},
+					},
+					["damagetaken"] = 216,
+					["id"] = "0xF1300001DB146690",
+					["class"] = "MONSTER",
+					["damagetakenspells"] = {
+						[25742] = {
+							["school"] = 2,
+							["sources"] = {
+								["Flokus"] = {
+									["overkill"] = 2,
+									["amount"] = 34,
+								},
+							},
+							["overkill"] = 2,
+							["amount"] = 34,
+						},
+						[6603] = {
+							["school"] = 1,
+							["sources"] = {
+								["Flokus"] = {
+									["overkill"] = 94,
+									["amount"] = 182,
+								},
+							},
+							["overkill"] = 94,
+							["amount"] = 182,
+						},
+					},
+					["totaldamage"] = 2,
+					["name"] = "Kobold Tunneler",
+					["totaldamagetaken"] = 216,
+					["flag"] = 2632,
+					["damage"] = 2,
+				}, -- [1]
+			},
+			["totaldamage"] = 216,
+			["time"] = 5,
+			["totaldamagetaken"] = 2,
+			["etotaldamage"] = 2,
+			["last_time"] = 16131.71,
+			["players"] = {
+				{
+					["last"] = 16131.694,
+					["flag"] = 1297,
+					["class"] = "PALADIN",
+					["auras"] = {
+						[643] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 5,
+						},
+						[19834] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 5,
+						},
+						[21084] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 5,
+						},
+						[25780] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 5,
+						},
+					},
+					["time"] = 4.09,
+					["totaldamagetaken"] = 2,
+					["damage"] = 216,
+					["damagespells"] = {
+						["Seal of Righteousness"] = {
+							["hitmin"] = 17,
+							["id"] = 25742,
+							["targets"] = {
+								["Kobold Tunneler"] = {
+									["overkill"] = 2,
+									["amount"] = 34,
+								},
+							},
+							["overkill"] = 2,
+							["casts"] = 1,
+							["count"] = 2,
+							["hit"] = 2,
+							["school"] = 2,
+							["hitmax"] = 17,
+							["amount"] = 34,
+							["hitamount"] = 34,
+						},
+						["Melee"] = {
+							["hitmin"] = 88,
+							["id"] = 6603,
+							["targets"] = {
+								["Kobold Tunneler"] = {
+									["overkill"] = 94,
+									["amount"] = 182,
+								},
+							},
+							["overkill"] = 94,
+							["count"] = 2,
+							["hit"] = 2,
+							["school"] = 1,
+							["hitmax"] = 94,
+							["amount"] = 182,
+							["hitamount"] = 182,
+						},
+					},
+					["damagetaken"] = 2,
 					["id"] = "0x0700000000972811",
 					["spec"] = 66,
 					["damagetakenspells"] = {
 						["Melee"] = {
 							["hitmin"] = 2,
 							["id"] = 6603,
-							["hitmax"] = 3,
+							["amount"] = 2,
 							["sources"] = {
-								["Kobold Miner"] = {
-									["amount"] = 9,
+								["Kobold Tunneler"] = {
+									["amount"] = 2,
 								},
 							},
-							["count"] = 5,
-							["hit"] = 4,
+							["count"] = 2,
+							["hit"] = 1,
 							["school"] = 1,
-							["amount"] = 9,
+							["hitmax"] = 2,
 							["MISS"] = 1,
-							["hitamount"] = 9,
+							["hitamount"] = 2,
 						},
 					},
 					["name"] = "Flokus",
-					["overkill"] = 159,
-					["totaldamage"] = 416,
+					["overkill"] = 96,
+					["totaldamage"] = 216,
+					["role"] = "TANK",
 				}, -- [1]
 			},
 			["type"] = "group",
-			["damagetaken"] = 9,
-			["damage"] = 416,
-			["etotaldamage"] = 9,
-			["overkill"] = 159,
-			["edamagetaken"] = 416,
-			["name"] = "Kobold Miner (14)",
-			["mobname"] = "Kobold Miner",
-			["starttime"] = 1689273721,
-			["edamage"] = 9,
-			["last_action"] = 1689273729,
-			["endtime"] = 1689273729,
-		}, -- [12]
+			["damagetaken"] = 2,
+			["starttime"] = 1689336071,
+			["overkill"] = 96,
+			["edamagetaken"] = 216,
+			["damage"] = 216,
+			["name"] = "Kobold Tunneler (5)",
+			["mobname"] = "Kobold Tunneler",
+			["etotaldamagetaken"] = 216,
+			["edamage"] = 2,
+			["last_action"] = 1689336076,
+			["endtime"] = 1689336076,
+		}, -- [14]
 		{
 			["enemies"] = {
 				{
@@ -2542,55 +3105,55 @@ SkadaStorageDB = {
 							["amount"] = 6,
 						},
 					},
-					["damagetaken"] = 253,
+					["damagetaken"] = 364,
 					["flag"] = 68168,
 					["class"] = "MONSTER",
 					["damagetakenspells"] = {
-						[6603] = {
-							["school"] = 1,
-							["sources"] = {
-								["Flokus"] = {
-									["overkill"] = 13,
-									["amount"] = 233,
-								},
-							},
-							["overkill"] = 13,
-							["amount"] = 233,
-						},
 						[25742] = {
 							["school"] = 2,
 							["sources"] = {
 								["Flokus"] = {
-									["amount"] = 20,
+									["amount"] = 51,
 								},
 							},
-							["amount"] = 20,
+							["amount"] = 51,
+						},
+						[6603] = {
+							["school"] = 1,
+							["sources"] = {
+								["Flokus"] = {
+									["overkill"] = 107,
+									["amount"] = 313,
+								},
+							},
+							["overkill"] = 107,
+							["amount"] = 313,
 						},
 					},
-					["name"] = "Kobold Tunneler",
+					["name"] = "Kobold Miner",
 					["totaldamage"] = 6,
-					["totaldamagetaken"] = 253,
-					["id"] = "0xF1300001DB0F8ED1",
+					["totaldamagetaken"] = 364,
+					["id"] = "0xF13000002814645E",
 					["damage"] = 6,
 				}, -- [1]
 			},
-			["totaldamage"] = 253,
+			["totaldamage"] = 364,
 			["time"] = 6,
 			["totaldamagetaken"] = 6,
-			["etotaldamagetaken"] = 253,
-			["last_time"] = 36831.49,
+			["etotaldamagetaken"] = 364,
+			["last_time"] = 16038.886,
 			["players"] = {
 				{
-					["last"] = 36830.815,
-					["flag"] = 134219025,
+					["last"] = 16038.854,
+					["flag"] = 1297,
 					["class"] = "PALADIN",
 					["auras"] = {
-						[19834] = {
+						[643] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 6,
 						},
-						[10290] = {
+						[19834] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 6,
@@ -2598,51 +3161,55 @@ SkadaStorageDB = {
 						[21084] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 2,
-							["uptime"] = 4,
+							["uptime"] = 6,
+						},
+						[25780] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 6,
 						},
 					},
 					["role"] = "TANK",
-					["time"] = 4.470000000000001,
+					["time"] = 5.58,
 					["totaldamagetaken"] = 6,
-					["damage"] = 253,
+					["damage"] = 364,
 					["damagespells"] = {
-						["Melee"] = {
-							["glance"] = 112,
-							["hitmin"] = 60,
-							["id"] = 6603,
-							["glancemin"] = 112,
-							["targets"] = {
-								["Kobold Tunneler"] = {
-									["overkill"] = 13,
-									["amount"] = 233,
-								},
-							},
-							["overkill"] = 13,
-							["glancing"] = 1,
-							["glancemax"] = 112,
-							["count"] = 3,
-							["hit"] = 2,
-							["school"] = 1,
-							["hitmax"] = 61,
-							["amount"] = 233,
-							["hitamount"] = 121,
-						},
 						["Seal of Righteousness"] = {
-							["hitmin"] = 10,
+							["hitmin"] = 17,
 							["id"] = 25742,
 							["targets"] = {
-								["Kobold Tunneler"] = {
-									["amount"] = 20,
+								["Kobold Miner"] = {
+									["amount"] = 51,
 								},
 							},
 							["casts"] = 1,
-							["count"] = 2,
-							["hit"] = 2,
+							["count"] = 3,
+							["hit"] = 3,
 							["school"] = 2,
-							["hitmax"] = 10,
-							["amount"] = 20,
-							["hitamount"] = 20,
+							["hitmax"] = 17,
+							["amount"] = 51,
+							["hitamount"] = 51,
+						},
+						["Melee"] = {
+							["hitmin"] = 81,
+							["criticalamount"] = 144,
+							["id"] = 6603,
+							["criticalmin"] = 144,
+							["targets"] = {
+								["Kobold Miner"] = {
+									["overkill"] = 107,
+									["amount"] = 313,
+								},
+							},
+							["overkill"] = 107,
+							["critical"] = 1,
+							["criticalmax"] = 144,
+							["count"] = 3,
+							["hit"] = 2,
+							["school"] = 1,
+							["hitmax"] = 88,
+							["amount"] = 313,
+							["hitamount"] = 169,
 						},
 					},
 					["damagetaken"] = 6,
@@ -2653,7 +3220,7 @@ SkadaStorageDB = {
 							["hitmin"] = 2,
 							["id"] = 6603,
 							["sources"] = {
-								["Kobold Tunneler"] = {
+								["Kobold Miner"] = {
 									["amount"] = 6,
 								},
 							},
@@ -2666,447 +3233,90 @@ SkadaStorageDB = {
 						},
 					},
 					["name"] = "Flokus",
-					["overkill"] = 13,
-					["totaldamage"] = 253,
+					["overkill"] = 107,
+					["totaldamage"] = 364,
 				}, -- [1]
 			},
 			["type"] = "group",
 			["damagetaken"] = 6,
-			["damage"] = 253,
+			["damage"] = 364,
 			["etotaldamage"] = 6,
-			["overkill"] = 13,
-			["edamagetaken"] = 253,
-			["name"] = "Kobold Tunneler (9)",
-			["mobname"] = "Kobold Tunneler",
-			["starttime"] = 1689273713,
-			["edamage"] = 6,
-			["last_action"] = 1689273718,
-			["endtime"] = 1689273719,
-		}, -- [13]
-		{
-			["enemies"] = {
-				{
-					["damagespells"] = {
-						[6603] = {
-							["school"] = 1,
-							["targets"] = {
-								["Flokus"] = {
-									["amount"] = 4,
-								},
-							},
-							["amount"] = 4,
-						},
-					},
-					["damagetaken"] = 479,
-					["id"] = "0xF1300001DB0F8B83",
-					["class"] = "MONSTER",
-					["damagetakenspells"] = {
-						[6603] = {
-							["school"] = 1,
-							["sources"] = {
-								["Flokus"] = {
-									["overkill"] = 265,
-									["amount"] = 393,
-								},
-							},
-							["overkill"] = 265,
-							["amount"] = 393,
-						},
-						[25742] = {
-							["school"] = 2,
-							["sources"] = {
-								["Flokus"] = {
-									["overkill"] = 4,
-									["amount"] = 40,
-								},
-							},
-							["overkill"] = 4,
-							["amount"] = 40,
-						},
-						[20187] = {
-							["school"] = 2,
-							["sources"] = {
-								["Flokus"] = {
-									["amount"] = 46,
-								},
-							},
-							["amount"] = 46,
-						},
-					},
-					["totaldamage"] = 4,
-					["name"] = "Kobold Tunneler",
-					["totaldamagetaken"] = 479,
-					["flag"] = 68168,
-					["damage"] = 4,
-				}, -- [1]
-			},
-			["totaldamage"] = 479,
-			["time"] = 6,
-			["totaldamagetaken"] = 4,
-			["etotaldamage"] = 4,
-			["last_time"] = 36659.092,
-			["players"] = {
-				{
-					["last"] = 36659.059,
-					["flag"] = 134219025,
-					["class"] = "PALADIN",
-					["auras"] = {
-						[21084] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 6,
-						},
-						[62124] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 2,
-							["targets"] = {
-								["Kobold Tunneler"] = {
-									["uptime"] = 3,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 3,
-						},
-						[10290] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 6,
-						},
-						[20185] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 2,
-							["targets"] = {
-								["Kobold Tunneler"] = {
-									["uptime"] = 2,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 2,
-						},
-						[19834] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 6,
-						},
-					},
-					["time"] = 5.07,
-					["totaldamagetaken"] = 4,
-					["damage"] = 479,
-					["damagespells"] = {
-						["Seal of Righteousness"] = {
-							["hitmin"] = 10,
-							["id"] = 25742,
-							["targets"] = {
-								["Kobold Tunneler"] = {
-									["overkill"] = 4,
-									["amount"] = 40,
-								},
-							},
-							["overkill"] = 4,
-							["casts"] = 1,
-							["count"] = 4,
-							["hit"] = 4,
-							["school"] = 2,
-							["hitmax"] = 10,
-							["amount"] = 40,
-							["hitamount"] = 40,
-						},
-						["Melee"] = {
-							["glance"] = 267,
-							["criticalamount"] = 126,
-							["id"] = 6603,
-							["criticalmin"] = 126,
-							["glancemax"] = 134,
-							["overkill"] = 265,
-							["glancing"] = 2,
-							["criticalmax"] = 126,
-							["count"] = 3,
-							["amount"] = 393,
-							["school"] = 1,
-							["critical"] = 1,
-							["targets"] = {
-								["Kobold Tunneler"] = {
-									["overkill"] = 265,
-									["amount"] = 393,
-								},
-							},
-							["glancemin"] = 133,
-						},
-						["Judgement of Righteousness"] = {
-							["hitmin"] = 46,
-							["id"] = 20187,
-							["targets"] = {
-								["Kobold Tunneler"] = {
-									["amount"] = 46,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 2,
-							["hitmax"] = 46,
-							["amount"] = 46,
-							["hitamount"] = 46,
-						},
-					},
-					["damagetaken"] = 4,
-					["id"] = "0x0700000000972811",
-					["spec"] = 66,
-					["healspells"] = {
-						[20267] = {
-							["overheal"] = 22,
-							["targets"] = {
-								["Flokus"] = {
-									["overheal"] = 22,
-									["amount"] = 4,
-								},
-							},
-							["count"] = 2,
-							["amount"] = 4,
-							["school"] = 2,
-							["max"] = 2,
-							["ishot"] = true,
-							["min"] = 2,
-						},
-					},
-					["damagetakenspells"] = {
-						["Melee"] = {
-							["DODGE"] = 1,
-							["hitmin"] = 2,
-							["id"] = 6603,
-							["blocked"] = 2,
-							["BLOCK"] = 1,
-							["sources"] = {
-								["Kobold Tunneler"] = {
-									["amount"] = 4,
-								},
-							},
-							["count"] = 4,
-							["hit"] = 2,
-							["school"] = 1,
-							["hitmax"] = 2,
-							["amount"] = 4,
-							["hitamount"] = 4,
-						},
-					},
-					["heal"] = 4,
-					["name"] = "Flokus",
-					["overheal"] = 22,
-					["overkill"] = 269,
-					["totaldamage"] = 479,
-					["role"] = "TANK",
-				}, -- [1]
-			},
-			["type"] = "group",
-			["damagetaken"] = 4,
-			["overheal"] = 22,
-			["damage"] = 479,
-			["etotaldamagetaken"] = 479,
-			["overkill"] = 269,
-			["edamagetaken"] = 479,
-			["heal"] = 4,
-			["name"] = "Kobold Tunneler (8)",
-			["mobname"] = "Kobold Tunneler",
-			["starttime"] = 1689273541,
-			["edamage"] = 4,
-			["last_action"] = 1689273546,
-			["endtime"] = 1689273547,
-		}, -- [14]
-		{
-			["enemies"] = {
-				{
-					["damagespells"] = {
-						[6603] = {
-							["school"] = 1,
-							["targets"] = {
-								["Flokus"] = {
-									["amount"] = 4,
-								},
-							},
-							["amount"] = 4,
-						},
-					},
-					["damagetaken"] = 302,
-					["id"] = "0xF1300000280F8A3F",
-					["class"] = "MONSTER",
-					["damagetakenspells"] = {
-						[25742] = {
-							["school"] = 2,
-							["sources"] = {
-								["Flokus"] = {
-									["overkill"] = 5,
-									["amount"] = 30,
-								},
-							},
-							["overkill"] = 5,
-							["amount"] = 30,
-						},
-						[6603] = {
-							["school"] = 1,
-							["sources"] = {
-								["Flokus"] = {
-									["overkill"] = 172,
-									["amount"] = 272,
-								},
-							},
-							["overkill"] = 172,
-							["amount"] = 272,
-						},
-					},
-					["totaldamage"] = 4,
-					["name"] = "Kobold Miner",
-					["totaldamagetaken"] = 302,
-					["flag"] = 68168,
-					["damage"] = 4,
-				}, -- [1]
-			},
-			["totaldamage"] = 302,
-			["time"] = 5,
-			["totaldamagetaken"] = 4,
-			["etotaldamage"] = 4,
-			["last_time"] = 36608.167,
-			["players"] = {
-				{
-					["last"] = 36608.134,
-					["flag"] = 134219025,
-					["class"] = "PALADIN",
-					["auras"] = {
-						[19834] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 5,
-						},
-						[21084] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 5,
-						},
-						[10290] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 5,
-						},
-					},
-					["time"] = 4.19,
-					["totaldamagetaken"] = 4,
-					["damage"] = 302,
-					["damagespells"] = {
-						["Seal of Righteousness"] = {
-							["hitmin"] = 10,
-							["id"] = 25742,
-							["targets"] = {
-								["Kobold Miner"] = {
-									["overkill"] = 5,
-									["amount"] = 30,
-								},
-							},
-							["overkill"] = 5,
-							["casts"] = 1,
-							["count"] = 3,
-							["hit"] = 3,
-							["school"] = 2,
-							["hitmax"] = 10,
-							["amount"] = 30,
-							["hitamount"] = 30,
-						},
-						["Melee"] = {
-							["glance"] = 118,
-							["hitmin"] = 56,
-							["criticalmin"] = 98,
-							["targets"] = {
-								["Kobold Miner"] = {
-									["overkill"] = 172,
-									["amount"] = 272,
-								},
-							},
-							["glancing"] = 1,
-							["amount"] = 272,
-							["glancemin"] = 118,
-							["criticalamount"] = 98,
-							["id"] = 6603,
-							["glancemax"] = 118,
-							["overkill"] = 172,
-							["criticalmax"] = 98,
-							["critical"] = 1,
-							["hit"] = 1,
-							["school"] = 1,
-							["hitmax"] = 56,
-							["count"] = 3,
-							["hitamount"] = 56,
-						},
-					},
-					["damagetaken"] = 4,
-					["id"] = "0x0700000000972811",
-					["spec"] = 66,
-					["damagetakenspells"] = {
-						["Melee"] = {
-							["hitmin"] = 2,
-							["id"] = 6603,
-							["PARRY"] = 1,
-							["sources"] = {
-								["Kobold Miner"] = {
-									["amount"] = 4,
-								},
-							},
-							["count"] = 3,
-							["hit"] = 2,
-							["school"] = 1,
-							["hitmax"] = 2,
-							["amount"] = 4,
-							["hitamount"] = 4,
-						},
-					},
-					["name"] = "Flokus",
-					["overkill"] = 177,
-					["totaldamage"] = 302,
-					["role"] = "TANK",
-				}, -- [1]
-			},
-			["type"] = "group",
-			["damagetaken"] = 4,
-			["etotaldamagetaken"] = 302,
-			["overkill"] = 177,
-			["edamagetaken"] = 302,
-			["damage"] = 302,
-			["name"] = "Kobold Miner (13)",
+			["overkill"] = 107,
+			["edamagetaken"] = 364,
+			["name"] = "Kobold Miner (5)",
 			["mobname"] = "Kobold Miner",
-			["starttime"] = 1689273491,
-			["edamage"] = 4,
-			["last_action"] = 1689273495,
-			["endtime"] = 1689273496,
+			["starttime"] = 1689335977,
+			["edamage"] = 6,
+			["last_action"] = 1689335983,
+			["endtime"] = 1689335983,
 		}, -- [15]
 	},
 	["version"] = 1878,
 	["total"] = {
+		["mana"] = 2026,
+		["friendfire"] = 2410,
+		["totaldamage"] = 138513,
+		["time"] = 3038,
+		["cctaken"] = 4,
+		["totaldamagetaken"] = 34672,
+		["damage"] = 138444,
 		["players"] = {
 			{
-				["overheal"] = 1079,
-				["damagetaken"] = 416,
-				["heal"] = 117,
-				["id"] = "0x0700000000972811",
+				["flag"] = 1297,
 				["class"] = "PALADIN",
-				["totaldamage"] = 37368,
-				["overkill"] = 18110,
-				["flag"] = 134219025,
-				["role"] = "TANK",
-				["time"] = 278.6200000000002,
-				["name"] = "Flokus",
-				["totaldamagetaken"] = 416,
+				["friendfire"] = 1347,
+				["time"] = 2179.809999999989,
+				["cctaken"] = 3,
+				["totaldamagetaken"] = 28273,
+				["damage"] = 105020,
+				["overheal"] = 3925,
+				["damagetaken"] = 19289,
+				["id"] = "0x0700000000972811",
 				["spec"] = 66,
-				["damage"] = 37368,
+				["dispel"] = 2,
+				["overkill"] = 21887,
+				["potion"] = 3,
+				["heal"] = 9731,
+				["name"] = "Flokus",
+				["ccdone"] = 32,
+				["mana"] = 768,
+				["interrupt"] = 17,
+				["totaldamage"] = 105020,
+				["role"] = "TANK",
 			}, -- [1]
+			{
+				["flag"] = 66888,
+				["mana"] = 1258,
+				["friendfire"] = 1063,
+				["time"] = 1357.749999999999,
+				["cctaken"] = 1,
+				["totaldamagetaken"] = 6399,
+				["damage"] = 33424,
+				["overheal"] = 1207,
+				["absorb"] = 11644,
+				["damagetaken"] = 3739,
+				["id"] = "0x0700000000972769",
+				["spec"] = 258,
+				["overkill"] = 3273,
+				["heal"] = 3345,
+				["name"] = "Nemuritorujr",
+				["ccdone"] = 14,
+				["potion"] = 3,
+				["totaldamage"] = 33493,
+				["class"] = "PRIEST",
+				["role"] = "DAMAGER",
+			}, -- [2]
 		},
-		["damagetaken"] = 416,
-		["overheal"] = 1079,
-		["heal"] = 117,
-		["overkill"] = 18110,
-		["starttime"] = 1689272284,
-		["totaldamage"] = 37368,
-		["time"] = 236,
+		["absorb"] = 11644,
+		["damagetaken"] = 23028,
+		["interrupt"] = 17,
+		["overkill"] = 25160,
+		["heal"] = 13076,
 		["name"] = "Total",
-		["totaldamagetaken"] = 416,
-		["damage"] = 37368,
+		["ccdone"] = 46,
+		["dispel"] = 2,
+		["potion"] = 6,
+		["starttime"] = 1689322544,
+		["overheal"] = 5132,
 	},
 }

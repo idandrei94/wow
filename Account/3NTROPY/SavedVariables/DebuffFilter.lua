@@ -71,19 +71,19 @@ DebuffFilter_Config = {
 			},
 		},
 		["tooltips"] = true,
-		["pdebuff_layout"] = {
-			["grow"] = "rightdown",
-			["per_row"] = 8,
-			["time_tb"] = "bottom",
-			["time_lr"] = "right",
-		},
-		["fbuffs"] = false,
 		["count"] = false,
+		["fbuffs"] = false,
 		["buff_list"] = {
 			["Renew"] = {
 			},
 			["Rejuvenation"] = {
 			},
+		},
+		["pdebuff_layout"] = {
+			["grow"] = "rightdown",
+			["per_row"] = 8,
+			["time_tb"] = "bottom",
+			["time_lr"] = "right",
 		},
 		["buff_layout"] = {
 			["grow"] = "rightdown",
@@ -168,19 +168,19 @@ DebuffFilter_Config = {
 			["time_lr"] = "right",
 			["time_tb"] = "bottom",
 		},
-		["pdebuff_layout"] = {
-			["grow"] = "rightdown",
-			["per_row"] = 8,
-			["time_lr"] = "right",
-			["time_tb"] = "bottom",
-		},
-		["fbuffs"] = false,
 		["count"] = false,
+		["fbuffs"] = false,
 		["buff_list"] = {
 			["Renew"] = {
 			},
 			["Rejuvenation"] = {
 			},
+		},
+		["pdebuff_layout"] = {
+			["grow"] = "rightdown",
+			["per_row"] = 8,
+			["time_lr"] = "right",
+			["time_tb"] = "bottom",
 		},
 		["tooltips"] = true,
 		["fbuff_list"] = {
@@ -263,20 +263,20 @@ DebuffFilter_Config = {
 			["time_lr"] = "right",
 			["time_tb"] = "bottom",
 		},
-		["count"] = false,
-		["fbuffs"] = false,
 		["buff_list"] = {
 			["Renew"] = {
 			},
 			["Rejuvenation"] = {
 			},
 		},
+		["fbuffs"] = false,
 		["pdebuff_layout"] = {
 			["grow"] = "rightdown",
 			["per_row"] = 8,
 			["time_lr"] = "right",
 			["time_tb"] = "bottom",
 		},
+		["count"] = false,
 		["tooltips"] = true,
 		["fbuff_list"] = {
 			["Fear Ward"] = {
@@ -356,20 +356,20 @@ DebuffFilter_Config = {
 			},
 		},
 		["tooltips"] = true,
-		["count"] = false,
-		["fbuffs"] = false,
 		["buff_list"] = {
 			["Renew"] = {
 			},
 			["Rejuvenation"] = {
 			},
 		},
+		["fbuffs"] = false,
 		["pdebuff_layout"] = {
 			["grow"] = "rightdown",
 			["per_row"] = 8,
 			["time_tb"] = "bottom",
 			["time_lr"] = "right",
 		},
+		["count"] = false,
 		["buff_layout"] = {
 			["grow"] = "rightdown",
 			["per_row"] = 8,
@@ -451,20 +451,20 @@ DebuffFilter_Config = {
 			},
 		},
 		["tooltips"] = true,
-		["count"] = false,
-		["fbuffs"] = false,
 		["buff_list"] = {
 			["Renew"] = {
 			},
 			["Rejuvenation"] = {
 			},
 		},
+		["fbuffs"] = false,
 		["pdebuff_layout"] = {
 			["grow"] = "rightdown",
 			["per_row"] = 8,
 			["time_tb"] = "bottom",
 			["time_lr"] = "right",
 		},
+		["count"] = false,
 		["buff_layout"] = {
 			["grow"] = "rightdown",
 			["per_row"] = 8,
@@ -548,20 +548,20 @@ DebuffFilter_Config = {
 			["time_lr"] = "right",
 			["time_tb"] = "bottom",
 		},
-		["buff_list"] = {
-			["Renew"] = {
-			},
-			["Rejuvenation"] = {
-			},
-		},
-		["fbuffs"] = false,
 		["pdebuff_layout"] = {
 			["grow"] = "rightdown",
 			["per_row"] = 8,
 			["time_lr"] = "right",
 			["time_tb"] = "bottom",
 		},
+		["fbuffs"] = false,
 		["count"] = false,
+		["buff_list"] = {
+			["Renew"] = {
+			},
+			["Rejuvenation"] = {
+			},
+		},
 		["tooltips"] = true,
 		["fbuff_list"] = {
 			["Fear Ward"] = {
@@ -641,20 +641,20 @@ DebuffFilter_Config = {
 			},
 		},
 		["tooltips"] = true,
-		["buff_list"] = {
-			["Renew"] = {
-			},
-			["Rejuvenation"] = {
-			},
-		},
-		["fbuffs"] = false,
 		["pdebuff_layout"] = {
 			["grow"] = "rightdown",
 			["per_row"] = 8,
 			["time_tb"] = "bottom",
 			["time_lr"] = "right",
 		},
+		["fbuffs"] = false,
 		["count"] = false,
+		["buff_list"] = {
+			["Renew"] = {
+			},
+			["Rejuvenation"] = {
+			},
+		},
 		["buff_layout"] = {
 			["grow"] = "rightdown",
 			["per_row"] = 8,
@@ -736,20 +736,20 @@ DebuffFilter_Config = {
 			},
 		},
 		["tooltips"] = true,
-		["count"] = false,
-		["fbuffs"] = false,
 		["buff_list"] = {
 			["Renew"] = {
 			},
 			["Rejuvenation"] = {
 			},
 		},
+		["fbuffs"] = false,
 		["pdebuff_layout"] = {
 			["grow"] = "rightdown",
 			["per_row"] = 8,
 			["time_tb"] = "bottom",
 			["time_lr"] = "right",
 		},
+		["count"] = false,
 		["buff_layout"] = {
 			["grow"] = "rightdown",
 			["per_row"] = 8,
@@ -833,20 +833,20 @@ DebuffFilter_Config = {
 			["time_lr"] = "right",
 			["time_tb"] = "bottom",
 		},
-		["count"] = false,
-		["fbuffs"] = false,
 		["buff_list"] = {
 			["Renew"] = {
 			},
 			["Rejuvenation"] = {
 			},
 		},
+		["fbuffs"] = false,
 		["pdebuff_layout"] = {
 			["grow"] = "rightdown",
 			["per_row"] = 8,
 			["time_lr"] = "right",
 			["time_tb"] = "bottom",
 		},
+		["count"] = false,
 		["tooltips"] = true,
 		["fbuff_list"] = {
 			["Fear Ward"] = {
@@ -928,20 +928,20 @@ DebuffFilter_Config = {
 			["time_lr"] = "right",
 			["time_tb"] = "bottom",
 		},
-		["count"] = false,
-		["fbuffs"] = false,
 		["buff_list"] = {
 			["Renew"] = {
 			},
 			["Rejuvenation"] = {
 			},
 		},
+		["fbuffs"] = false,
 		["pdebuff_layout"] = {
 			["grow"] = "rightdown",
 			["per_row"] = 8,
 			["time_lr"] = "right",
 			["time_tb"] = "bottom",
 		},
+		["count"] = false,
 		["tooltips"] = true,
 		["fbuff_list"] = {
 			["Fear Ward"] = {
@@ -1023,20 +1023,20 @@ DebuffFilter_Config = {
 			["time_lr"] = "right",
 			["time_tb"] = "bottom",
 		},
-		["buff_list"] = {
-			["Renew"] = {
-			},
-			["Rejuvenation"] = {
-			},
-		},
-		["fbuffs"] = false,
 		["pdebuff_layout"] = {
 			["grow"] = "rightdown",
 			["per_row"] = 8,
 			["time_lr"] = "right",
 			["time_tb"] = "bottom",
 		},
+		["fbuffs"] = false,
 		["count"] = false,
+		["buff_list"] = {
+			["Renew"] = {
+			},
+			["Rejuvenation"] = {
+			},
+		},
 		["tooltips"] = true,
 		["fbuff_list"] = {
 			["Fear Ward"] = {
@@ -1118,20 +1118,20 @@ DebuffFilter_Config = {
 			["time_lr"] = "right",
 			["time_tb"] = "bottom",
 		},
-		["buff_list"] = {
-			["Renew"] = {
-			},
-			["Rejuvenation"] = {
-			},
-		},
-		["fbuffs"] = false,
 		["pdebuff_layout"] = {
 			["grow"] = "rightdown",
 			["per_row"] = 8,
 			["time_lr"] = "right",
 			["time_tb"] = "bottom",
 		},
+		["fbuffs"] = false,
 		["count"] = false,
+		["buff_list"] = {
+			["Renew"] = {
+			},
+			["Rejuvenation"] = {
+			},
+		},
 		["tooltips"] = true,
 		["fbuff_list"] = {
 			["Fear Ward"] = {
@@ -1211,115 +1211,20 @@ DebuffFilter_Config = {
 			},
 		},
 		["tooltips"] = true,
-		["pdebuff_layout"] = {
-			["grow"] = "rightdown",
-			["per_row"] = 8,
-			["time_tb"] = "bottom",
-			["time_lr"] = "right",
-		},
-		["fbuffs"] = false,
 		["count"] = false,
+		["fbuffs"] = false,
 		["buff_list"] = {
 			["Renew"] = {
 			},
 			["Rejuvenation"] = {
 			},
 		},
-		["buff_layout"] = {
-			["grow"] = "rightdown",
-			["per_row"] = 8,
-			["time_tb"] = "bottom",
-			["time_lr"] = "right",
-		},
-		["buffs"] = false,
-		["all_pdebuffs"] = false,
-		["cooldowncount"] = false,
-	},
-	["Pocaitoru - Icecrown"] = {
-		["fdebuff_layout"] = {
-			["grow"] = "rightdown",
-			["per_row"] = 8,
-			["time_tb"] = "bottom",
-			["time_lr"] = "right",
-		},
-		["debuffs"] = true,
-		["combat"] = false,
-		["all_fbuffs"] = false,
-		["scale"] = 1,
-		["debuff_layout"] = {
-			["grow"] = "rightdown",
-			["per_row"] = 8,
-			["time_tb"] = "bottom",
-			["time_lr"] = "right",
-		},
-		["pbuff_layout"] = {
-			["grow"] = "rightdown",
-			["per_row"] = 8,
-			["time_tb"] = "bottom",
-			["time_lr"] = "right",
-		},
-		["pdebuff_list"] = {
-			["Bloodboil"] = {
-			},
-			["Carrion Swarm"] = {
-			},
-		},
-		["pdebuffs"] = false,
-		["debuff_list"] = {
-			["Faerie Fire"] = {
-			},
-			["Curse of Recklessness"] = {
-			},
-			["Expose Armor"] = {
-			},
-			["Sunder Armor"] = {
-			},
-			["Thunder Clap"] = {
-			},
-		},
-		["fbuff_layout"] = {
-			["grow"] = "rightdown",
-			["per_row"] = 8,
-			["time_tb"] = "bottom",
-			["time_lr"] = "right",
-		},
-		["all_fdebuffs"] = false,
-		["fdebuffs"] = false,
-		["fdebuff_list"] = {
-			["Mortal Strike"] = {
-			},
-		},
-		["pbuffs"] = false,
-		["pbuff_list"] = {
-			["Battle Shout"] = {
-			},
-			["Adrenaline Rush"] = {
-			},
-			["Lightning Speed"] = {
-			},
-			["Blade Flurry"] = {
-			},
-		},
-		["lock"] = false,
-		["fbuff_list"] = {
-			["Fear Ward"] = {
-			},
-		},
-		["tooltips"] = true,
-		["buff_list"] = {
-			["Renew"] = {
-			},
-			["Rejuvenation"] = {
-			},
-		},
-		["fbuffs"] = false,
 		["pdebuff_layout"] = {
 			["grow"] = "rightdown",
 			["per_row"] = 8,
 			["time_tb"] = "bottom",
 			["time_lr"] = "right",
 		},
-		["count"] = false,
 		["buff_layout"] = {
 			["grow"] = "rightdown",
 			["per_row"] = 8,
@@ -1403,26 +1308,121 @@ DebuffFilter_Config = {
 			["time_lr"] = "right",
 			["time_tb"] = "bottom",
 		},
-		["count"] = false,
-		["fbuffs"] = false,
 		["buff_list"] = {
 			["Renew"] = {
 			},
 			["Rejuvenation"] = {
 			},
 		},
+		["fbuffs"] = false,
 		["pdebuff_layout"] = {
 			["grow"] = "rightdown",
 			["per_row"] = 8,
 			["time_lr"] = "right",
 			["time_tb"] = "bottom",
 		},
+		["count"] = false,
 		["tooltips"] = true,
 		["fbuff_list"] = {
 			["Fear Ward"] = {
 			},
 		},
 		["lock"] = false,
+		["cooldowncount"] = false,
+	},
+	["Pocaitoru - Icecrown"] = {
+		["fdebuff_layout"] = {
+			["grow"] = "rightdown",
+			["per_row"] = 8,
+			["time_tb"] = "bottom",
+			["time_lr"] = "right",
+		},
+		["debuffs"] = true,
+		["combat"] = false,
+		["all_fbuffs"] = false,
+		["scale"] = 1,
+		["debuff_layout"] = {
+			["grow"] = "rightdown",
+			["per_row"] = 8,
+			["time_tb"] = "bottom",
+			["time_lr"] = "right",
+		},
+		["pbuff_layout"] = {
+			["grow"] = "rightdown",
+			["per_row"] = 8,
+			["time_tb"] = "bottom",
+			["time_lr"] = "right",
+		},
+		["pdebuff_list"] = {
+			["Bloodboil"] = {
+			},
+			["Carrion Swarm"] = {
+			},
+		},
+		["pdebuffs"] = false,
+		["debuff_list"] = {
+			["Faerie Fire"] = {
+			},
+			["Curse of Recklessness"] = {
+			},
+			["Expose Armor"] = {
+			},
+			["Sunder Armor"] = {
+			},
+			["Thunder Clap"] = {
+			},
+		},
+		["fbuff_layout"] = {
+			["grow"] = "rightdown",
+			["per_row"] = 8,
+			["time_tb"] = "bottom",
+			["time_lr"] = "right",
+		},
+		["all_fdebuffs"] = false,
+		["fdebuffs"] = false,
+		["fdebuff_list"] = {
+			["Mortal Strike"] = {
+			},
+		},
+		["pbuffs"] = false,
+		["pbuff_list"] = {
+			["Battle Shout"] = {
+			},
+			["Adrenaline Rush"] = {
+			},
+			["Lightning Speed"] = {
+			},
+			["Blade Flurry"] = {
+			},
+		},
+		["lock"] = false,
+		["fbuff_list"] = {
+			["Fear Ward"] = {
+			},
+		},
+		["tooltips"] = true,
+		["pdebuff_layout"] = {
+			["grow"] = "rightdown",
+			["per_row"] = 8,
+			["time_tb"] = "bottom",
+			["time_lr"] = "right",
+		},
+		["fbuffs"] = false,
+		["count"] = false,
+		["buff_list"] = {
+			["Renew"] = {
+			},
+			["Rejuvenation"] = {
+			},
+		},
+		["buff_layout"] = {
+			["grow"] = "rightdown",
+			["per_row"] = 8,
+			["time_tb"] = "bottom",
+			["time_lr"] = "right",
+		},
+		["buffs"] = false,
+		["all_pdebuffs"] = false,
 		["cooldowncount"] = false,
 	},
 	["Elgorath - Icecrown"] = {
@@ -1498,20 +1498,20 @@ DebuffFilter_Config = {
 			["time_lr"] = "right",
 			["time_tb"] = "bottom",
 		},
-		["count"] = false,
-		["fbuffs"] = false,
 		["buff_list"] = {
 			["Renew"] = {
 			},
 			["Rejuvenation"] = {
 			},
 		},
+		["fbuffs"] = false,
 		["pdebuff_layout"] = {
 			["grow"] = "rightdown",
 			["per_row"] = 8,
 			["time_lr"] = "right",
 			["time_tb"] = "bottom",
 		},
+		["count"] = false,
 		["tooltips"] = true,
 		["fbuff_list"] = {
 			["Fear Ward"] = {
@@ -1593,20 +1593,115 @@ DebuffFilter_Config = {
 			["time_lr"] = "right",
 			["time_tb"] = "bottom",
 		},
-		["buff_list"] = {
-			["Renew"] = {
-			},
-			["Rejuvenation"] = {
-			},
-		},
-		["fbuffs"] = false,
 		["pdebuff_layout"] = {
 			["grow"] = "rightdown",
 			["per_row"] = 8,
 			["time_lr"] = "right",
 			["time_tb"] = "bottom",
 		},
+		["fbuffs"] = false,
 		["count"] = false,
+		["buff_list"] = {
+			["Renew"] = {
+			},
+			["Rejuvenation"] = {
+			},
+		},
+		["tooltips"] = true,
+		["fbuff_list"] = {
+			["Fear Ward"] = {
+			},
+		},
+		["lock"] = false,
+		["cooldowncount"] = false,
+	},
+	["Gligor - Icecrown"] = {
+		["fdebuff_layout"] = {
+			["grow"] = "rightdown",
+			["per_row"] = 8,
+			["time_lr"] = "right",
+			["time_tb"] = "bottom",
+		},
+		["debuffs"] = true,
+		["combat"] = false,
+		["all_fbuffs"] = false,
+		["scale"] = 1,
+		["debuff_layout"] = {
+			["grow"] = "rightdown",
+			["per_row"] = 8,
+			["time_lr"] = "right",
+			["time_tb"] = "bottom",
+		},
+		["pbuff_layout"] = {
+			["grow"] = "rightdown",
+			["per_row"] = 8,
+			["time_lr"] = "right",
+			["time_tb"] = "bottom",
+		},
+		["pdebuff_list"] = {
+			["Bloodboil"] = {
+			},
+			["Carrion Swarm"] = {
+			},
+		},
+		["pdebuffs"] = false,
+		["debuff_list"] = {
+			["Faerie Fire"] = {
+			},
+			["Curse of Recklessness"] = {
+			},
+			["Expose Armor"] = {
+			},
+			["Sunder Armor"] = {
+			},
+			["Thunder Clap"] = {
+			},
+		},
+		["fbuff_layout"] = {
+			["grow"] = "rightdown",
+			["per_row"] = 8,
+			["time_lr"] = "right",
+			["time_tb"] = "bottom",
+		},
+		["all_fdebuffs"] = false,
+		["fdebuffs"] = false,
+		["fdebuff_list"] = {
+			["Mortal Strike"] = {
+			},
+		},
+		["pbuffs"] = false,
+		["pbuff_list"] = {
+			["Battle Shout"] = {
+			},
+			["Blade Flurry"] = {
+			},
+			["Lightning Speed"] = {
+			},
+			["Adrenaline Rush"] = {
+			},
+		},
+		["all_pdebuffs"] = false,
+		["buffs"] = false,
+		["buff_layout"] = {
+			["grow"] = "rightdown",
+			["per_row"] = 8,
+			["time_lr"] = "right",
+			["time_tb"] = "bottom",
+		},
+		["pdebuff_layout"] = {
+			["grow"] = "rightdown",
+			["per_row"] = 8,
+			["time_lr"] = "right",
+			["time_tb"] = "bottom",
+		},
+		["fbuffs"] = false,
+		["count"] = false,
+		["buff_list"] = {
+			["Renew"] = {
+			},
+			["Rejuvenation"] = {
+			},
+		},
 		["tooltips"] = true,
 		["fbuff_list"] = {
 			["Fear Ward"] = {
@@ -1686,20 +1781,20 @@ DebuffFilter_Config = {
 			},
 		},
 		["tooltips"] = true,
-		["buff_list"] = {
-			["Renew"] = {
-			},
-			["Rejuvenation"] = {
-			},
-		},
-		["fbuffs"] = false,
 		["pdebuff_layout"] = {
 			["grow"] = "rightdown",
 			["per_row"] = 8,
 			["time_tb"] = "bottom",
 			["time_lr"] = "right",
 		},
+		["fbuffs"] = false,
 		["count"] = false,
+		["buff_list"] = {
+			["Renew"] = {
+			},
+			["Rejuvenation"] = {
+			},
+		},
 		["buff_layout"] = {
 			["grow"] = "rightdown",
 			["per_row"] = 8,
@@ -1708,101 +1803,6 @@ DebuffFilter_Config = {
 		},
 		["buffs"] = false,
 		["all_pdebuffs"] = false,
-		["cooldowncount"] = false,
-	},
-	["Gligor - Icecrown"] = {
-		["fdebuff_layout"] = {
-			["grow"] = "rightdown",
-			["per_row"] = 8,
-			["time_lr"] = "right",
-			["time_tb"] = "bottom",
-		},
-		["debuffs"] = true,
-		["combat"] = false,
-		["all_fbuffs"] = false,
-		["scale"] = 1,
-		["debuff_layout"] = {
-			["grow"] = "rightdown",
-			["per_row"] = 8,
-			["time_lr"] = "right",
-			["time_tb"] = "bottom",
-		},
-		["pbuff_layout"] = {
-			["grow"] = "rightdown",
-			["per_row"] = 8,
-			["time_lr"] = "right",
-			["time_tb"] = "bottom",
-		},
-		["pdebuff_list"] = {
-			["Bloodboil"] = {
-			},
-			["Carrion Swarm"] = {
-			},
-		},
-		["pdebuffs"] = false,
-		["debuff_list"] = {
-			["Faerie Fire"] = {
-			},
-			["Curse of Recklessness"] = {
-			},
-			["Expose Armor"] = {
-			},
-			["Sunder Armor"] = {
-			},
-			["Thunder Clap"] = {
-			},
-		},
-		["fbuff_layout"] = {
-			["grow"] = "rightdown",
-			["per_row"] = 8,
-			["time_lr"] = "right",
-			["time_tb"] = "bottom",
-		},
-		["all_fdebuffs"] = false,
-		["fdebuffs"] = false,
-		["fdebuff_list"] = {
-			["Mortal Strike"] = {
-			},
-		},
-		["pbuffs"] = false,
-		["pbuff_list"] = {
-			["Battle Shout"] = {
-			},
-			["Blade Flurry"] = {
-			},
-			["Lightning Speed"] = {
-			},
-			["Adrenaline Rush"] = {
-			},
-		},
-		["all_pdebuffs"] = false,
-		["buffs"] = false,
-		["buff_layout"] = {
-			["grow"] = "rightdown",
-			["per_row"] = 8,
-			["time_lr"] = "right",
-			["time_tb"] = "bottom",
-		},
-		["buff_list"] = {
-			["Renew"] = {
-			},
-			["Rejuvenation"] = {
-			},
-		},
-		["fbuffs"] = false,
-		["pdebuff_layout"] = {
-			["grow"] = "rightdown",
-			["per_row"] = 8,
-			["time_lr"] = "right",
-			["time_tb"] = "bottom",
-		},
-		["count"] = false,
-		["tooltips"] = true,
-		["fbuff_list"] = {
-			["Fear Ward"] = {
-			},
-		},
-		["lock"] = false,
 		["cooldowncount"] = false,
 	},
 	["Mirceabravo - Blackrock [PvP only]"] = {
@@ -1876,101 +1876,6 @@ DebuffFilter_Config = {
 			},
 		},
 		["tooltips"] = true,
-		["buff_list"] = {
-			["Renew"] = {
-			},
-			["Rejuvenation"] = {
-			},
-		},
-		["fbuffs"] = false,
-		["pdebuff_layout"] = {
-			["grow"] = "rightdown",
-			["per_row"] = 8,
-			["time_tb"] = "bottom",
-			["time_lr"] = "right",
-		},
-		["count"] = false,
-		["buff_layout"] = {
-			["grow"] = "rightdown",
-			["per_row"] = 8,
-			["time_tb"] = "bottom",
-			["time_lr"] = "right",
-		},
-		["buffs"] = false,
-		["all_pdebuffs"] = false,
-		["cooldowncount"] = false,
-	},
-	["Pufarin - Icecrown"] = {
-		["fdebuff_layout"] = {
-			["grow"] = "rightdown",
-			["per_row"] = 8,
-			["time_tb"] = "bottom",
-			["time_lr"] = "right",
-		},
-		["debuffs"] = true,
-		["combat"] = false,
-		["all_fbuffs"] = false,
-		["scale"] = 1,
-		["debuff_layout"] = {
-			["grow"] = "rightdown",
-			["per_row"] = 8,
-			["time_tb"] = "bottom",
-			["time_lr"] = "right",
-		},
-		["pbuff_layout"] = {
-			["grow"] = "rightdown",
-			["per_row"] = 8,
-			["time_tb"] = "bottom",
-			["time_lr"] = "right",
-		},
-		["pdebuff_list"] = {
-			["Bloodboil"] = {
-			},
-			["Carrion Swarm"] = {
-			},
-		},
-		["pdebuffs"] = false,
-		["debuff_list"] = {
-			["Faerie Fire"] = {
-			},
-			["Curse of Recklessness"] = {
-			},
-			["Expose Armor"] = {
-			},
-			["Sunder Armor"] = {
-			},
-			["Thunder Clap"] = {
-			},
-		},
-		["fbuff_layout"] = {
-			["grow"] = "rightdown",
-			["per_row"] = 8,
-			["time_tb"] = "bottom",
-			["time_lr"] = "right",
-		},
-		["all_fdebuffs"] = false,
-		["fdebuffs"] = false,
-		["fdebuff_list"] = {
-			["Mortal Strike"] = {
-			},
-		},
-		["pbuffs"] = false,
-		["pbuff_list"] = {
-			["Battle Shout"] = {
-			},
-			["Adrenaline Rush"] = {
-			},
-			["Lightning Speed"] = {
-			},
-			["Blade Flurry"] = {
-			},
-		},
-		["lock"] = false,
-		["fbuff_list"] = {
-			["Fear Ward"] = {
-			},
-		},
-		["tooltips"] = true,
 		["pdebuff_layout"] = {
 			["grow"] = "rightdown",
 			["per_row"] = 8,
@@ -1993,101 +1898,6 @@ DebuffFilter_Config = {
 		},
 		["buffs"] = false,
 		["all_pdebuffs"] = false,
-		["cooldowncount"] = false,
-	},
-	["Rakhnis - Icecrown"] = {
-		["fdebuff_layout"] = {
-			["grow"] = "rightdown",
-			["per_row"] = 8,
-			["time_lr"] = "right",
-			["time_tb"] = "bottom",
-		},
-		["debuffs"] = true,
-		["combat"] = false,
-		["all_fbuffs"] = false,
-		["scale"] = 1,
-		["debuff_layout"] = {
-			["grow"] = "rightdown",
-			["per_row"] = 8,
-			["time_lr"] = "right",
-			["time_tb"] = "bottom",
-		},
-		["pbuff_layout"] = {
-			["grow"] = "rightdown",
-			["per_row"] = 8,
-			["time_lr"] = "right",
-			["time_tb"] = "bottom",
-		},
-		["pdebuff_list"] = {
-			["Bloodboil"] = {
-			},
-			["Carrion Swarm"] = {
-			},
-		},
-		["pdebuffs"] = false,
-		["debuff_list"] = {
-			["Faerie Fire"] = {
-			},
-			["Curse of Recklessness"] = {
-			},
-			["Expose Armor"] = {
-			},
-			["Sunder Armor"] = {
-			},
-			["Thunder Clap"] = {
-			},
-		},
-		["fbuff_layout"] = {
-			["grow"] = "rightdown",
-			["per_row"] = 8,
-			["time_lr"] = "right",
-			["time_tb"] = "bottom",
-		},
-		["all_fdebuffs"] = false,
-		["fdebuffs"] = false,
-		["fdebuff_list"] = {
-			["Mortal Strike"] = {
-			},
-		},
-		["pbuffs"] = false,
-		["pbuff_list"] = {
-			["Battle Shout"] = {
-			},
-			["Blade Flurry"] = {
-			},
-			["Lightning Speed"] = {
-			},
-			["Adrenaline Rush"] = {
-			},
-		},
-		["all_pdebuffs"] = false,
-		["buffs"] = false,
-		["buff_layout"] = {
-			["grow"] = "rightdown",
-			["per_row"] = 8,
-			["time_lr"] = "right",
-			["time_tb"] = "bottom",
-		},
-		["pdebuff_layout"] = {
-			["grow"] = "rightdown",
-			["per_row"] = 8,
-			["time_lr"] = "right",
-			["time_tb"] = "bottom",
-		},
-		["fbuffs"] = false,
-		["count"] = false,
-		["buff_list"] = {
-			["Renew"] = {
-			},
-			["Rejuvenation"] = {
-			},
-		},
-		["tooltips"] = true,
-		["fbuff_list"] = {
-			["Fear Ward"] = {
-			},
-		},
-		["lock"] = false,
 		["cooldowncount"] = false,
 	},
 	["Maciucaru - Icecrown"] = {
@@ -2163,20 +1973,20 @@ DebuffFilter_Config = {
 			["time_lr"] = "right",
 			["time_tb"] = "bottom",
 		},
-		["buff_list"] = {
-			["Renew"] = {
-			},
-			["Rejuvenation"] = {
-			},
-		},
-		["fbuffs"] = false,
 		["pdebuff_layout"] = {
 			["grow"] = "rightdown",
 			["per_row"] = 8,
 			["time_lr"] = "right",
 			["time_tb"] = "bottom",
 		},
+		["fbuffs"] = false,
 		["count"] = false,
+		["buff_list"] = {
+			["Renew"] = {
+			},
+			["Rejuvenation"] = {
+			},
+		},
 		["tooltips"] = true,
 		["fbuff_list"] = {
 			["Fear Ward"] = {
@@ -2185,7 +1995,7 @@ DebuffFilter_Config = {
 		["lock"] = false,
 		["cooldowncount"] = false,
 	},
-	["Mirceabravo - Icecrown"] = {
+	["Rakhnis - Icecrown"] = {
 		["fdebuff_layout"] = {
 			["grow"] = "rightdown",
 			["per_row"] = 8,
@@ -2272,6 +2082,196 @@ DebuffFilter_Config = {
 			["time_lr"] = "right",
 			["time_tb"] = "bottom",
 		},
+		["tooltips"] = true,
+		["fbuff_list"] = {
+			["Fear Ward"] = {
+			},
+		},
+		["lock"] = false,
+		["cooldowncount"] = false,
+	},
+	["Pufarin - Icecrown"] = {
+		["fdebuff_layout"] = {
+			["grow"] = "rightdown",
+			["per_row"] = 8,
+			["time_tb"] = "bottom",
+			["time_lr"] = "right",
+		},
+		["debuffs"] = true,
+		["combat"] = false,
+		["all_fbuffs"] = false,
+		["scale"] = 1,
+		["debuff_layout"] = {
+			["grow"] = "rightdown",
+			["per_row"] = 8,
+			["time_tb"] = "bottom",
+			["time_lr"] = "right",
+		},
+		["pbuff_layout"] = {
+			["grow"] = "rightdown",
+			["per_row"] = 8,
+			["time_tb"] = "bottom",
+			["time_lr"] = "right",
+		},
+		["pdebuff_list"] = {
+			["Bloodboil"] = {
+			},
+			["Carrion Swarm"] = {
+			},
+		},
+		["pdebuffs"] = false,
+		["debuff_list"] = {
+			["Faerie Fire"] = {
+			},
+			["Curse of Recklessness"] = {
+			},
+			["Expose Armor"] = {
+			},
+			["Sunder Armor"] = {
+			},
+			["Thunder Clap"] = {
+			},
+		},
+		["fbuff_layout"] = {
+			["grow"] = "rightdown",
+			["per_row"] = 8,
+			["time_tb"] = "bottom",
+			["time_lr"] = "right",
+		},
+		["all_fdebuffs"] = false,
+		["fdebuffs"] = false,
+		["fdebuff_list"] = {
+			["Mortal Strike"] = {
+			},
+		},
+		["pbuffs"] = false,
+		["pbuff_list"] = {
+			["Battle Shout"] = {
+			},
+			["Adrenaline Rush"] = {
+			},
+			["Lightning Speed"] = {
+			},
+			["Blade Flurry"] = {
+			},
+		},
+		["lock"] = false,
+		["fbuff_list"] = {
+			["Fear Ward"] = {
+			},
+		},
+		["tooltips"] = true,
+		["count"] = false,
+		["fbuffs"] = false,
+		["buff_list"] = {
+			["Renew"] = {
+			},
+			["Rejuvenation"] = {
+			},
+		},
+		["pdebuff_layout"] = {
+			["grow"] = "rightdown",
+			["per_row"] = 8,
+			["time_tb"] = "bottom",
+			["time_lr"] = "right",
+		},
+		["buff_layout"] = {
+			["grow"] = "rightdown",
+			["per_row"] = 8,
+			["time_tb"] = "bottom",
+			["time_lr"] = "right",
+		},
+		["buffs"] = false,
+		["all_pdebuffs"] = false,
+		["cooldowncount"] = false,
+	},
+	["Mirceabravo - Icecrown"] = {
+		["fdebuff_layout"] = {
+			["grow"] = "rightdown",
+			["per_row"] = 8,
+			["time_lr"] = "right",
+			["time_tb"] = "bottom",
+		},
+		["debuffs"] = true,
+		["combat"] = false,
+		["all_fbuffs"] = false,
+		["scale"] = 1,
+		["debuff_layout"] = {
+			["grow"] = "rightdown",
+			["per_row"] = 8,
+			["time_lr"] = "right",
+			["time_tb"] = "bottom",
+		},
+		["pbuff_layout"] = {
+			["grow"] = "rightdown",
+			["per_row"] = 8,
+			["time_lr"] = "right",
+			["time_tb"] = "bottom",
+		},
+		["pdebuff_list"] = {
+			["Bloodboil"] = {
+			},
+			["Carrion Swarm"] = {
+			},
+		},
+		["pdebuffs"] = false,
+		["debuff_list"] = {
+			["Faerie Fire"] = {
+			},
+			["Curse of Recklessness"] = {
+			},
+			["Expose Armor"] = {
+			},
+			["Sunder Armor"] = {
+			},
+			["Thunder Clap"] = {
+			},
+		},
+		["fbuff_layout"] = {
+			["grow"] = "rightdown",
+			["per_row"] = 8,
+			["time_lr"] = "right",
+			["time_tb"] = "bottom",
+		},
+		["all_fdebuffs"] = false,
+		["fdebuffs"] = false,
+		["fdebuff_list"] = {
+			["Mortal Strike"] = {
+			},
+		},
+		["pbuffs"] = false,
+		["pbuff_list"] = {
+			["Battle Shout"] = {
+			},
+			["Blade Flurry"] = {
+			},
+			["Lightning Speed"] = {
+			},
+			["Adrenaline Rush"] = {
+			},
+		},
+		["all_pdebuffs"] = false,
+		["buffs"] = false,
+		["buff_layout"] = {
+			["grow"] = "rightdown",
+			["per_row"] = 8,
+			["time_lr"] = "right",
+			["time_tb"] = "bottom",
+		},
+		["buff_list"] = {
+			["Renew"] = {
+			},
+			["Rejuvenation"] = {
+			},
+		},
+		["fbuffs"] = false,
+		["pdebuff_layout"] = {
+			["grow"] = "rightdown",
+			["per_row"] = 8,
+			["time_lr"] = "right",
+			["time_tb"] = "bottom",
+		},
+		["count"] = false,
 		["tooltips"] = true,
 		["fbuff_list"] = {
 			["Fear Ward"] = {
@@ -2353,20 +2353,20 @@ DebuffFilter_Config = {
 			["time_lr"] = "right",
 			["time_tb"] = "bottom",
 		},
-		["count"] = false,
-		["fbuffs"] = false,
 		["buff_list"] = {
 			["Renew"] = {
 			},
 			["Rejuvenation"] = {
 			},
 		},
+		["fbuffs"] = false,
 		["pdebuff_layout"] = {
 			["grow"] = "rightdown",
 			["per_row"] = 8,
 			["time_lr"] = "right",
 			["time_tb"] = "bottom",
 		},
+		["count"] = false,
 		["tooltips"] = true,
 		["fbuff_list"] = {
 			["Fear Ward"] = {
@@ -2446,20 +2446,20 @@ DebuffFilter_Config = {
 			},
 		},
 		["tooltips"] = true,
-		["buff_list"] = {
-			["Renew"] = {
-			},
-			["Rejuvenation"] = {
-			},
-		},
-		["fbuffs"] = false,
 		["pdebuff_layout"] = {
 			["grow"] = "rightdown",
 			["per_row"] = 8,
 			["time_tb"] = "bottom",
 			["time_lr"] = "right",
 		},
+		["fbuffs"] = false,
 		["count"] = false,
+		["buff_list"] = {
+			["Renew"] = {
+			},
+			["Rejuvenation"] = {
+			},
+		},
 		["buff_layout"] = {
 			["grow"] = "rightdown",
 			["per_row"] = 8,
@@ -2541,20 +2541,20 @@ DebuffFilter_Config = {
 			},
 		},
 		["tooltips"] = true,
-		["count"] = false,
-		["fbuffs"] = false,
 		["buff_list"] = {
 			["Renew"] = {
 			},
 			["Rejuvenation"] = {
 			},
 		},
+		["fbuffs"] = false,
 		["pdebuff_layout"] = {
 			["grow"] = "rightdown",
 			["per_row"] = 8,
 			["time_tb"] = "bottom",
 			["time_lr"] = "right",
 		},
+		["count"] = false,
 		["buff_layout"] = {
 			["grow"] = "rightdown",
 			["per_row"] = 8,
