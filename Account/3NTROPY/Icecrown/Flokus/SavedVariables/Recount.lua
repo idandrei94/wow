@@ -2,445 +2,6 @@
 RecountPerCharDB = {
 	["version"] = "1.3",
 	["combatants"] = {
-		["Infinite Corruptor"] = {
-			["GUID"] = "0xF130007E110001C8",
-			["LastEventHealth"] = {
-				"???", -- [1]
-				"???", -- [2]
-				"???", -- [3]
-				"???", -- [4]
-				"???", -- [5]
-				"???", -- [6]
-				"???", -- [7]
-				"???", -- [8]
-				"???", -- [9]
-				"???", -- [10]
-				"???", -- [11]
-				"???", -- [12]
-				"???", -- [13]
-				"???", -- [14]
-				"???", -- [15]
-				"???", -- [16]
-				"???", -- [17]
-				"???", -- [18]
-			},
-			["LastEventType"] = {
-				"DAMAGE", -- [1]
-				"DAMAGE", -- [2]
-				"DAMAGE", -- [3]
-				"DAMAGE", -- [4]
-				"DAMAGE", -- [5]
-				"DAMAGE", -- [6]
-				"DAMAGE", -- [7]
-				"DAMAGE", -- [8]
-				"DAMAGE", -- [9]
-				"DAMAGE", -- [10]
-				"DAMAGE", -- [11]
-				"DAMAGE", -- [12]
-				"DAMAGE", -- [13]
-				"DAMAGE", -- [14]
-				"DAMAGE", -- [15]
-				"DAMAGE", -- [16]
-				"DAMAGE", -- [17]
-				"DAMAGE", -- [18]
-			},
-			["TimeWindows"] = {
-				["Damage"] = {
-					19176, -- [1]
-				},
-				["TimeDamage"] = {
-					54.54000000000001, -- [1]
-				},
-				["DOT_Time"] = {
-					54, -- [1]
-				},
-				["ActiveTime"] = {
-					54.54000000000001, -- [1]
-				},
-			},
-			["enClass"] = "MOB",
-			["level"] = -1,
-			["LastFightIn"] = 181,
-			["type"] = "Boss",
-			["FightsSaved"] = 5,
-			["TimeLast"] = {
-				["ActiveTime"] = 1689333784,
-				["TimeDamage"] = 1689333784,
-				["OVERALL"] = 1689333784,
-				["DOT_Time"] = 1689333784,
-				["Damage"] = 1689333784,
-			},
-			["Owner"] = false,
-			["LastAbility"] = 13840.862,
-			["NextEventNum"] = 19,
-			["LastEventHealthNum"] = {
-				0, -- [1]
-				0, -- [2]
-				0, -- [3]
-				0, -- [4]
-				0, -- [5]
-				0, -- [6]
-				0, -- [7]
-				0, -- [8]
-				0, -- [9]
-				0, -- [10]
-				0, -- [11]
-				0, -- [12]
-				0, -- [13]
-				0, -- [14]
-				0, -- [15]
-				0, -- [16]
-				0, -- [17]
-				0, -- [18]
-			},
-			["LastEvents"] = {
-				"Infinite Corruptor Corrupting Blight (DoT) Aslastor Tick -1307 (145 resisted) (Shadow)", -- [1]
-				"Infinite Corruptor Corrupting Blight (DoT) Aslastor Tick -1017 (435 resisted) (Shadow)", -- [2]
-				"Infinite Corruptor Corrupting Blight (DoT) Aslastor Tick -1017 (435 resisted) (Shadow)", -- [3]
-				"Infinite Corruptor Corrupting Blight (DoT) Aslastor Tick -1162 (290 resisted) (Shadow)", -- [4]
-				"Infinite Corruptor Corrupting Blight (DoT) Aslastor Tick -872 (580 resisted) (Shadow)", -- [5]
-				"Infinite Corruptor Corrupting Blight (DoT) Aslastor Tick -1017 (435 resisted) (Shadow)", -- [6]
-				"Infinite Corruptor Corrupting Blight (DoT) Aslastor Tick -872 (580 resisted) (Shadow)", -- [7]
-				"Infinite Corruptor Corrupting Blight (DoT) Aslastor Tick -1017 (435 resisted) (Shadow)", -- [8]
-				"Infinite Corruptor Corrupting Blight (DoT) Aslastor Tick -1162 (290 resisted) (Shadow)", -- [9]
-				"Infinite Corruptor Corrupting Blight (DoT) Aslastor Tick -1162 (290 resisted) (Shadow)", -- [10]
-				"Infinite Corruptor Corrupting Blight (DoT) Aslastor Tick -1162 (290 resisted) (Shadow)", -- [11]
-				"Infinite Corruptor Corrupting Blight (DoT) Aslastor Tick -1017 (435 resisted) (Shadow)", -- [12]
-				"Infinite Corruptor Corrupting Blight (DoT) Aslastor Tick -1162 (290 resisted) (Shadow)", -- [13]
-				"Infinite Corruptor Corrupting Blight (DoT) Aslastor Tick -1162 (290 resisted) (Shadow)", -- [14]
-				"Infinite Corruptor Corrupting Blight (DoT) Aslastor Tick -1162 (290 resisted) (Shadow)", -- [15]
-				"Infinite Corruptor Corrupting Blight (DoT) Aslastor Tick -872 (580 resisted) (Shadow)", -- [16]
-				"Infinite Corruptor Corrupting Blight (DoT) Aslastor Tick -1017 (435 resisted) (Shadow)", -- [17]
-				"Infinite Corruptor Corrupting Blight (DoT) Aslastor Tick -1017 (435 resisted) (Shadow)", -- [18]
-			},
-			["Name"] = "Infinite Corruptor",
-			["LastEventIncoming"] = {
-				false, -- [1]
-				false, -- [2]
-				false, -- [3]
-				false, -- [4]
-				false, -- [5]
-				false, -- [6]
-				false, -- [7]
-				false, -- [8]
-				false, -- [9]
-				false, -- [10]
-				false, -- [11]
-				false, -- [12]
-				false, -- [13]
-				false, -- [14]
-				false, -- [15]
-				false, -- [16]
-				false, -- [17]
-				false, -- [18]
-			},
-			["LastEventTimes"] = {
-				13789.832, -- [1]
-				13792.881, -- [2]
-				13795.836, -- [3]
-				13798.837, -- [4]
-				13801.868, -- [5]
-				13804.844, -- [6]
-				13807.852, -- [7]
-				13810.839, -- [8]
-				13813.863, -- [9]
-				13816.871, -- [10]
-				13819.886, -- [11]
-				13822.834, -- [12]
-				13825.849, -- [13]
-				13828.87, -- [14]
-				13831.847, -- [15]
-				13834.842, -- [16]
-				13837.866, -- [17]
-				13840.862, -- [18]
-			},
-			["Fights"] = {
-				["LastFightData"] = {
-					["DOTs"] = {
-					},
-					["ElementDoneResist"] = {
-					},
-					["Ressed"] = 0,
-					["DamageTaken"] = 0,
-					["RageGainedFrom"] = {
-					},
-					["ElementHitsTaken"] = {
-					},
-					["DeathCount"] = 0,
-					["HOT_Time"] = 0,
-					["ElementHitsDone"] = {
-					},
-					["ElementTakenAbsorb"] = {
-					},
-					["ElementTaken"] = {
-					},
-					["DOT_Time"] = 0,
-					["Damage"] = 0,
-					["ElementTakenBlock"] = {
-					},
-					["TimeHeal"] = 0,
-					["RessedWho"] = {
-					},
-					["Dispels"] = 0,
-					["ElementTakenResist"] = {
-					},
-					["ElementDoneAbsorb"] = {
-					},
-					["FAttacks"] = {
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementDone"] = {
-					},
-					["PartialAbsorb"] = {
-					},
-					["DamagedWho"] = {
-					},
-					["PartialBlock"] = {
-					},
-					["WhoDamaged"] = {
-					},
-					["EnergyGainedFrom"] = {
-					},
-					["PartialResist"] = {
-					},
-					["CCBroken"] = {
-					},
-					["ElementDoneBlock"] = {
-					},
-					["TimeHealing"] = {
-					},
-					["OverHeals"] = {
-					},
-					["ManaGainedFrom"] = {
-					},
-					["RunicPowerGained"] = {
-					},
-					["CCBreak"] = 0,
-					["RageGained"] = {
-					},
-					["HealedWho"] = {
-					},
-					["EnergyGain"] = 0,
-					["ManaGained"] = {
-					},
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
-					["Overhealing"] = 0,
-					["TimeSpent"] = {
-					},
-					["WhoDispelled"] = {
-					},
-					["InterruptData"] = {
-					},
-					["RunicPowerGain"] = 0,
-					["Heals"] = {
-					},
-					["WhoHealed"] = {
-					},
-					["EnergyGained"] = {
-					},
-					["ActiveTime"] = 0,
-					["Healing"] = 0,
-					["FDamagedWho"] = {
-					},
-					["Dispelled"] = 0,
-					["Attacks"] = {
-					},
-					["HealingTaken"] = 0,
-					["RageGain"] = 0,
-					["TimeDamage"] = 0,
-					["TimeDamaging"] = {
-					},
-					["ManaGain"] = 0,
-					["HOTs"] = {
-					},
-					["DispelledWho"] = {
-					},
-				},
-				["CurrentFightData"] = {
-					["DOTs"] = {
-					},
-					["ElementDoneResist"] = {
-					},
-					["Ressed"] = 0,
-					["DamageTaken"] = 0,
-					["RageGainedFrom"] = {
-					},
-					["ElementHitsTaken"] = {
-					},
-					["DeathCount"] = 0,
-					["HOT_Time"] = 0,
-					["ElementHitsDone"] = {
-					},
-					["ElementTakenAbsorb"] = {
-					},
-					["ElementTaken"] = {
-					},
-					["DOT_Time"] = 0,
-					["Damage"] = 0,
-					["ElementTakenBlock"] = {
-					},
-					["TimeHeal"] = 0,
-					["RessedWho"] = {
-					},
-					["Dispels"] = 0,
-					["ElementTakenResist"] = {
-					},
-					["ElementDoneAbsorb"] = {
-					},
-					["FAttacks"] = {
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementDone"] = {
-					},
-					["PartialAbsorb"] = {
-					},
-					["DamagedWho"] = {
-					},
-					["PartialBlock"] = {
-					},
-					["WhoDamaged"] = {
-					},
-					["EnergyGainedFrom"] = {
-					},
-					["PartialResist"] = {
-					},
-					["CCBroken"] = {
-					},
-					["ElementDoneBlock"] = {
-					},
-					["TimeHealing"] = {
-					},
-					["OverHeals"] = {
-					},
-					["ManaGainedFrom"] = {
-					},
-					["RunicPowerGained"] = {
-					},
-					["CCBreak"] = 0,
-					["RageGained"] = {
-					},
-					["HealedWho"] = {
-					},
-					["EnergyGain"] = 0,
-					["ManaGained"] = {
-					},
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
-					["Overhealing"] = 0,
-					["TimeSpent"] = {
-					},
-					["WhoDispelled"] = {
-					},
-					["InterruptData"] = {
-					},
-					["RunicPowerGain"] = 0,
-					["Heals"] = {
-					},
-					["WhoHealed"] = {
-					},
-					["EnergyGained"] = {
-					},
-					["ActiveTime"] = 0,
-					["Healing"] = 0,
-					["FDamagedWho"] = {
-					},
-					["Dispelled"] = 0,
-					["Attacks"] = {
-					},
-					["HealingTaken"] = 0,
-					["RageGain"] = 0,
-					["TimeDamage"] = 0,
-					["TimeDamaging"] = {
-					},
-					["ManaGain"] = 0,
-					["HOTs"] = {
-					},
-					["DispelledWho"] = {
-					},
-				},
-				["OverallData"] = {
-					["DOTs"] = {
-						["Corrupting Blight (DoT)"] = {
-							["Details"] = {
-								["Aslastor"] = {
-									["count"] = 54,
-								},
-							},
-							["amount"] = 54,
-						},
-					},
-					["ElementDoneResist"] = {
-						["Shadow"] = 6960,
-					},
-					["TimeSpent"] = {
-						["Aslastor"] = {
-							["Details"] = {
-								["Corrupting Blight (DoT)"] = {
-									["count"] = 54.54000000000001,
-								},
-							},
-							["amount"] = 54.54000000000001,
-						},
-					},
-					["ElementHitsDone"] = {
-						["Shadow"] = {
-							["Details"] = {
-								["Tick"] = {
-									["count"] = 18,
-								},
-							},
-							["amount"] = 18,
-						},
-					},
-					["Attacks"] = {
-						["Corrupting Blight (DoT)"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 1307,
-									["min"] = 872,
-									["count"] = 18,
-									["amount"] = 19176,
-								},
-							},
-							["count"] = 18,
-							["amount"] = 19176,
-						},
-					},
-					["ElementDone"] = {
-						["Shadow"] = 19176,
-					},
-					["DamagedWho"] = {
-						["Aslastor"] = {
-							["Details"] = {
-								["Corrupting Blight (DoT)"] = {
-									["count"] = 19176,
-								},
-							},
-							["amount"] = 19176,
-						},
-					},
-					["ActiveTime"] = 54.54000000000001,
-					["TimeDamaging"] = {
-						["Aslastor"] = {
-							["Details"] = {
-								["Corrupting Blight (DoT)"] = {
-									["count"] = 54.54000000000001,
-								},
-							},
-							["amount"] = 54.54000000000001,
-						},
-					},
-					["TimeDamage"] = 54.54000000000001,
-					["DOT_Time"] = 54,
-					["Damage"] = 19176,
-				},
-			},
-			["UnitLockout"] = 1689333784,
-			["LastActive"] = 1689333784,
-		},
 		["Nemuritorujr"] = {
 			["GUID"] = "0x0700000000972769",
 			["LastEventHealth"] = {
@@ -558,17 +119,17 @@ RecountPerCharDB = {
 				["DamageTaken"] = {
 					3220, -- [1]
 				},
-				["DeathCount"] = {
-					1, -- [1]
-				},
-				["Overhealing"] = {
-					1189, -- [1]
-				},
 				["HealingTaken"] = {
 					1240, -- [1]
 				},
 				["HOT_Time"] = {
 					462, -- [1]
+				},
+				["DeathCount"] = {
+					1, -- [1]
+				},
+				["Overhealing"] = {
+					1189, -- [1]
 				},
 				["ActiveTime"] = {
 					2059.530000000001, -- [1]
@@ -588,76 +149,8 @@ RecountPerCharDB = {
 			},
 			["enClass"] = "PRIEST",
 			["unit"] = "Nemuritorujr",
-			["lazysync"] = true,
-			["DeathLogs"] = {
-				{
-					["MessageIncoming"] = {
-						true, -- [1]
-						true, -- [2]
-						true, -- [3]
-						true, -- [4]
-						true, -- [5]
-						true, -- [6]
-						true, -- [7]
-					},
-					["Messages"] = {
-						"Chorevpet Melee Nemuritorujr Hit -47 (Physical)", -- [1]
-						"Chorevpet Melee Nemuritorujr Hit -39 (Physical)", -- [2]
-						"Chorevpet Life Steal Nemuritorujr Hit -30 (Shadow)", -- [3]
-						"Chorevpet Eviscerate Nemuritorujr Hit -78 (Physical)", -- [4]
-						"Chorevpet Melee Nemuritorujr Hit -51 (Physical)", -- [5]
-						"Chorevpet Melee Nemuritorujr Crit -68 (Physical)", -- [6]
-						"Nemuritorujr dies.", -- [7]
-					},
-					["DeathAt"] = 1689329691,
-					["HealthNum"] = {
-						55.08474576271186, -- [1]
-						45.1271186440678, -- [2]
-						38.77118644067797, -- [3]
-						13.98305084745763, -- [4]
-						13.98305084745763, -- [5]
-						3.177966101694915, -- [6]
-						0, -- [7]
-					},
-					["MessageTimes"] = {
-						-2.100000000000364, -- [1]
-						-1.765999999999622, -- [2]
-						-1.649999999999636, -- [3]
-						-0.683999999999287, -- [4]
-						-0.3919999999998254, -- [5]
-						-0.07599999999911233, -- [6]
-						0, -- [7]
-					},
-					["KilledBy"] = "Chorevpet",
-					["Health"] = {
-						"260 (55%)", -- [1]
-						"213 (45%)", -- [2]
-						"183 (38%)", -- [3]
-						"66 (13%)", -- [4]
-						"66 (13%)", -- [5]
-						"15 (3%)", -- [6]
-						"0 (0%)", -- [7]
-					},
-					["EventNum"] = {
-						9.957627118644068, -- [1]
-						8.26271186440678, -- [2]
-						6.35593220338983, -- [3]
-						16.52542372881356, -- [4]
-						10.80508474576271, -- [5]
-						14.40677966101695, -- [6]
-						0, -- [7]
-					},
-					["MessageType"] = {
-						"DAMAGE", -- [1]
-						"DAMAGE", -- [2]
-						"DAMAGE", -- [3]
-						"DAMAGE", -- [4]
-						"DAMAGE", -- [5]
-						"DAMAGE", -- [6]
-						"MISC", -- [7]
-					},
-				}, -- [1]
-			},
+			["LastActive"] = 1689333031,
+			["UnitLockout"] = 1689323317,
 			["level"] = 18,
 			["LastDamageAbility"] = "Melee",
 			["LastFightIn"] = 173,
@@ -670,241 +163,13 @@ RecountPerCharDB = {
 				[46] = 1.974865350089767,
 				[48] = 1.974865350089767,
 				[18] = 1.974865350089767,
-				[5] = 1.974865350089767,
-				[21] = 4.82897384305835,
-				[22] = 4.82897384305835,
 				[16] = 1.974865350089767,
+				[5] = 1.974865350089767,
+				[22] = 4.82897384305835,
+				[21] = 4.82897384305835,
 			},
-			["type"] = "Grouped",
+			["lazysync"] = true,
 			["FightsSaved"] = 5,
-			["LastAbility"] = 12389.947,
-			["LastDamageTaken"] = 39,
-			["Owner"] = false,
-			["TimeLast"] = {
-				["TimeHeal"] = 1689331821,
-				["DeathCount"] = 1689329689,
-				["OVERALL"] = 1689332333,
-				["DamageTaken"] = 1689331911,
-				["Healing"] = 1689331821,
-				["Overhealing"] = 1689331819,
-				["HealingTaken"] = 1689331948,
-				["HOT_Time"] = 1689331821,
-				["TimeDamage"] = 1689332333,
-				["ActiveTime"] = 1689332333,
-				["ManaGain"] = 1689332289,
-				["DOT_Time"] = 1689332289,
-				["Damage"] = 1689332333,
-			},
-			["NextEventNum"] = 31,
-			["LastEventHealthNum"] = {
-				100, -- [1]
-				100, -- [2]
-				100, -- [3]
-				100, -- [4]
-				100, -- [5]
-				100, -- [6]
-				100, -- [7]
-				100, -- [8]
-				100, -- [9]
-				100, -- [10]
-				100, -- [11]
-				100, -- [12]
-				100, -- [13]
-				100, -- [14]
-				100, -- [15]
-				100, -- [16]
-				100, -- [17]
-				100, -- [18]
-				100, -- [19]
-				100, -- [20]
-				100, -- [21]
-				100, -- [22]
-				100, -- [23]
-				100, -- [24]
-				100, -- [25]
-				100, -- [26]
-				100, -- [27]
-				100, -- [28]
-				100, -- [29]
-				100, -- [30]
-				100, -- [31]
-				100, -- [32]
-				100, -- [33]
-				100, -- [34]
-				100, -- [35]
-				100, -- [36]
-				100, -- [37]
-				100, -- [38]
-				100, -- [39]
-				100, -- [40]
-				100, -- [41]
-				100, -- [42]
-				100, -- [43]
-				100, -- [44]
-				100, -- [45]
-				100, -- [46]
-				100, -- [47]
-				100, -- [48]
-				100, -- [49]
-				100, -- [50]
-			},
-			["LastEvents"] = {
-				"Flokus Judgement of Light Nemuritorujr Tick +11 (11 overheal)", -- [1]
-				"Nemuritorujr Smite Foulweald Pathfinder Hit -72 (Holy)", -- [2]
-				"Nemuritorujr Lesser Heal Flokus Hit +165 (124 overheal)", -- [3]
-				"Nemuritorujr Mind Blast Ashenvale Bear Hit -82 (Shadow)", -- [4]
-				"Flokus Judgement of Light Nemuritorujr Tick +11 (11 overheal)", -- [5]
-				"Nemuritorujr Smite Ashenvale Bear Hit -68 (Holy)", -- [6]
-				"Nemuritorujr Smite Ashenvale Bear Hit -69 (Holy)", -- [7]
-				"Nemuritorujr Mind Blast Ashenvale Bear Hit -86 (Shadow)", -- [8]
-				"Nemuritorujr Smite Ashenvale Bear Hit -72 (Holy)", -- [9]
-				"Nemuritorujr Smite Ashenvale Bear Hit -65 (Holy)", -- [10]
-				"Nemuritorujr Smite Ashenvale Bear Hit -72 (Holy)", -- [11]
-				"Nemuritorujr Shadow Word: Pain (DoT) Ashenvale Bear Tick -21 (2 resisted) (Shadow)", -- [12]
-				"Flokus Judgement of Light Nemuritorujr Tick +11 (11 overheal)", -- [13]
-				"Nemuritorujr Mind Blast Ashenvale Bear Hit -84 (Shadow)", -- [14]
-				"Nemuritorujr Shadow Word: Pain (DoT) Ashenvale Bear Tick -21 (2 resisted) (Shadow)", -- [15]
-				"Flokus Judgement of Light Nemuritorujr Tick +11 (11 overheal)", -- [16]
-				"Nemuritorujr Mind Blast Ashenvale Bear Hit -76 (8 resisted) (Shadow)", -- [17]
-				"Flokus Judgement of Light Nemuritorujr Tick +11 (11 overheal)", -- [18]
-				"Nemuritorujr Smite Ashenvale Bear Crit -105 (Holy)", -- [19]
-				"Nemuritorujr Smite Ashenvale Bear Hit -64 (7 resisted) (Holy)", -- [20]
-				"Nemuritorujr Renew Nemuritorujr Tick +24 (24 overheal)", -- [21]
-				"Nemuritorujr Renew Nemuritorujr Tick +24 (24 overheal)", -- [22]
-				"Nemuritorujr Renew Nemuritorujr Tick +23 (23 overheal)", -- [23]
-				"Nemuritorujr Renew Nemuritorujr Tick +23 (23 overheal)", -- [24]
-				"Nemuritorujr Renew Nemuritorujr Tick +23 (23 overheal)", -- [25]
-				"Nemuritorujr Renew Flokus Tick +24 (24 overheal)", -- [26]
-				"Nemuritorujr Renew Flokus Tick +24 (24 overheal)", -- [27]
-				"Nemuritorujr Renew Flokus Tick +23 (23 overheal)", -- [28]
-				"Nemuritorujr Renew Flokus Tick +23 (23 overheal)", -- [29]
-				"Nemuritorujr Renew Flokus Tick +24 (24 overheal)", -- [30]
-				"Nemuritorujr Shadow Word: Pain (DoT) Foulweald Totemic Tick -20 (2 resisted) (Shadow)", -- [31]
-				"Nemuritorujr Shoot Foulweald Totemic Hit -20 (5 resisted) (Arcane)", -- [32]
-				"Nemuritorujr Shadow Word: Pain (DoT) Foulweald Totemic Tick -23 (Shadow)", -- [33]
-				"Nemuritorujr Shoot Foulweald Totemic Hit -27 (Arcane)", -- [34]
-				"Nemuritorujr Shoot Foulweald Totemic Hit -18 (Arcane)", -- [35]
-				"Nemuritorujr Shadow Word: Pain (DoT) Foulweald Totemic Tick -23 (Shadow)", -- [36]
-				"Nemuritorujr Shoot Foulweald Totemic Miss (Physical)", -- [37]
-				"Nemuritorujr Shadow Word: Pain (DoT) Foulweald Totemic Tick -21 (2 resisted) (Shadow)", -- [38]
-				"Nemuritorujr Shoot Foulweald Totemic Hit -25 (2 resisted) (Arcane)", -- [39]
-				"Nemuritorujr Shoot Foulweald Totemic Hit -18 (Arcane)", -- [40]
-				"Nemuritorujr Shadow Word: Pain (DoT) Foulweald Totemic Tick -21 (2 resisted) (Shadow)", -- [41]
-				"Nemuritorujr Smite Foulweald Pathfinder Miss (Holy)", -- [42]
-				"Nemuritorujr Mind Blast Foulweald Pathfinder Hit -77 (8 resisted) (Shadow)", -- [43]
-				"Nemuritorujr Smite Foulweald Pathfinder Miss (Holy)", -- [44]
-				"Nemuritorujr Smite Foulweald Pathfinder Miss (Holy)", -- [45]
-				"Flokus Judgement of Light Nemuritorujr Tick +11 (11 overheal)", -- [46]
-				"Nemuritorujr Smite Foulweald Pathfinder Hit -63 (7 resisted) (Holy)", -- [47]
-				"Flokus Judgement of Light Nemuritorujr Tick +11 (11 overheal)", -- [48]
-				"Nemuritorujr Mind Blast Foulweald Pathfinder Hit -77 (8 resisted) (Shadow)", -- [49]
-				"Nemuritorujr Smite Foulweald Pathfinder Hit -67 (Holy)", -- [50]
-			},
-			["Name"] = "Nemuritorujr",
-			["LastEventIncoming"] = {
-				true, -- [1]
-				false, -- [2]
-				false, -- [3]
-				false, -- [4]
-				true, -- [5]
-				false, -- [6]
-				false, -- [7]
-				false, -- [8]
-				false, -- [9]
-				false, -- [10]
-				false, -- [11]
-				false, -- [12]
-				true, -- [13]
-				false, -- [14]
-				false, -- [15]
-				true, -- [16]
-				false, -- [17]
-				true, -- [18]
-				false, -- [19]
-				false, -- [20]
-				true, -- [21]
-				true, -- [22]
-				true, -- [23]
-				true, -- [24]
-				true, -- [25]
-				false, -- [26]
-				false, -- [27]
-				false, -- [28]
-				false, -- [29]
-				false, -- [30]
-				false, -- [31]
-				false, -- [32]
-				false, -- [33]
-				false, -- [34]
-				false, -- [35]
-				false, -- [36]
-				false, -- [37]
-				false, -- [38]
-				false, -- [39]
-				false, -- [40]
-				false, -- [41]
-				false, -- [42]
-				false, -- [43]
-				false, -- [44]
-				false, -- [45]
-				true, -- [46]
-				false, -- [47]
-				true, -- [48]
-				false, -- [49]
-				false, -- [50]
-			},
-			["LastEventTimes"] = {
-				12153.666, -- [1]
-				12153.668, -- [2]
-				12162.267, -- [3]
-				12189.308, -- [4]
-				12191.9, -- [5]
-				12191.9, -- [6]
-				12195.074, -- [7]
-				12213.582, -- [8]
-				12216.207, -- [9]
-				12219.429, -- [10]
-				12222.082, -- [11]
-				12342.256, -- [12]
-				12343.839, -- [13]
-				12343.839, -- [14]
-				12345.256, -- [15]
-				12384.497, -- [16]
-				12384.497, -- [17]
-				12387.405, -- [18]
-				12387.405, -- [19]
-				12389.947, -- [20]
-				13061.622, -- [21]
-				13064.605, -- [22]
-				13067.605, -- [23]
-				13070.605, -- [24]
-				13073.622, -- [25]
-				13075.038, -- [26]
-				13078.038, -- [27]
-				13081.022, -- [28]
-				13084.038, -- [29]
-				13087.013, -- [30]
-				12115.242, -- [31]
-				12115.917, -- [32]
-				12118.234, -- [33]
-				12118.85, -- [34]
-				12120.667, -- [35]
-				12121.25, -- [36]
-				12122.91, -- [37]
-				12124.209, -- [38]
-				12124.267, -- [39]
-				12126.05, -- [40]
-				12127.227, -- [41]
-				12134.15, -- [42]
-				12135.7, -- [43]
-				12138.492, -- [44]
-				12142.366, -- [45]
-				12145.066, -- [46]
-				12145.067, -- [47]
-				12147.016, -- [48]
-				12147.017, -- [49]
-				12150.683, -- [50]
-			},
 			["Fights"] = {
 				["LastFightData"] = {
 					["DOTs"] = {
@@ -919,43 +184,40 @@ RecountPerCharDB = {
 					},
 					["DeathCount"] = 0,
 					["HOT_Time"] = 0,
-					["ElementHitsDone"] = {
+					["HOTs"] = {
 					},
-					["ElementTakenAbsorb"] = {
-					},
+					["ManaGain"] = 0,
 					["ElementTaken"] = {
 					},
 					["DOT_Time"] = 0,
 					["Damage"] = 0,
-					["ElementTakenBlock"] = {
+					["ElementDoneAbsorb"] = {
 					},
 					["TimeHeal"] = 0,
 					["RessedWho"] = {
 					},
 					["Dispels"] = 0,
-					["ElementTakenResist"] = {
-					},
-					["ElementDoneAbsorb"] = {
-					},
-					["FAttacks"] = {
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementDone"] = {
-					},
 					["PartialAbsorb"] = {
 					},
-					["DamagedWho"] = {
+					["RageGain"] = 0,
+					["FAttacks"] = {
 					},
 					["PartialBlock"] = {
 					},
+					["ElementDone"] = {
+					},
+					["CCBroken"] = {
+					},
+					["ElementHitsDone"] = {
+					},
+					["Dispelled"] = 0,
 					["WhoDamaged"] = {
 					},
 					["EnergyGainedFrom"] = {
 					},
-					["PartialResist"] = {
+					["FDamagedWho"] = {
 					},
-					["CCBroken"] = {
+					["RunicPowerGainedFrom"] = {
 					},
 					["ElementDoneBlock"] = {
 					},
@@ -963,48 +225,51 @@ RecountPerCharDB = {
 					},
 					["OverHeals"] = {
 					},
-					["ManaGainedFrom"] = {
-					},
-					["RunicPowerGained"] = {
-					},
-					["CCBreak"] = 0,
 					["RageGained"] = {
 					},
-					["HealedWho"] = {
-					},
+					["ActiveTime"] = 0,
+					["CCBreak"] = 0,
 					["EnergyGain"] = 0,
+					["WhoHealed"] = {
+					},
+					["PartialResist"] = {
+					},
 					["ManaGained"] = {
 					},
-					["FDamage"] = 0,
+					["ElementTakenAbsorb"] = {
+					},
 					["Interrupts"] = 0,
 					["Overhealing"] = 0,
-					["TimeSpent"] = {
-					},
-					["WhoDispelled"] = {
+					["ElementTakenResist"] = {
 					},
 					["InterruptData"] = {
 					},
-					["RunicPowerGain"] = 0,
+					["WhoDispelled"] = {
+					},
+					["TimeSpent"] = {
+					},
 					["Heals"] = {
 					},
-					["WhoHealed"] = {
-					},
+					["FDamage"] = 0,
 					["EnergyGained"] = {
 					},
-					["ActiveTime"] = 0,
-					["Healing"] = 0,
-					["FDamagedWho"] = {
+					["HealedWho"] = {
 					},
-					["Dispelled"] = 0,
+					["Healing"] = 0,
+					["RunicPowerGained"] = {
+					},
+					["ManaGainedFrom"] = {
+					},
 					["Attacks"] = {
 					},
 					["HealingTaken"] = 0,
-					["RageGain"] = 0,
+					["DamagedWho"] = {
+					},
 					["TimeDamage"] = 0,
 					["TimeDamaging"] = {
 					},
-					["ManaGain"] = 0,
-					["HOTs"] = {
+					["RunicPowerGain"] = 0,
+					["ElementTakenBlock"] = {
 					},
 					["DispelledWho"] = {
 					},
@@ -1022,43 +287,40 @@ RecountPerCharDB = {
 					},
 					["DeathCount"] = 0,
 					["HOT_Time"] = 0,
-					["ElementHitsDone"] = {
+					["HOTs"] = {
 					},
-					["ElementTakenAbsorb"] = {
-					},
+					["ManaGain"] = 0,
 					["ElementTaken"] = {
 					},
 					["DOT_Time"] = 0,
 					["Damage"] = 0,
-					["ElementTakenBlock"] = {
+					["ElementDoneAbsorb"] = {
 					},
 					["TimeHeal"] = 0,
 					["RessedWho"] = {
 					},
 					["Dispels"] = 0,
-					["ElementTakenResist"] = {
-					},
-					["ElementDoneAbsorb"] = {
-					},
-					["FAttacks"] = {
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementDone"] = {
-					},
 					["PartialAbsorb"] = {
 					},
-					["DamagedWho"] = {
+					["RageGain"] = 0,
+					["FAttacks"] = {
 					},
 					["PartialBlock"] = {
 					},
+					["ElementDone"] = {
+					},
+					["CCBroken"] = {
+					},
+					["ElementHitsDone"] = {
+					},
+					["Dispelled"] = 0,
 					["WhoDamaged"] = {
 					},
 					["EnergyGainedFrom"] = {
 					},
-					["PartialResist"] = {
+					["FDamagedWho"] = {
 					},
-					["CCBroken"] = {
+					["RunicPowerGainedFrom"] = {
 					},
 					["ElementDoneBlock"] = {
 					},
@@ -1066,48 +328,51 @@ RecountPerCharDB = {
 					},
 					["OverHeals"] = {
 					},
-					["ManaGainedFrom"] = {
-					},
-					["RunicPowerGained"] = {
-					},
-					["CCBreak"] = 0,
 					["RageGained"] = {
 					},
-					["HealedWho"] = {
-					},
+					["ActiveTime"] = 0,
+					["CCBreak"] = 0,
 					["EnergyGain"] = 0,
+					["WhoHealed"] = {
+					},
+					["PartialResist"] = {
+					},
 					["ManaGained"] = {
 					},
-					["FDamage"] = 0,
+					["ElementTakenAbsorb"] = {
+					},
 					["Interrupts"] = 0,
 					["Overhealing"] = 0,
-					["TimeSpent"] = {
-					},
-					["WhoDispelled"] = {
+					["ElementTakenResist"] = {
 					},
 					["InterruptData"] = {
 					},
-					["RunicPowerGain"] = 0,
+					["WhoDispelled"] = {
+					},
+					["TimeSpent"] = {
+					},
 					["Heals"] = {
 					},
-					["WhoHealed"] = {
-					},
+					["FDamage"] = 0,
 					["EnergyGained"] = {
 					},
-					["ActiveTime"] = 0,
-					["Healing"] = 0,
-					["FDamagedWho"] = {
+					["HealedWho"] = {
 					},
-					["Dispelled"] = 0,
+					["Healing"] = 0,
+					["RunicPowerGained"] = {
+					},
+					["ManaGainedFrom"] = {
+					},
 					["Attacks"] = {
 					},
 					["HealingTaken"] = 0,
-					["RageGain"] = 0,
+					["DamagedWho"] = {
+					},
 					["TimeDamage"] = 0,
 					["TimeDamaging"] = {
 					},
-					["ManaGain"] = 0,
-					["HOTs"] = {
+					["RunicPowerGain"] = 0,
+					["ElementTakenBlock"] = {
 					},
 					["DispelledWho"] = {
 					},
@@ -1140,38 +405,38 @@ RecountPerCharDB = {
 								["Blackwood Shaman"] = {
 									["count"] = 12,
 								},
+								["Foulweald Totemic"] = {
+									["count"] = 63,
+								},
+								["Blackwood Ursa"] = {
+									["count"] = 12,
+								},
 								["Foulweald Ursa"] = {
 									["count"] = 18,
 								},
 								["Blackwood Warrior"] = {
 									["count"] = 12,
 								},
-								["Wrathtail Wave Rider"] = {
-									["count"] = 27,
-								},
-								["Blackwood Ursa"] = {
-									["count"] = 12,
-								},
-								["Foulweald Warrior"] = {
-									["count"] = 75,
-								},
-								["Saltspittle Warrior"] = {
-									["count"] = 6,
-								},
-								["Mugglefin"] = {
+								["Wrathtail Sorceress"] = {
 									["count"] = 18,
 								},
 								["Wrathtail Priestess"] = {
 									["count"] = 9,
 								},
+								["Mugglefin"] = {
+									["count"] = 18,
+								},
 								["Carnivous the Breaker"] = {
 									["count"] = 3,
+								},
+								["Felslayer"] = {
+									["count"] = 60,
 								},
 								["Spined Crawler"] = {
 									["count"] = 6,
 								},
-								["Felslayer"] = {
-									["count"] = 60,
+								["Saltspittle Warrior"] = {
+									["count"] = 6,
 								},
 								["Foulweald Shaman"] = {
 									["count"] = 18,
@@ -1179,14 +444,14 @@ RecountPerCharDB = {
 								["Wrathtail Razortail"] = {
 									["count"] = 3,
 								},
-								["Wrathtail Sorceress"] = {
-									["count"] = 18,
+								["Wrathtail Wave Rider"] = {
+									["count"] = 27,
 								},
 								["Wildthorn Stalker"] = {
 									["count"] = 12,
 								},
-								["Foulweald Totemic"] = {
-									["count"] = 63,
+								["Foulweald Warrior"] = {
+									["count"] = 75,
 								},
 							},
 							["amount"] = 459,
@@ -1214,8 +479,8 @@ RecountPerCharDB = {
 								["Hit"] = {
 									["count"] = 45,
 								},
-								["Crushing"] = {
-									["count"] = 9,
+								["Miss"] = {
+									["count"] = 7,
 								},
 								["Dodge"] = {
 									["count"] = 3,
@@ -1223,8 +488,8 @@ RecountPerCharDB = {
 								["Crit"] = {
 									["count"] = 5,
 								},
-								["Miss"] = {
-									["count"] = 7,
+								["Crushing"] = {
+									["count"] = 9,
 								},
 							},
 							["amount"] = 102,
@@ -1239,11 +504,11 @@ RecountPerCharDB = {
 						},
 						["Fire"] = {
 							["Details"] = {
-								["Absorb"] = {
-									["count"] = 3,
-								},
 								["Hit"] = {
 									["count"] = 9,
+								},
+								["Absorb"] = {
+									["count"] = 3,
 								},
 							},
 							["amount"] = 12,
@@ -1253,22 +518,22 @@ RecountPerCharDB = {
 								["Absorb"] = {
 									["count"] = 2,
 								},
-								["Hit"] = {
-									["count"] = 5,
-								},
 								["Tick"] = {
 									["count"] = 9,
+								},
+								["Hit"] = {
+									["count"] = 5,
 								},
 							},
 							["amount"] = 16,
 						},
 						["Nature"] = {
 							["Details"] = {
-								["Hit"] = {
-									["count"] = 3,
-								},
 								["Absorb"] = {
 									["count"] = 1,
+								},
+								["Hit"] = {
+									["count"] = 3,
 								},
 							},
 							["amount"] = 4,
@@ -1313,14 +578,14 @@ RecountPerCharDB = {
 					["HOTs"] = {
 						["Renew"] = {
 							["Details"] = {
-								["Dentrebras"] = {
-									["count"] = 15,
+								["Flokus"] = {
+									["count"] = 309,
 								},
 								["Nemuritorujr"] = {
 									["count"] = 138,
 								},
-								["Flokus"] = {
-									["count"] = 309,
+								["Dentrebras"] = {
+									["count"] = 15,
 								},
 							},
 							["amount"] = 462,
@@ -1329,8 +594,8 @@ RecountPerCharDB = {
 					["Damage"] = 35046,
 					["TimeHeal"] = 233.15,
 					["ElementDone"] = {
-						["Holy"] = 16167,
 						["Shadow"] = 17448,
+						["Holy"] = 16167,
 						["Melee"] = 26,
 						["Arcane"] = 1405,
 					},
@@ -1491,13 +756,13 @@ RecountPerCharDB = {
 							},
 							["amount"] = 142,
 						},
-						["Foulweald Warrior"] = {
+						["Foulweald Totemic"] = {
 							["Details"] = {
 								["Melee"] = {
-									["count"] = 64,
+									["count"] = 262,
 								},
 							},
-							["amount"] = 64,
+							["amount"] = 262,
 						},
 						["Wrathtail Wave Rider"] = {
 							["Details"] = {
@@ -1515,23 +780,26 @@ RecountPerCharDB = {
 							},
 							["amount"] = 49,
 						},
-						["Foulweald Totemic"] = {
+						["Foulweald Warrior"] = {
 							["Details"] = {
 								["Melee"] = {
-									["count"] = 262,
+									["count"] = 64,
 								},
 							},
-							["amount"] = 262,
+							["amount"] = 64,
 						},
 					},
 					["TimeHealing"] = {
-						["Dentrebras"] = {
+						["Flokus"] = {
 							["Details"] = {
 								["Renew"] = {
-									["count"] = 15.52,
+									["count"] = 190.31,
+								},
+								["Lesser Heal"] = {
+									["count"] = 3.62,
 								},
 							},
-							["amount"] = 15.52,
+							["amount"] = 193.9300000000001,
 						},
 						["Nemuritorujr"] = {
 							["Details"] = {
@@ -1544,16 +812,13 @@ RecountPerCharDB = {
 							},
 							["amount"] = 23.7,
 						},
-						["Flokus"] = {
+						["Dentrebras"] = {
 							["Details"] = {
 								["Renew"] = {
-									["count"] = 190.31,
-								},
-								["Lesser Heal"] = {
-									["count"] = 3.62,
+									["count"] = 15.52,
 								},
 							},
-							["amount"] = 193.9300000000001,
+							["amount"] = 15.52,
 						},
 					},
 					["OverHeals"] = {
@@ -1607,16 +872,16 @@ RecountPerCharDB = {
 							["count"] = 7,
 							["amount"] = 0,
 						},
-						["Shadow Bolt"] = {
+						["Lash of Pain"] = {
 							["Details"] = {
 								["No Resist"] = {
 									["max"] = 0,
 									["min"] = 0,
-									["count"] = 2,
+									["count"] = 3,
 									["amount"] = 0,
 								},
 							},
-							["count"] = 2,
+							["count"] = 3,
 							["amount"] = 0,
 						},
 						["Life Steal"] = {
@@ -1655,16 +920,16 @@ RecountPerCharDB = {
 							["count"] = 4,
 							["amount"] = 0,
 						},
-						["Lash of Pain"] = {
+						["Shadow Bolt"] = {
 							["Details"] = {
 								["No Resist"] = {
 									["max"] = 0,
 									["min"] = 0,
-									["count"] = 3,
+									["count"] = 2,
 									["amount"] = 0,
 								},
 							},
-							["count"] = 3,
+							["count"] = 2,
 							["amount"] = 0,
 						},
 						["Falling"] = {
@@ -1679,16 +944,16 @@ RecountPerCharDB = {
 							["count"] = 2,
 							["amount"] = 0,
 						},
-						["Eviscerate"] = {
+						["Melee"] = {
 							["Details"] = {
 								["No Resist"] = {
 									["max"] = 0,
 									["min"] = 0,
-									["count"] = 1,
+									["count"] = 102,
 									["amount"] = 0,
 								},
 							},
-							["count"] = 1,
+							["count"] = 102,
 							["amount"] = 0,
 						},
 						["Frostbolt"] = {
@@ -1739,16 +1004,16 @@ RecountPerCharDB = {
 							["count"] = 2,
 							["amount"] = 0,
 						},
-						["Melee"] = {
+						["Eviscerate"] = {
 							["Details"] = {
 								["No Resist"] = {
 									["max"] = 0,
 									["min"] = 0,
-									["count"] = 102,
+									["count"] = 1,
 									["amount"] = 0,
 								},
 							},
-							["count"] = 102,
+							["count"] = 1,
 							["amount"] = 0,
 						},
 						["Attack"] = {
@@ -1813,7 +1078,7 @@ RecountPerCharDB = {
 							["count"] = 7,
 							["amount"] = 45,
 						},
-						["Shadow Bolt"] = {
+						["Lash of Pain"] = {
 							["Details"] = {
 								["No Absorb"] = {
 									["max"] = 0,
@@ -1822,14 +1087,14 @@ RecountPerCharDB = {
 									["amount"] = 0,
 								},
 								["Absorbed"] = {
-									["max"] = 130,
-									["min"] = 130,
-									["count"] = 1,
-									["amount"] = 130,
+									["max"] = 106,
+									["min"] = 104,
+									["count"] = 2,
+									["amount"] = 210,
 								},
 							},
-							["count"] = 2,
-							["amount"] = 130,
+							["count"] = 3,
+							["amount"] = 210,
 						},
 						["Life Steal"] = {
 							["Details"] = {
@@ -1873,7 +1138,7 @@ RecountPerCharDB = {
 							["count"] = 4,
 							["amount"] = 75,
 						},
-						["Lash of Pain"] = {
+						["Shadow Bolt"] = {
 							["Details"] = {
 								["No Absorb"] = {
 									["max"] = 0,
@@ -1882,14 +1147,14 @@ RecountPerCharDB = {
 									["amount"] = 0,
 								},
 								["Absorbed"] = {
-									["max"] = 106,
-									["min"] = 104,
-									["count"] = 2,
-									["amount"] = 210,
+									["max"] = 130,
+									["min"] = 130,
+									["count"] = 1,
+									["amount"] = 130,
 								},
 							},
-							["count"] = 3,
-							["amount"] = 210,
+							["count"] = 2,
+							["amount"] = 130,
 						},
 						["Falling"] = {
 							["Details"] = {
@@ -1903,17 +1168,23 @@ RecountPerCharDB = {
 							["count"] = 2,
 							["amount"] = 0,
 						},
-						["Eviscerate"] = {
+						["Melee"] = {
 							["Details"] = {
 								["No Absorb"] = {
 									["max"] = 0,
 									["min"] = 0,
-									["count"] = 1,
+									["count"] = 66,
 									["amount"] = 0,
 								},
+								["Absorbed"] = {
+									["max"] = 148,
+									["min"] = 11,
+									["count"] = 36,
+									["amount"] = 1154,
+								},
 							},
-							["count"] = 1,
-							["amount"] = 0,
+							["count"] = 102,
+							["amount"] = 1154,
 						},
 						["Frostbolt"] = {
 							["Details"] = {
@@ -1969,23 +1240,17 @@ RecountPerCharDB = {
 							["count"] = 2,
 							["amount"] = 0,
 						},
-						["Melee"] = {
+						["Eviscerate"] = {
 							["Details"] = {
 								["No Absorb"] = {
 									["max"] = 0,
 									["min"] = 0,
-									["count"] = 66,
+									["count"] = 1,
 									["amount"] = 0,
 								},
-								["Absorbed"] = {
-									["max"] = 148,
-									["min"] = 11,
-									["count"] = 36,
-									["amount"] = 1154,
-								},
 							},
-							["count"] = 102,
-							["amount"] = 1154,
+							["count"] = 1,
+							["amount"] = 0,
 						},
 						["Attack"] = {
 							["Details"] = {
@@ -2025,1418 +1290,6 @@ RecountPerCharDB = {
 							},
 							["count"] = 4,
 							["amount"] = 555,
-						},
-					},
-					["HealedWho"] = {
-						["Dentrebras"] = {
-							["Details"] = {
-								["Renew"] = {
-									["count"] = 106,
-								},
-							},
-							["amount"] = 106,
-						},
-						["Nemuritorujr"] = {
-							["Details"] = {
-								["Renew"] = {
-									["count"] = 220,
-								},
-								["Lesser Heal"] = {
-									["count"] = 237,
-								},
-							},
-							["amount"] = 457,
-						},
-						["Flokus"] = {
-							["Details"] = {
-								["Renew"] = {
-									["count"] = 2036,
-								},
-								["Lesser Heal"] = {
-									["count"] = 318,
-								},
-							},
-							["amount"] = 2354,
-						},
-					},
-					["HOT_Time"] = 462,
-					["TimeSpent"] = {
-						["Lesser Felguard"] = {
-							["Details"] = {
-								["Mind Blast"] = {
-									["count"] = 36.02,
-								},
-								["Smite"] = {
-									["count"] = 61.50000000000002,
-								},
-								["Shadow Word: Pain"] = {
-									["count"] = 4.16,
-								},
-								["Shoot"] = {
-									["count"] = 15.92,
-								},
-								["Psychic Scream"] = {
-									["count"] = 0.61,
-								},
-								["Shadow Word: Pain (DoT)"] = {
-									["count"] = 25.65,
-								},
-							},
-							["amount"] = 143.86,
-						},
-						["Nemuritorujr"] = {
-							["Details"] = {
-								["Renew"] = {
-									["count"] = 18.18,
-								},
-								["Lesser Heal"] = {
-									["count"] = 5.52,
-								},
-							},
-							["amount"] = 23.7,
-						},
-						["Searing Totem II"] = {
-							["Details"] = {
-								["Mind Blast"] = {
-									["count"] = 6.63,
-								},
-							},
-							["amount"] = 6.63,
-						},
-						["Imp Minion"] = {
-							["Details"] = {
-								["Mind Blast"] = {
-									["count"] = 3.5,
-								},
-								["Smite"] = {
-									["count"] = 3.03,
-								},
-							},
-							["amount"] = 6.529999999999999,
-						},
-						["Wrathtail Sorceress"] = {
-							["Details"] = {
-								["Mind Blast"] = {
-									["count"] = 28.04,
-								},
-								["Shadow Word: Pain (DoT)"] = {
-									["count"] = 18.11,
-								},
-								["Smite"] = {
-									["count"] = 18.1,
-								},
-							},
-							["amount"] = 64.25,
-						},
-						["Dark Strand Cultist"] = {
-							["Details"] = {
-								["Mind Blast"] = {
-									["count"] = 3.5,
-								},
-								["Smite"] = {
-									["count"] = 6.25,
-								},
-							},
-							["amount"] = 9.75,
-						},
-						["Dark Strand Assassin"] = {
-							["Details"] = {
-								["Mind Blast"] = {
-									["count"] = 6.310000000000001,
-								},
-								["Smite"] = {
-									["count"] = 14.63,
-								},
-							},
-							["amount"] = 20.94000000000001,
-						},
-						["Blackwood Ursa"] = {
-							["Details"] = {
-								["Mind Blast"] = {
-									["count"] = 33.39,
-								},
-								["Smite"] = {
-									["count"] = 48.95000000000001,
-								},
-								["Shadow Word: Pain"] = {
-									["count"] = 0.17,
-								},
-								["Shoot"] = {
-									["count"] = 2.83,
-								},
-								["Psychic Scream"] = {
-									["count"] = 3.04,
-								},
-								["Shadow Word: Pain (DoT)"] = {
-									["count"] = 10.93,
-								},
-							},
-							["amount"] = 99.30999999999999,
-						},
-						["Foulweald Pathfinder"] = {
-							["Details"] = {
-								["Mind Blast"] = {
-									["count"] = 13.93,
-								},
-								["Smite"] = {
-									["count"] = 27.09,
-								},
-							},
-							["amount"] = 41.02,
-						},
-						["Succubus Minion"] = {
-							["Details"] = {
-								["Shadow Word: Pain"] = {
-									["count"] = 3.5,
-								},
-								["Psychic Scream"] = {
-									["count"] = 2.72,
-								},
-							},
-							["amount"] = 6.220000000000001,
-						},
-						["Ilkrud Magthrull"] = {
-							["Details"] = {
-								["Mind Blast"] = {
-									["count"] = 3.5,
-								},
-							},
-							["amount"] = 3.5,
-						},
-						["Thistlefur Avenger"] = {
-							["Details"] = {
-								["Mind Blast"] = {
-									["count"] = 5.69,
-								},
-								["Smite"] = {
-									["count"] = 13.41,
-								},
-							},
-							["amount"] = 19.1,
-						},
-						["Twilight Thug"] = {
-							["Details"] = {
-								["Mind Blast"] = {
-									["count"] = 0.3,
-								},
-								["Smite"] = {
-									["count"] = 2.59,
-								},
-							},
-							["amount"] = 2.89,
-						},
-						["Foulweald Shaman"] = {
-							["Details"] = {
-								["Shadow Word: Pain (DoT)"] = {
-									["count"] = 9.58,
-								},
-								["Mind Blast"] = {
-									["count"] = 1.6,
-								},
-								["Smite"] = {
-									["count"] = 7.310000000000001,
-								},
-							},
-							["amount"] = 18.49,
-						},
-						["Wrathtail Razortail"] = {
-							["Details"] = {
-								["Mind Blast"] = {
-									["count"] = 4.24,
-								},
-								["Shadow Word: Pain (DoT)"] = {
-									["count"] = 3.5,
-								},
-								["Smite"] = {
-									["count"] = 2.67,
-								},
-							},
-							["amount"] = 10.41,
-						},
-						["Deer"] = {
-							["Details"] = {
-								["Mind Blast"] = {
-									["count"] = 3.5,
-								},
-							},
-							["amount"] = 3.5,
-						},
-						["Foulweald Totemic"] = {
-							["Details"] = {
-								["Mind Blast"] = {
-									["count"] = 35.72,
-								},
-								["Smite"] = {
-									["count"] = 66.99,
-								},
-								["Shadow Word: Pain"] = {
-									["count"] = 2.94,
-								},
-								["Shoot"] = {
-									["count"] = 8.99,
-								},
-								["Shadow Word: Pain (DoT)"] = {
-									["count"] = 33.95,
-								},
-							},
-							["amount"] = 148.5900000000001,
-						},
-						["Mist Howler"] = {
-							["Details"] = {
-								["Mind Blast"] = {
-									["count"] = 3.68,
-								},
-								["Shadow Word: Pain (DoT)"] = {
-									["count"] = 6.710000000000001,
-								},
-								["Smite"] = {
-									["count"] = 6.1,
-								},
-							},
-							["amount"] = 16.49,
-						},
-						["Carnivous the Breaker"] = {
-							["Details"] = {
-								["Shadow Word: Pain (DoT)"] = {
-									["count"] = 3.5,
-								},
-								["Mind Blast"] = {
-									["count"] = 0.11,
-								},
-							},
-							["amount"] = 3.61,
-						},
-						["Blackwood Totemic"] = {
-							["Details"] = {
-								["Mind Blast"] = {
-									["count"] = 3.5,
-								},
-								["Shadow Word: Pain (DoT)"] = {
-									["count"] = 3.5,
-								},
-								["Smite"] = {
-									["count"] = 5.69,
-								},
-							},
-							["amount"] = 12.69,
-						},
-						["Ashenvale Bear"] = {
-							["Details"] = {
-								["Mind Blast"] = {
-									["count"] = 12.1,
-								},
-								["Shadow Word: Pain (DoT)"] = {
-									["count"] = 9.549999999999999,
-								},
-								["Smite"] = {
-									["count"] = 24.59,
-								},
-							},
-							["amount"] = 46.23999999999999,
-						},
-						["Moonstalker"] = {
-							["Details"] = {
-								["Shadow Word: Pain (DoT)"] = {
-									["count"] = 3.5,
-								},
-							},
-							["amount"] = 3.5,
-						},
-						["Foulweald Den Watcher"] = {
-							["Details"] = {
-								["Mind Blast"] = {
-									["count"] = 9.219999999999999,
-								},
-								["Shadow Word: Pain"] = {
-									["count"] = 3.78,
-								},
-								["Smite"] = {
-									["count"] = 20.24,
-								},
-							},
-							["amount"] = 33.24,
-						},
-						["Wild Buck"] = {
-							["Details"] = {
-								["Mind Blast"] = {
-									["count"] = 31,
-								},
-								["Shadow Word: Pain (DoT)"] = {
-									["count"] = 11.39,
-								},
-								["Melee"] = {
-									["count"] = 3.5,
-								},
-								["Smite"] = {
-									["count"] = 28.01,
-								},
-							},
-							["amount"] = 73.90000000000001,
-						},
-						["Ghostpaw Runner"] = {
-							["Details"] = {
-								["Shadow Word: Pain (DoT)"] = {
-									["count"] = 5.25,
-								},
-								["Mind Blast"] = {
-									["count"] = 40.02,
-								},
-								["Smite"] = {
-									["count"] = 49.64,
-								},
-							},
-							["amount"] = 94.90999999999998,
-						},
-						["Foulweald Ursa"] = {
-							["Details"] = {
-								["Shoot"] = {
-									["count"] = 18.76,
-								},
-								["Smite"] = {
-									["count"] = 3.96,
-								},
-								["Shadow Word: Pain"] = {
-									["count"] = 2.14,
-								},
-								["Shadow Word: Pain (DoT)"] = {
-									["count"] = 6.13,
-								},
-								["Mind Blast"] = {
-									["count"] = 5.13,
-								},
-							},
-							["amount"] = 36.12000000000001,
-						},
-						["Saltspittle Oracle"] = {
-							["Details"] = {
-								["Mind Blast"] = {
-									["count"] = 8.59,
-								},
-								["Smite"] = {
-									["count"] = 18.35,
-								},
-							},
-							["amount"] = 26.94,
-						},
-						["Blackwood Shaman"] = {
-							["Details"] = {
-								["Mind Blast"] = {
-									["count"] = 16.56,
-								},
-								["Shadow Word: Pain (DoT)"] = {
-									["count"] = 5.300000000000001,
-								},
-								["Melee"] = {
-									["count"] = 3.14,
-								},
-								["Smite"] = {
-									["count"] = 17.82,
-								},
-							},
-							["amount"] = 42.82,
-						},
-						["Foulweald Warrior"] = {
-							["Details"] = {
-								["Psychic Scream"] = {
-									["count"] = 0.88,
-								},
-								["Melee"] = {
-									["count"] = 6.26,
-								},
-								["Smite"] = {
-									["count"] = 97.19000000000001,
-								},
-								["Shadow Word: Pain"] = {
-									["count"] = 4.79,
-								},
-								["Shadow Word: Pain (DoT)"] = {
-									["count"] = 32.96000000000001,
-								},
-								["Mind Blast"] = {
-									["count"] = 54.24999999999999,
-								},
-								["Shoot"] = {
-									["count"] = 98.41999999999999,
-								},
-							},
-							["amount"] = 294.7500000000002,
-						},
-						["Mystlash Hydra"] = {
-							["Details"] = {
-								["Mind Blast"] = {
-									["count"] = 3.5,
-								},
-								["Smite"] = {
-									["count"] = 5.18,
-								},
-							},
-							["amount"] = 8.68,
-						},
-						["Wrathtail Wave Rider"] = {
-							["Details"] = {
-								["Mind Blast"] = {
-									["count"] = 21.29,
-								},
-								["Shadow Word: Pain"] = {
-									["count"] = 4.4,
-								},
-								["Shadow Word: Pain (DoT)"] = {
-									["count"] = 24.41,
-								},
-								["Smite"] = {
-									["count"] = 23.03,
-								},
-							},
-							["amount"] = 73.13000000000002,
-						},
-						["Wrathtail Myrmidon"] = {
-							["Details"] = {
-								["Mind Blast"] = {
-									["count"] = 22.34,
-								},
-								["Smite"] = {
-									["count"] = 48.89,
-								},
-							},
-							["amount"] = 71.22999999999999,
-						},
-						["Wrathtail Priestess"] = {
-							["Details"] = {
-								["Mind Blast"] = {
-									["count"] = 26.95,
-								},
-								["Shadow Word: Pain (DoT)"] = {
-									["count"] = 9.32,
-								},
-								["Smite"] = {
-									["count"] = 27.56,
-								},
-							},
-							["amount"] = 63.83,
-						},
-						["Mugglefin"] = {
-							["Details"] = {
-								["Mind Blast"] = {
-									["count"] = 2.96,
-								},
-								["Shadow Word: Pain (DoT)"] = {
-									["count"] = 11.72,
-								},
-								["Smite"] = {
-									["count"] = 4.260000000000001,
-								},
-							},
-							["amount"] = 18.94,
-						},
-						["Grizzled Thistle Bear"] = {
-							["Details"] = {
-								["Mind Blast"] = {
-									["count"] = 3.5,
-								},
-							},
-							["amount"] = 3.5,
-						},
-						["Dentrebras"] = {
-							["Details"] = {
-								["Renew"] = {
-									["count"] = 15.52,
-								},
-							},
-							["amount"] = 15.52,
-						},
-						["Saltspittle Puddlejumper"] = {
-							["Details"] = {
-								["Mind Blast"] = {
-									["count"] = 7,
-								},
-								["Smite"] = {
-									["count"] = 23.82,
-								},
-							},
-							["amount"] = 30.82,
-						},
-						["Spined Crawler"] = {
-							["Details"] = {
-								["Shadow Word: Pain (DoT)"] = {
-									["count"] = 5.15,
-								},
-								["Mind Blast"] = {
-									["count"] = 3.5,
-								},
-								["Smite"] = {
-									["count"] = 2.23,
-								},
-							},
-							["amount"] = 10.88,
-						},
-						["Felslayer"] = {
-							["Details"] = {
-								["Mind Blast"] = {
-									["count"] = 26.41,
-								},
-								["Shadow Word: Pain (DoT)"] = {
-									["count"] = 45.99,
-								},
-								["Smite"] = {
-									["count"] = 52.91999999999999,
-								},
-							},
-							["amount"] = 125.32,
-						},
-						["Saltspittle Warrior"] = {
-							["Details"] = {
-								["Mind Blast"] = {
-									["count"] = 8.66,
-								},
-								["Shadow Word: Pain (DoT)"] = {
-									["count"] = 3.85,
-								},
-								["Smite"] = {
-									["count"] = 11.02,
-								},
-							},
-							["amount"] = 23.53,
-						},
-						["Blackwood Warrior"] = {
-							["Details"] = {
-								["Mind Blast"] = {
-									["count"] = 7.47,
-								},
-								["Shadow Word: Pain (DoT)"] = {
-									["count"] = 6.41,
-								},
-								["Smite"] = {
-									["count"] = 2.67,
-								},
-							},
-							["amount"] = 16.55,
-						},
-						["Flokus"] = {
-							["Details"] = {
-								["Renew"] = {
-									["count"] = 190.31,
-								},
-								["Lesser Heal"] = {
-									["count"] = 3.62,
-								},
-							},
-							["amount"] = 193.9300000000001,
-						},
-						["Wildthorn Stalker"] = {
-							["Details"] = {
-								["Mind Blast"] = {
-									["count"] = 36.47,
-								},
-								["Shoot"] = {
-									["count"] = 3.5,
-								},
-								["Shadow Word: Pain (DoT)"] = {
-									["count"] = 8.390000000000001,
-								},
-								["Smite"] = {
-									["count"] = 37.91,
-								},
-							},
-							["amount"] = 86.27,
-						},
-						["Rabid Thistle Bear"] = {
-							["Details"] = {
-								["Mind Blast"] = {
-									["count"] = 3.5,
-								},
-							},
-							["amount"] = 3.5,
-						},
-					},
-					["Healing"] = 2917,
-					["DamageTaken"] = 3220,
-					["ElementTakenAbsorb"] = {
-						["Shadow"] = 508,
-						["Melee"] = 1154,
-						["Fire"] = 45,
-						["Frost"] = 66,
-						["Nature"] = 75,
-					},
-					["Attacks"] = {
-						["Mind Blast"] = {
-							["Details"] = {
-								["Miss"] = {
-									["count"] = 23,
-									["amount"] = 0,
-								},
-								["Crit"] = {
-									["max"] = 130,
-									["min"] = 110,
-									["count"] = 15,
-									["amount"] = 1831,
-								},
-								["Hit"] = {
-									["max"] = 87,
-									["min"] = 59,
-									["count"] = 160,
-									["amount"] = 12439,
-								},
-							},
-							["count"] = 198,
-							["amount"] = 14270,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["Glancing"] = {
-									["max"] = 11,
-									["min"] = 11,
-									["count"] = 1,
-									["amount"] = 11,
-								},
-								["Hit"] = {
-									["max"] = 15,
-									["min"] = 15,
-									["count"] = 1,
-									["amount"] = 15,
-								},
-								["Dodge"] = {
-									["count"] = 1,
-									["amount"] = 0,
-								},
-								["Miss"] = {
-									["count"] = 1,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 4,
-							["amount"] = 26,
-						},
-						["Smite"] = {
-							["Details"] = {
-								["Evade"] = {
-									["count"] = 2,
-									["amount"] = 0,
-								},
-								["Miss"] = {
-									["count"] = 60,
-									["amount"] = 0,
-								},
-								["Crit"] = {
-									["max"] = 106,
-									["min"] = 88,
-									["count"] = 12,
-									["amount"] = 1166,
-								},
-								["Hit"] = {
-									["max"] = 73,
-									["min"] = 50,
-									["count"] = 234,
-									["amount"] = 15001,
-								},
-							},
-							["count"] = 308,
-							["amount"] = 16167,
-						},
-						["Shadow Word: Pain (DoT)"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 23,
-									["min"] = 16,
-									["count"] = 153,
-									["amount"] = 3178,
-								},
-							},
-							["count"] = 153,
-							["amount"] = 3178,
-						},
-						["Shoot"] = {
-							["Details"] = {
-								["Miss"] = {
-									["count"] = 34,
-									["amount"] = 0,
-								},
-								["Crit"] = {
-									["max"] = 45,
-									["min"] = 23,
-									["count"] = 5,
-									["amount"] = 154,
-								},
-								["Hit"] = {
-									["max"] = 33,
-									["min"] = 16,
-									["count"] = 53,
-									["amount"] = 1251,
-								},
-							},
-							["count"] = 92,
-							["amount"] = 1405,
-						},
-						["Psychic Scream"] = {
-							["Details"] = {
-								["Evade"] = {
-									["count"] = 1,
-									["amount"] = 0,
-								},
-								["Miss"] = {
-									["count"] = 6,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 7,
-							["amount"] = 0,
-						},
-						["Shadow Word: Pain"] = {
-							["Details"] = {
-								["Absorb"] = {
-									["count"] = 3,
-									["amount"] = 0,
-								},
-								["Evade"] = {
-									["count"] = 1,
-									["amount"] = 0,
-								},
-								["Miss"] = {
-									["count"] = 11,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 15,
-							["amount"] = 0,
-						},
-					},
-					["HealingTaken"] = 1240,
-					["DOT_Time"] = 459,
-					["TimeDamage"] = 1826.380000000001,
-					["TimeDamaging"] = {
-						["Lesser Felguard"] = {
-							["Details"] = {
-								["Mind Blast"] = {
-									["count"] = 36.02,
-								},
-								["Smite"] = {
-									["count"] = 61.50000000000002,
-								},
-								["Shadow Word: Pain"] = {
-									["count"] = 4.16,
-								},
-								["Shoot"] = {
-									["count"] = 15.92,
-								},
-								["Psychic Scream"] = {
-									["count"] = 0.61,
-								},
-								["Shadow Word: Pain (DoT)"] = {
-									["count"] = 25.65,
-								},
-							},
-							["amount"] = 143.86,
-						},
-						["Searing Totem II"] = {
-							["Details"] = {
-								["Mind Blast"] = {
-									["count"] = 6.63,
-								},
-							},
-							["amount"] = 6.63,
-						},
-						["Imp Minion"] = {
-							["Details"] = {
-								["Mind Blast"] = {
-									["count"] = 3.5,
-								},
-								["Smite"] = {
-									["count"] = 3.03,
-								},
-							},
-							["amount"] = 6.529999999999999,
-						},
-						["Wrathtail Sorceress"] = {
-							["Details"] = {
-								["Mind Blast"] = {
-									["count"] = 28.04,
-								},
-								["Shadow Word: Pain (DoT)"] = {
-									["count"] = 18.11,
-								},
-								["Smite"] = {
-									["count"] = 18.1,
-								},
-							},
-							["amount"] = 64.25,
-						},
-						["Dark Strand Cultist"] = {
-							["Details"] = {
-								["Mind Blast"] = {
-									["count"] = 3.5,
-								},
-								["Smite"] = {
-									["count"] = 6.25,
-								},
-							},
-							["amount"] = 9.75,
-						},
-						["Dark Strand Assassin"] = {
-							["Details"] = {
-								["Mind Blast"] = {
-									["count"] = 6.310000000000001,
-								},
-								["Smite"] = {
-									["count"] = 14.63,
-								},
-							},
-							["amount"] = 20.94000000000001,
-						},
-						["Blackwood Ursa"] = {
-							["Details"] = {
-								["Mind Blast"] = {
-									["count"] = 33.39,
-								},
-								["Smite"] = {
-									["count"] = 48.95000000000001,
-								},
-								["Shadow Word: Pain"] = {
-									["count"] = 0.17,
-								},
-								["Shoot"] = {
-									["count"] = 2.83,
-								},
-								["Psychic Scream"] = {
-									["count"] = 3.04,
-								},
-								["Shadow Word: Pain (DoT)"] = {
-									["count"] = 10.93,
-								},
-							},
-							["amount"] = 99.30999999999999,
-						},
-						["Foulweald Pathfinder"] = {
-							["Details"] = {
-								["Mind Blast"] = {
-									["count"] = 13.93,
-								},
-								["Smite"] = {
-									["count"] = 27.09,
-								},
-							},
-							["amount"] = 41.02,
-						},
-						["Succubus Minion"] = {
-							["Details"] = {
-								["Shadow Word: Pain"] = {
-									["count"] = 3.5,
-								},
-								["Psychic Scream"] = {
-									["count"] = 2.72,
-								},
-							},
-							["amount"] = 6.220000000000001,
-						},
-						["Ilkrud Magthrull"] = {
-							["Details"] = {
-								["Mind Blast"] = {
-									["count"] = 3.5,
-								},
-							},
-							["amount"] = 3.5,
-						},
-						["Thistlefur Avenger"] = {
-							["Details"] = {
-								["Mind Blast"] = {
-									["count"] = 5.69,
-								},
-								["Smite"] = {
-									["count"] = 13.41,
-								},
-							},
-							["amount"] = 19.1,
-						},
-						["Twilight Thug"] = {
-							["Details"] = {
-								["Mind Blast"] = {
-									["count"] = 0.3,
-								},
-								["Smite"] = {
-									["count"] = 2.59,
-								},
-							},
-							["amount"] = 2.89,
-						},
-						["Foulweald Shaman"] = {
-							["Details"] = {
-								["Shadow Word: Pain (DoT)"] = {
-									["count"] = 9.58,
-								},
-								["Mind Blast"] = {
-									["count"] = 1.6,
-								},
-								["Smite"] = {
-									["count"] = 7.310000000000001,
-								},
-							},
-							["amount"] = 18.49,
-						},
-						["Wrathtail Razortail"] = {
-							["Details"] = {
-								["Mind Blast"] = {
-									["count"] = 4.24,
-								},
-								["Shadow Word: Pain (DoT)"] = {
-									["count"] = 3.5,
-								},
-								["Smite"] = {
-									["count"] = 2.67,
-								},
-							},
-							["amount"] = 10.41,
-						},
-						["Deer"] = {
-							["Details"] = {
-								["Mind Blast"] = {
-									["count"] = 3.5,
-								},
-							},
-							["amount"] = 3.5,
-						},
-						["Foulweald Totemic"] = {
-							["Details"] = {
-								["Mind Blast"] = {
-									["count"] = 35.72,
-								},
-								["Smite"] = {
-									["count"] = 66.99,
-								},
-								["Shadow Word: Pain"] = {
-									["count"] = 2.94,
-								},
-								["Shoot"] = {
-									["count"] = 8.99,
-								},
-								["Shadow Word: Pain (DoT)"] = {
-									["count"] = 33.95,
-								},
-							},
-							["amount"] = 148.5900000000001,
-						},
-						["Mist Howler"] = {
-							["Details"] = {
-								["Mind Blast"] = {
-									["count"] = 3.68,
-								},
-								["Shadow Word: Pain (DoT)"] = {
-									["count"] = 6.710000000000001,
-								},
-								["Smite"] = {
-									["count"] = 6.1,
-								},
-							},
-							["amount"] = 16.49,
-						},
-						["Wrathtail Priestess"] = {
-							["Details"] = {
-								["Mind Blast"] = {
-									["count"] = 26.95,
-								},
-								["Shadow Word: Pain (DoT)"] = {
-									["count"] = 9.32,
-								},
-								["Smite"] = {
-									["count"] = 27.56,
-								},
-							},
-							["amount"] = 63.83,
-						},
-						["Blackwood Totemic"] = {
-							["Details"] = {
-								["Mind Blast"] = {
-									["count"] = 3.5,
-								},
-								["Shadow Word: Pain (DoT)"] = {
-									["count"] = 3.5,
-								},
-								["Smite"] = {
-									["count"] = 5.69,
-								},
-							},
-							["amount"] = 12.69,
-						},
-						["Ashenvale Bear"] = {
-							["Details"] = {
-								["Mind Blast"] = {
-									["count"] = 12.1,
-								},
-								["Shadow Word: Pain (DoT)"] = {
-									["count"] = 9.549999999999999,
-								},
-								["Smite"] = {
-									["count"] = 24.59,
-								},
-							},
-							["amount"] = 46.23999999999999,
-						},
-						["Moonstalker"] = {
-							["Details"] = {
-								["Shadow Word: Pain (DoT)"] = {
-									["count"] = 3.5,
-								},
-							},
-							["amount"] = 3.5,
-						},
-						["Foulweald Den Watcher"] = {
-							["Details"] = {
-								["Mind Blast"] = {
-									["count"] = 9.219999999999999,
-								},
-								["Shadow Word: Pain"] = {
-									["count"] = 3.78,
-								},
-								["Smite"] = {
-									["count"] = 20.24,
-								},
-							},
-							["amount"] = 33.24,
-						},
-						["Wild Buck"] = {
-							["Details"] = {
-								["Mind Blast"] = {
-									["count"] = 31,
-								},
-								["Shadow Word: Pain (DoT)"] = {
-									["count"] = 11.39,
-								},
-								["Melee"] = {
-									["count"] = 3.5,
-								},
-								["Smite"] = {
-									["count"] = 28.01,
-								},
-							},
-							["amount"] = 73.90000000000001,
-						},
-						["Ghostpaw Runner"] = {
-							["Details"] = {
-								["Shadow Word: Pain (DoT)"] = {
-									["count"] = 5.25,
-								},
-								["Mind Blast"] = {
-									["count"] = 40.02,
-								},
-								["Smite"] = {
-									["count"] = 49.64,
-								},
-							},
-							["amount"] = 94.90999999999998,
-						},
-						["Saltspittle Oracle"] = {
-							["Details"] = {
-								["Mind Blast"] = {
-									["count"] = 8.59,
-								},
-								["Smite"] = {
-									["count"] = 18.35,
-								},
-							},
-							["amount"] = 26.94,
-						},
-						["Blackwood Shaman"] = {
-							["Details"] = {
-								["Mind Blast"] = {
-									["count"] = 16.56,
-								},
-								["Shadow Word: Pain (DoT)"] = {
-									["count"] = 5.300000000000001,
-								},
-								["Melee"] = {
-									["count"] = 3.14,
-								},
-								["Smite"] = {
-									["count"] = 17.82,
-								},
-							},
-							["amount"] = 42.82,
-						},
-						["Foulweald Ursa"] = {
-							["Details"] = {
-								["Shoot"] = {
-									["count"] = 18.76,
-								},
-								["Smite"] = {
-									["count"] = 3.96,
-								},
-								["Shadow Word: Pain"] = {
-									["count"] = 2.14,
-								},
-								["Shadow Word: Pain (DoT)"] = {
-									["count"] = 6.13,
-								},
-								["Mind Blast"] = {
-									["count"] = 5.13,
-								},
-							},
-							["amount"] = 36.12000000000001,
-						},
-						["Wrathtail Wave Rider"] = {
-							["Details"] = {
-								["Mind Blast"] = {
-									["count"] = 21.29,
-								},
-								["Shadow Word: Pain"] = {
-									["count"] = 4.4,
-								},
-								["Shadow Word: Pain (DoT)"] = {
-									["count"] = 24.41,
-								},
-								["Smite"] = {
-									["count"] = 23.03,
-								},
-							},
-							["amount"] = 73.13000000000002,
-						},
-						["Foulweald Warrior"] = {
-							["Details"] = {
-								["Psychic Scream"] = {
-									["count"] = 0.88,
-								},
-								["Melee"] = {
-									["count"] = 6.26,
-								},
-								["Smite"] = {
-									["count"] = 97.19000000000001,
-								},
-								["Shadow Word: Pain"] = {
-									["count"] = 4.79,
-								},
-								["Shadow Word: Pain (DoT)"] = {
-									["count"] = 32.96000000000001,
-								},
-								["Mind Blast"] = {
-									["count"] = 54.24999999999999,
-								},
-								["Shoot"] = {
-									["count"] = 98.41999999999999,
-								},
-							},
-							["amount"] = 294.7500000000002,
-						},
-						["Mystlash Hydra"] = {
-							["Details"] = {
-								["Mind Blast"] = {
-									["count"] = 3.5,
-								},
-								["Smite"] = {
-									["count"] = 5.18,
-								},
-							},
-							["amount"] = 8.68,
-						},
-						["Carnivous the Breaker"] = {
-							["Details"] = {
-								["Shadow Word: Pain (DoT)"] = {
-									["count"] = 3.5,
-								},
-								["Mind Blast"] = {
-									["count"] = 0.11,
-								},
-							},
-							["amount"] = 3.61,
-						},
-						["Grizzled Thistle Bear"] = {
-							["Details"] = {
-								["Mind Blast"] = {
-									["count"] = 3.5,
-								},
-							},
-							["amount"] = 3.5,
-						},
-						["Wrathtail Myrmidon"] = {
-							["Details"] = {
-								["Mind Blast"] = {
-									["count"] = 22.34,
-								},
-								["Smite"] = {
-									["count"] = 48.89,
-								},
-							},
-							["amount"] = 71.22999999999999,
-						},
-						["Saltspittle Puddlejumper"] = {
-							["Details"] = {
-								["Mind Blast"] = {
-									["count"] = 7,
-								},
-								["Smite"] = {
-									["count"] = 23.82,
-								},
-							},
-							["amount"] = 30.82,
-						},
-						["Spined Crawler"] = {
-							["Details"] = {
-								["Shadow Word: Pain (DoT)"] = {
-									["count"] = 5.15,
-								},
-								["Mind Blast"] = {
-									["count"] = 3.5,
-								},
-								["Smite"] = {
-									["count"] = 2.23,
-								},
-							},
-							["amount"] = 10.88,
-						},
-						["Felslayer"] = {
-							["Details"] = {
-								["Mind Blast"] = {
-									["count"] = 26.41,
-								},
-								["Shadow Word: Pain (DoT)"] = {
-									["count"] = 45.99,
-								},
-								["Smite"] = {
-									["count"] = 52.91999999999999,
-								},
-							},
-							["amount"] = 125.32,
-						},
-						["Blackwood Warrior"] = {
-							["Details"] = {
-								["Mind Blast"] = {
-									["count"] = 7.47,
-								},
-								["Shadow Word: Pain (DoT)"] = {
-									["count"] = 6.41,
-								},
-								["Smite"] = {
-									["count"] = 2.67,
-								},
-							},
-							["amount"] = 16.55,
-						},
-						["Mugglefin"] = {
-							["Details"] = {
-								["Mind Blast"] = {
-									["count"] = 2.96,
-								},
-								["Shadow Word: Pain (DoT)"] = {
-									["count"] = 11.72,
-								},
-								["Smite"] = {
-									["count"] = 4.260000000000001,
-								},
-							},
-							["amount"] = 18.94,
-						},
-						["Saltspittle Warrior"] = {
-							["Details"] = {
-								["Mind Blast"] = {
-									["count"] = 8.66,
-								},
-								["Shadow Word: Pain (DoT)"] = {
-									["count"] = 3.85,
-								},
-								["Smite"] = {
-									["count"] = 11.02,
-								},
-							},
-							["amount"] = 23.53,
-						},
-						["Wildthorn Stalker"] = {
-							["Details"] = {
-								["Mind Blast"] = {
-									["count"] = 36.47,
-								},
-								["Shoot"] = {
-									["count"] = 3.5,
-								},
-								["Shadow Word: Pain (DoT)"] = {
-									["count"] = 8.390000000000001,
-								},
-								["Smite"] = {
-									["count"] = 37.91,
-								},
-							},
-							["amount"] = 86.27,
-						},
-						["Rabid Thistle Bear"] = {
-							["Details"] = {
-								["Mind Blast"] = {
-									["count"] = 3.5,
-								},
-							},
-							["amount"] = 3.5,
-						},
-					},
-					["ManaGain"] = 1553,
-					["ElementHitsDone"] = {
-						["Shadow"] = {
-							["Details"] = {
-								["Absorb"] = {
-									["count"] = 3,
-								},
-								["Tick"] = {
-									["count"] = 153,
-								},
-								["Miss"] = {
-									["count"] = 40,
-								},
-								["Hit"] = {
-									["count"] = 160,
-								},
-								["Crit"] = {
-									["count"] = 15,
-								},
-								["Evade"] = {
-									["count"] = 2,
-								},
-							},
-							["amount"] = 373,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["Glancing"] = {
-									["count"] = 1,
-								},
-								["Hit"] = {
-									["count"] = 1,
-								},
-								["Dodge"] = {
-									["count"] = 1,
-								},
-								["Miss"] = {
-									["count"] = 1,
-								},
-							},
-							["amount"] = 4,
-						},
-						["Arcane"] = {
-							["Details"] = {
-								["Crit"] = {
-									["count"] = 5,
-								},
-								["Hit"] = {
-									["count"] = 53,
-								},
-							},
-							["amount"] = 58,
-						},
-						["Physical"] = {
-							["Details"] = {
-								["Miss"] = {
-									["count"] = 34,
-								},
-							},
-							["amount"] = 34,
-						},
-						["Holy"] = {
-							["Details"] = {
-								["Evade"] = {
-									["count"] = 2,
-								},
-								["Miss"] = {
-									["count"] = 60,
-								},
-								["Crit"] = {
-									["count"] = 12,
-								},
-								["Hit"] = {
-									["count"] = 234,
-								},
-							},
-							["amount"] = 308,
 						},
 					},
 					["DamagedWho"] = {
@@ -3751,19 +1604,13 @@ RecountPerCharDB = {
 							},
 							["amount"] = 1020,
 						},
-						["Foulweald Ursa"] = {
+						["Rabid Thistle Bear"] = {
 							["Details"] = {
-								["Shoot"] = {
-									["count"] = 170,
-								},
-								["Shadow Word: Pain (DoT)"] = {
-									["count"] = 123,
-								},
 								["Mind Blast"] = {
-									["count"] = 69,
+									["count"] = 78,
 								},
 							},
-							["amount"] = 362,
+							["amount"] = 78,
 						},
 						["Wrathtail Wave Rider"] = {
 							["Details"] = {
@@ -3779,36 +1626,47 @@ RecountPerCharDB = {
 							},
 							["amount"] = 1275,
 						},
-						["Foulweald Warrior"] = {
+						["Foulweald Ursa"] = {
 							["Details"] = {
 								["Shoot"] = {
-									["count"] = 986,
+									["count"] = 170,
 								},
-								["Melee"] = {
-									["count"] = 26,
+								["Mind Blast"] = {
+									["count"] = 69,
+								},
+								["Shadow Word: Pain (DoT)"] = {
+									["count"] = 123,
+								},
+							},
+							["amount"] = 362,
+						},
+						["Saltspittle Warrior"] = {
+							["Details"] = {
+								["Mind Blast"] = {
+									["count"] = 298,
+								},
+								["Shadow Word: Pain (DoT)"] = {
+									["count"] = 40,
 								},
 								["Smite"] = {
-									["count"] = 1718,
-								},
-								["Shadow Word: Pain (DoT)"] = {
-									["count"] = 520,
-								},
-								["Mind Blast"] = {
-									["count"] = 1312,
+									["count"] = 250,
 								},
 							},
-							["amount"] = 4562,
+							["amount"] = 588,
 						},
-						["Carnivous the Breaker"] = {
+						["Mugglefin"] = {
 							["Details"] = {
-								["Shadow Word: Pain (DoT)"] = {
-									["count"] = 21,
-								},
 								["Mind Blast"] = {
-									["count"] = 78,
+									["count"] = 151,
+								},
+								["Shadow Word: Pain (DoT)"] = {
+									["count"] = 119,
+								},
+								["Smite"] = {
+									["count"] = 128,
 								},
 							},
-							["amount"] = 99,
+							["amount"] = 398,
 						},
 						["Mystlash Hydra"] = {
 							["Details"] = {
@@ -3821,24 +1679,19 @@ RecountPerCharDB = {
 							},
 							["amount"] = 206,
 						},
-						["Grizzled Thistle Bear"] = {
+						["Blackwood Warrior"] = {
 							["Details"] = {
 								["Mind Blast"] = {
-									["count"] = 79,
+									["count"] = 235,
 								},
-							},
-							["amount"] = 79,
-						},
-						["Wrathtail Myrmidon"] = {
-							["Details"] = {
-								["Mind Blast"] = {
-									["count"] = 561,
+								["Shadow Word: Pain (DoT)"] = {
+									["count"] = 82,
 								},
 								["Smite"] = {
-									["count"] = 1044,
+									["count"] = 67,
 								},
 							},
-							["amount"] = 1605,
+							["amount"] = 384,
 						},
 						["Saltspittle Puddlejumper"] = {
 							["Details"] = {
@@ -3879,47 +1732,35 @@ RecountPerCharDB = {
 							},
 							["amount"] = 1972,
 						},
-						["Blackwood Warrior"] = {
+						["Wrathtail Myrmidon"] = {
 							["Details"] = {
 								["Mind Blast"] = {
-									["count"] = 235,
-								},
-								["Shadow Word: Pain (DoT)"] = {
-									["count"] = 82,
+									["count"] = 561,
 								},
 								["Smite"] = {
-									["count"] = 67,
+									["count"] = 1044,
 								},
 							},
-							["amount"] = 384,
+							["amount"] = 1605,
 						},
-						["Mugglefin"] = {
+						["Grizzled Thistle Bear"] = {
 							["Details"] = {
 								["Mind Blast"] = {
-									["count"] = 151,
-								},
-								["Shadow Word: Pain (DoT)"] = {
-									["count"] = 119,
-								},
-								["Smite"] = {
-									["count"] = 128,
+									["count"] = 79,
 								},
 							},
-							["amount"] = 398,
+							["amount"] = 79,
 						},
-						["Saltspittle Warrior"] = {
+						["Carnivous the Breaker"] = {
 							["Details"] = {
-								["Mind Blast"] = {
-									["count"] = 298,
-								},
 								["Shadow Word: Pain (DoT)"] = {
-									["count"] = 40,
+									["count"] = 21,
 								},
-								["Smite"] = {
-									["count"] = 250,
+								["Mind Blast"] = {
+									["count"] = 78,
 								},
 							},
-							["amount"] = 588,
+							["amount"] = 99,
 						},
 						["Wildthorn Stalker"] = {
 							["Details"] = {
@@ -3938,19 +1779,2178 @@ RecountPerCharDB = {
 							},
 							["amount"] = 1959,
 						},
+						["Foulweald Warrior"] = {
+							["Details"] = {
+								["Shoot"] = {
+									["count"] = 986,
+								},
+								["Melee"] = {
+									["count"] = 26,
+								},
+								["Smite"] = {
+									["count"] = 1718,
+								},
+								["Shadow Word: Pain (DoT)"] = {
+									["count"] = 520,
+								},
+								["Mind Blast"] = {
+									["count"] = 1312,
+								},
+							},
+							["amount"] = 4562,
+						},
+					},
+					["ElementHitsDone"] = {
+						["Shadow"] = {
+							["Details"] = {
+								["Absorb"] = {
+									["count"] = 3,
+								},
+								["Tick"] = {
+									["count"] = 153,
+								},
+								["Miss"] = {
+									["count"] = 40,
+								},
+								["Hit"] = {
+									["count"] = 160,
+								},
+								["Crit"] = {
+									["count"] = 15,
+								},
+								["Evade"] = {
+									["count"] = 2,
+								},
+							},
+							["amount"] = 373,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Glancing"] = {
+									["count"] = 1,
+								},
+								["Miss"] = {
+									["count"] = 1,
+								},
+								["Dodge"] = {
+									["count"] = 1,
+								},
+								["Hit"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 4,
+						},
+						["Arcane"] = {
+							["Details"] = {
+								["Crit"] = {
+									["count"] = 5,
+								},
+								["Hit"] = {
+									["count"] = 53,
+								},
+							},
+							["amount"] = 58,
+						},
+						["Holy"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 234,
+								},
+								["Miss"] = {
+									["count"] = 60,
+								},
+								["Crit"] = {
+									["count"] = 12,
+								},
+								["Evade"] = {
+									["count"] = 2,
+								},
+							},
+							["amount"] = 308,
+						},
+						["Physical"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 34,
+								},
+							},
+							["amount"] = 34,
+						},
+					},
+					["TimeSpent"] = {
+						["Lesser Felguard"] = {
+							["Details"] = {
+								["Mind Blast"] = {
+									["count"] = 36.02,
+								},
+								["Smite"] = {
+									["count"] = 61.50000000000002,
+								},
+								["Shadow Word: Pain"] = {
+									["count"] = 4.16,
+								},
+								["Shadow Word: Pain (DoT)"] = {
+									["count"] = 25.65,
+								},
+								["Psychic Scream"] = {
+									["count"] = 0.61,
+								},
+								["Shoot"] = {
+									["count"] = 15.92,
+								},
+							},
+							["amount"] = 143.86,
+						},
+						["Nemuritorujr"] = {
+							["Details"] = {
+								["Renew"] = {
+									["count"] = 18.18,
+								},
+								["Lesser Heal"] = {
+									["count"] = 5.52,
+								},
+							},
+							["amount"] = 23.7,
+						},
+						["Searing Totem II"] = {
+							["Details"] = {
+								["Mind Blast"] = {
+									["count"] = 6.63,
+								},
+							},
+							["amount"] = 6.63,
+						},
+						["Imp Minion"] = {
+							["Details"] = {
+								["Mind Blast"] = {
+									["count"] = 3.5,
+								},
+								["Smite"] = {
+									["count"] = 3.03,
+								},
+							},
+							["amount"] = 6.529999999999999,
+						},
+						["Wrathtail Sorceress"] = {
+							["Details"] = {
+								["Mind Blast"] = {
+									["count"] = 28.04,
+								},
+								["Shadow Word: Pain (DoT)"] = {
+									["count"] = 18.11,
+								},
+								["Smite"] = {
+									["count"] = 18.1,
+								},
+							},
+							["amount"] = 64.25,
+						},
+						["Dark Strand Cultist"] = {
+							["Details"] = {
+								["Mind Blast"] = {
+									["count"] = 3.5,
+								},
+								["Smite"] = {
+									["count"] = 6.25,
+								},
+							},
+							["amount"] = 9.75,
+						},
+						["Dark Strand Assassin"] = {
+							["Details"] = {
+								["Mind Blast"] = {
+									["count"] = 6.310000000000001,
+								},
+								["Smite"] = {
+									["count"] = 14.63,
+								},
+							},
+							["amount"] = 20.94000000000001,
+						},
+						["Blackwood Ursa"] = {
+							["Details"] = {
+								["Mind Blast"] = {
+									["count"] = 33.39,
+								},
+								["Smite"] = {
+									["count"] = 48.95000000000001,
+								},
+								["Shadow Word: Pain"] = {
+									["count"] = 0.17,
+								},
+								["Shadow Word: Pain (DoT)"] = {
+									["count"] = 10.93,
+								},
+								["Psychic Scream"] = {
+									["count"] = 3.04,
+								},
+								["Shoot"] = {
+									["count"] = 2.83,
+								},
+							},
+							["amount"] = 99.30999999999999,
+						},
+						["Foulweald Pathfinder"] = {
+							["Details"] = {
+								["Mind Blast"] = {
+									["count"] = 13.93,
+								},
+								["Smite"] = {
+									["count"] = 27.09,
+								},
+							},
+							["amount"] = 41.02,
+						},
+						["Succubus Minion"] = {
+							["Details"] = {
+								["Shadow Word: Pain"] = {
+									["count"] = 3.5,
+								},
+								["Psychic Scream"] = {
+									["count"] = 2.72,
+								},
+							},
+							["amount"] = 6.220000000000001,
+						},
+						["Ilkrud Magthrull"] = {
+							["Details"] = {
+								["Mind Blast"] = {
+									["count"] = 3.5,
+								},
+							},
+							["amount"] = 3.5,
+						},
+						["Thistlefur Avenger"] = {
+							["Details"] = {
+								["Mind Blast"] = {
+									["count"] = 5.69,
+								},
+								["Smite"] = {
+									["count"] = 13.41,
+								},
+							},
+							["amount"] = 19.1,
+						},
+						["Twilight Thug"] = {
+							["Details"] = {
+								["Mind Blast"] = {
+									["count"] = 0.3,
+								},
+								["Smite"] = {
+									["count"] = 2.59,
+								},
+							},
+							["amount"] = 2.89,
+						},
+						["Foulweald Shaman"] = {
+							["Details"] = {
+								["Shadow Word: Pain (DoT)"] = {
+									["count"] = 9.58,
+								},
+								["Mind Blast"] = {
+									["count"] = 1.6,
+								},
+								["Smite"] = {
+									["count"] = 7.310000000000001,
+								},
+							},
+							["amount"] = 18.49,
+						},
+						["Wrathtail Razortail"] = {
+							["Details"] = {
+								["Mind Blast"] = {
+									["count"] = 4.24,
+								},
+								["Shadow Word: Pain (DoT)"] = {
+									["count"] = 3.5,
+								},
+								["Smite"] = {
+									["count"] = 2.67,
+								},
+							},
+							["amount"] = 10.41,
+						},
+						["Deer"] = {
+							["Details"] = {
+								["Mind Blast"] = {
+									["count"] = 3.5,
+								},
+							},
+							["amount"] = 3.5,
+						},
+						["Foulweald Totemic"] = {
+							["Details"] = {
+								["Mind Blast"] = {
+									["count"] = 35.72,
+								},
+								["Smite"] = {
+									["count"] = 66.99,
+								},
+								["Shadow Word: Pain"] = {
+									["count"] = 2.94,
+								},
+								["Shadow Word: Pain (DoT)"] = {
+									["count"] = 33.95,
+								},
+								["Shoot"] = {
+									["count"] = 8.99,
+								},
+							},
+							["amount"] = 148.5900000000001,
+						},
+						["Mist Howler"] = {
+							["Details"] = {
+								["Mind Blast"] = {
+									["count"] = 3.68,
+								},
+								["Shadow Word: Pain (DoT)"] = {
+									["count"] = 6.710000000000001,
+								},
+								["Smite"] = {
+									["count"] = 6.1,
+								},
+							},
+							["amount"] = 16.49,
+						},
+						["Carnivous the Breaker"] = {
+							["Details"] = {
+								["Shadow Word: Pain (DoT)"] = {
+									["count"] = 3.5,
+								},
+								["Mind Blast"] = {
+									["count"] = 0.11,
+								},
+							},
+							["amount"] = 3.61,
+						},
+						["Blackwood Totemic"] = {
+							["Details"] = {
+								["Mind Blast"] = {
+									["count"] = 3.5,
+								},
+								["Shadow Word: Pain (DoT)"] = {
+									["count"] = 3.5,
+								},
+								["Smite"] = {
+									["count"] = 5.69,
+								},
+							},
+							["amount"] = 12.69,
+						},
+						["Ashenvale Bear"] = {
+							["Details"] = {
+								["Mind Blast"] = {
+									["count"] = 12.1,
+								},
+								["Shadow Word: Pain (DoT)"] = {
+									["count"] = 9.549999999999999,
+								},
+								["Smite"] = {
+									["count"] = 24.59,
+								},
+							},
+							["amount"] = 46.23999999999999,
+						},
+						["Moonstalker"] = {
+							["Details"] = {
+								["Shadow Word: Pain (DoT)"] = {
+									["count"] = 3.5,
+								},
+							},
+							["amount"] = 3.5,
+						},
+						["Foulweald Den Watcher"] = {
+							["Details"] = {
+								["Mind Blast"] = {
+									["count"] = 9.219999999999999,
+								},
+								["Shadow Word: Pain"] = {
+									["count"] = 3.78,
+								},
+								["Smite"] = {
+									["count"] = 20.24,
+								},
+							},
+							["amount"] = 33.24,
+						},
+						["Wild Buck"] = {
+							["Details"] = {
+								["Mind Blast"] = {
+									["count"] = 31,
+								},
+								["Shadow Word: Pain (DoT)"] = {
+									["count"] = 11.39,
+								},
+								["Melee"] = {
+									["count"] = 3.5,
+								},
+								["Smite"] = {
+									["count"] = 28.01,
+								},
+							},
+							["amount"] = 73.90000000000001,
+						},
+						["Ghostpaw Runner"] = {
+							["Details"] = {
+								["Shadow Word: Pain (DoT)"] = {
+									["count"] = 5.25,
+								},
+								["Mind Blast"] = {
+									["count"] = 40.02,
+								},
+								["Smite"] = {
+									["count"] = 49.64,
+								},
+							},
+							["amount"] = 94.90999999999998,
+						},
 						["Rabid Thistle Bear"] = {
 							["Details"] = {
 								["Mind Blast"] = {
-									["count"] = 78,
+									["count"] = 3.5,
 								},
 							},
-							["amount"] = 78,
+							["amount"] = 3.5,
+						},
+						["Saltspittle Oracle"] = {
+							["Details"] = {
+								["Mind Blast"] = {
+									["count"] = 8.59,
+								},
+								["Smite"] = {
+									["count"] = 18.35,
+								},
+							},
+							["amount"] = 26.94,
+						},
+						["Blackwood Shaman"] = {
+							["Details"] = {
+								["Mind Blast"] = {
+									["count"] = 16.56,
+								},
+								["Shadow Word: Pain (DoT)"] = {
+									["count"] = 5.300000000000001,
+								},
+								["Melee"] = {
+									["count"] = 3.14,
+								},
+								["Smite"] = {
+									["count"] = 17.82,
+								},
+							},
+							["amount"] = 42.82,
+						},
+						["Foulweald Ursa"] = {
+							["Details"] = {
+								["Shoot"] = {
+									["count"] = 18.76,
+								},
+								["Smite"] = {
+									["count"] = 3.96,
+								},
+								["Shadow Word: Pain"] = {
+									["count"] = 2.14,
+								},
+								["Mind Blast"] = {
+									["count"] = 5.13,
+								},
+								["Shadow Word: Pain (DoT)"] = {
+									["count"] = 6.13,
+								},
+							},
+							["amount"] = 36.12000000000001,
+						},
+						["Flokus"] = {
+							["Details"] = {
+								["Renew"] = {
+									["count"] = 190.31,
+								},
+								["Lesser Heal"] = {
+									["count"] = 3.62,
+								},
+							},
+							["amount"] = 193.9300000000001,
+						},
+						["Wrathtail Wave Rider"] = {
+							["Details"] = {
+								["Mind Blast"] = {
+									["count"] = 21.29,
+								},
+								["Shadow Word: Pain"] = {
+									["count"] = 4.4,
+								},
+								["Shadow Word: Pain (DoT)"] = {
+									["count"] = 24.41,
+								},
+								["Smite"] = {
+									["count"] = 23.03,
+								},
+							},
+							["amount"] = 73.13000000000002,
+						},
+						["Blackwood Warrior"] = {
+							["Details"] = {
+								["Mind Blast"] = {
+									["count"] = 7.47,
+								},
+								["Shadow Word: Pain (DoT)"] = {
+									["count"] = 6.41,
+								},
+								["Smite"] = {
+									["count"] = 2.67,
+								},
+							},
+							["amount"] = 16.55,
+						},
+						["Saltspittle Warrior"] = {
+							["Details"] = {
+								["Mind Blast"] = {
+									["count"] = 8.66,
+								},
+								["Shadow Word: Pain (DoT)"] = {
+									["count"] = 3.85,
+								},
+								["Smite"] = {
+									["count"] = 11.02,
+								},
+							},
+							["amount"] = 23.53,
+						},
+						["Grizzled Thistle Bear"] = {
+							["Details"] = {
+								["Mind Blast"] = {
+									["count"] = 3.5,
+								},
+							},
+							["amount"] = 3.5,
+						},
+						["Mystlash Hydra"] = {
+							["Details"] = {
+								["Mind Blast"] = {
+									["count"] = 3.5,
+								},
+								["Smite"] = {
+									["count"] = 5.18,
+								},
+							},
+							["amount"] = 8.68,
+						},
+						["Dentrebras"] = {
+							["Details"] = {
+								["Renew"] = {
+									["count"] = 15.52,
+								},
+							},
+							["amount"] = 15.52,
+						},
+						["Saltspittle Puddlejumper"] = {
+							["Details"] = {
+								["Mind Blast"] = {
+									["count"] = 7,
+								},
+								["Smite"] = {
+									["count"] = 23.82,
+								},
+							},
+							["amount"] = 30.82,
+						},
+						["Spined Crawler"] = {
+							["Details"] = {
+								["Shadow Word: Pain (DoT)"] = {
+									["count"] = 5.15,
+								},
+								["Mind Blast"] = {
+									["count"] = 3.5,
+								},
+								["Smite"] = {
+									["count"] = 2.23,
+								},
+							},
+							["amount"] = 10.88,
+						},
+						["Felslayer"] = {
+							["Details"] = {
+								["Mind Blast"] = {
+									["count"] = 26.41,
+								},
+								["Shadow Word: Pain (DoT)"] = {
+									["count"] = 45.99,
+								},
+								["Smite"] = {
+									["count"] = 52.91999999999999,
+								},
+							},
+							["amount"] = 125.32,
+						},
+						["Mugglefin"] = {
+							["Details"] = {
+								["Mind Blast"] = {
+									["count"] = 2.96,
+								},
+								["Shadow Word: Pain (DoT)"] = {
+									["count"] = 11.72,
+								},
+								["Smite"] = {
+									["count"] = 4.260000000000001,
+								},
+							},
+							["amount"] = 18.94,
+						},
+						["Wrathtail Priestess"] = {
+							["Details"] = {
+								["Mind Blast"] = {
+									["count"] = 26.95,
+								},
+								["Shadow Word: Pain (DoT)"] = {
+									["count"] = 9.32,
+								},
+								["Smite"] = {
+									["count"] = 27.56,
+								},
+							},
+							["amount"] = 63.83,
+						},
+						["Wrathtail Myrmidon"] = {
+							["Details"] = {
+								["Mind Blast"] = {
+									["count"] = 22.34,
+								},
+								["Smite"] = {
+									["count"] = 48.89,
+								},
+							},
+							["amount"] = 71.22999999999999,
+						},
+						["Wildthorn Stalker"] = {
+							["Details"] = {
+								["Mind Blast"] = {
+									["count"] = 36.47,
+								},
+								["Shoot"] = {
+									["count"] = 3.5,
+								},
+								["Shadow Word: Pain (DoT)"] = {
+									["count"] = 8.390000000000001,
+								},
+								["Smite"] = {
+									["count"] = 37.91,
+								},
+							},
+							["amount"] = 86.27,
+						},
+						["Foulweald Warrior"] = {
+							["Details"] = {
+								["Psychic Scream"] = {
+									["count"] = 0.88,
+								},
+								["Melee"] = {
+									["count"] = 6.26,
+								},
+								["Smite"] = {
+									["count"] = 97.19000000000001,
+								},
+								["Shadow Word: Pain"] = {
+									["count"] = 4.79,
+								},
+								["Shoot"] = {
+									["count"] = 98.41999999999999,
+								},
+								["Mind Blast"] = {
+									["count"] = 54.24999999999999,
+								},
+								["Shadow Word: Pain (DoT)"] = {
+									["count"] = 32.96000000000001,
+								},
+							},
+							["amount"] = 294.7500000000002,
+						},
+					},
+					["Healing"] = 2917,
+					["DamageTaken"] = 3220,
+					["ElementTakenAbsorb"] = {
+						["Shadow"] = 508,
+						["Melee"] = 1154,
+						["Fire"] = 45,
+						["Frost"] = 66,
+						["Nature"] = 75,
+					},
+					["Attacks"] = {
+						["Mind Blast"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 87,
+									["min"] = 59,
+									["count"] = 160,
+									["amount"] = 12439,
+								},
+								["Crit"] = {
+									["max"] = 130,
+									["min"] = 110,
+									["count"] = 15,
+									["amount"] = 1831,
+								},
+								["Miss"] = {
+									["count"] = 23,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 198,
+							["amount"] = 14270,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Glancing"] = {
+									["max"] = 11,
+									["min"] = 11,
+									["count"] = 1,
+									["amount"] = 11,
+								},
+								["Miss"] = {
+									["count"] = 1,
+									["amount"] = 0,
+								},
+								["Dodge"] = {
+									["count"] = 1,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 15,
+									["min"] = 15,
+									["count"] = 1,
+									["amount"] = 15,
+								},
+							},
+							["count"] = 4,
+							["amount"] = 26,
+						},
+						["Smite"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 73,
+									["min"] = 50,
+									["count"] = 234,
+									["amount"] = 15001,
+								},
+								["Miss"] = {
+									["count"] = 60,
+									["amount"] = 0,
+								},
+								["Crit"] = {
+									["max"] = 106,
+									["min"] = 88,
+									["count"] = 12,
+									["amount"] = 1166,
+								},
+								["Evade"] = {
+									["count"] = 2,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 308,
+							["amount"] = 16167,
+						},
+						["Shadow Word: Pain (DoT)"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 23,
+									["min"] = 16,
+									["count"] = 153,
+									["amount"] = 3178,
+								},
+							},
+							["count"] = 153,
+							["amount"] = 3178,
+						},
+						["Shadow Word: Pain"] = {
+							["Details"] = {
+								["Absorb"] = {
+									["count"] = 3,
+									["amount"] = 0,
+								},
+								["Miss"] = {
+									["count"] = 11,
+									["amount"] = 0,
+								},
+								["Evade"] = {
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 15,
+							["amount"] = 0,
+						},
+						["Psychic Scream"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 6,
+									["amount"] = 0,
+								},
+								["Evade"] = {
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 7,
+							["amount"] = 0,
+						},
+						["Shoot"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 33,
+									["min"] = 16,
+									["count"] = 53,
+									["amount"] = 1251,
+								},
+								["Crit"] = {
+									["max"] = 45,
+									["min"] = 23,
+									["count"] = 5,
+									["amount"] = 154,
+								},
+								["Miss"] = {
+									["count"] = 34,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 92,
+							["amount"] = 1405,
+						},
+					},
+					["HealingTaken"] = 1240,
+					["DOT_Time"] = 459,
+					["TimeDamage"] = 1826.380000000001,
+					["TimeDamaging"] = {
+						["Lesser Felguard"] = {
+							["Details"] = {
+								["Mind Blast"] = {
+									["count"] = 36.02,
+								},
+								["Smite"] = {
+									["count"] = 61.50000000000002,
+								},
+								["Shadow Word: Pain"] = {
+									["count"] = 4.16,
+								},
+								["Shadow Word: Pain (DoT)"] = {
+									["count"] = 25.65,
+								},
+								["Psychic Scream"] = {
+									["count"] = 0.61,
+								},
+								["Shoot"] = {
+									["count"] = 15.92,
+								},
+							},
+							["amount"] = 143.86,
+						},
+						["Searing Totem II"] = {
+							["Details"] = {
+								["Mind Blast"] = {
+									["count"] = 6.63,
+								},
+							},
+							["amount"] = 6.63,
+						},
+						["Imp Minion"] = {
+							["Details"] = {
+								["Mind Blast"] = {
+									["count"] = 3.5,
+								},
+								["Smite"] = {
+									["count"] = 3.03,
+								},
+							},
+							["amount"] = 6.529999999999999,
+						},
+						["Wrathtail Sorceress"] = {
+							["Details"] = {
+								["Mind Blast"] = {
+									["count"] = 28.04,
+								},
+								["Shadow Word: Pain (DoT)"] = {
+									["count"] = 18.11,
+								},
+								["Smite"] = {
+									["count"] = 18.1,
+								},
+							},
+							["amount"] = 64.25,
+						},
+						["Dark Strand Cultist"] = {
+							["Details"] = {
+								["Mind Blast"] = {
+									["count"] = 3.5,
+								},
+								["Smite"] = {
+									["count"] = 6.25,
+								},
+							},
+							["amount"] = 9.75,
+						},
+						["Dark Strand Assassin"] = {
+							["Details"] = {
+								["Mind Blast"] = {
+									["count"] = 6.310000000000001,
+								},
+								["Smite"] = {
+									["count"] = 14.63,
+								},
+							},
+							["amount"] = 20.94000000000001,
+						},
+						["Blackwood Ursa"] = {
+							["Details"] = {
+								["Mind Blast"] = {
+									["count"] = 33.39,
+								},
+								["Smite"] = {
+									["count"] = 48.95000000000001,
+								},
+								["Shadow Word: Pain"] = {
+									["count"] = 0.17,
+								},
+								["Shadow Word: Pain (DoT)"] = {
+									["count"] = 10.93,
+								},
+								["Psychic Scream"] = {
+									["count"] = 3.04,
+								},
+								["Shoot"] = {
+									["count"] = 2.83,
+								},
+							},
+							["amount"] = 99.30999999999999,
+						},
+						["Foulweald Pathfinder"] = {
+							["Details"] = {
+								["Mind Blast"] = {
+									["count"] = 13.93,
+								},
+								["Smite"] = {
+									["count"] = 27.09,
+								},
+							},
+							["amount"] = 41.02,
+						},
+						["Succubus Minion"] = {
+							["Details"] = {
+								["Shadow Word: Pain"] = {
+									["count"] = 3.5,
+								},
+								["Psychic Scream"] = {
+									["count"] = 2.72,
+								},
+							},
+							["amount"] = 6.220000000000001,
+						},
+						["Ilkrud Magthrull"] = {
+							["Details"] = {
+								["Mind Blast"] = {
+									["count"] = 3.5,
+								},
+							},
+							["amount"] = 3.5,
+						},
+						["Thistlefur Avenger"] = {
+							["Details"] = {
+								["Mind Blast"] = {
+									["count"] = 5.69,
+								},
+								["Smite"] = {
+									["count"] = 13.41,
+								},
+							},
+							["amount"] = 19.1,
+						},
+						["Twilight Thug"] = {
+							["Details"] = {
+								["Mind Blast"] = {
+									["count"] = 0.3,
+								},
+								["Smite"] = {
+									["count"] = 2.59,
+								},
+							},
+							["amount"] = 2.89,
+						},
+						["Foulweald Shaman"] = {
+							["Details"] = {
+								["Shadow Word: Pain (DoT)"] = {
+									["count"] = 9.58,
+								},
+								["Mind Blast"] = {
+									["count"] = 1.6,
+								},
+								["Smite"] = {
+									["count"] = 7.310000000000001,
+								},
+							},
+							["amount"] = 18.49,
+						},
+						["Wrathtail Razortail"] = {
+							["Details"] = {
+								["Mind Blast"] = {
+									["count"] = 4.24,
+								},
+								["Shadow Word: Pain (DoT)"] = {
+									["count"] = 3.5,
+								},
+								["Smite"] = {
+									["count"] = 2.67,
+								},
+							},
+							["amount"] = 10.41,
+						},
+						["Deer"] = {
+							["Details"] = {
+								["Mind Blast"] = {
+									["count"] = 3.5,
+								},
+							},
+							["amount"] = 3.5,
+						},
+						["Foulweald Totemic"] = {
+							["Details"] = {
+								["Mind Blast"] = {
+									["count"] = 35.72,
+								},
+								["Smite"] = {
+									["count"] = 66.99,
+								},
+								["Shadow Word: Pain"] = {
+									["count"] = 2.94,
+								},
+								["Shadow Word: Pain (DoT)"] = {
+									["count"] = 33.95,
+								},
+								["Shoot"] = {
+									["count"] = 8.99,
+								},
+							},
+							["amount"] = 148.5900000000001,
+						},
+						["Mist Howler"] = {
+							["Details"] = {
+								["Mind Blast"] = {
+									["count"] = 3.68,
+								},
+								["Shadow Word: Pain (DoT)"] = {
+									["count"] = 6.710000000000001,
+								},
+								["Smite"] = {
+									["count"] = 6.1,
+								},
+							},
+							["amount"] = 16.49,
+						},
+						["Wrathtail Priestess"] = {
+							["Details"] = {
+								["Mind Blast"] = {
+									["count"] = 26.95,
+								},
+								["Shadow Word: Pain (DoT)"] = {
+									["count"] = 9.32,
+								},
+								["Smite"] = {
+									["count"] = 27.56,
+								},
+							},
+							["amount"] = 63.83,
+						},
+						["Blackwood Totemic"] = {
+							["Details"] = {
+								["Mind Blast"] = {
+									["count"] = 3.5,
+								},
+								["Shadow Word: Pain (DoT)"] = {
+									["count"] = 3.5,
+								},
+								["Smite"] = {
+									["count"] = 5.69,
+								},
+							},
+							["amount"] = 12.69,
+						},
+						["Ashenvale Bear"] = {
+							["Details"] = {
+								["Mind Blast"] = {
+									["count"] = 12.1,
+								},
+								["Shadow Word: Pain (DoT)"] = {
+									["count"] = 9.549999999999999,
+								},
+								["Smite"] = {
+									["count"] = 24.59,
+								},
+							},
+							["amount"] = 46.23999999999999,
+						},
+						["Moonstalker"] = {
+							["Details"] = {
+								["Shadow Word: Pain (DoT)"] = {
+									["count"] = 3.5,
+								},
+							},
+							["amount"] = 3.5,
+						},
+						["Foulweald Den Watcher"] = {
+							["Details"] = {
+								["Mind Blast"] = {
+									["count"] = 9.219999999999999,
+								},
+								["Shadow Word: Pain"] = {
+									["count"] = 3.78,
+								},
+								["Smite"] = {
+									["count"] = 20.24,
+								},
+							},
+							["amount"] = 33.24,
+						},
+						["Wild Buck"] = {
+							["Details"] = {
+								["Mind Blast"] = {
+									["count"] = 31,
+								},
+								["Shadow Word: Pain (DoT)"] = {
+									["count"] = 11.39,
+								},
+								["Melee"] = {
+									["count"] = 3.5,
+								},
+								["Smite"] = {
+									["count"] = 28.01,
+								},
+							},
+							["amount"] = 73.90000000000001,
+						},
+						["Ghostpaw Runner"] = {
+							["Details"] = {
+								["Shadow Word: Pain (DoT)"] = {
+									["count"] = 5.25,
+								},
+								["Mind Blast"] = {
+									["count"] = 40.02,
+								},
+								["Smite"] = {
+									["count"] = 49.64,
+								},
+							},
+							["amount"] = 94.90999999999998,
+						},
+						["Saltspittle Oracle"] = {
+							["Details"] = {
+								["Mind Blast"] = {
+									["count"] = 8.59,
+								},
+								["Smite"] = {
+									["count"] = 18.35,
+								},
+							},
+							["amount"] = 26.94,
+						},
+						["Blackwood Shaman"] = {
+							["Details"] = {
+								["Mind Blast"] = {
+									["count"] = 16.56,
+								},
+								["Shadow Word: Pain (DoT)"] = {
+									["count"] = 5.300000000000001,
+								},
+								["Melee"] = {
+									["count"] = 3.14,
+								},
+								["Smite"] = {
+									["count"] = 17.82,
+								},
+							},
+							["amount"] = 42.82,
+						},
+						["Rabid Thistle Bear"] = {
+							["Details"] = {
+								["Mind Blast"] = {
+									["count"] = 3.5,
+								},
+							},
+							["amount"] = 3.5,
+						},
+						["Wrathtail Wave Rider"] = {
+							["Details"] = {
+								["Mind Blast"] = {
+									["count"] = 21.29,
+								},
+								["Shadow Word: Pain"] = {
+									["count"] = 4.4,
+								},
+								["Shadow Word: Pain (DoT)"] = {
+									["count"] = 24.41,
+								},
+								["Smite"] = {
+									["count"] = 23.03,
+								},
+							},
+							["amount"] = 73.13000000000002,
+						},
+						["Foulweald Ursa"] = {
+							["Details"] = {
+								["Shoot"] = {
+									["count"] = 18.76,
+								},
+								["Smite"] = {
+									["count"] = 3.96,
+								},
+								["Shadow Word: Pain"] = {
+									["count"] = 2.14,
+								},
+								["Mind Blast"] = {
+									["count"] = 5.13,
+								},
+								["Shadow Word: Pain (DoT)"] = {
+									["count"] = 6.13,
+								},
+							},
+							["amount"] = 36.12000000000001,
+						},
+						["Saltspittle Warrior"] = {
+							["Details"] = {
+								["Mind Blast"] = {
+									["count"] = 8.66,
+								},
+								["Shadow Word: Pain (DoT)"] = {
+									["count"] = 3.85,
+								},
+								["Smite"] = {
+									["count"] = 11.02,
+								},
+							},
+							["amount"] = 23.53,
+						},
+						["Mugglefin"] = {
+							["Details"] = {
+								["Mind Blast"] = {
+									["count"] = 2.96,
+								},
+								["Shadow Word: Pain (DoT)"] = {
+									["count"] = 11.72,
+								},
+								["Smite"] = {
+									["count"] = 4.260000000000001,
+								},
+							},
+							["amount"] = 18.94,
+						},
+						["Mystlash Hydra"] = {
+							["Details"] = {
+								["Mind Blast"] = {
+									["count"] = 3.5,
+								},
+								["Smite"] = {
+									["count"] = 5.18,
+								},
+							},
+							["amount"] = 8.68,
+						},
+						["Blackwood Warrior"] = {
+							["Details"] = {
+								["Mind Blast"] = {
+									["count"] = 7.47,
+								},
+								["Shadow Word: Pain (DoT)"] = {
+									["count"] = 6.41,
+								},
+								["Smite"] = {
+									["count"] = 2.67,
+								},
+							},
+							["amount"] = 16.55,
+						},
+						["Saltspittle Puddlejumper"] = {
+							["Details"] = {
+								["Mind Blast"] = {
+									["count"] = 7,
+								},
+								["Smite"] = {
+									["count"] = 23.82,
+								},
+							},
+							["amount"] = 30.82,
+						},
+						["Spined Crawler"] = {
+							["Details"] = {
+								["Shadow Word: Pain (DoT)"] = {
+									["count"] = 5.15,
+								},
+								["Mind Blast"] = {
+									["count"] = 3.5,
+								},
+								["Smite"] = {
+									["count"] = 2.23,
+								},
+							},
+							["amount"] = 10.88,
+						},
+						["Felslayer"] = {
+							["Details"] = {
+								["Mind Blast"] = {
+									["count"] = 26.41,
+								},
+								["Shadow Word: Pain (DoT)"] = {
+									["count"] = 45.99,
+								},
+								["Smite"] = {
+									["count"] = 52.91999999999999,
+								},
+							},
+							["amount"] = 125.32,
+						},
+						["Wrathtail Myrmidon"] = {
+							["Details"] = {
+								["Mind Blast"] = {
+									["count"] = 22.34,
+								},
+								["Smite"] = {
+									["count"] = 48.89,
+								},
+							},
+							["amount"] = 71.22999999999999,
+						},
+						["Grizzled Thistle Bear"] = {
+							["Details"] = {
+								["Mind Blast"] = {
+									["count"] = 3.5,
+								},
+							},
+							["amount"] = 3.5,
+						},
+						["Carnivous the Breaker"] = {
+							["Details"] = {
+								["Shadow Word: Pain (DoT)"] = {
+									["count"] = 3.5,
+								},
+								["Mind Blast"] = {
+									["count"] = 0.11,
+								},
+							},
+							["amount"] = 3.61,
+						},
+						["Wildthorn Stalker"] = {
+							["Details"] = {
+								["Mind Blast"] = {
+									["count"] = 36.47,
+								},
+								["Shoot"] = {
+									["count"] = 3.5,
+								},
+								["Shadow Word: Pain (DoT)"] = {
+									["count"] = 8.390000000000001,
+								},
+								["Smite"] = {
+									["count"] = 37.91,
+								},
+							},
+							["amount"] = 86.27,
+						},
+						["Foulweald Warrior"] = {
+							["Details"] = {
+								["Psychic Scream"] = {
+									["count"] = 0.88,
+								},
+								["Melee"] = {
+									["count"] = 6.26,
+								},
+								["Smite"] = {
+									["count"] = 97.19000000000001,
+								},
+								["Shadow Word: Pain"] = {
+									["count"] = 4.79,
+								},
+								["Shoot"] = {
+									["count"] = 98.41999999999999,
+								},
+								["Mind Blast"] = {
+									["count"] = 54.24999999999999,
+								},
+								["Shadow Word: Pain (DoT)"] = {
+									["count"] = 32.96000000000001,
+								},
+							},
+							["amount"] = 294.7500000000002,
+						},
+					},
+					["ManaGain"] = 1553,
+					["HOT_Time"] = 462,
+					["HealedWho"] = {
+						["Flokus"] = {
+							["Details"] = {
+								["Renew"] = {
+									["count"] = 2036,
+								},
+								["Lesser Heal"] = {
+									["count"] = 318,
+								},
+							},
+							["amount"] = 2354,
+						},
+						["Nemuritorujr"] = {
+							["Details"] = {
+								["Renew"] = {
+									["count"] = 220,
+								},
+								["Lesser Heal"] = {
+									["count"] = 237,
+								},
+							},
+							["amount"] = 457,
+						},
+						["Dentrebras"] = {
+							["Details"] = {
+								["Renew"] = {
+									["count"] = 106,
+								},
+							},
+							["amount"] = 106,
 						},
 					},
 				},
 			},
-			["UnitLockout"] = 1689323317,
-			["LastActive"] = 1689333031,
+			["type"] = "Grouped",
+			["Owner"] = false,
+			["LastEventIncoming"] = {
+				true, -- [1]
+				false, -- [2]
+				false, -- [3]
+				false, -- [4]
+				true, -- [5]
+				false, -- [6]
+				false, -- [7]
+				false, -- [8]
+				false, -- [9]
+				false, -- [10]
+				false, -- [11]
+				false, -- [12]
+				true, -- [13]
+				false, -- [14]
+				false, -- [15]
+				true, -- [16]
+				false, -- [17]
+				true, -- [18]
+				false, -- [19]
+				false, -- [20]
+				true, -- [21]
+				true, -- [22]
+				true, -- [23]
+				true, -- [24]
+				true, -- [25]
+				false, -- [26]
+				false, -- [27]
+				false, -- [28]
+				false, -- [29]
+				false, -- [30]
+				false, -- [31]
+				false, -- [32]
+				false, -- [33]
+				false, -- [34]
+				false, -- [35]
+				false, -- [36]
+				false, -- [37]
+				false, -- [38]
+				false, -- [39]
+				false, -- [40]
+				false, -- [41]
+				false, -- [42]
+				false, -- [43]
+				false, -- [44]
+				false, -- [45]
+				true, -- [46]
+				false, -- [47]
+				true, -- [48]
+				false, -- [49]
+				false, -- [50]
+			},
+			["NextEventNum"] = 31,
+			["LastEventHealthNum"] = {
+				100, -- [1]
+				100, -- [2]
+				100, -- [3]
+				100, -- [4]
+				100, -- [5]
+				100, -- [6]
+				100, -- [7]
+				100, -- [8]
+				100, -- [9]
+				100, -- [10]
+				100, -- [11]
+				100, -- [12]
+				100, -- [13]
+				100, -- [14]
+				100, -- [15]
+				100, -- [16]
+				100, -- [17]
+				100, -- [18]
+				100, -- [19]
+				100, -- [20]
+				100, -- [21]
+				100, -- [22]
+				100, -- [23]
+				100, -- [24]
+				100, -- [25]
+				100, -- [26]
+				100, -- [27]
+				100, -- [28]
+				100, -- [29]
+				100, -- [30]
+				100, -- [31]
+				100, -- [32]
+				100, -- [33]
+				100, -- [34]
+				100, -- [35]
+				100, -- [36]
+				100, -- [37]
+				100, -- [38]
+				100, -- [39]
+				100, -- [40]
+				100, -- [41]
+				100, -- [42]
+				100, -- [43]
+				100, -- [44]
+				100, -- [45]
+				100, -- [46]
+				100, -- [47]
+				100, -- [48]
+				100, -- [49]
+				100, -- [50]
+			},
+			["LastEvents"] = {
+				"Flokus Judgement of Light Nemuritorujr Tick +11 (11 overheal)", -- [1]
+				"Nemuritorujr Smite Foulweald Pathfinder Hit -72 (Holy)", -- [2]
+				"Nemuritorujr Lesser Heal Flokus Hit +165 (124 overheal)", -- [3]
+				"Nemuritorujr Mind Blast Ashenvale Bear Hit -82 (Shadow)", -- [4]
+				"Flokus Judgement of Light Nemuritorujr Tick +11 (11 overheal)", -- [5]
+				"Nemuritorujr Smite Ashenvale Bear Hit -68 (Holy)", -- [6]
+				"Nemuritorujr Smite Ashenvale Bear Hit -69 (Holy)", -- [7]
+				"Nemuritorujr Mind Blast Ashenvale Bear Hit -86 (Shadow)", -- [8]
+				"Nemuritorujr Smite Ashenvale Bear Hit -72 (Holy)", -- [9]
+				"Nemuritorujr Smite Ashenvale Bear Hit -65 (Holy)", -- [10]
+				"Nemuritorujr Smite Ashenvale Bear Hit -72 (Holy)", -- [11]
+				"Nemuritorujr Shadow Word: Pain (DoT) Ashenvale Bear Tick -21 (2 resisted) (Shadow)", -- [12]
+				"Flokus Judgement of Light Nemuritorujr Tick +11 (11 overheal)", -- [13]
+				"Nemuritorujr Mind Blast Ashenvale Bear Hit -84 (Shadow)", -- [14]
+				"Nemuritorujr Shadow Word: Pain (DoT) Ashenvale Bear Tick -21 (2 resisted) (Shadow)", -- [15]
+				"Flokus Judgement of Light Nemuritorujr Tick +11 (11 overheal)", -- [16]
+				"Nemuritorujr Mind Blast Ashenvale Bear Hit -76 (8 resisted) (Shadow)", -- [17]
+				"Flokus Judgement of Light Nemuritorujr Tick +11 (11 overheal)", -- [18]
+				"Nemuritorujr Smite Ashenvale Bear Crit -105 (Holy)", -- [19]
+				"Nemuritorujr Smite Ashenvale Bear Hit -64 (7 resisted) (Holy)", -- [20]
+				"Nemuritorujr Renew Nemuritorujr Tick +24 (24 overheal)", -- [21]
+				"Nemuritorujr Renew Nemuritorujr Tick +24 (24 overheal)", -- [22]
+				"Nemuritorujr Renew Nemuritorujr Tick +23 (23 overheal)", -- [23]
+				"Nemuritorujr Renew Nemuritorujr Tick +23 (23 overheal)", -- [24]
+				"Nemuritorujr Renew Nemuritorujr Tick +23 (23 overheal)", -- [25]
+				"Nemuritorujr Renew Flokus Tick +24 (24 overheal)", -- [26]
+				"Nemuritorujr Renew Flokus Tick +24 (24 overheal)", -- [27]
+				"Nemuritorujr Renew Flokus Tick +23 (23 overheal)", -- [28]
+				"Nemuritorujr Renew Flokus Tick +23 (23 overheal)", -- [29]
+				"Nemuritorujr Renew Flokus Tick +24 (24 overheal)", -- [30]
+				"Nemuritorujr Shadow Word: Pain (DoT) Foulweald Totemic Tick -20 (2 resisted) (Shadow)", -- [31]
+				"Nemuritorujr Shoot Foulweald Totemic Hit -20 (5 resisted) (Arcane)", -- [32]
+				"Nemuritorujr Shadow Word: Pain (DoT) Foulweald Totemic Tick -23 (Shadow)", -- [33]
+				"Nemuritorujr Shoot Foulweald Totemic Hit -27 (Arcane)", -- [34]
+				"Nemuritorujr Shoot Foulweald Totemic Hit -18 (Arcane)", -- [35]
+				"Nemuritorujr Shadow Word: Pain (DoT) Foulweald Totemic Tick -23 (Shadow)", -- [36]
+				"Nemuritorujr Shoot Foulweald Totemic Miss (Physical)", -- [37]
+				"Nemuritorujr Shadow Word: Pain (DoT) Foulweald Totemic Tick -21 (2 resisted) (Shadow)", -- [38]
+				"Nemuritorujr Shoot Foulweald Totemic Hit -25 (2 resisted) (Arcane)", -- [39]
+				"Nemuritorujr Shoot Foulweald Totemic Hit -18 (Arcane)", -- [40]
+				"Nemuritorujr Shadow Word: Pain (DoT) Foulweald Totemic Tick -21 (2 resisted) (Shadow)", -- [41]
+				"Nemuritorujr Smite Foulweald Pathfinder Miss (Holy)", -- [42]
+				"Nemuritorujr Mind Blast Foulweald Pathfinder Hit -77 (8 resisted) (Shadow)", -- [43]
+				"Nemuritorujr Smite Foulweald Pathfinder Miss (Holy)", -- [44]
+				"Nemuritorujr Smite Foulweald Pathfinder Miss (Holy)", -- [45]
+				"Flokus Judgement of Light Nemuritorujr Tick +11 (11 overheal)", -- [46]
+				"Nemuritorujr Smite Foulweald Pathfinder Hit -63 (7 resisted) (Holy)", -- [47]
+				"Flokus Judgement of Light Nemuritorujr Tick +11 (11 overheal)", -- [48]
+				"Nemuritorujr Mind Blast Foulweald Pathfinder Hit -77 (8 resisted) (Shadow)", -- [49]
+				"Nemuritorujr Smite Foulweald Pathfinder Hit -67 (Holy)", -- [50]
+			},
+			["Name"] = "Nemuritorujr",
+			["TimeLast"] = {
+				["TimeHeal"] = 1689331821,
+				["Healing"] = 1689331821,
+				["OVERALL"] = 1689332333,
+				["DamageTaken"] = 1689331911,
+				["HealingTaken"] = 1689331948,
+				["HOT_Time"] = 1689331821,
+				["DeathCount"] = 1689329689,
+				["Overhealing"] = 1689331819,
+				["TimeDamage"] = 1689332333,
+				["ActiveTime"] = 1689332333,
+				["ManaGain"] = 1689332289,
+				["DOT_Time"] = 1689332289,
+				["Damage"] = 1689332333,
+			},
+			["LastDamageTaken"] = 39,
+			["DeathLogs"] = {
+				{
+					["MessageIncoming"] = {
+						true, -- [1]
+						true, -- [2]
+						true, -- [3]
+						true, -- [4]
+						true, -- [5]
+						true, -- [6]
+						true, -- [7]
+					},
+					["Messages"] = {
+						"Chorevpet Melee Nemuritorujr Hit -47 (Physical)", -- [1]
+						"Chorevpet Melee Nemuritorujr Hit -39 (Physical)", -- [2]
+						"Chorevpet Life Steal Nemuritorujr Hit -30 (Shadow)", -- [3]
+						"Chorevpet Eviscerate Nemuritorujr Hit -78 (Physical)", -- [4]
+						"Chorevpet Melee Nemuritorujr Hit -51 (Physical)", -- [5]
+						"Chorevpet Melee Nemuritorujr Crit -68 (Physical)", -- [6]
+						"Nemuritorujr dies.", -- [7]
+					},
+					["DeathAt"] = 1689329691,
+					["HealthNum"] = {
+						55.08474576271186, -- [1]
+						45.1271186440678, -- [2]
+						38.77118644067797, -- [3]
+						13.98305084745763, -- [4]
+						13.98305084745763, -- [5]
+						3.177966101694915, -- [6]
+						0, -- [7]
+					},
+					["MessageTimes"] = {
+						-2.100000000000364, -- [1]
+						-1.765999999999622, -- [2]
+						-1.649999999999636, -- [3]
+						-0.683999999999287, -- [4]
+						-0.3919999999998254, -- [5]
+						-0.07599999999911233, -- [6]
+						0, -- [7]
+					},
+					["KilledBy"] = "Chorevpet",
+					["Health"] = {
+						"260 (55%)", -- [1]
+						"213 (45%)", -- [2]
+						"183 (38%)", -- [3]
+						"66 (13%)", -- [4]
+						"66 (13%)", -- [5]
+						"15 (3%)", -- [6]
+						"0 (0%)", -- [7]
+					},
+					["EventNum"] = {
+						9.957627118644068, -- [1]
+						8.26271186440678, -- [2]
+						6.35593220338983, -- [3]
+						16.52542372881356, -- [4]
+						10.80508474576271, -- [5]
+						14.40677966101695, -- [6]
+						0, -- [7]
+					},
+					["MessageType"] = {
+						"DAMAGE", -- [1]
+						"DAMAGE", -- [2]
+						"DAMAGE", -- [3]
+						"DAMAGE", -- [4]
+						"DAMAGE", -- [5]
+						"DAMAGE", -- [6]
+						"MISC", -- [7]
+					},
+				}, -- [1]
+			},
+			["LastEventTimes"] = {
+				12153.666, -- [1]
+				12153.668, -- [2]
+				12162.267, -- [3]
+				12189.308, -- [4]
+				12191.9, -- [5]
+				12191.9, -- [6]
+				12195.074, -- [7]
+				12213.582, -- [8]
+				12216.207, -- [9]
+				12219.429, -- [10]
+				12222.082, -- [11]
+				12342.256, -- [12]
+				12343.839, -- [13]
+				12343.839, -- [14]
+				12345.256, -- [15]
+				12384.497, -- [16]
+				12384.497, -- [17]
+				12387.405, -- [18]
+				12387.405, -- [19]
+				12389.947, -- [20]
+				13061.622, -- [21]
+				13064.605, -- [22]
+				13067.605, -- [23]
+				13070.605, -- [24]
+				13073.622, -- [25]
+				13075.038, -- [26]
+				13078.038, -- [27]
+				13081.022, -- [28]
+				13084.038, -- [29]
+				13087.013, -- [30]
+				12115.242, -- [31]
+				12115.917, -- [32]
+				12118.234, -- [33]
+				12118.85, -- [34]
+				12120.667, -- [35]
+				12121.25, -- [36]
+				12122.91, -- [37]
+				12124.209, -- [38]
+				12124.267, -- [39]
+				12126.05, -- [40]
+				12127.227, -- [41]
+				12134.15, -- [42]
+				12135.7, -- [43]
+				12138.492, -- [44]
+				12142.366, -- [45]
+				12145.066, -- [46]
+				12145.067, -- [47]
+				12147.016, -- [48]
+				12147.017, -- [49]
+				12150.683, -- [50]
+			},
+			["LastAbility"] = 19701.817,
+		},
+		["Infinite Corruptor"] = {
+			["GUID"] = "0xF130007E110001C8",
+			["LastEventHealth"] = {
+				"???", -- [1]
+				"???", -- [2]
+				"???", -- [3]
+				"???", -- [4]
+				"???", -- [5]
+				"???", -- [6]
+				"???", -- [7]
+				"???", -- [8]
+				"???", -- [9]
+				"???", -- [10]
+				"???", -- [11]
+				"???", -- [12]
+				"???", -- [13]
+				"???", -- [14]
+				"???", -- [15]
+				"???", -- [16]
+				"???", -- [17]
+				"???", -- [18]
+			},
+			["LastEventType"] = {
+				"DAMAGE", -- [1]
+				"DAMAGE", -- [2]
+				"DAMAGE", -- [3]
+				"DAMAGE", -- [4]
+				"DAMAGE", -- [5]
+				"DAMAGE", -- [6]
+				"DAMAGE", -- [7]
+				"DAMAGE", -- [8]
+				"DAMAGE", -- [9]
+				"DAMAGE", -- [10]
+				"DAMAGE", -- [11]
+				"DAMAGE", -- [12]
+				"DAMAGE", -- [13]
+				"DAMAGE", -- [14]
+				"DAMAGE", -- [15]
+				"DAMAGE", -- [16]
+				"DAMAGE", -- [17]
+				"DAMAGE", -- [18]
+			},
+			["TimeWindows"] = {
+				["ActiveTime"] = {
+					54.54000000000001, -- [1]
+				},
+				["TimeDamage"] = {
+					54.54000000000001, -- [1]
+				},
+				["DOT_Time"] = {
+					54, -- [1]
+				},
+				["Damage"] = {
+					19176, -- [1]
+				},
+			},
+			["enClass"] = "MOB",
+			["level"] = -1,
+			["LastFightIn"] = 181,
+			["type"] = "Boss",
+			["FightsSaved"] = 5,
+			["LastActive"] = 1689333784,
+			["Owner"] = false,
+			["UnitLockout"] = 1689333784,
+			["NextEventNum"] = 19,
+			["LastEventHealthNum"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+				0, -- [4]
+				0, -- [5]
+				0, -- [6]
+				0, -- [7]
+				0, -- [8]
+				0, -- [9]
+				0, -- [10]
+				0, -- [11]
+				0, -- [12]
+				0, -- [13]
+				0, -- [14]
+				0, -- [15]
+				0, -- [16]
+				0, -- [17]
+				0, -- [18]
+			},
+			["LastEvents"] = {
+				"Infinite Corruptor Corrupting Blight (DoT) Aslastor Tick -1307 (145 resisted) (Shadow)", -- [1]
+				"Infinite Corruptor Corrupting Blight (DoT) Aslastor Tick -1017 (435 resisted) (Shadow)", -- [2]
+				"Infinite Corruptor Corrupting Blight (DoT) Aslastor Tick -1017 (435 resisted) (Shadow)", -- [3]
+				"Infinite Corruptor Corrupting Blight (DoT) Aslastor Tick -1162 (290 resisted) (Shadow)", -- [4]
+				"Infinite Corruptor Corrupting Blight (DoT) Aslastor Tick -872 (580 resisted) (Shadow)", -- [5]
+				"Infinite Corruptor Corrupting Blight (DoT) Aslastor Tick -1017 (435 resisted) (Shadow)", -- [6]
+				"Infinite Corruptor Corrupting Blight (DoT) Aslastor Tick -872 (580 resisted) (Shadow)", -- [7]
+				"Infinite Corruptor Corrupting Blight (DoT) Aslastor Tick -1017 (435 resisted) (Shadow)", -- [8]
+				"Infinite Corruptor Corrupting Blight (DoT) Aslastor Tick -1162 (290 resisted) (Shadow)", -- [9]
+				"Infinite Corruptor Corrupting Blight (DoT) Aslastor Tick -1162 (290 resisted) (Shadow)", -- [10]
+				"Infinite Corruptor Corrupting Blight (DoT) Aslastor Tick -1162 (290 resisted) (Shadow)", -- [11]
+				"Infinite Corruptor Corrupting Blight (DoT) Aslastor Tick -1017 (435 resisted) (Shadow)", -- [12]
+				"Infinite Corruptor Corrupting Blight (DoT) Aslastor Tick -1162 (290 resisted) (Shadow)", -- [13]
+				"Infinite Corruptor Corrupting Blight (DoT) Aslastor Tick -1162 (290 resisted) (Shadow)", -- [14]
+				"Infinite Corruptor Corrupting Blight (DoT) Aslastor Tick -1162 (290 resisted) (Shadow)", -- [15]
+				"Infinite Corruptor Corrupting Blight (DoT) Aslastor Tick -872 (580 resisted) (Shadow)", -- [16]
+				"Infinite Corruptor Corrupting Blight (DoT) Aslastor Tick -1017 (435 resisted) (Shadow)", -- [17]
+				"Infinite Corruptor Corrupting Blight (DoT) Aslastor Tick -1017 (435 resisted) (Shadow)", -- [18]
+			},
+			["Name"] = "Infinite Corruptor",
+			["Fights"] = {
+				["LastFightData"] = {
+					["DOTs"] = {
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 0,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["HOTs"] = {
+					},
+					["ManaGain"] = 0,
+					["ElementTaken"] = {
+					},
+					["DOT_Time"] = 0,
+					["Damage"] = 0,
+					["ElementDoneAbsorb"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["PartialAbsorb"] = {
+					},
+					["RageGain"] = 0,
+					["FAttacks"] = {
+					},
+					["PartialBlock"] = {
+					},
+					["ElementDone"] = {
+					},
+					["CCBroken"] = {
+					},
+					["ElementHitsDone"] = {
+					},
+					["Dispelled"] = 0,
+					["WhoDamaged"] = {
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["FDamagedWho"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+					},
+					["OverHeals"] = {
+					},
+					["RageGained"] = {
+					},
+					["ActiveTime"] = 0,
+					["CCBreak"] = 0,
+					["EnergyGain"] = 0,
+					["WhoHealed"] = {
+					},
+					["PartialResist"] = {
+					},
+					["ManaGained"] = {
+					},
+					["ElementTakenAbsorb"] = {
+					},
+					["Interrupts"] = 0,
+					["Overhealing"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["InterruptData"] = {
+					},
+					["WhoDispelled"] = {
+					},
+					["TimeSpent"] = {
+					},
+					["Heals"] = {
+					},
+					["FDamage"] = 0,
+					["EnergyGained"] = {
+					},
+					["HealedWho"] = {
+					},
+					["Healing"] = 0,
+					["RunicPowerGained"] = {
+					},
+					["ManaGainedFrom"] = {
+					},
+					["Attacks"] = {
+					},
+					["HealingTaken"] = 0,
+					["DamagedWho"] = {
+					},
+					["TimeDamage"] = 0,
+					["TimeDamaging"] = {
+					},
+					["RunicPowerGain"] = 0,
+					["ElementTakenBlock"] = {
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["CurrentFightData"] = {
+					["DOTs"] = {
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 0,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["HOTs"] = {
+					},
+					["ManaGain"] = 0,
+					["ElementTaken"] = {
+					},
+					["DOT_Time"] = 0,
+					["Damage"] = 0,
+					["ElementDoneAbsorb"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["PartialAbsorb"] = {
+					},
+					["RageGain"] = 0,
+					["FAttacks"] = {
+					},
+					["PartialBlock"] = {
+					},
+					["ElementDone"] = {
+					},
+					["CCBroken"] = {
+					},
+					["ElementHitsDone"] = {
+					},
+					["Dispelled"] = 0,
+					["WhoDamaged"] = {
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["FDamagedWho"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+					},
+					["OverHeals"] = {
+					},
+					["RageGained"] = {
+					},
+					["ActiveTime"] = 0,
+					["CCBreak"] = 0,
+					["EnergyGain"] = 0,
+					["WhoHealed"] = {
+					},
+					["PartialResist"] = {
+					},
+					["ManaGained"] = {
+					},
+					["ElementTakenAbsorb"] = {
+					},
+					["Interrupts"] = 0,
+					["Overhealing"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["InterruptData"] = {
+					},
+					["WhoDispelled"] = {
+					},
+					["TimeSpent"] = {
+					},
+					["Heals"] = {
+					},
+					["FDamage"] = 0,
+					["EnergyGained"] = {
+					},
+					["HealedWho"] = {
+					},
+					["Healing"] = 0,
+					["RunicPowerGained"] = {
+					},
+					["ManaGainedFrom"] = {
+					},
+					["Attacks"] = {
+					},
+					["HealingTaken"] = 0,
+					["DamagedWho"] = {
+					},
+					["TimeDamage"] = 0,
+					["TimeDamaging"] = {
+					},
+					["RunicPowerGain"] = 0,
+					["ElementTakenBlock"] = {
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["OverallData"] = {
+					["DOTs"] = {
+						["Corrupting Blight (DoT)"] = {
+							["Details"] = {
+								["Aslastor"] = {
+									["count"] = 54,
+								},
+							},
+							["amount"] = 54,
+						},
+					},
+					["ElementDoneResist"] = {
+						["Shadow"] = 6960,
+					},
+					["TimeSpent"] = {
+						["Aslastor"] = {
+							["Details"] = {
+								["Corrupting Blight (DoT)"] = {
+									["count"] = 54.54000000000001,
+								},
+							},
+							["amount"] = 54.54000000000001,
+						},
+					},
+					["ElementDone"] = {
+						["Shadow"] = 19176,
+					},
+					["Attacks"] = {
+						["Corrupting Blight (DoT)"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 1307,
+									["min"] = 872,
+									["count"] = 18,
+									["amount"] = 19176,
+								},
+							},
+							["count"] = 18,
+							["amount"] = 19176,
+						},
+					},
+					["DamagedWho"] = {
+						["Aslastor"] = {
+							["Details"] = {
+								["Corrupting Blight (DoT)"] = {
+									["count"] = 19176,
+								},
+							},
+							["amount"] = 19176,
+						},
+					},
+					["ElementHitsDone"] = {
+						["Shadow"] = {
+							["Details"] = {
+								["Tick"] = {
+									["count"] = 18,
+								},
+							},
+							["amount"] = 18,
+						},
+					},
+					["ActiveTime"] = 54.54000000000001,
+					["TimeDamaging"] = {
+						["Aslastor"] = {
+							["Details"] = {
+								["Corrupting Blight (DoT)"] = {
+									["count"] = 54.54000000000001,
+								},
+							},
+							["amount"] = 54.54000000000001,
+						},
+					},
+					["TimeDamage"] = 54.54000000000001,
+					["DOT_Time"] = 54,
+					["Damage"] = 19176,
+				},
+			},
+			["TimeLast"] = {
+				["ActiveTime"] = 1689333784,
+				["TimeDamage"] = 1689333784,
+				["OVERALL"] = 1689333784,
+				["DOT_Time"] = 1689333784,
+				["Damage"] = 1689333784,
+			},
+			["LastEventIncoming"] = {
+				false, -- [1]
+				false, -- [2]
+				false, -- [3]
+				false, -- [4]
+				false, -- [5]
+				false, -- [6]
+				false, -- [7]
+				false, -- [8]
+				false, -- [9]
+				false, -- [10]
+				false, -- [11]
+				false, -- [12]
+				false, -- [13]
+				false, -- [14]
+				false, -- [15]
+				false, -- [16]
+				false, -- [17]
+				false, -- [18]
+			},
+			["LastEventTimes"] = {
+				13789.832, -- [1]
+				13792.881, -- [2]
+				13795.836, -- [3]
+				13798.837, -- [4]
+				13801.868, -- [5]
+				13804.844, -- [6]
+				13807.852, -- [7]
+				13810.839, -- [8]
+				13813.863, -- [9]
+				13816.871, -- [10]
+				13819.886, -- [11]
+				13822.834, -- [12]
+				13825.849, -- [13]
+				13828.87, -- [14]
+				13831.847, -- [15]
+				13834.842, -- [16]
+				13837.866, -- [17]
+				13840.862, -- [18]
+			},
+			["LastAbility"] = 19701.817,
 		},
 		["Flokus"] = {
 			["GUID"] = "0x0700000000972811",
@@ -4075,20 +4075,20 @@ RecountPerCharDB = {
 				["DamageTaken"] = {
 					19771, -- [1]
 				},
-				["ActiveTime"] = {
-					4075.540000000005, -- [1]
-				},
-				["Overhealing"] = {
-					3925, -- [1]
-				},
-				["HealingTaken"] = {
-					11262, -- [1]
-				},
 				["HOT_Time"] = {
 					1827, -- [1]
 				},
 				["TimeDamage"] = {
 					3980.770000000003, -- [1]
+				},
+				["HealingTaken"] = {
+					11262, -- [1]
+				},
+				["Overhealing"] = {
+					3925, -- [1]
+				},
+				["ActiveTime"] = {
+					4075.540000000005, -- [1]
 				},
 				["Interrupts"] = {
 					17, -- [1]
@@ -4121,15045 +4121,23 @@ RecountPerCharDB = {
 				12.62135922330097, -- [10]
 				11.23439667128988, -- [11]
 				11.23439667128988, -- [12]
-				[17] = 0.1406469760900141,
+				[49] = 12.89875173370319,
 				[27] = 0.2812939521800281,
 				[28] = 0.1406469760900141,
-				[30] = 0.1406469760900141,
-				[33] = 0.1406469760900141,
-				[40] = 0.2812939521800281,
 				[42] = 0.2812939521800281,
-				[48] = 11.37309292649099,
-				[49] = 12.89875173370319,
+				[30] = 0.1406469760900141,
+				[17] = 0.1406469760900141,
 				[50] = 12.34396671289875,
+				[48] = 11.37309292649099,
+				[40] = 0.2812939521800281,
+				[33] = 0.1406469760900141,
 			},
 			["type"] = "Self",
 			["FightsSaved"] = 5,
-			["LastAbility"] = 17424.387,
-			["LastDamageTaken"] = 2,
+			["LastActive"] = 1689338042,
+			["UnitLockout"] = 1689323262,
 			["Owner"] = false,
-			["TimeLast"] = {
-				["TimeHeal"] = 1689332289,
-				["Dispelled"] = 1689330887,
-				["Dispels"] = 1689330887,
-				["ActiveTime"] = 1689337368,
-				["OVERALL"] = 1689337368,
-				["DamageTaken"] = 1689337254,
-				["Healing"] = 1689332289,
-				["Interrupts"] = 1689330415,
-				["HealingTaken"] = 1689332289,
-				["HOT_Time"] = 1689332336,
-				["TimeDamage"] = 1689337368,
-				["Overhealing"] = 1689336799,
-				["ManaGain"] = 1689337178,
-				["DOT_Time"] = 1689337227,
-				["Damage"] = 1689337368,
-			},
-			["NextEventNum"] = 13,
-			["LastEventHealthNum"] = {
-				100, -- [1]
-				100, -- [2]
-				100, -- [3]
-				100, -- [4]
-				100, -- [5]
-				100, -- [6]
-				100, -- [7]
-				100, -- [8]
-				100, -- [9]
-				100, -- [10]
-				100, -- [11]
-				100, -- [12]
-				100, -- [13]
-				100, -- [14]
-				100, -- [15]
-				100, -- [16]
-				100, -- [17]
-				99.85935302390999, -- [18]
-				99.85935302390999, -- [19]
-				100, -- [20]
-				100, -- [21]
-				100, -- [22]
-				100, -- [23]
-				100, -- [24]
-				100, -- [25]
-				100, -- [26]
-				100, -- [27]
-				99.71870604781998, -- [28]
-				99.57805907172995, -- [29]
-				99.57805907172995, -- [30]
-				99.43741209563994, -- [31]
-				99.43741209563994, -- [32]
-				99.43741209563994, -- [33]
-				99.29676511954993, -- [34]
-				99.29676511954993, -- [35]
-				99.29676511954993, -- [36]
-				99.29676511954993, -- [37]
-				99.29676511954993, -- [38]
-				99.29676511954993, -- [39]
-				99.29676511954993, -- [40]
-				99.0154711673699, -- [41]
-				100, -- [42]
-				100, -- [43]
-				100, -- [44]
-				100, -- [45]
-				100, -- [46]
-				100, -- [47]
-				100, -- [48]
-				100, -- [49]
-				100, -- [50]
-			},
-			["LastEvents"] = {
-				"Flokus Flash of Light Flokus Hit +83 (83 overheal)", -- [1]
-				"Flokus Flash of Light Flokus Hit +92 (92 overheal)", -- [2]
-				"Flokus Flash of Light Flokus Hit +90 (90 overheal)", -- [3]
-				"Flokus Holy Light Flokus Hit +228 (228 overheal)", -- [4]
-				"Flokus Flash of Light Flokus Hit +81 (81 overheal)", -- [5]
-				"Flokus Flash of Light Flokus Hit +85 (85 overheal)", -- [6]
-				"Flokus Flash of Light Flokus Hit +87 (87 overheal)", -- [7]
-				"Flokus Flash of Light Flokus Hit +83 (83 overheal)", -- [8]
-				"Flokus Flash of Light Flokus Hit +90 (90 overheal)", -- [9]
-				"Flokus Flash of Light Flokus Hit +91 (91 overheal)", -- [10]
-				"Flokus Flash of Light Flokus Hit +81 (81 overheal)", -- [11]
-				"Flokus Flash of Light Flokus Hit +81 (81 overheal)", -- [12]
-				"Flokus Melee Kobold Tunneler Glancing -182 (Physical)", -- [13]
-				"Flokus Hand of Reckoning Kobold Tunneler Hit -122 (Holy)", -- [14]
-				"Flokus Seal of Righteousness Kobold Tunneler Hit -15 (Holy)", -- [15]
-				"Flokus Judgement of Righteousness Kobold Tunneler Crit -98 (Holy)", -- [16]
-				"Kobold Tunneler Melee Flokus Hit -1 (Physical)", -- [17]
-				"Flokus Seal of Righteousness Kobold Tunneler Hit -15 (Holy)", -- [18]
-				"Flokus Melee Kobold Tunneler Glancing -187 (Physical)", -- [19]
-				"Flokus Seal of Righteousness Kobold Tunneler Hit -15 (Holy)", -- [20]
-				"Flokus Melee Kobold Tunneler Glancing -177 (Physical)", -- [21]
-				"Flokus Hand of Reckoning Kobold Tunneler Hit -122 (Holy)", -- [22]
-				"Kobold Tunneler Melee Flokus Miss", -- [23]
-				"Flokus Seal of Righteousness Kobold Tunneler Hit -15 (Holy)", -- [24]
-				"Flokus Melee Kobold Tunneler Glancing -200 (Physical)", -- [25]
-				"Flokus Hand of Reckoning Kobold Tunneler Hit -122 (Holy)", -- [26]
-				"Kobold Tunneler Melee Flokus Hit -2 (Physical)", -- [27]
-				"Kobold Tunneler Melee Flokus Hit -1 (Physical)", -- [28]
-				"Flokus Consecration (DoT) Kobold Tunneler Tick -18 (Holy)", -- [29]
-				"Kobold Tunneler Melee Flokus Hit -1 (Physical)", -- [30]
-				"Flokus Consecration (DoT) Kobold Tunneler Tick -18 (Holy)", -- [31]
-				"Flokus Consecration (DoT) Kobold Tunneler Tick -18 (Holy)", -- [32]
-				"Kobold Tunneler Melee Flokus Hit -1 (Physical)", -- [33]
-				"Flokus Seal of Righteousness Kobold Tunneler Hit -15 (Holy)", -- [34]
-				"Flokus Melee Kobold Tunneler Glancing -202 (Physical)", -- [35]
-				"Flokus Consecration (DoT) Kobold Tunneler Tick -18 (Holy)", -- [36]
-				"Flokus Consecration (DoT) Kobold Tunneler Tick -18 (Holy)", -- [37]
-				"Flokus Seal of Righteousness Kobold Tunneler Hit -15 (Holy)", -- [38]
-				"Flokus Judgement of Righteousness Kobold Tunneler Hit -49 (Holy)", -- [39]
-				"Kobold Tunneler Melee Flokus Hit -2 (Physical)", -- [40]
-				"Flokus Consecration (DoT) Kobold Tunneler Tick -18 (Holy)", -- [41]
-				"Kobold Tunneler Melee Flokus Hit -2 (Physical)", -- [42]
-				"Flokus Hand of Reckoning Defias Bandit Hit -122 (Holy)", -- [43]
-				"Defias Bandit Melee Flokus Dodge", -- [44]
-				"Flokus Seal of Righteousness Defias Bandit Hit -15 (Holy)", -- [45]
-				"Flokus Melee Defias Bandit Hit -70 (Physical)", -- [46]
-				"Flokus Hand of Reckoning Forest Spider Hit -122 (Holy)", -- [47]
-				"Flokus Flash of Light Flokus Hit +82 (82 overheal)", -- [48]
-				"Flokus Flash of Light Flokus Hit +93 (93 overheal)", -- [49]
-				"Flokus Flash of Light Flokus Hit +89 (89 overheal)", -- [50]
-			},
-			["Name"] = "Flokus",
-			["LastEventIncoming"] = {
-				true, -- [1]
-				true, -- [2]
-				true, -- [3]
-				true, -- [4]
-				true, -- [5]
-				true, -- [6]
-				true, -- [7]
-				true, -- [8]
-				true, -- [9]
-				true, -- [10]
-				true, -- [11]
-				true, -- [12]
-				false, -- [13]
-				false, -- [14]
-				false, -- [15]
-				false, -- [16]
-				true, -- [17]
-				false, -- [18]
-				false, -- [19]
-				false, -- [20]
-				false, -- [21]
-				false, -- [22]
-				true, -- [23]
-				false, -- [24]
-				false, -- [25]
-				false, -- [26]
-				true, -- [27]
-				true, -- [28]
-				false, -- [29]
-				true, -- [30]
-				false, -- [31]
-				false, -- [32]
-				true, -- [33]
-				false, -- [34]
-				false, -- [35]
-				false, -- [36]
-				false, -- [37]
-				false, -- [38]
-				false, -- [39]
-				true, -- [40]
-				false, -- [41]
-				true, -- [42]
-				false, -- [43]
-				true, -- [44]
-				false, -- [45]
-				false, -- [46]
-				false, -- [47]
-				true, -- [48]
-				true, -- [49]
-				true, -- [50]
-			},
-			["LastEventTimes"] = {
-				18067.363, -- [1]
-				18069.002, -- [2]
-				18075.655, -- [3]
-				18080.29, -- [4]
-				18082.258, -- [5]
-				18084.008, -- [6]
-				18085.603, -- [7]
-				18087.23, -- [8]
-				18088.852, -- [9]
-				18090.434, -- [10]
-				18092.022, -- [11]
-				18098.352, -- [12]
-				17226.168, -- [13]
-				17229.639, -- [14]
-				17234.197, -- [15]
-				17234.198, -- [16]
-				17234.296, -- [17]
-				17234.323, -- [18]
-				17234.323, -- [19]
-				17237.606, -- [20]
-				17237.61, -- [21]
-				17241.06, -- [22]
-				17241.821, -- [23]
-				17241.846, -- [24]
-				17241.848, -- [25]
-				17255.342, -- [26]
-				17275.372, -- [27]
-				17277.487, -- [28]
-				17279.146, -- [29]
-				17279.488, -- [30]
-				17280.179, -- [31]
-				17280.18, -- [32]
-				17280.579, -- [33]
-				17280.913, -- [34]
-				17280.914, -- [35]
-				17281.121, -- [36]
-				17282.138, -- [37]
-				17282.505, -- [38]
-				17282.506, -- [39]
-				17282.571, -- [40]
-				17283.13, -- [41]
-				17310.346, -- [42]
-				17390.262, -- [43]
-				17391.669, -- [44]
-				17391.711, -- [45]
-				17391.713, -- [46]
-				17424.387, -- [47]
-				18062.658, -- [48]
-				18064.223, -- [49]
-				18065.826, -- [50]
-			},
 			["Fights"] = {
-				["Fight2"] = {
-					["DOTs"] = {
-						["Consecration (DoT)"] = {
-							["Details"] = {
-								["Kobold Miner"] = {
-									["count"] = 0,
-								},
-								["Kobold Tunneler"] = {
-									["count"] = 18,
-								},
-							},
-							["amount"] = 18,
-						},
-					},
-					["ElementDoneResist"] = {
-						["Holy"] = 0,
-					},
-					["Ressed"] = 0,
-					["DamageTaken"] = 7,
-					["RageGainedFrom"] = {
-					},
-					["ElementHitsTaken"] = {
-						["Shadow"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 0,
-								},
-								["Absorb"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["Crushing"] = {
-									["count"] = 0,
-								},
-								["Absorb"] = {
-									["count"] = 0,
-								},
-								["Dodge"] = {
-									["count"] = 0,
-								},
-								["Hit"] = {
-									["count"] = 5,
-								},
-								["Miss"] = {
-									["count"] = 0,
-								},
-								["Block"] = {
-									["count"] = 0,
-								},
-								["Crit"] = {
-									["count"] = 0,
-								},
-								["Parry"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 5,
-						},
-						["Fire"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Physical"] = {
-							["Details"] = {
-								["Parry"] = {
-									["count"] = 0,
-								},
-								["Absorb"] = {
-									["count"] = 0,
-								},
-								["Miss"] = {
-									["count"] = 0,
-								},
-								["Hit"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Nature"] = {
-							["Details"] = {
-								["Absorb"] = {
-									["count"] = 0,
-								},
-								["Hit"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["DeathCount"] = 0,
-					["HOT_Time"] = 0,
-					["ElementHitsDone"] = {
-						["Holy"] = {
-							["Details"] = {
-								["Tick"] = {
-									["count"] = 6,
-								},
-								["Miss"] = {
-									["count"] = 0,
-								},
-								["Crit"] = {
-									["count"] = 0,
-								},
-								["Hit"] = {
-									["count"] = 3,
-								},
-							},
-							["amount"] = 9,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["Glancing"] = {
-									["count"] = 1,
-								},
-								["Hit"] = {
-									["count"] = 0,
-								},
-								["Dodge"] = {
-									["count"] = 0,
-								},
-								["Miss"] = {
-									["count"] = 0,
-								},
-								["Crit"] = {
-									["count"] = 0,
-								},
-								["Parry"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 1,
-						},
-						["Physical"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["ElementTakenAbsorb"] = {
-						["Shadow"] = 0,
-						["Melee"] = 0,
-						["Fire"] = 0,
-						["Physical"] = 0,
-						["Nature"] = 0,
-					},
-					["ElementTaken"] = {
-						["Shadow"] = 0,
-						["Melee"] = 7,
-						["Fire"] = 0,
-						["Physical"] = 0,
-						["Nature"] = 0,
-					},
-					["DOT_Time"] = 18,
-					["Damage"] = 389,
-					["ElementTakenBlock"] = {
-						["Melee"] = 0,
-					},
-					["TimeHeal"] = 0,
-					["RessedWho"] = {
-					},
-					["Dispels"] = 0,
-					["ElementTakenResist"] = {
-					},
-					["ElementDoneAbsorb"] = {
-					},
-					["FAttacks"] = {
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementDone"] = {
-						["Holy"] = 187,
-						["Melee"] = 202,
-						["Physical"] = 0,
-					},
-					["PartialAbsorb"] = {
-						["Strike"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 5,
-									["amount"] = 0,
-								},
-								["Absorbed"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 5,
-							["amount"] = 0,
-						},
-						["Mana Burn"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Rend"] = {
-							["Details"] = {
-								["Absorbed"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Lightning Bolt"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Absorbed"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Shadow Bolt"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Absorbed"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Pierce Armor"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Knockdown"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Firebolt"] = {
-							["Details"] = {
-								["Absorbed"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Backstab"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Shock"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Absorbed"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Fire Shield Effect II"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Thorns"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["DamagedWho"] = {
-						["Carnivous the Breaker"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Kobold Tunneler"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 30,
-								},
-								["Melee"] = {
-									["count"] = 202,
-								},
-								["Consecration (DoT)"] = {
-									["count"] = 108,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 49,
-								},
-							},
-							["amount"] = 389,
-						},
-						["Ashenvale Bear"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Narg the Taskmaster"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Imp Minion"] = {
-							["Details"] = {
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Goldtooth"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Wild Buck"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Ghostpaw Runner"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Iron Shield Spike"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Kobold Miner"] = {
-							["Details"] = {
-								["Consecration (DoT)"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Iron Shield Spike"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Saltspittle Oracle"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Blackwood Shaman"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Iron Shield Spike"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Defias Cutpurse"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Dark Strand Cultist"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Wrathtail Wave Rider"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Iron Shield Spike"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Blackwood Ursa"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Iron Shield Spike"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Rat"] = {
-							["Details"] = {
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Succubus Minion"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Wrathtail Priestess"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Foulweald Totemic"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Lesser Felguard"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Iron Shield Spike"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Wrathtail Myrmidon"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Felslayer"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Foulweald Shaman"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Iron Shield Spike"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Wrathtail Razortail"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Wrathtail Sorceress"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Wildthorn Stalker"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Foulweald Warrior"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["PartialBlock"] = {
-						["Melee"] = {
-							["Details"] = {
-								["Blocked"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["WhoDamaged"] = {
-						["Lesser Felguard"] = {
-							["Details"] = {
-								["Knockdown"] = {
-									["count"] = 0,
-								},
-								["Fire Shield Effect II"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Kobold Tunneler"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 7,
-								},
-							},
-							["amount"] = 7,
-						},
-						["Ashenvale Bear"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Narg the Taskmaster"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Imp Minion"] = {
-							["Details"] = {
-								["Firebolt"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Goldtooth"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Wild Buck"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Ghostpaw Runner"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Saltspittle Oracle"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Shock"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Blackwood Shaman"] = {
-							["Details"] = {
-								["Lightning Bolt"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Shock"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Dark Strand Cultist"] = {
-							["Details"] = {
-								["Shadow Bolt"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Defias Cutpurse"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Backstab"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Felslayer"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Mana Burn"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Kobold Miner"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Wrathtail Razortail"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Thorns"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Blackwood Ursa"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Wildthorn Stalker"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Foulweald Warrior"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["EnergyGainedFrom"] = {
-					},
-					["PartialResist"] = {
-						["Strike"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 5,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 5,
-							["amount"] = 0,
-						},
-						["Mana Burn"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Rend"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Lightning Bolt"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Shadow Bolt"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Pierce Armor"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Knockdown"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Firebolt"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Backstab"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Shock"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Fire Shield Effect II"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Thorns"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["CCBroken"] = {
-					},
-					["ElementDoneBlock"] = {
-						["Melee"] = 0,
-					},
-					["TimeHealing"] = {
-						["Dentrebras"] = {
-							["Details"] = {
-								["Holy Light"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Volcor"] = {
-							["Details"] = {
-								["Judgement of Light"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Nemuritorujr"] = {
-							["Details"] = {
-								["Judgement of Light"] = {
-									["count"] = 0,
-								},
-								["Holy Light"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Flokus"] = {
-							["Details"] = {
-								["Judgement of Light"] = {
-									["count"] = 0,
-								},
-								["Holy Light"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["OverHeals"] = {
-						["Judgement of Light"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Holy Light"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["ManaGainedFrom"] = {
-						["Flokus"] = {
-							["Details"] = {
-								["Restore Mana"] = {
-									["count"] = 0,
-								},
-								["Judgement of Wisdom"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["RunicPowerGained"] = {
-					},
-					["CCBreak"] = 0,
-					["RageGained"] = {
-					},
-					["HealedWho"] = {
-						["Dentrebras"] = {
-							["Details"] = {
-								["Holy Light"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Volcor"] = {
-							["Details"] = {
-								["Judgement of Light"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Nemuritorujr"] = {
-							["Details"] = {
-								["Judgement of Light"] = {
-									["count"] = 0,
-								},
-								["Holy Light"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Flokus"] = {
-							["Details"] = {
-								["Judgement of Light"] = {
-									["count"] = 0,
-								},
-								["Holy Light"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["EnergyGain"] = 0,
-					["ManaGained"] = {
-						["Restore Mana"] = {
-							["Details"] = {
-								["Flokus"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Judgement of Wisdom"] = {
-							["Details"] = {
-								["Flokus"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
-					["Overhealing"] = 0,
-					["TimeSpent"] = {
-						["Lesser Felguard"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Iron Shield Spike"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Judgement of Light"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Nemuritorujr"] = {
-							["Details"] = {
-								["Judgement of Light"] = {
-									["count"] = 0,
-								},
-								["Holy Light"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Kobold Tunneler"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 1.1,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Consecration (DoT)"] = {
-									["count"] = 6.38,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 7.48,
-						},
-						["Rat"] = {
-							["Details"] = {
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Ashenvale Bear"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Narg the Taskmaster"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Imp Minion"] = {
-							["Details"] = {
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Kobold Miner"] = {
-							["Details"] = {
-								["Consecration (DoT)"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Iron Shield Spike"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Defias Cutpurse"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Goldtooth"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Wild Buck"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Ghostpaw Runner"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Iron Shield Spike"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Carnivous the Breaker"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Saltspittle Oracle"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Judgement of Light"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Blackwood Shaman"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Iron Shield Spike"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Foulweald Totemic"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Dark Strand Cultist"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Judgement of Light"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Wrathtail Wave Rider"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Iron Shield Spike"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Blackwood Ursa"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Iron Shield Spike"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Dentrebras"] = {
-							["Details"] = {
-								["Holy Light"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Succubus Minion"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Flokus"] = {
-							["Details"] = {
-								["Judgement of Light"] = {
-									["count"] = 0,
-								},
-								["Holy Light"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Wrathtail Priestess"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Wrathtail Myrmidon"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Wrathtail Sorceress"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Felslayer"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Foulweald Shaman"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Iron Shield Spike"] = {
-									["count"] = 0,
-								},
-								["Judgement of Light"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Wrathtail Razortail"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Volcor"] = {
-							["Details"] = {
-								["Judgement of Light"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Wildthorn Stalker"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Foulweald Warrior"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Judgement of Light"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["WhoDispelled"] = {
-					},
-					["InterruptData"] = {
-						["Wrathtail Sorceress"] = {
-							["Details"] = {
-								["Frostbolt (Interrupt)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Dark Strand Cultist"] = {
-							["Details"] = {
-								["Shadow Bolt (Interrupt)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Blackwood Shaman"] = {
-							["Details"] = {
-								["Healing Wave (Interrupt)"] = {
-									["count"] = 0,
-								},
-								["Lightning Bolt (Interrupt)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["RunicPowerGain"] = 0,
-					["Heals"] = {
-						["Judgement of Light"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Holy Light"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["WhoHealed"] = {
-						["Nemuritorujr"] = {
-							["Details"] = {
-								["Renew"] = {
-									["count"] = 0,
-								},
-								["Lesser Heal"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Flokus"] = {
-							["Details"] = {
-								["Judgement of Light"] = {
-									["count"] = 0,
-								},
-								["Holy Light"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["EnergyGained"] = {
-					},
-					["ActiveTime"] = 7.48,
-					["Healing"] = 0,
-					["FDamagedWho"] = {
-					},
-					["Dispelled"] = 0,
-					["Attacks"] = {
-						["Hand of Reckoning"] = {
-							["Details"] = {
-								["Miss"] = {
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Crit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Seal of Righteousness"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 15,
-									["min"] = 0,
-									["count"] = 2,
-									["amount"] = 30,
-								},
-							},
-							["count"] = 2,
-							["amount"] = 30,
-						},
-						["Consecration (DoT)"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 18,
-									["min"] = 0,
-									["count"] = 6,
-									["amount"] = 108,
-								},
-							},
-							["count"] = 6,
-							["amount"] = 108,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["Glancing"] = {
-									["max"] = 202,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 202,
-								},
-								["Dodge"] = {
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Hit (Blocked)"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Miss"] = {
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Crit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Parry"] = {
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 202,
-						},
-						["Iron Shield Spike"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Judgement of Light"] = {
-							["Details"] = {
-								["Miss"] = {
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Judgement of Righteousness"] = {
-							["Details"] = {
-								["Crit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Hit"] = {
-									["max"] = 49,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 49,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 49,
-						},
-					},
-					["HealingTaken"] = 0,
-					["RageGain"] = 0,
-					["TimeDamage"] = 7.48,
-					["TimeDamaging"] = {
-						["Carnivous the Breaker"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Kobold Tunneler"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 1.1,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Consecration (DoT)"] = {
-									["count"] = 6.38,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 7.48,
-						},
-						["Ashenvale Bear"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Narg the Taskmaster"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Imp Minion"] = {
-							["Details"] = {
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Goldtooth"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Wild Buck"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Ghostpaw Runner"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Iron Shield Spike"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Kobold Miner"] = {
-							["Details"] = {
-								["Consecration (DoT)"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Iron Shield Spike"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Saltspittle Oracle"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Judgement of Light"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Blackwood Shaman"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Iron Shield Spike"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Defias Cutpurse"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Dark Strand Cultist"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Judgement of Light"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Wrathtail Wave Rider"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Iron Shield Spike"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Blackwood Ursa"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Iron Shield Spike"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Rat"] = {
-							["Details"] = {
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Succubus Minion"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Wrathtail Priestess"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Foulweald Totemic"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Lesser Felguard"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Iron Shield Spike"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Judgement of Light"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Wrathtail Myrmidon"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Felslayer"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Foulweald Shaman"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Iron Shield Spike"] = {
-									["count"] = 0,
-								},
-								["Judgement of Light"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Wrathtail Razortail"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Wrathtail Sorceress"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Wildthorn Stalker"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Foulweald Warrior"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Judgement of Light"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["ManaGain"] = 0,
-					["HOTs"] = {
-						["Judgement of Light"] = {
-							["Details"] = {
-								["Volcor"] = {
-									["count"] = 0,
-								},
-								["Nemuritorujr"] = {
-									["count"] = 0,
-								},
-								["Flokus"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["DispelledWho"] = {
-					},
-				},
-				["Fight5"] = {
-					["DOTs"] = {
-						["Consecration (DoT)"] = {
-							["Details"] = {
-								["Kobold Miner"] = {
-									["count"] = 0,
-								},
-								["Kobold Tunneler"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["ElementDoneResist"] = {
-						["Holy"] = 0,
-					},
-					["Ressed"] = 0,
-					["DamageTaken"] = 1,
-					["RageGainedFrom"] = {
-					},
-					["ElementHitsTaken"] = {
-						["Physical"] = {
-							["Details"] = {
-								["Miss"] = {
-									["count"] = 0,
-								},
-								["Absorb"] = {
-									["count"] = 0,
-								},
-								["Hit"] = {
-									["count"] = 0,
-								},
-								["Tick"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Shadow"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["Crushing"] = {
-									["count"] = 0,
-								},
-								["Absorb"] = {
-									["count"] = 0,
-								},
-								["Miss"] = {
-									["count"] = 0,
-								},
-								["Hit"] = {
-									["count"] = 1,
-								},
-								["Dodge"] = {
-									["count"] = 1,
-								},
-								["Block"] = {
-									["count"] = 0,
-								},
-								["Crit"] = {
-									["count"] = 0,
-								},
-								["Parry"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 2,
-						},
-						["Fire"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["DeathCount"] = 0,
-					["HOT_Time"] = 0,
-					["ElementHitsDone"] = {
-						["Holy"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 2,
-								},
-								["Tick"] = {
-									["count"] = 0,
-								},
-								["Miss"] = {
-									["count"] = 0,
-								},
-								["Crit"] = {
-									["count"] = 0,
-								},
-								["Evade"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 2,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["Glancing"] = {
-									["count"] = 1,
-								},
-								["Hit"] = {
-									["count"] = 1,
-								},
-								["Dodge"] = {
-									["count"] = 0,
-								},
-								["Miss"] = {
-									["count"] = 0,
-								},
-								["Crit"] = {
-									["count"] = 0,
-								},
-								["Parry"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 2,
-						},
-						["Physical"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["ElementTakenAbsorb"] = {
-						["Melee"] = 0,
-						["Physical"] = 0,
-					},
-					["ElementTaken"] = {
-						["Physical"] = 0,
-						["Shadow"] = 0,
-						["Melee"] = 1,
-						["Fire"] = 0,
-					},
-					["DOT_Time"] = 0,
-					["Damage"] = 325,
-					["ElementTakenBlock"] = {
-						["Melee"] = 0,
-					},
-					["TimeHeal"] = 0,
-					["RessedWho"] = {
-					},
-					["Dispels"] = 0,
-					["ElementTakenResist"] = {
-					},
-					["ElementDoneAbsorb"] = {
-					},
-					["FAttacks"] = {
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementDone"] = {
-						["Holy"] = 30,
-						["Melee"] = 295,
-						["Physical"] = 0,
-					},
-					["PartialAbsorb"] = {
-						["Strike"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Fire Shield Effect II"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Mana Burn"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Rend"] = {
-							["Details"] = {
-								["Absorbed"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Shadow Bolt"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Shoot"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Absorbed"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Rend (DoT)"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Firebolt"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Pierce Armor"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 2,
-									["amount"] = 0,
-								},
-								["Absorbed"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 2,
-							["amount"] = 0,
-						},
-						["Attack"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["DamagedWho"] = {
-						["Mist Howler"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Wrathtail Priestess"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Iron Shield Spike"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Kobold Tunneler"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Exorcism"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 30,
-								},
-								["Consecration (DoT)"] = {
-									["count"] = 0,
-								},
-								["Iron Shield Spike"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 295,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 325,
-						},
-						["Searing Totem II"] = {
-							["Details"] = {
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Goldtooth"] = {
-							["Details"] = {
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Wild Buck"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Iron Shield Spike"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Ghostpaw Runner"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Wrathtail Myrmidon"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Mangy Wolf"] = {
-							["Details"] = {
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Dark Strand Cultist"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Wrathtail Wave Rider"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Blackwood Ursa"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Foulweald Pathfinder"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Iron Shield Spike"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Defias Cutpurse"] = {
-							["Details"] = {
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Wrathtail Sorceress"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Foulweald Warrior"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Thistlefur Avenger"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Lesser Felguard"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Saltspittle Warrior"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Rat"] = {
-							["Details"] = {
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Kobold Miner"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Iron Shield Spike"] = {
-									["count"] = 0,
-								},
-								["Consecration (DoT)"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Felslayer"] = {
-							["Details"] = {
-								["Iron Shield Spike"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Wildthorn Stalker"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Iron Shield Spike"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Foulweald Totemic"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["PartialBlock"] = {
-						["Melee"] = {
-							["Details"] = {
-								["Blocked"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["WhoDamaged"] = {
-						["Wrathtail Myrmidon"] = {
-							["Details"] = {
-								["Strike"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Rend (DoT)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Kobold Tunneler"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 1,
-								},
-							},
-							["amount"] = 1,
-						},
-						["Searing Totem II"] = {
-							["Details"] = {
-								["Attack"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Imp Minion"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Firebolt"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Goldtooth"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Wild Buck"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Ghostpaw Runner"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Dark Strand Cultist"] = {
-							["Details"] = {
-								["Shadow Bolt"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Wrathtail Wave Rider"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Blackwood Ursa"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Foulweald Pathfinder"] = {
-							["Details"] = {
-								["Shoot"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Thistlefur Avenger"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Lesser Felguard"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Fire Shield Effect II"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Saltspittle Warrior"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Foulweald Warrior"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Kobold Miner"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Felslayer"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Mana Burn"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Wildthorn Stalker"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Foulweald Totemic"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["EnergyGainedFrom"] = {
-					},
-					["PartialResist"] = {
-						["Strike"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Fire Shield Effect II"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Mana Burn"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Rend"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Shadow Bolt"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Shoot"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Rend (DoT)"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Firebolt"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Pierce Armor"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 2,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 2,
-							["amount"] = 0,
-						},
-						["Attack"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["CCBroken"] = {
-					},
-					["ElementDoneBlock"] = {
-						["Melee"] = 0,
-					},
-					["TimeHealing"] = {
-						["Nemuritorujr"] = {
-							["Details"] = {
-								["Judgement of Light"] = {
-									["count"] = 0,
-								},
-								["Holy Light"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Flokus"] = {
-							["Details"] = {
-								["Judgement of Light"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["OverHeals"] = {
-						["Holy Light"] = {
-							["Details"] = {
-								["Crit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Judgement of Light"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Holy Strength"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["ManaGainedFrom"] = {
-						["Flokus"] = {
-							["Details"] = {
-								["Judgement of Wisdom"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["RunicPowerGained"] = {
-					},
-					["CCBreak"] = 0,
-					["RageGained"] = {
-					},
-					["HealedWho"] = {
-						["Nemuritorujr"] = {
-							["Details"] = {
-								["Judgement of Light"] = {
-									["count"] = 0,
-								},
-								["Holy Light"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Flokus"] = {
-							["Details"] = {
-								["Judgement of Light"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["EnergyGain"] = 0,
-					["ManaGained"] = {
-						["Judgement of Wisdom"] = {
-							["Details"] = {
-								["Flokus"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
-					["Overhealing"] = 0,
-					["TimeSpent"] = {
-						["Mist Howler"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Lesser Felguard"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Nemuritorujr"] = {
-							["Details"] = {
-								["Judgement of Light"] = {
-									["count"] = 0,
-								},
-								["Holy Light"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Kobold Tunneler"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Exorcism"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 3.62,
-								},
-								["Consecration (DoT)"] = {
-									["count"] = 0,
-								},
-								["Iron Shield Spike"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 3.62,
-						},
-						["Searing Totem II"] = {
-							["Details"] = {
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Goldtooth"] = {
-							["Details"] = {
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Wild Buck"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Iron Shield Spike"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Ghostpaw Runner"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Wrathtail Myrmidon"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Defias Cutpurse"] = {
-							["Details"] = {
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Mangy Wolf"] = {
-							["Details"] = {
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Dark Strand Cultist"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Hammer of Justice"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Wrathtail Wave Rider"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Blackwood Ursa"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Foulweald Pathfinder"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Iron Shield Spike"] = {
-									["count"] = 0,
-								},
-								["Hammer of Justice"] = {
-									["count"] = 0,
-								},
-								["Judgement of Light"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Wrathtail Sorceress"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Foulweald Warrior"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Saltspittle Warrior"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Thistlefur Avenger"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Judgement of Light"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Flokus"] = {
-							["Details"] = {
-								["Judgement of Light"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Felslayer"] = {
-							["Details"] = {
-								["Iron Shield Spike"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Rat"] = {
-							["Details"] = {
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Kobold Miner"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Iron Shield Spike"] = {
-									["count"] = 0,
-								},
-								["Consecration (DoT)"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Wrathtail Priestess"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Iron Shield Spike"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Wildthorn Stalker"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Iron Shield Spike"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Foulweald Totemic"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Hammer of Justice"] = {
-									["count"] = 0,
-								},
-								["Judgement of Light"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["WhoDispelled"] = {
-					},
-					["InterruptData"] = {
-						["Dark Strand Cultist"] = {
-							["Details"] = {
-								["Shadow Bolt (Interrupt)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["RunicPowerGain"] = 0,
-					["Heals"] = {
-						["Judgement of Light"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Holy Light"] = {
-							["Details"] = {
-								["Crit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["WhoHealed"] = {
-						["Nemuritorujr"] = {
-							["Details"] = {
-								["Renew"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Flokus"] = {
-							["Details"] = {
-								["Judgement of Light"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["EnergyGained"] = {
-					},
-					["ActiveTime"] = 3.62,
-					["Healing"] = 0,
-					["FDamagedWho"] = {
-					},
-					["Dispelled"] = 0,
-					["Attacks"] = {
-						["Consecration (DoT)"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Exorcism"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Iron Shield Spike"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Judgement of Light"] = {
-							["Details"] = {
-								["Miss"] = {
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Hand of Reckoning"] = {
-							["Details"] = {
-								["Evade"] = {
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Miss"] = {
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Crit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Hammer of Justice"] = {
-							["Details"] = {
-								["Miss"] = {
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Seal of Righteousness"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 15,
-									["min"] = 0,
-									["count"] = 2,
-									["amount"] = 30,
-								},
-							},
-							["count"] = 2,
-							["amount"] = 30,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["Glancing"] = {
-									["max"] = 217,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 217,
-								},
-								["Dodge"] = {
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Hit"] = {
-									["max"] = 78,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 78,
-								},
-								["Hit (Blocked)"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Miss"] = {
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Crit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Parry"] = {
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 2,
-							["amount"] = 295,
-						},
-						["Judgement of Righteousness"] = {
-							["Details"] = {
-								["Crit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["HealingTaken"] = 0,
-					["RageGain"] = 0,
-					["TimeDamage"] = 3.62,
-					["TimeDamaging"] = {
-						["Mist Howler"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Wrathtail Priestess"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Iron Shield Spike"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Kobold Tunneler"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Exorcism"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 3.62,
-								},
-								["Consecration (DoT)"] = {
-									["count"] = 0,
-								},
-								["Iron Shield Spike"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 3.62,
-						},
-						["Searing Totem II"] = {
-							["Details"] = {
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Goldtooth"] = {
-							["Details"] = {
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Wild Buck"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Iron Shield Spike"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Ghostpaw Runner"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Wrathtail Myrmidon"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Mangy Wolf"] = {
-							["Details"] = {
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Dark Strand Cultist"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Hammer of Justice"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Wrathtail Wave Rider"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Blackwood Ursa"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Foulweald Pathfinder"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Iron Shield Spike"] = {
-									["count"] = 0,
-								},
-								["Hammer of Justice"] = {
-									["count"] = 0,
-								},
-								["Judgement of Light"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Defias Cutpurse"] = {
-							["Details"] = {
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Wrathtail Sorceress"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Foulweald Warrior"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Thistlefur Avenger"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Judgement of Light"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Lesser Felguard"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Saltspittle Warrior"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Rat"] = {
-							["Details"] = {
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Kobold Miner"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Iron Shield Spike"] = {
-									["count"] = 0,
-								},
-								["Consecration (DoT)"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Felslayer"] = {
-							["Details"] = {
-								["Iron Shield Spike"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Wildthorn Stalker"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Iron Shield Spike"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Foulweald Totemic"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Hammer of Justice"] = {
-									["count"] = 0,
-								},
-								["Judgement of Light"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["ManaGain"] = 0,
-					["HOTs"] = {
-						["Judgement of Light"] = {
-							["Details"] = {
-								["Nemuritorujr"] = {
-									["count"] = 0,
-								},
-								["Flokus"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["DispelledWho"] = {
-					},
-				},
-				["CurrentFightData"] = {
-					["DOTs"] = {
-					},
-					["ElementDoneResist"] = {
-						["Holy"] = 0,
-					},
-					["Ressed"] = 0,
-					["DamageTaken"] = 0,
-					["RageGainedFrom"] = {
-					},
-					["ElementHitsTaken"] = {
-						["Physical"] = {
-							["Details"] = {
-								["Tick"] = {
-									["count"] = 0,
-								},
-								["Miss"] = {
-									["count"] = 0,
-								},
-								["Hit"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["Miss"] = {
-									["count"] = 0,
-								},
-								["Absorb"] = {
-									["count"] = 0,
-								},
-								["Dodge"] = {
-									["count"] = 0,
-								},
-								["Hit"] = {
-									["count"] = 0,
-								},
-								["Crushing"] = {
-									["count"] = 0,
-								},
-								["Block"] = {
-									["count"] = 0,
-								},
-								["Crit"] = {
-									["count"] = 0,
-								},
-								["Parry"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Frost"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Fire"] = {
-							["Details"] = {
-								["Absorb"] = {
-									["count"] = 0,
-								},
-								["Hit"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Shadow"] = {
-							["Details"] = {
-								["Absorb"] = {
-									["count"] = 0,
-								},
-								["Hit"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Nature"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["DeathCount"] = 0,
-					["HOT_Time"] = 0,
-					["ElementHitsDone"] = {
-						["Holy"] = {
-							["Details"] = {
-								["Evade"] = {
-									["count"] = 0,
-								},
-								["Miss"] = {
-									["count"] = 0,
-								},
-								["Crit"] = {
-									["count"] = 0,
-								},
-								["Hit"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["Glancing"] = {
-									["count"] = 0,
-								},
-								["Hit"] = {
-									["count"] = 0,
-								},
-								["Dodge"] = {
-									["count"] = 0,
-								},
-								["Miss"] = {
-									["count"] = 0,
-								},
-								["Crit"] = {
-									["count"] = 0,
-								},
-								["Parry"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Physical"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["ElementTakenAbsorb"] = {
-						["Shadow"] = 0,
-						["Melee"] = 0,
-						["Fire"] = 0,
-					},
-					["ElementTaken"] = {
-						["Physical"] = 0,
-						["Melee"] = 0,
-						["Frost"] = 0,
-						["Fire"] = 0,
-						["Shadow"] = 0,
-						["Nature"] = 0,
-					},
-					["DOT_Time"] = 0,
-					["Damage"] = 0,
-					["ElementTakenBlock"] = {
-						["Melee"] = 0,
-					},
-					["TimeHeal"] = 0,
-					["RessedWho"] = {
-					},
-					["Dispels"] = 0,
-					["ElementTakenResist"] = {
-					},
-					["ElementDoneAbsorb"] = {
-					},
-					["FAttacks"] = {
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementDone"] = {
-						["Holy"] = 0,
-						["Melee"] = 0,
-						["Physical"] = 0,
-					},
-					["PartialAbsorb"] = {
-						["Fire Shield Effect II"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Mana Burn"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Absorbed"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Disarm"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Frostbolt"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Lightning Bolt"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Falling"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Rend (DoT)"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Shock"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Attack"] = {
-							["Details"] = {
-								["Absorbed"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Absorbed"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Thorns"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["DamagedWho"] = {
-						["Wrathtail Priestess"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Kobold Tunneler"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Iron Shield Spike"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Forest Spider"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Searing Totem II"] = {
-							["Details"] = {
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Moonstalker"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Foulweald Den Watcher"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Goldtooth"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Wild Buck"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Ghostpaw Runner"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Defias Bandit"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Blackwood Shaman"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Mangy Wolf"] = {
-							["Details"] = {
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Kobold Miner"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Iron Shield Spike"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Wrathtail Wave Rider"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Blackwood Ursa"] = {
-							["Details"] = {
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Lesser Felguard"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Iron Shield Spike"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Ashenvale Bear"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Foulweald Totemic"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Wrathtail Sorceress"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Saltspittle Puddlejumper"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Twilight Thug"] = {
-							["Details"] = {
-								["Iron Shield Spike"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Felslayer"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Iron Shield Spike"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Rat"] = {
-							["Details"] = {
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Wrathtail Razortail"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Spined Crawler"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Wildthorn Stalker"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Foulweald Warrior"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Iron Shield Spike"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["PartialBlock"] = {
-						["Melee"] = {
-							["Details"] = {
-								["Blocked"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["WhoDamaged"] = {
-						["Mist Howler"] = {
-							["Details"] = {
-								["Rend (DoT)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Wrathtail Myrmidon"] = {
-							["Details"] = {
-								["Rend (DoT)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Kobold Tunneler"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Moonstalker"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Foulweald Den Watcher"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Goldtooth"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Wild Buck"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Ghostpaw Runner"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Blackwood Shaman"] = {
-							["Details"] = {
-								["Lightning Bolt"] = {
-									["count"] = 0,
-								},
-								["Shock"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Mangy Wolf"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Wrathtail Wave Rider"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Blackwood Ursa"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Kobold Miner"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Foulweald Totemic"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Wrathtail Sorceress"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Frostbolt"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Lesser Felguard"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Fire Shield Effect II"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Twilight Thug"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Felslayer"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Mana Burn"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Environment"] = {
-							["Details"] = {
-								["Falling"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Wrathtail Razortail"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Thorns"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Wrathtail Priestess"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Spined Crawler"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Foulweald Warrior"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["EnergyGainedFrom"] = {
-					},
-					["PartialResist"] = {
-						["Fire Shield Effect II"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Mana Burn"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Disarm"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Frostbolt"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Lightning Bolt"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Falling"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Rend (DoT)"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Shock"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Attack"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Thorns"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["CCBroken"] = {
-					},
-					["ElementDoneBlock"] = {
-						["Melee"] = 0,
-					},
-					["TimeHealing"] = {
-						["Nemuritorujr"] = {
-							["Details"] = {
-								["Judgement of Light"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Flokus"] = {
-							["Details"] = {
-								["Judgement of Light"] = {
-									["count"] = 0,
-								},
-								["Holy Light"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["OverHeals"] = {
-						["Judgement of Light"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["ManaGainedFrom"] = {
-						["Flokus"] = {
-							["Details"] = {
-								["Judgement of Wisdom"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["RunicPowerGained"] = {
-					},
-					["CCBreak"] = 0,
-					["RageGained"] = {
-					},
-					["HealedWho"] = {
-						["Nemuritorujr"] = {
-							["Details"] = {
-								["Judgement of Light"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Flokus"] = {
-							["Details"] = {
-								["Judgement of Light"] = {
-									["count"] = 0,
-								},
-								["Holy Light"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["EnergyGain"] = 0,
-					["ManaGained"] = {
-						["Judgement of Wisdom"] = {
-							["Details"] = {
-								["Flokus"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
-					["Overhealing"] = 0,
-					["TimeSpent"] = {
-						["Lesser Felguard"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Iron Shield Spike"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Nemuritorujr"] = {
-							["Details"] = {
-								["Judgement of Light"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Kobold Tunneler"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Iron Shield Spike"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Forest Spider"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Searing Totem II"] = {
-							["Details"] = {
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Moonstalker"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Foulweald Den Watcher"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Goldtooth"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Wild Buck"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Judgement of Light"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Ghostpaw Runner"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Judgement of Light"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Defias Bandit"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Kobold Miner"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Iron Shield Spike"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Blackwood Shaman"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Mangy Wolf"] = {
-							["Details"] = {
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Spined Crawler"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Wrathtail Wave Rider"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Judgement of Light"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Blackwood Ursa"] = {
-							["Details"] = {
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Ashenvale Bear"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Foulweald Totemic"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Hammer of Justice"] = {
-									["count"] = 0,
-								},
-								["Judgement of Light"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Wrathtail Sorceress"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Wrathtail Priestess"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Saltspittle Puddlejumper"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Twilight Thug"] = {
-							["Details"] = {
-								["Iron Shield Spike"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Felslayer"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Iron Shield Spike"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Rat"] = {
-							["Details"] = {
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Wrathtail Razortail"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Flokus"] = {
-							["Details"] = {
-								["Judgement of Light"] = {
-									["count"] = 0,
-								},
-								["Holy Light"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Wildthorn Stalker"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Foulweald Warrior"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Iron Shield Spike"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Hammer of Justice"] = {
-									["count"] = 0,
-								},
-								["Judgement of Light"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["WhoDispelled"] = {
-						["Flokus"] = {
-							["Details"] = {
-								["Corrupted Strength (Purify)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["InterruptData"] = {
-						["Wrathtail Sorceress"] = {
-							["Details"] = {
-								["Frostbolt (Interrupt)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["RunicPowerGain"] = 0,
-					["Heals"] = {
-						["Judgement of Light"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Holy Light"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["WhoHealed"] = {
-						["Nemuritorujr"] = {
-							["Details"] = {
-								["Renew"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Flokus"] = {
-							["Details"] = {
-								["Judgement of Light"] = {
-									["count"] = 0,
-								},
-								["Holy Light"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["EnergyGained"] = {
-					},
-					["ActiveTime"] = 0,
-					["Healing"] = 0,
-					["FDamagedWho"] = {
-					},
-					["Dispelled"] = 0,
-					["Attacks"] = {
-						["Hand of Reckoning"] = {
-							["Details"] = {
-								["Miss"] = {
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Crit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Seal of Righteousness"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Hammer of Justice"] = {
-							["Details"] = {
-								["Miss"] = {
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["Glancing"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Dodge"] = {
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Hit (Blocked)"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Miss"] = {
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Crit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Parry"] = {
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Iron Shield Spike"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Judgement of Light"] = {
-							["Details"] = {
-								["Evade"] = {
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Miss"] = {
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Judgement of Righteousness"] = {
-							["Details"] = {
-								["Crit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["HealingTaken"] = 0,
-					["RageGain"] = 0,
-					["TimeDamage"] = 0,
-					["TimeDamaging"] = {
-						["Wrathtail Priestess"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Kobold Tunneler"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Iron Shield Spike"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Forest Spider"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Searing Totem II"] = {
-							["Details"] = {
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Moonstalker"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Foulweald Den Watcher"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Goldtooth"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Wild Buck"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Judgement of Light"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Ghostpaw Runner"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Judgement of Light"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Defias Bandit"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Blackwood Shaman"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Mangy Wolf"] = {
-							["Details"] = {
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Kobold Miner"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Iron Shield Spike"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Wrathtail Wave Rider"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Judgement of Light"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Blackwood Ursa"] = {
-							["Details"] = {
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Lesser Felguard"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Iron Shield Spike"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Ashenvale Bear"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Foulweald Totemic"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Hammer of Justice"] = {
-									["count"] = 0,
-								},
-								["Judgement of Light"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Wrathtail Sorceress"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Saltspittle Puddlejumper"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Twilight Thug"] = {
-							["Details"] = {
-								["Iron Shield Spike"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Felslayer"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Iron Shield Spike"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Rat"] = {
-							["Details"] = {
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Wrathtail Razortail"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Spined Crawler"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Wildthorn Stalker"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Foulweald Warrior"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Iron Shield Spike"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Hammer of Justice"] = {
-									["count"] = 0,
-								},
-								["Judgement of Light"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["ManaGain"] = 0,
-					["HOTs"] = {
-						["Judgement of Light"] = {
-							["Details"] = {
-								["Nemuritorujr"] = {
-									["count"] = 0,
-								},
-								["Flokus"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["DispelledWho"] = {
-						["Flokus"] = {
-							["Details"] = {
-								["Corrupted Strength (Purify)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-				},
-				["Fight3"] = {
-					["DOTs"] = {
-						["Consecration (DoT)"] = {
-							["Details"] = {
-								["Kobold Miner"] = {
-									["count"] = 87,
-								},
-								["Kobold Tunneler"] = {
-									["count"] = 18,
-								},
-							},
-							["amount"] = 105,
-						},
-					},
-					["ElementDoneResist"] = {
-						["Holy"] = 0,
-					},
-					["Ressed"] = 0,
-					["DamageTaken"] = 50,
-					["RageGainedFrom"] = {
-					},
-					["ElementHitsTaken"] = {
-						["Shadow"] = {
-							["Details"] = {
-								["Absorb"] = {
-									["count"] = 0,
-								},
-								["Hit"] = {
-									["count"] = 0,
-								},
-								["Tick"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["Miss"] = {
-									["count"] = 2,
-								},
-								["Absorb"] = {
-									["count"] = 0,
-								},
-								["Crushing"] = {
-									["count"] = 0,
-								},
-								["Hit"] = {
-									["count"] = 20,
-								},
-								["Dodge"] = {
-									["count"] = 2,
-								},
-								["Block"] = {
-									["count"] = 1,
-								},
-								["Crit"] = {
-									["count"] = 0,
-								},
-								["Parry"] = {
-									["count"] = 2,
-								},
-							},
-							["amount"] = 27,
-						},
-						["Arcane"] = {
-							["Details"] = {
-								["Crit"] = {
-									["count"] = 0,
-								},
-								["Hit"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Fire"] = {
-							["Details"] = {
-								["Absorb"] = {
-									["count"] = 0,
-								},
-								["Hit"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Physical"] = {
-							["Details"] = {
-								["Dodge"] = {
-									["count"] = 1,
-								},
-								["Hit"] = {
-									["count"] = 0,
-								},
-								["Miss"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 1,
-						},
-						["Nature"] = {
-							["Details"] = {
-								["Absorb"] = {
-									["count"] = 0,
-								},
-								["Hit"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["DeathCount"] = 0,
-					["HOT_Time"] = 0,
-					["ElementHitsDone"] = {
-						["Holy"] = {
-							["Details"] = {
-								["Absorb"] = {
-									["count"] = 0,
-								},
-								["Hit"] = {
-									["count"] = 0,
-								},
-								["Tick"] = {
-									["count"] = 35,
-								},
-								["Crit"] = {
-									["count"] = 0,
-								},
-								["Miss"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 35,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["Glancing"] = {
-									["count"] = 0,
-								},
-								["Absorb"] = {
-									["count"] = 0,
-								},
-								["Hit"] = {
-									["count"] = 0,
-								},
-								["Miss"] = {
-									["count"] = 0,
-								},
-								["Dodge"] = {
-									["count"] = 0,
-								},
-								["Crit"] = {
-									["count"] = 0,
-								},
-								["Parry"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Physical"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 1,
-								},
-							},
-							["amount"] = 1,
-						},
-					},
-					["ElementTakenAbsorb"] = {
-						["Fire"] = 0,
-						["Shadow"] = 0,
-						["Melee"] = 0,
-						["Nature"] = 0,
-					},
-					["ElementTaken"] = {
-						["Shadow"] = 0,
-						["Melee"] = 50,
-						["Arcane"] = 0,
-						["Fire"] = 0,
-						["Physical"] = 0,
-						["Nature"] = 0,
-					},
-					["DOT_Time"] = 105,
-					["Damage"] = 639,
-					["ElementTakenBlock"] = {
-						["Melee"] = 4,
-					},
-					["TimeHeal"] = 0,
-					["RessedWho"] = {
-					},
-					["Dispels"] = 0,
-					["ElementTakenResist"] = {
-					},
-					["ElementDoneAbsorb"] = {
-						["Melee"] = 0,
-						["Holy"] = 0,
-					},
-					["FAttacks"] = {
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementDone"] = {
-						["Holy"] = 630,
-						["Melee"] = 0,
-						["Physical"] = 9,
-					},
-					["PartialAbsorb"] = {
-						["Strike"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 27,
-									["amount"] = 0,
-								},
-								["Absorbed"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 27,
-							["amount"] = 0,
-						},
-						["Mana Burn"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Absorbed"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Pierce Armor"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 0,
-						},
-						["Drain Soul"] = {
-							["Details"] = {
-								["Absorbed"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Lightning Bolt"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Absorbed"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Fire Shield Effect II"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Absorbed"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Mind Blast"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Venom Spit"] = {
-							["Details"] = {
-								["Absorbed"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Knockdown"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Shock"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Absorbed"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Shadow Word: Pain (DoT)"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Drain Soul (DoT)"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Absorbed"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Shoot"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Attack"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["DamagedWho"] = {
-						["Wrathtail Myrmidon"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Nemuritorujr"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Kobold Tunneler"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Consecration (DoT)"] = {
-									["count"] = 108,
-								},
-								["Iron Shield Spike"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 108,
-						},
-						["Searing Totem II"] = {
-							["Details"] = {
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Wild Buck"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Wrathtail Sorceress"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Saltspittle Oracle"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Blackwood Shaman"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Blackwood Ursa"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Dark Strand Assassin"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Blackwood Warrior"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Lesser Felguard"] = {
-							["Details"] = {
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Ashenvale Bear"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Mystlash Hydra"] = {
-							["Details"] = {
-								["Iron Shield Spike"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Foulweald Warrior"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Iron Shield Spike"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Saltspittle Warrior"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Wrathtail Wave Rider"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Felslayer"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Rat"] = {
-							["Details"] = {
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Kobold Miner"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Consecration (DoT)"] = {
-									["count"] = 522,
-								},
-								["Iron Shield Spike"] = {
-									["count"] = 9,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 531,
-						},
-						["Wrathtail Priestess"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Wildthorn Stalker"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Foulweald Totemic"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Iron Shield Spike"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["PartialBlock"] = {
-						["Melee"] = {
-							["Details"] = {
-								["Blocked"] = {
-									["max"] = 4,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 4,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 4,
-						},
-					},
-					["WhoDamaged"] = {
-						["Lesser Felguard"] = {
-							["Details"] = {
-								["Knockdown"] = {
-									["count"] = 0,
-								},
-								["Fire Shield Effect II"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Nemuritorujr"] = {
-							["Details"] = {
-								["Mind Blast"] = {
-									["count"] = 0,
-								},
-								["Shoot"] = {
-									["count"] = 0,
-								},
-								["Shadow Word: Pain (DoT)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Kobold Tunneler"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 2,
-								},
-							},
-							["amount"] = 2,
-						},
-						["Searing Totem II"] = {
-							["Details"] = {
-								["Attack"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Saltspittle Oracle"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Shock"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Blackwood Shaman"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Lightning Bolt"] = {
-									["count"] = 0,
-								},
-								["Shock"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Dark Strand Assassin"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Drain Soul (DoT)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Blackwood Warrior"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Mystlash Hydra"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Blackwood Ursa"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Ashenvale Bear"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Felslayer"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Mana Burn"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Foulweald Warrior"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Kobold Miner"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 48,
-								},
-							},
-							["amount"] = 48,
-						},
-						["Saltspittle Warrior"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Wildthorn Stalker"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Foulweald Totemic"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["EnergyGainedFrom"] = {
-					},
-					["PartialResist"] = {
-						["Strike"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 27,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 27,
-							["amount"] = 0,
-						},
-						["Mana Burn"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Pierce Armor"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 0,
-						},
-						["Drain Soul"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Lightning Bolt"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Fire Shield Effect II"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Mind Blast"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Venom Spit"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Knockdown"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Shock"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Shadow Word: Pain (DoT)"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Drain Soul (DoT)"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Shoot"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Attack"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["CCBroken"] = {
-					},
-					["ElementDoneBlock"] = {
-						["Melee"] = 0,
-					},
-					["TimeHealing"] = {
-						["Nemuritorujr"] = {
-							["Details"] = {
-								["Judgement of Light"] = {
-									["count"] = 0,
-								},
-								["Holy Light"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Flokus"] = {
-							["Details"] = {
-								["Healing Potion"] = {
-									["count"] = 0,
-								},
-								["Holy Light"] = {
-									["count"] = 0,
-								},
-								["Judgement of Light"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["OverHeals"] = {
-						["Healing Potion"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Holy Light"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Judgement of Light"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["ManaGainedFrom"] = {
-						["Flokus"] = {
-							["Details"] = {
-								["Judgement of Wisdom"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["RunicPowerGained"] = {
-					},
-					["CCBreak"] = 0,
-					["RageGained"] = {
-					},
-					["HealedWho"] = {
-						["Nemuritorujr"] = {
-							["Details"] = {
-								["Judgement of Light"] = {
-									["count"] = 0,
-								},
-								["Holy Light"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Flokus"] = {
-							["Details"] = {
-								["Healing Potion"] = {
-									["count"] = 0,
-								},
-								["Holy Light"] = {
-									["count"] = 0,
-								},
-								["Judgement of Light"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["EnergyGain"] = 0,
-					["ManaGained"] = {
-						["Judgement of Wisdom"] = {
-							["Details"] = {
-								["Flokus"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
-					["Overhealing"] = 0,
-					["TimeSpent"] = {
-						["Wrathtail Priestess"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Nemuritorujr"] = {
-							["Details"] = {
-								["Holy Light"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Judgement of Light"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Kobold Tunneler"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Consecration (DoT)"] = {
-									["count"] = 0,
-								},
-								["Iron Shield Spike"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Searing Totem II"] = {
-							["Details"] = {
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Wild Buck"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Wrathtail Sorceress"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Blackwood Warrior"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Saltspittle Oracle"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Judgement of Light"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Blackwood Shaman"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Expert's Training Dummy"] = {
-							["Details"] = {
-								["Consecration"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Judgement of Wisdom"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Lesser Felguard"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Dark Strand Assassin"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Flokus"] = {
-							["Details"] = {
-								["Healing Potion"] = {
-									["count"] = 0,
-								},
-								["Holy Light"] = {
-									["count"] = 0,
-								},
-								["Judgement of Light"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Ashenvale Bear"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Judgement of Light"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Foulweald Warrior"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Iron Shield Spike"] = {
-									["count"] = 0,
-								},
-								["Judgement of Light"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Mystlash Hydra"] = {
-							["Details"] = {
-								["Iron Shield Spike"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Saltspittle Warrior"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Wrathtail Wave Rider"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Blackwood Ursa"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Felslayer"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Rat"] = {
-							["Details"] = {
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Kobold Miner"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Consecration (DoT)"] = {
-									["count"] = 10.43,
-								},
-								["Iron Shield Spike"] = {
-									["count"] = 3.5,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 13.93,
-						},
-						["Wrathtail Myrmidon"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Wildthorn Stalker"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Foulweald Totemic"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Iron Shield Spike"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["WhoDispelled"] = {
-						["Flokus"] = {
-							["Details"] = {
-								["Venom Spit (Purify)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["InterruptData"] = {
-						["Dark Strand Assassin"] = {
-							["Details"] = {
-								["Drain Soul (Interrupt)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Wrathtail Sorceress"] = {
-							["Details"] = {
-								["Frostbolt (Interrupt)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["RunicPowerGain"] = 0,
-					["Heals"] = {
-						["Healing Potion"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Holy Light"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Judgement of Light"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["WhoHealed"] = {
-						["Nemuritorujr"] = {
-							["Details"] = {
-								["Renew"] = {
-									["count"] = 0,
-								},
-								["Lesser Heal"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Flokus"] = {
-							["Details"] = {
-								["Healing Potion"] = {
-									["count"] = 0,
-								},
-								["Holy Light"] = {
-									["count"] = 0,
-								},
-								["Judgement of Light"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["EnergyGained"] = {
-					},
-					["ActiveTime"] = 13.93,
-					["Healing"] = 0,
-					["FDamagedWho"] = {
-					},
-					["Dispelled"] = 0,
-					["Attacks"] = {
-						["Consecration (DoT)"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 18,
-									["min"] = 0,
-									["count"] = 35,
-									["amount"] = 630,
-								},
-							},
-							["count"] = 35,
-							["amount"] = 630,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["Glancing"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Absorb"] = {
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Miss"] = {
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Hit (Blocked)"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Dodge"] = {
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Crit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Parry"] = {
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Judgement of Light"] = {
-							["Details"] = {
-								["Miss"] = {
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Judgement of Wisdom"] = {
-							["Details"] = {
-								["Miss"] = {
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Hand of Reckoning"] = {
-							["Details"] = {
-								["Miss"] = {
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Crit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Consecration"] = {
-							["Details"] = {
-								["Miss"] = {
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Iron Shield Spike"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 9,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 9,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 9,
-						},
-						["Seal of Righteousness"] = {
-							["Details"] = {
-								["Absorb"] = {
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Judgement of Righteousness"] = {
-							["Details"] = {
-								["Absorb"] = {
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Crit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["HealingTaken"] = 0,
-					["RageGain"] = 0,
-					["TimeDamage"] = 13.93,
-					["TimeDamaging"] = {
-						["Wrathtail Myrmidon"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Nemuritorujr"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Kobold Tunneler"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Consecration (DoT)"] = {
-									["count"] = 0,
-								},
-								["Iron Shield Spike"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Searing Totem II"] = {
-							["Details"] = {
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Wild Buck"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Wrathtail Sorceress"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Saltspittle Oracle"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Judgement of Light"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Blackwood Shaman"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Blackwood Ursa"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Expert's Training Dummy"] = {
-							["Details"] = {
-								["Consecration"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Judgement of Wisdom"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Dark Strand Assassin"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Blackwood Warrior"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Lesser Felguard"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Ashenvale Bear"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Judgement of Light"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Mystlash Hydra"] = {
-							["Details"] = {
-								["Iron Shield Spike"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Foulweald Warrior"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Iron Shield Spike"] = {
-									["count"] = 0,
-								},
-								["Judgement of Light"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Saltspittle Warrior"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Wrathtail Wave Rider"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Felslayer"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Rat"] = {
-							["Details"] = {
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Kobold Miner"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Consecration (DoT)"] = {
-									["count"] = 10.43,
-								},
-								["Iron Shield Spike"] = {
-									["count"] = 3.5,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 13.93,
-						},
-						["Wrathtail Priestess"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Wildthorn Stalker"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Foulweald Totemic"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Iron Shield Spike"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["ManaGain"] = 0,
-					["HOTs"] = {
-						["Judgement of Light"] = {
-							["Details"] = {
-								["Nemuritorujr"] = {
-									["count"] = 0,
-								},
-								["Flokus"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["DispelledWho"] = {
-						["Flokus"] = {
-							["Details"] = {
-								["Venom Spit (Purify)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-				},
-				["Fight4"] = {
-					["DOTs"] = {
-						["Consecration (DoT)"] = {
-							["Details"] = {
-								["Kobold Miner"] = {
-									["count"] = 90,
-								},
-								["Kobold Tunneler"] = {
-									["count"] = 36,
-								},
-								["Rat"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 126,
-						},
-					},
-					["ElementDoneResist"] = {
-						["Holy"] = 0,
-					},
-					["Ressed"] = 0,
-					["DamageTaken"] = 51,
-					["RageGainedFrom"] = {
-					},
-					["ElementHitsTaken"] = {
-						["Holy"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["Miss"] = {
-									["count"] = 4,
-								},
-								["Absorb"] = {
-									["count"] = 0,
-								},
-								["Crushing"] = {
-									["count"] = 0,
-								},
-								["Hit"] = {
-									["count"] = 25,
-								},
-								["Dodge"] = {
-									["count"] = 7,
-								},
-								["Block"] = {
-									["count"] = 0,
-								},
-								["Crit"] = {
-									["count"] = 0,
-								},
-								["Parry"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 36,
-						},
-						["Fire"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 0,
-								},
-								["Absorb"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Physical"] = {
-							["Details"] = {
-								["Parry"] = {
-									["count"] = 0,
-								},
-								["Absorb"] = {
-									["count"] = 0,
-								},
-								["Tick"] = {
-									["count"] = 0,
-								},
-								["Hit"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Shadow"] = {
-							["Details"] = {
-								["Absorb"] = {
-									["count"] = 0,
-								},
-								["Tick"] = {
-									["count"] = 0,
-								},
-								["Hit"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["DeathCount"] = 0,
-					["HOT_Time"] = 0,
-					["ElementHitsDone"] = {
-						["Holy"] = {
-							["Details"] = {
-								["Absorb"] = {
-									["count"] = 0,
-								},
-								["Hit"] = {
-									["count"] = 0,
-								},
-								["Tick"] = {
-									["count"] = 42,
-								},
-								["Crit"] = {
-									["count"] = 0,
-								},
-								["Miss"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 42,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["Glancing"] = {
-									["count"] = 0,
-								},
-								["Absorb"] = {
-									["count"] = 0,
-								},
-								["Hit"] = {
-									["count"] = 0,
-								},
-								["Dodge"] = {
-									["count"] = 0,
-								},
-								["Miss"] = {
-									["count"] = 0,
-								},
-								["Crit"] = {
-									["count"] = 0,
-								},
-								["Parry"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Physical"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["ElementTakenAbsorb"] = {
-						["Physical"] = 0,
-						["Shadow"] = 0,
-						["Melee"] = 0,
-						["Fire"] = 0,
-					},
-					["ElementTaken"] = {
-						["Holy"] = 0,
-						["Melee"] = 51,
-						["Fire"] = 0,
-						["Physical"] = 0,
-						["Shadow"] = 0,
-					},
-					["DOT_Time"] = 126,
-					["Damage"] = 756,
-					["ElementTakenBlock"] = {
-						["Melee"] = 0,
-					},
-					["TimeHeal"] = 0,
-					["RessedWho"] = {
-					},
-					["Dispels"] = 0,
-					["ElementTakenResist"] = {
-					},
-					["ElementDoneAbsorb"] = {
-						["Melee"] = 0,
-						["Holy"] = 0,
-					},
-					["FAttacks"] = {
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementDone"] = {
-						["Holy"] = 756,
-						["Melee"] = 0,
-						["Physical"] = 0,
-					},
-					["PartialAbsorb"] = {
-						["Strike"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Fire Shield Effect II"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Absorbed"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Mana Burn"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Shadow Word: Pain"] = {
-							["Details"] = {
-								["Absorbed"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Rend"] = {
-							["Details"] = {
-								["Absorbed"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Mind Blast"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 36,
-									["amount"] = 0,
-								},
-								["Absorbed"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 36,
-							["amount"] = 0,
-						},
-						["Knockdown"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Absorbed"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Smite"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Shadow Word: Pain (DoT)"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Shoot"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Rend (DoT)"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Absorbed"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Attack"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["DamagedWho"] = {
-						["Wrathtail Myrmidon"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Nemuritorujr"] = {
-							["Details"] = {
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Kobold Tunneler"] = {
-							["Details"] = {
-								["Consecration (DoT)"] = {
-									["count"] = 216,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Iron Shield Spike"] = {
-									["count"] = 0,
-								},
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 216,
-						},
-						["Searing Totem II"] = {
-							["Details"] = {
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Goldtooth"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Wild Buck"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Ghostpaw Runner"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Blackwood Ursa"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Blackwood Totemic"] = {
-							["Details"] = {
-								["Iron Shield Spike"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Ashenvale Bear"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Foulweald Totemic"] = {
-							["Details"] = {
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Foulweald Ursa"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Wrathtail Wave Rider"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Blackwood Warrior"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Foulweald Pathfinder"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Saltspittle Warrior"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Grizzled Thistle Bear"] = {
-							["Details"] = {
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Wrathtail Priestess"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Iron Shield Spike"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Saltspittle Puddlejumper"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Lesser Felguard"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Felslayer"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Rat"] = {
-							["Details"] = {
-								["Consecration (DoT)"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Kobold Miner"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Consecration (DoT)"] = {
-									["count"] = 540,
-								},
-								["Iron Shield Spike"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 540,
-						},
-						["Wrathtail Sorceress"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Wildthorn Stalker"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Foulweald Warrior"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["PartialBlock"] = {
-						["Melee"] = {
-							["Details"] = {
-								["Blocked"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["WhoDamaged"] = {
-						["Mist Howler"] = {
-							["Details"] = {
-								["Rend (DoT)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Wrathtail Myrmidon"] = {
-							["Details"] = {
-								["Strike"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Rend (DoT)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Nemuritorujr"] = {
-							["Details"] = {
-								["Shadow Word: Pain (DoT)"] = {
-									["count"] = 0,
-								},
-								["Mind Blast"] = {
-									["count"] = 0,
-								},
-								["Smite"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Kobold Tunneler"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 4,
-								},
-							},
-							["amount"] = 4,
-						},
-						["Searing Totem II"] = {
-							["Details"] = {
-								["Attack"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Goldtooth"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Wild Buck"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Ghostpaw Runner"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Foulweald Ursa"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Blackwood Warrior"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Foulweald Pathfinder"] = {
-							["Details"] = {
-								["Shoot"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Grizzled Thistle Bear"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Foulweald Totemic"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Lesser Felguard"] = {
-							["Details"] = {
-								["Fire Shield Effect II"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Knockdown"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Felslayer"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Mana Burn"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Blackwood Ursa"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Kobold Miner"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 47,
-								},
-							},
-							["amount"] = 47,
-						},
-						["Wrathtail Priestess"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Wildthorn Stalker"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Foulweald Warrior"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["EnergyGainedFrom"] = {
-					},
-					["PartialResist"] = {
-						["Strike"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Fire Shield Effect II"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Mana Burn"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Shadow Word: Pain"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Rend"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Mind Blast"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 36,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 36,
-							["amount"] = 0,
-						},
-						["Knockdown"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Smite"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Shadow Word: Pain (DoT)"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Shoot"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Rend (DoT)"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Attack"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["CCBroken"] = {
-					},
-					["ElementDoneBlock"] = {
-						["Melee"] = 0,
-					},
-					["TimeHealing"] = {
-						["Nemuritorujr"] = {
-							["Details"] = {
-								["Judgement of Light"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Flokus"] = {
-							["Details"] = {
-								["Judgement of Light"] = {
-									["count"] = 0,
-								},
-								["Holy Light"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["OverHeals"] = {
-						["Judgement of Light"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Holy Strength"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["ManaGainedFrom"] = {
-						["Flokus"] = {
-							["Details"] = {
-								["Judgement of Wisdom"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["RunicPowerGained"] = {
-					},
-					["CCBreak"] = 0,
-					["RageGained"] = {
-					},
-					["HealedWho"] = {
-						["Nemuritorujr"] = {
-							["Details"] = {
-								["Judgement of Light"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Flokus"] = {
-							["Details"] = {
-								["Judgement of Light"] = {
-									["count"] = 0,
-								},
-								["Holy Light"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["EnergyGain"] = 0,
-					["ManaGained"] = {
-						["Judgement of Wisdom"] = {
-							["Details"] = {
-								["Flokus"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
-					["Overhealing"] = 0,
-					["TimeSpent"] = {
-						["Lesser Felguard"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Hammer of Justice"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Blackwood Totemic"] = {
-							["Details"] = {
-								["Iron Shield Spike"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Kobold Tunneler"] = {
-							["Details"] = {
-								["Consecration (DoT)"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Iron Shield Spike"] = {
-									["count"] = 0,
-								},
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Searing Totem II"] = {
-							["Details"] = {
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Wrathtail Sorceress"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Goldtooth"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Wild Buck"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Ghostpaw Runner"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Judgement of Light"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Blackwood Warrior"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Ashenvale Bear"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Foulweald Totemic"] = {
-							["Details"] = {
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Foulweald Ursa"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Judgement of Light"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Flokus"] = {
-							["Details"] = {
-								["Judgement of Light"] = {
-									["count"] = 0,
-								},
-								["Holy Light"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Wrathtail Wave Rider"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Blackwood Ursa"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Foulweald Pathfinder"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Wrathtail Priestess"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Iron Shield Spike"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Grizzled Thistle Bear"] = {
-							["Details"] = {
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Wrathtail Myrmidon"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Saltspittle Puddlejumper"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Nemuritorujr"] = {
-							["Details"] = {
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Hammer of Justice"] = {
-									["count"] = 0,
-								},
-								["Judgement of Light"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Felslayer"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Rat"] = {
-							["Details"] = {
-								["Consecration (DoT)"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Kobold Miner"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Consecration (DoT)"] = {
-									["count"] = 10.47,
-								},
-								["Iron Shield Spike"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 10.47,
-						},
-						["Saltspittle Warrior"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Wildthorn Stalker"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Foulweald Warrior"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["WhoDispelled"] = {
-					},
-					["InterruptData"] = {
-						["Wrathtail Sorceress"] = {
-							["Details"] = {
-								["Frostbolt (Interrupt)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Lesser Felguard"] = {
-							["Details"] = {
-								["Fire Shield II (Interrupt)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Wrathtail Priestess"] = {
-							["Details"] = {
-								["Heal (Interrupt)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["RunicPowerGain"] = 0,
-					["Heals"] = {
-						["Judgement of Light"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Holy Light"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["WhoHealed"] = {
-						["Nemuritorujr"] = {
-							["Details"] = {
-								["Renew"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Flokus"] = {
-							["Details"] = {
-								["Judgement of Light"] = {
-									["count"] = 0,
-								},
-								["Holy Light"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["EnergyGained"] = {
-					},
-					["ActiveTime"] = 10.47,
-					["Healing"] = 0,
-					["FDamagedWho"] = {
-					},
-					["Dispelled"] = 0,
-					["Attacks"] = {
-						["Hand of Reckoning"] = {
-							["Details"] = {
-								["Miss"] = {
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Crit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Consecration (DoT)"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 18,
-									["min"] = 0,
-									["count"] = 42,
-									["amount"] = 756,
-								},
-							},
-							["count"] = 42,
-							["amount"] = 756,
-						},
-						["Seal of Righteousness"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Absorb"] = {
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["Glancing"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Absorb"] = {
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Dodge"] = {
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Hit (Blocked)"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Miss"] = {
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Crit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Parry"] = {
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Iron Shield Spike"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Hammer of Justice"] = {
-							["Details"] = {
-								["Miss"] = {
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Judgement of Light"] = {
-							["Details"] = {
-								["Miss"] = {
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Judgement of Righteousness"] = {
-							["Details"] = {
-								["Absorb"] = {
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Crit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["HealingTaken"] = 0,
-					["RageGain"] = 0,
-					["TimeDamage"] = 10.47,
-					["TimeDamaging"] = {
-						["Wrathtail Myrmidon"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Nemuritorujr"] = {
-							["Details"] = {
-								["Hammer of Justice"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Kobold Tunneler"] = {
-							["Details"] = {
-								["Consecration (DoT)"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Iron Shield Spike"] = {
-									["count"] = 0,
-								},
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Searing Totem II"] = {
-							["Details"] = {
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Goldtooth"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Wild Buck"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Ghostpaw Runner"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Judgement of Light"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Blackwood Ursa"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Blackwood Totemic"] = {
-							["Details"] = {
-								["Iron Shield Spike"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Ashenvale Bear"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Foulweald Totemic"] = {
-							["Details"] = {
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Foulweald Ursa"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Judgement of Light"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Wrathtail Wave Rider"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Blackwood Warrior"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Foulweald Pathfinder"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Saltspittle Warrior"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Grizzled Thistle Bear"] = {
-							["Details"] = {
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Wrathtail Priestess"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Iron Shield Spike"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Saltspittle Puddlejumper"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Lesser Felguard"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Hammer of Justice"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Felslayer"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Rat"] = {
-							["Details"] = {
-								["Consecration (DoT)"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Kobold Miner"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Consecration (DoT)"] = {
-									["count"] = 10.47,
-								},
-								["Iron Shield Spike"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 10.47,
-						},
-						["Wrathtail Sorceress"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Wildthorn Stalker"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Foulweald Warrior"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["ManaGain"] = 0,
-					["HOTs"] = {
-						["Judgement of Light"] = {
-							["Details"] = {
-								["Nemuritorujr"] = {
-									["count"] = 0,
-								},
-								["Flokus"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["DispelledWho"] = {
-					},
-				},
-				["LastFightData"] = {
-					["DOTs"] = {
-					},
-					["ElementDoneResist"] = {
-						["Holy"] = 0,
-					},
-					["Ressed"] = 0,
-					["DamageTaken"] = 2,
-					["RageGainedFrom"] = {
-					},
-					["ElementHitsTaken"] = {
-						["Fire"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Frost"] = {
-							["Details"] = {
-								["Absorb"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["Crushing"] = {
-									["count"] = 0,
-								},
-								["Absorb"] = {
-									["count"] = 0,
-								},
-								["Miss"] = {
-									["count"] = 0,
-								},
-								["Hit"] = {
-									["count"] = 1,
-								},
-								["Dodge"] = {
-									["count"] = 0,
-								},
-								["Block"] = {
-									["count"] = 0,
-								},
-								["Crit"] = {
-									["count"] = 0,
-								},
-								["Parry"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 1,
-						},
-						["Physical"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 0,
-								},
-								["Tick"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["DeathCount"] = 0,
-					["HOT_Time"] = 0,
-					["ElementHitsDone"] = {
-						["Holy"] = {
-							["Details"] = {
-								["Miss"] = {
-									["count"] = 0,
-								},
-								["Crit"] = {
-									["count"] = 0,
-								},
-								["Hit"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["Glancing"] = {
-									["count"] = 0,
-								},
-								["Hit"] = {
-									["count"] = 0,
-								},
-								["Dodge"] = {
-									["count"] = 0,
-								},
-								["Crit"] = {
-									["count"] = 0,
-								},
-								["Miss"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Physical"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["ElementTakenAbsorb"] = {
-						["Melee"] = 0,
-						["Frost"] = 0,
-					},
-					["ElementTaken"] = {
-						["Physical"] = 0,
-						["Melee"] = 2,
-						["Fire"] = 0,
-					},
-					["DOT_Time"] = 0,
-					["Damage"] = 0,
-					["ElementTakenBlock"] = {
-						["Melee"] = 0,
-					},
-					["TimeHeal"] = 0,
-					["RessedWho"] = {
-					},
-					["Dispels"] = 0,
-					["ElementTakenResist"] = {
-					},
-					["ElementDoneAbsorb"] = {
-					},
-					["FAttacks"] = {
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementDone"] = {
-						["Holy"] = 0,
-						["Melee"] = 0,
-						["Physical"] = 0,
-					},
-					["PartialAbsorb"] = {
-						["Strike"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 0,
-								},
-								["Absorbed"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 0,
-						},
-						["Falling"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Frostbolt"] = {
-							["Details"] = {
-								["Absorbed"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Fire"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Rend (DoT)"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["DamagedWho"] = {
-						["Mangy Wolf"] = {
-							["Details"] = {
-								["Iron Shield Spike"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Wrathtail Myrmidon"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Kobold Tunneler"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Exorcism"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Ashenvale Bear"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Iron Shield Spike"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Foulweald Den Watcher"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Wrathtail Priestess"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Kobold Miner"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Exorcism"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Iron Shield Spike"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Goldtooth"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Exorcism"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Iron Shield Spike"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Rat"] = {
-							["Details"] = {
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Wrathtail Sorceress"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Searing Totem II"] = {
-							["Details"] = {
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Foulweald Totemic"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Foulweald Warrior"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Iron Shield Spike"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["PartialBlock"] = {
-						["Melee"] = {
-							["Details"] = {
-								["Blocked"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["WhoDamaged"] = {
-						["Mangy Wolf"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Wrathtail Myrmidon"] = {
-							["Details"] = {
-								["Strike"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Rend (DoT)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Kobold Tunneler"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 2,
-								},
-							},
-							["amount"] = 2,
-						},
-						["Ashenvale Bear"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Foulweald Den Watcher"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Environment"] = {
-							["Details"] = {
-								["Falling"] = {
-									["count"] = 0,
-								},
-								["Fire"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Kobold Miner"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Foulweald Totemic"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Foulweald Warrior"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["EnergyGainedFrom"] = {
-					},
-					["PartialResist"] = {
-						["Strike"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 0,
-						},
-						["Falling"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Frostbolt"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Fire"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Rend (DoT)"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["CCBroken"] = {
-					},
-					["ElementDoneBlock"] = {
-						["Melee"] = 0,
-					},
-					["TimeHealing"] = {
-						["Flokus"] = {
-							["Details"] = {
-								["Judgement of Light"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["OverHeals"] = {
-						["Judgement of Light"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["ManaGainedFrom"] = {
-						["Flokus"] = {
-							["Details"] = {
-								["Judgement of Wisdom"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["RunicPowerGained"] = {
-					},
-					["CCBreak"] = 0,
-					["RageGained"] = {
-					},
-					["HealedWho"] = {
-						["Flokus"] = {
-							["Details"] = {
-								["Judgement of Light"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["EnergyGain"] = 0,
-					["ManaGained"] = {
-						["Judgement of Wisdom"] = {
-							["Details"] = {
-								["Flokus"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
-					["Overhealing"] = 0,
-					["TimeSpent"] = {
-						["Mangy Wolf"] = {
-							["Details"] = {
-								["Iron Shield Spike"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Wrathtail Myrmidon"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Flokus"] = {
-							["Details"] = {
-								["Judgement of Light"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Ashenvale Bear"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Iron Shield Spike"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Searing Totem II"] = {
-							["Details"] = {
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Foulweald Den Watcher"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Hammer of Justice"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Kobold Miner"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Exorcism"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Iron Shield Spike"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Kobold Tunneler"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Exorcism"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Goldtooth"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Exorcism"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Iron Shield Spike"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Rat"] = {
-							["Details"] = {
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Wrathtail Sorceress"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Wrathtail Priestess"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Foulweald Totemic"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Foulweald Warrior"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Iron Shield Spike"] = {
-									["count"] = 0,
-								},
-								["Hammer of Justice"] = {
-									["count"] = 0,
-								},
-								["Judgement of Light"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["WhoDispelled"] = {
-					},
-					["InterruptData"] = {
-						["Wrathtail Sorceress"] = {
-							["Details"] = {
-								["Frostbolt (Interrupt)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["RunicPowerGain"] = 0,
-					["Heals"] = {
-						["Judgement of Light"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["WhoHealed"] = {
-						["Nemuritorujr"] = {
-							["Details"] = {
-								["Renew"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Flokus"] = {
-							["Details"] = {
-								["Judgement of Light"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["EnergyGained"] = {
-					},
-					["ActiveTime"] = 0,
-					["Healing"] = 0,
-					["FDamagedWho"] = {
-					},
-					["Dispelled"] = 0,
-					["Attacks"] = {
-						["Hand of Reckoning"] = {
-							["Details"] = {
-								["Crit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Exorcism"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Seal of Righteousness"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["Glancing"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Hit (Blocked)"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Dodge"] = {
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Crit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Miss"] = {
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Hammer of Justice"] = {
-							["Details"] = {
-								["Miss"] = {
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Iron Shield Spike"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Judgement of Light"] = {
-							["Details"] = {
-								["Miss"] = {
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Judgement of Righteousness"] = {
-							["Details"] = {
-								["Crit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["HealingTaken"] = 0,
-					["RageGain"] = 0,
-					["TimeDamage"] = 0,
-					["TimeDamaging"] = {
-						["Mangy Wolf"] = {
-							["Details"] = {
-								["Iron Shield Spike"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Wrathtail Myrmidon"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Kobold Tunneler"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Exorcism"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Ashenvale Bear"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Iron Shield Spike"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Foulweald Den Watcher"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Hammer of Justice"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Wrathtail Priestess"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Kobold Miner"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Exorcism"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Iron Shield Spike"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Goldtooth"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Exorcism"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Iron Shield Spike"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Rat"] = {
-							["Details"] = {
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Wrathtail Sorceress"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Searing Totem II"] = {
-							["Details"] = {
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Foulweald Totemic"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Foulweald Warrior"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Iron Shield Spike"] = {
-									["count"] = 0,
-								},
-								["Hammer of Justice"] = {
-									["count"] = 0,
-								},
-								["Judgement of Light"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["ManaGain"] = 0,
-					["HOTs"] = {
-						["Judgement of Light"] = {
-							["Details"] = {
-								["Nemuritorujr"] = {
-									["count"] = 0,
-								},
-								["Flokus"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["DispelledWho"] = {
-					},
-				},
-				["Fight1"] = {
-					["DOTs"] = {
-					},
-					["ElementDoneResist"] = {
-						["Holy"] = 0,
-					},
-					["Ressed"] = 0,
-					["DamageTaken"] = 2,
-					["RageGainedFrom"] = {
-					},
-					["ElementHitsTaken"] = {
-						["Fire"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Frost"] = {
-							["Details"] = {
-								["Absorb"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["Crushing"] = {
-									["count"] = 0,
-								},
-								["Absorb"] = {
-									["count"] = 0,
-								},
-								["Miss"] = {
-									["count"] = 0,
-								},
-								["Hit"] = {
-									["count"] = 1,
-								},
-								["Dodge"] = {
-									["count"] = 0,
-								},
-								["Block"] = {
-									["count"] = 0,
-								},
-								["Crit"] = {
-									["count"] = 0,
-								},
-								["Parry"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 1,
-						},
-						["Physical"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 0,
-								},
-								["Tick"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["DeathCount"] = 0,
-					["HOT_Time"] = 0,
-					["ElementHitsDone"] = {
-						["Holy"] = {
-							["Details"] = {
-								["Miss"] = {
-									["count"] = 0,
-								},
-								["Crit"] = {
-									["count"] = 0,
-								},
-								["Hit"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["Glancing"] = {
-									["count"] = 0,
-								},
-								["Hit"] = {
-									["count"] = 0,
-								},
-								["Dodge"] = {
-									["count"] = 0,
-								},
-								["Crit"] = {
-									["count"] = 0,
-								},
-								["Miss"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Physical"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["ElementTakenAbsorb"] = {
-						["Melee"] = 0,
-						["Frost"] = 0,
-					},
-					["ElementTaken"] = {
-						["Physical"] = 0,
-						["Melee"] = 2,
-						["Fire"] = 0,
-					},
-					["DOT_Time"] = 0,
-					["Damage"] = 0,
-					["ElementTakenBlock"] = {
-						["Melee"] = 0,
-					},
-					["TimeHeal"] = 0,
-					["RessedWho"] = {
-					},
-					["Dispels"] = 0,
-					["ElementTakenResist"] = {
-					},
-					["ElementDoneAbsorb"] = {
-					},
-					["FAttacks"] = {
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementDone"] = {
-						["Holy"] = 0,
-						["Melee"] = 0,
-						["Physical"] = 0,
-					},
-					["PartialAbsorb"] = {
-						["Strike"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 0,
-								},
-								["Absorbed"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 0,
-						},
-						["Falling"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Frostbolt"] = {
-							["Details"] = {
-								["Absorbed"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Fire"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Rend (DoT)"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["DamagedWho"] = {
-						["Mangy Wolf"] = {
-							["Details"] = {
-								["Iron Shield Spike"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Wrathtail Myrmidon"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Kobold Tunneler"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Exorcism"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Ashenvale Bear"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Iron Shield Spike"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Foulweald Den Watcher"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Wrathtail Priestess"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Kobold Miner"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Exorcism"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Iron Shield Spike"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Goldtooth"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Exorcism"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Iron Shield Spike"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Rat"] = {
-							["Details"] = {
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Wrathtail Sorceress"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Searing Totem II"] = {
-							["Details"] = {
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Foulweald Totemic"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Foulweald Warrior"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Iron Shield Spike"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["PartialBlock"] = {
-						["Melee"] = {
-							["Details"] = {
-								["Blocked"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["WhoDamaged"] = {
-						["Mangy Wolf"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Wrathtail Myrmidon"] = {
-							["Details"] = {
-								["Strike"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Rend (DoT)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Kobold Tunneler"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 2,
-								},
-							},
-							["amount"] = 2,
-						},
-						["Ashenvale Bear"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Foulweald Den Watcher"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Environment"] = {
-							["Details"] = {
-								["Falling"] = {
-									["count"] = 0,
-								},
-								["Fire"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Kobold Miner"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Foulweald Totemic"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Foulweald Warrior"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["EnergyGainedFrom"] = {
-					},
-					["PartialResist"] = {
-						["Strike"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 0,
-						},
-						["Falling"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Frostbolt"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Fire"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Rend (DoT)"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["CCBroken"] = {
-					},
-					["ElementDoneBlock"] = {
-						["Melee"] = 0,
-					},
-					["TimeHealing"] = {
-						["Flokus"] = {
-							["Details"] = {
-								["Judgement of Light"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["OverHeals"] = {
-						["Judgement of Light"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["ManaGainedFrom"] = {
-						["Flokus"] = {
-							["Details"] = {
-								["Judgement of Wisdom"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["RunicPowerGained"] = {
-					},
-					["CCBreak"] = 0,
-					["RageGained"] = {
-					},
-					["HealedWho"] = {
-						["Flokus"] = {
-							["Details"] = {
-								["Judgement of Light"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["EnergyGain"] = 0,
-					["ManaGained"] = {
-						["Judgement of Wisdom"] = {
-							["Details"] = {
-								["Flokus"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
-					["Overhealing"] = 0,
-					["TimeSpent"] = {
-						["Mangy Wolf"] = {
-							["Details"] = {
-								["Iron Shield Spike"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Wrathtail Myrmidon"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Flokus"] = {
-							["Details"] = {
-								["Judgement of Light"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Ashenvale Bear"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Iron Shield Spike"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Searing Totem II"] = {
-							["Details"] = {
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Foulweald Den Watcher"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Hammer of Justice"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Kobold Miner"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Exorcism"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Iron Shield Spike"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Kobold Tunneler"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Exorcism"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Goldtooth"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Exorcism"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Iron Shield Spike"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Rat"] = {
-							["Details"] = {
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Wrathtail Sorceress"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Wrathtail Priestess"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Foulweald Totemic"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Foulweald Warrior"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Iron Shield Spike"] = {
-									["count"] = 0,
-								},
-								["Hammer of Justice"] = {
-									["count"] = 0,
-								},
-								["Judgement of Light"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["WhoDispelled"] = {
-					},
-					["InterruptData"] = {
-						["Wrathtail Sorceress"] = {
-							["Details"] = {
-								["Frostbolt (Interrupt)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["RunicPowerGain"] = 0,
-					["Heals"] = {
-						["Judgement of Light"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["WhoHealed"] = {
-						["Nemuritorujr"] = {
-							["Details"] = {
-								["Renew"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Flokus"] = {
-							["Details"] = {
-								["Judgement of Light"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["EnergyGained"] = {
-					},
-					["ActiveTime"] = 0,
-					["Healing"] = 0,
-					["FDamagedWho"] = {
-					},
-					["Dispelled"] = 0,
-					["Attacks"] = {
-						["Hand of Reckoning"] = {
-							["Details"] = {
-								["Crit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Exorcism"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Seal of Righteousness"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["Glancing"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Hit (Blocked)"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Dodge"] = {
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Crit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Miss"] = {
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Hammer of Justice"] = {
-							["Details"] = {
-								["Miss"] = {
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Iron Shield Spike"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Judgement of Light"] = {
-							["Details"] = {
-								["Miss"] = {
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Judgement of Righteousness"] = {
-							["Details"] = {
-								["Crit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["HealingTaken"] = 0,
-					["RageGain"] = 0,
-					["TimeDamage"] = 0,
-					["TimeDamaging"] = {
-						["Mangy Wolf"] = {
-							["Details"] = {
-								["Iron Shield Spike"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Wrathtail Myrmidon"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Kobold Tunneler"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Exorcism"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Ashenvale Bear"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Iron Shield Spike"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Foulweald Den Watcher"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Hammer of Justice"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Wrathtail Priestess"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Kobold Miner"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Exorcism"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Iron Shield Spike"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Goldtooth"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Exorcism"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Iron Shield Spike"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Rat"] = {
-							["Details"] = {
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Wrathtail Sorceress"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Searing Totem II"] = {
-							["Details"] = {
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Foulweald Totemic"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Foulweald Warrior"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Iron Shield Spike"] = {
-									["count"] = 0,
-								},
-								["Hammer of Justice"] = {
-									["count"] = 0,
-								},
-								["Judgement of Light"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["ManaGain"] = 0,
-					["HOTs"] = {
-						["Judgement of Light"] = {
-							["Details"] = {
-								["Nemuritorujr"] = {
-									["count"] = 0,
-								},
-								["Flokus"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["DispelledWho"] = {
-					},
-				},
 				["OverallData"] = {
 					["PartialBlock"] = {
 						["Melee"] = {
@@ -19179,44 +4157,44 @@ RecountPerCharDB = {
 						["Holy"] = 2001,
 					},
 					["ElementHitsTaken"] = {
-						["Frost"] = {
-							["Details"] = {
-								["Absorb"] = {
-									["count"] = 1,
-								},
-								["Hit"] = {
-									["count"] = 2,
-								},
-							},
-							["amount"] = 3,
-						},
 						["Shadow"] = {
 							["Details"] = {
 								["Absorb"] = {
 									["count"] = 10,
 								},
-								["Tick"] = {
-									["count"] = 28,
-								},
 								["Hit"] = {
 									["count"] = 19,
+								},
+								["Tick"] = {
+									["count"] = 28,
 								},
 							},
 							["amount"] = 57,
 						},
+						["Frost"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 2,
+								},
+								["Absorb"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 3,
+						},
 						["Melee"] = {
 							["Details"] = {
-								["Crushing"] = {
-									["count"] = 109,
+								["Dodge"] = {
+									["count"] = 101,
 								},
 								["Absorb"] = {
 									["count"] = 308,
 								},
-								["Dodge"] = {
-									["count"] = 101,
-								},
 								["Hit"] = {
 									["count"] = 691,
+								},
+								["Crushing"] = {
+									["count"] = 109,
 								},
 								["Miss"] = {
 									["count"] = 74,
@@ -19244,6 +4222,25 @@ RecountPerCharDB = {
 							},
 							["amount"] = 12,
 						},
+						["Holy"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 1,
+						},
+						["Fire"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 22,
+								},
+								["Absorb"] = {
+									["count"] = 6,
+								},
+							},
+							["amount"] = 28,
+						},
 						["Physical"] = {
 							["Details"] = {
 								["Absorb"] = {
@@ -19255,11 +4252,11 @@ RecountPerCharDB = {
 								["Dodge"] = {
 									["count"] = 2,
 								},
-								["Miss"] = {
-									["count"] = 6,
-								},
 								["Tick"] = {
 									["count"] = 26,
+								},
+								["Miss"] = {
+									["count"] = 6,
 								},
 								["Parry"] = {
 									["count"] = 2,
@@ -19267,45 +4264,32 @@ RecountPerCharDB = {
 							},
 							["amount"] = 70,
 						},
-						["Fire"] = {
-							["Details"] = {
-								["Absorb"] = {
-									["count"] = 6,
-								},
-								["Hit"] = {
-									["count"] = 22,
-								},
-							},
-							["amount"] = 28,
-						},
-						["Holy"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 1,
-								},
-							},
-							["amount"] = 1,
-						},
 						["Nature"] = {
 							["Details"] = {
-								["Absorb"] = {
-									["count"] = 8,
-								},
 								["Hit"] = {
 									["count"] = 33,
+								},
+								["Absorb"] = {
+									["count"] = 8,
 								},
 							},
 							["amount"] = 41,
 						},
 					},
 					["HealedWho"] = {
-						["Dentrebras"] = {
+						["Flokus"] = {
 							["Details"] = {
+								["Healing Potion"] = {
+									["count"] = 521,
+								},
 								["Holy Light"] = {
-									["count"] = 455,
+									["count"] = 3175,
+								},
+								["Judgement of Light"] = {
+									["count"] = 5212,
 								},
 							},
-							["amount"] = 455,
+							["amount"] = 8908,
 						},
 						["Volcor"] = {
 							["Details"] = {
@@ -19326,19 +4310,13 @@ RecountPerCharDB = {
 							},
 							["amount"] = 783,
 						},
-						["Flokus"] = {
+						["Dentrebras"] = {
 							["Details"] = {
-								["Healing Potion"] = {
-									["count"] = 521,
-								},
 								["Holy Light"] = {
-									["count"] = 3175,
-								},
-								["Judgement of Light"] = {
-									["count"] = 5212,
+									["count"] = 455,
 								},
 							},
-							["amount"] = 8908,
+							["amount"] = 455,
 						},
 					},
 					["ElementDoneAbsorb"] = {
@@ -19347,13 +4325,13 @@ RecountPerCharDB = {
 					},
 					["HOT_Time"] = 1827,
 					["ElementTaken"] = {
-						["Frost"] = 102,
 						["Shadow"] = 3080,
+						["Frost"] = 102,
 						["Melee"] = 13349,
 						["Arcane"] = 331,
-						["Physical"] = 1377,
-						["Fire"] = 347,
 						["Holy"] = 34,
+						["Fire"] = 347,
+						["Physical"] = 1377,
 						["Nature"] = 1151,
 					},
 					["HOTs"] = {
@@ -19403,11 +4381,11 @@ RecountPerCharDB = {
 						},
 						["Nemuritorujr"] = {
 							["Details"] = {
-								["Seal of Righteousness"] = {
-									["count"] = 287,
-								},
 								["Melee"] = {
 									["count"] = 789,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 287,
 								},
 								["Judgement of Righteousness"] = {
 									["count"] = 250,
@@ -19429,11 +4407,11 @@ RecountPerCharDB = {
 								["Hand of Reckoning"] = {
 									["count"] = 6281,
 								},
-								["Iron Shield Spike"] = {
-									["count"] = 54,
-								},
 								["Melee"] = {
 									["count"] = 19085,
+								},
+								["Iron Shield Spike"] = {
+									["count"] = 54,
 								},
 								["Judgement of Righteousness"] = {
 									["count"] = 2489,
@@ -19516,11 +4494,11 @@ RecountPerCharDB = {
 								["Hand of Reckoning"] = {
 									["count"] = 1575,
 								},
-								["Melee"] = {
-									["count"] = 1441,
-								},
 								["Seal of Righteousness"] = {
 									["count"] = 456,
+								},
+								["Melee"] = {
+									["count"] = 1441,
 								},
 								["Judgement of Righteousness"] = {
 									["count"] = 714,
@@ -19533,11 +4511,11 @@ RecountPerCharDB = {
 								["Hand of Reckoning"] = {
 									["count"] = 247,
 								},
-								["Melee"] = {
-									["count"] = 486,
-								},
 								["Seal of Righteousness"] = {
 									["count"] = 141,
+								},
+								["Melee"] = {
+									["count"] = 486,
 								},
 								["Judgement of Righteousness"] = {
 									["count"] = 150,
@@ -19550,11 +4528,11 @@ RecountPerCharDB = {
 								["Hand of Reckoning"] = {
 									["count"] = 252,
 								},
-								["Seal of Righteousness"] = {
-									["count"] = 198,
-								},
 								["Melee"] = {
 									["count"] = 593,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 198,
 								},
 								["Judgement of Righteousness"] = {
 									["count"] = 194,
@@ -19607,11 +4585,11 @@ RecountPerCharDB = {
 								["Hand of Reckoning"] = {
 									["count"] = 123,
 								},
-								["Melee"] = {
-									["count"] = 28,
-								},
 								["Seal of Righteousness"] = {
 									["count"] = 22,
+								},
+								["Melee"] = {
+									["count"] = 28,
 								},
 								["Judgement of Righteousness"] = {
 									["count"] = 50,
@@ -19644,11 +4622,11 @@ RecountPerCharDB = {
 								["Hand of Reckoning"] = {
 									["count"] = 101,
 								},
-								["Melee"] = {
-									["count"] = 179,
-								},
 								["Seal of Righteousness"] = {
 									["count"] = 55,
+								},
+								["Melee"] = {
+									["count"] = 179,
 								},
 								["Judgement of Righteousness"] = {
 									["count"] = 41,
@@ -19658,14 +4636,14 @@ RecountPerCharDB = {
 						},
 						["Twilight Thug"] = {
 							["Details"] = {
-								["Iron Shield Spike"] = {
-									["count"] = 5,
-								},
 								["Seal of Righteousness"] = {
 									["count"] = 132,
 								},
 								["Melee"] = {
 									["count"] = 447,
+								},
+								["Iron Shield Spike"] = {
+									["count"] = 5,
 								},
 								["Judgement of Righteousness"] = {
 									["count"] = 150,
@@ -19698,11 +4676,11 @@ RecountPerCharDB = {
 								["Hand of Reckoning"] = {
 									["count"] = 252,
 								},
-								["Melee"] = {
-									["count"] = 443,
-								},
 								["Seal of Righteousness"] = {
 									["count"] = 144,
+								},
+								["Melee"] = {
+									["count"] = 443,
 								},
 								["Judgement of Righteousness"] = {
 									["count"] = 153,
@@ -19735,11 +4713,11 @@ RecountPerCharDB = {
 								["Hand of Reckoning"] = {
 									["count"] = 225,
 								},
-								["Melee"] = {
-									["count"] = 308,
-								},
 								["Seal of Righteousness"] = {
 									["count"] = 115,
+								},
+								["Melee"] = {
+									["count"] = 308,
 								},
 								["Judgement of Righteousness"] = {
 									["count"] = 146,
@@ -19769,14 +4747,14 @@ RecountPerCharDB = {
 						},
 						["Blackwood Totemic"] = {
 							["Details"] = {
-								["Iron Shield Spike"] = {
-									["count"] = 5,
-								},
 								["Melee"] = {
 									["count"] = 82,
 								},
 								["Seal of Righteousness"] = {
 									["count"] = 22,
+								},
+								["Iron Shield Spike"] = {
+									["count"] = 5,
 								},
 								["Judgement of Righteousness"] = {
 									["count"] = 50,
@@ -19784,30 +4762,33 @@ RecountPerCharDB = {
 							},
 							["amount"] = 159,
 						},
-						["Defias Bandit"] = {
+						["Rabid Thistle Bear"] = {
 							["Details"] = {
 								["Hand of Reckoning"] = {
-									["count"] = 122,
+									["count"] = 124,
 								},
 								["Seal of Righteousness"] = {
-									["count"] = 15,
+									["count"] = 22,
 								},
 								["Melee"] = {
-									["count"] = 70,
+									["count"] = 79,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 100,
 								},
 							},
-							["amount"] = 207,
+							["amount"] = 325,
 						},
 						["Thistle Bear"] = {
 							["Details"] = {
 								["Hand of Reckoning"] = {
 									["count"] = 106,
 								},
-								["Melee"] = {
-									["count"] = 130,
-								},
 								["Seal of Righteousness"] = {
 									["count"] = 30,
+								},
+								["Melee"] = {
+									["count"] = 130,
 								},
 								["Judgement of Righteousness"] = {
 									["count"] = 43,
@@ -19820,11 +4801,11 @@ RecountPerCharDB = {
 								["Hand of Reckoning"] = {
 									["count"] = 123,
 								},
-								["Melee"] = {
-									["count"] = 86,
-								},
 								["Seal of Righteousness"] = {
 									["count"] = 22,
+								},
+								["Melee"] = {
+									["count"] = 86,
 								},
 								["Judgement of Righteousness"] = {
 									["count"] = 50,
@@ -19837,11 +4818,11 @@ RecountPerCharDB = {
 								["Hand of Reckoning"] = {
 									["count"] = 101,
 								},
-								["Melee"] = {
-									["count"] = 395,
-								},
 								["Seal of Righteousness"] = {
 									["count"] = 184,
+								},
+								["Melee"] = {
+									["count"] = 395,
 								},
 								["Judgement of Righteousness"] = {
 									["count"] = 240,
@@ -19849,56 +4830,53 @@ RecountPerCharDB = {
 							},
 							["amount"] = 920,
 						},
-						["Mugglefin"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 228,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 56,
-								},
-								["Melee"] = {
-									["count"] = 107,
-								},
-								["Iron Shield Spike"] = {
-									["count"] = 8,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 138,
-								},
-							},
-							["amount"] = 537,
-						},
-						["Foulweald Ursa"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 215,
-								},
-								["Melee"] = {
-									["count"] = 491,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 163,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 130,
-								},
-							},
-							["amount"] = 999,
-						},
 						["Defias Cutpurse"] = {
 							["Details"] = {
-								["Melee"] = {
-									["count"] = 492,
-								},
 								["Seal of Righteousness"] = {
 									["count"] = 68,
+								},
+								["Melee"] = {
+									["count"] = 492,
 								},
 								["Judgement of Righteousness"] = {
 									["count"] = 56,
 								},
 							},
 							["amount"] = 616,
+						},
+						["Saltspittle Warrior"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 240,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 223,
+								},
+								["Melee"] = {
+									["count"] = 663,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 243,
+								},
+							},
+							["amount"] = 1369,
+						},
+						["Foulweald Ursa"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 215,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 163,
+								},
+								["Melee"] = {
+									["count"] = 491,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 130,
+								},
+							},
+							["amount"] = 999,
 						},
 						["Wild Buck"] = {
 							["Details"] = {
@@ -19940,33 +4918,36 @@ RecountPerCharDB = {
 							},
 							["amount"] = 4738,
 						},
-						["Blackwood Warrior"] = {
+						["Ashenvale Bear"] = {
 							["Details"] = {
 								["Hand of Reckoning"] = {
-									["count"] = 431,
-								},
-								["Melee"] = {
-									["count"] = 225,
+									["count"] = 753,
 								},
 								["Seal of Righteousness"] = {
-									["count"] = 88,
+									["count"] = 422,
+								},
+								["Iron Shield Spike"] = {
+									["count"] = 9,
+								},
+								["Melee"] = {
+									["count"] = 1449,
 								},
 								["Judgement of Righteousness"] = {
-									["count"] = 150,
+									["count"] = 400,
 								},
 							},
-							["amount"] = 894,
+							["amount"] = 3033,
 						},
 						["Saltspittle Oracle"] = {
 							["Details"] = {
 								["Hand of Reckoning"] = {
 									["count"] = 252,
 								},
-								["Melee"] = {
-									["count"] = 567,
-								},
 								["Seal of Righteousness"] = {
 									["count"] = 177,
+								},
+								["Melee"] = {
+									["count"] = 567,
 								},
 								["Judgement of Righteousness"] = {
 									["count"] = 204,
@@ -19996,14 +4977,14 @@ RecountPerCharDB = {
 						},
 						["Mangy Wolf"] = {
 							["Details"] = {
-								["Iron Shield Spike"] = {
-									["count"] = 9,
-								},
 								["Melee"] = {
 									["count"] = 1749,
 								},
 								["Seal of Righteousness"] = {
 									["count"] = 187,
+								},
+								["Iron Shield Spike"] = {
+									["count"] = 9,
 								},
 								["Judgement of Righteousness"] = {
 									["count"] = 56,
@@ -20011,25 +4992,22 @@ RecountPerCharDB = {
 							},
 							["amount"] = 2001,
 						},
-						["Foulweald Warrior"] = {
+						["Mystlash Hydra"] = {
 							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 1813,
+								["Melee"] = {
+									["count"] = 134,
 								},
 								["Seal of Righteousness"] = {
-									["count"] = 1645,
-								},
-								["Iron Shield Spike"] = {
 									["count"] = 48,
 								},
-								["Melee"] = {
-									["count"] = 4657,
+								["Iron Shield Spike"] = {
+									["count"] = 8,
 								},
 								["Judgement of Righteousness"] = {
-									["count"] = 1426,
+									["count"] = 102,
 								},
 							},
-							["amount"] = 9589,
+							["amount"] = 292,
 						},
 						["Wrathtail Wave Rider"] = {
 							["Details"] = {
@@ -20051,108 +5029,6 @@ RecountPerCharDB = {
 							},
 							["amount"] = 3297,
 						},
-						["Ashenvale Bear"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 753,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 422,
-								},
-								["Iron Shield Spike"] = {
-									["count"] = 9,
-								},
-								["Melee"] = {
-									["count"] = 1449,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 400,
-								},
-							},
-							["amount"] = 3033,
-						},
-						["Mystlash Hydra"] = {
-							["Details"] = {
-								["Iron Shield Spike"] = {
-									["count"] = 8,
-								},
-								["Melee"] = {
-									["count"] = 134,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 48,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 102,
-								},
-							},
-							["amount"] = 292,
-						},
-						["Wrathtail Myrmidon"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 695,
-								},
-								["Melee"] = {
-									["count"] = 1190,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 396,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 429,
-								},
-							},
-							["amount"] = 2710,
-						},
-						["Grizzled Thistle Bear"] = {
-							["Details"] = {
-								["Seal of Righteousness"] = {
-									["count"] = 55,
-								},
-								["Melee"] = {
-									["count"] = 262,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 50,
-								},
-							},
-							["amount"] = 367,
-						},
-						["Carnivous the Breaker"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 123,
-								},
-								["Melee"] = {
-									["count"] = 142,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 33,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 50,
-								},
-							},
-							["amount"] = 348,
-						},
-						["Saltspittle Puddlejumper"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 480,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 154,
-								},
-								["Melee"] = {
-									["count"] = 420,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 153,
-								},
-							},
-							["amount"] = 1207,
-						},
 						["Spined Crawler"] = {
 							["Details"] = {
 								["Hand of Reckoning"] = {
@@ -20166,6 +5042,105 @@ RecountPerCharDB = {
 								},
 							},
 							["amount"] = 303,
+						},
+						["Wrathtail Myrmidon"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 695,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 396,
+								},
+								["Melee"] = {
+									["count"] = 1190,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 429,
+								},
+							},
+							["amount"] = 2710,
+						},
+						["Carnivous the Breaker"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 123,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 33,
+								},
+								["Melee"] = {
+									["count"] = 142,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 50,
+								},
+							},
+							["amount"] = 348,
+						},
+						["Mugglefin"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 228,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 56,
+								},
+								["Melee"] = {
+									["count"] = 107,
+								},
+								["Iron Shield Spike"] = {
+									["count"] = 8,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 138,
+								},
+							},
+							["amount"] = 537,
+						},
+						["Grizzled Thistle Bear"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 262,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 55,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 50,
+								},
+							},
+							["amount"] = 367,
+						},
+						["Saltspittle Puddlejumper"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 480,
+								},
+								["Melee"] = {
+									["count"] = 420,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 154,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 153,
+								},
+							},
+							["amount"] = 1207,
+						},
+						["Defias Bandit"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 122,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 15,
+								},
+								["Melee"] = {
+									["count"] = 70,
+								},
+							},
+							["amount"] = 207,
 						},
 						["Felslayer"] = {
 							["Details"] = {
@@ -20215,11 +5190,11 @@ RecountPerCharDB = {
 								["Consecration (DoT)"] = {
 									["count"] = 2302,
 								},
-								["Iron Shield Spike"] = {
-									["count"] = 108,
-								},
 								["Seal of Righteousness"] = {
 									["count"] = 2289,
+								},
+								["Iron Shield Spike"] = {
+									["count"] = 108,
 								},
 								["Judgement of Righteousness"] = {
 									["count"] = 2261,
@@ -20227,22 +5202,22 @@ RecountPerCharDB = {
 							},
 							["amount"] = 26157,
 						},
-						["Saltspittle Warrior"] = {
+						["Blackwood Warrior"] = {
 							["Details"] = {
 								["Hand of Reckoning"] = {
-									["count"] = 240,
-								},
-								["Melee"] = {
-									["count"] = 663,
+									["count"] = 431,
 								},
 								["Seal of Righteousness"] = {
-									["count"] = 223,
+									["count"] = 88,
+								},
+								["Melee"] = {
+									["count"] = 225,
 								},
 								["Judgement of Righteousness"] = {
-									["count"] = 243,
+									["count"] = 150,
 								},
 							},
-							["amount"] = 1369,
+							["amount"] = 894,
 						},
 						["Wildthorn Stalker"] = {
 							["Details"] = {
@@ -20264,22 +5239,25 @@ RecountPerCharDB = {
 							},
 							["amount"] = 4013,
 						},
-						["Rabid Thistle Bear"] = {
+						["Foulweald Warrior"] = {
 							["Details"] = {
 								["Hand of Reckoning"] = {
-									["count"] = 124,
-								},
-								["Melee"] = {
-									["count"] = 79,
+									["count"] = 1813,
 								},
 								["Seal of Righteousness"] = {
-									["count"] = 22,
+									["count"] = 1645,
+								},
+								["Iron Shield Spike"] = {
+									["count"] = 48,
+								},
+								["Melee"] = {
+									["count"] = 4657,
 								},
 								["Judgement of Righteousness"] = {
-									["count"] = 100,
+									["count"] = 1426,
 								},
 							},
-							["amount"] = 325,
+							["amount"] = 9589,
 						},
 					},
 					["WhoDamaged"] = {
@@ -20495,13 +5473,16 @@ RecountPerCharDB = {
 							},
 							["amount"] = 295,
 						},
-						["Saltspittle Warrior"] = {
+						["Defias Cutpurse"] = {
 							["Details"] = {
 								["Melee"] = {
-									["count"] = 113,
+									["count"] = 2,
+								},
+								["Backstab"] = {
+									["count"] = 7,
 								},
 							},
-							["amount"] = 113,
+							["amount"] = 9,
 						},
 						["Wild Buck"] = {
 							["Details"] = {
@@ -20519,16 +5500,13 @@ RecountPerCharDB = {
 							},
 							["amount"] = 503,
 						},
-						["Defias Cutpurse"] = {
+						["Ashenvale Bear"] = {
 							["Details"] = {
 								["Melee"] = {
-									["count"] = 2,
-								},
-								["Backstab"] = {
-									["count"] = 7,
+									["count"] = 238,
 								},
 							},
-							["amount"] = 9,
+							["amount"] = 238,
 						},
 						["Saltspittle Oracle"] = {
 							["Details"] = {
@@ -20543,11 +5521,11 @@ RecountPerCharDB = {
 						},
 						["Blackwood Shaman"] = {
 							["Details"] = {
-								["Melee"] = {
-									["count"] = 156,
-								},
 								["Lightning Bolt"] = {
 									["count"] = 568,
+								},
+								["Melee"] = {
+									["count"] = 156,
 								},
 								["Shock"] = {
 									["count"] = 381,
@@ -20563,13 +5541,13 @@ RecountPerCharDB = {
 							},
 							["amount"] = 4,
 						},
-						["Ashenvale Bear"] = {
+						["Grizzled Thistle Bear"] = {
 							["Details"] = {
 								["Melee"] = {
-									["count"] = 238,
+									["count"] = 25,
 								},
 							},
-							["amount"] = 238,
+							["amount"] = 25,
 						},
 						["Wrathtail Wave Rider"] = {
 							["Details"] = {
@@ -20579,24 +5557,16 @@ RecountPerCharDB = {
 							},
 							["amount"] = 174,
 						},
-						["Foulweald Ursa"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 192,
-								},
-							},
-							["amount"] = 192,
-						},
 						["Lesser Felguard"] = {
 							["Details"] = {
+								["Melee"] = {
+									["count"] = 1208,
+								},
 								["Fire Shield Effect II"] = {
 									["count"] = 195,
 								},
 								["Knockdown"] = {
 									["count"] = 337,
-								},
-								["Melee"] = {
-									["count"] = 1208,
 								},
 							},
 							["amount"] = 1740,
@@ -20608,6 +5578,17 @@ RecountPerCharDB = {
 								},
 							},
 							["amount"] = 73,
+						},
+						["Felslayer"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 1037,
+								},
+								["Mana Burn"] = {
+									["count"] = 588,
+								},
+							},
+							["amount"] = 1625,
 						},
 						["Mugglefin"] = {
 							["Details"] = {
@@ -20641,16 +5622,13 @@ RecountPerCharDB = {
 							},
 							["amount"] = 18,
 						},
-						["Felslayer"] = {
+						["Saltspittle Warrior"] = {
 							["Details"] = {
 								["Melee"] = {
-									["count"] = 1037,
-								},
-								["Mana Burn"] = {
-									["count"] = 588,
+									["count"] = 113,
 								},
 							},
-							["amount"] = 1625,
+							["amount"] = 113,
 						},
 						["Environment"] = {
 							["Details"] = {
@@ -20671,13 +5649,13 @@ RecountPerCharDB = {
 							},
 							["amount"] = 306,
 						},
-						["Grizzled Thistle Bear"] = {
+						["Foulweald Ursa"] = {
 							["Details"] = {
 								["Melee"] = {
-									["count"] = 25,
+									["count"] = 192,
 								},
 							},
-							["amount"] = 25,
+							["amount"] = 192,
 						},
 						["Wildthorn Stalker"] = {
 							["Details"] = {
@@ -20700,13 +5678,19 @@ RecountPerCharDB = {
 						["Melee"] = 531,
 					},
 					["TimeHealing"] = {
-						["Dentrebras"] = {
+						["Flokus"] = {
 							["Details"] = {
+								["Healing Potion"] = {
+									["count"] = 2.26,
+								},
 								["Holy Light"] = {
-									["count"] = 6.32,
+									["count"] = 41.74999999999999,
+								},
+								["Judgement of Light"] = {
+									["count"] = 5.06,
 								},
 							},
-							["amount"] = 6.32,
+							["amount"] = 49.07000000000001,
 						},
 						["Volcor"] = {
 							["Details"] = {
@@ -20727,19 +5711,13 @@ RecountPerCharDB = {
 							},
 							["amount"] = 33.75000000000001,
 						},
-						["Flokus"] = {
+						["Dentrebras"] = {
 							["Details"] = {
-								["Healing Potion"] = {
-									["count"] = 2.26,
-								},
 								["Holy Light"] = {
-									["count"] = 41.74999999999999,
-								},
-								["Judgement of Light"] = {
-									["count"] = 5.06,
+									["count"] = 6.32,
 								},
 							},
-							["amount"] = 49.07000000000001,
+							["amount"] = 6.32,
 						},
 					},
 					["OverHeals"] = {
@@ -20804,17 +5782,75 @@ RecountPerCharDB = {
 								["Kobold Miner"] = {
 									["count"] = 363,
 								},
-								["Kobold Tunneler"] = {
-									["count"] = 174,
-								},
 								["Rat"] = {
 									["count"] = 3,
+								},
+								["Kobold Tunneler"] = {
+									["count"] = 174,
 								},
 							},
 							["amount"] = 540,
 						},
 					},
-					["DOT_Time"] = 540,
+					["ElementHitsDone"] = {
+						["Holy"] = {
+							["Details"] = {
+								["Absorb"] = {
+									["count"] = 15,
+								},
+								["Hit"] = {
+									["count"] = 1991,
+								},
+								["Tick"] = {
+									["count"] = 180,
+								},
+								["Miss"] = {
+									["count"] = 45,
+								},
+								["Crit"] = {
+									["count"] = 52,
+								},
+								["Evade"] = {
+									["count"] = 4,
+								},
+							},
+							["amount"] = 2287,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Glancing"] = {
+									["count"] = 336,
+								},
+								["Absorb"] = {
+									["count"] = 13,
+								},
+								["Hit"] = {
+									["count"] = 649,
+								},
+								["Dodge"] = {
+									["count"] = 56,
+								},
+								["Miss"] = {
+									["count"] = 89,
+								},
+								["Crit"] = {
+									["count"] = 112,
+								},
+								["Parry"] = {
+									["count"] = 36,
+								},
+							},
+							["amount"] = 1291,
+						},
+						["Physical"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 56,
+								},
+							},
+							["amount"] = 56,
+						},
+					},
 					["PartialResist"] = {
 						["Fire Shield Effect II"] = {
 							["Details"] = {
@@ -20912,19 +5948,19 @@ RecountPerCharDB = {
 							["count"] = 8,
 							["amount"] = 0,
 						},
-						["Pierce Armor"] = {
+						["Thorns"] = {
 							["Details"] = {
 								["No Resist"] = {
 									["max"] = 0,
 									["min"] = 0,
-									["count"] = 4,
+									["count"] = 13,
 									["amount"] = 0,
 								},
 							},
-							["count"] = 4,
+							["count"] = 13,
 							["amount"] = 0,
 						},
-						["Backstab"] = {
+						["Smite"] = {
 							["Details"] = {
 								["No Resist"] = {
 									["max"] = 0,
@@ -20936,16 +5972,16 @@ RecountPerCharDB = {
 							["count"] = 1,
 							["amount"] = 0,
 						},
-						["Attack"] = {
+						["Pierce Armor"] = {
 							["Details"] = {
 								["No Resist"] = {
 									["max"] = 0,
 									["min"] = 0,
-									["count"] = 6,
+									["count"] = 4,
 									["amount"] = 0,
 								},
 							},
-							["count"] = 6,
+							["count"] = 4,
 							["amount"] = 0,
 						},
 						["Strike"] = {
@@ -20984,16 +6020,16 @@ RecountPerCharDB = {
 							["count"] = 1463,
 							["amount"] = 0,
 						},
-						["Frostbolt"] = {
+						["Shock"] = {
 							["Details"] = {
 								["No Resist"] = {
 									["max"] = 0,
 									["min"] = 0,
-									["count"] = 3,
+									["count"] = 10,
 									["amount"] = 0,
 								},
 							},
-							["count"] = 3,
+							["count"] = 10,
 							["amount"] = 0,
 						},
 						["Mind Blast"] = {
@@ -21056,7 +6092,7 @@ RecountPerCharDB = {
 							["count"] = 4,
 							["amount"] = 0,
 						},
-						["Firebolt"] = {
+						["Frostbolt"] = {
 							["Details"] = {
 								["No Resist"] = {
 									["max"] = 0,
@@ -21080,16 +6116,16 @@ RecountPerCharDB = {
 							["count"] = 7,
 							["amount"] = 0,
 						},
-						["Shock"] = {
+						["Firebolt"] = {
 							["Details"] = {
 								["No Resist"] = {
 									["max"] = 0,
 									["min"] = 0,
-									["count"] = 10,
+									["count"] = 3,
 									["amount"] = 0,
 								},
 							},
-							["count"] = 10,
+							["count"] = 3,
 							["amount"] = 0,
 						},
 						["Shadow Word: Pain (DoT)"] = {
@@ -21116,7 +6152,7 @@ RecountPerCharDB = {
 							["count"] = 1,
 							["amount"] = 0,
 						},
-						["Smite"] = {
+						["Backstab"] = {
 							["Details"] = {
 								["No Resist"] = {
 									["max"] = 0,
@@ -21128,16 +6164,16 @@ RecountPerCharDB = {
 							["count"] = 1,
 							["amount"] = 0,
 						},
-						["Thorns"] = {
+						["Attack"] = {
 							["Details"] = {
 								["No Resist"] = {
 									["max"] = 0,
 									["min"] = 0,
-									["count"] = 13,
+									["count"] = 6,
 									["amount"] = 0,
 								},
 							},
-							["count"] = 13,
+							["count"] = 6,
 							["amount"] = 0,
 						},
 					},
@@ -21168,19 +6204,6 @@ RecountPerCharDB = {
 						["Nature"] = 774,
 					},
 					["ActiveTime"] = 4075.540000000005,
-					["WhoDispelled"] = {
-						["Flokus"] = {
-							["Details"] = {
-								["Corrupted Strength (Purify)"] = {
-									["count"] = 1,
-								},
-								["Venom Spit (Purify)"] = {
-									["count"] = 1,
-								},
-							},
-							["amount"] = 2,
-						},
-					},
 					["Dispelled"] = 2,
 					["Overhealing"] = 3925,
 					["InterruptData"] = {
@@ -21200,38 +6223,6 @@ RecountPerCharDB = {
 							},
 							["amount"] = 1,
 						},
-						["Wrathtail Priestess"] = {
-							["Details"] = {
-								["Heal (Interrupt)"] = {
-									["count"] = 1,
-								},
-							},
-							["amount"] = 1,
-						},
-						["Wrathtail Sorceress"] = {
-							["Details"] = {
-								["Frostbolt (Interrupt)"] = {
-									["count"] = 7,
-								},
-							},
-							["amount"] = 7,
-						},
-						["Ilkrud Magthrull"] = {
-							["Details"] = {
-								["Shadow Bolt (Interrupt)"] = {
-									["count"] = 1,
-								},
-							},
-							["amount"] = 1,
-						},
-						["Dark Strand Cultist"] = {
-							["Details"] = {
-								["Shadow Bolt (Interrupt)"] = {
-									["count"] = 2,
-								},
-							},
-							["amount"] = 2,
-						},
 						["Blackwood Shaman"] = {
 							["Details"] = {
 								["Lightning Bolt (Interrupt)"] = {
@@ -21243,1305 +6234,52 @@ RecountPerCharDB = {
 							},
 							["amount"] = 3,
 						},
-					},
-					["ManaGainedFrom"] = {
-						["Flokus"] = {
-							["Details"] = {
-								["Restore Mana"] = {
-									["count"] = 280,
-								},
-								["Judgement of Wisdom"] = {
-									["count"] = 488,
-								},
-							},
-							["amount"] = 768,
-						},
-					},
-					["Heals"] = {
-						["Healing Potion"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 294,
-									["min"] = 227,
-									["count"] = 2,
-									["amount"] = 521,
-								},
-							},
-							["count"] = 2,
-							["amount"] = 521,
-						},
-						["Holy Light"] = {
-							["Details"] = {
-								["Crit"] = {
-									["max"] = 171,
-									["min"] = 171,
-									["count"] = 1,
-									["amount"] = 171,
-								},
-								["Hit"] = {
-									["max"] = 246,
-									["min"] = 202,
-									["count"] = 18,
-									["amount"] = 4051,
-								},
-							},
-							["count"] = 19,
-							["amount"] = 4222,
-						},
-						["Judgement of Light"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 17,
-									["min"] = 1,
-									["count"] = 372,
-									["amount"] = 5443,
-								},
-							},
-							["count"] = 372,
-							["amount"] = 5443,
-						},
-					},
-					["WhoHealed"] = {
-						["Nemuritorujr"] = {
-							["Details"] = {
-								["Renew"] = {
-									["count"] = 2036,
-								},
-								["Lesser Heal"] = {
-									["count"] = 318,
-								},
-							},
-							["amount"] = 2354,
-						},
-						["Flokus"] = {
-							["Details"] = {
-								["Healing Potion"] = {
-									["count"] = 521,
-								},
-								["Holy Light"] = {
-									["count"] = 3175,
-								},
-								["Judgement of Light"] = {
-									["count"] = 5212,
-								},
-							},
-							["amount"] = 8908,
-						},
-					},
-					["Interrupts"] = 17,
-					["TimeSpent"] = {
-						["Lesser Felguard"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 31.5,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 120.8,
-								},
-								["Iron Shield Spike"] = {
-									["count"] = 5.99,
-								},
-								["Hammer of Justice"] = {
-									["count"] = 1.87,
-								},
-								["Melee"] = {
-									["count"] = 22.22,
-								},
-								["Judgement of Light"] = {
-									["count"] = 0.09,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 182.4700000000001,
-						},
-						["Nemuritorujr"] = {
-							["Details"] = {
-								["Holy Light"] = {
-									["count"] = 10.5,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 16.11,
-								},
-								["Melee"] = {
-									["count"] = 57.39000000000001,
-								},
-								["Hammer of Justice"] = {
-									["count"] = 3.5,
-								},
-								["Judgement of Light"] = {
-									["count"] = 23.25,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 110.75,
-						},
-						["Kobold Tunneler"] = {
-							["Details"] = {
-								["Consecration (DoT)"] = {
-									["count"] = 8.629999999999999,
-								},
-								["Exorcism"] = {
-									["count"] = 13.04,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 388.2000000000001,
-								},
-								["Hand of Reckoning"] = {
-									["count"] = 125.87,
-								},
-								["Iron Shield Spike"] = {
-									["count"] = 14.02,
-								},
-								["Melee"] = {
-									["count"] = 0.14,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0.02,
-								},
-							},
-							["amount"] = 549.92,
-						},
-						["Forest Spider"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 3.5,
-								},
-							},
-							["amount"] = 3.5,
-						},
-						["Searing Totem II"] = {
-							["Details"] = {
-								["Seal of Righteousness"] = {
-									["count"] = 19.85,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 19.85,
-						},
-						["Narg the Taskmaster"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 2.61,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 1.18,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 3.79,
-						},
-						["Imp Minion"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0.27,
-								},
-								["Melee"] = {
-									["count"] = 3.5,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 1.21,
-								},
-							},
-							["amount"] = 4.98,
-						},
-						["Goldtooth"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 4.92,
-								},
-								["Exorcism"] = {
-									["count"] = 3.2,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 22.12,
-								},
-								["Iron Shield Spike"] = {
-									["count"] = 0.02,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 30.26,
-						},
 						["Wrathtail Sorceress"] = {
 							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 40.23,
-								},
-								["Melee"] = {
-									["count"] = 2.09,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 70.88999999999999,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
+								["Frostbolt (Interrupt)"] = {
+									["count"] = 7,
 								},
 							},
-							["amount"] = 113.21,
-						},
-						["Expert's Training Dummy"] = {
-							["Details"] = {
-								["Consecration"] = {
-									["count"] = 1.62,
-								},
-								["Melee"] = {
-									["count"] = 0.03,
-								},
-								["Judgement of Wisdom"] = {
-									["count"] = 3.5,
-								},
-							},
-							["amount"] = 5.15,
+							["amount"] = 7,
 						},
 						["Dark Strand Cultist"] = {
 							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 7,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 20.75999999999999,
-								},
-								["Hammer of Justice"] = {
-									["count"] = 1.53,
-								},
-								["Melee"] = {
-									["count"] = 2.09,
-								},
-								["Judgement of Light"] = {
-									["count"] = 1.92,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
+								["Shadow Bolt (Interrupt)"] = {
+									["count"] = 2,
 								},
 							},
-							["amount"] = 33.3,
-						},
-						["Dark Strand Assassin"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 4.07,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 30.88,
-								},
-								["Melee"] = {
-									["count"] = 1.01,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 35.96,
-						},
-						["Blackwood Warrior"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 7.810000000000001,
-								},
-								["Melee"] = {
-									["count"] = 0.24,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 12.8,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 20.85,
-						},
-						["Foulweald Pathfinder"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 10.5,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 55.25999999999999,
-								},
-								["Melee"] = {
-									["count"] = 17.92,
-								},
-								["Iron Shield Spike"] = {
-									["count"] = 0.34,
-								},
-								["Hammer of Justice"] = {
-									["count"] = 1.43,
-								},
-								["Judgement of Light"] = {
-									["count"] = 0.63,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 86.07999999999997,
-						},
-						["Succubus Minion"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 3.5,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0.9299999999999999,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 4.43,
-						},
-						["Ilkrud Magthrull"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 3.5,
-								},
-								["Melee"] = {
-									["count"] = 0.08,
-								},
-								["Iron Shield Spike"] = {
-									["count"] = 3.5,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 19.98,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 27.06,
-						},
-						["Thistlefur Avenger"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 3.5,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 6.76,
-								},
-								["Melee"] = {
-									["count"] = 8.35,
-								},
-								["Judgement of Light"] = {
-									["count"] = 1.33,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 19.94,
-						},
-						["Twilight Thug"] = {
-							["Details"] = {
-								["Iron Shield Spike"] = {
-									["count"] = 1.91,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 20.47,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 22.38,
-						},
-						["Foulweald Shaman"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 3.5,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 8.949999999999999,
-								},
-								["Melee"] = {
-									["count"] = 2.66,
-								},
-								["Iron Shield Spike"] = {
-									["count"] = 1.17,
-								},
-								["Judgement of Light"] = {
-									["count"] = 1.1,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 17.38,
-						},
-						["Wrathtail Razortail"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 7,
-								},
-								["Melee"] = {
-									["count"] = 2.12,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 18.37,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0.02,
-								},
-							},
-							["amount"] = 27.51,
-						},
-						["Defias Bandit"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 3.5,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 1.45,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 4.95,
-						},
-						["Blackwood Ursa"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 37.82,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 158.59,
-								},
-								["Iron Shield Spike"] = {
-									["count"] = 6.42,
-								},
-								["Melee"] = {
-									["count"] = 29.26,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 232.09,
-						},
-						["Foulweald Totemic"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 33.84,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 137.96,
-								},
-								["Iron Shield Spike"] = {
-									["count"] = 1.66,
-								},
-								["Melee"] = {
-									["count"] = 32.99,
-								},
-								["Hammer of Justice"] = {
-									["count"] = 2.87,
-								},
-								["Judgement of Light"] = {
-									["count"] = 4.17,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 213.49,
-						},
-						["Mist Howler"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 6.140000000000001,
-								},
-								["Melee"] = {
-									["count"] = 7.57,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 17.71,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 31.42,
-						},
-						["Carnivous the Breaker"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 3.5,
-								},
-								["Melee"] = {
-									["count"] = 0.37,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 6.75,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 10.62,
-						},
-						["Blackwood Totemic"] = {
-							["Details"] = {
-								["Iron Shield Spike"] = {
-									["count"] = 2.04,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 4.02,
-								},
-								["Melee"] = {
-									["count"] = 0.26,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 6.32,
-						},
-						["Mystlash Hydra"] = {
-							["Details"] = {
-								["Iron Shield Spike"] = {
-									["count"] = 1.61,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 6.319999999999999,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 7.93,
-						},
-						["Defias Cutpurse"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0.33,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 13.32,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 13.65,
-						},
-						["Thistle Bear"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 3.5,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 3.270000000000001,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 6.770000000000001,
-						},
-						["Moonstalker"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 3.5,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0.6799999999999999,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 4.180000000000001,
-						},
-						["Foulweald Den Watcher"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 3.5,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 28.53,
-								},
-								["Hammer of Justice"] = {
-									["count"] = 1.23,
-								},
-								["Melee"] = {
-									["count"] = 14.76,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 48.02,
-						},
-						["Saltspittle Warrior"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 7,
-								},
-								["Melee"] = {
-									["count"] = 4.23,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 33.68,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 44.91,
-						},
-						["Foulweald Ursa"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 7,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 27.11,
-								},
-								["Melee"] = {
-									["count"] = 2.1,
-								},
-								["Judgement of Light"] = {
-									["count"] = 1.82,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 38.02999999999999,
-						},
-						["Foulweald Warrior"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 48.65,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 266.48,
-								},
-								["Iron Shield Spike"] = {
-									["count"] = 9.1,
-								},
-								["Melee"] = {
-									["count"] = 62.56999999999999,
-								},
-								["Hammer of Justice"] = {
-									["count"] = 0.57,
-								},
-								["Judgement of Light"] = {
-									["count"] = 9.780000000000001,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0.01,
-								},
-							},
-							["amount"] = 397.1599999999998,
-						},
-						["Wild Buck"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 37.37000000000001,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 75.84000000000002,
-								},
-								["Melee"] = {
-									["count"] = 4.39,
-								},
-								["Iron Shield Spike"] = {
-									["count"] = 1.61,
-								},
-								["Judgement of Light"] = {
-									["count"] = 1,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 120.21,
-						},
-						["Ghostpaw Runner"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 43.01000000000001,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 83.62999999999997,
-								},
-								["Iron Shield Spike"] = {
-									["count"] = 0.94,
-								},
-								["Melee"] = {
-									["count"] = 7.22,
-								},
-								["Judgement of Light"] = {
-									["count"] = 2.09,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 136.89,
-						},
-						["Ashenvale Bear"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 21,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 58.27,
-								},
-								["Melee"] = {
-									["count"] = 4.24,
-								},
-								["Iron Shield Spike"] = {
-									["count"] = 0.01,
-								},
-								["Judgement of Light"] = {
-									["count"] = 1.09,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 84.60999999999999,
-						},
-						["Saltspittle Oracle"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 7,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 22.01,
-								},
-								["Melee"] = {
-									["count"] = 7.310000000000001,
-								},
-								["Judgement of Light"] = {
-									["count"] = 4.35,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 40.67,
-						},
-						["Blackwood Shaman"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 18.11,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 61.11000000000001,
-								},
-								["Iron Shield Spike"] = {
-									["count"] = 1.9,
-								},
-								["Melee"] = {
-									["count"] = 1.28,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 82.39999999999999,
-						},
-						["Mangy Wolf"] = {
-							["Details"] = {
-								["Iron Shield Spike"] = {
-									["count"] = 1.72,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 30.88,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 32.59999999999999,
-						},
-						["Wrathtail Myrmidon"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 20.38,
-								},
-								["Melee"] = {
-									["count"] = 20.7,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 54.74000000000001,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 95.82000000000001,
-						},
-						["Wrathtail Wave Rider"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 33.32,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 49.14999999999999,
-								},
-								["Melee"] = {
-									["count"] = 3.49,
-								},
-								["Iron Shield Spike"] = {
-									["count"] = 0.76,
-								},
-								["Judgement of Light"] = {
-									["count"] = 4.24,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 90.96000000000001,
+							["amount"] = 2,
 						},
 						["Wrathtail Priestess"] = {
 							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 32.66,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 50.50000000000002,
-								},
-								["Iron Shield Spike"] = {
-									["count"] = 3.01,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
+								["Heal (Interrupt)"] = {
+									["count"] = 1,
 								},
 							},
-							["amount"] = 86.16999999999999,
+							["amount"] = 1,
 						},
-						["Dentrebras"] = {
+						["Ilkrud Magthrull"] = {
 							["Details"] = {
-								["Holy Light"] = {
-									["count"] = 6.32,
+								["Shadow Bolt (Interrupt)"] = {
+									["count"] = 1,
 								},
 							},
-							["amount"] = 6.32,
+							["amount"] = 1,
 						},
+					},
+					["WhoDispelled"] = {
 						["Flokus"] = {
 							["Details"] = {
-								["Healing Potion"] = {
-									["count"] = 2.26,
-								},
-								["Holy Light"] = {
-									["count"] = 41.74999999999999,
-								},
-								["Judgement of Light"] = {
-									["count"] = 5.06,
-								},
-							},
-							["amount"] = 49.07000000000001,
-						},
-						["Grizzled Thistle Bear"] = {
-							["Details"] = {
-								["Seal of Righteousness"] = {
-									["count"] = 9.800000000000001,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 9.800000000000001,
-						},
-						["Mugglefin"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 4.07,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 4.720000000000001,
-								},
-								["Iron Shield Spike"] = {
-									["count"] = 1.22,
-								},
-								["Melee"] = {
-									["count"] = 0.6,
-								},
-								["Judgement of Light"] = {
-									["count"] = 2.16,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 12.77,
-						},
-						["Saltspittle Puddlejumper"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 8.18,
-								},
-								["Melee"] = {
-									["count"] = 9.109999999999999,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 20.34,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 37.63,
-						},
-						["Spined Crawler"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0.91,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0.6800000000000001,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 1.59,
-						},
-						["Felslayer"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 27.98,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 116.02,
-								},
-								["Iron Shield Spike"] = {
-									["count"] = 3.11,
-								},
-								["Melee"] = {
-									["count"] = 18.44,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 165.55,
-						},
-						["Rat"] = {
-							["Details"] = {
-								["Consecration (DoT)"] = {
-									["count"] = 3.5,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 28,
-								},
-							},
-							["amount"] = 31.5,
-						},
-						["Kobold Miner"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 95.86,
-								},
-								["Exorcism"] = {
-									["count"] = 3.5,
-								},
-								["Melee"] = {
-									["count"] = 2.839999999999999,
-								},
-								["Consecration (DoT)"] = {
-									["count"] = 37.38999999999999,
-								},
-								["Iron Shield Spike"] = {
-									["count"] = 22.89,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 311.4599999999998,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 473.9399999999998,
-						},
-						["Volcor"] = {
-							["Details"] = {
-								["Judgement of Light"] = {
-									["count"] = 5.63,
-								},
-							},
-							["amount"] = 5.63,
-						},
-						["Wildthorn Stalker"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 32.77,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 81.81,
-								},
-								["Iron Shield Spike"] = {
-									["count"] = 1.7,
-								},
-								["Melee"] = {
-									["count"] = 11.53,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 127.81,
-						},
-						["Rabid Thistle Bear"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 3.5,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 1.79,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 5.29,
-						},
-					},
-					["Healing"] = 10186,
-					["DamageTaken"] = 19771,
-					["ElementTakenBlock"] = {
-						["Melee"] = 679,
-					},
-					["Attacks"] = {
-						["Consecration (DoT)"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 20,
-									["min"] = 18,
-									["count"] = 180,
-									["amount"] = 3433,
-								},
-							},
-							["count"] = 180,
-							["amount"] = 3433,
-						},
-						["Exorcism"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 182,
-									["min"] = 140,
-									["count"] = 6,
-									["amount"] = 916,
-								},
-							},
-							["count"] = 6,
-							["amount"] = 916,
-						},
-						["Iron Shield Spike"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 9,
-									["min"] = 5,
-									["count"] = 56,
-									["amount"] = 406,
-								},
-							},
-							["count"] = 56,
-							["amount"] = 406,
-						},
-						["Judgement of Light"] = {
-							["Details"] = {
-								["Evade"] = {
-									["count"] = 3,
-									["amount"] = 0,
-								},
-								["Miss"] = {
-									["count"] = 21,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 24,
-							["amount"] = 0,
-						},
-						["Judgement of Wisdom"] = {
-							["Details"] = {
-								["Miss"] = {
+								["Venom Spit (Purify)"] = {
 									["count"] = 1,
-									["amount"] = 0,
 								},
-							},
-							["count"] = 1,
-							["amount"] = 0,
-						},
-						["Hand of Reckoning"] = {
-							["Details"] = {
-								["Evade"] = {
+								["Corrupted Strength (Purify)"] = {
 									["count"] = 1,
-									["amount"] = 0,
-								},
-								["Miss"] = {
-									["count"] = 11,
-									["amount"] = 0,
-								},
-								["Crit"] = {
-									["max"] = 355,
-									["min"] = 167,
-									["count"] = 15,
-									["amount"] = 2993,
-								},
-								["Hit"] = {
-									["max"] = 255,
-									["min"] = 100,
-									["count"] = 239,
-									["amount"] = 30197,
 								},
 							},
-							["count"] = 266,
-							["amount"] = 33190,
-						},
-						["Hammer of Justice"] = {
-							["Details"] = {
-								["Miss"] = {
-									["count"] = 10,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 10,
-							["amount"] = 0,
-						},
-						["Consecration"] = {
-							["Details"] = {
-								["Miss"] = {
-									["count"] = 2,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 2,
-							["amount"] = 0,
-						},
-						["Seal of Righteousness"] = {
-							["Details"] = {
-								["Absorb"] = {
-									["count"] = 11,
-									["amount"] = 0,
-								},
-								["Hit"] = {
-									["max"] = 31,
-									["min"] = 4,
-									["count"] = 1446,
-									["amount"] = 17679,
-								},
-							},
-							["count"] = 1457,
-							["amount"] = 17679,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["Glancing"] = {
-									["max"] = 321,
-									["min"] = 25,
-									["count"] = 336,
-									["amount"] = 29431,
-								},
-								["Absorb"] = {
-									["count"] = 13,
-									["amount"] = 0,
-								},
-								["Dodge"] = {
-									["count"] = 56,
-									["amount"] = 0,
-								},
-								["Hit"] = {
-									["max"] = 127,
-									["min"] = 34,
-									["count"] = 598,
-									["amount"] = 29690,
-								},
-								["Hit (Blocked)"] = {
-									["max"] = 128,
-									["min"] = 23,
-									["count"] = 51,
-									["amount"] = 1762,
-								},
-								["Miss"] = {
-									["count"] = 89,
-									["amount"] = 0,
-								},
-								["Crit"] = {
-									["max"] = 194,
-									["min"] = 70,
-									["count"] = 112,
-									["amount"] = 13858,
-								},
-								["Parry"] = {
-									["count"] = 36,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 1291,
-							["amount"] = 74741,
-						},
-						["Judgement of Righteousness"] = {
-							["Details"] = {
-								["Absorb"] = {
-									["count"] = 4,
-									["amount"] = 0,
-								},
-								["Crit"] = {
-									["max"] = 112,
-									["min"] = 90,
-									["count"] = 37,
-									["amount"] = 3852,
-								},
-								["Hit"] = {
-									["max"] = 95,
-									["min"] = 37,
-									["count"] = 300,
-									["amount"] = 14671,
-								},
-							},
-							["count"] = 341,
-							["amount"] = 18523,
+							["amount"] = 2,
 						},
 					},
-					["HealingTaken"] = 11262,
 					["PartialAbsorb"] = {
 						["Fire Shield Effect II"] = {
 							["Details"] = {
@@ -22669,19 +6407,19 @@ RecountPerCharDB = {
 							["count"] = 8,
 							["amount"] = 77,
 						},
-						["Pierce Armor"] = {
+						["Thorns"] = {
 							["Details"] = {
 								["No Absorb"] = {
 									["max"] = 0,
 									["min"] = 0,
-									["count"] = 4,
+									["count"] = 13,
 									["amount"] = 0,
 								},
 							},
-							["count"] = 4,
+							["count"] = 13,
 							["amount"] = 0,
 						},
-						["Backstab"] = {
+						["Smite"] = {
 							["Details"] = {
 								["No Absorb"] = {
 									["max"] = 0,
@@ -22693,23 +6431,17 @@ RecountPerCharDB = {
 							["count"] = 1,
 							["amount"] = 0,
 						},
-						["Attack"] = {
+						["Pierce Armor"] = {
 							["Details"] = {
 								["No Absorb"] = {
 									["max"] = 0,
 									["min"] = 0,
-									["count"] = 5,
+									["count"] = 4,
 									["amount"] = 0,
 								},
-								["Absorbed"] = {
-									["max"] = 13,
-									["min"] = 13,
-									["count"] = 1,
-									["amount"] = 13,
-								},
 							},
-							["count"] = 6,
-							["amount"] = 13,
+							["count"] = 4,
+							["amount"] = 0,
 						},
 						["Strike"] = {
 							["Details"] = {
@@ -22753,23 +6485,23 @@ RecountPerCharDB = {
 							["count"] = 1463,
 							["amount"] = 6874,
 						},
-						["Frostbolt"] = {
+						["Shock"] = {
 							["Details"] = {
 								["No Absorb"] = {
 									["max"] = 0,
 									["min"] = 0,
-									["count"] = 2,
+									["count"] = 7,
 									["amount"] = 0,
 								},
 								["Absorbed"] = {
-									["max"] = 51,
-									["min"] = 51,
-									["count"] = 1,
-									["amount"] = 51,
+									["max"] = 112,
+									["min"] = 31,
+									["count"] = 3,
+									["amount"] = 245,
 								},
 							},
-							["count"] = 3,
-							["amount"] = 51,
+							["count"] = 10,
+							["amount"] = 245,
 						},
 						["Mind Blast"] = {
 							["Details"] = {
@@ -22843,7 +6575,7 @@ RecountPerCharDB = {
 							["count"] = 4,
 							["amount"] = 0,
 						},
-						["Firebolt"] = {
+						["Frostbolt"] = {
 							["Details"] = {
 								["No Absorb"] = {
 									["max"] = 0,
@@ -22852,14 +6584,14 @@ RecountPerCharDB = {
 									["amount"] = 0,
 								},
 								["Absorbed"] = {
-									["max"] = 24,
-									["min"] = 24,
+									["max"] = 51,
+									["min"] = 51,
 									["count"] = 1,
-									["amount"] = 24,
+									["amount"] = 51,
 								},
 							},
 							["count"] = 3,
-							["amount"] = 24,
+							["amount"] = 51,
 						},
 						["Knockdown"] = {
 							["Details"] = {
@@ -22879,23 +6611,23 @@ RecountPerCharDB = {
 							["count"] = 7,
 							["amount"] = 86,
 						},
-						["Shock"] = {
+						["Firebolt"] = {
 							["Details"] = {
 								["No Absorb"] = {
 									["max"] = 0,
 									["min"] = 0,
-									["count"] = 7,
+									["count"] = 2,
 									["amount"] = 0,
 								},
 								["Absorbed"] = {
-									["max"] = 112,
-									["min"] = 31,
-									["count"] = 3,
-									["amount"] = 245,
+									["max"] = 24,
+									["min"] = 24,
+									["count"] = 1,
+									["amount"] = 24,
 								},
 							},
-							["count"] = 10,
-							["amount"] = 245,
+							["count"] = 3,
+							["amount"] = 24,
 						},
 						["Shadow Word: Pain (DoT)"] = {
 							["Details"] = {
@@ -22921,7 +6653,7 @@ RecountPerCharDB = {
 							["count"] = 1,
 							["amount"] = 0,
 						},
-						["Smite"] = {
+						["Backstab"] = {
 							["Details"] = {
 								["No Absorb"] = {
 									["max"] = 0,
@@ -22933,21 +6665,103 @@ RecountPerCharDB = {
 							["count"] = 1,
 							["amount"] = 0,
 						},
-						["Thorns"] = {
+						["Attack"] = {
 							["Details"] = {
 								["No Absorb"] = {
 									["max"] = 0,
 									["min"] = 0,
-									["count"] = 13,
+									["count"] = 5,
 									["amount"] = 0,
 								},
+								["Absorbed"] = {
+									["max"] = 13,
+									["min"] = 13,
+									["count"] = 1,
+									["amount"] = 13,
+								},
 							},
-							["count"] = 13,
-							["amount"] = 0,
+							["count"] = 6,
+							["amount"] = 13,
 						},
 					},
-					["TimeDamage"] = 3980.770000000003,
-					["TimeDamaging"] = {
+					["Heals"] = {
+						["Healing Potion"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 294,
+									["min"] = 227,
+									["count"] = 2,
+									["amount"] = 521,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 521,
+						},
+						["Holy Light"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 171,
+									["min"] = 171,
+									["count"] = 1,
+									["amount"] = 171,
+								},
+								["Hit"] = {
+									["max"] = 246,
+									["min"] = 202,
+									["count"] = 18,
+									["amount"] = 4051,
+								},
+							},
+							["count"] = 19,
+							["amount"] = 4222,
+						},
+						["Judgement of Light"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 17,
+									["min"] = 1,
+									["count"] = 372,
+									["amount"] = 5443,
+								},
+							},
+							["count"] = 372,
+							["amount"] = 5443,
+						},
+					},
+					["WhoHealed"] = {
+						["Nemuritorujr"] = {
+							["Details"] = {
+								["Renew"] = {
+									["count"] = 2036,
+								},
+								["Lesser Heal"] = {
+									["count"] = 318,
+								},
+							},
+							["amount"] = 2354,
+						},
+						["Flokus"] = {
+							["Details"] = {
+								["Healing Potion"] = {
+									["count"] = 521,
+								},
+								["Holy Light"] = {
+									["count"] = 3175,
+								},
+								["Judgement of Light"] = {
+									["count"] = 5212,
+								},
+							},
+							["amount"] = 8908,
+						},
+					},
+					["Interrupts"] = 17,
+					["ElementTakenBlock"] = {
+						["Melee"] = 679,
+					},
+					["Healing"] = 10186,
+					["DamageTaken"] = 19771,
+					["TimeSpent"] = {
 						["Lesser Felguard"] = {
 							["Details"] = {
 								["Hand of Reckoning"] = {
@@ -22976,20 +6790,26 @@ RecountPerCharDB = {
 						},
 						["Nemuritorujr"] = {
 							["Details"] = {
-								["Hammer of Justice"] = {
-									["count"] = 3.5,
+								["Holy Light"] = {
+									["count"] = 10.5,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 16.11,
 								},
 								["Melee"] = {
 									["count"] = 57.39000000000001,
 								},
-								["Seal of Righteousness"] = {
-									["count"] = 16.11,
+								["Hammer of Justice"] = {
+									["count"] = 3.5,
+								},
+								["Judgement of Light"] = {
+									["count"] = 23.25,
 								},
 								["Judgement of Righteousness"] = {
 									["count"] = 0,
 								},
 							},
-							["amount"] = 76.99999999999999,
+							["amount"] = 110.75,
 						},
 						["Kobold Tunneler"] = {
 							["Details"] = {
@@ -23005,11 +6825,11 @@ RecountPerCharDB = {
 								["Hand of Reckoning"] = {
 									["count"] = 125.87,
 								},
-								["Iron Shield Spike"] = {
-									["count"] = 14.02,
-								},
 								["Melee"] = {
 									["count"] = 0.14,
+								},
+								["Iron Shield Spike"] = {
+									["count"] = 14.02,
 								},
 								["Judgement of Righteousness"] = {
 									["count"] = 0.02,
@@ -23092,11 +6912,11 @@ RecountPerCharDB = {
 								["Hand of Reckoning"] = {
 									["count"] = 40.23,
 								},
-								["Melee"] = {
-									["count"] = 2.09,
-								},
 								["Seal of Righteousness"] = {
 									["count"] = 70.88999999999999,
+								},
+								["Melee"] = {
+									["count"] = 2.09,
 								},
 								["Judgement of Righteousness"] = {
 									["count"] = 0,
@@ -23146,11 +6966,1227 @@ RecountPerCharDB = {
 								["Hand of Reckoning"] = {
 									["count"] = 4.07,
 								},
+								["Melee"] = {
+									["count"] = 1.01,
+								},
 								["Seal of Righteousness"] = {
 									["count"] = 30.88,
 								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 35.96,
+						},
+						["Blackwood Warrior"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 7.810000000000001,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 12.8,
+								},
+								["Melee"] = {
+									["count"] = 0.24,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 20.85,
+						},
+						["Foulweald Pathfinder"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 10.5,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 55.25999999999999,
+								},
+								["Melee"] = {
+									["count"] = 17.92,
+								},
+								["Iron Shield Spike"] = {
+									["count"] = 0.34,
+								},
+								["Hammer of Justice"] = {
+									["count"] = 1.43,
+								},
+								["Judgement of Light"] = {
+									["count"] = 0.63,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 86.07999999999997,
+						},
+						["Succubus Minion"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 3.5,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0.9299999999999999,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 4.43,
+						},
+						["Ilkrud Magthrull"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 3.5,
+								},
+								["Melee"] = {
+									["count"] = 0.08,
+								},
+								["Iron Shield Spike"] = {
+									["count"] = 3.5,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 19.98,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 27.06,
+						},
+						["Thistlefur Avenger"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 3.5,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 6.76,
+								},
+								["Melee"] = {
+									["count"] = 8.35,
+								},
+								["Judgement of Light"] = {
+									["count"] = 1.33,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 19.94,
+						},
+						["Twilight Thug"] = {
+							["Details"] = {
+								["Seal of Righteousness"] = {
+									["count"] = 20.47,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Iron Shield Spike"] = {
+									["count"] = 1.91,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 22.38,
+						},
+						["Foulweald Shaman"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 3.5,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 8.949999999999999,
+								},
+								["Melee"] = {
+									["count"] = 2.66,
+								},
+								["Iron Shield Spike"] = {
+									["count"] = 1.17,
+								},
+								["Judgement of Light"] = {
+									["count"] = 1.1,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 17.38,
+						},
+						["Wrathtail Razortail"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 7,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 18.37,
+								},
+								["Melee"] = {
+									["count"] = 2.12,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0.02,
+								},
+							},
+							["amount"] = 27.51,
+						},
+						["Rabid Thistle Bear"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 3.5,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 1.79,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 5.29,
+						},
+						["Defias Cutpurse"] = {
+							["Details"] = {
+								["Seal of Righteousness"] = {
+									["count"] = 13.32,
+								},
+								["Melee"] = {
+									["count"] = 0.33,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 13.65,
+						},
+						["Foulweald Totemic"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 33.84,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 137.96,
+								},
+								["Iron Shield Spike"] = {
+									["count"] = 1.66,
+								},
+								["Melee"] = {
+									["count"] = 32.99,
+								},
+								["Hammer of Justice"] = {
+									["count"] = 2.87,
+								},
+								["Judgement of Light"] = {
+									["count"] = 4.17,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 213.49,
+						},
+						["Mist Howler"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 6.140000000000001,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 17.71,
+								},
+								["Melee"] = {
+									["count"] = 7.57,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 31.42,
+						},
+						["Carnivous the Breaker"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 3.5,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 6.75,
+								},
+								["Melee"] = {
+									["count"] = 0.37,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 10.62,
+						},
+						["Blackwood Totemic"] = {
+							["Details"] = {
+								["Seal of Righteousness"] = {
+									["count"] = 4.02,
+								},
+								["Melee"] = {
+									["count"] = 0.26,
+								},
+								["Iron Shield Spike"] = {
+									["count"] = 2.04,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 6.32,
+						},
+						["Foulweald Ursa"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 7,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 27.11,
+								},
+								["Melee"] = {
+									["count"] = 2.1,
+								},
+								["Judgement of Light"] = {
+									["count"] = 1.82,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 38.02999999999999,
+						},
+						["Blackwood Ursa"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 37.82,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 158.59,
+								},
+								["Iron Shield Spike"] = {
+									["count"] = 6.42,
+								},
+								["Melee"] = {
+									["count"] = 29.26,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 232.09,
+						},
+						["Thistle Bear"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 3.5,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 3.270000000000001,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 6.770000000000001,
+						},
+						["Moonstalker"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 3.5,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0.6799999999999999,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 4.180000000000001,
+						},
+						["Foulweald Den Watcher"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 3.5,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 28.53,
+								},
+								["Hammer of Justice"] = {
+									["count"] = 1.23,
+								},
+								["Melee"] = {
+									["count"] = 14.76,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 48.02,
+						},
+						["Ashenvale Bear"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 21,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 58.27,
+								},
+								["Melee"] = {
+									["count"] = 4.24,
+								},
+								["Iron Shield Spike"] = {
+									["count"] = 0.01,
+								},
+								["Judgement of Light"] = {
+									["count"] = 1.09,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 84.60999999999999,
+						},
+						["Felslayer"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 27.98,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 116.02,
+								},
+								["Iron Shield Spike"] = {
+									["count"] = 3.11,
+								},
+								["Melee"] = {
+									["count"] = 18.44,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 165.55,
+						},
+						["Spined Crawler"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0.91,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0.6800000000000001,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 1.59,
+						},
+						["Wild Buck"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 37.37000000000001,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 75.84000000000002,
+								},
+								["Melee"] = {
+									["count"] = 4.39,
+								},
+								["Iron Shield Spike"] = {
+									["count"] = 1.61,
+								},
+								["Judgement of Light"] = {
+									["count"] = 1,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 120.21,
+						},
+						["Ghostpaw Runner"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 43.01000000000001,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 83.62999999999997,
+								},
+								["Iron Shield Spike"] = {
+									["count"] = 0.94,
+								},
+								["Melee"] = {
+									["count"] = 7.22,
+								},
+								["Judgement of Light"] = {
+									["count"] = 2.09,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 136.89,
+						},
+						["Wrathtail Myrmidon"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 20.38,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 54.74000000000001,
+								},
+								["Melee"] = {
+									["count"] = 20.7,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 95.82000000000001,
+						},
+						["Saltspittle Oracle"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 7,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 22.01,
+								},
+								["Melee"] = {
+									["count"] = 7.310000000000001,
+								},
+								["Judgement of Light"] = {
+									["count"] = 4.35,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 40.67,
+						},
+						["Blackwood Shaman"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 18.11,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 61.11000000000001,
+								},
+								["Iron Shield Spike"] = {
+									["count"] = 1.9,
+								},
+								["Melee"] = {
+									["count"] = 1.28,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 82.39999999999999,
+						},
+						["Mangy Wolf"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 30.88,
+								},
+								["Iron Shield Spike"] = {
+									["count"] = 1.72,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 32.59999999999999,
+						},
+						["Mugglefin"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 4.07,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 4.720000000000001,
+								},
+								["Iron Shield Spike"] = {
+									["count"] = 1.22,
+								},
+								["Melee"] = {
+									["count"] = 0.6,
+								},
+								["Judgement of Light"] = {
+									["count"] = 2.16,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 12.77,
+						},
+						["Wrathtail Wave Rider"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 33.32,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 49.14999999999999,
+								},
+								["Melee"] = {
+									["count"] = 3.49,
+								},
+								["Iron Shield Spike"] = {
+									["count"] = 0.76,
+								},
+								["Judgement of Light"] = {
+									["count"] = 4.24,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 90.96000000000001,
+						},
+						["Grizzled Thistle Bear"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 9.800000000000001,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 9.800000000000001,
+						},
+						["Flokus"] = {
+							["Details"] = {
+								["Healing Potion"] = {
+									["count"] = 2.26,
+								},
+								["Holy Light"] = {
+									["count"] = 41.74999999999999,
+								},
+								["Judgement of Light"] = {
+									["count"] = 5.06,
+								},
+							},
+							["amount"] = 49.07000000000001,
+						},
+						["Dentrebras"] = {
+							["Details"] = {
+								["Holy Light"] = {
+									["count"] = 6.32,
+								},
+							},
+							["amount"] = 6.32,
+						},
+						["Mystlash Hydra"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 6.319999999999999,
+								},
+								["Iron Shield Spike"] = {
+									["count"] = 1.61,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 7.93,
+						},
+						["Wrathtail Priestess"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 32.66,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 50.50000000000002,
+								},
+								["Iron Shield Spike"] = {
+									["count"] = 3.01,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 86.16999999999999,
+						},
+						["Saltspittle Puddlejumper"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 8.18,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 20.34,
+								},
+								["Melee"] = {
+									["count"] = 9.109999999999999,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 37.63,
+						},
+						["Defias Bandit"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 3.5,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 1.45,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 4.95,
+						},
+						["Saltspittle Warrior"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 7,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 33.68,
+								},
+								["Melee"] = {
+									["count"] = 4.23,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 44.91,
+						},
+						["Rat"] = {
+							["Details"] = {
+								["Consecration (DoT)"] = {
+									["count"] = 3.5,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 28,
+								},
+							},
+							["amount"] = 31.5,
+						},
+						["Kobold Miner"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 95.86,
+								},
+								["Exorcism"] = {
+									["count"] = 3.5,
+								},
+								["Melee"] = {
+									["count"] = 2.839999999999999,
+								},
+								["Consecration (DoT)"] = {
+									["count"] = 37.38999999999999,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 311.4599999999998,
+								},
+								["Iron Shield Spike"] = {
+									["count"] = 22.89,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 473.9399999999998,
+						},
+						["Volcor"] = {
+							["Details"] = {
+								["Judgement of Light"] = {
+									["count"] = 5.63,
+								},
+							},
+							["amount"] = 5.63,
+						},
+						["Wildthorn Stalker"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 32.77,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 81.81,
+								},
+								["Iron Shield Spike"] = {
+									["count"] = 1.7,
+								},
+								["Melee"] = {
+									["count"] = 11.53,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 127.81,
+						},
+						["Foulweald Warrior"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 48.65,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 266.48,
+								},
+								["Iron Shield Spike"] = {
+									["count"] = 9.1,
+								},
+								["Melee"] = {
+									["count"] = 62.56999999999999,
+								},
+								["Hammer of Justice"] = {
+									["count"] = 0.57,
+								},
+								["Judgement of Light"] = {
+									["count"] = 9.780000000000001,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0.01,
+								},
+							},
+							["amount"] = 397.1599999999998,
+						},
+					},
+					["Attacks"] = {
+						["Consecration (DoT)"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 20,
+									["min"] = 18,
+									["count"] = 180,
+									["amount"] = 3433,
+								},
+							},
+							["count"] = 180,
+							["amount"] = 3433,
+						},
+						["Exorcism"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 182,
+									["min"] = 140,
+									["count"] = 6,
+									["amount"] = 916,
+								},
+							},
+							["count"] = 6,
+							["amount"] = 916,
+						},
+						["Iron Shield Spike"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 9,
+									["min"] = 5,
+									["count"] = 56,
+									["amount"] = 406,
+								},
+							},
+							["count"] = 56,
+							["amount"] = 406,
+						},
+						["Judgement of Light"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 21,
+									["amount"] = 0,
+								},
+								["Evade"] = {
+									["count"] = 3,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 24,
+							["amount"] = 0,
+						},
+						["Judgement of Wisdom"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+						["Hand of Reckoning"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 255,
+									["min"] = 100,
+									["count"] = 239,
+									["amount"] = 30197,
+								},
+								["Miss"] = {
+									["count"] = 11,
+									["amount"] = 0,
+								},
+								["Crit"] = {
+									["max"] = 355,
+									["min"] = 167,
+									["count"] = 15,
+									["amount"] = 2993,
+								},
+								["Evade"] = {
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 266,
+							["amount"] = 33190,
+						},
+						["Hammer of Justice"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 10,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 10,
+							["amount"] = 0,
+						},
+						["Consecration"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 2,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 0,
+						},
+						["Seal of Righteousness"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 31,
+									["min"] = 4,
+									["count"] = 1446,
+									["amount"] = 17679,
+								},
+								["Absorb"] = {
+									["count"] = 11,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1457,
+							["amount"] = 17679,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Glancing"] = {
+									["max"] = 321,
+									["min"] = 25,
+									["count"] = 336,
+									["amount"] = 29431,
+								},
+								["Absorb"] = {
+									["count"] = 13,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 127,
+									["min"] = 34,
+									["count"] = 598,
+									["amount"] = 29690,
+								},
+								["Dodge"] = {
+									["count"] = 56,
+									["amount"] = 0,
+								},
+								["Hit (Blocked)"] = {
+									["max"] = 128,
+									["min"] = 23,
+									["count"] = 51,
+									["amount"] = 1762,
+								},
+								["Miss"] = {
+									["count"] = 89,
+									["amount"] = 0,
+								},
+								["Crit"] = {
+									["max"] = 194,
+									["min"] = 70,
+									["count"] = 112,
+									["amount"] = 13858,
+								},
+								["Parry"] = {
+									["count"] = 36,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1291,
+							["amount"] = 74741,
+						},
+						["Judgement of Righteousness"] = {
+							["Details"] = {
+								["Absorb"] = {
+									["count"] = 4,
+									["amount"] = 0,
+								},
+								["Crit"] = {
+									["max"] = 112,
+									["min"] = 90,
+									["count"] = 37,
+									["amount"] = 3852,
+								},
+								["Hit"] = {
+									["max"] = 95,
+									["min"] = 37,
+									["count"] = 300,
+									["amount"] = 14671,
+								},
+							},
+							["count"] = 341,
+							["amount"] = 18523,
+						},
+					},
+					["HealingTaken"] = 11262,
+					["ManaGainedFrom"] = {
+						["Flokus"] = {
+							["Details"] = {
+								["Restore Mana"] = {
+									["count"] = 280,
+								},
+								["Judgement of Wisdom"] = {
+									["count"] = 488,
+								},
+							},
+							["amount"] = 768,
+						},
+					},
+					["TimeDamage"] = 3980.770000000003,
+					["TimeDamaging"] = {
+						["Lesser Felguard"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 31.5,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 120.8,
+								},
+								["Iron Shield Spike"] = {
+									["count"] = 5.99,
+								},
+								["Hammer of Justice"] = {
+									["count"] = 1.87,
+								},
+								["Melee"] = {
+									["count"] = 22.22,
+								},
+								["Judgement of Light"] = {
+									["count"] = 0.09,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 182.4700000000001,
+						},
+						["Nemuritorujr"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 57.39000000000001,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 16.11,
+								},
+								["Hammer of Justice"] = {
+									["count"] = 3.5,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 76.99999999999999,
+						},
+						["Kobold Tunneler"] = {
+							["Details"] = {
+								["Consecration (DoT)"] = {
+									["count"] = 8.629999999999999,
+								},
+								["Exorcism"] = {
+									["count"] = 13.04,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 388.2000000000001,
+								},
+								["Hand of Reckoning"] = {
+									["count"] = 125.87,
+								},
+								["Melee"] = {
+									["count"] = 0.14,
+								},
+								["Iron Shield Spike"] = {
+									["count"] = 14.02,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0.02,
+								},
+							},
+							["amount"] = 549.92,
+						},
+						["Forest Spider"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 3.5,
+								},
+							},
+							["amount"] = 3.5,
+						},
+						["Searing Totem II"] = {
+							["Details"] = {
+								["Seal of Righteousness"] = {
+									["count"] = 19.85,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 19.85,
+						},
+						["Narg the Taskmaster"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 2.61,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 1.18,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 3.79,
+						},
+						["Imp Minion"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0.27,
+								},
+								["Melee"] = {
+									["count"] = 3.5,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 1.21,
+								},
+							},
+							["amount"] = 4.98,
+						},
+						["Goldtooth"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 4.92,
+								},
+								["Exorcism"] = {
+									["count"] = 3.2,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 22.12,
+								},
+								["Iron Shield Spike"] = {
+									["count"] = 0.02,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 30.26,
+						},
+						["Wrathtail Sorceress"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 40.23,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 70.88999999999999,
+								},
+								["Melee"] = {
+									["count"] = 2.09,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 113.21,
+						},
+						["Expert's Training Dummy"] = {
+							["Details"] = {
+								["Consecration"] = {
+									["count"] = 1.62,
+								},
+								["Melee"] = {
+									["count"] = 0.03,
+								},
+								["Judgement of Wisdom"] = {
+									["count"] = 3.5,
+								},
+							},
+							["amount"] = 5.15,
+						},
+						["Dark Strand Cultist"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 7,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 20.75999999999999,
+								},
+								["Hammer of Justice"] = {
+									["count"] = 1.53,
+								},
+								["Melee"] = {
+									["count"] = 2.09,
+								},
+								["Judgement of Light"] = {
+									["count"] = 1.92,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 33.3,
+						},
+						["Dark Strand Assassin"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 4.07,
+								},
 								["Melee"] = {
 									["count"] = 1.01,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 30.88,
 								},
 								["Judgement of Righteousness"] = {
 									["count"] = 0,
@@ -23209,11 +8245,11 @@ RecountPerCharDB = {
 								["Hand of Reckoning"] = {
 									["count"] = 3.5,
 								},
-								["Melee"] = {
-									["count"] = 0,
-								},
 								["Seal of Righteousness"] = {
 									["count"] = 0.9299999999999999,
+								},
+								["Melee"] = {
+									["count"] = 0,
 								},
 								["Judgement of Righteousness"] = {
 									["count"] = 0,
@@ -23263,14 +8299,14 @@ RecountPerCharDB = {
 						},
 						["Twilight Thug"] = {
 							["Details"] = {
-								["Iron Shield Spike"] = {
-									["count"] = 1.91,
-								},
 								["Seal of Righteousness"] = {
 									["count"] = 20.47,
 								},
 								["Melee"] = {
 									["count"] = 0,
+								},
+								["Iron Shield Spike"] = {
+									["count"] = 1.91,
 								},
 								["Judgement of Righteousness"] = {
 									["count"] = 0,
@@ -23306,11 +8342,11 @@ RecountPerCharDB = {
 								["Hand of Reckoning"] = {
 									["count"] = 7,
 								},
-								["Melee"] = {
-									["count"] = 2.12,
-								},
 								["Seal of Righteousness"] = {
 									["count"] = 18.37,
+								},
+								["Melee"] = {
+									["count"] = 2.12,
 								},
 								["Judgement of Righteousness"] = {
 									["count"] = 0.02,
@@ -23349,11 +8385,11 @@ RecountPerCharDB = {
 								["Hand of Reckoning"] = {
 									["count"] = 6.140000000000001,
 								},
-								["Melee"] = {
-									["count"] = 7.57,
-								},
 								["Seal of Righteousness"] = {
 									["count"] = 17.71,
+								},
+								["Melee"] = {
+									["count"] = 7.57,
 								},
 								["Judgement of Righteousness"] = {
 									["count"] = 0,
@@ -23383,14 +8419,14 @@ RecountPerCharDB = {
 						},
 						["Blackwood Totemic"] = {
 							["Details"] = {
-								["Iron Shield Spike"] = {
-									["count"] = 2.04,
-								},
 								["Seal of Righteousness"] = {
 									["count"] = 4.02,
 								},
 								["Melee"] = {
 									["count"] = 0.26,
+								},
+								["Iron Shield Spike"] = {
+									["count"] = 2.04,
 								},
 								["Judgement of Righteousness"] = {
 									["count"] = 0,
@@ -23398,30 +8434,33 @@ RecountPerCharDB = {
 							},
 							["amount"] = 6.32,
 						},
-						["Defias Bandit"] = {
+						["Rabid Thistle Bear"] = {
 							["Details"] = {
 								["Hand of Reckoning"] = {
 									["count"] = 3.5,
 								},
 								["Seal of Righteousness"] = {
-									["count"] = 1.45,
+									["count"] = 1.79,
 								},
 								["Melee"] = {
 									["count"] = 0,
 								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
 							},
-							["amount"] = 4.95,
+							["amount"] = 5.29,
 						},
 						["Thistle Bear"] = {
 							["Details"] = {
 								["Hand of Reckoning"] = {
 									["count"] = 3.5,
 								},
-								["Melee"] = {
-									["count"] = 0,
-								},
 								["Seal of Righteousness"] = {
 									["count"] = 3.270000000000001,
+								},
+								["Melee"] = {
+									["count"] = 0,
 								},
 								["Judgement of Righteousness"] = {
 									["count"] = 0,
@@ -23434,11 +8473,11 @@ RecountPerCharDB = {
 								["Hand of Reckoning"] = {
 									["count"] = 3.5,
 								},
-								["Melee"] = {
-									["count"] = 0,
-								},
 								["Seal of Righteousness"] = {
 									["count"] = 0.6799999999999999,
+								},
+								["Melee"] = {
+									["count"] = 0,
 								},
 								["Judgement of Righteousness"] = {
 									["count"] = 0,
@@ -23466,28 +8505,36 @@ RecountPerCharDB = {
 							},
 							["amount"] = 48.02,
 						},
-						["Mugglefin"] = {
+						["Defias Cutpurse"] = {
 							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 4.07,
-								},
 								["Seal of Righteousness"] = {
-									["count"] = 4.720000000000001,
-								},
-								["Iron Shield Spike"] = {
-									["count"] = 1.22,
+									["count"] = 13.32,
 								},
 								["Melee"] = {
-									["count"] = 0.6,
-								},
-								["Judgement of Light"] = {
-									["count"] = 2.16,
+									["count"] = 0.33,
 								},
 								["Judgement of Righteousness"] = {
 									["count"] = 0,
 								},
 							},
-							["amount"] = 12.77,
+							["amount"] = 13.65,
+						},
+						["Saltspittle Warrior"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 7,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 33.68,
+								},
+								["Melee"] = {
+									["count"] = 4.23,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 44.91,
 						},
 						["Foulweald Ursa"] = {
 							["Details"] = {
@@ -23508,20 +8555,6 @@ RecountPerCharDB = {
 								},
 							},
 							["amount"] = 38.02999999999999,
-						},
-						["Defias Cutpurse"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0.33,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 13.32,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 13.65,
 						},
 						["Wild Buck"] = {
 							["Details"] = {
@@ -23569,22 +8602,28 @@ RecountPerCharDB = {
 							},
 							["amount"] = 136.89,
 						},
-						["Blackwood Warrior"] = {
+						["Ashenvale Bear"] = {
 							["Details"] = {
 								["Hand of Reckoning"] = {
-									["count"] = 7.810000000000001,
-								},
-								["Melee"] = {
-									["count"] = 0.24,
+									["count"] = 21,
 								},
 								["Seal of Righteousness"] = {
-									["count"] = 12.8,
+									["count"] = 58.27,
+								},
+								["Melee"] = {
+									["count"] = 4.24,
+								},
+								["Iron Shield Spike"] = {
+									["count"] = 0.01,
+								},
+								["Judgement of Light"] = {
+									["count"] = 1.09,
 								},
 								["Judgement of Righteousness"] = {
 									["count"] = 0,
 								},
 							},
-							["amount"] = 20.85,
+							["amount"] = 84.60999999999999,
 						},
 						["Saltspittle Oracle"] = {
 							["Details"] = {
@@ -23628,14 +8667,14 @@ RecountPerCharDB = {
 						},
 						["Mangy Wolf"] = {
 							["Details"] = {
-								["Iron Shield Spike"] = {
-									["count"] = 1.72,
-								},
 								["Melee"] = {
 									["count"] = 0,
 								},
 								["Seal of Righteousness"] = {
 									["count"] = 30.88,
+								},
+								["Iron Shield Spike"] = {
+									["count"] = 1.72,
 								},
 								["Judgement of Righteousness"] = {
 									["count"] = 0,
@@ -23643,31 +8682,22 @@ RecountPerCharDB = {
 							},
 							["amount"] = 32.59999999999999,
 						},
-						["Foulweald Warrior"] = {
+						["Mystlash Hydra"] = {
 							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 48.65,
+								["Melee"] = {
+									["count"] = 0,
 								},
 								["Seal of Righteousness"] = {
-									["count"] = 266.48,
+									["count"] = 6.319999999999999,
 								},
 								["Iron Shield Spike"] = {
-									["count"] = 9.1,
-								},
-								["Melee"] = {
-									["count"] = 62.56999999999999,
-								},
-								["Hammer of Justice"] = {
-									["count"] = 0.57,
-								},
-								["Judgement of Light"] = {
-									["count"] = 9.780000000000001,
+									["count"] = 1.61,
 								},
 								["Judgement of Righteousness"] = {
-									["count"] = 0.01,
+									["count"] = 0,
 								},
 							},
-							["amount"] = 397.1599999999998,
+							["amount"] = 7.93,
 						},
 						["Wrathtail Wave Rider"] = {
 							["Details"] = {
@@ -23692,111 +8722,6 @@ RecountPerCharDB = {
 							},
 							["amount"] = 90.96000000000001,
 						},
-						["Ashenvale Bear"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 21,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 58.27,
-								},
-								["Melee"] = {
-									["count"] = 4.24,
-								},
-								["Iron Shield Spike"] = {
-									["count"] = 0.01,
-								},
-								["Judgement of Light"] = {
-									["count"] = 1.09,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 84.60999999999999,
-						},
-						["Mystlash Hydra"] = {
-							["Details"] = {
-								["Iron Shield Spike"] = {
-									["count"] = 1.61,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 6.319999999999999,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 7.93,
-						},
-						["Wrathtail Myrmidon"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 20.38,
-								},
-								["Melee"] = {
-									["count"] = 20.7,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 54.74000000000001,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 95.82000000000001,
-						},
-						["Grizzled Thistle Bear"] = {
-							["Details"] = {
-								["Seal of Righteousness"] = {
-									["count"] = 9.800000000000001,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 9.800000000000001,
-						},
-						["Carnivous the Breaker"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 3.5,
-								},
-								["Melee"] = {
-									["count"] = 0.37,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 6.75,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 10.62,
-						},
-						["Saltspittle Puddlejumper"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 8.18,
-								},
-								["Melee"] = {
-									["count"] = 9.109999999999999,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 20.34,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 37.63,
-						},
 						["Spined Crawler"] = {
 							["Details"] = {
 								["Hand of Reckoning"] = {
@@ -23810,6 +8735,108 @@ RecountPerCharDB = {
 								},
 							},
 							["amount"] = 1.59,
+						},
+						["Wrathtail Myrmidon"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 20.38,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 54.74000000000001,
+								},
+								["Melee"] = {
+									["count"] = 20.7,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 95.82000000000001,
+						},
+						["Carnivous the Breaker"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 3.5,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 6.75,
+								},
+								["Melee"] = {
+									["count"] = 0.37,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 10.62,
+						},
+						["Mugglefin"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 4.07,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 4.720000000000001,
+								},
+								["Iron Shield Spike"] = {
+									["count"] = 1.22,
+								},
+								["Melee"] = {
+									["count"] = 0.6,
+								},
+								["Judgement of Light"] = {
+									["count"] = 2.16,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 12.77,
+						},
+						["Grizzled Thistle Bear"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 9.800000000000001,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 9.800000000000001,
+						},
+						["Saltspittle Puddlejumper"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 8.18,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 20.34,
+								},
+								["Melee"] = {
+									["count"] = 9.109999999999999,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 37.63,
+						},
+						["Defias Bandit"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 3.5,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 1.45,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 4.95,
 						},
 						["Felslayer"] = {
 							["Details"] = {
@@ -23859,11 +8886,11 @@ RecountPerCharDB = {
 								["Consecration (DoT)"] = {
 									["count"] = 37.38999999999999,
 								},
-								["Iron Shield Spike"] = {
-									["count"] = 22.89,
-								},
 								["Seal of Righteousness"] = {
 									["count"] = 311.4599999999998,
+								},
+								["Iron Shield Spike"] = {
+									["count"] = 22.89,
 								},
 								["Judgement of Righteousness"] = {
 									["count"] = 0,
@@ -23871,22 +8898,22 @@ RecountPerCharDB = {
 							},
 							["amount"] = 473.9399999999998,
 						},
-						["Saltspittle Warrior"] = {
+						["Blackwood Warrior"] = {
 							["Details"] = {
 								["Hand of Reckoning"] = {
-									["count"] = 7,
-								},
-								["Melee"] = {
-									["count"] = 4.23,
+									["count"] = 7.810000000000001,
 								},
 								["Seal of Righteousness"] = {
-									["count"] = 33.68,
+									["count"] = 12.8,
+								},
+								["Melee"] = {
+									["count"] = 0.24,
 								},
 								["Judgement of Righteousness"] = {
 									["count"] = 0,
 								},
 							},
-							["amount"] = 44.91,
+							["amount"] = 20.85,
 						},
 						["Wildthorn Stalker"] = {
 							["Details"] = {
@@ -23908,91 +8935,42 @@ RecountPerCharDB = {
 							},
 							["amount"] = 127.81,
 						},
-						["Rabid Thistle Bear"] = {
+						["Foulweald Warrior"] = {
 							["Details"] = {
 								["Hand of Reckoning"] = {
-									["count"] = 3.5,
-								},
-								["Melee"] = {
-									["count"] = 0,
+									["count"] = 48.65,
 								},
 								["Seal of Righteousness"] = {
-									["count"] = 1.79,
+									["count"] = 266.48,
+								},
+								["Iron Shield Spike"] = {
+									["count"] = 9.1,
+								},
+								["Melee"] = {
+									["count"] = 62.56999999999999,
+								},
+								["Hammer of Justice"] = {
+									["count"] = 0.57,
+								},
+								["Judgement of Light"] = {
+									["count"] = 9.780000000000001,
 								},
 								["Judgement of Righteousness"] = {
-									["count"] = 0,
+									["count"] = 0.01,
 								},
 							},
-							["amount"] = 5.29,
+							["amount"] = 397.1599999999998,
 						},
 					},
 					["ManaGain"] = 768,
-					["ElementHitsDone"] = {
-						["Holy"] = {
-							["Details"] = {
-								["Absorb"] = {
-									["count"] = 15,
-								},
-								["Hit"] = {
-									["count"] = 1991,
-								},
-								["Tick"] = {
-									["count"] = 180,
-								},
-								["Miss"] = {
-									["count"] = 45,
-								},
-								["Crit"] = {
-									["count"] = 52,
-								},
-								["Evade"] = {
-									["count"] = 4,
-								},
-							},
-							["amount"] = 2287,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["Glancing"] = {
-									["count"] = 336,
-								},
-								["Absorb"] = {
-									["count"] = 13,
-								},
-								["Hit"] = {
-									["count"] = 649,
-								},
-								["Dodge"] = {
-									["count"] = 56,
-								},
-								["Miss"] = {
-									["count"] = 89,
-								},
-								["Crit"] = {
-									["count"] = 112,
-								},
-								["Parry"] = {
-									["count"] = 36,
-								},
-							},
-							["amount"] = 1291,
-						},
-						["Physical"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 56,
-								},
-							},
-							["amount"] = 56,
-						},
-					},
+					["DOT_Time"] = 540,
 					["DispelledWho"] = {
 						["Flokus"] = {
 							["Details"] = {
-								["Corrupted Strength (Purify)"] = {
+								["Venom Spit (Purify)"] = {
 									["count"] = 1,
 								},
-								["Venom Spit (Purify)"] = {
+								["Corrupted Strength (Purify)"] = {
 									["count"] = 1,
 								},
 							},
@@ -24000,9 +8978,15031 @@ RecountPerCharDB = {
 						},
 					},
 				},
+				["Fight2"] = {
+					["DOTs"] = {
+						["Consecration (DoT)"] = {
+							["Details"] = {
+								["Kobold Miner"] = {
+									["count"] = 0,
+								},
+								["Kobold Tunneler"] = {
+									["count"] = 18,
+								},
+							},
+							["amount"] = 18,
+						},
+					},
+					["ElementDoneResist"] = {
+						["Holy"] = 0,
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 7,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+						["Shadow"] = {
+							["Details"] = {
+								["Absorb"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Dodge"] = {
+									["count"] = 0,
+								},
+								["Absorb"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 5,
+								},
+								["Crushing"] = {
+									["count"] = 0,
+								},
+								["Miss"] = {
+									["count"] = 0,
+								},
+								["Block"] = {
+									["count"] = 0,
+								},
+								["Crit"] = {
+									["count"] = 0,
+								},
+								["Parry"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 5,
+						},
+						["Fire"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Physical"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 0,
+								},
+								["Absorb"] = {
+									["count"] = 0,
+								},
+								["Miss"] = {
+									["count"] = 0,
+								},
+								["Parry"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Nature"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 0,
+								},
+								["Absorb"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["HOTs"] = {
+						["Judgement of Light"] = {
+							["Details"] = {
+								["Volcor"] = {
+									["count"] = 0,
+								},
+								["Nemuritorujr"] = {
+									["count"] = 0,
+								},
+								["Flokus"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ManaGain"] = 0,
+					["ElementTaken"] = {
+						["Shadow"] = 0,
+						["Melee"] = 7,
+						["Fire"] = 0,
+						["Physical"] = 0,
+						["Nature"] = 0,
+					},
+					["DOT_Time"] = 18,
+					["Damage"] = 389,
+					["ElementDoneAbsorb"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["PartialAbsorb"] = {
+						["Strike"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 5,
+									["amount"] = 0,
+								},
+								["Absorbed"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 5,
+							["amount"] = 0,
+						},
+						["Mana Burn"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Rend"] = {
+							["Details"] = {
+								["Absorbed"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Lightning Bolt"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Absorbed"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Shadow Bolt"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Absorbed"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Knockdown"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Pierce Armor"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Firebolt"] = {
+							["Details"] = {
+								["Absorbed"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Fire Shield Effect II"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Shock"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Absorbed"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Backstab"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Thorns"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["RageGain"] = 0,
+					["FAttacks"] = {
+					},
+					["PartialBlock"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Blocked"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["ElementDone"] = {
+						["Holy"] = 187,
+						["Melee"] = 202,
+						["Physical"] = 0,
+					},
+					["CCBroken"] = {
+					},
+					["ElementHitsDone"] = {
+						["Holy"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 3,
+								},
+								["Miss"] = {
+									["count"] = 0,
+								},
+								["Crit"] = {
+									["count"] = 0,
+								},
+								["Tick"] = {
+									["count"] = 6,
+								},
+							},
+							["amount"] = 9,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Glancing"] = {
+									["count"] = 1,
+								},
+								["Hit"] = {
+									["count"] = 0,
+								},
+								["Dodge"] = {
+									["count"] = 0,
+								},
+								["Miss"] = {
+									["count"] = 0,
+								},
+								["Crit"] = {
+									["count"] = 0,
+								},
+								["Parry"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 1,
+						},
+						["Physical"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["Dispelled"] = 0,
+					["WhoDamaged"] = {
+						["Lesser Felguard"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Knockdown"] = {
+									["count"] = 0,
+								},
+								["Fire Shield Effect II"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Tunneler"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 7,
+								},
+							},
+							["amount"] = 7,
+						},
+						["Ashenvale Bear"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Narg the Taskmaster"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Imp Minion"] = {
+							["Details"] = {
+								["Firebolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Goldtooth"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Wild Buck"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Ghostpaw Runner"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Saltspittle Oracle"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Shock"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Blackwood Shaman"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Lightning Bolt"] = {
+									["count"] = 0,
+								},
+								["Shock"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Dark Strand Cultist"] = {
+							["Details"] = {
+								["Shadow Bolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Defias Cutpurse"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Backstab"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Felslayer"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Mana Burn"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Wrathtail Razortail"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Thorns"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Miner"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Blackwood Ursa"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Wildthorn Stalker"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Foulweald Warrior"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["FDamagedWho"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDoneBlock"] = {
+						["Melee"] = 0,
+					},
+					["TimeHealing"] = {
+						["Flokus"] = {
+							["Details"] = {
+								["Judgement of Light"] = {
+									["count"] = 0,
+								},
+								["Holy Light"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Volcor"] = {
+							["Details"] = {
+								["Judgement of Light"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Nemuritorujr"] = {
+							["Details"] = {
+								["Judgement of Light"] = {
+									["count"] = 0,
+								},
+								["Holy Light"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Dentrebras"] = {
+							["Details"] = {
+								["Holy Light"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["OverHeals"] = {
+						["Judgement of Light"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Holy Light"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["RageGained"] = {
+					},
+					["ActiveTime"] = 7.48,
+					["CCBreak"] = 0,
+					["EnergyGain"] = 0,
+					["WhoHealed"] = {
+						["Nemuritorujr"] = {
+							["Details"] = {
+								["Renew"] = {
+									["count"] = 0,
+								},
+								["Lesser Heal"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Flokus"] = {
+							["Details"] = {
+								["Judgement of Light"] = {
+									["count"] = 0,
+								},
+								["Holy Light"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["PartialResist"] = {
+						["Strike"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 5,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 5,
+							["amount"] = 0,
+						},
+						["Mana Burn"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Rend"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Lightning Bolt"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Shadow Bolt"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Knockdown"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Pierce Armor"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Firebolt"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Fire Shield Effect II"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Shock"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Backstab"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Thorns"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["ManaGained"] = {
+						["Restore Mana"] = {
+							["Details"] = {
+								["Flokus"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Judgement of Wisdom"] = {
+							["Details"] = {
+								["Flokus"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ElementTakenAbsorb"] = {
+						["Shadow"] = 0,
+						["Melee"] = 0,
+						["Fire"] = 0,
+						["Physical"] = 0,
+						["Nature"] = 0,
+					},
+					["Interrupts"] = 0,
+					["Overhealing"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["InterruptData"] = {
+						["Wrathtail Sorceress"] = {
+							["Details"] = {
+								["Frostbolt (Interrupt)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Dark Strand Cultist"] = {
+							["Details"] = {
+								["Shadow Bolt (Interrupt)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Blackwood Shaman"] = {
+							["Details"] = {
+								["Healing Wave (Interrupt)"] = {
+									["count"] = 0,
+								},
+								["Lightning Bolt (Interrupt)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["WhoDispelled"] = {
+					},
+					["TimeSpent"] = {
+						["Lesser Felguard"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Iron Shield Spike"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Light"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Nemuritorujr"] = {
+							["Details"] = {
+								["Judgement of Light"] = {
+									["count"] = 0,
+								},
+								["Holy Light"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Tunneler"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 1.1,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Consecration (DoT)"] = {
+									["count"] = 6.38,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 7.48,
+						},
+						["Foulweald Warrior"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Judgement of Light"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Ashenvale Bear"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Narg the Taskmaster"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Imp Minion"] = {
+							["Details"] = {
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Carnivous the Breaker"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Blackwood Ursa"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Iron Shield Spike"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Goldtooth"] = {
+							["Details"] = {
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Wild Buck"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Ghostpaw Runner"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Iron Shield Spike"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Wrathtail Razortail"] = {
+							["Details"] = {
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Saltspittle Oracle"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Light"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Blackwood Shaman"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Iron Shield Spike"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Foulweald Shaman"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Iron Shield Spike"] = {
+									["count"] = 0,
+								},
+								["Judgement of Light"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Dark Strand Cultist"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Light"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Wrathtail Wave Rider"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Iron Shield Spike"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Defias Cutpurse"] = {
+							["Details"] = {
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Dentrebras"] = {
+							["Details"] = {
+								["Holy Light"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Succubus Minion"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Wrathtail Sorceress"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Wrathtail Myrmidon"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Wrathtail Priestess"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Flokus"] = {
+							["Details"] = {
+								["Judgement of Light"] = {
+									["count"] = 0,
+								},
+								["Holy Light"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Felslayer"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Rat"] = {
+							["Details"] = {
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Miner"] = {
+							["Details"] = {
+								["Consecration (DoT)"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Iron Shield Spike"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Volcor"] = {
+							["Details"] = {
+								["Judgement of Light"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Wildthorn Stalker"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Foulweald Totemic"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["Heals"] = {
+						["Judgement of Light"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Holy Light"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["FDamage"] = 0,
+					["EnergyGained"] = {
+					},
+					["HealedWho"] = {
+						["Flokus"] = {
+							["Details"] = {
+								["Judgement of Light"] = {
+									["count"] = 0,
+								},
+								["Holy Light"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Volcor"] = {
+							["Details"] = {
+								["Judgement of Light"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Nemuritorujr"] = {
+							["Details"] = {
+								["Judgement of Light"] = {
+									["count"] = 0,
+								},
+								["Holy Light"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Dentrebras"] = {
+							["Details"] = {
+								["Holy Light"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["Healing"] = 0,
+					["RunicPowerGained"] = {
+					},
+					["ManaGainedFrom"] = {
+						["Flokus"] = {
+							["Details"] = {
+								["Restore Mana"] = {
+									["count"] = 0,
+								},
+								["Judgement of Wisdom"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["Attacks"] = {
+						["Hand of Reckoning"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Miss"] = {
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Seal of Righteousness"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 15,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 30,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 30,
+						},
+						["Consecration (DoT)"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 18,
+									["min"] = 0,
+									["count"] = 6,
+									["amount"] = 108,
+								},
+							},
+							["count"] = 6,
+							["amount"] = 108,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Glancing"] = {
+									["max"] = 202,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 202,
+								},
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Dodge"] = {
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit (Blocked)"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Miss"] = {
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Parry"] = {
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 202,
+						},
+						["Iron Shield Spike"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Judgement of Light"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Judgement of Righteousness"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 49,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 49,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 49,
+						},
+					},
+					["HealingTaken"] = 0,
+					["DamagedWho"] = {
+						["Carnivous the Breaker"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Tunneler"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 30,
+								},
+								["Melee"] = {
+									["count"] = 202,
+								},
+								["Consecration (DoT)"] = {
+									["count"] = 108,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 49,
+								},
+							},
+							["amount"] = 389,
+						},
+						["Ashenvale Bear"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Narg the Taskmaster"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Imp Minion"] = {
+							["Details"] = {
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Goldtooth"] = {
+							["Details"] = {
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Wild Buck"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Ghostpaw Runner"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Iron Shield Spike"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Foulweald Warrior"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Saltspittle Oracle"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Blackwood Shaman"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Iron Shield Spike"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Wrathtail Priestess"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Dark Strand Cultist"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Wrathtail Wave Rider"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Iron Shield Spike"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Defias Cutpurse"] = {
+							["Details"] = {
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Wrathtail Sorceress"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Succubus Minion"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Wrathtail Razortail"] = {
+							["Details"] = {
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Foulweald Shaman"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Iron Shield Spike"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Lesser Felguard"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Iron Shield Spike"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Wrathtail Myrmidon"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Felslayer"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Rat"] = {
+							["Details"] = {
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Miner"] = {
+							["Details"] = {
+								["Consecration (DoT)"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Iron Shield Spike"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Blackwood Ursa"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Iron Shield Spike"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Wildthorn Stalker"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Foulweald Totemic"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["TimeDamage"] = 7.48,
+					["TimeDamaging"] = {
+						["Carnivous the Breaker"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Tunneler"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 1.1,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Consecration (DoT)"] = {
+									["count"] = 6.38,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 7.48,
+						},
+						["Ashenvale Bear"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Narg the Taskmaster"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Imp Minion"] = {
+							["Details"] = {
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Goldtooth"] = {
+							["Details"] = {
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Wild Buck"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Ghostpaw Runner"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Iron Shield Spike"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Foulweald Warrior"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Judgement of Light"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Saltspittle Oracle"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Light"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Blackwood Shaman"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Iron Shield Spike"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Wrathtail Priestess"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Dark Strand Cultist"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Light"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Wrathtail Wave Rider"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Iron Shield Spike"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Defias Cutpurse"] = {
+							["Details"] = {
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Wrathtail Sorceress"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Succubus Minion"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Wrathtail Razortail"] = {
+							["Details"] = {
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Foulweald Shaman"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Iron Shield Spike"] = {
+									["count"] = 0,
+								},
+								["Judgement of Light"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Lesser Felguard"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Iron Shield Spike"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Light"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Wrathtail Myrmidon"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Felslayer"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Rat"] = {
+							["Details"] = {
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Miner"] = {
+							["Details"] = {
+								["Consecration (DoT)"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Iron Shield Spike"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Blackwood Ursa"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Iron Shield Spike"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Wildthorn Stalker"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Foulweald Totemic"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["RunicPowerGain"] = 0,
+					["ElementTakenBlock"] = {
+						["Melee"] = 0,
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["CurrentFightData"] = {
+					["DOTs"] = {
+					},
+					["ElementDoneResist"] = {
+						["Holy"] = 0,
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 0,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+						["Physical"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 0,
+								},
+								["Miss"] = {
+									["count"] = 0,
+								},
+								["Tick"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Dodge"] = {
+									["count"] = 0,
+								},
+								["Absorb"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 0,
+								},
+								["Miss"] = {
+									["count"] = 0,
+								},
+								["Crushing"] = {
+									["count"] = 0,
+								},
+								["Block"] = {
+									["count"] = 0,
+								},
+								["Crit"] = {
+									["count"] = 0,
+								},
+								["Parry"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Frost"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Fire"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 0,
+								},
+								["Absorb"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Shadow"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 0,
+								},
+								["Absorb"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Nature"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["HOTs"] = {
+						["Judgement of Light"] = {
+							["Details"] = {
+								["Nemuritorujr"] = {
+									["count"] = 0,
+								},
+								["Flokus"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ManaGain"] = 0,
+					["ElementTaken"] = {
+						["Physical"] = 0,
+						["Melee"] = 0,
+						["Frost"] = 0,
+						["Fire"] = 0,
+						["Shadow"] = 0,
+						["Nature"] = 0,
+					},
+					["DOT_Time"] = 0,
+					["Damage"] = 0,
+					["ElementDoneAbsorb"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["PartialAbsorb"] = {
+						["Fire Shield Effect II"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Mana Burn"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Absorbed"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Disarm"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Frostbolt"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Lightning Bolt"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Falling"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Rend (DoT)"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Shock"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Thorns"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Absorbed"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Attack"] = {
+							["Details"] = {
+								["Absorbed"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["RageGain"] = 0,
+					["FAttacks"] = {
+					},
+					["PartialBlock"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Blocked"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["ElementDone"] = {
+						["Holy"] = 0,
+						["Melee"] = 0,
+						["Physical"] = 0,
+					},
+					["CCBroken"] = {
+					},
+					["ElementHitsDone"] = {
+						["Holy"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 0,
+								},
+								["Miss"] = {
+									["count"] = 0,
+								},
+								["Crit"] = {
+									["count"] = 0,
+								},
+								["Evade"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Glancing"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 0,
+								},
+								["Dodge"] = {
+									["count"] = 0,
+								},
+								["Miss"] = {
+									["count"] = 0,
+								},
+								["Crit"] = {
+									["count"] = 0,
+								},
+								["Parry"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Physical"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["Dispelled"] = 0,
+					["WhoDamaged"] = {
+						["Mist Howler"] = {
+							["Details"] = {
+								["Rend (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Wrathtail Myrmidon"] = {
+							["Details"] = {
+								["Rend (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Tunneler"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Moonstalker"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Foulweald Den Watcher"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Goldtooth"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Wild Buck"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Ghostpaw Runner"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Blackwood Shaman"] = {
+							["Details"] = {
+								["Lightning Bolt"] = {
+									["count"] = 0,
+								},
+								["Shock"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Mangy Wolf"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Wrathtail Wave Rider"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Blackwood Ursa"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Foulweald Warrior"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Spined Crawler"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Wrathtail Priestess"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Wrathtail Razortail"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Thorns"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Twilight Thug"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Felslayer"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Mana Burn"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Environment"] = {
+							["Details"] = {
+								["Falling"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Miner"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Lesser Felguard"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Fire Shield Effect II"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Wrathtail Sorceress"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Frostbolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Foulweald Totemic"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["FDamagedWho"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDoneBlock"] = {
+						["Melee"] = 0,
+					},
+					["TimeHealing"] = {
+						["Nemuritorujr"] = {
+							["Details"] = {
+								["Judgement of Light"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Flokus"] = {
+							["Details"] = {
+								["Judgement of Light"] = {
+									["count"] = 0,
+								},
+								["Holy Light"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["OverHeals"] = {
+						["Judgement of Light"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["RageGained"] = {
+					},
+					["ActiveTime"] = 0,
+					["CCBreak"] = 0,
+					["EnergyGain"] = 0,
+					["WhoHealed"] = {
+						["Nemuritorujr"] = {
+							["Details"] = {
+								["Renew"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Flokus"] = {
+							["Details"] = {
+								["Judgement of Light"] = {
+									["count"] = 0,
+								},
+								["Holy Light"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["PartialResist"] = {
+						["Fire Shield Effect II"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Mana Burn"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Disarm"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Frostbolt"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Lightning Bolt"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Falling"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Rend (DoT)"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Shock"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Thorns"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Attack"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["ManaGained"] = {
+						["Judgement of Wisdom"] = {
+							["Details"] = {
+								["Flokus"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ElementTakenAbsorb"] = {
+						["Shadow"] = 0,
+						["Melee"] = 0,
+						["Fire"] = 0,
+					},
+					["Interrupts"] = 0,
+					["Overhealing"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["InterruptData"] = {
+						["Wrathtail Sorceress"] = {
+							["Details"] = {
+								["Frostbolt (Interrupt)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["WhoDispelled"] = {
+						["Flokus"] = {
+							["Details"] = {
+								["Corrupted Strength (Purify)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["TimeSpent"] = {
+						["Lesser Felguard"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Iron Shield Spike"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Nemuritorujr"] = {
+							["Details"] = {
+								["Judgement of Light"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Tunneler"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Iron Shield Spike"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Forest Spider"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Searing Totem II"] = {
+							["Details"] = {
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Moonstalker"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Foulweald Den Watcher"] = {
+							["Details"] = {
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Goldtooth"] = {
+							["Details"] = {
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Wild Buck"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Light"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Ghostpaw Runner"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Light"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Foulweald Warrior"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Iron Shield Spike"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Hammer of Justice"] = {
+									["count"] = 0,
+								},
+								["Judgement of Light"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Ashenvale Bear"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Blackwood Shaman"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Mangy Wolf"] = {
+							["Details"] = {
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Flokus"] = {
+							["Details"] = {
+								["Judgement of Light"] = {
+									["count"] = 0,
+								},
+								["Holy Light"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Wrathtail Wave Rider"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Light"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Blackwood Ursa"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Wrathtail Razortail"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Wrathtail Sorceress"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Wrathtail Priestess"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Twilight Thug"] = {
+							["Details"] = {
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Iron Shield Spike"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Saltspittle Puddlejumper"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Defias Bandit"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Felslayer"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Iron Shield Spike"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Rat"] = {
+							["Details"] = {
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Miner"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Iron Shield Spike"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Spined Crawler"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Wildthorn Stalker"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Foulweald Totemic"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Hammer of Justice"] = {
+									["count"] = 0,
+								},
+								["Judgement of Light"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["Heals"] = {
+						["Judgement of Light"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Holy Light"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["FDamage"] = 0,
+					["EnergyGained"] = {
+					},
+					["HealedWho"] = {
+						["Nemuritorujr"] = {
+							["Details"] = {
+								["Judgement of Light"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Flokus"] = {
+							["Details"] = {
+								["Judgement of Light"] = {
+									["count"] = 0,
+								},
+								["Holy Light"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["Healing"] = 0,
+					["RunicPowerGained"] = {
+					},
+					["ManaGainedFrom"] = {
+						["Flokus"] = {
+							["Details"] = {
+								["Judgement of Wisdom"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["Attacks"] = {
+						["Hand of Reckoning"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Miss"] = {
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Seal of Righteousness"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Hammer of Justice"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Glancing"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Dodge"] = {
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit (Blocked)"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Miss"] = {
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Parry"] = {
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Iron Shield Spike"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Judgement of Light"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Evade"] = {
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Judgement of Righteousness"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["HealingTaken"] = 0,
+					["DamagedWho"] = {
+						["Wrathtail Priestess"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Tunneler"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Iron Shield Spike"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Forest Spider"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Searing Totem II"] = {
+							["Details"] = {
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Moonstalker"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Foulweald Den Watcher"] = {
+							["Details"] = {
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Goldtooth"] = {
+							["Details"] = {
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Wild Buck"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Ghostpaw Runner"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Foulweald Warrior"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Iron Shield Spike"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Blackwood Shaman"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Mangy Wolf"] = {
+							["Details"] = {
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Ashenvale Bear"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Wrathtail Wave Rider"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Blackwood Ursa"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Spined Crawler"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Wrathtail Razortail"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Wrathtail Sorceress"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Twilight Thug"] = {
+							["Details"] = {
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Iron Shield Spike"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Saltspittle Puddlejumper"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Defias Bandit"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Felslayer"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Iron Shield Spike"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Rat"] = {
+							["Details"] = {
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Miner"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Iron Shield Spike"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Lesser Felguard"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Iron Shield Spike"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Wildthorn Stalker"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Foulweald Totemic"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["TimeDamage"] = 0,
+					["TimeDamaging"] = {
+						["Wrathtail Priestess"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Tunneler"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Iron Shield Spike"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Forest Spider"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Searing Totem II"] = {
+							["Details"] = {
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Moonstalker"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Foulweald Den Watcher"] = {
+							["Details"] = {
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Goldtooth"] = {
+							["Details"] = {
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Wild Buck"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Light"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Ghostpaw Runner"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Light"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Foulweald Warrior"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Iron Shield Spike"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Hammer of Justice"] = {
+									["count"] = 0,
+								},
+								["Judgement of Light"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Blackwood Shaman"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Mangy Wolf"] = {
+							["Details"] = {
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Ashenvale Bear"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Wrathtail Wave Rider"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Light"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Blackwood Ursa"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Spined Crawler"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Wrathtail Razortail"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Wrathtail Sorceress"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Twilight Thug"] = {
+							["Details"] = {
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Iron Shield Spike"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Saltspittle Puddlejumper"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Defias Bandit"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Felslayer"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Iron Shield Spike"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Rat"] = {
+							["Details"] = {
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Miner"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Iron Shield Spike"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Lesser Felguard"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Iron Shield Spike"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Wildthorn Stalker"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Foulweald Totemic"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Hammer of Justice"] = {
+									["count"] = 0,
+								},
+								["Judgement of Light"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["RunicPowerGain"] = 0,
+					["ElementTakenBlock"] = {
+						["Melee"] = 0,
+					},
+					["DispelledWho"] = {
+						["Flokus"] = {
+							["Details"] = {
+								["Corrupted Strength (Purify)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+				},
+				["Fight1"] = {
+					["DOTs"] = {
+					},
+					["ElementDoneResist"] = {
+						["Holy"] = 0,
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 2,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+						["Physical"] = {
+							["Details"] = {
+								["Tick"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Fire"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 0,
+								},
+								["Absorb"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 1,
+								},
+								["Crushing"] = {
+									["count"] = 0,
+								},
+								["Dodge"] = {
+									["count"] = 0,
+								},
+								["Block"] = {
+									["count"] = 0,
+								},
+								["Crit"] = {
+									["count"] = 0,
+								},
+								["Parry"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 1,
+						},
+						["Frost"] = {
+							["Details"] = {
+								["Absorb"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["HOTs"] = {
+						["Judgement of Light"] = {
+							["Details"] = {
+								["Nemuritorujr"] = {
+									["count"] = 0,
+								},
+								["Flokus"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ManaGain"] = 0,
+					["ElementTaken"] = {
+						["Physical"] = 0,
+						["Melee"] = 2,
+						["Fire"] = 0,
+					},
+					["DOT_Time"] = 0,
+					["Damage"] = 0,
+					["ElementDoneAbsorb"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["PartialAbsorb"] = {
+						["Strike"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+								["Absorbed"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+						["Rend (DoT)"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Frostbolt"] = {
+							["Details"] = {
+								["Absorbed"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Fire"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Falling"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["RageGain"] = 0,
+					["FAttacks"] = {
+					},
+					["PartialBlock"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Blocked"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["ElementDone"] = {
+						["Holy"] = 0,
+						["Melee"] = 0,
+						["Physical"] = 0,
+					},
+					["CCBroken"] = {
+					},
+					["ElementHitsDone"] = {
+						["Holy"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 0,
+								},
+								["Crit"] = {
+									["count"] = 0,
+								},
+								["Miss"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Glancing"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 0,
+								},
+								["Miss"] = {
+									["count"] = 0,
+								},
+								["Crit"] = {
+									["count"] = 0,
+								},
+								["Dodge"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Physical"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["Dispelled"] = 0,
+					["WhoDamaged"] = {
+						["Mangy Wolf"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Wrathtail Myrmidon"] = {
+							["Details"] = {
+								["Strike"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Rend (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Tunneler"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 2,
+								},
+							},
+							["amount"] = 2,
+						},
+						["Ashenvale Bear"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Foulweald Den Watcher"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Environment"] = {
+							["Details"] = {
+								["Falling"] = {
+									["count"] = 0,
+								},
+								["Fire"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Miner"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Foulweald Warrior"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Foulweald Totemic"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["FDamagedWho"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDoneBlock"] = {
+						["Melee"] = 0,
+					},
+					["TimeHealing"] = {
+						["Flokus"] = {
+							["Details"] = {
+								["Judgement of Light"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["OverHeals"] = {
+						["Judgement of Light"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["RageGained"] = {
+					},
+					["ActiveTime"] = 0,
+					["CCBreak"] = 0,
+					["EnergyGain"] = 0,
+					["WhoHealed"] = {
+						["Nemuritorujr"] = {
+							["Details"] = {
+								["Renew"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Flokus"] = {
+							["Details"] = {
+								["Judgement of Light"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["PartialResist"] = {
+						["Strike"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+						["Rend (DoT)"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Frostbolt"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Fire"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Falling"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["ManaGained"] = {
+						["Judgement of Wisdom"] = {
+							["Details"] = {
+								["Flokus"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ElementTakenAbsorb"] = {
+						["Melee"] = 0,
+						["Frost"] = 0,
+					},
+					["Interrupts"] = 0,
+					["Overhealing"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["InterruptData"] = {
+						["Wrathtail Sorceress"] = {
+							["Details"] = {
+								["Frostbolt (Interrupt)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["WhoDispelled"] = {
+					},
+					["TimeSpent"] = {
+						["Mangy Wolf"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Iron Shield Spike"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Wrathtail Myrmidon"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Flokus"] = {
+							["Details"] = {
+								["Judgement of Light"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Ashenvale Bear"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Iron Shield Spike"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Foulweald Warrior"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Iron Shield Spike"] = {
+									["count"] = 0,
+								},
+								["Hammer of Justice"] = {
+									["count"] = 0,
+								},
+								["Judgement of Light"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Foulweald Den Watcher"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Hammer of Justice"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Searing Totem II"] = {
+							["Details"] = {
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Wrathtail Priestess"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Goldtooth"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Exorcism"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Iron Shield Spike"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Rat"] = {
+							["Details"] = {
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Miner"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Exorcism"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Iron Shield Spike"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Wrathtail Sorceress"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Tunneler"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Exorcism"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Foulweald Totemic"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["Heals"] = {
+						["Judgement of Light"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["FDamage"] = 0,
+					["EnergyGained"] = {
+					},
+					["HealedWho"] = {
+						["Flokus"] = {
+							["Details"] = {
+								["Judgement of Light"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["Healing"] = 0,
+					["RunicPowerGained"] = {
+					},
+					["ManaGainedFrom"] = {
+						["Flokus"] = {
+							["Details"] = {
+								["Judgement of Wisdom"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["Attacks"] = {
+						["Hand of Reckoning"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Exorcism"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Seal of Righteousness"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Glancing"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit (Blocked)"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Miss"] = {
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Dodge"] = {
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Hammer of Justice"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Iron Shield Spike"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Judgement of Light"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Judgement of Righteousness"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["HealingTaken"] = 0,
+					["DamagedWho"] = {
+						["Mangy Wolf"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Iron Shield Spike"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Wrathtail Myrmidon"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Tunneler"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Exorcism"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Ashenvale Bear"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Iron Shield Spike"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Foulweald Den Watcher"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Foulweald Warrior"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Iron Shield Spike"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Wrathtail Priestess"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Goldtooth"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Exorcism"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Iron Shield Spike"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Rat"] = {
+							["Details"] = {
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Miner"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Exorcism"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Iron Shield Spike"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Searing Totem II"] = {
+							["Details"] = {
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Wrathtail Sorceress"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Foulweald Totemic"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["TimeDamage"] = 0,
+					["TimeDamaging"] = {
+						["Mangy Wolf"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Iron Shield Spike"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Wrathtail Myrmidon"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Tunneler"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Exorcism"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Ashenvale Bear"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Iron Shield Spike"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Foulweald Den Watcher"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Hammer of Justice"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Foulweald Warrior"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Iron Shield Spike"] = {
+									["count"] = 0,
+								},
+								["Hammer of Justice"] = {
+									["count"] = 0,
+								},
+								["Judgement of Light"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Wrathtail Priestess"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Goldtooth"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Exorcism"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Iron Shield Spike"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Rat"] = {
+							["Details"] = {
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Miner"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Exorcism"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Iron Shield Spike"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Searing Totem II"] = {
+							["Details"] = {
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Wrathtail Sorceress"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Foulweald Totemic"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["RunicPowerGain"] = 0,
+					["ElementTakenBlock"] = {
+						["Melee"] = 0,
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["Fight4"] = {
+					["DOTs"] = {
+						["Consecration (DoT)"] = {
+							["Details"] = {
+								["Kobold Miner"] = {
+									["count"] = 90,
+								},
+								["Rat"] = {
+									["count"] = 0,
+								},
+								["Kobold Tunneler"] = {
+									["count"] = 36,
+								},
+							},
+							["amount"] = 126,
+						},
+					},
+					["ElementDoneResist"] = {
+						["Holy"] = 0,
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 51,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+						["Holy"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Crushing"] = {
+									["count"] = 0,
+								},
+								["Absorb"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 25,
+								},
+								["Miss"] = {
+									["count"] = 4,
+								},
+								["Dodge"] = {
+									["count"] = 7,
+								},
+								["Block"] = {
+									["count"] = 0,
+								},
+								["Crit"] = {
+									["count"] = 0,
+								},
+								["Parry"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 36,
+						},
+						["Fire"] = {
+							["Details"] = {
+								["Absorb"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Shadow"] = {
+							["Details"] = {
+								["Absorb"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 0,
+								},
+								["Tick"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Physical"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 0,
+								},
+								["Absorb"] = {
+									["count"] = 0,
+								},
+								["Tick"] = {
+									["count"] = 0,
+								},
+								["Parry"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["HOTs"] = {
+						["Judgement of Light"] = {
+							["Details"] = {
+								["Nemuritorujr"] = {
+									["count"] = 0,
+								},
+								["Flokus"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ManaGain"] = 0,
+					["ElementTaken"] = {
+						["Holy"] = 0,
+						["Melee"] = 51,
+						["Fire"] = 0,
+						["Shadow"] = 0,
+						["Physical"] = 0,
+					},
+					["DOT_Time"] = 126,
+					["Damage"] = 756,
+					["ElementDoneAbsorb"] = {
+						["Melee"] = 0,
+						["Holy"] = 0,
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["PartialAbsorb"] = {
+						["Strike"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Fire Shield Effect II"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Absorbed"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Mana Burn"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Shadow Word: Pain"] = {
+							["Details"] = {
+								["Absorbed"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Rend"] = {
+							["Details"] = {
+								["Absorbed"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Mind Blast"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 36,
+									["amount"] = 0,
+								},
+								["Absorbed"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 36,
+							["amount"] = 0,
+						},
+						["Knockdown"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Absorbed"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Smite"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Shadow Word: Pain (DoT)"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Rend (DoT)"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Absorbed"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Shoot"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Attack"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["RageGain"] = 0,
+					["FAttacks"] = {
+					},
+					["PartialBlock"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Blocked"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["ElementDone"] = {
+						["Holy"] = 756,
+						["Melee"] = 0,
+						["Physical"] = 0,
+					},
+					["CCBroken"] = {
+					},
+					["ElementHitsDone"] = {
+						["Holy"] = {
+							["Details"] = {
+								["Absorb"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 0,
+								},
+								["Miss"] = {
+									["count"] = 0,
+								},
+								["Crit"] = {
+									["count"] = 0,
+								},
+								["Tick"] = {
+									["count"] = 42,
+								},
+							},
+							["amount"] = 42,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Glancing"] = {
+									["count"] = 0,
+								},
+								["Absorb"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 0,
+								},
+								["Dodge"] = {
+									["count"] = 0,
+								},
+								["Miss"] = {
+									["count"] = 0,
+								},
+								["Crit"] = {
+									["count"] = 0,
+								},
+								["Parry"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Physical"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["Dispelled"] = 0,
+					["WhoDamaged"] = {
+						["Mist Howler"] = {
+							["Details"] = {
+								["Rend (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Wrathtail Myrmidon"] = {
+							["Details"] = {
+								["Strike"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Rend (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Nemuritorujr"] = {
+							["Details"] = {
+								["Shadow Word: Pain (DoT)"] = {
+									["count"] = 0,
+								},
+								["Mind Blast"] = {
+									["count"] = 0,
+								},
+								["Smite"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Tunneler"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 4,
+								},
+							},
+							["amount"] = 4,
+						},
+						["Searing Totem II"] = {
+							["Details"] = {
+								["Attack"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Goldtooth"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Wild Buck"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Ghostpaw Runner"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Foulweald Ursa"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Blackwood Warrior"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Foulweald Pathfinder"] = {
+							["Details"] = {
+								["Shoot"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Grizzled Thistle Bear"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Foulweald Warrior"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Lesser Felguard"] = {
+							["Details"] = {
+								["Knockdown"] = {
+									["count"] = 0,
+								},
+								["Fire Shield Effect II"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Felslayer"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Mana Burn"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Wrathtail Priestess"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Miner"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 47,
+								},
+							},
+							["amount"] = 47,
+						},
+						["Blackwood Ursa"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Wildthorn Stalker"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Foulweald Totemic"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["FDamagedWho"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDoneBlock"] = {
+						["Melee"] = 0,
+					},
+					["TimeHealing"] = {
+						["Nemuritorujr"] = {
+							["Details"] = {
+								["Judgement of Light"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Flokus"] = {
+							["Details"] = {
+								["Judgement of Light"] = {
+									["count"] = 0,
+								},
+								["Holy Light"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["OverHeals"] = {
+						["Judgement of Light"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Holy Strength"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["RageGained"] = {
+					},
+					["ActiveTime"] = 10.47,
+					["CCBreak"] = 0,
+					["EnergyGain"] = 0,
+					["WhoHealed"] = {
+						["Nemuritorujr"] = {
+							["Details"] = {
+								["Renew"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Flokus"] = {
+							["Details"] = {
+								["Judgement of Light"] = {
+									["count"] = 0,
+								},
+								["Holy Light"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["PartialResist"] = {
+						["Strike"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Fire Shield Effect II"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Mana Burn"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Shadow Word: Pain"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Rend"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Mind Blast"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 36,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 36,
+							["amount"] = 0,
+						},
+						["Knockdown"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Smite"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Shadow Word: Pain (DoT)"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Rend (DoT)"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Shoot"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Attack"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["ManaGained"] = {
+						["Judgement of Wisdom"] = {
+							["Details"] = {
+								["Flokus"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ElementTakenAbsorb"] = {
+						["Fire"] = 0,
+						["Physical"] = 0,
+						["Melee"] = 0,
+						["Shadow"] = 0,
+					},
+					["Interrupts"] = 0,
+					["Overhealing"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["InterruptData"] = {
+						["Wrathtail Sorceress"] = {
+							["Details"] = {
+								["Frostbolt (Interrupt)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Lesser Felguard"] = {
+							["Details"] = {
+								["Fire Shield II (Interrupt)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Wrathtail Priestess"] = {
+							["Details"] = {
+								["Heal (Interrupt)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["WhoDispelled"] = {
+					},
+					["TimeSpent"] = {
+						["Lesser Felguard"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Hammer of Justice"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Blackwood Totemic"] = {
+							["Details"] = {
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Iron Shield Spike"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Tunneler"] = {
+							["Details"] = {
+								["Consecration (DoT)"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Iron Shield Spike"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Searing Totem II"] = {
+							["Details"] = {
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Foulweald Warrior"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Goldtooth"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Wild Buck"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Wrathtail Sorceress"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Ashenvale Bear"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Saltspittle Warrior"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Flokus"] = {
+							["Details"] = {
+								["Judgement of Light"] = {
+									["count"] = 0,
+								},
+								["Holy Light"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Wrathtail Wave Rider"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Blackwood Ursa"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Foulweald Ursa"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Light"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Blackwood Warrior"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Foulweald Pathfinder"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Nemuritorujr"] = {
+							["Details"] = {
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Hammer of Justice"] = {
+									["count"] = 0,
+								},
+								["Judgement of Light"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Grizzled Thistle Bear"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Wrathtail Myrmidon"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Saltspittle Puddlejumper"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Wrathtail Priestess"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Iron Shield Spike"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Felslayer"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Rat"] = {
+							["Details"] = {
+								["Consecration (DoT)"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Miner"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Consecration (DoT)"] = {
+									["count"] = 10.47,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Iron Shield Spike"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 10.47,
+						},
+						["Ghostpaw Runner"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Light"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Wildthorn Stalker"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Foulweald Totemic"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["Heals"] = {
+						["Judgement of Light"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Holy Light"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["FDamage"] = 0,
+					["EnergyGained"] = {
+					},
+					["HealedWho"] = {
+						["Nemuritorujr"] = {
+							["Details"] = {
+								["Judgement of Light"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Flokus"] = {
+							["Details"] = {
+								["Judgement of Light"] = {
+									["count"] = 0,
+								},
+								["Holy Light"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["Healing"] = 0,
+					["RunicPowerGained"] = {
+					},
+					["ManaGainedFrom"] = {
+						["Flokus"] = {
+							["Details"] = {
+								["Judgement of Wisdom"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["Attacks"] = {
+						["Hand of Reckoning"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Miss"] = {
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Consecration (DoT)"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 18,
+									["min"] = 0,
+									["count"] = 42,
+									["amount"] = 756,
+								},
+							},
+							["count"] = 42,
+							["amount"] = 756,
+						},
+						["Seal of Righteousness"] = {
+							["Details"] = {
+								["Absorb"] = {
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Glancing"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Absorb"] = {
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Dodge"] = {
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit (Blocked)"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Miss"] = {
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Parry"] = {
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Hammer of Justice"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Iron Shield Spike"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Judgement of Light"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Judgement of Righteousness"] = {
+							["Details"] = {
+								["Absorb"] = {
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["HealingTaken"] = 0,
+					["DamagedWho"] = {
+						["Wrathtail Myrmidon"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Nemuritorujr"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Tunneler"] = {
+							["Details"] = {
+								["Consecration (DoT)"] = {
+									["count"] = 216,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Iron Shield Spike"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 216,
+						},
+						["Searing Totem II"] = {
+							["Details"] = {
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Goldtooth"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Wild Buck"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Ghostpaw Runner"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Foulweald Warrior"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Ashenvale Bear"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Wrathtail Sorceress"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Wrathtail Wave Rider"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Blackwood Warrior"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Foulweald Ursa"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Blackwood Ursa"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Foulweald Pathfinder"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Felslayer"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Grizzled Thistle Bear"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Lesser Felguard"] = {
+							["Details"] = {
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Saltspittle Puddlejumper"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Wrathtail Priestess"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Iron Shield Spike"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Saltspittle Warrior"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Rat"] = {
+							["Details"] = {
+								["Consecration (DoT)"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Miner"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Consecration (DoT)"] = {
+									["count"] = 540,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Iron Shield Spike"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 540,
+						},
+						["Blackwood Totemic"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Iron Shield Spike"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Wildthorn Stalker"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Foulweald Totemic"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["TimeDamage"] = 10.47,
+					["TimeDamaging"] = {
+						["Wrathtail Myrmidon"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Nemuritorujr"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Hammer of Justice"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Tunneler"] = {
+							["Details"] = {
+								["Consecration (DoT)"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Iron Shield Spike"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Searing Totem II"] = {
+							["Details"] = {
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Goldtooth"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Wild Buck"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Ghostpaw Runner"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Light"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Foulweald Warrior"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Ashenvale Bear"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Wrathtail Sorceress"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Wrathtail Wave Rider"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Blackwood Warrior"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Foulweald Ursa"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Light"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Blackwood Ursa"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Foulweald Pathfinder"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Felslayer"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Grizzled Thistle Bear"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Lesser Felguard"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Hammer of Justice"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Saltspittle Puddlejumper"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Wrathtail Priestess"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Iron Shield Spike"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Saltspittle Warrior"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Rat"] = {
+							["Details"] = {
+								["Consecration (DoT)"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Miner"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Consecration (DoT)"] = {
+									["count"] = 10.47,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Iron Shield Spike"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 10.47,
+						},
+						["Blackwood Totemic"] = {
+							["Details"] = {
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Iron Shield Spike"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Wildthorn Stalker"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Foulweald Totemic"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["RunicPowerGain"] = 0,
+					["ElementTakenBlock"] = {
+						["Melee"] = 0,
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["LastFightData"] = {
+					["DOTs"] = {
+					},
+					["ElementDoneResist"] = {
+						["Holy"] = 0,
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 2,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+						["Physical"] = {
+							["Details"] = {
+								["Tick"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Fire"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 0,
+								},
+								["Absorb"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 1,
+								},
+								["Crushing"] = {
+									["count"] = 0,
+								},
+								["Dodge"] = {
+									["count"] = 0,
+								},
+								["Block"] = {
+									["count"] = 0,
+								},
+								["Crit"] = {
+									["count"] = 0,
+								},
+								["Parry"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 1,
+						},
+						["Frost"] = {
+							["Details"] = {
+								["Absorb"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["HOTs"] = {
+						["Judgement of Light"] = {
+							["Details"] = {
+								["Nemuritorujr"] = {
+									["count"] = 0,
+								},
+								["Flokus"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ManaGain"] = 0,
+					["ElementTaken"] = {
+						["Physical"] = 0,
+						["Melee"] = 2,
+						["Fire"] = 0,
+					},
+					["DOT_Time"] = 0,
+					["Damage"] = 0,
+					["ElementDoneAbsorb"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["PartialAbsorb"] = {
+						["Strike"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+								["Absorbed"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+						["Rend (DoT)"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Frostbolt"] = {
+							["Details"] = {
+								["Absorbed"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Fire"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Falling"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["RageGain"] = 0,
+					["FAttacks"] = {
+					},
+					["PartialBlock"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Blocked"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["ElementDone"] = {
+						["Holy"] = 0,
+						["Melee"] = 0,
+						["Physical"] = 0,
+					},
+					["CCBroken"] = {
+					},
+					["ElementHitsDone"] = {
+						["Holy"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 0,
+								},
+								["Crit"] = {
+									["count"] = 0,
+								},
+								["Miss"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Glancing"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 0,
+								},
+								["Miss"] = {
+									["count"] = 0,
+								},
+								["Crit"] = {
+									["count"] = 0,
+								},
+								["Dodge"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Physical"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["Dispelled"] = 0,
+					["WhoDamaged"] = {
+						["Mangy Wolf"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Wrathtail Myrmidon"] = {
+							["Details"] = {
+								["Strike"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Rend (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Tunneler"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 2,
+								},
+							},
+							["amount"] = 2,
+						},
+						["Ashenvale Bear"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Foulweald Den Watcher"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Environment"] = {
+							["Details"] = {
+								["Falling"] = {
+									["count"] = 0,
+								},
+								["Fire"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Miner"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Foulweald Warrior"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Foulweald Totemic"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["FDamagedWho"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDoneBlock"] = {
+						["Melee"] = 0,
+					},
+					["TimeHealing"] = {
+						["Flokus"] = {
+							["Details"] = {
+								["Judgement of Light"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["OverHeals"] = {
+						["Judgement of Light"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["RageGained"] = {
+					},
+					["ActiveTime"] = 0,
+					["CCBreak"] = 0,
+					["EnergyGain"] = 0,
+					["WhoHealed"] = {
+						["Nemuritorujr"] = {
+							["Details"] = {
+								["Renew"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Flokus"] = {
+							["Details"] = {
+								["Judgement of Light"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["PartialResist"] = {
+						["Strike"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+						["Rend (DoT)"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Frostbolt"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Fire"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Falling"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["ManaGained"] = {
+						["Judgement of Wisdom"] = {
+							["Details"] = {
+								["Flokus"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ElementTakenAbsorb"] = {
+						["Melee"] = 0,
+						["Frost"] = 0,
+					},
+					["Interrupts"] = 0,
+					["Overhealing"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["InterruptData"] = {
+						["Wrathtail Sorceress"] = {
+							["Details"] = {
+								["Frostbolt (Interrupt)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["WhoDispelled"] = {
+					},
+					["TimeSpent"] = {
+						["Mangy Wolf"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Iron Shield Spike"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Wrathtail Myrmidon"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Flokus"] = {
+							["Details"] = {
+								["Judgement of Light"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Ashenvale Bear"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Iron Shield Spike"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Foulweald Warrior"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Iron Shield Spike"] = {
+									["count"] = 0,
+								},
+								["Hammer of Justice"] = {
+									["count"] = 0,
+								},
+								["Judgement of Light"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Foulweald Den Watcher"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Hammer of Justice"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Searing Totem II"] = {
+							["Details"] = {
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Wrathtail Priestess"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Goldtooth"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Exorcism"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Iron Shield Spike"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Rat"] = {
+							["Details"] = {
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Miner"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Exorcism"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Iron Shield Spike"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Wrathtail Sorceress"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Tunneler"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Exorcism"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Foulweald Totemic"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["Heals"] = {
+						["Judgement of Light"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["FDamage"] = 0,
+					["EnergyGained"] = {
+					},
+					["HealedWho"] = {
+						["Flokus"] = {
+							["Details"] = {
+								["Judgement of Light"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["Healing"] = 0,
+					["RunicPowerGained"] = {
+					},
+					["ManaGainedFrom"] = {
+						["Flokus"] = {
+							["Details"] = {
+								["Judgement of Wisdom"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["Attacks"] = {
+						["Hand of Reckoning"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Exorcism"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Seal of Righteousness"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Glancing"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit (Blocked)"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Miss"] = {
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Dodge"] = {
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Hammer of Justice"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Iron Shield Spike"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Judgement of Light"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Judgement of Righteousness"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["HealingTaken"] = 0,
+					["DamagedWho"] = {
+						["Mangy Wolf"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Iron Shield Spike"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Wrathtail Myrmidon"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Tunneler"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Exorcism"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Ashenvale Bear"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Iron Shield Spike"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Foulweald Den Watcher"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Foulweald Warrior"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Iron Shield Spike"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Wrathtail Priestess"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Goldtooth"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Exorcism"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Iron Shield Spike"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Rat"] = {
+							["Details"] = {
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Miner"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Exorcism"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Iron Shield Spike"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Searing Totem II"] = {
+							["Details"] = {
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Wrathtail Sorceress"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Foulweald Totemic"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["TimeDamage"] = 0,
+					["TimeDamaging"] = {
+						["Mangy Wolf"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Iron Shield Spike"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Wrathtail Myrmidon"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Tunneler"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Exorcism"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Ashenvale Bear"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Iron Shield Spike"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Foulweald Den Watcher"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Hammer of Justice"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Foulweald Warrior"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Iron Shield Spike"] = {
+									["count"] = 0,
+								},
+								["Hammer of Justice"] = {
+									["count"] = 0,
+								},
+								["Judgement of Light"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Wrathtail Priestess"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Goldtooth"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Exorcism"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Iron Shield Spike"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Rat"] = {
+							["Details"] = {
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Miner"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Exorcism"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Iron Shield Spike"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Searing Totem II"] = {
+							["Details"] = {
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Wrathtail Sorceress"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Foulweald Totemic"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["RunicPowerGain"] = 0,
+					["ElementTakenBlock"] = {
+						["Melee"] = 0,
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["Fight5"] = {
+					["DOTs"] = {
+						["Consecration (DoT)"] = {
+							["Details"] = {
+								["Kobold Miner"] = {
+									["count"] = 0,
+								},
+								["Kobold Tunneler"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ElementDoneResist"] = {
+						["Holy"] = 0,
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 1,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+						["Fire"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Physical"] = {
+							["Details"] = {
+								["Tick"] = {
+									["count"] = 0,
+								},
+								["Absorb"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 0,
+								},
+								["Miss"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 0,
+								},
+								["Absorb"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 1,
+								},
+								["Crushing"] = {
+									["count"] = 0,
+								},
+								["Dodge"] = {
+									["count"] = 1,
+								},
+								["Block"] = {
+									["count"] = 0,
+								},
+								["Crit"] = {
+									["count"] = 0,
+								},
+								["Parry"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 2,
+						},
+						["Shadow"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["HOTs"] = {
+						["Judgement of Light"] = {
+							["Details"] = {
+								["Nemuritorujr"] = {
+									["count"] = 0,
+								},
+								["Flokus"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ManaGain"] = 0,
+					["ElementTaken"] = {
+						["Fire"] = 0,
+						["Physical"] = 0,
+						["Melee"] = 1,
+						["Shadow"] = 0,
+					},
+					["DOT_Time"] = 0,
+					["Damage"] = 325,
+					["ElementDoneAbsorb"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["PartialAbsorb"] = {
+						["Strike"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Fire Shield Effect II"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Mana Burn"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Rend"] = {
+							["Details"] = {
+								["Absorbed"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Shadow Bolt"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Shoot"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Absorbed"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Rend (DoT)"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Firebolt"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Pierce Armor"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 0,
+								},
+								["Absorbed"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 0,
+						},
+						["Attack"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["RageGain"] = 0,
+					["FAttacks"] = {
+					},
+					["PartialBlock"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Blocked"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["ElementDone"] = {
+						["Holy"] = 30,
+						["Melee"] = 295,
+						["Physical"] = 0,
+					},
+					["CCBroken"] = {
+					},
+					["ElementHitsDone"] = {
+						["Holy"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 2,
+								},
+								["Tick"] = {
+									["count"] = 0,
+								},
+								["Miss"] = {
+									["count"] = 0,
+								},
+								["Crit"] = {
+									["count"] = 0,
+								},
+								["Evade"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 2,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Glancing"] = {
+									["count"] = 1,
+								},
+								["Hit"] = {
+									["count"] = 1,
+								},
+								["Dodge"] = {
+									["count"] = 0,
+								},
+								["Miss"] = {
+									["count"] = 0,
+								},
+								["Crit"] = {
+									["count"] = 0,
+								},
+								["Parry"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 2,
+						},
+						["Physical"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["Dispelled"] = 0,
+					["WhoDamaged"] = {
+						["Wrathtail Myrmidon"] = {
+							["Details"] = {
+								["Strike"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Rend (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Tunneler"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 1,
+						},
+						["Searing Totem II"] = {
+							["Details"] = {
+								["Attack"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Imp Minion"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Firebolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Goldtooth"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Wild Buck"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Ghostpaw Runner"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Dark Strand Cultist"] = {
+							["Details"] = {
+								["Shadow Bolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Wrathtail Wave Rider"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Blackwood Ursa"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Foulweald Pathfinder"] = {
+							["Details"] = {
+								["Shoot"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Thistlefur Avenger"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Foulweald Totemic"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Saltspittle Warrior"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Lesser Felguard"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Fire Shield Effect II"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Miner"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Felslayer"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Mana Burn"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Wildthorn Stalker"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Foulweald Warrior"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["FDamagedWho"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDoneBlock"] = {
+						["Melee"] = 0,
+					},
+					["TimeHealing"] = {
+						["Nemuritorujr"] = {
+							["Details"] = {
+								["Judgement of Light"] = {
+									["count"] = 0,
+								},
+								["Holy Light"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Flokus"] = {
+							["Details"] = {
+								["Judgement of Light"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["OverHeals"] = {
+						["Holy Light"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Judgement of Light"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Holy Strength"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["RageGained"] = {
+					},
+					["ActiveTime"] = 3.62,
+					["CCBreak"] = 0,
+					["EnergyGain"] = 0,
+					["WhoHealed"] = {
+						["Nemuritorujr"] = {
+							["Details"] = {
+								["Renew"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Flokus"] = {
+							["Details"] = {
+								["Judgement of Light"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["PartialResist"] = {
+						["Strike"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Fire Shield Effect II"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Mana Burn"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Rend"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Shadow Bolt"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Shoot"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Rend (DoT)"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Firebolt"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Pierce Armor"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 0,
+						},
+						["Attack"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["ManaGained"] = {
+						["Judgement of Wisdom"] = {
+							["Details"] = {
+								["Flokus"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ElementTakenAbsorb"] = {
+						["Melee"] = 0,
+						["Physical"] = 0,
+					},
+					["Interrupts"] = 0,
+					["Overhealing"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["InterruptData"] = {
+						["Dark Strand Cultist"] = {
+							["Details"] = {
+								["Shadow Bolt (Interrupt)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["WhoDispelled"] = {
+					},
+					["TimeSpent"] = {
+						["Mist Howler"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Lesser Felguard"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Nemuritorujr"] = {
+							["Details"] = {
+								["Judgement of Light"] = {
+									["count"] = 0,
+								},
+								["Holy Light"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Tunneler"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Exorcism"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 3.62,
+								},
+								["Consecration (DoT)"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Iron Shield Spike"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 3.62,
+						},
+						["Searing Totem II"] = {
+							["Details"] = {
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Goldtooth"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Wild Buck"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Iron Shield Spike"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Ghostpaw Runner"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Foulweald Totemic"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Hammer of Justice"] = {
+									["count"] = 0,
+								},
+								["Judgement of Light"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Blackwood Ursa"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Mangy Wolf"] = {
+							["Details"] = {
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Dark Strand Cultist"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Hammer of Justice"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Wrathtail Wave Rider"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Defias Cutpurse"] = {
+							["Details"] = {
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Foulweald Pathfinder"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Iron Shield Spike"] = {
+									["count"] = 0,
+								},
+								["Hammer of Justice"] = {
+									["count"] = 0,
+								},
+								["Judgement of Light"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Wrathtail Priestess"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Iron Shield Spike"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Wrathtail Myrmidon"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Flokus"] = {
+							["Details"] = {
+								["Judgement of Light"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Thistlefur Avenger"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Light"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Felslayer"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Iron Shield Spike"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Saltspittle Warrior"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Rat"] = {
+							["Details"] = {
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Miner"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Iron Shield Spike"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Consecration (DoT)"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Wrathtail Sorceress"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Wildthorn Stalker"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Iron Shield Spike"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Foulweald Warrior"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["Heals"] = {
+						["Judgement of Light"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Holy Light"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["FDamage"] = 0,
+					["EnergyGained"] = {
+					},
+					["HealedWho"] = {
+						["Nemuritorujr"] = {
+							["Details"] = {
+								["Judgement of Light"] = {
+									["count"] = 0,
+								},
+								["Holy Light"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Flokus"] = {
+							["Details"] = {
+								["Judgement of Light"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["Healing"] = 0,
+					["RunicPowerGained"] = {
+					},
+					["ManaGainedFrom"] = {
+						["Flokus"] = {
+							["Details"] = {
+								["Judgement of Wisdom"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["Attacks"] = {
+						["Consecration (DoT)"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Exorcism"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Iron Shield Spike"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Judgement of Light"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Hand of Reckoning"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Miss"] = {
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Evade"] = {
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Hammer of Justice"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Seal of Righteousness"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 15,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 30,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 30,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Glancing"] = {
+									["max"] = 217,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 217,
+								},
+								["Hit"] = {
+									["max"] = 78,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 78,
+								},
+								["Dodge"] = {
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit (Blocked)"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Miss"] = {
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Parry"] = {
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 295,
+						},
+						["Judgement of Righteousness"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["HealingTaken"] = 0,
+					["DamagedWho"] = {
+						["Mist Howler"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Wrathtail Priestess"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Iron Shield Spike"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Tunneler"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Exorcism"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 30,
+								},
+								["Consecration (DoT)"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 295,
+								},
+								["Iron Shield Spike"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 325,
+						},
+						["Searing Totem II"] = {
+							["Details"] = {
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Goldtooth"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Wild Buck"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Iron Shield Spike"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Ghostpaw Runner"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Foulweald Totemic"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Mangy Wolf"] = {
+							["Details"] = {
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Dark Strand Cultist"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Wrathtail Wave Rider"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Blackwood Ursa"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Foulweald Pathfinder"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Iron Shield Spike"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Defias Cutpurse"] = {
+							["Details"] = {
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Felslayer"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Iron Shield Spike"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Wrathtail Myrmidon"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Thistlefur Avenger"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Lesser Felguard"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Saltspittle Warrior"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Rat"] = {
+							["Details"] = {
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Miner"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Iron Shield Spike"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Consecration (DoT)"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Wrathtail Sorceress"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Wildthorn Stalker"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Iron Shield Spike"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Foulweald Warrior"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["TimeDamage"] = 3.62,
+					["TimeDamaging"] = {
+						["Mist Howler"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Wrathtail Priestess"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Iron Shield Spike"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Tunneler"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Exorcism"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 3.62,
+								},
+								["Consecration (DoT)"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Iron Shield Spike"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 3.62,
+						},
+						["Searing Totem II"] = {
+							["Details"] = {
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Goldtooth"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Wild Buck"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Iron Shield Spike"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Ghostpaw Runner"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Foulweald Totemic"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Hammer of Justice"] = {
+									["count"] = 0,
+								},
+								["Judgement of Light"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Mangy Wolf"] = {
+							["Details"] = {
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Dark Strand Cultist"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Hammer of Justice"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Wrathtail Wave Rider"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Blackwood Ursa"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Foulweald Pathfinder"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Iron Shield Spike"] = {
+									["count"] = 0,
+								},
+								["Hammer of Justice"] = {
+									["count"] = 0,
+								},
+								["Judgement of Light"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Defias Cutpurse"] = {
+							["Details"] = {
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Felslayer"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Iron Shield Spike"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Wrathtail Myrmidon"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Thistlefur Avenger"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Light"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Lesser Felguard"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Saltspittle Warrior"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Rat"] = {
+							["Details"] = {
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Miner"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Iron Shield Spike"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Consecration (DoT)"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Wrathtail Sorceress"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Wildthorn Stalker"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Iron Shield Spike"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Foulweald Warrior"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["RunicPowerGain"] = 0,
+					["ElementTakenBlock"] = {
+						["Melee"] = 0,
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["Fight3"] = {
+					["DOTs"] = {
+						["Consecration (DoT)"] = {
+							["Details"] = {
+								["Kobold Miner"] = {
+									["count"] = 87,
+								},
+								["Kobold Tunneler"] = {
+									["count"] = 18,
+								},
+							},
+							["amount"] = 105,
+						},
+					},
+					["ElementDoneResist"] = {
+						["Holy"] = 0,
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 50,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+						["Shadow"] = {
+							["Details"] = {
+								["Absorb"] = {
+									["count"] = 0,
+								},
+								["Tick"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Crushing"] = {
+									["count"] = 0,
+								},
+								["Absorb"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 20,
+								},
+								["Miss"] = {
+									["count"] = 2,
+								},
+								["Dodge"] = {
+									["count"] = 2,
+								},
+								["Block"] = {
+									["count"] = 1,
+								},
+								["Crit"] = {
+									["count"] = 0,
+								},
+								["Parry"] = {
+									["count"] = 2,
+								},
+							},
+							["amount"] = 27,
+						},
+						["Arcane"] = {
+							["Details"] = {
+								["Crit"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Fire"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 0,
+								},
+								["Absorb"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Physical"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 0,
+								},
+								["Dodge"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 1,
+						},
+						["Nature"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 0,
+								},
+								["Absorb"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["HOTs"] = {
+						["Judgement of Light"] = {
+							["Details"] = {
+								["Nemuritorujr"] = {
+									["count"] = 0,
+								},
+								["Flokus"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ManaGain"] = 0,
+					["ElementTaken"] = {
+						["Shadow"] = 0,
+						["Melee"] = 50,
+						["Arcane"] = 0,
+						["Fire"] = 0,
+						["Physical"] = 0,
+						["Nature"] = 0,
+					},
+					["DOT_Time"] = 105,
+					["Damage"] = 639,
+					["ElementDoneAbsorb"] = {
+						["Melee"] = 0,
+						["Holy"] = 0,
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["PartialAbsorb"] = {
+						["Strike"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 27,
+									["amount"] = 0,
+								},
+								["Absorbed"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 27,
+							["amount"] = 0,
+						},
+						["Mana Burn"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Absorbed"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Fire Shield Effect II"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Absorbed"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Drain Soul"] = {
+							["Details"] = {
+								["Absorbed"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Lightning Bolt"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Absorbed"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Shoot"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Mind Blast"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Venom Spit"] = {
+							["Details"] = {
+								["Absorbed"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Pierce Armor"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+						["Shock"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Absorbed"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Shadow Word: Pain (DoT)"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Drain Soul (DoT)"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Absorbed"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Knockdown"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Attack"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["RageGain"] = 0,
+					["FAttacks"] = {
+					},
+					["PartialBlock"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Blocked"] = {
+									["max"] = 4,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 4,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 4,
+						},
+					},
+					["ElementDone"] = {
+						["Holy"] = 630,
+						["Melee"] = 0,
+						["Physical"] = 9,
+					},
+					["CCBroken"] = {
+					},
+					["ElementHitsDone"] = {
+						["Holy"] = {
+							["Details"] = {
+								["Absorb"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 0,
+								},
+								["Miss"] = {
+									["count"] = 0,
+								},
+								["Crit"] = {
+									["count"] = 0,
+								},
+								["Tick"] = {
+									["count"] = 35,
+								},
+							},
+							["amount"] = 35,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Glancing"] = {
+									["count"] = 0,
+								},
+								["Absorb"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 0,
+								},
+								["Miss"] = {
+									["count"] = 0,
+								},
+								["Dodge"] = {
+									["count"] = 0,
+								},
+								["Crit"] = {
+									["count"] = 0,
+								},
+								["Parry"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Physical"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 1,
+						},
+					},
+					["Dispelled"] = 0,
+					["WhoDamaged"] = {
+						["Lesser Felguard"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Knockdown"] = {
+									["count"] = 0,
+								},
+								["Fire Shield Effect II"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Nemuritorujr"] = {
+							["Details"] = {
+								["Mind Blast"] = {
+									["count"] = 0,
+								},
+								["Shadow Word: Pain (DoT)"] = {
+									["count"] = 0,
+								},
+								["Shoot"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Tunneler"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 2,
+								},
+							},
+							["amount"] = 2,
+						},
+						["Searing Totem II"] = {
+							["Details"] = {
+								["Attack"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Saltspittle Oracle"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Shock"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Blackwood Shaman"] = {
+							["Details"] = {
+								["Lightning Bolt"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Shock"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Dark Strand Assassin"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Drain Soul (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Blackwood Warrior"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Mystlash Hydra"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Foulweald Totemic"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Ashenvale Bear"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Felslayer"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Mana Burn"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Saltspittle Warrior"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Miner"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 48,
+								},
+							},
+							["amount"] = 48,
+						},
+						["Blackwood Ursa"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Wildthorn Stalker"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Foulweald Warrior"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["FDamagedWho"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDoneBlock"] = {
+						["Melee"] = 0,
+					},
+					["TimeHealing"] = {
+						["Nemuritorujr"] = {
+							["Details"] = {
+								["Judgement of Light"] = {
+									["count"] = 0,
+								},
+								["Holy Light"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Flokus"] = {
+							["Details"] = {
+								["Healing Potion"] = {
+									["count"] = 0,
+								},
+								["Holy Light"] = {
+									["count"] = 0,
+								},
+								["Judgement of Light"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["OverHeals"] = {
+						["Healing Potion"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Holy Light"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Judgement of Light"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["RageGained"] = {
+					},
+					["ActiveTime"] = 13.93,
+					["CCBreak"] = 0,
+					["EnergyGain"] = 0,
+					["WhoHealed"] = {
+						["Nemuritorujr"] = {
+							["Details"] = {
+								["Renew"] = {
+									["count"] = 0,
+								},
+								["Lesser Heal"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Flokus"] = {
+							["Details"] = {
+								["Healing Potion"] = {
+									["count"] = 0,
+								},
+								["Holy Light"] = {
+									["count"] = 0,
+								},
+								["Judgement of Light"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["PartialResist"] = {
+						["Strike"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 27,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 27,
+							["amount"] = 0,
+						},
+						["Mana Burn"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Fire Shield Effect II"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Drain Soul"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Lightning Bolt"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Shoot"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Mind Blast"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Venom Spit"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Pierce Armor"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+						["Shock"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Shadow Word: Pain (DoT)"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Drain Soul (DoT)"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Knockdown"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Attack"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["ManaGained"] = {
+						["Judgement of Wisdom"] = {
+							["Details"] = {
+								["Flokus"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ElementTakenAbsorb"] = {
+						["Shadow"] = 0,
+						["Fire"] = 0,
+						["Melee"] = 0,
+						["Nature"] = 0,
+					},
+					["Interrupts"] = 0,
+					["Overhealing"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["InterruptData"] = {
+						["Dark Strand Assassin"] = {
+							["Details"] = {
+								["Drain Soul (Interrupt)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Wrathtail Sorceress"] = {
+							["Details"] = {
+								["Frostbolt (Interrupt)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["WhoDispelled"] = {
+						["Flokus"] = {
+							["Details"] = {
+								["Venom Spit (Purify)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["TimeSpent"] = {
+						["Wrathtail Priestess"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Nemuritorujr"] = {
+							["Details"] = {
+								["Holy Light"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Light"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Tunneler"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Consecration (DoT)"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Iron Shield Spike"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Searing Totem II"] = {
+							["Details"] = {
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Wild Buck"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Wrathtail Sorceress"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Foulweald Totemic"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Iron Shield Spike"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Saltspittle Oracle"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Light"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Blackwood Shaman"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Lesser Felguard"] = {
+							["Details"] = {
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Wrathtail Myrmidon"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Dark Strand Assassin"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Blackwood Warrior"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Ashenvale Bear"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Light"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Expert's Training Dummy"] = {
+							["Details"] = {
+								["Consecration"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Wisdom"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Mystlash Hydra"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Iron Shield Spike"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Felslayer"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Blackwood Ursa"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Wrathtail Wave Rider"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Saltspittle Warrior"] = {
+							["Details"] = {
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Rat"] = {
+							["Details"] = {
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Miner"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Consecration (DoT)"] = {
+									["count"] = 10.43,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Iron Shield Spike"] = {
+									["count"] = 3.5,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 13.93,
+						},
+						["Flokus"] = {
+							["Details"] = {
+								["Healing Potion"] = {
+									["count"] = 0,
+								},
+								["Holy Light"] = {
+									["count"] = 0,
+								},
+								["Judgement of Light"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Wildthorn Stalker"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Foulweald Warrior"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Iron Shield Spike"] = {
+									["count"] = 0,
+								},
+								["Judgement of Light"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["Heals"] = {
+						["Healing Potion"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Holy Light"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Judgement of Light"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["FDamage"] = 0,
+					["EnergyGained"] = {
+					},
+					["HealedWho"] = {
+						["Nemuritorujr"] = {
+							["Details"] = {
+								["Judgement of Light"] = {
+									["count"] = 0,
+								},
+								["Holy Light"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Flokus"] = {
+							["Details"] = {
+								["Healing Potion"] = {
+									["count"] = 0,
+								},
+								["Holy Light"] = {
+									["count"] = 0,
+								},
+								["Judgement of Light"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["Healing"] = 0,
+					["RunicPowerGained"] = {
+					},
+					["ManaGainedFrom"] = {
+						["Flokus"] = {
+							["Details"] = {
+								["Judgement of Wisdom"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["Attacks"] = {
+						["Consecration (DoT)"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 18,
+									["min"] = 0,
+									["count"] = 35,
+									["amount"] = 630,
+								},
+							},
+							["count"] = 35,
+							["amount"] = 630,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Glancing"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Absorb"] = {
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Miss"] = {
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit (Blocked)"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Dodge"] = {
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Parry"] = {
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Judgement of Light"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Judgement of Wisdom"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Hand of Reckoning"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Miss"] = {
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Consecration"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Iron Shield Spike"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 9,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 9,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 9,
+						},
+						["Seal of Righteousness"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Absorb"] = {
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Judgement of Righteousness"] = {
+							["Details"] = {
+								["Absorb"] = {
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["HealingTaken"] = 0,
+					["DamagedWho"] = {
+						["Wrathtail Myrmidon"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Nemuritorujr"] = {
+							["Details"] = {
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Tunneler"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Consecration (DoT)"] = {
+									["count"] = 108,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Iron Shield Spike"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 108,
+						},
+						["Searing Totem II"] = {
+							["Details"] = {
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Wild Buck"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Wrathtail Sorceress"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Saltspittle Oracle"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Blackwood Shaman"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Foulweald Totemic"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Iron Shield Spike"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Dark Strand Assassin"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Blackwood Ursa"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Lesser Felguard"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Wrathtail Priestess"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Mystlash Hydra"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Iron Shield Spike"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Blackwood Warrior"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Wrathtail Wave Rider"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Felslayer"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Saltspittle Warrior"] = {
+							["Details"] = {
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Rat"] = {
+							["Details"] = {
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Miner"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Consecration (DoT)"] = {
+									["count"] = 522,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Iron Shield Spike"] = {
+									["count"] = 9,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 531,
+						},
+						["Ashenvale Bear"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Wildthorn Stalker"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Foulweald Warrior"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Iron Shield Spike"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["TimeDamage"] = 13.93,
+					["TimeDamaging"] = {
+						["Wrathtail Myrmidon"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Nemuritorujr"] = {
+							["Details"] = {
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Tunneler"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Consecration (DoT)"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Iron Shield Spike"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Searing Totem II"] = {
+							["Details"] = {
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Wild Buck"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Wrathtail Sorceress"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Saltspittle Oracle"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Light"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Blackwood Shaman"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Foulweald Totemic"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Iron Shield Spike"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Blackwood Warrior"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Dark Strand Assassin"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Blackwood Ursa"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Wrathtail Priestess"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Ashenvale Bear"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Light"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Mystlash Hydra"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Iron Shield Spike"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Expert's Training Dummy"] = {
+							["Details"] = {
+								["Consecration"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Wisdom"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Felslayer"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Wrathtail Wave Rider"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Saltspittle Warrior"] = {
+							["Details"] = {
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Rat"] = {
+							["Details"] = {
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Miner"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Consecration (DoT)"] = {
+									["count"] = 10.43,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Iron Shield Spike"] = {
+									["count"] = 3.5,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 13.93,
+						},
+						["Lesser Felguard"] = {
+							["Details"] = {
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Wildthorn Stalker"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Foulweald Warrior"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Iron Shield Spike"] = {
+									["count"] = 0,
+								},
+								["Judgement of Light"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["RunicPowerGain"] = 0,
+					["ElementTakenBlock"] = {
+						["Melee"] = 4,
+					},
+					["DispelledWho"] = {
+						["Flokus"] = {
+							["Details"] = {
+								["Venom Spit (Purify)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+				},
 			},
-			["UnitLockout"] = 1689323262,
-			["LastActive"] = 1689338042,
+			["NextEventNum"] = 13,
+			["LastEventHealthNum"] = {
+				100, -- [1]
+				100, -- [2]
+				100, -- [3]
+				100, -- [4]
+				100, -- [5]
+				100, -- [6]
+				100, -- [7]
+				100, -- [8]
+				100, -- [9]
+				100, -- [10]
+				100, -- [11]
+				100, -- [12]
+				100, -- [13]
+				100, -- [14]
+				100, -- [15]
+				100, -- [16]
+				100, -- [17]
+				99.85935302390999, -- [18]
+				99.85935302390999, -- [19]
+				100, -- [20]
+				100, -- [21]
+				100, -- [22]
+				100, -- [23]
+				100, -- [24]
+				100, -- [25]
+				100, -- [26]
+				100, -- [27]
+				99.71870604781998, -- [28]
+				99.57805907172995, -- [29]
+				99.57805907172995, -- [30]
+				99.43741209563994, -- [31]
+				99.43741209563994, -- [32]
+				99.43741209563994, -- [33]
+				99.29676511954993, -- [34]
+				99.29676511954993, -- [35]
+				99.29676511954993, -- [36]
+				99.29676511954993, -- [37]
+				99.29676511954993, -- [38]
+				99.29676511954993, -- [39]
+				99.29676511954993, -- [40]
+				99.0154711673699, -- [41]
+				100, -- [42]
+				100, -- [43]
+				100, -- [44]
+				100, -- [45]
+				100, -- [46]
+				100, -- [47]
+				100, -- [48]
+				100, -- [49]
+				100, -- [50]
+			},
+			["LastEvents"] = {
+				"Flokus Flash of Light Flokus Hit +83 (83 overheal)", -- [1]
+				"Flokus Flash of Light Flokus Hit +92 (92 overheal)", -- [2]
+				"Flokus Flash of Light Flokus Hit +90 (90 overheal)", -- [3]
+				"Flokus Holy Light Flokus Hit +228 (228 overheal)", -- [4]
+				"Flokus Flash of Light Flokus Hit +81 (81 overheal)", -- [5]
+				"Flokus Flash of Light Flokus Hit +85 (85 overheal)", -- [6]
+				"Flokus Flash of Light Flokus Hit +87 (87 overheal)", -- [7]
+				"Flokus Flash of Light Flokus Hit +83 (83 overheal)", -- [8]
+				"Flokus Flash of Light Flokus Hit +90 (90 overheal)", -- [9]
+				"Flokus Flash of Light Flokus Hit +91 (91 overheal)", -- [10]
+				"Flokus Flash of Light Flokus Hit +81 (81 overheal)", -- [11]
+				"Flokus Flash of Light Flokus Hit +81 (81 overheal)", -- [12]
+				"Flokus Melee Kobold Tunneler Glancing -182 (Physical)", -- [13]
+				"Flokus Hand of Reckoning Kobold Tunneler Hit -122 (Holy)", -- [14]
+				"Flokus Seal of Righteousness Kobold Tunneler Hit -15 (Holy)", -- [15]
+				"Flokus Judgement of Righteousness Kobold Tunneler Crit -98 (Holy)", -- [16]
+				"Kobold Tunneler Melee Flokus Hit -1 (Physical)", -- [17]
+				"Flokus Seal of Righteousness Kobold Tunneler Hit -15 (Holy)", -- [18]
+				"Flokus Melee Kobold Tunneler Glancing -187 (Physical)", -- [19]
+				"Flokus Seal of Righteousness Kobold Tunneler Hit -15 (Holy)", -- [20]
+				"Flokus Melee Kobold Tunneler Glancing -177 (Physical)", -- [21]
+				"Flokus Hand of Reckoning Kobold Tunneler Hit -122 (Holy)", -- [22]
+				"Kobold Tunneler Melee Flokus Miss", -- [23]
+				"Flokus Seal of Righteousness Kobold Tunneler Hit -15 (Holy)", -- [24]
+				"Flokus Melee Kobold Tunneler Glancing -200 (Physical)", -- [25]
+				"Flokus Hand of Reckoning Kobold Tunneler Hit -122 (Holy)", -- [26]
+				"Kobold Tunneler Melee Flokus Hit -2 (Physical)", -- [27]
+				"Kobold Tunneler Melee Flokus Hit -1 (Physical)", -- [28]
+				"Flokus Consecration (DoT) Kobold Tunneler Tick -18 (Holy)", -- [29]
+				"Kobold Tunneler Melee Flokus Hit -1 (Physical)", -- [30]
+				"Flokus Consecration (DoT) Kobold Tunneler Tick -18 (Holy)", -- [31]
+				"Flokus Consecration (DoT) Kobold Tunneler Tick -18 (Holy)", -- [32]
+				"Kobold Tunneler Melee Flokus Hit -1 (Physical)", -- [33]
+				"Flokus Seal of Righteousness Kobold Tunneler Hit -15 (Holy)", -- [34]
+				"Flokus Melee Kobold Tunneler Glancing -202 (Physical)", -- [35]
+				"Flokus Consecration (DoT) Kobold Tunneler Tick -18 (Holy)", -- [36]
+				"Flokus Consecration (DoT) Kobold Tunneler Tick -18 (Holy)", -- [37]
+				"Flokus Seal of Righteousness Kobold Tunneler Hit -15 (Holy)", -- [38]
+				"Flokus Judgement of Righteousness Kobold Tunneler Hit -49 (Holy)", -- [39]
+				"Kobold Tunneler Melee Flokus Hit -2 (Physical)", -- [40]
+				"Flokus Consecration (DoT) Kobold Tunneler Tick -18 (Holy)", -- [41]
+				"Kobold Tunneler Melee Flokus Hit -2 (Physical)", -- [42]
+				"Flokus Hand of Reckoning Defias Bandit Hit -122 (Holy)", -- [43]
+				"Defias Bandit Melee Flokus Dodge", -- [44]
+				"Flokus Seal of Righteousness Defias Bandit Hit -15 (Holy)", -- [45]
+				"Flokus Melee Defias Bandit Hit -70 (Physical)", -- [46]
+				"Flokus Hand of Reckoning Forest Spider Hit -122 (Holy)", -- [47]
+				"Flokus Flash of Light Flokus Hit +82 (82 overheal)", -- [48]
+				"Flokus Flash of Light Flokus Hit +93 (93 overheal)", -- [49]
+				"Flokus Flash of Light Flokus Hit +89 (89 overheal)", -- [50]
+			},
+			["Name"] = "Flokus",
+			["LastDamageTaken"] = 2,
+			["LastEventIncoming"] = {
+				true, -- [1]
+				true, -- [2]
+				true, -- [3]
+				true, -- [4]
+				true, -- [5]
+				true, -- [6]
+				true, -- [7]
+				true, -- [8]
+				true, -- [9]
+				true, -- [10]
+				true, -- [11]
+				true, -- [12]
+				false, -- [13]
+				false, -- [14]
+				false, -- [15]
+				false, -- [16]
+				true, -- [17]
+				false, -- [18]
+				false, -- [19]
+				false, -- [20]
+				false, -- [21]
+				false, -- [22]
+				true, -- [23]
+				false, -- [24]
+				false, -- [25]
+				false, -- [26]
+				true, -- [27]
+				true, -- [28]
+				false, -- [29]
+				true, -- [30]
+				false, -- [31]
+				false, -- [32]
+				true, -- [33]
+				false, -- [34]
+				false, -- [35]
+				false, -- [36]
+				false, -- [37]
+				false, -- [38]
+				false, -- [39]
+				true, -- [40]
+				false, -- [41]
+				true, -- [42]
+				false, -- [43]
+				true, -- [44]
+				false, -- [45]
+				false, -- [46]
+				false, -- [47]
+				true, -- [48]
+				true, -- [49]
+				true, -- [50]
+			},
+			["TimeLast"] = {
+				["TimeHeal"] = 1689332289,
+				["Dispelled"] = 1689330887,
+				["Dispels"] = 1689330887,
+				["Healing"] = 1689332289,
+				["OVERALL"] = 1689337368,
+				["DamageTaken"] = 1689337254,
+				["Interrupts"] = 1689330415,
+				["TimeDamage"] = 1689337368,
+				["HealingTaken"] = 1689332289,
+				["HOT_Time"] = 1689332336,
+				["ActiveTime"] = 1689337368,
+				["Overhealing"] = 1689336799,
+				["ManaGain"] = 1689337178,
+				["DOT_Time"] = 1689337227,
+				["Damage"] = 1689337368,
+			},
+			["LastEventTimes"] = {
+				18067.363, -- [1]
+				18069.002, -- [2]
+				18075.655, -- [3]
+				18080.29, -- [4]
+				18082.258, -- [5]
+				18084.008, -- [6]
+				18085.603, -- [7]
+				18087.23, -- [8]
+				18088.852, -- [9]
+				18090.434, -- [10]
+				18092.022, -- [11]
+				18098.352, -- [12]
+				17226.168, -- [13]
+				17229.639, -- [14]
+				17234.197, -- [15]
+				17234.198, -- [16]
+				17234.296, -- [17]
+				17234.323, -- [18]
+				17234.323, -- [19]
+				17237.606, -- [20]
+				17237.61, -- [21]
+				17241.06, -- [22]
+				17241.821, -- [23]
+				17241.846, -- [24]
+				17241.848, -- [25]
+				17255.342, -- [26]
+				17275.372, -- [27]
+				17277.487, -- [28]
+				17279.146, -- [29]
+				17279.488, -- [30]
+				17280.179, -- [31]
+				17280.18, -- [32]
+				17280.579, -- [33]
+				17280.913, -- [34]
+				17280.914, -- [35]
+				17281.121, -- [36]
+				17282.138, -- [37]
+				17282.505, -- [38]
+				17282.506, -- [39]
+				17282.571, -- [40]
+				17283.13, -- [41]
+				17310.346, -- [42]
+				17390.262, -- [43]
+				17391.669, -- [44]
+				17391.711, -- [45]
+				17391.713, -- [46]
+				17424.387, -- [47]
+				18062.658, -- [48]
+				18064.223, -- [49]
+				18065.826, -- [50]
+			},
+			["LastAbility"] = 19701.817,
 		},
 	},
 	["FightNum"] = 239,
