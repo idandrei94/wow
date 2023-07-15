@@ -9,7 +9,7 @@ MACRO 16777228 "bubble" INV_Misc_QuestionMark
 END
 MACRO 16777242 "buffs" INV_Misc_QuestionMark
 #showtooltip
-/cast [nomodifier:ctrl, @player] blessing of might
+/cast [nomodifier:ctrl, @player] blessing of wisdom
 /cast [modifier:ctrl, @party1] blessing of wisdom
 END
 MACRO 16777231 "cleanse" INV_Misc_QuestionMark

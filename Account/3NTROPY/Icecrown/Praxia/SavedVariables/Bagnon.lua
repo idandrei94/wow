@@ -2,8 +2,6 @@
 BagnonFrameSettings = {
 	["frames"] = {
 		["inventory"] = {
-			["y"] = -162.6658483905508,
-			["x"] = -90.07406078162103,
 			["point"] = "TOPRIGHT",
 			["hiddenBags"] = {
 				nil, -- [1]
@@ -12,6 +10,8 @@ BagnonFrameSettings = {
 				true, -- [4]
 			},
 			["itemFrameColumns"] = 15,
+			["y"] = -215.4066476910314,
+			["x"] = -214.5185458328886,
 		},
 		["keys"] = {
 			["y"] = 149.9999976748339,
