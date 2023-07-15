@@ -5,319 +5,129 @@ SkadaStorageDB = {
 			["enemies"] = {
 				{
 					["damagespells"] = {
-						[6660] = {
-							["school"] = 1,
-							["targets"] = {
-								["Flocius"] = {
-									["amount"] = 170,
-								},
-							},
-							["amount"] = 170,
-						},
 						[6603] = {
 							["school"] = 1,
 							["targets"] = {
 								["Flocius"] = {
-									["amount"] = 48,
+									["amount"] = 3,
 								},
 							},
-							["amount"] = 48,
+							["amount"] = 3,
 						},
 					},
-					["damagetaken"] = 2126,
-					["flag"] = 68168,
+					["damagetaken"] = 3943,
+					["id"] = "0xF1300001DB1E8045",
 					["class"] = "MONSTER",
 					["damagetakenspells"] = {
-						[45477] = {
-							["school"] = 16,
-							["sources"] = {
-								["Flocius"] = {
-									["amount"] = 257,
-								},
-							},
-							["amount"] = 257,
-						},
-						[47632] = {
-							["school"] = 32,
-							["sources"] = {
-								["Flocius"] = {
-									["amount"] = 697,
-								},
-							},
-							["amount"] = 697,
-						},
 						[6603] = {
 							["school"] = 1,
 							["sources"] = {
 								["Flocius"] = {
-									["overkill"] = 35,
-									["amount"] = 871,
+									["overkill"] = 3841,
+									["amount"] = 3943,
 								},
 							},
-							["overkill"] = 35,
-							["amount"] = 871,
-						},
-						[55095] = {
-							["school"] = 16,
-							["sources"] = {
-								["Flocius"] = {
-									["amount"] = 90,
-								},
-							},
-							["amount"] = 90,
-						},
-						[45462] = {
-							["school"] = 1,
-							["sources"] = {
-								["Flocius"] = {
-									["amount"] = 211,
-								},
-							},
-							["amount"] = 211,
+							["overkill"] = 3841,
+							["amount"] = 3943,
 						},
 					},
-					["name"] = "Scarlet Marksman",
-					["totaldamage"] = 218,
-					["totaldamagetaken"] = 2126,
-					["id"] = "0xF130006FC21BEFCF",
-					["damage"] = 218,
+					["totaldamage"] = 3,
+					["name"] = "Kobold Tunneler",
+					["totaldamagetaken"] = 3943,
+					["flag"] = 68168,
+					["damage"] = 3,
 				}, -- [1]
 			},
-			["overheal"] = 13,
-			["totaldamage"] = 2126,
-			["time"] = 8,
-			["totaldamagetaken"] = 218,
-			["etotaldamagetaken"] = 2126,
-			["last_time"] = 14038.434,
+			["totaldamage"] = 3943,
+			["time"] = 11,
+			["totaldamagetaken"] = 3,
+			["etotaldamage"] = 3,
+			["last_time"] = 12904.333,
 			["players"] = {
 				{
-					["last"] = 14038.433,
+					["last"] = 12904.301,
 					["flag"] = 1297,
 					["class"] = "DEATHKNIGHT",
 					["auras"] = {
-						[55095] = {
-							["type"] = "DEBUFF",
+						[52424] = {
+							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 16,
-							["targets"] = {
-								["Scarlet Marksman"] = {
-									["uptime"] = 3,
-									["count"] = 1,
-								},
-							},
+							["school"] = 1,
 							["uptime"] = 3,
 						},
-						[55078] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 32,
-							["targets"] = {
-								["Scarlet Marksman"] = {
-									["uptime"] = 1,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 1,
-						},
-						[53386] = {
+						[53138] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 16,
-							["uptime"] = 3,
+							["uptime"] = 11,
 						},
-						[48266] = {
+						[48263] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 8,
-						},
-						[51915] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 8,
+							["uptime"] = 11,
 						},
 					},
-					["time"] = 6.53,
-					["totaldamagetaken"] = 218,
-					["damage"] = 2126,
+					["time"] = 3.5,
+					["totaldamagetaken"] = 3,
+					["damage"] = 3943,
 					["damagespells"] = {
 						["Melee"] = {
-							["hitmin"] = 278,
-							["criticalamount"] = 556,
+							["glance"] = 3943,
 							["id"] = 6603,
-							["hitmax"] = 278,
-							["targets"] = {
-								["Scarlet Marksman"] = {
-									["overkill"] = 35,
-									["amount"] = 834,
-								},
-							},
-							["overkill"] = 35,
-							["count"] = 2,
-							["criticalmax"] = 556,
-							["critical"] = 1,
-							["amount"] = 834,
+							["glancemax"] = 3943,
+							["overkill"] = 3841,
+							["glancing"] = 1,
+							["count"] = 1,
+							["amount"] = 3943,
 							["school"] = 1,
-							["hit"] = 1,
-							["criticalmin"] = 556,
-							["hitamount"] = 278,
-						},
-						["Melee (Risen Ghoul)"] = {
-							["hitmin"] = 37,
-							["id"] = 6603,
 							["targets"] = {
-								["Scarlet Marksman"] = {
-									["amount"] = 37,
+								["Kobold Tunneler"] = {
+									["overkill"] = 3841,
+									["amount"] = 3943,
 								},
 							},
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 1,
-							["hitmax"] = 37,
-							["amount"] = 37,
-							["hitamount"] = 37,
-						},
-						["Icy Touch"] = {
-							["hitmin"] = 257,
-							["id"] = 45477,
-							["targets"] = {
-								["Scarlet Marksman"] = {
-									["amount"] = 257,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 16,
-							["hitmax"] = 257,
-							["amount"] = 257,
-							["hitamount"] = 257,
-						},
-						["Plague Strike"] = {
-							["hitmin"] = 211,
-							["id"] = 45462,
-							["targets"] = {
-								["Scarlet Marksman"] = {
-									["amount"] = 211,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 1,
-							["hitmax"] = 211,
-							["amount"] = 211,
-							["hitamount"] = 211,
-						},
-						["Frost Fever (DoT)"] = {
-							["hitmin"] = 90,
-							["id"] = 55095,
-							["targets"] = {
-								["Scarlet Marksman"] = {
-									["amount"] = 90,
-								},
-							},
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 16,
-							["hitmax"] = 90,
-							["amount"] = 90,
-							["hitamount"] = 90,
-						},
-						["Death Coil"] = {
-							["hitmin"] = 348,
-							["id"] = 47632,
-							["targets"] = {
-								["Scarlet Marksman"] = {
-									["amount"] = 697,
-								},
-							},
-							["casts"] = 2,
-							["count"] = 2,
-							["hit"] = 2,
-							["school"] = 32,
-							["hitmax"] = 349,
-							["amount"] = 697,
-							["hitamount"] = 697,
+							["glancemin"] = 3943,
 						},
 					},
-					["runicspells"] = {
-						[50163] = 20,
-					},
-					["damagetaken"] = 218,
+					["damagetaken"] = 3,
 					["id"] = "0x07000000009742E5",
 					["spec"] = 250,
-					["healspells"] = {
-						[50475] = {
-							["overheal"] = 13,
-							["max"] = 22,
-							["count"] = 6,
-							["amount"] = 62,
-							["school"] = 1,
-							["min"] = 8,
-							["ishot"] = true,
-							["targets"] = {
-								["Flocius"] = {
-									["overheal"] = 13,
-									["amount"] = 62,
-								},
-							},
-						},
-					},
 					["damagetakenspells"] = {
-						["Shoot"] = {
-							["hitmin"] = 76,
-							["id"] = 6660,
-							["sources"] = {
-								["Scarlet Marksman"] = {
-									["amount"] = 170,
-								},
-							},
-							["count"] = 2,
-							["hit"] = 2,
-							["school"] = 1,
-							["hitmax"] = 94,
-							["amount"] = 170,
-							["hitamount"] = 170,
-						},
 						["Melee"] = {
-							["hitmin"] = 48,
+							["DODGE"] = 2,
+							["hitmin"] = 1,
 							["id"] = 6603,
+							["PARRY"] = 1,
 							["sources"] = {
-								["Scarlet Marksman"] = {
-									["amount"] = 48,
+								["Kobold Tunneler"] = {
+									["amount"] = 3,
 								},
 							},
-							["count"] = 1,
-							["hit"] = 1,
+							["count"] = 6,
+							["hit"] = 3,
 							["school"] = 1,
-							["hitmax"] = 48,
-							["amount"] = 48,
-							["hitamount"] = 48,
+							["hitmax"] = 1,
+							["amount"] = 3,
+							["hitamount"] = 3,
 						},
 					},
-					["overkill"] = 35,
-					["heal"] = 62,
 					["name"] = "Flocius",
-					["runic"] = 20,
-					["overheal"] = 13,
-					["totaldamage"] = 2126,
+					["overkill"] = 3841,
+					["totaldamage"] = 3943,
 					["role"] = "DAMAGER",
 				}, -- [1]
 			},
 			["type"] = "none",
-			["damagetaken"] = 218,
-			["runic"] = 20,
-			["etotaldamage"] = 218,
-			["damage"] = 2126,
-			["overkill"] = 35,
-			["edamagetaken"] = 2126,
-			["heal"] = 62,
-			["name"] = "Scarlet Marksman (11)",
-			["mobname"] = "Scarlet Marksman",
-			["starttime"] = 1689434578,
-			["edamage"] = 218,
-			["last_action"] = 1689434584,
-			["endtime"] = 1689434586,
+			["damagetaken"] = 3,
+			["starttime"] = 1689447563,
+			["overkill"] = 3841,
+			["edamagetaken"] = 3943,
+			["etotaldamagetaken"] = 3943,
+			["name"] = "Kobold Tunneler (2)",
+			["mobname"] = "Kobold Tunneler",
+			["damage"] = 3943,
+			["edamage"] = 3,
+			["last_action"] = 1689447573,
+			["endtime"] = 1689447574,
 		}, -- [1]
 		{
 			["enemies"] = {
@@ -327,332 +137,120 @@ SkadaStorageDB = {
 							["school"] = 1,
 							["targets"] = {
 								["Flocius"] = {
-									["amount"] = 53,
+									["amount"] = 3,
 								},
 							},
-							["amount"] = 53,
+							["amount"] = 3,
 						},
 					},
-					["damagetaken"] = 2186,
-					["flag"] = 68168,
+					["damagetaken"] = 708,
+					["id"] = "0xF1300001DB1E7BA0",
 					["class"] = "MONSTER",
 					["damagetakenspells"] = {
-						[55095] = {
-							["school"] = 16,
-							["sources"] = {
-								["Flocius"] = {
-									["amount"] = 90,
-								},
-							},
-							["amount"] = 90,
-						},
-						[55078] = {
+						[48721] = {
 							["school"] = 32,
 							["sources"] = {
 								["Flocius"] = {
-									["amount"] = 96,
+									["overkill"] = 384,
+									["amount"] = 708,
 								},
 							},
-							["amount"] = 96,
-						},
-						[45462] = {
-							["school"] = 1,
-							["sources"] = {
-								["Flocius"] = {
-									["amount"] = 200,
-								},
-							},
-							["amount"] = 200,
-						},
-						[6603] = {
-							["school"] = 1,
-							["sources"] = {
-								["Flocius"] = {
-									["amount"] = 952,
-								},
-							},
-							["amount"] = 952,
-						},
-						[49998] = {
-							["school"] = 1,
-							["sources"] = {
-								["Flocius"] = {
-									["amount"] = 286,
-								},
-							},
-							["amount"] = 286,
-						},
-						[45902] = {
-							["school"] = 1,
-							["sources"] = {
-								["Flocius"] = {
-									["overkill"] = 95,
-									["amount"] = 301,
-								},
-							},
-							["overkill"] = 95,
-							["amount"] = 301,
-						},
-						[45477] = {
-							["school"] = 16,
-							["sources"] = {
-								["Flocius"] = {
-									["amount"] = 261,
-								},
-							},
-							["amount"] = 261,
+							["overkill"] = 384,
+							["amount"] = 708,
 						},
 					},
-					["name"] = "Scarlet Commander",
-					["totaldamage"] = 53,
-					["totaldamagetaken"] = 2186,
-					["id"] = "0xF1300071081C2078",
-					["damage"] = 53,
+					["totaldamage"] = 3,
+					["name"] = "Kobold Tunneler",
+					["totaldamagetaken"] = 708,
+					["flag"] = 68168,
+					["damage"] = 3,
 				}, -- [1]
 			},
-			["overheal"] = 486,
-			["totaldamage"] = 2186,
-			["time"] = 7,
-			["totaldamagetaken"] = 53,
-			["etotaldamagetaken"] = 2186,
-			["last_time"] = 14026.756,
+			["totaldamage"] = 708,
+			["time"] = 6,
+			["totaldamagetaken"] = 3,
+			["etotaldamage"] = 3,
+			["last_time"] = 12728.385,
 			["players"] = {
 				{
-					["last"] = 14025.45,
+					["last"] = 12727.779,
 					["flag"] = 1297,
 					["class"] = "DEATHKNIGHT",
 					["auras"] = {
-						[55078] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 32,
-							["targets"] = {
-								["Scarlet Commander"] = {
-									["uptime"] = 3,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 3,
-						},
-						[51915] = {
+						[48263] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 7,
+							["uptime"] = 6,
 						},
-						[48266] = {
+						[53138] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 7,
-						},
-						[55095] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 16,
-							["targets"] = {
-								["Scarlet Commander"] = {
-									["uptime"] = 5,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 5,
+							["uptime"] = 6,
 						},
 					},
-					["time"] = 5.52,
-					["totaldamagetaken"] = 53,
-					["damage"] = 2186,
+					["time"] = 3.5,
+					["totaldamagetaken"] = 3,
+					["damage"] = 708,
 					["damagespells"] = {
-						["Blood Strike"] = {
-							["hitmin"] = 301,
-							["id"] = 45902,
+						["Blood Boil"] = {
+							["hitmin"] = 235,
+							["id"] = 48721,
 							["targets"] = {
-								["Scarlet Commander"] = {
-									["overkill"] = 95,
-									["amount"] = 301,
+								["Kobold Tunneler"] = {
+									["overkill"] = 384,
+									["amount"] = 708,
 								},
 							},
-							["overkill"] = 95,
+							["overkill"] = 384,
 							["casts"] = 1,
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 1,
-							["hitmax"] = 301,
-							["amount"] = 301,
-							["hitamount"] = 301,
-						},
-						["Melee"] = {
-							["hitmin"] = 288,
-							["criticalamount"] = 664,
-							["id"] = 6603,
-							["targets"] = {
-								["Scarlet Commander"] = {
-									["amount"] = 952,
-								},
-							},
-							["hitmax"] = 288,
-							["count"] = 2,
-							["criticalmax"] = 664,
-							["critical"] = 1,
-							["amount"] = 952,
-							["school"] = 1,
-							["hit"] = 1,
-							["criticalmin"] = 664,
-							["hitamount"] = 288,
-						},
-						["Blood Plague (DoT)"] = {
-							["hitmin"] = 96,
-							["id"] = 55078,
-							["targets"] = {
-								["Scarlet Commander"] = {
-									["amount"] = 96,
-								},
-							},
-							["count"] = 1,
-							["hit"] = 1,
+							["count"] = 3,
+							["hit"] = 3,
 							["school"] = 32,
-							["hitmax"] = 96,
-							["amount"] = 96,
-							["hitamount"] = 96,
-						},
-						["Icy Touch"] = {
-							["hitmin"] = 261,
-							["id"] = 45477,
-							["targets"] = {
-								["Scarlet Commander"] = {
-									["amount"] = 261,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 16,
-							["hitmax"] = 261,
-							["amount"] = 261,
-							["hitamount"] = 261,
-						},
-						["Plague Strike"] = {
-							["hitmin"] = 200,
-							["id"] = 45462,
-							["targets"] = {
-								["Scarlet Commander"] = {
-									["amount"] = 200,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 1,
-							["hitmax"] = 200,
-							["amount"] = 200,
-							["hitamount"] = 200,
-						},
-						["Frost Fever (DoT)"] = {
-							["hitmin"] = 90,
-							["id"] = 55095,
-							["targets"] = {
-								["Scarlet Commander"] = {
-									["amount"] = 90,
-								},
-							},
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 16,
-							["hitmax"] = 90,
-							["amount"] = 90,
-							["hitamount"] = 90,
-						},
-						["Death Strike"] = {
-							["hitmin"] = 286,
-							["id"] = 49998,
-							["targets"] = {
-								["Scarlet Commander"] = {
-									["amount"] = 286,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 1,
-							["hitmax"] = 286,
-							["amount"] = 286,
-							["hitamount"] = 286,
+							["hitmax"] = 237,
+							["amount"] = 708,
+							["hitamount"] = 708,
 						},
 					},
-					["runicspells"] = {
-						[50163] = 20,
-					},
-					["damagetaken"] = 53,
+					["damagetaken"] = 3,
 					["id"] = "0x07000000009742E5",
 					["spec"] = 250,
-					["healspells"] = {
-						[50475] = {
-							["overheal"] = 66,
-							["max"] = 8,
-							["count"] = 6,
-							["amount"] = 8,
-							["school"] = 1,
-							["min"] = 8,
-							["ishot"] = true,
-							["targets"] = {
-								["Flocius"] = {
-									["overheal"] = 66,
-									["amount"] = 8,
-								},
-							},
-						},
-						[45470] = {
-							["overheal"] = 420,
-							["count"] = 1,
-							["amount"] = 0,
-							["school"] = 1,
-							["targets"] = {
-								["Flocius"] = {
-									["overheal"] = 420,
-									["amount"] = 0,
-								},
-							},
-						},
-					},
 					["damagetakenspells"] = {
 						["Melee"] = {
-							["hitmin"] = 53,
+							["DODGE"] = 1,
+							["hitmin"] = 1,
 							["id"] = 6603,
-							["hitmax"] = 53,
+							["amount"] = 3,
 							["sources"] = {
-								["Scarlet Commander"] = {
-									["amount"] = 53,
+								["Kobold Tunneler"] = {
+									["amount"] = 3,
 								},
 							},
-							["count"] = 2,
-							["hit"] = 1,
+							["count"] = 5,
+							["hit"] = 3,
 							["school"] = 1,
-							["amount"] = 53,
+							["hitmax"] = 1,
 							["MISS"] = 1,
-							["hitamount"] = 53,
+							["hitamount"] = 3,
 						},
 					},
-					["overkill"] = 95,
-					["heal"] = 8,
 					["name"] = "Flocius",
-					["runic"] = 20,
-					["overheal"] = 486,
-					["totaldamage"] = 2186,
+					["overkill"] = 384,
+					["totaldamage"] = 708,
 					["role"] = "DAMAGER",
 				}, -- [1]
 			},
 			["type"] = "none",
-			["damagetaken"] = 53,
-			["runic"] = 20,
-			["etotaldamage"] = 53,
-			["damage"] = 2186,
-			["overkill"] = 95,
-			["edamagetaken"] = 2186,
-			["heal"] = 8,
-			["name"] = "Scarlet Commander",
-			["mobname"] = "Scarlet Commander",
-			["starttime"] = 1689434566,
-			["edamage"] = 53,
-			["last_action"] = 1689434573,
-			["endtime"] = 1689434573,
+			["damagetaken"] = 3,
+			["starttime"] = 1689447392,
+			["overkill"] = 384,
+			["edamagetaken"] = 708,
+			["etotaldamagetaken"] = 708,
+			["name"] = "Kobold Tunneler",
+			["mobname"] = "Kobold Tunneler",
+			["damage"] = 708,
+			["edamage"] = 3,
+			["last_action"] = 1689447397,
+			["endtime"] = 1689447398,
 		}, -- [2]
 		{
 			["enemies"] = {
@@ -662,376 +260,207 @@ SkadaStorageDB = {
 							["school"] = 1,
 							["targets"] = {
 								["Flocius"] = {
-									["amount"] = 566,
+									["amount"] = 2,
 								},
 							},
-							["amount"] = 566,
+							["amount"] = 2,
 						},
 					},
-					["damagetaken"] = 5257,
-					["id"] = "0xF13000710C1C2D8A",
+					["damagetaken"] = 1430,
+					["id"] = "0xF13000004F1E6299",
 					["class"] = "MONSTER",
 					["damagetakenspells"] = {
-						[45477] = {
-							["school"] = 16,
-							["sources"] = {
-								["Flocius"] = {
-									["amount"] = 509,
-								},
-							},
-							["amount"] = 509,
-						},
-						[49998] = {
-							["school"] = 1,
-							["sources"] = {
-								["Flocius"] = {
-									["amount"] = 280,
-								},
-							},
-							["amount"] = 280,
-						},
-						[55078] = {
+						[48721] = {
 							["school"] = 32,
 							["sources"] = {
 								["Flocius"] = {
-									["amount"] = 672,
+									["amount"] = 250,
 								},
 							},
-							["amount"] = 672,
-						},
-						[45462] = {
-							["school"] = 1,
-							["sources"] = {
-								["Flocius"] = {
-									["amount"] = 540,
-								},
-							},
-							["amount"] = 540,
+							["amount"] = 250,
 						},
 						[6603] = {
 							["school"] = 1,
 							["sources"] = {
 								["Flocius"] = {
-									["amount"] = 1377,
+									["overkill"] = 1172,
+									["amount"] = 1180,
 								},
 							},
-							["amount"] = 1377,
+							["overkill"] = 1172,
+							["amount"] = 1180,
 						},
-						[47632] = {
+					},
+					["totaldamage"] = 2,
+					["name"] = "Narg the Taskmaster",
+					["totaldamagetaken"] = 1430,
+					["flag"] = 2632,
+					["damage"] = 2,
+				}, -- [1]
+				{
+					["id"] = "0xF1300000281E5FF7",
+					["name"] = "Kobold Miner",
+					["totaldamagetaken"] = 516,
+					["flag"] = 2632,
+					["class"] = "MONSTER",
+					["damagetaken"] = 516,
+					["damagetakenspells"] = {
+						[48721] = {
 							["school"] = 32,
 							["sources"] = {
 								["Flocius"] = {
-									["amount"] = 349,
+									["overkill"] = 259,
+									["amount"] = 516,
 								},
 							},
-							["amount"] = 349,
-						},
-						[45902] = {
-							["school"] = 1,
-							["sources"] = {
-								["Flocius"] = {
-									["overkill"] = 105,
-									["amount"] = 808,
-								},
-							},
-							["overkill"] = 105,
-							["amount"] = 808,
-						},
-						[55095] = {
-							["school"] = 16,
-							["sources"] = {
-								["Flocius"] = {
-									["overkill"] = 5,
-									["amount"] = 722,
-								},
-							},
-							["overkill"] = 5,
-							["amount"] = 722,
+							["overkill"] = 259,
+							["amount"] = 516,
 						},
 					},
-					["totaldamage"] = 566,
-					["name"] = "Scarlet Crusader",
-					["totaldamagetaken"] = 5257,
+				}, -- [2]
+				{
+					["id"] = "0xF1300001DB1E5FF6",
+					["name"] = "Kobold Tunneler",
+					["totaldamagetaken"] = 249,
 					["flag"] = 68168,
-					["damage"] = 566,
-				}, -- [1]
+					["class"] = "MONSTER",
+					["damagetaken"] = 249,
+					["damagetakenspells"] = {
+						[48721] = {
+							["school"] = 32,
+							["sources"] = {
+								["Flocius"] = {
+									["overkill"] = 147,
+									["amount"] = 249,
+								},
+							},
+							["overkill"] = 147,
+							["amount"] = 249,
+						},
+					},
+				}, -- [3]
 			},
-			["starttime"] = 1689434511,
-			["totaldamage"] = 5257,
-			["time"] = 19,
-			["etotaldamagetaken"] = 5257,
-			["totaldamagetaken"] = 566,
-			["etotaldamage"] = 566,
-			["last_time"] = 13982.869,
+			["totaldamage"] = 2195,
+			["time"] = 6,
+			["totaldamagetaken"] = 2,
+			["etotaldamage"] = 2,
+			["last_time"] = 12682.394,
 			["players"] = {
 				{
-					["last"] = 13982.868,
+					["last"] = 12682.361,
 					["flag"] = 1297,
 					["class"] = "DEATHKNIGHT",
 					["auras"] = {
-						[55095] = {
-							["type"] = "DEBUFF",
-							["count"] = 2,
-							["school"] = 16,
-							["refresh"] = 1,
-							["targets"] = {
-								["Scarlet Crusader"] = {
-									["count"] = 2,
-									["refresh"] = 1,
-									["uptime"] = 16,
-								},
-							},
-							["uptime"] = 16,
-						},
-						[55078] = {
-							["type"] = "DEBUFF",
-							["count"] = 2,
-							["school"] = 32,
-							["refresh"] = 1,
-							["targets"] = {
-								["Scarlet Crusader"] = {
-									["count"] = 2,
-									["refresh"] = 1,
-									["uptime"] = 14,
-								},
-							},
-							["uptime"] = 14,
-						},
-						[48266] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 19,
-						},
-						[51915] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 19,
-						},
-						[64856] = {
+						[52424] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["school"] = 1,
-							["refresh"] = 7,
-							["uptime"] = 12,
+							["uptime"] = 4,
+						},
+						[53138] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 6,
+						},
+						[48263] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 6,
 						},
 					},
-					["time"] = 18.03,
-					["totaldamagetaken"] = 566,
-					["damage"] = 5257,
-					["overheal"] = 0,
-					["runicspells"] = {
-						[50163] = 40,
+					["time"] = 5.1,
+					["totaldamagetaken"] = 2,
+					["damage"] = 2195,
+					["damagespells"] = {
+						["Melee"] = {
+							["criticalamount"] = 1180,
+							["id"] = 6603,
+							["targets"] = {
+								["Narg the Taskmaster"] = {
+									["overkill"] = 1172,
+									["amount"] = 1180,
+								},
+							},
+							["overkill"] = 1172,
+							["criticalmax"] = 1180,
+							["critical"] = 1,
+							["amount"] = 1180,
+							["school"] = 1,
+							["criticalmin"] = 1180,
+							["count"] = 1,
+						},
+						["Blood Boil"] = {
+							["hitmin"] = 249,
+							["id"] = 48721,
+							["targets"] = {
+								["Kobold Miner"] = {
+									["overkill"] = 259,
+									["amount"] = 516,
+								},
+								["Narg the Taskmaster"] = {
+									["amount"] = 250,
+								},
+								["Kobold Tunneler"] = {
+									["overkill"] = 147,
+									["amount"] = 249,
+								},
+							},
+							["overkill"] = 406,
+							["casts"] = 1,
+							["count"] = 4,
+							["hit"] = 4,
+							["school"] = 32,
+							["hitmax"] = 263,
+							["amount"] = 1015,
+							["hitamount"] = 1015,
+						},
 					},
-					["damagetaken"] = 566,
+					["damagetaken"] = 2,
 					["id"] = "0x07000000009742E5",
 					["spec"] = 250,
-					["healspells"] = {
-						[50475] = {
-							["overheal"] = 0,
-							["targets"] = {
-								["Flocius"] = {
-									["overheal"] = 0,
-									["amount"] = 145,
-								},
-							},
-							["count"] = 14,
-							["amount"] = 145,
-							["school"] = 1,
-							["max"] = 14,
-							["ishot"] = true,
-							["min"] = 6,
-						},
-						[45470] = {
-							["overheal"] = 0,
-							["count"] = 1,
-							["amount"] = 420,
-							["school"] = 1,
-							["max"] = 420,
-							["targets"] = {
-								["Flocius"] = {
-									["overheal"] = 0,
-									["amount"] = 420,
-								},
-							},
-							["min"] = 420,
-						},
-					},
 					["damagetakenspells"] = {
 						["Melee"] = {
-							["DODGE"] = 4,
-							["hitmin"] = 47,
+							["DODGE"] = 2,
+							["hitmin"] = 2,
 							["id"] = 6603,
+							["hitmax"] = 2,
 							["PARRY"] = 1,
+							["count"] = 4,
+							["hit"] = 1,
+							["school"] = 1,
+							["amount"] = 2,
 							["sources"] = {
-								["Scarlet Crusader"] = {
-									["amount"] = 566,
+								["Kobold Miner"] = {
+									["amount"] = 0,
+								},
+								["Narg the Taskmaster"] = {
+									["amount"] = 2,
+								},
+								["Kobold Tunneler"] = {
+									["amount"] = 0,
 								},
 							},
-							["count"] = 16,
-							["hit"] = 11,
-							["school"] = 1,
-							["hitmax"] = 55,
-							["amount"] = 566,
-							["hitamount"] = 566,
+							["hitamount"] = 2,
 						},
 					},
-					["overkill"] = 110,
-					["heal"] = 565,
 					["name"] = "Flocius",
-					["runic"] = 40,
-					["damagespells"] = {
-						["Death Strike"] = {
-							["hitmin"] = 280,
-							["id"] = 49998,
-							["targets"] = {
-								["Scarlet Crusader"] = {
-									["amount"] = 280,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 1,
-							["hitmax"] = 280,
-							["amount"] = 280,
-							["hitamount"] = 280,
-						},
-						["Death Coil"] = {
-							["hitmin"] = 349,
-							["id"] = 47632,
-							["targets"] = {
-								["Scarlet Crusader"] = {
-									["amount"] = 349,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 32,
-							["hitmax"] = 349,
-							["amount"] = 349,
-							["hitamount"] = 349,
-						},
-						["Melee"] = {
-							["hitmin"] = 257,
-							["id"] = 6603,
-							["targets"] = {
-								["Scarlet Crusader"] = {
-									["amount"] = 1377,
-								},
-							},
-							["PARRY"] = 1,
-							["count"] = 6,
-							["hit"] = 5,
-							["school"] = 1,
-							["hitmax"] = 289,
-							["amount"] = 1377,
-							["hitamount"] = 1377,
-						},
-						["Blood Strike"] = {
-							["hitmin"] = 263,
-							["id"] = 45902,
-							["targets"] = {
-								["Scarlet Crusader"] = {
-									["overkill"] = 105,
-									["amount"] = 808,
-								},
-							},
-							["overkill"] = 105,
-							["casts"] = 3,
-							["count"] = 3,
-							["hit"] = 3,
-							["school"] = 1,
-							["hitmax"] = 278,
-							["amount"] = 808,
-							["hitamount"] = 808,
-						},
-						["Icy Touch"] = {
-							["hitmin"] = 254,
-							["id"] = 45477,
-							["targets"] = {
-								["Scarlet Crusader"] = {
-									["amount"] = 509,
-								},
-							},
-							["casts"] = 2,
-							["count"] = 2,
-							["hit"] = 2,
-							["school"] = 16,
-							["hitmax"] = 255,
-							["amount"] = 509,
-							["hitamount"] = 509,
-						},
-						["Plague Strike"] = {
-							["hitmin"] = 182,
-							["criticalamount"] = 358,
-							["id"] = 45462,
-							["hitmax"] = 182,
-							["targets"] = {
-								["Scarlet Crusader"] = {
-									["amount"] = 540,
-								},
-							},
-							["count"] = 2,
-							["hit"] = 1,
-							["casts"] = 2,
-							["critical"] = 1,
-							["amount"] = 540,
-							["school"] = 1,
-							["criticalmin"] = 358,
-							["criticalmax"] = 358,
-							["hitamount"] = 182,
-						},
-						["Frost Fever (DoT)"] = {
-							["hitmin"] = 90,
-							["id"] = 55095,
-							["targets"] = {
-								["Scarlet Crusader"] = {
-									["overkill"] = 5,
-									["amount"] = 722,
-								},
-							},
-							["overkill"] = 5,
-							["count"] = 8,
-							["hit"] = 8,
-							["school"] = 16,
-							["hitmax"] = 91,
-							["amount"] = 722,
-							["hitamount"] = 722,
-						},
-						["Blood Plague (DoT)"] = {
-							["hitmin"] = 96,
-							["id"] = 55078,
-							["targets"] = {
-								["Scarlet Crusader"] = {
-									["amount"] = 672,
-								},
-							},
-							["count"] = 7,
-							["hit"] = 7,
-							["school"] = 32,
-							["hitmax"] = 96,
-							["amount"] = 672,
-							["hitamount"] = 672,
-						},
-					},
-					["totaldamage"] = 5257,
+					["overkill"] = 1578,
+					["totaldamage"] = 2195,
 					["role"] = "DAMAGER",
 				}, -- [1]
 			},
 			["type"] = "none",
-			["damagetaken"] = 566,
-			["runic"] = 40,
-			["damage"] = 5257,
-			["overkill"] = 110,
-			["edamagetaken"] = 5257,
-			["heal"] = 565,
-			["name"] = "Scarlet Crusader (6)",
-			["mobname"] = "Scarlet Crusader",
-			["overheal"] = 0,
-			["edamage"] = 566,
-			["last_action"] = 1689434529,
-			["endtime"] = 1689434530,
+			["damagetaken"] = 2,
+			["damage"] = 2195,
+			["overkill"] = 1578,
+			["edamagetaken"] = 2195,
+			["etotaldamagetaken"] = 2195,
+			["name"] = "Kobold Miner",
+			["mobname"] = "Kobold Miner",
+			["starttime"] = 1689447346,
+			["edamage"] = 2,
+			["last_action"] = 1689447351,
+			["endtime"] = 1689447352,
 		}, -- [3]
 		{
 			["enemies"] = {
@@ -1041,444 +470,558 @@ SkadaStorageDB = {
 							["school"] = 1,
 							["targets"] = {
 								["Flocius"] = {
-									["amount"] = 266,
+									["amount"] = 9266,
 								},
 							},
-							["amount"] = 266,
+							["amount"] = 9266,
 						},
 					},
-					["damagetaken"] = 2875,
-					["id"] = "0xF13000710C1BF002",
+					["damagetaken"] = 66402,
+					["flag"] = 68168,
 					["class"] = "MONSTER",
 					["damagetakenspells"] = {
 						[45477] = {
 							["school"] = 16,
 							["sources"] = {
 								["Flocius"] = {
-									["amount"] = 521,
+									["amount"] = 6192,
 								},
 							},
-							["amount"] = 521,
-						},
-						[55078] = {
-							["school"] = 32,
-							["sources"] = {
-								["Flocius"] = {
-									["amount"] = 192,
-								},
-							},
-							["amount"] = 192,
-						},
-						[45462] = {
-							["school"] = 1,
-							["sources"] = {
-								["Flocius"] = {
-									["amount"] = 389,
-								},
-							},
-							["amount"] = 389,
-						},
-						[6603] = {
-							["school"] = 1,
-							["sources"] = {
-								["Flocius"] = {
-									["amount"] = 543,
-								},
-							},
-							["amount"] = 543,
+							["amount"] = 6192,
 						},
 						[47632] = {
 							["school"] = 32,
 							["sources"] = {
 								["Flocius"] = {
-									["overkill"] = 342,
-									["amount"] = 697,
+									["amount"] = 6202,
 								},
 							},
-							["overkill"] = 342,
-							["amount"] = 697,
-						},
-						[45902] = {
-							["school"] = 1,
-							["sources"] = {
-								["Flocius"] = {
-									["amount"] = 263,
-								},
-							},
-							["amount"] = 263,
-						},
-						[55095] = {
-							["school"] = 16,
-							["sources"] = {
-								["Flocius"] = {
-									["amount"] = 270,
-								},
-							},
-							["amount"] = 270,
-						},
-					},
-					["totaldamage"] = 266,
-					["name"] = "Scarlet Crusader",
-					["totaldamagetaken"] = 2875,
-					["flag"] = 68168,
-					["damage"] = 266,
-				}, -- [1]
-			},
-			["starttime"] = 1689434494,
-			["totaldamage"] = 2875,
-			["time"] = 12,
-			["etotaldamagetaken"] = 2875,
-			["totaldamagetaken"] = 266,
-			["etotaldamage"] = 266,
-			["last_time"] = 13959.368,
-			["players"] = {
-				{
-					["last"] = 13959.367,
-					["flag"] = 1297,
-					["class"] = "DEATHKNIGHT",
-					["auras"] = {
-						[55095] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 16,
-							["targets"] = {
-								["Scarlet Crusader"] = {
-									["uptime"] = 9,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 9,
-						},
-						[48778] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 1,
-						},
-						[64856] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["uptime"] = 4,
-						},
-						[48266] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 12,
-						},
-						[51915] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 12,
+							["amount"] = 6202,
 						},
 						[55078] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
 							["school"] = 32,
-							["refresh"] = 1,
-							["targets"] = {
-								["Scarlet Crusader"] = {
-									["count"] = 1,
-									["refresh"] = 1,
-									["uptime"] = 8,
-								},
-							},
-							["uptime"] = 8,
-						},
-					},
-					["time"] = 11.65,
-					["totaldamagetaken"] = 266,
-					["damage"] = 2875,
-					["overheal"] = 0,
-					["runicspells"] = {
-						[50163] = 20,
-					},
-					["damagetaken"] = 266,
-					["id"] = "0x07000000009742E5",
-					["spec"] = 250,
-					["healspells"] = {
-						[50475] = {
-							["overheal"] = 0,
-							["targets"] = {
-								["Flocius"] = {
-									["overheal"] = 0,
-									["amount"] = 78,
-								},
-							},
-							["count"] = 7,
-							["amount"] = 78,
-							["school"] = 1,
-							["max"] = 20,
-							["ishot"] = true,
-							["min"] = 7,
-						},
-					},
-					["damagetakenspells"] = {
-						["Melee"] = {
-							["hitmin"] = 49,
-							["id"] = 6603,
-							["sources"] = {
-								["Scarlet Crusader"] = {
-									["amount"] = 266,
-								},
-							},
-							["count"] = 5,
-							["hit"] = 5,
-							["school"] = 1,
-							["hitmax"] = 55,
-							["amount"] = 266,
-							["hitamount"] = 266,
-						},
-					},
-					["overkill"] = 342,
-					["heal"] = 78,
-					["name"] = "Flocius",
-					["runic"] = 20,
-					["damagespells"] = {
-						["Death Coil"] = {
-							["hitmin"] = 348,
-							["id"] = 47632,
-							["targets"] = {
-								["Scarlet Crusader"] = {
-									["overkill"] = 342,
-									["amount"] = 697,
-								},
-							},
-							["overkill"] = 342,
-							["casts"] = 2,
-							["count"] = 2,
-							["hit"] = 2,
-							["school"] = 32,
-							["hitmax"] = 349,
-							["amount"] = 697,
-							["hitamount"] = 697,
-						},
-						["Melee"] = {
-							["hitmin"] = 265,
-							["id"] = 6603,
-							["targets"] = {
-								["Scarlet Crusader"] = {
-									["amount"] = 543,
-								},
-							},
-							["hitmax"] = 278,
-							["count"] = 3,
-							["amount"] = 543,
-							["school"] = 1,
-							["hit"] = 2,
-							["MISS"] = 1,
-							["hitamount"] = 543,
-						},
-						["Blood Plague (DoT)"] = {
-							["hitmin"] = 96,
-							["id"] = 55078,
-							["targets"] = {
-								["Scarlet Crusader"] = {
-									["amount"] = 192,
-								},
-							},
-							["count"] = 2,
-							["hit"] = 2,
-							["school"] = 32,
-							["hitmax"] = 96,
-							["amount"] = 192,
-							["hitamount"] = 192,
-						},
-						["Icy Touch"] = {
-							["criticalamount"] = 521,
-							["id"] = 45477,
-							["targets"] = {
-								["Scarlet Crusader"] = {
-									["amount"] = 521,
-								},
-							},
-							["casts"] = 1,
-							["critical"] = 1,
-							["amount"] = 521,
-							["school"] = 16,
-							["criticalmin"] = 521,
-							["criticalmax"] = 521,
-							["count"] = 1,
-						},
-						["Plague Strike"] = {
-							["hitmin"] = 190,
-							["id"] = 45462,
-							["targets"] = {
-								["Scarlet Crusader"] = {
-									["amount"] = 389,
-								},
-							},
-							["casts"] = 2,
-							["count"] = 2,
-							["hit"] = 2,
-							["school"] = 1,
-							["hitmax"] = 199,
-							["amount"] = 389,
-							["hitamount"] = 389,
-						},
-						["Frost Fever (DoT)"] = {
-							["hitmin"] = 90,
-							["id"] = 55095,
-							["targets"] = {
-								["Scarlet Crusader"] = {
-									["amount"] = 270,
-								},
-							},
-							["count"] = 3,
-							["hit"] = 3,
-							["school"] = 16,
-							["hitmax"] = 90,
-							["amount"] = 270,
-							["hitamount"] = 270,
-						},
-						["Blood Strike"] = {
-							["hitmin"] = 263,
-							["id"] = 45902,
-							["targets"] = {
-								["Scarlet Crusader"] = {
-									["amount"] = 263,
-								},
-							},
-							["PARRY"] = 1,
-							["casts"] = 2,
-							["count"] = 2,
-							["hit"] = 1,
-							["school"] = 1,
-							["hitmax"] = 263,
-							["amount"] = 263,
-							["hitamount"] = 263,
-						},
-					},
-					["totaldamage"] = 2875,
-					["role"] = "DAMAGER",
-				}, -- [1]
-			},
-			["type"] = "none",
-			["damagetaken"] = 266,
-			["runic"] = 20,
-			["damage"] = 2875,
-			["overkill"] = 342,
-			["edamagetaken"] = 2875,
-			["heal"] = 78,
-			["name"] = "Scarlet Crusader (5)",
-			["mobname"] = "Scarlet Crusader",
-			["overheal"] = 0,
-			["edamage"] = 266,
-			["last_action"] = 1689434505,
-			["endtime"] = 1689434506,
-		}, -- [4]
-		{
-			["enemies"] = {
-				{
-					["id"] = "0xF13000710B1C0ED4",
-					["name"] = "Scarlet Preacher",
-					["totaldamagetaken"] = 2109,
-					["flag"] = 68168,
-					["class"] = "MONSTER",
-					["damagetaken"] = 2109,
-					["damagetakenspells"] = {
-						[45477] = {
-							["school"] = 16,
 							["sources"] = {
 								["Flocius"] = {
-									["amount"] = 252,
+									["amount"] = 5219,
 								},
 							},
-							["amount"] = 252,
+							["amount"] = 5219,
 						},
 						[45462] = {
 							["school"] = 1,
 							["sources"] = {
 								["Flocius"] = {
-									["amount"] = 193,
+									["amount"] = 3133,
 								},
 							},
-							["amount"] = 193,
+							["amount"] = 3133,
 						},
 						[6603] = {
 							["school"] = 1,
 							["sources"] = {
 								["Flocius"] = {
-									["overkill"] = 83,
-									["amount"] = 978,
+									["amount"] = 19258,
 								},
 							},
-							["overkill"] = 83,
-							["amount"] = 978,
-						},
-						[45902] = {
-							["school"] = 1,
-							["sources"] = {
-								["Flocius"] = {
-									["amount"] = 596,
-								},
-							},
-							["amount"] = 596,
+							["amount"] = 19258,
 						},
 						[55095] = {
 							["school"] = 16,
 							["sources"] = {
 								["Flocius"] = {
-									["amount"] = 90,
+									["amount"] = 4850,
 								},
 							},
-							["amount"] = 90,
+							["amount"] = 4850,
+						},
+						[45902] = {
+							["school"] = 1,
+							["sources"] = {
+								["Flocius"] = {
+									["amount"] = 8554,
+								},
+							},
+							["amount"] = 8554,
+						},
+						[49998] = {
+							["school"] = 1,
+							["sources"] = {
+								["Flocius"] = {
+									["amount"] = 12994,
+								},
+							},
+							["amount"] = 12994,
 						},
 					},
+					["name"] = "Patchwerk",
+					["totaldamage"] = 9266,
+					["totaldamagetaken"] = 66402,
+					["id"] = "0xF13000797B1E6636",
+					["damage"] = 9266,
 				}, -- [1]
 			},
-			["totaldamage"] = 2109,
-			["time"] = 5,
-			["etotaldamagetaken"] = 2109,
-			["last_time"] = 13936.352,
+			["totaldamage"] = 66402,
+			["time"] = 36,
+			["damage"] = 66402,
+			["totaldamagetaken"] = 9266,
+			["etotaldamagetaken"] = 66402,
+			["last_time"] = 12029.237,
 			["players"] = {
 				{
 					["ccdonespells"] = {
 						[49560] = {
 							["count"] = 1,
 							["targets"] = {
-								["Scarlet Preacher"] = 1,
+								["Patchwerk"] = 1,
 							},
 						},
 					},
-					["last"] = 13936.352,
+					["last"] = 12029.163,
 					["flag"] = 1297,
 					["class"] = "DEATHKNIGHT",
 					["auras"] = {
-						[55095] = {
+						[55078] = {
 							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 16,
+							["count"] = 2,
+							["school"] = 32,
+							["refresh"] = 1,
 							["targets"] = {
-								["Scarlet Preacher"] = {
-									["uptime"] = 3,
-									["count"] = 1,
+								["Patchwerk"] = {
+									["count"] = 2,
+									["refresh"] = 1,
+									["uptime"] = 30,
 								},
 							},
-							["uptime"] = 3,
+							["uptime"] = 30,
+						},
+						[64859] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["refresh"] = 11,
+							["uptime"] = 24,
+						},
+						[55095] = {
+							["type"] = "DEBUFF",
+							["count"] = 2,
+							["school"] = 16,
+							["refresh"] = 1,
+							["targets"] = {
+								["Patchwerk"] = {
+									["count"] = 2,
+									["refresh"] = 1,
+									["uptime"] = 33,
+								},
+							},
+							["uptime"] = 33,
+						},
+						[53138] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 36,
+						},
+						[51721] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 36,
+						},
+						[11413] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 36,
+						},
+						[58361] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 36,
+						},
+						[52424] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["uptime"] = 10,
+						},
+						[48263] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 36,
 						},
 						[49560] = {
 							["type"] = "DEBUFF",
 							["count"] = 1,
 							["school"] = 1,
 							["targets"] = {
-								["Scarlet Preacher"] = {
-									["uptime"] = 1,
+								["Patchwerk"] = {
+									["uptime"] = 3,
 									["count"] = 1,
 								},
 							},
-							["uptime"] = 1,
+							["uptime"] = 3,
 						},
-						[48778] = {
-							["type"] = "BUFF",
+					},
+					["role"] = "DAMAGER",
+					["time"] = 34.90000000000001,
+					["totaldamagetaken"] = 9266,
+					["damage"] = 66402,
+					["damagespells"] = {
+						["Death Coil"] = {
+							["hitmin"] = 1915,
+							["id"] = 47632,
+							["targets"] = {
+								["Patchwerk"] = {
+									["amount"] = 6202,
+								},
+							},
+							["hitmax"] = 2154,
+							["casts"] = 3,
+							["count"] = 3,
+							["hit"] = 3,
+							["school"] = 32,
+							["resisted"] = 717,
+							["amount"] = 6202,
+							["hitamount"] = 6202,
+						},
+						["Blood Strike"] = {
+							["criticalmin"] = 3422,
+							["criticalmax"] = 3422,
+							["hitmin"] = 1634,
+							["criticalamount"] = 3422,
+							["id"] = 45902,
+							["critical"] = 1,
+							["targets"] = {
+								["Patchwerk"] = {
+									["amount"] = 8554,
+								},
+							},
+							["blocked"] = 31,
+							["hitmax"] = 1826,
+							["casts"] = 5,
+							["count"] = 5,
+							["amount"] = 8554,
+							["school"] = 1,
+							["hit"] = 3,
+							["MISS"] = 1,
+							["hitamount"] = 5132,
+						},
+						["Melee"] = {
+							["glance"] = 6598,
+							["hitmin"] = 1724,
+							["criticalmin"] = 3212,
+							["targets"] = {
+								["Patchwerk"] = {
+									["amount"] = 19258,
+								},
+							},
+							["glancing"] = 5,
+							["amount"] = 19258,
+							["glancemin"] = 1209,
+							["criticalamount"] = 3212,
+							["id"] = 6603,
+							["glancemax"] = 1524,
+							["critical"] = 1,
+							["criticalmax"] = 3212,
+							["hitmax"] = 2043,
+							["hit"] = 5,
+							["school"] = 1,
+							["blocked"] = 31,
+							["count"] = 11,
+							["hitamount"] = 9448,
+						},
+						["Blood Plague (DoT)"] = {
+							["hitmin"] = 509,
+							["id"] = 55078,
+							["targets"] = {
+								["Patchwerk"] = {
+									["amount"] = 5219,
+								},
+							},
+							["hitmax"] = 636,
+							["count"] = 9,
+							["hit"] = 9,
+							["school"] = 32,
+							["resisted"] = 506,
+							["amount"] = 5219,
+							["hitamount"] = 5219,
+						},
+						["Icy Touch"] = {
+							["criticalmin"] = 2858,
+							["hitmin"] = 1576,
+							["criticalamount"] = 2858,
+							["id"] = 45477,
+							["criticalmax"] = 2858,
+							["targets"] = {
+								["Patchwerk"] = {
+									["amount"] = 6192,
+								},
+							},
+							["critical"] = 1,
+							["hitmax"] = 1758,
+							["casts"] = 3,
+							["count"] = 3,
+							["hit"] = 2,
+							["school"] = 16,
+							["resisted"] = 889,
+							["amount"] = 6192,
+							["hitamount"] = 3334,
+						},
+						["Plague Strike"] = {
+							["hitmin"] = 1000,
+							["id"] = 45462,
+							["targets"] = {
+								["Patchwerk"] = {
+									["amount"] = 3133,
+								},
+							},
+							["casts"] = 3,
+							["count"] = 3,
+							["hit"] = 3,
+							["school"] = 1,
+							["hitmax"] = 1111,
+							["amount"] = 3133,
+							["hitamount"] = 3133,
+						},
+						["Death Strike"] = {
+							["hitmin"] = 1899,
+							["criticalamount"] = 4686,
+							["id"] = 49998,
+							["criticalmin"] = 4686,
+							["targets"] = {
+								["Patchwerk"] = {
+									["amount"] = 12994,
+								},
+							},
+							["criticalmax"] = 4686,
+							["critical"] = 1,
+							["casts"] = 9,
+							["count"] = 5,
+							["hit"] = 4,
+							["school"] = 1,
+							["hitmax"] = 2304,
+							["amount"] = 12994,
+							["hitamount"] = 8308,
+						},
+						["Frost Fever (DoT)"] = {
+							["hitmin"] = 485,
+							["id"] = 55095,
+							["targets"] = {
+								["Patchwerk"] = {
+									["amount"] = 4850,
+								},
+							},
+							["hitmax"] = 606,
+							["count"] = 9,
+							["hit"] = 9,
+							["school"] = 16,
+							["resisted"] = 602,
+							["amount"] = 4850,
+							["hitamount"] = 4850,
+						},
+					},
+					["damagetaken"] = 9266,
+					["id"] = "0x07000000009742E5",
+					["spec"] = 250,
+					["healspells"] = {
+						[58361] = {
+							["overheal"] = 51566,
+							["targets"] = {
+								["Flocius"] = {
+									["overheal"] = 51566,
+									["amount"] = 8998,
+								},
+							},
+							["count"] = 12,
+							["amount"] = 8998,
+							["school"] = 1,
+							["max"] = 1246,
+							["ishot"] = true,
+							["min"] = 294,
+						},
+						[45470] = {
+							["overheal"] = 14867,
+							["max"] = 268,
+							["targets"] = {
+								["Flocius"] = {
+									["overheal"] = 14867,
+									["amount"] = 268,
+								},
+							},
+							["min"] = 268,
+							["casts"] = 5,
+							["count"] = 5,
+							["amount"] = 268,
+							["school"] = 1,
+						},
+					},
+					["damagetakenspells"] = {
+						["Melee"] = {
+							["DODGE"] = 1,
+							["PARRY"] = 3,
+							["hitmin"] = 268,
+							["criticalamount"] = 3178,
+							["id"] = 6603,
+							["criticalmin"] = 600,
+							["criticalmax"] = 678,
+							["critical"] = 5,
+							["amount"] = 9266,
+							["sources"] = {
+								["Patchwerk"] = {
+									["amount"] = 9266,
+								},
+							},
+							["count"] = 31,
+							["hit"] = 20,
+							["school"] = 1,
+							["hitmax"] = 352,
+							["MISS"] = 2,
+							["hitamount"] = 6088,
+						},
+					},
+					["heal"] = 9266,
+					["name"] = "Flocius",
+					["ccdone"] = 1,
+					["overheal"] = 66433,
+					["totaldamage"] = 66402,
+				}, -- [1]
+			},
+			["type"] = "none",
+			["damagetaken"] = 9266,
+			["ccdone"] = 1,
+			["overheal"] = 66433,
+			["etotaldamage"] = 9266,
+			["edamagetaken"] = 66402,
+			["heal"] = 9266,
+			["name"] = "Patchwerk (2)",
+			["mobname"] = "Patchwerk",
+			["starttime"] = 1689446663,
+			["edamage"] = 9266,
+			["last_action"] = 1689446698,
+			["endtime"] = 1689446699,
+		}, -- [4]
+		{
+			["enemies"] = {
+				{
+					["id"] = "0xF1300079781E6572",
+					["name"] = "Scourge Necromancer",
+					["totaldamagetaken"] = 6652,
+					["flag"] = 68168,
+					["class"] = "MONSTER",
+					["damagetaken"] = 6652,
+					["damagetakenspells"] = {
+						[6603] = {
+							["school"] = 1,
+							["sources"] = {
+								["Flocius"] = {
+									["amount"] = 1909,
+								},
+							},
+							["amount"] = 1909,
+						},
+						[45477] = {
+							["school"] = 16,
+							["sources"] = {
+								["Flocius"] = {
+									["amount"] = 1807,
+								},
+							},
+							["amount"] = 1807,
+						},
+						[55095] = {
+							["school"] = 16,
+							["sources"] = {
+								["Flocius"] = {
+									["amount"] = 606,
+								},
+							},
+							["amount"] = 606,
+						},
+						[45462] = {
+							["school"] = 1,
+							["sources"] = {
+								["Flocius"] = {
+									["amount"] = 2330,
+								},
+							},
+							["amount"] = 2330,
+						},
+					},
+				}, -- [1]
+			},
+			["totaldamage"] = 6652,
+			["time"] = 5,
+			["etotaldamagetaken"] = 6652,
+			["last_time"] = 11971.913,
+			["players"] = {
+				{
+					["damagespells"] = {
+						["Icy Touch"] = {
+							["hitmin"] = 1807,
+							["id"] = 45477,
+							["targets"] = {
+								["Scourge Necromancer"] = {
+									["amount"] = 1807,
+								},
+							},
+							["casts"] = 1,
 							["count"] = 1,
-							["uptime"] = 1,
+							["hit"] = 1,
+							["school"] = 16,
+							["hitmax"] = 1807,
+							["amount"] = 1807,
+							["hitamount"] = 1807,
 						},
-						[48266] = {
-							["type"] = "BUFF",
+						["Plague Strike"] = {
+							["criticalamount"] = 2330,
+							["id"] = 45462,
+							["targets"] = {
+								["Scourge Necromancer"] = {
+									["amount"] = 2330,
+								},
+							},
+							["casts"] = 1,
+							["critical"] = 1,
+							["amount"] = 2330,
+							["school"] = 1,
+							["criticalmin"] = 2330,
+							["criticalmax"] = 2330,
 							["count"] = 1,
-							["uptime"] = 5,
 						},
-						[51915] = {
+						["Melee"] = {
+							["hitmin"] = 1909,
+							["id"] = 6603,
+							["targets"] = {
+								["Scourge Necromancer"] = {
+									["amount"] = 1909,
+								},
+							},
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 1,
+							["hitmax"] = 1909,
+							["amount"] = 1909,
+							["hitamount"] = 1909,
+						},
+						["Frost Fever (DoT)"] = {
+							["hitmin"] = 606,
+							["id"] = 55095,
+							["targets"] = {
+								["Scourge Necromancer"] = {
+									["amount"] = 606,
+								},
+							},
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 16,
+							["hitmax"] = 606,
+							["amount"] = 606,
+							["hitamount"] = 606,
+						},
+					},
+					["last"] = 11970.788,
+					["id"] = "0x07000000009742E5",
+					["spec"] = 250,
+					["class"] = "DEATHKNIGHT",
+					["auras"] = {
+						[48263] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 5,
@@ -1488,810 +1031,853 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["school"] = 32,
 							["targets"] = {
-								["Scarlet Preacher"] = {
+								["Scourge Necromancer"] = {
 									["uptime"] = 2,
 									["count"] = 1,
 								},
 							},
 							["uptime"] = 2,
 						},
-					},
-					["time"] = 3.78,
-					["damage"] = 2109,
-					["damagespells"] = {
-						["Melee"] = {
-							["hitmin"] = 330,
-							["criticalamount"] = 648,
-							["id"] = 6603,
-							["hitmax"] = 330,
-							["targets"] = {
-								["Scarlet Preacher"] = {
-									["overkill"] = 83,
-									["amount"] = 978,
-								},
-							},
-							["overkill"] = 83,
-							["count"] = 2,
-							["criticalmax"] = 648,
-							["critical"] = 1,
-							["amount"] = 978,
-							["school"] = 1,
-							["hit"] = 1,
-							["criticalmin"] = 648,
-							["hitamount"] = 330,
-						},
-						["Blood Strike"] = {
-							["criticalamount"] = 596,
-							["id"] = 45902,
-							["targets"] = {
-								["Scarlet Preacher"] = {
-									["amount"] = 596,
-								},
-							},
-							["casts"] = 1,
-							["critical"] = 1,
-							["amount"] = 596,
-							["school"] = 1,
-							["criticalmin"] = 596,
-							["criticalmax"] = 596,
+						[58361] = {
+							["type"] = "BUFF",
 							["count"] = 1,
-						},
-						["Plague Strike"] = {
-							["hitmin"] = 193,
-							["id"] = 45462,
-							["targets"] = {
-								["Scarlet Preacher"] = {
-									["amount"] = 193,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 1,
-							["hitmax"] = 193,
-							["amount"] = 193,
-							["hitamount"] = 193,
-						},
-						["Frost Fever (DoT)"] = {
-							["hitmin"] = 90,
-							["id"] = 55095,
-							["targets"] = {
-								["Scarlet Preacher"] = {
-									["amount"] = 90,
-								},
-							},
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 16,
-							["hitmax"] = 90,
-							["amount"] = 90,
-							["hitamount"] = 90,
-						},
-						["Icy Touch"] = {
-							["hitmin"] = 252,
-							["id"] = 45477,
-							["targets"] = {
-								["Scarlet Preacher"] = {
-									["amount"] = 252,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 16,
-							["hitmax"] = 252,
-							["amount"] = 252,
-							["hitamount"] = 252,
-						},
-					},
-					["id"] = "0x07000000009742E5",
-					["spec"] = 250,
-					["healspells"] = {
-						[50475] = {
-							["overheal"] = 74,
-							["count"] = 5,
-							["amount"] = 0,
-							["school"] = 1,
-							["ishot"] = true,
-							["targets"] = {
-								["Flocius"] = {
-									["overheal"] = 74,
-									["amount"] = 0,
-								},
-							},
-						},
-					},
-					["overkill"] = 83,
-					["runicspells"] = {
-						[50163] = 20,
-					},
-					["heal"] = 0,
-					["name"] = "Flocius",
-					["ccdone"] = 1,
-					["runic"] = 20,
-					["overheal"] = 74,
-					["totaldamage"] = 2109,
-					["role"] = "DAMAGER",
-				}, -- [1]
-			},
-			["type"] = "none",
-			["overheal"] = 74,
-			["runic"] = 20,
-			["ccdone"] = 1,
-			["overkill"] = 83,
-			["edamagetaken"] = 2109,
-			["heal"] = 0,
-			["name"] = "Scarlet Preacher (4)",
-			["mobname"] = "Scarlet Preacher",
-			["starttime"] = 1689434478,
-			["damage"] = 2109,
-			["last_action"] = 1689434482,
-			["endtime"] = 1689434483,
-		}, -- [5]
-		{
-			["starttime"] = 1689434427,
-			["enemies"] = {
-				{
-					["damagespells"] = {
-						[6660] = {
-							["school"] = 1,
-							["targets"] = {
-								["Flocius"] = {
-									["amount"] = 163,
-								},
-							},
-							["amount"] = 163,
-						},
-					},
-					["damagetaken"] = 2142,
-					["id"] = "0xF130006FC21C1A4D",
-					["class"] = "MONSTER",
-					["damagetakenspells"] = {
-						[55095] = {
-							["school"] = 16,
-							["sources"] = {
-								["Flocius"] = {
-									["amount"] = 90,
-								},
-							},
-							["amount"] = 90,
-						},
-						[55078] = {
-							["school"] = 32,
-							["sources"] = {
-								["Flocius"] = {
-									["amount"] = 96,
-								},
-							},
-							["amount"] = 96,
-						},
-						[45462] = {
-							["school"] = 1,
-							["sources"] = {
-								["Flocius"] = {
-									["amount"] = 201,
-								},
-							},
-							["amount"] = 201,
-						},
-						[6603] = {
-							["school"] = 1,
-							["sources"] = {
-								["Flocius"] = {
-									["amount"] = 611,
-								},
-							},
-							["amount"] = 611,
-						},
-						[45902] = {
-							["school"] = 1,
-							["sources"] = {
-								["Flocius"] = {
-									["overkill"] = 116,
-									["amount"] = 890,
-								},
-							},
-							["overkill"] = 116,
-							["amount"] = 890,
-						},
-						[45477] = {
-							["school"] = 16,
-							["sources"] = {
-								["Flocius"] = {
-									["amount"] = 254,
-								},
-							},
-							["amount"] = 254,
-						},
-					},
-					["totaldamage"] = 163,
-					["name"] = "Scarlet Marksman",
-					["totaldamagetaken"] = 2142,
-					["flag"] = 2632,
-					["damage"] = 163,
-				}, -- [1]
-			},
-			["overheal"] = 0,
-			["totaldamage"] = 2142,
-			["time"] = 11,
-			["runic"] = 20,
-			["totaldamagetaken"] = 163,
-			["etotaldamage"] = 163,
-			["last_time"] = 13892.108,
-			["players"] = {
-				{
-					["ccdonespells"] = {
-						[49560] = {
-							["count"] = 1,
-							["targets"] = {
-								["Scarlet Marksman"] = 1,
-							},
-						},
-					},
-					["last"] = 13890.776,
-					["flag"] = 1297,
-					["class"] = "DEATHKNIGHT",
-					["auras"] = {
-						[55095] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 16,
-							["targets"] = {
-								["Scarlet Marksman"] = {
-									["uptime"] = 5,
-									["count"] = 1,
-								},
-							},
 							["uptime"] = 5,
 						},
-						[49560] = {
+						[64859] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 3,
+						},
+						[11413] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 5,
+						},
+						[53138] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 5,
+						},
+						[55095] = {
 							["type"] = "DEBUFF",
 							["count"] = 1,
-							["school"] = 1,
+							["school"] = 16,
 							["targets"] = {
-								["Scarlet Marksman"] = {
+								["Scourge Necromancer"] = {
 									["uptime"] = 3,
 									["count"] = 1,
 								},
 							},
 							["uptime"] = 3,
 						},
-						[48778] = {
+						[51721] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 4,
-						},
-						[64856] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["uptime"] = 1,
-						},
-						[48266] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 11,
-						},
-						[51915] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 11,
-						},
-						[55078] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 32,
-							["targets"] = {
-								["Scarlet Marksman"] = {
-									["uptime"] = 4,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 4,
+							["uptime"] = 5,
 						},
 					},
+					["totaldamage"] = 6652,
 					["role"] = "DAMAGER",
-					["time"] = 8.200000000000001,
-					["totaldamagetaken"] = 163,
-					["damage"] = 2142,
-					["overheal"] = 0,
-					["overkill"] = 116,
-					["damagetaken"] = 163,
-					["id"] = "0x07000000009742E5",
-					["spec"] = 250,
-					["healspells"] = {
-						[50475] = {
-							["overheal"] = 0,
-							["targets"] = {
-								["Flocius"] = {
-									["overheal"] = 0,
-									["amount"] = 72,
-								},
-							},
-							["count"] = 6,
-							["amount"] = 72,
-							["school"] = 1,
-							["max"] = 19,
-							["ishot"] = true,
-							["min"] = 8,
-						},
-					},
-					["damagetakenspells"] = {
-						["Shoot"] = {
-							["hitmin"] = 76,
-							["id"] = 6660,
-							["sources"] = {
-								["Scarlet Marksman"] = {
-									["amount"] = 163,
-								},
-							},
-							["count"] = 2,
-							["hit"] = 2,
-							["school"] = 1,
-							["hitmax"] = 87,
-							["amount"] = 163,
-							["hitamount"] = 163,
-						},
-						["Melee"] = {
-							["PARRY"] = 1,
-							["count"] = 1,
-							["amount"] = 0,
-							["school"] = 1,
-							["sources"] = {
-								["Scarlet Marksman"] = {
-									["amount"] = 0,
-								},
-							},
-							["id"] = 6603,
-						},
-					},
-					["runicspells"] = {
-						[50163] = 20,
-					},
-					["heal"] = 72,
 					["name"] = "Flocius",
-					["ccdone"] = 1,
-					["runic"] = 20,
-					["damagespells"] = {
-						["Melee"] = {
-							["hitmin"] = 300,
-							["id"] = 6603,
-							["targets"] = {
-								["Scarlet Marksman"] = {
-									["amount"] = 611,
-								},
-							},
-							["count"] = 2,
-							["hit"] = 2,
-							["school"] = 1,
-							["hitmax"] = 311,
-							["amount"] = 611,
-							["hitamount"] = 611,
-						},
-						["Blood Plague (DoT)"] = {
-							["hitmin"] = 96,
-							["id"] = 55078,
-							["targets"] = {
-								["Scarlet Marksman"] = {
-									["amount"] = 96,
-								},
-							},
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 32,
-							["hitmax"] = 96,
-							["amount"] = 96,
-							["hitamount"] = 96,
-						},
-						["Icy Touch"] = {
-							["hitmin"] = 254,
-							["id"] = 45477,
-							["targets"] = {
-								["Scarlet Marksman"] = {
-									["amount"] = 254,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 16,
-							["hitmax"] = 254,
-							["amount"] = 254,
-							["hitamount"] = 254,
-						},
-						["Plague Strike"] = {
-							["hitmin"] = 201,
-							["id"] = 45462,
-							["targets"] = {
-								["Scarlet Marksman"] = {
-									["amount"] = 201,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 1,
-							["hitmax"] = 201,
-							["amount"] = 201,
-							["hitamount"] = 201,
-						},
-						["Frost Fever (DoT)"] = {
-							["hitmin"] = 90,
-							["id"] = 55095,
-							["targets"] = {
-								["Scarlet Marksman"] = {
-									["amount"] = 90,
-								},
-							},
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 16,
-							["hitmax"] = 90,
-							["amount"] = 90,
-							["hitamount"] = 90,
-						},
-						["Blood Strike"] = {
-							["criticalmin"] = 604,
-							["hitmin"] = 286,
-							["criticalamount"] = 604,
-							["id"] = 45902,
-							["criticalmax"] = 604,
-							["targets"] = {
-								["Scarlet Marksman"] = {
-									["overkill"] = 116,
-									["amount"] = 890,
-								},
-							},
-							["overkill"] = 116,
-							["critical"] = 1,
-							["casts"] = 2,
-							["count"] = 2,
-							["hit"] = 1,
-							["school"] = 1,
-							["hitmax"] = 286,
-							["amount"] = 890,
-							["hitamount"] = 286,
-						},
-					},
-					["totaldamage"] = 2142,
+					["flag"] = 1297,
+					["time"] = 3.19,
+					["damage"] = 6652,
 				}, -- [1]
 			},
 			["type"] = "none",
-			["damagetaken"] = 163,
-			["damage"] = 2142,
-			["etotaldamagetaken"] = 2142,
-			["overkill"] = 116,
-			["edamagetaken"] = 2142,
-			["heal"] = 72,
-			["name"] = "Scarlet Marksman (10)",
-			["mobname"] = "Scarlet Marksman",
-			["ccdone"] = 1,
-			["edamage"] = 163,
-			["last_action"] = 1689434438,
-			["endtime"] = 1689434438,
-		}, -- [6]
+			["edamagetaken"] = 6652,
+			["damage"] = 6652,
+			["name"] = "Scourge Necromancer",
+			["mobname"] = "Scourge Necromancer",
+			["starttime"] = 1689446636,
+			["last_action"] = 1689446641,
+			["endtime"] = 1689446641,
+		}, -- [5]
 		{
 			["enemies"] = {
 				{
 					["damagespells"] = {
-						[15498] = {
-							["school"] = 2,
+						[6603] = {
+							["school"] = 1,
 							["targets"] = {
 								["Flocius"] = {
-									["amount"] = 501,
+									["amount"] = 2531,
 								},
 							},
-							["amount"] = 501,
+							["amount"] = 2531,
+						},
+						[15496] = {
+							["school"] = 1,
+							["targets"] = {
+								["Flocius"] = {
+									["amount"] = 505,
+								},
+							},
+							["amount"] = 505,
 						},
 					},
-					["damagetaken"] = 2039,
-					["flag"] = 68168,
+					["damagetaken"] = 62142,
+					["id"] = "0xF13000797A1E64BF",
 					["class"] = "MONSTER",
 					["damagetakenspells"] = {
 						[55095] = {
 							["school"] = 16,
 							["sources"] = {
 								["Flocius"] = {
-									["amount"] = 423,
+									["amount"] = 6665,
 								},
 							},
-							["amount"] = 423,
+							["amount"] = 6665,
 						},
-						[55078] = {
-							["school"] = 32,
-							["sources"] = {
-								["Flocius"] = {
-									["amount"] = 454,
-								},
-							},
-							["amount"] = 454,
-						},
-						[45462] = {
+						[49998] = {
 							["school"] = 1,
 							["sources"] = {
 								["Flocius"] = {
-									["amount"] = 118,
+									["overkill"] = 1500,
+									["amount"] = 2180,
 								},
 							},
-							["amount"] = 118,
+							["overkill"] = 1500,
+							["amount"] = 2180,
+						},
+						[47632] = {
+							["school"] = 32,
+							["sources"] = {
+								["Flocius"] = {
+									["overkill"] = 1617,
+									["amount"] = 4266,
+								},
+							},
+							["overkill"] = 1617,
+							["amount"] = 4266,
 						},
 						[6603] = {
 							["school"] = 1,
 							["sources"] = {
 								["Flocius"] = {
-									["amount"] = 385,
+									["overkill"] = 4612,
+									["amount"] = 15932,
 								},
 							},
-							["amount"] = 385,
+							["overkill"] = 4612,
+							["amount"] = 15932,
+						},
+						[48721] = {
+							["school"] = 32,
+							["sources"] = {
+								["Flocius"] = {
+									["amount"] = 27923,
+								},
+							},
+							["amount"] = 27923,
 						},
 						[45902] = {
 							["school"] = 1,
 							["sources"] = {
 								["Flocius"] = {
-									["amount"] = 407,
+									["amount"] = 3404,
 								},
 							},
-							["amount"] = 407,
+							["amount"] = 3404,
 						},
 						[45477] = {
 							["school"] = 16,
 							["sources"] = {
 								["Flocius"] = {
-									["amount"] = 252,
+									["amount"] = 1772,
 								},
 							},
-							["amount"] = 252,
+							["amount"] = 1772,
 						},
 					},
-					["name"] = "Scarlet Preacher",
-					["totaldamage"] = 501,
-					["totaldamagetaken"] = 2039,
-					["id"] = "0xF13000710B1C1104",
-					["damage"] = 501,
+					["totaldamage"] = 3036,
+					["name"] = "Terrifying Abomination",
+					["totaldamagetaken"] = 62142,
+					["flag"] = 2632,
+					["damage"] = 3036,
 				}, -- [1]
 			},
-			["totaldamage"] = 2039,
-			["time"] = 27,
-			["overheal"] = 319,
-			["totaldamagetaken"] = 501,
-			["etotaldamagetaken"] = 2039,
-			["last_time"] = 13811.258,
+			["totaldamage"] = 62142,
+			["time"] = 22,
+			["damage"] = 62142,
+			["totaldamagetaken"] = 3036,
+			["etotaldamage"] = 3036,
+			["last_time"] = 11963.963,
 			["players"] = {
 				{
-					["last"] = 13801.567,
+					["last"] = 11963.563,
 					["flag"] = 1297,
 					["class"] = "DEATHKNIGHT",
 					["auras"] = {
+						[48263] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 22,
+						},
+						[58361] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 22,
+						},
+						[64859] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["refresh"] = 5,
+							["uptime"] = 16,
+						},
+						[11413] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 22,
+						},
+						[53138] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 22,
+						},
 						[55095] = {
 							["type"] = "DEBUFF",
-							["count"] = 1,
+							["count"] = 5,
 							["school"] = 16,
 							["targets"] = {
-								["Scarlet Preacher"] = {
-									["uptime"] = 15,
-									["count"] = 1,
+								["Terrifying Abomination"] = {
+									["uptime"] = 16,
+									["count"] = 5,
 								},
 							},
-							["uptime"] = 15,
+							["uptime"] = 16,
 						},
-						[55078] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 32,
-							["targets"] = {
-								["Scarlet Preacher"] = {
-									["uptime"] = 15,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 15,
-						},
-						[52781] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["targets"] = {
-								["Scarlet Preacher"] = {
-									["uptime"] = 4,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 4,
-						},
-						[48266] = {
+						[51721] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 27,
-						},
-						[51915] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 27,
-						},
-						[64856] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["uptime"] = 10,
+							["uptime"] = 22,
 						},
 					},
-					["time"] = 17.08,
-					["totaldamagetaken"] = 501,
-					["damage"] = 2039,
+					["time"] = 20.91,
+					["totaldamagetaken"] = 3036,
+					["damage"] = 62142,
 					["damagespells"] = {
-						["Melee"] = {
-							["hitmin"] = 98,
-							["criticalamount"] = 180,
-							["id"] = 6603,
-							["targets"] = {
-								["Scarlet Preacher"] = {
-									["amount"] = 385,
-								},
-							},
-							["hitmax"] = 107,
-							["count"] = 3,
-							["criticalmax"] = 180,
-							["critical"] = 1,
-							["amount"] = 385,
-							["school"] = 1,
-							["hit"] = 2,
-							["criticalmin"] = 180,
-							["hitamount"] = 205,
-						},
-						["Blood Plague (DoT)"] = {
-							["hitmin"] = 90,
-							["id"] = 55078,
-							["targets"] = {
-								["Scarlet Preacher"] = {
-									["amount"] = 454,
-								},
-							},
-							["count"] = 5,
-							["hit"] = 5,
-							["school"] = 32,
-							["hitmax"] = 91,
-							["amount"] = 454,
-							["hitamount"] = 454,
-						},
-						["Icy Touch"] = {
-							["hitmin"] = 252,
-							["id"] = 45477,
-							["targets"] = {
-								["Scarlet Preacher"] = {
-									["amount"] = 252,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 16,
-							["hitmax"] = 252,
-							["amount"] = 252,
-							["hitamount"] = 252,
-						},
-						["Plague Strike"] = {
-							["hitmin"] = 118,
-							["id"] = 45462,
-							["targets"] = {
-								["Scarlet Preacher"] = {
-									["amount"] = 118,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 1,
-							["hitmax"] = 118,
-							["amount"] = 118,
-							["hitamount"] = 118,
-						},
-						["Frost Fever (DoT)"] = {
-							["hitmin"] = 84,
-							["id"] = 55095,
-							["targets"] = {
-								["Scarlet Preacher"] = {
-									["amount"] = 423,
-								},
-							},
-							["count"] = 5,
-							["hit"] = 5,
-							["school"] = 16,
-							["hitmax"] = 85,
-							["amount"] = 423,
-							["hitamount"] = 423,
-						},
 						["Blood Strike"] = {
-							["hitmin"] = 203,
+							["hitmin"] = 1701,
 							["id"] = 45902,
 							["targets"] = {
-								["Scarlet Preacher"] = {
-									["amount"] = 407,
+								["Terrifying Abomination"] = {
+									["amount"] = 3404,
 								},
 							},
 							["casts"] = 2,
 							["count"] = 2,
 							["hit"] = 2,
 							["school"] = 1,
-							["hitmax"] = 204,
-							["amount"] = 407,
-							["hitamount"] = 407,
+							["hitmax"] = 1703,
+							["amount"] = 3404,
+							["hitamount"] = 3404,
+						},
+						["Melee"] = {
+							["hitmin"] = 1819,
+							["criticalamount"] = 8018,
+							["id"] = 6603,
+							["hitmax"] = 2098,
+							["targets"] = {
+								["Terrifying Abomination"] = {
+									["overkill"] = 4612,
+									["amount"] = 15932,
+								},
+							},
+							["overkill"] = 4612,
+							["count"] = 6,
+							["criticalmax"] = 4028,
+							["critical"] = 2,
+							["amount"] = 15932,
+							["school"] = 1,
+							["hit"] = 4,
+							["criticalmin"] = 3990,
+							["hitamount"] = 7914,
+						},
+						["Death Strike"] = {
+							["hitmin"] = 2180,
+							["id"] = 49998,
+							["targets"] = {
+								["Terrifying Abomination"] = {
+									["overkill"] = 1500,
+									["amount"] = 2180,
+								},
+							},
+							["overkill"] = 1500,
+							["casts"] = 1,
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 1,
+							["hitmax"] = 2180,
+							["amount"] = 2180,
+							["hitamount"] = 2180,
+						},
+						["Icy Touch"] = {
+							["hitmin"] = 1772,
+							["id"] = 45477,
+							["targets"] = {
+								["Terrifying Abomination"] = {
+									["amount"] = 1772,
+								},
+							},
+							["casts"] = 1,
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 16,
+							["hitmax"] = 1772,
+							["amount"] = 1772,
+							["hitamount"] = 1772,
+						},
+						["Death Coil"] = {
+							["hitmin"] = 2133,
+							["id"] = 47632,
+							["targets"] = {
+								["Terrifying Abomination"] = {
+									["overkill"] = 1617,
+									["amount"] = 4266,
+								},
+							},
+							["overkill"] = 1617,
+							["casts"] = 2,
+							["count"] = 2,
+							["hit"] = 2,
+							["school"] = 32,
+							["hitmax"] = 2133,
+							["amount"] = 4266,
+							["hitamount"] = 4266,
+						},
+						["Frost Fever (DoT)"] = {
+							["hitmin"] = 605,
+							["id"] = 55095,
+							["targets"] = {
+								["Terrifying Abomination"] = {
+									["amount"] = 6665,
+								},
+							},
+							["count"] = 11,
+							["hit"] = 11,
+							["school"] = 16,
+							["hitmax"] = 606,
+							["amount"] = 6665,
+							["hitamount"] = 6665,
+						},
+						["Blood Boil"] = {
+							["hitmin"] = 1292,
+							["criticalamount"] = 5418,
+							["id"] = 48721,
+							["hitmax"] = 2159,
+							["targets"] = {
+								["Terrifying Abomination"] = {
+									["amount"] = 27923,
+								},
+							},
+							["count"] = 16,
+							["hit"] = 14,
+							["casts"] = 3,
+							["critical"] = 2,
+							["amount"] = 27923,
+							["school"] = 32,
+							["criticalmin"] = 2646,
+							["criticalmax"] = 2772,
+							["hitamount"] = 22505,
 						},
 					},
-					["damagetaken"] = 501,
+					["damagetaken"] = 3036,
 					["id"] = "0x07000000009742E5",
 					["spec"] = 250,
 					["healspells"] = {
-						[50475] = {
-							["overheal"] = 21,
-							["max"] = 8,
-							["count"] = 7,
-							["amount"] = 23,
+						[58361] = {
+							["overheal"] = 42508,
+							["targets"] = {
+								["Flocius"] = {
+									["overheal"] = 42508,
+									["amount"] = 2915,
+								},
+							},
+							["count"] = 9,
+							["amount"] = 2915,
 							["school"] = 1,
-							["min"] = 3,
+							["max"] = 704,
 							["ishot"] = true,
-							["targets"] = {
-								["Flocius"] = {
-									["overheal"] = 21,
-									["amount"] = 23,
-								},
-							},
+							["min"] = 114,
 						},
-						[48982] = {
-							["overheal"] = 298,
+						[45470] = {
+							["overheal"] = 1392,
 							["count"] = 1,
-							["amount"] = 478,
-							["school"] = 32,
-							["max"] = 478,
+							["amount"] = 121,
+							["school"] = 1,
+							["max"] = 121,
 							["targets"] = {
 								["Flocius"] = {
-									["overheal"] = 298,
-									["amount"] = 478,
+									["overheal"] = 1392,
+									["amount"] = 121,
 								},
 							},
-							["min"] = 478,
+							["min"] = 121,
 						},
 					},
 					["damagetakenspells"] = {
-						["Holy Smite"] = {
-							["hitmin"] = 240,
-							["id"] = 15498,
+						["Melee"] = {
+							["DODGE"] = 3,
+							["hitmin"] = 108,
+							["criticalamount"] = 658,
+							["id"] = 6603,
+							["criticalmin"] = 212,
+							["criticalmax"] = 228,
+							["critical"] = 3,
 							["sources"] = {
-								["Scarlet Preacher"] = {
-									["amount"] = 501,
+								["Terrifying Abomination"] = {
+									["amount"] = 2531,
 								},
 							},
-							["count"] = 2,
-							["hit"] = 2,
-							["school"] = 2,
-							["hitmax"] = 261,
-							["amount"] = 501,
-							["hitamount"] = 501,
+							["count"] = 22,
+							["hit"] = 16,
+							["school"] = 1,
+							["hitmax"] = 127,
+							["amount"] = 2531,
+							["hitamount"] = 1873,
+						},
+						["Cleave"] = {
+							["hitmin"] = 115,
+							["id"] = 15496,
+							["amount"] = 505,
+							["hitmax"] = 138,
+							["sources"] = {
+								["Terrifying Abomination"] = {
+									["amount"] = 505,
+								},
+							},
+							["count"] = 6,
+							["hit"] = 4,
+							["school"] = 1,
+							["PARRY"] = 1,
+							["MISS"] = 1,
+							["hitamount"] = 505,
 						},
 					},
-					["runicspells"] = {
-						[50163] = 20,
-					},
-					["heal"] = 501,
+					["heal"] = 3036,
 					["name"] = "Flocius",
-					["runic"] = 20,
-					["overheal"] = 319,
-					["totaldamage"] = 2039,
+					["overkill"] = 7729,
+					["overheal"] = 43900,
+					["totaldamage"] = 62142,
 					["role"] = "DAMAGER",
 				}, -- [1]
 			},
 			["type"] = "none",
-			["damagetaken"] = 501,
-			["runic"] = 20,
-			["etotaldamage"] = 501,
-			["damage"] = 2039,
-			["edamagetaken"] = 2039,
-			["heal"] = 501,
-			["name"] = "Scarlet Preacher (3)",
-			["mobname"] = "Scarlet Preacher",
-			["starttime"] = 1689434330,
-			["edamage"] = 501,
-			["last_action"] = 1689434357,
-			["endtime"] = 1689434357,
+			["damagetaken"] = 3036,
+			["overheal"] = 43900,
+			["etotaldamagetaken"] = 62142,
+			["overkill"] = 7729,
+			["edamagetaken"] = 62142,
+			["heal"] = 3036,
+			["name"] = "Terrifying Abomination (2)",
+			["mobname"] = "Terrifying Abomination",
+			["starttime"] = 1689446611,
+			["edamage"] = 3036,
+			["last_action"] = 1689446633,
+			["endtime"] = 1689446633,
+		}, -- [6]
+		{
+			["enemies"] = {
+				{
+					["id"] = "0xF13000797B1E6336",
+					["name"] = "Patchwerk",
+					["totaldamagetaken"] = 27815,
+					["flag"] = 68168,
+					["class"] = "MONSTER",
+					["damagetaken"] = 27815,
+					["damagetakenspells"] = {
+						[55095] = {
+							["school"] = 16,
+							["sources"] = {
+								["Flocius"] = {
+									["amount"] = 2062,
+								},
+							},
+							["amount"] = 2062,
+						},
+						[47632] = {
+							["school"] = 32,
+							["sources"] = {
+								["Flocius"] = {
+									["amount"] = 1920,
+								},
+							},
+							["amount"] = 1920,
+						},
+						[55078] = {
+							["school"] = 32,
+							["sources"] = {
+								["Flocius"] = {
+									["amount"] = 2357,
+								},
+							},
+							["amount"] = 2357,
+						},
+						[45462] = {
+							["school"] = 1,
+							["sources"] = {
+								["Flocius"] = {
+									["amount"] = 1113,
+								},
+							},
+							["amount"] = 1113,
+						},
+						[6603] = {
+							["school"] = 1,
+							["sources"] = {
+								["Flocius"] = {
+									["amount"] = 11512,
+								},
+							},
+							["amount"] = 11512,
+						},
+						[49998] = {
+							["school"] = 1,
+							["sources"] = {
+								["Flocius"] = {
+									["amount"] = 4016,
+								},
+							},
+							["amount"] = 4016,
+						},
+						[45902] = {
+							["school"] = 1,
+							["sources"] = {
+								["Flocius"] = {
+									["amount"] = 3265,
+								},
+							},
+							["amount"] = 3265,
+						},
+						[45477] = {
+							["school"] = 16,
+							["sources"] = {
+								["Flocius"] = {
+									["amount"] = 1570,
+								},
+							},
+							["amount"] = 1570,
+						},
+					},
+				}, -- [1]
+				{
+					["id"] = "0x0700000000976559",
+					["name"] = "Szigella",
+					["totaldamagetaken"] = 1979,
+					["flag"] = 1352,
+					["class"] = "DEATHKNIGHT",
+					["damagetaken"] = 1979,
+					["damagetakenspells"] = {
+						[6603] = {
+							["school"] = 1,
+							["sources"] = {
+								["Patchwerk"] = {
+									["amount"] = 1979,
+								},
+							},
+							["amount"] = 1979,
+						},
+					},
+				}, -- [2]
+			},
+			["totaldamage"] = 29794,
+			["time"] = 15,
+			["etotaldamagetaken"] = 29794,
+			["last_time"] = 11928.588,
+			["players"] = {
+				{
+					["last"] = 11928.414,
+					["flag"] = 1297,
+					["class"] = "DEATHKNIGHT",
+					["auras"] = {
+						[55078] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 32,
+							["targets"] = {
+								["Patchwerk"] = {
+									["uptime"] = 12,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 12,
+						},
+						[64859] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["refresh"] = 3,
+							["uptime"] = 7,
+						},
+						[55095] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 16,
+							["targets"] = {
+								["Patchwerk"] = {
+									["uptime"] = 14,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 14,
+						},
+						[53138] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 15,
+						},
+						[51721] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 15,
+						},
+						[11413] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 15,
+						},
+						[58361] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 15,
+						},
+						[48263] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 15,
+						},
+						[49005] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 32,
+							["targets"] = {
+								["Patchwerk"] = {
+									["uptime"] = 7,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 7,
+						},
+					},
+					["time"] = 13.96,
+					["damage"] = 27815,
+					["overheal"] = 10566,
+					["id"] = "0x07000000009742E5",
+					["spec"] = 250,
+					["healspells"] = {
+						[45470] = {
+							["overheal"] = 6054,
+							["casts"] = 2,
+							["count"] = 2,
+							["amount"] = 0,
+							["school"] = 1,
+							["targets"] = {
+								["Flocius"] = {
+									["overheal"] = 6054,
+									["amount"] = 0,
+								},
+							},
+						},
+						[50424] = {
+							["overheal"] = 4512,
+							["count"] = 6,
+							["amount"] = 552,
+							["school"] = 1,
+							["max"] = 289,
+							["targets"] = {
+								["Szigella"] = {
+									["overheal"] = 4512,
+									["amount"] = 552,
+								},
+							},
+							["min"] = 263,
+						},
+					},
+					["heal"] = 552,
+					["name"] = "Flocius",
+					["damagespells"] = {
+						["Death Coil"] = {
+							["hitmin"] = 1920,
+							["id"] = 47632,
+							["targets"] = {
+								["Patchwerk"] = {
+									["amount"] = 1920,
+								},
+							},
+							["hitmax"] = 1920,
+							["casts"] = 1,
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 32,
+							["resisted"] = 213,
+							["amount"] = 1920,
+							["hitamount"] = 1920,
+						},
+						["Blood Strike"] = {
+							["hitmin"] = 1590,
+							["id"] = 45902,
+							["targets"] = {
+								["Patchwerk"] = {
+									["amount"] = 3265,
+								},
+							},
+							["casts"] = 2,
+							["count"] = 2,
+							["hit"] = 2,
+							["school"] = 1,
+							["hitmax"] = 1675,
+							["amount"] = 3265,
+							["hitamount"] = 3265,
+						},
+						["Melee"] = {
+							["glance"] = 1232,
+							["criticalamount"] = 10280,
+							["id"] = 6603,
+							["targets"] = {
+								["Patchwerk"] = {
+									["amount"] = 11512,
+								},
+							},
+							["count"] = 4,
+							["glancing"] = 1,
+							["criticalmax"] = 3588,
+							["critical"] = 3,
+							["amount"] = 11512,
+							["school"] = 1,
+							["glancemax"] = 1232,
+							["criticalmin"] = 3326,
+							["glancemin"] = 1232,
+						},
+						["Blood Plague (DoT)"] = {
+							["hitmin"] = 573,
+							["id"] = 55078,
+							["targets"] = {
+								["Patchwerk"] = {
+									["amount"] = 2357,
+								},
+							},
+							["hitmax"] = 636,
+							["count"] = 4,
+							["hit"] = 4,
+							["school"] = 32,
+							["resisted"] = 189,
+							["amount"] = 2357,
+							["hitamount"] = 2357,
+						},
+						["Icy Touch"] = {
+							["hitmin"] = 1570,
+							["id"] = 45477,
+							["targets"] = {
+								["Patchwerk"] = {
+									["amount"] = 1570,
+								},
+							},
+							["hitmax"] = 1570,
+							["casts"] = 1,
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 16,
+							["resisted"] = 174,
+							["amount"] = 1570,
+							["hitamount"] = 1570,
+						},
+						["Plague Strike"] = {
+							["hitmin"] = 1113,
+							["id"] = 45462,
+							["targets"] = {
+								["Patchwerk"] = {
+									["amount"] = 1113,
+								},
+							},
+							["casts"] = 1,
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 1,
+							["hitmax"] = 1113,
+							["amount"] = 1113,
+							["hitamount"] = 1113,
+						},
+						["Frost Fever (DoT)"] = {
+							["hitmin"] = 485,
+							["id"] = 55095,
+							["targets"] = {
+								["Patchwerk"] = {
+									["amount"] = 2062,
+								},
+							},
+							["hitmax"] = 546,
+							["count"] = 4,
+							["hit"] = 4,
+							["school"] = 16,
+							["resisted"] = 362,
+							["amount"] = 2062,
+							["hitamount"] = 2062,
+						},
+						["Death Strike"] = {
+							["hitmin"] = 1914,
+							["id"] = 49998,
+							["targets"] = {
+								["Patchwerk"] = {
+									["amount"] = 4016,
+								},
+							},
+							["casts"] = 3,
+							["count"] = 2,
+							["hit"] = 2,
+							["school"] = 1,
+							["hitmax"] = 2102,
+							["amount"] = 4016,
+							["hitamount"] = 4016,
+						},
+					},
+					["totaldamage"] = 27815,
+					["role"] = "DAMAGER",
+				}, -- [1]
+				{
+					["damagespells"] = {
+						["Melee"] = {
+							["hitmin"] = 263,
+							["criticalamount"] = 568,
+							["id"] = 6603,
+							["criticalmin"] = 568,
+							["targets"] = {
+								["Szigella"] = {
+									["amount"] = 1979,
+								},
+							},
+							["criticalmax"] = 568,
+							["critical"] = 1,
+							["PARRY"] = 2,
+							["count"] = 8,
+							["hit"] = 5,
+							["school"] = 1,
+							["hitmax"] = 303,
+							["amount"] = 1979,
+							["hitamount"] = 1411,
+						},
+					},
+					["last"] = 11927.963,
+					["id"] = "Patchwerk",
+					["class"] = "MONSTER",
+					["name"] = "Patchwerk",
+					["totaldamage"] = 1979,
+					["time"] = 6.27,
+					["flag"] = 68168,
+					["damage"] = 1979,
+				}, -- [2]
+			},
+			["type"] = "none",
+			["damage"] = 29794,
+			["overheal"] = 10566,
+			["edamagetaken"] = 29794,
+			["heal"] = 552,
+			["name"] = "Patchwerk",
+			["mobname"] = "Patchwerk",
+			["starttime"] = 1689446583,
+			["last_action"] = 1689446597,
+			["endtime"] = 1689446598,
 		}, -- [7]
 		{
 			["enemies"] = {
@@ -2301,13 +1887,1523 @@ SkadaStorageDB = {
 							["school"] = 1,
 							["targets"] = {
 								["Flocius"] = {
-									["amount"] = 100,
+									["amount"] = 1123,
 								},
 							},
-							["amount"] = 100,
+							["amount"] = 1123,
+						},
+						[15496] = {
+							["school"] = 1,
+							["targets"] = {
+								["Flocius"] = {
+									["amount"] = 262,
+								},
+							},
+							["amount"] = 262,
+						},
+						[50335] = {
+							["school"] = 1,
+							["targets"] = {
+								["Flocius"] = {
+									["amount"] = 828,
+								},
+							},
+							["amount"] = 828,
 						},
 					},
-					["damagetaken"] = 1025,
+					["damagetaken"] = 51723,
+					["id"] = "0xF13000797A1DE508",
+					["class"] = "MONSTER",
+					["damagetakenspells"] = {
+						[45477] = {
+							["school"] = 16,
+							["sources"] = {
+								["Flocius"] = {
+									["amount"] = 7393,
+								},
+							},
+							["amount"] = 7393,
+						},
+						[55095] = {
+							["school"] = 16,
+							["sources"] = {
+								["Flocius"] = {
+									["overkill"] = 216,
+									["amount"] = 2016,
+								},
+							},
+							["overkill"] = 216,
+							["amount"] = 2016,
+						},
+						[47632] = {
+							["school"] = 32,
+							["sources"] = {
+								["Flocius"] = {
+									["amount"] = 4739,
+								},
+							},
+							["amount"] = 4739,
+						},
+						[45462] = {
+							["school"] = 1,
+							["sources"] = {
+								["Flocius"] = {
+									["amount"] = 5716,
+								},
+							},
+							["amount"] = 5716,
+						},
+						[6603] = {
+							["school"] = 1,
+							["sources"] = {
+								["Flocius"] = {
+									["overkill"] = 6914,
+									["amount"] = 22875,
+								},
+							},
+							["overkill"] = 6914,
+							["amount"] = 22875,
+						},
+						[48721] = {
+							["school"] = 32,
+							["sources"] = {
+								["Flocius"] = {
+									["amount"] = 4134,
+								},
+							},
+							["amount"] = 4134,
+						},
+						[45902] = {
+							["school"] = 1,
+							["sources"] = {
+								["Flocius"] = {
+									["amount"] = 2156,
+								},
+							},
+							["amount"] = 2156,
+						},
+						[49998] = {
+							["school"] = 1,
+							["sources"] = {
+								["Flocius"] = {
+									["amount"] = 2694,
+								},
+							},
+							["amount"] = 2694,
+						},
+					},
+					["totaldamage"] = 2213,
+					["name"] = "Terrifying Abomination",
+					["totaldamagetaken"] = 51723,
+					["flag"] = 2632,
+					["damage"] = 2213,
+				}, -- [1]
+				{
+					["damagespells"] = {
+						[20298] = {
+							["school"] = 32,
+							["targets"] = {
+								["Flocius"] = {
+									["amount"] = 5406,
+								},
+							},
+							["amount"] = 5406,
+						},
+					},
+					["damagetaken"] = 25814,
+					["id"] = "0xF1300079781DE5A8",
+					["class"] = "MONSTER",
+					["damagetakenspells"] = {
+						[55078] = {
+							["school"] = 32,
+							["sources"] = {
+								["Flocius"] = {
+									["overkill"] = 117,
+									["amount"] = 1890,
+								},
+							},
+							["overkill"] = 117,
+							["amount"] = 1890,
+						},
+						[6603] = {
+							["school"] = 1,
+							["sources"] = {
+								["Flocius"] = {
+									["overkill"] = 1793,
+									["amount"] = 8057,
+								},
+							},
+							["overkill"] = 1793,
+							["amount"] = 8057,
+						},
+						[55095] = {
+							["school"] = 16,
+							["sources"] = {
+								["Flocius"] = {
+									["amount"] = 1740,
+								},
+							},
+							["amount"] = 1740,
+						},
+						[48721] = {
+							["school"] = 32,
+							["sources"] = {
+								["Flocius"] = {
+									["amount"] = 1326,
+								},
+							},
+							["amount"] = 1326,
+						},
+						[45902] = {
+							["school"] = 1,
+							["sources"] = {
+								["Flocius"] = {
+									["amount"] = 3308,
+								},
+							},
+							["amount"] = 3308,
+						},
+						[49998] = {
+							["school"] = 1,
+							["sources"] = {
+								["Flocius"] = {
+									["amount"] = 2226,
+								},
+							},
+							["amount"] = 2226,
+						},
+						[45462] = {
+							["school"] = 1,
+							["sources"] = {
+								["Flocius"] = {
+									["amount"] = 1239,
+								},
+							},
+							["amount"] = 1239,
+						},
+						[45477] = {
+							["school"] = 16,
+							["sources"] = {
+								["Flocius"] = {
+									["amount"] = 1783,
+								},
+							},
+							["amount"] = 1783,
+						},
+						[47632] = {
+							["school"] = 32,
+							["sources"] = {
+								["Flocius"] = {
+									["amount"] = 4245,
+								},
+							},
+							["amount"] = 4245,
+						},
+					},
+					["totaldamage"] = 5406,
+					["name"] = "Scourge Necromancer",
+					["totaldamagetaken"] = 25814,
+					["flag"] = 68168,
+					["damage"] = 5406,
+				}, -- [2]
+			},
+			["overheal"] = 99675,
+			["totaldamage"] = 77537,
+			["time"] = 39,
+			["totaldamagetaken"] = 7619,
+			["etotaldamage"] = 7619,
+			["last_time"] = 11907.072,
+			["players"] = {
+				{
+					["ccdonespells"] = {
+						[49560] = {
+							["count"] = 1,
+							["targets"] = {
+								["Terrifying Abomination"] = 1,
+							},
+						},
+					},
+					["last"] = 11907.055,
+					["flag"] = 1297,
+					["class"] = "DEATHKNIGHT",
+					["auras"] = {
+						[55078] = {
+							["type"] = "DEBUFF",
+							["count"] = 3,
+							["school"] = 32,
+							["targets"] = {
+								["Terrifying Abomination"] = {
+									["uptime"] = 2,
+									["count"] = 2,
+								},
+								["Scourge Necromancer"] = {
+									["uptime"] = 9,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 11,
+						},
+						[64859] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["refresh"] = 12,
+							["uptime"] = 26,
+						},
+						[55095] = {
+							["type"] = "DEBUFF",
+							["count"] = 5,
+							["school"] = 16,
+							["targets"] = {
+								["Terrifying Abomination"] = {
+									["uptime"] = 13,
+									["count"] = 4,
+								},
+								["Scourge Necromancer"] = {
+									["uptime"] = 11,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 24,
+						},
+						[53138] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 39,
+						},
+						[51721] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 39,
+						},
+						[55233] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["uptime"] = 10,
+						},
+						[49016] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 28,
+						},
+						[52424] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["uptime"] = 10,
+						},
+						[48263] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 39,
+						},
+						[49560] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["targets"] = {
+								["Terrifying Abomination"] = {
+									["uptime"] = 3,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 3,
+						},
+						[58361] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 39,
+						},
+					},
+					["role"] = "DAMAGER",
+					["time"] = 38.63,
+					["totaldamagetaken"] = 7619,
+					["damage"] = 77537,
+					["overheal"] = 99675,
+					["damagetaken"] = 7619,
+					["id"] = "0x07000000009742E5",
+					["spec"] = 250,
+					["healspells"] = {
+						[58361] = {
+							["overheal"] = 93931,
+							["targets"] = {
+								["Flocius"] = {
+									["overheal"] = 93931,
+									["amount"] = 13649,
+								},
+							},
+							["count"] = 18,
+							["amount"] = 13649,
+							["school"] = 1,
+							["max"] = 1297,
+							["ishot"] = true,
+							["min"] = 201,
+						},
+						[45470] = {
+							["overheal"] = 5744,
+							["max"] = 310,
+							["targets"] = {
+								["Flocius"] = {
+									["overheal"] = 5744,
+									["amount"] = 310,
+								},
+							},
+							["min"] = 310,
+							["casts"] = 2,
+							["count"] = 2,
+							["amount"] = 310,
+							["school"] = 1,
+						},
+					},
+					["damagetakenspells"] = {
+						["Cleave"] = {
+							["DODGE"] = 1,
+							["hitmin"] = 129,
+							["id"] = 15496,
+							["sources"] = {
+								["Terrifying Abomination"] = {
+									["amount"] = 262,
+								},
+							},
+							["count"] = 3,
+							["hit"] = 2,
+							["school"] = 1,
+							["hitmax"] = 133,
+							["amount"] = 262,
+							["hitamount"] = 262,
+						},
+						["Scourge Hook"] = {
+							["hitmin"] = 196,
+							["id"] = 50335,
+							["sources"] = {
+								["Terrifying Abomination"] = {
+									["amount"] = 828,
+								},
+							},
+							["count"] = 4,
+							["hit"] = 4,
+							["school"] = 1,
+							["hitmax"] = 224,
+							["amount"] = 828,
+							["hitamount"] = 828,
+						},
+						["Melee"] = {
+							["DODGE"] = 1,
+							["hitmin"] = 106,
+							["id"] = 6603,
+							["PARRY"] = 1,
+							["sources"] = {
+								["Terrifying Abomination"] = {
+									["amount"] = 1123,
+								},
+							},
+							["count"] = 12,
+							["hit"] = 10,
+							["school"] = 1,
+							["hitmax"] = 120,
+							["amount"] = 1123,
+							["hitamount"] = 1123,
+						},
+						["Shadow Bolt"] = {
+							["hitmin"] = 313,
+							["id"] = 20298,
+							["sources"] = {
+								["Scourge Necromancer"] = {
+									["amount"] = 5406,
+								},
+							},
+							["count"] = 15,
+							["hit"] = 15,
+							["school"] = 32,
+							["hitmax"] = 418,
+							["amount"] = 5406,
+							["hitamount"] = 5406,
+						},
+					},
+					["heal"] = 13959,
+					["name"] = "Flocius",
+					["ccdone"] = 1,
+					["overkill"] = 9040,
+					["damagespells"] = {
+						["Melee"] = {
+							["glance"] = 2811,
+							["hitmin"] = 1865,
+							["criticalmin"] = 4238,
+							["targets"] = {
+								["Terrifying Abomination"] = {
+									["overkill"] = 6914,
+									["amount"] = 22875,
+								},
+								["Scourge Necromancer"] = {
+									["overkill"] = 1793,
+									["amount"] = 8057,
+								},
+							},
+							["glancing"] = 1,
+							["amount"] = 30932,
+							["glancemin"] = 2811,
+							["criticalamount"] = 14094,
+							["id"] = 6603,
+							["glancemax"] = 2811,
+							["overkill"] = 8707,
+							["criticalmax"] = 4986,
+							["hitmax"] = 2742,
+							["hit"] = 6,
+							["school"] = 1,
+							["critical"] = 3,
+							["count"] = 10,
+							["hitamount"] = 14027,
+						},
+						["Icy Touch"] = {
+							["hitmin"] = 1741,
+							["criticalamount"] = 3876,
+							["id"] = 45477,
+							["criticalmin"] = 3876,
+							["targets"] = {
+								["Terrifying Abomination"] = {
+									["amount"] = 7393,
+								},
+								["Scourge Necromancer"] = {
+									["amount"] = 1783,
+								},
+							},
+							["criticalmax"] = 3876,
+							["critical"] = 1,
+							["casts"] = 4,
+							["count"] = 4,
+							["hit"] = 3,
+							["school"] = 16,
+							["hitmax"] = 1783,
+							["amount"] = 9176,
+							["hitamount"] = 5300,
+						},
+						["Blood Boil"] = {
+							["hitmin"] = 1326,
+							["id"] = 48721,
+							["targets"] = {
+								["Terrifying Abomination"] = {
+									["amount"] = 4134,
+								},
+								["Scourge Necromancer"] = {
+									["amount"] = 1326,
+								},
+							},
+							["casts"] = 1,
+							["count"] = 4,
+							["hit"] = 4,
+							["school"] = 32,
+							["hitmax"] = 1404,
+							["amount"] = 5460,
+							["hitamount"] = 5460,
+						},
+						["Blood Plague (DoT)"] = {
+							["hitmin"] = 630,
+							["id"] = 55078,
+							["targets"] = {
+								["Scourge Necromancer"] = {
+									["overkill"] = 117,
+									["amount"] = 1890,
+								},
+							},
+							["overkill"] = 117,
+							["count"] = 3,
+							["hit"] = 3,
+							["school"] = 32,
+							["hitmax"] = 630,
+							["amount"] = 1890,
+							["hitamount"] = 1890,
+						},
+						["Frost Fever (DoT)"] = {
+							["hitmin"] = 540,
+							["id"] = 55095,
+							["targets"] = {
+								["Terrifying Abomination"] = {
+									["overkill"] = 216,
+									["amount"] = 2016,
+								},
+								["Scourge Necromancer"] = {
+									["amount"] = 1740,
+								},
+							},
+							["overkill"] = 216,
+							["hitmax"] = 708,
+							["count"] = 6,
+							["hit"] = 6,
+							["school"] = 16,
+							["resisted"] = 60,
+							["amount"] = 3756,
+							["hitamount"] = 3756,
+						},
+						["Death Coil"] = {
+							["hitmin"] = 2112,
+							["id"] = 47632,
+							["targets"] = {
+								["Scourge Necromancer"] = {
+									["amount"] = 4245,
+								},
+								["Terrifying Abomination"] = {
+									["amount"] = 4739,
+								},
+							},
+							["casts"] = 4,
+							["count"] = 4,
+							["hit"] = 4,
+							["school"] = 32,
+							["hitmax"] = 2370,
+							["amount"] = 8984,
+							["hitamount"] = 8984,
+						},
+						["Plague Strike"] = {
+							["hitmin"] = 1239,
+							["criticalamount"] = 5716,
+							["id"] = 45462,
+							["hitmax"] = 1239,
+							["targets"] = {
+								["Terrifying Abomination"] = {
+									["amount"] = 5716,
+								},
+								["Scourge Necromancer"] = {
+									["amount"] = 1239,
+								},
+							},
+							["count"] = 3,
+							["hit"] = 1,
+							["casts"] = 3,
+							["critical"] = 2,
+							["amount"] = 6955,
+							["school"] = 1,
+							["criticalmin"] = 2720,
+							["criticalmax"] = 2996,
+							["hitamount"] = 1239,
+						},
+						["Death Strike"] = {
+							["hitmin"] = 2226,
+							["id"] = 49998,
+							["targets"] = {
+								["Terrifying Abomination"] = {
+									["amount"] = 2694,
+								},
+								["Scourge Necromancer"] = {
+									["amount"] = 2226,
+								},
+							},
+							["casts"] = 3,
+							["count"] = 2,
+							["hit"] = 2,
+							["school"] = 1,
+							["hitmax"] = 2694,
+							["amount"] = 4920,
+							["hitamount"] = 4920,
+						},
+						["Blood Strike"] = {
+							["hitmin"] = 1487,
+							["id"] = 45902,
+							["targets"] = {
+								["Scourge Necromancer"] = {
+									["amount"] = 3308,
+								},
+								["Terrifying Abomination"] = {
+									["amount"] = 2156,
+								},
+							},
+							["casts"] = 3,
+							["count"] = 3,
+							["hit"] = 3,
+							["school"] = 1,
+							["hitmax"] = 2156,
+							["amount"] = 5464,
+							["hitamount"] = 5464,
+						},
+					},
+					["totaldamage"] = 77537,
+				}, -- [1]
+			},
+			["type"] = "none",
+			["damagetaken"] = 7619,
+			["etotaldamagetaken"] = 77537,
+			["ccdone"] = 1,
+			["damage"] = 77537,
+			["overkill"] = 9040,
+			["edamagetaken"] = 77537,
+			["heal"] = 13959,
+			["name"] = "Terrifying Abomination",
+			["mobname"] = "Terrifying Abomination",
+			["starttime"] = 1689446537,
+			["edamage"] = 7619,
+			["last_action"] = 1689446576,
+			["endtime"] = 1689446576,
+		}, -- [8]
+		{
+			["starttime"] = 1689445692,
+			["damage"] = 1594387,
+			["runic"] = 20,
+			["enemies"] = {
+				{
+					["damagespells"] = {
+						[53643] = {
+							["school"] = 2,
+							["total"] = 293252,
+							["targets"] = {
+								["Flocius"] = {
+									["total"] = 814911,
+									["amount"] = 811522,
+								},
+							},
+							["amount"] = 811522,
+						},
+						[6603] = {
+							["school"] = 1,
+							["targets"] = {
+								["Flocius"] = {
+									["amount"] = 1160,
+								},
+							},
+							["amount"] = 1160,
+						},
+					},
+					["damagetaken"] = 1513170,
+					["id"] = "0xF1300071F61D29A2",
+					["class"] = "MONSTER",
+					["damagetakenspells"] = {
+						[55095] = {
+							["school"] = 16,
+							["sources"] = {
+								["Flocius"] = {
+									["amount"] = 383775,
+								},
+							},
+							["amount"] = 383775,
+						},
+						[49998] = {
+							["school"] = 1,
+							["sources"] = {
+								["Flocius"] = {
+									["amount"] = 9422,
+								},
+							},
+							["amount"] = 9422,
+						},
+						[55078] = {
+							["school"] = 32,
+							["sources"] = {
+								["Flocius"] = {
+									["amount"] = 327118,
+								},
+							},
+							["amount"] = 327118,
+						},
+						[45462] = {
+							["school"] = 1,
+							["sources"] = {
+								["Flocius"] = {
+									["amount"] = 102249,
+								},
+							},
+							["amount"] = 102249,
+						},
+						[6603] = {
+							["school"] = 1,
+							["sources"] = {
+								["Flocius"] = {
+									["amount"] = 410065,
+								},
+							},
+							["amount"] = 410065,
+						},
+						[47632] = {
+							["school"] = 32,
+							["sources"] = {
+								["Flocius"] = {
+									["amount"] = 75743,
+								},
+							},
+							["amount"] = 75743,
+						},
+						[45902] = {
+							["school"] = 1,
+							["sources"] = {
+								["Flocius"] = {
+									["overkill"] = 2204,
+									["amount"] = 13082,
+								},
+							},
+							["overkill"] = 2204,
+							["amount"] = 13082,
+						},
+						[45477] = {
+							["school"] = 16,
+							["sources"] = {
+								["Flocius"] = {
+									["amount"] = 191716,
+								},
+							},
+							["amount"] = 191716,
+						},
+					},
+					["totaldamage"] = 816071,
+					["name"] = "Defender of the Light",
+					["totaldamagetaken"] = 1513170,
+					["flag"] = 2632,
+					["damage"] = 812682,
+				}, -- [1]
+				{
+					["damagespells"] = {
+						[53630] = {
+							["school"] = 8,
+							["targets"] = {
+								["Flocius"] = {
+									["amount"] = 58803,
+								},
+							},
+							["amount"] = 58803,
+						},
+					},
+					["damagetaken"] = 3378,
+					["id"] = "0xF1300071FE1D2827",
+					["class"] = "MONSTER",
+					["damagetakenspells"] = {
+						[6603] = {
+							["school"] = 1,
+							["sources"] = {
+								["Flocius"] = {
+									["amount"] = 3378,
+								},
+							},
+							["amount"] = 3378,
+						},
+					},
+					["totaldamage"] = 58803,
+					["name"] = "Rimblat Earthshatter",
+					["totaldamagetaken"] = 3378,
+					["flag"] = 2632,
+					["damage"] = 58803,
+				}, -- [2]
+				{
+					["id"] = "0xF1300071F81D2828",
+					["name"] = "Korfax, Champion of the Light",
+					["totaldamagetaken"] = 22577,
+					["flag"] = 68168,
+					["class"] = "MONSTER",
+					["damagetaken"] = 22577,
+					["damagetakenspells"] = {
+						[6603] = {
+							["school"] = 1,
+							["sources"] = {
+								["Flocius"] = {
+									["amount"] = 10894,
+								},
+							},
+							["amount"] = 10894,
+						},
+						[45462] = {
+							["school"] = 1,
+							["sources"] = {
+								["Flocius"] = {
+									["amount"] = 2803,
+								},
+							},
+							["amount"] = 2803,
+						},
+						[55078] = {
+							["school"] = 32,
+							["sources"] = {
+								["Flocius"] = {
+									["amount"] = 8880,
+								},
+							},
+							["amount"] = 8880,
+						},
+					},
+				}, -- [3]
+				{
+					["damagespells"] = {
+						[6603] = {
+							["school"] = 1,
+							["targets"] = {
+								["Flocius"] = {
+									["amount"] = 3540,
+								},
+							},
+							["amount"] = 3540,
+						},
+					},
+					["damagetaken"] = 27285,
+					["flag"] = 68168,
+					["class"] = "MONSTER",
+					["damagetakenspells"] = {
+						[6603] = {
+							["school"] = 1,
+							["sources"] = {
+								["Flocius"] = {
+									["amount"] = 15358,
+								},
+							},
+							["amount"] = 15358,
+						},
+						[45462] = {
+							["school"] = 1,
+							["sources"] = {
+								["Flocius"] = {
+									["amount"] = 3527,
+								},
+							},
+							["amount"] = 3527,
+						},
+						[55078] = {
+							["school"] = 32,
+							["sources"] = {
+								["Flocius"] = {
+									["amount"] = 8400,
+								},
+							},
+							["amount"] = 8400,
+						},
+					},
+					["name"] = "Duke Nicholas Zverenhoff",
+					["totaldamage"] = 3540,
+					["totaldamagetaken"] = 27285,
+					["id"] = "0xF1300071FC1D282D",
+					["damage"] = 3540,
+				}, -- [4]
+				{
+					["id"] = "0xF1300072231D3CB2",
+					["name"] = "Volatile Ghoul",
+					["totaldamagetaken"] = 25076,
+					["flag"] = 2584,
+					["class"] = "MONSTER",
+					["damagetaken"] = 25076,
+					["damagetakenspells"] = {
+						[6603] = {
+							["school"] = 1,
+							["sources"] = {
+								["Duke Nicholas Zverenhoff"] = {
+									["amount"] = 25076,
+								},
+							},
+							["amount"] = 25076,
+						},
+					},
+				}, -- [5]
+				{
+					["id"] = "0xF1300072161D38BE",
+					["name"] = "Warrior of the Frozen Wastes",
+					["totaldamagetaken"] = 2901,
+					["flag"] = 2584,
+					["class"] = "MONSTER",
+					["damagetaken"] = 2901,
+					["damagetakenspells"] = {
+						[6603] = {
+							["school"] = 1,
+							["sources"] = {
+								["Duke Nicholas Zverenhoff"] = {
+									["amount"] = 2901,
+								},
+							},
+							["amount"] = 2901,
+						},
+					},
+				}, -- [6]
+			},
+			["absorb"] = 3389,
+			["totaldamage"] = 1594387,
+			["time"] = 283,
+			["ccdone"] = 2,
+			["totaldamagetaken"] = 878414,
+			["etotaldamage"] = 878414,
+			["last_time"] = 11306.028,
+			["players"] = {
+				{
+					["ccdonespells"] = {
+						[49560] = {
+							["count"] = 2,
+							["targets"] = {
+								["Defender of the Light"] = 2,
+							},
+						},
+					},
+					["last"] = 11305.561,
+					["flag"] = 1297,
+					["class"] = "DEATHKNIGHT",
+					["auras"] = {
+						[55078] = {
+							["type"] = "DEBUFF",
+							["count"] = 119,
+							["school"] = 32,
+							["targets"] = {
+								["Defender of the Light"] = {
+									["uptime"] = 135,
+									["count"] = 117,
+								},
+								["Duke Nicholas Zverenhoff"] = {
+									["uptime"] = 15,
+									["count"] = 1,
+								},
+								["Korfax, Champion of the Light"] = {
+									["uptime"] = 15,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 141,
+						},
+						[64859] = {
+							["type"] = "BUFF",
+							["count"] = 8,
+							["school"] = 1,
+							["refresh"] = 24,
+							["uptime"] = 161,
+						},
+						[51915] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 283,
+						},
+						[53386] = {
+							["type"] = "BUFF",
+							["count"] = 4,
+							["school"] = 16,
+							["uptime"] = 79,
+						},
+						[52419] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 1,
+							["uptime"] = 20,
+						},
+						[2479] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 283,
+						},
+						[55233] = {
+							["type"] = "BUFF",
+							["count"] = 4,
+							["school"] = 1,
+							["uptime"] = 40,
+						},
+						[48266] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 283,
+						},
+						[49005] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 32,
+							["targets"] = {
+								["Duke Nicholas Zverenhoff"] = {
+									["uptime"] = 20,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 20,
+						},
+						[49016] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["uptime"] = 30,
+						},
+						[49560] = {
+							["type"] = "DEBUFF",
+							["count"] = 2,
+							["school"] = 1,
+							["targets"] = {
+								["Defender of the Light"] = {
+									["uptime"] = 3,
+									["count"] = 2,
+								},
+							},
+							["uptime"] = 3,
+						},
+						[55095] = {
+							["type"] = "DEBUFF",
+							["count"] = 151,
+							["school"] = 16,
+							["refresh"] = 10,
+							["targets"] = {
+								["Defender of the Light"] = {
+									["count"] = 151,
+									["refresh"] = 10,
+									["uptime"] = 176,
+								},
+							},
+							["uptime"] = 176,
+						},
+					},
+					["absorbspells"] = {
+						[50150] = {
+							["min"] = 804,
+							["count"] = 4,
+							["amount"] = 3389,
+							["school"] = 1,
+							["targets"] = {
+								["Flocius"] = 3389,
+							},
+							["max"] = 877,
+						},
+					},
+					["time"] = 253.2000000000002,
+					["overkill"] = 2204,
+					["runicspells"] = {
+						[50163] = 20,
+					},
+					["totaldamagetaken"] = 878414,
+					["runic"] = 20,
+					["damage"] = 1566410,
+					["overheal"] = 26479,
+					["absorb"] = 3389,
+					["damagetaken"] = 875025,
+					["id"] = "0x07000000009742E5",
+					["spec"] = 250,
+					["healspells"] = {
+						[50181] = {
+							["overheal"] = 2085,
+							["count"] = 1,
+							["amount"] = 0,
+							["school"] = 1,
+							["targets"] = {
+								["Flocius"] = {
+									["overheal"] = 2085,
+									["amount"] = 0,
+								},
+							},
+						},
+						[45470] = {
+							["overheal"] = 2607,
+							["count"] = 1,
+							["amount"] = 0,
+							["school"] = 1,
+							["targets"] = {
+								["Flocius"] = {
+									["overheal"] = 2607,
+									["amount"] = 0,
+								},
+							},
+						},
+						[48982] = {
+							["overheal"] = 0,
+							["max"] = 6952,
+							["targets"] = {
+								["Flocius"] = {
+									["overheal"] = 0,
+									["amount"] = 13904,
+								},
+							},
+							["min"] = 6952,
+							["casts"] = 2,
+							["count"] = 2,
+							["amount"] = 13904,
+							["school"] = 32,
+						},
+						[50424] = {
+							["overheal"] = 1243,
+							["max"] = 3976,
+							["count"] = 10,
+							["amount"] = 11055,
+							["school"] = 1,
+							["min"] = 391,
+							["targets"] = {
+								["Warrior of the Frozen Wastes"] = {
+									["overheal"] = 0,
+									["amount"] = 7952,
+								},
+								["Volatile Ghoul"] = {
+									["overheal"] = 1243,
+									["amount"] = 3103,
+								},
+							},
+						},
+						[50475] = {
+							["overheal"] = 20544,
+							["max"] = 860,
+							["count"] = 106,
+							["amount"] = 14395,
+							["school"] = 1,
+							["min"] = 188,
+							["ishot"] = true,
+							["targets"] = {
+								["Flocius"] = {
+									["overheal"] = 20544,
+									["amount"] = 14395,
+								},
+							},
+						},
+					},
+					["damagetakenspells"] = {
+						["Holy Strike"] = {
+							["DODGE"] = 8,
+							["total"] = 814911,
+							["hitmin"] = 7141,
+							["DEFLECT"] = 6,
+							["id"] = 53643,
+							["amount"] = 811522,
+							["sources"] = {
+								["Defender of the Light"] = {
+									["total"] = 814911,
+									["amount"] = 811522,
+								},
+							},
+							["count"] = 116,
+							["hit"] = 98,
+							["school"] = 2,
+							["hitmax"] = 9466,
+							["MISS"] = 4,
+							["hitamount"] = 811522,
+						},
+						["Thunder"] = {
+							["hitmin"] = 14092,
+							["id"] = 53630,
+							["sources"] = {
+								["Rimblat Earthshatter"] = {
+									["amount"] = 58803,
+								},
+							},
+							["count"] = 4,
+							["hit"] = 4,
+							["school"] = 8,
+							["hitmax"] = 15329,
+							["amount"] = 58803,
+							["hitamount"] = 58803,
+						},
+						["Melee"] = {
+							["hitmin"] = 356,
+							["criticalamount"] = 3540,
+							["id"] = 6603,
+							["amount"] = 4700,
+							["criticalmin"] = 3540,
+							["criticalmax"] = 3540,
+							["critical"] = 1,
+							["sources"] = {
+								["Duke Nicholas Zverenhoff"] = {
+									["amount"] = 3540,
+								},
+								["Defender of the Light"] = {
+									["amount"] = 1160,
+								},
+							},
+							["count"] = 5,
+							["hit"] = 3,
+							["school"] = 1,
+							["hitmax"] = 413,
+							["MISS"] = 1,
+							["hitamount"] = 1160,
+						},
+					},
+					["totaldamage"] = 1566410,
+					["heal"] = 39354,
+					["name"] = "Flocius",
+					["ccdone"] = 2,
+					["interrupt"] = 2,
+					["damagespells"] = {
+						["Melee"] = {
+							["DODGE"] = 1,
+							["glance"] = 54952,
+							["hitmin"] = 4257,
+							["criticalmin"] = 13584,
+							["targets"] = {
+								["Rimblat Earthshatter"] = {
+									["amount"] = 3378,
+								},
+								["Defender of the Light"] = {
+									["amount"] = 410065,
+								},
+								["Duke Nicholas Zverenhoff"] = {
+									["amount"] = 15358,
+								},
+								["Korfax, Champion of the Light"] = {
+									["amount"] = 10894,
+								},
+							},
+							["glancing"] = 11,
+							["amount"] = 439695,
+							["MISS"] = 1,
+							["glancemin"] = 3144,
+							["criticalamount"] = 163510,
+							["id"] = 6603,
+							["glancemax"] = 7943,
+							["PARRY"] = 1,
+							["criticalmax"] = 18760,
+							["critical"] = 11,
+							["hit"] = 30,
+							["school"] = 1,
+							["count"] = 55,
+							["hitmax"] = 9298,
+							["hitamount"] = 221233,
+						},
+						["Icy Touch"] = {
+							["amount"] = 191716,
+							["hitmin"] = 5915,
+							["criticalamount"] = 76131,
+							["id"] = 45477,
+							["criticalmin"] = 11734,
+							["targets"] = {
+								["Korfax, Champion of the Light"] = {
+									["amount"] = 0,
+								},
+								["Commander Eligor Dawnbringer"] = {
+									["amount"] = 0,
+								},
+								["Defender of the Light"] = {
+									["amount"] = 191716,
+								},
+								["Duke Nicholas Zverenhoff"] = {
+									["amount"] = 0,
+								},
+								["Rimblat Earthshatter"] = {
+									["amount"] = 0,
+								},
+							},
+							["criticalmax"] = 14486,
+							["critical"] = 6,
+							["casts"] = 39,
+							["count"] = 39,
+							["hit"] = 18,
+							["school"] = 16,
+							["hitmax"] = 7243,
+							["MISS"] = 15,
+							["hitamount"] = 115585,
+						},
+						["Pestilence"] = {
+							["casts"] = 23,
+							["count"] = 27,
+							["amount"] = 0,
+							["school"] = 32,
+							["targets"] = {
+								["Commander Eligor Dawnbringer"] = {
+									["amount"] = 0,
+								},
+								["Korfax, Champion of the Light"] = {
+									["amount"] = 0,
+								},
+								["Rimblat Earthshatter"] = {
+									["amount"] = 0,
+								},
+								["Duke Nicholas Zverenhoff"] = {
+									["amount"] = 0,
+								},
+								["Leonid Barthalomew the Revered"] = {
+									["amount"] = 0,
+								},
+							},
+							["MISS"] = 27,
+							["id"] = 50842,
+						},
+						["Blood Plague (DoT)"] = {
+							["hitmin"] = 1440,
+							["id"] = 55078,
+							["targets"] = {
+								["Defender of the Light"] = {
+									["amount"] = 327118,
+								},
+								["Duke Nicholas Zverenhoff"] = {
+									["amount"] = 8400,
+								},
+								["Korfax, Champion of the Light"] = {
+									["amount"] = 8880,
+								},
+							},
+							["hitmax"] = 2879,
+							["count"] = 138,
+							["hit"] = 138,
+							["school"] = 32,
+							["resisted"] = 8719,
+							["amount"] = 344398,
+							["hitamount"] = 344398,
+						},
+						["Death Strike"] = {
+							["hitmin"] = 9422,
+							["id"] = 49998,
+							["targets"] = {
+								["Defender of the Light"] = {
+									["amount"] = 9422,
+								},
+							},
+							["casts"] = 1,
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 1,
+							["hitmax"] = 9422,
+							["amount"] = 9422,
+							["hitamount"] = 9422,
+						},
+						["Blood Strike"] = {
+							["criticalamount"] = 13082,
+							["id"] = 45902,
+							["targets"] = {
+								["Defender of the Light"] = {
+									["overkill"] = 2204,
+									["amount"] = 13082,
+								},
+							},
+							["overkill"] = 2204,
+							["casts"] = 1,
+							["critical"] = 1,
+							["amount"] = 13082,
+							["school"] = 1,
+							["criticalmin"] = 13082,
+							["criticalmax"] = 13082,
+							["count"] = 1,
+						},
+						["Plague Strike"] = {
+							["criticalmin"] = 9296,
+							["hitmin"] = 2803,
+							["criticalamount"] = 30336,
+							["id"] = 45462,
+							["criticalmax"] = 11022,
+							["targets"] = {
+								["Defender of the Light"] = {
+									["amount"] = 102249,
+								},
+								["Duke Nicholas Zverenhoff"] = {
+									["amount"] = 3527,
+								},
+								["Korfax, Champion of the Light"] = {
+									["amount"] = 2803,
+								},
+							},
+							["critical"] = 3,
+							["PARRY"] = 1,
+							["casts"] = 21,
+							["count"] = 21,
+							["hit"] = 17,
+							["school"] = 1,
+							["hitmax"] = 5020,
+							["amount"] = 108579,
+							["hitamount"] = 78243,
+						},
+						["Frost Fever (DoT)"] = {
+							["hitmin"] = 1823,
+							["id"] = 55095,
+							["targets"] = {
+								["Defender of the Light"] = {
+									["amount"] = 383775,
+								},
+							},
+							["hitmax"] = 2734,
+							["count"] = 154,
+							["hit"] = 154,
+							["school"] = 16,
+							["resisted"] = 3958,
+							["amount"] = 383775,
+							["hitamount"] = 383775,
+						},
+						["Death Coil"] = {
+							["amount"] = 75743,
+							["hitmin"] = 8233,
+							["criticalamount"] = 16465,
+							["id"] = 47632,
+							["criticalmin"] = 16465,
+							["targets"] = {
+								["Duke Nicholas Zverenhoff"] = {
+									["amount"] = 0,
+								},
+								["Defender of the Light"] = {
+									["amount"] = 75743,
+								},
+							},
+							["criticalmax"] = 16465,
+							["critical"] = 1,
+							["casts"] = 10,
+							["count"] = 9,
+							["hit"] = 7,
+							["school"] = 32,
+							["hitmax"] = 9880,
+							["MISS"] = 1,
+							["hitamount"] = 59278,
+						},
+					},
+					["interruptspells"] = {
+						[47528] = {
+							["spells"] = {
+								[29427] = 2,
+							},
+							["count"] = 2,
+							["targets"] = {
+								["Defender of the Light"] = 2,
+							},
+						},
+					},
+					["role"] = "DAMAGER",
+				}, -- [1]
+				{
+					["damagespells"] = {
+						["Melee"] = {
+							["hitmin"] = 1358,
+							["criticalamount"] = 4176,
+							["id"] = 6603,
+							["targets"] = {
+								["Warrior of the Frozen Wastes"] = {
+									["amount"] = 2901,
+								},
+								["Volatile Ghoul"] = {
+									["amount"] = 25076,
+								},
+							},
+							["criticalmin"] = 4176,
+							["critical"] = 1,
+							["criticalmax"] = 4176,
+							["count"] = 10,
+							["hit"] = 9,
+							["school"] = 1,
+							["hitmax"] = 3309,
+							["amount"] = 27977,
+							["hitamount"] = 23801,
+						},
+					},
+					["last"] = 11281.979,
+					["id"] = "Duke Nicholas Zverenhoff",
+					["class"] = "MONSTER",
+					["name"] = "Duke Nicholas Zverenhoff",
+					["totaldamage"] = 27977,
+					["time"] = 18,
+					["flag"] = 68168,
+					["damage"] = 27977,
+				}, -- [2]
+			},
+			["type"] = "none",
+			["damagetaken"] = 875025,
+			["interrupt"] = 2,
+			["etotaldamagetaken"] = 1594387,
+			["overkill"] = 2204,
+			["edamagetaken"] = 1594387,
+			["heal"] = 39354,
+			["name"] = "Defender of the Light (2)",
+			["mobname"] = "Defender of the Light",
+			["overheal"] = 26479,
+			["edamage"] = 875025,
+			["last_action"] = 1689445975,
+			["endtime"] = 1689445975,
+		}, -- [9]
+		{
+			["eoverkill"] = 2898,
+			["enemies"] = {
+				{
+					["damagespells"] = {
+						[53643] = {
+							["total"] = 64155,
+							["amount"] = 61735,
+							["school"] = 2,
+							["targets"] = {
+								["Flocius"] = {
+									["total"] = 64155,
+									["overkill"] = 2898,
+									["amount"] = 61735,
+								},
+							},
+							["overkill"] = 2898,
+						},
+						[6603] = {
+							["school"] = 1,
+							["targets"] = {
+								["Flocius"] = {
+									["amount"] = 331,
+								},
+							},
+							["amount"] = 331,
+						},
+					},
+					["damagetaken"] = 130528,
 					["flag"] = 68168,
 					["class"] = "MONSTER",
 					["damagetakenspells"] = {
@@ -2315,19 +3411,873 @@ SkadaStorageDB = {
 							["school"] = 16,
 							["sources"] = {
 								["Flocius"] = {
-									["amount"] = 178,
+									["amount"] = 52397,
 								},
 							},
-							["amount"] = 178,
+							["amount"] = 52397,
 						},
 						[55078] = {
 							["school"] = 32,
 							["sources"] = {
 								["Flocius"] = {
-									["amount"] = 95,
+									["amount"] = 52536,
 								},
 							},
-							["amount"] = 95,
+							["amount"] = 52536,
+						},
+						[45462] = {
+							["school"] = 1,
+							["sources"] = {
+								["Flocius"] = {
+									["amount"] = 4662,
+								},
+							},
+							["amount"] = 4662,
+						},
+						[6603] = {
+							["school"] = 1,
+							["sources"] = {
+								["Flocius"] = {
+									["amount"] = 15066,
+								},
+							},
+							["amount"] = 15066,
+						},
+						[45477] = {
+							["school"] = 16,
+							["sources"] = {
+								["Flocius"] = {
+									["amount"] = 5867,
+								},
+							},
+							["amount"] = 5867,
+						},
+					},
+					["name"] = "Defender of the Light",
+					["overkill"] = 2898,
+					["totaldamage"] = 64486,
+					["totaldamagetaken"] = 130528,
+					["id"] = "0xF1300071F61D27E1",
+					["damage"] = 62066,
+				}, -- [1]
+			},
+			["overheal"] = 1022,
+			["totaldamage"] = 130528,
+			["time"] = 12,
+			["death"] = 1,
+			["totaldamagetaken"] = 64486,
+			["etotaldamagetaken"] = 130528,
+			["last_time"] = 11012.005,
+			["players"] = {
+				{
+					["last"] = 11009.243,
+					["flag"] = 1297,
+					["class"] = "DEATHKNIGHT",
+					["auras"] = {
+						[55095] = {
+							["type"] = "DEBUFF",
+							["count"] = 16,
+							["school"] = 16,
+							["refresh"] = 7,
+							["targets"] = {
+								["Defender of the Light"] = {
+									["count"] = 16,
+									["refresh"] = 7,
+									["uptime"] = 12,
+								},
+							},
+							["uptime"] = 12,
+						},
+						[52419] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["uptime"] = 1,
+						},
+						[55078] = {
+							["type"] = "DEBUFF",
+							["count"] = 16,
+							["school"] = 32,
+							["refresh"] = 7,
+							["targets"] = {
+								["Defender of the Light"] = {
+									["count"] = 16,
+									["refresh"] = 7,
+									["uptime"] = 10,
+								},
+							},
+							["uptime"] = 10,
+						},
+						[64859] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["uptime"] = 6,
+						},
+						[52424] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["uptime"] = 6,
+						},
+						[53138] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 12,
+						},
+						[51915] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 12,
+						},
+						[48266] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 12,
+						},
+					},
+					["absorbspells"] = {
+						[50150] = {
+							["min"] = 707,
+							["count"] = 3,
+							["amount"] = 2420,
+							["school"] = 1,
+							["targets"] = {
+								["Flocius"] = 2420,
+							},
+							["max"] = 866,
+						},
+					},
+					["time"] = 9.239999999999998,
+					["totaldamagetaken"] = 64486,
+					["damage"] = 130528,
+					["damagespells"] = {
+						["Pestilence"] = {
+							["casts"] = 2,
+							["count"] = 2,
+							["amount"] = 0,
+							["school"] = 32,
+							["targets"] = {
+								["Commander Eligor Dawnbringer"] = {
+									["amount"] = 0,
+								},
+							},
+							["MISS"] = 2,
+							["id"] = 50842,
+						},
+						["Melee"] = {
+							["hitmin"] = 7338,
+							["id"] = 6603,
+							["targets"] = {
+								["Defender of the Light"] = {
+									["amount"] = 15066,
+								},
+							},
+							["count"] = 2,
+							["hit"] = 2,
+							["school"] = 1,
+							["hitmax"] = 7728,
+							["amount"] = 15066,
+							["hitamount"] = 15066,
+						},
+						["Icy Touch"] = {
+							["hitmin"] = 5867,
+							["id"] = 45477,
+							["targets"] = {
+								["Defender of the Light"] = {
+									["amount"] = 5867,
+								},
+							},
+							["casts"] = 1,
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 16,
+							["hitmax"] = 5867,
+							["amount"] = 5867,
+							["hitamount"] = 5867,
+						},
+						["Plague Strike"] = {
+							["hitmin"] = 4662,
+							["id"] = 45462,
+							["targets"] = {
+								["Defender of the Light"] = {
+									["amount"] = 4662,
+								},
+							},
+							["casts"] = 1,
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 1,
+							["hitmax"] = 4662,
+							["amount"] = 4662,
+							["hitamount"] = 4662,
+						},
+						["Frost Fever (DoT)"] = {
+							["hitmin"] = 2278,
+							["id"] = 55095,
+							["targets"] = {
+								["Defender of the Light"] = {
+									["amount"] = 52397,
+								},
+							},
+							["count"] = 23,
+							["hit"] = 23,
+							["school"] = 16,
+							["hitmax"] = 2279,
+							["amount"] = 52397,
+							["hitamount"] = 52397,
+						},
+						["Blood Plague (DoT)"] = {
+							["hitmin"] = 2160,
+							["id"] = 55078,
+							["targets"] = {
+								["Defender of the Light"] = {
+									["amount"] = 52536,
+								},
+							},
+							["hitmax"] = 2399,
+							["count"] = 22,
+							["hit"] = 22,
+							["school"] = 32,
+							["resisted"] = 239,
+							["amount"] = 52536,
+							["hitamount"] = 52536,
+						},
+					},
+					["absorb"] = 2420,
+					["damagetaken"] = 62066,
+					["deathlog"] = {
+						{
+							["log"] = {
+								{
+									["absorbed"] = 866,
+									["time"] = 11011.76,
+									["source"] = "Defender of the Light",
+									["amount"] = -7796,
+									["school"] = 2,
+									["hp"] = 1,
+									["spellid"] = 53643,
+									["overkill"] = 2898,
+								}, -- [1]
+								{
+									["time"] = 11011.613,
+									["source"] = "Defender of the Light",
+									["amount"] = -7632,
+									["school"] = 2,
+									["hp"] = 4898,
+									["spellid"] = 53643,
+									["absorbed"] = 847,
+								}, -- [2]
+								{
+									["time"] = 11011.555,
+									["source"] = "Defender of the Light",
+									["amount"] = -6368,
+									["school"] = 2,
+									["hp"] = 12530,
+									["spellid"] = 53643,
+									["absorbed"] = 707,
+								}, -- [3]
+								{
+									["source"] = "Defender of the Light",
+									["amount"] = -7526,
+									["school"] = 2,
+									["hp"] = 18898,
+									["spellid"] = 53643,
+									["time"] = 11011.173,
+								}, -- [4]
+								{
+									["source"] = "Defender of the Light",
+									["amount"] = -8341,
+									["school"] = 2,
+									["hp"] = 26424,
+									["spellid"] = 53643,
+									["time"] = 11011.006,
+								}, -- [5]
+								{
+									["overheal"] = 6250,
+									["source"] = "Highlord Darion Mograine",
+									["amount"] = 703,
+									["hp"] = 34765,
+									["spellid"] = 53642,
+									["time"] = 11011.004,
+								}, -- [6]
+								{
+									["source"] = "Highlord Darion Mograine",
+									["amount"] = 6953,
+									["hp"] = 34062,
+									["spellid"] = 53642,
+									["time"] = 11009.941,
+								}, -- [7]
+								{
+									["source"] = "Defender of the Light",
+									["amount"] = -331,
+									["school"] = 1,
+									["hp"] = 27440,
+									["spellid"] = 6603,
+									["time"] = 11009.446,
+								}, -- [8]
+								{
+									["source"] = "Defender of the Light",
+									["amount"] = -7325,
+									["school"] = 2,
+									["hp"] = 27440,
+									["spellid"] = 53643,
+									["time"] = 11009.447,
+								}, -- [9]
+								{
+									["overheal"] = 4112,
+									["source"] = "Highlord Darion Mograine",
+									["amount"] = 2841,
+									["hp"] = 34765,
+									["spellid"] = 53642,
+									["time"] = 11007.934,
+								}, -- [10]
+								{
+									["source"] = "Highlord Darion Mograine",
+									["amount"] = 6953,
+									["hp"] = 31924,
+									["spellid"] = 53642,
+									["time"] = 11006.995,
+								}, -- [11]
+								{
+									["source"] = "Defender of the Light",
+									["amount"] = -9014,
+									["school"] = 2,
+									["hp"] = 24971,
+									["spellid"] = 53643,
+									["time"] = 11006.484,
+								}, -- [12]
+								{
+									["source"] = "Highlord Darion Mograine",
+									["amount"] = 6953,
+									["hp"] = 33985,
+									["spellid"] = 53642,
+									["time"] = 11005.943,
+								}, -- [13]
+								{
+									["source"] = "Defender of the Light",
+									["amount"] = -7733,
+									["school"] = 2,
+									["hp"] = 27032,
+									["spellid"] = 53643,
+									["time"] = 11005.33,
+								}, -- [14]
+							},
+							["time"] = 11011.761,
+							["timeod"] = 1689445681,
+							["school"] = 2,
+							["maxhp"] = 34765,
+							["spellid"] = 53643,
+							["source"] = "Defender of the Light",
+						}, -- [1]
+					},
+					["id"] = "0x07000000009742E5",
+					["spec"] = 250,
+					["healspells"] = {
+						[50475] = {
+							["overheal"] = 1022,
+							["count"] = 4,
+							["amount"] = 0,
+							["school"] = 1,
+							["ishot"] = true,
+							["targets"] = {
+								["Flocius"] = {
+									["overheal"] = 1022,
+									["amount"] = 0,
+								},
+							},
+						},
+					},
+					["damagetakenspells"] = {
+						["Melee"] = {
+							["hitmin"] = 331,
+							["id"] = 6603,
+							["sources"] = {
+								["Defender of the Light"] = {
+									["amount"] = 331,
+								},
+							},
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 1,
+							["hitmax"] = 331,
+							["amount"] = 331,
+							["hitamount"] = 331,
+						},
+						["Holy Strike"] = {
+							["total"] = 64155,
+							["hitmin"] = 6368,
+							["DEFLECT"] = 1,
+							["id"] = 53643,
+							["overkill"] = 2898,
+							["sources"] = {
+								["Defender of the Light"] = {
+									["total"] = 64155,
+									["overkill"] = 2898,
+									["amount"] = 61735,
+								},
+							},
+							["count"] = 9,
+							["hit"] = 8,
+							["school"] = 2,
+							["hitmax"] = 9014,
+							["amount"] = 61735,
+							["hitamount"] = 61735,
+						},
+					},
+					["heal"] = 0,
+					["name"] = "Flocius",
+					["death"] = 1,
+					["overheal"] = 1022,
+					["totaldamage"] = 130528,
+					["role"] = "DAMAGER",
+				}, -- [1]
+			},
+			["type"] = "none",
+			["damagetaken"] = 62066,
+			["absorb"] = 2420,
+			["etotaldamage"] = 64486,
+			["damage"] = 130528,
+			["edamagetaken"] = 130528,
+			["heal"] = 0,
+			["name"] = "Defender of the Light",
+			["mobname"] = "Defender of the Light",
+			["starttime"] = 1689445669,
+			["edamage"] = 62066,
+			["last_action"] = 1689445681,
+			["endtime"] = 1689445681,
+		}, -- [10]
+		{
+			["enemies"] = {
+				{
+					["id"] = "0xF1300071B01D20A6",
+					["name"] = "Scarlet Ballista",
+					["totaldamagetaken"] = 2160645,
+					["flag"] = 2632,
+					["class"] = "MONSTER",
+					["damagetaken"] = 2160645,
+					["damagetakenspells"] = {
+						[53115] = {
+							["school"] = 16,
+							["sources"] = {
+								["Flocius"] = {
+									["overkill"] = 234639,
+									["amount"] = 2160645,
+								},
+							},
+							["overkill"] = 234639,
+							["amount"] = 2160645,
+						},
+					},
+				}, -- [1]
+				{
+					["id"] = "0xF1300071AE1D20F2",
+					["name"] = "Hearthglen Crusader",
+					["totaldamagetaken"] = 4170980,
+					["flag"] = 2632,
+					["class"] = "MONSTER",
+					["damagetaken"] = 4170980,
+					["damagetakenspells"] = {
+						[53115] = {
+							["school"] = 16,
+							["sources"] = {
+								["Flocius"] = {
+									["overkill"] = 3112625,
+									["amount"] = 4170980,
+								},
+							},
+							["overkill"] = 3112625,
+							["amount"] = 4170980,
+						},
+					},
+				}, -- [2]
+				{
+					["id"] = "0xF1300071AF1D20F0",
+					["name"] = "Tirisfal Crusader",
+					["totaldamagetaken"] = 2519105,
+					["flag"] = 2632,
+					["class"] = "MONSTER",
+					["damagetaken"] = 2519105,
+					["damagetakenspells"] = {
+						[53115] = {
+							["school"] = 16,
+							["sources"] = {
+								["Flocius"] = {
+									["overkill"] = 1876340,
+									["amount"] = 2519105,
+								},
+							},
+							["overkill"] = 1876340,
+							["amount"] = 2519105,
+						},
+					},
+				}, -- [3]
+			},
+			["totaldamage"] = 8850730,
+			["time"] = 186,
+			["etotaldamagetaken"] = 8850730,
+			["last_time"] = 10680.856,
+			["players"] = {
+				{
+					["damagespells"] = {
+						["Frozen Deathbolt (Frostbrood Vanquisher)"] = {
+							["hitmin"] = 48596,
+							["id"] = 53115,
+							["targets"] = {
+								["Hearthglen Crusader"] = {
+									["overkill"] = 3112625,
+									["amount"] = 4170980,
+								},
+								["Tirisfal Crusader"] = {
+									["overkill"] = 1876340,
+									["amount"] = 2519105,
+								},
+								["Scarlet Ballista"] = {
+									["overkill"] = 234639,
+									["amount"] = 2160645,
+								},
+							},
+							["overkill"] = 5223604,
+							["casts"] = 1,
+							["count"] = 161,
+							["hit"] = 161,
+							["school"] = 16,
+							["hitmax"] = 61110,
+							["amount"] = 8850730,
+							["hitamount"] = 8850730,
+						},
+					},
+					["last"] = 10494.987,
+					["class"] = "DEATHKNIGHT",
+					["id"] = "0x07000000009742E5",
+					["spec"] = 250,
+					["overkill"] = 5223604,
+					["auras"] = {
+						[52196] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 186,
+						},
+						[51915] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 186,
+						},
+						[48266] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 186,
+						},
+						[53138] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 186,
+						},
+					},
+					["totaldamage"] = 8850730,
+					["role"] = "DAMAGER",
+					["name"] = "Flocius",
+					["flag"] = 4369,
+					["time"] = 0,
+					["damage"] = 8850730,
+				}, -- [1]
+			},
+			["type"] = "none",
+			["overkill"] = 5223604,
+			["edamagetaken"] = 8850730,
+			["damage"] = 8850730,
+			["name"] = "Scarlet Ballista (3)",
+			["mobname"] = "Scarlet Ballista",
+			["starttime"] = 1689445164,
+			["last_action"] = 1689445350,
+			["endtime"] = 1689445350,
+		}, -- [11]
+		{
+			["enemies"] = {
+				{
+					["id"] = "0xF1300071B01D2007",
+					["name"] = "Scarlet Ballista",
+					["totaldamagetaken"] = 56941,
+					["flag"] = 2632,
+					["class"] = "MONSTER",
+					["damagetaken"] = 56941,
+					["damagetakenspells"] = {
+						[53115] = {
+							["school"] = 16,
+							["sources"] = {
+								["Flocius"] = {
+									["overkill"] = 28749,
+									["amount"] = 56941,
+								},
+							},
+							["overkill"] = 28749,
+							["amount"] = 56941,
+						},
+					},
+				}, -- [1]
+			},
+			["totaldamage"] = 56941,
+			["time"] = 5,
+			["etotaldamagetaken"] = 56941,
+			["last_time"] = 10469.51,
+			["players"] = {
+				{
+					["damagespells"] = {
+						["Frozen Deathbolt (Frostbrood Vanquisher)"] = {
+							["hitmin"] = 56941,
+							["id"] = 53115,
+							["targets"] = {
+								["Scarlet Ballista"] = {
+									["overkill"] = 28749,
+									["amount"] = 56941,
+								},
+							},
+							["overkill"] = 28749,
+							["casts"] = 1,
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 16,
+							["hitmax"] = 56941,
+							["amount"] = 56941,
+							["hitamount"] = 56941,
+						},
+					},
+					["last"] = 10465.927,
+					["class"] = "DEATHKNIGHT",
+					["id"] = "0x07000000009742E5",
+					["spec"] = 250,
+					["overkill"] = 28749,
+					["auras"] = {
+						[52196] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 5,
+						},
+						[51915] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 5,
+						},
+						[48266] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 5,
+						},
+						[53138] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 5,
+						},
+					},
+					["totaldamage"] = 56941,
+					["role"] = "DAMAGER",
+					["name"] = "Flocius",
+					["flag"] = 4369,
+					["time"] = 0,
+					["damage"] = 56941,
+				}, -- [1]
+			},
+			["type"] = "none",
+			["overkill"] = 28749,
+			["edamagetaken"] = 56941,
+			["damage"] = 56941,
+			["name"] = "Scarlet Ballista (2)",
+			["mobname"] = "Scarlet Ballista",
+			["starttime"] = 1689445135,
+			["last_action"] = 1689445138,
+			["endtime"] = 1689445140,
+		}, -- [12]
+		{
+			["enemies"] = {
+				{
+					["id"] = "0xF1300071B01D2057",
+					["name"] = "Scarlet Ballista",
+					["totaldamagetaken"] = 267922,
+					["flag"] = 2632,
+					["class"] = "MONSTER",
+					["damagetaken"] = 267922,
+					["damagetakenspells"] = {
+						[53115] = {
+							["school"] = 16,
+							["sources"] = {
+								["Flocius"] = {
+									["overkill"] = 15592,
+									["amount"] = 267922,
+								},
+							},
+							["overkill"] = 15592,
+							["amount"] = 267922,
+						},
+					},
+				}, -- [1]
+				{
+					["id"] = "0xF1300071AE1D2005",
+					["name"] = "Hearthglen Crusader",
+					["totaldamagetaken"] = 438436,
+					["flag"] = 2632,
+					["class"] = "MONSTER",
+					["damagetaken"] = 438436,
+					["damagetakenspells"] = {
+						[53115] = {
+							["school"] = 16,
+							["sources"] = {
+								["Flocius"] = {
+									["overkill"] = 326206,
+									["amount"] = 438436,
+								},
+							},
+							["overkill"] = 326206,
+							["amount"] = 438436,
+						},
+					},
+				}, -- [2]
+				{
+					["id"] = "0xF1300071AF1D1FFF",
+					["name"] = "Tirisfal Crusader",
+					["totaldamagetaken"] = 437105,
+					["flag"] = 2632,
+					["class"] = "MONSTER",
+					["damagetaken"] = 437105,
+					["damagetakenspells"] = {
+						[53115] = {
+							["school"] = 16,
+							["sources"] = {
+								["Flocius"] = {
+									["overkill"] = 327870,
+									["amount"] = 437105,
+								},
+							},
+							["overkill"] = 327870,
+							["amount"] = 437105,
+						},
+					},
+				}, -- [3]
+			},
+			["totaldamage"] = 1143463,
+			["time"] = 33,
+			["etotaldamagetaken"] = 1143463,
+			["last_time"] = 10446.634,
+			["players"] = {
+				{
+					["damagespells"] = {
+						["Frozen Deathbolt (Frostbrood Vanquisher)"] = {
+							["hitmin"] = 48886,
+							["id"] = 53115,
+							["targets"] = {
+								["Hearthglen Crusader"] = {
+									["overkill"] = 326206,
+									["amount"] = 438436,
+								},
+								["Tirisfal Crusader"] = {
+									["overkill"] = 327870,
+									["amount"] = 437105,
+								},
+								["Scarlet Ballista"] = {
+									["overkill"] = 15592,
+									["amount"] = 267922,
+								},
+							},
+							["overkill"] = 669668,
+							["casts"] = 1,
+							["count"] = 21,
+							["hit"] = 21,
+							["school"] = 16,
+							["hitmax"] = 59650,
+							["amount"] = 1143463,
+							["hitamount"] = 1143463,
+						},
+					},
+					["last"] = 10414.012,
+					["class"] = "DEATHKNIGHT",
+					["id"] = "0x07000000009742E5",
+					["spec"] = 250,
+					["overkill"] = 669668,
+					["auras"] = {
+						[52196] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 33,
+						},
+						[51915] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 33,
+						},
+						[48266] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 33,
+						},
+						[53138] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 33,
+						},
+					},
+					["totaldamage"] = 1143463,
+					["role"] = "DAMAGER",
+					["name"] = "Flocius",
+					["flag"] = 4369,
+					["time"] = 0,
+					["damage"] = 1143463,
+				}, -- [1]
+			},
+			["type"] = "none",
+			["overkill"] = 669668,
+			["edamagetaken"] = 1143463,
+			["damage"] = 1143463,
+			["name"] = "Scarlet Ballista",
+			["mobname"] = "Scarlet Ballista",
+			["starttime"] = 1689445083,
+			["last_action"] = 1689445115,
+			["endtime"] = 1689445116,
+		}, -- [13]
+		{
+			["enemies"] = {
+				{
+					["damagespells"] = {
+						[6603] = {
+							["school"] = 1,
+							["targets"] = {
+								["Flocius"] = {
+									["amount"] = 202,
+								},
+							},
+							["amount"] = 202,
+						},
+					},
+					["damagetaken"] = 5513,
+					["flag"] = 68168,
+					["class"] = "MONSTER",
+					["damagetakenspells"] = {
+						[55095] = {
+							["school"] = 16,
+							["sources"] = {
+								["Flocius"] = {
+									["amount"] = 575,
+								},
+							},
+							["amount"] = 575,
+						},
+						[47632] = {
+							["school"] = 32,
+							["sources"] = {
+								["Flocius"] = {
+									["overkill"] = 181,
+									["amount"] = 722,
+								},
+							},
+							["overkill"] = 181,
+							["amount"] = 722,
+						},
+						[55078] = {
+							["school"] = 32,
+							["sources"] = {
+								["Flocius"] = {
+									["amount"] = 506,
+								},
+							},
+							["amount"] = 506,
 						},
 						[45462] = {
 							["school"] = 1,
@@ -2342,142 +4292,275 @@ SkadaStorageDB = {
 							["school"] = 1,
 							["sources"] = {
 								["Flocius"] = {
-									["amount"] = 294,
+									["amount"] = 2061,
 								},
 							},
-							["amount"] = 294,
+							["amount"] = 2061,
+						},
+						[49998] = {
+							["school"] = 1,
+							["sources"] = {
+								["Flocius"] = {
+									["overkill"] = 104,
+									["amount"] = 584,
+								},
+							},
+							["overkill"] = 104,
+							["amount"] = 584,
+						},
+						[45902] = {
+							["school"] = 1,
+							["sources"] = {
+								["Flocius"] = {
+									["amount"] = 321,
+								},
+							},
+							["amount"] = 321,
 						},
 						[45477] = {
 							["school"] = 16,
 							["sources"] = {
 								["Flocius"] = {
-									["amount"] = 253,
+									["amount"] = 539,
 								},
 							},
-							["amount"] = 253,
+							["amount"] = 539,
 						},
 					},
-					["name"] = "Scarlet Marksman",
-					["totaldamage"] = 100,
-					["totaldamagetaken"] = 1025,
-					["id"] = "0xF130006FC21C0A2B",
-					["damage"] = 100,
+					["name"] = "Scarlet Crusader",
+					["totaldamage"] = 202,
+					["totaldamagetaken"] = 5513,
+					["id"] = "0xF13000710C1D1AE2",
+					["damage"] = 202,
 				}, -- [1]
 			},
-			["totaldamage"] = 1025,
-			["time"] = 7,
-			["totaldamagetaken"] = 100,
-			["etotaldamagetaken"] = 1025,
-			["last_time"] = 13769.509,
+			["overheal"] = 1451,
+			["totaldamage"] = 5513,
+			["time"] = 18,
+			["totaldamagetaken"] = 202,
+			["etotaldamagetaken"] = 5513,
+			["last_time"] = 10123.775,
 			["players"] = {
 				{
-					["last"] = 13769.251,
+					["last"] = 10123.767,
 					["flag"] = 1297,
 					["class"] = "DEATHKNIGHT",
 					["auras"] = {
 						[55095] = {
 							["type"] = "DEBUFF",
-							["count"] = 1,
+							["count"] = 2,
 							["school"] = 16,
 							["targets"] = {
-								["Scarlet Marksman"] = {
-									["uptime"] = 7,
-									["count"] = 1,
+								["Scarlet Crusader"] = {
+									["uptime"] = 15,
+									["count"] = 2,
 								},
 							},
-							["uptime"] = 7,
+							["uptime"] = 15,
 						},
 						[55078] = {
 							["type"] = "DEBUFF",
-							["count"] = 1,
+							["count"] = 2,
 							["school"] = 32,
 							["targets"] = {
-								["Scarlet Marksman"] = {
-									["uptime"] = 5,
-									["count"] = 1,
+								["Scarlet Crusader"] = {
+									["uptime"] = 13,
+									["count"] = 2,
 								},
 							},
-							["uptime"] = 5,
+							["uptime"] = 13,
 						},
-						[48266] = {
+						[64856] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 7,
+							["refresh"] = 9,
+							["uptime"] = 18,
 						},
 						[51915] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 7,
+							["uptime"] = 18,
 						},
-						[52781] = {
-							["type"] = "DEBUFF",
+						[48266] = {
+							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 1,
-							["targets"] = {
-								["Scarlet Marksman"] = {
-									["uptime"] = 2,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 2,
+							["uptime"] = 18,
 						},
 					},
-					["time"] = 6.460000000000001,
-					["totaldamagetaken"] = 100,
-					["damage"] = 1025,
-					["damagespells"] = {
+					["time"] = 16.15,
+					["totaldamagetaken"] = 202,
+					["damage"] = 5513,
+					["overheal"] = 1451,
+					["runicspells"] = {
+						[50163] = 40,
+					},
+					["damagetaken"] = 202,
+					["id"] = "0x07000000009742E5",
+					["spec"] = 250,
+					["healspells"] = {
+						[50475] = {
+							["overheal"] = 98,
+							["max"] = 23,
+							["count"] = 12,
+							["amount"] = 63,
+							["school"] = 1,
+							["min"] = 7,
+							["ishot"] = true,
+							["targets"] = {
+								["Flocius"] = {
+									["overheal"] = 98,
+									["amount"] = 63,
+								},
+							},
+						},
+						[45470] = {
+							["overheal"] = 822,
+							["max"] = 110,
+							["targets"] = {
+								["Flocius"] = {
+									["overheal"] = 822,
+									["amount"] = 110,
+								},
+							},
+							["min"] = 110,
+							["casts"] = 2,
+							["count"] = 2,
+							["amount"] = 110,
+							["school"] = 1,
+						},
+						[50181] = {
+							["overheal"] = 531,
+							["count"] = 2,
+							["amount"] = 29,
+							["school"] = 1,
+							["max"] = 29,
+							["targets"] = {
+								["Flocius"] = {
+									["overheal"] = 531,
+									["amount"] = 29,
+								},
+							},
+							["min"] = 29,
+						},
+					},
+					["damagetakenspells"] = {
 						["Melee"] = {
-							["hitmin"] = 294,
+							["DODGE"] = 4,
+							["hitmin"] = 47,
+							["id"] = 6603,
+							["PARRY"] = 3,
+							["sources"] = {
+								["Scarlet Crusader"] = {
+									["amount"] = 202,
+								},
+							},
+							["count"] = 11,
+							["hit"] = 4,
+							["school"] = 1,
+							["hitmax"] = 53,
+							["amount"] = 202,
+							["hitamount"] = 202,
+						},
+					},
+					["overkill"] = 285,
+					["heal"] = 202,
+					["name"] = "Flocius",
+					["runic"] = 40,
+					["damagespells"] = {
+						["Death Coil"] = {
+							["hitmin"] = 361,
+							["id"] = 47632,
+							["targets"] = {
+								["Scarlet Crusader"] = {
+									["overkill"] = 181,
+									["amount"] = 722,
+								},
+							},
+							["overkill"] = 181,
+							["casts"] = 2,
+							["count"] = 2,
+							["hit"] = 2,
+							["school"] = 32,
+							["hitmax"] = 361,
+							["amount"] = 722,
+							["hitamount"] = 722,
+						},
+						["Death Strike"] = {
+							["DODGE"] = 1,
+							["hitmin"] = 280,
+							["id"] = 49998,
+							["targets"] = {
+								["Scarlet Crusader"] = {
+									["overkill"] = 104,
+									["amount"] = 584,
+								},
+							},
+							["overkill"] = 104,
+							["hitmax"] = 304,
+							["casts"] = 6,
+							["count"] = 4,
+							["amount"] = 584,
+							["school"] = 1,
+							["hit"] = 2,
+							["MISS"] = 1,
+							["hitamount"] = 584,
+						},
+						["Melee"] = {
+							["hitmin"] = 272,
+							["criticalamount"] = 1200,
 							["id"] = 6603,
 							["targets"] = {
-								["Scarlet Marksman"] = {
-									["amount"] = 294,
+								["Scarlet Crusader"] = {
+									["amount"] = 2061,
 								},
 							},
-							["PARRY"] = 1,
-							["count"] = 2,
-							["hit"] = 1,
+							["hitmax"] = 301,
+							["count"] = 5,
+							["criticalmax"] = 602,
+							["critical"] = 2,
+							["amount"] = 2061,
 							["school"] = 1,
-							["hitmax"] = 294,
-							["amount"] = 294,
-							["hitamount"] = 294,
+							["hit"] = 3,
+							["criticalmin"] = 598,
+							["hitamount"] = 861,
 						},
-						["Blood Plague (DoT)"] = {
-							["hitmin"] = 95,
-							["id"] = 55078,
+						["Blood Strike"] = {
+							["hitmin"] = 321,
+							["id"] = 45902,
 							["targets"] = {
-								["Scarlet Marksman"] = {
-									["amount"] = 95,
-								},
-							},
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 32,
-							["hitmax"] = 95,
-							["amount"] = 95,
-							["hitamount"] = 95,
-						},
-						["Icy Touch"] = {
-							["hitmin"] = 253,
-							["id"] = 45477,
-							["targets"] = {
-								["Scarlet Marksman"] = {
-									["amount"] = 253,
+								["Scarlet Crusader"] = {
+									["amount"] = 321,
 								},
 							},
 							["casts"] = 1,
 							["count"] = 1,
 							["hit"] = 1,
+							["school"] = 1,
+							["hitmax"] = 321,
+							["amount"] = 321,
+							["hitamount"] = 321,
+						},
+						["Icy Touch"] = {
+							["criticalamount"] = 539,
+							["id"] = 45477,
+							["targets"] = {
+								["Scarlet Crusader"] = {
+									["amount"] = 539,
+								},
+							},
+							["casts"] = 1,
+							["critical"] = 1,
+							["amount"] = 539,
 							["school"] = 16,
-							["hitmax"] = 253,
-							["amount"] = 253,
-							["hitamount"] = 253,
+							["criticalmin"] = 539,
+							["criticalmax"] = 539,
+							["count"] = 1,
 						},
 						["Plague Strike"] = {
 							["hitmin"] = 205,
 							["id"] = 45462,
 							["targets"] = {
-								["Scarlet Marksman"] = {
+								["Scarlet Crusader"] = {
 									["amount"] = 205,
 								},
 							},
@@ -2490,2071 +4573,597 @@ SkadaStorageDB = {
 							["hitamount"] = 205,
 						},
 						["Frost Fever (DoT)"] = {
-							["hitmin"] = 89,
+							["hitmin"] = 95,
 							["id"] = 55095,
 							["targets"] = {
-								["Scarlet Marksman"] = {
-									["amount"] = 178,
+								["Scarlet Crusader"] = {
+									["amount"] = 575,
 								},
 							},
-							["count"] = 2,
-							["hit"] = 2,
-							["school"] = 16,
-							["hitmax"] = 89,
-							["amount"] = 178,
-							["hitamount"] = 178,
-						},
-						["Blood Strike"] = {
-							["casts"] = 1,
-							["count"] = 1,
-							["amount"] = 0,
-							["school"] = 1,
-							["PARRY"] = 1,
-							["targets"] = {
-								["Scarlet Marksman"] = {
-									["amount"] = 0,
-								},
-							},
-							["id"] = 45902,
-						},
-					},
-					["damagetaken"] = 100,
-					["id"] = "0x07000000009742E5",
-					["spec"] = 250,
-					["healspells"] = {
-						[50475] = {
-							["overheal"] = 29,
-							["count"] = 3,
-							["amount"] = 0,
-							["school"] = 1,
-							["ishot"] = true,
-							["targets"] = {
-								["Flocius"] = {
-									["overheal"] = 29,
-									["amount"] = 0,
-								},
-							},
-						},
-					},
-					["damagetakenspells"] = {
-						["Melee"] = {
-							["hitmin"] = 49,
-							["id"] = 6603,
-							["sources"] = {
-								["Scarlet Marksman"] = {
-									["amount"] = 100,
-								},
-							},
-							["count"] = 2,
-							["hit"] = 2,
-							["school"] = 1,
-							["hitmax"] = 51,
-							["amount"] = 100,
-							["hitamount"] = 100,
-						},
-					},
-					["heal"] = 0,
-					["name"] = "Flocius",
-					["overheal"] = 29,
-					["totaldamage"] = 1025,
-					["role"] = "DAMAGER",
-				}, -- [1]
-			},
-			["type"] = "none",
-			["damagetaken"] = 100,
-			["overheal"] = 29,
-			["etotaldamage"] = 100,
-			["damage"] = 1025,
-			["edamagetaken"] = 1025,
-			["heal"] = 0,
-			["name"] = "Scarlet Marksman (9)",
-			["mobname"] = "Scarlet Marksman",
-			["starttime"] = 1689434309,
-			["edamage"] = 100,
-			["last_action"] = 1689434315,
-			["endtime"] = 1689434316,
-		}, -- [8]
-		{
-			["enemies"] = {
-				{
-					["damagespells"] = {
-						[6603] = {
-							["school"] = 1,
-							["targets"] = {
-								["Flocius"] = {
-									["amount"] = 202,
-								},
-							},
-							["amount"] = 202,
-						},
-					},
-					["damagetaken"] = 1436,
-					["flag"] = 68168,
-					["class"] = "MONSTER",
-					["damagetakenspells"] = {
-						[6603] = {
-							["school"] = 1,
-							["sources"] = {
-								["Flocius"] = {
-									["amount"] = 681,
-								},
-							},
-							["amount"] = 681,
-						},
-						[45477] = {
-							["school"] = 16,
-							["sources"] = {
-								["Flocius"] = {
-									["amount"] = 501,
-								},
-							},
-							["amount"] = 501,
-						},
-						[55095] = {
-							["school"] = 16,
-							["sources"] = {
-								["Flocius"] = {
-									["amount"] = 254,
-								},
-							},
-							["amount"] = 254,
-						},
-					},
-					["name"] = "Scarlet Marksman",
-					["totaldamage"] = 202,
-					["totaldamagetaken"] = 1436,
-					["id"] = "0xF130006FC21C0A2B",
-					["damage"] = 202,
-				}, -- [1]
-			},
-			["totaldamage"] = 1436,
-			["time"] = 12,
-			["totaldamagetaken"] = 202,
-			["etotaldamagetaken"] = 1436,
-			["last_time"] = 13710.769,
-			["players"] = {
-				{
-					["last"] = 13710.761,
-					["flag"] = 1297,
-					["class"] = "DEATHKNIGHT",
-					["auras"] = {
-						[51915] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 12,
-						},
-						[48266] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 12,
-						},
-						[55095] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 16,
-							["targets"] = {
-								["Scarlet Marksman"] = {
-									["uptime"] = 11,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 11,
-						},
-					},
-					["time"] = 11.1,
-					["totaldamagetaken"] = 202,
-					["damage"] = 1436,
-					["overheal"] = 24,
-					["damagetaken"] = 202,
-					["id"] = "0x07000000009742E5",
-					["spec"] = 250,
-					["healspells"] = {
-						[50475] = {
-							["overheal"] = 24,
-							["max"] = 4,
-							["count"] = 8,
-							["amount"] = 19,
-							["school"] = 1,
-							["min"] = 2,
-							["ishot"] = true,
-							["targets"] = {
-								["Flocius"] = {
-									["overheal"] = 24,
-									["amount"] = 19,
-								},
-							},
-						},
-					},
-					["damagetakenspells"] = {
-						["Melee"] = {
-							["hitmin"] = 48,
-							["id"] = 6603,
-							["sources"] = {
-								["Scarlet Marksman"] = {
-									["amount"] = 202,
-								},
-							},
-							["count"] = 4,
-							["hit"] = 4,
-							["school"] = 1,
-							["hitmax"] = 52,
-							["amount"] = 202,
-							["hitamount"] = 202,
-						},
-					},
-					["heal"] = 19,
-					["name"] = "Flocius",
-					["damagespells"] = {
-						["Icy Touch"] = {
-							["criticalamount"] = 501,
-							["id"] = 45477,
-							["targets"] = {
-								["Scarlet Marksman"] = {
-									["amount"] = 501,
-								},
-							},
-							["casts"] = 1,
-							["critical"] = 1,
-							["amount"] = 501,
-							["school"] = 16,
-							["criticalmin"] = 501,
-							["criticalmax"] = 501,
-							["count"] = 1,
-						},
-						["Melee"] = {
-							["glance"] = 123,
-							["hitmin"] = 67,
-							["glancemin"] = 123,
-							["id"] = 6603,
-							["glancemax"] = 123,
-							["targets"] = {
-								["Scarlet Marksman"] = {
-									["amount"] = 681,
-								},
-							},
-							["blocked"] = 27,
-							["glancing"] = 1,
-							["hitmax"] = 108,
-							["count"] = 9,
-							["amount"] = 681,
-							["school"] = 1,
+							["count"] = 6,
 							["hit"] = 6,
-							["MISS"] = 2,
-							["hitamount"] = 558,
+							["school"] = 16,
+							["hitmax"] = 96,
+							["amount"] = 575,
+							["hitamount"] = 575,
 						},
-						["Frost Fever (DoT)"] = {
-							["hitmin"] = 84,
-							["id"] = 55095,
+						["Blood Plague (DoT)"] = {
+							["hitmin"] = 101,
+							["id"] = 55078,
 							["targets"] = {
-								["Scarlet Marksman"] = {
-									["amount"] = 254,
+								["Scarlet Crusader"] = {
+									["amount"] = 506,
 								},
 							},
-							["count"] = 3,
-							["hit"] = 3,
-							["school"] = 16,
-							["hitmax"] = 85,
-							["amount"] = 254,
-							["hitamount"] = 254,
+							["count"] = 5,
+							["hit"] = 5,
+							["school"] = 32,
+							["hitmax"] = 102,
+							["amount"] = 506,
+							["hitamount"] = 506,
 						},
 					},
-					["totaldamage"] = 1436,
+					["totaldamage"] = 5513,
 					["role"] = "DAMAGER",
 				}, -- [1]
 			},
 			["type"] = "none",
 			["damagetaken"] = 202,
-			["damage"] = 1436,
+			["runic"] = 40,
 			["etotaldamage"] = 202,
-			["overheal"] = 24,
-			["starttime"] = 1689434245,
-			["edamagetaken"] = 1436,
-			["heal"] = 19,
-			["name"] = "Scarlet Marksman (8)",
-			["mobname"] = "Scarlet Marksman",
-			["edamage"] = 202,
-			["last_action"] = 1689434257,
-			["endtime"] = 1689434257,
-		}, -- [9]
-		{
-			["players"] = {
-				{
-					["last"] = 11075.968,
-					["damagetaken"] = 173,
-					["id"] = "0x07000000009742E5",
-					["spec"] = 250,
-					["auras"] = {
-						[48778] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 12,
-						},
-						[51915] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 13,
-						},
-						[48266] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 13,
-						},
-					},
-					["role"] = "DAMAGER",
-					["name"] = "Flocius",
-					["class"] = "DEATHKNIGHT",
-					["time"] = 0,
-					["totaldamagetaken"] = 173,
-					["flag"] = 1297,
-					["damagetakenspells"] = {
-						["Shoot"] = {
-							["hitmin"] = 81,
-							["id"] = 6660,
-							["sources"] = {
-								["Scarlet Marksman"] = {
-									["amount"] = 173,
-								},
-							},
-							["count"] = 2,
-							["hit"] = 2,
-							["school"] = 1,
-							["hitmax"] = 92,
-							["amount"] = 173,
-							["hitamount"] = 173,
-						},
-					},
-				}, -- [1]
-			},
-			["type"] = "none",
-			["damagetaken"] = 173,
-			["name"] = "Scarlet Marksman (7)",
-			["endtime"] = 1689247976,
-			["last_action"] = 1689247975,
-			["enemies"] = {
-				{
-					["damagespells"] = {
-						[6660] = {
-							["school"] = 1,
-							["targets"] = {
-								["Flocius"] = {
-									["amount"] = 173,
-								},
-							},
-							["amount"] = 173,
-						},
-					},
-					["totaldamage"] = 173,
-					["name"] = "Scarlet Marksman",
-					["flag"] = 2632,
-					["class"] = "MONSTER",
-					["id"] = "0xF130006FC20CCA13",
-					["damage"] = 173,
-				}, -- [1]
-			},
-			["edamage"] = 173,
-			["starttime"] = 1689247963,
-			["time"] = 13,
-			["mobname"] = "Scarlet Marksman",
-			["totaldamagetaken"] = 173,
-			["etotaldamage"] = 173,
-			["last_time"] = 11088.51,
-		}, -- [10]
-		{
-			["players"] = {
-				{
-					["last"] = 11019.452,
-					["damagetaken"] = 252,
-					["id"] = "0x07000000009742E5",
-					["spec"] = 250,
-					["auras"] = {
-						[48778] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 31,
-						},
-						[51915] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 31,
-						},
-						[48266] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 31,
-						},
-					},
-					["role"] = "DAMAGER",
-					["name"] = "Flocius",
-					["class"] = "DEATHKNIGHT",
-					["time"] = 0,
-					["totaldamagetaken"] = 252,
-					["flag"] = 1297,
-					["damagetakenspells"] = {
-						["Shoot"] = {
-							["hitmin"] = 79,
-							["id"] = 6660,
-							["hit"] = 3,
-							["sources"] = {
-								["Scarlet Marksman"] = {
-									["amount"] = 252,
-								},
-							},
-							["count"] = 4,
-							["amount"] = 252,
-							["school"] = 1,
-							["hitmax"] = 90,
-							["MISS"] = 1,
-							["hitamount"] = 252,
-						},
-					},
-				}, -- [1]
-			},
-			["type"] = "none",
-			["damagetaken"] = 252,
-			["name"] = "Scarlet Marksman (6)",
-			["endtime"] = 1689247937,
-			["last_action"] = 1689247937,
-			["enemies"] = {
-				{
-					["damagespells"] = {
-						[6660] = {
-							["school"] = 1,
-							["targets"] = {
-								["Flocius"] = {
-									["amount"] = 252,
-								},
-							},
-							["amount"] = 252,
-						},
-					},
-					["totaldamage"] = 252,
-					["name"] = "Scarlet Marksman",
-					["flag"] = 68168,
-					["class"] = "MONSTER",
-					["id"] = "0xF130006FC20BE5B5",
-					["damage"] = 252,
-				}, -- [1]
-			},
-			["edamage"] = 252,
-			["starttime"] = 1689247906,
-			["time"] = 31,
-			["mobname"] = "Scarlet Marksman",
-			["totaldamagetaken"] = 252,
-			["etotaldamage"] = 252,
-			["last_time"] = 11050.351,
-		}, -- [11]
-		{
-			["enemies"] = {
-				{
-					["damagespells"] = {
-						[6603] = {
-							["school"] = 1,
-							["targets"] = {
-								["Flocius"] = {
-									["amount"] = 519,
-								},
-							},
-							["amount"] = 519,
-						},
-					},
-					["damagetaken"] = 4412,
-					["id"] = "0xF1300071120CC8FC",
-					["class"] = "MONSTER",
-					["damagetakenspells"] = {
-						[45477] = {
-							["school"] = 16,
-							["sources"] = {
-								["Flocius"] = {
-									["amount"] = 480,
-								},
-							},
-							["amount"] = 480,
-						},
-						[55078] = {
-							["school"] = 32,
-							["sources"] = {
-								["Flocius"] = {
-									["amount"] = 264,
-								},
-							},
-							["amount"] = 264,
-						},
-						[47632] = {
-							["school"] = 32,
-							["sources"] = {
-								["Flocius"] = {
-									["amount"] = 659,
-								},
-							},
-							["amount"] = 659,
-						},
-						[6603] = {
-							["school"] = 1,
-							["sources"] = {
-								["Flocius"] = {
-									["amount"] = 1437,
-								},
-							},
-							["amount"] = 1437,
-						},
-						[45462] = {
-							["school"] = 1,
-							["sources"] = {
-								["Flocius"] = {
-									["amount"] = 584,
-								},
-							},
-							["amount"] = 584,
-						},
-						[45902] = {
-							["school"] = 1,
-							["sources"] = {
-								["Flocius"] = {
-									["amount"] = 578,
-									["overkill"] = 568,
-								},
-							},
-							["amount"] = 578,
-							["overkill"] = 568,
-						},
-						[55095] = {
-							["school"] = 16,
-							["sources"] = {
-								["Flocius"] = {
-									["amount"] = 410,
-									["overkill"] = 66,
-								},
-							},
-							["amount"] = 410,
-							["overkill"] = 66,
-						},
-					},
-					["totaldamage"] = 519,
-					["name"] = "New Avalon Councilman",
-					["totaldamagetaken"] = 4412,
-					["flag"] = 68168,
-					["damage"] = 519,
-				}, -- [1]
-			},
-			["totaldamage"] = 4412,
-			["time"] = 21,
-			["totaldamagetaken"] = 519,
-			["etotaldamagetaken"] = 4412,
-			["last_time"] = 10996.66,
-			["starttime"] = 1689247863,
-			["type"] = "none",
-			["damagetaken"] = 519,
-			["etotaldamage"] = 519,
-			["players"] = {
-				{
-					["last"] = 10996.653,
-					["flag"] = 1297,
-					["class"] = "DEATHKNIGHT",
-					["auras"] = {
-						[55095] = {
-							["type"] = "DEBUFF",
-							["count"] = 2,
-							["school"] = 16,
-							["targets"] = {
-								["New Avalon Councilman"] = {
-									["uptime"] = 12,
-									["count"] = 2,
-								},
-							},
-							["uptime"] = 12,
-						},
-						[55078] = {
-							["type"] = "DEBUFF",
-							["count"] = 2,
-							["school"] = 32,
-							["targets"] = {
-								["New Avalon Councilman"] = {
-									["uptime"] = 10,
-									["count"] = 2,
-								},
-							},
-							["uptime"] = 10,
-						},
-						[64856] = {
-							["school"] = 1,
-							["type"] = "BUFF",
-							["count"] = 2,
-							["uptime"] = 9,
-						},
-						[51915] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 21,
-						},
-						[48266] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 21,
-						},
-					},
-					["totaldamage"] = 4412,
-					["time"] = 17.99,
-					["totaldamagetaken"] = 519,
-					["damage"] = 4412,
-					["overheal"] = 0,
-					["damagetaken"] = 519,
-					["id"] = "0x07000000009742E5",
-					["spec"] = 250,
-					["healspells"] = {
-						[50475] = {
-							["overheal"] = 0,
-							["min"] = 7,
-							["count"] = 10,
-							["amount"] = 122,
-							["school"] = 1,
-							["ishot"] = true,
-							["targets"] = {
-								["Flocius"] = {
-									["overheal"] = 0,
-									["amount"] = 122,
-								},
-							},
-							["max"] = 24,
-						},
-						[48982] = {
-							["overheal"] = 0,
-							["count"] = 1,
-							["amount"] = 374,
-							["school"] = 32,
-							["min"] = 374,
-							["targets"] = {
-								["Flocius"] = {
-									["overheal"] = 0,
-									["amount"] = 374,
-								},
-							},
-							["max"] = 374,
-						},
-					},
-					["damagetakenspells"] = {
-						["Melee"] = {
-							["hitmin"] = 34,
-							["id"] = 6603,
-							["sources"] = {
-								["New Avalon Councilman"] = {
-									["amount"] = 519,
-								},
-							},
-							["PARRY"] = 1,
-							["count"] = 14,
-							["hit"] = 13,
-							["school"] = 1,
-							["amount"] = 519,
-							["hitmax"] = 44,
-							["hitamount"] = 519,
-						},
-					},
-					["heal"] = 496,
-					["name"] = "Flocius",
-					["role"] = "DAMAGER",
-					["damagespells"] = {
-						["Death Coil"] = {
-							["hitmin"] = 329,
-							["id"] = 47632,
-							["targets"] = {
-								["New Avalon Councilman"] = {
-									["amount"] = 659,
-								},
-							},
-							["casts"] = 2,
-							["count"] = 2,
-							["hit"] = 2,
-							["school"] = 32,
-							["hitmax"] = 330,
-							["amount"] = 659,
-							["hitamount"] = 659,
-						},
-						["Melee"] = {
-							["hitmin"] = 260,
-							["criticalamount"] = 614,
-							["id"] = 6603,
-							["targets"] = {
-								["New Avalon Councilman"] = {
-									["amount"] = 1437,
-								},
-							},
-							["count"] = 4,
-							["criticalmin"] = 614,
-							["criticalmax"] = 614,
-							["hitmax"] = 297,
-							["amount"] = 1437,
-							["school"] = 1,
-							["hit"] = 3,
-							["critical"] = 1,
-							["hitamount"] = 823,
-						},
-						["Icy Touch"] = {
-							["hitmin"] = 237,
-							["id"] = 45477,
-							["targets"] = {
-								["New Avalon Councilman"] = {
-									["amount"] = 480,
-								},
-							},
-							["hit"] = 2,
-							["casts"] = 3,
-							["count"] = 3,
-							["amount"] = 480,
-							["school"] = 16,
-							["hitmax"] = 243,
-							["MISS"] = 1,
-							["hitamount"] = 480,
-						},
-						["Blood Strike"] = {
-							["criticalamount"] = 578,
-							["id"] = 45902,
-							["targets"] = {
-								["New Avalon Councilman"] = {
-									["amount"] = 578,
-									["overkill"] = 568,
-								},
-							},
-							["overkill"] = 568,
-							["casts"] = 1,
-							["critical"] = 1,
-							["amount"] = 578,
-							["school"] = 1,
-							["count"] = 1,
-							["criticalmax"] = 578,
-							["criticalmin"] = 578,
-						},
-						["Plague Strike"] = {
-							["criticalamount"] = 402,
-							["hitmin"] = 182,
-							["criticalmin"] = 402,
-							["id"] = 45462,
-							["amount"] = 584,
-							["targets"] = {
-								["New Avalon Councilman"] = {
-									["amount"] = 584,
-								},
-							},
-							["hitmax"] = 182,
-							["count"] = 3,
-							["criticalmax"] = 402,
-							["critical"] = 1,
-							["hit"] = 1,
-							["school"] = 1,
-							["casts"] = 3,
-							["PARRY"] = 1,
-							["hitamount"] = 182,
-						},
-						["Frost Fever (DoT)"] = {
-							["hitmin"] = 82,
-							["id"] = 55095,
-							["targets"] = {
-								["New Avalon Councilman"] = {
-									["amount"] = 410,
-									["overkill"] = 66,
-								},
-							},
-							["overkill"] = 66,
-							["count"] = 5,
-							["hit"] = 5,
-							["school"] = 16,
-							["hitmax"] = 82,
-							["amount"] = 410,
-							["hitamount"] = 410,
-						},
-						["Blood Plague (DoT)"] = {
-							["hitmin"] = 88,
-							["id"] = 55078,
-							["targets"] = {
-								["New Avalon Councilman"] = {
-									["amount"] = 264,
-								},
-							},
-							["count"] = 3,
-							["hit"] = 3,
-							["school"] = 32,
-							["hitmax"] = 88,
-							["amount"] = 264,
-							["hitamount"] = 264,
-						},
-					},
-					["runic"] = 40,
-					["overkill"] = 634,
-					["runicspells"] = {
-						[50163] = 40,
-					},
-				}, -- [1]
-			},
-			["runic"] = 40,
-			["overheal"] = 0,
-			["overkill"] = 634,
-			["edamagetaken"] = 4412,
-			["heal"] = 496,
-			["name"] = "New Avalon Councilman (2)",
-			["mobname"] = "New Avalon Councilman",
-			["damage"] = 4412,
-			["edamage"] = 519,
-			["last_action"] = 1689247883,
-			["endtime"] = 1689247884,
-		}, -- [12]
-		{
-			["enemies"] = {
-				{
-					["damagespells"] = {
-						[6603] = {
-							["school"] = 1,
-							["targets"] = {
-								["Flocius"] = {
-									["amount"] = 272,
-								},
-							},
-							["amount"] = 272,
-						},
-					},
-					["damagetaken"] = 1911,
-					["id"] = "0xF1300071120CC8FD",
-					["class"] = "MONSTER",
-					["damagetakenspells"] = {
-						[55095] = {
-							["school"] = 16,
-							["sources"] = {
-								["Flocius"] = {
-									["amount"] = 328,
-								},
-							},
-							["amount"] = 328,
-						},
-						[55078] = {
-							["school"] = 32,
-							["sources"] = {
-								["Flocius"] = {
-									["amount"] = 351,
-									["overkill"] = 22,
-								},
-							},
-							["amount"] = 351,
-							["overkill"] = 22,
-						},
-						[45462] = {
-							["school"] = 1,
-							["sources"] = {
-								["Flocius"] = {
-									["amount"] = 194,
-								},
-							},
-							["amount"] = 194,
-						},
-						[6603] = {
-							["school"] = 1,
-							["sources"] = {
-								["Flocius"] = {
-									["amount"] = 516,
-								},
-							},
-							["amount"] = 516,
-						},
-						[45902] = {
-							["school"] = 1,
-							["sources"] = {
-								["Flocius"] = {
-									["amount"] = 275,
-								},
-							},
-							["amount"] = 275,
-						},
-						[45477] = {
-							["school"] = 16,
-							["sources"] = {
-								["Flocius"] = {
-									["amount"] = 247,
-								},
-							},
-							["amount"] = 247,
-						},
-					},
-					["totaldamage"] = 272,
-					["name"] = "New Avalon Councilman",
-					["totaldamagetaken"] = 1911,
-					["flag"] = 68168,
-					["damage"] = 272,
-				}, -- [1]
-				{
-					["damagespells"] = {
-						[6603] = {
-							["school"] = 1,
-							["targets"] = {
-								["Flocius"] = {
-									["amount"] = 328,
-								},
-							},
-							["amount"] = 328,
-						},
-					},
-					["damagetaken"] = 2741,
-					["id"] = "0xF1300071110CB537",
-					["class"] = "MONSTER",
-					["damagetakenspells"] = {
-						[55095] = {
-							["school"] = 16,
-							["sources"] = {
-								["Flocius"] = {
-									["amount"] = 247,
-								},
-							},
-							["amount"] = 247,
-						},
-						[55078] = {
-							["school"] = 32,
-							["sources"] = {
-								["Flocius"] = {
-									["amount"] = 176,
-									["overkill"] = 42,
-								},
-							},
-							["amount"] = 176,
-							["overkill"] = 42,
-						},
-						[45462] = {
-							["school"] = 1,
-							["sources"] = {
-								["Flocius"] = {
-									["amount"] = 336,
-								},
-							},
-							["amount"] = 336,
-						},
-						[6603] = {
-							["school"] = 1,
-							["sources"] = {
-								["Flocius"] = {
-									["amount"] = 841,
-								},
-							},
-							["amount"] = 841,
-						},
-						[45477] = {
-							["school"] = 16,
-							["sources"] = {
-								["Flocius"] = {
-									["amount"] = 241,
-								},
-							},
-							["amount"] = 241,
-						},
-						[45902] = {
-							["school"] = 1,
-							["sources"] = {
-								["Flocius"] = {
-									["amount"] = 241,
-								},
-							},
-							["amount"] = 241,
-						},
-						[47632] = {
-							["school"] = 32,
-							["sources"] = {
-								["Flocius"] = {
-									["amount"] = 659,
-								},
-							},
-							["amount"] = 659,
-						},
-					},
-					["totaldamage"] = 328,
-					["name"] = "Mayor Quimby",
-					["totaldamagetaken"] = 2741,
-					["flag"] = 2632,
-					["damage"] = 328,
-				}, -- [2]
-			},
-			["totaldamage"] = 4652,
-			["time"] = 17,
-			["totaldamagetaken"] = 600,
-			["etotaldamagetaken"] = 4652,
-			["last_time"] = 10974.596,
-			["starttime"] = 1689247845,
-			["type"] = "none",
-			["damagetaken"] = 600,
-			["etotaldamage"] = 600,
-			["players"] = {
-				{
-					["last"] = 10974.595,
-					["flag"] = 1297,
-					["class"] = "DEATHKNIGHT",
-					["auras"] = {
-						[55095] = {
-							["type"] = "DEBUFF",
-							["count"] = 2,
-							["school"] = 16,
-							["targets"] = {
-								["New Avalon Councilman"] = {
-									["uptime"] = 14,
-									["count"] = 1,
-								},
-								["Mayor Quimby"] = {
-									["uptime"] = 10,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 14,
-						},
-						[55078] = {
-							["type"] = "DEBUFF",
-							["count"] = 2,
-							["school"] = 32,
-							["targets"] = {
-								["New Avalon Councilman"] = {
-									["uptime"] = 12,
-									["count"] = 1,
-								},
-								["Mayor Quimby"] = {
-									["uptime"] = 6,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 12,
-						},
-						[64856] = {
-							["type"] = "BUFF",
-							["count"] = 2,
-							["school"] = 1,
-							["refresh"] = 4,
-							["uptime"] = 12,
-						},
-						[51915] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 17,
-						},
-						[48266] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 17,
-						},
-					},
-					["totaldamage"] = 4652,
-					["time"] = 16.4,
-					["totaldamagetaken"] = 600,
-					["damage"] = 4652,
-					["overheal"] = 0,
-					["damagetaken"] = 600,
-					["id"] = "0x07000000009742E5",
-					["spec"] = 250,
-					["healspells"] = {
-						[50475] = {
-							["overheal"] = 0,
-							["min"] = 7,
-							["count"] = 13,
-							["amount"] = 136,
-							["school"] = 1,
-							["ishot"] = true,
-							["targets"] = {
-								["Flocius"] = {
-									["overheal"] = 0,
-									["amount"] = 136,
-								},
-							},
-							["max"] = 13,
-						},
-					},
-					["damagetakenspells"] = {
-						["Melee"] = {
-							["criticalmin"] = 84,
-							["hitmin"] = 34,
-							["criticalamount"] = 196,
-							["id"] = 6603,
-							["criticalmax"] = 112,
-							["hitmax"] = 57,
-							["count"] = 13,
-							["hit"] = 9,
-							["PARRY"] = 1,
-							["critical"] = 2,
-							["amount"] = 600,
-							["school"] = 1,
-							["sources"] = {
-								["New Avalon Councilman"] = {
-									["amount"] = 272,
-								},
-								["Mayor Quimby"] = {
-									["amount"] = 328,
-								},
-							},
-							["MISS"] = 1,
-							["hitamount"] = 404,
-						},
-					},
-					["heal"] = 136,
-					["name"] = "Flocius",
-					["role"] = "DAMAGER",
-					["damagespells"] = {
-						["Blood Plague (DoT)"] = {
-							["hitmin"] = 87,
-							["id"] = 55078,
-							["targets"] = {
-								["New Avalon Councilman"] = {
-									["amount"] = 351,
-									["overkill"] = 22,
-								},
-								["Mayor Quimby"] = {
-									["amount"] = 176,
-									["overkill"] = 42,
-								},
-							},
-							["overkill"] = 64,
-							["count"] = 6,
-							["hit"] = 6,
-							["school"] = 32,
-							["hitmax"] = 88,
-							["amount"] = 527,
-							["hitamount"] = 527,
-						},
-						["Melee"] = {
-							["hitmin"] = 257,
-							["id"] = 6603,
-							["targets"] = {
-								["New Avalon Councilman"] = {
-									["amount"] = 516,
-								},
-								["Mayor Quimby"] = {
-									["amount"] = 841,
-								},
-							},
-							["hit"] = 5,
-							["count"] = 5,
-							["blocked"] = 28,
-							["school"] = 1,
-							["amount"] = 1357,
-							["hitmax"] = 289,
-							["hitamount"] = 1357,
-						},
-						["Icy Touch"] = {
-							["hitmin"] = 241,
-							["id"] = 45477,
-							["targets"] = {
-								["New Avalon Councilman"] = {
-									["amount"] = 247,
-								},
-								["Mayor Quimby"] = {
-									["amount"] = 241,
-								},
-							},
-							["casts"] = 2,
-							["count"] = 2,
-							["hit"] = 2,
-							["school"] = 16,
-							["hitmax"] = 247,
-							["amount"] = 488,
-							["hitamount"] = 488,
-						},
-						["Death Coil"] = {
-							["hitmin"] = 329,
-							["id"] = 47632,
-							["targets"] = {
-								["Mayor Quimby"] = {
-									["amount"] = 659,
-								},
-							},
-							["casts"] = 2,
-							["count"] = 2,
-							["hit"] = 2,
-							["school"] = 32,
-							["hitmax"] = 330,
-							["amount"] = 659,
-							["hitamount"] = 659,
-						},
-						["Plague Strike"] = {
-							["DODGE"] = 1,
-							["hitmin"] = 194,
-							["criticalamount"] = 336,
-							["id"] = 45462,
-							["criticalmin"] = 336,
-							["targets"] = {
-								["New Avalon Councilman"] = {
-									["amount"] = 194,
-								},
-								["Mayor Quimby"] = {
-									["amount"] = 336,
-								},
-							},
-							["amount"] = 530,
-							["hitmax"] = 194,
-							["criticalmax"] = 336,
-							["critical"] = 1,
-							["hit"] = 1,
-							["school"] = 1,
-							["count"] = 3,
-							["casts"] = 3,
-							["hitamount"] = 194,
-						},
-						["Frost Fever (DoT)"] = {
-							["hitmin"] = 82,
-							["id"] = 55095,
-							["targets"] = {
-								["New Avalon Councilman"] = {
-									["amount"] = 328,
-								},
-								["Mayor Quimby"] = {
-									["amount"] = 247,
-								},
-							},
-							["count"] = 7,
-							["hit"] = 7,
-							["school"] = 16,
-							["hitmax"] = 83,
-							["amount"] = 575,
-							["hitamount"] = 575,
-						},
-						["Blood Strike"] = {
-							["hitmin"] = 241,
-							["id"] = 45902,
-							["targets"] = {
-								["Mayor Quimby"] = {
-									["amount"] = 241,
-								},
-								["New Avalon Councilman"] = {
-									["amount"] = 275,
-								},
-							},
-							["casts"] = 2,
-							["count"] = 2,
-							["hit"] = 2,
-							["school"] = 1,
-							["hitmax"] = 275,
-							["amount"] = 516,
-							["hitamount"] = 516,
-						},
-					},
-					["runic"] = 40,
-					["overkill"] = 64,
-					["runicspells"] = {
-						[50163] = 40,
-					},
-				}, -- [1]
-			},
-			["runic"] = 40,
-			["overheal"] = 0,
-			["overkill"] = 64,
-			["edamagetaken"] = 4652,
-			["heal"] = 136,
-			["name"] = "New Avalon Councilman",
-			["mobname"] = "New Avalon Councilman",
-			["damage"] = 4652,
-			["edamage"] = 600,
-			["last_action"] = 1689247861,
-			["endtime"] = 1689247862,
-		}, -- [13]
-		{
-			["enemies"] = {
-				{
-					["damagespells"] = {
-						[6603] = {
-							["school"] = 1,
-							["targets"] = {
-								["Flocius"] = {
-									["amount"] = 152,
-								},
-							},
-							["amount"] = 152,
-						},
-					},
-					["damagetaken"] = 2589,
-					["flag"] = 68168,
-					["class"] = "MONSTER",
-					["damagetakenspells"] = {
-						[55095] = {
-							["school"] = 16,
-							["sources"] = {
-								["Flocius"] = {
-									["amount"] = 329,
-								},
-							},
-							["amount"] = 329,
-						},
-						[55078] = {
-							["school"] = 32,
-							["sources"] = {
-								["Flocius"] = {
-									["amount"] = 263,
-								},
-							},
-							["amount"] = 263,
-						},
-						[45462] = {
-							["school"] = 1,
-							["sources"] = {
-								["Flocius"] = {
-									["amount"] = 173,
-								},
-							},
-							["amount"] = 173,
-						},
-						[6603] = {
-							["school"] = 1,
-							["sources"] = {
-								["Flocius"] = {
-									["amount"] = 559,
-								},
-							},
-							["amount"] = 559,
-						},
-						[45477] = {
-							["school"] = 16,
-							["sources"] = {
-								["Flocius"] = {
-									["amount"] = 475,
-								},
-							},
-							["amount"] = 475,
-						},
-						[47632] = {
-							["school"] = 32,
-							["sources"] = {
-								["Flocius"] = {
-									["amount"] = 790,
-									["overkill"] = 56,
-								},
-							},
-							["amount"] = 790,
-							["overkill"] = 56,
-						},
-					},
-					["totaldamage"] = 152,
-					["name"] = "Scarlet Crusader",
-					["totaldamagetaken"] = 2589,
-					["id"] = "0xF13000710C0CC54F",
-					["damage"] = 152,
-				}, -- [1]
-				{
-					["damagespells"] = {
-						[6603] = {
-							["school"] = 1,
-							["targets"] = {
-								["Flocius"] = {
-									["amount"] = 79,
-								},
-							},
-							["amount"] = 79,
-						},
-					},
-					["damagetaken"] = 2092,
-					["flag"] = 68168,
-					["class"] = "MONSTER",
-					["damagetakenspells"] = {
-						[55095] = {
-							["school"] = 16,
-							["sources"] = {
-								["Flocius"] = {
-									["amount"] = 164,
-								},
-							},
-							["amount"] = 164,
-						},
-						[55078] = {
-							["school"] = 32,
-							["sources"] = {
-								["Flocius"] = {
-									["amount"] = 88,
-								},
-							},
-							["amount"] = 88,
-						},
-						[45462] = {
-							["school"] = 1,
-							["sources"] = {
-								["Flocius"] = {
-									["amount"] = 205,
-								},
-							},
-							["amount"] = 205,
-						},
-						[6603] = {
-							["school"] = 1,
-							["sources"] = {
-								["Flocius"] = {
-									["amount"] = 854,
-								},
-							},
-							["amount"] = 854,
-						},
-						[45902] = {
-							["school"] = 1,
-							["sources"] = {
-								["Flocius"] = {
-									["amount"] = 533,
-									["overkill"] = 203,
-								},
-							},
-							["amount"] = 533,
-							["overkill"] = 203,
-						},
-						[45477] = {
-							["school"] = 16,
-							["sources"] = {
-								["Flocius"] = {
-									["amount"] = 248,
-								},
-							},
-							["amount"] = 248,
-						},
-					},
-					["totaldamage"] = 79,
-					["name"] = "New Avalon Councilman",
-					["totaldamagetaken"] = 2092,
-					["id"] = "0xF1300071120CC89A",
-					["damage"] = 79,
-				}, -- [2]
-			},
-			["totaldamage"] = 4681,
-			["time"] = 15,
-			["totaldamagetaken"] = 231,
-			["etotaldamagetaken"] = 4681,
-			["last_time"] = 10955.269,
-			["overheal"] = 0,
-			["type"] = "none",
-			["damagetaken"] = 231,
-			["players"] = {
-				{
-					["last"] = 10955.264,
-					["flag"] = 1297,
-					["class"] = "DEATHKNIGHT",
-					["auras"] = {
-						[55095] = {
-							["type"] = "DEBUFF",
-							["count"] = 2,
-							["school"] = 16,
-							["targets"] = {
-								["Scarlet Crusader"] = {
-									["uptime"] = 13,
-									["count"] = 1,
-								},
-								["New Avalon Councilman"] = {
-									["uptime"] = 6,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 13,
-						},
-						[55078] = {
-							["type"] = "DEBUFF",
-							["count"] = 2,
-							["school"] = 32,
-							["targets"] = {
-								["Scarlet Crusader"] = {
-									["uptime"] = 11,
-									["count"] = 1,
-								},
-								["New Avalon Councilman"] = {
-									["uptime"] = 3,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 11,
-						},
-						[53386] = {
-							["school"] = 16,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 4,
-						},
-						[48266] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 15,
-						},
-						[51915] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 15,
-						},
-						[64856] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["refresh"] = 4,
-							["uptime"] = 6,
-						},
-					},
-					["totaldamage"] = 4681,
-					["time"] = 13.17,
-					["totaldamagetaken"] = 231,
-					["damage"] = 4681,
-					["damagespells"] = {
-						["Blood Plague (DoT)"] = {
-							["hitmin"] = 87,
-							["id"] = 55078,
-							["targets"] = {
-								["Scarlet Crusader"] = {
-									["amount"] = 263,
-								},
-								["New Avalon Councilman"] = {
-									["amount"] = 88,
-								},
-							},
-							["count"] = 4,
-							["hit"] = 4,
-							["school"] = 32,
-							["hitmax"] = 88,
-							["amount"] = 351,
-							["hitamount"] = 351,
-						},
-						["Melee"] = {
-							["hitmin"] = 255,
-							["id"] = 6603,
-							["targets"] = {
-								["Scarlet Crusader"] = {
-									["amount"] = 559,
-								},
-								["New Avalon Councilman"] = {
-									["amount"] = 854,
-								},
-							},
-							["count"] = 5,
-							["hit"] = 5,
-							["school"] = 1,
-							["hitmax"] = 303,
-							["amount"] = 1413,
-							["hitamount"] = 1413,
-						},
-						["Icy Touch"] = {
-							["hitmin"] = 248,
-							["criticalamount"] = 475,
-							["id"] = 45477,
-							["count"] = 2,
-							["targets"] = {
-								["Scarlet Crusader"] = {
-									["amount"] = 475,
-								},
-								["New Avalon Councilman"] = {
-									["amount"] = 248,
-								},
-							},
-							["criticalmax"] = 475,
-							["criticalmin"] = 475,
-							["casts"] = 2,
-							["hitmax"] = 248,
-							["hit"] = 1,
-							["school"] = 16,
-							["amount"] = 723,
-							["critical"] = 1,
-							["hitamount"] = 248,
-						},
-						["Death Coil"] = {
-							["hitmin"] = 395,
-							["id"] = 47632,
-							["targets"] = {
-								["Scarlet Crusader"] = {
-									["amount"] = 790,
-									["overkill"] = 56,
-								},
-							},
-							["overkill"] = 56,
-							["casts"] = 2,
-							["count"] = 2,
-							["hit"] = 2,
-							["school"] = 32,
-							["hitmax"] = 395,
-							["amount"] = 790,
-							["hitamount"] = 790,
-						},
-						["Plague Strike"] = {
-							["DODGE"] = 1,
-							["hitmin"] = 173,
-							["id"] = 45462,
-							["targets"] = {
-								["Scarlet Crusader"] = {
-									["amount"] = 173,
-								},
-								["New Avalon Councilman"] = {
-									["amount"] = 205,
-								},
-							},
-							["casts"] = 3,
-							["count"] = 3,
-							["hit"] = 2,
-							["school"] = 1,
-							["hitmax"] = 205,
-							["amount"] = 378,
-							["hitamount"] = 378,
-						},
-						["Frost Fever (DoT)"] = {
-							["hitmin"] = 82,
-							["id"] = 55095,
-							["targets"] = {
-								["Scarlet Crusader"] = {
-									["amount"] = 329,
-								},
-								["New Avalon Councilman"] = {
-									["amount"] = 164,
-								},
-							},
-							["count"] = 6,
-							["hit"] = 6,
-							["school"] = 16,
-							["hitmax"] = 83,
-							["amount"] = 493,
-							["hitamount"] = 493,
-						},
-						["Blood Strike"] = {
-							["hitmin"] = 259,
-							["id"] = 45902,
-							["targets"] = {
-								["New Avalon Councilman"] = {
-									["amount"] = 533,
-									["overkill"] = 203,
-								},
-							},
-							["overkill"] = 203,
-							["hit"] = 2,
-							["casts"] = 2,
-							["count"] = 2,
-							["blocked"] = 28,
-							["school"] = 1,
-							["amount"] = 533,
-							["hitmax"] = 274,
-							["hitamount"] = 533,
-						},
-					},
-					["damagetaken"] = 231,
-					["id"] = "0x07000000009742E5",
-					["spec"] = 250,
-					["healspells"] = {
-						[50475] = {
-							["overheal"] = 0,
-							["min"] = 2,
-							["count"] = 13,
-							["amount"] = 137,
-							["school"] = 1,
-							["ishot"] = true,
-							["targets"] = {
-								["Flocius"] = {
-									["overheal"] = 0,
-									["amount"] = 137,
-								},
-							},
-							["max"] = 19,
-						},
-					},
-					["damagetakenspells"] = {
-						["Melee"] = {
-							["DODGE"] = 1,
-							["hitmin"] = 39,
-							["id"] = 6603,
-							["sources"] = {
-								["Scarlet Crusader"] = {
-									["amount"] = 152,
-								},
-								["New Avalon Councilman"] = {
-									["amount"] = 79,
-								},
-							},
-							["hit"] = 5,
-							["PARRY"] = 4,
-							["count"] = 11,
-							["amount"] = 231,
-							["school"] = 1,
-							["hitmax"] = 54,
-							["MISS"] = 1,
-							["hitamount"] = 231,
-						},
-					},
-					["heal"] = 137,
-					["name"] = "Flocius",
-					["role"] = "DAMAGER",
-					["overheal"] = 0,
-					["runic"] = 40,
-					["overkill"] = 259,
-					["runicspells"] = {
-						[50163] = 40,
-					},
-				}, -- [1]
-			},
-			["runic"] = 40,
-			["etotaldamage"] = 231,
-			["starttime"] = 1689247829,
-			["overkill"] = 259,
-			["edamagetaken"] = 4681,
-			["heal"] = 137,
-			["name"] = "Scarlet Crusader (4)",
+			["damage"] = 5513,
+			["overkill"] = 285,
+			["edamagetaken"] = 5513,
+			["heal"] = 202,
+			["name"] = "Scarlet Crusader (12)",
 			["mobname"] = "Scarlet Crusader",
-			["damage"] = 4681,
-			["edamage"] = 231,
-			["last_action"] = 1689247842,
-			["endtime"] = 1689247844,
+			["starttime"] = 1689444776,
+			["edamage"] = 202,
+			["last_action"] = 1689444793,
+			["endtime"] = 1689444794,
 		}, -- [14]
 		{
 			["enemies"] = {
 				{
 					["damagespells"] = {
+						[6660] = {
+							["school"] = 1,
+							["targets"] = {
+								["Flocius"] = {
+									["amount"] = 160,
+								},
+							},
+							["amount"] = 160,
+						},
 						[6603] = {
 							["school"] = 1,
 							["targets"] = {
 								["Flocius"] = {
-									["amount"] = 167,
+									["amount"] = 93,
 								},
 							},
-							["amount"] = 167,
+							["amount"] = 93,
 						},
 					},
-					["damagetaken"] = 2984,
-					["id"] = "0xF13000710C0CC3C5",
+					["damagetaken"] = 2052,
+					["flag"] = 68168,
 					["class"] = "MONSTER",
 					["damagetakenspells"] = {
 						[55095] = {
 							["school"] = 16,
 							["sources"] = {
 								["Flocius"] = {
-									["amount"] = 198,
+									["amount"] = 95,
 								},
 							},
-							["amount"] = 198,
+							["amount"] = 95,
 						},
 						[55078] = {
 							["school"] = 32,
 							["sources"] = {
 								["Flocius"] = {
-									["amount"] = 105,
+									["amount"] = 102,
 								},
 							},
-							["amount"] = 105,
-						},
-						[45462] = {
-							["school"] = 1,
-							["sources"] = {
-								["Flocius"] = {
-									["amount"] = 368,
-								},
-							},
-							["amount"] = 368,
-						},
-						[6603] = {
-							["school"] = 1,
-							["sources"] = {
-								["Flocius"] = {
-									["amount"] = 1072,
-									["overkill"] = 370,
-								},
-							},
-							["amount"] = 1072,
-							["overkill"] = 370,
-						},
-						[45477] = {
-							["school"] = 16,
-							["sources"] = {
-								["Flocius"] = {
-									["amount"] = 241,
-								},
-							},
-							["amount"] = 241,
-						},
-						[45902] = {
-							["school"] = 1,
-							["sources"] = {
-								["Flocius"] = {
-									["amount"] = 275,
-								},
-							},
-							["amount"] = 275,
+							["amount"] = 102,
 						},
 						[47632] = {
 							["school"] = 32,
 							["sources"] = {
 								["Flocius"] = {
-									["amount"] = 725,
+									["amount"] = 724,
 								},
 							},
-							["amount"] = 725,
+							["amount"] = 724,
+						},
+						[6603] = {
+							["school"] = 1,
+							["sources"] = {
+								["Flocius"] = {
+									["overkill"] = 26,
+									["amount"] = 453,
+								},
+							},
+							["overkill"] = 26,
+							["amount"] = 453,
+						},
+						[45902] = {
+							["school"] = 1,
+							["sources"] = {
+								["Flocius"] = {
+									["amount"] = 678,
+								},
+							},
+							["amount"] = 678,
 						},
 					},
-					["totaldamage"] = 167,
-					["name"] = "Scarlet Crusader",
-					["totaldamagetaken"] = 2984,
-					["flag"] = 68168,
-					["damage"] = 167,
+					["name"] = "Scarlet Marksman",
+					["totaldamage"] = 253,
+					["totaldamagetaken"] = 2052,
+					["id"] = "0xF130006FC21C4925",
+					["damage"] = 253,
 				}, -- [1]
+				{
+					["damagespells"] = {
+						[6603] = {
+							["school"] = 1,
+							["targets"] = {
+								["Flocius"] = {
+									["amount"] = 96,
+								},
+							},
+							["amount"] = 96,
+						},
+					},
+					["damagetaken"] = 2574,
+					["id"] = "0xF13000710C1B7848",
+					["class"] = "MONSTER",
+					["damagetakenspells"] = {
+						[55095] = {
+							["school"] = 16,
+							["sources"] = {
+								["Flocius"] = {
+									["overkill"] = 41,
+									["amount"] = 192,
+								},
+							},
+							["overkill"] = 41,
+							["amount"] = 192,
+						},
+						[55078] = {
+							["school"] = 32,
+							["sources"] = {
+								["Flocius"] = {
+									["amount"] = 101,
+								},
+							},
+							["amount"] = 101,
+						},
+						[45462] = {
+							["school"] = 1,
+							["sources"] = {
+								["Flocius"] = {
+									["amount"] = 379,
+								},
+							},
+							["amount"] = 379,
+						},
+						[6603] = {
+							["school"] = 1,
+							["sources"] = {
+								["Flocius"] = {
+									["amount"] = 1344,
+								},
+							},
+							["amount"] = 1344,
+						},
+						[49998] = {
+							["school"] = 1,
+							["sources"] = {
+								["Flocius"] = {
+									["amount"] = 293,
+								},
+							},
+							["amount"] = 293,
+						},
+						[45477] = {
+							["school"] = 16,
+							["sources"] = {
+								["Flocius"] = {
+									["amount"] = 265,
+								},
+							},
+							["amount"] = 265,
+						},
+					},
+					["totaldamage"] = 96,
+					["name"] = "Scarlet Crusader",
+					["totaldamagetaken"] = 2574,
+					["flag"] = 2632,
+					["damage"] = 96,
+				}, -- [2]
 			},
-			["totaldamage"] = 2984,
-			["time"] = 11,
-			["totaldamagetaken"] = 167,
-			["etotaldamagetaken"] = 2984,
-			["last_time"] = 10937.631,
-			["starttime"] = 1689247814,
-			["type"] = "none",
-			["damagetaken"] = 167,
-			["etotaldamage"] = 167,
+			["totaldamage"] = 4626,
+			["time"] = 13,
+			["damage"] = 4626,
+			["totaldamagetaken"] = 349,
+			["etotaldamagetaken"] = 4626,
+			["last_time"] = 10103.108,
 			["players"] = {
 				{
-					["last"] = 10937.63,
+					["last"] = 10103.099,
 					["flag"] = 1297,
 					["class"] = "DEATHKNIGHT",
 					["auras"] = {
 						[55095] = {
 							["type"] = "DEBUFF",
-							["count"] = 1,
+							["count"] = 2,
 							["school"] = 16,
 							["targets"] = {
+								["Scarlet Marksman"] = {
+									["uptime"] = 6,
+									["count"] = 1,
+								},
 								["Scarlet Crusader"] = {
-									["uptime"] = 8,
+									["uptime"] = 6,
 									["count"] = 1,
 								},
 							},
-							["uptime"] = 8,
+							["uptime"] = 9,
 						},
 						[55078] = {
 							["type"] = "DEBUFF",
-							["count"] = 1,
+							["count"] = 2,
 							["school"] = 32,
 							["targets"] = {
+								["Scarlet Marksman"] = {
+									["uptime"] = 6,
+									["count"] = 1,
+								},
 								["Scarlet Crusader"] = {
-									["uptime"] = 5,
+									["uptime"] = 4,
 									["count"] = 1,
 								},
 							},
-							["uptime"] = 5,
-						},
-						[53386] = {
-							["school"] = 16,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 4,
+							["uptime"] = 7,
 						},
 						[64856] = {
 							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 3,
+							["count"] = 2,
+							["school"] = 1,
+							["uptime"] = 4,
 						},
 						[51915] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 11,
+							["uptime"] = 13,
 						},
 						[48266] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 11,
+							["uptime"] = 13,
 						},
 					},
-					["totaldamage"] = 2984,
-					["time"] = 10.92,
-					["totaldamagetaken"] = 167,
-					["damage"] = 2984,
-					["overheal"] = 0,
-					["damagetaken"] = 167,
+					["time"] = 11.83,
+					["totaldamagetaken"] = 349,
+					["damage"] = 4626,
+					["damagespells"] = {
+						["Blood Strike"] = {
+							["criticalamount"] = 678,
+							["id"] = 45902,
+							["targets"] = {
+								["Scarlet Marksman"] = {
+									["amount"] = 678,
+								},
+							},
+							["casts"] = 1,
+							["critical"] = 1,
+							["amount"] = 678,
+							["school"] = 1,
+							["criticalmin"] = 678,
+							["criticalmax"] = 678,
+							["count"] = 1,
+						},
+						["Death Strike"] = {
+							["hitmin"] = 293,
+							["id"] = 49998,
+							["targets"] = {
+								["Scarlet Crusader"] = {
+									["amount"] = 293,
+								},
+							},
+							["casts"] = 1,
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 1,
+							["hitmax"] = 293,
+							["amount"] = 293,
+							["hitamount"] = 293,
+						},
+						["Melee"] = {
+							["glance"] = 1209,
+							["criticalamount"] = 588,
+							["id"] = 6603,
+							["criticalmin"] = 588,
+							["glancemax"] = 453,
+							["overkill"] = 26,
+							["glancing"] = 3,
+							["criticalmax"] = 588,
+							["count"] = 4,
+							["amount"] = 1797,
+							["school"] = 1,
+							["critical"] = 1,
+							["targets"] = {
+								["Scarlet Marksman"] = {
+									["overkill"] = 26,
+									["amount"] = 453,
+								},
+								["Scarlet Crusader"] = {
+									["amount"] = 1344,
+								},
+							},
+							["glancemin"] = 374,
+						},
+						["Blood Plague (DoT)"] = {
+							["hitmin"] = 101,
+							["id"] = 55078,
+							["targets"] = {
+								["Scarlet Marksman"] = {
+									["amount"] = 102,
+								},
+								["Scarlet Crusader"] = {
+									["amount"] = 101,
+								},
+							},
+							["count"] = 2,
+							["hit"] = 2,
+							["school"] = 32,
+							["hitmax"] = 102,
+							["amount"] = 203,
+							["hitamount"] = 203,
+						},
+						["Icy Touch"] = {
+							["hitmin"] = 265,
+							["id"] = 45477,
+							["targets"] = {
+								["Scarlet Crusader"] = {
+									["amount"] = 265,
+								},
+							},
+							["casts"] = 1,
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 16,
+							["hitmax"] = 265,
+							["amount"] = 265,
+							["hitamount"] = 265,
+						},
+						["Plague Strike"] = {
+							["criticalamount"] = 379,
+							["id"] = 45462,
+							["targets"] = {
+								["Scarlet Crusader"] = {
+									["amount"] = 379,
+								},
+							},
+							["blocked"] = 27,
+							["casts"] = 1,
+							["critical"] = 1,
+							["amount"] = 379,
+							["school"] = 1,
+							["criticalmin"] = 379,
+							["criticalmax"] = 379,
+							["count"] = 1,
+						},
+						["Frost Fever (DoT)"] = {
+							["hitmin"] = 95,
+							["id"] = 55095,
+							["targets"] = {
+								["Scarlet Marksman"] = {
+									["amount"] = 95,
+								},
+								["Scarlet Crusader"] = {
+									["overkill"] = 41,
+									["amount"] = 192,
+								},
+							},
+							["overkill"] = 41,
+							["count"] = 3,
+							["hit"] = 3,
+							["school"] = 16,
+							["hitmax"] = 96,
+							["amount"] = 287,
+							["hitamount"] = 287,
+						},
+						["Death Coil"] = {
+							["hitmin"] = 362,
+							["id"] = 47632,
+							["targets"] = {
+								["Scarlet Marksman"] = {
+									["amount"] = 724,
+								},
+							},
+							["casts"] = 2,
+							["count"] = 2,
+							["hit"] = 2,
+							["school"] = 32,
+							["hitmax"] = 362,
+							["amount"] = 724,
+							["hitamount"] = 724,
+						},
+					},
+					["runicspells"] = {
+						[50163] = 40,
+					},
+					["damagetaken"] = 349,
 					["id"] = "0x07000000009742E5",
 					["spec"] = 250,
 					["healspells"] = {
 						[50475] = {
-							["overheal"] = 0,
-							["min"] = 6,
-							["count"] = 8,
-							["amount"] = 89,
+							["overheal"] = 62,
+							["max"] = 27,
+							["count"] = 10,
+							["amount"] = 98,
 							["school"] = 1,
+							["min"] = 10,
 							["ishot"] = true,
 							["targets"] = {
 								["Flocius"] = {
-									["overheal"] = 0,
-									["amount"] = 89,
+									["overheal"] = 62,
+									["amount"] = 98,
 								},
 							},
-							["max"] = 15,
+						},
+						[45470] = {
+							["overheal"] = 220,
+							["count"] = 1,
+							["amount"] = 246,
+							["school"] = 1,
+							["max"] = 246,
+							["targets"] = {
+								["Flocius"] = {
+									["overheal"] = 220,
+									["amount"] = 246,
+								},
+							},
+							["min"] = 246,
+						},
+						[50181] = {
+							["overheal"] = 555,
+							["max"] = 5,
+							["count"] = 2,
+							["amount"] = 5,
+							["school"] = 1,
+							["min"] = 5,
+							["targets"] = {
+								["Flocius"] = {
+									["overheal"] = 555,
+									["amount"] = 5,
+								},
+							},
 						},
 					},
 					["damagetakenspells"] = {
 						["Melee"] = {
-							["hitmin"] = 49,
+							["DODGE"] = 2,
+							["hitmin"] = 44,
 							["id"] = 6603,
+							["PARRY"] = 1,
 							["sources"] = {
+								["Scarlet Marksman"] = {
+									["amount"] = 93,
+								},
 								["Scarlet Crusader"] = {
-									["amount"] = 167,
+									["amount"] = 96,
 								},
 							},
-							["hit"] = 3,
-							["PARRY"] = 1,
-							["count"] = 5,
-							["amount"] = 167,
+							["count"] = 7,
+							["hit"] = 4,
 							["school"] = 1,
-							["hitmax"] = 60,
-							["MISS"] = 1,
-							["hitamount"] = 167,
+							["hitmax"] = 51,
+							["amount"] = 189,
+							["hitamount"] = 189,
+						},
+						["Shoot"] = {
+							["hitmin"] = 73,
+							["id"] = 6660,
+							["sources"] = {
+								["Scarlet Marksman"] = {
+									["amount"] = 160,
+								},
+							},
+							["count"] = 2,
+							["hit"] = 2,
+							["school"] = 1,
+							["hitmax"] = 87,
+							["amount"] = 160,
+							["hitamount"] = 160,
 						},
 					},
-					["heal"] = 89,
+					["overkill"] = 67,
+					["heal"] = 349,
 					["name"] = "Flocius",
+					["runic"] = 40,
+					["overheal"] = 837,
+					["totaldamage"] = 4626,
 					["role"] = "DAMAGER",
-					["damagespells"] = {
-						["Death Coil"] = {
-							["hitmin"] = 330,
-							["id"] = 47632,
-							["targets"] = {
-								["Scarlet Crusader"] = {
-									["amount"] = 725,
-								},
-							},
-							["casts"] = 2,
-							["count"] = 2,
-							["hit"] = 2,
-							["school"] = 32,
-							["hitmax"] = 395,
-							["amount"] = 725,
-							["hitamount"] = 725,
-						},
-						["Melee"] = {
-							["criticalamount"] = 536,
-							["hitmin"] = 254,
-							["criticalmin"] = 536,
-							["id"] = 6603,
-							["amount"] = 1072,
-							["targets"] = {
-								["Scarlet Crusader"] = {
-									["amount"] = 1072,
-									["overkill"] = 370,
-								},
-							},
-							["overkill"] = 370,
-							["hitmax"] = 282,
-							["criticalmax"] = 536,
-							["critical"] = 1,
-							["hit"] = 2,
-							["school"] = 1,
-							["count"] = 4,
-							["PARRY"] = 1,
-							["hitamount"] = 536,
-						},
-						["Icy Touch"] = {
-							["hitmin"] = 241,
-							["id"] = 45477,
-							["targets"] = {
-								["Scarlet Crusader"] = {
-									["amount"] = 241,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 16,
-							["hitmax"] = 241,
-							["amount"] = 241,
-							["hitamount"] = 241,
-						},
-						["Blood Strike"] = {
-							["hitmin"] = 275,
-							["id"] = 45902,
-							["targets"] = {
-								["Scarlet Crusader"] = {
-									["amount"] = 275,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 1,
-							["hitmax"] = 275,
-							["amount"] = 275,
-							["hitamount"] = 275,
-						},
-						["Plague Strike"] = {
-							["DODGE"] = 1,
-							["criticalamount"] = 368,
-							["id"] = 45462,
-							["targets"] = {
-								["Scarlet Crusader"] = {
-									["amount"] = 368,
-								},
-							},
-							["casts"] = 2,
-							["critical"] = 1,
-							["amount"] = 368,
-							["school"] = 1,
-							["count"] = 2,
-							["criticalmax"] = 368,
-							["criticalmin"] = 368,
-						},
-						["Frost Fever (DoT)"] = {
-							["hitmin"] = 99,
-							["id"] = 55095,
-							["targets"] = {
-								["Scarlet Crusader"] = {
-									["amount"] = 198,
-								},
-							},
-							["count"] = 2,
-							["hit"] = 2,
-							["school"] = 16,
-							["hitmax"] = 99,
-							["amount"] = 198,
-							["hitamount"] = 198,
-						},
-						["Blood Plague (DoT)"] = {
-							["hitmin"] = 105,
-							["id"] = 55078,
-							["targets"] = {
-								["Scarlet Crusader"] = {
-									["amount"] = 105,
-								},
-							},
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 32,
-							["hitmax"] = 105,
-							["amount"] = 105,
-							["hitamount"] = 105,
-						},
-					},
-					["runic"] = 20,
-					["overkill"] = 370,
-					["runicspells"] = {
-						[50163] = 20,
-					},
 				}, -- [1]
 			},
-			["runic"] = 20,
-			["overheal"] = 0,
-			["overkill"] = 370,
-			["edamagetaken"] = 2984,
-			["heal"] = 89,
-			["name"] = "Scarlet Crusader (3)",
-			["mobname"] = "Scarlet Crusader",
-			["damage"] = 2984,
-			["edamage"] = 167,
-			["last_action"] = 1689247824,
-			["endtime"] = 1689247825,
+			["type"] = "none",
+			["damagetaken"] = 349,
+			["runic"] = 40,
+			["etotaldamage"] = 349,
+			["overheal"] = 837,
+			["overkill"] = 67,
+			["edamagetaken"] = 4626,
+			["heal"] = 349,
+			["name"] = "Scarlet Marksman (13)",
+			["mobname"] = "Scarlet Marksman",
+			["starttime"] = 1689444760,
+			["edamage"] = 349,
+			["last_action"] = 1689444772,
+			["endtime"] = 1689444773,
 		}, -- [15]
 	},
 	["version"] = 1878,
 	["total"] = {
-		["runic"] = 880,
-		["totaldamage"] = 172891,
-		["damagetaken"] = 26466,
-		["overheal"] = 1438,
+		["totaldamage"] = 12267487,
+		["time"] = 1638,
+		["totaldamagetaken"] = 996379,
+		["damage"] = 12267487,
 		["players"] = {
 			{
 				["flag"] = 1297,
 				["class"] = "DEATHKNIGHT",
-				["totaldamage"] = 172891,
-				["time"] = 592.4799999999992,
-				["totaldamagetaken"] = 26466,
-				["damage"] = 172891,
-				["overheal"] = 1438,
-				["damagetaken"] = 26466,
+				["totaldamage"] = 12237531,
+				["time"] = 1146.059999999999,
+				["totaldamagetaken"] = 996379,
+				["damage"] = 12237531,
+				["overheal"] = 254879,
+				["absorb"] = 5809,
+				["damagetaken"] = 990570,
 				["id"] = "0x07000000009742E5",
 				["spec"] = 250,
-				["overkill"] = 14058,
-				["heal"] = 8088,
+				["interrupt"] = 2,
+				["overkill"] = 5974808,
+				["heal"] = 80297,
 				["potion"] = 1,
-				["ccdone"] = 10,
-				["role"] = "DAMAGER",
-				["runic"] = 880,
-				["death"] = 1,
+				["ccdone"] = 17,
 				["name"] = "Flocius",
+				["death"] = 2,
+				["runic"] = 1420,
+				["role"] = "DAMAGER",
 			}, -- [1]
+			{
+				["id"] = "Duke Nicholas Zverenhoff",
+				["class"] = "MONSTER",
+				["name"] = "Duke Nicholas Zverenhoff",
+				["totaldamage"] = 27977,
+				["time"] = 18.01,
+				["flag"] = 68168,
+				["damage"] = 27977,
+			}, -- [2]
+			{
+				["id"] = "Patchwerk",
+				["class"] = "MONSTER",
+				["name"] = "Patchwerk",
+				["totaldamage"] = 1979,
+				["time"] = 6.26,
+				["flag"] = 68168,
+				["damage"] = 1979,
+			}, -- [3]
 		},
-		["starttime"] = 1689245488,
-		["ccdone"] = 10,
-		["overkill"] = 14058,
+		["absorb"] = 5809,
+		["damagetaken"] = 990570,
+		["interrupt"] = 2,
+		["overkill"] = 5974808,
+		["runic"] = 1420,
+		["heal"] = 80297,
 		["name"] = "Total",
-		["heal"] = 8088,
+		["ccdone"] = 17,
+		["overheal"] = 254879,
+		["starttime"] = 1689245488,
+		["death"] = 2,
 		["potion"] = 1,
-		["death"] = 1,
-		["totaldamagetaken"] = 26466,
-		["time"] = 750,
-		["damage"] = 172891,
 	},
 }

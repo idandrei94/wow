@@ -1,10 +1,5 @@
 
 SimpleUnitFramesDB = {
-	["global"] = {
-		["overlayfont"] = {
-			["fontsize"] = 12,
-		},
-	},
 	["profileKeys"] = {
 		["Rimgar - Icecrown"] = "Rimgar - Icecrown",
 		["Praxia - Icecrown"] = "Praxia - Icecrown",
@@ -15,26 +10,31 @@ SimpleUnitFramesDB = {
 		["Noobschmoq - Icecrown"] = "Noobschmoq - Icecrown",
 		["Muiex - Icecrown"] = "Muiex - Icecrown",
 		["Sculamare - Icecrown"] = "Sculamare - Icecrown",
-		["Eutanasie - Icecrown"] = "Eutanasie - Icecrown",
-		["Flocius - Icecrown"] = "Flocius - Icecrown",
+		["Flokus - Icecrown"] = "Flokus - Icecrown",
+		["Drext - Icecrown"] = "Drext - Icecrown",
 		["Aevie - Icecrown"] = "Aevie - Icecrown",
 		["Urgash - Icecrown"] = "Urgash - Icecrown",
-		["Izanagi - Icecrown"] = "Izanagi - Icecrown",
-		["Ulrezaj - Icecrown"] = "Ulrezaj - Icecrown",
-		["Mirceabravo - Icecrown"] = "Mirceabravo - Icecrown",
 		["Kalaam - Icecrown"] = "Kalaam - Icecrown",
-		["Elgorath - Icecrown"] = "Elgorath - Icecrown",
-		["Vrael - Icecrown"] = "Vrael - Icecrown",
-		["Pufarin - Icecrown"] = "Pufarin - Icecrown",
-		["Lingurita - Lordaeron"] = "Lingurita - Lordaeron",
-		["Mirceabravo - Blackrock [PvP only]"] = "Mirceabravo - Blackrock [PvP only]",
-		["Maciucaru - Icecrown"] = "Maciucaru - Icecrown",
-		["Gligor - Icecrown"] = "Gligor - Icecrown",
-		["Rakhnis - Icecrown"] = "Rakhnis - Icecrown",
+		["Ulrezaj - Icecrown"] = "Ulrezaj - Icecrown",
 		["Inarya - Icecrown"] = "Inarya - Icecrown",
 		["Pocaitoru - Icecrown"] = "Pocaitoru - Icecrown",
-		["Drext - Icecrown"] = "Drext - Icecrown",
-		["Flokus - Icecrown"] = "Flokus - Icecrown",
+		["Elgorath - Icecrown"] = "Elgorath - Icecrown",
+		["Rakhnis - Icecrown"] = "Rakhnis - Icecrown",
+		["Lingurita - Lordaeron"] = "Lingurita - Lordaeron",
+		["Gligor - Icecrown"] = "Gligor - Icecrown",
+		["Mirceabravo - Blackrock [PvP only]"] = "Mirceabravo - Blackrock [PvP only]",
+		["Maciucaru - Icecrown"] = "Maciucaru - Icecrown",
+		["Pufarin - Icecrown"] = "Pufarin - Icecrown",
+		["Vrael - Icecrown"] = "Vrael - Icecrown",
+		["Mirceabravo - Icecrown"] = "Mirceabravo - Icecrown",
+		["Izanagi - Icecrown"] = "Izanagi - Icecrown",
+		["Flocius - Icecrown"] = "Flocius - Icecrown",
+		["Eutanasie - Icecrown"] = "Eutanasie - Icecrown",
+	},
+	["global"] = {
+		["overlayfont"] = {
+			["fontsize"] = 12,
+		},
 	},
 	["profiles"] = {
 		["Rimgar - Icecrown"] = {
@@ -42,9 +42,9 @@ SimpleUnitFramesDB = {
 		["Praxia - Icecrown"] = {
 			["pet"] = {
 				["rmp"] = "MPpercent",
-				["mhp"] = "HPcurrmax",
-				["rhp"] = "HPpercent",
 				["mmp"] = "MPcurrmax",
+				["rhp"] = "HPpercent",
+				["mhp"] = "HPcurrmax",
 			},
 		},
 		["Nalar - Icecrown"] = {
@@ -61,45 +61,45 @@ SimpleUnitFramesDB = {
 		},
 		["Sculamare - Icecrown"] = {
 		},
-		["Eutanasie - Icecrown"] = {
+		["Flokus - Icecrown"] = {
 		},
-		["Flocius - Icecrown"] = {
+		["Drext - Icecrown"] = {
 		},
 		["Aevie - Icecrown"] = {
 		},
 		["Urgash - Icecrown"] = {
 		},
-		["Izanagi - Icecrown"] = {
-		},
-		["Ulrezaj - Icecrown"] = {
-		},
-		["Mirceabravo - Icecrown"] = {
-		},
 		["Kalaam - Icecrown"] = {
 		},
-		["Elgorath - Icecrown"] = {
-		},
-		["Vrael - Icecrown"] = {
-		},
-		["Pufarin - Icecrown"] = {
-		},
-		["Lingurita - Lordaeron"] = {
-		},
-		["Mirceabravo - Blackrock [PvP only]"] = {
-		},
-		["Maciucaru - Icecrown"] = {
-		},
-		["Gligor - Icecrown"] = {
-		},
-		["Rakhnis - Icecrown"] = {
+		["Ulrezaj - Icecrown"] = {
 		},
 		["Inarya - Icecrown"] = {
 		},
 		["Pocaitoru - Icecrown"] = {
 		},
-		["Drext - Icecrown"] = {
+		["Elgorath - Icecrown"] = {
 		},
-		["Flokus - Icecrown"] = {
+		["Rakhnis - Icecrown"] = {
+		},
+		["Lingurita - Lordaeron"] = {
+		},
+		["Gligor - Icecrown"] = {
+		},
+		["Mirceabravo - Blackrock [PvP only]"] = {
+		},
+		["Maciucaru - Icecrown"] = {
+		},
+		["Pufarin - Icecrown"] = {
+		},
+		["Vrael - Icecrown"] = {
+		},
+		["Mirceabravo - Icecrown"] = {
+		},
+		["Izanagi - Icecrown"] = {
+		},
+		["Flocius - Icecrown"] = {
+		},
+		["Eutanasie - Icecrown"] = {
 		},
 	},
 }
