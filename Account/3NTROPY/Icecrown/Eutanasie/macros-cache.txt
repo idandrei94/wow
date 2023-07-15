@@ -1,0 +1,71 @@
+MACRO 16777226 "abolish" INV_Misc_QuestionMark
+#showtooltip
+/castsequence reset=3 abolish disease, cure disease, cure disease, cure disease, cure disease, cure disease, cure disease, cure disease, cure disease, cure disease, cure disease,  cure disease
+END
+MACRO 16777229 "asuu" INV_Misc_QuestionMark
+/tar asuu
+END
+MACRO 16777230 "bauble" INV_Misc_QuestionMark
+#showtooltip Bauble of True Blood
+/cast [modifier:alt,target=tyraeld] Bauble of True Blood
+/cast [nomodifier:alt, target=Nalar] Bauble of True Blood
+END
+MACRO 16777219 "dp" INV_Misc_QuestionMark
+#showtooltip devouring plague
+/cast [nochanneling] devouring plague
+END
+MACRO 16777227 "heal" INV_Misc_QuestionMark
+#showtooltip
+/castsequence reset=13 power word: shield, renew, flash heal, flash heal, flash heal, flash heal, flash heal, flash heal
+END
+MACRO 16777231 "horror" INV_Misc_QuestionMark
+#showtooltip psychic horror
+/cast [nomodifier:alt][modifier:alt, target=focus] psychic horror
+END
+MACRO 16777225 "hymn" INV_Misc_QuestionMark
+#showtooltip
+/cast inner focus
+/cast divine hymn
+END
+MACRO 16777221 "mb" INV_Misc_QuestionMark
+#showtooltip mind blast
+/cast [nochanneling] mind blast
+END
+MACRO 16777224 "md" INV_Misc_QuestionMark
+#showtooltip
+/cast !mass dispel
+END
+MACRO 16777218 "mf" INV_Misc_QuestionMark
+#showtooltip mind flay
+/cast [nochanneling] mind flay
+END
+MACRO 16777223 "mount" INV_Misc_QuestionMark
+#showtooltip
+/userandom [flyable] Celestial Steed, Bloodbathed Frostbrood Vanquisher; Celestial Steed
+END
+MACRO 16777228 "renew" INV_Misc_QuestionMark
+#showtooltip
+/castsequence reset=10 prayer of mending, renew,  !shadowform
+END
+MACRO 16777233 "ress" INV_Misc_QuestionMark
+#showtooltip
+/say Tia mi aven Moridin isainde vadin! - The grave is no bar to my call!
+/cast Resurrection
+END
+MACRO 16777217 "sf" INV_Misc_QuestionMark
+#showtooltip shadowform
+/cast !shadowform
+END
+MACRO 16777220 "swp" INV_Misc_QuestionMark
+#showtooltip shadow word: pain
+/cast [nochanneling] shadow word: pain
+END
+MACRO 16777222 "VT" INV_Misc_QuestionMark
+#showtooltip vampiric touch
+/cast [nochanneling] vampiric touch
+END
+MACRO 16777232 "ymn" INV_Misc_QuestionMark
+#showtooltip divine hymn
+/cast inner focus
+/cast divine hymn
+END
