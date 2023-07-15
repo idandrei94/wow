@@ -16,7 +16,7 @@ GladiusDB = {
 		["Izanagi - Icecrown"] = "Izanagi - Icecrown",
 		["Ulrezaj - Icecrown"] = "Ulrezaj - Icecrown",
 		["Drext - Icecrown"] = "Drext - Icecrown",
-		["Kalaam - Icecrown"] = "Kalaam - Icecrown",
+		["Pocaitoru - Icecrown"] = "Pocaitoru - Icecrown",
 		["Elgorath - Icecrown"] = "Elgorath - Icecrown",
 		["Inarya - Icecrown"] = "Inarya - Icecrown",
 		["Praxia - Icecrown"] = "Praxia - Icecrown",
@@ -26,7 +26,7 @@ GladiusDB = {
 		["Maciucaru - Icecrown"] = "Maciucaru - Icecrown",
 		["Nalar - Icecrown"] = "Nalar - Icecrown",
 		["Mirceabravo - Icecrown"] = "Mirceabravo - Icecrown",
-		["Pocaitoru - Icecrown"] = "Pocaitoru - Icecrown",
+		["Kalaam - Icecrown"] = "Kalaam - Icecrown",
 		["Flocius - Icecrown"] = "Flocius - Icecrown",
 		["Eutanasie - Icecrown"] = "Eutanasie - Icecrown",
 	},
@@ -105,10 +105,10 @@ GladiusDB = {
 			["x"] = 1050.499960681949,
 			["y"] = 522.0000221548672,
 		},
-		["Kalaam - Icecrown"] = {
+		["Pocaitoru - Icecrown"] = {
 			["locked"] = true,
-			["x"] = 1094.593424388484,
-			["y"] = 553.2556640183522,
+			["x"] = 1068.283355016582,
+			["y"] = 591.6555710886522,
 		},
 		["Elgorath - Icecrown"] = {
 			["locked"] = true,
@@ -148,10 +148,10 @@ GladiusDB = {
 			["x"] = 1055.500041779703,
 			["y"] = 523.9999425614554,
 		},
-		["Pocaitoru - Icecrown"] = {
+		["Kalaam - Icecrown"] = {
 			["locked"] = true,
-			["x"] = 1068.283355016582,
-			["y"] = 591.6555710886522,
+			["x"] = 1094.593424388484,
+			["y"] = 553.2556640183522,
 		},
 		["Flocius - Icecrown"] = {
 			["y"] = 496.3666070118393,

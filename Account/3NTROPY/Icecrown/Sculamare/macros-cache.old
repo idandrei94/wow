@@ -1,0 +1,34 @@
+MACRO 16777218 "blizz" INV_Misc_QuestionMark
+#showtooltip blizzard
+/cast !blizzard
+END
+MACRO 16777220 "cd" INV_Misc_QuestionMark
+#showtooltip mirror image
+/cast combustion
+/cast icy veins
+/cast arcane power
+/cast mirror image
+END
+MACRO 16777221 "fb" INV_Misc_QuestionMark
+#showtooltip Frostbolt(Rank 1)
+/cast Frostbolt(Rank 1)
+END
+MACRO 16777223 "fpoly" INV_Misc_QuestionMark
+/castrandom [target=focus] Polymorph(Rank 4),Polymorph(Turtle),Polymorph(Pig),Polymorph(Black Cat),Polymorph(Rabbit)
+END
+MACRO 16777219 "ib" INV_Misc_QuestionMark
+#showtooltip ice block
+/cancelaura ice block
+/stopcasting
+/cast ice block
+END
+MACRO 16777222 "poly" INV_Misc_QuestionMark
+/castrandom Polymorph(Rank 4),Polymorph(Turtle),Polymorph(Pig),Polymorph(Black Cat),Polymorph(Rabbit)
+END
+MACRO 16777217 "spellsteal" INV_Misc_QuestionMark
+#showtooltip spellsteal
+/cast spellsteal
+/cancelaura hand of sacrifice
+/cancelaura mana shield
+/cancelaura divine sacrifice
+END
