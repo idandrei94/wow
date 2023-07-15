@@ -46,7 +46,7 @@ RecountPerCharDB = {
 			["LastFightIn"] = 27,
 			["type"] = "Pet",
 			["FightsSaved"] = 5,
-			["LastAbility"] = 9376.255000000001,
+			["LastAbility"] = 14440.891,
 			["Owner"] = "Flocius",
 			["LastEventTimes"] = {
 				10003.155, -- [1]
@@ -111,43 +111,40 @@ RecountPerCharDB = {
 					},
 					["DeathCount"] = 0,
 					["HOT_Time"] = 0,
-					["ElementHitsDone"] = {
+					["HOTs"] = {
 					},
-					["ElementTakenAbsorb"] = {
-					},
+					["ManaGain"] = 0,
 					["ElementTaken"] = {
 					},
 					["DOT_Time"] = 0,
 					["Damage"] = 0,
-					["ElementTakenBlock"] = {
+					["ElementDoneAbsorb"] = {
 					},
 					["TimeHeal"] = 0,
 					["RessedWho"] = {
 					},
 					["Dispels"] = 0,
-					["ElementTakenResist"] = {
-					},
-					["ElementDoneAbsorb"] = {
-					},
-					["FAttacks"] = {
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementDone"] = {
-					},
 					["PartialAbsorb"] = {
 					},
-					["DamagedWho"] = {
+					["RageGain"] = 0,
+					["FAttacks"] = {
 					},
 					["PartialBlock"] = {
 					},
+					["ElementDone"] = {
+					},
+					["CCBroken"] = {
+					},
+					["ElementHitsDone"] = {
+					},
+					["Dispelled"] = 0,
 					["WhoDamaged"] = {
 					},
 					["EnergyGainedFrom"] = {
 					},
-					["PartialResist"] = {
+					["FDamagedWho"] = {
 					},
-					["CCBroken"] = {
+					["RunicPowerGainedFrom"] = {
 					},
 					["ElementDoneBlock"] = {
 					},
@@ -155,48 +152,51 @@ RecountPerCharDB = {
 					},
 					["OverHeals"] = {
 					},
-					["ManaGainedFrom"] = {
-					},
-					["RunicPowerGained"] = {
-					},
-					["CCBreak"] = 0,
 					["RageGained"] = {
 					},
-					["HealedWho"] = {
-					},
+					["ActiveTime"] = 0,
+					["CCBreak"] = 0,
 					["EnergyGain"] = 0,
+					["WhoHealed"] = {
+					},
+					["PartialResist"] = {
+					},
 					["ManaGained"] = {
 					},
-					["FDamage"] = 0,
+					["ElementTakenAbsorb"] = {
+					},
 					["Interrupts"] = 0,
 					["Overhealing"] = 0,
-					["TimeSpent"] = {
-					},
-					["WhoDispelled"] = {
+					["ElementTakenResist"] = {
 					},
 					["InterruptData"] = {
 					},
-					["RunicPowerGain"] = 0,
+					["WhoDispelled"] = {
+					},
+					["TimeSpent"] = {
+					},
 					["Heals"] = {
 					},
-					["WhoHealed"] = {
-					},
+					["FDamage"] = 0,
 					["EnergyGained"] = {
 					},
-					["ActiveTime"] = 0,
-					["Healing"] = 0,
-					["FDamagedWho"] = {
+					["HealedWho"] = {
 					},
-					["Dispelled"] = 0,
+					["Healing"] = 0,
+					["RunicPowerGained"] = {
+					},
+					["ManaGainedFrom"] = {
+					},
 					["Attacks"] = {
 					},
 					["HealingTaken"] = 0,
-					["RageGain"] = 0,
+					["DamagedWho"] = {
+					},
 					["TimeDamage"] = 0,
 					["TimeDamaging"] = {
 					},
-					["ManaGain"] = 0,
-					["HOTs"] = {
+					["RunicPowerGain"] = 0,
+					["ElementTakenBlock"] = {
 					},
 					["DispelledWho"] = {
 					},
@@ -214,43 +214,40 @@ RecountPerCharDB = {
 					},
 					["DeathCount"] = 0,
 					["HOT_Time"] = 0,
-					["ElementHitsDone"] = {
+					["HOTs"] = {
 					},
-					["ElementTakenAbsorb"] = {
-					},
+					["ManaGain"] = 0,
 					["ElementTaken"] = {
 					},
 					["DOT_Time"] = 0,
 					["Damage"] = 0,
-					["ElementTakenBlock"] = {
+					["ElementDoneAbsorb"] = {
 					},
 					["TimeHeal"] = 0,
 					["RessedWho"] = {
 					},
 					["Dispels"] = 0,
-					["ElementTakenResist"] = {
-					},
-					["ElementDoneAbsorb"] = {
-					},
-					["FAttacks"] = {
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementDone"] = {
-					},
 					["PartialAbsorb"] = {
 					},
-					["DamagedWho"] = {
+					["RageGain"] = 0,
+					["FAttacks"] = {
 					},
 					["PartialBlock"] = {
 					},
+					["ElementDone"] = {
+					},
+					["CCBroken"] = {
+					},
+					["ElementHitsDone"] = {
+					},
+					["Dispelled"] = 0,
 					["WhoDamaged"] = {
 					},
 					["EnergyGainedFrom"] = {
 					},
-					["PartialResist"] = {
+					["FDamagedWho"] = {
 					},
-					["CCBroken"] = {
+					["RunicPowerGainedFrom"] = {
 					},
 					["ElementDoneBlock"] = {
 					},
@@ -258,56 +255,56 @@ RecountPerCharDB = {
 					},
 					["OverHeals"] = {
 					},
-					["ManaGainedFrom"] = {
-					},
-					["RunicPowerGained"] = {
-					},
-					["CCBreak"] = 0,
 					["RageGained"] = {
 					},
-					["HealedWho"] = {
-					},
+					["ActiveTime"] = 0,
+					["CCBreak"] = 0,
 					["EnergyGain"] = 0,
+					["WhoHealed"] = {
+					},
+					["PartialResist"] = {
+					},
 					["ManaGained"] = {
 					},
-					["FDamage"] = 0,
+					["ElementTakenAbsorb"] = {
+					},
 					["Interrupts"] = 0,
 					["Overhealing"] = 0,
-					["TimeSpent"] = {
-					},
-					["WhoDispelled"] = {
+					["ElementTakenResist"] = {
 					},
 					["InterruptData"] = {
 					},
-					["RunicPowerGain"] = 0,
+					["WhoDispelled"] = {
+					},
+					["TimeSpent"] = {
+					},
 					["Heals"] = {
 					},
-					["WhoHealed"] = {
-					},
+					["FDamage"] = 0,
 					["EnergyGained"] = {
 					},
-					["ActiveTime"] = 0,
-					["Healing"] = 0,
-					["FDamagedWho"] = {
+					["HealedWho"] = {
 					},
-					["Dispelled"] = 0,
+					["Healing"] = 0,
+					["RunicPowerGained"] = {
+					},
+					["ManaGainedFrom"] = {
+					},
 					["Attacks"] = {
 					},
 					["HealingTaken"] = 0,
-					["RageGain"] = 0,
+					["DamagedWho"] = {
+					},
 					["TimeDamage"] = 0,
 					["TimeDamaging"] = {
 					},
-					["ManaGain"] = 0,
-					["HOTs"] = {
+					["RunicPowerGain"] = 0,
+					["ElementTakenBlock"] = {
 					},
 					["DispelledWho"] = {
 					},
 				},
 				["OverallData"] = {
-					["ElementDone"] = {
-						["Melee"] = 211,
-					},
 					["TimeSpent"] = {
 						["Scarlet Ghost"] = {
 							["Details"] = {
@@ -318,38 +315,6 @@ RecountPerCharDB = {
 							["amount"] = 9.869999999999999,
 						},
 					},
-					["DamagedWho"] = {
-						["Scarlet Ghost"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 211,
-								},
-							},
-							["amount"] = 211,
-						},
-					},
-					["WhoDamaged"] = {
-						["Scarlet Ghost"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 54,
-								},
-							},
-							["amount"] = 54,
-						},
-					},
-					["ElementHitsTaken"] = {
-						["Melee"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 1,
-								},
-							},
-							["amount"] = 1,
-						},
-					},
-					["DamageTaken"] = 54,
-					["TimeDamage"] = 9.869999999999999,
 					["Attacks"] = {
 						["Melee"] = {
 							["Details"] = {
@@ -376,20 +341,6 @@ RecountPerCharDB = {
 							["amount"] = 211,
 						},
 					},
-					["PartialAbsorb"] = {
-						["Melee"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 0,
-						},
-					},
 					["ElementHitsDone"] = {
 						["Melee"] = {
 							["Details"] = {
@@ -406,20 +357,28 @@ RecountPerCharDB = {
 							["amount"] = 7,
 						},
 					},
-					["ActiveTime"] = 9.869999999999999,
-					["TimeDamaging"] = {
+					["WhoDamaged"] = {
 						["Scarlet Ghost"] = {
 							["Details"] = {
 								["Melee"] = {
-									["count"] = 9.869999999999999,
+									["count"] = 54,
 								},
 							},
-							["amount"] = 9.869999999999999,
+							["amount"] = 54,
 						},
 					},
-					["ElementTaken"] = {
-						["Melee"] = 54,
+					["ElementHitsTaken"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 1,
+						},
 					},
+					["DamageTaken"] = 54,
+					["TimeDamage"] = 9.869999999999999,
 					["PartialResist"] = {
 						["Melee"] = {
 							["Details"] = {
@@ -434,6 +393,47 @@ RecountPerCharDB = {
 							["amount"] = 0,
 						},
 					},
+					["DamagedWho"] = {
+						["Scarlet Ghost"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 211,
+								},
+							},
+							["amount"] = 211,
+						},
+					},
+					["PartialAbsorb"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+					},
+					["ActiveTime"] = 9.869999999999999,
+					["TimeDamaging"] = {
+						["Scarlet Ghost"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 9.869999999999999,
+								},
+							},
+							["amount"] = 9.869999999999999,
+						},
+					},
+					["ElementTaken"] = {
+						["Melee"] = 54,
+					},
+					["ElementDone"] = {
+						["Melee"] = 211,
+					},
 					["Damage"] = 211,
 				},
 			},
@@ -442,60 +442,59 @@ RecountPerCharDB = {
 		},
 		["Flocius"] = {
 			["GUID"] = "0x07000000009742E5",
-			["LastAbility"] = 13045.231,
 			["LastEventHealth"] = {
-				"5191 (100%)", -- [1]
-				"5191 (100%)", -- [2]
-				"5191 (100%)", -- [3]
-				"5191 (100%)", -- [4]
-				"5190 (99%)", -- [5]
-				"5189 (99%)", -- [6]
-				"5188 (99%)", -- [7]
-				"5188 (99%)", -- [8]
-				"5188 (99%)", -- [9]
-				"5191 (100%)", -- [10]
-				"5191 (100%)", -- [11]
-				"5191 (100%)", -- [12]
-				"20191 (100%)", -- [13]
-				"4289 (82%)", -- [14]
-				"4317 (83%)", -- [15]
-				"4432 (85%)", -- [16]
-				"4432 (85%)", -- [17]
-				"4662 (89%)", -- [18]
-				"5191 (100%)", -- [19]
-				"5191 (100%)", -- [20]
-				"5191 (100%)", -- [21]
-				"5191 (100%)", -- [22]
-				"5191 (100%)", -- [23]
-				"5191 (100%)", -- [24]
-				"5191 (100%)", -- [25]
-				"5191 (100%)", -- [26]
-				"5191 (100%)", -- [27]
-				"5191 (100%)", -- [28]
-				"5189 (99%)", -- [29]
-				"5191 (100%)", -- [30]
-				"5191 (100%)", -- [31]
-				"5191 (100%)", -- [32]
-				"5191 (100%)", -- [33]
-				"5191 (100%)", -- [34]
-				"5191 (100%)", -- [35]
-				"5189 (99%)", -- [36]
-				"5189 (99%)", -- [37]
-				"5189 (99%)", -- [38]
-				"5189 (99%)", -- [39]
-				"5189 (99%)", -- [40]
-				"5189 (99%)", -- [41]
-				"5191 (100%)", -- [42]
-				"5190 (99%)", -- [43]
-				"5189 (99%)", -- [44]
-				"5189 (99%)", -- [45]
-				"5188 (99%)", -- [46]
-				"5188 (99%)", -- [47]
-				"5188 (99%)", -- [48]
-				"5188 (99%)", -- [49]
-				"5191 (100%)", -- [50]
+				"5231 (100%)", -- [1]
+				"5231 (100%)", -- [2]
+				"5231 (100%)", -- [3]
+				"5231 (100%)", -- [4]
+				"5231 (100%)", -- [5]
+				"5231 (100%)", -- [6]
+				"5231 (100%)", -- [7]
+				"5231 (100%)", -- [8]
+				"5231 (100%)", -- [9]
+				"5231 (100%)", -- [10]
+				"5231 (100%)", -- [11]
+				"5231 (100%)", -- [12]
+				"5231 (100%)", -- [13]
+				"5231 (100%)", -- [14]
+				"5231 (100%)", -- [15]
+				"5231 (100%)", -- [16]
+				"5231 (100%)", -- [17]
+				"5231 (100%)", -- [18]
+				"5231 (100%)", -- [19]
+				"5231 (100%)", -- [20]
+				"5231 (100%)", -- [21]
+				"5231 (100%)", -- [22]
+				"5231 (100%)", -- [23]
+				"5231 (100%)", -- [24]
+				"5231 (100%)", -- [25]
+				"5231 (100%)", -- [26]
+				"5231 (100%)", -- [27]
+				"5231 (100%)", -- [28]
+				"5231 (100%)", -- [29]
+				"5231 (100%)", -- [30]
+				"5231 (100%)", -- [31]
+				"5231 (100%)", -- [32]
+				"5231 (100%)", -- [33]
+				"5231 (100%)", -- [34]
+				"5231 (100%)", -- [35]
+				"5231 (100%)", -- [36]
+				"5231 (100%)", -- [37]
+				"5231 (100%)", -- [38]
+				"5231 (100%)", -- [39]
+				"5231 (100%)", -- [40]
+				"5231 (100%)", -- [41]
+				"5231 (100%)", -- [42]
+				"5231 (100%)", -- [43]
+				"5231 (100%)", -- [44]
+				"5231 (100%)", -- [45]
+				"6015 (100%)", -- [46]
+				"5231 (100%)", -- [47]
+				"5231 (100%)", -- [48]
+				"5231 (100%)", -- [49]
+				"5231 (100%)", -- [50]
 			},
-			["LastAttackedBy"] = "Kobold Tunneler",
+			["LastAttackedBy"] = "Kobold Miner",
 			["LastEventType"] = {
 				"DAMAGE", -- [1]
 				"DAMAGE", -- [2]
@@ -515,7 +514,7 @@ RecountPerCharDB = {
 				"DAMAGE", -- [16]
 				"DAMAGE", -- [17]
 				"DAMAGE", -- [18]
-				"HEAL", -- [19]
+				"DAMAGE", -- [19]
 				"DAMAGE", -- [20]
 				"DAMAGE", -- [21]
 				"DAMAGE", -- [22]
@@ -542,7 +541,7 @@ RecountPerCharDB = {
 				"DAMAGE", -- [43]
 				"DAMAGE", -- [44]
 				"DAMAGE", -- [45]
-				"DAMAGE", -- [46]
+				"HEAL", -- [46]
 				"DAMAGE", -- [47]
 				"DAMAGE", -- [48]
 				"DAMAGE", -- [49]
@@ -550,101 +549,102 @@ RecountPerCharDB = {
 			},
 			["TimeWindows"] = {
 				["TimeHeal"] = {
-					517.3399999999998, -- [1]
+					517.9799999999998, -- [1]
 				},
-				["Interrupts"] = {
-					2, -- [1]
+				["FDamage"] = {
+					1769, -- [1]
 				},
 				["DeathCount"] = {
 					2, -- [1]
 				},
 				["Healing"] = {
-					67949, -- [1]
+					68989, -- [1]
 				},
 				["DamageTaken"] = {
-					994756, -- [1]
+					997630, -- [1]
 				},
 				["Overhealing"] = {
-					244005, -- [1]
+					244011, -- [1]
 				},
-				["ActiveTime"] = {
-					1499.089999999998, -- [1]
+				["TimeDamage"] = {
+					2323.520000000002, -- [1]
 				},
 				["HealingTaken"] = {
-					950060, -- [1]
+					951100, -- [1]
 				},
 				["HOT_Time"] = {
 					2202, -- [1]
 				},
-				["TimeDamage"] = {
-					981.7500000000005, -- [1]
+				["ActiveTime"] = {
+					2841.5, -- [1]
 				},
-				["FDamage"] = {
-					1769, -- [1]
+				["Interrupts"] = {
+					2, -- [1]
 				},
 				["RunicPowerGain"] = {
 					1500, -- [1]
 				},
 				["DOT_Time"] = {
-					2169, -- [1]
+					2271, -- [1]
 				},
 				["Damage"] = {
-					2215203, -- [1]
+					2706754, -- [1]
 				},
 			},
 			["enClass"] = "DEATHKNIGHT",
 			["unit"] = "Flocius",
+			["LastAbility"] = 14440.891,
 			["LastEventTimes"] = {
-				12782.685, -- [1]
-				12802.226, -- [2]
-				12893.788, -- [3]
-				12895.88, -- [4]
-				12897.843, -- [5]
-				12899.833, -- [6]
-				12901.826, -- [7]
-				12903.864, -- [8]
-				12904.301, -- [9]
-				13015.065, -- [10]
-				13025.381, -- [11]
-				13045.231, -- [12]
-				12029.163, -- [13]
-				12593.212, -- [14]
-				12595.457, -- [15]
-				12603.645, -- [16]
-				12603.947, -- [17]
-				12623.022, -- [18]
-				12643.913, -- [19]
-				12647.203, -- [20]
-				12649.837, -- [21]
-				12649.838, -- [22]
-				12658.107, -- [23]
-				12659.736, -- [24]
-				12661.062, -- [25]
-				12661.062, -- [26]
-				12666.307, -- [27]
-				12667.728, -- [28]
-				12669.612, -- [29]
-				12671.903, -- [30]
-				12677.261, -- [31]
-				12677.261, -- [32]
-				12679.286, -- [33]
-				12679.286, -- [34]
-				12679.587, -- [35]
-				12680.311, -- [36]
-				12680.312, -- [37]
-				12680.312, -- [38]
-				12680.313, -- [39]
-				12681.654, -- [40]
-				12682.362, -- [41]
-				12722.87, -- [42]
-				12724.901, -- [43]
-				12725.298, -- [44]
-				12726.877, -- [45]
-				12727.294, -- [46]
-				12727.778, -- [47]
-				12727.778, -- [48]
-				12727.779, -- [49]
-				12733.593, -- [50]
+				8337.683999999999, -- [1]
+				8338.682000000001, -- [2]
+				8339.214, -- [3]
+				8339.215, -- [4]
+				8340.079, -- [5]
+				8341.110000000001, -- [6]
+				8341.679, -- [7]
+				8342.277, -- [8]
+				8342.278, -- [9]
+				8343.108, -- [10]
+				8344.474, -- [11]
+				8344.710000000001, -- [12]
+				8345.239, -- [13]
+				8345.239, -- [14]
+				8346.108, -- [15]
+				8347.701999999999, -- [16]
+				8347.868, -- [17]
+				8348.200000000001, -- [18]
+				8348.200000000001, -- [19]
+				8351.225, -- [20]
+				8351.225, -- [21]
+				8351.291000000001, -- [22]
+				8354.683999999999, -- [23]
+				8358.085000000001, -- [24]
+				8361.486000000001, -- [25]
+				8364.91, -- [26]
+				8368.308000000001, -- [27]
+				8371.764999999999, -- [28]
+				8375.058000000001, -- [29]
+				8378.453, -- [30]
+				8381.91, -- [31]
+				8385.307000000001, -- [32]
+				8387.014000000001, -- [33]
+				8388.573, -- [34]
+				8388.689, -- [35]
+				8390.039000000001, -- [36]
+				8391.599, -- [37]
+				8393.016, -- [38]
+				8394.612000000001, -- [39]
+				8396.074000000001, -- [40]
+				8397.609, -- [41]
+				8399.071, -- [42]
+				8400.598, -- [43]
+				8402.022000000001, -- [44]
+				8403.605, -- [45]
+				14481.179, -- [46]
+				8334.290000000001, -- [47]
+				8335.723, -- [48]
+				8336.06, -- [49]
+				8337.117, -- [50]
 			},
 			["DeathLogs"] = {
 				{
@@ -1302,21 +1302,9 @@ RecountPerCharDB = {
 			},
 			["level"] = 55,
 			["LastDamageAbility"] = "Melee",
-			["LastFightIn"] = 96,
+			["LastFightIn"] = 134,
 			["LastEventNum"] = {
-				nil, -- [1]
-				nil, -- [2]
-				nil, -- [3]
-				0.01926411096127914, -- [4]
-				0.01926411096127914, -- [5]
-				0.01926411096127914, -- [6]
-				[14] = 17.37622808707378,
-				[19] = 19.99614717780774,
-				[28] = 0.03852822192255827,
-				[35] = 0.03852822192255827,
-				[42] = 0.01926411096127914,
-				[43] = 0.01926411096127914,
-				[45] = 0.01926411096127914,
+				[46] = 26.96591853699086,
 			},
 			["type"] = "Self",
 			["FightsSaved"] = 5,
@@ -1354,7 +1342,7 @@ RecountPerCharDB = {
 					},
 				},
 			},
-			["LastDamageTaken"] = 1,
+			["LastDamageTaken"] = 2,
 			["Owner"] = false,
 			["Pet"] = {
 				"Eye of Acherus <Flocius>", -- [1]
@@ -1364,26 +1352,26 @@ RecountPerCharDB = {
 				"Risen Ghoul <Flocius>", -- [5]
 				"Frostbrood Vanquisher <Flocius>", -- [6]
 			},
-			["NextEventNum"] = 13,
+			["NextEventNum"] = 47,
 			["LastEventHealthNum"] = {
 				100, -- [1]
 				100, -- [2]
 				100, -- [3]
 				100, -- [4]
-				99.98073588903873, -- [5]
-				99.96147177807744, -- [6]
-				99.94220766711617, -- [7]
-				99.94220766711617, -- [8]
-				99.94220766711617, -- [9]
+				100, -- [5]
+				100, -- [6]
+				100, -- [7]
+				100, -- [8]
+				100, -- [9]
 				100, -- [10]
 				100, -- [11]
 				100, -- [12]
 				100, -- [13]
-				82.62377191292622, -- [14]
-				83.16316701984204, -- [15]
-				85.37853978038913, -- [16]
-				85.37853978038913, -- [17]
-				89.80928530148334, -- [18]
+				100, -- [14]
+				100, -- [15]
+				100, -- [16]
+				100, -- [17]
+				100, -- [18]
 				100, -- [19]
 				100, -- [20]
 				100, -- [21]
@@ -1394,128 +1382,128 @@ RecountPerCharDB = {
 				100, -- [26]
 				100, -- [27]
 				100, -- [28]
-				99.96147177807744, -- [29]
+				100, -- [29]
 				100, -- [30]
 				100, -- [31]
 				100, -- [32]
 				100, -- [33]
 				100, -- [34]
 				100, -- [35]
-				99.96147177807744, -- [36]
-				99.96147177807744, -- [37]
-				99.96147177807744, -- [38]
-				99.96147177807744, -- [39]
-				99.96147177807744, -- [40]
-				99.96147177807744, -- [41]
+				100, -- [36]
+				100, -- [37]
+				100, -- [38]
+				100, -- [39]
+				100, -- [40]
+				100, -- [41]
 				100, -- [42]
-				99.98073588903873, -- [43]
-				99.96147177807744, -- [44]
-				99.96147177807744, -- [45]
-				99.94220766711617, -- [46]
-				99.94220766711617, -- [47]
-				99.94220766711617, -- [48]
-				99.94220766711617, -- [49]
+				100, -- [43]
+				100, -- [44]
+				100, -- [45]
+				100, -- [46]
+				100, -- [47]
+				100, -- [48]
+				100, -- [49]
 				100, -- [50]
 			},
 			["LastEvents"] = {
-				"Flocius Icy Touch Kobold Tunneler Hit -298 (Frost)", -- [1]
-				"Flocius Icy Touch Kobold Tunneler Hit -308 (Frost)", -- [2]
-				"Kobold Tunneler Melee Flocius Dodge", -- [3]
-				"Kobold Tunneler Melee Flocius Hit -1 (Physical)", -- [4]
-				"Kobold Tunneler Melee Flocius Hit -1 (Physical)", -- [5]
-				"Kobold Tunneler Melee Flocius Hit -1 (Physical)", -- [6]
-				"Kobold Tunneler Melee Flocius Parry", -- [7]
-				"Kobold Tunneler Melee Flocius Dodge", -- [8]
-				"Flocius Melee Kobold Tunneler Glancing -3943 (Physical)", -- [9]
-				"Flocius Icy Touch Kobold Tunneler Hit -308 (Frost)", -- [10]
-				"Flocius Melee Kobold Tunneler Glancing -3584 (Physical)", -- [11]
-				"Flocius Icy Touch Kobold Tunneler Hit -299 (Frost)", -- [12]
-				"Flocius Death Strike Patchwerk Hit -1899 (Physical)", -- [13]
-				"Environment Falling Flocius Hit -902 (Physical)", -- [14]
-				"Flocius Icy Touch Kobold Tunneler Crit -614 (Frost)", -- [15]
-				"Kobold Tunneler Melee Flocius Dodge", -- [16]
-				"Flocius Melee Kobold Tunneler Glancing -3509 (Physical)", -- [17]
-				"Flocius Melee Kobold Miner Crit -996 (Physical)", -- [18]
-				"Flocius Rune Tap Flocius Hit +1038 (797 overheal)", -- [19]
-				"Flocius Icy Touch Kobold Miner Hit -303 (Frost)", -- [20]
-				"Flocius Blood Boil Kobold Miner Hit -223 (Shadow)", -- [21]
-				"Flocius Blood Boil Kobold Miner Hit -221 (Shadow)", -- [22]
-				"Flocius Melee Kobold Miner Crit -1020 (Physical)", -- [23]
-				"Kobold Tunneler Melee Flocius Dodge", -- [24]
-				"Flocius Blood Boil Kobold Tunneler Hit -238 (Shadow)", -- [25]
-				"Flocius Blood Boil Kobold Tunneler Hit -230 (Shadow)", -- [26]
-				"Flocius Melee Kobold Miner Crit -976 (Physical)", -- [27]
-				"Kobold Miner Melee Flocius Hit -2 (Physical)", -- [28]
-				"Flocius Melee Kobold Miner Crit -980 (Physical)", -- [29]
-				"Flocius Icy Touch Kobold Miner Hit -309 (Frost)", -- [30]
-				"Kobold Miner Melee Flocius Dodge", -- [31]
-				"Kobold Tunneler Melee Flocius Dodge", -- [32]
-				"Kobold Miner Melee Flocius Dodge", -- [33]
-				"Kobold Tunneler Melee Flocius Parry", -- [34]
-				"Narg the Taskmaster Melee Flocius Hit -2 (Physical)", -- [35]
-				"Flocius Blood Boil Narg the Taskmaster Hit -250 (Shadow)", -- [36]
-				"Flocius Blood Boil Kobold Miner Hit -263 (Shadow)", -- [37]
-				"Flocius Blood Boil Kobold Tunneler Hit -249 (Shadow)", -- [38]
-				"Flocius Blood Boil Kobold Miner Hit -253 (Shadow)", -- [39]
-				"Narg the Taskmaster Melee Flocius Dodge", -- [40]
-				"Flocius Melee Narg the Taskmaster Crit -1180 (Physical)", -- [41]
-				"Kobold Tunneler Melee Flocius Hit -1 (Physical)", -- [42]
-				"Kobold Tunneler Melee Flocius Hit -1 (Physical)", -- [43]
-				"Kobold Tunneler Melee Flocius Dodge", -- [44]
-				"Kobold Tunneler Melee Flocius Hit -1 (Physical)", -- [45]
-				"Kobold Tunneler Melee Flocius Miss", -- [46]
-				"Flocius Blood Boil Kobold Tunneler Hit -236 (Shadow)", -- [47]
-				"Flocius Blood Boil Kobold Tunneler Hit -237 (Shadow)", -- [48]
-				"Flocius Blood Boil Kobold Tunneler Hit -235 (Shadow)", -- [49]
-				"Flocius Melee Kobold Tunneler Crit -1090 (Physical)", -- [50]
+				"Flocius Melee Expert's Training Dummy Glancing -245 (Physical)", -- [1]
+				"Flocius Blood Plague (DoT) Expert's Training Dummy Tick -111 (Shadow)", -- [2]
+				"Flocius Blood Plague (DoT) Expert's Training Dummy Tick -89 (22 resisted) (Shadow)", -- [3]
+				"Flocius Frost Fever (DoT) Expert's Training Dummy Tick -106 (Frost)", -- [4]
+				"Flocius Frost Fever (DoT) Expert's Training Dummy Tick -106 (Frost)", -- [5]
+				"Flocius Melee Expert's Training Dummy Crit -682 (Physical)", -- [6]
+				"Flocius Blood Plague (DoT) Expert's Training Dummy Tick -110 (Shadow)", -- [7]
+				"Flocius Blood Plague (DoT) Expert's Training Dummy Tick -88 (22 resisted) (Shadow)", -- [8]
+				"Flocius Frost Fever (DoT) Expert's Training Dummy Tick -106 (Frost)", -- [9]
+				"Flocius Frost Fever (DoT) Expert's Training Dummy Tick -106 (Frost)", -- [10]
+				"Flocius Melee Expert's Training Dummy Hit -317 (Physical)", -- [11]
+				"Flocius Blood Plague (DoT) Expert's Training Dummy Tick -99 (11 resisted) (Shadow)", -- [12]
+				"Flocius Blood Plague (DoT) Expert's Training Dummy Tick -100 (11 resisted) (Shadow)", -- [13]
+				"Flocius Frost Fever (DoT) Expert's Training Dummy Tick -105 (Frost)", -- [14]
+				"Flocius Frost Fever (DoT) Expert's Training Dummy Tick -106 (Frost)", -- [15]
+				"Flocius Blood Plague (DoT) Expert's Training Dummy Tick -99 (11 resisted) (Shadow)", -- [16]
+				"Flocius Melee Expert's Training Dummy Hit -347 (Physical)", -- [17]
+				"Flocius Blood Plague (DoT) Expert's Training Dummy Tick -100 (11 resisted) (Shadow)", -- [18]
+				"Flocius Frost Fever (DoT) Expert's Training Dummy Tick -106 (Frost)", -- [19]
+				"Flocius Blood Plague (DoT) Expert's Training Dummy Tick -100 (11 resisted) (Shadow)", -- [20]
+				"Flocius Frost Fever (DoT) Expert's Training Dummy Tick -96 (10 resisted) (Frost)", -- [21]
+				"Flocius Melee Expert's Training Dummy Hit -320 (Physical)", -- [22]
+				"Flocius Melee Expert's Training Dummy Hit -334 (Physical)", -- [23]
+				"Flocius Melee Expert's Training Dummy Parry", -- [24]
+				"Flocius Melee Expert's Training Dummy Crit -640 (Physical)", -- [25]
+				"Flocius Melee Expert's Training Dummy Miss", -- [26]
+				"Flocius Melee Expert's Training Dummy Glancing -272 (Physical)", -- [27]
+				"Flocius Melee Expert's Training Dummy Glancing -268 (Physical)", -- [28]
+				"Flocius Melee Expert's Training Dummy Glancing -276 (Physical)", -- [29]
+				"Flocius Melee Expert's Training Dummy Dodge", -- [30]
+				"Flocius Melee Expert's Training Dummy Hit -302 (Physical)", -- [31]
+				"Flocius Melee Expert's Training Dummy Dodge", -- [32]
+				"Flocius Icy Touch Expert's Training Dummy Hit -298 (Frost)", -- [33]
+				"Flocius Plague Strike Expert's Training Dummy Hit -193 (Physical)", -- [34]
+				"Flocius Melee Expert's Training Dummy Hit -302 (Physical)", -- [35]
+				"Flocius Frost Fever (DoT) Expert's Training Dummy Tick -105 (Frost)", -- [36]
+				"Flocius Blood Plague (DoT) Expert's Training Dummy Tick -100 (11 resisted) (Shadow)", -- [37]
+				"Flocius Frost Fever (DoT) Expert's Training Dummy Tick -106 (Frost)", -- [38]
+				"Flocius Blood Plague (DoT) Expert's Training Dummy Tick -110 (Shadow)", -- [39]
+				"Flocius Frost Fever (DoT) Expert's Training Dummy Tick -106 (Frost)", -- [40]
+				"Flocius Blood Plague (DoT) Expert's Training Dummy Tick -100 (11 resisted) (Shadow)", -- [41]
+				"Flocius Frost Fever (DoT) Expert's Training Dummy Tick -105 (Frost)", -- [42]
+				"Flocius Blood Plague (DoT) Expert's Training Dummy Tick -111 (Shadow)", -- [43]
+				"Flocius Frost Fever (DoT) Expert's Training Dummy Tick -106 (Frost)", -- [44]
+				"Flocius Blood Plague (DoT) Expert's Training Dummy Tick -111 (Shadow)", -- [45]
+				"Flocius Rune Tap Flocius Hit +1622 (530 overheal)", -- [46]
+				"Flocius Melee Expert's Training Dummy Hit -314 (Physical)", -- [47]
+				"Flocius Blood Plague (DoT) Expert's Training Dummy Tick -88 (22 resisted) (Shadow)", -- [48]
+				"Flocius Pestilence Grandmaster's Training Dummy Miss (Shadow)", -- [49]
+				"Flocius Frost Fever (DoT) Expert's Training Dummy Tick -106 (Frost)", -- [50]
 			},
 			["Name"] = "Flocius",
 			["LastEventIncoming"] = {
 				false, -- [1]
 				false, -- [2]
-				true, -- [3]
-				true, -- [4]
-				true, -- [5]
-				true, -- [6]
-				true, -- [7]
-				true, -- [8]
+				false, -- [3]
+				false, -- [4]
+				false, -- [5]
+				false, -- [6]
+				false, -- [7]
+				false, -- [8]
 				false, -- [9]
 				false, -- [10]
 				false, -- [11]
 				false, -- [12]
 				false, -- [13]
-				true, -- [14]
+				false, -- [14]
 				false, -- [15]
-				true, -- [16]
+				false, -- [16]
 				false, -- [17]
 				false, -- [18]
-				true, -- [19]
+				false, -- [19]
 				false, -- [20]
 				false, -- [21]
 				false, -- [22]
 				false, -- [23]
-				true, -- [24]
+				false, -- [24]
 				false, -- [25]
 				false, -- [26]
 				false, -- [27]
-				true, -- [28]
+				false, -- [28]
 				false, -- [29]
 				false, -- [30]
-				true, -- [31]
-				true, -- [32]
-				true, -- [33]
-				true, -- [34]
-				true, -- [35]
+				false, -- [31]
+				false, -- [32]
+				false, -- [33]
+				false, -- [34]
+				false, -- [35]
 				false, -- [36]
 				false, -- [37]
 				false, -- [38]
 				false, -- [39]
-				true, -- [40]
+				false, -- [40]
 				false, -- [41]
-				true, -- [42]
-				true, -- [43]
-				true, -- [44]
-				true, -- [45]
+				false, -- [42]
+				false, -- [43]
+				false, -- [44]
+				false, -- [45]
 				true, -- [46]
 				false, -- [47]
 				false, -- [48]
@@ -1523,271 +1511,28 @@ RecountPerCharDB = {
 				false, -- [50]
 			},
 			["TimeLast"] = {
-				["TimeHeal"] = 1689446697,
-				["Interrupts"] = 1689445973,
-				["OVERALL"] = 1689447713,
+				["TimeHeal"] = 1689455046,
+				["OVERALL"] = 1689456197,
+				["TimeDamage"] = 1689456197,
 				["DeathCount"] = 1689445680,
-				["Healing"] = 1689446697,
-				["DamageTaken"] = 1689447568,
-				["Overhealing"] = 1689446697,
-				["HOT_Time"] = 1689446697,
-				["HealingTaken"] = 1689446697,
+				["Healing"] = 1689455046,
+				["DamageTaken"] = 1689455223,
 				["FDamage"] = 1689434347,
-				["TimeDamage"] = 1689447713,
-				["ActiveTime"] = 1689447713,
+				["Interrupts"] = 1689445973,
+				["HealingTaken"] = 1689455046,
+				["HOT_Time"] = 1689446697,
+				["ActiveTime"] = 1689456197,
+				["Overhealing"] = 1689455046,
 				["RunicPowerGain"] = 1689445971,
-				["DOT_Time"] = 1689446694,
-				["Damage"] = 1689447713,
+				["DOT_Time"] = 1689456197,
+				["Damage"] = 1689456197,
 			},
 			["Fights"] = {
-				["Fight5"] = {
+				["Fight3"] = {
 					["DOTs"] = {
 						["Frost Fever (DoT)"] = {
 							["Details"] = {
-								["Scourge Necromancer"] = {
-									["count"] = 3,
-								},
-							},
-							["amount"] = 3,
-						},
-					},
-					["ElementDoneResist"] = {
-					},
-					["Ressed"] = 0,
-					["DamageTaken"] = 0,
-					["RageGainedFrom"] = {
-					},
-					["ElementHitsTaken"] = {
-					},
-					["DeathCount"] = 0,
-					["HOT_Time"] = 0,
-					["ElementHitsDone"] = {
-						["Frost"] = {
-							["Details"] = {
-								["Tick"] = {
-									["count"] = 1,
-								},
-								["Hit"] = {
-									["count"] = 1,
-								},
-							},
-							["amount"] = 2,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 1,
-								},
-							},
-							["amount"] = 1,
-						},
-						["Physical"] = {
-							["Details"] = {
-								["Crit"] = {
-									["count"] = 1,
-								},
-							},
-							["amount"] = 1,
-						},
-					},
-					["ElementTakenAbsorb"] = {
-					},
-					["ElementTaken"] = {
-					},
-					["DOT_Time"] = 3,
-					["Damage"] = 6652,
-					["ElementTakenBlock"] = {
-					},
-					["TimeHeal"] = 0,
-					["RessedWho"] = {
-					},
-					["Dispels"] = 0,
-					["ElementTakenResist"] = {
-					},
-					["ElementDoneAbsorb"] = {
-					},
-					["FAttacks"] = {
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementDone"] = {
-						["Frost"] = 2413,
-						["Melee"] = 1909,
-						["Physical"] = 2330,
-					},
-					["PartialAbsorb"] = {
-					},
-					["DamagedWho"] = {
-						["Scourge Necromancer"] = {
-							["Details"] = {
-								["Icy Touch"] = {
-									["count"] = 1807,
-								},
-								["Plague Strike"] = {
-									["count"] = 2330,
-								},
-								["Melee"] = {
-									["count"] = 1909,
-								},
-								["Frost Fever (DoT)"] = {
-									["count"] = 606,
-								},
-							},
-							["amount"] = 6652,
-						},
-					},
-					["PartialBlock"] = {
-					},
-					["WhoDamaged"] = {
-					},
-					["EnergyGainedFrom"] = {
-					},
-					["PartialResist"] = {
-					},
-					["CCBroken"] = {
-					},
-					["ElementDoneBlock"] = {
-					},
-					["TimeHealing"] = {
-					},
-					["OverHeals"] = {
-					},
-					["ManaGainedFrom"] = {
-					},
-					["RunicPowerGained"] = {
-					},
-					["CCBreak"] = 0,
-					["RageGained"] = {
-					},
-					["HealedWho"] = {
-					},
-					["EnergyGain"] = 0,
-					["ManaGained"] = {
-					},
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
-					["Overhealing"] = 0,
-					["TimeSpent"] = {
-						["Scourge Necromancer"] = {
-							["Details"] = {
-								["Icy Touch"] = {
-									["count"] = 3.5,
-								},
-								["Plague Strike"] = {
-									["count"] = 0.74,
-								},
-								["Melee"] = {
-									["count"] = 0.6800000000000001,
-								},
-								["Frost Fever (DoT)"] = {
-									["count"] = 1.61,
-								},
-							},
-							["amount"] = 6.53,
-						},
-					},
-					["WhoDispelled"] = {
-					},
-					["InterruptData"] = {
-					},
-					["RunicPowerGain"] = 0,
-					["Heals"] = {
-					},
-					["WhoHealed"] = {
-					},
-					["EnergyGained"] = {
-					},
-					["ActiveTime"] = 6.53,
-					["Healing"] = 0,
-					["FDamagedWho"] = {
-					},
-					["Dispelled"] = 0,
-					["Attacks"] = {
-						["Icy Touch"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 1807,
-									["min"] = 1807,
-									["count"] = 1,
-									["amount"] = 1807,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 1807,
-						},
-						["Plague Strike"] = {
-							["Details"] = {
-								["Crit"] = {
-									["max"] = 2330,
-									["min"] = 2330,
-									["count"] = 1,
-									["amount"] = 2330,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 2330,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 1909,
-									["min"] = 1909,
-									["count"] = 1,
-									["amount"] = 1909,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 1909,
-						},
-						["Frost Fever (DoT)"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 606,
-									["min"] = 606,
-									["count"] = 1,
-									["amount"] = 606,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 606,
-						},
-					},
-					["HealingTaken"] = 0,
-					["RageGain"] = 0,
-					["TimeDamage"] = 6.53,
-					["TimeDamaging"] = {
-						["Scourge Necromancer"] = {
-							["Details"] = {
-								["Icy Touch"] = {
-									["count"] = 3.5,
-								},
-								["Plague Strike"] = {
-									["count"] = 0.74,
-								},
-								["Melee"] = {
-									["count"] = 0.6800000000000001,
-								},
-								["Frost Fever (DoT)"] = {
-									["count"] = 1.61,
-								},
-							},
-							["amount"] = 6.53,
-						},
-					},
-					["ManaGain"] = 0,
-					["HOTs"] = {
-					},
-					["DispelledWho"] = {
-					},
-				},
-				["Fight2"] = {
-					["DOTs"] = {
-						["Frost Fever (DoT)"] = {
-							["Details"] = {
-								["Terrifying Abomination"] = {
-									["count"] = 0,
-								},
-								["Scourge Necromancer"] = {
+								["Patchwerk"] = {
 									["count"] = 0,
 								},
 							},
@@ -1795,7 +1540,7 @@ RecountPerCharDB = {
 						},
 						["Blood Plague (DoT)"] = {
 							["Details"] = {
-								["Scourge Necromancer"] = {
+								["Patchwerk"] = {
 									["count"] = 0,
 								},
 							},
@@ -1803,886 +1548,307 @@ RecountPerCharDB = {
 						},
 					},
 					["ElementDoneResist"] = {
-						["Frost"] = 0,
-					},
-					["Ressed"] = 0,
-					["DamageTaken"] = 3,
-					["RageGainedFrom"] = {
-					},
-					["ElementHitsTaken"] = {
-						["Physical"] = {
-							["Details"] = {
-								["Dodge"] = {
-									["count"] = 0,
-								},
-								["Hit"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["Miss"] = {
-									["count"] = 1,
-								},
-								["Parry"] = {
-									["count"] = 0,
-								},
-								["Dodge"] = {
-									["count"] = 1,
-								},
-								["Hit"] = {
-									["count"] = 3,
-								},
-							},
-							["amount"] = 5,
-						},
-						["Shadow"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["DeathCount"] = 0,
-					["HOT_Time"] = 0,
-					["ElementHitsDone"] = {
-						["Shadow"] = {
-							["Details"] = {
-								["Tick"] = {
-									["count"] = 0,
-								},
-								["Hit"] = {
-									["count"] = 3,
-								},
-							},
-							["amount"] = 3,
-						},
-						["Frost"] = {
-							["Details"] = {
-								["Tick"] = {
-									["count"] = 0,
-								},
-								["Crit"] = {
-									["count"] = 0,
-								},
-								["Hit"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["Glancing"] = {
-									["count"] = 0,
-								},
-								["Crit"] = {
-									["count"] = 0,
-								},
-								["Hit"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Physical"] = {
-							["Details"] = {
-								["Crit"] = {
-									["count"] = 0,
-								},
-								["Hit"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["ElementTakenAbsorb"] = {
-					},
-					["ElementTaken"] = {
-						["Physical"] = 0,
-						["Melee"] = 3,
 						["Shadow"] = 0,
-					},
-					["DOT_Time"] = 0,
-					["Damage"] = 708,
-					["ElementTakenBlock"] = {
-					},
-					["TimeHeal"] = 0,
-					["RessedWho"] = {
-					},
-					["Dispels"] = 0,
-					["ElementTakenResist"] = {
-					},
-					["ElementDoneAbsorb"] = {
-					},
-					["FAttacks"] = {
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementDone"] = {
-						["Shadow"] = 708,
 						["Frost"] = 0,
-						["Melee"] = 0,
-						["Physical"] = 0,
-					},
-					["PartialAbsorb"] = {
-						["Cleave"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Scourge Hook"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 5,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 5,
-							["amount"] = 0,
-						},
-						["Shadow Bolt"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["DamagedWho"] = {
-						["Terrifying Abomination"] = {
-							["Details"] = {
-								["Blood Strike"] = {
-									["count"] = 0,
-								},
-								["Death Coil"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Frost Fever (DoT)"] = {
-									["count"] = 0,
-								},
-								["Icy Touch"] = {
-									["count"] = 0,
-								},
-								["Plague Strike"] = {
-									["count"] = 0,
-								},
-								["Death Strike"] = {
-									["count"] = 0,
-								},
-								["Blood Boil"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Scourge Necromancer"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Blood Strike"] = {
-									["count"] = 0,
-								},
-								["Blood Boil"] = {
-									["count"] = 0,
-								},
-								["Blood Plague (DoT)"] = {
-									["count"] = 0,
-								},
-								["Frost Fever (DoT)"] = {
-									["count"] = 0,
-								},
-								["Icy Touch"] = {
-									["count"] = 0,
-								},
-								["Plague Strike"] = {
-									["count"] = 0,
-								},
-								["Death Strike"] = {
-									["count"] = 0,
-								},
-								["Death Coil"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Kobold Tunneler"] = {
-							["Details"] = {
-								["Blood Boil"] = {
-									["count"] = 708,
-								},
-							},
-							["amount"] = 708,
-						},
-					},
-					["PartialBlock"] = {
-					},
-					["WhoDamaged"] = {
-						["Terrifying Abomination"] = {
-							["Details"] = {
-								["Scourge Hook"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Cleave"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Scourge Necromancer"] = {
-							["Details"] = {
-								["Shadow Bolt"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Kobold Tunneler"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 3,
-								},
-							},
-							["amount"] = 3,
-						},
-					},
-					["EnergyGainedFrom"] = {
-					},
-					["PartialResist"] = {
-						["Cleave"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Scourge Hook"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 5,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 5,
-							["amount"] = 0,
-						},
-						["Shadow Bolt"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["CCBroken"] = {
-					},
-					["ElementDoneBlock"] = {
-					},
-					["TimeHealing"] = {
-						["Flocius"] = {
-							["Details"] = {
-								["The Might of Mograine"] = {
-									["count"] = 0,
-								},
-								["Death Strike"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["OverHeals"] = {
-						["The Might of Mograine"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Death Strike"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["ManaGainedFrom"] = {
-					},
-					["RunicPowerGained"] = {
-					},
-					["CCBreak"] = 0,
-					["RageGained"] = {
-					},
-					["HealedWho"] = {
-						["Flocius"] = {
-							["Details"] = {
-								["The Might of Mograine"] = {
-									["count"] = 0,
-								},
-								["Death Strike"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["EnergyGain"] = 0,
-					["ManaGained"] = {
-					},
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
-					["Overhealing"] = 0,
-					["TimeSpent"] = {
-						["Terrifying Abomination"] = {
-							["Details"] = {
-								["Blood Strike"] = {
-									["count"] = 0,
-								},
-								["Death Coil"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Frost Fever (DoT)"] = {
-									["count"] = 0,
-								},
-								["Icy Touch"] = {
-									["count"] = 0,
-								},
-								["Plague Strike"] = {
-									["count"] = 0,
-								},
-								["Death Strike"] = {
-									["count"] = 0,
-								},
-								["Blood Boil"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Flocius"] = {
-							["Details"] = {
-								["The Might of Mograine"] = {
-									["count"] = 0,
-								},
-								["Death Strike"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Scourge Necromancer"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Blood Strike"] = {
-									["count"] = 0,
-								},
-								["Blood Boil"] = {
-									["count"] = 0,
-								},
-								["Blood Plague (DoT)"] = {
-									["count"] = 0,
-								},
-								["Frost Fever (DoT)"] = {
-									["count"] = 0,
-								},
-								["Icy Touch"] = {
-									["count"] = 0,
-								},
-								["Plague Strike"] = {
-									["count"] = 0,
-								},
-								["Death Strike"] = {
-									["count"] = 0,
-								},
-								["Death Coil"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Kobold Tunneler"] = {
-							["Details"] = {
-								["Blood Boil"] = {
-									["count"] = 3.5,
-								},
-							},
-							["amount"] = 3.5,
-						},
-					},
-					["WhoDispelled"] = {
-					},
-					["InterruptData"] = {
-					},
-					["RunicPowerGain"] = 0,
-					["Heals"] = {
-						["The Might of Mograine"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Death Strike"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["WhoHealed"] = {
-						["Flocius"] = {
-							["Details"] = {
-								["The Might of Mograine"] = {
-									["count"] = 0,
-								},
-								["Death Strike"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["EnergyGained"] = {
-					},
-					["ActiveTime"] = 3.5,
-					["Healing"] = 0,
-					["FDamagedWho"] = {
-					},
-					["Dispelled"] = 0,
-					["Attacks"] = {
-						["Melee"] = {
-							["Details"] = {
-								["Glancing"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Crit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Icy Touch"] = {
-							["Details"] = {
-								["Crit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Blood Boil"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 237,
-									["min"] = 0,
-									["count"] = 3,
-									["amount"] = 708,
-								},
-							},
-							["count"] = 3,
-							["amount"] = 708,
-						},
-						["Blood Plague (DoT)"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Frost Fever (DoT)"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Death Coil"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Plague Strike"] = {
-							["Details"] = {
-								["Crit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Death Strike"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Blood Strike"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["HealingTaken"] = 0,
-					["RageGain"] = 0,
-					["TimeDamage"] = 3.5,
-					["TimeDamaging"] = {
-						["Terrifying Abomination"] = {
-							["Details"] = {
-								["Blood Strike"] = {
-									["count"] = 0,
-								},
-								["Death Coil"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Frost Fever (DoT)"] = {
-									["count"] = 0,
-								},
-								["Icy Touch"] = {
-									["count"] = 0,
-								},
-								["Plague Strike"] = {
-									["count"] = 0,
-								},
-								["Death Strike"] = {
-									["count"] = 0,
-								},
-								["Blood Boil"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Scourge Necromancer"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Blood Strike"] = {
-									["count"] = 0,
-								},
-								["Blood Boil"] = {
-									["count"] = 0,
-								},
-								["Blood Plague (DoT)"] = {
-									["count"] = 0,
-								},
-								["Frost Fever (DoT)"] = {
-									["count"] = 0,
-								},
-								["Icy Touch"] = {
-									["count"] = 0,
-								},
-								["Plague Strike"] = {
-									["count"] = 0,
-								},
-								["Death Strike"] = {
-									["count"] = 0,
-								},
-								["Death Coil"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Kobold Tunneler"] = {
-							["Details"] = {
-								["Blood Boil"] = {
-									["count"] = 3.5,
-								},
-							},
-							["amount"] = 3.5,
-						},
-					},
-					["ManaGain"] = 0,
-					["HOTs"] = {
-						["The Might of Mograine"] = {
-							["Details"] = {
-								["Flocius"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["DispelledWho"] = {
-					},
-				},
-				["CurrentFightData"] = {
-					["DOTs"] = {
-						["Frost Fever (DoT)"] = {
-							["Details"] = {
-								["Terrifying Abomination"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["ElementDoneResist"] = {
 					},
 					["Ressed"] = 0,
-					["DamageTaken"] = 0,
+					["DamageTaken"] = 1,
 					["RageGainedFrom"] = {
 					},
 					["ElementHitsTaken"] = {
 						["Melee"] = {
 							["Details"] = {
-								["Dodge"] = {
-									["count"] = 0,
-								},
-								["Crit"] = {
-									["count"] = 0,
-								},
-								["Hit"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Physical"] = {
-							["Details"] = {
-								["Miss"] = {
-									["count"] = 0,
-								},
-								["Hit"] = {
-									["count"] = 0,
-								},
 								["Parry"] = {
 									["count"] = 0,
 								},
+								["Hit"] = {
+									["count"] = 1,
+								},
+								["Dodge"] = {
+									["count"] = 0,
+								},
+								["Miss"] = {
+									["count"] = 0,
+								},
 							},
-							["amount"] = 0,
+							["amount"] = 1,
 						},
 					},
 					["DeathCount"] = 0,
 					["HOT_Time"] = 0,
-					["ElementHitsDone"] = {
-						["Physical"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Shadow"] = {
-							["Details"] = {
-								["Crit"] = {
-									["count"] = 0,
-								},
-								["Hit"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["Glancing"] = {
-									["count"] = 0,
-								},
-								["Crit"] = {
-									["count"] = 0,
-								},
-								["Hit"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Frost"] = {
-							["Details"] = {
-								["Tick"] = {
-									["count"] = 0,
-								},
-								["Hit"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
+					["ElementTakenBlock"] = {
 					},
-					["ElementTakenAbsorb"] = {
-					},
+					["RunicPowerGain"] = 0,
 					["ElementTaken"] = {
-						["Melee"] = 0,
-						["Physical"] = 0,
+						["Melee"] = 1,
 					},
-					["DOT_Time"] = 0,
+					["HOTs"] = {
+					},
 					["Damage"] = 0,
-					["ElementTakenBlock"] = {
+					["ElementDoneAbsorb"] = {
 					},
 					["TimeHeal"] = 0,
 					["RessedWho"] = {
 					},
 					["Dispels"] = 0,
-					["ElementTakenResist"] = {
+					["PartialBlock"] = {
 					},
-					["ElementDoneAbsorb"] = {
+					["DamagedWho"] = {
+						["Patchwerk"] = {
+							["Details"] = {
+								["Blood Strike"] = {
+									["count"] = 0,
+								},
+								["Frost Fever (DoT)"] = {
+									["count"] = 0,
+								},
+								["Blood Plague (DoT)"] = {
+									["count"] = 0,
+								},
+								["Death Coil"] = {
+									["count"] = 0,
+								},
+								["Icy Touch"] = {
+									["count"] = 0,
+								},
+								["Plague Strike"] = {
+									["count"] = 0,
+								},
+								["Death Strike"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Flesh Eating Worm"] = {
+							["Details"] = {
+								["Blood Strike"] = {
+									["count"] = 0,
+								},
+								["Blood Boil"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Goldtooth"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Tunneler"] = {
+							["Details"] = {
+								["Icy Touch"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Blood Boil"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Miner"] = {
+							["Details"] = {
+								["Blood Strike"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Blood Boil"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Bone Chewer"] = {
+							["Details"] = {
+								["Blood Strike"] = {
+									["count"] = 0,
+								},
+								["Death Coil"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Blood Boil"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Rotted One"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Flesh Eater"] = {
+							["Details"] = {
+								["Death Coil"] = {
+									["count"] = 0,
+								},
+								["Death Strike"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Blood Boil"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
 					},
 					["FAttacks"] = {
 					},
+					["HealingTaken"] = 0,
+					["ElementDone"] = {
+						["Frost"] = 0,
+						["Physical"] = 0,
+						["Melee"] = 0,
+						["Shadow"] = 0,
+					},
 					["RunicPowerGainedFrom"] = {
 					},
-					["ElementDone"] = {
-						["Physical"] = 0,
-						["Shadow"] = 0,
-						["Melee"] = 0,
-						["Frost"] = 0,
+					["ElementHitsDone"] = {
+						["Frost"] = {
+							["Details"] = {
+								["Tick"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Physical"] = {
+							["Details"] = {
+								["Crit"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Glancing"] = {
+									["count"] = 0,
+								},
+								["Crit"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Shadow"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 0,
+								},
+								["Crit"] = {
+									["count"] = 0,
+								},
+								["Tick"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ManaGainedFrom"] = {
+					},
+					["WhoDamaged"] = {
+						["Flesh Eating Worm"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Tunneler"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Miner"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Bone Chewer"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Flesh Eater"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Defias Cutpurse"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 1,
+						},
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["RunicPowerGained"] = {
+					},
+					["CCBroken"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+					},
+					["Dispelled"] = 0,
+					["WhoHealed"] = {
+					},
+					["HealedWho"] = {
+					},
+					["CCBreak"] = 0,
+					["ElementTakenAbsorb"] = {
+					},
+					["FDamage"] = 0,
+					["EnergyGain"] = 0,
+					["ManaGained"] = {
 					},
 					["PartialAbsorb"] = {
 						["Melee"] = {
@@ -2690,280 +1856,166 @@ RecountPerCharDB = {
 								["No Absorb"] = {
 									["max"] = 0,
 									["min"] = 0,
-									["count"] = 0,
+									["count"] = 1,
 									["amount"] = 0,
 								},
 							},
-							["count"] = 0,
+							["count"] = 1,
 							["amount"] = 0,
 						},
-						["Cleave"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["DamagedWho"] = {
-						["Terrifying Abomination"] = {
-							["Details"] = {
-								["Blood Strike"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Death Strike"] = {
-									["count"] = 0,
-								},
-								["Icy Touch"] = {
-									["count"] = 0,
-								},
-								["Death Coil"] = {
-									["count"] = 0,
-								},
-								["Frost Fever (DoT)"] = {
-									["count"] = 0,
-								},
-								["Blood Boil"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Kobold Tunneler"] = {
-							["Details"] = {
-								["Icy Touch"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["PartialBlock"] = {
-					},
-					["WhoDamaged"] = {
-						["Terrifying Abomination"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Cleave"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["EnergyGainedFrom"] = {
-					},
-					["PartialResist"] = {
-						["Melee"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Cleave"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["CCBroken"] = {
-					},
-					["ElementDoneBlock"] = {
-					},
-					["TimeHealing"] = {
-						["Flocius"] = {
-							["Details"] = {
-								["The Might of Mograine"] = {
-									["count"] = 0,
-								},
-								["Death Strike"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["OverHeals"] = {
-						["The Might of Mograine"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Death Strike"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["ManaGainedFrom"] = {
-					},
-					["RunicPowerGained"] = {
-					},
-					["CCBreak"] = 0,
-					["RageGained"] = {
-					},
-					["HealedWho"] = {
-						["Flocius"] = {
-							["Details"] = {
-								["The Might of Mograine"] = {
-									["count"] = 0,
-								},
-								["Death Strike"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["EnergyGain"] = 0,
-					["ManaGained"] = {
-					},
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
-					["Overhealing"] = 0,
-					["TimeSpent"] = {
-						["Terrifying Abomination"] = {
-							["Details"] = {
-								["Blood Strike"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Death Strike"] = {
-									["count"] = 0,
-								},
-								["Icy Touch"] = {
-									["count"] = 0,
-								},
-								["Death Coil"] = {
-									["count"] = 0,
-								},
-								["Frost Fever (DoT)"] = {
-									["count"] = 0,
-								},
-								["Blood Boil"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Flocius"] = {
-							["Details"] = {
-								["The Might of Mograine"] = {
-									["count"] = 0,
-								},
-								["Death Strike"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Kobold Tunneler"] = {
-							["Details"] = {
-								["Icy Touch"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["WhoDispelled"] = {
-					},
-					["InterruptData"] = {
-					},
-					["RunicPowerGain"] = 0,
-					["Heals"] = {
-						["The Might of Mograine"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Death Strike"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["WhoHealed"] = {
-						["Flocius"] = {
-							["Details"] = {
-								["The Might of Mograine"] = {
-									["count"] = 0,
-								},
-								["Death Strike"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["EnergyGained"] = {
 					},
 					["ActiveTime"] = 0,
-					["Healing"] = 0,
-					["FDamagedWho"] = {
+					["Overhealing"] = 0,
+					["TimeSpent"] = {
+						["Patchwerk"] = {
+							["Details"] = {
+								["Blood Strike"] = {
+									["count"] = 0,
+								},
+								["Frost Fever (DoT)"] = {
+									["count"] = 0,
+								},
+								["Blood Plague (DoT)"] = {
+									["count"] = 0,
+								},
+								["Death Coil"] = {
+									["count"] = 0,
+								},
+								["Icy Touch"] = {
+									["count"] = 0,
+								},
+								["Plague Strike"] = {
+									["count"] = 0,
+								},
+								["Death Strike"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Flesh Eating Worm"] = {
+							["Details"] = {
+								["Blood Strike"] = {
+									["count"] = 0,
+								},
+								["Blood Boil"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Goldtooth"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Tunneler"] = {
+							["Details"] = {
+								["Icy Touch"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Blood Boil"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Miner"] = {
+							["Details"] = {
+								["Blood Strike"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Blood Boil"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Bone Chewer"] = {
+							["Details"] = {
+								["Blood Strike"] = {
+									["count"] = 0,
+								},
+								["Death Coil"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Blood Boil"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Rotted One"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Flesh Eater"] = {
+							["Details"] = {
+								["Death Coil"] = {
+									["count"] = 0,
+								},
+								["Death Strike"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Blood Boil"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
 					},
-					["Dispelled"] = 0,
-					["Attacks"] = {
-						["Blood Strike"] = {
+					["WhoDispelled"] = {
+					},
+					["InterruptData"] = {
+					},
+					["ElementTakenResist"] = {
+					},
+					["Heals"] = {
+					},
+					["Interrupts"] = 0,
+					["EnergyGained"] = {
+					},
+					["PartialResist"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+					},
+					["Healing"] = 0,
+					["RageGained"] = {
+					},
+					["OverHeals"] = {
+						["Death Strike"] = {
 							["Details"] = {
 								["Hit"] = {
 									["max"] = 0,
@@ -2975,6 +2027,8 @@ RecountPerCharDB = {
 							["count"] = 0,
 							["amount"] = 0,
 						},
+					},
+					["Attacks"] = {
 						["Melee"] = {
 							["Details"] = {
 								["Glancing"] = {
@@ -2999,45 +2053,15 @@ RecountPerCharDB = {
 							["count"] = 0,
 							["amount"] = 0,
 						},
-						["Death Strike"] = {
+						["Blood Strike"] = {
 							["Details"] = {
-								["Hit"] = {
+								["Crit"] = {
 									["max"] = 0,
 									["min"] = 0,
 									["count"] = 0,
 									["amount"] = 0,
 								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Icy Touch"] = {
-							["Details"] = {
 								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Death Coil"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Frost Fever (DoT)"] = {
-							["Details"] = {
-								["Tick"] = {
 									["max"] = 0,
 									["min"] = 0,
 									["count"] = 0,
@@ -3065,32 +2089,139 @@ RecountPerCharDB = {
 							["count"] = 0,
 							["amount"] = 0,
 						},
+						["Blood Plague (DoT)"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Death Coil"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Frost Fever (DoT)"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Plague Strike"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Death Strike"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Icy Touch"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
 					},
-					["HealingTaken"] = 0,
 					["RageGain"] = 0,
+					["FDamagedWho"] = {
+					},
 					["TimeDamage"] = 0,
 					["TimeDamaging"] = {
-						["Terrifying Abomination"] = {
+						["Patchwerk"] = {
 							["Details"] = {
 								["Blood Strike"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Death Strike"] = {
-									["count"] = 0,
-								},
-								["Icy Touch"] = {
-									["count"] = 0,
-								},
-								["Death Coil"] = {
 									["count"] = 0,
 								},
 								["Frost Fever (DoT)"] = {
 									["count"] = 0,
 								},
+								["Blood Plague (DoT)"] = {
+									["count"] = 0,
+								},
+								["Death Coil"] = {
+									["count"] = 0,
+								},
+								["Icy Touch"] = {
+									["count"] = 0,
+								},
+								["Plague Strike"] = {
+									["count"] = 0,
+								},
+								["Death Strike"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Flesh Eating Worm"] = {
+							["Details"] = {
+								["Blood Strike"] = {
+									["count"] = 0,
+								},
 								["Blood Boil"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Goldtooth"] = {
+							["Details"] = {
+								["Melee"] = {
 									["count"] = 0,
 								},
 							},
@@ -3104,25 +2235,75 @@ RecountPerCharDB = {
 								["Melee"] = {
 									["count"] = 0,
 								},
+								["Blood Boil"] = {
+									["count"] = 0,
+								},
 							},
 							["amount"] = 0,
 						},
-					},
-					["ManaGain"] = 0,
-					["HOTs"] = {
-						["The Might of Mograine"] = {
+						["Kobold Miner"] = {
 							["Details"] = {
-								["Flocius"] = {
+								["Blood Strike"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Blood Boil"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Bone Chewer"] = {
+							["Details"] = {
+								["Blood Strike"] = {
+									["count"] = 0,
+								},
+								["Death Coil"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Blood Boil"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Rotted One"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Flesh Eater"] = {
+							["Details"] = {
+								["Death Coil"] = {
+									["count"] = 0,
+								},
+								["Death Strike"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Blood Boil"] = {
 									["count"] = 0,
 								},
 							},
 							["amount"] = 0,
 						},
 					},
+					["ManaGain"] = 0,
+					["DOT_Time"] = 0,
 					["DispelledWho"] = {
 					},
 				},
-				["Fight3"] = {
+				["Fight5"] = {
 					["DOTs"] = {
 						["Blood Plague (DoT)"] = {
 							["Details"] = {
@@ -3152,7 +2333,7 @@ RecountPerCharDB = {
 						["Shadow"] = 0,
 					},
 					["Ressed"] = 0,
-					["DamageTaken"] = 2,
+					["DamageTaken"] = 16,
 					["RageGainedFrom"] = {
 					},
 					["ElementHitsTaken"] = {
@@ -3184,22 +2365,22 @@ RecountPerCharDB = {
 						["Melee"] = {
 							["Details"] = {
 								["Hit"] = {
-									["count"] = 1,
+									["count"] = 3,
 								},
 								["Miss"] = {
-									["count"] = 0,
+									["count"] = 1,
 								},
 								["Dodge"] = {
-									["count"] = 4,
+									["count"] = 1,
 								},
 								["Crit"] = {
 									["count"] = 0,
 								},
 								["Parry"] = {
-									["count"] = 1,
+									["count"] = 0,
 								},
 							},
-							["amount"] = 6,
+							["amount"] = 5,
 						},
 						["Nature"] = {
 							["Details"] = {
@@ -3212,28 +2393,256 @@ RecountPerCharDB = {
 					},
 					["DeathCount"] = 0,
 					["HOT_Time"] = 0,
-					["ElementHitsDone"] = {
-						["Physical"] = {
+					["ElementTakenBlock"] = {
+					},
+					["RunicPowerGain"] = 0,
+					["ElementTaken"] = {
+						["Physical"] = 0,
+						["Holy"] = 0,
+						["Melee"] = 16,
+						["Nature"] = 0,
+					},
+					["HOTs"] = {
+						["Blood Presence"] = {
 							["Details"] = {
-								["Parry"] = {
-									["count"] = 0,
-								},
-								["Crit"] = {
-									["count"] = 0,
-								},
-								["Hit"] = {
+								["Flocius"] = {
 									["count"] = 0,
 								},
 							},
 							["amount"] = 0,
 						},
+					},
+					["Damage"] = 2009,
+					["ElementDoneAbsorb"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["PartialBlock"] = {
+					},
+					["DamagedWho"] = {
+						["Kobold Tunneler"] = {
+							["Details"] = {
+								["Icy Touch"] = {
+									["count"] = 0,
+								},
+								["Blood Strike"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Blood Boil"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Korfax, Champion of the Light"] = {
+							["Details"] = {
+								["Plague Strike"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Blood Plague (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Duke Nicholas Zverenhoff"] = {
+							["Details"] = {
+								["Plague Strike"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Blood Plague (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Rimblat Earthshatter"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Skeletal Fiend"] = {
+							["Details"] = {
+								["Blood Strike"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Death Strike"] = {
+									["count"] = 0,
+								},
+								["Blood Boil"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Bone Chewer"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Blood Boil"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Rotted One"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 1086,
+								},
+								["Death Coil"] = {
+									["count"] = 408,
+								},
+							},
+							["amount"] = 1494,
+						},
+						["Flesh Eating Worm"] = {
+							["Details"] = {
+								["Blood Boil"] = {
+									["count"] = 515,
+								},
+							},
+							["amount"] = 515,
+						},
+						["Goldtooth"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Death Strike"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Skeletal Horror"] = {
+							["Details"] = {
+								["Death Coil"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Death Strike"] = {
+									["count"] = 0,
+								},
+								["Icy Touch"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Miner"] = {
+							["Details"] = {
+								["Icy Touch"] = {
+									["count"] = 0,
+								},
+								["Blood Strike"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Blood Boil"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Defender of the Light"] = {
+							["Details"] = {
+								["Death Coil"] = {
+									["count"] = 0,
+								},
+								["Death Strike"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Blood Strike"] = {
+									["count"] = 0,
+								},
+								["Icy Touch"] = {
+									["count"] = 0,
+								},
+								["Plague Strike"] = {
+									["count"] = 0,
+								},
+								["Frost Fever (DoT)"] = {
+									["count"] = 0,
+								},
+								["Blood Plague (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Skeletal Raider"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Narg the Taskmaster"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Blood Boil"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["FAttacks"] = {
+					},
+					["HealingTaken"] = 0,
+					["ElementDone"] = {
+						["Shadow"] = 923,
+						["Frost"] = 0,
+						["Melee"] = 1086,
+						["Physical"] = 0,
+					},
+					["RunicPowerGainedFrom"] = {
+						["Flocius"] = {
+							["Details"] = {
+								["Butchery"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ElementHitsDone"] = {
 						["Shadow"] = {
 							["Details"] = {
 								["Miss"] = {
 									["count"] = 0,
 								},
 								["Hit"] = {
-									["count"] = 4,
+									["count"] = 3,
 								},
 								["Crit"] = {
 									["count"] = 0,
@@ -3242,7 +2651,24 @@ RecountPerCharDB = {
 									["count"] = 0,
 								},
 							},
-							["amount"] = 4,
+							["amount"] = 3,
+						},
+						["Frost"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 0,
+								},
+								["Crit"] = {
+									["count"] = 0,
+								},
+								["Tick"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
 						},
 						["Melee"] = {
 							["Details"] = {
@@ -3267,62 +2693,180 @@ RecountPerCharDB = {
 							},
 							["amount"] = 1,
 						},
-						["Frost"] = {
+						["Physical"] = {
 							["Details"] = {
-								["Miss"] = {
-									["count"] = 0,
-								},
-								["Hit"] = {
+								["Parry"] = {
 									["count"] = 0,
 								},
 								["Crit"] = {
 									["count"] = 0,
 								},
-								["Tick"] = {
+								["Hit"] = {
 									["count"] = 0,
 								},
 							},
 							["amount"] = 0,
 						},
 					},
+					["ManaGainedFrom"] = {
+					},
+					["WhoDamaged"] = {
+						["Kobold Tunneler"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Rimblat Earthshatter"] = {
+							["Details"] = {
+								["Thunder"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Narg the Taskmaster"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Flesh Eating Worm"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 8,
+								},
+							},
+							["amount"] = 8,
+						},
+						["Skeletal Fiend"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Environment"] = {
+							["Details"] = {
+								["Falling"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Miner"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Defender of the Light"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Holy Strike"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Rotted One"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 8,
+								},
+							},
+							["amount"] = 8,
+						},
+						["Duke Nicholas Zverenhoff"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["RunicPowerGained"] = {
+						["Butchery"] = {
+							["Details"] = {
+								["Flocius"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["CCBroken"] = {
+					},
+					["ElementDoneBlock"] = {
+						["Physical"] = 0,
+					},
+					["TimeHealing"] = {
+						["Flocius"] = {
+							["Details"] = {
+								["Rune Tap"] = {
+									["count"] = 0,
+								},
+								["Blood Presence"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["Dispelled"] = 0,
+					["WhoHealed"] = {
+						["Highlord Darion Mograine"] = {
+							["Details"] = {
+								["The Might of Mograine"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Flocius"] = {
+							["Details"] = {
+								["Rune Tap"] = {
+									["count"] = 0,
+								},
+								["Blood Presence"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["HealedWho"] = {
+						["Flocius"] = {
+							["Details"] = {
+								["Rune Tap"] = {
+									["count"] = 0,
+								},
+								["Blood Presence"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["CCBreak"] = 0,
 					["ElementTakenAbsorb"] = {
 						["Holy"] = 0,
 					},
-					["ElementTaken"] = {
-						["Physical"] = 0,
-						["Holy"] = 0,
-						["Melee"] = 2,
-						["Nature"] = 0,
-					},
-					["DOT_Time"] = 0,
-					["Damage"] = 2195,
-					["ElementTakenBlock"] = {
-					},
-					["TimeHeal"] = 0,
-					["RessedWho"] = {
-					},
-					["Dispels"] = 0,
-					["ElementTakenResist"] = {
-					},
-					["ElementDoneAbsorb"] = {
-					},
-					["FAttacks"] = {
-					},
-					["RunicPowerGainedFrom"] = {
-						["Flocius"] = {
-							["Details"] = {
-								["Butchery"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["ElementDone"] = {
-						["Physical"] = 0,
-						["Shadow"] = 1015,
-						["Melee"] = 1180,
-						["Frost"] = 0,
+					["FDamage"] = 0,
+					["EnergyGain"] = 0,
+					["ManaGained"] = {
 					},
 					["PartialAbsorb"] = {
 						["Falling"] = {
@@ -3372,80 +2916,93 @@ RecountPerCharDB = {
 								["No Absorb"] = {
 									["max"] = 0,
 									["min"] = 0,
-									["count"] = 6,
+									["count"] = 5,
 									["amount"] = 0,
 								},
 							},
-							["count"] = 6,
+							["count"] = 5,
 							["amount"] = 0,
 						},
 					},
-					["DamagedWho"] = {
-						["Narg the Taskmaster"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 1180,
-								},
-								["Blood Boil"] = {
-									["count"] = 250,
-								},
-							},
-							["amount"] = 1430,
-						},
+					["ActiveTime"] = 6.46,
+					["Overhealing"] = 0,
+					["TimeSpent"] = {
 						["Kobold Tunneler"] = {
 							["Details"] = {
 								["Icy Touch"] = {
 									["count"] = 0,
 								},
+								["Blood Strike"] = {
+									["count"] = 0,
+								},
 								["Melee"] = {
 									["count"] = 0,
 								},
 								["Blood Boil"] = {
-									["count"] = 249,
-								},
-							},
-							["amount"] = 249,
-						},
-						["Korfax, Champion of the Light"] = {
-							["Details"] = {
-								["Plague Strike"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Blood Plague (DoT)"] = {
 									["count"] = 0,
 								},
 							},
 							["amount"] = 0,
 						},
-						["Kobold Miner"] = {
+						["Skeletal Horror"] = {
 							["Details"] = {
-								["Icy Touch"] = {
+								["Death Coil"] = {
 									["count"] = 0,
 								},
 								["Melee"] = {
 									["count"] = 0,
 								},
-								["Blood Boil"] = {
-									["count"] = 516,
-								},
-							},
-							["amount"] = 516,
-						},
-						["Defender of the Light"] = {
-							["Details"] = {
 								["Death Strike"] = {
 									["count"] = 0,
 								},
-								["Blood Strike"] = {
+								["Icy Touch"] = {
 									["count"] = 0,
 								},
-								["Blood Plague (DoT)"] = {
+							},
+							["amount"] = 0,
+						},
+						["Narg the Taskmaster"] = {
+							["Details"] = {
+								["Melee"] = {
 									["count"] = 0,
 								},
+								["Blood Boil"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Flesh Eating Worm"] = {
+							["Details"] = {
+								["Blood Boil"] = {
+									["count"] = 1.29,
+								},
+							},
+							["amount"] = 1.29,
+						},
+						["Goldtooth"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Death Strike"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Defender of the Light"] = {
+							["Details"] = {
 								["Death Coil"] = {
+									["count"] = 0,
+								},
+								["Death Strike"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Blood Strike"] = {
 									["count"] = 0,
 								},
 								["Icy Touch"] = {
@@ -3457,7 +3014,7 @@ RecountPerCharDB = {
 								["Frost Fever (DoT)"] = {
 									["count"] = 0,
 								},
-								["Melee"] = {
+								["Blood Plague (DoT)"] = {
 									["count"] = 0,
 								},
 							},
@@ -3465,10 +3022,19 @@ RecountPerCharDB = {
 						},
 						["Duke Nicholas Zverenhoff"] = {
 							["Details"] = {
-								["Plague Strike"] = {
+								["Pestilence"] = {
 									["count"] = 0,
 								},
 								["Melee"] = {
+									["count"] = 0,
+								},
+								["Icy Touch"] = {
+									["count"] = 0,
+								},
+								["Plague Strike"] = {
+									["count"] = 0,
+								},
+								["Death Coil"] = {
 									["count"] = 0,
 								},
 								["Blood Plague (DoT)"] = {
@@ -3477,71 +3043,177 @@ RecountPerCharDB = {
 							},
 							["amount"] = 0,
 						},
+						["Leonid Barthalomew the Revered"] = {
+							["Details"] = {
+								["Pestilence"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Flocius"] = {
+							["Details"] = {
+								["Rune Tap"] = {
+									["count"] = 0,
+								},
+								["Blood Presence"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Commander Eligor Dawnbringer"] = {
+							["Details"] = {
+								["Pestilence"] = {
+									["count"] = 0,
+								},
+								["Icy Touch"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
 						["Rimblat Earthshatter"] = {
 							["Details"] = {
+								["Icy Touch"] = {
+									["count"] = 0,
+								},
 								["Melee"] = {
+									["count"] = 0,
+								},
+								["Pestilence"] = {
 									["count"] = 0,
 								},
 							},
 							["amount"] = 0,
 						},
-					},
-					["PartialBlock"] = {
-					},
-					["WhoDamaged"] = {
-						["Narg the Taskmaster"] = {
+						["Skeletal Fiend"] = {
 							["Details"] = {
-								["Melee"] = {
-									["count"] = 2,
+								["Blood Strike"] = {
+									["count"] = 0,
 								},
-							},
-							["amount"] = 2,
-						},
-						["Environment"] = {
-							["Details"] = {
-								["Falling"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Death Strike"] = {
+									["count"] = 0,
+								},
+								["Blood Boil"] = {
 									["count"] = 0,
 								},
 							},
 							["amount"] = 0,
+						},
+						["Rotted One"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 1.67,
+								},
+								["Death Coil"] = {
+									["count"] = 3.5,
+								},
+							},
+							["amount"] = 5.17,
 						},
 						["Kobold Miner"] = {
 							["Details"] = {
+								["Icy Touch"] = {
+									["count"] = 0,
+								},
+								["Blood Strike"] = {
+									["count"] = 0,
+								},
 								["Melee"] = {
+									["count"] = 0,
+								},
+								["Blood Boil"] = {
 									["count"] = 0,
 								},
 							},
 							["amount"] = 0,
 						},
-						["Defender of the Light"] = {
+						["Bone Chewer"] = {
 							["Details"] = {
 								["Melee"] = {
 									["count"] = 0,
 								},
-								["Holy Strike"] = {
+								["Blood Boil"] = {
 									["count"] = 0,
 								},
 							},
 							["amount"] = 0,
 						},
-						["Duke Nicholas Zverenhoff"] = {
+						["Korfax, Champion of the Light"] = {
 							["Details"] = {
+								["Pestilence"] = {
+									["count"] = 0,
+								},
 								["Melee"] = {
+									["count"] = 0,
+								},
+								["Icy Touch"] = {
+									["count"] = 0,
+								},
+								["Plague Strike"] = {
+									["count"] = 0,
+								},
+								["Blood Plague (DoT)"] = {
 									["count"] = 0,
 								},
 							},
 							["amount"] = 0,
 						},
-						["Rimblat Earthshatter"] = {
+						["Skeletal Raider"] = {
 							["Details"] = {
-								["Thunder"] = {
+								["Melee"] = {
 									["count"] = 0,
 								},
 							},
 							["amount"] = 0,
 						},
 					},
-					["EnergyGainedFrom"] = {
+					["WhoDispelled"] = {
+					},
+					["InterruptData"] = {
+						["Defender of the Light"] = {
+							["Details"] = {
+								["Holy Light (Mind Freeze)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ElementTakenResist"] = {
+					},
+					["Heals"] = {
+						["Rune Tap"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Blood Presence"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["Interrupts"] = 0,
+					["EnergyGained"] = {
 					},
 					["PartialResist"] = {
 						["Falling"] = {
@@ -3585,30 +3257,16 @@ RecountPerCharDB = {
 								["No Resist"] = {
 									["max"] = 0,
 									["min"] = 0,
-									["count"] = 6,
+									["count"] = 5,
 									["amount"] = 0,
 								},
 							},
-							["count"] = 6,
+							["count"] = 5,
 							["amount"] = 0,
 						},
 					},
-					["CCBroken"] = {
-					},
-					["ElementDoneBlock"] = {
-					},
-					["TimeHealing"] = {
-						["Flocius"] = {
-							["Details"] = {
-								["Rune Tap"] = {
-									["count"] = 0,
-								},
-								["Blood Presence"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
+					["Healing"] = 0,
+					["RageGained"] = {
 					},
 					["OverHeals"] = {
 						["Blood Presence"] = {
@@ -3648,264 +3306,6 @@ RecountPerCharDB = {
 							["amount"] = 0,
 						},
 					},
-					["ManaGainedFrom"] = {
-					},
-					["RunicPowerGained"] = {
-						["Butchery"] = {
-							["Details"] = {
-								["Flocius"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["CCBreak"] = 0,
-					["RageGained"] = {
-					},
-					["HealedWho"] = {
-						["Flocius"] = {
-							["Details"] = {
-								["Rune Tap"] = {
-									["count"] = 0,
-								},
-								["Blood Presence"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["EnergyGain"] = 0,
-					["ManaGained"] = {
-					},
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
-					["Overhealing"] = 0,
-					["TimeSpent"] = {
-						["Flocius"] = {
-							["Details"] = {
-								["Rune Tap"] = {
-									["count"] = 0,
-								},
-								["Blood Presence"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Commander Eligor Dawnbringer"] = {
-							["Details"] = {
-								["Pestilence"] = {
-									["count"] = 0,
-								},
-								["Icy Touch"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Rimblat Earthshatter"] = {
-							["Details"] = {
-								["Icy Touch"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Pestilence"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Narg the Taskmaster"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 2.05,
-								},
-								["Blood Boil"] = {
-									["count"] = 3.5,
-								},
-							},
-							["amount"] = 5.55,
-						},
-						["Korfax, Champion of the Light"] = {
-							["Details"] = {
-								["Pestilence"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Icy Touch"] = {
-									["count"] = 0,
-								},
-								["Plague Strike"] = {
-									["count"] = 0,
-								},
-								["Blood Plague (DoT)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Kobold Tunneler"] = {
-							["Details"] = {
-								["Icy Touch"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Blood Boil"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Kobold Miner"] = {
-							["Details"] = {
-								["Icy Touch"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Blood Boil"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Defender of the Light"] = {
-							["Details"] = {
-								["Death Strike"] = {
-									["count"] = 0,
-								},
-								["Blood Strike"] = {
-									["count"] = 0,
-								},
-								["Blood Plague (DoT)"] = {
-									["count"] = 0,
-								},
-								["Death Coil"] = {
-									["count"] = 0,
-								},
-								["Icy Touch"] = {
-									["count"] = 0,
-								},
-								["Plague Strike"] = {
-									["count"] = 0,
-								},
-								["Frost Fever (DoT)"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Duke Nicholas Zverenhoff"] = {
-							["Details"] = {
-								["Pestilence"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Icy Touch"] = {
-									["count"] = 0,
-								},
-								["Plague Strike"] = {
-									["count"] = 0,
-								},
-								["Death Coil"] = {
-									["count"] = 0,
-								},
-								["Blood Plague (DoT)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Leonid Barthalomew the Revered"] = {
-							["Details"] = {
-								["Pestilence"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["WhoDispelled"] = {
-					},
-					["InterruptData"] = {
-						["Defender of the Light"] = {
-							["Details"] = {
-								["Holy Light (Mind Freeze)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["RunicPowerGain"] = 0,
-					["Heals"] = {
-						["Rune Tap"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Blood Presence"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["WhoHealed"] = {
-						["Highlord Darion Mograine"] = {
-							["Details"] = {
-								["The Might of Mograine"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Flocius"] = {
-							["Details"] = {
-								["Rune Tap"] = {
-									["count"] = 0,
-								},
-								["Blood Presence"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["EnergyGained"] = {
-					},
-					["ActiveTime"] = 5.55,
-					["Healing"] = 0,
-					["FDamagedWho"] = {
-					},
-					["Dispelled"] = 0,
 					["Attacks"] = {
 						["Melee"] = {
 							["Details"] = {
@@ -3930,10 +3330,10 @@ RecountPerCharDB = {
 									["amount"] = 0,
 								},
 								["Crit"] = {
-									["max"] = 1180,
+									["max"] = 1086,
 									["min"] = 0,
 									["count"] = 1,
-									["amount"] = 1180,
+									["amount"] = 1086,
 								},
 								["Parry"] = {
 									["count"] = 0,
@@ -3941,7 +3341,7 @@ RecountPerCharDB = {
 								},
 							},
 							["count"] = 1,
-							["amount"] = 1180,
+							["amount"] = 1086,
 						},
 						["Icy Touch"] = {
 							["Details"] = {
@@ -3967,15 +3367,21 @@ RecountPerCharDB = {
 						},
 						["Blood Boil"] = {
 							["Details"] = {
-								["Hit"] = {
-									["max"] = 263,
+								["Crit"] = {
+									["max"] = 0,
 									["min"] = 0,
-									["count"] = 4,
-									["amount"] = 1015,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 260,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 515,
 								},
 							},
-							["count"] = 4,
-							["amount"] = 1015,
+							["count"] = 2,
+							["amount"] = 515,
 						},
 						["Pestilence"] = {
 							["Details"] = {
@@ -3999,8 +3405,26 @@ RecountPerCharDB = {
 							["count"] = 0,
 							["amount"] = 0,
 						},
-						["Death Strike"] = {
+						["Blood Strike"] = {
 							["Details"] = {
+								["Crit (Blocked)"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit (Blocked)"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
 								["Hit"] = {
 									["max"] = 0,
 									["min"] = 0,
@@ -4011,9 +3435,21 @@ RecountPerCharDB = {
 							["count"] = 0,
 							["amount"] = 0,
 						},
-						["Blood Strike"] = {
+						["Death Strike"] = {
 							["Details"] = {
+								["Crit (Blocked)"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
 								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
 									["max"] = 0,
 									["min"] = 0,
 									["count"] = 0,
@@ -4070,20 +3506,55 @@ RecountPerCharDB = {
 									["amount"] = 0,
 								},
 								["Hit"] = {
-									["max"] = 0,
+									["max"] = 408,
 									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
+									["count"] = 1,
+									["amount"] = 408,
 								},
 							},
-							["count"] = 0,
-							["amount"] = 0,
+							["count"] = 1,
+							["amount"] = 408,
 						},
 					},
-					["HealingTaken"] = 0,
 					["RageGain"] = 0,
-					["TimeDamage"] = 5.55,
+					["FDamagedWho"] = {
+					},
+					["TimeDamage"] = 6.46,
 					["TimeDamaging"] = {
+						["Bone Chewer"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Blood Boil"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Duke Nicholas Zverenhoff"] = {
+							["Details"] = {
+								["Pestilence"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Icy Touch"] = {
+									["count"] = 0,
+								},
+								["Plague Strike"] = {
+									["count"] = 0,
+								},
+								["Death Coil"] = {
+									["count"] = 0,
+								},
+								["Blood Plague (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
 						["Commander Eligor Dawnbringer"] = {
 							["Details"] = {
 								["Pestilence"] = {
@@ -4094,6 +3565,34 @@ RecountPerCharDB = {
 								},
 							},
 							["amount"] = 0,
+						},
+						["Kobold Tunneler"] = {
+							["Details"] = {
+								["Icy Touch"] = {
+									["count"] = 0,
+								},
+								["Blood Strike"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Blood Boil"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Rotted One"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 1.67,
+								},
+								["Death Coil"] = {
+									["count"] = 3.5,
+								},
+							},
+							["amount"] = 5.17,
 						},
 						["Rimblat Earthshatter"] = {
 							["Details"] = {
@@ -4111,20 +3610,6 @@ RecountPerCharDB = {
 						},
 						["Narg the Taskmaster"] = {
 							["Details"] = {
-								["Melee"] = {
-									["count"] = 2.05,
-								},
-								["Blood Boil"] = {
-									["count"] = 3.5,
-								},
-							},
-							["amount"] = 5.55,
-						},
-						["Kobold Tunneler"] = {
-							["Details"] = {
-								["Icy Touch"] = {
-									["count"] = 0,
-								},
 								["Melee"] = {
 									["count"] = 0,
 								},
@@ -4154,9 +3639,65 @@ RecountPerCharDB = {
 							},
 							["amount"] = 0,
 						},
+						["Skeletal Horror"] = {
+							["Details"] = {
+								["Death Coil"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Death Strike"] = {
+									["count"] = 0,
+								},
+								["Icy Touch"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Flesh Eating Worm"] = {
+							["Details"] = {
+								["Blood Boil"] = {
+									["count"] = 1.29,
+								},
+							},
+							["amount"] = 1.29,
+						},
+						["Goldtooth"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Death Strike"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Skeletal Fiend"] = {
+							["Details"] = {
+								["Blood Strike"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Death Strike"] = {
+									["count"] = 0,
+								},
+								["Blood Boil"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
 						["Kobold Miner"] = {
 							["Details"] = {
 								["Icy Touch"] = {
+									["count"] = 0,
+								},
+								["Blood Strike"] = {
 									["count"] = 0,
 								},
 								["Melee"] = {
@@ -4170,10 +3711,315 @@ RecountPerCharDB = {
 						},
 						["Defender of the Light"] = {
 							["Details"] = {
+								["Death Coil"] = {
+									["count"] = 0,
+								},
 								["Death Strike"] = {
 									["count"] = 0,
 								},
+								["Melee"] = {
+									["count"] = 0,
+								},
 								["Blood Strike"] = {
+									["count"] = 0,
+								},
+								["Icy Touch"] = {
+									["count"] = 0,
+								},
+								["Plague Strike"] = {
+									["count"] = 0,
+								},
+								["Frost Fever (DoT)"] = {
+									["count"] = 0,
+								},
+								["Blood Plague (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Skeletal Raider"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Leonid Barthalomew the Revered"] = {
+							["Details"] = {
+								["Pestilence"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ManaGain"] = 0,
+					["DOT_Time"] = 0,
+					["DispelledWho"] = {
+					},
+				},
+				["CurrentFightData"] = {
+					["DOTs"] = {
+						["Frost Fever (DoT)"] = {
+							["Details"] = {
+								["Defender of the Light"] = {
+									["count"] = 0,
+								},
+								["Expert's Training Dummy"] = {
+									["count"] = 0,
+								},
+								["Patchwerk"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Blood Plague (DoT)"] = {
+							["Details"] = {
+								["Defender of the Light"] = {
+									["count"] = 0,
+								},
+								["Expert's Training Dummy"] = {
+									["count"] = 0,
+								},
+								["Patchwerk"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ElementDoneResist"] = {
+						["Frost"] = 0,
+						["Shadow"] = 0,
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 0,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+						["Physical"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 0,
+								},
+								["Dodge"] = {
+									["count"] = 0,
+								},
+								["Miss"] = {
+									["count"] = 0,
+								},
+								["Crit"] = {
+									["count"] = 0,
+								},
+								["Parry"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Holy"] = {
+							["Details"] = {
+								["Deflect"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["ElementTakenBlock"] = {
+					},
+					["RunicPowerGain"] = 0,
+					["ElementTaken"] = {
+						["Physical"] = 0,
+						["Melee"] = 0,
+						["Holy"] = 0,
+					},
+					["HOTs"] = {
+						["The Might of Mograine"] = {
+							["Details"] = {
+								["Flocius"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Blood Presence"] = {
+							["Details"] = {
+								["Flocius"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["Damage"] = 0,
+					["ElementDoneAbsorb"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["PartialBlock"] = {
+					},
+					["DamagedWho"] = {
+						["Skeletal Fiend"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Death Strike"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Flesh Eater"] = {
+							["Details"] = {
+								["Death Coil"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Skeletal Healer"] = {
+							["Details"] = {
+								["Icy Touch"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Tunneler"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Icy Touch"] = {
+									["count"] = 0,
+								},
+								["Blood Strike"] = {
+									["count"] = 0,
+								},
+								["Death Strike"] = {
+									["count"] = 0,
+								},
+								["Blood Boil"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Skeletal Raider"] = {
+							["Details"] = {
+								["Icy Touch"] = {
+									["count"] = 0,
+								},
+								["Death Coil"] = {
+									["count"] = 0,
+								},
+								["Death Strike"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Skeletal Horror"] = {
+							["Details"] = {
+								["Plague Strike"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Blood Boil"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Carrion Recluse"] = {
+							["Details"] = {
+								["Icy Touch"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Rotted One"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Death Coil"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Plague Spreader"] = {
+							["Details"] = {
+								["Death Coil"] = {
+									["count"] = 0,
+								},
+								["Death Strike"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Flesh Eating Worm"] = {
+							["Details"] = {
+								["Blood Boil"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Goldtooth"] = {
+							["Details"] = {
+								["Blood Strike"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Patchwerk"] = {
+							["Details"] = {
+								["Blood Strike"] = {
+									["count"] = 0,
+								},
+								["Death Strike"] = {
 									["count"] = 0,
 								},
 								["Blood Plague (DoT)"] = {
@@ -4197,11 +4043,28 @@ RecountPerCharDB = {
 							},
 							["amount"] = 0,
 						},
-						["Duke Nicholas Zverenhoff"] = {
+						["Kobold Miner"] = {
 							["Details"] = {
-								["Pestilence"] = {
+								["Melee"] = {
 									["count"] = 0,
 								},
+								["Blood Strike"] = {
+									["count"] = 0,
+								},
+								["Icy Touch"] = {
+									["count"] = 0,
+								},
+								["Death Strike"] = {
+									["count"] = 0,
+								},
+								["Blood Boil"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Defender of the Light"] = {
+							["Details"] = {
 								["Melee"] = {
 									["count"] = 0,
 								},
@@ -4211,7 +4074,7 @@ RecountPerCharDB = {
 								["Plague Strike"] = {
 									["count"] = 0,
 								},
-								["Death Coil"] = {
+								["Frost Fever (DoT)"] = {
 									["count"] = 0,
 								},
 								["Blood Plague (DoT)"] = {
@@ -4220,192 +4083,247 @@ RecountPerCharDB = {
 							},
 							["amount"] = 0,
 						},
-						["Leonid Barthalomew the Revered"] = {
+						["Expert's Training Dummy"] = {
 							["Details"] = {
-								["Pestilence"] = {
+								["Frost Fever (DoT)"] = {
+									["count"] = 0,
+								},
+								["Blood Plague (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Bone Chewer"] = {
+							["Details"] = {
+								["Melee"] = {
 									["count"] = 0,
 								},
 							},
 							["amount"] = 0,
 						},
 					},
-					["ManaGain"] = 0,
-					["HOTs"] = {
-						["Blood Presence"] = {
-							["Details"] = {
-								["Flocius"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
+					["FAttacks"] = {
 					},
-					["DispelledWho"] = {
+					["HealingTaken"] = 0,
+					["ElementDone"] = {
+						["Frost"] = 0,
+						["Physical"] = 0,
+						["Melee"] = 0,
+						["Shadow"] = 0,
 					},
-				},
-				["Fight4"] = {
-					["DOTs"] = {
-						["Frost Fever (DoT)"] = {
-							["Details"] = {
-								["Patchwerk"] = {
-									["count"] = 27,
-								},
-								["Defender of the Light"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 27,
-						},
-						["Blood Plague (DoT)"] = {
-							["Details"] = {
-								["Patchwerk"] = {
-									["count"] = 27,
-								},
-								["Defender of the Light"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 27,
-						},
+					["RunicPowerGainedFrom"] = {
 					},
-					["ElementDoneResist"] = {
-						["Frost"] = 1491,
-						["Shadow"] = 1223,
-					},
-					["Ressed"] = 0,
-					["DamageTaken"] = 9266,
-					["RageGainedFrom"] = {
-					},
-					["ElementHitsTaken"] = {
-						["Physical"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 20,
-								},
-								["Dodge"] = {
-									["count"] = 1,
-								},
-								["Miss"] = {
-									["count"] = 2,
-								},
-								["Crit"] = {
-									["count"] = 5,
-								},
-								["Parry"] = {
-									["count"] = 3,
-								},
-							},
-							["amount"] = 31,
-						},
-						["Holy"] = {
-							["Details"] = {
-								["Deflect"] = {
-									["count"] = 0,
-								},
-								["Hit"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["DeathCount"] = 0,
-					["HOT_Time"] = 36,
 					["ElementHitsDone"] = {
-						["Shadow"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 3,
-								},
-								["Tick"] = {
-									["count"] = 9,
-								},
-								["Miss"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 12,
-						},
 						["Frost"] = {
 							["Details"] = {
 								["Tick"] = {
-									["count"] = 9,
+									["count"] = 0,
 								},
 								["Crit"] = {
-									["count"] = 1,
+									["count"] = 0,
 								},
 								["Hit"] = {
-									["count"] = 2,
+									["count"] = 0,
 								},
 							},
-							["amount"] = 12,
+							["amount"] = 0,
+						},
+						["Physical"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 0,
+								},
+								["Crit"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
 						},
 						["Melee"] = {
 							["Details"] = {
 								["Glancing"] = {
-									["count"] = 5,
+									["count"] = 0,
 								},
 								["Crit"] = {
-									["count"] = 1,
+									["count"] = 0,
 								},
 								["Hit"] = {
-									["count"] = 5,
+									["count"] = 0,
 								},
 							},
-							["amount"] = 11,
+							["amount"] = 0,
 						},
-						["Physical"] = {
+						["Shadow"] = {
 							["Details"] = {
-								["Miss"] = {
-									["count"] = 1,
-								},
-								["Crit"] = {
-									["count"] = 2,
-								},
 								["Hit"] = {
-									["count"] = 10,
+									["count"] = 0,
+								},
+								["Tick"] = {
+									["count"] = 0,
+								},
+								["Miss"] = {
+									["count"] = 0,
 								},
 							},
-							["amount"] = 13,
+							["amount"] = 0,
 						},
 					},
+					["ManaGainedFrom"] = {
+					},
+					["WhoDamaged"] = {
+						["Kobold Tunneler"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Carrion Recluse"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Plague Spreader"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Flesh Eating Worm"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Patchwerk"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Environment"] = {
+							["Details"] = {
+								["Falling"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Miner"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Defender of the Light"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Holy Strike"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Skeletal Raider"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Skeletal Fiend"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["RunicPowerGained"] = {
+					},
+					["CCBroken"] = {
+					},
+					["ElementDoneBlock"] = {
+						["Melee"] = 0,
+						["Physical"] = 0,
+					},
+					["TimeHealing"] = {
+						["Flocius"] = {
+							["Details"] = {
+								["The Might of Mograine"] = {
+									["count"] = 0,
+								},
+								["Death Strike"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["Dispelled"] = 0,
+					["WhoHealed"] = {
+						["Highlord Darion Mograine"] = {
+							["Details"] = {
+								["The Might of Mograine"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Flocius"] = {
+							["Details"] = {
+								["The Might of Mograine"] = {
+									["count"] = 0,
+								},
+								["Death Strike"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["HealedWho"] = {
+						["Flocius"] = {
+							["Details"] = {
+								["The Might of Mograine"] = {
+									["count"] = 0,
+								},
+								["Death Strike"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["CCBreak"] = 0,
 					["ElementTakenAbsorb"] = {
 						["Holy"] = 0,
 					},
-					["ElementTaken"] = {
-						["Physical"] = 0,
-						["Melee"] = 9266,
-						["Holy"] = 0,
-					},
-					["DOT_Time"] = 54,
-					["Damage"] = 66402,
-					["ElementTakenBlock"] = {
-					},
-					["TimeHeal"] = 6.08,
-					["RessedWho"] = {
-					},
-					["Dispels"] = 0,
-					["ElementTakenResist"] = {
-					},
-					["ElementDoneAbsorb"] = {
-					},
-					["FAttacks"] = {
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementDone"] = {
-						["Shadow"] = 11421,
-						["Frost"] = 11042,
-						["Melee"] = 19258,
-						["Physical"] = 24681,
+					["FDamage"] = 0,
+					["EnergyGain"] = 0,
+					["ManaGained"] = {
 					},
 					["PartialAbsorb"] = {
 						["Falling"] = {
@@ -4443,43 +4361,77 @@ RecountPerCharDB = {
 								["No Absorb"] = {
 									["max"] = 0,
 									["min"] = 0,
-									["count"] = 31,
+									["count"] = 0,
 									["amount"] = 0,
 								},
 							},
-							["count"] = 31,
+							["count"] = 0,
 							["amount"] = 0,
 						},
 					},
-					["DamagedWho"] = {
-						["Patchwerk"] = {
+					["ActiveTime"] = 0,
+					["Overhealing"] = 0,
+					["TimeSpent"] = {
+						["Skeletal Healer"] = {
 							["Details"] = {
-								["Death Coil"] = {
-									["count"] = 6202,
+								["Icy Touch"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Tunneler"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Icy Touch"] = {
+									["count"] = 0,
 								},
 								["Blood Strike"] = {
-									["count"] = 8554,
-								},
-								["Melee"] = {
-									["count"] = 19258,
-								},
-								["Blood Plague (DoT)"] = {
-									["count"] = 5219,
-								},
-								["Icy Touch"] = {
-									["count"] = 6192,
-								},
-								["Plague Strike"] = {
-									["count"] = 3133,
+									["count"] = 0,
 								},
 								["Death Strike"] = {
-									["count"] = 12994,
+									["count"] = 0,
 								},
-								["Frost Fever (DoT)"] = {
-									["count"] = 4850,
+								["Blood Boil"] = {
+									["count"] = 0,
 								},
 							},
-							["amount"] = 66402,
+							["amount"] = 0,
+						},
+						["Skeletal Horror"] = {
+							["Details"] = {
+								["Plague Strike"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Blood Boil"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Flesh Eating Worm"] = {
+							["Details"] = {
+								["Blood Boil"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Goldtooth"] = {
+							["Details"] = {
+								["Blood Strike"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
 						},
 						["Defender of the Light"] = {
 							["Details"] = {
@@ -4501,16 +4453,84 @@ RecountPerCharDB = {
 							},
 							["amount"] = 0,
 						},
-					},
-					["PartialBlock"] = {
-					},
-					["WhoDamaged"] = {
-						["Defender of the Light"] = {
+						["Skeletal Raider"] = {
+							["Details"] = {
+								["Icy Touch"] = {
+									["count"] = 0,
+								},
+								["Death Coil"] = {
+									["count"] = 0,
+								},
+								["Death Strike"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Flocius"] = {
+							["Details"] = {
+								["The Might of Mograine"] = {
+									["count"] = 0,
+								},
+								["Death Strike"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Commander Eligor Dawnbringer"] = {
+							["Details"] = {
+								["Pestilence"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Carrion Recluse"] = {
+							["Details"] = {
+								["Icy Touch"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Plague Spreader"] = {
+							["Details"] = {
+								["Death Coil"] = {
+									["count"] = 0,
+								},
+								["Death Strike"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Rotted One"] = {
 							["Details"] = {
 								["Melee"] = {
 									["count"] = 0,
 								},
-								["Holy Strike"] = {
+								["Death Coil"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Skeletal Fiend"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Death Strike"] = {
 									["count"] = 0,
 								},
 							},
@@ -4518,22 +4538,118 @@ RecountPerCharDB = {
 						},
 						["Patchwerk"] = {
 							["Details"] = {
+								["Blood Strike"] = {
+									["count"] = 0,
+								},
+								["Death Strike"] = {
+									["count"] = 0,
+								},
+								["Blood Plague (DoT)"] = {
+									["count"] = 0,
+								},
+								["Death Coil"] = {
+									["count"] = 0,
+								},
+								["Icy Touch"] = {
+									["count"] = 0,
+								},
+								["Plague Strike"] = {
+									["count"] = 0,
+								},
+								["Frost Fever (DoT)"] = {
+									["count"] = 0,
+								},
 								["Melee"] = {
-									["count"] = 9266,
+									["count"] = 0,
 								},
 							},
-							["amount"] = 9266,
+							["amount"] = 0,
 						},
-						["Environment"] = {
+						["Kobold Miner"] = {
 							["Details"] = {
-								["Falling"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Blood Strike"] = {
+									["count"] = 0,
+								},
+								["Icy Touch"] = {
+									["count"] = 0,
+								},
+								["Death Strike"] = {
+									["count"] = 0,
+								},
+								["Blood Boil"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Flesh Eater"] = {
+							["Details"] = {
+								["Death Coil"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Bone Chewer"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Expert's Training Dummy"] = {
+							["Details"] = {
+								["Frost Fever (DoT)"] = {
+									["count"] = 0,
+								},
+								["Blood Plague (DoT)"] = {
 									["count"] = 0,
 								},
 							},
 							["amount"] = 0,
 						},
 					},
-					["EnergyGainedFrom"] = {
+					["WhoDispelled"] = {
+					},
+					["InterruptData"] = {
+					},
+					["ElementTakenResist"] = {
+					},
+					["Heals"] = {
+						["The Might of Mograine"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Death Strike"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["Interrupts"] = 0,
+					["EnergyGained"] = {
 					},
 					["PartialResist"] = {
 						["Falling"] = {
@@ -4565,45 +4681,29 @@ RecountPerCharDB = {
 								["No Resist"] = {
 									["max"] = 0,
 									["min"] = 0,
-									["count"] = 31,
+									["count"] = 0,
 									["amount"] = 0,
 								},
 							},
-							["count"] = 31,
+							["count"] = 0,
 							["amount"] = 0,
 						},
 					},
-					["CCBroken"] = {
-					},
-					["ElementDoneBlock"] = {
-						["Melee"] = 31,
-						["Physical"] = 31,
-					},
-					["TimeHealing"] = {
-						["Flocius"] = {
-							["Details"] = {
-								["The Might of Mograine"] = {
-									["count"] = 5.26,
-								},
-								["Death Strike"] = {
-									["count"] = 0.82,
-								},
-							},
-							["amount"] = 6.08,
-						},
+					["Healing"] = 0,
+					["RageGained"] = {
 					},
 					["OverHeals"] = {
 						["The Might of Mograine"] = {
 							["Details"] = {
 								["Tick"] = {
-									["max"] = 4753,
-									["min"] = 3801,
-									["count"] = 12,
-									["amount"] = 51566,
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
 								},
 							},
-							["count"] = 12,
-							["amount"] = 51566,
+							["count"] = 0,
+							["amount"] = 0,
 						},
 						["Blood Presence"] = {
 							["Details"] = {
@@ -4620,219 +4720,76 @@ RecountPerCharDB = {
 						["Death Strike"] = {
 							["Details"] = {
 								["Hit"] = {
-									["max"] = 3027,
-									["min"] = 2759,
-									["count"] = 5,
-									["amount"] = 14867,
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
 								},
 							},
-							["count"] = 5,
-							["amount"] = 14867,
-						},
-					},
-					["ManaGainedFrom"] = {
-					},
-					["RunicPowerGained"] = {
-					},
-					["CCBreak"] = 0,
-					["RageGained"] = {
-					},
-					["HealedWho"] = {
-						["Flocius"] = {
-							["Details"] = {
-								["The Might of Mograine"] = {
-									["count"] = 8998,
-								},
-								["Death Strike"] = {
-									["count"] = 268,
-								},
-							},
-							["amount"] = 9266,
-						},
-					},
-					["EnergyGain"] = 0,
-					["ManaGained"] = {
-					},
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
-					["Overhealing"] = 66433,
-					["TimeSpent"] = {
-						["Flocius"] = {
-							["Details"] = {
-								["The Might of Mograine"] = {
-									["count"] = 5.26,
-								},
-								["Death Strike"] = {
-									["count"] = 0.82,
-								},
-							},
-							["amount"] = 6.08,
-						},
-						["Defender of the Light"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Icy Touch"] = {
-									["count"] = 0,
-								},
-								["Plague Strike"] = {
-									["count"] = 0,
-								},
-								["Frost Fever (DoT)"] = {
-									["count"] = 0,
-								},
-								["Blood Plague (DoT)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Patchwerk"] = {
-							["Details"] = {
-								["Death Coil"] = {
-									["count"] = 1.4,
-								},
-								["Blood Strike"] = {
-									["count"] = 2.33,
-								},
-								["Melee"] = {
-									["count"] = 5.01,
-								},
-								["Blood Plague (DoT)"] = {
-									["count"] = 7.889999999999999,
-								},
-								["Icy Touch"] = {
-									["count"] = 4.1,
-								},
-								["Plague Strike"] = {
-									["count"] = 3.38,
-								},
-								["Death Strike"] = {
-									["count"] = 1.34,
-								},
-								["Frost Fever (DoT)"] = {
-									["count"] = 6.699999999999999,
-								},
-							},
-							["amount"] = 32.15000000000001,
-						},
-						["Commander Eligor Dawnbringer"] = {
-							["Details"] = {
-								["Pestilence"] = {
-									["count"] = 0,
-								},
-							},
+							["count"] = 0,
 							["amount"] = 0,
 						},
 					},
-					["WhoDispelled"] = {
-					},
-					["InterruptData"] = {
-					},
-					["RunicPowerGain"] = 0,
-					["Heals"] = {
-						["The Might of Mograine"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 1246,
-									["min"] = 294,
-									["count"] = 12,
-									["amount"] = 8998,
-								},
-							},
-							["count"] = 12,
-							["amount"] = 8998,
-						},
-						["Death Strike"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 268,
-									["min"] = 268,
-									["count"] = 1,
-									["amount"] = 268,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 268,
-						},
-					},
-					["WhoHealed"] = {
-						["Highlord Darion Mograine"] = {
-							["Details"] = {
-								["The Might of Mograine"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Flocius"] = {
-							["Details"] = {
-								["The Might of Mograine"] = {
-									["count"] = 8998,
-								},
-								["Death Strike"] = {
-									["count"] = 268,
-								},
-							},
-							["amount"] = 9266,
-						},
-					},
-					["EnergyGained"] = {
-					},
-					["ActiveTime"] = 38.22999999999999,
-					["Healing"] = 9266,
-					["FDamagedWho"] = {
-					},
-					["Dispelled"] = 0,
 					["Attacks"] = {
 						["Melee"] = {
 							["Details"] = {
 								["Hit (Blocked)"] = {
-									["max"] = 1724,
-									["min"] = 1724,
-									["count"] = 1,
-									["amount"] = 1724,
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
 								},
 								["Glancing"] = {
-									["max"] = 1524,
-									["min"] = 1209,
-									["count"] = 5,
-									["amount"] = 6598,
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
 								},
 								["Crit"] = {
-									["max"] = 3212,
-									["min"] = 3212,
-									["count"] = 1,
-									["amount"] = 3212,
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
 								},
 								["Hit"] = {
-									["max"] = 2043,
+									["max"] = 0,
 									["min"] = 0,
-									["count"] = 4,
-									["amount"] = 7724,
+									["count"] = 0,
+									["amount"] = 0,
 								},
 							},
-							["count"] = 11,
-							["amount"] = 19258,
+							["count"] = 0,
+							["amount"] = 0,
 						},
 						["Icy Touch"] = {
 							["Details"] = {
 								["Crit"] = {
-									["max"] = 2858,
-									["min"] = 2858,
-									["count"] = 1,
-									["amount"] = 2858,
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
 								},
 								["Hit"] = {
-									["max"] = 1758,
+									["max"] = 0,
 									["min"] = 0,
-									["count"] = 2,
-									["amount"] = 3334,
+									["count"] = 0,
+									["amount"] = 0,
 								},
 							},
-							["count"] = 3,
-							["amount"] = 6192,
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Blood Boil"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
 						},
 						["Pestilence"] = {
 							["Details"] = {
@@ -4847,102 +4804,182 @@ RecountPerCharDB = {
 						["Blood Plague (DoT)"] = {
 							["Details"] = {
 								["Tick"] = {
-									["max"] = 636,
+									["max"] = 0,
 									["min"] = 0,
-									["count"] = 9,
-									["amount"] = 5219,
+									["count"] = 0,
+									["amount"] = 0,
 								},
 							},
-							["count"] = 9,
-							["amount"] = 5219,
+							["count"] = 0,
+							["amount"] = 0,
 						},
 						["Death Coil"] = {
 							["Details"] = {
 								["Hit"] = {
-									["max"] = 2154,
-									["min"] = 1915,
-									["count"] = 3,
-									["amount"] = 6202,
-								},
-							},
-							["count"] = 3,
-							["amount"] = 6202,
-						},
-						["Blood Strike"] = {
-							["Details"] = {
-								["Hit (Blocked)"] = {
-									["max"] = 1672,
-									["min"] = 1672,
-									["count"] = 1,
-									["amount"] = 1672,
-								},
-								["Hit"] = {
-									["max"] = 1826,
-									["min"] = 1634,
-									["count"] = 2,
-									["amount"] = 3460,
-								},
-								["Crit"] = {
-									["max"] = 3422,
-									["min"] = 3422,
-									["count"] = 1,
-									["amount"] = 3422,
-								},
-								["Miss"] = {
-									["count"] = 1,
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
 									["amount"] = 0,
 								},
 							},
-							["count"] = 5,
-							["amount"] = 8554,
-						},
-						["Plague Strike"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 1111,
-									["min"] = 0,
-									["count"] = 3,
-									["amount"] = 3133,
-								},
-							},
-							["count"] = 3,
-							["amount"] = 3133,
+							["count"] = 0,
+							["amount"] = 0,
 						},
 						["Frost Fever (DoT)"] = {
 							["Details"] = {
 								["Tick"] = {
-									["max"] = 606,
+									["max"] = 0,
 									["min"] = 0,
-									["count"] = 9,
-									["amount"] = 4850,
+									["count"] = 0,
+									["amount"] = 0,
 								},
 							},
-							["count"] = 9,
-							["amount"] = 4850,
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Plague Strike"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
 						},
 						["Death Strike"] = {
 							["Details"] = {
+								["Crit (Blocked)"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit (Blocked)"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
 								["Crit"] = {
-									["max"] = 4686,
-									["min"] = 4686,
-									["count"] = 1,
-									["amount"] = 4686,
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
 								},
 								["Hit"] = {
-									["max"] = 2304,
-									["min"] = 1899,
-									["count"] = 4,
-									["amount"] = 8308,
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
 								},
 							},
-							["count"] = 5,
-							["amount"] = 12994,
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Blood Strike"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit (Blocked)"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Miss"] = {
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Crit (Blocked)"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
 						},
 					},
-					["HealingTaken"] = 9266,
 					["RageGain"] = 0,
-					["TimeDamage"] = 32.15000000000001,
+					["FDamagedWho"] = {
+					},
+					["TimeDamage"] = 0,
 					["TimeDamaging"] = {
+						["Skeletal Healer"] = {
+							["Details"] = {
+								["Icy Touch"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Tunneler"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Icy Touch"] = {
+									["count"] = 0,
+								},
+								["Blood Strike"] = {
+									["count"] = 0,
+								},
+								["Death Strike"] = {
+									["count"] = 0,
+								},
+								["Blood Boil"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Skeletal Horror"] = {
+							["Details"] = {
+								["Plague Strike"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Blood Boil"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Flesh Eating Worm"] = {
+							["Details"] = {
+								["Blood Boil"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Goldtooth"] = {
+							["Details"] = {
+								["Blood Strike"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
 						["Defender of the Light"] = {
 							["Details"] = {
 								["Melee"] = {
@@ -4963,34 +5000,33 @@ RecountPerCharDB = {
 							},
 							["amount"] = 0,
 						},
-						["Patchwerk"] = {
+						["Skeletal Raider"] = {
 							["Details"] = {
-								["Death Coil"] = {
-									["count"] = 1.4,
-								},
-								["Blood Strike"] = {
-									["count"] = 2.33,
-								},
-								["Melee"] = {
-									["count"] = 5.01,
-								},
-								["Blood Plague (DoT)"] = {
-									["count"] = 7.889999999999999,
-								},
 								["Icy Touch"] = {
-									["count"] = 4.1,
+									["count"] = 0,
 								},
-								["Plague Strike"] = {
-									["count"] = 3.38,
+								["Death Coil"] = {
+									["count"] = 0,
 								},
 								["Death Strike"] = {
-									["count"] = 1.34,
+									["count"] = 0,
 								},
-								["Frost Fever (DoT)"] = {
-									["count"] = 6.699999999999999,
+								["Melee"] = {
+									["count"] = 0,
 								},
 							},
-							["amount"] = 32.15000000000001,
+							["amount"] = 0,
+						},
+						["Flesh Eater"] = {
+							["Details"] = {
+								["Death Coil"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
 						},
 						["Commander Eligor Dawnbringer"] = {
 							["Details"] = {
@@ -5000,18 +5036,194 @@ RecountPerCharDB = {
 							},
 							["amount"] = 0,
 						},
-					},
-					["ManaGain"] = 0,
-					["HOTs"] = {
-						["The Might of Mograine"] = {
+						["Carrion Recluse"] = {
 							["Details"] = {
-								["Flocius"] = {
-									["count"] = 36,
+								["Icy Touch"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
 								},
 							},
-							["amount"] = 36,
+							["amount"] = 0,
 						},
-						["Blood Presence"] = {
+						["Plague Spreader"] = {
+							["Details"] = {
+								["Death Coil"] = {
+									["count"] = 0,
+								},
+								["Death Strike"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Rotted One"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Death Coil"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Patchwerk"] = {
+							["Details"] = {
+								["Blood Strike"] = {
+									["count"] = 0,
+								},
+								["Death Strike"] = {
+									["count"] = 0,
+								},
+								["Blood Plague (DoT)"] = {
+									["count"] = 0,
+								},
+								["Death Coil"] = {
+									["count"] = 0,
+								},
+								["Icy Touch"] = {
+									["count"] = 0,
+								},
+								["Plague Strike"] = {
+									["count"] = 0,
+								},
+								["Frost Fever (DoT)"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Miner"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Blood Strike"] = {
+									["count"] = 0,
+								},
+								["Icy Touch"] = {
+									["count"] = 0,
+								},
+								["Death Strike"] = {
+									["count"] = 0,
+								},
+								["Blood Boil"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Skeletal Fiend"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Death Strike"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Bone Chewer"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Expert's Training Dummy"] = {
+							["Details"] = {
+								["Frost Fever (DoT)"] = {
+									["count"] = 0,
+								},
+								["Blood Plague (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ManaGain"] = 0,
+					["DOT_Time"] = 0,
+					["DispelledWho"] = {
+					},
+				},
+				["Fight2"] = {
+					["DOTs"] = {
+						["Frost Fever (DoT)"] = {
+							["Details"] = {
+								["Terrifying Abomination"] = {
+									["count"] = 0,
+								},
+								["Carrion Recluse"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 0,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Dodge"] = {
+									["count"] = 0,
+								},
+								["Miss"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 0,
+								},
+								["Crit"] = {
+									["count"] = 0,
+								},
+								["Parry"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Physical"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 0,
+								},
+								["Parry"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["ElementTakenBlock"] = {
+					},
+					["RunicPowerGain"] = 0,
+					["ElementTaken"] = {
+						["Melee"] = 0,
+						["Physical"] = 0,
+					},
+					["HOTs"] = {
+						["The Might of Mograine"] = {
 							["Details"] = {
 								["Flocius"] = {
 									["count"] = 0,
@@ -5020,6 +5232,2225 @@ RecountPerCharDB = {
 							["amount"] = 0,
 						},
 					},
+					["Damage"] = 2939,
+					["ElementDoneAbsorb"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["PartialBlock"] = {
+					},
+					["DamagedWho"] = {
+						["Flesh Eater"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Tunneler"] = {
+							["Details"] = {
+								["Icy Touch"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Blood Boil"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Terrifying Abomination"] = {
+							["Details"] = {
+								["Blood Strike"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Death Strike"] = {
+									["count"] = 0,
+								},
+								["Icy Touch"] = {
+									["count"] = 0,
+								},
+								["Death Coil"] = {
+									["count"] = 0,
+								},
+								["Frost Fever (DoT)"] = {
+									["count"] = 0,
+								},
+								["Blood Boil"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Carrion Recluse"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Icy Touch"] = {
+									["count"] = 0,
+								},
+								["Death Coil"] = {
+									["count"] = 0,
+								},
+								["Frost Fever (DoT)"] = {
+									["count"] = 0,
+								},
+								["Blood Boil"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Plague Spreader"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Blood Strike"] = {
+									["count"] = 0,
+								},
+								["Icy Touch"] = {
+									["count"] = 0,
+								},
+								["Death Coil"] = {
+									["count"] = 0,
+								},
+								["Blood Boil"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Flesh Eating Worm"] = {
+							["Details"] = {
+								["Blood Boil"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Goldtooth"] = {
+							["Details"] = {
+								["Blood Boil"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Rat"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 2256,
+								},
+								["Blood Boil"] = {
+									["count"] = 683,
+								},
+							},
+							["amount"] = 2939,
+						},
+						["Kobold Miner"] = {
+							["Details"] = {
+								["Blood Strike"] = {
+									["count"] = 0,
+								},
+								["Icy Touch"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Blood Boil"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Rotted One"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["FAttacks"] = {
+					},
+					["HealingTaken"] = 0,
+					["ElementDone"] = {
+						["Shadow"] = 683,
+						["Frost"] = 0,
+						["Melee"] = 2256,
+						["Physical"] = 0,
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementHitsDone"] = {
+						["Shadow"] = {
+							["Details"] = {
+								["Crit"] = {
+									["count"] = 1,
+								},
+								["Hit"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 2,
+						},
+						["Frost"] = {
+							["Details"] = {
+								["Tick"] = {
+									["count"] = 0,
+								},
+								["Crit"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Glancing"] = {
+									["count"] = 0,
+								},
+								["Crit"] = {
+									["count"] = 2,
+								},
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 2,
+						},
+						["Physical"] = {
+							["Details"] = {
+								["Crit"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ManaGainedFrom"] = {
+					},
+					["WhoDamaged"] = {
+						["Plague Spreader"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Flesh Eating Worm"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Goldtooth"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Tunneler"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Terrifying Abomination"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Cleave"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Miner"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Carrion Recluse"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Environment"] = {
+							["Details"] = {
+								["Falling"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["RunicPowerGained"] = {
+					},
+					["CCBroken"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+						["Flocius"] = {
+							["Details"] = {
+								["The Might of Mograine"] = {
+									["count"] = 0,
+								},
+								["Death Strike"] = {
+									["count"] = 0,
+								},
+								["Rune Tap"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["Dispelled"] = 0,
+					["WhoHealed"] = {
+						["Flocius"] = {
+							["Details"] = {
+								["The Might of Mograine"] = {
+									["count"] = 0,
+								},
+								["Death Strike"] = {
+									["count"] = 0,
+								},
+								["Rune Tap"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["HealedWho"] = {
+						["Flocius"] = {
+							["Details"] = {
+								["The Might of Mograine"] = {
+									["count"] = 0,
+								},
+								["Death Strike"] = {
+									["count"] = 0,
+								},
+								["Rune Tap"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["CCBreak"] = 0,
+					["ElementTakenAbsorb"] = {
+					},
+					["FDamage"] = 0,
+					["EnergyGain"] = 0,
+					["ManaGained"] = {
+					},
+					["PartialAbsorb"] = {
+						["Falling"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Cleave"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["ActiveTime"] = 10.5,
+					["Overhealing"] = 0,
+					["TimeSpent"] = {
+						["Flocius"] = {
+							["Details"] = {
+								["The Might of Mograine"] = {
+									["count"] = 0,
+								},
+								["Death Strike"] = {
+									["count"] = 0,
+								},
+								["Rune Tap"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Tunneler"] = {
+							["Details"] = {
+								["Icy Touch"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Blood Boil"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Terrifying Abomination"] = {
+							["Details"] = {
+								["Blood Strike"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Death Strike"] = {
+									["count"] = 0,
+								},
+								["Icy Touch"] = {
+									["count"] = 0,
+								},
+								["Death Coil"] = {
+									["count"] = 0,
+								},
+								["Frost Fever (DoT)"] = {
+									["count"] = 0,
+								},
+								["Blood Boil"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Carrion Recluse"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Icy Touch"] = {
+									["count"] = 0,
+								},
+								["Death Coil"] = {
+									["count"] = 0,
+								},
+								["Frost Fever (DoT)"] = {
+									["count"] = 0,
+								},
+								["Blood Boil"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Plague Spreader"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Blood Strike"] = {
+									["count"] = 0,
+								},
+								["Icy Touch"] = {
+									["count"] = 0,
+								},
+								["Death Coil"] = {
+									["count"] = 0,
+								},
+								["Blood Boil"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Flesh Eating Worm"] = {
+							["Details"] = {
+								["Blood Boil"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Goldtooth"] = {
+							["Details"] = {
+								["Blood Boil"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Rat"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 7,
+								},
+								["Blood Boil"] = {
+									["count"] = 3.5,
+								},
+							},
+							["amount"] = 10.5,
+						},
+						["Kobold Miner"] = {
+							["Details"] = {
+								["Blood Strike"] = {
+									["count"] = 0,
+								},
+								["Icy Touch"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Blood Boil"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Rotted One"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Flesh Eater"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["WhoDispelled"] = {
+					},
+					["InterruptData"] = {
+					},
+					["ElementTakenResist"] = {
+					},
+					["Heals"] = {
+						["The Might of Mograine"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Death Strike"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Rune Tap"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["Interrupts"] = 0,
+					["EnergyGained"] = {
+					},
+					["PartialResist"] = {
+						["Falling"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Cleave"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["Healing"] = 0,
+					["RageGained"] = {
+					},
+					["OverHeals"] = {
+						["The Might of Mograine"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Death Strike"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Rune Tap"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["Attacks"] = {
+						["Blood Strike"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Glancing"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Crit"] = {
+									["max"] = 1162,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 2256,
+								},
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 2256,
+						},
+						["Death Strike"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Icy Touch"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Death Coil"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Frost Fever (DoT)"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Blood Boil"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 453,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 453,
+								},
+								["Hit"] = {
+									["max"] = 230,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 230,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 683,
+						},
+					},
+					["RageGain"] = 0,
+					["FDamagedWho"] = {
+					},
+					["TimeDamage"] = 10.5,
+					["TimeDamaging"] = {
+						["Flesh Eater"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Tunneler"] = {
+							["Details"] = {
+								["Icy Touch"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Blood Boil"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Terrifying Abomination"] = {
+							["Details"] = {
+								["Blood Strike"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Death Strike"] = {
+									["count"] = 0,
+								},
+								["Icy Touch"] = {
+									["count"] = 0,
+								},
+								["Death Coil"] = {
+									["count"] = 0,
+								},
+								["Frost Fever (DoT)"] = {
+									["count"] = 0,
+								},
+								["Blood Boil"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Carrion Recluse"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Icy Touch"] = {
+									["count"] = 0,
+								},
+								["Death Coil"] = {
+									["count"] = 0,
+								},
+								["Frost Fever (DoT)"] = {
+									["count"] = 0,
+								},
+								["Blood Boil"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Plague Spreader"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Blood Strike"] = {
+									["count"] = 0,
+								},
+								["Icy Touch"] = {
+									["count"] = 0,
+								},
+								["Death Coil"] = {
+									["count"] = 0,
+								},
+								["Blood Boil"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Flesh Eating Worm"] = {
+							["Details"] = {
+								["Blood Boil"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Goldtooth"] = {
+							["Details"] = {
+								["Blood Boil"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Rat"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 7,
+								},
+								["Blood Boil"] = {
+									["count"] = 3.5,
+								},
+							},
+							["amount"] = 10.5,
+						},
+						["Kobold Miner"] = {
+							["Details"] = {
+								["Blood Strike"] = {
+									["count"] = 0,
+								},
+								["Icy Touch"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Blood Boil"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Rotted One"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ManaGain"] = 0,
+					["DOT_Time"] = 0,
+					["DispelledWho"] = {
+					},
+				},
+				["Fight4"] = {
+					["DOTs"] = {
+						["Frost Fever (DoT)"] = {
+							["Details"] = {
+								["Terrifying Abomination"] = {
+									["count"] = 0,
+								},
+								["Scourge Necromancer"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Blood Plague (DoT)"] = {
+							["Details"] = {
+								["Scourge Necromancer"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ElementDoneResist"] = {
+						["Frost"] = 0,
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 0,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+						["Physical"] = {
+							["Details"] = {
+								["Dodge"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 1,
+								},
+								["Parry"] = {
+									["count"] = 1,
+								},
+								["Dodge"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 2,
+						},
+						["Shadow"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["ElementTakenBlock"] = {
+					},
+					["RunicPowerGain"] = 0,
+					["ElementTaken"] = {
+						["Physical"] = 0,
+						["Melee"] = 0,
+						["Shadow"] = 0,
+					},
+					["HOTs"] = {
+						["The Might of Mograine"] = {
+							["Details"] = {
+								["Flocius"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["Damage"] = 1220,
+					["ElementDoneAbsorb"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["PartialBlock"] = {
+					},
+					["DamagedWho"] = {
+						["Flesh Eater"] = {
+							["Details"] = {
+								["Blood Strike"] = {
+									["count"] = 0,
+								},
+								["Death Coil"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Blood Boil"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Tunneler"] = {
+							["Details"] = {
+								["Blood Strike"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Death Strike"] = {
+									["count"] = 0,
+								},
+								["Blood Boil"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Terrifying Abomination"] = {
+							["Details"] = {
+								["Icy Touch"] = {
+									["count"] = 0,
+								},
+								["Frost Fever (DoT)"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Blood Strike"] = {
+									["count"] = 0,
+								},
+								["Death Coil"] = {
+									["count"] = 0,
+								},
+								["Plague Strike"] = {
+									["count"] = 0,
+								},
+								["Death Strike"] = {
+									["count"] = 0,
+								},
+								["Blood Boil"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Skeletal Horror"] = {
+							["Details"] = {
+								["Icy Touch"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 858,
+								},
+								["Blood Strike"] = {
+									["count"] = 362,
+								},
+							},
+							["amount"] = 1220,
+						},
+						["Scourge Necromancer"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Blood Strike"] = {
+									["count"] = 0,
+								},
+								["Blood Boil"] = {
+									["count"] = 0,
+								},
+								["Blood Plague (DoT)"] = {
+									["count"] = 0,
+								},
+								["Icy Touch"] = {
+									["count"] = 0,
+								},
+								["Frost Fever (DoT)"] = {
+									["count"] = 0,
+								},
+								["Plague Strike"] = {
+									["count"] = 0,
+								},
+								["Death Strike"] = {
+									["count"] = 0,
+								},
+								["Death Coil"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Skeletal Fiend"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Plague Spreader"] = {
+							["Details"] = {
+								["Blood Strike"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Flesh Eating Worm"] = {
+							["Details"] = {
+								["Death Coil"] = {
+									["count"] = 0,
+								},
+								["Blood Strike"] = {
+									["count"] = 0,
+								},
+								["Blood Boil"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Goldtooth"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Rotted One"] = {
+							["Details"] = {
+								["Icy Touch"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Death Strike"] = {
+									["count"] = 0,
+								},
+								["Blood Boil"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Miner"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Death Coil"] = {
+									["count"] = 0,
+								},
+								["Blood Strike"] = {
+									["count"] = 0,
+								},
+								["Death Strike"] = {
+									["count"] = 0,
+								},
+								["Blood Boil"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Bone Chewer"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Skeletal Raider"] = {
+							["Details"] = {
+								["Death Strike"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Carrion Recluse"] = {
+							["Details"] = {
+								["Blood Strike"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["FAttacks"] = {
+					},
+					["HealingTaken"] = 0,
+					["ElementDone"] = {
+						["Frost"] = 0,
+						["Physical"] = 362,
+						["Melee"] = 858,
+						["Shadow"] = 0,
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementHitsDone"] = {
+						["Frost"] = {
+							["Details"] = {
+								["Tick"] = {
+									["count"] = 0,
+								},
+								["Crit"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Physical"] = {
+							["Details"] = {
+								["Crit"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 1,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Glancing"] = {
+									["count"] = 0,
+								},
+								["Crit"] = {
+									["count"] = 1,
+								},
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 1,
+						},
+						["Shadow"] = {
+							["Details"] = {
+								["Tick"] = {
+									["count"] = 0,
+								},
+								["Crit"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ManaGainedFrom"] = {
+					},
+					["WhoDamaged"] = {
+						["Terrifying Abomination"] = {
+							["Details"] = {
+								["Scourge Hook"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Cleave"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Flesh Eater"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Scourge Necromancer"] = {
+							["Details"] = {
+								["Shadow Bolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Tunneler"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Miner"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Flesh Eating Worm"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Skeletal Raider"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Rotted One"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["RunicPowerGained"] = {
+					},
+					["CCBroken"] = {
+					},
+					["ElementDoneBlock"] = {
+						["Physical"] = 0,
+					},
+					["TimeHealing"] = {
+						["Flocius"] = {
+							["Details"] = {
+								["The Might of Mograine"] = {
+									["count"] = 0,
+								},
+								["Death Strike"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["Dispelled"] = 0,
+					["WhoHealed"] = {
+						["Flocius"] = {
+							["Details"] = {
+								["The Might of Mograine"] = {
+									["count"] = 0,
+								},
+								["Death Strike"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["HealedWho"] = {
+						["Flocius"] = {
+							["Details"] = {
+								["The Might of Mograine"] = {
+									["count"] = 0,
+								},
+								["Death Strike"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["CCBreak"] = 0,
+					["ElementTakenAbsorb"] = {
+					},
+					["FDamage"] = 0,
+					["EnergyGain"] = 0,
+					["ManaGained"] = {
+					},
+					["PartialAbsorb"] = {
+						["Cleave"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Scourge Hook"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 0,
+						},
+						["Shadow Bolt"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["ActiveTime"] = 3.42,
+					["Overhealing"] = 0,
+					["TimeSpent"] = {
+						["Flocius"] = {
+							["Details"] = {
+								["The Might of Mograine"] = {
+									["count"] = 0,
+								},
+								["Death Strike"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Skeletal Fiend"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Tunneler"] = {
+							["Details"] = {
+								["Blood Strike"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Death Strike"] = {
+									["count"] = 0,
+								},
+								["Blood Boil"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Terrifying Abomination"] = {
+							["Details"] = {
+								["Icy Touch"] = {
+									["count"] = 0,
+								},
+								["Frost Fever (DoT)"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Blood Strike"] = {
+									["count"] = 0,
+								},
+								["Death Coil"] = {
+									["count"] = 0,
+								},
+								["Plague Strike"] = {
+									["count"] = 0,
+								},
+								["Death Strike"] = {
+									["count"] = 0,
+								},
+								["Blood Boil"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Skeletal Horror"] = {
+							["Details"] = {
+								["Icy Touch"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 1.44,
+								},
+								["Blood Strike"] = {
+									["count"] = 1.98,
+								},
+							},
+							["amount"] = 3.42,
+						},
+						["Scourge Necromancer"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Blood Strike"] = {
+									["count"] = 0,
+								},
+								["Blood Boil"] = {
+									["count"] = 0,
+								},
+								["Blood Plague (DoT)"] = {
+									["count"] = 0,
+								},
+								["Icy Touch"] = {
+									["count"] = 0,
+								},
+								["Frost Fever (DoT)"] = {
+									["count"] = 0,
+								},
+								["Plague Strike"] = {
+									["count"] = 0,
+								},
+								["Death Strike"] = {
+									["count"] = 0,
+								},
+								["Death Coil"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Rotted One"] = {
+							["Details"] = {
+								["Icy Touch"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Death Strike"] = {
+									["count"] = 0,
+								},
+								["Blood Boil"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Plague Spreader"] = {
+							["Details"] = {
+								["Blood Strike"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Flesh Eating Worm"] = {
+							["Details"] = {
+								["Death Coil"] = {
+									["count"] = 0,
+								},
+								["Blood Strike"] = {
+									["count"] = 0,
+								},
+								["Blood Boil"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Goldtooth"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Flesh Eater"] = {
+							["Details"] = {
+								["Blood Strike"] = {
+									["count"] = 0,
+								},
+								["Death Coil"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Blood Boil"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Miner"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Death Coil"] = {
+									["count"] = 0,
+								},
+								["Blood Strike"] = {
+									["count"] = 0,
+								},
+								["Death Strike"] = {
+									["count"] = 0,
+								},
+								["Blood Boil"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Bone Chewer"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Skeletal Raider"] = {
+							["Details"] = {
+								["Death Strike"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Carrion Recluse"] = {
+							["Details"] = {
+								["Blood Strike"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["WhoDispelled"] = {
+					},
+					["InterruptData"] = {
+					},
+					["ElementTakenResist"] = {
+					},
+					["Heals"] = {
+						["The Might of Mograine"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Death Strike"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["Interrupts"] = 0,
+					["EnergyGained"] = {
+					},
+					["PartialResist"] = {
+						["Cleave"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Scourge Hook"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 0,
+						},
+						["Shadow Bolt"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["Healing"] = 0,
+					["RageGained"] = {
+					},
+					["OverHeals"] = {
+						["The Might of Mograine"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Death Strike"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["Attacks"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Glancing"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Crit"] = {
+									["max"] = 858,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 858,
+								},
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 858,
+						},
+						["Icy Touch"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Blood Boil"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Blood Plague (DoT)"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Death Coil"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Frost Fever (DoT)"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Plague Strike"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Death Strike"] = {
+							["Details"] = {
+								["Crit (Blocked)"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Blood Strike"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 362,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 362,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 362,
+						},
+					},
+					["RageGain"] = 0,
+					["FDamagedWho"] = {
+					},
+					["TimeDamage"] = 3.42,
+					["TimeDamaging"] = {
+						["Flesh Eater"] = {
+							["Details"] = {
+								["Blood Strike"] = {
+									["count"] = 0,
+								},
+								["Death Coil"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Blood Boil"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Tunneler"] = {
+							["Details"] = {
+								["Blood Strike"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Death Strike"] = {
+									["count"] = 0,
+								},
+								["Blood Boil"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Terrifying Abomination"] = {
+							["Details"] = {
+								["Icy Touch"] = {
+									["count"] = 0,
+								},
+								["Frost Fever (DoT)"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Blood Strike"] = {
+									["count"] = 0,
+								},
+								["Death Coil"] = {
+									["count"] = 0,
+								},
+								["Plague Strike"] = {
+									["count"] = 0,
+								},
+								["Death Strike"] = {
+									["count"] = 0,
+								},
+								["Blood Boil"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Skeletal Horror"] = {
+							["Details"] = {
+								["Icy Touch"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 1.44,
+								},
+								["Blood Strike"] = {
+									["count"] = 1.98,
+								},
+							},
+							["amount"] = 3.42,
+						},
+						["Scourge Necromancer"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Blood Strike"] = {
+									["count"] = 0,
+								},
+								["Blood Boil"] = {
+									["count"] = 0,
+								},
+								["Blood Plague (DoT)"] = {
+									["count"] = 0,
+								},
+								["Icy Touch"] = {
+									["count"] = 0,
+								},
+								["Frost Fever (DoT)"] = {
+									["count"] = 0,
+								},
+								["Plague Strike"] = {
+									["count"] = 0,
+								},
+								["Death Strike"] = {
+									["count"] = 0,
+								},
+								["Death Coil"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Skeletal Fiend"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Plague Spreader"] = {
+							["Details"] = {
+								["Blood Strike"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Flesh Eating Worm"] = {
+							["Details"] = {
+								["Death Coil"] = {
+									["count"] = 0,
+								},
+								["Blood Strike"] = {
+									["count"] = 0,
+								},
+								["Blood Boil"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Goldtooth"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Rotted One"] = {
+							["Details"] = {
+								["Icy Touch"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Death Strike"] = {
+									["count"] = 0,
+								},
+								["Blood Boil"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Miner"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Death Coil"] = {
+									["count"] = 0,
+								},
+								["Blood Strike"] = {
+									["count"] = 0,
+								},
+								["Death Strike"] = {
+									["count"] = 0,
+								},
+								["Blood Boil"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Bone Chewer"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Skeletal Raider"] = {
+							["Details"] = {
+								["Death Strike"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Carrion Recluse"] = {
+							["Details"] = {
+								["Blood Strike"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ManaGain"] = 0,
+					["DOT_Time"] = 0,
 					["DispelledWho"] = {
 					},
 				},
@@ -5027,164 +7458,119 @@ RecountPerCharDB = {
 					["DOTs"] = {
 						["Frost Fever (DoT)"] = {
 							["Details"] = {
-								["Patchwerk"] = {
+								["Scourge Necromancer"] = {
+									["count"] = 0,
+								},
+								["Expert's Training Dummy"] = {
+									["count"] = 36,
+								},
+								["Mor'Ladim"] = {
 									["count"] = 0,
 								},
 							},
-							["amount"] = 0,
+							["amount"] = 36,
 						},
 						["Blood Plague (DoT)"] = {
 							["Details"] = {
-								["Patchwerk"] = {
-									["count"] = 0,
+								["Expert's Training Dummy"] = {
+									["count"] = 36,
 								},
 							},
-							["amount"] = 0,
+							["amount"] = 36,
 						},
 					},
 					["ElementDoneResist"] = {
-						["Shadow"] = 0,
-						["Frost"] = 0,
+						["Shadow"] = 132,
+						["Frost"] = 10,
 					},
 					["Ressed"] = 0,
-					["DamageTaken"] = 3,
+					["DamageTaken"] = 0,
 					["RageGainedFrom"] = {
 					},
 					["ElementHitsTaken"] = {
 						["Melee"] = {
 							["Details"] = {
-								["Parry"] = {
-									["count"] = 1,
+								["Dodge"] = {
+									["count"] = 0,
 								},
 								["Hit"] = {
-									["count"] = 3,
+									["count"] = 0,
 								},
-								["Dodge"] = {
-									["count"] = 2,
+								["Miss"] = {
+									["count"] = 0,
+								},
+								["Parry"] = {
+									["count"] = 0,
 								},
 							},
-							["amount"] = 6,
+							["amount"] = 0,
 						},
 					},
 					["DeathCount"] = 0,
 					["HOT_Time"] = 0,
-					["ElementHitsDone"] = {
-						["Shadow"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 0,
-								},
-								["Tick"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Frost"] = {
-							["Details"] = {
-								["Tick"] = {
-									["count"] = 0,
-								},
-								["Hit"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["Crit"] = {
-									["count"] = 0,
-								},
-								["Glancing"] = {
-									["count"] = 1,
-								},
-							},
-							["amount"] = 1,
-						},
-						["Physical"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["ElementTakenAbsorb"] = {
-					},
-					["ElementTaken"] = {
-						["Melee"] = 3,
-					},
-					["DOT_Time"] = 0,
-					["Damage"] = 3943,
 					["ElementTakenBlock"] = {
+					},
+					["RunicPowerGain"] = 0,
+					["ElementTaken"] = {
+						["Melee"] = 0,
+					},
+					["HOTs"] = {
+					},
+					["Damage"] = 8699,
+					["ElementDoneAbsorb"] = {
 					},
 					["TimeHeal"] = 0,
 					["RessedWho"] = {
 					},
 					["Dispels"] = 0,
-					["ElementTakenResist"] = {
-					},
-					["ElementDoneAbsorb"] = {
-					},
-					["FAttacks"] = {
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementDone"] = {
-						["Shadow"] = 0,
-						["Frost"] = 0,
-						["Melee"] = 3943,
-						["Physical"] = 0,
-					},
-					["PartialAbsorb"] = {
-						["Melee"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 6,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 6,
-							["amount"] = 0,
-						},
+					["PartialBlock"] = {
 					},
 					["DamagedWho"] = {
 						["Kobold Tunneler"] = {
 							["Details"] = {
-								["Melee"] = {
-									["count"] = 3943,
+								["Blood Strike"] = {
+									["count"] = 0,
 								},
 								["Icy Touch"] = {
 									["count"] = 0,
 								},
-							},
-							["amount"] = 3943,
-						},
-						["Patchwerk"] = {
-							["Details"] = {
-								["Death Coil"] = {
-									["count"] = 0,
-								},
-								["Blood Strike"] = {
-									["count"] = 0,
-								},
 								["Melee"] = {
 									["count"] = 0,
 								},
-								["Blood Plague (DoT)"] = {
+								["Blood Boil"] = {
 									["count"] = 0,
 								},
+							},
+							["amount"] = 0,
+						},
+						["Carrion Recluse"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Scourge Necromancer"] = {
+							["Details"] = {
 								["Icy Touch"] = {
 									["count"] = 0,
 								},
 								["Plague Strike"] = {
 									["count"] = 0,
 								},
+								["Melee"] = {
+									["count"] = 0,
+								},
 								["Frost Fever (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Plague Spreader"] = {
+							["Details"] = {
+								["Melee"] = {
 									["count"] = 0,
 								},
 								["Death Strike"] = {
@@ -5193,45 +7579,250 @@ RecountPerCharDB = {
 							},
 							["amount"] = 0,
 						},
+						["Flesh Eating Worm"] = {
+							["Details"] = {
+								["Blood Boil"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Goldtooth"] = {
+							["Details"] = {
+								["Icy Touch"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Mor'Ladim"] = {
+							["Details"] = {
+								["Icy Touch"] = {
+									["count"] = 0,
+								},
+								["Plague Strike"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Frost Fever (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Miner"] = {
+							["Details"] = {
+								["Blood Strike"] = {
+									["count"] = 0,
+								},
+								["Icy Touch"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Blood Boil"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Rotted One"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Expert's Training Dummy"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 5289,
+								},
+								["Icy Touch"] = {
+									["count"] = 599,
+								},
+								["Plague Strike"] = {
+									["count"] = 358,
+								},
+								["Frost Fever (DoT)"] = {
+									["count"] = 1259,
+								},
+								["Blood Plague (DoT)"] = {
+									["count"] = 1194,
+								},
+							},
+							["amount"] = 8699,
+						},
+						["Bone Chewer"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
 					},
-					["PartialBlock"] = {
+					["FAttacks"] = {
+					},
+					["HealingTaken"] = 0,
+					["ElementDone"] = {
+						["Physical"] = 358,
+						["Shadow"] = 1194,
+						["Melee"] = 5289,
+						["Frost"] = 1858,
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementHitsDone"] = {
+						["Physical"] = {
+							["Details"] = {
+								["Crit"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 2,
+								},
+							},
+							["amount"] = 2,
+						},
+						["Shadow"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 0,
+								},
+								["Miss"] = {
+									["count"] = 2,
+								},
+								["Crit"] = {
+									["count"] = 0,
+								},
+								["Tick"] = {
+									["count"] = 12,
+								},
+							},
+							["amount"] = 14,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Glancing"] = {
+									["count"] = 4,
+								},
+								["Hit"] = {
+									["count"] = 7,
+								},
+								["Dodge"] = {
+									["count"] = 2,
+								},
+								["Miss"] = {
+									["count"] = 1,
+								},
+								["Crit"] = {
+									["count"] = 3,
+								},
+								["Parry"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 18,
+						},
+						["Frost"] = {
+							["Details"] = {
+								["Tick"] = {
+									["count"] = 12,
+								},
+								["Crit"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 2,
+								},
+							},
+							["amount"] = 14,
+						},
+					},
+					["ManaGainedFrom"] = {
 					},
 					["WhoDamaged"] = {
+						["Flesh Eating Worm"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
 						["Kobold Tunneler"] = {
 							["Details"] = {
 								["Melee"] = {
-									["count"] = 3,
+									["count"] = 0,
 								},
 							},
-							["amount"] = 3,
+							["amount"] = 0,
+						},
+						["Kobold Miner"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Mor'Ladim"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Rotted One"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Bone Chewer"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
 						},
 					},
 					["EnergyGainedFrom"] = {
 					},
-					["PartialResist"] = {
-						["Melee"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 6,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 6,
-							["amount"] = 0,
-						},
+					["RunicPowerGained"] = {
 					},
 					["CCBroken"] = {
 					},
 					["ElementDoneBlock"] = {
+						["Physical"] = 30,
 					},
 					["TimeHealing"] = {
 					},
-					["OverHeals"] = {
-						["Death Strike"] = {
+					["Dispelled"] = 0,
+					["WhoHealed"] = {
+					},
+					["HealedWho"] = {
+					},
+					["CCBreak"] = 0,
+					["ElementTakenAbsorb"] = {
+					},
+					["FDamage"] = 0,
+					["EnergyGain"] = 0,
+					["ManaGained"] = {
+					},
+					["PartialAbsorb"] = {
+						["Melee"] = {
 							["Details"] = {
-								["Hit"] = {
+								["No Absorb"] = {
 									["max"] = 0,
 									["min"] = 0,
 									["count"] = 0,
@@ -5242,57 +7833,151 @@ RecountPerCharDB = {
 							["amount"] = 0,
 						},
 					},
-					["ManaGainedFrom"] = {
-					},
-					["RunicPowerGained"] = {
-					},
-					["CCBreak"] = 0,
-					["RageGained"] = {
-					},
-					["HealedWho"] = {
-					},
-					["EnergyGain"] = 0,
-					["ManaGained"] = {
-					},
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
+					["ActiveTime"] = 67.24,
 					["Overhealing"] = 0,
 					["TimeSpent"] = {
 						["Kobold Tunneler"] = {
 							["Details"] = {
-								["Melee"] = {
-									["count"] = 3.5,
+								["Blood Strike"] = {
+									["count"] = 0,
 								},
 								["Icy Touch"] = {
 									["count"] = 0,
 								},
-							},
-							["amount"] = 3.5,
-						},
-						["Patchwerk"] = {
-							["Details"] = {
-								["Death Coil"] = {
-									["count"] = 0,
-								},
-								["Blood Strike"] = {
-									["count"] = 0,
-								},
 								["Melee"] = {
 									["count"] = 0,
 								},
-								["Blood Plague (DoT)"] = {
+								["Blood Boil"] = {
 									["count"] = 0,
 								},
+							},
+							["amount"] = 0,
+						},
+						["Grandmaster's Training Dummy"] = {
+							["Details"] = {
+								["Pestilence"] = {
+									["count"] = 0.4400000000000001,
+								},
+							},
+							["amount"] = 0.4400000000000001,
+						},
+						["Carrion Recluse"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Scourge Necromancer"] = {
+							["Details"] = {
 								["Icy Touch"] = {
 									["count"] = 0,
 								},
 								["Plague Strike"] = {
 									["count"] = 0,
 								},
+								["Melee"] = {
+									["count"] = 0,
+								},
 								["Frost Fever (DoT)"] = {
 									["count"] = 0,
 								},
+							},
+							["amount"] = 0,
+						},
+						["Plague Spreader"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
 								["Death Strike"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Flesh Eating Worm"] = {
+							["Details"] = {
+								["Blood Boil"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Goldtooth"] = {
+							["Details"] = {
+								["Icy Touch"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Mor'Ladim"] = {
+							["Details"] = {
+								["Icy Touch"] = {
+									["count"] = 0,
+								},
+								["Plague Strike"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Frost Fever (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Miner"] = {
+							["Details"] = {
+								["Blood Strike"] = {
+									["count"] = 0,
+								},
+								["Icy Touch"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Blood Boil"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Rotted One"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Expert's Training Dummy"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 40.92,
+								},
+								["Icy Touch"] = {
+									["count"] = 1.87,
+								},
+								["Plague Strike"] = {
+									["count"] = 3.14,
+								},
+								["Frost Fever (DoT)"] = {
+									["count"] = 7.869999999999999,
+								},
+								["Blood Plague (DoT)"] = {
+									["count"] = 13,
+								},
+							},
+							["amount"] = 66.8,
+						},
+						["Bone Chewer"] = {
+							["Details"] = {
+								["Melee"] = {
 									["count"] = 0,
 								},
 							},
@@ -5303,44 +7988,70 @@ RecountPerCharDB = {
 					},
 					["InterruptData"] = {
 					},
-					["RunicPowerGain"] = 0,
+					["ElementTakenResist"] = {
+					},
 					["Heals"] = {
 					},
-					["WhoHealed"] = {
-					},
+					["Interrupts"] = 0,
 					["EnergyGained"] = {
 					},
-					["ActiveTime"] = 3.5,
-					["Healing"] = 0,
-					["FDamagedWho"] = {
-					},
-					["Dispelled"] = 0,
-					["Attacks"] = {
-						["Death Coil"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Blood Strike"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
+					["PartialResist"] = {
 						["Melee"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["Healing"] = 0,
+					["RageGained"] = {
+					},
+					["OverHeals"] = {
+					},
+					["Attacks"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Glancing"] = {
+									["max"] = 276,
+									["min"] = 0,
+									["count"] = 4,
+									["amount"] = 1061,
+								},
+								["Hit"] = {
+									["max"] = 347,
+									["min"] = 0,
+									["count"] = 7,
+									["amount"] = 2236,
+								},
+								["Dodge"] = {
+									["count"] = 2,
+									["amount"] = 0,
+								},
+								["Miss"] = {
+									["count"] = 1,
+									["amount"] = 0,
+								},
+								["Crit"] = {
+									["max"] = 682,
+									["min"] = 0,
+									["count"] = 3,
+									["amount"] = 1992,
+								},
+								["Parry"] = {
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 18,
+							["amount"] = 5289,
+						},
+						["Icy Touch"] = {
 							["Details"] = {
 								["Crit"] = {
 									["max"] = 0,
@@ -5348,19 +8059,25 @@ RecountPerCharDB = {
 									["count"] = 0,
 									["amount"] = 0,
 								},
-								["Glancing"] = {
-									["max"] = 3943,
+								["Hit"] = {
+									["max"] = 301,
 									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 3943,
+									["count"] = 2,
+									["amount"] = 599,
 								},
 							},
-							["count"] = 1,
-							["amount"] = 3943,
+							["count"] = 2,
+							["amount"] = 599,
 						},
-						["Blood Plague (DoT)"] = {
+						["Blood Boil"] = {
 							["Details"] = {
-								["Tick"] = {
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
 									["max"] = 0,
 									["min"] = 0,
 									["count"] = 0,
@@ -5370,8 +8087,36 @@ RecountPerCharDB = {
 							["count"] = 0,
 							["amount"] = 0,
 						},
-						["Icy Touch"] = {
+						["Pestilence"] = {
 							["Details"] = {
+								["Miss"] = {
+									["count"] = 2,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 0,
+						},
+						["Blood Plague (DoT)"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 111,
+									["min"] = 88,
+									["count"] = 12,
+									["amount"] = 1194,
+								},
+							},
+							["count"] = 12,
+							["amount"] = 1194,
+						},
+						["Blood Strike"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
 								["Hit"] = {
 									["max"] = 0,
 									["min"] = 0,
@@ -5384,7 +8129,31 @@ RecountPerCharDB = {
 						},
 						["Plague Strike"] = {
 							["Details"] = {
+								["Hit (Blocked)"] = {
+									["max"] = 165,
+									["min"] = 165,
+									["count"] = 1,
+									["amount"] = 165,
+								},
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
 								["Hit"] = {
+									["max"] = 193,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 193,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 358,
+						},
+						["Death Strike"] = {
+							["Details"] = {
+								["Crit"] = {
 									["max"] = 0,
 									["min"] = 0,
 									["count"] = 0,
@@ -5397,64 +8166,74 @@ RecountPerCharDB = {
 						["Frost Fever (DoT)"] = {
 							["Details"] = {
 								["Tick"] = {
-									["max"] = 0,
+									["max"] = 106,
 									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
+									["count"] = 12,
+									["amount"] = 1259,
 								},
 							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Death Strike"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
+							["count"] = 12,
+							["amount"] = 1259,
 						},
 					},
-					["HealingTaken"] = 0,
 					["RageGain"] = 0,
-					["TimeDamage"] = 3.5,
+					["FDamagedWho"] = {
+					},
+					["TimeDamage"] = 67.24,
 					["TimeDamaging"] = {
 						["Kobold Tunneler"] = {
 							["Details"] = {
-								["Melee"] = {
-									["count"] = 3.5,
+								["Blood Strike"] = {
+									["count"] = 0,
 								},
 								["Icy Touch"] = {
 									["count"] = 0,
 								},
-							},
-							["amount"] = 3.5,
-						},
-						["Patchwerk"] = {
-							["Details"] = {
-								["Death Coil"] = {
-									["count"] = 0,
-								},
-								["Blood Strike"] = {
-									["count"] = 0,
-								},
 								["Melee"] = {
 									["count"] = 0,
 								},
-								["Blood Plague (DoT)"] = {
+								["Blood Boil"] = {
 									["count"] = 0,
 								},
+							},
+							["amount"] = 0,
+						},
+						["Grandmaster's Training Dummy"] = {
+							["Details"] = {
+								["Pestilence"] = {
+									["count"] = 0.4400000000000001,
+								},
+							},
+							["amount"] = 0.4400000000000001,
+						},
+						["Carrion Recluse"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Scourge Necromancer"] = {
+							["Details"] = {
 								["Icy Touch"] = {
 									["count"] = 0,
 								},
 								["Plague Strike"] = {
 									["count"] = 0,
 								},
+								["Melee"] = {
+									["count"] = 0,
+								},
 								["Frost Fever (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Plague Spreader"] = {
+							["Details"] = {
+								["Melee"] = {
 									["count"] = 0,
 								},
 								["Death Strike"] = {
@@ -5463,10 +8242,95 @@ RecountPerCharDB = {
 							},
 							["amount"] = 0,
 						},
+						["Flesh Eating Worm"] = {
+							["Details"] = {
+								["Blood Boil"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Goldtooth"] = {
+							["Details"] = {
+								["Icy Touch"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Mor'Ladim"] = {
+							["Details"] = {
+								["Icy Touch"] = {
+									["count"] = 0,
+								},
+								["Plague Strike"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Frost Fever (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Miner"] = {
+							["Details"] = {
+								["Blood Strike"] = {
+									["count"] = 0,
+								},
+								["Icy Touch"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Blood Boil"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Rotted One"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Expert's Training Dummy"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 40.92,
+								},
+								["Icy Touch"] = {
+									["count"] = 1.87,
+								},
+								["Plague Strike"] = {
+									["count"] = 3.14,
+								},
+								["Frost Fever (DoT)"] = {
+									["count"] = 7.869999999999999,
+								},
+								["Blood Plague (DoT)"] = {
+									["count"] = 13,
+								},
+							},
+							["amount"] = 66.8,
+						},
+						["Bone Chewer"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
 					},
 					["ManaGain"] = 0,
-					["HOTs"] = {
-					},
+					["DOT_Time"] = 72,
 					["DispelledWho"] = {
 					},
 				},
@@ -5474,164 +8338,119 @@ RecountPerCharDB = {
 					["DOTs"] = {
 						["Frost Fever (DoT)"] = {
 							["Details"] = {
-								["Patchwerk"] = {
+								["Scourge Necromancer"] = {
+									["count"] = 0,
+								},
+								["Expert's Training Dummy"] = {
+									["count"] = 36,
+								},
+								["Mor'Ladim"] = {
 									["count"] = 0,
 								},
 							},
-							["amount"] = 0,
+							["amount"] = 36,
 						},
 						["Blood Plague (DoT)"] = {
 							["Details"] = {
-								["Patchwerk"] = {
-									["count"] = 0,
+								["Expert's Training Dummy"] = {
+									["count"] = 36,
 								},
 							},
-							["amount"] = 0,
+							["amount"] = 36,
 						},
 					},
 					["ElementDoneResist"] = {
-						["Shadow"] = 0,
-						["Frost"] = 0,
+						["Shadow"] = 132,
+						["Frost"] = 10,
 					},
 					["Ressed"] = 0,
-					["DamageTaken"] = 3,
+					["DamageTaken"] = 0,
 					["RageGainedFrom"] = {
 					},
 					["ElementHitsTaken"] = {
 						["Melee"] = {
 							["Details"] = {
-								["Parry"] = {
-									["count"] = 1,
+								["Dodge"] = {
+									["count"] = 0,
 								},
 								["Hit"] = {
-									["count"] = 3,
+									["count"] = 0,
 								},
-								["Dodge"] = {
-									["count"] = 2,
+								["Miss"] = {
+									["count"] = 0,
+								},
+								["Parry"] = {
+									["count"] = 0,
 								},
 							},
-							["amount"] = 6,
+							["amount"] = 0,
 						},
 					},
 					["DeathCount"] = 0,
 					["HOT_Time"] = 0,
-					["ElementHitsDone"] = {
-						["Shadow"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 0,
-								},
-								["Tick"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Frost"] = {
-							["Details"] = {
-								["Tick"] = {
-									["count"] = 0,
-								},
-								["Hit"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["Crit"] = {
-									["count"] = 0,
-								},
-								["Glancing"] = {
-									["count"] = 1,
-								},
-							},
-							["amount"] = 1,
-						},
-						["Physical"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["ElementTakenAbsorb"] = {
-					},
-					["ElementTaken"] = {
-						["Melee"] = 3,
-					},
-					["DOT_Time"] = 0,
-					["Damage"] = 3943,
 					["ElementTakenBlock"] = {
+					},
+					["RunicPowerGain"] = 0,
+					["ElementTaken"] = {
+						["Melee"] = 0,
+					},
+					["HOTs"] = {
+					},
+					["Damage"] = 8699,
+					["ElementDoneAbsorb"] = {
 					},
 					["TimeHeal"] = 0,
 					["RessedWho"] = {
 					},
 					["Dispels"] = 0,
-					["ElementTakenResist"] = {
-					},
-					["ElementDoneAbsorb"] = {
-					},
-					["FAttacks"] = {
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementDone"] = {
-						["Shadow"] = 0,
-						["Frost"] = 0,
-						["Melee"] = 3943,
-						["Physical"] = 0,
-					},
-					["PartialAbsorb"] = {
-						["Melee"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 6,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 6,
-							["amount"] = 0,
-						},
+					["PartialBlock"] = {
 					},
 					["DamagedWho"] = {
 						["Kobold Tunneler"] = {
 							["Details"] = {
-								["Melee"] = {
-									["count"] = 3943,
+								["Blood Strike"] = {
+									["count"] = 0,
 								},
 								["Icy Touch"] = {
 									["count"] = 0,
 								},
-							},
-							["amount"] = 3943,
-						},
-						["Patchwerk"] = {
-							["Details"] = {
-								["Death Coil"] = {
-									["count"] = 0,
-								},
-								["Blood Strike"] = {
-									["count"] = 0,
-								},
 								["Melee"] = {
 									["count"] = 0,
 								},
-								["Blood Plague (DoT)"] = {
+								["Blood Boil"] = {
 									["count"] = 0,
 								},
+							},
+							["amount"] = 0,
+						},
+						["Carrion Recluse"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Scourge Necromancer"] = {
+							["Details"] = {
 								["Icy Touch"] = {
 									["count"] = 0,
 								},
 								["Plague Strike"] = {
 									["count"] = 0,
 								},
+								["Melee"] = {
+									["count"] = 0,
+								},
 								["Frost Fever (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Plague Spreader"] = {
+							["Details"] = {
+								["Melee"] = {
 									["count"] = 0,
 								},
 								["Death Strike"] = {
@@ -5640,45 +8459,250 @@ RecountPerCharDB = {
 							},
 							["amount"] = 0,
 						},
+						["Flesh Eating Worm"] = {
+							["Details"] = {
+								["Blood Boil"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Goldtooth"] = {
+							["Details"] = {
+								["Icy Touch"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Mor'Ladim"] = {
+							["Details"] = {
+								["Icy Touch"] = {
+									["count"] = 0,
+								},
+								["Plague Strike"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Frost Fever (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Miner"] = {
+							["Details"] = {
+								["Blood Strike"] = {
+									["count"] = 0,
+								},
+								["Icy Touch"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Blood Boil"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Rotted One"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Expert's Training Dummy"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 5289,
+								},
+								["Icy Touch"] = {
+									["count"] = 599,
+								},
+								["Plague Strike"] = {
+									["count"] = 358,
+								},
+								["Frost Fever (DoT)"] = {
+									["count"] = 1259,
+								},
+								["Blood Plague (DoT)"] = {
+									["count"] = 1194,
+								},
+							},
+							["amount"] = 8699,
+						},
+						["Bone Chewer"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
 					},
-					["PartialBlock"] = {
+					["FAttacks"] = {
+					},
+					["HealingTaken"] = 0,
+					["ElementDone"] = {
+						["Physical"] = 358,
+						["Shadow"] = 1194,
+						["Melee"] = 5289,
+						["Frost"] = 1858,
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementHitsDone"] = {
+						["Physical"] = {
+							["Details"] = {
+								["Crit"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 2,
+								},
+							},
+							["amount"] = 2,
+						},
+						["Shadow"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 0,
+								},
+								["Miss"] = {
+									["count"] = 2,
+								},
+								["Crit"] = {
+									["count"] = 0,
+								},
+								["Tick"] = {
+									["count"] = 12,
+								},
+							},
+							["amount"] = 14,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Glancing"] = {
+									["count"] = 4,
+								},
+								["Hit"] = {
+									["count"] = 7,
+								},
+								["Dodge"] = {
+									["count"] = 2,
+								},
+								["Miss"] = {
+									["count"] = 1,
+								},
+								["Crit"] = {
+									["count"] = 3,
+								},
+								["Parry"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 18,
+						},
+						["Frost"] = {
+							["Details"] = {
+								["Tick"] = {
+									["count"] = 12,
+								},
+								["Crit"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 2,
+								},
+							},
+							["amount"] = 14,
+						},
+					},
+					["ManaGainedFrom"] = {
 					},
 					["WhoDamaged"] = {
+						["Flesh Eating Worm"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
 						["Kobold Tunneler"] = {
 							["Details"] = {
 								["Melee"] = {
-									["count"] = 3,
+									["count"] = 0,
 								},
 							},
-							["amount"] = 3,
+							["amount"] = 0,
+						},
+						["Kobold Miner"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Mor'Ladim"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Rotted One"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Bone Chewer"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
 						},
 					},
 					["EnergyGainedFrom"] = {
 					},
-					["PartialResist"] = {
-						["Melee"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 6,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 6,
-							["amount"] = 0,
-						},
+					["RunicPowerGained"] = {
 					},
 					["CCBroken"] = {
 					},
 					["ElementDoneBlock"] = {
+						["Physical"] = 30,
 					},
 					["TimeHealing"] = {
 					},
-					["OverHeals"] = {
-						["Death Strike"] = {
+					["Dispelled"] = 0,
+					["WhoHealed"] = {
+					},
+					["HealedWho"] = {
+					},
+					["CCBreak"] = 0,
+					["ElementTakenAbsorb"] = {
+					},
+					["FDamage"] = 0,
+					["EnergyGain"] = 0,
+					["ManaGained"] = {
+					},
+					["PartialAbsorb"] = {
+						["Melee"] = {
 							["Details"] = {
-								["Hit"] = {
+								["No Absorb"] = {
 									["max"] = 0,
 									["min"] = 0,
 									["count"] = 0,
@@ -5689,57 +8713,151 @@ RecountPerCharDB = {
 							["amount"] = 0,
 						},
 					},
-					["ManaGainedFrom"] = {
-					},
-					["RunicPowerGained"] = {
-					},
-					["CCBreak"] = 0,
-					["RageGained"] = {
-					},
-					["HealedWho"] = {
-					},
-					["EnergyGain"] = 0,
-					["ManaGained"] = {
-					},
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
+					["ActiveTime"] = 67.24,
 					["Overhealing"] = 0,
 					["TimeSpent"] = {
 						["Kobold Tunneler"] = {
 							["Details"] = {
-								["Melee"] = {
-									["count"] = 3.5,
+								["Blood Strike"] = {
+									["count"] = 0,
 								},
 								["Icy Touch"] = {
 									["count"] = 0,
 								},
-							},
-							["amount"] = 3.5,
-						},
-						["Patchwerk"] = {
-							["Details"] = {
-								["Death Coil"] = {
-									["count"] = 0,
-								},
-								["Blood Strike"] = {
-									["count"] = 0,
-								},
 								["Melee"] = {
 									["count"] = 0,
 								},
-								["Blood Plague (DoT)"] = {
+								["Blood Boil"] = {
 									["count"] = 0,
 								},
+							},
+							["amount"] = 0,
+						},
+						["Grandmaster's Training Dummy"] = {
+							["Details"] = {
+								["Pestilence"] = {
+									["count"] = 0.4400000000000001,
+								},
+							},
+							["amount"] = 0.4400000000000001,
+						},
+						["Carrion Recluse"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Scourge Necromancer"] = {
+							["Details"] = {
 								["Icy Touch"] = {
 									["count"] = 0,
 								},
 								["Plague Strike"] = {
 									["count"] = 0,
 								},
+								["Melee"] = {
+									["count"] = 0,
+								},
 								["Frost Fever (DoT)"] = {
 									["count"] = 0,
 								},
+							},
+							["amount"] = 0,
+						},
+						["Plague Spreader"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
 								["Death Strike"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Flesh Eating Worm"] = {
+							["Details"] = {
+								["Blood Boil"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Goldtooth"] = {
+							["Details"] = {
+								["Icy Touch"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Mor'Ladim"] = {
+							["Details"] = {
+								["Icy Touch"] = {
+									["count"] = 0,
+								},
+								["Plague Strike"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Frost Fever (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Miner"] = {
+							["Details"] = {
+								["Blood Strike"] = {
+									["count"] = 0,
+								},
+								["Icy Touch"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Blood Boil"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Rotted One"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Expert's Training Dummy"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 40.92,
+								},
+								["Icy Touch"] = {
+									["count"] = 1.87,
+								},
+								["Plague Strike"] = {
+									["count"] = 3.14,
+								},
+								["Frost Fever (DoT)"] = {
+									["count"] = 7.869999999999999,
+								},
+								["Blood Plague (DoT)"] = {
+									["count"] = 13,
+								},
+							},
+							["amount"] = 66.8,
+						},
+						["Bone Chewer"] = {
+							["Details"] = {
+								["Melee"] = {
 									["count"] = 0,
 								},
 							},
@@ -5750,44 +8868,70 @@ RecountPerCharDB = {
 					},
 					["InterruptData"] = {
 					},
-					["RunicPowerGain"] = 0,
+					["ElementTakenResist"] = {
+					},
 					["Heals"] = {
 					},
-					["WhoHealed"] = {
-					},
+					["Interrupts"] = 0,
 					["EnergyGained"] = {
 					},
-					["ActiveTime"] = 3.5,
-					["Healing"] = 0,
-					["FDamagedWho"] = {
-					},
-					["Dispelled"] = 0,
-					["Attacks"] = {
-						["Death Coil"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Blood Strike"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
+					["PartialResist"] = {
 						["Melee"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["Healing"] = 0,
+					["RageGained"] = {
+					},
+					["OverHeals"] = {
+					},
+					["Attacks"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Glancing"] = {
+									["max"] = 276,
+									["min"] = 0,
+									["count"] = 4,
+									["amount"] = 1061,
+								},
+								["Hit"] = {
+									["max"] = 347,
+									["min"] = 0,
+									["count"] = 7,
+									["amount"] = 2236,
+								},
+								["Dodge"] = {
+									["count"] = 2,
+									["amount"] = 0,
+								},
+								["Miss"] = {
+									["count"] = 1,
+									["amount"] = 0,
+								},
+								["Crit"] = {
+									["max"] = 682,
+									["min"] = 0,
+									["count"] = 3,
+									["amount"] = 1992,
+								},
+								["Parry"] = {
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 18,
+							["amount"] = 5289,
+						},
+						["Icy Touch"] = {
 							["Details"] = {
 								["Crit"] = {
 									["max"] = 0,
@@ -5795,19 +8939,25 @@ RecountPerCharDB = {
 									["count"] = 0,
 									["amount"] = 0,
 								},
-								["Glancing"] = {
-									["max"] = 3943,
+								["Hit"] = {
+									["max"] = 301,
 									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 3943,
+									["count"] = 2,
+									["amount"] = 599,
 								},
 							},
-							["count"] = 1,
-							["amount"] = 3943,
+							["count"] = 2,
+							["amount"] = 599,
 						},
-						["Blood Plague (DoT)"] = {
+						["Blood Boil"] = {
 							["Details"] = {
-								["Tick"] = {
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
 									["max"] = 0,
 									["min"] = 0,
 									["count"] = 0,
@@ -5817,8 +8967,36 @@ RecountPerCharDB = {
 							["count"] = 0,
 							["amount"] = 0,
 						},
-						["Icy Touch"] = {
+						["Pestilence"] = {
 							["Details"] = {
+								["Miss"] = {
+									["count"] = 2,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 0,
+						},
+						["Blood Plague (DoT)"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 111,
+									["min"] = 88,
+									["count"] = 12,
+									["amount"] = 1194,
+								},
+							},
+							["count"] = 12,
+							["amount"] = 1194,
+						},
+						["Blood Strike"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
 								["Hit"] = {
 									["max"] = 0,
 									["min"] = 0,
@@ -5831,7 +9009,31 @@ RecountPerCharDB = {
 						},
 						["Plague Strike"] = {
 							["Details"] = {
+								["Hit (Blocked)"] = {
+									["max"] = 165,
+									["min"] = 165,
+									["count"] = 1,
+									["amount"] = 165,
+								},
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
 								["Hit"] = {
+									["max"] = 193,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 193,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 358,
+						},
+						["Death Strike"] = {
+							["Details"] = {
+								["Crit"] = {
 									["max"] = 0,
 									["min"] = 0,
 									["count"] = 0,
@@ -5844,64 +9046,74 @@ RecountPerCharDB = {
 						["Frost Fever (DoT)"] = {
 							["Details"] = {
 								["Tick"] = {
-									["max"] = 0,
+									["max"] = 106,
 									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
+									["count"] = 12,
+									["amount"] = 1259,
 								},
 							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Death Strike"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
+							["count"] = 12,
+							["amount"] = 1259,
 						},
 					},
-					["HealingTaken"] = 0,
 					["RageGain"] = 0,
-					["TimeDamage"] = 3.5,
+					["FDamagedWho"] = {
+					},
+					["TimeDamage"] = 67.24,
 					["TimeDamaging"] = {
 						["Kobold Tunneler"] = {
 							["Details"] = {
-								["Melee"] = {
-									["count"] = 3.5,
+								["Blood Strike"] = {
+									["count"] = 0,
 								},
 								["Icy Touch"] = {
 									["count"] = 0,
 								},
-							},
-							["amount"] = 3.5,
-						},
-						["Patchwerk"] = {
-							["Details"] = {
-								["Death Coil"] = {
-									["count"] = 0,
-								},
-								["Blood Strike"] = {
-									["count"] = 0,
-								},
 								["Melee"] = {
 									["count"] = 0,
 								},
-								["Blood Plague (DoT)"] = {
+								["Blood Boil"] = {
 									["count"] = 0,
 								},
+							},
+							["amount"] = 0,
+						},
+						["Grandmaster's Training Dummy"] = {
+							["Details"] = {
+								["Pestilence"] = {
+									["count"] = 0.4400000000000001,
+								},
+							},
+							["amount"] = 0.4400000000000001,
+						},
+						["Carrion Recluse"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Scourge Necromancer"] = {
+							["Details"] = {
 								["Icy Touch"] = {
 									["count"] = 0,
 								},
 								["Plague Strike"] = {
 									["count"] = 0,
 								},
+								["Melee"] = {
+									["count"] = 0,
+								},
 								["Frost Fever (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Plague Spreader"] = {
+							["Details"] = {
+								["Melee"] = {
 									["count"] = 0,
 								},
 								["Death Strike"] = {
@@ -5910,10 +9122,95 @@ RecountPerCharDB = {
 							},
 							["amount"] = 0,
 						},
+						["Flesh Eating Worm"] = {
+							["Details"] = {
+								["Blood Boil"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Goldtooth"] = {
+							["Details"] = {
+								["Icy Touch"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Mor'Ladim"] = {
+							["Details"] = {
+								["Icy Touch"] = {
+									["count"] = 0,
+								},
+								["Plague Strike"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Frost Fever (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Miner"] = {
+							["Details"] = {
+								["Blood Strike"] = {
+									["count"] = 0,
+								},
+								["Icy Touch"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Blood Boil"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Rotted One"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Expert's Training Dummy"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 40.92,
+								},
+								["Icy Touch"] = {
+									["count"] = 1.87,
+								},
+								["Plague Strike"] = {
+									["count"] = 3.14,
+								},
+								["Frost Fever (DoT)"] = {
+									["count"] = 7.869999999999999,
+								},
+								["Blood Plague (DoT)"] = {
+									["count"] = 13,
+								},
+							},
+							["amount"] = 66.8,
+						},
+						["Bone Chewer"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
 					},
 					["ManaGain"] = 0,
-					["HOTs"] = {
-					},
+					["DOT_Time"] = 72,
 					["DispelledWho"] = {
 					},
 				},
@@ -5939,20 +9236,29 @@ RecountPerCharDB = {
 								["Scarlet Commander"] = {
 									["count"] = 18,
 								},
+								["High Inquisitor Valroth"] = {
+									["count"] = 27,
+								},
 								["Defender of the Light"] = {
 									["count"] = 546,
 								},
-								["Scarlet Medic"] = {
-									["count"] = 39,
+								["Expert's Training Dummy"] = {
+									["count"] = 45,
 								},
 								["Unworthy Initiate"] = {
 									["count"] = 9,
 								},
+								["Scarlet Marksman"] = {
+									["count"] = 72,
+								},
+								["Scarlet Infantryman"] = {
+									["count"] = 57,
+								},
 								["Scarlet Courier"] = {
 									["count"] = 6,
 								},
-								["Patchwerk"] = {
-									["count"] = 39,
+								["Mayor Quimby"] = {
+									["count"] = 9,
 								},
 								["Scarlet Peasant"] = {
 									["count"] = 9,
@@ -5960,23 +9266,14 @@ RecountPerCharDB = {
 								["Scarlet Ghost"] = {
 									["count"] = 18,
 								},
-								["Scourge Necromancer"] = {
-									["count"] = 12,
+								["Carrion Recluse"] = {
+									["count"] = 9,
 								},
 								["Scarlet Preacher"] = {
 									["count"] = 24,
 								},
-								["High Inquisitor Valroth"] = {
-									["count"] = 27,
-								},
-								["Scarlet Infantryman"] = {
-									["count"] = 57,
-								},
-								["Scarlet Marksman"] = {
-									["count"] = 72,
-								},
-								["Mayor Quimby"] = {
-									["count"] = 9,
+								["Patchwerk"] = {
+									["count"] = 39,
 								},
 								["New Avalon Councilman"] = {
 									["count"] = 33,
@@ -5984,14 +9281,23 @@ RecountPerCharDB = {
 								["Scarlet Lord Jesseriah McCree"] = {
 									["count"] = 30,
 								},
-								["Death Knight Initiate"] = {
-									["count"] = 33,
+								["Mor'Ladim"] = {
+									["count"] = 3,
 								},
 								["Citizen of Havenshire"] = {
 									["count"] = 9,
 								},
+								["Scourge Necromancer"] = {
+									["count"] = 12,
+								},
+								["Death Knight Initiate"] = {
+									["count"] = 33,
+								},
+								["Scarlet Medic"] = {
+									["count"] = 39,
+								},
 							},
-							["amount"] = 1215,
+							["amount"] = 1272,
 						},
 						["Blood Plague (DoT)"] = {
 							["Details"] = {
@@ -6022,14 +9328,17 @@ RecountPerCharDB = {
 								["Unworthy Initiate"] = {
 									["count"] = 9,
 								},
-								["Patchwerk"] = {
-									["count"] = 39,
+								["Duke Nicholas Zverenhoff"] = {
+									["count"] = 15,
+								},
+								["Scarlet Marksman"] = {
+									["count"] = 36,
 								},
 								["Scarlet Courier"] = {
 									["count"] = 9,
 								},
-								["Duke Nicholas Zverenhoff"] = {
-									["count"] = 15,
+								["Scarlet Infantryman"] = {
+									["count"] = 42,
 								},
 								["Scarlet Peasant"] = {
 									["count"] = 9,
@@ -6046,34 +9355,34 @@ RecountPerCharDB = {
 								["High Inquisitor Valroth"] = {
 									["count"] = 21,
 								},
-								["Scarlet Infantryman"] = {
-									["count"] = 42,
-								},
-								["Scarlet Marksman"] = {
-									["count"] = 36,
+								["Patchwerk"] = {
+									["count"] = 39,
 								},
 								["Mayor Quimby"] = {
 									["count"] = 6,
 								},
-								["New Avalon Councilman"] = {
-									["count"] = 24,
-								},
 								["Scarlet Lord Jesseriah McCree"] = {
 									["count"] = 30,
 								},
-								["Death Knight Initiate"] = {
-									["count"] = 30,
+								["New Avalon Councilman"] = {
+									["count"] = 24,
 								},
 								["Citizen of Havenshire"] = {
 									["count"] = 3,
 								},
+								["Death Knight Initiate"] = {
+									["count"] = 30,
+								},
+								["Expert's Training Dummy"] = {
+									["count"] = 45,
+								},
 							},
-							["amount"] = 954,
+							["amount"] = 999,
 						},
 					},
 					["ElementDoneResist"] = {
-						["Shadow"] = 10593,
-						["Frost"] = 6103,
+						["Shadow"] = 10736,
+						["Frost"] = 6113,
 					},
 					["ElementHitsTaken"] = {
 						["Physical"] = {
@@ -6088,30 +9397,30 @@ RecountPerCharDB = {
 									["count"] = 6,
 								},
 								["Hit"] = {
-									["count"] = 56,
+									["count"] = 59,
 								},
 							},
-							["amount"] = 71,
+							["amount"] = 74,
 						},
 						["Melee"] = {
 							["Details"] = {
 								["Hit"] = {
-									["count"] = 281,
+									["count"] = 404,
 								},
 								["Miss"] = {
-									["count"] = 21,
+									["count"] = 71,
 								},
 								["Dodge"] = {
-									["count"] = 45,
+									["count"] = 133,
 								},
 								["Crit"] = {
 									["count"] = 14,
 								},
 								["Parry"] = {
-									["count"] = 46,
+									["count"] = 102,
 								},
 							},
-							["amount"] = 407,
+							["amount"] = 724,
 						},
 						["Frost"] = {
 							["Details"] = {
@@ -6168,7 +9477,7 @@ RecountPerCharDB = {
 						["Flocius"] = {
 							["Details"] = {
 								["Rune Tap"] = {
-									["count"] = 16333,
+									["count"] = 17373,
 								},
 								["The Might of Mograine"] = {
 									["count"] = 25160,
@@ -6186,22 +9495,22 @@ RecountPerCharDB = {
 									["count"] = 731,
 								},
 							},
-							["amount"] = 67949,
+							["amount"] = 68989,
 						},
 					},
 					["DeathCount"] = 2,
 					["HOT_Time"] = 2202,
 					["ElementTaken"] = {
-						["Physical"] = 9275,
-						["Melee"] = 33350,
+						["Physical"] = 11602,
+						["Melee"] = 33897,
 						["Frost"] = 1352,
 						["Holy"] = 883766,
 						["Shadow"] = 8210,
 						["Nature"] = 58803,
 					},
-					["DOT_Time"] = 2169,
-					["Damage"] = 2215203,
-					["TimeHeal"] = 517.3399999999998,
+					["DOT_Time"] = 2271,
+					["Damage"] = 2706754,
+					["TimeHeal"] = 517.9799999999998,
 					["FAttacks"] = {
 						["Frost Fever (DoT)"] = {
 							["Details"] = {
@@ -6229,25 +9538,25 @@ RecountPerCharDB = {
 						},
 					},
 					["ElementDone"] = {
-						["Frost"] = 731642,
-						["Physical"] = 251635,
-						["Melee"] = 640291,
-						["Shadow"] = 591635,
+						["Physical"] = 288589,
+						["Shadow"] = 635892,
+						["Melee"] = 1027269,
+						["Frost"] = 755004,
 					},
 					["DamagedWho"] = {
 						["Scarlet Captain"] = {
 							["Details"] = {
-								["Blood Plague (DoT)"] = {
-									["count"] = 245,
-								},
 								["Melee"] = {
 									["count"] = 1667,
+								},
+								["Blood Plague (DoT)"] = {
+									["count"] = 245,
 								},
 								["Death Coil"] = {
 									["count"] = 950,
 								},
-								["Blood Strike"] = {
-									["count"] = 1049,
+								["Icy Touch"] = {
+									["count"] = 709,
 								},
 								["Plague Strike"] = {
 									["count"] = 324,
@@ -6255,54 +9564,25 @@ RecountPerCharDB = {
 								["Frost Fever (DoT)"] = {
 									["count"] = 384,
 								},
-								["Icy Touch"] = {
-									["count"] = 709,
+								["Blood Strike"] = {
+									["count"] = 1049,
 								},
 							},
 							["amount"] = 5328,
 						},
-						["Scarlet Crusader"] = {
-							["Details"] = {
-								["Blood Plague (DoT)"] = {
-									["count"] = 3591,
-								},
-								["Frost Fever (DoT)"] = {
-									["count"] = 4328,
-								},
-								["Melee"] = {
-									["count"] = 17771,
-								},
-								["Death Coil"] = {
-									["count"] = 7172,
-								},
-								["Icy Touch"] = {
-									["count"] = 4897,
-								},
-								["Plague Strike"] = {
-									["count"] = 3964,
-								},
-								["Death Strike"] = {
-									["count"] = 3075,
-								},
-								["Blood Strike"] = {
-									["count"] = 7166,
-								},
-							},
-							["amount"] = 51964,
-						},
 						["Citizen of New Avalon"] = {
 							["Details"] = {
-								["Blood Plague (DoT)"] = {
-									["count"] = 193,
-								},
 								["Melee"] = {
 									["count"] = 12384,
+								},
+								["Blood Plague (DoT)"] = {
+									["count"] = 193,
 								},
 								["Blood Strike"] = {
 									["count"] = 289,
 								},
-								["Death Coil"] = {
-									["count"] = 1382,
+								["Icy Touch"] = {
+									["count"] = 3234,
 								},
 								["Plague Strike"] = {
 									["count"] = 2274,
@@ -6310,42 +9590,48 @@ RecountPerCharDB = {
 								["Frost Fever (DoT)"] = {
 									["count"] = 410,
 								},
-								["Icy Touch"] = {
-									["count"] = 3234,
+								["Death Coil"] = {
+									["count"] = 1382,
 								},
 							},
 							["amount"] = 20166,
 						},
-						["Korfax, Champion of the Light"] = {
+						["Kobold Tunneler"] = {
 							["Details"] = {
-								["Plague Strike"] = {
-									["count"] = 2803,
-								},
 								["Melee"] = {
-									["count"] = 10894,
+									["count"] = 139471,
 								},
-								["Blood Plague (DoT)"] = {
-									["count"] = 8880,
+								["Blood Strike"] = {
+									["count"] = 2451,
+								},
+								["Icy Touch"] = {
+									["count"] = 14085,
+								},
+								["Death Strike"] = {
+									["count"] = 1842,
+								},
+								["Blood Boil"] = {
+									["count"] = 17901,
 								},
 							},
-							["amount"] = 22577,
+							["amount"] = 175750,
 						},
 						["Terrifying Abomination"] = {
 							["Details"] = {
+								["Icy Touch"] = {
+									["count"] = 9165,
+								},
+								["Frost Fever (DoT)"] = {
+									["count"] = 8681,
+								},
+								["Melee"] = {
+									["count"] = 38807,
+								},
 								["Blood Strike"] = {
 									["count"] = 5560,
 								},
 								["Death Coil"] = {
 									["count"] = 9005,
-								},
-								["Melee"] = {
-									["count"] = 38807,
-								},
-								["Frost Fever (DoT)"] = {
-									["count"] = 8681,
-								},
-								["Icy Touch"] = {
-									["count"] = 9165,
 								},
 								["Plague Strike"] = {
 									["count"] = 5716,
@@ -6359,32 +9645,6 @@ RecountPerCharDB = {
 							},
 							["amount"] = 113865,
 						},
-						["Citizen of Havenshire"] = {
-							["Details"] = {
-								["Blood Plague (DoT)"] = {
-									["count"] = 81,
-								},
-								["Melee"] = {
-									["count"] = 7658,
-								},
-								["Death Coil"] = {
-									["count"] = 633,
-								},
-								["Blood Strike"] = {
-									["count"] = 985,
-								},
-								["Plague Strike"] = {
-									["count"] = 2672,
-								},
-								["Frost Fever (DoT)"] = {
-									["count"] = 231,
-								},
-								["Icy Touch"] = {
-									["count"] = 1867,
-								},
-							},
-							["amount"] = 14127,
-						},
 						["Narg the Taskmaster"] = {
 							["Details"] = {
 								["Melee"] = {
@@ -6396,48 +9656,22 @@ RecountPerCharDB = {
 							},
 							["amount"] = 1430,
 						},
-						["Dark Rider of Acherus"] = {
-							["Details"] = {
-								["Blood Plague (DoT)"] = {
-									["count"] = 260,
-								},
-								["Melee"] = {
-									["count"] = 1468,
-								},
-								["Death Coil"] = {
-									["count"] = 316,
-								},
-								["Blood Strike"] = {
-									["count"] = 445,
-								},
-								["Plague Strike"] = {
-									["count"] = 463,
-								},
-								["Frost Fever (DoT)"] = {
-									["count"] = 320,
-								},
-								["Icy Touch"] = {
-									["count"] = 783,
-								},
-							},
-							["amount"] = 4055,
-						},
 						["Scarlet Commander"] = {
 							["Details"] = {
-								["Melee"] = {
-									["count"] = 3682,
+								["Blood Plague (DoT)"] = {
+									["count"] = 448,
 								},
 								["Frost Fever (DoT)"] = {
 									["count"] = 514,
 								},
-								["Blood Plague (DoT)"] = {
-									["count"] = 448,
+								["Melee"] = {
+									["count"] = 3682,
 								},
 								["Blood Strike"] = {
 									["count"] = 1139,
 								},
-								["Icy Touch"] = {
-									["count"] = 1005,
+								["Death Coil"] = {
+									["count"] = 658,
 								},
 								["Plague Strike"] = {
 									["count"] = 1016,
@@ -6445,39 +9679,430 @@ RecountPerCharDB = {
 								["Death Strike"] = {
 									["count"] = 286,
 								},
-								["Death Coil"] = {
-									["count"] = 658,
+								["Icy Touch"] = {
+									["count"] = 1005,
 								},
 							},
 							["amount"] = 8748,
 						},
-						["Kobold Tunneler"] = {
+						["Flesh Eating Worm"] = {
 							["Details"] = {
-								["Icy Touch"] = {
-									["count"] = 1827,
+								["Death Coil"] = {
+									["count"] = 365,
 								},
-								["Melee"] = {
-									["count"] = 12126,
+								["Blood Strike"] = {
+									["count"] = 1020,
 								},
 								["Blood Boil"] = {
-									["count"] = 1425,
+									["count"] = 5459,
 								},
 							},
-							["amount"] = 15378,
+							["amount"] = 6844,
+						},
+						["Goldtooth"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 5272,
+								},
+								["Blood Strike"] = {
+									["count"] = 780,
+								},
+								["Icy Touch"] = {
+									["count"] = 612,
+								},
+								["Death Strike"] = {
+									["count"] = 1142,
+								},
+								["Blood Boil"] = {
+									["count"] = 440,
+								},
+							},
+							["amount"] = 8246,
+						},
+						["Duke Nicholas Zverenhoff"] = {
+							["Details"] = {
+								["Plague Strike"] = {
+									["count"] = 3527,
+								},
+								["Melee"] = {
+									["count"] = 15358,
+								},
+								["Blood Plague (DoT)"] = {
+									["count"] = 8400,
+								},
+							},
+							["amount"] = 27285,
+						},
+						["Scarlet Courier"] = {
+							["Details"] = {
+								["Blood Strike"] = {
+									["count"] = 660,
+								},
+								["Frost Fever (DoT)"] = {
+									["count"] = 192,
+								},
+								["Melee"] = {
+									["count"] = 2297,
+								},
+								["Death Coil"] = {
+									["count"] = 405,
+								},
+								["Icy Touch"] = {
+									["count"] = 262,
+								},
+								["Plague Strike"] = {
+									["count"] = 188,
+								},
+								["Death Strike"] = {
+									["count"] = 296,
+								},
+								["Blood Plague (DoT)"] = {
+									["count"] = 304,
+								},
+							},
+							["amount"] = 4604,
+						},
+						["Bone Chewer"] = {
+							["Details"] = {
+								["Blood Strike"] = {
+									["count"] = 360,
+								},
+								["Death Coil"] = {
+									["count"] = 730,
+								},
+								["Melee"] = {
+									["count"] = 14371,
+								},
+								["Blood Boil"] = {
+									["count"] = 1184,
+								},
+							},
+							["amount"] = 16645,
+						},
+						["Scourge Necromancer"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 9966,
+								},
+								["Blood Strike"] = {
+									["count"] = 3308,
+								},
+								["Blood Boil"] = {
+									["count"] = 1326,
+								},
+								["Blood Plague (DoT)"] = {
+									["count"] = 1890,
+								},
+								["Icy Touch"] = {
+									["count"] = 3590,
+								},
+								["Frost Fever (DoT)"] = {
+									["count"] = 2346,
+								},
+								["Plague Strike"] = {
+									["count"] = 3569,
+								},
+								["Death Strike"] = {
+									["count"] = 2226,
+								},
+								["Death Coil"] = {
+									["count"] = 4245,
+								},
+							},
+							["amount"] = 32466,
+						},
+						["Scarlet Preacher"] = {
+							["Details"] = {
+								["Blood Plague (DoT)"] = {
+									["count"] = 284,
+								},
+								["Melee"] = {
+									["count"] = 2643,
+								},
+								["Blood Strike"] = {
+									["count"] = 2409,
+								},
+								["Death Coil"] = {
+									["count"] = 724,
+								},
+								["Plague Strike"] = {
+									["count"] = 906,
+								},
+								["Frost Fever (DoT)"] = {
+									["count"] = 423,
+								},
+								["Icy Touch"] = {
+									["count"] = 990,
+								},
+							},
+							["amount"] = 8379,
+						},
+						["Plague Spreader"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 15079,
+								},
+								["Blood Strike"] = {
+									["count"] = 685,
+								},
+								["Icy Touch"] = {
+									["count"] = 307,
+								},
+								["Death Coil"] = {
+									["count"] = 1095,
+								},
+								["Death Strike"] = {
+									["count"] = 2725,
+								},
+								["Blood Boil"] = {
+									["count"] = 225,
+								},
+							},
+							["amount"] = 20116,
+						},
+						["Ellen Stanbridge"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 576,
+								},
+							},
+							["amount"] = 576,
+						},
+						["Death Knight Initiate"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 2582,
+								},
+								["Blood Plague (DoT)"] = {
+									["count"] = 811,
+								},
+								["Death Coil"] = {
+									["count"] = 1331,
+								},
+								["Icy Touch"] = {
+									["count"] = 2206,
+								},
+								["Plague Strike"] = {
+									["count"] = 1009,
+								},
+								["Frost Fever (DoT)"] = {
+									["count"] = 704,
+								},
+								["Blood Strike"] = {
+									["count"] = 2273,
+								},
+							},
+							["amount"] = 10916,
+						},
+						["High Inquisitor Valroth"] = {
+							["Details"] = {
+								["Blood Plague (DoT)"] = {
+									["count"] = 676,
+								},
+								["Death Strike"] = {
+									["count"] = 1470,
+								},
+								["Melee"] = {
+									["count"] = 2868,
+								},
+								["Blood Strike"] = {
+									["count"] = 334,
+								},
+								["Death Coil"] = {
+									["count"] = 1399,
+								},
+								["Plague Strike"] = {
+									["count"] = 815,
+								},
+								["Frost Fever (DoT)"] = {
+									["count"] = 815,
+								},
+								["Icy Touch"] = {
+									["count"] = 832,
+								},
+							},
+							["amount"] = 9209,
+						},
+						["Scarlet Infantryman"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 6450,
+								},
+								["Blood Plague (DoT)"] = {
+									["count"] = 1141,
+								},
+								["Death Coil"] = {
+									["count"] = 2026,
+								},
+								["Icy Touch"] = {
+									["count"] = 1954,
+								},
+								["Plague Strike"] = {
+									["count"] = 1424,
+								},
+								["Frost Fever (DoT)"] = {
+									["count"] = 1461,
+								},
+								["Blood Strike"] = {
+									["count"] = 2252,
+								},
+							},
+							["amount"] = 16708,
+						},
+						["Expert's Training Dummy"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 5289,
+								},
+								["Icy Touch"] = {
+									["count"] = 599,
+								},
+								["Plague Strike"] = {
+									["count"] = 358,
+								},
+								["Frost Fever (DoT)"] = {
+									["count"] = 1576,
+								},
+								["Blood Plague (DoT)"] = {
+									["count"] = 1516,
+								},
+							},
+							["amount"] = 9338,
+						},
+						["Skeletal Horror"] = {
+							["Details"] = {
+								["Icy Touch"] = {
+									["count"] = 613,
+								},
+								["Melee"] = {
+									["count"] = 14102,
+								},
+								["Death Coil"] = {
+									["count"] = 730,
+								},
+								["Blood Strike"] = {
+									["count"] = 362,
+								},
+								["Plague Strike"] = {
+									["count"] = 290,
+								},
+								["Death Strike"] = {
+									["count"] = 1054,
+								},
+								["Blood Boil"] = {
+									["count"] = 460,
+								},
+							},
+							["amount"] = 17611,
+						},
+						["Mor'Ladim"] = {
+							["Details"] = {
+								["Icy Touch"] = {
+									["count"] = 303,
+								},
+								["Plague Strike"] = {
+									["count"] = 281,
+								},
+								["Melee"] = {
+									["count"] = 2588,
+								},
+								["Frost Fever (DoT)"] = {
+									["count"] = 106,
+								},
+							},
+							["amount"] = 3278,
+						},
+						["Dark Rider of Acherus"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 1468,
+								},
+								["Blood Plague (DoT)"] = {
+									["count"] = 260,
+								},
+								["Death Coil"] = {
+									["count"] = 316,
+								},
+								["Icy Touch"] = {
+									["count"] = 783,
+								},
+								["Plague Strike"] = {
+									["count"] = 463,
+								},
+								["Frost Fever (DoT)"] = {
+									["count"] = 320,
+								},
+								["Blood Strike"] = {
+									["count"] = 445,
+								},
+							},
+							["amount"] = 4055,
+						},
+						["New Avalon Councilman"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 2807,
+								},
+								["Blood Plague (DoT)"] = {
+									["count"] = 703,
+								},
+								["Death Coil"] = {
+									["count"] = 659,
+								},
+								["Icy Touch"] = {
+									["count"] = 975,
+								},
+								["Plague Strike"] = {
+									["count"] = 983,
+								},
+								["Frost Fever (DoT)"] = {
+									["count"] = 902,
+								},
+								["Blood Strike"] = {
+									["count"] = 1386,
+								},
+							},
+							["amount"] = 8415,
+						},
+						["Scarlet Medic"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 2321,
+								},
+								["Blood Plague (DoT)"] = {
+									["count"] = 405,
+								},
+								["Death Coil"] = {
+									["count"] = 2215,
+								},
+								["Icy Touch"] = {
+									["count"] = 2118,
+								},
+								["Plague Strike"] = {
+									["count"] = 924,
+								},
+								["Frost Fever (DoT)"] = {
+									["count"] = 995,
+								},
+								["Blood Strike"] = {
+									["count"] = 1127,
+								},
+							},
+							["amount"] = 10105,
 						},
 						["Patchwerk"] = {
 							["Details"] = {
-								["Death Coil"] = {
-									["count"] = 8122,
-								},
 								["Blood Strike"] = {
 									["count"] = 11819,
 								},
-								["Melee"] = {
-									["count"] = 30770,
+								["Frost Fever (DoT)"] = {
+									["count"] = 6912,
 								},
 								["Blood Plague (DoT)"] = {
 									["count"] = 7576,
+								},
+								["Death Coil"] = {
+									["count"] = 8122,
 								},
 								["Icy Touch"] = {
 									["count"] = 7762,
@@ -6485,11 +10110,11 @@ RecountPerCharDB = {
 								["Plague Strike"] = {
 									["count"] = 4246,
 								},
-								["Frost Fever (DoT)"] = {
-									["count"] = 6912,
-								},
 								["Death Strike"] = {
 									["count"] = 17010,
+								},
+								["Melee"] = {
+									["count"] = 30770,
 								},
 							},
 							["amount"] = 94217,
@@ -6514,48 +10139,27 @@ RecountPerCharDB = {
 							},
 							["amount"] = 6329,
 						},
-						["High Inquisitor Valroth"] = {
+						["Rimblat Earthshatter"] = {
 							["Details"] = {
-								["Blood Strike"] = {
-									["count"] = 334,
-								},
-								["Death Strike"] = {
-									["count"] = 1470,
-								},
 								["Melee"] = {
-									["count"] = 2868,
-								},
-								["Blood Plague (DoT)"] = {
-									["count"] = 676,
-								},
-								["Icy Touch"] = {
-									["count"] = 832,
-								},
-								["Plague Strike"] = {
-									["count"] = 815,
-								},
-								["Frost Fever (DoT)"] = {
-									["count"] = 815,
-								},
-								["Death Coil"] = {
-									["count"] = 1399,
+									["count"] = 3378,
 								},
 							},
-							["amount"] = 9209,
+							["amount"] = 3378,
 						},
 						["Defender of the Light"] = {
 							["Details"] = {
+								["Death Coil"] = {
+									["count"] = 75743,
+								},
 								["Death Strike"] = {
 									["count"] = 9422,
 								},
+								["Blood Plague (DoT)"] = {
+									["count"] = 391648,
+								},
 								["Blood Strike"] = {
 									["count"] = 13082,
-								},
-								["Melee"] = {
-									["count"] = 425131,
-								},
-								["Death Coil"] = {
-									["count"] = 75743,
 								},
 								["Icy Touch"] = {
 									["count"] = 197583,
@@ -6566,51 +10170,42 @@ RecountPerCharDB = {
 								["Frost Fever (DoT)"] = {
 									["count"] = 447563,
 								},
-								["Blood Plague (DoT)"] = {
-									["count"] = 391648,
+								["Melee"] = {
+									["count"] = 425131,
 								},
 							},
 							["amount"] = 1667083,
 						},
-						["Scarlet Medic"] = {
+						["Skeletal Raider"] = {
 							["Details"] = {
-								["Blood Plague (DoT)"] = {
-									["count"] = 405,
-								},
-								["Melee"] = {
-									["count"] = 2321,
+								["Icy Touch"] = {
+									["count"] = 900,
 								},
 								["Death Coil"] = {
-									["count"] = 2215,
+									["count"] = 730,
 								},
-								["Blood Strike"] = {
-									["count"] = 1127,
+								["Death Strike"] = {
+									["count"] = 6262,
 								},
-								["Plague Strike"] = {
-									["count"] = 924,
-								},
-								["Frost Fever (DoT)"] = {
-									["count"] = 995,
-								},
-								["Icy Touch"] = {
-									["count"] = 2118,
+								["Melee"] = {
+									["count"] = 14764,
 								},
 							},
-							["amount"] = 10105,
+							["amount"] = 22656,
 						},
 						["Unworthy Initiate"] = {
 							["Details"] = {
-								["Blood Plague (DoT)"] = {
-									["count"] = 240,
-								},
 								["Melee"] = {
 									["count"] = 1009,
+								},
+								["Blood Plague (DoT)"] = {
+									["count"] = 240,
 								},
 								["Death Coil"] = {
 									["count"] = 314,
 								},
-								["Blood Strike"] = {
-									["count"] = 460,
+								["Icy Touch"] = {
+									["count"] = 471,
 								},
 								["Plague Strike"] = {
 									["count"] = 493,
@@ -6618,246 +10213,25 @@ RecountPerCharDB = {
 								["Frost Fever (DoT)"] = {
 									["count"] = 226,
 								},
-								["Icy Touch"] = {
-									["count"] = 471,
+								["Blood Strike"] = {
+									["count"] = 460,
 								},
 							},
 							["amount"] = 3213,
 						},
-						["Duke Nicholas Zverenhoff"] = {
-							["Details"] = {
-								["Plague Strike"] = {
-									["count"] = 3527,
-								},
-								["Melee"] = {
-									["count"] = 15358,
-								},
-								["Blood Plague (DoT)"] = {
-									["count"] = 8400,
-								},
-							},
-							["amount"] = 27285,
-						},
-						["Rimblat Earthshatter"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 3378,
-								},
-							},
-							["amount"] = 3378,
-						},
-						["Scarlet Courier"] = {
-							["Details"] = {
-								["Death Coil"] = {
-									["count"] = 405,
-								},
-								["Blood Strike"] = {
-									["count"] = 660,
-								},
-								["Blood Plague (DoT)"] = {
-									["count"] = 304,
-								},
-								["Frost Fever (DoT)"] = {
-									["count"] = 192,
-								},
-								["Icy Touch"] = {
-									["count"] = 262,
-								},
-								["Plague Strike"] = {
-									["count"] = 188,
-								},
-								["Death Strike"] = {
-									["count"] = 296,
-								},
-								["Melee"] = {
-									["count"] = 2297,
-								},
-							},
-							["amount"] = 4604,
-						},
-						["Ellen Stanbridge"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 576,
-								},
-							},
-							["amount"] = 576,
-						},
-						["Scarlet Peasant"] = {
-							["Details"] = {
-								["Blood Plague (DoT)"] = {
-									["count"] = 244,
-								},
-								["Melee"] = {
-									["count"] = 2109,
-								},
-								["Blood Strike"] = {
-									["count"] = 157,
-								},
-								["Icy Touch"] = {
-									["count"] = 1637,
-								},
-								["Plague Strike"] = {
-									["count"] = 1006,
-								},
-								["Frost Fever (DoT)"] = {
-									["count"] = 230,
-								},
-								["Death Coil"] = {
-									["count"] = 633,
-								},
-							},
-							["amount"] = 6016,
-						},
-						["Scarlet Ghost"] = {
-							["Details"] = {
-								["Blood Plague (DoT)"] = {
-									["count"] = 267,
-								},
-								["Melee"] = {
-									["count"] = 3077,
-								},
-								["Death Coil"] = {
-									["count"] = 383,
-								},
-								["Blood Strike"] = {
-									["count"] = 1302,
-								},
-								["Plague Strike"] = {
-									["count"] = 735,
-								},
-								["Frost Fever (DoT)"] = {
-									["count"] = 466,
-								},
-								["Icy Touch"] = {
-									["count"] = 951,
-								},
-							},
-							["amount"] = 7181,
-						},
-						["Scourge Necromancer"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 9966,
-								},
-								["Blood Strike"] = {
-									["count"] = 3308,
-								},
-								["Blood Boil"] = {
-									["count"] = 1326,
-								},
-								["Blood Plague (DoT)"] = {
-									["count"] = 1890,
-								},
-								["Frost Fever (DoT)"] = {
-									["count"] = 2346,
-								},
-								["Icy Touch"] = {
-									["count"] = 3590,
-								},
-								["Plague Strike"] = {
-									["count"] = 3569,
-								},
-								["Death Strike"] = {
-									["count"] = 2226,
-								},
-								["Death Coil"] = {
-									["count"] = 4245,
-								},
-							},
-							["amount"] = 32466,
-						},
-						["Scarlet Preacher"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 2643,
-								},
-								["Blood Plague (DoT)"] = {
-									["count"] = 284,
-								},
-								["Blood Strike"] = {
-									["count"] = 2409,
-								},
-								["Icy Touch"] = {
-									["count"] = 990,
-								},
-								["Plague Strike"] = {
-									["count"] = 906,
-								},
-								["Frost Fever (DoT)"] = {
-									["count"] = 423,
-								},
-								["Death Coil"] = {
-									["count"] = 724,
-								},
-							},
-							["amount"] = 8379,
-						},
-						["New Avalon Councilman"] = {
-							["Details"] = {
-								["Blood Plague (DoT)"] = {
-									["count"] = 703,
-								},
-								["Melee"] = {
-									["count"] = 2807,
-								},
-								["Death Coil"] = {
-									["count"] = 659,
-								},
-								["Blood Strike"] = {
-									["count"] = 1386,
-								},
-								["Plague Strike"] = {
-									["count"] = 983,
-								},
-								["Frost Fever (DoT)"] = {
-									["count"] = 902,
-								},
-								["Icy Touch"] = {
-									["count"] = 975,
-								},
-							},
-							["amount"] = 8415,
-						},
-						["Scarlet Marksman"] = {
-							["Details"] = {
-								["Blood Plague (DoT)"] = {
-									["count"] = 638,
-								},
-								["Melee"] = {
-									["count"] = 7060,
-								},
-								["Death Coil"] = {
-									["count"] = 4122,
-								},
-								["Blood Strike"] = {
-									["count"] = 3832,
-								},
-								["Plague Strike"] = {
-									["count"] = 1558,
-								},
-								["Frost Fever (DoT)"] = {
-									["count"] = 1521,
-								},
-								["Icy Touch"] = {
-									["count"] = 3560,
-								},
-							},
-							["amount"] = 22291,
-						},
 						["Scarlet Lord Jesseriah McCree"] = {
 							["Details"] = {
-								["Blood Plague (DoT)"] = {
-									["count"] = 991,
-								},
 								["Melee"] = {
 									["count"] = 3034,
+								},
+								["Blood Plague (DoT)"] = {
+									["count"] = 991,
 								},
 								["Death Coil"] = {
 									["count"] = 1121,
 								},
-								["Blood Strike"] = {
-									["count"] = 1684,
+								["Icy Touch"] = {
+									["count"] = 829,
 								},
 								["Plague Strike"] = {
 									["count"] = 592,
@@ -6865,24 +10239,44 @@ RecountPerCharDB = {
 								["Frost Fever (DoT)"] = {
 									["count"] = 937,
 								},
-								["Icy Touch"] = {
-									["count"] = 829,
+								["Blood Strike"] = {
+									["count"] = 1684,
 								},
 							},
 							["amount"] = 9188,
 						},
+						["Flesh Eater"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 10885,
+								},
+								["Death Coil"] = {
+									["count"] = 1825,
+								},
+								["Blood Strike"] = {
+									["count"] = 360,
+								},
+								["Death Strike"] = {
+									["count"] = 1110,
+								},
+								["Blood Boil"] = {
+									["count"] = 1151,
+								},
+							},
+							["amount"] = 15331,
+						},
 						["Mayor Quimby"] = {
 							["Details"] = {
-								["Blood Plague (DoT)"] = {
-									["count"] = 176,
-								},
 								["Melee"] = {
 									["count"] = 841,
+								},
+								["Blood Plague (DoT)"] = {
+									["count"] = 176,
 								},
 								["Death Coil"] = {
 									["count"] = 659,
 								},
-								["Icy Touch"] = {
+								["Blood Strike"] = {
 									["count"] = 241,
 								},
 								["Plague Strike"] = {
@@ -6891,77 +10285,263 @@ RecountPerCharDB = {
 								["Frost Fever (DoT)"] = {
 									["count"] = 247,
 								},
-								["Blood Strike"] = {
+								["Icy Touch"] = {
 									["count"] = 241,
 								},
 							},
 							["amount"] = 2741,
 						},
-						["Kobold Miner"] = {
+						["Citizen of Havenshire"] = {
 							["Details"] = {
+								["Melee"] = {
+									["count"] = 7658,
+								},
+								["Blood Plague (DoT)"] = {
+									["count"] = 81,
+								},
+								["Death Coil"] = {
+									["count"] = 633,
+								},
 								["Icy Touch"] = {
-									["count"] = 612,
+									["count"] = 1867,
+								},
+								["Plague Strike"] = {
+									["count"] = 2672,
+								},
+								["Frost Fever (DoT)"] = {
+									["count"] = 231,
+								},
+								["Blood Strike"] = {
+									["count"] = 985,
+								},
+							},
+							["amount"] = 14127,
+						},
+						["Scarlet Peasant"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 2109,
+								},
+								["Blood Plague (DoT)"] = {
+									["count"] = 244,
+								},
+								["Blood Strike"] = {
+									["count"] = 157,
+								},
+								["Death Coil"] = {
+									["count"] = 633,
+								},
+								["Plague Strike"] = {
+									["count"] = 1006,
+								},
+								["Frost Fever (DoT)"] = {
+									["count"] = 230,
+								},
+								["Icy Touch"] = {
+									["count"] = 1637,
+								},
+							},
+							["amount"] = 6016,
+						},
+						["Scarlet Ghost"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 3077,
+								},
+								["Blood Plague (DoT)"] = {
+									["count"] = 267,
+								},
+								["Death Coil"] = {
+									["count"] = 383,
+								},
+								["Icy Touch"] = {
+									["count"] = 951,
+								},
+								["Plague Strike"] = {
+									["count"] = 735,
+								},
+								["Frost Fever (DoT)"] = {
+									["count"] = 466,
+								},
+								["Blood Strike"] = {
+									["count"] = 1302,
+								},
+							},
+							["amount"] = 7181,
+						},
+						["Skeletal Fiend"] = {
+							["Details"] = {
+								["Blood Strike"] = {
+									["count"] = 351,
+								},
+								["Death Strike"] = {
+									["count"] = 1765,
 								},
 								["Melee"] = {
-									["count"] = 3972,
+									["count"] = 15663,
 								},
 								["Blood Boil"] = {
-									["count"] = 960,
+									["count"] = 1672,
 								},
 							},
-							["amount"] = 5544,
+							["amount"] = 19451,
 						},
-						["Scarlet Infantryman"] = {
+						["Carrion Recluse"] = {
 							["Details"] = {
-								["Blood Plague (DoT)"] = {
-									["count"] = 1141,
-								},
 								["Melee"] = {
-									["count"] = 6450,
+									["count"] = 7903,
 								},
 								["Death Coil"] = {
-									["count"] = 2026,
+									["count"] = 730,
 								},
 								["Blood Strike"] = {
-									["count"] = 2252,
-								},
-								["Plague Strike"] = {
-									["count"] = 1424,
-								},
-								["Frost Fever (DoT)"] = {
-									["count"] = 1461,
+									["count"] = 698,
 								},
 								["Icy Touch"] = {
-									["count"] = 1954,
+									["count"] = 609,
+								},
+								["Frost Fever (DoT)"] = {
+									["count"] = 317,
+								},
+								["Blood Boil"] = {
+									["count"] = 222,
 								},
 							},
-							["amount"] = 16708,
+							["amount"] = 10479,
 						},
-						["Death Knight Initiate"] = {
+						["Scarlet Crusader"] = {
 							["Details"] = {
-								["Blood Plague (DoT)"] = {
-									["count"] = 811,
-								},
 								["Melee"] = {
-									["count"] = 2582,
+									["count"] = 17771,
+								},
+								["Frost Fever (DoT)"] = {
+									["count"] = 4328,
+								},
+								["Blood Plague (DoT)"] = {
+									["count"] = 3591,
 								},
 								["Death Coil"] = {
-									["count"] = 1331,
+									["count"] = 7172,
 								},
 								["Blood Strike"] = {
-									["count"] = 2273,
+									["count"] = 7166,
 								},
 								["Plague Strike"] = {
-									["count"] = 1009,
+									["count"] = 3964,
 								},
-								["Frost Fever (DoT)"] = {
-									["count"] = 704,
+								["Death Strike"] = {
+									["count"] = 3075,
 								},
 								["Icy Touch"] = {
-									["count"] = 2206,
+									["count"] = 4897,
 								},
 							},
-							["amount"] = 10916,
+							["amount"] = 51964,
+						},
+						["Skeletal Healer"] = {
+							["Details"] = {
+								["Icy Touch"] = {
+									["count"] = 610,
+								},
+								["Melee"] = {
+									["count"] = 12695,
+								},
+							},
+							["amount"] = 13305,
+						},
+						["Korfax, Champion of the Light"] = {
+							["Details"] = {
+								["Plague Strike"] = {
+									["count"] = 2803,
+								},
+								["Melee"] = {
+									["count"] = 10894,
+								},
+								["Blood Plague (DoT)"] = {
+									["count"] = 8880,
+								},
+							},
+							["amount"] = 22577,
+						},
+						["Rat"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 2256,
+								},
+								["Blood Boil"] = {
+									["count"] = 683,
+								},
+							},
+							["amount"] = 2939,
+						},
+						["Kobold Miner"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 127327,
+								},
+								["Blood Strike"] = {
+									["count"] = 10044,
+								},
+								["Death Coil"] = {
+									["count"] = 365,
+								},
+								["Icy Touch"] = {
+									["count"] = 4861,
+								},
+								["Death Strike"] = {
+									["count"] = 2448,
+								},
+								["Blood Boil"] = {
+									["count"] = 7248,
+								},
+							},
+							["amount"] = 152293,
+						},
+						["Rotted One"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 15411,
+								},
+								["Icy Touch"] = {
+									["count"] = 303,
+								},
+								["Death Coil"] = {
+									["count"] = 773,
+								},
+								["Death Strike"] = {
+									["count"] = 566,
+								},
+								["Blood Boil"] = {
+									["count"] = 1138,
+								},
+							},
+							["amount"] = 18191,
+						},
+						["Scarlet Marksman"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 7060,
+								},
+								["Blood Plague (DoT)"] = {
+									["count"] = 638,
+								},
+								["Death Coil"] = {
+									["count"] = 4122,
+								},
+								["Icy Touch"] = {
+									["count"] = 3560,
+								},
+								["Plague Strike"] = {
+									["count"] = 1558,
+								},
+								["Frost Fever (DoT)"] = {
+									["count"] = 1521,
+								},
+								["Blood Strike"] = {
+									["count"] = 3832,
+								},
+							},
+							["amount"] = 22291,
 						},
 						["Scarlet Miner"] = {
 							["Details"] = {
@@ -6987,14 +10567,6 @@ RecountPerCharDB = {
 							},
 							["amount"] = 638,
 						},
-						["Scarlet Crusader"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 3819,
-								},
-							},
-							["amount"] = 3819,
-						},
 						["Citizen of New Avalon"] = {
 							["Details"] = {
 								["Melee"] = {
@@ -7006,10 +10578,10 @@ RecountPerCharDB = {
 						["Kobold Tunneler"] = {
 							["Details"] = {
 								["Melee"] = {
-									["count"] = 6,
+									["count"] = 42,
 								},
 							},
-							["amount"] = 6,
+							["amount"] = 42,
 						},
 						["Terrifying Abomination"] = {
 							["Details"] = {
@@ -7033,20 +10605,6 @@ RecountPerCharDB = {
 							},
 							["amount"] = 2,
 						},
-						["Dark Rider of Acherus"] = {
-							["Details"] = {
-								["Plague Strike (DoT)"] = {
-									["count"] = 710,
-								},
-								["Plague Strike"] = {
-									["count"] = 192,
-								},
-								["Melee"] = {
-									["count"] = 331,
-								},
-							},
-							["amount"] = 1233,
-						},
 						["Scarlet Commander"] = {
 							["Details"] = {
 								["Melee"] = {
@@ -7054,6 +10612,104 @@ RecountPerCharDB = {
 								},
 							},
 							["amount"] = 353,
+						},
+						["Flesh Eating Worm"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 71,
+								},
+							},
+							["amount"] = 71,
+						},
+						["Goldtooth"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 2,
+								},
+							},
+							["amount"] = 2,
+						},
+						["Duke Nicholas Zverenhoff"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 3540,
+								},
+							},
+							["amount"] = 3540,
+						},
+						["Scarlet Courier"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 160,
+								},
+							},
+							["amount"] = 160,
+						},
+						["Bone Chewer"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 18,
+								},
+							},
+							["amount"] = 18,
+						},
+						["Scourge Necromancer"] = {
+							["Details"] = {
+								["Shadow Bolt"] = {
+									["count"] = 5406,
+								},
+							},
+							["amount"] = 5406,
+						},
+						["Scarlet Preacher"] = {
+							["Details"] = {
+								["Holy Smite"] = {
+									["count"] = 2930,
+								},
+								["Melee"] = {
+									["count"] = 226,
+								},
+							},
+							["amount"] = 3156,
+						},
+						["Plague Spreader"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 39,
+								},
+							},
+							["amount"] = 39,
+						},
+						["Death Knight Initiate"] = {
+							["Details"] = {
+								["Plague Strike (DoT)"] = {
+									["count"] = 584,
+								},
+								["Melee"] = {
+									["count"] = 2466,
+								},
+								["Blood Strike"] = {
+									["count"] = 373,
+								},
+								["Plague Strike"] = {
+									["count"] = 632,
+								},
+								["Icy Touch"] = {
+									["count"] = 902,
+								},
+							},
+							["amount"] = 4957,
+						},
+						["High Inquisitor Valroth"] = {
+							["Details"] = {
+								["Valroth's Smite"] = {
+									["count"] = 3151,
+								},
+								["Melee"] = {
+									["count"] = 155,
+								},
+							},
+							["amount"] = 3306,
 						},
 						["Scarlet Infantryman"] = {
 							["Details"] = {
@@ -7069,6 +10725,36 @@ RecountPerCharDB = {
 							},
 							["amount"] = 2086,
 						},
+						["Dark Rider of Acherus"] = {
+							["Details"] = {
+								["Plague Strike (DoT)"] = {
+									["count"] = 710,
+								},
+								["Plague Strike"] = {
+									["count"] = 192,
+								},
+								["Melee"] = {
+									["count"] = 331,
+								},
+							},
+							["amount"] = 1233,
+						},
+						["Defias Cutpurse"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 1,
+						},
+						["Rotted One"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 75,
+								},
+							},
+							["amount"] = 75,
+						},
 						["Crimson Acolyte"] = {
 							["Details"] = {
 								["Melee"] = {
@@ -7080,13 +10766,13 @@ RecountPerCharDB = {
 							},
 							["amount"] = 652,
 						},
-						["Patchwerk"] = {
+						["Scarlet Ghost"] = {
 							["Details"] = {
 								["Melee"] = {
-									["count"] = 9266,
+									["count"] = 414,
 								},
 							},
-							["amount"] = 9266,
+							["amount"] = 414,
 						},
 						["Defender of the Light"] = {
 							["Details"] = {
@@ -7099,16 +10785,13 @@ RecountPerCharDB = {
 							},
 							["amount"] = 874748,
 						},
-						["Scarlet Medic"] = {
+						["Citizen of Havenshire"] = {
 							["Details"] = {
-								["Holy Smite"] = {
-									["count"] = 4309,
-								},
 								["Melee"] = {
-									["count"] = 45,
+									["count"] = 224,
 								},
 							},
-							["amount"] = 4354,
+							["amount"] = 224,
 						},
 						["Unworthy Initiate"] = {
 							["Details"] = {
@@ -7130,6 +10813,41 @@ RecountPerCharDB = {
 							},
 							["amount"] = 1508,
 						},
+						["Scarlet Crusader"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 3819,
+								},
+							},
+							["amount"] = 3819,
+						},
+						["Flesh Eater"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 69,
+								},
+							},
+							["amount"] = 69,
+						},
+						["Patchwerk"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 9266,
+								},
+							},
+							["amount"] = 9266,
+						},
+						["Scarlet Lord Jesseriah McCree"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 1709,
+								},
+								["Cleave"] = {
+									["count"] = 770,
+								},
+							},
+							["amount"] = 2479,
+						},
 						["New Avalon Councilman"] = {
 							["Details"] = {
 								["Melee"] = {
@@ -7137,22 +10855,6 @@ RecountPerCharDB = {
 								},
 							},
 							["amount"] = 870,
-						},
-						["Duke Nicholas Zverenhoff"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 3540,
-								},
-							},
-							["amount"] = 3540,
-						},
-						["Scarlet Courier"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 160,
-								},
-							},
-							["amount"] = 160,
 						},
 						["Rimblat Earthshatter"] = {
 							["Details"] = {
@@ -7162,43 +10864,72 @@ RecountPerCharDB = {
 							},
 							["amount"] = 58803,
 						},
-						["High Inquisitor Valroth"] = {
-							["Details"] = {
-								["Valroth's Smite"] = {
-									["count"] = 3151,
-								},
-								["Melee"] = {
-									["count"] = 155,
-								},
-							},
-							["amount"] = 3306,
-						},
-						["Scarlet Ghost"] = {
+						["Skeletal Fiend"] = {
 							["Details"] = {
 								["Melee"] = {
-									["count"] = 414,
+									["count"] = 65,
 								},
 							},
-							["amount"] = 414,
+							["amount"] = 65,
 						},
-						["Scourge Necromancer"] = {
+						["Environment"] = {
 							["Details"] = {
-								["Shadow Bolt"] = {
-									["count"] = 5406,
+								["Falling"] = {
+									["count"] = 5296,
 								},
 							},
-							["amount"] = 5406,
+							["amount"] = 5296,
 						},
-						["Scarlet Preacher"] = {
+						["Mayor Quimby"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 328,
+								},
+							},
+							["amount"] = 328,
+						},
+						["Carrion Recluse"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 48,
+								},
+							},
+							["amount"] = 48,
+						},
+						["Skeletal Raider"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 69,
+								},
+							},
+							["amount"] = 69,
+						},
+						["Mor'Ladim"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 26,
+								},
+							},
+							["amount"] = 26,
+						},
+						["Kobold Miner"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 30,
+								},
+							},
+							["amount"] = 30,
+						},
+						["Scarlet Medic"] = {
 							["Details"] = {
 								["Holy Smite"] = {
-									["count"] = 2930,
+									["count"] = 4309,
 								},
 								["Melee"] = {
-									["count"] = 226,
+									["count"] = 45,
 								},
 							},
-							["amount"] = 3156,
+							["amount"] = 4354,
 						},
 						["Scarlet Marksman"] = {
 							["Details"] = {
@@ -7213,69 +10944,6 @@ RecountPerCharDB = {
 								},
 							},
 							["amount"] = 2821,
-						},
-						["Scarlet Lord Jesseriah McCree"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 1709,
-								},
-								["Cleave"] = {
-									["count"] = 770,
-								},
-							},
-							["amount"] = 2479,
-						},
-						["Environment"] = {
-							["Details"] = {
-								["Falling"] = {
-									["count"] = 2969,
-								},
-							},
-							["amount"] = 2969,
-						},
-						["Mayor Quimby"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 328,
-								},
-							},
-							["amount"] = 328,
-						},
-						["Kobold Miner"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 2,
-								},
-							},
-							["amount"] = 2,
-						},
-						["Citizen of Havenshire"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 224,
-								},
-							},
-							["amount"] = 224,
-						},
-						["Death Knight Initiate"] = {
-							["Details"] = {
-								["Plague Strike (DoT)"] = {
-									["count"] = 584,
-								},
-								["Melee"] = {
-									["count"] = 2466,
-								},
-								["Blood Strike"] = {
-									["count"] = 373,
-								},
-								["Plague Strike"] = {
-									["count"] = 632,
-								},
-								["Icy Touch"] = {
-									["count"] = 902,
-								},
-							},
-							["amount"] = 4957,
 						},
 						["Scarlet Miner"] = {
 							["Details"] = {
@@ -7298,13 +10966,13 @@ RecountPerCharDB = {
 					},
 					["ElementDoneBlock"] = {
 						["Melee"] = 250,
-						["Physical"] = 362,
+						["Physical"] = 465,
 					},
 					["TimeHealing"] = {
 						["Flocius"] = {
 							["Details"] = {
 								["Rune Tap"] = {
-									["count"] = 11.19,
+									["count"] = 11.83,
 								},
 								["The Might of Mograine"] = {
 									["count"] = 27.51,
@@ -7322,7 +10990,7 @@ RecountPerCharDB = {
 									["count"] = 2.25,
 								},
 							},
-							["amount"] = 517.3399999999998,
+							["amount"] = 517.9799999999998,
 						},
 					},
 					["OverHeals"] = {
@@ -7330,13 +10998,13 @@ RecountPerCharDB = {
 							["Details"] = {
 								["Hit"] = {
 									["max"] = 298,
-									["min"] = 29,
-									["count"] = 2,
-									["amount"] = 327,
+									["min"] = 6,
+									["count"] = 3,
+									["amount"] = 333,
 								},
 							},
-							["count"] = 2,
-							["amount"] = 327,
+							["count"] = 3,
+							["amount"] = 333,
 						},
 						["The Might of Mograine"] = {
 							["Details"] = {
@@ -7489,11 +11157,11 @@ RecountPerCharDB = {
 								["No Resist"] = {
 									["max"] = 0,
 									["min"] = 0,
-									["count"] = 407,
+									["count"] = 724,
 									["amount"] = 0,
 								},
 							},
-							["count"] = 407,
+							["count"] = 724,
 							["amount"] = 0,
 						},
 						["Icy Touch"] = {
@@ -7597,16 +11265,16 @@ RecountPerCharDB = {
 								["No Resist"] = {
 									["max"] = 0,
 									["min"] = 0,
-									["count"] = 5,
+									["count"] = 8,
 									["amount"] = 0,
 								},
 							},
-							["count"] = 5,
+							["count"] = 8,
 							["amount"] = 0,
 						},
 					},
 					["FDamage"] = 1769,
-					["ActiveTime"] = 1499.089999999998,
+					["ActiveTime"] = 2841.5,
 					["ElementTakenAbsorb"] = {
 						["Holy"] = 5809,
 					},
@@ -7637,12 +11305,12 @@ RecountPerCharDB = {
 								["Hit"] = {
 									["max"] = 6952,
 									["min"] = 345,
-									["count"] = 7,
-									["amount"] = 16333,
+									["count"] = 8,
+									["amount"] = 17373,
 								},
 							},
-							["count"] = 7,
-							["amount"] = 16333,
+							["count"] = 8,
+							["amount"] = 17373,
 						},
 						["The Might of Mograine"] = {
 							["Details"] = {
@@ -7723,21 +11391,21 @@ RecountPerCharDB = {
 							["amount"] = 2088,
 						},
 					},
-					["Overhealing"] = 244005,
+					["Overhealing"] = 244011,
 					["TimeSpent"] = {
 						["Scarlet Captain"] = {
 							["Details"] = {
-								["Blood Plague (DoT)"] = {
-									["count"] = 3.57,
-								},
 								["Melee"] = {
 									["count"] = 0.45,
+								},
+								["Blood Plague (DoT)"] = {
+									["count"] = 3.57,
 								},
 								["Death Coil"] = {
 									["count"] = 0,
 								},
-								["Blood Strike"] = {
-									["count"] = 0.21,
+								["Icy Touch"] = {
+									["count"] = 3.5,
 								},
 								["Plague Strike"] = {
 									["count"] = 0,
@@ -7745,25 +11413,25 @@ RecountPerCharDB = {
 								["Frost Fever (DoT)"] = {
 									["count"] = 6.02,
 								},
-								["Icy Touch"] = {
-									["count"] = 3.5,
+								["Blood Strike"] = {
+									["count"] = 0.21,
 								},
 							},
 							["amount"] = 13.75,
 						},
 						["Citizen of New Avalon"] = {
 							["Details"] = {
-								["Blood Plague (DoT)"] = {
-									["count"] = 2.14,
-								},
 								["Melee"] = {
 									["count"] = 10.58,
+								},
+								["Blood Plague (DoT)"] = {
+									["count"] = 2.14,
 								},
 								["Blood Strike"] = {
 									["count"] = 0,
 								},
-								["Death Coil"] = {
-									["count"] = 0,
+								["Icy Touch"] = {
+									["count"] = 17.21,
 								},
 								["Plague Strike"] = {
 									["count"] = 1.77,
@@ -7771,8 +11439,8 @@ RecountPerCharDB = {
 								["Frost Fever (DoT)"] = {
 									["count"] = 8.52,
 								},
-								["Icy Touch"] = {
-									["count"] = 17.21,
+								["Death Coil"] = {
+									["count"] = 0,
 								},
 							},
 							["amount"] = 40.21999999999999,
@@ -7799,20 +11467,20 @@ RecountPerCharDB = {
 						},
 						["Terrifying Abomination"] = {
 							["Details"] = {
+								["Icy Touch"] = {
+									["count"] = 2.3,
+								},
+								["Frost Fever (DoT)"] = {
+									["count"] = 4.07,
+								},
+								["Melee"] = {
+									["count"] = 7.629999999999999,
+								},
 								["Blood Strike"] = {
 									["count"] = 1.93,
 								},
 								["Death Coil"] = {
 									["count"] = 3.73,
-								},
-								["Melee"] = {
-									["count"] = 7.629999999999999,
-								},
-								["Frost Fever (DoT)"] = {
-									["count"] = 4.07,
-								},
-								["Icy Touch"] = {
-									["count"] = 2.3,
 								},
 								["Plague Strike"] = {
 									["count"] = 2.35,
@@ -7839,20 +11507,20 @@ RecountPerCharDB = {
 						},
 						["Scarlet Commander"] = {
 							["Details"] = {
-								["Melee"] = {
-									["count"] = 2.53,
+								["Blood Plague (DoT)"] = {
+									["count"] = 4.63,
 								},
 								["Frost Fever (DoT)"] = {
 									["count"] = 5.520000000000001,
 								},
-								["Blood Plague (DoT)"] = {
-									["count"] = 4.63,
+								["Melee"] = {
+									["count"] = 2.53,
 								},
 								["Blood Strike"] = {
 									["count"] = 1.46,
 								},
-								["Icy Touch"] = {
-									["count"] = 7,
+								["Death Coil"] = {
+									["count"] = 3.88,
 								},
 								["Plague Strike"] = {
 									["count"] = 1.49,
@@ -7860,11 +11528,45 @@ RecountPerCharDB = {
 								["Death Strike"] = {
 									["count"] = 0.21,
 								},
-								["Death Coil"] = {
-									["count"] = 3.88,
+								["Icy Touch"] = {
+									["count"] = 7,
 								},
 							},
 							["amount"] = 26.72,
+						},
+						["Flesh Eating Worm"] = {
+							["Details"] = {
+								["Death Coil"] = {
+									["count"] = 1.7,
+								},
+								["Blood Strike"] = {
+									["count"] = 0.52,
+								},
+								["Blood Boil"] = {
+									["count"] = 18.84,
+								},
+							},
+							["amount"] = 21.06,
+						},
+						["Goldtooth"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 10.42,
+								},
+								["Blood Strike"] = {
+									["count"] = 3.5,
+								},
+								["Icy Touch"] = {
+									["count"] = 1.89,
+								},
+								["Death Strike"] = {
+									["count"] = 3.24,
+								},
+								["Blood Boil"] = {
+									["count"] = 7,
+								},
+							},
+							["amount"] = 26.05,
 						},
 						["Duke Nicholas Zverenhoff"] = {
 							["Details"] = {
@@ -7891,17 +11593,17 @@ RecountPerCharDB = {
 						},
 						["Scarlet Courier"] = {
 							["Details"] = {
-								["Death Coil"] = {
-									["count"] = 0,
-								},
 								["Blood Strike"] = {
 									["count"] = 0.32,
 								},
-								["Melee"] = {
-									["count"] = 1.3,
-								},
 								["Frost Fever (DoT)"] = {
 									["count"] = 0.6,
+								},
+								["Blood Plague (DoT)"] = {
+									["count"] = 2.3,
+								},
+								["Death Coil"] = {
+									["count"] = 0,
 								},
 								["Icy Touch"] = {
 									["count"] = 0,
@@ -7912,8 +11614,8 @@ RecountPerCharDB = {
 								["Death Strike"] = {
 									["count"] = 1.2,
 								},
-								["Blood Plague (DoT)"] = {
-									["count"] = 2.3,
+								["Melee"] = {
+									["count"] = 1.3,
 								},
 							},
 							["amount"] = 5.720000000000001,
@@ -7943,11 +11645,11 @@ RecountPerCharDB = {
 								["Blood Plague (DoT)"] = {
 									["count"] = 2.22,
 								},
-								["Frost Fever (DoT)"] = {
-									["count"] = 3.44,
-								},
 								["Icy Touch"] = {
 									["count"] = 4.99,
+								},
+								["Frost Fever (DoT)"] = {
+									["count"] = 3.44,
 								},
 								["Plague Strike"] = {
 									["count"] = 0.99,
@@ -7963,17 +11665,17 @@ RecountPerCharDB = {
 						},
 						["Scarlet Preacher"] = {
 							["Details"] = {
-								["Melee"] = {
-									["count"] = 5.38,
-								},
 								["Blood Plague (DoT)"] = {
 									["count"] = 9.960000000000001,
+								},
+								["Melee"] = {
+									["count"] = 5.38,
 								},
 								["Blood Strike"] = {
 									["count"] = 2.06,
 								},
-								["Icy Touch"] = {
-									["count"] = 7.05,
+								["Death Coil"] = {
+									["count"] = 2.6,
 								},
 								["Plague Strike"] = {
 									["count"] = 3.24,
@@ -7981,11 +11683,34 @@ RecountPerCharDB = {
 								["Frost Fever (DoT)"] = {
 									["count"] = 7.750000000000001,
 								},
-								["Death Coil"] = {
-									["count"] = 2.6,
+								["Icy Touch"] = {
+									["count"] = 7.05,
 								},
 							},
 							["amount"] = 38.04000000000001,
+						},
+						["Plague Spreader"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 30.31,
+								},
+								["Blood Strike"] = {
+									["count"] = 3.62,
+								},
+								["Icy Touch"] = {
+									["count"] = 1.61,
+								},
+								["Death Coil"] = {
+									["count"] = 8.390000000000001,
+								},
+								["Death Strike"] = {
+									["count"] = 3.3,
+								},
+								["Blood Boil"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 47.23,
 						},
 						["Ellen Stanbridge"] = {
 							["Details"] = {
@@ -7995,19 +11720,36 @@ RecountPerCharDB = {
 							},
 							["amount"] = 3.5,
 						},
-						["Death Knight Initiate"] = {
+						["Bone Chewer"] = {
 							["Details"] = {
-								["Blood Plague (DoT)"] = {
-									["count"] = 11.06,
+								["Blood Strike"] = {
+									["count"] = 2.31,
+								},
+								["Death Coil"] = {
+									["count"] = 7,
 								},
 								["Melee"] = {
+									["count"] = 24.55,
+								},
+								["Blood Boil"] = {
+									["count"] = 6.960000000000001,
+								},
+							},
+							["amount"] = 40.82,
+						},
+						["Death Knight Initiate"] = {
+							["Details"] = {
+								["Melee"] = {
 									["count"] = 7.51,
+								},
+								["Blood Plague (DoT)"] = {
+									["count"] = 11.06,
 								},
 								["Death Coil"] = {
 									["count"] = 0,
 								},
-								["Blood Strike"] = {
-									["count"] = 0,
+								["Icy Touch"] = {
+									["count"] = 0.16,
 								},
 								["Plague Strike"] = {
 									["count"] = 1.74,
@@ -8015,16 +11757,65 @@ RecountPerCharDB = {
 								["Frost Fever (DoT)"] = {
 									["count"] = 12.02,
 								},
-								["Icy Touch"] = {
-									["count"] = 0.16,
+								["Blood Strike"] = {
+									["count"] = 0,
 								},
 							},
 							["amount"] = 32.49000000000001,
 						},
+						["Expert's Training Dummy"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 40.92,
+								},
+								["Icy Touch"] = {
+									["count"] = 1.87,
+								},
+								["Plague Strike"] = {
+									["count"] = 3.14,
+								},
+								["Frost Fever (DoT)"] = {
+									["count"] = 12.21,
+								},
+								["Blood Plague (DoT)"] = {
+									["count"] = 17.64,
+								},
+							},
+							["amount"] = 75.77999999999999,
+						},
+						["Scarlet Crusader"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 11.74,
+								},
+								["Frost Fever (DoT)"] = {
+									["count"] = 32.04,
+								},
+								["Blood Plague (DoT)"] = {
+									["count"] = 31.58,
+								},
+								["Death Coil"] = {
+									["count"] = 7.83,
+								},
+								["Blood Strike"] = {
+									["count"] = 1.68,
+								},
+								["Plague Strike"] = {
+									["count"] = 4.28,
+								},
+								["Death Strike"] = {
+									["count"] = 3.83,
+								},
+								["Icy Touch"] = {
+									["count"] = 10.61,
+								},
+							},
+							["amount"] = 103.59,
+						},
 						["High Inquisitor Valroth"] = {
 							["Details"] = {
-								["Blood Strike"] = {
-									["count"] = 0,
+								["Blood Plague (DoT)"] = {
+									["count"] = 6.560000000000001,
 								},
 								["Death Strike"] = {
 									["count"] = 0,
@@ -8032,10 +11823,10 @@ RecountPerCharDB = {
 								["Melee"] = {
 									["count"] = 0.1,
 								},
-								["Blood Plague (DoT)"] = {
-									["count"] = 6.560000000000001,
+								["Blood Strike"] = {
+									["count"] = 0,
 								},
-								["Icy Touch"] = {
+								["Death Coil"] = {
 									["count"] = 0,
 								},
 								["Plague Strike"] = {
@@ -8044,7 +11835,7 @@ RecountPerCharDB = {
 								["Frost Fever (DoT)"] = {
 									["count"] = 9.43,
 								},
-								["Death Coil"] = {
+								["Icy Touch"] = {
 									["count"] = 0,
 								},
 							},
@@ -8052,17 +11843,17 @@ RecountPerCharDB = {
 						},
 						["Scarlet Infantryman"] = {
 							["Details"] = {
-								["Blood Plague (DoT)"] = {
-									["count"] = 11.88,
-								},
 								["Melee"] = {
 									["count"] = 4,
+								},
+								["Blood Plague (DoT)"] = {
+									["count"] = 11.88,
 								},
 								["Death Coil"] = {
 									["count"] = 0,
 								},
-								["Blood Strike"] = {
-									["count"] = 0.29,
+								["Icy Touch"] = {
+									["count"] = 7.15,
 								},
 								["Plague Strike"] = {
 									["count"] = 1.54,
@@ -8070,25 +11861,108 @@ RecountPerCharDB = {
 								["Frost Fever (DoT)"] = {
 									["count"] = 18.38,
 								},
-								["Icy Touch"] = {
-									["count"] = 7.15,
+								["Blood Strike"] = {
+									["count"] = 0.29,
 								},
 							},
 							["amount"] = 43.23999999999999,
 						},
-						["Dark Rider of Acherus"] = {
+						["Rotted One"] = {
 							["Details"] = {
-								["Blood Plague (DoT)"] = {
-									["count"] = 1.29,
+								["Melee"] = {
+									["count"] = 28.25,
+								},
+								["Icy Touch"] = {
+									["count"] = 3.5,
+								},
+								["Death Coil"] = {
+									["count"] = 7,
+								},
+								["Death Strike"] = {
+									["count"] = 3.5,
+								},
+								["Blood Boil"] = {
+									["count"] = 3.5,
+								},
+							},
+							["amount"] = 45.75,
+						},
+						["Grandmaster's Training Dummy"] = {
+							["Details"] = {
+								["Pestilence"] = {
+									["count"] = 0.4400000000000001,
+								},
+							},
+							["amount"] = 0.4400000000000001,
+						},
+						["Skeletal Horror"] = {
+							["Details"] = {
+								["Icy Touch"] = {
+									["count"] = 6.45,
 								},
 								["Melee"] = {
+									["count"] = 18.45,
+								},
+								["Death Coil"] = {
+									["count"] = 3.14,
+								},
+								["Blood Strike"] = {
+									["count"] = 1.98,
+								},
+								["Plague Strike"] = {
+									["count"] = 1.82,
+								},
+								["Death Strike"] = {
+									["count"] = 3.4,
+								},
+								["Blood Boil"] = {
+									["count"] = 3.5,
+								},
+							},
+							["amount"] = 38.73999999999999,
+						},
+						["Patchwerk"] = {
+							["Details"] = {
+								["Blood Strike"] = {
+									["count"] = 2.64,
+								},
+								["Frost Fever (DoT)"] = {
+									["count"] = 10.87,
+								},
+								["Blood Plague (DoT)"] = {
+									["count"] = 14.01,
+								},
+								["Death Coil"] = {
+									["count"] = 1.83,
+								},
+								["Icy Touch"] = {
+									["count"] = 7.6,
+								},
+								["Plague Strike"] = {
+									["count"] = 3.58,
+								},
+								["Death Strike"] = {
+									["count"] = 1.65,
+								},
+								["Melee"] = {
+									["count"] = 7.400000000000001,
+								},
+							},
+							["amount"] = 49.58000000000001,
+						},
+						["Dark Rider of Acherus"] = {
+							["Details"] = {
+								["Melee"] = {
 									["count"] = 3.04,
+								},
+								["Blood Plague (DoT)"] = {
+									["count"] = 1.29,
 								},
 								["Death Coil"] = {
 									["count"] = 0,
 								},
-								["Blood Strike"] = {
-									["count"] = 0,
+								["Icy Touch"] = {
+									["count"] = 3.5,
 								},
 								["Plague Strike"] = {
 									["count"] = 0,
@@ -8096,11 +11970,77 @@ RecountPerCharDB = {
 								["Frost Fever (DoT)"] = {
 									["count"] = 3.85,
 								},
-								["Icy Touch"] = {
-									["count"] = 3.5,
+								["Blood Strike"] = {
+									["count"] = 0,
 								},
 							},
 							["amount"] = 11.68,
+						},
+						["Rimblat Earthshatter"] = {
+							["Details"] = {
+								["Icy Touch"] = {
+									["count"] = 2.44,
+								},
+								["Melee"] = {
+									["count"] = 0.75,
+								},
+								["Pestilence"] = {
+									["count"] = 2.38,
+								},
+							},
+							["amount"] = 5.57,
+						},
+						["Scarlet Medic"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Blood Plague (DoT)"] = {
+									["count"] = 5.01,
+								},
+								["Death Coil"] = {
+									["count"] = 0,
+								},
+								["Icy Touch"] = {
+									["count"] = 2.66,
+								},
+								["Plague Strike"] = {
+									["count"] = 0,
+								},
+								["Frost Fever (DoT)"] = {
+									["count"] = 25.93,
+								},
+								["Blood Strike"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 33.6,
+						},
+						["Mayor Quimby"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Blood Plague (DoT)"] = {
+									["count"] = 1.52,
+								},
+								["Death Coil"] = {
+									["count"] = 0,
+								},
+								["Icy Touch"] = {
+									["count"] = 0,
+								},
+								["Plague Strike"] = {
+									["count"] = 0.38,
+								},
+								["Frost Fever (DoT)"] = {
+									["count"] = 0.99,
+								},
+								["Blood Strike"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 2.89,
 						},
 						["Crimson Acolyte"] = {
 							["Details"] = {
@@ -8122,19 +12062,27 @@ RecountPerCharDB = {
 							},
 							["amount"] = 0,
 						},
+						["Leonid Barthalomew the Revered"] = {
+							["Details"] = {
+								["Pestilence"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
 						["Defender of the Light"] = {
 							["Details"] = {
+								["Death Coil"] = {
+									["count"] = 5.23,
+								},
 								["Death Strike"] = {
 									["count"] = 0.37,
 								},
+								["Blood Plague (DoT)"] = {
+									["count"] = 56.32,
+								},
 								["Blood Strike"] = {
 									["count"] = 0.7,
-								},
-								["Melee"] = {
-									["count"] = 33.49,
-								},
-								["Death Coil"] = {
-									["count"] = 5.23,
 								},
 								["Icy Touch"] = {
 									["count"] = 31.15000000000001,
@@ -8145,50 +12093,41 @@ RecountPerCharDB = {
 								["Frost Fever (DoT)"] = {
 									["count"] = 41.82,
 								},
-								["Blood Plague (DoT)"] = {
-									["count"] = 56.32,
+								["Melee"] = {
+									["count"] = 33.49,
 								},
 							},
 							["amount"] = 177.11,
 						},
-						["Citizen of Havenshire"] = {
+						["Skeletal Raider"] = {
 							["Details"] = {
-								["Blood Plague (DoT)"] = {
-									["count"] = 1.26,
-								},
-								["Melee"] = {
-									["count"] = 9.859999999999999,
+								["Icy Touch"] = {
+									["count"] = 10.18,
 								},
 								["Death Coil"] = {
-									["count"] = 3.5,
+									["count"] = 6.49,
 								},
-								["Blood Strike"] = {
-									["count"] = 0,
+								["Death Strike"] = {
+									["count"] = 12.68,
 								},
-								["Plague Strike"] = {
-									["count"] = 0,
-								},
-								["Frost Fever (DoT)"] = {
-									["count"] = 3.34,
-								},
-								["Icy Touch"] = {
-									["count"] = 20.33,
+								["Melee"] = {
+									["count"] = 33.11,
 								},
 							},
-							["amount"] = 38.28999999999999,
+							["amount"] = 62.46000000000001,
 						},
 						["Unworthy Initiate"] = {
 							["Details"] = {
-								["Blood Plague (DoT)"] = {
-									["count"] = 3.850000000000001,
-								},
 								["Melee"] = {
 									["count"] = 0,
+								},
+								["Blood Plague (DoT)"] = {
+									["count"] = 3.850000000000001,
 								},
 								["Death Coil"] = {
 									["count"] = 0,
 								},
-								["Blood Strike"] = {
+								["Icy Touch"] = {
 									["count"] = 0,
 								},
 								["Plague Strike"] = {
@@ -8197,16 +12136,174 @@ RecountPerCharDB = {
 								["Frost Fever (DoT)"] = {
 									["count"] = 3.34,
 								},
-								["Icy Touch"] = {
+								["Blood Strike"] = {
 									["count"] = 0,
 								},
 							},
 							["amount"] = 7.19,
 						},
+						["Carrion Recluse"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 10.74,
+								},
+								["Death Coil"] = {
+									["count"] = 3.5,
+								},
+								["Blood Strike"] = {
+									["count"] = 3.5,
+								},
+								["Icy Touch"] = {
+									["count"] = 4.61,
+								},
+								["Frost Fever (DoT)"] = {
+									["count"] = 4.69,
+								},
+								["Blood Boil"] = {
+									["count"] = 3.5,
+								},
+							},
+							["amount"] = 30.54,
+						},
+						["Flesh Eater"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 27.6,
+								},
+								["Death Coil"] = {
+									["count"] = 14,
+								},
+								["Blood Strike"] = {
+									["count"] = 2.87,
+								},
+								["Death Strike"] = {
+									["count"] = 3.03,
+								},
+								["Blood Boil"] = {
+									["count"] = 5.04,
+								},
+							},
+							["amount"] = 52.54000000000001,
+						},
+						["Scarlet Ghost"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 3.5,
+								},
+								["Blood Plague (DoT)"] = {
+									["count"] = 2.84,
+								},
+								["Death Coil"] = {
+									["count"] = 0,
+								},
+								["Icy Touch"] = {
+									["count"] = 0.04,
+								},
+								["Plague Strike"] = {
+									["count"] = 1.71,
+								},
+								["Frost Fever (DoT)"] = {
+									["count"] = 5.98,
+								},
+								["Blood Strike"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 14.07,
+						},
+						["Kobold Tunneler"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 247.19,
+								},
+								["Blood Strike"] = {
+									["count"] = 12.16,
+								},
+								["Icy Touch"] = {
+									["count"] = 136.82,
+								},
+								["Death Strike"] = {
+									["count"] = 5.67,
+								},
+								["Blood Boil"] = {
+									["count"] = 77.06,
+								},
+							},
+							["amount"] = 478.9,
+						},
+						["Scarlet Peasant"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Blood Plague (DoT)"] = {
+									["count"] = 3.39,
+								},
+								["Blood Strike"] = {
+									["count"] = 0,
+								},
+								["Death Coil"] = {
+									["count"] = 3.5,
+								},
+								["Plague Strike"] = {
+									["count"] = 2.72,
+								},
+								["Frost Fever (DoT)"] = {
+									["count"] = 3.43,
+								},
+								["Icy Touch"] = {
+									["count"] = 8.550000000000001,
+								},
+							},
+							["amount"] = 21.59,
+						},
+						["New Avalon Councilman"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Blood Plague (DoT)"] = {
+									["count"] = 5.73,
+								},
+								["Death Coil"] = {
+									["count"] = 0,
+								},
+								["Icy Touch"] = {
+									["count"] = 0.04,
+								},
+								["Plague Strike"] = {
+									["count"] = 1.68,
+								},
+								["Frost Fever (DoT)"] = {
+									["count"] = 6.959999999999999,
+								},
+								["Blood Strike"] = {
+									["count"] = 1.02,
+								},
+							},
+							["amount"] = 15.43,
+						},
+						["Skeletal Fiend"] = {
+							["Details"] = {
+								["Blood Strike"] = {
+									["count"] = 0.35,
+								},
+								["Death Strike"] = {
+									["count"] = 1.49,
+								},
+								["Melee"] = {
+									["count"] = 39.04,
+								},
+								["Blood Boil"] = {
+									["count"] = 5.17,
+								},
+							},
+							["amount"] = 46.05,
+						},
 						["Flocius"] = {
 							["Details"] = {
 								["Rune Tap"] = {
-									["count"] = 11.19,
+									["count"] = 11.83,
 								},
 								["The Might of Mograine"] = {
 									["count"] = 27.51,
@@ -8224,258 +12321,57 @@ RecountPerCharDB = {
 									["count"] = 2.25,
 								},
 							},
-							["amount"] = 517.3399999999998,
+							["amount"] = 517.9799999999998,
 						},
-						["Scarlet Ghost"] = {
+						["Skeletal Healer"] = {
 							["Details"] = {
-								["Blood Plague (DoT)"] = {
-									["count"] = 2.84,
+								["Icy Touch"] = {
+									["count"] = 6.109999999999999,
 								},
 								["Melee"] = {
-									["count"] = 3.5,
-								},
-								["Death Coil"] = {
-									["count"] = 0,
-								},
-								["Blood Strike"] = {
-									["count"] = 0,
-								},
-								["Plague Strike"] = {
-									["count"] = 1.71,
-								},
-								["Frost Fever (DoT)"] = {
-									["count"] = 5.98,
-								},
-								["Icy Touch"] = {
-									["count"] = 0.04,
+									["count"] = 25.77,
 								},
 							},
-							["amount"] = 14.07,
+							["amount"] = 31.88,
 						},
-						["Kobold Tunneler"] = {
+						["Citizen of Havenshire"] = {
 							["Details"] = {
-								["Icy Touch"] = {
-									["count"] = 17.5,
-								},
 								["Melee"] = {
-									["count"] = 14,
+									["count"] = 9.859999999999999,
 								},
-								["Blood Boil"] = {
-									["count"] = 6.45,
-								},
-							},
-							["amount"] = 37.95,
-						},
-						["Scarlet Peasant"] = {
-							["Details"] = {
 								["Blood Plague (DoT)"] = {
-									["count"] = 3.39,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Blood Strike"] = {
-									["count"] = 0,
-								},
-								["Icy Touch"] = {
-									["count"] = 8.550000000000001,
-								},
-								["Plague Strike"] = {
-									["count"] = 2.72,
-								},
-								["Frost Fever (DoT)"] = {
-									["count"] = 3.43,
+									["count"] = 1.26,
 								},
 								["Death Coil"] = {
 									["count"] = 3.5,
 								},
-							},
-							["amount"] = 21.59,
-						},
-						["New Avalon Councilman"] = {
-							["Details"] = {
-								["Blood Plague (DoT)"] = {
-									["count"] = 5.73,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Death Coil"] = {
-									["count"] = 0,
-								},
-								["Blood Strike"] = {
-									["count"] = 1.02,
-								},
-								["Plague Strike"] = {
-									["count"] = 1.68,
-								},
-								["Frost Fever (DoT)"] = {
-									["count"] = 6.959999999999999,
-								},
 								["Icy Touch"] = {
-									["count"] = 0.04,
-								},
-							},
-							["amount"] = 15.43,
-						},
-						["Scarlet Crusader"] = {
-							["Details"] = {
-								["Blood Plague (DoT)"] = {
-									["count"] = 31.58,
-								},
-								["Frost Fever (DoT)"] = {
-									["count"] = 32.04,
-								},
-								["Melee"] = {
-									["count"] = 11.74,
-								},
-								["Death Coil"] = {
-									["count"] = 7.83,
-								},
-								["Icy Touch"] = {
-									["count"] = 10.61,
-								},
-								["Plague Strike"] = {
-									["count"] = 4.28,
-								},
-								["Death Strike"] = {
-									["count"] = 3.83,
-								},
-								["Blood Strike"] = {
-									["count"] = 1.68,
-								},
-							},
-							["amount"] = 103.59,
-						},
-						["Patchwerk"] = {
-							["Details"] = {
-								["Death Coil"] = {
-									["count"] = 1.83,
-								},
-								["Blood Strike"] = {
-									["count"] = 2.64,
-								},
-								["Melee"] = {
-									["count"] = 7.400000000000001,
-								},
-								["Blood Plague (DoT)"] = {
-									["count"] = 14.01,
-								},
-								["Icy Touch"] = {
-									["count"] = 7.6,
-								},
-								["Plague Strike"] = {
-									["count"] = 3.58,
-								},
-								["Frost Fever (DoT)"] = {
-									["count"] = 10.87,
-								},
-								["Death Strike"] = {
-									["count"] = 1.65,
-								},
-							},
-							["amount"] = 49.58000000000001,
-						},
-						["Leonid Barthalomew the Revered"] = {
-							["Details"] = {
-								["Pestilence"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Rimblat Earthshatter"] = {
-							["Details"] = {
-								["Icy Touch"] = {
-									["count"] = 2.44,
-								},
-								["Melee"] = {
-									["count"] = 0.75,
-								},
-								["Pestilence"] = {
-									["count"] = 2.38,
-								},
-							},
-							["amount"] = 5.57,
-						},
-						["Scarlet Medic"] = {
-							["Details"] = {
-								["Blood Plague (DoT)"] = {
-									["count"] = 5.01,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Death Coil"] = {
-									["count"] = 0,
-								},
-								["Blood Strike"] = {
-									["count"] = 0,
+									["count"] = 20.33,
 								},
 								["Plague Strike"] = {
 									["count"] = 0,
 								},
 								["Frost Fever (DoT)"] = {
-									["count"] = 25.93,
-								},
-								["Icy Touch"] = {
-									["count"] = 2.66,
-								},
-							},
-							["amount"] = 33.6,
-						},
-						["Mayor Quimby"] = {
-							["Details"] = {
-								["Blood Plague (DoT)"] = {
-									["count"] = 1.52,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Death Coil"] = {
-									["count"] = 0,
+									["count"] = 3.34,
 								},
 								["Blood Strike"] = {
 									["count"] = 0,
 								},
-								["Plague Strike"] = {
-									["count"] = 0.38,
-								},
-								["Frost Fever (DoT)"] = {
-									["count"] = 0.99,
-								},
-								["Icy Touch"] = {
-									["count"] = 0,
-								},
 							},
-							["amount"] = 2.89,
-						},
-						["Kobold Miner"] = {
-							["Details"] = {
-								["Icy Touch"] = {
-									["count"] = 5.79,
-								},
-								["Melee"] = {
-									["count"] = 13.81,
-								},
-								["Blood Boil"] = {
-									["count"] = 2.63,
-								},
-							},
-							["amount"] = 22.23,
+							["amount"] = 38.28999999999999,
 						},
 						["Scarlet Lord Jesseriah McCree"] = {
 							["Details"] = {
-								["Blood Plague (DoT)"] = {
-									["count"] = 11.74,
-								},
 								["Melee"] = {
 									["count"] = 0,
+								},
+								["Blood Plague (DoT)"] = {
+									["count"] = 11.74,
 								},
 								["Death Coil"] = {
 									["count"] = 1.39,
 								},
-								["Blood Strike"] = {
+								["Icy Touch"] = {
 									["count"] = 0,
 								},
 								["Plague Strike"] = {
@@ -8484,25 +12380,76 @@ RecountPerCharDB = {
 								["Frost Fever (DoT)"] = {
 									["count"] = 8.890000000000001,
 								},
-								["Icy Touch"] = {
+								["Blood Strike"] = {
 									["count"] = 0,
 								},
 							},
 							["amount"] = 22.02,
 						},
-						["Scarlet Marksman"] = {
+						["Rat"] = {
 							["Details"] = {
-								["Blood Plague (DoT)"] = {
-									["count"] = 13.02,
+								["Melee"] = {
+									["count"] = 7,
+								},
+								["Blood Boil"] = {
+									["count"] = 3.5,
+								},
+							},
+							["amount"] = 10.5,
+						},
+						["Kobold Miner"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 236.4499999999999,
+								},
+								["Blood Strike"] = {
+									["count"] = 45.73,
+								},
+								["Death Coil"] = {
+									["count"] = 3.5,
+								},
+								["Icy Touch"] = {
+									["count"] = 48.9,
+								},
+								["Death Strike"] = {
+									["count"] = 5.310000000000001,
+								},
+								["Blood Boil"] = {
+									["count"] = 47.73,
+								},
+							},
+							["amount"] = 387.6200000000002,
+						},
+						["Mor'Ladim"] = {
+							["Details"] = {
+								["Icy Touch"] = {
+									["count"] = 2.4,
+								},
+								["Plague Strike"] = {
+									["count"] = 0.7,
 								},
 								["Melee"] = {
+									["count"] = 1.22,
+								},
+								["Frost Fever (DoT)"] = {
+									["count"] = 1.27,
+								},
+							},
+							["amount"] = 5.590000000000001,
+						},
+						["Scarlet Marksman"] = {
+							["Details"] = {
+								["Melee"] = {
 									["count"] = 11.71,
+								},
+								["Blood Plague (DoT)"] = {
+									["count"] = 13.02,
 								},
 								["Death Coil"] = {
 									["count"] = 20.58,
 								},
-								["Blood Strike"] = {
-									["count"] = 1.17,
+								["Icy Touch"] = {
+									["count"] = 11.32,
 								},
 								["Plague Strike"] = {
 									["count"] = 3.63,
@@ -8510,8 +12457,8 @@ RecountPerCharDB = {
 								["Frost Fever (DoT)"] = {
 									["count"] = 28.66,
 								},
-								["Icy Touch"] = {
-									["count"] = 11.32,
+								["Blood Strike"] = {
+									["count"] = 1.17,
 								},
 							},
 							["amount"] = 90.09,
@@ -8528,8 +12475,8 @@ RecountPerCharDB = {
 							["amount"] = 5.02,
 						},
 					},
-					["Healing"] = 67949,
-					["DamageTaken"] = 994756,
+					["Healing"] = 68989,
+					["DamageTaken"] = 997630,
 					["FDamagedWho"] = {
 						["Scarlet Marksman"] = {
 							["Details"] = {
@@ -8568,18 +12515,18 @@ RecountPerCharDB = {
 								["Glancing"] = {
 									["max"] = 7943,
 									["min"] = 123,
-									["count"] = 53,
-									["amount"] = 94056,
+									["count"] = 145,
+									["amount"] = 331651,
 								},
 								["Dodge"] = {
-									["count"] = 6,
+									["count"] = 8,
 									["amount"] = 0,
 								},
 								["Hit"] = {
 									["max"] = 9298,
 									["min"] = 87,
-									["count"] = 192,
-									["amount"] = 306783,
+									["count"] = 206,
+									["amount"] = 312248,
 								},
 								["Hit (Blocked)"] = {
 									["max"] = 1724,
@@ -8588,22 +12535,22 @@ RecountPerCharDB = {
 									["amount"] = 3580,
 								},
 								["Miss"] = {
-									["count"] = 9,
+									["count"] = 10,
 									["amount"] = 0,
 								},
 								["Crit"] = {
 									["max"] = 18760,
 									["min"] = 180,
-									["count"] = 79,
-									["amount"] = 235872,
+									["count"] = 221,
+									["amount"] = 379790,
 								},
 								["Parry"] = {
-									["count"] = 7,
+									["count"] = 8,
 									["amount"] = 0,
 								},
 							},
-							["count"] = 355,
-							["amount"] = 640291,
+							["count"] = 607,
+							["amount"] = 1027269,
 						},
 						["Icy Touch"] = {
 							["Details"] = {
@@ -8614,45 +12561,45 @@ RecountPerCharDB = {
 								["Crit"] = {
 									["max"] = 14486,
 									["min"] = 465,
-									["count"] = 17,
-									["amount"] = 87430,
+									["count"] = 23,
+									["amount"] = 91105,
 								},
 								["Hit"] = {
 									["max"] = 7243,
 									["min"] = 229,
-									["count"] = 139,
-									["amount"] = 163404,
+									["count"] = 197,
+									["amount"] = 181092,
 								},
 							},
-							["count"] = 172,
-							["amount"] = 250834,
+							["count"] = 236,
+							["amount"] = 272197,
 						},
 						["Blood Boil"] = {
 							["Details"] = {
 								["Crit"] = {
 									["max"] = 2772,
-									["min"] = 2646,
-									["count"] = 2,
-									["amount"] = 5418,
+									["min"] = 443,
+									["count"] = 16,
+									["amount"] = 11932,
 								},
 								["Hit"] = {
 									["max"] = 2159,
-									["min"] = 221,
-									["count"] = 29,
-									["amount"] = 30600,
+									["min"] = 218,
+									["count"] = 153,
+									["amount"] = 59484,
 								},
 							},
-							["count"] = 31,
-							["amount"] = 36018,
+							["count"] = 169,
+							["amount"] = 71416,
 						},
 						["Pestilence"] = {
 							["Details"] = {
 								["Miss"] = {
-									["count"] = 29,
+									["count"] = 31,
 									["amount"] = 0,
 								},
 							},
-							["count"] = 29,
+							["count"] = 31,
 							["amount"] = 0,
 						},
 						["Blood Plague (DoT)"] = {
@@ -8660,24 +12607,12 @@ RecountPerCharDB = {
 								["Tick"] = {
 									["max"] = 2879,
 									["min"] = 80,
-									["count"] = 309,
-									["amount"] = 430092,
+									["count"] = 324,
+									["amount"] = 431608,
 								},
 							},
-							["count"] = 309,
-							["amount"] = 430092,
-						},
-						["Frost Fever (DoT)"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 2734,
-									["min"] = 75,
-									["count"] = 394,
-									["amount"] = 480808,
-								},
-							},
-							["count"] = 394,
-							["amount"] = 480808,
+							["count"] = 324,
+							["amount"] = 431608,
 						},
 						["Death Coil"] = {
 							["Details"] = {
@@ -8688,18 +12623,30 @@ RecountPerCharDB = {
 								["Crit"] = {
 									["max"] = 16465,
 									["min"] = 633,
-									["count"] = 5,
-									["amount"] = 19152,
+									["count"] = 8,
+									["amount"] = 21342,
 								},
 								["Hit"] = {
 									["max"] = 9880,
 									["min"] = 314,
-									["count"] = 92,
-									["amount"] = 106373,
+									["count"] = 106,
+									["amount"] = 111526,
 								},
 							},
-							["count"] = 99,
-							["amount"] = 125525,
+							["count"] = 116,
+							["amount"] = 132868,
+						},
+						["Frost Fever (DoT)"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 2734,
+									["min"] = 75,
+									["count"] = 413,
+									["amount"] = 482807,
+								},
+							},
+							["count"] = 413,
+							["amount"] = 482807,
 						},
 						["Plague Strike"] = {
 							["Details"] = {
@@ -8712,14 +12659,14 @@ RecountPerCharDB = {
 								["Hit"] = {
 									["max"] = 5020,
 									["min"] = 118,
-									["count"] = 90,
-									["amount"] = 101074,
+									["count"] = 93,
+									["amount"] = 101838,
 								},
 								["Hit (Blocked)"] = {
 									["max"] = 181,
 									["min"] = 137,
-									["count"] = 9,
-									["amount"] = 1433,
+									["count"] = 10,
+									["amount"] = 1598,
 								},
 								["Dodge"] = {
 									["count"] = 5,
@@ -8736,8 +12683,8 @@ RecountPerCharDB = {
 									["amount"] = 0,
 								},
 							},
-							["count"] = 134,
-							["amount"] = 149274,
+							["count"] = 138,
+							["amount"] = 150203,
 						},
 						["Death Strike"] = {
 							["Details"] = {
@@ -8745,17 +12692,23 @@ RecountPerCharDB = {
 									["count"] = 1,
 									["amount"] = 0,
 								},
+								["Hit (Blocked)"] = {
+									["max"] = 507,
+									["min"] = 252,
+									["count"] = 2,
+									["amount"] = 759,
+								},
 								["Hit"] = {
 									["max"] = 9422,
 									["min"] = 262,
-									["count"] = 21,
-									["amount"] = 32013,
+									["count"] = 26,
+									["amount"] = 34834,
 								},
-								["Hit (Blocked)"] = {
-									["max"] = 252,
-									["min"] = 252,
-									["count"] = 1,
-									["amount"] = 252,
+								["Crit (Blocked)"] = {
+									["max"] = 1255,
+									["min"] = 980,
+									["count"] = 5,
+									["amount"] = 5696,
 								},
 								["Dodge"] = {
 									["count"] = 2,
@@ -8764,16 +12717,16 @@ RecountPerCharDB = {
 								["Crit"] = {
 									["max"] = 4686,
 									["min"] = 554,
-									["count"] = 4,
-									["amount"] = 6394,
+									["count"] = 13,
+									["amount"] = 16284,
 								},
 								["Parry"] = {
 									["count"] = 1,
 									["amount"] = 0,
 								},
 							},
-							["count"] = 30,
-							["amount"] = 38659,
+							["count"] = 50,
+							["amount"] = 57573,
 						},
 						["Blood Strike"] = {
 							["Details"] = {
@@ -8781,17 +12734,23 @@ RecountPerCharDB = {
 									["count"] = 1,
 									["amount"] = 0,
 								},
-								["Hit"] = {
-									["max"] = 2156,
-									["min"] = 178,
-									["count"] = 92,
-									["amount"] = 36768,
-								},
 								["Hit (Blocked)"] = {
 									["max"] = 1672,
 									["min"] = 157,
+									["count"] = 4,
+									["amount"] = 2483,
+								},
+								["Hit"] = {
+									["max"] = 2156,
+									["min"] = 178,
+									["count"] = 107,
+									["amount"] = 42480,
+								},
+								["Crit (Blocked)"] = {
+									["max"] = 825,
+									["min"] = 780,
 									["count"] = 3,
-									["amount"] = 2088,
+									["amount"] = 2424,
 								},
 								["Dodge"] = {
 									["count"] = 1,
@@ -8800,19 +12759,19 @@ RecountPerCharDB = {
 								["Crit"] = {
 									["max"] = 13082,
 									["min"] = 402,
-									["count"] = 17,
-									["amount"] = 24846,
+									["count"] = 28,
+									["amount"] = 33426,
 								},
 								["Parry"] = {
 									["count"] = 5,
 									["amount"] = 0,
 								},
 							},
-							["count"] = 119,
-							["amount"] = 63702,
+							["count"] = 149,
+							["amount"] = 80813,
 						},
 					},
-					["HealingTaken"] = 950060,
+					["HealingTaken"] = 951100,
 					["PartialAbsorb"] = {
 						["Plague Strike (DoT)"] = {
 							["Details"] = {
@@ -8903,11 +12862,11 @@ RecountPerCharDB = {
 								["No Absorb"] = {
 									["max"] = 0,
 									["min"] = 0,
-									["count"] = 407,
+									["count"] = 724,
 									["amount"] = 0,
 								},
 							},
-							["count"] = 407,
+							["count"] = 724,
 							["amount"] = 0,
 						},
 						["Icy Touch"] = {
@@ -9017,29 +12976,29 @@ RecountPerCharDB = {
 								["No Absorb"] = {
 									["max"] = 0,
 									["min"] = 0,
-									["count"] = 5,
+									["count"] = 8,
 									["amount"] = 0,
 								},
 							},
-							["count"] = 5,
+							["count"] = 8,
 							["amount"] = 0,
 						},
 					},
-					["TimeDamage"] = 981.7500000000005,
+					["TimeDamage"] = 2323.520000000002,
 					["TimeDamaging"] = {
 						["Scarlet Captain"] = {
 							["Details"] = {
-								["Blood Plague (DoT)"] = {
-									["count"] = 3.57,
-								},
 								["Melee"] = {
 									["count"] = 0.45,
+								},
+								["Blood Plague (DoT)"] = {
+									["count"] = 3.57,
 								},
 								["Death Coil"] = {
 									["count"] = 0,
 								},
-								["Blood Strike"] = {
-									["count"] = 0.21,
+								["Icy Touch"] = {
+									["count"] = 3.5,
 								},
 								["Plague Strike"] = {
 									["count"] = 0,
@@ -9047,25 +13006,25 @@ RecountPerCharDB = {
 								["Frost Fever (DoT)"] = {
 									["count"] = 6.02,
 								},
-								["Icy Touch"] = {
-									["count"] = 3.5,
+								["Blood Strike"] = {
+									["count"] = 0.21,
 								},
 							},
 							["amount"] = 13.75,
 						},
 						["Citizen of New Avalon"] = {
 							["Details"] = {
-								["Blood Plague (DoT)"] = {
-									["count"] = 2.14,
-								},
 								["Melee"] = {
 									["count"] = 10.58,
+								},
+								["Blood Plague (DoT)"] = {
+									["count"] = 2.14,
 								},
 								["Blood Strike"] = {
 									["count"] = 0,
 								},
-								["Death Coil"] = {
-									["count"] = 0,
+								["Icy Touch"] = {
+									["count"] = 17.21,
 								},
 								["Plague Strike"] = {
 									["count"] = 1.77,
@@ -9073,42 +13032,48 @@ RecountPerCharDB = {
 								["Frost Fever (DoT)"] = {
 									["count"] = 8.52,
 								},
-								["Icy Touch"] = {
-									["count"] = 17.21,
+								["Death Coil"] = {
+									["count"] = 0,
 								},
 							},
 							["amount"] = 40.21999999999999,
 						},
 						["Kobold Tunneler"] = {
 							["Details"] = {
-								["Icy Touch"] = {
-									["count"] = 17.5,
-								},
 								["Melee"] = {
-									["count"] = 14,
+									["count"] = 247.19,
+								},
+								["Blood Strike"] = {
+									["count"] = 12.16,
+								},
+								["Icy Touch"] = {
+									["count"] = 136.82,
+								},
+								["Death Strike"] = {
+									["count"] = 5.67,
 								},
 								["Blood Boil"] = {
-									["count"] = 6.45,
+									["count"] = 77.06,
 								},
 							},
-							["amount"] = 37.95,
+							["amount"] = 478.9,
 						},
 						["Terrifying Abomination"] = {
 							["Details"] = {
+								["Icy Touch"] = {
+									["count"] = 2.3,
+								},
+								["Frost Fever (DoT)"] = {
+									["count"] = 4.07,
+								},
+								["Melee"] = {
+									["count"] = 7.629999999999999,
+								},
 								["Blood Strike"] = {
 									["count"] = 1.93,
 								},
 								["Death Coil"] = {
 									["count"] = 3.73,
-								},
-								["Melee"] = {
-									["count"] = 7.629999999999999,
-								},
-								["Frost Fever (DoT)"] = {
-									["count"] = 4.07,
-								},
-								["Icy Touch"] = {
-									["count"] = 2.3,
 								},
 								["Plague Strike"] = {
 									["count"] = 2.35,
@@ -9135,20 +13100,20 @@ RecountPerCharDB = {
 						},
 						["Scarlet Commander"] = {
 							["Details"] = {
-								["Melee"] = {
-									["count"] = 2.53,
+								["Blood Plague (DoT)"] = {
+									["count"] = 4.63,
 								},
 								["Frost Fever (DoT)"] = {
 									["count"] = 5.520000000000001,
 								},
-								["Blood Plague (DoT)"] = {
-									["count"] = 4.63,
+								["Melee"] = {
+									["count"] = 2.53,
 								},
 								["Blood Strike"] = {
 									["count"] = 1.46,
 								},
-								["Icy Touch"] = {
-									["count"] = 7,
+								["Death Coil"] = {
+									["count"] = 3.88,
 								},
 								["Plague Strike"] = {
 									["count"] = 1.49,
@@ -9156,11 +13121,45 @@ RecountPerCharDB = {
 								["Death Strike"] = {
 									["count"] = 0.21,
 								},
-								["Death Coil"] = {
-									["count"] = 3.88,
+								["Icy Touch"] = {
+									["count"] = 7,
 								},
 							},
 							["amount"] = 26.72,
+						},
+						["Flesh Eating Worm"] = {
+							["Details"] = {
+								["Death Coil"] = {
+									["count"] = 1.7,
+								},
+								["Blood Strike"] = {
+									["count"] = 0.52,
+								},
+								["Blood Boil"] = {
+									["count"] = 18.84,
+								},
+							},
+							["amount"] = 21.06,
+						},
+						["Goldtooth"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 10.42,
+								},
+								["Blood Strike"] = {
+									["count"] = 3.5,
+								},
+								["Icy Touch"] = {
+									["count"] = 1.89,
+								},
+								["Death Strike"] = {
+									["count"] = 3.24,
+								},
+								["Blood Boil"] = {
+									["count"] = 7,
+								},
+							},
+							["amount"] = 26.05,
 						},
 						["Duke Nicholas Zverenhoff"] = {
 							["Details"] = {
@@ -9187,17 +13186,17 @@ RecountPerCharDB = {
 						},
 						["Scarlet Courier"] = {
 							["Details"] = {
-								["Death Coil"] = {
-									["count"] = 0,
-								},
 								["Blood Strike"] = {
 									["count"] = 0.32,
 								},
-								["Melee"] = {
-									["count"] = 1.3,
-								},
 								["Frost Fever (DoT)"] = {
 									["count"] = 0.6,
+								},
+								["Blood Plague (DoT)"] = {
+									["count"] = 2.3,
+								},
+								["Death Coil"] = {
+									["count"] = 0,
 								},
 								["Icy Touch"] = {
 									["count"] = 0,
@@ -9208,8 +13207,8 @@ RecountPerCharDB = {
 								["Death Strike"] = {
 									["count"] = 1.2,
 								},
-								["Blood Plague (DoT)"] = {
-									["count"] = 2.3,
+								["Melee"] = {
+									["count"] = 1.3,
 								},
 							},
 							["amount"] = 5.720000000000001,
@@ -9239,11 +13238,11 @@ RecountPerCharDB = {
 								["Blood Plague (DoT)"] = {
 									["count"] = 2.22,
 								},
-								["Frost Fever (DoT)"] = {
-									["count"] = 3.44,
-								},
 								["Icy Touch"] = {
 									["count"] = 4.99,
+								},
+								["Frost Fever (DoT)"] = {
+									["count"] = 3.44,
 								},
 								["Plague Strike"] = {
 									["count"] = 0.99,
@@ -9259,17 +13258,17 @@ RecountPerCharDB = {
 						},
 						["Scarlet Preacher"] = {
 							["Details"] = {
-								["Melee"] = {
-									["count"] = 5.38,
-								},
 								["Blood Plague (DoT)"] = {
 									["count"] = 9.960000000000001,
+								},
+								["Melee"] = {
+									["count"] = 5.38,
 								},
 								["Blood Strike"] = {
 									["count"] = 2.06,
 								},
-								["Icy Touch"] = {
-									["count"] = 7.05,
+								["Death Coil"] = {
+									["count"] = 2.6,
 								},
 								["Plague Strike"] = {
 									["count"] = 3.24,
@@ -9277,11 +13276,34 @@ RecountPerCharDB = {
 								["Frost Fever (DoT)"] = {
 									["count"] = 7.750000000000001,
 								},
-								["Death Coil"] = {
-									["count"] = 2.6,
+								["Icy Touch"] = {
+									["count"] = 7.05,
 								},
 							},
 							["amount"] = 38.04000000000001,
+						},
+						["Plague Spreader"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 30.31,
+								},
+								["Blood Strike"] = {
+									["count"] = 3.62,
+								},
+								["Icy Touch"] = {
+									["count"] = 1.61,
+								},
+								["Death Coil"] = {
+									["count"] = 8.390000000000001,
+								},
+								["Death Strike"] = {
+									["count"] = 3.3,
+								},
+								["Blood Boil"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 47.23,
 						},
 						["Ellen Stanbridge"] = {
 							["Details"] = {
@@ -9293,17 +13315,17 @@ RecountPerCharDB = {
 						},
 						["Death Knight Initiate"] = {
 							["Details"] = {
-								["Blood Plague (DoT)"] = {
-									["count"] = 11.06,
-								},
 								["Melee"] = {
 									["count"] = 7.51,
+								},
+								["Blood Plague (DoT)"] = {
+									["count"] = 11.06,
 								},
 								["Death Coil"] = {
 									["count"] = 0,
 								},
-								["Blood Strike"] = {
-									["count"] = 0,
+								["Icy Touch"] = {
+									["count"] = 0.16,
 								},
 								["Plague Strike"] = {
 									["count"] = 1.74,
@@ -9311,16 +13333,47 @@ RecountPerCharDB = {
 								["Frost Fever (DoT)"] = {
 									["count"] = 12.02,
 								},
-								["Icy Touch"] = {
-									["count"] = 0.16,
+								["Blood Strike"] = {
+									["count"] = 0,
 								},
 							},
 							["amount"] = 32.49000000000001,
 						},
+						["Expert's Training Dummy"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 40.92,
+								},
+								["Icy Touch"] = {
+									["count"] = 1.87,
+								},
+								["Plague Strike"] = {
+									["count"] = 3.14,
+								},
+								["Frost Fever (DoT)"] = {
+									["count"] = 12.21,
+								},
+								["Blood Plague (DoT)"] = {
+									["count"] = 17.64,
+								},
+							},
+							["amount"] = 75.77999999999999,
+						},
+						["Rat"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 7,
+								},
+								["Blood Boil"] = {
+									["count"] = 3.5,
+								},
+							},
+							["amount"] = 10.5,
+						},
 						["High Inquisitor Valroth"] = {
 							["Details"] = {
-								["Blood Strike"] = {
-									["count"] = 0,
+								["Blood Plague (DoT)"] = {
+									["count"] = 6.560000000000001,
 								},
 								["Death Strike"] = {
 									["count"] = 0,
@@ -9328,10 +13381,10 @@ RecountPerCharDB = {
 								["Melee"] = {
 									["count"] = 0.1,
 								},
-								["Blood Plague (DoT)"] = {
-									["count"] = 6.560000000000001,
+								["Blood Strike"] = {
+									["count"] = 0,
 								},
-								["Icy Touch"] = {
+								["Death Coil"] = {
 									["count"] = 0,
 								},
 								["Plague Strike"] = {
@@ -9340,7 +13393,7 @@ RecountPerCharDB = {
 								["Frost Fever (DoT)"] = {
 									["count"] = 9.43,
 								},
-								["Death Coil"] = {
+								["Icy Touch"] = {
 									["count"] = 0,
 								},
 							},
@@ -9348,17 +13401,17 @@ RecountPerCharDB = {
 						},
 						["Scarlet Infantryman"] = {
 							["Details"] = {
-								["Blood Plague (DoT)"] = {
-									["count"] = 11.88,
-								},
 								["Melee"] = {
 									["count"] = 4,
+								},
+								["Blood Plague (DoT)"] = {
+									["count"] = 11.88,
 								},
 								["Death Coil"] = {
 									["count"] = 0,
 								},
-								["Blood Strike"] = {
-									["count"] = 0.29,
+								["Icy Touch"] = {
+									["count"] = 7.15,
 								},
 								["Plague Strike"] = {
 									["count"] = 1.54,
@@ -9366,245 +13419,11 @@ RecountPerCharDB = {
 								["Frost Fever (DoT)"] = {
 									["count"] = 18.38,
 								},
-								["Icy Touch"] = {
-									["count"] = 7.15,
+								["Blood Strike"] = {
+									["count"] = 0.29,
 								},
 							},
 							["amount"] = 43.23999999999999,
-						},
-						["Dark Rider of Acherus"] = {
-							["Details"] = {
-								["Blood Plague (DoT)"] = {
-									["count"] = 1.29,
-								},
-								["Melee"] = {
-									["count"] = 3.04,
-								},
-								["Death Coil"] = {
-									["count"] = 0,
-								},
-								["Blood Strike"] = {
-									["count"] = 0,
-								},
-								["Plague Strike"] = {
-									["count"] = 0,
-								},
-								["Frost Fever (DoT)"] = {
-									["count"] = 3.85,
-								},
-								["Icy Touch"] = {
-									["count"] = 3.5,
-								},
-							},
-							["amount"] = 11.68,
-						},
-						["Crimson Acolyte"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Icy Touch"] = {
-									["count"] = 0,
-								},
-								["Plague Strike"] = {
-									["count"] = 0,
-								},
-								["Death Coil"] = {
-									["count"] = 0,
-								},
-								["Blood Strike"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Defender of the Light"] = {
-							["Details"] = {
-								["Death Strike"] = {
-									["count"] = 0.37,
-								},
-								["Blood Strike"] = {
-									["count"] = 0.7,
-								},
-								["Melee"] = {
-									["count"] = 33.49,
-								},
-								["Death Coil"] = {
-									["count"] = 5.23,
-								},
-								["Icy Touch"] = {
-									["count"] = 31.15000000000001,
-								},
-								["Plague Strike"] = {
-									["count"] = 8.029999999999999,
-								},
-								["Frost Fever (DoT)"] = {
-									["count"] = 41.82,
-								},
-								["Blood Plague (DoT)"] = {
-									["count"] = 56.32,
-								},
-							},
-							["amount"] = 177.11,
-						},
-						["Citizen of Havenshire"] = {
-							["Details"] = {
-								["Blood Plague (DoT)"] = {
-									["count"] = 1.26,
-								},
-								["Melee"] = {
-									["count"] = 9.859999999999999,
-								},
-								["Death Coil"] = {
-									["count"] = 3.5,
-								},
-								["Blood Strike"] = {
-									["count"] = 0,
-								},
-								["Plague Strike"] = {
-									["count"] = 0,
-								},
-								["Frost Fever (DoT)"] = {
-									["count"] = 3.34,
-								},
-								["Icy Touch"] = {
-									["count"] = 20.33,
-								},
-							},
-							["amount"] = 38.28999999999999,
-						},
-						["Unworthy Initiate"] = {
-							["Details"] = {
-								["Blood Plague (DoT)"] = {
-									["count"] = 3.850000000000001,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Death Coil"] = {
-									["count"] = 0,
-								},
-								["Blood Strike"] = {
-									["count"] = 0,
-								},
-								["Plague Strike"] = {
-									["count"] = 0,
-								},
-								["Frost Fever (DoT)"] = {
-									["count"] = 3.34,
-								},
-								["Icy Touch"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 7.19,
-						},
-						["Scarlet Ghost"] = {
-							["Details"] = {
-								["Blood Plague (DoT)"] = {
-									["count"] = 2.84,
-								},
-								["Melee"] = {
-									["count"] = 3.5,
-								},
-								["Death Coil"] = {
-									["count"] = 0,
-								},
-								["Blood Strike"] = {
-									["count"] = 0,
-								},
-								["Plague Strike"] = {
-									["count"] = 1.71,
-								},
-								["Frost Fever (DoT)"] = {
-									["count"] = 5.98,
-								},
-								["Icy Touch"] = {
-									["count"] = 0.04,
-								},
-							},
-							["amount"] = 14.07,
-						},
-						["Scarlet Crusader"] = {
-							["Details"] = {
-								["Blood Plague (DoT)"] = {
-									["count"] = 31.58,
-								},
-								["Frost Fever (DoT)"] = {
-									["count"] = 32.04,
-								},
-								["Melee"] = {
-									["count"] = 11.74,
-								},
-								["Death Coil"] = {
-									["count"] = 7.83,
-								},
-								["Icy Touch"] = {
-									["count"] = 10.61,
-								},
-								["Plague Strike"] = {
-									["count"] = 4.28,
-								},
-								["Death Strike"] = {
-									["count"] = 3.83,
-								},
-								["Blood Strike"] = {
-									["count"] = 1.68,
-								},
-							},
-							["amount"] = 103.59,
-						},
-						["Scarlet Peasant"] = {
-							["Details"] = {
-								["Blood Plague (DoT)"] = {
-									["count"] = 3.39,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Blood Strike"] = {
-									["count"] = 0,
-								},
-								["Icy Touch"] = {
-									["count"] = 8.550000000000001,
-								},
-								["Plague Strike"] = {
-									["count"] = 2.72,
-								},
-								["Frost Fever (DoT)"] = {
-									["count"] = 3.43,
-								},
-								["Death Coil"] = {
-									["count"] = 3.5,
-								},
-							},
-							["amount"] = 21.59,
-						},
-						["New Avalon Councilman"] = {
-							["Details"] = {
-								["Blood Plague (DoT)"] = {
-									["count"] = 5.73,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Death Coil"] = {
-									["count"] = 0,
-								},
-								["Blood Strike"] = {
-									["count"] = 1.02,
-								},
-								["Plague Strike"] = {
-									["count"] = 1.68,
-								},
-								["Frost Fever (DoT)"] = {
-									["count"] = 6.959999999999999,
-								},
-								["Icy Touch"] = {
-									["count"] = 0.04,
-								},
-							},
-							["amount"] = 15.43,
 						},
 						["Korfax, Champion of the Light"] = {
 							["Details"] = {
@@ -9626,19 +13445,99 @@ RecountPerCharDB = {
 							},
 							["amount"] = 18.96,
 						},
+						["Grandmaster's Training Dummy"] = {
+							["Details"] = {
+								["Pestilence"] = {
+									["count"] = 0.4400000000000001,
+								},
+							},
+							["amount"] = 0.4400000000000001,
+						},
+						["Skeletal Horror"] = {
+							["Details"] = {
+								["Icy Touch"] = {
+									["count"] = 6.45,
+								},
+								["Melee"] = {
+									["count"] = 18.45,
+								},
+								["Death Coil"] = {
+									["count"] = 3.14,
+								},
+								["Blood Strike"] = {
+									["count"] = 1.98,
+								},
+								["Plague Strike"] = {
+									["count"] = 1.82,
+								},
+								["Death Strike"] = {
+									["count"] = 3.4,
+								},
+								["Blood Boil"] = {
+									["count"] = 3.5,
+								},
+							},
+							["amount"] = 38.73999999999999,
+						},
+						["Rotted One"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 28.25,
+								},
+								["Icy Touch"] = {
+									["count"] = 3.5,
+								},
+								["Death Coil"] = {
+									["count"] = 7,
+								},
+								["Death Strike"] = {
+									["count"] = 3.5,
+								},
+								["Blood Boil"] = {
+									["count"] = 3.5,
+								},
+							},
+							["amount"] = 45.75,
+						},
+						["Dark Rider of Acherus"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 3.04,
+								},
+								["Blood Plague (DoT)"] = {
+									["count"] = 1.29,
+								},
+								["Death Coil"] = {
+									["count"] = 0,
+								},
+								["Icy Touch"] = {
+									["count"] = 3.5,
+								},
+								["Plague Strike"] = {
+									["count"] = 0,
+								},
+								["Frost Fever (DoT)"] = {
+									["count"] = 3.85,
+								},
+								["Blood Strike"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 11.68,
+						},
 						["Patchwerk"] = {
 							["Details"] = {
-								["Death Coil"] = {
-									["count"] = 1.83,
-								},
 								["Blood Strike"] = {
 									["count"] = 2.64,
 								},
-								["Melee"] = {
-									["count"] = 7.400000000000001,
+								["Frost Fever (DoT)"] = {
+									["count"] = 10.87,
 								},
 								["Blood Plague (DoT)"] = {
 									["count"] = 14.01,
+								},
+								["Death Coil"] = {
+									["count"] = 1.83,
 								},
 								["Icy Touch"] = {
 									["count"] = 7.6,
@@ -9646,36 +13545,28 @@ RecountPerCharDB = {
 								["Plague Strike"] = {
 									["count"] = 3.58,
 								},
-								["Frost Fever (DoT)"] = {
-									["count"] = 10.87,
-								},
 								["Death Strike"] = {
 									["count"] = 1.65,
+								},
+								["Melee"] = {
+									["count"] = 7.400000000000001,
 								},
 							},
 							["amount"] = 49.58000000000001,
 						},
-						["Leonid Barthalomew the Revered"] = {
-							["Details"] = {
-								["Pestilence"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
 						["Scarlet Medic"] = {
 							["Details"] = {
-								["Blood Plague (DoT)"] = {
-									["count"] = 5.01,
-								},
 								["Melee"] = {
 									["count"] = 0,
+								},
+								["Blood Plague (DoT)"] = {
+									["count"] = 5.01,
 								},
 								["Death Coil"] = {
 									["count"] = 0,
 								},
-								["Blood Strike"] = {
-									["count"] = 0,
+								["Icy Touch"] = {
+									["count"] = 2.66,
 								},
 								["Plague Strike"] = {
 									["count"] = 0,
@@ -9683,8 +13574,8 @@ RecountPerCharDB = {
 								["Frost Fever (DoT)"] = {
 									["count"] = 25.93,
 								},
-								["Icy Touch"] = {
-									["count"] = 2.66,
+								["Blood Strike"] = {
+									["count"] = 0,
 								},
 							},
 							["amount"] = 33.6,
@@ -9703,18 +13594,38 @@ RecountPerCharDB = {
 							},
 							["amount"] = 5.57,
 						},
-						["Mayor Quimby"] = {
+						["Crimson Acolyte"] = {
 							["Details"] = {
-								["Blood Plague (DoT)"] = {
-									["count"] = 1.52,
-								},
 								["Melee"] = {
+									["count"] = 0,
+								},
+								["Icy Touch"] = {
+									["count"] = 0,
+								},
+								["Plague Strike"] = {
 									["count"] = 0,
 								},
 								["Death Coil"] = {
 									["count"] = 0,
 								},
 								["Blood Strike"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Mayor Quimby"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Blood Plague (DoT)"] = {
+									["count"] = 1.52,
+								},
+								["Death Coil"] = {
+									["count"] = 0,
+								},
+								["Icy Touch"] = {
 									["count"] = 0,
 								},
 								["Plague Strike"] = {
@@ -9723,38 +13634,297 @@ RecountPerCharDB = {
 								["Frost Fever (DoT)"] = {
 									["count"] = 0.99,
 								},
-								["Icy Touch"] = {
+								["Blood Strike"] = {
 									["count"] = 0,
 								},
 							},
 							["amount"] = 2.89,
 						},
-						["Kobold Miner"] = {
+						["Defender of the Light"] = {
 							["Details"] = {
+								["Death Coil"] = {
+									["count"] = 5.23,
+								},
+								["Death Strike"] = {
+									["count"] = 0.37,
+								},
+								["Blood Plague (DoT)"] = {
+									["count"] = 56.32,
+								},
+								["Blood Strike"] = {
+									["count"] = 0.7,
+								},
 								["Icy Touch"] = {
-									["count"] = 5.79,
+									["count"] = 31.15000000000001,
+								},
+								["Plague Strike"] = {
+									["count"] = 8.029999999999999,
+								},
+								["Frost Fever (DoT)"] = {
+									["count"] = 41.82,
 								},
 								["Melee"] = {
-									["count"] = 13.81,
-								},
-								["Blood Boil"] = {
-									["count"] = 2.63,
+									["count"] = 33.49,
 								},
 							},
-							["amount"] = 22.23,
+							["amount"] = 177.11,
+						},
+						["Citizen of Havenshire"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 9.859999999999999,
+								},
+								["Blood Plague (DoT)"] = {
+									["count"] = 1.26,
+								},
+								["Death Coil"] = {
+									["count"] = 3.5,
+								},
+								["Icy Touch"] = {
+									["count"] = 20.33,
+								},
+								["Plague Strike"] = {
+									["count"] = 0,
+								},
+								["Frost Fever (DoT)"] = {
+									["count"] = 3.34,
+								},
+								["Blood Strike"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 38.28999999999999,
+						},
+						["Unworthy Initiate"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Blood Plague (DoT)"] = {
+									["count"] = 3.850000000000001,
+								},
+								["Death Coil"] = {
+									["count"] = 0,
+								},
+								["Icy Touch"] = {
+									["count"] = 0,
+								},
+								["Plague Strike"] = {
+									["count"] = 0,
+								},
+								["Frost Fever (DoT)"] = {
+									["count"] = 3.34,
+								},
+								["Blood Strike"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 7.19,
+						},
+						["Leonid Barthalomew the Revered"] = {
+							["Details"] = {
+								["Pestilence"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Flesh Eater"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 27.6,
+								},
+								["Death Coil"] = {
+									["count"] = 14,
+								},
+								["Blood Strike"] = {
+									["count"] = 2.87,
+								},
+								["Death Strike"] = {
+									["count"] = 3.03,
+								},
+								["Blood Boil"] = {
+									["count"] = 5.04,
+								},
+							},
+							["amount"] = 52.54000000000001,
+						},
+						["Carrion Recluse"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 10.74,
+								},
+								["Death Coil"] = {
+									["count"] = 3.5,
+								},
+								["Blood Strike"] = {
+									["count"] = 3.5,
+								},
+								["Icy Touch"] = {
+									["count"] = 4.61,
+								},
+								["Frost Fever (DoT)"] = {
+									["count"] = 4.69,
+								},
+								["Blood Boil"] = {
+									["count"] = 3.5,
+								},
+							},
+							["amount"] = 30.54,
+						},
+						["Scarlet Ghost"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 3.5,
+								},
+								["Blood Plague (DoT)"] = {
+									["count"] = 2.84,
+								},
+								["Death Coil"] = {
+									["count"] = 0,
+								},
+								["Icy Touch"] = {
+									["count"] = 0.04,
+								},
+								["Plague Strike"] = {
+									["count"] = 1.71,
+								},
+								["Frost Fever (DoT)"] = {
+									["count"] = 5.98,
+								},
+								["Blood Strike"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 14.07,
+						},
+						["Scarlet Peasant"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Blood Plague (DoT)"] = {
+									["count"] = 3.39,
+								},
+								["Blood Strike"] = {
+									["count"] = 0,
+								},
+								["Death Coil"] = {
+									["count"] = 3.5,
+								},
+								["Plague Strike"] = {
+									["count"] = 2.72,
+								},
+								["Frost Fever (DoT)"] = {
+									["count"] = 3.43,
+								},
+								["Icy Touch"] = {
+									["count"] = 8.550000000000001,
+								},
+							},
+							["amount"] = 21.59,
+						},
+						["New Avalon Councilman"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Blood Plague (DoT)"] = {
+									["count"] = 5.73,
+								},
+								["Death Coil"] = {
+									["count"] = 0,
+								},
+								["Icy Touch"] = {
+									["count"] = 0.04,
+								},
+								["Plague Strike"] = {
+									["count"] = 1.68,
+								},
+								["Frost Fever (DoT)"] = {
+									["count"] = 6.959999999999999,
+								},
+								["Blood Strike"] = {
+									["count"] = 1.02,
+								},
+							},
+							["amount"] = 15.43,
+						},
+						["Skeletal Fiend"] = {
+							["Details"] = {
+								["Blood Strike"] = {
+									["count"] = 0.35,
+								},
+								["Death Strike"] = {
+									["count"] = 1.49,
+								},
+								["Melee"] = {
+									["count"] = 39.04,
+								},
+								["Blood Boil"] = {
+									["count"] = 5.17,
+								},
+							},
+							["amount"] = 46.05,
+						},
+						["Scarlet Crusader"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 11.74,
+								},
+								["Frost Fever (DoT)"] = {
+									["count"] = 32.04,
+								},
+								["Blood Plague (DoT)"] = {
+									["count"] = 31.58,
+								},
+								["Death Coil"] = {
+									["count"] = 7.83,
+								},
+								["Blood Strike"] = {
+									["count"] = 1.68,
+								},
+								["Plague Strike"] = {
+									["count"] = 4.28,
+								},
+								["Death Strike"] = {
+									["count"] = 3.83,
+								},
+								["Icy Touch"] = {
+									["count"] = 10.61,
+								},
+							},
+							["amount"] = 103.59,
+						},
+						["Skeletal Raider"] = {
+							["Details"] = {
+								["Icy Touch"] = {
+									["count"] = 10.18,
+								},
+								["Death Coil"] = {
+									["count"] = 6.49,
+								},
+								["Death Strike"] = {
+									["count"] = 12.68,
+								},
+								["Melee"] = {
+									["count"] = 33.11,
+								},
+							},
+							["amount"] = 62.46000000000001,
 						},
 						["Scarlet Lord Jesseriah McCree"] = {
 							["Details"] = {
-								["Blood Plague (DoT)"] = {
-									["count"] = 11.74,
-								},
 								["Melee"] = {
 									["count"] = 0,
+								},
+								["Blood Plague (DoT)"] = {
+									["count"] = 11.74,
 								},
 								["Death Coil"] = {
 									["count"] = 1.39,
 								},
-								["Blood Strike"] = {
+								["Icy Touch"] = {
 									["count"] = 0,
 								},
 								["Plague Strike"] = {
@@ -9763,25 +13933,93 @@ RecountPerCharDB = {
 								["Frost Fever (DoT)"] = {
 									["count"] = 8.890000000000001,
 								},
-								["Icy Touch"] = {
+								["Blood Strike"] = {
 									["count"] = 0,
 								},
 							},
 							["amount"] = 22.02,
 						},
-						["Scarlet Marksman"] = {
+						["Skeletal Healer"] = {
 							["Details"] = {
-								["Blood Plague (DoT)"] = {
-									["count"] = 13.02,
+								["Icy Touch"] = {
+									["count"] = 6.109999999999999,
 								},
 								["Melee"] = {
+									["count"] = 25.77,
+								},
+							},
+							["amount"] = 31.88,
+						},
+						["Mor'Ladim"] = {
+							["Details"] = {
+								["Icy Touch"] = {
+									["count"] = 2.4,
+								},
+								["Plague Strike"] = {
+									["count"] = 0.7,
+								},
+								["Melee"] = {
+									["count"] = 1.22,
+								},
+								["Frost Fever (DoT)"] = {
+									["count"] = 1.27,
+								},
+							},
+							["amount"] = 5.590000000000001,
+						},
+						["Kobold Miner"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 236.4499999999999,
+								},
+								["Blood Strike"] = {
+									["count"] = 45.73,
+								},
+								["Death Coil"] = {
+									["count"] = 3.5,
+								},
+								["Icy Touch"] = {
+									["count"] = 48.9,
+								},
+								["Death Strike"] = {
+									["count"] = 5.310000000000001,
+								},
+								["Blood Boil"] = {
+									["count"] = 47.73,
+								},
+							},
+							["amount"] = 387.6200000000002,
+						},
+						["Bone Chewer"] = {
+							["Details"] = {
+								["Blood Strike"] = {
+									["count"] = 2.31,
+								},
+								["Death Coil"] = {
+									["count"] = 7,
+								},
+								["Melee"] = {
+									["count"] = 24.55,
+								},
+								["Blood Boil"] = {
+									["count"] = 6.960000000000001,
+								},
+							},
+							["amount"] = 40.82,
+						},
+						["Scarlet Marksman"] = {
+							["Details"] = {
+								["Melee"] = {
 									["count"] = 11.71,
+								},
+								["Blood Plague (DoT)"] = {
+									["count"] = 13.02,
 								},
 								["Death Coil"] = {
 									["count"] = 20.58,
 								},
-								["Blood Strike"] = {
-									["count"] = 1.17,
+								["Icy Touch"] = {
+									["count"] = 11.32,
 								},
 								["Plague Strike"] = {
 									["count"] = 3.63,
@@ -9789,8 +14027,8 @@ RecountPerCharDB = {
 								["Frost Fever (DoT)"] = {
 									["count"] = 28.66,
 								},
-								["Icy Touch"] = {
-									["count"] = 11.32,
+								["Blood Strike"] = {
+									["count"] = 1.17,
 								},
 							},
 							["amount"] = 90.09,
@@ -9809,27 +14047,10 @@ RecountPerCharDB = {
 					},
 					["RunicPowerGain"] = 1500,
 					["ElementHitsDone"] = {
-						["Frost"] = {
-							["Details"] = {
-								["Miss"] = {
-									["count"] = 16,
-								},
-								["Tick"] = {
-									["count"] = 394,
-								},
-								["Crit"] = {
-									["count"] = 17,
-								},
-								["Hit"] = {
-									["count"] = 139,
-								},
-							},
-							["amount"] = 566,
-						},
 						["Physical"] = {
 							["Details"] = {
 								["Hit"] = {
-									["count"] = 216,
+									["count"] = 242,
 								},
 								["Miss"] = {
 									["count"] = 2,
@@ -9838,53 +14059,70 @@ RecountPerCharDB = {
 									["count"] = 8,
 								},
 								["Crit"] = {
-									["count"] = 48,
+									["count"] = 76,
 								},
 								["Parry"] = {
 									["count"] = 9,
 								},
 							},
-							["amount"] = 283,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["Glancing"] = {
-									["count"] = 53,
-								},
-								["Hit"] = {
-									["count"] = 201,
-								},
-								["Dodge"] = {
-									["count"] = 6,
-								},
-								["Miss"] = {
-									["count"] = 9,
-								},
-								["Crit"] = {
-									["count"] = 79,
-								},
-								["Parry"] = {
-									["count"] = 7,
-								},
-							},
-							["amount"] = 355,
+							["amount"] = 337,
 						},
 						["Shadow"] = {
 							["Details"] = {
 								["Miss"] = {
-									["count"] = 31,
+									["count"] = 33,
 								},
 								["Hit"] = {
-									["count"] = 121,
+									["count"] = 259,
 								},
 								["Crit"] = {
-									["count"] = 7,
+									["count"] = 24,
 								},
 								["Tick"] = {
-									["count"] = 309,
+									["count"] = 324,
 								},
 							},
-							["amount"] = 468,
+							["amount"] = 640,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Glancing"] = {
+									["count"] = 145,
+								},
+								["Hit"] = {
+									["count"] = 215,
+								},
+								["Dodge"] = {
+									["count"] = 8,
+								},
+								["Miss"] = {
+									["count"] = 10,
+								},
+								["Crit"] = {
+									["count"] = 221,
+								},
+								["Parry"] = {
+									["count"] = 8,
+								},
+							},
+							["amount"] = 607,
+						},
+						["Frost"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 16,
+								},
+								["Tick"] = {
+									["count"] = 413,
+								},
+								["Crit"] = {
+									["count"] = 23,
+								},
+								["Hit"] = {
+									["count"] = 197,
+								},
+							},
+							["amount"] = 649,
 						},
 					},
 					["WhoHealed"] = {
@@ -9899,7 +14137,7 @@ RecountPerCharDB = {
 						["Flocius"] = {
 							["Details"] = {
 								["Rune Tap"] = {
-									["count"] = 16333,
+									["count"] = 17373,
 								},
 								["The Might of Mograine"] = {
 									["count"] = 25160,
@@ -9917,13 +14155,13 @@ RecountPerCharDB = {
 									["count"] = 731,
 								},
 							},
-							["amount"] = 67949,
+							["amount"] = 68989,
 						},
 					},
 				},
 			},
 			["UnitLockout"] = 1689245488,
-			["LastActive"] = 1689447713,
+			["LastActive"] = 1689462274,
 		},
 		["Frostbrood Vanquisher <Flocius>"] = {
 			["GUID"] = "0xF150006FFE1D2181",
@@ -10048,7 +14286,7 @@ RecountPerCharDB = {
 			},
 			["enClass"] = "PET",
 			["unit"] = "Frostbrood Vanquisher",
-			["LastFlags"] = 4369,
+			["LastAbility"] = 14440.891,
 			["level"] = 1,
 			["LastDamageAbility"] = "Ballista Assault",
 			["LastFightIn"] = 85,
@@ -10062,7 +14300,58 @@ RecountPerCharDB = {
 			},
 			["type"] = "Pet",
 			["FightsSaved"] = 5,
-			["LastDamageTaken"] = 6783,
+			["LastEventTimes"] = {
+				10640.665, -- [1]
+				10640.956, -- [2]
+				10641.606, -- [3]
+				10650.114, -- [4]
+				10651.298, -- [5]
+				10654.215, -- [6]
+				10654.215, -- [7]
+				10654.216, -- [8]
+				10654.216, -- [9]
+				10654.216, -- [10]
+				10654.217, -- [11]
+				10654.217, -- [12]
+				10654.217, -- [13]
+				10654.217, -- [14]
+				10654.218, -- [15]
+				10654.218, -- [16]
+				10658.507, -- [17]
+				10658.507, -- [18]
+				10658.507, -- [19]
+				10661.998, -- [20]
+				10664.657, -- [21]
+				10665.556, -- [22]
+				10665.557, -- [23]
+				10665.557, -- [24]
+				10665.557, -- [25]
+				10665.558, -- [26]
+				10665.558, -- [27]
+				10665.558, -- [28]
+				10665.558, -- [29]
+				10672.048, -- [30]
+				10672.049, -- [31]
+				10672.049, -- [32]
+				10672.049, -- [33]
+				10672.05, -- [34]
+				10672.05, -- [35]
+				10672.05, -- [36]
+				10672.051, -- [37]
+				10672.051, -- [38]
+				10672.051, -- [39]
+				10672.052, -- [40]
+				10672.052, -- [41]
+				10675.031, -- [42]
+				10625.777, -- [43]
+				10625.778, -- [44]
+				10625.778, -- [45]
+				10632.115, -- [46]
+				10632.115, -- [47]
+				10632.116, -- [48]
+				10632.116, -- [49]
+				10640.115, -- [50]
+			},
 			["TimeLast"] = {
 				["ActiveTime"] = 1689445343,
 				["TimeDamage"] = 1689445343,
@@ -10071,7 +14360,7 @@ RecountPerCharDB = {
 				["Damage"] = 1689445343,
 			},
 			["Owner"] = "Flocius",
-			["LastAbility"] = 10675.031,
+			["LastFlags"] = 4369,
 			["NextEventNum"] = 43,
 			["LastEventHealthNum"] = {
 				71.82592419279364, -- [1]
@@ -10230,58 +14519,7 @@ RecountPerCharDB = {
 				false, -- [49]
 				true, -- [50]
 			},
-			["LastEventTimes"] = {
-				10640.665, -- [1]
-				10640.956, -- [2]
-				10641.606, -- [3]
-				10650.114, -- [4]
-				10651.298, -- [5]
-				10654.215, -- [6]
-				10654.215, -- [7]
-				10654.216, -- [8]
-				10654.216, -- [9]
-				10654.216, -- [10]
-				10654.217, -- [11]
-				10654.217, -- [12]
-				10654.217, -- [13]
-				10654.217, -- [14]
-				10654.218, -- [15]
-				10654.218, -- [16]
-				10658.507, -- [17]
-				10658.507, -- [18]
-				10658.507, -- [19]
-				10661.998, -- [20]
-				10664.657, -- [21]
-				10665.556, -- [22]
-				10665.557, -- [23]
-				10665.557, -- [24]
-				10665.557, -- [25]
-				10665.558, -- [26]
-				10665.558, -- [27]
-				10665.558, -- [28]
-				10665.558, -- [29]
-				10672.048, -- [30]
-				10672.049, -- [31]
-				10672.049, -- [32]
-				10672.049, -- [33]
-				10672.05, -- [34]
-				10672.05, -- [35]
-				10672.05, -- [36]
-				10672.051, -- [37]
-				10672.051, -- [38]
-				10672.051, -- [39]
-				10672.052, -- [40]
-				10672.052, -- [41]
-				10675.031, -- [42]
-				10625.777, -- [43]
-				10625.778, -- [44]
-				10625.778, -- [45]
-				10632.115, -- [46]
-				10632.115, -- [47]
-				10632.116, -- [48]
-				10632.116, -- [49]
-				10640.115, -- [50]
-			},
+			["LastDamageTaken"] = 6783,
 			["Fights"] = {
 				["LastFightData"] = {
 					["DOTs"] = {
@@ -10296,43 +14534,40 @@ RecountPerCharDB = {
 					},
 					["DeathCount"] = 0,
 					["HOT_Time"] = 0,
-					["ElementHitsDone"] = {
+					["HOTs"] = {
 					},
-					["ElementTakenAbsorb"] = {
-					},
+					["ManaGain"] = 0,
 					["ElementTaken"] = {
 					},
 					["DOT_Time"] = 0,
 					["Damage"] = 0,
-					["ElementTakenBlock"] = {
+					["ElementDoneAbsorb"] = {
 					},
 					["TimeHeal"] = 0,
 					["RessedWho"] = {
 					},
 					["Dispels"] = 0,
-					["ElementTakenResist"] = {
-					},
-					["ElementDoneAbsorb"] = {
-					},
-					["FAttacks"] = {
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementDone"] = {
-					},
 					["PartialAbsorb"] = {
 					},
-					["DamagedWho"] = {
+					["RageGain"] = 0,
+					["FAttacks"] = {
 					},
 					["PartialBlock"] = {
 					},
+					["ElementDone"] = {
+					},
+					["CCBroken"] = {
+					},
+					["ElementHitsDone"] = {
+					},
+					["Dispelled"] = 0,
 					["WhoDamaged"] = {
 					},
 					["EnergyGainedFrom"] = {
 					},
-					["PartialResist"] = {
+					["FDamagedWho"] = {
 					},
-					["CCBroken"] = {
+					["RunicPowerGainedFrom"] = {
 					},
 					["ElementDoneBlock"] = {
 					},
@@ -10340,48 +14575,51 @@ RecountPerCharDB = {
 					},
 					["OverHeals"] = {
 					},
-					["ManaGainedFrom"] = {
-					},
-					["RunicPowerGained"] = {
-					},
-					["CCBreak"] = 0,
 					["RageGained"] = {
 					},
-					["HealedWho"] = {
-					},
+					["ActiveTime"] = 0,
+					["CCBreak"] = 0,
 					["EnergyGain"] = 0,
+					["WhoHealed"] = {
+					},
+					["PartialResist"] = {
+					},
 					["ManaGained"] = {
 					},
-					["FDamage"] = 0,
+					["ElementTakenAbsorb"] = {
+					},
 					["Interrupts"] = 0,
 					["Overhealing"] = 0,
-					["TimeSpent"] = {
-					},
-					["WhoDispelled"] = {
+					["ElementTakenResist"] = {
 					},
 					["InterruptData"] = {
 					},
-					["RunicPowerGain"] = 0,
+					["WhoDispelled"] = {
+					},
+					["TimeSpent"] = {
+					},
 					["Heals"] = {
 					},
-					["WhoHealed"] = {
-					},
+					["FDamage"] = 0,
 					["EnergyGained"] = {
 					},
-					["ActiveTime"] = 0,
-					["Healing"] = 0,
-					["FDamagedWho"] = {
+					["HealedWho"] = {
 					},
-					["Dispelled"] = 0,
+					["Healing"] = 0,
+					["RunicPowerGained"] = {
+					},
+					["ManaGainedFrom"] = {
+					},
 					["Attacks"] = {
 					},
 					["HealingTaken"] = 0,
-					["RageGain"] = 0,
+					["DamagedWho"] = {
+					},
 					["TimeDamage"] = 0,
 					["TimeDamaging"] = {
 					},
-					["ManaGain"] = 0,
-					["HOTs"] = {
+					["RunicPowerGain"] = 0,
+					["ElementTakenBlock"] = {
 					},
 					["DispelledWho"] = {
 					},
@@ -10399,43 +14637,40 @@ RecountPerCharDB = {
 					},
 					["DeathCount"] = 0,
 					["HOT_Time"] = 0,
-					["ElementHitsDone"] = {
+					["HOTs"] = {
 					},
-					["ElementTakenAbsorb"] = {
-					},
+					["ManaGain"] = 0,
 					["ElementTaken"] = {
 					},
 					["DOT_Time"] = 0,
 					["Damage"] = 0,
-					["ElementTakenBlock"] = {
+					["ElementDoneAbsorb"] = {
 					},
 					["TimeHeal"] = 0,
 					["RessedWho"] = {
 					},
 					["Dispels"] = 0,
-					["ElementTakenResist"] = {
-					},
-					["ElementDoneAbsorb"] = {
-					},
-					["FAttacks"] = {
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementDone"] = {
-					},
 					["PartialAbsorb"] = {
 					},
-					["DamagedWho"] = {
+					["RageGain"] = 0,
+					["FAttacks"] = {
 					},
 					["PartialBlock"] = {
 					},
+					["ElementDone"] = {
+					},
+					["CCBroken"] = {
+					},
+					["ElementHitsDone"] = {
+					},
+					["Dispelled"] = 0,
 					["WhoDamaged"] = {
 					},
 					["EnergyGainedFrom"] = {
 					},
-					["PartialResist"] = {
+					["FDamagedWho"] = {
 					},
-					["CCBroken"] = {
+					["RunicPowerGainedFrom"] = {
 					},
 					["ElementDoneBlock"] = {
 					},
@@ -10443,53 +14678,141 @@ RecountPerCharDB = {
 					},
 					["OverHeals"] = {
 					},
-					["ManaGainedFrom"] = {
-					},
-					["RunicPowerGained"] = {
-					},
-					["CCBreak"] = 0,
 					["RageGained"] = {
 					},
-					["HealedWho"] = {
-					},
+					["ActiveTime"] = 0,
+					["CCBreak"] = 0,
 					["EnergyGain"] = 0,
+					["WhoHealed"] = {
+					},
+					["PartialResist"] = {
+					},
 					["ManaGained"] = {
 					},
-					["FDamage"] = 0,
+					["ElementTakenAbsorb"] = {
+					},
 					["Interrupts"] = 0,
 					["Overhealing"] = 0,
-					["TimeSpent"] = {
-					},
-					["WhoDispelled"] = {
+					["ElementTakenResist"] = {
 					},
 					["InterruptData"] = {
 					},
-					["RunicPowerGain"] = 0,
+					["WhoDispelled"] = {
+					},
+					["TimeSpent"] = {
+					},
 					["Heals"] = {
 					},
-					["WhoHealed"] = {
-					},
+					["FDamage"] = 0,
 					["EnergyGained"] = {
 					},
-					["ActiveTime"] = 0,
-					["Healing"] = 0,
-					["FDamagedWho"] = {
+					["HealedWho"] = {
 					},
-					["Dispelled"] = 0,
+					["Healing"] = 0,
+					["RunicPowerGained"] = {
+					},
+					["ManaGainedFrom"] = {
+					},
 					["Attacks"] = {
 					},
 					["HealingTaken"] = 0,
-					["RageGain"] = 0,
+					["DamagedWho"] = {
+					},
 					["TimeDamage"] = 0,
 					["TimeDamaging"] = {
 					},
-					["ManaGain"] = 0,
-					["HOTs"] = {
+					["RunicPowerGain"] = 0,
+					["ElementTakenBlock"] = {
 					},
 					["DispelledWho"] = {
 					},
 				},
 				["OverallData"] = {
+					["ElementDone"] = {
+						["Frost"] = 11085674,
+					},
+					["TimeSpent"] = {
+						["Hearthglen Crusader"] = {
+							["Details"] = {
+								["Frozen Deathbolt"] = {
+									["count"] = 37.86,
+								},
+							},
+							["amount"] = 37.86,
+						},
+						["Tirisfal Crusader"] = {
+							["Details"] = {
+								["Frozen Deathbolt"] = {
+									["count"] = 3.5,
+								},
+							},
+							["amount"] = 3.5,
+						},
+						["Scarlet Ballista"] = {
+							["Details"] = {
+								["Frozen Deathbolt"] = {
+									["count"] = 117.34,
+								},
+							},
+							["amount"] = 117.34,
+						},
+					},
+					["DamagedWho"] = {
+						["Hearthglen Crusader"] = {
+							["Details"] = {
+								["Frozen Deathbolt"] = {
+									["count"] = 5156709,
+								},
+							},
+							["amount"] = 5156709,
+						},
+						["Tirisfal Crusader"] = {
+							["Details"] = {
+								["Frozen Deathbolt"] = {
+									["count"] = 3282463,
+								},
+							},
+							["amount"] = 3282463,
+						},
+						["Scarlet Ballista"] = {
+							["Details"] = {
+								["Frozen Deathbolt"] = {
+									["count"] = 2646502,
+								},
+							},
+							["amount"] = 2646502,
+						},
+					},
+					["WhoDamaged"] = {
+						["Scarlet Ballista"] = {
+							["Details"] = {
+								["Ballista Assault"] = {
+									["count"] = 61776,
+								},
+							},
+							["amount"] = 61776,
+						},
+						["Tirisfal Crusader"] = {
+							["Details"] = {
+								["Arrow Assault"] = {
+									["count"] = 4999,
+								},
+								["Melee"] = {
+									["count"] = 59,
+								},
+							},
+							["amount"] = 5058,
+						},
+						["Hearthglen Crusader"] = {
+							["Details"] = {
+								["Arrow Assault"] = {
+									["count"] = 7438,
+								},
+							},
+							["amount"] = 7438,
+						},
+					},
+					["TimeDamage"] = 158.7,
 					["ElementHitsTaken"] = {
 						["Fire"] = {
 							["Details"] = {
@@ -10514,6 +14837,28 @@ RecountPerCharDB = {
 								},
 							},
 							["amount"] = 9,
+						},
+					},
+					["DamageTaken"] = 74272,
+					["ElementTakenResist"] = {
+						["Fire"] = 2128,
+					},
+					["Attacks"] = {
+						["Frozen Deathbolt"] = {
+							["Details"] = {
+								["Evade"] = {
+									["count"] = 1,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 61110,
+									["min"] = 48596,
+									["count"] = 202,
+									["amount"] = 11085674,
+								},
+							},
+							["count"] = 203,
+							["amount"] = 11085674,
 						},
 					},
 					["PartialAbsorb"] = {
@@ -10553,6 +14898,51 @@ RecountPerCharDB = {
 							["count"] = 1,
 							["amount"] = 0,
 						},
+					},
+					["ElementHitsDone"] = {
+						["Frost"] = {
+							["Details"] = {
+								["Evade"] = {
+									["count"] = 1,
+								},
+								["Hit"] = {
+									["count"] = 202,
+								},
+							},
+							["amount"] = 203,
+						},
+					},
+					["ActiveTime"] = 158.7,
+					["TimeDamaging"] = {
+						["Hearthglen Crusader"] = {
+							["Details"] = {
+								["Frozen Deathbolt"] = {
+									["count"] = 37.86,
+								},
+							},
+							["amount"] = 37.86,
+						},
+						["Tirisfal Crusader"] = {
+							["Details"] = {
+								["Frozen Deathbolt"] = {
+									["count"] = 3.5,
+								},
+							},
+							["amount"] = 3.5,
+						},
+						["Scarlet Ballista"] = {
+							["Details"] = {
+								["Frozen Deathbolt"] = {
+									["count"] = 117.34,
+								},
+							},
+							["amount"] = 117.34,
+						},
+					},
+					["ElementTaken"] = {
+						["Fire"] = 12437,
+						["Melee"] = 59,
+						["Physical"] = 61776,
 					},
 					["PartialResist"] = {
 						["Ballista Assault"] = {
@@ -10604,158 +14994,6 @@ RecountPerCharDB = {
 							["amount"] = 0,
 						},
 					},
-					["WhoDamaged"] = {
-						["Scarlet Ballista"] = {
-							["Details"] = {
-								["Ballista Assault"] = {
-									["count"] = 61776,
-								},
-							},
-							["amount"] = 61776,
-						},
-						["Tirisfal Crusader"] = {
-							["Details"] = {
-								["Arrow Assault"] = {
-									["count"] = 4999,
-								},
-								["Melee"] = {
-									["count"] = 59,
-								},
-							},
-							["amount"] = 5058,
-						},
-						["Hearthglen Crusader"] = {
-							["Details"] = {
-								["Arrow Assault"] = {
-									["count"] = 7438,
-								},
-							},
-							["amount"] = 7438,
-						},
-					},
-					["Attacks"] = {
-						["Frozen Deathbolt"] = {
-							["Details"] = {
-								["Evade"] = {
-									["count"] = 1,
-									["amount"] = 0,
-								},
-								["Hit"] = {
-									["max"] = 61110,
-									["min"] = 48596,
-									["count"] = 202,
-									["amount"] = 11085674,
-								},
-							},
-							["count"] = 203,
-							["amount"] = 11085674,
-						},
-					},
-					["TimeSpent"] = {
-						["Hearthglen Crusader"] = {
-							["Details"] = {
-								["Frozen Deathbolt"] = {
-									["count"] = 37.86,
-								},
-							},
-							["amount"] = 37.86,
-						},
-						["Tirisfal Crusader"] = {
-							["Details"] = {
-								["Frozen Deathbolt"] = {
-									["count"] = 3.5,
-								},
-							},
-							["amount"] = 3.5,
-						},
-						["Scarlet Ballista"] = {
-							["Details"] = {
-								["Frozen Deathbolt"] = {
-									["count"] = 117.34,
-								},
-							},
-							["amount"] = 117.34,
-						},
-					},
-					["DamageTaken"] = 74272,
-					["ElementTakenResist"] = {
-						["Fire"] = 2128,
-					},
-					["ElementDone"] = {
-						["Frost"] = 11085674,
-					},
-					["ElementHitsDone"] = {
-						["Frost"] = {
-							["Details"] = {
-								["Evade"] = {
-									["count"] = 1,
-								},
-								["Hit"] = {
-									["count"] = 202,
-								},
-							},
-							["amount"] = 203,
-						},
-					},
-					["DamagedWho"] = {
-						["Hearthglen Crusader"] = {
-							["Details"] = {
-								["Frozen Deathbolt"] = {
-									["count"] = 5156709,
-								},
-							},
-							["amount"] = 5156709,
-						},
-						["Tirisfal Crusader"] = {
-							["Details"] = {
-								["Frozen Deathbolt"] = {
-									["count"] = 3282463,
-								},
-							},
-							["amount"] = 3282463,
-						},
-						["Scarlet Ballista"] = {
-							["Details"] = {
-								["Frozen Deathbolt"] = {
-									["count"] = 2646502,
-								},
-							},
-							["amount"] = 2646502,
-						},
-					},
-					["TimeDamage"] = 158.7,
-					["TimeDamaging"] = {
-						["Hearthglen Crusader"] = {
-							["Details"] = {
-								["Frozen Deathbolt"] = {
-									["count"] = 37.86,
-								},
-							},
-							["amount"] = 37.86,
-						},
-						["Tirisfal Crusader"] = {
-							["Details"] = {
-								["Frozen Deathbolt"] = {
-									["count"] = 3.5,
-								},
-							},
-							["amount"] = 3.5,
-						},
-						["Scarlet Ballista"] = {
-							["Details"] = {
-								["Frozen Deathbolt"] = {
-									["count"] = 117.34,
-								},
-							},
-							["amount"] = 117.34,
-						},
-					},
-					["ElementTaken"] = {
-						["Fire"] = 12437,
-						["Melee"] = 59,
-						["Physical"] = 61776,
-					},
-					["ActiveTime"] = 158.7,
 					["Damage"] = 11085674,
 				},
 			},
@@ -10885,7 +15123,7 @@ RecountPerCharDB = {
 			["LastFightIn"] = 28,
 			["type"] = "Pet",
 			["FightsSaved"] = 5,
-			["LastAbility"] = 9376.255000000001,
+			["LastAbility"] = 14440.891,
 			["Owner"] = "Flocius",
 			["LastEventTimes"] = {
 				10243.207, -- [1]
@@ -11117,43 +15355,40 @@ RecountPerCharDB = {
 					},
 					["DeathCount"] = 0,
 					["HOT_Time"] = 0,
-					["ElementHitsDone"] = {
+					["HOTs"] = {
 					},
-					["ElementTakenAbsorb"] = {
-					},
+					["ManaGain"] = 0,
 					["ElementTaken"] = {
 					},
 					["DOT_Time"] = 0,
 					["Damage"] = 0,
-					["ElementTakenBlock"] = {
+					["ElementDoneAbsorb"] = {
 					},
 					["TimeHeal"] = 0,
 					["RessedWho"] = {
 					},
 					["Dispels"] = 0,
-					["ElementTakenResist"] = {
-					},
-					["ElementDoneAbsorb"] = {
-					},
-					["FAttacks"] = {
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementDone"] = {
-					},
 					["PartialAbsorb"] = {
 					},
-					["DamagedWho"] = {
+					["RageGain"] = 0,
+					["FAttacks"] = {
 					},
 					["PartialBlock"] = {
 					},
+					["ElementDone"] = {
+					},
+					["CCBroken"] = {
+					},
+					["ElementHitsDone"] = {
+					},
+					["Dispelled"] = 0,
 					["WhoDamaged"] = {
 					},
 					["EnergyGainedFrom"] = {
 					},
-					["PartialResist"] = {
+					["FDamagedWho"] = {
 					},
-					["CCBroken"] = {
+					["RunicPowerGainedFrom"] = {
 					},
 					["ElementDoneBlock"] = {
 					},
@@ -11161,48 +15396,51 @@ RecountPerCharDB = {
 					},
 					["OverHeals"] = {
 					},
-					["ManaGainedFrom"] = {
-					},
-					["RunicPowerGained"] = {
-					},
-					["CCBreak"] = 0,
 					["RageGained"] = {
 					},
-					["HealedWho"] = {
-					},
+					["ActiveTime"] = 0,
+					["CCBreak"] = 0,
 					["EnergyGain"] = 0,
+					["WhoHealed"] = {
+					},
+					["PartialResist"] = {
+					},
 					["ManaGained"] = {
 					},
-					["FDamage"] = 0,
+					["ElementTakenAbsorb"] = {
+					},
 					["Interrupts"] = 0,
 					["Overhealing"] = 0,
-					["TimeSpent"] = {
-					},
-					["WhoDispelled"] = {
+					["ElementTakenResist"] = {
 					},
 					["InterruptData"] = {
 					},
-					["RunicPowerGain"] = 0,
+					["WhoDispelled"] = {
+					},
+					["TimeSpent"] = {
+					},
 					["Heals"] = {
 					},
-					["WhoHealed"] = {
-					},
+					["FDamage"] = 0,
 					["EnergyGained"] = {
 					},
-					["ActiveTime"] = 0,
-					["Healing"] = 0,
-					["FDamagedWho"] = {
+					["HealedWho"] = {
 					},
-					["Dispelled"] = 0,
+					["Healing"] = 0,
+					["RunicPowerGained"] = {
+					},
+					["ManaGainedFrom"] = {
+					},
 					["Attacks"] = {
 					},
 					["HealingTaken"] = 0,
-					["RageGain"] = 0,
+					["DamagedWho"] = {
+					},
 					["TimeDamage"] = 0,
 					["TimeDamaging"] = {
 					},
-					["ManaGain"] = 0,
-					["HOTs"] = {
+					["RunicPowerGain"] = 0,
+					["ElementTakenBlock"] = {
 					},
 					["DispelledWho"] = {
 					},
@@ -11220,43 +15458,40 @@ RecountPerCharDB = {
 					},
 					["DeathCount"] = 0,
 					["HOT_Time"] = 0,
-					["ElementHitsDone"] = {
+					["HOTs"] = {
 					},
-					["ElementTakenAbsorb"] = {
-					},
+					["ManaGain"] = 0,
 					["ElementTaken"] = {
 					},
 					["DOT_Time"] = 0,
 					["Damage"] = 0,
-					["ElementTakenBlock"] = {
+					["ElementDoneAbsorb"] = {
 					},
 					["TimeHeal"] = 0,
 					["RessedWho"] = {
 					},
 					["Dispels"] = 0,
-					["ElementTakenResist"] = {
-					},
-					["ElementDoneAbsorb"] = {
-					},
-					["FAttacks"] = {
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementDone"] = {
-					},
 					["PartialAbsorb"] = {
 					},
-					["DamagedWho"] = {
+					["RageGain"] = 0,
+					["FAttacks"] = {
 					},
 					["PartialBlock"] = {
 					},
+					["ElementDone"] = {
+					},
+					["CCBroken"] = {
+					},
+					["ElementHitsDone"] = {
+					},
+					["Dispelled"] = 0,
 					["WhoDamaged"] = {
 					},
 					["EnergyGainedFrom"] = {
 					},
-					["PartialResist"] = {
+					["FDamagedWho"] = {
 					},
-					["CCBroken"] = {
+					["RunicPowerGainedFrom"] = {
 					},
 					["ElementDoneBlock"] = {
 					},
@@ -11264,48 +15499,51 @@ RecountPerCharDB = {
 					},
 					["OverHeals"] = {
 					},
-					["ManaGainedFrom"] = {
-					},
-					["RunicPowerGained"] = {
-					},
-					["CCBreak"] = 0,
 					["RageGained"] = {
 					},
-					["HealedWho"] = {
-					},
+					["ActiveTime"] = 0,
+					["CCBreak"] = 0,
 					["EnergyGain"] = 0,
+					["WhoHealed"] = {
+					},
+					["PartialResist"] = {
+					},
 					["ManaGained"] = {
 					},
-					["FDamage"] = 0,
+					["ElementTakenAbsorb"] = {
+					},
 					["Interrupts"] = 0,
 					["Overhealing"] = 0,
-					["TimeSpent"] = {
-					},
-					["WhoDispelled"] = {
+					["ElementTakenResist"] = {
 					},
 					["InterruptData"] = {
 					},
-					["RunicPowerGain"] = 0,
+					["WhoDispelled"] = {
+					},
+					["TimeSpent"] = {
+					},
 					["Heals"] = {
 					},
-					["WhoHealed"] = {
-					},
+					["FDamage"] = 0,
 					["EnergyGained"] = {
 					},
-					["ActiveTime"] = 0,
-					["Healing"] = 0,
-					["FDamagedWho"] = {
+					["HealedWho"] = {
 					},
-					["Dispelled"] = 0,
+					["Healing"] = 0,
+					["RunicPowerGained"] = {
+					},
+					["ManaGainedFrom"] = {
+					},
 					["Attacks"] = {
 					},
 					["HealingTaken"] = 0,
-					["RageGain"] = 0,
+					["DamagedWho"] = {
+					},
 					["TimeDamage"] = 0,
 					["TimeDamaging"] = {
 					},
-					["ManaGain"] = 0,
-					["HOTs"] = {
+					["RunicPowerGain"] = 0,
+					["ElementTakenBlock"] = {
 					},
 					["DispelledWho"] = {
 					},
@@ -11463,109 +15701,6 @@ RecountPerCharDB = {
 			},
 			["Name"] = "Risen Ghoul",
 			["Fights"] = {
-				["CurrentFightData"] = {
-					["DOTs"] = {
-					},
-					["ElementDoneResist"] = {
-					},
-					["Ressed"] = 0,
-					["DamageTaken"] = 0,
-					["RageGainedFrom"] = {
-					},
-					["ElementHitsTaken"] = {
-					},
-					["DeathCount"] = 0,
-					["HOT_Time"] = 0,
-					["ElementHitsDone"] = {
-					},
-					["ElementTakenAbsorb"] = {
-					},
-					["ElementTaken"] = {
-					},
-					["DOT_Time"] = 0,
-					["Damage"] = 0,
-					["ElementTakenBlock"] = {
-					},
-					["TimeHeal"] = 0,
-					["RessedWho"] = {
-					},
-					["Dispels"] = 0,
-					["ElementTakenResist"] = {
-					},
-					["ElementDoneAbsorb"] = {
-					},
-					["FAttacks"] = {
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementDone"] = {
-					},
-					["PartialAbsorb"] = {
-					},
-					["DamagedWho"] = {
-					},
-					["PartialBlock"] = {
-					},
-					["WhoDamaged"] = {
-					},
-					["EnergyGainedFrom"] = {
-					},
-					["PartialResist"] = {
-					},
-					["CCBroken"] = {
-					},
-					["ElementDoneBlock"] = {
-					},
-					["TimeHealing"] = {
-					},
-					["OverHeals"] = {
-					},
-					["ManaGainedFrom"] = {
-					},
-					["RunicPowerGained"] = {
-					},
-					["CCBreak"] = 0,
-					["RageGained"] = {
-					},
-					["HealedWho"] = {
-					},
-					["EnergyGain"] = 0,
-					["ManaGained"] = {
-					},
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
-					["Overhealing"] = 0,
-					["TimeSpent"] = {
-					},
-					["WhoDispelled"] = {
-					},
-					["InterruptData"] = {
-					},
-					["RunicPowerGain"] = 0,
-					["Heals"] = {
-					},
-					["WhoHealed"] = {
-					},
-					["EnergyGained"] = {
-					},
-					["ActiveTime"] = 0,
-					["Healing"] = 0,
-					["FDamagedWho"] = {
-					},
-					["Dispelled"] = 0,
-					["Attacks"] = {
-					},
-					["HealingTaken"] = 0,
-					["RageGain"] = 0,
-					["TimeDamage"] = 0,
-					["TimeDamaging"] = {
-					},
-					["ManaGain"] = 0,
-					["HOTs"] = {
-					},
-					["DispelledWho"] = {
-					},
-				},
 				["LastFightData"] = {
 					["DOTs"] = {
 					},
@@ -11579,43 +15714,40 @@ RecountPerCharDB = {
 					},
 					["DeathCount"] = 0,
 					["HOT_Time"] = 0,
-					["ElementHitsDone"] = {
+					["HOTs"] = {
 					},
-					["ElementTakenAbsorb"] = {
-					},
+					["ManaGain"] = 0,
 					["ElementTaken"] = {
 					},
 					["DOT_Time"] = 0,
 					["Damage"] = 0,
-					["ElementTakenBlock"] = {
+					["ElementDoneAbsorb"] = {
 					},
 					["TimeHeal"] = 0,
 					["RessedWho"] = {
 					},
 					["Dispels"] = 0,
-					["ElementTakenResist"] = {
-					},
-					["ElementDoneAbsorb"] = {
-					},
-					["FAttacks"] = {
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementDone"] = {
-					},
 					["PartialAbsorb"] = {
 					},
-					["DamagedWho"] = {
+					["RageGain"] = 0,
+					["FAttacks"] = {
 					},
 					["PartialBlock"] = {
 					},
+					["ElementDone"] = {
+					},
+					["CCBroken"] = {
+					},
+					["ElementHitsDone"] = {
+					},
+					["Dispelled"] = 0,
 					["WhoDamaged"] = {
 					},
 					["EnergyGainedFrom"] = {
 					},
-					["PartialResist"] = {
+					["FDamagedWho"] = {
 					},
-					["CCBroken"] = {
+					["RunicPowerGainedFrom"] = {
 					},
 					["ElementDoneBlock"] = {
 					},
@@ -11623,48 +15755,154 @@ RecountPerCharDB = {
 					},
 					["OverHeals"] = {
 					},
-					["ManaGainedFrom"] = {
-					},
-					["RunicPowerGained"] = {
-					},
-					["CCBreak"] = 0,
 					["RageGained"] = {
 					},
-					["HealedWho"] = {
-					},
+					["ActiveTime"] = 0,
+					["CCBreak"] = 0,
 					["EnergyGain"] = 0,
+					["WhoHealed"] = {
+					},
+					["PartialResist"] = {
+					},
 					["ManaGained"] = {
 					},
-					["FDamage"] = 0,
+					["ElementTakenAbsorb"] = {
+					},
 					["Interrupts"] = 0,
 					["Overhealing"] = 0,
-					["TimeSpent"] = {
-					},
-					["WhoDispelled"] = {
+					["ElementTakenResist"] = {
 					},
 					["InterruptData"] = {
 					},
-					["RunicPowerGain"] = 0,
+					["WhoDispelled"] = {
+					},
+					["TimeSpent"] = {
+					},
 					["Heals"] = {
 					},
-					["WhoHealed"] = {
-					},
+					["FDamage"] = 0,
 					["EnergyGained"] = {
 					},
-					["ActiveTime"] = 0,
-					["Healing"] = 0,
-					["FDamagedWho"] = {
+					["HealedWho"] = {
 					},
-					["Dispelled"] = 0,
+					["Healing"] = 0,
+					["RunicPowerGained"] = {
+					},
+					["ManaGainedFrom"] = {
+					},
 					["Attacks"] = {
 					},
 					["HealingTaken"] = 0,
-					["RageGain"] = 0,
+					["DamagedWho"] = {
+					},
 					["TimeDamage"] = 0,
 					["TimeDamaging"] = {
 					},
-					["ManaGain"] = 0,
+					["RunicPowerGain"] = 0,
+					["ElementTakenBlock"] = {
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["CurrentFightData"] = {
+					["DOTs"] = {
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 0,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
 					["HOTs"] = {
+					},
+					["ManaGain"] = 0,
+					["ElementTaken"] = {
+					},
+					["DOT_Time"] = 0,
+					["Damage"] = 0,
+					["ElementDoneAbsorb"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["PartialAbsorb"] = {
+					},
+					["RageGain"] = 0,
+					["FAttacks"] = {
+					},
+					["PartialBlock"] = {
+					},
+					["ElementDone"] = {
+					},
+					["CCBroken"] = {
+					},
+					["ElementHitsDone"] = {
+					},
+					["Dispelled"] = 0,
+					["WhoDamaged"] = {
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["FDamagedWho"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+					},
+					["OverHeals"] = {
+					},
+					["RageGained"] = {
+					},
+					["ActiveTime"] = 0,
+					["CCBreak"] = 0,
+					["EnergyGain"] = 0,
+					["WhoHealed"] = {
+					},
+					["PartialResist"] = {
+					},
+					["ManaGained"] = {
+					},
+					["ElementTakenAbsorb"] = {
+					},
+					["Interrupts"] = 0,
+					["Overhealing"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["InterruptData"] = {
+					},
+					["WhoDispelled"] = {
+					},
+					["TimeSpent"] = {
+					},
+					["Heals"] = {
+					},
+					["FDamage"] = 0,
+					["EnergyGained"] = {
+					},
+					["HealedWho"] = {
+					},
+					["Healing"] = 0,
+					["RunicPowerGained"] = {
+					},
+					["ManaGainedFrom"] = {
+					},
+					["Attacks"] = {
+					},
+					["HealingTaken"] = 0,
+					["DamagedWho"] = {
+					},
+					["TimeDamage"] = 0,
+					["TimeDamaging"] = {
+					},
+					["RunicPowerGain"] = 0,
+					["ElementTakenBlock"] = {
 					},
 					["DispelledWho"] = {
 					},
@@ -11744,10 +15982,10 @@ RecountPerCharDB = {
 			["LastEventTimes"] = {
 				14036.856, -- [1]
 			},
-			["LastAbility"] = 9376.255000000001,
+			["LastAbility"] = 14440.891,
 		},
 	},
-	["FightNum"] = 96,
+	["FightNum"] = 134,
 	["CombatTimes"] = {
 		{
 			1689245488, -- [1]
@@ -12421,12 +16659,278 @@ RecountPerCharDB = {
 			"20:59:34", -- [4]
 			"Kobold Tunneler", -- [5]
 		}, -- [96]
+		{
+			1689448808, -- [1]
+			1689448814, -- [2]
+			"21:20:08", -- [3]
+			"21:20:14", -- [4]
+			"Kobold Tunneler", -- [5]
+		}, -- [97]
+		{
+			1689448823, -- [1]
+			1689448827, -- [2]
+			"21:20:23", -- [3]
+			"21:20:27", -- [4]
+			"Kobold Miner", -- [5]
+		}, -- [98]
+		{
+			1689448861, -- [1]
+			1689448865, -- [2]
+			"21:21:01", -- [3]
+			"21:21:05", -- [4]
+			"Kobold Tunneler", -- [5]
+		}, -- [99]
+		{
+			1689448988, -- [1]
+			1689448992, -- [2]
+			"21:23:08", -- [3]
+			"21:23:12", -- [4]
+			"Goldtooth", -- [5]
+		}, -- [100]
+		{
+			1689449203, -- [1]
+			1689449209, -- [2]
+			"21:26:43", -- [3]
+			"21:26:49", -- [4]
+			"Kobold Tunneler", -- [5]
+		}, -- [101]
+		{
+			1689449224, -- [1]
+			1689449229, -- [2]
+			"21:27:04", -- [3]
+			"21:27:09", -- [4]
+			"Kobold Miner", -- [5]
+		}, -- [102]
+		{
+			1689449244, -- [1]
+			1689449248, -- [2]
+			"21:27:24", -- [3]
+			"21:27:28", -- [4]
+			"Kobold Tunneler", -- [5]
+		}, -- [103]
+		{
+			1689450308, -- [1]
+			1689450312, -- [2]
+			"21:45:08", -- [3]
+			"21:45:12", -- [4]
+			"Kobold Tunneler", -- [5]
+		}, -- [104]
+		{
+			1689450423, -- [1]
+			1689450427, -- [2]
+			"21:47:03", -- [3]
+			"21:47:07", -- [4]
+			"Kobold Miner", -- [5]
+		}, -- [105]
+		{
+			1689450610, -- [1]
+			1689450614, -- [2]
+			"21:50:10", -- [3]
+			"21:50:14", -- [4]
+			"Kobold Tunneler", -- [5]
+		}, -- [106]
+		{
+			1689450748, -- [1]
+			1689450754, -- [2]
+			"21:52:28", -- [3]
+			"21:52:34", -- [4]
+			"Kobold Tunneler", -- [5]
+		}, -- [107]
+		{
+			1689450862, -- [1]
+			1689450868, -- [2]
+			"21:54:22", -- [3]
+			"21:54:28", -- [4]
+			"Kobold Tunneler", -- [5]
+		}, -- [108]
+		{
+			1689451549, -- [1]
+			1689451553, -- [2]
+			"22:05:49", -- [3]
+			"22:05:53", -- [4]
+			"Kobold Tunneler", -- [5]
+		}, -- [109]
+		{
+			1689451768, -- [1]
+			1689451772, -- [2]
+			"22:09:28", -- [3]
+			"22:09:32", -- [4]
+			"Kobold Miner", -- [5]
+		}, -- [110]
+		{
+			1689452417, -- [1]
+			1689452424, -- [2]
+			"22:20:17", -- [3]
+			"22:20:24", -- [4]
+			"Skeletal Horror", -- [5]
+		}, -- [111]
+		{
+			1689452512, -- [1]
+			1689452519, -- [2]
+			"22:21:52", -- [3]
+			"22:21:59", -- [4]
+			"Skeletal Fiend", -- [5]
+		}, -- [112]
+		{
+			1689452542, -- [1]
+			1689452548, -- [2]
+			"22:22:22", -- [3]
+			"22:22:28", -- [4]
+			"Rotted One", -- [5]
+		}, -- [113]
+		{
+			1689452574, -- [1]
+			1689452583, -- [2]
+			"22:22:54", -- [3]
+			"22:23:03", -- [4]
+			"Bone Chewer", -- [5]
+		}, -- [114]
+		{
+			1689452584, -- [1]
+			1689452590, -- [2]
+			"22:23:04", -- [3]
+			"22:23:10", -- [4]
+			"Plague Spreader", -- [5]
+		}, -- [115]
+		{
+			1689452600, -- [1]
+			1689452605, -- [2]
+			"22:23:20", -- [3]
+			"22:23:25", -- [4]
+			"Plague Spreader", -- [5]
+		}, -- [116]
+		{
+			1689452618, -- [1]
+			1689452622, -- [2]
+			"22:23:38", -- [3]
+			"22:23:42", -- [4]
+			"Flesh Eater", -- [5]
+		}, -- [117]
+		{
+			1689452624, -- [1]
+			1689452628, -- [2]
+			"22:23:44", -- [3]
+			"22:23:48", -- [4]
+			"Rotted One", -- [5]
+		}, -- [118]
+		{
+			1689452656, -- [1]
+			1689452661, -- [2]
+			"22:24:16", -- [3]
+			"22:24:21", -- [4]
+			"Rotted One", -- [5]
+		}, -- [119]
+		{
+			1689452664, -- [1]
+			1689452668, -- [2]
+			"22:24:24", -- [3]
+			"22:24:28", -- [4]
+			"Bone Chewer", -- [5]
+		}, -- [120]
+		{
+			1689452695, -- [1]
+			1689452699, -- [2]
+			"22:24:55", -- [3]
+			"22:24:59", -- [4]
+			"Carrion Recluse", -- [5]
+		}, -- [121]
+		{
+			1689452700, -- [1]
+			1689452704, -- [2]
+			"22:25:00", -- [3]
+			"22:25:04", -- [4]
+			"Mor'Ladim", -- [5]
+		}, -- [122]
+		{
+			1689452804, -- [1]
+			1689452808, -- [2]
+			"22:26:44", -- [3]
+			"22:26:48", -- [4]
+			"Plague Spreader", -- [5]
+		}, -- [123]
+		{
+			1689452859, -- [1]
+			1689452867, -- [2]
+			"22:27:39", -- [3]
+			"22:27:47", -- [4]
+			"Skeletal Fiend", -- [5]
+		}, -- [124]
+		{
+			1689452891, -- [1]
+			1689452929, -- [2]
+			"22:28:11", -- [3]
+			"22:28:49", -- [4]
+			"Rotted One", -- [5]
+		}, -- [125]
+		{
+			1689452941, -- [1]
+			1689452945, -- [2]
+			"22:29:02", -- [3]
+			"22:29:05", -- [4]
+			"Bone Chewer", -- [5]
+		}, -- [126]
+		{
+			1689452947, -- [1]
+			1689452962, -- [2]
+			"22:29:07", -- [3]
+			"22:29:22", -- [4]
+			"Plague Spreader", -- [5]
+		}, -- [127]
+		{
+			1689452974, -- [1]
+			1689452978, -- [2]
+			"22:29:34", -- [3]
+			"22:29:38", -- [4]
+			"Rotted One", -- [5]
+		}, -- [128]
+		{
+			1689453019, -- [1]
+			1689453023, -- [2]
+			"22:30:19", -- [3]
+			"22:30:23", -- [4]
+			"Rotted One", -- [5]
+		}, -- [129]
+		{
+			1689453026, -- [1]
+			1689453030, -- [2]
+			"22:30:26", -- [3]
+			"22:30:30", -- [4]
+			"Rotted One", -- [5]
+		}, -- [130]
+		{
+			1689453092, -- [1]
+			1689453096, -- [2]
+			"22:31:32", -- [3]
+			"22:31:36", -- [4]
+			"Skeletal Horror", -- [5]
+		}, -- [131]
+		{
+			1689453304, -- [1]
+			1689453316, -- [2]
+			"22:35:04", -- [3]
+			"22:35:16", -- [4]
+			"Defias Cutpurse", -- [5]
+		}, -- [132]
+		{
+			1689455344, -- [1]
+			1689455361, -- [2]
+			"23:09:04", -- [3]
+			"23:09:21", -- [4]
+			"Rat", -- [5]
+		}, -- [133]
+		{
+			1689456125, -- [1]
+			1689456189, -- [2]
+			"23:22:05", -- [3]
+			"23:23:09", -- [4]
+			"Expert's Training Dummy", -- [5]
+		}, -- [134]
 	},
 	["FoughtWho"] = {
-		"Kobold Tunneler 20:59:23-20:59:34", -- [1]
-		"Kobold Tunneler 20:56:32-20:56:37", -- [2]
-		"Kobold Miner 20:55:46-20:55:52", -- [3]
-		"Patchwerk 20:44:23-20:44:59", -- [4]
-		"Scourge Necromancer 20:43:57-20:44:01", -- [5]
+		"Expert's Training Dummy 23:22:05-23:23:09", -- [1]
+		"Rat 23:09:04-23:09:21", -- [2]
+		"Defias Cutpurse 22:35:04-22:35:16", -- [3]
+		"Skeletal Horror 22:31:32-22:31:36", -- [4]
+		"Rotted One 22:30:26-22:30:30", -- [5]
 	},
 }
