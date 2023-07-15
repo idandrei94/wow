@@ -10,25 +10,25 @@ GladiusDB = {
 		["Noobschmoq - Icecrown"] = "Noobschmoq - Icecrown",
 		["Muiex - Icecrown"] = "Muiex - Icecrown",
 		["Sculamare - Icecrown"] = "Sculamare - Icecrown",
-		["Flokus - Icecrown"] = "Flokus - Icecrown",
+		["Eutanasie - Icecrown"] = "Eutanasie - Icecrown",
 		["Aevie - Icecrown"] = "Aevie - Icecrown",
 		["Urgash - Icecrown"] = "Urgash - Icecrown",
-		["Izanagi - Icecrown"] = "Izanagi - Icecrown",
+		["Flocius - Icecrown"] = "Flocius - Icecrown",
 		["Ulrezaj - Icecrown"] = "Ulrezaj - Icecrown",
-		["Drext - Icecrown"] = "Drext - Icecrown",
+		["Kalaam - Icecrown"] = "Kalaam - Icecrown",
 		["Pocaitoru - Icecrown"] = "Pocaitoru - Icecrown",
 		["Elgorath - Icecrown"] = "Elgorath - Icecrown",
-		["Inarya - Icecrown"] = "Inarya - Icecrown",
-		["Praxia - Icecrown"] = "Praxia - Icecrown",
+		["Mirceabravo - Icecrown"] = "Mirceabravo - Icecrown",
+		["Nalar - Icecrown"] = "Nalar - Icecrown",
 		["Lingurita - Lordaeron"] = "Lingurita - Lordaeron",
 		["Mirceabravo - Blackrock [PvP only]"] = "Mirceabravo - Blackrock [PvP only]",
 		["Pufarin - Icecrown"] = "Pufarin - Icecrown",
 		["Maciucaru - Icecrown"] = "Maciucaru - Icecrown",
-		["Nalar - Icecrown"] = "Nalar - Icecrown",
-		["Mirceabravo - Icecrown"] = "Mirceabravo - Icecrown",
-		["Kalaam - Icecrown"] = "Kalaam - Icecrown",
-		["Flocius - Icecrown"] = "Flocius - Icecrown",
-		["Eutanasie - Icecrown"] = "Eutanasie - Icecrown",
+		["Praxia - Icecrown"] = "Praxia - Icecrown",
+		["Inarya - Icecrown"] = "Inarya - Icecrown",
+		["Drext - Icecrown"] = "Drext - Icecrown",
+		["Izanagi - Icecrown"] = "Izanagi - Icecrown",
+		["Flokus - Icecrown"] = "Flokus - Icecrown",
 	},
 	["profiles"] = {
 		["Rimgar - Icecrown"] = {
@@ -75,10 +75,10 @@ GladiusDB = {
 			["y"] = 532.0999606624343,
 			["x"] = 1140.709565242955,
 		},
-		["Flokus - Icecrown"] = {
+		["Eutanasie - Icecrown"] = {
 			["locked"] = true,
-			["x"] = 1172.283413208229,
-			["y"] = 487.299953533341,
+			["x"] = 1160.70597427374,
+			["y"] = 548.0999744631246,
 		},
 		["Aevie - Icecrown"] = {
 			["locked"] = true,
@@ -90,20 +90,19 @@ GladiusDB = {
 			["x"] = 1078.949820798114,
 			["y"] = 531.2111095225328,
 		},
-		["Izanagi - Icecrown"] = {
-			["locked"] = true,
-			["x"] = 1115.216434712108,
-			["y"] = 551.122181785011,
+		["Flocius - Icecrown"] = {
+			["y"] = 496.3666070118393,
+			["x"] = 1157.35010901137,
 		},
 		["Ulrezaj - Icecrown"] = {
 			["locked"] = true,
 			["x"] = 953.6932015330746,
 			["y"] = 521.9056625649222,
 		},
-		["Drext - Icecrown"] = {
+		["Kalaam - Icecrown"] = {
 			["locked"] = true,
-			["x"] = 1050.499960681949,
-			["y"] = 522.0000221548672,
+			["x"] = 1094.593424388484,
+			["y"] = 553.2556640183522,
 		},
 		["Pocaitoru - Icecrown"] = {
 			["locked"] = true,
@@ -115,15 +114,15 @@ GladiusDB = {
 			["x"] = 1168.703932839543,
 			["y"] = 515.2998358767728,
 		},
-		["Inarya - Icecrown"] = {
+		["Mirceabravo - Icecrown"] = {
 			["locked"] = true,
-			["x"] = 1097.083064729433,
-			["y"] = 505.4333235160159,
+			["x"] = 1055.500041779703,
+			["y"] = 523.9999425614554,
 		},
-		["Praxia - Icecrown"] = {
+		["Nalar - Icecrown"] = {
 			["locked"] = true,
-			["x"] = 969.0531028795333,
-			["y"] = 556.2828637883971,
+			["x"] = 1091.038524034304,
+			["y"] = 556.8110685779587,
 		},
 		["Lingurita - Lordaeron"] = {
 			["locked"] = true,
@@ -138,29 +137,30 @@ GladiusDB = {
 			["x"] = 1049.500140519296,
 			["y"] = 529.9999838625041,
 		},
-		["Nalar - Icecrown"] = {
+		["Praxia - Icecrown"] = {
 			["locked"] = true,
-			["x"] = 1091.038524034304,
-			["y"] = 556.8110685779587,
+			["x"] = 969.0531028795333,
+			["y"] = 556.2828637883971,
 		},
-		["Mirceabravo - Icecrown"] = {
+		["Inarya - Icecrown"] = {
 			["locked"] = true,
-			["x"] = 1055.500041779703,
-			["y"] = 523.9999425614554,
+			["x"] = 1097.083064729433,
+			["y"] = 505.4333235160159,
 		},
-		["Kalaam - Icecrown"] = {
+		["Drext - Icecrown"] = {
 			["locked"] = true,
-			["x"] = 1094.593424388484,
-			["y"] = 553.2556640183522,
+			["x"] = 1050.499960681949,
+			["y"] = 522.0000221548672,
 		},
-		["Flocius - Icecrown"] = {
-			["y"] = 496.3666070118393,
-			["x"] = 1157.35010901137,
-		},
-		["Eutanasie - Icecrown"] = {
+		["Izanagi - Icecrown"] = {
 			["locked"] = true,
-			["x"] = 1160.70597427374,
-			["y"] = 548.0999744631246,
+			["x"] = 1115.216434712108,
+			["y"] = 551.122181785011,
+		},
+		["Flokus - Icecrown"] = {
+			["locked"] = true,
+			["x"] = 1172.283413208229,
+			["y"] = 487.299953533341,
 		},
 	},
 }
