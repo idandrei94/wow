@@ -83,10 +83,3 @@ X: -3
 Y: -178
 W: 100
 H: 30
-Frame: BagnonFramebank
-FrameLevel: 1
-Anchor: LEFT
-X: 234
-Y: -17
-W: 422
-H: 345

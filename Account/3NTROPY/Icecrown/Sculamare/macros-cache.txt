@@ -43,6 +43,7 @@ MACRO 16777231 "fbolt" INV_Misc_QuestionMark
 #showtooltip
 /petattack
 /cast frostbolt
+/script SetRaidTarget("target", 8)
 END
 MACRO 16777225 "fcs" INV_Misc_QuestionMark
 #showtooltip counterspell
@@ -76,8 +77,9 @@ MACRO 16777224 "mount" INV_Misc_QuestionMark
 /userandom [flyable] Bronze Drake,Invincible,Vengeful Nether Drake,X-53 Touring Rocket,Wrathful Gladiator's Frost Wyrm;Swift Spectral Tiger,Black Qiraji Battle Tank,Invincible
 END
 MACRO 16777222 "poly" INV_Misc_QuestionMark
-#showtooltip
-/castrandom Polymorph(Rank 4),Polymorph(Turtle),Polymorph(Pig),Polymorph(Black Cat),Polymorph(Rabbit)
+#showtooltip polymorph
+/cast polymorph
+/script SetRaidTarget("target", 1)
 END
 MACRO 16777217 "spellsteal" INV_Misc_QuestionMark
 #showtooltip spellsteal

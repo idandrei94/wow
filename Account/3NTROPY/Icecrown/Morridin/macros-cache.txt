@@ -92,8 +92,3 @@ MACRO 16777226 "strang" INV_Misc_QuestionMark
 /cast [modifier:shift, target=focus] strangulate
 /cast [nomodifier:shift] Strangulate
 END
-MACRO 16777230 "wep" INV_Misc_QuestionMark
-#showtooltip 16
-/run PickupInventoryItem(16)PutItemInBackpack()
-/equip shadowmourne
-END

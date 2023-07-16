@@ -1,9 +1,9 @@
 Version: 1
 Frame: LootFrame
-FrameLevel: 9
+FrameLevel: 21
 Anchor: CENTER
-X: 141
-Y: -95
+X: 131
+Y: -39
 W: 256
 H: 256
 Frame: WorldMapScreenAnchor
@@ -29,9 +29,9 @@ W: 76
 H: 46
 Frame: MageNugPolyFrame
 FrameLevel: 1
-Anchor: BOTTOM
-X: -261
-Y: 182
+Anchor: CENTER
+X: -337
+Y: -111
 W: 140
 H: 30
 Frame: shieldwatch_Frame
@@ -55,3 +55,10 @@ X: 0
 Y: 0
 W: 640
 H: 512
+Frame: BagnonFrameinventory
+FrameLevel: 1
+Anchor: BOTTOMRIGHT
+X: -203
+Y: 137
+W: 668
+H: 304

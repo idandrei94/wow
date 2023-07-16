@@ -16,14 +16,14 @@ Quartz3DB = {
 				},
 			},
 		},
-		["EnemyCasts"] = {
-		},
 		["Player"] = {
 			["profiles"] = {
 				["Default"] = {
 					["x"] = 557.6666906585209,
 				},
 			},
+		},
+		["EnemyCasts"] = {
 		},
 		["GCD"] = {
 		},
@@ -45,9 +45,9 @@ Quartz3DB = {
 				},
 			},
 		},
-		["Range"] = {
-		},
 		["Mirror"] = {
+		},
+		["Range"] = {
 		},
 		["Latency"] = {
 		},
@@ -59,30 +59,30 @@ Quartz3DB = {
 		["Sculatru - Icecrown"] = "Default",
 		["Denathra - Icecrown"] = "Default",
 		["Vhalanor - Icecrown"] = "Default",
-		["Flokus - Icecrown"] = "Default",
+		["Eutanasie - Icecrown"] = "Default",
 		["Noobschmoq - Icecrown"] = "Default",
 		["Muiex - Icecrown"] = "Default",
 		["Sculamare - Icecrown"] = "Default",
-		["Drext - Icecrown"] = "Default",
-		["Urgash - Icecrown"] = "Default",
+		["Flocius - Icecrown"] = "Default",
+		["Izanagi - Icecrown"] = "Default",
 		["Aevie - Icecrown"] = "Default",
 		["Morridin - Icecrown"] = "Default",
-		["Inarya - Icecrown"] = "Default",
+		["Mirceabravo - Icecrown"] = "Default",
 		["Ulrezaj - Icecrown"] = "Default",
-		["Pocaitoru - Icecrown"] = "Default",
+		["Praxia - Icecrown"] = "Default",
 		["Kalaam - Icecrown"] = "Default",
 		["Elgorath - Icecrown"] = "Default",
-		["Rakhnis - Icecrown"] = "Default",
-		["Maciucaru - Icecrown"] = "Default",
 		["Gligor - Icecrown"] = "Default",
-		["Mirceabravo - Blackrock [PvP only]"] = "Default",
 		["Pufarin - Icecrown"] = "Default",
 		["Lingurita - Lordaeron"] = "Default",
-		["Praxia - Icecrown"] = "Default",
-		["Mirceabravo - Icecrown"] = "Default",
-		["Izanagi - Icecrown"] = "Default",
-		["Flocius - Icecrown"] = "Default",
-		["Eutanasie - Icecrown"] = "Default",
+		["Mirceabravo - Blackrock [PvP only]"] = "Default",
+		["Maciucaru - Icecrown"] = "Default",
+		["Rakhnis - Icecrown"] = "Default",
+		["Pocaitoru - Icecrown"] = "Default",
+		["Inarya - Icecrown"] = "Default",
+		["Urgash - Icecrown"] = "Default",
+		["Drext - Icecrown"] = "Default",
+		["Flokus - Icecrown"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {
