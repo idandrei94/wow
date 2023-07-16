@@ -83,10 +83,10 @@ X: -3
 Y: -178
 W: 100
 H: 30
-Frame: GridLayoutFrame
-FrameLevel: 0
-Anchor: RIGHT
-X: -4
-Y: -92
-W: 57
-H: 56
+Frame: BagnonFramebank
+FrameLevel: 1
+Anchor: LEFT
+X: 234
+Y: -17
+W: 422
+H: 345

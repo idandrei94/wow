@@ -4,62 +4,68 @@ SkadaStorageDB = {
 		{
 			["enemies"] = {
 				{
-					["id"] = "0xF1300000281FD6BD",
-					["name"] = "Kobold Miner",
-					["totaldamagetaken"] = 124,
-					["flag"] = 68168,
+					["damagespells"] = {
+						[6603] = {
+							["school"] = 1,
+							["targets"] = {
+								["Sculamare"] = {
+									["amount"] = 14,
+								},
+							},
+							["amount"] = 14,
+						},
+					},
+					["damagetaken"] = 127,
+					["id"] = "0xF1300001DB22F237",
 					["class"] = "MONSTER",
-					["damagetaken"] = 124,
 					["damagetakenspells"] = {
+						[2136] = {
+							["school"] = 4,
+							["sources"] = {
+								["Sculamare"] = {
+									["amount"] = 22,
+								},
+							},
+							["amount"] = 22,
+						},
 						[205] = {
 							["school"] = 16,
 							["sources"] = {
 								["Sculamare"] = {
-									["overkill"] = 4,
-									["amount"] = 124,
+									["amount"] = 91,
 								},
 							},
-							["overkill"] = 4,
-							["amount"] = 124,
+							["amount"] = 91,
+						},
+						[6603] = {
+							["school"] = 1,
+							["sources"] = {
+								["Sculamare"] = {
+									["overkill"] = 7,
+									["amount"] = 14,
+								},
+							},
+							["overkill"] = 7,
+							["amount"] = 14,
 						},
 					},
+					["totaldamage"] = 14,
+					["name"] = "Kobold Tunneler",
+					["totaldamagetaken"] = 127,
+					["flag"] = 68168,
+					["damage"] = 14,
 				}, -- [1]
 			},
-			["totaldamage"] = 124,
-			["time"] = 6,
-			["etotaldamagetaken"] = 124,
-			["last_time"] = 13646.458,
+			["totaldamage"] = 127,
+			["time"] = 8,
+			["totaldamagetaken"] = 14,
+			["etotaldamage"] = 14,
+			["last_time"] = 550.042,
 			["players"] = {
 				{
-					["damagespells"] = {
-						["Frostbolt"] = {
-							["criticalmin"] = 54,
-							["hitmin"] = 34,
-							["criticalamount"] = 54,
-							["id"] = 205,
-							["criticalmax"] = 54,
-							["targets"] = {
-								["Kobold Miner"] = {
-									["overkill"] = 4,
-									["amount"] = 124,
-								},
-							},
-							["overkill"] = 4,
-							["critical"] = 1,
-							["casts"] = 3,
-							["count"] = 3,
-							["hit"] = 2,
-							["school"] = 16,
-							["hitmax"] = 36,
-							["amount"] = 124,
-							["hitamount"] = 70,
-						},
-					},
-					["last"] = 13644.658,
+					["last"] = 549.684,
+					["flag"] = 1297,
 					["class"] = "MAGE",
-					["id"] = "0x0700000000976299",
-					["spec"] = 64,
-					["overkill"] = 4,
 					["auras"] = {
 						[205] = {
 							["type"] = "DEBUFF",
@@ -67,7 +73,205 @@ SkadaStorageDB = {
 							["school"] = 16,
 							["refresh"] = 1,
 							["targets"] = {
-								["Kobold Miner"] = {
+								["Kobold Tunneler"] = {
+									["count"] = 1,
+									["refresh"] = 1,
+									["uptime"] = 4,
+								},
+							},
+							["uptime"] = 4,
+						},
+						[28878] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 8,
+						},
+						[6136] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 16,
+							["refresh"] = 2,
+							["targets"] = {
+								["Kobold Tunneler"] = {
+									["count"] = 1,
+									["refresh"] = 2,
+									["uptime"] = 6,
+								},
+							},
+							["uptime"] = 6,
+						},
+						[1459] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 8,
+						},
+						[7300] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 8,
+						},
+					},
+					["time"] = 7.529999999999999,
+					["totaldamagetaken"] = 14,
+					["damage"] = 127,
+					["damagespells"] = {
+						["Frostbolt"] = {
+							["hitmin"] = 38,
+							["criticalamount"] = 53,
+							["id"] = 205,
+							["hitmax"] = 38,
+							["targets"] = {
+								["Kobold Tunneler"] = {
+									["amount"] = 91,
+								},
+							},
+							["count"] = 2,
+							["hit"] = 1,
+							["casts"] = 1,
+							["critical"] = 1,
+							["amount"] = 91,
+							["school"] = 16,
+							["criticalmin"] = 53,
+							["criticalmax"] = 53,
+							["hitamount"] = 38,
+						},
+						["Melee"] = {
+							["hitmin"] = 14,
+							["id"] = 6603,
+							["targets"] = {
+								["Kobold Tunneler"] = {
+									["overkill"] = 7,
+									["amount"] = 14,
+								},
+							},
+							["overkill"] = 7,
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 1,
+							["hitmax"] = 14,
+							["amount"] = 14,
+							["hitamount"] = 14,
+						},
+						["Fire Blast"] = {
+							["hitmin"] = 22,
+							["id"] = 2136,
+							["targets"] = {
+								["Kobold Tunneler"] = {
+									["amount"] = 22,
+								},
+							},
+							["hitmax"] = 22,
+							["casts"] = 1,
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 4,
+							["resisted"] = 14,
+							["amount"] = 22,
+							["hitamount"] = 22,
+						},
+					},
+					["damagetaken"] = 14,
+					["id"] = "0x0700000000976299",
+					["spec"] = 64,
+					["damagetakenspells"] = {
+						["Melee"] = {
+							["hitmin"] = 4,
+							["id"] = 6603,
+							["sources"] = {
+								["Kobold Tunneler"] = {
+									["amount"] = 14,
+								},
+							},
+							["count"] = 3,
+							["hit"] = 3,
+							["school"] = 1,
+							["hitmax"] = 5,
+							["amount"] = 14,
+							["hitamount"] = 14,
+						},
+					},
+					["name"] = "Sculamare",
+					["overkill"] = 7,
+					["totaldamage"] = 127,
+					["role"] = "DAMAGER",
+				}, -- [1]
+			},
+			["type"] = "none",
+			["damagetaken"] = 14,
+			["etotaldamagetaken"] = 127,
+			["overkill"] = 7,
+			["edamagetaken"] = 127,
+			["damage"] = 127,
+			["name"] = "Kobold Tunneler (102)",
+			["mobname"] = "Kobold Tunneler",
+			["starttime"] = 1689500897,
+			["edamage"] = 14,
+			["last_action"] = 1689500905,
+			["endtime"] = 1689500905,
+		}, -- [1]
+		{
+			["enemies"] = {
+				{
+					["id"] = "0xF13000020D22EA0D",
+					["name"] = "Mangy Wolf",
+					["totaldamagetaken"] = 103,
+					["flag"] = 68168,
+					["class"] = "MONSTER",
+					["damagetaken"] = 103,
+					["damagetakenspells"] = {
+						[205] = {
+							["school"] = 16,
+							["sources"] = {
+								["Sculamare"] = {
+									["overkill"] = 1,
+									["amount"] = 103,
+								},
+							},
+							["overkill"] = 1,
+							["amount"] = 103,
+						},
+					},
+				}, -- [1]
+			},
+			["totaldamage"] = 103,
+			["time"] = 6,
+			["etotaldamagetaken"] = 103,
+			["last_time"] = 501.092,
+			["players"] = {
+				{
+					["damagespells"] = {
+						["Frostbolt"] = {
+							["hitmin"] = 34,
+							["id"] = 205,
+							["targets"] = {
+								["Mangy Wolf"] = {
+									["overkill"] = 1,
+									["amount"] = 103,
+								},
+							},
+							["overkill"] = 1,
+							["casts"] = 3,
+							["count"] = 3,
+							["hit"] = 3,
+							["school"] = 16,
+							["hitmax"] = 35,
+							["amount"] = 103,
+							["hitamount"] = 103,
+						},
+					},
+					["last"] = 501.059,
+					["class"] = "MAGE",
+					["id"] = "0x0700000000976299",
+					["spec"] = 64,
+					["overkill"] = 1,
+					["auras"] = {
+						[205] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 16,
+							["refresh"] = 1,
+							["targets"] = {
+								["Mangy Wolf"] = {
 									["count"] = 1,
 									["refresh"] = 1,
 									["uptime"] = 3,
@@ -80,7 +284,385 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 6,
 						},
+						[1459] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 6,
+						},
 						[28878] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 6,
+						},
+					},
+					["totaldamage"] = 103,
+					["role"] = "DAMAGER",
+					["name"] = "Sculamare",
+					["flag"] = 1297,
+					["time"] = 4,
+					["damage"] = 103,
+				}, -- [1]
+			},
+			["type"] = "none",
+			["overkill"] = 1,
+			["edamagetaken"] = 103,
+			["damage"] = 103,
+			["name"] = "Mangy Wolf (3)",
+			["mobname"] = "Mangy Wolf",
+			["starttime"] = 1689500852,
+			["last_action"] = 1689500856,
+			["endtime"] = 1689500858,
+		}, -- [2]
+		{
+			["enemies"] = {
+				{
+					["id"] = "0xF13000020D230108",
+					["name"] = "Mangy Wolf",
+					["totaldamagetaken"] = 142,
+					["flag"] = 68168,
+					["class"] = "MONSTER",
+					["damagetaken"] = 142,
+					["damagetakenspells"] = {
+						[205] = {
+							["school"] = 16,
+							["sources"] = {
+								["Sculamare"] = {
+									["overkill"] = 22,
+									["amount"] = 142,
+								},
+							},
+							["overkill"] = 22,
+							["amount"] = 142,
+						},
+					},
+				}, -- [1]
+			},
+			["totaldamage"] = 142,
+			["time"] = 7,
+			["etotaldamagetaken"] = 142,
+			["last_time"] = 488.726,
+			["players"] = {
+				{
+					["damagespells"] = {
+						["Frostbolt"] = {
+							["hitmin"] = 33,
+							["id"] = 205,
+							["targets"] = {
+								["Mangy Wolf"] = {
+									["overkill"] = 22,
+									["amount"] = 142,
+								},
+							},
+							["overkill"] = 22,
+							["casts"] = 3,
+							["count"] = 4,
+							["hit"] = 4,
+							["school"] = 16,
+							["hitmax"] = 37,
+							["amount"] = 142,
+							["hitamount"] = 142,
+						},
+					},
+					["last"] = 488.692,
+					["class"] = "MAGE",
+					["id"] = "0x0700000000976299",
+					["spec"] = 64,
+					["overkill"] = 22,
+					["auras"] = {
+						[205] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 16,
+							["refresh"] = 2,
+							["targets"] = {
+								["Mangy Wolf"] = {
+									["count"] = 1,
+									["refresh"] = 2,
+									["uptime"] = 4,
+								},
+							},
+							["uptime"] = 4,
+						},
+						[7300] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 7,
+						},
+						[1459] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 7,
+						},
+						[28878] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 7,
+						},
+					},
+					["totaldamage"] = 142,
+					["role"] = "DAMAGER",
+					["name"] = "Sculamare",
+					["flag"] = 1297,
+					["time"] = 5.539999999999999,
+					["damage"] = 142,
+				}, -- [1]
+			},
+			["type"] = "none",
+			["overkill"] = 22,
+			["edamagetaken"] = 142,
+			["damage"] = 142,
+			["name"] = "Mangy Wolf (2)",
+			["mobname"] = "Mangy Wolf",
+			["starttime"] = 1689500838,
+			["last_action"] = 1689500844,
+			["endtime"] = 1689500845,
+		}, -- [3]
+		{
+			["enemies"] = {
+				{
+					["damagespells"] = {
+						[6603] = {
+							["school"] = 1,
+							["targets"] = {
+								["Sculamare"] = {
+									["amount"] = 4,
+								},
+							},
+							["amount"] = 4,
+						},
+					},
+					["damagetaken"] = 126,
+					["flag"] = 68168,
+					["class"] = "MONSTER",
+					["damagetakenspells"] = {
+						[205] = {
+							["school"] = 16,
+							["sources"] = {
+								["Sculamare"] = {
+									["amount"] = 109,
+								},
+							},
+							["amount"] = 109,
+						},
+						[6603] = {
+							["school"] = 1,
+							["sources"] = {
+								["Sculamare"] = {
+									["overkill"] = 6,
+									["amount"] = 17,
+								},
+							},
+							["overkill"] = 6,
+							["amount"] = 17,
+						},
+					},
+					["name"] = "Mangy Wolf",
+					["totaldamage"] = 4,
+					["totaldamagetaken"] = 126,
+					["id"] = "0xF13000020D22C1CE",
+					["damage"] = 4,
+				}, -- [1]
+			},
+			["totaldamage"] = 126,
+			["time"] = 8,
+			["totaldamagetaken"] = 4,
+			["etotaldamagetaken"] = 126,
+			["last_time"] = 451.16,
+			["players"] = {
+				{
+					["last"] = 451.143,
+					["flag"] = 1297,
+					["class"] = "MAGE",
+					["auras"] = {
+						[205] = {
+							["type"] = "DEBUFF",
+							["uptime"] = 7,
+							["school"] = 16,
+							["refresh"] = 2,
+							["targets"] = {
+								["Mangy Wolf"] = {
+									["count"] = 1,
+									["refresh"] = 2,
+									["uptime"] = 7,
+								},
+							},
+							["count"] = 1,
+						},
+						[28878] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 8,
+						},
+						[6136] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 16,
+							["targets"] = {
+								["Mangy Wolf"] = {
+									["uptime"] = 3,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 3,
+						},
+						[1459] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 8,
+						},
+						[7300] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 8,
+						},
+					},
+					["role"] = "DAMAGER",
+					["time"] = 7.630000000000001,
+					["totaldamagetaken"] = 4,
+					["damage"] = 126,
+					["damagespells"] = {
+						["Melee"] = {
+							["hitmin"] = 8,
+							["id"] = 6603,
+							["targets"] = {
+								["Mangy Wolf"] = {
+									["overkill"] = 6,
+									["amount"] = 17,
+								},
+							},
+							["overkill"] = 6,
+							["count"] = 2,
+							["hit"] = 2,
+							["school"] = 1,
+							["hitmax"] = 9,
+							["amount"] = 17,
+							["hitamount"] = 17,
+						},
+						["Frostbolt"] = {
+							["hitmin"] = 35,
+							["id"] = 205,
+							["targets"] = {
+								["Mangy Wolf"] = {
+									["amount"] = 109,
+								},
+							},
+							["casts"] = 2,
+							["count"] = 3,
+							["hit"] = 3,
+							["school"] = 16,
+							["hitmax"] = 38,
+							["amount"] = 109,
+							["hitamount"] = 109,
+						},
+					},
+					["damagetaken"] = 4,
+					["id"] = "0x0700000000976299",
+					["spec"] = 64,
+					["damagetakenspells"] = {
+						["Melee"] = {
+							["hitmin"] = 4,
+							["id"] = 6603,
+							["amount"] = 4,
+							["sources"] = {
+								["Mangy Wolf"] = {
+									["amount"] = 4,
+								},
+							},
+							["count"] = 2,
+							["hit"] = 1,
+							["school"] = 1,
+							["hitmax"] = 4,
+							["MISS"] = 1,
+							["hitamount"] = 4,
+						},
+					},
+					["name"] = "Sculamare",
+					["overkill"] = 6,
+					["totaldamage"] = 126,
+				}, -- [1]
+			},
+			["type"] = "none",
+			["damagetaken"] = 4,
+			["damage"] = 126,
+			["etotaldamage"] = 4,
+			["overkill"] = 6,
+			["edamagetaken"] = 126,
+			["name"] = "Mangy Wolf",
+			["mobname"] = "Mangy Wolf",
+			["starttime"] = 1689500798,
+			["edamage"] = 4,
+			["last_action"] = 1689500806,
+			["endtime"] = 1689500806,
+		}, -- [4]
+		{
+			["starttime"] = 1689461434,
+			["type"] = "none",
+			["enemies"] = {
+				{
+					["name"] = "Kobold Miner",
+					["damagetaken"] = 124,
+					["id"] = "0xF1300000281FD6BD",
+					["flag"] = 68168,
+					["class"] = "MONSTER",
+					["totaldamagetaken"] = 124,
+					["damagetakenspells"] = {
+						[205] = {
+							["school"] = 16,
+							["sources"] = {
+								["Sculamare"] = {
+									["amount"] = 124,
+									["overkill"] = 4,
+								},
+							},
+							["amount"] = 124,
+							["overkill"] = 4,
+						},
+					},
+				}, -- [1]
+			},
+			["players"] = {
+				{
+					["damagespells"] = {
+						["Frostbolt"] = {
+							["criticalamount"] = 54,
+							["hitmin"] = 34,
+							["criticalmin"] = 54,
+							["id"] = 205,
+							["critical"] = 1,
+							["targets"] = {
+								["Kobold Miner"] = {
+									["amount"] = 124,
+									["overkill"] = 4,
+								},
+							},
+							["overkill"] = 4,
+							["hit"] = 2,
+							["casts"] = 3,
+							["count"] = 3,
+							["amount"] = 124,
+							["school"] = 16,
+							["hitmax"] = 36,
+							["criticalmax"] = 54,
+							["hitamount"] = 70,
+						},
+					},
+					["last"] = 13644.658,
+					["id"] = "0x0700000000976299",
+					["class"] = "MAGE",
+					["overkill"] = 4,
+					["spec"] = 64,
+					["totaldamage"] = 124,
+					["name"] = "Sculamare",
+					["time"] = 4.07,
+					["flag"] = 1297,
+					["role"] = "DAMAGER",
+					["auras"] = {
+						[28878] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 6,
+						},
+						[7300] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 6,
@@ -90,34 +672,45 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 6,
 						},
+						[205] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 16,
+							["refresh"] = 1,
+							["targets"] = {
+								["Kobold Miner"] = {
+									["refresh"] = 1,
+									["count"] = 1,
+									["uptime"] = 3,
+								},
+							},
+							["uptime"] = 3,
+						},
 					},
-					["totaldamage"] = 124,
-					["role"] = "DAMAGER",
-					["name"] = "Sculamare",
-					["flag"] = 1297,
-					["time"] = 4.07,
 					["damage"] = 124,
 				}, -- [1]
 			},
-			["type"] = "none",
-			["overkill"] = 4,
-			["edamagetaken"] = 124,
-			["damage"] = 124,
-			["name"] = "Kobold Miner (20)",
-			["mobname"] = "Kobold Miner",
-			["starttime"] = 1689461434,
+			["time"] = 6,
 			["last_action"] = 1689461440,
 			["endtime"] = 1689461440,
-		}, -- [1]
+			["overkill"] = 4,
+			["edamagetaken"] = 124,
+			["totaldamage"] = 124,
+			["name"] = "Kobold Miner (20)",
+			["mobname"] = "Kobold Miner",
+			["damage"] = 124,
+			["etotaldamagetaken"] = 124,
+			["last_time"] = 13646.458,
+		}, -- [5]
 		{
 			["enemies"] = {
 				{
-					["id"] = "0xF1300000281FE21D",
 					["name"] = "Kobold Miner",
-					["totaldamagetaken"] = 133,
+					["damagetaken"] = 133,
+					["id"] = "0xF1300000281FE21D",
 					["flag"] = 68168,
 					["class"] = "MONSTER",
-					["damagetaken"] = 133,
+					["totaldamagetaken"] = 133,
 					["damagetakenspells"] = {
 						[205] = {
 							["school"] = 16,
@@ -132,12 +725,12 @@ SkadaStorageDB = {
 							["school"] = 4,
 							["sources"] = {
 								["Sculamare"] = {
-									["overkill"] = 13,
 									["amount"] = 23,
+									["overkill"] = 13,
 								},
 							},
-							["overkill"] = 13,
 							["amount"] = 23,
+							["overkill"] = 13,
 						},
 					},
 				}, -- [1]
@@ -149,64 +742,7 @@ SkadaStorageDB = {
 			["last_time"] = 13631.732,
 			["players"] = {
 				{
-					["last"] = 13631.7,
-					["flag"] = 1297,
-					["class"] = "MAGE",
-					["auras"] = {
-						[205] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 16,
-							["refresh"] = 2,
-							["targets"] = {
-								["Kobold Miner"] = {
-									["count"] = 1,
-									["refresh"] = 2,
-									["uptime"] = 3,
-								},
-							},
-							["uptime"] = 3,
-						},
-						[7300] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 5,
-						},
-						[28878] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 5,
-						},
-						[1459] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 5,
-						},
-					},
-					["role"] = "DAMAGER",
-					["time"] = 3.93,
-					["totaldamagetaken"] = 0,
-					["damage"] = 133,
 					["damagespells"] = {
-						["Fire Blast"] = {
-							["hitmin"] = 23,
-							["id"] = 2136,
-							["targets"] = {
-								["Kobold Miner"] = {
-									["overkill"] = 13,
-									["amount"] = 23,
-								},
-							},
-							["overkill"] = 13,
-							["hitmax"] = 23,
-							["casts"] = 1,
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 4,
-							["resisted"] = 9,
-							["amount"] = 23,
-							["hitamount"] = 23,
-						},
 						["Frostbolt"] = {
 							["hitmin"] = 36,
 							["id"] = 205,
@@ -223,10 +759,66 @@ SkadaStorageDB = {
 							["amount"] = 110,
 							["hitamount"] = 110,
 						},
+						["Fire Blast"] = {
+							["hitmin"] = 23,
+							["id"] = 2136,
+							["targets"] = {
+								["Kobold Miner"] = {
+									["amount"] = 23,
+									["overkill"] = 13,
+								},
+							},
+							["overkill"] = 13,
+							["count"] = 1,
+							["casts"] = 1,
+							["hitmax"] = 23,
+							["hit"] = 1,
+							["school"] = 4,
+							["resisted"] = 9,
+							["amount"] = 23,
+							["hitamount"] = 23,
+						},
 					},
+					["last"] = 13631.7,
 					["damagetaken"] = 0,
 					["id"] = "0x0700000000976299",
-					["spec"] = 64,
+					["flag"] = 1297,
+					["class"] = "MAGE",
+					["role"] = "DAMAGER",
+					["auras"] = {
+						[28878] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 5,
+						},
+						[7300] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 5,
+						},
+						[1459] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 5,
+						},
+						[205] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 16,
+							["refresh"] = 2,
+							["targets"] = {
+								["Kobold Miner"] = {
+									["refresh"] = 2,
+									["count"] = 1,
+									["uptime"] = 3,
+								},
+							},
+							["uptime"] = 3,
+						},
+					},
+					["name"] = "Sculamare",
+					["totaldamage"] = 133,
+					["time"] = 3.93,
 					["damagetakenspells"] = {
 						["Melee"] = {
 							["DODGE"] = 1,
@@ -241,22 +833,23 @@ SkadaStorageDB = {
 							["id"] = 6603,
 						},
 					},
-					["name"] = "Sculamare",
+					["spec"] = 64,
+					["totaldamagetaken"] = 0,
 					["overkill"] = 13,
-					["totaldamage"] = 133,
+					["damage"] = 133,
 				}, -- [1]
 			},
 			["type"] = "none",
 			["damagetaken"] = 0,
 			["overkill"] = 13,
 			["edamagetaken"] = 133,
-			["damage"] = 133,
 			["name"] = "Kobold Miner (19)",
 			["mobname"] = "Kobold Miner",
+			["damage"] = 133,
 			["starttime"] = 1689461422,
 			["last_action"] = 1689461426,
 			["endtime"] = 1689461427,
-		}, -- [2]
+		}, -- [6]
 		{
 			["enemies"] = {
 				{
@@ -279,12 +872,12 @@ SkadaStorageDB = {
 							["school"] = 16,
 							["sources"] = {
 								["Sculamare"] = {
-									["overkill"] = 8,
 									["amount"] = 282,
+									["overkill"] = 8,
 								},
 							},
-							["overkill"] = 8,
 							["amount"] = 282,
+							["overkill"] = 8,
 						},
 					},
 					["totaldamage"] = 62,
@@ -301,9 +894,61 @@ SkadaStorageDB = {
 			["last_time"] = 13623.475,
 			["players"] = {
 				{
+					["damagespells"] = {
+						["Frostbolt"] = {
+							["hitmin"] = 34,
+							["id"] = 205,
+							["targets"] = {
+								["Kobold Miner"] = {
+									["amount"] = 282,
+									["overkill"] = 8,
+								},
+							},
+							["overkill"] = 8,
+							["casts"] = 7,
+							["count"] = 8,
+							["hit"] = 8,
+							["school"] = 16,
+							["hitmax"] = 37,
+							["amount"] = 282,
+							["hitamount"] = 282,
+						},
+					},
 					["last"] = 13623.449,
+					["damagetaken"] = 62,
+					["id"] = "0x0700000000976299",
 					["flag"] = 1297,
 					["class"] = "MAGE",
+					["totaldamage"] = 282,
+					["overkill"] = 8,
+					["name"] = "Sculamare",
+					["role"] = "DAMAGER",
+					["time"] = 19.16,
+					["damagetakenspells"] = {
+						["Melee"] = {
+							["criticalamount"] = 14,
+							["hitmin"] = 6,
+							["criticalmin"] = 14,
+							["id"] = 6603,
+							["critical"] = 1,
+							["criticalmax"] = 14,
+							["count"] = 10,
+							["amount"] = 62,
+							["sources"] = {
+								["Kobold Miner"] = {
+									["amount"] = 62,
+								},
+							},
+							["hitmax"] = 7,
+							["hit"] = 7,
+							["school"] = 1,
+							["PARRY"] = 1,
+							["MISS"] = 1,
+							["hitamount"] = 48,
+						},
+					},
+					["spec"] = 64,
+					["totaldamagetaken"] = 62,
 					["auras"] = {
 						[205] = {
 							["type"] = "DEBUFF",
@@ -312,8 +957,8 @@ SkadaStorageDB = {
 							["refresh"] = 4,
 							["targets"] = {
 								["Kobold Miner"] = {
-									["count"] = 2,
 									["refresh"] = 4,
+									["count"] = 2,
 									["uptime"] = 14,
 								},
 							},
@@ -331,8 +976,8 @@ SkadaStorageDB = {
 							["refresh"] = 6,
 							["targets"] = {
 								["Kobold Miner"] = {
-									["count"] = 2,
 									["refresh"] = 6,
+									["count"] = 2,
 									["uptime"] = 16,
 								},
 							},
@@ -349,59 +994,7 @@ SkadaStorageDB = {
 							["uptime"] = 21,
 						},
 					},
-					["time"] = 19.16,
-					["totaldamagetaken"] = 62,
 					["damage"] = 282,
-					["damagespells"] = {
-						["Frostbolt"] = {
-							["hitmin"] = 34,
-							["id"] = 205,
-							["targets"] = {
-								["Kobold Miner"] = {
-									["overkill"] = 8,
-									["amount"] = 282,
-								},
-							},
-							["overkill"] = 8,
-							["casts"] = 7,
-							["count"] = 8,
-							["hit"] = 8,
-							["school"] = 16,
-							["hitmax"] = 37,
-							["amount"] = 282,
-							["hitamount"] = 282,
-						},
-					},
-					["damagetaken"] = 62,
-					["id"] = "0x0700000000976299",
-					["spec"] = 64,
-					["damagetakenspells"] = {
-						["Melee"] = {
-							["criticalmin"] = 14,
-							["hitmin"] = 6,
-							["criticalamount"] = 14,
-							["id"] = 6603,
-							["criticalmax"] = 14,
-							["critical"] = 1,
-							["PARRY"] = 1,
-							["hitmax"] = 7,
-							["sources"] = {
-								["Kobold Miner"] = {
-									["amount"] = 62,
-								},
-							},
-							["count"] = 10,
-							["hit"] = 7,
-							["school"] = 1,
-							["amount"] = 62,
-							["MISS"] = 1,
-							["hitamount"] = 48,
-						},
-					},
-					["name"] = "Sculamare",
-					["overkill"] = 8,
-					["totaldamage"] = 282,
-					["role"] = "DAMAGER",
 				}, -- [1]
 			},
 			["type"] = "none",
@@ -416,27 +1009,27 @@ SkadaStorageDB = {
 			["edamage"] = 62,
 			["last_action"] = 1689461417,
 			["endtime"] = 1689461419,
-		}, -- [3]
+		}, -- [7]
 		{
 			["enemies"] = {
 				{
-					["id"] = "0xF1300000281FE132",
 					["name"] = "Kobold Miner",
-					["totaldamagetaken"] = 126,
+					["damagetaken"] = 126,
+					["id"] = "0xF1300000281FE132",
 					["flag"] = 68168,
 					["class"] = "MONSTER",
-					["damagetaken"] = 126,
+					["totaldamagetaken"] = 126,
 					["damagetakenspells"] = {
 						[205] = {
 							["school"] = 16,
 							["sources"] = {
 								["Sculamare"] = {
-									["overkill"] = 6,
 									["amount"] = 104,
+									["overkill"] = 6,
 								},
 							},
-							["overkill"] = 6,
 							["amount"] = 104,
+							["overkill"] = 6,
 						},
 						[2136] = {
 							["school"] = 4,
@@ -469,12 +1062,12 @@ SkadaStorageDB = {
 							["school"] = 16,
 							["sources"] = {
 								["Sculamare"] = {
-									["overkill"] = 17,
 									["amount"] = 157,
+									["overkill"] = 17,
 								},
 							},
-							["overkill"] = 17,
 							["amount"] = 157,
+							["overkill"] = 17,
 						},
 						[2136] = {
 							["school"] = 4,
@@ -500,63 +1093,33 @@ SkadaStorageDB = {
 			["last_time"] = 13596.433,
 			["players"] = {
 				{
-					["last"] = 13596.199,
-					["flag"] = 1297,
-					["class"] = "MAGE",
-					["auras"] = {
-						[205] = {
-							["type"] = "DEBUFF",
-							["count"] = 2,
-							["school"] = 16,
-							["refresh"] = 3,
+					["damagespells"] = {
+						["Frostbolt"] = {
+							["criticalamount"] = 51,
+							["hitmin"] = 34,
+							["criticalmin"] = 51,
+							["id"] = 205,
+							["critical"] = 1,
 							["targets"] = {
 								["Kobold Miner"] = {
-									["count"] = 1,
-									["refresh"] = 1,
-									["uptime"] = 3,
+									["amount"] = 104,
+									["overkill"] = 6,
 								},
 								["Goldtooth"] = {
-									["count"] = 1,
-									["refresh"] = 2,
-									["uptime"] = 9,
+									["amount"] = 157,
+									["overkill"] = 17,
 								},
 							},
-							["uptime"] = 12,
-						},
-						[28878] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 18,
-						},
-						[6136] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
+							["overkill"] = 23,
+							["hit"] = 6,
+							["casts"] = 6,
+							["count"] = 7,
+							["amount"] = 261,
 							["school"] = 16,
-							["refresh"] = 3,
-							["targets"] = {
-								["Goldtooth"] = {
-									["count"] = 1,
-									["refresh"] = 3,
-									["uptime"] = 13,
-								},
-							},
-							["uptime"] = 13,
+							["hitmax"] = 37,
+							["criticalmax"] = 51,
+							["hitamount"] = 210,
 						},
-						[1459] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 18,
-						},
-						[7300] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 18,
-						},
-					},
-					["time"] = 15.26,
-					["totaldamagetaken"] = 31,
-					["damage"] = 299,
-					["damagespells"] = {
 						["Fire Blast"] = {
 							["hitmin"] = 16,
 							["id"] = 2136,
@@ -568,47 +1131,22 @@ SkadaStorageDB = {
 									["amount"] = 16,
 								},
 							},
-							["hitmax"] = 22,
-							["casts"] = 2,
 							["count"] = 2,
+							["casts"] = 2,
+							["hitmax"] = 22,
 							["hit"] = 2,
 							["school"] = 4,
 							["resisted"] = 29,
 							["amount"] = 38,
 							["hitamount"] = 38,
 						},
-						["Frostbolt"] = {
-							["criticalmin"] = 51,
-							["hitmin"] = 34,
-							["criticalamount"] = 51,
-							["id"] = 205,
-							["criticalmax"] = 51,
-							["targets"] = {
-								["Kobold Miner"] = {
-									["overkill"] = 6,
-									["amount"] = 104,
-								},
-								["Goldtooth"] = {
-									["overkill"] = 17,
-									["amount"] = 157,
-								},
-							},
-							["overkill"] = 23,
-							["critical"] = 1,
-							["casts"] = 6,
-							["count"] = 7,
-							["hit"] = 6,
-							["school"] = 16,
-							["hitmax"] = 37,
-							["amount"] = 261,
-							["hitamount"] = 210,
-						},
 					},
+					["last"] = 13596.199,
 					["damagetaken"] = 31,
 					["id"] = "0x0700000000976299",
-					["spec"] = 64,
-					["overkill"] = 23,
-					["name"] = "Sculamare",
+					["flag"] = 1297,
+					["class"] = "MAGE",
+					["totaldamage"] = 299,
 					["damagetakenspells"] = {
 						["Melee"] = {
 							["hitmin"] = 7,
@@ -626,32 +1164,89 @@ SkadaStorageDB = {
 							["hitamount"] = 31,
 						},
 					},
-					["totaldamage"] = 299,
+					["name"] = "Sculamare",
 					["role"] = "DAMAGER",
+					["time"] = 15.26,
+					["overkill"] = 23,
+					["spec"] = 64,
+					["totaldamagetaken"] = 31,
+					["auras"] = {
+						[205] = {
+							["type"] = "DEBUFF",
+							["count"] = 2,
+							["school"] = 16,
+							["refresh"] = 3,
+							["targets"] = {
+								["Kobold Miner"] = {
+									["refresh"] = 1,
+									["count"] = 1,
+									["uptime"] = 3,
+								},
+								["Goldtooth"] = {
+									["refresh"] = 2,
+									["count"] = 1,
+									["uptime"] = 9,
+								},
+							},
+							["uptime"] = 12,
+						},
+						[28878] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 18,
+						},
+						[6136] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 16,
+							["refresh"] = 3,
+							["targets"] = {
+								["Goldtooth"] = {
+									["refresh"] = 3,
+									["count"] = 1,
+									["uptime"] = 13,
+								},
+							},
+							["uptime"] = 13,
+						},
+						[1459] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 18,
+						},
+						[7300] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 18,
+						},
+					},
+					["damage"] = 299,
 				}, -- [1]
 			},
 			["type"] = "none",
 			["damagetaken"] = 31,
 			["damage"] = 299,
-			["etotaldamage"] = 31,
 			["overkill"] = 23,
 			["edamagetaken"] = 299,
+			["etotaldamage"] = 31,
 			["name"] = "Kobold Miner (17)",
 			["mobname"] = "Kobold Miner",
 			["starttime"] = 1689461373,
 			["edamage"] = 31,
 			["last_action"] = 1689461390,
 			["endtime"] = 1689461391,
-		}, -- [4]
+		}, -- [8]
 		{
+			["starttime"] = 1689461341,
+			["type"] = "none",
 			["enemies"] = {
 				{
-					["id"] = "0xF1300000281FDE26",
 					["name"] = "Kobold Miner",
-					["totaldamagetaken"] = 123,
+					["damagetaken"] = 123,
+					["id"] = "0xF1300000281FDE26",
 					["flag"] = 68168,
 					["class"] = "MONSTER",
-					["damagetaken"] = 123,
+					["totaldamagetaken"] = 123,
 					["damagetakenspells"] = {
 						[205] = {
 							["school"] = 16,
@@ -666,42 +1261,19 @@ SkadaStorageDB = {
 							["school"] = 4,
 							["sources"] = {
 								["Sculamare"] = {
-									["overkill"] = 3,
 									["amount"] = 17,
+									["overkill"] = 3,
 								},
 							},
-							["overkill"] = 3,
 							["amount"] = 17,
+							["overkill"] = 3,
 						},
 					},
 				}, -- [1]
 			},
-			["totaldamage"] = 123,
-			["time"] = 5,
-			["etotaldamagetaken"] = 123,
-			["last_time"] = 13551.809,
 			["players"] = {
 				{
 					["damagespells"] = {
-						["Fire Blast"] = {
-							["hitmin"] = 17,
-							["id"] = 2136,
-							["targets"] = {
-								["Kobold Miner"] = {
-									["overkill"] = 3,
-									["amount"] = 17,
-								},
-							},
-							["overkill"] = 3,
-							["hitmax"] = 17,
-							["casts"] = 1,
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 4,
-							["resisted"] = 11,
-							["amount"] = 17,
-							["hitamount"] = 17,
-						},
 						["Frostbolt"] = {
 							["hitmin"] = 34,
 							["id"] = 205,
@@ -718,33 +1290,43 @@ SkadaStorageDB = {
 							["amount"] = 106,
 							["hitamount"] = 106,
 						},
-					},
-					["last"] = 13551.35,
-					["class"] = "MAGE",
-					["id"] = "0x0700000000976299",
-					["spec"] = 64,
-					["overkill"] = 3,
-					["auras"] = {
-						[205] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 16,
-							["refresh"] = 2,
+						["Fire Blast"] = {
+							["hitmin"] = 17,
+							["id"] = 2136,
 							["targets"] = {
 								["Kobold Miner"] = {
-									["count"] = 1,
-									["refresh"] = 2,
-									["uptime"] = 3,
+									["amount"] = 17,
+									["overkill"] = 3,
 								},
 							},
-							["uptime"] = 3,
+							["overkill"] = 3,
+							["count"] = 1,
+							["casts"] = 1,
+							["hitmax"] = 17,
+							["hit"] = 1,
+							["school"] = 4,
+							["resisted"] = 11,
+							["amount"] = 17,
+							["hitamount"] = 17,
 						},
-						[7300] = {
+					},
+					["last"] = 13551.35,
+					["id"] = "0x0700000000976299",
+					["class"] = "MAGE",
+					["overkill"] = 3,
+					["spec"] = 64,
+					["totaldamage"] = 123,
+					["name"] = "Sculamare",
+					["time"] = 3.93,
+					["flag"] = 1297,
+					["role"] = "DAMAGER",
+					["auras"] = {
+						[28878] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 5,
 						},
-						[28878] = {
+						[7300] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 5,
@@ -754,45 +1336,56 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 5,
 						},
+						[205] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 16,
+							["refresh"] = 2,
+							["targets"] = {
+								["Kobold Miner"] = {
+									["refresh"] = 2,
+									["count"] = 1,
+									["uptime"] = 3,
+								},
+							},
+							["uptime"] = 3,
+						},
 					},
-					["totaldamage"] = 123,
-					["role"] = "DAMAGER",
-					["name"] = "Sculamare",
-					["flag"] = 1297,
-					["time"] = 3.93,
 					["damage"] = 123,
 				}, -- [1]
 			},
-			["type"] = "none",
-			["overkill"] = 3,
-			["edamagetaken"] = 123,
-			["damage"] = 123,
-			["name"] = "Kobold Miner (16)",
-			["mobname"] = "Kobold Miner",
-			["starttime"] = 1689461341,
+			["time"] = 5,
 			["last_action"] = 1689461346,
 			["endtime"] = 1689461346,
-		}, -- [5]
+			["overkill"] = 3,
+			["edamagetaken"] = 123,
+			["totaldamage"] = 123,
+			["name"] = "Kobold Miner (16)",
+			["mobname"] = "Kobold Miner",
+			["damage"] = 123,
+			["etotaldamagetaken"] = 123,
+			["last_time"] = 13551.809,
+		}, -- [9]
 		{
 			["enemies"] = {
 				{
-					["id"] = "0xF1300000281FDE92",
 					["name"] = "Kobold Miner",
-					["totaldamagetaken"] = 143,
+					["damagetaken"] = 143,
+					["id"] = "0xF1300000281FDE92",
 					["flag"] = 68168,
 					["class"] = "MONSTER",
-					["damagetaken"] = 143,
+					["totaldamagetaken"] = 143,
 					["damagetakenspells"] = {
 						[205] = {
 							["school"] = 16,
 							["sources"] = {
 								["Sculamare"] = {
-									["overkill"] = 6,
 									["amount"] = 143,
+									["overkill"] = 6,
 								},
 							},
-							["overkill"] = 6,
 							["amount"] = 143,
+							["overkill"] = 6,
 						},
 					},
 				}, -- [1]
@@ -804,52 +1397,14 @@ SkadaStorageDB = {
 			["last_time"] = 13538.75,
 			["players"] = {
 				{
-					["last"] = 13538.726,
-					["flag"] = 1297,
-					["class"] = "MAGE",
-					["auras"] = {
-						[205] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 16,
-							["refresh"] = 2,
-							["targets"] = {
-								["Kobold Miner"] = {
-									["count"] = 1,
-									["refresh"] = 2,
-									["uptime"] = 6,
-								},
-							},
-							["uptime"] = 6,
-						},
-						[7300] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 7,
-						},
-						[28878] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 7,
-						},
-						[1459] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 7,
-						},
-					},
-					["role"] = "DAMAGER",
-					["time"] = 5.82,
-					["totaldamagetaken"] = 0,
-					["damage"] = 143,
 					["damagespells"] = {
 						["Frostbolt"] = {
 							["hitmin"] = 34,
 							["id"] = 205,
 							["targets"] = {
 								["Kobold Miner"] = {
-									["overkill"] = 6,
 									["amount"] = 143,
+									["overkill"] = 6,
 								},
 							},
 							["overkill"] = 6,
@@ -862,9 +1417,46 @@ SkadaStorageDB = {
 							["hitamount"] = 143,
 						},
 					},
+					["last"] = 13538.726,
 					["damagetaken"] = 0,
 					["id"] = "0x0700000000976299",
-					["spec"] = 64,
+					["flag"] = 1297,
+					["class"] = "MAGE",
+					["role"] = "DAMAGER",
+					["auras"] = {
+						[28878] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 7,
+						},
+						[7300] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 7,
+						},
+						[1459] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 7,
+						},
+						[205] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 16,
+							["refresh"] = 2,
+							["targets"] = {
+								["Kobold Miner"] = {
+									["refresh"] = 2,
+									["count"] = 1,
+									["uptime"] = 6,
+								},
+							},
+							["uptime"] = 6,
+						},
+					},
+					["name"] = "Sculamare",
+					["totaldamage"] = 143,
+					["time"] = 5.82,
 					["damagetakenspells"] = {
 						["Melee"] = {
 							["sources"] = {
@@ -879,22 +1471,23 @@ SkadaStorageDB = {
 							["id"] = 6603,
 						},
 					},
-					["name"] = "Sculamare",
+					["spec"] = 64,
+					["totaldamagetaken"] = 0,
 					["overkill"] = 6,
-					["totaldamage"] = 143,
+					["damage"] = 143,
 				}, -- [1]
 			},
 			["type"] = "none",
 			["damagetaken"] = 0,
 			["overkill"] = 6,
 			["edamagetaken"] = 143,
-			["damage"] = 143,
 			["name"] = "Kobold Miner (15)",
 			["mobname"] = "Kobold Miner",
+			["damage"] = 143,
 			["starttime"] = 1689461327,
 			["last_action"] = 1689461333,
 			["endtime"] = 1689461334,
-		}, -- [6]
+		}, -- [10]
 		{
 			["enemies"] = {
 				{
@@ -917,12 +1510,12 @@ SkadaStorageDB = {
 							["school"] = 16,
 							["sources"] = {
 								["Sculamare"] = {
-									["overkill"] = 5,
 									["amount"] = 107,
+									["overkill"] = 5,
 								},
 							},
-							["overkill"] = 5,
 							["amount"] = 107,
+							["overkill"] = 5,
 						},
 					},
 					["totaldamage"] = 6,
@@ -939,65 +1532,14 @@ SkadaStorageDB = {
 			["last_time"] = 13500.018,
 			["players"] = {
 				{
-					["last"] = 13498.478,
-					["flag"] = 1297,
-					["class"] = "MAGE",
-					["auras"] = {
-						[205] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 16,
-							["refresh"] = 1,
-							["targets"] = {
-								["Kobold Tunneler"] = {
-									["count"] = 1,
-									["refresh"] = 1,
-									["uptime"] = 3,
-								},
-							},
-							["uptime"] = 3,
-						},
-						[28878] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 8,
-						},
-						[6136] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 16,
-							["refresh"] = 1,
-							["targets"] = {
-								["Kobold Tunneler"] = {
-									["count"] = 1,
-									["refresh"] = 1,
-									["uptime"] = 4,
-								},
-							},
-							["uptime"] = 4,
-						},
-						[1459] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 8,
-						},
-						[7300] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 8,
-						},
-					},
-					["time"] = 6.15,
-					["totaldamagetaken"] = 6,
-					["damage"] = 107,
 					["damagespells"] = {
 						["Frostbolt"] = {
 							["hitmin"] = 34,
 							["id"] = 205,
 							["targets"] = {
 								["Kobold Tunneler"] = {
-									["overkill"] = 5,
 									["amount"] = 107,
+									["overkill"] = 5,
 								},
 							},
 							["overkill"] = 5,
@@ -1010,9 +1552,16 @@ SkadaStorageDB = {
 							["hitamount"] = 107,
 						},
 					},
+					["last"] = 13498.478,
 					["damagetaken"] = 6,
 					["id"] = "0x0700000000976299",
-					["spec"] = 64,
+					["flag"] = 1297,
+					["class"] = "MAGE",
+					["totaldamage"] = 107,
+					["overkill"] = 5,
+					["name"] = "Sculamare",
+					["role"] = "DAMAGER",
+					["time"] = 6.15,
 					["damagetakenspells"] = {
 						["Melee"] = {
 							["hitmin"] = 3,
@@ -1030,10 +1579,54 @@ SkadaStorageDB = {
 							["hitamount"] = 6,
 						},
 					},
-					["name"] = "Sculamare",
-					["overkill"] = 5,
-					["totaldamage"] = 107,
-					["role"] = "DAMAGER",
+					["spec"] = 64,
+					["totaldamagetaken"] = 6,
+					["auras"] = {
+						[205] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 16,
+							["refresh"] = 1,
+							["targets"] = {
+								["Kobold Tunneler"] = {
+									["refresh"] = 1,
+									["count"] = 1,
+									["uptime"] = 3,
+								},
+							},
+							["uptime"] = 3,
+						},
+						[28878] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 8,
+						},
+						[6136] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 16,
+							["refresh"] = 1,
+							["targets"] = {
+								["Kobold Tunneler"] = {
+									["refresh"] = 1,
+									["count"] = 1,
+									["uptime"] = 4,
+								},
+							},
+							["uptime"] = 4,
+						},
+						[1459] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 8,
+						},
+						[7300] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 8,
+						},
+					},
+					["damage"] = 107,
 				}, -- [1]
 			},
 			["type"] = "none",
@@ -1048,27 +1641,29 @@ SkadaStorageDB = {
 			["edamage"] = 6,
 			["last_action"] = 1689461294,
 			["endtime"] = 1689461294,
-		}, -- [7]
+		}, -- [11]
 		{
+			["starttime"] = 1689461224,
+			["type"] = "none",
 			["enemies"] = {
 				{
-					["id"] = "0xF1300001DB1FE2EC",
 					["name"] = "Kobold Tunneler",
-					["totaldamagetaken"] = 130,
+					["damagetaken"] = 130,
+					["id"] = "0xF1300001DB1FE2EC",
 					["flag"] = 68168,
 					["class"] = "MONSTER",
-					["damagetaken"] = 130,
+					["totaldamagetaken"] = 130,
 					["damagetakenspells"] = {
 						[205] = {
 							["school"] = 16,
 							["sources"] = {
 								["Sculamare"] = {
-									["overkill"] = 10,
 									["amount"] = 113,
+									["overkill"] = 10,
 								},
 							},
-							["overkill"] = 10,
 							["amount"] = 113,
+							["overkill"] = 10,
 						},
 						[2136] = {
 							["school"] = 4,
@@ -1082,37 +1677,16 @@ SkadaStorageDB = {
 					},
 				}, -- [1]
 			},
-			["totaldamage"] = 130,
-			["time"] = 5,
-			["etotaldamagetaken"] = 130,
-			["last_time"] = 13434.336,
 			["players"] = {
 				{
 					["damagespells"] = {
-						["Fire Blast"] = {
-							["hitmin"] = 17,
-							["id"] = 2136,
-							["targets"] = {
-								["Kobold Tunneler"] = {
-									["amount"] = 17,
-								},
-							},
-							["hitmax"] = 17,
-							["casts"] = 1,
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 4,
-							["resisted"] = 11,
-							["amount"] = 17,
-							["hitamount"] = 17,
-						},
 						["Frostbolt"] = {
 							["hitmin"] = 37,
 							["id"] = 205,
 							["targets"] = {
 								["Kobold Tunneler"] = {
-									["overkill"] = 10,
 									["amount"] = 113,
+									["overkill"] = 10,
 								},
 							},
 							["overkill"] = 10,
@@ -1124,13 +1698,50 @@ SkadaStorageDB = {
 							["amount"] = 113,
 							["hitamount"] = 113,
 						},
+						["Fire Blast"] = {
+							["hitmin"] = 17,
+							["id"] = 2136,
+							["targets"] = {
+								["Kobold Tunneler"] = {
+									["amount"] = 17,
+								},
+							},
+							["count"] = 1,
+							["casts"] = 1,
+							["hitmax"] = 17,
+							["hit"] = 1,
+							["school"] = 4,
+							["resisted"] = 11,
+							["amount"] = 17,
+							["hitamount"] = 17,
+						},
 					},
 					["last"] = 13433.936,
-					["class"] = "MAGE",
 					["id"] = "0x0700000000976299",
-					["spec"] = 64,
+					["class"] = "MAGE",
 					["overkill"] = 10,
+					["spec"] = 64,
+					["totaldamage"] = 130,
+					["name"] = "Sculamare",
+					["time"] = 3.83,
+					["flag"] = 1297,
+					["role"] = "DAMAGER",
 					["auras"] = {
+						[1459] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 5,
+						},
+						[7300] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 4,
+						},
+						[28878] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 5,
+						},
 						[205] = {
 							["type"] = "DEBUFF",
 							["count"] = 1,
@@ -1138,47 +1749,29 @@ SkadaStorageDB = {
 							["refresh"] = 1,
 							["targets"] = {
 								["Kobold Tunneler"] = {
-									["count"] = 1,
 									["refresh"] = 1,
+									["count"] = 1,
 									["uptime"] = 3,
 								},
 							},
 							["uptime"] = 3,
 						},
-						[7300] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 4,
-						},
-						[1459] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 5,
-						},
-						[28878] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 5,
-						},
 					},
-					["totaldamage"] = 130,
-					["role"] = "DAMAGER",
-					["name"] = "Sculamare",
-					["flag"] = 1297,
-					["time"] = 3.83,
 					["damage"] = 130,
 				}, -- [1]
 			},
-			["type"] = "none",
-			["overkill"] = 10,
-			["edamagetaken"] = 130,
-			["damage"] = 130,
-			["name"] = "Kobold Tunneler (100)",
-			["mobname"] = "Kobold Tunneler",
-			["starttime"] = 1689461224,
+			["time"] = 5,
 			["last_action"] = 1689461228,
 			["endtime"] = 1689461229,
-		}, -- [8]
+			["overkill"] = 10,
+			["edamagetaken"] = 130,
+			["totaldamage"] = 130,
+			["name"] = "Kobold Tunneler (100)",
+			["mobname"] = "Kobold Tunneler",
+			["damage"] = 130,
+			["etotaldamagetaken"] = 130,
+			["last_time"] = 13434.336,
+		}, -- [12]
 		{
 			["enemies"] = {
 				{
@@ -1201,16 +1794,16 @@ SkadaStorageDB = {
 							["school"] = 16,
 							["sources"] = {
 								["Sculamare"] = {
-									["overkill"] = 24,
 									["amount"] = 144,
+									["overkill"] = 24,
 								},
 							},
-							["overkill"] = 24,
 							["amount"] = 144,
+							["overkill"] = 24,
 						},
 					},
-					["name"] = "Kobold Tunneler",
 					["totaldamage"] = 10,
+					["name"] = "Kobold Tunneler",
 					["totaldamagetaken"] = 144,
 					["id"] = "0xF1300001DB1FE348",
 					["damage"] = 10,
@@ -1223,9 +1816,32 @@ SkadaStorageDB = {
 			["last_time"] = 13380.844,
 			["players"] = {
 				{
+					["damagespells"] = {
+						["Frostbolt"] = {
+							["hitmin"] = 33,
+							["id"] = 205,
+							["targets"] = {
+								["Kobold Tunneler"] = {
+									["amount"] = 144,
+									["overkill"] = 24,
+								},
+							},
+							["overkill"] = 24,
+							["casts"] = 3,
+							["count"] = 4,
+							["hit"] = 4,
+							["school"] = 16,
+							["hitmax"] = 38,
+							["amount"] = 144,
+							["hitamount"] = 144,
+						},
+					},
 					["last"] = 13379.786,
+					["damagetaken"] = 10,
+					["id"] = "0x0700000000976299",
 					["flag"] = 1297,
 					["class"] = "MAGE",
+					["role"] = "DAMAGER",
 					["auras"] = {
 						[205] = {
 							["type"] = "DEBUFF",
@@ -1234,8 +1850,8 @@ SkadaStorageDB = {
 							["refresh"] = 2,
 							["targets"] = {
 								["Kobold Tunneler"] = {
-									["count"] = 1,
 									["refresh"] = 2,
+									["count"] = 1,
 									["uptime"] = 7,
 								},
 							},
@@ -1253,8 +1869,8 @@ SkadaStorageDB = {
 							["refresh"] = 1,
 							["targets"] = {
 								["Kobold Tunneler"] = {
-									["count"] = 1,
 									["refresh"] = 1,
+									["count"] = 1,
 									["uptime"] = 4,
 								},
 							},
@@ -1271,33 +1887,9 @@ SkadaStorageDB = {
 							["uptime"] = 8,
 						},
 					},
-					["role"] = "DAMAGER",
+					["name"] = "Sculamare",
+					["totaldamage"] = 144,
 					["time"] = 6.68,
-					["totaldamagetaken"] = 10,
-					["damage"] = 144,
-					["damagespells"] = {
-						["Frostbolt"] = {
-							["hitmin"] = 33,
-							["id"] = 205,
-							["targets"] = {
-								["Kobold Tunneler"] = {
-									["overkill"] = 24,
-									["amount"] = 144,
-								},
-							},
-							["overkill"] = 24,
-							["casts"] = 3,
-							["count"] = 4,
-							["hit"] = 4,
-							["school"] = 16,
-							["hitmax"] = 38,
-							["amount"] = 144,
-							["hitamount"] = 144,
-						},
-					},
-					["damagetaken"] = 10,
-					["id"] = "0x0700000000976299",
-					["spec"] = 64,
 					["damagetakenspells"] = {
 						["Melee"] = {
 							["hitmin"] = 5,
@@ -1315,24 +1907,25 @@ SkadaStorageDB = {
 							["hitamount"] = 10,
 						},
 					},
-					["name"] = "Sculamare",
+					["spec"] = 64,
+					["totaldamagetaken"] = 10,
 					["overkill"] = 24,
-					["totaldamage"] = 144,
+					["damage"] = 144,
 				}, -- [1]
 			},
 			["type"] = "none",
 			["damagetaken"] = 10,
 			["damage"] = 144,
-			["etotaldamage"] = 10,
 			["overkill"] = 24,
 			["edamagetaken"] = 144,
+			["etotaldamage"] = 10,
 			["name"] = "Kobold Tunneler (99)",
 			["mobname"] = "Kobold Tunneler",
 			["starttime"] = 1689461167,
 			["edamage"] = 10,
 			["last_action"] = 1689461175,
 			["endtime"] = 1689461175,
-		}, -- [9]
+		}, -- [13]
 		{
 			["enemies"] = {
 				{
@@ -1364,12 +1957,12 @@ SkadaStorageDB = {
 							["school"] = 16,
 							["sources"] = {
 								["Sculamare"] = {
-									["overkill"] = 16,
 									["amount"] = 107,
+									["overkill"] = 16,
 								},
 							},
-							["overkill"] = 16,
 							["amount"] = 107,
+							["overkill"] = 16,
 						},
 					},
 					["totaldamage"] = 12,
@@ -1386,57 +1979,6 @@ SkadaStorageDB = {
 			["last_time"] = 13274.87,
 			["players"] = {
 				{
-					["last"] = 13274.188,
-					["flag"] = 1297,
-					["class"] = "MAGE",
-					["auras"] = {
-						[205] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 16,
-							["refresh"] = 1,
-							["targets"] = {
-								["Kobold Tunneler"] = {
-									["count"] = 1,
-									["refresh"] = 1,
-									["uptime"] = 5,
-								},
-							},
-							["uptime"] = 5,
-						},
-						[28878] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 12,
-						},
-						[6136] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 16,
-							["refresh"] = 3,
-							["targets"] = {
-								["Kobold Tunneler"] = {
-									["count"] = 1,
-									["refresh"] = 3,
-									["uptime"] = 9,
-								},
-							},
-							["uptime"] = 9,
-						},
-						[1459] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 12,
-						},
-						[7300] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 12,
-						},
-					},
-					["time"] = 10.19,
-					["totaldamagetaken"] = 12,
-					["damage"] = 118,
 					["damagespells"] = {
 						["Melee"] = {
 							["hitmin"] = 11,
@@ -1458,8 +2000,8 @@ SkadaStorageDB = {
 							["id"] = 205,
 							["targets"] = {
 								["Kobold Tunneler"] = {
-									["overkill"] = 16,
 									["amount"] = 107,
+									["overkill"] = 16,
 								},
 							},
 							["overkill"] = 16,
@@ -1472,9 +2014,16 @@ SkadaStorageDB = {
 							["hitamount"] = 107,
 						},
 					},
+					["last"] = 13274.188,
 					["damagetaken"] = 12,
 					["id"] = "0x0700000000976299",
-					["spec"] = 64,
+					["flag"] = 1297,
+					["class"] = "MAGE",
+					["totaldamage"] = 118,
+					["overkill"] = 16,
+					["name"] = "Sculamare",
+					["role"] = "DAMAGER",
+					["time"] = 10.19,
 					["damagetakenspells"] = {
 						["Melee"] = {
 							["hitmin"] = 3,
@@ -1492,10 +2041,54 @@ SkadaStorageDB = {
 							["hitamount"] = 12,
 						},
 					},
-					["name"] = "Sculamare",
-					["overkill"] = 16,
-					["totaldamage"] = 118,
-					["role"] = "DAMAGER",
+					["spec"] = 64,
+					["totaldamagetaken"] = 12,
+					["auras"] = {
+						[205] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 16,
+							["refresh"] = 1,
+							["targets"] = {
+								["Kobold Tunneler"] = {
+									["refresh"] = 1,
+									["count"] = 1,
+									["uptime"] = 5,
+								},
+							},
+							["uptime"] = 5,
+						},
+						[28878] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 12,
+						},
+						[6136] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 16,
+							["refresh"] = 3,
+							["targets"] = {
+								["Kobold Tunneler"] = {
+									["refresh"] = 3,
+									["count"] = 1,
+									["uptime"] = 9,
+								},
+							},
+							["uptime"] = 9,
+						},
+						[1459] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 12,
+						},
+						[7300] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 12,
+						},
+					},
+					["damage"] = 118,
 				}, -- [1]
 			},
 			["type"] = "none",
@@ -1510,7 +2103,7 @@ SkadaStorageDB = {
 			["edamage"] = 12,
 			["last_action"] = 1689461069,
 			["endtime"] = 1689461070,
-		}, -- [10]
+		}, -- [14]
 		{
 			["enemies"] = {
 				{
@@ -1533,12 +2126,12 @@ SkadaStorageDB = {
 							["school"] = 16,
 							["sources"] = {
 								["Sculamare"] = {
-									["overkill"] = 5,
 									["amount"] = 109,
+									["overkill"] = 5,
 								},
 							},
-							["overkill"] = 5,
 							["amount"] = 109,
+							["overkill"] = 5,
 						},
 						[2136] = {
 							["school"] = 4,
@@ -1564,82 +2157,14 @@ SkadaStorageDB = {
 			["last_time"] = 13246.188,
 			["players"] = {
 				{
-					["last"] = 13246.156,
-					["flag"] = 1297,
-					["class"] = "MAGE",
-					["auras"] = {
-						[205] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 16,
-							["refresh"] = 1,
-							["targets"] = {
-								["Kobold Tunneler"] = {
-									["count"] = 1,
-									["refresh"] = 1,
-									["uptime"] = 4,
-								},
-							},
-							["uptime"] = 4,
-						},
-						[28878] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 9,
-						},
-						[6136] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 16,
-							["refresh"] = 2,
-							["targets"] = {
-								["Kobold Tunneler"] = {
-									["count"] = 1,
-									["refresh"] = 2,
-									["uptime"] = 7,
-								},
-							},
-							["uptime"] = 7,
-						},
-						[1459] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 9,
-						},
-						[7300] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 9,
-						},
-					},
-					["time"] = 7.46,
-					["totaldamagetaken"] = 13,
-					["damage"] = 125,
 					["damagespells"] = {
-						["Fire Blast"] = {
-							["hitmin"] = 16,
-							["id"] = 2136,
-							["targets"] = {
-								["Kobold Tunneler"] = {
-									["amount"] = 16,
-								},
-							},
-							["hitmax"] = 16,
-							["casts"] = 1,
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 4,
-							["resisted"] = 16,
-							["amount"] = 16,
-							["hitamount"] = 16,
-						},
 						["Frostbolt"] = {
 							["hitmin"] = 33,
 							["id"] = 205,
 							["targets"] = {
 								["Kobold Tunneler"] = {
-									["overkill"] = 5,
 									["amount"] = 109,
+									["overkill"] = 5,
 								},
 							},
 							["overkill"] = 5,
@@ -1651,10 +2176,34 @@ SkadaStorageDB = {
 							["amount"] = 109,
 							["hitamount"] = 109,
 						},
+						["Fire Blast"] = {
+							["hitmin"] = 16,
+							["id"] = 2136,
+							["targets"] = {
+								["Kobold Tunneler"] = {
+									["amount"] = 16,
+								},
+							},
+							["count"] = 1,
+							["casts"] = 1,
+							["hitmax"] = 16,
+							["hit"] = 1,
+							["school"] = 4,
+							["resisted"] = 16,
+							["amount"] = 16,
+							["hitamount"] = 16,
+						},
 					},
+					["last"] = 13246.156,
 					["damagetaken"] = 13,
 					["id"] = "0x0700000000976299",
-					["spec"] = 64,
+					["flag"] = 1297,
+					["class"] = "MAGE",
+					["totaldamage"] = 125,
+					["overkill"] = 5,
+					["name"] = "Sculamare",
+					["role"] = "DAMAGER",
+					["time"] = 7.46,
 					["damagetakenspells"] = {
 						["Melee"] = {
 							["hitmin"] = 4,
@@ -1672,10 +2221,54 @@ SkadaStorageDB = {
 							["hitamount"] = 13,
 						},
 					},
-					["name"] = "Sculamare",
-					["overkill"] = 5,
-					["totaldamage"] = 125,
-					["role"] = "DAMAGER",
+					["spec"] = 64,
+					["totaldamagetaken"] = 13,
+					["auras"] = {
+						[205] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 16,
+							["refresh"] = 1,
+							["targets"] = {
+								["Kobold Tunneler"] = {
+									["refresh"] = 1,
+									["count"] = 1,
+									["uptime"] = 4,
+								},
+							},
+							["uptime"] = 4,
+						},
+						[28878] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 9,
+						},
+						[6136] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 16,
+							["refresh"] = 2,
+							["targets"] = {
+								["Kobold Tunneler"] = {
+									["refresh"] = 2,
+									["count"] = 1,
+									["uptime"] = 7,
+								},
+							},
+							["uptime"] = 7,
+						},
+						[1459] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 9,
+						},
+						[7300] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 9,
+						},
+					},
+					["damage"] = 125,
 				}, -- [1]
 			},
 			["type"] = "none",
@@ -1690,559 +2283,35 @@ SkadaStorageDB = {
 			["edamage"] = 13,
 			["last_action"] = 1689461040,
 			["endtime"] = 1689461041,
-		}, -- [11]
-		{
-			["enemies"] = {
-				{
-					["id"] = "0xF1300001DB1FDE0B",
-					["name"] = "Kobold Tunneler",
-					["totaldamagetaken"] = 109,
-					["flag"] = 68168,
-					["class"] = "MONSTER",
-					["damagetaken"] = 109,
-					["damagetakenspells"] = {
-						[205] = {
-							["school"] = 16,
-							["sources"] = {
-								["Sculamare"] = {
-									["overkill"] = 7,
-									["amount"] = 109,
-								},
-							},
-							["overkill"] = 7,
-							["amount"] = 109,
-						},
-					},
-				}, -- [1]
-			},
-			["totaldamage"] = 109,
-			["time"] = 9,
-			["etotaldamagetaken"] = 109,
-			["last_time"] = 13230.8,
-			["players"] = {
-				{
-					["damagespells"] = {
-						["Frostbolt"] = {
-							["hitmin"] = 35,
-							["id"] = 205,
-							["targets"] = {
-								["Kobold Tunneler"] = {
-									["overkill"] = 7,
-									["amount"] = 109,
-								},
-							},
-							["overkill"] = 7,
-							["casts"] = 2,
-							["count"] = 3,
-							["hit"] = 3,
-							["school"] = 16,
-							["hitmax"] = 38,
-							["amount"] = 109,
-							["hitamount"] = 109,
-						},
-					},
-					["last"] = 13229.53,
-					["class"] = "MAGE",
-					["id"] = "0x0700000000976299",
-					["spec"] = 64,
-					["overkill"] = 7,
-					["auras"] = {
-						[205] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 16,
-							["refresh"] = 1,
-							["targets"] = {
-								["Kobold Tunneler"] = {
-									["count"] = 1,
-									["refresh"] = 1,
-									["uptime"] = 6,
-								},
-							},
-							["uptime"] = 6,
-						},
-						[7300] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 9,
-						},
-						[1459] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 9,
-						},
-						[28878] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 9,
-						},
-					},
-					["totaldamage"] = 109,
-					["role"] = "DAMAGER",
-					["name"] = "Sculamare",
-					["flag"] = 1297,
-					["time"] = 6.42,
-					["damage"] = 109,
-				}, -- [1]
-			},
-			["type"] = "none",
-			["overkill"] = 7,
-			["edamagetaken"] = 109,
-			["damage"] = 109,
-			["name"] = "Kobold Tunneler (96)",
-			["mobname"] = "Kobold Tunneler",
-			["starttime"] = 1689461016,
-			["last_action"] = 1689461025,
-			["endtime"] = 1689461025,
-		}, -- [12]
-		{
-			["enemies"] = {
-				{
-					["damagespells"] = {
-						[6603] = {
-							["school"] = 1,
-							["targets"] = {
-								["Sculamare"] = {
-									["amount"] = 17,
-								},
-							},
-							["amount"] = 17,
-						},
-					},
-					["damagetaken"] = 138,
-					["id"] = "0xF1300001DB1FDAA7",
-					["class"] = "MONSTER",
-					["damagetakenspells"] = {
-						[205] = {
-							["school"] = 16,
-							["sources"] = {
-								["Sculamare"] = {
-									["overkill"] = 18,
-									["amount"] = 138,
-								},
-							},
-							["overkill"] = 18,
-							["amount"] = 138,
-						},
-					},
-					["totaldamage"] = 17,
-					["name"] = "Kobold Tunneler",
-					["totaldamagetaken"] = 138,
-					["flag"] = 68168,
-					["damage"] = 17,
-				}, -- [1]
-			},
-			["totaldamage"] = 138,
-			["time"] = 10,
-			["totaldamagetaken"] = 17,
-			["etotaldamage"] = 17,
-			["last_time"] = 13215.647,
-			["players"] = {
-				{
-					["last"] = 13214.889,
-					["flag"] = 1297,
-					["class"] = "MAGE",
-					["auras"] = {
-						[205] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 16,
-							["refresh"] = 2,
-							["targets"] = {
-								["Kobold Tunneler"] = {
-									["count"] = 1,
-									["refresh"] = 2,
-									["uptime"] = 7,
-								},
-							},
-							["uptime"] = 7,
-						},
-						[28878] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 10,
-						},
-						[6136] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 16,
-							["refresh"] = 3,
-							["targets"] = {
-								["Kobold Tunneler"] = {
-									["count"] = 1,
-									["refresh"] = 3,
-									["uptime"] = 8,
-								},
-							},
-							["uptime"] = 8,
-						},
-						[1459] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 10,
-						},
-						[7300] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 10,
-						},
-					},
-					["time"] = 8.209999999999999,
-					["totaldamagetaken"] = 17,
-					["damage"] = 138,
-					["damagespells"] = {
-						["Frostbolt"] = {
-							["hitmin"] = 33,
-							["id"] = 205,
-							["targets"] = {
-								["Kobold Tunneler"] = {
-									["overkill"] = 18,
-									["amount"] = 138,
-								},
-							},
-							["overkill"] = 18,
-							["casts"] = 3,
-							["count"] = 4,
-							["hit"] = 4,
-							["school"] = 16,
-							["hitmax"] = 37,
-							["amount"] = 138,
-							["hitamount"] = 138,
-						},
-					},
-					["damagetaken"] = 17,
-					["id"] = "0x0700000000976299",
-					["spec"] = 64,
-					["damagetakenspells"] = {
-						["Melee"] = {
-							["hitmin"] = 4,
-							["id"] = 6603,
-							["sources"] = {
-								["Kobold Tunneler"] = {
-									["amount"] = 17,
-								},
-							},
-							["count"] = 4,
-							["hit"] = 4,
-							["school"] = 1,
-							["hitmax"] = 5,
-							["amount"] = 17,
-							["hitamount"] = 17,
-						},
-					},
-					["name"] = "Sculamare",
-					["overkill"] = 18,
-					["totaldamage"] = 138,
-					["role"] = "DAMAGER",
-				}, -- [1]
-			},
-			["type"] = "none",
-			["damagetaken"] = 17,
-			["damage"] = 138,
-			["overkill"] = 18,
-			["edamagetaken"] = 138,
-			["etotaldamagetaken"] = 138,
-			["name"] = "Kobold Tunneler (95)",
-			["mobname"] = "Kobold Tunneler",
-			["starttime"] = 1689461000,
-			["edamage"] = 17,
-			["last_action"] = 1689461009,
-			["endtime"] = 1689461010,
-		}, -- [13]
-		{
-			["enemies"] = {
-				{
-					["damagespells"] = {
-						[6603] = {
-							["school"] = 1,
-							["targets"] = {
-								["Sculamare"] = {
-									["amount"] = 9,
-								},
-							},
-							["amount"] = 9,
-						},
-					},
-					["damagetaken"] = 238,
-					["flag"] = 68168,
-					["class"] = "MONSTER",
-					["damagetakenspells"] = {
-						[205] = {
-							["school"] = 16,
-							["sources"] = {
-								["Sculamare"] = {
-									["overkill"] = 16,
-									["amount"] = 238,
-								},
-							},
-							["overkill"] = 16,
-							["amount"] = 238,
-						},
-					},
-					["name"] = "Kobold Tunneler",
-					["totaldamage"] = 9,
-					["totaldamagetaken"] = 238,
-					["id"] = "0xF1300001DB1FDB17",
-					["damage"] = 9,
-				}, -- [1]
-			},
-			["totaldamage"] = 238,
-			["time"] = 12,
-			["totaldamagetaken"] = 9,
-			["etotaldamagetaken"] = 238,
-			["last_time"] = 13202.063,
-			["players"] = {
-				{
-					["last"] = 13201.138,
-					["flag"] = 1297,
-					["class"] = "MAGE",
-					["auras"] = {
-						[205] = {
-							["type"] = "DEBUFF",
-							["count"] = 2,
-							["school"] = 16,
-							["refresh"] = 2,
-							["targets"] = {
-								["Kobold Tunneler"] = {
-									["count"] = 2,
-									["refresh"] = 2,
-									["uptime"] = 8,
-								},
-							},
-							["uptime"] = 8,
-						},
-						[28878] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 12,
-						},
-						[6136] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 16,
-							["refresh"] = 2,
-							["targets"] = {
-								["Kobold Tunneler"] = {
-									["count"] = 1,
-									["refresh"] = 2,
-									["uptime"] = 6,
-								},
-							},
-							["uptime"] = 6,
-						},
-						[1459] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 12,
-						},
-						[7300] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 12,
-						},
-					},
-					["time"] = 10.48,
-					["totaldamagetaken"] = 9,
-					["damage"] = 238,
-					["damagespells"] = {
-						["Frostbolt"] = {
-							["criticalmax"] = 55,
-							["hitmin"] = 35,
-							["criticalamount"] = 55,
-							["id"] = 205,
-							["criticalmin"] = 55,
-							["targets"] = {
-								["Kobold Tunneler"] = {
-									["overkill"] = 16,
-									["amount"] = 238,
-								},
-							},
-							["overkill"] = 16,
-							["critical"] = 1,
-							["casts"] = 5,
-							["count"] = 6,
-							["hit"] = 5,
-							["school"] = 16,
-							["hitmax"] = 38,
-							["amount"] = 238,
-							["hitamount"] = 183,
-						},
-					},
-					["damagetaken"] = 9,
-					["id"] = "0x0700000000976299",
-					["spec"] = 64,
-					["overkill"] = 16,
-					["name"] = "Sculamare",
-					["damagetakenspells"] = {
-						["Melee"] = {
-							["hitmin"] = 3,
-							["id"] = 6603,
-							["sources"] = {
-								["Kobold Tunneler"] = {
-									["amount"] = 9,
-								},
-							},
-							["count"] = 3,
-							["hit"] = 3,
-							["school"] = 1,
-							["hitmax"] = 3,
-							["amount"] = 9,
-							["hitamount"] = 9,
-						},
-					},
-					["totaldamage"] = 238,
-					["role"] = "DAMAGER",
-				}, -- [1]
-			},
-			["type"] = "none",
-			["damagetaken"] = 9,
-			["damage"] = 238,
-			["etotaldamage"] = 9,
-			["overkill"] = 16,
-			["edamagetaken"] = 238,
-			["name"] = "Kobold Tunneler (94)",
-			["mobname"] = "Kobold Tunneler",
-			["starttime"] = 1689460984,
-			["edamage"] = 9,
-			["last_action"] = 1689460996,
-			["endtime"] = 1689460996,
-		}, -- [14]
-		{
-			["enemies"] = {
-				{
-					["id"] = "0xF1300001DB1FD927",
-					["name"] = "Kobold Tunneler",
-					["totaldamagetaken"] = 126,
-					["flag"] = 68168,
-					["class"] = "MONSTER",
-					["damagetaken"] = 126,
-					["damagetakenspells"] = {
-						[205] = {
-							["school"] = 16,
-							["sources"] = {
-								["Sculamare"] = {
-									["overkill"] = 24,
-									["amount"] = 126,
-								},
-							},
-							["overkill"] = 24,
-							["amount"] = 126,
-						},
-					},
-				}, -- [1]
-			},
-			["totaldamage"] = 126,
-			["time"] = 5,
-			["etotaldamagetaken"] = 126,
-			["last_time"] = 13186.006,
-			["players"] = {
-				{
-					["damagespells"] = {
-						["Frostbolt"] = {
-							["criticalmax"] = 51,
-							["hitmin"] = 37,
-							["criticalamount"] = 51,
-							["id"] = 205,
-							["criticalmin"] = 51,
-							["targets"] = {
-								["Kobold Tunneler"] = {
-									["overkill"] = 24,
-									["amount"] = 126,
-								},
-							},
-							["overkill"] = 24,
-							["critical"] = 1,
-							["casts"] = 2,
-							["count"] = 3,
-							["hit"] = 2,
-							["school"] = 16,
-							["hitmax"] = 38,
-							["amount"] = 126,
-							["hitamount"] = 75,
-						},
-					},
-					["last"] = 13185.972,
-					["class"] = "MAGE",
-					["id"] = "0x0700000000976299",
-					["spec"] = 64,
-					["overkill"] = 24,
-					["auras"] = {
-						[205] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 16,
-							["refresh"] = 1,
-							["targets"] = {
-								["Kobold Tunneler"] = {
-									["count"] = 1,
-									["refresh"] = 1,
-									["uptime"] = 3,
-								},
-							},
-							["uptime"] = 3,
-						},
-						[7300] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 5,
-						},
-						[1459] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 5,
-						},
-						[28878] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 5,
-						},
-					},
-					["totaldamage"] = 126,
-					["role"] = "DAMAGER",
-					["name"] = "Sculamare",
-					["flag"] = 1297,
-					["time"] = 3.89,
-					["damage"] = 126,
-				}, -- [1]
-			},
-			["type"] = "none",
-			["overkill"] = 24,
-			["edamagetaken"] = 126,
-			["damage"] = 126,
-			["name"] = "Kobold Tunneler (93)",
-			["mobname"] = "Kobold Tunneler",
-			["starttime"] = 1689460976,
-			["last_action"] = 1689460980,
-			["endtime"] = 1689460981,
 		}, -- [15]
 	},
 	["version"] = 1878,
 	["total"] = {
 		["starttime"] = 1689456647,
-		["damagetaken"] = 1416,
-		["overkill"] = 2191,
+		["damagetaken"] = 1434,
+		["overkill"] = 2227,
 		["players"] = {
 			{
-				["damagetaken"] = 1416,
+				["damagetaken"] = 1434,
 				["flag"] = 1297,
-				["id"] = "0x0700000000976299",
 				["class"] = "MAGE",
-				["name"] = "Sculamare",
-				["overkill"] = 2191,
-				["totaldamage"] = 25195,
-				["role"] = "DAMAGER",
-				["time"] = 1112.67,
-				["ccdone"] = 20,
-				["totaldamagetaken"] = 1416,
+				["id"] = "0x0700000000976299",
+				["overkill"] = 2227,
 				["spec"] = 64,
-				["damage"] = 25195,
+				["role"] = "DAMAGER",
+				["name"] = "Sculamare",
+				["ccdone"] = 20,
+				["time"] = 1133.14,
+				["totaldamagetaken"] = 1434,
+				["totaldamage"] = 25693,
+				["damage"] = 25693,
 			}, -- [1]
 		},
-		["totaldamage"] = 25195,
+		["totaldamage"] = 25693,
 		["name"] = "Total",
 		["ccdone"] = 20,
-		["totaldamagetaken"] = 1416,
-		["time"] = 1533,
-		["damage"] = 25195,
+		["totaldamagetaken"] = 1434,
+		["time"] = 1562,
+		["damage"] = 25693,
 	},
 }
