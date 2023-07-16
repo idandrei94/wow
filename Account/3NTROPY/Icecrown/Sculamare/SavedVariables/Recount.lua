@@ -5,56 +5,56 @@ RecountPerCharDB = {
 		["Sculamare"] = {
 			["GUID"] = "0x0700000000976299",
 			["LastEventHealth"] = {
-				"182 (76%)", -- [1]
-				"182 (76%)", -- [2]
-				"175 (73%)", -- [3]
-				"183 (77%)", -- [4]
-				"183 (77%)", -- [5]
-				"183 (77%)", -- [6]
-				"183 (77%)", -- [7]
-				"183 (77%)", -- [8]
-				"216 (91%)", -- [9]
-				"216 (91%)", -- [10]
-				"216 (91%)", -- [11]
-				"237 (100%)", -- [12]
-				"237 (100%)", -- [13]
-				"237 (100%)", -- [14]
-				"237 (100%)", -- [15]
-				"237 (100%)", -- [16]
-				"237 (100%)", -- [17]
-				"237 (100%)", -- [18]
-				"237 (100%)", -- [19]
-				"237 (100%)", -- [20]
-				"233 (98%)", -- [21]
-				"233 (98%)", -- [22]
-				"233 (98%)", -- [23]
-				"237 (100%)", -- [24]
-				"237 (100%)", -- [25]
-				"237 (100%)", -- [26]
-				"237 (100%)", -- [27]
-				"237 (100%)", -- [28]
-				"237 (100%)", -- [29]
-				"237 (100%)", -- [30]
-				"237 (100%)", -- [31]
-				"232 (97%)", -- [32]
-				"232 (97%)", -- [33]
-				"228 (96%)", -- [34]
-				"228 (96%)", -- [35]
-				"228 (96%)", -- [36]
-				"223 (94%)", -- [37]
-				"230 (97%)", -- [38]
-				"230 (97%)", -- [39]
-				"224 (94%)", -- [40]
-				"224 (94%)", -- [41]
-				"224 (94%)", -- [42]
-				"217 (91%)", -- [43]
-				"217 (91%)", -- [44]
-				"203 (85%)", -- [45]
-				"196 (82%)", -- [46]
-				"196 (82%)", -- [47]
-				"196 (82%)", -- [48]
-				"189 (79%)", -- [49]
-				"189 (79%)", -- [50]
+				"276 (97%)", -- [1]
+				"273 (96%)", -- [2]
+				"273 (96%)", -- [3]
+				"270 (95%)", -- [4]
+				"282 (100%)", -- [5]
+				"282 (100%)", -- [6]
+				"282 (100%)", -- [7]
+				"282 (100%)", -- [8]
+				"282 (100%)", -- [9]
+				"282 (100%)", -- [10]
+				"259 (97%)", -- [11]
+				"255 (95%)", -- [12]
+				"248 (92%)", -- [13]
+				"248 (92%)", -- [14]
+				"248 (92%)", -- [15]
+				"248 (92%)", -- [16]
+				"248 (92%)", -- [17]
+				"248 (92%)", -- [18]
+				"248 (92%)", -- [19]
+				"248 (92%)", -- [20]
+				"248 (92%)", -- [21]
+				"248 (92%)", -- [22]
+				"248 (92%)", -- [23]
+				"267 (100%)", -- [24]
+				"267 (100%)", -- [25]
+				"267 (100%)", -- [26]
+				"267 (100%)", -- [27]
+				"260 (97%)", -- [28]
+				"260 (97%)", -- [29]
+				"257 (96%)", -- [30]
+				"257 (96%)", -- [31]
+				"253 (94%)", -- [32]
+				"253 (94%)", -- [33]
+				"253 (94%)", -- [34]
+				"248 (92%)", -- [35]
+				"248 (92%)", -- [36]
+				"265 (99%)", -- [37]
+				"265 (99%)", -- [38]
+				"261 (97%)", -- [39]
+				"261 (97%)", -- [40]
+				"256 (95%)", -- [41]
+				"252 (94%)", -- [42]
+				"252 (94%)", -- [43]
+				"252 (94%)", -- [44]
+				"282 (100%)", -- [45]
+				"282 (100%)", -- [46]
+				"282 (100%)", -- [47]
+				"279 (98%)", -- [48]
+				"279 (98%)", -- [49]
+				"276 (97%)", -- [50]
 			},
 			["LastAttackedBy"] = "Kobold Tunneler",
 			["LastEventType"] = {
@@ -63,17 +63,17 @@ RecountPerCharDB = {
 				"DAMAGE", -- [3]
 				"DAMAGE", -- [4]
 				"DAMAGE", -- [5]
-				"DAMAGE", -- [6]
-				"DAMAGE", -- [7]
-				"DAMAGE", -- [8]
-				"DAMAGE", -- [9]
-				"DAMAGE", -- [10]
+				"HEAL", -- [6]
+				"HEAL", -- [7]
+				"HEAL", -- [8]
+				"HEAL", -- [9]
+				"HEAL", -- [10]
 				"DAMAGE", -- [11]
-				"HEAL", -- [12]
-				"HEAL", -- [13]
-				"HEAL", -- [14]
-				"HEAL", -- [15]
-				"HEAL", -- [16]
+				"DAMAGE", -- [12]
+				"DAMAGE", -- [13]
+				"DAMAGE", -- [14]
+				"DAMAGE", -- [15]
+				"DAMAGE", -- [16]
 				"DAMAGE", -- [17]
 				"DAMAGE", -- [18]
 				"DAMAGE", -- [19]
@@ -111,301 +111,764 @@ RecountPerCharDB = {
 			},
 			["TimeWindows"] = {
 				["HealingTaken"] = {
-					4, -- [1]
+					31, -- [1]
 				},
 				["ActiveTime"] = {
-					1666.679999999999, -- [1]
+					1826.479999999999, -- [1]
 				},
 				["TimeDamage"] = {
-					1666.679999999999, -- [1]
+					1826.479999999999, -- [1]
 				},
 				["DamageTaken"] = {
-					1472, -- [1]
+					1613, -- [1]
 				},
 				["Damage"] = {
-					25693, -- [1]
+					28098, -- [1]
 				},
 			},
 			["enClass"] = "MAGE",
 			["unit"] = "Sculamare",
 			["level"] = 10,
 			["LastDamageAbility"] = "Melee",
-			["LastFightIn"] = 161,
+			["LastFightIn"] = 175,
 			["LastEventNum"] = {
-				[45] = 2.953586497890295,
-				[12] = 16.03375527426161,
-				[13] = 16.03375527426161,
-				[36] = 2.109704641350211,
-				[48] = 2.953586497890295,
-				[14] = 16.03375527426161,
-				[42] = 2.953586497890295,
-				[15] = 16.03375527426161,
-				[31] = 2.109704641350211,
-				[33] = 1.687763713080169,
-				[50] = 2.953586497890295,
-				[44] = 5.907172995780591,
-				[39] = 2.531645569620253,
-				[2] = 2.953586497890295,
-				[20] = 1.687763713080169,
-				[16] = 16.03375527426161,
+				1.063829787234043, -- [1]
+				nil, -- [2]
+				1.063829787234043, -- [3]
+				nil, -- [4]
+				nil, -- [5]
+				14.53900709219858, -- [6]
+				14.53900709219858, -- [7]
+				14.53900709219858, -- [8]
+				14.53900709219858, -- [9]
+				14.53900709219858, -- [10]
+				1.49812734082397, -- [11]
+				2.621722846441948, -- [12]
+				[47] = 1.063829787234043,
+				[49] = 1.063829787234043,
+				[38] = 1.49812734082397,
+				[40] = 1.872659176029963,
+				[29] = 1.123595505617978,
+				[31] = 1.49812734082397,
+				[41] = 1.49812734082397,
+				[34] = 1.872659176029963,
+				[27] = 2.621722846441948,
 			},
 			["type"] = "Self",
 			["FightsSaved"] = 5,
-			["LastAbility"] = 138.719,
-			["LastEventTimes"] = {
-				13621.174, -- [1]
-				13621.958, -- [2]
-				13623.449, -- [3]
-				13628.398, -- [4]
-				13629.998, -- [5]
-				13631.558, -- [6]
-				13631.616, -- [7]
-				13631.7, -- [8]
-				13641.315, -- [9]
-				13643.066, -- [10]
-				13644.658, -- [11]
-				14329.208, -- [12]
-				14332.206, -- [13]
-				14335.215, -- [14]
-				14338.182, -- [15]
-				14341.198, -- [16]
-				444.442, -- [17]
-				446.1, -- [18]
-				447.633, -- [19]
-				448.218, -- [20]
-				449.042, -- [21]
-				450.318, -- [22]
-				451.143, -- [23]
-				484.092, -- [24]
-				485.659, -- [25]
-				487.209, -- [26]
-				488.692, -- [27]
-				497.941, -- [28]
-				499.558, -- [29]
-				501.059, -- [30]
-				543.633, -- [31]
-				545.557, -- [32]
-				546.174, -- [33]
-				547.766, -- [34]
-				547.942, -- [35]
-				548.659, -- [36]
-				549.684, -- [37]
-				13606.874, -- [38]
-				13606.933, -- [39]
-				13608.866, -- [40]
-				13609.332, -- [41]
-				13609.458, -- [42]
-				13611.149, -- [43]
-				13611.833, -- [44]
-				13611.974, -- [45]
-				13613.858, -- [46]
-				13616.658, -- [47]
-				13616.965, -- [48]
-				13618.857, -- [49]
-				13619.449, -- [50]
-			},
+			["LastActive"] = 1689520778,
+			["UnitLockout"] = 1689456913,
 			["Owner"] = false,
-			["LastDamageTaken"] = 5,
-			["NextEventNum"] = 38,
-			["LastEventHealthNum"] = {
-				76.79324894514768, -- [1]
-				76.79324894514768, -- [2]
-				73.83966244725738, -- [3]
-				77.21518987341773, -- [4]
-				77.21518987341773, -- [5]
-				77.21518987341773, -- [6]
-				77.21518987341773, -- [7]
-				77.21518987341773, -- [8]
-				91.13924050632912, -- [9]
-				91.13924050632912, -- [10]
-				91.13924050632912, -- [11]
-				100, -- [12]
-				100, -- [13]
-				100, -- [14]
-				100, -- [15]
-				100, -- [16]
-				100, -- [17]
-				100, -- [18]
-				100, -- [19]
-				100, -- [20]
-				98.31223628691983, -- [21]
-				98.31223628691983, -- [22]
-				98.31223628691983, -- [23]
-				100, -- [24]
-				100, -- [25]
-				100, -- [26]
-				100, -- [27]
-				100, -- [28]
-				100, -- [29]
-				100, -- [30]
-				100, -- [31]
-				97.89029535864979, -- [32]
-				97.89029535864979, -- [33]
-				96.20253164556962, -- [34]
-				96.20253164556962, -- [35]
-				96.20253164556962, -- [36]
-				94.09282700421942, -- [37]
-				97.0464135021097, -- [38]
-				97.0464135021097, -- [39]
-				94.51476793248945, -- [40]
-				94.51476793248945, -- [41]
-				94.51476793248945, -- [42]
-				91.56118143459915, -- [43]
-				91.56118143459915, -- [44]
-				85.65400843881857, -- [45]
-				82.70042194092827, -- [46]
-				82.70042194092827, -- [47]
-				82.70042194092827, -- [48]
-				79.74683544303798, -- [49]
-				79.74683544303798, -- [50]
-			},
-			["LastEvents"] = {
-				"Sculamare Frostbolt Kobold Miner Hit -34 (Frost)", -- [1]
-				"Kobold Miner Melee Sculamare Hit -7 (Physical)", -- [2]
-				"Sculamare Frostbolt Kobold Miner Hit -36 (Frost)", -- [3]
-				"Sculamare Frostbolt Kobold Miner Hit -37 (Frost)", -- [4]
-				"Sculamare Frostbolt Kobold Miner Hit -36 (Frost)", -- [5]
-				"Sculamare Frostbolt Kobold Miner Hit -37 (Frost)", -- [6]
-				"Kobold Miner Melee Sculamare Dodge", -- [7]
-				"Sculamare Fire Blast Kobold Miner Hit -23 (9 resisted) (Fire)", -- [8]
-				"Sculamare Frostbolt Kobold Miner Hit -34 (Frost)", -- [9]
-				"Sculamare Frostbolt Kobold Miner Hit -36 (Frost)", -- [10]
-				"Sculamare Frostbolt Kobold Miner Crit -54 (Frost)", -- [11]
-				"Sculamare Gift of the Naaru Sculamare Tick +38 (38 overheal)", -- [12]
-				"Sculamare Gift of the Naaru Sculamare Tick +38 (38 overheal)", -- [13]
-				"Sculamare Gift of the Naaru Sculamare Tick +38 (38 overheal)", -- [14]
-				"Sculamare Gift of the Naaru Sculamare Tick +38 (38 overheal)", -- [15]
-				"Sculamare Gift of the Naaru Sculamare Tick +38 (38 overheal)", -- [16]
-				"Sculamare Frostbolt Mangy Wolf Hit -35 (Frost)", -- [17]
-				"Sculamare Frostbolt Mangy Wolf Hit -38 (Frost)", -- [18]
-				"Sculamare Frostbolt Mangy Wolf Hit -36 (Frost)", -- [19]
-				"Mangy Wolf Melee Sculamare Hit -4 (Physical)", -- [20]
-				"Sculamare Melee Mangy Wolf Hit -9 (Physical)", -- [21]
-				"Mangy Wolf Melee Sculamare Miss", -- [22]
-				"Sculamare Melee Mangy Wolf Hit -8 (Physical)", -- [23]
-				"Sculamare Frostbolt Mangy Wolf Hit -37 (Frost)", -- [24]
-				"Sculamare Frostbolt Mangy Wolf Hit -37 (Frost)", -- [25]
-				"Sculamare Frostbolt Mangy Wolf Hit -33 (Frost)", -- [26]
-				"Sculamare Frostbolt Mangy Wolf Hit -35 (Frost)", -- [27]
-				"Sculamare Frostbolt Mangy Wolf Hit -34 (Frost)", -- [28]
-				"Sculamare Frostbolt Mangy Wolf Hit -34 (Frost)", -- [29]
-				"Sculamare Frostbolt Mangy Wolf Hit -35 (Frost)", -- [30]
-				"Kobold Tunneler Melee Sculamare Hit -5 (Physical)", -- [31]
-				"Sculamare Frostbolt Kobold Tunneler Crit -53 (Frost)", -- [32]
-				"Kobold Tunneler Melee Sculamare Hit -4 (Physical)", -- [33]
-				"Sculamare Frostbolt Kobold Tunneler Hit -38 (Frost)", -- [34]
-				"Sculamare Fire Blast Kobold Tunneler Hit -22 (14 resisted) (Fire)", -- [35]
-				"Kobold Tunneler Melee Sculamare Hit -5 (Physical)", -- [36]
-				"Sculamare Melee Kobold Tunneler Hit -14 (Physical)", -- [37]
-				"Sculamare Frostbolt Kobold Miner Hit -34 (Frost)", -- [38]
-				"Kobold Miner Melee Sculamare Hit -6 (Physical)", -- [39]
-				"Sculamare Frostbolt Kobold Miner Hit -34 (Frost)", -- [40]
-				"Kobold Miner Melee Sculamare Parry", -- [41]
-				"Kobold Miner Melee Sculamare Hit -7 (Physical)", -- [42]
-				"Sculamare Frostbolt Kobold Miner Hit -37 (Frost)", -- [43]
-				"Kobold Miner Melee Sculamare Crit -14 (Physical)", -- [44]
-				"Kobold Miner Melee Sculamare Hit -7 (Physical)", -- [45]
-				"Sculamare Frostbolt Kobold Miner Hit -37 (Frost)", -- [46]
-				"Sculamare Frostbolt Kobold Miner Hit -35 (Frost)", -- [47]
-				"Kobold Miner Melee Sculamare Hit -7 (Physical)", -- [48]
-				"Sculamare Frostbolt Kobold Miner Hit -35 (Frost)", -- [49]
-				"Kobold Miner Melee Sculamare Hit -7 (Physical)", -- [50]
-			},
-			["Name"] = "Sculamare",
-			["LastEventIncoming"] = {
-				false, -- [1]
-				true, -- [2]
-				false, -- [3]
-				false, -- [4]
-				false, -- [5]
-				false, -- [6]
-				true, -- [7]
-				false, -- [8]
-				false, -- [9]
-				false, -- [10]
-				false, -- [11]
-				true, -- [12]
-				true, -- [13]
-				true, -- [14]
-				true, -- [15]
-				true, -- [16]
-				false, -- [17]
-				false, -- [18]
-				false, -- [19]
-				true, -- [20]
-				false, -- [21]
-				true, -- [22]
-				false, -- [23]
-				false, -- [24]
-				false, -- [25]
-				false, -- [26]
-				false, -- [27]
-				false, -- [28]
-				false, -- [29]
-				false, -- [30]
-				true, -- [31]
-				false, -- [32]
-				true, -- [33]
-				false, -- [34]
-				false, -- [35]
-				true, -- [36]
-				false, -- [37]
-				false, -- [38]
-				true, -- [39]
-				false, -- [40]
-				true, -- [41]
-				true, -- [42]
-				false, -- [43]
-				true, -- [44]
-				true, -- [45]
-				false, -- [46]
-				false, -- [47]
-				true, -- [48]
-				false, -- [49]
-				true, -- [50]
-			},
-			["TimeLast"] = {
-				["HealingTaken"] = 1689457596,
-				["ActiveTime"] = 1689500904,
-				["TimeDamage"] = 1689500904,
-				["OVERALL"] = 1689500904,
-				["DamageTaken"] = 1689500903,
-				["Damage"] = 1689500904,
-			},
 			["Fights"] = {
-				["Fight3"] = {
+				["OverallData"] = {
+					["ElementDoneBlock"] = {
+						["Melee"] = 3,
+					},
+					["ElementDoneResist"] = {
+						["Fire"] = 862,
+					},
+					["TimeSpent"] = {
+						["Mangy Wolf"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 3.51,
+								},
+								["Frostbolt"] = {
+									["count"] = 21.41,
+								},
+							},
+							["amount"] = 24.92,
+						},
+						["Rabbit"] = {
+							["Details"] = {
+								["Fire Blast"] = {
+									["count"] = 3.5,
+								},
+							},
+							["amount"] = 3.5,
+						},
+						["Goldtooth"] = {
+							["Details"] = {
+								["Frost Nova"] = {
+									["count"] = 1.81,
+								},
+								["Frostbolt"] = {
+									["count"] = 41.67,
+								},
+								["Melee"] = {
+									["count"] = 1.84,
+								},
+								["Fire Blast"] = {
+									["count"] = 1.23,
+								},
+							},
+							["amount"] = 46.55,
+						},
+						["Sheep"] = {
+							["Details"] = {
+								["Frostbolt"] = {
+									["count"] = 10.5,
+								},
+							},
+							["amount"] = 10.5,
+						},
+						["Forest Spider"] = {
+							["Details"] = {
+								["Frostbolt"] = {
+									["count"] = 30.48,
+								},
+								["Fire Blast"] = {
+									["count"] = 1.62,
+								},
+							},
+							["amount"] = 32.1,
+						},
+						["Stonetusk Boar"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 32.74,
+								},
+								["Frostbolt"] = {
+									["count"] = 28.76,
+								},
+							},
+							["amount"] = 61.5,
+						},
+						["Kobold Tunneler"] = {
+							["Details"] = {
+								["Frost Nova"] = {
+									["count"] = 12.46,
+								},
+								["Frostbolt"] = {
+									["count"] = 1024.66,
+								},
+								["Melee"] = {
+									["count"] = 25.62,
+								},
+								["Fire Blast"] = {
+									["count"] = 42.67000000000002,
+								},
+							},
+							["amount"] = 1105.41,
+						},
+						["Kobold Miner"] = {
+							["Details"] = {
+								["Frost Nova"] = {
+									["count"] = 0,
+								},
+								["Frostbolt"] = {
+									["count"] = 493.5000000000001,
+								},
+								["Melee"] = {
+									["count"] = 34.21,
+								},
+								["Fire Blast"] = {
+									["count"] = 14.29,
+								},
+							},
+							["amount"] = 542.0000000000001,
+						},
+					},
+					["DamageTaken"] = 1613,
+					["PartialResist"] = {
+						["Falling"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 0,
+						},
+						["Pierce Armor"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 4,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 4,
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 356,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 356,
+							["amount"] = 0,
+						},
+					},
+					["PartialAbsorb"] = {
+						["Falling"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 0,
+						},
+						["Pierce Armor"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 4,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 4,
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 348,
+									["amount"] = 0,
+								},
+								["Absorbed"] = {
+									["max"] = 8,
+									["min"] = 4,
+									["count"] = 8,
+									["amount"] = 49,
+								},
+							},
+							["count"] = 356,
+							["amount"] = 49,
+						},
+					},
+					["ActiveTime"] = 1826.479999999999,
+					["ElementTaken"] = {
+						["Melee"] = 1575,
+						["Physical"] = 38,
+					},
+					["Damage"] = 28098,
+					["ElementTakenAbsorb"] = {
+						["Melee"] = 49,
+					},
+					["ElementHitsDone"] = {
+						["Frost"] = {
+							["Details"] = {
+								["Crit"] = {
+									["count"] = 43,
+								},
+								["Hit"] = {
+									["count"] = 668,
+								},
+							},
+							["amount"] = 711,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Glancing"] = {
+									["count"] = 8,
+								},
+								["Hit"] = {
+									["count"] = 32,
+								},
+								["Dodge"] = {
+									["count"] = 1,
+								},
+								["Miss"] = {
+									["count"] = 1,
+								},
+								["Crit"] = {
+									["count"] = 5,
+								},
+								["Parry"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 48,
+						},
+						["Fire"] = {
+							["Details"] = {
+								["Crit"] = {
+									["count"] = 5,
+								},
+								["Hit"] = {
+									["count"] = 68,
+								},
+							},
+							["amount"] = 73,
+						},
+					},
+					["WhoDamaged"] = {
+						["Mangy Wolf"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 4,
+								},
+							},
+							["amount"] = 4,
+						},
+						["Goldtooth"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 107,
+								},
+							},
+							["amount"] = 107,
+						},
+						["Stonetusk Boar"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 137,
+								},
+							},
+							["amount"] = 137,
+						},
+						["Kobold Miner"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 621,
+								},
+							},
+							["amount"] = 621,
+						},
+						["Kobold Tunneler"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 701,
+								},
+							},
+							["amount"] = 701,
+						},
+						["Environment"] = {
+							["Details"] = {
+								["Falling"] = {
+									["count"] = 38,
+								},
+							},
+							["amount"] = 38,
+						},
+						["Forest Spider"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 5,
+								},
+							},
+							["amount"] = 5,
+						},
+					},
+					["Attacks"] = {
+						["Frost Nova"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 29,
+									["min"] = 29,
+									["count"] = 1,
+									["amount"] = 29,
+								},
+								["Hit"] = {
+									["max"] = 22,
+									["min"] = 19,
+									["count"] = 10,
+									["amount"] = 205,
+								},
+							},
+							["count"] = 11,
+							["amount"] = 234,
+						},
+						["Frostbolt"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 57,
+									["min"] = 50,
+									["count"] = 42,
+									["amount"] = 2224,
+								},
+								["Hit"] = {
+									["max"] = 38,
+									["min"] = 33,
+									["count"] = 658,
+									["amount"] = 23589,
+								},
+							},
+							["count"] = 700,
+							["amount"] = 25813,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Glancing"] = {
+									["max"] = 21,
+									["min"] = 11,
+									["count"] = 8,
+									["amount"] = 124,
+								},
+								["Hit"] = {
+									["max"] = 14,
+									["min"] = 8,
+									["count"] = 31,
+									["amount"] = 326,
+								},
+								["Dodge"] = {
+									["count"] = 1,
+									["amount"] = 0,
+								},
+								["Hit (Blocked)"] = {
+									["max"] = 10,
+									["min"] = 10,
+									["count"] = 1,
+									["amount"] = 10,
+								},
+								["Miss"] = {
+									["count"] = 1,
+									["amount"] = 0,
+								},
+								["Crit"] = {
+									["max"] = 28,
+									["min"] = 16,
+									["count"] = 5,
+									["amount"] = 104,
+								},
+								["Parry"] = {
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 48,
+							["amount"] = 564,
+						},
+						["Fire Blast"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 53,
+									["min"] = 26,
+									["count"] = 5,
+									["amount"] = 179,
+								},
+								["Hit"] = {
+									["max"] = 31,
+									["min"] = 12,
+									["count"] = 68,
+									["amount"] = 1308,
+								},
+							},
+							["count"] = 73,
+							["amount"] = 1487,
+						},
+					},
+					["HealingTaken"] = 31,
+					["DamagedWho"] = {
+						["Mangy Wolf"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 17,
+								},
+								["Frostbolt"] = {
+									["count"] = 354,
+								},
+							},
+							["amount"] = 371,
+						},
+						["Rabbit"] = {
+							["Details"] = {
+								["Fire Blast"] = {
+									["count"] = 31,
+								},
+							},
+							["amount"] = 31,
+						},
+						["Goldtooth"] = {
+							["Details"] = {
+								["Frost Nova"] = {
+									["count"] = 21,
+								},
+								["Frostbolt"] = {
+									["count"] = 585,
+								},
+								["Melee"] = {
+									["count"] = 11,
+								},
+								["Fire Blast"] = {
+									["count"] = 52,
+								},
+							},
+							["amount"] = 669,
+						},
+						["Sheep"] = {
+							["Details"] = {
+								["Frostbolt"] = {
+									["count"] = 119,
+								},
+							},
+							["amount"] = 119,
+						},
+						["Forest Spider"] = {
+							["Details"] = {
+								["Frostbolt"] = {
+									["count"] = 531,
+								},
+								["Fire Blast"] = {
+									["count"] = 82,
+								},
+							},
+							["amount"] = 613,
+						},
+						["Stonetusk Boar"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 192,
+								},
+								["Frostbolt"] = {
+									["count"] = 406,
+								},
+							},
+							["amount"] = 598,
+						},
+						["Kobold Tunneler"] = {
+							["Details"] = {
+								["Frost Nova"] = {
+									["count"] = 151,
+								},
+								["Frostbolt"] = {
+									["count"] = 16048,
+								},
+								["Melee"] = {
+									["count"] = 155,
+								},
+								["Fire Blast"] = {
+									["count"] = 942,
+								},
+							},
+							["amount"] = 17296,
+						},
+						["Kobold Miner"] = {
+							["Details"] = {
+								["Frost Nova"] = {
+									["count"] = 62,
+								},
+								["Frostbolt"] = {
+									["count"] = 7770,
+								},
+								["Melee"] = {
+									["count"] = 189,
+								},
+								["Fire Blast"] = {
+									["count"] = 380,
+								},
+							},
+							["amount"] = 8401,
+						},
+					},
+					["TimeDamage"] = 1826.479999999999,
+					["TimeDamaging"] = {
+						["Mangy Wolf"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 3.51,
+								},
+								["Frostbolt"] = {
+									["count"] = 21.41,
+								},
+							},
+							["amount"] = 24.92,
+						},
+						["Rabbit"] = {
+							["Details"] = {
+								["Fire Blast"] = {
+									["count"] = 3.5,
+								},
+							},
+							["amount"] = 3.5,
+						},
+						["Goldtooth"] = {
+							["Details"] = {
+								["Frost Nova"] = {
+									["count"] = 1.81,
+								},
+								["Frostbolt"] = {
+									["count"] = 41.67,
+								},
+								["Melee"] = {
+									["count"] = 1.84,
+								},
+								["Fire Blast"] = {
+									["count"] = 1.23,
+								},
+							},
+							["amount"] = 46.55,
+						},
+						["Sheep"] = {
+							["Details"] = {
+								["Frostbolt"] = {
+									["count"] = 10.5,
+								},
+							},
+							["amount"] = 10.5,
+						},
+						["Forest Spider"] = {
+							["Details"] = {
+								["Frostbolt"] = {
+									["count"] = 30.48,
+								},
+								["Fire Blast"] = {
+									["count"] = 1.62,
+								},
+							},
+							["amount"] = 32.1,
+						},
+						["Stonetusk Boar"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 32.74,
+								},
+								["Frostbolt"] = {
+									["count"] = 28.76,
+								},
+							},
+							["amount"] = 61.5,
+						},
+						["Kobold Tunneler"] = {
+							["Details"] = {
+								["Frost Nova"] = {
+									["count"] = 12.46,
+								},
+								["Frostbolt"] = {
+									["count"] = 1024.66,
+								},
+								["Melee"] = {
+									["count"] = 25.62,
+								},
+								["Fire Blast"] = {
+									["count"] = 42.67000000000002,
+								},
+							},
+							["amount"] = 1105.41,
+						},
+						["Kobold Miner"] = {
+							["Details"] = {
+								["Frost Nova"] = {
+									["count"] = 0,
+								},
+								["Frostbolt"] = {
+									["count"] = 493.5000000000001,
+								},
+								["Melee"] = {
+									["count"] = 34.21,
+								},
+								["Fire Blast"] = {
+									["count"] = 14.29,
+								},
+							},
+							["amount"] = 542.0000000000001,
+						},
+					},
+					["ElementHitsTaken"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Absorb"] = {
+									["count"] = 8,
+								},
+								["Hit"] = {
+									["count"] = 308,
+								},
+								["Miss"] = {
+									["count"] = 28,
+								},
+								["Dodge"] = {
+									["count"] = 9,
+								},
+								["Crit"] = {
+									["count"] = 1,
+								},
+								["Parry"] = {
+									["count"] = 2,
+								},
+							},
+							["amount"] = 356,
+						},
+						["Physical"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 3,
+								},
+								["Parry"] = {
+									["count"] = 1,
+								},
+								["Hit"] = {
+									["count"] = 2,
+								},
+							},
+							["amount"] = 6,
+						},
+					},
+					["ElementDone"] = {
+						["Frost"] = 26047,
+						["Melee"] = 564,
+						["Fire"] = 1487,
+					},
+					["WhoHealed"] = {
+						["Macolax"] = {
+							["Details"] = {
+								["Judgement of Light"] = {
+									["count"] = 4,
+								},
+							},
+							["amount"] = 4,
+						},
+						["Aminal"] = {
+							["Details"] = {
+								["Renew"] = {
+									["count"] = 27,
+								},
+							},
+							["amount"] = 27,
+						},
+					},
+				},
+				["Fight5"] = {
 					["DOTs"] = {
 					},
 					["ElementDoneResist"] = {
-						["Fire"] = 0,
+						["Fire"] = 31,
 					},
 					["Ressed"] = 0,
-					["DamageTaken"] = 0,
+					["DamageTaken"] = 19,
 					["RageGainedFrom"] = {
 					},
 					["ElementHitsTaken"] = {
 						["Melee"] = {
 							["Details"] = {
+								["Absorb"] = {
+									["count"] = 3,
+								},
+								["Hit"] = {
+									["count"] = 3,
+								},
 								["Miss"] = {
 									["count"] = 0,
 								},
-								["Hit"] = {
-									["count"] = 0,
-								},
 							},
-							["amount"] = 0,
+							["amount"] = 6,
 						},
 					},
 					["DeathCount"] = 0,
 					["HOT_Time"] = 0,
-					["Damage"] = 142,
-					["RunicPowerGain"] = 0,
+					["HOTs"] = {
+					},
+					["ManaGain"] = 0,
 					["ElementTaken"] = {
-						["Melee"] = 0,
+						["Melee"] = 19,
 					},
 					["DOT_Time"] = 0,
-					["ElementTakenBlock"] = {
-					},
+					["Damage"] = 293,
 					["ElementDoneAbsorb"] = {
 					},
 					["TimeHeal"] = 0,
@@ -414,6 +877,18 @@ RecountPerCharDB = {
 					["Dispels"] = 0,
 					["PartialBlock"] = {
 					},
+					["FDamagedWho"] = {
+					},
+					["FAttacks"] = {
+					},
+					["RageGain"] = 0,
+					["ElementDone"] = {
+						["Frost"] = 249,
+						["Melee"] = 11,
+						["Fire"] = 33,
+					},
+					["ManaGainedFrom"] = {
+					},
 					["ElementHitsDone"] = {
 						["Frost"] = {
 							["Details"] = {
@@ -421,10 +896,10 @@ RecountPerCharDB = {
 									["count"] = 0,
 								},
 								["Hit"] = {
-									["count"] = 4,
+									["count"] = 7,
 								},
 							},
-							["amount"] = 4,
+							["amount"] = 7,
 						},
 						["Melee"] = {
 							["Details"] = {
@@ -435,99 +910,32 @@ RecountPerCharDB = {
 									["count"] = 0,
 								},
 								["Hit"] = {
-									["count"] = 0,
+									["count"] = 1,
 								},
 							},
-							["amount"] = 0,
+							["amount"] = 1,
 						},
 						["Fire"] = {
 							["Details"] = {
 								["Hit"] = {
-									["count"] = 0,
+									["count"] = 2,
 								},
 							},
-							["amount"] = 0,
+							["amount"] = 2,
 						},
 					},
-					["FAttacks"] = {
-					},
-					["HealingTaken"] = 0,
-					["ElementDone"] = {
-						["Frost"] = 142,
-						["Melee"] = 0,
-						["Fire"] = 0,
-					},
-					["DamagedWho"] = {
-						["Mangy Wolf"] = {
-							["Details"] = {
-								["Frostbolt"] = {
-									["count"] = 142,
-								},
-							},
-							["amount"] = 142,
-						},
-						["Stonetusk Boar"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Frostbolt"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Kobold Miner"] = {
-							["Details"] = {
-								["Frostbolt"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Fire Blast"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Kobold Tunneler"] = {
-							["Details"] = {
-								["Frostbolt"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Fire Blast"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Forest Spider"] = {
-							["Details"] = {
-								["Frostbolt"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["ManaGainedFrom"] = {
-					},
-					["RunicPowerGained"] = {
+					["RageGained"] = {
 					},
 					["WhoDamaged"] = {
 						["Kobold Miner"] = {
 							["Details"] = {
 								["Melee"] = {
-									["count"] = 0,
+									["count"] = 4,
 								},
 							},
-							["amount"] = 0,
+							["amount"] = 4,
 						},
-						["Stonetusk Boar"] = {
+						["Kobold Tunneler"] = {
 							["Details"] = {
 								["Melee"] = {
 									["count"] = 0,
@@ -535,7 +943,15 @@ RecountPerCharDB = {
 							},
 							["amount"] = 0,
 						},
-						["Kobold Tunneler"] = {
+						["Goldtooth"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 15,
+								},
+							},
+							["amount"] = 15,
+						},
+						["Stonetusk Boar"] = {
 							["Details"] = {
 								["Melee"] = {
 									["count"] = 0,
@@ -546,9 +962,8 @@ RecountPerCharDB = {
 					},
 					["EnergyGainedFrom"] = {
 					},
-					["CCBroken"] = {
-					},
-					["RunicPowerGainedFrom"] = {
+					["Dispelled"] = 0,
+					["RunicPowerGained"] = {
 					},
 					["ElementDoneBlock"] = {
 						["Melee"] = 0,
@@ -559,52 +974,78 @@ RecountPerCharDB = {
 					},
 					["WhoHealed"] = {
 					},
-					["HealedWho"] = {
-					},
+					["EnergyGain"] = 0,
 					["CCBreak"] = 0,
-					["ElementTakenAbsorb"] = {
-					},
 					["PartialAbsorb"] = {
 						["Melee"] = {
 							["Details"] = {
 								["No Absorb"] = {
 									["max"] = 0,
 									["min"] = 0,
-									["count"] = 0,
+									["count"] = 3,
 									["amount"] = 0,
 								},
+								["Absorbed"] = {
+									["max"] = 8,
+									["min"] = 5,
+									["count"] = 3,
+									["amount"] = 20,
+								},
 							},
-							["count"] = 0,
-							["amount"] = 0,
+							["count"] = 6,
+							["amount"] = 20,
 						},
 					},
+					["ActiveTime"] = 19.84,
 					["PartialResist"] = {
 						["Melee"] = {
 							["Details"] = {
 								["No Resist"] = {
 									["max"] = 0,
 									["min"] = 0,
-									["count"] = 0,
+									["count"] = 6,
 									["amount"] = 0,
 								},
 							},
-							["count"] = 0,
+							["count"] = 6,
 							["amount"] = 0,
 						},
 					},
 					["ManaGained"] = {
 					},
-					["FDamage"] = 0,
+					["ElementTakenAbsorb"] = {
+						["Melee"] = 20,
+					},
 					["Interrupts"] = 0,
 					["Overhealing"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["InterruptData"] = {
+					},
+					["WhoDispelled"] = {
+					},
 					["TimeSpent"] = {
 						["Mangy Wolf"] = {
 							["Details"] = {
 								["Frostbolt"] = {
-									["count"] = 8.1,
+									["count"] = 0,
 								},
 							},
-							["amount"] = 8.1,
+							["amount"] = 0,
+						},
+						["Goldtooth"] = {
+							["Details"] = {
+								["Frostbolt"] = {
+									["count"] = 11.09,
+								},
+								["Melee"] = {
+									["count"] = 1.84,
+								},
+								["Fire Blast"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 12.93,
 						},
 						["Stonetusk Boar"] = {
 							["Details"] = {
@@ -620,12 +1061,20 @@ RecountPerCharDB = {
 						["Kobold Miner"] = {
 							["Details"] = {
 								["Frostbolt"] = {
-									["count"] = 0,
+									["count"] = 6.819999999999999,
 								},
 								["Melee"] = {
 									["count"] = 0,
 								},
 								["Fire Blast"] = {
+									["count"] = 0.09,
+								},
+							},
+							["amount"] = 6.909999999999999,
+						},
+						["Forest Spider"] = {
+							["Details"] = {
+								["Frostbolt"] = {
 									["count"] = 0,
 								},
 							},
@@ -645,30 +1094,18 @@ RecountPerCharDB = {
 							},
 							["amount"] = 0,
 						},
-						["Forest Spider"] = {
-							["Details"] = {
-								["Frostbolt"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["WhoDispelled"] = {
-					},
-					["InterruptData"] = {
-					},
-					["ElementTakenResist"] = {
 					},
 					["Heals"] = {
 					},
-					["ActiveTime"] = 8.1,
+					["FDamage"] = 0,
 					["EnergyGained"] = {
 					},
-					["EnergyGain"] = 0,
+					["HealedWho"] = {
+					},
 					["Healing"] = 0,
-					["Dispelled"] = 0,
-					["RageGained"] = {
+					["RunicPowerGainedFrom"] = {
+					},
+					["CCBroken"] = {
 					},
 					["Attacks"] = {
 						["Frostbolt"] = {
@@ -682,12 +1119,12 @@ RecountPerCharDB = {
 								["Hit"] = {
 									["max"] = 37,
 									["min"] = 0,
-									["count"] = 4,
-									["amount"] = 142,
+									["count"] = 7,
+									["amount"] = 249,
 								},
 							},
-							["count"] = 4,
-							["amount"] = 142,
+							["count"] = 7,
+							["amount"] = 249,
 						},
 						["Melee"] = {
 							["Details"] = {
@@ -710,40 +1147,51 @@ RecountPerCharDB = {
 									["amount"] = 0,
 								},
 								["Hit"] = {
-									["max"] = 0,
+									["max"] = 11,
 									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
+									["count"] = 1,
+									["amount"] = 11,
 								},
 							},
-							["count"] = 0,
-							["amount"] = 0,
+							["count"] = 1,
+							["amount"] = 11,
 						},
 						["Fire Blast"] = {
 							["Details"] = {
 								["Hit"] = {
-									["max"] = 0,
+									["max"] = 18,
 									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
+									["count"] = 2,
+									["amount"] = 33,
 								},
 							},
-							["count"] = 0,
-							["amount"] = 0,
+							["count"] = 2,
+							["amount"] = 33,
 						},
 					},
-					["RageGain"] = 0,
-					["FDamagedWho"] = {
-					},
-					["TimeDamage"] = 8.1,
-					["TimeDamaging"] = {
+					["HealingTaken"] = 0,
+					["DamagedWho"] = {
 						["Mangy Wolf"] = {
 							["Details"] = {
 								["Frostbolt"] = {
-									["count"] = 8.1,
+									["count"] = 0,
 								},
 							},
-							["amount"] = 8.1,
+							["amount"] = 0,
+						},
+						["Goldtooth"] = {
+							["Details"] = {
+								["Frostbolt"] = {
+									["count"] = 140,
+								},
+								["Melee"] = {
+									["count"] = 11,
+								},
+								["Fire Blast"] = {
+									["count"] = 15,
+								},
+							},
+							["amount"] = 166,
 						},
 						["Stonetusk Boar"] = {
 							["Details"] = {
@@ -759,12 +1207,20 @@ RecountPerCharDB = {
 						["Kobold Miner"] = {
 							["Details"] = {
 								["Frostbolt"] = {
-									["count"] = 0,
+									["count"] = 109,
 								},
 								["Melee"] = {
 									["count"] = 0,
 								},
 								["Fire Blast"] = {
+									["count"] = 18,
+								},
+							},
+							["amount"] = 127,
+						},
+						["Forest Spider"] = {
+							["Details"] = {
+								["Frostbolt"] = {
 									["count"] = 0,
 								},
 							},
@@ -784,6 +1240,56 @@ RecountPerCharDB = {
 							},
 							["amount"] = 0,
 						},
+					},
+					["TimeDamage"] = 19.84,
+					["TimeDamaging"] = {
+						["Mangy Wolf"] = {
+							["Details"] = {
+								["Frostbolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Goldtooth"] = {
+							["Details"] = {
+								["Frostbolt"] = {
+									["count"] = 11.09,
+								},
+								["Melee"] = {
+									["count"] = 1.84,
+								},
+								["Fire Blast"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 12.93,
+						},
+						["Stonetusk Boar"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Frostbolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Miner"] = {
+							["Details"] = {
+								["Frostbolt"] = {
+									["count"] = 6.819999999999999,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Fire Blast"] = {
+									["count"] = 0.09,
+								},
+							},
+							["amount"] = 6.909999999999999,
+						},
 						["Forest Spider"] = {
 							["Details"] = {
 								["Frostbolt"] = {
@@ -792,14 +1298,28 @@ RecountPerCharDB = {
 							},
 							["amount"] = 0,
 						},
+						["Kobold Tunneler"] = {
+							["Details"] = {
+								["Frostbolt"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Fire Blast"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
 					},
-					["ManaGain"] = 0,
-					["HOTs"] = {
+					["RunicPowerGain"] = 0,
+					["ElementTakenBlock"] = {
 					},
 					["DispelledWho"] = {
 					},
 				},
-				["Fight5"] = {
+				["CurrentFightData"] = {
 					["DOTs"] = {
 					},
 					["ElementDoneResist"] = {
@@ -812,24 +1332,16 @@ RecountPerCharDB = {
 					["ElementHitsTaken"] = {
 						["Melee"] = {
 							["Details"] = {
-								["Miss"] = {
+								["Hit"] = {
 									["count"] = 0,
 								},
 								["Dodge"] = {
 									["count"] = 0,
 								},
-								["Hit"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Physical"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 0,
-								},
 								["Miss"] = {
+									["count"] = 0,
+								},
+								["Parry"] = {
 									["count"] = 0,
 								},
 							},
@@ -838,15 +1350,14 @@ RecountPerCharDB = {
 					},
 					["DeathCount"] = 0,
 					["HOT_Time"] = 0,
-					["Damage"] = 124,
-					["RunicPowerGain"] = 0,
+					["HOTs"] = {
+					},
+					["ManaGain"] = 0,
 					["ElementTaken"] = {
 						["Melee"] = 0,
-						["Physical"] = 0,
 					},
 					["DOT_Time"] = 0,
-					["ElementTakenBlock"] = {
-					},
+					["Damage"] = 0,
 					["ElementDoneAbsorb"] = {
 					},
 					["TimeHeal"] = 0,
@@ -855,7 +1366,41 @@ RecountPerCharDB = {
 					["Dispels"] = 0,
 					["PartialBlock"] = {
 					},
+					["FDamagedWho"] = {
+					},
+					["FAttacks"] = {
+					},
+					["RageGain"] = 0,
+					["ElementDone"] = {
+						["Frost"] = 0,
+						["Melee"] = 0,
+						["Fire"] = 0,
+					},
+					["ManaGainedFrom"] = {
+					},
 					["ElementHitsDone"] = {
+						["Frost"] = {
+							["Details"] = {
+								["Crit"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Glancing"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
 						["Fire"] = {
 							["Details"] = {
 								["Crit"] = {
@@ -867,85 +1412,11 @@ RecountPerCharDB = {
 							},
 							["amount"] = 0,
 						},
-						["Frost"] = {
-							["Details"] = {
-								["Crit"] = {
-									["count"] = 1,
-								},
-								["Hit"] = {
-									["count"] = 2,
-								},
-							},
-							["amount"] = 3,
-						},
 					},
-					["FAttacks"] = {
-					},
-					["HealingTaken"] = 0,
-					["ElementDone"] = {
-						["Fire"] = 0,
-						["Frost"] = 124,
-					},
-					["DamagedWho"] = {
-						["Sheep"] = {
-							["Details"] = {
-								["Frostbolt"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Kobold Miner"] = {
-							["Details"] = {
-								["Frost Nova"] = {
-									["count"] = 0,
-								},
-								["Frostbolt"] = {
-									["count"] = 124,
-								},
-								["Fire Blast"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 124,
-						},
-						["Forest Spider"] = {
-							["Details"] = {
-								["Frostbolt"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Kobold Tunneler"] = {
-							["Details"] = {
-								["Frost Nova"] = {
-									["count"] = 0,
-								},
-								["Frostbolt"] = {
-									["count"] = 0,
-								},
-								["Fire Blast"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Stonetusk Boar"] = {
-							["Details"] = {
-								["Frostbolt"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["ManaGainedFrom"] = {
-					},
-					["RunicPowerGained"] = {
+					["RageGained"] = {
 					},
 					["WhoDamaged"] = {
-						["Kobold Miner"] = {
+						["Mangy Wolf"] = {
 							["Details"] = {
 								["Melee"] = {
 									["count"] = 0,
@@ -953,9 +1424,9 @@ RecountPerCharDB = {
 							},
 							["amount"] = 0,
 						},
-						["Environment"] = {
+						["Goldtooth"] = {
 							["Details"] = {
-								["Falling"] = {
+								["Melee"] = {
 									["count"] = 0,
 								},
 							},
@@ -969,7 +1440,23 @@ RecountPerCharDB = {
 							},
 							["amount"] = 0,
 						},
+						["Kobold Miner"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
 						["Stonetusk Boar"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Forest Spider"] = {
 							["Details"] = {
 								["Melee"] = {
 									["count"] = 0,
@@ -980,9 +1467,8 @@ RecountPerCharDB = {
 					},
 					["EnergyGainedFrom"] = {
 					},
-					["CCBroken"] = {
-					},
-					["RunicPowerGainedFrom"] = {
+					["Dispelled"] = 0,
+					["RunicPowerGained"] = {
 					},
 					["ElementDoneBlock"] = {
 					},
@@ -991,506 +1477,17 @@ RecountPerCharDB = {
 					["OverHeals"] = {
 					},
 					["WhoHealed"] = {
-					},
-					["HealedWho"] = {
-					},
-					["CCBreak"] = 0,
-					["ElementTakenAbsorb"] = {
-					},
-					["PartialAbsorb"] = {
-						["Falling"] = {
+						["Macolax"] = {
 							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Pierce Armor"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["PartialResist"] = {
-						["Falling"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Pierce Armor"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["ManaGained"] = {
-					},
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
-					["Overhealing"] = 0,
-					["TimeSpent"] = {
-						["Sheep"] = {
-							["Details"] = {
-								["Frostbolt"] = {
+								["Judgement of Light"] = {
 									["count"] = 0,
 								},
 							},
 							["amount"] = 0,
 						},
-						["Kobold Miner"] = {
-							["Details"] = {
-								["Frost Nova"] = {
-									["count"] = 0,
-								},
-								["Frostbolt"] = {
-									["count"] = 6.84,
-								},
-								["Fire Blast"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 6.84,
-						},
-						["Forest Spider"] = {
-							["Details"] = {
-								["Frostbolt"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Kobold Tunneler"] = {
-							["Details"] = {
-								["Frost Nova"] = {
-									["count"] = 0,
-								},
-								["Frostbolt"] = {
-									["count"] = 0,
-								},
-								["Fire Blast"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Stonetusk Boar"] = {
-							["Details"] = {
-								["Frostbolt"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["WhoDispelled"] = {
-					},
-					["InterruptData"] = {
-					},
-					["ElementTakenResist"] = {
-					},
-					["Heals"] = {
-					},
-					["ActiveTime"] = 6.84,
-					["EnergyGained"] = {
 					},
 					["EnergyGain"] = 0,
-					["Healing"] = 0,
-					["Dispelled"] = 0,
-					["RageGained"] = {
-					},
-					["Attacks"] = {
-						["Frost Nova"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Frostbolt"] = {
-							["Details"] = {
-								["Crit"] = {
-									["max"] = 54,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 54,
-								},
-								["Hit"] = {
-									["max"] = 36,
-									["min"] = 0,
-									["count"] = 2,
-									["amount"] = 70,
-								},
-							},
-							["count"] = 3,
-							["amount"] = 124,
-						},
-						["Fire Blast"] = {
-							["Details"] = {
-								["Crit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["RageGain"] = 0,
-					["FDamagedWho"] = {
-					},
-					["TimeDamage"] = 6.84,
-					["TimeDamaging"] = {
-						["Sheep"] = {
-							["Details"] = {
-								["Frostbolt"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Kobold Miner"] = {
-							["Details"] = {
-								["Frost Nova"] = {
-									["count"] = 0,
-								},
-								["Frostbolt"] = {
-									["count"] = 6.84,
-								},
-								["Fire Blast"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 6.84,
-						},
-						["Forest Spider"] = {
-							["Details"] = {
-								["Frostbolt"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Kobold Tunneler"] = {
-							["Details"] = {
-								["Frost Nova"] = {
-									["count"] = 0,
-								},
-								["Frostbolt"] = {
-									["count"] = 0,
-								},
-								["Fire Blast"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Stonetusk Boar"] = {
-							["Details"] = {
-								["Frostbolt"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["ManaGain"] = 0,
-					["HOTs"] = {
-					},
-					["DispelledWho"] = {
-					},
-				},
-				["CurrentFightData"] = {
-					["TimeSpent"] = {
-						["Kobold Miner"] = {
-							["Details"] = {
-								["Fire Blast"] = {
-									["count"] = 0,
-								},
-								["Frostbolt"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Kobold Tunneler"] = {
-							["Details"] = {
-								["Frostbolt"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Fire Blast"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Sheep"] = {
-							["Details"] = {
-								["Frostbolt"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["PartialResist"] = {
-						["Melee"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["ElementHitsDone"] = {
-						["Frost"] = {
-							["Details"] = {
-								["Crit"] = {
-									["count"] = 0,
-								},
-								["Hit"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["Glancing"] = {
-									["count"] = 0,
-								},
-								["Miss"] = {
-									["count"] = 0,
-								},
-								["Hit"] = {
-									["count"] = 0,
-								},
-								["Crit"] = {
-									["count"] = 0,
-								},
-								["Parry"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Fire"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["WhoDamaged"] = {
-						["Kobold Miner"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Kobold Tunneler"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["ElementDoneResist"] = {
-						["Fire"] = 0,
-					},
-					["ElementHitsTaken"] = {
-						["Melee"] = {
-							["Details"] = {
-								["Miss"] = {
-									["count"] = 0,
-								},
-								["Dodge"] = {
-									["count"] = 0,
-								},
-								["Hit"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["DamageTaken"] = 0,
-					["TimeDamage"] = 0,
-					["Attacks"] = {
-						["Frostbolt"] = {
-							["Details"] = {
-								["Crit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["Glancing"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Miss"] = {
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Crit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Parry"] = {
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Fire Blast"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["DamagedWho"] = {
-						["Kobold Miner"] = {
-							["Details"] = {
-								["Fire Blast"] = {
-									["count"] = 0,
-								},
-								["Frostbolt"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Kobold Tunneler"] = {
-							["Details"] = {
-								["Frostbolt"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Fire Blast"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Sheep"] = {
-							["Details"] = {
-								["Frostbolt"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
+					["CCBreak"] = 0,
 					["PartialAbsorb"] = {
 						["Melee"] = {
 							["Details"] = {
@@ -1506,10 +1503,47 @@ RecountPerCharDB = {
 						},
 					},
 					["ActiveTime"] = 0,
-					["TimeDamaging"] = {
-						["Kobold Miner"] = {
+					["PartialResist"] = {
+						["Melee"] = {
 							["Details"] = {
-								["Fire Blast"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["ManaGained"] = {
+					},
+					["ElementTakenAbsorb"] = {
+					},
+					["Interrupts"] = 0,
+					["Overhealing"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["InterruptData"] = {
+					},
+					["WhoDispelled"] = {
+					},
+					["TimeSpent"] = {
+						["Mangy Wolf"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Frostbolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Goldtooth"] = {
+							["Details"] = {
+								["Frost Nova"] = {
 									["count"] = 0,
 								},
 								["Frostbolt"] = {
@@ -1520,6 +1554,9 @@ RecountPerCharDB = {
 						},
 						["Kobold Tunneler"] = {
 							["Details"] = {
+								["Frost Nova"] = {
+									["count"] = 0,
+								},
 								["Frostbolt"] = {
 									["count"] = 0,
 								},
@@ -1532,26 +1569,295 @@ RecountPerCharDB = {
 							},
 							["amount"] = 0,
 						},
-						["Sheep"] = {
+						["Kobold Miner"] = {
 							["Details"] = {
+								["Frost Nova"] = {
+									["count"] = 0,
+								},
+								["Frostbolt"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Fire Blast"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Stonetusk Boar"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
 								["Frostbolt"] = {
 									["count"] = 0,
 								},
 							},
 							["amount"] = 0,
 						},
+						["Forest Spider"] = {
+							["Details"] = {
+								["Frostbolt"] = {
+									["count"] = 0,
+								},
+								["Fire Blast"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
 					},
-					["ElementTaken"] = {
-						["Melee"] = 0,
+					["Heals"] = {
 					},
-					["ElementDone"] = {
-						["Frost"] = 0,
-						["Melee"] = 0,
-						["Fire"] = 0,
+					["FDamage"] = 0,
+					["EnergyGained"] = {
 					},
-					["Damage"] = 0,
+					["HealedWho"] = {
+					},
+					["Healing"] = 0,
+					["RunicPowerGainedFrom"] = {
+					},
+					["CCBroken"] = {
+					},
+					["Attacks"] = {
+						["Frost Nova"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Frostbolt"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Glancing"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Fire Blast"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["HealingTaken"] = 0,
+					["DamagedWho"] = {
+						["Mangy Wolf"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Frostbolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Goldtooth"] = {
+							["Details"] = {
+								["Frost Nova"] = {
+									["count"] = 0,
+								},
+								["Frostbolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Tunneler"] = {
+							["Details"] = {
+								["Frost Nova"] = {
+									["count"] = 0,
+								},
+								["Frostbolt"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Fire Blast"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Miner"] = {
+							["Details"] = {
+								["Frost Nova"] = {
+									["count"] = 0,
+								},
+								["Frostbolt"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Fire Blast"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Stonetusk Boar"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Frostbolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Forest Spider"] = {
+							["Details"] = {
+								["Frostbolt"] = {
+									["count"] = 0,
+								},
+								["Fire Blast"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["TimeDamage"] = 0,
+					["TimeDamaging"] = {
+						["Mangy Wolf"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Frostbolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Goldtooth"] = {
+							["Details"] = {
+								["Frost Nova"] = {
+									["count"] = 0,
+								},
+								["Frostbolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Tunneler"] = {
+							["Details"] = {
+								["Frost Nova"] = {
+									["count"] = 0,
+								},
+								["Frostbolt"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Fire Blast"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Miner"] = {
+							["Details"] = {
+								["Frost Nova"] = {
+									["count"] = 0,
+								},
+								["Frostbolt"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Fire Blast"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Stonetusk Boar"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Frostbolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Forest Spider"] = {
+							["Details"] = {
+								["Frostbolt"] = {
+									["count"] = 0,
+								},
+								["Fire Blast"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["RunicPowerGain"] = 0,
+					["ElementTakenBlock"] = {
+					},
+					["DispelledWho"] = {
+					},
 				},
-				["Fight2"] = {
+				["Fight1"] = {
 					["DOTs"] = {
 					},
 					["ElementDoneResist"] = {
@@ -1564,6 +1870,23 @@ RecountPerCharDB = {
 					["ElementHitsTaken"] = {
 						["Melee"] = {
 							["Details"] = {
+								["Hit"] = {
+									["count"] = 0,
+								},
+								["Absorb"] = {
+									["count"] = 0,
+								},
+								["Dodge"] = {
+									["count"] = 0,
+								},
+								["Miss"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Physical"] = {
+							["Details"] = {
 								["Miss"] = {
 									["count"] = 0,
 								},
@@ -1573,29 +1896,18 @@ RecountPerCharDB = {
 							},
 							["amount"] = 0,
 						},
-						["Physical"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 0,
-								},
-								["Parry"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
 					},
 					["DeathCount"] = 0,
 					["HOT_Time"] = 0,
-					["Damage"] = 103,
-					["RunicPowerGain"] = 0,
+					["HOTs"] = {
+					},
+					["ManaGain"] = 0,
 					["ElementTaken"] = {
 						["Melee"] = 0,
 						["Physical"] = 0,
 					},
 					["DOT_Time"] = 0,
-					["ElementTakenBlock"] = {
-					},
+					["Damage"] = 31,
 					["ElementDoneAbsorb"] = {
 					},
 					["TimeHeal"] = 0,
@@ -1604,70 +1916,56 @@ RecountPerCharDB = {
 					["Dispels"] = 0,
 					["PartialBlock"] = {
 					},
+					["FDamagedWho"] = {
+					},
+					["FAttacks"] = {
+					},
+					["RageGain"] = 0,
+					["ElementDone"] = {
+						["Fire"] = 31,
+						["Melee"] = 0,
+						["Frost"] = 0,
+					},
+					["ManaGainedFrom"] = {
+					},
 					["ElementHitsDone"] = {
-						["Frost"] = {
-							["Details"] = {
-								["Crit"] = {
-									["count"] = 0,
-								},
-								["Hit"] = {
-									["count"] = 3,
-								},
-							},
-							["amount"] = 3,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["Glancing"] = {
-									["count"] = 0,
-								},
-								["Dodge"] = {
-									["count"] = 0,
-								},
-								["Crit"] = {
-									["count"] = 0,
-								},
-								["Hit"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
 						["Fire"] = {
 							["Details"] = {
 								["Crit"] = {
 									["count"] = 0,
 								},
 								["Hit"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 1,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Crit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Frost"] = {
+							["Details"] = {
+								["Crit"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
 									["count"] = 0,
 								},
 							},
 							["amount"] = 0,
 						},
 					},
-					["FAttacks"] = {
+					["RageGained"] = {
 					},
-					["HealingTaken"] = 0,
-					["ElementDone"] = {
-						["Frost"] = 103,
-						["Melee"] = 0,
-						["Fire"] = 0,
-					},
-					["DamagedWho"] = {
-						["Mangy Wolf"] = {
+					["WhoDamaged"] = {
+						["Kobold Miner"] = {
 							["Details"] = {
-								["Frostbolt"] = {
-									["count"] = 103,
-								},
-							},
-							["amount"] = 103,
-						},
-						["Goldtooth"] = {
-							["Details"] = {
-								["Fire Blast"] = {
-									["count"] = 0,
-								},
-								["Frostbolt"] = {
+								["Melee"] = {
 									["count"] = 0,
 								},
 							},
@@ -1678,60 +1976,10 @@ RecountPerCharDB = {
 								["Melee"] = {
 									["count"] = 0,
 								},
-								["Frostbolt"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Kobold Miner"] = {
-							["Details"] = {
-								["Frostbolt"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Fire Blast"] = {
-									["count"] = 0,
-								},
 							},
 							["amount"] = 0,
 						},
 						["Kobold Tunneler"] = {
-							["Details"] = {
-								["Fire Blast"] = {
-									["count"] = 0,
-								},
-								["Frostbolt"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["ManaGainedFrom"] = {
-					},
-					["RunicPowerGained"] = {
-					},
-					["WhoDamaged"] = {
-						["Goldtooth"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Kobold Tunneler"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Kobold Miner"] = {
 							["Details"] = {
 								["Melee"] = {
 									["count"] = 0,
@@ -1747,20 +1995,11 @@ RecountPerCharDB = {
 							},
 							["amount"] = 0,
 						},
-						["Stonetusk Boar"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
 					},
 					["EnergyGainedFrom"] = {
 					},
-					["CCBroken"] = {
-					},
-					["RunicPowerGainedFrom"] = {
+					["Dispelled"] = 0,
+					["RunicPowerGained"] = {
 					},
 					["ElementDoneBlock"] = {
 					},
@@ -1769,12 +2008,17 @@ RecountPerCharDB = {
 					["OverHeals"] = {
 					},
 					["WhoHealed"] = {
+						["Aminal"] = {
+							["Details"] = {
+								["Renew"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
 					},
-					["HealedWho"] = {
-					},
+					["EnergyGain"] = 0,
 					["CCBreak"] = 0,
-					["ElementTakenAbsorb"] = {
-					},
 					["PartialAbsorb"] = {
 						["Falling"] = {
 							["Details"] = {
@@ -1808,11 +2052,18 @@ RecountPerCharDB = {
 									["count"] = 0,
 									["amount"] = 0,
 								},
+								["Absorbed"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
 							},
 							["count"] = 0,
 							["amount"] = 0,
 						},
 					},
+					["ActiveTime"] = 3.5,
 					["PartialResist"] = {
 						["Falling"] = {
 							["Details"] = {
@@ -1853,34 +2104,28 @@ RecountPerCharDB = {
 					},
 					["ManaGained"] = {
 					},
-					["FDamage"] = 0,
+					["ElementTakenAbsorb"] = {
+						["Melee"] = 0,
+					},
 					["Interrupts"] = 0,
 					["Overhealing"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["InterruptData"] = {
+					},
+					["WhoDispelled"] = {
+					},
 					["TimeSpent"] = {
-						["Mangy Wolf"] = {
-							["Details"] = {
-								["Frostbolt"] = {
-									["count"] = 6.62,
-								},
-							},
-							["amount"] = 6.62,
-						},
-						["Goldtooth"] = {
+						["Rabbit"] = {
 							["Details"] = {
 								["Fire Blast"] = {
-									["count"] = 0,
-								},
-								["Frostbolt"] = {
-									["count"] = 0,
+									["count"] = 3.5,
 								},
 							},
-							["amount"] = 0,
+							["amount"] = 3.5,
 						},
-						["Stonetusk Boar"] = {
+						["Sheep"] = {
 							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
 								["Frostbolt"] = {
 									["count"] = 0,
 								},
@@ -1889,6 +2134,31 @@ RecountPerCharDB = {
 						},
 						["Kobold Miner"] = {
 							["Details"] = {
+								["Frost Nova"] = {
+									["count"] = 0,
+								},
+								["Frostbolt"] = {
+									["count"] = 0,
+								},
+								["Fire Blast"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Stonetusk Boar"] = {
+							["Details"] = {
+								["Frostbolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Tunneler"] = {
+							["Details"] = {
+								["Frost Nova"] = {
+									["count"] = 0,
+								},
 								["Frostbolt"] = {
 									["count"] = 0,
 								},
@@ -1901,11 +2171,8 @@ RecountPerCharDB = {
 							},
 							["amount"] = 0,
 						},
-						["Kobold Tunneler"] = {
+						["Forest Spider"] = {
 							["Details"] = {
-								["Fire Blast"] = {
-									["count"] = 0,
-								},
 								["Frostbolt"] = {
 									["count"] = 0,
 								},
@@ -1913,23 +2180,37 @@ RecountPerCharDB = {
 							["amount"] = 0,
 						},
 					},
-					["WhoDispelled"] = {
-					},
-					["InterruptData"] = {
-					},
-					["ElementTakenResist"] = {
-					},
 					["Heals"] = {
 					},
-					["ActiveTime"] = 6.62,
+					["FDamage"] = 0,
 					["EnergyGained"] = {
 					},
-					["EnergyGain"] = 0,
+					["HealedWho"] = {
+					},
 					["Healing"] = 0,
-					["Dispelled"] = 0,
-					["RageGained"] = {
+					["RunicPowerGainedFrom"] = {
+					},
+					["CCBroken"] = {
 					},
 					["Attacks"] = {
+						["Frost Nova"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
 						["Frostbolt"] = {
 							["Details"] = {
 								["Crit"] = {
@@ -1939,34 +2220,18 @@ RecountPerCharDB = {
 									["amount"] = 0,
 								},
 								["Hit"] = {
-									["max"] = 35,
+									["max"] = 0,
 									["min"] = 0,
-									["count"] = 3,
-									["amount"] = 103,
+									["count"] = 0,
+									["amount"] = 0,
 								},
 							},
-							["count"] = 3,
-							["amount"] = 103,
+							["count"] = 0,
+							["amount"] = 0,
 						},
 						["Melee"] = {
 							["Details"] = {
-								["Glancing"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Dodge"] = {
-									["count"] = 0,
-									["amount"] = 0,
-								},
 								["Crit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Hit"] = {
 									["max"] = 0,
 									["min"] = 0,
 									["count"] = 0,
@@ -1985,45 +2250,28 @@ RecountPerCharDB = {
 									["amount"] = 0,
 								},
 								["Hit"] = {
-									["max"] = 0,
+									["max"] = 31,
 									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
+									["count"] = 1,
+									["amount"] = 31,
 								},
 							},
-							["count"] = 0,
-							["amount"] = 0,
+							["count"] = 1,
+							["amount"] = 31,
 						},
 					},
-					["RageGain"] = 0,
-					["FDamagedWho"] = {
-					},
-					["TimeDamage"] = 6.62,
-					["TimeDamaging"] = {
-						["Mangy Wolf"] = {
-							["Details"] = {
-								["Frostbolt"] = {
-									["count"] = 6.62,
-								},
-							},
-							["amount"] = 6.62,
-						},
-						["Goldtooth"] = {
+					["HealingTaken"] = 0,
+					["DamagedWho"] = {
+						["Rabbit"] = {
 							["Details"] = {
 								["Fire Blast"] = {
-									["count"] = 0,
-								},
-								["Frostbolt"] = {
-									["count"] = 0,
+									["count"] = 31,
 								},
 							},
-							["amount"] = 0,
+							["amount"] = 31,
 						},
-						["Stonetusk Boar"] = {
+						["Sheep"] = {
 							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
 								["Frostbolt"] = {
 									["count"] = 0,
 								},
@@ -2032,6 +2280,31 @@ RecountPerCharDB = {
 						},
 						["Kobold Miner"] = {
 							["Details"] = {
+								["Frost Nova"] = {
+									["count"] = 0,
+								},
+								["Frostbolt"] = {
+									["count"] = 0,
+								},
+								["Fire Blast"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Stonetusk Boar"] = {
+							["Details"] = {
+								["Frostbolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Tunneler"] = {
+							["Details"] = {
+								["Frost Nova"] = {
+									["count"] = 0,
+								},
 								["Frostbolt"] = {
 									["count"] = 0,
 								},
@@ -2044,11 +2317,8 @@ RecountPerCharDB = {
 							},
 							["amount"] = 0,
 						},
-						["Kobold Tunneler"] = {
+						["Forest Spider"] = {
 							["Details"] = {
-								["Fire Blast"] = {
-									["count"] = 0,
-								},
 								["Frostbolt"] = {
 									["count"] = 0,
 								},
@@ -2056,8 +2326,74 @@ RecountPerCharDB = {
 							["amount"] = 0,
 						},
 					},
-					["ManaGain"] = 0,
-					["HOTs"] = {
+					["TimeDamage"] = 3.5,
+					["TimeDamaging"] = {
+						["Rabbit"] = {
+							["Details"] = {
+								["Fire Blast"] = {
+									["count"] = 3.5,
+								},
+							},
+							["amount"] = 3.5,
+						},
+						["Sheep"] = {
+							["Details"] = {
+								["Frostbolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Miner"] = {
+							["Details"] = {
+								["Frost Nova"] = {
+									["count"] = 0,
+								},
+								["Frostbolt"] = {
+									["count"] = 0,
+								},
+								["Fire Blast"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Stonetusk Boar"] = {
+							["Details"] = {
+								["Frostbolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Tunneler"] = {
+							["Details"] = {
+								["Frost Nova"] = {
+									["count"] = 0,
+								},
+								["Frostbolt"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Fire Blast"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Forest Spider"] = {
+							["Details"] = {
+								["Frostbolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["RunicPowerGain"] = 0,
+					["ElementTakenBlock"] = {
 					},
 					["DispelledWho"] = {
 					},
@@ -2066,41 +2402,50 @@ RecountPerCharDB = {
 					["DOTs"] = {
 					},
 					["ElementDoneResist"] = {
-						["Fire"] = 0,
+						["Fire"] = 15,
 					},
 					["Ressed"] = 0,
-					["DamageTaken"] = 4,
+					["DamageTaken"] = 19,
 					["RageGainedFrom"] = {
 					},
 					["ElementHitsTaken"] = {
 						["Melee"] = {
 							["Details"] = {
-								["Parry"] = {
-									["count"] = 0,
+								["Absorb"] = {
+									["count"] = 1,
+								},
+								["Hit"] = {
+									["count"] = 4,
 								},
 								["Miss"] = {
 									["count"] = 1,
 								},
-								["Dodge"] = {
+							},
+							["amount"] = 6,
+						},
+						["Physical"] = {
+							["Details"] = {
+								["Parry"] = {
 									["count"] = 0,
 								},
 								["Hit"] = {
-									["count"] = 1,
+									["count"] = 0,
 								},
 							},
-							["amount"] = 2,
+							["amount"] = 0,
 						},
 					},
 					["DeathCount"] = 0,
 					["HOT_Time"] = 0,
-					["Damage"] = 126,
-					["RunicPowerGain"] = 0,
+					["HOTs"] = {
+					},
+					["ManaGain"] = 0,
 					["ElementTaken"] = {
-						["Melee"] = 4,
+						["Melee"] = 19,
+						["Physical"] = 0,
 					},
 					["DOT_Time"] = 0,
-					["ElementTakenBlock"] = {
-					},
+					["Damage"] = 218,
 					["ElementDoneAbsorb"] = {
 					},
 					["TimeHeal"] = 0,
@@ -2109,6 +2454,18 @@ RecountPerCharDB = {
 					["Dispels"] = 0,
 					["PartialBlock"] = {
 					},
+					["FDamagedWho"] = {
+					},
+					["FAttacks"] = {
+					},
+					["RageGain"] = 0,
+					["ElementDone"] = {
+						["Frost"] = 202,
+						["Melee"] = 0,
+						["Fire"] = 16,
+					},
+					["ManaGainedFrom"] = {
+					},
 					["ElementHitsDone"] = {
 						["Frost"] = {
 							["Details"] = {
@@ -2116,10 +2473,10 @@ RecountPerCharDB = {
 									["count"] = 0,
 								},
 								["Hit"] = {
-									["count"] = 3,
+									["count"] = 6,
 								},
 							},
-							["amount"] = 3,
+							["amount"] = 6,
 						},
 						["Melee"] = {
 							["Details"] = {
@@ -2127,10 +2484,16 @@ RecountPerCharDB = {
 									["count"] = 0,
 								},
 								["Hit"] = {
-									["count"] = 2,
+									["count"] = 0,
+								},
+								["Crit"] = {
+									["count"] = 0,
+								},
+								["Dodge"] = {
+									["count"] = 0,
 								},
 							},
-							["amount"] = 2,
+							["amount"] = 0,
 						},
 						["Fire"] = {
 							["Details"] = {
@@ -2138,113 +2501,15 @@ RecountPerCharDB = {
 									["count"] = 0,
 								},
 								["Hit"] = {
-									["count"] = 0,
+									["count"] = 1,
 								},
 							},
-							["amount"] = 0,
+							["amount"] = 1,
 						},
 					},
-					["FAttacks"] = {
-					},
-					["HealingTaken"] = 0,
-					["ElementDone"] = {
-						["Frost"] = 109,
-						["Melee"] = 17,
-						["Fire"] = 0,
-					},
-					["DamagedWho"] = {
-						["Mangy Wolf"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 17,
-								},
-								["Frostbolt"] = {
-									["count"] = 109,
-								},
-							},
-							["amount"] = 126,
-						},
-						["Goldtooth"] = {
-							["Details"] = {
-								["Frost Nova"] = {
-									["count"] = 0,
-								},
-								["Frostbolt"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Kobold Tunneler"] = {
-							["Details"] = {
-								["Frost Nova"] = {
-									["count"] = 0,
-								},
-								["Frostbolt"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Fire Blast"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Kobold Miner"] = {
-							["Details"] = {
-								["Frost Nova"] = {
-									["count"] = 0,
-								},
-								["Frostbolt"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Fire Blast"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Forest Spider"] = {
-							["Details"] = {
-								["Fire Blast"] = {
-									["count"] = 0,
-								},
-								["Frostbolt"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Stonetusk Boar"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Frostbolt"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["ManaGainedFrom"] = {
-					},
-					["RunicPowerGained"] = {
+					["RageGained"] = {
 					},
 					["WhoDamaged"] = {
-						["Mangy Wolf"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 4,
-								},
-							},
-							["amount"] = 4,
-						},
 						["Goldtooth"] = {
 							["Details"] = {
 								["Melee"] = {
@@ -2256,30 +2521,30 @@ RecountPerCharDB = {
 						["Kobold Tunneler"] = {
 							["Details"] = {
 								["Melee"] = {
-									["count"] = 0,
+									["count"] = 12,
 								},
 							},
-							["amount"] = 0,
+							["amount"] = 12,
 						},
 						["Kobold Miner"] = {
 							["Details"] = {
 								["Melee"] = {
-									["count"] = 0,
+									["count"] = 7,
 								},
 							},
-							["amount"] = 0,
-						},
-						["Forest Spider"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
+							["amount"] = 7,
 						},
 						["Stonetusk Boar"] = {
 							["Details"] = {
 								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Environment"] = {
+							["Details"] = {
+								["Falling"] = {
 									["count"] = 0,
 								},
 							},
@@ -2288,9 +2553,8 @@ RecountPerCharDB = {
 					},
 					["EnergyGainedFrom"] = {
 					},
-					["CCBroken"] = {
-					},
-					["RunicPowerGainedFrom"] = {
+					["Dispelled"] = 0,
+					["RunicPowerGained"] = {
 					},
 					["ElementDoneBlock"] = {
 					},
@@ -2299,116 +2563,120 @@ RecountPerCharDB = {
 					["OverHeals"] = {
 					},
 					["WhoHealed"] = {
-						["Macolax"] = {
+					},
+					["EnergyGain"] = 0,
+					["CCBreak"] = 0,
+					["PartialAbsorb"] = {
+						["Falling"] = {
 							["Details"] = {
-								["Judgement of Light"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
 									["count"] = 0,
+									["amount"] = 0,
 								},
 							},
+							["count"] = 0,
 							["amount"] = 0,
 						},
-					},
-					["HealedWho"] = {
-					},
-					["CCBreak"] = 0,
-					["ElementTakenAbsorb"] = {
-					},
-					["PartialAbsorb"] = {
+						["Pierce Armor"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
 						["Melee"] = {
 							["Details"] = {
 								["No Absorb"] = {
 									["max"] = 0,
 									["min"] = 0,
-									["count"] = 2,
+									["count"] = 5,
+									["amount"] = 0,
+								},
+								["Absorbed"] = {
+									["max"] = 7,
+									["min"] = 7,
+									["count"] = 1,
+									["amount"] = 7,
+								},
+							},
+							["count"] = 6,
+							["amount"] = 7,
+						},
+					},
+					["ActiveTime"] = 16.28,
+					["PartialResist"] = {
+						["Falling"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
 									["amount"] = 0,
 								},
 							},
-							["count"] = 2,
+							["count"] = 0,
 							["amount"] = 0,
 						},
-					},
-					["PartialResist"] = {
+						["Pierce Armor"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
 						["Melee"] = {
 							["Details"] = {
 								["No Resist"] = {
 									["max"] = 0,
 									["min"] = 0,
-									["count"] = 2,
+									["count"] = 6,
 									["amount"] = 0,
 								},
 							},
-							["count"] = 2,
+							["count"] = 6,
 							["amount"] = 0,
 						},
 					},
 					["ManaGained"] = {
 					},
-					["FDamage"] = 0,
+					["ElementTakenAbsorb"] = {
+						["Melee"] = 7,
+					},
 					["Interrupts"] = 0,
 					["Overhealing"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["InterruptData"] = {
+					},
+					["WhoDispelled"] = {
+					},
 					["TimeSpent"] = {
 						["Mangy Wolf"] = {
 							["Details"] = {
-								["Melee"] = {
-									["count"] = 3.51,
-								},
 								["Frostbolt"] = {
-									["count"] = 6.69,
+									["count"] = 0,
 								},
 							},
-							["amount"] = 10.2,
+							["amount"] = 0,
 						},
 						["Goldtooth"] = {
 							["Details"] = {
-								["Frost Nova"] = {
-									["count"] = 0,
-								},
 								["Frostbolt"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Kobold Tunneler"] = {
-							["Details"] = {
-								["Frost Nova"] = {
-									["count"] = 0,
-								},
-								["Frostbolt"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
 									["count"] = 0,
 								},
 								["Fire Blast"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Kobold Miner"] = {
-							["Details"] = {
-								["Frost Nova"] = {
-									["count"] = 0,
-								},
-								["Frostbolt"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Fire Blast"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Forest Spider"] = {
-							["Details"] = {
-								["Fire Blast"] = {
-									["count"] = 0,
-								},
-								["Frostbolt"] = {
 									["count"] = 0,
 								},
 							},
@@ -2425,35 +2693,59 @@ RecountPerCharDB = {
 							},
 							["amount"] = 0,
 						},
-					},
-					["WhoDispelled"] = {
-					},
-					["InterruptData"] = {
-					},
-					["ElementTakenResist"] = {
+						["Kobold Miner"] = {
+							["Details"] = {
+								["Frostbolt"] = {
+									["count"] = 5.07,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Fire Blast"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 5.07,
+						},
+						["Kobold Tunneler"] = {
+							["Details"] = {
+								["Frost Nova"] = {
+									["count"] = 3.5,
+								},
+								["Frostbolt"] = {
+									["count"] = 7.58,
+								},
+								["Fire Blast"] = {
+									["count"] = 0.13,
+								},
+							},
+							["amount"] = 11.21,
+						},
 					},
 					["Heals"] = {
 					},
-					["ActiveTime"] = 10.2,
+					["FDamage"] = 0,
 					["EnergyGained"] = {
 					},
-					["EnergyGain"] = 0,
+					["HealedWho"] = {
+					},
 					["Healing"] = 0,
-					["Dispelled"] = 0,
-					["RageGained"] = {
+					["RunicPowerGainedFrom"] = {
+					},
+					["CCBroken"] = {
 					},
 					["Attacks"] = {
 						["Frost Nova"] = {
 							["Details"] = {
 								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
+									["max"] = 21,
+									["min"] = 21,
+									["count"] = 1,
+									["amount"] = 21,
 								},
 							},
-							["count"] = 0,
-							["amount"] = 0,
+							["count"] = 1,
+							["amount"] = 21,
 						},
 						["Frostbolt"] = {
 							["Details"] = {
@@ -2466,12 +2758,12 @@ RecountPerCharDB = {
 								["Hit"] = {
 									["max"] = 38,
 									["min"] = 0,
-									["count"] = 3,
-									["amount"] = 109,
+									["count"] = 5,
+									["amount"] = 181,
 								},
 							},
-							["count"] = 3,
-							["amount"] = 109,
+							["count"] = 5,
+							["amount"] = 181,
 						},
 						["Melee"] = {
 							["Details"] = {
@@ -2482,14 +2774,24 @@ RecountPerCharDB = {
 									["amount"] = 0,
 								},
 								["Hit"] = {
-									["max"] = 9,
+									["max"] = 0,
 									["min"] = 0,
-									["count"] = 2,
-									["amount"] = 17,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Dodge"] = {
+									["count"] = 0,
+									["amount"] = 0,
 								},
 							},
-							["count"] = 2,
-							["amount"] = 17,
+							["count"] = 0,
+							["amount"] = 0,
 						},
 						["Fire Blast"] = {
 							["Details"] = {
@@ -2500,83 +2802,32 @@ RecountPerCharDB = {
 									["amount"] = 0,
 								},
 								["Hit"] = {
-									["max"] = 0,
+									["max"] = 16,
 									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
+									["count"] = 1,
+									["amount"] = 16,
 								},
 							},
-							["count"] = 0,
-							["amount"] = 0,
+							["count"] = 1,
+							["amount"] = 16,
 						},
 					},
-					["RageGain"] = 0,
-					["FDamagedWho"] = {
-					},
-					["TimeDamage"] = 10.2,
-					["TimeDamaging"] = {
+					["HealingTaken"] = 0,
+					["DamagedWho"] = {
 						["Mangy Wolf"] = {
 							["Details"] = {
-								["Melee"] = {
-									["count"] = 3.51,
-								},
 								["Frostbolt"] = {
-									["count"] = 6.69,
+									["count"] = 0,
 								},
 							},
-							["amount"] = 10.2,
+							["amount"] = 0,
 						},
 						["Goldtooth"] = {
 							["Details"] = {
-								["Frost Nova"] = {
-									["count"] = 0,
-								},
 								["Frostbolt"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Kobold Tunneler"] = {
-							["Details"] = {
-								["Frost Nova"] = {
-									["count"] = 0,
-								},
-								["Frostbolt"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
 									["count"] = 0,
 								},
 								["Fire Blast"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Kobold Miner"] = {
-							["Details"] = {
-								["Frost Nova"] = {
-									["count"] = 0,
-								},
-								["Frostbolt"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Fire Blast"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Forest Spider"] = {
-							["Details"] = {
-								["Fire Blast"] = {
-									["count"] = 0,
-								},
-								["Frostbolt"] = {
 									["count"] = 0,
 								},
 							},
@@ -2593,9 +2844,98 @@ RecountPerCharDB = {
 							},
 							["amount"] = 0,
 						},
+						["Kobold Miner"] = {
+							["Details"] = {
+								["Frostbolt"] = {
+									["count"] = 72,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Fire Blast"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 72,
+						},
+						["Kobold Tunneler"] = {
+							["Details"] = {
+								["Frost Nova"] = {
+									["count"] = 21,
+								},
+								["Frostbolt"] = {
+									["count"] = 109,
+								},
+								["Fire Blast"] = {
+									["count"] = 16,
+								},
+							},
+							["amount"] = 146,
+						},
 					},
-					["ManaGain"] = 0,
-					["HOTs"] = {
+					["TimeDamage"] = 16.28,
+					["TimeDamaging"] = {
+						["Mangy Wolf"] = {
+							["Details"] = {
+								["Frostbolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Goldtooth"] = {
+							["Details"] = {
+								["Frostbolt"] = {
+									["count"] = 0,
+								},
+								["Fire Blast"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Stonetusk Boar"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Frostbolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Miner"] = {
+							["Details"] = {
+								["Frostbolt"] = {
+									["count"] = 5.07,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Fire Blast"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 5.07,
+						},
+						["Kobold Tunneler"] = {
+							["Details"] = {
+								["Frost Nova"] = {
+									["count"] = 3.5,
+								},
+								["Frostbolt"] = {
+									["count"] = 7.58,
+								},
+								["Fire Blast"] = {
+									["count"] = 0.13,
+								},
+							},
+							["amount"] = 11.21,
+						},
+					},
+					["RunicPowerGain"] = 0,
+					["ElementTakenBlock"] = {
 					},
 					["DispelledWho"] = {
 					},
@@ -2604,33 +2944,36 @@ RecountPerCharDB = {
 					["DOTs"] = {
 					},
 					["ElementDoneResist"] = {
-						["Fire"] = 14,
+						["Fire"] = 0,
 					},
 					["Ressed"] = 0,
-					["DamageTaken"] = 14,
+					["DamageTaken"] = 0,
 					["RageGainedFrom"] = {
 					},
 					["ElementHitsTaken"] = {
 						["Melee"] = {
 							["Details"] = {
+								["Hit"] = {
+									["count"] = 0,
+								},
+								["Absorb"] = {
+									["count"] = 0,
+								},
+								["Dodge"] = {
+									["count"] = 0,
+								},
 								["Miss"] = {
 									["count"] = 0,
 								},
-								["Parry"] = {
-									["count"] = 0,
-								},
-								["Crit"] = {
-									["count"] = 0,
-								},
-								["Hit"] = {
-									["count"] = 3,
-								},
 							},
-							["amount"] = 3,
+							["amount"] = 0,
 						},
 						["Physical"] = {
 							["Details"] = {
 								["Miss"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
 									["count"] = 0,
 								},
 							},
@@ -2639,14 +2982,15 @@ RecountPerCharDB = {
 					},
 					["DeathCount"] = 0,
 					["HOT_Time"] = 0,
-					["Damage"] = 127,
-					["RunicPowerGain"] = 0,
+					["HOTs"] = {
+					},
+					["ManaGain"] = 0,
 					["ElementTaken"] = {
-						["Melee"] = 14,
+						["Melee"] = 0,
+						["Physical"] = 0,
 					},
 					["DOT_Time"] = 0,
-					["ElementTakenBlock"] = {
-					},
+					["Damage"] = 31,
 					["ElementDoneAbsorb"] = {
 					},
 					["TimeHeal"] = 0,
@@ -2655,29 +2999,19 @@ RecountPerCharDB = {
 					["Dispels"] = 0,
 					["PartialBlock"] = {
 					},
+					["FDamagedWho"] = {
+					},
+					["FAttacks"] = {
+					},
+					["RageGain"] = 0,
+					["ElementDone"] = {
+						["Fire"] = 31,
+						["Melee"] = 0,
+						["Frost"] = 0,
+					},
+					["ManaGainedFrom"] = {
+					},
 					["ElementHitsDone"] = {
-						["Frost"] = {
-							["Details"] = {
-								["Crit"] = {
-									["count"] = 1,
-								},
-								["Hit"] = {
-									["count"] = 1,
-								},
-							},
-							["amount"] = 2,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["Crit"] = {
-									["count"] = 0,
-								},
-								["Hit"] = {
-									["count"] = 1,
-								},
-							},
-							["amount"] = 1,
-						},
 						["Fire"] = {
 							["Details"] = {
 								["Crit"] = {
@@ -2689,1445 +3023,1431 @@ RecountPerCharDB = {
 							},
 							["amount"] = 1,
 						},
-					},
-					["FAttacks"] = {
-					},
-					["HealingTaken"] = 0,
-					["ElementDone"] = {
-						["Frost"] = 91,
-						["Melee"] = 14,
-						["Fire"] = 22,
-					},
-					["DamagedWho"] = {
-						["Kobold Miner"] = {
-							["Details"] = {
-								["Frostbolt"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Fire Blast"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Stonetusk Boar"] = {
-							["Details"] = {
-								["Frostbolt"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Goldtooth"] = {
-							["Details"] = {
-								["Fire Blast"] = {
-									["count"] = 0,
-								},
-								["Frostbolt"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Kobold Tunneler"] = {
-							["Details"] = {
-								["Frost Nova"] = {
-									["count"] = 0,
-								},
-								["Frostbolt"] = {
-									["count"] = 91,
-								},
-								["Melee"] = {
-									["count"] = 14,
-								},
-								["Fire Blast"] = {
-									["count"] = 22,
-								},
-							},
-							["amount"] = 127,
-						},
-					},
-					["ManaGainedFrom"] = {
-					},
-					["RunicPowerGained"] = {
-					},
-					["WhoDamaged"] = {
-						["Kobold Miner"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Goldtooth"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Kobold Tunneler"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 14,
-								},
-							},
-							["amount"] = 14,
-						},
-					},
-					["EnergyGainedFrom"] = {
-					},
-					["CCBroken"] = {
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementDoneBlock"] = {
-					},
-					["TimeHealing"] = {
-					},
-					["OverHeals"] = {
-					},
-					["WhoHealed"] = {
-					},
-					["HealedWho"] = {
-					},
-					["CCBreak"] = 0,
-					["ElementTakenAbsorb"] = {
-					},
-					["PartialAbsorb"] = {
-						["Melee"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 3,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 3,
-							["amount"] = 0,
-						},
-						["Pierce Armor"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["PartialResist"] = {
-						["Melee"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 3,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 3,
-							["amount"] = 0,
-						},
-						["Pierce Armor"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["ManaGained"] = {
-					},
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
-					["Overhealing"] = 0,
-					["TimeSpent"] = {
-						["Kobold Miner"] = {
-							["Details"] = {
-								["Frostbolt"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Fire Blast"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Stonetusk Boar"] = {
-							["Details"] = {
-								["Frostbolt"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Goldtooth"] = {
-							["Details"] = {
-								["Fire Blast"] = {
-									["count"] = 0,
-								},
-								["Frostbolt"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Kobold Tunneler"] = {
-							["Details"] = {
-								["Frost Nova"] = {
-									["count"] = 0,
-								},
-								["Frostbolt"] = {
-									["count"] = 5.71,
-								},
-								["Melee"] = {
-									["count"] = 1.74,
-								},
-								["Fire Blast"] = {
-									["count"] = 0.18,
-								},
-							},
-							["amount"] = 7.63,
-						},
-					},
-					["WhoDispelled"] = {
-					},
-					["InterruptData"] = {
-					},
-					["ElementTakenResist"] = {
-					},
-					["Heals"] = {
-					},
-					["ActiveTime"] = 7.63,
-					["EnergyGained"] = {
-					},
-					["EnergyGain"] = 0,
-					["Healing"] = 0,
-					["Dispelled"] = 0,
-					["RageGained"] = {
-					},
-					["Attacks"] = {
-						["Frost Nova"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Frostbolt"] = {
-							["Details"] = {
-								["Crit"] = {
-									["max"] = 53,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 53,
-								},
-								["Hit"] = {
-									["max"] = 38,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 38,
-								},
-							},
-							["count"] = 2,
-							["amount"] = 91,
-						},
 						["Melee"] = {
 							["Details"] = {
 								["Crit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Hit"] = {
-									["max"] = 14,
-									["min"] = 14,
-									["count"] = 1,
-									["amount"] = 14,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 14,
-						},
-						["Fire Blast"] = {
-							["Details"] = {
-								["Crit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Hit"] = {
-									["max"] = 22,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 22,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 22,
-						},
-					},
-					["RageGain"] = 0,
-					["FDamagedWho"] = {
-					},
-					["TimeDamage"] = 7.63,
-					["TimeDamaging"] = {
-						["Kobold Miner"] = {
-							["Details"] = {
-								["Frostbolt"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Fire Blast"] = {
 									["count"] = 0,
 								},
 							},
 							["amount"] = 0,
 						},
-						["Stonetusk Boar"] = {
-							["Details"] = {
-								["Frostbolt"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Goldtooth"] = {
-							["Details"] = {
-								["Fire Blast"] = {
-									["count"] = 0,
-								},
-								["Frostbolt"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Kobold Tunneler"] = {
-							["Details"] = {
-								["Frost Nova"] = {
-									["count"] = 0,
-								},
-								["Frostbolt"] = {
-									["count"] = 5.71,
-								},
-								["Melee"] = {
-									["count"] = 1.74,
-								},
-								["Fire Blast"] = {
-									["count"] = 0.18,
-								},
-							},
-							["amount"] = 7.63,
-						},
-					},
-					["ManaGain"] = 0,
-					["HOTs"] = {
-					},
-					["DispelledWho"] = {
-					},
-				},
-				["Fight1"] = {
-					["DOTs"] = {
-					},
-					["ElementDoneResist"] = {
-						["Fire"] = 14,
-					},
-					["Ressed"] = 0,
-					["DamageTaken"] = 14,
-					["RageGainedFrom"] = {
-					},
-					["ElementHitsTaken"] = {
-						["Melee"] = {
-							["Details"] = {
-								["Miss"] = {
-									["count"] = 0,
-								},
-								["Parry"] = {
-									["count"] = 0,
-								},
-								["Crit"] = {
-									["count"] = 0,
-								},
-								["Hit"] = {
-									["count"] = 3,
-								},
-							},
-							["amount"] = 3,
-						},
-						["Physical"] = {
-							["Details"] = {
-								["Miss"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["DeathCount"] = 0,
-					["HOT_Time"] = 0,
-					["Damage"] = 127,
-					["RunicPowerGain"] = 0,
-					["ElementTaken"] = {
-						["Melee"] = 14,
-					},
-					["DOT_Time"] = 0,
-					["ElementTakenBlock"] = {
-					},
-					["ElementDoneAbsorb"] = {
-					},
-					["TimeHeal"] = 0,
-					["RessedWho"] = {
-					},
-					["Dispels"] = 0,
-					["PartialBlock"] = {
-					},
-					["ElementHitsDone"] = {
 						["Frost"] = {
 							["Details"] = {
 								["Crit"] = {
-									["count"] = 1,
-								},
-								["Hit"] = {
-									["count"] = 1,
-								},
-							},
-							["amount"] = 2,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["Crit"] = {
 									["count"] = 0,
 								},
 								["Hit"] = {
-									["count"] = 1,
-								},
-							},
-							["amount"] = 1,
-						},
-						["Fire"] = {
-							["Details"] = {
-								["Crit"] = {
-									["count"] = 0,
-								},
-								["Hit"] = {
-									["count"] = 1,
-								},
-							},
-							["amount"] = 1,
-						},
-					},
-					["FAttacks"] = {
-					},
-					["HealingTaken"] = 0,
-					["ElementDone"] = {
-						["Frost"] = 91,
-						["Melee"] = 14,
-						["Fire"] = 22,
-					},
-					["DamagedWho"] = {
-						["Kobold Miner"] = {
-							["Details"] = {
-								["Frostbolt"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Fire Blast"] = {
 									["count"] = 0,
 								},
 							},
 							["amount"] = 0,
 						},
-						["Stonetusk Boar"] = {
-							["Details"] = {
-								["Frostbolt"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Goldtooth"] = {
-							["Details"] = {
-								["Fire Blast"] = {
-									["count"] = 0,
-								},
-								["Frostbolt"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Kobold Tunneler"] = {
-							["Details"] = {
-								["Frost Nova"] = {
-									["count"] = 0,
-								},
-								["Frostbolt"] = {
-									["count"] = 91,
-								},
-								["Melee"] = {
-									["count"] = 14,
-								},
-								["Fire Blast"] = {
-									["count"] = 22,
-								},
-							},
-							["amount"] = 127,
-						},
 					},
-					["ManaGainedFrom"] = {
-					},
-					["RunicPowerGained"] = {
-					},
-					["WhoDamaged"] = {
-						["Kobold Miner"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Goldtooth"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Kobold Tunneler"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 14,
-								},
-							},
-							["amount"] = 14,
-						},
-					},
-					["EnergyGainedFrom"] = {
-					},
-					["CCBroken"] = {
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementDoneBlock"] = {
-					},
-					["TimeHealing"] = {
-					},
-					["OverHeals"] = {
-					},
-					["WhoHealed"] = {
-					},
-					["HealedWho"] = {
-					},
-					["CCBreak"] = 0,
-					["ElementTakenAbsorb"] = {
-					},
-					["PartialAbsorb"] = {
-						["Melee"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 3,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 3,
-							["amount"] = 0,
-						},
-						["Pierce Armor"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["PartialResist"] = {
-						["Melee"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 3,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 3,
-							["amount"] = 0,
-						},
-						["Pierce Armor"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["ManaGained"] = {
-					},
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
-					["Overhealing"] = 0,
-					["TimeSpent"] = {
-						["Kobold Miner"] = {
-							["Details"] = {
-								["Frostbolt"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Fire Blast"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Stonetusk Boar"] = {
-							["Details"] = {
-								["Frostbolt"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Goldtooth"] = {
-							["Details"] = {
-								["Fire Blast"] = {
-									["count"] = 0,
-								},
-								["Frostbolt"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Kobold Tunneler"] = {
-							["Details"] = {
-								["Frost Nova"] = {
-									["count"] = 0,
-								},
-								["Frostbolt"] = {
-									["count"] = 5.71,
-								},
-								["Melee"] = {
-									["count"] = 1.74,
-								},
-								["Fire Blast"] = {
-									["count"] = 0.18,
-								},
-							},
-							["amount"] = 7.63,
-						},
-					},
-					["WhoDispelled"] = {
-					},
-					["InterruptData"] = {
-					},
-					["ElementTakenResist"] = {
-					},
-					["Heals"] = {
-					},
-					["ActiveTime"] = 7.63,
-					["EnergyGained"] = {
-					},
-					["EnergyGain"] = 0,
-					["Healing"] = 0,
-					["Dispelled"] = 0,
 					["RageGained"] = {
 					},
-					["Attacks"] = {
-						["Frost Nova"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Frostbolt"] = {
-							["Details"] = {
-								["Crit"] = {
-									["max"] = 53,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 53,
-								},
-								["Hit"] = {
-									["max"] = 38,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 38,
-								},
-							},
-							["count"] = 2,
-							["amount"] = 91,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["Crit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Hit"] = {
-									["max"] = 14,
-									["min"] = 14,
-									["count"] = 1,
-									["amount"] = 14,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 14,
-						},
-						["Fire Blast"] = {
-							["Details"] = {
-								["Crit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Hit"] = {
-									["max"] = 22,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 22,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 22,
-						},
-					},
-					["RageGain"] = 0,
-					["FDamagedWho"] = {
-					},
-					["TimeDamage"] = 7.63,
-					["TimeDamaging"] = {
-						["Kobold Miner"] = {
-							["Details"] = {
-								["Frostbolt"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Fire Blast"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Stonetusk Boar"] = {
-							["Details"] = {
-								["Frostbolt"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Goldtooth"] = {
-							["Details"] = {
-								["Fire Blast"] = {
-									["count"] = 0,
-								},
-								["Frostbolt"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Kobold Tunneler"] = {
-							["Details"] = {
-								["Frost Nova"] = {
-									["count"] = 0,
-								},
-								["Frostbolt"] = {
-									["count"] = 5.71,
-								},
-								["Melee"] = {
-									["count"] = 1.74,
-								},
-								["Fire Blast"] = {
-									["count"] = 0.18,
-								},
-							},
-							["amount"] = 7.63,
-						},
-					},
-					["ManaGain"] = 0,
-					["HOTs"] = {
-					},
-					["DispelledWho"] = {
-					},
-				},
-				["OverallData"] = {
-					["ElementDoneBlock"] = {
-						["Melee"] = 3,
-					},
-					["ElementDoneResist"] = {
-						["Fire"] = 769,
-					},
-					["TimeSpent"] = {
-						["Mangy Wolf"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 3.51,
-								},
-								["Frostbolt"] = {
-									["count"] = 21.41,
-								},
-							},
-							["amount"] = 24.92,
-						},
-						["Goldtooth"] = {
-							["Details"] = {
-								["Frost Nova"] = {
-									["count"] = 1.81,
-								},
-								["Frostbolt"] = {
-									["count"] = 30.58,
-								},
-								["Fire Blast"] = {
-									["count"] = 1.23,
-								},
-							},
-							["amount"] = 33.62,
-						},
-						["Sheep"] = {
-							["Details"] = {
-								["Frostbolt"] = {
-									["count"] = 10.5,
-								},
-							},
-							["amount"] = 10.5,
-						},
-						["Forest Spider"] = {
-							["Details"] = {
-								["Fire Blast"] = {
-									["count"] = 1.62,
-								},
-								["Frostbolt"] = {
-									["count"] = 30.48,
-								},
-							},
-							["amount"] = 32.1,
-						},
-						["Kobold Miner"] = {
-							["Details"] = {
-								["Frost Nova"] = {
-									["count"] = 0,
-								},
-								["Frostbolt"] = {
-									["count"] = 469.1200000000001,
-								},
-								["Melee"] = {
-									["count"] = 32.53,
-								},
-								["Fire Blast"] = {
-									["count"] = 12.69,
-								},
-							},
-							["amount"] = 514.34,
-						},
-						["Kobold Tunneler"] = {
-							["Details"] = {
-								["Frost Nova"] = {
-									["count"] = 5.46,
-								},
-								["Frostbolt"] = {
-									["count"] = 919.0500000000001,
-								},
-								["Melee"] = {
-									["count"] = 23.37,
-								},
-								["Fire Blast"] = {
-									["count"] = 41.82000000000001,
-								},
-							},
-							["amount"] = 989.7000000000003,
-						},
-						["Stonetusk Boar"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 32.74,
-								},
-								["Frostbolt"] = {
-									["count"] = 28.76,
-								},
-							},
-							["amount"] = 61.5,
-						},
-					},
-					["DamageTaken"] = 1472,
-					["PartialResist"] = {
-						["Falling"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 2,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 2,
-							["amount"] = 0,
-						},
-						["Pierce Armor"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 4,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 4,
-							["amount"] = 0,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 316,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 316,
-							["amount"] = 0,
-						},
-					},
-					["PartialAbsorb"] = {
-						["Falling"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 2,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 2,
-							["amount"] = 0,
-						},
-						["Pierce Armor"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 4,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 4,
-							["amount"] = 0,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 316,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 316,
-							["amount"] = 0,
-						},
-					},
-					["ActiveTime"] = 1666.679999999999,
-					["ElementTaken"] = {
-						["Melee"] = 1434,
-						["Physical"] = 38,
-					},
-					["Damage"] = 25693,
-					["WhoHealed"] = {
-						["Macolax"] = {
-							["Details"] = {
-								["Judgement of Light"] = {
-									["count"] = 4,
-								},
-							},
-							["amount"] = 4,
-						},
-					},
-					["Attacks"] = {
-						["Frost Nova"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 22,
-									["min"] = 19,
-									["count"] = 7,
-									["amount"] = 146,
-								},
-							},
-							["count"] = 7,
-							["amount"] = 146,
-						},
-						["Frostbolt"] = {
-							["Details"] = {
-								["Crit"] = {
-									["max"] = 57,
-									["min"] = 50,
-									["count"] = 39,
-									["amount"] = 2070,
-								},
-								["Hit"] = {
-									["max"] = 38,
-									["min"] = 33,
-									["count"] = 604,
-									["amount"] = 21644,
-								},
-							},
-							["count"] = 643,
-							["amount"] = 23714,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["Glancing"] = {
-									["max"] = 21,
-									["min"] = 11,
-									["count"] = 8,
-									["amount"] = 124,
-								},
-								["Dodge"] = {
-									["count"] = 1,
-									["amount"] = 0,
-								},
-								["Hit"] = {
-									["max"] = 14,
-									["min"] = 8,
-									["count"] = 29,
-									["amount"] = 304,
-								},
-								["Hit (Blocked)"] = {
-									["max"] = 10,
-									["min"] = 10,
-									["count"] = 1,
-									["amount"] = 10,
-								},
-								["Miss"] = {
-									["count"] = 1,
-									["amount"] = 0,
-								},
-								["Crit"] = {
-									["max"] = 28,
-									["min"] = 16,
-									["count"] = 4,
-									["amount"] = 88,
-								},
-								["Parry"] = {
-									["count"] = 1,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 45,
-							["amount"] = 526,
-						},
-						["Fire Blast"] = {
-							["Details"] = {
-								["Crit"] = {
-									["max"] = 53,
-									["min"] = 26,
-									["count"] = 5,
-									["amount"] = 179,
-								},
-								["Hit"] = {
-									["max"] = 29,
-									["min"] = 12,
-									["count"] = 59,
-									["amount"] = 1128,
-								},
-							},
-							["count"] = 64,
-							["amount"] = 1307,
-						},
-					},
-					["ElementDone"] = {
-						["Frost"] = 23860,
-						["Melee"] = 526,
-						["Fire"] = 1307,
-					},
-					["HealingTaken"] = 4,
-					["DamagedWho"] = {
-						["Mangy Wolf"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 17,
-								},
-								["Frostbolt"] = {
-									["count"] = 354,
-								},
-							},
-							["amount"] = 371,
-						},
-						["Goldtooth"] = {
-							["Details"] = {
-								["Frost Nova"] = {
-									["count"] = 21,
-								},
-								["Frostbolt"] = {
-									["count"] = 445,
-								},
-								["Fire Blast"] = {
-									["count"] = 37,
-								},
-							},
-							["amount"] = 503,
-						},
-						["Sheep"] = {
-							["Details"] = {
-								["Frostbolt"] = {
-									["count"] = 119,
-								},
-							},
-							["amount"] = 119,
-						},
-						["Forest Spider"] = {
-							["Details"] = {
-								["Fire Blast"] = {
-									["count"] = 82,
-								},
-								["Frostbolt"] = {
-									["count"] = 531,
-								},
-							},
-							["amount"] = 613,
-						},
-						["Kobold Miner"] = {
-							["Details"] = {
-								["Frost Nova"] = {
-									["count"] = 43,
-								},
-								["Frostbolt"] = {
-									["count"] = 7373,
-								},
-								["Melee"] = {
-									["count"] = 178,
-								},
-								["Fire Blast"] = {
-									["count"] = 318,
-								},
-							},
-							["amount"] = 7912,
-						},
-						["Kobold Tunneler"] = {
-							["Details"] = {
-								["Frost Nova"] = {
-									["count"] = 82,
-								},
-								["Frostbolt"] = {
-									["count"] = 14486,
-								},
-								["Melee"] = {
-									["count"] = 139,
-								},
-								["Fire Blast"] = {
-									["count"] = 870,
-								},
-							},
-							["amount"] = 15577,
-						},
-						["Stonetusk Boar"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 192,
-								},
-								["Frostbolt"] = {
-									["count"] = 406,
-								},
-							},
-							["amount"] = 598,
-						},
-					},
-					["TimeDamage"] = 1666.679999999999,
-					["TimeDamaging"] = {
-						["Mangy Wolf"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 3.51,
-								},
-								["Frostbolt"] = {
-									["count"] = 21.41,
-								},
-							},
-							["amount"] = 24.92,
-						},
-						["Goldtooth"] = {
-							["Details"] = {
-								["Frost Nova"] = {
-									["count"] = 1.81,
-								},
-								["Frostbolt"] = {
-									["count"] = 30.58,
-								},
-								["Fire Blast"] = {
-									["count"] = 1.23,
-								},
-							},
-							["amount"] = 33.62,
-						},
-						["Sheep"] = {
-							["Details"] = {
-								["Frostbolt"] = {
-									["count"] = 10.5,
-								},
-							},
-							["amount"] = 10.5,
-						},
-						["Forest Spider"] = {
-							["Details"] = {
-								["Fire Blast"] = {
-									["count"] = 1.62,
-								},
-								["Frostbolt"] = {
-									["count"] = 30.48,
-								},
-							},
-							["amount"] = 32.1,
-						},
-						["Kobold Miner"] = {
-							["Details"] = {
-								["Frost Nova"] = {
-									["count"] = 0,
-								},
-								["Frostbolt"] = {
-									["count"] = 469.1200000000001,
-								},
-								["Melee"] = {
-									["count"] = 32.53,
-								},
-								["Fire Blast"] = {
-									["count"] = 12.69,
-								},
-							},
-							["amount"] = 514.34,
-						},
-						["Kobold Tunneler"] = {
-							["Details"] = {
-								["Frost Nova"] = {
-									["count"] = 5.46,
-								},
-								["Frostbolt"] = {
-									["count"] = 919.0500000000001,
-								},
-								["Melee"] = {
-									["count"] = 23.37,
-								},
-								["Fire Blast"] = {
-									["count"] = 41.82000000000001,
-								},
-							},
-							["amount"] = 989.7000000000003,
-						},
-						["Stonetusk Boar"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 32.74,
-								},
-								["Frostbolt"] = {
-									["count"] = 28.76,
-								},
-							},
-							["amount"] = 61.5,
-						},
-					},
-					["ElementHitsTaken"] = {
-						["Melee"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 280,
-								},
-								["Miss"] = {
-									["count"] = 25,
-								},
-								["Dodge"] = {
-									["count"] = 8,
-								},
-								["Crit"] = {
-									["count"] = 1,
-								},
-								["Parry"] = {
-									["count"] = 2,
-								},
-							},
-							["amount"] = 316,
-						},
-						["Physical"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 2,
-								},
-								["Parry"] = {
-									["count"] = 1,
-								},
-								["Miss"] = {
-									["count"] = 3,
-								},
-							},
-							["amount"] = 6,
-						},
-					},
 					["WhoDamaged"] = {
-						["Mangy Wolf"] = {
+						["Kobold Miner"] = {
 							["Details"] = {
 								["Melee"] = {
-									["count"] = 4,
+									["count"] = 0,
 								},
 							},
-							["amount"] = 4,
-						},
-						["Goldtooth"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 92,
-								},
-							},
-							["amount"] = 92,
+							["amount"] = 0,
 						},
 						["Stonetusk Boar"] = {
 							["Details"] = {
 								["Melee"] = {
-									["count"] = 137,
+									["count"] = 0,
 								},
 							},
-							["amount"] = 137,
+							["amount"] = 0,
 						},
-						["Kobold Miner"] = {
+						["Kobold Tunneler"] = {
 							["Details"] = {
 								["Melee"] = {
-									["count"] = 585,
+									["count"] = 0,
 								},
 							},
-							["amount"] = 585,
-						},
-						["Forest Spider"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 5,
-								},
-							},
-							["amount"] = 5,
+							["amount"] = 0,
 						},
 						["Environment"] = {
 							["Details"] = {
 								["Falling"] = {
-									["count"] = 38,
+									["count"] = 0,
 								},
 							},
-							["amount"] = 38,
+							["amount"] = 0,
+						},
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["Dispelled"] = 0,
+					["RunicPowerGained"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+					},
+					["OverHeals"] = {
+					},
+					["WhoHealed"] = {
+						["Aminal"] = {
+							["Details"] = {
+								["Renew"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["EnergyGain"] = 0,
+					["CCBreak"] = 0,
+					["PartialAbsorb"] = {
+						["Falling"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Pierce Armor"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Absorbed"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["ActiveTime"] = 3.5,
+					["PartialResist"] = {
+						["Falling"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Pierce Armor"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["ManaGained"] = {
+					},
+					["ElementTakenAbsorb"] = {
+						["Melee"] = 0,
+					},
+					["Interrupts"] = 0,
+					["Overhealing"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["InterruptData"] = {
+					},
+					["WhoDispelled"] = {
+					},
+					["TimeSpent"] = {
+						["Rabbit"] = {
+							["Details"] = {
+								["Fire Blast"] = {
+									["count"] = 3.5,
+								},
+							},
+							["amount"] = 3.5,
+						},
+						["Sheep"] = {
+							["Details"] = {
+								["Frostbolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Miner"] = {
+							["Details"] = {
+								["Frost Nova"] = {
+									["count"] = 0,
+								},
+								["Frostbolt"] = {
+									["count"] = 0,
+								},
+								["Fire Blast"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Stonetusk Boar"] = {
+							["Details"] = {
+								["Frostbolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
 						},
 						["Kobold Tunneler"] = {
 							["Details"] = {
+								["Frost Nova"] = {
+									["count"] = 0,
+								},
+								["Frostbolt"] = {
+									["count"] = 0,
+								},
 								["Melee"] = {
-									["count"] = 611,
+									["count"] = 0,
+								},
+								["Fire Blast"] = {
+									["count"] = 0,
 								},
 							},
-							["amount"] = 611,
+							["amount"] = 0,
+						},
+						["Forest Spider"] = {
+							["Details"] = {
+								["Frostbolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["Heals"] = {
+					},
+					["FDamage"] = 0,
+					["EnergyGained"] = {
+					},
+					["HealedWho"] = {
+					},
+					["Healing"] = 0,
+					["RunicPowerGainedFrom"] = {
+					},
+					["CCBroken"] = {
+					},
+					["Attacks"] = {
+						["Frost Nova"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Frostbolt"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Fire Blast"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 31,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 31,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 31,
+						},
+					},
+					["HealingTaken"] = 0,
+					["DamagedWho"] = {
+						["Rabbit"] = {
+							["Details"] = {
+								["Fire Blast"] = {
+									["count"] = 31,
+								},
+							},
+							["amount"] = 31,
+						},
+						["Sheep"] = {
+							["Details"] = {
+								["Frostbolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Miner"] = {
+							["Details"] = {
+								["Frost Nova"] = {
+									["count"] = 0,
+								},
+								["Frostbolt"] = {
+									["count"] = 0,
+								},
+								["Fire Blast"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Stonetusk Boar"] = {
+							["Details"] = {
+								["Frostbolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Tunneler"] = {
+							["Details"] = {
+								["Frost Nova"] = {
+									["count"] = 0,
+								},
+								["Frostbolt"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Fire Blast"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Forest Spider"] = {
+							["Details"] = {
+								["Frostbolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["TimeDamage"] = 3.5,
+					["TimeDamaging"] = {
+						["Rabbit"] = {
+							["Details"] = {
+								["Fire Blast"] = {
+									["count"] = 3.5,
+								},
+							},
+							["amount"] = 3.5,
+						},
+						["Sheep"] = {
+							["Details"] = {
+								["Frostbolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Miner"] = {
+							["Details"] = {
+								["Frost Nova"] = {
+									["count"] = 0,
+								},
+								["Frostbolt"] = {
+									["count"] = 0,
+								},
+								["Fire Blast"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Stonetusk Boar"] = {
+							["Details"] = {
+								["Frostbolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Tunneler"] = {
+							["Details"] = {
+								["Frost Nova"] = {
+									["count"] = 0,
+								},
+								["Frostbolt"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Fire Blast"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Forest Spider"] = {
+							["Details"] = {
+								["Frostbolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["RunicPowerGain"] = 0,
+					["ElementTakenBlock"] = {
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["Fight2"] = {
+					["ElementHitsTaken"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 4,
+								},
+								["Dodge"] = {
+									["count"] = 0,
+								},
+								["Miss"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 4,
+						},
+					},
+					["ElementDone"] = {
+						["Frost"] = 252,
+						["Melee"] = 0,
+						["Fire"] = 0,
+					},
+					["DamagedWho"] = {
+						["Kobold Miner"] = {
+							["Details"] = {
+								["Frostbolt"] = {
+									["count"] = 0,
+								},
+								["Fire Blast"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Sheep"] = {
+							["Details"] = {
+								["Frostbolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Tunneler"] = {
+							["Details"] = {
+								["Frostbolt"] = {
+									["count"] = 252,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Fire Blast"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 252,
+						},
+					},
+					["TimeDamaging"] = {
+						["Kobold Miner"] = {
+							["Details"] = {
+								["Frostbolt"] = {
+									["count"] = 0,
+								},
+								["Fire Blast"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Sheep"] = {
+							["Details"] = {
+								["Frostbolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Tunneler"] = {
+							["Details"] = {
+								["Frostbolt"] = {
+									["count"] = 14.42,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Fire Blast"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 14.42,
+						},
+					},
+					["ElementDoneResist"] = {
+						["Fire"] = 0,
+					},
+					["TimeSpent"] = {
+						["Kobold Miner"] = {
+							["Details"] = {
+								["Frostbolt"] = {
+									["count"] = 0,
+								},
+								["Fire Blast"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Sheep"] = {
+							["Details"] = {
+								["Frostbolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Tunneler"] = {
+							["Details"] = {
+								["Frostbolt"] = {
+									["count"] = 14.42,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Fire Blast"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 14.42,
+						},
+					},
+					["DamageTaken"] = 12,
+					["ActiveTime"] = 14.42,
+					["PartialResist"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 4,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 4,
+							["amount"] = 0,
+						},
+					},
+					["PartialAbsorb"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 4,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 4,
+							["amount"] = 0,
 						},
 					},
 					["ElementHitsDone"] = {
 						["Frost"] = {
 							["Details"] = {
 								["Crit"] = {
-									["count"] = 39,
+									["count"] = 2,
 								},
 								["Hit"] = {
-									["count"] = 611,
+									["count"] = 4,
 								},
 							},
-							["amount"] = 650,
+							["amount"] = 6,
 						},
 						["Melee"] = {
 							["Details"] = {
 								["Glancing"] = {
-									["count"] = 8,
+									["count"] = 0,
+								},
+								["Miss"] = {
+									["count"] = 0,
 								},
 								["Hit"] = {
-									["count"] = 30,
+									["count"] = 0,
 								},
-								["Dodge"] = {
-									["count"] = 1,
+								["Crit"] = {
+									["count"] = 0,
+								},
+								["Parry"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Fire"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["TimeDamage"] = 14.42,
+					["WhoDamaged"] = {
+						["Kobold Miner"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Tunneler"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 12,
+								},
+							},
+							["amount"] = 12,
+						},
+					},
+					["ElementTaken"] = {
+						["Melee"] = 12,
+					},
+					["Attacks"] = {
+						["Frostbolt"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 52,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 103,
+								},
+								["Hit"] = {
+									["max"] = 38,
+									["min"] = 0,
+									["count"] = 4,
+									["amount"] = 149,
+								},
+							},
+							["count"] = 6,
+							["amount"] = 252,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Glancing"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Miss"] = {
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Parry"] = {
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Fire Blast"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["Damage"] = 252,
+				},
+				["Fight3"] = {
+					["DOTs"] = {
+					},
+					["ElementDoneResist"] = {
+						["Fire"] = 0,
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 13,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 3,
+								},
+								["Parry"] = {
+									["count"] = 0,
+								},
+								["Crit"] = {
+									["count"] = 0,
 								},
 								["Miss"] = {
 									["count"] = 1,
 								},
-								["Crit"] = {
-									["count"] = 4,
-								},
-								["Parry"] = {
-									["count"] = 1,
+							},
+							["amount"] = 4,
+						},
+						["Physical"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 0,
 								},
 							},
-							["amount"] = 45,
+							["amount"] = 0,
+						},
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["HOTs"] = {
+					},
+					["ManaGain"] = 0,
+					["ElementTaken"] = {
+						["Melee"] = 13,
+					},
+					["DOT_Time"] = 0,
+					["Damage"] = 144,
+					["ElementDoneAbsorb"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["PartialBlock"] = {
+					},
+					["FDamagedWho"] = {
+					},
+					["FAttacks"] = {
+					},
+					["RageGain"] = 0,
+					["ElementDone"] = {
+						["Frost"] = 144,
+						["Melee"] = 0,
+						["Fire"] = 0,
+					},
+					["ManaGainedFrom"] = {
+					},
+					["ElementHitsDone"] = {
+						["Frost"] = {
+							["Details"] = {
+								["Crit"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 4,
+								},
+							},
+							["amount"] = 4,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Crit"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
 						},
 						["Fire"] = {
 							["Details"] = {
 								["Crit"] = {
-									["count"] = 5,
+									["count"] = 0,
 								},
 								["Hit"] = {
-									["count"] = 59,
+									["count"] = 0,
 								},
 							},
-							["amount"] = 64,
+							["amount"] = 0,
 						},
+					},
+					["RageGained"] = {
+					},
+					["WhoDamaged"] = {
+						["Kobold Miner"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Goldtooth"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Tunneler"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 13,
+								},
+							},
+							["amount"] = 13,
+						},
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["Dispelled"] = 0,
+					["RunicPowerGained"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+					},
+					["OverHeals"] = {
+					},
+					["WhoHealed"] = {
+					},
+					["EnergyGain"] = 0,
+					["CCBreak"] = 0,
+					["PartialAbsorb"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 4,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 4,
+							["amount"] = 0,
+						},
+						["Pierce Armor"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["ActiveTime"] = 13.53,
+					["PartialResist"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 4,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 4,
+							["amount"] = 0,
+						},
+						["Pierce Armor"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["ManaGained"] = {
+					},
+					["ElementTakenAbsorb"] = {
+					},
+					["Interrupts"] = 0,
+					["Overhealing"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["InterruptData"] = {
+					},
+					["WhoDispelled"] = {
+					},
+					["TimeSpent"] = {
+						["Kobold Miner"] = {
+							["Details"] = {
+								["Frostbolt"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Fire Blast"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Tunneler"] = {
+							["Details"] = {
+								["Frost Nova"] = {
+									["count"] = 0,
+								},
+								["Frostbolt"] = {
+									["count"] = 13.53,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Fire Blast"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 13.53,
+						},
+						["Goldtooth"] = {
+							["Details"] = {
+								["Frostbolt"] = {
+									["count"] = 0,
+								},
+								["Fire Blast"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Stonetusk Boar"] = {
+							["Details"] = {
+								["Frostbolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["Heals"] = {
+					},
+					["FDamage"] = 0,
+					["EnergyGained"] = {
+					},
+					["HealedWho"] = {
+					},
+					["Healing"] = 0,
+					["RunicPowerGainedFrom"] = {
+					},
+					["CCBroken"] = {
+					},
+					["Attacks"] = {
+						["Frost Nova"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Frostbolt"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 38,
+									["min"] = 0,
+									["count"] = 4,
+									["amount"] = 144,
+								},
+							},
+							["count"] = 4,
+							["amount"] = 144,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Fire Blast"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["HealingTaken"] = 0,
+					["DamagedWho"] = {
+						["Kobold Miner"] = {
+							["Details"] = {
+								["Frostbolt"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Fire Blast"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Tunneler"] = {
+							["Details"] = {
+								["Frost Nova"] = {
+									["count"] = 0,
+								},
+								["Frostbolt"] = {
+									["count"] = 144,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Fire Blast"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 144,
+						},
+						["Goldtooth"] = {
+							["Details"] = {
+								["Frostbolt"] = {
+									["count"] = 0,
+								},
+								["Fire Blast"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Stonetusk Boar"] = {
+							["Details"] = {
+								["Frostbolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["TimeDamage"] = 13.53,
+					["TimeDamaging"] = {
+						["Kobold Miner"] = {
+							["Details"] = {
+								["Frostbolt"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Fire Blast"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Tunneler"] = {
+							["Details"] = {
+								["Frost Nova"] = {
+									["count"] = 0,
+								},
+								["Frostbolt"] = {
+									["count"] = 13.53,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Fire Blast"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 13.53,
+						},
+						["Goldtooth"] = {
+							["Details"] = {
+								["Frostbolt"] = {
+									["count"] = 0,
+								},
+								["Fire Blast"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Stonetusk Boar"] = {
+							["Details"] = {
+								["Frostbolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["RunicPowerGain"] = 0,
+					["ElementTakenBlock"] = {
+					},
+					["DispelledWho"] = {
 					},
 				},
 			},
-			["UnitLockout"] = 1689456913,
-			["LastActive"] = 1689500904,
+			["NextEventNum"] = 11,
+			["LastEventHealthNum"] = {
+				97.87234042553192, -- [1]
+				96.80851063829788, -- [2]
+				96.80851063829788, -- [3]
+				95.74468085106383, -- [4]
+				100, -- [5]
+				100, -- [6]
+				100, -- [7]
+				100, -- [8]
+				100, -- [9]
+				100, -- [10]
+				97.00374531835206, -- [11]
+				95.50561797752809, -- [12]
+				92.88389513108615, -- [13]
+				92.88389513108615, -- [14]
+				92.88389513108615, -- [15]
+				92.88389513108615, -- [16]
+				92.88389513108615, -- [17]
+				92.88389513108615, -- [18]
+				92.88389513108615, -- [19]
+				92.88389513108615, -- [20]
+				92.88389513108615, -- [21]
+				92.88389513108615, -- [22]
+				92.88389513108615, -- [23]
+				100, -- [24]
+				100, -- [25]
+				100, -- [26]
+				100, -- [27]
+				97.37827715355806, -- [28]
+				97.37827715355806, -- [29]
+				96.25468164794008, -- [30]
+				96.25468164794008, -- [31]
+				94.7565543071161, -- [32]
+				94.7565543071161, -- [33]
+				94.7565543071161, -- [34]
+				92.88389513108615, -- [35]
+				92.88389513108615, -- [36]
+				99.25093632958802, -- [37]
+				99.25093632958802, -- [38]
+				97.75280898876405, -- [39]
+				97.75280898876405, -- [40]
+				95.88014981273409, -- [41]
+				94.38202247191012, -- [42]
+				94.38202247191012, -- [43]
+				94.38202247191012, -- [44]
+				100, -- [45]
+				100, -- [46]
+				100, -- [47]
+				98.93617021276596, -- [48]
+				98.93617021276596, -- [49]
+				97.87234042553192, -- [50]
+			},
+			["LastEvents"] = {
+				"Kobold Tunneler Melee Sculamare Hit -3 (Physical)", -- [1]
+				"Sculamare Frostbolt Kobold Tunneler Hit -36 (Frost)", -- [2]
+				"Kobold Tunneler Melee Sculamare Hit -3 (Physical)", -- [3]
+				"Sculamare Frostbolt Kobold Tunneler Hit -38 (Frost)", -- [4]
+				"Sculamare Fire Blast Rabbit Hit -31 (Fire)", -- [5]
+				"Sculamare Gift of the Naaru Sculamare Tick +41 (41 overheal)", -- [6]
+				"Sculamare Gift of the Naaru Sculamare Tick +41 (41 overheal)", -- [7]
+				"Sculamare Gift of the Naaru Sculamare Tick +41 (41 overheal)", -- [8]
+				"Sculamare Gift of the Naaru Sculamare Tick +41 (41 overheal)", -- [9]
+				"Sculamare Gift of the Naaru Sculamare Tick +41 (41 overheal)", -- [10]
+				"Kobold Miner Melee Sculamare Hit -4 (Physical)", -- [11]
+				"Goldtooth Melee Sculamare Hit -7 (Physical)", -- [12]
+				"Goldtooth Melee Sculamare Absorb (8 Absorbed)", -- [13]
+				"Sculamare Frostbolt Goldtooth Hit -34 (Frost)", -- [14]
+				"Goldtooth Melee Sculamare Absorb (7 Absorbed)", -- [15]
+				"Sculamare Frostbolt Goldtooth Hit -36 (Frost)", -- [16]
+				"Sculamare Fire Blast Goldtooth Hit -15 (14 resisted) (Fire)", -- [17]
+				"Sculamare Melee Goldtooth Hit -11 (Physical)", -- [18]
+				"Sculamare Frostbolt Kobold Miner Hit -37 (Frost)", -- [19]
+				"Sculamare Frostbolt Kobold Miner Hit -36 (Frost)", -- [20]
+				"Kobold Miner Melee Sculamare Absorb (5 Absorbed)", -- [21]
+				"Sculamare Frostbolt Kobold Miner Hit -36 (Frost)", -- [22]
+				"Sculamare Fire Blast Kobold Miner Hit -18 (17 resisted) (Fire)", -- [23]
+				"Sculamare Frostbolt Kobold Miner Hit -38 (Frost)", -- [24]
+				"Sculamare Frostbolt Kobold Miner Hit -34 (Frost)", -- [25]
+				"Kobold Miner Melee Sculamare Absorb (7 Absorbed)", -- [26]
+				"Kobold Miner Melee Sculamare Hit -7 (Physical)", -- [27]
+				"Kobold Tunneler Melee Sculamare Miss", -- [28]
+				"Kobold Tunneler Melee Sculamare Hit -3 (Physical)", -- [29]
+				"Sculamare Frost Nova Kobold Tunneler Hit -21 (Frost)", -- [30]
+				"Kobold Tunneler Melee Sculamare Hit -4 (Physical)", -- [31]
+				"Sculamare Frostbolt Kobold Tunneler Hit -38 (Frost)", -- [32]
+				"Sculamare Frostbolt Kobold Tunneler Hit -34 (Frost)", -- [33]
+				"Kobold Tunneler Melee Sculamare Hit -5 (Physical)", -- [34]
+				"Sculamare Frostbolt Kobold Tunneler Hit -37 (Frost)", -- [35]
+				"Sculamare Fire Blast Kobold Tunneler Hit -16 (15 resisted) (Fire)", -- [36]
+				"Sculamare Frostbolt Kobold Tunneler Hit -34 (Frost)", -- [37]
+				"Kobold Tunneler Melee Sculamare Hit -4 (Physical)", -- [38]
+				"Sculamare Frostbolt Kobold Tunneler Hit -38 (Frost)", -- [39]
+				"Kobold Tunneler Melee Sculamare Hit -5 (Physical)", -- [40]
+				"Kobold Tunneler Melee Sculamare Hit -4 (Physical)", -- [41]
+				"Sculamare Frostbolt Kobold Tunneler Hit -38 (Frost)", -- [42]
+				"Kobold Tunneler Melee Sculamare Miss", -- [43]
+				"Sculamare Frostbolt Kobold Tunneler Hit -34 (Frost)", -- [44]
+				"Sculamare Frostbolt Kobold Tunneler Hit -38 (Frost)", -- [45]
+				"Sculamare Frostbolt Kobold Tunneler Hit -37 (Frost)", -- [46]
+				"Kobold Tunneler Melee Sculamare Hit -3 (Physical)", -- [47]
+				"Sculamare Frostbolt Kobold Tunneler Crit -52 (Frost)", -- [48]
+				"Kobold Tunneler Melee Sculamare Hit -3 (Physical)", -- [49]
+				"Sculamare Frostbolt Kobold Tunneler Crit -51 (Frost)", -- [50]
+			},
+			["Name"] = "Sculamare",
+			["TimeLast"] = {
+				["HealingTaken"] = 1689520466,
+				["ActiveTime"] = 1689520706,
+				["TimeDamage"] = 1689520706,
+				["OVERALL"] = 1689520706,
+				["DamageTaken"] = 1689520637,
+				["Damage"] = 1689520706,
+			},
+			["LastEventIncoming"] = {
+				true, -- [1]
+				false, -- [2]
+				true, -- [3]
+				false, -- [4]
+				false, -- [5]
+				true, -- [6]
+				true, -- [7]
+				true, -- [8]
+				true, -- [9]
+				true, -- [10]
+				true, -- [11]
+				true, -- [12]
+				true, -- [13]
+				false, -- [14]
+				true, -- [15]
+				false, -- [16]
+				false, -- [17]
+				false, -- [18]
+				false, -- [19]
+				false, -- [20]
+				true, -- [21]
+				false, -- [22]
+				false, -- [23]
+				false, -- [24]
+				false, -- [25]
+				true, -- [26]
+				true, -- [27]
+				true, -- [28]
+				true, -- [29]
+				false, -- [30]
+				true, -- [31]
+				false, -- [32]
+				false, -- [33]
+				true, -- [34]
+				false, -- [35]
+				false, -- [36]
+				false, -- [37]
+				true, -- [38]
+				false, -- [39]
+				true, -- [40]
+				true, -- [41]
+				false, -- [42]
+				true, -- [43]
+				false, -- [44]
+				false, -- [45]
+				false, -- [46]
+				true, -- [47]
+				false, -- [48]
+				true, -- [49]
+				false, -- [50]
+			},
+			["LastDamageTaken"] = 3,
+			["LastEventTimes"] = {
+				2667.003, -- [1]
+				2668.61, -- [2]
+				2669.519, -- [3]
+				2670.736, -- [4]
+				2738.085, -- [5]
+				2798.218, -- [6]
+				2801.151, -- [7]
+				2804.193, -- [8]
+				2807.204, -- [9]
+				2810.168, -- [10]
+				2557.687, -- [11]
+				2557.879, -- [12]
+				2560.378, -- [13]
+				2561.453, -- [14]
+				2562.887, -- [15]
+				2563.512, -- [16]
+				2563.512, -- [17]
+				2565.355, -- [18]
+				2568.679, -- [19]
+				2570.454, -- [20]
+				2571.278, -- [21]
+				2572.17, -- [22]
+				2572.263, -- [23]
+				2584.654, -- [24]
+				2586.228, -- [25]
+				2587.962, -- [26]
+				2593.104, -- [27]
+				2610.237, -- [28]
+				2612.262, -- [29]
+				2612.561, -- [30]
+				2624.488, -- [31]
+				2624.62, -- [32]
+				2626.453, -- [33]
+				2627.111, -- [34]
+				2628.704, -- [35]
+				2628.837, -- [36]
+				2641.662, -- [37]
+				2642.844, -- [38]
+				2644.694, -- [39]
+				2645.294, -- [40]
+				2647.82, -- [41]
+				2648.654, -- [42]
+				2650.303, -- [43]
+				2652.362, -- [44]
+				2659.821, -- [45]
+				2662.311, -- [46]
+				2662.32, -- [47]
+				2664.128, -- [48]
+				2664.47, -- [49]
+				2666.353, -- [50]
+			},
+			["LastAbility"] = 2738.085,
 		},
 	},
-	["FightNum"] = 162,
+	["FightNum"] = 176,
 	["CombatTimes"] = {
 		{
 			1689456913, -- [1]
@@ -5263,12 +5583,110 @@ RecountPerCharDB = {
 			"11:48:25", -- [4]
 			"Kobold Tunneler", -- [5]
 		}, -- [162]
+		{
+			1689520328, -- [1]
+			1689520335, -- [2]
+			"17:12:09", -- [3]
+			"17:12:15", -- [4]
+			"Kobold Tunneler", -- [5]
+		}, -- [163]
+		{
+			1689520360, -- [1]
+			1689520367, -- [2]
+			"17:12:41", -- [3]
+			"17:12:47", -- [4]
+			"Kobold Tunneler", -- [5]
+		}, -- [164]
+		{
+			1689520370, -- [1]
+			1689520379, -- [2]
+			"17:12:51", -- [3]
+			"17:12:59", -- [4]
+			"Kobold Tunneler", -- [5]
+		}, -- [165]
+		{
+			1689520384, -- [1]
+			1689520390, -- [2]
+			"17:13:05", -- [3]
+			"17:13:10", -- [4]
+			"Kobold Tunneler", -- [5]
+		}, -- [166]
+		{
+			1689520396, -- [1]
+			1689520401, -- [2]
+			"17:13:17", -- [3]
+			"17:13:21", -- [4]
+			"Kobold Tunneler", -- [5]
+		}, -- [167]
+		{
+			1689520413, -- [1]
+			1689520418, -- [2]
+			"17:13:34", -- [3]
+			"17:13:38", -- [4]
+			"Kobold Tunneler", -- [5]
+		}, -- [168]
+		{
+			1689520424, -- [1]
+			1689520430, -- [2]
+			"17:13:45", -- [3]
+			"17:13:50", -- [4]
+			"Kobold Tunneler", -- [5]
+		}, -- [169]
+		{
+			1689520437, -- [1]
+			1689520469, -- [2]
+			"17:13:58", -- [3]
+			"17:14:29", -- [4]
+			"Kobold Miner", -- [5]
+		}, -- [170]
+		{
+			1689520492, -- [1]
+			1689520519, -- [2]
+			"17:14:53", -- [3]
+			"17:15:19", -- [4]
+			"Kobold Miner", -- [5]
+		}, -- [171]
+		{
+			1689520523, -- [1]
+			1689520542, -- [2]
+			"17:15:24", -- [3]
+			"17:15:42", -- [4]
+			"Goldtooth", -- [5]
+		}, -- [172]
+		{
+			1689520553, -- [1]
+			1689520599, -- [2]
+			"17:15:53", -- [3]
+			"17:16:39", -- [4]
+			"Kobold Miner", -- [5]
+		}, -- [173]
+		{
+			1689520610, -- [1]
+			1689520622, -- [2]
+			"17:16:50", -- [3]
+			"17:17:02", -- [4]
+			"Kobold Tunneler", -- [5]
+		}, -- [174]
+		{
+			1689520628, -- [1]
+			1689520641, -- [2]
+			"17:17:09", -- [3]
+			"17:17:21", -- [4]
+			"Kobold Tunneler", -- [5]
+		}, -- [175]
+		{
+			1689520706, -- [1]
+			1689520714, -- [2]
+			"17:18:27", -- [3]
+			"17:18:34", -- [4]
+			"Rabbit", -- [5]
+		}, -- [176]
 	},
 	["FoughtWho"] = {
-		"Kobold Tunneler 11:48:18-11:48:25", -- [1]
-		"Mangy Wolf 11:47:33-11:47:38", -- [2]
-		"Mangy Wolf 11:47:19-11:47:25", -- [3]
-		"Mangy Wolf 11:46:39-11:46:47", -- [4]
-		"Kobold Miner 00:50:35-00:50:40", -- [5]
+		"Rabbit 17:18:27-17:18:34", -- [1]
+		"Kobold Tunneler 17:17:09-17:17:21", -- [2]
+		"Kobold Tunneler 17:16:50-17:17:02", -- [3]
+		"Kobold Miner 17:15:53-17:16:39", -- [4]
+		"Goldtooth 17:15:24-17:15:42", -- [5]
 	},
 }

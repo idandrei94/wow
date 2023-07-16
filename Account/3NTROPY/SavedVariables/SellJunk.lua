@@ -7,6 +7,7 @@ SellJunkDB = {
 		["Sculatru - Icecrown"] = "Sculatru - Icecrown",
 		["Denathra - Icecrown"] = "Denathra - Icecrown",
 		["Vhalanor - Icecrown"] = "Vhalanor - Icecrown",
+		["Morridin - Icecrown"] = "Morridin - Icecrown",
 		["Drext - Icecrown"] = "Drext - Icecrown",
 		["Muiex - Icecrown"] = "Muiex - Icecrown",
 		["Sculamare - Icecrown"] = "Sculamare - Icecrown",

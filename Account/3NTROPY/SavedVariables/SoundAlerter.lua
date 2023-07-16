@@ -7,6 +7,7 @@ sadb = {
 		["Sculatru - Icecrown"] = "Default",
 		["Denathra - Icecrown"] = "Default",
 		["Vhalanor - Icecrown"] = "Default",
+		["Morridin - Icecrown"] = "Default",
 		["Noobschmoq - Icecrown"] = "Default",
 		["Muiex - Icecrown"] = "Default",
 		["Sculamare - Icecrown"] = "Default",

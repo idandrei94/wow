@@ -15,6 +15,7 @@ SkadaDB = {
 	["profileKeys"] = {
 		["Rimgar - Icecrown"] = "Default",
 		["Vrael - Icecrown"] = "Default",
+		["Morridin - Icecrown"] = "Default",
 		["Nalar - Icecrown"] = "Default",
 		["Sculatru - Icecrown"] = "Default",
 		["Denathra - Icecrown"] = "Default",

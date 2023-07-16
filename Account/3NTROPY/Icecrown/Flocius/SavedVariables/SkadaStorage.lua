@@ -2,6 +2,75 @@
 SkadaStorageDB = {
 	["sets"] = {
 		{
+			["starttime"] = 1689456125,
+			["type"] = "none",
+			["enemies"] = {
+				{
+					["name"] = "Expert's Training Dummy",
+					["damagetaken"] = 8029,
+					["id"] = "0xF130007F9A001C3F",
+					["flag"] = 68136,
+					["class"] = "MONSTER",
+					["totaldamagetaken"] = 8029,
+					["damagetakenspells"] = {
+						[45477] = {
+							["school"] = 16,
+							["sources"] = {
+								["Flocius"] = {
+									["amount"] = 599,
+									["overkill"] = 597,
+								},
+							},
+							["amount"] = 599,
+							["overkill"] = 597,
+						},
+						[55078] = {
+							["school"] = 32,
+							["sources"] = {
+								["Flocius"] = {
+									["amount"] = 1194,
+									["overkill"] = 1182,
+								},
+							},
+							["amount"] = 1194,
+							["overkill"] = 1182,
+						},
+						[45462] = {
+							["school"] = 1,
+							["sources"] = {
+								["Flocius"] = {
+									["amount"] = 358,
+									["overkill"] = 356,
+								},
+							},
+							["amount"] = 358,
+							["overkill"] = 356,
+						},
+						[6603] = {
+							["school"] = 1,
+							["sources"] = {
+								["Flocius"] = {
+									["amount"] = 4619,
+									["overkill"] = 4606,
+								},
+							},
+							["amount"] = 4619,
+							["overkill"] = 4606,
+						},
+						[55095] = {
+							["school"] = 16,
+							["sources"] = {
+								["Flocius"] = {
+									["amount"] = 1259,
+									["overkill"] = 1247,
+								},
+							},
+							["amount"] = 1259,
+							["overkill"] = 1247,
+						},
+					},
+				}, -- [1]
+			},
 			["players"] = {
 				{
 					["damagespells"] = {
@@ -10,13 +79,13 @@ SkadaStorageDB = {
 							["count"] = 2,
 							["amount"] = 0,
 							["school"] = 32,
+							["id"] = 50842,
 							["MISS"] = 2,
 							["targets"] = {
 								["Grandmaster's Training Dummy"] = {
 									["amount"] = 0,
 								},
 							},
-							["id"] = 50842,
 						},
 						["Melee"] = {
 							["DODGE"] = 2,
@@ -25,8 +94,8 @@ SkadaStorageDB = {
 							["criticalmin"] = 640,
 							["targets"] = {
 								["Expert's Training Dummy"] = {
-									["overkill"] = 4606,
 									["amount"] = 4619,
+									["overkill"] = 4606,
 								},
 							},
 							["glancing"] = 4,
@@ -37,13 +106,13 @@ SkadaStorageDB = {
 							["id"] = 6603,
 							["glancemax"] = 276,
 							["overkill"] = 4606,
-							["PARRY"] = 1,
 							["criticalmax"] = 682,
+							["PARRY"] = 1,
 							["hitmax"] = 347,
 							["hit"] = 7,
 							["school"] = 1,
-							["critical"] = 2,
 							["count"] = 17,
+							["critical"] = 2,
 							["hitamount"] = 2236,
 						},
 						["Icy Touch"] = {
@@ -51,8 +120,8 @@ SkadaStorageDB = {
 							["id"] = 45477,
 							["targets"] = {
 								["Expert's Training Dummy"] = {
-									["overkill"] = 597,
 									["amount"] = 599,
+									["overkill"] = 597,
 								},
 							},
 							["overkill"] = 597,
@@ -69,18 +138,18 @@ SkadaStorageDB = {
 							["id"] = 45462,
 							["targets"] = {
 								["Expert's Training Dummy"] = {
-									["overkill"] = 356,
 									["amount"] = 358,
+									["overkill"] = 356,
 								},
 							},
 							["overkill"] = 356,
-							["blocked"] = 30,
+							["hit"] = 2,
 							["casts"] = 2,
 							["count"] = 2,
-							["hit"] = 2,
+							["blocked"] = 30,
 							["school"] = 1,
-							["hitmax"] = 193,
 							["amount"] = 358,
+							["hitmax"] = 193,
 							["hitamount"] = 358,
 						},
 						["Frost Fever (DoT)"] = {
@@ -88,13 +157,13 @@ SkadaStorageDB = {
 							["id"] = 55095,
 							["targets"] = {
 								["Expert's Training Dummy"] = {
-									["overkill"] = 1247,
 									["amount"] = 1259,
+									["overkill"] = 1247,
 								},
 							},
 							["overkill"] = 1247,
-							["hitmax"] = 106,
 							["count"] = 12,
+							["hitmax"] = 106,
 							["hit"] = 12,
 							["school"] = 16,
 							["resisted"] = 10,
@@ -106,13 +175,13 @@ SkadaStorageDB = {
 							["id"] = 55078,
 							["targets"] = {
 								["Expert's Training Dummy"] = {
-									["overkill"] = 1182,
 									["amount"] = 1194,
+									["overkill"] = 1182,
 								},
 							},
 							["overkill"] = 1182,
-							["hitmax"] = 111,
 							["count"] = 12,
+							["hitmax"] = 111,
 							["hit"] = 12,
 							["school"] = 32,
 							["resisted"] = 132,
@@ -127,6 +196,9 @@ SkadaStorageDB = {
 					["spec"] = 250,
 					["totaldamage"] = 8029,
 					["name"] = "Flocius",
+					["time"] = 52.12000000000001,
+					["flag"] = 1297,
+					["role"] = "TANK",
 					["auras"] = {
 						[48263] = {
 							["type"] = "BUFF",
@@ -173,94 +245,58 @@ SkadaStorageDB = {
 							["uptime"] = 28,
 						},
 					},
-					["role"] = "TANK",
-					["flag"] = 1297,
-					["time"] = 52.12000000000001,
 					["damage"] = 8029,
 				}, -- [1]
 			},
+			["time"] = 64,
+			["last_action"] = 1689456189,
+			["endtime"] = 1689456189,
+			["overkill"] = 7988,
+			["edamagetaken"] = 8029,
+			["totaldamage"] = 8029,
+			["name"] = "Expert's Training Dummy",
+			["mobname"] = "Expert's Training Dummy",
+			["damage"] = 8029,
+			["etotaldamagetaken"] = 8029,
+			["last_time"] = 8394.91,
+		}, -- [1]
+		{
+			["starttime"] = 1689455344,
 			["type"] = "none",
 			["enemies"] = {
 				{
-					["damagetaken"] = 8029,
-					["name"] = "Expert's Training Dummy",
-					["class"] = "MONSTER",
+					["name"] = "Rat",
+					["damagetaken"] = 1777,
+					["id"] = "0xF130000FEB1F2B04",
 					["flag"] = 68136,
-					["totaldamagetaken"] = 8029,
-					["id"] = "0xF130007F9A001C3F",
+					["class"] = "MONSTER",
+					["totaldamagetaken"] = 1777,
 					["damagetakenspells"] = {
-						[45477] = {
-							["school"] = 16,
-							["sources"] = {
-								["Flocius"] = {
-									["overkill"] = 597,
-									["amount"] = 599,
-								},
-							},
-							["overkill"] = 597,
-							["amount"] = 599,
-						},
-						[55078] = {
-							["school"] = 32,
-							["sources"] = {
-								["Flocius"] = {
-									["overkill"] = 1182,
-									["amount"] = 1194,
-								},
-							},
-							["overkill"] = 1182,
-							["amount"] = 1194,
-						},
-						[45462] = {
-							["school"] = 1,
-							["sources"] = {
-								["Flocius"] = {
-									["overkill"] = 356,
-									["amount"] = 358,
-								},
-							},
-							["overkill"] = 356,
-							["amount"] = 358,
-						},
 						[6603] = {
 							["school"] = 1,
 							["sources"] = {
 								["Flocius"] = {
-									["overkill"] = 4606,
-									["amount"] = 4619,
+									["amount"] = 1094,
+									["overkill"] = 1085,
 								},
 							},
-							["overkill"] = 4606,
-							["amount"] = 4619,
+							["amount"] = 1094,
+							["overkill"] = 1085,
 						},
-						[55095] = {
-							["school"] = 16,
+						[48721] = {
+							["school"] = 32,
 							["sources"] = {
 								["Flocius"] = {
-									["overkill"] = 1247,
-									["amount"] = 1259,
+									["amount"] = 683,
+									["overkill"] = 665,
 								},
 							},
-							["overkill"] = 1247,
-							["amount"] = 1259,
+							["amount"] = 683,
+							["overkill"] = 665,
 						},
 					},
 				}, -- [1]
 			},
-			["starttime"] = 1689456125,
-			["name"] = "Expert's Training Dummy",
-			["etotaldamagetaken"] = 8029,
-			["last_time"] = 8394.91,
-			["overkill"] = 7988,
-			["edamagetaken"] = 8029,
-			["totaldamage"] = 8029,
-			["time"] = 64,
-			["mobname"] = "Expert's Training Dummy",
-			["damage"] = 8029,
-			["last_action"] = 1689456189,
-			["endtime"] = 1689456189,
-		}, -- [1]
-		{
 			["players"] = {
 				{
 					["damagespells"] = {
@@ -269,8 +305,8 @@ SkadaStorageDB = {
 							["id"] = 6603,
 							["targets"] = {
 								["Rat"] = {
-									["overkill"] = 1085,
 									["amount"] = 1094,
+									["overkill"] = 1085,
 								},
 							},
 							["overkill"] = 1085,
@@ -278,29 +314,29 @@ SkadaStorageDB = {
 							["critical"] = 1,
 							["amount"] = 1094,
 							["school"] = 1,
-							["criticalmin"] = 1094,
 							["count"] = 1,
+							["criticalmin"] = 1094,
 						},
 						["Blood Boil"] = {
-							["criticalmin"] = 453,
-							["hitmin"] = 230,
 							["criticalamount"] = 453,
+							["hitmin"] = 230,
+							["criticalmin"] = 453,
 							["id"] = 48721,
-							["critical"] = 1,
+							["casts"] = 1,
 							["targets"] = {
 								["Rat"] = {
-									["overkill"] = 665,
 									["amount"] = 683,
+									["overkill"] = 665,
 								},
 							},
 							["overkill"] = 665,
-							["amount"] = 683,
-							["criticalmax"] = 453,
-							["count"] = 2,
-							["hit"] = 1,
-							["school"] = 32,
 							["hitmax"] = 230,
-							["casts"] = 1,
+							["criticalmax"] = 453,
+							["critical"] = 1,
+							["amount"] = 683,
+							["school"] = 32,
+							["hit"] = 1,
+							["count"] = 2,
 							["hitamount"] = 230,
 						},
 					},
@@ -311,6 +347,9 @@ SkadaStorageDB = {
 					["spec"] = 250,
 					["totaldamage"] = 1777,
 					["name"] = "Flocius",
+					["time"] = 7,
+					["flag"] = 1297,
+					["role"] = "TANK",
 					["auras"] = {
 						[48263] = {
 							["type"] = "BUFF",
@@ -323,69 +362,30 @@ SkadaStorageDB = {
 							["uptime"] = 16,
 						},
 					},
-					["role"] = "TANK",
-					["flag"] = 1297,
-					["time"] = 7,
 					["damage"] = 1777,
 				}, -- [1]
 			},
-			["type"] = "none",
-			["enemies"] = {
-				{
-					["damagetaken"] = 1777,
-					["name"] = "Rat",
-					["class"] = "MONSTER",
-					["flag"] = 68136,
-					["totaldamagetaken"] = 1777,
-					["id"] = "0xF130000FEB1F2B04",
-					["damagetakenspells"] = {
-						[6603] = {
-							["school"] = 1,
-							["sources"] = {
-								["Flocius"] = {
-									["overkill"] = 1085,
-									["amount"] = 1094,
-								},
-							},
-							["overkill"] = 1085,
-							["amount"] = 1094,
-						},
-						[48721] = {
-							["school"] = 32,
-							["sources"] = {
-								["Flocius"] = {
-									["overkill"] = 665,
-									["amount"] = 683,
-								},
-							},
-							["overkill"] = 665,
-							["amount"] = 683,
-						},
-					},
-				}, -- [1]
-			},
-			["starttime"] = 1689455344,
-			["name"] = "Rat",
-			["etotaldamagetaken"] = 1777,
-			["last_time"] = 7565.696,
+			["time"] = 16,
+			["last_action"] = 1689455359,
+			["endtime"] = 1689455360,
 			["overkill"] = 1750,
 			["edamagetaken"] = 1777,
 			["totaldamage"] = 1777,
-			["time"] = 16,
+			["name"] = "Rat",
 			["mobname"] = "Rat",
 			["damage"] = 1777,
-			["last_action"] = 1689455359,
-			["endtime"] = 1689455360,
+			["etotaldamagetaken"] = 1777,
+			["last_time"] = 7565.696,
 		}, -- [2]
 		{
 			["enemies"] = {
 				{
-					["damagetaken"] = 1220,
 					["name"] = "Skeletal Horror",
-					["class"] = "MONSTER",
-					["flag"] = 68168,
-					["totaldamagetaken"] = 1220,
+					["damagetaken"] = 1220,
 					["id"] = "0xF1300000CA1F1094",
+					["flag"] = 68168,
+					["class"] = "MONSTER",
+					["totaldamagetaken"] = 1220,
 					["damagetakenspells"] = {
 						[45902] = {
 							["school"] = 1,
@@ -400,12 +400,12 @@ SkadaStorageDB = {
 							["school"] = 1,
 							["sources"] = {
 								["Flocius"] = {
-									["overkill"] = 602,
 									["amount"] = 858,
+									["overkill"] = 602,
 								},
 							},
-							["overkill"] = 602,
 							["amount"] = 858,
+							["overkill"] = 602,
 						},
 					},
 				}, -- [1]
@@ -439,8 +439,8 @@ SkadaStorageDB = {
 							["id"] = 6603,
 							["targets"] = {
 								["Skeletal Horror"] = {
-									["overkill"] = 602,
 									["amount"] = 858,
+									["overkill"] = 602,
 								},
 							},
 							["overkill"] = 602,
@@ -448,16 +448,37 @@ SkadaStorageDB = {
 							["critical"] = 1,
 							["amount"] = 858,
 							["school"] = 1,
-							["criticalmin"] = 858,
 							["count"] = 1,
+							["criticalmin"] = 858,
 						},
 					},
 					["last"] = 5299.929,
 					["damagetaken"] = 0,
-					["overkill"] = 602,
+					["id"] = "0x07000000009742E5",
 					["flag"] = 1297,
 					["class"] = "DEATHKNIGHT",
-					["id"] = "0x07000000009742E5",
+					["totaldamage"] = 1220,
+					["overkill"] = 602,
+					["name"] = "Flocius",
+					["role"] = "TANK",
+					["time"] = 3.39,
+					["damagetakenspells"] = {
+						["Melee"] = {
+							["sources"] = {
+								["Skeletal Horror"] = {
+									["amount"] = 0,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 0,
+							["school"] = 1,
+							["id"] = 6603,
+							["MISS"] = 1,
+							["PARRY"] = 1,
+						},
+					},
+					["spec"] = 250,
+					["totaldamagetaken"] = 0,
 					["auras"] = {
 						[48263] = {
 							["type"] = "BUFF",
@@ -470,27 +491,6 @@ SkadaStorageDB = {
 							["uptime"] = 5,
 						},
 					},
-					["time"] = 3.39,
-					["role"] = "TANK",
-					["name"] = "Flocius",
-					["spec"] = 250,
-					["damagetakenspells"] = {
-						["Melee"] = {
-							["sources"] = {
-								["Skeletal Horror"] = {
-									["amount"] = 0,
-								},
-							},
-							["count"] = 2,
-							["amount"] = 0,
-							["school"] = 1,
-							["PARRY"] = 1,
-							["MISS"] = 1,
-							["id"] = 6603,
-						},
-					},
-					["totaldamagetaken"] = 0,
-					["totaldamage"] = 1220,
 					["damage"] = 1220,
 				}, -- [1]
 			},
@@ -545,12 +545,12 @@ SkadaStorageDB = {
 							["school"] = 16,
 							["sources"] = {
 								["Flocius"] = {
-									["overkill"] = 104,
 									["amount"] = 317,
+									["overkill"] = 104,
 								},
 							},
-							["overkill"] = 104,
 							["amount"] = 317,
+							["overkill"] = 104,
 						},
 					},
 					["totaldamage"] = 30,
@@ -579,21 +579,12 @@ SkadaStorageDB = {
 							["school"] = 1,
 							["sources"] = {
 								["Flocius"] = {
-									["overkill"] = 2783,
 									["amount"] = 4769,
+									["overkill"] = 2783,
 								},
 							},
-							["overkill"] = 2783,
 							["amount"] = 4769,
-						},
-						[47632] = {
-							["school"] = 32,
-							["sources"] = {
-								["Flocius"] = {
-									["amount"] = 365,
-								},
-							},
-							["amount"] = 365,
+							["overkill"] = 2783,
 						},
 						[48721] = {
 							["school"] = 32,
@@ -603,6 +594,15 @@ SkadaStorageDB = {
 								},
 							},
 							["amount"] = 225,
+						},
+						[47632] = {
+							["school"] = 32,
+							["sources"] = {
+								["Flocius"] = {
+									["amount"] = 365,
+								},
+							},
+							["amount"] = 365,
 						},
 					},
 					["totaldamage"] = 10,
@@ -632,13 +632,13 @@ SkadaStorageDB = {
 							["count"] = 3,
 							["amount"] = 4769,
 							["school"] = 1,
-							["critical"] = 1,
 							["targets"] = {
 								["Plague Spreader"] = {
-									["overkill"] = 2783,
 									["amount"] = 4769,
+									["overkill"] = 2783,
 								},
 							},
+							["critical"] = 1,
 							["glancemin"] = 1914,
 						},
 						["Icy Touch"] = {
@@ -678,8 +678,8 @@ SkadaStorageDB = {
 							["id"] = 55095,
 							["targets"] = {
 								["Carrion Recluse"] = {
-									["overkill"] = 104,
 									["amount"] = 317,
+									["overkill"] = 104,
 								},
 							},
 							["overkill"] = 104,
@@ -712,11 +712,17 @@ SkadaStorageDB = {
 					},
 					["last"] = 5165.796,
 					["damagetaken"] = 40,
+					["id"] = "0x07000000009742E5",
+					["flag"] = 1297,
+					["class"] = "DEATHKNIGHT",
+					["role"] = "TANK",
 					["auras"] = {
-						[53138] = {
+						[64859] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 14,
+							["school"] = 1,
+							["refresh"] = 1,
+							["uptime"] = 12,
 						},
 						[55095] = {
 							["type"] = "DEBUFF",
@@ -730,27 +736,20 @@ SkadaStorageDB = {
 							},
 							["uptime"] = 9,
 						},
+						[53138] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 14,
+						},
 						[48263] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 14,
 						},
-						[64859] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["refresh"] = 1,
-							["uptime"] = 12,
-						},
 					},
-					["flag"] = 1297,
-					["class"] = "DEATHKNIGHT",
-					["id"] = "0x07000000009742E5",
-					["overkill"] = 2887,
-					["time"] = 12.15,
-					["totaldamage"] = 6197,
 					["name"] = "Flocius",
-					["spec"] = 250,
+					["totaldamage"] = 6197,
+					["time"] = 12.15,
 					["damagetakenspells"] = {
 						["Melee"] = {
 							["DODGE"] = 2,
@@ -772,8 +771,9 @@ SkadaStorageDB = {
 							["hitamount"] = 40,
 						},
 					},
+					["spec"] = 250,
 					["totaldamagetaken"] = 40,
-					["role"] = "TANK",
+					["overkill"] = 2887,
 					["damage"] = 6197,
 				}, -- [1]
 			},
@@ -812,12 +812,12 @@ SkadaStorageDB = {
 							["school"] = 32,
 							["sources"] = {
 								["Flocius"] = {
-									["overkill"] = 404,
 									["amount"] = 1138,
+									["overkill"] = 404,
 								},
 							},
-							["overkill"] = 404,
 							["amount"] = 1138,
+							["overkill"] = 404,
 						},
 					},
 					["totaldamage"] = 32,
@@ -846,12 +846,12 @@ SkadaStorageDB = {
 							["school"] = 32,
 							["sources"] = {
 								["Flocius"] = {
-									["overkill"] = 33,
 									["amount"] = 698,
+									["overkill"] = 33,
 								},
 							},
-							["overkill"] = 33,
 							["amount"] = 698,
+							["overkill"] = 33,
 						},
 					},
 					["totaldamage"] = 38,
@@ -880,12 +880,12 @@ SkadaStorageDB = {
 							["school"] = 32,
 							["sources"] = {
 								["Flocius"] = {
-									["overkill"] = 454,
 									["amount"] = 456,
+									["overkill"] = 454,
 								},
 							},
-							["overkill"] = 454,
 							["amount"] = 456,
+							["overkill"] = 454,
 						},
 					},
 					["totaldamage"] = 6,
@@ -904,39 +904,53 @@ SkadaStorageDB = {
 				{
 					["damagespells"] = {
 						["Blood Boil"] = {
-							["criticalamount"] = 919,
-							["hitmin"] = 219,
 							["criticalmin"] = 448,
+							["hitmin"] = 219,
+							["criticalamount"] = 919,
 							["id"] = 48721,
-							["casts"] = 4,
+							["critical"] = 2,
 							["targets"] = {
 								["Flesh Eater"] = {
-									["overkill"] = 33,
 									["amount"] = 698,
+									["overkill"] = 33,
 								},
 								["Rotted One"] = {
-									["overkill"] = 404,
 									["amount"] = 1138,
+									["overkill"] = 404,
 								},
 								["Flesh Eating Worm"] = {
-									["overkill"] = 454,
 									["amount"] = 456,
+									["overkill"] = 454,
 								},
 							},
 							["overkill"] = 891,
+							["hit"] = 6,
+							["casts"] = 4,
 							["count"] = 8,
-							["criticalmax"] = 471,
-							["hitmax"] = 241,
 							["amount"] = 2292,
 							["school"] = 32,
-							["hit"] = 6,
-							["critical"] = 2,
+							["hitmax"] = 241,
+							["criticalmax"] = 471,
 							["hitamount"] = 1373,
 						},
 					},
 					["last"] = 5133.872,
 					["damagetaken"] = 76,
+					["id"] = "0x07000000009742E5",
+					["flag"] = 1297,
+					["class"] = "DEATHKNIGHT",
+					["role"] = "TANK",
 					["auras"] = {
+						[53138] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 37,
+						},
+						[48263] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 37,
+						},
 						[64859] = {
 							["type"] = "BUFF",
 							["count"] = 2,
@@ -950,32 +964,15 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 10,
 						},
-						[48263] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 37,
-						},
-						[53138] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 37,
-						},
 					},
-					["flag"] = 1297,
-					["class"] = "DEATHKNIGHT",
-					["id"] = "0x07000000009742E5",
-					["overkill"] = 891,
-					["time"] = 7.45,
-					["totaldamage"] = 2292,
 					["name"] = "Flocius",
-					["spec"] = 250,
+					["totaldamage"] = 2292,
+					["time"] = 7.45,
 					["damagetakenspells"] = {
 						["Melee"] = {
 							["DODGE"] = 9,
 							["hitmin"] = 3,
 							["id"] = 6603,
-							["PARRY"] = 13,
-							["amount"] = 76,
 							["sources"] = {
 								["Flesh Eater"] = {
 									["amount"] = 38,
@@ -987,16 +984,19 @@ SkadaStorageDB = {
 									["amount"] = 6,
 								},
 							},
-							["count"] = 38,
 							["hit"] = 11,
+							["PARRY"] = 13,
+							["count"] = 38,
+							["amount"] = 76,
 							["school"] = 1,
 							["hitmax"] = 9,
 							["MISS"] = 5,
 							["hitamount"] = 76,
 						},
 					},
+					["spec"] = 250,
 					["totaldamagetaken"] = 76,
-					["role"] = "TANK",
+					["overkill"] = 891,
 					["damage"] = 2292,
 				}, -- [1]
 			},
@@ -1035,34 +1035,34 @@ SkadaStorageDB = {
 							["school"] = 1,
 							["sources"] = {
 								["Flocius"] = {
-									["overkill"] = 758,
 									["amount"] = 982,
+									["overkill"] = 758,
 								},
 							},
-							["overkill"] = 758,
 							["amount"] = 982,
+							["overkill"] = 758,
 						},
 						[49998] = {
 							["school"] = 1,
 							["sources"] = {
 								["Flocius"] = {
-									["overkill"] = 1025,
 									["amount"] = 1216,
+									["overkill"] = 1025,
 								},
 							},
-							["overkill"] = 1025,
 							["amount"] = 1216,
+							["overkill"] = 1025,
 						},
 						[48721] = {
 							["school"] = 32,
 							["sources"] = {
 								["Flocius"] = {
-									["overkill"] = 44,
 									["amount"] = 1672,
+									["overkill"] = 44,
 								},
 							},
-							["overkill"] = 44,
 							["amount"] = 1672,
+							["overkill"] = 44,
 						},
 					},
 					["totaldamage"] = 24,
@@ -1080,32 +1080,13 @@ SkadaStorageDB = {
 			["players"] = {
 				{
 					["damagespells"] = {
-						["Death Strike"] = {
-							["criticalamount"] = 1216,
-							["id"] = 49998,
-							["targets"] = {
-								["Skeletal Fiend"] = {
-									["overkill"] = 1025,
-									["amount"] = 1216,
-								},
-							},
-							["overkill"] = 1025,
-							["amount"] = 1216,
-							["casts"] = 1,
-							["count"] = 1,
-							["blocked"] = 12,
-							["school"] = 1,
-							["criticalmin"] = 1216,
-							["criticalmax"] = 1216,
-							["critical"] = 1,
-						},
 						["Melee"] = {
 							["criticalamount"] = 982,
 							["id"] = 6603,
 							["targets"] = {
 								["Skeletal Fiend"] = {
-									["overkill"] = 758,
 									["amount"] = 982,
+									["overkill"] = 758,
 								},
 							},
 							["overkill"] = 758,
@@ -1113,35 +1094,68 @@ SkadaStorageDB = {
 							["critical"] = 1,
 							["amount"] = 982,
 							["school"] = 1,
-							["criticalmin"] = 982,
 							["count"] = 1,
+							["criticalmin"] = 982,
 						},
-						["Blood Boil"] = {
-							["criticalamount"] = 445,
-							["hitmin"] = 233,
-							["criticalmin"] = 445,
-							["id"] = 48721,
-							["casts"] = 2,
+						["Death Strike"] = {
+							["criticalamount"] = 1216,
+							["id"] = 49998,
 							["targets"] = {
 								["Skeletal Fiend"] = {
-									["overkill"] = 44,
+									["amount"] = 1216,
+									["overkill"] = 1025,
+								},
+							},
+							["overkill"] = 1025,
+							["critical"] = 1,
+							["casts"] = 1,
+							["count"] = 1,
+							["amount"] = 1216,
+							["school"] = 1,
+							["criticalmax"] = 1216,
+							["criticalmin"] = 1216,
+							["blocked"] = 12,
+						},
+						["Blood Boil"] = {
+							["criticalmin"] = 445,
+							["hitmin"] = 233,
+							["criticalamount"] = 445,
+							["id"] = 48721,
+							["critical"] = 1,
+							["targets"] = {
+								["Skeletal Fiend"] = {
 									["amount"] = 1672,
+									["overkill"] = 44,
 								},
 							},
 							["overkill"] = 44,
+							["hit"] = 5,
+							["casts"] = 2,
 							["count"] = 6,
-							["criticalmax"] = 445,
-							["hitmax"] = 264,
 							["amount"] = 1672,
 							["school"] = 32,
-							["hit"] = 5,
-							["critical"] = 1,
+							["hitmax"] = 264,
+							["criticalmax"] = 445,
 							["hitamount"] = 1227,
 						},
 					},
 					["last"] = 5071.064,
 					["damagetaken"] = 24,
+					["id"] = "0x07000000009742E5",
+					["flag"] = 1297,
+					["class"] = "DEATHKNIGHT",
+					["role"] = "TANK",
 					["auras"] = {
+						[53138] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 7,
+						},
+						[48263] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 7,
+						},
 						[52424] = {
 							["school"] = 1,
 							["type"] = "BUFF",
@@ -1155,46 +1169,32 @@ SkadaStorageDB = {
 							["refresh"] = 1,
 							["uptime"] = 3,
 						},
-						[48263] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 7,
-						},
-						[53138] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 7,
-						},
 					},
-					["flag"] = 1297,
-					["class"] = "DEATHKNIGHT",
-					["id"] = "0x07000000009742E5",
-					["overkill"] = 1827,
-					["time"] = 5.4,
-					["totaldamage"] = 3870,
 					["name"] = "Flocius",
-					["spec"] = 250,
+					["totaldamage"] = 3870,
+					["time"] = 5.4,
 					["damagetakenspells"] = {
 						["Melee"] = {
 							["DODGE"] = 1,
 							["hitmin"] = 7,
 							["id"] = 6603,
-							["PARRY"] = 1,
 							["sources"] = {
 								["Skeletal Fiend"] = {
 									["amount"] = 24,
 								},
 							},
+							["PARRY"] = 1,
 							["count"] = 5,
 							["hit"] = 3,
 							["school"] = 1,
-							["hitmax"] = 9,
 							["amount"] = 24,
+							["hitmax"] = 9,
 							["hitamount"] = 24,
 						},
 					},
+					["spec"] = 250,
 					["totaldamagetaken"] = 24,
-					["role"] = "TANK",
+					["overkill"] = 1827,
 					["damage"] = 3870,
 				}, -- [1]
 			},
@@ -1242,12 +1242,12 @@ SkadaStorageDB = {
 							["school"] = 1,
 							["sources"] = {
 								["Flocius"] = {
-									["overkill"] = 676,
 									["amount"] = 898,
+									["overkill"] = 676,
 								},
 							},
-							["overkill"] = 676,
 							["amount"] = 898,
+							["overkill"] = 676,
 						},
 					},
 					["totaldamage"] = 10,
@@ -1257,34 +1257,34 @@ SkadaStorageDB = {
 					["damage"] = 10,
 				}, -- [1]
 				{
-					["damagetaken"] = 828,
 					["name"] = "Flesh Eating Worm",
-					["class"] = "MONSTER",
-					["flag"] = 68168,
-					["totaldamagetaken"] = 828,
+					["damagetaken"] = 828,
 					["id"] = "0xF13000099E1F04B1",
+					["flag"] = 68168,
+					["class"] = "MONSTER",
+					["totaldamagetaken"] = 828,
 					["damagetakenspells"] = {
 						[45902] = {
 							["school"] = 1,
 							["sources"] = {
 								["Flocius"] = {
-									["overkill"] = 353,
 									["amount"] = 354,
+									["overkill"] = 353,
 								},
 							},
-							["overkill"] = 353,
 							["amount"] = 354,
+							["overkill"] = 353,
 						},
 						[48721] = {
 							["school"] = 32,
 							["sources"] = {
 								["Flocius"] = {
-									["overkill"] = 473,
 									["amount"] = 474,
+									["overkill"] = 473,
 								},
 							},
-							["overkill"] = 473,
 							["amount"] = 474,
+							["overkill"] = 473,
 						},
 					},
 				}, -- [2]
@@ -1302,8 +1302,8 @@ SkadaStorageDB = {
 							["id"] = 45902,
 							["targets"] = {
 								["Flesh Eating Worm"] = {
-									["overkill"] = 353,
 									["amount"] = 354,
+									["overkill"] = 353,
 								},
 							},
 							["overkill"] = 353,
@@ -1314,6 +1314,23 @@ SkadaStorageDB = {
 							["hitmax"] = 354,
 							["amount"] = 354,
 							["hitamount"] = 354,
+						},
+						["Melee"] = {
+							["criticalamount"] = 898,
+							["id"] = 6603,
+							["targets"] = {
+								["Rotted One"] = {
+									["amount"] = 898,
+									["overkill"] = 676,
+								},
+							},
+							["overkill"] = 676,
+							["criticalmax"] = 898,
+							["critical"] = 1,
+							["amount"] = 898,
+							["school"] = 1,
+							["count"] = 1,
+							["criticalmin"] = 898,
 						},
 						["Death Strike"] = {
 							["hitmin"] = 566,
@@ -1331,30 +1348,13 @@ SkadaStorageDB = {
 							["amount"] = 566,
 							["hitamount"] = 566,
 						},
-						["Melee"] = {
-							["criticalamount"] = 898,
-							["id"] = 6603,
-							["targets"] = {
-								["Rotted One"] = {
-									["overkill"] = 676,
-									["amount"] = 898,
-								},
-							},
-							["overkill"] = 676,
-							["criticalmax"] = 898,
-							["critical"] = 1,
-							["amount"] = 898,
-							["school"] = 1,
-							["criticalmin"] = 898,
-							["count"] = 1,
-						},
 						["Blood Boil"] = {
 							["criticalamount"] = 474,
 							["id"] = 48721,
 							["targets"] = {
 								["Flesh Eating Worm"] = {
-									["overkill"] = 473,
 									["amount"] = 474,
+									["overkill"] = 473,
 								},
 							},
 							["overkill"] = 473,
@@ -1362,14 +1362,24 @@ SkadaStorageDB = {
 							["critical"] = 1,
 							["amount"] = 474,
 							["school"] = 32,
-							["criticalmin"] = 474,
-							["criticalmax"] = 474,
 							["count"] = 1,
+							["criticalmax"] = 474,
+							["criticalmin"] = 474,
 						},
 					},
 					["last"] = 4866.192,
 					["damagetaken"] = 10,
+					["id"] = "0x07000000009742E5",
+					["flag"] = 1297,
+					["class"] = "DEATHKNIGHT",
+					["role"] = "TANK",
 					["auras"] = {
+						[64859] = {
+							["school"] = 1,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 1,
+						},
 						[53138] = {
 							["type"] = "BUFF",
 							["count"] = 1,
@@ -1380,28 +1390,15 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 5,
 						},
-						[64859] = {
-							["school"] = 1,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 1,
-						},
 					},
-					["flag"] = 1297,
-					["class"] = "DEATHKNIGHT",
-					["id"] = "0x07000000009742E5",
-					["overkill"] = 1502,
-					["time"] = 4.08,
-					["totaldamage"] = 2292,
 					["name"] = "Flocius",
-					["spec"] = 250,
+					["totaldamage"] = 2292,
+					["time"] = 4.08,
 					["damagetakenspells"] = {
 						["Melee"] = {
 							["DODGE"] = 1,
 							["hitmin"] = 10,
 							["id"] = 6603,
-							["PARRY"] = 1,
-							["amount"] = 10,
 							["sources"] = {
 								["Rotted One"] = {
 									["amount"] = 10,
@@ -1410,16 +1407,19 @@ SkadaStorageDB = {
 									["amount"] = 0,
 								},
 							},
-							["count"] = 4,
 							["hit"] = 1,
+							["PARRY"] = 1,
+							["count"] = 4,
+							["amount"] = 10,
 							["school"] = 1,
 							["hitmax"] = 10,
 							["MISS"] = 1,
 							["hitamount"] = 10,
 						},
 					},
+					["spec"] = 250,
 					["totaldamagetaken"] = 10,
-					["role"] = "TANK",
+					["overkill"] = 1502,
 					["damage"] = 2292,
 				}, -- [1]
 			},
@@ -1458,12 +1458,12 @@ SkadaStorageDB = {
 							["school"] = 1,
 							["sources"] = {
 								["Flocius"] = {
-									["overkill"] = 1363,
 									["amount"] = 2409,
+									["overkill"] = 1363,
 								},
 							},
-							["overkill"] = 1363,
 							["amount"] = 2409,
+							["overkill"] = 1363,
 						},
 						[45477] = {
 							["school"] = 16,
@@ -1478,12 +1478,12 @@ SkadaStorageDB = {
 							["school"] = 1,
 							["sources"] = {
 								["Flocius"] = {
-									["overkill"] = 333,
 									["amount"] = 351,
+									["overkill"] = 333,
 								},
 							},
-							["overkill"] = 333,
 							["amount"] = 351,
+							["overkill"] = 333,
 						},
 						[47632] = {
 							["school"] = 32,
@@ -1526,6 +1526,45 @@ SkadaStorageDB = {
 							["amount"] = 365,
 							["hitamount"] = 365,
 						},
+						["Blood Strike"] = {
+							["hitmin"] = 351,
+							["id"] = 45902,
+							["targets"] = {
+								["Plague Spreader"] = {
+									["amount"] = 351,
+									["overkill"] = 333,
+								},
+							},
+							["overkill"] = 333,
+							["casts"] = 1,
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 1,
+							["hitmax"] = 351,
+							["amount"] = 351,
+							["hitamount"] = 351,
+						},
+						["Melee"] = {
+							["glance"] = 1952,
+							["hitmin"] = 457,
+							["id"] = 6603,
+							["hitamount"] = 457,
+							["targets"] = {
+								["Plague Spreader"] = {
+									["amount"] = 2409,
+									["overkill"] = 1363,
+								},
+							},
+							["overkill"] = 1363,
+							["glancing"] = 1,
+							["hit"] = 1,
+							["count"] = 2,
+							["amount"] = 2409,
+							["school"] = 1,
+							["hitmax"] = 457,
+							["glancemax"] = 1952,
+							["glancemin"] = 1952,
+						},
 						["Icy Touch"] = {
 							["hitmin"] = 307,
 							["id"] = 45477,
@@ -1542,53 +1581,19 @@ SkadaStorageDB = {
 							["amount"] = 307,
 							["hitamount"] = 307,
 						},
-						["Melee"] = {
-							["glance"] = 1952,
-							["hitmin"] = 457,
-							["id"] = 6603,
-							["glancemin"] = 1952,
-							["targets"] = {
-								["Plague Spreader"] = {
-									["overkill"] = 1363,
-									["amount"] = 2409,
-								},
-							},
-							["overkill"] = 1363,
-							["glancing"] = 1,
-							["glancemax"] = 1952,
-							["count"] = 2,
-							["amount"] = 2409,
-							["school"] = 1,
-							["hitmax"] = 457,
-							["hit"] = 1,
-							["hitamount"] = 457,
-						},
-						["Blood Strike"] = {
-							["hitmin"] = 351,
-							["id"] = 45902,
-							["targets"] = {
-								["Plague Spreader"] = {
-									["overkill"] = 333,
-									["amount"] = 351,
-								},
-							},
-							["overkill"] = 333,
-							["casts"] = 1,
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 1,
-							["hitmax"] = 351,
-							["amount"] = 351,
-							["hitamount"] = 351,
-						},
 					},
 					["last"] = 4794.902,
 					["damagetaken"] = 19,
+					["id"] = "0x07000000009742E5",
+					["flag"] = 1297,
+					["class"] = "DEATHKNIGHT",
+					["role"] = "TANK",
 					["auras"] = {
-						[53138] = {
-							["type"] = "BUFF",
+						[64859] = {
 							["count"] = 1,
+							["refresh"] = 2,
 							["uptime"] = 6,
+							["type"] = "BUFF",
 						},
 						[55095] = {
 							["type"] = "DEBUFF",
@@ -1602,26 +1607,20 @@ SkadaStorageDB = {
 							},
 							["uptime"] = 2,
 						},
+						[53138] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 6,
+						},
 						[48263] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 6,
 						},
-						[64859] = {
-							["refresh"] = 2,
-							["type"] = "BUFF",
-							["uptime"] = 6,
-							["count"] = 1,
-						},
 					},
-					["flag"] = 1297,
-					["class"] = "DEATHKNIGHT",
-					["id"] = "0x07000000009742E5",
-					["overkill"] = 1696,
-					["time"] = 5.59,
-					["totaldamage"] = 3432,
 					["name"] = "Flocius",
-					["spec"] = 250,
+					["totaldamage"] = 3432,
+					["time"] = 5.59,
 					["damagetakenspells"] = {
 						["Melee"] = {
 							["hitmin"] = 9,
@@ -1639,8 +1638,9 @@ SkadaStorageDB = {
 							["hitamount"] = 19,
 						},
 					},
+					["spec"] = 250,
 					["totaldamagetaken"] = 19,
-					["role"] = "TANK",
+					["overkill"] = 1696,
 					["damage"] = 3432,
 				}, -- [1]
 			},
@@ -1660,12 +1660,12 @@ SkadaStorageDB = {
 		{
 			["enemies"] = {
 				{
-					["damagetaken"] = 1059,
 					["name"] = "Bone Chewer",
-					["class"] = "MONSTER",
-					["flag"] = 2632,
-					["totaldamagetaken"] = 1059,
+					["damagetaken"] = 1059,
 					["id"] = "0xF1300000D21EF70B",
+					["flag"] = 2632,
+					["class"] = "MONSTER",
+					["totaldamagetaken"] = 1059,
 					["damagetakenspells"] = {
 						[48721] = {
 							["school"] = 32,
@@ -1680,12 +1680,12 @@ SkadaStorageDB = {
 							["school"] = 1,
 							["sources"] = {
 								["Flocius"] = {
-									["overkill"] = 271,
 									["amount"] = 360,
+									["overkill"] = 271,
 								},
 							},
-							["overkill"] = 271,
 							["amount"] = 360,
+							["overkill"] = 271,
 						},
 					},
 				}, -- [1]
@@ -1718,12 +1718,12 @@ SkadaStorageDB = {
 							["school"] = 1,
 							["sources"] = {
 								["Flocius"] = {
-									["overkill"] = 608,
 									["amount"] = 868,
+									["overkill"] = 608,
 								},
 							},
-							["overkill"] = 608,
 							["amount"] = 868,
+							["overkill"] = 608,
 						},
 					},
 					["totaldamage"] = 16,
@@ -1746,8 +1746,8 @@ SkadaStorageDB = {
 							["id"] = 45902,
 							["targets"] = {
 								["Bone Chewer"] = {
-									["overkill"] = 271,
 									["amount"] = 360,
+									["overkill"] = 271,
 								},
 							},
 							["overkill"] = 271,
@@ -1764,8 +1764,8 @@ SkadaStorageDB = {
 							["id"] = 6603,
 							["targets"] = {
 								["Flesh Eater"] = {
-									["overkill"] = 608,
 									["amount"] = 868,
+									["overkill"] = 608,
 								},
 							},
 							["overkill"] = 608,
@@ -1773,8 +1773,8 @@ SkadaStorageDB = {
 							["critical"] = 1,
 							["amount"] = 868,
 							["school"] = 1,
-							["criticalmin"] = 868,
 							["count"] = 1,
+							["criticalmin"] = 868,
 						},
 						["Blood Boil"] = {
 							["hitmin"] = 225,
@@ -1782,27 +1782,37 @@ SkadaStorageDB = {
 							["id"] = 48721,
 							["criticalmin"] = 458,
 							["targets"] = {
-								["Flesh Eater"] = {
-									["amount"] = 453,
-								},
 								["Bone Chewer"] = {
 									["amount"] = 699,
 								},
+								["Flesh Eater"] = {
+									["amount"] = 453,
+								},
 							},
+							["critical"] = 1,
+							["hit"] = 3,
 							["casts"] = 2,
 							["count"] = 4,
-							["criticalmax"] = 458,
-							["hitmax"] = 241,
 							["amount"] = 1152,
 							["school"] = 32,
-							["hit"] = 3,
-							["critical"] = 1,
+							["hitmax"] = 241,
+							["criticalmax"] = 458,
 							["hitamount"] = 694,
 						},
 					},
 					["last"] = 4787.017,
 					["damagetaken"] = 16,
+					["id"] = "0x07000000009742E5",
+					["flag"] = 1297,
+					["class"] = "DEATHKNIGHT",
+					["role"] = "TANK",
 					["auras"] = {
+						[64859] = {
+							["count"] = 1,
+							["refresh"] = 2,
+							["uptime"] = 8,
+							["type"] = "BUFF",
+						},
 						[53138] = {
 							["type"] = "BUFF",
 							["count"] = 1,
@@ -1813,45 +1823,35 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 8,
 						},
-						[64859] = {
-							["refresh"] = 2,
-							["type"] = "BUFF",
-							["uptime"] = 8,
-							["count"] = 1,
-						},
 					},
-					["flag"] = 1297,
-					["class"] = "DEATHKNIGHT",
-					["id"] = "0x07000000009742E5",
-					["overkill"] = 879,
-					["time"] = 6.51,
-					["totaldamage"] = 2380,
 					["name"] = "Flocius",
-					["spec"] = 250,
+					["totaldamage"] = 2380,
+					["time"] = 6.51,
 					["damagetakenspells"] = {
 						["Melee"] = {
 							["DODGE"] = 2,
 							["hitmin"] = 8,
 							["id"] = 6603,
-							["PARRY"] = 1,
 							["sources"] = {
-								["Bone Chewer"] = {
-									["amount"] = 0,
-								},
 								["Flesh Eater"] = {
 									["amount"] = 16,
 								},
+								["Bone Chewer"] = {
+									["amount"] = 0,
+								},
 							},
+							["PARRY"] = 1,
 							["count"] = 5,
 							["hit"] = 2,
 							["school"] = 1,
-							["hitmax"] = 8,
 							["amount"] = 16,
+							["hitmax"] = 8,
 							["hitamount"] = 16,
 						},
 					},
+					["spec"] = 250,
 					["totaldamagetaken"] = 16,
-					["role"] = "TANK",
+					["overkill"] = 879,
 					["damage"] = 2380,
 				}, -- [1]
 			},
@@ -1871,12 +1871,12 @@ SkadaStorageDB = {
 		{
 			["enemies"] = {
 				{
-					["damagetaken"] = 1295,
 					["name"] = "Rotted One",
-					["class"] = "MONSTER",
-					["flag"] = 68168,
-					["totaldamagetaken"] = 1295,
+					["damagetaken"] = 1295,
 					["id"] = "0xF1300003B41EDD0C",
+					["flag"] = 68168,
+					["class"] = "MONSTER",
+					["totaldamagetaken"] = 1295,
 					["damagetakenspells"] = {
 						[45477] = {
 							["school"] = 16,
@@ -1891,12 +1891,12 @@ SkadaStorageDB = {
 							["school"] = 1,
 							["sources"] = {
 								["Flocius"] = {
-									["overkill"] = 561,
 									["amount"] = 992,
+									["overkill"] = 561,
 								},
 							},
-							["overkill"] = 561,
 							["amount"] = 992,
+							["overkill"] = 561,
 						},
 					},
 				}, -- [1]
@@ -1920,23 +1920,23 @@ SkadaStorageDB = {
 							["school"] = 32,
 							["sources"] = {
 								["Flocius"] = {
-									["overkill"] = 364,
 									["amount"] = 365,
+									["overkill"] = 364,
 								},
 							},
-							["overkill"] = 364,
 							["amount"] = 365,
+							["overkill"] = 364,
 						},
 						[48721] = {
 							["school"] = 32,
 							["sources"] = {
 								["Flocius"] = {
-									["overkill"] = 251,
 									["amount"] = 252,
+									["overkill"] = 251,
 								},
 							},
-							["overkill"] = 251,
 							["amount"] = 252,
+							["overkill"] = 251,
 						},
 					},
 					["totaldamage"] = 16,
@@ -1975,8 +1975,8 @@ SkadaStorageDB = {
 							["id"] = 47632,
 							["targets"] = {
 								["Flesh Eating Worm"] = {
-									["overkill"] = 364,
 									["amount"] = 365,
+									["overkill"] = 364,
 								},
 							},
 							["overkill"] = 364,
@@ -1993,8 +1993,8 @@ SkadaStorageDB = {
 							["id"] = 6603,
 							["targets"] = {
 								["Rotted One"] = {
-									["overkill"] = 561,
 									["amount"] = 992,
+									["overkill"] = 561,
 								},
 							},
 							["overkill"] = 561,
@@ -2002,16 +2002,16 @@ SkadaStorageDB = {
 							["critical"] = 1,
 							["amount"] = 992,
 							["school"] = 1,
-							["criticalmin"] = 992,
 							["count"] = 1,
+							["criticalmin"] = 992,
 						},
 						["Blood Boil"] = {
 							["hitmin"] = 252,
 							["id"] = 48721,
 							["targets"] = {
 								["Flesh Eating Worm"] = {
-									["overkill"] = 251,
 									["amount"] = 252,
+									["overkill"] = 251,
 								},
 							},
 							["overkill"] = 251,
@@ -2026,6 +2026,10 @@ SkadaStorageDB = {
 					},
 					["last"] = 4753.176,
 					["damagetaken"] = 16,
+					["id"] = "0x07000000009742E5",
+					["flag"] = 1297,
+					["class"] = "DEATHKNIGHT",
+					["role"] = "TANK",
 					["auras"] = {
 						[48263] = {
 							["type"] = "BUFF",
@@ -2033,21 +2037,15 @@ SkadaStorageDB = {
 							["uptime"] = 6,
 						},
 						[64859] = {
-							["refresh"] = 1,
-							["type"] = "BUFF",
-							["uptime"] = 6,
 							["count"] = 1,
+							["refresh"] = 1,
+							["uptime"] = 6,
+							["type"] = "BUFF",
 						},
 						[53138] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 6,
-						},
-						[52424] = {
-							["school"] = 1,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 3,
 						},
 						[55095] = {
 							["type"] = "DEBUFF",
@@ -2061,36 +2059,38 @@ SkadaStorageDB = {
 							},
 							["uptime"] = 1,
 						},
+						[52424] = {
+							["school"] = 1,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 3,
+						},
 					},
-					["flag"] = 1297,
-					["class"] = "DEATHKNIGHT",
-					["id"] = "0x07000000009742E5",
+					["name"] = "Flocius",
+					["totaldamage"] = 1912,
+					["time"] = 5.220000000000001,
+					["overkill"] = 1176,
+					["spec"] = 250,
+					["totaldamagetaken"] = 16,
 					["damagetakenspells"] = {
 						["Melee"] = {
 							["DODGE"] = 1,
 							["hitmin"] = 4,
 							["id"] = 6603,
-							["PARRY"] = 2,
 							["sources"] = {
 								["Flesh Eating Worm"] = {
 									["amount"] = 16,
 								},
 							},
+							["PARRY"] = 2,
 							["count"] = 7,
 							["hit"] = 4,
 							["school"] = 1,
-							["hitmax"] = 4,
 							["amount"] = 16,
+							["hitmax"] = 4,
 							["hitamount"] = 16,
 						},
 					},
-					["time"] = 5.220000000000001,
-					["totaldamage"] = 1912,
-					["name"] = "Flocius",
-					["spec"] = 250,
-					["overkill"] = 1176,
-					["totaldamagetaken"] = 16,
-					["role"] = "TANK",
 					["damage"] = 1912,
 				}, -- [1]
 			},
@@ -2129,12 +2129,12 @@ SkadaStorageDB = {
 							["school"] = 1,
 							["sources"] = {
 								["Flocius"] = {
-									["overkill"] = 2611,
 									["amount"] = 4037,
+									["overkill"] = 2611,
 								},
 							},
-							["overkill"] = 2611,
 							["amount"] = 4037,
+							["overkill"] = 2611,
 						},
 					},
 					["totaldamage"] = 8,
@@ -2163,8 +2163,8 @@ SkadaStorageDB = {
 							["school"] = 1,
 							["targets"] = {
 								["Skeletal Fiend"] = {
-									["overkill"] = 2611,
 									["amount"] = 4037,
+									["overkill"] = 2611,
 								},
 							},
 							["glancemin"] = 2008,
@@ -2172,6 +2172,10 @@ SkadaStorageDB = {
 					},
 					["last"] = 4723.101,
 					["damagetaken"] = 8,
+					["id"] = "0x07000000009742E5",
+					["flag"] = 1297,
+					["class"] = "DEATHKNIGHT",
+					["role"] = "TANK",
 					["auras"] = {
 						[48263] = {
 							["type"] = "BUFF",
@@ -2184,9 +2188,12 @@ SkadaStorageDB = {
 							["uptime"] = 7,
 						},
 					},
-					["flag"] = 1297,
-					["class"] = "DEATHKNIGHT",
-					["id"] = "0x07000000009742E5",
+					["name"] = "Flocius",
+					["totaldamage"] = 4037,
+					["time"] = 4.93,
+					["overkill"] = 2611,
+					["spec"] = 250,
+					["totaldamagetaken"] = 8,
 					["damagetakenspells"] = {
 						["Melee"] = {
 							["DODGE"] = 1,
@@ -2205,13 +2212,6 @@ SkadaStorageDB = {
 							["hitamount"] = 8,
 						},
 					},
-					["time"] = 4.93,
-					["totaldamage"] = 4037,
-					["name"] = "Flocius",
-					["spec"] = 250,
-					["overkill"] = 2611,
-					["totaldamagetaken"] = 8,
-					["role"] = "TANK",
 					["damage"] = 4037,
 				}, -- [1]
 			},
@@ -2231,23 +2231,23 @@ SkadaStorageDB = {
 		{
 			["enemies"] = {
 				{
-					["damagetaken"] = 3659,
 					["name"] = "Skeletal Horror",
-					["class"] = "MONSTER",
-					["flag"] = 2632,
-					["totaldamagetaken"] = 3659,
+					["damagetaken"] = 3659,
 					["id"] = "0xF1300000CA1ED972",
+					["flag"] = 2632,
+					["class"] = "MONSTER",
+					["totaldamagetaken"] = 3659,
 					["damagetakenspells"] = {
 						[6603] = {
 							["school"] = 1,
 							["sources"] = {
 								["Flocius"] = {
-									["overkill"] = 2376,
 									["amount"] = 2909,
+									["overkill"] = 2376,
 								},
 							},
-							["overkill"] = 2376,
 							["amount"] = 2909,
+							["overkill"] = 2376,
 						},
 						[45462] = {
 							["school"] = 1,
@@ -2298,21 +2298,21 @@ SkadaStorageDB = {
 							["glance"] = 2019,
 							["criticalamount"] = 890,
 							["id"] = 6603,
-							["count"] = 2,
+							["critical"] = 1,
 							["targets"] = {
 								["Skeletal Horror"] = {
-									["overkill"] = 2376,
 									["amount"] = 2909,
+									["overkill"] = 2376,
 								},
 							},
 							["overkill"] = 2376,
 							["glancing"] = 1,
 							["criticalmax"] = 890,
-							["critical"] = 1,
+							["count"] = 2,
 							["amount"] = 2909,
 							["school"] = 1,
-							["glancemax"] = 2019,
 							["criticalmin"] = 890,
+							["glancemax"] = 2019,
 							["glancemin"] = 2019,
 						},
 						["Blood Boil"] = {
@@ -2334,10 +2334,32 @@ SkadaStorageDB = {
 					},
 					["last"] = 4628.495,
 					["damagetaken"] = 0,
-					["overkill"] = 2376,
+					["id"] = "0x07000000009742E5",
 					["flag"] = 1297,
 					["class"] = "DEATHKNIGHT",
-					["id"] = "0x07000000009742E5",
+					["totaldamage"] = 3659,
+					["overkill"] = 2376,
+					["name"] = "Flocius",
+					["role"] = "TANK",
+					["time"] = 5.01,
+					["damagetakenspells"] = {
+						["Melee"] = {
+							["DODGE"] = 1,
+							["sources"] = {
+								["Skeletal Horror"] = {
+									["amount"] = 0,
+								},
+							},
+							["count"] = 3,
+							["amount"] = 0,
+							["school"] = 1,
+							["id"] = 6603,
+							["MISS"] = 1,
+							["PARRY"] = 1,
+						},
+					},
+					["spec"] = 250,
+					["totaldamagetaken"] = 0,
 					["auras"] = {
 						[53138] = {
 							["type"] = "BUFF",
@@ -2350,28 +2372,6 @@ SkadaStorageDB = {
 							["uptime"] = 6,
 						},
 					},
-					["time"] = 5.01,
-					["role"] = "TANK",
-					["name"] = "Flocius",
-					["spec"] = 250,
-					["damagetakenspells"] = {
-						["Melee"] = {
-							["DODGE"] = 1,
-							["sources"] = {
-								["Skeletal Horror"] = {
-									["amount"] = 0,
-								},
-							},
-							["count"] = 3,
-							["amount"] = 0,
-							["school"] = 1,
-							["PARRY"] = 1,
-							["MISS"] = 1,
-							["id"] = 6603,
-						},
-					},
-					["totaldamagetaken"] = 0,
-					["totaldamage"] = 3659,
 					["damage"] = 3659,
 				}, -- [1]
 			},
@@ -2408,12 +2408,12 @@ SkadaStorageDB = {
 							["school"] = 32,
 							["sources"] = {
 								["Flocius"] = {
-									["overkill"] = 707,
 									["amount"] = 929,
+									["overkill"] = 707,
 								},
 							},
-							["overkill"] = 707,
 							["amount"] = 929,
+							["overkill"] = 707,
 						},
 					},
 					["totaldamage"] = 1,
@@ -2442,12 +2442,12 @@ SkadaStorageDB = {
 							["school"] = 32,
 							["sources"] = {
 								["Flocius"] = {
-									["overkill"] = 229,
 									["amount"] = 469,
+									["overkill"] = 229,
 								},
 							},
-							["overkill"] = 229,
 							["amount"] = 469,
+							["overkill"] = 229,
 						},
 					},
 					["totaldamage"] = 1,
@@ -2466,38 +2466,67 @@ SkadaStorageDB = {
 				{
 					["damagespells"] = {
 						["Blood Boil"] = {
-							["criticalmin"] = 445,
-							["hitmin"] = 232,
 							["criticalamount"] = 929,
+							["hitmin"] = 232,
+							["criticalmin"] = 445,
 							["id"] = 48721,
-							["critical"] = 2,
+							["casts"] = 1,
 							["targets"] = {
 								["Kobold Miner"] = {
-									["overkill"] = 229,
 									["amount"] = 469,
+									["overkill"] = 229,
 								},
 								["Kobold Tunneler"] = {
-									["overkill"] = 707,
 									["amount"] = 929,
+									["overkill"] = 707,
 								},
 							},
 							["overkill"] = 936,
-							["amount"] = 1398,
-							["criticalmax"] = 484,
-							["count"] = 4,
-							["hit"] = 2,
-							["school"] = 32,
 							["hitmax"] = 237,
-							["casts"] = 1,
+							["criticalmax"] = 484,
+							["critical"] = 2,
+							["amount"] = 1398,
+							["school"] = 32,
+							["hit"] = 2,
+							["count"] = 4,
 							["hitamount"] = 469,
 						},
 					},
 					["last"] = 3073.316,
 					["damagetaken"] = 2,
-					["overkill"] = 936,
+					["id"] = "0x07000000009742E5",
 					["flag"] = 1297,
 					["class"] = "DEATHKNIGHT",
-					["id"] = "0x07000000009742E5",
+					["totaldamage"] = 1398,
+					["overkill"] = 936,
+					["name"] = "Flocius",
+					["role"] = "TANK",
+					["time"] = 3.5,
+					["damagetakenspells"] = {
+						["Melee"] = {
+							["DODGE"] = 2,
+							["hitmin"] = 1,
+							["id"] = 6603,
+							["PARRY"] = 1,
+							["count"] = 8,
+							["sources"] = {
+								["Kobold Miner"] = {
+									["amount"] = 1,
+								},
+								["Kobold Tunneler"] = {
+									["amount"] = 1,
+								},
+							},
+							["hitmax"] = 1,
+							["amount"] = 2,
+							["school"] = 1,
+							["hit"] = 2,
+							["MISS"] = 3,
+							["hitamount"] = 2,
+						},
+					},
+					["spec"] = 250,
+					["totaldamagetaken"] = 2,
 					["auras"] = {
 						[48263] = {
 							["type"] = "BUFF",
@@ -2510,35 +2539,6 @@ SkadaStorageDB = {
 							["uptime"] = 5,
 						},
 					},
-					["time"] = 3.5,
-					["role"] = "TANK",
-					["name"] = "Flocius",
-					["spec"] = 250,
-					["damagetakenspells"] = {
-						["Melee"] = {
-							["DODGE"] = 2,
-							["hitmin"] = 1,
-							["id"] = 6603,
-							["sources"] = {
-								["Kobold Miner"] = {
-									["amount"] = 1,
-								},
-								["Kobold Tunneler"] = {
-									["amount"] = 1,
-								},
-							},
-							["hitmax"] = 1,
-							["PARRY"] = 1,
-							["count"] = 8,
-							["amount"] = 2,
-							["school"] = 1,
-							["hit"] = 2,
-							["MISS"] = 3,
-							["hitamount"] = 2,
-						},
-					},
-					["totaldamagetaken"] = 2,
-					["totaldamage"] = 1398,
 					["damage"] = 1398,
 				}, -- [1]
 			},
@@ -2577,12 +2577,12 @@ SkadaStorageDB = {
 							["school"] = 1,
 							["sources"] = {
 								["Flocius"] = {
-									["overkill"] = 924,
 									["amount"] = 1026,
+									["overkill"] = 924,
 								},
 							},
-							["overkill"] = 924,
 							["amount"] = 1026,
+							["overkill"] = 924,
 						},
 					},
 					["totaldamage"] = 3,
@@ -2605,8 +2605,8 @@ SkadaStorageDB = {
 							["id"] = 6603,
 							["targets"] = {
 								["Kobold Tunneler"] = {
-									["overkill"] = 924,
 									["amount"] = 1026,
+									["overkill"] = 924,
 								},
 							},
 							["overkill"] = 924,
@@ -2614,32 +2614,20 @@ SkadaStorageDB = {
 							["critical"] = 1,
 							["amount"] = 1026,
 							["school"] = 1,
-							["criticalmin"] = 1026,
 							["count"] = 1,
+							["criticalmin"] = 1026,
 						},
 					},
 					["last"] = 2959.057,
 					["damagetaken"] = 3,
-					["overkill"] = 924,
+					["id"] = "0x07000000009742E5",
 					["flag"] = 1297,
 					["class"] = "DEATHKNIGHT",
-					["id"] = "0x07000000009742E5",
-					["auras"] = {
-						[48263] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 5,
-						},
-						[53138] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 5,
-						},
-					},
-					["time"] = 3.5,
-					["role"] = "TANK",
+					["totaldamage"] = 1026,
+					["overkill"] = 924,
 					["name"] = "Flocius",
-					["spec"] = 250,
+					["role"] = "TANK",
+					["time"] = 3.5,
 					["damagetakenspells"] = {
 						["Melee"] = {
 							["hitmin"] = 1,
@@ -2657,8 +2645,20 @@ SkadaStorageDB = {
 							["hitamount"] = 3,
 						},
 					},
+					["spec"] = 250,
 					["totaldamagetaken"] = 3,
-					["totaldamage"] = 1026,
+					["auras"] = {
+						[48263] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 5,
+						},
+						[53138] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 5,
+						},
+					},
 					["damage"] = 1026,
 				}, -- [1]
 			},
@@ -2697,12 +2697,12 @@ SkadaStorageDB = {
 							["school"] = 32,
 							["sources"] = {
 								["Flocius"] = {
-									["overkill"] = 234,
 									["amount"] = 474,
+									["overkill"] = 234,
 								},
 							},
-							["overkill"] = 234,
 							["amount"] = 474,
+							["overkill"] = 234,
 						},
 					},
 					["totaldamage"] = 1,
@@ -2725,8 +2725,8 @@ SkadaStorageDB = {
 							["id"] = 48721,
 							["targets"] = {
 								["Kobold Miner"] = {
-									["overkill"] = 234,
 									["amount"] = 474,
+									["overkill"] = 234,
 								},
 							},
 							["overkill"] = 234,
@@ -2741,11 +2741,42 @@ SkadaStorageDB = {
 					},
 					["last"] = 1434.345,
 					["damagetaken"] = 1,
-					["overkill"] = 234,
+					["id"] = "0x07000000009742E5",
 					["flag"] = 1297,
 					["class"] = "DEATHKNIGHT",
-					["id"] = "0x07000000009742E5",
+					["totaldamage"] = 474,
+					["overkill"] = 234,
+					["name"] = "Flocius",
+					["role"] = "TANK",
+					["time"] = 3.5,
+					["damagetakenspells"] = {
+						["Melee"] = {
+							["DODGE"] = 1,
+							["hitmin"] = 1,
+							["id"] = 6603,
+							["count"] = 3,
+							["sources"] = {
+								["Kobold Miner"] = {
+									["amount"] = 1,
+								},
+							},
+							["hitmax"] = 1,
+							["hit"] = 1,
+							["school"] = 1,
+							["amount"] = 1,
+							["MISS"] = 1,
+							["hitamount"] = 1,
+						},
+					},
+					["spec"] = 250,
+					["totaldamagetaken"] = 1,
 					["auras"] = {
+						[64859] = {
+							["school"] = 1,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 1,
+						},
 						[53138] = {
 							["type"] = "BUFF",
 							["count"] = 1,
@@ -2756,38 +2787,7 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 5,
 						},
-						[64859] = {
-							["school"] = 1,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 1,
-						},
 					},
-					["time"] = 3.5,
-					["role"] = "TANK",
-					["name"] = "Flocius",
-					["spec"] = 250,
-					["damagetakenspells"] = {
-						["Melee"] = {
-							["DODGE"] = 1,
-							["hitmin"] = 1,
-							["id"] = 6603,
-							["hitmax"] = 1,
-							["sources"] = {
-								["Kobold Miner"] = {
-									["amount"] = 1,
-								},
-							},
-							["count"] = 3,
-							["hit"] = 1,
-							["school"] = 1,
-							["amount"] = 1,
-							["MISS"] = 1,
-							["hitamount"] = 1,
-						},
-					},
-					["totaldamagetaken"] = 1,
-					["totaldamage"] = 474,
 					["damage"] = 474,
 				}, -- [1]
 			},
@@ -2825,14 +2825,14 @@ SkadaStorageDB = {
 				["id"] = "0x07000000009742E5",
 				["spec"] = 250,
 				["overkill"] = 6192211,
-				["role"] = "DAMAGER",
+				["interrupt"] = 2,
 				["heal"] = 81337,
 				["potion"] = 1,
 				["ccdone"] = 17,
-				["runic"] = 1420,
-				["death"] = 2,
 				["name"] = "Flocius",
-				["interrupt"] = 2,
+				["death"] = 2,
+				["runic"] = 1420,
+				["role"] = "DAMAGER",
 			}, -- [1]
 			{
 				["totaldamage"] = 27977,
@@ -2857,13 +2857,13 @@ SkadaStorageDB = {
 		["damagetaken"] = 990955,
 		["interrupt"] = 2,
 		["overkill"] = 6192211,
-		["name"] = "Total",
-		["heal"] = 81337,
-		["potion"] = 1,
-		["ccdone"] = 17,
-		["death"] = 2,
-		["starttime"] = 1689245488,
-		["overheal"] = 254885,
 		["runic"] = 1420,
+		["heal"] = 81337,
+		["name"] = "Total",
+		["ccdone"] = 17,
+		["overheal"] = 254885,
+		["starttime"] = 1689245488,
+		["death"] = 2,
+		["potion"] = 1,
 	},
 }

@@ -7,6 +7,7 @@ RecountDB = {
 		["Sculatru - Icecrown"] = "Sculatru - Icecrown",
 		["Denathra - Icecrown"] = "Denathra - Icecrown",
 		["Vhalanor - Icecrown"] = "Vhalanor - Icecrown",
+		["Morridin - Icecrown"] = "Morridin - Icecrown",
 		["Drext - Icecrown"] = "Drext - Icecrown",
 		["Muiex - Icecrown"] = "Muiex - Icecrown",
 		["Sculamare - Icecrown"] = "Sculamare - Icecrown",
@@ -217,6 +218,27 @@ RecountDB = {
 			["GraphWindowX"] = 0,
 			["MainWindowWidth"] = 228.9999716910031,
 			["MainWindowHeight"] = 230.0000194196984,
+		},
+		["Morridin - Icecrown"] = {
+			["GraphWindowY"] = 0,
+			["MainWindow"] = {
+				["Position"] = {
+					["w"] = 140.0000106684094,
+					["h"] = 200.0000027354896,
+				},
+			},
+			["Colors"] = {
+				["Bar"] = {
+					["Bar Text"] = {
+						["a"] = 1,
+					},
+				},
+			},
+			["DetailWindowY"] = 0,
+			["DetailWindowX"] = 0,
+			["MainWindowVis"] = false,
+			["GraphWindowX"] = 0,
+			["CurDataSet"] = "OverallData",
 		},
 		["Drext - Icecrown"] = {
 			["GraphWindowY"] = 0,
@@ -494,8 +516,8 @@ RecountDB = {
 			["GraphWindowY"] = 0,
 			["MainWindow"] = {
 				["Position"] = {
-					["h"] = 200.0000027354896,
 					["w"] = 140.0000106684094,
+					["h"] = 200.0000027354896,
 				},
 			},
 			["Colors"] = {
@@ -506,10 +528,10 @@ RecountDB = {
 				},
 			},
 			["DetailWindowY"] = 0,
-			["DetailWindowX"] = 0,
-			["MainWindowVis"] = false,
-			["CurDataSet"] = "OverallData",
 			["GraphWindowX"] = 0,
+			["CurDataSet"] = "OverallData",
+			["MainWindowVis"] = false,
+			["DetailWindowX"] = 0,
 		},
 		["Rakhnis - Icecrown"] = {
 			["GraphWindowY"] = 0,

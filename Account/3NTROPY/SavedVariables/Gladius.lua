@@ -10,6 +10,7 @@ GladiusDB = {
 		["Noobschmoq - Icecrown"] = "Noobschmoq - Icecrown",
 		["Muiex - Icecrown"] = "Muiex - Icecrown",
 		["Sculamare - Icecrown"] = "Sculamare - Icecrown",
+		["Morridin - Icecrown"] = "Morridin - Icecrown",
 		["Flokus - Icecrown"] = "Flokus - Icecrown",
 		["Aevie - Icecrown"] = "Aevie - Icecrown",
 		["Urgash - Icecrown"] = "Urgash - Icecrown",
@@ -75,6 +76,11 @@ GladiusDB = {
 			["y"] = 532.0999606624343,
 			["x"] = 1140.709565242955,
 		},
+		["Morridin - Icecrown"] = {
+			["locked"] = true,
+			["y"] = 510.499894762244,
+			["x"] = 1175.102425743542,
+		},
 		["Flokus - Icecrown"] = {
 			["locked"] = true,
 			["x"] = 1172.283413208229,
@@ -112,8 +118,8 @@ GladiusDB = {
 		},
 		["Elgorath - Icecrown"] = {
 			["locked"] = true,
-			["y"] = 515.2998358767728,
 			["x"] = 1168.703932839543,
+			["y"] = 515.2998358767728,
 		},
 		["Inarya - Icecrown"] = {
 			["locked"] = true,

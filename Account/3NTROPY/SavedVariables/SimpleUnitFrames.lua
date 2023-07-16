@@ -7,6 +7,7 @@ SimpleUnitFramesDB = {
 		["Sculatru - Icecrown"] = "Sculatru - Icecrown",
 		["Denathra - Icecrown"] = "Denathra - Icecrown",
 		["Vhalanor - Icecrown"] = "Vhalanor - Icecrown",
+		["Morridin - Icecrown"] = "Morridin - Icecrown",
 		["Noobschmoq - Icecrown"] = "Noobschmoq - Icecrown",
 		["Muiex - Icecrown"] = "Muiex - Icecrown",
 		["Sculamare - Icecrown"] = "Sculamare - Icecrown",
@@ -54,6 +55,8 @@ SimpleUnitFramesDB = {
 		["Denathra - Icecrown"] = {
 		},
 		["Vhalanor - Icecrown"] = {
+		},
+		["Morridin - Icecrown"] = {
 		},
 		["Noobschmoq - Icecrown"] = {
 		},

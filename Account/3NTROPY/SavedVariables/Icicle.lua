@@ -7,6 +7,7 @@ Icicledb = {
 		["Sculatru - Icecrown"] = "Default",
 		["Denathra - Icecrown"] = "Default",
 		["Vhalanor - Icecrown"] = "Default",
+		["Morridin - Icecrown"] = "Default",
 		["Drext - Icecrown"] = "Default",
 		["Muiex - Icecrown"] = "Default",
 		["Sculamare - Icecrown"] = "Default",

@@ -125,17 +125,17 @@ RecountPerCharDB = {
 				["DamageTaken"] = {
 					4517, -- [1]
 				},
-				["HealingTaken"] = {
-					1967, -- [1]
-				},
-				["Overhealing"] = {
-					4201, -- [1]
-				},
 				["DeathCount"] = {
 					1, -- [1]
 				},
 				["HOT_Time"] = {
 					255, -- [1]
+				},
+				["HealingTaken"] = {
+					1967, -- [1]
+				},
+				["Overhealing"] = {
+					4201, -- [1]
 				},
 				["ActiveTime"] = {
 					2665.059999999995, -- [1]
@@ -155,8 +155,59 @@ RecountPerCharDB = {
 			},
 			["enClass"] = "WARLOCK",
 			["unit"] = "Elgorath",
-			["LastActive"] = 1689519245,
-			["UnitLockout"] = 1689145953,
+			["LastAbility"] = 2162.596,
+			["LastEventTimes"] = {
+				1214.012, -- [1]
+				1215.77, -- [2]
+				1217.196, -- [3]
+				1217.821, -- [4]
+				1219.804, -- [5]
+				1220.304, -- [6]
+				1220.304, -- [7]
+				1220.305, -- [8]
+				1220.305, -- [9]
+				1250.121, -- [10]
+				1250.545, -- [11]
+				1250.546, -- [12]
+				1250.546, -- [13]
+				1250.546, -- [14]
+				1257.195, -- [15]
+				1257.196, -- [16]
+				1257.221, -- [17]
+				1257.311, -- [18]
+				1257.312, -- [19]
+				1257.312, -- [20]
+				1257.313, -- [21]
+				1262.637, -- [22]
+				1262.678, -- [23]
+				1262.678, -- [24]
+				1264.711, -- [25]
+				1265.844, -- [26]
+				1265.845, -- [27]
+				1265.846, -- [28]
+				1265.846, -- [29]
+				1276.611, -- [30]
+				1276.744, -- [31]
+				1276.745, -- [32]
+				1276.745, -- [33]
+				1276.746, -- [34]
+				1202.821, -- [35]
+				1203.371, -- [36]
+				1205.312, -- [37]
+				1205.987, -- [38]
+				1205.988, -- [39]
+				1205.988, -- [40]
+				1205.988, -- [41]
+				1210.614, -- [42]
+				1210.614, -- [43]
+				1210.614, -- [44]
+				1210.787, -- [45]
+				1210.788, -- [46]
+				1210.788, -- [47]
+				1210.789, -- [48]
+				1213.738, -- [49]
+				1214.012, -- [50]
+			},
 			["level"] = 6,
 			["LastDamageAbility"] = "Melee",
 			["LastFightIn"] = 164,
@@ -194,20 +245,9340 @@ RecountPerCharDB = {
 				nil, -- [31]
 				1.881720430107527, -- [32]
 				1.881720430107527, -- [33]
-				nil, -- [34]
-				nil, -- [35]
-				1.612903225806452, -- [36]
-				nil, -- [37]
-				1.881720430107527, -- [38]
-				1.881720430107527, -- [39]
+				[36] = 1.612903225806452,
+				[38] = 1.881720430107527,
+				[39] = 1.881720430107527,
+				[49] = 1.344086021505376,
+				[47] = 1.881720430107527,
 				[43] = 1.881720430107527,
 				[46] = 1.881720430107527,
-				[47] = 1.881720430107527,
-				[49] = 1.344086021505376,
 			},
 			["type"] = "Self",
 			["FightsSaved"] = 5,
+			["TimeLast"] = {
+				["TimeHeal"] = 1689519245,
+				["Dispelled"] = 1689502990,
+				["Dispels"] = 1689502990,
+				["OVERALL"] = 1689519245,
+				["Healing"] = 1689519245,
+				["DamageTaken"] = 1689519245,
+				["DeathCount"] = 1689150217,
+				["HOT_Time"] = 1689519179,
+				["HealingTaken"] = 1689519245,
+				["Overhealing"] = 1689519245,
+				["TimeDamage"] = 1689519245,
+				["ActiveTime"] = 1689519245,
+				["ManaGain"] = 1689150093,
+				["DOT_Time"] = 1689150196,
+				["Damage"] = 1689519245,
+			},
+			["DeathLogs"] = {
+				{
+					["MessageIncoming"] = {
+						true, -- [1]
+						true, -- [2]
+						true, -- [3]
+						true, -- [4]
+						true, -- [5]
+						true, -- [6]
+						true, -- [7]
+						true, -- [8]
+						true, -- [9]
+						true, -- [10]
+						true, -- [11]
+						true, -- [12]
+						true, -- [13]
+						true, -- [14]
+						true, -- [15]
+						true, -- [16]
+						true, -- [17]
+						true, -- [18]
+						true, -- [19]
+						true, -- [20]
+						true, -- [21]
+						true, -- [22]
+						true, -- [23]
+						true, -- [24]
+						true, -- [25]
+					},
+					["Messages"] = {
+						"Kobold Geomancer Fireball Elgorath Hit -47 (Fire)", -- [1]
+						"Kobold Miner Melee Elgorath Crit -12 (Physical)", -- [2]
+						"Kobold Miner Melee Elgorath Hit -6 (Physical)", -- [3]
+						"Kobold Miner Melee Elgorath Hit -5 (Physical)", -- [4]
+						"Kobold Miner Melee Elgorath Hit -6 (Physical)", -- [5]
+						"Kobold Geomancer Melee Elgorath Hit -8 (Physical)", -- [6]
+						"Kobold Miner Melee Elgorath Hit -5 (Physical)", -- [7]
+						"Kobold Miner Pierce Armor Elgorath Miss (Physical)", -- [8]
+						"Kobold Miner Melee Elgorath Hit -8 (Physical)", -- [9]
+						"Kobold Miner Melee Elgorath Hit -6 (Physical)", -- [10]
+						"Kobold Miner Melee Elgorath Hit -6 (Physical)", -- [11]
+						"Kobold Miner Melee Elgorath Hit -6 (Physical)", -- [12]
+						"Kobold Miner Melee Elgorath Hit -5 (Physical)", -- [13]
+						"Kobold Miner Melee Elgorath Hit -8 (Physical)", -- [14]
+						"Kobold Miner Melee Elgorath Hit -6 (Physical)", -- [15]
+						"Kobold Miner Melee Elgorath Hit -6 (Physical)", -- [16]
+						"Kobold Miner Melee Elgorath Hit -6 (Physical)", -- [17]
+						"Kobold Miner Melee Elgorath Hit -5 (Physical)", -- [18]
+						"Kobold Miner Melee Elgorath Hit -8 (Physical)", -- [19]
+						"Kobold Miner Melee Elgorath Hit -5 (Physical)", -- [20]
+						"Kobold Miner Melee Elgorath Hit -5 (Physical)", -- [21]
+						"Kobold Miner Melee Elgorath Hit -6 (Physical)", -- [22]
+						"Kobold Miner Melee Elgorath Hit -6 (Physical)", -- [23]
+						"Kobold Miner Melee Elgorath Hit -6 (Physical)", -- [24]
+						"Elgorath dies.", -- [25]
+					},
+					["DeathAt"] = 1689150219,
+					["HealthNum"] = {
+						75, -- [1]
+						75, -- [2]
+						68.61702127659575, -- [3]
+						65.42553191489361, -- [4]
+						62.76595744680851, -- [5]
+						59.57446808510638, -- [6]
+						55.31914893617022, -- [7]
+						52.6595744680851, -- [8]
+						52.6595744680851, -- [9]
+						48.40425531914894, -- [10]
+						45.21276595744681, -- [11]
+						42.02127659574468, -- [12]
+						38.82978723404256, -- [13]
+						36.17021276595744, -- [14]
+						31.91489361702128, -- [15]
+						28.72340425531915, -- [16]
+						25.53191489361702, -- [17]
+						22.34042553191489, -- [18]
+						19.68085106382979, -- [19]
+						15.42553191489362, -- [20]
+						12.76595744680851, -- [21]
+						10.10638297872341, -- [22]
+						6.914893617021277, -- [23]
+						0.5952380952380952, -- [24]
+						0, -- [25]
+					},
+					["MessageTimes"] = {
+						-13.42000000000007, -- [1]
+						-13.00500000000011, -- [2]
+						-12.04600000000028, -- [3]
+						-11.01299999999992, -- [4]
+						-10.03700000000026, -- [5]
+						-9.054000000000087, -- [6]
+						-9.01299999999992, -- [7]
+						-6.996000000000095, -- [8]
+						-6.404999999999745, -- [9]
+						-6.020999999999731, -- [10]
+						-5.028999999999542, -- [11]
+						-4.787999999999556, -- [12]
+						-4.454999999999927, -- [13]
+						-4.403999999999542, -- [14]
+						-4.005000000000109, -- [15]
+						-2.988000000000284, -- [16]
+						-2.76299999999992, -- [17]
+						-2.462999999999738, -- [18]
+						-2.403999999999542, -- [19]
+						-2.003999999999905, -- [20]
+						-1.020999999999731, -- [21]
+						-0.7879999999995562, -- [22]
+						-0.4459999999999127, -- [23]
+						-0.002999999999701686, -- [24]
+						0, -- [25]
+					},
+					["KilledBy"] = "Kobold Miner",
+					["Health"] = {
+						"141 (75%)", -- [1]
+						"141 (75%)", -- [2]
+						"129 (68%)", -- [3]
+						"123 (65%)", -- [4]
+						"118 (62%)", -- [5]
+						"112 (59%)", -- [6]
+						"104 (55%)", -- [7]
+						"99 (52%)", -- [8]
+						"99 (52%)", -- [9]
+						"91 (48%)", -- [10]
+						"85 (45%)", -- [11]
+						"79 (42%)", -- [12]
+						"73 (38%)", -- [13]
+						"68 (36%)", -- [14]
+						"60 (31%)", -- [15]
+						"54 (28%)", -- [16]
+						"48 (25%)", -- [17]
+						"42 (22%)", -- [18]
+						"37 (19%)", -- [19]
+						"29 (15%)", -- [20]
+						"24 (12%)", -- [21]
+						"19 (10%)", -- [22]
+						"13 (6%)", -- [23]
+						"1 (0%)", -- [24]
+						"0 (0%)", -- [25]
+					},
+					["EventNum"] = {
+						25, -- [1]
+						6.382978723404255, -- [2]
+						3.191489361702128, -- [3]
+						2.659574468085106, -- [4]
+						3.191489361702128, -- [5]
+						4.25531914893617, -- [6]
+						2.659574468085106, -- [7]
+						0, -- [8]
+						4.25531914893617, -- [9]
+						3.191489361702128, -- [10]
+						3.191489361702128, -- [11]
+						3.191489361702128, -- [12]
+						2.659574468085106, -- [13]
+						4.25531914893617, -- [14]
+						3.191489361702128, -- [15]
+						3.191489361702128, -- [16]
+						3.191489361702128, -- [17]
+						2.659574468085106, -- [18]
+						4.25531914893617, -- [19]
+						2.659574468085106, -- [20]
+						2.659574468085106, -- [21]
+						3.191489361702128, -- [22]
+						3.191489361702128, -- [23]
+						3.571428571428572, -- [24]
+						0, -- [25]
+					},
+					["MessageType"] = {
+						"DAMAGE", -- [1]
+						"DAMAGE", -- [2]
+						"DAMAGE", -- [3]
+						"DAMAGE", -- [4]
+						"DAMAGE", -- [5]
+						"DAMAGE", -- [6]
+						"DAMAGE", -- [7]
+						"DAMAGE", -- [8]
+						"DAMAGE", -- [9]
+						"DAMAGE", -- [10]
+						"DAMAGE", -- [11]
+						"DAMAGE", -- [12]
+						"DAMAGE", -- [13]
+						"DAMAGE", -- [14]
+						"DAMAGE", -- [15]
+						"DAMAGE", -- [16]
+						"DAMAGE", -- [17]
+						"DAMAGE", -- [18]
+						"DAMAGE", -- [19]
+						"DAMAGE", -- [20]
+						"DAMAGE", -- [21]
+						"DAMAGE", -- [22]
+						"DAMAGE", -- [23]
+						"DAMAGE", -- [24]
+						"MISC", -- [25]
+					},
+				}, -- [1]
+			},
+			["Owner"] = false,
+			["Pet"] = {
+				"Karuri <Elgorath>", -- [1]
+			},
+			["NextEventNum"] = 35,
+			["LastEventHealthNum"] = {
+				98.65591397849462, -- [1]
+				98.65591397849462, -- [2]
+				97.31182795698925, -- [3]
+				97.31182795698925, -- [4]
+				94.6236559139785, -- [5]
+				94.6236559139785, -- [6]
+				96.50537634408602, -- [7]
+				98.38709677419355, -- [8]
+				98.38709677419355, -- [9]
+				100, -- [10]
+				99.46236559139786, -- [11]
+				100, -- [12]
+				100, -- [13]
+				100, -- [14]
+				100, -- [15]
+				100, -- [16]
+				100, -- [17]
+				99.46236559139786, -- [18]
+				100, -- [19]
+				100, -- [20]
+				100, -- [21]
+				100, -- [22]
+				98.9247311827957, -- [23]
+				98.9247311827957, -- [24]
+				98.9247311827957, -- [25]
+				98.9247311827957, -- [26]
+				100, -- [27]
+				100, -- [28]
+				100, -- [29]
+				100, -- [30]
+				99.46236559139786, -- [31]
+				100, -- [32]
+				100, -- [33]
+				100, -- [34]
+				100, -- [35]
+				100, -- [36]
+				98.38709677419355, -- [37]
+				100, -- [38]
+				100, -- [39]
+				100, -- [40]
+				100, -- [41]
+				100, -- [42]
+				100, -- [43]
+				100, -- [44]
+				100, -- [45]
+				100, -- [46]
+				100, -- [47]
+				100, -- [48]
+				100, -- [49]
+				98.65591397849462, -- [50]
+			},
+			["LastEvents"] = {
+				"Elgorath Melee Kobold Tunneler Glancing -88 (Physical)", -- [1]
+				"Kobold Tunneler Melee Elgorath Hit -5 (Physical)", -- [2]
+				"Elgorath Melee Kobold Tunneler Dodge", -- [3]
+				"Kobold Tunneler Melee Elgorath Crit -10 (Physical)", -- [4]
+				"Kobold Tunneler Melee Elgorath Dodge", -- [5]
+				"Elgorath Seal of Righteousness Kobold Tunneler Hit -9 (Holy)", -- [6]
+				"Elgorath Swift Hand of Justice Elgorath Hit +7", -- [7]
+				"Elgorath Swift Hand of Justice Elgorath Hit +7", -- [8]
+				"Elgorath Melee Kobold Tunneler Hit -75 (Physical)", -- [9]
+				"Kobold Tunneler Melee Elgorath Hit -2 (Physical)", -- [10]
+				"Elgorath Seal of Righteousness Kobold Tunneler Hit -9 (Holy)", -- [11]
+				"Elgorath Swift Hand of Justice Elgorath Hit +7 (5 overheal)", -- [12]
+				"Elgorath Swift Hand of Justice Elgorath Hit +7 (7 overheal)", -- [13]
+				"Elgorath Melee Kobold Tunneler Glancing -105 (Physical)", -- [14]
+				"Elgorath Seal of Righteousness Kobold Tunneler Hit -9 (Holy)", -- [15]
+				"Elgorath Judgement of Righteousness Kobold Tunneler Hit -22 (Holy)", -- [16]
+				"Kobold Tunneler Melee Elgorath Hit -2 (Physical)", -- [17]
+				"Elgorath Seal of Righteousness Kobold Tunneler Hit -9 (Holy)", -- [18]
+				"Elgorath Swift Hand of Justice Elgorath Hit +7 (5 overheal)", -- [19]
+				"Elgorath Swift Hand of Justice Elgorath Hit +7 (7 overheal)", -- [20]
+				"Elgorath Melee Kobold Tunneler Crit -152 (Physical)", -- [21]
+				"Kobold Tunneler Melee Elgorath Hit -4 (Physical)", -- [22]
+				"Elgorath Seal of Righteousness Kobold Tunneler Hit -9 (Holy)", -- [23]
+				"Elgorath Melee Kobold Tunneler Glancing -84 (Physical)", -- [24]
+				"Kobold Tunneler Melee Elgorath Miss", -- [25]
+				"Elgorath Seal of Righteousness Kobold Tunneler Hit -9 (Holy)", -- [26]
+				"Elgorath Swift Hand of Justice Elgorath Hit +7 (3 overheal)", -- [27]
+				"Elgorath Swift Hand of Justice Elgorath Hit +7 (7 overheal)", -- [28]
+				"Elgorath Melee Kobold Tunneler Glancing -100 (Physical)", -- [29]
+				"Kobold Tunneler Melee Elgorath Hit -2 (Physical)", -- [30]
+				"Elgorath Seal of Righteousness Kobold Tunneler Hit -9 (Holy)", -- [31]
+				"Elgorath Swift Hand of Justice Elgorath Hit +7 (5 overheal)", -- [32]
+				"Elgorath Swift Hand of Justice Elgorath Hit +7 (7 overheal)", -- [33]
+				"Elgorath Melee Kobold Tunneler Crit -128 (Physical)", -- [34]
+				"Elgorath Melee Kobold Miner Crit -120 (Physical)", -- [35]
+				"Kobold Miner Melee Elgorath Hit -6 (Physical)", -- [36]
+				"Kobold Miner Melee Elgorath Dodge", -- [37]
+				"Elgorath Swift Hand of Justice Elgorath Hit +7 (1 overheal)", -- [38]
+				"Elgorath Swift Hand of Justice Elgorath Hit +7 (7 overheal)", -- [39]
+				"Elgorath Seal of Righteousness Kobold Miner Hit -9 (Holy)", -- [40]
+				"Elgorath Melee Kobold Miner Hit -73 (Physical)", -- [41]
+				"Elgorath Seal of Righteousness Kobold Tunneler Hit -9 (Holy)", -- [42]
+				"Elgorath Judgement of Light Elgorath Tick +7 (7 overheal)", -- [43]
+				"Elgorath Judgement of Righteousness Kobold Tunneler Crit -44 (Holy)", -- [44]
+				"Elgorath Seal of Righteousness Kobold Tunneler Hit -9 (Holy)", -- [45]
+				"Elgorath Swift Hand of Justice Elgorath Hit +7 (7 overheal)", -- [46]
+				"Elgorath Swift Hand of Justice Elgorath Hit +7 (7 overheal)", -- [47]
+				"Elgorath Melee Kobold Tunneler Glancing -105 (Physical)", -- [48]
+				"Kobold Tunneler Melee Elgorath Hit -5 (Physical)", -- [49]
+				"Elgorath Seal of Righteousness Kobold Tunneler Hit -9 (Holy)", -- [50]
+			},
+			["Name"] = "Elgorath",
+			["LastDamageTaken"] = 2,
+			["LastEventIncoming"] = {
+				false, -- [1]
+				true, -- [2]
+				false, -- [3]
+				true, -- [4]
+				true, -- [5]
+				false, -- [6]
+				true, -- [7]
+				true, -- [8]
+				false, -- [9]
+				true, -- [10]
+				false, -- [11]
+				true, -- [12]
+				true, -- [13]
+				false, -- [14]
+				false, -- [15]
+				false, -- [16]
+				true, -- [17]
+				false, -- [18]
+				true, -- [19]
+				true, -- [20]
+				false, -- [21]
+				true, -- [22]
+				false, -- [23]
+				false, -- [24]
+				true, -- [25]
+				false, -- [26]
+				true, -- [27]
+				true, -- [28]
+				false, -- [29]
+				true, -- [30]
+				false, -- [31]
+				true, -- [32]
+				true, -- [33]
+				false, -- [34]
+				false, -- [35]
+				true, -- [36]
+				true, -- [37]
+				true, -- [38]
+				true, -- [39]
+				false, -- [40]
+				false, -- [41]
+				false, -- [42]
+				true, -- [43]
+				false, -- [44]
+				false, -- [45]
+				true, -- [46]
+				true, -- [47]
+				false, -- [48]
+				true, -- [49]
+				false, -- [50]
+			},
 			["Fights"] = {
+				["Fight3"] = {
+					["DOTs"] = {
+						["Immolate (DoT)"] = {
+							["Details"] = {
+								["Kobold Miner"] = {
+									["count"] = 0,
+								},
+								["Murloc"] = {
+									["count"] = 0,
+								},
+								["Gray Forest Wolf"] = {
+									["count"] = 0,
+								},
+								["Kobold Tunneler"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Corruption (DoT)"] = {
+							["Details"] = {
+								["Kobold Miner"] = {
+									["count"] = 0,
+								},
+								["Murloc"] = {
+									["count"] = 0,
+								},
+								["Gray Forest Wolf"] = {
+									["count"] = 0,
+								},
+								["Kobold Tunneler"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Curse of Agony (DoT)"] = {
+							["Details"] = {
+								["Kobold Miner"] = {
+									["count"] = 0,
+								},
+								["Gray Forest Wolf"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ElementDoneResist"] = {
+						["Shadow"] = 0,
+						["Fire"] = 0,
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 14,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 1,
+								},
+								["Hit"] = {
+									["count"] = 3,
+								},
+								["Crushing"] = {
+									["count"] = 0,
+								},
+								["Dodge"] = {
+									["count"] = 2,
+								},
+								["Crit"] = {
+									["count"] = 0,
+								},
+								["Parry"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 6,
+						},
+						["Physical"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["Damage"] = 373,
+					["RunicPowerGain"] = 0,
+					["ElementTaken"] = {
+						["Melee"] = 14,
+					},
+					["DOT_Time"] = 0,
+					["ElementTakenBlock"] = {
+					},
+					["ElementDoneAbsorb"] = {
+					},
+					["TimeHeal"] = 3.17,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["PartialBlock"] = {
+					},
+					["ElementHitsDone"] = {
+						["Shadow"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 0,
+								},
+								["Tick"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Fire"] = {
+							["Details"] = {
+								["Tick"] = {
+									["count"] = 0,
+								},
+								["Miss"] = {
+									["count"] = 0,
+								},
+								["Crit"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Glancing"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 3,
+								},
+								["Dodge"] = {
+									["count"] = 0,
+								},
+								["Crit"] = {
+									["count"] = 1,
+								},
+								["Parry"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 4,
+						},
+						["Holy"] = {
+							["Details"] = {
+								["Crit"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 4,
+								},
+							},
+							["amount"] = 4,
+						},
+					},
+					["FAttacks"] = {
+					},
+					["HealingTaken"] = 14,
+					["ElementDone"] = {
+						["Shadow"] = 0,
+						["Fire"] = 0,
+						["Melee"] = 337,
+						["Holy"] = 36,
+					},
+					["DamagedWho"] = {
+						["Mangy Wolf"] = {
+							["Details"] = {
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Worker"] = {
+							["Details"] = {
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Goldtooth"] = {
+							["Details"] = {
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Tunneler"] = {
+							["Details"] = {
+								["Corruption (DoT)"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Immolate (DoT)"] = {
+									["count"] = 0,
+								},
+								["Immolate"] = {
+									["count"] = 0,
+								},
+								["Shadow Bolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Miner"] = {
+							["Details"] = {
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Corruption (DoT)"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 337,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 36,
+								},
+								["Curse of Agony (DoT)"] = {
+									["count"] = 0,
+								},
+								["Immolate (DoT)"] = {
+									["count"] = 0,
+								},
+								["Immolate"] = {
+									["count"] = 0,
+								},
+								["Shadow Bolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 373,
+						},
+						["Murloc"] = {
+							["Details"] = {
+								["Corruption (DoT)"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Immolate (DoT)"] = {
+									["count"] = 0,
+								},
+								["Immolate"] = {
+									["count"] = 0,
+								},
+								["Shadow Bolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Gray Forest Wolf"] = {
+							["Details"] = {
+								["Corruption (DoT)"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Curse of Agony (DoT)"] = {
+									["count"] = 0,
+								},
+								["Immolate (DoT)"] = {
+									["count"] = 0,
+								},
+								["Immolate"] = {
+									["count"] = 0,
+								},
+								["Shadow Bolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Vermin"] = {
+							["Details"] = {
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ManaGainedFrom"] = {
+						["Elgorath"] = {
+							["Details"] = {
+								["Life Tap"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["RunicPowerGained"] = {
+					},
+					["WhoDamaged"] = {
+						["Mangy Wolf"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Goldtooth"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Tunneler"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Miner"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 14,
+								},
+							},
+							["amount"] = 14,
+						},
+						["Murloc"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Worker"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["CCBroken"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDoneBlock"] = {
+						["Melee"] = 0,
+					},
+					["TimeHealing"] = {
+						["Elgorath"] = {
+							["Details"] = {
+								["Swift Hand of Justice"] = {
+									["count"] = 3.17,
+								},
+								["Judgement of Light"] = {
+									["count"] = 0,
+								},
+								["Holy Strength"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 3.17,
+						},
+					},
+					["OverHeals"] = {
+						["Swift Hand of Justice"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 7,
+									["min"] = 0,
+									["count"] = 3,
+									["amount"] = 14,
+								},
+							},
+							["count"] = 3,
+							["amount"] = 14,
+						},
+						["Judgement of Light"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Holy Strength"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["WhoHealed"] = {
+						["Elgorath"] = {
+							["Details"] = {
+								["Swift Hand of Justice"] = {
+									["count"] = 14,
+								},
+								["Judgement of Light"] = {
+									["count"] = 0,
+								},
+								["Holy Strength"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 14,
+						},
+					},
+					["HealedWho"] = {
+						["Elgorath"] = {
+							["Details"] = {
+								["Swift Hand of Justice"] = {
+									["count"] = 14,
+								},
+								["Judgement of Light"] = {
+									["count"] = 0,
+								},
+								["Holy Strength"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 14,
+						},
+					},
+					["CCBreak"] = 0,
+					["ElementTakenAbsorb"] = {
+					},
+					["PartialAbsorb"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 6,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 6,
+							["amount"] = 0,
+						},
+						["Pierce Armor"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["PartialResist"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 6,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 6,
+							["amount"] = 0,
+						},
+						["Pierce Armor"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["ManaGained"] = {
+						["Life Tap"] = {
+							["Details"] = {
+								["Elgorath"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["Overhealing"] = 14,
+					["TimeSpent"] = {
+						["Mangy Wolf"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Tunneler"] = {
+							["Details"] = {
+								["Corruption (DoT)"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Immolate (DoT)"] = {
+									["count"] = 0,
+								},
+								["Immolate"] = {
+									["count"] = 0,
+								},
+								["Shadow Bolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Murloc"] = {
+							["Details"] = {
+								["Corruption (DoT)"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Immolate (DoT)"] = {
+									["count"] = 0,
+								},
+								["Immolate"] = {
+									["count"] = 0,
+								},
+								["Shadow Bolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Goldtooth"] = {
+							["Details"] = {
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Gray Forest Wolf"] = {
+							["Details"] = {
+								["Corruption (DoT)"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Curse of Agony (DoT)"] = {
+									["count"] = 0,
+								},
+								["Immolate (DoT)"] = {
+									["count"] = 0,
+								},
+								["Immolate"] = {
+									["count"] = 0,
+								},
+								["Shadow Bolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Elgorath"] = {
+							["Details"] = {
+								["Swift Hand of Justice"] = {
+									["count"] = 3.17,
+								},
+								["Judgement of Light"] = {
+									["count"] = 0,
+								},
+								["Holy Strength"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 3.17,
+						},
+						["Kobold Worker"] = {
+							["Details"] = {
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Miner"] = {
+							["Details"] = {
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Corruption (DoT)"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0.02,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 9.77,
+								},
+								["Curse of Agony (DoT)"] = {
+									["count"] = 0,
+								},
+								["Immolate (DoT)"] = {
+									["count"] = 0,
+								},
+								["Immolate"] = {
+									["count"] = 0,
+								},
+								["Shadow Bolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 9.789999999999999,
+						},
+						["Kobold Vermin"] = {
+							["Details"] = {
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["WhoDispelled"] = {
+					},
+					["InterruptData"] = {
+					},
+					["ElementTakenResist"] = {
+					},
+					["Heals"] = {
+						["Swift Hand of Justice"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 7,
+									["min"] = 0,
+									["count"] = 3,
+									["amount"] = 14,
+								},
+							},
+							["count"] = 3,
+							["amount"] = 14,
+						},
+						["Judgement of Light"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Holy Strength"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["ActiveTime"] = 12.96,
+					["EnergyGained"] = {
+					},
+					["EnergyGain"] = 0,
+					["Healing"] = 14,
+					["Dispelled"] = 0,
+					["RageGained"] = {
+					},
+					["Attacks"] = {
+						["Judgement of Righteousness"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Corruption (DoT)"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Glancing"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 73,
+									["min"] = 0,
+									["count"] = 3,
+									["amount"] = 217,
+								},
+								["Hit (Blocked)"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Dodge"] = {
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Crit"] = {
+									["max"] = 120,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 120,
+								},
+								["Parry"] = {
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 4,
+							["amount"] = 337,
+						},
+						["Seal of Righteousness"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 9,
+									["min"] = 0,
+									["count"] = 4,
+									["amount"] = 36,
+								},
+							},
+							["count"] = 4,
+							["amount"] = 36,
+						},
+						["Curse of Agony (DoT)"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Immolate (DoT)"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Tick"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Immolate"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Shadow Bolt"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["RageGain"] = 0,
+					["FDamagedWho"] = {
+					},
+					["TimeDamage"] = 9.789999999999999,
+					["TimeDamaging"] = {
+						["Mangy Wolf"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Worker"] = {
+							["Details"] = {
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Goldtooth"] = {
+							["Details"] = {
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Tunneler"] = {
+							["Details"] = {
+								["Corruption (DoT)"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Immolate (DoT)"] = {
+									["count"] = 0,
+								},
+								["Immolate"] = {
+									["count"] = 0,
+								},
+								["Shadow Bolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Miner"] = {
+							["Details"] = {
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Corruption (DoT)"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0.02,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 9.77,
+								},
+								["Curse of Agony (DoT)"] = {
+									["count"] = 0,
+								},
+								["Immolate (DoT)"] = {
+									["count"] = 0,
+								},
+								["Immolate"] = {
+									["count"] = 0,
+								},
+								["Shadow Bolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 9.789999999999999,
+						},
+						["Murloc"] = {
+							["Details"] = {
+								["Corruption (DoT)"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Immolate (DoT)"] = {
+									["count"] = 0,
+								},
+								["Immolate"] = {
+									["count"] = 0,
+								},
+								["Shadow Bolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Gray Forest Wolf"] = {
+							["Details"] = {
+								["Corruption (DoT)"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Curse of Agony (DoT)"] = {
+									["count"] = 0,
+								},
+								["Immolate (DoT)"] = {
+									["count"] = 0,
+								},
+								["Immolate"] = {
+									["count"] = 0,
+								},
+								["Shadow Bolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Vermin"] = {
+							["Details"] = {
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ManaGain"] = 0,
+					["HOTs"] = {
+						["Judgement of Light"] = {
+							["Details"] = {
+								["Elgorath"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["Fight5"] = {
+					["DOTs"] = {
+						["Immolate (DoT)"] = {
+							["Details"] = {
+								["Kobold Geomancer"] = {
+									["count"] = 0,
+								},
+								["Goldtooth"] = {
+									["count"] = 0,
+								},
+								["Kobold Tunneler"] = {
+									["count"] = 0,
+								},
+								["Kobold Miner"] = {
+									["count"] = 0,
+								},
+								["Murloc"] = {
+									["count"] = 0,
+								},
+								["Defias Cutpurse"] = {
+									["count"] = 0,
+								},
+								["Stonetusk Boar"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Corruption (DoT)"] = {
+							["Details"] = {
+								["Mangy Wolf"] = {
+									["count"] = 0,
+								},
+								["Defias Cutpurse"] = {
+									["count"] = 0,
+								},
+								["Forest Spider"] = {
+									["count"] = 0,
+								},
+								["Murloc"] = {
+									["count"] = 0,
+								},
+								["Kobold Geomancer"] = {
+									["count"] = 0,
+								},
+								["Goldtooth"] = {
+									["count"] = 0,
+								},
+								["Stonetusk Boar"] = {
+									["count"] = 0,
+								},
+								["Kobold Miner"] = {
+									["count"] = 0,
+								},
+								["Kobold Tunneler"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Curse of Agony (DoT)"] = {
+							["Details"] = {
+								["Kobold Miner"] = {
+									["count"] = 0,
+								},
+								["Kobold Geomancer"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ElementDoneResist"] = {
+						["Shadow"] = 0,
+						["Fire"] = 0,
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 10,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+						["Fire"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Physical"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 2,
+								},
+								["Miss"] = {
+									["count"] = 0,
+								},
+								["Dodge"] = {
+									["count"] = 0,
+								},
+								["Crit"] = {
+									["count"] = 0,
+								},
+								["Parry"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 2,
+						},
+						["Nature"] = {
+							["Details"] = {
+								["Tick"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 3,
+					["Damage"] = 260,
+					["RunicPowerGain"] = 0,
+					["ElementTaken"] = {
+						["Fire"] = 0,
+						["Physical"] = 0,
+						["Melee"] = 10,
+						["Nature"] = 0,
+					},
+					["DOT_Time"] = 0,
+					["ElementTakenBlock"] = {
+					},
+					["ElementDoneAbsorb"] = {
+					},
+					["TimeHeal"] = 3.11,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["PartialBlock"] = {
+					},
+					["ElementHitsDone"] = {
+						["Shadow"] = {
+							["Details"] = {
+								["Tick"] = {
+									["count"] = 0,
+								},
+								["Miss"] = {
+									["count"] = 0,
+								},
+								["Crit"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Fire"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 0,
+								},
+								["Tick"] = {
+									["count"] = 0,
+								},
+								["Crit"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Glancing"] = {
+									["count"] = 0,
+								},
+								["Dodge"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 2,
+								},
+								["Crit"] = {
+									["count"] = 0,
+								},
+								["Parry"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 2,
+						},
+						["Holy"] = {
+							["Details"] = {
+								["Crit"] = {
+									["count"] = 1,
+								},
+								["Hit"] = {
+									["count"] = 3,
+								},
+							},
+							["amount"] = 4,
+						},
+					},
+					["FAttacks"] = {
+					},
+					["HealingTaken"] = 10,
+					["ElementDone"] = {
+						["Shadow"] = 0,
+						["Fire"] = 0,
+						["Melee"] = 172,
+						["Holy"] = 88,
+					},
+					["DamagedWho"] = {
+						["Mangy Wolf"] = {
+							["Details"] = {
+								["Corruption (DoT)"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Diseased Young Wolf"] = {
+							["Details"] = {
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Defias Cutpurse"] = {
+							["Details"] = {
+								["Corruption (DoT)"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Immolate (DoT)"] = {
+									["count"] = 0,
+								},
+								["Immolate"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Forest Spider"] = {
+							["Details"] = {
+								["Corruption (DoT)"] = {
+									["count"] = 0,
+								},
+								["Immolate"] = {
+									["count"] = 0,
+								},
+								["Shadow Bolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Murloc"] = {
+							["Details"] = {
+								["Corruption (DoT)"] = {
+									["count"] = 0,
+								},
+								["Immolate (DoT)"] = {
+									["count"] = 0,
+								},
+								["Immolate"] = {
+									["count"] = 0,
+								},
+								["Shadow Bolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Geomancer"] = {
+							["Details"] = {
+								["Corruption (DoT)"] = {
+									["count"] = 0,
+								},
+								["Shadow Bolt"] = {
+									["count"] = 0,
+								},
+								["Immolate (DoT)"] = {
+									["count"] = 0,
+								},
+								["Immolate"] = {
+									["count"] = 0,
+								},
+								["Curse of Agony (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Goldtooth"] = {
+							["Details"] = {
+								["Corruption (DoT)"] = {
+									["count"] = 0,
+								},
+								["Immolate (DoT)"] = {
+									["count"] = 0,
+								},
+								["Immolate"] = {
+									["count"] = 0,
+								},
+								["Shadow Bolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Stonetusk Boar"] = {
+							["Details"] = {
+								["Corruption (DoT)"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Immolate (DoT)"] = {
+									["count"] = 0,
+								},
+								["Immolate"] = {
+									["count"] = 0,
+								},
+								["Shadow Bolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Miner"] = {
+							["Details"] = {
+								["Judgement of Righteousness"] = {
+									["count"] = 44,
+								},
+								["Corruption (DoT)"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 172,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 44,
+								},
+								["Curse of Agony (DoT)"] = {
+									["count"] = 0,
+								},
+								["Immolate (DoT)"] = {
+									["count"] = 0,
+								},
+								["Immolate"] = {
+									["count"] = 0,
+								},
+								["Shadow Bolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 260,
+						},
+						["Kobold Worker"] = {
+							["Details"] = {
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Tunneler"] = {
+							["Details"] = {
+								["Corruption (DoT)"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Immolate (DoT)"] = {
+									["count"] = 0,
+								},
+								["Immolate"] = {
+									["count"] = 0,
+								},
+								["Shadow Bolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Defias Thug"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ManaGainedFrom"] = {
+						["Elgorath"] = {
+							["Details"] = {
+								["Life Tap"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["RunicPowerGained"] = {
+					},
+					["WhoDamaged"] = {
+						["Mangy Wolf"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Diseased Young Wolf"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Tunneler"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Forest Spider"] = {
+							["Details"] = {
+								["Poison (DoT)"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Murloc"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Geomancer"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Goldtooth"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Stonetusk Boar"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Miner"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 10,
+								},
+							},
+							["amount"] = 10,
+						},
+						["Kobold Worker"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Defias Cutpurse"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Backstab"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["CCBroken"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDoneBlock"] = {
+						["Melee"] = 3,
+					},
+					["TimeHealing"] = {
+						["Elgorath"] = {
+							["Details"] = {
+								["Healing Potion"] = {
+									["count"] = 0,
+								},
+								["Swift Hand of Justice"] = {
+									["count"] = 3.11,
+								},
+								["Judgement of Light"] = {
+									["count"] = 0,
+								},
+								["Holy Strength"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 3.11,
+						},
+						["Sandler"] = {
+							["Details"] = {
+								["Holy Light"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["OverHeals"] = {
+						["Healing Potion"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Swift Hand of Justice"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 6,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 7,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 7,
+						},
+						["Judgement of Light"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 6,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 6,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 6,
+						},
+						["Holy Strength"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 128,
+									["min"] = 128,
+									["count"] = 1,
+									["amount"] = 128,
+								},
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 128,
+						},
+					},
+					["WhoHealed"] = {
+						["Elgorath"] = {
+							["Details"] = {
+								["Healing Potion"] = {
+									["count"] = 0,
+								},
+								["Swift Hand of Justice"] = {
+									["count"] = 5,
+								},
+								["Judgement of Light"] = {
+									["count"] = 0,
+								},
+								["Holy Strength"] = {
+									["count"] = 5,
+								},
+							},
+							["amount"] = 10,
+						},
+					},
+					["HealedWho"] = {
+						["Elgorath"] = {
+							["Details"] = {
+								["Healing Potion"] = {
+									["count"] = 0,
+								},
+								["Swift Hand of Justice"] = {
+									["count"] = 5,
+								},
+								["Judgement of Light"] = {
+									["count"] = 0,
+								},
+								["Holy Strength"] = {
+									["count"] = 5,
+								},
+							},
+							["amount"] = 10,
+						},
+						["Sandler"] = {
+							["Details"] = {
+								["Holy Light"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["CCBreak"] = 0,
+					["ElementTakenAbsorb"] = {
+					},
+					["PartialAbsorb"] = {
+						["Fireball"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 0,
+						},
+						["Backstab"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Pierce Armor"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Poison (DoT)"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["PartialResist"] = {
+						["Fireball"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 0,
+						},
+						["Backstab"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Pierce Armor"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Poison (DoT)"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["ManaGained"] = {
+						["Life Tap"] = {
+							["Details"] = {
+								["Elgorath"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["Overhealing"] = 141,
+					["TimeSpent"] = {
+						["Mangy Wolf"] = {
+							["Details"] = {
+								["Corruption (DoT)"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Diseased Young Wolf"] = {
+							["Details"] = {
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Tunneler"] = {
+							["Details"] = {
+								["Corruption"] = {
+									["count"] = 0,
+								},
+								["Corruption (DoT)"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Immolate (DoT)"] = {
+									["count"] = 0,
+								},
+								["Immolate"] = {
+									["count"] = 0,
+								},
+								["Shadow Bolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Forest Spider"] = {
+							["Details"] = {
+								["Corruption (DoT)"] = {
+									["count"] = 0,
+								},
+								["Immolate"] = {
+									["count"] = 0,
+								},
+								["Shadow Bolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Murloc"] = {
+							["Details"] = {
+								["Corruption (DoT)"] = {
+									["count"] = 0,
+								},
+								["Immolate (DoT)"] = {
+									["count"] = 0,
+								},
+								["Immolate"] = {
+									["count"] = 0,
+								},
+								["Shadow Bolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Miner"] = {
+							["Details"] = {
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Corruption (DoT)"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 3.61,
+								},
+								["Curse of Agony (DoT)"] = {
+									["count"] = 0,
+								},
+								["Immolate (DoT)"] = {
+									["count"] = 0,
+								},
+								["Immolate"] = {
+									["count"] = 0,
+								},
+								["Shadow Bolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 3.61,
+						},
+						["Kobold Geomancer"] = {
+							["Details"] = {
+								["Corruption (DoT)"] = {
+									["count"] = 0,
+								},
+								["Shadow Bolt"] = {
+									["count"] = 0,
+								},
+								["Immolate (DoT)"] = {
+									["count"] = 0,
+								},
+								["Immolate"] = {
+									["count"] = 0,
+								},
+								["Curse of Agony (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Defias Cutpurse"] = {
+							["Details"] = {
+								["Corruption (DoT)"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Immolate (DoT)"] = {
+									["count"] = 0,
+								},
+								["Immolate"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Goldtooth"] = {
+							["Details"] = {
+								["Corruption (DoT)"] = {
+									["count"] = 0,
+								},
+								["Curse of Weakness"] = {
+									["count"] = 0,
+								},
+								["Immolate (DoT)"] = {
+									["count"] = 0,
+								},
+								["Immolate"] = {
+									["count"] = 0,
+								},
+								["Shadow Bolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Stonetusk Boar"] = {
+							["Details"] = {
+								["Corruption (DoT)"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Immolate (DoT)"] = {
+									["count"] = 0,
+								},
+								["Immolate"] = {
+									["count"] = 0,
+								},
+								["Shadow Bolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Sandler"] = {
+							["Details"] = {
+								["Holy Light"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Worker"] = {
+							["Details"] = {
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Elgorath"] = {
+							["Details"] = {
+								["Healing Potion"] = {
+									["count"] = 0,
+								},
+								["Swift Hand of Justice"] = {
+									["count"] = 3.11,
+								},
+								["Judgement of Light"] = {
+									["count"] = 0,
+								},
+								["Holy Strength"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 3.11,
+						},
+						["Defias Thug"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["WhoDispelled"] = {
+					},
+					["InterruptData"] = {
+					},
+					["ElementTakenResist"] = {
+					},
+					["Heals"] = {
+						["Holy Light"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Holy Strength"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 5,
+									["min"] = 5,
+									["count"] = 1,
+									["amount"] = 5,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 5,
+						},
+						["Healing Potion"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Judgement of Light"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Swift Hand of Justice"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 5,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 5,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 5,
+						},
+					},
+					["ActiveTime"] = 6.72,
+					["EnergyGained"] = {
+					},
+					["EnergyGain"] = 0,
+					["Healing"] = 10,
+					["Dispelled"] = 0,
+					["RageGained"] = {
+					},
+					["Attacks"] = {
+						["Corruption"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Corruption (DoT)"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Glancing"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Dodge"] = {
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit (Blocked)"] = {
+									["max"] = 59,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 59,
+								},
+								["Hit"] = {
+									["max"] = 113,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 113,
+								},
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Parry"] = {
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 172,
+						},
+						["Immolate"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Shadow Bolt"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Curse of Weakness"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Curse of Agony (DoT)"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Immolate (DoT)"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Tick"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Seal of Righteousness"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 26,
+									["min"] = 0,
+									["count"] = 3,
+									["amount"] = 44,
+								},
+							},
+							["count"] = 3,
+							["amount"] = 44,
+						},
+						["Judgement of Righteousness"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 44,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 44,
+								},
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 44,
+						},
+					},
+					["RageGain"] = 0,
+					["FDamagedWho"] = {
+					},
+					["TimeDamage"] = 3.61,
+					["TimeDamaging"] = {
+						["Mangy Wolf"] = {
+							["Details"] = {
+								["Corruption (DoT)"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Diseased Young Wolf"] = {
+							["Details"] = {
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Defias Cutpurse"] = {
+							["Details"] = {
+								["Corruption (DoT)"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Immolate (DoT)"] = {
+									["count"] = 0,
+								},
+								["Immolate"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Forest Spider"] = {
+							["Details"] = {
+								["Corruption (DoT)"] = {
+									["count"] = 0,
+								},
+								["Immolate"] = {
+									["count"] = 0,
+								},
+								["Shadow Bolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Murloc"] = {
+							["Details"] = {
+								["Corruption (DoT)"] = {
+									["count"] = 0,
+								},
+								["Immolate (DoT)"] = {
+									["count"] = 0,
+								},
+								["Immolate"] = {
+									["count"] = 0,
+								},
+								["Shadow Bolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Geomancer"] = {
+							["Details"] = {
+								["Corruption (DoT)"] = {
+									["count"] = 0,
+								},
+								["Shadow Bolt"] = {
+									["count"] = 0,
+								},
+								["Immolate (DoT)"] = {
+									["count"] = 0,
+								},
+								["Immolate"] = {
+									["count"] = 0,
+								},
+								["Curse of Agony (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Goldtooth"] = {
+							["Details"] = {
+								["Corruption (DoT)"] = {
+									["count"] = 0,
+								},
+								["Curse of Weakness"] = {
+									["count"] = 0,
+								},
+								["Immolate (DoT)"] = {
+									["count"] = 0,
+								},
+								["Immolate"] = {
+									["count"] = 0,
+								},
+								["Shadow Bolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Stonetusk Boar"] = {
+							["Details"] = {
+								["Corruption (DoT)"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Immolate (DoT)"] = {
+									["count"] = 0,
+								},
+								["Immolate"] = {
+									["count"] = 0,
+								},
+								["Shadow Bolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Miner"] = {
+							["Details"] = {
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Corruption (DoT)"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 3.61,
+								},
+								["Curse of Agony (DoT)"] = {
+									["count"] = 0,
+								},
+								["Immolate (DoT)"] = {
+									["count"] = 0,
+								},
+								["Immolate"] = {
+									["count"] = 0,
+								},
+								["Shadow Bolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 3.61,
+						},
+						["Kobold Worker"] = {
+							["Details"] = {
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Tunneler"] = {
+							["Details"] = {
+								["Corruption"] = {
+									["count"] = 0,
+								},
+								["Corruption (DoT)"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Immolate (DoT)"] = {
+									["count"] = 0,
+								},
+								["Immolate"] = {
+									["count"] = 0,
+								},
+								["Shadow Bolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Defias Thug"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ManaGain"] = 0,
+					["HOTs"] = {
+						["Judgement of Light"] = {
+							["Details"] = {
+								["Elgorath"] = {
+									["count"] = 3,
+								},
+							},
+							["amount"] = 3,
+						},
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["CurrentFightData"] = {
+					["DOTs"] = {
+						["Immolate (DoT)"] = {
+							["Details"] = {
+								["Mangy Wolf"] = {
+									["count"] = 0,
+								},
+								["Defias Cutpurse"] = {
+									["count"] = 0,
+								},
+								["Kobold Tunneler"] = {
+									["count"] = 0,
+								},
+								["Kobold Miner"] = {
+									["count"] = 0,
+								},
+								["Stonetusk Boar"] = {
+									["count"] = 0,
+								},
+								["Narg the Taskmaster"] = {
+									["count"] = 0,
+								},
+								["Forest Spider"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Corruption (DoT)"] = {
+							["Details"] = {
+								["Mangy Wolf"] = {
+									["count"] = 0,
+								},
+								["Defias Cutpurse"] = {
+									["count"] = 0,
+								},
+								["Kobold Tunneler"] = {
+									["count"] = 0,
+								},
+								["Kobold Miner"] = {
+									["count"] = 0,
+								},
+								["Stonetusk Boar"] = {
+									["count"] = 0,
+								},
+								["Narg the Taskmaster"] = {
+									["count"] = 0,
+								},
+								["Forest Spider"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Curse of Agony (DoT)"] = {
+							["Details"] = {
+								["Kobold Miner"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ElementDoneResist"] = {
+						["Shadow"] = 0,
+						["Fire"] = 0,
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 0,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Dodge"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 0,
+								},
+								["Crushing"] = {
+									["count"] = 0,
+								},
+								["Miss"] = {
+									["count"] = 0,
+								},
+								["Crit"] = {
+									["count"] = 0,
+								},
+								["Parry"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Nature"] = {
+							["Details"] = {
+								["Tick"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["Damage"] = 0,
+					["RunicPowerGain"] = 0,
+					["ElementTaken"] = {
+						["Melee"] = 0,
+						["Nature"] = 0,
+					},
+					["DOT_Time"] = 0,
+					["ElementTakenBlock"] = {
+					},
+					["ElementDoneAbsorb"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["PartialBlock"] = {
+					},
+					["ElementHitsDone"] = {
+						["Shadow"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 0,
+								},
+								["Tick"] = {
+									["count"] = 0,
+								},
+								["Miss"] = {
+									["count"] = 0,
+								},
+								["Crit"] = {
+									["count"] = 0,
+								},
+								["Evade"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Fire"] = {
+							["Details"] = {
+								["Tick"] = {
+									["count"] = 0,
+								},
+								["Miss"] = {
+									["count"] = 0,
+								},
+								["Crit"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Glancing"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 0,
+								},
+								["Dodge"] = {
+									["count"] = 0,
+								},
+								["Crit"] = {
+									["count"] = 0,
+								},
+								["Parry"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Holy"] = {
+							["Details"] = {
+								["Crit"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["FAttacks"] = {
+					},
+					["HealingTaken"] = 0,
+					["ElementDone"] = {
+						["Shadow"] = 0,
+						["Fire"] = 0,
+						["Melee"] = 0,
+						["Holy"] = 0,
+					},
+					["DamagedWho"] = {
+						["Mangy Wolf"] = {
+							["Details"] = {
+								["Corruption (DoT)"] = {
+									["count"] = 0,
+								},
+								["Immolate (DoT)"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Immolate"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Defias Cutpurse"] = {
+							["Details"] = {
+								["Immolate (DoT)"] = {
+									["count"] = 0,
+								},
+								["Immolate"] = {
+									["count"] = 0,
+								},
+								["Corruption (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Forest Spider"] = {
+							["Details"] = {
+								["Corruption (DoT)"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Immolate (DoT)"] = {
+									["count"] = 0,
+								},
+								["Immolate"] = {
+									["count"] = 0,
+								},
+								["Shadow Bolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Narg the Taskmaster"] = {
+							["Details"] = {
+								["Corruption (DoT)"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Immolate (DoT)"] = {
+									["count"] = 0,
+								},
+								["Immolate"] = {
+									["count"] = 0,
+								},
+								["Shadow Bolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Stonetusk Boar"] = {
+							["Details"] = {
+								["Immolate (DoT)"] = {
+									["count"] = 0,
+								},
+								["Corruption (DoT)"] = {
+									["count"] = 0,
+								},
+								["Immolate"] = {
+									["count"] = 0,
+								},
+								["Shadow Bolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Miner"] = {
+							["Details"] = {
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Corruption (DoT)"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Curse of Agony (DoT)"] = {
+									["count"] = 0,
+								},
+								["Immolate (DoT)"] = {
+									["count"] = 0,
+								},
+								["Immolate"] = {
+									["count"] = 0,
+								},
+								["Shadow Bolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Diseased Timber Wolf"] = {
+							["Details"] = {
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Tunneler"] = {
+							["Details"] = {
+								["Corruption (DoT)"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Immolate (DoT)"] = {
+									["count"] = 0,
+								},
+								["Immolate"] = {
+									["count"] = 0,
+								},
+								["Shadow Bolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Defias Thug"] = {
+							["Details"] = {
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ManaGainedFrom"] = {
+					},
+					["RunicPowerGained"] = {
+					},
+					["WhoDamaged"] = {
+						["Mangy Wolf"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Defias Cutpurse"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Forest Spider"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Poison (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Narg the Taskmaster"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Stonetusk Boar"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Miner"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Diseased Timber Wolf"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Tunneler"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Defias Thug"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["CCBroken"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDoneBlock"] = {
+						["Melee"] = 0,
+					},
+					["TimeHealing"] = {
+						["Elgorath"] = {
+							["Details"] = {
+								["Healing Potion"] = {
+									["count"] = 0,
+								},
+								["Swift Hand of Justice"] = {
+									["count"] = 0,
+								},
+								["Judgement of Light"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Cytrex"] = {
+							["Details"] = {
+								["Holy Light"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["OverHeals"] = {
+						["Swift Hand of Justice"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Holy Light"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Judgement of Light"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Holy Strength"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["WhoHealed"] = {
+						["Elgorath"] = {
+							["Details"] = {
+								["Healing Potion"] = {
+									["count"] = 0,
+								},
+								["Swift Hand of Justice"] = {
+									["count"] = 0,
+								},
+								["Judgement of Light"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["HealedWho"] = {
+						["Elgorath"] = {
+							["Details"] = {
+								["Healing Potion"] = {
+									["count"] = 0,
+								},
+								["Swift Hand of Justice"] = {
+									["count"] = 0,
+								},
+								["Judgement of Light"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Cytrex"] = {
+							["Details"] = {
+								["Holy Light"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["CCBreak"] = 0,
+					["ElementTakenAbsorb"] = {
+					},
+					["PartialAbsorb"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Poison (DoT)"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["PartialResist"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Poison (DoT)"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["ManaGained"] = {
+					},
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["Overhealing"] = 0,
+					["TimeSpent"] = {
+						["Mangy Wolf"] = {
+							["Details"] = {
+								["Corruption (DoT)"] = {
+									["count"] = 0,
+								},
+								["Immolate (DoT)"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Immolate"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Defias Cutpurse"] = {
+							["Details"] = {
+								["Immolate (DoT)"] = {
+									["count"] = 0,
+								},
+								["Immolate"] = {
+									["count"] = 0,
+								},
+								["Corruption (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Forest Spider"] = {
+							["Details"] = {
+								["Corruption (DoT)"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Immolate (DoT)"] = {
+									["count"] = 0,
+								},
+								["Immolate"] = {
+									["count"] = 0,
+								},
+								["Shadow Bolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Narg the Taskmaster"] = {
+							["Details"] = {
+								["Corruption"] = {
+									["count"] = 0,
+								},
+								["Corruption (DoT)"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Immolate (DoT)"] = {
+									["count"] = 0,
+								},
+								["Immolate"] = {
+									["count"] = 0,
+								},
+								["Shadow Bolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Cytrex"] = {
+							["Details"] = {
+								["Holy Light"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Tunneler"] = {
+							["Details"] = {
+								["Corruption (DoT)"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Immolate (DoT)"] = {
+									["count"] = 0,
+								},
+								["Immolate"] = {
+									["count"] = 0,
+								},
+								["Shadow Bolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Stonetusk Boar"] = {
+							["Details"] = {
+								["Corruption (DoT)"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Immolate (DoT)"] = {
+									["count"] = 0,
+								},
+								["Immolate"] = {
+									["count"] = 0,
+								},
+								["Shadow Bolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Elgorath"] = {
+							["Details"] = {
+								["Healing Potion"] = {
+									["count"] = 0,
+								},
+								["Swift Hand of Justice"] = {
+									["count"] = 0,
+								},
+								["Judgement of Light"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Diseased Timber Wolf"] = {
+							["Details"] = {
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Miner"] = {
+							["Details"] = {
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Corruption (DoT)"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Curse of Agony (DoT)"] = {
+									["count"] = 0,
+								},
+								["Immolate (DoT)"] = {
+									["count"] = 0,
+								},
+								["Immolate"] = {
+									["count"] = 0,
+								},
+								["Shadow Bolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Defias Thug"] = {
+							["Details"] = {
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["WhoDispelled"] = {
+					},
+					["InterruptData"] = {
+					},
+					["ElementTakenResist"] = {
+					},
+					["Heals"] = {
+						["Healing Potion"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Swift Hand of Justice"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Judgement of Light"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Holy Light"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["ActiveTime"] = 0,
+					["EnergyGained"] = {
+					},
+					["EnergyGain"] = 0,
+					["Healing"] = 0,
+					["Dispelled"] = 0,
+					["RageGained"] = {
+					},
+					["Attacks"] = {
+						["Corruption"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Corruption (DoT)"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Seal of Righteousness"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Immolate"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Shadow Bolt"] = {
+							["Details"] = {
+								["Evade"] = {
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Miss"] = {
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Curse of Agony (DoT)"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Immolate (DoT)"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Glancing"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit (Blocked)"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Dodge"] = {
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Parry"] = {
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Judgement of Righteousness"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["RageGain"] = 0,
+					["FDamagedWho"] = {
+					},
+					["TimeDamage"] = 0,
+					["TimeDamaging"] = {
+						["Mangy Wolf"] = {
+							["Details"] = {
+								["Corruption (DoT)"] = {
+									["count"] = 0,
+								},
+								["Immolate (DoT)"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Immolate"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Defias Cutpurse"] = {
+							["Details"] = {
+								["Immolate (DoT)"] = {
+									["count"] = 0,
+								},
+								["Immolate"] = {
+									["count"] = 0,
+								},
+								["Corruption (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Forest Spider"] = {
+							["Details"] = {
+								["Corruption (DoT)"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Immolate (DoT)"] = {
+									["count"] = 0,
+								},
+								["Immolate"] = {
+									["count"] = 0,
+								},
+								["Shadow Bolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Narg the Taskmaster"] = {
+							["Details"] = {
+								["Corruption"] = {
+									["count"] = 0,
+								},
+								["Corruption (DoT)"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Immolate (DoT)"] = {
+									["count"] = 0,
+								},
+								["Immolate"] = {
+									["count"] = 0,
+								},
+								["Shadow Bolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Stonetusk Boar"] = {
+							["Details"] = {
+								["Corruption (DoT)"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Immolate (DoT)"] = {
+									["count"] = 0,
+								},
+								["Immolate"] = {
+									["count"] = 0,
+								},
+								["Shadow Bolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Miner"] = {
+							["Details"] = {
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Corruption (DoT)"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Curse of Agony (DoT)"] = {
+									["count"] = 0,
+								},
+								["Immolate (DoT)"] = {
+									["count"] = 0,
+								},
+								["Immolate"] = {
+									["count"] = 0,
+								},
+								["Shadow Bolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Diseased Timber Wolf"] = {
+							["Details"] = {
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Tunneler"] = {
+							["Details"] = {
+								["Corruption (DoT)"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Immolate (DoT)"] = {
+									["count"] = 0,
+								},
+								["Immolate"] = {
+									["count"] = 0,
+								},
+								["Shadow Bolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Defias Thug"] = {
+							["Details"] = {
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ManaGain"] = 0,
+					["HOTs"] = {
+						["Judgement of Light"] = {
+							["Details"] = {
+								["Elgorath"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["Fight2"] = {
+					["DOTs"] = {
+						["Corruption (DoT)"] = {
+							["Details"] = {
+								["Mangy Wolf"] = {
+									["count"] = 0,
+								},
+								["Kobold Tunneler"] = {
+									["count"] = 0,
+								},
+								["Forest Spider"] = {
+									["count"] = 0,
+								},
+								["Kobold Geomancer"] = {
+									["count"] = 0,
+								},
+								["Gray Forest Wolf"] = {
+									["count"] = 0,
+								},
+								["Kobold Miner"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Immolate (DoT)"] = {
+							["Details"] = {
+								["Mangy Wolf"] = {
+									["count"] = 0,
+								},
+								["Kobold Tunneler"] = {
+									["count"] = 0,
+								},
+								["Forest Spider"] = {
+									["count"] = 0,
+								},
+								["Kobold Geomancer"] = {
+									["count"] = 0,
+								},
+								["Gray Forest Wolf"] = {
+									["count"] = 0,
+								},
+								["Kobold Miner"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Curse of Agony (DoT)"] = {
+							["Details"] = {
+								["Kobold Miner"] = {
+									["count"] = 0,
+								},
+								["Kobold Geomancer"] = {
+									["count"] = 0,
+								},
+								["Gray Forest Wolf"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ElementDoneResist"] = {
+						["Shadow"] = 0,
+						["Fire"] = 0,
+					},
+					["ElementHitsTaken"] = {
+						["Physical"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 0,
+								},
+								["Parry"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 2,
+								},
+								["Dodge"] = {
+									["count"] = 1,
+								},
+								["Miss"] = {
+									["count"] = 0,
+								},
+								["Crit"] = {
+									["count"] = 1,
+								},
+								["Parry"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 4,
+						},
+						["Fire"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["HealedWho"] = {
+						["Elgorath"] = {
+							["Details"] = {
+								["Healing Potion"] = {
+									["count"] = 0,
+								},
+								["Swift Hand of Justice"] = {
+									["count"] = 14,
+								},
+								["Judgement of Light"] = {
+									["count"] = 0,
+								},
+								["Holy Strength"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 14,
+						},
+					},
+					["Overhealing"] = 0,
+					["ElementTaken"] = {
+						["Melee"] = 20,
+						["Fire"] = 0,
+					},
+					["DOT_Time"] = 0,
+					["Damage"] = 181,
+					["TimeHeal"] = 0,
+					["ElementDone"] = {
+						["Shadow"] = 0,
+						["Fire"] = 0,
+						["Melee"] = 163,
+						["Holy"] = 18,
+					},
+					["ElementHitsDone"] = {
+						["Shadow"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 0,
+								},
+								["Crit"] = {
+									["count"] = 0,
+								},
+								["Tick"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Fire"] = {
+							["Details"] = {
+								["Tick"] = {
+									["count"] = 0,
+								},
+								["Crit"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Glancing"] = {
+									["count"] = 1,
+								},
+								["Hit"] = {
+									["count"] = 1,
+								},
+								["Dodge"] = {
+									["count"] = 1,
+								},
+								["Crit"] = {
+									["count"] = 0,
+								},
+								["Parry"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 3,
+						},
+						["Holy"] = {
+							["Details"] = {
+								["Crit"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 2,
+								},
+							},
+							["amount"] = 2,
+						},
+					},
+					["WhoDamaged"] = {
+						["Mangy Wolf"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Miner"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Goldtooth"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Tunneler"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 20,
+								},
+							},
+							["amount"] = 20,
+						},
+						["Forest Spider"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Worker"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Geomancer"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Vermin"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ElementDoneBlock"] = {
+						["Melee"] = 0,
+					},
+					["TimeHealing"] = {
+						["Elgorath"] = {
+							["Details"] = {
+								["Healing Potion"] = {
+									["count"] = 0,
+								},
+								["Swift Hand of Justice"] = {
+									["count"] = 0,
+								},
+								["Judgement of Light"] = {
+									["count"] = 0,
+								},
+								["Holy Strength"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["OverHeals"] = {
+						["Swift Hand of Justice"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Judgement of Light"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Holy Strength"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["PartialResist"] = {
+						["Fireball"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Pierce Armor"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 4,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 4,
+							["amount"] = 0,
+						},
+					},
+					["ManaGained"] = {
+						["Life Tap"] = {
+							["Details"] = {
+								["Elgorath"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["PartialAbsorb"] = {
+						["Fireball"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Pierce Armor"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 4,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 4,
+							["amount"] = 0,
+						},
+					},
+					["ActiveTime"] = 9.51,
+					["Heals"] = {
+						["Healing Potion"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Swift Hand of Justice"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 7,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 14,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 14,
+						},
+						["Judgement of Light"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Holy Strength"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["HOTs"] = {
+						["Judgement of Light"] = {
+							["Details"] = {
+								["Elgorath"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["HOT_Time"] = 0,
+					["Healing"] = 14,
+					["TimeSpent"] = {
+						["Mangy Wolf"] = {
+							["Details"] = {
+								["Corruption (DoT)"] = {
+									["count"] = 0,
+								},
+								["Immolate"] = {
+									["count"] = 0,
+								},
+								["Immolate (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Diseased Young Wolf"] = {
+							["Details"] = {
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Tunneler"] = {
+							["Details"] = {
+								["Corruption (DoT)"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 3.18,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 6.33,
+								},
+								["Immolate (DoT)"] = {
+									["count"] = 0,
+								},
+								["Immolate"] = {
+									["count"] = 0,
+								},
+								["Shadow Bolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 9.51,
+						},
+						["Forest Spider"] = {
+							["Details"] = {
+								["Immolate (DoT)"] = {
+									["count"] = 0,
+								},
+								["Corruption (DoT)"] = {
+									["count"] = 0,
+								},
+								["Immolate"] = {
+									["count"] = 0,
+								},
+								["Shadow Bolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Geomancer"] = {
+							["Details"] = {
+								["Corruption (DoT)"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Immolate (DoT)"] = {
+									["count"] = 0,
+								},
+								["Immolate"] = {
+									["count"] = 0,
+								},
+								["Curse of Agony (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Goldtooth"] = {
+							["Details"] = {
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Gray Forest Wolf"] = {
+							["Details"] = {
+								["Corruption (DoT)"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Curse of Agony (DoT)"] = {
+									["count"] = 0,
+								},
+								["Immolate (DoT)"] = {
+									["count"] = 0,
+								},
+								["Immolate"] = {
+									["count"] = 0,
+								},
+								["Shadow Bolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Elgorath"] = {
+							["Details"] = {
+								["Healing Potion"] = {
+									["count"] = 0,
+								},
+								["Swift Hand of Justice"] = {
+									["count"] = 0,
+								},
+								["Judgement of Light"] = {
+									["count"] = 0,
+								},
+								["Holy Strength"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Worker"] = {
+							["Details"] = {
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Miner"] = {
+							["Details"] = {
+								["Corruption"] = {
+									["count"] = 0,
+								},
+								["Corruption (DoT)"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Immolate"] = {
+									["count"] = 0,
+								},
+								["Shadow Bolt"] = {
+									["count"] = 0,
+								},
+								["Curse of Agony (DoT)"] = {
+									["count"] = 0,
+								},
+								["Immolate (DoT)"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Vermin"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["DamageTaken"] = 20,
+					["Attacks"] = {
+						["Corruption"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Corruption (DoT)"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Seal of Righteousness"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 9,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 18,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 18,
+						},
+						["Immolate"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Shadow Bolt"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Curse of Agony (DoT)"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Immolate (DoT)"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Tick"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Glancing"] = {
+									["max"] = 88,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 88,
+								},
+								["Hit"] = {
+									["max"] = 75,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 75,
+								},
+								["Hit (Blocked)"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Dodge"] = {
+									["count"] = 1,
+									["amount"] = 0,
+								},
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Parry"] = {
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 3,
+							["amount"] = 163,
+						},
+						["Judgement of Righteousness"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["HealingTaken"] = 14,
+					["WhoHealed"] = {
+						["Elgorath"] = {
+							["Details"] = {
+								["Healing Potion"] = {
+									["count"] = 0,
+								},
+								["Swift Hand of Justice"] = {
+									["count"] = 14,
+								},
+								["Judgement of Light"] = {
+									["count"] = 0,
+								},
+								["Holy Strength"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 14,
+						},
+					},
+					["TimeDamage"] = 9.51,
+					["TimeDamaging"] = {
+						["Mangy Wolf"] = {
+							["Details"] = {
+								["Corruption (DoT)"] = {
+									["count"] = 0,
+								},
+								["Immolate"] = {
+									["count"] = 0,
+								},
+								["Immolate (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Diseased Young Wolf"] = {
+							["Details"] = {
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Tunneler"] = {
+							["Details"] = {
+								["Corruption (DoT)"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 3.18,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 6.33,
+								},
+								["Immolate (DoT)"] = {
+									["count"] = 0,
+								},
+								["Immolate"] = {
+									["count"] = 0,
+								},
+								["Shadow Bolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 9.51,
+						},
+						["Forest Spider"] = {
+							["Details"] = {
+								["Immolate (DoT)"] = {
+									["count"] = 0,
+								},
+								["Corruption (DoT)"] = {
+									["count"] = 0,
+								},
+								["Immolate"] = {
+									["count"] = 0,
+								},
+								["Shadow Bolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Geomancer"] = {
+							["Details"] = {
+								["Corruption (DoT)"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Immolate (DoT)"] = {
+									["count"] = 0,
+								},
+								["Immolate"] = {
+									["count"] = 0,
+								},
+								["Curse of Agony (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Goldtooth"] = {
+							["Details"] = {
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Gray Forest Wolf"] = {
+							["Details"] = {
+								["Corruption (DoT)"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Curse of Agony (DoT)"] = {
+									["count"] = 0,
+								},
+								["Immolate (DoT)"] = {
+									["count"] = 0,
+								},
+								["Immolate"] = {
+									["count"] = 0,
+								},
+								["Shadow Bolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Miner"] = {
+							["Details"] = {
+								["Corruption"] = {
+									["count"] = 0,
+								},
+								["Corruption (DoT)"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Immolate"] = {
+									["count"] = 0,
+								},
+								["Shadow Bolt"] = {
+									["count"] = 0,
+								},
+								["Curse of Agony (DoT)"] = {
+									["count"] = 0,
+								},
+								["Immolate (DoT)"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Worker"] = {
+							["Details"] = {
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Vermin"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ManaGain"] = 0,
+					["DamagedWho"] = {
+						["Mangy Wolf"] = {
+							["Details"] = {
+								["Corruption (DoT)"] = {
+									["count"] = 0,
+								},
+								["Immolate"] = {
+									["count"] = 0,
+								},
+								["Immolate (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Diseased Young Wolf"] = {
+							["Details"] = {
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Tunneler"] = {
+							["Details"] = {
+								["Corruption (DoT)"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 163,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 18,
+								},
+								["Immolate (DoT)"] = {
+									["count"] = 0,
+								},
+								["Immolate"] = {
+									["count"] = 0,
+								},
+								["Shadow Bolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 181,
+						},
+						["Forest Spider"] = {
+							["Details"] = {
+								["Immolate (DoT)"] = {
+									["count"] = 0,
+								},
+								["Corruption (DoT)"] = {
+									["count"] = 0,
+								},
+								["Immolate"] = {
+									["count"] = 0,
+								},
+								["Shadow Bolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Geomancer"] = {
+							["Details"] = {
+								["Corruption (DoT)"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Immolate (DoT)"] = {
+									["count"] = 0,
+								},
+								["Immolate"] = {
+									["count"] = 0,
+								},
+								["Curse of Agony (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Goldtooth"] = {
+							["Details"] = {
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Gray Forest Wolf"] = {
+							["Details"] = {
+								["Corruption (DoT)"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Curse of Agony (DoT)"] = {
+									["count"] = 0,
+								},
+								["Immolate (DoT)"] = {
+									["count"] = 0,
+								},
+								["Immolate"] = {
+									["count"] = 0,
+								},
+								["Shadow Bolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Miner"] = {
+							["Details"] = {
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Corruption (DoT)"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Curse of Agony (DoT)"] = {
+									["count"] = 0,
+								},
+								["Immolate (DoT)"] = {
+									["count"] = 0,
+								},
+								["Immolate"] = {
+									["count"] = 0,
+								},
+								["Shadow Bolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Worker"] = {
+							["Details"] = {
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Vermin"] = {
+							["Details"] = {
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ManaGainedFrom"] = {
+						["Elgorath"] = {
+							["Details"] = {
+								["Life Tap"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+				},
+				["Fight4"] = {
+					["DOTs"] = {
+						["Immolate (DoT)"] = {
+							["Details"] = {
+								["Mangy Wolf"] = {
+									["count"] = 0,
+								},
+								["Goldtooth"] = {
+									["count"] = 0,
+								},
+								["Kobold Tunneler"] = {
+									["count"] = 0,
+								},
+								["Kobold Miner"] = {
+									["count"] = 0,
+								},
+								["Murloc"] = {
+									["count"] = 0,
+								},
+								["Kobold Geomancer"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Corruption (DoT)"] = {
+							["Details"] = {
+								["Mangy Wolf"] = {
+									["count"] = 0,
+								},
+								["Goldtooth"] = {
+									["count"] = 0,
+								},
+								["Kobold Tunneler"] = {
+									["count"] = 0,
+								},
+								["Kobold Miner"] = {
+									["count"] = 0,
+								},
+								["Murloc"] = {
+									["count"] = 0,
+								},
+								["Kobold Geomancer"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Curse of Agony (DoT)"] = {
+							["Details"] = {
+								["Kobold Geomancer"] = {
+									["count"] = 0,
+								},
+								["Kobold Miner"] = {
+									["count"] = 0,
+								},
+								["Mangy Wolf"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ElementDoneResist"] = {
+						["Shadow"] = 0,
+						["Fire"] = 0,
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 240,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+						["Physical"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 38,
+								},
+								["Miss"] = {
+									["count"] = 1,
+								},
+								["Dodge"] = {
+									["count"] = 0,
+								},
+								["Crit"] = {
+									["count"] = 1,
+								},
+								["Parry"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 40,
+						},
+						["Nature"] = {
+							["Details"] = {
+								["Tick"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 6,
+					["Damage"] = 1579,
+					["RunicPowerGain"] = 0,
+					["ElementTaken"] = {
+						["Melee"] = 240,
+						["Nature"] = 0,
+					},
+					["DOT_Time"] = 0,
+					["ElementTakenBlock"] = {
+					},
+					["ElementDoneAbsorb"] = {
+					},
+					["TimeHeal"] = 3.28,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["PartialBlock"] = {
+					},
+					["ElementHitsDone"] = {
+						["Shadow"] = {
+							["Details"] = {
+								["Evade"] = {
+									["count"] = 0,
+								},
+								["Tick"] = {
+									["count"] = 0,
+								},
+								["Crit"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Fire"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 0,
+								},
+								["Miss"] = {
+									["count"] = 0,
+								},
+								["Tick"] = {
+									["count"] = 0,
+								},
+								["Crit"] = {
+									["count"] = 0,
+								},
+								["Evade"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Glancing"] = {
+									["count"] = 2,
+								},
+								["Hit"] = {
+									["count"] = 4,
+								},
+								["Dodge"] = {
+									["count"] = 0,
+								},
+								["Crit"] = {
+									["count"] = 3,
+								},
+								["Parry"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 9,
+						},
+						["Holy"] = {
+							["Details"] = {
+								["Crit"] = {
+									["count"] = 1,
+								},
+								["Hit"] = {
+									["count"] = 14,
+								},
+							},
+							["amount"] = 15,
+						},
+					},
+					["FAttacks"] = {
+					},
+					["HealingTaken"] = 188,
+					["ElementDone"] = {
+						["Shadow"] = 0,
+						["Fire"] = 0,
+						["Melee"] = 1161,
+						["Holy"] = 418,
+					},
+					["DamagedWho"] = {
+						["Mangy Wolf"] = {
+							["Details"] = {
+								["Corruption (DoT)"] = {
+									["count"] = 0,
+								},
+								["Immolate (DoT)"] = {
+									["count"] = 0,
+								},
+								["Immolate"] = {
+									["count"] = 0,
+								},
+								["Curse of Agony (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Diseased Young Wolf"] = {
+							["Details"] = {
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Tunneler"] = {
+							["Details"] = {
+								["Corruption (DoT)"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 204,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 35,
+								},
+								["Immolate (DoT)"] = {
+									["count"] = 0,
+								},
+								["Immolate"] = {
+									["count"] = 0,
+								},
+								["Shadow Bolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 239,
+						},
+						["Forest Spider"] = {
+							["Details"] = {
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Murloc"] = {
+							["Details"] = {
+								["Immolate (DoT)"] = {
+									["count"] = 0,
+								},
+								["Corruption (DoT)"] = {
+									["count"] = 0,
+								},
+								["Immolate"] = {
+									["count"] = 0,
+								},
+								["Shadow Bolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Geomancer"] = {
+							["Details"] = {
+								["Corruption (DoT)"] = {
+									["count"] = 0,
+								},
+								["Curse of Agony (DoT)"] = {
+									["count"] = 0,
+								},
+								["Immolate (DoT)"] = {
+									["count"] = 0,
+								},
+								["Immolate"] = {
+									["count"] = 0,
+								},
+								["Shadow Bolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Goldtooth"] = {
+							["Details"] = {
+								["Corruption (DoT)"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 133,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 18,
+								},
+								["Immolate (DoT)"] = {
+									["count"] = 0,
+								},
+								["Immolate"] = {
+									["count"] = 0,
+								},
+								["Shadow Bolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 151,
+						},
+						["Kobold Miner"] = {
+							["Details"] = {
+								["Judgement of Righteousness"] = {
+									["count"] = 208,
+								},
+								["Corruption (DoT)"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 824,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 157,
+								},
+								["Curse of Agony (DoT)"] = {
+									["count"] = 0,
+								},
+								["Immolate (DoT)"] = {
+									["count"] = 0,
+								},
+								["Immolate"] = {
+									["count"] = 0,
+								},
+								["Shadow Bolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 1189,
+						},
+						["Diseased Timber Wolf"] = {
+							["Details"] = {
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Vermin"] = {
+							["Details"] = {
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ManaGainedFrom"] = {
+					},
+					["RunicPowerGained"] = {
+					},
+					["WhoDamaged"] = {
+						["Mangy Wolf"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Diseased Young Wolf"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Goldtooth"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 96,
+								},
+							},
+							["amount"] = 96,
+						},
+						["Kobold Tunneler"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 23,
+								},
+							},
+							["amount"] = 23,
+						},
+						["Kobold Miner"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 121,
+								},
+							},
+							["amount"] = 121,
+						},
+						["Murloc"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Forest Spider"] = {
+							["Details"] = {
+								["Poison (DoT)"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Vermin"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["CCBroken"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDoneBlock"] = {
+						["Melee"] = 3,
+					},
+					["TimeHealing"] = {
+						["Elgorath"] = {
+							["Details"] = {
+								["Healing Potion"] = {
+									["count"] = 0,
+								},
+								["Swift Hand of Justice"] = {
+									["count"] = 3.28,
+								},
+								["Judgement of Light"] = {
+									["count"] = 0,
+								},
+								["Holy Strength"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 3.28,
+						},
+					},
+					["OverHeals"] = {
+						["Healing Potion"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Swift Hand of Justice"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Judgement of Light"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Holy Strength"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 34,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 34,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 34,
+						},
+					},
+					["WhoHealed"] = {
+						["Elgorath"] = {
+							["Details"] = {
+								["Healing Potion"] = {
+									["count"] = 0,
+								},
+								["Swift Hand of Justice"] = {
+									["count"] = 98,
+								},
+								["Judgement of Light"] = {
+									["count"] = 14,
+								},
+								["Holy Strength"] = {
+									["count"] = 76,
+								},
+							},
+							["amount"] = 188,
+						},
+					},
+					["HealedWho"] = {
+						["Elgorath"] = {
+							["Details"] = {
+								["Healing Potion"] = {
+									["count"] = 0,
+								},
+								["Swift Hand of Justice"] = {
+									["count"] = 98,
+								},
+								["Judgement of Light"] = {
+									["count"] = 14,
+								},
+								["Holy Strength"] = {
+									["count"] = 76,
+								},
+							},
+							["amount"] = 188,
+						},
+					},
+					["CCBreak"] = 0,
+					["ElementTakenAbsorb"] = {
+					},
+					["PartialAbsorb"] = {
+						["Poison (DoT)"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 40,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 40,
+							["amount"] = 0,
+						},
+						["Pierce Armor"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["PartialResist"] = {
+						["Poison (DoT)"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 40,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 40,
+							["amount"] = 0,
+						},
+						["Pierce Armor"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["ManaGained"] = {
+					},
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["Overhealing"] = 34,
+					["TimeSpent"] = {
+						["Mangy Wolf"] = {
+							["Details"] = {
+								["Corruption (DoT)"] = {
+									["count"] = 0,
+								},
+								["Immolate (DoT)"] = {
+									["count"] = 0,
+								},
+								["Immolate"] = {
+									["count"] = 0,
+								},
+								["Curse of Agony (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Diseased Young Wolf"] = {
+							["Details"] = {
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Tunneler"] = {
+							["Details"] = {
+								["Corruption (DoT)"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 3.5,
+								},
+								["Immolate (DoT)"] = {
+									["count"] = 0,
+								},
+								["Immolate"] = {
+									["count"] = 0,
+								},
+								["Shadow Bolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 3.5,
+						},
+						["Forest Spider"] = {
+							["Details"] = {
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Murloc"] = {
+							["Details"] = {
+								["Corruption"] = {
+									["count"] = 0,
+								},
+								["Corruption (DoT)"] = {
+									["count"] = 0,
+								},
+								["Immolate (DoT)"] = {
+									["count"] = 0,
+								},
+								["Immolate"] = {
+									["count"] = 0,
+								},
+								["Shadow Bolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Geomancer"] = {
+							["Details"] = {
+								["Corruption (DoT)"] = {
+									["count"] = 0,
+								},
+								["Curse of Agony (DoT)"] = {
+									["count"] = 0,
+								},
+								["Immolate (DoT)"] = {
+									["count"] = 0,
+								},
+								["Immolate"] = {
+									["count"] = 0,
+								},
+								["Shadow Bolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Goldtooth"] = {
+							["Details"] = {
+								["Corruption (DoT)"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 6.43,
+								},
+								["Immolate (DoT)"] = {
+									["count"] = 0,
+								},
+								["Immolate"] = {
+									["count"] = 0,
+								},
+								["Shadow Bolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 6.43,
+						},
+						["Kobold Miner"] = {
+							["Details"] = {
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Corruption (DoT)"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 16.24,
+								},
+								["Curse of Agony (DoT)"] = {
+									["count"] = 0,
+								},
+								["Immolate (DoT)"] = {
+									["count"] = 0,
+								},
+								["Immolate"] = {
+									["count"] = 0,
+								},
+								["Shadow Bolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 16.24,
+						},
+						["Diseased Timber Wolf"] = {
+							["Details"] = {
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Elgorath"] = {
+							["Details"] = {
+								["Healing Potion"] = {
+									["count"] = 0,
+								},
+								["Swift Hand of Justice"] = {
+									["count"] = 3.28,
+								},
+								["Judgement of Light"] = {
+									["count"] = 0,
+								},
+								["Holy Strength"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 3.28,
+						},
+						["Kobold Vermin"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["WhoDispelled"] = {
+						["Elgorath"] = {
+							["Details"] = {
+								["Poison (Purify)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["InterruptData"] = {
+					},
+					["ElementTakenResist"] = {
+					},
+					["Heals"] = {
+						["Healing Potion"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Swift Hand of Justice"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 7,
+									["min"] = 0,
+									["count"] = 14,
+									["amount"] = 98,
+								},
+							},
+							["count"] = 14,
+							["amount"] = 98,
+						},
+						["Judgement of Light"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 7,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 14,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 14,
+						},
+						["Holy Strength"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 76,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 76,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 76,
+						},
+					},
+					["ActiveTime"] = 29.45,
+					["EnergyGained"] = {
+					},
+					["EnergyGain"] = 0,
+					["Healing"] = 188,
+					["Dispelled"] = 0,
+					["RageGained"] = {
+					},
+					["Attacks"] = {
+						["Corruption"] = {
+							["Details"] = {
+								["Evade"] = {
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Corruption (DoT)"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Seal of Righteousness"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 26,
+									["min"] = 0,
+									["count"] = 12,
+									["amount"] = 210,
+								},
+							},
+							["count"] = 12,
+							["amount"] = 210,
+						},
+						["Immolate"] = {
+							["Details"] = {
+								["Evade"] = {
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Miss"] = {
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Shadow Bolt"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Curse of Agony (DoT)"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Immolate (DoT)"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Tick"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Glancing"] = {
+									["max"] = 88,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 156,
+								},
+								["Hit"] = {
+									["max"] = 69,
+									["min"] = 0,
+									["count"] = 3,
+									["amount"] = 201,
+								},
+								["Hit (Blocked)"] = {
+									["max"] = 116,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 116,
+								},
+								["Dodge"] = {
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Crit"] = {
+									["max"] = 242,
+									["min"] = 0,
+									["count"] = 3,
+									["amount"] = 688,
+								},
+								["Parry"] = {
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 9,
+							["amount"] = 1161,
+						},
+						["Judgement of Righteousness"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 124,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 124,
+								},
+								["Hit"] = {
+									["max"] = 62,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 84,
+								},
+							},
+							["count"] = 3,
+							["amount"] = 208,
+						},
+					},
+					["RageGain"] = 0,
+					["FDamagedWho"] = {
+					},
+					["TimeDamage"] = 26.17,
+					["TimeDamaging"] = {
+						["Mangy Wolf"] = {
+							["Details"] = {
+								["Corruption (DoT)"] = {
+									["count"] = 0,
+								},
+								["Immolate (DoT)"] = {
+									["count"] = 0,
+								},
+								["Immolate"] = {
+									["count"] = 0,
+								},
+								["Curse of Agony (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Diseased Young Wolf"] = {
+							["Details"] = {
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Tunneler"] = {
+							["Details"] = {
+								["Corruption (DoT)"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 3.5,
+								},
+								["Immolate (DoT)"] = {
+									["count"] = 0,
+								},
+								["Immolate"] = {
+									["count"] = 0,
+								},
+								["Shadow Bolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 3.5,
+						},
+						["Forest Spider"] = {
+							["Details"] = {
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Murloc"] = {
+							["Details"] = {
+								["Corruption"] = {
+									["count"] = 0,
+								},
+								["Corruption (DoT)"] = {
+									["count"] = 0,
+								},
+								["Immolate (DoT)"] = {
+									["count"] = 0,
+								},
+								["Immolate"] = {
+									["count"] = 0,
+								},
+								["Shadow Bolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Geomancer"] = {
+							["Details"] = {
+								["Corruption (DoT)"] = {
+									["count"] = 0,
+								},
+								["Curse of Agony (DoT)"] = {
+									["count"] = 0,
+								},
+								["Immolate (DoT)"] = {
+									["count"] = 0,
+								},
+								["Immolate"] = {
+									["count"] = 0,
+								},
+								["Shadow Bolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Goldtooth"] = {
+							["Details"] = {
+								["Corruption (DoT)"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 6.43,
+								},
+								["Immolate (DoT)"] = {
+									["count"] = 0,
+								},
+								["Immolate"] = {
+									["count"] = 0,
+								},
+								["Shadow Bolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 6.43,
+						},
+						["Kobold Miner"] = {
+							["Details"] = {
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Corruption (DoT)"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 16.24,
+								},
+								["Curse of Agony (DoT)"] = {
+									["count"] = 0,
+								},
+								["Immolate (DoT)"] = {
+									["count"] = 0,
+								},
+								["Immolate"] = {
+									["count"] = 0,
+								},
+								["Shadow Bolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 16.24,
+						},
+						["Diseased Timber Wolf"] = {
+							["Details"] = {
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Vermin"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ManaGain"] = 0,
+					["HOTs"] = {
+						["Judgement of Light"] = {
+							["Details"] = {
+								["Elgorath"] = {
+									["count"] = 6,
+								},
+							},
+							["amount"] = 6,
+						},
+					},
+					["DispelledWho"] = {
+						["Elgorath"] = {
+							["Details"] = {
+								["Poison (Purify)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+				},
+				["LastFightData"] = {
+					["DOTs"] = {
+						["Immolate (DoT)"] = {
+							["Details"] = {
+								["Mother Fang"] = {
+									["count"] = 0,
+								},
+								["Kobold Tunneler"] = {
+									["count"] = 0,
+								},
+								["Forest Spider"] = {
+									["count"] = 0,
+								},
+								["Kobold Miner"] = {
+									["count"] = 0,
+								},
+								["Gray Forest Wolf"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Corruption (DoT)"] = {
+							["Details"] = {
+								["Stonetusk Boar"] = {
+									["count"] = 0,
+								},
+								["Gray Forest Wolf"] = {
+									["count"] = 0,
+								},
+								["Forest Spider"] = {
+									["count"] = 0,
+								},
+								["Mine Spider"] = {
+									["count"] = 0,
+								},
+								["Kobold Miner"] = {
+									["count"] = 0,
+								},
+								["Kobold Tunneler"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Curse of Agony (DoT)"] = {
+							["Details"] = {
+								["Kobold Miner"] = {
+									["count"] = 0,
+								},
+								["Gray Forest Wolf"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ElementDoneResist"] = {
+						["Shadow"] = 0,
+						["Fire"] = 0,
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 4,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 1,
+								},
+								["Miss"] = {
+									["count"] = 1,
+								},
+								["Dodge"] = {
+									["count"] = 0,
+								},
+								["Crit"] = {
+									["count"] = 0,
+								},
+								["Parry"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 2,
+						},
+						["Nature"] = {
+							["Details"] = {
+								["Tick"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["Damage"] = 202,
+					["RunicPowerGain"] = 0,
+					["ElementTaken"] = {
+						["Melee"] = 4,
+						["Nature"] = 0,
+					},
+					["DOT_Time"] = 0,
+					["ElementTakenBlock"] = {
+					},
+					["ElementDoneAbsorb"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["PartialBlock"] = {
+					},
+					["ElementHitsDone"] = {
+						["Shadow"] = {
+							["Details"] = {
+								["Tick"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 0,
+								},
+								["Crit"] = {
+									["count"] = 0,
+								},
+								["Miss"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Fire"] = {
+							["Details"] = {
+								["Tick"] = {
+									["count"] = 0,
+								},
+								["Crit"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Glancing"] = {
+									["count"] = 2,
+								},
+								["Hit"] = {
+									["count"] = 0,
+								},
+								["Dodge"] = {
+									["count"] = 0,
+								},
+								["Crit"] = {
+									["count"] = 0,
+								},
+								["Parry"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 2,
+						},
+						["Holy"] = {
+							["Details"] = {
+								["Crit"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 2,
+								},
+							},
+							["amount"] = 2,
+						},
+					},
+					["FAttacks"] = {
+					},
+					["HealingTaken"] = 4,
+					["ElementDone"] = {
+						["Fire"] = 0,
+						["Shadow"] = 0,
+						["Melee"] = 184,
+						["Holy"] = 18,
+					},
+					["DamagedWho"] = {
+						["Mother Fang"] = {
+							["Details"] = {
+								["Immolate (DoT)"] = {
+									["count"] = 0,
+								},
+								["Immolate"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Tunneler"] = {
+							["Details"] = {
+								["Corruption (DoT)"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 184,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 18,
+								},
+								["Immolate (DoT)"] = {
+									["count"] = 0,
+								},
+								["Immolate"] = {
+									["count"] = 0,
+								},
+								["Shadow Bolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 202,
+						},
+						["Forest Spider"] = {
+							["Details"] = {
+								["Corruption (DoT)"] = {
+									["count"] = 0,
+								},
+								["Immolate (DoT)"] = {
+									["count"] = 0,
+								},
+								["Immolate"] = {
+									["count"] = 0,
+								},
+								["Shadow Bolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Mine Spider"] = {
+							["Details"] = {
+								["Corruption (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Diseased Young Wolf"] = {
+							["Details"] = {
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Diseased Timber Wolf"] = {
+							["Details"] = {
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Gray Forest Wolf"] = {
+							["Details"] = {
+								["Corruption (DoT)"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Curse of Agony (DoT)"] = {
+									["count"] = 0,
+								},
+								["Immolate (DoT)"] = {
+									["count"] = 0,
+								},
+								["Immolate"] = {
+									["count"] = 0,
+								},
+								["Shadow Bolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Miner"] = {
+							["Details"] = {
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Corruption (DoT)"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Curse of Agony (DoT)"] = {
+									["count"] = 0,
+								},
+								["Immolate (DoT)"] = {
+									["count"] = 0,
+								},
+								["Immolate"] = {
+									["count"] = 0,
+								},
+								["Shadow Bolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Worker"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Stonetusk Boar"] = {
+							["Details"] = {
+								["Corruption (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Defias Thug"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ManaGainedFrom"] = {
+						["Elgorath"] = {
+							["Details"] = {
+								["Life Tap"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["RunicPowerGained"] = {
+					},
+					["WhoDamaged"] = {
+						["Kobold Miner"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Mother Fang"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Mine Spider"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Poison (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Tunneler"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 4,
+								},
+							},
+							["amount"] = 4,
+						},
+						["Forest Spider"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Poison (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Diseased Timber Wolf"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Worker"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Defias Thug"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["CCBroken"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+						["Elgorath"] = {
+							["Details"] = {
+								["Healing Potion"] = {
+									["count"] = 0,
+								},
+								["Swift Hand of Justice"] = {
+									["count"] = 0,
+								},
+								["Judgement of Light"] = {
+									["count"] = 0,
+								},
+								["Holy Strength"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["OverHeals"] = {
+						["Swift Hand of Justice"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 7,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 10,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 10,
+						},
+						["Judgement of Light"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Holy Strength"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["WhoHealed"] = {
+						["Elgorath"] = {
+							["Details"] = {
+								["Healing Potion"] = {
+									["count"] = 0,
+								},
+								["Swift Hand of Justice"] = {
+									["count"] = 4,
+								},
+								["Judgement of Light"] = {
+									["count"] = 0,
+								},
+								["Holy Strength"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 4,
+						},
+					},
+					["HealedWho"] = {
+						["Elgorath"] = {
+							["Details"] = {
+								["Healing Potion"] = {
+									["count"] = 0,
+								},
+								["Swift Hand of Justice"] = {
+									["count"] = 4,
+								},
+								["Judgement of Light"] = {
+									["count"] = 0,
+								},
+								["Holy Strength"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 4,
+						},
+					},
+					["CCBreak"] = 0,
+					["ElementTakenAbsorb"] = {
+					},
+					["PartialAbsorb"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 0,
+						},
+						["Poison (DoT)"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["PartialResist"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 0,
+						},
+						["Poison (DoT)"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["ManaGained"] = {
+						["Life Tap"] = {
+							["Details"] = {
+								["Elgorath"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["Overhealing"] = 10,
+					["TimeSpent"] = {
+						["Mother Fang"] = {
+							["Details"] = {
+								["Immolate (DoT)"] = {
+									["count"] = 0,
+								},
+								["Immolate"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Tunneler"] = {
+							["Details"] = {
+								["Corruption (DoT)"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 6.67,
+								},
+								["Immolate (DoT)"] = {
+									["count"] = 0,
+								},
+								["Immolate"] = {
+									["count"] = 0,
+								},
+								["Shadow Bolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 6.67,
+						},
+						["Forest Spider"] = {
+							["Details"] = {
+								["Corruption (DoT)"] = {
+									["count"] = 0,
+								},
+								["Immolate (DoT)"] = {
+									["count"] = 0,
+								},
+								["Immolate"] = {
+									["count"] = 0,
+								},
+								["Shadow Bolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Mine Spider"] = {
+							["Details"] = {
+								["Corruption (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Diseased Young Wolf"] = {
+							["Details"] = {
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Elgorath"] = {
+							["Details"] = {
+								["Healing Potion"] = {
+									["count"] = 0,
+								},
+								["Swift Hand of Justice"] = {
+									["count"] = 0,
+								},
+								["Judgement of Light"] = {
+									["count"] = 0,
+								},
+								["Holy Strength"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Worker"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Stonetusk Boar"] = {
+							["Details"] = {
+								["Corruption (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Miner"] = {
+							["Details"] = {
+								["Corruption"] = {
+									["count"] = 0,
+								},
+								["Corruption (DoT)"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Immolate"] = {
+									["count"] = 0,
+								},
+								["Shadow Bolt"] = {
+									["count"] = 0,
+								},
+								["Curse of Agony (DoT)"] = {
+									["count"] = 0,
+								},
+								["Immolate (DoT)"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Diseased Timber Wolf"] = {
+							["Details"] = {
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Gray Forest Wolf"] = {
+							["Details"] = {
+								["Corruption (DoT)"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Curse of Agony (DoT)"] = {
+									["count"] = 0,
+								},
+								["Immolate (DoT)"] = {
+									["count"] = 0,
+								},
+								["Immolate"] = {
+									["count"] = 0,
+								},
+								["Shadow Bolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Defias Thug"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["WhoDispelled"] = {
+					},
+					["InterruptData"] = {
+					},
+					["ElementTakenResist"] = {
+					},
+					["Heals"] = {
+						["Healing Potion"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Swift Hand of Justice"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 4,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 4,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 4,
+						},
+						["Judgement of Light"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Holy Strength"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["ActiveTime"] = 6.67,
+					["EnergyGained"] = {
+					},
+					["EnergyGain"] = 0,
+					["Healing"] = 4,
+					["Dispelled"] = 0,
+					["RageGained"] = {
+					},
+					["Attacks"] = {
+						["Corruption"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Corruption (DoT)"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Seal of Righteousness"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 9,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 18,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 18,
+						},
+						["Immolate"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Shadow Bolt"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Miss"] = {
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Curse of Agony (DoT)"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Immolate (DoT)"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Tick"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Glancing"] = {
+									["max"] = 100,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 184,
+								},
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Dodge"] = {
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Parry"] = {
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 184,
+						},
+						["Judgement of Righteousness"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["RageGain"] = 0,
+					["FDamagedWho"] = {
+					},
+					["TimeDamage"] = 6.67,
+					["TimeDamaging"] = {
+						["Mother Fang"] = {
+							["Details"] = {
+								["Immolate (DoT)"] = {
+									["count"] = 0,
+								},
+								["Immolate"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Tunneler"] = {
+							["Details"] = {
+								["Corruption (DoT)"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 6.67,
+								},
+								["Immolate (DoT)"] = {
+									["count"] = 0,
+								},
+								["Immolate"] = {
+									["count"] = 0,
+								},
+								["Shadow Bolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 6.67,
+						},
+						["Forest Spider"] = {
+							["Details"] = {
+								["Corruption (DoT)"] = {
+									["count"] = 0,
+								},
+								["Immolate (DoT)"] = {
+									["count"] = 0,
+								},
+								["Immolate"] = {
+									["count"] = 0,
+								},
+								["Shadow Bolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Mine Spider"] = {
+							["Details"] = {
+								["Corruption (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Diseased Young Wolf"] = {
+							["Details"] = {
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Diseased Timber Wolf"] = {
+							["Details"] = {
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Gray Forest Wolf"] = {
+							["Details"] = {
+								["Corruption (DoT)"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Curse of Agony (DoT)"] = {
+									["count"] = 0,
+								},
+								["Immolate (DoT)"] = {
+									["count"] = 0,
+								},
+								["Immolate"] = {
+									["count"] = 0,
+								},
+								["Shadow Bolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Miner"] = {
+							["Details"] = {
+								["Corruption"] = {
+									["count"] = 0,
+								},
+								["Corruption (DoT)"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Immolate"] = {
+									["count"] = 0,
+								},
+								["Shadow Bolt"] = {
+									["count"] = 0,
+								},
+								["Curse of Agony (DoT)"] = {
+									["count"] = 0,
+								},
+								["Immolate (DoT)"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Worker"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Stonetusk Boar"] = {
+							["Details"] = {
+								["Corruption (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Defias Thug"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ManaGain"] = 0,
+					["HOTs"] = {
+						["Judgement of Light"] = {
+							["Details"] = {
+								["Elgorath"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["Fight1"] = {
+					["DOTs"] = {
+						["Immolate (DoT)"] = {
+							["Details"] = {
+								["Mother Fang"] = {
+									["count"] = 0,
+								},
+								["Kobold Tunneler"] = {
+									["count"] = 0,
+								},
+								["Forest Spider"] = {
+									["count"] = 0,
+								},
+								["Kobold Miner"] = {
+									["count"] = 0,
+								},
+								["Gray Forest Wolf"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Corruption (DoT)"] = {
+							["Details"] = {
+								["Stonetusk Boar"] = {
+									["count"] = 0,
+								},
+								["Gray Forest Wolf"] = {
+									["count"] = 0,
+								},
+								["Forest Spider"] = {
+									["count"] = 0,
+								},
+								["Mine Spider"] = {
+									["count"] = 0,
+								},
+								["Kobold Miner"] = {
+									["count"] = 0,
+								},
+								["Kobold Tunneler"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Curse of Agony (DoT)"] = {
+							["Details"] = {
+								["Kobold Miner"] = {
+									["count"] = 0,
+								},
+								["Gray Forest Wolf"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ElementDoneResist"] = {
+						["Shadow"] = 0,
+						["Fire"] = 0,
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 4,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 1,
+								},
+								["Miss"] = {
+									["count"] = 1,
+								},
+								["Dodge"] = {
+									["count"] = 0,
+								},
+								["Crit"] = {
+									["count"] = 0,
+								},
+								["Parry"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 2,
+						},
+						["Nature"] = {
+							["Details"] = {
+								["Tick"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["Damage"] = 202,
+					["RunicPowerGain"] = 0,
+					["ElementTaken"] = {
+						["Melee"] = 4,
+						["Nature"] = 0,
+					},
+					["DOT_Time"] = 0,
+					["ElementTakenBlock"] = {
+					},
+					["ElementDoneAbsorb"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["PartialBlock"] = {
+					},
+					["ElementHitsDone"] = {
+						["Shadow"] = {
+							["Details"] = {
+								["Tick"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 0,
+								},
+								["Crit"] = {
+									["count"] = 0,
+								},
+								["Miss"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Fire"] = {
+							["Details"] = {
+								["Tick"] = {
+									["count"] = 0,
+								},
+								["Crit"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Glancing"] = {
+									["count"] = 2,
+								},
+								["Hit"] = {
+									["count"] = 0,
+								},
+								["Dodge"] = {
+									["count"] = 0,
+								},
+								["Crit"] = {
+									["count"] = 0,
+								},
+								["Parry"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 2,
+						},
+						["Holy"] = {
+							["Details"] = {
+								["Crit"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 2,
+								},
+							},
+							["amount"] = 2,
+						},
+					},
+					["FAttacks"] = {
+					},
+					["HealingTaken"] = 4,
+					["ElementDone"] = {
+						["Fire"] = 0,
+						["Shadow"] = 0,
+						["Melee"] = 184,
+						["Holy"] = 18,
+					},
+					["DamagedWho"] = {
+						["Mother Fang"] = {
+							["Details"] = {
+								["Immolate (DoT)"] = {
+									["count"] = 0,
+								},
+								["Immolate"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Tunneler"] = {
+							["Details"] = {
+								["Corruption (DoT)"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 184,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 18,
+								},
+								["Immolate (DoT)"] = {
+									["count"] = 0,
+								},
+								["Immolate"] = {
+									["count"] = 0,
+								},
+								["Shadow Bolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 202,
+						},
+						["Forest Spider"] = {
+							["Details"] = {
+								["Corruption (DoT)"] = {
+									["count"] = 0,
+								},
+								["Immolate (DoT)"] = {
+									["count"] = 0,
+								},
+								["Immolate"] = {
+									["count"] = 0,
+								},
+								["Shadow Bolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Mine Spider"] = {
+							["Details"] = {
+								["Corruption (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Diseased Young Wolf"] = {
+							["Details"] = {
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Diseased Timber Wolf"] = {
+							["Details"] = {
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Gray Forest Wolf"] = {
+							["Details"] = {
+								["Corruption (DoT)"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Curse of Agony (DoT)"] = {
+									["count"] = 0,
+								},
+								["Immolate (DoT)"] = {
+									["count"] = 0,
+								},
+								["Immolate"] = {
+									["count"] = 0,
+								},
+								["Shadow Bolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Miner"] = {
+							["Details"] = {
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Corruption (DoT)"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Curse of Agony (DoT)"] = {
+									["count"] = 0,
+								},
+								["Immolate (DoT)"] = {
+									["count"] = 0,
+								},
+								["Immolate"] = {
+									["count"] = 0,
+								},
+								["Shadow Bolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Worker"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Stonetusk Boar"] = {
+							["Details"] = {
+								["Corruption (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Defias Thug"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ManaGainedFrom"] = {
+						["Elgorath"] = {
+							["Details"] = {
+								["Life Tap"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["RunicPowerGained"] = {
+					},
+					["WhoDamaged"] = {
+						["Kobold Miner"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Mother Fang"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Mine Spider"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Poison (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Tunneler"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 4,
+								},
+							},
+							["amount"] = 4,
+						},
+						["Forest Spider"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Poison (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Diseased Timber Wolf"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Worker"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Defias Thug"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["CCBroken"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+						["Elgorath"] = {
+							["Details"] = {
+								["Healing Potion"] = {
+									["count"] = 0,
+								},
+								["Swift Hand of Justice"] = {
+									["count"] = 0,
+								},
+								["Judgement of Light"] = {
+									["count"] = 0,
+								},
+								["Holy Strength"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["OverHeals"] = {
+						["Swift Hand of Justice"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 7,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 10,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 10,
+						},
+						["Judgement of Light"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Holy Strength"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["WhoHealed"] = {
+						["Elgorath"] = {
+							["Details"] = {
+								["Healing Potion"] = {
+									["count"] = 0,
+								},
+								["Swift Hand of Justice"] = {
+									["count"] = 4,
+								},
+								["Judgement of Light"] = {
+									["count"] = 0,
+								},
+								["Holy Strength"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 4,
+						},
+					},
+					["HealedWho"] = {
+						["Elgorath"] = {
+							["Details"] = {
+								["Healing Potion"] = {
+									["count"] = 0,
+								},
+								["Swift Hand of Justice"] = {
+									["count"] = 4,
+								},
+								["Judgement of Light"] = {
+									["count"] = 0,
+								},
+								["Holy Strength"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 4,
+						},
+					},
+					["CCBreak"] = 0,
+					["ElementTakenAbsorb"] = {
+					},
+					["PartialAbsorb"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 0,
+						},
+						["Poison (DoT)"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["PartialResist"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 0,
+						},
+						["Poison (DoT)"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["ManaGained"] = {
+						["Life Tap"] = {
+							["Details"] = {
+								["Elgorath"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["Overhealing"] = 10,
+					["TimeSpent"] = {
+						["Mother Fang"] = {
+							["Details"] = {
+								["Immolate (DoT)"] = {
+									["count"] = 0,
+								},
+								["Immolate"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Tunneler"] = {
+							["Details"] = {
+								["Corruption (DoT)"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 6.67,
+								},
+								["Immolate (DoT)"] = {
+									["count"] = 0,
+								},
+								["Immolate"] = {
+									["count"] = 0,
+								},
+								["Shadow Bolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 6.67,
+						},
+						["Forest Spider"] = {
+							["Details"] = {
+								["Corruption (DoT)"] = {
+									["count"] = 0,
+								},
+								["Immolate (DoT)"] = {
+									["count"] = 0,
+								},
+								["Immolate"] = {
+									["count"] = 0,
+								},
+								["Shadow Bolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Mine Spider"] = {
+							["Details"] = {
+								["Corruption (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Diseased Young Wolf"] = {
+							["Details"] = {
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Elgorath"] = {
+							["Details"] = {
+								["Healing Potion"] = {
+									["count"] = 0,
+								},
+								["Swift Hand of Justice"] = {
+									["count"] = 0,
+								},
+								["Judgement of Light"] = {
+									["count"] = 0,
+								},
+								["Holy Strength"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Worker"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Stonetusk Boar"] = {
+							["Details"] = {
+								["Corruption (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Miner"] = {
+							["Details"] = {
+								["Corruption"] = {
+									["count"] = 0,
+								},
+								["Corruption (DoT)"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Immolate"] = {
+									["count"] = 0,
+								},
+								["Shadow Bolt"] = {
+									["count"] = 0,
+								},
+								["Curse of Agony (DoT)"] = {
+									["count"] = 0,
+								},
+								["Immolate (DoT)"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Diseased Timber Wolf"] = {
+							["Details"] = {
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Gray Forest Wolf"] = {
+							["Details"] = {
+								["Corruption (DoT)"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Curse of Agony (DoT)"] = {
+									["count"] = 0,
+								},
+								["Immolate (DoT)"] = {
+									["count"] = 0,
+								},
+								["Immolate"] = {
+									["count"] = 0,
+								},
+								["Shadow Bolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Defias Thug"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["WhoDispelled"] = {
+					},
+					["InterruptData"] = {
+					},
+					["ElementTakenResist"] = {
+					},
+					["Heals"] = {
+						["Healing Potion"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Swift Hand of Justice"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 4,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 4,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 4,
+						},
+						["Judgement of Light"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Holy Strength"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["ActiveTime"] = 6.67,
+					["EnergyGained"] = {
+					},
+					["EnergyGain"] = 0,
+					["Healing"] = 4,
+					["Dispelled"] = 0,
+					["RageGained"] = {
+					},
+					["Attacks"] = {
+						["Corruption"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Corruption (DoT)"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Seal of Righteousness"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 9,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 18,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 18,
+						},
+						["Immolate"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Shadow Bolt"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Miss"] = {
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Curse of Agony (DoT)"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Immolate (DoT)"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Tick"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Glancing"] = {
+									["max"] = 100,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 184,
+								},
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Dodge"] = {
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Parry"] = {
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 184,
+						},
+						["Judgement of Righteousness"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["RageGain"] = 0,
+					["FDamagedWho"] = {
+					},
+					["TimeDamage"] = 6.67,
+					["TimeDamaging"] = {
+						["Mother Fang"] = {
+							["Details"] = {
+								["Immolate (DoT)"] = {
+									["count"] = 0,
+								},
+								["Immolate"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Tunneler"] = {
+							["Details"] = {
+								["Corruption (DoT)"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 6.67,
+								},
+								["Immolate (DoT)"] = {
+									["count"] = 0,
+								},
+								["Immolate"] = {
+									["count"] = 0,
+								},
+								["Shadow Bolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 6.67,
+						},
+						["Forest Spider"] = {
+							["Details"] = {
+								["Corruption (DoT)"] = {
+									["count"] = 0,
+								},
+								["Immolate (DoT)"] = {
+									["count"] = 0,
+								},
+								["Immolate"] = {
+									["count"] = 0,
+								},
+								["Shadow Bolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Mine Spider"] = {
+							["Details"] = {
+								["Corruption (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Diseased Young Wolf"] = {
+							["Details"] = {
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Diseased Timber Wolf"] = {
+							["Details"] = {
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Gray Forest Wolf"] = {
+							["Details"] = {
+								["Corruption (DoT)"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Curse of Agony (DoT)"] = {
+									["count"] = 0,
+								},
+								["Immolate (DoT)"] = {
+									["count"] = 0,
+								},
+								["Immolate"] = {
+									["count"] = 0,
+								},
+								["Shadow Bolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Miner"] = {
+							["Details"] = {
+								["Corruption"] = {
+									["count"] = 0,
+								},
+								["Corruption (DoT)"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Immolate"] = {
+									["count"] = 0,
+								},
+								["Shadow Bolt"] = {
+									["count"] = 0,
+								},
+								["Curse of Agony (DoT)"] = {
+									["count"] = 0,
+								},
+								["Immolate (DoT)"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Worker"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Stonetusk Boar"] = {
+							["Details"] = {
+								["Corruption (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Defias Thug"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ManaGain"] = 0,
+					["HOTs"] = {
+						["Judgement of Light"] = {
+							["Details"] = {
+								["Elgorath"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["DispelledWho"] = {
+					},
+				},
 				["OverallData"] = {
 					["DOTs"] = {
 						["Corruption (DoT)"] = {
@@ -239,14 +9610,14 @@ RecountPerCharDB = {
 								["Kobold Miner"] = {
 									["count"] = 405,
 								},
-								["Defias Cutpurse"] = {
-									["count"] = 24,
+								["Mine Spider"] = {
+									["count"] = 12,
 								},
 								["Gray Forest Wolf"] = {
 									["count"] = 18,
 								},
-								["Mine Spider"] = {
-									["count"] = 12,
+								["Defias Cutpurse"] = {
+									["count"] = 24,
 								},
 							},
 							["amount"] = 882,
@@ -283,11 +9654,11 @@ RecountPerCharDB = {
 								["Kobold Miner"] = {
 									["count"] = 378,
 								},
-								["Defias Cutpurse"] = {
-									["count"] = 21,
-								},
 								["Gray Forest Wolf"] = {
 									["count"] = 18,
+								},
+								["Defias Cutpurse"] = {
+									["count"] = 21,
 								},
 							},
 							["amount"] = 771,
@@ -311,24 +9682,10 @@ RecountPerCharDB = {
 						},
 					},
 					["ElementDoneResist"] = {
-						["Fire"] = 615,
 						["Shadow"] = 57,
+						["Fire"] = 615,
 					},
 					["ElementHitsTaken"] = {
-						["Physical"] = {
-							["Details"] = {
-								["Parry"] = {
-									["count"] = 1,
-								},
-								["Miss"] = {
-									["count"] = 5,
-								},
-								["Hit"] = {
-									["count"] = 2,
-								},
-							},
-							["amount"] = 8,
-						},
 						["Fire"] = {
 							["Details"] = {
 								["Hit"] = {
@@ -337,13 +9694,27 @@ RecountPerCharDB = {
 							},
 							["amount"] = 3,
 						},
-						["Melee"] = {
+						["Physical"] = {
 							["Details"] = {
 								["Hit"] = {
-									["count"] = 860,
+									["count"] = 2,
 								},
 								["Miss"] = {
+									["count"] = 5,
+								},
+								["Parry"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 8,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Miss"] = {
 									["count"] = 54,
+								},
+								["Hit"] = {
+									["count"] = 860,
 								},
 								["Crushing"] = {
 									["count"] = 5,
@@ -407,8 +9778,8 @@ RecountPerCharDB = {
 					["DeathCount"] = 1,
 					["Overhealing"] = 4201,
 					["ElementTaken"] = {
-						["Physical"] = 34,
 						["Fire"] = 116,
+						["Physical"] = 34,
 						["Melee"] = 4291,
 						["Nature"] = 76,
 					},
@@ -417,12 +9788,32 @@ RecountPerCharDB = {
 					["TimeHeal"] = 84.96000000000001,
 					["Dispels"] = 1,
 					["ElementDone"] = {
-						["Fire"] = 1525,
-						["Holy"] = 8799,
-						["Melee"] = 35005,
 						["Shadow"] = 7381,
+						["Fire"] = 1525,
+						["Melee"] = 35005,
+						["Holy"] = 8799,
 					},
 					["ElementHitsDone"] = {
+						["Shadow"] = {
+							["Details"] = {
+								["Tick"] = {
+									["count"] = 368,
+								},
+								["Miss"] = {
+									["count"] = 10,
+								},
+								["Hit"] = {
+									["count"] = 146,
+								},
+								["Crit"] = {
+									["count"] = 9,
+								},
+								["Evade"] = {
+									["count"] = 2,
+								},
+							},
+							["amount"] = 535,
+						},
 						["Fire"] = {
 							["Details"] = {
 								["Hit"] = {
@@ -442,17 +9833,6 @@ RecountPerCharDB = {
 								},
 							},
 							["amount"] = 364,
-						},
-						["Holy"] = {
-							["Details"] = {
-								["Crit"] = {
-									["count"] = 46,
-								},
-								["Hit"] = {
-									["count"] = 527,
-								},
-							},
-							["amount"] = 573,
 						},
 						["Melee"] = {
 							["Details"] = {
@@ -474,25 +9854,16 @@ RecountPerCharDB = {
 							},
 							["amount"] = 473,
 						},
-						["Shadow"] = {
+						["Holy"] = {
 							["Details"] = {
-								["Tick"] = {
-									["count"] = 368,
-								},
-								["Miss"] = {
-									["count"] = 10,
+								["Crit"] = {
+									["count"] = 46,
 								},
 								["Hit"] = {
-									["count"] = 146,
-								},
-								["Crit"] = {
-									["count"] = 9,
-								},
-								["Evade"] = {
-									["count"] = 2,
+									["count"] = 527,
 								},
 							},
-							["amount"] = 535,
+							["amount"] = 573,
 						},
 					},
 					["WhoDamaged"] = {
@@ -788,18 +10159,6 @@ RecountPerCharDB = {
 							["count"] = 2,
 							["amount"] = 0,
 						},
-						["Pierce Armor"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 6,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 6,
-							["amount"] = 0,
-						},
 						["Fireball"] = {
 							["Details"] = {
 								["No Resist"] = {
@@ -810,6 +10169,18 @@ RecountPerCharDB = {
 								},
 							},
 							["count"] = 3,
+							["amount"] = 0,
+						},
+						["Pierce Armor"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 6,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 6,
 							["amount"] = 0,
 						},
 					},
@@ -860,18 +10231,6 @@ RecountPerCharDB = {
 							["count"] = 2,
 							["amount"] = 0,
 						},
-						["Pierce Armor"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 6,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 6,
-							["amount"] = 0,
-						},
 						["Fireball"] = {
 							["Details"] = {
 								["No Absorb"] = {
@@ -882,6 +10241,18 @@ RecountPerCharDB = {
 								},
 							},
 							["count"] = 3,
+							["amount"] = 0,
+						},
+						["Pierce Armor"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 6,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 6,
 							["amount"] = 0,
 						},
 					},
@@ -965,348 +10336,14 @@ RecountPerCharDB = {
 							["amount"] = 141,
 						},
 					},
-					["DamagedWho"] = {
-						["Mother Fang"] = {
+					["ManaGainedFrom"] = {
+						["Elgorath"] = {
 							["Details"] = {
-								["Immolate (DoT)"] = {
-									["count"] = 22,
-								},
-								["Immolate"] = {
-									["count"] = 8,
-								},
-								["Melee"] = {
-									["count"] = 6,
+								["Life Tap"] = {
+									["count"] = 228,
 								},
 							},
-							["amount"] = 36,
-						},
-						["Kobold Tunneler"] = {
-							["Details"] = {
-								["Corruption (DoT)"] = {
-									["count"] = 750,
-								},
-								["Melee"] = {
-									["count"] = 13575,
-								},
-								["Shadow Bolt"] = {
-									["count"] = 1162,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 1821,
-								},
-								["Immolate (DoT)"] = {
-									["count"] = 165,
-								},
-								["Immolate"] = {
-									["count"] = 169,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 1576,
-								},
-							},
-							["amount"] = 19218,
-						},
-						["Forest Spider"] = {
-							["Details"] = {
-								["Corruption (DoT)"] = {
-									["count"] = 120,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 44,
-								},
-								["Melee"] = {
-									["count"] = 244,
-								},
-								["Immolate (DoT)"] = {
-									["count"] = 20,
-								},
-								["Immolate"] = {
-									["count"] = 54,
-								},
-								["Shadow Bolt"] = {
-									["count"] = 189,
-								},
-							},
-							["amount"] = 671,
-						},
-						["Mine Spider"] = {
-							["Details"] = {
-								["Corruption (DoT)"] = {
-									["count"] = 40,
-								},
-							},
-							["amount"] = 40,
-						},
-						["Narg the Taskmaster"] = {
-							["Details"] = {
-								["Corruption (DoT)"] = {
-									["count"] = 35,
-								},
-								["Melee"] = {
-									["count"] = 5,
-								},
-								["Immolate (DoT)"] = {
-									["count"] = 20,
-								},
-								["Immolate"] = {
-									["count"] = 10,
-								},
-								["Shadow Bolt"] = {
-									["count"] = 120,
-								},
-							},
-							["amount"] = 190,
-						},
-						["Kobold Geomancer"] = {
-							["Details"] = {
-								["Corruption (DoT)"] = {
-									["count"] = 80,
-								},
-								["Melee"] = {
-									["count"] = 14,
-								},
-								["Shadow Bolt"] = {
-									["count"] = 79,
-								},
-								["Immolate (DoT)"] = {
-									["count"] = 26,
-								},
-								["Immolate"] = {
-									["count"] = 24,
-								},
-								["Curse of Agony (DoT)"] = {
-									["count"] = 61,
-								},
-							},
-							["amount"] = 284,
-						},
-						["Goldtooth"] = {
-							["Details"] = {
-								["Corruption (DoT)"] = {
-									["count"] = 48,
-								},
-								["Melee"] = {
-									["count"] = 1283,
-								},
-								["Shadow Bolt"] = {
-									["count"] = 103,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 239,
-								},
-								["Immolate (DoT)"] = {
-									["count"] = 19,
-								},
-								["Immolate"] = {
-									["count"] = 13,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 88,
-								},
-							},
-							["amount"] = 1793,
-						},
-						["Stonetusk Boar"] = {
-							["Details"] = {
-								["Corruption (DoT)"] = {
-									["count"] = 70,
-								},
-								["Melee"] = {
-									["count"] = 15,
-								},
-								["Immolate (DoT)"] = {
-									["count"] = 16,
-								},
-								["Immolate"] = {
-									["count"] = 22,
-								},
-								["Shadow Bolt"] = {
-									["count"] = 50,
-								},
-							},
-							["amount"] = 173,
-						},
-						["Defias Thug"] = {
-							["Details"] = {
-								["Seal of Righteousness"] = {
-									["count"] = 98,
-								},
-								["Melee"] = {
-									["count"] = 989,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 80,
-								},
-							},
-							["amount"] = 1167,
-						},
-						["Mangy Wolf"] = {
-							["Details"] = {
-								["Corruption (DoT)"] = {
-									["count"] = 190,
-								},
-								["Melee"] = {
-									["count"] = 248,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 22,
-								},
-								["Immolate (DoT)"] = {
-									["count"] = 44,
-								},
-								["Immolate"] = {
-									["count"] = 32,
-								},
-								["Curse of Agony (DoT)"] = {
-									["count"] = 40,
-								},
-							},
-							["amount"] = 576,
-						},
-						["Diseased Young Wolf"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 703,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 71,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 21,
-								},
-							},
-							["amount"] = 795,
-						},
-						["Defias Cutpurse"] = {
-							["Details"] = {
-								["Corruption (DoT)"] = {
-									["count"] = 80,
-								},
-								["Melee"] = {
-									["count"] = 250,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 27,
-								},
-								["Immolate (DoT)"] = {
-									["count"] = 28,
-								},
-								["Immolate"] = {
-									["count"] = 25,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 42,
-								},
-							},
-							["amount"] = 452,
-						},
-						["Murloc"] = {
-							["Details"] = {
-								["Corruption (DoT)"] = {
-									["count"] = 110,
-								},
-								["Melee"] = {
-									["count"] = 4,
-								},
-								["Immolate (DoT)"] = {
-									["count"] = 46,
-								},
-								["Immolate"] = {
-									["count"] = 43,
-								},
-								["Shadow Bolt"] = {
-									["count"] = 212,
-								},
-							},
-							["amount"] = 415,
-						},
-						["Gray Forest Wolf"] = {
-							["Details"] = {
-								["Corruption (DoT)"] = {
-									["count"] = 60,
-								},
-								["Melee"] = {
-									["count"] = 22,
-								},
-								["Shadow Bolt"] = {
-									["count"] = 74,
-								},
-								["Immolate (DoT)"] = {
-									["count"] = 24,
-								},
-								["Immolate"] = {
-									["count"] = 37,
-								},
-								["Curse of Agony (DoT)"] = {
-									["count"] = 21,
-								},
-							},
-							["amount"] = 238,
-						},
-						["Kobold Miner"] = {
-							["Details"] = {
-								["Shadow Bolt"] = {
-									["count"] = 2202,
-								},
-								["Corruption (DoT)"] = {
-									["count"] = 1333,
-								},
-								["Melee"] = {
-									["count"] = 15225,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 2334,
-								},
-								["Curse of Agony (DoT)"] = {
-									["count"] = 152,
-								},
-								["Immolate (DoT)"] = {
-									["count"] = 351,
-								},
-								["Immolate"] = {
-									["count"] = 307,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 2050,
-								},
-							},
-							["amount"] = 23954,
-						},
-						["Kobold Worker"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 1459,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 140,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 80,
-								},
-							},
-							["amount"] = 1679,
-						},
-						["Diseased Timber Wolf"] = {
-							["Details"] = {
-								["Seal of Righteousness"] = {
-									["count"] = 26,
-								},
-								["Melee"] = {
-									["count"] = 331,
-								},
-							},
-							["amount"] = 357,
-						},
-						["Kobold Vermin"] = {
-							["Details"] = {
-								["Seal of Righteousness"] = {
-									["count"] = 40,
-								},
-								["Melee"] = {
-									["count"] = 632,
-								},
-							},
-							["amount"] = 672,
+							["amount"] = 228,
 						},
 					},
 					["HOTs"] = {
@@ -1340,16 +10377,407 @@ RecountPerCharDB = {
 							["amount"] = 1967,
 						},
 					},
-					["DamageTaken"] = 4517,
+					["TimeSpent"] = {
+						["Mother Fang"] = {
+							["Details"] = {
+								["Immolate (DoT)"] = {
+									["count"] = 13.6,
+								},
+								["Immolate"] = {
+									["count"] = 3.5,
+								},
+								["Melee"] = {
+									["count"] = 3.5,
+								},
+							},
+							["amount"] = 20.6,
+						},
+						["Kobold Tunneler"] = {
+							["Details"] = {
+								["Corruption"] = {
+									["count"] = 2.71,
+								},
+								["Corruption (DoT)"] = {
+									["count"] = 59.89000000000002,
+								},
+								["Melee"] = {
+									["count"] = 98.77000000000002,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 400.2700000000001,
+								},
+								["Immolate (DoT)"] = {
+									["count"] = 111.86,
+								},
+								["Immolate"] = {
+									["count"] = 64.22,
+								},
+								["Shadow Bolt"] = {
+									["count"] = 56.36000000000001,
+								},
+							},
+							["amount"] = 794.0799999999994,
+						},
+						["Forest Spider"] = {
+							["Details"] = {
+								["Corruption (DoT)"] = {
+									["count"] = 17.32,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 7,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Immolate (DoT)"] = {
+									["count"] = 7.62,
+								},
+								["Immolate"] = {
+									["count"] = 11.59,
+								},
+								["Shadow Bolt"] = {
+									["count"] = 10.05,
+								},
+							},
+							["amount"] = 53.58,
+						},
+						["Mine Spider"] = {
+							["Details"] = {
+								["Corruption (DoT)"] = {
+									["count"] = 1.41,
+								},
+							},
+							["amount"] = 1.41,
+						},
+						["Narg the Taskmaster"] = {
+							["Details"] = {
+								["Corruption"] = {
+									["count"] = 0,
+								},
+								["Corruption (DoT)"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 2.71,
+								},
+								["Immolate (DoT)"] = {
+									["count"] = 3.89,
+								},
+								["Immolate"] = {
+									["count"] = 7,
+								},
+								["Shadow Bolt"] = {
+									["count"] = 11.9,
+								},
+							},
+							["amount"] = 25.5,
+						},
+						["Kobold Geomancer"] = {
+							["Details"] = {
+								["Corruption (DoT)"] = {
+									["count"] = 0.19,
+								},
+								["Melee"] = {
+									["count"] = 1.75,
+								},
+								["Curse of Agony (DoT)"] = {
+									["count"] = 20.17,
+								},
+								["Immolate (DoT)"] = {
+									["count"] = 9.15,
+								},
+								["Immolate"] = {
+									["count"] = 4.09,
+								},
+								["Shadow Bolt"] = {
+									["count"] = 4.44,
+								},
+							},
+							["amount"] = 39.79000000000001,
+						},
+						["Goldtooth"] = {
+							["Details"] = {
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Corruption (DoT)"] = {
+									["count"] = 2.82,
+								},
+								["Curse of Weakness"] = {
+									["count"] = 1.61,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 51.38999999999999,
+								},
+								["Melee"] = {
+									["count"] = 2.28,
+								},
+								["Immolate (DoT)"] = {
+									["count"] = 5.359999999999999,
+								},
+								["Immolate"] = {
+									["count"] = 6.29,
+								},
+								["Shadow Bolt"] = {
+									["count"] = 11.33,
+								},
+							},
+							["amount"] = 81.07999999999998,
+						},
+						["Stonetusk Boar"] = {
+							["Details"] = {
+								["Corruption (DoT)"] = {
+									["count"] = 14.95,
+								},
+								["Melee"] = {
+									["count"] = 5.66,
+								},
+								["Immolate (DoT)"] = {
+									["count"] = 1.31,
+								},
+								["Immolate"] = {
+									["count"] = 4,
+								},
+								["Shadow Bolt"] = {
+									["count"] = 6.789999999999999,
+								},
+							},
+							["amount"] = 32.71,
+						},
+						["Sandler"] = {
+							["Details"] = {
+								["Holy Light"] = {
+									["count"] = 3.5,
+								},
+							},
+							["amount"] = 3.5,
+						},
+						["Defias Thug"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0.38,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 34.89,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 35.27,
+						},
+						["Mangy Wolf"] = {
+							["Details"] = {
+								["Corruption (DoT)"] = {
+									["count"] = 24.88,
+								},
+								["Melee"] = {
+									["count"] = 10.46,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 10.27,
+								},
+								["Immolate (DoT)"] = {
+									["count"] = 12.47,
+								},
+								["Immolate"] = {
+									["count"] = 6.22,
+								},
+								["Curse of Agony (DoT)"] = {
+									["count"] = 10.74,
+								},
+							},
+							["amount"] = 75.04000000000001,
+						},
+						["Diseased Young Wolf"] = {
+							["Details"] = {
+								["Seal of Righteousness"] = {
+									["count"] = 46.25,
+								},
+								["Melee"] = {
+									["count"] = 2.7,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 48.95,
+						},
+						["Defias Cutpurse"] = {
+							["Details"] = {
+								["Corruption (DoT)"] = {
+									["count"] = 3.33,
+								},
+								["Melee"] = {
+									["count"] = 7.220000000000001,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 7.44,
+								},
+								["Immolate (DoT)"] = {
+									["count"] = 11.37,
+								},
+								["Immolate"] = {
+									["count"] = 7,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 36.36,
+						},
+						["Murloc"] = {
+							["Details"] = {
+								["Corruption"] = {
+									["count"] = 0.08,
+								},
+								["Corruption (DoT)"] = {
+									["count"] = 15.44,
+								},
+								["Melee"] = {
+									["count"] = 2.66,
+								},
+								["Immolate (DoT)"] = {
+									["count"] = 17.77,
+								},
+								["Immolate"] = {
+									["count"] = 15.17,
+								},
+								["Shadow Bolt"] = {
+									["count"] = 13.51,
+								},
+							},
+							["amount"] = 64.63,
+						},
+						["Cytrex"] = {
+							["Details"] = {
+								["Holy Light"] = {
+									["count"] = 3.5,
+								},
+							},
+							["amount"] = 3.5,
+						},
+						["Diseased Timber Wolf"] = {
+							["Details"] = {
+								["Seal of Righteousness"] = {
+									["count"] = 17.5,
+								},
+								["Melee"] = {
+									["count"] = 0.01,
+								},
+							},
+							["amount"] = 17.51,
+						},
+						["Gray Forest Wolf"] = {
+							["Details"] = {
+								["Corruption (DoT)"] = {
+									["count"] = 0.3400000000000001,
+								},
+								["Melee"] = {
+									["count"] = 6.16,
+								},
+								["Curse of Agony (DoT)"] = {
+									["count"] = 8.590000000000002,
+								},
+								["Immolate (DoT)"] = {
+									["count"] = 4.45,
+								},
+								["Immolate"] = {
+									["count"] = 1.82,
+								},
+								["Shadow Bolt"] = {
+									["count"] = 10.5,
+								},
+							},
+							["amount"] = 31.86000000000001,
+						},
+						["Elgorath"] = {
+							["Details"] = {
+								["Healing Potion"] = {
+									["count"] = 2.48,
+								},
+								["Swift Hand of Justice"] = {
+									["count"] = 75.48,
+								},
+								["Judgement of Light"] = {
+									["count"] = 0,
+								},
+								["Holy Strength"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 77.96000000000001,
+						},
+						["Kobold Worker"] = {
+							["Details"] = {
+								["Seal of Righteousness"] = {
+									["count"] = 63.34,
+								},
+								["Melee"] = {
+									["count"] = 3.399999999999999,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 66.74,
+						},
+						["Kobold Miner"] = {
+							["Details"] = {
+								["Corruption"] = {
+									["count"] = 7.42,
+								},
+								["Corruption (DoT)"] = {
+									["count"] = 65.05000000000004,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 429.9000000000002,
+								},
+								["Immolate"] = {
+									["count"] = 115.86,
+								},
+								["Shadow Bolt"] = {
+									["count"] = 139.34,
+								},
+								["Curse of Agony (DoT)"] = {
+									["count"] = 46.43,
+								},
+								["Immolate (DoT)"] = {
+									["count"] = 174.88,
+								},
+								["Melee"] = {
+									["count"] = 134.9,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 1113.779999999999,
+						},
+						["Kobold Vermin"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 14.02,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 27.19,
+								},
+							},
+							["amount"] = 41.21,
+						},
+					},
 					["Attacks"] = {
 						["Corruption"] = {
 							["Details"] = {
-								["Miss"] = {
-									["count"] = 5,
-									["amount"] = 0,
-								},
 								["Evade"] = {
 									["count"] = 1,
+									["amount"] = 0,
+								},
+								["Miss"] = {
+									["count"] = 5,
 									["amount"] = 0,
 								},
 							},
@@ -1408,11 +10836,9 @@ RecountPerCharDB = {
 						},
 						["Immolate"] = {
 							["Details"] = {
-								["Hit"] = {
-									["max"] = 11,
-									["min"] = 4,
-									["count"] = 93,
-									["amount"] = 663,
+								["Evade"] = {
+									["count"] = 1,
+									["amount"] = 0,
 								},
 								["Miss"] = {
 									["count"] = 6,
@@ -1424,9 +10850,11 @@ RecountPerCharDB = {
 									["count"] = 7,
 									["amount"] = 81,
 								},
-								["Evade"] = {
-									["count"] = 1,
-									["amount"] = 0,
+								["Hit"] = {
+									["max"] = 11,
+									["min"] = 4,
+									["count"] = 93,
+									["amount"] = 663,
 								},
 							},
 							["count"] = 107,
@@ -1434,11 +10862,9 @@ RecountPerCharDB = {
 						},
 						["Shadow Bolt"] = {
 							["Details"] = {
-								["Hit"] = {
-									["max"] = 31,
-									["min"] = 20,
-									["count"] = 146,
-									["amount"] = 3847,
+								["Evade"] = {
+									["count"] = 1,
+									["amount"] = 0,
 								},
 								["Miss"] = {
 									["count"] = 4,
@@ -1450,9 +10876,11 @@ RecountPerCharDB = {
 									["count"] = 9,
 									["amount"] = 344,
 								},
-								["Evade"] = {
-									["count"] = 1,
-									["amount"] = 0,
+								["Hit"] = {
+									["max"] = 31,
+									["min"] = 20,
+									["count"] = 146,
+									["amount"] = 3847,
 								},
 							},
 							["count"] = 160,
@@ -1530,398 +10958,7 @@ RecountPerCharDB = {
 						},
 					},
 					["HealingTaken"] = 1967,
-					["TimeSpent"] = {
-						["Mother Fang"] = {
-							["Details"] = {
-								["Immolate (DoT)"] = {
-									["count"] = 13.6,
-								},
-								["Immolate"] = {
-									["count"] = 3.5,
-								},
-								["Melee"] = {
-									["count"] = 3.5,
-								},
-							},
-							["amount"] = 20.6,
-						},
-						["Kobold Tunneler"] = {
-							["Details"] = {
-								["Corruption"] = {
-									["count"] = 2.71,
-								},
-								["Corruption (DoT)"] = {
-									["count"] = 59.89000000000002,
-								},
-								["Melee"] = {
-									["count"] = 98.77000000000002,
-								},
-								["Shadow Bolt"] = {
-									["count"] = 56.36000000000001,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 400.2700000000001,
-								},
-								["Immolate (DoT)"] = {
-									["count"] = 111.86,
-								},
-								["Immolate"] = {
-									["count"] = 64.22,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 794.0799999999994,
-						},
-						["Forest Spider"] = {
-							["Details"] = {
-								["Corruption (DoT)"] = {
-									["count"] = 17.32,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 7,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Immolate (DoT)"] = {
-									["count"] = 7.62,
-								},
-								["Immolate"] = {
-									["count"] = 11.59,
-								},
-								["Shadow Bolt"] = {
-									["count"] = 10.05,
-								},
-							},
-							["amount"] = 53.58,
-						},
-						["Mine Spider"] = {
-							["Details"] = {
-								["Corruption (DoT)"] = {
-									["count"] = 1.41,
-								},
-							},
-							["amount"] = 1.41,
-						},
-						["Narg the Taskmaster"] = {
-							["Details"] = {
-								["Corruption"] = {
-									["count"] = 0,
-								},
-								["Corruption (DoT)"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 2.71,
-								},
-								["Immolate (DoT)"] = {
-									["count"] = 3.89,
-								},
-								["Immolate"] = {
-									["count"] = 7,
-								},
-								["Shadow Bolt"] = {
-									["count"] = 11.9,
-								},
-							},
-							["amount"] = 25.5,
-						},
-						["Kobold Geomancer"] = {
-							["Details"] = {
-								["Corruption (DoT)"] = {
-									["count"] = 0.19,
-								},
-								["Melee"] = {
-									["count"] = 1.75,
-								},
-								["Shadow Bolt"] = {
-									["count"] = 4.44,
-								},
-								["Immolate (DoT)"] = {
-									["count"] = 9.15,
-								},
-								["Immolate"] = {
-									["count"] = 4.09,
-								},
-								["Curse of Agony (DoT)"] = {
-									["count"] = 20.17,
-								},
-							},
-							["amount"] = 39.79000000000001,
-						},
-						["Goldtooth"] = {
-							["Details"] = {
-								["Shadow Bolt"] = {
-									["count"] = 11.33,
-								},
-								["Corruption (DoT)"] = {
-									["count"] = 2.82,
-								},
-								["Curse of Weakness"] = {
-									["count"] = 1.61,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 51.38999999999999,
-								},
-								["Melee"] = {
-									["count"] = 2.28,
-								},
-								["Immolate (DoT)"] = {
-									["count"] = 5.359999999999999,
-								},
-								["Immolate"] = {
-									["count"] = 6.29,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 81.07999999999998,
-						},
-						["Stonetusk Boar"] = {
-							["Details"] = {
-								["Corruption (DoT)"] = {
-									["count"] = 14.95,
-								},
-								["Melee"] = {
-									["count"] = 5.66,
-								},
-								["Immolate (DoT)"] = {
-									["count"] = 1.31,
-								},
-								["Immolate"] = {
-									["count"] = 4,
-								},
-								["Shadow Bolt"] = {
-									["count"] = 6.789999999999999,
-								},
-							},
-							["amount"] = 32.71,
-						},
-						["Sandler"] = {
-							["Details"] = {
-								["Holy Light"] = {
-									["count"] = 3.5,
-								},
-							},
-							["amount"] = 3.5,
-						},
-						["Defias Thug"] = {
-							["Details"] = {
-								["Seal of Righteousness"] = {
-									["count"] = 34.89,
-								},
-								["Melee"] = {
-									["count"] = 0.38,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 35.27,
-						},
-						["Mangy Wolf"] = {
-							["Details"] = {
-								["Corruption (DoT)"] = {
-									["count"] = 24.88,
-								},
-								["Melee"] = {
-									["count"] = 10.46,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 10.27,
-								},
-								["Immolate (DoT)"] = {
-									["count"] = 12.47,
-								},
-								["Immolate"] = {
-									["count"] = 6.22,
-								},
-								["Curse of Agony (DoT)"] = {
-									["count"] = 10.74,
-								},
-							},
-							["amount"] = 75.04000000000001,
-						},
-						["Diseased Young Wolf"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 2.7,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 46.25,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 48.95,
-						},
-						["Defias Cutpurse"] = {
-							["Details"] = {
-								["Corruption (DoT)"] = {
-									["count"] = 3.33,
-								},
-								["Melee"] = {
-									["count"] = 7.220000000000001,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 7.44,
-								},
-								["Immolate (DoT)"] = {
-									["count"] = 11.37,
-								},
-								["Immolate"] = {
-									["count"] = 7,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 36.36,
-						},
-						["Murloc"] = {
-							["Details"] = {
-								["Corruption"] = {
-									["count"] = 0.08,
-								},
-								["Corruption (DoT)"] = {
-									["count"] = 15.44,
-								},
-								["Melee"] = {
-									["count"] = 2.66,
-								},
-								["Immolate (DoT)"] = {
-									["count"] = 17.77,
-								},
-								["Immolate"] = {
-									["count"] = 15.17,
-								},
-								["Shadow Bolt"] = {
-									["count"] = 13.51,
-								},
-							},
-							["amount"] = 64.63,
-						},
-						["Cytrex"] = {
-							["Details"] = {
-								["Holy Light"] = {
-									["count"] = 3.5,
-								},
-							},
-							["amount"] = 3.5,
-						},
-						["Kobold Worker"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 3.399999999999999,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 63.34,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 66.74,
-						},
-						["Gray Forest Wolf"] = {
-							["Details"] = {
-								["Corruption (DoT)"] = {
-									["count"] = 0.3400000000000001,
-								},
-								["Melee"] = {
-									["count"] = 6.16,
-								},
-								["Shadow Bolt"] = {
-									["count"] = 10.5,
-								},
-								["Immolate (DoT)"] = {
-									["count"] = 4.45,
-								},
-								["Immolate"] = {
-									["count"] = 1.82,
-								},
-								["Curse of Agony (DoT)"] = {
-									["count"] = 8.590000000000002,
-								},
-							},
-							["amount"] = 31.86000000000001,
-						},
-						["Elgorath"] = {
-							["Details"] = {
-								["Healing Potion"] = {
-									["count"] = 2.48,
-								},
-								["Swift Hand of Justice"] = {
-									["count"] = 75.48,
-								},
-								["Judgement of Light"] = {
-									["count"] = 0,
-								},
-								["Holy Strength"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 77.96000000000001,
-						},
-						["Diseased Timber Wolf"] = {
-							["Details"] = {
-								["Seal of Righteousness"] = {
-									["count"] = 17.5,
-								},
-								["Melee"] = {
-									["count"] = 0.01,
-								},
-							},
-							["amount"] = 17.51,
-						},
-						["Kobold Miner"] = {
-							["Details"] = {
-								["Corruption"] = {
-									["count"] = 7.42,
-								},
-								["Corruption (DoT)"] = {
-									["count"] = 65.05000000000004,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 429.9000000000002,
-								},
-								["Immolate"] = {
-									["count"] = 115.86,
-								},
-								["Shadow Bolt"] = {
-									["count"] = 139.34,
-								},
-								["Curse of Agony (DoT)"] = {
-									["count"] = 46.43,
-								},
-								["Immolate (DoT)"] = {
-									["count"] = 174.88,
-								},
-								["Melee"] = {
-									["count"] = 134.9,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 1113.779999999999,
-						},
-						["Kobold Vermin"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 14.02,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 27.19,
-								},
-							},
-							["amount"] = 41.21,
-						},
-					},
+					["DamageTaken"] = 4517,
 					["TimeDamage"] = 2580.099999999996,
 					["TimeDamaging"] = {
 						["Mother Fang"] = {
@@ -1949,8 +10986,8 @@ RecountPerCharDB = {
 								["Melee"] = {
 									["count"] = 98.77000000000002,
 								},
-								["Shadow Bolt"] = {
-									["count"] = 56.36000000000001,
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
 								},
 								["Seal of Righteousness"] = {
 									["count"] = 400.2700000000001,
@@ -1961,8 +10998,8 @@ RecountPerCharDB = {
 								["Immolate"] = {
 									["count"] = 64.22,
 								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
+								["Shadow Bolt"] = {
+									["count"] = 56.36000000000001,
 								},
 							},
 							["amount"] = 794.0799999999994,
@@ -2029,8 +11066,8 @@ RecountPerCharDB = {
 								["Melee"] = {
 									["count"] = 1.75,
 								},
-								["Shadow Bolt"] = {
-									["count"] = 4.44,
+								["Curse of Agony (DoT)"] = {
+									["count"] = 20.17,
 								},
 								["Immolate (DoT)"] = {
 									["count"] = 9.15,
@@ -2038,16 +11075,16 @@ RecountPerCharDB = {
 								["Immolate"] = {
 									["count"] = 4.09,
 								},
-								["Curse of Agony (DoT)"] = {
-									["count"] = 20.17,
+								["Shadow Bolt"] = {
+									["count"] = 4.44,
 								},
 							},
 							["amount"] = 39.79000000000001,
 						},
 						["Goldtooth"] = {
 							["Details"] = {
-								["Shadow Bolt"] = {
-									["count"] = 11.33,
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
 								},
 								["Corruption (DoT)"] = {
 									["count"] = 2.82,
@@ -2067,8 +11104,8 @@ RecountPerCharDB = {
 								["Immolate"] = {
 									["count"] = 6.29,
 								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
+								["Shadow Bolt"] = {
+									["count"] = 11.33,
 								},
 							},
 							["amount"] = 81.07999999999998,
@@ -2095,11 +11132,11 @@ RecountPerCharDB = {
 						},
 						["Defias Thug"] = {
 							["Details"] = {
-								["Seal of Righteousness"] = {
-									["count"] = 34.89,
-								},
 								["Melee"] = {
 									["count"] = 0.38,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 34.89,
 								},
 								["Judgement of Righteousness"] = {
 									["count"] = 0,
@@ -2132,11 +11169,11 @@ RecountPerCharDB = {
 						},
 						["Diseased Young Wolf"] = {
 							["Details"] = {
-								["Melee"] = {
-									["count"] = 2.7,
-								},
 								["Seal of Righteousness"] = {
 									["count"] = 46.25,
+								},
+								["Melee"] = {
+									["count"] = 2.7,
 								},
 								["Judgement of Righteousness"] = {
 									["count"] = 0,
@@ -2198,8 +11235,8 @@ RecountPerCharDB = {
 								["Melee"] = {
 									["count"] = 6.16,
 								},
-								["Shadow Bolt"] = {
-									["count"] = 10.5,
+								["Curse of Agony (DoT)"] = {
+									["count"] = 8.590000000000002,
 								},
 								["Immolate (DoT)"] = {
 									["count"] = 4.45,
@@ -2207,8 +11244,8 @@ RecountPerCharDB = {
 								["Immolate"] = {
 									["count"] = 1.82,
 								},
-								["Curse of Agony (DoT)"] = {
-									["count"] = 8.590000000000002,
+								["Shadow Bolt"] = {
+									["count"] = 10.5,
 								},
 							},
 							["amount"] = 31.86000000000001,
@@ -2247,11 +11284,11 @@ RecountPerCharDB = {
 						},
 						["Kobold Worker"] = {
 							["Details"] = {
-								["Melee"] = {
-									["count"] = 3.399999999999999,
-								},
 								["Seal of Righteousness"] = {
 									["count"] = 63.34,
+								},
+								["Melee"] = {
+									["count"] = 3.399999999999999,
 								},
 								["Judgement of Righteousness"] = {
 									["count"] = 0,
@@ -2283,14 +11320,348 @@ RecountPerCharDB = {
 						},
 					},
 					["ManaGain"] = 228,
-					["ManaGainedFrom"] = {
-						["Elgorath"] = {
+					["DamagedWho"] = {
+						["Mother Fang"] = {
 							["Details"] = {
-								["Life Tap"] = {
-									["count"] = 228,
+								["Immolate (DoT)"] = {
+									["count"] = 22,
+								},
+								["Immolate"] = {
+									["count"] = 8,
+								},
+								["Melee"] = {
+									["count"] = 6,
 								},
 							},
-							["amount"] = 228,
+							["amount"] = 36,
+						},
+						["Kobold Tunneler"] = {
+							["Details"] = {
+								["Corruption (DoT)"] = {
+									["count"] = 750,
+								},
+								["Melee"] = {
+									["count"] = 13575,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 1576,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 1821,
+								},
+								["Immolate (DoT)"] = {
+									["count"] = 165,
+								},
+								["Immolate"] = {
+									["count"] = 169,
+								},
+								["Shadow Bolt"] = {
+									["count"] = 1162,
+								},
+							},
+							["amount"] = 19218,
+						},
+						["Forest Spider"] = {
+							["Details"] = {
+								["Corruption (DoT)"] = {
+									["count"] = 120,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 44,
+								},
+								["Melee"] = {
+									["count"] = 244,
+								},
+								["Immolate (DoT)"] = {
+									["count"] = 20,
+								},
+								["Immolate"] = {
+									["count"] = 54,
+								},
+								["Shadow Bolt"] = {
+									["count"] = 189,
+								},
+							},
+							["amount"] = 671,
+						},
+						["Mine Spider"] = {
+							["Details"] = {
+								["Corruption (DoT)"] = {
+									["count"] = 40,
+								},
+							},
+							["amount"] = 40,
+						},
+						["Narg the Taskmaster"] = {
+							["Details"] = {
+								["Corruption (DoT)"] = {
+									["count"] = 35,
+								},
+								["Melee"] = {
+									["count"] = 5,
+								},
+								["Immolate (DoT)"] = {
+									["count"] = 20,
+								},
+								["Immolate"] = {
+									["count"] = 10,
+								},
+								["Shadow Bolt"] = {
+									["count"] = 120,
+								},
+							},
+							["amount"] = 190,
+						},
+						["Kobold Geomancer"] = {
+							["Details"] = {
+								["Corruption (DoT)"] = {
+									["count"] = 80,
+								},
+								["Melee"] = {
+									["count"] = 14,
+								},
+								["Curse of Agony (DoT)"] = {
+									["count"] = 61,
+								},
+								["Immolate (DoT)"] = {
+									["count"] = 26,
+								},
+								["Immolate"] = {
+									["count"] = 24,
+								},
+								["Shadow Bolt"] = {
+									["count"] = 79,
+								},
+							},
+							["amount"] = 284,
+						},
+						["Goldtooth"] = {
+							["Details"] = {
+								["Corruption (DoT)"] = {
+									["count"] = 48,
+								},
+								["Melee"] = {
+									["count"] = 1283,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 88,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 239,
+								},
+								["Immolate (DoT)"] = {
+									["count"] = 19,
+								},
+								["Immolate"] = {
+									["count"] = 13,
+								},
+								["Shadow Bolt"] = {
+									["count"] = 103,
+								},
+							},
+							["amount"] = 1793,
+						},
+						["Stonetusk Boar"] = {
+							["Details"] = {
+								["Corruption (DoT)"] = {
+									["count"] = 70,
+								},
+								["Melee"] = {
+									["count"] = 15,
+								},
+								["Immolate (DoT)"] = {
+									["count"] = 16,
+								},
+								["Immolate"] = {
+									["count"] = 22,
+								},
+								["Shadow Bolt"] = {
+									["count"] = 50,
+								},
+							},
+							["amount"] = 173,
+						},
+						["Defias Thug"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 989,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 98,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 80,
+								},
+							},
+							["amount"] = 1167,
+						},
+						["Mangy Wolf"] = {
+							["Details"] = {
+								["Corruption (DoT)"] = {
+									["count"] = 190,
+								},
+								["Melee"] = {
+									["count"] = 248,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 22,
+								},
+								["Immolate (DoT)"] = {
+									["count"] = 44,
+								},
+								["Immolate"] = {
+									["count"] = 32,
+								},
+								["Curse of Agony (DoT)"] = {
+									["count"] = 40,
+								},
+							},
+							["amount"] = 576,
+						},
+						["Diseased Young Wolf"] = {
+							["Details"] = {
+								["Seal of Righteousness"] = {
+									["count"] = 71,
+								},
+								["Melee"] = {
+									["count"] = 703,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 21,
+								},
+							},
+							["amount"] = 795,
+						},
+						["Defias Cutpurse"] = {
+							["Details"] = {
+								["Corruption (DoT)"] = {
+									["count"] = 80,
+								},
+								["Melee"] = {
+									["count"] = 250,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 27,
+								},
+								["Immolate (DoT)"] = {
+									["count"] = 28,
+								},
+								["Immolate"] = {
+									["count"] = 25,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 42,
+								},
+							},
+							["amount"] = 452,
+						},
+						["Murloc"] = {
+							["Details"] = {
+								["Corruption (DoT)"] = {
+									["count"] = 110,
+								},
+								["Melee"] = {
+									["count"] = 4,
+								},
+								["Immolate (DoT)"] = {
+									["count"] = 46,
+								},
+								["Immolate"] = {
+									["count"] = 43,
+								},
+								["Shadow Bolt"] = {
+									["count"] = 212,
+								},
+							},
+							["amount"] = 415,
+						},
+						["Gray Forest Wolf"] = {
+							["Details"] = {
+								["Corruption (DoT)"] = {
+									["count"] = 60,
+								},
+								["Melee"] = {
+									["count"] = 22,
+								},
+								["Curse of Agony (DoT)"] = {
+									["count"] = 21,
+								},
+								["Immolate (DoT)"] = {
+									["count"] = 24,
+								},
+								["Immolate"] = {
+									["count"] = 37,
+								},
+								["Shadow Bolt"] = {
+									["count"] = 74,
+								},
+							},
+							["amount"] = 238,
+						},
+						["Kobold Miner"] = {
+							["Details"] = {
+								["Judgement of Righteousness"] = {
+									["count"] = 2050,
+								},
+								["Corruption (DoT)"] = {
+									["count"] = 1333,
+								},
+								["Melee"] = {
+									["count"] = 15225,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 2334,
+								},
+								["Curse of Agony (DoT)"] = {
+									["count"] = 152,
+								},
+								["Immolate (DoT)"] = {
+									["count"] = 351,
+								},
+								["Immolate"] = {
+									["count"] = 307,
+								},
+								["Shadow Bolt"] = {
+									["count"] = 2202,
+								},
+							},
+							["amount"] = 23954,
+						},
+						["Kobold Worker"] = {
+							["Details"] = {
+								["Seal of Righteousness"] = {
+									["count"] = 140,
+								},
+								["Melee"] = {
+									["count"] = 1459,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 80,
+								},
+							},
+							["amount"] = 1679,
+						},
+						["Diseased Timber Wolf"] = {
+							["Details"] = {
+								["Seal of Righteousness"] = {
+									["count"] = 26,
+								},
+								["Melee"] = {
+									["count"] = 331,
+								},
+							},
+							["amount"] = 357,
+						},
+						["Kobold Vermin"] = {
+							["Details"] = {
+								["Seal of Righteousness"] = {
+									["count"] = 40,
+								},
+								["Melee"] = {
+									["count"] = 632,
+								},
+							},
+							["amount"] = 672,
 						},
 					},
 					["DispelledWho"] = {
@@ -2304,9383 +11675,9 @@ RecountPerCharDB = {
 						},
 					},
 				},
-				["Fight5"] = {
-					["DOTs"] = {
-						["Immolate (DoT)"] = {
-							["Details"] = {
-								["Kobold Geomancer"] = {
-									["count"] = 0,
-								},
-								["Goldtooth"] = {
-									["count"] = 0,
-								},
-								["Kobold Tunneler"] = {
-									["count"] = 0,
-								},
-								["Kobold Miner"] = {
-									["count"] = 0,
-								},
-								["Murloc"] = {
-									["count"] = 0,
-								},
-								["Stonetusk Boar"] = {
-									["count"] = 0,
-								},
-								["Defias Cutpurse"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Corruption (DoT)"] = {
-							["Details"] = {
-								["Mangy Wolf"] = {
-									["count"] = 0,
-								},
-								["Defias Cutpurse"] = {
-									["count"] = 0,
-								},
-								["Forest Spider"] = {
-									["count"] = 0,
-								},
-								["Murloc"] = {
-									["count"] = 0,
-								},
-								["Kobold Geomancer"] = {
-									["count"] = 0,
-								},
-								["Goldtooth"] = {
-									["count"] = 0,
-								},
-								["Stonetusk Boar"] = {
-									["count"] = 0,
-								},
-								["Kobold Miner"] = {
-									["count"] = 0,
-								},
-								["Kobold Tunneler"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Curse of Agony (DoT)"] = {
-							["Details"] = {
-								["Kobold Miner"] = {
-									["count"] = 0,
-								},
-								["Kobold Geomancer"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["ElementDoneResist"] = {
-						["Fire"] = 0,
-						["Shadow"] = 0,
-					},
-					["Ressed"] = 0,
-					["DamageTaken"] = 10,
-					["RageGainedFrom"] = {
-					},
-					["ElementHitsTaken"] = {
-						["Physical"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 0,
-								},
-								["Miss"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Fire"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 2,
-								},
-								["Miss"] = {
-									["count"] = 0,
-								},
-								["Dodge"] = {
-									["count"] = 0,
-								},
-								["Crit"] = {
-									["count"] = 0,
-								},
-								["Parry"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 2,
-						},
-						["Nature"] = {
-							["Details"] = {
-								["Tick"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["DeathCount"] = 0,
-					["HOT_Time"] = 3,
-					["DOT_Time"] = 0,
-					["ManaGain"] = 0,
-					["ElementTaken"] = {
-						["Physical"] = 0,
-						["Fire"] = 0,
-						["Melee"] = 10,
-						["Nature"] = 0,
-					},
-					["HOTs"] = {
-						["Judgement of Light"] = {
-							["Details"] = {
-								["Elgorath"] = {
-									["count"] = 3,
-								},
-							},
-							["amount"] = 3,
-						},
-					},
-					["ElementTakenBlock"] = {
-					},
-					["ElementDoneAbsorb"] = {
-					},
-					["TimeHeal"] = 3.11,
-					["RessedWho"] = {
-					},
-					["Dispels"] = 0,
-					["PartialBlock"] = {
-					},
-					["FDamagedWho"] = {
-					},
-					["FAttacks"] = {
-					},
-					["RageGain"] = 0,
-					["ElementDone"] = {
-						["Fire"] = 0,
-						["Holy"] = 88,
-						["Melee"] = 172,
-						["Shadow"] = 0,
-					},
-					["ManaGainedFrom"] = {
-						["Elgorath"] = {
-							["Details"] = {
-								["Life Tap"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["DamagedWho"] = {
-						["Mangy Wolf"] = {
-							["Details"] = {
-								["Corruption (DoT)"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Diseased Young Wolf"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Defias Cutpurse"] = {
-							["Details"] = {
-								["Corruption (DoT)"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Immolate (DoT)"] = {
-									["count"] = 0,
-								},
-								["Immolate"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Forest Spider"] = {
-							["Details"] = {
-								["Corruption (DoT)"] = {
-									["count"] = 0,
-								},
-								["Immolate"] = {
-									["count"] = 0,
-								},
-								["Shadow Bolt"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Murloc"] = {
-							["Details"] = {
-								["Immolate (DoT)"] = {
-									["count"] = 0,
-								},
-								["Corruption (DoT)"] = {
-									["count"] = 0,
-								},
-								["Immolate"] = {
-									["count"] = 0,
-								},
-								["Shadow Bolt"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Kobold Geomancer"] = {
-							["Details"] = {
-								["Corruption (DoT)"] = {
-									["count"] = 0,
-								},
-								["Curse of Agony (DoT)"] = {
-									["count"] = 0,
-								},
-								["Immolate (DoT)"] = {
-									["count"] = 0,
-								},
-								["Immolate"] = {
-									["count"] = 0,
-								},
-								["Shadow Bolt"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Goldtooth"] = {
-							["Details"] = {
-								["Immolate (DoT)"] = {
-									["count"] = 0,
-								},
-								["Corruption (DoT)"] = {
-									["count"] = 0,
-								},
-								["Immolate"] = {
-									["count"] = 0,
-								},
-								["Shadow Bolt"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Stonetusk Boar"] = {
-							["Details"] = {
-								["Corruption (DoT)"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Immolate (DoT)"] = {
-									["count"] = 0,
-								},
-								["Immolate"] = {
-									["count"] = 0,
-								},
-								["Shadow Bolt"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Kobold Miner"] = {
-							["Details"] = {
-								["Shadow Bolt"] = {
-									["count"] = 0,
-								},
-								["Corruption (DoT)"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 172,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 44,
-								},
-								["Curse of Agony (DoT)"] = {
-									["count"] = 0,
-								},
-								["Immolate (DoT)"] = {
-									["count"] = 0,
-								},
-								["Immolate"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 44,
-								},
-							},
-							["amount"] = 260,
-						},
-						["Kobold Worker"] = {
-							["Details"] = {
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Kobold Tunneler"] = {
-							["Details"] = {
-								["Corruption (DoT)"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Shadow Bolt"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Immolate (DoT)"] = {
-									["count"] = 0,
-								},
-								["Immolate"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Defias Thug"] = {
-							["Details"] = {
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["OverHeals"] = {
-						["Healing Potion"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Swift Hand of Justice"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 6,
-									["min"] = 0,
-									["count"] = 2,
-									["amount"] = 7,
-								},
-							},
-							["count"] = 2,
-							["amount"] = 7,
-						},
-						["Judgement of Light"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 6,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 6,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 6,
-						},
-						["Holy Strength"] = {
-							["Details"] = {
-								["Crit"] = {
-									["max"] = 128,
-									["min"] = 128,
-									["count"] = 1,
-									["amount"] = 128,
-								},
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 128,
-						},
-					},
-					["WhoDamaged"] = {
-						["Mangy Wolf"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Diseased Young Wolf"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Kobold Tunneler"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Forest Spider"] = {
-							["Details"] = {
-								["Poison (DoT)"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Murloc"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Kobold Geomancer"] = {
-							["Details"] = {
-								["Fireball"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Goldtooth"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Stonetusk Boar"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Kobold Miner"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 10,
-								},
-							},
-							["amount"] = 10,
-						},
-						["Kobold Worker"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Defias Cutpurse"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Backstab"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["EnergyGainedFrom"] = {
-					},
-					["RageGained"] = {
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementDoneBlock"] = {
-						["Melee"] = 3,
-					},
-					["TimeHealing"] = {
-						["Elgorath"] = {
-							["Details"] = {
-								["Healing Potion"] = {
-									["count"] = 0,
-								},
-								["Swift Hand of Justice"] = {
-									["count"] = 3.11,
-								},
-								["Judgement of Light"] = {
-									["count"] = 0,
-								},
-								["Holy Strength"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 3.11,
-						},
-						["Sandler"] = {
-							["Details"] = {
-								["Holy Light"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["Dispelled"] = 0,
-					["WhoHealed"] = {
-						["Elgorath"] = {
-							["Details"] = {
-								["Healing Potion"] = {
-									["count"] = 0,
-								},
-								["Swift Hand of Justice"] = {
-									["count"] = 5,
-								},
-								["Judgement of Light"] = {
-									["count"] = 0,
-								},
-								["Holy Strength"] = {
-									["count"] = 5,
-								},
-							},
-							["amount"] = 10,
-						},
-					},
-					["PartialResist"] = {
-						["Fireball"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 2,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 2,
-							["amount"] = 0,
-						},
-						["Backstab"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Poison (DoT)"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Pierce Armor"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["CCBreak"] = 0,
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
-					["EnergyGain"] = 0,
-					["ManaGained"] = {
-						["Life Tap"] = {
-							["Details"] = {
-								["Elgorath"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["ElementTakenAbsorb"] = {
-					},
-					["ActiveTime"] = 6.72,
-					["Overhealing"] = 141,
-					["ElementTakenResist"] = {
-					},
-					["InterruptData"] = {
-					},
-					["WhoDispelled"] = {
-					},
-					["TimeSpent"] = {
-						["Mangy Wolf"] = {
-							["Details"] = {
-								["Corruption (DoT)"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Diseased Young Wolf"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Kobold Tunneler"] = {
-							["Details"] = {
-								["Corruption"] = {
-									["count"] = 0,
-								},
-								["Corruption (DoT)"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Shadow Bolt"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Immolate (DoT)"] = {
-									["count"] = 0,
-								},
-								["Immolate"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Forest Spider"] = {
-							["Details"] = {
-								["Corruption (DoT)"] = {
-									["count"] = 0,
-								},
-								["Immolate"] = {
-									["count"] = 0,
-								},
-								["Shadow Bolt"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Murloc"] = {
-							["Details"] = {
-								["Immolate (DoT)"] = {
-									["count"] = 0,
-								},
-								["Corruption (DoT)"] = {
-									["count"] = 0,
-								},
-								["Immolate"] = {
-									["count"] = 0,
-								},
-								["Shadow Bolt"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Sandler"] = {
-							["Details"] = {
-								["Holy Light"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Kobold Geomancer"] = {
-							["Details"] = {
-								["Corruption (DoT)"] = {
-									["count"] = 0,
-								},
-								["Curse of Agony (DoT)"] = {
-									["count"] = 0,
-								},
-								["Immolate (DoT)"] = {
-									["count"] = 0,
-								},
-								["Immolate"] = {
-									["count"] = 0,
-								},
-								["Shadow Bolt"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Kobold Miner"] = {
-							["Details"] = {
-								["Shadow Bolt"] = {
-									["count"] = 0,
-								},
-								["Corruption (DoT)"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 3.61,
-								},
-								["Curse of Agony (DoT)"] = {
-									["count"] = 0,
-								},
-								["Immolate (DoT)"] = {
-									["count"] = 0,
-								},
-								["Immolate"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 3.61,
-						},
-						["Goldtooth"] = {
-							["Details"] = {
-								["Corruption (DoT)"] = {
-									["count"] = 0,
-								},
-								["Curse of Weakness"] = {
-									["count"] = 0,
-								},
-								["Immolate (DoT)"] = {
-									["count"] = 0,
-								},
-								["Immolate"] = {
-									["count"] = 0,
-								},
-								["Shadow Bolt"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Stonetusk Boar"] = {
-							["Details"] = {
-								["Corruption (DoT)"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Immolate (DoT)"] = {
-									["count"] = 0,
-								},
-								["Immolate"] = {
-									["count"] = 0,
-								},
-								["Shadow Bolt"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Elgorath"] = {
-							["Details"] = {
-								["Healing Potion"] = {
-									["count"] = 0,
-								},
-								["Swift Hand of Justice"] = {
-									["count"] = 3.11,
-								},
-								["Judgement of Light"] = {
-									["count"] = 0,
-								},
-								["Holy Strength"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 3.11,
-						},
-						["Kobold Worker"] = {
-							["Details"] = {
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Defias Cutpurse"] = {
-							["Details"] = {
-								["Corruption (DoT)"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Immolate (DoT)"] = {
-									["count"] = 0,
-								},
-								["Immolate"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Defias Thug"] = {
-							["Details"] = {
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["Heals"] = {
-						["Holy Light"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Holy Strength"] = {
-							["Details"] = {
-								["Crit"] = {
-									["max"] = 5,
-									["min"] = 5,
-									["count"] = 1,
-									["amount"] = 5,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 5,
-						},
-						["Healing Potion"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Judgement of Light"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Swift Hand of Justice"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 5,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 5,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 5,
-						},
-					},
-					["PartialAbsorb"] = {
-						["Fireball"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 2,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 2,
-							["amount"] = 0,
-						},
-						["Backstab"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Poison (DoT)"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Pierce Armor"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["EnergyGained"] = {
-					},
-					["HealedWho"] = {
-						["Elgorath"] = {
-							["Details"] = {
-								["Healing Potion"] = {
-									["count"] = 0,
-								},
-								["Swift Hand of Justice"] = {
-									["count"] = 5,
-								},
-								["Judgement of Light"] = {
-									["count"] = 0,
-								},
-								["Holy Strength"] = {
-									["count"] = 5,
-								},
-							},
-							["amount"] = 10,
-						},
-						["Sandler"] = {
-							["Details"] = {
-								["Holy Light"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["Healing"] = 10,
-					["CCBroken"] = {
-					},
-					["RunicPowerGained"] = {
-					},
-					["Attacks"] = {
-						["Corruption"] = {
-							["Details"] = {
-								["Miss"] = {
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Corruption (DoT)"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["Glancing"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Dodge"] = {
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Hit (Blocked)"] = {
-									["max"] = 59,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 59,
-								},
-								["Hit"] = {
-									["max"] = 113,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 113,
-								},
-								["Crit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Parry"] = {
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 2,
-							["amount"] = 172,
-						},
-						["Immolate"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Crit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Miss"] = {
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Shadow Bolt"] = {
-							["Details"] = {
-								["Crit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Curse of Weakness"] = {
-							["Details"] = {
-								["Miss"] = {
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Curse of Agony (DoT)"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Immolate (DoT)"] = {
-							["Details"] = {
-								["Crit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Tick"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Seal of Righteousness"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 26,
-									["min"] = 0,
-									["count"] = 3,
-									["amount"] = 44,
-								},
-							},
-							["count"] = 3,
-							["amount"] = 44,
-						},
-						["Judgement of Righteousness"] = {
-							["Details"] = {
-								["Crit"] = {
-									["max"] = 44,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 44,
-								},
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 44,
-						},
-					},
-					["HealingTaken"] = 10,
-					["ElementHitsDone"] = {
-						["Fire"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 0,
-								},
-								["Tick"] = {
-									["count"] = 0,
-								},
-								["Crit"] = {
-									["count"] = 0,
-								},
-								["Miss"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Holy"] = {
-							["Details"] = {
-								["Crit"] = {
-									["count"] = 1,
-								},
-								["Hit"] = {
-									["count"] = 3,
-								},
-							},
-							["amount"] = 4,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["Glancing"] = {
-									["count"] = 0,
-								},
-								["Dodge"] = {
-									["count"] = 0,
-								},
-								["Hit"] = {
-									["count"] = 2,
-								},
-								["Crit"] = {
-									["count"] = 0,
-								},
-								["Parry"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 2,
-						},
-						["Shadow"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 0,
-								},
-								["Miss"] = {
-									["count"] = 0,
-								},
-								["Crit"] = {
-									["count"] = 0,
-								},
-								["Tick"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["TimeDamage"] = 3.61,
-					["TimeDamaging"] = {
-						["Mangy Wolf"] = {
-							["Details"] = {
-								["Corruption (DoT)"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Diseased Young Wolf"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Defias Cutpurse"] = {
-							["Details"] = {
-								["Corruption (DoT)"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Immolate (DoT)"] = {
-									["count"] = 0,
-								},
-								["Immolate"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Forest Spider"] = {
-							["Details"] = {
-								["Corruption (DoT)"] = {
-									["count"] = 0,
-								},
-								["Immolate"] = {
-									["count"] = 0,
-								},
-								["Shadow Bolt"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Murloc"] = {
-							["Details"] = {
-								["Immolate (DoT)"] = {
-									["count"] = 0,
-								},
-								["Corruption (DoT)"] = {
-									["count"] = 0,
-								},
-								["Immolate"] = {
-									["count"] = 0,
-								},
-								["Shadow Bolt"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Kobold Geomancer"] = {
-							["Details"] = {
-								["Corruption (DoT)"] = {
-									["count"] = 0,
-								},
-								["Curse of Agony (DoT)"] = {
-									["count"] = 0,
-								},
-								["Immolate (DoT)"] = {
-									["count"] = 0,
-								},
-								["Immolate"] = {
-									["count"] = 0,
-								},
-								["Shadow Bolt"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Goldtooth"] = {
-							["Details"] = {
-								["Corruption (DoT)"] = {
-									["count"] = 0,
-								},
-								["Curse of Weakness"] = {
-									["count"] = 0,
-								},
-								["Immolate (DoT)"] = {
-									["count"] = 0,
-								},
-								["Immolate"] = {
-									["count"] = 0,
-								},
-								["Shadow Bolt"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Stonetusk Boar"] = {
-							["Details"] = {
-								["Corruption (DoT)"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Immolate (DoT)"] = {
-									["count"] = 0,
-								},
-								["Immolate"] = {
-									["count"] = 0,
-								},
-								["Shadow Bolt"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Kobold Miner"] = {
-							["Details"] = {
-								["Shadow Bolt"] = {
-									["count"] = 0,
-								},
-								["Corruption (DoT)"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 3.61,
-								},
-								["Curse of Agony (DoT)"] = {
-									["count"] = 0,
-								},
-								["Immolate (DoT)"] = {
-									["count"] = 0,
-								},
-								["Immolate"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 3.61,
-						},
-						["Kobold Worker"] = {
-							["Details"] = {
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Kobold Tunneler"] = {
-							["Details"] = {
-								["Corruption"] = {
-									["count"] = 0,
-								},
-								["Corruption (DoT)"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Shadow Bolt"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Immolate (DoT)"] = {
-									["count"] = 0,
-								},
-								["Immolate"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Defias Thug"] = {
-							["Details"] = {
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["RunicPowerGain"] = 0,
-					["Damage"] = 260,
-					["DispelledWho"] = {
-					},
-				},
-				["CurrentFightData"] = {
-					["DOTs"] = {
-						["Immolate (DoT)"] = {
-							["Details"] = {
-								["Mangy Wolf"] = {
-									["count"] = 0,
-								},
-								["Kobold Miner"] = {
-									["count"] = 0,
-								},
-								["Kobold Tunneler"] = {
-									["count"] = 0,
-								},
-								["Forest Spider"] = {
-									["count"] = 0,
-								},
-								["Stonetusk Boar"] = {
-									["count"] = 0,
-								},
-								["Narg the Taskmaster"] = {
-									["count"] = 0,
-								},
-								["Defias Cutpurse"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Corruption (DoT)"] = {
-							["Details"] = {
-								["Mangy Wolf"] = {
-									["count"] = 0,
-								},
-								["Kobold Miner"] = {
-									["count"] = 0,
-								},
-								["Kobold Tunneler"] = {
-									["count"] = 0,
-								},
-								["Forest Spider"] = {
-									["count"] = 0,
-								},
-								["Stonetusk Boar"] = {
-									["count"] = 0,
-								},
-								["Narg the Taskmaster"] = {
-									["count"] = 0,
-								},
-								["Defias Cutpurse"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Curse of Agony (DoT)"] = {
-							["Details"] = {
-								["Kobold Miner"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["ElementDoneResist"] = {
-						["Fire"] = 0,
-						["Shadow"] = 0,
-					},
-					["Ressed"] = 0,
-					["DamageTaken"] = 0,
-					["RageGainedFrom"] = {
-					},
-					["ElementHitsTaken"] = {
-						["Melee"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 0,
-								},
-								["Dodge"] = {
-									["count"] = 0,
-								},
-								["Crushing"] = {
-									["count"] = 0,
-								},
-								["Miss"] = {
-									["count"] = 0,
-								},
-								["Crit"] = {
-									["count"] = 0,
-								},
-								["Parry"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Nature"] = {
-							["Details"] = {
-								["Tick"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["DeathCount"] = 0,
-					["HOT_Time"] = 0,
-					["DOT_Time"] = 0,
-					["ManaGain"] = 0,
-					["ElementTaken"] = {
-						["Melee"] = 0,
-						["Nature"] = 0,
-					},
-					["HOTs"] = {
-						["Judgement of Light"] = {
-							["Details"] = {
-								["Elgorath"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["ElementTakenBlock"] = {
-					},
-					["ElementDoneAbsorb"] = {
-					},
-					["TimeHeal"] = 0,
-					["RessedWho"] = {
-					},
-					["Dispels"] = 0,
-					["PartialBlock"] = {
-					},
-					["FDamagedWho"] = {
-					},
-					["FAttacks"] = {
-					},
-					["RageGain"] = 0,
-					["ElementDone"] = {
-						["Fire"] = 0,
-						["Holy"] = 0,
-						["Melee"] = 0,
-						["Shadow"] = 0,
-					},
-					["ManaGainedFrom"] = {
-					},
-					["DamagedWho"] = {
-						["Mangy Wolf"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Immolate (DoT)"] = {
-									["count"] = 0,
-								},
-								["Immolate"] = {
-									["count"] = 0,
-								},
-								["Corruption (DoT)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Defias Cutpurse"] = {
-							["Details"] = {
-								["Immolate (DoT)"] = {
-									["count"] = 0,
-								},
-								["Immolate"] = {
-									["count"] = 0,
-								},
-								["Corruption (DoT)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Forest Spider"] = {
-							["Details"] = {
-								["Corruption (DoT)"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Immolate (DoT)"] = {
-									["count"] = 0,
-								},
-								["Immolate"] = {
-									["count"] = 0,
-								},
-								["Shadow Bolt"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Narg the Taskmaster"] = {
-							["Details"] = {
-								["Corruption (DoT)"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Immolate (DoT)"] = {
-									["count"] = 0,
-								},
-								["Immolate"] = {
-									["count"] = 0,
-								},
-								["Shadow Bolt"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Stonetusk Boar"] = {
-							["Details"] = {
-								["Corruption (DoT)"] = {
-									["count"] = 0,
-								},
-								["Immolate (DoT)"] = {
-									["count"] = 0,
-								},
-								["Immolate"] = {
-									["count"] = 0,
-								},
-								["Shadow Bolt"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Kobold Miner"] = {
-							["Details"] = {
-								["Shadow Bolt"] = {
-									["count"] = 0,
-								},
-								["Corruption (DoT)"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Curse of Agony (DoT)"] = {
-									["count"] = 0,
-								},
-								["Immolate (DoT)"] = {
-									["count"] = 0,
-								},
-								["Immolate"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Diseased Timber Wolf"] = {
-							["Details"] = {
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Kobold Tunneler"] = {
-							["Details"] = {
-								["Corruption (DoT)"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Shadow Bolt"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Immolate (DoT)"] = {
-									["count"] = 0,
-								},
-								["Immolate"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Defias Thug"] = {
-							["Details"] = {
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["OverHeals"] = {
-						["Holy Light"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Swift Hand of Justice"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Judgement of Light"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Holy Strength"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["WhoDamaged"] = {
-						["Mangy Wolf"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Defias Cutpurse"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Forest Spider"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Poison (DoT)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Narg the Taskmaster"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Stonetusk Boar"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Kobold Miner"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Diseased Timber Wolf"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Kobold Tunneler"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Defias Thug"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["EnergyGainedFrom"] = {
-					},
-					["RageGained"] = {
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementDoneBlock"] = {
-						["Melee"] = 0,
-					},
-					["TimeHealing"] = {
-						["Elgorath"] = {
-							["Details"] = {
-								["Healing Potion"] = {
-									["count"] = 0,
-								},
-								["Swift Hand of Justice"] = {
-									["count"] = 0,
-								},
-								["Judgement of Light"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Cytrex"] = {
-							["Details"] = {
-								["Holy Light"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["Dispelled"] = 0,
-					["WhoHealed"] = {
-						["Elgorath"] = {
-							["Details"] = {
-								["Healing Potion"] = {
-									["count"] = 0,
-								},
-								["Swift Hand of Justice"] = {
-									["count"] = 0,
-								},
-								["Judgement of Light"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["PartialResist"] = {
-						["Melee"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Poison (DoT)"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["CCBreak"] = 0,
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
-					["EnergyGain"] = 0,
-					["ManaGained"] = {
-					},
-					["ElementTakenAbsorb"] = {
-					},
-					["ActiveTime"] = 0,
-					["Overhealing"] = 0,
-					["ElementTakenResist"] = {
-					},
-					["InterruptData"] = {
-					},
-					["WhoDispelled"] = {
-					},
-					["TimeSpent"] = {
-						["Mangy Wolf"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Immolate (DoT)"] = {
-									["count"] = 0,
-								},
-								["Immolate"] = {
-									["count"] = 0,
-								},
-								["Corruption (DoT)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Defias Cutpurse"] = {
-							["Details"] = {
-								["Immolate (DoT)"] = {
-									["count"] = 0,
-								},
-								["Immolate"] = {
-									["count"] = 0,
-								},
-								["Corruption (DoT)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Forest Spider"] = {
-							["Details"] = {
-								["Corruption (DoT)"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Immolate (DoT)"] = {
-									["count"] = 0,
-								},
-								["Immolate"] = {
-									["count"] = 0,
-								},
-								["Shadow Bolt"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Narg the Taskmaster"] = {
-							["Details"] = {
-								["Corruption"] = {
-									["count"] = 0,
-								},
-								["Corruption (DoT)"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Immolate (DoT)"] = {
-									["count"] = 0,
-								},
-								["Immolate"] = {
-									["count"] = 0,
-								},
-								["Shadow Bolt"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Cytrex"] = {
-							["Details"] = {
-								["Holy Light"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Kobold Tunneler"] = {
-							["Details"] = {
-								["Corruption (DoT)"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Shadow Bolt"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Immolate (DoT)"] = {
-									["count"] = 0,
-								},
-								["Immolate"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Stonetusk Boar"] = {
-							["Details"] = {
-								["Corruption (DoT)"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Immolate (DoT)"] = {
-									["count"] = 0,
-								},
-								["Immolate"] = {
-									["count"] = 0,
-								},
-								["Shadow Bolt"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Elgorath"] = {
-							["Details"] = {
-								["Healing Potion"] = {
-									["count"] = 0,
-								},
-								["Swift Hand of Justice"] = {
-									["count"] = 0,
-								},
-								["Judgement of Light"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Diseased Timber Wolf"] = {
-							["Details"] = {
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Kobold Miner"] = {
-							["Details"] = {
-								["Shadow Bolt"] = {
-									["count"] = 0,
-								},
-								["Corruption (DoT)"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Curse of Agony (DoT)"] = {
-									["count"] = 0,
-								},
-								["Immolate (DoT)"] = {
-									["count"] = 0,
-								},
-								["Immolate"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Defias Thug"] = {
-							["Details"] = {
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["Heals"] = {
-						["Healing Potion"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Swift Hand of Justice"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Judgement of Light"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Holy Light"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["PartialAbsorb"] = {
-						["Melee"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Poison (DoT)"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["EnergyGained"] = {
-					},
-					["HealedWho"] = {
-						["Elgorath"] = {
-							["Details"] = {
-								["Healing Potion"] = {
-									["count"] = 0,
-								},
-								["Swift Hand of Justice"] = {
-									["count"] = 0,
-								},
-								["Judgement of Light"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Cytrex"] = {
-							["Details"] = {
-								["Holy Light"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["Healing"] = 0,
-					["CCBroken"] = {
-					},
-					["RunicPowerGained"] = {
-					},
-					["Attacks"] = {
-						["Corruption"] = {
-							["Details"] = {
-								["Miss"] = {
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Corruption (DoT)"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Seal of Righteousness"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Immolate"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Crit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Miss"] = {
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Shadow Bolt"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Miss"] = {
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Crit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Evade"] = {
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Curse of Agony (DoT)"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Immolate (DoT)"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["Glancing"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Hit (Blocked)"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Dodge"] = {
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Crit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Parry"] = {
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Judgement of Righteousness"] = {
-							["Details"] = {
-								["Crit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["HealingTaken"] = 0,
-					["ElementHitsDone"] = {
-						["Fire"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 0,
-								},
-								["Miss"] = {
-									["count"] = 0,
-								},
-								["Crit"] = {
-									["count"] = 0,
-								},
-								["Tick"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Holy"] = {
-							["Details"] = {
-								["Crit"] = {
-									["count"] = 0,
-								},
-								["Hit"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["Glancing"] = {
-									["count"] = 0,
-								},
-								["Hit"] = {
-									["count"] = 0,
-								},
-								["Dodge"] = {
-									["count"] = 0,
-								},
-								["Crit"] = {
-									["count"] = 0,
-								},
-								["Parry"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Shadow"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 0,
-								},
-								["Tick"] = {
-									["count"] = 0,
-								},
-								["Miss"] = {
-									["count"] = 0,
-								},
-								["Crit"] = {
-									["count"] = 0,
-								},
-								["Evade"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["TimeDamage"] = 0,
-					["TimeDamaging"] = {
-						["Mangy Wolf"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Immolate (DoT)"] = {
-									["count"] = 0,
-								},
-								["Immolate"] = {
-									["count"] = 0,
-								},
-								["Corruption (DoT)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Defias Cutpurse"] = {
-							["Details"] = {
-								["Immolate (DoT)"] = {
-									["count"] = 0,
-								},
-								["Immolate"] = {
-									["count"] = 0,
-								},
-								["Corruption (DoT)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Forest Spider"] = {
-							["Details"] = {
-								["Corruption (DoT)"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Immolate (DoT)"] = {
-									["count"] = 0,
-								},
-								["Immolate"] = {
-									["count"] = 0,
-								},
-								["Shadow Bolt"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Narg the Taskmaster"] = {
-							["Details"] = {
-								["Corruption"] = {
-									["count"] = 0,
-								},
-								["Corruption (DoT)"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Immolate (DoT)"] = {
-									["count"] = 0,
-								},
-								["Immolate"] = {
-									["count"] = 0,
-								},
-								["Shadow Bolt"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Stonetusk Boar"] = {
-							["Details"] = {
-								["Corruption (DoT)"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Immolate (DoT)"] = {
-									["count"] = 0,
-								},
-								["Immolate"] = {
-									["count"] = 0,
-								},
-								["Shadow Bolt"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Kobold Miner"] = {
-							["Details"] = {
-								["Shadow Bolt"] = {
-									["count"] = 0,
-								},
-								["Corruption (DoT)"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Curse of Agony (DoT)"] = {
-									["count"] = 0,
-								},
-								["Immolate (DoT)"] = {
-									["count"] = 0,
-								},
-								["Immolate"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Diseased Timber Wolf"] = {
-							["Details"] = {
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Kobold Tunneler"] = {
-							["Details"] = {
-								["Corruption (DoT)"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Shadow Bolt"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Immolate (DoT)"] = {
-									["count"] = 0,
-								},
-								["Immolate"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Defias Thug"] = {
-							["Details"] = {
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["RunicPowerGain"] = 0,
-					["Damage"] = 0,
-					["DispelledWho"] = {
-					},
-				},
-				["Fight1"] = {
-					["DOTs"] = {
-						["Immolate (DoT)"] = {
-							["Details"] = {
-								["Mother Fang"] = {
-									["count"] = 0,
-								},
-								["Kobold Tunneler"] = {
-									["count"] = 0,
-								},
-								["Forest Spider"] = {
-									["count"] = 0,
-								},
-								["Gray Forest Wolf"] = {
-									["count"] = 0,
-								},
-								["Kobold Miner"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Corruption (DoT)"] = {
-							["Details"] = {
-								["Gray Forest Wolf"] = {
-									["count"] = 0,
-								},
-								["Kobold Tunneler"] = {
-									["count"] = 0,
-								},
-								["Forest Spider"] = {
-									["count"] = 0,
-								},
-								["Mine Spider"] = {
-									["count"] = 0,
-								},
-								["Kobold Miner"] = {
-									["count"] = 0,
-								},
-								["Stonetusk Boar"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Curse of Agony (DoT)"] = {
-							["Details"] = {
-								["Kobold Miner"] = {
-									["count"] = 0,
-								},
-								["Gray Forest Wolf"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["ElementDoneResist"] = {
-						["Fire"] = 0,
-						["Shadow"] = 0,
-					},
-					["Ressed"] = 0,
-					["DamageTaken"] = 4,
-					["RageGainedFrom"] = {
-					},
-					["ElementHitsTaken"] = {
-						["Melee"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 1,
-								},
-								["Miss"] = {
-									["count"] = 1,
-								},
-								["Dodge"] = {
-									["count"] = 0,
-								},
-								["Crit"] = {
-									["count"] = 0,
-								},
-								["Parry"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 2,
-						},
-						["Nature"] = {
-							["Details"] = {
-								["Tick"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["DeathCount"] = 0,
-					["HOT_Time"] = 0,
-					["DOT_Time"] = 0,
-					["ManaGain"] = 0,
-					["ElementTaken"] = {
-						["Melee"] = 4,
-						["Nature"] = 0,
-					},
-					["HOTs"] = {
-						["Judgement of Light"] = {
-							["Details"] = {
-								["Elgorath"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["ElementTakenBlock"] = {
-					},
-					["ElementDoneAbsorb"] = {
-					},
-					["TimeHeal"] = 0,
-					["RessedWho"] = {
-					},
-					["Dispels"] = 0,
-					["PartialBlock"] = {
-					},
-					["FDamagedWho"] = {
-					},
-					["FAttacks"] = {
-					},
-					["RageGain"] = 0,
-					["ElementDone"] = {
-						["Shadow"] = 0,
-						["Holy"] = 18,
-						["Melee"] = 184,
-						["Fire"] = 0,
-					},
-					["ManaGainedFrom"] = {
-						["Elgorath"] = {
-							["Details"] = {
-								["Life Tap"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["DamagedWho"] = {
-						["Mother Fang"] = {
-							["Details"] = {
-								["Immolate (DoT)"] = {
-									["count"] = 0,
-								},
-								["Immolate"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Kobold Tunneler"] = {
-							["Details"] = {
-								["Corruption (DoT)"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 184,
-								},
-								["Shadow Bolt"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 18,
-								},
-								["Immolate (DoT)"] = {
-									["count"] = 0,
-								},
-								["Immolate"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 202,
-						},
-						["Forest Spider"] = {
-							["Details"] = {
-								["Immolate (DoT)"] = {
-									["count"] = 0,
-								},
-								["Corruption (DoT)"] = {
-									["count"] = 0,
-								},
-								["Immolate"] = {
-									["count"] = 0,
-								},
-								["Shadow Bolt"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Mine Spider"] = {
-							["Details"] = {
-								["Corruption (DoT)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Gray Forest Wolf"] = {
-							["Details"] = {
-								["Corruption (DoT)"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Shadow Bolt"] = {
-									["count"] = 0,
-								},
-								["Immolate (DoT)"] = {
-									["count"] = 0,
-								},
-								["Immolate"] = {
-									["count"] = 0,
-								},
-								["Curse of Agony (DoT)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Diseased Young Wolf"] = {
-							["Details"] = {
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Stonetusk Boar"] = {
-							["Details"] = {
-								["Corruption (DoT)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Kobold Miner"] = {
-							["Details"] = {
-								["Shadow Bolt"] = {
-									["count"] = 0,
-								},
-								["Corruption (DoT)"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Curse of Agony (DoT)"] = {
-									["count"] = 0,
-								},
-								["Immolate (DoT)"] = {
-									["count"] = 0,
-								},
-								["Immolate"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Kobold Worker"] = {
-							["Details"] = {
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Diseased Timber Wolf"] = {
-							["Details"] = {
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Defias Thug"] = {
-							["Details"] = {
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["OverHeals"] = {
-						["Swift Hand of Justice"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 7,
-									["min"] = 0,
-									["count"] = 2,
-									["amount"] = 10,
-								},
-							},
-							["count"] = 2,
-							["amount"] = 10,
-						},
-						["Judgement of Light"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Holy Strength"] = {
-							["Details"] = {
-								["Crit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["WhoDamaged"] = {
-						["Forest Spider"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Poison (DoT)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Mother Fang"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Diseased Timber Wolf"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Kobold Tunneler"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 4,
-								},
-							},
-							["amount"] = 4,
-						},
-						["Kobold Miner"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Kobold Worker"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Mine Spider"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Poison (DoT)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Defias Thug"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["EnergyGainedFrom"] = {
-					},
-					["RageGained"] = {
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementDoneBlock"] = {
-					},
-					["TimeHealing"] = {
-						["Elgorath"] = {
-							["Details"] = {
-								["Healing Potion"] = {
-									["count"] = 0,
-								},
-								["Swift Hand of Justice"] = {
-									["count"] = 0,
-								},
-								["Judgement of Light"] = {
-									["count"] = 0,
-								},
-								["Holy Strength"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["Dispelled"] = 0,
-					["WhoHealed"] = {
-						["Elgorath"] = {
-							["Details"] = {
-								["Healing Potion"] = {
-									["count"] = 0,
-								},
-								["Swift Hand of Justice"] = {
-									["count"] = 4,
-								},
-								["Judgement of Light"] = {
-									["count"] = 0,
-								},
-								["Holy Strength"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 4,
-						},
-					},
-					["PartialResist"] = {
-						["Melee"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 2,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 2,
-							["amount"] = 0,
-						},
-						["Poison (DoT)"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["CCBreak"] = 0,
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
-					["EnergyGain"] = 0,
-					["ManaGained"] = {
-						["Life Tap"] = {
-							["Details"] = {
-								["Elgorath"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["ElementTakenAbsorb"] = {
-					},
-					["ActiveTime"] = 6.67,
-					["Overhealing"] = 10,
-					["ElementTakenResist"] = {
-					},
-					["InterruptData"] = {
-					},
-					["WhoDispelled"] = {
-					},
-					["TimeSpent"] = {
-						["Mother Fang"] = {
-							["Details"] = {
-								["Immolate (DoT)"] = {
-									["count"] = 0,
-								},
-								["Immolate"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Kobold Tunneler"] = {
-							["Details"] = {
-								["Corruption (DoT)"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Shadow Bolt"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 6.67,
-								},
-								["Immolate (DoT)"] = {
-									["count"] = 0,
-								},
-								["Immolate"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 6.67,
-						},
-						["Forest Spider"] = {
-							["Details"] = {
-								["Immolate (DoT)"] = {
-									["count"] = 0,
-								},
-								["Corruption (DoT)"] = {
-									["count"] = 0,
-								},
-								["Immolate"] = {
-									["count"] = 0,
-								},
-								["Shadow Bolt"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Mine Spider"] = {
-							["Details"] = {
-								["Corruption (DoT)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Diseased Young Wolf"] = {
-							["Details"] = {
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Stonetusk Boar"] = {
-							["Details"] = {
-								["Corruption (DoT)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Diseased Timber Wolf"] = {
-							["Details"] = {
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Gray Forest Wolf"] = {
-							["Details"] = {
-								["Corruption (DoT)"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Shadow Bolt"] = {
-									["count"] = 0,
-								},
-								["Immolate (DoT)"] = {
-									["count"] = 0,
-								},
-								["Immolate"] = {
-									["count"] = 0,
-								},
-								["Curse of Agony (DoT)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Kobold Miner"] = {
-							["Details"] = {
-								["Corruption"] = {
-									["count"] = 0,
-								},
-								["Corruption (DoT)"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Immolate"] = {
-									["count"] = 0,
-								},
-								["Shadow Bolt"] = {
-									["count"] = 0,
-								},
-								["Curse of Agony (DoT)"] = {
-									["count"] = 0,
-								},
-								["Immolate (DoT)"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Kobold Worker"] = {
-							["Details"] = {
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Elgorath"] = {
-							["Details"] = {
-								["Healing Potion"] = {
-									["count"] = 0,
-								},
-								["Swift Hand of Justice"] = {
-									["count"] = 0,
-								},
-								["Judgement of Light"] = {
-									["count"] = 0,
-								},
-								["Holy Strength"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Defias Thug"] = {
-							["Details"] = {
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["Heals"] = {
-						["Healing Potion"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Swift Hand of Justice"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 4,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 4,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 4,
-						},
-						["Judgement of Light"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Holy Strength"] = {
-							["Details"] = {
-								["Crit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["PartialAbsorb"] = {
-						["Melee"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 2,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 2,
-							["amount"] = 0,
-						},
-						["Poison (DoT)"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["EnergyGained"] = {
-					},
-					["HealedWho"] = {
-						["Elgorath"] = {
-							["Details"] = {
-								["Healing Potion"] = {
-									["count"] = 0,
-								},
-								["Swift Hand of Justice"] = {
-									["count"] = 4,
-								},
-								["Judgement of Light"] = {
-									["count"] = 0,
-								},
-								["Holy Strength"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 4,
-						},
-					},
-					["Healing"] = 4,
-					["CCBroken"] = {
-					},
-					["RunicPowerGained"] = {
-					},
-					["Attacks"] = {
-						["Corruption"] = {
-							["Details"] = {
-								["Miss"] = {
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Corruption (DoT)"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Seal of Righteousness"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 9,
-									["min"] = 0,
-									["count"] = 2,
-									["amount"] = 18,
-								},
-							},
-							["count"] = 2,
-							["amount"] = 18,
-						},
-						["Immolate"] = {
-							["Details"] = {
-								["Crit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Shadow Bolt"] = {
-							["Details"] = {
-								["Miss"] = {
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Crit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Curse of Agony (DoT)"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Immolate (DoT)"] = {
-							["Details"] = {
-								["Crit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Tick"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["Glancing"] = {
-									["max"] = 100,
-									["min"] = 0,
-									["count"] = 2,
-									["amount"] = 184,
-								},
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Dodge"] = {
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Crit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Parry"] = {
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 2,
-							["amount"] = 184,
-						},
-						["Judgement of Righteousness"] = {
-							["Details"] = {
-								["Crit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["HealingTaken"] = 4,
-					["ElementHitsDone"] = {
-						["Fire"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 0,
-								},
-								["Crit"] = {
-									["count"] = 0,
-								},
-								["Tick"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Holy"] = {
-							["Details"] = {
-								["Crit"] = {
-									["count"] = 0,
-								},
-								["Hit"] = {
-									["count"] = 2,
-								},
-							},
-							["amount"] = 2,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["Glancing"] = {
-									["count"] = 2,
-								},
-								["Hit"] = {
-									["count"] = 0,
-								},
-								["Dodge"] = {
-									["count"] = 0,
-								},
-								["Crit"] = {
-									["count"] = 0,
-								},
-								["Parry"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 2,
-						},
-						["Shadow"] = {
-							["Details"] = {
-								["Miss"] = {
-									["count"] = 0,
-								},
-								["Hit"] = {
-									["count"] = 0,
-								},
-								["Crit"] = {
-									["count"] = 0,
-								},
-								["Tick"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["TimeDamage"] = 6.67,
-					["TimeDamaging"] = {
-						["Mother Fang"] = {
-							["Details"] = {
-								["Immolate (DoT)"] = {
-									["count"] = 0,
-								},
-								["Immolate"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Kobold Tunneler"] = {
-							["Details"] = {
-								["Corruption (DoT)"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Shadow Bolt"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 6.67,
-								},
-								["Immolate (DoT)"] = {
-									["count"] = 0,
-								},
-								["Immolate"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 6.67,
-						},
-						["Forest Spider"] = {
-							["Details"] = {
-								["Immolate (DoT)"] = {
-									["count"] = 0,
-								},
-								["Corruption (DoT)"] = {
-									["count"] = 0,
-								},
-								["Immolate"] = {
-									["count"] = 0,
-								},
-								["Shadow Bolt"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Mine Spider"] = {
-							["Details"] = {
-								["Corruption (DoT)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Gray Forest Wolf"] = {
-							["Details"] = {
-								["Corruption (DoT)"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Shadow Bolt"] = {
-									["count"] = 0,
-								},
-								["Immolate (DoT)"] = {
-									["count"] = 0,
-								},
-								["Immolate"] = {
-									["count"] = 0,
-								},
-								["Curse of Agony (DoT)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Diseased Young Wolf"] = {
-							["Details"] = {
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Stonetusk Boar"] = {
-							["Details"] = {
-								["Corruption (DoT)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Kobold Miner"] = {
-							["Details"] = {
-								["Corruption"] = {
-									["count"] = 0,
-								},
-								["Corruption (DoT)"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Immolate"] = {
-									["count"] = 0,
-								},
-								["Shadow Bolt"] = {
-									["count"] = 0,
-								},
-								["Curse of Agony (DoT)"] = {
-									["count"] = 0,
-								},
-								["Immolate (DoT)"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Kobold Worker"] = {
-							["Details"] = {
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Diseased Timber Wolf"] = {
-							["Details"] = {
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Defias Thug"] = {
-							["Details"] = {
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["RunicPowerGain"] = 0,
-					["Damage"] = 202,
-					["DispelledWho"] = {
-					},
-				},
-				["Fight4"] = {
-					["DOTs"] = {
-						["Immolate (DoT)"] = {
-							["Details"] = {
-								["Mangy Wolf"] = {
-									["count"] = 0,
-								},
-								["Goldtooth"] = {
-									["count"] = 0,
-								},
-								["Kobold Tunneler"] = {
-									["count"] = 0,
-								},
-								["Kobold Miner"] = {
-									["count"] = 0,
-								},
-								["Murloc"] = {
-									["count"] = 0,
-								},
-								["Kobold Geomancer"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Corruption (DoT)"] = {
-							["Details"] = {
-								["Mangy Wolf"] = {
-									["count"] = 0,
-								},
-								["Goldtooth"] = {
-									["count"] = 0,
-								},
-								["Kobold Tunneler"] = {
-									["count"] = 0,
-								},
-								["Kobold Miner"] = {
-									["count"] = 0,
-								},
-								["Murloc"] = {
-									["count"] = 0,
-								},
-								["Kobold Geomancer"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Curse of Agony (DoT)"] = {
-							["Details"] = {
-								["Kobold Geomancer"] = {
-									["count"] = 0,
-								},
-								["Mangy Wolf"] = {
-									["count"] = 0,
-								},
-								["Kobold Miner"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["ElementDoneResist"] = {
-						["Fire"] = 0,
-						["Shadow"] = 0,
-					},
-					["Ressed"] = 0,
-					["DamageTaken"] = 240,
-					["RageGainedFrom"] = {
-					},
-					["ElementHitsTaken"] = {
-						["Physical"] = {
-							["Details"] = {
-								["Miss"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 38,
-								},
-								["Miss"] = {
-									["count"] = 1,
-								},
-								["Dodge"] = {
-									["count"] = 0,
-								},
-								["Crit"] = {
-									["count"] = 1,
-								},
-								["Parry"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 40,
-						},
-						["Nature"] = {
-							["Details"] = {
-								["Tick"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["DeathCount"] = 0,
-					["HOT_Time"] = 6,
-					["DOT_Time"] = 0,
-					["ManaGain"] = 0,
-					["ElementTaken"] = {
-						["Melee"] = 240,
-						["Nature"] = 0,
-					},
-					["HOTs"] = {
-						["Judgement of Light"] = {
-							["Details"] = {
-								["Elgorath"] = {
-									["count"] = 6,
-								},
-							},
-							["amount"] = 6,
-						},
-					},
-					["ElementTakenBlock"] = {
-					},
-					["ElementDoneAbsorb"] = {
-					},
-					["TimeHeal"] = 3.28,
-					["RessedWho"] = {
-					},
-					["Dispels"] = 0,
-					["PartialBlock"] = {
-					},
-					["FDamagedWho"] = {
-					},
-					["FAttacks"] = {
-					},
-					["RageGain"] = 0,
-					["ElementDone"] = {
-						["Fire"] = 0,
-						["Holy"] = 418,
-						["Melee"] = 1161,
-						["Shadow"] = 0,
-					},
-					["ManaGainedFrom"] = {
-					},
-					["DamagedWho"] = {
-						["Mangy Wolf"] = {
-							["Details"] = {
-								["Immolate (DoT)"] = {
-									["count"] = 0,
-								},
-								["Corruption (DoT)"] = {
-									["count"] = 0,
-								},
-								["Immolate"] = {
-									["count"] = 0,
-								},
-								["Curse of Agony (DoT)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Diseased Young Wolf"] = {
-							["Details"] = {
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Kobold Tunneler"] = {
-							["Details"] = {
-								["Corruption (DoT)"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 204,
-								},
-								["Shadow Bolt"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 35,
-								},
-								["Immolate (DoT)"] = {
-									["count"] = 0,
-								},
-								["Immolate"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 239,
-						},
-						["Forest Spider"] = {
-							["Details"] = {
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Murloc"] = {
-							["Details"] = {
-								["Corruption (DoT)"] = {
-									["count"] = 0,
-								},
-								["Immolate (DoT)"] = {
-									["count"] = 0,
-								},
-								["Immolate"] = {
-									["count"] = 0,
-								},
-								["Shadow Bolt"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Kobold Geomancer"] = {
-							["Details"] = {
-								["Corruption (DoT)"] = {
-									["count"] = 0,
-								},
-								["Shadow Bolt"] = {
-									["count"] = 0,
-								},
-								["Immolate (DoT)"] = {
-									["count"] = 0,
-								},
-								["Immolate"] = {
-									["count"] = 0,
-								},
-								["Curse of Agony (DoT)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Goldtooth"] = {
-							["Details"] = {
-								["Corruption (DoT)"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 133,
-								},
-								["Shadow Bolt"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 18,
-								},
-								["Immolate (DoT)"] = {
-									["count"] = 0,
-								},
-								["Immolate"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 151,
-						},
-						["Kobold Miner"] = {
-							["Details"] = {
-								["Shadow Bolt"] = {
-									["count"] = 0,
-								},
-								["Corruption (DoT)"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 824,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 157,
-								},
-								["Curse of Agony (DoT)"] = {
-									["count"] = 0,
-								},
-								["Immolate (DoT)"] = {
-									["count"] = 0,
-								},
-								["Immolate"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 208,
-								},
-							},
-							["amount"] = 1189,
-						},
-						["Diseased Timber Wolf"] = {
-							["Details"] = {
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Kobold Vermin"] = {
-							["Details"] = {
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["OverHeals"] = {
-						["Healing Potion"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Swift Hand of Justice"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Judgement of Light"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Holy Strength"] = {
-							["Details"] = {
-								["Crit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Hit"] = {
-									["max"] = 34,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 34,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 34,
-						},
-					},
-					["WhoDamaged"] = {
-						["Mangy Wolf"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Diseased Young Wolf"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Goldtooth"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 96,
-								},
-							},
-							["amount"] = 96,
-						},
-						["Kobold Tunneler"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 23,
-								},
-							},
-							["amount"] = 23,
-						},
-						["Kobold Miner"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 121,
-								},
-							},
-							["amount"] = 121,
-						},
-						["Murloc"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Forest Spider"] = {
-							["Details"] = {
-								["Poison (DoT)"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Kobold Vermin"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["EnergyGainedFrom"] = {
-					},
-					["RageGained"] = {
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementDoneBlock"] = {
-						["Melee"] = 3,
-					},
-					["TimeHealing"] = {
-						["Elgorath"] = {
-							["Details"] = {
-								["Healing Potion"] = {
-									["count"] = 0,
-								},
-								["Swift Hand of Justice"] = {
-									["count"] = 3.28,
-								},
-								["Judgement of Light"] = {
-									["count"] = 0,
-								},
-								["Holy Strength"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 3.28,
-						},
-					},
-					["Dispelled"] = 0,
-					["WhoHealed"] = {
-						["Elgorath"] = {
-							["Details"] = {
-								["Healing Potion"] = {
-									["count"] = 0,
-								},
-								["Swift Hand of Justice"] = {
-									["count"] = 98,
-								},
-								["Judgement of Light"] = {
-									["count"] = 14,
-								},
-								["Holy Strength"] = {
-									["count"] = 76,
-								},
-							},
-							["amount"] = 188,
-						},
-					},
-					["PartialResist"] = {
-						["Poison (DoT)"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 40,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 40,
-							["amount"] = 0,
-						},
-						["Pierce Armor"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["CCBreak"] = 0,
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
-					["EnergyGain"] = 0,
-					["ManaGained"] = {
-					},
-					["ElementTakenAbsorb"] = {
-					},
-					["ActiveTime"] = 29.45,
-					["Overhealing"] = 34,
-					["ElementTakenResist"] = {
-					},
-					["InterruptData"] = {
-					},
-					["WhoDispelled"] = {
-						["Elgorath"] = {
-							["Details"] = {
-								["Poison (Purify)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["TimeSpent"] = {
-						["Mangy Wolf"] = {
-							["Details"] = {
-								["Immolate (DoT)"] = {
-									["count"] = 0,
-								},
-								["Corruption (DoT)"] = {
-									["count"] = 0,
-								},
-								["Immolate"] = {
-									["count"] = 0,
-								},
-								["Curse of Agony (DoT)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Diseased Young Wolf"] = {
-							["Details"] = {
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Kobold Tunneler"] = {
-							["Details"] = {
-								["Corruption (DoT)"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Shadow Bolt"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 3.5,
-								},
-								["Immolate (DoT)"] = {
-									["count"] = 0,
-								},
-								["Immolate"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 3.5,
-						},
-						["Forest Spider"] = {
-							["Details"] = {
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Murloc"] = {
-							["Details"] = {
-								["Corruption"] = {
-									["count"] = 0,
-								},
-								["Corruption (DoT)"] = {
-									["count"] = 0,
-								},
-								["Immolate (DoT)"] = {
-									["count"] = 0,
-								},
-								["Immolate"] = {
-									["count"] = 0,
-								},
-								["Shadow Bolt"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Kobold Geomancer"] = {
-							["Details"] = {
-								["Corruption (DoT)"] = {
-									["count"] = 0,
-								},
-								["Shadow Bolt"] = {
-									["count"] = 0,
-								},
-								["Immolate (DoT)"] = {
-									["count"] = 0,
-								},
-								["Immolate"] = {
-									["count"] = 0,
-								},
-								["Curse of Agony (DoT)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Goldtooth"] = {
-							["Details"] = {
-								["Corruption (DoT)"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Shadow Bolt"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 6.43,
-								},
-								["Immolate (DoT)"] = {
-									["count"] = 0,
-								},
-								["Immolate"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 6.43,
-						},
-						["Kobold Miner"] = {
-							["Details"] = {
-								["Shadow Bolt"] = {
-									["count"] = 0,
-								},
-								["Corruption (DoT)"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 16.24,
-								},
-								["Curse of Agony (DoT)"] = {
-									["count"] = 0,
-								},
-								["Immolate (DoT)"] = {
-									["count"] = 0,
-								},
-								["Immolate"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 16.24,
-						},
-						["Diseased Timber Wolf"] = {
-							["Details"] = {
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Elgorath"] = {
-							["Details"] = {
-								["Healing Potion"] = {
-									["count"] = 0,
-								},
-								["Swift Hand of Justice"] = {
-									["count"] = 3.28,
-								},
-								["Judgement of Light"] = {
-									["count"] = 0,
-								},
-								["Holy Strength"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 3.28,
-						},
-						["Kobold Vermin"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["Heals"] = {
-						["Healing Potion"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Swift Hand of Justice"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 7,
-									["min"] = 0,
-									["count"] = 14,
-									["amount"] = 98,
-								},
-							},
-							["count"] = 14,
-							["amount"] = 98,
-						},
-						["Judgement of Light"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 7,
-									["min"] = 0,
-									["count"] = 2,
-									["amount"] = 14,
-								},
-							},
-							["count"] = 2,
-							["amount"] = 14,
-						},
-						["Holy Strength"] = {
-							["Details"] = {
-								["Crit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Hit"] = {
-									["max"] = 76,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 76,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 76,
-						},
-					},
-					["PartialAbsorb"] = {
-						["Poison (DoT)"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 40,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 40,
-							["amount"] = 0,
-						},
-						["Pierce Armor"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["EnergyGained"] = {
-					},
-					["HealedWho"] = {
-						["Elgorath"] = {
-							["Details"] = {
-								["Healing Potion"] = {
-									["count"] = 0,
-								},
-								["Swift Hand of Justice"] = {
-									["count"] = 98,
-								},
-								["Judgement of Light"] = {
-									["count"] = 14,
-								},
-								["Holy Strength"] = {
-									["count"] = 76,
-								},
-							},
-							["amount"] = 188,
-						},
-					},
-					["Healing"] = 188,
-					["CCBroken"] = {
-					},
-					["RunicPowerGained"] = {
-					},
-					["Attacks"] = {
-						["Corruption"] = {
-							["Details"] = {
-								["Evade"] = {
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Corruption (DoT)"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Seal of Righteousness"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 26,
-									["min"] = 0,
-									["count"] = 12,
-									["amount"] = 210,
-								},
-							},
-							["count"] = 12,
-							["amount"] = 210,
-						},
-						["Immolate"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Miss"] = {
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Crit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Evade"] = {
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Shadow Bolt"] = {
-							["Details"] = {
-								["Crit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Curse of Agony (DoT)"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Immolate (DoT)"] = {
-							["Details"] = {
-								["Crit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Tick"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["Glancing"] = {
-									["max"] = 88,
-									["min"] = 0,
-									["count"] = 2,
-									["amount"] = 156,
-								},
-								["Hit"] = {
-									["max"] = 69,
-									["min"] = 0,
-									["count"] = 3,
-									["amount"] = 201,
-								},
-								["Hit (Blocked)"] = {
-									["max"] = 116,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 116,
-								},
-								["Dodge"] = {
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Crit"] = {
-									["max"] = 242,
-									["min"] = 0,
-									["count"] = 3,
-									["amount"] = 688,
-								},
-								["Parry"] = {
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 9,
-							["amount"] = 1161,
-						},
-						["Judgement of Righteousness"] = {
-							["Details"] = {
-								["Crit"] = {
-									["max"] = 124,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 124,
-								},
-								["Hit"] = {
-									["max"] = 62,
-									["min"] = 0,
-									["count"] = 2,
-									["amount"] = 84,
-								},
-							},
-							["count"] = 3,
-							["amount"] = 208,
-						},
-					},
-					["HealingTaken"] = 188,
-					["ElementHitsDone"] = {
-						["Fire"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 0,
-								},
-								["Miss"] = {
-									["count"] = 0,
-								},
-								["Tick"] = {
-									["count"] = 0,
-								},
-								["Crit"] = {
-									["count"] = 0,
-								},
-								["Evade"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Holy"] = {
-							["Details"] = {
-								["Crit"] = {
-									["count"] = 1,
-								},
-								["Hit"] = {
-									["count"] = 14,
-								},
-							},
-							["amount"] = 15,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["Glancing"] = {
-									["count"] = 2,
-								},
-								["Hit"] = {
-									["count"] = 4,
-								},
-								["Dodge"] = {
-									["count"] = 0,
-								},
-								["Crit"] = {
-									["count"] = 3,
-								},
-								["Parry"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 9,
-						},
-						["Shadow"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 0,
-								},
-								["Tick"] = {
-									["count"] = 0,
-								},
-								["Crit"] = {
-									["count"] = 0,
-								},
-								["Evade"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["TimeDamage"] = 26.17,
-					["TimeDamaging"] = {
-						["Mangy Wolf"] = {
-							["Details"] = {
-								["Immolate (DoT)"] = {
-									["count"] = 0,
-								},
-								["Corruption (DoT)"] = {
-									["count"] = 0,
-								},
-								["Immolate"] = {
-									["count"] = 0,
-								},
-								["Curse of Agony (DoT)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Diseased Young Wolf"] = {
-							["Details"] = {
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Kobold Tunneler"] = {
-							["Details"] = {
-								["Corruption (DoT)"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Shadow Bolt"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 3.5,
-								},
-								["Immolate (DoT)"] = {
-									["count"] = 0,
-								},
-								["Immolate"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 3.5,
-						},
-						["Forest Spider"] = {
-							["Details"] = {
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Murloc"] = {
-							["Details"] = {
-								["Corruption"] = {
-									["count"] = 0,
-								},
-								["Corruption (DoT)"] = {
-									["count"] = 0,
-								},
-								["Immolate (DoT)"] = {
-									["count"] = 0,
-								},
-								["Immolate"] = {
-									["count"] = 0,
-								},
-								["Shadow Bolt"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Kobold Geomancer"] = {
-							["Details"] = {
-								["Corruption (DoT)"] = {
-									["count"] = 0,
-								},
-								["Shadow Bolt"] = {
-									["count"] = 0,
-								},
-								["Immolate (DoT)"] = {
-									["count"] = 0,
-								},
-								["Immolate"] = {
-									["count"] = 0,
-								},
-								["Curse of Agony (DoT)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Goldtooth"] = {
-							["Details"] = {
-								["Corruption (DoT)"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Shadow Bolt"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 6.43,
-								},
-								["Immolate (DoT)"] = {
-									["count"] = 0,
-								},
-								["Immolate"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 6.43,
-						},
-						["Kobold Miner"] = {
-							["Details"] = {
-								["Shadow Bolt"] = {
-									["count"] = 0,
-								},
-								["Corruption (DoT)"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 16.24,
-								},
-								["Curse of Agony (DoT)"] = {
-									["count"] = 0,
-								},
-								["Immolate (DoT)"] = {
-									["count"] = 0,
-								},
-								["Immolate"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 16.24,
-						},
-						["Diseased Timber Wolf"] = {
-							["Details"] = {
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Kobold Vermin"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["RunicPowerGain"] = 0,
-					["Damage"] = 1579,
-					["DispelledWho"] = {
-						["Elgorath"] = {
-							["Details"] = {
-								["Poison (Purify)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-				},
-				["LastFightData"] = {
-					["DOTs"] = {
-						["Immolate (DoT)"] = {
-							["Details"] = {
-								["Mother Fang"] = {
-									["count"] = 0,
-								},
-								["Kobold Tunneler"] = {
-									["count"] = 0,
-								},
-								["Forest Spider"] = {
-									["count"] = 0,
-								},
-								["Gray Forest Wolf"] = {
-									["count"] = 0,
-								},
-								["Kobold Miner"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Corruption (DoT)"] = {
-							["Details"] = {
-								["Gray Forest Wolf"] = {
-									["count"] = 0,
-								},
-								["Kobold Tunneler"] = {
-									["count"] = 0,
-								},
-								["Forest Spider"] = {
-									["count"] = 0,
-								},
-								["Mine Spider"] = {
-									["count"] = 0,
-								},
-								["Kobold Miner"] = {
-									["count"] = 0,
-								},
-								["Stonetusk Boar"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Curse of Agony (DoT)"] = {
-							["Details"] = {
-								["Kobold Miner"] = {
-									["count"] = 0,
-								},
-								["Gray Forest Wolf"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["ElementDoneResist"] = {
-						["Fire"] = 0,
-						["Shadow"] = 0,
-					},
-					["Ressed"] = 0,
-					["DamageTaken"] = 4,
-					["RageGainedFrom"] = {
-					},
-					["ElementHitsTaken"] = {
-						["Melee"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 1,
-								},
-								["Miss"] = {
-									["count"] = 1,
-								},
-								["Dodge"] = {
-									["count"] = 0,
-								},
-								["Crit"] = {
-									["count"] = 0,
-								},
-								["Parry"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 2,
-						},
-						["Nature"] = {
-							["Details"] = {
-								["Tick"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["DeathCount"] = 0,
-					["HOT_Time"] = 0,
-					["DOT_Time"] = 0,
-					["ManaGain"] = 0,
-					["ElementTaken"] = {
-						["Melee"] = 4,
-						["Nature"] = 0,
-					},
-					["HOTs"] = {
-						["Judgement of Light"] = {
-							["Details"] = {
-								["Elgorath"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["ElementTakenBlock"] = {
-					},
-					["ElementDoneAbsorb"] = {
-					},
-					["TimeHeal"] = 0,
-					["RessedWho"] = {
-					},
-					["Dispels"] = 0,
-					["PartialBlock"] = {
-					},
-					["FDamagedWho"] = {
-					},
-					["FAttacks"] = {
-					},
-					["RageGain"] = 0,
-					["ElementDone"] = {
-						["Shadow"] = 0,
-						["Holy"] = 18,
-						["Melee"] = 184,
-						["Fire"] = 0,
-					},
-					["ManaGainedFrom"] = {
-						["Elgorath"] = {
-							["Details"] = {
-								["Life Tap"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["DamagedWho"] = {
-						["Mother Fang"] = {
-							["Details"] = {
-								["Immolate (DoT)"] = {
-									["count"] = 0,
-								},
-								["Immolate"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Kobold Tunneler"] = {
-							["Details"] = {
-								["Corruption (DoT)"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 184,
-								},
-								["Shadow Bolt"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 18,
-								},
-								["Immolate (DoT)"] = {
-									["count"] = 0,
-								},
-								["Immolate"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 202,
-						},
-						["Forest Spider"] = {
-							["Details"] = {
-								["Immolate (DoT)"] = {
-									["count"] = 0,
-								},
-								["Corruption (DoT)"] = {
-									["count"] = 0,
-								},
-								["Immolate"] = {
-									["count"] = 0,
-								},
-								["Shadow Bolt"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Mine Spider"] = {
-							["Details"] = {
-								["Corruption (DoT)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Gray Forest Wolf"] = {
-							["Details"] = {
-								["Corruption (DoT)"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Shadow Bolt"] = {
-									["count"] = 0,
-								},
-								["Immolate (DoT)"] = {
-									["count"] = 0,
-								},
-								["Immolate"] = {
-									["count"] = 0,
-								},
-								["Curse of Agony (DoT)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Diseased Young Wolf"] = {
-							["Details"] = {
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Stonetusk Boar"] = {
-							["Details"] = {
-								["Corruption (DoT)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Kobold Miner"] = {
-							["Details"] = {
-								["Shadow Bolt"] = {
-									["count"] = 0,
-								},
-								["Corruption (DoT)"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Curse of Agony (DoT)"] = {
-									["count"] = 0,
-								},
-								["Immolate (DoT)"] = {
-									["count"] = 0,
-								},
-								["Immolate"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Kobold Worker"] = {
-							["Details"] = {
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Diseased Timber Wolf"] = {
-							["Details"] = {
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Defias Thug"] = {
-							["Details"] = {
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["OverHeals"] = {
-						["Swift Hand of Justice"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 7,
-									["min"] = 0,
-									["count"] = 2,
-									["amount"] = 10,
-								},
-							},
-							["count"] = 2,
-							["amount"] = 10,
-						},
-						["Judgement of Light"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Holy Strength"] = {
-							["Details"] = {
-								["Crit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["WhoDamaged"] = {
-						["Forest Spider"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Poison (DoT)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Mother Fang"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Diseased Timber Wolf"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Kobold Tunneler"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 4,
-								},
-							},
-							["amount"] = 4,
-						},
-						["Kobold Miner"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Kobold Worker"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Mine Spider"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Poison (DoT)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Defias Thug"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["EnergyGainedFrom"] = {
-					},
-					["RageGained"] = {
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementDoneBlock"] = {
-					},
-					["TimeHealing"] = {
-						["Elgorath"] = {
-							["Details"] = {
-								["Healing Potion"] = {
-									["count"] = 0,
-								},
-								["Swift Hand of Justice"] = {
-									["count"] = 0,
-								},
-								["Judgement of Light"] = {
-									["count"] = 0,
-								},
-								["Holy Strength"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["Dispelled"] = 0,
-					["WhoHealed"] = {
-						["Elgorath"] = {
-							["Details"] = {
-								["Healing Potion"] = {
-									["count"] = 0,
-								},
-								["Swift Hand of Justice"] = {
-									["count"] = 4,
-								},
-								["Judgement of Light"] = {
-									["count"] = 0,
-								},
-								["Holy Strength"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 4,
-						},
-					},
-					["PartialResist"] = {
-						["Melee"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 2,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 2,
-							["amount"] = 0,
-						},
-						["Poison (DoT)"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["CCBreak"] = 0,
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
-					["EnergyGain"] = 0,
-					["ManaGained"] = {
-						["Life Tap"] = {
-							["Details"] = {
-								["Elgorath"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["ElementTakenAbsorb"] = {
-					},
-					["ActiveTime"] = 6.67,
-					["Overhealing"] = 10,
-					["ElementTakenResist"] = {
-					},
-					["InterruptData"] = {
-					},
-					["WhoDispelled"] = {
-					},
-					["TimeSpent"] = {
-						["Mother Fang"] = {
-							["Details"] = {
-								["Immolate (DoT)"] = {
-									["count"] = 0,
-								},
-								["Immolate"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Kobold Tunneler"] = {
-							["Details"] = {
-								["Corruption (DoT)"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Shadow Bolt"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 6.67,
-								},
-								["Immolate (DoT)"] = {
-									["count"] = 0,
-								},
-								["Immolate"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 6.67,
-						},
-						["Forest Spider"] = {
-							["Details"] = {
-								["Immolate (DoT)"] = {
-									["count"] = 0,
-								},
-								["Corruption (DoT)"] = {
-									["count"] = 0,
-								},
-								["Immolate"] = {
-									["count"] = 0,
-								},
-								["Shadow Bolt"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Mine Spider"] = {
-							["Details"] = {
-								["Corruption (DoT)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Diseased Young Wolf"] = {
-							["Details"] = {
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Stonetusk Boar"] = {
-							["Details"] = {
-								["Corruption (DoT)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Diseased Timber Wolf"] = {
-							["Details"] = {
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Gray Forest Wolf"] = {
-							["Details"] = {
-								["Corruption (DoT)"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Shadow Bolt"] = {
-									["count"] = 0,
-								},
-								["Immolate (DoT)"] = {
-									["count"] = 0,
-								},
-								["Immolate"] = {
-									["count"] = 0,
-								},
-								["Curse of Agony (DoT)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Kobold Miner"] = {
-							["Details"] = {
-								["Corruption"] = {
-									["count"] = 0,
-								},
-								["Corruption (DoT)"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Immolate"] = {
-									["count"] = 0,
-								},
-								["Shadow Bolt"] = {
-									["count"] = 0,
-								},
-								["Curse of Agony (DoT)"] = {
-									["count"] = 0,
-								},
-								["Immolate (DoT)"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Kobold Worker"] = {
-							["Details"] = {
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Elgorath"] = {
-							["Details"] = {
-								["Healing Potion"] = {
-									["count"] = 0,
-								},
-								["Swift Hand of Justice"] = {
-									["count"] = 0,
-								},
-								["Judgement of Light"] = {
-									["count"] = 0,
-								},
-								["Holy Strength"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Defias Thug"] = {
-							["Details"] = {
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["Heals"] = {
-						["Healing Potion"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Swift Hand of Justice"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 4,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 4,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 4,
-						},
-						["Judgement of Light"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Holy Strength"] = {
-							["Details"] = {
-								["Crit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["PartialAbsorb"] = {
-						["Melee"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 2,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 2,
-							["amount"] = 0,
-						},
-						["Poison (DoT)"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["EnergyGained"] = {
-					},
-					["HealedWho"] = {
-						["Elgorath"] = {
-							["Details"] = {
-								["Healing Potion"] = {
-									["count"] = 0,
-								},
-								["Swift Hand of Justice"] = {
-									["count"] = 4,
-								},
-								["Judgement of Light"] = {
-									["count"] = 0,
-								},
-								["Holy Strength"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 4,
-						},
-					},
-					["Healing"] = 4,
-					["CCBroken"] = {
-					},
-					["RunicPowerGained"] = {
-					},
-					["Attacks"] = {
-						["Corruption"] = {
-							["Details"] = {
-								["Miss"] = {
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Corruption (DoT)"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Seal of Righteousness"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 9,
-									["min"] = 0,
-									["count"] = 2,
-									["amount"] = 18,
-								},
-							},
-							["count"] = 2,
-							["amount"] = 18,
-						},
-						["Immolate"] = {
-							["Details"] = {
-								["Crit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Shadow Bolt"] = {
-							["Details"] = {
-								["Miss"] = {
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Crit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Curse of Agony (DoT)"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Immolate (DoT)"] = {
-							["Details"] = {
-								["Crit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Tick"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["Glancing"] = {
-									["max"] = 100,
-									["min"] = 0,
-									["count"] = 2,
-									["amount"] = 184,
-								},
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Dodge"] = {
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Crit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Parry"] = {
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 2,
-							["amount"] = 184,
-						},
-						["Judgement of Righteousness"] = {
-							["Details"] = {
-								["Crit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["HealingTaken"] = 4,
-					["ElementHitsDone"] = {
-						["Fire"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 0,
-								},
-								["Crit"] = {
-									["count"] = 0,
-								},
-								["Tick"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Holy"] = {
-							["Details"] = {
-								["Crit"] = {
-									["count"] = 0,
-								},
-								["Hit"] = {
-									["count"] = 2,
-								},
-							},
-							["amount"] = 2,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["Glancing"] = {
-									["count"] = 2,
-								},
-								["Hit"] = {
-									["count"] = 0,
-								},
-								["Dodge"] = {
-									["count"] = 0,
-								},
-								["Crit"] = {
-									["count"] = 0,
-								},
-								["Parry"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 2,
-						},
-						["Shadow"] = {
-							["Details"] = {
-								["Miss"] = {
-									["count"] = 0,
-								},
-								["Hit"] = {
-									["count"] = 0,
-								},
-								["Crit"] = {
-									["count"] = 0,
-								},
-								["Tick"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["TimeDamage"] = 6.67,
-					["TimeDamaging"] = {
-						["Mother Fang"] = {
-							["Details"] = {
-								["Immolate (DoT)"] = {
-									["count"] = 0,
-								},
-								["Immolate"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Kobold Tunneler"] = {
-							["Details"] = {
-								["Corruption (DoT)"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Shadow Bolt"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 6.67,
-								},
-								["Immolate (DoT)"] = {
-									["count"] = 0,
-								},
-								["Immolate"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 6.67,
-						},
-						["Forest Spider"] = {
-							["Details"] = {
-								["Immolate (DoT)"] = {
-									["count"] = 0,
-								},
-								["Corruption (DoT)"] = {
-									["count"] = 0,
-								},
-								["Immolate"] = {
-									["count"] = 0,
-								},
-								["Shadow Bolt"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Mine Spider"] = {
-							["Details"] = {
-								["Corruption (DoT)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Gray Forest Wolf"] = {
-							["Details"] = {
-								["Corruption (DoT)"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Shadow Bolt"] = {
-									["count"] = 0,
-								},
-								["Immolate (DoT)"] = {
-									["count"] = 0,
-								},
-								["Immolate"] = {
-									["count"] = 0,
-								},
-								["Curse of Agony (DoT)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Diseased Young Wolf"] = {
-							["Details"] = {
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Stonetusk Boar"] = {
-							["Details"] = {
-								["Corruption (DoT)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Kobold Miner"] = {
-							["Details"] = {
-								["Corruption"] = {
-									["count"] = 0,
-								},
-								["Corruption (DoT)"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Immolate"] = {
-									["count"] = 0,
-								},
-								["Shadow Bolt"] = {
-									["count"] = 0,
-								},
-								["Curse of Agony (DoT)"] = {
-									["count"] = 0,
-								},
-								["Immolate (DoT)"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Kobold Worker"] = {
-							["Details"] = {
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Diseased Timber Wolf"] = {
-							["Details"] = {
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Defias Thug"] = {
-							["Details"] = {
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["RunicPowerGain"] = 0,
-					["Damage"] = 202,
-					["DispelledWho"] = {
-					},
-				},
-				["Fight2"] = {
-					["DOTs"] = {
-						["Corruption (DoT)"] = {
-							["Details"] = {
-								["Mangy Wolf"] = {
-									["count"] = 0,
-								},
-								["Kobold Tunneler"] = {
-									["count"] = 0,
-								},
-								["Forest Spider"] = {
-									["count"] = 0,
-								},
-								["Kobold Miner"] = {
-									["count"] = 0,
-								},
-								["Gray Forest Wolf"] = {
-									["count"] = 0,
-								},
-								["Kobold Geomancer"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Immolate (DoT)"] = {
-							["Details"] = {
-								["Mangy Wolf"] = {
-									["count"] = 0,
-								},
-								["Kobold Tunneler"] = {
-									["count"] = 0,
-								},
-								["Forest Spider"] = {
-									["count"] = 0,
-								},
-								["Kobold Miner"] = {
-									["count"] = 0,
-								},
-								["Gray Forest Wolf"] = {
-									["count"] = 0,
-								},
-								["Kobold Geomancer"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Curse of Agony (DoT)"] = {
-							["Details"] = {
-								["Kobold Miner"] = {
-									["count"] = 0,
-								},
-								["Kobold Geomancer"] = {
-									["count"] = 0,
-								},
-								["Gray Forest Wolf"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["ElementDoneResist"] = {
-						["Fire"] = 0,
-						["Shadow"] = 0,
-					},
-					["ElementHitsTaken"] = {
-						["Physical"] = {
-							["Details"] = {
-								["Parry"] = {
-									["count"] = 0,
-								},
-								["Miss"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 2,
-								},
-								["Dodge"] = {
-									["count"] = 1,
-								},
-								["Miss"] = {
-									["count"] = 0,
-								},
-								["Crit"] = {
-									["count"] = 1,
-								},
-								["Parry"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 4,
-						},
-						["Fire"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["HealedWho"] = {
-						["Elgorath"] = {
-							["Details"] = {
-								["Healing Potion"] = {
-									["count"] = 0,
-								},
-								["Swift Hand of Justice"] = {
-									["count"] = 14,
-								},
-								["Judgement of Light"] = {
-									["count"] = 0,
-								},
-								["Holy Strength"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 14,
-						},
-					},
-					["Overhealing"] = 0,
-					["ElementTaken"] = {
-						["Melee"] = 20,
-						["Fire"] = 0,
-					},
-					["DOT_Time"] = 0,
-					["Damage"] = 181,
-					["TimeHeal"] = 0,
-					["ElementDone"] = {
-						["Fire"] = 0,
-						["Holy"] = 18,
-						["Melee"] = 163,
-						["Shadow"] = 0,
-					},
-					["ElementHitsDone"] = {
-						["Fire"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 0,
-								},
-								["Crit"] = {
-									["count"] = 0,
-								},
-								["Tick"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Holy"] = {
-							["Details"] = {
-								["Crit"] = {
-									["count"] = 0,
-								},
-								["Hit"] = {
-									["count"] = 2,
-								},
-							},
-							["amount"] = 2,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["Glancing"] = {
-									["count"] = 1,
-								},
-								["Hit"] = {
-									["count"] = 1,
-								},
-								["Dodge"] = {
-									["count"] = 1,
-								},
-								["Crit"] = {
-									["count"] = 0,
-								},
-								["Parry"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 3,
-						},
-						["Shadow"] = {
-							["Details"] = {
-								["Tick"] = {
-									["count"] = 0,
-								},
-								["Hit"] = {
-									["count"] = 0,
-								},
-								["Crit"] = {
-									["count"] = 0,
-								},
-								["Miss"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["WhoDamaged"] = {
-						["Mangy Wolf"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Forest Spider"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Goldtooth"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Kobold Tunneler"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 20,
-								},
-							},
-							["amount"] = 20,
-						},
-						["Kobold Miner"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Kobold Worker"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Kobold Geomancer"] = {
-							["Details"] = {
-								["Fireball"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Kobold Vermin"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["ElementDoneBlock"] = {
-						["Melee"] = 0,
-					},
-					["TimeHealing"] = {
-						["Elgorath"] = {
-							["Details"] = {
-								["Healing Potion"] = {
-									["count"] = 0,
-								},
-								["Swift Hand of Justice"] = {
-									["count"] = 0,
-								},
-								["Judgement of Light"] = {
-									["count"] = 0,
-								},
-								["Holy Strength"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["OverHeals"] = {
-						["Swift Hand of Justice"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Judgement of Light"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Holy Strength"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["PartialResist"] = {
-						["Fireball"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Pierce Armor"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 4,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 4,
-							["amount"] = 0,
-						},
-					},
-					["ManaGained"] = {
-						["Life Tap"] = {
-							["Details"] = {
-								["Elgorath"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["PartialAbsorb"] = {
-						["Fireball"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Pierce Armor"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 4,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 4,
-							["amount"] = 0,
-						},
-					},
-					["ActiveTime"] = 9.51,
-					["Heals"] = {
-						["Healing Potion"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Swift Hand of Justice"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 7,
-									["min"] = 0,
-									["count"] = 2,
-									["amount"] = 14,
-								},
-							},
-							["count"] = 2,
-							["amount"] = 14,
-						},
-						["Judgement of Light"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Holy Strength"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["ManaGainedFrom"] = {
-						["Elgorath"] = {
-							["Details"] = {
-								["Life Tap"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["DamagedWho"] = {
-						["Mangy Wolf"] = {
-							["Details"] = {
-								["Corruption (DoT)"] = {
-									["count"] = 0,
-								},
-								["Immolate"] = {
-									["count"] = 0,
-								},
-								["Immolate (DoT)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Diseased Young Wolf"] = {
-							["Details"] = {
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Kobold Tunneler"] = {
-							["Details"] = {
-								["Corruption (DoT)"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 163,
-								},
-								["Shadow Bolt"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 18,
-								},
-								["Immolate (DoT)"] = {
-									["count"] = 0,
-								},
-								["Immolate"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 181,
-						},
-						["Forest Spider"] = {
-							["Details"] = {
-								["Corruption (DoT)"] = {
-									["count"] = 0,
-								},
-								["Immolate (DoT)"] = {
-									["count"] = 0,
-								},
-								["Immolate"] = {
-									["count"] = 0,
-								},
-								["Shadow Bolt"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Kobold Geomancer"] = {
-							["Details"] = {
-								["Corruption (DoT)"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Immolate (DoT)"] = {
-									["count"] = 0,
-								},
-								["Immolate"] = {
-									["count"] = 0,
-								},
-								["Curse of Agony (DoT)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Goldtooth"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Gray Forest Wolf"] = {
-							["Details"] = {
-								["Corruption (DoT)"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Shadow Bolt"] = {
-									["count"] = 0,
-								},
-								["Immolate (DoT)"] = {
-									["count"] = 0,
-								},
-								["Immolate"] = {
-									["count"] = 0,
-								},
-								["Curse of Agony (DoT)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Kobold Miner"] = {
-							["Details"] = {
-								["Shadow Bolt"] = {
-									["count"] = 0,
-								},
-								["Corruption (DoT)"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Curse of Agony (DoT)"] = {
-									["count"] = 0,
-								},
-								["Immolate (DoT)"] = {
-									["count"] = 0,
-								},
-								["Immolate"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Kobold Worker"] = {
-							["Details"] = {
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Kobold Vermin"] = {
-							["Details"] = {
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["Healing"] = 14,
-					["TimeSpent"] = {
-						["Mangy Wolf"] = {
-							["Details"] = {
-								["Corruption (DoT)"] = {
-									["count"] = 0,
-								},
-								["Immolate"] = {
-									["count"] = 0,
-								},
-								["Immolate (DoT)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Diseased Young Wolf"] = {
-							["Details"] = {
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Kobold Tunneler"] = {
-							["Details"] = {
-								["Corruption (DoT)"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 3.18,
-								},
-								["Shadow Bolt"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 6.33,
-								},
-								["Immolate (DoT)"] = {
-									["count"] = 0,
-								},
-								["Immolate"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 9.51,
-						},
-						["Forest Spider"] = {
-							["Details"] = {
-								["Corruption (DoT)"] = {
-									["count"] = 0,
-								},
-								["Immolate (DoT)"] = {
-									["count"] = 0,
-								},
-								["Immolate"] = {
-									["count"] = 0,
-								},
-								["Shadow Bolt"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Kobold Geomancer"] = {
-							["Details"] = {
-								["Corruption (DoT)"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Immolate (DoT)"] = {
-									["count"] = 0,
-								},
-								["Immolate"] = {
-									["count"] = 0,
-								},
-								["Curse of Agony (DoT)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Goldtooth"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Gray Forest Wolf"] = {
-							["Details"] = {
-								["Corruption (DoT)"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Shadow Bolt"] = {
-									["count"] = 0,
-								},
-								["Immolate (DoT)"] = {
-									["count"] = 0,
-								},
-								["Immolate"] = {
-									["count"] = 0,
-								},
-								["Curse of Agony (DoT)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Elgorath"] = {
-							["Details"] = {
-								["Healing Potion"] = {
-									["count"] = 0,
-								},
-								["Swift Hand of Justice"] = {
-									["count"] = 0,
-								},
-								["Judgement of Light"] = {
-									["count"] = 0,
-								},
-								["Holy Strength"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Kobold Worker"] = {
-							["Details"] = {
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Kobold Miner"] = {
-							["Details"] = {
-								["Corruption"] = {
-									["count"] = 0,
-								},
-								["Corruption (DoT)"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Immolate"] = {
-									["count"] = 0,
-								},
-								["Shadow Bolt"] = {
-									["count"] = 0,
-								},
-								["Curse of Agony (DoT)"] = {
-									["count"] = 0,
-								},
-								["Immolate (DoT)"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Kobold Vermin"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["DamageTaken"] = 20,
-					["Attacks"] = {
-						["Corruption"] = {
-							["Details"] = {
-								["Miss"] = {
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Corruption (DoT)"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Seal of Righteousness"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 9,
-									["min"] = 0,
-									["count"] = 2,
-									["amount"] = 18,
-								},
-							},
-							["count"] = 2,
-							["amount"] = 18,
-						},
-						["Immolate"] = {
-							["Details"] = {
-								["Crit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Shadow Bolt"] = {
-							["Details"] = {
-								["Crit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Curse of Agony (DoT)"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Immolate (DoT)"] = {
-							["Details"] = {
-								["Crit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Tick"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["Glancing"] = {
-									["max"] = 88,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 88,
-								},
-								["Hit"] = {
-									["max"] = 75,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 75,
-								},
-								["Hit (Blocked)"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Dodge"] = {
-									["count"] = 1,
-									["amount"] = 0,
-								},
-								["Crit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Parry"] = {
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 3,
-							["amount"] = 163,
-						},
-						["Judgement of Righteousness"] = {
-							["Details"] = {
-								["Crit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["HealingTaken"] = 14,
-					["WhoHealed"] = {
-						["Elgorath"] = {
-							["Details"] = {
-								["Healing Potion"] = {
-									["count"] = 0,
-								},
-								["Swift Hand of Justice"] = {
-									["count"] = 14,
-								},
-								["Judgement of Light"] = {
-									["count"] = 0,
-								},
-								["Holy Strength"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 14,
-						},
-					},
-					["TimeDamage"] = 9.51,
-					["TimeDamaging"] = {
-						["Mangy Wolf"] = {
-							["Details"] = {
-								["Corruption (DoT)"] = {
-									["count"] = 0,
-								},
-								["Immolate"] = {
-									["count"] = 0,
-								},
-								["Immolate (DoT)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Diseased Young Wolf"] = {
-							["Details"] = {
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Kobold Tunneler"] = {
-							["Details"] = {
-								["Corruption (DoT)"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 3.18,
-								},
-								["Shadow Bolt"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 6.33,
-								},
-								["Immolate (DoT)"] = {
-									["count"] = 0,
-								},
-								["Immolate"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 9.51,
-						},
-						["Forest Spider"] = {
-							["Details"] = {
-								["Corruption (DoT)"] = {
-									["count"] = 0,
-								},
-								["Immolate (DoT)"] = {
-									["count"] = 0,
-								},
-								["Immolate"] = {
-									["count"] = 0,
-								},
-								["Shadow Bolt"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Kobold Geomancer"] = {
-							["Details"] = {
-								["Corruption (DoT)"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Immolate (DoT)"] = {
-									["count"] = 0,
-								},
-								["Immolate"] = {
-									["count"] = 0,
-								},
-								["Curse of Agony (DoT)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Goldtooth"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Gray Forest Wolf"] = {
-							["Details"] = {
-								["Corruption (DoT)"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Shadow Bolt"] = {
-									["count"] = 0,
-								},
-								["Immolate (DoT)"] = {
-									["count"] = 0,
-								},
-								["Immolate"] = {
-									["count"] = 0,
-								},
-								["Curse of Agony (DoT)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Kobold Miner"] = {
-							["Details"] = {
-								["Corruption"] = {
-									["count"] = 0,
-								},
-								["Corruption (DoT)"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Immolate"] = {
-									["count"] = 0,
-								},
-								["Shadow Bolt"] = {
-									["count"] = 0,
-								},
-								["Curse of Agony (DoT)"] = {
-									["count"] = 0,
-								},
-								["Immolate (DoT)"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Kobold Worker"] = {
-							["Details"] = {
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Kobold Vermin"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["ManaGain"] = 0,
-					["HOT_Time"] = 0,
-					["HOTs"] = {
-						["Judgement of Light"] = {
-							["Details"] = {
-								["Elgorath"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-				},
-				["Fight3"] = {
-					["DOTs"] = {
-						["Immolate (DoT)"] = {
-							["Details"] = {
-								["Kobold Miner"] = {
-									["count"] = 0,
-								},
-								["Murloc"] = {
-									["count"] = 0,
-								},
-								["Kobold Tunneler"] = {
-									["count"] = 0,
-								},
-								["Gray Forest Wolf"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Corruption (DoT)"] = {
-							["Details"] = {
-								["Kobold Miner"] = {
-									["count"] = 0,
-								},
-								["Murloc"] = {
-									["count"] = 0,
-								},
-								["Kobold Tunneler"] = {
-									["count"] = 0,
-								},
-								["Gray Forest Wolf"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Curse of Agony (DoT)"] = {
-							["Details"] = {
-								["Kobold Miner"] = {
-									["count"] = 0,
-								},
-								["Gray Forest Wolf"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["ElementDoneResist"] = {
-						["Fire"] = 0,
-						["Shadow"] = 0,
-					},
-					["Ressed"] = 0,
-					["DamageTaken"] = 14,
-					["RageGainedFrom"] = {
-					},
-					["ElementHitsTaken"] = {
-						["Melee"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 3,
-								},
-								["Miss"] = {
-									["count"] = 1,
-								},
-								["Crushing"] = {
-									["count"] = 0,
-								},
-								["Dodge"] = {
-									["count"] = 2,
-								},
-								["Crit"] = {
-									["count"] = 0,
-								},
-								["Parry"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 6,
-						},
-						["Physical"] = {
-							["Details"] = {
-								["Miss"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["DeathCount"] = 0,
-					["HOT_Time"] = 0,
-					["DOT_Time"] = 0,
-					["ManaGain"] = 0,
-					["ElementTaken"] = {
-						["Melee"] = 14,
-					},
-					["HOTs"] = {
-						["Judgement of Light"] = {
-							["Details"] = {
-								["Elgorath"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["ElementTakenBlock"] = {
-					},
-					["ElementDoneAbsorb"] = {
-					},
-					["TimeHeal"] = 3.17,
-					["RessedWho"] = {
-					},
-					["Dispels"] = 0,
-					["PartialBlock"] = {
-					},
-					["FDamagedWho"] = {
-					},
-					["FAttacks"] = {
-					},
-					["RageGain"] = 0,
-					["ElementDone"] = {
-						["Fire"] = 0,
-						["Holy"] = 36,
-						["Melee"] = 337,
-						["Shadow"] = 0,
-					},
-					["ManaGainedFrom"] = {
-						["Elgorath"] = {
-							["Details"] = {
-								["Life Tap"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["DamagedWho"] = {
-						["Mangy Wolf"] = {
-							["Details"] = {
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Murloc"] = {
-							["Details"] = {
-								["Corruption (DoT)"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Immolate (DoT)"] = {
-									["count"] = 0,
-								},
-								["Immolate"] = {
-									["count"] = 0,
-								},
-								["Shadow Bolt"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Goldtooth"] = {
-							["Details"] = {
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Kobold Tunneler"] = {
-							["Details"] = {
-								["Corruption (DoT)"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Shadow Bolt"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Immolate (DoT)"] = {
-									["count"] = 0,
-								},
-								["Immolate"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Kobold Miner"] = {
-							["Details"] = {
-								["Shadow Bolt"] = {
-									["count"] = 0,
-								},
-								["Corruption (DoT)"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 337,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 36,
-								},
-								["Curse of Agony (DoT)"] = {
-									["count"] = 0,
-								},
-								["Immolate (DoT)"] = {
-									["count"] = 0,
-								},
-								["Immolate"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 373,
-						},
-						["Kobold Worker"] = {
-							["Details"] = {
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Gray Forest Wolf"] = {
-							["Details"] = {
-								["Corruption (DoT)"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Shadow Bolt"] = {
-									["count"] = 0,
-								},
-								["Immolate (DoT)"] = {
-									["count"] = 0,
-								},
-								["Immolate"] = {
-									["count"] = 0,
-								},
-								["Curse of Agony (DoT)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Kobold Vermin"] = {
-							["Details"] = {
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["OverHeals"] = {
-						["Swift Hand of Justice"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 7,
-									["min"] = 0,
-									["count"] = 3,
-									["amount"] = 14,
-								},
-							},
-							["count"] = 3,
-							["amount"] = 14,
-						},
-						["Judgement of Light"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Holy Strength"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["WhoDamaged"] = {
-						["Mangy Wolf"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Goldtooth"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Kobold Tunneler"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Kobold Miner"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 14,
-								},
-							},
-							["amount"] = 14,
-						},
-						["Murloc"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Kobold Worker"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["EnergyGainedFrom"] = {
-					},
-					["RageGained"] = {
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementDoneBlock"] = {
-						["Melee"] = 0,
-					},
-					["TimeHealing"] = {
-						["Elgorath"] = {
-							["Details"] = {
-								["Swift Hand of Justice"] = {
-									["count"] = 3.17,
-								},
-								["Judgement of Light"] = {
-									["count"] = 0,
-								},
-								["Holy Strength"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 3.17,
-						},
-					},
-					["Dispelled"] = 0,
-					["WhoHealed"] = {
-						["Elgorath"] = {
-							["Details"] = {
-								["Swift Hand of Justice"] = {
-									["count"] = 14,
-								},
-								["Judgement of Light"] = {
-									["count"] = 0,
-								},
-								["Holy Strength"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 14,
-						},
-					},
-					["PartialResist"] = {
-						["Melee"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 6,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 6,
-							["amount"] = 0,
-						},
-						["Pierce Armor"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["CCBreak"] = 0,
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
-					["EnergyGain"] = 0,
-					["ManaGained"] = {
-						["Life Tap"] = {
-							["Details"] = {
-								["Elgorath"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["ElementTakenAbsorb"] = {
-					},
-					["ActiveTime"] = 12.96,
-					["Overhealing"] = 14,
-					["ElementTakenResist"] = {
-					},
-					["InterruptData"] = {
-					},
-					["WhoDispelled"] = {
-					},
-					["TimeSpent"] = {
-						["Mangy Wolf"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Kobold Tunneler"] = {
-							["Details"] = {
-								["Corruption (DoT)"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Shadow Bolt"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Immolate (DoT)"] = {
-									["count"] = 0,
-								},
-								["Immolate"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Murloc"] = {
-							["Details"] = {
-								["Corruption (DoT)"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Immolate (DoT)"] = {
-									["count"] = 0,
-								},
-								["Immolate"] = {
-									["count"] = 0,
-								},
-								["Shadow Bolt"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Goldtooth"] = {
-							["Details"] = {
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Gray Forest Wolf"] = {
-							["Details"] = {
-								["Corruption (DoT)"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Shadow Bolt"] = {
-									["count"] = 0,
-								},
-								["Immolate (DoT)"] = {
-									["count"] = 0,
-								},
-								["Immolate"] = {
-									["count"] = 0,
-								},
-								["Curse of Agony (DoT)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Elgorath"] = {
-							["Details"] = {
-								["Swift Hand of Justice"] = {
-									["count"] = 3.17,
-								},
-								["Judgement of Light"] = {
-									["count"] = 0,
-								},
-								["Holy Strength"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 3.17,
-						},
-						["Kobold Worker"] = {
-							["Details"] = {
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Kobold Miner"] = {
-							["Details"] = {
-								["Shadow Bolt"] = {
-									["count"] = 0,
-								},
-								["Corruption (DoT)"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0.02,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 9.77,
-								},
-								["Curse of Agony (DoT)"] = {
-									["count"] = 0,
-								},
-								["Immolate (DoT)"] = {
-									["count"] = 0,
-								},
-								["Immolate"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 9.789999999999999,
-						},
-						["Kobold Vermin"] = {
-							["Details"] = {
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["Heals"] = {
-						["Swift Hand of Justice"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 7,
-									["min"] = 0,
-									["count"] = 3,
-									["amount"] = 14,
-								},
-							},
-							["count"] = 3,
-							["amount"] = 14,
-						},
-						["Judgement of Light"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Holy Strength"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["PartialAbsorb"] = {
-						["Melee"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 6,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 6,
-							["amount"] = 0,
-						},
-						["Pierce Armor"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["EnergyGained"] = {
-					},
-					["HealedWho"] = {
-						["Elgorath"] = {
-							["Details"] = {
-								["Swift Hand of Justice"] = {
-									["count"] = 14,
-								},
-								["Judgement of Light"] = {
-									["count"] = 0,
-								},
-								["Holy Strength"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 14,
-						},
-					},
-					["Healing"] = 14,
-					["CCBroken"] = {
-					},
-					["RunicPowerGained"] = {
-					},
-					["Attacks"] = {
-						["Shadow Bolt"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Miss"] = {
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Corruption (DoT)"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["Glancing"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Hit"] = {
-									["max"] = 73,
-									["min"] = 0,
-									["count"] = 3,
-									["amount"] = 217,
-								},
-								["Hit (Blocked)"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Dodge"] = {
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Crit"] = {
-									["max"] = 120,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 120,
-								},
-								["Parry"] = {
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 4,
-							["amount"] = 337,
-						},
-						["Seal of Righteousness"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 9,
-									["min"] = 0,
-									["count"] = 4,
-									["amount"] = 36,
-								},
-							},
-							["count"] = 4,
-							["amount"] = 36,
-						},
-						["Curse of Agony (DoT)"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Immolate (DoT)"] = {
-							["Details"] = {
-								["Crit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Tick"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Immolate"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Miss"] = {
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Judgement of Righteousness"] = {
-							["Details"] = {
-								["Crit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["HealingTaken"] = 14,
-					["ElementHitsDone"] = {
-						["Fire"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 0,
-								},
-								["Miss"] = {
-									["count"] = 0,
-								},
-								["Crit"] = {
-									["count"] = 0,
-								},
-								["Tick"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Holy"] = {
-							["Details"] = {
-								["Crit"] = {
-									["count"] = 0,
-								},
-								["Hit"] = {
-									["count"] = 4,
-								},
-							},
-							["amount"] = 4,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["Glancing"] = {
-									["count"] = 0,
-								},
-								["Hit"] = {
-									["count"] = 3,
-								},
-								["Dodge"] = {
-									["count"] = 0,
-								},
-								["Crit"] = {
-									["count"] = 1,
-								},
-								["Parry"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 4,
-						},
-						["Shadow"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 0,
-								},
-								["Tick"] = {
-									["count"] = 0,
-								},
-								["Miss"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["TimeDamage"] = 9.789999999999999,
-					["TimeDamaging"] = {
-						["Mangy Wolf"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Murloc"] = {
-							["Details"] = {
-								["Corruption (DoT)"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Immolate (DoT)"] = {
-									["count"] = 0,
-								},
-								["Immolate"] = {
-									["count"] = 0,
-								},
-								["Shadow Bolt"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Goldtooth"] = {
-							["Details"] = {
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Kobold Tunneler"] = {
-							["Details"] = {
-								["Corruption (DoT)"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Shadow Bolt"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Immolate (DoT)"] = {
-									["count"] = 0,
-								},
-								["Immolate"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Kobold Miner"] = {
-							["Details"] = {
-								["Shadow Bolt"] = {
-									["count"] = 0,
-								},
-								["Corruption (DoT)"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0.02,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 9.77,
-								},
-								["Curse of Agony (DoT)"] = {
-									["count"] = 0,
-								},
-								["Immolate (DoT)"] = {
-									["count"] = 0,
-								},
-								["Immolate"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 9.789999999999999,
-						},
-						["Kobold Worker"] = {
-							["Details"] = {
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Gray Forest Wolf"] = {
-							["Details"] = {
-								["Corruption (DoT)"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Shadow Bolt"] = {
-									["count"] = 0,
-								},
-								["Immolate (DoT)"] = {
-									["count"] = 0,
-								},
-								["Immolate"] = {
-									["count"] = 0,
-								},
-								["Curse of Agony (DoT)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Kobold Vermin"] = {
-							["Details"] = {
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["RunicPowerGain"] = 0,
-					["Damage"] = 373,
-					["DispelledWho"] = {
-					},
-				},
 			},
-			["Name"] = "Elgorath",
-			["Owner"] = false,
-			["Pet"] = {
-				"Karuri <Elgorath>", -- [1]
-			},
-			["NextEventNum"] = 35,
-			["LastEventHealthNum"] = {
-				98.65591397849462, -- [1]
-				98.65591397849462, -- [2]
-				97.31182795698925, -- [3]
-				97.31182795698925, -- [4]
-				94.6236559139785, -- [5]
-				94.6236559139785, -- [6]
-				96.50537634408602, -- [7]
-				98.38709677419355, -- [8]
-				98.38709677419355, -- [9]
-				100, -- [10]
-				99.46236559139786, -- [11]
-				100, -- [12]
-				100, -- [13]
-				100, -- [14]
-				100, -- [15]
-				100, -- [16]
-				100, -- [17]
-				99.46236559139786, -- [18]
-				100, -- [19]
-				100, -- [20]
-				100, -- [21]
-				100, -- [22]
-				98.9247311827957, -- [23]
-				98.9247311827957, -- [24]
-				98.9247311827957, -- [25]
-				98.9247311827957, -- [26]
-				100, -- [27]
-				100, -- [28]
-				100, -- [29]
-				100, -- [30]
-				99.46236559139786, -- [31]
-				100, -- [32]
-				100, -- [33]
-				100, -- [34]
-				100, -- [35]
-				100, -- [36]
-				98.38709677419355, -- [37]
-				100, -- [38]
-				100, -- [39]
-				100, -- [40]
-				100, -- [41]
-				100, -- [42]
-				100, -- [43]
-				100, -- [44]
-				100, -- [45]
-				100, -- [46]
-				100, -- [47]
-				100, -- [48]
-				100, -- [49]
-				98.65591397849462, -- [50]
-			},
-			["LastEvents"] = {
-				"Elgorath Melee Kobold Tunneler Glancing -88 (Physical)", -- [1]
-				"Kobold Tunneler Melee Elgorath Hit -5 (Physical)", -- [2]
-				"Elgorath Melee Kobold Tunneler Dodge", -- [3]
-				"Kobold Tunneler Melee Elgorath Crit -10 (Physical)", -- [4]
-				"Kobold Tunneler Melee Elgorath Dodge", -- [5]
-				"Elgorath Seal of Righteousness Kobold Tunneler Hit -9 (Holy)", -- [6]
-				"Elgorath Swift Hand of Justice Elgorath Hit +7", -- [7]
-				"Elgorath Swift Hand of Justice Elgorath Hit +7", -- [8]
-				"Elgorath Melee Kobold Tunneler Hit -75 (Physical)", -- [9]
-				"Kobold Tunneler Melee Elgorath Hit -2 (Physical)", -- [10]
-				"Elgorath Seal of Righteousness Kobold Tunneler Hit -9 (Holy)", -- [11]
-				"Elgorath Swift Hand of Justice Elgorath Hit +7 (5 overheal)", -- [12]
-				"Elgorath Swift Hand of Justice Elgorath Hit +7 (7 overheal)", -- [13]
-				"Elgorath Melee Kobold Tunneler Glancing -105 (Physical)", -- [14]
-				"Elgorath Seal of Righteousness Kobold Tunneler Hit -9 (Holy)", -- [15]
-				"Elgorath Judgement of Righteousness Kobold Tunneler Hit -22 (Holy)", -- [16]
-				"Kobold Tunneler Melee Elgorath Hit -2 (Physical)", -- [17]
-				"Elgorath Seal of Righteousness Kobold Tunneler Hit -9 (Holy)", -- [18]
-				"Elgorath Swift Hand of Justice Elgorath Hit +7 (5 overheal)", -- [19]
-				"Elgorath Swift Hand of Justice Elgorath Hit +7 (7 overheal)", -- [20]
-				"Elgorath Melee Kobold Tunneler Crit -152 (Physical)", -- [21]
-				"Kobold Tunneler Melee Elgorath Hit -4 (Physical)", -- [22]
-				"Elgorath Seal of Righteousness Kobold Tunneler Hit -9 (Holy)", -- [23]
-				"Elgorath Melee Kobold Tunneler Glancing -84 (Physical)", -- [24]
-				"Kobold Tunneler Melee Elgorath Miss", -- [25]
-				"Elgorath Seal of Righteousness Kobold Tunneler Hit -9 (Holy)", -- [26]
-				"Elgorath Swift Hand of Justice Elgorath Hit +7 (3 overheal)", -- [27]
-				"Elgorath Swift Hand of Justice Elgorath Hit +7 (7 overheal)", -- [28]
-				"Elgorath Melee Kobold Tunneler Glancing -100 (Physical)", -- [29]
-				"Kobold Tunneler Melee Elgorath Hit -2 (Physical)", -- [30]
-				"Elgorath Seal of Righteousness Kobold Tunneler Hit -9 (Holy)", -- [31]
-				"Elgorath Swift Hand of Justice Elgorath Hit +7 (5 overheal)", -- [32]
-				"Elgorath Swift Hand of Justice Elgorath Hit +7 (7 overheal)", -- [33]
-				"Elgorath Melee Kobold Tunneler Crit -128 (Physical)", -- [34]
-				"Elgorath Melee Kobold Miner Crit -120 (Physical)", -- [35]
-				"Kobold Miner Melee Elgorath Hit -6 (Physical)", -- [36]
-				"Kobold Miner Melee Elgorath Dodge", -- [37]
-				"Elgorath Swift Hand of Justice Elgorath Hit +7 (1 overheal)", -- [38]
-				"Elgorath Swift Hand of Justice Elgorath Hit +7 (7 overheal)", -- [39]
-				"Elgorath Seal of Righteousness Kobold Miner Hit -9 (Holy)", -- [40]
-				"Elgorath Melee Kobold Miner Hit -73 (Physical)", -- [41]
-				"Elgorath Seal of Righteousness Kobold Tunneler Hit -9 (Holy)", -- [42]
-				"Elgorath Judgement of Light Elgorath Tick +7 (7 overheal)", -- [43]
-				"Elgorath Judgement of Righteousness Kobold Tunneler Crit -44 (Holy)", -- [44]
-				"Elgorath Seal of Righteousness Kobold Tunneler Hit -9 (Holy)", -- [45]
-				"Elgorath Swift Hand of Justice Elgorath Hit +7 (7 overheal)", -- [46]
-				"Elgorath Swift Hand of Justice Elgorath Hit +7 (7 overheal)", -- [47]
-				"Elgorath Melee Kobold Tunneler Glancing -105 (Physical)", -- [48]
-				"Kobold Tunneler Melee Elgorath Hit -5 (Physical)", -- [49]
-				"Elgorath Seal of Righteousness Kobold Tunneler Hit -9 (Holy)", -- [50]
-			},
-			["LastEventIncoming"] = {
-				false, -- [1]
-				true, -- [2]
-				false, -- [3]
-				true, -- [4]
-				true, -- [5]
-				false, -- [6]
-				true, -- [7]
-				true, -- [8]
-				false, -- [9]
-				true, -- [10]
-				false, -- [11]
-				true, -- [12]
-				true, -- [13]
-				false, -- [14]
-				false, -- [15]
-				false, -- [16]
-				true, -- [17]
-				false, -- [18]
-				true, -- [19]
-				true, -- [20]
-				false, -- [21]
-				true, -- [22]
-				false, -- [23]
-				false, -- [24]
-				true, -- [25]
-				false, -- [26]
-				true, -- [27]
-				true, -- [28]
-				false, -- [29]
-				true, -- [30]
-				false, -- [31]
-				true, -- [32]
-				true, -- [33]
-				false, -- [34]
-				false, -- [35]
-				true, -- [36]
-				true, -- [37]
-				true, -- [38]
-				true, -- [39]
-				false, -- [40]
-				false, -- [41]
-				false, -- [42]
-				true, -- [43]
-				false, -- [44]
-				false, -- [45]
-				true, -- [46]
-				true, -- [47]
-				false, -- [48]
-				true, -- [49]
-				false, -- [50]
-			},
-			["LastDamageTaken"] = 2,
-			["DeathLogs"] = {
-				{
-					["MessageIncoming"] = {
-						true, -- [1]
-						true, -- [2]
-						true, -- [3]
-						true, -- [4]
-						true, -- [5]
-						true, -- [6]
-						true, -- [7]
-						true, -- [8]
-						true, -- [9]
-						true, -- [10]
-						true, -- [11]
-						true, -- [12]
-						true, -- [13]
-						true, -- [14]
-						true, -- [15]
-						true, -- [16]
-						true, -- [17]
-						true, -- [18]
-						true, -- [19]
-						true, -- [20]
-						true, -- [21]
-						true, -- [22]
-						true, -- [23]
-						true, -- [24]
-						true, -- [25]
-					},
-					["Messages"] = {
-						"Kobold Geomancer Fireball Elgorath Hit -47 (Fire)", -- [1]
-						"Kobold Miner Melee Elgorath Crit -12 (Physical)", -- [2]
-						"Kobold Miner Melee Elgorath Hit -6 (Physical)", -- [3]
-						"Kobold Miner Melee Elgorath Hit -5 (Physical)", -- [4]
-						"Kobold Miner Melee Elgorath Hit -6 (Physical)", -- [5]
-						"Kobold Geomancer Melee Elgorath Hit -8 (Physical)", -- [6]
-						"Kobold Miner Melee Elgorath Hit -5 (Physical)", -- [7]
-						"Kobold Miner Pierce Armor Elgorath Miss (Physical)", -- [8]
-						"Kobold Miner Melee Elgorath Hit -8 (Physical)", -- [9]
-						"Kobold Miner Melee Elgorath Hit -6 (Physical)", -- [10]
-						"Kobold Miner Melee Elgorath Hit -6 (Physical)", -- [11]
-						"Kobold Miner Melee Elgorath Hit -6 (Physical)", -- [12]
-						"Kobold Miner Melee Elgorath Hit -5 (Physical)", -- [13]
-						"Kobold Miner Melee Elgorath Hit -8 (Physical)", -- [14]
-						"Kobold Miner Melee Elgorath Hit -6 (Physical)", -- [15]
-						"Kobold Miner Melee Elgorath Hit -6 (Physical)", -- [16]
-						"Kobold Miner Melee Elgorath Hit -6 (Physical)", -- [17]
-						"Kobold Miner Melee Elgorath Hit -5 (Physical)", -- [18]
-						"Kobold Miner Melee Elgorath Hit -8 (Physical)", -- [19]
-						"Kobold Miner Melee Elgorath Hit -5 (Physical)", -- [20]
-						"Kobold Miner Melee Elgorath Hit -5 (Physical)", -- [21]
-						"Kobold Miner Melee Elgorath Hit -6 (Physical)", -- [22]
-						"Kobold Miner Melee Elgorath Hit -6 (Physical)", -- [23]
-						"Kobold Miner Melee Elgorath Hit -6 (Physical)", -- [24]
-						"Elgorath dies.", -- [25]
-					},
-					["DeathAt"] = 1689150219,
-					["HealthNum"] = {
-						75, -- [1]
-						75, -- [2]
-						68.61702127659575, -- [3]
-						65.42553191489361, -- [4]
-						62.76595744680851, -- [5]
-						59.57446808510638, -- [6]
-						55.31914893617022, -- [7]
-						52.6595744680851, -- [8]
-						52.6595744680851, -- [9]
-						48.40425531914894, -- [10]
-						45.21276595744681, -- [11]
-						42.02127659574468, -- [12]
-						38.82978723404256, -- [13]
-						36.17021276595744, -- [14]
-						31.91489361702128, -- [15]
-						28.72340425531915, -- [16]
-						25.53191489361702, -- [17]
-						22.34042553191489, -- [18]
-						19.68085106382979, -- [19]
-						15.42553191489362, -- [20]
-						12.76595744680851, -- [21]
-						10.10638297872341, -- [22]
-						6.914893617021277, -- [23]
-						0.5952380952380952, -- [24]
-						0, -- [25]
-					},
-					["MessageTimes"] = {
-						-13.42000000000007, -- [1]
-						-13.00500000000011, -- [2]
-						-12.04600000000028, -- [3]
-						-11.01299999999992, -- [4]
-						-10.03700000000026, -- [5]
-						-9.054000000000087, -- [6]
-						-9.01299999999992, -- [7]
-						-6.996000000000095, -- [8]
-						-6.404999999999745, -- [9]
-						-6.020999999999731, -- [10]
-						-5.028999999999542, -- [11]
-						-4.787999999999556, -- [12]
-						-4.454999999999927, -- [13]
-						-4.403999999999542, -- [14]
-						-4.005000000000109, -- [15]
-						-2.988000000000284, -- [16]
-						-2.76299999999992, -- [17]
-						-2.462999999999738, -- [18]
-						-2.403999999999542, -- [19]
-						-2.003999999999905, -- [20]
-						-1.020999999999731, -- [21]
-						-0.7879999999995562, -- [22]
-						-0.4459999999999127, -- [23]
-						-0.002999999999701686, -- [24]
-						0, -- [25]
-					},
-					["KilledBy"] = "Kobold Miner",
-					["Health"] = {
-						"141 (75%)", -- [1]
-						"141 (75%)", -- [2]
-						"129 (68%)", -- [3]
-						"123 (65%)", -- [4]
-						"118 (62%)", -- [5]
-						"112 (59%)", -- [6]
-						"104 (55%)", -- [7]
-						"99 (52%)", -- [8]
-						"99 (52%)", -- [9]
-						"91 (48%)", -- [10]
-						"85 (45%)", -- [11]
-						"79 (42%)", -- [12]
-						"73 (38%)", -- [13]
-						"68 (36%)", -- [14]
-						"60 (31%)", -- [15]
-						"54 (28%)", -- [16]
-						"48 (25%)", -- [17]
-						"42 (22%)", -- [18]
-						"37 (19%)", -- [19]
-						"29 (15%)", -- [20]
-						"24 (12%)", -- [21]
-						"19 (10%)", -- [22]
-						"13 (6%)", -- [23]
-						"1 (0%)", -- [24]
-						"0 (0%)", -- [25]
-					},
-					["EventNum"] = {
-						25, -- [1]
-						6.382978723404255, -- [2]
-						3.191489361702128, -- [3]
-						2.659574468085106, -- [4]
-						3.191489361702128, -- [5]
-						4.25531914893617, -- [6]
-						2.659574468085106, -- [7]
-						0, -- [8]
-						4.25531914893617, -- [9]
-						3.191489361702128, -- [10]
-						3.191489361702128, -- [11]
-						3.191489361702128, -- [12]
-						2.659574468085106, -- [13]
-						4.25531914893617, -- [14]
-						3.191489361702128, -- [15]
-						3.191489361702128, -- [16]
-						3.191489361702128, -- [17]
-						2.659574468085106, -- [18]
-						4.25531914893617, -- [19]
-						2.659574468085106, -- [20]
-						2.659574468085106, -- [21]
-						3.191489361702128, -- [22]
-						3.191489361702128, -- [23]
-						3.571428571428572, -- [24]
-						0, -- [25]
-					},
-					["MessageType"] = {
-						"DAMAGE", -- [1]
-						"DAMAGE", -- [2]
-						"DAMAGE", -- [3]
-						"DAMAGE", -- [4]
-						"DAMAGE", -- [5]
-						"DAMAGE", -- [6]
-						"DAMAGE", -- [7]
-						"DAMAGE", -- [8]
-						"DAMAGE", -- [9]
-						"DAMAGE", -- [10]
-						"DAMAGE", -- [11]
-						"DAMAGE", -- [12]
-						"DAMAGE", -- [13]
-						"DAMAGE", -- [14]
-						"DAMAGE", -- [15]
-						"DAMAGE", -- [16]
-						"DAMAGE", -- [17]
-						"DAMAGE", -- [18]
-						"DAMAGE", -- [19]
-						"DAMAGE", -- [20]
-						"DAMAGE", -- [21]
-						"DAMAGE", -- [22]
-						"DAMAGE", -- [23]
-						"DAMAGE", -- [24]
-						"MISC", -- [25]
-					},
-				}, -- [1]
-			},
-			["TimeLast"] = {
-				["TimeHeal"] = 1689519245,
-				["Dispelled"] = 1689502990,
-				["Dispels"] = 1689502990,
-				["Healing"] = 1689519245,
-				["OVERALL"] = 1689519245,
-				["DamageTaken"] = 1689519245,
-				["HealingTaken"] = 1689519245,
-				["Overhealing"] = 1689519245,
-				["DeathCount"] = 1689150217,
-				["HOT_Time"] = 1689519179,
-				["TimeDamage"] = 1689519245,
-				["ActiveTime"] = 1689519245,
-				["ManaGain"] = 1689150093,
-				["DOT_Time"] = 1689150196,
-				["Damage"] = 1689519245,
-			},
-			["LastEventTimes"] = {
-				1214.012, -- [1]
-				1215.77, -- [2]
-				1217.196, -- [3]
-				1217.821, -- [4]
-				1219.804, -- [5]
-				1220.304, -- [6]
-				1220.304, -- [7]
-				1220.305, -- [8]
-				1220.305, -- [9]
-				1250.121, -- [10]
-				1250.545, -- [11]
-				1250.546, -- [12]
-				1250.546, -- [13]
-				1250.546, -- [14]
-				1257.195, -- [15]
-				1257.196, -- [16]
-				1257.221, -- [17]
-				1257.311, -- [18]
-				1257.312, -- [19]
-				1257.312, -- [20]
-				1257.313, -- [21]
-				1262.637, -- [22]
-				1262.678, -- [23]
-				1262.678, -- [24]
-				1264.711, -- [25]
-				1265.844, -- [26]
-				1265.845, -- [27]
-				1265.846, -- [28]
-				1265.846, -- [29]
-				1276.611, -- [30]
-				1276.744, -- [31]
-				1276.745, -- [32]
-				1276.745, -- [33]
-				1276.746, -- [34]
-				1202.821, -- [35]
-				1203.371, -- [36]
-				1205.312, -- [37]
-				1205.987, -- [38]
-				1205.988, -- [39]
-				1205.988, -- [40]
-				1205.988, -- [41]
-				1210.614, -- [42]
-				1210.614, -- [43]
-				1210.614, -- [44]
-				1210.787, -- [45]
-				1210.788, -- [46]
-				1210.788, -- [47]
-				1210.789, -- [48]
-				1213.738, -- [49]
-				1214.012, -- [50]
-			},
-			["LastAbility"] = 1276.746,
+			["UnitLockout"] = 1689145953,
+			["LastActive"] = 1689519245,
 		},
 		["Karuri <Elgorath>"] = {
 			["GUID"] = "0xF1404218930067D8",
@@ -11790,8 +11787,8 @@ RecountPerCharDB = {
 				"DAMAGE", -- [50]
 			},
 			["TimeWindows"] = {
-				["ActiveTime"] = {
-					1253.779999999998, -- [1]
+				["Damage"] = {
+					3945, -- [1]
 				},
 				["TimeDamage"] = {
 					1253.779999999998, -- [1]
@@ -11799,8 +11796,8 @@ RecountPerCharDB = {
 				["DamageTaken"] = {
 					2717, -- [1]
 				},
-				["Damage"] = {
-					3945, -- [1]
+				["ActiveTime"] = {
+					1253.779999999998, -- [1]
 				},
 			},
 			["enClass"] = "PET",
@@ -11850,870 +11847,66 @@ RecountPerCharDB = {
 			},
 			["type"] = "Pet",
 			["FightsSaved"] = 5,
-			["LastActive"] = 1689150216,
-			["UnitLockout"] = 1689145953,
+			["LastAbility"] = 2162.596,
+			["LastEventTimes"] = {
+				8059.472, -- [1]
+				8059.747, -- [2]
+				8059.773, -- [3]
+				8060.131, -- [4]
+				8061.465, -- [5]
+				8061.74, -- [6]
+				8062.156, -- [7]
+				8062.773, -- [8]
+				8063.764, -- [9]
+				8064.147, -- [10]
+				8065.74, -- [11]
+				8065.773, -- [12]
+				8066.156, -- [13]
+				8067.756, -- [14]
+				8068.172000000001, -- [15]
+				8069.773, -- [16]
+				8070.172000000001, -- [17]
+				8070.764, -- [18]
+				8071.755, -- [19]
+				8072.172000000001, -- [20]
+				8073.773, -- [21]
+				8073.773, -- [22]
+				8074.181000000001, -- [23]
+				8076.806000000001, -- [24]
+				8079.781, -- [25]
+				8082.772, -- [26]
+				8085.806000000001, -- [27]
+				8088.789, -- [28]
+				8098.855000000001, -- [29]
+				8099.239000000001, -- [30]
+				8101.239000000001, -- [31]
+				8103.121, -- [32]
+				8103.264, -- [33]
+				8105.139, -- [34]
+				8107.181000000001, -- [35]
+				8107.239000000001, -- [36]
+				8109.197, -- [37]
+				8109.247, -- [38]
+				8111.214, -- [39]
+				8122.798, -- [40]
+				8123.93, -- [41]
+				8125.205, -- [42]
+				8127.163000000001, -- [43]
+				8128.114000000001, -- [44]
+				8129.213, -- [45]
+				8131.247, -- [46]
+				8131.513, -- [47]
+				8057.464, -- [48]
+				8057.764, -- [49]
+				8058.139, -- [50]
+			},
 			["Owner"] = "Elgorath",
-			["Fights"] = {
-				["LastFightData"] = {
-					["DOTs"] = {
-					},
-					["ElementDoneResist"] = {
-					},
-					["Ressed"] = 0,
-					["DamageTaken"] = 0,
-					["RageGainedFrom"] = {
-					},
-					["ElementHitsTaken"] = {
-					},
-					["DeathCount"] = 0,
-					["HOT_Time"] = 0,
-					["ElementHitsDone"] = {
-					},
-					["ElementTakenAbsorb"] = {
-					},
-					["ElementTaken"] = {
-					},
-					["DOT_Time"] = 0,
-					["Damage"] = 0,
-					["ElementTakenBlock"] = {
-					},
-					["TimeHeal"] = 0,
-					["RessedWho"] = {
-					},
-					["Dispels"] = 0,
-					["ElementTakenResist"] = {
-					},
-					["ElementDoneAbsorb"] = {
-					},
-					["FAttacks"] = {
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementDone"] = {
-					},
-					["PartialAbsorb"] = {
-					},
-					["DamagedWho"] = {
-					},
-					["PartialBlock"] = {
-					},
-					["WhoDamaged"] = {
-					},
-					["EnergyGainedFrom"] = {
-					},
-					["PartialResist"] = {
-					},
-					["CCBroken"] = {
-					},
-					["ElementDoneBlock"] = {
-					},
-					["TimeHealing"] = {
-					},
-					["OverHeals"] = {
-					},
-					["ManaGainedFrom"] = {
-					},
-					["RunicPowerGained"] = {
-					},
-					["CCBreak"] = 0,
-					["RageGained"] = {
-					},
-					["HealedWho"] = {
-					},
-					["EnergyGain"] = 0,
-					["ManaGained"] = {
-					},
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
-					["Overhealing"] = 0,
-					["TimeSpent"] = {
-					},
-					["WhoDispelled"] = {
-					},
-					["InterruptData"] = {
-					},
-					["RunicPowerGain"] = 0,
-					["Heals"] = {
-					},
-					["WhoHealed"] = {
-					},
-					["EnergyGained"] = {
-					},
-					["ActiveTime"] = 0,
-					["Healing"] = 0,
-					["FDamagedWho"] = {
-					},
-					["Dispelled"] = 0,
-					["Attacks"] = {
-					},
-					["HealingTaken"] = 0,
-					["RageGain"] = 0,
-					["TimeDamage"] = 0,
-					["TimeDamaging"] = {
-					},
-					["ManaGain"] = 0,
-					["HOTs"] = {
-					},
-					["DispelledWho"] = {
-					},
-				},
-				["CurrentFightData"] = {
-					["DOTs"] = {
-					},
-					["ElementDoneResist"] = {
-					},
-					["Ressed"] = 0,
-					["DamageTaken"] = 0,
-					["RageGainedFrom"] = {
-					},
-					["ElementHitsTaken"] = {
-					},
-					["DeathCount"] = 0,
-					["HOT_Time"] = 0,
-					["ElementHitsDone"] = {
-					},
-					["ElementTakenAbsorb"] = {
-					},
-					["ElementTaken"] = {
-					},
-					["DOT_Time"] = 0,
-					["Damage"] = 0,
-					["ElementTakenBlock"] = {
-					},
-					["TimeHeal"] = 0,
-					["RessedWho"] = {
-					},
-					["Dispels"] = 0,
-					["ElementTakenResist"] = {
-					},
-					["ElementDoneAbsorb"] = {
-					},
-					["FAttacks"] = {
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementDone"] = {
-					},
-					["PartialAbsorb"] = {
-					},
-					["DamagedWho"] = {
-					},
-					["PartialBlock"] = {
-					},
-					["WhoDamaged"] = {
-					},
-					["EnergyGainedFrom"] = {
-					},
-					["PartialResist"] = {
-					},
-					["CCBroken"] = {
-					},
-					["ElementDoneBlock"] = {
-					},
-					["TimeHealing"] = {
-					},
-					["OverHeals"] = {
-					},
-					["ManaGainedFrom"] = {
-					},
-					["RunicPowerGained"] = {
-					},
-					["CCBreak"] = 0,
-					["RageGained"] = {
-					},
-					["HealedWho"] = {
-					},
-					["EnergyGain"] = 0,
-					["ManaGained"] = {
-					},
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
-					["Overhealing"] = 0,
-					["TimeSpent"] = {
-					},
-					["WhoDispelled"] = {
-					},
-					["InterruptData"] = {
-					},
-					["RunicPowerGain"] = 0,
-					["Heals"] = {
-					},
-					["WhoHealed"] = {
-					},
-					["EnergyGained"] = {
-					},
-					["ActiveTime"] = 0,
-					["Healing"] = 0,
-					["FDamagedWho"] = {
-					},
-					["Dispelled"] = 0,
-					["Attacks"] = {
-					},
-					["HealingTaken"] = 0,
-					["RageGain"] = 0,
-					["TimeDamage"] = 0,
-					["TimeDamaging"] = {
-					},
-					["ManaGain"] = 0,
-					["HOTs"] = {
-					},
-					["DispelledWho"] = {
-					},
-				},
-				["OverallData"] = {
-					["ElementDoneResist"] = {
-						["Fire"] = 1640,
-					},
-					["TimeSpent"] = {
-						["Mangy Wolf"] = {
-							["Details"] = {
-								["Firebolt"] = {
-									["count"] = 12.78,
-								},
-							},
-							["amount"] = 12.78,
-						},
-						["Mother Fang"] = {
-							["Details"] = {
-								["Firebolt"] = {
-									["count"] = 5.32,
-								},
-							},
-							["amount"] = 5.32,
-						},
-						["Kobold Tunneler"] = {
-							["Details"] = {
-								["Firebolt"] = {
-									["count"] = 338.7499999999998,
-								},
-							},
-							["amount"] = 338.7499999999998,
-						},
-						["Forest Spider"] = {
-							["Details"] = {
-								["Firebolt"] = {
-									["count"] = 49.95,
-								},
-							},
-							["amount"] = 49.95,
-						},
-						["Murloc"] = {
-							["Details"] = {
-								["Firebolt"] = {
-									["count"] = 67.92000000000002,
-								},
-							},
-							["amount"] = 67.92000000000002,
-						},
-						["Narg the Taskmaster"] = {
-							["Details"] = {
-								["Firebolt"] = {
-									["count"] = 24.87,
-								},
-							},
-							["amount"] = 24.87,
-						},
-						["Kobold Geomancer"] = {
-							["Details"] = {
-								["Firebolt"] = {
-									["count"] = 49.01,
-								},
-							},
-							["amount"] = 49.01,
-						},
-						["Goldtooth"] = {
-							["Details"] = {
-								["Firebolt"] = {
-									["count"] = 28.77,
-								},
-							},
-							["amount"] = 28.77,
-						},
-						["Stonetusk Boar"] = {
-							["Details"] = {
-								["Firebolt"] = {
-									["count"] = 27.25,
-								},
-							},
-							["amount"] = 27.25,
-						},
-						["Kobold Miner"] = {
-							["Details"] = {
-								["Firebolt"] = {
-									["count"] = 575.7699999999991,
-								},
-							},
-							["amount"] = 575.7699999999991,
-						},
-						["Defias Cutpurse"] = {
-							["Details"] = {
-								["Firebolt"] = {
-									["count"] = 11.5,
-								},
-							},
-							["amount"] = 11.5,
-						},
-						["Gray Forest Wolf"] = {
-							["Details"] = {
-								["Firebolt"] = {
-									["count"] = 33.77,
-								},
-							},
-							["amount"] = 33.77,
-						},
-						["Mine Spider"] = {
-							["Details"] = {
-								["Firebolt"] = {
-									["count"] = 28.12,
-								},
-							},
-							["amount"] = 28.12,
-						},
-					},
-					["DamageTaken"] = 2717,
-					["ElementDoneAbsorb"] = {
-						["Fire"] = 7,
-					},
-					["PartialResist"] = {
-						["Poison (DoT)"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 17,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 17,
-							["amount"] = 0,
-						},
-						["Pierce Armor"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 0,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 348,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 348,
-							["amount"] = 0,
-						},
-						["Fireball"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 14,
-									["amount"] = 0,
-								},
-								["25%Resist"] = {
-									["max"] = 7,
-									["min"] = 7,
-									["count"] = 1,
-									["amount"] = 7,
-								},
-							},
-							["count"] = 15,
-							["amount"] = 7,
-						},
-					},
-					["PartialAbsorb"] = {
-						["Poison (DoT)"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 17,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 17,
-							["amount"] = 0,
-						},
-						["Pierce Armor"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 0,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 348,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 348,
-							["amount"] = 0,
-						},
-						["Fireball"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 15,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 15,
-							["amount"] = 0,
-						},
-					},
-					["ActiveTime"] = 1253.779999999998,
-					["ElementTaken"] = {
-						["Fire"] = 576,
-						["Melee"] = 2072,
-						["Nature"] = 69,
-					},
-					["Damage"] = 3945,
-					["ElementHitsTaken"] = {
-						["Physical"] = {
-							["Details"] = {
-								["Miss"] = {
-									["count"] = 1,
-								},
-							},
-							["amount"] = 1,
-						},
-						["Fire"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 15,
-								},
-							},
-							["amount"] = 15,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 314,
-								},
-								["Miss"] = {
-									["count"] = 5,
-								},
-								["Crushing"] = {
-									["count"] = 1,
-								},
-								["Crit"] = {
-									["count"] = 27,
-								},
-								["Dodge"] = {
-									["count"] = 1,
-								},
-							},
-							["amount"] = 348,
-						},
-						["Nature"] = {
-							["Details"] = {
-								["Tick"] = {
-									["count"] = 17,
-								},
-							},
-							["amount"] = 17,
-						},
-					},
-					["ElementDone"] = {
-						["Fire"] = 3945,
-					},
-					["WhoDamaged"] = {
-						["Mangy Wolf"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 9,
-								},
-							},
-							["amount"] = 9,
-						},
-						["Mother Fang"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 86,
-								},
-							},
-							["amount"] = 86,
-						},
-						["Kobold Tunneler"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 394,
-								},
-							},
-							["amount"] = 394,
-						},
-						["Forest Spider"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 53,
-								},
-								["Poison (DoT)"] = {
-									["count"] = 14,
-								},
-							},
-							["amount"] = 67,
-						},
-						["Murloc"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 158,
-								},
-							},
-							["amount"] = 158,
-						},
-						["Narg the Taskmaster"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 34,
-								},
-							},
-							["amount"] = 34,
-						},
-						["Kobold Geomancer"] = {
-							["Details"] = {
-								["Fireball"] = {
-									["count"] = 576,
-								},
-								["Melee"] = {
-									["count"] = 7,
-								},
-							},
-							["amount"] = 583,
-						},
-						["Stonetusk Boar"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 51,
-								},
-							},
-							["amount"] = 51,
-						},
-						["Kobold Miner"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 1130,
-								},
-							},
-							["amount"] = 1130,
-						},
-						["Defias Cutpurse"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 16,
-								},
-							},
-							["amount"] = 16,
-						},
-						["Gray Forest Wolf"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 38,
-								},
-							},
-							["amount"] = 38,
-						},
-						["Mine Spider"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 96,
-								},
-								["Poison (DoT)"] = {
-									["count"] = 55,
-								},
-							},
-							["amount"] = 151,
-						},
-					},
-					["DamagedWho"] = {
-						["Mangy Wolf"] = {
-							["Details"] = {
-								["Firebolt"] = {
-									["count"] = 43,
-								},
-							},
-							["amount"] = 43,
-						},
-						["Mother Fang"] = {
-							["Details"] = {
-								["Firebolt"] = {
-									["count"] = 26,
-								},
-							},
-							["amount"] = 26,
-						},
-						["Kobold Tunneler"] = {
-							["Details"] = {
-								["Firebolt"] = {
-									["count"] = 851,
-								},
-							},
-							["amount"] = 851,
-						},
-						["Forest Spider"] = {
-							["Details"] = {
-								["Firebolt"] = {
-									["count"] = 205,
-								},
-							},
-							["amount"] = 205,
-						},
-						["Murloc"] = {
-							["Details"] = {
-								["Firebolt"] = {
-									["count"] = 249,
-								},
-							},
-							["amount"] = 249,
-						},
-						["Narg the Taskmaster"] = {
-							["Details"] = {
-								["Firebolt"] = {
-									["count"] = 71,
-								},
-							},
-							["amount"] = 71,
-						},
-						["Kobold Geomancer"] = {
-							["Details"] = {
-								["Firebolt"] = {
-									["count"] = 177,
-								},
-							},
-							["amount"] = 177,
-						},
-						["Goldtooth"] = {
-							["Details"] = {
-								["Firebolt"] = {
-									["count"] = 86,
-								},
-							},
-							["amount"] = 86,
-						},
-						["Stonetusk Boar"] = {
-							["Details"] = {
-								["Firebolt"] = {
-									["count"] = 98,
-								},
-							},
-							["amount"] = 98,
-						},
-						["Kobold Miner"] = {
-							["Details"] = {
-								["Firebolt"] = {
-									["count"] = 1653,
-								},
-							},
-							["amount"] = 1653,
-						},
-						["Defias Cutpurse"] = {
-							["Details"] = {
-								["Firebolt"] = {
-									["count"] = 71,
-								},
-							},
-							["amount"] = 71,
-						},
-						["Gray Forest Wolf"] = {
-							["Details"] = {
-								["Firebolt"] = {
-									["count"] = 235,
-								},
-							},
-							["amount"] = 235,
-						},
-						["Mine Spider"] = {
-							["Details"] = {
-								["Firebolt"] = {
-									["count"] = 180,
-								},
-							},
-							["amount"] = 180,
-						},
-					},
-					["TimeDamage"] = 1253.779999999998,
-					["TimeDamaging"] = {
-						["Mangy Wolf"] = {
-							["Details"] = {
-								["Firebolt"] = {
-									["count"] = 12.78,
-								},
-							},
-							["amount"] = 12.78,
-						},
-						["Mother Fang"] = {
-							["Details"] = {
-								["Firebolt"] = {
-									["count"] = 5.32,
-								},
-							},
-							["amount"] = 5.32,
-						},
-						["Kobold Tunneler"] = {
-							["Details"] = {
-								["Firebolt"] = {
-									["count"] = 338.7499999999998,
-								},
-							},
-							["amount"] = 338.7499999999998,
-						},
-						["Forest Spider"] = {
-							["Details"] = {
-								["Firebolt"] = {
-									["count"] = 49.95,
-								},
-							},
-							["amount"] = 49.95,
-						},
-						["Murloc"] = {
-							["Details"] = {
-								["Firebolt"] = {
-									["count"] = 67.92000000000002,
-								},
-							},
-							["amount"] = 67.92000000000002,
-						},
-						["Narg the Taskmaster"] = {
-							["Details"] = {
-								["Firebolt"] = {
-									["count"] = 24.87,
-								},
-							},
-							["amount"] = 24.87,
-						},
-						["Kobold Geomancer"] = {
-							["Details"] = {
-								["Firebolt"] = {
-									["count"] = 49.01,
-								},
-							},
-							["amount"] = 49.01,
-						},
-						["Goldtooth"] = {
-							["Details"] = {
-								["Firebolt"] = {
-									["count"] = 28.77,
-								},
-							},
-							["amount"] = 28.77,
-						},
-						["Stonetusk Boar"] = {
-							["Details"] = {
-								["Firebolt"] = {
-									["count"] = 27.25,
-								},
-							},
-							["amount"] = 27.25,
-						},
-						["Kobold Miner"] = {
-							["Details"] = {
-								["Firebolt"] = {
-									["count"] = 575.7699999999991,
-								},
-							},
-							["amount"] = 575.7699999999991,
-						},
-						["Defias Cutpurse"] = {
-							["Details"] = {
-								["Firebolt"] = {
-									["count"] = 11.5,
-								},
-							},
-							["amount"] = 11.5,
-						},
-						["Gray Forest Wolf"] = {
-							["Details"] = {
-								["Firebolt"] = {
-									["count"] = 33.77,
-								},
-							},
-							["amount"] = 33.77,
-						},
-						["Mine Spider"] = {
-							["Details"] = {
-								["Firebolt"] = {
-									["count"] = 28.12,
-								},
-							},
-							["amount"] = 28.12,
-						},
-					},
-					["ElementHitsDone"] = {
-						["Fire"] = {
-							["Details"] = {
-								["Absorb"] = {
-									["count"] = 1,
-								},
-								["Hit"] = {
-									["count"] = 509,
-								},
-								["Miss"] = {
-									["count"] = 20,
-								},
-								["Crit"] = {
-									["count"] = 35,
-								},
-								["Evade"] = {
-									["count"] = 1,
-								},
-							},
-							["amount"] = 566,
-						},
-					},
-					["Attacks"] = {
-						["Firebolt"] = {
-							["Details"] = {
-								["Absorb"] = {
-									["count"] = 1,
-									["amount"] = 0,
-								},
-								["Hit"] = {
-									["max"] = 14,
-									["min"] = 3,
-									["count"] = 509,
-									["amount"] = 3584,
-								},
-								["Miss"] = {
-									["count"] = 20,
-									["amount"] = 0,
-								},
-								["Crit"] = {
-									["max"] = 20,
-									["min"] = 5,
-									["count"] = 35,
-									["amount"] = 361,
-								},
-								["Evade"] = {
-									["count"] = 1,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 566,
-							["amount"] = 3945,
-						},
-					},
-					["ElementTakenResist"] = {
-						["Fire"] = 7,
-					},
-				},
+			["TimeLast"] = {
+				["ActiveTime"] = 1689150216,
+				["TimeDamage"] = 1689150216,
+				["OVERALL"] = 1689150216,
+				["DamageTaken"] = 1689150216,
+				["Damage"] = 1689150216,
 			},
 			["NextEventNum"] = 48,
 			["LastEventHealthNum"] = {
@@ -12821,7 +12014,6 @@ RecountPerCharDB = {
 				"Karuri <Elgorath> Firebolt Mine Spider Hit -12 (Fire)", -- [50]
 			},
 			["Name"] = "Karuri",
-			["LastDamageTaken"] = 37,
 			["LastEventIncoming"] = {
 				true, -- [1]
 				true, -- [2]
@@ -12874,66 +12066,871 @@ RecountPerCharDB = {
 				true, -- [49]
 				false, -- [50]
 			},
-			["TimeLast"] = {
-				["ActiveTime"] = 1689150216,
-				["TimeDamage"] = 1689150216,
-				["OVERALL"] = 1689150216,
-				["DamageTaken"] = 1689150216,
-				["Damage"] = 1689150216,
+			["LastDamageTaken"] = 37,
+			["Fights"] = {
+				["LastFightData"] = {
+					["DOTs"] = {
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 0,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["HOTs"] = {
+					},
+					["ManaGain"] = 0,
+					["ElementTaken"] = {
+					},
+					["DOT_Time"] = 0,
+					["Damage"] = 0,
+					["ElementDoneAbsorb"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["PartialAbsorb"] = {
+					},
+					["RageGain"] = 0,
+					["FAttacks"] = {
+					},
+					["PartialBlock"] = {
+					},
+					["ElementDone"] = {
+					},
+					["CCBroken"] = {
+					},
+					["ElementHitsDone"] = {
+					},
+					["Dispelled"] = 0,
+					["WhoDamaged"] = {
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["FDamagedWho"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+					},
+					["OverHeals"] = {
+					},
+					["RageGained"] = {
+					},
+					["ActiveTime"] = 0,
+					["CCBreak"] = 0,
+					["EnergyGain"] = 0,
+					["WhoHealed"] = {
+					},
+					["PartialResist"] = {
+					},
+					["ManaGained"] = {
+					},
+					["ElementTakenAbsorb"] = {
+					},
+					["Interrupts"] = 0,
+					["Overhealing"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["InterruptData"] = {
+					},
+					["WhoDispelled"] = {
+					},
+					["TimeSpent"] = {
+					},
+					["Heals"] = {
+					},
+					["FDamage"] = 0,
+					["EnergyGained"] = {
+					},
+					["HealedWho"] = {
+					},
+					["Healing"] = 0,
+					["RunicPowerGained"] = {
+					},
+					["ManaGainedFrom"] = {
+					},
+					["Attacks"] = {
+					},
+					["HealingTaken"] = 0,
+					["DamagedWho"] = {
+					},
+					["TimeDamage"] = 0,
+					["TimeDamaging"] = {
+					},
+					["RunicPowerGain"] = 0,
+					["ElementTakenBlock"] = {
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["CurrentFightData"] = {
+					["DOTs"] = {
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 0,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["HOTs"] = {
+					},
+					["ManaGain"] = 0,
+					["ElementTaken"] = {
+					},
+					["DOT_Time"] = 0,
+					["Damage"] = 0,
+					["ElementDoneAbsorb"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["PartialAbsorb"] = {
+					},
+					["RageGain"] = 0,
+					["FAttacks"] = {
+					},
+					["PartialBlock"] = {
+					},
+					["ElementDone"] = {
+					},
+					["CCBroken"] = {
+					},
+					["ElementHitsDone"] = {
+					},
+					["Dispelled"] = 0,
+					["WhoDamaged"] = {
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["FDamagedWho"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+					},
+					["OverHeals"] = {
+					},
+					["RageGained"] = {
+					},
+					["ActiveTime"] = 0,
+					["CCBreak"] = 0,
+					["EnergyGain"] = 0,
+					["WhoHealed"] = {
+					},
+					["PartialResist"] = {
+					},
+					["ManaGained"] = {
+					},
+					["ElementTakenAbsorb"] = {
+					},
+					["Interrupts"] = 0,
+					["Overhealing"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["InterruptData"] = {
+					},
+					["WhoDispelled"] = {
+					},
+					["TimeSpent"] = {
+					},
+					["Heals"] = {
+					},
+					["FDamage"] = 0,
+					["EnergyGained"] = {
+					},
+					["HealedWho"] = {
+					},
+					["Healing"] = 0,
+					["RunicPowerGained"] = {
+					},
+					["ManaGainedFrom"] = {
+					},
+					["Attacks"] = {
+					},
+					["HealingTaken"] = 0,
+					["DamagedWho"] = {
+					},
+					["TimeDamage"] = 0,
+					["TimeDamaging"] = {
+					},
+					["RunicPowerGain"] = 0,
+					["ElementTakenBlock"] = {
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["OverallData"] = {
+					["ElementDoneResist"] = {
+						["Fire"] = 1640,
+					},
+					["TimeSpent"] = {
+						["Mangy Wolf"] = {
+							["Details"] = {
+								["Firebolt"] = {
+									["count"] = 12.78,
+								},
+							},
+							["amount"] = 12.78,
+						},
+						["Mother Fang"] = {
+							["Details"] = {
+								["Firebolt"] = {
+									["count"] = 5.32,
+								},
+							},
+							["amount"] = 5.32,
+						},
+						["Kobold Tunneler"] = {
+							["Details"] = {
+								["Firebolt"] = {
+									["count"] = 338.7499999999998,
+								},
+							},
+							["amount"] = 338.7499999999998,
+						},
+						["Forest Spider"] = {
+							["Details"] = {
+								["Firebolt"] = {
+									["count"] = 49.95,
+								},
+							},
+							["amount"] = 49.95,
+						},
+						["Murloc"] = {
+							["Details"] = {
+								["Firebolt"] = {
+									["count"] = 67.92000000000002,
+								},
+							},
+							["amount"] = 67.92000000000002,
+						},
+						["Narg the Taskmaster"] = {
+							["Details"] = {
+								["Firebolt"] = {
+									["count"] = 24.87,
+								},
+							},
+							["amount"] = 24.87,
+						},
+						["Kobold Geomancer"] = {
+							["Details"] = {
+								["Firebolt"] = {
+									["count"] = 49.01,
+								},
+							},
+							["amount"] = 49.01,
+						},
+						["Goldtooth"] = {
+							["Details"] = {
+								["Firebolt"] = {
+									["count"] = 28.77,
+								},
+							},
+							["amount"] = 28.77,
+						},
+						["Stonetusk Boar"] = {
+							["Details"] = {
+								["Firebolt"] = {
+									["count"] = 27.25,
+								},
+							},
+							["amount"] = 27.25,
+						},
+						["Kobold Miner"] = {
+							["Details"] = {
+								["Firebolt"] = {
+									["count"] = 575.7699999999991,
+								},
+							},
+							["amount"] = 575.7699999999991,
+						},
+						["Mine Spider"] = {
+							["Details"] = {
+								["Firebolt"] = {
+									["count"] = 28.12,
+								},
+							},
+							["amount"] = 28.12,
+						},
+						["Gray Forest Wolf"] = {
+							["Details"] = {
+								["Firebolt"] = {
+									["count"] = 33.77,
+								},
+							},
+							["amount"] = 33.77,
+						},
+						["Defias Cutpurse"] = {
+							["Details"] = {
+								["Firebolt"] = {
+									["count"] = 11.5,
+								},
+							},
+							["amount"] = 11.5,
+						},
+					},
+					["DamageTaken"] = 2717,
+					["ElementDoneAbsorb"] = {
+						["Fire"] = 7,
+					},
+					["PartialResist"] = {
+						["Poison (DoT)"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 17,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 17,
+							["amount"] = 0,
+						},
+						["Fireball"] = {
+							["Details"] = {
+								["25%Resist"] = {
+									["max"] = 7,
+									["min"] = 7,
+									["count"] = 1,
+									["amount"] = 7,
+								},
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 14,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 15,
+							["amount"] = 7,
+						},
+						["Pierce Armor"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 348,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 348,
+							["amount"] = 0,
+						},
+					},
+					["PartialAbsorb"] = {
+						["Poison (DoT)"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 17,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 17,
+							["amount"] = 0,
+						},
+						["Fireball"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 15,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 15,
+							["amount"] = 0,
+						},
+						["Pierce Armor"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 348,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 348,
+							["amount"] = 0,
+						},
+					},
+					["ActiveTime"] = 1253.779999999998,
+					["ElementTaken"] = {
+						["Fire"] = 576,
+						["Melee"] = 2072,
+						["Nature"] = 69,
+					},
+					["Damage"] = 3945,
+					["ElementTakenResist"] = {
+						["Fire"] = 7,
+					},
+					["ElementDone"] = {
+						["Fire"] = 3945,
+					},
+					["Attacks"] = {
+						["Firebolt"] = {
+							["Details"] = {
+								["Absorb"] = {
+									["count"] = 1,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 14,
+									["min"] = 3,
+									["count"] = 509,
+									["amount"] = 3584,
+								},
+								["Miss"] = {
+									["count"] = 20,
+									["amount"] = 0,
+								},
+								["Crit"] = {
+									["max"] = 20,
+									["min"] = 5,
+									["count"] = 35,
+									["amount"] = 361,
+								},
+								["Evade"] = {
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 566,
+							["amount"] = 3945,
+						},
+					},
+					["DamagedWho"] = {
+						["Mangy Wolf"] = {
+							["Details"] = {
+								["Firebolt"] = {
+									["count"] = 43,
+								},
+							},
+							["amount"] = 43,
+						},
+						["Mother Fang"] = {
+							["Details"] = {
+								["Firebolt"] = {
+									["count"] = 26,
+								},
+							},
+							["amount"] = 26,
+						},
+						["Kobold Tunneler"] = {
+							["Details"] = {
+								["Firebolt"] = {
+									["count"] = 851,
+								},
+							},
+							["amount"] = 851,
+						},
+						["Forest Spider"] = {
+							["Details"] = {
+								["Firebolt"] = {
+									["count"] = 205,
+								},
+							},
+							["amount"] = 205,
+						},
+						["Murloc"] = {
+							["Details"] = {
+								["Firebolt"] = {
+									["count"] = 249,
+								},
+							},
+							["amount"] = 249,
+						},
+						["Narg the Taskmaster"] = {
+							["Details"] = {
+								["Firebolt"] = {
+									["count"] = 71,
+								},
+							},
+							["amount"] = 71,
+						},
+						["Kobold Geomancer"] = {
+							["Details"] = {
+								["Firebolt"] = {
+									["count"] = 177,
+								},
+							},
+							["amount"] = 177,
+						},
+						["Goldtooth"] = {
+							["Details"] = {
+								["Firebolt"] = {
+									["count"] = 86,
+								},
+							},
+							["amount"] = 86,
+						},
+						["Stonetusk Boar"] = {
+							["Details"] = {
+								["Firebolt"] = {
+									["count"] = 98,
+								},
+							},
+							["amount"] = 98,
+						},
+						["Kobold Miner"] = {
+							["Details"] = {
+								["Firebolt"] = {
+									["count"] = 1653,
+								},
+							},
+							["amount"] = 1653,
+						},
+						["Mine Spider"] = {
+							["Details"] = {
+								["Firebolt"] = {
+									["count"] = 180,
+								},
+							},
+							["amount"] = 180,
+						},
+						["Gray Forest Wolf"] = {
+							["Details"] = {
+								["Firebolt"] = {
+									["count"] = 235,
+								},
+							},
+							["amount"] = 235,
+						},
+						["Defias Cutpurse"] = {
+							["Details"] = {
+								["Firebolt"] = {
+									["count"] = 71,
+								},
+							},
+							["amount"] = 71,
+						},
+					},
+					["TimeDamage"] = 1253.779999999998,
+					["WhoDamaged"] = {
+						["Mangy Wolf"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 9,
+								},
+							},
+							["amount"] = 9,
+						},
+						["Mother Fang"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 86,
+								},
+							},
+							["amount"] = 86,
+						},
+						["Kobold Tunneler"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 394,
+								},
+							},
+							["amount"] = 394,
+						},
+						["Forest Spider"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 53,
+								},
+								["Poison (DoT)"] = {
+									["count"] = 14,
+								},
+							},
+							["amount"] = 67,
+						},
+						["Murloc"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 158,
+								},
+							},
+							["amount"] = 158,
+						},
+						["Narg the Taskmaster"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 34,
+								},
+							},
+							["amount"] = 34,
+						},
+						["Kobold Geomancer"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 576,
+								},
+								["Melee"] = {
+									["count"] = 7,
+								},
+							},
+							["amount"] = 583,
+						},
+						["Stonetusk Boar"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 51,
+								},
+							},
+							["amount"] = 51,
+						},
+						["Kobold Miner"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 1130,
+								},
+							},
+							["amount"] = 1130,
+						},
+						["Mine Spider"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 96,
+								},
+								["Poison (DoT)"] = {
+									["count"] = 55,
+								},
+							},
+							["amount"] = 151,
+						},
+						["Gray Forest Wolf"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 38,
+								},
+							},
+							["amount"] = 38,
+						},
+						["Defias Cutpurse"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 16,
+								},
+							},
+							["amount"] = 16,
+						},
+					},
+					["ElementHitsDone"] = {
+						["Fire"] = {
+							["Details"] = {
+								["Absorb"] = {
+									["count"] = 1,
+								},
+								["Hit"] = {
+									["count"] = 509,
+								},
+								["Miss"] = {
+									["count"] = 20,
+								},
+								["Crit"] = {
+									["count"] = 35,
+								},
+								["Evade"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 566,
+						},
+					},
+					["TimeDamaging"] = {
+						["Mangy Wolf"] = {
+							["Details"] = {
+								["Firebolt"] = {
+									["count"] = 12.78,
+								},
+							},
+							["amount"] = 12.78,
+						},
+						["Mother Fang"] = {
+							["Details"] = {
+								["Firebolt"] = {
+									["count"] = 5.32,
+								},
+							},
+							["amount"] = 5.32,
+						},
+						["Kobold Tunneler"] = {
+							["Details"] = {
+								["Firebolt"] = {
+									["count"] = 338.7499999999998,
+								},
+							},
+							["amount"] = 338.7499999999998,
+						},
+						["Forest Spider"] = {
+							["Details"] = {
+								["Firebolt"] = {
+									["count"] = 49.95,
+								},
+							},
+							["amount"] = 49.95,
+						},
+						["Murloc"] = {
+							["Details"] = {
+								["Firebolt"] = {
+									["count"] = 67.92000000000002,
+								},
+							},
+							["amount"] = 67.92000000000002,
+						},
+						["Narg the Taskmaster"] = {
+							["Details"] = {
+								["Firebolt"] = {
+									["count"] = 24.87,
+								},
+							},
+							["amount"] = 24.87,
+						},
+						["Kobold Geomancer"] = {
+							["Details"] = {
+								["Firebolt"] = {
+									["count"] = 49.01,
+								},
+							},
+							["amount"] = 49.01,
+						},
+						["Goldtooth"] = {
+							["Details"] = {
+								["Firebolt"] = {
+									["count"] = 28.77,
+								},
+							},
+							["amount"] = 28.77,
+						},
+						["Stonetusk Boar"] = {
+							["Details"] = {
+								["Firebolt"] = {
+									["count"] = 27.25,
+								},
+							},
+							["amount"] = 27.25,
+						},
+						["Kobold Miner"] = {
+							["Details"] = {
+								["Firebolt"] = {
+									["count"] = 575.7699999999991,
+								},
+							},
+							["amount"] = 575.7699999999991,
+						},
+						["Mine Spider"] = {
+							["Details"] = {
+								["Firebolt"] = {
+									["count"] = 28.12,
+								},
+							},
+							["amount"] = 28.12,
+						},
+						["Gray Forest Wolf"] = {
+							["Details"] = {
+								["Firebolt"] = {
+									["count"] = 33.77,
+								},
+							},
+							["amount"] = 33.77,
+						},
+						["Defias Cutpurse"] = {
+							["Details"] = {
+								["Firebolt"] = {
+									["count"] = 11.5,
+								},
+							},
+							["amount"] = 11.5,
+						},
+					},
+					["ElementHitsTaken"] = {
+						["Fire"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 15,
+								},
+							},
+							["amount"] = 15,
+						},
+						["Physical"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 1,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 314,
+								},
+								["Dodge"] = {
+									["count"] = 1,
+								},
+								["Crushing"] = {
+									["count"] = 1,
+								},
+								["Crit"] = {
+									["count"] = 27,
+								},
+								["Miss"] = {
+									["count"] = 5,
+								},
+							},
+							["amount"] = 348,
+						},
+						["Nature"] = {
+							["Details"] = {
+								["Tick"] = {
+									["count"] = 17,
+								},
+							},
+							["amount"] = 17,
+						},
+					},
+				},
 			},
-			["LastEventTimes"] = {
-				8059.472, -- [1]
-				8059.747, -- [2]
-				8059.773, -- [3]
-				8060.131, -- [4]
-				8061.465, -- [5]
-				8061.74, -- [6]
-				8062.156, -- [7]
-				8062.773, -- [8]
-				8063.764, -- [9]
-				8064.147, -- [10]
-				8065.74, -- [11]
-				8065.773, -- [12]
-				8066.156, -- [13]
-				8067.756, -- [14]
-				8068.172000000001, -- [15]
-				8069.773, -- [16]
-				8070.172000000001, -- [17]
-				8070.764, -- [18]
-				8071.755, -- [19]
-				8072.172000000001, -- [20]
-				8073.773, -- [21]
-				8073.773, -- [22]
-				8074.181000000001, -- [23]
-				8076.806000000001, -- [24]
-				8079.781, -- [25]
-				8082.772, -- [26]
-				8085.806000000001, -- [27]
-				8088.789, -- [28]
-				8098.855000000001, -- [29]
-				8099.239000000001, -- [30]
-				8101.239000000001, -- [31]
-				8103.121, -- [32]
-				8103.264, -- [33]
-				8105.139, -- [34]
-				8107.181000000001, -- [35]
-				8107.239000000001, -- [36]
-				8109.197, -- [37]
-				8109.247, -- [38]
-				8111.214, -- [39]
-				8122.798, -- [40]
-				8123.93, -- [41]
-				8125.205, -- [42]
-				8127.163000000001, -- [43]
-				8128.114000000001, -- [44]
-				8129.213, -- [45]
-				8131.247, -- [46]
-				8131.513, -- [47]
-				8057.464, -- [48]
-				8057.764, -- [49]
-				8058.139, -- [50]
-			},
-			["LastAbility"] = 165.752,
+			["UnitLockout"] = 1689145953,
+			["LastActive"] = 1689150216,
 		},
 	},
 	["FightNum"] = 164,

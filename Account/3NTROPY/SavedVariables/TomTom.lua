@@ -7,6 +7,7 @@ TomTomDB = {
 		["Sculatru - Icecrown"] = "Default",
 		["Denathra - Icecrown"] = "Default",
 		["Vhalanor - Icecrown"] = "Default",
+		["Morridin - Icecrown"] = "Default",
 		["Drext - Icecrown"] = "Default",
 		["Muiex - Icecrown"] = "Default",
 		["Sculamare - Icecrown"] = "Default",
@@ -44,6 +45,7 @@ TomTomWaypoints = {
 		["Sculatru - Icecrown"] = "Sculatru - Icecrown",
 		["Denathra - Icecrown"] = "Denathra - Icecrown",
 		["Vhalanor - Icecrown"] = "Vhalanor - Icecrown",
+		["Morridin - Icecrown"] = "Morridin - Icecrown",
 		["Drext - Icecrown"] = "Drext - Icecrown",
 		["Muiex - Icecrown"] = "Muiex - Icecrown",
 		["Sculamare - Icecrown"] = "Sculamare - Icecrown",
@@ -80,6 +82,8 @@ TomTomWaypoints = {
 		["Denathra - Icecrown"] = {
 		},
 		["Vhalanor - Icecrown"] = {
+		},
+		["Morridin - Icecrown"] = {
 		},
 		["Drext - Icecrown"] = {
 		},
