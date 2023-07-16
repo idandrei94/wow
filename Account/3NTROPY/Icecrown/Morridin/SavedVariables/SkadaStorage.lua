@@ -1,6 +1,6 @@
 
 SkadaStorageDB = {
+	["version"] = 1878,
 	["sets"] = {
 	},
-	["version"] = 1878,
 }

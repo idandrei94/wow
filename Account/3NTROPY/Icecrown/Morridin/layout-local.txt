@@ -6,10 +6,3 @@ X: -136
 Y: -115
 W: 32
 H: 32
-Frame: GladiusFrame
-FrameLevel: 1
-Anchor: RIGHT
-X: -6
-Y: -13
-W: 205
-H: 307
