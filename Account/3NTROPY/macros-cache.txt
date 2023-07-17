@@ -36,14 +36,6 @@ MACRO 8 "freeze" Spell_Frost_SummonWaterElemental_2
 /petpassive
 /click PetActionButton5
 END
-MACRO 78 "gem" INV_Misc_QuestionMark
-#showtooltip mana sapphire
-/equip [nomodifier:alt] Heroes' Frostfire Gloves
-/equip [nomodifier:alt] Heroes' Frostfire Shoulderpads
-/cast [modifier:alt] conjure mana gem
-/use [nomodifier:alt] Mana Sapphire
-/equipset ttw
-END
 MACRO 85 "hands" INV_Misc_QuestionMark
 #showtooltip 10
 /use 10

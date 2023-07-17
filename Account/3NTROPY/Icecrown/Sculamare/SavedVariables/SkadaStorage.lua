@@ -2,14 +2,194 @@
 SkadaStorageDB = {
 	["sets"] = {
 		{
+			["starttime"] = 1689623233,
+			["type"] = "none",
+			["time"] = 7,
+			["players"] = {
+				{
+					["damagespells"] = {
+						["Fireball"] = {
+							["hitmin"] = 64,
+							["id"] = 145,
+							["targets"] = {
+								["Rat"] = {
+									["amount"] = 64,
+									["overkill"] = 55,
+								},
+							},
+							["overkill"] = 55,
+							["casts"] = 1,
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 4,
+							["hitmax"] = 64,
+							["amount"] = 64,
+							["hitamount"] = 64,
+						},
+					},
+					["last"] = 11140.446,
+					["id"] = "0x0700000000976299",
+					["class"] = "MAGE",
+					["overkill"] = 55,
+					["spec"] = 63,
+					["totaldamage"] = 64,
+					["name"] = "Sculamare",
+					["time"] = 0.37,
+					["flag"] = 1297,
+					["role"] = "DAMAGER",
+					["auras"] = {
+						[1460] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 7,
+						},
+						[7300] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 7,
+						},
+						[28878] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 7,
+						},
+					},
+					["damage"] = 64,
+				}, -- [1]
+			},
+			["enemies"] = {
+				{
+					["flag"] = 68136,
+					["name"] = "Rat",
+					["damagetaken"] = 64,
+					["id"] = "0xF130000FEB040A34",
+					["totaldamagetaken"] = 64,
+					["class"] = "MONSTER",
+					["damagetakenspells"] = {
+						[145] = {
+							["school"] = 4,
+							["sources"] = {
+								["Sculamare"] = {
+									["amount"] = 64,
+									["overkill"] = 55,
+								},
+							},
+							["amount"] = 64,
+							["overkill"] = 55,
+						},
+					},
+				}, -- [1]
+			},
+			["last_action"] = 1689623240,
+			["endtime"] = 1689623240,
+			["overkill"] = 55,
+			["edamagetaken"] = 64,
+			["totaldamage"] = 64,
+			["name"] = "Rat (2)",
+			["mobname"] = "Rat",
+			["damage"] = 64,
+			["etotaldamagetaken"] = 64,
+			["last_time"] = 11146.892,
+		}, -- [1]
+		{
+			["starttime"] = 1689623212,
+			["type"] = "none",
+			["time"] = 18,
+			["players"] = {
+				{
+					["damagespells"] = {
+						["Fireball"] = {
+							["hitmin"] = 65,
+							["id"] = 145,
+							["targets"] = {
+								["Rat"] = {
+									["amount"] = 220,
+									["overkill"] = 193,
+								},
+							},
+							["overkill"] = 193,
+							["casts"] = 3,
+							["count"] = 3,
+							["hit"] = 3,
+							["school"] = 4,
+							["hitmax"] = 78,
+							["amount"] = 220,
+							["hitamount"] = 220,
+						},
+					},
+					["last"] = 11130.818,
+					["id"] = "0x0700000000976299",
+					["class"] = "MAGE",
+					["overkill"] = 193,
+					["spec"] = 63,
+					["totaldamage"] = 220,
+					["name"] = "Sculamare",
+					["time"] = 7.83,
+					["flag"] = 1297,
+					["role"] = "DAMAGER",
+					["auras"] = {
+						[1460] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 18,
+						},
+						[7300] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 18,
+						},
+						[28878] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 18,
+						},
+					},
+					["damage"] = 220,
+				}, -- [1]
+			},
+			["enemies"] = {
+				{
+					["flag"] = 68136,
+					["name"] = "Rat",
+					["damagetaken"] = 220,
+					["id"] = "0xF130000FEB040424",
+					["totaldamagetaken"] = 220,
+					["class"] = "MONSTER",
+					["damagetakenspells"] = {
+						[145] = {
+							["school"] = 4,
+							["sources"] = {
+								["Sculamare"] = {
+									["amount"] = 220,
+									["overkill"] = 193,
+								},
+							},
+							["amount"] = 220,
+							["overkill"] = 193,
+						},
+					},
+				}, -- [1]
+			},
+			["last_action"] = 1689623230,
+			["endtime"] = 1689623230,
+			["overkill"] = 193,
+			["edamagetaken"] = 220,
+			["totaldamage"] = 220,
+			["name"] = "Rat",
+			["mobname"] = "Rat",
+			["damage"] = 220,
+			["etotaldamagetaken"] = 220,
+			["last_time"] = 11137.247,
+		}, -- [2]
+		{
 			["enemies"] = {
 				{
 					["damagetaken"] = 351,
 					["name"] = "Blackwood Windtalker",
-					["class"] = "MONSTER",
-					["flag"] = 68168,
 					["totaldamagetaken"] = 351,
 					["id"] = "0xF13000091401C405",
+					["class"] = "MONSTER",
+					["flag"] = 68168,
 					["damagetakenspells"] = {
 						[145] = {
 							["school"] = 4,
@@ -79,6 +259,23 @@ SkadaStorageDB = {
 					},
 					["last"] = 30253.473,
 					["damagetaken"] = 0,
+					["damagetakenspells"] = {
+						["Melee"] = {
+							["sources"] = {
+								["Blackwood Windtalker"] = {
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+							["school"] = 1,
+							["MISS"] = 1,
+							["id"] = 6603,
+						},
+					},
+					["flag"] = 1297,
+					["class"] = "MAGE",
+					["role"] = "DAMAGER",
 					["auras"] = {
 						[1460] = {
 							["type"] = "BUFF",
@@ -96,30 +293,13 @@ SkadaStorageDB = {
 							["uptime"] = 8,
 						},
 					},
-					["flag"] = 1297,
-					["class"] = "MAGE",
-					["id"] = "0x0700000000976299",
-					["overkill"] = 51,
-					["time"] = 5.959999999999999,
-					["totaldamage"] = 351,
 					["name"] = "Sculamare",
+					["totaldamage"] = 351,
+					["time"] = 5.959999999999999,
+					["overkill"] = 51,
 					["spec"] = 63,
-					["damagetakenspells"] = {
-						["Melee"] = {
-							["sources"] = {
-								["Blackwood Windtalker"] = {
-									["amount"] = 0,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 0,
-							["school"] = 1,
-							["MISS"] = 1,
-							["id"] = 6603,
-						},
-					},
 					["totaldamagetaken"] = 0,
-					["role"] = "DAMAGER",
+					["id"] = "0x0700000000976299",
 					["damage"] = 351,
 				}, -- [1]
 			},
@@ -133,7 +313,7 @@ SkadaStorageDB = {
 			["starttime"] = 1689604467,
 			["last_action"] = 1689604473,
 			["endtime"] = 1689604475,
-		}, -- [1]
+		}, -- [3]
 		{
 			["enemies"] = {
 				{
@@ -200,6 +380,10 @@ SkadaStorageDB = {
 					},
 					["last"] = 30227.616,
 					["damagetaken"] = 14,
+					["flag"] = 1297,
+					["id"] = "0x0700000000976299",
+					["class"] = "MAGE",
+					["overkill"] = 59,
 					["auras"] = {
 						[1460] = {
 							["type"] = "BUFF",
@@ -229,12 +413,8 @@ SkadaStorageDB = {
 							["uptime"] = 2,
 						},
 					},
-					["flag"] = 1297,
-					["class"] = "MAGE",
-					["id"] = "0x0700000000976299",
-					["overkill"] = 59,
 					["time"] = 8.809999999999999,
-					["totaldamage"] = 289,
+					["role"] = "DAMAGER",
 					["name"] = "Sculamare",
 					["spec"] = 63,
 					["damagetakenspells"] = {
@@ -255,7 +435,7 @@ SkadaStorageDB = {
 						},
 					},
 					["totaldamagetaken"] = 14,
-					["role"] = "DAMAGER",
+					["totaldamage"] = 289,
 					["damage"] = 289,
 				}, -- [1]
 			},
@@ -271,7 +451,7 @@ SkadaStorageDB = {
 			["edamage"] = 14,
 			["last_action"] = 1689604448,
 			["endtime"] = 1689604448,
-		}, -- [2]
+		}, -- [4]
 		{
 			["enemies"] = {
 				{
@@ -438,6 +618,8 @@ SkadaStorageDB = {
 							["criticalamount"] = 36,
 							["id"] = 6603,
 							["criticalmin"] = 36,
+							["criticalmax"] = 36,
+							["hitmax"] = 16,
 							["sources"] = {
 								["Blackwood Pathfinder"] = {
 									["amount"] = 16,
@@ -446,13 +628,11 @@ SkadaStorageDB = {
 									["amount"] = 36,
 								},
 							},
-							["count"] = 2,
-							["criticalmax"] = 36,
-							["hitmax"] = 16,
-							["amount"] = 52,
-							["school"] = 1,
-							["hit"] = 1,
 							["critical"] = 1,
+							["hit"] = 1,
+							["school"] = 1,
+							["amount"] = 52,
+							["count"] = 2,
 							["hitamount"] = 16,
 						},
 					},
@@ -473,7 +653,7 @@ SkadaStorageDB = {
 			["edamage"] = 52,
 			["last_action"] = 1689604376,
 			["endtime"] = 1689604377,
-		}, -- [3]
+		}, -- [5]
 		{
 			["enemies"] = {
 				{
@@ -540,6 +720,10 @@ SkadaStorageDB = {
 					},
 					["last"] = 30100.252,
 					["damagetaken"] = 17,
+					["flag"] = 1297,
+					["id"] = "0x0700000000976299",
+					["class"] = "MAGE",
+					["overkill"] = 43,
 					["auras"] = {
 						[1460] = {
 							["type"] = "BUFF",
@@ -569,12 +753,8 @@ SkadaStorageDB = {
 							["uptime"] = 1,
 						},
 					},
-					["flag"] = 1297,
-					["class"] = "MAGE",
-					["id"] = "0x0700000000976299",
-					["overkill"] = 43,
 					["time"] = 6.5,
-					["totaldamage"] = 296,
+					["role"] = "DAMAGER",
 					["name"] = "Sculamare",
 					["spec"] = 63,
 					["damagetakenspells"] = {
@@ -595,7 +775,7 @@ SkadaStorageDB = {
 						},
 					},
 					["totaldamagetaken"] = 17,
-					["role"] = "DAMAGER",
+					["totaldamage"] = 296,
 					["damage"] = 296,
 				}, -- [1]
 			},
@@ -611,7 +791,7 @@ SkadaStorageDB = {
 			["edamage"] = 17,
 			["last_action"] = 1689604321,
 			["endtime"] = 1689604322,
-		}, -- [4]
+		}, -- [6]
 		{
 			["enemies"] = {
 				{
@@ -678,6 +858,10 @@ SkadaStorageDB = {
 					},
 					["last"] = 30079.859,
 					["damagetaken"] = 17,
+					["flag"] = 1297,
+					["id"] = "0x0700000000976299",
+					["class"] = "MAGE",
+					["overkill"] = 16,
 					["auras"] = {
 						[1460] = {
 							["type"] = "BUFF",
@@ -707,12 +891,8 @@ SkadaStorageDB = {
 							["uptime"] = 1,
 						},
 					},
-					["flag"] = 1297,
-					["class"] = "MAGE",
-					["id"] = "0x0700000000976299",
-					["overkill"] = 16,
 					["time"] = 6.68,
-					["totaldamage"] = 269,
+					["role"] = "DAMAGER",
 					["name"] = "Sculamare",
 					["spec"] = 63,
 					["damagetakenspells"] = {
@@ -733,7 +913,7 @@ SkadaStorageDB = {
 						},
 					},
 					["totaldamagetaken"] = 17,
-					["role"] = "DAMAGER",
+					["totaldamage"] = 269,
 					["damage"] = 269,
 				}, -- [1]
 			},
@@ -749,7 +929,7 @@ SkadaStorageDB = {
 			["edamage"] = 17,
 			["last_action"] = 1689604300,
 			["endtime"] = 1689604301,
-		}, -- [5]
+		}, -- [7]
 		{
 			["enemies"] = {
 				{
@@ -817,6 +997,10 @@ SkadaStorageDB = {
 					},
 					["last"] = 30066.601,
 					["damagetaken"] = 34,
+					["flag"] = 1297,
+					["id"] = "0x0700000000976299",
+					["class"] = "MAGE",
+					["overkill"] = 3,
 					["auras"] = {
 						[1460] = {
 							["type"] = "BUFF",
@@ -848,12 +1032,8 @@ SkadaStorageDB = {
 							["uptime"] = 3,
 						},
 					},
-					["flag"] = 1297,
-					["class"] = "MAGE",
-					["id"] = "0x0700000000976299",
-					["overkill"] = 3,
 					["time"] = 9.050000000000001,
-					["totaldamage"] = 276,
+					["role"] = "DAMAGER",
 					["name"] = "Sculamare",
 					["spec"] = 63,
 					["damagetakenspells"] = {
@@ -874,7 +1054,7 @@ SkadaStorageDB = {
 						},
 					},
 					["totaldamagetaken"] = 34,
-					["role"] = "DAMAGER",
+					["totaldamage"] = 276,
 					["damage"] = 276,
 				}, -- [1]
 			},
@@ -890,7 +1070,7 @@ SkadaStorageDB = {
 			["edamage"] = 34,
 			["last_action"] = 1689604286,
 			["endtime"] = 1689604288,
-		}, -- [6]
+		}, -- [8]
 		{
 			["enemies"] = {
 				{
@@ -957,6 +1137,10 @@ SkadaStorageDB = {
 					},
 					["last"] = 30050.501,
 					["damagetaken"] = 16,
+					["flag"] = 1297,
+					["id"] = "0x0700000000976299",
+					["class"] = "MAGE",
+					["overkill"] = 33,
 					["auras"] = {
 						[1460] = {
 							["type"] = "BUFF",
@@ -974,12 +1158,8 @@ SkadaStorageDB = {
 							["uptime"] = 8,
 						},
 					},
-					["flag"] = 1297,
-					["class"] = "MAGE",
-					["id"] = "0x0700000000976299",
-					["overkill"] = 33,
 					["time"] = 6.22,
-					["totaldamage"] = 286,
+					["role"] = "DAMAGER",
 					["name"] = "Sculamare",
 					["spec"] = 63,
 					["damagetakenspells"] = {
@@ -1000,7 +1180,7 @@ SkadaStorageDB = {
 						},
 					},
 					["totaldamagetaken"] = 16,
-					["role"] = "DAMAGER",
+					["totaldamage"] = 286,
 					["damage"] = 286,
 				}, -- [1]
 			},
@@ -1016,7 +1196,7 @@ SkadaStorageDB = {
 			["edamage"] = 16,
 			["last_action"] = 1689604270,
 			["endtime"] = 1689604272,
-		}, -- [7]
+		}, -- [9]
 		{
 			["enemies"] = {
 				{
@@ -1083,6 +1263,10 @@ SkadaStorageDB = {
 					},
 					["last"] = 30038.059,
 					["damagetaken"] = 18,
+					["flag"] = 1297,
+					["id"] = "0x0700000000976299",
+					["class"] = "MAGE",
+					["overkill"] = 14,
 					["auras"] = {
 						[1460] = {
 							["type"] = "BUFF",
@@ -1100,12 +1284,8 @@ SkadaStorageDB = {
 							["uptime"] = 8,
 						},
 					},
-					["flag"] = 1297,
-					["class"] = "MAGE",
-					["id"] = "0x0700000000976299",
-					["overkill"] = 14,
 					["time"] = 6.310000000000001,
-					["totaldamage"] = 287,
+					["role"] = "DAMAGER",
 					["name"] = "Sculamare",
 					["spec"] = 63,
 					["damagetakenspells"] = {
@@ -1126,7 +1306,7 @@ SkadaStorageDB = {
 						},
 					},
 					["totaldamagetaken"] = 18,
-					["role"] = "DAMAGER",
+					["totaldamage"] = 287,
 					["damage"] = 287,
 				}, -- [1]
 			},
@@ -1142,7 +1322,7 @@ SkadaStorageDB = {
 			["edamage"] = 18,
 			["last_action"] = 1689604258,
 			["endtime"] = 1689604260,
-		}, -- [8]
+		}, -- [10]
 		{
 			["enemies"] = {
 				{
@@ -1353,7 +1533,7 @@ SkadaStorageDB = {
 			["edamage"] = 13,
 			["last_action"] = 1689604170,
 			["endtime"] = 1689604170,
-		}, -- [9]
+		}, -- [11]
 		{
 			["enemies"] = {
 				{
@@ -1420,6 +1600,10 @@ SkadaStorageDB = {
 					},
 					["last"] = 29911.518,
 					["damagetaken"] = 15,
+					["flag"] = 1297,
+					["id"] = "0x0700000000976299",
+					["class"] = "MAGE",
+					["overkill"] = 46,
 					["auras"] = {
 						[1460] = {
 							["type"] = "BUFF",
@@ -1449,12 +1633,8 @@ SkadaStorageDB = {
 							["uptime"] = 1,
 						},
 					},
-					["flag"] = 1297,
-					["class"] = "MAGE",
-					["id"] = "0x0700000000976299",
-					["overkill"] = 46,
 					["time"] = 6.41,
-					["totaldamage"] = 293,
+					["role"] = "DAMAGER",
 					["name"] = "Sculamare",
 					["spec"] = 63,
 					["damagetakenspells"] = {
@@ -1475,7 +1655,7 @@ SkadaStorageDB = {
 						},
 					},
 					["totaldamagetaken"] = 15,
-					["role"] = "DAMAGER",
+					["totaldamage"] = 293,
 					["damage"] = 293,
 				}, -- [1]
 			},
@@ -1491,7 +1671,7 @@ SkadaStorageDB = {
 			["edamage"] = 15,
 			["last_action"] = 1689604131,
 			["endtime"] = 1689604133,
-		}, -- [10]
+		}, -- [12]
 		{
 			["enemies"] = {
 				{
@@ -1584,6 +1764,10 @@ SkadaStorageDB = {
 					},
 					["last"] = 29898.002,
 					["damagetaken"] = 81,
+					["flag"] = 1297,
+					["id"] = "0x0700000000976299",
+					["class"] = "MAGE",
+					["overkill"] = 59,
 					["auras"] = {
 						[1460] = {
 							["type"] = "BUFF",
@@ -1615,12 +1799,8 @@ SkadaStorageDB = {
 							["uptime"] = 9,
 						},
 					},
-					["flag"] = 1297,
-					["class"] = "MAGE",
-					["id"] = "0x0700000000976299",
-					["overkill"] = 59,
 					["time"] = 10.64,
-					["totaldamage"] = 415,
+					["role"] = "DAMAGER",
 					["name"] = "Sculamare",
 					["spec"] = 63,
 					["damagetakenspells"] = {
@@ -1641,7 +1821,7 @@ SkadaStorageDB = {
 						},
 					},
 					["totaldamagetaken"] = 81,
-					["role"] = "DAMAGER",
+					["totaldamage"] = 415,
 					["damage"] = 415,
 				}, -- [1]
 			},
@@ -1657,7 +1837,7 @@ SkadaStorageDB = {
 			["edamage"] = 81,
 			["last_action"] = 1689604119,
 			["endtime"] = 1689604119,
-		}, -- [11]
+		}, -- [13]
 		{
 			["enemies"] = {
 				{
@@ -1749,6 +1929,10 @@ SkadaStorageDB = {
 					},
 					["last"] = 29842.861,
 					["damagetaken"] = 66,
+					["flag"] = 1297,
+					["id"] = "0x0700000000976299",
+					["class"] = "MAGE",
+					["overkill"] = 8,
 					["auras"] = {
 						[1460] = {
 							["type"] = "BUFF",
@@ -1786,12 +1970,8 @@ SkadaStorageDB = {
 							["uptime"] = 1,
 						},
 					},
-					["flag"] = 1297,
-					["class"] = "MAGE",
-					["id"] = "0x0700000000976299",
-					["overkill"] = 8,
 					["time"] = 10.31,
-					["totaldamage"] = 281,
+					["role"] = "DAMAGER",
 					["name"] = "Sculamare",
 					["spec"] = 63,
 					["damagetakenspells"] = {
@@ -1812,7 +1992,7 @@ SkadaStorageDB = {
 						},
 					},
 					["totaldamagetaken"] = 66,
-					["role"] = "DAMAGER",
+					["totaldamage"] = 281,
 					["damage"] = 281,
 				}, -- [1]
 			},
@@ -1828,7 +2008,7 @@ SkadaStorageDB = {
 			["edamage"] = 66,
 			["last_action"] = 1689604063,
 			["endtime"] = 1689604064,
-		}, -- [12]
+		}, -- [14]
 		{
 			["enemies"] = {
 				{
@@ -1895,6 +2075,10 @@ SkadaStorageDB = {
 					},
 					["last"] = 29823.586,
 					["damagetaken"] = 43,
+					["flag"] = 1297,
+					["id"] = "0x0700000000976299",
+					["class"] = "MAGE",
+					["overkill"] = 67,
 					["auras"] = {
 						[1460] = {
 							["type"] = "BUFF",
@@ -1926,12 +2110,8 @@ SkadaStorageDB = {
 							["uptime"] = 7,
 						},
 					},
-					["flag"] = 1297,
-					["class"] = "MAGE",
-					["id"] = "0x0700000000976299",
-					["overkill"] = 67,
 					["time"] = 10.62,
-					["totaldamage"] = 376,
+					["role"] = "DAMAGER",
 					["name"] = "Sculamare",
 					["spec"] = 63,
 					["damagetakenspells"] = {
@@ -1952,7 +2132,7 @@ SkadaStorageDB = {
 						},
 					},
 					["totaldamagetaken"] = 43,
-					["role"] = "DAMAGER",
+					["totaldamage"] = 376,
 					["damage"] = 376,
 				}, -- [1]
 			},
@@ -1968,408 +2148,6 @@ SkadaStorageDB = {
 			["edamage"] = 43,
 			["last_action"] = 1689604043,
 			["endtime"] = 1689604045,
-		}, -- [13]
-		{
-			["enemies"] = {
-				{
-					["damagespells"] = {
-						[6603] = {
-							["school"] = 1,
-							["targets"] = {
-								["Sculamare"] = {
-									["amount"] = 56,
-								},
-							},
-							["amount"] = 56,
-						},
-					},
-					["damagetaken"] = 429,
-					["flag"] = 68168,
-					["class"] = "MONSTER",
-					["damagetakenspells"] = {
-						[145] = {
-							["school"] = 4,
-							["sources"] = {
-								["Sculamare"] = {
-									["amount"] = 337,
-								},
-							},
-							["amount"] = 337,
-						},
-						[122] = {
-							["school"] = 16,
-							["sources"] = {
-								["Sculamare"] = {
-									["amount"] = 23,
-								},
-							},
-							["amount"] = 23,
-						},
-						[2137] = {
-							["school"] = 4,
-							["sources"] = {
-								["Sculamare"] = {
-									["overkill"] = 54,
-									["amount"] = 69,
-								},
-							},
-							["overkill"] = 54,
-							["amount"] = 69,
-						},
-					},
-					["totaldamage"] = 56,
-					["name"] = "Rabid Thistle Bear",
-					["totaldamagetaken"] = 429,
-					["id"] = "0xF13000087401ABD9",
-					["damage"] = 56,
-				}, -- [1]
-			},
-			["totaldamage"] = 429,
-			["time"] = 21,
-			["totaldamagetaken"] = 56,
-			["etotaldamagetaken"] = 429,
-			["last_time"] = 28923.321,
-			["players"] = {
-				{
-					["ccdonespells"] = {
-						[122] = {
-							["count"] = 1,
-							["targets"] = {
-								["Rabid Thistle Bear"] = 1,
-							},
-						},
-					},
-					["last"] = 28923.304,
-					["flag"] = 1297,
-					["class"] = "MAGE",
-					["auras"] = {
-						[1460] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 21,
-						},
-						[28878] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 21,
-						},
-						[6136] = {
-							["type"] = "DEBUFF",
-							["count"] = 2,
-							["school"] = 16,
-							["targets"] = {
-								["Rabid Thistle Bear"] = {
-									["uptime"] = 5,
-									["count"] = 2,
-								},
-							},
-							["uptime"] = 5,
-						},
-						[7300] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 21,
-						},
-						[122] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 16,
-							["targets"] = {
-								["Rabid Thistle Bear"] = {
-									["uptime"] = 8,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 8,
-						},
-					},
-					["role"] = "DAMAGER",
-					["time"] = 12.66,
-					["totaldamagetaken"] = 56,
-					["damage"] = 429,
-					["damagespells"] = {
-						["Frost Nova"] = {
-							["hitmin"] = 23,
-							["id"] = 122,
-							["targets"] = {
-								["Rabid Thistle Bear"] = {
-									["amount"] = 23,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 16,
-							["hitmax"] = 23,
-							["amount"] = 23,
-							["hitamount"] = 23,
-						},
-						["Fireball"] = {
-							["hitmin"] = 62,
-							["id"] = 145,
-							["targets"] = {
-								["Rabid Thistle Bear"] = {
-									["amount"] = 337,
-								},
-							},
-							["hitmax"] = 76,
-							["casts"] = 5,
-							["count"] = 6,
-							["amount"] = 337,
-							["school"] = 4,
-							["hit"] = 5,
-							["MISS"] = 1,
-							["hitamount"] = 337,
-						},
-						["Fire Blast"] = {
-							["hitmin"] = 69,
-							["id"] = 2137,
-							["targets"] = {
-								["Rabid Thistle Bear"] = {
-									["overkill"] = 54,
-									["amount"] = 69,
-								},
-							},
-							["overkill"] = 54,
-							["casts"] = 1,
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 4,
-							["hitmax"] = 69,
-							["amount"] = 69,
-							["hitamount"] = 69,
-						},
-					},
-					["damagetaken"] = 56,
-					["id"] = "0x0700000000976299",
-					["spec"] = 63,
-					["damagetakenspells"] = {
-						["Melee"] = {
-							["hitmin"] = 20,
-							["criticalamount"] = 36,
-							["id"] = 6603,
-							["criticalmin"] = 36,
-							["critical"] = 1,
-							["amount"] = 56,
-							["sources"] = {
-								["Rabid Thistle Bear"] = {
-									["amount"] = 56,
-								},
-							},
-							["count"] = 2,
-							["hit"] = 1,
-							["school"] = 1,
-							["hitmax"] = 20,
-							["criticalmax"] = 36,
-							["hitamount"] = 20,
-						},
-					},
-					["name"] = "Sculamare",
-					["ccdone"] = 1,
-					["overkill"] = 54,
-					["totaldamage"] = 429,
-				}, -- [1]
-			},
-			["type"] = "none",
-			["damagetaken"] = 56,
-			["damage"] = 429,
-			["etotaldamage"] = 56,
-			["overkill"] = 54,
-			["edamagetaken"] = 429,
-			["ccdone"] = 1,
-			["name"] = "Rabid Thistle Bear",
-			["mobname"] = "Rabid Thistle Bear",
-			["starttime"] = 1689603124,
-			["edamage"] = 56,
-			["last_action"] = 1689603143,
-			["endtime"] = 1689603145,
-		}, -- [14]
-		{
-			["enemies"] = {
-				{
-					["damagetaken"] = 282,
-					["name"] = "Greymist Raider",
-					["class"] = "MONSTER",
-					["flag"] = 68168,
-					["totaldamagetaken"] = 282,
-					["id"] = "0xF13000089901ACD7",
-					["damagetakenspells"] = {
-						[145] = {
-							["school"] = 4,
-							["sources"] = {
-								["Sculamare"] = {
-									["overkill"] = 60,
-									["amount"] = 282,
-								},
-							},
-							["overkill"] = 60,
-							["amount"] = 282,
-						},
-					},
-				}, -- [1]
-				{
-					["damagespells"] = {
-						[6603] = {
-							["school"] = 1,
-							["targets"] = {
-								["Sculamare"] = {
-									["amount"] = 31,
-								},
-							},
-							["amount"] = 31,
-						},
-					},
-					["damagetaken"] = 284,
-					["id"] = "0xF13000089A01B2BD",
-					["class"] = "MONSTER",
-					["damagetakenspells"] = {
-						[145] = {
-							["school"] = 4,
-							["sources"] = {
-								["Sculamare"] = {
-									["overkill"] = 37,
-									["amount"] = 284,
-								},
-							},
-							["overkill"] = 37,
-							["amount"] = 284,
-						},
-					},
-					["totaldamage"] = 31,
-					["name"] = "Greymist Coastrunner",
-					["totaldamagetaken"] = 284,
-					["flag"] = 2632,
-					["damage"] = 31,
-				}, -- [2]
-			},
-			["totaldamage"] = 566,
-			["time"] = 25,
-			["totaldamagetaken"] = 31,
-			["etotaldamagetaken"] = 566,
-			["last_time"] = 28827.604,
-			["players"] = {
-				{
-					["ccdonespells"] = {
-						[118] = {
-							["count"] = 1,
-							["targets"] = {
-								["Greymist Coastrunner"] = 1,
-							},
-						},
-					},
-					["last"] = 28827.587,
-					["flag"] = 1297,
-					["class"] = "MAGE",
-					["auras"] = {
-						[1460] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 25,
-						},
-						[118] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 64,
-							["targets"] = {
-								["Greymist Coastrunner"] = {
-									["uptime"] = 8,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 8,
-						},
-						[28878] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 25,
-						},
-						[6136] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 16,
-							["refresh"] = 1,
-							["targets"] = {
-								["Greymist Coastrunner"] = {
-									["refresh"] = 1,
-									["count"] = 1,
-									["uptime"] = 8,
-								},
-							},
-							["uptime"] = 8,
-						},
-						[7300] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 25,
-						},
-					},
-					["role"] = "DAMAGER",
-					["time"] = 16.24,
-					["totaldamagetaken"] = 31,
-					["damage"] = 566,
-					["damagespells"] = {
-						["Fireball"] = {
-							["hitmin"] = 61,
-							["id"] = 145,
-							["targets"] = {
-								["Greymist Raider"] = {
-									["overkill"] = 60,
-									["amount"] = 282,
-								},
-								["Greymist Coastrunner"] = {
-									["overkill"] = 37,
-									["amount"] = 284,
-								},
-							},
-							["overkill"] = 97,
-							["casts"] = 7,
-							["count"] = 8,
-							["hit"] = 8,
-							["school"] = 4,
-							["hitmax"] = 80,
-							["amount"] = 566,
-							["hitamount"] = 566,
-						},
-					},
-					["damagetaken"] = 31,
-					["id"] = "0x0700000000976299",
-					["spec"] = 63,
-					["damagetakenspells"] = {
-						["Melee"] = {
-							["hitmin"] = 15,
-							["id"] = 6603,
-							["sources"] = {
-								["Greymist Coastrunner"] = {
-									["amount"] = 31,
-								},
-							},
-							["count"] = 2,
-							["hit"] = 2,
-							["school"] = 1,
-							["hitmax"] = 16,
-							["amount"] = 31,
-							["hitamount"] = 31,
-						},
-					},
-					["name"] = "Sculamare",
-					["ccdone"] = 1,
-					["overkill"] = 97,
-					["totaldamage"] = 566,
-				}, -- [1]
-			},
-			["type"] = "none",
-			["damagetaken"] = 31,
-			["damage"] = 566,
-			["etotaldamage"] = 31,
-			["overkill"] = 97,
-			["edamagetaken"] = 566,
-			["ccdone"] = 1,
-			["name"] = "Greymist Raider",
-			["mobname"] = "Greymist Raider",
-			["starttime"] = 1689603024,
-			["edamage"] = 31,
-			["last_action"] = 1689603047,
-			["endtime"] = 1689603049,
 		}, -- [15]
 	},
 	["version"] = 1878,
@@ -2385,10 +2163,10 @@ SkadaStorageDB = {
 				["class"] = "WARLOCK",
 				["flag"] = 1298,
 				["mana"] = 103,
-				["totaldamage"] = 29900,
+				["role"] = "DAMAGER",
 				["overkill"] = 2527,
 				["name"] = "Tapatapa",
-				["role"] = "DAMAGER",
+				["totaldamage"] = 29900,
 				["time"] = 1329.409999999999,
 				["heal"] = 2796,
 				["spec"] = 266,
@@ -2399,28 +2177,28 @@ SkadaStorageDB = {
 			{
 				["overheal"] = 1529,
 				["damagetaken"] = 11176,
-				["heal"] = 1986,
+				["totaldamage"] = 116517,
 				["flag"] = 1297,
 				["class"] = "MAGE",
-				["id"] = "0x0700000000976299",
-				["overkill"] = 10586,
-				["time"] = 3917.030000000013,
-				["role"] = "DAMAGER",
+				["heal"] = 1986,
+				["overkill"] = 10834,
 				["name"] = "Sculamare",
+				["role"] = "DAMAGER",
+				["time"] = 3924.030000000013,
 				["ccdone"] = 194,
 				["spec"] = 64,
 				["totaldamagetaken"] = 11176,
-				["totaldamage"] = 116233,
-				["damage"] = 116233,
+				["id"] = "0x0700000000976299",
+				["damage"] = 116517,
 			}, -- [2]
 		},
-		["overkill"] = 13113,
+		["overkill"] = 13361,
 		["overheal"] = 4619,
-		["totaldamage"] = 146133,
-		["time"] = 6489,
+		["heal"] = 4782,
+		["time"] = 6514,
 		["ccdone"] = 194,
 		["totaldamagetaken"] = 13970,
-		["heal"] = 4782,
-		["damage"] = 146133,
+		["totaldamage"] = 146417,
+		["damage"] = 146417,
 	},
 }
