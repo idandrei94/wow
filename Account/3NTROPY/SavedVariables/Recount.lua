@@ -44,9 +44,9 @@ RecountDB = {
 				},
 			},
 			["DetailWindowX"] = 58.00000341936197,
-			["LastInstanceName"] = "Trial of the Champion",
-			["MainWindowHeight"] = 310.8518969696999,
-			["CurDataSet"] = "LastFightData",
+			["LastInstanceName"] = "Azjol-Nerub",
+			["GraphWindowX"] = 0,
+			["CurDataSet"] = "CurrentFightData",
 			["Colors"] = {
 				["Bar"] = {
 					["Bar Text"] = {
@@ -58,10 +58,10 @@ RecountDB = {
 				},
 			},
 			["DetailWindowY"] = -16.99999979483828,
-			["MainWindowWidth"] = 251.4197662784027,
-			["MainWindowVis"] = false,
 			["ReportLines"] = 1,
-			["GraphWindowX"] = 0,
+			["MainWindowVis"] = false,
+			["MainWindowWidth"] = 251.4197662784027,
+			["MainWindowHeight"] = 310.8518969696999,
 		},
 		["Vrael - Icecrown"] = {
 			["GraphWindowY"] = 0,
@@ -289,8 +289,8 @@ RecountDB = {
 			["GraphWindowY"] = 0,
 			["MainWindow"] = {
 				["Position"] = {
-					["w"] = 140.0000106684094,
 					["h"] = 200.0000027354896,
+					["w"] = 140.0000106684094,
 				},
 			},
 			["Colors"] = {
@@ -301,10 +301,10 @@ RecountDB = {
 				},
 			},
 			["DetailWindowY"] = 0,
-			["GraphWindowX"] = 0,
-			["CurDataSet"] = "OverallData",
-			["MainWindowVis"] = false,
 			["DetailWindowX"] = 0,
+			["MainWindowVis"] = false,
+			["CurDataSet"] = "OverallData",
+			["GraphWindowX"] = 0,
 		},
 		["Flocius - Icecrown"] = {
 			["GraphWindowY"] = 0,
@@ -382,8 +382,8 @@ RecountDB = {
 			["GraphWindowY"] = 0,
 			["MainWindow"] = {
 				["Position"] = {
-					["h"] = 200.0000027354896,
 					["w"] = 140.0000106684094,
+					["h"] = 200.0000027354896,
 				},
 			},
 			["Colors"] = {
@@ -681,7 +681,7 @@ RecountDB = {
 				},
 			},
 			["DetailWindowX"] = 655.7037672683764,
-			["LastInstanceName"] = "Vault of Archavon",
+			["LastInstanceName"] = "The Culling of Stratholme",
 			["MainWindowHeight"] = 328.7999999452902,
 			["CurDataSet"] = "LastFightData",
 			["Colors"] = {
@@ -733,7 +733,7 @@ RecountDB = {
 				},
 			},
 			["DetailWindowX"] = 74.40742614297815,
-			["LastInstanceName"] = "Gnomeregan",
+			["LastInstanceName"] = "Gundrak",
 			["CurDataSet"] = "LastFightData",
 			["Colors"] = {
 				["Bar"] = {
@@ -746,10 +746,10 @@ RecountDB = {
 				},
 			},
 			["DetailWindowY"] = -165.0369795107044,
-			["GraphWindowX"] = 0,
+			["MainWindowHeight"] = 317.6297135990283,
 			["MainWindowVis"] = false,
 			["MainWindowWidth"] = 247.3703663456547,
-			["MainWindowHeight"] = 317.6297135990283,
+			["GraphWindowX"] = 0,
 		},
 		["Noobschmoq - Icecrown"] = {
 			["GraphWindowY"] = 0,

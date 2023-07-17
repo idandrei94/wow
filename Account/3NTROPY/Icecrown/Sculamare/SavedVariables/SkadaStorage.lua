@@ -4,788 +4,445 @@ SkadaStorageDB = {
 		{
 			["enemies"] = {
 				{
-					["damagespells"] = {
-						[6603] = {
-							["school"] = 1,
-							["targets"] = {
-								["Sculamare"] = {
-									["amount"] = 26,
-								},
-							},
-							["amount"] = 26,
-						},
-					},
-					["damagetaken"] = 305,
-					["id"] = "0xF1300001DB26F71B",
+					["id"] = "0xF1300008B701309B",
+					["name"] = "Pygmy Tide Crawler",
+					["totaldamagetaken"] = 256,
+					["flag"] = 68136,
 					["class"] = "MONSTER",
+					["damagetaken"] = 256,
 					["damagetakenspells"] = {
-						[6603] = {
-							["school"] = 1,
+						[145] = {
+							["school"] = 4,
 							["sources"] = {
 								["Sculamare"] = {
-									["amount"] = 25,
+									["overkill"] = 58,
+									["amount"] = 256,
 								},
 							},
-							["amount"] = 25,
-						},
-						[1449] = {
-							["school"] = 64,
-							["sources"] = {
-								["Sculamare"] = {
-									["overkill"] = 30,
-									["amount"] = 280,
-								},
-							},
-							["overkill"] = 30,
-							["amount"] = 280,
+							["overkill"] = 58,
+							["amount"] = 256,
 						},
 					},
-					["totaldamage"] = 26,
-					["name"] = "Kobold Tunneler",
-					["totaldamagetaken"] = 305,
-					["flag"] = 68168,
-					["damage"] = 26,
 				}, -- [1]
 			},
-			["totaldamage"] = 305,
-			["time"] = 10,
-			["totaldamagetaken"] = 26,
-			["etotaldamage"] = 26,
-			["last_time"] = 17783.299,
+			["totaldamage"] = 256,
+			["time"] = 6,
+			["etotaldamagetaken"] = 256,
+			["last_time"] = 21989.307,
 			["players"] = {
 				{
-					["last"] = 17782.9,
-					["flag"] = 1297,
+					["damagespells"] = {
+						["Fireball"] = {
+							["criticalmax"] = 102,
+							["hitmin"] = 75,
+							["criticalamount"] = 102,
+							["id"] = 145,
+							["criticalmin"] = 102,
+							["targets"] = {
+								["Pygmy Tide Crawler"] = {
+									["overkill"] = 58,
+									["amount"] = 256,
+								},
+							},
+							["overkill"] = 58,
+							["critical"] = 1,
+							["casts"] = 2,
+							["count"] = 3,
+							["hit"] = 2,
+							["school"] = 4,
+							["hitmax"] = 79,
+							["amount"] = 256,
+							["hitamount"] = 154,
+						},
+					},
+					["last"] = 21989.282,
 					["class"] = "MAGE",
+					["id"] = "0x0700000000976299",
+					["spec"] = 63,
+					["overkill"] = 58,
 					["auras"] = {
 						[1460] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 10,
+							["uptime"] = 6,
 						},
-						[7300] = {
+						[8099] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 10,
+							["uptime"] = 6,
 						},
 						[28878] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 10,
+							["uptime"] = 6,
 						},
-						[6136] = {
-							["type"] = "DEBUFF",
-							["count"] = 3,
-							["school"] = 16,
-							["refresh"] = 5,
-							["targets"] = {
-								["Kobold Tunneler"] = {
-									["count"] = 3,
-									["refresh"] = 5,
-									["uptime"] = 9,
-								},
-							},
-							["uptime"] = 9,
-						},
-					},
-					["time"] = 8.68,
-					["totaldamagetaken"] = 26,
-					["damage"] = 305,
-					["damagespells"] = {
-						["Melee"] = {
-							["hitmin"] = 25,
-							["id"] = 6603,
-							["targets"] = {
-								["Kobold Tunneler"] = {
-									["amount"] = 25,
-								},
-							},
+						[7300] = {
+							["type"] = "BUFF",
 							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 1,
-							["hitmax"] = 25,
-							["amount"] = 25,
-							["hitamount"] = 25,
+							["uptime"] = 6,
 						},
-						["Arcane Explosion"] = {
-							["hitmin"] = 33,
-							["id"] = 1449,
+						[12654] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 4,
 							["targets"] = {
-								["Kobold Tunneler"] = {
-									["overkill"] = 30,
-									["amount"] = 280,
+								["Pygmy Tide Crawler"] = {
+									["uptime"] = 1,
+									["count"] = 1,
 								},
 							},
-							["overkill"] = 30,
-							["casts"] = 3,
-							["count"] = 8,
-							["hit"] = 8,
-							["school"] = 64,
-							["hitmax"] = 37,
-							["amount"] = 280,
-							["hitamount"] = 280,
+							["uptime"] = 1,
 						},
 					},
-					["damagetaken"] = 26,
-					["id"] = "0x0700000000976299",
-					["spec"] = 63,
-					["damagetakenspells"] = {
-						["Melee"] = {
-							["hitmin"] = 3,
-							["id"] = 6603,
-							["amount"] = 26,
-							["sources"] = {
-								["Kobold Tunneler"] = {
-									["amount"] = 26,
-								},
-							},
-							["count"] = 8,
-							["hit"] = 7,
-							["school"] = 1,
-							["hitmax"] = 5,
-							["MISS"] = 1,
-							["hitamount"] = 26,
-						},
-					},
-					["name"] = "Sculamare",
-					["overkill"] = 30,
-					["totaldamage"] = 305,
+					["totaldamage"] = 256,
 					["role"] = "DAMAGER",
+					["name"] = "Sculamare",
+					["flag"] = 1297,
+					["time"] = 4.93,
+					["damage"] = 256,
 				}, -- [1]
 			},
-			["type"] = "group",
-			["damagetaken"] = 26,
-			["etotaldamagetaken"] = 305,
-			["overkill"] = 30,
-			["edamagetaken"] = 305,
-			["damage"] = 305,
-			["name"] = "Kobold Tunneler (72)",
-			["mobname"] = "Kobold Tunneler",
-			["starttime"] = 1689538802,
-			["edamage"] = 26,
-			["last_action"] = 1689538812,
-			["endtime"] = 1689538812,
+			["type"] = "none",
+			["overkill"] = 58,
+			["edamagetaken"] = 256,
+			["damage"] = 256,
+			["name"] = "Pygmy Tide Crawler (3)",
+			["mobname"] = "Pygmy Tide Crawler",
+			["starttime"] = 1689596204,
+			["last_action"] = 1689596209,
+			["endtime"] = 1689596210,
 		}, -- [1]
 		{
 			["enemies"] = {
 				{
-					["damagespells"] = {
-						[6603] = {
-							["school"] = 1,
-							["targets"] = {
-								["Sculamare"] = {
-									["amount"] = 26,
-								},
-							},
-							["amount"] = 26,
-						},
-					},
-					["damagetaken"] = 229,
-					["id"] = "0xF1300001DB26F588",
+					["id"] = "0xF1300008B701308C",
+					["name"] = "Pygmy Tide Crawler",
+					["totaldamagetaken"] = 218,
+					["flag"] = 68136,
 					["class"] = "MONSTER",
+					["damagetaken"] = 218,
 					["damagetakenspells"] = {
-						[6603] = {
-							["school"] = 1,
+						[145] = {
+							["school"] = 4,
 							["sources"] = {
 								["Sculamare"] = {
-									["overkill"] = 12,
-									["amount"] = 88,
+									["overkill"] = 20,
+									["amount"] = 218,
 								},
 							},
-							["overkill"] = 12,
-							["amount"] = 88,
-						},
-						[1449] = {
-							["school"] = 64,
-							["sources"] = {
-								["Sculamare"] = {
-									["overkill"] = 18,
-									["amount"] = 141,
-								},
-							},
-							["overkill"] = 18,
-							["amount"] = 141,
+							["overkill"] = 20,
+							["amount"] = 218,
 						},
 					},
-					["totaldamage"] = 26,
-					["name"] = "Kobold Tunneler",
-					["totaldamagetaken"] = 229,
-					["flag"] = 2632,
-					["damage"] = 26,
 				}, -- [1]
 			},
-			["totaldamage"] = 229,
-			["time"] = 23,
-			["totaldamagetaken"] = 26,
-			["etotaldamage"] = 26,
-			["last_time"] = 17753.416,
+			["totaldamage"] = 218,
+			["time"] = 6,
+			["etotaldamagetaken"] = 218,
+			["last_time"] = 21976.448,
 			["players"] = {
 				{
-					["last"] = 17745.575,
-					["flag"] = 1297,
+					["damagespells"] = {
+						["Fireball"] = {
+							["hitmin"] = 63,
+							["id"] = 145,
+							["targets"] = {
+								["Pygmy Tide Crawler"] = {
+									["overkill"] = 20,
+									["amount"] = 218,
+								},
+							},
+							["overkill"] = 20,
+							["casts"] = 2,
+							["count"] = 3,
+							["hit"] = 3,
+							["school"] = 4,
+							["hitmax"] = 78,
+							["amount"] = 218,
+							["hitamount"] = 218,
+						},
+					},
+					["last"] = 21976.431,
 					["class"] = "MAGE",
+					["id"] = "0x0700000000976299",
+					["spec"] = 63,
+					["overkill"] = 20,
 					["auras"] = {
 						[1460] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 23,
+							["uptime"] = 6,
 						},
 						[7300] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 23,
+							["uptime"] = 6,
 						},
 						[28878] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 23,
+							["uptime"] = 6,
 						},
-						[6136] = {
-							["type"] = "DEBUFF",
-							["count"] = 5,
-							["school"] = 16,
-							["refresh"] = 2,
-							["targets"] = {
-								["Kobold Tunneler"] = {
-									["count"] = 5,
-									["refresh"] = 2,
-									["uptime"] = 12,
-								},
-							},
-							["uptime"] = 12,
+						[8099] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 6,
 						},
 					},
-					["time"] = 11.08,
-					["totaldamagetaken"] = 26,
-					["damage"] = 229,
-					["damagespells"] = {
-						["Melee"] = {
-							["glance"] = 41,
-							["hitmin"] = 20,
-							["id"] = 6603,
-							["glancemin"] = 41,
-							["targets"] = {
-								["Kobold Tunneler"] = {
-									["overkill"] = 12,
-									["amount"] = 88,
-								},
-							},
-							["overkill"] = 12,
-							["glancing"] = 1,
-							["glancemax"] = 41,
-							["count"] = 3,
-							["hit"] = 2,
-							["school"] = 1,
-							["hitmax"] = 27,
-							["amount"] = 88,
-							["hitamount"] = 47,
-						},
-						["Arcane Explosion"] = {
-							["hitmin"] = 34,
-							["id"] = 1449,
-							["targets"] = {
-								["Kobold Tunneler"] = {
-									["overkill"] = 18,
-									["amount"] = 141,
-								},
-							},
-							["overkill"] = 18,
-							["casts"] = 2,
-							["count"] = 4,
-							["hit"] = 4,
-							["school"] = 64,
-							["hitmax"] = 37,
-							["amount"] = 141,
-							["hitamount"] = 141,
-						},
-					},
-					["damagetaken"] = 26,
-					["id"] = "0x0700000000976299",
-					["spec"] = 63,
-					["damagetakenspells"] = {
-						["Melee"] = {
-							["DODGE"] = 1,
-							["hitmin"] = 3,
-							["id"] = 6603,
-							["PARRY"] = 1,
-							["amount"] = 26,
-							["sources"] = {
-								["Kobold Tunneler"] = {
-									["amount"] = 26,
-								},
-							},
-							["count"] = 10,
-							["hit"] = 7,
-							["school"] = 1,
-							["hitmax"] = 5,
-							["MISS"] = 1,
-							["hitamount"] = 26,
-						},
-					},
-					["name"] = "Sculamare",
-					["overkill"] = 30,
-					["totaldamage"] = 229,
+					["totaldamage"] = 218,
 					["role"] = "DAMAGER",
+					["name"] = "Sculamare",
+					["flag"] = 1297,
+					["time"] = 4.54,
+					["damage"] = 218,
 				}, -- [1]
 			},
-			["type"] = "group",
-			["damagetaken"] = 26,
-			["etotaldamagetaken"] = 229,
-			["overkill"] = 30,
-			["edamagetaken"] = 229,
-			["damage"] = 229,
-			["name"] = "Kobold Tunneler (71)",
-			["mobname"] = "Kobold Tunneler",
-			["starttime"] = 1689538760,
-			["edamage"] = 26,
-			["last_action"] = 1689538782,
-			["endtime"] = 1689538783,
+			["type"] = "none",
+			["overkill"] = 20,
+			["edamagetaken"] = 218,
+			["damage"] = 218,
+			["name"] = "Pygmy Tide Crawler (2)",
+			["mobname"] = "Pygmy Tide Crawler",
+			["starttime"] = 1689596192,
+			["last_action"] = 1689596196,
+			["endtime"] = 1689596198,
 		}, -- [2]
 		{
 			["enemies"] = {
 				{
-					["damagespells"] = {
-						[6603] = {
-							["school"] = 1,
-							["targets"] = {
-								["Sculamare"] = {
-									["amount"] = 18,
-								},
-							},
-							["amount"] = 18,
-						},
-					},
-					["damagetaken"] = 125,
-					["flag"] = 68168,
+					["id"] = "0xF1300008B70130DF",
+					["name"] = "Pygmy Tide Crawler",
+					["totaldamagetaken"] = 244,
+					["flag"] = 68136,
 					["class"] = "MONSTER",
+					["damagetaken"] = 244,
 					["damagetakenspells"] = {
-						[6603] = {
-							["school"] = 1,
-							["sources"] = {
-								["Sculamare"] = {
-									["amount"] = 17,
-								},
-							},
-							["amount"] = 17,
-						},
 						[145] = {
 							["school"] = 4,
 							["sources"] = {
 								["Sculamare"] = {
-									["amount"] = 75,
+									["overkill"] = 68,
+									["amount"] = 244,
 								},
 							},
-							["amount"] = 75,
-						},
-						[2137] = {
-							["school"] = 4,
-							["sources"] = {
-								["Sculamare"] = {
-									["overkill"] = 5,
-									["amount"] = 33,
-								},
-							},
-							["overkill"] = 5,
-							["amount"] = 33,
+							["overkill"] = 68,
+							["amount"] = 244,
 						},
 					},
-					["name"] = "Kobold Tunneler",
-					["totaldamage"] = 18,
-					["totaldamagetaken"] = 125,
-					["id"] = "0xF1300001DB26F168",
-					["damage"] = 18,
 				}, -- [1]
 			},
-			["totaldamage"] = 125,
-			["time"] = 16,
-			["totaldamagetaken"] = 18,
-			["etotaldamagetaken"] = 125,
-			["last_time"] = 17578.893,
+			["totaldamage"] = 244,
+			["time"] = 6,
+			["etotaldamagetaken"] = 244,
+			["last_time"] = 21968.249,
 			["players"] = {
 				{
-					["last"] = 17577.228,
-					["flag"] = 1297,
+					["damagespells"] = {
+						["Fireball"] = {
+							["criticalmin"] = 95,
+							["hitmin"] = 74,
+							["criticalamount"] = 95,
+							["id"] = 145,
+							["criticalmax"] = 95,
+							["targets"] = {
+								["Pygmy Tide Crawler"] = {
+									["overkill"] = 68,
+									["amount"] = 244,
+								},
+							},
+							["overkill"] = 68,
+							["critical"] = 1,
+							["casts"] = 2,
+							["count"] = 3,
+							["hit"] = 2,
+							["school"] = 4,
+							["hitmax"] = 75,
+							["amount"] = 244,
+							["hitamount"] = 149,
+						},
+					},
+					["last"] = 21968.233,
 					["class"] = "MAGE",
+					["id"] = "0x0700000000976299",
+					["spec"] = 63,
+					["overkill"] = 68,
 					["auras"] = {
 						[1460] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 16,
-						},
-						[28878] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 16,
-						},
-						[6136] = {
-							["type"] = "DEBUFF",
-							["count"] = 2,
-							["school"] = 16,
-							["refresh"] = 3,
-							["targets"] = {
-								["Kobold Tunneler"] = {
-									["count"] = 2,
-									["refresh"] = 3,
-									["uptime"] = 14,
-								},
-							},
-							["uptime"] = 14,
+							["uptime"] = 6,
 						},
 						[7300] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 16,
+							["uptime"] = 6,
 						},
-						[145] = {
-							["type"] = "DEBUFF",
+						[28878] = {
+							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 4,
-							["refresh"] = 1,
-							["targets"] = {
-								["Kobold Tunneler"] = {
-									["count"] = 1,
-									["refresh"] = 1,
-									["uptime"] = 8,
-								},
-							},
-							["uptime"] = 8,
+							["uptime"] = 6,
 						},
-					},
-					["time"] = 12.9,
-					["totaldamagetaken"] = 18,
-					["damage"] = 125,
-					["damagespells"] = {
-						["Fireball"] = {
-							["hitmin"] = 33,
-							["id"] = 145,
-							["targets"] = {
-								["Kobold Tunneler"] = {
-									["amount"] = 70,
-								},
-							},
-							["hitmax"] = 37,
-							["casts"] = 2,
-							["count"] = 2,
-							["hit"] = 2,
-							["school"] = 4,
-							["resisted"] = 69,
-							["amount"] = 70,
-							["hitamount"] = 70,
-						},
-						["Fire Blast"] = {
-							["hitmin"] = 33,
-							["id"] = 2137,
-							["targets"] = {
-								["Kobold Tunneler"] = {
-									["overkill"] = 5,
-									["amount"] = 33,
-								},
-							},
-							["overkill"] = 5,
-							["hitmax"] = 33,
-							["casts"] = 1,
+						[8099] = {
+							["type"] = "BUFF",
 							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 4,
-							["resisted"] = 32,
-							["amount"] = 33,
-							["hitamount"] = 33,
-						},
-						["Melee"] = {
-							["hitmin"] = 17,
-							["id"] = 6603,
-							["targets"] = {
-								["Kobold Tunneler"] = {
-									["amount"] = 17,
-								},
-							},
-							["blocked"] = 3,
-							["PARRY"] = 1,
-							["count"] = 2,
-							["hit"] = 1,
-							["school"] = 1,
-							["hitmax"] = 17,
-							["amount"] = 17,
-							["hitamount"] = 17,
-						},
-						["Fireball (DoT)"] = {
-							["hitmin"] = 1,
-							["id"] = 145,
-							["targets"] = {
-								["Kobold Tunneler"] = {
-									["amount"] = 5,
-								},
-							},
-							["hitmax"] = 2,
-							["count"] = 4,
-							["hit"] = 4,
-							["school"] = 4,
-							["resisted"] = 3,
-							["amount"] = 5,
-							["hitamount"] = 5,
+							["uptime"] = 6,
 						},
 					},
-					["damagetaken"] = 18,
-					["id"] = "0x0700000000976299",
-					["spec"] = 63,
-					["damagetakenspells"] = {
-						["Melee"] = {
-							["hitmin"] = 4,
-							["id"] = 6603,
-							["hitmax"] = 5,
-							["sources"] = {
-								["Kobold Tunneler"] = {
-									["amount"] = 18,
-								},
-							},
-							["count"] = 5,
-							["hit"] = 4,
-							["school"] = 1,
-							["PARRY"] = 1,
-							["amount"] = 18,
-							["hitamount"] = 18,
-						},
-					},
-					["name"] = "Sculamare",
-					["overkill"] = 5,
-					["totaldamage"] = 125,
+					["totaldamage"] = 244,
 					["role"] = "DAMAGER",
+					["name"] = "Sculamare",
+					["flag"] = 1297,
+					["time"] = 4.57,
+					["damage"] = 244,
 				}, -- [1]
 			},
-			["type"] = "group",
-			["damagetaken"] = 18,
-			["damage"] = 125,
-			["etotaldamage"] = 18,
-			["overkill"] = 5,
-			["edamagetaken"] = 125,
-			["name"] = "Kobold Tunneler (70)",
-			["mobname"] = "Kobold Tunneler",
-			["starttime"] = 1689538592,
-			["edamage"] = 18,
-			["last_action"] = 1689538608,
-			["endtime"] = 1689538608,
+			["type"] = "none",
+			["overkill"] = 68,
+			["edamagetaken"] = 244,
+			["damage"] = 244,
+			["name"] = "Pygmy Tide Crawler",
+			["mobname"] = "Pygmy Tide Crawler",
+			["starttime"] = 1689596183,
+			["last_action"] = 1689596188,
+			["endtime"] = 1689596189,
 		}, -- [3]
 		{
 			["enemies"] = {
 				{
-					["damagespells"] = {
-						[6603] = {
-							["school"] = 1,
-							["targets"] = {
-								["Sculamare"] = {
-									["amount"] = 33,
-								},
-							},
-							["amount"] = 33,
-						},
-					},
-					["damagetaken"] = 454,
-					["id"] = "0xF1300001DB26EDB5",
+					["id"] = "0xF13000089A01305B",
+					["name"] = "Greymist Coastrunner",
+					["totaldamagetaken"] = 574,
+					["flag"] = 68168,
 					["class"] = "MONSTER",
+					["damagetaken"] = 574,
 					["damagetakenspells"] = {
-						[1449] = {
-							["school"] = 64,
+						[145] = {
+							["school"] = 4,
 							["sources"] = {
 								["Sculamare"] = {
-									["overkill"] = 6,
-									["amount"] = 382,
+									["overkill"] = 80,
+									["amount"] = 574,
 								},
 							},
-							["overkill"] = 6,
-							["amount"] = 382,
-						},
-						[6603] = {
-							["school"] = 1,
-							["sources"] = {
-								["Sculamare"] = {
-									["overkill"] = 4,
-									["amount"] = 72,
-								},
-							},
-							["overkill"] = 4,
-							["amount"] = 72,
+							["overkill"] = 80,
+							["amount"] = 574,
 						},
 					},
-					["totaldamage"] = 33,
-					["name"] = "Kobold Tunneler",
-					["totaldamagetaken"] = 454,
-					["flag"] = 2632,
-					["damage"] = 33,
 				}, -- [1]
 			},
-			["totaldamage"] = 454,
-			["time"] = 11,
-			["totaldamagetaken"] = 33,
-			["etotaldamage"] = 33,
-			["last_time"] = 17525.328,
+			["totaldamage"] = 574,
+			["time"] = 24,
+			["etotaldamagetaken"] = 574,
+			["last_time"] = 21908.299,
 			["players"] = {
 				{
-					["last"] = 17525.287,
+					["ccdonespells"] = {
+						[118] = {
+							["count"] = 1,
+							["targets"] = {
+								["Greymist Coastrunner"] = 1,
+							},
+						},
+					},
+					["last"] = 21908.284,
 					["flag"] = 1297,
 					["class"] = "MAGE",
 					["auras"] = {
 						[1460] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 11,
+							["uptime"] = 24,
 						},
-						[7300] = {
+						[8099] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 11,
+							["uptime"] = 24,
 						},
 						[28878] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 11,
+							["uptime"] = 24,
 						},
-						[6136] = {
+						[145] = {
 							["type"] = "DEBUFF",
-							["count"] = 4,
-							["school"] = 16,
-							["refresh"] = 5,
+							["count"] = 2,
+							["school"] = 4,
+							["refresh"] = 4,
 							["targets"] = {
-								["Kobold Tunneler"] = {
-									["count"] = 4,
-									["refresh"] = 5,
+								["Greymist Coastrunner"] = {
+									["count"] = 2,
+									["refresh"] = 4,
 									["uptime"] = 10,
 								},
 							},
 							["uptime"] = 10,
 						},
-					},
-					["time"] = 8.209999999999999,
-					["totaldamagetaken"] = 33,
-					["damage"] = 454,
-					["damagespells"] = {
-						["Arcane Explosion"] = {
-							["hitmin"] = 33,
-							["id"] = 1449,
-							["targets"] = {
-								["Kobold Tunneler"] = {
-									["overkill"] = 6,
-									["amount"] = 382,
-								},
-							},
-							["overkill"] = 6,
-							["casts"] = 3,
-							["count"] = 11,
-							["hit"] = 11,
+						[7300] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 24,
+						},
+						[118] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
 							["school"] = 64,
-							["hitmax"] = 36,
-							["amount"] = 382,
-							["hitamount"] = 382,
-						},
-						["Melee"] = {
-							["glance"] = 52,
-							["hitmin"] = 20,
-							["id"] = 6603,
-							["hitmax"] = 20,
-							["glancemax"] = 52,
-							["overkill"] = 4,
-							["glancing"] = 1,
-							["hitamount"] = 20,
-							["count"] = 2,
-							["amount"] = 72,
-							["school"] = 1,
-							["hit"] = 1,
 							["targets"] = {
-								["Kobold Tunneler"] = {
-									["overkill"] = 4,
-									["amount"] = 72,
+								["Greymist Coastrunner"] = {
+									["uptime"] = 9,
+									["count"] = 1,
 								},
 							},
-							["glancemin"] = 52,
+							["uptime"] = 9,
 						},
 					},
-					["damagetaken"] = 33,
+					["time"] = 15.48,
+					["damage"] = 574,
+					["damagespells"] = {
+						["Fireball"] = {
+							["criticalmax"] = 99,
+							["hitmin"] = 60,
+							["criticalamount"] = 99,
+							["id"] = 145,
+							["criticalmin"] = 99,
+							["targets"] = {
+								["Greymist Coastrunner"] = {
+									["overkill"] = 80,
+									["amount"] = 574,
+								},
+							},
+							["overkill"] = 80,
+							["critical"] = 1,
+							["casts"] = 7,
+							["count"] = 8,
+							["hit"] = 7,
+							["school"] = 4,
+							["hitmax"] = 74,
+							["amount"] = 574,
+							["hitamount"] = 475,
+						},
+					},
 					["id"] = "0x0700000000976299",
 					["spec"] = 63,
-					["damagetakenspells"] = {
-						["Melee"] = {
-							["DODGE"] = 2,
-							["hitmin"] = 3,
-							["id"] = 6603,
-							["amount"] = 33,
-							["sources"] = {
-								["Kobold Tunneler"] = {
-									["amount"] = 33,
-								},
-							},
-							["count"] = 11,
-							["hit"] = 8,
-							["school"] = 1,
-							["hitmax"] = 5,
-							["MISS"] = 1,
-							["hitamount"] = 33,
-						},
-					},
+					["overkill"] = 80,
 					["name"] = "Sculamare",
-					["overkill"] = 10,
-					["totaldamage"] = 454,
+					["ccdone"] = 1,
+					["totaldamage"] = 574,
 					["role"] = "DAMAGER",
 				}, -- [1]
 			},
-			["type"] = "group",
-			["damagetaken"] = 33,
-			["etotaldamagetaken"] = 454,
-			["overkill"] = 10,
-			["edamagetaken"] = 454,
-			["damage"] = 454,
-			["name"] = "Kobold Tunneler (69)",
-			["mobname"] = "Kobold Tunneler",
-			["starttime"] = 1689538544,
-			["edamage"] = 33,
-			["last_action"] = 1689538554,
-			["endtime"] = 1689538555,
+			["type"] = "none",
+			["damage"] = 574,
+			["overkill"] = 80,
+			["edamagetaken"] = 574,
+			["ccdone"] = 1,
+			["name"] = "Greymist Coastrunner (3)",
+			["mobname"] = "Greymist Coastrunner",
+			["starttime"] = 1689596106,
+			["last_action"] = 1689596128,
+			["endtime"] = 1689596130,
 		}, -- [4]
 		{
 			["enemies"] = {
-				{
-					["damagespells"] = {
-						[6603] = {
-							["school"] = 1,
-							["targets"] = {
-								["Sculamare"] = {
-									["amount"] = 133,
-								},
-							},
-							["amount"] = 133,
-						},
-					},
-					["damagetaken"] = 899,
-					["id"] = "0xF13000002826ED09",
-					["class"] = "MONSTER",
-					["damagetakenspells"] = {
-						[1449] = {
-							["school"] = 64,
-							["sources"] = {
-								["Sculamare"] = {
-									["overkill"] = 73,
-									["amount"] = 860,
-								},
-							},
-							["overkill"] = 73,
-							["amount"] = 860,
-						},
-						[6603] = {
-							["school"] = 1,
-							["sources"] = {
-								["Sculamare"] = {
-									["overkill"] = 38,
-									["amount"] = 39,
-								},
-							},
-							["overkill"] = 38,
-							["amount"] = 39,
-						},
-					},
-					["totaldamage"] = 133,
-					["name"] = "Kobold Miner",
-					["totaldamagetaken"] = 899,
-					["flag"] = 2632,
-					["damage"] = 133,
-				}, -- [1]
 				{
 					["damagespells"] = {
 						[6603] = {
@@ -798,167 +455,1851 @@ SkadaStorageDB = {
 							["amount"] = 32,
 						},
 					},
-					["damagetaken"] = 282,
-					["id"] = "0xF1300001DB26ED05",
+					["damagetaken"] = 303,
+					["flag"] = 68168,
 					["class"] = "MONSTER",
 					["damagetakenspells"] = {
-						[1449] = {
-							["school"] = 64,
+						[145] = {
+							["school"] = 4,
 							["sources"] = {
 								["Sculamare"] = {
-									["overkill"] = 42,
-									["amount"] = 282,
+									["amount"] = 265,
 								},
 							},
-							["overkill"] = 42,
-							["amount"] = 282,
+							["amount"] = 265,
+						},
+						[5019] = {
+							["school"] = 1,
+							["sources"] = {
+								["Sculamare"] = {
+									["overkill"] = 30,
+									["amount"] = 38,
+								},
+							},
+							["overkill"] = 30,
+							["amount"] = 38,
 						},
 					},
+					["name"] = "Greymist Coastrunner",
 					["totaldamage"] = 32,
-					["name"] = "Kobold Tunneler",
-					["totaldamagetaken"] = 282,
-					["flag"] = 68168,
+					["totaldamagetaken"] = 303,
+					["id"] = "0xF13000089A012FD1",
 					["damage"] = 32,
-				}, -- [2]
+				}, -- [1]
 			},
-			["totaldamage"] = 1181,
-			["time"] = 22,
-			["totaldamagetaken"] = 165,
-			["etotaldamage"] = 165,
-			["last_time"] = 17489.003,
-			["starttime"] = 1689538496,
-			["type"] = "group",
-			["damagetaken"] = 165,
+			["totaldamage"] = 303,
+			["time"] = 13,
+			["totaldamagetaken"] = 32,
+			["etotaldamagetaken"] = 303,
+			["last_time"] = 21862.358,
 			["players"] = {
 				{
-					["last"] = 17488.695,
+					["last"] = 21862.341,
 					["flag"] = 1297,
 					["class"] = "MAGE",
 					["auras"] = {
 						[1460] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 22,
+							["uptime"] = 13,
 						},
-						[7300] = {
+						[8099] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 22,
+							["uptime"] = 13,
 						},
 						[28878] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 22,
+							["uptime"] = 13,
+						},
+						[145] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 4,
+							["refresh"] = 3,
+							["targets"] = {
+								["Greymist Coastrunner"] = {
+									["count"] = 1,
+									["refresh"] = 3,
+									["uptime"] = 10,
+								},
+							},
+							["uptime"] = 10,
+						},
+						[7300] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 13,
 						},
 						[6136] = {
 							["type"] = "DEBUFF",
-							["count"] = 16,
-							["school"] = 16,
-							["refresh"] = 11,
-							["targets"] = {
-								["Kobold Miner"] = {
-									["count"] = 11,
-									["refresh"] = 9,
-									["uptime"] = 18,
-								},
-								["Kobold Tunneler"] = {
-									["count"] = 5,
-									["refresh"] = 2,
-									["uptime"] = 13,
-								},
-							},
-							["uptime"] = 21,
-						},
-					},
-					["time"] = 10.02,
-					["totaldamagetaken"] = 165,
-					["damage"] = 1181,
-					["damagespells"] = {
-						["Arcane Explosion"] = {
-							["criticalmin"] = 56,
-							["hitmin"] = 33,
-							["criticalamount"] = 56,
-							["id"] = 1449,
-							["criticalmax"] = 56,
-							["targets"] = {
-								["Kobold Miner"] = {
-									["overkill"] = 73,
-									["amount"] = 860,
-								},
-								["Kobold Tunneler"] = {
-									["overkill"] = 42,
-									["amount"] = 282,
-								},
-							},
-							["overkill"] = 115,
-							["critical"] = 1,
-							["casts"] = 4,
-							["count"] = 32,
-							["hit"] = 31,
-							["school"] = 64,
-							["hitmax"] = 37,
-							["amount"] = 1142,
-							["hitamount"] = 1086,
-						},
-						["Melee"] = {
-							["glance"] = 39,
-							["id"] = 6603,
-							["glancemax"] = 39,
-							["overkill"] = 38,
-							["glancing"] = 1,
 							["count"] = 1,
-							["amount"] = 39,
-							["school"] = 1,
+							["school"] = 16,
 							["targets"] = {
-								["Kobold Miner"] = {
-									["overkill"] = 38,
-									["amount"] = 39,
+								["Greymist Coastrunner"] = {
+									["uptime"] = 5,
+									["count"] = 1,
 								},
 							},
-							["glancemin"] = 39,
+							["uptime"] = 5,
 						},
 					},
-					["damagetaken"] = 165,
+					["role"] = "DAMAGER",
+					["time"] = 11.53,
+					["totaldamagetaken"] = 32,
+					["damage"] = 303,
+					["damagespells"] = {
+						["Fireball"] = {
+							["hitmin"] = 62,
+							["id"] = 145,
+							["targets"] = {
+								["Greymist Coastrunner"] = {
+									["amount"] = 259,
+								},
+							},
+							["casts"] = 4,
+							["count"] = 4,
+							["hit"] = 4,
+							["school"] = 4,
+							["hitmax"] = 69,
+							["amount"] = 259,
+							["hitamount"] = 259,
+						},
+						["Shoot"] = {
+							["criticalamount"] = 38,
+							["id"] = 5019,
+							["targets"] = {
+								["Greymist Coastrunner"] = {
+									["overkill"] = 30,
+									["amount"] = 38,
+								},
+							},
+							["overkill"] = 30,
+							["casts"] = 1,
+							["critical"] = 1,
+							["amount"] = 38,
+							["school"] = 1,
+							["criticalmin"] = 38,
+							["criticalmax"] = 38,
+							["count"] = 1,
+						},
+						["Chilled"] = {
+							["casts"] = 1,
+							["count"] = 1,
+							["amount"] = 0,
+							["school"] = 16,
+							["targets"] = {
+								["Greymist Coastrunner"] = {
+									["amount"] = 0,
+								},
+							},
+							["MISS"] = 1,
+							["id"] = 6136,
+						},
+						["Fireball (DoT)"] = {
+							["hitmin"] = 2,
+							["id"] = 145,
+							["targets"] = {
+								["Greymist Coastrunner"] = {
+									["amount"] = 6,
+								},
+							},
+							["count"] = 3,
+							["hit"] = 3,
+							["school"] = 4,
+							["hitmax"] = 2,
+							["amount"] = 6,
+							["hitamount"] = 6,
+						},
+					},
+					["damagetaken"] = 32,
 					["id"] = "0x0700000000976299",
 					["spec"] = 63,
 					["damagetakenspells"] = {
 						["Melee"] = {
-							["DODGE"] = 3,
-							["hitmin"] = 4,
+							["hitmin"] = 16,
 							["id"] = 6603,
-							["amount"] = 165,
 							["sources"] = {
-								["Kobold Miner"] = {
-									["amount"] = 133,
-								},
-								["Kobold Tunneler"] = {
+								["Greymist Coastrunner"] = {
 									["amount"] = 32,
 								},
 							},
-							["count"] = 31,
-							["hit"] = 27,
+							["count"] = 2,
+							["hit"] = 2,
 							["school"] = 1,
-							["hitmax"] = 7,
-							["MISS"] = 1,
-							["hitamount"] = 165,
+							["hitmax"] = 16,
+							["amount"] = 32,
+							["hitamount"] = 32,
 						},
 					},
 					["name"] = "Sculamare",
-					["overkill"] = 153,
-					["totaldamage"] = 1181,
-					["role"] = "DAMAGER",
+					["overkill"] = 30,
+					["totaldamage"] = 303,
 				}, -- [1]
 			},
-			["overkill"] = 153,
-			["edamagetaken"] = 1181,
-			["etotaldamagetaken"] = 1181,
-			["name"] = "Kobold Tunneler (68)",
-			["mobname"] = "Kobold Tunneler",
-			["damage"] = 1181,
-			["edamage"] = 165,
-			["last_action"] = 1689538518,
-			["endtime"] = 1689538518,
+			["type"] = "none",
+			["damagetaken"] = 32,
+			["damage"] = 303,
+			["etotaldamage"] = 32,
+			["overkill"] = 30,
+			["edamagetaken"] = 303,
+			["name"] = "Greymist Coastrunner (2)",
+			["mobname"] = "Greymist Coastrunner",
+			["starttime"] = 1689596071,
+			["edamage"] = 32,
+			["last_action"] = 1689596082,
+			["endtime"] = 1689596084,
 		}, -- [5]
+		{
+			["enemies"] = {
+				{
+					["damagespells"] = {
+						[6603] = {
+							["school"] = 1,
+							["targets"] = {
+								["Sculamare"] = {
+									["amount"] = 63,
+								},
+							},
+							["amount"] = 63,
+						},
+					},
+					["damagetaken"] = 562,
+					["flag"] = 68168,
+					["class"] = "MONSTER",
+					["damagetakenspells"] = {
+						[145] = {
+							["school"] = 4,
+							["sources"] = {
+								["Sculamare"] = {
+									["overkill"] = 34,
+									["amount"] = 496,
+								},
+							},
+							["overkill"] = 34,
+							["amount"] = 496,
+						},
+						[2137] = {
+							["school"] = 4,
+							["sources"] = {
+								["Sculamare"] = {
+									["overkill"] = 8,
+									["amount"] = 66,
+								},
+							},
+							["overkill"] = 8,
+							["amount"] = 66,
+						},
+					},
+					["name"] = "Greymist Coastrunner",
+					["totaldamage"] = 63,
+					["totaldamagetaken"] = 562,
+					["id"] = "0xF13000089A012FBB",
+					["damage"] = 63,
+				}, -- [1]
+			},
+			["totaldamage"] = 562,
+			["time"] = 28,
+			["totaldamagetaken"] = 63,
+			["etotaldamagetaken"] = 562,
+			["last_time"] = 21842.217,
+			["players"] = {
+				{
+					["ccdonespells"] = {
+						[118] = {
+							["count"] = 1,
+							["targets"] = {
+								["Greymist Coastrunner"] = 1,
+							},
+						},
+					},
+					["last"] = 21842.192,
+					["flag"] = 1297,
+					["class"] = "MAGE",
+					["auras"] = {
+						[1460] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 28,
+						},
+						[118] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 64,
+							["targets"] = {
+								["Greymist Coastrunner"] = {
+									["uptime"] = 11,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 11,
+						},
+						[8099] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 28,
+						},
+						[28878] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 28,
+						},
+						[145] = {
+							["type"] = "DEBUFF",
+							["count"] = 2,
+							["school"] = 4,
+							["refresh"] = 4,
+							["targets"] = {
+								["Greymist Coastrunner"] = {
+									["count"] = 2,
+									["refresh"] = 4,
+									["uptime"] = 12,
+								},
+							},
+							["uptime"] = 12,
+						},
+						[7300] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 28,
+						},
+						[6136] = {
+							["type"] = "DEBUFF",
+							["count"] = 3,
+							["school"] = 16,
+							["refresh"] = 1,
+							["targets"] = {
+								["Greymist Coastrunner"] = {
+									["count"] = 3,
+									["refresh"] = 1,
+									["uptime"] = 10,
+								},
+							},
+							["uptime"] = 10,
+						},
+					},
+					["role"] = "DAMAGER",
+					["time"] = 19.47,
+					["totaldamagetaken"] = 63,
+					["damage"] = 562,
+					["damagespells"] = {
+						["Fireball"] = {
+							["hitmin"] = 61,
+							["id"] = 145,
+							["targets"] = {
+								["Greymist Coastrunner"] = {
+									["overkill"] = 34,
+									["amount"] = 490,
+								},
+							},
+							["overkill"] = 34,
+							["hitmax"] = 79,
+							["casts"] = 7,
+							["count"] = 8,
+							["amount"] = 490,
+							["school"] = 4,
+							["hit"] = 7,
+							["MISS"] = 1,
+							["hitamount"] = 490,
+						},
+						["Fire Blast"] = {
+							["hitmin"] = 66,
+							["id"] = 2137,
+							["targets"] = {
+								["Greymist Coastrunner"] = {
+									["overkill"] = 8,
+									["amount"] = 66,
+								},
+							},
+							["overkill"] = 8,
+							["casts"] = 1,
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 4,
+							["hitmax"] = 66,
+							["amount"] = 66,
+							["hitamount"] = 66,
+						},
+						["Fireball (DoT)"] = {
+							["hitmin"] = 2,
+							["id"] = 145,
+							["targets"] = {
+								["Greymist Coastrunner"] = {
+									["amount"] = 6,
+								},
+							},
+							["count"] = 3,
+							["hit"] = 3,
+							["school"] = 4,
+							["hitmax"] = 2,
+							["amount"] = 6,
+							["hitamount"] = 6,
+						},
+					},
+					["damagetaken"] = 63,
+					["id"] = "0x0700000000976299",
+					["spec"] = 63,
+					["damagetakenspells"] = {
+						["Melee"] = {
+							["hitmin"] = 15,
+							["id"] = 6603,
+							["sources"] = {
+								["Greymist Coastrunner"] = {
+									["amount"] = 63,
+								},
+							},
+							["count"] = 4,
+							["hit"] = 4,
+							["school"] = 1,
+							["hitmax"] = 16,
+							["amount"] = 63,
+							["hitamount"] = 63,
+						},
+					},
+					["name"] = "Sculamare",
+					["ccdone"] = 1,
+					["overkill"] = 42,
+					["totaldamage"] = 562,
+				}, -- [1]
+			},
+			["type"] = "none",
+			["damagetaken"] = 63,
+			["damage"] = 562,
+			["etotaldamage"] = 63,
+			["ccdone"] = 1,
+			["overkill"] = 42,
+			["edamagetaken"] = 562,
+			["name"] = "Greymist Coastrunner",
+			["mobname"] = "Greymist Coastrunner",
+			["starttime"] = 1689596036,
+			["edamage"] = 63,
+			["last_action"] = 1689596062,
+			["endtime"] = 1689596064,
+		}, -- [6]
+		{
+			["enemies"] = {
+				{
+					["damagespells"] = {
+						[6603] = {
+							["school"] = 1,
+							["targets"] = {
+								["Sculamare"] = {
+									["amount"] = 17,
+								},
+							},
+							["amount"] = 17,
+						},
+					},
+					["damagetaken"] = 311,
+					["flag"] = 68168,
+					["class"] = "MONSTER",
+					["damagetakenspells"] = {
+						[145] = {
+							["school"] = 4,
+							["sources"] = {
+								["Sculamare"] = {
+									["overkill"] = 11,
+									["amount"] = 311,
+								},
+							},
+							["overkill"] = 11,
+							["amount"] = 311,
+						},
+					},
+					["name"] = "Blackwood Windtalker",
+					["totaldamage"] = 17,
+					["totaldamagetaken"] = 311,
+					["id"] = "0xF13000091401058F",
+					["damage"] = 17,
+				}, -- [1]
+			},
+			["totaldamage"] = 311,
+			["time"] = 9,
+			["totaldamagetaken"] = 17,
+			["etotaldamagetaken"] = 311,
+			["last_time"] = 21751.268,
+			["players"] = {
+				{
+					["last"] = 21751.26,
+					["flag"] = 1297,
+					["class"] = "MAGE",
+					["auras"] = {
+						[1460] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 9,
+						},
+						[28878] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 9,
+						},
+						[145] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 4,
+							["refresh"] = 2,
+							["targets"] = {
+								["Blackwood Windtalker"] = {
+									["count"] = 1,
+									["refresh"] = 2,
+									["uptime"] = 6,
+								},
+							},
+							["uptime"] = 6,
+						},
+						[7300] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 9,
+						},
+						[6136] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 16,
+							["targets"] = {
+								["Blackwood Windtalker"] = {
+									["uptime"] = 1,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 1,
+						},
+					},
+					["role"] = "DAMAGER",
+					["time"] = 7.15,
+					["totaldamagetaken"] = 17,
+					["damage"] = 311,
+					["damagespells"] = {
+						["Fireball"] = {
+							["count"] = 4,
+							["hitmin"] = 59,
+							["criticalamount"] = 103,
+							["id"] = 145,
+							["hitmax"] = 77,
+							["targets"] = {
+								["Blackwood Windtalker"] = {
+									["overkill"] = 11,
+									["amount"] = 311,
+								},
+							},
+							["overkill"] = 11,
+							["hit"] = 3,
+							["casts"] = 3,
+							["critical"] = 1,
+							["amount"] = 311,
+							["school"] = 4,
+							["criticalmin"] = 103,
+							["criticalmax"] = 103,
+							["hitamount"] = 208,
+						},
+					},
+					["damagetaken"] = 17,
+					["id"] = "0x0700000000976299",
+					["spec"] = 63,
+					["damagetakenspells"] = {
+						["Melee"] = {
+							["hitmin"] = 17,
+							["id"] = 6603,
+							["sources"] = {
+								["Blackwood Windtalker"] = {
+									["amount"] = 17,
+								},
+							},
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 1,
+							["hitmax"] = 17,
+							["amount"] = 17,
+							["hitamount"] = 17,
+						},
+					},
+					["name"] = "Sculamare",
+					["overkill"] = 11,
+					["totaldamage"] = 311,
+				}, -- [1]
+			},
+			["type"] = "none",
+			["damagetaken"] = 17,
+			["damage"] = 311,
+			["etotaldamage"] = 17,
+			["overkill"] = 11,
+			["edamagetaken"] = 311,
+			["name"] = "Blackwood Windtalker (2)",
+			["mobname"] = "Blackwood Windtalker",
+			["starttime"] = 1689595964,
+			["edamage"] = 17,
+			["last_action"] = 1689595971,
+			["endtime"] = 1689595973,
+		}, -- [7]
+		{
+			["enemies"] = {
+				{
+					["damagespells"] = {
+						[6603] = {
+							["school"] = 1,
+							["targets"] = {
+								["Sculamare"] = {
+									["amount"] = 16,
+								},
+							},
+							["amount"] = 16,
+						},
+					},
+					["damagetaken"] = 290,
+					["flag"] = 68168,
+					["class"] = "MONSTER",
+					["damagetakenspells"] = {
+						[145] = {
+							["school"] = 4,
+							["sources"] = {
+								["Sculamare"] = {
+									["overkill"] = 37,
+									["amount"] = 290,
+								},
+							},
+							["overkill"] = 37,
+							["amount"] = 290,
+						},
+					},
+					["name"] = "Blackwood Pathfinder",
+					["totaldamage"] = 16,
+					["totaldamagetaken"] = 290,
+					["id"] = "0xF13000087701055F",
+					["damage"] = 16,
+				}, -- [1]
+			},
+			["totaldamage"] = 290,
+			["time"] = 9,
+			["totaldamagetaken"] = 16,
+			["etotaldamagetaken"] = 290,
+			["last_time"] = 21733.627,
+			["players"] = {
+				{
+					["last"] = 21733.611,
+					["flag"] = 1297,
+					["class"] = "MAGE",
+					["auras"] = {
+						[1460] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 9,
+						},
+						[28878] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 9,
+						},
+						[145] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 4,
+							["refresh"] = 2,
+							["targets"] = {
+								["Blackwood Pathfinder"] = {
+									["count"] = 1,
+									["refresh"] = 2,
+									["uptime"] = 5,
+								},
+							},
+							["uptime"] = 5,
+						},
+						[7300] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 9,
+						},
+						[6136] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 16,
+							["targets"] = {
+								["Blackwood Pathfinder"] = {
+									["uptime"] = 1,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 1,
+						},
+					},
+					["role"] = "DAMAGER",
+					["time"] = 7.180000000000001,
+					["totaldamagetaken"] = 16,
+					["damage"] = 290,
+					["damagespells"] = {
+						["Fireball"] = {
+							["hitmin"] = 68,
+							["id"] = 145,
+							["targets"] = {
+								["Blackwood Pathfinder"] = {
+									["overkill"] = 37,
+									["amount"] = 286,
+								},
+							},
+							["overkill"] = 37,
+							["casts"] = 3,
+							["count"] = 4,
+							["hit"] = 4,
+							["school"] = 4,
+							["hitmax"] = 73,
+							["amount"] = 286,
+							["hitamount"] = 286,
+						},
+						["Fireball (DoT)"] = {
+							["hitmin"] = 2,
+							["id"] = 145,
+							["targets"] = {
+								["Blackwood Pathfinder"] = {
+									["amount"] = 4,
+								},
+							},
+							["count"] = 2,
+							["hit"] = 2,
+							["school"] = 4,
+							["hitmax"] = 2,
+							["amount"] = 4,
+							["hitamount"] = 4,
+						},
+					},
+					["damagetaken"] = 16,
+					["id"] = "0x0700000000976299",
+					["spec"] = 63,
+					["damagetakenspells"] = {
+						["Melee"] = {
+							["hitmin"] = 16,
+							["id"] = 6603,
+							["sources"] = {
+								["Blackwood Pathfinder"] = {
+									["amount"] = 16,
+								},
+							},
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 1,
+							["hitmax"] = 16,
+							["amount"] = 16,
+							["hitamount"] = 16,
+						},
+					},
+					["name"] = "Sculamare",
+					["overkill"] = 37,
+					["totaldamage"] = 290,
+				}, -- [1]
+			},
+			["type"] = "none",
+			["damagetaken"] = 16,
+			["damage"] = 290,
+			["etotaldamage"] = 16,
+			["overkill"] = 37,
+			["edamagetaken"] = 290,
+			["name"] = "Blackwood Pathfinder (3)",
+			["mobname"] = "Blackwood Pathfinder",
+			["starttime"] = 1689595946,
+			["edamage"] = 16,
+			["last_action"] = 1689595953,
+			["endtime"] = 1689595955,
+		}, -- [8]
+		{
+			["enemies"] = {
+				{
+					["damagespells"] = {
+						[6603] = {
+							["school"] = 1,
+							["targets"] = {
+								["Sculamare"] = {
+									["amount"] = 17,
+								},
+							},
+							["amount"] = 17,
+						},
+					},
+					["damagetaken"] = 324,
+					["flag"] = 68168,
+					["class"] = "MONSTER",
+					["damagetakenspells"] = {
+						[145] = {
+							["school"] = 4,
+							["sources"] = {
+								["Sculamare"] = {
+									["overkill"] = 24,
+									["amount"] = 324,
+								},
+							},
+							["overkill"] = 24,
+							["amount"] = 324,
+						},
+					},
+					["name"] = "Blackwood Windtalker",
+					["totaldamage"] = 17,
+					["totaldamagetaken"] = 324,
+					["id"] = "0xF13000091401054A",
+					["damage"] = 17,
+				}, -- [1]
+			},
+			["totaldamage"] = 324,
+			["time"] = 9,
+			["totaldamagetaken"] = 17,
+			["etotaldamagetaken"] = 324,
+			["last_time"] = 21718.111,
+			["players"] = {
+				{
+					["last"] = 21718.094,
+					["flag"] = 1297,
+					["class"] = "MAGE",
+					["auras"] = {
+						[1460] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 9,
+						},
+						[28878] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 9,
+						},
+						[145] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 4,
+							["refresh"] = 2,
+							["targets"] = {
+								["Blackwood Windtalker"] = {
+									["count"] = 1,
+									["refresh"] = 2,
+									["uptime"] = 6,
+								},
+							},
+							["uptime"] = 6,
+						},
+						[7300] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 9,
+						},
+						[6136] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 16,
+							["targets"] = {
+								["Blackwood Windtalker"] = {
+									["uptime"] = 1,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 1,
+						},
+					},
+					["role"] = "DAMAGER",
+					["time"] = 7.060000000000001,
+					["totaldamagetaken"] = 17,
+					["damage"] = 324,
+					["damagespells"] = {
+						["Fireball"] = {
+							["criticalmax"] = 117,
+							["hitmin"] = 61,
+							["criticalamount"] = 117,
+							["id"] = 145,
+							["criticalmin"] = 117,
+							["targets"] = {
+								["Blackwood Windtalker"] = {
+									["overkill"] = 24,
+									["amount"] = 322,
+								},
+							},
+							["overkill"] = 24,
+							["critical"] = 1,
+							["casts"] = 3,
+							["count"] = 4,
+							["hit"] = 3,
+							["school"] = 4,
+							["hitmax"] = 73,
+							["amount"] = 322,
+							["hitamount"] = 205,
+						},
+						["Fireball (DoT)"] = {
+							["hitmin"] = 2,
+							["id"] = 145,
+							["targets"] = {
+								["Blackwood Windtalker"] = {
+									["amount"] = 2,
+								},
+							},
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 4,
+							["hitmax"] = 2,
+							["amount"] = 2,
+							["hitamount"] = 2,
+						},
+					},
+					["damagetaken"] = 17,
+					["id"] = "0x0700000000976299",
+					["spec"] = 63,
+					["damagetakenspells"] = {
+						["Melee"] = {
+							["hitmin"] = 17,
+							["id"] = 6603,
+							["sources"] = {
+								["Blackwood Windtalker"] = {
+									["amount"] = 17,
+								},
+							},
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 1,
+							["hitmax"] = 17,
+							["amount"] = 17,
+							["hitamount"] = 17,
+						},
+					},
+					["name"] = "Sculamare",
+					["overkill"] = 24,
+					["totaldamage"] = 324,
+				}, -- [1]
+			},
+			["type"] = "none",
+			["damagetaken"] = 17,
+			["damage"] = 324,
+			["etotaldamage"] = 17,
+			["overkill"] = 24,
+			["edamagetaken"] = 324,
+			["name"] = "Blackwood Windtalker",
+			["mobname"] = "Blackwood Windtalker",
+			["starttime"] = 1689595931,
+			["edamage"] = 17,
+			["last_action"] = 1689595938,
+			["endtime"] = 1689595940,
+		}, -- [9]
+		{
+			["enemies"] = {
+				{
+					["damagespells"] = {
+						[6603] = {
+							["school"] = 1,
+							["targets"] = {
+								["Sculamare"] = {
+									["amount"] = 17,
+								},
+							},
+							["amount"] = 17,
+						},
+					},
+					["damagetaken"] = 257,
+					["flag"] = 68168,
+					["class"] = "MONSTER",
+					["damagetakenspells"] = {
+						[145] = {
+							["school"] = 4,
+							["sources"] = {
+								["Sculamare"] = {
+									["overkill"] = 4,
+									["amount"] = 257,
+								},
+							},
+							["overkill"] = 4,
+							["amount"] = 257,
+						},
+					},
+					["name"] = "Blackwood Pathfinder",
+					["totaldamage"] = 17,
+					["totaldamagetaken"] = 257,
+					["id"] = "0xF13000087701050E",
+					["damage"] = 17,
+				}, -- [1]
+			},
+			["totaldamage"] = 257,
+			["time"] = 9,
+			["totaldamagetaken"] = 17,
+			["etotaldamagetaken"] = 257,
+			["last_time"] = 21704.511,
+			["players"] = {
+				{
+					["last"] = 21704.494,
+					["flag"] = 1297,
+					["class"] = "MAGE",
+					["auras"] = {
+						[1460] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 9,
+						},
+						[28878] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 9,
+						},
+						[145] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 4,
+							["refresh"] = 2,
+							["targets"] = {
+								["Blackwood Pathfinder"] = {
+									["count"] = 1,
+									["refresh"] = 2,
+									["uptime"] = 5,
+								},
+							},
+							["uptime"] = 5,
+						},
+						[7300] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 9,
+						},
+						[6136] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 16,
+							["targets"] = {
+								["Blackwood Pathfinder"] = {
+									["uptime"] = 1,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 1,
+						},
+					},
+					["role"] = "DAMAGER",
+					["time"] = 7.08,
+					["totaldamagetaken"] = 17,
+					["damage"] = 257,
+					["damagespells"] = {
+						["Fireball"] = {
+							["hitmin"] = 61,
+							["id"] = 145,
+							["targets"] = {
+								["Blackwood Pathfinder"] = {
+									["overkill"] = 4,
+									["amount"] = 257,
+								},
+							},
+							["overkill"] = 4,
+							["casts"] = 3,
+							["count"] = 4,
+							["hit"] = 4,
+							["school"] = 4,
+							["hitmax"] = 74,
+							["amount"] = 257,
+							["hitamount"] = 257,
+						},
+					},
+					["damagetaken"] = 17,
+					["id"] = "0x0700000000976299",
+					["spec"] = 63,
+					["damagetakenspells"] = {
+						["Melee"] = {
+							["hitmin"] = 17,
+							["id"] = 6603,
+							["sources"] = {
+								["Blackwood Pathfinder"] = {
+									["amount"] = 17,
+								},
+							},
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 1,
+							["hitmax"] = 17,
+							["amount"] = 17,
+							["hitamount"] = 17,
+						},
+					},
+					["name"] = "Sculamare",
+					["overkill"] = 4,
+					["totaldamage"] = 257,
+				}, -- [1]
+			},
+			["type"] = "none",
+			["damagetaken"] = 17,
+			["damage"] = 257,
+			["etotaldamage"] = 17,
+			["overkill"] = 4,
+			["edamagetaken"] = 257,
+			["name"] = "Blackwood Pathfinder (2)",
+			["mobname"] = "Blackwood Pathfinder",
+			["starttime"] = 1689595917,
+			["edamage"] = 17,
+			["last_action"] = 1689595924,
+			["endtime"] = 1689595926,
+		}, -- [10]
+		{
+			["enemies"] = {
+				{
+					["damagespells"] = {
+						[6603] = {
+							["school"] = 1,
+							["targets"] = {
+								["Sculamare"] = {
+									["amount"] = 28,
+								},
+							},
+							["amount"] = 28,
+						},
+					},
+					["damagetaken"] = 267,
+					["flag"] = 68168,
+					["class"] = "MONSTER",
+					["damagetakenspells"] = {
+						[145] = {
+							["school"] = 4,
+							["sources"] = {
+								["Sculamare"] = {
+									["overkill"] = 37,
+									["amount"] = 267,
+								},
+							},
+							["overkill"] = 37,
+							["amount"] = 267,
+						},
+					},
+					["name"] = "Blackwood Pathfinder",
+					["totaldamage"] = 28,
+					["totaldamagetaken"] = 267,
+					["id"] = "0xF1300008770104B5",
+					["damage"] = 28,
+				}, -- [1]
+				{
+					["damagespells"] = {
+						[6603] = {
+							["school"] = 1,
+							["targets"] = {
+								["Sculamare"] = {
+									["amount"] = 15,
+								},
+							},
+							["amount"] = 15,
+						},
+					},
+					["damagetaken"] = 287,
+					["id"] = "0xF1300009140104EA",
+					["class"] = "MONSTER",
+					["damagetakenspells"] = {
+						[145] = {
+							["school"] = 4,
+							["sources"] = {
+								["Sculamare"] = {
+									["overkill"] = 14,
+									["amount"] = 287,
+								},
+							},
+							["overkill"] = 14,
+							["amount"] = 287,
+						},
+					},
+					["totaldamage"] = 15,
+					["name"] = "Blackwood Windtalker",
+					["totaldamagetaken"] = 287,
+					["flag"] = 68168,
+					["damage"] = 15,
+				}, -- [2]
+			},
+			["totaldamage"] = 554,
+			["time"] = 25,
+			["totaldamagetaken"] = 43,
+			["etotaldamagetaken"] = 554,
+			["last_time"] = 21663.745,
+			["players"] = {
+				{
+					["ccdonespells"] = {
+						[118] = {
+							["count"] = 1,
+							["targets"] = {
+								["Blackwood Windtalker"] = 1,
+							},
+						},
+					},
+					["last"] = 21663.718,
+					["flag"] = 1297,
+					["class"] = "MAGE",
+					["auras"] = {
+						[1460] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 25,
+						},
+						[118] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 64,
+							["targets"] = {
+								["Blackwood Windtalker"] = {
+									["uptime"] = 10,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 10,
+						},
+						[28878] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 25,
+						},
+						[145] = {
+							["type"] = "DEBUFF",
+							["count"] = 2,
+							["school"] = 4,
+							["refresh"] = 4,
+							["targets"] = {
+								["Blackwood Pathfinder"] = {
+									["count"] = 1,
+									["refresh"] = 2,
+									["uptime"] = 6,
+								},
+								["Blackwood Windtalker"] = {
+									["count"] = 1,
+									["refresh"] = 2,
+									["uptime"] = 5,
+								},
+							},
+							["uptime"] = 11,
+						},
+						[7300] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 25,
+						},
+						[6136] = {
+							["type"] = "DEBUFF",
+							["count"] = 2,
+							["school"] = 16,
+							["targets"] = {
+								["Blackwood Pathfinder"] = {
+									["uptime"] = 1,
+									["count"] = 1,
+								},
+								["Blackwood Windtalker"] = {
+									["uptime"] = 5,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 6,
+						},
+					},
+					["role"] = "DAMAGER",
+					["time"] = 15.59,
+					["totaldamagetaken"] = 43,
+					["damage"] = 554,
+					["damagespells"] = {
+						["Fireball"] = {
+							["hitmin"] = 61,
+							["id"] = 145,
+							["targets"] = {
+								["Blackwood Pathfinder"] = {
+									["overkill"] = 37,
+									["amount"] = 265,
+								},
+								["Blackwood Windtalker"] = {
+									["overkill"] = 14,
+									["amount"] = 287,
+								},
+							},
+							["overkill"] = 51,
+							["casts"] = 7,
+							["count"] = 8,
+							["hit"] = 8,
+							["school"] = 4,
+							["hitmax"] = 78,
+							["amount"] = 552,
+							["hitamount"] = 552,
+						},
+						["Fireball (DoT)"] = {
+							["hitmin"] = 2,
+							["id"] = 145,
+							["targets"] = {
+								["Blackwood Pathfinder"] = {
+									["amount"] = 2,
+								},
+							},
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 4,
+							["hitmax"] = 2,
+							["amount"] = 2,
+							["hitamount"] = 2,
+						},
+					},
+					["damagetaken"] = 43,
+					["id"] = "0x0700000000976299",
+					["spec"] = 63,
+					["damagetakenspells"] = {
+						["Melee"] = {
+							["hitmin"] = 15,
+							["criticalamount"] = 28,
+							["id"] = 6603,
+							["criticalmin"] = 28,
+							["hitmax"] = 15,
+							["count"] = 3,
+							["hit"] = 1,
+							["criticalmax"] = 28,
+							["critical"] = 1,
+							["amount"] = 43,
+							["school"] = 1,
+							["sources"] = {
+								["Blackwood Pathfinder"] = {
+									["amount"] = 28,
+								},
+								["Blackwood Windtalker"] = {
+									["amount"] = 15,
+								},
+							},
+							["MISS"] = 1,
+							["hitamount"] = 15,
+						},
+					},
+					["name"] = "Sculamare",
+					["ccdone"] = 1,
+					["overkill"] = 51,
+					["totaldamage"] = 554,
+				}, -- [1]
+			},
+			["type"] = "none",
+			["damagetaken"] = 43,
+			["damage"] = 554,
+			["ccdone"] = 1,
+			["etotaldamage"] = 43,
+			["overkill"] = 51,
+			["edamagetaken"] = 554,
+			["name"] = "Blackwood Pathfinder",
+			["mobname"] = "Blackwood Pathfinder",
+			["starttime"] = 1689595860,
+			["edamage"] = 43,
+			["last_action"] = 1689595884,
+			["endtime"] = 1689595885,
+		}, -- [11]
+		{
+			["enemies"] = {
+				{
+					["damagespells"] = {
+						[6603] = {
+							["school"] = 1,
+							["targets"] = {
+								["Sculamare"] = {
+									["amount"] = 56,
+								},
+							},
+							["amount"] = 56,
+						},
+					},
+					["damagetaken"] = 402,
+					["id"] = "0xF130000816010424",
+					["class"] = "MONSTER",
+					["damagetakenspells"] = {
+						[145] = {
+							["school"] = 4,
+							["sources"] = {
+								["Sculamare"] = {
+									["overkill"] = 16,
+									["amount"] = 379,
+								},
+							},
+							["overkill"] = 16,
+							["amount"] = 379,
+						},
+						[122] = {
+							["school"] = 16,
+							["sources"] = {
+								["Sculamare"] = {
+									["amount"] = 23,
+								},
+							},
+							["amount"] = 23,
+						},
+					},
+					["totaldamage"] = 56,
+					["name"] = "Moonstalker Runt",
+					["totaldamagetaken"] = 402,
+					["flag"] = 68168,
+					["damage"] = 56,
+				}, -- [1]
+			},
+			["totaldamage"] = 402,
+			["time"] = 34,
+			["totaldamagetaken"] = 56,
+			["etotaldamage"] = 56,
+			["last_time"] = 21623.911,
+			["players"] = {
+				{
+					["ccdonespells"] = {
+						[118] = {
+							["count"] = 1,
+							["targets"] = {
+								["Moonstalker Runt"] = 1,
+							},
+						},
+						[122] = {
+							["count"] = 1,
+							["targets"] = {
+								["Moonstalker Runt"] = 1,
+							},
+						},
+					},
+					["last"] = 21623.895,
+					["flag"] = 1297,
+					["class"] = "MAGE",
+					["auras"] = {
+						[1460] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 34,
+						},
+						[122] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 16,
+							["targets"] = {
+								["Moonstalker Runt"] = {
+									["uptime"] = 7,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 7,
+						},
+						[118] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 64,
+							["targets"] = {
+								["Moonstalker Runt"] = {
+									["uptime"] = 14,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 14,
+						},
+						[28878] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 34,
+						},
+						[6136] = {
+							["type"] = "DEBUFF",
+							["count"] = 2,
+							["school"] = 16,
+							["refresh"] = 2,
+							["targets"] = {
+								["Moonstalker Runt"] = {
+									["count"] = 2,
+									["refresh"] = 2,
+									["uptime"] = 13,
+								},
+							},
+							["uptime"] = 13,
+						},
+						[7300] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 34,
+						},
+						[145] = {
+							["type"] = "DEBUFF",
+							["count"] = 2,
+							["school"] = 4,
+							["refresh"] = 3,
+							["targets"] = {
+								["Moonstalker Runt"] = {
+									["count"] = 2,
+									["refresh"] = 3,
+									["uptime"] = 14,
+								},
+							},
+							["uptime"] = 14,
+						},
+					},
+					["role"] = "DAMAGER",
+					["time"] = 18.36,
+					["totaldamagetaken"] = 56,
+					["damage"] = 402,
+					["damagespells"] = {
+						["Fireball"] = {
+							["hitmin"] = 52,
+							["id"] = 145,
+							["hit"] = 6,
+							["targets"] = {
+								["Moonstalker Runt"] = {
+									["overkill"] = 16,
+									["amount"] = 369,
+								},
+							},
+							["overkill"] = 16,
+							["hitmax"] = 69,
+							["casts"] = 6,
+							["count"] = 7,
+							["amount"] = 369,
+							["school"] = 4,
+							["resisted"] = 33,
+							["MISS"] = 1,
+							["hitamount"] = 369,
+						},
+						["Frost Nova"] = {
+							["hitmin"] = 23,
+							["id"] = 122,
+							["targets"] = {
+								["Moonstalker Runt"] = {
+									["amount"] = 23,
+								},
+							},
+							["casts"] = 1,
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 16,
+							["hitmax"] = 23,
+							["amount"] = 23,
+							["hitamount"] = 23,
+						},
+						["Fireball (DoT)"] = {
+							["hitmin"] = 2,
+							["id"] = 145,
+							["targets"] = {
+								["Moonstalker Runt"] = {
+									["amount"] = 10,
+								},
+							},
+							["count"] = 5,
+							["hit"] = 5,
+							["school"] = 4,
+							["hitmax"] = 2,
+							["amount"] = 10,
+							["hitamount"] = 10,
+						},
+					},
+					["damagetaken"] = 56,
+					["id"] = "0x0700000000976299",
+					["spec"] = 63,
+					["damagetakenspells"] = {
+						["Melee"] = {
+							["hitmin"] = 13,
+							["id"] = 6603,
+							["sources"] = {
+								["Moonstalker Runt"] = {
+									["amount"] = 56,
+								},
+							},
+							["count"] = 4,
+							["hit"] = 4,
+							["school"] = 1,
+							["hitmax"] = 16,
+							["amount"] = 56,
+							["hitamount"] = 56,
+						},
+					},
+					["name"] = "Sculamare",
+					["ccdone"] = 2,
+					["overkill"] = 16,
+					["totaldamage"] = 402,
+				}, -- [1]
+			},
+			["type"] = "none",
+			["damagetaken"] = 56,
+			["damage"] = 402,
+			["etotaldamagetaken"] = 402,
+			["overkill"] = 16,
+			["edamagetaken"] = 402,
+			["ccdone"] = 2,
+			["name"] = "Moonstalker Runt (5)",
+			["mobname"] = "Moonstalker Runt",
+			["starttime"] = 1689595812,
+			["edamage"] = 56,
+			["last_action"] = 1689595844,
+			["endtime"] = 1689595846,
+		}, -- [12]
+		{
+			["enemies"] = {
+				{
+					["damagespells"] = {
+						[6603] = {
+							["school"] = 1,
+							["targets"] = {
+								["Sculamare"] = {
+									["amount"] = 58,
+								},
+							},
+							["amount"] = 58,
+						},
+					},
+					["damagetaken"] = 363,
+					["flag"] = 68168,
+					["class"] = "MONSTER",
+					["damagetakenspells"] = {
+						[145] = {
+							["school"] = 4,
+							["sources"] = {
+								["Sculamare"] = {
+									["amount"] = 348,
+								},
+							},
+							["amount"] = 348,
+						},
+						[6603] = {
+							["school"] = 1,
+							["sources"] = {
+								["Sculamare"] = {
+									["overkill"] = 7,
+									["amount"] = 15,
+								},
+							},
+							["overkill"] = 7,
+							["amount"] = 15,
+						},
+					},
+					["name"] = "Moonstalker Runt",
+					["totaldamage"] = 58,
+					["totaldamagetaken"] = 363,
+					["id"] = "0xF130000816012F45",
+					["damage"] = 58,
+				}, -- [1]
+			},
+			["totaldamage"] = 363,
+			["time"] = 16,
+			["totaldamagetaken"] = 58,
+			["etotaldamagetaken"] = 363,
+			["last_time"] = 21558.238,
+			["players"] = {
+				{
+					["last"] = 21558.22,
+					["flag"] = 1297,
+					["class"] = "MAGE",
+					["auras"] = {
+						[1460] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 16,
+						},
+						[28878] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 16,
+						},
+						[145] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 4,
+							["refresh"] = 4,
+							["targets"] = {
+								["Moonstalker Runt"] = {
+									["count"] = 1,
+									["refresh"] = 4,
+									["uptime"] = 14,
+								},
+							},
+							["uptime"] = 14,
+						},
+						[7300] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 16,
+						},
+						[6136] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 16,
+							["refresh"] = 2,
+							["targets"] = {
+								["Moonstalker Runt"] = {
+									["count"] = 1,
+									["refresh"] = 2,
+									["uptime"] = 10,
+								},
+							},
+							["uptime"] = 10,
+						},
+					},
+					["role"] = "DAMAGER",
+					["time"] = 15.56,
+					["totaldamagetaken"] = 58,
+					["damage"] = 363,
+					["damagespells"] = {
+						["Fireball"] = {
+							["hitmin"] = 59,
+							["id"] = 145,
+							["targets"] = {
+								["Moonstalker Runt"] = {
+									["amount"] = 340,
+								},
+							},
+							["hitmax"] = 74,
+							["casts"] = 4,
+							["count"] = 5,
+							["hit"] = 5,
+							["school"] = 4,
+							["resisted"] = 15,
+							["amount"] = 340,
+							["hitamount"] = 340,
+						},
+						["Chilled"] = {
+							["casts"] = 1,
+							["count"] = 1,
+							["amount"] = 0,
+							["school"] = 16,
+							["targets"] = {
+								["Moonstalker Runt"] = {
+									["amount"] = 0,
+								},
+							},
+							["MISS"] = 1,
+							["id"] = 6136,
+						},
+						["Melee"] = {
+							["hitmin"] = 15,
+							["id"] = 6603,
+							["targets"] = {
+								["Moonstalker Runt"] = {
+									["overkill"] = 7,
+									["amount"] = 15,
+								},
+							},
+							["overkill"] = 7,
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 1,
+							["hitmax"] = 15,
+							["amount"] = 15,
+							["hitamount"] = 15,
+						},
+						["Fireball (DoT)"] = {
+							["hitmin"] = 2,
+							["id"] = 145,
+							["targets"] = {
+								["Moonstalker Runt"] = {
+									["amount"] = 8,
+								},
+							},
+							["count"] = 4,
+							["hit"] = 4,
+							["school"] = 4,
+							["hitmax"] = 2,
+							["amount"] = 8,
+							["hitamount"] = 8,
+						},
+					},
+					["damagetaken"] = 58,
+					["id"] = "0x0700000000976299",
+					["spec"] = 63,
+					["damagetakenspells"] = {
+						["Melee"] = {
+							["hitmin"] = 13,
+							["id"] = 6603,
+							["sources"] = {
+								["Moonstalker Runt"] = {
+									["amount"] = 58,
+								},
+							},
+							["count"] = 4,
+							["hit"] = 4,
+							["school"] = 1,
+							["hitmax"] = 15,
+							["amount"] = 58,
+							["hitamount"] = 58,
+						},
+					},
+					["name"] = "Sculamare",
+					["overkill"] = 7,
+					["totaldamage"] = 363,
+				}, -- [1]
+			},
+			["type"] = "none",
+			["damagetaken"] = 58,
+			["damage"] = 363,
+			["etotaldamage"] = 58,
+			["overkill"] = 7,
+			["edamagetaken"] = 363,
+			["name"] = "Moonstalker Runt (4)",
+			["mobname"] = "Moonstalker Runt",
+			["starttime"] = 1689595762,
+			["edamage"] = 58,
+			["last_action"] = 1689595778,
+			["endtime"] = 1689595778,
+		}, -- [13]
+		{
+			["enemies"] = {
+				{
+					["id"] = "0xF13000300A005B85",
+					["name"] = "Sickly Deer",
+					["totaldamagetaken"] = 23,
+					["flag"] = 68136,
+					["class"] = "MONSTER",
+					["damagetaken"] = 23,
+					["damagetakenspells"] = {
+						[5019] = {
+							["school"] = 1,
+							["sources"] = {
+								["Sculamare"] = {
+									["overkill"] = 2,
+									["amount"] = 23,
+								},
+							},
+							["overkill"] = 2,
+							["amount"] = 23,
+						},
+					},
+				}, -- [1]
+			},
+			["totaldamage"] = 23,
+			["time"] = 8,
+			["etotaldamagetaken"] = 23,
+			["last_time"] = 21520.386,
+			["players"] = {
+				{
+					["damagespells"] = {
+						["Shoot"] = {
+							["hitmin"] = 23,
+							["id"] = 5019,
+							["targets"] = {
+								["Sickly Deer"] = {
+									["overkill"] = 2,
+									["amount"] = 23,
+								},
+							},
+							["overkill"] = 2,
+							["casts"] = 1,
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 1,
+							["hitmax"] = 23,
+							["amount"] = 23,
+							["hitamount"] = 23,
+						},
+					},
+					["last"] = 21520.369,
+					["class"] = "MAGE",
+					["id"] = "0x0700000000976299",
+					["spec"] = 63,
+					["overkill"] = 2,
+					["auras"] = {
+						[1460] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 8,
+						},
+						[7300] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 8,
+						},
+						[28878] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 8,
+						},
+					},
+					["totaldamage"] = 23,
+					["role"] = "DAMAGER",
+					["name"] = "Sculamare",
+					["flag"] = 1297,
+					["time"] = 0.84,
+					["damage"] = 23,
+				}, -- [1]
+			},
+			["type"] = "none",
+			["overkill"] = 2,
+			["edamagetaken"] = 23,
+			["damage"] = 23,
+			["name"] = "Sickly Deer",
+			["mobname"] = "Sickly Deer",
+			["starttime"] = 1689595739,
+			["last_action"] = 1689595740,
+			["endtime"] = 1689595747,
+		}, -- [14]
 		{
 			["enemies"] = {
 				{
@@ -973,1093 +2314,68 @@ SkadaStorageDB = {
 							["amount"] = 31,
 						},
 					},
-					["damagetaken"] = 180,
-					["id"] = "0xF13000014726ED0F",
+					["damagetaken"] = 276,
+					["flag"] = 68136,
 					["class"] = "MONSTER",
 					["damagetakenspells"] = {
-						[1449] = {
-							["school"] = 64,
+						[145] = {
+							["school"] = 4,
 							["sources"] = {
 								["Sculamare"] = {
-									["amount"] = 136,
+									["amount"] = 245,
 								},
 							},
-							["amount"] = 136,
+							["amount"] = 245,
 						},
-						[6603] = {
+						[5019] = {
 							["school"] = 1,
 							["sources"] = {
 								["Sculamare"] = {
-									["overkill"] = 24,
-									["amount"] = 44,
-								},
-							},
-							["overkill"] = 24,
-							["amount"] = 44,
-						},
-					},
-					["totaldamage"] = 31,
-					["name"] = "Goldtooth",
-					["totaldamagetaken"] = 180,
-					["flag"] = 2632,
-					["damage"] = 31,
-				}, -- [1]
-				{
-					["damagespells"] = {
-						[6603] = {
-							["school"] = 1,
-							["targets"] = {
-								["Sculamare"] = {
-									["amount"] = 33,
-								},
-							},
-							["amount"] = 33,
-						},
-					},
-					["damagetaken"] = 318,
-					["id"] = "0xF13000002826ED07",
-					["class"] = "MONSTER",
-					["damagetakenspells"] = {
-						[1449] = {
-							["school"] = 64,
-							["sources"] = {
-								["Sculamare"] = {
-									["overkill"] = 44,
-									["amount"] = 318,
-								},
-							},
-							["overkill"] = 44,
-							["amount"] = 318,
-						},
-					},
-					["totaldamage"] = 33,
-					["name"] = "Kobold Miner",
-					["totaldamagetaken"] = 318,
-					["flag"] = 68168,
-					["damage"] = 33,
-				}, -- [2]
-			},
-			["totaldamage"] = 498,
-			["time"] = 14,
-			["totaldamagetaken"] = 64,
-			["etotaldamage"] = 64,
-			["last_time"] = 17452.42,
-			["starttime"] = 1689538467,
-			["type"] = "group",
-			["damagetaken"] = 64,
-			["players"] = {
-				{
-					["last"] = 17452.346,
-					["flag"] = 1297,
-					["class"] = "MAGE",
-					["auras"] = {
-						[1460] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 14,
-						},
-						[7300] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 14,
-						},
-						[28878] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 14,
-						},
-						[6136] = {
-							["type"] = "DEBUFF",
-							["count"] = 4,
-							["school"] = 16,
-							["refresh"] = 6,
-							["targets"] = {
-								["Kobold Miner"] = {
-									["count"] = 3,
-									["refresh"] = 3,
-									["uptime"] = 11,
-								},
-								["Goldtooth"] = {
-									["count"] = 1,
-									["refresh"] = 3,
-									["uptime"] = 11,
-								},
-							},
-							["uptime"] = 14,
-						},
-					},
-					["time"] = 12.53,
-					["totaldamagetaken"] = 64,
-					["damage"] = 498,
-					["damagespells"] = {
-						["Arcane Explosion"] = {
-							["criticalmax"] = 55,
-							["hitmin"] = 34,
-							["criticalamount"] = 108,
-							["id"] = 1449,
-							["criticalmin"] = 53,
-							["targets"] = {
-								["Kobold Miner"] = {
-									["overkill"] = 44,
-									["amount"] = 318,
-								},
-								["Goldtooth"] = {
-									["amount"] = 136,
-								},
-							},
-							["overkill"] = 44,
-							["critical"] = 2,
-							["casts"] = 4,
-							["count"] = 12,
-							["hit"] = 10,
-							["school"] = 64,
-							["hitmax"] = 36,
-							["amount"] = 454,
-							["hitamount"] = 346,
-						},
-						["Melee"] = {
-							["hitmin"] = 18,
-							["id"] = 6603,
-							["targets"] = {
-								["Goldtooth"] = {
-									["overkill"] = 24,
-									["amount"] = 44,
-								},
-							},
-							["overkill"] = 24,
-							["blocked"] = 4,
-							["hitmax"] = 26,
-							["count"] = 3,
-							["amount"] = 44,
-							["school"] = 1,
-							["hit"] = 2,
-							["MISS"] = 1,
-							["hitamount"] = 44,
-						},
-					},
-					["damagetaken"] = 64,
-					["id"] = "0x0700000000976299",
-					["spec"] = 63,
-					["damagetakenspells"] = {
-						["Melee"] = {
-							["hitmin"] = 6,
-							["id"] = 6603,
-							["sources"] = {
-								["Goldtooth"] = {
+									["overkill"] = 3,
 									["amount"] = 31,
 								},
-								["Kobold Miner"] = {
-									["amount"] = 33,
-								},
 							},
-							["count"] = 9,
-							["hit"] = 9,
-							["school"] = 1,
-							["hitmax"] = 8,
-							["amount"] = 64,
-							["hitamount"] = 64,
+							["overkill"] = 3,
+							["amount"] = 31,
 						},
 					},
-					["name"] = "Sculamare",
-					["overkill"] = 68,
-					["totaldamage"] = 498,
-					["role"] = "DAMAGER",
+					["name"] = "Foreststrider Fledgling",
+					["totaldamage"] = 31,
+					["totaldamagetaken"] = 276,
+					["id"] = "0xF130000911012DE4",
+					["damage"] = 31,
 				}, -- [1]
 			},
-			["overkill"] = 68,
-			["edamagetaken"] = 498,
-			["etotaldamagetaken"] = 498,
-			["name"] = "Kobold Miner (33)",
-			["mobname"] = "Kobold Miner",
-			["damage"] = 498,
-			["edamage"] = 64,
-			["last_action"] = 1689538481,
-			["endtime"] = 1689538481,
-		}, -- [6]
-		{
-			["enemies"] = {
-				{
-					["damagespells"] = {
-						[6603] = {
-							["school"] = 1,
-							["targets"] = {
-								["Sculamare"] = {
-									["amount"] = 11,
-								},
-							},
-							["amount"] = 11,
-						},
-					},
-					["damagetaken"] = 126,
-					["id"] = "0xF13000002826ECF8",
-					["class"] = "MONSTER",
-					["damagetakenspells"] = {
-						[6603] = {
-							["school"] = 1,
-							["sources"] = {
-								["Sculamare"] = {
-									["amount"] = 86,
-								},
-							},
-							["amount"] = 86,
-						},
-						[2137] = {
-							["school"] = 4,
-							["sources"] = {
-								["Sculamare"] = {
-									["overkill"] = 35,
-									["amount"] = 40,
-								},
-							},
-							["overkill"] = 35,
-							["amount"] = 40,
-						},
-					},
-					["totaldamage"] = 11,
-					["name"] = "Kobold Miner",
-					["totaldamagetaken"] = 126,
-					["flag"] = 68168,
-					["damage"] = 11,
-				}, -- [1]
-			},
-			["totaldamage"] = 126,
-			["time"] = 9,
-			["totaldamagetaken"] = 11,
-			["etotaldamage"] = 11,
-			["last_time"] = 17417.604,
+			["totaldamage"] = 276,
+			["time"] = 8,
+			["totaldamagetaken"] = 31,
+			["etotaldamagetaken"] = 276,
+			["last_time"] = 21512.203,
 			["players"] = {
 				{
-					["last"] = 17417.089,
+					["last"] = 21512.186,
 					["flag"] = 1297,
 					["class"] = "MAGE",
 					["auras"] = {
 						[1460] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 9,
-						},
-						[7300] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 9,
-						},
-						[28878] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 9,
-						},
-						[6136] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 16,
-							["refresh"] = 2,
-							["targets"] = {
-								["Kobold Miner"] = {
-									["count"] = 1,
-									["refresh"] = 2,
-									["uptime"] = 8,
-								},
-							},
 							["uptime"] = 8,
 						},
-					},
-					["time"] = 7.52,
-					["totaldamagetaken"] = 11,
-					["damage"] = 126,
-					["damagespells"] = {
-						["Melee"] = {
-							["glance"] = 86,
-							["id"] = 6603,
-							["glancemax"] = 45,
-							["glancing"] = 2,
-							["count"] = 2,
-							["amount"] = 86,
-							["school"] = 1,
-							["targets"] = {
-								["Kobold Miner"] = {
-									["amount"] = 86,
-								},
-							},
-							["glancemin"] = 41,
-						},
-						["Fire Blast"] = {
-							["hitmin"] = 40,
-							["id"] = 2137,
-							["targets"] = {
-								["Kobold Miner"] = {
-									["overkill"] = 35,
-									["amount"] = 40,
-								},
-							},
-							["overkill"] = 35,
-							["hitmax"] = 40,
-							["casts"] = 1,
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 4,
-							["resisted"] = 26,
-							["amount"] = 40,
-							["hitamount"] = 40,
-						},
-					},
-					["damagetaken"] = 11,
-					["id"] = "0x0700000000976299",
-					["spec"] = 63,
-					["damagetakenspells"] = {
-						["Melee"] = {
-							["hitmin"] = 5,
-							["id"] = 6603,
-							["sources"] = {
-								["Kobold Miner"] = {
-									["amount"] = 11,
-								},
-							},
-							["count"] = 2,
-							["hit"] = 2,
-							["school"] = 1,
-							["hitmax"] = 6,
-							["amount"] = 11,
-							["hitamount"] = 11,
-						},
-					},
-					["name"] = "Sculamare",
-					["overkill"] = 35,
-					["totaldamage"] = 126,
-					["role"] = "DAMAGER",
-				}, -- [1]
-			},
-			["type"] = "group",
-			["damagetaken"] = 11,
-			["etotaldamagetaken"] = 126,
-			["overkill"] = 35,
-			["edamagetaken"] = 126,
-			["damage"] = 126,
-			["name"] = "Kobold Miner (32)",
-			["mobname"] = "Kobold Miner",
-			["starttime"] = 1689538438,
-			["edamage"] = 11,
-			["last_action"] = 1689538446,
-			["endtime"] = 1689538447,
-		}, -- [7]
-		{
-			["enemies"] = {
-				{
-					["damagespells"] = {
-						[6603] = {
-							["school"] = 1,
-							["targets"] = {
-								["Sculamare"] = {
-									["amount"] = 27,
-								},
-							},
-							["amount"] = 27,
-						},
-					},
-					["damagetaken"] = 359,
-					["id"] = "0xF1300001DB26EB2A",
-					["class"] = "MONSTER",
-					["damagetakenspells"] = {
-						[6603] = {
-							["school"] = 1,
-							["sources"] = {
-								["Sculamare"] = {
-									["amount"] = 119,
-								},
-							},
-							["amount"] = 119,
-						},
-						[1449] = {
-							["school"] = 64,
-							["sources"] = {
-								["Sculamare"] = {
-									["overkill"] = 53,
-									["amount"] = 240,
-								},
-							},
-							["overkill"] = 53,
-							["amount"] = 240,
-						},
-					},
-					["totaldamage"] = 27,
-					["name"] = "Kobold Tunneler",
-					["totaldamagetaken"] = 359,
-					["flag"] = 68168,
-					["damage"] = 27,
-				}, -- [1]
-				{
-					["damagespells"] = {
-						[6603] = {
-							["school"] = 1,
-							["targets"] = {
-								["Sculamare"] = {
-									["amount"] = 40,
-								},
-							},
-							["amount"] = 40,
-						},
-					},
-					["damagetaken"] = 422,
-					["id"] = "0xF13000002826EC82",
-					["class"] = "MONSTER",
-					["damagetakenspells"] = {
-						[1449] = {
-							["school"] = 64,
-							["sources"] = {
-								["Sculamare"] = {
-									["overkill"] = 45,
-									["amount"] = 422,
-								},
-							},
-							["overkill"] = 45,
-							["amount"] = 422,
-						},
-					},
-					["totaldamage"] = 40,
-					["name"] = "Kobold Miner",
-					["totaldamagetaken"] = 422,
-					["flag"] = 2632,
-					["damage"] = 40,
-				}, -- [2]
-			},
-			["totaldamage"] = 781,
-			["time"] = 18,
-			["totaldamagetaken"] = 67,
-			["etotaldamage"] = 67,
-			["last_time"] = 17402.296,
-			["players"] = {
-				{
-					["last"] = 17402.155,
-					["flag"] = 1297,
-					["class"] = "MAGE",
-					["auras"] = {
-						[1460] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 18,
-						},
-						[7300] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 18,
-						},
 						[28878] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 18,
+							["uptime"] = 8,
 						},
-						[6136] = {
+						[145] = {
 							["type"] = "DEBUFF",
-							["count"] = 11,
-							["school"] = 16,
-							["refresh"] = 6,
+							["count"] = 1,
+							["school"] = 4,
+							["refresh"] = 2,
 							["targets"] = {
-								["Kobold Miner"] = {
-									["count"] = 5,
+								["Foreststrider Fledgling"] = {
+									["count"] = 1,
 									["refresh"] = 2,
-									["uptime"] = 11,
-								},
-								["Kobold Tunneler"] = {
-									["count"] = 6,
-									["refresh"] = 4,
-									["uptime"] = 16,
-								},
-							},
-							["uptime"] = 18,
-						},
-					},
-					["time"] = 15.3,
-					["totaldamagetaken"] = 67,
-					["damage"] = 781,
-					["damagespells"] = {
-						["Melee"] = {
-							["glance"] = 98,
-							["hitmin"] = 21,
-							["id"] = 6603,
-							["targets"] = {
-								["Kobold Tunneler"] = {
-									["amount"] = 119,
-								},
-							},
-							["glancemin"] = 49,
-							["glancing"] = 2,
-							["glancemax"] = 49,
-							["count"] = 3,
-							["hit"] = 1,
-							["school"] = 1,
-							["hitmax"] = 21,
-							["amount"] = 119,
-							["hitamount"] = 21,
-						},
-						["Arcane Explosion"] = {
-							["hitmin"] = 33,
-							["id"] = 1449,
-							["targets"] = {
-								["Kobold Miner"] = {
-									["overkill"] = 45,
-									["amount"] = 422,
-								},
-								["Kobold Tunneler"] = {
-									["overkill"] = 53,
-									["amount"] = 240,
-								},
-							},
-							["overkill"] = 98,
-							["hitmax"] = 37,
-							["casts"] = 4,
-							["count"] = 20,
-							["amount"] = 662,
-							["school"] = 64,
-							["EVADE"] = 1,
-							["hit"] = 19,
-							["hitamount"] = 662,
-						},
-					},
-					["damagetaken"] = 67,
-					["id"] = "0x0700000000976299",
-					["spec"] = 63,
-					["damagetakenspells"] = {
-						["Melee"] = {
-							["DODGE"] = 2,
-							["hitmin"] = 3,
-							["id"] = 6603,
-							["amount"] = 67,
-							["sources"] = {
-								["Kobold Miner"] = {
-									["amount"] = 40,
-								},
-								["Kobold Tunneler"] = {
-									["amount"] = 27,
-								},
-							},
-							["count"] = 20,
-							["hit"] = 16,
-							["school"] = 1,
-							["hitmax"] = 7,
-							["MISS"] = 2,
-							["hitamount"] = 67,
-						},
-					},
-					["name"] = "Sculamare",
-					["overkill"] = 98,
-					["totaldamage"] = 781,
-					["role"] = "DAMAGER",
-				}, -- [1]
-			},
-			["type"] = "group",
-			["damagetaken"] = 67,
-			["etotaldamagetaken"] = 781,
-			["overkill"] = 98,
-			["edamagetaken"] = 781,
-			["damage"] = 781,
-			["name"] = "Kobold Tunneler (67)",
-			["mobname"] = "Kobold Tunneler",
-			["starttime"] = 1689538413,
-			["edamage"] = 67,
-			["last_action"] = 1689538431,
-			["endtime"] = 1689538431,
-		}, -- [8]
-		{
-			["enemies"] = {
-				{
-					["damagespells"] = {
-						[6603] = {
-							["school"] = 1,
-							["targets"] = {
-								["Sculamare"] = {
-									["amount"] = 79,
-								},
-							},
-							["amount"] = 79,
-						},
-					},
-					["damagetaken"] = 596,
-					["id"] = "0xF1300001DB26E35C",
-					["class"] = "MONSTER",
-					["damagetakenspells"] = {
-						[6603] = {
-							["school"] = 1,
-							["sources"] = {
-								["Sculamare"] = {
-									["amount"] = 160,
-								},
-							},
-							["amount"] = 160,
-						},
-						[1449] = {
-							["school"] = 64,
-							["sources"] = {
-								["Sculamare"] = {
-									["overkill"] = 58,
-									["amount"] = 436,
-								},
-							},
-							["overkill"] = 58,
-							["amount"] = 436,
-						},
-					},
-					["totaldamage"] = 79,
-					["name"] = "Kobold Tunneler",
-					["totaldamagetaken"] = 596,
-					["flag"] = 68168,
-					["damage"] = 79,
-				}, -- [1]
-			},
-			["totaldamage"] = 596,
-			["time"] = 23,
-			["totaldamagetaken"] = 79,
-			["etotaldamage"] = 79,
-			["last_time"] = 17375.868,
-			["players"] = {
-				{
-					["last"] = 17375.831,
-					["flag"] = 1297,
-					["class"] = "MAGE",
-					["auras"] = {
-						[1460] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 23,
-						},
-						[28878] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 23,
-						},
-						[6136] = {
-							["type"] = "DEBUFF",
-							["count"] = 8,
-							["school"] = 16,
-							["refresh"] = 13,
-							["targets"] = {
-								["Kobold Tunneler"] = {
-									["count"] = 8,
-									["refresh"] = 13,
-									["uptime"] = 23,
-								},
-							},
-							["uptime"] = 23,
-						},
-						[7300] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 23,
-						},
-						[59548] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 2,
-							["uptime"] = 15,
-						},
-					},
-					["time"] = 18.27,
-					["totaldamagetaken"] = 79,
-					["damage"] = 596,
-					["damagespells"] = {
-						["Melee"] = {
-							["glance"] = 79,
-							["hitmin"] = 25,
-							["criticalmin"] = 56,
-							["targets"] = {
-								["Kobold Tunneler"] = {
-									["amount"] = 160,
-								},
-							},
-							["glancing"] = 2,
-							["amount"] = 160,
-							["glancemin"] = 36,
-							["criticalamount"] = 56,
-							["id"] = 6603,
-							["glancemax"] = 43,
-							["criticalmax"] = 56,
-							["PARRY"] = 1,
-							["count"] = 5,
-							["hit"] = 1,
-							["school"] = 1,
-							["critical"] = 1,
-							["hitmax"] = 25,
-							["hitamount"] = 25,
-						},
-						["Arcane Explosion"] = {
-							["criticalmin"] = 51,
-							["hitmin"] = 33,
-							["criticalamount"] = 51,
-							["id"] = 1449,
-							["criticalmax"] = 51,
-							["targets"] = {
-								["Kobold Tunneler"] = {
-									["overkill"] = 58,
-									["amount"] = 436,
-								},
-							},
-							["overkill"] = 58,
-							["critical"] = 1,
-							["casts"] = 3,
-							["count"] = 12,
-							["hit"] = 11,
-							["school"] = 64,
-							["hitmax"] = 38,
-							["amount"] = 436,
-							["hitamount"] = 385,
-						},
-					},
-					["damagetaken"] = 79,
-					["id"] = "0x0700000000976299",
-					["spec"] = 63,
-					["healspells"] = {
-						[59548] = {
-							["overheal"] = 136,
-							["targets"] = {
-								["Sculamare"] = {
-									["overheal"] = 136,
-									["amount"] = 68,
-								},
-							},
-							["count"] = 4,
-							["amount"] = 68,
-							["school"] = 2,
-							["max"] = 31,
-							["ishot"] = true,
-							["min"] = 5,
-						},
-					},
-					["damagetakenspells"] = {
-						["Melee"] = {
-							["hitmin"] = 3,
-							["id"] = 6603,
-							["amount"] = 79,
-							["sources"] = {
-								["Kobold Tunneler"] = {
-									["amount"] = 79,
-								},
-							},
-							["count"] = 21,
-							["hit"] = 20,
-							["school"] = 1,
-							["hitmax"] = 5,
-							["MISS"] = 1,
-							["hitamount"] = 79,
-						},
-					},
-					["heal"] = 68,
-					["name"] = "Sculamare",
-					["overkill"] = 58,
-					["overheal"] = 136,
-					["totaldamage"] = 596,
-					["role"] = "DAMAGER",
-				}, -- [1]
-			},
-			["type"] = "group",
-			["damagetaken"] = 79,
-			["etotaldamagetaken"] = 596,
-			["overheal"] = 136,
-			["damage"] = 596,
-			["overkill"] = 58,
-			["edamagetaken"] = 596,
-			["heal"] = 68,
-			["name"] = "Kobold Tunneler (66)",
-			["mobname"] = "Kobold Tunneler",
-			["starttime"] = 1689538382,
-			["edamage"] = 79,
-			["last_action"] = 1689538405,
-			["endtime"] = 1689538405,
-		}, -- [9]
-		{
-			["enemies"] = {
-				{
-					["damagespells"] = {
-						[6603] = {
-							["school"] = 1,
-							["targets"] = {
-								["Sculamare"] = {
-									["amount"] = 6,
-								},
-							},
-							["amount"] = 6,
-						},
-					},
-					["damagetaken"] = 151,
-					["flag"] = 68168,
-					["class"] = "MONSTER",
-					["damagetakenspells"] = {
-						[6603] = {
-							["school"] = 1,
-							["sources"] = {
-								["Sculamare"] = {
-									["overkill"] = 49,
-									["amount"] = 55,
-								},
-							},
-							["overkill"] = 49,
-							["amount"] = 55,
-						},
-						[145] = {
-							["school"] = 4,
-							["sources"] = {
-								["Sculamare"] = {
-									["amount"] = 68,
-								},
-							},
-							["amount"] = 68,
-						},
-						[2137] = {
-							["school"] = 4,
-							["sources"] = {
-								["Sculamare"] = {
-									["amount"] = 28,
-								},
-							},
-							["amount"] = 28,
-						},
-					},
-					["name"] = "Kobold Tunneler",
-					["totaldamage"] = 6,
-					["totaldamagetaken"] = 151,
-					["id"] = "0xF1300001DB26CC55",
-					["damage"] = 6,
-				}, -- [1]
-			},
-			["totaldamage"] = 151,
-			["time"] = 7,
-			["totaldamagetaken"] = 6,
-			["etotaldamagetaken"] = 151,
-			["last_time"] = 17327.773,
-			["players"] = {
-				{
-					["last"] = 17327.748,
-					["flag"] = 1297,
-					["class"] = "MAGE",
-					["auras"] = {
-						[1460] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 7,
-						},
-						[28878] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 7,
-						},
-						[145] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 4,
-							["refresh"] = 1,
-							["targets"] = {
-								["Kobold Tunneler"] = {
-									["count"] = 1,
-									["refresh"] = 1,
-									["uptime"] = 5,
-								},
-							},
-							["uptime"] = 5,
-						},
-						[7300] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 7,
-						},
-						[6136] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 16,
-							["refresh"] = 1,
-							["targets"] = {
-								["Kobold Tunneler"] = {
-									["count"] = 1,
-									["refresh"] = 1,
-									["uptime"] = 3,
-								},
-							},
-							["uptime"] = 3,
-						},
-					},
-					["role"] = "DAMAGER",
-					["time"] = 6.120000000000001,
-					["totaldamagetaken"] = 6,
-					["damage"] = 151,
-					["damagespells"] = {
-						["Fireball"] = {
-							["hitmin"] = 31,
-							["id"] = 145,
-							["targets"] = {
-								["Kobold Tunneler"] = {
-									["amount"] = 67,
-								},
-							},
-							["hitmax"] = 36,
-							["casts"] = 1,
-							["count"] = 2,
-							["hit"] = 2,
-							["school"] = 4,
-							["resisted"] = 69,
-							["amount"] = 67,
-							["hitamount"] = 67,
-						},
-						["Fireball (DoT)"] = {
-							["hitmin"] = 1,
-							["id"] = 145,
-							["targets"] = {
-								["Kobold Tunneler"] = {
-									["amount"] = 1,
-								},
-							},
-							["hitmax"] = 1,
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 4,
-							["resisted"] = 1,
-							["amount"] = 1,
-							["hitamount"] = 1,
-						},
-						["Melee"] = {
-							["glance"] = 55,
-							["id"] = 6603,
-							["glancemax"] = 55,
-							["overkill"] = 49,
-							["glancing"] = 1,
-							["count"] = 1,
-							["amount"] = 55,
-							["school"] = 1,
-							["targets"] = {
-								["Kobold Tunneler"] = {
-									["overkill"] = 49,
-									["amount"] = 55,
-								},
-							},
-							["glancemin"] = 55,
-						},
-						["Fire Blast"] = {
-							["hitmin"] = 28,
-							["id"] = 2137,
-							["targets"] = {
-								["Kobold Tunneler"] = {
-									["amount"] = 28,
-								},
-							},
-							["hitmax"] = 28,
-							["casts"] = 1,
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 4,
-							["resisted"] = 40,
-							["amount"] = 28,
-							["hitamount"] = 28,
-						},
-					},
-					["damagetaken"] = 6,
-					["id"] = "0x0700000000976299",
-					["spec"] = 63,
-					["damagetakenspells"] = {
-						["Melee"] = {
-							["hitmin"] = 3,
-							["id"] = 6603,
-							["sources"] = {
-								["Kobold Tunneler"] = {
-									["amount"] = 6,
-								},
-							},
-							["count"] = 2,
-							["hit"] = 2,
-							["school"] = 1,
-							["hitmax"] = 3,
-							["amount"] = 6,
-							["hitamount"] = 6,
-						},
-					},
-					["name"] = "Sculamare",
-					["overkill"] = 49,
-					["totaldamage"] = 151,
-				}, -- [1]
-			},
-			["type"] = "group",
-			["damagetaken"] = 6,
-			["damage"] = 151,
-			["etotaldamage"] = 6,
-			["overkill"] = 49,
-			["edamagetaken"] = 151,
-			["name"] = "Kobold Tunneler (65)",
-			["mobname"] = "Kobold Tunneler",
-			["starttime"] = 1689538350,
-			["edamage"] = 6,
-			["last_action"] = 1689538357,
-			["endtime"] = 1689538357,
-		}, -- [10]
-		{
-			["enemies"] = {
-				{
-					["damagespells"] = {
-						[6603] = {
-							["school"] = 1,
-							["targets"] = {
-								["Sculamare"] = {
-									["amount"] = 4,
-								},
-							},
-							["amount"] = 4,
-						},
-					},
-					["damagetaken"] = 143,
-					["flag"] = 68168,
-					["class"] = "MONSTER",
-					["damagetakenspells"] = {
-						[145] = {
-							["school"] = 4,
-							["sources"] = {
-								["Sculamare"] = {
-									["amount"] = 97,
-								},
-							},
-							["amount"] = 97,
-						},
-						[6603] = {
-							["school"] = 1,
-							["sources"] = {
-								["Sculamare"] = {
-									["overkill"] = 23,
-									["amount"] = 46,
-								},
-							},
-							["overkill"] = 23,
-							["amount"] = 46,
-						},
-					},
-					["name"] = "Kobold Tunneler",
-					["totaldamage"] = 4,
-					["totaldamagetaken"] = 143,
-					["id"] = "0xF1300001DB26DC56",
-					["damage"] = 4,
-				}, -- [1]
-			},
-			["totaldamage"] = 143,
-			["time"] = 7,
-			["totaldamagetaken"] = 4,
-			["etotaldamagetaken"] = 143,
-			["last_time"] = 17301.914,
-			["players"] = {
-				{
-					["last"] = 17301.881,
-					["flag"] = 1297,
-					["class"] = "MAGE",
-					["auras"] = {
-						[1460] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 7,
-						},
-						[28878] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 7,
-						},
-						[145] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 4,
-							["refresh"] = 1,
-							["targets"] = {
-								["Kobold Tunneler"] = {
-									["count"] = 1,
-									["refresh"] = 1,
 									["uptime"] = 6,
 								},
 							},
@@ -2068,169 +2384,71 @@ SkadaStorageDB = {
 						[7300] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 7,
+							["uptime"] = 8,
 						},
 						[6136] = {
 							["type"] = "DEBUFF",
 							["count"] = 1,
 							["school"] = 16,
+							["refresh"] = 1,
 							["targets"] = {
-								["Kobold Tunneler"] = {
-									["uptime"] = 3,
+								["Foreststrider Fledgling"] = {
 									["count"] = 1,
+									["refresh"] = 1,
+									["uptime"] = 3,
 								},
 							},
 							["uptime"] = 3,
 						},
 					},
 					["role"] = "DAMAGER",
-					["time"] = 6.640000000000001,
-					["totaldamagetaken"] = 4,
-					["damage"] = 143,
+					["time"] = 6.99,
+					["totaldamagetaken"] = 31,
+					["damage"] = 276,
 					["damagespells"] = {
 						["Fireball"] = {
-							["hitmin"] = 42,
+							["hitmin"] = 59,
+							["criticalamount"] = 118,
 							["id"] = 145,
+							["criticalmin"] = 118,
 							["targets"] = {
-								["Kobold Tunneler"] = {
-									["amount"] = 94,
+								["Foreststrider Fledgling"] = {
+									["amount"] = 243,
 								},
 							},
-							["hitmax"] = 52,
-							["casts"] = 2,
-							["count"] = 2,
+							["criticalmax"] = 118,
+							["critical"] = 1,
+							["casts"] = 3,
+							["count"] = 3,
 							["hit"] = 2,
 							["school"] = 4,
-							["resisted"] = 49,
-							["amount"] = 94,
-							["hitamount"] = 94,
+							["hitmax"] = 66,
+							["amount"] = 243,
+							["hitamount"] = 125,
 						},
-						["Melee"] = {
-							["glance"] = 46,
-							["id"] = 6603,
-							["glancemax"] = 46,
-							["overkill"] = 23,
-							["glancing"] = 1,
-							["count"] = 1,
-							["amount"] = 46,
-							["school"] = 1,
+						["Shoot"] = {
+							["hitmin"] = 31,
+							["id"] = 5019,
 							["targets"] = {
-								["Kobold Tunneler"] = {
-									["overkill"] = 23,
-									["amount"] = 46,
+								["Foreststrider Fledgling"] = {
+									["overkill"] = 3,
+									["amount"] = 31,
 								},
 							},
-							["glancemin"] = 46,
-						},
-						["Fireball (DoT)"] = {
-							["hitmin"] = 1,
-							["id"] = 145,
-							["targets"] = {
-								["Kobold Tunneler"] = {
-									["amount"] = 3,
-								},
-							},
-							["hitmax"] = 2,
-							["count"] = 2,
-							["hit"] = 2,
-							["school"] = 4,
-							["resisted"] = 1,
-							["amount"] = 3,
-							["hitamount"] = 3,
-						},
-					},
-					["damagetaken"] = 4,
-					["id"] = "0x0700000000976299",
-					["spec"] = 63,
-					["damagetakenspells"] = {
-						["Melee"] = {
-							["hitmin"] = 4,
-							["id"] = 6603,
-							["sources"] = {
-								["Kobold Tunneler"] = {
-									["amount"] = 4,
-								},
-							},
+							["overkill"] = 3,
+							["casts"] = 1,
 							["count"] = 1,
 							["hit"] = 1,
 							["school"] = 1,
-							["hitmax"] = 4,
-							["amount"] = 4,
-							["hitamount"] = 4,
-						},
-					},
-					["name"] = "Sculamare",
-					["overkill"] = 23,
-					["totaldamage"] = 143,
-				}, -- [1]
-			},
-			["type"] = "group",
-			["damagetaken"] = 4,
-			["damage"] = 143,
-			["etotaldamage"] = 4,
-			["overkill"] = 23,
-			["edamagetaken"] = 143,
-			["name"] = "Kobold Tunneler (64)",
-			["mobname"] = "Kobold Tunneler",
-			["starttime"] = 1689538324,
-			["edamage"] = 4,
-			["last_action"] = 1689538331,
-			["endtime"] = 1689538331,
-		}, -- [11]
-		{
-			["enemies"] = {
-				{
-					["id"] = "0xF13000001E26C88D",
-					["name"] = "Forest Spider",
-					["totaldamagetaken"] = 149,
-					["flag"] = 68168,
-					["class"] = "MONSTER",
-					["damagetaken"] = 149,
-					["damagetakenspells"] = {
-						[145] = {
-							["school"] = 4,
-							["sources"] = {
-								["Sculamare"] = {
-									["overkill"] = 29,
-									["amount"] = 149,
-								},
-							},
-							["overkill"] = 29,
-							["amount"] = 149,
-						},
-					},
-				}, -- [1]
-			},
-			["totaldamage"] = 149,
-			["time"] = 5,
-			["etotaldamagetaken"] = 149,
-			["last_time"] = 17288.264,
-			["players"] = {
-				{
-					["damagespells"] = {
-						["Fireball"] = {
-							["hitmin"] = 70,
-							["id"] = 145,
-							["targets"] = {
-								["Forest Spider"] = {
-									["overkill"] = 29,
-									["amount"] = 147,
-								},
-							},
-							["overkill"] = 29,
-							["casts"] = 1,
-							["count"] = 2,
-							["hit"] = 2,
-							["school"] = 4,
-							["hitmax"] = 77,
-							["amount"] = 147,
-							["hitamount"] = 147,
+							["hitmax"] = 31,
+							["amount"] = 31,
+							["hitamount"] = 31,
 						},
 						["Fireball (DoT)"] = {
 							["hitmin"] = 2,
 							["id"] = 145,
 							["targets"] = {
-								["Forest Spider"] = {
+								["Foreststrider Fledgling"] = {
 									["amount"] = 2,
 								},
 							},
@@ -2242,732 +2460,94 @@ SkadaStorageDB = {
 							["hitamount"] = 2,
 						},
 					},
-					["last"] = 17288.231,
-					["class"] = "MAGE",
+					["damagetaken"] = 31,
 					["id"] = "0x0700000000976299",
 					["spec"] = 63,
-					["overkill"] = 29,
-					["auras"] = {
-						[1460] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 5,
-						},
-						[7300] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 5,
-						},
-						[28878] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 5,
-						},
-						[145] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 4,
-							["targets"] = {
-								["Forest Spider"] = {
-									["uptime"] = 3,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 3,
-						},
-					},
-					["totaldamage"] = 149,
-					["role"] = "DAMAGER",
-					["name"] = "Sculamare",
-					["flag"] = 1297,
-					["time"] = 3.79,
-					["damage"] = 149,
-				}, -- [1]
-			},
-			["type"] = "group",
-			["overkill"] = 29,
-			["edamagetaken"] = 149,
-			["damage"] = 149,
-			["name"] = "Forest Spider",
-			["mobname"] = "Forest Spider",
-			["starttime"] = 1689538313,
-			["last_action"] = 1689538317,
-			["endtime"] = 1689538318,
-		}, -- [12]
-		{
-			["enemies"] = {
-				{
-					["damagespells"] = {
-						[6603] = {
-							["school"] = 1,
-							["targets"] = {
-								["Sculamare"] = {
-									["amount"] = 22,
-								},
-							},
-							["amount"] = 22,
-						},
-					},
-					["damagetaken"] = 252,
-					["id"] = "0xF1300001DB26E8AF",
-					["class"] = "MONSTER",
 					["damagetakenspells"] = {
-						[1449] = {
-							["school"] = 64,
+						["Melee"] = {
+							["hitmin"] = 14,
+							["id"] = 6603,
 							["sources"] = {
-								["Sculamare"] = {
-									["overkill"] = 7,
-									["amount"] = 232,
+								["Foreststrider Fledgling"] = {
+									["amount"] = 31,
 								},
 							},
-							["overkill"] = 7,
-							["amount"] = 232,
-						},
-						[6603] = {
-							["school"] = 1,
-							["sources"] = {
-								["Sculamare"] = {
-									["overkill"] = 5,
-									["amount"] = 20,
-								},
-							},
-							["overkill"] = 5,
-							["amount"] = 20,
-						},
-					},
-					["totaldamage"] = 22,
-					["name"] = "Kobold Tunneler",
-					["totaldamagetaken"] = 252,
-					["flag"] = 68168,
-					["damage"] = 22,
-				}, -- [1]
-			},
-			["totaldamage"] = 252,
-			["time"] = 8,
-			["totaldamagetaken"] = 22,
-			["etotaldamage"] = 22,
-			["last_time"] = 17264.44,
-			["players"] = {
-				{
-					["last"] = 17264.398,
-					["flag"] = 1297,
-					["class"] = "MAGE",
-					["auras"] = {
-						[1460] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 8,
-						},
-						[7300] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 8,
-						},
-						[28878] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 8,
-						},
-						[6136] = {
-							["type"] = "DEBUFF",
 							["count"] = 2,
-							["school"] = 16,
-							["refresh"] = 3,
-							["targets"] = {
-								["Kobold Tunneler"] = {
-									["count"] = 2,
-									["refresh"] = 3,
-									["uptime"] = 5,
-								},
-							},
-							["uptime"] = 5,
-						},
-					},
-					["time"] = 7.319999999999999,
-					["totaldamagetaken"] = 22,
-					["damage"] = 252,
-					["damagespells"] = {
-						["Arcane Explosion"] = {
-							["count"] = 6,
-							["hitmin"] = 34,
-							["criticalamount"] = 54,
-							["id"] = 1449,
-							["hitmax"] = 37,
-							["targets"] = {
-								["Kobold Tunneler"] = {
-									["overkill"] = 7,
-									["amount"] = 232,
-								},
-							},
-							["overkill"] = 7,
-							["hit"] = 5,
-							["casts"] = 3,
-							["critical"] = 1,
-							["amount"] = 232,
-							["school"] = 64,
-							["criticalmin"] = 54,
-							["criticalmax"] = 54,
-							["hitamount"] = 178,
-						},
-						["Melee"] = {
-							["hitmin"] = 20,
-							["id"] = 6603,
-							["targets"] = {
-								["Kobold Tunneler"] = {
-									["overkill"] = 5,
-									["amount"] = 20,
-								},
-							},
-							["overkill"] = 5,
-							["count"] = 1,
-							["hit"] = 1,
+							["hit"] = 2,
 							["school"] = 1,
-							["hitmax"] = 20,
-							["amount"] = 20,
-							["hitamount"] = 20,
-						},
-					},
-					["damagetaken"] = 22,
-					["id"] = "0x0700000000976299",
-					["spec"] = 63,
-					["damagetakenspells"] = {
-						["Melee"] = {
-							["hitmin"] = 4,
-							["id"] = 6603,
-							["sources"] = {
-								["Kobold Tunneler"] = {
-									["amount"] = 22,
-								},
-							},
-							["count"] = 5,
-							["hit"] = 5,
-							["school"] = 1,
-							["hitmax"] = 5,
-							["amount"] = 22,
-							["hitamount"] = 22,
+							["hitmax"] = 17,
+							["amount"] = 31,
+							["hitamount"] = 31,
 						},
 					},
 					["name"] = "Sculamare",
-					["overkill"] = 12,
-					["totaldamage"] = 252,
-					["role"] = "DAMAGER",
+					["overkill"] = 3,
+					["totaldamage"] = 276,
 				}, -- [1]
 			},
-			["type"] = "group",
-			["damagetaken"] = 22,
-			["etotaldamagetaken"] = 252,
-			["overkill"] = 12,
-			["edamagetaken"] = 252,
-			["damage"] = 252,
-			["name"] = "Kobold Tunneler (63)",
-			["mobname"] = "Kobold Tunneler",
-			["starttime"] = 1689538286,
-			["edamage"] = 22,
-			["last_action"] = 1689538293,
-			["endtime"] = 1689538294,
-		}, -- [13]
-		{
-			["enemies"] = {
-				{
-					["damagespells"] = {
-						[6603] = {
-							["school"] = 1,
-							["targets"] = {
-								["Sculamare"] = {
-									["amount"] = 29,
-								},
-							},
-							["amount"] = 29,
-						},
-					},
-					["damagetaken"] = 488,
-					["id"] = "0xF13000002826E4EB",
-					["class"] = "MONSTER",
-					["damagetakenspells"] = {
-						[1449] = {
-							["school"] = 64,
-							["sources"] = {
-								["Sculamare"] = {
-									["overkill"] = 61,
-									["amount"] = 488,
-								},
-							},
-							["overkill"] = 61,
-							["amount"] = 488,
-						},
-					},
-					["totaldamage"] = 29,
-					["name"] = "Kobold Miner",
-					["totaldamagetaken"] = 488,
-					["flag"] = 2632,
-					["damage"] = 29,
-				}, -- [1]
-				{
-					["damagespells"] = {
-						[6603] = {
-							["school"] = 1,
-							["targets"] = {
-								["Sculamare"] = {
-									["amount"] = 13,
-								},
-							},
-							["amount"] = 13,
-						},
-					},
-					["damagetaken"] = 216,
-					["flag"] = 2632,
-					["class"] = "MONSTER",
-					["damagetakenspells"] = {
-						[1449] = {
-							["school"] = 64,
-							["sources"] = {
-								["Sculamare"] = {
-									["overkill"] = 49,
-									["amount"] = 216,
-								},
-							},
-							["overkill"] = 49,
-							["amount"] = 216,
-						},
-					},
-					["name"] = "Kobold Tunneler",
-					["totaldamage"] = 13,
-					["totaldamagetaken"] = 216,
-					["id"] = "0xF1300001DB26E67A",
-					["damage"] = 13,
-				}, -- [2]
-				{
-					["damagespells"] = {
-						[6603] = {
-							["school"] = 1,
-							["targets"] = {
-								["Sculamare"] = {
-									["amount"] = 16,
-								},
-							},
-							["amount"] = 16,
-						},
-					},
-					["damagetaken"] = 133,
-					["flag"] = 2632,
-					["class"] = "MONSTER",
-					["damagetakenspells"] = {
-						[1449] = {
-							["school"] = 64,
-							["sources"] = {
-								["Sculamare"] = {
-									["amount"] = 109,
-								},
-							},
-							["amount"] = 109,
-						},
-						[6603] = {
-							["school"] = 1,
-							["sources"] = {
-								["Sculamare"] = {
-									["overkill"] = 14,
-									["amount"] = 24,
-								},
-							},
-							["overkill"] = 14,
-							["amount"] = 24,
-						},
-					},
-					["name"] = "Goldtooth",
-					["totaldamage"] = 16,
-					["totaldamagetaken"] = 133,
-					["id"] = "0xF13000014726E607",
-					["damage"] = 16,
-				}, -- [3]
-			},
-			["totaldamage"] = 837,
-			["time"] = 7,
-			["totaldamagetaken"] = 58,
-			["etotaldamage"] = 58,
-			["last_time"] = 17201.532,
-			["players"] = {
-				{
-					["last"] = 17201.258,
-					["flag"] = 1297,
-					["class"] = "MAGE",
-					["auras"] = {
-						[1460] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 7,
-						},
-						[7300] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 7,
-						},
-						[28878] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 7,
-						},
-						[6136] = {
-							["type"] = "DEBUFF",
-							["count"] = 8,
-							["school"] = 16,
-							["refresh"] = 10,
-							["targets"] = {
-								["Kobold Miner"] = {
-									["count"] = 5,
-									["refresh"] = 5,
-									["uptime"] = 5,
-								},
-								["Goldtooth"] = {
-									["count"] = 1,
-									["refresh"] = 2,
-									["uptime"] = 6,
-								},
-								["Kobold Tunneler"] = {
-									["count"] = 2,
-									["refresh"] = 3,
-									["uptime"] = 5,
-								},
-							},
-							["uptime"] = 6,
-						},
-					},
-					["time"] = 6.219999999999999,
-					["totaldamagetaken"] = 58,
-					["damage"] = 837,
-					["damagespells"] = {
-						["Arcane Explosion"] = {
-							["criticalmax"] = 54,
-							["hitmin"] = 33,
-							["criticalamount"] = 108,
-							["id"] = 1449,
-							["criticalmin"] = 54,
-							["targets"] = {
-								["Kobold Miner"] = {
-									["overkill"] = 61,
-									["amount"] = 488,
-								},
-								["Goldtooth"] = {
-									["amount"] = 109,
-								},
-								["Kobold Tunneler"] = {
-									["overkill"] = 49,
-									["amount"] = 216,
-								},
-							},
-							["overkill"] = 110,
-							["critical"] = 2,
-							["casts"] = 3,
-							["count"] = 22,
-							["hit"] = 20,
-							["school"] = 64,
-							["hitmax"] = 38,
-							["amount"] = 813,
-							["hitamount"] = 705,
-						},
-						["Melee"] = {
-							["hitmin"] = 24,
-							["id"] = 6603,
-							["targets"] = {
-								["Goldtooth"] = {
-									["overkill"] = 14,
-									["amount"] = 24,
-								},
-							},
-							["overkill"] = 14,
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 1,
-							["hitmax"] = 24,
-							["amount"] = 24,
-							["hitamount"] = 24,
-						},
-					},
-					["damagetaken"] = 58,
-					["id"] = "0x0700000000976299",
-					["spec"] = 63,
-					["damagetakenspells"] = {
-						["Melee"] = {
-							["DODGE"] = 3,
-							["hitmin"] = 4,
-							["id"] = 6603,
-							["sources"] = {
-								["Kobold Miner"] = {
-									["amount"] = 29,
-								},
-								["Goldtooth"] = {
-									["amount"] = 16,
-								},
-								["Kobold Tunneler"] = {
-									["amount"] = 13,
-								},
-							},
-							["count"] = 14,
-							["hit"] = 11,
-							["school"] = 1,
-							["hitmax"] = 9,
-							["amount"] = 58,
-							["hitamount"] = 58,
-						},
-					},
-					["name"] = "Sculamare",
-					["overkill"] = 124,
-					["totaldamage"] = 837,
-					["role"] = "DAMAGER",
-				}, -- [1]
-			},
-			["type"] = "group",
-			["damagetaken"] = 58,
-			["etotaldamagetaken"] = 837,
-			["overkill"] = 124,
-			["edamagetaken"] = 837,
-			["damage"] = 837,
-			["name"] = "Kobold Miner (31)",
-			["mobname"] = "Kobold Miner",
-			["starttime"] = 1689538224,
-			["edamage"] = 58,
-			["last_action"] = 1689538230,
-			["endtime"] = 1689538231,
-		}, -- [14]
-		{
-			["enemies"] = {
-				{
-					["damagespells"] = {
-						[6603] = {
-							["school"] = 1,
-							["targets"] = {
-								["Sculamare"] = {
-									["amount"] = 42,
-								},
-							},
-							["amount"] = 42,
-						},
-					},
-					["damagetaken"] = 243,
-					["id"] = "0xF1300001DB26E521",
-					["class"] = "MONSTER",
-					["damagetakenspells"] = {
-						[1449] = {
-							["school"] = 64,
-							["sources"] = {
-								["Sculamare"] = {
-									["overkill"] = 21,
-									["amount"] = 243,
-								},
-							},
-							["overkill"] = 21,
-							["amount"] = 243,
-						},
-					},
-					["totaldamage"] = 42,
-					["name"] = "Kobold Tunneler",
-					["totaldamagetaken"] = 243,
-					["flag"] = 2632,
-					["damage"] = 42,
-				}, -- [1]
-				{
-					["damagespells"] = {
-						[6603] = {
-							["school"] = 1,
-							["targets"] = {
-								["Sculamare"] = {
-									["amount"] = 54,
-								},
-							},
-							["amount"] = 54,
-						},
-					},
-					["damagetaken"] = 298,
-					["id"] = "0xF13000002826E522",
-					["class"] = "MONSTER",
-					["damagetakenspells"] = {
-						[1449] = {
-							["school"] = 64,
-							["sources"] = {
-								["Sculamare"] = {
-									["overkill"] = 24,
-									["amount"] = 298,
-								},
-							},
-							["overkill"] = 24,
-							["amount"] = 298,
-						},
-					},
-					["totaldamage"] = 54,
-					["name"] = "Kobold Miner",
-					["totaldamagetaken"] = 298,
-					["flag"] = 2632,
-					["damage"] = 54,
-				}, -- [2]
-			},
-			["totaldamage"] = 541,
-			["time"] = 15,
-			["totaldamagetaken"] = 96,
-			["etotaldamage"] = 96,
-			["last_time"] = 17181.762,
-			["players"] = {
-				{
-					["last"] = 17181.725,
-					["flag"] = 1297,
-					["class"] = "MAGE",
-					["auras"] = {
-						[1460] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 15,
-						},
-						[7300] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 15,
-						},
-						[28878] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 15,
-						},
-						[6136] = {
-							["type"] = "DEBUFF",
-							["count"] = 4,
-							["school"] = 16,
-							["refresh"] = 15,
-							["targets"] = {
-								["Kobold Miner"] = {
-									["count"] = 2,
-									["refresh"] = 6,
-									["uptime"] = 13,
-								},
-								["Kobold Tunneler"] = {
-									["count"] = 2,
-									["refresh"] = 9,
-									["uptime"] = 15,
-								},
-							},
-							["uptime"] = 15,
-						},
-					},
-					["time"] = 8.729999999999999,
-					["totaldamagetaken"] = 96,
-					["damage"] = 541,
-					["damagespells"] = {
-						["Arcane Explosion"] = {
-							["criticalmax"] = 52,
-							["hitmin"] = 33,
-							["criticalamount"] = 52,
-							["id"] = 1449,
-							["criticalmin"] = 52,
-							["targets"] = {
-								["Kobold Miner"] = {
-									["overkill"] = 24,
-									["amount"] = 298,
-								},
-								["Kobold Tunneler"] = {
-									["overkill"] = 21,
-									["amount"] = 243,
-								},
-							},
-							["overkill"] = 45,
-							["critical"] = 1,
-							["casts"] = 4,
-							["count"] = 15,
-							["hit"] = 14,
-							["school"] = 64,
-							["hitmax"] = 37,
-							["amount"] = 541,
-							["hitamount"] = 489,
-						},
-					},
-					["damagetaken"] = 96,
-					["id"] = "0x0700000000976299",
-					["spec"] = 63,
-					["damagetakenspells"] = {
-						["Melee"] = {
-							["hitmin"] = 3,
-							["id"] = 6603,
-							["sources"] = {
-								["Kobold Miner"] = {
-									["amount"] = 54,
-								},
-								["Kobold Tunneler"] = {
-									["amount"] = 42,
-								},
-							},
-							["count"] = 18,
-							["hit"] = 18,
-							["school"] = 1,
-							["hitmax"] = 7,
-							["amount"] = 96,
-							["hitamount"] = 96,
-						},
-					},
-					["name"] = "Sculamare",
-					["overkill"] = 45,
-					["totaldamage"] = 541,
-					["role"] = "DAMAGER",
-				}, -- [1]
-			},
-			["type"] = "group",
-			["damagetaken"] = 96,
-			["etotaldamagetaken"] = 541,
-			["overkill"] = 45,
-			["edamagetaken"] = 541,
-			["damage"] = 541,
-			["name"] = "Kobold Tunneler (62)",
-			["mobname"] = "Kobold Tunneler",
-			["starttime"] = 1689538196,
-			["edamage"] = 96,
-			["last_action"] = 1689538211,
-			["endtime"] = 1689538211,
+			["type"] = "none",
+			["damagetaken"] = 31,
+			["damage"] = 276,
+			["etotaldamage"] = 31,
+			["overkill"] = 3,
+			["edamagetaken"] = 276,
+			["name"] = "Foreststrider Fledgling (8)",
+			["mobname"] = "Foreststrider Fledgling",
+			["starttime"] = 1689595725,
+			["edamage"] = 31,
+			["last_action"] = 1689595732,
+			["endtime"] = 1689595733,
 		}, -- [15]
 	},
 	["version"] = 1878,
 	["total"] = {
 		["starttime"] = 1689521624,
-		["damagetaken"] = 11174,
-		["heal"] = 4392,
+		["damagetaken"] = 12994,
+		["name"] = "Total",
 		["mana"] = 103,
 		["players"] = {
 			{
+				["overheal"] = 3090,
+				["damagetaken"] = 2794,
+				["class"] = "WARLOCK",
 				["flag"] = 1298,
 				["mana"] = 103,
 				["totaldamage"] = 29900,
-				["time"] = 1329.409999999999,
-				["totaldamagetaken"] = 2794,
-				["damage"] = 29900,
-				["overheal"] = 3090,
-				["damagetaken"] = 2794,
-				["id"] = "0x07000000009762D4",
-				["spec"] = 266,
 				["overkill"] = 2527,
-				["heal"] = 2796,
 				["name"] = "Tapatapa",
 				["role"] = "DAMAGER",
-				["class"] = "WARLOCK",
+				["time"] = 1329.409999999999,
+				["heal"] = 2796,
+				["spec"] = 266,
+				["totaldamagetaken"] = 2794,
+				["id"] = "0x07000000009762D4",
+				["damage"] = 29900,
 			}, -- [1]
 			{
 				["flag"] = 1297,
 				["class"] = "MAGE",
-				["totaldamage"] = 80245,
-				["time"] = 2942.110000000006,
-				["totaldamagetaken"] = 8380,
-				["damage"] = 80245,
-				["overheal"] = 791,
-				["damagetaken"] = 8380,
+				["totaldamage"] = 102848,
+				["time"] = 3626.57000000001,
+				["totaldamagetaken"] = 10200,
+				["damage"] = 102848,
+				["overheal"] = 1435,
+				["damagetaken"] = 10200,
 				["id"] = "0x0700000000976299",
 				["spec"] = 64,
-				["overkill"] = 7118,
-				["heal"] = 1596,
+				["overkill"] = 9199,
+				["heal"] = 1972,
 				["name"] = "Sculamare",
-				["ccdone"] = 130,
+				["ccdone"] = 168,
 				["role"] = "DAMAGER",
 			}, -- [2]
 		},
-		["overkill"] = 9645,
-		["time"] = 4482,
-		["totaldamage"] = 110145,
-		["name"] = "Total",
-		["ccdone"] = 130,
-		["totaldamagetaken"] = 11174,
-		["overheal"] = 3881,
-		["damage"] = 110145,
+		["overkill"] = 11726,
+		["overheal"] = 4525,
+		["totaldamage"] = 132748,
+		["time"] = 5827,
+		["ccdone"] = 168,
+		["totaldamagetaken"] = 12994,
+		["heal"] = 4768,
+		["damage"] = 132748,
 	},
 }

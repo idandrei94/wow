@@ -92,8 +92,8 @@ GladiusDB = {
 		},
 		["Morridin - Icecrown"] = {
 			["locked"] = true,
-			["y"] = 510.499894762244,
 			["x"] = 1175.102425743542,
+			["y"] = 510.499894762244,
 		},
 		["Kalaam - Icecrown"] = {
 			["locked"] = true,

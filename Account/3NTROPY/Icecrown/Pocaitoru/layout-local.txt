@@ -7,10 +7,10 @@ Y: 177
 W: 232
 H: 100
 Frame: LootFrame
-FrameLevel: 32
+FrameLevel: 11
 Anchor: CENTER
-X: 65
-Y: 62
+X: 158
+Y: -23
 W: 256
 H: 256
 Frame: WorldMapScreenAnchor
@@ -25,8 +25,8 @@ FrameLevel: 1
 Anchor: BOTTOM
 X: -97
 Y: 91
-W: 281
-H: 440
+W: 269
+H: 159
 Frame: DBMMinimapButton
 FrameLevel: 3
 Anchor: TOPRIGHT
@@ -107,7 +107,7 @@ H: 546
 Frame: GridLayoutFrame
 FrameLevel: 0
 Anchor: RIGHT
-X: -263
-Y: -18
+X: -285
+Y: -146
 W: 57
 H: 56

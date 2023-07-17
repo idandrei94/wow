@@ -10,11 +10,6 @@ MACRO 16777226 "ama" INV_Misc_QuestionMark
 /cast molten armor
 /equipset arc
 END
-MACRO 16777232 "bauble" INV_Misc_QuestionMark
-#showtooltip 13
-/use [modifier:alt;target=self] 13
-/use [nomodifier:alt;target=party2] 13
-END
 MACRO 16777228 "blink" INV_Misc_QuestionMark
 #showtooltip blink
 /cast [nochanneling] blink
@@ -34,6 +29,12 @@ END
 MACRO 16777221 "fb" INV_Misc_QuestionMark
 #showtooltip Frostbolt(Rank 1)
 /cast Frostbolt(Rank 1)
+END
+MACRO 16777235 "fball" INV_Misc_QuestionMark
+#showtooltip fireball
+/petattack
+/cast fireball
+/script SetRaidTarget("target", 8)
 END
 MACRO 16777229 "fblast" INV_Misc_QuestionMark
 #showtooltip fire blast
