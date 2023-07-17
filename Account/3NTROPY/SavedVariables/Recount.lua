@@ -6,22 +6,23 @@ RecountDB = {
 		["Nalar - Icecrown"] = "Nalar - Icecrown",
 		["Sculatru - Icecrown"] = "Sculatru - Icecrown",
 		["Denathra - Icecrown"] = "Denathra - Icecrown",
-		["Vhalanor - Icecrown"] = "Vhalanor - Icecrown",
 		["Eutanasie - Icecrown"] = "Eutanasie - Icecrown",
+		["Vhalanor - Icecrown"] = "Vhalanor - Icecrown",
+		["Flocius - Icecrown"] = "Flocius - Icecrown",
 		["Drext - Icecrown"] = "Drext - Icecrown",
 		["Muiex - Icecrown"] = "Muiex - Icecrown",
 		["Sculamare - Icecrown"] = "Sculamare - Icecrown",
-		["Flocius - Icecrown"] = "Flocius - Icecrown",
 		["Izanagi - Icecrown"] = "Izanagi - Icecrown",
+		["Mirceabravo - Icecrown"] = "Mirceabravo - Icecrown",
 		["Aevie - Icecrown"] = "Aevie - Icecrown",
 		["Morridin - Icecrown"] = "Morridin - Icecrown",
-		["Mirceabravo - Icecrown"] = "Mirceabravo - Icecrown",
-		["Ulrezaj - Icecrown"] = "Ulrezaj - Icecrown",
 		["Praxia - Icecrown"] = "Praxia - Icecrown",
+		["Ulrezaj - Icecrown"] = "Ulrezaj - Icecrown",
+		["Lingurita - Lordaeron"] = "Lingurita - Lordaeron",
 		["Kalaam - Icecrown"] = "Kalaam - Icecrown",
 		["Elgorath - Icecrown"] = "Elgorath - Icecrown",
-		["Lingurita - Lordaeron"] = "Lingurita - Lordaeron",
 		["Pufarin - Icecrown"] = "Pufarin - Icecrown",
+		["Flocparlit - Icecrown"] = "Flocparlit - Icecrown",
 		["Gligor - Icecrown"] = "Gligor - Icecrown",
 		["Mirceabravo - Blackrock [PvP only]"] = "Mirceabravo - Blackrock [PvP only]",
 		["Maciucaru - Icecrown"] = "Maciucaru - Icecrown",
@@ -194,6 +195,26 @@ RecountDB = {
 			["MainWindowWidth"] = 238.9999938458702,
 			["MainWindowHeight"] = 289.9999422879386,
 		},
+		["Eutanasie - Icecrown"] = {
+			["GraphWindowY"] = 0,
+			["MainWindow"] = {
+				["Position"] = {
+					["w"] = 140.0000106684094,
+					["h"] = 200.0000027354896,
+				},
+			},
+			["Colors"] = {
+				["Bar"] = {
+					["Bar Text"] = {
+						["a"] = 1,
+					},
+				},
+			},
+			["DetailWindowY"] = 0,
+			["DetailWindowX"] = 0,
+			["GraphWindowX"] = 0,
+			["CurDataSet"] = "OverallData",
+		},
 		["Vhalanor - Icecrown"] = {
 			["GraphWindowY"] = 0,
 			["MainWindow"] = {
@@ -219,10 +240,11 @@ RecountDB = {
 			["MainWindowWidth"] = 228.9999716910031,
 			["GraphWindowX"] = 0,
 		},
-		["Eutanasie - Icecrown"] = {
+		["Flocius - Icecrown"] = {
 			["GraphWindowY"] = 0,
 			["MainWindow"] = {
 				["Position"] = {
+					["x"] = 1.185162896010866,
 					["w"] = 140.0000106684094,
 					["h"] = 200.0000027354896,
 				},
@@ -235,9 +257,10 @@ RecountDB = {
 				},
 			},
 			["DetailWindowY"] = 0,
-			["DetailWindowX"] = 0,
 			["GraphWindowX"] = 0,
 			["CurDataSet"] = "OverallData",
+			["MainWindowVis"] = false,
+			["DetailWindowX"] = 0,
 		},
 		["Drext - Icecrown"] = {
 			["GraphWindowY"] = 0,
@@ -306,28 +329,6 @@ RecountDB = {
 			["CurDataSet"] = "OverallData",
 			["GraphWindowX"] = 0,
 		},
-		["Flocius - Icecrown"] = {
-			["GraphWindowY"] = 0,
-			["MainWindow"] = {
-				["Position"] = {
-					["x"] = 1.185162896010866,
-					["w"] = 140.0000106684094,
-					["h"] = 200.0000027354896,
-				},
-			},
-			["Colors"] = {
-				["Bar"] = {
-					["Bar Text"] = {
-						["a"] = 1,
-					},
-				},
-			},
-			["DetailWindowY"] = 0,
-			["GraphWindowX"] = 0,
-			["CurDataSet"] = "OverallData",
-			["MainWindowVis"] = false,
-			["DetailWindowX"] = 0,
-		},
 		["Izanagi - Icecrown"] = {
 			["GraphWindowY"] = 0,
 			["MainWindow"] = {
@@ -352,6 +353,36 @@ RecountDB = {
 			["GraphWindowX"] = 0,
 			["MainWindowWidth"] = 254.3704360322517,
 			["MainWindowHeight"] = 294.0741808696135,
+		},
+		["Mirceabravo - Icecrown"] = {
+			["GraphWindowY"] = 0,
+			["MainWindow"] = {
+				["Position"] = {
+					["y"] = 170.6666783380888,
+					["x"] = -607.5185779065039,
+					["w"] = 256,
+					["h"] = 278.0000064284005,
+				},
+			},
+			["DetailWindowX"] = 112.9876419471188,
+			["LastInstanceName"] = "Vault of Archavon",
+			["MainWindowHeight"] = 278.2224170498689,
+			["CurDataSet"] = "LastFightData",
+			["Colors"] = {
+				["Bar"] = {
+					["Bar Text"] = {
+						["a"] = 1,
+					},
+					["Total Bar"] = {
+						["a"] = 1,
+					},
+				},
+			},
+			["DetailWindowY"] = -124.0493402990752,
+			["MainWindowVis"] = false,
+			["MainWindowMode"] = 5,
+			["MainWindowWidth"] = 256.148530518934,
+			["GraphWindowX"] = 0,
 		},
 		["Aevie - Icecrown"] = {
 			["GraphWindowY"] = 0,
@@ -399,62 +430,6 @@ RecountDB = {
 			["CurDataSet"] = "OverallData",
 			["GraphWindowX"] = 0,
 		},
-		["Mirceabravo - Icecrown"] = {
-			["GraphWindowY"] = 0,
-			["MainWindow"] = {
-				["Position"] = {
-					["y"] = 170.6666783380888,
-					["x"] = -607.5185779065039,
-					["w"] = 256,
-					["h"] = 278.0000064284005,
-				},
-			},
-			["DetailWindowX"] = 112.9876419471188,
-			["LastInstanceName"] = "Vault of Archavon",
-			["MainWindowHeight"] = 278.2224170498689,
-			["CurDataSet"] = "LastFightData",
-			["Colors"] = {
-				["Bar"] = {
-					["Bar Text"] = {
-						["a"] = 1,
-					},
-					["Total Bar"] = {
-						["a"] = 1,
-					},
-				},
-			},
-			["DetailWindowY"] = -124.0493402990752,
-			["MainWindowVis"] = false,
-			["MainWindowMode"] = 5,
-			["MainWindowWidth"] = 256.148530518934,
-			["GraphWindowX"] = 0,
-		},
-		["Ulrezaj - Icecrown"] = {
-			["GraphWindowY"] = 0,
-			["MainWindow"] = {
-				["Position"] = {
-					["y"] = 161.3238215801542,
-					["h"] = 290.5111290999946,
-					["w"] = 227.3746465661981,
-					["x"] = -563.1667154381663,
-				},
-			},
-			["DetailWindowX"] = 0,
-			["LastInstanceName"] = "Utgarde Keep",
-			["CurDataSet"] = "LastFightData",
-			["Colors"] = {
-				["Bar"] = {
-					["Bar Text"] = {
-						["a"] = 1,
-					},
-				},
-			},
-			["DetailWindowY"] = 0,
-			["MainWindowHeight"] = 290.5111306622856,
-			["MainWindowVis"] = false,
-			["MainWindowWidth"] = 227.3745989945492,
-			["GraphWindowX"] = 0,
-		},
 		["Praxia - Icecrown"] = {
 			["GraphWindowY"] = 0,
 			["MainWindow"] = {
@@ -483,6 +458,52 @@ RecountDB = {
 			["GraphWindowX"] = 0,
 			["MainWindowWidth"] = 260.8889019888445,
 			["MainWindowVis"] = false,
+		},
+		["Ulrezaj - Icecrown"] = {
+			["GraphWindowY"] = 0,
+			["MainWindow"] = {
+				["Position"] = {
+					["y"] = 161.3238215801542,
+					["h"] = 290.5111290999946,
+					["w"] = 227.3746465661981,
+					["x"] = -563.1667154381663,
+				},
+			},
+			["DetailWindowX"] = 0,
+			["LastInstanceName"] = "Utgarde Keep",
+			["CurDataSet"] = "LastFightData",
+			["Colors"] = {
+				["Bar"] = {
+					["Bar Text"] = {
+						["a"] = 1,
+					},
+				},
+			},
+			["DetailWindowY"] = 0,
+			["MainWindowHeight"] = 290.5111306622856,
+			["MainWindowVis"] = false,
+			["MainWindowWidth"] = 227.3745989945492,
+			["GraphWindowX"] = 0,
+		},
+		["Lingurita - Lordaeron"] = {
+			["GraphWindowY"] = 0,
+			["MainWindow"] = {
+				["Position"] = {
+					["w"] = 139.9999950766962,
+					["h"] = 200.0000054703376,
+				},
+			},
+			["Colors"] = {
+				["Bar"] = {
+					["Bar Text"] = {
+						["a"] = 1,
+					},
+				},
+			},
+			["DetailWindowY"] = 0,
+			["DetailWindowX"] = 0,
+			["GraphWindowX"] = 0,
+			["CurDataSet"] = "OverallData",
 		},
 		["Kalaam - Icecrown"] = {
 			["GraphWindowY"] = 0,
@@ -530,26 +551,6 @@ RecountDB = {
 			["CurDataSet"] = "OverallData",
 			["GraphWindowX"] = 0,
 		},
-		["Lingurita - Lordaeron"] = {
-			["GraphWindowY"] = 0,
-			["MainWindow"] = {
-				["Position"] = {
-					["w"] = 139.9999950766962,
-					["h"] = 200.0000054703376,
-				},
-			},
-			["Colors"] = {
-				["Bar"] = {
-					["Bar Text"] = {
-						["a"] = 1,
-					},
-				},
-			},
-			["DetailWindowY"] = 0,
-			["DetailWindowX"] = 0,
-			["GraphWindowX"] = 0,
-			["CurDataSet"] = "OverallData",
-		},
 		["Pufarin - Icecrown"] = {
 			["GraphWindowY"] = 0,
 			["MainWindow"] = {
@@ -569,6 +570,27 @@ RecountDB = {
 			["DetailWindowX"] = 0,
 			["GraphWindowX"] = 0,
 			["CurDataSet"] = "OverallData",
+		},
+		["Flocparlit - Icecrown"] = {
+			["GraphWindowY"] = 0,
+			["MainWindow"] = {
+				["Position"] = {
+					["w"] = 140.0000106684094,
+					["h"] = 200.0000027354896,
+				},
+			},
+			["Colors"] = {
+				["Bar"] = {
+					["Bar Text"] = {
+						["a"] = 1,
+					},
+				},
+			},
+			["DetailWindowY"] = 0,
+			["CurDataSet"] = "OverallData",
+			["GraphWindowX"] = 0,
+			["MainWindowVis"] = false,
+			["DetailWindowX"] = 0,
 		},
 		["Gligor - Icecrown"] = {
 			["GraphWindowY"] = 0,

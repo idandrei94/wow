@@ -2,11 +2,10 @@
 BagnonFrameSettings = {
 	["frames"] = {
 		["inventory"] = {
-			["point"] = "TOPRIGHT",
 			["itemFrameColumns"] = 16,
 			["reverseSlotOrder"] = true,
-			["y"] = -254.7404843088557,
-			["x"] = -168.8889339940727,
+			["y"] = 209.8521244940456,
+			["x"] = -395.8519003206745,
 		},
 		["bank"] = {
 			["y"] = 221.7036309042209,

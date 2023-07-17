@@ -2,6 +2,7 @@
 XPerlConfig = nil
 XPerlConfig_Global = nil
 XPerlConfigNew = {
+	["ConfigVersion"] = "3.0.9",
 	["global"] = {
 		["highlight"] = {
 			["enable"] = 1,
@@ -379,31 +380,40 @@ XPerlConfigNew = {
 			["percent"] = 1,
 			["classIcon"] = 1,
 		},
-		["targettarget"] = {
+		["pet"] = {
+			["threat"] = 1,
+			["portrait"] = 1,
 			["debuffs"] = {
 				["enable"] = 1,
-				["curable"] = 0,
-				["size"] = 29,
+				["size"] = 20,
 			},
-			["values"] = 1,
-			["pvpIcon"] = 1,
-			["enable"] = 1,
-			["mana"] = 1,
+			["scale"] = 0.66,
 			["healerMode"] = {
 				["type"] = 1,
 			},
-			["scale"] = 0.7,
-			["buffs"] = {
-				["size"] = 22,
-				["castable"] = 0,
+			["level"] = 1,
+			["happiness"] = {
+				["enabled"] = 1,
+				["flashWhenSad"] = 1,
+				["onlyWhenSad"] = 1,
+			},
+			["castBar"] = {
 				["enable"] = 1,
-				["rows"] = 3,
-				["wrap"] = 1,
+			},
+			["threatMode"] = "portraitFrame",
+			["name"] = 1,
+			["hitIndicator"] = 1,
+			["values"] = 1,
+			["buffs"] = {
+				["enable"] = 1,
+				["size"] = 18,
 				["maxrows"] = 2,
 			},
-			["percent"] = 1,
+			["portrait3D"] = 1,
 			["size"] = {
-				["width"] = 0,
+				["enable"] = 1,
+				["width"] = 82,
+				["size"] = 20,
 			},
 		},
 		["transparency"] = {
@@ -437,7 +447,7 @@ XPerlConfigNew = {
 				["width"] = 0,
 			},
 		},
-		["pettarget"] = {
+		["targettarget"] = {
 			["debuffs"] = {
 				["enable"] = 1,
 				["curable"] = 0,
@@ -538,40 +548,31 @@ XPerlConfigNew = {
 			["percent"] = 1,
 			["energyTicker"] = 1,
 		},
-		["pet"] = {
-			["threat"] = 1,
-			["portrait"] = 1,
+		["pettarget"] = {
 			["debuffs"] = {
 				["enable"] = 1,
-				["size"] = 20,
+				["curable"] = 0,
+				["size"] = 29,
 			},
-			["scale"] = 0.66,
+			["values"] = 1,
+			["pvpIcon"] = 1,
+			["enable"] = 1,
+			["mana"] = 1,
 			["healerMode"] = {
 				["type"] = 1,
 			},
-			["level"] = 1,
-			["happiness"] = {
-				["enabled"] = 1,
-				["flashWhenSad"] = 1,
-				["onlyWhenSad"] = 1,
-			},
-			["castBar"] = {
-				["enable"] = 1,
-			},
-			["threatMode"] = "portraitFrame",
-			["name"] = 1,
-			["hitIndicator"] = 1,
-			["values"] = 1,
+			["scale"] = 0.7,
 			["buffs"] = {
+				["size"] = 22,
+				["castable"] = 0,
 				["enable"] = 1,
-				["size"] = 18,
+				["rows"] = 3,
+				["wrap"] = 1,
 				["maxrows"] = 2,
 			},
-			["portrait3D"] = 1,
+			["percent"] = 1,
 			["size"] = {
-				["enable"] = 1,
-				["width"] = 82,
-				["size"] = 20,
+				["width"] = 0,
 			},
 		},
 		["tooltip"] = {
@@ -1095,6 +1096,5 @@ XPerlConfigNew = {
 			},
 		},
 	},
-	["ConfigVersion"] = "3.0.9",
 }
 XPerlConfigSavePerCharacter = nil
