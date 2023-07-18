@@ -1,42 +1,42 @@
 
 SimpleUnitFramesDB = {
-	["global"] = {
-		["overlayfont"] = {
-			["fontsize"] = 12,
-		},
-	},
 	["profileKeys"] = {
 		["Rimgar - Icecrown"] = "Rimgar - Icecrown",
 		["Praxia - Icecrown"] = "Praxia - Icecrown",
 		["Nalar - Icecrown"] = "Nalar - Icecrown",
 		["Sculatru - Icecrown"] = "Sculatru - Icecrown",
 		["Denathra - Icecrown"] = "Denathra - Icecrown",
+		["Flokus - Icecrown"] = "Flokus - Icecrown",
 		["Eutanasie - Icecrown"] = "Eutanasie - Icecrown",
-		["Vhalanor - Icecrown"] = "Vhalanor - Icecrown",
-		["Flocius - Icecrown"] = "Flocius - Icecrown",
+		["Drext - Icecrown"] = "Drext - Icecrown",
 		["Noobschmoq - Icecrown"] = "Noobschmoq - Icecrown",
 		["Muiex - Icecrown"] = "Muiex - Icecrown",
 		["Sculamare - Icecrown"] = "Sculamare - Icecrown",
-		["Izanagi - Icecrown"] = "Izanagi - Icecrown",
-		["Mirceabravo - Icecrown"] = "Mirceabravo - Icecrown",
+		["Urgash - Icecrown"] = "Urgash - Icecrown",
+		["Inarya - Icecrown"] = "Inarya - Icecrown",
 		["Aevie - Icecrown"] = "Aevie - Icecrown",
 		["Morridin - Icecrown"] = "Morridin - Icecrown",
-		["Vrael - Icecrown"] = "Vrael - Icecrown",
+		["Rakhnis - Icecrown"] = "Rakhnis - Icecrown",
 		["Ulrezaj - Icecrown"] = "Ulrezaj - Icecrown",
-		["Gligor - Icecrown"] = "Gligor - Icecrown",
+		["Pocaitoru - Icecrown"] = "Pocaitoru - Icecrown",
 		["Kalaam - Icecrown"] = "Kalaam - Icecrown",
 		["Elgorath - Icecrown"] = "Elgorath - Icecrown",
-		["Pufarin - Icecrown"] = "Pufarin - Icecrown",
-		["Flocparlit - Icecrown"] = "Flocparlit - Icecrown",
-		["Lingurita - Lordaeron"] = "Lingurita - Lordaeron",
-		["Mirceabravo - Blackrock [PvP only]"] = "Mirceabravo - Blackrock [PvP only]",
 		["Maciucaru - Icecrown"] = "Maciucaru - Icecrown",
-		["Pocaitoru - Icecrown"] = "Pocaitoru - Icecrown",
-		["Rakhnis - Icecrown"] = "Rakhnis - Icecrown",
-		["Inarya - Icecrown"] = "Inarya - Icecrown",
-		["Urgash - Icecrown"] = "Urgash - Icecrown",
-		["Drext - Icecrown"] = "Drext - Icecrown",
-		["Flokus - Icecrown"] = "Flokus - Icecrown",
+		["Flocparlit - Icecrown"] = "Flocparlit - Icecrown",
+		["Gligor - Icecrown"] = "Gligor - Icecrown",
+		["Mirceabravo - Blackrock [PvP only]"] = "Mirceabravo - Blackrock [PvP only]",
+		["Pufarin - Icecrown"] = "Pufarin - Icecrown",
+		["Lingurita - Lordaeron"] = "Lingurita - Lordaeron",
+		["Vrael - Icecrown"] = "Vrael - Icecrown",
+		["Mirceabravo - Icecrown"] = "Mirceabravo - Icecrown",
+		["Izanagi - Icecrown"] = "Izanagi - Icecrown",
+		["Flocius - Icecrown"] = "Flocius - Icecrown",
+		["Vhalanor - Icecrown"] = "Vhalanor - Icecrown",
+	},
+	["global"] = {
+		["overlayfont"] = {
+			["fontsize"] = 12,
+		},
 	},
 	["profiles"] = {
 		["Rimgar - Icecrown"] = {
@@ -44,9 +44,9 @@ SimpleUnitFramesDB = {
 		["Praxia - Icecrown"] = {
 			["pet"] = {
 				["rmp"] = "MPpercent",
-				["mhp"] = "HPcurrmax",
-				["rhp"] = "HPpercent",
 				["mmp"] = "MPcurrmax",
+				["rhp"] = "HPpercent",
+				["mhp"] = "HPcurrmax",
 			},
 		},
 		["Nalar - Icecrown"] = {
@@ -55,11 +55,11 @@ SimpleUnitFramesDB = {
 		},
 		["Denathra - Icecrown"] = {
 		},
+		["Flokus - Icecrown"] = {
+		},
 		["Eutanasie - Icecrown"] = {
 		},
-		["Vhalanor - Icecrown"] = {
-		},
-		["Flocius - Icecrown"] = {
+		["Drext - Icecrown"] = {
 		},
 		["Noobschmoq - Icecrown"] = {
 		},
@@ -67,45 +67,45 @@ SimpleUnitFramesDB = {
 		},
 		["Sculamare - Icecrown"] = {
 		},
-		["Izanagi - Icecrown"] = {
+		["Urgash - Icecrown"] = {
 		},
-		["Mirceabravo - Icecrown"] = {
+		["Inarya - Icecrown"] = {
 		},
 		["Aevie - Icecrown"] = {
 		},
 		["Morridin - Icecrown"] = {
 		},
-		["Vrael - Icecrown"] = {
+		["Rakhnis - Icecrown"] = {
 		},
 		["Ulrezaj - Icecrown"] = {
 		},
-		["Gligor - Icecrown"] = {
+		["Pocaitoru - Icecrown"] = {
 		},
 		["Kalaam - Icecrown"] = {
 		},
 		["Elgorath - Icecrown"] = {
 		},
-		["Pufarin - Icecrown"] = {
+		["Maciucaru - Icecrown"] = {
 		},
 		["Flocparlit - Icecrown"] = {
 		},
-		["Lingurita - Lordaeron"] = {
+		["Gligor - Icecrown"] = {
 		},
 		["Mirceabravo - Blackrock [PvP only]"] = {
 		},
-		["Maciucaru - Icecrown"] = {
+		["Pufarin - Icecrown"] = {
 		},
-		["Pocaitoru - Icecrown"] = {
+		["Lingurita - Lordaeron"] = {
 		},
-		["Rakhnis - Icecrown"] = {
+		["Vrael - Icecrown"] = {
 		},
-		["Inarya - Icecrown"] = {
+		["Mirceabravo - Icecrown"] = {
 		},
-		["Urgash - Icecrown"] = {
+		["Izanagi - Icecrown"] = {
 		},
-		["Drext - Icecrown"] = {
+		["Flocius - Icecrown"] = {
 		},
-		["Flokus - Icecrown"] = {
+		["Vhalanor - Icecrown"] = {
 		},
 	},
 }

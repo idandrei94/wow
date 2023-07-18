@@ -16,14 +16,14 @@ Quartz3DB = {
 				},
 			},
 		},
+		["EnemyCasts"] = {
+		},
 		["Player"] = {
 			["profiles"] = {
 				["Default"] = {
 					["x"] = 557.6666906585209,
 				},
 			},
-		},
-		["EnemyCasts"] = {
 		},
 		["GCD"] = {
 		},
@@ -45,9 +45,9 @@ Quartz3DB = {
 				},
 			},
 		},
-		["Mirror"] = {
-		},
 		["Range"] = {
+		},
+		["Mirror"] = {
 		},
 		["Latency"] = {
 		},
@@ -58,32 +58,32 @@ Quartz3DB = {
 		["Nalar - Icecrown"] = "Default",
 		["Sculatru - Icecrown"] = "Default",
 		["Denathra - Icecrown"] = "Default",
+		["Flokus - Icecrown"] = "Default",
 		["Eutanasie - Icecrown"] = "Default",
-		["Vhalanor - Icecrown"] = "Default",
-		["Flocius - Icecrown"] = "Default",
+		["Drext - Icecrown"] = "Default",
 		["Noobschmoq - Icecrown"] = "Default",
 		["Muiex - Icecrown"] = "Default",
 		["Sculamare - Icecrown"] = "Default",
-		["Izanagi - Icecrown"] = "Default",
-		["Mirceabravo - Icecrown"] = "Default",
+		["Urgash - Icecrown"] = "Default",
+		["Inarya - Icecrown"] = "Default",
 		["Aevie - Icecrown"] = "Default",
 		["Morridin - Icecrown"] = "Default",
-		["Praxia - Icecrown"] = "Default",
+		["Rakhnis - Icecrown"] = "Default",
 		["Ulrezaj - Icecrown"] = "Default",
-		["Gligor - Icecrown"] = "Default",
+		["Pocaitoru - Icecrown"] = "Default",
 		["Kalaam - Icecrown"] = "Default",
 		["Elgorath - Icecrown"] = "Default",
-		["Pufarin - Icecrown"] = "Default",
-		["Flocparlit - Icecrown"] = "Default",
-		["Lingurita - Lordaeron"] = "Default",
-		["Mirceabravo - Blackrock [PvP only]"] = "Default",
 		["Maciucaru - Icecrown"] = "Default",
-		["Pocaitoru - Icecrown"] = "Default",
-		["Rakhnis - Icecrown"] = "Default",
-		["Inarya - Icecrown"] = "Default",
-		["Urgash - Icecrown"] = "Default",
-		["Drext - Icecrown"] = "Default",
-		["Flokus - Icecrown"] = "Default",
+		["Flocparlit - Icecrown"] = "Default",
+		["Gligor - Icecrown"] = "Default",
+		["Mirceabravo - Blackrock [PvP only]"] = "Default",
+		["Pufarin - Icecrown"] = "Default",
+		["Lingurita - Lordaeron"] = "Default",
+		["Praxia - Icecrown"] = "Default",
+		["Mirceabravo - Icecrown"] = "Default",
+		["Izanagi - Icecrown"] = "Default",
+		["Flocius - Icecrown"] = "Default",
+		["Vhalanor - Icecrown"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {
