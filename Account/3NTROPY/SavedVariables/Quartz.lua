@@ -16,14 +16,14 @@ Quartz3DB = {
 				},
 			},
 		},
-		["EnemyCasts"] = {
-		},
 		["Player"] = {
 			["profiles"] = {
 				["Default"] = {
 					["x"] = 557.6666906585209,
 				},
 			},
+		},
+		["EnemyCasts"] = {
 		},
 		["GCD"] = {
 		},
@@ -45,9 +45,9 @@ Quartz3DB = {
 				},
 			},
 		},
-		["Range"] = {
-		},
 		["Mirror"] = {
+		},
+		["Range"] = {
 		},
 		["Latency"] = {
 		},
@@ -58,32 +58,32 @@ Quartz3DB = {
 		["Nalar - Icecrown"] = "Default",
 		["Sculatru - Icecrown"] = "Default",
 		["Denathra - Icecrown"] = "Default",
+		["Eutanasie - Icecrown"] = "Default",
 		["Vhalanor - Icecrown"] = "Default",
-		["Flokus - Icecrown"] = "Default",
-		["Drext - Icecrown"] = "Default",
+		["Flocius - Icecrown"] = "Default",
 		["Noobschmoq - Icecrown"] = "Default",
 		["Muiex - Icecrown"] = "Default",
 		["Sculamare - Icecrown"] = "Default",
-		["Urgash - Icecrown"] = "Default",
-		["Inarya - Icecrown"] = "Default",
+		["Izanagi - Icecrown"] = "Default",
+		["Mirceabravo - Icecrown"] = "Default",
 		["Aevie - Icecrown"] = "Default",
 		["Morridin - Icecrown"] = "Default",
-		["Rakhnis - Icecrown"] = "Default",
+		["Praxia - Icecrown"] = "Default",
 		["Ulrezaj - Icecrown"] = "Default",
-		["Pocaitoru - Icecrown"] = "Default",
+		["Gligor - Icecrown"] = "Default",
 		["Kalaam - Icecrown"] = "Default",
 		["Elgorath - Icecrown"] = "Default",
-		["Maciucaru - Icecrown"] = "Default",
-		["Flocparlit - Icecrown"] = "Default",
-		["Gligor - Icecrown"] = "Default",
-		["Mirceabravo - Blackrock [PvP only]"] = "Default",
 		["Pufarin - Icecrown"] = "Default",
+		["Flocparlit - Icecrown"] = "Default",
 		["Lingurita - Lordaeron"] = "Default",
-		["Praxia - Icecrown"] = "Default",
-		["Mirceabravo - Icecrown"] = "Default",
-		["Izanagi - Icecrown"] = "Default",
-		["Flocius - Icecrown"] = "Default",
-		["Eutanasie - Icecrown"] = "Default",
+		["Mirceabravo - Blackrock [PvP only]"] = "Default",
+		["Maciucaru - Icecrown"] = "Default",
+		["Pocaitoru - Icecrown"] = "Default",
+		["Rakhnis - Icecrown"] = "Default",
+		["Inarya - Icecrown"] = "Default",
+		["Urgash - Icecrown"] = "Default",
+		["Drext - Icecrown"] = "Default",
+		["Flokus - Icecrown"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {

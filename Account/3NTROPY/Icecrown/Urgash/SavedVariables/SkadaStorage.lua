@@ -1,1186 +1,608 @@
 
 SkadaStorageDB = {
 	["total"] = {
-		["mana"] = 158498,
-		["dispel"] = 13,
-		["totaldamage"] = 4583584,
-		["time"] = 353,
-		["totaldamagetaken"] = 826997,
-		["damage"] = 4583584,
-		["starttime"] = 1689592155,
-		["absorb"] = 68468,
-		["damagetaken"] = 758529,
-		["interrupt"] = 2,
-		["overkill"] = 150639,
-		["death"] = 1,
-		["heal"] = 803841,
+		["mana"] = 119761,
+		["dispel"] = 8,
+		["totaldamage"] = 5159381,
+		["time"] = 225,
+		["totaldamagetaken"] = 488673,
+		["damage"] = 5159381,
+		["starttime"] = 1689679211,
+		["absorb"] = 124145,
+		["damagetaken"] = 364528,
+		["interrupt"] = 4,
+		["runic"] = 20,
+		["overheal"] = 203221,
+		["overkill"] = 118478,
+		["heal"] = 366812,
 		["name"] = "Total",
-		["ccdone"] = 5,
-		["potion"] = 2,
-		["runic"] = 124,
+		["ccdone"] = 39,
 		["players"] = {
 			{
 				["flag"] = 1298,
-				["mana"] = 75848,
-				["time"] = 278.1800000000001,
-				["totaldamagetaken"] = 286097,
-				["damage"] = 680474,
-				["overheal"] = 69052,
-				["absorb"] = 23532,
-				["damagetaken"] = 228254,
-				["id"] = "0x0700000000949DDC",
+				["mana"] = 35411,
+				["dispel"] = 1,
+				["time"] = 181.2500000000001,
+				["totaldamagetaken"] = 218633,
+				["damage"] = 624542,
+				["overheal"] = 3832,
+				["absorb"] = 1709,
+				["damagetaken"] = 179628,
+				["id"] = "0x070000000095DC85",
 				["spec"] = 66,
-				["overkill"] = 5492,
-				["heal"] = 33862,
-				["name"] = "Gometius",
+				["overkill"] = 4658,
+				["heal"] = 10423,
+				["name"] = "Crazydqs",
+				["ccdone"] = 16,
+				["interrupt"] = 1,
 				["class"] = "PALADIN",
-				["totaldamage"] = 680474,
+				["totaldamage"] = 624542,
 				["role"] = "TANK",
 			}, -- [1]
 			{
 				["flag"] = 1297,
 				["class"] = "DEATHKNIGHT",
-				["time"] = 278.9200000000002,
-				["totaldamagetaken"] = 320687,
-				["damage"] = 2328052,
-				["overheal"] = 29079,
-				["absorb"] = 7230,
-				["damagetaken"] = 313457,
+				["time"] = 172.1299999999999,
+				["totaldamagetaken"] = 132767,
+				["damage"] = 1707737,
+				["runic"] = 20,
+				["damagetaken"] = 108862,
 				["id"] = "0x070000000000D01B",
 				["spec"] = 252,
-				["overkill"] = 102839,
-				["heal"] = 35203,
+				["overkill"] = 41282,
+				["heal"] = 22691,
 				["name"] = "Urgash",
-				["ccdone"] = 5,
-				["runic"] = 124,
-				["interrupt"] = 2,
-				["totaldamage"] = 2328052,
+				["ccdone"] = 3,
+				["interrupt"] = 3,
+				["overheal"] = 49918,
+				["totaldamage"] = 1707737,
 				["role"] = "DAMAGER",
 			}, -- [2]
 			{
 				["flag"] = 1298,
-				["class"] = "PRIEST",
-				["time"] = 231.2899999999999,
-				["totaldamagetaken"] = 46118,
-				["damage"] = 1113534,
-				["overheal"] = 236001,
-				["absorb"] = 3395,
-				["damagetaken"] = 42723,
-				["id"] = "0x07000000006FE7EF",
-				["spec"] = 258,
-				["overkill"] = 34059,
-				["heal"] = 74003,
-				["name"] = "Zaralar",
-				["mana"] = 27792,
-				["totaldamage"] = 1113534,
+				["mana"] = 45712,
+				["dispel"] = 4,
+				["time"] = 169.06,
+				["totaldamagetaken"] = 62391,
+				["damage"] = 1290976,
+				["overheal"] = 14173,
+				["damagetaken"] = 35144,
+				["id"] = "0x07000000008F8756",
+				["spec"] = 70,
+				["overkill"] = 57986,
+				["heal"] = 54141,
+				["name"] = "Yiyuan",
+				["ccdone"] = 20,
+				["class"] = "PALADIN",
+				["totaldamage"] = 1290976,
 				["role"] = "DAMAGER",
 			}, -- [3]
 			{
 				["flag"] = 1298,
-				["mana"] = 33598,
-				["dispel"] = 13,
-				["time"] = 253.1799999999999,
-				["totaldamagetaken"] = 57421,
-				["damage"] = 15622,
-				["overheal"] = 960537,
-				["absorb"] = 34311,
-				["damagetaken"] = 57421,
-				["id"] = "0x070000000096902A",
-				["spec"] = 65,
-				["heal"] = 660773,
-				["name"] = "Ynnou",
-				["potion"] = 2,
-				["class"] = "PALADIN",
-				["totaldamage"] = 15622,
-				["role"] = "HEALER",
+				["mana"] = 17298,
+				["time"] = 154.84,
+				["totaldamagetaken"] = 55559,
+				["damage"] = 1524197,
+				["overheal"] = 10815,
+				["damagetaken"] = 34807,
+				["id"] = "0x07000000008B24DB",
+				["spec"] = 103,
+				["overkill"] = 14552,
+				["heal"] = 7358,
+				["name"] = "Zyablik",
+				["totaldamage"] = 1524197,
+				["class"] = "DRUID",
+				["energy"] = 462,
+				["role"] = "DAMAGER",
 			}, -- [4]
 			{
 				["flag"] = 1298,
-				["damagetaken"] = 116674,
-				["mana"] = 21260,
-				["id"] = "0x0700000000975314",
-				["class"] = "MAGE",
-				["name"] = "Wubobo",
-				["overkill"] = 8249,
-				["totaldamage"] = 445902,
-				["role"] = "DAMAGER",
-				["time"] = 177.48,
-				["death"] = 1,
-				["totaldamagetaken"] = 116674,
-				["spec"] = 63,
-				["damage"] = 445902,
+				["class"] = "PRIEST",
+				["dispel"] = 3,
+				["role"] = "HEALER",
+				["time"] = 171.21,
+				["totaldamagetaken"] = 19323,
+				["damage"] = 11929,
+				["overheal"] = 124483,
+				["absorb"] = 122436,
+				["damagetaken"] = 6087,
+				["id"] = "0x070000000096F606",
+				["spec"] = 256,
+				["heal"] = 272199,
+				["name"] = "Najgora",
+				["totaldamage"] = 11929,
+				["energy"] = 16,
+				["mana"] = 21340,
 			}, -- [5]
 		},
-		["overheal"] = 1294669,
+		["energy"] = 478,
 	},
 	["version"] = 1878,
 	["sets"] = {
 		{
-			["type"] = "party",
+			["damage"] = 1046576,
+			["overheal"] = 73316,
+			["mana"] = 30441,
 			["success"] = true,
-			["runic"] = 10,
-			["mana"] = 45382,
-			["potion"] = 1,
 			["enemies"] = {
 				{
 					["damagespells"] = {
 						[6603] = {
 							["school"] = 1,
-							["total"] = 5715,
+							["total"] = 21205,
 							["targets"] = {
-								["Gometius"] = {
-									["total"] = 13197,
-									["amount"] = 9609,
+								["Crazydqs"] = {
+									["total"] = 22734,
+									["amount"] = 21639,
 								},
 								["Urgash"] = {
-									["amount"] = 12924,
+									["amount"] = 7146,
 								},
 							},
-							["amount"] = 22533,
+							["amount"] = 28785,
 						},
-						[58992] = {
+						[69189] = {
 							["school"] = 1,
-							["total"] = 31118,
+							["total"] = 5893,
 							["targets"] = {
-								["Gometius"] = {
-									["total"] = 3897,
-									["amount"] = 2928,
+								["Crazydqs"] = {
+									["total"] = 19199,
+									["amount"] = 14719,
 								},
 								["Urgash"] = {
-									["amount"] = 5579,
-								},
-								["Wubobo"] = {
-									["amount"] = 9741,
-								},
-								["Ynnou"] = {
-									["amount"] = 5036,
-								},
-								["Zaralar"] = {
-									["amount"] = 6865,
+									["amount"] = 8696,
 								},
 							},
-							["amount"] = 30149,
+							["amount"] = 23415,
 						},
-						[58991] = {
+						[69627] = {
 							["school"] = 1,
+							["total"] = 15885,
 							["targets"] = {
-								["Gometius"] = {
-									["amount"] = 16081,
+								["Crazydqs"] = {
+									["total"] = 15885,
+									["amount"] = 15524,
 								},
 							},
-							["amount"] = 16081,
+							["amount"] = 15524,
 						},
 					},
-					["damagetaken"] = 388825,
-					["id"] = "0xF15000748E0000D2",
-					["class"] = "MONSTER",
-					["damagetakenspells"] = {
-						[42926] = {
-							["school"] = 4,
-							["sources"] = {
-								["Wubobo"] = {
-									["amount"] = 6598,
-								},
-							},
-							["amount"] = 6598,
-						},
-						[49921] = {
-							["school"] = 1,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 5535,
-								},
-							},
-							["amount"] = 5535,
-						},
-						[47468] = {
-							["school"] = 1,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 5576,
-								},
-							},
-							["amount"] = 5576,
-						},
-						[55095] = {
-							["school"] = 16,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 23389,
-								},
-							},
-							["amount"] = 23389,
-						},
-						[53022] = {
-							["school"] = 32,
-							["sources"] = {
-								["Zaralar"] = {
-									["amount"] = 38592,
-								},
-							},
-							["amount"] = 38592,
-						},
-						[67485] = {
-							["school"] = 2,
-							["sources"] = {
-								["Gometius"] = {
-									["amount"] = 1763,
-								},
-							},
-							["amount"] = 1763,
-						},
-						[42950] = {
-							["school"] = 4,
-							["sources"] = {
-								["Wubobo"] = {
-									["amount"] = 6201,
-								},
-							},
-							["amount"] = 6201,
-						},
-						[61411] = {
-							["school"] = 2,
-							["sources"] = {
-								["Gometius"] = {
-									["amount"] = 9130,
-								},
-							},
-							["amount"] = 9130,
-						},
-						[48819] = {
-							["school"] = 2,
-							["sources"] = {
-								["Gometius"] = {
-									["amount"] = 16272,
-								},
-							},
-							["amount"] = 16272,
-						},
-						[50526] = {
-							["school"] = 32,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 25061,
-								},
-							},
-							["amount"] = 25061,
-						},
-						[47632] = {
-							["school"] = 32,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 4632,
-								},
-							},
-							["amount"] = 4632,
-						},
-						[50536] = {
-							["school"] = 32,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 217,
-								},
-							},
-							["amount"] = 217,
-						},
-						[12654] = {
-							["school"] = 4,
-							["sources"] = {
-								["Wubobo"] = {
-									["amount"] = 2309,
-								},
-							},
-							["amount"] = 2309,
-						},
-						[55078] = {
-							["school"] = 32,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 18583,
-								},
-							},
-							["amount"] = 18583,
-						},
-						[71904] = {
-							["school"] = 32,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 1323,
-								},
-							},
-							["amount"] = 1323,
-						},
-						[55271] = {
-							["school"] = 1,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 27466,
-								},
-							},
-							["amount"] = 27466,
-						},
-						[31803] = {
-							["school"] = 2,
-							["sources"] = {
-								["Gometius"] = {
-									["amount"] = 6739,
-								},
-							},
-							["amount"] = 6739,
-						},
-						[31804] = {
-							["school"] = 2,
-							["sources"] = {
-								["Gometius"] = {
-									["amount"] = 1486,
-								},
-							},
-							["amount"] = 1486,
-						},
-						[48300] = {
-							["school"] = 32,
-							["sources"] = {
-								["Zaralar"] = {
-									["amount"] = 12230,
-								},
-							},
-							["amount"] = 12230,
-						},
-						[55360] = {
-							["school"] = 4,
-							["sources"] = {
-								["Wubobo"] = {
-									["amount"] = 6854,
-								},
-							},
-							["amount"] = 6854,
-						},
-						[52212] = {
-							["school"] = 32,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 28741,
-								},
-							},
-							["amount"] = 28741,
-						},
-						[51460] = {
-							["school"] = 32,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 6572,
-								},
-							},
-							["amount"] = 6572,
-						},
-						[48125] = {
-							["school"] = 32,
-							["sources"] = {
-								["Zaralar"] = {
-									["amount"] = 7483,
-								},
-							},
-							["amount"] = 7483,
-						},
-						[42945] = {
-							["school"] = 4,
-							["sources"] = {
-								["Wubobo"] = {
-									["amount"] = 2039,
-								},
-							},
-							["amount"] = 2039,
-						},
-						[49930] = {
-							["school"] = 1,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 2202,
-								},
-							},
-							["amount"] = 2202,
-						},
-						[48952] = {
-							["school"] = 2,
-							["sources"] = {
-								["Gometius"] = {
-									["amount"] = 1401,
-								},
-							},
-							["amount"] = 1401,
-						},
-						[55362] = {
-							["school"] = 4,
-							["sources"] = {
-								["Wubobo"] = {
-									["amount"] = 6330,
-								},
-							},
-							["amount"] = 6330,
-						},
-						[42463] = {
-							["school"] = 2,
-							["sources"] = {
-								["Gometius"] = {
-									["overkill"] = 416,
-									["amount"] = 4852,
-								},
-							},
-							["overkill"] = 416,
-							["amount"] = 4852,
-						},
-						[50463] = {
-							["school"] = 1,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 2017,
-								},
-							},
-							["amount"] = 2017,
-						},
-						[53595] = {
-							["school"] = 2,
-							["sources"] = {
-								["Gometius"] = {
-									["amount"] = 18519,
-								},
-							},
-							["amount"] = 18519,
-						},
-						[49909] = {
-							["school"] = 16,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 3135,
-								},
-							},
-							["amount"] = 3135,
-						},
-						[6603] = {
-							["school"] = 1,
-							["sources"] = {
-								["Gometius"] = {
-									["overkill"] = 946,
-									["amount"] = 7248,
-								},
-								["Urgash"] = {
-									["amount"] = 41696,
-								},
-							},
-							["overkill"] = 946,
-							["amount"] = 48944,
-						},
-						[70890] = {
-							["school"] = 32,
-							["sources"] = {
-								["Urgash"] = {
-									["overkill"] = 1572,
-									["amount"] = 14158,
-								},
-							},
-							["overkill"] = 1572,
-							["amount"] = 14158,
-						},
-						[63675] = {
-							["school"] = 32,
-							["sources"] = {
-								["Zaralar"] = {
-									["amount"] = 2905,
-								},
-							},
-							["amount"] = 2905,
-						},
-						[49941] = {
-							["school"] = 32,
-							["sources"] = {
-								["Urgash"] = {
-									["overkill"] = 2083,
-									["amount"] = 19571,
-								},
-							},
-							["overkill"] = 2083,
-							["amount"] = 19571,
-						},
-					},
-					["totaldamage"] = 73320,
-					["name"] = "Drakkari Rhino",
-					["totaldamagetaken"] = 388825,
-					["flag"] = 2632,
-					["damage"] = 68763,
-				}, -- [1]
-				{
-					["damagespells"] = {
-						[6603] = {
-							["school"] = 1,
-							["targets"] = {
-								["Urgash"] = {
-									["amount"] = 10146,
-								},
-							},
-							["amount"] = 10146,
-						},
-						[58967] = {
-							["school"] = 8,
-							["targets"] = {
-								["Zaralar"] = {
-									["amount"] = 4034,
-								},
-								["Wubobo"] = {
-									["amount"] = 7168,
-								},
-							},
-							["amount"] = 11202,
-						},
-						[58966] = {
-							["school"] = 1,
-							["targets"] = {
-								["Gometius"] = {
-									["amount"] = 3188,
-								},
-								["Urgash"] = {
-									["amount"] = 18362,
-								},
-							},
-							["amount"] = 21550,
-						},
-					},
-					["damagetaken"] = 195462,
-					["flag"] = 2632,
-					["class"] = "MONSTER",
-					["damagetakenspells"] = {
-						[55078] = {
-							["school"] = 32,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 12537,
-								},
-							},
-							["amount"] = 12537,
-						},
-						[49941] = {
-							["school"] = 32,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 15401,
-								},
-							},
-							["amount"] = 15401,
-						},
-						[6603] = {
-							["school"] = 1,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 1132,
-								},
-							},
-							["amount"] = 1132,
-						},
-						[55095] = {
-							["school"] = 16,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 16535,
-								},
-							},
-							["amount"] = 16535,
-						},
-						[12654] = {
-							["school"] = 4,
-							["sources"] = {
-								["Wubobo"] = {
-									["amount"] = 2992,
-								},
-							},
-							["amount"] = 2992,
-						},
-						[53595] = {
-							["school"] = 2,
-							["sources"] = {
-								["Gometius"] = {
-									["overkill"] = 1678,
-									["amount"] = 2287,
-								},
-							},
-							["overkill"] = 1678,
-							["amount"] = 2287,
-						},
-						[48819] = {
-							["school"] = 2,
-							["sources"] = {
-								["Gometius"] = {
-									["amount"] = 15609,
-								},
-							},
-							["amount"] = 15609,
-						},
-						[55362] = {
-							["school"] = 4,
-							["sources"] = {
-								["Wubobo"] = {
-									["amount"] = 7568,
-								},
-							},
-							["amount"] = 7568,
-						},
-						[55360] = {
-							["school"] = 4,
-							["sources"] = {
-								["Wubobo"] = {
-									["amount"] = 7920,
-								},
-							},
-							["amount"] = 7920,
-						},
-						[47468] = {
-							["school"] = 1,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 842,
-								},
-							},
-							["amount"] = 842,
-						},
-						[42926] = {
-							["school"] = 4,
-							["sources"] = {
-								["Wubobo"] = {
-									["overkill"] = 1397,
-									["amount"] = 3802,
-								},
-							},
-							["overkill"] = 1397,
-							["amount"] = 3802,
-						},
-						[53022] = {
-							["school"] = 32,
-							["sources"] = {
-								["Zaralar"] = {
-									["amount"] = 62445,
-								},
-							},
-							["amount"] = 62445,
-						},
-						[71904] = {
-							["school"] = 32,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 1544,
-								},
-							},
-							["amount"] = 1544,
-						},
-						[50526] = {
-							["school"] = 32,
-							["sources"] = {
-								["Urgash"] = {
-									["overkill"] = 1222,
-									["amount"] = 24322,
-								},
-							},
-							["overkill"] = 1222,
-							["amount"] = 24322,
-						},
-						[52212] = {
-							["school"] = 32,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 20526,
-								},
-							},
-							["amount"] = 20526,
-						},
-					},
-					["name"] = "Drakkari Battle Rider",
-					["totaldamage"] = 42898,
-					["totaldamagetaken"] = 195462,
-					["id"] = "0xF13000748C0000CF",
-					["damage"] = 42898,
-				}, -- [2]
-				{
-					["damagespells"] = {
-						[6603] = {
-							["school"] = 1,
-							["targets"] = {
-								["Gometius"] = {
-									["amount"] = 6959,
-								},
-							},
-							["amount"] = 6959,
-						},
-						[59826] = {
-							["school"] = 1,
-							["total"] = 11305,
-							["targets"] = {
-								["Gometius"] = {
-									["total"] = 14737,
-									["amount"] = 12781,
-								},
-							},
-							["amount"] = 12781,
-						},
-						[59825] = {
-							["school"] = 1,
-							["total"] = 11763,
-							["targets"] = {
-								["Gometius"] = {
-									["total"] = 8629,
-									["amount"] = 4815,
-								},
-								["Urgash"] = {
-									["amount"] = 26502,
-								},
-							},
-							["amount"] = 31317,
-						},
-					},
-					["damagetaken"] = 512684,
+					["damagetaken"] = 1046576,
 					["flag"] = 2632,
 					["class"] = "BOSS",
 					["damagetakenspells"] = {
-						[42859] = {
-							["school"] = 4,
-							["sources"] = {
-								["Wubobo"] = {
-									["amount"] = 1197,
-								},
-							},
-							["amount"] = 1197,
-						},
 						[49921] = {
 							["school"] = 1,
 							["sources"] = {
 								["Urgash"] = {
-									["amount"] = 9060,
+									["amount"] = 11835,
 								},
 							},
-							["amount"] = 9060,
+							["amount"] = 11835,
+						},
+						[67890] = {
+							["school"] = 4,
+							["sources"] = {
+								["Yiyuan"] = {
+									["amount"] = 1282,
+								},
+							},
+							["amount"] = 1282,
 						},
 						[47468] = {
 							["school"] = 1,
 							["sources"] = {
 								["Urgash"] = {
-									["amount"] = 4281,
+									["amount"] = 10977,
 								},
 							},
-							["amount"] = 4281,
+							["amount"] = 10977,
 						},
 						[55095] = {
 							["school"] = 16,
 							["sources"] = {
 								["Urgash"] = {
-									["amount"] = 13570,
+									["amount"] = 18777,
 								},
 							},
-							["amount"] = 13570,
+							["amount"] = 18777,
 						},
-						[54158] = {
+						[61840] = {
 							["school"] = 2,
 							["sources"] = {
-								["Ynnou"] = {
-									["amount"] = 952,
+								["Yiyuan"] = {
+									["amount"] = 8661,
 								},
 							},
-							["amount"] = 952,
+							["amount"] = 8661,
 						},
-						[58381] = {
-							["school"] = 32,
-							["sources"] = {
-								["Zaralar"] = {
-									["amount"] = 55526,
-								},
-							},
-							["amount"] = 55526,
-						},
-						[67485] = {
+						[48801] = {
 							["school"] = 2,
 							["sources"] = {
-								["Gometius"] = {
-									["amount"] = 1608,
+								["Yiyuan"] = {
+									["amount"] = 5398,
 								},
 							},
-							["amount"] = 1608,
+							["amount"] = 5398,
+						},
+						[53595] = {
+							["school"] = 2,
+							["sources"] = {
+								["Crazydqs"] = {
+									["amount"] = 14615,
+								},
+							},
+							["amount"] = 14615,
 						},
 						[61411] = {
 							["school"] = 2,
 							["sources"] = {
-								["Gometius"] = {
-									["amount"] = 15671,
+								["Crazydqs"] = {
+									["amount"] = 18097,
 								},
 							},
-							["amount"] = 15671,
+							["amount"] = 18097,
 						},
 						[51963] = {
 							["school"] = 8,
 							["sources"] = {
 								["Urgash"] = {
-									["overkill"] = 406,
-									["amount"] = 42382,
+									["amount"] = 77742,
 								},
 							},
-							["overkill"] = 406,
-							["amount"] = 42382,
+							["amount"] = 77742,
 						},
 						[48819] = {
 							["school"] = 2,
 							["sources"] = {
-								["Gometius"] = {
-									["amount"] = 5992,
+								["Crazydqs"] = {
+									["amount"] = 8983,
+								},
+								["Yiyuan"] = {
+									["amount"] = 9261,
 								},
 							},
-							["amount"] = 5992,
+							["amount"] = 18244,
+						},
+						[69403] = {
+							["school"] = 2,
+							["sources"] = {
+								["Crazydqs"] = {
+									["amount"] = 2519,
+								},
+							},
+							["amount"] = 2519,
 						},
 						[50526] = {
 							["school"] = 32,
 							["sources"] = {
 								["Urgash"] = {
-									["amount"] = 9285,
+									["amount"] = 8882,
 								},
 							},
-							["amount"] = 9285,
+							["amount"] = 8882,
 						},
 						[48827] = {
 							["school"] = 2,
 							["sources"] = {
-								["Gometius"] = {
-									["amount"] = 1730,
+								["Crazydqs"] = {
+									["amount"] = 2537,
 								},
 							},
-							["amount"] = 1730,
+							["amount"] = 2537,
 						},
 						[47632] = {
 							["school"] = 32,
 							["sources"] = {
 								["Urgash"] = {
-									["amount"] = 23747,
+									["amount"] = 36607,
 								},
 							},
-							["amount"] = 23747,
+							["amount"] = 36607,
 						},
 						[50536] = {
 							["school"] = 32,
 							["sources"] = {
 								["Urgash"] = {
-									["amount"] = 1609,
+									["amount"] = 3198,
 								},
 							},
-							["amount"] = 1609,
-						},
-						[12654] = {
-							["school"] = 4,
-							["sources"] = {
-								["Wubobo"] = {
-									["amount"] = 5460,
-								},
-							},
-							["amount"] = 5460,
+							["amount"] = 3198,
 						},
 						[55078] = {
 							["school"] = 32,
 							["sources"] = {
 								["Urgash"] = {
-									["amount"] = 10298,
+									["amount"] = 15604,
 								},
 							},
-							["amount"] = 10298,
+							["amount"] = 15604,
 						},
 						[71904] = {
 							["school"] = 32,
 							["sources"] = {
 								["Urgash"] = {
-									["amount"] = 2727,
+									["amount"] = 6905,
 								},
 							},
-							["amount"] = 2727,
+							["amount"] = 6905,
 						},
 						[55271] = {
 							["school"] = 1,
 							["sources"] = {
 								["Urgash"] = {
-									["amount"] = 18968,
+									["amount"] = 62155,
 								},
 							},
-							["amount"] = 18968,
+							["amount"] = 62155,
 						},
-						[48158] = {
-							["school"] = 32,
+						[53385] = {
+							["school"] = 1,
 							["sources"] = {
-								["Zaralar"] = {
-									["amount"] = 3976,
+								["Yiyuan"] = {
+									["amount"] = 32903,
 								},
 							},
-							["amount"] = 3976,
+							["amount"] = 32903,
 						},
-						[48160] = {
-							["school"] = 32,
+						[49800] = {
+							["school"] = 1,
 							["sources"] = {
-								["Zaralar"] = {
-									["amount"] = 23844,
+								["Zyablik"] = {
+									["amount"] = 53630,
 								},
 							},
-							["amount"] = 23844,
+							["amount"] = 53630,
 						},
 						[31803] = {
 							["school"] = 2,
 							["sources"] = {
-								["Gometius"] = {
-									["amount"] = 5295,
+								["Yiyuan"] = {
+									["amount"] = 22463,
 								},
 							},
-							["amount"] = 5295,
+							["amount"] = 22463,
 						},
 						[31804] = {
 							["school"] = 2,
 							["sources"] = {
-								["Gometius"] = {
-									["amount"] = 2909,
+								["Yiyuan"] = {
+									["amount"] = 17550,
 								},
 							},
-							["amount"] = 2909,
+							["amount"] = 17550,
 						},
-						[48300] = {
-							["school"] = 32,
+						[20467] = {
+							["school"] = 2,
 							["sources"] = {
-								["Zaralar"] = {
-									["amount"] = 25147,
+								["Crazydqs"] = {
+									["amount"] = 3549,
 								},
 							},
-							["amount"] = 25147,
+							["amount"] = 3549,
 						},
 						[48806] = {
 							["school"] = 2,
 							["sources"] = {
-								["Gometius"] = {
-									["amount"] = 2469,
+								["Crazydqs"] = {
+									["amount"] = 2619,
+								},
+								["Yiyuan"] = {
+									["amount"] = 7428,
 								},
 							},
-							["amount"] = 2469,
+							["amount"] = 10047,
 						},
-						[55360] = {
-							["school"] = 4,
-							["sources"] = {
-								["Wubobo"] = {
-									["amount"] = 5774,
-								},
-							},
-							["amount"] = 5774,
-						},
-						[55362] = {
-							["school"] = 4,
-							["sources"] = {
-								["Wubobo"] = {
-									["amount"] = 3363,
-								},
-							},
-							["amount"] = 3363,
-						},
-						[51460] = {
-							["school"] = 32,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 8431,
-								},
-							},
-							["amount"] = 8431,
-						},
-						[48125] = {
-							["school"] = 32,
-							["sources"] = {
-								["Zaralar"] = {
-									["amount"] = 22631,
-								},
-							},
-							["amount"] = 22631,
-						},
-						[48127] = {
-							["school"] = 32,
-							["sources"] = {
-								["Zaralar"] = {
-									["amount"] = 15559,
-								},
-							},
-							["amount"] = 15559,
-						},
-						[42891] = {
-							["school"] = 4,
-							["sources"] = {
-								["Wubobo"] = {
-									["amount"] = 4855,
-								},
-							},
-							["amount"] = 4855,
-						},
-						[49924] = {
+						[35395] = {
 							["school"] = 1,
 							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 2888,
+								["Yiyuan"] = {
+									["amount"] = 16882,
 								},
 							},
-							["amount"] = 2888,
+							["amount"] = 16882,
 						},
 						[48952] = {
 							["school"] = 2,
 							["sources"] = {
-								["Gometius"] = {
-									["amount"] = 2052,
+								["Crazydqs"] = {
+									["amount"] = 2207,
 								},
 							},
-							["amount"] = 2052,
+							["amount"] = 2207,
 						},
-						[49930] = {
+						[48566] = {
 							["school"] = 1,
 							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 12582,
+								["Zyablik"] = {
+									["amount"] = 2356,
 								},
 							},
-							["amount"] = 12582,
+							["amount"] = 2356,
 						},
-						[47610] = {
-							["school"] = 20,
+						[48577] = {
+							["school"] = 1,
 							["sources"] = {
-								["Wubobo"] = {
-									["amount"] = 27381,
+								["Zyablik"] = {
+									["amount"] = 38034,
 								},
 							},
-							["amount"] = 27381,
+							["amount"] = 38034,
 						},
-						[42463] = {
+						[67485] = {
 							["school"] = 2,
 							["sources"] = {
-								["Gometius"] = {
-									["amount"] = 8403,
+								["Crazydqs"] = {
+									["amount"] = 3542,
 								},
 							},
-							["amount"] = 8403,
+							["amount"] = 3542,
+						},
+						[48572] = {
+							["school"] = 1,
+							["sources"] = {
+								["Zyablik"] = {
+									["amount"] = 84940,
+								},
+							},
+							["amount"] = 84940,
+						},
+						[48574] = {
+							["school"] = 1,
+							["sources"] = {
+								["Zyablik"] = {
+									["amount"] = 29697,
+								},
+							},
+							["amount"] = 29697,
 						},
 						[50463] = {
 							["school"] = 1,
 							["sources"] = {
 								["Urgash"] = {
-									["amount"] = 2224,
+									["amount"] = 8004,
 								},
 							},
-							["amount"] = 2224,
+							["amount"] = 8004,
 						},
-						[53595] = {
-							["school"] = 2,
-							["sources"] = {
-								["Gometius"] = {
-									["amount"] = 9151,
-								},
-							},
-							["amount"] = 9151,
-						},
-						[6603] = {
+						[49930] = {
 							["school"] = 1,
 							["sources"] = {
-								["Gometius"] = {
-									["amount"] = 10076,
-								},
 								["Urgash"] = {
-									["amount"] = 48052,
-								},
-								["Zaralar"] = {
-									["amount"] = 18878,
+									["amount"] = 28698,
 								},
 							},
-							["amount"] = 77006,
+							["amount"] = 28698,
 						},
-						[70890] = {
+						[51460] = {
 							["school"] = 32,
 							["sources"] = {
 								["Urgash"] = {
-									["amount"] = 9797,
+									["amount"] = 19158,
 								},
 							},
-							["amount"] = 9797,
+							["amount"] = 19158,
+						},
+						[42463] = {
+							["school"] = 2,
+							["sources"] = {
+								["Yiyuan"] = {
+									["amount"] = 49161,
+								},
+							},
+							["amount"] = 49161,
 						},
 						[49909] = {
 							["school"] = 16,
 							["sources"] = {
 								["Urgash"] = {
-									["amount"] = 7034,
+									["amount"] = 4758,
 								},
 							},
-							["amount"] = 7034,
+							["amount"] = 4758,
 						},
-						[63675] = {
+						[6603] = {
+							["school"] = 1,
+							["sources"] = {
+								["Crazydqs"] = {
+									["amount"] = 16186,
+								},
+								["Urgash"] = {
+									["overkill"] = 5444,
+									["amount"] = 116353,
+								},
+								["Zyablik"] = {
+									["amount"] = 60404,
+								},
+								["Yiyuan"] = {
+									["amount"] = 41666,
+								},
+								["Najgora"] = {
+									["amount"] = 11929,
+								},
+							},
+							["overkill"] = 5444,
+							["amount"] = 246538,
+						},
+						[70890] = {
 							["school"] = 32,
 							["sources"] = {
-								["Zaralar"] = {
-									["amount"] = 5850,
+								["Urgash"] = {
+									["amount"] = 30572,
 								},
 							},
-							["amount"] = 5850,
+							["amount"] = 30572,
+						},
+						[20424] = {
+							["school"] = 2,
+							["sources"] = {
+								["Crazydqs"] = {
+									["amount"] = 16093,
+								},
+							},
+							["amount"] = 16093,
+						},
+						[54043] = {
+							["school"] = 2,
+							["sources"] = {
+								["Crazydqs"] = {
+									["amount"] = 1426,
+								},
+								["Urgash"] = {
+									["amount"] = 333,
+								},
+							},
+							["amount"] = 1759,
 						},
 					},
-					["name"] = "Gal'darah",
-					["totaldamage"] = 56827,
-					["totaldamagetaken"] = 512684,
-					["id"] = "0xF15000727A000027",
-					["damage"] = 51057,
-				}, -- [3]
+					["name"] = "Scourgelord Tyrannus",
+					["totaldamage"] = 73660,
+					["totaldamagetaken"] = 1046576,
+					["id"] = "0xF130008F320000F9",
+					["damage"] = 67724,
+				}, -- [1]
 				{
 					["damagespells"] = {
-						[55220] = {
-							["school"] = 1,
+						[69646] = {
+							["school"] = 16,
 							["targets"] = {
-								["Wubobo"] = {
-									["amount"] = 7508,
+								["Crazydqs"] = {
+									["amount"] = 4976,
+								},
+								["Zyablik"] = {
+									["amount"] = 4521,
 								},
 							},
-							["amount"] = 7508,
+							["amount"] = 9497,
 						},
 					},
-					["name"] = "Rhino Spirit",
-					["totaldamage"] = 7508,
+					["name"] = "Rimefang",
+					["totaldamage"] = 9497,
 					["flag"] = 2632,
-					["class"] = "MONSTER",
-					["id"] = "0xF13000745F0000FB",
-					["damage"] = 7508,
-				}, -- [4]
+					["class"] = "BOSS",
+					["id"] = "0xF150008F350000FA",
+					["damage"] = 9497,
+				}, -- [2]
 			},
-			["dispel"] = 2,
-			["totaldamage"] = 1096971,
-			["time"] = 66,
-			["gotboss"] = 29306,
-			["totaldamagetaken"] = 182684,
-			["etotaldamage"] = 180553,
-			["last_time"] = 18386.868,
+			["runic"] = 10,
+			["totaldamage"] = 1046576,
+			["time"] = 45,
+			["absorb"] = 5936,
+			["totaldamagetaken"] = 83157,
+			["etotaldamagetaken"] = 1046576,
+			["last_time"] = 18877.637,
 			["players"] = {
 				{
-					["last"] = 18380.493,
+					["last"] = 18871.884,
 					["flag"] = 1297,
 					["class"] = "DEATHKNIGHT",
 					["auras"] = {
-						[6562] = {
+						[66803] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 66,
-						},
-						[48162] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 66,
-						},
-						[70657] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["refresh"] = 12,
-							["uptime"] = 54,
-						},
-						[45529] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["uptime"] = 3,
-						},
-						[71560] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 3,
+							["school"] = 32,
+							["refresh"] = 6,
+							["uptime"] = 39,
 						},
 						[73422] = {
 							["type"] = "BUFF",
@@ -1188,199 +610,105 @@ SkadaStorageDB = {
 							["school"] = 1,
 							["uptime"] = 20,
 						},
-						[48942] = {
+						[55095] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 16,
+							["refresh"] = 1,
+							["targets"] = {
+								["Scourgelord Tyrannus"] = {
+									["count"] = 1,
+									["refresh"] = 1,
+									["uptime"] = 36,
+								},
+							},
+							["uptime"] = 36,
+						},
+						[71560] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 66,
+							["school"] = 1,
+							["uptime"] = 17,
 						},
 						[57623] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["refresh"] = 2,
-							["uptime"] = 66,
+							["uptime"] = 45,
 						},
-						[71227] = {
+						[45529] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 8,
-							["refresh"] = 7,
-							["uptime"] = 54,
+							["school"] = 1,
+							["uptime"] = 17,
 						},
-						[48170] = {
+						[58578] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 66,
+							["school"] = 1,
+							["refresh"] = 1,
+							["uptime"] = 40,
 						},
-						[49938] = {
-							["type"] = "DEBUFF",
-							["count"] = 6,
-							["school"] = 32,
-							["targets"] = {
-								["Drakkari Battle Rider"] = {
-									["uptime"] = 10,
-									["count"] = 3,
-								},
-								["Drakkari Rhino"] = {
-									["uptime"] = 10,
-									["count"] = 3,
-								},
-							},
-							["uptime"] = 10,
-						},
-						[19746] = {
+						[15359] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 66,
+							["school"] = 2,
+							["uptime"] = 15,
+						},
+						[53365] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["refresh"] = 2,
+							["uptime"] = 27,
 						},
 						[48266] = {
 							["type"] = "BUFF",
 							["count"] = 2,
 							["school"] = 1,
-							["uptime"] = 65,
-						},
-						[48792] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["uptime"] = 12,
-						},
-						[48074] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 66,
-						},
-						[48265] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 32,
-							["uptime"] = 1,
-						},
-						[58578] = {
-							["type"] = "BUFF",
-							["count"] = 2,
-							["school"] = 1,
-							["refresh"] = 3,
-							["uptime"] = 61,
-						},
-						[43002] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 66,
+							["uptime"] = 44,
 						},
 						[50536] = {
 							["type"] = "DEBUFF",
-							["count"] = 2,
-							["school"] = 32,
-							["refresh"] = 2,
-							["targets"] = {
-								["Gal'darah"] = {
-									["count"] = 1,
-									["refresh"] = 2,
-									["uptime"] = 11,
-								},
-								["Drakkari Rhino"] = {
-									["uptime"] = 6,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 17,
-						},
-						[53365] = {
-							["type"] = "BUFF",
-							["count"] = 3,
-							["school"] = 1,
-							["uptime"] = 41,
-						},
-						[55095] = {
-							["type"] = "DEBUFF",
-							["count"] = 7,
-							["school"] = 16,
-							["refresh"] = 1,
-							["targets"] = {
-								["Drakkari Battle Rider"] = {
-									["uptime"] = 12,
-									["count"] = 3,
-								},
-								["Drakkari Rhino"] = {
-									["uptime"] = 22,
-									["count"] = 3,
-								},
-								["Gal'darah"] = {
-									["count"] = 1,
-									["refresh"] = 1,
-									["uptime"] = 27,
-								},
-							},
-							["uptime"] = 49,
-						},
-						[49206] = {
-							["type"] = "DEBUFF",
 							["count"] = 1,
 							["school"] = 32,
+							["refresh"] = 3,
 							["targets"] = {
-								["Gal'darah"] = {
-									["uptime"] = 19,
+								["Scourgelord Tyrannus"] = {
 									["count"] = 1,
+									["refresh"] = 3,
+									["uptime"] = 20,
 								},
 							},
-							["uptime"] = 19,
-						},
-						[55078] = {
-							["type"] = "DEBUFF",
-							["count"] = 7,
-							["school"] = 32,
-							["refresh"] = 1,
-							["targets"] = {
-								["Drakkari Battle Rider"] = {
-									["uptime"] = 12,
-									["count"] = 3,
-								},
-								["Drakkari Rhino"] = {
-									["uptime"] = 21,
-									["count"] = 3,
-								},
-								["Gal'darah"] = {
-									["count"] = 1,
-									["refresh"] = 1,
-									["uptime"] = 25,
-								},
-							},
-							["uptime"] = 46,
-						},
-						[71905] = {
-							["type"] = "BUFF",
-							["count"] = 3,
-							["school"] = 1,
-							["refresh"] = 13,
-							["uptime"] = 40,
-						},
-						[72221] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 66,
+							["uptime"] = 20,
 						},
 						[51735] = {
 							["type"] = "DEBUFF",
-							["uptime"] = 49,
+							["count"] = 1,
 							["school"] = 32,
-							["refresh"] = 4,
+							["refresh"] = 3,
 							["targets"] = {
-								["Drakkari Battle Rider"] = {
-									["uptime"] = 12,
-									["count"] = 3,
-								},
-								["Drakkari Rhino"] = {
-									["count"] = 3,
-									["refresh"] = 1,
-									["uptime"] = 22,
-								},
-								["Gal'darah"] = {
+								["Scourgelord Tyrannus"] = {
 									["count"] = 1,
 									["refresh"] = 3,
-									["uptime"] = 27,
+									["uptime"] = 36,
 								},
 							},
-							["count"] = 7,
+							["uptime"] = 36,
+						},
+						[55078] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 32,
+							["refresh"] = 1,
+							["targets"] = {
+								["Scourgelord Tyrannus"] = {
+									["count"] = 1,
+									["refresh"] = 1,
+									["uptime"] = 34,
+								},
+							},
+							["uptime"] = 34,
 						},
 						[72412] = {
 							["type"] = "BUFF",
@@ -1388,1033 +716,1042 @@ SkadaStorageDB = {
 							["school"] = 1,
 							["uptime"] = 10,
 						},
-						[66803] = {
+						[48469] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 32,
-							["refresh"] = 4,
-							["uptime"] = 43,
+							["uptime"] = 45,
+						},
+						[24932] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 45,
+						},
+						[71227] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 8,
+							["refresh"] = 5,
+							["uptime"] = 37,
 						},
 						[75456] = {
 							["type"] = "BUFF",
-							["count"] = 2,
-							["school"] = 64,
-							["uptime"] = 30,
-						},
-					},
-					["time"] = 53.85000000000002,
-					["totaldamagetaken"] = 73513,
-					["damage"] = 549648,
-					["overheal"] = 12660,
-					["runic"] = 10,
-					["damagetaken"] = 73513,
-					["id"] = "0x070000000000D01B",
-					["spec"] = 252,
-					["healspells"] = {
-						[53365] = {
-							["overheal"] = 2850,
-							["criticalamount"] = 0,
-							["max"] = 1140,
-							["targets"] = {
-								["Urgash"] = {
-									["overheal"] = 2850,
-									["amount"] = 1140,
-								},
-							},
-							["min"] = 1140,
-							["criticalmax"] = 0,
-							["count"] = 3,
-							["amount"] = 1140,
-							["school"] = 1,
-							["criticalmin"] = 0,
-							["critical"] = 1,
-						},
-						[50475] = {
-							["overheal"] = 4931,
-							["max"] = 408,
-							["count"] = 65,
-							["amount"] = 4444,
-							["school"] = 1,
-							["min"] = 1,
-							["ishot"] = true,
-							["targets"] = {
-								["Urgash"] = {
-									["overheal"] = 4931,
-									["amount"] = 4444,
-								},
-							},
-						},
-						[45470] = {
-							["overheal"] = 4879,
 							["count"] = 1,
-							["amount"] = 822,
+							["school"] = 64,
+							["uptime"] = 15,
+						},
+						[48111] = {
+							["type"] = "BUFF",
+							["count"] = 3,
+							["school"] = 2,
+							["uptime"] = 7,
+						},
+						[48934] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 45,
+						},
+						[47930] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 2,
+							["uptime"] = 3,
+						},
+						[54043] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 45,
+						},
+						[48942] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 45,
+						},
+						[70657] = {
+							["type"] = "BUFF",
+							["count"] = 1,
 							["school"] = 1,
-							["max"] = 822,
+							["refresh"] = 15,
+							["uptime"] = 36,
+						},
+						[48066] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 17,
+						},
+						[47753] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 2,
+							["uptime"] = 12,
+						},
+						[49206] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 32,
 							["targets"] = {
-								["Urgash"] = {
-									["overheal"] = 4879,
-									["amount"] = 822,
+								["Scourgelord Tyrannus"] = {
+									["uptime"] = 28,
+									["count"] = 1,
 								},
 							},
-							["min"] = 822,
+							["uptime"] = 28,
+						},
+						[48265] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 32,
+							["uptime"] = 1,
+						},
+						[48707] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 32,
+							["uptime"] = 5,
+						},
+						[48068] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 2,
+							["uptime"] = 15,
+						},
+						[63944] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 40,
+						},
+						[71905] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["refresh"] = 10,
+							["school"] = 1,
+							["uptime"] = 21,
+						},
+						[72221] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 45,
+						},
+						[49222] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 45,
 						},
 					},
-					["damagetakenspells"] = {
-						["Melee"] = {
-							["DODGE"] = 2,
-							["hitmin"] = 2396,
-							["id"] = 6603,
-							["PARRY"] = 4,
-							["hitmax"] = 2806,
-							["sources"] = {
-								["Drakkari Battle Rider"] = {
-									["amount"] = 10146,
-								},
-								["Drakkari Rhino"] = {
-									["amount"] = 12924,
-								},
-							},
-							["count"] = 16,
-							["hit"] = 9,
-							["school"] = 1,
-							["amount"] = 23070,
-							["MISS"] = 1,
-							["hitamount"] = 23070,
-						},
-						["Throw"] = {
-							["hitmin"] = 2189,
-							["id"] = 58966,
-							["sources"] = {
-								["Drakkari Battle Rider"] = {
-									["amount"] = 18362,
-								},
-							},
-							["count"] = 8,
-							["hit"] = 8,
-							["school"] = 1,
-							["hitmax"] = 2381,
-							["amount"] = 18362,
-							["hitamount"] = 18362,
-						},
-						["Deafening Roar"] = {
-							["hitmin"] = 1361,
-							["id"] = 58992,
-							["sources"] = {
-								["Drakkari Rhino"] = {
-									["amount"] = 5579,
-								},
-							},
-							["count"] = 4,
-							["hit"] = 4,
-							["school"] = 1,
-							["hitmax"] = 1455,
-							["amount"] = 5579,
-							["hitamount"] = 5579,
-						},
-						["Whirling Slash (DoT)"] = {
-							["hitmin"] = 4200,
-							["id"] = 59825,
-							["sources"] = {
-								["Gal'darah"] = {
-									["amount"] = 11200,
-								},
-							},
-							["count"] = 2,
-							["hit"] = 2,
-							["school"] = 1,
-							["hitmax"] = 7000,
-							["amount"] = 11200,
-							["hitamount"] = 11200,
-						},
-						["Whirling Slash"] = {
-							["hitmin"] = 2529,
-							["id"] = 59825,
-							["PARRY"] = 1,
-							["sources"] = {
-								["Gal'darah"] = {
-									["amount"] = 15302,
+					["time"] = 39.01000000000002,
+					["totaldamagetaken"] = 15842,
+					["damage"] = 460558,
+					["damagespells"] = {
+						["Scourge Strike"] = {
+							["hitmin"] = 4570,
+							["criticalamount"] = 57585,
+							["id"] = 55271,
+							["hitmax"] = 4570,
+							["targets"] = {
+								["Scourgelord Tyrannus"] = {
+									["amount"] = 62155,
 								},
 							},
 							["count"] = 6,
-							["hit"] = 5,
+							["hit"] = 1,
+							["casts"] = 6,
+							["critical"] = 5,
+							["amount"] = 62155,
 							["school"] = 1,
-							["hitmax"] = 3752,
-							["amount"] = 15302,
-							["hitamount"] = 15302,
+							["criticalmin"] = 9920,
+							["criticalmax"] = 12574,
+							["hitamount"] = 4570,
 						},
-					},
-					["runicspells"] = {
-						[45529] = 10,
-					},
-					["heal"] = 6406,
-					["name"] = "Urgash",
-					["overkill"] = 5283,
-					["damagespells"] = {
-						["Scourge Strike"] = {
-							["hitmin"] = 3983,
-							["criticalamount"] = 29382,
-							["id"] = 55271,
-							["criticalmin"] = 9528,
+						["Chaos Bane"] = {
+							["hitmin"] = 3447,
+							["id"] = 71904,
 							["targets"] = {
-								["Gal'darah"] = {
-									["amount"] = 18968,
-								},
-								["Drakkari Rhino"] = {
-									["amount"] = 27466,
+								["Scourgelord Tyrannus"] = {
+									["amount"] = 6905,
 								},
 							},
-							["criticalmax"] = 10122,
+							["casts"] = 1,
+							["count"] = 2,
+							["hit"] = 2,
+							["school"] = 32,
+							["hitmax"] = 3458,
+							["amount"] = 6905,
+							["hitamount"] = 6905,
+						},
+						["Blood Strike"] = {
+							["hitmin"] = 2491,
+							["criticalamount"] = 17778,
+							["id"] = 49930,
+							["criticalmin"] = 5681,
+							["targets"] = {
+								["Scourgelord Tyrannus"] = {
+									["amount"] = 28698,
+								},
+							},
+							["criticalmax"] = 6161,
 							["critical"] = 3,
 							["casts"] = 7,
 							["count"] = 7,
 							["hit"] = 4,
 							["school"] = 1,
-							["hitmax"] = 4455,
-							["amount"] = 46434,
-							["hitamount"] = 17052,
-						},
-						["Chaos Bane"] = {
-							["hitmin"] = 399,
-							["id"] = 71904,
-							["targets"] = {
-								["Drakkari Battle Rider"] = {
-									["amount"] = 1544,
-								},
-								["Drakkari Rhino"] = {
-									["amount"] = 1323,
-								},
-								["Gal'darah"] = {
-									["amount"] = 2727,
-								},
-							},
-							["hitmax"] = 2727,
-							["casts"] = 1,
-							["count"] = 7,
-							["hit"] = 7,
-							["school"] = 32,
-							["resisted"] = 199,
-							["amount"] = 5594,
-							["hitamount"] = 5594,
-						},
-						["Death Coil"] = {
-							["hitmax"] = 4910,
-							["hitmin"] = 4632,
-							["criticalamount"] = 18837,
-							["id"] = 47632,
-							["criticalmin"] = 8645,
-							["targets"] = {
-								["Gal'darah"] = {
-									["amount"] = 23747,
-								},
-								["Drakkari Rhino"] = {
-									["amount"] = 4632,
-								},
-							},
-							["criticalmax"] = 10192,
-							["critical"] = 2,
-							["casts"] = 4,
-							["count"] = 4,
-							["hit"] = 2,
-							["school"] = 32,
-							["resisted"] = 2161,
-							["amount"] = 28379,
-							["hitamount"] = 9542,
+							["hitmax"] = 3040,
+							["amount"] = 28698,
+							["hitamount"] = 10920,
 						},
 						["Unholy Blight (DoT)"] = {
-							["hitmin"] = 37,
+							["hitmin"] = 49,
 							["id"] = 50536,
 							["targets"] = {
-								["Gal'darah"] = {
-									["amount"] = 1609,
-								},
-								["Drakkari Rhino"] = {
-									["amount"] = 217,
+								["Scourgelord Tyrannus"] = {
+									["amount"] = 3198,
 								},
 							},
-							["hitmax"] = 209,
-							["count"] = 14,
-							["hit"] = 14,
+							["hitmax"] = 236,
+							["count"] = 18,
+							["hit"] = 18,
 							["school"] = 32,
-							["resisted"] = 131,
-							["amount"] = 1826,
-							["hitamount"] = 1826,
+							["resisted"] = 206,
+							["amount"] = 3198,
+							["hitamount"] = 3198,
 						},
 						["Wandering Plague"] = {
-							["hitmin"] = 692,
+							["hitmin"] = 1169,
 							["id"] = 50526,
 							["targets"] = {
-								["Drakkari Battle Rider"] = {
-									["overkill"] = 1222,
-									["amount"] = 24322,
-								},
-								["Drakkari Rhino"] = {
-									["amount"] = 25061,
-								},
-								["Gal'darah"] = {
-									["amount"] = 9285,
+								["Scourgelord Tyrannus"] = {
+									["amount"] = 8882,
 								},
 							},
-							["overkill"] = 1222,
-							["hitmax"] = 1755,
+							["hitmax"] = 2017,
 							["casts"] = 1,
-							["count"] = 46,
-							["hit"] = 46,
+							["count"] = 6,
+							["hit"] = 6,
 							["school"] = 32,
-							["resisted"] = 2069,
-							["amount"] = 58668,
-							["hitamount"] = 58668,
+							["resisted"] = 467,
+							["amount"] = 8882,
+							["hitamount"] = 8882,
 						},
-						["Melee (Wormcatcher)"] = {
-							["glance"] = 1453,
-							["hitmin"] = 482,
-							["criticalmin"] = 1040,
+						["Claw (Skullslicer)"] = {
+							["hitmin"] = 828,
+							["criticalamount"] = 1742,
+							["id"] = 47468,
+							["criticalmin"] = 1742,
 							["targets"] = {
-								["Drakkari Battle Rider"] = {
-									["amount"] = 1132,
+								["Scourgelord Tyrannus"] = {
+									["amount"] = 10977,
 								},
-								["Drakkari Rhino"] = {
-									["amount"] = 7838,
+							},
+							["criticalmax"] = 1742,
+							["critical"] = 1,
+							["casts"] = 1,
+							["count"] = 11,
+							["hit"] = 10,
+							["school"] = 1,
+							["hitmax"] = 992,
+							["amount"] = 10977,
+							["hitamount"] = 9235,
+						},
+						["Melee (Skullslicer)"] = {
+							["glance"] = 4020,
+							["hitmin"] = 550,
+							["criticalmin"] = 1256,
+							["targets"] = {
+								["Scourgelord Tyrannus"] = {
+									["amount"] = 18334,
 								},
-								["Gal'darah"] = {
-									["amount"] = 3805,
+							},
+							["glancing"] = 8,
+							["amount"] = 18334,
+							["glancemin"] = 474,
+							["criticalamount"] = 6380,
+							["id"] = 6603,
+							["glancemax"] = 523,
+							["criticalmax"] = 1298,
+							["hitmax"] = 643,
+							["hit"] = 13,
+							["school"] = 1,
+							["critical"] = 5,
+							["count"] = 26,
+							["hitamount"] = 7934,
+						},
+						["Melee"] = {
+							["DODGE"] = 1,
+							["glance"] = 9091,
+							["hitmin"] = 3859,
+							["criticalmin"] = 7111,
+							["targets"] = {
+								["Scourgelord Tyrannus"] = {
+									["overkill"] = 5444,
+									["amount"] = 98019,
 								},
 							},
 							["glancing"] = 3,
-							["amount"] = 12775,
-							["glancemin"] = 477,
-							["criticalamount"] = 2180,
+							["amount"] = 98019,
+							["glancemin"] = 2878,
+							["criticalamount"] = 85069,
 							["id"] = 6603,
-							["glancemax"] = 493,
-							["blocked"] = 40,
-							["criticalmax"] = 1140,
-							["hitmax"] = 607,
-							["hit"] = 17,
+							["glancemax"] = 3260,
+							["overkill"] = 5444,
+							["criticalmax"] = 9807,
+							["critical"] = 10,
+							["hit"] = 1,
 							["school"] = 1,
-							["critical"] = 2,
-							["count"] = 22,
-							["hitamount"] = 9142,
+							["count"] = 15,
+							["hitmax"] = 3859,
+							["hitamount"] = 3859,
 						},
-						["Death Strike"] = {
-							["hitmin"] = 2888,
-							["id"] = 49924,
+						["Blood-Caked Strike"] = {
+							["hitmin"] = 2539,
+							["id"] = 50463,
 							["targets"] = {
-								["Gal'darah"] = {
-									["amount"] = 2888,
+								["Scourgelord Tyrannus"] = {
+									["amount"] = 8004,
+								},
+							},
+							["casts"] = 1,
+							["count"] = 3,
+							["hit"] = 3,
+							["school"] = 1,
+							["hitmax"] = 2746,
+							["amount"] = 8004,
+							["hitamount"] = 8004,
+						},
+						["Scourge Strike (Shadow)"] = {
+							["hitmin"] = 2208,
+							["id"] = 70890,
+							["targets"] = {
+								["Scourgelord Tyrannus"] = {
+									["amount"] = 30572,
+								},
+							},
+							["hitmax"] = 6158,
+							["casts"] = 1,
+							["count"] = 6,
+							["hit"] = 6,
+							["school"] = 32,
+							["resisted"] = 2800,
+							["amount"] = 30572,
+							["hitamount"] = 30572,
+						},
+						["Retribution Aura"] = {
+							["hitmin"] = 333,
+							["id"] = 54043,
+							["targets"] = {
+								["Scourgelord Tyrannus"] = {
+									["amount"] = 333,
 								},
 							},
 							["casts"] = 1,
 							["count"] = 1,
 							["hit"] = 1,
-							["school"] = 1,
-							["hitmax"] = 2888,
-							["amount"] = 2888,
-							["hitamount"] = 2888,
-						},
-						["Melee"] = {
-							["DODGE"] = 2,
-							["glance"] = 11445,
-							["hitmin"] = 3111,
-							["criticalmin"] = 6099,
-							["targets"] = {
-								["Drakkari Battle Rider"] = {
-									["amount"] = 0,
-								},
-								["Drakkari Rhino"] = {
-									["amount"] = 33858,
-								},
-								["Gal'darah"] = {
-									["amount"] = 44247,
-								},
-							},
-							["glancing"] = 4,
-							["amount"] = 78105,
-							["glancemin"] = 2585,
-							["criticalamount"] = 42146,
-							["id"] = 6603,
-							["glancemax"] = 3108,
-							["criticalmax"] = 7739,
-							["count"] = 19,
-							["hit"] = 7,
-							["school"] = 1,
-							["hitmax"] = 3850,
-							["critical"] = 6,
-							["hitamount"] = 24514,
-						},
-						["Blood-Caked Strike"] = {
-							["DODGE"] = 1,
-							["hitmin"] = 2017,
-							["id"] = 50463,
-							["targets"] = {
-								["Gal'darah"] = {
-									["amount"] = 2224,
-								},
-								["Drakkari Rhino"] = {
-									["amount"] = 2017,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 3,
-							["hit"] = 2,
-							["school"] = 1,
-							["hitmax"] = 2224,
-							["amount"] = 4241,
-							["hitamount"] = 4241,
-						},
-						["Gargoyle Strike (Ebon Gargoyle)"] = {
-							["hit"] = 10,
-							["hitmax"] = 3977,
-							["hitmin"] = 3164,
-							["criticalamount"] = 4763,
-							["id"] = 51963,
-							["count"] = 11,
-							["targets"] = {
-								["Gal'darah"] = {
-									["overkill"] = 406,
-									["amount"] = 42382,
-								},
-							},
-							["overkill"] = 406,
-							["criticalmin"] = 4763,
-							["casts"] = 1,
-							["critical"] = 1,
-							["amount"] = 42382,
-							["school"] = 8,
-							["resisted"] = 3167,
-							["criticalmax"] = 4763,
-							["hitamount"] = 37619,
-						},
-						["Scourge Strike (Shadow)"] = {
-							["hitmin"] = 2025,
-							["id"] = 70890,
-							["targets"] = {
-								["Gal'darah"] = {
-									["amount"] = 9797,
-								},
-								["Drakkari Rhino"] = {
-									["overkill"] = 1572,
-									["amount"] = 14158,
-								},
-							},
-							["overkill"] = 1572,
-							["hitmax"] = 5352,
-							["casts"] = 1,
-							["count"] = 7,
-							["hit"] = 7,
-							["school"] = 32,
-							["resisted"] = 232,
-							["amount"] = 23955,
-							["hitamount"] = 23955,
-						},
-						["Blood Boil"] = {
-							["hit"] = 6,
-							["hitmax"] = 2150,
-							["hitmin"] = 1847,
-							["criticalamount"] = 22984,
-							["id"] = 49941,
-							["count"] = 12,
-							["targets"] = {
-								["Drakkari Battle Rider"] = {
-									["amount"] = 15401,
-								},
-								["Drakkari Rhino"] = {
-									["overkill"] = 2083,
-									["amount"] = 19571,
-								},
-							},
-							["overkill"] = 2083,
-							["criticalmin"] = 3450,
-							["casts"] = 2,
-							["critical"] = 6,
-							["amount"] = 34972,
-							["school"] = 32,
-							["resisted"] = 2144,
-							["criticalmax"] = 4476,
-							["hitamount"] = 11988,
-						},
-						["Claw (Wormcatcher)"] = {
-							["hitmin"] = 758,
-							["criticalamount"] = 1716,
-							["id"] = 47468,
-							["criticalmin"] = 1716,
-							["targets"] = {
-								["Drakkari Battle Rider"] = {
-									["amount"] = 842,
-								},
-								["Drakkari Rhino"] = {
-									["amount"] = 5576,
-								},
-								["Gal'darah"] = {
-									["amount"] = 4281,
-								},
-							},
-							["criticalmax"] = 1716,
-							["critical"] = 1,
-							["casts"] = 1,
-							["count"] = 12,
-							["hit"] = 11,
-							["school"] = 1,
-							["hitmax"] = 891,
-							["amount"] = 10699,
-							["hitamount"] = 8983,
+							["school"] = 2,
+							["hitmax"] = 333,
+							["amount"] = 333,
+							["hitamount"] = 333,
 						},
 						["Necrosis"] = {
-							["hitmin"] = 466,
+							["hitmin"] = 518,
 							["id"] = 51460,
 							["targets"] = {
-								["Gal'darah"] = {
-									["amount"] = 8431,
-								},
-								["Drakkari Rhino"] = {
-									["amount"] = 6572,
+								["Scourgelord Tyrannus"] = {
+									["amount"] = 19158,
 								},
 							},
-							["hitmax"] = 1446,
+							["hitmax"] = 1961,
 							["casts"] = 1,
-							["count"] = 17,
-							["hit"] = 17,
+							["count"] = 14,
+							["hit"] = 14,
 							["school"] = 32,
-							["resisted"] = 610,
-							["amount"] = 15003,
-							["hitamount"] = 15003,
+							["resisted"] = 440,
+							["amount"] = 19158,
+							["hitamount"] = 19158,
 						},
 						["Blood Plague (DoT)"] = {
-							["hitmin"] = 1035,
+							["hitmin"] = 1377,
 							["id"] = 55078,
 							["targets"] = {
-								["Drakkari Battle Rider"] = {
-									["amount"] = 12537,
-								},
-								["Drakkari Rhino"] = {
-									["amount"] = 18583,
-								},
-								["Gal'darah"] = {
-									["amount"] = 10298,
+								["Scourgelord Tyrannus"] = {
+									["amount"] = 15604,
 								},
 							},
-							["hitmax"] = 1489,
-							["count"] = 30,
-							["hit"] = 30,
+							["hitmax"] = 1779,
+							["count"] = 10,
+							["hit"] = 10,
 							["school"] = 32,
-							["resisted"] = 681,
-							["amount"] = 41418,
-							["hitamount"] = 41418,
+							["resisted"] = 684,
+							["amount"] = 15604,
+							["hitamount"] = 15604,
 						},
-						["Blood Strike"] = {
-							["hitmin"] = 2202,
-							["criticalamount"] = 5325,
-							["id"] = 49930,
-							["criticalmin"] = 5325,
+						["Death Coil"] = {
+							["hitmax"] = 5413,
+							["hitmin"] = 5413,
+							["criticalamount"] = 31194,
+							["id"] = 47632,
+							["criticalmin"] = 9145,
 							["targets"] = {
-								["Gal'darah"] = {
-									["amount"] = 12582,
-								},
-								["Drakkari Rhino"] = {
-									["amount"] = 2202,
+								["Scourgelord Tyrannus"] = {
+									["amount"] = 36607,
 								},
 							},
-							["criticalmax"] = 5325,
-							["critical"] = 1,
-							["casts"] = 5,
-							["count"] = 5,
-							["hit"] = 4,
-							["school"] = 1,
-							["hitmax"] = 2633,
-							["amount"] = 14784,
-							["hitamount"] = 9459,
-						},
-						["Death and Decay"] = {
-							["hitmax"] = 755,
-							["hitmin"] = 472,
-							["criticalamount"] = 26198,
-							["id"] = 52212,
-							["criticalmin"] = 1110,
-							["targets"] = {
-								["Drakkari Battle Rider"] = {
-									["amount"] = 20526,
-								},
-								["Drakkari Rhino"] = {
-									["amount"] = 28741,
-								},
-							},
-							["criticalmax"] = 1578,
-							["critical"] = 20,
-							["casts"] = 1,
-							["count"] = 57,
-							["hit"] = 37,
-							["school"] = 32,
-							["resisted"] = 819,
-							["amount"] = 49267,
-							["hitamount"] = 23069,
-						},
-						["Plague Strike"] = {
-							["hitmin"] = 2314,
-							["criticalamount"] = 12281,
-							["id"] = 49921,
-							["hitmax"] = 2314,
-							["targets"] = {
-								["Gal'darah"] = {
-									["amount"] = 9060,
-								},
-								["Drakkari Rhino"] = {
-									["amount"] = 5535,
-								},
-							},
-							["count"] = 3,
+							["criticalmax"] = 11459,
+							["critical"] = 3,
+							["casts"] = 4,
+							["count"] = 4,
 							["hit"] = 1,
-							["casts"] = 3,
-							["critical"] = 2,
-							["amount"] = 14595,
-							["school"] = 1,
-							["criticalmin"] = 5535,
-							["criticalmax"] = 6746,
-							["hitamount"] = 2314,
-						},
-						["Frost Fever (DoT)"] = {
-							["hitmin"] = 1220,
-							["id"] = 55095,
-							["targets"] = {
-								["Drakkari Battle Rider"] = {
-									["amount"] = 16535,
-								},
-								["Drakkari Rhino"] = {
-									["amount"] = 23389,
-								},
-								["Gal'darah"] = {
-									["amount"] = 13570,
-								},
-							},
-							["hitmax"] = 1938,
-							["count"] = 31,
-							["hit"] = 31,
-							["school"] = 16,
-							["resisted"] = 1519,
-							["amount"] = 53494,
-							["hitamount"] = 53494,
+							["school"] = 32,
+							["resisted"] = 1016,
+							["amount"] = 36607,
+							["hitamount"] = 5413,
 						},
 						["Icy Touch"] = {
-							["hitmax"] = 2651,
-							["hitmin"] = 2651,
-							["criticalamount"] = 7518,
+							["hitmin"] = 1880,
 							["id"] = 49909,
-							["count"] = 3,
 							["targets"] = {
-								["Gal'darah"] = {
-									["amount"] = 7034,
-								},
-								["Drakkari Rhino"] = {
-									["amount"] = 3135,
+								["Scourgelord Tyrannus"] = {
+									["amount"] = 4758,
 								},
 							},
-							["hit"] = 1,
-							["criticalmin"] = 3135,
-							["casts"] = 3,
-							["critical"] = 2,
-							["amount"] = 10169,
+							["casts"] = 2,
+							["count"] = 2,
+							["hit"] = 2,
 							["school"] = 16,
-							["resisted"] = 783,
-							["criticalmax"] = 4383,
-							["hitamount"] = 2651,
+							["hitmax"] = 2878,
+							["amount"] = 4758,
+							["hitamount"] = 4758,
+						},
+						["Plague Strike"] = {
+							["criticalamount"] = 11835,
+							["id"] = 49921,
+							["targets"] = {
+								["Scourgelord Tyrannus"] = {
+									["amount"] = 11835,
+								},
+							},
+							["casts"] = 2,
+							["critical"] = 2,
+							["amount"] = 11835,
+							["school"] = 1,
+							["criticalmin"] = 5211,
+							["criticalmax"] = 6624,
+							["count"] = 2,
+						},
+						["Frost Fever (DoT)"] = {
+							["hitmin"] = 1379,
+							["id"] = 55095,
+							["targets"] = {
+								["Scourgelord Tyrannus"] = {
+									["amount"] = 18777,
+								},
+							},
+							["hitmax"] = 2118,
+							["count"] = 11,
+							["hit"] = 11,
+							["school"] = 16,
+							["resisted"] = 999,
+							["amount"] = 18777,
+							["hitamount"] = 18777,
+						},
+						["Gargoyle Strike (Ebon Gargoyle)"] = {
+							["criticalmin"] = 5908,
+							["hitmin"] = 3957,
+							["criticalamount"] = 12589,
+							["id"] = 51963,
+							["criticalmax"] = 6681,
+							["targets"] = {
+								["Scourgelord Tyrannus"] = {
+									["amount"] = 77742,
+								},
+							},
+							["critical"] = 2,
+							["hitmax"] = 4954,
+							["casts"] = 1,
+							["count"] = 16,
+							["hit"] = 14,
+							["school"] = 8,
+							["resisted"] = 6162,
+							["amount"] = 77742,
+							["hitamount"] = 65153,
 						},
 					},
-					["totaldamage"] = 549648,
+					["runicspells"] = {
+						[45529] = 10,
+					},
+					["damagetaken"] = 15842,
+					["id"] = "0x070000000000D01B",
+					["spec"] = 252,
+					["healspells"] = {
+						[53365] = {
+							["overheal"] = 4835,
+							["criticalamount"] = 0,
+							["targets"] = {
+								["Urgash"] = {
+									["overheal"] = 4835,
+									["amount"] = 0,
+								},
+							},
+							["criticalmax"] = 0,
+							["critical"] = 2,
+							["amount"] = 0,
+							["school"] = 1,
+							["count"] = 3,
+							["criticalmin"] = 0,
+						},
+						[34299] = {
+							["overheal"] = 4927,
+							["max"] = 806,
+							["count"] = 9,
+							["amount"] = 1629,
+							["school"] = 1,
+							["min"] = 249,
+							["ishot"] = true,
+							["targets"] = {
+								["Skullslicer"] = {
+									["overheal"] = 899,
+									["amount"] = 823,
+								},
+								["Urgash"] = {
+									["overheal"] = 4028,
+									["amount"] = 806,
+								},
+							},
+						},
+						[50475] = {
+							["overheal"] = 8690,
+							["max"] = 509,
+							["count"] = 53,
+							["amount"] = 2138,
+							["school"] = 1,
+							["min"] = 1,
+							["ishot"] = true,
+							["targets"] = {
+								["Urgash"] = {
+									["overheal"] = 8690,
+									["amount"] = 2138,
+								},
+							},
+						},
+					},
+					["damagetakenspells"] = {
+						["Melee"] = {
+							["hitmin"] = 7146,
+							["id"] = 6603,
+							["sources"] = {
+								["Scourgelord Tyrannus"] = {
+									["amount"] = 7146,
+								},
+							},
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 1,
+							["hitmax"] = 7146,
+							["amount"] = 7146,
+							["hitamount"] = 7146,
+						},
+						["Overlord's Brand"] = {
+							["hitmin"] = 189,
+							["id"] = 69189,
+							["sources"] = {
+								["Scourgelord Tyrannus"] = {
+									["amount"] = 8696,
+								},
+							},
+							["count"] = 9,
+							["hit"] = 9,
+							["school"] = 1,
+							["hitmax"] = 2429,
+							["amount"] = 8696,
+							["hitamount"] = 8696,
+						},
+					},
+					["overkill"] = 5444,
+					["heal"] = 3767,
+					["name"] = "Urgash",
+					["runic"] = 10,
+					["overheal"] = 18452,
+					["totaldamage"] = 460558,
 					["role"] = "DAMAGER",
 				}, -- [1]
 				{
-					["last"] = 18380.935,
+					["last"] = 18871.821,
 					["flag"] = 1298,
 					["class"] = "PALADIN",
 					["auras"] = {
-						[6562] = {
+						[25780] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 66,
+							["uptime"] = 45,
 						},
-						[48162] = {
+						[48470] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 66,
+							["uptime"] = 45,
 						},
-						[31801] = {
+						[57623] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 66,
+							["refresh"] = 1,
+							["uptime"] = 45,
+						},
+						[20186] = {
+							["type"] = "DEBUFF",
+							["count"] = 4,
+							["school"] = 2,
+							["refresh"] = 1,
+							["targets"] = {
+								["Scourgelord Tyrannus"] = {
+									["count"] = 4,
+									["refresh"] = 1,
+									["uptime"] = 22,
+								},
+							},
+							["uptime"] = 22,
+						},
+						[53601] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 2,
+							["uptime"] = 30,
+						},
+						[48819] = {
+							["type"] = "DEBUFF",
+							["count"] = 3,
+							["school"] = 2,
+							["targets"] = {
+								["Scourgelord Tyrannus"] = {
+									["uptime"] = 23,
+									["count"] = 3,
+								},
+							},
+							["uptime"] = 23,
 						},
 						[54428] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["school"] = 2,
-							["refresh"] = 17,
-							["uptime"] = 26,
+							["refresh"] = 20,
+							["uptime"] = 31,
 						},
-						[48942] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 66,
-						},
-						[57623] = {
+						[15359] = {
 							["type"] = "BUFF",
 							["count"] = 2,
+							["school"] = 2,
+							["uptime"] = 22,
+						},
+						[20132] = {
+							["type"] = "BUFF",
+							["count"] = 1,
 							["school"] = 1,
-							["uptime"] = 66,
+							["uptime"] = 10,
 						},
-						[25898] = {
+						[20007] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 66,
+							["school"] = 1,
+							["uptime"] = 15,
 						},
-						[48170] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 66,
-						},
-						[25899] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 66,
-						},
-						[19746] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 66,
+						[54499] = {
+							["type"] = "DEBUFF",
+							["count"] = 4,
+							["school"] = 2,
+							["refresh"] = 1,
+							["targets"] = {
+								["Scourgelord Tyrannus"] = {
+									["count"] = 4,
+									["refresh"] = 1,
+									["uptime"] = 22,
+								},
+							},
+							["uptime"] = 22,
 						},
 						[62124] = {
 							["type"] = "DEBUFF",
 							["count"] = 2,
 							["school"] = 2,
 							["targets"] = {
-								["Gal'darah"] = {
-									["uptime"] = 3,
-									["count"] = 1,
-								},
-								["Drakkari Rhino"] = {
-									["uptime"] = 3,
-									["count"] = 1,
+								["Scourgelord Tyrannus"] = {
+									["uptime"] = 7,
+									["count"] = 2,
 								},
 							},
-							["uptime"] = 6,
+							["uptime"] = 7,
 						},
-						[54499] = {
-							["type"] = "DEBUFF",
-							["count"] = 2,
-							["school"] = 2,
-							["refresh"] = 1,
-							["targets"] = {
-								["Gal'darah"] = {
-									["count"] = 1,
-									["refresh"] = 1,
-									["uptime"] = 20,
-								},
-								["Drakkari Rhino"] = {
-									["uptime"] = 5,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 25,
-						},
-						[53601] = {
-							["type"] = "BUFF",
-							["count"] = 2,
-							["school"] = 2,
-							["uptime"] = 39,
-						},
-						[48952] = {
-							["type"] = "BUFF",
-							["count"] = 4,
-							["school"] = 2,
-							["refresh"] = 1,
-							["uptime"] = 49,
-						},
-						[43002] = {
+						[24932] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 66,
+							["uptime"] = 45,
 						},
-						[71403] = {
+						[48162] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 1,
-							["uptime"] = 10,
+							["uptime"] = 45,
 						},
-						[25780] = {
+						[48170] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 66,
+							["uptime"] = 45,
 						},
-						[20185] = {
-							["type"] = "DEBUFF",
-							["count"] = 2,
-							["school"] = 2,
-							["refresh"] = 1,
-							["targets"] = {
-								["Gal'darah"] = {
-									["count"] = 1,
-									["refresh"] = 1,
-									["uptime"] = 20,
-								},
-								["Drakkari Rhino"] = {
-									["uptime"] = 5,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 25,
-						},
-						[57669] = {
-							["school"] = 8,
-							["type"] = "BUFF",
-							["uptime"] = 15,
-						},
-						[58597] = {
+						[48111] = {
 							["type"] = "BUFF",
 							["count"] = 3,
 							["school"] = 2,
-							["uptime"] = 9,
+							["uptime"] = 5,
 						},
-						[31803] = {
-							["type"] = "DEBUFF",
-							["count"] = 4,
+						[33206] = {
+							["type"] = "BUFF",
+							["count"] = 1,
 							["school"] = 2,
-							["refresh"] = 38,
-							["targets"] = {
-								["Gal'darah"] = {
-									["count"] = 1,
-									["refresh"] = 21,
-									["uptime"] = 28,
-								},
-								["Drakkari Rhino"] = {
-									["count"] = 3,
-									["refresh"] = 17,
-									["uptime"] = 20,
-								},
-							},
-							["uptime"] = 48,
+							["uptime"] = 8,
 						},
-						[66922] = {
+						[31884] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 2,
+							["uptime"] = 20,
+						},
+						[60180] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 64,
+							["uptime"] = 15,
+						},
+						[47930] = {
 							["type"] = "BUFF",
 							["count"] = 2,
 							["school"] = 2,
-							["uptime"] = 24,
+							["refresh"] = 11,
+							["uptime"] = 26,
 						},
-						[72221] = {
+						[26017] = {
+							["type"] = "DEBUFF",
+							["count"] = 7,
+							["school"] = 2,
+							["refresh"] = 1,
+							["targets"] = {
+								["Scourgelord Tyrannus"] = {
+									["count"] = 7,
+									["refresh"] = 1,
+									["uptime"] = 18,
+								},
+							},
+							["uptime"] = 18,
+						},
+						[48942] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 66,
+							["uptime"] = 45,
+						},
+						[20375] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 45,
+						},
+						[48068] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 2,
+							["uptime"] = 30,
+						},
+						[48066] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 9,
+						},
+						[47753] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 2,
+							["uptime"] = 11,
+						},
+						[48952] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 2,
+							["uptime"] = 19,
+						},
+						[25898] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 45,
 						},
 						[48074] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 66,
+							["uptime"] = 45,
 						},
-						[48819] = {
-							["type"] = "DEBUFF",
-							["count"] = 14,
+						[58597] = {
+							["type"] = "BUFF",
+							["count"] = 2,
 							["school"] = 2,
-							["targets"] = {
-								["Drakkari Battle Rider"] = {
-									["uptime"] = 15,
-									["count"] = 6,
-								},
-								["Drakkari Rhino"] = {
-									["uptime"] = 16,
-									["count"] = 6,
-								},
-								["Gal'darah"] = {
-									["uptime"] = 16,
-									["count"] = 2,
-								},
-							},
-							["uptime"] = 32,
+							["uptime"] = 13,
 						},
-						[53563] = {
+						[63944] = {
 							["type"] = "BUFF",
 							["count"] = 1,
+							["uptime"] = 40,
+						},
+						[71197] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 8,
 							["refresh"] = 2,
-							["uptime"] = 66,
+							["uptime"] = 38,
+						},
+						[25899] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 45,
+						},
+						[68055] = {
+							["type"] = "DEBUFF",
+							["count"] = 3,
+							["school"] = 2,
+							["refresh"] = 2,
+							["targets"] = {
+								["Scourgelord Tyrannus"] = {
+									["count"] = 3,
+									["refresh"] = 2,
+									["uptime"] = 28,
+								},
+							},
+							["uptime"] = 28,
+						},
+						[57669] = {
+							["school"] = 8,
+							["type"] = "BUFF",
+							["uptime"] = 37,
+						},
+						[54043] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 45,
 						},
 					},
 					["absorbspells"] = {
 						[66233] = {
-							["min"] = 1519,
-							["count"] = 2,
-							["amount"] = 4404,
+							["min"] = 105,
+							["count"] = 3,
+							["amount"] = 614,
 							["school"] = 1,
 							["targets"] = {
-								["Gometius"] = 4404,
+								["Crazydqs"] = 614,
 							},
-							["max"] = 2885,
+							["max"] = 361,
 						},
 						[58597] = {
-							["min"] = 550,
+							["min"] = 1095,
 							["casts"] = 2,
-							["count"] = 3,
-							["amount"] = 3038,
+							["count"] = 1,
+							["amount"] = 1095,
 							["school"] = 2,
 							["targets"] = {
-								["Gometius"] = 3038,
+								["Crazydqs"] = 1095,
 							},
-							["max"] = 1519,
+							["max"] = 1095,
 						},
 					},
-					["time"] = 56.20000000000002,
-					["totaldamagetaken"] = 66688,
-					["overheal"] = 22130,
-					["damage"] = 150662,
+					["time"] = 38.24999999999999,
+					["totaldamagetaken"] = 62794,
+					["damage"] = 92373,
 					["damagespells"] = {
 						["Consecration (DoT)"] = {
-							["hitmin"] = 271,
+							["hitmin"] = 324,
 							["id"] = 48819,
 							["targets"] = {
-								["Drakkari Battle Rider"] = {
-									["amount"] = 15609,
-								},
-								["Drakkari Rhino"] = {
-									["amount"] = 16272,
-								},
-								["Gal'darah"] = {
-									["amount"] = 5992,
+								["Scourgelord Tyrannus"] = {
+									["amount"] = 8983,
 								},
 							},
-							["hitmax"] = 394,
-							["casts"] = 4,
-							["count"] = 103,
-							["hit"] = 103,
+							["hitmax"] = 490,
+							["casts"] = 3,
+							["count"] = 22,
+							["hit"] = 22,
 							["school"] = 2,
-							["resisted"] = 1089,
-							["amount"] = 37873,
-							["hitamount"] = 37873,
+							["resisted"] = 599,
+							["amount"] = 8983,
+							["hitamount"] = 8983,
 						},
 						["Melee"] = {
-							["glance"] = 2871,
-							["hitmin"] = 391,
-							["criticalmin"] = 854,
+							["glance"] = 1775,
+							["hitmin"] = 506,
+							["criticalmin"] = 1118,
 							["targets"] = {
-								["Gal'darah"] = {
-									["amount"] = 10076,
-								},
-								["Drakkari Rhino"] = {
-									["overkill"] = 946,
-									["amount"] = 7248,
+								["Scourgelord Tyrannus"] = {
+									["amount"] = 16186,
 								},
 							},
-							["glancing"] = 7,
-							["amount"] = 17324,
-							["glancemin"] = 352,
-							["criticalamount"] = 5662,
+							["glancing"] = 3,
+							["amount"] = 16186,
+							["glancemin"] = 517,
+							["criticalamount"] = 6528,
 							["id"] = 6603,
-							["glancemax"] = 497,
-							["overkill"] = 946,
-							["blocked"] = 81,
-							["criticalmax"] = 1122,
-							["critical"] = 6,
-							["hit"] = 18,
+							["glancemax"] = 644,
+							["critical"] = 5,
+							["criticalmax"] = 1494,
+							["hitmax"] = 786,
+							["hit"] = 12,
 							["school"] = 1,
-							["count"] = 31,
-							["hitmax"] = 617,
-							["hitamount"] = 8791,
+							["blocked"] = 123,
+							["count"] = 20,
+							["hitamount"] = 7883,
 						},
-						["Holy Vengeance (DoT)"] = {
-							["hitmin"] = 129,
-							["id"] = 31803,
+						["Judgement of Command"] = {
+							["hitmin"] = 581,
+							["id"] = 20467,
 							["targets"] = {
-								["Gal'darah"] = {
-									["amount"] = 5295,
-								},
-								["Drakkari Rhino"] = {
-									["amount"] = 6739,
+								["Scourgelord Tyrannus"] = {
+									["amount"] = 3549,
 								},
 							},
-							["hitmax"] = 665,
-							["count"] = 25,
-							["hit"] = 25,
+							["hitmax"] = 792,
+							["casts"] = 1,
+							["count"] = 5,
+							["hit"] = 5,
 							["school"] = 2,
-							["resisted"] = 496,
-							["amount"] = 12034,
-							["hitamount"] = 12034,
+							["resisted"] = 327,
+							["amount"] = 3549,
+							["hitamount"] = 3549,
 						},
 						["Hammer of Wrath"] = {
-							["hitmin"] = 2469,
+							["hitmin"] = 2619,
 							["id"] = 48806,
 							["targets"] = {
-								["Gal'darah"] = {
-									["amount"] = 2469,
+								["Scourgelord Tyrannus"] = {
+									["amount"] = 2619,
 								},
 							},
 							["casts"] = 1,
 							["count"] = 1,
 							["hit"] = 1,
 							["school"] = 2,
-							["hitmax"] = 2469,
-							["amount"] = 2469,
-							["hitamount"] = 2469,
+							["hitmax"] = 2619,
+							["amount"] = 2619,
+							["hitamount"] = 2619,
 						},
 						["Hand of Reckoning"] = {
-							["hitmin"] = 1608,
+							["hitmin"] = 3542,
 							["id"] = 67485,
 							["targets"] = {
-								["Gal'darah"] = {
-									["amount"] = 1608,
-								},
-								["Drakkari Rhino"] = {
-									["amount"] = 1763,
+								["Scourgelord Tyrannus"] = {
+									["amount"] = 3542,
 								},
 							},
-							["hitmax"] = 1763,
-							["casts"] = 3,
-							["count"] = 2,
-							["hit"] = 2,
+							["casts"] = 2,
+							["count"] = 1,
+							["hit"] = 1,
 							["school"] = 2,
-							["resisted"] = 841,
-							["amount"] = 3371,
-							["hitamount"] = 3371,
+							["hitmax"] = 3542,
+							["amount"] = 3542,
+							["hitamount"] = 3542,
 						},
-						["Judgement of Vengeance"] = {
-							["hitmin"] = 1378,
-							["id"] = 31804,
+						["Avenger's Shield"] = {
+							["hitmin"] = 2537,
+							["id"] = 48827,
 							["targets"] = {
-								["Gal'darah"] = {
-									["amount"] = 2909,
-								},
-								["Drakkari Rhino"] = {
-									["amount"] = 1486,
+								["Scourgelord Tyrannus"] = {
+									["amount"] = 2537,
 								},
 							},
-							["hitmax"] = 1531,
 							["casts"] = 1,
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 2,
+							["hitmax"] = 2537,
+							["amount"] = 2537,
+							["hitamount"] = 2537,
+						},
+						["Hammer of the Righteous"] = {
+							["hitmin"] = 2412,
+							["id"] = 53595,
+							["targets"] = {
+								["Scourgelord Tyrannus"] = {
+									["amount"] = 14615,
+								},
+							},
+							["blocked"] = 82,
+							["casts"] = 5,
+							["count"] = 5,
+							["hit"] = 5,
+							["school"] = 2,
+							["hitmax"] = 3351,
+							["amount"] = 14615,
+							["hitamount"] = 14615,
+						},
+						["Retribution Aura"] = {
+							["hitmin"] = 332,
+							["id"] = 54043,
+							["targets"] = {
+								["Scourgelord Tyrannus"] = {
+									["amount"] = 1426,
+								},
+							},
+							["casts"] = 1,
+							["count"] = 4,
+							["hit"] = 4,
+							["school"] = 2,
+							["hitmax"] = 423,
+							["amount"] = 1426,
+							["hitamount"] = 1426,
+						},
+						["Holy Shield"] = {
+							["hitmin"] = 666,
+							["id"] = 48952,
+							["targets"] = {
+								["Scourgelord Tyrannus"] = {
+									["amount"] = 2207,
+								},
+							},
+							["hitmax"] = 801,
+							["casts"] = 2,
 							["count"] = 3,
 							["hit"] = 3,
 							["school"] = 2,
-							["resisted"] = 153,
-							["amount"] = 4395,
-							["hitamount"] = 4395,
+							["resisted"] = 162,
+							["amount"] = 2207,
+							["hitamount"] = 2207,
 						},
-						["Hammer of the Righteous"] = {
-							["hitmin"] = 1777,
-							["criticalmin"] = 3930,
+						["Seal of Command"] = {
+							["hitmin"] = 300,
+							["criticalmin"] = 624,
 							["targets"] = {
-								["Drakkari Battle Rider"] = {
-									["overkill"] = 1678,
-									["amount"] = 2287,
-								},
-								["Drakkari Rhino"] = {
-									["amount"] = 18519,
-								},
-								["Gal'darah"] = {
-									["amount"] = 9151,
+								["Scourgelord Tyrannus"] = {
+									["amount"] = 18612,
 								},
 							},
-							["amount"] = 29957,
-							["resisted"] = 662,
-							["criticalamount"] = 3930,
-							["id"] = 53595,
-							["blocked"] = 40,
-							["overkill"] = 1678,
-							["criticalmax"] = 3930,
-							["casts"] = 7,
-							["count"] = 13,
-							["hit"] = 12,
+							["amount"] = 18612,
+							["resisted"] = 1148,
+							["criticalamount"] = 10244,
+							["id"] = 20424,
+							["PARRY"] = 1,
+							["criticalmax"] = 1058,
+							["critical"] = 12,
+							["casts"] = 1,
+							["count"] = 34,
+							["hit"] = 21,
 							["school"] = 2,
+							["hitmax"] = 536,
+							["blocked"] = 82,
+							["hitamount"] = 8368,
+						},
+						["Shield of Righteousness"] = {
+							["PARRY"] = 1,
+							["criticalmin"] = 8406,
+							["hitmin"] = 2803,
+							["criticalamount"] = 8406,
+							["id"] = 61411,
+							["criticalmax"] = 8406,
+							["targets"] = {
+								["Scourgelord Tyrannus"] = {
+									["amount"] = 18097,
+								},
+							},
 							["critical"] = 1,
-							["hitmax"] = 2288,
-							["hitamount"] = 26027,
+							["hitmax"] = 3503,
+							["casts"] = 5,
+							["count"] = 5,
+							["hit"] = 3,
+							["school"] = 2,
+							["resisted"] = 1546,
+							["amount"] = 18097,
+							["hitamount"] = 9691,
 						},
 						["Silenced - Shield of the Templar"] = {
 							["casts"] = 1,
@@ -2423,2752 +1760,444 @@ SkadaStorageDB = {
 							["school"] = 1,
 							["IMMUNE"] = 1,
 							["targets"] = {
-								["Gal'darah"] = {
+								["Scourgelord Tyrannus"] = {
 									["amount"] = 0,
 								},
 							},
 							["id"] = 63529,
 						},
-						["Holy Shield"] = {
-							["hitmin"] = 608,
-							["id"] = 48952,
-							["targets"] = {
-								["Gal'darah"] = {
-									["amount"] = 2052,
-								},
-								["Drakkari Rhino"] = {
-									["amount"] = 1401,
-								},
-							},
-							["hitmax"] = 760,
-							["casts"] = 5,
-							["count"] = 5,
-							["hit"] = 5,
-							["school"] = 2,
-							["resisted"] = 301,
-							["amount"] = 3453,
-							["hitamount"] = 3453,
-						},
-						["Avenger's Shield"] = {
-							["hitmin"] = 1730,
-							["id"] = 48827,
-							["targets"] = {
-								["Gal'darah"] = {
-									["amount"] = 1730,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 2,
-							["hitmax"] = 1730,
-							["amount"] = 1730,
-							["hitamount"] = 1730,
-						},
-						["Shield of Righteousness"] = {
-							["hitmin"] = 3044,
-							["criticalamount"] = 18622,
-							["id"] = 61411,
-							["hitmax"] = 3135,
-							["targets"] = {
-								["Gal'darah"] = {
-									["amount"] = 15671,
-								},
-								["Drakkari Rhino"] = {
-									["amount"] = 9130,
-								},
-							},
-							["count"] = 5,
-							["hit"] = 2,
-							["casts"] = 5,
-							["critical"] = 3,
-							["amount"] = 24801,
-							["school"] = 2,
-							["criticalmin"] = 6086,
-							["criticalmax"] = 6268,
-							["hitamount"] = 6179,
-						},
-						["Seal of Vengeance"] = {
-							["hitmin"] = 57,
-							["criticalmin"] = 90,
-							["targets"] = {
-								["Gal'darah"] = {
-									["amount"] = 8403,
-								},
-								["Drakkari Rhino"] = {
-									["overkill"] = 416,
-									["amount"] = 4852,
-								},
-							},
-							["amount"] = 13255,
-							["resisted"] = 529,
-							["criticalamount"] = 6170,
-							["id"] = 42463,
-							["blocked"] = 81,
-							["overkill"] = 416,
-							["hitmax"] = 339,
-							["criticalmax"] = 666,
-							["critical"] = 14,
-							["hit"] = 30,
-							["school"] = 2,
-							["count"] = 44,
-							["casts"] = 1,
-							["hitamount"] = 7085,
-						},
 					},
-					["absorb"] = 7442,
-					["damagetaken"] = 56361,
-					["id"] = "0x0700000000949DDC",
+					["absorb"] = 1709,
+					["damagetaken"] = 56858,
+					["id"] = "0x070000000095DC85",
 					["spec"] = 66,
 					["healspells"] = {
-						[20267] = {
-							["overheal"] = 22130,
+						[34299] = {
+							["overheal"] = 758,
+							["max"] = 986,
+							["count"] = 4,
+							["amount"] = 2717,
+							["school"] = 1,
+							["min"] = 822,
+							["ishot"] = true,
 							["targets"] = {
-								["Gometius"] = {
-									["overheal"] = 6163,
-									["amount"] = 2967,
-								},
-								["Urgash"] = {
-									["overheal"] = 9123,
-									["amount"] = 5322,
-								},
-								["Wormcatcher"] = {
-									["overheal"] = 0,
-									["amount"] = 4018,
-								},
-								["Shadowfiend"] = {
-									["overheal"] = 1321,
-									["amount"] = 0,
-								},
-								["Wubobo"] = {
-									["overheal"] = 1629,
-									["amount"] = 0,
-								},
-								["Zaralar"] = {
-									["overheal"] = 2172,
-									["amount"] = 0,
-								},
-								["Ebon Gargoyle"] = {
-									["overheal"] = 1722,
-									["amount"] = 574,
+								["Crazydqs"] = {
+									["overheal"] = 758,
+									["amount"] = 2717,
 								},
 							},
-							["count"] = 55,
-							["amount"] = 12881,
-							["school"] = 2,
-							["max"] = 761,
-							["ishot"] = true,
-							["min"] = 159,
+						},
+						[20007] = {
+							["overheal"] = 19,
+							["count"] = 1,
+							["amount"] = 0,
+							["school"] = 1,
+							["targets"] = {
+								["Crazydqs"] = {
+									["overheal"] = 19,
+									["amount"] = 0,
+								},
+							},
 						},
 					},
 					["damagetakenspells"] = {
-						["Puncture"] = {
-							["hitmin"] = 3046,
-							["id"] = 59826,
-							["amount"] = 6158,
+						["Icy Blast"] = {
+							["hitmin"] = 4976,
+							["id"] = 69646,
+							["hitmax"] = 4976,
 							["sources"] = {
-								["Gal'darah"] = {
-									["amount"] = 6158,
+								["Rimefang"] = {
+									["amount"] = 4976,
 								},
 							},
-							["count"] = 3,
-							["hit"] = 2,
-							["school"] = 1,
-							["hitmax"] = 3112,
-							["MISS"] = 1,
-							["hitamount"] = 6158,
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 16,
+							["resisted"] = 552,
+							["amount"] = 4976,
+							["hitamount"] = 4976,
 						},
-						["Charge"] = {
-							["hitmin"] = 5226,
-							["id"] = 58991,
+						["Forceful Smash"] = {
+							["total"] = 15885,
+							["hitmin"] = 15524,
+							["id"] = 69627,
 							["sources"] = {
-								["Drakkari Rhino"] = {
-									["amount"] = 16081,
+								["Scourgelord Tyrannus"] = {
+									["total"] = 15885,
+									["amount"] = 15524,
 								},
 							},
-							["count"] = 3,
-							["hit"] = 3,
+							["count"] = 1,
+							["hit"] = 1,
 							["school"] = 1,
-							["hitmax"] = 5454,
-							["amount"] = 16081,
-							["hitamount"] = 16081,
+							["hitmax"] = 15524,
+							["amount"] = 15524,
+							["hitamount"] = 15524,
 						},
 						["Melee"] = {
-							["DODGE"] = 8,
-							["total"] = 20156,
-							["hitmin"] = 48,
+							["DODGE"] = 3,
+							["total"] = 22734,
+							["hitmin"] = 1529,
 							["id"] = 6603,
-							["amount"] = 16568,
-							["blocked"] = 10435,
-							["BLOCK"] = 2,
-							["PARRY"] = 4,
+							["blocked"] = 6177,
+							["hitmax"] = 10497,
 							["sources"] = {
-								["Drakkari Battle Rider"] = {
-									["amount"] = 0,
-								},
-								["Drakkari Rhino"] = {
-									["total"] = 13197,
-									["amount"] = 9609,
-								},
-								["Gal'darah"] = {
-									["amount"] = 6959,
+								["Scourgelord Tyrannus"] = {
+									["total"] = 22734,
+									["amount"] = 21639,
 								},
 							},
-							["count"] = 29,
-							["hit"] = 14,
+							["count"] = 11,
+							["hit"] = 4,
 							["school"] = 1,
-							["hitmax"] = 2031,
-							["MISS"] = 1,
-							["hitamount"] = 16568,
+							["amount"] = 21639,
+							["MISS"] = 4,
+							["hitamount"] = 21639,
 						},
-						["Throw"] = {
-							["hitmin"] = 1545,
-							["id"] = 58966,
+						["Overlord's Brand"] = {
+							["total"] = 19199,
+							["hitmin"] = 177,
+							["id"] = 69189,
+							["hitmax"] = 3019,
 							["sources"] = {
-								["Drakkari Battle Rider"] = {
-									["amount"] = 3188,
+								["Scourgelord Tyrannus"] = {
+									["total"] = 19199,
+									["amount"] = 14719,
 								},
 							},
-							["count"] = 2,
-							["hit"] = 2,
+							["count"] = 21,
+							["ABSORB"] = 4,
 							["school"] = 1,
-							["hitmax"] = 1643,
-							["amount"] = 3188,
-							["hitamount"] = 3188,
-						},
-						["Deafening Roar"] = {
-							["total"] = 3897,
-							["hitmin"] = 942,
-							["id"] = 58992,
-							["ABSORB"] = 1,
-							["sources"] = {
-								["Drakkari Rhino"] = {
-									["total"] = 3897,
-									["amount"] = 2928,
-								},
-							},
-							["count"] = 4,
-							["hit"] = 3,
-							["school"] = 1,
-							["hitmax"] = 1018,
-							["amount"] = 2928,
-							["hitamount"] = 2928,
-						},
-						["Whirling Slash (DoT)"] = {
-							["total"] = 6863,
-							["hitmin"] = 546,
-							["id"] = 59825,
-							["sources"] = {
-								["Gal'darah"] = {
-									["total"] = 6863,
-									["amount"] = 3978,
-								},
-							},
-							["count"] = 2,
-							["hit"] = 2,
-							["school"] = 1,
-							["hitmax"] = 3432,
-							["amount"] = 3978,
-							["hitamount"] = 3978,
-						},
-						["Whirling Slash"] = {
-							["DODGE"] = 2,
-							["total"] = 1766,
-							["hitmin"] = 837,
-							["id"] = 59825,
-							["blocked"] = 1744,
-							["hitmax"] = 837,
-							["PARRY"] = 1,
-							["hit"] = 1,
-							["sources"] = {
-								["Gal'darah"] = {
-									["total"] = 1766,
-									["amount"] = 837,
-								},
-							},
-							["count"] = 6,
-							["amount"] = 837,
-							["school"] = 1,
-							["ABSORB"] = 1,
-							["MISS"] = 1,
-							["hitamount"] = 837,
-						},
-						["Puncture (DoT)"] = {
-							["total"] = 8579,
-							["hitmin"] = 857,
-							["id"] = 59826,
-							["ABSORB"] = 1,
-							["sources"] = {
-								["Gal'darah"] = {
-									["total"] = 8579,
-									["amount"] = 6623,
-								},
-							},
-							["count"] = 6,
-							["hit"] = 5,
-							["school"] = 1,
-							["hitmax"] = 1716,
-							["amount"] = 6623,
-							["hitamount"] = 6623,
+							["amount"] = 14719,
+							["hit"] = 17,
+							["hitamount"] = 14719,
 						},
 					},
-					["overkill"] = 3040,
-					["heal"] = 12881,
-					["name"] = "Gometius",
-					["totaldamage"] = 150662,
+					["overheal"] = 777,
+					["heal"] = 2717,
+					["name"] = "Crazydqs",
 					["manaspells"] = {
-						[31786] = 5318,
-						[54428] = 3232,
-						[57319] = 2898,
+						[57319] = 804,
+						[54428] = 3360,
+						[20268] = 2776,
+						[31786] = 2699,
 					},
-					["mana"] = 11448,
+					["mana"] = 9639,
+					["totaldamage"] = 92373,
 					["role"] = "TANK",
 				}, -- [2]
 				{
-					["last"] = 18382.668,
+					["last"] = 18870.576,
 					["flag"] = 1298,
-					["class"] = "PALADIN",
-					["totaldamage"] = 952,
+					["mana"] = 11100,
 					["auras"] = {
-						[48162] = {
+						[24932] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 1,
+							["uptime"] = 45,
+						},
+						[48470] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 66,
+							["uptime"] = 45,
 						},
-						[54428] = {
+						[48068] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["school"] = 2,
 							["uptime"] = 15,
 						},
+						[48162] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 45,
+						},
+						[48938] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 45,
+						},
+						[63944] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 40,
+						},
 						[48942] = {
 							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 66,
+							["count"] = 2,
+							["school"] = 2,
+							["uptime"] = 45,
 						},
-						[31834] = {
+						[48168] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 2,
-							["refresh"] = 9,
 							["uptime"] = 45,
 						},
 						[25898] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 66,
+							["uptime"] = 45,
 						},
-						[54153] = {
-							["type"] = "BUFF",
-							["count"] = 2,
-							["school"] = 2,
-							["uptime"] = 58,
-						},
-						[25899] = {
+						[48170] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 66,
+							["uptime"] = 45,
 						},
-						[19746] = {
+						[10060] = {
 							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 66,
-						},
-						[57102] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 66,
-						},
-						[20166] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 66,
-						},
-						[28878] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 66,
-						},
-						[43002] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 66,
-						},
-						[20185] = {
-							["type"] = "DEBUFF",
 							["count"] = 1,
 							["school"] = 2,
-							["targets"] = {
-								["Gal'darah"] = {
-									["uptime"] = 2,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 2,
-						},
-						[57669] = {
-							["school"] = 8,
-							["type"] = "BUFF",
 							["uptime"] = 15,
-						},
-						[72221] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 66,
-						},
-						[48074] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 66,
-						},
-						[48170] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 66,
-						},
-						[57623] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["refresh"] = 1,
-							["uptime"] = 66,
-						},
-					},
-					["dispel"] = 2,
-					["role"] = "HEALER",
-					["time"] = 56.18999999999999,
-					["absorbspells"] = {
-						[58597] = {
-							["min"] = 240,
-							["casts"] = 1,
-							["count"] = 3,
-							["amount"] = 2885,
-							["school"] = 2,
-							["targets"] = {
-								["Gometius"] = 2885,
-							},
-							["max"] = 1716,
-						},
-					},
-					["potion"] = 1,
-					["totaldamagetaken"] = 5036,
-					["damagespells"] = {
-						["Judgement"] = {
-							["hitmin"] = 952,
-							["id"] = 54158,
-							["targets"] = {
-								["Gal'darah"] = {
-									["amount"] = 952,
-								},
-							},
-							["hitmax"] = 952,
-							["casts"] = 1,
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 2,
-							["resisted"] = 237,
-							["amount"] = 952,
-							["hitamount"] = 952,
-						},
-					},
-					["damage"] = 952,
-					["overheal"] = 261441,
-					["absorb"] = 2885,
-					["damagetaken"] = 5036,
-					["id"] = "0x070000000096902A",
-					["spec"] = 65,
-					["healspells"] = {
-						[66922] = {
-							["overheal"] = 7519,
-							["targets"] = {
-								["Gometius"] = {
-									["overheal"] = 7519,
-									["amount"] = 6044,
-								},
-							},
-							["count"] = 24,
-							["amount"] = 6044,
-							["school"] = 2,
-							["max"] = 678,
-							["ishot"] = true,
-							["min"] = 410,
-						},
-						[48785] = {
-							["overheal"] = 16673,
-							["criticalamount"] = 8686,
-							["max"] = 5800,
-							["targets"] = {
-								["Gometius"] = {
-									["overheal"] = 4081,
-									["amount"] = 7539,
-								},
-								["Urgash"] = {
-									["overheal"] = 9423,
-									["amount"] = 18815,
-								},
-								["Wubobo"] = {
-									["overheal"] = 702,
-									["amount"] = 3876,
-								},
-								["Ynnou"] = {
-									["overheal"] = 457,
-									["amount"] = 4389,
-								},
-								["Zaralar"] = {
-									["overheal"] = 2010,
-									["amount"] = 2556,
-								},
-							},
-							["criticalmin"] = 2886,
-							["min"] = 2556,
-							["casts"] = 12,
-							["count"] = 11,
-							["amount"] = 37175,
-							["school"] = 2,
-							["criticalmax"] = 5800,
-							["critical"] = 2,
-						},
-						[54968] = {
-							["min"] = 149,
-							["count"] = 19,
-							["amount"] = 13953,
-							["max"] = 1863,
-							["overheal"] = 10351,
-							["targets"] = {
-								["Gometius"] = {
-									["overheal"] = 5056,
-									["amount"] = 4710,
-								},
-								["Urgash"] = {
-									["overheal"] = 0,
-									["amount"] = 1153,
-								},
-								["Wormcatcher"] = {
-									["overheal"] = 0,
-									["amount"] = 5980,
-								},
-								["Shadowfiend"] = {
-									["overheal"] = 1635,
-									["amount"] = 0,
-								},
-								["Ynnou"] = {
-									["overheal"] = 1354,
-									["amount"] = 0,
-								},
-								["Zaralar"] = {
-									["overheal"] = 2306,
-									["amount"] = 2110,
-								},
-							},
-							["school"] = 2,
-						},
-						[53654] = {
-							["min"] = 938,
-							["count"] = 20,
-							["amount"] = 26758,
-							["max"] = 5745,
-							["overheal"] = 152629,
-							["targets"] = {
-								["Gometius"] = {
-									["overheal"] = 152629,
-									["amount"] = 26758,
-								},
-							},
-							["school"] = 2,
-						},
-						[20267] = {
-							["overheal"] = 2182,
-							["count"] = 4,
-							["amount"] = 0,
-							["school"] = 2,
-							["ishot"] = true,
-							["targets"] = {
-								["Shadowfiend"] = {
-									["overheal"] = 331,
-									["amount"] = 0,
-								},
-								["Ynnou"] = {
-									["overheal"] = 606,
-									["amount"] = 0,
-								},
-								["Zaralar"] = {
-									["overheal"] = 543,
-									["amount"] = 0,
-								},
-								["Gometius"] = {
-									["overheal"] = 702,
-									["amount"] = 0,
-								},
-							},
-						},
-						[48821] = {
-							["overheal"] = 0,
-							["count"] = 2,
-							["amount"] = 11310,
-							["school"] = 2,
-							["max"] = 5890,
-							["targets"] = {
-								["Gometius"] = {
-									["overheal"] = 0,
-									["amount"] = 5890,
-								},
-								["Urgash"] = {
-									["overheal"] = 0,
-									["amount"] = 5420,
-								},
-							},
-							["min"] = 5420,
-						},
-						[48782] = {
-							["overheal"] = 72087,
-							["criticalamount"] = 33342,
-							["max"] = 16746,
-							["targets"] = {
-								["Wubobo"] = {
-									["overheal"] = 23137,
-									["amount"] = 18946,
-								},
-								["Urgash"] = {
-									["overheal"] = 42481,
-									["amount"] = 34323,
-								},
-								["Zaralar"] = {
-									["overheal"] = 6469,
-									["amount"] = 0,
-								},
-							},
-							["casts"] = 9,
-							["min"] = 2750,
-							["criticalmax"] = 16746,
-							["critical"] = 5,
-							["amount"] = 53269,
-							["school"] = 2,
-							["criticalmin"] = 0,
-							["count"] = 10,
-						},
-					},
-					["damagetakenspells"] = {
-						["Deafening Roar"] = {
-							["hitmin"] = 1210,
-							["id"] = 58992,
-							["sources"] = {
-								["Drakkari Rhino"] = {
-									["amount"] = 5036,
-								},
-							},
-							["count"] = 4,
-							["hit"] = 4,
-							["school"] = 1,
-							["hitmax"] = 1316,
-							["amount"] = 5036,
-							["hitamount"] = 5036,
-						},
-					},
-					["potionspells"] = {
-						[33448] = 1,
-					},
-					["heal"] = 148509,
-					["name"] = "Ynnou",
-					["mana"] = 15579,
-					["manaspells"] = {
-						[20272] = 2094,
-						[54428] = 9155,
-						[43186] = 4330,
-					},
-					["dispelspells"] = {
-						[4987] = {
-							["spells"] = {
-								[58967] = 2,
-							},
-							["count"] = 2,
-							["targets"] = {
-								["Zaralar"] = 1,
-								["Wubobo"] = 1,
-							},
-						},
-					},
-				}, -- [3]
-				{
-					["last"] = 18379.29,
-					["flag"] = 1298,
-					["class"] = "PRIEST",
-					["auras"] = {
-						[71579] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 64,
-							["uptime"] = 20,
-						},
-						[15473] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 66,
-						},
-						[48162] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 66,
-						},
-						[16595] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 66,
-						},
-						[53023] = {
-							["type"] = "DEBUFF",
-							["count"] = 3,
-							["school"] = 32,
-							["targets"] = {
-								["Drakkari Rhino"] = {
-									["uptime"] = 9,
-									["count"] = 3,
-								},
-							},
-							["uptime"] = 9,
-						},
-						[48942] = {
-							["type"] = "BUFF",
-							["count"] = 2,
-							["school"] = 2,
-							["uptime"] = 66,
-						},
-						[48168] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 66,
-						},
-						[72416] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 64,
-							["uptime"] = 10,
-						},
-						[48170] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 66,
-						},
-						[33198] = {
-							["type"] = "DEBUFF",
-							["count"] = 4,
-							["school"] = 32,
-							["refresh"] = 8,
-							["targets"] = {
-								["Gal'darah"] = {
-									["count"] = 1,
-									["refresh"] = 8,
-									["uptime"] = 26,
-								},
-								["Drakkari Rhino"] = {
-									["uptime"] = 15,
-									["count"] = 3,
-								},
-							},
-							["uptime"] = 41,
-						},
-						[19746] = {
-							["type"] = "BUFF",
-							["count"] = 2,
-							["school"] = 2,
-							["uptime"] = 66,
-						},
-						[32409] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 32,
-							["uptime"] = 1,
-						},
-						[59000] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 32,
-							["refresh"] = 4,
-							["uptime"] = 18,
-						},
-						[53755] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 66,
-						},
-						[48300] = {
-							["type"] = "DEBUFF",
-							["count"] = 2,
-							["school"] = 32,
-							["targets"] = {
-								["Gal'darah"] = {
-									["uptime"] = 21,
-									["count"] = 1,
-								},
-								["Drakkari Rhino"] = {
-									["uptime"] = 17,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 38,
-						},
-						[28878] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 66,
-						},
-						[48160] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 32,
-							["targets"] = {
-								["Gal'darah"] = {
-									["uptime"] = 13,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 13,
-						},
-						[43002] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 66,
-						},
-						[48301] = {
-							["type"] = "DEBUFF",
-							["count"] = 2,
-							["school"] = 32,
-							["targets"] = {
-								["Gal'darah"] = {
-									["uptime"] = 20,
-									["count"] = 2,
-								},
-							},
-							["uptime"] = 20,
 						},
 						[63619] = {
 							["type"] = "BUFF",
 							["count"] = 3,
 							["school"] = 64,
-							["uptime"] = 32,
-						},
-						[48156] = {
-							["type"] = "BUFF",
-							["count"] = 18,
-							["school"] = 32,
-							["targets"] = {
-								["Gal'darah"] = {
-									["uptime"] = 17,
-									["count"] = 7,
-								},
-							},
-							["uptime"] = 17,
+							["uptime"] = 40,
 						},
 						[57669] = {
 							["school"] = 8,
 							["type"] = "BUFF",
-							["uptime"] = 15,
+							["uptime"] = 43,
 						},
-						[48125] = {
-							["type"] = "DEBUFF",
-							["count"] = 2,
-							["school"] = 32,
-							["refresh"] = 7,
-							["targets"] = {
-								["Gal'darah"] = {
-									["count"] = 1,
-									["refresh"] = 7,
-									["uptime"] = 26,
-								},
-								["Drakkari Rhino"] = {
-									["uptime"] = 15,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 41,
-						},
-						[59626] = {
+						[54043] = {
 							["type"] = "BUFF",
 							["count"] = 2,
-							["school"] = 32,
-							["uptime"] = 20,
+							["school"] = 2,
+							["uptime"] = 45,
 						},
-						[72221] = {
+						[48066] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 66,
-						},
-						[15286] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 66,
-						},
-						[15258] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 32,
-							["refresh"] = 34,
-							["uptime"] = 64,
-						},
-						[57623] = {
-							["type"] = "BUFF",
-							["count"] = 3,
-							["school"] = 1,
-							["uptime"] = 66,
+							["uptime"] = 13,
 						},
 						[48074] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 66,
+							["uptime"] = 45,
+						},
+						[57623] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["refresh"] = 1,
+							["school"] = 1,
+							["uptime"] = 45,
 						},
 					},
-					["time"] = 45.04000000000001,
-					["totaldamagetaken"] = 13030,
-					["damage"] = 295066,
-					["damagespells"] = {
-						["Mind Sear"] = {
-							["hitmax"] = 1865,
-							["hitmin"] = 1483,
-							["criticalamount"] = 54049,
-							["id"] = 53022,
-							["criticalmin"] = 2697,
-							["targets"] = {
-								["Drakkari Battle Rider"] = {
-									["amount"] = 62445,
-								},
-								["Drakkari Rhino"] = {
-									["amount"] = 38592,
-								},
-							},
-							["criticalmax"] = 2882,
-							["critical"] = 19,
-							["casts"] = 2,
-							["count"] = 45,
-							["hit"] = 26,
-							["school"] = 32,
-							["resisted"] = 923,
-							["amount"] = 101037,
-							["hitamount"] = 46988,
-						},
-						["Vampiric Touch (DoT)"] = {
-							["hitmin"] = 2548,
-							["criticalamount"] = 21296,
-							["id"] = 48160,
-							["targets"] = {
-								["Gal'darah"] = {
-									["amount"] = 23844,
-								},
-							},
-							["hitmax"] = 2548,
-							["count"] = 5,
-							["criticalmax"] = 5324,
-							["critical"] = 4,
-							["amount"] = 23844,
-							["school"] = 32,
-							["hit"] = 1,
-							["criticalmin"] = 5324,
-							["hitamount"] = 2548,
-						},
-						["Melee (Shadowfiend)"] = {
-							["hitmin"] = 1590,
-							["id"] = 6603,
-							["targets"] = {
-								["Gal'darah"] = {
-									["amount"] = 18878,
-								},
-							},
-							["hitmax"] = 2054,
-							["count"] = 10,
-							["hit"] = 10,
-							["school"] = 1,
-							["resisted"] = 585,
-							["amount"] = 18878,
-							["hitamount"] = 18878,
-						},
-						["Improved Devouring Plague"] = {
-							["hitmin"] = 2905,
-							["criticalamount"] = 5850,
-							["id"] = 63675,
-							["criticalmin"] = 5850,
-							["targets"] = {
-								["Gal'darah"] = {
-									["amount"] = 5850,
-								},
-								["Drakkari Rhino"] = {
-									["amount"] = 2905,
-								},
-							},
-							["criticalmax"] = 5850,
-							["critical"] = 1,
+					["absorbspells"] = {
+						[48066] = {
+							["min"] = 876,
 							["casts"] = 1,
-							["count"] = 2,
-							["hit"] = 1,
-							["school"] = 32,
-							["hitmax"] = 2905,
-							["amount"] = 8755,
-							["hitamount"] = 2905,
-						},
-						["Mind Flay"] = {
-							["criticalmin"] = 3468,
-							["hitmin"] = 1867,
-							["criticalamount"] = 34642,
-							["id"] = 58381,
-							["criticalmax"] = 5131,
+							["count"] = 3,
+							["amount"] = 2909,
+							["max"] = 1025,
 							["targets"] = {
-								["Gal'darah"] = {
-									["amount"] = 55526,
-								},
+								["Crazydqs"] = 2909,
 							},
-							["critical"] = 8,
-							["hitmax"] = 2303,
-							["casts"] = 7,
-							["count"] = 18,
-							["hit"] = 10,
-							["school"] = 32,
-							["resisted"] = 4490,
-							["amount"] = 55526,
-							["hitamount"] = 20884,
 						},
-						["Shadow Word: Death"] = {
-							["hitmin"] = 3976,
-							["id"] = 48158,
-							["targets"] = {
-								["Gal'darah"] = {
-									["amount"] = 3976,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 32,
-							["hitmax"] = 3976,
-							["amount"] = 3976,
-							["hitamount"] = 3976,
-						},
-						["Mind Blast"] = {
-							["hitmin"] = 4854,
-							["criticalamount"] = 10705,
-							["id"] = 48127,
-							["criticalmin"] = 10705,
-							["targets"] = {
-								["Gal'darah"] = {
-									["amount"] = 15559,
-								},
-							},
-							["criticalmax"] = 10705,
-							["critical"] = 1,
+						[47753] = {
+							["min"] = 267,
 							["casts"] = 3,
 							["count"] = 2,
-							["hit"] = 1,
-							["school"] = 32,
-							["hitmax"] = 4854,
-							["amount"] = 15559,
-							["hitamount"] = 4854,
-						},
-						["Shadow Word: Pain (DoT)"] = {
-							["hitmax"] = 1551,
-							["hitmin"] = 1228,
-							["criticalamount"] = 23648,
-							["id"] = 48125,
-							["casts"] = 2,
-							["targets"] = {
-								["Gal'darah"] = {
-									["amount"] = 22631,
-								},
-								["Drakkari Rhino"] = {
-									["amount"] = 7483,
-								},
-							},
-							["criticalmin"] = 2568,
-							["critical"] = 8,
-							["criticalmax"] = 3437,
-							["count"] = 13,
-							["hit"] = 5,
-							["school"] = 32,
-							["resisted"] = 1268,
-							["amount"] = 30114,
-							["hitamount"] = 6466,
-						},
-						["Devouring Plague (DoT)"] = {
-							["casts"] = 2,
-							["hitmin"] = 1416,
-							["criticalamount"] = 23397,
-							["id"] = 48300,
-							["hit"] = 8,
-							["targets"] = {
-								["Gal'darah"] = {
-									["amount"] = 25147,
-								},
-								["Drakkari Rhino"] = {
-									["amount"] = 12230,
-								},
-							},
-							["hitmax"] = 2051,
-							["count"] = 14,
-							["criticalmax"] = 4287,
-							["critical"] = 6,
-							["amount"] = 37377,
-							["school"] = 32,
-							["resisted"] = 847,
-							["criticalmin"] = 2960,
-							["hitamount"] = 13980,
-						},
-					},
-					["damagetaken"] = 13030,
-					["id"] = "0x07000000006FE7EF",
-					["spec"] = 258,
-					["healspells"] = {
-						[15290] = {
-							["overheal"] = 60505,
-							["max"] = 906,
-							["count"] = 388,
-							["amount"] = 20609,
-							["school"] = 32,
-							["min"] = 46,
-							["ishot"] = true,
-							["targets"] = {
-								["Gometius"] = {
-									["overheal"] = 4950,
-									["amount"] = 2453,
-								},
-								["Urgash"] = {
-									["overheal"] = 4781,
-									["amount"] = 2203,
-								},
-								["Ebon Gargoyle"] = {
-									["overheal"] = 3769,
-									["amount"] = 1125,
-								},
-								["Wormcatcher"] = {
-									["overheal"] = 0,
-									["amount"] = 6651,
-								},
-								["Wubobo"] = {
-									["overheal"] = 5803,
-									["amount"] = 1595,
-								},
-								["Ynnou"] = {
-									["overheal"] = 6771,
-									["amount"] = 1003,
-								},
-								["Zaralar"] = {
-									["overheal"] = 31428,
-									["amount"] = 5579,
-								},
-								["Shadowfiend"] = {
-									["overheal"] = 3003,
-									["amount"] = 0,
-								},
-							},
-						},
-						[75999] = {
-							["overheal"] = 986,
-							["criticalamount"] = 0,
-							["targets"] = {
-								["Zaralar"] = {
-									["overheal"] = 986,
-									["amount"] = 0,
-								},
-							},
-							["criticalmax"] = 0,
-							["count"] = 2,
-							["amount"] = 0,
-							["school"] = 32,
-							["criticalmin"] = 0,
-							["critical"] = 1,
-						},
-						[48300] = {
-							["overheal"] = 3475,
-							["max"] = 715,
-							["targets"] = {
-								["Zaralar"] = {
-									["overheal"] = 3475,
-									["amount"] = 2751,
-								},
-							},
-							["min"] = 235,
-							["casts"] = 2,
-							["count"] = 14,
-							["amount"] = 2751,
-							["school"] = 32,
-						},
-					},
-					["damagetakenspells"] = {
-						["Poisoned Spear"] = {
-							["hitmin"] = 4034,
-							["id"] = 58967,
-							["sources"] = {
-								["Drakkari Battle Rider"] = {
-									["amount"] = 4034,
-								},
-							},
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 8,
-							["hitmax"] = 4034,
-							["amount"] = 4034,
-							["hitamount"] = 4034,
-						},
-						["Deafening Roar"] = {
-							["hitmin"] = 1673,
-							["id"] = 58992,
-							["sources"] = {
-								["Drakkari Rhino"] = {
-									["amount"] = 6865,
-								},
-							},
-							["count"] = 4,
-							["hit"] = 4,
-							["school"] = 1,
-							["hitmax"] = 1774,
-							["amount"] = 6865,
-							["hitamount"] = 6865,
-						},
-						["Shadow Word: Death (DoT)"] = {
-							["hitmin"] = 2131,
-							["id"] = 32409,
-							["hitmax"] = 2131,
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 32,
-							["resisted"] = 236,
-							["amount"] = 2131,
-							["hitamount"] = 2131,
-						},
-					},
-					["manaspells"] = {
-						[34650] = 13940,
-						[57669] = 2700,
-					},
-					["heal"] = 23360,
-					["name"] = "Zaralar",
-					["mana"] = 16640,
-					["overheal"] = 64966,
-					["totaldamage"] = 295066,
-					["role"] = "DAMAGER",
-				}, -- [4]
-				{
-					["last"] = 18381.01,
-					["flag"] = 1298,
-					["class"] = "MAGE",
-					["auras"] = {
-						[48161] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 66,
-						},
-						[42926] = {
-							["type"] = "DEBUFF",
-							["count"] = 4,
-							["school"] = 4,
-							["targets"] = {
-								["Drakkari Rhino"] = {
-									["uptime"] = 3,
-									["count"] = 2,
-								},
-							},
-							["uptime"] = 3,
-						},
-						[48073] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 66,
-						},
-						[48942] = {
-							["type"] = "BUFF",
-							["count"] = 1,
+							["amount"] = 1318,
 							["school"] = 2,
-							["uptime"] = 65,
-						},
-						[55360] = {
-							["type"] = "DEBUFF",
-							["uptime"] = 42,
-							["school"] = 4,
-							["refresh"] = 1,
 							["targets"] = {
-								["Drakkari Battle Rider"] = {
-									["uptime"] = 18,
-									["count"] = 3,
-								},
-								["Drakkari Rhino"] = {
-									["count"] = 3,
-									["refresh"] = 1,
-									["uptime"] = 15,
-								},
-								["Gal'darah"] = {
-									["uptime"] = 21,
-									["count"] = 2,
-								},
+								["Crazydqs"] = 1318,
 							},
-							["count"] = 8,
-						},
-						[48169] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 66,
-						},
-						[48108] = {
-							["type"] = "BUFF",
-							["count"] = 2,
-							["school"] = 1,
-							["uptime"] = 13,
-						},
-						[42995] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 66,
-						},
-						[72221] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 66,
-						},
-						[19746] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 66,
-						},
-						[22959] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 4,
-							["targets"] = {
-								["Gal'darah"] = {
-									["uptime"] = 22,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 22,
-						},
-						[47610] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 20,
-							["refresh"] = 4,
-							["targets"] = {
-								["Gal'darah"] = {
-									["count"] = 1,
-									["refresh"] = 4,
-									["uptime"] = 18,
-								},
-							},
-							["uptime"] = 18,
-						},
-						[57669] = {
-							["school"] = 8,
-							["type"] = "BUFF",
-							["uptime"] = 15,
-						},
-						[42945] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 4,
-							["targets"] = {
-								["Drakkari Rhino"] = {
-									["uptime"] = 1,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 1,
-						},
-						[54739] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 64,
-							["uptime"] = 9,
-						},
-						[12654] = {
-							["type"] = "DEBUFF",
-							["uptime"] = 26,
-							["school"] = 4,
-							["refresh"] = 8,
-							["targets"] = {
-								["Drakkari Battle Rider"] = {
-									["count"] = 3,
-									["refresh"] = 3,
-									["uptime"] = 10,
-								},
-								["Drakkari Rhino"] = {
-									["count"] = 3,
-									["refresh"] = 2,
-									["uptime"] = 8,
-								},
-								["Gal'darah"] = {
-									["count"] = 2,
-									["refresh"] = 3,
-									["uptime"] = 13,
-								},
-							},
-							["count"] = 8,
-						},
-						[57623] = {
-							["type"] = "BUFF",
-							["count"] = 2,
-							["school"] = 1,
-							["uptime"] = 66,
-						},
-						[28682] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 4,
-							["refresh"] = 4,
-							["uptime"] = 13,
-						},
-						[42950] = {
-							["type"] = "DEBUFF",
-							["count"] = 2,
-							["school"] = 4,
-							["targets"] = {
-								["Drakkari Rhino"] = {
-									["uptime"] = 2,
-									["count"] = 2,
-								},
-							},
-							["uptime"] = 2,
-						},
-						[43046] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 66,
+							["max"] = 1051,
 						},
 					},
-					["time"] = 46.54,
-					["totaldamagetaken"] = 24417,
-					["damage"] = 100643,
+					["time"] = 33.6,
+					["damage"] = 11929,
 					["damagespells"] = {
-						["Dragon's Breath"] = {
-							["hitmin"] = 2187,
-							["criticalamount"] = 4014,
-							["id"] = 42950,
-							["criticalmin"] = 4014,
+						["Melee (Shadowfiend)"] = {
+							["hitmin"] = 847,
+							["criticalamount"] = 3964,
+							["id"] = 6603,
+							["criticalmin"] = 1953,
 							["targets"] = {
-								["Drakkari Rhino"] = {
-									["amount"] = 6201,
+								["Scourgelord Tyrannus"] = {
+									["amount"] = 11929,
 								},
 							},
-							["criticalmax"] = 4014,
-							["critical"] = 1,
-							["casts"] = 1,
-							["count"] = 2,
-							["hit"] = 1,
-							["school"] = 4,
-							["hitmax"] = 2187,
-							["amount"] = 6201,
-							["hitamount"] = 2187,
-						},
-						["Frostfire Bolt (DoT)"] = {
-							["hitmin"] = 322,
-							["id"] = 47610,
-							["targets"] = {
-								["Gal'darah"] = {
-									["amount"] = 1005,
-								},
-							},
-							["count"] = 3,
-							["hit"] = 3,
-							["school"] = 20,
-							["hitmax"] = 361,
-							["amount"] = 1005,
-							["hitamount"] = 1005,
-						},
-						["Living Bomb"] = {
-							["criticalmin"] = 2943,
-							["hitmin"] = 1681,
-							["criticalamount"] = 12216,
-							["id"] = 55362,
-							["hitmax"] = 1682,
-							["targets"] = {
-								["Drakkari Battle Rider"] = {
-									["amount"] = 7568,
-								},
-								["Drakkari Rhino"] = {
-									["amount"] = 6330,
-								},
-								["Gal'darah"] = {
-									["amount"] = 3363,
-								},
-							},
-							["count"] = 7,
-							["hit"] = 3,
-							["casts"] = 4,
-							["critical"] = 4,
-							["amount"] = 17261,
-							["school"] = 4,
-							["resisted"] = 329,
-							["criticalmax"] = 3363,
-							["hitamount"] = 5045,
-						},
-						["Frostfire Bolt"] = {
-							["hitmax"] = 3127,
-							["hitmin"] = 3041,
-							["criticalamount"] = 17166,
-							["id"] = 47610,
-							["criticalmin"] = 8529,
-							["targets"] = {
-								["Gal'darah"] = {
-									["amount"] = 26376,
-								},
-							},
-							["criticalmax"] = 8637,
+							["hitmax"] = 1125,
 							["critical"] = 2,
-							["casts"] = 6,
-							["count"] = 5,
-							["hit"] = 3,
-							["school"] = 20,
-							["resisted"] = 338,
-							["amount"] = 26376,
-							["hitamount"] = 9210,
-						},
-						["Pyroblast"] = {
-							["hitmin"] = 4855,
-							["id"] = 42891,
-							["targets"] = {
-								["Gal'darah"] = {
-									["amount"] = 4855,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 4,
-							["hitmax"] = 4855,
-							["amount"] = 4855,
-							["hitamount"] = 4855,
-						},
-						["Scorch"] = {
-							["hitmin"] = 1197,
-							["id"] = 42859,
-							["targets"] = {
-								["Gal'darah"] = {
-									["amount"] = 1197,
-								},
-							},
-							["hitmax"] = 1197,
-							["casts"] = 1,
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 4,
-							["resisted"] = 132,
-							["amount"] = 1197,
-							["hitamount"] = 1197,
-						},
-						["Ignite (DoT)"] = {
-							["hitmin"] = 228,
-							["id"] = 12654,
-							["targets"] = {
-								["Drakkari Battle Rider"] = {
-									["amount"] = 2992,
-								},
-								["Drakkari Rhino"] = {
-									["amount"] = 2309,
-								},
-								["Gal'darah"] = {
-									["amount"] = 5460,
-								},
-							},
-							["hitmax"] = 2478,
-							["count"] = 12,
-							["hit"] = 12,
-							["school"] = 4,
-							["resisted"] = 855,
-							["amount"] = 10761,
-							["hitamount"] = 10761,
-						},
-						["Flamestrike (DoT)"] = {
-							["hitmin"] = 481,
-							["id"] = 42926,
-							["targets"] = {
-								["Drakkari Rhino"] = {
-									["amount"] = 481,
-								},
-							},
-							["hitmax"] = 481,
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 4,
-							["resisted"] = 53,
-							["amount"] = 481,
-							["hitamount"] = 481,
-						},
-						["Flamestrike"] = {
-							["criticalmin"] = 2863,
-							["hitmin"] = 1822,
-							["criticalamount"] = 6117,
-							["id"] = 42926,
-							["criticalmax"] = 3254,
-							["targets"] = {
-								["Drakkari Battle Rider"] = {
-									["overkill"] = 1397,
-									["amount"] = 3802,
-								},
-								["Drakkari Rhino"] = {
-									["amount"] = 6117,
-								},
-							},
-							["overkill"] = 1397,
-							["critical"] = 2,
-							["casts"] = 1,
-							["count"] = 4,
-							["hit"] = 2,
-							["school"] = 4,
-							["hitmax"] = 1980,
-							["amount"] = 9919,
-							["hitamount"] = 3802,
-						},
-						["Blast Wave"] = {
-							["hitmin"] = 2039,
-							["id"] = 42945,
-							["targets"] = {
-								["Drakkari Rhino"] = {
-									["amount"] = 2039,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 4,
-							["hitmax"] = 2039,
-							["amount"] = 2039,
-							["hitamount"] = 2039,
-						},
-						["Living Bomb (DoT)"] = {
-							["hitmax"] = 816,
-							["hitmin"] = 722,
-							["criticalamount"] = 9300,
-							["id"] = 55360,
-							["criticalmin"] = 1142,
-							["targets"] = {
-								["Drakkari Battle Rider"] = {
-									["amount"] = 7920,
-								},
-								["Drakkari Rhino"] = {
-									["amount"] = 6854,
-								},
-								["Gal'darah"] = {
-									["amount"] = 5774,
-								},
-							},
-							["criticalmax"] = 1427,
-							["critical"] = 7,
-							["casts"] = 6,
-							["count"] = 21,
-							["hit"] = 14,
-							["school"] = 4,
-							["resisted"] = 976,
-							["amount"] = 20548,
-							["hitamount"] = 11248,
-						},
-					},
-					["damagetaken"] = 24417,
-					["id"] = "0x0700000000975314",
-					["spec"] = 63,
-					["damagetakenspells"] = {
-						["Poisoned Spear"] = {
-							["hitmin"] = 5076,
-							["id"] = 58967,
-							["sources"] = {
-								["Drakkari Battle Rider"] = {
-									["amount"] = 5076,
-								},
-							},
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 8,
-							["hitmax"] = 5076,
-							["amount"] = 5076,
-							["hitamount"] = 5076,
-						},
-						["Stampede"] = {
-							["hitmin"] = 3632,
-							["id"] = 55220,
-							["sources"] = {
-								["Rhino Spirit"] = {
-									["amount"] = 7508,
-								},
-							},
-							["count"] = 2,
-							["hit"] = 2,
-							["school"] = 1,
-							["hitmax"] = 3876,
-							["amount"] = 7508,
-							["hitamount"] = 7508,
-						},
-						["Poisoned Spear (DoT)"] = {
-							["hitmin"] = 2092,
-							["id"] = 58967,
-							["sources"] = {
-								["Drakkari Battle Rider"] = {
-									["amount"] = 2092,
-								},
-							},
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 8,
-							["hitmax"] = 2092,
-							["amount"] = 2092,
-							["hitamount"] = 2092,
-						},
-						["Deafening Roar"] = {
-							["hitmin"] = 2407,
-							["id"] = 58992,
-							["sources"] = {
-								["Drakkari Rhino"] = {
-									["amount"] = 9741,
-								},
-							},
-							["count"] = 4,
-							["hit"] = 4,
-							["school"] = 1,
-							["hitmax"] = 2458,
-							["amount"] = 9741,
-							["hitamount"] = 9741,
-						},
-					},
-					["overkill"] = 1397,
-					["name"] = "Wubobo",
-					["manaspells"] = {
-						[29077] = 1066,
-						[67545] = 780,
-						[44450] = -131,
-					},
-					["mana"] = 1715,
-					["totaldamage"] = 100643,
-					["role"] = "DAMAGER",
-				}, -- [5]
-			},
-			["absorb"] = 10327,
-			["damagetaken"] = 172357,
-			["damage"] = 1096971,
-			["overheal"] = 361197,
-			["etotaldamagetaken"] = 1096971,
-			["overkill"] = 9720,
-			["edamagetaken"] = 1096971,
-			["heal"] = 191156,
-			["name"] = "Gal'darah",
-			["mobname"] = "Gal'darah",
-			["starttime"] = 1689592542,
-			["edamage"] = 170226,
-			["last_action"] = 1689592607,
-			["endtime"] = 1689592608,
-		}, -- [1]
-		{
-			["mana"] = 6297,
-			["damage"] = 174711,
-			["enemies"] = {
-				{
-					["damagespells"] = {
-						[6603] = {
-							["school"] = 1,
-							["total"] = 2176,
-							["targets"] = {
-								["Gometius"] = {
-									["total"] = 2363,
-									["amount"] = 956,
-								},
-								["Urgash"] = {
-									["amount"] = 2157,
-								},
-							},
-							["amount"] = 3113,
-						},
-						[58992] = {
-							["school"] = 1,
-							["total"] = 2260,
-							["targets"] = {
-								["Gometius"] = {
-									["total"] = 970,
-									["amount"] = 0,
-								},
-								["Ynnou"] = {
-									["amount"] = 1290,
-								},
-								["Zaralar"] = {
-									["amount"] = 1707,
-								},
-								["Urgash"] = {
-									["amount"] = 1092,
-								},
-							},
-							["amount"] = 4089,
-						},
-					},
-					["damagetaken"] = 129459,
-					["flag"] = 2632,
-					["class"] = "MONSTER",
-					["damagetakenspells"] = {
-						[47632] = {
-							["school"] = 32,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 11384,
-								},
-							},
-							["amount"] = 11384,
-						},
-						[48160] = {
-							["school"] = 32,
-							["sources"] = {
-								["Zaralar"] = {
-									["amount"] = 6784,
-								},
-							},
-							["amount"] = 6784,
-						},
-						[55078] = {
-							["school"] = 32,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 2343,
-								},
-							},
-							["amount"] = 2343,
-						},
-						[42463] = {
-							["school"] = 2,
-							["sources"] = {
-								["Gometius"] = {
-									["amount"] = 2672,
-								},
-							},
-							["amount"] = 2672,
-						},
-						[31803] = {
-							["school"] = 2,
-							["sources"] = {
-								["Gometius"] = {
-									["amount"] = 1511,
-								},
-							},
-							["amount"] = 1511,
-						},
-						[50463] = {
-							["school"] = 1,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 4265,
-								},
-							},
-							["amount"] = 4265,
-						},
-						[53595] = {
-							["school"] = 2,
-							["sources"] = {
-								["Gometius"] = {
-									["amount"] = 4185,
-								},
-							},
-							["amount"] = 4185,
-						},
-						[49909] = {
-							["school"] = 16,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 3582,
-								},
-							},
-							["amount"] = 3582,
-						},
-						[51460] = {
-							["school"] = 32,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 4353,
-								},
-							},
-							["amount"] = 4353,
-						},
-						[63675] = {
-							["school"] = 32,
-							["sources"] = {
-								["Zaralar"] = {
-									["amount"] = 2571,
-								},
-							},
-							["amount"] = 2571,
-						},
-						[48300] = {
-							["school"] = 32,
-							["sources"] = {
-								["Zaralar"] = {
-									["amount"] = 9942,
-								},
-							},
-							["amount"] = 9942,
-						},
-						[48952] = {
-							["school"] = 2,
-							["sources"] = {
-								["Gometius"] = {
-									["amount"] = 2127,
-								},
-							},
-							["amount"] = 2127,
-						},
-						[6603] = {
-							["school"] = 1,
-							["sources"] = {
-								["Gometius"] = {
-									["amount"] = 5574,
-								},
-								["Urgash"] = {
-									["amount"] = 28318,
-								},
-							},
-							["amount"] = 33892,
-						},
-						[58381] = {
-							["school"] = 32,
-							["sources"] = {
-								["Zaralar"] = {
-									["overkill"] = 879,
-									["amount"] = 2030,
-								},
-							},
-							["overkill"] = 879,
-							["amount"] = 2030,
-						},
-						[50536] = {
-							["school"] = 32,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 64,
-								},
-							},
-							["amount"] = 64,
-						},
-						[47468] = {
-							["school"] = 1,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 3144,
-								},
-							},
-							["amount"] = 3144,
-						},
-						[52212] = {
-							["school"] = 32,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 10305,
-								},
-							},
-							["amount"] = 10305,
-						},
-						[67485] = {
-							["school"] = 2,
-							["sources"] = {
-								["Gometius"] = {
-									["amount"] = 1983,
-								},
-							},
-							["amount"] = 1983,
-						},
-						[50526] = {
-							["school"] = 32,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 2466,
-								},
-							},
-							["amount"] = 2466,
-						},
-						[49921] = {
-							["school"] = 1,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 1941,
-								},
-							},
-							["amount"] = 1941,
-						},
-						[61411] = {
-							["school"] = 2,
-							["sources"] = {
-								["Gometius"] = {
-									["amount"] = 3043,
-								},
-							},
-							["amount"] = 3043,
-						},
-						[48125] = {
-							["school"] = 32,
-							["sources"] = {
-								["Zaralar"] = {
-									["amount"] = 6242,
-								},
-							},
-							["amount"] = 6242,
-						},
-						[55095] = {
-							["school"] = 16,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 3584,
-								},
-							},
-							["amount"] = 3584,
-						},
-						[48127] = {
-							["school"] = 32,
-							["sources"] = {
-								["Zaralar"] = {
-									["amount"] = 4269,
-								},
-							},
-							["amount"] = 4269,
-						},
-						[71904] = {
-							["school"] = 32,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 777,
-								},
-							},
-							["amount"] = 777,
-						},
-					},
-					["name"] = "Drakkari Rhino",
-					["totaldamage"] = 9579,
-					["totaldamagetaken"] = 129459,
-					["id"] = "0xF1500074EB0000DD",
-					["damage"] = 7202,
-				}, -- [1]
-				{
-					["damagespells"] = {
-						[6603] = {
-							["school"] = 1,
-							["total"] = 735,
-							["targets"] = {
-								["Gometius"] = {
-									["total"] = 798,
-									["amount"] = 137,
-								},
-							},
-							["amount"] = 137,
-						},
-						[15496] = {
-							["school"] = 1,
-							["targets"] = {
-								["Gometius"] = {
-									["amount"] = 147,
-								},
-								["Urgash"] = {
-									["amount"] = 329,
-								},
-							},
-							["amount"] = 476,
-						},
-					},
-					["damagetaken"] = 45252,
-					["flag"] = 2632,
-					["class"] = "MONSTER",
-					["damagetakenspells"] = {
-						[55095] = {
-							["school"] = 16,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 3023,
-								},
-							},
-							["amount"] = 3023,
-						},
-						[50526] = {
-							["school"] = 32,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 7700,
-								},
-							},
-							["amount"] = 7700,
-						},
-						[55078] = {
-							["school"] = 32,
-							["sources"] = {
-								["Urgash"] = {
-									["overkill"] = 898,
-									["amount"] = 3532,
-								},
-							},
-							["overkill"] = 898,
-							["amount"] = 3532,
-						},
-						[31803] = {
-							["school"] = 2,
-							["sources"] = {
-								["Gometius"] = {
-									["amount"] = 501,
-								},
-							},
-							["amount"] = 501,
-						},
-						[52212] = {
-							["school"] = 32,
-							["sources"] = {
-								["Urgash"] = {
-									["overkill"] = 732,
-									["amount"] = 19648,
-								},
-							},
-							["overkill"] = 732,
-							["amount"] = 19648,
-						},
-						[48952] = {
-							["school"] = 2,
-							["sources"] = {
-								["Gometius"] = {
-									["amount"] = 2779,
-								},
-							},
-							["amount"] = 2779,
-						},
-						[53595] = {
-							["school"] = 2,
-							["sources"] = {
-								["Gometius"] = {
-									["amount"] = 6072,
-								},
-							},
-							["amount"] = 6072,
-						},
-						[71904] = {
-							["school"] = 32,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 1997,
-								},
-							},
-							["amount"] = 1997,
-						},
-					},
-					["name"] = "Drakkari Raider",
-					["totaldamage"] = 1274,
-					["totaldamagetaken"] = 45252,
-					["id"] = "0xF13000751E0000DE",
-					["damage"] = 613,
-				}, -- [2]
-			},
-			["totaldamage"] = 174711,
-			["time"] = 22,
-			["overheal"] = 50162,
-			["totaldamagetaken"] = 10853,
-			["etotaldamagetaken"] = 174711,
-			["last_time"] = 18312.818,
-			["players"] = {
-				{
-					["last"] = 18305.177,
-					["flag"] = 1297,
-					["class"] = "DEATHKNIGHT",
-					["auras"] = {
-						[6562] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 22,
-						},
-						[48162] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 22,
-						},
-						[70657] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["refresh"] = 4,
-							["uptime"] = 14,
-						},
-						[71560] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["uptime"] = 18,
-						},
-						[73422] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["uptime"] = 10,
-						},
-						[71905] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["refresh"] = 2,
-							["uptime"] = 7,
-						},
-						[49222] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 12,
-						},
-						[48170] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 22,
-						},
-						[49938] = {
-							["type"] = "DEBUFF",
-							["count"] = 4,
-							["school"] = 32,
-							["targets"] = {
-								["Drakkari Raider"] = {
-									["uptime"] = 8,
-									["count"] = 3,
-								},
-								["Drakkari Rhino"] = {
-									["uptime"] = 10,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 10,
-						},
-						[19746] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 22,
-						},
-						[48266] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 22,
-						},
-						[43002] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 22,
-						},
-						[48707] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 32,
-							["uptime"] = 5,
-						},
-						[50536] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 32,
-							["refresh"] = 1,
-							["targets"] = {
-								["Drakkari Rhino"] = {
-									["count"] = 1,
-									["refresh"] = 1,
-									["uptime"] = 2,
-								},
-							},
-							["uptime"] = 2,
-						},
-						[3714] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 6,
-						},
-						[55078] = {
-							["type"] = "DEBUFF",
-							["count"] = 4,
-							["school"] = 32,
-							["targets"] = {
-								["Drakkari Raider"] = {
-									["uptime"] = 4,
-									["count"] = 3,
-								},
-								["Drakkari Rhino"] = {
-									["uptime"] = 8,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 8,
-						},
-						[55095] = {
-							["type"] = "DEBUFF",
-							["count"] = 4,
-							["school"] = 16,
-							["targets"] = {
-								["Drakkari Raider"] = {
-									["uptime"] = 4,
-									["count"] = 3,
-								},
-								["Drakkari Rhino"] = {
-									["uptime"] = 9,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 9,
-						},
-						[51735] = {
-							["type"] = "DEBUFF",
-							["count"] = 4,
-							["school"] = 32,
-							["refresh"] = 1,
-							["targets"] = {
-								["Drakkari Raider"] = {
-									["uptime"] = 4,
-									["count"] = 3,
-								},
-								["Drakkari Rhino"] = {
-									["count"] = 1,
-									["refresh"] = 1,
-									["uptime"] = 9,
-								},
-							},
-							["uptime"] = 9,
-						},
-						[72221] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 22,
-						},
-						[58578] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["refresh"] = 1,
-							["uptime"] = 17,
-						},
-						[48074] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 22,
-						},
-						[57623] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 22,
-						},
-						[48942] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 22,
-						},
-					},
-					["time"] = 13.67,
-					["totaldamagetaken"] = 3578,
-					["damage"] = 112426,
-					["overheal"] = 629,
-					["damagetaken"] = 3578,
-					["id"] = "0x070000000000D01B",
-					["spec"] = 252,
-					["healspells"] = {
-						[50475] = {
-							["overheal"] = 629,
-							["max"] = 336,
+							["criticalmax"] = 2011,
 							["count"] = 10,
-							["amount"] = 1049,
+							["hit"] = 8,
 							["school"] = 1,
-							["min"] = 1,
-							["ishot"] = true,
-							["targets"] = {
-								["Urgash"] = {
-									["overheal"] = 629,
-									["amount"] = 1049,
-								},
-							},
+							["resisted"] = 1074,
+							["amount"] = 11929,
+							["hitamount"] = 7965,
 						},
 					},
-					["damagetakenspells"] = {
-						["Deafening Roar"] = {
-							["hitmin"] = 1092,
-							["id"] = 58992,
-							["sources"] = {
-								["Drakkari Rhino"] = {
-									["amount"] = 1092,
+					["absorb"] = 4227,
+					["id"] = "0x070000000096F606",
+					["spec"] = 256,
+					["healspells"] = {
+						[33110] = {
+							["overheal"] = 4452,
+							["count"] = 6,
+							["amount"] = 12302,
+							["school"] = 2,
+							["max"] = 2946,
+							["targets"] = {
+								["Crazydqs"] = {
+									["overheal"] = 0,
+									["amount"] = 8590,
+								},
+								["Urgash"] = {
+									["overheal"] = 2528,
+									["amount"] = 391,
+								},
+								["Skullslicer"] = {
+									["overheal"] = 1924,
+									["amount"] = 3321,
 								},
 							},
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 1,
-							["hitmax"] = 1092,
-							["amount"] = 1092,
-							["hitamount"] = 1092,
+							["min"] = 391,
 						},
-						["Melee"] = {
-							["DODGE"] = 1,
-							["hitmin"] = 2157,
-							["id"] = 6603,
-							["hitmax"] = 2157,
-							["sources"] = {
-								["Drakkari Rhino"] = {
-									["amount"] = 2157,
+						[48071] = {
+							["overheal"] = 17417,
+							["criticalamount"] = 6771,
+							["max"] = 4100,
+							["targets"] = {
+								["Crazydqs"] = {
+									["overheal"] = 11974,
+									["amount"] = 17753,
 								},
-								["Drakkari Raider"] = {
+								["Urgash"] = {
+									["overheal"] = 2117,
+									["amount"] = 4058,
+								},
+								["Zyablik"] = {
+									["overheal"] = 3326,
+									["amount"] = 2713,
+								},
+							},
+							["criticalmin"] = 0,
+							["min"] = 2051,
+							["criticalmax"] = 4058,
+							["critical"] = 3,
+							["amount"] = 24524,
+							["school"] = 2,
+							["casts"] = 10,
+							["count"] = 9,
+						},
+						[48068] = {
+							["overheal"] = 24261,
+							["max"] = 1152,
+							["targets"] = {
+								["Crazydqs"] = {
+									["overheal"] = 4513,
+									["amount"] = 6596,
+								},
+								["Urgash"] = {
+									["overheal"] = 4473,
+									["amount"] = 1110,
+								},
+								["Zyablik"] = {
+									["overheal"] = 4440,
+									["amount"] = 1109,
+								},
+								["Najgora"] = {
+									["overheal"] = 5285,
+									["amount"] = 0,
+								},
+								["Yiyuan"] = {
+									["overheal"] = 5550,
 									["amount"] = 0,
 								},
 							},
-							["count"] = 3,
-							["hit"] = 1,
-							["school"] = 1,
-							["PARRY"] = 1,
-							["amount"] = 2157,
-							["hitamount"] = 2157,
-						},
-						["Cleave"] = {
-							["hitmin"] = 158,
-							["id"] = 15496,
-							["sources"] = {
-								["Drakkari Raider"] = {
-									["amount"] = 329,
-								},
-							},
-							["count"] = 2,
-							["hit"] = 2,
-							["school"] = 1,
-							["hitmax"] = 171,
-							["amount"] = 329,
-							["hitamount"] = 329,
-						},
-					},
-					["heal"] = 1049,
-					["name"] = "Urgash",
-					["overkill"] = 1630,
-					["damagespells"] = {
-						["Melee"] = {
-							["hitmin"] = 3027,
-							["criticalamount"] = 13424,
-							["id"] = 6603,
-							["targets"] = {
-								["Drakkari Rhino"] = {
-									["amount"] = 23066,
-								},
-							},
-							["criticalmin"] = 6482,
-							["critical"] = 2,
-							["criticalmax"] = 6942,
-							["count"] = 5,
-							["hit"] = 3,
-							["school"] = 1,
-							["hitmax"] = 3390,
-							["amount"] = 23066,
-							["hitamount"] = 9642,
-						},
-						["Death and Decay"] = {
-							["critical"] = 6,
-							["criticalmin"] = 1307,
-							["hitmin"] = 566,
-							["criticalamount"] = 8813,
-							["id"] = 52212,
-							["criticalmax"] = 1682,
-							["targets"] = {
-								["Drakkari Rhino"] = {
-									["amount"] = 10305,
-								},
-								["Drakkari Raider"] = {
-									["overkill"] = 732,
-									["amount"] = 19648,
-								},
-							},
-							["overkill"] = 732,
-							["hitmax"] = 805,
-							["casts"] = 1,
-							["count"] = 36,
-							["hit"] = 30,
-							["school"] = 32,
-							["resisted"] = 707,
-							["amount"] = 29953,
-							["hitamount"] = 21140,
-						},
-						["Icy Touch"] = {
-							["criticalamount"] = 3582,
-							["id"] = 49909,
-							["targets"] = {
-								["Drakkari Rhino"] = {
-									["amount"] = 3582,
-								},
-							},
-							["casts"] = 1,
-							["critical"] = 1,
-							["amount"] = 3582,
-							["school"] = 16,
-							["criticalmin"] = 3582,
-							["criticalmax"] = 3582,
-							["count"] = 1,
-						},
-						["Unholy Blight (DoT)"] = {
-							["hitmin"] = 64,
-							["id"] = 50536,
-							["targets"] = {
-								["Drakkari Rhino"] = {
-									["amount"] = 64,
-								},
-							},
-							["hitmax"] = 64,
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 32,
-							["resisted"] = 16,
-							["amount"] = 64,
-							["hitamount"] = 64,
-						},
-						["Wandering Plague"] = {
-							["hitmin"] = 1110,
-							["id"] = 50526,
-							["targets"] = {
-								["Drakkari Rhino"] = {
-									["amount"] = 2466,
-								},
-								["Drakkari Raider"] = {
-									["amount"] = 7700,
-								},
-							},
-							["hitmax"] = 1507,
-							["casts"] = 1,
-							["count"] = 8,
-							["hit"] = 8,
-							["school"] = 32,
-							["resisted"] = 300,
-							["amount"] = 10166,
-							["hitamount"] = 10166,
-						},
-						["Death Coil"] = {
-							["criticalmin"] = 8004,
-							["hitmin"] = 3380,
-							["criticalamount"] = 8004,
-							["id"] = 47632,
-							["hitmax"] = 3380,
-							["targets"] = {
-								["Drakkari Rhino"] = {
-									["amount"] = 11384,
-								},
-							},
-							["count"] = 2,
-							["hit"] = 1,
-							["casts"] = 2,
-							["critical"] = 1,
-							["amount"] = 11384,
-							["school"] = 32,
-							["resisted"] = 375,
-							["criticalmax"] = 8004,
-							["hitamount"] = 3380,
-						},
-						["Claw (Wormcatcher)"] = {
-							["hitmin"] = 770,
-							["id"] = 47468,
-							["targets"] = {
-								["Drakkari Rhino"] = {
-									["amount"] = 3144,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 4,
-							["hit"] = 4,
-							["school"] = 1,
-							["hitmax"] = 806,
-							["amount"] = 3144,
-							["hitamount"] = 3144,
-						},
-						["Necrosis"] = {
-							["hitmin"] = 605,
-							["id"] = 51460,
-							["targets"] = {
-								["Drakkari Rhino"] = {
-									["amount"] = 4353,
-								},
-							},
-							["hitmax"] = 1388,
-							["casts"] = 1,
-							["count"] = 5,
-							["hit"] = 5,
-							["school"] = 32,
-							["resisted"] = 259,
-							["amount"] = 4353,
-							["hitamount"] = 4353,
-						},
-						["Blood Plague (DoT)"] = {
-							["hitmin"] = 1097,
-							["id"] = 55078,
-							["targets"] = {
-								["Drakkari Raider"] = {
-									["overkill"] = 898,
-									["amount"] = 3532,
-								},
-								["Drakkari Rhino"] = {
-									["amount"] = 2343,
-								},
-							},
-							["overkill"] = 898,
-							["hitmax"] = 1218,
-							["count"] = 5,
-							["hit"] = 5,
-							["school"] = 32,
-							["resisted"] = 121,
-							["amount"] = 5875,
-							["hitamount"] = 5875,
-						},
-						["Melee (Wormcatcher)"] = {
-							["glance"] = 960,
-							["hitmin"] = 532,
-							["criticalmin"] = 1052,
-							["targets"] = {
-								["Drakkari Rhino"] = {
-									["amount"] = 5252,
-								},
-							},
-							["glancing"] = 2,
-							["amount"] = 5252,
-							["glancemin"] = 472,
-							["criticalamount"] = 1052,
-							["id"] = 6603,
-							["glancemax"] = 488,
-							["criticalmax"] = 1052,
-							["critical"] = 1,
-							["hit"] = 6,
-							["school"] = 1,
-							["count"] = 9,
-							["hitmax"] = 545,
-							["hitamount"] = 3240,
-						},
-						["Chaos Bane"] = {
-							["hitmin"] = 645,
-							["id"] = 71904,
-							["targets"] = {
-								["Drakkari Rhino"] = {
-									["amount"] = 777,
-								},
-								["Drakkari Raider"] = {
-									["amount"] = 1997,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 4,
-							["hit"] = 4,
-							["school"] = 32,
-							["hitmax"] = 777,
-							["amount"] = 2774,
-							["hitamount"] = 2774,
-						},
-						["Plague Strike"] = {
-							["hitmin"] = 1941,
-							["id"] = 49921,
-							["targets"] = {
-								["Drakkari Rhino"] = {
-									["amount"] = 1941,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 1,
-							["hitmax"] = 1941,
-							["amount"] = 1941,
-							["hitamount"] = 1941,
-						},
-						["Frost Fever (DoT)"] = {
-							["hitmin"] = 1103,
-							["id"] = 55095,
-							["targets"] = {
-								["Drakkari Raider"] = {
-									["amount"] = 3023,
-								},
-								["Drakkari Rhino"] = {
-									["amount"] = 3584,
-								},
-							},
-							["hitmax"] = 1591,
-							["count"] = 5,
-							["hit"] = 5,
-							["school"] = 16,
-							["resisted"] = 709,
-							["amount"] = 6607,
-							["hitamount"] = 6607,
-						},
-						["Blood-Caked Strike"] = {
-							["hitmin"] = 674,
-							["id"] = 50463,
-							["targets"] = {
-								["Drakkari Rhino"] = {
-									["amount"] = 4265,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 3,
-							["hit"] = 3,
-							["school"] = 1,
-							["hitmax"] = 1802,
-							["amount"] = 4265,
-							["hitamount"] = 4265,
-						},
-					},
-					["totaldamage"] = 112426,
-					["role"] = "DAMAGER",
-				}, -- [1]
-				{
-					["last"] = 18305.494,
-					["flag"] = 1298,
-					["mana"] = 5876,
-					["auras"] = {
-						[6562] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 22,
-						},
-						[48162] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 22,
-						},
-						[31801] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 22,
-						},
-						[54428] = {
-							["type"] = "BUFF",
-							["count"] = 1,
+							["min"] = 1057,
+							["casts"] = 4,
+							["count"] = 30,
+							["amount"] = 8815,
 							["school"] = 2,
-							["refresh"] = 7,
-							["uptime"] = 15,
+							["ishot"] = true,
 						},
-						[48942] = {
+						[52985] = {
+							["overheal"] = 0,
+							["criticalamount"] = 4396,
+							["max"] = 4396,
+							["targets"] = {
+								["Crazydqs"] = {
+									["overheal"] = 0,
+									["amount"] = 19771,
+								},
+							},
+							["criticalmin"] = 4396,
+							["min"] = 2921,
+							["criticalmax"] = 4396,
+							["critical"] = 1,
+							["amount"] = 19771,
+							["school"] = 2,
+							["casts"] = 5,
+							["count"] = 6,
+						},
+						[34299] = {
+							["overheal"] = 285,
+							["count"] = 1,
+							["amount"] = 0,
+							["school"] = 1,
+							["ishot"] = true,
+							["targets"] = {
+								["Shadowfiend"] = {
+									["overheal"] = 285,
+									["amount"] = 0,
+								},
+							},
+						},
+					},
+					["overheal"] = 46415,
+					["heal"] = 65412,
+					["name"] = "Najgora",
+					["totaldamage"] = 11929,
+					["class"] = "PRIEST",
+					["manaspells"] = {
+						[34650] = 11100,
+					},
+					["role"] = "HEALER",
+				}, -- [3]
+				{
+					["last"] = 18871.82,
+					["flag"] = 1298,
+					["mana"] = 2178,
+					["auras"] = {
+						[72221] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 22,
+							["uptime"] = 45,
+						},
+						[48470] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 45,
+						},
+						[768] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 45,
+						},
+						[71485] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["uptime"] = 30,
 						},
 						[57623] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 22,
+							["refresh"] = 1,
+							["uptime"] = 45,
 						},
-						[25898] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 22,
-						},
-						[48170] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 22,
-						},
-						[25899] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 22,
-						},
-						[19746] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 22,
-						},
-						[53601] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 22,
-						},
-						[48952] = {
+						[67355] = {
 							["type"] = "BUFF",
 							["count"] = 2,
-							["school"] = 2,
-							["uptime"] = 13,
-						},
-						[43002] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 22,
-						},
-						[25780] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 22,
-						},
-						[3714] = {
-							["type"] = "BUFF",
-							["count"] = 3,
-							["school"] = 1,
-							["uptime"] = 3,
-						},
-						[20132] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["uptime"] = 11,
+							["school"] = 8,
+							["refresh"] = 1,
+							["uptime"] = 40,
 						},
 						[71403] = {
 							["type"] = "BUFF",
@@ -5176,2674 +2205,574 @@ SkadaStorageDB = {
 							["school"] = 1,
 							["uptime"] = 10,
 						},
-						[31803] = {
-							["type"] = "DEBUFF",
-							["count"] = 3,
+						[15359] = {
+							["type"] = "BUFF",
+							["count"] = 1,
 							["school"] = 2,
-							["refresh"] = 9,
+							["uptime"] = 15,
+						},
+						[50213] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["uptime"] = 6,
+						},
+						[59620] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 2,
+							["uptime"] = 15,
+						},
+						[24932] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 45,
+						},
+						[49800] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["refresh"] = 3,
 							["targets"] = {
-								["Drakkari Raider"] = {
-									["uptime"] = 8,
-									["count"] = 2,
-								},
-								["Drakkari Rhino"] = {
+								["Scourgelord Tyrannus"] = {
 									["count"] = 1,
-									["refresh"] = 9,
-									["uptime"] = 11,
+									["refresh"] = 3,
+									["uptime"] = 23,
 								},
 							},
-							["uptime"] = 11,
+							["uptime"] = 23,
 						},
-						[66922] = {
+						[48420] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 45,
+						},
+						[48170] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 45,
+						},
+						[48111] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["school"] = 2,
 							["uptime"] = 12,
 						},
-						[58597] = {
-							["type"] = "BUFF",
-							["count"] = 2,
-							["school"] = 2,
-							["uptime"] = 7,
-						},
-						[72221] = {
+						[48934] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 22,
+							["uptime"] = 45,
+						},
+						[47930] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 2,
+							["uptime"] = 1,
+						},
+						[54043] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 45,
+						},
+						[48942] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 45,
+						},
+						[48566] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["targets"] = {
+								["Scourgelord Tyrannus"] = {
+									["uptime"] = 38,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 38,
+						},
+						[48066] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 11,
+						},
+						[47753] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 2,
+							["uptime"] = 12,
+						},
+						[48574] = {
+							["type"] = "DEBUFF",
+							["count"] = 4,
+							["school"] = 1,
+							["targets"] = {
+								["Scourgelord Tyrannus"] = {
+									["uptime"] = 29,
+									["count"] = 4,
+								},
+							},
+							["uptime"] = 29,
+						},
+						[25898] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 45,
+						},
+						[52610] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 1,
+							["refresh"] = 1,
+							["uptime"] = 39,
+						},
+						[48068] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 2,
+							["uptime"] = 15,
+						},
+						[48162] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 45,
+						},
+						[63944] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 40,
+						},
+						[69369] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["refresh"] = 3,
+							["uptime"] = 31,
 						},
 						[48074] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 22,
+							["uptime"] = 45,
 						},
-						[53563] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 22,
-						},
-					},
-					["absorbspells"] = {
-						[58597] = {
-							["min"] = 68,
-							["casts"] = 2,
-							["count"] = 9,
-							["amount"] = 3038,
-							["max"] = 1154,
-							["targets"] = {
-								["Gometius"] = 3038,
-							},
-							["school"] = 2,
-						},
-					},
-					["role"] = "TANK",
-					["time"] = 13.99,
-					["totaldamagetaken"] = 4278,
-					["damage"] = 30447,
-					["damagespells"] = {
-						["Hand of Reckoning"] = {
-							["hitmin"] = 1983,
-							["id"] = 67485,
-							["targets"] = {
-								["Drakkari Rhino"] = {
-									["amount"] = 1983,
-								},
-							},
-							["hitmax"] = 1983,
-							["casts"] = 2,
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 2,
-							["resisted"] = 220,
-							["amount"] = 1983,
-							["hitamount"] = 1983,
-						},
-						["Melee"] = {
-							["glance"] = 472,
-							["hitmin"] = 547,
-							["criticalmin"] = 1080,
-							["targets"] = {
-								["Drakkari Rhino"] = {
-									["amount"] = 5574,
-								},
-							},
-							["glancing"] = 1,
-							["amount"] = 5574,
-							["glancemin"] = 472,
-							["criticalamount"] = 2168,
-							["id"] = 6603,
-							["glancemax"] = 472,
-							["criticalmax"] = 1088,
-							["critical"] = 2,
-							["hit"] = 5,
-							["school"] = 1,
-							["count"] = 8,
-							["hitmax"] = 630,
-							["hitamount"] = 2934,
-						},
-						["Shield of Righteousness"] = {
-							["hitmin"] = 3043,
-							["id"] = 61411,
-							["targets"] = {
-								["Drakkari Rhino"] = {
-									["amount"] = 3043,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 2,
-							["hitmax"] = 3043,
-							["amount"] = 3043,
-							["hitamount"] = 3043,
-						},
-						["Holy Shield"] = {
-							["hitmin"] = 653,
-							["id"] = 48952,
-							["targets"] = {
-								["Drakkari Raider"] = {
-									["amount"] = 2779,
-								},
-								["Drakkari Rhino"] = {
-									["amount"] = 2127,
-								},
-							},
-							["casts"] = 2,
-							["count"] = 7,
-							["hit"] = 7,
-							["school"] = 2,
-							["hitmax"] = 760,
-							["amount"] = 4906,
-							["hitamount"] = 4906,
-						},
-						["Hammer of the Righteous"] = {
-							["hitmin"] = 1965,
-							["criticalamount"] = 4048,
-							["id"] = 53595,
-							["hitmax"] = 2220,
-							["targets"] = {
-								["Drakkari Rhino"] = {
-									["amount"] = 4185,
-								},
-								["Drakkari Raider"] = {
-									["amount"] = 6072,
-								},
-							},
-							["count"] = 4,
-							["hit"] = 3,
-							["casts"] = 2,
-							["critical"] = 1,
-							["amount"] = 10257,
-							["school"] = 2,
-							["criticalmin"] = 4048,
-							["criticalmax"] = 4048,
-							["hitamount"] = 6209,
-						},
-						["Holy Vengeance (DoT)"] = {
-							["hitmin"] = 117,
-							["id"] = 31803,
-							["targets"] = {
-								["Drakkari Raider"] = {
-									["amount"] = 501,
-								},
-								["Drakkari Rhino"] = {
-									["amount"] = 1511,
-								},
-							},
-							["hitmax"] = 645,
-							["count"] = 7,
-							["hit"] = 7,
-							["school"] = 2,
-							["resisted"] = 167,
-							["amount"] = 2012,
-							["hitamount"] = 2012,
-						},
-						["Seal of Vengeance"] = {
-							["hitmax"] = 323,
-							["hitmin"] = 58,
-							["criticalamount"] = 714,
-							["id"] = 42463,
-							["criticalmin"] = 186,
-							["targets"] = {
-								["Drakkari Rhino"] = {
-									["amount"] = 2672,
-								},
-							},
-							["criticalmax"] = 528,
-							["critical"] = 2,
-							["casts"] = 1,
-							["count"] = 10,
-							["hit"] = 8,
-							["school"] = 2,
-							["resisted"] = 18,
-							["amount"] = 2672,
-							["hitamount"] = 1958,
-						},
-					},
-					["absorb"] = 3038,
-					["damagetaken"] = 1240,
-					["id"] = "0x0700000000949DDC",
-					["spec"] = 66,
-					["damagetakenspells"] = {
-						["Deafening Roar"] = {
-							["total"] = 970,
-							["count"] = 1,
-							["amount"] = 0,
-							["school"] = 1,
-							["sources"] = {
-								["Drakkari Rhino"] = {
-									["total"] = 970,
-									["amount"] = 0,
-								},
-							},
-							["ABSORB"] = 1,
-							["id"] = 58992,
-						},
-						["Melee"] = {
-							["DODGE"] = 8,
-							["total"] = 3161,
-							["hitmin"] = 63,
-							["hitmax"] = 769,
-							["id"] = 6603,
-							["amount"] = 1093,
-							["hit"] = 4,
-							["PARRY"] = 2,
-							["ABSORB"] = 6,
-							["sources"] = {
-								["Drakkari Rhino"] = {
-									["total"] = 2363,
-									["amount"] = 956,
-								},
-								["Drakkari Raider"] = {
-									["total"] = 798,
-									["amount"] = 137,
-								},
-							},
-							["BLOCK"] = 5,
-							["blocked"] = 3792,
-							["school"] = 1,
-							["count"] = 30,
-							["MISS"] = 5,
-							["hitamount"] = 1093,
-						},
-						["Cleave"] = {
-							["DODGE"] = 2,
-							["hitmin"] = 147,
-							["id"] = 15496,
-							["hitmax"] = 147,
-							["amount"] = 147,
-							["sources"] = {
-								["Drakkari Raider"] = {
-									["amount"] = 147,
-								},
-							},
-							["BLOCK"] = 1,
-							["blocked"] = 136,
-							["school"] = 1,
-							["hit"] = 1,
-							["count"] = 4,
-							["hitamount"] = 147,
-						},
-					},
-					["name"] = "Gometius",
-					["totaldamage"] = 30447,
-					["class"] = "PALADIN",
-					["manaspells"] = {
-						[31786] = 636,
-						[54428] = 2020,
-						[57319] = 3220,
-					},
-				}, -- [2]
-				{
-					["last"] = 18305.714,
-					["flag"] = 1298,
-					["class"] = "PALADIN",
-					["auras"] = {
-						[48162] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 22,
-						},
-						[64999] = {
+						[50334] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["school"] = 1,
 							["uptime"] = 15,
 						},
-						[48942] = {
-							["type"] = "BUFF",
+						[16857] = {
+							["type"] = "DEBUFF",
 							["count"] = 1,
-							["uptime"] = 22,
-						},
-						[57623] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 22,
-						},
-						[25898] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 22,
-						},
-						[54153] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 22,
-						},
-						[25899] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 22,
-						},
-						[19746] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 22,
-						},
-						[57102] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 22,
-						},
-						[20166] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 22,
-						},
-						[28878] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 22,
-						},
-						[43002] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 22,
-						},
-						[3714] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 6,
-						},
-						[65000] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 64,
-							["refresh"] = 3,
-							["uptime"] = 10,
-						},
-						[54149] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 2,
-							["uptime"] = 4,
-						},
-						[72221] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 22,
-						},
-						[48074] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 22,
-						},
-						[48170] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 22,
+							["school"] = 8,
+							["targets"] = {
+								["Scourgelord Tyrannus"] = {
+									["uptime"] = 39,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 39,
 						},
 					},
-					["time"] = 14.22,
-					["totaldamagetaken"] = 1290,
-					["overheal"] = 39541,
-					["damagetaken"] = 1290,
-					["id"] = "0x070000000096902A",
-					["spec"] = 65,
-					["healspells"] = {
-						[66922] = {
-							["overheal"] = 6851,
-							["max"] = 662,
-							["count"] = 12,
-							["amount"] = 1101,
-							["school"] = 2,
-							["min"] = 63,
-							["ishot"] = true,
-							["targets"] = {
-								["Gometius"] = {
-									["overheal"] = 6851,
-									["amount"] = 1101,
-								},
-							},
-						},
-						[48785] = {
-							["overheal"] = 11682,
-							["criticalamount"] = 5484,
-							["max"] = 4343,
-							["targets"] = {
-								["Gometius"] = {
-									["overheal"] = 2465,
-									["amount"] = 4343,
-								},
-								["Urgash"] = {
-									["overheal"] = 9217,
-									["amount"] = 1600,
-								},
-							},
-							["criticalmin"] = 1141,
-							["min"] = 459,
-							["criticalmax"] = 4343,
-							["critical"] = 2,
-							["amount"] = 5943,
-							["school"] = 2,
-							["casts"] = 3,
-							["count"] = 3,
-						},
-						[20267] = {
-							["overheal"] = 703,
-							["targets"] = {
-								["Gometius"] = {
-									["overheal"] = 703,
-									["amount"] = 702,
-								},
-							},
-							["count"] = 2,
-							["amount"] = 702,
-							["school"] = 2,
-							["max"] = 702,
-							["ishot"] = true,
-							["min"] = 702,
-						},
-						[53654] = {
-							["overheal"] = 11466,
-							["count"] = 2,
-							["amount"] = 0,
-							["school"] = 2,
-							["targets"] = {
-								["Gometius"] = {
-									["overheal"] = 11466,
-									["amount"] = 0,
-								},
-							},
-						},
-						[48821] = {
-							["overheal"] = 8839,
-							["criticalamount"] = 0,
-							["targets"] = {
-								["Gometius"] = {
-									["overheal"] = 8839,
-									["amount"] = 0,
-								},
-							},
-							["criticalmax"] = 0,
-							["critical"] = 1,
-							["amount"] = 0,
-							["school"] = 2,
-							["count"] = 1,
-							["criticalmin"] = 0,
-						},
+					["energyspells"] = {
+						[51178] = 60,
 					},
-					["damagetakenspells"] = {
-						["Deafening Roar"] = {
-							["hitmin"] = 1290,
-							["id"] = 58992,
-							["sources"] = {
-								["Drakkari Rhino"] = {
-									["amount"] = 1290,
-								},
-							},
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 1,
-							["hitmax"] = 1290,
-							["amount"] = 1290,
-							["hitamount"] = 1290,
-						},
-						["Cleave"] = {
-							["sources"] = {
-								["Drakkari Raider"] = {
-									["amount"] = 0,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 0,
-							["school"] = 1,
-							["MISS"] = 1,
-							["id"] = 15496,
-						},
-					},
-					["heal"] = 7746,
-					["name"] = "Ynnou",
-					["manaspells"] = {
-						[20272] = 421,
-					},
-					["mana"] = 421,
-					["role"] = "HEALER",
-				}, -- [3]
-				{
-					["last"] = 18305.607,
-					["flag"] = 1298,
-					["class"] = "PRIEST",
-					["auras"] = {
-						[72416] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 64,
-							["uptime"] = 10,
-						},
-						[15473] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 22,
-						},
-						[48162] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 22,
-						},
-						[16595] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 22,
-						},
-						[48942] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 22,
-						},
-						[48168] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 22,
-						},
-						[48170] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 22,
-						},
-						[33198] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 32,
-							["refresh"] = 2,
-							["targets"] = {
-								["Drakkari Rhino"] = {
-									["count"] = 1,
-									["refresh"] = 2,
-									["uptime"] = 11,
-								},
-							},
-							["uptime"] = 11,
-						},
-						[19746] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 22,
-						},
-						[53755] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 22,
-						},
-						[48300] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 32,
-							["targets"] = {
-								["Drakkari Rhino"] = {
-									["uptime"] = 12,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 12,
-						},
-						[28878] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 22,
-						},
-						[57623] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 22,
-						},
-						[43002] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 22,
-						},
-						[53023] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 32,
-							["targets"] = {
-								["Drakkari Rhino"] = {
-									["uptime"] = 1,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 1,
-						},
-						[3714] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 6,
-						},
-						[48160] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 32,
-							["targets"] = {
-								["Drakkari Rhino"] = {
-									["uptime"] = 7,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 7,
-						},
-						[48301] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 32,
-							["targets"] = {
-								["Drakkari Rhino"] = {
-									["uptime"] = 8,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 8,
-						},
-						[48125] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 32,
-							["refresh"] = 1,
-							["targets"] = {
-								["Drakkari Rhino"] = {
-									["count"] = 1,
-									["refresh"] = 1,
-									["uptime"] = 11,
-								},
-							},
-							["uptime"] = 11,
-						},
-						[72221] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 22,
-						},
-						[15286] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 22,
-						},
-						[15258] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 32,
-							["refresh"] = 4,
-							["uptime"] = 20,
-						},
-						[15271] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 32,
-							["uptime"] = 8,
-						},
-						[48074] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 22,
-						},
-					},
-					["time"] = 14.13,
-					["totaldamagetaken"] = 1707,
-					["damage"] = 31838,
+					["time"] = 38.96,
+					["totaldamagetaken"] = 4521,
+					["damage"] = 269061,
+					["overheal"] = 3495,
 					["damagespells"] = {
-						["Mind Blast"] = {
-							["hitmin"] = 4269,
-							["id"] = 48127,
+						["Rip (DoT)"] = {
+							["hitmin"] = 2267,
+							["criticalamount"] = 51363,
+							["id"] = 49800,
 							["targets"] = {
-								["Drakkari Rhino"] = {
-									["amount"] = 4269,
+								["Scourgelord Tyrannus"] = {
+									["amount"] = 53630,
 								},
 							},
-							["casts"] = 1,
-							["count"] = 1,
+							["hitmax"] = 2267,
+							["count"] = 11,
+							["criticalmax"] = 5137,
+							["critical"] = 10,
+							["amount"] = 53630,
+							["school"] = 1,
 							["hit"] = 1,
-							["school"] = 32,
-							["hitmax"] = 4269,
-							["amount"] = 4269,
-							["hitamount"] = 4269,
+							["criticalmin"] = 5136,
+							["hitamount"] = 2267,
 						},
-						["Vampiric Touch (DoT)"] = {
-							["hitmin"] = 2195,
-							["criticalamount"] = 4589,
-							["id"] = 48160,
+						["Rake"] = {
+							["hitmin"] = 535,
+							["criticalamount"] = 4991,
+							["id"] = 48574,
+							["hitmax"] = 535,
 							["targets"] = {
-								["Drakkari Rhino"] = {
-									["amount"] = 6784,
-								},
-							},
-							["hitmax"] = 2195,
-							["count"] = 2,
-							["criticalmax"] = 4589,
-							["critical"] = 1,
-							["amount"] = 6784,
-							["school"] = 32,
-							["hit"] = 1,
-							["criticalmin"] = 4589,
-							["hitamount"] = 2195,
-						},
-						["Improved Devouring Plague"] = {
-							["hitmin"] = 2571,
-							["id"] = 63675,
-							["targets"] = {
-								["Drakkari Rhino"] = {
-									["amount"] = 2571,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 32,
-							["hitmax"] = 2571,
-							["amount"] = 2571,
-							["hitamount"] = 2571,
-						},
-						["Mind Flay"] = {
-							["hitmin"] = 2030,
-							["id"] = 58381,
-							["targets"] = {
-								["Drakkari Rhino"] = {
-									["overkill"] = 879,
-									["amount"] = 2030,
-								},
-							},
-							["overkill"] = 879,
-							["casts"] = 1,
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 32,
-							["hitmax"] = 2030,
-							["amount"] = 2030,
-							["hitamount"] = 2030,
-						},
-						["Devouring Plague (DoT)"] = {
-							["hitmin"] = 1574,
-							["criticalamount"] = 8368,
-							["id"] = 48300,
-							["hitmax"] = 1574,
-							["targets"] = {
-								["Drakkari Rhino"] = {
-									["amount"] = 9942,
+								["Scourgelord Tyrannus"] = {
+									["amount"] = 5526,
 								},
 							},
 							["count"] = 4,
 							["hit"] = 1,
-							["criticalmax"] = 3289,
+							["casts"] = 4,
 							["critical"] = 3,
-							["amount"] = 9942,
-							["school"] = 32,
-							["resisted"] = 447,
-							["criticalmin"] = 1791,
-							["hitamount"] = 1574,
+							["amount"] = 5526,
+							["school"] = 1,
+							["criticalmin"] = 1656,
+							["criticalmax"] = 1679,
+							["hitamount"] = 535,
 						},
-						["Shadow Word: Pain (DoT)"] = {
-							["hitmin"] = 1106,
-							["criticalamount"] = 5136,
-							["id"] = 48125,
-							["hit"] = 1,
+						["Rake (DoT)"] = {
+							["hitmin"] = 2664,
+							["id"] = 48574,
 							["targets"] = {
-								["Drakkari Rhino"] = {
-									["amount"] = 6242,
+								["Scourgelord Tyrannus"] = {
+									["amount"] = 24171,
 								},
 							},
-							["hitmax"] = 1106,
-							["count"] = 3,
-							["criticalmax"] = 2568,
+							["count"] = 9,
+							["hit"] = 9,
+							["school"] = 1,
+							["hitmax"] = 2729,
+							["amount"] = 24171,
+							["hitamount"] = 24171,
+						},
+						["Ferocious Bite"] = {
+							["criticalamount"] = 38034,
+							["id"] = 48577,
+							["targets"] = {
+								["Scourgelord Tyrannus"] = {
+									["amount"] = 38034,
+								},
+							},
+							["casts"] = 2,
 							["critical"] = 2,
-							["amount"] = 6242,
-							["school"] = 32,
-							["resisted"] = 122,
-							["criticalmin"] = 2568,
-							["hitamount"] = 1106,
+							["amount"] = 38034,
+							["school"] = 1,
+							["criticalmin"] = 17511,
+							["criticalmax"] = 20523,
+							["count"] = 2,
+						},
+						["Mangle (Cat)"] = {
+							["hitmin"] = 2356,
+							["id"] = 48566,
+							["targets"] = {
+								["Scourgelord Tyrannus"] = {
+									["amount"] = 2356,
+								},
+							},
+							["casts"] = 1,
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 1,
+							["hitmax"] = 2356,
+							["amount"] = 2356,
+							["hitamount"] = 2356,
+						},
+						["Shred"] = {
+							["hitmin"] = 5879,
+							["criticalamount"] = 79061,
+							["id"] = 48572,
+							["criticalmin"] = 10523,
+							["targets"] = {
+								["Scourgelord Tyrannus"] = {
+									["amount"] = 84940,
+								},
+							},
+							["criticalmax"] = 14164,
+							["critical"] = 7,
+							["casts"] = 8,
+							["count"] = 8,
+							["hit"] = 1,
+							["school"] = 1,
+							["hitmax"] = 5879,
+							["amount"] = 84940,
+							["hitamount"] = 5879,
+						},
+						["Melee"] = {
+							["glance"] = 4626,
+							["criticalamount"] = 55778,
+							["id"] = 6603,
+							["targets"] = {
+								["Scourgelord Tyrannus"] = {
+									["amount"] = 60404,
+								},
+							},
+							["count"] = 29,
+							["glancing"] = 6,
+							["criticalmax"] = 3115,
+							["critical"] = 23,
+							["amount"] = 60404,
+							["school"] = 1,
+							["glancemax"] = 1008,
+							["criticalmin"] = 1604,
+							["glancemin"] = 573,
 						},
 					},
-					["damagetaken"] = 1707,
-					["id"] = "0x07000000006FE7EF",
-					["spec"] = 258,
+					["damagetaken"] = 4521,
+					["id"] = "0x07000000008B24DB",
+					["spec"] = 103,
 					["healspells"] = {
-						[15290] = {
-							["overheal"] = 8352,
-							["targets"] = {
-								["Gometius"] = {
-									["overheal"] = 1098,
-									["amount"] = 248,
-								},
-								["Urgash"] = {
-									["overheal"] = 339,
-									["amount"] = 929,
-								},
-								["Wormcatcher"] = {
-									["overheal"] = 0,
-									["amount"] = 1207,
-								},
-								["Wubobo"] = {
-									["overheal"] = 1346,
-									["amount"] = 0,
-								},
-								["Ynnou"] = {
-									["overheal"] = 0,
-									["amount"] = 1411,
-								},
-								["Zaralar"] = {
-									["overheal"] = 5569,
-									["amount"] = 1159,
-								},
-							},
-							["count"] = 72,
-							["amount"] = 4954,
-							["school"] = 32,
-							["max"] = 694,
+						[34299] = {
+							["overheal"] = 3495,
+							["max"] = 699,
+							["count"] = 6,
+							["amount"] = 699,
+							["school"] = 1,
+							["min"] = 699,
 							["ishot"] = true,
-							["min"] = 42,
-						},
-						[75999] = {
-							["overheal"] = 532,
-							["criticalamount"] = 0,
 							["targets"] = {
-								["Zaralar"] = {
-									["overheal"] = 532,
-									["amount"] = 0,
-								},
-							},
-							["criticalmax"] = 0,
-							["critical"] = 1,
-							["amount"] = 0,
-							["school"] = 32,
-							["count"] = 1,
-							["criticalmin"] = 0,
-						},
-						[48300] = {
-							["overheal"] = 1108,
-							["max"] = 548,
-							["count"] = 4,
-							["amount"] = 548,
-							["school"] = 32,
-							["min"] = 548,
-							["targets"] = {
-								["Zaralar"] = {
-									["overheal"] = 1108,
-									["amount"] = 548,
+								["Zyablik"] = {
+									["overheal"] = 3495,
+									["amount"] = 699,
 								},
 							},
 						},
 					},
 					["damagetakenspells"] = {
-						["Deafening Roar"] = {
-							["hitmin"] = 1707,
-							["id"] = 58992,
+						["Icy Blast"] = {
+							["hitmin"] = 4521,
+							["id"] = 69646,
+							["hitmax"] = 4521,
 							["sources"] = {
-								["Drakkari Rhino"] = {
-									["amount"] = 1707,
+								["Rimefang"] = {
+									["amount"] = 4521,
 								},
 							},
 							["count"] = 1,
 							["hit"] = 1,
-							["school"] = 1,
-							["hitmax"] = 1707,
-							["amount"] = 1707,
-							["hitamount"] = 1707,
+							["school"] = 16,
+							["resisted"] = 1130,
+							["amount"] = 4521,
+							["hitamount"] = 4521,
+						},
+						["Hoarfrost"] = {
+							["sources"] = {
+								["Rimefang"] = {
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+							["school"] = 16,
+							["RESIST"] = 1,
+							["id"] = 69645,
 						},
 					},
-					["heal"] = 5502,
-					["name"] = "Zaralar",
-					["overkill"] = 879,
-					["overheal"] = 9992,
-					["totaldamage"] = 31838,
+					["manaspells"] = {
+						[68285] = 2178,
+					},
+					["heal"] = 699,
+					["name"] = "Zyablik",
+					["totaldamage"] = 269061,
+					["class"] = "DRUID",
+					["energy"] = 60,
 					["role"] = "DAMAGER",
 				}, -- [4]
 				{
-					["last"] = 18291.486,
-					["id"] = "0x0700000000975314",
-					["spec"] = 63,
-					["auras"] = {
-						[72221] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 22,
-						},
-						[3714] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 6,
-						},
-						[57623] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 22,
-						},
-						[45548] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 22,
-						},
-						[6562] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 22,
-						},
-						[57073] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 22,
-						},
-						[48073] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 22,
-						},
-						[43046] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 22,
-						},
-						[48161] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 22,
-						},
-						[48169] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 22,
-						},
-						[48942] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 20,
-						},
-						[19746] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 22,
-						},
-						[42995] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 22,
-						},
-					},
-					["role"] = "DAMAGER",
-					["name"] = "Wubobo",
+					["last"] = 18871.822,
 					["flag"] = 1298,
-					["time"] = 0,
-					["class"] = "MAGE",
-				}, -- [5]
-			},
-			["type"] = "party",
-			["damagetaken"] = 7815,
-			["etotaldamage"] = 10853,
-			["starttime"] = 1689592511,
-			["absorb"] = 3038,
-			["overkill"] = 2509,
-			["edamagetaken"] = 174711,
-			["heal"] = 14297,
-			["name"] = "Drakkari Raider",
-			["mobname"] = "Drakkari Raider",
-			["edamage"] = 7815,
-			["last_action"] = 1689592533,
-			["endtime"] = 1689592533,
-		}, -- [2]
-		{
-			["mana"] = 2213,
-			["enemies"] = {
-				{
-					["damagespells"] = {
-						[6603] = {
-							["school"] = 1,
-							["targets"] = {
-								["Gometius"] = {
-									["amount"] = 131,
-								},
-								["Urgash"] = {
-									["amount"] = 417,
-								},
-								["Ynnou"] = {
-									["amount"] = 353,
-								},
-							},
-							["amount"] = 901,
-						},
-					},
-					["damagetaken"] = 36963,
-					["flag"] = 68168,
-					["class"] = "MONSTER",
-					["damagetakenspells"] = {
-						[55095] = {
-							["school"] = 16,
-							["sources"] = {
-								["Urgash"] = {
-									["overkill"] = 724,
-									["amount"] = 1340,
-								},
-							},
-							["overkill"] = 724,
-							["amount"] = 1340,
-						},
-						[50526] = {
-							["school"] = 32,
-							["sources"] = {
-								["Urgash"] = {
-									["overkill"] = 763,
-									["amount"] = 2600,
-								},
-							},
-							["overkill"] = 763,
-							["amount"] = 2600,
-						},
-						[49921] = {
-							["school"] = 1,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 2355,
-								},
-							},
-							["amount"] = 2355,
-						},
-						[47632] = {
-							["school"] = 32,
-							["sources"] = {
-								["Urgash"] = {
-									["overkill"] = 615,
-									["amount"] = 7323,
-								},
-							},
-							["overkill"] = 615,
-							["amount"] = 7323,
-						},
-						[49909] = {
-							["school"] = 16,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 3353,
-								},
-							},
-							["amount"] = 3353,
-						},
-						[47468] = {
-							["school"] = 1,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 3028,
-								},
-							},
-							["amount"] = 3028,
-						},
-						[51460] = {
-							["school"] = 32,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 2365,
-								},
-							},
-							["amount"] = 2365,
-						},
-						[6603] = {
-							["school"] = 1,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 14599,
-								},
-							},
-							["amount"] = 14599,
-						},
-					},
-					["name"] = "Drakkari Frenzy",
-					["totaldamage"] = 901,
-					["totaldamagetaken"] = 36963,
-					["id"] = "0xF13000748A0000C5",
-					["damage"] = 901,
-				}, -- [1]
-			},
-			["damage"] = 36963,
-			["totaldamage"] = 36963,
-			["time"] = 13,
-			["totaldamagetaken"] = 901,
-			["etotaldamagetaken"] = 36963,
-			["last_time"] = 18275.322,
-			["overheal"] = 23880,
-			["type"] = "party",
-			["damagetaken"] = 901,
-			["etotaldamage"] = 901,
-			["starttime"] = 1689592483,
-			["overkill"] = 2102,
-			["edamagetaken"] = 36963,
-			["heal"] = 18984,
-			["name"] = "Drakkari Frenzy",
-			["mobname"] = "Drakkari Frenzy",
-			["players"] = {
-				{
-					["last"] = 18272.739,
-					["flag"] = 1297,
-					["class"] = "DEATHKNIGHT",
+					["mana"] = 7524,
 					["auras"] = {
-						[75456] = {
+						[24932] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 64,
-							["uptime"] = 8,
+							["uptime"] = 45,
+						},
+						[48470] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 45,
+						},
+						[48068] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 2,
+							["uptime"] = 15,
 						},
 						[48162] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 13,
-						},
-						[55078] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 32,
-							["targets"] = {
-								["Drakkari Frenzy"] = {
-									["uptime"] = 2,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 2,
-						},
-						[48942] = {
-							["type"] = "BUFF",
-							["count"] = 3,
-							["school"] = 2,
-							["uptime"] = 7,
-						},
-						[57623] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 13,
-						},
-						[48170] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 13,
-						},
-						[19746] = {
-							["type"] = "BUFF",
-							["count"] = 3,
-							["school"] = 2,
-							["uptime"] = 4,
-						},
-						[48266] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 13,
-						},
-						[43002] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 13,
-						},
-						[50536] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 32,
-							["targets"] = {
-								["Drakkari Frenzy"] = {
-									["uptime"] = 1,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 1,
-						},
-						[55095] = {
-							["type"] = "DEBUFF",
-							["count"] = 2,
-							["school"] = 16,
-							["targets"] = {
-								["Drakkari Frenzy"] = {
-									["uptime"] = 3,
-									["count"] = 2,
-								},
-							},
-							["uptime"] = 3,
-						},
-						[72221] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 13,
-						},
-						[48074] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 13,
-						},
-						[3714] = {
-							["type"] = "BUFF",
-							["count"] = 4,
-							["school"] = 1,
-							["uptime"] = 3,
-						},
-						[71905] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["refresh"] = 3,
-							["uptime"] = 12,
-						},
-						[51735] = {
-							["type"] = "DEBUFF",
-							["count"] = 3,
-							["school"] = 32,
-							["targets"] = {
-								["Drakkari Frenzy"] = {
-									["uptime"] = 5,
-									["count"] = 3,
-								},
-							},
-							["uptime"] = 5,
-						},
-						[66803] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 3,
-						},
-						[58578] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["refresh"] = 1,
-							["uptime"] = 12,
-						},
-					},
-					["time"] = 9.030000000000001,
-					["totaldamagetaken"] = 417,
-					["damage"] = 36963,
-					["damagespells"] = {
-						["Melee"] = {
-							["glance"] = 2865,
-							["hitmin"] = 2701,
-							["criticalmin"] = 6546,
-							["targets"] = {
-								["Drakkari Frenzy"] = {
-									["amount"] = 12112,
-								},
-							},
-							["glancing"] = 1,
-							["amount"] = 12112,
-							["glancemin"] = 2865,
-							["criticalamount"] = 6546,
-							["id"] = 6603,
-							["glancemax"] = 2865,
-							["criticalmax"] = 6546,
-							["count"] = 3,
-							["hit"] = 1,
-							["school"] = 1,
-							["hitmax"] = 2701,
-							["critical"] = 1,
-							["hitamount"] = 2701,
-						},
-						["Death Coil"] = {
-							["hitmin"] = 3644,
-							["id"] = 47632,
-							["targets"] = {
-								["Drakkari Frenzy"] = {
-									["overkill"] = 615,
-									["amount"] = 7323,
-								},
-							},
-							["overkill"] = 615,
-							["hitmax"] = 3679,
-							["casts"] = 2,
-							["count"] = 2,
-							["hit"] = 2,
-							["school"] = 32,
-							["resisted"] = 408,
-							["amount"] = 7323,
-							["hitamount"] = 7323,
-						},
-						["Wandering Plague"] = {
-							["hitmin"] = 1221,
-							["id"] = 50526,
-							["targets"] = {
-								["Drakkari Frenzy"] = {
-									["overkill"] = 763,
-									["amount"] = 2600,
-								},
-							},
-							["overkill"] = 763,
-							["casts"] = 1,
-							["count"] = 2,
-							["hit"] = 2,
-							["school"] = 32,
-							["hitmax"] = 1379,
-							["amount"] = 2600,
-							["hitamount"] = 2600,
-						},
-						["Claw (Wormcatcher)"] = {
-							["hitmin"] = 738,
-							["id"] = 47468,
-							["targets"] = {
-								["Drakkari Frenzy"] = {
-									["amount"] = 3028,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 4,
-							["hit"] = 4,
-							["school"] = 1,
-							["hitmax"] = 772,
-							["amount"] = 3028,
-							["hitamount"] = 3028,
-						},
-						["Necrosis"] = {
-							["hitmin"] = 516,
-							["id"] = 51460,
-							["targets"] = {
-								["Drakkari Frenzy"] = {
-									["amount"] = 2365,
-								},
-							},
-							["hitmax"] = 1309,
-							["casts"] = 1,
-							["count"] = 3,
-							["hit"] = 3,
-							["school"] = 32,
-							["resisted"] = 57,
-							["amount"] = 2365,
-							["hitamount"] = 2365,
-						},
-						["Melee (Wormcatcher)"] = {
-							["glance"] = 446,
-							["hitmin"] = 500,
-							["id"] = 6603,
-							["glancemax"] = 446,
-							["hitmax"] = 526,
-							["glancing"] = 1,
-							["hitamount"] = 2041,
-							["count"] = 5,
-							["amount"] = 2487,
-							["school"] = 1,
-							["hit"] = 4,
-							["targets"] = {
-								["Drakkari Frenzy"] = {
-									["amount"] = 2487,
-								},
-							},
-							["glancemin"] = 446,
-						},
-						["Plague Strike"] = {
-							["hitmin"] = 2355,
-							["id"] = 49921,
-							["targets"] = {
-								["Drakkari Frenzy"] = {
-									["amount"] = 2355,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 1,
-							["hitmax"] = 2355,
-							["amount"] = 2355,
-							["hitamount"] = 2355,
-						},
-						["Frost Fever (DoT)"] = {
-							["hitmin"] = 1340,
-							["id"] = 55095,
-							["targets"] = {
-								["Drakkari Frenzy"] = {
-									["overkill"] = 724,
-									["amount"] = 1340,
-								},
-							},
-							["overkill"] = 724,
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 16,
-							["hitmax"] = 1340,
-							["amount"] = 1340,
-							["hitamount"] = 1340,
-						},
-						["Icy Touch"] = {
-							["hitmin"] = 1661,
-							["id"] = 49909,
-							["targets"] = {
-								["Drakkari Frenzy"] = {
-									["amount"] = 3353,
-								},
-							},
-							["casts"] = 2,
-							["count"] = 2,
-							["hit"] = 2,
-							["school"] = 16,
-							["hitmax"] = 1692,
-							["amount"] = 3353,
-							["hitamount"] = 3353,
-						},
-					},
-					["damagetaken"] = 417,
-					["id"] = "0x070000000000D01B",
-					["spec"] = 252,
-					["healspells"] = {
-						[50475] = {
-							["overheal"] = 609,
-							["max"] = 113,
-							["count"] = 8,
-							["amount"] = 417,
-							["school"] = 1,
-							["min"] = 99,
-							["ishot"] = true,
-							["targets"] = {
-								["Urgash"] = {
-									["overheal"] = 609,
-									["amount"] = 417,
-								},
-							},
-						},
-					},
-					["damagetakenspells"] = {
-						["Melee"] = {
-							["hitmin"] = 200,
-							["id"] = 6603,
-							["amount"] = 417,
-							["sources"] = {
-								["Drakkari Frenzy"] = {
-									["amount"] = 417,
-								},
-							},
-							["count"] = 3,
-							["hit"] = 2,
-							["school"] = 1,
-							["hitmax"] = 217,
-							["MISS"] = 1,
-							["hitamount"] = 417,
-						},
-					},
-					["heal"] = 417,
-					["name"] = "Urgash",
-					["overkill"] = 2102,
-					["overheal"] = 609,
-					["totaldamage"] = 36963,
-					["role"] = "DAMAGER",
-				}, -- [1]
-				{
-					["last"] = 18263.692,
-					["damagetaken"] = 131,
-					["id"] = "0x0700000000949DDC",
-					["spec"] = 66,
-					["auras"] = {
-						[6562] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 13,
-						},
-						[48162] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 13,
+							["uptime"] = 45,
 						},
 						[31801] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 13,
+							["uptime"] = 45,
 						},
-						[48942] = {
+						[63944] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 13,
+							["uptime"] = 40,
+						},
+						[20053] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["refresh"] = 12,
+							["uptime"] = 42,
+						},
+						[48074] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 45,
 						},
 						[57623] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 13,
+							["refresh"] = 1,
+							["uptime"] = 45,
 						},
 						[25898] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 13,
-						},
-						[48170] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 13,
-						},
-						[25899] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 13,
-						},
-						[19746] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 13,
-						},
-						[53601] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 13,
-						},
-						[43002] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 13,
-						},
-						[25780] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 13,
-						},
-						[3714] = {
-							["type"] = "BUFF",
-							["count"] = 2,
-							["school"] = 1,
-							["uptime"] = 5,
-						},
-						[58597] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 2,
-							["uptime"] = 3,
+							["uptime"] = 45,
 						},
 						[72221] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 13,
+							["uptime"] = 45,
 						},
-						[48074] = {
+						[25899] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 13,
+							["uptime"] = 45,
 						},
-						[53563] = {
+						[48066] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 13,
+							["uptime"] = 15,
 						},
-					},
-					["damagetakenspells"] = {
-						["Melee"] = {
-							["hitmin"] = 131,
-							["id"] = 6603,
-							["sources"] = {
-								["Drakkari Frenzy"] = {
-									["amount"] = 131,
-								},
-							},
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 1,
-							["hitmax"] = 131,
-							["amount"] = 131,
-							["hitamount"] = 131,
-						},
-					},
-					["role"] = "TANK",
-					["name"] = "Gometius",
-					["flag"] = 1298,
-					["totaldamagetaken"] = 131,
-					["time"] = 0,
-					["class"] = "PALADIN",
-				}, -- [2]
-				{
-					["last"] = 18265.22,
-					["flag"] = 1298,
-					["class"] = "PALADIN",
-					["auras"] = {
-						[48162] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 13,
-						},
-						[54428] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 2,
-							["uptime"] = 4,
-						},
-						[48074] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 13,
-						},
-						[31834] = {
-							["type"] = "BUFF",
+						[48819] = {
+							["type"] = "DEBUFF",
 							["count"] = 2,
 							["school"] = 2,
+							["targets"] = {
+								["Scourgelord Tyrannus"] = {
+									["uptime"] = 12,
+									["count"] = 2,
+								},
+							},
 							["uptime"] = 12,
 						},
-						[25898] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 13,
-						},
-						[54153] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 13,
-						},
-						[25899] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 13,
-						},
-						[19746] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 13,
-						},
-						[57102] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 13,
-						},
-						[20166] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 13,
-						},
-						[28878] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 13,
-						},
-						[43002] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 13,
-						},
-						[3714] = {
+						[59578] = {
 							["type"] = "BUFF",
 							["count"] = 2,
 							["school"] = 1,
-							["uptime"] = 5,
+							["refresh"] = 10,
+							["uptime"] = 29,
 						},
-						[72221] = {
+						[31884] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 13,
-						},
-						[48942] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 13,
-						},
-						[48170] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 13,
-						},
-						[57623] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 13,
-						},
-					},
-					["time"] = 1.53,
-					["totaldamagetaken"] = 353,
-					["overheal"] = 20033,
-					["damagetaken"] = 353,
-					["id"] = "0x070000000096902A",
-					["spec"] = 65,
-					["healspells"] = {
-						[53654] = {
-							["overheal"] = 18292,
-							["count"] = 1,
-							["amount"] = 0,
 							["school"] = 2,
-							["targets"] = {
-								["Gometius"] = {
-									["overheal"] = 18292,
-									["amount"] = 0,
-								},
-							},
+							["uptime"] = 20,
 						},
-						[54968] = {
-							["overheal"] = 0,
-							["count"] = 1,
-							["amount"] = 2016,
-							["school"] = 2,
-							["max"] = 2016,
-							["targets"] = {
-								["Ynnou"] = {
-									["overheal"] = 0,
-									["amount"] = 2016,
-								},
-							},
-							["min"] = 2016,
-						},
-						[48782] = {
-							["overheal"] = 1741,
-							["criticalamount"] = 16551,
-							["max"] = 16551,
-							["targets"] = {
-								["Wubobo"] = {
-									["overheal"] = 1741,
-									["amount"] = 16551,
-								},
-							},
-							["min"] = 16551,
-							["criticalmax"] = 16551,
-							["critical"] = 1,
-							["amount"] = 16551,
-							["school"] = 2,
-							["casts"] = 2,
-							["criticalmin"] = 16551,
-							["count"] = 1,
-						},
-					},
-					["damagetakenspells"] = {
-						["Melee"] = {
-							["hitmin"] = 176,
-							["id"] = 6603,
-							["sources"] = {
-								["Drakkari Frenzy"] = {
-									["amount"] = 353,
-								},
-							},
-							["count"] = 2,
-							["hit"] = 2,
-							["school"] = 1,
-							["hitmax"] = 177,
-							["amount"] = 353,
-							["hitamount"] = 353,
-						},
-					},
-					["heal"] = 18567,
-					["name"] = "Ynnou",
-					["manaspells"] = {
-						[20272] = 382,
-						[54428] = 1831,
-					},
-					["mana"] = 2213,
-					["role"] = "HEALER",
-				}, -- [3]
-				{
-					["overheal"] = 3238,
-					["last"] = 18263.692,
-					["id"] = "0x07000000006FE7EF",
-					["spec"] = 258,
-					["healspells"] = {
-						[48068] = {
-							["overheal"] = 3238,
-							["count"] = 2,
-							["amount"] = 0,
-							["school"] = 2,
-							["ishot"] = true,
-							["targets"] = {
-								["Wubobo"] = {
-									["overheal"] = 3238,
-									["amount"] = 0,
-								},
-							},
-						},
-					},
-					["auras"] = {
-						[72221] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 13,
-						},
-						[15286] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 13,
-						},
-						[28878] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 13,
-						},
-						[3714] = {
+						[71396] = {
 							["type"] = "BUFF",
 							["count"] = 2,
 							["school"] = 1,
-							["uptime"] = 5,
+							["refresh"] = 22,
+							["uptime"] = 41,
 						},
-						[57623] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 13,
-						},
-						[48942] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 13,
-						},
-						[19746] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 13,
-						},
-						[43002] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 13,
-						},
-						[53755] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 13,
-						},
-						[16595] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 13,
-						},
-						[48074] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 13,
-						},
-						[15473] = {
-							["type"] = "BUFF",
+						[61840] = {
+							["type"] = "DEBUFF",
 							["count"] = 2,
-							["school"] = 32,
-							["uptime"] = 9,
-						},
-						[48162] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 13,
-						},
-						[48170] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 13,
-						},
-						[48168] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 13,
-						},
-					},
-					["heal"] = 0,
-					["role"] = "DAMAGER",
-					["name"] = "Zaralar",
-					["flag"] = 1298,
-					["time"] = 0,
-					["class"] = "PRIEST",
-				}, -- [4]
-				{
-					["last"] = 18263.692,
-					["id"] = "0x0700000000975314",
-					["spec"] = 63,
-					["auras"] = {
-						[72221] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 13,
-						},
-						[3714] = {
-							["type"] = "BUFF",
-							["count"] = 2,
-							["school"] = 1,
-							["uptime"] = 4,
-						},
-						[48068] = {
-							["type"] = "BUFF",
-							["count"] = 1,
 							["school"] = 2,
-							["uptime"] = 8,
+							["refresh"] = 4,
+							["targets"] = {
+								["Scourgelord Tyrannus"] = {
+									["count"] = 2,
+									["refresh"] = 4,
+									["uptime"] = 20,
+								},
+							},
+							["uptime"] = 20,
 						},
-						[6562] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 13,
-						},
-						[48073] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 2,
-							["uptime"] = 11,
-						},
-						[43046] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 4,
-							["uptime"] = 11,
-						},
-						[48161] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 13,
-						},
-						[48169] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 32,
-							["uptime"] = 10,
-						},
-						[48942] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 13,
-						},
-						[19746] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 13,
-						},
-						[42995] = {
+						[71541] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["school"] = 64,
-							["uptime"] = 12,
+							["uptime"] = 15,
 						},
-					},
-					["role"] = "DAMAGER",
-					["name"] = "Wubobo",
-					["flag"] = 1298,
-					["time"] = 0,
-					["class"] = "MAGE",
-				}, -- [5]
-			},
-			["edamage"] = 901,
-			["last_action"] = 1689592495,
-			["endtime"] = 1689592496,
-		}, -- [3]
-		{
-			["eoverkill"] = 594,
-			["enemies"] = {
-				{
-					["damagespells"] = {
-						[6603] = {
-							["school"] = 1,
-							["total"] = 5623,
+						[26017] = {
+							["type"] = "DEBUFF",
+							["count"] = 7,
+							["school"] = 2,
+							["refresh"] = 11,
 							["targets"] = {
-								["Gometius"] = {
-									["total"] = 283,
-									["amount"] = 0,
-								},
-								["Urgash"] = {
-									["amount"] = 5340,
+								["Scourgelord Tyrannus"] = {
+									["count"] = 7,
+									["refresh"] = 11,
+									["uptime"] = 20,
 								},
 							},
-							["amount"] = 5340,
+							["uptime"] = 20,
 						},
-						[59839] = {
+						[71187] = {
+							["type"] = "BUFF",
+							["count"] = 2,
 							["school"] = 8,
-							["targets"] = {
-								["Gometius"] = {
-									["amount"] = 4574,
-								},
-							},
-							["amount"] = 4574,
+							["refresh"] = 3,
+							["uptime"] = 37,
 						},
-						[59840] = {
-							["school"] = 1,
-							["targets"] = {
-								["Gometius"] = {
-									["amount"] = 8472,
-								},
-							},
-							["amount"] = 8472,
-						},
-						[59842] = {
-							["school"] = 8,
-							["total"] = 15010,
-							["targets"] = {
-								["Wubobo"] = {
-									["amount"] = 12134,
-								},
-								["Urgash"] = {
-									["total"] = 6476,
-									["amount"] = 1619,
-								},
-								["Gometius"] = {
-									["total"] = 20802,
-									["amount"] = 16951,
-								},
-								["Ynnou"] = {
-									["amount"] = 29280,
-								},
-							},
-							["amount"] = 59984,
-						},
-					},
-					["damagetaken"] = 324901,
-					["flag"] = 68168,
-					["class"] = "BOSS",
-					["damagetakenspells"] = {
-						[42859] = {
-							["school"] = 4,
-							["sources"] = {
-								["Wubobo"] = {
-									["amount"] = 2552,
-								},
-							},
-							["amount"] = 2552,
-						},
-						[49921] = {
-							["school"] = 1,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 2000,
-								},
-							},
-							["amount"] = 2000,
-						},
-						[47468] = {
-							["school"] = 1,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 4792,
-								},
-							},
-							["amount"] = 4792,
-						},
-						[55095] = {
-							["school"] = 16,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 7732,
-								},
-							},
-							["amount"] = 7732,
-						},
-						[54158] = {
+						[59620] = {
+							["type"] = "BUFF",
+							["count"] = 1,
 							["school"] = 2,
-							["sources"] = {
-								["Ynnou"] = {
-									["amount"] = 1189,
-								},
-							},
-							["amount"] = 1189,
-						},
-						[58381] = {
-							["school"] = 32,
-							["sources"] = {
-								["Zaralar"] = {
-									["amount"] = 32546,
-								},
-							},
-							["amount"] = 32546,
-						},
-						[63675] = {
-							["school"] = 32,
-							["sources"] = {
-								["Zaralar"] = {
-									["amount"] = 6011,
-								},
-							},
-							["amount"] = 6011,
-						},
-						[61411] = {
-							["school"] = 2,
-							["sources"] = {
-								["Gometius"] = {
-									["amount"] = 2821,
-								},
-							},
-							["amount"] = 2821,
-						},
-						[42891] = {
-							["school"] = 4,
-							["sources"] = {
-								["Wubobo"] = {
-									["amount"] = 8343,
-								},
-							},
-							["amount"] = 8343,
-						},
-						[48819] = {
-							["school"] = 2,
-							["sources"] = {
-								["Gometius"] = {
-									["amount"] = 5591,
-								},
-							},
-							["amount"] = 5591,
-						},
-						[50526] = {
-							["school"] = 32,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 7737,
-								},
-							},
-							["amount"] = 7737,
-						},
-						[47632] = {
-							["school"] = 32,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 12814,
-								},
-							},
-							["amount"] = 12814,
-						},
-						[50536] = {
-							["school"] = 32,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 883,
-								},
-							},
-							["amount"] = 883,
-						},
-						[12654] = {
-							["school"] = 4,
-							["sources"] = {
-								["Wubobo"] = {
-									["amount"] = 14322,
-								},
-							},
-							["amount"] = 14322,
-						},
-						[55078] = {
-							["school"] = 32,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 5846,
-								},
-							},
-							["amount"] = 5846,
-						},
-						[71904] = {
-							["school"] = 32,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 565,
-								},
-							},
-							["amount"] = 565,
-						},
-						[55271] = {
-							["school"] = 1,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 21911,
-								},
-							},
-							["amount"] = 21911,
-						},
-						[48160] = {
-							["school"] = 32,
-							["sources"] = {
-								["Zaralar"] = {
-									["amount"] = 21994,
-								},
-							},
-							["amount"] = 21994,
+							["uptime"] = 15,
 						},
 						[31803] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
 							["school"] = 2,
-							["sources"] = {
-								["Gometius"] = {
-									["amount"] = 3851,
+							["refresh"] = 8,
+							["targets"] = {
+								["Scourgelord Tyrannus"] = {
+									["count"] = 1,
+									["refresh"] = 8,
+									["uptime"] = 36,
 								},
 							},
-							["amount"] = 3851,
+							["uptime"] = 36,
 						},
-						[31804] = {
-							["school"] = 2,
-							["sources"] = {
-								["Gometius"] = {
-									["amount"] = 1533,
-								},
-							},
-							["amount"] = 1533,
-						},
-						[48300] = {
-							["school"] = 32,
-							["sources"] = {
-								["Zaralar"] = {
-									["amount"] = 16632,
-								},
-							},
-							["amount"] = 16632,
-						},
-						[55360] = {
-							["school"] = 4,
-							["sources"] = {
-								["Wubobo"] = {
-									["amount"] = 4080,
-								},
-							},
-							["amount"] = 4080,
-						},
-						[55362] = {
-							["school"] = 4,
-							["sources"] = {
-								["Wubobo"] = {
-									["amount"] = 1592,
-								},
-							},
-							["amount"] = 1592,
-						},
-						[51460] = {
-							["school"] = 32,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 6423,
-								},
-							},
-							["amount"] = 6423,
-						},
-						[48125] = {
-							["school"] = 32,
-							["sources"] = {
-								["Zaralar"] = {
-									["amount"] = 12800,
-								},
-							},
-							["amount"] = 12800,
-						},
-						[48127] = {
-							["school"] = 32,
-							["sources"] = {
-								["Zaralar"] = {
-									["amount"] = 5081,
-								},
-							},
-							["amount"] = 5081,
-						},
-						[42463] = {
-							["school"] = 2,
-							["sources"] = {
-								["Gometius"] = {
-									["amount"] = 4448,
-								},
-							},
-							["amount"] = 4448,
-						},
-						[48952] = {
-							["school"] = 2,
-							["sources"] = {
-								["Gometius"] = {
-									["amount"] = 760,
-								},
-							},
-							["amount"] = 760,
-						},
-						[49930] = {
-							["school"] = 1,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 9627,
-								},
-							},
-							["amount"] = 9627,
-						},
-						[47610] = {
-							["school"] = 20,
-							["sources"] = {
-								["Wubobo"] = {
-									["amount"] = 23220,
-								},
-							},
-							["amount"] = 23220,
-						},
-						[50463] = {
-							["school"] = 1,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 3386,
-								},
-							},
-							["amount"] = 3386,
-						},
-						[53595] = {
-							["school"] = 2,
-							["sources"] = {
-								["Gometius"] = {
-									["amount"] = 8843,
-								},
-							},
-							["amount"] = 8843,
-						},
-						[6603] = {
-							["school"] = 1,
-							["sources"] = {
-								["Gometius"] = {
-									["amount"] = 8732,
-								},
-								["Urgash"] = {
-									["overkill"] = 3469,
-									["amount"] = 37921,
-								},
-							},
-							["overkill"] = 3469,
-							["amount"] = 46653,
-						},
-						[70890] = {
-							["school"] = 32,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 11388,
-								},
-							},
-							["amount"] = 11388,
-						},
-						[49909] = {
-							["school"] = 16,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 2814,
-								},
-							},
-							["amount"] = 2814,
-						},
-						[67485] = {
-							["school"] = 2,
-							["sources"] = {
-								["Gometius"] = {
-									["amount"] = 2121,
-								},
-							},
-							["amount"] = 2121,
-						},
-					},
-					["name"] = "Slad'ran",
-					["totaldamage"] = 87361,
-					["totaldamagetaken"] = 324901,
-					["id"] = "0xF130007278000025",
-					["damage"] = 78370,
-				}, -- [1]
-				{
-					["damagespells"] = {
-						[58996] = {
-							["total"] = 3223,
-							["amount"] = 12971,
+						[57669] = {
 							["school"] = 8,
-							["targets"] = {
-								["Gometius"] = {
-									["total"] = 8719,
-									["amount"] = 5564,
-								},
-								["Wubobo"] = {
-									["overkill"] = 594,
-									["amount"] = 7407,
-								},
-							},
-							["overkill"] = 594,
+							["type"] = "BUFF",
+							["uptime"] = 37,
 						},
-					},
-					["damagetaken"] = 45035,
-					["flag"] = 2632,
-					["class"] = "MONSTER",
-					["damagetakenspells"] = {
-						[50526] = {
-							["school"] = 32,
-							["sources"] = {
-								["Urgash"] = {
-									["overkill"] = 79,
-									["amount"] = 14375,
-								},
-							},
-							["overkill"] = 79,
-							["amount"] = 14375,
-						},
-						[53022] = {
-							["school"] = 32,
-							["sources"] = {
-								["Zaralar"] = {
-									["overkill"] = 6956,
-									["amount"] = 13115,
-								},
-							},
-							["overkill"] = 6956,
-							["amount"] = 13115,
-						},
-						[71904] = {
-							["school"] = 32,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 1342,
-								},
-							},
-							["amount"] = 1342,
-						},
-						[55362] = {
-							["school"] = 4,
-							["sources"] = {
-								["Wubobo"] = {
-									["amount"] = 4225,
-								},
-							},
-							["amount"] = 4225,
-						},
-						[48819] = {
-							["school"] = 2,
-							["sources"] = {
-								["Gometius"] = {
-									["overkill"] = 47,
-									["amount"] = 10565,
-								},
-							},
-							["overkill"] = 47,
-							["amount"] = 10565,
-						},
-						[43044] = {
-							["school"] = 4,
-							["sources"] = {
-								["Wubobo"] = {
-									["amount"] = 723,
-								},
-							},
-							["amount"] = 723,
-						},
-						[48952] = {
-							["school"] = 2,
-							["sources"] = {
-								["Gometius"] = {
-									["amount"] = 690,
-								},
-							},
-							["amount"] = 690,
-						},
-					},
-					["name"] = "Slad'ran Viper",
-					["overkill"] = 594,
-					["totaldamage"] = 16126,
-					["totaldamagetaken"] = 45035,
-					["id"] = "0xF1300073F00000EB",
-					["damage"] = 12971,
-				}, -- [2]
-				{
-					["id"] = "0xF1300074110000EA",
-					["name"] = "Slad'ran Constrictor",
-					["totaldamagetaken"] = 48712,
-					["flag"] = 2632,
-					["class"] = "MONSTER",
-					["damagetaken"] = 48712,
-					["damagetakenspells"] = {
-						[50526] = {
-							["school"] = 32,
-							["sources"] = {
-								["Urgash"] = {
-									["overkill"] = 913,
-									["amount"] = 14004,
-								},
-							},
-							["overkill"] = 913,
-							["amount"] = 14004,
-						},
-						[71904] = {
-							["school"] = 32,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 913,
-								},
-							},
-							["amount"] = 913,
-						},
-						[55362] = {
-							["school"] = 4,
-							["sources"] = {
-								["Wubobo"] = {
-									["amount"] = 1564,
-								},
-							},
-							["amount"] = 1564,
-						},
-						[48819] = {
-							["school"] = 2,
-							["sources"] = {
-								["Gometius"] = {
-									["overkill"] = 360,
-									["amount"] = 10267,
-								},
-							},
-							["overkill"] = 360,
-							["amount"] = 10267,
-						},
-						[53595] = {
-							["school"] = 2,
-							["sources"] = {
-								["Gometius"] = {
-									["amount"] = 7823,
-								},
-							},
-							["amount"] = 7823,
-						},
-						[53022] = {
-							["school"] = 32,
-							["sources"] = {
-								["Zaralar"] = {
-									["overkill"] = 2408,
-									["amount"] = 14141,
-								},
-							},
-							["overkill"] = 2408,
-							["amount"] = 14141,
-						},
-					},
-				}, -- [3]
-			},
-			["dispel"] = 1,
-			["totaldamagetaken"] = 103487,
-			["last_time"] = 18252.137,
-			["damagetaken"] = 91341,
-			["overkill"] = 14232,
-			["edamagetaken"] = 418648,
-			["heal"] = 74949,
-			["name"] = "Slad'ran",
-			["death"] = 1,
-			["edamage"] = 91341,
-			["last_action"] = 1689592472,
-			["mana"] = 12340,
-			["totaldamage"] = 418648,
-			["time"] = 25,
-			["etotaldamage"] = 103487,
-			["damage"] = 418648,
-			["overheal"] = 95556,
-			["type"] = "party",
-			["gotboss"] = 29304,
-			["success"] = true,
-			["runic"] = 71,
-			["starttime"] = 1689592447,
-			["potion"] = 1,
-			["mobname"] = "Slad'ran",
-			["absorb"] = 12146,
-			["etotaldamagetaken"] = 418648,
-			["players"] = {
-				{
-					["last"] = 18247.835,
-					["flag"] = 1297,
-					["class"] = "DEATHKNIGHT",
-					["auras"] = {
-						[48162] = {
+						[54043] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 25,
+							["uptime"] = 45,
 						},
-						[70657] = {
-							["type"] = "BUFF",
-							["count"] = 2,
-							["refresh"] = 10,
-							["school"] = 1,
-							["uptime"] = 21,
-						},
-						[55078] = {
+						[54499] = {
 							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 32,
+							["count"] = 3,
+							["school"] = 2,
 							["targets"] = {
-								["Slad'ran"] = {
-									["uptime"] = 18,
-									["count"] = 1,
+								["Scourgelord Tyrannus"] = {
+									["uptime"] = 16,
+									["count"] = 3,
 								},
 							},
-							["uptime"] = 18,
+							["uptime"] = 16,
 						},
-						[73422] = {
+						[54758] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["school"] = 1,
-							["uptime"] = 9,
+							["uptime"] = 12,
 						},
-						[48942] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 25,
-						},
-						[57623] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 25,
-						},
-						[71227] = {
-							["type"] = "BUFF",
-							["count"] = 2,
-							["refresh"] = 2,
-							["school"] = 8,
-							["uptime"] = 22,
-						},
-						[48170] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 25,
-						},
-						[19746] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 25,
-						},
-						[48266] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 25,
-						},
-						[28878] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 25,
-						},
-						[43002] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 25,
-						},
-						[50536] = {
+						[20186] = {
 							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 32,
-							["refresh"] = 1,
+							["count"] = 3,
+							["school"] = 2,
 							["targets"] = {
-								["Slad'ran"] = {
-									["count"] = 1,
-									["refresh"] = 1,
-									["uptime"] = 10,
+								["Scourgelord Tyrannus"] = {
+									["uptime"] = 16,
+									["count"] = 3,
 								},
 							},
-							["uptime"] = 10,
-						},
-						[53365] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["refresh"] = 1,
-							["uptime"] = 10,
-						},
-						[55095] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 16,
-							["targets"] = {
-								["Slad'ran"] = {
-									["uptime"] = 20,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 20,
-						},
-						[48707] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 32,
-							["uptime"] = 5,
-						},
-						[51735] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 32,
-							["refresh"] = 1,
-							["targets"] = {
-								["Slad'ran"] = {
-									["count"] = 1,
-									["refresh"] = 1,
-									["uptime"] = 20,
-								},
-							},
-							["uptime"] = 20,
-						},
-						[48074] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 25,
-						},
-						[72221] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 25,
-						},
-						[71905] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["refresh"] = 6,
-							["uptime"] = 13,
+							["uptime"] = 16,
 						},
 						[72412] = {
 							["type"] = "BUFF",
@@ -7851,10290 +2780,1441 @@ SkadaStorageDB = {
 							["school"] = 1,
 							["uptime"] = 10,
 						},
-						[66803] = {
+						[48170] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 32,
-							["refresh"] = 3,
-							["uptime"] = 20,
-						},
-						[58578] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["refresh"] = 1,
-							["uptime"] = 21,
-						},
-					},
-					["absorbspells"] = {
-						[48707] = {
-							["min"] = 4857,
-							["casts"] = 1,
-							["count"] = 1,
-							["amount"] = 4857,
-							["school"] = 32,
-							["targets"] = {
-								["Urgash"] = 4857,
-							},
-							["max"] = 4857,
-						},
-					},
-					["time"] = 20.26000000000001,
-					["totaldamagetaken"] = 11816,
-					["runic"] = 71,
-					["damage"] = 166473,
-					["damagespells"] = {
-						["Scourge Strike"] = {
-							["hitmin"] = 3753,
-							["criticalamount"] = 18158,
-							["id"] = 55271,
-							["hitmax"] = 3753,
-							["targets"] = {
-								["Slad'ran"] = {
-									["amount"] = 21911,
-								},
-							},
-							["count"] = 3,
-							["hit"] = 1,
-							["casts"] = 3,
-							["critical"] = 2,
-							["amount"] = 21911,
-							["school"] = 1,
-							["criticalmin"] = 8538,
-							["criticalmax"] = 9620,
-							["hitamount"] = 3753,
-						},
-						["Chaos Bane"] = {
-							["hitmin"] = 371,
-							["id"] = 71904,
-							["targets"] = {
-								["Slad'ran Viper"] = {
-									["amount"] = 1342,
-								},
-								["Slad'ran"] = {
-									["amount"] = 565,
-								},
-								["Slad'ran Constrictor"] = {
-									["amount"] = 913,
-								},
-							},
-							["hitmax"] = 565,
-							["casts"] = 1,
-							["count"] = 6,
-							["hit"] = 6,
-							["school"] = 32,
-							["resisted"] = 92,
-							["amount"] = 2820,
-							["hitamount"] = 2820,
-						},
-						["Blood Strike"] = {
-							["DODGE"] = 1,
-							["hitmin"] = 2244,
-							["id"] = 49930,
-							["targets"] = {
-								["Slad'ran"] = {
-									["amount"] = 9627,
-								},
-							},
-							["casts"] = 5,
-							["count"] = 5,
-							["hit"] = 4,
-							["school"] = 1,
-							["hitmax"] = 2610,
-							["amount"] = 9627,
-							["hitamount"] = 9627,
-						},
-						["Mind Freeze"] = {
-							["casts"] = 1,
-							["count"] = 1,
-							["amount"] = 0,
-							["school"] = 16,
-							["IMMUNE"] = 1,
-							["targets"] = {
-								["Slad'ran"] = {
-									["amount"] = 0,
-								},
-							},
-							["id"] = 47528,
-						},
-						["Wandering Plague"] = {
-							["hitmin"] = 807,
-							["id"] = 50526,
-							["targets"] = {
-								["Slad'ran Constrictor"] = {
-									["overkill"] = 913,
-									["amount"] = 14004,
-								},
-								["Slad'ran"] = {
-									["amount"] = 7737,
-								},
-								["Slad'ran Viper"] = {
-									["overkill"] = 79,
-									["amount"] = 14375,
-								},
-							},
-							["overkill"] = 992,
-							["hitmax"] = 1265,
-							["casts"] = 1,
-							["count"] = 35,
-							["hit"] = 35,
-							["school"] = 32,
-							["resisted"] = 1520,
-							["amount"] = 36116,
-							["hitamount"] = 36116,
-						},
-						["Melee (Wormcatcher)"] = {
-							["glance"] = 415,
-							["hitmin"] = 519,
-							["criticalmin"] = 1192,
-							["targets"] = {
-								["Slad'ran"] = {
-									["amount"] = 5461,
-								},
-							},
-							["glancing"] = 1,
-							["amount"] = 5461,
-							["glancemin"] = 415,
-							["criticalamount"] = 1192,
-							["id"] = 6603,
-							["glancemax"] = 415,
-							["criticalmax"] = 1192,
-							["hitmax"] = 612,
-							["hit"] = 7,
-							["school"] = 1,
-							["critical"] = 1,
-							["count"] = 9,
-							["hitamount"] = 3854,
-						},
-						["Melee"] = {
-							["glance"] = 2619,
-							["hitmin"] = 2849,
-							["criticalmin"] = 6039,
-							["targets"] = {
-								["Slad'ran"] = {
-									["overkill"] = 3469,
-									["amount"] = 32460,
-								},
-							},
-							["glancing"] = 1,
-							["amount"] = 32460,
-							["glancemin"] = 2619,
-							["criticalamount"] = 13308,
-							["id"] = 6603,
-							["glancemax"] = 2619,
-							["overkill"] = 3469,
-							["criticalmax"] = 7269,
-							["hitmax"] = 3754,
-							["hit"] = 5,
-							["school"] = 1,
-							["critical"] = 2,
-							["count"] = 8,
-							["hitamount"] = 16533,
-						},
-						["Blood-Caked Strike"] = {
-							["hitmin"] = 1550,
-							["id"] = 50463,
-							["targets"] = {
-								["Slad'ran"] = {
-									["amount"] = 3386,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 2,
-							["hit"] = 2,
-							["school"] = 1,
-							["hitmax"] = 1836,
-							["amount"] = 3386,
-							["hitamount"] = 3386,
-						},
-						["Scourge Strike (Shadow)"] = {
-							["hitmin"] = 1786,
-							["id"] = 70890,
-							["targets"] = {
-								["Slad'ran"] = {
-									["amount"] = 11388,
-								},
-							},
-							["hitmax"] = 5087,
-							["casts"] = 1,
-							["count"] = 3,
-							["hit"] = 3,
-							["school"] = 32,
-							["resisted"] = 198,
-							["amount"] = 11388,
-							["hitamount"] = 11388,
-						},
-						["Claw (Wormcatcher)"] = {
-							["hitmin"] = 763,
-							["criticalamount"] = 1552,
-							["id"] = 47468,
-							["criticalmin"] = 1552,
-							["targets"] = {
-								["Slad'ran"] = {
-									["amount"] = 4792,
-								},
-							},
-							["criticalmax"] = 1552,
-							["critical"] = 1,
-							["casts"] = 1,
-							["count"] = 5,
-							["hit"] = 4,
-							["school"] = 1,
-							["hitmax"] = 897,
-							["amount"] = 4792,
-							["hitamount"] = 3240,
-						},
-						["Necrosis"] = {
-							["hitmin"] = 523,
-							["id"] = 51460,
-							["targets"] = {
-								["Slad'ran"] = {
-									["amount"] = 6423,
-								},
-							},
-							["hitmax"] = 1453,
-							["casts"] = 1,
-							["count"] = 8,
-							["hit"] = 8,
-							["school"] = 32,
-							["resisted"] = 64,
-							["amount"] = 6423,
-							["hitamount"] = 6423,
-						},
-						["Blood Plague (DoT)"] = {
-							["hitmin"] = 975,
-							["id"] = 55078,
-							["targets"] = {
-								["Slad'ran"] = {
-									["amount"] = 5846,
-								},
-							},
-							["hitmax"] = 1218,
-							["count"] = 5,
-							["hit"] = 5,
-							["school"] = 32,
-							["resisted"] = 243,
-							["amount"] = 5846,
-							["hitamount"] = 5846,
-						},
-						["Unholy Blight (DoT)"] = {
-							["hitmin"] = 41,
-							["id"] = 50536,
-							["targets"] = {
-								["Slad'ran"] = {
-									["amount"] = 883,
-								},
-							},
-							["hitmax"] = 122,
-							["count"] = 8,
-							["hit"] = 8,
-							["school"] = 32,
-							["resisted"] = 12,
-							["amount"] = 883,
-							["hitamount"] = 883,
-						},
-						["Death Coil"] = {
-							["hitmin"] = 4147,
-							["criticalamount"] = 8667,
-							["id"] = 47632,
-							["criticalmin"] = 8667,
-							["targets"] = {
-								["Slad'ran"] = {
-									["amount"] = 12814,
-								},
-							},
-							["criticalmax"] = 8667,
-							["critical"] = 1,
-							["casts"] = 2,
-							["count"] = 2,
-							["hit"] = 1,
-							["school"] = 32,
-							["hitmax"] = 4147,
-							["amount"] = 12814,
-							["hitamount"] = 4147,
-						},
-						["Plague Strike"] = {
-							["hitmin"] = 2000,
-							["id"] = 49921,
-							["targets"] = {
-								["Slad'ran"] = {
-									["amount"] = 2000,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 1,
-							["hitmax"] = 2000,
-							["amount"] = 2000,
-							["hitamount"] = 2000,
-						},
-						["Frost Fever (DoT)"] = {
-							["hitmin"] = 1200,
-							["id"] = 55095,
-							["targets"] = {
-								["Slad'ran"] = {
-									["amount"] = 7732,
-								},
-							},
-							["hitmax"] = 1333,
-							["count"] = 6,
-							["hit"] = 6,
-							["school"] = 16,
-							["resisted"] = 266,
-							["amount"] = 7732,
-							["hitamount"] = 7732,
-						},
-						["Icy Touch"] = {
-							["criticalamount"] = 2814,
-							["id"] = 49909,
-							["targets"] = {
-								["Slad'ran"] = {
-									["amount"] = 2814,
-								},
-							},
-							["criticalmin"] = 2814,
-							["casts"] = 1,
-							["critical"] = 1,
-							["amount"] = 2814,
-							["school"] = 16,
-							["resisted"] = 703,
-							["criticalmax"] = 2814,
-							["count"] = 1,
-						},
-					},
-					["absorb"] = 4857,
-					["damagetaken"] = 6959,
-					["id"] = "0x070000000000D01B",
-					["spec"] = 252,
-					["healspells"] = {
-						[50475] = {
-							["overheal"] = 2443,
-							["targets"] = {
-								["Urgash"] = {
-									["overheal"] = 2443,
-									["amount"] = 922,
-								},
-							},
-							["count"] = 27,
-							["amount"] = 922,
-							["school"] = 1,
-							["max"] = 157,
-							["ishot"] = true,
-							["min"] = 4,
-						},
-						[53365] = {
-							["overheal"] = 2371,
-							["criticalamount"] = 479,
-							["max"] = 479,
-							["targets"] = {
-								["Urgash"] = {
-									["overheal"] = 2371,
-									["amount"] = 479,
-								},
-							},
-							["min"] = 479,
-							["criticalmax"] = 479,
-							["critical"] = 1,
-							["amount"] = 479,
-							["school"] = 1,
-							["criticalmin"] = 479,
-							["count"] = 2,
-						},
-					},
-					["damagetakenspells"] = {
-						["Melee"] = {
-							["criticalamount"] = 5340,
-							["id"] = 6603,
-							["criticalmin"] = 5340,
-							["sources"] = {
-								["Slad'ran"] = {
-									["amount"] = 5340,
-								},
-							},
-							["critical"] = 1,
-							["amount"] = 5340,
-							["school"] = 1,
-							["criticalmax"] = 5340,
-							["PARRY"] = 1,
-							["count"] = 2,
-						},
-						["Poison Nova"] = {
-							["total"] = 6476,
-							["hitmin"] = 1619,
-							["id"] = 59842,
-							["sources"] = {
-								["Slad'ran"] = {
-									["total"] = 6476,
-									["amount"] = 1619,
-								},
-							},
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 8,
-							["hitmax"] = 1619,
-							["amount"] = 1619,
-							["hitamount"] = 1619,
-						},
-					},
-					["runicspells"] = {
-						[49088] = 71,
-					},
-					["heal"] = 1401,
-					["name"] = "Urgash",
-					["overkill"] = 4461,
-					["overheal"] = 4814,
-					["totaldamage"] = 166473,
-					["role"] = "DAMAGER",
-				}, -- [1]
-				{
-					["last"] = 18247.306,
-					["flag"] = 1298,
-					["class"] = "PALADIN",
-					["auras"] = {
-						[6562] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 25,
-						},
-						[48162] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 25,
-						},
-						[31801] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 25,
-						},
-						[54428] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["refresh"] = 16,
-							["uptime"] = 25,
+							["uptime"] = 45,
 						},
 						[48942] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 25,
-						},
-						[57623] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 25,
-						},
-						[25898] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 25,
-						},
-						[48170] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 25,
-						},
-						[25899] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 25,
-						},
-						[19746] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 25,
-						},
-						[62124] = {
-							["type"] = "DEBUFF",
-							["count"] = 2,
-							["school"] = 2,
-							["targets"] = {
-								["Slad'ran"] = {
-									["uptime"] = 6,
-									["count"] = 2,
-								},
-							},
-							["uptime"] = 6,
-						},
-						[54499] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 2,
-							["targets"] = {
-								["Slad'ran"] = {
-									["uptime"] = 13,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 13,
-						},
-						[53601] = {
-							["type"] = "BUFF",
-							["count"] = 3,
-							["school"] = 2,
-							["uptime"] = 25,
-						},
-						[48952] = {
-							["type"] = "BUFF",
-							["count"] = 2,
-							["school"] = 2,
-							["uptime"] = 19,
-						},
-						[43002] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 25,
-						},
-						[25780] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 25,
-						},
-						[20185] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 2,
-							["targets"] = {
-								["Slad'ran"] = {
-									["uptime"] = 13,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 13,
-						},
-						[20132] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["uptime"] = 6,
-						},
-						[66922] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 2,
-							["uptime"] = 12,
-						},
-						[48819] = {
-							["type"] = "DEBUFF",
-							["count"] = 17,
-							["school"] = 2,
-							["targets"] = {
-								["Slad'ran Constrictor"] = {
-									["uptime"] = 14,
-									["count"] = 8,
-								},
-								["Slad'ran"] = {
-									["uptime"] = 15,
-									["count"] = 2,
-								},
-								["Slad'ran Viper"] = {
-									["uptime"] = 14,
-									["count"] = 7,
-								},
-							},
-							["uptime"] = 15,
-						},
-						[58597] = {
-							["type"] = "BUFF",
-							["count"] = 3,
-							["school"] = 2,
-							["uptime"] = 9,
-						},
-						[31803] = {
-							["type"] = "DEBUFF",
-							["count"] = 4,
-							["school"] = 2,
-							["refresh"] = 14,
-							["targets"] = {
-								["Slad'ran Constrictor"] = {
-									["uptime"] = 7,
-									["count"] = 3,
-								},
-								["Slad'ran"] = {
-									["count"] = 1,
-									["refresh"] = 14,
-									["uptime"] = 20,
-								},
-							},
-							["uptime"] = 24,
-						},
-						[72221] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 25,
-						},
-						[48074] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 25,
-						},
-						[53563] = {
-							["type"] = "BUFF",
-							["count"] = 2,
-							["school"] = 2,
-							["uptime"] = 17,
+							["uptime"] = 45,
 						},
 					},
-					["absorbspells"] = {
-						[58597] = {
-							["min"] = 1519,
-							["casts"] = 1,
-							["count"] = 1,
-							["amount"] = 1519,
-							["school"] = 2,
-							["targets"] = {
-								["Gometius"] = 1519,
-							},
-							["max"] = 1519,
-						},
-					},
-					["time"] = 19.75,
-					["totaldamagetaken"] = 42850,
-					["overheal"] = 8979,
-					["damage"] = 68045,
+					["time"] = 38.95,
+					["damage"] = 212655,
 					["damagespells"] = {
 						["Consecration (DoT)"] = {
-							["hitmin"] = 271,
-							["id"] = 48819,
-							["targets"] = {
-								["Slad'ran Viper"] = {
-									["overkill"] = 47,
-									["amount"] = 10565,
-								},
-								["Slad'ran"] = {
-									["amount"] = 5591,
-								},
-								["Slad'ran Constrictor"] = {
-									["overkill"] = 360,
-									["amount"] = 10267,
-								},
-							},
-							["overkill"] = 407,
-							["hitmax"] = 424,
-							["casts"] = 3,
-							["count"] = 75,
-							["hit"] = 75,
-							["school"] = 2,
-							["resisted"] = 707,
-							["amount"] = 26423,
-							["hitamount"] = 26423,
-						},
-						["Judgement of Vengeance"] = {
-							["hitmin"] = 1533,
-							["id"] = 31804,
-							["targets"] = {
-								["Slad'ran"] = {
-									["amount"] = 1533,
-								},
-							},
-							["hitmax"] = 1533,
-							["casts"] = 1,
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 2,
-							["resisted"] = 170,
-							["amount"] = 1533,
-							["hitamount"] = 1533,
-						},
-						["Holy Vengeance (DoT)"] = {
-							["hitmin"] = 456,
-							["id"] = 31803,
-							["targets"] = {
-								["Slad'ran"] = {
-									["amount"] = 3851,
-								},
-							},
-							["hitmax"] = 761,
-							["count"] = 6,
-							["hit"] = 6,
-							["school"] = 2,
-							["resisted"] = 218,
-							["amount"] = 3851,
-							["hitamount"] = 3851,
-						},
-						["Hand of Reckoning"] = {
-							["hitmin"] = 2121,
-							["id"] = 67485,
-							["targets"] = {
-								["Slad'ran"] = {
-									["amount"] = 2121,
-								},
-							},
-							["hitmax"] = 2121,
-							["casts"] = 2,
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 2,
-							["resisted"] = 530,
-							["amount"] = 2121,
-							["hitamount"] = 2121,
-						},
-						["Hammer of the Righteous"] = {
-							["criticalmin"] = 5008,
-							["hitmin"] = 1769,
-							["criticalamount"] = 5008,
-							["id"] = 53595,
-							["criticalmax"] = 5008,
-							["targets"] = {
-								["Slad'ran Constrictor"] = {
-									["amount"] = 7823,
-								},
-								["Slad'ran"] = {
-									["amount"] = 8843,
-								},
-							},
-							["critical"] = 1,
-							["hitmax"] = 2152,
-							["casts"] = 3,
-							["count"] = 7,
-							["hit"] = 6,
-							["school"] = 2,
-							["resisted"] = 1369,
-							["amount"] = 16666,
-							["hitamount"] = 11658,
-						},
-						["Holy Shield"] = {
-							["hitmin"] = 690,
-							["id"] = 48952,
-							["targets"] = {
-								["Slad'ran Viper"] = {
-									["amount"] = 690,
-								},
-								["Slad'ran"] = {
-									["amount"] = 760,
-								},
-							},
-							["casts"] = 2,
-							["count"] = 2,
-							["hit"] = 2,
-							["school"] = 2,
-							["hitmax"] = 760,
-							["amount"] = 1450,
-							["hitamount"] = 1450,
-						},
-						["Melee"] = {
-							["DODGE"] = 1,
-							["glance"] = 737,
-							["hitmin"] = 463,
-							["criticalmin"] = 958,
-							["targets"] = {
-								["Slad'ran"] = {
-									["amount"] = 8732,
-								},
-							},
-							["glancing"] = 2,
-							["amount"] = 8732,
-							["glancemin"] = 354,
-							["criticalamount"] = 5362,
-							["id"] = 6603,
-							["glancemax"] = 383,
-							["criticalmax"] = 1184,
-							["hitmax"] = 578,
-							["hit"] = 5,
-							["school"] = 1,
-							["critical"] = 5,
-							["count"] = 13,
-							["hitamount"] = 2633,
-						},
-						["Shield of Righteousness"] = {
-							["hitmin"] = 2821,
-							["id"] = 61411,
-							["targets"] = {
-								["Slad'ran"] = {
-									["amount"] = 2821,
-								},
-							},
-							["hitmax"] = 2821,
-							["casts"] = 1,
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 2,
-							["resisted"] = 313,
-							["amount"] = 2821,
-							["hitamount"] = 2821,
-						},
-						["Seal of Vengeance"] = {
-							["criticalmin"] = 648,
-							["hitmin"] = 51,
-							["criticalamount"] = 1314,
-							["id"] = 42463,
-							["criticalmax"] = 666,
-							["targets"] = {
-								["Slad'ran"] = {
-									["amount"] = 4448,
-								},
-							},
-							["critical"] = 2,
-							["hitmax"] = 317,
-							["casts"] = 1,
-							["count"] = 15,
-							["hit"] = 13,
-							["school"] = 2,
-							["resisted"] = 225,
-							["amount"] = 4448,
-							["hitamount"] = 3134,
-						},
-					},
-					["absorb"] = 1519,
-					["damagetaken"] = 35561,
-					["id"] = "0x0700000000949DDC",
-					["spec"] = 66,
-					["healspells"] = {
-						[20267] = {
-							["overheal"] = 8979,
-							["targets"] = {
-								["Gometius"] = {
-									["overheal"] = 1263,
-									["amount"] = 2950,
-								},
-								["Urgash"] = {
-									["overheal"] = 4561,
-									["amount"] = 760,
-								},
-								["Wormcatcher"] = {
-									["overheal"] = 574,
-									["amount"] = 574,
-								},
-								["Wubobo"] = {
-									["overheal"] = 408,
-									["amount"] = 407,
-								},
-								["Zaralar"] = {
-									["overheal"] = 2173,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 21,
-							["amount"] = 4691,
-							["school"] = 2,
-							["max"] = 760,
-							["ishot"] = true,
-							["min"] = 141,
-						},
-					},
-					["damagetakenspells"] = {
-						["Poison Nova (DoT)"] = {
-							["total"] = 15551,
-							["hitmin"] = 681,
-							["id"] = 59842,
-							["ABSORB"] = 1,
-							["hitmax"] = 1727,
-							["sources"] = {
-								["Slad'ran"] = {
-									["total"] = 15551,
-									["amount"] = 12949,
-								},
-							},
-							["count"] = 10,
-							["hit"] = 9,
-							["school"] = 8,
-							["resisted"] = 1723,
-							["amount"] = 12949,
-							["hitamount"] = 12949,
-						},
-						["Melee"] = {
-							["DODGE"] = 1,
-							["total"] = 283,
-							["id"] = 6603,
-							["sources"] = {
-								["Slad'ran"] = {
-									["total"] = 283,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 3,
-							["amount"] = 0,
-							["school"] = 1,
-							["MISS"] = 1,
-							["ABSORB"] = 1,
-						},
-						["Venom Bolt"] = {
-							["hitmin"] = 4574,
-							["id"] = 59839,
-							["hitmax"] = 4574,
-							["sources"] = {
-								["Slad'ran"] = {
-									["amount"] = 4574,
-								},
-							},
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 8,
-							["resisted"] = 508,
-							["amount"] = 4574,
-							["hitamount"] = 4574,
-						},
-						["Venomous Bite"] = {
-							["total"] = 1749,
-							["hitmin"] = 68,
-							["id"] = 58996,
-							["blocked"] = 1744,
-							["hitmax"] = 162,
-							["sources"] = {
-								["Slad'ran Viper"] = {
-									["total"] = 1749,
-									["amount"] = 230,
-								},
-							},
-							["count"] = 2,
-							["hit"] = 2,
-							["school"] = 8,
-							["resisted"] = 414,
-							["amount"] = 230,
-							["hitamount"] = 230,
-						},
-						["Poison Nova"] = {
-							["total"] = 5251,
-							["hitmin"] = 4002,
-							["id"] = 59842,
-							["hitmax"] = 4002,
-							["sources"] = {
-								["Slad'ran"] = {
-									["total"] = 5251,
-									["amount"] = 4002,
-								},
-							},
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 8,
-							["resisted"] = 583,
-							["amount"] = 4002,
-							["hitamount"] = 4002,
-						},
-						["Powerful Bite"] = {
-							["hitmin"] = 3994,
-							["id"] = 59840,
-							["sources"] = {
-								["Slad'ran"] = {
-									["amount"] = 8472,
-								},
-							},
-							["count"] = 2,
-							["hit"] = 2,
-							["school"] = 1,
-							["hitmax"] = 4478,
-							["amount"] = 8472,
-							["hitamount"] = 8472,
-						},
-						["Venomous Bite (DoT)"] = {
-							["total"] = 6970,
-							["hitmin"] = 1126,
-							["id"] = 58996,
-							["ABSORB"] = 1,
-							["hitmax"] = 2104,
-							["sources"] = {
-								["Slad'ran Viper"] = {
-									["total"] = 6970,
-									["amount"] = 5334,
-								},
-							},
-							["count"] = 4,
-							["hit"] = 3,
-							["school"] = 8,
-							["resisted"] = 591,
-							["amount"] = 5334,
-							["hitamount"] = 5334,
-						},
-					},
-					["overkill"] = 407,
-					["heal"] = 4691,
-					["name"] = "Gometius",
-					["manaspells"] = {
-						[57319] = 483,
-						[54428] = 3232,
-						[31786] = 3243,
-					},
-					["mana"] = 6958,
-					["totaldamage"] = 68045,
-					["role"] = "TANK",
-				}, -- [2]
-				{
-					["last"] = 18252.136,
-					["flag"] = 1298,
-					["mana"] = 4712,
-					["totaldamage"] = 1189,
-					["auras"] = {
-						[48162] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 25,
-						},
-						[48942] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 25,
-						},
-						[31834] = {
-							["type"] = "BUFF",
-							["count"] = 3,
-							["refresh"] = 1,
-							["school"] = 2,
-							["uptime"] = 23,
-						},
-						[25898] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 25,
-						},
-						[54153] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["refresh"] = 1,
-							["uptime"] = 25,
-						},
-						[25899] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 25,
-						},
-						[19746] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 25,
-						},
-						[57102] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 25,
-						},
-						[20166] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 25,
-						},
-						[28878] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 25,
-						},
-						[43002] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 25,
-						},
-						[20185] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 2,
-							["targets"] = {
-								["Slad'ran"] = {
-									["uptime"] = 6,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 6,
-						},
-						[72221] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 25,
-						},
-						[48074] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 25,
-						},
-						[48170] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 25,
-						},
-						[57623] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 25,
-						},
-					},
-					["absorbspells"] = {
-						[58597] = {
-							["min"] = 283,
-							["casts"] = 2,
-							["count"] = 5,
-							["amount"] = 5770,
-							["school"] = 2,
-							["targets"] = {
-								["Gometius"] = 5770,
-							},
-							["max"] = 1727,
-						},
-					},
-					["time"] = 24.05999999999999,
-					["overheal"] = 46631,
-					["potion"] = 1,
-					["totaldamagetaken"] = 29280,
-					["dispel"] = 1,
-					["damage"] = 1189,
-					["damagespells"] = {
-						["Judgement"] = {
-							["hitmin"] = 1189,
-							["id"] = 54158,
-							["targets"] = {
-								["Slad'ran"] = {
-									["amount"] = 1189,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 2,
-							["hitmax"] = 1189,
-							["amount"] = 1189,
-							["hitamount"] = 1189,
-						},
-					},
-					["absorb"] = 5770,
-					["damagetaken"] = 29280,
-					["id"] = "0x070000000096902A",
-					["spec"] = 65,
-					["healspells"] = {
-						[66922] = {
-							["overheal"] = 3325,
-							["max"] = 665,
-							["count"] = 12,
-							["amount"] = 4655,
-							["school"] = 2,
-							["min"] = 665,
-							["ishot"] = true,
-							["targets"] = {
-								["Gometius"] = {
-									["overheal"] = 3325,
-									["amount"] = 4655,
-								},
-							},
-						},
-						[48785] = {
-							["overheal"] = 8637,
-							["criticalamount"] = 2501,
-							["max"] = 4790,
-							["targets"] = {
-								["Gometius"] = {
-									["overheal"] = 4327,
-									["amount"] = 2501,
-								},
-								["Urgash"] = {
-									["overheal"] = 4310,
-									["amount"] = 0,
-								},
-								["Ynnou"] = {
-									["overheal"] = 0,
-									["amount"] = 9577,
-								},
-							},
-							["criticalmin"] = 2501,
-							["min"] = 2501,
-							["criticalmax"] = 2501,
-							["critical"] = 1,
-							["amount"] = 12078,
-							["school"] = 2,
-							["casts"] = 5,
-							["count"] = 4,
-						},
-						[20267] = {
-							["overheal"] = 4259,
-							["max"] = 760,
-							["count"] = 11,
-							["amount"] = 2819,
-							["school"] = 2,
-							["min"] = 655,
-							["ishot"] = true,
-							["targets"] = {
-								["Gometius"] = {
-									["overheal"] = 702,
-									["amount"] = 1404,
-								},
-								["Urgash"] = {
-									["overheal"] = 1625,
-									["amount"] = 1415,
-								},
-								["Wormcatcher"] = {
-									["overheal"] = 574,
-									["amount"] = 0,
-								},
-								["Wubobo"] = {
-									["overheal"] = 815,
-									["amount"] = 0,
-								},
-								["Zaralar"] = {
-									["overheal"] = 543,
-									["amount"] = 0,
-								},
-							},
-						},
-						[48782] = {
-							["overheal"] = 9306,
-							["criticalamount"] = 15120,
-							["max"] = 15120,
-							["targets"] = {
-								["Gometius"] = {
-									["overheal"] = 2842,
-									["amount"] = 15120,
-								},
-								["Urgash"] = {
-									["overheal"] = 6464,
-									["amount"] = 4699,
-								},
-								["Ynnou"] = {
-									["overheal"] = 0,
-									["amount"] = 12713,
-								},
-							},
-							["criticalmin"] = 15120,
-							["min"] = 4699,
-							["casts"] = 3,
-							["count"] = 3,
-							["amount"] = 32532,
-							["school"] = 2,
-							["criticalmax"] = 15120,
-							["critical"] = 1,
-						},
-						[53654] = {
-							["overheal"] = 15491,
-							["max"] = 4283,
-							["count"] = 3,
-							["amount"] = 5467,
-							["school"] = 2,
-							["min"] = 1184,
-							["targets"] = {
-								["Gometius"] = {
-									["overheal"] = 15491,
-									["amount"] = 5467,
-								},
-							},
-						},
-						[54968] = {
-							["overheal"] = 5613,
-							["count"] = 7,
-							["amount"] = 4737,
-							["school"] = 2,
-							["max"] = 1979,
-							["targets"] = {
-								["Gometius"] = {
-									["overheal"] = 1448,
-									["amount"] = 1064,
-								},
-								["Urgash"] = {
-									["overheal"] = 1779,
-									["amount"] = 0,
-								},
-								["Wormcatcher"] = {
-									["overheal"] = 1116,
-									["amount"] = 1694,
-								},
-								["Ynnou"] = {
-									["overheal"] = 0,
-									["amount"] = 1979,
-								},
-								["Zaralar"] = {
-									["overheal"] = 1270,
-									["amount"] = 0,
-								},
-							},
-							["min"] = 383,
-						},
-					},
-					["damagetakenspells"] = {
-						["Poison Nova"] = {
-							["hitmin"] = 6436,
-							["id"] = 59842,
-							["sources"] = {
-								["Slad'ran"] = {
-									["amount"] = 6436,
-								},
-							},
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 8,
-							["hitmax"] = 6436,
-							["amount"] = 6436,
-							["hitamount"] = 6436,
-						},
-						["Poison Nova (DoT)"] = {
-							["hitmin"] = 2284,
-							["id"] = 59842,
-							["sources"] = {
-								["Slad'ran"] = {
-									["amount"] = 22844,
-								},
-							},
-							["count"] = 10,
-							["hit"] = 10,
-							["school"] = 8,
-							["hitmax"] = 2285,
-							["amount"] = 22844,
-							["hitamount"] = 22844,
-						},
-					},
-					["potionspells"] = {
-						[33448] = 1,
-					},
-					["heal"] = 62288,
-					["name"] = "Ynnou",
-					["class"] = "PALADIN",
-					["manaspells"] = {
-						[43186] = 4238,
-						[20272] = 474,
-					},
-					["dispelspells"] = {
-						[4987] = {
-							["spells"] = {
-								[58996] = 1,
-							},
-							["count"] = 1,
-							["targets"] = {
-								["Gometius"] = 1,
-							},
-						},
-					},
-					["role"] = "HEALER",
-				}, -- [3]
-				{
-					["last"] = 18247.613,
-					["flag"] = 1298,
-					["class"] = "PRIEST",
-					["auras"] = {
-						[48066] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 25,
-						},
-						[15473] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 25,
-						},
-						[48162] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 25,
-						},
-						[16595] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 25,
-						},
-						[48125] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 32,
-							["refresh"] = 4,
-							["targets"] = {
-								["Slad'ran"] = {
-									["count"] = 1,
-									["refresh"] = 4,
-									["uptime"] = 17,
-								},
-							},
-							["uptime"] = 17,
-						},
-						[48074] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 25,
-						},
-						[48168] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 25,
-						},
-						[53023] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 32,
-							["targets"] = {
-								["Slad'ran"] = {
-									["uptime"] = 1,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 1,
-						},
-						[48170] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 25,
-						},
-						[33198] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 32,
-							["refresh"] = 4,
-							["targets"] = {
-								["Slad'ran"] = {
-									["count"] = 1,
-									["refresh"] = 4,
-									["uptime"] = 17,
-								},
-							},
-							["uptime"] = 17,
-						},
-						[19746] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 25,
-						},
-						[72416] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 64,
-							["uptime"] = 10,
-						},
-						[48160] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 32,
-							["targets"] = {
-								["Slad'ran"] = {
-									["uptime"] = 12,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 12,
-						},
-						[53755] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 25,
-						},
-						[48300] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 32,
-							["targets"] = {
-								["Slad'ran"] = {
-									["uptime"] = 18,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 18,
-						},
-						[28878] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 25,
-						},
-						[48156] = {
-							["type"] = "BUFF",
-							["count"] = 8,
-							["school"] = 32,
-							["targets"] = {
-								["Slad'ran"] = {
-									["uptime"] = 8,
-									["count"] = 4,
-								},
-							},
-							["uptime"] = 8,
-						},
-						[43002] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 25,
-						},
-						[48301] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 32,
-							["targets"] = {
-								["Slad'ran"] = {
-									["uptime"] = 10,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 10,
-						},
-						[59000] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 32,
-							["refresh"] = 2,
-							["uptime"] = 15,
-						},
-						[59626] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 32,
-							["uptime"] = 10,
-						},
-						[71579] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 64,
-							["uptime"] = 20,
-						},
-						[57623] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 25,
-						},
-						[72221] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 25,
-						},
-						[15286] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 25,
-						},
-						[15258] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["refresh"] = 14,
-							["uptime"] = 25,
-						},
-						[15271] = {
-							["type"] = "BUFF",
-							["count"] = 2,
-							["school"] = 32,
-							["uptime"] = 9,
-						},
-						[48942] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 25,
-						},
-					},
-					["time"] = 20.04,
-					["damage"] = 122320,
-					["overheal"] = 35132,
-					["id"] = "0x07000000006FE7EF",
-					["spec"] = 258,
-					["healspells"] = {
-						[15290] = {
-							["overheal"] = 31714,
-							["targets"] = {
-								["Gometius"] = {
-									["overheal"] = 1657,
-									["amount"] = 2363,
-								},
-								["Urgash"] = {
-									["overheal"] = 3037,
-									["amount"] = 752,
-								},
-								["Wormcatcher"] = {
-									["overheal"] = 2109,
-									["amount"] = 1498,
-								},
-								["Wubobo"] = {
-									["overheal"] = 2352,
-									["amount"] = 204,
-								},
-								["Ynnou"] = {
-									["overheal"] = 2466,
-									["amount"] = 1752,
-								},
-								["Zaralar"] = {
-									["overheal"] = 20093,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 159,
-							["amount"] = 6569,
-							["school"] = 32,
-							["max"] = 253,
-							["ishot"] = true,
-							["min"] = 52,
-						},
-						[75999] = {
-							["overheal"] = 648,
-							["criticalamount"] = 0,
-							["targets"] = {
-								["Zaralar"] = {
-									["overheal"] = 648,
-									["amount"] = 0,
-								},
-							},
-							["criticalmax"] = 0,
-							["critical"] = 1,
-							["amount"] = 0,
-							["school"] = 32,
-							["count"] = 1,
-							["criticalmin"] = 0,
-						},
-						[48300] = {
-							["overheal"] = 2770,
-							["count"] = 7,
-							["amount"] = 0,
-							["school"] = 32,
-							["targets"] = {
-								["Zaralar"] = {
-									["overheal"] = 2770,
-									["amount"] = 0,
-								},
-							},
-						},
-					},
-					["overkill"] = 9364,
-					["heal"] = 6569,
-					["name"] = "Zaralar",
-					["damagespells"] = {
-						["Mind Blast"] = {
-							["hitmin"] = 5081,
-							["id"] = 48127,
-							["targets"] = {
-								["Slad'ran"] = {
-									["amount"] = 5081,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 32,
-							["hitmax"] = 5081,
-							["amount"] = 5081,
-							["hitamount"] = 5081,
-						},
-						["Vampiric Touch (DoT)"] = {
-							["hitmin"] = 2180,
-							["criticalamount"] = 17089,
-							["id"] = 48160,
-							["hit"] = 2,
-							["targets"] = {
-								["Slad'ran"] = {
-									["amount"] = 21994,
-								},
-							},
-							["hitmax"] = 2725,
-							["count"] = 5,
-							["criticalmax"] = 5697,
-							["critical"] = 3,
-							["amount"] = 21994,
-							["school"] = 32,
-							["resisted"] = 545,
-							["criticalmin"] = 5696,
-							["hitamount"] = 4905,
-						},
-						["Mind Sear"] = {
-							["count"] = 10,
-							["hitmin"] = 1970,
-							["criticalamount"] = 21339,
-							["id"] = 53022,
-							["hitmax"] = 1975,
-							["targets"] = {
-								["Slad'ran Constrictor"] = {
-									["overkill"] = 2408,
-									["amount"] = 14141,
-								},
-								["Slad'ran Viper"] = {
-									["overkill"] = 6956,
-									["amount"] = 13115,
-								},
-							},
-							["overkill"] = 9364,
-							["hit"] = 3,
-							["casts"] = 1,
-							["critical"] = 7,
-							["amount"] = 27256,
-							["school"] = 32,
-							["criticalmin"] = 3027,
-							["criticalmax"] = 3062,
-							["hitamount"] = 5917,
-						},
-						["Improved Devouring Plague"] = {
-							["criticalamount"] = 6011,
-							["id"] = 63675,
-							["targets"] = {
-								["Slad'ran"] = {
-									["amount"] = 6011,
-								},
-							},
-							["casts"] = 1,
-							["critical"] = 1,
-							["amount"] = 6011,
-							["school"] = 32,
-							["criticalmin"] = 6011,
-							["criticalmax"] = 6011,
-							["count"] = 1,
-						},
-						["Mind Flay"] = {
-							["hitmax"] = 2449,
-							["hitmin"] = 1964,
-							["criticalamount"] = 24205,
-							["id"] = 58381,
-							["criticalmin"] = 4332,
-							["targets"] = {
-								["Slad'ran"] = {
-									["amount"] = 32546,
-								},
-							},
-							["criticalmax"] = 5130,
-							["critical"] = 5,
-							["casts"] = 4,
-							["count"] = 9,
-							["hit"] = 4,
-							["school"] = 32,
-							["resisted"] = 1952,
-							["amount"] = 32546,
-							["hitamount"] = 8341,
-						},
-						["Devouring Plague (DoT)"] = {
-							["hitmin"] = 1897,
-							["criticalamount"] = 4405,
-							["id"] = 48300,
-							["criticalmin"] = 4405,
-							["targets"] = {
-								["Slad'ran"] = {
-									["amount"] = 16632,
-								},
-							},
-							["hitmax"] = 2108,
-							["critical"] = 1,
-							["criticalmax"] = 4405,
-							["count"] = 7,
-							["hit"] = 6,
-							["school"] = 32,
-							["resisted"] = 420,
-							["amount"] = 16632,
-							["hitamount"] = 12227,
-						},
-						["Shadow Word: Pain (DoT)"] = {
-							["hitmin"] = 1313,
-							["criticalamount"] = 9936,
-							["id"] = 48125,
-							["criticalmin"] = 3249,
-							["targets"] = {
-								["Slad'ran"] = {
-									["amount"] = 12800,
-								},
-							},
-							["hitmax"] = 1551,
-							["critical"] = 3,
-							["criticalmax"] = 3438,
-							["count"] = 5,
-							["hit"] = 2,
-							["school"] = 32,
-							["resisted"] = 328,
-							["amount"] = 12800,
-							["hitamount"] = 2864,
-						},
-					},
-					["totaldamage"] = 122320,
-					["role"] = "DAMAGER",
-				}, -- [4]
-				{
-					["last"] = 18246.639,
-					["flag"] = 1298,
-					["class"] = "MAGE",
-					["auras"] = {
-						[43046] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 16,
-						},
-						[48162] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 16,
-						},
-						[48846] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 64,
-							["uptime"] = 8,
-						},
-						[54739] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 64,
-							["uptime"] = 8,
-						},
-						[55360] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 4,
-							["targets"] = {
-								["Slad'ran"] = {
-									["uptime"] = 12,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 12,
-						},
-						[48170] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 16,
-						},
-						[19746] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 25,
-						},
-						[28878] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 25,
-						},
-						[42891] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 4,
-							["targets"] = {
-								["Slad'ran"] = {
-									["uptime"] = 6,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 6,
-						},
-						[43002] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 16,
-						},
-						[47610] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 20,
-							["refresh"] = 2,
-							["targets"] = {
-								["Slad'ran"] = {
-									["count"] = 1,
-									["refresh"] = 2,
-									["uptime"] = 10,
-								},
-							},
-							["uptime"] = 10,
-						},
-						[22959] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 4,
-							["targets"] = {
-								["Slad'ran"] = {
-									["uptime"] = 13,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 13,
-						},
-						[48108] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["uptime"] = 4,
-						},
-						[12654] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 4,
-							["refresh"] = 6,
-							["targets"] = {
-								["Slad'ran"] = {
-									["count"] = 1,
-									["refresh"] = 6,
-									["uptime"] = 11,
-								},
-							},
-							["uptime"] = 11,
-						},
-						[12472] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 16,
-							["uptime"] = 9,
-						},
-						[72221] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 25,
-						},
-						[48074] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 16,
-						},
-						[48942] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 25,
-						},
-						[28682] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 4,
-							["refresh"] = 3,
-							["uptime"] = 5,
-						},
-						[57623] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 16,
-						},
-						[25894] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 16,
-						},
-					},
-					["time"] = 17.34,
-					["totaldamagetaken"] = 19541,
-					["damage"] = 60621,
-					["damagespells"] = {
-						["Pyroblast (DoT)"] = {
-							["hitmin"] = 549,
-							["id"] = 42891,
-							["targets"] = {
-								["Slad'ran"] = {
-									["amount"] = 549,
-								},
-							},
-							["hitmax"] = 549,
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 4,
-							["resisted"] = 60,
-							["amount"] = 549,
-							["hitamount"] = 549,
-						},
-						["Frostfire Bolt (DoT)"] = {
-							["hitmin"] = 355,
-							["id"] = 47610,
-							["targets"] = {
-								["Slad'ran"] = {
-									["amount"] = 355,
-								},
-							},
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 20,
-							["hitmax"] = 355,
-							["amount"] = 355,
-							["hitamount"] = 355,
-						},
-						["Molten Armor"] = {
-							["hitmax"] = 202,
-							["hitmin"] = 202,
-							["criticalamount"] = 319,
-							["id"] = 43044,
-							["criticalmin"] = 319,
-							["targets"] = {
-								["Slad'ran Viper"] = {
-									["amount"] = 723,
-								},
-							},
-							["criticalmax"] = 319,
-							["critical"] = 1,
-							["casts"] = 1,
-							["count"] = 3,
-							["hit"] = 2,
-							["school"] = 4,
-							["resisted"] = 35,
-							["amount"] = 723,
-							["hitamount"] = 404,
-						},
-						["Living Bomb"] = {
-							["hitmin"] = 1252,
-							["id"] = 55362,
-							["targets"] = {
-								["Slad'ran Constrictor"] = {
-									["amount"] = 1564,
-								},
-								["Slad'ran"] = {
-									["amount"] = 1592,
-								},
-								["Slad'ran Viper"] = {
-									["amount"] = 4225,
-								},
-							},
-							["hitmax"] = 1592,
-							["casts"] = 1,
-							["count"] = 5,
-							["hit"] = 5,
-							["school"] = 4,
-							["resisted"] = 645,
-							["amount"] = 7381,
-							["hitamount"] = 7381,
-						},
-						["Pyroblast"] = {
-							["criticalamount"] = 7794,
-							["id"] = 42891,
-							["targets"] = {
-								["Slad'ran"] = {
-									["amount"] = 7794,
-								},
-							},
-							["casts"] = 1,
-							["critical"] = 1,
-							["amount"] = 7794,
-							["school"] = 4,
-							["criticalmin"] = 7794,
-							["criticalmax"] = 7794,
-							["count"] = 1,
-						},
-						["Ignite (DoT)"] = {
-							["hitmin"] = 510,
-							["id"] = 12654,
-							["targets"] = {
-								["Slad'ran"] = {
-									["amount"] = 14322,
-								},
-							},
-							["count"] = 3,
-							["hit"] = 3,
-							["school"] = 4,
-							["hitmax"] = 6906,
-							["amount"] = 14322,
-							["hitamount"] = 14322,
-						},
-						["Scorch"] = {
-							["criticalamount"] = 2552,
-							["id"] = 42859,
-							["targets"] = {
-								["Slad'ran"] = {
-									["amount"] = 2552,
-								},
-							},
-							["casts"] = 1,
-							["critical"] = 1,
-							["amount"] = 2552,
-							["school"] = 4,
-							["criticalmin"] = 2552,
-							["criticalmax"] = 2552,
-							["count"] = 1,
-						},
-						["Frostfire Bolt"] = {
-							["criticalamount"] = 22865,
-							["id"] = 47610,
-							["targets"] = {
-								["Slad'ran"] = {
-									["amount"] = 22865,
-								},
-							},
-							["criticalmin"] = 6436,
-							["casts"] = 3,
-							["critical"] = 3,
-							["amount"] = 22865,
-							["school"] = 20,
-							["resisted"] = 715,
-							["criticalmax"] = 8227,
-							["count"] = 3,
-						},
-						["Living Bomb (DoT)"] = {
-							["hitmin"] = 653,
-							["criticalamount"] = 2612,
-							["id"] = 55360,
-							["criticalmin"] = 1143,
-							["targets"] = {
-								["Slad'ran"] = {
-									["amount"] = 4080,
-								},
-							},
-							["hitmax"] = 815,
-							["critical"] = 2,
-							["criticalmax"] = 1469,
-							["count"] = 4,
-							["hit"] = 2,
-							["school"] = 4,
-							["resisted"] = 611,
-							["amount"] = 4080,
-							["hitamount"] = 1468,
-						},
-					},
-					["damagetaken"] = 19541,
-					["deathlog"] = {
-						{
-							["log"] = {
-								{
-									["time"] = 18243.093,
-									["source"] = "Slad'ran Viper",
-									["amount"] = -2616,
-									["school"] = 8,
-									["hp"] = 1,
-									["spellid"] = 58996,
-									["overkill"] = 594,
-								}, -- [1]
-								{
-									["source"] = "Slad'ran Viper",
-									["amount"] = -2394,
-									["school"] = 8,
-									["hp"] = 2022,
-									["spellid"] = 58996,
-									["time"] = 18243.091,
-								}, -- [2]
-								{
-									["source"] = "Slad'ran Viper",
-									["amount"] = -2397,
-									["school"] = 8,
-									["hp"] = 4416,
-									["spellid"] = 58996,
-									["time"] = 18243.092,
-								}, -- [3]
-								{
-									["source"] = "Slad'ran",
-									["amount"] = -2378,
-									["school"] = 8,
-									["hp"] = 6813,
-									["spellid"] = 59842,
-									["time"] = 18243.076,
-								}, -- [4]
-								{
-									["source"] = "Slad'ran",
-									["amount"] = -2378,
-									["school"] = 8,
-									["hp"] = 8580,
-									["spellid"] = 59842,
-									["time"] = 18242.1,
-								}, -- [5]
-								{
-									["source"] = "Slad'ran",
-									["amount"] = -7378,
-									["school"] = 8,
-									["hp"] = 10958,
-									["spellid"] = 59842,
-									["time"] = 18241.078,
-								}, -- [6]
-							},
-							["time"] = 18243.093,
-							["timeod"] = 1689592463,
-							["school"] = 8,
-							["maxhp"] = 18336,
-							["spellid"] = 58996,
-							["source"] = "Slad'ran Viper",
-						}, -- [1]
-					},
-					["id"] = "0x0700000000975314",
-					["spec"] = 63,
-					["damagetakenspells"] = {
-						["Poison Nova (DoT)"] = {
-							["hitmin"] = 2378,
-							["id"] = 59842,
-							["sources"] = {
-								["Slad'ran"] = {
-									["amount"] = 4756,
-								},
-							},
-							["count"] = 2,
-							["hit"] = 2,
-							["school"] = 8,
-							["hitmax"] = 2378,
-							["amount"] = 4756,
-							["hitamount"] = 4756,
-						},
-						["Poison Nova"] = {
-							["hitmin"] = 7378,
-							["id"] = 59842,
-							["sources"] = {
-								["Slad'ran"] = {
-									["amount"] = 7378,
-								},
-							},
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 8,
-							["hitmax"] = 7378,
-							["amount"] = 7378,
-							["hitamount"] = 7378,
-						},
-						["Venomous Bite"] = {
-							["hitmin"] = 2394,
-							["id"] = 58996,
-							["overkill"] = 594,
-							["sources"] = {
-								["Slad'ran Viper"] = {
-									["overkill"] = 594,
-									["amount"] = 7407,
-								},
-							},
-							["count"] = 3,
-							["hit"] = 3,
-							["school"] = 8,
-							["hitmax"] = 2616,
-							["amount"] = 7407,
-							["hitamount"] = 7407,
-						},
-					},
-					["name"] = "Wubobo",
-					["death"] = 1,
-					["manaspells"] = {
-						[29077] = 704,
-						[67545] = 65,
-						[44450] = -99,
-					},
-					["mana"] = 670,
-					["totaldamage"] = 60621,
-					["role"] = "DAMAGER",
-				}, -- [5]
-			},
-			["endtime"] = 1689592472,
-		}, -- [4]
-		{
-			["mana"] = 9704,
-			["runic"] = 10,
-			["enemies"] = {
-				{
-					["damagespells"] = {
-						[6603] = {
-							["school"] = 1,
-							["targets"] = {
-								["Gometius"] = {
-									["amount"] = 3672,
-								},
-								["Urgash"] = {
-									["amount"] = 2219,
-								},
-							},
-							["amount"] = 5891,
-						},
-						[59019] = {
-							["school"] = 8,
-							["total"] = 15439,
-							["targets"] = {
-								["Gometius"] = {
-									["total"] = 21644,
-									["amount"] = 15777,
-								},
-								["Ynnou"] = {
-									["amount"] = 7212,
-								},
-								["Urgash"] = {
-									["amount"] = 12907,
-								},
-								["Wubobo"] = {
-									["amount"] = 12402,
-								},
-							},
-							["amount"] = 48298,
-						},
-						[59020] = {
-							["school"] = 1,
-							["total"] = 3403,
-							["targets"] = {
-								["Gometius"] = {
-									["total"] = 3403,
-									["amount"] = 2539,
-								},
-							},
-							["amount"] = 2539,
-						},
-					},
-					["damagetaken"] = 196732,
-					["id"] = "0xF13000744E000098",
-					["class"] = "MONSTER",
-					["damagetakenspells"] = {
-						[48160] = {
-							["school"] = 32,
-							["sources"] = {
-								["Zaralar"] = {
-									["amount"] = 3895,
-								},
-							},
-							["amount"] = 3895,
-						},
-						[42926] = {
-							["school"] = 4,
-							["sources"] = {
-								["Wubobo"] = {
-									["amount"] = 9918,
-								},
-							},
-							["amount"] = 9918,
-						},
-						[42463] = {
-							["school"] = 2,
-							["sources"] = {
-								["Gometius"] = {
-									["overkill"] = 78,
-									["amount"] = 2827,
-								},
-							},
-							["overkill"] = 78,
-							["amount"] = 2827,
-						},
-						[55360] = {
-							["school"] = 4,
-							["sources"] = {
-								["Wubobo"] = {
-									["amount"] = 3686,
-								},
-							},
-							["amount"] = 3686,
-						},
-						[50463] = {
-							["school"] = 1,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 2687,
-								},
-							},
-							["amount"] = 2687,
-						},
-						[53595] = {
-							["school"] = 2,
-							["sources"] = {
-								["Gometius"] = {
-									["amount"] = 11320,
-								},
-							},
-							["amount"] = 11320,
-						},
-						[55362] = {
-							["school"] = 4,
-							["sources"] = {
-								["Wubobo"] = {
-									["amount"] = 3766,
-								},
-							},
-							["amount"] = 3766,
-						},
-						[55078] = {
-							["school"] = 32,
-							["sources"] = {
-								["Urgash"] = {
-									["overkill"] = 1100,
-									["amount"] = 3308,
-								},
-							},
-							["overkill"] = 1100,
-							["amount"] = 3308,
-						},
-						[49909] = {
-							["school"] = 16,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 1796,
-								},
-							},
-							["amount"] = 1796,
-						},
-						[51460] = {
-							["school"] = 32,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 3549,
-								},
-							},
-							["amount"] = 3549,
-						},
-						[63675] = {
-							["school"] = 32,
-							["sources"] = {
-								["Zaralar"] = {
-									["amount"] = 2057,
-								},
-							},
-							["amount"] = 2057,
-						},
-						[48300] = {
-							["school"] = 32,
-							["sources"] = {
-								["Zaralar"] = {
-									["overkill"] = 3289,
-									["amount"] = 11283,
-								},
-							},
-							["overkill"] = 3289,
-							["amount"] = 11283,
-						},
-						[48952] = {
-							["school"] = 2,
-							["sources"] = {
-								["Gometius"] = {
-									["amount"] = 779,
-								},
-							},
-							["amount"] = 779,
-						},
-						[6603] = {
-							["school"] = 1,
-							["sources"] = {
-								["Gometius"] = {
-									["overkill"] = 422,
-									["amount"] = 5604,
-								},
-								["Urgash"] = {
-									["amount"] = 21385,
-								},
-							},
-							["overkill"] = 422,
-							["amount"] = 26989,
-						},
-						[12654] = {
-							["school"] = 4,
-							["sources"] = {
-								["Wubobo"] = {
-									["amount"] = 1668,
-								},
-							},
-							["amount"] = 1668,
-						},
-						[61411] = {
-							["school"] = 2,
-							["sources"] = {
-								["Gometius"] = {
-									["amount"] = 4869,
-								},
-							},
-							["amount"] = 4869,
-						},
-						[47468] = {
-							["school"] = 1,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 3631,
-								},
-							},
-							["amount"] = 3631,
-						},
-						[52212] = {
-							["school"] = 32,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 30786,
-								},
-							},
-							["amount"] = 30786,
-						},
-						[48819] = {
-							["school"] = 2,
-							["sources"] = {
-								["Gometius"] = {
-									["amount"] = 8285,
-								},
-							},
-							["amount"] = 8285,
-						},
-						[50526] = {
-							["school"] = 32,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 10811,
-								},
-							},
-							["amount"] = 10811,
-						},
-						[49921] = {
-							["school"] = 1,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 5633,
-								},
-							},
-							["amount"] = 5633,
-						},
-						[53022] = {
-							["school"] = 32,
-							["sources"] = {
-								["Zaralar"] = {
-									["amount"] = 22494,
-								},
-							},
-							["amount"] = 22494,
-						},
-						[31803] = {
-							["school"] = 2,
-							["sources"] = {
-								["Gometius"] = {
-									["amount"] = 3183,
-								},
-							},
-							["amount"] = 3183,
-						},
-						[31804] = {
-							["school"] = 2,
-							["sources"] = {
-								["Gometius"] = {
-									["amount"] = 2864,
-								},
-							},
-							["amount"] = 2864,
-						},
-						[42950] = {
-							["school"] = 4,
-							["sources"] = {
-								["Wubobo"] = {
-									["amount"] = 6187,
-								},
-							},
-							["amount"] = 6187,
-						},
-						[55095] = {
-							["school"] = 16,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 8461,
-								},
-							},
-							["amount"] = 8461,
-						},
-					},
-					["totaldamage"] = 63459,
-					["name"] = "Spitting Cobra",
-					["totaldamagetaken"] = 196732,
-					["flag"] = 2632,
-					["damage"] = 56728,
-				}, -- [1]
-				{
-					["damagespells"] = {
-						[6603] = {
-							["school"] = 1,
-							["total"] = 1924,
-							["targets"] = {
-								["Gometius"] = {
-									["total"] = 1924,
-									["amount"] = 0,
-								},
-								["Urgash"] = {
-									["amount"] = 26280,
-								},
-							},
-							["amount"] = 26280,
-						},
-						[59021] = {
-							["school"] = 1,
-							["targets"] = {
-								["Gometius"] = {
-									["amount"] = 542,
-								},
-								["Urgash"] = {
-									["amount"] = 5134,
-								},
-							},
-							["amount"] = 5676,
-						},
-						[59023] = {
-							["school"] = 1,
-							["targets"] = {
-								["Urgash"] = {
-									["amount"] = 4488,
-								},
-							},
-							["amount"] = 4488,
-						},
-					},
-					["damagetaken"] = 205201,
-					["id"] = "0xF130007448000096",
-					["class"] = "MONSTER",
-					["damagetakenspells"] = {
-						[47632] = {
-							["school"] = 32,
-							["sources"] = {
-								["Urgash"] = {
-									["overkill"] = 7248,
-									["amount"] = 13544,
-								},
-							},
-							["overkill"] = 7248,
-							["amount"] = 13544,
-						},
-						[42926] = {
-							["school"] = 4,
-							["sources"] = {
-								["Wubobo"] = {
-									["amount"] = 9360,
-								},
-							},
-							["amount"] = 9360,
-						},
-						[42463] = {
-							["school"] = 2,
-							["sources"] = {
-								["Gometius"] = {
-									["amount"] = 68,
-								},
-							},
-							["amount"] = 68,
-						},
-						[55360] = {
-							["school"] = 4,
-							["sources"] = {
-								["Wubobo"] = {
-									["amount"] = 2354,
-								},
-							},
-							["amount"] = 2354,
-						},
-						[50463] = {
-							["school"] = 1,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 2364,
-								},
-							},
-							["amount"] = 2364,
-						},
-						[55362] = {
-							["school"] = 4,
-							["sources"] = {
-								["Wubobo"] = {
-									["amount"] = 4878,
-								},
-							},
-							["amount"] = 4878,
-						},
-						[70890] = {
-							["school"] = 32,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 2320,
-								},
-							},
-							["amount"] = 2320,
-						},
-						[55271] = {
-							["school"] = 1,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 4563,
-								},
-							},
-							["amount"] = 4563,
-						},
-						[51460] = {
-							["school"] = 32,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 1487,
-								},
-							},
-							["amount"] = 1487,
-						},
-						[58381] = {
-							["school"] = 32,
-							["sources"] = {
-								["Zaralar"] = {
-									["amount"] = 5219,
-								},
-							},
-							["amount"] = 5219,
-						},
-						[48952] = {
-							["school"] = 2,
-							["sources"] = {
-								["Gometius"] = {
-									["amount"] = 779,
-								},
-							},
-							["amount"] = 779,
-						},
-						[6603] = {
-							["school"] = 1,
-							["sources"] = {
-								["Gometius"] = {
-									["amount"] = 431,
-								},
-								["Urgash"] = {
-									["amount"] = 8599,
-								},
-							},
-							["amount"] = 9030,
-						},
-						[67485] = {
-							["school"] = 2,
-							["sources"] = {
-								["Gometius"] = {
-									["amount"] = 2573,
-								},
-							},
-							["amount"] = 2573,
-						},
-						[53595] = {
-							["school"] = 2,
-							["sources"] = {
-								["Gometius"] = {
-									["amount"] = 4864,
-								},
-							},
-							["amount"] = 4864,
-						},
-						[47468] = {
-							["school"] = 1,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 1883,
-								},
-							},
-							["amount"] = 1883,
-						},
-						[52212] = {
-							["school"] = 32,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 30971,
-								},
-							},
-							["amount"] = 30971,
-						},
-						[55078] = {
-							["school"] = 32,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 5983,
-								},
-							},
-							["amount"] = 5983,
-						},
-						[50526] = {
-							["school"] = 32,
-							["sources"] = {
-								["Urgash"] = {
-									["overkill"] = 1166,
-									["amount"] = 19394,
-								},
-							},
-							["overkill"] = 1166,
-							["amount"] = 19394,
-						},
-						[55095] = {
-							["school"] = 16,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 13468,
-								},
-							},
-							["amount"] = 13468,
-						},
-						[53022] = {
-							["school"] = 32,
-							["sources"] = {
-								["Zaralar"] = {
-									["overkill"] = 1292,
-									["amount"] = 52805,
-								},
-							},
-							["overkill"] = 1292,
-							["amount"] = 52805,
-						},
-						[12654] = {
-							["school"] = 4,
-							["sources"] = {
-								["Wubobo"] = {
-									["amount"] = 2007,
-								},
-							},
-							["amount"] = 2007,
-						},
-						[48819] = {
-							["school"] = 2,
-							["sources"] = {
-								["Gometius"] = {
-									["amount"] = 6350,
-								},
-							},
-							["amount"] = 6350,
-						},
-						[42950] = {
-							["school"] = 4,
-							["sources"] = {
-								["Wubobo"] = {
-									["amount"] = 8718,
-								},
-							},
-							["amount"] = 8718,
-						},
-						[71904] = {
-							["school"] = 32,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 219,
-								},
-							},
-							["amount"] = 219,
-						},
-					},
-					["totaldamage"] = 38368,
-					["name"] = "Unyielding Constrictor",
-					["totaldamagetaken"] = 205201,
-					["flag"] = 2632,
-					["damage"] = 36444,
-				}, -- [2]
-				{
-					["damagespells"] = {
-						[6603] = {
-							["school"] = 1,
-							["targets"] = {
-								["Urgash"] = {
-									["amount"] = 3,
-								},
-							},
-							["amount"] = 3,
-						},
-					},
-					["damagetaken"] = 54861,
-					["flag"] = 2600,
-					["class"] = "MONSTER",
-					["damagetakenspells"] = {
-						[50526] = {
-							["school"] = 32,
-							["sources"] = {
-								["Urgash"] = {
-									["overkill"] = 1790,
-									["amount"] = 1832,
-								},
-							},
-							["overkill"] = 1790,
-							["amount"] = 1832,
-						},
-						[53022] = {
-							["school"] = 32,
-							["sources"] = {
-								["Zaralar"] = {
-									["overkill"] = 11311,
-									["amount"] = 11479,
-								},
-							},
-							["overkill"] = 11311,
-							["amount"] = 11479,
-						},
-						[52212] = {
-							["school"] = 32,
-							["sources"] = {
-								["Urgash"] = {
-									["overkill"] = 22593,
-									["amount"] = 23391,
-								},
-							},
-							["overkill"] = 22593,
-							["amount"] = 23391,
-						},
-						[48819] = {
-							["school"] = 2,
-							["sources"] = {
-								["Gometius"] = {
-									["overkill"] = 969,
-									["amount"] = 1095,
-								},
-							},
-							["overkill"] = 969,
-							["amount"] = 1095,
-						},
-						[49941] = {
-							["school"] = 32,
-							["sources"] = {
-								["Urgash"] = {
-									["overkill"] = 13841,
-									["amount"] = 14933,
-								},
-							},
-							["overkill"] = 13841,
-							["amount"] = 14933,
-						},
-						[71904] = {
-							["school"] = 32,
-							["sources"] = {
-								["Urgash"] = {
-									["overkill"] = 1249,
-									["amount"] = 2131,
-								},
-							},
-							["overkill"] = 1249,
-							["amount"] = 2131,
-						},
-					},
-					["name"] = "Fanged Pit Viper",
-					["totaldamage"] = 3,
-					["totaldamagetaken"] = 54861,
-					["id"] = "0xF1300073BE00002B",
-					["damage"] = 3,
-				}, -- [3]
-				{
-					["id"] = "0xF1300073C500007F",
-					["name"] = "Crafty Snake",
-					["totaldamagetaken"] = 883,
-					["flag"] = 2600,
-					["class"] = "MONSTER",
-					["damagetaken"] = 883,
-					["damagetakenspells"] = {
-						[49941] = {
-							["school"] = 32,
-							["sources"] = {
-								["Urgash"] = {
-									["overkill"] = 776,
-									["amount"] = 883,
-								},
-							},
-							["overkill"] = 776,
-							["amount"] = 883,
-						},
-					},
-				}, -- [4]
-			},
-			["dispel"] = 5,
-			["totaldamage"] = 457677,
-			["time"] = 24,
-			["overheal"] = 156924,
-			["totaldamagetaken"] = 101830,
-			["etotaldamage"] = 101830,
-			["last_time"] = 18226.237,
-			["players"] = {
-				{
-					["last"] = 18222.5,
-					["flag"] = 1297,
-					["class"] = "DEATHKNIGHT",
-					["auras"] = {
-						[75456] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 64,
-							["uptime"] = 15,
-						},
-						[48162] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 24,
-						},
-						[70657] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["refresh"] = 6,
-							["uptime"] = 18,
-						},
-						[45529] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["uptime"] = 1,
-						},
-						[55078] = {
-							["type"] = "DEBUFF",
-							["count"] = 11,
-							["school"] = 32,
-							["targets"] = {
-								["Fanged Pit Viper"] = {
-									["uptime"] = 1,
-									["count"] = 5,
-								},
-								["Unyielding Constrictor"] = {
-									["uptime"] = 7,
-									["count"] = 3,
-								},
-								["Spitting Cobra"] = {
-									["uptime"] = 6,
-									["count"] = 3,
-								},
-							},
-							["uptime"] = 9,
-						},
-						[73422] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["uptime"] = 10,
-						},
-						[71905] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["refresh"] = 5,
-							["uptime"] = 10,
-						},
-						[57623] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 24,
-						},
-						[71227] = {
-							["type"] = "BUFF",
-							["count"] = 2,
-							["school"] = 8,
-							["uptime"] = 13,
-						},
-						[72221] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 24,
-						},
-						[49938] = {
-							["type"] = "DEBUFF",
-							["count"] = 28,
-							["school"] = 32,
-							["targets"] = {
-								["Fanged Pit Viper"] = {
-									["uptime"] = 2,
-									["count"] = 22,
-								},
-								["Unyielding Constrictor"] = {
-									["uptime"] = 10,
-									["count"] = 3,
-								},
-								["Spitting Cobra"] = {
-									["uptime"] = 10,
-									["count"] = 3,
-								},
-							},
-							["uptime"] = 10,
-						},
-						[19746] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 24,
-						},
-						[48266] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 24,
-						},
-						[28878] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 24,
-						},
-						[43002] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 24,
-						},
-						[71561] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 14,
-						},
-						[55095] = {
-							["type"] = "DEBUFF",
-							["count"] = 17,
-							["school"] = 16,
-							["refresh"] = 5,
-							["targets"] = {
-								["Fanged Pit Viper"] = {
-									["uptime"] = 2,
-									["count"] = 11,
-								},
-								["Unyielding Constrictor"] = {
-									["count"] = 3,
-									["refresh"] = 3,
-									["uptime"] = 11,
-								},
-								["Spitting Cobra"] = {
-									["count"] = 3,
-									["refresh"] = 2,
-									["uptime"] = 10,
-								},
-							},
-							["uptime"] = 13,
-						},
-						[51735] = {
-							["type"] = "DEBUFF",
-							["count"] = 17,
-							["school"] = 32,
-							["refresh"] = 6,
-							["targets"] = {
-								["Fanged Pit Viper"] = {
-									["uptime"] = 2,
-									["count"] = 11,
-								},
-								["Unyielding Constrictor"] = {
-									["count"] = 3,
-									["refresh"] = 3,
-									["uptime"] = 11,
-								},
-								["Spitting Cobra"] = {
-									["count"] = 3,
-									["refresh"] = 3,
-									["uptime"] = 10,
-								},
-							},
-							["uptime"] = 13,
-						},
-						[48074] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 24,
-						},
-						[49222] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 8,
-						},
-						[48942] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 24,
-						},
-						[48170] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 24,
-						},
-						[58578] = {
-							["type"] = "BUFF",
-							["count"] = 2,
-							["refresh"] = 3,
-							["school"] = 1,
-							["uptime"] = 22,
-						},
-					},
-					["time"] = 20.02,
-					["totaldamagetaken"] = 51031,
-					["damage"] = 240012,
-					["damagespells"] = {
-						["Scourge Strike (Shadow)"] = {
-							["hitmin"] = 2320,
-							["id"] = 70890,
-							["targets"] = {
-								["Unyielding Constrictor"] = {
-									["amount"] = 2320,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 32,
-							["hitmax"] = 2320,
-							["amount"] = 2320,
-							["hitamount"] = 2320,
-						},
-						["Scourge Strike"] = {
-							["hitmin"] = 4563,
-							["id"] = 55271,
-							["targets"] = {
-								["Unyielding Constrictor"] = {
-									["amount"] = 4563,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 1,
-							["hitmax"] = 4563,
-							["amount"] = 4563,
-							["hitamount"] = 4563,
-						},
-						["Melee"] = {
-							["glance"] = 6241,
-							["hitmin"] = 3636,
-							["criticalmin"] = 7403,
-							["targets"] = {
-								["Unyielding Constrictor"] = {
-									["amount"] = 7437,
-								},
-								["Spitting Cobra"] = {
-									["amount"] = 17751,
-								},
-							},
-							["glancing"] = 2,
-							["amount"] = 25188,
-							["glancemin"] = 2740,
-							["criticalamount"] = 7403,
-							["id"] = 6603,
-							["glancemax"] = 3501,
-							["criticalmax"] = 7403,
-							["critical"] = 1,
-							["hit"] = 3,
-							["school"] = 1,
-							["hitmax"] = 4107,
-							["count"] = 6,
-							["hitamount"] = 11544,
-						},
-						["Death and Decay"] = {
-							["hitmax"] = 929,
-							["criticalmin"] = 1392,
-							["hitmin"] = 666,
-							["criticalamount"] = 46801,
-							["id"] = 52212,
-							["criticalmax"] = 1941,
-							["targets"] = {
-								["Fanged Pit Viper"] = {
-									["overkill"] = 22593,
-									["amount"] = 23391,
-								},
-								["Spitting Cobra"] = {
-									["amount"] = 30786,
-								},
-								["Unyielding Constrictor"] = {
-									["amount"] = 30971,
-								},
-							},
-							["overkill"] = 22593,
-							["critical"] = 28,
-							["casts"] = 1,
-							["count"] = 76,
-							["hit"] = 48,
-							["school"] = 32,
-							["resisted"] = 1347,
-							["amount"] = 85148,
-							["hitamount"] = 38347,
-						},
-						["Icy Touch"] = {
-							["hitmin"] = 1796,
-							["id"] = 49909,
-							["targets"] = {
-								["Spitting Cobra"] = {
-									["amount"] = 1796,
-								},
-							},
-							["hitmax"] = 1796,
-							["casts"] = 1,
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 16,
-							["resisted"] = 199,
-							["amount"] = 1796,
-							["hitamount"] = 1796,
-						},
-						["Death Coil"] = {
-							["criticalmin"] = 9161,
-							["hitmin"] = 4383,
-							["criticalamount"] = 9161,
-							["id"] = 47632,
-							["criticalmax"] = 9161,
-							["targets"] = {
-								["Unyielding Constrictor"] = {
-									["overkill"] = 7248,
-									["amount"] = 13544,
-								},
-							},
-							["overkill"] = 7248,
-							["critical"] = 1,
-							["casts"] = 2,
-							["count"] = 2,
-							["hit"] = 1,
-							["school"] = 32,
-							["hitmax"] = 4383,
-							["amount"] = 13544,
-							["hitamount"] = 4383,
-						},
-						["Wandering Plague"] = {
-							["hitmin"] = 1219,
-							["id"] = 50526,
-							["targets"] = {
-								["Fanged Pit Viper"] = {
-									["overkill"] = 1790,
-									["amount"] = 1832,
-								},
-								["Spitting Cobra"] = {
-									["amount"] = 10811,
-								},
-								["Unyielding Constrictor"] = {
-									["overkill"] = 1166,
-									["amount"] = 19394,
-								},
-							},
-							["overkill"] = 2956,
-							["hitmax"] = 2070,
-							["casts"] = 1,
-							["count"] = 19,
-							["hit"] = 19,
-							["school"] = 32,
-							["resisted"] = 926,
-							["amount"] = 32037,
-							["hitamount"] = 32037,
-						},
-						["Blood Boil"] = {
-							["criticalmin"] = 881,
-							["hitmin"] = 421,
-							["criticalamount"] = 8077,
-							["id"] = 49941,
-							["criticalmax"] = 916,
-							["targets"] = {
-								["Fanged Pit Viper"] = {
-									["overkill"] = 13841,
-									["amount"] = 14933,
-								},
-								["Crafty Snake"] = {
-									["overkill"] = 776,
-									["amount"] = 883,
-								},
-							},
-							["overkill"] = 14617,
-							["critical"] = 9,
-							["casts"] = 1,
-							["count"] = 27,
-							["hit"] = 18,
-							["school"] = 32,
-							["hitmax"] = 440,
-							["amount"] = 15816,
-							["hitamount"] = 7739,
-						},
-						["Claw (Wormcatcher)"] = {
-							["hitmin"] = 884,
-							["criticalamount"] = 1820,
-							["id"] = 47468,
-							["criticalmin"] = 1820,
-							["targets"] = {
-								["Unyielding Constrictor"] = {
-									["amount"] = 1883,
-								},
-								["Spitting Cobra"] = {
-									["amount"] = 3631,
-								},
-							},
-							["criticalmax"] = 1820,
-							["critical"] = 1,
-							["casts"] = 1,
-							["count"] = 5,
-							["hit"] = 4,
-							["school"] = 1,
-							["hitmax"] = 950,
-							["amount"] = 5514,
-							["hitamount"] = 3694,
-						},
-						["Necrosis"] = {
-							["hitmin"] = 548,
-							["id"] = 51460,
-							["targets"] = {
-								["Unyielding Constrictor"] = {
-									["amount"] = 1487,
-								},
-								["Spitting Cobra"] = {
-									["amount"] = 3549,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 6,
-							["hit"] = 6,
-							["school"] = 32,
-							["hitmax"] = 1480,
-							["amount"] = 5036,
-							["hitamount"] = 5036,
-						},
-						["Blood Plague (DoT)"] = {
-							["hitmin"] = 1319,
-							["id"] = 55078,
-							["targets"] = {
-								["Unyielding Constrictor"] = {
-									["amount"] = 5983,
-								},
-								["Spitting Cobra"] = {
-									["overkill"] = 1100,
-									["amount"] = 3308,
-								},
-							},
-							["overkill"] = 1100,
-							["hitmax"] = 1670,
-							["count"] = 6,
-							["hit"] = 6,
-							["school"] = 32,
-							["resisted"] = 663,
-							["amount"] = 9291,
-							["hitamount"] = 9291,
-						},
-						["Chaos Bane"] = {
-							["hitmin"] = 97,
-							["id"] = 71904,
-							["targets"] = {
-								["Fanged Pit Viper"] = {
-									["overkill"] = 1249,
-									["amount"] = 2131,
-								},
-								["Unyielding Constrictor"] = {
-									["amount"] = 219,
-								},
-							},
-							["overkill"] = 1249,
-							["hitmax"] = 115,
-							["casts"] = 1,
-							["count"] = 23,
-							["hit"] = 23,
-							["school"] = 32,
-							["resisted"] = 11,
-							["amount"] = 2350,
-							["hitamount"] = 2350,
-						},
-						["Melee (Wormcatcher)"] = {
-							["hitmin"] = 536,
-							["id"] = 6603,
-							["targets"] = {
-								["Unyielding Constrictor"] = {
-									["amount"] = 1162,
-								},
-								["Spitting Cobra"] = {
-									["amount"] = 3634,
-								},
-							},
-							["blocked"] = 40,
-							["count"] = 8,
-							["hit"] = 8,
-							["school"] = 1,
-							["hitmax"] = 626,
-							["amount"] = 4796,
-							["hitamount"] = 4796,
-						},
-						["Plague Strike"] = {
-							["criticalamount"] = 5633,
-							["id"] = 49921,
-							["targets"] = {
-								["Spitting Cobra"] = {
-									["amount"] = 5633,
-								},
-							},
-							["casts"] = 1,
-							["critical"] = 1,
-							["amount"] = 5633,
-							["school"] = 1,
-							["criticalmin"] = 5633,
-							["criticalmax"] = 5633,
-							["count"] = 1,
-						},
-						["Frost Fever (DoT)"] = {
-							["hitmin"] = 1351,
-							["id"] = 55095,
-							["targets"] = {
-								["Unyielding Constrictor"] = {
-									["amount"] = 13468,
-								},
-								["Spitting Cobra"] = {
-									["amount"] = 8461,
-								},
-							},
-							["hitmax"] = 2189,
-							["count"] = 12,
-							["hit"] = 12,
-							["school"] = 16,
-							["resisted"] = 718,
-							["amount"] = 21929,
-							["hitamount"] = 21929,
-						},
-						["Blood-Caked Strike"] = {
-							["hitmin"] = 806,
-							["id"] = 50463,
-							["targets"] = {
-								["Unyielding Constrictor"] = {
-									["amount"] = 2364,
-								},
-								["Spitting Cobra"] = {
-									["amount"] = 2687,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 3,
-							["hit"] = 3,
-							["school"] = 1,
-							["hitmax"] = 2364,
-							["amount"] = 5051,
-							["hitamount"] = 5051,
-						},
-					},
-					["runic"] = 10,
-					["damagetaken"] = 51031,
-					["id"] = "0x070000000000D01B",
-					["spec"] = 252,
-					["healspells"] = {
-						[50475] = {
-							["overheal"] = 191,
-							["targets"] = {
-								["Urgash"] = {
-									["overheal"] = 191,
-									["amount"] = 1665,
-								},
-							},
-							["count"] = 38,
-							["amount"] = 1665,
-							["school"] = 1,
-							["max"] = 311,
-							["ishot"] = true,
-							["min"] = 1,
-						},
-					},
-					["overkill"] = 49763,
-					["runicspells"] = {
-						[45529] = 10,
-					},
-					["heal"] = 1665,
-					["name"] = "Urgash",
-					["overheal"] = 191,
-					["damagetakenspells"] = {
-						["Puncturing Strike (DoT)"] = {
-							["hitmin"] = 1122,
-							["id"] = 59023,
-							["sources"] = {
-								["Unyielding Constrictor"] = {
-									["amount"] = 4488,
-								},
-							},
-							["count"] = 4,
-							["hit"] = 4,
-							["school"] = 1,
-							["hitmax"] = 1122,
-							["amount"] = 4488,
-							["hitamount"] = 4488,
-						},
-						["Venom Spit"] = {
-							["hitmin"] = 4633,
-							["id"] = 59019,
-							["sources"] = {
-								["Spitting Cobra"] = {
-									["amount"] = 4633,
-								},
-							},
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 8,
-							["hitmax"] = 4633,
-							["amount"] = 4633,
-							["hitamount"] = 4633,
-						},
-						["Melee"] = {
-							["DODGE"] = 4,
-							["criticalmin"] = 4754,
-							["hitmin"] = 1,
-							["criticalamount"] = 4754,
-							["id"] = 6603,
-							["criticalmax"] = 4754,
-							["critical"] = 1,
-							["amount"] = 28502,
-							["PARRY"] = 3,
-							["sources"] = {
-								["Fanged Pit Viper"] = {
-									["amount"] = 3,
-								},
-								["Spitting Cobra"] = {
-									["amount"] = 2219,
-								},
-								["Unyielding Constrictor"] = {
-									["amount"] = 26280,
-								},
-							},
-							["count"] = 23,
-							["hit"] = 13,
-							["school"] = 1,
-							["hitmax"] = 2920,
-							["MISS"] = 2,
-							["hitamount"] = 23748,
-						},
-						["Vicious Bite"] = {
-							["DODGE"] = 1,
-							["hitmin"] = 2485,
-							["id"] = 59021,
-							["sources"] = {
-								["Unyielding Constrictor"] = {
-									["amount"] = 5134,
-								},
-							},
-							["count"] = 3,
-							["hit"] = 2,
-							["school"] = 1,
-							["hitmax"] = 2649,
-							["amount"] = 5134,
-							["hitamount"] = 5134,
-						},
-						["Venom Spit (DoT)"] = {
-							["hitmin"] = 2758,
-							["id"] = 59019,
-							["sources"] = {
-								["Spitting Cobra"] = {
-									["amount"] = 8274,
-								},
-							},
-							["count"] = 3,
-							["hit"] = 3,
-							["school"] = 8,
-							["hitmax"] = 2758,
-							["amount"] = 8274,
-							["hitamount"] = 8274,
-						},
-					},
-					["totaldamage"] = 240012,
-					["role"] = "DAMAGER",
-				}, -- [1]
-				{
-					["last"] = 18218.17,
-					["flag"] = 1298,
-					["class"] = "PALADIN",
-					["auras"] = {
-						[1044] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 2,
-							["uptime"] = 6,
-						},
-						[6562] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 24,
-						},
-						[48162] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 24,
-						},
-						[31801] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 24,
-						},
-						[54428] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["refresh"] = 14,
-							["uptime"] = 24,
-						},
-						[48942] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 24,
-						},
-						[57623] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["refresh"] = 1,
-							["uptime"] = 24,
-						},
-						[25898] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 24,
-						},
-						[48170] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 24,
-						},
-						[25899] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 24,
-						},
-						[19746] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 24,
-						},
-						[54499] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 2,
-							["targets"] = {
-								["Spitting Cobra"] = {
-									["uptime"] = 4,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 4,
-						},
-						[53601] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 24,
-						},
-						[48952] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 2,
-							["uptime"] = 19,
-						},
-						[43002] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 24,
-						},
-						[25780] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 24,
-						},
-						[20185] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 2,
-							["targets"] = {
-								["Spitting Cobra"] = {
-									["uptime"] = 4,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 4,
-						},
-						[20132] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["uptime"] = 10,
-						},
-						[31803] = {
-							["type"] = "DEBUFF",
-							["count"] = 5,
-							["school"] = 2,
-							["refresh"] = 10,
-							["targets"] = {
-								["Unyielding Constrictor"] = {
-									["count"] = 2,
-									["refresh"] = 1,
-									["uptime"] = 2,
-								},
-								["Spitting Cobra"] = {
-									["count"] = 3,
-									["refresh"] = 9,
-									["uptime"] = 12,
-								},
-							},
-							["uptime"] = 14,
-						},
-						[66922] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 2,
-							["uptime"] = 12,
-						},
-						[48819] = {
-							["type"] = "DEBUFF",
-							["count"] = 24,
-							["school"] = 2,
-							["targets"] = {
-								["Fanged Pit Viper"] = {
-									["uptime"] = 1,
-									["count"] = 17,
-								},
-								["Spitting Cobra"] = {
-									["uptime"] = 8,
-									["count"] = 3,
-								},
-								["Unyielding Constrictor"] = {
-									["uptime"] = 7,
-									["count"] = 4,
-								},
-							},
-							["uptime"] = 8,
-						},
-						[58597] = {
-							["type"] = "BUFF",
-							["count"] = 3,
-							["school"] = 2,
-							["uptime"] = 7,
-						},
-						[72221] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 24,
-						},
-						[48074] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 24,
-						},
-						[53563] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 24,
-						},
-					},
-					["time"] = 15.82,
-					["totaldamagetaken"] = 31185,
-					["damage"] = 55891,
-					["damagespells"] = {
-						["Consecration (DoT)"] = {
-							["hitmin"] = 292,
-							["id"] = 48819,
-							["targets"] = {
-								["Fanged Pit Viper"] = {
-									["overkill"] = 969,
-									["amount"] = 1095,
-								},
-								["Spitting Cobra"] = {
-									["amount"] = 8285,
-								},
-								["Unyielding Constrictor"] = {
-									["amount"] = 6350,
-								},
-							},
-							["overkill"] = 969,
-							["hitmax"] = 412,
-							["count"] = 42,
-							["hit"] = 42,
-							["school"] = 2,
-							["resisted"] = 587,
-							["amount"] = 15730,
-							["hitamount"] = 15730,
-						},
-						["Judgement of Vengeance"] = {
-							["criticalamount"] = 2864,
-							["id"] = 31804,
-							["targets"] = {
-								["Spitting Cobra"] = {
-									["amount"] = 2864,
-								},
-							},
-							["casts"] = 1,
-							["critical"] = 1,
-							["amount"] = 2864,
-							["school"] = 2,
-							["criticalmin"] = 2864,
-							["criticalmax"] = 2864,
-							["count"] = 1,
-						},
-						["Holy Vengeance (DoT)"] = {
-							["hitmin"] = 148,
-							["id"] = 31803,
-							["targets"] = {
-								["Spitting Cobra"] = {
-									["amount"] = 3183,
-								},
-							},
-							["count"] = 7,
-							["hit"] = 7,
-							["school"] = 2,
-							["hitmax"] = 739,
-							["amount"] = 3183,
-							["hitamount"] = 3183,
-						},
-						["Hand of Reckoning"] = {
-							["hitmin"] = 2573,
-							["id"] = 67485,
-							["targets"] = {
-								["Unyielding Constrictor"] = {
-									["amount"] = 2573,
-								},
-							},
-							["casts"] = 2,
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 2,
-							["hitmax"] = 2573,
-							["amount"] = 2573,
-							["hitamount"] = 2573,
-						},
-						["Hammer of the Righteous"] = {
-							["hitmin"] = 2152,
-							["criticalamount"] = 4304,
-							["id"] = 53595,
-							["criticalmin"] = 4304,
-							["targets"] = {
-								["Unyielding Constrictor"] = {
-									["amount"] = 4864,
-								},
-								["Spitting Cobra"] = {
-									["amount"] = 11320,
-								},
-							},
-							["criticalmax"] = 4304,
-							["critical"] = 1,
-							["casts"] = 2,
-							["count"] = 6,
-							["hit"] = 5,
-							["school"] = 2,
-							["hitmax"] = 2432,
-							["amount"] = 16184,
-							["hitamount"] = 11880,
-						},
-						["Holy Shield"] = {
-							["hitmin"] = 779,
-							["id"] = 48952,
-							["targets"] = {
-								["Unyielding Constrictor"] = {
-									["amount"] = 779,
-								},
-								["Spitting Cobra"] = {
-									["amount"] = 779,
-								},
-							},
-							["casts"] = 2,
-							["count"] = 2,
-							["hit"] = 2,
-							["school"] = 2,
-							["hitmax"] = 779,
-							["amount"] = 1558,
-							["hitamount"] = 1558,
-						},
-						["Melee"] = {
-							["glance"] = 853,
-							["hitmin"] = 466,
-							["criticalmin"] = 944,
-							["targets"] = {
-								["Unyielding Constrictor"] = {
-									["amount"] = 431,
-								},
-								["Spitting Cobra"] = {
-									["overkill"] = 422,
-									["amount"] = 5604,
-								},
-							},
-							["glancing"] = 2,
-							["amount"] = 6035,
-							["glancemin"] = 422,
-							["criticalamount"] = 2086,
-							["id"] = 6603,
-							["glancemax"] = 431,
-							["overkill"] = 422,
-							["criticalmax"] = 1142,
-							["hitmax"] = 573,
-							["hit"] = 6,
-							["school"] = 1,
-							["critical"] = 2,
-							["count"] = 10,
-							["hitamount"] = 3096,
-						},
-						["Shield of Righteousness"] = {
-							["criticalamount"] = 4869,
-							["id"] = 61411,
-							["targets"] = {
-								["Spitting Cobra"] = {
-									["amount"] = 4869,
-								},
-							},
-							["criticalmin"] = 4869,
-							["casts"] = 1,
-							["critical"] = 1,
-							["amount"] = 4869,
-							["school"] = 2,
-							["resisted"] = 1217,
-							["criticalmax"] = 4869,
-							["count"] = 1,
-						},
-						["Seal of Vengeance"] = {
-							["critical"] = 3,
-							["criticalmin"] = 360,
-							["hitmin"] = 55,
-							["criticalamount"] = 1506,
-							["id"] = 42463,
-							["criticalmax"] = 586,
-							["targets"] = {
-								["Unyielding Constrictor"] = {
-									["amount"] = 68,
-								},
-								["Spitting Cobra"] = {
-									["overkill"] = 78,
-									["amount"] = 2827,
-								},
-							},
-							["overkill"] = 78,
-							["hitmax"] = 308,
-							["casts"] = 1,
-							["count"] = 12,
-							["hit"] = 9,
-							["school"] = 2,
-							["resisted"] = 23,
-							["amount"] = 2895,
-							["hitamount"] = 1389,
-						},
-					},
-					["overkill"] = 1469,
-					["damagetaken"] = 22530,
-					["id"] = "0x0700000000949DDC",
-					["spec"] = 66,
-					["healspells"] = {
-						[20267] = {
-							["overheal"] = 2514,
-							["count"] = 4,
-							["amount"] = 0,
-							["school"] = 2,
-							["ishot"] = true,
-							["targets"] = {
-								["Gometius"] = {
-									["overheal"] = 2107,
-									["amount"] = 0,
-								},
-								["Wubobo"] = {
-									["overheal"] = 407,
-									["amount"] = 0,
-								},
-							},
-						},
-					},
-					["damagetakenspells"] = {
-						["Venom Spit"] = {
-							["total"] = 11171,
-							["hitmin"] = 1832,
-							["id"] = 59019,
-							["sources"] = {
-								["Spitting Cobra"] = {
-									["total"] = 11171,
-									["amount"] = 8189,
-								},
-							},
-							["count"] = 3,
-							["hit"] = 3,
-							["school"] = 8,
-							["hitmax"] = 3827,
-							["amount"] = 8189,
-							["hitamount"] = 8189,
-						},
-						["Melee"] = {
-							["DODGE"] = 2,
-							["total"] = 5596,
-							["hitmin"] = 1815,
-							["id"] = 6603,
-							["PARRY"] = 1,
-							["hitmax"] = 1857,
-							["amount"] = 3672,
-							["sources"] = {
-								["Fanged Pit Viper"] = {
-									["amount"] = 0,
-								},
-								["Spitting Cobra"] = {
-									["amount"] = 3672,
-								},
-								["Unyielding Constrictor"] = {
-									["total"] = 1924,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 9,
-							["ABSORB"] = 1,
-							["school"] = 1,
-							["hit"] = 2,
-							["MISS"] = 3,
-							["hitamount"] = 3672,
-						},
-						["Vicious Bite"] = {
-							["hitmin"] = 542,
-							["id"] = 59021,
-							["blocked"] = 1744,
-							["sources"] = {
-								["Unyielding Constrictor"] = {
-									["amount"] = 542,
-								},
-							},
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 1,
-							["hitmax"] = 542,
-							["amount"] = 542,
-							["hitamount"] = 542,
-						},
-						["Venom Spit (DoT)"] = {
-							["total"] = 10473,
-							["hitmin"] = 1383,
-							["id"] = 59019,
-							["ABSORB"] = 1,
-							["hitmax"] = 2245,
-							["sources"] = {
-								["Spitting Cobra"] = {
-									["total"] = 10473,
-									["amount"] = 7588,
-								},
-							},
-							["count"] = 5,
-							["hit"] = 4,
-							["school"] = 8,
-							["resisted"] = 449,
-							["amount"] = 7588,
-							["hitamount"] = 7588,
-						},
-						["Cobra Strike"] = {
-							["total"] = 3403,
-							["hitmin"] = 2539,
-							["id"] = 59020,
-							["amount"] = 2539,
-							["ABSORB"] = 1,
-							["sources"] = {
-								["Spitting Cobra"] = {
-									["total"] = 3403,
-									["amount"] = 2539,
-								},
-							},
-							["count"] = 3,
-							["hit"] = 1,
-							["school"] = 1,
-							["hitmax"] = 2539,
-							["MISS"] = 1,
-							["hitamount"] = 2539,
-						},
-					},
-					["overheal"] = 2514,
-					["heal"] = 0,
-					["name"] = "Gometius",
-					["totaldamage"] = 55891,
-					["manaspells"] = {
-						[31786] = 2238,
-						[54428] = 3232,
-						[57319] = 805,
-					},
-					["mana"] = 6275,
-					["role"] = "TANK",
-				}, -- [2]
-				{
-					["last"] = 18225.253,
-					["flag"] = 1298,
-					["class"] = "PALADIN",
-					["auras"] = {
-						[72221] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 24,
-						},
-						[48942] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 24,
-						},
-						[48074] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 24,
-						},
-						[54428] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 2,
-						},
-						[48170] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 24,
-						},
-						[57623] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["refresh"] = 1,
-							["uptime"] = 24,
-						},
-						[31834] = {
-							["type"] = "BUFF",
-							["count"] = 2,
-							["school"] = 2,
-							["refresh"] = 4,
-							["uptime"] = 16,
-						},
-						[25898] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 24,
-						},
-						[28878] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 24,
-						},
-						[20166] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 24,
-						},
-						[54153] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 24,
-						},
-						[25899] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 24,
-						},
-						[48162] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 24,
-						},
-						[57102] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 24,
-						},
-						[19746] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 24,
-						},
-						[43002] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 24,
-						},
-					},
-					["absorbspells"] = {
-						[58597] = {
-							["min"] = 863,
-							["casts"] = 3,
-							["count"] = 6,
-							["amount"] = 8655,
-							["school"] = 2,
-							["targets"] = {
-								["Gometius"] = 8655,
-							},
-							["max"] = 2022,
-						},
-					},
-					["time"] = 22.95,
-					["totaldamagetaken"] = 7212,
-					["overheal"] = 146517,
-					["absorb"] = 8655,
-					["damagetaken"] = 7212,
-					["id"] = "0x070000000096902A",
-					["spec"] = 65,
-					["healspells"] = {
-						[66922] = {
-							["overheal"] = 1876,
-							["targets"] = {
-								["Gometius"] = {
-									["overheal"] = 1876,
-									["amount"] = 2627,
-								},
-							},
-							["count"] = 12,
-							["amount"] = 2627,
-							["school"] = 2,
-							["max"] = 376,
-							["ishot"] = true,
-							["min"] = 375,
-						},
-						[48785] = {
-							["overheal"] = 32,
-							["criticalamount"] = 10305,
-							["max"] = 6478,
-							["targets"] = {
-								["Gometius"] = {
-									["overheal"] = 32,
-									["amount"] = 3827,
-								},
-								["Urgash"] = {
-									["overheal"] = 0,
-									["amount"] = 10833,
-								},
-							},
-							["criticalmin"] = 3827,
-							["min"] = 3827,
-							["criticalmax"] = 6478,
-							["critical"] = 2,
-							["amount"] = 14660,
-							["school"] = 2,
-							["casts"] = 3,
-							["count"] = 3,
-						},
-						[54968] = {
-							["overheal"] = 19386,
-							["max"] = 1891,
-							["count"] = 20,
-							["amount"] = 7375,
-							["school"] = 2,
-							["min"] = 1170,
-							["targets"] = {
-								["Gometius"] = {
-									["overheal"] = 3788,
-									["amount"] = 3113,
-								},
-								["Urgash"] = {
-									["overheal"] = 0,
-									["amount"] = 2371,
-								},
-								["Wormcatcher"] = {
-									["overheal"] = 6199,
-									["amount"] = 0,
-								},
-								["Wubobo"] = {
-									["overheal"] = 2498,
-									["amount"] = 1891,
-								},
-								["Zaralar"] = {
-									["overheal"] = 6901,
-									["amount"] = 0,
-								},
-							},
-						},
-						[53654] = {
-							["overheal"] = 88265,
-							["count"] = 9,
-							["amount"] = 12316,
-							["school"] = 2,
-							["max"] = 6779,
-							["targets"] = {
-								["Gometius"] = {
-									["overheal"] = 88265,
-									["amount"] = 12316,
-								},
-							},
-							["min"] = 720,
-						},
-						[48821] = {
-							["overheal"] = 0,
-							["count"] = 1,
-							["amount"] = 5530,
-							["school"] = 2,
-							["max"] = 5530,
-							["targets"] = {
-								["Urgash"] = {
-									["overheal"] = 0,
-									["amount"] = 5530,
-								},
-							},
-							["min"] = 5530,
-						},
-						[48782] = {
-							["overheal"] = 36958,
-							["criticalamount"] = 17278,
-							["max"] = 11458,
-							["targets"] = {
-								["Wubobo"] = {
-									["overheal"] = 13807,
-									["amount"] = 10138,
-								},
-								["Urgash"] = {
-									["overheal"] = 11439,
-									["amount"] = 27996,
-								},
-								["Ynnou"] = {
-									["overheal"] = 11712,
-									["amount"] = 6652,
-								},
-							},
-							["criticalmin"] = 6652,
-							["min"] = 4933,
-							["casts"] = 6,
-							["count"] = 6,
-							["amount"] = 44786,
-							["school"] = 2,
-							["criticalmax"] = 10626,
-							["critical"] = 2,
-						},
-					},
-					["damagetakenspells"] = {
-						["Venom Spit (DoT)"] = {
-							["hitmin"] = 2527,
-							["id"] = 59019,
-							["sources"] = {
-								["Spitting Cobra"] = {
-									["amount"] = 2527,
-								},
-							},
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 8,
-							["hitmax"] = 2527,
-							["amount"] = 2527,
-							["hitamount"] = 2527,
-						},
-						["Venom Spit"] = {
-							["hitmin"] = 4685,
-							["id"] = 59019,
-							["sources"] = {
-								["Spitting Cobra"] = {
-									["amount"] = 4685,
-								},
-							},
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 8,
-							["hitmax"] = 4685,
-							["amount"] = 4685,
-							["hitamount"] = 4685,
-						},
-					},
-					["mana"] = 2779,
-					["heal"] = 87294,
-					["name"] = "Ynnou",
-					["dispel"] = 5,
-					["manaspells"] = {
-						[20272] = 948,
-						[54428] = 1831,
-					},
-					["dispelspells"] = {
-						[4987] = {
-							["spells"] = {
-								[59019] = 5,
-							},
-							["count"] = 5,
-							["targets"] = {
-								["Gometius"] = 2,
-								["Ynnou"] = 1,
-								["Urgash"] = 1,
-								["Wubobo"] = 1,
-							},
-						},
-					},
-					["role"] = "HEALER",
-				}, -- [3]
-				{
-					["last"] = 18219.037,
-					["flag"] = 1298,
-					["class"] = "PRIEST",
-					["auras"] = {
-						[48066] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 24,
-						},
-						[15473] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 24,
-						},
-						[48162] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 24,
-						},
-						[16595] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 24,
-						},
-						[48074] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 24,
-						},
-						[48168] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 24,
-						},
-						[48170] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 24,
-						},
-						[33198] = {
-							["type"] = "DEBUFF",
-							["count"] = 2,
-							["school"] = 32,
-							["targets"] = {
-								["Unyielding Constrictor"] = {
-									["uptime"] = 2,
-									["count"] = 1,
-								},
-								["Spitting Cobra"] = {
-									["uptime"] = 8,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 10,
-						},
-						[19746] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 24,
-						},
-						[53755] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 24,
-						},
-						[48300] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 32,
-							["targets"] = {
-								["Spitting Cobra"] = {
-									["uptime"] = 10,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 10,
-						},
-						[28878] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 24,
-						},
-						[43002] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 24,
-						},
-						[59000] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 32,
-							["uptime"] = 8,
-						},
-						[48156] = {
-							["type"] = "BUFF",
-							["count"] = 2,
-							["school"] = 32,
-							["targets"] = {
-								["Unyielding Constrictor"] = {
-									["uptime"] = 2,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 2,
-						},
-						[57623] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["refresh"] = 1,
-							["uptime"] = 24,
-						},
-						[53023] = {
-							["type"] = "DEBUFF",
-							["count"] = 2,
-							["school"] = 32,
-							["targets"] = {
-								["Spitting Cobra"] = {
-									["uptime"] = 7,
-									["count"] = 2,
-								},
-							},
-							["uptime"] = 7,
-						},
-						[48160] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 32,
-							["targets"] = {
-								["Spitting Cobra"] = {
-									["uptime"] = 8,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 8,
-						},
-						[72221] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 24,
-						},
-						[15286] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 24,
-						},
-						[15258] = {
-							["type"] = "BUFF",
-							["count"] = 2,
-							["refresh"] = 11,
-							["school"] = 32,
-							["uptime"] = 21,
-						},
-						[15271] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 32,
-							["refresh"] = 1,
-							["uptime"] = 10,
-						},
-						[48942] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 24,
-						},
-					},
-					["time"] = 16.70999999999999,
-					["damage"] = 109232,
-					["damagespells"] = {
-						["Mind Sear"] = {
-							["count"] = 39,
-							["criticalmin"] = 2304,
-							["hitmin"] = 1476,
-							["criticalamount"] = 52012,
-							["id"] = 53022,
-							["hitmax"] = 1862,
-							["targets"] = {
-								["Fanged Pit Viper"] = {
-									["overkill"] = 11311,
-									["amount"] = 11479,
-								},
-								["Spitting Cobra"] = {
-									["amount"] = 22494,
-								},
-								["Unyielding Constrictor"] = {
-									["overkill"] = 1292,
-									["amount"] = 52805,
-								},
-							},
-							["overkill"] = 12603,
-							["hit"] = 20,
-							["casts"] = 2,
-							["critical"] = 19,
-							["amount"] = 86778,
-							["school"] = 32,
-							["resisted"] = 4032,
-							["criticalmax"] = 2880,
-							["hitamount"] = 34766,
-						},
-						["Vampiric Touch (DoT)"] = {
-							["hitmin"] = 1947,
-							["id"] = 48160,
-							["targets"] = {
-								["Spitting Cobra"] = {
-									["amount"] = 3895,
-								},
-							},
-							["count"] = 2,
-							["hit"] = 2,
-							["school"] = 32,
-							["hitmax"] = 1948,
-							["amount"] = 3895,
-							["hitamount"] = 3895,
-						},
-						["Improved Devouring Plague"] = {
-							["hitmin"] = 2057,
-							["id"] = 63675,
-							["targets"] = {
-								["Spitting Cobra"] = {
-									["amount"] = 2057,
-								},
-							},
-							["hitmax"] = 2057,
-							["casts"] = 1,
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 32,
-							["resisted"] = 514,
-							["amount"] = 2057,
-							["hitamount"] = 2057,
-						},
-						["Mind Flay"] = {
-							["criticalmin"] = 3767,
-							["hitmin"] = 1452,
-							["criticalamount"] = 3767,
-							["id"] = 58381,
-							["hitmax"] = 1452,
-							["targets"] = {
-								["Unyielding Constrictor"] = {
-									["amount"] = 5219,
-								},
-							},
-							["count"] = 2,
-							["hit"] = 1,
-							["casts"] = 1,
-							["critical"] = 1,
-							["amount"] = 5219,
-							["school"] = 32,
-							["resisted"] = 363,
-							["criticalmax"] = 3767,
-							["hitamount"] = 1452,
-						},
-						["Devouring Plague (DoT)"] = {
-							["hitmax"] = 1417,
-							["hitmin"] = 1417,
-							["criticalamount"] = 9866,
-							["id"] = 48300,
-							["hit"] = 1,
-							["targets"] = {
-								["Spitting Cobra"] = {
-									["overkill"] = 3289,
-									["amount"] = 11283,
-								},
-							},
-							["overkill"] = 3289,
-							["count"] = 4,
-							["criticalmax"] = 3289,
-							["critical"] = 3,
-							["amount"] = 11283,
-							["school"] = 32,
-							["resisted"] = 157,
-							["criticalmin"] = 3288,
-							["hitamount"] = 1417,
-						},
-					},
-					["id"] = "0x07000000006FE7EF",
-					["spec"] = 258,
-					["healspells"] = {
-						[15290] = {
-							["overheal"] = 5799,
-							["targets"] = {
-								["Gometius"] = {
-									["overheal"] = 210,
-									["amount"] = 609,
-								},
-								["Urgash"] = {
-									["overheal"] = 9,
-									["amount"] = 764,
-								},
-								["Wormcatcher"] = {
-									["overheal"] = 737,
-									["amount"] = 0,
-								},
-								["Wubobo"] = {
-									["overheal"] = 447,
-									["amount"] = 373,
-								},
-								["Ynnou"] = {
-									["overheal"] = 301,
-									["amount"] = 560,
-								},
-								["Zaralar"] = {
-									["overheal"] = 4095,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 54,
-							["amount"] = 2306,
-							["school"] = 32,
-							["max"] = 167,
-							["ishot"] = true,
-							["min"] = 10,
-						},
-						[75999] = {
-							["overheal"] = 534,
-							["criticalamount"] = 0,
-							["targets"] = {
-								["Zaralar"] = {
-									["overheal"] = 534,
-									["amount"] = 0,
-								},
-							},
-							["criticalmax"] = 0,
-							["critical"] = 1,
-							["amount"] = 0,
-							["school"] = 32,
-							["count"] = 1,
-							["criticalmin"] = 0,
-						},
-						[48300] = {
-							["overheal"] = 1369,
-							["count"] = 4,
-							["amount"] = 0,
-							["school"] = 32,
-							["targets"] = {
-								["Zaralar"] = {
-									["overheal"] = 1369,
-									["amount"] = 0,
-								},
-							},
-						},
-					},
-					["overkill"] = 15892,
-					["heal"] = 2306,
-					["name"] = "Zaralar",
-					["overheal"] = 7702,
-					["totaldamage"] = 109232,
-					["role"] = "DAMAGER",
-				}, -- [4]
-				{
-					["last"] = 18219.123,
-					["flag"] = 1298,
-					["class"] = "MAGE",
-					["auras"] = {
-						[72221] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 24,
-						},
-						[48074] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 24,
-						},
-						[42950] = {
-							["type"] = "DEBUFF",
-							["count"] = 6,
-							["school"] = 4,
-							["targets"] = {
-								["Unyielding Constrictor"] = {
-									["uptime"] = 5,
-									["count"] = 3,
-								},
-								["Spitting Cobra"] = {
-									["uptime"] = 4,
-									["count"] = 3,
-								},
-							},
-							["uptime"] = 5,
-						},
-						[42926] = {
-							["type"] = "DEBUFF",
-							["count"] = 6,
-							["school"] = 4,
-							["targets"] = {
-								["Unyielding Constrictor"] = {
-									["uptime"] = 8,
-									["count"] = 3,
-								},
-								["Spitting Cobra"] = {
-									["uptime"] = 5,
-									["count"] = 3,
-								},
-							},
-							["uptime"] = 8,
-						},
-						[57623] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["refresh"] = 1,
-							["uptime"] = 24,
-						},
-						[25894] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 24,
-						},
-						[12654] = {
-							["type"] = "DEBUFF",
-							["count"] = 4,
-							["school"] = 4,
-							["refresh"] = 1,
-							["targets"] = {
-								["Unyielding Constrictor"] = {
-									["uptime"] = 4,
-									["count"] = 2,
-								},
-								["Spitting Cobra"] = {
-									["count"] = 2,
-									["refresh"] = 1,
-									["uptime"] = 5,
-								},
-							},
-							["uptime"] = 5,
-						},
-						[28878] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 24,
-						},
-						[55360] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 4,
-							["targets"] = {
-								["Unyielding Constrictor"] = {
-									["uptime"] = 9,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 9,
-						},
-						[19746] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 24,
-						},
-						[43046] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 24,
-						},
-						[48942] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 24,
-						},
-						[43002] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 24,
-						},
-						[48170] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 24,
-						},
-						[48162] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 24,
-						},
-					},
-					["time"] = 16.8,
-					["totaldamagetaken"] = 12402,
-					["damage"] = 52542,
-					["damagespells"] = {
-						["Dragon's Breath"] = {
-							["hitmin"] = 1931,
-							["criticalamount"] = 6787,
-							["id"] = 42950,
-							["hitmax"] = 2213,
-							["targets"] = {
-								["Spitting Cobra"] = {
-									["amount"] = 6187,
-								},
-								["Unyielding Constrictor"] = {
-									["amount"] = 8718,
-								},
-							},
-							["count"] = 6,
-							["hit"] = 4,
-							["casts"] = 1,
-							["critical"] = 2,
-							["amount"] = 14905,
-							["school"] = 4,
-							["criticalmin"] = 3250,
-							["criticalmax"] = 3537,
-							["hitamount"] = 8118,
-						},
-						["Ignite (DoT)"] = {
-							["hitmin"] = 536,
-							["id"] = 12654,
-							["targets"] = {
-								["Unyielding Constrictor"] = {
-									["amount"] = 2007,
-								},
-								["Spitting Cobra"] = {
-									["amount"] = 1668,
-								},
-							},
-							["hitmax"] = 707,
-							["count"] = 6,
-							["hit"] = 6,
-							["school"] = 4,
-							["resisted"] = 120,
-							["amount"] = 3675,
-							["hitamount"] = 3675,
-						},
-						["Living Bomb (DoT)"] = {
-							["hitmin"] = 721,
-							["criticalamount"] = 1428,
-							["id"] = 55360,
-							["targets"] = {
-								["Unyielding Constrictor"] = {
-									["amount"] = 2354,
-								},
-								["Spitting Cobra"] = {
-									["amount"] = 3686,
-								},
-							},
-							["criticalmin"] = 1428,
-							["critical"] = 1,
-							["criticalmax"] = 1428,
-							["count"] = 7,
-							["hit"] = 6,
-							["school"] = 4,
-							["hitmax"] = 816,
-							["amount"] = 6040,
-							["hitamount"] = 4612,
-						},
-						["Flamestrike"] = {
-							["hitmin"] = 1644,
-							["criticalamount"] = 6034,
-							["id"] = 42926,
-							["criticalmin"] = 2976,
-							["targets"] = {
-								["Spitting Cobra"] = {
-									["amount"] = 7888,
-								},
-								["Unyielding Constrictor"] = {
-									["amount"] = 5044,
-								},
-							},
-							["criticalmax"] = 3058,
-							["critical"] = 2,
-							["casts"] = 1,
-							["count"] = 6,
-							["hit"] = 4,
-							["school"] = 4,
-							["hitmax"] = 1854,
-							["amount"] = 12932,
-							["hitamount"] = 6898,
-						},
-						["Flamestrike (DoT)"] = {
-							["hitmin"] = 381,
-							["id"] = 42926,
-							["targets"] = {
-								["Spitting Cobra"] = {
-									["amount"] = 2030,
-								},
-								["Unyielding Constrictor"] = {
-									["amount"] = 4316,
-								},
-							},
-							["hitmax"] = 534,
-							["count"] = 13,
-							["hit"] = 13,
-							["school"] = 4,
-							["resisted"] = 248,
-							["amount"] = 6346,
-							["hitamount"] = 6346,
-						},
-						["Living Bomb"] = {
-							["hitmin"] = 1514,
-							["id"] = 55362,
-							["targets"] = {
-								["Spitting Cobra"] = {
-									["amount"] = 3766,
-								},
-								["Unyielding Constrictor"] = {
-									["amount"] = 4878,
-								},
-							},
-							["hitmax"] = 1883,
-							["casts"] = 1,
-							["count"] = 5,
-							["hit"] = 5,
-							["school"] = 4,
-							["resisted"] = 168,
-							["amount"] = 8644,
-							["hitamount"] = 8644,
-						},
-					},
-					["damagetaken"] = 12402,
-					["id"] = "0x0700000000975314",
-					["spec"] = 63,
-					["damagetakenspells"] = {
-						["Venom Spit (DoT)"] = {
-							["hitmin"] = 2577,
-							["id"] = 59019,
-							["sources"] = {
-								["Spitting Cobra"] = {
-									["amount"] = 7731,
-								},
-							},
-							["count"] = 3,
-							["hit"] = 3,
-							["school"] = 8,
-							["hitmax"] = 2577,
-							["amount"] = 7731,
-							["hitamount"] = 7731,
-						},
-						["Venom Spit"] = {
-							["hitmin"] = 4671,
-							["id"] = 59019,
-							["sources"] = {
-								["Spitting Cobra"] = {
-									["amount"] = 4671,
-								},
-							},
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 8,
-							["hitmax"] = 4671,
-							["amount"] = 4671,
-							["hitamount"] = 4671,
-						},
-					},
-					["name"] = "Wubobo",
-					["manaspells"] = {
-						[29077] = 362,
-						[67545] = 390,
-						[44450] = -102,
-					},
-					["mana"] = 650,
-					["totaldamage"] = 52542,
-					["role"] = "DAMAGER",
-				}, -- [5]
-			},
-			["type"] = "party",
-			["damagetaken"] = 93175,
-			["etotaldamagetaken"] = 457677,
-			["absorb"] = 8655,
-			["damage"] = 457677,
-			["overkill"] = 67124,
-			["edamagetaken"] = 457677,
-			["heal"] = 91265,
-			["name"] = "Spitting Cobra",
-			["mobname"] = "Spitting Cobra",
-			["starttime"] = 1689592422,
-			["edamage"] = 93175,
-			["last_action"] = 1689592446,
-			["endtime"] = 1689592446,
-		}, -- [5]
-		{
-			["damage"] = 735712,
-			["overheal"] = 117349,
-			["mana"] = 20558,
-			["ccdone"] = 1,
-			["enemies"] = {
-				{
-					["damagespells"] = {
-						[6603] = {
-							["school"] = 1,
-							["total"] = 1855,
-							["targets"] = {
-								["Gometius"] = {
-									["total"] = 12721,
-									["amount"] = 11774,
-								},
-								["Urgash"] = {
-									["amount"] = 2466,
-								},
-							},
-							["amount"] = 14240,
-						},
-						[59019] = {
-							["school"] = 8,
-							["total"] = 4815,
-							["targets"] = {
-								["Wubobo"] = {
-									["amount"] = 27843,
-								},
-								["Urgash"] = {
-									["amount"] = 7129,
-								},
-								["Zaralar"] = {
-									["amount"] = 11274,
-								},
-								["Gometius"] = {
-									["total"] = 9425,
-									["amount"] = 7593,
-								},
-							},
-							["amount"] = 53839,
-						},
-						[59020] = {
-							["school"] = 1,
-							["total"] = 2411,
-							["targets"] = {
-								["Gometius"] = {
-									["total"] = 2411,
-									["amount"] = 1957,
-								},
-								["Urgash"] = {
-									["amount"] = 3944,
-								},
-							},
-							["amount"] = 5901,
-						},
-					},
-					["damagetaken"] = 326424,
-					["flag"] = 2632,
-					["class"] = "MONSTER",
-					["damagetakenspells"] = {
-						[55095] = {
-							["school"] = 16,
-							["sources"] = {
-								["Urgash"] = {
-									["overkill"] = 574,
-									["amount"] = 15419,
-								},
-							},
-							["overkill"] = 574,
-							["amount"] = 15419,
-						},
-						[42926] = {
-							["school"] = 4,
-							["sources"] = {
-								["Wubobo"] = {
-									["overkill"] = 555,
-									["amount"] = 8474,
-								},
-							},
-							["overkill"] = 555,
-							["amount"] = 8474,
-						},
-						[31804] = {
-							["school"] = 2,
-							["sources"] = {
-								["Gometius"] = {
-									["amount"] = 1653,
-								},
-							},
-							["amount"] = 1653,
-						},
-						[49941] = {
-							["school"] = 32,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 7384,
-								},
-							},
-							["amount"] = 7384,
-						},
-						[55078] = {
-							["school"] = 32,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 11775,
-								},
-							},
-							["amount"] = 11775,
-						},
-						[71904] = {
-							["school"] = 32,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 2546,
-								},
-							},
-							["amount"] = 2546,
-						},
-						[42463] = {
-							["school"] = 2,
-							["sources"] = {
-								["Gometius"] = {
-									["amount"] = 1897,
-								},
-							},
-							["amount"] = 1897,
-						},
-						[12654] = {
-							["school"] = 4,
-							["sources"] = {
-								["Wubobo"] = {
-									["amount"] = 3058,
-								},
-							},
-							["amount"] = 3058,
-						},
-						[50463] = {
-							["school"] = 1,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 5160,
-								},
-							},
-							["amount"] = 5160,
-						},
-						[53595] = {
-							["school"] = 2,
-							["sources"] = {
-								["Gometius"] = {
-									["amount"] = 17416,
-								},
-							},
-							["amount"] = 17416,
-						},
-						[70890] = {
-							["school"] = 32,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 4690,
-								},
-							},
-							["amount"] = 4690,
-						},
-						[55271] = {
-							["school"] = 1,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 9225,
-								},
-							},
-							["amount"] = 9225,
-						},
-						[49909] = {
-							["school"] = 16,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 5411,
-								},
-							},
-							["amount"] = 5411,
-						},
-						[51460] = {
-							["school"] = 32,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 3595,
-								},
-							},
-							["amount"] = 3595,
-						},
-						[55362] = {
-							["school"] = 4,
-							["sources"] = {
-								["Wubobo"] = {
-									["amount"] = 6508,
-								},
-							},
-							["amount"] = 6508,
-						},
-						[48827] = {
-							["school"] = 2,
-							["sources"] = {
-								["Gometius"] = {
-									["amount"] = 5507,
-								},
-							},
-							["amount"] = 5507,
-						},
-						[48952] = {
-							["school"] = 2,
-							["sources"] = {
-								["Gometius"] = {
-									["amount"] = 1558,
-								},
-							},
-							["amount"] = 1558,
-						},
-						[6603] = {
-							["school"] = 1,
-							["sources"] = {
-								["Gometius"] = {
-									["amount"] = 5206,
-								},
-								["Urgash"] = {
-									["overkill"] = 1134,
-									["amount"] = 26315,
-								},
-							},
-							["overkill"] = 1134,
-							["amount"] = 31521,
-						},
-						[42950] = {
-							["school"] = 4,
-							["sources"] = {
-								["Wubobo"] = {
-									["overkill"] = 571,
-									["amount"] = 11352,
-								},
-							},
-							["overkill"] = 571,
-							["amount"] = 11352,
-						},
-						[50526] = {
-							["school"] = 32,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 13213,
-								},
-							},
-							["amount"] = 13213,
-						},
-						[47468] = {
-							["school"] = 1,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 5328,
-								},
-							},
-							["amount"] = 5328,
-						},
-						[52212] = {
-							["school"] = 32,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 22894,
-								},
-							},
-							["amount"] = 22894,
-						},
-						[48819] = {
-							["school"] = 2,
-							["sources"] = {
-								["Gometius"] = {
-									["amount"] = 16729,
-								},
-							},
-							["amount"] = 16729,
-						},
-						[42945] = {
-							["school"] = 4,
-							["sources"] = {
-								["Wubobo"] = {
-									["amount"] = 3687,
-								},
-							},
-							["amount"] = 3687,
-						},
-						[49921] = {
-							["school"] = 1,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 7484,
-								},
-							},
-							["amount"] = 7484,
-						},
-						[53022] = {
-							["school"] = 32,
-							["sources"] = {
-								["Zaralar"] = {
-									["amount"] = 81356,
-								},
-							},
-							["amount"] = 81356,
-						},
-						[61411] = {
-							["school"] = 2,
-							["sources"] = {
-								["Gometius"] = {
-									["amount"] = 2693,
-								},
-							},
-							["amount"] = 2693,
-						},
-						[31803] = {
-							["school"] = 2,
-							["sources"] = {
-								["Gometius"] = {
-									["amount"] = 5003,
-								},
-							},
-							["amount"] = 5003,
-						},
-						[67485] = {
-							["school"] = 2,
-							["sources"] = {
-								["Gometius"] = {
-									["amount"] = 2573,
-								},
-							},
-							["amount"] = 2573,
-						},
-						[55360] = {
-							["school"] = 4,
-							["sources"] = {
-								["Wubobo"] = {
-									["amount"] = 11315,
-								},
-							},
-							["amount"] = 11315,
-						},
-					},
-					["name"] = "Spitting Cobra",
-					["totaldamage"] = 77213,
-					["totaldamagetaken"] = 326424,
-					["id"] = "0xF13000744E000090",
-					["damage"] = 73980,
-				}, -- [1]
-				{
-					["damagespells"] = {
-						[59023] = {
-							["school"] = 1,
-							["total"] = 702,
-							["targets"] = {
-								["Gometius"] = {
-									["total"] = 2808,
-									["amount"] = 2106,
-								},
-							},
-							["amount"] = 2106,
-						},
-						[59021] = {
-							["school"] = 1,
-							["total"] = 7743,
-							["targets"] = {
-								["Gometius"] = {
-									["total"] = 6371,
-									["amount"] = 4143,
-								},
-								["Urgash"] = {
-									["amount"] = 3424,
-								},
-							},
-							["amount"] = 7567,
-						},
-						[6603] = {
-							["school"] = 1,
-							["total"] = 24299,
-							["targets"] = {
-								["Gometius"] = {
-									["total"] = 18066,
-									["amount"] = 17409,
-								},
-								["Urgash"] = {
-									["amount"] = 13071,
-								},
-							},
-							["amount"] = 30480,
-						},
-					},
-					["damagetaken"] = 265266,
-					["flag"] = 2632,
-					["class"] = "MONSTER",
-					["damagetakenspells"] = {
-						[47632] = {
-							["school"] = 32,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 12551,
-								},
-							},
-							["amount"] = 12551,
-						},
-						[61411] = {
-							["school"] = 2,
-							["sources"] = {
-								["Gometius"] = {
-									["amount"] = 6086,
-								},
-							},
-							["amount"] = 6086,
-						},
-						[31804] = {
-							["school"] = 2,
-							["sources"] = {
-								["Gometius"] = {
-									["amount"] = 1268,
-								},
-							},
-							["amount"] = 1268,
-						},
-						[58381] = {
-							["school"] = 32,
-							["sources"] = {
-								["Zaralar"] = {
-									["amount"] = 3640,
-								},
-							},
-							["amount"] = 3640,
-						},
-						[55362] = {
-							["school"] = 4,
-							["sources"] = {
-								["Wubobo"] = {
-									["amount"] = 4803,
-								},
-							},
-							["amount"] = 4803,
-						},
-						[12654] = {
-							["school"] = 4,
-							["sources"] = {
-								["Wubobo"] = {
-									["amount"] = 1614,
-								},
-							},
-							["amount"] = 1614,
-						},
-						[55078] = {
-							["school"] = 32,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 5810,
-								},
-							},
-							["amount"] = 5810,
-						},
-						[42926] = {
-							["school"] = 4,
-							["sources"] = {
-								["Wubobo"] = {
-									["amount"] = 5487,
-								},
-							},
-							["amount"] = 5487,
-						},
-						[42463] = {
-							["school"] = 2,
-							["sources"] = {
-								["Gometius"] = {
-									["amount"] = 1478,
-								},
-							},
-							["amount"] = 1478,
-						},
-						[55360] = {
-							["school"] = 4,
-							["sources"] = {
-								["Wubobo"] = {
-									["amount"] = 7353,
-								},
-							},
-							["amount"] = 7353,
-						},
-						[50463] = {
-							["school"] = 1,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 4079,
-								},
-							},
-							["amount"] = 4079,
-						},
-						[53595] = {
-							["school"] = 2,
-							["sources"] = {
-								["Gometius"] = {
-									["amount"] = 6026,
-								},
-							},
-							["amount"] = 6026,
-						},
-						[70890] = {
-							["school"] = 32,
-							["sources"] = {
-								["Urgash"] = {
-									["overkill"] = 1496,
-									["amount"] = 2284,
-								},
-							},
-							["overkill"] = 1496,
-							["amount"] = 2284,
-						},
-						[55271] = {
-							["school"] = 1,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 4319,
-								},
-							},
-							["amount"] = 4319,
-						},
-						[48300] = {
-							["school"] = 32,
-							["sources"] = {
-								["Zaralar"] = {
-									["amount"] = 6278,
-								},
-							},
-							["amount"] = 6278,
-						},
-						[51460] = {
-							["school"] = 32,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 4886,
-								},
-							},
-							["amount"] = 4886,
-						},
-						[63675] = {
-							["school"] = 32,
-							["sources"] = {
-								["Zaralar"] = {
-									["amount"] = 4513,
-								},
-							},
-							["amount"] = 4513,
-						},
-						[48827] = {
-							["school"] = 2,
-							["sources"] = {
-								["Gometius"] = {
-									["amount"] = 7225,
-								},
-							},
-							["amount"] = 7225,
-						},
-						[48952] = {
-							["school"] = 2,
-							["sources"] = {
-								["Gometius"] = {
-									["amount"] = 3628,
-								},
-							},
-							["amount"] = 3628,
-						},
-						[6603] = {
-							["school"] = 1,
-							["sources"] = {
-								["Gometius"] = {
-									["amount"] = 4129,
-								},
-								["Urgash"] = {
-									["amount"] = 25418,
-								},
-							},
-							["amount"] = 29547,
-						},
-						[71904] = {
-							["school"] = 32,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 2402,
-								},
-							},
-							["amount"] = 2402,
-						},
-						[50536] = {
-							["school"] = 32,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 223,
-								},
-							},
-							["amount"] = 223,
-						},
-						[47468] = {
-							["school"] = 1,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 760,
-								},
-							},
-							["amount"] = 760,
-						},
-						[52212] = {
-							["school"] = 32,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 18169,
-								},
-							},
-							["amount"] = 18169,
-						},
-						[49941] = {
-							["school"] = 32,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 7800,
-								},
-							},
-							["amount"] = 7800,
-						},
-						[42945] = {
-							["school"] = 4,
-							["sources"] = {
-								["Wubobo"] = {
-									["overkill"] = 1272,
-									["amount"] = 7560,
-								},
-							},
-							["overkill"] = 1272,
-							["amount"] = 7560,
-						},
-						[50526] = {
-							["school"] = 32,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 9882,
-								},
-							},
-							["amount"] = 9882,
-						},
-						[53022] = {
-							["school"] = 32,
-							["sources"] = {
-								["Zaralar"] = {
-									["overkill"] = 1838,
-									["amount"] = 66191,
-								},
-							},
-							["overkill"] = 1838,
-							["amount"] = 66191,
-						},
-						[31803] = {
-							["school"] = 2,
-							["sources"] = {
-								["Gometius"] = {
-									["amount"] = 1594,
-								},
-							},
-							["amount"] = 1594,
-						},
-						[48819] = {
-							["school"] = 2,
-							["sources"] = {
-								["Gometius"] = {
-									["amount"] = 12777,
-								},
-							},
-							["amount"] = 12777,
-						},
-						[42950] = {
-							["school"] = 4,
-							["sources"] = {
-								["Wubobo"] = {
-									["amount"] = 7091,
-								},
-							},
-							["amount"] = 7091,
-						},
-						[55095] = {
-							["school"] = 16,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 7942,
-								},
-							},
-							["amount"] = 7942,
-						},
-					},
-					["name"] = "Unyielding Constrictor",
-					["totaldamage"] = 43740,
-					["totaldamagetaken"] = 265266,
-					["id"] = "0xF13000744800008A",
-					["damage"] = 40153,
-				}, -- [2]
-				{
-					["damagespells"] = {
-						[54819] = {
-							["school"] = 8,
-							["total"] = 1259,
-							["targets"] = {
-								["Gometius"] = {
-									["total"] = 1888,
-									["amount"] = 1254,
-								},
-								["Urgash"] = {
-									["amount"] = 2925,
-								},
-							},
-							["amount"] = 4179,
-						},
-					},
-					["name"] = "Drakkari Elemental",
-					["totaldamage"] = 4813,
-					["flag"] = 2632,
-					["class"] = "MONSTER",
-					["id"] = "0xF1300073850000E9",
-					["damage"] = 4179,
-				}, -- [3]
-				{
-					["id"] = "0xF130000B6200000F",
-					["name"] = "Snake",
-					["totaldamagetaken"] = 8477,
-					["flag"] = 2600,
-					["class"] = "MONSTER",
-					["damagetaken"] = 8477,
-					["damagetakenspells"] = {
-						[55078] = {
-							["school"] = 32,
-							["sources"] = {
-								["Urgash"] = {
-									["overkill"] = 2641,
-									["amount"] = 2659,
-								},
-							},
-							["overkill"] = 2641,
-							["amount"] = 2659,
-						},
-						[50526] = {
-							["school"] = 32,
-							["sources"] = {
-								["Urgash"] = {
-									["overkill"] = 2498,
-									["amount"] = 2516,
-								},
-							},
-							["overkill"] = 2498,
-							["amount"] = 2516,
-						},
-						[71904] = {
-							["school"] = 32,
-							["sources"] = {
-								["Urgash"] = {
-									["overkill"] = 688,
-									["amount"] = 697,
-								},
-							},
-							["overkill"] = 688,
-							["amount"] = 697,
-						},
-						[55362] = {
-							["school"] = 4,
-							["sources"] = {
-								["Wubobo"] = {
-									["overkill"] = 2596,
-									["amount"] = 2605,
-								},
-							},
-							["overkill"] = 2596,
-							["amount"] = 2605,
-						},
-					},
-				}, -- [4]
-				{
-					["damagespells"] = {
-						[58972] = {
-							["school"] = 4,
-							["targets"] = {
-								["Urgash"] = {
-									["amount"] = 3068,
-								},
-							},
-							["amount"] = 3068,
-						},
-						[58971] = {
-							["school"] = 4,
-							["targets"] = {
-								["Wubobo"] = {
-									["amount"] = 3053,
-								},
-							},
-							["amount"] = 3053,
-						},
-						[6603] = {
-							["school"] = 1,
-							["targets"] = {
-								["Urgash"] = {
-									["amount"] = 2579,
-								},
-							},
-							["amount"] = 2579,
-						},
-						[61362] = {
-							["school"] = 4,
-							["targets"] = {
-								["Wubobo"] = {
-									["amount"] = 2214,
-								},
-								["Urgash"] = {
-									["amount"] = 2003,
-								},
-							},
-							["amount"] = 4217,
-						},
-					},
-					["damagetaken"] = 67912,
-					["flag"] = 68168,
-					["class"] = "MONSTER",
-					["damagetakenspells"] = {
-						[55078] = {
-							["school"] = 32,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 2546,
-								},
-							},
-							["amount"] = 2546,
-						},
-						[50526] = {
-							["school"] = 32,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 2586,
-								},
-							},
-							["amount"] = 2586,
-						},
-						[6603] = {
-							["school"] = 1,
-							["sources"] = {
-								["Gometius"] = {
-									["amount"] = 1588,
-								},
-								["Urgash"] = {
-									["amount"] = 11354,
-								},
-							},
-							["amount"] = 12942,
-						},
-						[67485] = {
-							["school"] = 2,
-							["sources"] = {
-								["Gometius"] = {
-									["amount"] = 5689,
-								},
-							},
-							["amount"] = 5689,
-						},
-						[47468] = {
-							["school"] = 1,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 1548,
-								},
-							},
-							["amount"] = 1548,
-						},
-						[47632] = {
-							["school"] = 32,
-							["sources"] = {
-								["Urgash"] = {
-									["overkill"] = 2747,
-									["amount"] = 8787,
-								},
-							},
-							["overkill"] = 2747,
-							["amount"] = 8787,
-						},
-						[63675] = {
-							["school"] = 32,
-							["sources"] = {
-								["Zaralar"] = {
-									["amount"] = 5130,
-								},
-							},
-							["amount"] = 5130,
-						},
-						[55360] = {
-							["school"] = 4,
-							["sources"] = {
-								["Wubobo"] = {
-									["amount"] = 1428,
-								},
-							},
-							["amount"] = 1428,
-						},
-						[51460] = {
-							["school"] = 32,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 2062,
-								},
-							},
-							["amount"] = 2062,
-						},
-						[49930] = {
-							["school"] = 1,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 4674,
-								},
-							},
-							["amount"] = 4674,
-						},
-						[55271] = {
-							["school"] = 1,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 9851,
-								},
-							},
-							["amount"] = 9851,
-						},
-						[53595] = {
-							["school"] = 2,
-							["sources"] = {
-								["Gometius"] = {
-									["amount"] = 2004,
-								},
-							},
-							["amount"] = 2004,
-						},
-						[42463] = {
-							["school"] = 2,
-							["sources"] = {
-								["Gometius"] = {
-									["amount"] = 299,
-								},
-							},
-							["amount"] = 299,
-						},
-						[55095] = {
-							["school"] = 16,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 3357,
-								},
-							},
-							["amount"] = 3357,
-						},
-						[70890] = {
-							["school"] = 32,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 5009,
-								},
-							},
-							["amount"] = 5009,
-						},
-					},
-					["name"] = "Drakkari Fire Weaver",
-					["totaldamage"] = 12917,
-					["totaldamagetaken"] = 67912,
-					["id"] = "0xF13000747E0000A1",
-					["damage"] = 12917,
-				}, -- [5]
-				{
-					["damagespells"] = {
-						[6603] = {
-							["school"] = 1,
-							["targets"] = {
-								["Urgash"] = {
-									["amount"] = 5085,
-								},
-							},
-							["amount"] = 5085,
-						},
-					},
-					["damagetaken"] = 67633,
-					["flag"] = 68168,
-					["class"] = "MONSTER",
-					["damagetakenspells"] = {
-						[55078] = {
-							["school"] = 32,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 1369,
-								},
-							},
-							["amount"] = 1369,
-						},
-						[42463] = {
-							["school"] = 2,
-							["sources"] = {
-								["Gometius"] = {
-									["amount"] = 984,
-								},
-							},
-							["amount"] = 984,
-						},
-						[31803] = {
-							["school"] = 2,
-							["sources"] = {
-								["Gometius"] = {
-									["amount"] = 1173,
-								},
-							},
-							["amount"] = 1173,
-						},
-						[50463] = {
-							["school"] = 1,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 2376,
-								},
-							},
-							["amount"] = 2376,
-						},
-						[31804] = {
-							["school"] = 2,
-							["sources"] = {
-								["Gometius"] = {
-									["amount"] = 1589,
-								},
-							},
-							["amount"] = 1589,
-						},
-						[49909] = {
-							["school"] = 16,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 3017,
-								},
-							},
-							["amount"] = 3017,
-						},
-						[51460] = {
-							["school"] = 32,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 2686,
-								},
-							},
-							["amount"] = 2686,
-						},
-						[63675] = {
-							["school"] = 32,
-							["sources"] = {
-								["Zaralar"] = {
-									["amount"] = 3299,
-								},
-							},
-							["amount"] = 3299,
-						},
-						[48300] = {
-							["school"] = 32,
-							["sources"] = {
-								["Zaralar"] = {
-									["amount"] = 1788,
-								},
-							},
-							["amount"] = 1788,
-						},
-						[6603] = {
-							["school"] = 1,
-							["sources"] = {
-								["Gometius"] = {
-									["amount"] = 2465,
-								},
-								["Urgash"] = {
-									["amount"] = 15472,
-								},
-							},
-							["amount"] = 17937,
-						},
-						[47468] = {
-							["school"] = 1,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 1555,
-								},
-							},
-							["amount"] = 1555,
-						},
-						[55095] = {
-							["school"] = 16,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 3438,
-								},
-							},
-							["amount"] = 3438,
-						},
-						[49921] = {
-							["school"] = 1,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 4974,
-								},
-							},
-							["amount"] = 4974,
-						},
-						[55360] = {
-							["school"] = 4,
-							["sources"] = {
-								["Wubobo"] = {
-									["amount"] = 816,
-								},
-							},
-							["amount"] = 816,
-						},
-						[50526] = {
-							["school"] = 32,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 2916,
-								},
-							},
-							["amount"] = 2916,
-						},
-						[53595] = {
-							["school"] = 2,
-							["sources"] = {
-								["Gometius"] = {
-									["amount"] = 2505,
-								},
-							},
-							["amount"] = 2505,
-						},
-						[58381] = {
-							["school"] = 32,
-							["sources"] = {
-								["Zaralar"] = {
-									["overkill"] = 2468,
-									["amount"] = 12835,
-								},
-							},
-							["overkill"] = 2468,
-							["amount"] = 12835,
-						},
-						[54158] = {
-							["school"] = 2,
-							["sources"] = {
-								["Ynnou"] = {
-									["amount"] = 2376,
-								},
-							},
-							["amount"] = 2376,
-						},
-					},
-					["name"] = "Drakkari Lancer",
-					["totaldamage"] = 5085,
-					["totaldamagetaken"] = 67633,
-					["id"] = "0xF13000747B00009C",
-					["damage"] = 5085,
-				}, -- [6]
-			},
-			["dispel"] = 5,
-			["totaldamage"] = 735712,
-			["time"] = 55,
-			["starttime"] = 1689592361,
-			["totaldamagetaken"] = 143768,
-			["etotaldamagetaken"] = 735712,
-			["last_time"] = 18195.078,
-			["players"] = {
-				{
-					["ccdonespells"] = {
-						[49560] = {
-							["count"] = 1,
-							["targets"] = {
-								["Drakkari Fire Weaver"] = 1,
-							},
-						},
-					},
-					["last"] = 18189.01,
-					["flag"] = 1297,
-					["class"] = "DEATHKNIGHT",
-					["auras"] = {
-						[75456] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 64,
-							["uptime"] = 15,
-						},
-						[48162] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 55,
-						},
-						[70657] = {
-							["type"] = "BUFF",
-							["count"] = 3,
-							["refresh"] = 14,
-							["school"] = 1,
-							["uptime"] = 47,
-						},
-						[55078] = {
-							["type"] = "DEBUFF",
-							["count"] = 13,
-							["school"] = 32,
-							["targets"] = {
-								["Snake"] = {
-									["uptime"] = 6,
-									["count"] = 2,
-								},
-								["Unyielding Constrictor"] = {
-									["uptime"] = 12,
-									["count"] = 4,
-								},
-								["Drakkari Fire Weaver"] = {
-									["uptime"] = 7,
-									["count"] = 1,
-								},
-								["Drakkari Lancer"] = {
-									["uptime"] = 5,
-									["count"] = 1,
-								},
-								["Spitting Cobra"] = {
-									["uptime"] = 16,
-									["count"] = 5,
-								},
-							},
-							["uptime"] = 25,
-						},
-						[73422] = {
-							["type"] = "BUFF",
-							["count"] = 2,
-							["school"] = 1,
-							["uptime"] = 20,
-						},
-						[48074] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 55,
-						},
-						[57623] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 55,
-						},
-						[71227] = {
-							["type"] = "BUFF",
-							["count"] = 3,
-							["refresh"] = 1,
-							["school"] = 8,
-							["uptime"] = 39,
-						},
-						[48170] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 55,
-						},
-						[49938] = {
-							["type"] = "DEBUFF",
-							["count"] = 7,
-							["school"] = 32,
-							["targets"] = {
-								["Unyielding Constrictor"] = {
-									["uptime"] = 12,
-									["count"] = 4,
-								},
-								["Spitting Cobra"] = {
-									["uptime"] = 17,
-									["count"] = 3,
-								},
-							},
-							["uptime"] = 17,
-						},
-						[19746] = {
-							["type"] = "BUFF",
-							["count"] = 3,
-							["school"] = 2,
-							["uptime"] = 52,
-						},
-						[48266] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 55,
-						},
-						[28878] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 55,
-						},
-						[43002] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 55,
-						},
-						[50536] = {
-							["type"] = "DEBUFF",
-							["count"] = 2,
-							["school"] = 32,
-							["refresh"] = 1,
-							["targets"] = {
-								["Unyielding Constrictor"] = {
-									["count"] = 2,
-									["refresh"] = 1,
-									["uptime"] = 6,
-								},
-							},
-							["uptime"] = 6,
-						},
-						[71561] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["uptime"] = 10,
-						},
-						[55095] = {
-							["type"] = "DEBUFF",
-							["count"] = 13,
-							["school"] = 16,
-							["targets"] = {
-								["Snake"] = {
-									["uptime"] = 6,
-									["count"] = 2,
-								},
-								["Unyielding Constrictor"] = {
-									["uptime"] = 12,
-									["count"] = 4,
-								},
-								["Drakkari Fire Weaver"] = {
-									["uptime"] = 7,
-									["count"] = 1,
-								},
-								["Drakkari Lancer"] = {
-									["uptime"] = 8,
-									["count"] = 1,
-								},
-								["Spitting Cobra"] = {
-									["uptime"] = 19,
-									["count"] = 5,
-								},
-							},
-							["uptime"] = 31,
-						},
-						[49560] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["targets"] = {
-								["Drakkari Fire Weaver"] = {
-									["uptime"] = 3,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 3,
-						},
-						[71905] = {
-							["type"] = "BUFF",
-							["count"] = 3,
-							["school"] = 1,
-							["refresh"] = 11,
-							["uptime"] = 26,
-						},
-						[51735] = {
-							["type"] = "DEBUFF",
-							["count"] = 13,
-							["school"] = 32,
-							["refresh"] = 3,
-							["targets"] = {
-								["Snake"] = {
-									["uptime"] = 6,
-									["count"] = 2,
-								},
-								["Unyielding Constrictor"] = {
-									["uptime"] = 12,
-									["count"] = 4,
-								},
-								["Drakkari Fire Weaver"] = {
-									["uptime"] = 7,
-									["count"] = 1,
-								},
-								["Drakkari Lancer"] = {
-									["count"] = 1,
-									["refresh"] = 1,
-									["uptime"] = 8,
-								},
-								["Spitting Cobra"] = {
-									["count"] = 5,
-									["refresh"] = 2,
-									["uptime"] = 19,
-								},
-							},
-							["uptime"] = 31,
-						},
-						[72221] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 55,
-						},
-						[48942] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 55,
-						},
-						[66803] = {
-							["type"] = "BUFF",
-							["count"] = 2,
-							["school"] = 32,
-							["uptime"] = 31,
-						},
-						[58578] = {
-							["type"] = "BUFF",
-							["count"] = 2,
-							["refresh"] = 6,
-							["school"] = 1,
-							["uptime"] = 50,
-						},
-					},
-					["time"] = 44.55000000000001,
-					["totaldamagetaken"] = 45694,
-					["damage"] = 342413,
-					["damagespells"] = {
-						["Scourge Strike"] = {
-							["hitmin"] = 4319,
-							["criticalamount"] = 19076,
-							["id"] = 55271,
-							["hitmax"] = 4319,
-							["targets"] = {
-								["Unyielding Constrictor"] = {
-									["amount"] = 4319,
-								},
-								["Drakkari Fire Weaver"] = {
-									["amount"] = 9851,
-								},
-								["Spitting Cobra"] = {
-									["amount"] = 9225,
-								},
-							},
-							["count"] = 3,
-							["hit"] = 1,
-							["casts"] = 3,
-							["critical"] = 2,
-							["amount"] = 23395,
-							["school"] = 1,
-							["criticalmin"] = 9225,
-							["criticalmax"] = 9851,
-							["hitamount"] = 4319,
-						},
-						["Death and Decay"] = {
-							["criticalmin"] = 1294,
 							["hitmin"] = 619,
-							["criticalamount"] = 22112,
-							["id"] = 52212,
-							["hitmax"] = 1043,
-							["targets"] = {
-								["Spitting Cobra"] = {
-									["amount"] = 22894,
-								},
-								["Unyielding Constrictor"] = {
-									["amount"] = 18169,
-								},
-							},
-							["count"] = 37,
-							["hit"] = 24,
-							["casts"] = 2,
-							["critical"] = 13,
-							["amount"] = 41063,
-							["school"] = 32,
-							["resisted"] = 973,
-							["criticalmax"] = 2180,
-							["hitamount"] = 18951,
-						},
-						["Death Coil"] = {
-							["hitmax"] = 4743,
-							["criticalmin"] = 8787,
-							["hitmin"] = 3727,
-							["criticalamount"] = 8787,
-							["id"] = 47632,
-							["criticalmax"] = 8787,
-							["targets"] = {
-								["Drakkari Fire Weaver"] = {
-									["overkill"] = 2747,
-									["amount"] = 8787,
-								},
-								["Unyielding Constrictor"] = {
-									["amount"] = 12551,
-								},
-							},
-							["overkill"] = 2747,
-							["critical"] = 1,
-							["casts"] = 4,
-							["count"] = 4,
-							["hit"] = 3,
-							["school"] = 32,
-							["resisted"] = 976,
-							["amount"] = 21338,
-							["hitamount"] = 12551,
-						},
-						["Unholy Blight (DoT)"] = {
-							["hitmin"] = 30,
-							["id"] = 50536,
-							["targets"] = {
-								["Unyielding Constrictor"] = {
-									["amount"] = 223,
-								},
-							},
-							["hitmax"] = 87,
-							["count"] = 5,
-							["hit"] = 5,
-							["school"] = 32,
-							["resisted"] = 15,
-							["amount"] = 223,
-							["hitamount"] = 223,
-						},
-						["Wandering Plague"] = {
-							["hitmin"] = 941,
-							["id"] = 50526,
-							["targets"] = {
-								["Snake"] = {
-									["overkill"] = 2498,
-									["amount"] = 2516,
-								},
-								["Unyielding Constrictor"] = {
-									["amount"] = 9882,
-								},
-								["Drakkari Fire Weaver"] = {
-									["amount"] = 2586,
-								},
-								["Drakkari Lancer"] = {
-									["amount"] = 2916,
-								},
-								["Spitting Cobra"] = {
-									["amount"] = 13213,
-								},
-							},
-							["overkill"] = 2498,
-							["hitmax"] = 1625,
-							["casts"] = 1,
-							["count"] = 24,
-							["hit"] = 24,
-							["school"] = 32,
-							["resisted"] = 938,
-							["amount"] = 31113,
-							["hitamount"] = 31113,
-						},
-						["Melee (Wormcatcher)"] = {
-							["glance"] = 1356,
-							["hitmin"] = 471,
-							["criticalmin"] = 1000,
-							["targets"] = {
-								["Drakkari Fire Weaver"] = {
-									["amount"] = 1036,
-								},
-								["Drakkari Lancer"] = {
-									["amount"] = 2036,
-								},
-								["Unyielding Constrictor"] = {
-									["amount"] = 982,
-								},
-								["Spitting Cobra"] = {
-									["overkill"] = 1134,
-									["amount"] = 8333,
-								},
-							},
-							["glancing"] = 3,
-							["amount"] = 12387,
-							["glancemin"] = 426,
-							["criticalamount"] = 4332,
-							["id"] = 6603,
-							["glancemax"] = 479,
-							["overkill"] = 1134,
-							["blocked"] = 40,
-							["criticalmax"] = 1260,
-							["count"] = 20,
-							["hit"] = 13,
-							["school"] = 1,
-							["hitmax"] = 542,
-							["critical"] = 4,
-							["hitamount"] = 6699,
-						},
-						["Melee"] = {
-							["glance"] = 5321,
-							["hitmin"] = 3151,
-							["criticalmin"] = 6215,
-							["targets"] = {
-								["Drakkari Fire Weaver"] = {
-									["amount"] = 10318,
-								},
-								["Drakkari Lancer"] = {
-									["amount"] = 13436,
-								},
-								["Unyielding Constrictor"] = {
-									["amount"] = 24436,
-								},
-								["Spitting Cobra"] = {
-									["amount"] = 17982,
-								},
-							},
-							["glancing"] = 2,
-							["amount"] = 66172,
-							["glancemin"] = 2468,
-							["criticalamount"] = 47511,
-							["id"] = 6603,
-							["glancemax"] = 2853,
-							["criticalmax"] = 7696,
-							["critical"] = 7,
-							["hit"] = 4,
-							["school"] = 1,
-							["hitmax"] = 3599,
-							["count"] = 13,
-							["hitamount"] = 13340,
-						},
-						["Icy Touch"] = {
-							["hitmax"] = 1922,
-							["hitmin"] = 1922,
-							["criticalamount"] = 6506,
-							["id"] = 49909,
-							["count"] = 3,
-							["targets"] = {
-								["Drakkari Lancer"] = {
-									["amount"] = 3017,
-								},
-								["Spitting Cobra"] = {
-									["amount"] = 5411,
-								},
-							},
-							["hit"] = 1,
-							["criticalmin"] = 3017,
-							["casts"] = 3,
-							["critical"] = 2,
-							["amount"] = 8428,
-							["school"] = 16,
-							["resisted"] = 754,
-							["criticalmax"] = 3489,
-							["hitamount"] = 1922,
-						},
-						["Scourge Strike (Shadow)"] = {
-							["hitmin"] = 2284,
-							["id"] = 70890,
-							["targets"] = {
-								["Unyielding Constrictor"] = {
-									["overkill"] = 1496,
-									["amount"] = 2284,
-								},
-								["Drakkari Fire Weaver"] = {
-									["amount"] = 5009,
-								},
-								["Spitting Cobra"] = {
-									["amount"] = 4690,
-								},
-							},
-							["overkill"] = 1496,
-							["casts"] = 1,
-							["count"] = 3,
-							["hit"] = 3,
-							["school"] = 32,
-							["hitmax"] = 5009,
-							["amount"] = 11983,
-							["hitamount"] = 11983,
-						},
-						["Blood Boil"] = {
-							["hitmin"] = 1797,
-							["criticalamount"] = 11565,
-							["id"] = 49941,
-							["criticalmin"] = 3765,
-							["targets"] = {
-								["Unyielding Constrictor"] = {
-									["amount"] = 7800,
-								},
-								["Spitting Cobra"] = {
-									["amount"] = 7384,
-								},
-							},
-							["criticalmax"] = 3957,
-							["critical"] = 3,
-							["casts"] = 1,
-							["count"] = 5,
-							["hit"] = 2,
-							["school"] = 32,
-							["hitmax"] = 1822,
-							["amount"] = 15184,
-							["hitamount"] = 3619,
-						},
-						["Claw (Wormcatcher)"] = {
-							["hitmin"] = 701,
-							["criticalamount"] = 1558,
-							["id"] = 47468,
-							["criticalmin"] = 1558,
-							["targets"] = {
-								["Drakkari Fire Weaver"] = {
-									["amount"] = 1548,
-								},
-								["Drakkari Lancer"] = {
-									["amount"] = 1555,
-								},
-								["Unyielding Constrictor"] = {
-									["amount"] = 760,
-								},
-								["Spitting Cobra"] = {
-									["amount"] = 5328,
-								},
-							},
-							["criticalmax"] = 1558,
-							["critical"] = 1,
-							["casts"] = 1,
-							["count"] = 11,
-							["hit"] = 10,
-							["school"] = 1,
-							["hitmax"] = 795,
-							["amount"] = 9191,
-							["hitamount"] = 7633,
-						},
-						["Necrosis"] = {
-							["hitmin"] = 493,
-							["id"] = 51460,
-							["targets"] = {
-								["Drakkari Fire Weaver"] = {
-									["amount"] = 2062,
-								},
-								["Drakkari Lancer"] = {
-									["amount"] = 2686,
-								},
-								["Unyielding Constrictor"] = {
-									["amount"] = 4886,
-								},
-								["Spitting Cobra"] = {
-									["amount"] = 3595,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 13,
-							["hit"] = 13,
-							["school"] = 32,
-							["hitmax"] = 1539,
-							["amount"] = 13229,
-							["hitamount"] = 13229,
-						},
-						["Blood Plague (DoT)"] = {
-							["hitmin"] = 985,
-							["id"] = 55078,
-							["targets"] = {
-								["Snake"] = {
-									["overkill"] = 2641,
-									["amount"] = 2659,
-								},
-								["Unyielding Constrictor"] = {
-									["amount"] = 5810,
-								},
-								["Drakkari Fire Weaver"] = {
-									["amount"] = 2546,
-								},
-								["Drakkari Lancer"] = {
-									["amount"] = 1369,
-								},
-								["Spitting Cobra"] = {
-									["amount"] = 11775,
-								},
-							},
-							["overkill"] = 2641,
-							["hitmax"] = 1369,
-							["count"] = 20,
-							["hit"] = 20,
-							["school"] = 32,
-							["resisted"] = 882,
-							["amount"] = 24159,
-							["hitamount"] = 24159,
-						},
-						["Blood Strike"] = {
-							["criticalamount"] = 4674,
-							["id"] = 49930,
-							["targets"] = {
-								["Drakkari Fire Weaver"] = {
-									["amount"] = 4674,
-								},
-							},
-							["casts"] = 1,
-							["critical"] = 1,
-							["amount"] = 4674,
-							["school"] = 1,
-							["criticalmin"] = 4674,
-							["criticalmax"] = 4674,
-							["count"] = 1,
-						},
-						["Chaos Bane"] = {
-							["hitmin"] = 572,
-							["id"] = 71904,
-							["targets"] = {
-								["Snake"] = {
-									["overkill"] = 688,
-									["amount"] = 697,
-								},
-								["Unyielding Constrictor"] = {
-									["amount"] = 2402,
-								},
-								["Spitting Cobra"] = {
-									["amount"] = 2546,
-								},
-							},
-							["overkill"] = 688,
-							["hitmax"] = 726,
-							["casts"] = 1,
-							["count"] = 9,
-							["hit"] = 9,
-							["school"] = 32,
-							["resisted"] = 354,
-							["amount"] = 5645,
-							["hitamount"] = 5645,
-						},
-						["Plague Strike"] = {
-							["hitmax"] = 2446,
-							["hitmin"] = 2446,
-							["criticalamount"] = 10012,
-							["id"] = 49921,
-							["count"] = 4,
-							["targets"] = {
-								["Drakkari Lancer"] = {
-									["amount"] = 4974,
-								},
-								["Spitting Cobra"] = {
-									["amount"] = 7484,
-								},
-							},
-							["hit"] = 1,
-							["PARRY"] = 1,
-							["casts"] = 4,
-							["critical"] = 2,
-							["amount"] = 12458,
-							["school"] = 1,
-							["criticalmin"] = 4974,
-							["criticalmax"] = 5038,
-							["hitamount"] = 2446,
-						},
-						["Frost Fever (DoT)"] = {
-							["hitmin"] = 1061,
-							["id"] = 55095,
-							["targets"] = {
-								["Drakkari Fire Weaver"] = {
-									["amount"] = 3357,
-								},
-								["Drakkari Lancer"] = {
-									["amount"] = 3438,
-								},
-								["Unyielding Constrictor"] = {
-									["amount"] = 7942,
-								},
-								["Spitting Cobra"] = {
-									["overkill"] = 574,
-									["amount"] = 15419,
-								},
-							},
-							["overkill"] = 574,
-							["hitmax"] = 1766,
-							["count"] = 20,
-							["hit"] = 20,
-							["school"] = 16,
-							["resisted"] = 1827,
-							["amount"] = 30156,
-							["hitamount"] = 30156,
-						},
-						["Blood-Caked Strike"] = {
-							["hitmin"] = 752,
-							["id"] = 50463,
-							["targets"] = {
-								["Drakkari Lancer"] = {
-									["amount"] = 2376,
-								},
-								["Unyielding Constrictor"] = {
-									["amount"] = 4079,
-								},
-								["Spitting Cobra"] = {
-									["amount"] = 5160,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 7,
-							["hit"] = 7,
-							["school"] = 1,
-							["hitmax"] = 2099,
-							["amount"] = 11615,
-							["hitamount"] = 11615,
-						},
-					},
-					["totaldamage"] = 342413,
-					["damagetaken"] = 45694,
-					["id"] = "0x070000000000D01B",
-					["spec"] = 252,
-					["healspells"] = {
-						[50475] = {
-							["overheal"] = 184,
-							["targets"] = {
-								["Urgash"] = {
-									["overheal"] = 184,
-									["amount"] = 6228,
-								},
-							},
-							["count"] = 37,
-							["amount"] = 6228,
-							["school"] = 1,
-							["max"] = 414,
-							["ishot"] = true,
-							["min"] = 1,
-						},
-					},
-					["damagetakenspells"] = {
-						["Cobra Strike"] = {
-							["hitmin"] = 3944,
-							["id"] = 59020,
-							["sources"] = {
-								["Spitting Cobra"] = {
-									["amount"] = 3944,
-								},
-							},
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 1,
-							["hitmax"] = 3944,
-							["amount"] = 3944,
-							["hitamount"] = 3944,
-						},
-						["Venom Spit"] = {
-							["hitmin"] = 4514,
-							["id"] = 59019,
-							["sources"] = {
-								["Spitting Cobra"] = {
-									["amount"] = 4514,
-								},
-							},
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 8,
-							["hitmax"] = 4514,
-							["amount"] = 4514,
-							["hitamount"] = 4514,
-						},
-						["Drenched in Mojo (DoT)"] = {
-							["hitmin"] = 975,
-							["id"] = 54819,
-							["sources"] = {
-								["Drakkari Elemental"] = {
-									["amount"] = 2925,
-								},
-							},
-							["count"] = 3,
-							["hit"] = 3,
-							["school"] = 8,
-							["hitmax"] = 975,
-							["amount"] = 2925,
-							["hitamount"] = 2925,
-						},
-						["Blast Wave"] = {
-							["hitmin"] = 2003,
-							["id"] = 61362,
-							["sources"] = {
-								["Drakkari Fire Weaver"] = {
-									["amount"] = 2003,
-								},
-							},
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 4,
-							["hitmax"] = 2003,
-							["amount"] = 2003,
-							["hitamount"] = 2003,
-						},
-						["Lava Burst"] = {
-							["hitmin"] = 3068,
-							["id"] = 58972,
-							["sources"] = {
-								["Drakkari Fire Weaver"] = {
-									["amount"] = 3068,
-								},
-							},
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 4,
-							["hitmax"] = 3068,
-							["amount"] = 3068,
-							["hitamount"] = 3068,
-						},
-						["Venom Spit (DoT)"] = {
-							["hitmin"] = 2615,
-							["id"] = 59019,
-							["sources"] = {
-								["Spitting Cobra"] = {
-									["amount"] = 2615,
-								},
-							},
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 8,
-							["hitmax"] = 2615,
-							["amount"] = 2615,
-							["hitamount"] = 2615,
-						},
-						["Vicious Bite"] = {
-							["hitmin"] = 3424,
-							["id"] = 59021,
-							["sources"] = {
-								["Unyielding Constrictor"] = {
-									["amount"] = 3424,
-								},
-							},
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 1,
-							["hitmax"] = 3424,
-							["amount"] = 3424,
-							["hitamount"] = 3424,
-						},
-						["Melee"] = {
-							["DODGE"] = 2,
-							["amount"] = 23201,
-							["hitmin"] = 2461,
-							["criticalamount"] = 10584,
-							["id"] = 6603,
-							["criticalmin"] = 4956,
-							["criticalmax"] = 5628,
-							["critical"] = 2,
-							["hitmax"] = 2624,
-							["sources"] = {
-								["Drakkari Fire Weaver"] = {
-									["amount"] = 2579,
-								},
-								["Drakkari Lancer"] = {
-									["amount"] = 5085,
-								},
-								["Unyielding Constrictor"] = {
-									["amount"] = 13071,
-								},
-								["Spitting Cobra"] = {
-									["amount"] = 2466,
-								},
-							},
-							["count"] = 13,
-							["hit"] = 5,
-							["school"] = 1,
-							["PARRY"] = 3,
-							["MISS"] = 1,
-							["hitamount"] = 12617,
-						},
-					},
-					["interrupt"] = 1,
-					["heal"] = 6228,
-					["name"] = "Urgash",
-					["ccdone"] = 1,
-					["overkill"] = 11778,
-					["overheal"] = 184,
-					["interruptspells"] = {
-						[47528] = {
-							["spells"] = {
-								[59019] = 1,
-							},
-							["count"] = 1,
-							["targets"] = {
-								["Spitting Cobra"] = 1,
-							},
-						},
-					},
-					["role"] = "DAMAGER",
-				}, -- [1]
-				{
-					["last"] = 18187.246,
-					["flag"] = 1298,
-					["class"] = "PALADIN",
-					["auras"] = {
-						[6562] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 55,
-						},
-						[48162] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 55,
-						},
-						[31801] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 55,
-						},
-						[54428] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["refresh"] = 30,
-							["uptime"] = 55,
-						},
-						[48942] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 55,
-						},
-						[57623] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 55,
-						},
-						[25898] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 55,
-						},
-						[48170] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 55,
-						},
-						[25899] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 55,
-						},
-						[19746] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 55,
-						},
-						[62124] = {
-							["type"] = "DEBUFF",
-							["count"] = 3,
-							["school"] = 2,
-							["targets"] = {
-								["Drakkari Fire Weaver"] = {
-									["uptime"] = 3,
-									["count"] = 2,
-								},
-								["Spitting Cobra"] = {
-									["uptime"] = 3,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 6,
-						},
-						[54499] = {
-							["type"] = "DEBUFF",
-							["count"] = 3,
-							["school"] = 2,
-							["targets"] = {
-								["Unyielding Constrictor"] = {
-									["uptime"] = 3,
-									["count"] = 1,
-								},
-								["Drakkari Lancer"] = {
-									["uptime"] = 5,
-									["count"] = 1,
-								},
-								["Spitting Cobra"] = {
-									["uptime"] = 3,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 11,
-						},
-						[53601] = {
-							["type"] = "BUFF",
-							["count"] = 4,
-							["school"] = 2,
-							["uptime"] = 55,
-						},
-						[48952] = {
-							["type"] = "BUFF",
-							["count"] = 2,
-							["school"] = 2,
-							["uptime"] = 43,
-						},
-						[43002] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 55,
-						},
-						[53563] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 2,
-							["uptime"] = 44,
-						},
-						[25780] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 55,
-						},
-						[20185] = {
-							["type"] = "DEBUFF",
-							["count"] = 3,
-							["school"] = 2,
-							["targets"] = {
-								["Unyielding Constrictor"] = {
-									["uptime"] = 3,
-									["count"] = 1,
-								},
-								["Drakkari Lancer"] = {
-									["uptime"] = 2,
-									["count"] = 1,
-								},
-								["Spitting Cobra"] = {
-									["uptime"] = 3,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 8,
-						},
-						[20132] = {
-							["type"] = "BUFF",
-							["count"] = 2,
-							["school"] = 1,
-							["refresh"] = 3,
-							["uptime"] = 30,
-						},
-						[63529] = {
-							["type"] = "DEBUFF",
-							["count"] = 6,
-							["school"] = 1,
-							["targets"] = {
-								["Spitting Cobra"] = {
-									["uptime"] = 6,
-									["count"] = 3,
-								},
-								["Unyielding Constrictor"] = {
-									["uptime"] = 6,
-									["count"] = 3,
-								},
-							},
-							["uptime"] = 6,
-						},
-						[48819] = {
-							["type"] = "DEBUFF",
-							["count"] = 16,
-							["school"] = 2,
-							["targets"] = {
-								["Unyielding Constrictor"] = {
-									["uptime"] = 18,
-									["count"] = 6,
-								},
-								["Spitting Cobra"] = {
-									["uptime"] = 18,
-									["count"] = 10,
-								},
-							},
-							["uptime"] = 20,
-						},
-						[48827] = {
-							["type"] = "DEBUFF",
-							["count"] = 6,
-							["school"] = 2,
-							["targets"] = {
-								["Spitting Cobra"] = {
-									["uptime"] = 19,
-									["count"] = 3,
-								},
-								["Unyielding Constrictor"] = {
-									["uptime"] = 19,
-									["count"] = 3,
-								},
-							},
-							["uptime"] = 19,
-						},
-						[31803] = {
-							["type"] = "DEBUFF",
-							["count"] = 10,
-							["school"] = 2,
-							["refresh"] = 21,
-							["targets"] = {
-								["Drakkari Fire Weaver"] = {
-									["count"] = 1,
-									["refresh"] = 2,
-									["uptime"] = 2,
-								},
-								["Drakkari Lancer"] = {
-									["count"] = 1,
-									["refresh"] = 5,
-									["uptime"] = 8,
-								},
-								["Unyielding Constrictor"] = {
-									["count"] = 3,
-									["refresh"] = 5,
-									["uptime"] = 24,
-								},
-								["Spitting Cobra"] = {
-									["count"] = 5,
-									["refresh"] = 9,
-									["uptime"] = 25,
-								},
-							},
-							["uptime"] = 37,
-						},
-						[72221] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 55,
-						},
-						[48074] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 55,
-						},
-						[58597] = {
-							["type"] = "BUFF",
-							["count"] = 6,
-							["school"] = 2,
-							["uptime"] = 26,
-						},
-					},
-					["absorbspells"] = {
-						[58597] = {
-							["min"] = 103,
-							["casts"] = 2,
-							["count"] = 3,
-							["amount"] = 1622,
-							["max"] = 889,
-							["targets"] = {
-								["Gometius"] = 1622,
-							},
-							["school"] = 2,
-						},
-						[66233] = {
-							["min"] = 4,
-							["count"] = 1,
-							["amount"] = 4,
-							["school"] = 1,
-							["targets"] = {
-								["Gometius"] = 4,
-							},
-							["max"] = 4,
-						},
-					},
-					["role"] = "TANK",
-					["time"] = 45.79999999999999,
-					["totaldamagetaken"] = 53690,
-					["damage"] = 122742,
-					["damagespells"] = {
-						["Consecration (DoT)"] = {
-							["hitmin"] = 292,
 							["id"] = 48819,
 							["targets"] = {
-								["Spitting Cobra"] = {
-									["amount"] = 16729,
-								},
-								["Unyielding Constrictor"] = {
-									["amount"] = 12777,
+								["Scourgelord Tyrannus"] = {
+									["amount"] = 9261,
 								},
 							},
-							["hitmax"] = 412,
-							["casts"] = 3,
-							["count"] = 77,
-							["hit"] = 77,
-							["school"] = 2,
-							["resisted"] = 996,
-							["amount"] = 29506,
-							["hitamount"] = 29506,
-						},
-						["Melee"] = {
-							["glance"] = 1348,
-							["hitmin"] = 466,
-							["criticalmin"] = 938,
-							["targets"] = {
-								["Unyielding Constrictor"] = {
-									["amount"] = 4129,
-								},
-								["Drakkari Fire Weaver"] = {
-									["amount"] = 1588,
-								},
-								["Drakkari Lancer"] = {
-									["amount"] = 2465,
-								},
-								["Spitting Cobra"] = {
-									["amount"] = 5206,
-								},
-							},
-							["glancing"] = 3,
-							["amount"] = 13388,
-							["glancemin"] = 436,
-							["criticalamount"] = 6168,
-							["id"] = 6603,
-							["glancemax"] = 469,
-							["criticalmax"] = 1096,
-							["critical"] = 6,
-							["hit"] = 11,
-							["school"] = 1,
-							["hitmax"] = 573,
-							["count"] = 20,
-							["hitamount"] = 5872,
-						},
-						["Holy Vengeance (DoT)"] = {
-							["hitmin"] = 131,
-							["id"] = 31803,
-							["targets"] = {
-								["Drakkari Lancer"] = {
-									["amount"] = 1173,
-								},
-								["Unyielding Constrictor"] = {
-									["amount"] = 1594,
-								},
-								["Spitting Cobra"] = {
-									["amount"] = 5003,
-								},
-							},
-							["hitmax"] = 761,
-							["count"] = 25,
-							["hit"] = 25,
-							["school"] = 2,
-							["resisted"] = 249,
-							["amount"] = 7770,
-							["hitamount"] = 7770,
-						},
-						["Hand of Reckoning"] = {
-							["criticalmin"] = 3578,
-							["hitmin"] = 2111,
-							["criticalamount"] = 3578,
-							["id"] = 67485,
-							["criticalmax"] = 3578,
-							["targets"] = {
-								["Drakkari Fire Weaver"] = {
-									["amount"] = 5689,
-								},
-								["Spitting Cobra"] = {
-									["amount"] = 2573,
-								},
-							},
-							["critical"] = 1,
-							["hitmax"] = 2573,
-							["casts"] = 4,
-							["count"] = 3,
-							["hit"] = 2,
-							["school"] = 2,
-							["resisted"] = 631,
-							["amount"] = 8262,
-							["hitamount"] = 4684,
-						},
-						["Hammer of the Righteous"] = {
-							["hitmax"] = 2505,
-							["hitmin"] = 1722,
-							["criticalamount"] = 8178,
-							["id"] = 53595,
-							["criticalmin"] = 3874,
-							["targets"] = {
-								["Drakkari Fire Weaver"] = {
-									["amount"] = 2004,
-								},
-								["Drakkari Lancer"] = {
-									["amount"] = 2505,
-								},
-								["Spitting Cobra"] = {
-									["amount"] = 17416,
-								},
-								["Unyielding Constrictor"] = {
-									["amount"] = 6026,
-								},
-							},
-							["criticalmax"] = 4304,
-							["critical"] = 2,
-							["casts"] = 5,
+							["hitmax"] = 935,
+							["casts"] = 2,
 							["count"] = 11,
-							["hit"] = 9,
+							["hit"] = 11,
 							["school"] = 2,
-							["resisted"] = 1847,
-							["amount"] = 27951,
-							["hitamount"] = 19773,
+							["resisted"] = 243,
+							["amount"] = 9261,
+							["hitamount"] = 9261,
 						},
-						["Judgement of Vengeance"] = {
-							["hitmin"] = 1268,
-							["id"] = 31804,
+						["Exorcism"] = {
+							["hitmin"] = 5398,
+							["id"] = 48801,
 							["targets"] = {
-								["Unyielding Constrictor"] = {
-									["amount"] = 1268,
-								},
-								["Drakkari Lancer"] = {
-									["amount"] = 1589,
-								},
-								["Spitting Cobra"] = {
-									["amount"] = 1653,
+								["Scourgelord Tyrannus"] = {
+									["amount"] = 5398,
 								},
 							},
 							["casts"] = 1,
-							["count"] = 3,
-							["hit"] = 3,
-							["school"] = 2,
-							["hitmax"] = 1653,
-							["amount"] = 4510,
-							["hitamount"] = 4510,
-						},
-						["Holy Shield"] = {
-							["hitmin"] = 690,
-							["id"] = 48952,
-							["targets"] = {
-								["Spitting Cobra"] = {
-									["amount"] = 1558,
-								},
-								["Unyielding Constrictor"] = {
-									["amount"] = 3628,
-								},
-							},
-							["casts"] = 5,
-							["count"] = 7,
-							["hit"] = 7,
-							["school"] = 2,
-							["hitmax"] = 779,
-							["amount"] = 5186,
-							["hitamount"] = 5186,
-						},
-						["Avenger's Shield"] = {
-							["hitmax"] = 1945,
-							["hitmin"] = 1739,
-							["criticalamount"] = 3538,
-							["id"] = 48827,
-							["criticalmin"] = 3538,
-							["targets"] = {
-								["Spitting Cobra"] = {
-									["amount"] = 5507,
-								},
-								["Unyielding Constrictor"] = {
-									["amount"] = 7225,
-								},
-							},
-							["criticalmax"] = 3538,
-							["critical"] = 1,
-							["casts"] = 2,
-							["count"] = 6,
-							["hit"] = 5,
-							["school"] = 2,
-							["resisted"] = 193,
-							["amount"] = 12732,
-							["hitamount"] = 9194,
-						},
-						["Shield of Righteousness"] = {
-							["hitmin"] = 2693,
-							["criticalamount"] = 6086,
-							["id"] = 61411,
-							["criticalmin"] = 6086,
-							["targets"] = {
-								["Unyielding Constrictor"] = {
-									["amount"] = 6086,
-								},
-								["Spitting Cobra"] = {
-									["amount"] = 2693,
-								},
-							},
-							["criticalmax"] = 6086,
-							["critical"] = 1,
-							["casts"] = 2,
-							["count"] = 2,
-							["hit"] = 1,
-							["school"] = 2,
-							["hitmax"] = 2693,
-							["amount"] = 8779,
-							["hitamount"] = 2693,
-						},
-						["Seal of Vengeance"] = {
-							["hitmax"] = 338,
-							["criticalmin"] = 114,
-							["hitmin"] = 18,
-							["criticalamount"] = 2029,
-							["id"] = 42463,
-							["criticalmax"] = 592,
-							["targets"] = {
-								["Unyielding Constrictor"] = {
-									["amount"] = 1478,
-								},
-								["Drakkari Fire Weaver"] = {
-									["amount"] = 299,
-								},
-								["Drakkari Lancer"] = {
-									["amount"] = 984,
-								},
-								["Spitting Cobra"] = {
-									["amount"] = 1897,
-								},
-							},
-							["critical"] = 5,
-							["blocked"] = 40,
-							["casts"] = 1,
-							["count"] = 23,
-							["hit"] = 18,
-							["school"] = 2,
-							["resisted"] = 62,
-							["amount"] = 4658,
-							["hitamount"] = 2629,
-						},
-					},
-					["absorb"] = 1626,
-					["damagetaken"] = 46236,
-					["id"] = "0x0700000000949DDC",
-					["spec"] = 66,
-					["healspells"] = {
-						[20267] = {
-							["overheal"] = 2682,
-							["targets"] = {
-								["Wubobo"] = {
-									["overheal"] = 0,
-									["amount"] = 1223,
-								},
-								["Urgash"] = {
-									["overheal"] = 0,
-									["amount"] = 1520,
-								},
-								["Gometius"] = {
-									["overheal"] = 2108,
-									["amount"] = 702,
-								},
-								["Wormcatcher"] = {
-									["overheal"] = 574,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 10,
-							["amount"] = 3445,
-							["school"] = 2,
-							["max"] = 760,
-							["ishot"] = true,
-							["min"] = 407,
-						},
-					},
-					["damagetakenspells"] = {
-						["Puncturing Strike (DoT)"] = {
-							["total"] = 2808,
-							["hitmin"] = 702,
-							["id"] = 59023,
-							["hitmax"] = 702,
-							["sources"] = {
-								["Unyielding Constrictor"] = {
-									["total"] = 2808,
-									["amount"] = 2106,
-								},
-							},
-							["count"] = 4,
-							["ABSORB"] = 1,
-							["school"] = 1,
-							["amount"] = 2106,
-							["hit"] = 3,
-							["hitamount"] = 2106,
-						},
-						["Venom Spit"] = {
-							["total"] = 3086,
-							["hitmin"] = 2983,
-							["id"] = 59019,
-							["hitmax"] = 2983,
-							["sources"] = {
-								["Spitting Cobra"] = {
-									["total"] = 3086,
-									["amount"] = 2983,
-								},
-							},
 							["count"] = 1,
 							["hit"] = 1,
-							["school"] = 8,
-							["resisted"] = 771,
-							["amount"] = 2983,
-							["hitamount"] = 2983,
-						},
-						["Drenched in Mojo (DoT)"] = {
-							["total"] = 1888,
-							["hitmin"] = 625,
-							["id"] = 54819,
-							["amount"] = 1254,
-							["hitmax"] = 629,
-							["sources"] = {
-								["Drakkari Elemental"] = {
-									["total"] = 1888,
-									["amount"] = 1254,
-								},
-							},
-							["count"] = 3,
-							["ABSORB"] = 1,
-							["school"] = 8,
-							["resisted"] = 314,
-							["hit"] = 2,
-							["hitamount"] = 1254,
-						},
-						["Blast Wave"] = {
-							["sources"] = {
-								["Drakkari Fire Weaver"] = {
-									["amount"] = 0,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 0,
-							["school"] = 4,
-							["RESIST"] = 1,
-							["id"] = 61362,
-						},
-						["Vicious Bite"] = {
-							["total"] = 6371,
-							["hitmin"] = 2052,
-							["id"] = 59021,
-							["ABSORB"] = 1,
-							["sources"] = {
-								["Unyielding Constrictor"] = {
-									["total"] = 6371,
-									["amount"] = 4143,
-								},
-							},
-							["count"] = 3,
-							["hit"] = 2,
-							["school"] = 1,
-							["hitmax"] = 2091,
-							["amount"] = 4143,
-							["hitamount"] = 4143,
-						},
-						["Cobra Strike"] = {
-							["DODGE"] = 1,
-							["total"] = 2411,
-							["hitmin"] = 1957,
-							["id"] = 59020,
-							["hitmax"] = 1957,
-							["sources"] = {
-								["Spitting Cobra"] = {
-									["total"] = 2411,
-									["amount"] = 1957,
-								},
-							},
-							["count"] = 3,
-							["amount"] = 1957,
-							["school"] = 1,
-							["hit"] = 1,
-							["MISS"] = 1,
-							["hitamount"] = 1957,
-						},
-						["Venom Spit (DoT)"] = {
-							["total"] = 6339,
-							["hitmin"] = 1536,
-							["id"] = 59019,
-							["ABSORB"] = 1,
-							["hitmax"] = 1537,
-							["sources"] = {
-								["Spitting Cobra"] = {
-									["total"] = 6339,
-									["amount"] = 4610,
-								},
-							},
-							["count"] = 4,
-							["hit"] = 3,
-							["school"] = 8,
-							["resisted"] = 1152,
-							["amount"] = 4610,
-							["hitamount"] = 4610,
-						},
-						["Melee"] = {
-							["DODGE"] = 2,
-							["total"] = 30787,
-							["hitmin"] = 17,
-							["ABSORB"] = 1,
-							["id"] = 6603,
-							["count"] = 31,
-							["hitmax"] = 1991,
-							["amount"] = 29183,
-							["hit"] = 20,
-							["sources"] = {
-								["Spitting Cobra"] = {
-									["total"] = 12721,
-									["amount"] = 11774,
-								},
-								["Unyielding Constrictor"] = {
-									["total"] = 18066,
-									["amount"] = 17409,
-								},
-							},
-							["BLOCK"] = 5,
-							["blocked"] = 13609,
-							["school"] = 1,
-							["PARRY"] = 2,
-							["MISS"] = 1,
-							["hitamount"] = 29183,
-						},
-					},
-					["overheal"] = 2682,
-					["heal"] = 3445,
-					["name"] = "Gometius",
-					["totaldamage"] = 122742,
-					["manaspells"] = {
-						[57319] = 2737,
-						[54428] = 7676,
-						[31786] = 4549,
-					},
-					["mana"] = 14962,
-				}, -- [2]
-				{
-					["last"] = 18188.214,
-					["flag"] = 1298,
-					["class"] = "PALADIN",
-					["auras"] = {
-						[48162] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 55,
-						},
-						[54428] = {
-							["type"] = "BUFF",
-							["count"] = 1,
 							["school"] = 2,
-							["uptime"] = 7,
+							["hitmax"] = 5398,
+							["amount"] = 5398,
+							["hitamount"] = 5398,
 						},
-						[48942] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 55,
-						},
-						[31834] = {
-							["type"] = "BUFF",
-							["count"] = 2,
-							["refresh"] = 4,
-							["school"] = 2,
-							["uptime"] = 34,
-						},
-						[25898] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 55,
-						},
-						[54153] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["refresh"] = 1,
-							["uptime"] = 55,
-						},
-						[25899] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 55,
-						},
-						[19746] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 55,
-						},
-						[57102] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 55,
-						},
-						[20166] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 55,
-						},
-						[28878] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 55,
-						},
-						[43002] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 55,
-						},
-						[20185] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 2,
+						["Divine Storm"] = {
+							["hitmin"] = 3105,
+							["criticalamount"] = 21632,
+							["id"] = 53385,
+							["criticalmin"] = 5829,
 							["targets"] = {
-								["Drakkari Lancer"] = {
-									["uptime"] = 3,
-									["count"] = 1,
+								["Scourgelord Tyrannus"] = {
+									["amount"] = 32903,
 								},
 							},
-							["uptime"] = 3,
-						},
-						[72221] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 55,
-						},
-						[48074] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 55,
-						},
-						[48170] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 55,
-						},
-						[57623] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 55,
-						},
-					},
-					["absorbspells"] = {
-						[58597] = {
-							["min"] = 58,
-							["casts"] = 4,
-							["count"] = 6,
-							["amount"] = 5828,
-							["school"] = 2,
-							["targets"] = {
-								["Gometius"] = 5828,
-							},
-							["max"] = 2228,
-						},
-					},
-					["time"] = 43.48,
-					["damage"] = 2376,
-					["overheal"] = 100991,
-					["absorb"] = 5828,
-					["manaspells"] = {
-						[20272] = 474,
-						[54428] = 3662,
-					},
-					["id"] = "0x070000000096902A",
-					["spec"] = 65,
-					["healspells"] = {
-						[48785] = {
-							["overheal"] = 7014,
-							["criticalamount"] = 5734,
-							["max"] = 5734,
-							["targets"] = {
-								["Wubobo"] = {
-									["overheal"] = 3594,
-									["amount"] = 19382,
-								},
-								["Urgash"] = {
-									["overheal"] = 3420,
-									["amount"] = 16241,
-								},
-							},
-							["criticalmin"] = 5734,
-							["min"] = 2199,
-							["casts"] = 12,
-							["count"] = 9,
-							["amount"] = 35623,
-							["school"] = 2,
-							["criticalmax"] = 5734,
-							["critical"] = 1,
-						},
-						[54968] = {
-							["overheal"] = 6975,
-							["max"] = 1907,
-							["count"] = 9,
-							["amount"] = 6583,
-							["school"] = 2,
-							["min"] = 180,
-							["targets"] = {
-								["Gometius"] = {
-									["overheal"] = 0,
-									["amount"] = 1907,
-								},
-								["Urgash"] = {
-									["overheal"] = 0,
-									["amount"] = 1907,
-								},
-								["Wormcatcher"] = {
-									["overheal"] = 3929,
-									["amount"] = 0,
-								},
-								["Wubobo"] = {
-									["overheal"] = 1223,
-									["amount"] = 1263,
-								},
-								["Ynnou"] = {
-									["overheal"] = 1823,
-									["amount"] = 1506,
-								},
-							},
-						},
-						[48782] = {
-							["overheal"] = 19851,
-							["criticalamount"] = 10024,
-							["max"] = 12042,
-							["targets"] = {
-								["Gometius"] = {
-									["overheal"] = 0,
-									["amount"] = 12042,
-								},
-								["Urgash"] = {
-									["overheal"] = 9019,
-									["amount"] = 14464,
-								},
-								["Zaralar"] = {
-									["overheal"] = 2691,
-									["amount"] = 9368,
-								},
-								["Wubobo"] = {
-									["overheal"] = 8141,
-									["amount"] = 10024,
-								},
-							},
-							["criticalmin"] = 10024,
-							["min"] = 2635,
-							["casts"] = 5,
-							["count"] = 5,
-							["amount"] = 45898,
-							["school"] = 2,
-							["criticalmax"] = 10024,
-							["critical"] = 1,
-						},
-						[20267] = {
-							["overheal"] = 1308,
-							["count"] = 2,
-							["amount"] = 0,
-							["school"] = 2,
-							["ishot"] = true,
-							["targets"] = {
-								["Gometius"] = {
-									["overheal"] = 702,
-									["amount"] = 0,
-								},
-								["Ynnou"] = {
-									["overheal"] = 606,
-									["amount"] = 0,
-								},
-							},
-						},
-						[48821] = {
-							["overheal"] = 0,
-							["count"] = 2,
-							["amount"] = 11248,
-							["school"] = 2,
-							["max"] = 5893,
-							["targets"] = {
-								["Gometius"] = {
-									["overheal"] = 0,
-									["amount"] = 5893,
-								},
-								["Urgash"] = {
-									["overheal"] = 0,
-									["amount"] = 5355,
-								},
-							},
-							["min"] = 5355,
-						},
-						[53654] = {
-							["min"] = 199,
-							["count"] = 13,
-							["amount"] = 25418,
-							["max"] = 13633,
-							["overheal"] = 65843,
-							["targets"] = {
-								["Gometius"] = {
-									["overheal"] = 65843,
-									["amount"] = 25418,
-								},
-							},
-							["school"] = 2,
-						},
-					},
-					["damagespells"] = {
-						["Judgement"] = {
-							["criticalamount"] = 2376,
-							["id"] = 54158,
-							["targets"] = {
-								["Drakkari Lancer"] = {
-									["amount"] = 2376,
-								},
-							},
-							["casts"] = 1,
-							["critical"] = 1,
-							["amount"] = 2376,
-							["school"] = 2,
-							["criticalmin"] = 2376,
-							["criticalmax"] = 2376,
-							["count"] = 1,
-						},
-					},
-					["totaldamage"] = 2376,
-					["heal"] = 124770,
-					["name"] = "Ynnou",
-					["mana"] = 4136,
-					["dispel"] = 5,
-					["dispelspells"] = {
-						[4987] = {
-							["spells"] = {
-								[59019] = 4,
-								[58971] = 1,
-							},
-							["count"] = 5,
-							["targets"] = {
-								["Wubobo"] = 4,
-								["Urgash"] = 1,
-							},
-						},
-					},
-					["role"] = "HEALER",
-				}, -- [3]
-				{
-					["last"] = 18188.673,
-					["flag"] = 1298,
-					["class"] = "PRIEST",
-					["auras"] = {
-						[15473] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 55,
-						},
-						[48162] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 55,
-						},
-						[16595] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 55,
-						},
-						[48074] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 55,
-						},
-						[48168] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 55,
-						},
-						[48170] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 55,
-						},
-						[33198] = {
-							["type"] = "DEBUFF",
-							["count"] = 2,
-							["school"] = 32,
-							["refresh"] = 1,
-							["targets"] = {
-								["Unyielding Constrictor"] = {
-									["uptime"] = 1,
-									["count"] = 1,
-								},
-								["Drakkari Lancer"] = {
-									["count"] = 1,
-									["refresh"] = 1,
-									["uptime"] = 3,
-								},
-							},
-							["uptime"] = 4,
-						},
-						[19746] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 55,
-						},
-						[53755] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 55,
-						},
-						[48300] = {
-							["type"] = "DEBUFF",
-							["count"] = 3,
-							["school"] = 32,
-							["targets"] = {
-								["Unyielding Constrictor"] = {
-									["uptime"] = 6,
-									["count"] = 1,
-								},
-								["Drakkari Fire Weaver"] = {
-									["uptime"] = 2,
-									["count"] = 1,
-								},
-								["Drakkari Lancer"] = {
-									["uptime"] = 5,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 13,
-						},
-						[28878] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 55,
-						},
-						[43002] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 55,
-						},
-						[59000] = {
-							["type"] = "BUFF",
-							["count"] = 2,
-							["school"] = 32,
-							["uptime"] = 16,
-						},
-						[48156] = {
-							["type"] = "BUFF",
-							["count"] = 6,
-							["school"] = 32,
-							["targets"] = {
-								["Unyielding Constrictor"] = {
-									["uptime"] = 1,
-									["count"] = 1,
-								},
-								["Drakkari Lancer"] = {
-									["uptime"] = 3,
-									["count"] = 2,
-								},
-							},
-							["uptime"] = 4,
-						},
-						[57623] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 55,
-						},
-						[53023] = {
-							["type"] = "DEBUFF",
-							["count"] = 5,
-							["school"] = 32,
-							["targets"] = {
-								["Unyielding Constrictor"] = {
-									["uptime"] = 5,
-									["count"] = 1,
-								},
-								["Spitting Cobra"] = {
-									["uptime"] = 13,
-									["count"] = 4,
-								},
-							},
-							["uptime"] = 18,
-						},
-						[59626] = {
-							["type"] = "BUFF",
-							["count"] = 2,
-							["school"] = 32,
-							["uptime"] = 20,
-						},
-						[72221] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 55,
-						},
-						[15286] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 55,
-						},
-						[15258] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["refresh"] = 27,
-							["uptime"] = 55,
-						},
-						[15271] = {
-							["type"] = "BUFF",
-							["count"] = 2,
-							["school"] = 32,
-							["uptime"] = 30,
-						},
-						[48942] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 55,
-						},
-					},
-					["role"] = "DAMAGER",
-					["time"] = 38.29000000000001,
-					["totaldamagetaken"] = 11274,
-					["damage"] = 185030,
-					["damagespells"] = {
-						["Improved Devouring Plague"] = {
-							["hitmin"] = 3299,
-							["criticalamount"] = 9643,
-							["id"] = 63675,
-							["criticalmin"] = 4513,
-							["targets"] = {
-								["Unyielding Constrictor"] = {
-									["amount"] = 4513,
-								},
-								["Drakkari Fire Weaver"] = {
-									["amount"] = 5130,
-								},
-								["Drakkari Lancer"] = {
-									["amount"] = 3299,
-								},
-							},
-							["criticalmax"] = 5130,
-							["critical"] = 2,
-							["casts"] = 1,
-							["count"] = 3,
-							["hit"] = 1,
-							["school"] = 32,
-							["hitmax"] = 3299,
-							["amount"] = 12942,
-							["hitamount"] = 3299,
-						},
-						["Mind Flay"] = {
-							["critical"] = 4,
-							["criticalmin"] = 3640,
-							["hitmin"] = 1622,
-							["criticalamount"] = 14853,
-							["id"] = 58381,
-							["criticalmax"] = 3793,
-							["targets"] = {
-								["Unyielding Constrictor"] = {
-									["amount"] = 3640,
-								},
-								["Drakkari Lancer"] = {
-									["overkill"] = 2468,
-									["amount"] = 12835,
-								},
-							},
-							["overkill"] = 2468,
-							["hitmax"] = 1622,
-							["casts"] = 3,
-							["count"] = 5,
-							["hit"] = 1,
-							["school"] = 32,
-							["resisted"] = 180,
-							["amount"] = 16475,
-							["hitamount"] = 1622,
-						},
-						["Devouring Plague (DoT)"] = {
-							["hitmin"] = 1788,
-							["criticalamount"] = 6278,
-							["id"] = 48300,
-							["criticalmin"] = 2543,
-							["targets"] = {
-								["Unyielding Constrictor"] = {
-									["amount"] = 6278,
-								},
-								["Drakkari Lancer"] = {
-									["amount"] = 1788,
-								},
-							},
-							["criticalmax"] = 3735,
-							["critical"] = 2,
-							["casts"] = 3,
-							["count"] = 3,
-							["hit"] = 1,
-							["school"] = 32,
-							["hitmax"] = 1788,
-							["amount"] = 8066,
-							["hitamount"] = 1788,
-						},
-						["Mind Sear"] = {
-							["critical"] = 31,
-							["criticalmin"] = 2517,
-							["hitmin"] = 1472,
-							["criticalamount"] = 86722,
-							["id"] = 53022,
-							["criticalmax"] = 2981,
-							["targets"] = {
-								["Unyielding Constrictor"] = {
-									["overkill"] = 1838,
-									["amount"] = 66191,
-								},
-								["Spitting Cobra"] = {
-									["amount"] = 81356,
-								},
-							},
-							["overkill"] = 1838,
-							["hitmax"] = 1924,
-							["casts"] = 5,
-							["count"] = 66,
-							["hit"] = 35,
-							["school"] = 32,
-							["resisted"] = 2408,
-							["amount"] = 147547,
-							["hitamount"] = 60825,
-						},
-					},
-					["damagetaken"] = 11274,
-					["id"] = "0x07000000006FE7EF",
-					["spec"] = 258,
-					["healspells"] = {
-						[15290] = {
-							["overheal"] = 11291,
-							["max"] = 696,
-							["count"] = 66,
-							["amount"] = 4378,
-							["school"] = 32,
-							["min"] = 62,
-							["ishot"] = true,
-							["targets"] = {
-								["Gometius"] = {
-									["overheal"] = 1310,
-									["amount"] = 274,
-								},
-								["Urgash"] = {
-									["overheal"] = 145,
-									["amount"] = 1349,
-								},
-								["Wormcatcher"] = {
-									["overheal"] = 1218,
-									["amount"] = 206,
-								},
-								["Wubobo"] = {
-									["overheal"] = 450,
-									["amount"] = 1132,
-								},
-								["Ynnou"] = {
-									["overheal"] = 1664,
-									["amount"] = 0,
-								},
-								["Zaralar"] = {
-									["overheal"] = 6504,
-									["amount"] = 1417,
-								},
-							},
-						},
-						[75999] = {
-							["overheal"] = 919,
-							["criticalamount"] = 0,
-							["max"] = 366,
-							["targets"] = {
-								["Zaralar"] = {
-									["overheal"] = 919,
-									["amount"] = 366,
-								},
-							},
-							["min"] = 366,
-							["criticalmax"] = 0,
-							["count"] = 3,
-							["amount"] = 366,
-							["school"] = 32,
-							["criticalmin"] = 0,
-							["critical"] = 1,
-						},
-						[48300] = {
-							["overheal"] = 1282,
-							["max"] = 63,
-							["targets"] = {
-								["Zaralar"] = {
-									["overheal"] = 1282,
-									["amount"] = 63,
-								},
-							},
-							["min"] = 63,
-							["casts"] = 3,
-							["count"] = 3,
-							["amount"] = 63,
-							["school"] = 32,
-						},
-					},
-					["damagetakenspells"] = {
-						["Venom Spit (DoT)"] = {
-							["hitmin"] = 1905,
-							["id"] = 59019,
-							["sources"] = {
-								["Spitting Cobra"] = {
-									["amount"] = 7623,
-								},
-							},
-							["count"] = 4,
-							["hit"] = 4,
-							["school"] = 8,
-							["hitmax"] = 1906,
-							["amount"] = 7623,
-							["hitamount"] = 7623,
-						},
-						["Venom Spit"] = {
-							["hitmin"] = 3651,
-							["id"] = 59019,
-							["sources"] = {
-								["Spitting Cobra"] = {
-									["amount"] = 3651,
-								},
-							},
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 8,
-							["hitmax"] = 3651,
-							["amount"] = 3651,
-							["hitamount"] = 3651,
-						},
-					},
-					["heal"] = 4807,
-					["name"] = "Zaralar",
-					["overheal"] = 13492,
-					["overkill"] = 4306,
-					["totaldamage"] = 185030,
-				}, -- [4]
-				{
-					["last"] = 18188.731,
-					["flag"] = 1298,
-					["class"] = "MAGE",
-					["auras"] = {
-						[43046] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 55,
-						},
-						[48162] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 55,
-						},
-						[42926] = {
-							["type"] = "DEBUFF",
-							["count"] = 6,
-							["school"] = 4,
-							["targets"] = {
-								["Unyielding Constrictor"] = {
-									["uptime"] = 3,
-									["count"] = 2,
-								},
-								["Spitting Cobra"] = {
-									["uptime"] = 1,
-									["count"] = 4,
-								},
-							},
-							["uptime"] = 3,
-						},
-						[54739] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 64,
-							["uptime"] = 10,
-						},
-						[55360] = {
-							["type"] = "DEBUFF",
-							["uptime"] = 36,
-							["school"] = 4,
-							["refresh"] = 2,
-							["targets"] = {
-								["Drakkari Fire Weaver"] = {
-									["uptime"] = 5,
-									["count"] = 1,
-								},
-								["Drakkari Lancer"] = {
-									["uptime"] = 3,
-									["count"] = 1,
-								},
-								["Unyielding Constrictor"] = {
-									["uptime"] = 24,
-									["count"] = 4,
-								},
-								["Spitting Cobra"] = {
-									["count"] = 3,
-									["refresh"] = 2,
-									["uptime"] = 29,
-								},
-							},
-							["count"] = 9,
-						},
-						[48170] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 55,
-						},
-						[19746] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 55,
-						},
-						[28878] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 55,
-						},
-						[43002] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 55,
-						},
-						[72221] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 55,
-						},
-						[42945] = {
-							["type"] = "DEBUFF",
-							["count"] = 3,
-							["school"] = 4,
-							["targets"] = {
-								["Spitting Cobra"] = {
-									["uptime"] = 1,
-									["count"] = 1,
-								},
-								["Unyielding Constrictor"] = {
-									["uptime"] = 2,
-									["count"] = 2,
-								},
-							},
-							["uptime"] = 2,
-						},
-						[48942] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 55,
-						},
-						[48074] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 55,
-						},
-						[25894] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 55,
-						},
-						[57623] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 55,
-						},
-						[42950] = {
-							["type"] = "DEBUFF",
-							["count"] = 8,
-							["school"] = 4,
-							["targets"] = {
-								["Unyielding Constrictor"] = {
-									["uptime"] = 7,
-									["count"] = 3,
-								},
-								["Spitting Cobra"] = {
-									["uptime"] = 9,
-									["count"] = 5,
-								},
-							},
-							["uptime"] = 9,
-						},
-						[12654] = {
-							["type"] = "DEBUFF",
-							["uptime"] = 21,
-							["school"] = 4,
-							["refresh"] = 5,
-							["targets"] = {
-								["Drakkari Fire Weaver"] = {
-									["uptime"] = 2,
-									["count"] = 1,
-								},
-								["Unyielding Constrictor"] = {
-									["count"] = 3,
-									["refresh"] = 2,
-									["uptime"] = 7,
-								},
-								["Spitting Cobra"] = {
-									["count"] = 6,
-									["refresh"] = 3,
-									["uptime"] = 15,
-								},
-							},
-							["count"] = 10,
-						},
-					},
-					["role"] = "DAMAGER",
-					["time"] = 36.18000000000001,
-					["totaldamagetaken"] = 33110,
-					["damage"] = 83151,
-					["damagespells"] = {
-						["Flamestrike (DoT)"] = {
-							["hitmin"] = 534,
-							["id"] = 42926,
-							["targets"] = {
-								["Unyielding Constrictor"] = {
-									["amount"] = 534,
-								},
-							},
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 4,
-							["hitmax"] = 534,
-							["amount"] = 534,
-							["hitamount"] = 534,
-						},
-						["Dragon's Breath"] = {
-							["criticalmax"] = 3565,
-							["hitmin"] = 1700,
-							["criticalamount"] = 6887,
-							["id"] = 42950,
-							["criticalmin"] = 3322,
-							["targets"] = {
-								["Unyielding Constrictor"] = {
-									["amount"] = 7091,
-								},
-								["Spitting Cobra"] = {
-									["overkill"] = 571,
-									["amount"] = 11352,
-								},
-							},
-							["overkill"] = 571,
-							["critical"] = 2,
-							["casts"] = 2,
-							["count"] = 8,
-							["hit"] = 6,
-							["school"] = 4,
-							["hitmax"] = 2086,
-							["amount"] = 18443,
-							["hitamount"] = 11556,
-						},
-						["Ignite (DoT)"] = {
-							["hitmin"] = 227,
-							["id"] = 12654,
-							["targets"] = {
-								["Unyielding Constrictor"] = {
-									["amount"] = 1614,
-								},
-								["Spitting Cobra"] = {
-									["amount"] = 3058,
-								},
-							},
-							["hitmax"] = 1329,
-							["count"] = 10,
-							["hit"] = 10,
-							["school"] = 4,
-							["resisted"] = 56,
-							["amount"] = 4672,
-							["hitamount"] = 4672,
-						},
-						["Living Bomb (DoT)"] = {
-							["hitmax"] = 816,
-							["hitmin"] = 578,
-							["criticalamount"] = 9538,
-							["id"] = 55360,
-							["criticalmin"] = 1137,
-							["targets"] = {
-								["Drakkari Fire Weaver"] = {
-									["amount"] = 1428,
-								},
-								["Drakkari Lancer"] = {
-									["amount"] = 816,
-								},
-								["Unyielding Constrictor"] = {
-									["amount"] = 7353,
-								},
-								["Spitting Cobra"] = {
-									["amount"] = 11315,
-								},
-							},
-							["criticalmax"] = 1428,
-							["critical"] = 7,
-							["casts"] = 5,
-							["count"] = 22,
-							["hit"] = 15,
-							["school"] = 4,
-							["resisted"] = 423,
-							["amount"] = 20912,
-							["hitamount"] = 11374,
-						},
-						["Flamestrike"] = {
-							["hitmax"] = 1978,
-							["criticalmin"] = 2988,
-							["hitmin"] = 1470,
-							["criticalamount"] = 6097,
-							["id"] = 42926,
-							["criticalmax"] = 3109,
-							["targets"] = {
-								["Unyielding Constrictor"] = {
-									["amount"] = 4953,
-								},
-								["Spitting Cobra"] = {
-									["overkill"] = 555,
-									["amount"] = 8474,
-								},
-							},
-							["overkill"] = 555,
-							["critical"] = 2,
-							["casts"] = 2,
-							["count"] = 6,
-							["hit"] = 4,
-							["school"] = 4,
-							["resisted"] = 712,
-							["amount"] = 13427,
-							["hitamount"] = 7330,
-						},
-						["Blast Wave"] = {
-							["criticalamount"] = 11247,
-							["id"] = 42945,
-							["targets"] = {
-								["Unyielding Constrictor"] = {
-									["overkill"] = 1272,
-									["amount"] = 7560,
-								},
-								["Spitting Cobra"] = {
-									["amount"] = 3687,
-								},
-							},
-							["overkill"] = 1272,
-							["casts"] = 1,
-							["critical"] = 3,
-							["amount"] = 11247,
-							["school"] = 4,
-							["criticalmin"] = 3664,
-							["criticalmax"] = 3896,
-							["count"] = 3,
-						},
-						["Living Bomb"] = {
-							["criticalmax"] = 3296,
-							["hitmax"] = 1883,
-							["hitmin"] = 1507,
-							["criticalamount"] = 8844,
-							["id"] = 55362,
-							["criticalmin"] = 2605,
-							["targets"] = {
-								["Snake"] = {
-									["overkill"] = 2596,
-									["amount"] = 2605,
-								},
-								["Unyielding Constrictor"] = {
-									["amount"] = 4803,
-								},
-								["Spitting Cobra"] = {
-									["amount"] = 6508,
-								},
-							},
-							["overkill"] = 2596,
+							["criticalmax"] = 8013,
 							["critical"] = 3,
 							["casts"] = 6,
 							["count"] = 6,
 							["hit"] = 3,
-							["school"] = 4,
-							["resisted"] = 376,
-							["amount"] = 13916,
-							["hitamount"] = 5072,
+							["school"] = 1,
+							["hitmax"] = 4179,
+							["amount"] = 32903,
+							["hitamount"] = 11271,
 						},
-					},
-					["damagetaken"] = 33110,
-					["id"] = "0x0700000000975314",
-					["spec"] = 63,
-					["damagetakenspells"] = {
-						["Venom Spit"] = {
-							["hitmin"] = 4370,
-							["id"] = 59019,
-							["sources"] = {
-								["Spitting Cobra"] = {
-									["amount"] = 13589,
+						["Holy Vengeance (DoT)"] = {
+							["hitmin"] = 871,
+							["id"] = 31803,
+							["targets"] = {
+								["Scourgelord Tyrannus"] = {
+									["amount"] = 22463,
 								},
 							},
+							["hitmax"] = 2601,
+							["count"] = 11,
+							["hit"] = 11,
+							["school"] = 2,
+							["resisted"] = 826,
+							["amount"] = 22463,
+							["hitamount"] = 22463,
+						},
+						["Hammer of Wrath"] = {
+							["criticalamount"] = 7428,
+							["id"] = 48806,
+							["targets"] = {
+								["Scourgelord Tyrannus"] = {
+									["amount"] = 7428,
+								},
+							},
+							["casts"] = 1,
+							["critical"] = 1,
+							["amount"] = 7428,
+							["school"] = 2,
+							["criticalmin"] = 7428,
+							["criticalmax"] = 7428,
+							["count"] = 1,
+						},
+						["Cobalt Frag Bomb"] = {
+							["hitmin"] = 1282,
+							["id"] = 67890,
+							["targets"] = {
+								["Scourgelord Tyrannus"] = {
+									["amount"] = 1282,
+								},
+							},
+							["casts"] = 1,
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 4,
+							["hitmax"] = 1282,
+							["amount"] = 1282,
+							["hitamount"] = 1282,
+						},
+						["Judgement of Vengeance"] = {
+							["criticalmin"] = 9154,
+							["hitmin"] = 2740,
+							["criticalamount"] = 9154,
+							["id"] = 31804,
+							["criticalmax"] = 9154,
+							["targets"] = {
+								["Scourgelord Tyrannus"] = {
+									["amount"] = 17550,
+								},
+							},
+							["critical"] = 1,
+							["hitmax"] = 5656,
+							["casts"] = 1,
 							["count"] = 3,
+							["hit"] = 2,
+							["school"] = 2,
+							["resisted"] = 628,
+							["amount"] = 17550,
+							["hitamount"] = 8396,
+						},
+						["Melee"] = {
+							["glance"] = 4651,
+							["hitmin"] = 3471,
+							["criticalmin"] = 4393,
+							["targets"] = {
+								["Scourgelord Tyrannus"] = {
+									["amount"] = 41666,
+								},
+							},
+							["glancing"] = 2,
+							["amount"] = 41666,
+							["glancemin"] = 1923,
+							["criticalamount"] = 33544,
+							["id"] = 6603,
+							["glancemax"] = 2728,
+							["criticalmax"] = 6874,
+							["critical"] = 6,
+							["hit"] = 1,
+							["school"] = 1,
+							["count"] = 9,
+							["hitmax"] = 3471,
+							["hitamount"] = 3471,
+						},
+						["Crusader Strike"] = {
+							["hitmin"] = 2024,
+							["criticalamount"] = 9871,
+							["id"] = 35395,
+							["criticalmin"] = 4198,
+							["targets"] = {
+								["Scourgelord Tyrannus"] = {
+									["amount"] = 16882,
+								},
+							},
+							["criticalmax"] = 5673,
+							["critical"] = 2,
+							["casts"] = 5,
+							["count"] = 5,
 							["hit"] = 3,
-							["school"] = 8,
-							["hitmax"] = 4806,
-							["amount"] = 13589,
-							["hitamount"] = 13589,
+							["school"] = 1,
+							["hitmax"] = 2786,
+							["amount"] = 16882,
+							["hitamount"] = 7011,
 						},
-						["Flame Shock (DoT)"] = {
-							["hitmin"] = 1030,
-							["id"] = 58971,
-							["sources"] = {
-								["Drakkari Fire Weaver"] = {
-									["amount"] = 1030,
+						["Righteous Vengeance (DoT)"] = {
+							["hitmin"] = 1042,
+							["id"] = 61840,
+							["targets"] = {
+								["Scourgelord Tyrannus"] = {
+									["amount"] = 8661,
 								},
 							},
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 4,
-							["hitmax"] = 1030,
-							["amount"] = 1030,
-							["hitamount"] = 1030,
-						},
-						["Blast Wave"] = {
-							["hitmin"] = 2214,
-							["id"] = 61362,
-							["sources"] = {
-								["Drakkari Fire Weaver"] = {
-									["amount"] = 2214,
-								},
-							},
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 4,
-							["hitmax"] = 2214,
-							["amount"] = 2214,
-							["hitamount"] = 2214,
-						},
-						["Venom Spit (DoT)"] = {
-							["hitmin"] = 2291,
-							["id"] = 59019,
-							["sources"] = {
-								["Spitting Cobra"] = {
-									["amount"] = 14254,
-								},
-							},
+							["hitmax"] = 1657,
 							["count"] = 6,
 							["hit"] = 6,
-							["school"] = 8,
-							["hitmax"] = 2746,
-							["amount"] = 14254,
-							["hitamount"] = 14254,
+							["school"] = 2,
+							["resisted"] = 281,
+							["amount"] = 8661,
+							["hitamount"] = 8661,
 						},
-						["Flame Shock"] = {
-							["hitmin"] = 2023,
-							["id"] = 58971,
-							["sources"] = {
-								["Drakkari Fire Weaver"] = {
-									["amount"] = 2023,
+						["Seal of Vengeance"] = {
+							["criticalmin"] = 776,
+							["hitmin"] = 365,
+							["criticalamount"] = 40479,
+							["id"] = 42463,
+							["hitmax"] = 2408,
+							["targets"] = {
+								["Scourgelord Tyrannus"] = {
+									["amount"] = 49161,
 								},
 							},
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 4,
-							["hitmax"] = 2023,
-							["amount"] = 2023,
-							["hitamount"] = 2023,
+							["count"] = 19,
+							["hit"] = 7,
+							["casts"] = 1,
+							["critical"] = 12,
+							["amount"] = 49161,
+							["school"] = 2,
+							["resisted"] = 2124,
+							["criticalmax"] = 5059,
+							["hitamount"] = 8682,
 						},
 					},
-					["overkill"] = 4994,
-					["name"] = "Wubobo",
-					["manaspells"] = {
-						[29077] = 939,
-						[67545] = 650,
-						[44450] = -129,
+					["id"] = "0x07000000008F8756",
+					["spec"] = 70,
+					["healspells"] = {
+						[34299] = {
+							["overheal"] = 4064,
+							["count"] = 5,
+							["amount"] = 0,
+							["school"] = 1,
+							["ishot"] = true,
+							["targets"] = {
+								["Yiyuan"] = {
+									["overheal"] = 4064,
+									["amount"] = 0,
+								},
+							},
+						},
+						[54172] = {
+							["overheal"] = 113,
+							["targets"] = {
+								["Crazydqs"] = {
+									["overheal"] = 86,
+									["amount"] = 1431,
+								},
+								["Urgash"] = {
+									["overheal"] = 27,
+									["amount"] = 1478,
+								},
+								["Skullslicer"] = {
+									["overheal"] = 0,
+									["amount"] = 26,
+								},
+							},
+							["count"] = 4,
+							["amount"] = 2935,
+							["school"] = 2,
+							["max"] = 1431,
+							["ishot"] = true,
+							["min"] = 26,
+						},
 					},
-					["mana"] = 1460,
-					["totaldamage"] = 83151,
+					["overheal"] = 4177,
+					["heal"] = 2935,
+					["name"] = "Yiyuan",
+					["totaldamage"] = 212655,
+					["class"] = "PALADIN",
+					["manaspells"] = {
+						[31930] = 3294,
+						[57669] = 2704,
+						[20268] = 1526,
+					},
+					["role"] = "DAMAGER",
 				}, -- [5]
 			},
 			["type"] = "party",
-			["damagetaken"] = 136314,
-			["interrupt"] = 1,
-			["absorb"] = 7454,
-			["etotaldamage"] = 143768,
-			["overkill"] = 21078,
-			["edamagetaken"] = 735712,
-			["heal"] = 139250,
-			["name"] = "Unyielding Constrictor",
-			["mobname"] = "Unyielding Constrictor",
-			["edamage"] = 136314,
-			["last_action"] = 1689592415,
-			["endtime"] = 1689592416,
-		}, -- [6]
+			["damagetaken"] = 77221,
+			["gotboss"] = 36658,
+			["etotaldamage"] = 83157,
+			["energy"] = 60,
+			["overkill"] = 5444,
+			["edamagetaken"] = 1046576,
+			["heal"] = 75530,
+			["name"] = "Scourgelord Tyrannus",
+			["mobname"] = "Scourgelord Tyrannus",
+			["starttime"] = 1689679496,
+			["edamage"] = 77221,
+			["last_action"] = 1689679540,
+			["endtime"] = 1689679541,
+		}, -- [1]
 		{
-			["damage"] = 896111,
-			["ccdone"] = 1,
-			["mana"] = 42126,
-			["success"] = true,
+			["damage"] = 1515262,
+			["mana"] = 40411,
+			["ccdone"] = 13,
 			["enemies"] = {
 				{
 					["damagespells"] = {
 						[6603] = {
 							["school"] = 1,
-							["total"] = 5000,
+							["total"] = 26005,
 							["targets"] = {
-								["Gometius"] = {
-									["total"] = 5000,
-									["amount"] = 1212,
+								["Crazydqs"] = {
+									["total"] = 35898,
+									["amount"] = 27096,
+								},
+								["Urgash"] = {
+									["total"] = 6898,
+									["amount"] = 1556,
+								},
+								["Zyablik"] = {
+									["total"] = 5665,
+									["amount"] = 5426,
 								},
 							},
-							["amount"] = 1212,
+							["amount"] = 34078,
+						},
+						[69579] = {
+							["school"] = 1,
+							["total"] = 14055,
+							["targets"] = {
+								["Crazydqs"] = {
+									["total"] = 33387,
+									["amount"] = 27929,
+								},
+							},
+							["amount"] = 27929,
 						},
 					},
-					["damagetaken"] = 238676,
+					["damagetaken"] = 700074,
 					["flag"] = 2632,
-					["class"] = "BOSS",
+					["class"] = "MONSTER",
 					["damagetakenspells"] = {
-						[47632] = {
-							["school"] = 32,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 18392,
-								},
-							},
-							["amount"] = 18392,
-						},
-						[48160] = {
-							["school"] = 32,
-							["sources"] = {
-								["Zaralar"] = {
-									["amount"] = 3988,
-								},
-							},
-							["amount"] = 3988,
-						},
-						[55360] = {
-							["school"] = 4,
-							["sources"] = {
-								["Wubobo"] = {
-									["amount"] = 1143,
-								},
-							},
-							["amount"] = 1143,
-						},
-						[49930] = {
+						[62078] = {
 							["school"] = 1,
 							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 6046,
+								["Zyablik"] = {
+									["overkill"] = 2964,
+									["amount"] = 148886,
 								},
 							},
-							["amount"] = 6046,
+							["overkill"] = 2964,
+							["amount"] = 148886,
 						},
-						[47610] = {
-							["school"] = 20,
+						[20424] = {
+							["school"] = 2,
 							["sources"] = {
-								["Wubobo"] = {
-									["overkill"] = 115,
-									["amount"] = 7254,
+								["Crazydqs"] = {
+									["amount"] = 23509,
+								},
+								["Yiyuan"] = {
+									["overkill"] = 1560,
+									["amount"] = 52632,
 								},
 							},
-							["overkill"] = 115,
-							["amount"] = 7254,
+							["overkill"] = 1560,
+							["amount"] = 76141,
 						},
 						[55078] = {
 							["school"] = 32,
 							["sources"] = {
 								["Urgash"] = {
-									["amount"] = 3756,
+									["amount"] = 3888,
 								},
 							},
-							["amount"] = 3756,
+							["amount"] = 3888,
 						},
-						[58381] = {
-							["school"] = 32,
-							["sources"] = {
-								["Zaralar"] = {
-									["amount"] = 17736,
-								},
-							},
-							["amount"] = 17736,
-						},
-						[42463] = {
+						[48817] = {
 							["school"] = 2,
 							["sources"] = {
-								["Gometius"] = {
-									["amount"] = 3470,
+								["Yiyuan"] = {
+									["amount"] = 9832,
+								},
+								["Crazydqs"] = {
+									["amount"] = 5112,
 								},
 							},
-							["amount"] = 3470,
+							["amount"] = 14944,
+						},
+						[35395] = {
+							["school"] = 1,
+							["sources"] = {
+								["Yiyuan"] = {
+									["amount"] = 3952,
+								},
+							},
+							["amount"] = 3952,
 						},
 						[48819] = {
 							["school"] = 2,
 							["sources"] = {
-								["Gometius"] = {
-									["amount"] = 4575,
+								["Crazydqs"] = {
+									["amount"] = 20217,
 								},
-								["Ynnou"] = {
-									["amount"] = 232,
+								["Yiyuan"] = {
+									["amount"] = 10827,
 								},
 							},
-							["amount"] = 4807,
+							["amount"] = 31044,
 						},
-						[54158] = {
+						[61840] = {
 							["school"] = 2,
 							["sources"] = {
-								["Ynnou"] = {
-									["amount"] = 1189,
+								["Yiyuan"] = {
+									["overkill"] = 561,
+									["amount"] = 6913,
 								},
 							},
-							["amount"] = 1189,
+							["overkill"] = 561,
+							["amount"] = 6913,
 						},
 						[53595] = {
 							["school"] = 2,
 							["sources"] = {
-								["Gometius"] = {
-									["amount"] = 4583,
+								["Crazydqs"] = {
+									["amount"] = 41705,
 								},
 							},
-							["amount"] = 4583,
+							["amount"] = 41705,
 						},
-						[70890] = {
-							["school"] = 32,
+						[48574] = {
+							["school"] = 1,
 							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 6389,
+								["Zyablik"] = {
+									["amount"] = 9099,
 								},
 							},
-							["amount"] = 6389,
+							["amount"] = 9099,
 						},
-						[55271] = {
+						[50463] = {
 							["school"] = 1,
 							["sources"] = {
 								["Urgash"] = {
-									["amount"] = 13829,
+									["amount"] = 2614,
 								},
 							},
-							["amount"] = 13829,
+							["amount"] = 2614,
 						},
 						[49909] = {
 							["school"] = 16,
 							["sources"] = {
 								["Urgash"] = {
-									["amount"] = 3222,
+									["amount"] = 3763,
 								},
 							},
-							["amount"] = 3222,
+							["amount"] = 3763,
 						},
 						[51460] = {
 							["school"] = 32,
 							["sources"] = {
 								["Urgash"] = {
-									["amount"] = 6044,
+									["amount"] = 4932,
 								},
 							},
-							["amount"] = 6044,
+							["amount"] = 4932,
 						},
-						[63675] = {
-							["school"] = 32,
+						[55095] = {
+							["school"] = 16,
 							["sources"] = {
-								["Zaralar"] = {
-									["amount"] = 5522,
+								["Urgash"] = {
+									["amount"] = 8188,
 								},
 							},
-							["amount"] = 5522,
+							["amount"] = 8188,
 						},
 						[48827] = {
 							["school"] = 2,
 							["sources"] = {
-								["Gometius"] = {
-									["amount"] = 1638,
+								["Crazydqs"] = {
+									["amount"] = 4122,
 								},
 							},
-							["amount"] = 1638,
+							["amount"] = 4122,
 						},
-						[48952] = {
-							["school"] = 2,
+						[53385] = {
+							["school"] = 1,
 							["sources"] = {
-								["Gometius"] = {
-									["amount"] = 779,
+								["Yiyuan"] = {
+									["overkill"] = 2632,
+									["amount"] = 63339,
 								},
 							},
-							["amount"] = 779,
+							["overkill"] = 2632,
+							["amount"] = 63339,
 						},
 						[6603] = {
 							["school"] = 1,
 							["sources"] = {
-								["Gometius"] = {
-									["amount"] = 12445,
+								["Crazydqs"] = {
+									["amount"] = 11645,
 								},
 								["Urgash"] = {
-									["overkill"] = 4862,
-									["amount"] = 48421,
+									["amount"] = 31282,
 								},
-								["Zaralar"] = {
+								["Yiyuan"] = {
+									["amount"] = 15313,
+								},
+								["Zyablik"] = {
+									["overkill"] = 3416,
+									["amount"] = 52063,
+								},
+							},
+							["overkill"] = 3416,
+							["amount"] = 110303,
+						},
+						[71904] = {
+							["school"] = 32,
+							["sources"] = {
+								["Urgash"] = {
+									["amount"] = 1766,
+								},
+							},
+							["amount"] = 1766,
+						},
+						[50526] = {
+							["school"] = 32,
+							["sources"] = {
+								["Urgash"] = {
+									["amount"] = 19059,
+								},
+							},
+							["amount"] = 19059,
+						},
+						[47468] = {
+							["school"] = 1,
+							["sources"] = {
+								["Urgash"] = {
+									["amount"] = 5630,
+								},
+							},
+							["amount"] = 5630,
+						},
+						[52212] = {
+							["school"] = 32,
+							["sources"] = {
+								["Urgash"] = {
+									["amount"] = 26312,
+								},
+							},
+							["amount"] = 26312,
+						},
+						[47632] = {
+							["school"] = 32,
+							["sources"] = {
+								["Urgash"] = {
+									["overkill"] = 333,
+									["amount"] = 20505,
+								},
+							},
+							["overkill"] = 333,
+							["amount"] = 20505,
+						},
+						[54043] = {
+							["school"] = 2,
+							["sources"] = {
+								["Crazydqs"] = {
+									["amount"] = 4161,
+								},
+								["Urgash"] = {
+									["amount"] = 332,
+								},
+								["Zyablik"] = {
+									["amount"] = 288,
+								},
+							},
+							["amount"] = 4781,
+						},
+						[49921] = {
+							["school"] = 1,
+							["sources"] = {
+								["Urgash"] = {
+									["amount"] = 10589,
+								},
+							},
+							["amount"] = 10589,
+						},
+						[48806] = {
+							["school"] = 2,
+							["sources"] = {
+								["Yiyuan"] = {
+									["overkill"] = 6318,
+									["amount"] = 6618,
+								},
+							},
+							["overkill"] = 6318,
+							["amount"] = 6618,
+						},
+						[69403] = {
+							["school"] = 2,
+							["sources"] = {
+								["Crazydqs"] = {
+									["amount"] = 5551,
+								},
+								["Yiyuan"] = {
+									["amount"] = 37276,
+								},
+							},
+							["amount"] = 42827,
+						},
+						[20467] = {
+							["school"] = 2,
+							["sources"] = {
+								["Yiyuan"] = {
+									["amount"] = 9701,
+								},
+								["Crazydqs"] = {
+									["amount"] = 2592,
+								},
+							},
+							["amount"] = 12293,
+						},
+						[67485] = {
+							["school"] = 2,
+							["sources"] = {
+								["Crazydqs"] = {
+									["amount"] = 2612,
+								},
+							},
+							["amount"] = 2612,
+						},
+						[61411] = {
+							["school"] = 2,
+							["sources"] = {
+								["Crazydqs"] = {
+									["amount"] = 13249,
+								},
+							},
+							["amount"] = 13249,
+						},
+					},
+					["name"] = "Fallen Warrior",
+					["totaldamage"] = 81848,
+					["totaldamagetaken"] = 700074,
+					["id"] = "0xF130008FE9000099",
+					["damage"] = 62007,
+				}, -- [1]
+				{
+					["damagespells"] = {
+						[6603] = {
+							["school"] = 1,
+							["total"] = 26503,
+							["targets"] = {
+								["Crazydqs"] = {
+									["total"] = 18374,
+									["amount"] = 15395,
+								},
+								["Urgash"] = {
+									["amount"] = 3283,
+								},
+								["Yiyuan"] = {
+									["total"] = 13923,
+									["amount"] = 4550,
+								},
+								["Zyablik"] = {
+									["total"] = 15709,
+									["amount"] = 5264,
+								},
+							},
+							["amount"] = 28492,
+						},
+					},
+					["damagetaken"] = 470507,
+					["flag"] = 2632,
+					["class"] = "MONSTER",
+					["damagetakenspells"] = {
+						[62078] = {
+							["school"] = 1,
+							["sources"] = {
+								["Zyablik"] = {
+									["overkill"] = 1762,
+									["amount"] = 121131,
+								},
+							},
+							["overkill"] = 1762,
+							["amount"] = 121131,
+						},
+						[20424] = {
+							["school"] = 2,
+							["sources"] = {
+								["Yiyuan"] = {
+									["amount"] = 41892,
+								},
+								["Crazydqs"] = {
+									["overkill"] = 343,
+									["amount"] = 15096,
+								},
+							},
+							["overkill"] = 343,
+							["amount"] = 56988,
+						},
+						[55078] = {
+							["school"] = 32,
+							["sources"] = {
+								["Urgash"] = {
+									["overkill"] = 960,
+									["amount"] = 7943,
+								},
+							},
+							["overkill"] = 960,
+							["amount"] = 7943,
+						},
+						[48817] = {
+							["school"] = 2,
+							["sources"] = {
+								["Yiyuan"] = {
+									["overkill"] = 1847,
+									["amount"] = 9287,
+								},
+								["Crazydqs"] = {
+									["amount"] = 7035,
+								},
+							},
+							["overkill"] = 1847,
+							["amount"] = 16322,
+						},
+						[35395] = {
+							["school"] = 1,
+							["sources"] = {
+								["Yiyuan"] = {
+									["amount"] = 2120,
+								},
+							},
+							["amount"] = 2120,
+						},
+						[48819] = {
+							["school"] = 2,
+							["sources"] = {
+								["Crazydqs"] = {
+									["amount"] = 17700,
+								},
+								["Yiyuan"] = {
+									["amount"] = 6003,
+								},
+							},
+							["amount"] = 23703,
+						},
+						[61840] = {
+							["school"] = 2,
+							["sources"] = {
+								["Yiyuan"] = {
+									["overkill"] = 91,
+									["amount"] = 4040,
+								},
+							},
+							["overkill"] = 91,
+							["amount"] = 4040,
+						},
+						[50526] = {
+							["school"] = 32,
+							["sources"] = {
+								["Urgash"] = {
+									["amount"] = 21368,
+								},
+							},
+							["amount"] = 21368,
+						},
+						[49909] = {
+							["school"] = 16,
+							["sources"] = {
+								["Urgash"] = {
+									["amount"] = 8401,
+								},
+							},
+							["amount"] = 8401,
+						},
+						[51460] = {
+							["school"] = 32,
+							["sources"] = {
+								["Urgash"] = {
+									["amount"] = 4704,
+								},
+							},
+							["amount"] = 4704,
+						},
+						[48827] = {
+							["school"] = 2,
+							["sources"] = {
+								["Crazydqs"] = {
+									["amount"] = 3613,
+								},
+							},
+							["amount"] = 3613,
+						},
+						[53385] = {
+							["school"] = 1,
+							["sources"] = {
+								["Yiyuan"] = {
+									["overkill"] = 10458,
+									["amount"] = 47643,
+								},
+							},
+							["overkill"] = 10458,
+							["amount"] = 47643,
+						},
+						[6603] = {
+							["school"] = 1,
+							["sources"] = {
+								["Crazydqs"] = {
+									["amount"] = 3384,
+								},
+								["Urgash"] = {
+									["overkill"] = 548,
+									["amount"] = 26737,
+								},
+								["Yiyuan"] = {
+									["amount"] = 15830,
+								},
+							},
+							["overkill"] = 548,
+							["amount"] = 45951,
+						},
+						[55095] = {
+							["school"] = 16,
+							["sources"] = {
+								["Urgash"] = {
+									["amount"] = 6674,
+								},
+							},
+							["amount"] = 6674,
+						},
+						[50463] = {
+							["school"] = 1,
+							["sources"] = {
+								["Urgash"] = {
+									["amount"] = 6063,
+								},
+							},
+							["amount"] = 6063,
+						},
+						[48801] = {
+							["school"] = 2,
+							["sources"] = {
+								["Yiyuan"] = {
+									["amount"] = 5634,
+								},
+							},
+							["amount"] = 5634,
+						},
+						[71904] = {
+							["school"] = 32,
+							["sources"] = {
+								["Urgash"] = {
+									["amount"] = 2712,
+								},
+							},
+							["amount"] = 2712,
+						},
+						[47468] = {
+							["school"] = 1,
+							["sources"] = {
+								["Urgash"] = {
+									["amount"] = 3280,
+								},
+							},
+							["amount"] = 3280,
+						},
+						[54043] = {
+							["school"] = 2,
+							["sources"] = {
+								["Crazydqs"] = {
+									["amount"] = 2666,
+								},
+								["Urgash"] = {
+									["amount"] = 639,
+								},
+								["Yiyuan"] = {
+									["amount"] = 630,
+								},
+								["Zyablik"] = {
+									["amount"] = 845,
+								},
+							},
+							["amount"] = 4780,
+						},
+						[49921] = {
+							["school"] = 1,
+							["sources"] = {
+								["Urgash"] = {
+									["amount"] = 11246,
+								},
+							},
+							["amount"] = 11246,
+						},
+						[53595] = {
+							["school"] = 2,
+							["sources"] = {
+								["Crazydqs"] = {
+									["overkill"] = 1774,
+									["amount"] = 14759,
+								},
+							},
+							["overkill"] = 1774,
+							["amount"] = 14759,
+						},
+						[69403] = {
+							["school"] = 2,
+							["sources"] = {
+								["Crazydqs"] = {
+									["amount"] = 2512,
+								},
+								["Yiyuan"] = {
+									["overkill"] = 1544,
+									["amount"] = 20208,
+								},
+							},
+							["overkill"] = 1544,
+							["amount"] = 22720,
+						},
+						[20467] = {
+							["school"] = 2,
+							["sources"] = {
+								["Crazydqs"] = {
+									["amount"] = 2923,
+								},
+								["Yiyuan"] = {
+									["amount"] = 9489,
+								},
+							},
+							["amount"] = 12412,
+						},
+						[67485] = {
+							["school"] = 2,
+							["sources"] = {
+								["Crazydqs"] = {
+									["amount"] = 2090,
+								},
+							},
+							["amount"] = 2090,
+						},
+						[52212] = {
+							["school"] = 32,
+							["sources"] = {
+								["Urgash"] = {
+									["amount"] = 14210,
+								},
+							},
+							["amount"] = 14210,
+						},
+					},
+					["name"] = "Wrathbone Skeleton",
+					["totaldamage"] = 51289,
+					["totaldamagetaken"] = 470507,
+					["id"] = "0xF13000900D00009F",
+					["damage"] = 28492,
+				}, -- [2]
+				{
+					["damagespells"] = {
+						[70827] = {
+							["school"] = 16,
+							["total"] = 4751,
+							["targets"] = {
+								["Najgora"] = {
+									["total"] = 4751,
+									["amount"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["name"] = "Collapsing Icicle",
+					["totaldamage"] = 4751,
+					["flag"] = 2632,
+					["class"] = "MONSTER",
+					["id"] = "0xF130008FEF00027C",
+					["damage"] = 0,
+				}, -- [3]
+				{
+					["id"] = "0xF130003A21000014",
+					["name"] = "Spider",
+					["totaldamagetaken"] = 1969,
+					["flag"] = 2600,
+					["class"] = "MONSTER",
+					["damagetaken"] = 1969,
+					["damagetakenspells"] = {
+						[48819] = {
+							["school"] = 2,
+							["sources"] = {
+								["Yiyuan"] = {
+									["overkill"] = 557,
+									["amount"] = 566,
+								},
+							},
+							["overkill"] = 557,
+							["amount"] = 566,
+						},
+						[50526] = {
+							["school"] = 32,
+							["sources"] = {
+								["Urgash"] = {
+									["overkill"] = 1394,
+									["amount"] = 1403,
+								},
+							},
+							["overkill"] = 1394,
+							["amount"] = 1403,
+						},
+					},
+				}, -- [4]
+				{
+					["damagespells"] = {
+						[55216] = {
+							["school"] = 16,
+							["total"] = 1608,
+							["targets"] = {
+								["Crazydqs"] = {
+									["total"] = 1755,
+									["amount"] = 1031,
+								},
+								["Urgash"] = {
+									["amount"] = 689,
+								},
+								["Zyablik"] = {
+									["amount"] = 581,
+								},
+								["Najgora"] = {
+									["total"] = 884,
+									["amount"] = 293,
+								},
+								["Yiyuan"] = {
+									["amount"] = 980,
+								},
+							},
+							["amount"] = 3574,
+						},
+						[6603] = {
+							["school"] = 1,
+							["targets"] = {
+								["Crazydqs"] = {
+									["amount"] = 6200,
+								},
+								["Urgash"] = {
+									["amount"] = 3071,
+								},
+							},
+							["amount"] = 9271,
+						},
+					},
+					["damagetaken"] = 253512,
+					["id"] = "0xF13000900A00009D",
+					["class"] = "MONSTER",
+					["damagetakenspells"] = {
+						[62078] = {
+							["school"] = 1,
+							["sources"] = {
+								["Zyablik"] = {
+									["amount"] = 14538,
+								},
+							},
+							["amount"] = 14538,
+						},
+						[49930] = {
+							["school"] = 1,
+							["sources"] = {
+								["Urgash"] = {
+									["amount"] = 10503,
+								},
+							},
+							["amount"] = 10503,
+						},
+						[20424] = {
+							["school"] = 2,
+							["sources"] = {
+								["Crazydqs"] = {
+									["amount"] = 3272,
+								},
+								["Yiyuan"] = {
+									["amount"] = 9345,
+								},
+							},
+							["amount"] = 12617,
+						},
+						[55078] = {
+							["school"] = 32,
+							["sources"] = {
+								["Urgash"] = {
+									["amount"] = 3992,
+								},
+							},
+							["amount"] = 3992,
+						},
+						[61411] = {
+							["school"] = 2,
+							["sources"] = {
+								["Crazydqs"] = {
+									["amount"] = 3526,
+								},
+							},
+							["amount"] = 3526,
+						},
+						[35395] = {
+							["school"] = 1,
+							["sources"] = {
+								["Yiyuan"] = {
+									["amount"] = 4834,
+								},
+							},
+							["amount"] = 4834,
+						},
+						[48819] = {
+							["school"] = 2,
+							["sources"] = {
+								["Crazydqs"] = {
+									["amount"] = 2715,
+								},
+							},
+							["amount"] = 2715,
+						},
+						[50463] = {
+							["school"] = 1,
+							["sources"] = {
+								["Urgash"] = {
+									["amount"] = 4487,
+								},
+							},
+							["amount"] = 4487,
+						},
+						[50526] = {
+							["school"] = 32,
+							["sources"] = {
+								["Urgash"] = {
+									["amount"] = 4957,
+								},
+							},
+							["amount"] = 4957,
+						},
+						[48574] = {
+							["school"] = 1,
+							["sources"] = {
+								["Zyablik"] = {
+									["amount"] = 4165,
+								},
+							},
+							["amount"] = 4165,
+						},
+						[55271] = {
+							["school"] = 1,
+							["sources"] = {
+								["Urgash"] = {
+									["overkill"] = 1512,
+									["amount"] = 18310,
+								},
+							},
+							["overkill"] = 1512,
+							["amount"] = 18310,
+						},
+						[49909] = {
+							["school"] = 16,
+							["sources"] = {
+								["Urgash"] = {
+									["amount"] = 1420,
+								},
+							},
+							["amount"] = 1420,
+						},
+						[51460] = {
+							["school"] = 32,
+							["sources"] = {
+								["Urgash"] = {
+									["amount"] = 5748,
+								},
+							},
+							["amount"] = 5748,
+						},
+						[61840] = {
+							["school"] = 2,
+							["sources"] = {
+								["Yiyuan"] = {
 									["amount"] = 4117,
 								},
-								["Ynnou"] = {
-									["amount"] = 415,
-								},
 							},
-							["overkill"] = 4862,
-							["amount"] = 65398,
-						},
-						[61411] = {
-							["school"] = 2,
-							["sources"] = {
-								["Gometius"] = {
-									["amount"] = 5479,
-								},
-							},
-							["amount"] = 5479,
-						},
-						[50536] = {
-							["school"] = 32,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 614,
-								},
-							},
-							["amount"] = 614,
-						},
-						[47468] = {
-							["school"] = 1,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 5708,
-								},
-							},
-							["amount"] = 5708,
-						},
-						[55095] = {
-							["school"] = 16,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 6095,
-								},
-							},
-							["amount"] = 6095,
-						},
-						[71904] = {
-							["school"] = 32,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 6272,
-								},
-							},
-							["amount"] = 6272,
-						},
-						[31804] = {
-							["school"] = 2,
-							["sources"] = {
-								["Gometius"] = {
-									["amount"] = 1323,
-								},
-							},
-							["amount"] = 1323,
-						},
-						[49921] = {
-							["school"] = 1,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 7672,
-								},
-							},
-							["amount"] = 7672,
-						},
-						[50526] = {
-							["school"] = 32,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 4888,
-								},
-							},
-							["amount"] = 4888,
-						},
-						[48125] = {
-							["school"] = 32,
-							["sources"] = {
-								["Zaralar"] = {
-									["amount"] = 4045,
-								},
-							},
-							["amount"] = 4045,
-						},
-						[31803] = {
-							["school"] = 2,
-							["sources"] = {
-								["Gometius"] = {
-									["amount"] = 3015,
-								},
-							},
-							["amount"] = 3015,
-						},
-						[48127] = {
-							["school"] = 32,
-							["sources"] = {
-								["Zaralar"] = {
-									["amount"] = 6632,
-								},
-							},
-							["amount"] = 6632,
-						},
-						[48300] = {
-							["school"] = 32,
-							["sources"] = {
-								["Zaralar"] = {
-									["amount"] = 11748,
-								},
-							},
-							["amount"] = 11748,
-						},
-					},
-					["name"] = "Drakkari Colossus",
-					["totaldamage"] = 5000,
-					["totaldamagetaken"] = 238676,
-					["id"] = "0xF13000727B000028",
-					["damage"] = 1212,
-				}, -- [1]
-				{
-					["damagespells"] = {
-						[59452] = {
-							["school"] = 8,
-							["total"] = 4045,
-							["targets"] = {
-								["Gometius"] = {
-									["total"] = 2352,
-									["amount"] = 1142,
-								},
-								["Urgash"] = {
-									["amount"] = 3966,
-								},
-								["Wubobo"] = {
-									["amount"] = 4538,
-								},
-								["Ynnou"] = {
-									["amount"] = 1466,
-								},
-								["Zaralar"] = {
-									["amount"] = 1287,
-								},
-							},
-							["amount"] = 12399,
-						},
-						[54819] = {
-							["school"] = 8,
-							["total"] = 5595,
-							["targets"] = {
-								["Gometius"] = {
-									["total"] = 10192,
-									["amount"] = 8435,
-								},
-								["Urgash"] = {
-									["total"] = 19811,
-									["amount"] = 18495,
-								},
-							},
-							["amount"] = 26930,
-						},
-						[6603] = {
-							["school"] = 1,
-							["total"] = 2217,
-							["targets"] = {
-								["Gometius"] = {
-									["total"] = 255,
-									["amount"] = 0,
-								},
-								["Urgash"] = {
-									["amount"] = 4208,
-								},
-							},
-							["amount"] = 4208,
-						},
-					},
-					["damagetaken"] = 230699,
-					["flag"] = 68168,
-					["class"] = "MONSTER",
-					["damagetakenspells"] = {
-						[47632] = {
-							["school"] = 32,
-							["sources"] = {
-								["Urgash"] = {
-									["overkill"] = 2818,
-									["amount"] = 8138,
-								},
-							},
-							["overkill"] = 2818,
-							["amount"] = 8138,
-						},
-						[42859] = {
-							["school"] = 4,
-							["sources"] = {
-								["Wubobo"] = {
-									["amount"] = 1152,
-								},
-							},
-							["amount"] = 1152,
-						},
-						[49930] = {
-							["school"] = 1,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 5510,
-								},
-							},
-							["amount"] = 5510,
-						},
-						[47610] = {
-							["school"] = 20,
-							["sources"] = {
-								["Wubobo"] = {
-									["amount"] = 7603,
-								},
-							},
-							["amount"] = 7603,
-						},
-						[55078] = {
-							["school"] = 32,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 4617,
-								},
-							},
-							["amount"] = 4617,
-						},
-						[54158] = {
-							["school"] = 2,
-							["sources"] = {
-								["Ynnou"] = {
-									["amount"] = 2139,
-								},
-							},
-							["amount"] = 2139,
-						},
-						[42463] = {
-							["school"] = 2,
-							["sources"] = {
-								["Gometius"] = {
-									["amount"] = 1487,
-								},
-							},
-							["amount"] = 1487,
-						},
-						[55360] = {
-							["school"] = 4,
-							["sources"] = {
-								["Wubobo"] = {
-									["amount"] = 3365,
-								},
-							},
-							["amount"] = 3365,
-						},
-						[50463] = {
-							["school"] = 1,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 6723,
-								},
-							},
-							["amount"] = 6723,
-						},
-						[53595] = {
-							["school"] = 2,
-							["sources"] = {
-								["Gometius"] = {
-									["amount"] = 4759,
-								},
-							},
-							["amount"] = 4759,
-						},
-						[70890] = {
-							["school"] = 32,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 10671,
-								},
-							},
-							["amount"] = 10671,
-						},
-						[55271] = {
-							["school"] = 1,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 19873,
-								},
-							},
-							["amount"] = 19873,
-						},
-						[49909] = {
-							["school"] = 16,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 8683,
-								},
-							},
-							["amount"] = 8683,
-						},
-						[51460] = {
-							["school"] = 32,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 6119,
-								},
-							},
-							["amount"] = 6119,
-						},
-						[63675] = {
-							["school"] = 32,
-							["sources"] = {
-								["Zaralar"] = {
-									["amount"] = 9222,
-								},
-							},
-							["amount"] = 9222,
-						},
-						[48300] = {
-							["school"] = 32,
-							["sources"] = {
-								["Zaralar"] = {
-									["amount"] = 10907,
-								},
-							},
-							["amount"] = 10907,
-						},
-						[48819] = {
-							["school"] = 2,
-							["sources"] = {
-								["Gometius"] = {
-									["amount"] = 1994,
-								},
-							},
-							["amount"] = 1994,
-						},
-						[6603] = {
-							["school"] = 1,
-							["sources"] = {
-								["Gometius"] = {
-									["amount"] = 4290,
-								},
-								["Urgash"] = {
-									["amount"] = 39465,
-								},
-								["Zaralar"] = {
-									["amount"] = 8892,
-								},
-							},
-							["amount"] = 52647,
-						},
-						[58381] = {
-							["school"] = 32,
-							["sources"] = {
-								["Zaralar"] = {
-									["amount"] = 11823,
-								},
-							},
-							["amount"] = 11823,
-						},
-						[31804] = {
-							["school"] = 2,
-							["sources"] = {
-								["Gometius"] = {
-									["amount"] = 1589,
-								},
-							},
-							["amount"] = 1589,
-						},
-						[47468] = {
-							["school"] = 1,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 6700,
-								},
-							},
-							["amount"] = 6700,
-						},
-						[55095] = {
-							["school"] = 16,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 7115,
-								},
-							},
-							["amount"] = 7115,
-						},
-						[61411] = {
-							["school"] = 2,
-							["sources"] = {
-								["Gometius"] = {
-									["amount"] = 5956,
-								},
-							},
-							["amount"] = 5956,
-						},
-						[31803] = {
-							["school"] = 2,
-							["sources"] = {
-								["Gometius"] = {
-									["amount"] = 1006,
-								},
-							},
-							["amount"] = 1006,
-						},
-						[49921] = {
-							["school"] = 1,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 8999,
-								},
-							},
-							["amount"] = 8999,
-						},
-						[48127] = {
-							["school"] = 32,
-							["sources"] = {
-								["Zaralar"] = {
-									["amount"] = 8910,
-								},
-							},
-							["amount"] = 8910,
-						},
-						[48125] = {
-							["school"] = 32,
-							["sources"] = {
-								["Zaralar"] = {
-									["amount"] = 1284,
-								},
-							},
-							["amount"] = 1284,
-						},
-						[12654] = {
-							["school"] = 4,
-							["sources"] = {
-								["Wubobo"] = {
-									["amount"] = 514,
-								},
-							},
-							["amount"] = 514,
-						},
-						[67485] = {
-							["school"] = 2,
-							["sources"] = {
-								["Gometius"] = {
-									["amount"] = 5300,
-								},
-							},
-							["amount"] = 5300,
-						},
-						[50526] = {
-							["school"] = 32,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 5894,
-								},
-							},
-							["amount"] = 5894,
-						},
-					},
-					["name"] = "Drakkari Elemental",
-					["totaldamage"] = 48075,
-					["totaldamagetaken"] = 230699,
-					["id"] = "0xF1300073850000E7",
-					["damage"] = 43537,
-				}, -- [2]
-				{
-					["damagespells"] = {
-						[58993] = {
-							["school"] = 8,
-							["total"] = 20774,
-							["targets"] = {
-								["Gometius"] = {
-									["total"] = 4758,
-									["amount"] = 3648,
-								},
-								["Urgash"] = {
-									["total"] = 12412,
-									["amount"] = 11355,
-								},
-								["Zaralar"] = {
-									["amount"] = 5690,
-								},
-								["Ynnou"] = {
-									["amount"] = 6497,
-								},
-							},
-							["amount"] = 27190,
-						},
-						[58994] = {
-							["school"] = 8,
-							["targets"] = {
-								["Gometius"] = {
-									["amount"] = 15855,
-								},
-								["Urgash"] = {
-									["amount"] = 10054,
-								},
-							},
-							["amount"] = 25909,
-						},
-						[6603] = {
-							["school"] = 1,
-							["total"] = 10755,
-							["targets"] = {
-								["Gometius"] = {
-									["total"] = 3453,
-									["amount"] = 3385,
-								},
-								["Urgash"] = {
-									["amount"] = 7371,
-								},
-							},
-							["amount"] = 10756,
-						},
-					},
-					["damagetaken"] = 192327,
-					["flag"] = 68168,
-					["class"] = "MONSTER",
-					["damagetakenspells"] = {
-						[61411] = {
-							["school"] = 2,
-							["sources"] = {
-								["Gometius"] = {
-									["amount"] = 6268,
-								},
-							},
-							["amount"] = 6268,
-						},
-						[49930] = {
-							["school"] = 1,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 4089,
-								},
-							},
-							["amount"] = 4089,
-						},
-						[55362] = {
-							["school"] = 4,
-							["sources"] = {
-								["Wubobo"] = {
-									["amount"] = 3579,
-								},
-							},
-							["amount"] = 3579,
-						},
-						[55078] = {
-							["school"] = 32,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 6407,
-								},
-							},
-							["amount"] = 6407,
-						},
-						[42926] = {
-							["school"] = 4,
-							["sources"] = {
-								["Wubobo"] = {
-									["amount"] = 3686,
-								},
-							},
-							["amount"] = 3686,
-						},
-						[42463] = {
-							["school"] = 2,
-							["sources"] = {
-								["Gometius"] = {
-									["amount"] = 248,
-								},
-							},
-							["amount"] = 248,
-						},
-						[55360] = {
-							["school"] = 4,
-							["sources"] = {
-								["Wubobo"] = {
-									["amount"] = 3874,
-								},
-							},
-							["amount"] = 3874,
-						},
-						[12654] = {
-							["school"] = 4,
-							["sources"] = {
-								["Wubobo"] = {
-									["amount"] = 1701,
-								},
-							},
-							["amount"] = 1701,
-						},
-						[53595] = {
-							["school"] = 2,
-							["sources"] = {
-								["Gometius"] = {
-									["amount"] = 9732,
-								},
-							},
-							["amount"] = 9732,
-						},
-						[70890] = {
-							["school"] = 32,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 2814,
-								},
-							},
-							["amount"] = 2814,
-						},
-						[55271] = {
-							["school"] = 1,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 8303,
-								},
-							},
-							["amount"] = 8303,
-						},
-						[49909] = {
-							["school"] = 16,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 1691,
-								},
-							},
-							["amount"] = 1691,
-						},
-						[51460] = {
-							["school"] = 32,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 3292,
-								},
-							},
-							["amount"] = 3292,
-						},
-						[54158] = {
-							["school"] = 2,
-							["sources"] = {
-								["Ynnou"] = {
-									["amount"] = 1188,
-								},
-							},
-							["amount"] = 1188,
-						},
-						[48300] = {
-							["school"] = 32,
-							["sources"] = {
-								["Zaralar"] = {
-									["amount"] = 3618,
-								},
-							},
-							["amount"] = 3618,
-						},
-						[48952] = {
-							["school"] = 2,
-							["sources"] = {
-								["Gometius"] = {
-									["amount"] = 3208,
-								},
-							},
-							["amount"] = 3208,
-						},
-						[6603] = {
-							["school"] = 1,
-							["sources"] = {
-								["Gometius"] = {
-									["amount"] = 1082,
-								},
-								["Urgash"] = {
-									["amount"] = 19153,
-								},
-							},
-							["amount"] = 20235,
-						},
-						[42950] = {
-							["school"] = 4,
-							["sources"] = {
-								["Wubobo"] = {
-									["amount"] = 5442,
-								},
-							},
-							["amount"] = 5442,
-						},
-						[52212] = {
-							["school"] = 32,
-							["sources"] = {
-								["Urgash"] = {
-									["overkill"] = 1012,
-									["amount"] = 20787,
-								},
-							},
-							["overkill"] = 1012,
-							["amount"] = 20787,
-						},
-						[47468] = {
-							["school"] = 1,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 2422,
-								},
-							},
-							["amount"] = 2422,
-						},
-						[55095] = {
-							["school"] = 16,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 11582,
-								},
-							},
-							["amount"] = 11582,
-						},
-						[31803] = {
-							["school"] = 2,
-							["sources"] = {
-								["Gometius"] = {
-									["amount"] = 1047,
-								},
-							},
-							["amount"] = 1047,
-						},
-						[42945] = {
-							["school"] = 4,
-							["sources"] = {
-								["Wubobo"] = {
-									["amount"] = 5774,
-								},
-							},
-							["amount"] = 5774,
-						},
-						[71904] = {
-							["school"] = 32,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 1540,
-								},
-							},
-							["amount"] = 1540,
-						},
-						[53022] = {
-							["school"] = 32,
-							["sources"] = {
-								["Zaralar"] = {
-									["amount"] = 29655,
-								},
-							},
-							["amount"] = 29655,
-						},
-						[48819] = {
-							["school"] = 2,
-							["sources"] = {
-								["Gometius"] = {
-									["amount"] = 6466,
-								},
-							},
-							["amount"] = 6466,
-						},
-						[50526] = {
-							["school"] = 32,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 16590,
-								},
-							},
-							["amount"] = 16590,
-						},
-						[48127] = {
-							["school"] = 32,
-							["sources"] = {
-								["Zaralar"] = {
-									["amount"] = 3894,
-								},
-							},
-							["amount"] = 3894,
-						},
-						[63675] = {
-							["school"] = 32,
-							["sources"] = {
-								["Zaralar"] = {
-									["amount"] = 3195,
-								},
-							},
-							["amount"] = 3195,
-						},
-					},
-					["name"] = "Living Mojo",
-					["totaldamage"] = 66090,
-					["totaldamagetaken"] = 192327,
-					["id"] = "0xF1300074860000AD",
-					["damage"] = 63855,
-				}, -- [3]
-				{
-					["damagespells"] = {
-						[6603] = {
-							["school"] = 1,
-							["targets"] = {
-								["Gometius"] = {
-									["amount"] = 7126,
-								},
-								["Urgash"] = {
-									["amount"] = 8014,
-								},
-							},
-							["amount"] = 15140,
-						},
-						[58977] = {
-							["school"] = 1,
-							["targets"] = {
-								["Gometius"] = {
-									["amount"] = 3586,
-								},
-								["Urgash"] = {
-									["amount"] = 5717,
-								},
-								["Zaralar"] = {
-									["amount"] = 3318,
-								},
-								["Wubobo"] = {
-									["amount"] = 9464,
-								},
-							},
-							["amount"] = 22085,
-						},
-						[58975] = {
-							["school"] = 8,
-							["total"] = 3740,
-							["targets"] = {
-								["Gometius"] = {
-									["total"] = 3355,
-									["amount"] = 1836,
-								},
-								["Urgash"] = {
-									["amount"] = 2082,
-								},
-								["Wubobo"] = {
-									["amount"] = 1952,
-								},
-							},
-							["amount"] = 5870,
-						},
-					},
-					["damagetaken"] = 234409,
-					["flag"] = 2632,
-					["class"] = "MONSTER",
-					["damagetakenspells"] = {
-						[42926] = {
-							["school"] = 4,
-							["sources"] = {
-								["Wubobo"] = {
-									["amount"] = 5072,
-								},
-							},
-							["amount"] = 5072,
-						},
-						[49921] = {
-							["school"] = 1,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 2752,
-								},
-							},
-							["amount"] = 2752,
-						},
-						[47468] = {
-							["school"] = 1,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 3504,
-								},
-							},
-							["amount"] = 3504,
-						},
-						[55095] = {
-							["school"] = 16,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 12519,
-								},
-							},
-							["amount"] = 12519,
-						},
-						[53022] = {
-							["school"] = 32,
-							["sources"] = {
-								["Zaralar"] = {
-									["amount"] = 14423,
-								},
-							},
-							["amount"] = 14423,
-						},
-						[63675] = {
-							["school"] = 32,
-							["sources"] = {
-								["Zaralar"] = {
-									["amount"] = 2546,
-								},
-							},
-							["amount"] = 2546,
-						},
-						[42950] = {
-							["school"] = 4,
-							["sources"] = {
-								["Wubobo"] = {
-									["amount"] = 6956,
-								},
-							},
-							["amount"] = 6956,
-						},
-						[48819] = {
-							["school"] = 2,
-							["sources"] = {
-								["Gometius"] = {
-									["amount"] = 8588,
-								},
-							},
-							["amount"] = 8588,
-						},
-						[50526] = {
-							["school"] = 32,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 15212,
-								},
-							},
-							["amount"] = 15212,
+							["amount"] = 4117,
 						},
 						[48827] = {
 							["school"] = 2,
 							["sources"] = {
-								["Gometius"] = {
-									["amount"] = 3747,
+								["Crazydqs"] = {
+									["amount"] = 3826,
 								},
 							},
-							["amount"] = 3747,
+							["amount"] = 3826,
+						},
+						[53385] = {
+							["school"] = 1,
+							["sources"] = {
+								["Yiyuan"] = {
+									["amount"] = 16726,
+								},
+							},
+							["amount"] = 16726,
+						},
+						[6603] = {
+							["school"] = 1,
+							["sources"] = {
+								["Crazydqs"] = {
+									["amount"] = 4509,
+								},
+								["Urgash"] = {
+									["amount"] = 34931,
+								},
+								["Yiyuan"] = {
+									["amount"] = 10959,
+								},
+								["Zyablik"] = {
+									["amount"] = 26416,
+								},
+							},
+							["amount"] = 76815,
 						},
 						[47632] = {
 							["school"] = 32,
 							["sources"] = {
 								["Urgash"] = {
-									["amount"] = 21114,
+									["amount"] = 8292,
 								},
 							},
-							["amount"] = 21114,
+							["amount"] = 8292,
 						},
 						[50536] = {
 							["school"] = 32,
 							["sources"] = {
 								["Urgash"] = {
-									["amount"] = 726,
+									["amount"] = 656,
 								},
 							},
-							["amount"] = 726,
+							["amount"] = 656,
 						},
-						[12654] = {
-							["school"] = 4,
-							["sources"] = {
-								["Wubobo"] = {
-									["amount"] = 3530,
-								},
-							},
-							["amount"] = 3530,
-						},
-						[55078] = {
-							["school"] = 32,
+						[47468] = {
+							["school"] = 1,
 							["sources"] = {
 								["Urgash"] = {
-									["amount"] = 10077,
+									["amount"] = 4516,
 								},
 							},
-							["amount"] = 10077,
+							["amount"] = 4516,
+						},
+						[55095] = {
+							["school"] = 16,
+							["sources"] = {
+								["Urgash"] = {
+									["amount"] = 4443,
+								},
+							},
+							["amount"] = 4443,
+						},
+						[53595] = {
+							["school"] = 2,
+							["sources"] = {
+								["Crazydqs"] = {
+									["amount"] = 8023,
+								},
+							},
+							["amount"] = 8023,
+						},
+						[54043] = {
+							["school"] = 2,
+							["sources"] = {
+								["Crazydqs"] = {
+									["amount"] = 688,
+								},
+								["Urgash"] = {
+									["amount"] = 351,
+								},
+							},
+							["amount"] = 1039,
+						},
+						[49921] = {
+							["school"] = 1,
+							["sources"] = {
+								["Urgash"] = {
+									["amount"] = 1787,
+								},
+							},
+							["amount"] = 1787,
 						},
 						[71904] = {
 							["school"] = 32,
 							["sources"] = {
 								["Urgash"] = {
-									["amount"] = 1454,
+									["amount"] = 975,
 								},
 							},
-							["amount"] = 1454,
+							["amount"] = 975,
 						},
-						[55271] = {
-							["school"] = 1,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 4198,
-								},
-							},
-							["amount"] = 4198,
-						},
-						[31803] = {
+						[69403] = {
 							["school"] = 2,
 							["sources"] = {
-								["Gometius"] = {
-									["amount"] = 2382,
+								["Crazydqs"] = {
+									["amount"] = 834,
+								},
+								["Yiyuan"] = {
+									["amount"] = 7255,
 								},
 							},
-							["amount"] = 2382,
+							["amount"] = 8089,
 						},
-						[31804] = {
+						[20467] = {
 							["school"] = 2,
 							["sources"] = {
-								["Gometius"] = {
-									["amount"] = 1212,
+								["Crazydqs"] = {
+									["amount"] = 1374,
+								},
+								["Yiyuan"] = {
+									["amount"] = 11543,
 								},
 							},
-							["amount"] = 1212,
-						},
-						[48300] = {
-							["school"] = 32,
-							["sources"] = {
-								["Zaralar"] = {
-									["amount"] = 10525,
-								},
-							},
-							["amount"] = 10525,
-						},
-						[55360] = {
-							["school"] = 4,
-							["sources"] = {
-								["Wubobo"] = {
-									["amount"] = 6413,
-								},
-							},
-							["amount"] = 6413,
-						},
-						[52212] = {
-							["school"] = 32,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 19253,
-								},
-							},
-							["amount"] = 19253,
-						},
-						[51460] = {
-							["school"] = 32,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 5359,
-								},
-							},
-							["amount"] = 5359,
-						},
-						[48125] = {
-							["school"] = 32,
-							["sources"] = {
-								["Zaralar"] = {
-									["amount"] = 6587,
-								},
-							},
-							["amount"] = 6587,
-						},
-						[50463] = {
-							["school"] = 1,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 2220,
-								},
-							},
-							["amount"] = 2220,
-						},
-						[49930] = {
-							["school"] = 1,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 4884,
-								},
-							},
-							["amount"] = 4884,
-						},
-						[48952] = {
-							["school"] = 2,
-							["sources"] = {
-								["Gometius"] = {
-									["amount"] = 779,
-								},
-							},
-							["amount"] = 779,
-						},
-						[42945] = {
-							["school"] = 4,
-							["sources"] = {
-								["Wubobo"] = {
-									["amount"] = 2033,
-								},
-							},
-							["amount"] = 2033,
-						},
-						[43044] = {
-							["school"] = 4,
-							["sources"] = {
-								["Wubobo"] = {
-									["amount"] = 430,
-								},
-							},
-							["amount"] = 430,
-						},
-						[55362] = {
-							["school"] = 4,
-							["sources"] = {
-								["Wubobo"] = {
-									["overkill"] = 1743,
-									["amount"] = 5180,
-								},
-							},
-							["overkill"] = 1743,
-							["amount"] = 5180,
+							["amount"] = 12917,
 						},
 						[67485] = {
 							["school"] = 2,
 							["sources"] = {
-								["Gometius"] = {
-									["amount"] = 2573,
+								["Crazydqs"] = {
+									["amount"] = 5314,
 								},
 							},
-							["amount"] = 2573,
-						},
-						[42463] = {
-							["school"] = 2,
-							["sources"] = {
-								["Gometius"] = {
-									["amount"] = 1139,
-								},
-							},
-							["amount"] = 1139,
-						},
-						[6603] = {
-							["school"] = 1,
-							["sources"] = {
-								["Gometius"] = {
-									["amount"] = 3636,
-								},
-								["Urgash"] = {
-									["overkill"] = 4588,
-									["amount"] = 32297,
-								},
-							},
-							["overkill"] = 4588,
-							["amount"] = 35933,
+							["amount"] = 5314,
 						},
 						[70890] = {
 							["school"] = 32,
 							["sources"] = {
 								["Urgash"] = {
-									["amount"] = 2220,
+									["amount"] = 4165,
 								},
 							},
-							["amount"] = 2220,
+							["amount"] = 4165,
+						},
+					},
+					["totaldamage"] = 14160,
+					["name"] = "Disturbed Glacial Revenant",
+					["totaldamagetaken"] = 253512,
+					["flag"] = 2632,
+					["damage"] = 12845,
+				}, -- [5]
+				{
+					["damagespells"] = {
+						[75331] = {
+							["school"] = 32,
+							["total"] = 2552,
+							["targets"] = {
+								["Najgora"] = {
+									["total"] = 2552,
+									["amount"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["damagetaken"] = 89200,
+					["flag"] = 68168,
+					["class"] = "MONSTER",
+					["damagetakenspells"] = {
+						[55078] = {
+							["school"] = 32,
+							["sources"] = {
+								["Urgash"] = {
+									["amount"] = 1296,
+								},
+							},
+							["amount"] = 1296,
+						},
+						[50526] = {
+							["school"] = 32,
+							["sources"] = {
+								["Urgash"] = {
+									["amount"] = 3398,
+								},
+							},
+							["amount"] = 3398,
+						},
+						[69403] = {
+							["school"] = 2,
+							["sources"] = {
+								["Crazydqs"] = {
+									["amount"] = 329,
+								},
+							},
+							["amount"] = 329,
+						},
+						[6603] = {
+							["school"] = 1,
+							["sources"] = {
+								["Crazydqs"] = {
+									["amount"] = 1094,
+								},
+								["Urgash"] = {
+									["amount"] = 12734,
+								},
+								["Zyablik"] = {
+									["amount"] = 5109,
+								},
+							},
+							["amount"] = 18937,
+						},
+						[55095] = {
+							["school"] = 16,
+							["sources"] = {
+								["Urgash"] = {
+									["amount"] = 1695,
+								},
+							},
+							["amount"] = 1695,
+						},
+						[62078] = {
+							["school"] = 1,
+							["sources"] = {
+								["Zyablik"] = {
+									["amount"] = 28958,
+								},
+							},
+							["amount"] = 28958,
+						},
+						[61411] = {
+							["school"] = 2,
+							["sources"] = {
+								["Crazydqs"] = {
+									["overkill"] = 2123,
+									["amount"] = 3100,
+								},
+							},
+							["overkill"] = 2123,
+							["amount"] = 3100,
+						},
+						[48819] = {
+							["school"] = 2,
+							["sources"] = {
+								["Yiyuan"] = {
+									["amount"] = 1518,
+								},
+							},
+							["amount"] = 1518,
 						},
 						[53595] = {
 							["school"] = 2,
 							["sources"] = {
-								["Gometius"] = {
-									["amount"] = 6772,
+								["Crazydqs"] = {
+									["amount"] = 2143,
 								},
 							},
-							["amount"] = 6772,
+							["amount"] = 2143,
 						},
-						[49909] = {
-							["school"] = 16,
+						[51460] = {
+							["school"] = 32,
 							["sources"] = {
 								["Urgash"] = {
 									["amount"] = 2097,
@@ -18142,162 +4222,214 @@ SkadaStorageDB = {
 							},
 							["amount"] = 2097,
 						},
+						[50463] = {
+							["school"] = 1,
+							["sources"] = {
+								["Urgash"] = {
+									["amount"] = 728,
+								},
+							},
+							["amount"] = 728,
+						},
+						[20424] = {
+							["school"] = 2,
+							["sources"] = {
+								["Yiyuan"] = {
+									["amount"] = 4537,
+								},
+								["Crazydqs"] = {
+									["amount"] = 867,
+								},
+							},
+							["amount"] = 5404,
+						},
+						[49930] = {
+							["school"] = 1,
+							["sources"] = {
+								["Urgash"] = {
+									["amount"] = 1459,
+								},
+							},
+							["amount"] = 1459,
+						},
+						[55271] = {
+							["school"] = 1,
+							["sources"] = {
+								["Urgash"] = {
+									["overkill"] = 6437,
+									["amount"] = 9516,
+								},
+							},
+							["overkill"] = 6437,
+							["amount"] = 9516,
+						},
+						[47632] = {
+							["school"] = 32,
+							["sources"] = {
+								["Urgash"] = {
+									["amount"] = 6925,
+								},
+							},
+							["amount"] = 6925,
+						},
+						[47468] = {
+							["school"] = 1,
+							["sources"] = {
+								["Urgash"] = {
+									["amount"] = 1697,
+								},
+							},
+							["amount"] = 1697,
+						},
 					},
-					["name"] = "Drakkari Golem",
-					["totaldamage"] = 44614,
-					["totaldamagetaken"] = 234409,
-					["id"] = "0xF1300074880000B5",
-					["damage"] = 43095,
-				}, -- [4]
+					["name"] = "Wrathbone Sorcerer",
+					["totaldamage"] = 2552,
+					["totaldamagetaken"] = 89200,
+					["id"] = "0xF1300093600001CA",
+					["damage"] = 0,
+				}, -- [6]
 			},
-			["overheal"] = 240050,
-			["totaldamage"] = 896111,
-			["time"] = 78,
-			["runic"] = 33,
-			["totaldamagetaken"] = 218579,
-			["etotaldamagetaken"] = 896111,
-			["last_time"] = 18138.612,
+			["totaldamage"] = 1515262,
+			["time"] = 86,
+			["etotaldamage"] = 154600,
+			["totaldamagetaken"] = 154600,
+			["etotaldamagetaken"] = 1515262,
+			["last_time"] = 18791.321,
 			["players"] = {
 				{
 					["ccdonespells"] = {
 						[49560] = {
 							["count"] = 1,
 							["targets"] = {
-								["Living Mojo"] = 1,
+								["Wrathbone Sorcerer"] = 1,
 							},
 						},
 					},
-					["last"] = 18132.433,
+					["last"] = 18781.749,
 					["flag"] = 1297,
 					["class"] = "DEATHKNIGHT",
 					["auras"] = {
+						[48469] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 86,
+						},
 						[75456] = {
 							["type"] = "BUFF",
 							["count"] = 2,
 							["school"] = 64,
 							["uptime"] = 30,
 						},
-						[48162] = {
+						[58578] = {
 							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 78,
+							["count"] = 2,
+							["school"] = 1,
+							["refresh"] = 7,
+							["uptime"] = 80,
 						},
 						[70657] = {
 							["type"] = "BUFF",
-							["count"] = 3,
+							["count"] = 2,
 							["school"] = 1,
-							["refresh"] = 9,
-							["uptime"] = 48,
+							["refresh"] = 8,
+							["uptime"] = 42,
 						},
-						[55078] = {
-							["type"] = "DEBUFF",
-							["count"] = 8,
-							["school"] = 32,
-							["targets"] = {
-								["Drakkari Colossus"] = {
-									["uptime"] = 10,
-									["count"] = 2,
-								},
-								["Living Mojo"] = {
-									["uptime"] = 9,
-									["count"] = 2,
-								},
-								["Drakkari Elemental"] = {
-									["uptime"] = 62,
-									["count"] = 2,
-								},
-								["Drakkari Golem"] = {
-									["uptime"] = 13,
-									["count"] = 2,
-								},
-							},
-							["uptime"] = 68,
+						[63944] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["refresh"] = 4,
+							["uptime"] = 86,
 						},
 						[73422] = {
 							["type"] = "BUFF",
-							["count"] = 3,
+							["count"] = 2,
 							["school"] = 1,
-							["uptime"] = 30,
+							["uptime"] = 20,
 						},
-						[71905] = {
+						[48942] = {
 							["type"] = "BUFF",
-							["count"] = 3,
-							["refresh"] = 15,
-							["school"] = 1,
-							["uptime"] = 30,
+							["count"] = 1,
+							["uptime"] = 86,
 						},
 						[57623] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 78,
+							["refresh"] = 6,
+							["uptime"] = 86,
 						},
 						[71227] = {
 							["type"] = "BUFF",
 							["count"] = 2,
 							["school"] = 8,
-							["refresh"] = 4,
-							["uptime"] = 68,
+							["refresh"] = 2,
+							["uptime"] = 40,
 						},
-						[48170] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 78,
+						[51735] = {
+							["type"] = "DEBUFF",
+							["count"] = 15,
+							["school"] = 32,
+							["refresh"] = 7,
+							["targets"] = {
+								["Wrathbone Sorcerer"] = {
+									["uptime"] = 4,
+									["count"] = 1,
+								},
+								["Wrathbone Skeleton"] = {
+									["count"] = 7,
+									["refresh"] = 2,
+									["uptime"] = 17,
+								},
+								["Disturbed Glacial Revenant"] = {
+									["count"] = 1,
+									["refresh"] = 1,
+									["uptime"] = 13,
+								},
+								["Fallen Warrior"] = {
+									["count"] = 6,
+									["refresh"] = 4,
+									["uptime"] = 19,
+								},
+							},
+							["uptime"] = 45,
 						},
 						[49938] = {
 							["type"] = "DEBUFF",
-							["count"] = 4,
+							["count"] = 9,
 							["school"] = 32,
 							["targets"] = {
-								["Living Mojo"] = {
+								["Wrathbone Skeleton"] = {
 									["uptime"] = 7,
-									["count"] = 2,
+									["count"] = 4,
 								},
-								["Drakkari Golem"] = {
-									["uptime"] = 7,
-									["count"] = 2,
+								["Fallen Warrior"] = {
+									["uptime"] = 14,
+									["count"] = 5,
 								},
 							},
-							["uptime"] = 7,
+							["uptime"] = 14,
 						},
-						[19746] = {
-							["type"] = "BUFF",
-							["count"] = 2,
-							["school"] = 2,
-							["uptime"] = 78,
-						},
-						[48266] = {
+						[48265] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 78,
+							["uptime"] = 18,
+						},
+						[48111] = {
+							["type"] = "BUFF",
+							["count"] = 4,
+							["school"] = 2,
+							["uptime"] = 22,
 						},
 						[49560] = {
 							["type"] = "DEBUFF",
 							["count"] = 1,
 							["school"] = 1,
 							["targets"] = {
-								["Living Mojo"] = {
-									["uptime"] = 3,
+								["Wrathbone Sorcerer"] = {
+									["uptime"] = 2,
 									["count"] = 1,
 								},
 							},
-							["uptime"] = 3,
-						},
-						[72412] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["uptime"] = 10,
-						},
-						[48707] = {
-							["type"] = "BUFF",
-							["count"] = 2,
-							["school"] = 32,
-							["uptime"] = 10,
-						},
-						[28878] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 78,
+							["uptime"] = 2,
 						},
 						[71559] = {
 							["type"] = "BUFF",
@@ -18305,4176 +4437,785 @@ SkadaStorageDB = {
 							["school"] = 1,
 							["uptime"] = 30,
 						},
-						[43002] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 78,
-						},
-						[50536] = {
-							["type"] = "DEBUFF",
-							["count"] = 4,
-							["school"] = 32,
-							["refresh"] = 1,
-							["targets"] = {
-								["Drakkari Colossus"] = {
-									["count"] = 2,
-									["refresh"] = 1,
-									["uptime"] = 12,
-								},
-								["Drakkari Golem"] = {
-									["uptime"] = 5,
-									["count"] = 2,
-								},
-							},
-							["uptime"] = 17,
-						},
-						[55095] = {
-							["type"] = "DEBUFF",
-							["count"] = 9,
-							["school"] = 16,
-							["targets"] = {
-								["Drakkari Colossus"] = {
-									["uptime"] = 14,
-									["count"] = 2,
-								},
-								["Living Mojo"] = {
-									["uptime"] = 15,
-									["count"] = 3,
-								},
-								["Drakkari Elemental"] = {
-									["uptime"] = 64,
-									["count"] = 2,
-								},
-								["Drakkari Golem"] = {
-									["uptime"] = 14,
-									["count"] = 2,
-								},
-							},
-							["uptime"] = 72,
-						},
-						[3714] = {
-							["type"] = "BUFF",
-							["count"] = 2,
-							["school"] = 1,
-							["uptime"] = 16,
-						},
-						[48942] = {
-							["type"] = "BUFF",
-							["count"] = 2,
-							["school"] = 2,
-							["uptime"] = 78,
-						},
-						[72221] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 78,
-						},
-						[51735] = {
-							["type"] = "DEBUFF",
-							["count"] = 9,
-							["school"] = 32,
-							["refresh"] = 5,
-							["targets"] = {
-								["Drakkari Colossus"] = {
-									["count"] = 2,
-									["refresh"] = 2,
-									["uptime"] = 14,
-								},
-								["Living Mojo"] = {
-									["uptime"] = 15,
-									["count"] = 3,
-								},
-								["Drakkari Elemental"] = {
-									["count"] = 2,
-									["refresh"] = 2,
-									["uptime"] = 64,
-								},
-								["Drakkari Golem"] = {
-									["count"] = 2,
-									["refresh"] = 1,
-									["uptime"] = 14,
-								},
-							},
-							["uptime"] = 72,
-						},
-						[48074] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 78,
-						},
-						[49222] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 41,
-						},
 						[53365] = {
 							["type"] = "BUFF",
 							["count"] = 2,
 							["school"] = 1,
-							["refresh"] = 4,
-							["uptime"] = 51,
+							["refresh"] = 1,
+							["uptime"] = 34,
+						},
+						[24932] = {
+							["type"] = "BUFF",
+							["count"] = 5,
+							["school"] = 1,
+							["uptime"] = 79,
+						},
+						[48266] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["uptime"] = 68,
+						},
+						[50536] = {
+							["type"] = "DEBUFF",
+							["count"] = 3,
+							["school"] = 32,
+							["targets"] = {
+								["Disturbed Glacial Revenant"] = {
+									["uptime"] = 8,
+									["count"] = 1,
+								},
+								["Wrathbone Sorcerer"] = {
+									["uptime"] = 1,
+									["count"] = 2,
+								},
+							},
+							["uptime"] = 9,
+						},
+						[48066] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 4,
+						},
+						[55095] = {
+							["type"] = "DEBUFF",
+							["count"] = 15,
+							["school"] = 16,
+							["targets"] = {
+								["Wrathbone Sorcerer"] = {
+									["uptime"] = 4,
+									["count"] = 1,
+								},
+								["Wrathbone Skeleton"] = {
+									["uptime"] = 17,
+									["count"] = 7,
+								},
+								["Disturbed Glacial Revenant"] = {
+									["uptime"] = 13,
+									["count"] = 1,
+								},
+								["Fallen Warrior"] = {
+									["uptime"] = 19,
+									["count"] = 6,
+								},
+							},
+							["uptime"] = 45,
+						},
+						[55078] = {
+							["type"] = "DEBUFF",
+							["count"] = 15,
+							["school"] = 32,
+							["targets"] = {
+								["Wrathbone Sorcerer"] = {
+									["uptime"] = 4,
+									["count"] = 1,
+								},
+								["Wrathbone Skeleton"] = {
+									["uptime"] = 13,
+									["count"] = 7,
+								},
+								["Disturbed Glacial Revenant"] = {
+									["uptime"] = 12,
+									["count"] = 1,
+								},
+								["Fallen Warrior"] = {
+									["uptime"] = 15,
+									["count"] = 6,
+								},
+							},
+							["uptime"] = 36,
+						},
+						[54043] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 86,
+						},
+						[71905] = {
+							["type"] = "BUFF",
+							["count"] = 3,
+							["school"] = 1,
+							["refresh"] = 17,
+							["uptime"] = 50,
+						},
+						[72221] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 86,
+						},
+						[49222] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 8,
+							["uptime"] = 63,
+						},
+						[72412] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["uptime"] = 10,
 						},
 						[66803] = {
 							["type"] = "BUFF",
 							["count"] = 2,
 							["school"] = 32,
-							["refresh"] = 4,
-							["uptime"] = 64,
+							["refresh"] = 1,
+							["uptime"] = 48,
 						},
-						[58578] = {
+						[48934] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 1,
-							["refresh"] = 7,
-							["uptime"] = 76,
+							["uptime"] = 86,
 						},
 					},
-					["absorbspells"] = {
-						[48707] = {
-							["min"] = 585,
-							["casts"] = 2,
-							["count"] = 3,
-							["amount"] = 2373,
-							["school"] = 32,
-							["targets"] = {
-								["Urgash"] = 2373,
-							},
-							["max"] = 1057,
-						},
-					},
-					["time"] = 71.12000000000001,
-					["totaldamagetaken"] = 86954,
-					["runicspells"] = {
-						[49088] = 33,
-					},
-					["damage"] = 514411,
+					["role"] = "DAMAGER",
+					["time"] = 63.38999999999997,
+					["totaldamagetaken"] = 13941,
+					["damage"] = 405318,
 					["damagespells"] = {
 						["Scourge Strike"] = {
-							["hitmin"] = 4182,
-							["criticalamount"] = 37823,
+							["criticalmin"] = 9516,
+							["hitmin"] = 3206,
+							["criticalamount"] = 19703,
 							["id"] = 55271,
-							["hitmax"] = 4198,
+							["criticalmax"] = 10187,
 							["targets"] = {
-								["Drakkari Colossus"] = {
-									["amount"] = 13829,
+								["Disturbed Glacial Revenant"] = {
+									["overkill"] = 1512,
+									["amount"] = 18310,
 								},
-								["Living Mojo"] = {
-									["amount"] = 8303,
-								},
-								["Drakkari Elemental"] = {
-									["amount"] = 19873,
-								},
-								["Drakkari Golem"] = {
-									["amount"] = 4198,
+								["Wrathbone Sorcerer"] = {
+									["overkill"] = 6437,
+									["amount"] = 9516,
 								},
 							},
-							["count"] = 6,
-							["hit"] = 2,
-							["casts"] = 6,
-							["critical"] = 4,
-							["amount"] = 46203,
-							["school"] = 1,
-							["criticalmin"] = 8303,
-							["criticalmax"] = 10217,
-							["hitamount"] = 8380,
-						},
-						["Chaos Bane"] = {
-							["hitmin"] = 697,
-							["id"] = 71904,
-							["targets"] = {
-								["Drakkari Colossus"] = {
-									["amount"] = 6272,
-								},
-								["Living Mojo"] = {
-									["amount"] = 1540,
-								},
-								["Drakkari Golem"] = {
-									["amount"] = 1454,
-								},
-							},
-							["hitmax"] = 3250,
-							["casts"] = 1,
-							["count"] = 6,
-							["hit"] = 6,
-							["school"] = 32,
-							["resisted"] = 335,
-							["amount"] = 9266,
-							["hitamount"] = 9266,
-						},
-						["Blood Strike"] = {
-							["DODGE"] = 1,
-							["hitmin"] = 1553,
-							["criticalamount"] = 14483,
-							["id"] = 49930,
-							["criticalmin"] = 4089,
-							["targets"] = {
-								["Drakkari Colossus"] = {
-									["amount"] = 6046,
-								},
-								["Living Mojo"] = {
-									["amount"] = 4089,
-								},
-								["Drakkari Elemental"] = {
-									["amount"] = 5510,
-								},
-								["Drakkari Golem"] = {
-									["amount"] = 4884,
-								},
-							},
-							["criticalmax"] = 5510,
-							["critical"] = 3,
-							["casts"] = 7,
-							["count"] = 7,
-							["hit"] = 3,
-							["school"] = 1,
-							["hitmax"] = 2329,
-							["amount"] = 20529,
-							["hitamount"] = 6046,
-						},
-						["Unholy Blight (DoT)"] = {
-							["hitmin"] = 37,
-							["id"] = 50536,
-							["targets"] = {
-								["Drakkari Colossus"] = {
-									["amount"] = 614,
-								},
-								["Drakkari Golem"] = {
-									["amount"] = 726,
-								},
-							},
-							["hitmax"] = 137,
-							["count"] = 19,
-							["hit"] = 19,
-							["school"] = 32,
-							["resisted"] = 40,
-							["amount"] = 1340,
-							["hitamount"] = 1340,
-						},
-						["Wandering Plague"] = {
-							["hitmin"] = 982,
-							["id"] = 50526,
-							["targets"] = {
-								["Drakkari Colossus"] = {
-									["amount"] = 4888,
-								},
-								["Living Mojo"] = {
-									["amount"] = 16590,
-								},
-								["Drakkari Elemental"] = {
-									["amount"] = 5894,
-								},
-								["Drakkari Golem"] = {
-									["amount"] = 15212,
-								},
-							},
-							["hitmax"] = 1939,
-							["casts"] = 1,
-							["count"] = 27,
-							["hit"] = 27,
-							["school"] = 32,
-							["resisted"] = 1343,
-							["amount"] = 42584,
-							["hitamount"] = 42584,
-						},
-						["Melee (Wormcatcher)"] = {
-							["glance"] = 4580,
-							["hitmin"] = 505,
-							["criticalmin"] = 1082,
-							["targets"] = {
-								["Drakkari Colossus"] = {
-									["amount"] = 5039,
-								},
-								["Living Mojo"] = {
-									["amount"] = 2684,
-								},
-								["Drakkari Elemental"] = {
-									["amount"] = 4765,
-								},
-								["Drakkari Golem"] = {
-									["amount"] = 5115,
-								},
-							},
-							["glancing"] = 10,
-							["amount"] = 17603,
-							["glancemin"] = 393,
-							["criticalamount"] = 5702,
-							["id"] = 6603,
-							["glancemax"] = 520,
-							["criticalmax"] = 1198,
-							["count"] = 28,
-							["hit"] = 13,
-							["school"] = 1,
-							["hitmax"] = 606,
-							["critical"] = 5,
-							["hitamount"] = 7321,
-						},
-						["Melee"] = {
-							["glance"] = 6171,
-							["hitmin"] = 2725,
-							["criticalmin"] = 6388,
-							["targets"] = {
-								["Drakkari Colossus"] = {
-									["overkill"] = 4862,
-									["amount"] = 43382,
-								},
-								["Living Mojo"] = {
-									["amount"] = 16469,
-								},
-								["Drakkari Elemental"] = {
-									["amount"] = 34700,
-								},
-								["Drakkari Golem"] = {
-									["overkill"] = 4588,
-									["amount"] = 27182,
-								},
-							},
-							["glancing"] = 2,
-							["amount"] = 121733,
-							["glancemin"] = 2426,
-							["criticalamount"] = 82325,
-							["id"] = 6603,
-							["glancemax"] = 3745,
-							["overkill"] = 9450,
-							["blocked"] = 40,
-							["criticalmax"] = 8413,
-							["hitmax"] = 4122,
-							["hit"] = 9,
-							["school"] = 1,
-							["critical"] = 11,
-							["count"] = 22,
-							["hitamount"] = 33237,
-						},
-						["Icy Touch"] = {
-							["criticalmin"] = 4142,
-							["hitmin"] = 1510,
-							["criticalamount"] = 8683,
-							["id"] = 49909,
-							["criticalmax"] = 4541,
-							["targets"] = {
-								["Drakkari Colossus"] = {
-									["amount"] = 3222,
-								},
-								["Living Mojo"] = {
-									["amount"] = 1691,
-								},
-								["Drakkari Elemental"] = {
-									["amount"] = 8683,
-								},
-								["Drakkari Golem"] = {
-									["amount"] = 2097,
-								},
-							},
+							["overkill"] = 7949,
 							["critical"] = 2,
-							["hitmax"] = 2097,
-							["casts"] = 6,
-							["count"] = 6,
-							["hit"] = 4,
-							["school"] = 16,
-							["resisted"] = 1332,
-							["amount"] = 15693,
-							["hitamount"] = 7010,
-						},
-						["Scourge Strike (Shadow)"] = {
-							["hitmin"] = 2220,
-							["id"] = 70890,
-							["targets"] = {
-								["Drakkari Colossus"] = {
-									["amount"] = 6389,
-								},
-								["Living Mojo"] = {
-									["amount"] = 2814,
-								},
-								["Drakkari Elemental"] = {
-									["amount"] = 10671,
-								},
-								["Drakkari Golem"] = {
-									["amount"] = 2220,
-								},
-							},
-							["hitmax"] = 5486,
-							["casts"] = 1,
-							["count"] = 6,
-							["hit"] = 6,
-							["school"] = 32,
-							["resisted"] = 1036,
-							["amount"] = 22094,
-							["hitamount"] = 22094,
-						},
-						["Claw (Wormcatcher)"] = {
-							["hitmin"] = 754,
-							["criticalamount"] = 6614,
-							["id"] = 47468,
-							["hitmax"] = 901,
-							["targets"] = {
-								["Drakkari Colossus"] = {
-									["amount"] = 5708,
-								},
-								["Living Mojo"] = {
-									["amount"] = 2422,
-								},
-								["Drakkari Elemental"] = {
-									["amount"] = 6700,
-								},
-								["Drakkari Golem"] = {
-									["amount"] = 3504,
-								},
-							},
-							["count"] = 18,
-							["hit"] = 14,
-							["casts"] = 1,
-							["critical"] = 4,
-							["amount"] = 18334,
+							["casts"] = 4,
+							["count"] = 4,
+							["hit"] = 2,
 							["school"] = 1,
-							["criticalmin"] = 1502,
-							["criticalmax"] = 1750,
-							["hitamount"] = 11720,
-						},
-						["Necrosis"] = {
-							["hitmin"] = 485,
-							["id"] = 51460,
-							["targets"] = {
-								["Drakkari Colossus"] = {
-									["amount"] = 6044,
-								},
-								["Living Mojo"] = {
-									["amount"] = 3292,
-								},
-								["Drakkari Elemental"] = {
-									["amount"] = 6119,
-								},
-								["Drakkari Golem"] = {
-									["amount"] = 5359,
-								},
-							},
-							["hitmax"] = 1530,
-							["casts"] = 1,
-							["count"] = 20,
-							["hit"] = 20,
-							["school"] = 32,
-							["resisted"] = 1113,
-							["amount"] = 20814,
-							["hitamount"] = 20814,
-						},
-						["Blood Plague (DoT)"] = {
-							["hitmin"] = 1035,
-							["id"] = 55078,
-							["targets"] = {
-								["Drakkari Colossus"] = {
-									["amount"] = 3756,
-								},
-								["Living Mojo"] = {
-									["amount"] = 6407,
-								},
-								["Drakkari Elemental"] = {
-									["amount"] = 4617,
-								},
-								["Drakkari Golem"] = {
-									["amount"] = 10077,
-								},
-							},
-							["hitmax"] = 1713,
-							["count"] = 16,
-							["hit"] = 16,
-							["school"] = 32,
-							["resisted"] = 622,
-							["amount"] = 24857,
-							["hitamount"] = 24857,
+							["hitmax"] = 4917,
+							["amount"] = 27826,
+							["hitamount"] = 8123,
 						},
 						["Death and Decay"] = {
-							["critical"] = 5,
-							["criticalmin"] = 2200,
-							["hitmin"] = 936,
-							["criticalamount"] = 11734,
+							["hitmin"] = 584,
+							["criticalamount"] = 20958,
 							["id"] = 52212,
-							["criticalmax"] = 2445,
+							["hitmax"] = 886,
 							["targets"] = {
-								["Drakkari Golem"] = {
-									["amount"] = 19253,
+								["Wrathbone Skeleton"] = {
+									["amount"] = 14210,
 								},
-								["Living Mojo"] = {
-									["overkill"] = 1012,
-									["amount"] = 20787,
+								["Fallen Warrior"] = {
+									["amount"] = 26312,
 								},
 							},
-							["overkill"] = 1012,
-							["hitmax"] = 1170,
-							["casts"] = 1,
-							["count"] = 30,
-							["hit"] = 25,
+							["count"] = 42,
+							["hit"] = 28,
+							["casts"] = 2,
+							["critical"] = 14,
+							["amount"] = 40522,
 							["school"] = 32,
-							["resisted"] = 1420,
-							["amount"] = 40040,
-							["hitamount"] = 28306,
+							["criticalmin"] = 1222,
+							["criticalmax"] = 1815,
+							["hitamount"] = 19564,
+						},
+						["Death Coil"] = {
+							["criticalmax"] = 10619,
+							["hitmin"] = 2914,
+							["criticalamount"] = 25232,
+							["id"] = 47632,
+							["criticalmin"] = 6321,
+							["targets"] = {
+								["Wrathbone Sorcerer"] = {
+									["amount"] = 6925,
+								},
+								["Disturbed Glacial Revenant"] = {
+									["amount"] = 8292,
+								},
+								["Fallen Warrior"] = {
+									["overkill"] = 333,
+									["amount"] = 20505,
+								},
+							},
+							["overkill"] = 333,
+							["critical"] = 3,
+							["casts"] = 6,
+							["count"] = 6,
+							["hit"] = 3,
+							["school"] = 32,
+							["hitmax"] = 4011,
+							["amount"] = 35722,
+							["hitamount"] = 10490,
+						},
+						["Unholy Blight (DoT)"] = {
+							["hitmin"] = 82,
+							["id"] = 50536,
+							["targets"] = {
+								["Disturbed Glacial Revenant"] = {
+									["amount"] = 656,
+								},
+							},
+							["count"] = 8,
+							["hit"] = 8,
+							["school"] = 32,
+							["hitmax"] = 82,
+							["amount"] = 656,
+							["hitamount"] = 656,
+						},
+						["Wandering Plague"] = {
+							["hitmin"] = 841,
+							["id"] = 50526,
+							["targets"] = {
+								["Disturbed Glacial Revenant"] = {
+									["amount"] = 4957,
+								},
+								["Fallen Warrior"] = {
+									["amount"] = 19059,
+								},
+								["Wrathbone Sorcerer"] = {
+									["amount"] = 3398,
+								},
+								["Spider"] = {
+									["overkill"] = 1394,
+									["amount"] = 1403,
+								},
+								["Wrathbone Skeleton"] = {
+									["amount"] = 21368,
+								},
+							},
+							["overkill"] = 1394,
+							["casts"] = 1,
+							["count"] = 43,
+							["hit"] = 43,
+							["school"] = 32,
+							["hitmax"] = 1749,
+							["amount"] = 50185,
+							["hitamount"] = 50185,
+						},
+						["Claw (Skullslicer)"] = {
+							["blocked"] = 40,
+							["hitmin"] = 674,
+							["criticalamount"] = 3026,
+							["id"] = 47468,
+							["criticalmin"] = 1386,
+							["targets"] = {
+								["Wrathbone Sorcerer"] = {
+									["amount"] = 1697,
+								},
+								["Wrathbone Skeleton"] = {
+									["amount"] = 3280,
+								},
+								["Disturbed Glacial Revenant"] = {
+									["amount"] = 4516,
+								},
+								["Fallen Warrior"] = {
+									["amount"] = 5630,
+								},
+							},
+							["criticalmax"] = 1640,
+							["critical"] = 2,
+							["casts"] = 1,
+							["count"] = 17,
+							["hit"] = 15,
+							["school"] = 1,
+							["hitmax"] = 975,
+							["amount"] = 15123,
+							["hitamount"] = 12097,
+						},
+						["Melee (Skullslicer)"] = {
+							["glance"] = 2051,
+							["hitmin"] = 464,
+							["criticalmin"] = 924,
+							["targets"] = {
+								["Wrathbone Sorcerer"] = {
+									["amount"] = 2247,
+								},
+								["Wrathbone Skeleton"] = {
+									["overkill"] = 355,
+									["amount"] = 3210,
+								},
+								["Disturbed Glacial Revenant"] = {
+									["amount"] = 6177,
+								},
+								["Fallen Warrior"] = {
+									["amount"] = 6611,
+								},
+							},
+							["glancing"] = 4,
+							["amount"] = 18245,
+							["glancemin"] = 468,
+							["criticalamount"] = 7550,
+							["id"] = 6603,
+							["glancemax"] = 564,
+							["overkill"] = 355,
+							["criticalmax"] = 1224,
+							["hitmax"] = 663,
+							["hit"] = 16,
+							["school"] = 1,
+							["critical"] = 7,
+							["count"] = 27,
+							["hitamount"] = 8644,
+						},
+						["Melee"] = {
+							["glance"] = 9046,
+							["hitmin"] = 2382,
+							["criticalmin"] = 5189,
+							["targets"] = {
+								["Wrathbone Sorcerer"] = {
+									["amount"] = 10487,
+								},
+								["Wrathbone Skeleton"] = {
+									["overkill"] = 193,
+									["amount"] = 23527,
+								},
+								["Disturbed Glacial Revenant"] = {
+									["amount"] = 28754,
+								},
+								["Fallen Warrior"] = {
+									["amount"] = 24671,
+								},
+							},
+							["glancing"] = 3,
+							["amount"] = 87439,
+							["glancemin"] = 2428,
+							["criticalamount"] = 54426,
+							["id"] = 6603,
+							["glancemax"] = 3412,
+							["overkill"] = 193,
+							["count"] = 18,
+							["criticalmax"] = 8254,
+							["critical"] = 8,
+							["hit"] = 7,
+							["school"] = 1,
+							["blocked"] = 40,
+							["hitmax"] = 4541,
+							["hitamount"] = 23967,
 						},
 						["Blood-Caked Strike"] = {
-							["hitmin"] = 2043,
+							["hitmin"] = 665,
 							["id"] = 50463,
 							["targets"] = {
-								["Drakkari Elemental"] = {
-									["amount"] = 6723,
+								["Wrathbone Sorcerer"] = {
+									["amount"] = 728,
 								},
-								["Drakkari Golem"] = {
-									["amount"] = 2220,
+								["Wrathbone Skeleton"] = {
+									["amount"] = 6063,
+								},
+								["Disturbed Glacial Revenant"] = {
+									["amount"] = 4487,
+								},
+								["Fallen Warrior"] = {
+									["amount"] = 2614,
+								},
+							},
+							["blocked"] = 80,
+							["casts"] = 1,
+							["count"] = 8,
+							["hit"] = 8,
+							["school"] = 1,
+							["hitmax"] = 2808,
+							["amount"] = 13892,
+							["hitamount"] = 13892,
+						},
+						["Retribution Aura"] = {
+							["hitmin"] = 311,
+							["id"] = 54043,
+							["targets"] = {
+								["Wrathbone Skeleton"] = {
+									["amount"] = 639,
+								},
+								["Disturbed Glacial Revenant"] = {
+									["amount"] = 351,
+								},
+								["Fallen Warrior"] = {
+									["amount"] = 332,
 								},
 							},
 							["casts"] = 1,
 							["count"] = 4,
 							["hit"] = 4,
-							["school"] = 1,
-							["hitmax"] = 2500,
-							["amount"] = 8943,
-							["hitamount"] = 8943,
+							["school"] = 2,
+							["hitmax"] = 351,
+							["amount"] = 1322,
+							["hitamount"] = 1322,
 						},
-						["Plague Strike"] = {
-							["DODGE"] = 1,
-							["hitmin"] = 2451,
-							["criticalamount"] = 11712,
-							["id"] = 49921,
-							["hitmax"] = 2752,
+						["Chaos Bane"] = {
+							["hitmin"] = 440,
+							["id"] = 71904,
 							["targets"] = {
-								["Drakkari Colossus"] = {
-									["amount"] = 7672,
+								["Fallen Warrior"] = {
+									["amount"] = 1766,
 								},
-								["Living Mojo"] = {
-									["amount"] = 0,
+								["Disturbed Glacial Revenant"] = {
+									["amount"] = 975,
 								},
-								["Drakkari Elemental"] = {
-									["amount"] = 8999,
-								},
-								["Drakkari Golem"] = {
-									["amount"] = 2752,
+								["Wrathbone Skeleton"] = {
+									["amount"] = 2712,
 								},
 							},
-							["count"] = 6,
-							["hit"] = 3,
-							["casts"] = 6,
+							["casts"] = 1,
+							["count"] = 9,
+							["hit"] = 9,
+							["school"] = 32,
+							["hitmax"] = 975,
+							["amount"] = 5453,
+							["hitamount"] = 5453,
+						},
+						["Necrosis"] = {
+							["hitmin"] = 476,
+							["id"] = 51460,
+							["targets"] = {
+								["Wrathbone Sorcerer"] = {
+									["amount"] = 2097,
+								},
+								["Wrathbone Skeleton"] = {
+									["amount"] = 4704,
+								},
+								["Disturbed Glacial Revenant"] = {
+									["amount"] = 5748,
+								},
+								["Fallen Warrior"] = {
+									["amount"] = 4932,
+								},
+							},
+							["casts"] = 1,
+							["count"] = 18,
+							["hit"] = 18,
+							["school"] = 32,
+							["hitmax"] = 1650,
+							["amount"] = 17481,
+							["hitamount"] = 17481,
+						},
+						["Blood Plague (DoT)"] = {
+							["hitmin"] = 998,
+							["id"] = 55078,
+							["targets"] = {
+								["Fallen Warrior"] = {
+									["amount"] = 3888,
+								},
+								["Wrathbone Sorcerer"] = {
+									["amount"] = 1296,
+								},
+								["Disturbed Glacial Revenant"] = {
+									["amount"] = 3992,
+								},
+								["Wrathbone Skeleton"] = {
+									["overkill"] = 960,
+									["amount"] = 7943,
+								},
+							},
+							["overkill"] = 960,
+							["count"] = 14,
+							["hit"] = 14,
+							["school"] = 32,
+							["hitmax"] = 1519,
+							["amount"] = 17119,
+							["hitamount"] = 17119,
+						},
+						["Icy Touch"] = {
+							["hitmin"] = 1420,
+							["criticalamount"] = 8401,
+							["id"] = 49909,
+							["criticalmin"] = 3907,
+							["targets"] = {
+								["Wrathbone Skeleton"] = {
+									["amount"] = 8401,
+								},
+								["Disturbed Glacial Revenant"] = {
+									["amount"] = 1420,
+								},
+								["Fallen Warrior"] = {
+									["amount"] = 3763,
+								},
+							},
+							["criticalmax"] = 4494,
 							["critical"] = 2,
-							["amount"] = 19423,
-							["school"] = 1,
-							["criticalmin"] = 5164,
-							["criticalmax"] = 6548,
-							["hitamount"] = 7711,
-						},
-						["Frost Fever (DoT)"] = {
-							["hitmin"] = 1340,
-							["id"] = 55095,
-							["targets"] = {
-								["Drakkari Colossus"] = {
-									["amount"] = 6095,
-								},
-								["Living Mojo"] = {
-									["amount"] = 11582,
-								},
-								["Drakkari Elemental"] = {
-									["amount"] = 7115,
-								},
-								["Drakkari Golem"] = {
-									["amount"] = 12519,
-								},
-							},
-							["hitmax"] = 2218,
-							["count"] = 20,
-							["hit"] = 20,
+							["casts"] = 5,
+							["count"] = 5,
+							["hit"] = 3,
 							["school"] = 16,
-							["resisted"] = 204,
-							["amount"] = 37311,
-							["hitamount"] = 37311,
+							["hitmax"] = 2209,
+							["amount"] = 13584,
+							["hitamount"] = 5183,
 						},
-						["Death Coil"] = {
-							["critical"] = 4,
-							["criticalmin"] = 8138,
-							["hitmin"] = 4601,
-							["criticalamount"] = 38256,
-							["id"] = 47632,
-							["criticalmax"] = 10806,
+						["Scourge Strike (Shadow)"] = {
+							["hitmin"] = 1525,
+							["id"] = 70890,
 							["targets"] = {
-								["Drakkari Colossus"] = {
-									["amount"] = 18392,
-								},
-								["Drakkari Elemental"] = {
-									["overkill"] = 2818,
-									["amount"] = 8138,
-								},
-								["Drakkari Golem"] = {
-									["amount"] = 21114,
+								["Disturbed Glacial Revenant"] = {
+									["amount"] = 4165,
 								},
 							},
-							["overkill"] = 2818,
-							["hitmax"] = 4787,
-							["casts"] = 6,
-							["count"] = 6,
+							["casts"] = 1,
+							["count"] = 2,
 							["hit"] = 2,
 							["school"] = 32,
-							["resisted"] = 1511,
-							["amount"] = 47644,
-							["hitamount"] = 9388,
+							["hitmax"] = 2640,
+							["amount"] = 4165,
+							["hitamount"] = 4165,
+						},
+						["Plague Strike"] = {
+							["hitmin"] = 1787,
+							["criticalamount"] = 21835,
+							["id"] = 49921,
+							["hitmax"] = 1787,
+							["targets"] = {
+								["Wrathbone Skeleton"] = {
+									["amount"] = 11246,
+								},
+								["Disturbed Glacial Revenant"] = {
+									["amount"] = 1787,
+								},
+								["Fallen Warrior"] = {
+									["amount"] = 10589,
+								},
+							},
+							["count"] = 5,
+							["hit"] = 1,
+							["casts"] = 5,
+							["critical"] = 4,
+							["amount"] = 23622,
+							["school"] = 1,
+							["criticalmin"] = 4686,
+							["criticalmax"] = 6151,
+							["hitamount"] = 1787,
+						},
+						["Frost Fever (DoT)"] = {
+							["hitmin"] = 1110,
+							["id"] = 55095,
+							["targets"] = {
+								["Wrathbone Sorcerer"] = {
+									["amount"] = 1695,
+								},
+								["Wrathbone Skeleton"] = {
+									["amount"] = 6674,
+								},
+								["Disturbed Glacial Revenant"] = {
+									["amount"] = 4443,
+								},
+								["Fallen Warrior"] = {
+									["amount"] = 8188,
+								},
+							},
+							["count"] = 14,
+							["hit"] = 14,
+							["school"] = 16,
+							["hitmax"] = 1842,
+							["amount"] = 21000,
+							["hitamount"] = 21000,
+						},
+						["Blood Strike"] = {
+							["hitmin"] = 1459,
+							["criticalamount"] = 10503,
+							["id"] = 49930,
+							["hitmax"] = 1459,
+							["targets"] = {
+								["Disturbed Glacial Revenant"] = {
+									["amount"] = 10503,
+								},
+								["Wrathbone Sorcerer"] = {
+									["amount"] = 1459,
+								},
+							},
+							["count"] = 3,
+							["hit"] = 1,
+							["casts"] = 3,
+							["critical"] = 2,
+							["amount"] = 11962,
+							["school"] = 1,
+							["criticalmin"] = 3876,
+							["criticalmax"] = 6627,
+							["hitamount"] = 1459,
 						},
 					},
-					["absorb"] = 2373,
-					["damagetaken"] = 84581,
+					["damagetaken"] = 8599,
 					["id"] = "0x070000000000D01B",
 					["spec"] = 252,
 					["healspells"] = {
-						[50475] = {
-							["overheal"] = 3808,
-							["max"] = 481,
-							["count"] = 70,
-							["amount"] = 7913,
-							["school"] = 1,
-							["min"] = 1,
-							["ishot"] = true,
-							["targets"] = {
-								["Urgash"] = {
-									["overheal"] = 3808,
-									["amount"] = 7913,
-								},
-							},
-						},
 						[53365] = {
-							["overheal"] = 1956,
-							["criticalamount"] = 3624,
-							["max"] = 1812,
-							["targets"] = {
-								["Urgash"] = {
-									["overheal"] = 1956,
-									["amount"] = 6500,
-								},
-							},
-							["min"] = 460,
-							["criticalmax"] = 1812,
-							["count"] = 6,
-							["amount"] = 6500,
-							["school"] = 1,
-							["criticalmin"] = 1812,
-							["critical"] = 2,
-						},
-					},
-					["damagetakenspells"] = {
-						["Shockwave"] = {
-							["hitmin"] = 2829,
-							["id"] = 58977,
-							["sources"] = {
-								["Drakkari Golem"] = {
-									["amount"] = 5717,
-								},
-							},
-							["count"] = 2,
-							["hit"] = 2,
-							["school"] = 1,
-							["hitmax"] = 2888,
-							["amount"] = 5717,
-							["hitamount"] = 5717,
-						},
-						["Drenched in Mojo (DoT)"] = {
-							["total"] = 16380,
-							["hitmin"] = 195,
-							["id"] = 54819,
-							["sources"] = {
-								["Drakkari Elemental"] = {
-									["total"] = 16380,
-									["amount"] = 15064,
-								},
-							},
-							["count"] = 18,
-							["hit"] = 18,
-							["school"] = 8,
-							["hitmax"] = 975,
-							["amount"] = 15064,
-							["hitamount"] = 15064,
-						},
-						["Mojo Wave (DoT)"] = {
-							["total"] = 8574,
-							["hitmin"] = 353,
-							["id"] = 58993,
-							["sources"] = {
-								["Living Mojo"] = {
-									["total"] = 8574,
-									["amount"] = 7517,
-								},
-							},
-							["count"] = 6,
-							["hit"] = 6,
-							["school"] = 8,
-							["hitmax"] = 1448,
-							["amount"] = 7517,
-							["hitamount"] = 7517,
-						},
-						["Mojo Wave"] = {
-							["hitmin"] = 1904,
-							["id"] = 58993,
-							["sources"] = {
-								["Living Mojo"] = {
-									["amount"] = 3838,
-								},
-							},
-							["count"] = 2,
-							["hit"] = 2,
-							["school"] = 8,
-							["hitmax"] = 1934,
-							["amount"] = 3838,
-							["hitamount"] = 3838,
-						},
-						["Drenched in Mojo"] = {
-							["hitmin"] = 1715,
-							["id"] = 54819,
-							["sources"] = {
-								["Drakkari Elemental"] = {
-									["amount"] = 3431,
-								},
-							},
-							["count"] = 2,
-							["hit"] = 2,
-							["school"] = 8,
-							["hitmax"] = 1716,
-							["amount"] = 3431,
-							["hitamount"] = 3431,
-						},
-						["Thunderclap"] = {
-							["hitmin"] = 2082,
-							["id"] = 58975,
-							["amount"] = 2082,
-							["sources"] = {
-								["Drakkari Golem"] = {
-									["amount"] = 2082,
-								},
-							},
-							["count"] = 2,
-							["hit"] = 1,
-							["school"] = 8,
-							["hitmax"] = 2082,
-							["MISS"] = 1,
-							["hitamount"] = 2082,
-						},
-						["Mojo Puddle (DoT)"] = {
-							["hitmin"] = 659,
-							["hitmax"] = 885,
-							["count"] = 18,
-							["amount"] = 13319,
-							["school"] = 8,
-							["id"] = 59451,
-							["hit"] = 18,
-							["hitamount"] = 13319,
-						},
-						["Mojo Puddle"] = {
-							["hitmin"] = 1625,
-							["id"] = 58994,
-							["sources"] = {
-								["Living Mojo"] = {
-									["amount"] = 10054,
-								},
-							},
-							["count"] = 6,
-							["hit"] = 6,
-							["school"] = 8,
-							["hitmax"] = 1701,
-							["amount"] = 10054,
-							["hitamount"] = 10054,
-						},
-						["Melee"] = {
-							["hitmin"] = 1962,
-							["criticalamount"] = 10752,
-							["id"] = 6603,
-							["criticalmin"] = 5082,
-							["criticalmax"] = 5670,
-							["critical"] = 2,
-							["PARRY"] = 2,
-							["sources"] = {
-								["Living Mojo"] = {
-									["amount"] = 7371,
-								},
-								["Drakkari Elemental"] = {
-									["amount"] = 4208,
-								},
-								["Drakkari Golem"] = {
-									["amount"] = 8014,
-								},
-							},
-							["count"] = 8,
-							["hit"] = 4,
-							["school"] = 1,
-							["hitmax"] = 2344,
-							["amount"] = 19593,
-							["hitamount"] = 8841,
-						},
-						["Mojo Volley"] = {
-							["hitmin"] = 1230,
-							["id"] = 59452,
-							["sources"] = {
-								["Drakkari Elemental"] = {
-									["amount"] = 3966,
-								},
-							},
-							["count"] = 3,
-							["hit"] = 3,
-							["school"] = 8,
-							["hitmax"] = 1390,
-							["amount"] = 3966,
-							["hitamount"] = 3966,
-						},
-					},
-					["overkill"] = 13280,
-					["heal"] = 14413,
-					["name"] = "Urgash",
-					["ccdone"] = 1,
-					["runic"] = 33,
-					["overheal"] = 5764,
-					["totaldamage"] = 514411,
-					["role"] = "DAMAGER",
-				}, -- [1]
-				{
-					["last"] = 18138.612,
-					["flag"] = 1298,
-					["class"] = "PALADIN",
-					["auras"] = {
-						[6562] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 78,
-						},
-						[48162] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 78,
-						},
-						[31801] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 78,
-						},
-						[54428] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 2,
-							["refresh"] = 40,
-							["uptime"] = 73,
-						},
-						[48942] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 78,
-						},
-						[57623] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 78,
-						},
-						[25898] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 78,
-						},
-						[48170] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 78,
-						},
-						[25899] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 78,
-						},
-						[19746] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 78,
-						},
-						[20132] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["refresh"] = 1,
-							["uptime"] = 17,
-						},
-						[62124] = {
-							["type"] = "DEBUFF",
-							["count"] = 3,
-							["school"] = 2,
-							["targets"] = {
-								["Drakkari Elemental"] = {
-									["uptime"] = 6,
-									["count"] = 2,
-								},
-								["Drakkari Golem"] = {
-									["uptime"] = 2,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 8,
-						},
-						[54499] = {
-							["type"] = "DEBUFF",
-							["count"] = 3,
-							["school"] = 2,
-							["targets"] = {
-								["Drakkari Colossus"] = {
-									["uptime"] = 3,
-									["count"] = 1,
-								},
-								["Drakkari Elemental"] = {
-									["uptime"] = 56,
-									["count"] = 1,
-								},
-								["Drakkari Golem"] = {
-									["uptime"] = 4,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 59,
-						},
-						[53601] = {
-							["type"] = "BUFF",
-							["count"] = 4,
-							["refresh"] = 1,
-							["school"] = 2,
-							["uptime"] = 78,
-						},
-						[48952] = {
-							["type"] = "BUFF",
-							["count"] = 5,
-							["school"] = 2,
-							["uptime"] = 51,
-						},
-						[48827] = {
-							["type"] = "DEBUFF",
-							["count"] = 2,
-							["school"] = 2,
-							["targets"] = {
-								["Drakkari Golem"] = {
-									["uptime"] = 10,
-									["count"] = 2,
-								},
-							},
-							["uptime"] = 10,
-						},
-						[43002] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 78,
-						},
-						[71403] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["uptime"] = 10,
-						},
-						[25780] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 78,
-						},
-						[3714] = {
-							["type"] = "BUFF",
-							["count"] = 3,
-							["school"] = 1,
-							["uptime"] = 12,
-						},
-						[66922] = {
-							["type"] = "BUFF",
-							["count"] = 3,
-							["school"] = 2,
-							["refresh"] = 1,
-							["uptime"] = 46,
-						},
-						[20185] = {
-							["type"] = "DEBUFF",
-							["count"] = 3,
-							["school"] = 2,
-							["targets"] = {
-								["Drakkari Colossus"] = {
-									["uptime"] = 3,
-									["count"] = 1,
-								},
-								["Drakkari Elemental"] = {
-									["uptime"] = 56,
-									["count"] = 1,
-								},
-								["Drakkari Golem"] = {
-									["uptime"] = 4,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 59,
-						},
-						[58597] = {
-							["type"] = "BUFF",
-							["count"] = 8,
-							["school"] = 2,
-							["uptime"] = 27,
-						},
-						[48819] = {
-							["type"] = "DEBUFF",
-							["count"] = 14,
-							["school"] = 2,
-							["targets"] = {
-								["Drakkari Colossus"] = {
-									["uptime"] = 12,
-									["count"] = 2,
-								},
-								["Living Mojo"] = {
-									["uptime"] = 10,
-									["count"] = 6,
-								},
-								["Drakkari Elemental"] = {
-									["uptime"] = 5,
-									["count"] = 1,
-								},
-								["Drakkari Golem"] = {
-									["uptime"] = 12,
-									["count"] = 5,
-								},
-							},
-							["uptime"] = 29,
-						},
-						[31803] = {
-							["type"] = "DEBUFF",
-							["count"] = 9,
-							["school"] = 2,
-							["refresh"] = 27,
-							["targets"] = {
-								["Drakkari Colossus"] = {
-									["count"] = 2,
-									["refresh"] = 12,
-									["uptime"] = 16,
-								},
-								["Living Mojo"] = {
-									["count"] = 3,
-									["refresh"] = 3,
-									["uptime"] = 16,
-								},
-								["Drakkari Elemental"] = {
-									["count"] = 2,
-									["refresh"] = 6,
-									["uptime"] = 60,
-								},
-								["Drakkari Golem"] = {
-									["count"] = 2,
-									["refresh"] = 6,
-									["uptime"] = 15,
-								},
-							},
-							["uptime"] = 69,
-						},
-						[72221] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 78,
-						},
-						[48074] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 78,
-						},
-						[53563] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 76,
-						},
-					},
-					["absorbspells"] = {
-						[58597] = {
-							["min"] = 68,
-							["casts"] = 5,
-							["count"] = 12,
-							["amount"] = 7492,
-							["school"] = 2,
-							["targets"] = {
-								["Gometius"] = 7492,
-							},
-							["max"] = 1519,
-						},
-					},
-					["time"] = 74.42000000000003,
-					["totaldamagetaken"] = 77230,
-					["damage"] = 122567,
-					["damagespells"] = {
-						["Consecration (DoT)"] = {
-							["hitmin"] = 329,
-							["id"] = 48819,
-							["targets"] = {
-								["Drakkari Colossus"] = {
-									["amount"] = 4575,
-								},
-								["Living Mojo"] = {
-									["amount"] = 6466,
-								},
-								["Drakkari Elemental"] = {
-									["amount"] = 1994,
-								},
-								["Drakkari Golem"] = {
-									["amount"] = 8588,
-								},
-							},
-							["hitmax"] = 424,
-							["casts"] = 5,
-							["count"] = 55,
-							["hit"] = 55,
-							["school"] = 2,
-							["resisted"] = 862,
-							["amount"] = 21623,
-							["hitamount"] = 21623,
-						},
-						["Melee"] = {
-							["DODGE"] = 1,
-							["glance"] = 873,
-							["hitmin"] = 468,
-							["criticalmin"] = 934,
-							["targets"] = {
-								["Drakkari Colossus"] = {
-									["amount"] = 12445,
-								},
-								["Living Mojo"] = {
-									["amount"] = 1082,
-								},
-								["Drakkari Elemental"] = {
-									["amount"] = 4290,
-								},
-								["Drakkari Golem"] = {
-									["amount"] = 3636,
-								},
-							},
-							["glancing"] = 2,
-							["amount"] = 21453,
-							["glancemin"] = 392,
-							["criticalamount"] = 8664,
-							["id"] = 6603,
-							["glancemax"] = 481,
-							["blocked"] = 80,
-							["criticalmax"] = 1182,
-							["hitmax"] = 630,
-							["hit"] = 22,
-							["school"] = 1,
-							["critical"] = 8,
-							["count"] = 33,
-							["hitamount"] = 11916,
-						},
-						["Silenced - Shield of the Templar"] = {
-							["casts"] = 1,
-							["count"] = 3,
-							["amount"] = 0,
-							["school"] = 1,
-							["IMMUNE"] = 3,
-							["targets"] = {
-								["Drakkari Colossus"] = {
-									["amount"] = 0,
-								},
-								["Drakkari Golem"] = {
-									["amount"] = 0,
-								},
-							},
-							["id"] = 63529,
-						},
-						["Holy Vengeance (DoT)"] = {
-							["hitmin"] = 134,
-							["id"] = 31803,
-							["targets"] = {
-								["Drakkari Colossus"] = {
-									["amount"] = 3015,
-								},
-								["Living Mojo"] = {
-									["amount"] = 1047,
-								},
-								["Drakkari Elemental"] = {
-									["amount"] = 1006,
-								},
-								["Drakkari Golem"] = {
-									["amount"] = 2382,
-								},
-							},
-							["hitmax"] = 738,
-							["count"] = 20,
-							["hit"] = 20,
-							["school"] = 2,
-							["resisted"] = 372,
-							["amount"] = 7450,
-							["hitamount"] = 7450,
-						},
-						["Hand of Reckoning"] = {
-							["hitmin"] = 2573,
-							["id"] = 67485,
-							["targets"] = {
-								["Drakkari Elemental"] = {
-									["amount"] = 5300,
-								},
-								["Drakkari Golem"] = {
-									["amount"] = 2573,
-								},
-							},
-							["casts"] = 4,
-							["count"] = 3,
-							["hit"] = 3,
-							["school"] = 2,
-							["hitmax"] = 2650,
-							["amount"] = 7873,
-							["hitamount"] = 7873,
-						},
-						["Judgement of Vengeance"] = {
-							["hitmin"] = 1212,
-							["id"] = 31804,
-							["targets"] = {
-								["Drakkari Colossus"] = {
-									["amount"] = 1323,
-								},
-								["Drakkari Elemental"] = {
-									["amount"] = 1589,
-								},
-								["Drakkari Golem"] = {
-									["amount"] = 1212,
-								},
-							},
-							["hitmax"] = 1589,
-							["casts"] = 1,
-							["count"] = 3,
-							["hit"] = 3,
-							["school"] = 2,
-							["resisted"] = 330,
-							["amount"] = 4124,
-							["hitamount"] = 4124,
-						},
-						["Hammer of the Righteous"] = {
-							["hitmin"] = 2152,
-							["id"] = 53595,
-							["targets"] = {
-								["Drakkari Colossus"] = {
-									["amount"] = 4583,
-								},
-								["Living Mojo"] = {
-									["amount"] = 9732,
-								},
-								["Drakkari Elemental"] = {
-									["amount"] = 4759,
-								},
-								["Drakkari Golem"] = {
-									["amount"] = 6772,
-								},
-							},
-							["hitmax"] = 2505,
-							["casts"] = 7,
-							["count"] = 11,
-							["hit"] = 11,
-							["school"] = 2,
-							["resisted"] = 493,
-							["amount"] = 25846,
-							["hitamount"] = 25846,
-						},
-						["Holy Vengeance"] = {
-							["DODGE"] = 1,
-							["casts"] = 1,
-							["count"] = 1,
-							["amount"] = 0,
-							["school"] = 2,
-							["targets"] = {
-								["Drakkari Golem"] = {
-									["amount"] = 0,
-								},
-							},
-							["id"] = 31803,
-						},
-						["Holy Shield"] = {
-							["hitmin"] = 779,
-							["id"] = 48952,
-							["targets"] = {
-								["Drakkari Colossus"] = {
-									["amount"] = 779,
-								},
-								["Living Mojo"] = {
-									["amount"] = 3208,
-								},
-								["Drakkari Golem"] = {
-									["amount"] = 779,
-								},
-							},
-							["casts"] = 4,
-							["count"] = 6,
-							["hit"] = 6,
-							["school"] = 2,
-							["hitmax"] = 802,
-							["amount"] = 4766,
-							["hitamount"] = 4766,
-						},
-						["Avenger's Shield"] = {
-							["hitmin"] = 1638,
-							["id"] = 48827,
-							["targets"] = {
-								["Drakkari Colossus"] = {
-									["amount"] = 1638,
-								},
-								["Drakkari Golem"] = {
-									["amount"] = 3747,
-								},
-							},
-							["hitmax"] = 1982,
-							["casts"] = 2,
-							["count"] = 3,
-							["hit"] = 3,
-							["school"] = 2,
-							["resisted"] = 378,
-							["amount"] = 5385,
-							["hitamount"] = 5385,
-						},
-						["Shield of Righteousness"] = {
-							["criticalmin"] = 6268,
-							["hitmin"] = 2436,
-							["criticalamount"] = 6268,
-							["id"] = 61411,
-							["criticalmax"] = 6268,
-							["targets"] = {
-								["Drakkari Colossus"] = {
-									["amount"] = 5479,
-								},
-								["Living Mojo"] = {
-									["amount"] = 6268,
-								},
-								["Drakkari Elemental"] = {
-									["amount"] = 5956,
-								},
-							},
-							["critical"] = 1,
-							["hitmax"] = 3134,
-							["casts"] = 5,
-							["count"] = 5,
-							["hit"] = 4,
-							["school"] = 2,
-							["resisted"] = 921,
-							["amount"] = 17703,
-							["hitamount"] = 11435,
-						},
-						["Seal of Vengeance"] = {
-							["blocked"] = 82,
-							["hitmax"] = 353,
-							["hitmin"] = 18,
-							["criticalamount"] = 2011,
-							["id"] = 42463,
-							["count"] = 33,
-							["targets"] = {
-								["Drakkari Colossus"] = {
-									["amount"] = 3470,
-								},
-								["Living Mojo"] = {
-									["amount"] = 248,
-								},
-								["Drakkari Elemental"] = {
-									["amount"] = 1487,
-								},
-								["Drakkari Golem"] = {
-									["amount"] = 1139,
-								},
-							},
-							["hit"] = 25,
-							["criticalmin"] = 82,
-							["casts"] = 1,
-							["critical"] = 8,
-							["amount"] = 6344,
-							["school"] = 2,
-							["resisted"] = 233,
-							["criticalmax"] = 534,
-							["hitamount"] = 4333,
-						},
-					},
-					["absorb"] = 7492,
-					["damagetaken"] = 61327,
-					["id"] = "0x0700000000949DDC",
-					["spec"] = 66,
-					["healspells"] = {
-						[20267] = {
-							["overheal"] = 9056,
-							["targets"] = {
-								["Gometius"] = {
-									["overheal"] = 2881,
-									["amount"] = 2210,
-								},
-								["Urgash"] = {
-									["overheal"] = 2417,
-									["amount"] = 2417,
-								},
-								["Wormcatcher"] = {
-									["overheal"] = 1722,
-									["amount"] = 0,
-								},
-								["Wubobo"] = {
-									["overheal"] = 407,
-									["amount"] = 0,
-								},
-								["Zaralar"] = {
-									["overheal"] = 1629,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 21,
-							["amount"] = 4627,
-							["school"] = 2,
-							["max"] = 806,
-							["ishot"] = true,
-							["min"] = 176,
-						},
-					},
-					["damagetakenspells"] = {
-						["Shockwave"] = {
-							["hitmin"] = 1748,
-							["id"] = 58977,
-							["sources"] = {
-								["Drakkari Golem"] = {
-									["amount"] = 3586,
-								},
-							},
-							["count"] = 2,
-							["hit"] = 2,
-							["school"] = 1,
-							["hitmax"] = 1838,
-							["amount"] = 3586,
-							["hitamount"] = 3586,
-						},
-						["Drenched in Mojo (DoT)"] = {
-							["total"] = 8339,
-							["hitmin"] = 367,
-							["id"] = 54819,
-							["ABSORB"] = 2,
-							["hitmax"] = 787,
-							["sources"] = {
-								["Drakkari Elemental"] = {
-									["total"] = 8339,
-									["amount"] = 6582,
-								},
-							},
-							["count"] = 12,
-							["hit"] = 10,
-							["school"] = 8,
-							["resisted"] = 940,
-							["amount"] = 6582,
-							["hitamount"] = 6582,
-						},
-						["Mojo Wave (DoT)"] = {
-							["total"] = 3453,
-							["hitmin"] = 1110,
-							["id"] = 58993,
-							["hitmax"] = 1233,
-							["ABSORB"] = 1,
-							["sources"] = {
-								["Living Mojo"] = {
-									["total"] = 3453,
-									["amount"] = 2343,
-								},
-							},
-							["count"] = 3,
-							["hit"] = 2,
-							["school"] = 8,
-							["resisted"] = 123,
-							["amount"] = 2343,
-							["hitamount"] = 2343,
-						},
-						["Mojo Wave"] = {
-							["hitmin"] = 1305,
-							["id"] = 58993,
-							["hitmax"] = 1305,
-							["sources"] = {
-								["Living Mojo"] = {
-									["amount"] = 1305,
-								},
-							},
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 8,
-							["resisted"] = 326,
-							["amount"] = 1305,
-							["hitamount"] = 1305,
-						},
-						["Drenched in Mojo"] = {
-							["hitmin"] = 1853,
-							["id"] = 54819,
-							["sources"] = {
-								["Drakkari Elemental"] = {
-									["amount"] = 1853,
-								},
-							},
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 8,
-							["hitmax"] = 1853,
-							["amount"] = 1853,
-							["hitamount"] = 1853,
-						},
-						["Thunderclap"] = {
-							["total"] = 3355,
-							["hitmin"] = 139,
-							["id"] = 58975,
-							["sources"] = {
-								["Drakkari Golem"] = {
-									["total"] = 3355,
-									["amount"] = 1836,
-								},
-							},
-							["count"] = 2,
-							["hit"] = 2,
-							["school"] = 8,
-							["hitmax"] = 1697,
-							["amount"] = 1836,
-							["hitamount"] = 1836,
-						},
-						["Mojo Puddle (DoT)"] = {
-							["total"] = 21298,
-							["hitmin"] = 7,
-							["id"] = 59451,
-							["ABSORB"] = 8,
-							["hitmax"] = 654,
-							["count"] = 36,
-							["hit"] = 28,
-							["school"] = 8,
-							["resisted"] = 2128,
-							["amount"] = 15102,
-							["hitamount"] = 15102,
-						},
-						["Mojo Puddle"] = {
-							["hitmin"] = 1048,
-							["id"] = 58994,
-							["hitmax"] = 1371,
-							["sources"] = {
-								["Living Mojo"] = {
-									["amount"] = 15855,
-								},
-							},
-							["count"] = 13,
-							["hit"] = 13,
-							["school"] = 8,
-							["resisted"] = 1602,
-							["amount"] = 15855,
-							["hitamount"] = 15855,
-						},
-						["Melee"] = {
-							["DODGE"] = 3,
-							["total"] = 15834,
-							["hitmin"] = 69,
-							["BLOCK"] = 5,
-							["id"] = 6603,
-							["amount"] = 11723,
-							["ABSORB"] = 4,
-							["blocked"] = 11851,
-							["hitmax"] = 1991,
-							["sources"] = {
-								["Drakkari Colossus"] = {
-									["total"] = 5000,
-									["amount"] = 1212,
-								},
-								["Living Mojo"] = {
-									["total"] = 3453,
-									["amount"] = 3385,
-								},
-								["Drakkari Elemental"] = {
-									["total"] = 255,
-									["amount"] = 0,
-								},
-								["Drakkari Golem"] = {
-									["amount"] = 7126,
-								},
-							},
-							["count"] = 24,
-							["hit"] = 8,
-							["school"] = 1,
-							["PARRY"] = 3,
-							["MISS"] = 1,
-							["hitamount"] = 11723,
-						},
-						["Mojo Volley"] = {
-							["total"] = 2352,
-							["hitmin"] = 1142,
-							["id"] = 59452,
-							["hitmax"] = 1142,
-							["sources"] = {
-								["Drakkari Elemental"] = {
-									["total"] = 2352,
-									["amount"] = 1142,
-								},
-							},
-							["count"] = 2,
-							["ABSORB"] = 1,
-							["school"] = 8,
-							["amount"] = 1142,
-							["hit"] = 1,
-							["hitamount"] = 1142,
-						},
-					},
-					["overheal"] = 9056,
-					["heal"] = 4627,
-					["name"] = "Gometius",
-					["manaspells"] = {
-						[31786] = 5879,
-						[54428] = 9696,
-						[57319] = 2576,
-					},
-					["mana"] = 18151,
-					["totaldamage"] = 122567,
-					["role"] = "TANK",
-				}, -- [2]
-				{
-					["last"] = 18134.704,
-					["flag"] = 1298,
-					["class"] = "PALADIN",
-					["auras"] = {
-						[48162] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 78,
-						},
-						[48942] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 78,
-						},
-						[57623] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 78,
-						},
-						[25898] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 78,
-						},
-						[54153] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["refresh"] = 3,
-							["uptime"] = 78,
-						},
-						[25899] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 78,
-						},
-						[19746] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 78,
-						},
-						[57102] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 78,
-						},
-						[20166] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 78,
-						},
-						[28878] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 78,
-						},
-						[43002] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 78,
-						},
-						[3714] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 16,
-						},
-						[31834] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 2,
-							["refresh"] = 2,
-							["uptime"] = 15,
-						},
-						[20185] = {
-							["type"] = "DEBUFF",
-							["count"] = 3,
-							["school"] = 2,
-							["targets"] = {
-								["Drakkari Colossus"] = {
-									["uptime"] = 6,
-									["count"] = 1,
-								},
-								["Living Mojo"] = {
-									["uptime"] = 5,
-									["count"] = 1,
-								},
-								["Drakkari Elemental"] = {
-									["uptime"] = 6,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 17,
-						},
-						[72221] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 78,
-						},
-						[48819] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 2,
-							["targets"] = {
-								["Drakkari Colossus"] = {
-									["uptime"] = 1,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 1,
-						},
-						[48074] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 78,
-						},
-						[48170] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 78,
-						},
-					},
-					["absorbspells"] = {
-						[58597] = {
-							["min"] = 230,
-							["casts"] = 3,
-							["count"] = 10,
-							["amount"] = 8411,
-							["school"] = 2,
-							["targets"] = {
-								["Gometius"] = 8411,
-							},
-							["max"] = 2641,
-						},
-					},
-					["time"] = 62.08999999999999,
-					["totaldamagetaken"] = 12935,
-					["damage"] = 5163,
-					["overheal"] = 188529,
-					["absorb"] = 8411,
-					["damagetaken"] = 12935,
-					["id"] = "0x070000000096902A",
-					["spec"] = 65,
-					["healspells"] = {
-						[66922] = {
-							["overheal"] = 12114,
-							["max"] = 451,
-							["count"] = 45,
-							["amount"] = 10020,
-							["school"] = 2,
-							["min"] = 189,
-							["ishot"] = true,
-							["targets"] = {
-								["Gometius"] = {
-									["overheal"] = 12114,
-									["amount"] = 10020,
-								},
-							},
-						},
-						[48785] = {
-							["overheal"] = 39867,
-							["criticalamount"] = 21356,
-							["max"] = 5455,
-							["targets"] = {
-								["Gometius"] = {
-									["overheal"] = 13746,
-									["amount"] = 6949,
-								},
-								["Urgash"] = {
-									["overheal"] = 12812,
-									["amount"] = 44610,
-								},
-								["Wubobo"] = {
-									["overheal"] = 5170,
-									["amount"] = 10862,
-								},
-								["Ynnou"] = {
-									["overheal"] = 2109,
-									["amount"] = 9989,
-								},
-								["Zaralar"] = {
-									["overheal"] = 6030,
-									["amount"] = 3062,
-								},
-							},
-							["criticalmin"] = 902,
-							["min"] = 780,
-							["criticalmax"] = 5455,
-							["critical"] = 6,
-							["amount"] = 75472,
-							["school"] = 2,
-							["casts"] = 23,
-							["count"] = 22,
-						},
-						[20267] = {
-							["overheal"] = 13223,
-							["max"] = 806,
-							["count"] = 39,
-							["amount"] = 12695,
-							["school"] = 2,
-							["min"] = 165,
-							["ishot"] = true,
-							["targets"] = {
-								["Gometius"] = {
-									["overheal"] = 2107,
-									["amount"] = 2106,
-								},
-								["Urgash"] = {
-									["overheal"] = 8505,
-									["amount"] = 4391,
-								},
-								["Wormcatcher"] = {
-									["overheal"] = 0,
-									["amount"] = 4018,
-								},
-								["Wubobo"] = {
-									["overheal"] = 0,
-									["amount"] = 407,
-								},
-								["Ynnou"] = {
-									["overheal"] = 1212,
-									["amount"] = 606,
-								},
-								["Zaralar"] = {
-									["overheal"] = 1087,
-									["amount"] = 543,
-								},
-								["Shadowfiend"] = {
-									["overheal"] = 312,
-									["amount"] = 624,
-								},
-							},
-						},
-						[53654] = {
-							["overheal"] = 99777,
-							["max"] = 9166,
-							["count"] = 22,
-							["amount"] = 35945,
-							["school"] = 2,
-							["min"] = 629,
-							["targets"] = {
-								["Gometius"] = {
-									["overheal"] = 99777,
-									["amount"] = 35945,
-								},
-							},
-						},
-						[54968] = {
-							["overheal"] = 4262,
-							["count"] = 8,
-							["amount"] = 5672,
-							["school"] = 2,
-							["max"] = 1275,
-							["targets"] = {
-								["Gometius"] = {
-									["overheal"] = 2172,
-									["amount"] = 1589,
-								},
-								["Urgash"] = {
-									["overheal"] = 0,
-									["amount"] = 2497,
-								},
-								["Wormcatcher"] = {
-									["overheal"] = 825,
-									["amount"] = 311,
-								},
-								["Wubobo"] = {
-									["overheal"] = 1265,
-									["amount"] = 0,
-								},
-								["Zaralar"] = {
-									["overheal"] = 0,
-									["amount"] = 1275,
-								},
-							},
-							["min"] = 311,
-						},
-						[48821] = {
-							["overheal"] = 6110,
-							["count"] = 1,
-							["amount"] = 0,
-							["school"] = 2,
-							["targets"] = {
-								["Ynnou"] = {
-									["overheal"] = 6110,
-									["amount"] = 0,
-								},
-							},
-						},
-						[48782] = {
-							["overheal"] = 13176,
-							["max"] = 11385,
-							["targets"] = {
-								["Wubobo"] = {
-									["overheal"] = 12416,
-									["amount"] = 11385,
-								},
-								["Urgash"] = {
-									["overheal"] = 760,
-									["amount"] = 11286,
-								},
-							},
-							["min"] = 11286,
-							["casts"] = 3,
-							["count"] = 3,
-							["amount"] = 22671,
-							["school"] = 2,
-						},
-					},
-					["damagetakenspells"] = {
-						["Mojo Wave (DoT)"] = {
-							["hitmin"] = 1551,
-							["id"] = 58993,
-							["sources"] = {
-								["Living Mojo"] = {
-									["amount"] = 4653,
-								},
-							},
-							["count"] = 3,
-							["hit"] = 3,
-							["school"] = 8,
-							["hitmax"] = 1551,
-							["amount"] = 4653,
-							["hitamount"] = 4653,
-						},
-						["Mojo Wave"] = {
-							["hitmin"] = 1844,
-							["id"] = 58993,
-							["sources"] = {
-								["Living Mojo"] = {
-									["amount"] = 1844,
-								},
-							},
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 8,
-							["hitmax"] = 1844,
-							["amount"] = 1844,
-							["hitamount"] = 1844,
-						},
-						["Mojo Puddle (DoT)"] = {
-							["hitmin"] = 828,
-							["hitmax"] = 829,
-							["count"] = 6,
-							["amount"] = 4972,
-							["school"] = 8,
-							["id"] = 59451,
-							["hit"] = 6,
-							["hitamount"] = 4972,
-						},
-						["Mojo Volley"] = {
-							["hitmin"] = 1466,
-							["id"] = 59452,
-							["sources"] = {
-								["Drakkari Elemental"] = {
-									["amount"] = 1466,
-								},
-							},
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 8,
-							["hitmax"] = 1466,
-							["amount"] = 1466,
-							["hitamount"] = 1466,
-						},
-					},
-					["damagespells"] = {
-						["Consecration (DoT)"] = {
-							["hitmin"] = 232,
-							["id"] = 48819,
-							["targets"] = {
-								["Drakkari Colossus"] = {
-									["amount"] = 232,
-								},
-							},
-							["hitmax"] = 232,
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 2,
-							["resisted"] = 57,
-							["amount"] = 232,
-							["hitamount"] = 232,
-						},
-						["Melee"] = {
-							["hitmin"] = 183,
-							["id"] = 6603,
-							["targets"] = {
-								["Drakkari Colossus"] = {
-									["amount"] = 415,
-								},
-							},
-							["count"] = 2,
-							["hit"] = 2,
-							["school"] = 1,
-							["hitmax"] = 232,
-							["amount"] = 415,
-							["hitamount"] = 415,
-						},
-						["Judgement"] = {
-							["hitmax"] = 1189,
-							["hitmin"] = 1188,
-							["criticalamount"] = 2139,
-							["id"] = 54158,
-							["criticalmin"] = 2139,
-							["targets"] = {
-								["Drakkari Colossus"] = {
-									["amount"] = 1189,
-								},
-								["Living Mojo"] = {
-									["amount"] = 1188,
-								},
-								["Drakkari Elemental"] = {
-									["amount"] = 2139,
-								},
-							},
-							["criticalmax"] = 2139,
-							["critical"] = 1,
-							["casts"] = 1,
-							["count"] = 3,
-							["hit"] = 2,
-							["school"] = 2,
-							["resisted"] = 237,
-							["amount"] = 4516,
-							["hitamount"] = 2377,
-						},
-					},
-					["heal"] = 162475,
-					["name"] = "Ynnou",
-					["totaldamage"] = 5163,
-					["manaspells"] = {
-						[20272] = 552,
-					},
-					["mana"] = 552,
-					["role"] = "HEALER",
-				}, -- [3]
-				{
-					["last"] = 18129.856,
-					["flag"] = 1298,
-					["class"] = "PRIEST",
-					["auras"] = {
-						[48066] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 14,
-						},
-						[15473] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 78,
-						},
-						[48162] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 78,
-						},
-						[16595] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 78,
-						},
-						[72416] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 64,
-							["uptime"] = 10,
-						},
-						[53023] = {
-							["type"] = "DEBUFF",
-							["count"] = 3,
-							["school"] = 32,
-							["targets"] = {
-								["Drakkari Golem"] = {
-									["uptime"] = 6,
-									["count"] = 3,
-								},
-							},
-							["uptime"] = 6,
-						},
-						[48074] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 78,
-						},
-						[48168] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 78,
-						},
-						[63619] = {
-							["type"] = "BUFF",
-							["count"] = 3,
-							["school"] = 64,
-							["uptime"] = 46,
-						},
-						[48170] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 78,
-						},
-						[33198] = {
-							["type"] = "DEBUFF",
-							["count"] = 6,
-							["school"] = 32,
-							["refresh"] = 6,
-							["targets"] = {
-								["Drakkari Colossus"] = {
-									["count"] = 2,
-									["refresh"] = 3,
-									["uptime"] = 9,
-								},
-								["Living Mojo"] = {
-									["uptime"] = 1,
-									["count"] = 1,
-								},
-								["Drakkari Elemental"] = {
-									["count"] = 2,
-									["refresh"] = 3,
-									["uptime"] = 60,
-								},
-								["Drakkari Golem"] = {
-									["uptime"] = 11,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 67,
-						},
-						[19746] = {
-							["type"] = "BUFF",
-							["count"] = 2,
-							["school"] = 2,
-							["uptime"] = 78,
-						},
-						[48160] = {
-							["type"] = "DEBUFF",
-							["count"] = 2,
-							["school"] = 32,
-							["targets"] = {
-								["Drakkari Colossus"] = {
-									["uptime"] = 3,
-									["count"] = 1,
-								},
-								["Drakkari Elemental"] = {
-									["uptime"] = 56,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 59,
-						},
-						[47585] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["uptime"] = 4,
-						},
-						[53755] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 78,
-						},
-						[48300] = {
-							["type"] = "DEBUFF",
-							["count"] = 6,
-							["school"] = 32,
-							["targets"] = {
-								["Drakkari Colossus"] = {
-									["uptime"] = 14,
-									["count"] = 2,
-								},
-								["Living Mojo"] = {
-									["uptime"] = 5,
-									["count"] = 1,
-								},
-								["Drakkari Elemental"] = {
-									["uptime"] = 13,
-									["count"] = 2,
-								},
-								["Drakkari Golem"] = {
-									["uptime"] = 12,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 44,
-						},
-						[28878] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 78,
-						},
-						[48156] = {
-							["type"] = "BUFF",
-							["count"] = 16,
-							["school"] = 32,
-							["targets"] = {
-								["Drakkari Colossus"] = {
-									["uptime"] = 5,
-									["count"] = 3,
-								},
-								["Living Mojo"] = {
-									["uptime"] = 1,
-									["count"] = 1,
-								},
-								["Drakkari Elemental"] = {
-									["uptime"] = 6,
-									["count"] = 4,
-								},
-							},
-							["uptime"] = 12,
-						},
-						[43002] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 78,
-						},
-						[67684] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["uptime"] = 20,
-						},
-						[59000] = {
-							["type"] = "BUFF",
-							["count"] = 2,
-							["school"] = 32,
-							["uptime"] = 16,
-						},
-						[3714] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 16,
-						},
-						[48301] = {
-							["type"] = "DEBUFF",
-							["count"] = 4,
-							["school"] = 32,
-							["targets"] = {
-								["Drakkari Colossus"] = {
-									["uptime"] = 8,
-									["count"] = 2,
-								},
-								["Living Mojo"] = {
-									["uptime"] = 2,
-									["count"] = 1,
-								},
-								["Drakkari Elemental"] = {
-									["uptime"] = 57,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 62,
-						},
-						[48125] = {
-							["type"] = "DEBUFF",
-							["count"] = 3,
-							["school"] = 32,
-							["refresh"] = 3,
-							["targets"] = {
-								["Drakkari Colossus"] = {
-									["count"] = 1,
-									["refresh"] = 2,
-									["uptime"] = 7,
-								},
-								["Drakkari Elemental"] = {
-									["count"] = 1,
-									["refresh"] = 1,
-									["uptime"] = 60,
-								},
-								["Drakkari Golem"] = {
-									["uptime"] = 11,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 67,
-						},
-						[59626] = {
-							["type"] = "BUFF",
-							["count"] = 2,
-							["school"] = 32,
-							["uptime"] = 20,
-						},
-						[15258] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 32,
-							["refresh"] = 34,
-							["uptime"] = 76,
-						},
-						[15286] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 78,
-						},
-						[72221] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 78,
-						},
-						[57623] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 78,
-						},
-						[48942] = {
-							["type"] = "BUFF",
-							["count"] = 2,
-							["school"] = 2,
-							["uptime"] = 78,
-						},
-					},
-					["time"] = 62.05000000000001,
-					["totaldamagetaken"] = 16712,
-					["damage"] = 179269,
-					["damagespells"] = {
-						["Mind Blast"] = {
-							["criticalmin"] = 8910,
-							["hitmin"] = 3074,
-							["criticalamount"] = 8910,
-							["id"] = 48127,
-							["criticalmax"] = 8910,
-							["targets"] = {
-								["Drakkari Colossus"] = {
-									["amount"] = 6632,
-								},
-								["Living Mojo"] = {
-									["amount"] = 3894,
-								},
-								["Drakkari Elemental"] = {
-									["amount"] = 8910,
-								},
-							},
-							["critical"] = 1,
-							["hitmax"] = 3894,
-							["casts"] = 4,
-							["count"] = 4,
-							["hit"] = 3,
-							["school"] = 32,
-							["resisted"] = 2646,
-							["amount"] = 19436,
-							["hitamount"] = 10526,
-						},
-						["Vampiric Touch (DoT)"] = {
-							["criticalamount"] = 3988,
-							["id"] = 48160,
-							["targets"] = {
-								["Drakkari Colossus"] = {
-									["amount"] = 3988,
-								},
-							},
-							["casts"] = 2,
-							["criticalmax"] = 3988,
-							["critical"] = 1,
-							["amount"] = 3988,
-							["school"] = 32,
-							["resisted"] = 996,
-							["criticalmin"] = 3988,
-							["count"] = 1,
-						},
-						["Mind Sear"] = {
-							["hitmax"] = 1863,
-							["hitmin"] = 1479,
-							["criticalamount"] = 17193,
-							["id"] = 53022,
-							["criticalmin"] = 2851,
-							["targets"] = {
-								["Drakkari Golem"] = {
-									["amount"] = 14423,
-								},
-								["Living Mojo"] = {
-									["amount"] = 29655,
-								},
-							},
-							["criticalmax"] = 2882,
-							["critical"] = 6,
-							["casts"] = 2,
-							["count"] = 21,
-							["hit"] = 15,
-							["school"] = 32,
-							["resisted"] = 923,
-							["amount"] = 44078,
-							["hitamount"] = 26885,
-						},
-						["Melee (Shadowfiend)"] = {
-							["glance"] = 2425,
-							["hitmin"] = 1192,
-							["criticalmin"] = 3062,
-							["targets"] = {
-								["Drakkari Colossus"] = {
-									["amount"] = 4117,
-								},
-								["Drakkari Elemental"] = {
-									["amount"] = 8892,
-								},
-							},
-							["glancing"] = 2,
-							["amount"] = 13009,
-							["resisted"] = 1285,
-							["glancemin"] = 1206,
-							["criticalamount"] = 3062,
-							["id"] = 6603,
-							["glancemax"] = 1219,
-							["criticalmax"] = 3062,
-							["count"] = 8,
-							["hit"] = 5,
-							["school"] = 1,
-							["critical"] = 1,
-							["hitmax"] = 1714,
-							["hitamount"] = 7522,
-						},
-						["Improved Devouring Plague"] = {
-							["hitmax"] = 3195,
-							["hitmin"] = 2546,
-							["criticalamount"] = 9222,
-							["id"] = 63675,
-							["criticalmin"] = 4369,
-							["targets"] = {
-								["Drakkari Colossus"] = {
-									["amount"] = 5522,
-								},
-								["Living Mojo"] = {
-									["amount"] = 3195,
-								},
-								["Drakkari Elemental"] = {
-									["amount"] = 9222,
-								},
-								["Drakkari Golem"] = {
-									["amount"] = 2546,
-								},
-							},
-							["criticalmax"] = 4853,
-							["critical"] = 2,
-							["casts"] = 1,
-							["count"] = 6,
-							["hit"] = 4,
-							["school"] = 32,
-							["resisted"] = 1778,
-							["amount"] = 20485,
-							["hitamount"] = 11263,
-						},
-						["Mind Flay"] = {
-							["criticalmin"] = 3276,
-							["hitmin"] = 1394,
-							["criticalamount"] = 11539,
-							["id"] = 58381,
-							["criticalmax"] = 4987,
-							["targets"] = {
-								["Drakkari Colossus"] = {
-									["amount"] = 17736,
-								},
-								["Drakkari Elemental"] = {
-									["amount"] = 11823,
-								},
-							},
-							["critical"] = 3,
-							["hitmax"] = 2235,
-							["casts"] = 8,
-							["count"] = 13,
-							["hit"] = 10,
-							["school"] = 32,
-							["resisted"] = 1727,
-							["amount"] = 29559,
-							["hitamount"] = 18020,
-						},
-						["Devouring Plague (DoT)"] = {
-							["casts"] = 6,
-							["hitmin"] = 1558,
-							["criticalamount"] = 20930,
-							["id"] = 48300,
-							["hitmax"] = 2127,
-							["targets"] = {
-								["Drakkari Colossus"] = {
-									["amount"] = 11748,
-								},
-								["Living Mojo"] = {
-									["amount"] = 3618,
-								},
-								["Drakkari Elemental"] = {
-									["amount"] = 10907,
-								},
-								["Drakkari Golem"] = {
-									["amount"] = 10525,
-								},
-							},
-							["count"] = 15,
-							["hit"] = 9,
-							["criticalmax"] = 3618,
-							["critical"] = 6,
-							["amount"] = 36798,
-							["school"] = 32,
-							["resisted"] = 1736,
-							["criticalmin"] = 3039,
-							["hitamount"] = 15868,
-						},
-						["Shadow Word: Pain (DoT)"] = {
-							["casts"] = 3,
-							["hitmin"] = 1284,
-							["criticalamount"] = 7903,
-							["id"] = 48125,
-							["hitmax"] = 1404,
-							["targets"] = {
-								["Drakkari Colossus"] = {
-									["amount"] = 4045,
-								},
-								["Drakkari Elemental"] = {
-									["amount"] = 1284,
-								},
-								["Drakkari Golem"] = {
-									["amount"] = 6587,
-								},
-							},
-							["count"] = 6,
-							["hit"] = 3,
-							["criticalmax"] = 2769,
-							["critical"] = 3,
-							["amount"] = 11916,
-							["school"] = 32,
-							["resisted"] = 889,
-							["criticalmin"] = 2493,
-							["hitamount"] = 4013,
-						},
-					},
-					["damagetaken"] = 16712,
-					["id"] = "0x07000000006FE7EF",
-					["spec"] = 258,
-					["healspells"] = {
-						[15290] = {
-							["overheal"] = 31258,
-							["max"] = 1374,
-							["count"] = 283,
-							["amount"] = 20820,
-							["school"] = 32,
-							["min"] = 13,
-							["ishot"] = true,
-							["targets"] = {
-								["Gometius"] = {
-									["overheal"] = 2288,
-									["amount"] = 2470,
-								},
-								["Urgash"] = {
-									["overheal"] = 2239,
-									["amount"] = 2920,
-								},
-								["Wormcatcher"] = {
-									["overheal"] = 1772,
-									["amount"] = 2867,
-								},
-								["Wubobo"] = {
-									["overheal"] = 3096,
-									["amount"] = 2066,
-								},
-								["Ynnou"] = {
-									["overheal"] = 4632,
-									["amount"] = 789,
-								},
-								["Zaralar"] = {
-									["overheal"] = 16755,
-									["amount"] = 9055,
-								},
-								["Shadowfiend"] = {
-									["overheal"] = 476,
-									["amount"] = 653,
-								},
-							},
-						},
-						[75999] = {
-							["overheal"] = 1736,
+							["overheal"] = 4231,
 							["criticalamount"] = 0,
-							["max"] = 356,
 							["targets"] = {
-								["Zaralar"] = {
-									["overheal"] = 1736,
-									["amount"] = 711,
+								["Urgash"] = {
+									["overheal"] = 4231,
+									["amount"] = 0,
 								},
 							},
-							["min"] = 355,
 							["criticalmax"] = 0,
-							["count"] = 6,
-							["amount"] = 711,
-							["school"] = 32,
+							["count"] = 3,
+							["amount"] = 0,
+							["school"] = 1,
 							["criticalmin"] = 0,
 							["critical"] = 1,
 						},
-						[48300] = {
-							["overheal"] = 3707,
-							["max"] = 603,
-							["targets"] = {
-								["Zaralar"] = {
-									["overheal"] = 3707,
-									["amount"] = 2066,
-								},
-							},
-							["min"] = 283,
-							["casts"] = 6,
-							["count"] = 14,
-							["amount"] = 2066,
-							["school"] = 32,
-						},
-					},
-					["damagetakenspells"] = {
-						["Shockwave"] = {
-							["hitmin"] = 3318,
-							["id"] = 58977,
-							["sources"] = {
-								["Drakkari Golem"] = {
-									["amount"] = 3318,
-								},
-							},
-							["count"] = 1,
-							["hit"] = 1,
+						[50475] = {
+							["overheal"] = 6053,
+							["max"] = 218,
+							["count"] = 36,
+							["amount"] = 512,
 							["school"] = 1,
-							["hitmax"] = 3318,
-							["amount"] = 3318,
-							["hitamount"] = 3318,
-						},
-						["Mojo Puddle (DoT)"] = {
-							["hitmin"] = 693,
-							["hitmax"] = 729,
-							["count"] = 9,
-							["amount"] = 6417,
-							["school"] = 8,
-							["id"] = 59451,
-							["hit"] = 9,
-							["hitamount"] = 6417,
-						},
-						["Mojo Wave"] = {
-							["hitmin"] = 1691,
-							["id"] = 58993,
-							["sources"] = {
-								["Living Mojo"] = {
-									["amount"] = 1691,
-								},
-							},
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 8,
-							["hitmax"] = 1691,
-							["amount"] = 1691,
-							["hitamount"] = 1691,
-						},
-						["Mojo Wave (DoT)"] = {
-							["hitmin"] = 1333,
-							["id"] = 58993,
-							["sources"] = {
-								["Living Mojo"] = {
-									["amount"] = 3999,
-								},
-							},
-							["count"] = 3,
-							["hit"] = 3,
-							["school"] = 8,
-							["hitmax"] = 1333,
-							["amount"] = 3999,
-							["hitamount"] = 3999,
-						},
-						["Mojo Volley"] = {
-							["hitmin"] = 1287,
-							["id"] = 59452,
-							["sources"] = {
-								["Drakkari Elemental"] = {
-									["amount"] = 1287,
-								},
-							},
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 8,
-							["hitmax"] = 1287,
-							["amount"] = 1287,
-							["hitamount"] = 1287,
-						},
-					},
-					["manaspells"] = {
-						[34650] = 11152,
-					},
-					["heal"] = 23597,
-					["name"] = "Zaralar",
-					["mana"] = 11152,
-					["overheal"] = 36701,
-					["totaldamage"] = 179269,
-					["role"] = "DAMAGER",
-				}, -- [4]
-				{
-					["last"] = 18131.485,
-					["flag"] = 1298,
-					["class"] = "MAGE",
-					["auras"] = {
-						[6562] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 78,
-						},
-						[43046] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 78,
-						},
-						[48162] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 78,
-						},
-						[42926] = {
-							["type"] = "DEBUFF",
-							["count"] = 5,
-							["school"] = 4,
+							["min"] = 3,
+							["ishot"] = true,
 							["targets"] = {
-								["Living Mojo"] = {
-									["uptime"] = 2,
-									["count"] = 2,
-								},
-								["Drakkari Golem"] = {
-									["uptime"] = 2,
-									["count"] = 3,
+								["Urgash"] = {
+									["overheal"] = 6053,
+									["amount"] = 512,
 								},
 							},
-							["uptime"] = 2,
 						},
-						[48942] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 78,
-						},
-						[55360] = {
-							["type"] = "DEBUFF",
-							["count"] = 7,
-							["school"] = 4,
-							["refresh"] = 1,
-							["targets"] = {
-								["Drakkari Colossus"] = {
-									["uptime"] = 3,
-									["count"] = 1,
-								},
-								["Living Mojo"] = {
-									["uptime"] = 17,
-									["count"] = 2,
-								},
-								["Drakkari Elemental"] = {
-									["uptime"] = 63,
-									["count"] = 2,
-								},
-								["Drakkari Golem"] = {
-									["count"] = 2,
-									["refresh"] = 1,
-									["uptime"] = 12,
-								},
-							},
-							["uptime"] = 63,
-						},
-						[48170] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 78,
-						},
-						[19746] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 78,
-						},
-						[12051] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 64,
-							["uptime"] = 7,
-						},
-						[43002] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 78,
-						},
-						[57623] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 78,
-						},
-						[22959] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 4,
-							["targets"] = {
-								["Drakkari Elemental"] = {
-									["uptime"] = 59,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 59,
-						},
-						[3714] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 16,
-						},
-						[54739] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 64,
-							["uptime"] = 10,
-						},
-						[42945] = {
-							["type"] = "DEBUFF",
-							["count"] = 3,
-							["school"] = 4,
-							["targets"] = {
-								["Living Mojo"] = {
-									["uptime"] = 2,
-									["count"] = 2,
-								},
-								["Drakkari Golem"] = {
-									["uptime"] = 2,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 2,
-						},
-						[47610] = {
-							["type"] = "DEBUFF",
-							["count"] = 3,
-							["school"] = 20,
-							["targets"] = {
-								["Drakkari Colossus"] = {
-									["uptime"] = 12,
-									["count"] = 2,
-								},
-								["Drakkari Elemental"] = {
-									["uptime"] = 2,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 14,
-						},
-						[72221] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 78,
-						},
-						[48074] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 78,
-						},
-						[12654] = {
-							["type"] = "DEBUFF",
-							["count"] = 8,
-							["school"] = 4,
-							["refresh"] = 4,
-							["targets"] = {
-								["Living Mojo"] = {
-									["count"] = 2,
-									["refresh"] = 1,
-									["uptime"] = 6,
-								},
-								["Drakkari Elemental"] = {
-									["count"] = 2,
-									["refresh"] = 1,
-									["uptime"] = 7,
-								},
-								["Drakkari Golem"] = {
-									["count"] = 3,
-									["refresh"] = 2,
-									["uptime"] = 10,
-								},
-							},
-							["uptime"] = 17,
-						},
-						[42950] = {
-							["type"] = "DEBUFF",
-							["count"] = 4,
-							["school"] = 4,
-							["targets"] = {
-								["Living Mojo"] = {
-									["uptime"] = 5,
-									["count"] = 2,
-								},
-								["Drakkari Golem"] = {
-									["uptime"] = 5,
-									["count"] = 2,
-								},
-							},
-							["uptime"] = 5,
-						},
-						[25894] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 78,
-						},
-					},
-					["role"] = "DAMAGER",
-					["time"] = 43.06999999999999,
-					["totaldamagetaken"] = 24748,
-					["damage"] = 74701,
-					["damagespells"] = {
-						["Dragon's Breath"] = {
-							["hitmin"] = 1899,
-							["criticalamount"] = 10499,
-							["id"] = 42950,
-							["hitmax"] = 1899,
-							["targets"] = {
-								["Drakkari Golem"] = {
-									["amount"] = 6956,
-								},
-								["Living Mojo"] = {
-									["amount"] = 5442,
-								},
-							},
-							["count"] = 4,
-							["hit"] = 1,
-							["casts"] = 1,
-							["critical"] = 3,
-							["amount"] = 12398,
-							["school"] = 4,
-							["criticalmin"] = 3365,
-							["criticalmax"] = 3591,
-							["hitamount"] = 1899,
-						},
-						["Frostfire Bolt (DoT)"] = {
-							["hitmin"] = 256,
-							["id"] = 47610,
-							["targets"] = {
-								["Drakkari Colossus"] = {
-									["amount"] = 1122,
-								},
-							},
-							["hitmax"] = 319,
-							["count"] = 4,
-							["hit"] = 4,
-							["school"] = 20,
-							["resisted"] = 159,
-							["amount"] = 1122,
-							["hitamount"] = 1122,
-						},
-						["Molten Armor"] = {
-							["hitmin"] = 202,
-							["id"] = 43044,
-							["targets"] = {
-								["Drakkari Golem"] = {
-									["amount"] = 430,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 2,
-							["hit"] = 2,
-							["school"] = 4,
-							["hitmax"] = 228,
-							["amount"] = 430,
-							["hitamount"] = 430,
-						},
-						["Living Bomb"] = {
-							["criticalmin"] = 3296,
-							["criticalmax"] = 3296,
-							["hitmin"] = 1695,
-							["criticalamount"] = 3296,
-							["id"] = 55362,
-							["critical"] = 1,
-							["targets"] = {
-								["Drakkari Golem"] = {
-									["overkill"] = 1743,
-									["amount"] = 5180,
-								},
-								["Living Mojo"] = {
-									["amount"] = 3579,
-								},
-							},
-							["overkill"] = 1743,
-							["hitmax"] = 1884,
-							["casts"] = 1,
-							["count"] = 4,
-							["hit"] = 3,
-							["school"] = 4,
-							["resisted"] = 188,
-							["amount"] = 8759,
-							["hitamount"] = 5463,
-						},
-						["Blast Wave"] = {
-							["hitmin"] = 2033,
-							["criticalamount"] = 3621,
-							["id"] = 42945,
-							["criticalmin"] = 3621,
-							["targets"] = {
-								["Drakkari Golem"] = {
-									["amount"] = 2033,
-								},
-								["Living Mojo"] = {
-									["amount"] = 5774,
-								},
-							},
-							["criticalmax"] = 3621,
-							["critical"] = 1,
-							["casts"] = 1,
-							["count"] = 3,
-							["hit"] = 2,
-							["school"] = 4,
-							["hitmax"] = 2153,
-							["amount"] = 7807,
-							["hitamount"] = 4186,
-						},
-						["Frostbite"] = {
-							["casts"] = 1,
-							["count"] = 1,
+						[34299] = {
+							["overheal"] = 8510,
+							["count"] = 12,
 							["amount"] = 0,
-							["school"] = 16,
-							["IMMUNE"] = 1,
+							["school"] = 1,
+							["ishot"] = true,
 							["targets"] = {
-								["Drakkari Colossus"] = {
+								["Skullslicer"] = {
+									["overheal"] = 2870,
+									["amount"] = 0,
+								},
+								["Urgash"] = {
+									["overheal"] = 5640,
 									["amount"] = 0,
 								},
 							},
-							["id"] = 12494,
-						},
-						["Ignite (DoT)"] = {
-							["hitmin"] = 228,
-							["id"] = 12654,
-							["targets"] = {
-								["Living Mojo"] = {
-									["amount"] = 1701,
-								},
-								["Drakkari Elemental"] = {
-									["amount"] = 514,
-								},
-								["Drakkari Golem"] = {
-									["amount"] = 3530,
-								},
-							},
-							["hitmax"] = 965,
-							["count"] = 10,
-							["hit"] = 10,
-							["school"] = 4,
-							["resisted"] = 56,
-							["amount"] = 5745,
-							["hitamount"] = 5745,
-						},
-						["Frostfire Bolt"] = {
-							["criticalmin"] = 7603,
-							["criticalmax"] = 7603,
-							["hitmin"] = 2802,
-							["criticalamount"] = 7603,
-							["id"] = 47610,
-							["critical"] = 1,
-							["targets"] = {
-								["Drakkari Colossus"] = {
-									["overkill"] = 115,
-									["amount"] = 6132,
-								},
-								["Drakkari Elemental"] = {
-									["amount"] = 7603,
-								},
-							},
-							["overkill"] = 115,
-							["hitmax"] = 3330,
-							["casts"] = 7,
-							["count"] = 3,
-							["hit"] = 2,
-							["school"] = 20,
-							["resisted"] = 311,
-							["amount"] = 13735,
-							["hitamount"] = 6132,
-						},
-						["Flamestrike"] = {
-							["hitmin"] = 1831,
-							["criticalamount"] = 3148,
-							["id"] = 42926,
-							["criticalmin"] = 3148,
-							["targets"] = {
-								["Drakkari Golem"] = {
-									["amount"] = 5072,
-								},
-								["Living Mojo"] = {
-									["amount"] = 3686,
-								},
-							},
-							["criticalmax"] = 3148,
-							["critical"] = 1,
-							["casts"] = 1,
-							["count"] = 4,
-							["hit"] = 3,
-							["school"] = 4,
-							["hitmax"] = 1924,
-							["amount"] = 8758,
-							["hitamount"] = 5610,
-						},
-						["Living Bomb (DoT)"] = {
-							["casts"] = 8,
-							["hitmin"] = 578,
-							["criticalamount"] = 7853,
-							["id"] = 55360,
-							["hit"] = 9,
-							["targets"] = {
-								["Drakkari Colossus"] = {
-									["amount"] = 1143,
-								},
-								["Living Mojo"] = {
-									["amount"] = 3874,
-								},
-								["Drakkari Elemental"] = {
-									["amount"] = 3365,
-								},
-								["Drakkari Golem"] = {
-									["amount"] = 6413,
-								},
-							},
-							["hitmax"] = 816,
-							["count"] = 15,
-							["criticalmax"] = 1428,
-							["critical"] = 6,
-							["amount"] = 14795,
-							["school"] = 4,
-							["resisted"] = 1019,
-							["criticalmin"] = 1143,
-							["hitamount"] = 6942,
-						},
-						["Scorch"] = {
-							["hitmin"] = 1152,
-							["id"] = 42859,
-							["targets"] = {
-								["Drakkari Elemental"] = {
-									["amount"] = 1152,
-								},
-							},
-							["hitmax"] = 1152,
-							["casts"] = 1,
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 4,
-							["resisted"] = 128,
-							["amount"] = 1152,
-							["hitamount"] = 1152,
 						},
 					},
-					["damagetaken"] = 24748,
-					["id"] = "0x0700000000975314",
-					["spec"] = 63,
 					["damagetakenspells"] = {
-						["Shockwave"] = {
-							["hitmin"] = 4407,
-							["id"] = 58977,
+						["Melee"] = {
+							["total"] = 13252,
+							["hitmin"] = 1532,
+							["criticalamount"] = 1556,
+							["id"] = 6603,
+							["hitmax"] = 3071,
+							["count"] = 8,
+							["hit"] = 3,
+							["PARRY"] = 4,
+							["criticalmax"] = 1556,
+							["critical"] = 1,
+							["amount"] = 7910,
+							["school"] = 1,
 							["sources"] = {
-								["Drakkari Golem"] = {
-									["amount"] = 9464,
+								["Wrathbone Skeleton"] = {
+									["amount"] = 3283,
+								},
+								["Disturbed Glacial Revenant"] = {
+									["amount"] = 3071,
+								},
+								["Fallen Warrior"] = {
+									["total"] = 6898,
+									["amount"] = 1556,
 								},
 							},
-							["count"] = 2,
-							["hit"] = 2,
-							["school"] = 1,
-							["hitmax"] = 5057,
-							["amount"] = 9464,
-							["hitamount"] = 9464,
+							["criticalmin"] = 1556,
+							["hitamount"] = 6354,
 						},
-						["Thunderclap"] = {
-							["hitmin"] = 1952,
-							["id"] = 58975,
+						["Avalanche"] = {
+							["hitmin"] = 689,
+							["id"] = 55216,
+							["hitmax"] = 689,
 							["sources"] = {
-								["Drakkari Golem"] = {
-									["amount"] = 1952,
+								["Disturbed Glacial Revenant"] = {
+									["amount"] = 689,
 								},
 							},
 							["count"] = 1,
 							["hit"] = 1,
-							["school"] = 8,
-							["hitmax"] = 1952,
-							["amount"] = 1952,
-							["hitamount"] = 1952,
-						},
-						["Mojo Puddle (DoT)"] = {
-							["hitmin"] = 832,
-							["hitmax"] = 914,
-							["count"] = 10,
-							["amount"] = 8794,
-							["school"] = 8,
-							["id"] = 59451,
-							["hit"] = 10,
-							["hitamount"] = 8794,
-						},
-						["Mojo Volley"] = {
-							["hitmin"] = 1395,
-							["id"] = 59452,
-							["sources"] = {
-								["Drakkari Elemental"] = {
-									["amount"] = 4538,
-								},
-							},
-							["count"] = 3,
-							["hit"] = 3,
-							["school"] = 8,
-							["hitmax"] = 1605,
-							["amount"] = 4538,
-							["hitamount"] = 4538,
+							["school"] = 16,
+							["resisted"] = 172,
+							["amount"] = 689,
+							["hitamount"] = 689,
 						},
 					},
-					["overkill"] = 1858,
-					["name"] = "Wubobo",
-					["totaldamage"] = 74701,
-					["manaspells"] = {
-						[29077] = 782,
-						[67545] = 650,
-						[12051] = 10936,
-						[44450] = -97,
-					},
-					["mana"] = 12271,
-				}, -- [5]
-			},
-			["type"] = "party",
-			["damagetaken"] = 200303,
-			["gotboss"] = 29307,
-			["absorb"] = 18276,
-			["etotaldamage"] = 163779,
-			["overkill"] = 15138,
-			["edamagetaken"] = 896111,
-			["heal"] = 205112,
-			["name"] = "Drakkari Colossus",
-			["mobname"] = "Drakkari Colossus",
-			["starttime"] = 1689592281,
-			["edamage"] = 151699,
-			["last_action"] = 1689592358,
-			["endtime"] = 1689592359,
-		}, -- [7]
-		{
-			["mana"] = 15874,
-			["success"] = true,
-			["enemies"] = {
-				{
-					["damagespells"] = {
-						[6603] = {
-							["school"] = 1,
-							["targets"] = {
-								["Urgash"] = {
-									["amount"] = 354,
-								},
-							},
-							["amount"] = 354,
-						},
-					},
-					["damagetaken"] = 15751,
-					["id"] = "0xF1300074B20000D4",
-					["class"] = "MONSTER",
-					["damagetakenspells"] = {
-						[42463] = {
-							["school"] = 2,
-							["sources"] = {
-								["Gometius"] = {
-									["amount"] = 67,
-								},
-							},
-							["amount"] = 67,
-						},
-						[50526] = {
-							["school"] = 32,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 1122,
-								},
-							},
-							["amount"] = 1122,
-						},
-						[31803] = {
-							["school"] = 2,
-							["sources"] = {
-								["Gometius"] = {
-									["amount"] = 152,
-								},
-							},
-							["amount"] = 152,
-						},
-						[6603] = {
-							["school"] = 1,
-							["sources"] = {
-								["Gometius"] = {
-									["overkill"] = 576,
-									["amount"] = 1072,
-								},
-							},
-							["overkill"] = 576,
-							["amount"] = 1072,
-						},
-						[53595] = {
-							["school"] = 2,
-							["sources"] = {
-								["Gometius"] = {
-									["amount"] = 4432,
-								},
-							},
-							["amount"] = 4432,
-						},
-						[48819] = {
-							["school"] = 2,
-							["sources"] = {
-								["Gometius"] = {
-									["amount"] = 1976,
-								},
-							},
-							["amount"] = 1976,
-						},
-						[52212] = {
-							["school"] = 32,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 3159,
-								},
-							},
-							["amount"] = 3159,
-						},
-						[53022] = {
-							["school"] = 32,
-							["sources"] = {
-								["Zaralar"] = {
-									["amount"] = 2855,
-								},
-							},
-							["amount"] = 2855,
-						},
-						[71904] = {
-							["school"] = 32,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 916,
-								},
-							},
-							["amount"] = 916,
-						},
-					},
-					["totaldamage"] = 354,
-					["name"] = "Drakkari Inciter",
-					["totaldamagetaken"] = 15751,
-					["flag"] = 68168,
-					["damage"] = 354,
+					["heal"] = 512,
+					["name"] = "Urgash",
+					["ccdone"] = 1,
+					["overkill"] = 11184,
+					["overheal"] = 18794,
+					["totaldamage"] = 405318,
 				}, -- [1]
 				{
-					["damagespells"] = {
-						[6603] = {
-							["school"] = 1,
-							["total"] = 6548,
+					["ccdonespells"] = {
+						[48817] = {
+							["count"] = 5,
 							["targets"] = {
-								["Gometius"] = {
-									["total"] = 1777,
-									["amount"] = 0,
-								},
-								["Urgash"] = {
-									["amount"] = 12061,
-								},
+								["Fallen Warrior"] = 2,
+								["Wrathbone Skeleton"] = 3,
 							},
-							["amount"] = 12061,
-						},
-						[55567] = {
-							["school"] = 1,
-							["targets"] = {
-								["Urgash"] = {
-									["amount"] = 7293,
-								},
-							},
-							["amount"] = 7293,
 						},
 					},
-					["damagetaken"] = 177192,
-					["id"] = "0xF1300074850000AA",
-					["class"] = "MONSTER",
-					["damagetakenspells"] = {
-						[47632] = {
-							["school"] = 32,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 16200,
-								},
-							},
-							["amount"] = 16200,
-						},
-						[49930] = {
-							["school"] = 1,
-							["sources"] = {
-								["Urgash"] = {
-									["overkill"] = 1370,
-									["amount"] = 4348,
-								},
-							},
-							["overkill"] = 1370,
-							["amount"] = 4348,
-						},
-						[55078] = {
-							["school"] = 32,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 6055,
-								},
-							},
-							["amount"] = 6055,
-						},
-						[42463] = {
-							["school"] = 2,
-							["sources"] = {
-								["Gometius"] = {
-									["amount"] = 2393,
-								},
-							},
-							["amount"] = 2393,
-						},
-						[48819] = {
-							["school"] = 2,
-							["sources"] = {
-								["Gometius"] = {
-									["amount"] = 6640,
-								},
-							},
-							["amount"] = 6640,
-						},
-						[12654] = {
-							["school"] = 4,
-							["sources"] = {
-								["Wubobo"] = {
-									["amount"] = 285,
-								},
-							},
-							["amount"] = 285,
-						},
-						[53595] = {
-							["school"] = 2,
-							["sources"] = {
-								["Gometius"] = {
-									["amount"] = 9731,
-								},
-							},
-							["amount"] = 9731,
-						},
-						[70890] = {
-							["school"] = 32,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 3110,
-								},
-							},
-							["amount"] = 3110,
-						},
-						[55271] = {
-							["school"] = 1,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 6951,
-								},
-							},
-							["amount"] = 6951,
-						},
-						[48127] = {
-							["school"] = 32,
-							["sources"] = {
-								["Zaralar"] = {
-									["amount"] = 4258,
-								},
-							},
-							["amount"] = 4258,
-						},
-						[61411] = {
-							["school"] = 2,
-							["sources"] = {
-								["Gometius"] = {
-									["amount"] = 2775,
-								},
-							},
-							["amount"] = 2775,
-						},
-						[63675] = {
-							["school"] = 32,
-							["sources"] = {
-								["Zaralar"] = {
-									["amount"] = 2829,
-								},
-							},
-							["amount"] = 2829,
-						},
-						[48300] = {
-							["school"] = 32,
-							["sources"] = {
-								["Zaralar"] = {
-									["overkill"] = 3618,
-									["amount"] = 12585,
-								},
-							},
-							["overkill"] = 3618,
-							["amount"] = 12585,
-						},
-						[31804] = {
-							["school"] = 2,
-							["sources"] = {
-								["Gometius"] = {
-									["amount"] = 1703,
-								},
-							},
-							["amount"] = 1703,
-						},
-						[6603] = {
-							["school"] = 1,
-							["sources"] = {
-								["Gometius"] = {
-									["amount"] = 4368,
-								},
-								["Urgash"] = {
-									["amount"] = 17096,
-								},
-							},
-							["amount"] = 21464,
-						},
-						[55095] = {
-							["school"] = 16,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 6269,
-								},
-							},
-							["amount"] = 6269,
-						},
-						[50536] = {
-							["school"] = 32,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 1053,
-								},
-							},
-							["amount"] = 1053,
-						},
-						[55360] = {
-							["school"] = 4,
-							["sources"] = {
-								["Wubobo"] = {
-									["amount"] = 3059,
-								},
-							},
-							["amount"] = 3059,
-						},
-						[52212] = {
-							["school"] = 32,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 21896,
-								},
-							},
-							["amount"] = 21896,
-						},
-						[50526] = {
-							["school"] = 32,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 13523,
-								},
-							},
-							["amount"] = 13523,
-						},
-						[54158] = {
-							["school"] = 2,
-							["sources"] = {
-								["Ynnou"] = {
-									["amount"] = 1189,
-								},
-							},
-							["amount"] = 1189,
-						},
-						[49921] = {
-							["school"] = 1,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 4641,
-								},
-							},
-							["amount"] = 4641,
-						},
-						[53022] = {
-							["school"] = 32,
-							["sources"] = {
-								["Zaralar"] = {
-									["amount"] = 10282,
-								},
-							},
-							["amount"] = 10282,
-						},
-						[48125] = {
-							["school"] = 32,
-							["sources"] = {
-								["Zaralar"] = {
-									["amount"] = 5538,
-								},
-							},
-							["amount"] = 5538,
-						},
-						[31803] = {
-							["school"] = 2,
-							["sources"] = {
-								["Gometius"] = {
-									["amount"] = 2588,
-								},
-							},
-							["amount"] = 2588,
-						},
-						[42950] = {
-							["school"] = 4,
-							["sources"] = {
-								["Wubobo"] = {
-									["amount"] = 3999,
-								},
-							},
-							["amount"] = 3999,
-						},
-						[71904] = {
-							["school"] = 32,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 1828,
-								},
-							},
-							["amount"] = 1828,
-						},
-					},
-					["totaldamage"] = 21131,
-					["name"] = "Drakkari Earthshaker",
-					["totaldamagetaken"] = 177192,
-					["flag"] = 2632,
-					["damage"] = 19354,
-				}, -- [2]
-				{
-					["damagespells"] = {
-						[6603] = {
-							["school"] = 1,
-							["total"] = 16094,
-							["targets"] = {
-								["Gometius"] = {
-									["total"] = 2415,
-									["amount"] = 0,
-								},
-								["Urgash"] = {
-									["amount"] = 13679,
-								},
-							},
-							["amount"] = 13679,
-						},
-						[55104] = {
-							["school"] = 1,
-							["targets"] = {
-								["Urgash"] = {
-									["amount"] = 1058,
-								},
-							},
-							["amount"] = 1058,
-						},
-						[55142] = {
-							["school"] = 1,
-							["total"] = 7851,
-							["targets"] = {
-								["Gometius"] = {
-									["amount"] = 971,
-								},
-								["Urgash"] = {
-									["amount"] = 1385,
-								},
-								["Wubobo"] = {
-									["amount"] = 2456,
-								},
-								["Ynnou"] = {
-									["amount"] = 1315,
-								},
-								["Zaralar"] = {
-									["total"] = 1724,
-									["amount"] = 0,
-								},
-							},
-							["amount"] = 6127,
-						},
-						[59444] = {
-							["school"] = 1,
-							["total"] = 2045,
-							["targets"] = {
-								["Gometius"] = {
-									["total"] = 2045,
-									["amount"] = 1060,
-								},
-							},
-							["amount"] = 1060,
-						},
-					},
-					["damagetaken"] = 435421,
-					["flag"] = 68168,
-					["class"] = "BOSS",
-					["damagetakenspells"] = {
-						[42859] = {
-							["school"] = 4,
-							["sources"] = {
-								["Wubobo"] = {
-									["amount"] = 1285,
-								},
-							},
-							["amount"] = 1285,
-						},
-						[49921] = {
-							["school"] = 1,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 6579,
-								},
-							},
-							["amount"] = 6579,
-						},
-						[55095] = {
-							["school"] = 16,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 8996,
-								},
-							},
-							["amount"] = 8996,
-						},
-						[54158] = {
-							["school"] = 2,
-							["sources"] = {
-								["Ynnou"] = {
-									["amount"] = 3565,
-								},
-							},
-							["amount"] = 3565,
-						},
-						[58381] = {
-							["school"] = 32,
-							["sources"] = {
-								["Zaralar"] = {
-									["amount"] = 47465,
-								},
-							},
-							["amount"] = 47465,
-						},
-						[47610] = {
-							["school"] = 20,
-							["sources"] = {
-								["Wubobo"] = {
-									["amount"] = 33874,
-								},
-							},
-							["amount"] = 33874,
-						},
-						[61411] = {
-							["school"] = 2,
-							["sources"] = {
-								["Gometius"] = {
-									["amount"] = 12536,
-								},
-							},
-							["amount"] = 12536,
-						},
-						[42891] = {
-							["school"] = 4,
-							["sources"] = {
-								["Wubobo"] = {
-									["amount"] = 13718,
-								},
-							},
-							["amount"] = 13718,
-						},
-						[48819] = {
-							["school"] = 2,
-							["sources"] = {
-								["Gometius"] = {
-									["amount"] = 5008,
-								},
-							},
-							["amount"] = 5008,
-						},
-						[50526] = {
-							["school"] = 32,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 9356,
-								},
-							},
-							["amount"] = 9356,
-						},
-						[47632] = {
-							["school"] = 32,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 31155,
-								},
-							},
-							["amount"] = 31155,
-						},
-						[50536] = {
-							["school"] = 32,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 2814,
-								},
-							},
-							["amount"] = 2814,
-						},
-						[12654] = {
-							["school"] = 4,
-							["sources"] = {
-								["Wubobo"] = {
-									["amount"] = 10261,
-								},
-							},
-							["amount"] = 10261,
-						},
-						[55078] = {
-							["school"] = 32,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 8786,
-								},
-							},
-							["amount"] = 8786,
-						},
-						[71904] = {
-							["school"] = 32,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 2812,
-								},
-							},
-							["amount"] = 2812,
-						},
-						[55271] = {
-							["school"] = 1,
-							["sources"] = {
-								["Urgash"] = {
-									["overkill"] = 4029,
-									["amount"] = 18339,
-								},
-							},
-							["overkill"] = 4029,
-							["amount"] = 18339,
-						},
-						[48158] = {
-							["school"] = 32,
-							["sources"] = {
-								["Zaralar"] = {
-									["amount"] = 3510,
-								},
-							},
-							["amount"] = 3510,
-						},
-						[48160] = {
-							["school"] = 32,
-							["sources"] = {
-								["Zaralar"] = {
-									["amount"] = 18045,
-								},
-							},
-							["amount"] = 18045,
-						},
-						[31803] = {
-							["school"] = 2,
-							["sources"] = {
-								["Gometius"] = {
-									["amount"] = 6409,
-								},
-							},
-							["amount"] = 6409,
-						},
-						[31804] = {
-							["school"] = 2,
-							["sources"] = {
-								["Gometius"] = {
-									["amount"] = 3406,
-								},
-							},
-							["amount"] = 3406,
-						},
-						[48300] = {
-							["school"] = 32,
-							["sources"] = {
-								["Zaralar"] = {
-									["amount"] = 26781,
-								},
-							},
-							["amount"] = 26781,
-						},
-						[48806] = {
-							["school"] = 2,
-							["sources"] = {
-								["Gometius"] = {
-									["amount"] = 2693,
-								},
-							},
-							["amount"] = 2693,
-						},
-						[55360] = {
-							["school"] = 4,
-							["sources"] = {
-								["Wubobo"] = {
-									["amount"] = 4934,
-								},
-							},
-							["amount"] = 4934,
-						},
-						[52212] = {
-							["school"] = 32,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 10663,
-								},
-							},
-							["amount"] = 10663,
-						},
-						[48125] = {
-							["school"] = 32,
-							["sources"] = {
-								["Zaralar"] = {
-									["amount"] = 17172,
-								},
-							},
-							["amount"] = 17172,
-						},
-						[48127] = {
-							["school"] = 32,
-							["sources"] = {
-								["Zaralar"] = {
-									["amount"] = 4931,
-								},
-							},
-							["amount"] = 4931,
-						},
-						[42463] = {
-							["school"] = 2,
-							["sources"] = {
-								["Gometius"] = {
-									["amount"] = 8103,
-								},
-							},
-							["amount"] = 8103,
-						},
-						[55362] = {
-							["school"] = 4,
-							["sources"] = {
-								["Wubobo"] = {
-									["amount"] = 2829,
-								},
-							},
-							["amount"] = 2829,
-						},
-						[49930] = {
-							["school"] = 1,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 14552,
-								},
-							},
-							["amount"] = 14552,
-						},
-						[67485] = {
-							["school"] = 2,
-							["sources"] = {
-								["Gometius"] = {
-									["amount"] = 5963,
-								},
-							},
-							["amount"] = 5963,
-						},
-						[53595] = {
-							["school"] = 2,
-							["sources"] = {
-								["Gometius"] = {
-									["amount"] = 8900,
-								},
-							},
-							["amount"] = 8900,
-						},
-						[6603] = {
-							["school"] = 1,
-							["sources"] = {
-								["Gometius"] = {
-									["amount"] = 11999,
-								},
-								["Urgash"] = {
-									["amount"] = 54239,
-								},
-							},
-							["amount"] = 66238,
-						},
-						[70890] = {
-							["school"] = 32,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 4224,
-								},
-							},
-							["amount"] = 4224,
-						},
-						[49909] = {
-							["school"] = 16,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 1295,
-								},
-							},
-							["amount"] = 1295,
-						},
-						[63675] = {
-							["school"] = 32,
-							["sources"] = {
-								["Zaralar"] = {
-									["amount"] = 8224,
-								},
-							},
-							["amount"] = 8224,
-						},
-					},
-					["name"] = "Moorabi",
-					["totaldamage"] = 27048,
-					["totaldamagetaken"] = 435421,
-					["id"] = "0xF130007279000026",
-					["damage"] = 21924,
-				}, -- [3]
-			},
-			["absorb"] = 8572,
-			["totaldamage"] = 628364,
-			["time"] = 53,
-			["etotaldamagetaken"] = 628364,
-			["totaldamagetaken"] = 50204,
-			["etotaldamage"] = 48533,
-			["last_time"] = 18035.904,
-			["players"] = {
-				{
-					["last"] = 18032.83,
-					["flag"] = 1297,
-					["class"] = "DEATHKNIGHT",
+					["last"] = 18781.588,
+					["flag"] = 1298,
+					["class"] = "PALADIN",
 					["auras"] = {
-						[75456] = {
+						[20375] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 64,
-							["uptime"] = 15,
+							["uptime"] = 86,
+						},
+						[48470] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 86,
+						},
+						[48068] = {
+							["type"] = "BUFF",
+							["count"] = 3,
+							["school"] = 2,
+							["refresh"] = 1,
+							["uptime"] = 56,
 						},
 						[48162] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 53,
+							["uptime"] = 86,
 						},
-						[70657] = {
+						[48066] = {
 							["type"] = "BUFF",
-							["count"] = 1,
-							["refresh"] = 17,
-							["uptime"] = 53,
+							["count"] = 2,
+							["school"] = 2,
+							["uptime"] = 2,
 						},
-						[55078] = {
+						[68055] = {
 							["type"] = "DEBUFF",
-							["count"] = 5,
-							["school"] = 32,
-							["refresh"] = 1,
+							["count"] = 6,
+							["school"] = 2,
 							["targets"] = {
-								["Drakkari Earthshaker"] = {
-									["count"] = 2,
-									["refresh"] = 1,
+								["Fallen Warrior"] = {
 									["uptime"] = 10,
-								},
-								["Moorabi"] = {
-									["uptime"] = 26,
 									["count"] = 2,
 								},
-								["Drakkari Inciter"] = {
+								["Disturbed Glacial Revenant"] = {
 									["uptime"] = 2,
 									["count"] = 1,
 								},
+								["Wrathbone Skeleton"] = {
+									["uptime"] = 3,
+									["count"] = 3,
+								},
 							},
-							["uptime"] = 36,
+							["uptime"] = 15,
 						},
-						[73422] = {
-							["type"] = "BUFF",
-							["count"] = 2,
-							["school"] = 1,
-							["uptime"] = 20,
-						},
-						[71905] = {
-							["type"] = "BUFF",
-							["count"] = 3,
-							["refresh"] = 13,
-							["school"] = 1,
-							["uptime"] = 25,
-						},
-						[57623] = {
+						[63944] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["refresh"] = 2,
-							["uptime"] = 53,
+							["uptime"] = 86,
 						},
-						[71227] = {
-							["type"] = "BUFF",
-							["count"] = 3,
-							["refresh"] = 4,
-							["school"] = 8,
-							["uptime"] = 47,
-						},
-						[48170] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 53,
-						},
-						[49938] = {
-							["type"] = "DEBUFF",
-							["count"] = 3,
-							["school"] = 32,
-							["targets"] = {
-								["Moorabi"] = {
-									["uptime"] = 10,
-									["count"] = 1,
-								},
-								["Drakkari Earthshaker"] = {
-									["uptime"] = 19,
-									["count"] = 2,
-								},
-							},
-							["uptime"] = 19,
-						},
-						[48265] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 53,
-						},
-						[28878] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 53,
-						},
-						[43002] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 53,
-						},
-						[71559] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 12,
-						},
-						[72412] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["uptime"] = 10,
-						},
-						[55095] = {
+						[48817] = {
 							["type"] = "DEBUFF",
 							["count"] = 5,
-							["school"] = 16,
-							["refresh"] = 1,
+							["school"] = 2,
 							["targets"] = {
-								["Drakkari Earthshaker"] = {
-									["count"] = 2,
-									["refresh"] = 1,
-									["uptime"] = 11,
-								},
-								["Moorabi"] = {
-									["uptime"] = 27,
-									["count"] = 2,
-								},
-								["Drakkari Inciter"] = {
-									["uptime"] = 2,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 38,
-						},
-						[50536] = {
-							["type"] = "DEBUFF",
-							["count"] = 2,
-							["school"] = 32,
-							["refresh"] = 6,
-							["targets"] = {
-								["Moorabi"] = {
-									["count"] = 1,
-									["refresh"] = 5,
-									["uptime"] = 24,
-								},
-								["Drakkari Earthshaker"] = {
-									["count"] = 1,
-									["refresh"] = 1,
-									["uptime"] = 7,
-								},
-							},
-							["uptime"] = 31,
-						},
-						[68766] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 32,
-							["targets"] = {
-								["Drakkari Inciter"] = {
+								["Fallen Warrior"] = {
 									["uptime"] = 3,
-									["count"] = 1,
+									["count"] = 2,
+								},
+								["Wrathbone Skeleton"] = {
+									["uptime"] = 2,
+									["count"] = 3,
 								},
 							},
 							["uptime"] = 3,
@@ -22482,393 +5223,1978 @@ SkadaStorageDB = {
 						[48942] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 53,
+							["uptime"] = 86,
 						},
-						[51735] = {
+						[57623] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["refresh"] = 3,
+							["uptime"] = 86,
+						},
+						[25898] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 86,
+						},
+						[48170] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 86,
+						},
+						[25899] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 86,
+						},
+						[63529] = {
+							["type"] = "DEBUFF",
+							["count"] = 5,
+							["school"] = 1,
+							["targets"] = {
+								["Fallen Warrior"] = {
+									["uptime"] = 2,
+									["count"] = 2,
+								},
+								["Disturbed Glacial Revenant"] = {
+									["uptime"] = 3,
+									["count"] = 1,
+								},
+								["Wrathbone Skeleton"] = {
+									["uptime"] = 3,
+									["count"] = 2,
+								},
+							},
+							["uptime"] = 5,
+						},
+						[48111] = {
+							["type"] = "BUFF",
+							["count"] = 4,
+							["school"] = 2,
+							["uptime"] = 6,
+						},
+						[62124] = {
 							["type"] = "DEBUFF",
 							["count"] = 4,
-							["school"] = 32,
-							["refresh"] = 5,
+							["school"] = 2,
 							["targets"] = {
-								["Drakkari Earthshaker"] = {
-									["count"] = 2,
-									["refresh"] = 2,
-									["uptime"] = 11,
-								},
-								["Moorabi"] = {
+								["Fallen Warrior"] = {
+									["uptime"] = 3,
 									["count"] = 1,
-									["refresh"] = 3,
-									["uptime"] = 28,
 								},
-								["Drakkari Inciter"] = {
-									["uptime"] = 2,
+								["Disturbed Glacial Revenant"] = {
+									["uptime"] = 6,
+									["count"] = 2,
+								},
+								["Wrathbone Skeleton"] = {
+									["uptime"] = 3,
 									["count"] = 1,
 								},
 							},
-							["uptime"] = 39,
+							["uptime"] = 12,
 						},
-						[72221] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 53,
+						[54499] = {
+							["type"] = "DEBUFF",
+							["count"] = 7,
+							["school"] = 2,
+							["targets"] = {
+								["Fallen Warrior"] = {
+									["uptime"] = 4,
+									["count"] = 2,
+								},
+								["Disturbed Glacial Revenant"] = {
+									["uptime"] = 1,
+									["count"] = 2,
+								},
+								["Wrathbone Skeleton"] = {
+									["uptime"] = 14,
+									["count"] = 3,
+								},
+							},
+							["uptime"] = 19,
 						},
-						[53365] = {
+						[48827] = {
+							["type"] = "DEBUFF",
+							["count"] = 5,
+							["school"] = 2,
+							["targets"] = {
+								["Fallen Warrior"] = {
+									["uptime"] = 2,
+									["count"] = 2,
+								},
+								["Disturbed Glacial Revenant"] = {
+									["uptime"] = 6,
+									["count"] = 1,
+								},
+								["Wrathbone Skeleton"] = {
+									["uptime"] = 5,
+									["count"] = 2,
+								},
+							},
+							["uptime"] = 8,
+						},
+						[20007] = {
 							["type"] = "BUFF",
 							["count"] = 2,
 							["school"] = 1,
+							["refresh"] = 1,
+							["uptime"] = 40,
+						},
+						[47930] = {
+							["type"] = "BUFF",
+							["count"] = 3,
+							["school"] = 2,
+							["refresh"] = 14,
+							["uptime"] = 74,
+						},
+						[26017] = {
+							["type"] = "DEBUFF",
+							["count"] = 15,
+							["school"] = 2,
+							["refresh"] = 4,
+							["targets"] = {
+								["Wrathbone Sorcerer"] = {
+									["uptime"] = 2,
+									["count"] = 1,
+								},
+								["Wrathbone Skeleton"] = {
+									["uptime"] = 14,
+									["count"] = 5,
+								},
+								["Fallen Warrior"] = {
+									["count"] = 7,
+									["refresh"] = 4,
+									["uptime"] = 19,
+								},
+							},
+							["uptime"] = 24,
+						},
+						[48819] = {
+							["type"] = "DEBUFF",
+							["count"] = 16,
+							["school"] = 2,
+							["targets"] = {
+								["Fallen Warrior"] = {
+									["uptime"] = 27,
+									["count"] = 6,
+								},
+								["Disturbed Glacial Revenant"] = {
+									["uptime"] = 8,
+									["count"] = 1,
+								},
+								["Wrathbone Skeleton"] = {
+									["uptime"] = 24,
+									["count"] = 9,
+								},
+							},
+							["uptime"] = 27,
+						},
+						[25780] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 86,
+						},
+						[15359] = {
+							["type"] = "BUFF",
+							["count"] = 3,
+							["school"] = 2,
 							["refresh"] = 3,
-							["uptime"] = 36,
+							["uptime"] = 52,
+						},
+						[57669] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 86,
+						},
+						[54043] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 86,
+						},
+						[71197] = {
+							["type"] = "BUFF",
+							["count"] = 4,
+							["refresh"] = 3,
+							["school"] = 8,
+							["uptime"] = 82,
+						},
+						[20186] = {
+							["type"] = "DEBUFF",
+							["count"] = 7,
+							["school"] = 2,
+							["targets"] = {
+								["Fallen Warrior"] = {
+									["uptime"] = 4,
+									["count"] = 2,
+								},
+								["Disturbed Glacial Revenant"] = {
+									["uptime"] = 1,
+									["count"] = 2,
+								},
+								["Wrathbone Skeleton"] = {
+									["uptime"] = 14,
+									["count"] = 3,
+								},
+							},
+							["uptime"] = 19,
+						},
+						[47753] = {
+							["type"] = "BUFF",
+							["count"] = 5,
+							["school"] = 2,
+							["refresh"] = 2,
+							["uptime"] = 33,
+						},
+						[20132] = {
+							["type"] = "BUFF",
+							["count"] = 4,
+							["school"] = 1,
+							["uptime"] = 38,
+						},
+						[24932] = {
+							["type"] = "BUFF",
+							["count"] = 3,
+							["school"] = 1,
+							["uptime"] = 79,
 						},
 						[48074] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 53,
-						},
-						[19746] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 53,
+							["uptime"] = 86,
 						},
 					},
-					["time"] = 45.57,
-					["totaldamagetaken"] = 35830,
-					["damage"] = 281977,
+					["time"] = 67.60999999999999,
+					["totaldamagetaken"] = 95614,
+					["damage"] = 247867,
 					["damagespells"] = {
-						["Scourge Strike"] = {
-							["DODGE"] = 3,
-							["criticalmin"] = 8244,
-							["hitmin"] = 3160,
-							["criticalamount"] = 8244,
-							["id"] = 55271,
-							["criticalmax"] = 8244,
+						["Consecration (DoT)"] = {
+							["hitmin"] = 319,
+							["id"] = 48819,
 							["targets"] = {
-								["Moorabi"] = {
-									["overkill"] = 4029,
-									["amount"] = 18339,
+								["Wrathbone Skeleton"] = {
+									["amount"] = 17700,
 								},
-								["Drakkari Earthshaker"] = {
-									["amount"] = 6951,
+								["Disturbed Glacial Revenant"] = {
+									["amount"] = 2715,
+								},
+								["Fallen Warrior"] = {
+									["amount"] = 20217,
 								},
 							},
-							["overkill"] = 4029,
-							["critical"] = 1,
-							["casts"] = 9,
-							["count"] = 9,
-							["hit"] = 5,
-							["school"] = 1,
-							["hitmax"] = 3543,
-							["amount"] = 25290,
-							["hitamount"] = 17046,
+							["casts"] = 4,
+							["count"] = 109,
+							["hit"] = 109,
+							["school"] = 2,
+							["hitmax"] = 408,
+							["amount"] = 40632,
+							["hitamount"] = 40632,
 						},
 						["Melee"] = {
-							["glance"] = 5152,
-							["hitmin"] = 2668,
-							["criticalmin"] = 5461,
+							["glance"] = 1208,
+							["hitmin"] = 464,
+							["criticalmin"] = 962,
 							["targets"] = {
-								["Moorabi"] = {
-									["amount"] = 54239,
+								["Wrathbone Sorcerer"] = {
+									["amount"] = 1094,
 								},
-								["Drakkari Earthshaker"] = {
-									["amount"] = 17096,
+								["Fallen Warrior"] = {
+									["amount"] = 11645,
+								},
+								["Disturbed Glacial Revenant"] = {
+									["amount"] = 4509,
+								},
+								["Wrathbone Skeleton"] = {
+									["amount"] = 3384,
 								},
 							},
 							["glancing"] = 2,
-							["amount"] = 71335,
-							["glancemin"] = 2270,
-							["criticalamount"] = 54954,
+							["amount"] = 20632,
+							["glancemin"] = 589,
+							["criticalamount"] = 9366,
 							["id"] = 6603,
-							["glancemax"] = 2882,
-							["blocked"] = 41,
-							["criticalmax"] = 6841,
-							["hitmax"] = 2996,
-							["hit"] = 4,
+							["glancemax"] = 619,
+							["critical"] = 8,
+							["criticalmax"] = 1356,
+							["count"] = 28,
+							["hit"] = 18,
 							["school"] = 1,
-							["critical"] = 9,
-							["count"] = 15,
-							["hitamount"] = 11229,
+							["blocked"] = 80,
+							["hitmax"] = 626,
+							["hitamount"] = 10058,
 						},
-						["Chaos Bane"] = {
-							["hitmin"] = 912,
-							["id"] = 71904,
+						["Retribution Aura"] = {
+							["hitmin"] = 272,
+							["id"] = 54043,
 							["targets"] = {
-								["Drakkari Earthshaker"] = {
-									["amount"] = 1828,
+								["Wrathbone Skeleton"] = {
+									["amount"] = 2666,
 								},
-								["Moorabi"] = {
-									["amount"] = 2812,
+								["Disturbed Glacial Revenant"] = {
+									["amount"] = 688,
 								},
-								["Drakkari Inciter"] = {
-									["amount"] = 916,
+								["Fallen Warrior"] = {
+									["amount"] = 4161,
+								},
+							},
+							["casts"] = 1,
+							["count"] = 25,
+							["hit"] = 25,
+							["school"] = 2,
+							["hitmax"] = 351,
+							["amount"] = 7515,
+							["hitamount"] = 7515,
+						},
+						["Hand of Reckoning"] = {
+							["hitmin"] = 2090,
+							["id"] = 67485,
+							["targets"] = {
+								["Fallen Warrior"] = {
+									["amount"] = 2612,
+								},
+								["Disturbed Glacial Revenant"] = {
+									["amount"] = 5314,
+								},
+								["Wrathbone Skeleton"] = {
+									["amount"] = 2090,
+								},
+							},
+							["casts"] = 5,
+							["count"] = 4,
+							["hit"] = 4,
+							["school"] = 2,
+							["hitmax"] = 2952,
+							["amount"] = 10016,
+							["hitamount"] = 10016,
+						},
+						["Hammer of the Righteous"] = {
+							["criticalmax"] = 5584,
+							["hitmin"] = 2143,
+							["criticalamount"] = 30718,
+							["id"] = 53595,
+							["criticalmin"] = 4842,
+							["targets"] = {
+								["Wrathbone Sorcerer"] = {
+									["amount"] = 2143,
+								},
+								["Fallen Warrior"] = {
+									["amount"] = 41705,
+								},
+								["Disturbed Glacial Revenant"] = {
+									["amount"] = 8023,
+								},
+								["Wrathbone Skeleton"] = {
+									["overkill"] = 1774,
+									["amount"] = 14759,
+								},
+							},
+							["overkill"] = 1774,
+							["critical"] = 6,
+							["casts"] = 8,
+							["count"] = 21,
+							["hit"] = 15,
+							["school"] = 2,
+							["hitmax"] = 2771,
+							["amount"] = 66630,
+							["hitamount"] = 35912,
+						},
+						["Judgement of Command"] = {
+							["hitmin"] = 535,
+							["criticalamount"] = 4980,
+							["id"] = 20467,
+							["hitmax"] = 732,
+							["targets"] = {
+								["Fallen Warrior"] = {
+									["amount"] = 2592,
+								},
+								["Disturbed Glacial Revenant"] = {
+									["amount"] = 1374,
+								},
+								["Wrathbone Skeleton"] = {
+									["amount"] = 2923,
+								},
+							},
+							["count"] = 7,
+							["hit"] = 3,
+							["casts"] = 1,
+							["critical"] = 4,
+							["amount"] = 6889,
+							["school"] = 2,
+							["criticalmin"] = 1086,
+							["criticalmax"] = 1506,
+							["hitamount"] = 1909,
+						},
+						["Avenger's Shield"] = {
+							["hitmin"] = 1743,
+							["criticalamount"] = 3826,
+							["id"] = 48827,
+							["criticalmin"] = 3826,
+							["targets"] = {
+								["Fallen Warrior"] = {
+									["amount"] = 4122,
+								},
+								["Disturbed Glacial Revenant"] = {
+									["amount"] = 3826,
+								},
+								["Wrathbone Skeleton"] = {
+									["amount"] = 3613,
+								},
+							},
+							["criticalmax"] = 3826,
+							["critical"] = 1,
+							["casts"] = 2,
+							["count"] = 5,
+							["hit"] = 4,
+							["school"] = 2,
+							["hitmax"] = 2075,
+							["amount"] = 11561,
+							["hitamount"] = 7735,
+						},
+						["Seal of Command"] = {
+							["DODGE"] = 1,
+							["hitmin"] = 252,
+							["criticalmin"] = 548,
+							["targets"] = {
+								["Wrathbone Sorcerer"] = {
+									["amount"] = 1196,
+								},
+								["Fallen Warrior"] = {
+									["amount"] = 29060,
+								},
+								["Disturbed Glacial Revenant"] = {
+									["amount"] = 4106,
+								},
+								["Wrathbone Skeleton"] = {
+									["overkill"] = 343,
+									["amount"] = 17608,
+								},
+							},
+							["amount"] = 51970,
+							["criticalamount"] = 17012,
+							["id"] = 69403,
+							["criticalmax"] = 872,
+							["overkill"] = 343,
+							["critical"] = 24,
+							["casts"] = 1,
+							["hitmax"] = 441,
+							["hit"] = 98,
+							["school"] = 2,
+							["blocked"] = 320,
+							["count"] = 123,
+							["hitamount"] = 34958,
+						},
+						["Shield of Righteousness"] = {
+							["hitmin"] = 3100,
+							["id"] = 61411,
+							["targets"] = {
+								["Wrathbone Sorcerer"] = {
+									["overkill"] = 2123,
+									["amount"] = 3100,
+								},
+								["Disturbed Glacial Revenant"] = {
+									["amount"] = 3526,
+								},
+								["Fallen Warrior"] = {
+									["amount"] = 13249,
+								},
+							},
+							["overkill"] = 2123,
+							["casts"] = 6,
+							["count"] = 6,
+							["hit"] = 6,
+							["school"] = 2,
+							["hitmax"] = 3526,
+							["amount"] = 19875,
+							["hitamount"] = 19875,
+						},
+						["Holy Wrath"] = {
+							["hitmin"] = 1898,
+							["criticalamount"] = 6019,
+							["id"] = 48817,
+							["criticalmin"] = 2986,
+							["targets"] = {
+								["Fallen Warrior"] = {
+									["amount"] = 5112,
+								},
+								["Wrathbone Skeleton"] = {
+									["amount"] = 7035,
+								},
+							},
+							["criticalmax"] = 3033,
+							["critical"] = 2,
+							["casts"] = 1,
+							["count"] = 5,
+							["hit"] = 3,
+							["school"] = 2,
+							["hitmax"] = 2126,
+							["amount"] = 12147,
+							["hitamount"] = 6128,
+						},
+					},
+					["overheal"] = 781,
+					["damagetaken"] = 77651,
+					["id"] = "0x070000000095DC85",
+					["spec"] = 66,
+					["healspells"] = {
+						[34299] = {
+							["overheal"] = 758,
+							["targets"] = {
+								["Crazydqs"] = {
+									["overheal"] = 758,
+									["amount"] = 4545,
+								},
+							},
+							["count"] = 7,
+							["amount"] = 4545,
+							["school"] = 1,
+							["max"] = 758,
+							["ishot"] = true,
+							["min"] = 757,
+						},
+						[20007] = {
+							["overheal"] = 23,
+							["max"] = 24,
+							["count"] = 3,
+							["amount"] = 44,
+							["school"] = 1,
+							["min"] = 20,
+							["targets"] = {
+								["Crazydqs"] = {
+									["overheal"] = 23,
+									["amount"] = 44,
+								},
+							},
+						},
+					},
+					["damagetakenspells"] = {
+						["Arcing Slice"] = {
+							["DODGE"] = 3,
+							["total"] = 33387,
+							["hitmin"] = 2764,
+							["id"] = 69579,
+							["blocked"] = 2076,
+							["ABSORB"] = 1,
+							["sources"] = {
+								["Fallen Warrior"] = {
+									["total"] = 33387,
+									["amount"] = 27929,
+								},
+							},
+							["count"] = 10,
+							["hit"] = 6,
+							["school"] = 1,
+							["hitmax"] = 6312,
+							["amount"] = 27929,
+							["hitamount"] = 27929,
+						},
+						["Melee"] = {
+							["DODGE"] = 12,
+							["total"] = 60472,
+							["hitmin"] = 6,
+							["BLOCK"] = 2,
+							["id"] = 6603,
+							["ABSORB"] = 3,
+							["blocked"] = 16266,
+							["hitmax"] = 3529,
+							["PARRY"] = 9,
+							["sources"] = {
+								["Wrathbone Sorcerer"] = {
+									["amount"] = 0,
+								},
+								["Fallen Warrior"] = {
+									["total"] = 35898,
+									["amount"] = 27096,
+								},
+								["Disturbed Glacial Revenant"] = {
+									["amount"] = 6200,
+								},
+								["Wrathbone Skeleton"] = {
+									["total"] = 18374,
+									["amount"] = 15395,
+								},
+							},
+							["count"] = 59,
+							["amount"] = 48691,
+							["school"] = 1,
+							["hit"] = 25,
+							["MISS"] = 8,
+							["hitamount"] = 48691,
+						},
+						["Avalanche"] = {
+							["total"] = 1755,
+							["hitmin"] = 1031,
+							["id"] = 55216,
+							["hitmax"] = 1031,
+							["sources"] = {
+								["Disturbed Glacial Revenant"] = {
+									["total"] = 1755,
+									["amount"] = 1031,
+								},
+							},
+							["count"] = 2,
+							["ABSORB"] = 1,
+							["school"] = 16,
+							["amount"] = 1031,
+							["hit"] = 1,
+							["hitamount"] = 1031,
+						},
+					},
+					["overkill"] = 4240,
+					["heal"] = 4589,
+					["name"] = "Crazydqs",
+					["ccdone"] = 5,
+					["manaspells"] = {
+						[31786] = 4593,
+						[20268] = 2262,
+						[57319] = 4556,
+					},
+					["mana"] = 11411,
+					["totaldamage"] = 247867,
+					["role"] = "TANK",
+				}, -- [2]
+				{
+					["last"] = 18780.32,
+					["flag"] = 1298,
+					["class"] = "PRIEST",
+					["auras"] = {
+						[24932] = {
+							["type"] = "BUFF",
+							["count"] = 3,
+							["school"] = 1,
+							["uptime"] = 79,
+						},
+						[48470] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 86,
+						},
+						[48162] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 86,
+						},
+						[48938] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 86,
+						},
+						[29166] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 8,
+							["uptime"] = 10,
+						},
+						[63944] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["refresh"] = 2,
+							["uptime"] = 86,
+						},
+						[48074] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 86,
+						},
+						[48168] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 86,
+						},
+						[25898] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 86,
+						},
+						[48170] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 86,
+						},
+						[59891] = {
+							["type"] = "BUFF",
+							["count"] = 3,
+							["refresh"] = 4,
+							["school"] = 2,
+							["uptime"] = 17,
+						},
+						[57669] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 86,
+						},
+						[54043] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 86,
+						},
+						[6788] = {
+							["type"] = "DEBUFF",
+							["count"] = 6,
+							["school"] = 2,
+							["targets"] = {
+								["Crazydqs"] = {
+									["uptime"] = 30,
+									["count"] = 2,
+								},
+								["Yiyuan"] = {
+									["uptime"] = 15,
+									["count"] = 1,
+								},
+								["Najgora"] = {
+									["uptime"] = 15,
+									["count"] = 1,
+								},
+								["Zyablik"] = {
+									["uptime"] = 30,
+									["count"] = 2,
+								},
+							},
+							["uptime"] = 35,
+						},
+						[48111] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 2,
+							["uptime"] = 30,
+						},
+						[48066] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 2,
+							["uptime"] = 55,
+						},
+						[57623] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["refresh"] = 3,
+							["uptime"] = 86,
+						},
+						[48942] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 86,
+						},
+					},
+					["absorbspells"] = {
+						[48066] = {
+							["min"] = 220,
+							["casts"] = 7,
+							["count"] = 19,
+							["amount"] = 43977,
+							["max"] = 5342,
+							["targets"] = {
+								["Crazydqs"] = 10684,
+								["Urgash"] = 5342,
+								["Zyablik"] = 10684,
+								["Najgora"] = 7894,
+								["Yiyuan"] = 9373,
+							},
+							["school"] = 2,
+						},
+						[47753] = {
+							["min"] = 507,
+							["casts"] = 6,
+							["count"] = 6,
+							["amount"] = 7279,
+							["school"] = 2,
+							["targets"] = {
+								["Crazydqs"] = 7279,
+							},
+							["max"] = 2178,
+						},
+					},
+					["role"] = "HEALER",
+					["time"] = 60.85999999999999,
+					["totaldamagetaken"] = 8187,
+					["overheal"] = 31544,
+					["absorb"] = 51256,
+					["damagetaken"] = 293,
+					["id"] = "0x070000000096F606",
+					["spec"] = 256,
+					["healspells"] = {
+						[33110] = {
+							["overheal"] = 1363,
+							["criticalamount"] = 4584,
+							["max"] = 4584,
+							["targets"] = {
+								["Crazydqs"] = {
+									["overheal"] = 0,
+									["amount"] = 13424,
+								},
+								["Urgash"] = {
+									["overheal"] = 1363,
+									["amount"] = 7393,
+								},
+							},
+							["min"] = 1556,
+							["criticalmax"] = 4584,
+							["count"] = 7,
+							["amount"] = 20817,
+							["school"] = 2,
+							["criticalmin"] = 4584,
+							["critical"] = 1,
+						},
+						[52985] = {
+							["overheal"] = 7826,
+							["criticalamount"] = 13191,
+							["max"] = 4404,
+							["targets"] = {
+								["Crazydqs"] = {
+									["overheal"] = 7826,
+									["amount"] = 25256,
+								},
+							},
+							["criticalmin"] = 1546,
+							["min"] = 1546,
+							["criticalmax"] = 4404,
+							["critical"] = 4,
+							["amount"] = 25256,
+							["school"] = 2,
+							["casts"] = 9,
+							["count"] = 9,
+						},
+						[48068] = {
+							["overheal"] = 13054,
+							["max"] = 1152,
+							["targets"] = {
+								["Crazydqs"] = {
+									["overheal"] = 6984,
+									["amount"] = 13183,
+								},
+								["Yiyuan"] = {
+									["overheal"] = 3850,
+									["amount"] = 1700,
+								},
+								["Zyablik"] = {
+									["overheal"] = 2220,
+									["amount"] = 3330,
+								},
+							},
+							["min"] = 590,
+							["casts"] = 6,
+							["count"] = 28,
+							["amount"] = 18213,
+							["school"] = 2,
+							["ishot"] = true,
+						},
+						[56160] = {
+							["overheal"] = 838,
+							["criticalamount"] = 1690,
+							["max"] = 1690,
+							["targets"] = {
+								["Crazydqs"] = {
+									["overheal"] = 0,
+									["amount"] = 2818,
+								},
+								["Yiyuan"] = {
+									["overheal"] = 0,
+									["amount"] = 1184,
+								},
+								["Najgora"] = {
+									["overheal"] = 838,
+									["amount"] = 226,
+								},
+								["Zyablik"] = {
+									["overheal"] = 0,
+									["amount"] = 2368,
+								},
+							},
+							["min"] = 226,
+							["criticalmax"] = 1690,
+							["count"] = 6,
+							["amount"] = 6596,
+							["school"] = 2,
+							["criticalmin"] = 1690,
+							["critical"] = 1,
+						},
+						[48071] = {
+							["overheal"] = 8463,
+							["criticalamount"] = 4878,
+							["max"] = 4878,
+							["targets"] = {
+								["Crazydqs"] = {
+									["overheal"] = 8463,
+									["amount"] = 25954,
+								},
+							},
+							["criticalmin"] = 4878,
+							["min"] = 49,
+							["casts"] = 8,
+							["count"] = 8,
+							["amount"] = 25954,
+							["school"] = 2,
+							["criticalmax"] = 4878,
+							["critical"] = 1,
+						},
+					},
+					["damagetakenspells"] = {
+						["Ice Shards"] = {
+							["total"] = 4751,
+							["count"] = 1,
+							["amount"] = 0,
+							["school"] = 16,
+							["sources"] = {
+								["Collapsing Icicle"] = {
+									["total"] = 4751,
+									["amount"] = 0,
+								},
+							},
+							["ABSORB"] = 1,
+							["id"] = 70827,
+						},
+						["Avalanche"] = {
+							["total"] = 884,
+							["hitmin"] = 293,
+							["id"] = 55216,
+							["hitmax"] = 293,
+							["sources"] = {
+								["Disturbed Glacial Revenant"] = {
+									["total"] = 884,
+									["amount"] = 293,
+								},
+							},
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 16,
+							["resisted"] = 221,
+							["amount"] = 293,
+							["hitamount"] = 293,
+						},
+						["Shadow Bolt"] = {
+							["total"] = 2552,
+							["count"] = 1,
+							["amount"] = 0,
+							["school"] = 32,
+							["sources"] = {
+								["Wrathbone Sorcerer"] = {
+									["total"] = 2552,
+									["amount"] = 0,
+								},
+							},
+							["ABSORB"] = 1,
+							["id"] = 75331,
+						},
+					},
+					["energyspells"] = {
+						[63655] = 16,
+					},
+					["heal"] = 96836,
+					["name"] = "Najgora",
+					["mana"] = 2243,
+					["manaspells"] = {
+						[47755] = 1665,
+						[63654] = 578,
+					},
+					["energy"] = 16,
+				}, -- [3]
+				{
+					["last"] = 18781.446,
+					["flag"] = 1298,
+					["class"] = "DRUID",
+					["auras"] = {
+						[48934] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 86,
+						},
+						[48470] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 86,
+						},
+						[48068] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 2,
+							["uptime"] = 15,
+						},
+						[48162] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 86,
+						},
+						[71403] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 1,
+							["uptime"] = 17,
+						},
+						[63944] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["refresh"] = 2,
+							["uptime"] = 86,
+						},
+						[22812] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 8,
+							["uptime"] = 12,
+						},
+						[48074] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 86,
+						},
+						[57623] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["refresh"] = 3,
+							["uptime"] = 86,
+						},
+						[25898] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 86,
+						},
+						[48170] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 86,
+						},
+						[48574] = {
+							["type"] = "DEBUFF",
+							["count"] = 3,
+							["school"] = 1,
+							["targets"] = {
+								["Disturbed Glacial Revenant"] = {
+									["uptime"] = 9,
+									["count"] = 1,
+								},
+								["Fallen Warrior"] = {
+									["uptime"] = 10,
+									["count"] = 2,
+								},
+							},
+							["uptime"] = 19,
+						},
+						[48420] = {
+							["type"] = "BUFF",
+							["count"] = 3,
+							["school"] = 8,
+							["uptime"] = 79,
+						},
+						[69369] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["uptime"] = 8,
+						},
+						[52610] = {
+							["type"] = "BUFF",
+							["count"] = 4,
+							["school"] = 1,
+							["uptime"] = 57,
+						},
+						[24932] = {
+							["type"] = "BUFF",
+							["count"] = 3,
+							["school"] = 1,
+							["uptime"] = 79,
+						},
+						[16870] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 8,
+							["uptime"] = 4,
+						},
+						[16857] = {
+							["type"] = "DEBUFF",
+							["count"] = 2,
+							["school"] = 8,
+							["targets"] = {
+								["Disturbed Glacial Revenant"] = {
+									["uptime"] = 11,
+									["count"] = 1,
+								},
+								["Wrathbone Sorcerer"] = {
+									["uptime"] = 7,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 18,
+						},
+						[59620] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 2,
+							["uptime"] = 15,
+						},
+						[50259] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["targets"] = {
+								["Fallen Warrior"] = {
+									["uptime"] = 3,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 3,
+						},
+						[50213] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 1,
+							["uptime"] = 13,
+						},
+						[54043] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 86,
+						},
+						[48066] = {
+							["type"] = "BUFF",
+							["count"] = 3,
+							["school"] = 2,
+							["uptime"] = 43,
+						},
+						[768] = {
+							["type"] = "BUFF",
+							["count"] = 3,
+							["school"] = 1,
+							["uptime"] = 79,
+						},
+						[71492] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 25,
+						},
+						[72412] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["uptime"] = 10,
+						},
+						[48942] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 86,
+						},
+						[72221] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 86,
+						},
+					},
+					["energyspells"] = {
+						[51178] = 120,
+						[17099] = 102,
+					},
+					["role"] = "DAMAGER",
+					["time"] = 47.48,
+					["totaldamagetaken"] = 21955,
+					["manaspells"] = {
+						[68285] = 2541,
+						[29166] = 7860,
+					},
+					["damage"] = 411498,
+					["damagespells"] = {
+						["Melee"] = {
+							["glance"] = 2751,
+							["hitmin"] = 737,
+							["criticalmin"] = 1312,
+							["targets"] = {
+								["Wrathbone Sorcerer"] = {
+									["amount"] = 5109,
+								},
+								["Disturbed Glacial Revenant"] = {
+									["amount"] = 26416,
+								},
+								["Fallen Warrior"] = {
+									["overkill"] = 3416,
+									["amount"] = 52063,
+								},
+							},
+							["glancing"] = 3,
+							["amount"] = 83588,
+							["glancemin"] = 707,
+							["criticalamount"] = 75870,
+							["id"] = 6603,
+							["glancemax"] = 1151,
+							["overkill"] = 3416,
+							["critical"] = 35,
+							["criticalmax"] = 3036,
+							["hitmax"] = 1263,
+							["hit"] = 5,
+							["school"] = 1,
+							["blocked"] = 80,
+							["count"] = 43,
+							["hitamount"] = 4967,
+						},
+						["Rake (DoT)"] = {
+							["hitmin"] = 1263,
+							["id"] = 48574,
+							["targets"] = {
+								["Disturbed Glacial Revenant"] = {
+									["amount"] = 3789,
+								},
+								["Fallen Warrior"] = {
+									["amount"] = 7255,
+								},
+							},
+							["casts"] = 2,
+							["count"] = 8,
+							["hit"] = 8,
+							["school"] = 1,
+							["hitmax"] = 1451,
+							["amount"] = 11044,
+							["hitamount"] = 11044,
+						},
+						["Rake"] = {
+							["hitmin"] = 376,
+							["criticalamount"] = 1844,
+							["id"] = 48574,
+							["criticalmin"] = 922,
+							["targets"] = {
+								["Disturbed Glacial Revenant"] = {
+									["amount"] = 376,
+								},
+								["Fallen Warrior"] = {
+									["amount"] = 1844,
+								},
+							},
+							["criticalmax"] = 922,
+							["critical"] = 2,
+							["casts"] = 3,
+							["count"] = 3,
+							["hit"] = 1,
+							["school"] = 1,
+							["hitmax"] = 376,
+							["amount"] = 2220,
+							["hitamount"] = 376,
+						},
+						["Retribution Aura"] = {
+							["hitmin"] = 275,
+							["id"] = 54043,
+							["targets"] = {
+								["Fallen Warrior"] = {
+									["amount"] = 288,
+								},
+								["Wrathbone Skeleton"] = {
+									["amount"] = 845,
 								},
 							},
 							["casts"] = 1,
 							["count"] = 4,
 							["hit"] = 4,
-							["school"] = 32,
-							["hitmax"] = 2812,
-							["amount"] = 5556,
-							["hitamount"] = 5556,
+							["school"] = 2,
+							["hitmax"] = 295,
+							["amount"] = 1133,
+							["hitamount"] = 1133,
 						},
-						["Death Coil"] = {
-							["criticalmin"] = 7538,
-							["hitmin"] = 2998,
-							["criticalamount"] = 32903,
-							["id"] = 47632,
-							["hitmax"] = 4384,
+						["Swipe (Cat)"] = {
+							["blocked"] = 120,
+							["criticalmax"] = 10296,
+							["hitmin"] = 3055,
+							["criticalamount"] = 279593,
+							["id"] = 62078,
+							["criticalmin"] = 5560,
 							["targets"] = {
-								["Moorabi"] = {
-									["amount"] = 31155,
+								["Wrathbone Sorcerer"] = {
+									["amount"] = 28958,
 								},
-								["Drakkari Earthshaker"] = {
-									["amount"] = 16200,
+								["Wrathbone Skeleton"] = {
+									["overkill"] = 1762,
+									["amount"] = 121131,
+								},
+								["Disturbed Glacial Revenant"] = {
+									["amount"] = 14538,
+								},
+								["Fallen Warrior"] = {
+									["overkill"] = 2964,
+									["amount"] = 148886,
 								},
 							},
-							["count"] = 8,
-							["hit"] = 4,
-							["casts"] = 8,
-							["critical"] = 4,
-							["amount"] = 47355,
-							["school"] = 32,
-							["resisted"] = 749,
-							["criticalmax"] = 9165,
-							["hitamount"] = 14452,
-						},
-						["Unholy Blight (DoT)"] = {
-							["hitmin"] = 49,
-							["id"] = 50536,
-							["targets"] = {
-								["Moorabi"] = {
-									["amount"] = 2814,
-								},
-								["Drakkari Earthshaker"] = {
-									["amount"] = 1053,
-								},
-							},
-							["hitmax"] = 162,
-							["count"] = 28,
-							["hit"] = 28,
-							["school"] = 32,
-							["resisted"] = 99,
-							["amount"] = 3867,
-							["hitamount"] = 3867,
-						},
-						["Wandering Plague"] = {
-							["hitmin"] = 810,
-							["id"] = 50526,
-							["targets"] = {
-								["Drakkari Earthshaker"] = {
-									["amount"] = 13523,
-								},
-								["Moorabi"] = {
-									["amount"] = 9356,
-								},
-								["Drakkari Inciter"] = {
-									["amount"] = 1122,
-								},
-							},
-							["hitmax"] = 1324,
-							["casts"] = 1,
-							["count"] = 22,
-							["hit"] = 22,
-							["school"] = 32,
-							["resisted"] = 245,
-							["amount"] = 24001,
-							["hitamount"] = 24001,
-						},
-						["Icy Touch"] = {
-							["hitmin"] = 1295,
-							["id"] = 49909,
-							["targets"] = {
-								["Moorabi"] = {
-									["amount"] = 1295,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 16,
-							["hitmax"] = 1295,
-							["amount"] = 1295,
-							["hitamount"] = 1295,
-						},
-						["Blood Strike"] = {
-							["criticalmin"] = 3788,
-							["hitmin"] = 1974,
-							["criticalamount"] = 8223,
-							["id"] = 49930,
-							["criticalmax"] = 4435,
-							["targets"] = {
-								["Moorabi"] = {
-									["amount"] = 14552,
-								},
-								["Drakkari Earthshaker"] = {
-									["overkill"] = 1370,
-									["amount"] = 4348,
-								},
-							},
-							["overkill"] = 1370,
-							["critical"] = 2,
-							["casts"] = 7,
-							["count"] = 7,
-							["hit"] = 5,
+							["overkill"] = 4726,
+							["critical"] = 35,
+							["casts"] = 13,
+							["count"] = 44,
+							["hit"] = 9,
 							["school"] = 1,
-							["hitmax"] = 2290,
-							["amount"] = 18900,
-							["hitamount"] = 10677,
-						},
-						["Blood Plague (DoT)"] = {
-							["hitmin"] = 866,
-							["id"] = 55078,
-							["targets"] = {
-								["Moorabi"] = {
-									["amount"] = 8786,
-								},
-								["Drakkari Earthshaker"] = {
-									["amount"] = 6055,
-								},
-							},
-							["hitmax"] = 1417,
-							["count"] = 13,
-							["hit"] = 13,
-							["school"] = 32,
-							["resisted"] = 540,
-							["amount"] = 14841,
-							["hitamount"] = 14841,
-						},
-						["Scourge Strike (Shadow)"] = {
-							["hitmin"] = 1273,
-							["id"] = 70890,
-							["targets"] = {
-								["Moorabi"] = {
-									["amount"] = 4224,
-								},
-								["Drakkari Earthshaker"] = {
-									["amount"] = 3110,
-								},
-							},
-							["hitmax"] = 1585,
-							["casts"] = 1,
-							["count"] = 5,
-							["hit"] = 5,
-							["school"] = 32,
-							["resisted"] = 292,
-							["amount"] = 7334,
-							["hitamount"] = 7334,
-						},
-						["Chains of Ice"] = {
-							["casts"] = 2,
-							["count"] = 2,
-							["amount"] = 0,
-							["school"] = 16,
-							["IMMUNE"] = 2,
-							["targets"] = {
-								["Moorabi"] = {
-									["amount"] = 0,
-								},
-								["Drakkari Earthshaker"] = {
-									["amount"] = 0,
-								},
-							},
-							["id"] = 45524,
-						},
-						["Plague Strike"] = {
-							["hitmin"] = 1729,
-							["criticalamount"] = 9491,
-							["id"] = 49921,
-							["hitmax"] = 1729,
-							["targets"] = {
-								["Moorabi"] = {
-									["amount"] = 6579,
-								},
-								["Drakkari Earthshaker"] = {
-									["amount"] = 4641,
-								},
-							},
-							["count"] = 3,
-							["hit"] = 1,
-							["casts"] = 3,
-							["critical"] = 2,
-							["amount"] = 11220,
-							["school"] = 1,
-							["criticalmin"] = 4641,
-							["criticalmax"] = 4850,
-							["hitamount"] = 1729,
-						},
-						["Frost Fever (DoT)"] = {
-							["hitmin"] = 956,
-							["id"] = 55095,
-							["targets"] = {
-								["Moorabi"] = {
-									["amount"] = 8996,
-								},
-								["Drakkari Earthshaker"] = {
-									["amount"] = 6269,
-								},
-							},
-							["hitmax"] = 1548,
-							["count"] = 13,
-							["hit"] = 13,
-							["school"] = 16,
-							["resisted"] = 472,
-							["amount"] = 15265,
-							["hitamount"] = 15265,
-						},
-						["Death and Decay"] = {
-							["hitmax"] = 716,
-							["hitmin"] = 497,
-							["criticalamount"] = 23492,
-							["id"] = 52212,
-							["criticalmin"] = 1148,
-							["targets"] = {
-								["Drakkari Earthshaker"] = {
-									["amount"] = 21896,
-								},
-								["Moorabi"] = {
-									["amount"] = 10663,
-								},
-								["Drakkari Inciter"] = {
-									["amount"] = 3159,
-								},
-							},
-							["criticalmax"] = 1496,
-							["critical"] = 17,
-							["casts"] = 2,
-							["count"] = 36,
-							["hit"] = 19,
-							["school"] = 32,
-							["resisted"] = 974,
-							["amount"] = 35718,
-							["hitamount"] = 12226,
+							["hitmax"] = 4350,
+							["amount"] = 313513,
+							["hitamount"] = 33920,
 						},
 					},
-					["interrupt"] = 1,
-					["damagetaken"] = 35830,
-					["id"] = "0x070000000000D01B",
-					["spec"] = 252,
+					["overkill"] = 8142,
+					["damagetaken"] = 11271,
+					["id"] = "0x07000000008B24DB",
+					["spec"] = 103,
 					["healspells"] = {
-						[53365] = {
-							["overheal"] = 4228,
-							["criticalamount"] = 3624,
-							["max"] = 1812,
+						[34299] = {
+							["overheal"] = 1680,
 							["targets"] = {
-								["Urgash"] = {
-									["overheal"] = 4228,
-									["amount"] = 3624,
+								["Zyablik"] = {
+									["overheal"] = 1680,
+									["amount"] = 3213,
 								},
 							},
-							["min"] = 1812,
-							["criticalmax"] = 1812,
-							["critical"] = 3,
-							["amount"] = 3624,
+							["count"] = 7,
+							["amount"] = 3213,
 							["school"] = 1,
-							["criticalmin"] = 0,
-							["count"] = 5,
+							["max"] = 699,
+							["ishot"] = true,
+							["min"] = 535,
 						},
 					},
 					["damagetakenspells"] = {
-						["Head Crack"] = {
+						["Melee"] = {
+							["DODGE"] = 5,
+							["total"] = 21374,
+							["hitmin"] = 535,
+							["id"] = 6603,
+							["hitmax"] = 5426,
 							["sources"] = {
-								["Drakkari Earthshaker"] = {
+								["Fallen Warrior"] = {
+									["total"] = 5665,
+									["amount"] = 5426,
+								},
+								["Wrathbone Skeleton"] = {
+									["total"] = 15709,
+									["amount"] = 5264,
+								},
+							},
+							["count"] = 12,
+							["ABSORB"] = 3,
+							["school"] = 1,
+							["amount"] = 10690,
+							["hit"] = 4,
+							["hitamount"] = 10690,
+						},
+						["Avalanche"] = {
+							["hitmin"] = 581,
+							["id"] = 55216,
+							["hitmax"] = 581,
+							["sources"] = {
+								["Disturbed Glacial Revenant"] = {
+									["amount"] = 581,
+								},
+							},
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 16,
+							["resisted"] = 248,
+							["amount"] = 581,
+							["hitamount"] = 581,
+						},
+					},
+					["overheal"] = 1680,
+					["heal"] = 3213,
+					["name"] = "Zyablik",
+					["mana"] = 10401,
+					["energy"] = 222,
+					["totaldamage"] = 411498,
+				}, -- [4]
+				{
+					["ccdonespells"] = {
+						[48817] = {
+							["count"] = 7,
+							["targets"] = {
+								["Fallen Warrior"] = 3,
+								["Wrathbone Skeleton"] = 4,
+							},
+						},
+					},
+					["last"] = 18781.132,
+					["flag"] = 1298,
+					["class"] = "PALADIN",
+					["auras"] = {
+						[20375] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 84,
+						},
+						[48470] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 86,
+						},
+						[48068] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 2,
+							["uptime"] = 15,
+						},
+						[48162] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 86,
+						},
+						[48817] = {
+							["type"] = "DEBUFF",
+							["count"] = 7,
+							["school"] = 2,
+							["targets"] = {
+								["Fallen Warrior"] = {
+									["uptime"] = 6,
+									["count"] = 3,
+								},
+								["Wrathbone Skeleton"] = {
+									["uptime"] = 3,
+									["count"] = 4,
+								},
+							},
+							["uptime"] = 6,
+						},
+						[31801] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 2,
+							["uptime"] = 2,
+						},
+						[63944] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["refresh"] = 2,
+							["uptime"] = 86,
+						},
+						[20053] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["refresh"] = 23,
+							["uptime"] = 86,
+						},
+						[48074] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 86,
+						},
+						[57623] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["refresh"] = 3,
+							["uptime"] = 86,
+						},
+						[25898] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 86,
+						},
+						[48170] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 86,
+						},
+						[25899] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 86,
+						},
+						[71541] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 64,
+							["uptime"] = 30,
+						},
+						[24932] = {
+							["type"] = "BUFF",
+							["count"] = 3,
+							["school"] = 1,
+							["uptime"] = 79,
+						},
+						[26017] = {
+							["type"] = "DEBUFF",
+							["count"] = 15,
+							["school"] = 2,
+							["refresh"] = 11,
+							["targets"] = {
+								["Wrathbone Skeleton"] = {
+									["count"] = 7,
+									["refresh"] = 5,
+									["uptime"] = 21,
+								},
+								["Disturbed Glacial Revenant"] = {
+									["count"] = 2,
+									["refresh"] = 1,
+									["uptime"] = 7,
+								},
+								["Fallen Warrior"] = {
+									["count"] = 6,
+									["refresh"] = 5,
+									["uptime"] = 28,
+								},
+							},
+							["uptime"] = 38,
+						},
+						[54499] = {
+							["type"] = "DEBUFF",
+							["count"] = 6,
+							["school"] = 2,
+							["targets"] = {
+								["Wrathbone Skeleton"] = {
+									["uptime"] = 4,
+									["count"] = 2,
+								},
+								["Disturbed Glacial Revenant"] = {
+									["uptime"] = 12,
+									["count"] = 2,
+								},
+								["Fallen Warrior"] = {
+									["uptime"] = 11,
+									["count"] = 2,
+								},
+							},
+							["uptime"] = 27,
+						},
+						[71396] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["refresh"] = 30,
+							["school"] = 1,
+							["uptime"] = 82,
+						},
+						[20186] = {
+							["type"] = "DEBUFF",
+							["count"] = 6,
+							["school"] = 2,
+							["targets"] = {
+								["Wrathbone Skeleton"] = {
+									["uptime"] = 4,
+									["count"] = 2,
+								},
+								["Disturbed Glacial Revenant"] = {
+									["uptime"] = 12,
+									["count"] = 2,
+								},
+								["Fallen Warrior"] = {
+									["uptime"] = 11,
+									["count"] = 2,
+								},
+							},
+							["uptime"] = 27,
+						},
+						[61840] = {
+							["type"] = "DEBUFF",
+							["count"] = 14,
+							["school"] = 2,
+							["refresh"] = 8,
+							["targets"] = {
+								["Wrathbone Skeleton"] = {
+									["uptime"] = 19,
+									["count"] = 8,
+								},
+								["Disturbed Glacial Revenant"] = {
+									["count"] = 1,
+									["refresh"] = 4,
+									["uptime"] = 12,
+								},
+								["Fallen Warrior"] = {
+									["count"] = 5,
+									["refresh"] = 4,
+									["uptime"] = 21,
+								},
+							},
+							["uptime"] = 37,
+						},
+						[48819] = {
+							["type"] = "DEBUFF",
+							["count"] = 12,
+							["school"] = 2,
+							["targets"] = {
+								["Wrathbone Sorcerer"] = {
+									["uptime"] = 4,
+									["count"] = 2,
+								},
+								["Wrathbone Skeleton"] = {
+									["uptime"] = 3,
+									["count"] = 4,
+								},
+								["Spider"] = {
+									["uptime"] = 1,
+									["count"] = 1,
+								},
+								["Fallen Warrior"] = {
+									["uptime"] = 12,
+									["count"] = 5,
+								},
+							},
+							["uptime"] = 13,
+						},
+						[71187] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 8,
+							["refresh"] = 2,
+							["uptime"] = 49,
+						},
+						[59620] = {
+							["type"] = "BUFF",
+							["count"] = 3,
+							["school"] = 2,
+							["uptime"] = 42,
+						},
+						[59578] = {
+							["type"] = "BUFF",
+							["count"] = 3,
+							["refresh"] = 18,
+							["school"] = 1,
+							["uptime"] = 83,
+						},
+						[57669] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 86,
+						},
+						[54043] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 86,
+						},
+						[48066] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 2,
+							["uptime"] = 28,
+						},
+						[54758] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 1,
+							["uptime"] = 19,
+						},
+						[47753] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 6,
+						},
+						[72412] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 1,
+							["uptime"] = 20,
+						},
+						[48942] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 86,
+						},
+						[72221] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 86,
+						},
+					},
+					["time"] = 63.78999999999999,
+					["totaldamagetaken"] = 14903,
+					["damage"] = 450579,
+					["damagespells"] = {
+						["Consecration (DoT)"] = {
+							["hitmin"] = 506,
+							["id"] = 48819,
+							["targets"] = {
+								["Wrathbone Sorcerer"] = {
+									["amount"] = 1518,
+								},
+								["Wrathbone Skeleton"] = {
+									["amount"] = 6003,
+								},
+								["Spider"] = {
+									["overkill"] = 557,
+									["amount"] = 566,
+								},
+								["Fallen Warrior"] = {
+									["amount"] = 10827,
+								},
+							},
+							["overkill"] = 557,
+							["casts"] = 2,
+							["count"] = 30,
+							["hit"] = 30,
+							["school"] = 2,
+							["hitmax"] = 667,
+							["amount"] = 18914,
+							["hitamount"] = 18914,
+						},
+						["Exorcism"] = {
+							["criticalamount"] = 5634,
+							["id"] = 48801,
+							["targets"] = {
+								["Wrathbone Skeleton"] = {
+									["amount"] = 5634,
+								},
+							},
+							["casts"] = 1,
+							["critical"] = 1,
+							["amount"] = 5634,
+							["school"] = 2,
+							["criticalmin"] = 5634,
+							["criticalmax"] = 5634,
+							["count"] = 1,
+						},
+						["Divine Storm"] = {
+							["criticalmax"] = 6962,
+							["hitmin"] = 2811,
+							["criticalamount"] = 96982,
+							["id"] = 53385,
+							["criticalmin"] = 5594,
+							["targets"] = {
+								["Wrathbone Skeleton"] = {
+									["overkill"] = 10458,
+									["amount"] = 47643,
+								},
+								["Disturbed Glacial Revenant"] = {
+									["amount"] = 16726,
+								},
+								["Fallen Warrior"] = {
+									["overkill"] = 2632,
+									["amount"] = 63339,
+								},
+							},
+							["overkill"] = 13090,
+							["critical"] = 15,
+							["casts"] = 8,
+							["count"] = 25,
+							["hit"] = 10,
+							["school"] = 1,
+							["hitmax"] = 3440,
+							["amount"] = 127708,
+							["hitamount"] = 30726,
+						},
+						["Judgement of Command"] = {
+							["criticalamount"] = 30733,
+							["id"] = 20467,
+							["targets"] = {
+								["Wrathbone Skeleton"] = {
+									["amount"] = 9489,
+								},
+								["Disturbed Glacial Revenant"] = {
+									["amount"] = 11543,
+								},
+								["Fallen Warrior"] = {
+									["amount"] = 9701,
+								},
+							},
+							["casts"] = 1,
+							["critical"] = 6,
+							["amount"] = 30733,
+							["school"] = 2,
+							["criticalmin"] = 4282,
+							["criticalmax"] = 6140,
+							["count"] = 6,
+						},
+						["Hammer of Wrath"] = {
+							["criticalamount"] = 6618,
+							["id"] = 48806,
+							["targets"] = {
+								["Fallen Warrior"] = {
+									["overkill"] = 6318,
+									["amount"] = 6618,
+								},
+							},
+							["overkill"] = 6318,
+							["casts"] = 1,
+							["critical"] = 1,
+							["amount"] = 6618,
+							["school"] = 2,
+							["criticalmin"] = 6618,
+							["criticalmax"] = 6618,
+							["count"] = 1,
+						},
+						["Retribution Aura"] = {
+							["hitmin"] = 296,
+							["id"] = 54043,
+							["targets"] = {
+								["Wrathbone Skeleton"] = {
+									["amount"] = 630,
+								},
+							},
+							["casts"] = 1,
+							["count"] = 2,
+							["hit"] = 2,
+							["school"] = 2,
+							["hitmax"] = 334,
+							["amount"] = 630,
+							["hitamount"] = 630,
+						},
+						["Crusader Strike"] = {
+							["hitmin"] = 1844,
+							["criticalamount"] = 4834,
+							["id"] = 35395,
+							["criticalmin"] = 4834,
+							["targets"] = {
+								["Fallen Warrior"] = {
+									["amount"] = 3952,
+								},
+								["Disturbed Glacial Revenant"] = {
+									["amount"] = 4834,
+								},
+								["Wrathbone Skeleton"] = {
+									["amount"] = 2120,
+								},
+							},
+							["criticalmax"] = 4834,
+							["critical"] = 1,
+							["casts"] = 4,
+							["count"] = 4,
+							["hit"] = 3,
+							["school"] = 1,
+							["hitmax"] = 2120,
+							["amount"] = 10906,
+							["hitamount"] = 6072,
+						},
+						["Melee"] = {
+							["glance"] = 9814,
+							["hitmin"] = 2449,
+							["criticalmin"] = 4107,
+							["targets"] = {
+								["Fallen Warrior"] = {
+									["amount"] = 15313,
+								},
+								["Disturbed Glacial Revenant"] = {
+									["amount"] = 10959,
+								},
+								["Wrathbone Skeleton"] = {
+									["amount"] = 15830,
+								},
+							},
+							["glancing"] = 4,
+							["amount"] = 42102,
+							["glancemin"] = 2132,
+							["criticalamount"] = 24777,
+							["id"] = 6603,
+							["glancemax"] = 2639,
+							["criticalmax"] = 5916,
+							["hitmax"] = 2533,
+							["hit"] = 3,
+							["school"] = 1,
+							["critical"] = 5,
+							["count"] = 12,
+							["hitamount"] = 7511,
+						},
+						["Seal of Command"] = {
+							["criticalmax"] = 4064,
+							["hitmin"] = 1189,
+							["criticalamount"] = 124029,
+							["id"] = 20424,
+							["criticalmin"] = 2607,
+							["targets"] = {
+								["Wrathbone Sorcerer"] = {
+									["amount"] = 4537,
+								},
+								["Fallen Warrior"] = {
+									["overkill"] = 1560,
+									["amount"] = 89908,
+								},
+								["Disturbed Glacial Revenant"] = {
+									["amount"] = 16600,
+								},
+								["Wrathbone Skeleton"] = {
+									["overkill"] = 1544,
+									["amount"] = 62100,
+								},
+							},
+							["overkill"] = 3104,
+							["critical"] = 37,
+							["casts"] = 1,
+							["count"] = 67,
+							["hit"] = 30,
+							["school"] = 2,
+							["hitmax"] = 2044,
+							["amount"] = 173145,
+							["hitamount"] = 49116,
+						},
+						["Righteous Vengeance (DoT)"] = {
+							["hitmin"] = 331,
+							["id"] = 61840,
+							["targets"] = {
+								["Wrathbone Skeleton"] = {
+									["overkill"] = 91,
+									["amount"] = 4040,
+								},
+								["Disturbed Glacial Revenant"] = {
+									["amount"] = 4117,
+								},
+								["Fallen Warrior"] = {
+									["overkill"] = 561,
+									["amount"] = 6913,
+								},
+							},
+							["overkill"] = 652,
+							["count"] = 25,
+							["hit"] = 25,
+							["school"] = 2,
+							["hitmax"] = 1678,
+							["amount"] = 15070,
+							["hitamount"] = 15070,
+						},
+						["Holy Wrath"] = {
+							["criticalmin"] = 3511,
+							["hitmin"] = 2255,
+							["criticalamount"] = 7462,
+							["id"] = 48817,
+							["criticalmax"] = 3951,
+							["targets"] = {
+								["Fallen Warrior"] = {
+									["amount"] = 9832,
+								},
+								["Wrathbone Skeleton"] = {
+									["overkill"] = 1847,
+									["amount"] = 9287,
+								},
+							},
+							["overkill"] = 1847,
+							["critical"] = 2,
+							["casts"] = 2,
+							["count"] = 7,
+							["hit"] = 5,
+							["school"] = 2,
+							["hitmax"] = 2392,
+							["amount"] = 19119,
+							["hitamount"] = 11657,
+						},
+					},
+					["overheal"] = 4028,
+					["damagetaken"] = 5530,
+					["id"] = "0x07000000008F8756",
+					["spec"] = 70,
+					["healspells"] = {
+						[34299] = {
+							["overheal"] = 3375,
+							["max"] = 726,
+							["count"] = 8,
+							["amount"] = 2431,
+							["school"] = 1,
+							["min"] = 255,
+							["ishot"] = true,
+							["targets"] = {
+								["Yiyuan"] = {
+									["overheal"] = 3375,
+									["amount"] = 2431,
+								},
+							},
+						},
+						[54172] = {
+							["overheal"] = 653,
+							["targets"] = {
+								["Crazydqs"] = {
+									["overheal"] = 326,
+									["amount"] = 11574,
+								},
+								["Urgash"] = {
+									["overheal"] = 78,
+									["amount"] = 694,
+								},
+								["Zyablik"] = {
+									["overheal"] = 249,
+									["amount"] = 2200,
+								},
+								["Skullslicer"] = {
+									["overheal"] = 0,
+									["amount"] = 715,
+								},
+							},
+							["count"] = 6,
+							["amount"] = 15183,
+							["school"] = 2,
+							["max"] = 6133,
+							["ishot"] = true,
+							["min"] = 230,
+						},
+					},
+					["overkill"] = 25568,
+					["damagetakenspells"] = {
+						["Demoralizing Shout"] = {
+							["sources"] = {
+								["Fallen Warrior"] = {
 									["amount"] = 0,
 								},
 							},
@@ -22876,2076 +7202,2997 @@ SkadaStorageDB = {
 							["amount"] = 0,
 							["school"] = 1,
 							["MISS"] = 1,
-							["id"] = 58969,
+							["id"] = 61044,
 						},
-						["Powerful Blow"] = {
-							["hitmin"] = 3287,
-							["id"] = 55567,
+						["Avalanche"] = {
+							["hitmin"] = 980,
+							["id"] = 55216,
+							["hitmax"] = 980,
 							["sources"] = {
-								["Drakkari Earthshaker"] = {
-									["amount"] = 7293,
-								},
-							},
-							["count"] = 2,
-							["hit"] = 2,
-							["school"] = 1,
-							["hitmax"] = 4006,
-							["amount"] = 7293,
-							["hitamount"] = 7293,
-						},
-						["Determined Stab"] = {
-							["hitmin"] = 1058,
-							["id"] = 55104,
-							["sources"] = {
-								["Moorabi"] = {
-									["amount"] = 1058,
+								["Disturbed Glacial Revenant"] = {
+									["amount"] = 980,
 								},
 							},
 							["count"] = 1,
 							["hit"] = 1,
-							["school"] = 1,
-							["hitmax"] = 1058,
-							["amount"] = 1058,
-							["hitamount"] = 1058,
-						},
-						["Ground Tremor"] = {
-							["hitmin"] = 1385,
-							["id"] = 55142,
-							["sources"] = {
-								["Moorabi"] = {
-									["amount"] = 1385,
-								},
-							},
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 1,
-							["hitmax"] = 1385,
-							["amount"] = 1385,
-							["hitamount"] = 1385,
+							["school"] = 16,
+							["resisted"] = 245,
+							["amount"] = 980,
+							["hitamount"] = 980,
 						},
 						["Melee"] = {
-							["DODGE"] = 5,
-							["criticalmin"] = 5594,
-							["hitmin"] = 176,
-							["criticalamount"] = 5594,
+							["DODGE"] = 2,
+							["total"] = 13923,
+							["hitmin"] = 2086,
 							["id"] = 6603,
-							["criticalmax"] = 5594,
-							["critical"] = 1,
-							["amount"] = 26094,
-							["PARRY"] = 1,
+							["hitmax"] = 2464,
 							["sources"] = {
-								["Drakkari Inciter"] = {
-									["amount"] = 354,
-								},
-								["Moorabi"] = {
-									["amount"] = 13679,
-								},
-								["Drakkari Earthshaker"] = {
-									["amount"] = 12061,
+								["Wrathbone Skeleton"] = {
+									["total"] = 13923,
+									["amount"] = 4550,
 								},
 							},
-							["count"] = 20,
-							["hit"] = 10,
+							["count"] = 8,
+							["ABSORB"] = 4,
 							["school"] = 1,
-							["hitmax"] = 2933,
-							["MISS"] = 3,
-							["hitamount"] = 20500,
+							["amount"] = 4550,
+							["hit"] = 2,
+							["hitamount"] = 4550,
 						},
 					},
-					["totaldamage"] = 281977,
-					["heal"] = 3624,
-					["name"] = "Urgash",
-					["overkill"] = 5399,
-					["overheal"] = 4228,
-					["interruptspells"] = {
-						[47528] = {
-							["spells"] = {
-								[55098] = 1,
-							},
-							["count"] = 1,
-							["targets"] = {
-								["Moorabi"] = 1,
-							},
-						},
+					["heal"] = 17614,
+					["name"] = "Yiyuan",
+					["ccdone"] = 7,
+					["manaspells"] = {
+						[31930] = 6588,
+						[57669] = 5320,
+						[20268] = 4176,
+						[57319] = 272,
 					},
+					["mana"] = 16356,
+					["totaldamage"] = 450579,
 					["role"] = "DAMAGER",
+				}, -- [5]
+			},
+			["type"] = "party",
+			["damagetaken"] = 103344,
+			["overheal"] = 56827,
+			["absorb"] = 51256,
+			["energy"] = 238,
+			["overkill"] = 49134,
+			["edamagetaken"] = 1515262,
+			["heal"] = 122764,
+			["name"] = "Fallen Warrior (2)",
+			["mobname"] = "Fallen Warrior",
+			["starttime"] = 1689679368,
+			["edamage"] = 103344,
+			["last_action"] = 1689679454,
+			["endtime"] = 1689679454,
+		}, -- [2]
+		{
+			["overheal"] = 11431,
+			["mana"] = 16744,
+			["ccdone"] = 11,
+			["enemies"] = {
+				{
+					["damagespells"] = {
+						[6603] = {
+							["school"] = 1,
+							["total"] = 9349,
+							["targets"] = {
+								["Yiyuan"] = {
+									["total"] = 5540,
+									["amount"] = 198,
+								},
+								["Urgash"] = {
+									["total"] = 7985,
+									["amount"] = 4176,
+								},
+							},
+							["amount"] = 4374,
+						},
+						[69579] = {
+							["school"] = 1,
+							["total"] = 9653,
+							["targets"] = {
+								["Crazydqs"] = {
+									["total"] = 3688,
+									["amount"] = 1655,
+								},
+								["Urgash"] = {
+									["total"] = 5965,
+									["amount"] = 3900,
+								},
+							},
+							["amount"] = 5555,
+						},
+					},
+					["damagetaken"] = 383129,
+					["flag"] = 2632,
+					["class"] = "MONSTER",
+					["damagetakenspells"] = {
+						[62078] = {
+							["school"] = 1,
+							["sources"] = {
+								["Zyablik"] = {
+									["overkill"] = 5885,
+									["amount"] = 85691,
+								},
+							},
+							["overkill"] = 5885,
+							["amount"] = 85691,
+						},
+						[20424] = {
+							["school"] = 2,
+							["sources"] = {
+								["Yiyuan"] = {
+									["amount"] = 43129,
+								},
+								["Crazydqs"] = {
+									["amount"] = 11472,
+								},
+							},
+							["amount"] = 54601,
+						},
+						[55078] = {
+							["school"] = 32,
+							["sources"] = {
+								["Urgash"] = {
+									["overkill"] = 466,
+									["amount"] = 10439,
+								},
+							},
+							["overkill"] = 466,
+							["amount"] = 10439,
+						},
+						[48817] = {
+							["school"] = 2,
+							["sources"] = {
+								["Crazydqs"] = {
+									["amount"] = 5986,
+								},
+								["Yiyuan"] = {
+									["amount"] = 9988,
+								},
+							},
+							["amount"] = 15974,
+						},
+						[35395] = {
+							["school"] = 1,
+							["sources"] = {
+								["Yiyuan"] = {
+									["amount"] = 6660,
+								},
+							},
+							["amount"] = 6660,
+						},
+						[48819] = {
+							["school"] = 2,
+							["sources"] = {
+								["Crazydqs"] = {
+									["amount"] = 12646,
+								},
+								["Yiyuan"] = {
+									["amount"] = 7030,
+								},
+							},
+							["amount"] = 19676,
+						},
+						[61840] = {
+							["school"] = 2,
+							["sources"] = {
+								["Yiyuan"] = {
+									["amount"] = 1883,
+								},
+							},
+							["amount"] = 1883,
+						},
+						[53595] = {
+							["school"] = 2,
+							["sources"] = {
+								["Crazydqs"] = {
+									["amount"] = 10751,
+								},
+							},
+							["amount"] = 10751,
+						},
+						[70890] = {
+							["school"] = 32,
+							["sources"] = {
+								["Urgash"] = {
+									["amount"] = 2259,
+								},
+							},
+							["amount"] = 2259,
+						},
+						[55271] = {
+							["school"] = 1,
+							["sources"] = {
+								["Urgash"] = {
+									["amount"] = 4273,
+								},
+							},
+							["amount"] = 4273,
+						},
+						[61411] = {
+							["school"] = 2,
+							["sources"] = {
+								["Crazydqs"] = {
+									["amount"] = 6198,
+								},
+							},
+							["amount"] = 6198,
+						},
+						[48827] = {
+							["school"] = 2,
+							["sources"] = {
+								["Crazydqs"] = {
+									["amount"] = 6354,
+								},
+							},
+							["amount"] = 6354,
+						},
+						[53385] = {
+							["school"] = 1,
+							["sources"] = {
+								["Yiyuan"] = {
+									["amount"] = 14875,
+								},
+							},
+							["amount"] = 14875,
+						},
+						[6603] = {
+							["school"] = 1,
+							["sources"] = {
+								["Crazydqs"] = {
+									["amount"] = 4385,
+								},
+								["Urgash"] = {
+									["amount"] = 1022,
+								},
+								["Yiyuan"] = {
+									["overkill"] = 1064,
+									["amount"] = 14789,
+								},
+								["Zyablik"] = {
+									["amount"] = 8534,
+								},
+							},
+							["overkill"] = 1064,
+							["amount"] = 28730,
+						},
+						[52212] = {
+							["school"] = 32,
+							["sources"] = {
+								["Urgash"] = {
+									["overkill"] = 1170,
+									["amount"] = 58628,
+								},
+							},
+							["overkill"] = 1170,
+							["amount"] = 58628,
+						},
+						[54043] = {
+							["school"] = 2,
+							["sources"] = {
+								["Yiyuan"] = {
+									["amount"] = 290,
+								},
+								["Urgash"] = {
+									["amount"] = 330,
+								},
+							},
+							["amount"] = 620,
+						},
+						[55095] = {
+							["school"] = 16,
+							["sources"] = {
+								["Urgash"] = {
+									["amount"] = 11729,
+								},
+							},
+							["amount"] = 11729,
+						},
+						[69403] = {
+							["school"] = 2,
+							["sources"] = {
+								["Yiyuan"] = {
+									["amount"] = 7659,
+								},
+								["Crazydqs"] = {
+									["amount"] = 1947,
+								},
+							},
+							["amount"] = 9606,
+						},
+						[20467] = {
+							["school"] = 2,
+							["sources"] = {
+								["Yiyuan"] = {
+									["amount"] = 9788,
+								},
+							},
+							["amount"] = 9788,
+						},
+						[50526] = {
+							["school"] = 32,
+							["sources"] = {
+								["Urgash"] = {
+									["amount"] = 22381,
+								},
+							},
+							["amount"] = 22381,
+						},
+						[71904] = {
+							["school"] = 32,
+							["sources"] = {
+								["Urgash"] = {
+									["amount"] = 2013,
+								},
+							},
+							["amount"] = 2013,
+						},
+					},
+					["name"] = "Fallen Warrior",
+					["totaldamage"] = 23178,
+					["totaldamagetaken"] = 383129,
+					["id"] = "0xF130008FE900025A",
+					["damage"] = 9929,
 				}, -- [1]
 				{
-					["last"] = 18032.612,
-					["flag"] = 1298,
-					["class"] = "PALADIN",
+					["damagespells"] = {
+						[6603] = {
+							["school"] = 1,
+							["targets"] = {
+								["Urgash"] = {
+									["amount"] = 9530,
+								},
+							},
+							["amount"] = 9530,
+						},
+					},
+					["damagetaken"] = 265708,
+					["flag"] = 2632,
+					["class"] = "MONSTER",
+					["damagetakenspells"] = {
+						[62078] = {
+							["school"] = 1,
+							["sources"] = {
+								["Zyablik"] = {
+									["amount"] = 58251,
+								},
+							},
+							["amount"] = 58251,
+						},
+						[49930] = {
+							["school"] = 1,
+							["sources"] = {
+								["Urgash"] = {
+									["amount"] = 5574,
+								},
+							},
+							["amount"] = 5574,
+						},
+						[20424] = {
+							["school"] = 2,
+							["sources"] = {
+								["Crazydqs"] = {
+									["amount"] = 2997,
+								},
+								["Yiyuan"] = {
+									["amount"] = 6574,
+								},
+							},
+							["amount"] = 9571,
+						},
+						[55078] = {
+							["school"] = 32,
+							["sources"] = {
+								["Urgash"] = {
+									["amount"] = 4471,
+								},
+							},
+							["amount"] = 4471,
+						},
+						[48817] = {
+							["school"] = 2,
+							["sources"] = {
+								["Crazydqs"] = {
+									["amount"] = 3720,
+								},
+								["Yiyuan"] = {
+									["amount"] = 5032,
+								},
+							},
+							["amount"] = 8752,
+						},
+						[48819] = {
+							["school"] = 2,
+							["sources"] = {
+								["Crazydqs"] = {
+									["amount"] = 7073,
+								},
+								["Yiyuan"] = {
+									["amount"] = 3900,
+								},
+							},
+							["amount"] = 10973,
+						},
+						[50463] = {
+							["school"] = 1,
+							["sources"] = {
+								["Urgash"] = {
+									["amount"] = 2183,
+								},
+							},
+							["amount"] = 2183,
+						},
+						[50526] = {
+							["school"] = 32,
+							["sources"] = {
+								["Urgash"] = {
+									["amount"] = 6139,
+								},
+							},
+							["amount"] = 6139,
+						},
+						[48574] = {
+							["school"] = 1,
+							["sources"] = {
+								["Zyablik"] = {
+									["amount"] = 3824,
+								},
+							},
+							["amount"] = 3824,
+						},
+						[55271] = {
+							["school"] = 1,
+							["sources"] = {
+								["Urgash"] = {
+									["amount"] = 4356,
+								},
+							},
+							["amount"] = 4356,
+						},
+						[49909] = {
+							["school"] = 16,
+							["sources"] = {
+								["Urgash"] = {
+									["amount"] = 4392,
+								},
+							},
+							["amount"] = 4392,
+						},
+						[51460] = {
+							["school"] = 32,
+							["sources"] = {
+								["Urgash"] = {
+									["amount"] = 5396,
+								},
+							},
+							["amount"] = 5396,
+						},
+						[47632] = {
+							["school"] = 32,
+							["sources"] = {
+								["Urgash"] = {
+									["amount"] = 13995,
+								},
+							},
+							["amount"] = 13995,
+						},
+						[53385] = {
+							["school"] = 1,
+							["sources"] = {
+								["Yiyuan"] = {
+									["amount"] = 2940,
+								},
+							},
+							["amount"] = 2940,
+						},
+						[6603] = {
+							["school"] = 1,
+							["sources"] = {
+								["Crazydqs"] = {
+									["amount"] = 2343,
+								},
+								["Urgash"] = {
+									["overkill"] = 1021,
+									["amount"] = 32683,
+								},
+								["Yiyuan"] = {
+									["amount"] = 2388,
+								},
+								["Zyablik"] = {
+									["amount"] = 17075,
+								},
+							},
+							["overkill"] = 1021,
+							["amount"] = 54489,
+						},
+						[61411] = {
+							["school"] = 2,
+							["sources"] = {
+								["Crazydqs"] = {
+									["amount"] = 3487,
+								},
+							},
+							["amount"] = 3487,
+						},
+						[50536] = {
+							["school"] = 32,
+							["sources"] = {
+								["Urgash"] = {
+									["amount"] = 45,
+								},
+							},
+							["amount"] = 45,
+						},
+						[47468] = {
+							["school"] = 1,
+							["sources"] = {
+								["Urgash"] = {
+									["amount"] = 6664,
+								},
+							},
+							["amount"] = 6664,
+						},
+						[52212] = {
+							["school"] = 32,
+							["sources"] = {
+								["Urgash"] = {
+									["overkill"] = 87,
+									["amount"] = 33163,
+								},
+							},
+							["overkill"] = 87,
+							["amount"] = 33163,
+						},
+						[70890] = {
+							["school"] = 32,
+							["sources"] = {
+								["Urgash"] = {
+									["amount"] = 2215,
+								},
+							},
+							["amount"] = 2215,
+						},
+						[54043] = {
+							["school"] = 2,
+							["sources"] = {
+								["Urgash"] = {
+									["amount"] = 662,
+								},
+							},
+							["amount"] = 662,
+						},
+						[49921] = {
+							["school"] = 1,
+							["sources"] = {
+								["Urgash"] = {
+									["amount"] = 5385,
+								},
+							},
+							["amount"] = 5385,
+						},
+						[48806] = {
+							["school"] = 2,
+							["sources"] = {
+								["Yiyuan"] = {
+									["amount"] = 7483,
+								},
+							},
+							["amount"] = 7483,
+						},
+						[69403] = {
+							["school"] = 2,
+							["sources"] = {
+								["Yiyuan"] = {
+									["amount"] = 1425,
+								},
+							},
+							["amount"] = 1425,
+						},
+						[20467] = {
+							["school"] = 2,
+							["sources"] = {
+								["Crazydqs"] = {
+									["amount"] = 1456,
+								},
+							},
+							["amount"] = 1456,
+						},
+						[71904] = {
+							["school"] = 32,
+							["sources"] = {
+								["Urgash"] = {
+									["amount"] = 1008,
+								},
+							},
+							["amount"] = 1008,
+						},
+						[55095] = {
+							["school"] = 16,
+							["sources"] = {
+								["Urgash"] = {
+									["amount"] = 7409,
+								},
+							},
+							["amount"] = 7409,
+						},
+					},
+					["name"] = "Wrathbone Coldwraith",
+					["totaldamage"] = 9530,
+					["totaldamagetaken"] = 265708,
+					["id"] = "0xF130008FEA000258",
+					["damage"] = 9530,
+				}, -- [2]
+			},
+			["absorb"] = 13249,
+			["totaldamage"] = 648837,
+			["time"] = 22,
+			["energy"] = 60,
+			["totaldamagetaken"] = 32708,
+			["etotaldamagetaken"] = 648837,
+			["last_time"] = 18688.333,
+			["players"] = {
+				{
+					["last"] = 18681.535,
+					["flag"] = 1297,
+					["class"] = "DEATHKNIGHT",
 					["auras"] = {
-						[6562] = {
+						[48934] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 53,
-						},
-						[48162] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 53,
-						},
-						[31801] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 53,
-						},
-						[54428] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["refresh"] = 33,
-							["uptime"] = 53,
-						},
-						[48942] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 53,
-						},
-						[57623] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["refresh"] = 2,
-							["uptime"] = 53,
-						},
-						[25898] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 53,
-						},
-						[48170] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 53,
-						},
-						[25899] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 53,
-						},
-						[19746] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 53,
-						},
-						[62124] = {
-							["type"] = "DEBUFF",
-							["count"] = 3,
-							["school"] = 2,
-							["targets"] = {
-								["Moorabi"] = {
-									["uptime"] = 9,
-									["count"] = 3,
-								},
-							},
-							["uptime"] = 9,
-						},
-						[54499] = {
-							["type"] = "DEBUFF",
-							["count"] = 2,
-							["school"] = 2,
-							["refresh"] = 1,
-							["targets"] = {
-								["Moorabi"] = {
-									["count"] = 1,
-									["refresh"] = 1,
-									["uptime"] = 20,
-								},
-								["Drakkari Earthshaker"] = {
-									["uptime"] = 2,
-									["count"] = 1,
-								},
-							},
 							["uptime"] = 22,
 						},
-						[53601] = {
-							["type"] = "BUFF",
-							["count"] = 3,
-							["school"] = 2,
-							["uptime"] = 53,
-						},
-						[48952] = {
-							["type"] = "BUFF",
-							["count"] = 3,
-							["refresh"] = 1,
-							["school"] = 2,
-							["uptime"] = 29,
-						},
-						[43002] = {
+						[75456] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 53,
+							["school"] = 64,
+							["uptime"] = 8,
 						},
-						[58597] = {
+						[48068] = {
 							["type"] = "BUFF",
-							["count"] = 3,
+							["count"] = 2,
 							["school"] = 2,
+							["uptime"] = 9,
+						},
+						[58578] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["refresh"] = 3,
+							["uptime"] = 22,
+						},
+						[70657] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["refresh"] = 4,
+							["school"] = 1,
 							["uptime"] = 18,
 						},
-						[20185] = {
-							["type"] = "DEBUFF",
-							["count"] = 3,
-							["school"] = 2,
-							["targets"] = {
-								["Moorabi"] = {
-									["uptime"] = 19,
-									["count"] = 2,
-								},
-								["Drakkari Earthshaker"] = {
-									["uptime"] = 2,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 21,
-						},
-						[25780] = {
+						[63944] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 2,
-							["uptime"] = 20,
+							["uptime"] = 22,
 						},
-						[66922] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 2,
-							["uptime"] = 12,
-						},
-						[71403] = {
+						[73422] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["school"] = 1,
 							["uptime"] = 10,
 						},
-						[31803] = {
-							["type"] = "DEBUFF",
-							["count"] = 4,
-							["school"] = 2,
-							["refresh"] = 28,
-							["targets"] = {
-								["Drakkari Earthshaker"] = {
-									["count"] = 2,
-									["refresh"] = 8,
-									["uptime"] = 12,
-								},
-								["Moorabi"] = {
-									["count"] = 1,
-									["refresh"] = 20,
-									["uptime"] = 29,
-								},
-								["Drakkari Inciter"] = {
-									["uptime"] = 4,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 41,
+						[71905] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["refresh"] = 4,
+							["uptime"] = 6,
 						},
-						[48819] = {
-							["type"] = "DEBUFF",
-							["count"] = 6,
-							["school"] = 2,
-							["targets"] = {
-								["Drakkari Earthshaker"] = {
-									["uptime"] = 8,
-									["count"] = 3,
-								},
-								["Moorabi"] = {
-									["uptime"] = 14,
-									["count"] = 2,
-								},
-								["Drakkari Inciter"] = {
-									["uptime"] = 5,
-									["count"] = 1,
-								},
-							},
+						[57623] = {
+							["type"] = "BUFF",
+							["count"] = 1,
 							["uptime"] = 22,
+						},
+						[71227] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 8,
+							["refresh"] = 1,
+							["uptime"] = 10,
 						},
 						[72221] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 53,
+							["uptime"] = 22,
 						},
-						[48074] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 53,
-						},
-						[53563] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 53,
-						},
-					},
-					["absorbspells"] = {
-						[66233] = {
-							["min"] = 2415,
-							["count"] = 1,
-							["amount"] = 2415,
-							["school"] = 1,
+						[49938] = {
+							["type"] = "DEBUFF",
+							["count"] = 6,
+							["school"] = 32,
 							["targets"] = {
-								["Gometius"] = 2415,
-							},
-							["max"] = 2415,
-						},
-					},
-					["time"] = 44.98999999999999,
-					["totaldamagetaken"] = 7208,
-					["overkill"] = 576,
-					["damage"] = 102914,
-					["damagespells"] = {
-						["Consecration (DoT)"] = {
-							["hitmin"] = 340,
-							["id"] = 48819,
-							["targets"] = {
-								["Drakkari Earthshaker"] = {
-									["amount"] = 6640,
+								["Fallen Warrior"] = {
+									["uptime"] = 10,
+									["count"] = 4,
 								},
-								["Moorabi"] = {
-									["amount"] = 5008,
-								},
-								["Drakkari Inciter"] = {
-									["amount"] = 1976,
+								["Wrathbone Coldwraith"] = {
+									["uptime"] = 10,
+									["count"] = 2,
 								},
 							},
-							["hitmax"] = 424,
-							["casts"] = 4,
-							["count"] = 34,
-							["hit"] = 34,
+							["uptime"] = 10,
+						},
+						[48266] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 22,
+						},
+						[48111] = {
+							["type"] = "BUFF",
+							["count"] = 1,
 							["school"] = 2,
-							["resisted"] = 504,
-							["amount"] = 13624,
-							["hitamount"] = 13624,
+							["uptime"] = 5,
 						},
-						["Judgement of Vengeance"] = {
-							["hitmin"] = 1703,
-							["id"] = 31804,
+						[15359] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 2,
+							["uptime"] = 7,
+						},
+						[51735] = {
+							["type"] = "DEBUFF",
+							["count"] = 6,
+							["school"] = 32,
+							["refresh"] = 2,
 							["targets"] = {
-								["Moorabi"] = {
-									["amount"] = 3406,
+								["Fallen Warrior"] = {
+									["count"] = 4,
+									["refresh"] = 1,
+									["uptime"] = 10,
 								},
-								["Drakkari Earthshaker"] = {
-									["amount"] = 1703,
+								["Wrathbone Coldwraith"] = {
+									["count"] = 2,
+									["refresh"] = 1,
+									["uptime"] = 11,
+								},
+							},
+							["uptime"] = 13,
+						},
+						[47930] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 2,
+							["refresh"] = 1,
+							["uptime"] = 10,
+						},
+						[55078] = {
+							["type"] = "DEBUFF",
+							["count"] = 6,
+							["school"] = 32,
+							["targets"] = {
+								["Fallen Warrior"] = {
+									["uptime"] = 10,
+									["count"] = 4,
+								},
+								["Wrathbone Coldwraith"] = {
+									["uptime"] = 9,
+									["count"] = 2,
+								},
+							},
+							["uptime"] = 11,
+						},
+						[50536] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 32,
+							["refresh"] = 1,
+							["targets"] = {
+								["Wrathbone Coldwraith"] = {
+									["count"] = 1,
+									["refresh"] = 1,
+									["uptime"] = 2,
+								},
+							},
+							["uptime"] = 2,
+						},
+						[71561] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 3,
+						},
+						[55095] = {
+							["type"] = "DEBUFF",
+							["count"] = 6,
+							["school"] = 16,
+							["targets"] = {
+								["Fallen Warrior"] = {
+									["uptime"] = 10,
+									["count"] = 4,
+								},
+								["Wrathbone Coldwraith"] = {
+									["uptime"] = 11,
+									["count"] = 2,
+								},
+							},
+							["uptime"] = 13,
+						},
+						[48469] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 22,
+						},
+						[54043] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 22,
+						},
+						[48066] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 6,
+						},
+						[24932] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 22,
+						},
+						[47753] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 2,
+							["uptime"] = 9,
+						},
+						[53365] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["refresh"] = 2,
+							["uptime"] = 22,
+						},
+						[66803] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 32,
+							["uptime"] = 13,
+						},
+						[48942] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 22,
+						},
+					},
+					["role"] = "DAMAGER",
+					["time"] = 14.87,
+					["totaldamagetaken"] = 23480,
+					["damage"] = 248814,
+					["damagespells"] = {
+						["Scourge Strike"] = {
+							["hitmin"] = 4273,
+							["id"] = 55271,
+							["targets"] = {
+								["Fallen Warrior"] = {
+									["amount"] = 4273,
+								},
+								["Wrathbone Coldwraith"] = {
+									["amount"] = 4356,
+								},
+							},
+							["casts"] = 2,
+							["count"] = 2,
+							["hit"] = 2,
+							["school"] = 1,
+							["hitmax"] = 4356,
+							["amount"] = 8629,
+							["hitamount"] = 8629,
+						},
+						["Chaos Bane"] = {
+							["hitmin"] = 461,
+							["id"] = 71904,
+							["targets"] = {
+								["Fallen Warrior"] = {
+									["amount"] = 2013,
+								},
+								["Wrathbone Coldwraith"] = {
+									["amount"] = 1008,
+								},
+							},
+							["casts"] = 1,
+							["count"] = 6,
+							["hit"] = 6,
+							["school"] = 32,
+							["hitmax"] = 547,
+							["amount"] = 3021,
+							["hitamount"] = 3021,
+						},
+						["Death Coil"] = {
+							["hitmin"] = 4529,
+							["criticalamount"] = 9466,
+							["id"] = 47632,
+							["criticalmin"] = 9466,
+							["targets"] = {
+								["Wrathbone Coldwraith"] = {
+									["amount"] = 13995,
+								},
+							},
+							["criticalmax"] = 9466,
+							["critical"] = 1,
+							["casts"] = 2,
+							["count"] = 2,
+							["hit"] = 1,
+							["school"] = 32,
+							["hitmax"] = 4529,
+							["amount"] = 13995,
+							["hitamount"] = 4529,
+						},
+						["Unholy Blight (DoT)"] = {
+							["hitmin"] = 45,
+							["id"] = 50536,
+							["targets"] = {
+								["Wrathbone Coldwraith"] = {
+									["amount"] = 45,
+								},
+							},
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 32,
+							["hitmax"] = 45,
+							["amount"] = 45,
+							["hitamount"] = 45,
+						},
+						["Wandering Plague"] = {
+							["hitmin"] = 1406,
+							["id"] = 50526,
+							["targets"] = {
+								["Fallen Warrior"] = {
+									["amount"] = 22381,
+								},
+								["Wrathbone Coldwraith"] = {
+									["amount"] = 6139,
+								},
+							},
+							["casts"] = 1,
+							["count"] = 19,
+							["hit"] = 19,
+							["school"] = 32,
+							["hitmax"] = 1659,
+							["amount"] = 28520,
+							["hitamount"] = 28520,
+						},
+						["Claw (Skullslicer)"] = {
+							["hitmin"] = 902,
+							["criticalamount"] = 3778,
+							["id"] = 47468,
+							["criticalmin"] = 1888,
+							["targets"] = {
+								["Wrathbone Coldwraith"] = {
+									["amount"] = 6664,
+								},
+							},
+							["criticalmax"] = 1890,
+							["critical"] = 2,
+							["casts"] = 1,
+							["count"] = 5,
+							["hit"] = 3,
+							["school"] = 1,
+							["hitmax"] = 1059,
+							["amount"] = 6664,
+							["hitamount"] = 2886,
+						},
+						["Melee (Skullslicer)"] = {
+							["hitmin"] = 624,
+							["criticalamount"] = 3476,
+							["id"] = 6603,
+							["targets"] = {
+								["Fallen Warrior"] = {
+									["amount"] = 1022,
+								},
+								["Wrathbone Coldwraith"] = {
+									["amount"] = 5692,
+								},
+							},
+							["criticalmin"] = 1022,
+							["critical"] = 3,
+							["criticalmax"] = 1240,
+							["count"] = 8,
+							["hit"] = 5,
+							["school"] = 1,
+							["hitmax"] = 713,
+							["amount"] = 6714,
+							["hitamount"] = 3238,
+						},
+						["Melee"] = {
+							["blocked"] = 40,
+							["hitmin"] = 3424,
+							["criticalamount"] = 15910,
+							["id"] = 6603,
+							["hitmax"] = 3890,
+							["targets"] = {
+								["Wrathbone Coldwraith"] = {
+									["overkill"] = 1021,
+									["amount"] = 26991,
+								},
+							},
+							["overkill"] = 1021,
+							["count"] = 5,
+							["criticalmax"] = 8126,
+							["critical"] = 2,
+							["amount"] = 26991,
+							["school"] = 1,
+							["hit"] = 3,
+							["criticalmin"] = 7784,
+							["hitamount"] = 11081,
+						},
+						["Blood-Caked Strike"] = {
+							["hitmin"] = 2183,
+							["id"] = 50463,
+							["targets"] = {
+								["Wrathbone Coldwraith"] = {
+									["amount"] = 2183,
+								},
+							},
+							["casts"] = 1,
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 1,
+							["hitmax"] = 2183,
+							["amount"] = 2183,
+							["hitamount"] = 2183,
+						},
+						["Retribution Aura"] = {
+							["hitmin"] = 330,
+							["id"] = 54043,
+							["targets"] = {
+								["Wrathbone Coldwraith"] = {
+									["amount"] = 662,
+								},
+								["Fallen Warrior"] = {
+									["amount"] = 330,
 								},
 							},
 							["casts"] = 1,
 							["count"] = 3,
 							["hit"] = 3,
 							["school"] = 2,
-							["hitmax"] = 1703,
-							["amount"] = 5109,
-							["hitamount"] = 5109,
+							["hitmax"] = 332,
+							["amount"] = 992,
+							["hitamount"] = 992,
 						},
-						["Holy Vengeance (DoT)"] = {
-							["hitmin"] = 152,
-							["id"] = 31803,
+						["Blood Strike"] = {
+							["criticalamount"] = 5574,
+							["id"] = 49930,
 							["targets"] = {
-								["Drakkari Earthshaker"] = {
-									["amount"] = 2588,
-								},
-								["Moorabi"] = {
-									["amount"] = 6409,
-								},
-								["Drakkari Inciter"] = {
-									["amount"] = 152,
+								["Wrathbone Coldwraith"] = {
+									["amount"] = 5574,
 								},
 							},
-							["hitmax"] = 761,
-							["count"] = 16,
-							["hit"] = 16,
-							["school"] = 2,
-							["resisted"] = 288,
-							["amount"] = 9149,
-							["hitamount"] = 9149,
-						},
-						["Hand of Reckoning"] = {
-							["hitmax"] = 2385,
-							["hitmin"] = 2385,
-							["criticalamount"] = 3578,
-							["id"] = 67485,
-							["count"] = 2,
-							["targets"] = {
-								["Moorabi"] = {
-									["amount"] = 5963,
-								},
-							},
-							["hit"] = 1,
-							["criticalmin"] = 3578,
-							["casts"] = 3,
+							["casts"] = 1,
 							["critical"] = 1,
-							["amount"] = 5963,
-							["school"] = 2,
-							["resisted"] = 662,
-							["criticalmax"] = 3578,
-							["hitamount"] = 2385,
-						},
-						["Hammer of the Righteous"] = {
-							["hitmax"] = 2505,
-							["blocked"] = 41,
-							["hitmin"] = 2004,
-							["criticalamount"] = 8823,
-							["id"] = 53595,
-							["criticalmin"] = 4391,
-							["targets"] = {
-								["Drakkari Earthshaker"] = {
-									["amount"] = 9731,
-								},
-								["Moorabi"] = {
-									["amount"] = 8900,
-								},
-								["Drakkari Inciter"] = {
-									["amount"] = 4432,
-								},
-							},
-							["criticalmax"] = 4432,
-							["critical"] = 2,
-							["casts"] = 5,
-							["count"] = 8,
-							["hit"] = 6,
-							["school"] = 2,
-							["resisted"] = 501,
-							["amount"] = 23063,
-							["hitamount"] = 14240,
-						},
-						["Hammer of Wrath"] = {
-							["hitmin"] = 2693,
-							["id"] = 48806,
-							["targets"] = {
-								["Moorabi"] = {
-									["amount"] = 2693,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 2,
-							["hitmax"] = 2693,
-							["amount"] = 2693,
-							["hitamount"] = 2693,
-						},
-						["Melee"] = {
-							["DODGE"] = 1,
-							["glance"] = 2813,
-							["hitmin"] = 471,
-							["criticalmin"] = 984,
-							["targets"] = {
-								["Drakkari Earthshaker"] = {
-									["amount"] = 4368,
-								},
-								["Moorabi"] = {
-									["amount"] = 11999,
-								},
-								["Drakkari Inciter"] = {
-									["overkill"] = 576,
-									["amount"] = 1072,
-								},
-							},
-							["glancing"] = 6,
-							["amount"] = 17439,
-							["glancemin"] = 432,
-							["criticalamount"] = 8556,
-							["id"] = 6603,
-							["glancemax"] = 504,
-							["overkill"] = 576,
-							["criticalmax"] = 1180,
-							["critical"] = 8,
-							["hit"] = 11,
+							["amount"] = 5574,
 							["school"] = 1,
-							["hitmax"] = 666,
-							["count"] = 26,
-							["hitamount"] = 6070,
+							["criticalmin"] = 5574,
+							["criticalmax"] = 5574,
+							["count"] = 1,
 						},
-						["Shield of Righteousness"] = {
-							["hitmin"] = 2775,
-							["criticalamount"] = 12536,
-							["id"] = 61411,
-							["criticalmin"] = 6268,
+						["Necrosis"] = {
+							["hitmin"] = 684,
+							["id"] = 51460,
 							["targets"] = {
-								["Moorabi"] = {
-									["amount"] = 12536,
-								},
-								["Drakkari Earthshaker"] = {
-									["amount"] = 2775,
+								["Wrathbone Coldwraith"] = {
+									["amount"] = 5396,
 								},
 							},
-							["criticalmax"] = 6268,
-							["critical"] = 2,
-							["casts"] = 3,
-							["count"] = 3,
-							["hit"] = 1,
-							["school"] = 2,
-							["hitmax"] = 2775,
-							["amount"] = 15311,
-							["hitamount"] = 2775,
-						},
-						["Seal of Vengeance"] = {
-							["hitmax"] = 350,
-							["hitmin"] = 55,
-							["criticalamount"] = 5721,
-							["id"] = 42463,
-							["criticalmin"] = 258,
-							["targets"] = {
-								["Drakkari Earthshaker"] = {
-									["amount"] = 2393,
-								},
-								["Moorabi"] = {
-									["amount"] = 8103,
-								},
-								["Drakkari Inciter"] = {
-									["amount"] = 67,
-								},
-							},
-							["criticalmax"] = 722,
-							["critical"] = 10,
 							["casts"] = 1,
-							["count"] = 32,
-							["hit"] = 22,
-							["school"] = 2,
-							["resisted"] = 487,
-							["amount"] = 10563,
-							["hitamount"] = 4842,
+							["count"] = 5,
+							["hit"] = 5,
+							["school"] = 32,
+							["hitmax"] = 1625,
+							["amount"] = 5396,
+							["hitamount"] = 5396,
+						},
+						["Blood Plague (DoT)"] = {
+							["hitmin"] = 1480,
+							["id"] = 55078,
+							["targets"] = {
+								["Fallen Warrior"] = {
+									["overkill"] = 466,
+									["amount"] = 10439,
+								},
+								["Wrathbone Coldwraith"] = {
+									["amount"] = 4471,
+								},
+							},
+							["overkill"] = 466,
+							["count"] = 10,
+							["hit"] = 10,
+							["school"] = 32,
+							["hitmax"] = 1494,
+							["amount"] = 14910,
+							["hitamount"] = 14910,
+						},
+						["Scourge Strike (Shadow)"] = {
+							["hitmin"] = 2215,
+							["id"] = 70890,
+							["targets"] = {
+								["Fallen Warrior"] = {
+									["amount"] = 2259,
+								},
+								["Wrathbone Coldwraith"] = {
+									["amount"] = 2215,
+								},
+							},
+							["casts"] = 1,
+							["count"] = 2,
+							["hit"] = 2,
+							["school"] = 32,
+							["hitmax"] = 2259,
+							["amount"] = 4474,
+							["hitamount"] = 4474,
+						},
+						["Death and Decay"] = {
+							["criticalmax"] = 2420,
+							["hitmin"] = 904,
+							["criticalamount"] = 53345,
+							["id"] = 52212,
+							["criticalmin"] = 1890,
+							["targets"] = {
+								["Wrathbone Coldwraith"] = {
+									["overkill"] = 87,
+									["amount"] = 33163,
+								},
+								["Fallen Warrior"] = {
+									["overkill"] = 1170,
+									["amount"] = 58628,
+								},
+							},
+							["overkill"] = 1257,
+							["critical"] = 24,
+							["casts"] = 1,
+							["count"] = 60,
+							["hit"] = 36,
+							["school"] = 32,
+							["hitmax"] = 1158,
+							["amount"] = 91791,
+							["hitamount"] = 38446,
+						},
+						["Plague Strike"] = {
+							["criticalamount"] = 5385,
+							["id"] = 49921,
+							["targets"] = {
+								["Wrathbone Coldwraith"] = {
+									["amount"] = 5385,
+								},
+							},
+							["casts"] = 1,
+							["critical"] = 1,
+							["amount"] = 5385,
+							["school"] = 1,
+							["criticalmin"] = 5385,
+							["criticalmax"] = 5385,
+							["count"] = 1,
+						},
+						["Frost Fever (DoT)"] = {
+							["hitmin"] = 1749,
+							["id"] = 55095,
+							["targets"] = {
+								["Fallen Warrior"] = {
+									["amount"] = 11729,
+								},
+								["Wrathbone Coldwraith"] = {
+									["amount"] = 7409,
+								},
+							},
+							["count"] = 10,
+							["hit"] = 10,
+							["school"] = 16,
+							["hitmax"] = 1955,
+							["amount"] = 19138,
+							["hitamount"] = 19138,
+						},
+						["Icy Touch"] = {
+							["criticalamount"] = 4392,
+							["id"] = 49909,
+							["targets"] = {
+								["Wrathbone Coldwraith"] = {
+									["amount"] = 4392,
+								},
+							},
+							["casts"] = 1,
+							["critical"] = 1,
+							["amount"] = 4392,
+							["school"] = 16,
+							["criticalmin"] = 4392,
+							["criticalmax"] = 4392,
+							["count"] = 1,
 						},
 					},
-					["absorb"] = 2415,
-					["damagetaken"] = 2031,
-					["id"] = "0x0700000000949DDC",
-					["spec"] = 66,
+					["interrupt"] = 1,
+					["damagetaken"] = 17606,
+					["id"] = "0x070000000000D01B",
+					["spec"] = 252,
 					["healspells"] = {
-						[20267] = {
-							["overheal"] = 20938,
+						[53365] = {
+							["overheal"] = 1209,
+							["max"] = 1209,
+							["count"] = 2,
+							["amount"] = 1209,
+							["school"] = 1,
+							["min"] = 1209,
+							["targets"] = {
+								["Urgash"] = {
+									["overheal"] = 1209,
+									["amount"] = 1209,
+								},
+							},
+						},
+						[34299] = {
+							["overheal"] = 1954,
 							["max"] = 806,
-							["count"] = 38,
-							["amount"] = 6063,
-							["school"] = 2,
-							["min"] = 423,
+							["count"] = 4,
+							["amount"] = 806,
+							["school"] = 1,
+							["min"] = 806,
 							["ishot"] = true,
 							["targets"] = {
-								["Gometius"] = {
-									["overheal"] = 11938,
+								["Skullslicer"] = {
+									["overheal"] = 1148,
 									["amount"] = 0,
 								},
 								["Urgash"] = {
-									["overheal"] = 6828,
-									["amount"] = 6063,
+									["overheal"] = 806,
+									["amount"] = 806,
 								},
-								["Zaralar"] = {
-									["overheal"] = 543,
-									["amount"] = 0,
-								},
-								["Wubobo"] = {
-									["overheal"] = 1629,
-									["amount"] = 0,
+							},
+						},
+						[50475] = {
+							["overheal"] = 930,
+							["max"] = 421,
+							["count"] = 13,
+							["amount"] = 1942,
+							["school"] = 1,
+							["min"] = 2,
+							["ishot"] = true,
+							["targets"] = {
+								["Urgash"] = {
+									["overheal"] = 930,
+									["amount"] = 1942,
 								},
 							},
 						},
 					},
 					["damagetakenspells"] = {
 						["Melee"] = {
-							["DODGE"] = 3,
-							["total"] = 4192,
+							["criticalmin"] = 6676,
+							["total"] = 17515,
+							["hitmin"] = 2854,
+							["criticalamount"] = 6676,
 							["id"] = 6603,
-							["blocked"] = 1144,
-							["BLOCK"] = 1,
+							["criticalmax"] = 6676,
+							["critical"] = 1,
+							["PARRY"] = 2,
+							["hitmax"] = 4176,
 							["sources"] = {
-								["Drakkari Inciter"] = {
-									["amount"] = 0,
+								["Wrathbone Coldwraith"] = {
+									["amount"] = 9530,
 								},
-								["Moorabi"] = {
-									["total"] = 2415,
-									["amount"] = 0,
-								},
-								["Drakkari Earthshaker"] = {
-									["total"] = 1777,
-									["amount"] = 0,
+								["Fallen Warrior"] = {
+									["total"] = 7985,
+									["amount"] = 4176,
 								},
 							},
-							["count"] = 13,
-							["amount"] = 0,
-							["school"] = 1,
-							["ABSORB"] = 2,
-							["MISS"] = 3,
-							["PARRY"] = 4,
-						},
-						["Determined Gore"] = {
-							["total"] = 1530,
-							["hitmin"] = 1060,
-							["id"] = 59444,
-							["sources"] = {
-								["Moorabi"] = {
-									["total"] = 1530,
-									["amount"] = 1060,
-								},
-							},
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 1,
-							["hitmax"] = 1060,
-							["amount"] = 1060,
-							["hitamount"] = 1060,
-						},
-						["Ground Tremor"] = {
-							["hitmin"] = 971,
-							["id"] = 55142,
-							["sources"] = {
-								["Moorabi"] = {
-									["amount"] = 971,
-								},
-							},
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 1,
-							["hitmax"] = 971,
-							["amount"] = 971,
-							["hitamount"] = 971,
-						},
-						["Determined Gore (DoT)"] = {
-							["total"] = 515,
-							["count"] = 1,
-							["amount"] = 0,
-							["school"] = 1,
-							["sources"] = {
-								["Moorabi"] = {
-									["total"] = 515,
-									["amount"] = 0,
-								},
-							},
+							["count"] = 6,
 							["ABSORB"] = 1,
-							["id"] = 59444,
+							["school"] = 1,
+							["amount"] = 13706,
+							["hit"] = 2,
+							["hitamount"] = 7030,
+						},
+						["Arcing Slice"] = {
+							["total"] = 5965,
+							["hitmin"] = 3900,
+							["id"] = 69579,
+							["amount"] = 3900,
+							["sources"] = {
+								["Fallen Warrior"] = {
+									["total"] = 5965,
+									["amount"] = 3900,
+								},
+							},
+							["count"] = 2,
+							["hit"] = 1,
+							["school"] = 1,
+							["hitmax"] = 3900,
+							["MISS"] = 1,
+							["hitamount"] = 3900,
 						},
 					},
-					["overheal"] = 20938,
-					["heal"] = 6063,
-					["name"] = "Gometius",
-					["manaspells"] = {
-						[57319] = 1288,
-						[54428] = 6868,
-						[31786] = 202,
+					["heal"] = 3957,
+					["name"] = "Urgash",
+					["overkill"] = 2744,
+					["overheal"] = 4093,
+					["interruptspells"] = {
+						[47528] = {
+							["spells"] = {
+								[70277] = 1,
+							},
+							["count"] = 1,
+							["targets"] = {
+								["Wrathbone Coldwraith"] = 1,
+							},
+						},
 					},
-					["mana"] = 8358,
-					["totaldamage"] = 102914,
-					["role"] = "TANK",
-				}, -- [2]
+					["totaldamage"] = 248814,
+				}, -- [1]
 				{
-					["last"] = 18033.98,
+					["ccdonespells"] = {
+						[48817] = {
+							["count"] = 5,
+							["targets"] = {
+								["Wrathbone Coldwraith"] = 2,
+								["Fallen Warrior"] = 3,
+							},
+						},
+					},
+					["last"] = 18681.901,
 					["flag"] = 1298,
 					["class"] = "PALADIN",
 					["auras"] = {
-						[72221] = {
+						[20375] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 53,
+							["uptime"] = 22,
 						},
-						[20185] = {
-							["type"] = "DEBUFF",
-							["count"] = 3,
+						[48470] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 22,
+						},
+						[48068] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 2,
+						},
+						[48162] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 22,
+						},
+						[64904] = {
+							["type"] = "BUFF",
+							["count"] = 1,
 							["school"] = 2,
-							["targets"] = {
-								["Moorabi"] = {
-									["uptime"] = 9,
-									["count"] = 2,
-								},
-								["Drakkari Earthshaker"] = {
-									["uptime"] = 6,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 15,
+							["refresh"] = 3,
+							["uptime"] = 12,
 						},
-						[48074] = {
+						[63944] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 53,
+							["uptime"] = 22,
+						},
+						[54428] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["refresh"] = 14,
+							["uptime"] = 22,
 						},
 						[48942] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 53,
-						},
-						[48170] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 53,
+							["uptime"] = 22,
 						},
 						[57623] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["refresh"] = 2,
-							["uptime"] = 53,
-						},
-						[31834] = {
-							["type"] = "BUFF",
-							["count"] = 2,
-							["school"] = 2,
-							["uptime"] = 30,
+							["uptime"] = 22,
 						},
 						[25898] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 53,
-						},
-						[28878] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 53,
-						},
-						[20166] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 53,
-						},
-						[54153] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["refresh"] = 3,
-							["uptime"] = 53,
-						},
-						[25899] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 53,
-						},
-						[48162] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 53,
-						},
-						[57102] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 53,
-						},
-						[19746] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 53,
-						},
-						[43002] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 53,
-						},
-					},
-					["absorbspells"] = {
-						[58597] = {
-							["min"] = 470,
-							["casts"] = 3,
-							["count"] = 3,
-							["amount"] = 2762,
-							["max"] = 1777,
-							["targets"] = {
-								["Gometius"] = 2762,
-							},
-							["school"] = 2,
-						},
-					},
-					["time"] = 37.46999999999999,
-					["totaldamagetaken"] = 1315,
-					["damage"] = 4754,
-					["overheal"] = 127462,
-					["absorb"] = 2762,
-					["damagetaken"] = 1315,
-					["id"] = "0x070000000096902A",
-					["spec"] = 65,
-					["healspells"] = {
-						[66922] = {
-							["overheal"] = 4444,
-							["max"] = 443,
-							["count"] = 12,
-							["amount"] = 871,
-							["school"] = 2,
-							["min"] = 428,
-							["ishot"] = true,
-							["targets"] = {
-								["Gometius"] = {
-									["overheal"] = 4444,
-									["amount"] = 871,
-								},
-							},
-						},
-						[48785] = {
-							["overheal"] = 27345,
-							["criticalamount"] = 5640,
-							["max"] = 5640,
-							["targets"] = {
-								["Gometius"] = {
-									["overheal"] = 4551,
-									["amount"] = 0,
-								},
-								["Urgash"] = {
-									["overheal"] = 20142,
-									["amount"] = 18867,
-								},
-								["Wubobo"] = {
-									["overheal"] = 2652,
-									["amount"] = 1884,
-								},
-							},
-							["criticalmax"] = 5640,
-							["min"] = 1732,
-							["casts"] = 11,
-							["count"] = 10,
-							["amount"] = 20751,
-							["school"] = 2,
-							["criticalmin"] = 5640,
-							["critical"] = 1,
-						},
-						[54968] = {
-							["overheal"] = 4956,
-							["count"] = 4,
-							["amount"] = 0,
-							["school"] = 2,
-							["targets"] = {
-								["Wubobo"] = {
-									["overheal"] = 2478,
-									["amount"] = 0,
-								},
-								["Gometius"] = {
-									["overheal"] = 2478,
-									["amount"] = 0,
-								},
-							},
-						},
-						[48782] = {
-							["overheal"] = 18617,
-							["max"] = 4989,
-							["targets"] = {
-								["Urgash"] = {
-									["overheal"] = 18617,
-									["amount"] = 4989,
-								},
-							},
-							["min"] = 4989,
-							["casts"] = 2,
-							["count"] = 2,
-							["amount"] = 4989,
-							["school"] = 2,
-						},
-						[20267] = {
-							["overheal"] = 6013,
-							["max"] = 806,
-							["count"] = 12,
-							["amount"] = 2773,
-							["school"] = 2,
-							["min"] = 356,
-							["ishot"] = true,
-							["targets"] = {
-								["Gometius"] = {
-									["overheal"] = 4214,
-									["amount"] = 0,
-								},
-								["Urgash"] = {
-									["overheal"] = 1256,
-									["amount"] = 2773,
-								},
-								["Zaralar"] = {
-									["overheal"] = 543,
-									["amount"] = 0,
-								},
-							},
-						},
-						[53654] = {
-							["overheal"] = 66087,
-							["max"] = 1060,
-							["count"] = 11,
-							["amount"] = 1060,
-							["school"] = 2,
-							["min"] = 1060,
-							["targets"] = {
-								["Gometius"] = {
-									["overheal"] = 66087,
-									["amount"] = 1060,
-								},
-							},
-						},
-					},
-					["damagetakenspells"] = {
-						["Ground Tremor"] = {
-							["hitmin"] = 1315,
-							["id"] = 55142,
-							["sources"] = {
-								["Moorabi"] = {
-									["amount"] = 1315,
-								},
-							},
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 1,
-							["hitmax"] = 1315,
-							["amount"] = 1315,
-							["hitamount"] = 1315,
-						},
-					},
-					["manaspells"] = {
-						[20272] = 92,
-						[20168] = 2930,
-					},
-					["heal"] = 30444,
-					["name"] = "Ynnou",
-					["mana"] = 3022,
-					["damagespells"] = {
-						["Judgement"] = {
-							["hitmin"] = 1189,
-							["criticalamount"] = 2376,
-							["id"] = 54158,
-							["criticalmin"] = 2376,
-							["targets"] = {
-								["Moorabi"] = {
-									["amount"] = 3565,
-								},
-								["Drakkari Earthshaker"] = {
-									["amount"] = 1189,
-								},
-							},
-							["criticalmax"] = 2376,
-							["critical"] = 1,
-							["casts"] = 1,
-							["count"] = 3,
-							["hit"] = 2,
-							["school"] = 2,
-							["hitmax"] = 1189,
-							["amount"] = 4754,
-							["hitamount"] = 2378,
-						},
-					},
-					["totaldamage"] = 4754,
-					["role"] = "HEALER",
-				}, -- [3]
-				{
-					["last"] = 18032.708,
-					["flag"] = 1298,
-					["class"] = "PRIEST",
-					["auras"] = {
-						[72416] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 64,
-							["uptime"] = 10,
-						},
-						[15473] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 53,
-						},
-						[48162] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 53,
-						},
-						[16595] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 53,
-						},
-						[32409] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 32,
-							["uptime"] = 1,
-						},
-						[57623] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["refresh"] = 2,
-							["uptime"] = 53,
-						},
-						[48074] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 53,
-						},
-						[48168] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 53,
-						},
-						[48160] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 32,
-							["targets"] = {
-								["Moorabi"] = {
-									["uptime"] = 12,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 12,
+							["uptime"] = 22,
 						},
 						[48170] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 53,
+							["uptime"] = 22,
 						},
-						[33198] = {
+						[25899] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 22,
+						},
+						[68055] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 2,
+							["targets"] = {
+								["Wrathbone Coldwraith"] = {
+									["uptime"] = 4,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 4,
+						},
+						[20186] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 2,
+							["targets"] = {
+								["Wrathbone Coldwraith"] = {
+									["uptime"] = 2,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 2,
+						},
+						[54499] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 2,
+							["targets"] = {
+								["Wrathbone Coldwraith"] = {
+									["uptime"] = 2,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 2,
+						},
+						[48827] = {
 							["type"] = "DEBUFF",
 							["count"] = 3,
-							["school"] = 32,
-							["refresh"] = 8,
+							["school"] = 2,
 							["targets"] = {
-								["Moorabi"] = {
-									["count"] = 1,
-									["refresh"] = 7,
-									["uptime"] = 27,
-								},
-								["Drakkari Earthshaker"] = {
-									["count"] = 2,
-									["refresh"] = 1,
-									["uptime"] = 9,
+								["Fallen Warrior"] = {
+									["uptime"] = 3,
+									["count"] = 3,
 								},
 							},
-							["uptime"] = 36,
+							["uptime"] = 3,
 						},
-						[19746] = {
+						[20007] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 53,
+							["school"] = 1,
+							["uptime"] = 13,
 						},
-						[59626] = {
+						[47930] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 32,
-							["uptime"] = 10,
+							["uptime"] = 1,
 						},
-						[71579] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 64,
-							["uptime"] = 20,
-						},
-						[53755] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 53,
-						},
-						[48300] = {
+						[63529] = {
 							["type"] = "DEBUFF",
-							["count"] = 2,
-							["school"] = 32,
-							["refresh"] = 1,
+							["count"] = 3,
+							["school"] = 1,
 							["targets"] = {
-								["Moorabi"] = {
-									["count"] = 1,
-									["refresh"] = 1,
-									["uptime"] = 29,
-								},
-								["Drakkari Earthshaker"] = {
-									["uptime"] = 10,
-									["count"] = 1,
+								["Fallen Warrior"] = {
+									["uptime"] = 3,
+									["count"] = 3,
 								},
 							},
-							["uptime"] = 39,
+							["uptime"] = 3,
 						},
-						[28878] = {
+						[26017] = {
+							["type"] = "DEBUFF",
+							["count"] = 4,
+							["school"] = 2,
+							["targets"] = {
+								["Wrathbone Coldwraith"] = {
+									["uptime"] = 2,
+									["count"] = 1,
+								},
+								["Fallen Warrior"] = {
+									["uptime"] = 6,
+									["count"] = 3,
+								},
+							},
+							["uptime"] = 8,
+						},
+						[25780] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 53,
+							["uptime"] = 22,
+						},
+						[48817] = {
+							["type"] = "DEBUFF",
+							["count"] = 5,
+							["school"] = 2,
+							["targets"] = {
+								["Wrathbone Coldwraith"] = {
+									["uptime"] = 3,
+									["count"] = 2,
+								},
+								["Fallen Warrior"] = {
+									["uptime"] = 3,
+									["count"] = 3,
+								},
+							},
+							["uptime"] = 3,
+						},
+						[57669] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 22,
+						},
+						[54043] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 22,
+						},
+						[71197] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["refresh"] = 1,
+							["school"] = 8,
+							["uptime"] = 18,
+						},
+						[48819] = {
+							["type"] = "DEBUFF",
+							["count"] = 9,
+							["school"] = 2,
+							["targets"] = {
+								["Fallen Warrior"] = {
+									["uptime"] = 13,
+									["count"] = 6,
+								},
+								["Wrathbone Coldwraith"] = {
+									["uptime"] = 11,
+									["count"] = 3,
+								},
+							},
+							["uptime"] = 13,
+						},
+						[48066] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 6,
+						},
+						[15359] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 1,
+						},
+						[24932] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 22,
+						},
+						[48074] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 22,
+						},
+					},
+					["role"] = "TANK",
+					["time"] = 15.33,
+					["totaldamagetaken"] = 3688,
+					["damage"] = 80815,
+					["overheal"] = 758,
+					["damagetaken"] = 1655,
+					["id"] = "0x070000000095DC85",
+					["spec"] = 66,
+					["healspells"] = {
+						[34299] = {
+							["overheal"] = 758,
+							["max"] = 757,
+							["count"] = 2,
+							["amount"] = 757,
+							["school"] = 1,
+							["min"] = 757,
+							["ishot"] = true,
+							["targets"] = {
+								["Crazydqs"] = {
+									["overheal"] = 758,
+									["amount"] = 757,
+								},
+							},
+						},
+						[20007] = {
+							["overheal"] = 0,
+							["count"] = 1,
+							["amount"] = 22,
+							["school"] = 1,
+							["max"] = 22,
+							["targets"] = {
+								["Crazydqs"] = {
+									["overheal"] = 0,
+									["amount"] = 22,
+								},
+							},
+							["min"] = 22,
+						},
+					},
+					["damagetakenspells"] = {
+						["Melee"] = {
+							["DODGE"] = 2,
+							["sources"] = {
+								["Fallen Warrior"] = {
+									["amount"] = 0,
+								},
+							},
+							["count"] = 5,
+							["amount"] = 0,
+							["school"] = 1,
+							["PARRY"] = 1,
+							["MISS"] = 2,
+							["id"] = 6603,
+						},
+						["Arcing Slice"] = {
+							["DODGE"] = 1,
+							["total"] = 3688,
+							["hitmin"] = 1655,
+							["id"] = 69579,
+							["sources"] = {
+								["Fallen Warrior"] = {
+									["total"] = 3688,
+									["amount"] = 1655,
+								},
+							},
+							["count"] = 2,
+							["hit"] = 1,
+							["school"] = 1,
+							["hitmax"] = 1655,
+							["amount"] = 1655,
+							["hitamount"] = 1655,
+						},
+					},
+					["damagespells"] = {
+						["Consecration (DoT)"] = {
+							["hitmin"] = 358,
+							["id"] = 48819,
+							["targets"] = {
+								["Wrathbone Coldwraith"] = {
+									["amount"] = 7073,
+								},
+								["Fallen Warrior"] = {
+									["amount"] = 12646,
+								},
+							},
+							["casts"] = 2,
+							["count"] = 51,
+							["hit"] = 51,
+							["school"] = 2,
+							["hitmax"] = 408,
+							["amount"] = 19719,
+							["hitamount"] = 19719,
+						},
+						["Judgement of Command"] = {
+							["criticalamount"] = 1456,
+							["id"] = 20467,
+							["targets"] = {
+								["Wrathbone Coldwraith"] = {
+									["amount"] = 1456,
+								},
+							},
+							["casts"] = 1,
+							["critical"] = 1,
+							["amount"] = 1456,
+							["school"] = 2,
+							["criticalmin"] = 1456,
+							["criticalmax"] = 1456,
+							["count"] = 1,
+						},
+						["Melee"] = {
+							["glance"] = 674,
+							["hitmin"] = 551,
+							["criticalmin"] = 1200,
+							["targets"] = {
+								["Wrathbone Coldwraith"] = {
+									["amount"] = 2343,
+								},
+								["Fallen Warrior"] = {
+									["amount"] = 4385,
+								},
+							},
+							["glancing"] = 1,
+							["amount"] = 6728,
+							["glancemin"] = 674,
+							["criticalamount"] = 2492,
+							["id"] = 6603,
+							["glancemax"] = 674,
+							["count"] = 9,
+							["criticalmax"] = 1292,
+							["critical"] = 2,
+							["hit"] = 6,
+							["school"] = 1,
+							["blocked"] = 40,
+							["hitmax"] = 669,
+							["hitamount"] = 3562,
+						},
+						["Avenger's Shield"] = {
+							["hitmin"] = 2040,
+							["id"] = 48827,
+							["targets"] = {
+								["Fallen Warrior"] = {
+									["amount"] = 6354,
+								},
+							},
+							["casts"] = 1,
+							["count"] = 3,
+							["hit"] = 3,
+							["school"] = 2,
+							["hitmax"] = 2236,
+							["amount"] = 6354,
+							["hitamount"] = 6354,
+						},
+						["Hammer of the Righteous"] = {
+							["hitmin"] = 2438,
+							["id"] = 53595,
+							["targets"] = {
+								["Fallen Warrior"] = {
+									["amount"] = 10751,
+								},
+							},
+							["casts"] = 2,
+							["count"] = 4,
+							["hit"] = 4,
+							["school"] = 2,
+							["hitmax"] = 2771,
+							["amount"] = 10751,
+							["hitamount"] = 10751,
+						},
+						["Seal of Command"] = {
+							["DODGE"] = 1,
+							["blocked"] = 40,
+							["hitmin"] = 310,
+							["criticalamount"] = 6544,
+							["id"] = 20424,
+							["criticalmin"] = 636,
+							["targets"] = {
+								["Wrathbone Coldwraith"] = {
+									["amount"] = 2997,
+								},
+								["Fallen Warrior"] = {
+									["amount"] = 13419,
+								},
+							},
+							["criticalmax"] = 792,
+							["critical"] = 9,
+							["casts"] = 1,
+							["count"] = 36,
+							["hit"] = 26,
+							["school"] = 2,
+							["hitmax"] = 443,
+							["amount"] = 16416,
+							["hitamount"] = 9872,
+						},
+						["Shield of Righteousness"] = {
+							["blocked"] = 40,
+							["hitmin"] = 3487,
+							["criticalamount"] = 6198,
+							["id"] = 61411,
+							["hitmax"] = 3487,
+							["targets"] = {
+								["Wrathbone Coldwraith"] = {
+									["amount"] = 3487,
+								},
+								["Fallen Warrior"] = {
+									["amount"] = 6198,
+								},
+							},
+							["count"] = 2,
+							["hit"] = 1,
+							["casts"] = 2,
+							["critical"] = 1,
+							["amount"] = 9685,
+							["school"] = 2,
+							["criticalmin"] = 6198,
+							["criticalmax"] = 6198,
+							["hitamount"] = 3487,
+						},
+						["Holy Wrath"] = {
+							["hitmin"] = 1706,
+							["criticalamount"] = 2558,
+							["id"] = 48817,
+							["hitmax"] = 1919,
+							["targets"] = {
+								["Wrathbone Coldwraith"] = {
+									["amount"] = 3720,
+								},
+								["Fallen Warrior"] = {
+									["amount"] = 5986,
+								},
+							},
+							["count"] = 5,
+							["hit"] = 4,
+							["casts"] = 1,
+							["critical"] = 1,
+							["amount"] = 9706,
+							["school"] = 2,
+							["criticalmin"] = 2558,
+							["criticalmax"] = 2558,
+							["hitamount"] = 7148,
+						},
+					},
+					["heal"] = 779,
+					["name"] = "Crazydqs",
+					["ccdone"] = 5,
+					["totaldamage"] = 80815,
+					["manaspells"] = {
+						[57319] = 590,
+						[54428] = 2620,
+						[20268] = 1740,
+					},
+					["mana"] = 4950,
+				}, -- [2]
+				{
+					["last"] = 18688.097,
+					["flag"] = 1298,
+					["class"] = "PRIEST",
+					["auras"] = {
+						[24932] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 22,
+						},
+						[48470] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 22,
+						},
+						[64901] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 2,
+							["uptime"] = 6,
+						},
+						[48162] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 22,
+						},
+						[48938] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 22,
+						},
+						[64904] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 2,
+							["refresh"] = 3,
+							["uptime"] = 12,
+						},
+						[63944] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 22,
+						},
+						[48074] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 22,
+						},
+						[48168] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 22,
+						},
+						[25898] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 22,
+						},
+						[48170] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 22,
+						},
+						[59891] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["refresh"] = 1,
+							["uptime"] = 7,
+						},
+						[57669] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 22,
+						},
+						[54043] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 22,
 						},
 						[48066] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["school"] = 2,
-							["uptime"] = 30,
+							["uptime"] = 21,
 						},
-						[43002] = {
+						[48942] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 53,
+							["uptime"] = 22,
 						},
 						[6788] = {
 							["type"] = "DEBUFF",
 							["count"] = 1,
 							["school"] = 2,
 							["targets"] = {
-								["Zaralar"] = {
-									["uptime"] = 15,
+								["Najgora"] = {
+									["uptime"] = 11,
 									["count"] = 1,
 								},
 							},
-							["uptime"] = 15,
-						},
-						[59000] = {
-							["type"] = "BUFF",
-							["count"] = 2,
-							["school"] = 32,
-							["refresh"] = 2,
-							["uptime"] = 17,
-						},
-						[48301] = {
-							["type"] = "DEBUFF",
-							["count"] = 2,
-							["school"] = 32,
-							["targets"] = {
-								["Moorabi"] = {
-									["uptime"] = 10,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 10,
-						},
-						[48156] = {
-							["type"] = "BUFF",
-							["count"] = 16,
-							["school"] = 32,
-							["targets"] = {
-								["Moorabi"] = {
-									["uptime"] = 14,
-									["count"] = 6,
-								},
-							},
-							["uptime"] = 14,
-						},
-						[53023] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 32,
-							["targets"] = {
-								["Drakkari Earthshaker"] = {
-									["uptime"] = 4,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 4,
-						},
-						[48125] = {
-							["type"] = "DEBUFF",
-							["count"] = 2,
-							["school"] = 32,
-							["refresh"] = 7,
-							["targets"] = {
-								["Moorabi"] = {
-									["count"] = 1,
-									["refresh"] = 6,
-									["uptime"] = 27,
-								},
-								["Drakkari Earthshaker"] = {
-									["count"] = 1,
-									["refresh"] = 1,
-									["uptime"] = 9,
-								},
-							},
-							["uptime"] = 36,
-						},
-						[72221] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 53,
-						},
-						[15286] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 53,
-						},
-						[15258] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["refresh"] = 28,
-							["uptime"] = 53,
-						},
-						[15271] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 32,
-							["uptime"] = 15,
-						},
-						[48942] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 53,
+							["uptime"] = 11,
 						},
 					},
 					["absorbspells"] = {
 						[48066] = {
-							["min"] = 1671,
+							["min"] = 2033,
 							["casts"] = 1,
-							["count"] = 2,
-							["amount"] = 3395,
+							["count"] = 4,
+							["amount"] = 13249,
+							["max"] = 5342,
+							["targets"] = {
+								["Crazydqs"] = 2033,
+								["Urgash"] = 5874,
+								["Yiyuan"] = 5342,
+							},
+						},
+					},
+					["time"] = 18.58,
+					["overheal"] = 3231,
+					["absorb"] = 13249,
+					["id"] = "0x070000000096F606",
+					["spec"] = 256,
+					["healspells"] = {
+						[56160] = {
+							["overheal"] = 1064,
+							["count"] = 1,
+							["amount"] = 0,
 							["school"] = 2,
 							["targets"] = {
-								["Zaralar"] = 3395,
-							},
-							["max"] = 1724,
-						},
-					},
-					["time"] = 43.61000000000001,
-					["totaldamagetaken"] = 3395,
-					["damage"] = 164475,
-					["damagespells"] = {
-						["Mind Sear"] = {
-							["hitmin"] = 1848,
-							["criticalamount"] = 5712,
-							["id"] = 53022,
-							["criticalmin"] = 2855,
-							["targets"] = {
-								["Drakkari Inciter"] = {
-									["amount"] = 2855,
-								},
-								["Drakkari Earthshaker"] = {
-									["amount"] = 10282,
+								["Najgora"] = {
+									["overheal"] = 1064,
+									["amount"] = 0,
 								},
 							},
-							["criticalmax"] = 2857,
-							["critical"] = 2,
-							["casts"] = 1,
-							["count"] = 6,
-							["hit"] = 4,
-							["school"] = 32,
-							["hitmax"] = 1861,
-							["amount"] = 13137,
-							["hitamount"] = 7425,
 						},
-						["Vampiric Touch (DoT)"] = {
-							["hitmin"] = 2364,
-							["criticalamount"] = 10429,
-							["id"] = 48160,
-							["hit"] = 3,
+						[48068] = {
+							["overheal"] = 2167,
+							["max"] = 1176,
 							["targets"] = {
-								["Moorabi"] = {
-									["amount"] = 18045,
-								},
-							},
-							["hitmax"] = 2626,
-							["count"] = 5,
-							["criticalmax"] = 5489,
-							["critical"] = 2,
-							["amount"] = 18045,
-							["school"] = 32,
-							["resisted"] = 810,
-							["criticalmin"] = 4940,
-							["hitamount"] = 7616,
-						},
-						["Shadow Word: Pain (DoT)"] = {
-							["hitmin"] = 1324,
-							["criticalamount"] = 15362,
-							["id"] = 48125,
-							["hitmax"] = 1590,
-							["targets"] = {
-								["Moorabi"] = {
-									["amount"] = 17172,
-								},
-								["Drakkari Earthshaker"] = {
-									["amount"] = 5538,
-								},
-							},
-							["count"] = 10,
-							["hit"] = 5,
-							["criticalmax"] = 3325,
-							["critical"] = 5,
-							["amount"] = 22710,
-							["school"] = 32,
-							["casts"] = 2,
-							["criticalmin"] = 2769,
-							["hitamount"] = 7348,
-						},
-						["Mind Blast"] = {
-							["hitmin"] = 4258,
-							["id"] = 48127,
-							["targets"] = {
-								["Moorabi"] = {
-									["amount"] = 4931,
-								},
-								["Drakkari Earthshaker"] = {
-									["amount"] = 4258,
-								},
-							},
-							["casts"] = 2,
-							["count"] = 2,
-							["hit"] = 2,
-							["school"] = 32,
-							["hitmax"] = 4931,
-							["amount"] = 9189,
-							["hitamount"] = 9189,
-						},
-						["Improved Devouring Plague"] = {
-							["criticalmin"] = 4937,
-							["hitmin"] = 2829,
-							["criticalamount"] = 4937,
-							["id"] = 63675,
-							["criticalmax"] = 4937,
-							["targets"] = {
-								["Moorabi"] = {
-									["amount"] = 8224,
-								},
-								["Drakkari Earthshaker"] = {
-									["amount"] = 2829,
-								},
-							},
-							["critical"] = 1,
-							["hitmax"] = 3287,
-							["casts"] = 1,
-							["count"] = 3,
-							["hit"] = 2,
-							["school"] = 32,
-							["resisted"] = 365,
-							["amount"] = 11053,
-							["hitamount"] = 6116,
-						},
-						["Mind Flay"] = {
-							["hitmax"] = 2303,
-							["hitmin"] = 1922,
-							["criticalamount"] = 34270,
-							["id"] = 58381,
-							["count"] = 14,
-							["targets"] = {
-								["Moorabi"] = {
-									["amount"] = 47465,
-								},
-							},
-							["hit"] = 6,
-							["criticalmin"] = 3840,
-							["casts"] = 6,
-							["critical"] = 8,
-							["amount"] = 47465,
-							["school"] = 32,
-							["resisted"] = 2177,
-							["criticalmax"] = 4813,
-							["hitamount"] = 13195,
-						},
-						["Devouring Plague (DoT)"] = {
-							["hit"] = 6,
-							["casts"] = 3,
-							["hitmin"] = 1731,
-							["criticalamount"] = 28138,
-							["id"] = 48300,
-							["hitmax"] = 2235,
-							["targets"] = {
-								["Moorabi"] = {
-									["amount"] = 26781,
-								},
-								["Drakkari Earthshaker"] = {
-									["overkill"] = 3618,
-									["amount"] = 12585,
-								},
-							},
-							["overkill"] = 3618,
-							["count"] = 13,
-							["criticalmax"] = 4672,
-							["critical"] = 7,
-							["amount"] = 39366,
-							["school"] = 32,
-							["resisted"] = 2071,
-							["criticalmin"] = 3618,
-							["hitamount"] = 11228,
-						},
-						["Shadow Word: Death"] = {
-							["hitmin"] = 3510,
-							["id"] = 48158,
-							["targets"] = {
-								["Moorabi"] = {
-									["amount"] = 3510,
-								},
-							},
-							["hitmax"] = 3510,
-							["casts"] = 1,
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 32,
-							["resisted"] = 389,
-							["amount"] = 3510,
-							["hitamount"] = 3510,
-						},
-					},
-					["absorb"] = 3395,
-					["damagetaken"] = 0,
-					["id"] = "0x07000000006FE7EF",
-					["spec"] = 258,
-					["healspells"] = {
-						[15290] = {
-							["overheal"] = 52187,
-							["max"] = 232,
-							["count"] = 240,
-							["amount"] = 5094,
-							["school"] = 32,
-							["min"] = 3,
-							["ishot"] = true,
-							["targets"] = {
-								["Gometius"] = {
-									["overheal"] = 6229,
-									["amount"] = 100,
+								["Crazydqs"] = {
+									["overheal"] = 1057,
+									["amount"] = 0,
 								},
 								["Urgash"] = {
-									["overheal"] = 3224,
-									["amount"] = 3107,
-								},
-								["Wubobo"] = {
-									["overheal"] = 5758,
-									["amount"] = 572,
-								},
-								["Ynnou"] = {
-									["overheal"] = 5330,
-									["amount"] = 1315,
-								},
-								["Zaralar"] = {
-									["overheal"] = 31646,
-									["amount"] = 0,
+									["overheal"] = 1110,
+									["amount"] = 2352,
 								},
 							},
+							["min"] = 1176,
+							["casts"] = 2,
+							["count"] = 4,
+							["amount"] = 2352,
+							["school"] = 2,
+							["ishot"] = true,
 						},
-						[75999] = {
-							["overheal"] = 1398,
-							["criticalamount"] = 0,
+						[48071] = {
+							["overheal"] = 0,
+							["criticalamount"] = 5878,
+							["max"] = 5878,
 							["targets"] = {
-								["Zaralar"] = {
-									["overheal"] = 1398,
-									["amount"] = 0,
+								["Urgash"] = {
+									["overheal"] = 0,
+									["amount"] = 9821,
 								},
 							},
-							["criticalmax"] = 0,
-							["count"] = 3,
-							["amount"] = 0,
-							["school"] = 32,
-							["criticalmin"] = 0,
+							["criticalmin"] = 5878,
+							["min"] = 3943,
+							["casts"] = 2,
+							["count"] = 2,
+							["amount"] = 9821,
+							["school"] = 2,
+							["criticalmax"] = 5878,
 							["critical"] = 1,
 						},
-						[48300] = {
-							["overheal"] = 6300,
-							["casts"] = 3,
-							["count"] = 13,
-							["amount"] = 0,
-							["school"] = 32,
-							["targets"] = {
-								["Zaralar"] = {
-									["overheal"] = 6300,
-									["amount"] = 0,
-								},
-							},
-						},
 					},
-					["overkill"] = 3618,
-					["heal"] = 5094,
-					["name"] = "Zaralar",
-					["damagetakenspells"] = {
-						["Ground Tremor"] = {
-							["total"] = 1724,
-							["count"] = 1,
-							["amount"] = 0,
-							["school"] = 1,
-							["sources"] = {
-								["Moorabi"] = {
-									["total"] = 1724,
-									["amount"] = 0,
-								},
-							},
-							["ABSORB"] = 1,
-							["id"] = 55142,
-						},
-						["Shadow Word: Death (DoT)"] = {
-							["total"] = 1671,
-							["count"] = 1,
-							["amount"] = 0,
-							["school"] = 32,
-							["ABSORB"] = 1,
-							["id"] = 32409,
-						},
+					["heal"] = 12173,
+					["name"] = "Najgora",
+					["manaspells"] = {
+						[47755] = 555,
+						[63654] = 136,
+						[64904] = 4929,
 					},
-					["overheal"] = 59885,
-					["totaldamage"] = 164475,
-					["role"] = "DAMAGER",
-				}, -- [4]
+					["mana"] = 5620,
+					["role"] = "HEALER",
+				}, -- [3]
 				{
-					["last"] = 18030.996,
+					["last"] = 18682.401,
 					["flag"] = 1298,
-					["class"] = "MAGE",
+					["mana"] = 1089,
 					["auras"] = {
-						[6562] = {
+						[48934] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 53,
+							["uptime"] = 22,
 						},
-						[43046] = {
+						[48470] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 53,
+							["uptime"] = 22,
 						},
 						[48162] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 53,
+							["uptime"] = 22,
 						},
-						[48846] = {
+						[63944] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 64,
-							["uptime"] = 20,
-						},
-						[48942] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 53,
-						},
-						[55360] = {
-							["type"] = "DEBUFF",
-							["count"] = 4,
-							["school"] = 4,
-							["refresh"] = 1,
-							["targets"] = {
-								["Moorabi"] = {
-									["uptime"] = 18,
-									["count"] = 2,
-								},
-								["Drakkari Earthshaker"] = {
-									["count"] = 2,
-									["refresh"] = 1,
-									["uptime"] = 9,
-								},
-							},
-							["uptime"] = 27,
-						},
-						[48170] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 53,
-						},
-						[19746] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 53,
-						},
-						[42891] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 4,
-							["refresh"] = 1,
-							["targets"] = {
-								["Moorabi"] = {
-									["count"] = 1,
-									["refresh"] = 1,
-									["uptime"] = 13,
-								},
-							},
-							["uptime"] = 13,
-						},
-						[43002] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 53,
-						},
-						[54739] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 64,
-							["uptime"] = 10,
-						},
-						[22959] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 4,
-							["targets"] = {
-								["Moorabi"] = {
-									["uptime"] = 24,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 24,
-						},
-						[48108] = {
-							["type"] = "BUFF",
-							["count"] = 2,
-							["school"] = 1,
-							["uptime"] = 12,
-						},
-						[47610] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 20,
-							["refresh"] = 5,
-							["targets"] = {
-								["Moorabi"] = {
-									["count"] = 1,
-									["refresh"] = 5,
-									["uptime"] = 21,
-								},
-							},
-							["uptime"] = 21,
-						},
-						[12472] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 16,
-							["uptime"] = 20,
-						},
-						[72221] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 53,
+							["uptime"] = 22,
 						},
 						[48074] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 53,
+							["uptime"] = 22,
 						},
 						[57623] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["refresh"] = 2,
-							["uptime"] = 53,
+							["uptime"] = 22,
 						},
-						[28682] = {
+						[25898] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 4,
-							["refresh"] = 4,
-							["uptime"] = 9,
+							["uptime"] = 22,
 						},
-						[25894] = {
+						[48170] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 53,
+							["uptime"] = 22,
 						},
-						[12654] = {
+						[48574] = {
 							["type"] = "DEBUFF",
-							["count"] = 3,
-							["school"] = 4,
-							["refresh"] = 4,
+							["count"] = 1,
+							["school"] = 1,
 							["targets"] = {
-								["Moorabi"] = {
-									["count"] = 2,
-									["refresh"] = 4,
-									["uptime"] = 14,
-								},
-								["Drakkari Earthshaker"] = {
-									["uptime"] = 3,
+								["Wrathbone Coldwraith"] = {
+									["uptime"] = 7,
 									["count"] = 1,
 								},
 							},
+							["uptime"] = 7,
+						},
+						[48420] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 22,
+						},
+						[52610] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 1,
 							["uptime"] = 17,
 						},
+						[50213] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["uptime"] = 6,
+						},
+						[54043] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 22,
+						},
+						[69369] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["uptime"] = 8,
+						},
+						[768] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 22,
+						},
+						[48066] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 22,
+						},
+						[24932] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 22,
+						},
+						[48942] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 22,
+						},
+						[72221] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 22,
+						},
 					},
-					["time"] = 32.20999999999999,
-					["totaldamagetaken"] = 2456,
-					["damage"] = 74244,
+					["energyspells"] = {
+						[51178] = 60,
+					},
+					["time"] = 15.84,
 					["damagespells"] = {
-						["Dragon's Breath"] = {
-							["hitmin"] = 1920,
-							["id"] = 42950,
+						["Rake (DoT)"] = {
+							["hitmin"] = 1451,
+							["id"] = 48574,
 							["targets"] = {
-								["Drakkari Earthshaker"] = {
-									["amount"] = 3999,
+								["Wrathbone Coldwraith"] = {
+									["amount"] = 2902,
 								},
 							},
-							["casts"] = 1,
 							["count"] = 2,
 							["hit"] = 2,
-							["school"] = 4,
-							["hitmax"] = 2079,
-							["amount"] = 3999,
-							["hitamount"] = 3999,
+							["school"] = 1,
+							["hitmax"] = 1451,
+							["amount"] = 2902,
+							["hitamount"] = 2902,
 						},
-						["Frostfire Bolt (DoT)"] = {
-							["hitmin"] = 318,
-							["id"] = 47610,
+						["Melee"] = {
+							["criticalamount"] = 25609,
+							["id"] = 6603,
 							["targets"] = {
-								["Moorabi"] = {
-									["amount"] = 1027,
+								["Fallen Warrior"] = {
+									["amount"] = 8534,
+								},
+								["Wrathbone Coldwraith"] = {
+									["amount"] = 17075,
 								},
 							},
-							["hitmax"] = 355,
-							["count"] = 3,
-							["hit"] = 3,
-							["school"] = 20,
-							["resisted"] = 79,
-							["amount"] = 1027,
-							["hitamount"] = 1027,
+							["criticalmax"] = 2347,
+							["critical"] = 12,
+							["amount"] = 25609,
+							["school"] = 1,
+							["criticalmin"] = 1615,
+							["count"] = 12,
 						},
-						["Living Bomb"] = {
-							["criticalamount"] = 2829,
-							["id"] = 55362,
+						["Rake"] = {
+							["criticalamount"] = 922,
+							["id"] = 48574,
 							["targets"] = {
-								["Moorabi"] = {
-									["amount"] = 2829,
+								["Wrathbone Coldwraith"] = {
+									["amount"] = 922,
 								},
 							},
-							["criticalmin"] = 2829,
-							["casts"] = 2,
+							["casts"] = 1,
 							["critical"] = 1,
-							["amount"] = 2829,
-							["school"] = 4,
-							["resisted"] = 707,
-							["criticalmax"] = 2829,
+							["amount"] = 922,
+							["school"] = 1,
+							["criticalmin"] = 922,
+							["criticalmax"] = 922,
 							["count"] = 1,
 						},
-						["Pyroblast"] = {
-							["hitmin"] = 4458,
-							["criticalamount"] = 7736,
-							["id"] = 42891,
-							["criticalmin"] = 7736,
+						["Swipe (Cat)"] = {
+							["count"] = 24,
+							["hitmin"] = 3065,
+							["criticalamount"] = 117376,
+							["id"] = 62078,
+							["hitmax"] = 3402,
 							["targets"] = {
-								["Moorabi"] = {
-									["amount"] = 12194,
+								["Fallen Warrior"] = {
+									["overkill"] = 5885,
+									["amount"] = 85691,
+								},
+								["Wrathbone Coldwraith"] = {
+									["amount"] = 58251,
 								},
 							},
-							["criticalmax"] = 7736,
-							["critical"] = 1,
-							["casts"] = 2,
-							["count"] = 2,
-							["hit"] = 1,
-							["school"] = 4,
-							["hitmax"] = 4458,
-							["amount"] = 12194,
-							["hitamount"] = 4458,
-						},
-						["Pyroblast (DoT)"] = {
-							["hitmin"] = 436,
-							["id"] = 42891,
-							["targets"] = {
-								["Moorabi"] = {
-									["amount"] = 1524,
-								},
-							},
-							["hitmax"] = 544,
-							["count"] = 3,
-							["hit"] = 3,
-							["school"] = 4,
-							["resisted"] = 108,
-							["amount"] = 1524,
-							["hitamount"] = 1524,
-						},
-						["Ignite (DoT)"] = {
-							["hitmin"] = 261,
-							["id"] = 12654,
-							["targets"] = {
-								["Moorabi"] = {
-									["amount"] = 10261,
-								},
-								["Drakkari Earthshaker"] = {
-									["amount"] = 285,
-								},
-							},
-							["hitmax"] = 4300,
-							["count"] = 5,
-							["hit"] = 5,
-							["school"] = 4,
-							["resisted"] = 495,
-							["amount"] = 10546,
-							["hitamount"] = 10546,
-						},
-						["Frostfire Bolt"] = {
-							["hitmax"] = 3689,
-							["hitmin"] = 3313,
-							["criticalamount"] = 22439,
-							["id"] = 47610,
-							["criticalmin"] = 6606,
-							["targets"] = {
-								["Moorabi"] = {
-									["amount"] = 32847,
-								},
-							},
-							["criticalmax"] = 8336,
-							["critical"] = 3,
+							["overkill"] = 5885,
+							["hit"] = 8,
 							["casts"] = 6,
-							["count"] = 6,
-							["hit"] = 3,
-							["school"] = 20,
-							["resisted"] = 1566,
-							["amount"] = 32847,
-							["hitamount"] = 10408,
+							["critical"] = 16,
+							["amount"] = 143942,
+							["school"] = 1,
+							["criticalmin"] = 6865,
+							["criticalmax"] = 7699,
+							["hitamount"] = 26566,
 						},
-						["Living Bomb (DoT)"] = {
-							["hitmin"] = 815,
-							["criticalamount"] = 3058,
-							["id"] = 55360,
-							["casts"] = 2,
-							["targets"] = {
-								["Moorabi"] = {
-									["amount"] = 4934,
-								},
-								["Drakkari Earthshaker"] = {
-									["amount"] = 3059,
-								},
-							},
-							["criticalmin"] = 1427,
-							["critical"] = 2,
-							["criticalmax"] = 1631,
-							["count"] = 8,
-							["hit"] = 6,
-							["school"] = 4,
-							["hitmax"] = 856,
-							["amount"] = 7993,
-							["hitamount"] = 4935,
-						},
-						["Scorch"] = {
-							["hitmin"] = 1285,
-							["id"] = 42859,
-							["targets"] = {
-								["Moorabi"] = {
-									["amount"] = 1285,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 4,
-							["hitmax"] = 1285,
-							["amount"] = 1285,
-							["hitamount"] = 1285,
-						},
-						["Frostbite"] = {
-							["casts"] = 1,
-							["count"] = 1,
+					},
+					["damage"] = 173375,
+					["overheal"] = 2097,
+					["overkill"] = 5885,
+					["id"] = "0x07000000008B24DB",
+					["spec"] = 103,
+					["healspells"] = {
+						[34299] = {
+							["overheal"] = 2097,
+							["count"] = 3,
 							["amount"] = 0,
-							["school"] = 16,
-							["IMMUNE"] = 1,
+							["school"] = 1,
+							["ishot"] = true,
 							["targets"] = {
-								["Moorabi"] = {
+								["Zyablik"] = {
+									["overheal"] = 2097,
 									["amount"] = 0,
 								},
 							},
-							["id"] = 12494,
 						},
 					},
-					["damagetaken"] = 2456,
-					["id"] = "0x0700000000975314",
-					["spec"] = 63,
-					["damagetakenspells"] = {
-						["Ground Tremor"] = {
-							["hitmin"] = 2456,
-							["id"] = 55142,
-							["sources"] = {
-								["Moorabi"] = {
-									["amount"] = 2456,
+					["manaspells"] = {
+						[68285] = 1089,
+					},
+					["heal"] = 0,
+					["name"] = "Zyablik",
+					["totaldamage"] = 173375,
+					["class"] = "DRUID",
+					["energy"] = 60,
+					["role"] = "DAMAGER",
+				}, -- [4]
+				{
+					["ccdonespells"] = {
+						[48817] = {
+							["count"] = 6,
+							["targets"] = {
+								["Wrathbone Coldwraith"] = 2,
+								["Fallen Warrior"] = 4,
+							},
+						},
+					},
+					["last"] = 18681.817,
+					["flag"] = 1298,
+					["mana"] = 5085,
+					["auras"] = {
+						[20375] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 22,
+						},
+						[48470] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 22,
+						},
+						[48162] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 22,
+						},
+						[64904] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 2,
+							["refresh"] = 3,
+							["uptime"] = 12,
+						},
+						[63944] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 22,
+						},
+						[20053] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["refresh"] = 7,
+							["uptime"] = 22,
+						},
+						[48074] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 22,
+						},
+						[57623] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 22,
+						},
+						[25898] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 22,
+						},
+						[48170] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 22,
+						},
+						[25899] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 22,
+						},
+						[54499] = {
+							["type"] = "DEBUFF",
+							["count"] = 2,
+							["school"] = 2,
+							["targets"] = {
+								["Fallen Warrior"] = {
+									["uptime"] = 8,
+									["count"] = 2,
 								},
 							},
+							["uptime"] = 8,
+						},
+						[71396] = {
+							["type"] = "BUFF",
 							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 1,
-							["hitmax"] = 2456,
-							["amount"] = 2456,
-							["hitamount"] = 2456,
+							["refresh"] = 12,
+							["uptime"] = 22,
+						},
+						[71541] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 64,
+							["uptime"] = 6,
+						},
+						[48819] = {
+							["type"] = "DEBUFF",
+							["count"] = 6,
+							["school"] = 2,
+							["targets"] = {
+								["Fallen Warrior"] = {
+									["uptime"] = 7,
+									["count"] = 4,
+								},
+								["Wrathbone Coldwraith"] = {
+									["uptime"] = 5,
+									["count"] = 2,
+								},
+							},
+							["uptime"] = 7,
+						},
+						[48817] = {
+							["type"] = "DEBUFF",
+							["count"] = 6,
+							["school"] = 2,
+							["targets"] = {
+								["Wrathbone Coldwraith"] = {
+									["uptime"] = 1,
+									["count"] = 2,
+								},
+								["Fallen Warrior"] = {
+									["uptime"] = 1,
+									["count"] = 4,
+								},
+							},
+							["uptime"] = 1,
+						},
+						[71187] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["refresh"] = 1,
+							["school"] = 8,
+							["uptime"] = 19,
+						},
+						[20186] = {
+							["type"] = "DEBUFF",
+							["count"] = 2,
+							["school"] = 2,
+							["targets"] = {
+								["Fallen Warrior"] = {
+									["uptime"] = 8,
+									["count"] = 2,
+								},
+							},
+							["uptime"] = 8,
+						},
+						[61840] = {
+							["type"] = "DEBUFF",
+							["count"] = 3,
+							["school"] = 2,
+							["refresh"] = 1,
+							["targets"] = {
+								["Fallen Warrior"] = {
+									["count"] = 3,
+									["refresh"] = 1,
+									["uptime"] = 9,
+								},
+							},
+							["uptime"] = 9,
+						},
+						[57669] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 22,
+						},
+						[54043] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 22,
+						},
+						[26017] = {
+							["type"] = "DEBUFF",
+							["count"] = 9,
+							["school"] = 2,
+							["refresh"] = 5,
+							["targets"] = {
+								["Wrathbone Coldwraith"] = {
+									["count"] = 3,
+									["refresh"] = 1,
+									["uptime"] = 8,
+								},
+								["Fallen Warrior"] = {
+									["count"] = 6,
+									["refresh"] = 4,
+									["uptime"] = 10,
+								},
+							},
+							["uptime"] = 10,
+						},
+						[48066] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 4,
+						},
+						[59578] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["refresh"] = 6,
+							["uptime"] = 22,
+						},
+						[24932] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 22,
+						},
+						[48942] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 22,
+						},
+						[72221] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 22,
 						},
 					},
-					["name"] = "Wubobo",
-					["manaspells"] = {
-						[29077] = 841,
-						[67545] = 325,
-						[44450] = -88,
-						[42987] = 3416,
+					["time"] = 15.21,
+					["totaldamagetaken"] = 5540,
+					["damage"] = 145833,
+					["overheal"] = 1252,
+					["overkill"] = 1064,
+					["damagetaken"] = 198,
+					["id"] = "0x07000000008F8756",
+					["spec"] = 70,
+					["healspells"] = {
+						[34299] = {
+							["overheal"] = 1252,
+							["max"] = 198,
+							["count"] = 2,
+							["amount"] = 198,
+							["school"] = 1,
+							["min"] = 198,
+							["ishot"] = true,
+							["targets"] = {
+								["Yiyuan"] = {
+									["overheal"] = 1252,
+									["amount"] = 198,
+								},
+							},
+						},
 					},
-					["mana"] = 4494,
-					["totaldamage"] = 74244,
+					["damagetakenspells"] = {
+						["Melee"] = {
+							["DODGE"] = 1,
+							["total"] = 5540,
+							["criticalamount"] = 198,
+							["id"] = 6603,
+							["sources"] = {
+								["Fallen Warrior"] = {
+									["total"] = 5540,
+									["amount"] = 198,
+								},
+							},
+							["critical"] = 1,
+							["amount"] = 198,
+							["school"] = 1,
+							["criticalmin"] = 198,
+							["criticalmax"] = 198,
+							["count"] = 2,
+						},
+						["Arcing Slice"] = {
+							["PARRY"] = 1,
+							["count"] = 1,
+							["amount"] = 0,
+							["school"] = 1,
+							["sources"] = {
+								["Fallen Warrior"] = {
+									["amount"] = 0,
+								},
+							},
+							["id"] = 69579,
+						},
+					},
+					["damagespells"] = {
+						["Consecration (DoT)"] = {
+							["hitmin"] = 555,
+							["id"] = 48819,
+							["targets"] = {
+								["Wrathbone Coldwraith"] = {
+									["amount"] = 3900,
+								},
+								["Fallen Warrior"] = {
+									["amount"] = 7030,
+								},
+							},
+							["count"] = 17,
+							["hit"] = 17,
+							["school"] = 2,
+							["hitmax"] = 654,
+							["amount"] = 10930,
+							["hitamount"] = 10930,
+						},
+						["Divine Storm"] = {
+							["hitmin"] = 2449,
+							["criticalamount"] = 6324,
+							["id"] = 53385,
+							["criticalmin"] = 6324,
+							["targets"] = {
+								["Wrathbone Coldwraith"] = {
+									["amount"] = 2940,
+								},
+								["Fallen Warrior"] = {
+									["amount"] = 14875,
+								},
+							},
+							["criticalmax"] = 6324,
+							["critical"] = 1,
+							["casts"] = 2,
+							["count"] = 5,
+							["hit"] = 4,
+							["school"] = 1,
+							["hitmax"] = 3061,
+							["amount"] = 17815,
+							["hitamount"] = 11491,
+						},
+						["Judgement of Command"] = {
+							["criticalamount"] = 9788,
+							["id"] = 20467,
+							["targets"] = {
+								["Fallen Warrior"] = {
+									["amount"] = 9788,
+								},
+							},
+							["casts"] = 1,
+							["critical"] = 2,
+							["amount"] = 9788,
+							["school"] = 2,
+							["criticalmin"] = 4694,
+							["criticalmax"] = 5094,
+							["count"] = 2,
+						},
+						["Hammer of Wrath"] = {
+							["criticalamount"] = 7483,
+							["id"] = 48806,
+							["targets"] = {
+								["Wrathbone Coldwraith"] = {
+									["amount"] = 7483,
+								},
+							},
+							["casts"] = 1,
+							["critical"] = 1,
+							["amount"] = 7483,
+							["school"] = 2,
+							["criticalmin"] = 7483,
+							["criticalmax"] = 7483,
+							["count"] = 1,
+						},
+						["Retribution Aura"] = {
+							["hitmin"] = 290,
+							["id"] = 54043,
+							["targets"] = {
+								["Fallen Warrior"] = {
+									["amount"] = 290,
+								},
+							},
+							["casts"] = 1,
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 2,
+							["hitmax"] = 290,
+							["amount"] = 290,
+							["hitamount"] = 290,
+						},
+						["Crusader Strike"] = {
+							["hitmin"] = 2110,
+							["criticalamount"] = 4550,
+							["id"] = 35395,
+							["criticalmin"] = 4550,
+							["targets"] = {
+								["Fallen Warrior"] = {
+									["amount"] = 6660,
+								},
+							},
+							["criticalmax"] = 4550,
+							["critical"] = 1,
+							["casts"] = 2,
+							["count"] = 2,
+							["hit"] = 1,
+							["school"] = 1,
+							["hitmax"] = 2110,
+							["amount"] = 6660,
+							["hitamount"] = 2110,
+						},
+						["Melee"] = {
+							["glance"] = 2244,
+							["hitmin"] = 2388,
+							["criticalmin"] = 4985,
+							["targets"] = {
+								["Wrathbone Coldwraith"] = {
+									["amount"] = 2388,
+								},
+								["Fallen Warrior"] = {
+									["overkill"] = 1064,
+									["amount"] = 14789,
+								},
+							},
+							["glancing"] = 1,
+							["amount"] = 17177,
+							["glancemin"] = 2244,
+							["criticalamount"] = 9994,
+							["id"] = 6603,
+							["glancemax"] = 2244,
+							["overkill"] = 1064,
+							["criticalmax"] = 5009,
+							["critical"] = 2,
+							["hit"] = 2,
+							["school"] = 1,
+							["count"] = 5,
+							["hitmax"] = 2551,
+							["hitamount"] = 4939,
+						},
+						["Seal of Command"] = {
+							["hitmin"] = 1377,
+							["criticalamount"] = 38491,
+							["id"] = 20424,
+							["hitmax"] = 1814,
+							["targets"] = {
+								["Wrathbone Coldwraith"] = {
+									["amount"] = 7999,
+								},
+								["Fallen Warrior"] = {
+									["amount"] = 50788,
+								},
+							},
+							["count"] = 25,
+							["hit"] = 13,
+							["casts"] = 1,
+							["critical"] = 12,
+							["amount"] = 58787,
+							["school"] = 2,
+							["criticalmin"] = 2830,
+							["criticalmax"] = 3685,
+							["hitamount"] = 20296,
+						},
+						["Righteous Vengeance (DoT)"] = {
+							["hitmin"] = 363,
+							["id"] = 61840,
+							["targets"] = {
+								["Fallen Warrior"] = {
+									["amount"] = 1883,
+								},
+							},
+							["count"] = 3,
+							["hit"] = 3,
+							["school"] = 2,
+							["hitmax"] = 760,
+							["amount"] = 1883,
+							["hitamount"] = 1883,
+						},
+						["Holy Wrath"] = {
+							["hitmin"] = 2420,
+							["id"] = 48817,
+							["targets"] = {
+								["Fallen Warrior"] = {
+									["amount"] = 9988,
+								},
+								["Wrathbone Coldwraith"] = {
+									["amount"] = 5032,
+								},
+							},
+							["casts"] = 1,
+							["count"] = 6,
+							["hit"] = 6,
+							["school"] = 2,
+							["hitmax"] = 2567,
+							["amount"] = 15020,
+							["hitamount"] = 15020,
+						},
+					},
+					["heal"] = 198,
+					["name"] = "Yiyuan",
+					["ccdone"] = 6,
+					["totaldamage"] = 145833,
+					["class"] = "PALADIN",
+					["manaspells"] = {
+						[31930] = 2196,
+						[57669] = 1720,
+						[20268] = 870,
+						[57319] = 299,
+					},
 					["role"] = "DAMAGER",
 				}, -- [5]
 			},
 			["type"] = "party",
-			["damagetaken"] = 41632,
-			["gotboss"] = 29305,
+			["damagetaken"] = 19459,
 			["interrupt"] = 1,
-			["overheal"] = 212513,
-			["damage"] = 628364,
-			["overkill"] = 9593,
-			["edamagetaken"] = 628364,
-			["heal"] = 45225,
-			["name"] = "Moorabi",
-			["mobname"] = "Moorabi",
-			["starttime"] = 1689592203,
-			["edamage"] = 41632,
-			["last_action"] = 1689592256,
-			["endtime"] = 1689592256,
-		}, -- [8]
+			["etotaldamage"] = 32708,
+			["damage"] = 648837,
+			["overkill"] = 9693,
+			["edamagetaken"] = 648837,
+			["heal"] = 17107,
+			["name"] = "Wrathbone Coldwraith",
+			["mobname"] = "Wrathbone Coldwraith",
+			["starttime"] = 1689679329,
+			["edamage"] = 19459,
+			["last_action"] = 1689679351,
+			["endtime"] = 1689679351,
+		}, -- [3]
 		{
-			["mana"] = 3600,
+			["overheal"] = 30305,
+			["absorb"] = 6571,
+			["mana"] = 12136,
 			["enemies"] = {
 				{
 					["damagespells"] = {
 						[6603] = {
 							["school"] = 1,
+							["total"] = 9661,
 							["targets"] = {
+								["Crazydqs"] = {
+									["total"] = 5976,
+									["amount"] = 3933,
+								},
 								["Urgash"] = {
-									["amount"] = 1859,
+									["amount"] = 5727,
 								},
 							},
-							["amount"] = 1859,
+							["amount"] = 9660,
 						},
-						[58978] = {
+						[69579] = {
 							["school"] = 1,
+							["total"] = 4528,
 							["targets"] = {
-								["Urgash"] = {
-									["amount"] = 5740,
+								["Crazydqs"] = {
+									["total"] = 10516,
+									["amount"] = 5988,
 								},
 							},
-							["amount"] = 5740,
+							["amount"] = 5988,
 						},
 					},
-					["damagetaken"] = 67872,
-					["flag"] = 2632,
+					["damagetaken"] = 383511,
+					["flag"] = 68168,
 					["class"] = "MONSTER",
 					["damagetakenspells"] = {
-						[49930] = {
+						[62078] = {
 							["school"] = 1,
 							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 2109,
+								["Zyablik"] = {
+									["amount"] = 105124,
 								},
 							},
-							["amount"] = 2109,
+							["amount"] = 105124,
+						},
+						[20424] = {
+							["school"] = 2,
+							["sources"] = {
+								["Crazydqs"] = {
+									["amount"] = 9878,
+								},
+								["Yiyuan"] = {
+									["amount"] = 16603,
+								},
+							},
+							["amount"] = 26481,
 						},
 						[55078] = {
 							["school"] = 32,
 							["sources"] = {
 								["Urgash"] = {
-									["amount"] = 2263,
+									["amount"] = 6142,
 								},
 							},
-							["amount"] = 2263,
+							["amount"] = 6142,
 						},
-						[42463] = {
+						[48817] = {
 							["school"] = 2,
 							["sources"] = {
-								["Gometius"] = {
-									["amount"] = 566,
+								["Crazydqs"] = {
+									["amount"] = 8279,
+								},
+								["Yiyuan"] = {
+									["amount"] = 12006,
 								},
 							},
-							["amount"] = 566,
+							["amount"] = 20285,
+						},
+						[35395] = {
+							["school"] = 1,
+							["sources"] = {
+								["Yiyuan"] = {
+									["overkill"] = 1549,
+									["amount"] = 5193,
+								},
+							},
+							["overkill"] = 1549,
+							["amount"] = 5193,
 						},
 						[48819] = {
 							["school"] = 2,
 							["sources"] = {
-								["Gometius"] = {
-									["amount"] = 806,
+								["Crazydqs"] = {
+									["amount"] = 8901,
 								},
 							},
-							["amount"] = 806,
+							["amount"] = 8901,
 						},
-						[31804] = {
+						[61840] = {
 							["school"] = 2,
 							["sources"] = {
-								["Gometius"] = {
-									["amount"] = 1475,
+								["Yiyuan"] = {
+									["amount"] = 1724,
 								},
 							},
-							["amount"] = 1475,
+							["amount"] = 1724,
 						},
-						[70890] = {
-							["school"] = 32,
+						[53595] = {
+							["school"] = 2,
 							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 2900,
+								["Crazydqs"] = {
+									["amount"] = 7675,
 								},
 							},
-							["amount"] = 2900,
+							["amount"] = 7675,
 						},
-						[55271] = {
+						[48574] = {
 							["school"] = 1,
 							["sources"] = {
+								["Zyablik"] = {
+									["amount"] = 3824,
+								},
+							},
+							["amount"] = 3824,
+						},
+						[49909] = {
+							["school"] = 16,
+							["sources"] = {
 								["Urgash"] = {
-									["amount"] = 7956,
+									["amount"] = 2111,
 								},
 							},
-							["amount"] = 7956,
+							["amount"] = 2111,
 						},
-						[63675] = {
+						[51460] = {
 							["school"] = 32,
 							["sources"] = {
-								["Zaralar"] = {
-									["amount"] = 2057,
+								["Urgash"] = {
+									["amount"] = 3829,
 								},
 							},
-							["amount"] = 2057,
+							["amount"] = 3829,
 						},
-						[48300] = {
-							["school"] = 32,
+						[53385] = {
+							["school"] = 1,
 							["sources"] = {
-								["Zaralar"] = {
-									["amount"] = 6436,
+								["Yiyuan"] = {
+									["amount"] = 37365,
 								},
 							},
-							["amount"] = 6436,
+							["amount"] = 37365,
 						},
 						[6603] = {
 							["school"] = 1,
 							["sources"] = {
-								["Gometius"] = {
-									["amount"] = 2496,
+								["Crazydqs"] = {
+									["amount"] = 4943,
 								},
 								["Urgash"] = {
-									["overkill"] = 3230,
-									["amount"] = 8644,
+									["amount"] = 22814,
+								},
+								["Yiyuan"] = {
+									["amount"] = 5184,
+								},
+								["Zyablik"] = {
+									["amount"] = 18234,
 								},
 							},
-							["overkill"] = 3230,
-							["amount"] = 11140,
+							["amount"] = 51175,
+						},
+						[47468] = {
+							["school"] = 1,
+							["sources"] = {
+								["Urgash"] = {
+									["amount"] = 3217,
+								},
+							},
+							["amount"] = 3217,
 						},
 						[52212] = {
 							["school"] = 32,
 							["sources"] = {
 								["Urgash"] = {
-									["amount"] = 8408,
+									["amount"] = 33359,
 								},
 							},
-							["amount"] = 8408,
+							["amount"] = 33359,
 						},
-						[48827] = {
+						[61411] = {
 							["school"] = 2,
 							["sources"] = {
-								["Gometius"] = {
-									["amount"] = 3602,
+								["Crazydqs"] = {
+									["amount"] = 7004,
 								},
 							},
-							["amount"] = 3602,
+							["amount"] = 7004,
 						},
-						[54158] = {
+						[54043] = {
 							["school"] = 2,
 							["sources"] = {
-								["Ynnou"] = {
-									["amount"] = 1188,
+								["Crazydqs"] = {
+									["amount"] = 959,
+								},
+								["Urgash"] = {
+									["amount"] = 574,
 								},
 							},
-							["amount"] = 1188,
+							["amount"] = 1533,
 						},
-						[50526] = {
+						[49921] = {
+							["school"] = 1,
+							["sources"] = {
+								["Urgash"] = {
+									["amount"] = 5739,
+								},
+							},
+							["amount"] = 5739,
+						},
+						[47632] = {
 							["school"] = 32,
 							["sources"] = {
 								["Urgash"] = {
-									["amount"] = 3153,
+									["overkill"] = 5469,
+									["amount"] = 5910,
 								},
 							},
-							["amount"] = 3153,
+							["overkill"] = 5469,
+							["amount"] = 5910,
 						},
-						[31803] = {
+						[69403] = {
 							["school"] = 2,
 							["sources"] = {
-								["Gometius"] = {
-									["amount"] = 1401,
+								["Crazydqs"] = {
+									["amount"] = 1117,
+								},
+								["Yiyuan"] = {
+									["amount"] = 18337,
 								},
 							},
-							["amount"] = 1401,
+							["amount"] = 19454,
 						},
-						[48125] = {
-							["school"] = 32,
-							["sources"] = {
-								["Zaralar"] = {
-									["amount"] = 3796,
-								},
-							},
-							["amount"] = 3796,
-						},
-						[53595] = {
+						[20467] = {
 							["school"] = 2,
 							["sources"] = {
-								["Gometius"] = {
-									["amount"] = 1996,
+								["Yiyuan"] = {
+									["amount"] = 4412,
 								},
 							},
-							["amount"] = 1996,
-						},
-						[48127] = {
-							["school"] = 32,
-							["sources"] = {
-								["Zaralar"] = {
-									["amount"] = 4024,
-								},
-							},
-							["amount"] = 4024,
+							["amount"] = 4412,
 						},
 						[55095] = {
 							["school"] = 16,
 							["sources"] = {
 								["Urgash"] = {
-									["amount"] = 2596,
+									["overkill"] = 2422,
+									["amount"] = 7880,
 								},
 							},
-							["amount"] = 2596,
+							["overkill"] = 2422,
+							["amount"] = 7880,
+						},
+						[50526] = {
+							["school"] = 32,
+							["sources"] = {
+								["Urgash"] = {
+									["amount"] = 15174,
+								},
+							},
+							["amount"] = 15174,
 						},
 					},
-					["name"] = "Drakkari Lancer",
-					["totaldamage"] = 7599,
-					["totaldamagetaken"] = 67872,
-					["id"] = "0xF13000747B00009E",
-					["damage"] = 7599,
+					["name"] = "Fallen Warrior",
+					["totaldamage"] = 22219,
+					["totaldamagetaken"] = 383511,
+					["id"] = "0xF130008FE9000254",
+					["damage"] = 15648,
 				}, -- [1]
 				{
 					["damagespells"] = {
@@ -24953,1685 +10200,6743 @@ SkadaStorageDB = {
 							["school"] = 1,
 							["targets"] = {
 								["Urgash"] = {
-									["amount"] = 4255,
+									["amount"] = 5805,
 								},
 							},
-							["amount"] = 4255,
+							["amount"] = 5805,
 						},
-						[58972] = {
-							["school"] = 4,
+						[70277] = {
+							["school"] = 16,
 							["targets"] = {
-								["Gometius"] = {
-									["amount"] = 2322,
+								["Crazydqs"] = {
+									["amount"] = 14515,
 								},
 							},
-							["amount"] = 2322,
+							["amount"] = 14515,
 						},
 					},
-					["damagetaken"] = 70555,
+					["damagetaken"] = 275171,
 					["flag"] = 68168,
 					["class"] = "MONSTER",
 					["damagetakenspells"] = {
-						[55078] = {
+						[47632] = {
 							["school"] = 32,
 							["sources"] = {
 								["Urgash"] = {
-									["amount"] = 3469,
+									["overkill"] = 4865,
+									["amount"] = 15848,
 								},
 							},
-							["amount"] = 3469,
+							["overkill"] = 4865,
+							["amount"] = 15848,
+						},
+						[49930] = {
+							["school"] = 1,
+							["sources"] = {
+								["Urgash"] = {
+									["amount"] = 6253,
+								},
+							},
+							["amount"] = 6253,
+						},
+						[61840] = {
+							["school"] = 2,
+							["sources"] = {
+								["Yiyuan"] = {
+									["amount"] = 1986,
+								},
+							},
+							["amount"] = 1986,
 						},
 						[50526] = {
 							["school"] = 32,
 							["sources"] = {
 								["Urgash"] = {
-									["amount"] = 3936,
+									["amount"] = 1963,
 								},
 							},
-							["amount"] = 3936,
+							["amount"] = 1963,
 						},
-						[31803] = {
-							["school"] = 2,
-							["sources"] = {
-								["Gometius"] = {
-									["amount"] = 1216,
-								},
-							},
-							["amount"] = 1216,
-						},
-						[6603] = {
+						[48566] = {
 							["school"] = 1,
 							["sources"] = {
-								["Gometius"] = {
-									["amount"] = 3216,
+								["Zyablik"] = {
+									["amount"] = 15330,
 								},
+							},
+							["amount"] = 15330,
+						},
+						[20424] = {
+							["school"] = 2,
+							["sources"] = {
+								["Crazydqs"] = {
+									["amount"] = 4173,
+								},
+								["Yiyuan"] = {
+									["amount"] = 18222,
+								},
+							},
+							["amount"] = 22395,
+						},
+						[55078] = {
+							["school"] = 32,
+							["sources"] = {
 								["Urgash"] = {
-									["amount"] = 8728,
+									["amount"] = 4128,
 								},
 							},
-							["amount"] = 11944,
+							["amount"] = 4128,
 						},
-						[53595] = {
-							["school"] = 2,
-							["sources"] = {
-								["Gometius"] = {
-									["amount"] = 2217,
-								},
-							},
-							["amount"] = 2217,
-						},
-						[42463] = {
-							["school"] = 2,
-							["sources"] = {
-								["Gometius"] = {
-									["amount"] = 351,
-								},
-							},
-							["amount"] = 351,
-						},
-						[49921] = {
+						[50463] = {
 							["school"] = 1,
 							["sources"] = {
 								["Urgash"] = {
-									["amount"] = 1780,
+									["amount"] = 1022,
 								},
 							},
-							["amount"] = 1780,
+							["amount"] = 1022,
+						},
+						[35395] = {
+							["school"] = 1,
+							["sources"] = {
+								["Yiyuan"] = {
+									["amount"] = 4377,
+								},
+							},
+							["amount"] = 4377,
 						},
 						[48819] = {
 							["school"] = 2,
 							["sources"] = {
-								["Gometius"] = {
-									["amount"] = 1188,
+								["Yiyuan"] = {
+									["amount"] = 1324,
 								},
 							},
-							["amount"] = 1188,
+							["amount"] = 1324,
 						},
-						[48827] = {
+						[48572] = {
+							["school"] = 1,
+							["sources"] = {
+								["Zyablik"] = {
+									["amount"] = 4586,
+								},
+							},
+							["amount"] = 4586,
+						},
+						[53595] = {
 							["school"] = 2,
 							["sources"] = {
-								["Gometius"] = {
-									["amount"] = 4556,
+								["Crazydqs"] = {
+									["amount"] = 5243,
 								},
 							},
-							["amount"] = 4556,
+							["amount"] = 5243,
 						},
-						[53022] = {
-							["school"] = 32,
-							["sources"] = {
-								["Zaralar"] = {
-									["amount"] = 9991,
-								},
-							},
-							["amount"] = 9991,
-						},
-						[50536] = {
+						[70890] = {
 							["school"] = 32,
 							["sources"] = {
 								["Urgash"] = {
-									["amount"] = 225,
+									["amount"] = 2843,
 								},
 							},
-							["amount"] = 225,
+							["amount"] = 2843,
 						},
 						[55271] = {
 							["school"] = 1,
 							["sources"] = {
 								["Urgash"] = {
-									["overkill"] = 5913,
-									["amount"] = 8403,
+									["amount"] = 5504,
 								},
 							},
-							["overkill"] = 5913,
-							["amount"] = 8403,
+							["amount"] = 5504,
+						},
+						[49909] = {
+							["school"] = 16,
+							["sources"] = {
+								["Urgash"] = {
+									["amount"] = 7627,
+								},
+							},
+							["amount"] = 7627,
+						},
+						[51460] = {
+							["school"] = 32,
+							["sources"] = {
+								["Urgash"] = {
+									["amount"] = 6306,
+								},
+							},
+							["amount"] = 6306,
+						},
+						[48577] = {
+							["school"] = 1,
+							["sources"] = {
+								["Zyablik"] = {
+									["amount"] = 10292,
+								},
+							},
+							["amount"] = 10292,
+						},
+						[48827] = {
+							["school"] = 2,
+							["sources"] = {
+								["Crazydqs"] = {
+									["amount"] = 1862,
+								},
+							},
+							["amount"] = 1862,
+						},
+						[53385] = {
+							["school"] = 1,
+							["sources"] = {
+								["Yiyuan"] = {
+									["amount"] = 9076,
+								},
+							},
+							["amount"] = 9076,
+						},
+						[6603] = {
+							["school"] = 1,
+							["sources"] = {
+								["Crazydqs"] = {
+									["amount"] = 4263,
+								},
+								["Urgash"] = {
+									["amount"] = 38876,
+								},
+								["Yiyuan"] = {
+									["amount"] = 15764,
+								},
+								["Zyablik"] = {
+									["amount"] = 22840,
+								},
+							},
+							["amount"] = 81743,
+						},
+						[61411] = {
+							["school"] = 2,
+							["sources"] = {
+								["Crazydqs"] = {
+									["amount"] = 3120,
+								},
+							},
+							["amount"] = 3120,
+						},
+						[50536] = {
+							["school"] = 32,
+							["sources"] = {
+								["Urgash"] = {
+									["amount"] = 80,
+								},
+							},
+							["amount"] = 80,
+						},
+						[47468] = {
+							["school"] = 1,
+							["sources"] = {
+								["Urgash"] = {
+									["amount"] = 6444,
+								},
+							},
+							["amount"] = 6444,
+						},
+						[71904] = {
+							["school"] = 32,
+							["sources"] = {
+								["Urgash"] = {
+									["amount"] = 3362,
+								},
+							},
+							["amount"] = 3362,
+						},
+						[48574] = {
+							["school"] = 1,
+							["sources"] = {
+								["Zyablik"] = {
+									["amount"] = 4106,
+								},
+							},
+							["amount"] = 4106,
+						},
+						[54043] = {
+							["school"] = 2,
+							["sources"] = {
+								["Urgash"] = {
+									["amount"] = 687,
+								},
+							},
+							["amount"] = 687,
+						},
+						[49921] = {
+							["school"] = 1,
+							["sources"] = {
+								["Urgash"] = {
+									["amount"] = 13483,
+								},
+							},
+							["amount"] = 13483,
+						},
+						[48806] = {
+							["school"] = 2,
+							["sources"] = {
+								["Crazydqs"] = {
+									["amount"] = 2632,
+								},
+								["Yiyuan"] = {
+									["overkill"] = 5706,
+									["amount"] = 7358,
+								},
+							},
+							["overkill"] = 5706,
+							["amount"] = 9990,
+						},
+						[69403] = {
+							["school"] = 2,
+							["sources"] = {
+								["Crazydqs"] = {
+									["amount"] = 1027,
+								},
+								["Yiyuan"] = {
+									["amount"] = 3100,
+								},
+							},
+							["amount"] = 4127,
+						},
+						[20467] = {
+							["school"] = 2,
+							["sources"] = {
+								["Crazydqs"] = {
+									["amount"] = 1308,
+								},
+								["Yiyuan"] = {
+									["amount"] = 10882,
+								},
+							},
+							["amount"] = 12190,
 						},
 						[67485] = {
 							["school"] = 2,
 							["sources"] = {
-								["Gometius"] = {
-									["amount"] = 2120,
+								["Crazydqs"] = {
+									["amount"] = 2952,
 								},
 							},
-							["amount"] = 2120,
-						},
-						[52212] = {
-							["school"] = 32,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 12027,
-								},
-							},
-							["amount"] = 12027,
+							["amount"] = 2952,
 						},
 						[55095] = {
 							["school"] = 16,
 							["sources"] = {
 								["Urgash"] = {
-									["amount"] = 3324,
+									["amount"] = 4922,
 								},
 							},
-							["amount"] = 3324,
-						},
-						[47632] = {
-							["school"] = 32,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 3808,
-								},
-							},
-							["amount"] = 3808,
+							["amount"] = 4922,
 						},
 					},
-					["name"] = "Drakkari Fire Weaver",
-					["totaldamage"] = 6577,
-					["totaldamagetaken"] = 70555,
-					["id"] = "0xF13000747E0000A6",
-					["damage"] = 6577,
+					["name"] = "Wrathbone Coldwraith",
+					["totaldamage"] = 20320,
+					["totaldamagetaken"] = 275171,
+					["id"] = "0xF130008FEA000257",
+					["damage"] = 20320,
 				}, -- [2]
 			},
-			["damage"] = 138427,
-			["totaldamage"] = 138427,
-			["time"] = 17,
-			["totaldamagetaken"] = 14176,
-			["etotaldamagetaken"] = 138427,
-			["last_time"] = 17980.855,
+			["ccdone"] = 6,
+			["totaldamage"] = 658682,
+			["time"] = 27,
+			["energy"] = 60,
+			["totaldamagetaken"] = 42539,
+			["etotaldamagetaken"] = 658682,
+			["last_time"] = 18660.188,
 			["players"] = {
 				{
 					["ccdonespells"] = {
 						[49560] = {
 							["count"] = 1,
 							["targets"] = {
-								["Drakkari Fire Weaver"] = 1,
-							},
-						},
-						[45524] = {
-							["count"] = 1,
-							["targets"] = {
-								["Drakkari Fire Weaver"] = 1,
+								["Wrathbone Coldwraith"] = 1,
 							},
 						},
 					},
-					["last"] = 17976.449,
+					["last"] = 18658.536,
 					["flag"] = 1297,
 					["class"] = "DEATHKNIGHT",
 					["auras"] = {
-						[45524] = {
-							["type"] = "DEBUFF",
+						[48934] = {
+							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 16,
-							["targets"] = {
-								["Drakkari Fire Weaver"] = {
-									["uptime"] = 10,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 10,
+							["uptime"] = 27,
 						},
 						[75456] = {
 							["type"] = "BUFF",
-							["count"] = 2,
+							["count"] = 1,
 							["school"] = 64,
-							["uptime"] = 17,
+							["uptime"] = 15,
 						},
-						[48162] = {
+						[48068] = {
 							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 17,
-						},
-						[68766] = {
-							["type"] = "DEBUFF",
 							["count"] = 2,
-							["school"] = 32,
-							["targets"] = {
-								["Drakkari Lancer"] = {
-									["uptime"] = 8,
-									["count"] = 1,
-								},
-								["Drakkari Fire Weaver"] = {
-									["uptime"] = 9,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 9,
+							["school"] = 2,
+							["uptime"] = 21,
 						},
-						[49560] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["targets"] = {
-								["Drakkari Fire Weaver"] = {
-									["uptime"] = 3,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 3,
-						},
-						[48942] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 17,
-						},
-						[57623] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 17,
-						},
-						[71227] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 8,
-							["refresh"] = 1,
-							["uptime"] = 8,
-						},
-						[48170] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 17,
-						},
-						[19746] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 17,
-						},
-						[28878] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 17,
-						},
-						[43002] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 17,
-						},
-						[71559] = {
+						[58578] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["school"] = 1,
-							["uptime"] = 17,
-						},
-						[50536] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 32,
-							["targets"] = {
-								["Drakkari Fire Weaver"] = {
-									["uptime"] = 7,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 7,
-						},
-						[55095] = {
-							["type"] = "DEBUFF",
-							["count"] = 2,
-							["school"] = 16,
-							["refresh"] = 1,
-							["targets"] = {
-								["Drakkari Lancer"] = {
-									["uptime"] = 7,
-									["count"] = 1,
-								},
-								["Drakkari Fire Weaver"] = {
-									["count"] = 1,
-									["refresh"] = 1,
-									["uptime"] = 10,
-								},
-							},
-							["uptime"] = 10,
+							["refresh"] = 4,
+							["uptime"] = 24,
 						},
 						[70657] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["school"] = 1,
-							["refresh"] = 2,
-							["uptime"] = 14,
+							["refresh"] = 6,
+							["uptime"] = 22,
 						},
-						[55078] = {
-							["type"] = "DEBUFF",
-							["count"] = 2,
-							["school"] = 32,
-							["refresh"] = 1,
-							["targets"] = {
-								["Drakkari Lancer"] = {
-									["uptime"] = 7,
-									["count"] = 1,
-								},
-								["Drakkari Fire Weaver"] = {
-									["count"] = 1,
-									["refresh"] = 1,
-									["uptime"] = 9,
-								},
-							},
-							["uptime"] = 9,
-						},
-						[72221] = {
+						[63944] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 17,
+							["uptime"] = 27,
 						},
-						[51735] = {
-							["type"] = "DEBUFF",
-							["count"] = 2,
-							["school"] = 32,
-							["refresh"] = 2,
-							["targets"] = {
-								["Drakkari Lancer"] = {
-									["uptime"] = 7,
-									["count"] = 1,
-								},
-								["Drakkari Fire Weaver"] = {
-									["count"] = 1,
-									["refresh"] = 2,
-									["uptime"] = 10,
-								},
-							},
+						[73422] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 1,
 							["uptime"] = 10,
-						},
-						[48074] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 17,
-						},
-						[49222] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 11,
 						},
 						[71905] = {
 							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["refresh"] = 4,
-							["uptime"] = 17,
-						},
-						[48265] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 17,
-						},
-					},
-					["time"] = 11.67,
-					["totaldamagetaken"] = 11854,
-					["damage"] = 83729,
-					["damagespells"] = {
-						["Scourge Strike"] = {
-							["criticalamount"] = 16359,
-							["id"] = 55271,
-							["targets"] = {
-								["Drakkari Fire Weaver"] = {
-									["overkill"] = 5913,
-									["amount"] = 8403,
-								},
-								["Drakkari Lancer"] = {
-									["amount"] = 7956,
-								},
-							},
-							["overkill"] = 5913,
-							["blocked"] = 40,
-							["casts"] = 2,
-							["critical"] = 2,
-							["amount"] = 16359,
-							["school"] = 1,
-							["criticalmin"] = 7956,
-							["criticalmax"] = 8403,
-							["count"] = 2,
-						},
-						["Melee"] = {
-							["glance"] = 2862,
-							["hitmin"] = 2950,
-							["criticalmin"] = 5778,
-							["targets"] = {
-								["Drakkari Lancer"] = {
-									["overkill"] = 3230,
-									["amount"] = 8644,
-								},
-								["Drakkari Fire Weaver"] = {
-									["amount"] = 8728,
-								},
-							},
-							["glancing"] = 1,
-							["amount"] = 17372,
-							["glancemin"] = 2862,
-							["criticalamount"] = 11560,
-							["id"] = 6603,
-							["glancemax"] = 2862,
-							["overkill"] = 3230,
-							["criticalmax"] = 5782,
-							["critical"] = 2,
-							["hit"] = 1,
-							["school"] = 1,
-							["count"] = 4,
-							["hitmax"] = 2950,
-							["hitamount"] = 2950,
-						},
-						["Death and Decay"] = {
-							["hitmax"] = 670,
-							["hitmin"] = 523,
-							["criticalamount"] = 15425,
-							["id"] = 52212,
-							["criticalmin"] = 985,
-							["targets"] = {
-								["Drakkari Fire Weaver"] = {
-									["amount"] = 12027,
-								},
-								["Drakkari Lancer"] = {
-									["amount"] = 8408,
-								},
-							},
-							["criticalmax"] = 1400,
-							["critical"] = 12,
-							["casts"] = 1,
-							["count"] = 20,
-							["hit"] = 8,
-							["school"] = 32,
-							["resisted"] = 449,
-							["amount"] = 20435,
-							["hitamount"] = 5010,
-						},
-						["Death Coil"] = {
-							["hitmin"] = 3808,
-							["id"] = 47632,
-							["targets"] = {
-								["Drakkari Fire Weaver"] = {
-									["amount"] = 3808,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 32,
-							["hitmax"] = 3808,
-							["amount"] = 3808,
-							["hitamount"] = 3808,
-						},
-						["Unholy Blight (DoT)"] = {
-							["hitmin"] = 35,
-							["id"] = 50536,
-							["targets"] = {
-								["Drakkari Fire Weaver"] = {
-									["amount"] = 225,
-								},
-							},
-							["hitmax"] = 38,
-							["count"] = 6,
-							["hit"] = 6,
-							["school"] = 32,
-							["resisted"] = 3,
-							["amount"] = 225,
-							["hitamount"] = 225,
-						},
-						["Wandering Plague"] = {
-							["hitmin"] = 773,
-							["id"] = 50526,
-							["targets"] = {
-								["Drakkari Lancer"] = {
-									["amount"] = 3153,
-								},
-								["Drakkari Fire Weaver"] = {
-									["amount"] = 3936,
-								},
-							},
-							["hitmax"] = 1115,
-							["casts"] = 1,
-							["count"] = 7,
-							["hit"] = 7,
-							["school"] = 32,
-							["resisted"] = 301,
-							["amount"] = 7089,
-							["hitamount"] = 7089,
-						},
-						["Blood Plague (DoT)"] = {
-							["hitmin"] = 1072,
-							["id"] = 55078,
-							["targets"] = {
-								["Drakkari Lancer"] = {
-									["amount"] = 2263,
-								},
-								["Drakkari Fire Weaver"] = {
-									["amount"] = 3469,
-								},
-							},
-							["hitmax"] = 1191,
-							["count"] = 5,
-							["hit"] = 5,
-							["school"] = 32,
-							["resisted"] = 119,
-							["amount"] = 5732,
-							["hitamount"] = 5732,
-						},
-						["Blood Strike"] = {
-							["hitmin"] = 2109,
-							["id"] = 49930,
-							["targets"] = {
-								["Drakkari Lancer"] = {
-									["amount"] = 2109,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 1,
-							["hitmax"] = 2109,
-							["amount"] = 2109,
-							["hitamount"] = 2109,
-						},
-						["Plague Strike"] = {
-							["hitmin"] = 1780,
-							["id"] = 49921,
-							["targets"] = {
-								["Drakkari Fire Weaver"] = {
-									["amount"] = 1780,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 1,
-							["hitmax"] = 1780,
-							["amount"] = 1780,
-							["hitamount"] = 1780,
-						},
-						["Frost Fever (DoT)"] = {
-							["hitmin"] = 1032,
-							["id"] = 55095,
-							["targets"] = {
-								["Drakkari Lancer"] = {
-									["amount"] = 2596,
-								},
-								["Drakkari Fire Weaver"] = {
-									["amount"] = 3324,
-								},
-							},
-							["hitmax"] = 1298,
-							["count"] = 5,
-							["hit"] = 5,
-							["school"] = 16,
-							["resisted"] = 114,
-							["amount"] = 5920,
-							["hitamount"] = 5920,
-						},
-						["Scourge Strike (Shadow)"] = {
-							["hitmin"] = 2900,
-							["id"] = 70890,
-							["targets"] = {
-								["Drakkari Lancer"] = {
-									["amount"] = 2900,
-								},
-							},
-							["hitmax"] = 2900,
-							["casts"] = 1,
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 32,
-							["resisted"] = 724,
-							["amount"] = 2900,
-							["hitamount"] = 2900,
-						},
-					},
-					["damagetaken"] = 11854,
-					["id"] = "0x070000000000D01B",
-					["spec"] = 252,
-					["damagetakenspells"] = {
-						["Impale"] = {
-							["hitmin"] = 2129,
-							["id"] = 58978,
-							["sources"] = {
-								["Drakkari Lancer"] = {
-									["amount"] = 2129,
-								},
-							},
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 1,
-							["hitmax"] = 2129,
-							["amount"] = 2129,
-							["hitamount"] = 2129,
-						},
-						["Melee"] = {
-							["DODGE"] = 1,
-							["hitmin"] = 1859,
-							["id"] = 6603,
-							["PARRY"] = 1,
-							["sources"] = {
-								["Drakkari Lancer"] = {
-									["amount"] = 1859,
-								},
-								["Drakkari Fire Weaver"] = {
-									["amount"] = 4255,
-								},
-							},
-							["count"] = 5,
-							["hit"] = 3,
-							["school"] = 1,
-							["hitmax"] = 2166,
-							["amount"] = 6114,
-							["hitamount"] = 6114,
-						},
-						["Impale (DoT)"] = {
-							["hitmin"] = 849,
-							["id"] = 58978,
-							["sources"] = {
-								["Drakkari Lancer"] = {
-									["amount"] = 3611,
-								},
-							},
-							["count"] = 4,
-							["hit"] = 4,
-							["school"] = 1,
-							["hitmax"] = 1062,
-							["amount"] = 3611,
-							["hitamount"] = 3611,
-						},
-					},
-					["name"] = "Urgash",
-					["ccdone"] = 2,
-					["overkill"] = 9143,
-					["totaldamage"] = 83729,
-					["role"] = "DAMAGER",
-				}, -- [1]
-				{
-					["last"] = 17975.813,
-					["flag"] = 1298,
-					["class"] = "PALADIN",
-					["auras"] = {
-						[6562] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 17,
-						},
-						[48162] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 17,
-						},
-						[31801] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 17,
-						},
-						[54428] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["refresh"] = 9,
-							["uptime"] = 17,
-						},
-						[48942] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 17,
-						},
-						[57623] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 17,
-						},
-						[25898] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 17,
-						},
-						[48170] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 17,
-						},
-						[25899] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 17,
-						},
-						[19746] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 17,
-						},
-						[62124] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 2,
-							["targets"] = {
-								["Drakkari Fire Weaver"] = {
-									["uptime"] = 3,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 3,
-						},
-						[54499] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 2,
-							["targets"] = {
-								["Drakkari Lancer"] = {
-									["uptime"] = 7,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 7,
-						},
-						[53601] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 2,
-							["uptime"] = 16,
-						},
-						[48952] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 2,
-							["uptime"] = 2,
-						},
-						[43002] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 17,
-						},
-						[58597] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 2,
-							["uptime"] = 8,
-						},
-						[20185] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 2,
-							["targets"] = {
-								["Drakkari Lancer"] = {
-									["uptime"] = 7,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 7,
-						},
-						[48827] = {
-							["type"] = "DEBUFF",
-							["count"] = 2,
-							["school"] = 2,
-							["targets"] = {
-								["Drakkari Fire Weaver"] = {
-									["uptime"] = 1,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 1,
-						},
-						[63529] = {
-							["type"] = "DEBUFF",
 							["count"] = 2,
 							["school"] = 1,
-							["targets"] = {
-								["Drakkari Fire Weaver"] = {
-									["uptime"] = 1,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 1,
-						},
-						[48819] = {
-							["type"] = "DEBUFF",
-							["count"] = 2,
-							["school"] = 2,
-							["targets"] = {
-								["Drakkari Lancer"] = {
-									["uptime"] = 2,
-									["count"] = 1,
-								},
-								["Drakkari Fire Weaver"] = {
-									["uptime"] = 3,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 3,
-						},
-						[66922] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 2,
-							["uptime"] = 12,
-						},
-						[72221] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 17,
-						},
-						[48074] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 17,
-						},
-						[31803] = {
-							["type"] = "DEBUFF",
-							["count"] = 2,
-							["school"] = 2,
-							["refresh"] = 7,
-							["targets"] = {
-								["Drakkari Fire Weaver"] = {
-									["count"] = 1,
-									["refresh"] = 3,
-									["uptime"] = 11,
-								},
-								["Drakkari Lancer"] = {
-									["count"] = 1,
-									["refresh"] = 4,
-									["uptime"] = 10,
-								},
-							},
-							["uptime"] = 11,
-						},
-						[53563] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 17,
-						},
-					},
-					["time"] = 11.06,
-					["totaldamagetaken"] = 2322,
-					["damage"] = 27206,
-					["damagespells"] = {
-						["Hand of Reckoning"] = {
-							["hitmin"] = 2120,
-							["id"] = 67485,
-							["targets"] = {
-								["Drakkari Fire Weaver"] = {
-									["amount"] = 2120,
-								},
-							},
-							["hitmax"] = 2120,
-							["casts"] = 2,
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 2,
-							["resisted"] = 530,
-							["amount"] = 2120,
-							["hitamount"] = 2120,
-						},
-						["Judgement of Vengeance"] = {
-							["hitmin"] = 1475,
-							["id"] = 31804,
-							["targets"] = {
-								["Drakkari Lancer"] = {
-									["amount"] = 1475,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 2,
-							["hitmax"] = 1475,
-							["amount"] = 1475,
-							["hitamount"] = 1475,
-						},
-						["Melee"] = {
-							["hitmin"] = 484,
-							["criticalamount"] = 4184,
-							["id"] = 6603,
-							["criticalmin"] = 968,
-							["targets"] = {
-								["Drakkari Fire Weaver"] = {
-									["amount"] = 3216,
-								},
-								["Drakkari Lancer"] = {
-									["amount"] = 2496,
-								},
-							},
-							["blocked"] = 40,
-							["critical"] = 4,
-							["criticalmax"] = 1130,
-							["count"] = 7,
-							["hit"] = 3,
-							["school"] = 1,
-							["hitmax"] = 539,
-							["amount"] = 5712,
-							["hitamount"] = 1528,
-						},
-						["Consecration (DoT)"] = {
-							["hitmin"] = 340,
-							["id"] = 48819,
-							["targets"] = {
-								["Drakkari Fire Weaver"] = {
-									["amount"] = 1188,
-								},
-								["Drakkari Lancer"] = {
-									["amount"] = 806,
-								},
-							},
-							["hitmax"] = 424,
-							["count"] = 5,
-							["hit"] = 5,
-							["school"] = 2,
-							["resisted"] = 126,
-							["amount"] = 1994,
-							["hitamount"] = 1994,
-						},
-						["Hammer of the Righteous"] = {
-							["hitmin"] = 1996,
-							["id"] = 53595,
-							["targets"] = {
-								["Drakkari Fire Weaver"] = {
-									["amount"] = 2217,
-								},
-								["Drakkari Lancer"] = {
-									["amount"] = 1996,
-								},
-							},
-							["hitmax"] = 2217,
-							["casts"] = 1,
-							["count"] = 2,
-							["hit"] = 2,
-							["school"] = 2,
-							["resisted"] = 221,
-							["amount"] = 4213,
-							["hitamount"] = 4213,
-						},
-						["Avenger's Shield"] = {
-							["criticalamount"] = 8158,
-							["id"] = 48827,
-							["targets"] = {
-								["Drakkari Fire Weaver"] = {
-									["amount"] = 4556,
-								},
-								["Drakkari Lancer"] = {
-									["amount"] = 3602,
-								},
-							},
-							["criticalmin"] = 3602,
-							["casts"] = 1,
-							["critical"] = 2,
-							["amount"] = 8158,
-							["school"] = 2,
-							["resisted"] = 400,
-							["criticalmax"] = 4556,
-							["count"] = 2,
-						},
-						["Holy Vengeance (DoT)"] = {
-							["hitmin"] = 152,
-							["id"] = 31803,
-							["targets"] = {
-								["Drakkari Fire Weaver"] = {
-									["amount"] = 1216,
-								},
-								["Drakkari Lancer"] = {
-									["amount"] = 1401,
-								},
-							},
-							["hitmax"] = 608,
-							["count"] = 6,
-							["hit"] = 6,
-							["school"] = 2,
-							["resisted"] = 121,
-							["amount"] = 2617,
-							["hitamount"] = 2617,
-						},
-						["Seal of Vengeance"] = {
-							["hitmin"] = 56,
-							["id"] = 42463,
-							["targets"] = {
-								["Drakkari Fire Weaver"] = {
-									["amount"] = 351,
-								},
-								["Drakkari Lancer"] = {
-									["amount"] = 566,
-								},
-							},
-							["blocked"] = 40,
-							["hitmax"] = 261,
-							["casts"] = 1,
-							["count"] = 7,
-							["hit"] = 7,
-							["school"] = 2,
-							["resisted"] = 48,
-							["amount"] = 917,
-							["hitamount"] = 917,
-						},
-					},
-					["damagetaken"] = 2322,
-					["id"] = "0x0700000000949DDC",
-					["spec"] = 66,
-					["healspells"] = {
-						[20267] = {
-							["overheal"] = 2753,
-							["targets"] = {
-								["Gometius"] = {
-									["overheal"] = 1404,
-									["amount"] = 0,
-								},
-								["Urgash"] = {
-									["overheal"] = 806,
-									["amount"] = 1612,
-								},
-								["Zaralar"] = {
-									["overheal"] = 543,
-									["amount"] = 543,
-								},
-							},
-							["count"] = 7,
-							["amount"] = 2155,
-							["school"] = 2,
-							["max"] = 806,
-							["ishot"] = true,
-							["min"] = 543,
-						},
-					},
-					["damagetakenspells"] = {
-						["Melee"] = {
-							["DODGE"] = 1,
-							["sources"] = {
-								["Drakkari Fire Weaver"] = {
-									["amount"] = 0,
-								},
-								["Drakkari Lancer"] = {
-									["amount"] = 0,
-								},
-							},
-							["count"] = 3,
-							["amount"] = 0,
-							["school"] = 1,
-							["PARRY"] = 2,
-							["id"] = 6603,
-						},
-						["Lava Burst"] = {
-							["hitmin"] = 2322,
-							["id"] = 58972,
-							["hitmax"] = 2322,
-							["sources"] = {
-								["Drakkari Fire Weaver"] = {
-									["amount"] = 2322,
-								},
-							},
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 4,
-							["resisted"] = 257,
-							["amount"] = 2322,
-							["hitamount"] = 2322,
-						},
-					},
-					["overheal"] = 2753,
-					["heal"] = 2155,
-					["name"] = "Gometius",
-					["manaspells"] = {
-						[57319] = 483,
-						[54428] = 2020,
-						[31786] = 913,
-					},
-					["mana"] = 3416,
-					["totaldamage"] = 27206,
-					["role"] = "TANK",
-				}, -- [2]
-				{
-					["last"] = 17974.405,
-					["flag"] = 1298,
-					["class"] = "PALADIN",
-					["auras"] = {
-						[72221] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 17,
-						},
-						[48074] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 17,
-						},
-						[48170] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 17,
-						},
-						[57623] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 17,
-						},
-						[48942] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 17,
-						},
-						[25898] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 17,
-						},
-						[28878] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 17,
-						},
-						[20166] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 17,
-						},
-						[54153] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 2,
-							["uptime"] = 7,
-						},
-						[25899] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 17,
-						},
-						[48162] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 17,
-						},
-						[57102] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 17,
-						},
-						[19746] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 17,
-						},
-						[43002] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 17,
-						},
-					},
-					["time"] = 9.050000000000001,
-					["damage"] = 1188,
-					["overheal"] = 29392,
-					["id"] = "0x070000000096902A",
-					["spec"] = 65,
-					["healspells"] = {
-						[53654] = {
-							["overheal"] = 13668,
-							["max"] = 2322,
-							["count"] = 3,
-							["amount"] = 2322,
-							["school"] = 2,
-							["min"] = 2322,
-							["targets"] = {
-								["Gometius"] = {
-									["overheal"] = 13668,
-									["amount"] = 2322,
-								},
-							},
-						},
-						[20267] = {
-							["overheal"] = 702,
-							["count"] = 1,
-							["amount"] = 0,
-							["school"] = 2,
-							["ishot"] = true,
-							["targets"] = {
-								["Gometius"] = {
-									["overheal"] = 702,
-									["amount"] = 0,
-								},
-							},
-						},
-						[66922] = {
-							["overheal"] = 8107,
-							["count"] = 12,
-							["amount"] = 0,
-							["school"] = 2,
-							["ishot"] = true,
-							["targets"] = {
-								["Gometius"] = {
-									["overheal"] = 8107,
-									["amount"] = 0,
-								},
-							},
-						},
-						[48785] = {
-							["overheal"] = 6915,
-							["criticalamount"] = 9659,
-							["max"] = 6730,
-							["targets"] = {
-								["Gometius"] = {
-									["overheal"] = 209,
-									["amount"] = 6730,
-								},
-								["Ynnou"] = {
-									["overheal"] = 4241,
-									["amount"] = 2929,
-								},
-								["Urgash"] = {
-									["overheal"] = 2465,
-									["amount"] = 6699,
-								},
-							},
-							["casts"] = 3,
-							["min"] = 2164,
-							["criticalmax"] = 6730,
-							["critical"] = 2,
-							["amount"] = 16358,
-							["school"] = 2,
-							["criticalmin"] = 2929,
-							["count"] = 4,
-						},
-					},
-					["damagespells"] = {
-						["Judgement"] = {
-							["hitmin"] = 1188,
-							["id"] = 54158,
-							["targets"] = {
-								["Drakkari Lancer"] = {
-									["amount"] = 1188,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 2,
-							["hitmax"] = 1188,
-							["amount"] = 1188,
-							["hitamount"] = 1188,
-						},
-					},
-					["heal"] = 18680,
-					["name"] = "Ynnou",
-					["totaldamage"] = 1188,
-					["manaspells"] = {
-						[20272] = 184,
-					},
-					["mana"] = 184,
-					["role"] = "HEALER",
-				}, -- [3]
-				{
-					["last"] = 17974.83,
-					["flag"] = 1298,
-					["class"] = "PRIEST",
-					["auras"] = {
-						[15473] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 17,
-						},
-						[48162] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 17,
-						},
-						[16595] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 17,
-						},
-						[48074] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 17,
-						},
-						[48168] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 17,
-						},
-						[48170] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 17,
-						},
-						[33198] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 32,
-							["targets"] = {
-								["Drakkari Lancer"] = {
-									["uptime"] = 7,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 7,
-						},
-						[19746] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 17,
-						},
-						[53755] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 17,
-						},
-						[48300] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 32,
-							["targets"] = {
-								["Drakkari Lancer"] = {
-									["uptime"] = 8,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 8,
-						},
-						[28878] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 17,
-						},
-						[43002] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 17,
-						},
-						[53023] = {
-							["type"] = "DEBUFF",
-							["count"] = 2,
-							["school"] = 32,
-							["targets"] = {
-								["Drakkari Lancer"] = {
-									["uptime"] = 4,
-									["count"] = 2,
-								},
-							},
-							["uptime"] = 4,
-						},
-						[48301] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 32,
-							["targets"] = {
-								["Drakkari Lancer"] = {
-									["uptime"] = 4,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 4,
-						},
-						[48125] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 32,
-							["targets"] = {
-								["Drakkari Lancer"] = {
-									["uptime"] = 7,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 7,
-						},
-						[72221] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 17,
-						},
-						[15286] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 17,
-						},
-						[59626] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 32,
-							["uptime"] = 10,
-						},
-						[48942] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 17,
-						},
-						[15258] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 32,
 							["refresh"] = 7,
 							["uptime"] = 15,
 						},
 						[57623] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 17,
+							["uptime"] = 27,
 						},
-					},
-					["time"] = 10.06,
-					["damage"] = 26304,
-					["damagespells"] = {
-						["Mind Blast"] = {
-							["hitmin"] = 4024,
-							["id"] = 48127,
-							["targets"] = {
-								["Drakkari Lancer"] = {
-									["amount"] = 4024,
-								},
-							},
-							["casts"] = 1,
+						[71227] = {
+							["type"] = "BUFF",
 							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 32,
-							["hitmax"] = 4024,
-							["amount"] = 4024,
-							["hitamount"] = 4024,
+							["school"] = 8,
+							["uptime"] = 12,
 						},
-						["Improved Devouring Plague"] = {
-							["hitmin"] = 2057,
-							["id"] = 63675,
+						[51735] = {
+							["type"] = "DEBUFF",
+							["count"] = 6,
+							["school"] = 32,
+							["refresh"] = 4,
 							["targets"] = {
-								["Drakkari Lancer"] = {
-									["amount"] = 2057,
+								["Wrathbone Coldwraith"] = {
+									["count"] = 2,
+									["refresh"] = 2,
+									["uptime"] = 10,
+								},
+								["Fallen Warrior"] = {
+									["count"] = 4,
+									["refresh"] = 2,
+									["uptime"] = 6,
 								},
 							},
-							["hitmax"] = 2057,
-							["casts"] = 1,
+							["uptime"] = 16,
+						},
+						[49938] = {
+							["type"] = "DEBUFF",
+							["count"] = 4,
+							["school"] = 32,
+							["targets"] = {
+								["Fallen Warrior"] = {
+									["uptime"] = 8,
+									["count"] = 4,
+								},
+							},
+							["uptime"] = 8,
+						},
+						[48266] = {
+							["type"] = "BUFF",
 							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 32,
-							["resisted"] = 514,
-							["amount"] = 2057,
-							["hitamount"] = 2057,
+							["uptime"] = 27,
 						},
-						["Mind Sear"] = {
-							["criticalmin"] = 2882,
-							["hitmin"] = 1602,
-							["criticalamount"] = 2882,
-							["id"] = 53022,
-							["criticalmax"] = 2882,
+						[24932] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 27,
+						},
+						[48469] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 27,
+						},
+						[47930] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 2,
+							["uptime"] = 13,
+						},
+						[49560] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 1,
 							["targets"] = {
-								["Drakkari Fire Weaver"] = {
-									["amount"] = 9991,
+								["Wrathbone Coldwraith"] = {
+									["uptime"] = 3,
+									["count"] = 1,
 								},
 							},
-							["critical"] = 1,
-							["hitmax"] = 1850,
-							["casts"] = 2,
-							["count"] = 5,
-							["hit"] = 4,
-							["school"] = 32,
-							["resisted"] = 177,
-							["amount"] = 9991,
-							["hitamount"] = 7109,
+							["uptime"] = 3,
 						},
-						["Devouring Plague (DoT)"] = {
-							["hitmin"] = 1573,
-							["criticalamount"] = 3289,
-							["id"] = 48300,
+						[50536] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 32,
 							["targets"] = {
-								["Drakkari Lancer"] = {
-									["amount"] = 6436,
+								["Wrathbone Coldwraith"] = {
+									["uptime"] = 3,
+									["count"] = 1,
 								},
 							},
-							["criticalmin"] = 3289,
-							["critical"] = 1,
-							["criticalmax"] = 3289,
-							["count"] = 3,
-							["hit"] = 2,
-							["school"] = 32,
-							["hitmax"] = 1574,
-							["amount"] = 6436,
-							["hitamount"] = 3147,
+							["uptime"] = 3,
 						},
-						["Shadow Word: Pain (DoT)"] = {
-							["hitmin"] = 1228,
-							["criticalamount"] = 2568,
-							["id"] = 48125,
+						[71561] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["uptime"] = 21,
+						},
+						[55095] = {
+							["type"] = "DEBUFF",
+							["count"] = 6,
+							["school"] = 16,
 							["targets"] = {
-								["Drakkari Lancer"] = {
-									["amount"] = 3796,
+								["Wrathbone Coldwraith"] = {
+									["uptime"] = 10,
+									["count"] = 2,
+								},
+								["Fallen Warrior"] = {
+									["uptime"] = 6,
+									["count"] = 4,
 								},
 							},
-							["hitmax"] = 1228,
+							["uptime"] = 16,
+						},
+						[55078] = {
+							["type"] = "DEBUFF",
+							["count"] = 6,
+							["school"] = 32,
+							["targets"] = {
+								["Wrathbone Coldwraith"] = {
+									["uptime"] = 8,
+									["count"] = 2,
+								},
+								["Fallen Warrior"] = {
+									["uptime"] = 5,
+									["count"] = 4,
+								},
+							},
+							["uptime"] = 13,
+						},
+						[54043] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 27,
+						},
+						[48111] = {
+							["type"] = "BUFF",
 							["count"] = 2,
-							["criticalmax"] = 2568,
-							["critical"] = 1,
-							["amount"] = 3796,
-							["school"] = 32,
-							["hit"] = 1,
-							["criticalmin"] = 2568,
-							["hitamount"] = 1228,
+							["school"] = 2,
+							["uptime"] = 24,
 						},
-					},
-					["id"] = "0x07000000006FE7EF",
-					["spec"] = 258,
-					["healspells"] = {
-						[15290] = {
-							["overheal"] = 4024,
-							["targets"] = {
-								["Gometius"] = {
-									["overheal"] = 602,
-									["amount"] = 86,
-								},
-								["Urgash"] = {
-									["overheal"] = 67,
-									["amount"] = 624,
-								},
-								["Wubobo"] = {
-									["overheal"] = 116,
-									["amount"] = 573,
-								},
-								["Ynnou"] = {
-									["overheal"] = 563,
-									["amount"] = 161,
-								},
-								["Zaralar"] = {
-									["overheal"] = 2676,
-									["amount"] = 767,
-								},
-							},
-							["count"] = 35,
-							["amount"] = 2211,
-							["school"] = 32,
-							["max"] = 434,
-							["ishot"] = true,
-							["min"] = 2,
-						},
-						[75999] = {
-							["overheal"] = 0,
-							["count"] = 1,
-							["amount"] = 355,
-							["school"] = 32,
-							["max"] = 355,
-							["targets"] = {
-								["Zaralar"] = {
-									["overheal"] = 0,
-									["amount"] = 355,
-								},
-							},
-							["min"] = 355,
-						},
-						[48300] = {
-							["overheal"] = 869,
-							["count"] = 3,
-							["amount"] = 202,
-							["school"] = 32,
-							["max"] = 202,
-							["targets"] = {
-								["Zaralar"] = {
-									["overheal"] = 869,
-									["amount"] = 202,
-								},
-							},
-							["min"] = 202,
-						},
-					},
-					["heal"] = 2768,
-					["name"] = "Zaralar",
-					["overheal"] = 4893,
-					["totaldamage"] = 26304,
-					["role"] = "DAMAGER",
-				}, -- [4]
-				{
-					["last"] = 17964.759,
-					["id"] = "0x0700000000975314",
-					["spec"] = 63,
-					["auras"] = {
 						[72221] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 17,
+							["uptime"] = 27,
 						},
-						[48074] = {
+						[49222] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 17,
+							["uptime"] = 19,
+						},
+						[53365] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 1,
+							["uptime"] = 18,
+						},
+						[66803] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 32,
+							["refresh"] = 1,
+							["uptime"] = 10,
+						},
+						[48942] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 27,
+						},
+					},
+					["time"] = 24.91,
+					["totaldamagetaken"] = 11532,
+					["damage"] = 226097,
+					["damagespells"] = {
+						["Scourge Strike"] = {
+							["hitmin"] = 5504,
+							["id"] = 55271,
+							["targets"] = {
+								["Wrathbone Coldwraith"] = {
+									["amount"] = 5504,
+								},
+							},
+							["casts"] = 1,
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 1,
+							["hitmax"] = 5504,
+							["amount"] = 5504,
+							["hitamount"] = 5504,
+						},
+						["Chaos Bane"] = {
+							["hitmin"] = 3362,
+							["id"] = 71904,
+							["targets"] = {
+								["Wrathbone Coldwraith"] = {
+									["amount"] = 3362,
+								},
+							},
+							["casts"] = 1,
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 32,
+							["hitmax"] = 3362,
+							["amount"] = 3362,
+							["hitamount"] = 3362,
+						},
+						["Death Coil"] = {
+							["criticalmin"] = 11752,
+							["hitmin"] = 4096,
+							["criticalamount"] = 11752,
+							["id"] = 47632,
+							["criticalmax"] = 11752,
+							["targets"] = {
+								["Wrathbone Coldwraith"] = {
+									["overkill"] = 4865,
+									["amount"] = 15848,
+								},
+								["Fallen Warrior"] = {
+									["overkill"] = 5469,
+									["amount"] = 5910,
+								},
+							},
+							["overkill"] = 10334,
+							["critical"] = 1,
+							["casts"] = 3,
+							["count"] = 3,
+							["hit"] = 2,
+							["school"] = 32,
+							["hitmax"] = 5910,
+							["amount"] = 21758,
+							["hitamount"] = 10006,
+						},
+						["Unholy Blight (DoT)"] = {
+							["hitmin"] = 40,
+							["id"] = 50536,
+							["targets"] = {
+								["Wrathbone Coldwraith"] = {
+									["amount"] = 80,
+								},
+							},
+							["count"] = 2,
+							["hit"] = 2,
+							["school"] = 32,
+							["hitmax"] = 40,
+							["amount"] = 80,
+							["hitamount"] = 80,
+						},
+						["Wandering Plague"] = {
+							["hitmin"] = 1409,
+							["id"] = 50526,
+							["targets"] = {
+								["Wrathbone Coldwraith"] = {
+									["amount"] = 1963,
+								},
+								["Fallen Warrior"] = {
+									["amount"] = 15174,
+								},
+							},
+							["casts"] = 1,
+							["count"] = 11,
+							["hit"] = 11,
+							["school"] = 32,
+							["hitmax"] = 1963,
+							["amount"] = 17137,
+							["hitamount"] = 17137,
+						},
+						["Claw (Skullslicer)"] = {
+							["hitmin"] = 795,
+							["criticalamount"] = 3614,
+							["id"] = 47468,
+							["criticalmin"] = 1610,
+							["targets"] = {
+								["Wrathbone Coldwraith"] = {
+									["amount"] = 6444,
+								},
+								["Fallen Warrior"] = {
+									["amount"] = 3217,
+								},
+							},
+							["criticalmax"] = 2004,
+							["critical"] = 2,
+							["casts"] = 1,
+							["count"] = 8,
+							["hit"] = 6,
+							["school"] = 1,
+							["hitmax"] = 1146,
+							["amount"] = 9661,
+							["hitamount"] = 6047,
+						},
+						["Melee (Skullslicer)"] = {
+							["glance"] = 1281,
+							["hitmin"] = 546,
+							["criticalmin"] = 1096,
+							["targets"] = {
+								["Wrathbone Coldwraith"] = {
+									["amount"] = 7340,
+								},
+								["Fallen Warrior"] = {
+									["amount"] = 3658,
+								},
+							},
+							["glancing"] = 2,
+							["amount"] = 10998,
+							["glancemin"] = 529,
+							["criticalamount"] = 4038,
+							["id"] = 6603,
+							["glancemax"] = 752,
+							["criticalmax"] = 1488,
+							["critical"] = 3,
+							["hit"] = 8,
+							["school"] = 1,
+							["hitmax"] = 762,
+							["count"] = 13,
+							["hitamount"] = 5679,
+						},
+						["Melee"] = {
+							["glance"] = 8213,
+							["hitmin"] = 3333,
+							["criticalmin"] = 8071,
+							["targets"] = {
+								["Wrathbone Coldwraith"] = {
+									["amount"] = 31536,
+								},
+								["Fallen Warrior"] = {
+									["amount"] = 19156,
+								},
+							},
+							["glancing"] = 2,
+							["amount"] = 50692,
+							["glancemin"] = 3624,
+							["criticalamount"] = 35780,
+							["id"] = 6603,
+							["glancemax"] = 4589,
+							["criticalmax"] = 9440,
+							["hitmax"] = 3366,
+							["hit"] = 2,
+							["school"] = 1,
+							["critical"] = 4,
+							["count"] = 8,
+							["hitamount"] = 6699,
+						},
+						["Icy Touch"] = {
+							["hitmin"] = 2111,
+							["criticalamount"] = 4796,
+							["id"] = 49909,
+							["criticalmin"] = 4796,
+							["targets"] = {
+								["Wrathbone Coldwraith"] = {
+									["amount"] = 7627,
+								},
+								["Fallen Warrior"] = {
+									["amount"] = 2111,
+								},
+							},
+							["criticalmax"] = 4796,
+							["critical"] = 1,
+							["casts"] = 3,
+							["count"] = 3,
+							["hit"] = 2,
+							["school"] = 16,
+							["hitmax"] = 2831,
+							["amount"] = 9738,
+							["hitamount"] = 4942,
+						},
+						["Retribution Aura"] = {
+							["hitmin"] = 287,
+							["id"] = 54043,
+							["targets"] = {
+								["Wrathbone Coldwraith"] = {
+									["amount"] = 687,
+								},
+								["Fallen Warrior"] = {
+									["amount"] = 574,
+								},
+							},
+							["casts"] = 1,
+							["count"] = 4,
+							["hit"] = 4,
+							["school"] = 2,
+							["hitmax"] = 351,
+							["amount"] = 1261,
+							["hitamount"] = 1261,
+						},
+						["Blood-Caked Strike"] = {
+							["hitmin"] = 1022,
+							["id"] = 50463,
+							["targets"] = {
+								["Wrathbone Coldwraith"] = {
+									["amount"] = 1022,
+								},
+							},
+							["casts"] = 1,
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 1,
+							["hitmax"] = 1022,
+							["amount"] = 1022,
+							["hitamount"] = 1022,
+						},
+						["Necrosis"] = {
+							["hitmin"] = 666,
+							["id"] = 51460,
+							["targets"] = {
+								["Wrathbone Coldwraith"] = {
+									["amount"] = 6306,
+								},
+								["Fallen Warrior"] = {
+									["amount"] = 3829,
+								},
+							},
+							["casts"] = 1,
+							["count"] = 8,
+							["hit"] = 8,
+							["school"] = 32,
+							["hitmax"] = 1888,
+							["amount"] = 10135,
+							["hitamount"] = 10135,
+						},
+						["Blood Plague (DoT)"] = {
+							["hitmin"] = 1485,
+							["id"] = 55078,
+							["targets"] = {
+								["Wrathbone Coldwraith"] = {
+									["amount"] = 4128,
+								},
+								["Fallen Warrior"] = {
+									["amount"] = 6142,
+								},
+							},
+							["count"] = 6,
+							["hit"] = 6,
+							["school"] = 32,
+							["hitmax"] = 2064,
+							["amount"] = 10270,
+							["hitamount"] = 10270,
+						},
+						["Blood Strike"] = {
+							["hitmin"] = 3016,
+							["id"] = 49930,
+							["targets"] = {
+								["Wrathbone Coldwraith"] = {
+									["amount"] = 6253,
+								},
+							},
+							["casts"] = 2,
+							["count"] = 2,
+							["hit"] = 2,
+							["school"] = 1,
+							["hitmax"] = 3237,
+							["amount"] = 6253,
+							["hitamount"] = 6253,
+						},
+						["Death and Decay"] = {
+							["hitmin"] = 795,
+							["criticalamount"] = 12570,
+							["id"] = 52212,
+							["criticalmin"] = 1662,
+							["targets"] = {
+								["Fallen Warrior"] = {
+									["amount"] = 33359,
+								},
+							},
+							["criticalmax"] = 2129,
+							["critical"] = 7,
+							["casts"] = 1,
+							["count"] = 30,
+							["hit"] = 23,
+							["school"] = 32,
+							["hitmax"] = 1019,
+							["amount"] = 33359,
+							["hitamount"] = 20789,
+						},
+						["Plague Strike"] = {
+							["criticalamount"] = 19222,
+							["id"] = 49921,
+							["targets"] = {
+								["Wrathbone Coldwraith"] = {
+									["amount"] = 13483,
+								},
+								["Fallen Warrior"] = {
+									["amount"] = 5739,
+								},
+							},
+							["casts"] = 3,
+							["critical"] = 3,
+							["amount"] = 19222,
+							["school"] = 1,
+							["criticalmin"] = 5739,
+							["criticalmax"] = 6930,
+							["count"] = 3,
+						},
+						["Frost Fever (DoT)"] = {
+							["hitmin"] = 1741,
+							["id"] = 55095,
+							["targets"] = {
+								["Wrathbone Coldwraith"] = {
+									["amount"] = 4922,
+								},
+								["Fallen Warrior"] = {
+									["overkill"] = 2422,
+									["amount"] = 7880,
+								},
+							},
+							["overkill"] = 2422,
+							["count"] = 6,
+							["hit"] = 6,
+							["school"] = 16,
+							["hitmax"] = 2461,
+							["amount"] = 12802,
+							["hitamount"] = 12802,
+						},
+						["Scourge Strike (Shadow)"] = {
+							["hitmin"] = 2843,
+							["id"] = 70890,
+							["targets"] = {
+								["Wrathbone Coldwraith"] = {
+									["amount"] = 2843,
+								},
+							},
+							["casts"] = 1,
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 32,
+							["hitmax"] = 2843,
+							["amount"] = 2843,
+							["hitamount"] = 2843,
+						},
+					},
+					["totaldamage"] = 226097,
+					["damagetaken"] = 11532,
+					["id"] = "0x070000000000D01B",
+					["spec"] = 252,
+					["healspells"] = {
+						[53365] = {
+							["overheal"] = 2418,
+							["count"] = 2,
+							["amount"] = 0,
+							["school"] = 1,
+							["targets"] = {
+								["Urgash"] = {
+									["overheal"] = 2418,
+									["amount"] = 0,
+								},
+							},
+						},
+						[34299] = {
+							["overheal"] = 2790,
+							["targets"] = {
+								["Urgash"] = {
+									["overheal"] = 1394,
+									["amount"] = 1022,
+								},
+								["Skullslicer"] = {
+									["overheal"] = 1396,
+									["amount"] = 326,
+								},
+							},
+							["count"] = 6,
+							["amount"] = 1348,
+							["school"] = 1,
+							["max"] = 805,
+							["ishot"] = true,
+							["min"] = 217,
+						},
+						[50475] = {
+							["overheal"] = 3221,
+							["max"] = 359,
+							["count"] = 22,
+							["amount"] = 1344,
+							["school"] = 1,
+							["min"] = 94,
+							["ishot"] = true,
+							["targets"] = {
+								["Urgash"] = {
+									["overheal"] = 3221,
+									["amount"] = 1344,
+								},
+							},
+						},
+					},
+					["damagetakenspells"] = {
+						["Melee"] = {
+							["hitmin"] = 2787,
+							["id"] = 6603,
+							["PARRY"] = 1,
+							["sources"] = {
+								["Wrathbone Coldwraith"] = {
+									["amount"] = 5805,
+								},
+								["Fallen Warrior"] = {
+									["amount"] = 5727,
+								},
+							},
+							["count"] = 5,
+							["hit"] = 4,
+							["school"] = 1,
+							["hitmax"] = 3018,
+							["amount"] = 11532,
+							["hitamount"] = 11532,
+						},
+					},
+					["interrupt"] = 1,
+					["heal"] = 2692,
+					["name"] = "Urgash",
+					["ccdone"] = 1,
+					["overkill"] = 12756,
+					["overheal"] = 8429,
+					["interruptspells"] = {
+						[47528] = {
+							["spells"] = {
+								[70277] = 1,
+							},
+							["count"] = 1,
+							["targets"] = {
+								["Wrathbone Coldwraith"] = 1,
+							},
+						},
+					},
+					["role"] = "DAMAGER",
+				}, -- [1]
+				{
+					["ccdonespells"] = {
+						[48817] = {
+							["count"] = 4,
+							["targets"] = {
+								["Fallen Warrior"] = 4,
+							},
+						},
+						[10308] = {
+							["count"] = 1,
+							["targets"] = {
+								["Wrathbone Coldwraith"] = 1,
+							},
+						},
+					},
+					["last"] = 18658.675,
+					["flag"] = 1298,
+					["mana"] = 2929,
+					["auras"] = {
+						[25780] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 27,
+						},
+						[48470] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 27,
+						},
+						[63529] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["targets"] = {
+								["Wrathbone Coldwraith"] = {
+									["uptime"] = 3,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 3,
 						},
 						[57623] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 17,
+							["uptime"] = 27,
 						},
-						[25894] = {
+						[20186] = {
+							["type"] = "DEBUFF",
+							["count"] = 2,
+							["school"] = 2,
+							["targets"] = {
+								["Wrathbone Coldwraith"] = {
+									["uptime"] = 4,
+									["count"] = 2,
+								},
+							},
+							["uptime"] = 4,
+						},
+						[48817] = {
+							["type"] = "DEBUFF",
+							["count"] = 4,
+							["school"] = 2,
+							["targets"] = {
+								["Fallen Warrior"] = {
+									["uptime"] = 3,
+									["count"] = 4,
+								},
+							},
+							["uptime"] = 3,
+						},
+						[48819] = {
+							["type"] = "DEBUFF",
+							["count"] = 4,
+							["school"] = 2,
+							["targets"] = {
+								["Fallen Warrior"] = {
+									["uptime"] = 7,
+									["count"] = 4,
+								},
+							},
+							["uptime"] = 7,
+						},
+						[15359] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 2,
+							["uptime"] = 23,
+						},
+						[20132] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 17,
+							["school"] = 1,
+							["uptime"] = 10,
 						},
-						[6562] = {
+						[20007] = {
 							["type"] = "BUFF",
 							["count"] = 1,
+							["school"] = 1,
+							["uptime"] = 15,
+						},
+						[54499] = {
+							["type"] = "DEBUFF",
+							["count"] = 2,
+							["school"] = 2,
+							["targets"] = {
+								["Wrathbone Coldwraith"] = {
+									["uptime"] = 4,
+									["count"] = 2,
+								},
+							},
+							["uptime"] = 4,
+						},
+						[62124] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 2,
+							["targets"] = {
+								["Wrathbone Coldwraith"] = {
+									["uptime"] = 3,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 3,
+						},
+						[24932] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 27,
+						},
+						[48162] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 27,
+						},
+						[48170] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 27,
+						},
+						[48111] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 3,
+						},
+						[47930] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["refresh"] = 2,
+							["school"] = 2,
+							["uptime"] = 12,
+						},
+						[54043] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 27,
+						},
+						[48942] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 27,
+						},
+						[26017] = {
+							["type"] = "DEBUFF",
+							["count"] = 3,
+							["school"] = 2,
+							["refresh"] = 1,
+							["targets"] = {
+								["Wrathbone Coldwraith"] = {
+									["count"] = 2,
+									["refresh"] = 1,
+									["uptime"] = 4,
+								},
+								["Fallen Warrior"] = {
+									["uptime"] = 2,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 6,
+						},
+						[20375] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 27,
+						},
+						[48066] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 3,
+						},
+						[47753] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 2,
+							["uptime"] = 9,
+						},
+						[48068] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 2,
+							["refresh"] = 1,
+							["uptime"] = 20,
+						},
+						[25898] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 27,
+						},
+						[48074] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 27,
+						},
+						[48827] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 2,
+							["targets"] = {
+								["Wrathbone Coldwraith"] = {
+									["uptime"] = 9,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 9,
+						},
+						[63944] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 27,
+						},
+						[71197] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 8,
+							["refresh"] = 1,
+							["uptime"] = 19,
+						},
+						[25899] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 27,
+						},
+						[68055] = {
+							["type"] = "DEBUFF",
+							["count"] = 2,
+							["school"] = 2,
+							["refresh"] = 1,
+							["targets"] = {
+								["Wrathbone Coldwraith"] = {
+									["count"] = 1,
+									["refresh"] = 1,
+									["uptime"] = 10,
+								},
+								["Fallen Warrior"] = {
+									["uptime"] = 5,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 15,
+						},
+						[10308] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 2,
+							["targets"] = {
+								["Wrathbone Coldwraith"] = {
+									["uptime"] = 6,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 6,
+						},
+						[57669] = {
+							["school"] = 8,
+							["type"] = "BUFF",
+							["uptime"] = 23,
+						},
+					},
+					["time"] = 25.07,
+					["totaldamagetaken"] = 31007,
+					["manaspells"] = {
+						[57319] = 536,
+						[20268] = 1218,
+						[31786] = 1175,
+					},
+					["damage"] = 75336,
+					["damagespells"] = {
+						["Consecration (DoT)"] = {
+							["hitmin"] = 358,
+							["id"] = 48819,
+							["targets"] = {
+								["Fallen Warrior"] = {
+									["amount"] = 8901,
+								},
+							},
+							["count"] = 23,
+							["hit"] = 23,
+							["school"] = 2,
+							["hitmax"] = 408,
+							["amount"] = 8901,
+							["hitamount"] = 8901,
+						},
+						["Melee"] = {
+							["glance"] = 1167,
+							["hitmin"] = 593,
+							["criticalmin"] = 1172,
+							["targets"] = {
+								["Wrathbone Coldwraith"] = {
+									["amount"] = 4263,
+								},
+								["Fallen Warrior"] = {
+									["amount"] = 4943,
+								},
+							},
+							["glancing"] = 2,
+							["amount"] = 9206,
+							["glancemin"] = 581,
+							["criticalamount"] = 3706,
+							["id"] = 6603,
+							["glancemax"] = 586,
+							["criticalmax"] = 1348,
+							["hitmax"] = 644,
+							["hit"] = 7,
+							["school"] = 1,
+							["critical"] = 3,
+							["count"] = 12,
+							["hitamount"] = 4333,
+						},
+						["Retribution Aura"] = {
+							["hitmin"] = 302,
+							["id"] = 54043,
+							["targets"] = {
+								["Fallen Warrior"] = {
+									["amount"] = 959,
+								},
+							},
+							["casts"] = 1,
+							["count"] = 3,
+							["hit"] = 3,
+							["school"] = 2,
+							["hitmax"] = 348,
+							["amount"] = 959,
+							["hitamount"] = 959,
+						},
+						["Hand of Reckoning"] = {
+							["hitmin"] = 2952,
+							["id"] = 67485,
+							["targets"] = {
+								["Wrathbone Coldwraith"] = {
+									["amount"] = 2952,
+								},
+							},
+							["casts"] = 2,
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 2,
+							["hitmax"] = 2952,
+							["amount"] = 2952,
+							["hitamount"] = 2952,
+						},
+						["Hammer of Wrath"] = {
+							["hitmin"] = 2632,
+							["id"] = 48806,
+							["targets"] = {
+								["Wrathbone Coldwraith"] = {
+									["amount"] = 2632,
+								},
+							},
+							["casts"] = 1,
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 2,
+							["hitmax"] = 2632,
+							["amount"] = 2632,
+							["hitamount"] = 2632,
+						},
+						["Hammer of the Righteous"] = {
+							["hitmin"] = 2452,
+							["id"] = 53595,
+							["targets"] = {
+								["Wrathbone Coldwraith"] = {
+									["amount"] = 5243,
+								},
+								["Fallen Warrior"] = {
+									["amount"] = 7675,
+								},
+							},
+							["casts"] = 3,
+							["count"] = 5,
+							["hit"] = 5,
+							["school"] = 2,
+							["hitmax"] = 2771,
+							["amount"] = 12918,
+							["hitamount"] = 12918,
+						},
+						["Judgement of Command"] = {
+							["hitmin"] = 647,
+							["id"] = 20467,
+							["targets"] = {
+								["Wrathbone Coldwraith"] = {
+									["amount"] = 1308,
+								},
+							},
+							["casts"] = 1,
+							["count"] = 2,
+							["hit"] = 2,
+							["school"] = 2,
+							["hitmax"] = 661,
+							["amount"] = 1308,
+							["hitamount"] = 1308,
+						},
+						["Avenger's Shield"] = {
+							["hitmin"] = 1862,
+							["id"] = 48827,
+							["targets"] = {
+								["Wrathbone Coldwraith"] = {
+									["amount"] = 1862,
+								},
+							},
+							["casts"] = 1,
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 2,
+							["hitmax"] = 1862,
+							["amount"] = 1862,
+							["hitamount"] = 1862,
+						},
+						["Seal of Command"] = {
+							["criticalmin"] = 664,
+							["hitmin"] = 317,
+							["criticalamount"] = 5316,
+							["id"] = 20424,
+							["criticalmax"] = 878,
+							["targets"] = {
+								["Wrathbone Coldwraith"] = {
+									["amount"] = 5200,
+								},
+								["Fallen Warrior"] = {
+									["amount"] = 10995,
+								},
+							},
+							["critical"] = 7,
+							["blocked"] = 40,
+							["casts"] = 1,
+							["count"] = 36,
+							["hit"] = 29,
+							["school"] = 2,
+							["hitmax"] = 436,
+							["amount"] = 16195,
+							["hitamount"] = 10879,
+						},
+						["Shield of Righteousness"] = {
+							["hitmin"] = 3120,
+							["criticalamount"] = 7004,
+							["id"] = 61411,
+							["hitmax"] = 3120,
+							["targets"] = {
+								["Wrathbone Coldwraith"] = {
+									["amount"] = 3120,
+								},
+								["Fallen Warrior"] = {
+									["amount"] = 7004,
+								},
+							},
+							["count"] = 2,
+							["hit"] = 1,
+							["casts"] = 2,
+							["critical"] = 1,
+							["amount"] = 10124,
+							["school"] = 2,
+							["criticalmin"] = 7004,
+							["criticalmax"] = 7004,
+							["hitamount"] = 3120,
+						},
+						["Holy Wrath"] = {
+							["hitmin"] = 1686,
+							["criticalamount"] = 3091,
+							["id"] = 48817,
+							["criticalmin"] = 3091,
+							["targets"] = {
+								["Fallen Warrior"] = {
+									["amount"] = 8279,
+								},
+							},
+							["criticalmax"] = 3091,
+							["critical"] = 1,
+							["casts"] = 1,
+							["count"] = 4,
+							["hit"] = 3,
+							["school"] = 2,
+							["hitmax"] = 1766,
+							["amount"] = 8279,
+							["hitamount"] = 5188,
+						},
+					},
+					["interrupt"] = 1,
+					["damagetaken"] = 24436,
+					["id"] = "0x070000000095DC85",
+					["spec"] = 66,
+					["healspells"] = {
+						[34299] = {
+							["overheal"] = 0,
+							["targets"] = {
+								["Crazydqs"] = {
+									["overheal"] = 0,
+									["amount"] = 758,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 758,
+							["school"] = 1,
+							["max"] = 758,
+							["ishot"] = true,
+							["min"] = 758,
+						},
+						[20007] = {
+							["overheal"] = 0,
+							["count"] = 1,
+							["amount"] = 19,
+							["school"] = 1,
+							["max"] = 19,
+							["targets"] = {
+								["Crazydqs"] = {
+									["overheal"] = 0,
+									["amount"] = 19,
+								},
+							},
+							["min"] = 19,
+						},
+					},
+					["damagetakenspells"] = {
+						["Arcing Slice"] = {
+							["total"] = 10516,
+							["hitmin"] = 1668,
+							["id"] = 69579,
+							["blocked"] = 2059,
+							["hitmax"] = 4320,
+							["amount"] = 5988,
+							["sources"] = {
+								["Fallen Warrior"] = {
+									["total"] = 10516,
+									["amount"] = 5988,
+								},
+							},
+							["count"] = 4,
+							["ABSORB"] = 1,
+							["school"] = 1,
+							["hit"] = 2,
+							["PARRY"] = 1,
+							["hitamount"] = 5988,
+						},
+						["Melee"] = {
+							["DODGE"] = 1,
+							["total"] = 5976,
+							["hitmin"] = 511,
+							["id"] = 6603,
+							["blocked"] = 2059,
+							["hitmax"] = 2042,
+							["sources"] = {
+								["Fallen Warrior"] = {
+									["total"] = 5976,
+									["amount"] = 3933,
+								},
+							},
+							["count"] = 5,
+							["amount"] = 3933,
+							["school"] = 1,
+							["hit"] = 3,
+							["MISS"] = 1,
+							["hitamount"] = 3933,
+						},
+						["Frostbolt"] = {
+							["hitmin"] = 7110,
+							["id"] = 70277,
+							["sources"] = {
+								["Wrathbone Coldwraith"] = {
+									["amount"] = 14515,
+								},
+							},
+							["count"] = 2,
+							["hit"] = 2,
+							["school"] = 16,
+							["hitmax"] = 7405,
+							["amount"] = 14515,
+							["hitamount"] = 14515,
+						},
+					},
+					["overheal"] = 0,
+					["heal"] = 777,
+					["name"] = "Crazydqs",
+					["ccdone"] = 5,
+					["totaldamage"] = 75336,
+					["class"] = "PALADIN",
+					["interruptspells"] = {
+						[32747] = {
+							["spells"] = {
+								[70277] = 1,
+							},
+							["count"] = 1,
+							["targets"] = {
+								["Wrathbone Coldwraith"] = 1,
+							},
+						},
+					},
+					["role"] = "TANK",
+				}, -- [2]
+				{
+					["last"] = 18655.816,
+					["flag"] = 1298,
+					["class"] = "PRIEST",
+					["auras"] = {
+						[54043] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 27,
+						},
+						[63944] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 27,
+						},
+						[57669] = {
+							["school"] = 8,
+							["type"] = "BUFF",
+							["uptime"] = 23,
+						},
+						[47930] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 2,
+							["uptime"] = 2,
+						},
+						[48938] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 27,
+						},
+						[47753] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 2,
+							["uptime"] = 12,
+						},
+						[25898] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 27,
+						},
+						[15359] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 2,
+							["uptime"] = 15,
+						},
+						[24932] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 27,
+						},
+						[48168] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 27,
+						},
+						[48942] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 27,
+						},
+						[48074] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 27,
+						},
+						[48162] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 27,
+						},
+						[48170] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 27,
+						},
+						[48470] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 27,
+						},
+					},
+					["absorbspells"] = {
+						[48066] = {
+							["min"] = 668,
+							["casts"] = 1,
+							["count"] = 2,
+							["amount"] = 5196,
+							["max"] = 4528,
+							["targets"] = {
+								["Crazydqs"] = 5196,
+							},
+						},
+						[47753] = {
+							["min"] = 1375,
+							["casts"] = 2,
+							["count"] = 1,
+							["amount"] = 1375,
+							["school"] = 2,
+							["targets"] = {
+								["Crazydqs"] = 1375,
+							},
+							["max"] = 1375,
+						},
+					},
+					["time"] = 20.7,
+					["overheal"] = 16775,
+					["absorb"] = 6571,
+					["id"] = "0x070000000096F606",
+					["spec"] = 256,
+					["healspells"] = {
+						[52985] = {
+							["overheal"] = 0,
+							["criticalamount"] = 4543,
+							["max"] = 4543,
+							["targets"] = {
+								["Crazydqs"] = {
+									["overheal"] = 0,
+									["amount"] = 10232,
+								},
+							},
+							["criticalmin"] = 4543,
+							["min"] = 2829,
+							["casts"] = 2,
+							["count"] = 3,
+							["amount"] = 10232,
+							["school"] = 2,
+							["criticalmax"] = 4543,
+							["critical"] = 1,
+						},
+						[48068] = {
+							["overheal"] = 8148,
+							["max"] = 1120,
+							["targets"] = {
+								["Crazydqs"] = {
+									["overheal"] = 1355,
+									["amount"] = 5240,
+								},
+								["Urgash"] = {
+									["overheal"] = 6793,
+									["amount"] = 1110,
+								},
+							},
+							["min"] = 949,
+							["casts"] = 3,
+							["count"] = 13,
+							["amount"] = 6350,
+							["school"] = 2,
+							["ishot"] = true,
+						},
+						[33110] = {
+							["overheal"] = 4293,
+							["criticalamount"] = 511,
+							["max"] = 2787,
+							["targets"] = {
+								["Crazydqs"] = {
+									["overheal"] = 4073,
+									["amount"] = 511,
+								},
+								["Urgash"] = {
+									["overheal"] = 220,
+									["amount"] = 2787,
+								},
+							},
+							["min"] = 511,
+							["criticalmax"] = 511,
+							["critical"] = 1,
+							["amount"] = 3298,
+							["school"] = 2,
+							["criticalmin"] = 511,
+							["count"] = 2,
+						},
+						[48071] = {
+							["overheal"] = 4334,
+							["criticalamount"] = 1064,
+							["max"] = 4030,
+							["targets"] = {
+								["Najgora"] = {
+									["overheal"] = 4334,
+									["amount"] = 1064,
+								},
+								["Urgash"] = {
+									["overheal"] = 0,
+									["amount"] = 4030,
+								},
+							},
+							["criticalmin"] = 1064,
+							["min"] = 1064,
+							["criticalmax"] = 1064,
+							["critical"] = 1,
+							["amount"] = 5094,
+							["school"] = 2,
+							["casts"] = 2,
+							["count"] = 2,
+						},
+					},
+					["heal"] = 24974,
+					["name"] = "Najgora",
+					["manaspells"] = {
+						[47755] = 555,
+						[63654] = 134,
+					},
+					["mana"] = 689,
+					["role"] = "HEALER",
+				}, -- [3]
+				{
+					["last"] = 18659.092,
+					["flag"] = 1298,
+					["class"] = "DRUID",
+					["auras"] = {
+						[48934] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 27,
+						},
+						[48470] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 27,
+						},
+						[48162] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 27,
+						},
+						[48566] = {
+							["type"] = "DEBUFF",
+							["count"] = 2,
+							["school"] = 1,
+							["targets"] = {
+								["Wrathbone Coldwraith"] = {
+									["uptime"] = 9,
+									["count"] = 2,
+								},
+							},
+							["uptime"] = 9,
+						},
+						[71403] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["uptime"] = 10,
+						},
+						[63944] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 27,
+						},
+						[48074] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 27,
+						},
+						[57623] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 27,
+						},
+						[25898] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 27,
+						},
+						[48170] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 27,
+						},
+						[48574] = {
+							["type"] = "DEBUFF",
+							["count"] = 2,
+							["school"] = 1,
+							["targets"] = {
+								["Wrathbone Coldwraith"] = {
+									["uptime"] = 4,
+									["count"] = 1,
+								},
+								["Fallen Warrior"] = {
+									["uptime"] = 8,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 12,
+						},
+						[48420] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 27,
+						},
+						[52610] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["refresh"] = 1,
+							["uptime"] = 25,
+						},
+						[67355] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 8,
+							["uptime"] = 10,
+						},
+						[16857] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 8,
+							["targets"] = {
+								["Wrathbone Coldwraith"] = {
+									["uptime"] = 5,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 5,
+						},
+						[50213] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["uptime"] = 6,
+						},
+						[16870] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 8,
+							["uptime"] = 3,
+						},
+						[54043] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 27,
+						},
+						[69369] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 1,
+							["refresh"] = 1,
+							["uptime"] = 21,
+						},
+						[768] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 27,
+						},
+						[48066] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 5,
+						},
+						[24932] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 27,
+						},
+						[48942] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 27,
+						},
+						[72221] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 27,
+						},
+					},
+					["energyspells"] = {
+						[51178] = 60,
+					},
+					["time"] = 23.41,
+					["damage"] = 184336,
+					["damagespells"] = {
+						["Shred"] = {
+							["hitmin"] = 4586,
+							["id"] = 48572,
+							["targets"] = {
+								["Wrathbone Coldwraith"] = {
+									["amount"] = 4586,
+								},
+							},
+							["casts"] = 1,
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 1,
+							["hitmax"] = 4586,
+							["amount"] = 4586,
+							["hitamount"] = 4586,
+						},
+						["Rake"] = {
+							["criticalamount"] = 2519,
+							["id"] = 48574,
+							["targets"] = {
+								["Wrathbone Coldwraith"] = {
+									["amount"] = 1597,
+								},
+								["Fallen Warrior"] = {
+									["amount"] = 922,
+								},
+							},
+							["casts"] = 2,
+							["critical"] = 2,
+							["amount"] = 2519,
+							["school"] = 1,
+							["criticalmin"] = 922,
+							["criticalmax"] = 1597,
+							["count"] = 2,
+						},
+						["Swipe (Cat)"] = {
+							["hitmax"] = 4256,
+							["hitmin"] = 3359,
+							["criticalamount"] = 86500,
+							["id"] = 62078,
+							["count"] = 16,
+							["targets"] = {
+								["Fallen Warrior"] = {
+									["amount"] = 105124,
+								},
+							},
+							["hit"] = 5,
+							["blocked"] = 40,
+							["casts"] = 4,
+							["critical"] = 11,
+							["amount"] = 105124,
+							["school"] = 1,
+							["criticalmin"] = 6888,
+							["criticalmax"] = 9471,
+							["hitamount"] = 18624,
+						},
+						["Ferocious Bite"] = {
+							["criticalamount"] = 10292,
+							["id"] = 48577,
+							["targets"] = {
+								["Wrathbone Coldwraith"] = {
+									["amount"] = 10292,
+								},
+							},
+							["casts"] = 1,
+							["critical"] = 1,
+							["amount"] = 10292,
+							["school"] = 1,
+							["criticalmin"] = 10292,
+							["criticalmax"] = 10292,
+							["count"] = 1,
+						},
+						["Mangle (Cat)"] = {
+							["criticalamount"] = 15330,
+							["id"] = 48566,
+							["targets"] = {
+								["Wrathbone Coldwraith"] = {
+									["amount"] = 15330,
+								},
+							},
+							["casts"] = 2,
+							["critical"] = 2,
+							["amount"] = 15330,
+							["school"] = 1,
+							["criticalmin"] = 6933,
+							["criticalmax"] = 8397,
+							["count"] = 2,
+						},
+						["Rake (DoT)"] = {
+							["hitmin"] = 1451,
+							["id"] = 48574,
+							["targets"] = {
+								["Wrathbone Coldwraith"] = {
+									["amount"] = 2509,
+								},
+								["Fallen Warrior"] = {
+									["amount"] = 2902,
+								},
+							},
+							["count"] = 3,
+							["hit"] = 3,
+							["school"] = 1,
+							["hitmax"] = 2509,
+							["amount"] = 5411,
+							["hitamount"] = 5411,
+						},
+						["Melee"] = {
+							["glance"] = 3722,
+							["hitmin"] = 1150,
+							["criticalmin"] = 1638,
+							["targets"] = {
+								["Wrathbone Coldwraith"] = {
+									["amount"] = 22840,
+								},
+								["Fallen Warrior"] = {
+									["amount"] = 18234,
+								},
+							},
+							["glancing"] = 4,
+							["amount"] = 41074,
+							["glancemin"] = 715,
+							["criticalamount"] = 36202,
+							["id"] = 6603,
+							["glancemax"] = 1059,
+							["criticalmax"] = 2975,
+							["critical"] = 15,
+							["hit"] = 1,
+							["school"] = 1,
+							["hitmax"] = 1150,
+							["count"] = 20,
+							["hitamount"] = 1150,
+						},
+					},
+					["id"] = "0x07000000008B24DB",
+					["spec"] = 103,
+					["healspells"] = {
+						[34299] = {
+							["overheal"] = 2795,
+							["count"] = 4,
+							["amount"] = 0,
+							["school"] = 1,
+							["ishot"] = true,
+							["targets"] = {
+								["Zyablik"] = {
+									["overheal"] = 2795,
+									["amount"] = 0,
+								},
+							},
+						},
+					},
+					["overheal"] = 2795,
+					["totaldamage"] = 184336,
+					["heal"] = 0,
+					["name"] = "Zyablik",
+					["manaspells"] = {
+						[68285] = 1452,
+					},
+					["mana"] = 1452,
+					["energy"] = 60,
+					["role"] = "DAMAGER",
+				}, -- [4]
+				{
+					["last"] = 18659.231,
+					["flag"] = 1298,
+					["mana"] = 7066,
+					["auras"] = {
+						[20375] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 27,
+						},
+						[48470] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 27,
+						},
+						[48162] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 27,
+						},
+						[63944] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 27,
+						},
+						[20053] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["refresh"] = 11,
+							["uptime"] = 27,
+						},
+						[48074] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 27,
+						},
+						[57623] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 27,
+						},
+						[25898] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 27,
+						},
+						[48170] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 27,
+						},
+						[25899] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 27,
+						},
+						[54499] = {
+							["type"] = "DEBUFF",
+							["count"] = 3,
+							["school"] = 2,
+							["targets"] = {
+								["Wrathbone Coldwraith"] = {
+									["uptime"] = 8,
+									["count"] = 2,
+								},
+								["Fallen Warrior"] = {
+									["uptime"] = 6,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 14,
+						},
+						[71396] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["refresh"] = 14,
+							["uptime"] = 24,
+						},
+						[48819] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 2,
+							["targets"] = {
+								["Wrathbone Coldwraith"] = {
+									["uptime"] = 3,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 3,
+						},
+						[26017] = {
+							["type"] = "DEBUFF",
+							["count"] = 6,
+							["school"] = 2,
+							["refresh"] = 13,
+							["targets"] = {
+								["Wrathbone Coldwraith"] = {
+									["count"] = 2,
+									["refresh"] = 8,
+									["uptime"] = 8,
+								},
+								["Fallen Warrior"] = {
+									["count"] = 4,
+									["refresh"] = 5,
+									["uptime"] = 5,
+								},
+							},
+							["uptime"] = 13,
+						},
+						[61840] = {
+							["type"] = "DEBUFF",
+							["count"] = 4,
+							["school"] = 2,
+							["refresh"] = 5,
+							["targets"] = {
+								["Wrathbone Coldwraith"] = {
+									["count"] = 1,
+									["refresh"] = 2,
+									["uptime"] = 11,
+								},
+								["Fallen Warrior"] = {
+									["count"] = 3,
+									["refresh"] = 3,
+									["uptime"] = 6,
+								},
+							},
+							["uptime"] = 17,
+						},
+						[71187] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 8,
+							["refresh"] = 2,
+							["uptime"] = 18,
+						},
+						[59620] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 2,
+							["refresh"] = 2,
+							["uptime"] = 18,
+						},
+						[20186] = {
+							["type"] = "DEBUFF",
+							["count"] = 3,
+							["school"] = 2,
+							["targets"] = {
+								["Wrathbone Coldwraith"] = {
+									["uptime"] = 8,
+									["count"] = 2,
+								},
+								["Fallen Warrior"] = {
+									["uptime"] = 6,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 14,
+						},
+						[57669] = {
+							["school"] = 8,
+							["type"] = "BUFF",
+							["uptime"] = 22,
+						},
+						[54043] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 27,
+						},
+						[71541] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 64,
+							["uptime"] = 15,
+						},
+						[54758] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["uptime"] = 12,
+						},
+						[59578] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["refresh"] = 8,
+							["uptime"] = 24,
+						},
+						[24932] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 27,
+						},
+						[48942] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 27,
+						},
+						[72221] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 27,
+						},
+					},
+					["time"] = 22.42,
+					["damage"] = 172913,
+					["overheal"] = 2306,
+					["id"] = "0x07000000008F8756",
+					["spec"] = 70,
+					["healspells"] = {
+						[34299] = {
+							["overheal"] = 2178,
+							["count"] = 3,
+							["amount"] = 0,
+							["school"] = 1,
+							["ishot"] = true,
+							["targets"] = {
+								["Yiyuan"] = {
+									["overheal"] = 2178,
+									["amount"] = 0,
+								},
+							},
+						},
+						[54172] = {
+							["overheal"] = 128,
+							["targets"] = {
+								["Crazydqs"] = {
+									["overheal"] = 83,
+									["amount"] = 7634,
+								},
+								["Urgash"] = {
+									["overheal"] = 45,
+									["amount"] = 1239,
+								},
+							},
+							["count"] = 5,
+							["amount"] = 8873,
+							["school"] = 2,
+							["max"] = 4655,
+							["ishot"] = true,
+							["min"] = 394,
+						},
+					},
+					["overkill"] = 7255,
+					["damagespells"] = {
+						["Consecration (DoT)"] = {
+							["hitmin"] = 661,
+							["id"] = 48819,
+							["targets"] = {
+								["Wrathbone Coldwraith"] = {
+									["amount"] = 1324,
+								},
+							},
+							["count"] = 2,
+							["hit"] = 2,
+							["school"] = 2,
+							["hitmax"] = 663,
+							["amount"] = 1324,
+							["hitamount"] = 1324,
+						},
+						["Divine Storm"] = {
+							["hitmin"] = 3043,
+							["criticalamount"] = 33948,
+							["id"] = 53385,
+							["criticalmin"] = 6033,
+							["targets"] = {
+								["Wrathbone Coldwraith"] = {
+									["amount"] = 9076,
+								},
+								["Fallen Warrior"] = {
+									["amount"] = 37365,
+								},
+							},
+							["criticalmax"] = 7220,
+							["critical"] = 5,
+							["casts"] = 4,
+							["count"] = 9,
+							["hit"] = 4,
+							["school"] = 1,
+							["hitmax"] = 3181,
+							["amount"] = 46441,
+							["hitamount"] = 12493,
+						},
+						["Judgement of Command"] = {
+							["criticalamount"] = 15294,
+							["id"] = 20467,
+							["targets"] = {
+								["Wrathbone Coldwraith"] = {
+									["amount"] = 10882,
+								},
+								["Fallen Warrior"] = {
+									["amount"] = 4412,
+								},
+							},
+							["casts"] = 1,
+							["critical"] = 3,
+							["amount"] = 15294,
+							["school"] = 2,
+							["criticalmin"] = 4412,
+							["criticalmax"] = 5473,
+							["count"] = 3,
+						},
+						["Hammer of Wrath"] = {
+							["criticalamount"] = 7358,
+							["id"] = 48806,
+							["targets"] = {
+								["Wrathbone Coldwraith"] = {
+									["overkill"] = 5706,
+									["amount"] = 7358,
+								},
+							},
+							["overkill"] = 5706,
+							["casts"] = 1,
+							["critical"] = 1,
+							["amount"] = 7358,
+							["school"] = 2,
+							["criticalmin"] = 7358,
+							["criticalmax"] = 7358,
+							["count"] = 1,
+						},
+						["Crusader Strike"] = {
+							["hitmax"] = 2255,
+							["hitmin"] = 2122,
+							["criticalamount"] = 5193,
+							["id"] = 35395,
+							["count"] = 3,
+							["targets"] = {
+								["Wrathbone Coldwraith"] = {
+									["amount"] = 4377,
+								},
+								["Fallen Warrior"] = {
+									["overkill"] = 1549,
+									["amount"] = 5193,
+								},
+							},
+							["overkill"] = 1549,
+							["hit"] = 2,
+							["casts"] = 3,
+							["critical"] = 1,
+							["amount"] = 9570,
+							["school"] = 1,
+							["criticalmin"] = 5193,
+							["criticalmax"] = 5193,
+							["hitamount"] = 4377,
+						},
+						["Melee"] = {
+							["glance"] = 2402,
+							["hitmin"] = 2476,
+							["criticalmin"] = 5411,
+							["targets"] = {
+								["Wrathbone Coldwraith"] = {
+									["amount"] = 15764,
+								},
+								["Fallen Warrior"] = {
+									["amount"] = 5184,
+								},
+							},
+							["glancing"] = 1,
+							["amount"] = 20948,
+							["glancemin"] = 2402,
+							["criticalamount"] = 10886,
+							["id"] = 6603,
+							["glancemax"] = 2402,
+							["criticalmax"] = 5475,
+							["hitmax"] = 2619,
+							["hit"] = 3,
+							["school"] = 1,
+							["critical"] = 2,
+							["count"] = 6,
+							["hitamount"] = 7660,
+						},
+						["Seal of Command"] = {
+							["hitmin"] = 1521,
+							["criticalamount"] = 36024,
+							["id"] = 20424,
+							["criticalmin"] = 3192,
+							["targets"] = {
+								["Wrathbone Coldwraith"] = {
+									["amount"] = 21322,
+								},
+								["Fallen Warrior"] = {
+									["amount"] = 34940,
+								},
+							},
+							["criticalmax"] = 4099,
+							["critical"] = 10,
+							["casts"] = 1,
+							["count"] = 22,
+							["hit"] = 12,
+							["school"] = 2,
+							["hitmax"] = 2047,
+							["amount"] = 56262,
+							["hitamount"] = 20238,
+						},
+						["Righteous Vengeance (DoT)"] = {
+							["hitmin"] = 339,
+							["id"] = 61840,
+							["targets"] = {
+								["Wrathbone Coldwraith"] = {
+									["amount"] = 1986,
+								},
+								["Fallen Warrior"] = {
+									["amount"] = 1724,
+								},
+							},
+							["count"] = 7,
+							["hit"] = 7,
+							["school"] = 2,
+							["hitmax"] = 782,
+							["amount"] = 3710,
+							["hitamount"] = 3710,
+						},
+						["Holy Wrath"] = {
+							["hitmin"] = 2558,
+							["criticalamount"] = 4095,
+							["id"] = 48817,
+							["criticalmin"] = 4095,
+							["targets"] = {
+								["Fallen Warrior"] = {
+									["amount"] = 12006,
+								},
+							},
+							["criticalmax"] = 4095,
+							["critical"] = 1,
+							["casts"] = 1,
+							["count"] = 4,
+							["hit"] = 3,
+							["school"] = 2,
+							["hitmax"] = 2709,
+							["amount"] = 12006,
+							["hitamount"] = 7911,
+						},
+					},
+					["heal"] = 8873,
+					["name"] = "Yiyuan",
+					["totaldamage"] = 172913,
+					["class"] = "PALADIN",
+					["manaspells"] = {
+						[31930] = 3294,
+						[57669] = 1597,
+						[20268] = 2175,
+					},
+					["role"] = "DAMAGER",
+				}, -- [5]
+			},
+			["type"] = "party",
+			["damagetaken"] = 35968,
+			["interrupt"] = 2,
+			["etotaldamage"] = 42539,
+			["damage"] = 658682,
+			["overkill"] = 20011,
+			["edamagetaken"] = 658682,
+			["heal"] = 37316,
+			["name"] = "Fallen Warrior",
+			["mobname"] = "Fallen Warrior",
+			["starttime"] = 1689679296,
+			["edamage"] = 35968,
+			["last_action"] = 1689679323,
+			["endtime"] = 1689679323,
+		}, -- [4]
+		{
+			["type"] = "party",
+			["etotaldamage"] = 175669,
+			["mana"] = 20029,
+			["overheal"] = 31342,
+			["enemies"] = {
+				{
+					["damagespells"] = {
+						[6603] = {
+							["school"] = 1,
+							["total"] = 8558,
+							["targets"] = {
+								["Crazydqs"] = {
+									["total"] = 8653,
+									["amount"] = 5116,
+								},
+								["Urgash"] = {
+									["total"] = 13781,
+									["amount"] = 10073,
+								},
+								["Yiyuan"] = {
+									["amount"] = 3313,
+								},
+								["Zyablik"] = {
+									["amount"] = 5472,
+								},
+							},
+							["amount"] = 23974,
+						},
+						[70285] = {
+							["school"] = 8,
+							["total"] = 11408,
+							["targets"] = {
+								["Yiyuan"] = {
+									["total"] = 8924,
+									["amount"] = 6208,
+								},
+								["Zyablik"] = {
+									["total"] = 2484,
+									["amount"] = 0,
+								},
+							},
+							["amount"] = 6208,
+						},
+					},
+					["damagetaken"] = 487691,
+					["flag"] = 2632,
+					["class"] = "MONSTER",
+					["damagetakenspells"] = {
+						[47632] = {
+							["school"] = 32,
+							["sources"] = {
+								["Urgash"] = {
+									["amount"] = 4672,
+								},
+							},
+							["amount"] = 4672,
+						},
+						[20424] = {
+							["school"] = 2,
+							["sources"] = {
+								["Yiyuan"] = {
+									["amount"] = 32970,
+								},
+								["Crazydqs"] = {
+									["amount"] = 6037,
+								},
+							},
+							["amount"] = 39007,
+						},
+						[55078] = {
+							["school"] = 32,
+							["sources"] = {
+								["Urgash"] = {
+									["amount"] = 13522,
+								},
+							},
+							["amount"] = 13522,
+						},
+						[48817] = {
+							["school"] = 2,
+							["sources"] = {
+								["Yiyuan"] = {
+									["amount"] = 5327,
+								},
+							},
+							["amount"] = 5327,
+						},
+						[48819] = {
+							["school"] = 2,
+							["sources"] = {
+								["Crazydqs"] = {
+									["amount"] = 11711,
+								},
+								["Yiyuan"] = {
+									["amount"] = 7003,
+								},
+							},
+							["amount"] = 18714,
+						},
+						[50463] = {
+							["school"] = 1,
+							["sources"] = {
+								["Urgash"] = {
+									["amount"] = 2331,
+								},
+							},
+							["amount"] = 2331,
+						},
+						[50526] = {
+							["school"] = 32,
+							["sources"] = {
+								["Urgash"] = {
+									["amount"] = 26423,
+								},
+							},
+							["amount"] = 26423,
+						},
+						[70890] = {
+							["school"] = 32,
+							["sources"] = {
+								["Urgash"] = {
+									["amount"] = 4777,
+								},
+							},
+							["amount"] = 4777,
+						},
+						[55271] = {
+							["school"] = 1,
+							["sources"] = {
+								["Urgash"] = {
+									["overkill"] = 2741,
+									["amount"] = 18741,
+								},
+							},
+							["overkill"] = 2741,
+							["amount"] = 18741,
+						},
+						[51460] = {
+							["school"] = 32,
+							["sources"] = {
+								["Urgash"] = {
+									["amount"] = 2225,
+								},
+							},
+							["amount"] = 2225,
+						},
+						[48827] = {
+							["school"] = 2,
+							["sources"] = {
+								["Crazydqs"] = {
+									["amount"] = 2083,
+								},
+							},
+							["amount"] = 2083,
+						},
+						[53385] = {
+							["school"] = 1,
+							["sources"] = {
+								["Yiyuan"] = {
+									["overkill"] = 5950,
+									["amount"] = 25883,
+								},
+							},
+							["overkill"] = 5950,
+							["amount"] = 25883,
+						},
+						[6603] = {
+							["school"] = 1,
+							["sources"] = {
+								["Crazydqs"] = {
+									["amount"] = 1669,
+								},
+								["Urgash"] = {
+									["amount"] = 11130,
+								},
+								["Zyablik"] = {
+									["overkill"] = 525,
+									["amount"] = 35799,
+								},
+							},
+							["overkill"] = 525,
+							["amount"] = 48598,
+						},
+						[61411] = {
+							["school"] = 2,
+							["sources"] = {
+								["Crazydqs"] = {
+									["amount"] = 3354,
+								},
+							},
+							["amount"] = 3354,
+						},
+						[50536] = {
+							["school"] = 32,
+							["sources"] = {
+								["Urgash"] = {
+									["amount"] = 230,
+								},
+							},
+							["amount"] = 230,
+						},
+						[71904] = {
+							["school"] = 32,
+							["sources"] = {
+								["Urgash"] = {
+									["amount"] = 1260,
+								},
+							},
+							["amount"] = 1260,
+						},
+						[55095] = {
+							["school"] = 16,
+							["sources"] = {
+								["Urgash"] = {
+									["overkill"] = 1446,
+									["amount"] = 21216,
+								},
+							},
+							["overkill"] = 1446,
+							["amount"] = 21216,
+						},
+						[61840] = {
+							["school"] = 2,
+							["sources"] = {
+								["Yiyuan"] = {
+									["amount"] = 1767,
+								},
+							},
+							["amount"] = 1767,
+						},
+						[54043] = {
+							["school"] = 2,
+							["sources"] = {
+								["Crazydqs"] = {
+									["amount"] = 586,
+								},
+								["Urgash"] = {
+									["amount"] = 1304,
+								},
+								["Yiyuan"] = {
+									["amount"] = 294,
+								},
+								["Zyablik"] = {
+									["amount"] = 623,
+								},
+							},
+							["amount"] = 2807,
+						},
+						[53595] = {
+							["school"] = 2,
+							["sources"] = {
+								["Crazydqs"] = {
+									["amount"] = 10208,
+								},
+							},
+							["amount"] = 10208,
+						},
+						[62078] = {
+							["school"] = 1,
+							["sources"] = {
+								["Zyablik"] = {
+									["amount"] = 182389,
+								},
+							},
+							["amount"] = 182389,
+						},
+						[69403] = {
+							["school"] = 2,
+							["sources"] = {
+								["Yiyuan"] = {
+									["amount"] = 9942,
+								},
+								["Crazydqs"] = {
+									["amount"] = 1074,
+								},
+							},
+							["amount"] = 11016,
+						},
+						[20467] = {
+							["school"] = 2,
+							["sources"] = {
+								["Crazydqs"] = {
+									["amount"] = 1388,
+								},
+							},
+							["amount"] = 1388,
+						},
+						[67485] = {
+							["school"] = 2,
+							["sources"] = {
+								["Crazydqs"] = {
+									["amount"] = 2345,
+								},
+							},
+							["amount"] = 2345,
+						},
+						[52212] = {
+							["school"] = 32,
+							["sources"] = {
+								["Urgash"] = {
+									["amount"] = 37408,
+								},
+							},
+							["amount"] = 37408,
+						},
+					},
+					["name"] = "Ymirjar Wrathbringer",
+					["totaldamage"] = 42627,
+					["totaldamagetaken"] = 487691,
+					["id"] = "0xF130008FE800024E",
+					["damage"] = 30182,
+				}, -- [1]
+				{
+					["damagespells"] = {
+						[70281] = {
+							["school"] = 32,
+							["total"] = 4176,
+							["targets"] = {
+								["Crazydqs"] = {
+									["amount"] = 3891,
+								},
+								["Urgash"] = {
+									["amount"] = 10688,
+								},
+								["Najgora"] = {
+									["amount"] = 3816,
+								},
+								["Zyablik"] = {
+									["total"] = 9264,
+									["amount"] = 5088,
+								},
+							},
+							["amount"] = 23483,
+						},
+						[6603] = {
+							["school"] = 1,
+							["total"] = 7596,
+							["targets"] = {
+								["Crazydqs"] = {
+									["amount"] = 881,
+								},
+								["Urgash"] = {
+									["total"] = 2166,
+									["amount"] = 0,
+								},
+								["Yiyuan"] = {
+									["total"] = 7761,
+									["amount"] = 5135,
+								},
+							},
+							["amount"] = 6016,
+						},
+					},
+					["damagetaken"] = 332797,
+					["flag"] = 68168,
+					["class"] = "MONSTER",
+					["damagetakenspells"] = {
+						[62078] = {
+							["school"] = 1,
+							["sources"] = {
+								["Zyablik"] = {
+									["amount"] = 80480,
+								},
+							},
+							["amount"] = 80480,
+						},
+						[20424] = {
+							["school"] = 2,
+							["sources"] = {
+								["Crazydqs"] = {
+									["amount"] = 5906,
+								},
+								["Yiyuan"] = {
+									["overkill"] = 3197,
+									["amount"] = 25726,
+								},
+							},
+							["overkill"] = 3197,
+							["amount"] = 31632,
+						},
+						[55078] = {
+							["school"] = 32,
+							["sources"] = {
+								["Urgash"] = {
+									["amount"] = 7508,
+								},
+							},
+							["amount"] = 7508,
+						},
+						[35395] = {
+							["school"] = 1,
+							["sources"] = {
+								["Yiyuan"] = {
+									["overkill"] = 2197,
+									["amount"] = 15908,
+								},
+							},
+							["overkill"] = 2197,
+							["amount"] = 15908,
+						},
+						[48819] = {
+							["school"] = 2,
+							["sources"] = {
+								["Crazydqs"] = {
+									["amount"] = 6906,
+								},
+								["Yiyuan"] = {
+									["amount"] = 5044,
+								},
+							},
+							["amount"] = 11950,
+						},
+						[61840] = {
+							["school"] = 2,
+							["sources"] = {
+								["Yiyuan"] = {
+									["amount"] = 4646,
+								},
+							},
+							["amount"] = 4646,
+						},
+						[31804] = {
+							["school"] = 2,
+							["sources"] = {
+								["Yiyuan"] = {
+									["amount"] = 4404,
+								},
+							},
+							["amount"] = 4404,
+						},
+						[49909] = {
+							["school"] = 16,
+							["sources"] = {
+								["Urgash"] = {
+									["amount"] = 4295,
+								},
+							},
+							["amount"] = 4295,
+						},
+						[51460] = {
+							["school"] = 32,
+							["sources"] = {
+								["Urgash"] = {
+									["amount"] = 2793,
+								},
+							},
+							["amount"] = 2793,
+						},
+						[71904] = {
+							["school"] = 32,
+							["sources"] = {
+								["Urgash"] = {
+									["amount"] = 668,
+								},
+							},
+							["amount"] = 668,
+						},
+						[53385] = {
+							["school"] = 1,
+							["sources"] = {
+								["Yiyuan"] = {
+									["amount"] = 11991,
+								},
+							},
+							["amount"] = 11991,
+						},
+						[6603] = {
+							["school"] = 1,
+							["sources"] = {
+								["Crazydqs"] = {
+									["overkill"] = 373,
+									["amount"] = 2878,
+								},
+								["Urgash"] = {
+									["amount"] = 13973,
+								},
+								["Yiyuan"] = {
+									["amount"] = 38465,
+								},
+								["Zyablik"] = {
+									["amount"] = 2528,
+								},
+							},
+							["overkill"] = 373,
+							["amount"] = 57844,
+						},
+						[61411] = {
+							["school"] = 2,
+							["sources"] = {
+								["Crazydqs"] = {
+									["amount"] = 3354,
+								},
+							},
+							["amount"] = 3354,
+						},
+						[31803] = {
+							["school"] = 2,
+							["sources"] = {
+								["Crazydqs"] = {
+									["amount"] = 2225,
+								},
+								["Yiyuan"] = {
+									["amount"] = 4094,
+								},
+							},
+							["amount"] = 6319,
+						},
+						[48801] = {
+							["school"] = 2,
+							["sources"] = {
+								["Yiyuan"] = {
+									["amount"] = 5955,
+								},
+							},
+							["amount"] = 5955,
+						},
+						[52212] = {
+							["school"] = 32,
+							["sources"] = {
+								["Urgash"] = {
+									["amount"] = 21892,
+								},
+							},
+							["amount"] = 21892,
+						},
+						[50526] = {
+							["school"] = 32,
+							["sources"] = {
+								["Urgash"] = {
+									["amount"] = 12287,
+								},
+							},
+							["amount"] = 12287,
+						},
+						[54043] = {
+							["school"] = 2,
+							["sources"] = {
+								["Crazydqs"] = {
+									["amount"] = 288,
+								},
+								["Yiyuan"] = {
+									["amount"] = 620,
+								},
+							},
+							["amount"] = 908,
+						},
+						[49921] = {
+							["school"] = 1,
+							["sources"] = {
+								["Urgash"] = {
+									["amount"] = 2360,
+								},
+							},
+							["amount"] = 2360,
+						},
+						[42463] = {
+							["school"] = 2,
+							["sources"] = {
+								["Crazydqs"] = {
+									["amount"] = 595,
+								},
+								["Yiyuan"] = {
+									["amount"] = 3427,
+								},
+							},
+							["amount"] = 4022,
+						},
+						[69403] = {
+							["school"] = 2,
+							["sources"] = {
+								["Crazydqs"] = {
+									["amount"] = 768,
+								},
+								["Yiyuan"] = {
+									["amount"] = 4756,
+								},
+							},
+							["amount"] = 5524,
+						},
+						[20467] = {
+							["school"] = 2,
+							["sources"] = {
+								["Yiyuan"] = {
+									["amount"] = 15174,
+								},
+							},
+							["amount"] = 15174,
+						},
+						[53595] = {
+							["school"] = 2,
+							["sources"] = {
+								["Crazydqs"] = {
+									["amount"] = 9844,
+								},
+							},
+							["amount"] = 9844,
+						},
+						[55095] = {
+							["school"] = 16,
+							["sources"] = {
+								["Urgash"] = {
+									["amount"] = 11039,
+								},
+							},
+							["amount"] = 11039,
+						},
+					},
+					["name"] = "Ymirjar Deathbringer",
+					["totaldamage"] = 38467,
+					["totaldamagetaken"] = 332797,
+					["id"] = "0xF13000901C000245",
+					["damage"] = 29499,
+				}, -- [2]
+				{
+					["damagespells"] = {
+						[6603] = {
+							["school"] = 1,
+							["total"] = 6318,
+							["targets"] = {
+								["Urgash"] = {
+									["total"] = 5091,
+									["amount"] = 3629,
+								},
+								["Zyablik"] = {
+									["total"] = 3738,
+									["amount"] = 2040,
+								},
+							},
+							["amount"] = 5669,
+						},
+						[70284] = {
+							["school"] = 4,
+							["total"] = 20664,
+							["targets"] = {
+								["Crazydqs"] = {
+									["total"] = 12105,
+									["amount"] = 9140,
+								},
+								["Urgash"] = {
+									["total"] = 24444,
+									["amount"] = 20564,
+								},
+								["Zyablik"] = {
+									["total"] = 8125,
+									["amount"] = 6415,
+								},
+								["Yiyuan"] = {
+									["total"] = 5238,
+									["amount"] = 4787,
+								},
+								["Najgora"] = {
+									["total"] = 7320,
+									["amount"] = 1978,
+								},
+							},
+							["amount"] = 42884,
+						},
+						[70282] = {
+							["school"] = 4,
+							["total"] = 8726,
+							["targets"] = {
+								["Yiyuan"] = {
+									["total"] = 16712,
+									["amount"] = 9973,
+								},
+								["Urgash"] = {
+									["total"] = 11802,
+									["amount"] = 10329,
+								},
+							},
+							["amount"] = 20302,
+						},
+					},
+					["damagetaken"] = 457144,
+					["flag"] = 2632,
+					["class"] = "MONSTER",
+					["damagetakenspells"] = {
+						[62078] = {
+							["school"] = 1,
+							["sources"] = {
+								["Zyablik"] = {
+									["amount"] = 142563,
+								},
+							},
+							["amount"] = 142563,
+						},
+						[49930] = {
+							["school"] = 1,
+							["sources"] = {
+								["Urgash"] = {
+									["amount"] = 2711,
+								},
+							},
+							["amount"] = 2711,
+						},
+						[20424] = {
+							["school"] = 2,
+							["sources"] = {
+								["Crazydqs"] = {
+									["amount"] = 9298,
+								},
+								["Yiyuan"] = {
+									["amount"] = 24269,
+								},
+							},
+							["amount"] = 33567,
+						},
+						[55078] = {
+							["school"] = 32,
+							["sources"] = {
+								["Urgash"] = {
+									["amount"] = 11852,
+								},
+							},
+							["amount"] = 11852,
+						},
+						[48817] = {
+							["school"] = 2,
+							["sources"] = {
+								["Yiyuan"] = {
+									["amount"] = 4348,
+								},
+							},
+							["amount"] = 4348,
+						},
+						[42463] = {
+							["school"] = 2,
+							["sources"] = {
+								["Crazydqs"] = {
+									["amount"] = 200,
+								},
+							},
+							["amount"] = 200,
+						},
+						[48819] = {
+							["school"] = 2,
+							["sources"] = {
+								["Crazydqs"] = {
+									["amount"] = 9401,
+								},
+								["Yiyuan"] = {
+									["overkill"] = 372,
+									["amount"] = 2576,
+								},
+							},
+							["overkill"] = 372,
+							["amount"] = 11977,
+						},
+						[61840] = {
+							["school"] = 2,
+							["sources"] = {
+								["Yiyuan"] = {
+									["amount"] = 4122,
+								},
+							},
+							["amount"] = 4122,
+						},
+						[53595] = {
+							["school"] = 2,
+							["sources"] = {
+								["Crazydqs"] = {
+									["amount"] = 17397,
+								},
+							},
+							["amount"] = 17397,
+						},
+						[48574] = {
+							["school"] = 1,
+							["sources"] = {
+								["Zyablik"] = {
+									["amount"] = 9698,
+								},
+							},
+							["amount"] = 9698,
+						},
+						[55271] = {
+							["school"] = 1,
+							["sources"] = {
+								["Urgash"] = {
+									["amount"] = 8389,
+								},
+							},
+							["amount"] = 8389,
+						},
+						[49909] = {
+							["school"] = 16,
+							["sources"] = {
+								["Urgash"] = {
+									["amount"] = 3927,
+								},
+							},
+							["amount"] = 3927,
+						},
+						[61411] = {
+							["school"] = 2,
+							["sources"] = {
+								["Crazydqs"] = {
+									["amount"] = 3330,
+								},
+							},
+							["amount"] = 3330,
+						},
+						[48827] = {
+							["school"] = 2,
+							["sources"] = {
+								["Crazydqs"] = {
+									["amount"] = 4132,
+								},
+							},
+							["amount"] = 4132,
+						},
+						[53385] = {
+							["school"] = 1,
+							["sources"] = {
+								["Yiyuan"] = {
+									["amount"] = 22898,
+								},
+							},
+							["amount"] = 22898,
+						},
+						[6603] = {
+							["school"] = 1,
+							["sources"] = {
+								["Crazydqs"] = {
+									["amount"] = 6622,
+								},
+								["Urgash"] = {
+									["overkill"] = 3998,
+									["amount"] = 33635,
+								},
+								["Yiyuan"] = {
+									["amount"] = 4859,
+								},
+								["Zyablik"] = {
+									["amount"] = 31507,
+								},
+							},
+							["overkill"] = 3998,
+							["amount"] = 76623,
+						},
+						[70890] = {
+							["school"] = 32,
+							["sources"] = {
+								["Urgash"] = {
+									["amount"] = 4355,
+								},
+							},
+							["amount"] = 4355,
+						},
+						[71904] = {
+							["school"] = 32,
+							["sources"] = {
+								["Urgash"] = {
+									["amount"] = 2895,
+								},
+							},
+							["amount"] = 2895,
+						},
+						[52212] = {
+							["school"] = 32,
+							["sources"] = {
+								["Urgash"] = {
+									["amount"] = 20005,
+								},
+							},
+							["amount"] = 20005,
+						},
+						[51460] = {
+							["school"] = 32,
+							["sources"] = {
+								["Urgash"] = {
+									["overkill"] = 505,
+									["amount"] = 6724,
+								},
+							},
+							["overkill"] = 505,
+							["amount"] = 6724,
+						},
+						[54043] = {
+							["school"] = 2,
+							["sources"] = {
+								["Urgash"] = {
+									["amount"] = 661,
+								},
+								["Zyablik"] = {
+									["amount"] = 340,
+								},
+							},
+							["amount"] = 1001,
+						},
+						[49921] = {
+							["school"] = 1,
+							["sources"] = {
+								["Urgash"] = {
+									["amount"] = 5663,
+								},
+							},
+							["amount"] = 5663,
+						},
+						[50526] = {
+							["school"] = 32,
+							["sources"] = {
+								["Urgash"] = {
+									["amount"] = 22169,
+								},
+							},
+							["amount"] = 22169,
+						},
+						[69403] = {
+							["school"] = 2,
+							["sources"] = {
+								["Crazydqs"] = {
+									["amount"] = 1544,
+								},
+								["Yiyuan"] = {
+									["amount"] = 10136,
+								},
+							},
+							["amount"] = 11680,
+						},
+						[20467] = {
+							["school"] = 2,
+							["sources"] = {
+								["Crazydqs"] = {
+									["amount"] = 675,
+								},
+							},
+							["amount"] = 675,
+						},
+						[31803] = {
+							["school"] = 2,
+							["sources"] = {
+								["Crazydqs"] = {
+									["overkill"] = 45,
+									["amount"] = 2333,
+								},
+							},
+							["overkill"] = 45,
+							["amount"] = 2333,
+						},
+						[55095] = {
+							["school"] = 16,
+							["sources"] = {
+								["Urgash"] = {
+									["overkill"] = 464,
+									["amount"] = 21910,
+								},
+							},
+							["overkill"] = 464,
+							["amount"] = 21910,
+						},
+					},
+					["name"] = "Ymirjar Flamebearer",
+					["totaldamage"] = 94575,
+					["totaldamagetaken"] = 457144,
+					["id"] = "0xF13000901D000250",
+					["damage"] = 68855,
+				}, -- [3]
+				{
+					["id"] = "0xF130003A210000BA",
+					["name"] = "Spider",
+					["totaldamagetaken"] = 12392,
+					["flag"] = 2600,
+					["class"] = "MONSTER",
+					["damagetaken"] = 12392,
+					["damagetakenspells"] = {
+						[69403] = {
+							["school"] = 2,
+							["sources"] = {
+								["Yiyuan"] = {
+									["overkill"] = 3050,
+									["amount"] = 3059,
+								},
+							},
+							["overkill"] = 3050,
+							["amount"] = 3059,
+						},
+						[53385] = {
+							["school"] = 1,
+							["sources"] = {
+								["Yiyuan"] = {
+									["overkill"] = 9333,
+									["amount"] = 9333,
+								},
+							},
+							["overkill"] = 9333,
+							["amount"] = 9333,
+						},
+					},
+				}, -- [4]
+			},
+			["dispel"] = 8,
+			["totaldamage"] = 1290024,
+			["time"] = 45,
+			["runic"] = 10,
+			["totaldamagetaken"] = 175669,
+			["etotaldamagetaken"] = 1290024,
+			["damage"] = 1290024,
+			["starttime"] = 1689679236,
+			["absorb"] = 47133,
+			["damagetaken"] = 128536,
+			["energy"] = 60,
+			["interrupt"] = 1,
+			["ccdone"] = 9,
+			["last_time"] = 18618.249,
+			["overkill"] = 34196,
+			["edamagetaken"] = 1290024,
+			["heal"] = 114095,
+			["name"] = "Ymirjar Flamebearer",
+			["mobname"] = "Ymirjar Flamebearer",
+			["players"] = {
+				{
+					["ccdonespells"] = {
+						[49560] = {
+							["count"] = 1,
+							["targets"] = {
+								["Ymirjar Flamebearer"] = 1,
+							},
+						},
+					},
+					["last"] = 18612.934,
+					["flag"] = 1297,
+					["class"] = "DEATHKNIGHT",
+					["auras"] = {
+						[72221] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 45,
+						},
+						[73422] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 1,
+							["uptime"] = 16,
+						},
+						[54203] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 2,
+							["uptime"] = 2,
+						},
+						[55095] = {
+							["type"] = "DEBUFF",
+							["uptime"] = 31,
+							["school"] = 16,
+							["refresh"] = 4,
+							["targets"] = {
+								["Ymirjar Flamebearer"] = {
+									["count"] = 4,
+									["refresh"] = 2,
+									["uptime"] = 28,
+								},
+								["Ymirjar Wrathbringer"] = {
+									["count"] = 4,
+									["refresh"] = 2,
+									["uptime"] = 21,
+								},
+								["Ymirjar Deathbringer"] = {
+									["uptime"] = 22,
+									["count"] = 2,
+								},
+							},
+							["count"] = 10,
+						},
+						[57623] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["refresh"] = 1,
+							["uptime"] = 6,
+						},
+						[45529] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["uptime"] = 1,
+						},
+						[58578] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["refresh"] = 6,
+							["uptime"] = 43,
+						},
+						[15359] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 2,
+							["uptime"] = 23,
+						},
+						[53365] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["refresh"] = 2,
+							["uptime"] = 18,
+						},
+						[48707] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 32,
+							["uptime"] = 5,
+						},
+						[50536] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 32,
+							["targets"] = {
+								["Ymirjar Wrathbringer"] = {
+									["uptime"] = 6,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 6,
+						},
+						[51735] = {
+							["type"] = "DEBUFF",
+							["uptime"] = 31,
+							["school"] = 32,
+							["refresh"] = 6,
+							["targets"] = {
+								["Ymirjar Flamebearer"] = {
+									["count"] = 4,
+									["refresh"] = 3,
+									["uptime"] = 28,
+								},
+								["Ymirjar Wrathbringer"] = {
+									["count"] = 4,
+									["refresh"] = 2,
+									["uptime"] = 21,
+								},
+								["Ymirjar Deathbringer"] = {
+									["count"] = 2,
+									["refresh"] = 1,
+									["uptime"] = 22,
+								},
+							},
+							["count"] = 10,
+						},
+						[55078] = {
+							["type"] = "DEBUFF",
+							["count"] = 10,
+							["school"] = 32,
+							["targets"] = {
+								["Ymirjar Flamebearer"] = {
+									["uptime"] = 22,
+									["count"] = 4,
+								},
+								["Ymirjar Wrathbringer"] = {
+									["uptime"] = 17,
+									["count"] = 4,
+								},
+								["Ymirjar Deathbringer"] = {
+									["uptime"] = 17,
+									["count"] = 2,
+								},
+							},
+							["uptime"] = 24,
+						},
+						[72282] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 45,
+						},
+						[2479] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 45,
+						},
+						[24932] = {
+							["type"] = "BUFF",
+							["count"] = 3,
+							["school"] = 1,
+							["uptime"] = 45,
+						},
+						[71227] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 8,
+							["refresh"] = 2,
+							["uptime"] = 31,
+						},
+						[75456] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 64,
+							["uptime"] = 15,
+						},
+						[48111] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 2,
+							["uptime"] = 4,
+						},
+						[48934] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 45,
+						},
+						[71905] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 1,
+							["refresh"] = 12,
+							["uptime"] = 22,
+						},
+						[54043] = {
+							["type"] = "BUFF",
+							["count"] = 3,
+							["school"] = 2,
+							["uptime"] = 45,
+						},
+						[48942] = {
+							["type"] = "BUFF",
+							["count"] = 3,
+							["school"] = 2,
+							["uptime"] = 45,
+						},
+						[70657] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 1,
+							["refresh"] = 3,
+							["uptime"] = 35,
+						},
+						[48066] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 2,
+							["uptime"] = 8,
+						},
+						[47753] = {
+							["type"] = "BUFF",
+							["count"] = 3,
+							["school"] = 2,
+							["uptime"] = 12,
+						},
+						[72412] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["uptime"] = 6,
+						},
+						[66803] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 32,
+							["uptime"] = 7,
+						},
+						[48068] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 2,
+							["uptime"] = 15,
+						},
+						[63944] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["refresh"] = 1,
+							["uptime"] = 45,
+						},
+						[49938] = {
+							["type"] = "DEBUFF",
+							["count"] = 9,
+							["school"] = 32,
+							["targets"] = {
+								["Ymirjar Flamebearer"] = {
+									["uptime"] = 10,
+									["count"] = 2,
+								},
+								["Ymirjar Wrathbringer"] = {
+									["uptime"] = 20,
+									["count"] = 5,
+								},
+								["Ymirjar Deathbringer"] = {
+									["uptime"] = 20,
+									["count"] = 2,
+								},
+							},
+							["uptime"] = 20,
+						},
+						[49222] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 8,
+							["uptime"] = 11,
+						},
+						[48266] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 45,
+						},
+						[49560] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["targets"] = {
+								["Ymirjar Flamebearer"] = {
+									["uptime"] = 3,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 3,
+						},
+						[47930] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 2,
+							["refresh"] = 3,
+							["uptime"] = 11,
+						},
+					},
+					["time"] = 37.01999999999999,
+					["totaldamage"] = 366950,
+					["totaldamagetaken"] = 67972,
+					["interrupt"] = 1,
+					["damage"] = 366950,
+					["overheal"] = 150,
+					["runicspells"] = {
+						[45529] = 10,
+					},
+					["damagetaken"] = 55283,
+					["id"] = "0x070000000000D01B",
+					["spec"] = 252,
+					["healspells"] = {
+						[53365] = {
+							["overheal"] = 0,
+							["criticalamount"] = 1783,
+							["max"] = 1783,
+							["targets"] = {
+								["Urgash"] = {
+									["overheal"] = 0,
+									["amount"] = 4161,
+								},
+							},
+							["min"] = 1189,
+							["criticalmax"] = 1783,
+							["critical"] = 1,
+							["amount"] = 4161,
+							["school"] = 1,
+							["criticalmin"] = 1783,
+							["count"] = 3,
+						},
+						[34299] = {
+							["overheal"] = 0,
+							["targets"] = {
+								["Urgash"] = {
+									["overheal"] = 0,
+									["amount"] = 3170,
+								},
+							},
+							["count"] = 4,
+							["amount"] = 3170,
+							["school"] = 1,
+							["max"] = 793,
+							["ishot"] = true,
+							["min"] = 792,
+						},
+						[50475] = {
+							["overheal"] = 150,
+							["max"] = 417,
+							["count"] = 26,
+							["amount"] = 4432,
+							["school"] = 1,
+							["min"] = 1,
+							["ishot"] = true,
+							["targets"] = {
+								["Urgash"] = {
+									["overheal"] = 150,
+									["amount"] = 4432,
+								},
+							},
+						},
+					},
+					["damagetakenspells"] = {
+						["Fireball"] = {
+							["hitmin"] = 6564,
+							["id"] = 70282,
+							["sources"] = {
+								["Ymirjar Flamebearer"] = {
+									["amount"] = 6564,
+								},
+							},
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 4,
+							["hitmax"] = 6564,
+							["amount"] = 6564,
+							["hitamount"] = 6564,
+						},
+						["Hellfire Effect"] = {
+							["total"] = 24444,
+							["hitmin"] = 1552,
+							["id"] = 70284,
+							["ABSORB"] = 2,
+							["sources"] = {
+								["Ymirjar Flamebearer"] = {
+									["total"] = 24444,
+									["amount"] = 20564,
+								},
+							},
+							["count"] = 13,
+							["hit"] = 11,
+							["school"] = 4,
+							["hitmax"] = 1940,
+							["amount"] = 20564,
+							["hitamount"] = 20564,
+						},
+						["Empowered Shadow Bolt"] = {
+							["hitmin"] = 4970,
+							["id"] = 70281,
+							["hitmax"] = 5718,
+							["sources"] = {
+								["Ymirjar Deathbringer"] = {
+									["amount"] = 10688,
+								},
+							},
+							["count"] = 2,
+							["hit"] = 2,
+							["school"] = 32,
+							["resisted"] = 1877,
+							["amount"] = 10688,
+							["hitamount"] = 10688,
+						},
+						["Fireball (DoT)"] = {
+							["total"] = 5238,
+							["hitmin"] = 273,
+							["id"] = 70282,
+							["sources"] = {
+								["Ymirjar Flamebearer"] = {
+									["total"] = 5238,
+									["amount"] = 3765,
+								},
+							},
+							["count"] = 3,
+							["hit"] = 3,
+							["school"] = 4,
+							["hitmax"] = 1746,
+							["amount"] = 3765,
+							["hitamount"] = 3765,
+						},
+						["Melee"] = {
+							["DODGE"] = 1,
+							["total"] = 21038,
+							["hitmin"] = 1118,
+							["id"] = 6603,
+							["amount"] = 13702,
+							["ABSORB"] = 2,
+							["PARRY"] = 5,
+							["sources"] = {
+								["Ymirjar Flamebearer"] = {
+									["total"] = 5091,
+									["amount"] = 3629,
+								},
+								["Ymirjar Wrathbringer"] = {
+									["total"] = 13781,
+									["amount"] = 10073,
+								},
+								["Ymirjar Deathbringer"] = {
+									["total"] = 2166,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 15,
+							["hit"] = 6,
+							["school"] = 1,
+							["hitmax"] = 3259,
+							["MISS"] = 1,
+							["hitamount"] = 13702,
+						},
+					},
+					["overkill"] = 9154,
+					["heal"] = 11763,
+					["name"] = "Urgash",
+					["ccdone"] = 1,
+					["runic"] = 10,
+					["damagespells"] = {
+						["Blood Strike"] = {
+							["hitmin"] = 2711,
+							["id"] = 49930,
+							["targets"] = {
+								["Ymirjar Flamebearer"] = {
+									["amount"] = 2711,
+								},
+							},
+							["casts"] = 1,
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 1,
+							["hitmax"] = 2711,
+							["amount"] = 2711,
+							["hitamount"] = 2711,
+						},
+						["Scourge Strike"] = {
+							["hitmax"] = 4452,
+							["hitmin"] = 3937,
+							["criticalamount"] = 18741,
+							["id"] = 55271,
+							["count"] = 4,
+							["targets"] = {
+								["Ymirjar Flamebearer"] = {
+									["amount"] = 8389,
+								},
+								["Ymirjar Wrathbringer"] = {
+									["overkill"] = 2741,
+									["amount"] = 18741,
+								},
+							},
+							["overkill"] = 2741,
+							["hit"] = 2,
+							["casts"] = 4,
+							["critical"] = 2,
+							["amount"] = 27130,
+							["school"] = 1,
+							["criticalmin"] = 9346,
+							["criticalmax"] = 9395,
+							["hitamount"] = 8389,
+						},
+						["Melee"] = {
+							["DODGE"] = 1,
+							["criticalmin"] = 6981,
+							["hitmin"] = 3213,
+							["criticalamount"] = 37172,
+							["id"] = 6603,
+							["blocked"] = 40,
+							["targets"] = {
+								["Ymirjar Flamebearer"] = {
+									["overkill"] = 3998,
+									["amount"] = 33635,
+								},
+								["Ymirjar Wrathbringer"] = {
+									["amount"] = 11130,
+								},
+								["Ymirjar Deathbringer"] = {
+									["amount"] = 13973,
+								},
+							},
+							["overkill"] = 3998,
+							["critical"] = 5,
+							["criticalmax"] = 7768,
+							["count"] = 12,
+							["hit"] = 6,
+							["school"] = 1,
+							["hitmax"] = 3998,
+							["amount"] = 58738,
+							["hitamount"] = 21566,
+						},
+						["Death and Decay"] = {
+							["hitmin"] = 664,
+							["criticalamount"] = 37416,
+							["id"] = 52212,
+							["criticalmin"] = 1388,
+							["targets"] = {
+								["Ymirjar Flamebearer"] = {
+									["amount"] = 20005,
+								},
+								["Ymirjar Wrathbringer"] = {
+									["amount"] = 37408,
+								},
+								["Ymirjar Deathbringer"] = {
+									["amount"] = 21892,
+								},
+							},
+							["criticalmax"] = 1813,
+							["critical"] = 24,
+							["casts"] = 2,
+							["count"] = 79,
+							["hit"] = 55,
+							["school"] = 32,
+							["hitmax"] = 867,
+							["amount"] = 79305,
+							["hitamount"] = 41889,
+						},
+						["Icy Touch"] = {
+							["criticalamount"] = 8222,
+							["id"] = 49909,
+							["targets"] = {
+								["Ymirjar Flamebearer"] = {
+									["amount"] = 3927,
+								},
+								["Ymirjar Deathbringer"] = {
+									["amount"] = 4295,
+								},
+							},
+							["casts"] = 2,
+							["critical"] = 2,
+							["amount"] = 8222,
+							["school"] = 16,
+							["criticalmin"] = 3927,
+							["criticalmax"] = 4295,
+							["count"] = 2,
+						},
+						["Unholy Blight (DoT)"] = {
+							["hitmin"] = 46,
+							["id"] = 50536,
+							["targets"] = {
+								["Ymirjar Wrathbringer"] = {
+									["amount"] = 230,
+								},
+							},
+							["count"] = 5,
+							["hit"] = 5,
+							["school"] = 32,
+							["hitmax"] = 46,
+							["amount"] = 230,
+							["hitamount"] = 230,
+						},
+						["Wandering Plague"] = {
+							["hitmin"] = 1405,
+							["id"] = 50526,
+							["targets"] = {
+								["Ymirjar Flamebearer"] = {
+									["amount"] = 22169,
+								},
+								["Ymirjar Wrathbringer"] = {
+									["amount"] = 26423,
+								},
+								["Ymirjar Deathbringer"] = {
+									["amount"] = 12287,
+								},
+							},
+							["casts"] = 1,
+							["count"] = 39,
+							["hit"] = 39,
+							["school"] = 32,
+							["hitmax"] = 1846,
+							["amount"] = 60879,
+							["hitamount"] = 60879,
+						},
+						["Chaos Bane"] = {
+							["hitmin"] = 607,
+							["id"] = 71904,
+							["targets"] = {
+								["Ymirjar Flamebearer"] = {
+									["amount"] = 2895,
+								},
+								["Ymirjar Wrathbringer"] = {
+									["amount"] = 1260,
+								},
+								["Ymirjar Deathbringer"] = {
+									["amount"] = 668,
+								},
+							},
+							["casts"] = 1,
+							["count"] = 6,
+							["hit"] = 6,
+							["school"] = 32,
+							["hitmax"] = 1640,
+							["amount"] = 4823,
+							["hitamount"] = 4823,
+						},
+						["Blood-Caked Strike"] = {
+							["hitmin"] = 2331,
+							["id"] = 50463,
+							["targets"] = {
+								["Ymirjar Wrathbringer"] = {
+									["amount"] = 2331,
+								},
+							},
+							["blocked"] = 40,
+							["casts"] = 1,
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 1,
+							["hitmax"] = 2331,
+							["amount"] = 2331,
+							["hitamount"] = 2331,
+						},
+						["Necrosis"] = {
+							["hitmin"] = 642,
+							["id"] = 51460,
+							["targets"] = {
+								["Ymirjar Flamebearer"] = {
+									["overkill"] = 505,
+									["amount"] = 6724,
+								},
+								["Ymirjar Wrathbringer"] = {
+									["amount"] = 2225,
+								},
+								["Ymirjar Deathbringer"] = {
+									["amount"] = 2793,
+								},
+							},
+							["overkill"] = 505,
+							["casts"] = 1,
+							["count"] = 11,
+							["hit"] = 11,
+							["school"] = 32,
+							["hitmax"] = 1553,
+							["amount"] = 11742,
+							["hitamount"] = 11742,
+						},
+						["Blood Plague (DoT)"] = {
+							["hitmin"] = 1415,
+							["id"] = 55078,
+							["targets"] = {
+								["Ymirjar Flamebearer"] = {
+									["amount"] = 11852,
+								},
+								["Ymirjar Wrathbringer"] = {
+									["amount"] = 13522,
+								},
+								["Ymirjar Deathbringer"] = {
+									["amount"] = 7508,
+								},
+							},
+							["count"] = 22,
+							["hit"] = 22,
+							["school"] = 32,
+							["hitmax"] = 1545,
+							["amount"] = 32882,
+							["hitamount"] = 32882,
+						},
+						["Scourge Strike (Shadow)"] = {
+							["hitmin"] = 2001,
+							["id"] = 70890,
+							["targets"] = {
+								["Ymirjar Flamebearer"] = {
+									["amount"] = 4355,
+								},
+								["Ymirjar Wrathbringer"] = {
+									["amount"] = 4777,
+								},
+							},
+							["casts"] = 1,
+							["count"] = 3,
+							["hit"] = 3,
+							["school"] = 32,
+							["hitmax"] = 4777,
+							["amount"] = 9132,
+							["hitamount"] = 9132,
+						},
+						["Death Coil"] = {
+							["hitmin"] = 4672,
+							["id"] = 47632,
+							["targets"] = {
+								["Ymirjar Wrathbringer"] = {
+									["amount"] = 4672,
+								},
+							},
+							["casts"] = 1,
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 32,
+							["hitmax"] = 4672,
+							["amount"] = 4672,
+							["hitamount"] = 4672,
+						},
+						["Plague Strike"] = {
+							["DODGE"] = 1,
+							["criticalmin"] = 5663,
+							["hitmin"] = 2360,
+							["criticalamount"] = 5663,
+							["id"] = 49921,
+							["criticalmax"] = 5663,
+							["targets"] = {
+								["Ymirjar Flamebearer"] = {
+									["amount"] = 5663,
+								},
+								["Ymirjar Deathbringer"] = {
+									["amount"] = 2360,
+								},
+							},
+							["critical"] = 1,
+							["blocked"] = 40,
+							["casts"] = 3,
+							["count"] = 3,
+							["hit"] = 1,
+							["school"] = 1,
+							["hitmax"] = 2360,
+							["amount"] = 8023,
+							["hitamount"] = 2360,
+						},
+						["Frost Fever (DoT)"] = {
+							["hitmin"] = 1522,
+							["id"] = 55095,
+							["targets"] = {
+								["Ymirjar Flamebearer"] = {
+									["overkill"] = 464,
+									["amount"] = 21910,
+								},
+								["Ymirjar Wrathbringer"] = {
+									["overkill"] = 1446,
+									["amount"] = 21216,
+								},
+								["Ymirjar Deathbringer"] = {
+									["amount"] = 11039,
+								},
+							},
+							["overkill"] = 1910,
+							["count"] = 29,
+							["hit"] = 29,
+							["school"] = 16,
+							["hitmax"] = 2022,
+							["amount"] = 54165,
+							["hitamount"] = 54165,
+						},
+						["Retribution Aura"] = {
+							["hitmin"] = 281,
+							["id"] = 54043,
+							["targets"] = {
+								["Ymirjar Flamebearer"] = {
+									["amount"] = 661,
+								},
+								["Ymirjar Wrathbringer"] = {
+									["amount"] = 1304,
+								},
+							},
+							["casts"] = 1,
+							["count"] = 6,
+							["hit"] = 6,
+							["school"] = 2,
+							["hitmax"] = 342,
+							["amount"] = 1965,
+							["hitamount"] = 1965,
+						},
+					},
+					["interruptspells"] = {
+						[47528] = {
+							["spells"] = {
+								[70282] = 1,
+							},
+							["count"] = 1,
+							["targets"] = {
+								["Ymirjar Flamebearer"] = 1,
+							},
+						},
+					},
+					["role"] = "DAMAGER",
+				}, -- [1]
+				{
+					["ccdonespells"] = {
+						[10308] = {
+							["count"] = 1,
+							["targets"] = {
+								["Ymirjar Flamebearer"] = 1,
+							},
+						},
+					},
+					["last"] = 18612.675,
+					["flag"] = 1298,
+					["mana"] = 6482,
+					["auras"] = {
+						[25780] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 45,
+						},
+						[48470] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 45,
+						},
+						[63529] = {
+							["type"] = "DEBUFF",
+							["count"] = 3,
+							["school"] = 1,
+							["refresh"] = 1,
+							["targets"] = {
+								["Ymirjar Flamebearer"] = {
+									["count"] = 2,
+									["refresh"] = 1,
+									["uptime"] = 3,
+								},
+								["Ymirjar Wrathbringer"] = {
+									["uptime"] = 2,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 3,
+						},
+						[20375] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 2,
+							["uptime"] = 39,
+						},
+						[48819] = {
+							["type"] = "DEBUFF",
+							["count"] = 12,
+							["school"] = 2,
+							["targets"] = {
+								["Ymirjar Flamebearer"] = {
+									["uptime"] = 19,
+									["count"] = 4,
+								},
+								["Ymirjar Wrathbringer"] = {
+									["uptime"] = 18,
+									["count"] = 5,
+								},
+								["Ymirjar Deathbringer"] = {
+									["uptime"] = 19,
+									["count"] = 3,
+								},
+							},
+							["uptime"] = 20,
+						},
+						[54428] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 2,
+							["refresh"] = 17,
+							["uptime"] = 35,
+						},
+						[552] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 2,
+							["uptime"] = 24,
+						},
+						[48827] = {
+							["type"] = "DEBUFF",
+							["count"] = 3,
+							["school"] = 2,
+							["targets"] = {
+								["Ymirjar Flamebearer"] = {
+									["uptime"] = 7,
+									["count"] = 2,
+								},
+								["Ymirjar Wrathbringer"] = {
+									["uptime"] = 2,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 7,
+						},
+						[54499] = {
+							["type"] = "DEBUFF",
+							["count"] = 2,
+							["school"] = 2,
+							["targets"] = {
+								["Ymirjar Flamebearer"] = {
+									["uptime"] = 10,
+									["count"] = 1,
+								},
+								["Ymirjar Wrathbringer"] = {
+									["uptime"] = 4,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 14,
+						},
+						[62124] = {
+							["type"] = "DEBUFF",
+							["count"] = 2,
+							["school"] = 2,
+							["targets"] = {
+								["Ymirjar Flamebearer"] = {
+									["uptime"] = 3,
+									["count"] = 1,
+								},
+								["Ymirjar Wrathbringer"] = {
+									["uptime"] = 3,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 6,
+						},
+						[57669] = {
+							["school"] = 8,
+							["type"] = "BUFF",
+							["uptime"] = 42,
+						},
+						[31801] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 6,
+						},
+						[48162] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 45,
+						},
+						[31803] = {
+							["type"] = "DEBUFF",
+							["uptime"] = 13,
+							["school"] = 2,
+							["refresh"] = 4,
+							["targets"] = {
+								["Ymirjar Flamebearer"] = {
+									["count"] = 2,
+									["refresh"] = 2,
+									["uptime"] = 13,
+								},
+							},
+							["count"] = 2,
+						},
+						[48170] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 45,
+						},
+						[48111] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 2,
+						},
+						[47930] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 2,
+							["uptime"] = 1,
+						},
+						[26017] = {
+							["type"] = "DEBUFF",
+							["uptime"] = 24,
+							["school"] = 2,
+							["refresh"] = 7,
+							["targets"] = {
+								["Ymirjar Flamebearer"] = {
+									["count"] = 3,
+									["refresh"] = 5,
+									["uptime"] = 18,
+								},
+								["Ymirjar Wrathbringer"] = {
+									["count"] = 1,
+									["refresh"] = 1,
+									["uptime"] = 8,
+								},
+								["Ymirjar Deathbringer"] = {
+									["count"] = 2,
+									["refresh"] = 1,
+									["uptime"] = 5,
+								},
+							},
+							["count"] = 6,
+						},
+						[48942] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 45,
+						},
+						[24932] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 45,
+						},
+						[48068] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 2,
+							["uptime"] = 15,
+						},
+						[48066] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 2,
+							["uptime"] = 13,
+						},
+						[47753] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 2,
+							["uptime"] = 4,
+						},
+						[20007] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["refresh"] = 1,
+							["uptime"] = 18,
+						},
+						[25898] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 45,
+						},
+						[48074] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 45,
+						},
+						[63944] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["refresh"] = 1,
+							["uptime"] = 45,
+						},
+						[25899] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 45,
+						},
+						[71197] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 8,
+							["refresh"] = 1,
+							["uptime"] = 30,
+						},
+						[20186] = {
+							["type"] = "DEBUFF",
+							["count"] = 2,
+							["school"] = 2,
+							["targets"] = {
+								["Ymirjar Flamebearer"] = {
+									["uptime"] = 10,
+									["count"] = 1,
+								},
+								["Ymirjar Wrathbringer"] = {
+									["uptime"] = 4,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 14,
+						},
+						[68055] = {
+							["type"] = "DEBUFF",
+							["count"] = 2,
+							["school"] = 2,
+							["targets"] = {
+								["Ymirjar Flamebearer"] = {
+									["uptime"] = 1,
+									["count"] = 1,
+								},
+								["Ymirjar Wrathbringer"] = {
+									["uptime"] = 3,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 4,
+						},
+						[10308] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 2,
+							["targets"] = {
+								["Ymirjar Flamebearer"] = {
+									["uptime"] = 3,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 3,
+						},
+						[54043] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 45,
+						},
+					},
+					["dispel"] = 1,
+					["role"] = "TANK",
+					["time"] = 37.31,
+					["totaldamagetaken"] = 25530,
+					["overkill"] = 418,
+					["damage"] = 128151,
+					["damagespells"] = {
+						["Consecration (DoT)"] = {
+							["hitmin"] = 338,
+							["id"] = 48819,
+							["targets"] = {
+								["Ymirjar Flamebearer"] = {
+									["amount"] = 9401,
+								},
+								["Ymirjar Wrathbringer"] = {
+									["amount"] = 11711,
+								},
+								["Ymirjar Deathbringer"] = {
+									["amount"] = 6906,
+								},
+							},
+							["casts"] = 3,
+							["count"] = 74,
+							["hit"] = 74,
+							["school"] = 2,
+							["hitmax"] = 385,
+							["amount"] = 28018,
+							["hitamount"] = 28018,
+						},
+						["Melee"] = {
+							["glance"] = 1721,
+							["hitmin"] = 505,
+							["criticalmin"] = 1050,
+							["targets"] = {
+								["Ymirjar Flamebearer"] = {
+									["amount"] = 6622,
+								},
+								["Ymirjar Wrathbringer"] = {
+									["amount"] = 1669,
+								},
+								["Ymirjar Deathbringer"] = {
+									["overkill"] = 373,
+									["amount"] = 2878,
+								},
+							},
+							["glancing"] = 3,
+							["amount"] = 11169,
+							["glancemin"] = 524,
+							["criticalamount"] = 5614,
+							["id"] = 6603,
+							["glancemax"] = 609,
+							["overkill"] = 373,
+							["criticalmax"] = 1234,
+							["hitmax"] = 603,
+							["hit"] = 7,
+							["school"] = 1,
+							["critical"] = 5,
+							["count"] = 15,
+							["hitamount"] = 3834,
+						},
+						["Holy Vengeance (DoT)"] = {
+							["hitmin"] = 123,
+							["id"] = 31803,
+							["targets"] = {
+								["Ymirjar Flamebearer"] = {
+									["overkill"] = 45,
+									["amount"] = 2333,
+								},
+								["Ymirjar Deathbringer"] = {
+									["amount"] = 2225,
+								},
+							},
+							["overkill"] = 45,
+							["count"] = 13,
+							["hit"] = 13,
+							["school"] = 2,
+							["hitmax"] = 557,
+							["amount"] = 4558,
+							["hitamount"] = 4558,
+						},
+						["Hand of Reckoning"] = {
+							["hitmin"] = 2345,
+							["id"] = 67485,
+							["targets"] = {
+								["Ymirjar Wrathbringer"] = {
+									["amount"] = 2345,
+								},
+							},
+							["casts"] = 2,
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 2,
+							["hitmax"] = 2345,
+							["amount"] = 2345,
+							["hitamount"] = 2345,
+						},
+						["Avenger's Shield"] = {
+							["hitmin"] = 2026,
+							["id"] = 48827,
+							["targets"] = {
+								["Ymirjar Flamebearer"] = {
+									["amount"] = 4132,
+								},
+								["Ymirjar Wrathbringer"] = {
+									["amount"] = 2083,
+								},
+							},
+							["casts"] = 1,
+							["count"] = 3,
+							["hit"] = 3,
+							["school"] = 2,
+							["hitmax"] = 2106,
+							["amount"] = 6215,
+							["hitamount"] = 6215,
+						},
+						["Hammer of the Righteous"] = {
+							["hitmin"] = 2311,
+							["criticalamount"] = 15106,
+							["id"] = 53595,
+							["criticalmin"] = 4620,
+							["targets"] = {
+								["Ymirjar Flamebearer"] = {
+									["amount"] = 17397,
+								},
+								["Ymirjar Wrathbringer"] = {
+									["amount"] = 10208,
+								},
+								["Ymirjar Deathbringer"] = {
+									["amount"] = 9844,
+								},
+							},
+							["criticalmax"] = 5264,
+							["critical"] = 3,
+							["casts"] = 4,
+							["count"] = 12,
+							["hit"] = 9,
+							["school"] = 2,
+							["hitmax"] = 2633,
+							["amount"] = 37449,
+							["hitamount"] = 22343,
+						},
+						["Retribution Aura"] = {
+							["hitmin"] = 288,
+							["id"] = 54043,
+							["targets"] = {
+								["Ymirjar Wrathbringer"] = {
+									["amount"] = 586,
+								},
+								["Ymirjar Deathbringer"] = {
+									["amount"] = 288,
+								},
+							},
+							["casts"] = 1,
+							["count"] = 3,
+							["hit"] = 3,
+							["school"] = 2,
+							["hitmax"] = 295,
+							["amount"] = 874,
+							["hitamount"] = 874,
+						},
+						["Judgement of Command"] = {
+							["hitmin"] = 675,
+							["criticalamount"] = 1388,
+							["id"] = 20467,
+							["criticalmin"] = 1388,
+							["targets"] = {
+								["Ymirjar Flamebearer"] = {
+									["amount"] = 675,
+								},
+								["Ymirjar Wrathbringer"] = {
+									["amount"] = 1388,
+								},
+							},
+							["criticalmax"] = 1388,
+							["critical"] = 1,
+							["casts"] = 1,
+							["count"] = 2,
+							["hit"] = 1,
+							["school"] = 2,
+							["hitmax"] = 675,
+							["amount"] = 2063,
+							["hitamount"] = 675,
+						},
+						["Seal of Command"] = {
+							["blocked"] = 160,
+							["hitmin"] = 299,
+							["criticalamount"] = 6628,
+							["id"] = 20424,
+							["criticalmin"] = 660,
+							["targets"] = {
+								["Ymirjar Flamebearer"] = {
+									["amount"] = 10842,
+								},
+								["Ymirjar Wrathbringer"] = {
+									["amount"] = 7111,
+								},
+								["Ymirjar Deathbringer"] = {
+									["amount"] = 6674,
+								},
+							},
+							["criticalmax"] = 852,
+							["critical"] = 9,
+							["casts"] = 1,
+							["count"] = 57,
+							["hit"] = 48,
+							["school"] = 2,
+							["hitmax"] = 427,
+							["amount"] = 24627,
+							["hitamount"] = 17999,
+						},
+						["Shield of Righteousness"] = {
+							["hitmin"] = 3330,
+							["id"] = 61411,
+							["targets"] = {
+								["Ymirjar Flamebearer"] = {
+									["amount"] = 3330,
+								},
+								["Ymirjar Wrathbringer"] = {
+									["amount"] = 3354,
+								},
+								["Ymirjar Deathbringer"] = {
+									["amount"] = 3354,
+								},
+							},
+							["casts"] = 3,
+							["count"] = 3,
+							["hit"] = 3,
+							["school"] = 2,
+							["hitmax"] = 3354,
+							["amount"] = 10038,
+							["hitamount"] = 10038,
+						},
+						["Seal of Vengeance"] = {
+							["blocked"] = 40,
+							["hitmin"] = 55,
+							["criticalamount"] = 404,
+							["id"] = 42463,
+							["criticalmin"] = 404,
+							["targets"] = {
+								["Ymirjar Flamebearer"] = {
+									["amount"] = 200,
+								},
+								["Ymirjar Deathbringer"] = {
+									["amount"] = 595,
+								},
+							},
+							["criticalmax"] = 404,
+							["critical"] = 1,
+							["casts"] = 1,
+							["count"] = 5,
+							["hit"] = 4,
+							["school"] = 2,
+							["hitmax"] = 145,
+							["amount"] = 795,
+							["hitamount"] = 391,
+						},
+					},
+					["damagetaken"] = 19028,
+					["id"] = "0x070000000095DC85",
+					["spec"] = 66,
+					["healspells"] = {
+						[34299] = {
+							["overheal"] = 1516,
+							["max"] = 758,
+							["count"] = 4,
+							["amount"] = 1516,
+							["school"] = 1,
+							["min"] = 758,
+							["ishot"] = true,
+							["targets"] = {
+								["Crazydqs"] = {
+									["overheal"] = 1516,
+									["amount"] = 1516,
+								},
+							},
+						},
+						[20007] = {
+							["overheal"] = 0,
+							["count"] = 2,
+							["amount"] = 45,
+							["school"] = 1,
+							["max"] = 24,
+							["targets"] = {
+								["Crazydqs"] = {
+									["overheal"] = 0,
+									["amount"] = 45,
+								},
+							},
+							["min"] = 21,
+						},
+					},
+					["damagetakenspells"] = {
+						["Melee"] = {
+							["DODGE"] = 6,
+							["total"] = 9534,
+							["hitmin"] = 881,
+							["id"] = 6603,
+							["blocked"] = 1932,
+							["hitmax"] = 2786,
+							["amount"] = 5997,
+							["sources"] = {
+								["Ymirjar Flamebearer"] = {
+									["amount"] = 0,
+								},
+								["Ymirjar Wrathbringer"] = {
+									["total"] = 8653,
+									["amount"] = 5116,
+								},
+								["Ymirjar Deathbringer"] = {
+									["amount"] = 881,
+								},
+							},
+							["count"] = 12,
+							["ABSORB"] = 2,
+							["school"] = 1,
+							["hit"] = 3,
+							["PARRY"] = 1,
+							["hitamount"] = 5997,
+						},
+						["Hellfire Effect"] = {
+							["total"] = 12105,
+							["hitmin"] = 131,
+							["id"] = 70284,
+							["amount"] = 9140,
+							["hitmax"] = 1422,
+							["sources"] = {
+								["Ymirjar Flamebearer"] = {
+									["total"] = 12105,
+									["amount"] = 9140,
+								},
+							},
+							["count"] = 9,
+							["ABSORB"] = 1,
+							["school"] = 4,
+							["resisted"] = 2216,
+							["hit"] = 8,
+							["hitamount"] = 9140,
+						},
+						["Empowered Shadow Bolt"] = {
+							["hitmin"] = 3891,
+							["id"] = 70281,
+							["hitmax"] = 3891,
+							["sources"] = {
+								["Ymirjar Deathbringer"] = {
+									["amount"] = 3891,
+								},
+							},
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 32,
+							["resisted"] = 432,
+							["amount"] = 3891,
+							["hitamount"] = 3891,
+						},
+					},
+					["overheal"] = 1516,
+					["heal"] = 1561,
+					["name"] = "Crazydqs",
+					["ccdone"] = 1,
+					["totaldamage"] = 128151,
+					["class"] = "PALADIN",
+					["dispelspells"] = {
+						[10872] = {
+							["spells"] = {
+								[70285] = 1,
+							},
+							["count"] = 1,
+							["targets"] = {
+								["Crazydqs"] = 1,
+							},
+						},
+					},
+					["manaspells"] = {
+						[31786] = 449,
+						[54428] = 3696,
+						[20268] = 1131,
+						[57319] = 1206,
+					},
+				}, -- [2]
+				{
+					["last"] = 18616.583,
+					["flag"] = 1298,
+					["class"] = "PRIEST",
+					["auras"] = {
+						[54043] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 45,
+						},
+						[48066] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 2,
+							["uptime"] = 24,
+						},
+						[63944] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["refresh"] = 1,
+							["uptime"] = 45,
+						},
+						[47753] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 2,
+							["uptime"] = 12,
+						},
+						[48942] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 45,
+						},
+						[48938] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 45,
+						},
+						[57669] = {
+							["school"] = 8,
+							["type"] = "BUFF",
+							["uptime"] = 42,
+						},
+						[25898] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 45,
+						},
+						[6788] = {
+							["type"] = "DEBUFF",
+							["count"] = 8,
+							["school"] = 2,
+							["targets"] = {
+								["Crazydqs"] = {
+									["uptime"] = 11,
+									["count"] = 1,
+								},
+								["Urgash"] = {
+									["uptime"] = 29,
+									["count"] = 2,
+								},
+								["Zyablik"] = {
+									["uptime"] = 25,
+									["count"] = 2,
+								},
+								["Yiyuan"] = {
+									["uptime"] = 28,
+									["count"] = 2,
+								},
+								["Najgora"] = {
+									["uptime"] = 31,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 31,
+						},
+						[24932] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 45,
+						},
+						[48168] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 45,
+						},
+						[59891] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["refresh"] = 7,
+							["school"] = 2,
+							["uptime"] = 16,
+						},
+						[48074] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 45,
+						},
+						[48162] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 45,
+						},
+						[48170] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 45,
+						},
+						[48470] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 45,
+						},
+					},
+					["absorbspells"] = {
+						[48066] = {
+							["min"] = 146,
+							["casts"] = 9,
+							["count"] = 20,
+							["amount"] = 40531,
+							["max"] = 5342,
+							["targets"] = {
+								["Crazydqs"] = 5995,
+								["Urgash"] = 10684,
+								["Zyablik"] = 7826,
+								["Yiyuan"] = 10684,
+								["Najgora"] = 5342,
+							},
+							["school"] = 2,
+						},
+						[47753] = {
+							["min"] = 451,
+							["casts"] = 8,
+							["count"] = 8,
+							["amount"] = 6602,
+							["school"] = 2,
+							["targets"] = {
+								["Crazydqs"] = 507,
+								["Urgash"] = 2005,
+								["Yiyuan"] = 1848,
+								["Zyablik"] = 2242,
+							},
+							["max"] = 1473,
+						},
+					},
+					["time"] = 43.12000000000001,
+					["totaldamagetaken"] = 11136,
+					["overheal"] = 26518,
+					["absorb"] = 47133,
+					["damagetaken"] = 5794,
+					["id"] = "0x070000000096F606",
+					["spec"] = 256,
+					["healspells"] = {
+						[33110] = {
+							["overheal"] = 2649,
+							["count"] = 1,
+							["amount"] = 131,
+							["school"] = 2,
+							["max"] = 131,
+							["targets"] = {
+								["Crazydqs"] = {
+									["overheal"] = 2649,
+									["amount"] = 131,
+								},
+							},
+							["min"] = 131,
+						},
+						[48071] = {
+							["overheal"] = 5765,
+							["criticalamount"] = 18114,
+							["max"] = 6160,
+							["targets"] = {
+								["Crazydqs"] = {
+									["overheal"] = 0,
+									["amount"] = 3770,
+								},
+								["Urgash"] = {
+									["overheal"] = 0,
+									["amount"] = 9869,
+								},
+								["Yiyuan"] = {
+									["overheal"] = 0,
+									["amount"] = 13949,
+								},
+								["Zyablik"] = {
+									["overheal"] = 5765,
+									["amount"] = 5897,
+								},
+							},
+							["criticalmin"] = 2440,
+							["min"] = 2440,
+							["casts"] = 8,
+							["count"] = 8,
+							["amount"] = 33485,
+							["school"] = 2,
+							["criticalmax"] = 6160,
+							["critical"] = 4,
+						},
+						[48068] = {
+							["overheal"] = 7030,
+							["max"] = 1209,
+							["targets"] = {
+								["Crazydqs"] = {
+									["overheal"] = 5285,
+									["amount"] = 0,
+								},
+								["Urgash"] = {
+									["overheal"] = 409,
+									["amount"] = 5273,
+								},
+								["Zyablik"] = {
+									["overheal"] = 1336,
+									["amount"] = 4280,
+								},
+							},
+							["min"] = 701,
+							["casts"] = 4,
+							["count"] = 15,
+							["amount"] = 9553,
+							["school"] = 2,
+							["ishot"] = true,
+						},
+						[52985] = {
+							["overheal"] = 0,
+							["criticalamount"] = 4911,
+							["max"] = 4911,
+							["targets"] = {
+								["Urgash"] = {
+									["overheal"] = 0,
+									["amount"] = 11370,
+								},
+							},
+							["criticalmin"] = 4911,
+							["min"] = 3163,
+							["casts"] = 3,
+							["count"] = 3,
+							["amount"] = 11370,
+							["school"] = 2,
+							["criticalmax"] = 4911,
+							["critical"] = 1,
+						},
+						[48072] = {
+							["overheal"] = 6424,
+							["max"] = 3603,
+							["count"] = 5,
+							["amount"] = 11247,
+							["school"] = 2,
+							["min"] = 692,
+							["targets"] = {
+								["Crazydqs"] = {
+									["overheal"] = 0,
+									["amount"] = 3424,
+								},
+								["Urgash"] = {
+									["overheal"] = 0,
+									["amount"] = 3528,
+								},
+								["Zyablik"] = {
+									["overheal"] = 0,
+									["amount"] = 3603,
+								},
+								["Najgora"] = {
+									["overheal"] = 3419,
+									["amount"] = 0,
+								},
+								["Yiyuan"] = {
+									["overheal"] = 3005,
+									["amount"] = 692,
+								},
+							},
+						},
+						[56160] = {
+							["overheal"] = 4650,
+							["criticalamount"] = 3466,
+							["max"] = 1776,
+							["targets"] = {
+								["Crazydqs"] = {
+									["overheal"] = 0,
+									["amount"] = 1690,
+								},
+								["Urgash"] = {
+									["overheal"] = 0,
+									["amount"] = 2960,
+								},
+								["Zyablik"] = {
+									["overheal"] = 1776,
+									["amount"] = 1184,
+								},
+								["Yiyuan"] = {
+									["overheal"] = 1184,
+									["amount"] = 1184,
+								},
+								["Najgora"] = {
+									["overheal"] = 1690,
+									["amount"] = 0,
+								},
+							},
+							["min"] = 1184,
+							["criticalmax"] = 1776,
+							["critical"] = 4,
+							["amount"] = 7018,
+							["school"] = 2,
+							["criticalmin"] = 0,
+							["count"] = 8,
+						},
+					},
+					["damagetakenspells"] = {
+						["Hellfire Effect"] = {
+							["total"] = 7320,
+							["hitmin"] = 371,
+							["id"] = 70284,
+							["amount"] = 1978,
+							["hitmax"] = 1607,
+							["sources"] = {
+								["Ymirjar Flamebearer"] = {
+									["total"] = 7320,
+									["amount"] = 1978,
+								},
+							},
+							["count"] = 5,
+							["ABSORB"] = 3,
+							["school"] = 4,
+							["resisted"] = 356,
+							["hit"] = 2,
+							["hitamount"] = 1978,
+						},
+						["Empowered Shadow Bolt"] = {
+							["hitmin"] = 3816,
+							["id"] = 70281,
+							["hitmax"] = 3816,
+							["sources"] = {
+								["Ymirjar Deathbringer"] = {
+									["amount"] = 3816,
+								},
+							},
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 32,
+							["resisted"] = 953,
+							["amount"] = 3816,
+							["hitamount"] = 3816,
+						},
+					},
+					["mana"] = 1688,
+					["heal"] = 72804,
+					["name"] = "Najgora",
+					["dispel"] = 3,
+					["manaspells"] = {
+						[47755] = 1110,
+						[63654] = 578,
+					},
+					["dispelspells"] = {
+						[552] = {
+							["spells"] = {
+								[70285] = 3,
+							},
+							["count"] = 3,
+							["targets"] = {
+								["Crazydqs"] = 1,
+								["Zyablik"] = 2,
+							},
+						},
+					},
+					["role"] = "HEALER",
+				}, -- [3]
+				{
+					["last"] = 18612.531,
+					["flag"] = 1298,
+					["class"] = "DRUID",
+					["auras"] = {
+						[24932] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 45,
+						},
+						[48470] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 45,
+						},
+						[48068] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 2,
+							["uptime"] = 15,
+						},
+						[48162] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 45,
+						},
+						[71403] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["uptime"] = 10,
+						},
+						[63944] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["refresh"] = 1,
+							["uptime"] = 45,
+						},
+						[22812] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 8,
+							["uptime"] = 12,
+						},
+						[48074] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 45,
+						},
+						[48066] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 2,
+							["uptime"] = 12,
+						},
+						[25898] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 45,
+						},
+						[48170] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 45,
+						},
+						[48574] = {
+							["type"] = "DEBUFF",
+							["count"] = 2,
+							["school"] = 1,
+							["targets"] = {
+								["Ymirjar Flamebearer"] = {
+									["uptime"] = 18,
+									["count"] = 2,
+								},
+							},
+							["uptime"] = 18,
+						},
+						[48420] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 45,
+						},
+						[50334] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["uptime"] = 16,
+						},
+						[72221] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 45,
+						},
+						[15359] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 2,
+							["uptime"] = 20,
+						},
+						[16870] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 8,
+							["uptime"] = 2,
+						},
+						[52610] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 1,
+							["uptime"] = 33,
+						},
+						[47930] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 2,
+							["uptime"] = 9,
+						},
+						[50213] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["uptime"] = 6,
+						},
+						[69369] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["uptime"] = 8,
+						},
+						[59620] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 2,
+							["uptime"] = 14,
+						},
+						[50259] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["targets"] = {
+								["Ymirjar Flamebearer"] = {
+									["uptime"] = 3,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 3,
+						},
+						[16857] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 8,
+							["targets"] = {
+								["Ymirjar Flamebearer"] = {
+									["uptime"] = 8,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 8,
+						},
+						[54043] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 45,
+						},
+						[71492] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["uptime"] = 30,
+						},
+						[768] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 45,
+						},
+						[47753] = {
+							["type"] = "BUFF",
+							["count"] = 3,
+							["school"] = 2,
+							["uptime"] = 9,
+						},
+						[552] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 2,
 							["uptime"] = 17,
 						},
 						[48942] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 17,
+							["uptime"] = 45,
 						},
-						[43046] = {
+						[48934] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 17,
+							["uptime"] = 45,
 						},
-						[48170] = {
+					},
+					["energyspells"] = {
+						[51178] = 60,
+					},
+					["role"] = "DAMAGER",
+					["time"] = 35.82999999999999,
+					["totaldamagetaken"] = 29083,
+					["overheal"] = 748,
+					["damage"] = 485927,
+					["damagespells"] = {
+						["Melee"] = {
+							["glance"] = 3589,
+							["hitmin"] = 667,
+							["criticalmin"] = 1511,
+							["targets"] = {
+								["Ymirjar Flamebearer"] = {
+									["amount"] = 31507,
+								},
+								["Ymirjar Wrathbringer"] = {
+									["overkill"] = 525,
+									["amount"] = 35799,
+								},
+								["Ymirjar Deathbringer"] = {
+									["amount"] = 2528,
+								},
+							},
+							["glancing"] = 3,
+							["amount"] = 69834,
+							["glancemin"] = 1103,
+							["criticalamount"] = 58665,
+							["id"] = 6603,
+							["glancemax"] = 1247,
+							["overkill"] = 525,
+							["blocked"] = 40,
+							["criticalmax"] = 2809,
+							["critical"] = 27,
+							["hit"] = 8,
+							["school"] = 1,
+							["count"] = 38,
+							["hitmax"] = 1226,
+							["hitamount"] = 7580,
+						},
+						["Swipe (Cat)"] = {
+							["blocked"] = 120,
+							["hitmin"] = 2833,
+							["criticalamount"] = 349360,
+							["id"] = 62078,
+							["hitmax"] = 3971,
+							["targets"] = {
+								["Ymirjar Flamebearer"] = {
+									["amount"] = 142563,
+								},
+								["Ymirjar Wrathbringer"] = {
+									["amount"] = 182389,
+								},
+								["Ymirjar Deathbringer"] = {
+									["amount"] = 80480,
+								},
+							},
+							["count"] = 65,
+							["hit"] = 18,
+							["casts"] = 15,
+							["critical"] = 47,
+							["amount"] = 405432,
+							["school"] = 1,
+							["criticalmin"] = 6498,
+							["criticalmax"] = 9097,
+							["hitamount"] = 56072,
+						},
+						["Rake (DoT)"] = {
+							["hitmin"] = 1399,
+							["id"] = 48574,
+							["targets"] = {
+								["Ymirjar Flamebearer"] = {
+									["amount"] = 8394,
+								},
+							},
+							["count"] = 6,
+							["hit"] = 6,
+							["school"] = 1,
+							["hitmax"] = 1399,
+							["amount"] = 8394,
+							["hitamount"] = 8394,
+						},
+						["Retribution Aura"] = {
+							["hitmin"] = 292,
+							["id"] = 54043,
+							["targets"] = {
+								["Ymirjar Flamebearer"] = {
+									["amount"] = 340,
+								},
+								["Ymirjar Wrathbringer"] = {
+									["amount"] = 623,
+								},
+							},
+							["casts"] = 1,
+							["count"] = 3,
+							["hit"] = 3,
+							["school"] = 2,
+							["hitmax"] = 340,
+							["amount"] = 963,
+							["hitamount"] = 963,
+						},
+						["Rake"] = {
+							["hitmin"] = 400,
+							["criticalamount"] = 904,
+							["id"] = 48574,
+							["criticalmin"] = 904,
+							["targets"] = {
+								["Ymirjar Flamebearer"] = {
+									["amount"] = 1304,
+								},
+							},
+							["criticalmax"] = 904,
+							["critical"] = 1,
+							["casts"] = 2,
+							["count"] = 2,
+							["hit"] = 1,
+							["school"] = 1,
+							["hitmax"] = 400,
+							["amount"] = 1304,
+							["hitamount"] = 400,
+						},
+					},
+					["overkill"] = 525,
+					["damagetaken"] = 19015,
+					["id"] = "0x07000000008B24DB",
+					["spec"] = 103,
+					["healspells"] = {
+						[34299] = {
+							["overheal"] = 748,
+							["targets"] = {
+								["Zyablik"] = {
+									["overheal"] = 748,
+									["amount"] = 3446,
+								},
+							},
+							["count"] = 6,
+							["amount"] = 3446,
+							["school"] = 1,
+							["max"] = 699,
+							["ishot"] = true,
+							["min"] = 192,
+						},
+					},
+					["damagetakenspells"] = {
+						["Blight"] = {
+							["sources"] = {
+								["Ymirjar Wrathbringer"] = {
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+							["school"] = 8,
+							["MISS"] = 1,
+							["id"] = 70285,
+						},
+						["Hellfire Effect"] = {
+							["total"] = 8125,
+							["hitmin"] = 192,
+							["id"] = 70284,
+							["ABSORB"] = 1,
+							["amount"] = 6415,
+							["hitmax"] = 1223,
+							["sources"] = {
+								["Ymirjar Flamebearer"] = {
+									["total"] = 8125,
+									["amount"] = 6415,
+								},
+							},
+							["count"] = 9,
+							["hit"] = 7,
+							["school"] = 4,
+							["resisted"] = 1789,
+							["MISS"] = 1,
+							["hitamount"] = 6415,
+						},
+						["Empowered Shadow Bolt"] = {
+							["total"] = 9264,
+							["hitmin"] = 5088,
+							["id"] = 70281,
+							["amount"] = 5088,
+							["hitmax"] = 5088,
+							["sources"] = {
+								["Ymirjar Deathbringer"] = {
+									["total"] = 9264,
+									["amount"] = 5088,
+								},
+							},
+							["count"] = 2,
+							["ABSORB"] = 1,
+							["school"] = 32,
+							["resisted"] = 1271,
+							["hit"] = 1,
+							["hitamount"] = 5088,
+						},
+						["Melee"] = {
+							["DODGE"] = 5,
+							["total"] = 9210,
+							["hitmin"] = 2040,
+							["id"] = 6603,
+							["amount"] = 7512,
+							["sources"] = {
+								["Ymirjar Flamebearer"] = {
+									["total"] = 3738,
+									["amount"] = 2040,
+								},
+								["Ymirjar Wrathbringer"] = {
+									["amount"] = 5472,
+								},
+							},
+							["count"] = 9,
+							["hit"] = 3,
+							["school"] = 1,
+							["hitmax"] = 2861,
+							["MISS"] = 1,
+							["hitamount"] = 7512,
+						},
+						["Blight (DoT)"] = {
+							["total"] = 2484,
+							["count"] = 1,
+							["amount"] = 0,
+							["school"] = 8,
+							["sources"] = {
+								["Ymirjar Wrathbringer"] = {
+									["total"] = 2484,
+									["amount"] = 0,
+								},
+							},
+							["ABSORB"] = 1,
+							["id"] = 70285,
+						},
+					},
+					["heal"] = 3446,
+					["name"] = "Zyablik",
+					["manaspells"] = {
+						[68285] = 2178,
+					},
+					["mana"] = 2178,
+					["energy"] = 60,
+					["totaldamage"] = 485927,
+				}, -- [4]
+				{
+					["ccdonespells"] = {
+						[48817] = {
+							["count"] = 6,
+							["targets"] = {
+								["Ymirjar Flamebearer"] = 4,
+								["Ymirjar Wrathbringer"] = 2,
+							},
+						},
+						[10308] = {
+							["count"] = 1,
+							["targets"] = {
+								["Ymirjar Deathbringer"] = 1,
+							},
+						},
+					},
+					["last"] = 18612.898,
+					["flag"] = 1298,
+					["class"] = "PALADIN",
+					["auras"] = {
+						[72221] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 17,
+							["uptime"] = 45,
 						},
-						[43002] = {
+						[48470] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 17,
+							["uptime"] = 45,
 						},
-						[19746] = {
+						[20053] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 17,
+							["school"] = 1,
+							["refresh"] = 18,
+							["uptime"] = 44,
+						},
+						[61840] = {
+							["type"] = "DEBUFF",
+							["uptime"] = 29,
+							["school"] = 2,
+							["refresh"] = 6,
+							["targets"] = {
+								["Ymirjar Flamebearer"] = {
+									["uptime"] = 18,
+									["count"] = 3,
+								},
+								["Ymirjar Wrathbringer"] = {
+									["uptime"] = 8,
+									["count"] = 4,
+								},
+								["Ymirjar Deathbringer"] = {
+									["count"] = 2,
+									["refresh"] = 6,
+									["uptime"] = 28,
+								},
+							},
+							["count"] = 10,
+						},
+						[59578] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 1,
+							["refresh"] = 15,
+							["uptime"] = 40,
+						},
+						[20186] = {
+							["type"] = "DEBUFF",
+							["uptime"] = 28,
+							["school"] = 2,
+							["refresh"] = 2,
+							["targets"] = {
+								["Ymirjar Deathbringer"] = {
+									["count"] = 2,
+									["refresh"] = 2,
+									["uptime"] = 28,
+								},
+							},
+							["count"] = 2,
+						},
+						[48817] = {
+							["type"] = "DEBUFF",
+							["uptime"] = 3,
+							["school"] = 2,
+							["refresh"] = 2,
+							["targets"] = {
+								["Ymirjar Flamebearer"] = {
+									["count"] = 2,
+									["refresh"] = 2,
+									["uptime"] = 3,
+								},
+								["Ymirjar Wrathbringer"] = {
+									["uptime"] = 3,
+									["count"] = 2,
+								},
+							},
+							["count"] = 4,
+						},
+						[71541] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 64,
+							["uptime"] = 15,
+						},
+						[15359] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 2,
+							["uptime"] = 15,
+						},
+						[54499] = {
+							["type"] = "DEBUFF",
+							["uptime"] = 28,
+							["school"] = 2,
+							["refresh"] = 2,
+							["targets"] = {
+								["Ymirjar Deathbringer"] = {
+									["count"] = 2,
+									["refresh"] = 2,
+									["uptime"] = 28,
+								},
+							},
+							["count"] = 2,
+						},
+						[71187] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 8,
+							["refresh"] = 2,
+							["uptime"] = 37,
+						},
+						[71396] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["refresh"] = 22,
+							["uptime"] = 44,
+						},
+						[72282] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 45,
+						},
+						[72412] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["uptime"] = 10,
+						},
+						[57669] = {
+							["school"] = 8,
+							["type"] = "BUFF",
+							["uptime"] = 42,
+						},
+						[31801] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 7,
 						},
 						[48162] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 17,
+							["uptime"] = 45,
+						},
+						[31803] = {
+							["type"] = "DEBUFF",
+							["uptime"] = 13,
+							["school"] = 2,
+							["refresh"] = 2,
+							["targets"] = {
+								["Ymirjar Deathbringer"] = {
+									["count"] = 1,
+									["refresh"] = 2,
+									["uptime"] = 13,
+								},
+							},
+							["count"] = 1,
+						},
+						[48170] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 45,
+						},
+						[47930] = {
+							["type"] = "BUFF",
+							["count"] = 3,
+							["school"] = 2,
+							["uptime"] = 13,
+						},
+						[54043] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 45,
+						},
+						[48942] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 45,
+						},
+						[48066] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 2,
+							["uptime"] = 14,
+						},
+						[47753] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 2,
+							["uptime"] = 4,
+						},
+						[48819] = {
+							["type"] = "DEBUFF",
+							["count"] = 4,
+							["school"] = 2,
+							["targets"] = {
+								["Ymirjar Flamebearer"] = {
+									["uptime"] = 4,
+									["count"] = 1,
+								},
+								["Ymirjar Wrathbringer"] = {
+									["uptime"] = 7,
+									["count"] = 2,
+								},
+								["Ymirjar Deathbringer"] = {
+									["uptime"] = 8,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 8,
+						},
+						[25898] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 45,
+						},
+						[25899] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 45,
+						},
+						[20375] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 2,
+							["uptime"] = 38,
+						},
+						[24932] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 45,
+						},
+						[54758] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["uptime"] = 12,
+						},
+						[63944] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["refresh"] = 1,
+							["uptime"] = 45,
+						},
+						[48074] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 45,
+						},
+						[10308] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 2,
+							["targets"] = {
+								["Ymirjar Deathbringer"] = {
+									["uptime"] = 6,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 6,
+						},
+						[26017] = {
+							["type"] = "DEBUFF",
+							["uptime"] = 28,
+							["school"] = 2,
+							["refresh"] = 9,
+							["targets"] = {
+								["Ymirjar Flamebearer"] = {
+									["uptime"] = 9,
+									["count"] = 4,
+								},
+								["Ymirjar Wrathbringer"] = {
+									["count"] = 4,
+									["refresh"] = 1,
+									["uptime"] = 11,
+								},
+								["Ymirjar Deathbringer"] = {
+									["count"] = 4,
+									["refresh"] = 8,
+									["uptime"] = 23,
+								},
+							},
+							["count"] = 12,
+						},
+					},
+					["dispel"] = 4,
+					["time"] = 35.65,
+					["totaldamagetaken"] = 41948,
+					["totaldamage"] = 308996,
+					["damage"] = 308996,
+					["damagespells"] = {
+						["Consecration (DoT)"] = {
+							["hitmin"] = 617,
+							["id"] = 48819,
+							["targets"] = {
+								["Ymirjar Flamebearer"] = {
+									["overkill"] = 372,
+									["amount"] = 2576,
+								},
+								["Ymirjar Wrathbringer"] = {
+									["amount"] = 7003,
+								},
+								["Ymirjar Deathbringer"] = {
+									["amount"] = 5044,
+								},
+							},
+							["overkill"] = 372,
+							["count"] = 23,
+							["hit"] = 23,
+							["school"] = 2,
+							["hitmax"] = 653,
+							["amount"] = 14623,
+							["hitamount"] = 14623,
+						},
+						["Exorcism"] = {
+							["criticalamount"] = 5955,
+							["id"] = 48801,
+							["targets"] = {
+								["Ymirjar Deathbringer"] = {
+									["amount"] = 5955,
+								},
+							},
+							["casts"] = 1,
+							["critical"] = 1,
+							["amount"] = 5955,
+							["school"] = 2,
+							["criticalmin"] = 5955,
+							["criticalmax"] = 5955,
+							["count"] = 1,
+						},
+						["Judgement of Vengeance"] = {
+							["criticalamount"] = 4404,
+							["id"] = 31804,
+							["targets"] = {
+								["Ymirjar Deathbringer"] = {
+									["amount"] = 4404,
+								},
+							},
+							["casts"] = 1,
+							["critical"] = 1,
+							["amount"] = 4404,
+							["school"] = 2,
+							["criticalmin"] = 4404,
+							["criticalmax"] = 4404,
+							["count"] = 1,
+						},
+						["Holy Vengeance (DoT)"] = {
+							["hitmin"] = 710,
+							["id"] = 31803,
+							["targets"] = {
+								["Ymirjar Deathbringer"] = {
+									["amount"] = 4094,
+								},
+							},
+							["count"] = 4,
+							["hit"] = 4,
+							["school"] = 2,
+							["hitmax"] = 1128,
+							["amount"] = 4094,
+							["hitamount"] = 4094,
+						},
+						["Retribution Aura"] = {
+							["hitmin"] = 294,
+							["id"] = 54043,
+							["targets"] = {
+								["Ymirjar Deathbringer"] = {
+									["amount"] = 620,
+								},
+								["Ymirjar Wrathbringer"] = {
+									["amount"] = 294,
+								},
+							},
+							["casts"] = 1,
+							["count"] = 3,
+							["hit"] = 3,
+							["school"] = 2,
+							["hitmax"] = 325,
+							["amount"] = 914,
+							["hitamount"] = 914,
+						},
+						["Judgement of Command"] = {
+							["criticalamount"] = 15174,
+							["id"] = 20467,
+							["targets"] = {
+								["Ymirjar Deathbringer"] = {
+									["amount"] = 15174,
+								},
+							},
+							["casts"] = 1,
+							["critical"] = 3,
+							["amount"] = 15174,
+							["school"] = 2,
+							["criticalmin"] = 4486,
+							["criticalmax"] = 5681,
+							["count"] = 3,
+						},
+						["Seal of Command"] = {
+							["critical"] = 24,
+							["criticalmin"] = 2927,
+							["hitmin"] = 1499,
+							["criticalamount"] = 81948,
+							["id"] = 20424,
+							["criticalmax"] = 3901,
+							["targets"] = {
+								["Ymirjar Flamebearer"] = {
+									["amount"] = 34405,
+								},
+								["Ymirjar Wrathbringer"] = {
+									["amount"] = 42912,
+								},
+								["Spider"] = {
+									["overkill"] = 3050,
+									["amount"] = 3059,
+								},
+								["Ymirjar Deathbringer"] = {
+									["overkill"] = 3197,
+									["amount"] = 30482,
+								},
+							},
+							["overkill"] = 6247,
+							["blocked"] = 80,
+							["casts"] = 1,
+							["count"] = 41,
+							["hit"] = 17,
+							["school"] = 2,
+							["hitmax"] = 1880,
+							["amount"] = 110858,
+							["hitamount"] = 28910,
+						},
+						["Melee"] = {
+							["glance"] = 4560,
+							["hitmin"] = 2320,
+							["criticalmin"] = 4859,
+							["targets"] = {
+								["Ymirjar Flamebearer"] = {
+									["amount"] = 4859,
+								},
+								["Ymirjar Deathbringer"] = {
+									["amount"] = 38465,
+								},
+							},
+							["glancing"] = 2,
+							["amount"] = 43324,
+							["glancemin"] = 2016,
+							["criticalamount"] = 31201,
+							["id"] = 6603,
+							["glancemax"] = 2544,
+							["criticalmax"] = 5623,
+							["critical"] = 6,
+							["hit"] = 3,
+							["school"] = 1,
+							["hitmax"] = 2627,
+							["count"] = 11,
+							["hitamount"] = 7563,
+						},
+						["Divine Storm"] = {
+							["blocked"] = 40,
+							["criticalmax"] = 9333,
+							["hitmin"] = 2705,
+							["criticalamount"] = 55914,
+							["id"] = 53385,
+							["criticalmin"] = 5320,
+							["targets"] = {
+								["Ymirjar Flamebearer"] = {
+									["amount"] = 22898,
+								},
+								["Ymirjar Wrathbringer"] = {
+									["overkill"] = 5950,
+									["amount"] = 25883,
+								},
+								["Spider"] = {
+									["overkill"] = 9333,
+									["amount"] = 9333,
+								},
+								["Ymirjar Deathbringer"] = {
+									["amount"] = 11991,
+								},
+							},
+							["overkill"] = 15283,
+							["critical"] = 9,
+							["casts"] = 4,
+							["count"] = 14,
+							["hit"] = 5,
+							["school"] = 1,
+							["hitmax"] = 3004,
+							["amount"] = 70105,
+							["hitamount"] = 14191,
+						},
+						["Seal of Vengeance"] = {
+							["hitmin"] = 381,
+							["criticalamount"] = 1528,
+							["id"] = 42463,
+							["criticalmin"] = 1528,
+							["targets"] = {
+								["Ymirjar Deathbringer"] = {
+									["amount"] = 3427,
+								},
+							},
+							["criticalmax"] = 1528,
+							["critical"] = 1,
+							["casts"] = 1,
+							["count"] = 4,
+							["hit"] = 3,
+							["school"] = 2,
+							["hitmax"] = 793,
+							["amount"] = 3427,
+							["hitamount"] = 1899,
+						},
+						["Crusader Strike"] = {
+							["hitmax"] = 2197,
+							["hitmin"] = 2197,
+							["criticalamount"] = 13711,
+							["id"] = 35395,
+							["count"] = 4,
+							["targets"] = {
+								["Ymirjar Deathbringer"] = {
+									["overkill"] = 2197,
+									["amount"] = 15908,
+								},
+							},
+							["overkill"] = 2197,
+							["hit"] = 1,
+							["casts"] = 4,
+							["critical"] = 3,
+							["amount"] = 15908,
+							["school"] = 1,
+							["criticalmin"] = 4494,
+							["criticalmax"] = 4626,
+							["hitamount"] = 2197,
+						},
+						["Righteous Vengeance (DoT)"] = {
+							["hitmin"] = 340,
+							["id"] = 61840,
+							["targets"] = {
+								["Ymirjar Flamebearer"] = {
+									["amount"] = 4122,
+								},
+								["Ymirjar Wrathbringer"] = {
+									["amount"] = 1767,
+								},
+								["Ymirjar Deathbringer"] = {
+									["amount"] = 4646,
+								},
+							},
+							["count"] = 22,
+							["hit"] = 22,
+							["school"] = 2,
+							["hitmax"] = 1187,
+							["amount"] = 10535,
+							["hitamount"] = 10535,
+						},
+						["Holy Wrath"] = {
+							["hitmin"] = 2159,
+							["criticalamount"] = 3168,
+							["id"] = 48817,
+							["criticalmin"] = 3168,
+							["targets"] = {
+								["Ymirjar Flamebearer"] = {
+									["amount"] = 4348,
+								},
+								["Ymirjar Wrathbringer"] = {
+									["amount"] = 5327,
+								},
+							},
+							["criticalmax"] = 3168,
+							["critical"] = 1,
+							["casts"] = 1,
+							["count"] = 4,
+							["hit"] = 3,
+							["school"] = 2,
+							["hitmax"] = 2189,
+							["amount"] = 9675,
+							["hitamount"] = 6507,
+						},
+					},
+					["overkill"] = 24099,
+					["damagetaken"] = 29416,
+					["id"] = "0x07000000008F8756",
+					["spec"] = 70,
+					["healspells"] = {
+						[54172] = {
+							["overheal"] = 235,
+							["targets"] = {
+								["Najgora"] = {
+									["overheal"] = 0,
+									["amount"] = 4462,
+								},
+								["Urgash"] = {
+									["overheal"] = 0,
+									["amount"] = 4090,
+								},
+								["Yiyuan"] = {
+									["overheal"] = 176,
+									["amount"] = 8194,
+								},
+								["Zyablik"] = {
+									["overheal"] = 59,
+									["amount"] = 524,
+								},
+							},
+							["count"] = 5,
+							["amount"] = 17270,
+							["school"] = 2,
+							["max"] = 6642,
+							["ishot"] = true,
+							["min"] = 524,
+						},
+						[34299] = {
+							["overheal"] = 2175,
+							["max"] = 725,
+							["count"] = 6,
+							["amount"] = 2175,
+							["school"] = 1,
+							["min"] = 725,
+							["ishot"] = true,
+							["targets"] = {
+								["Yiyuan"] = {
+									["overheal"] = 2175,
+									["amount"] = 2175,
+								},
+							},
+						},
+						[48785] = {
+							["overheal"] = 0,
+							["criticalamount"] = 5076,
+							["max"] = 5076,
+							["targets"] = {
+								["Urgash"] = {
+									["overheal"] = 0,
+									["amount"] = 5076,
+								},
+							},
+							["min"] = 5076,
+							["criticalmax"] = 5076,
+							["critical"] = 1,
+							["amount"] = 5076,
+							["school"] = 2,
+							["criticalmin"] = 5076,
+							["count"] = 1,
+						},
+					},
+					["damagetakenspells"] = {
+						["Fireball"] = {
+							["total"] = 12346,
+							["hitmin"] = 241,
+							["id"] = 70282,
+							["hitmax"] = 6763,
+							["sources"] = {
+								["Ymirjar Flamebearer"] = {
+									["total"] = 12346,
+									["amount"] = 7004,
+								},
+							},
+							["count"] = 2,
+							["hit"] = 2,
+							["school"] = 4,
+							["resisted"] = 620,
+							["amount"] = 7004,
+							["hitamount"] = 7004,
+						},
+						["Hellfire Effect"] = {
+							["total"] = 5238,
+							["hitmin"] = 1295,
+							["id"] = 70284,
+							["amount"] = 4787,
+							["hitmax"] = 1940,
+							["sources"] = {
+								["Ymirjar Flamebearer"] = {
+									["total"] = 5238,
+									["amount"] = 4787,
+								},
+							},
+							["count"] = 4,
+							["hit"] = 3,
+							["school"] = 4,
+							["resisted"] = 582,
+							["MISS"] = 1,
+							["hitamount"] = 4787,
+						},
+						["Fireball (DoT)"] = {
+							["total"] = 4366,
+							["hitmin"] = 1397,
+							["id"] = 70282,
+							["ABSORB"] = 1,
+							["hitmax"] = 1572,
+							["sources"] = {
+								["Ymirjar Flamebearer"] = {
+									["total"] = 4366,
+									["amount"] = 2969,
+								},
+							},
+							["count"] = 3,
+							["hit"] = 2,
+							["school"] = 4,
+							["resisted"] = 523,
+							["amount"] = 2969,
+							["hitamount"] = 2969,
+						},
+						["Melee"] = {
+							["total"] = 11074,
+							["hitmin"] = 2331,
+							["criticalamount"] = 2804,
+							["id"] = 6603,
+							["criticalmin"] = 2804,
+							["criticalmax"] = 2804,
+							["critical"] = 1,
+							["sources"] = {
+								["Ymirjar Deathbringer"] = {
+									["total"] = 7761,
+									["amount"] = 5135,
+								},
+								["Ymirjar Wrathbringer"] = {
+									["amount"] = 3313,
+								},
+							},
+							["count"] = 3,
+							["hit"] = 2,
+							["school"] = 1,
+							["hitmax"] = 3313,
+							["amount"] = 8448,
+							["hitamount"] = 5644,
+						},
+						["Blight (DoT)"] = {
+							["total"] = 8924,
+							["hitmin"] = 3104,
+							["id"] = 70285,
+							["ABSORB"] = 1,
+							["hitmax"] = 3104,
+							["sources"] = {
+								["Ymirjar Wrathbringer"] = {
+									["total"] = 8924,
+									["amount"] = 6208,
+								},
+							},
+							["count"] = 3,
+							["hit"] = 2,
+							["school"] = 8,
+							["resisted"] = 1552,
+							["amount"] = 6208,
+							["hitamount"] = 6208,
+						},
+					},
+					["overheal"] = 2410,
+					["heal"] = 24521,
+					["name"] = "Yiyuan",
+					["ccdone"] = 7,
+					["manaspells"] = {
+						[31930] = 4392,
+						[57669] = 2940,
+						[20268] = 2349,
+					},
+					["mana"] = 9681,
+					["dispelspells"] = {
+						[4987] = {
+							["spells"] = {
+								[70282] = 2,
+								[70285] = 2,
+							},
+							["count"] = 4,
+							["targets"] = {
+								["Yiyuan"] = 4,
+							},
 						},
 					},
 					["role"] = "DAMAGER",
-					["name"] = "Wubobo",
-					["time"] = 0,
-					["class"] = "MAGE",
 				}, -- [5]
 			},
-			["type"] = "party",
-			["damagetaken"] = 14176,
-			["ccdone"] = 2,
-			["etotaldamage"] = 14176,
-			["overheal"] = 37038,
-			["overkill"] = 9143,
-			["edamagetaken"] = 138427,
-			["heal"] = 23603,
-			["name"] = "Drakkari Fire Weaver",
-			["mobname"] = "Drakkari Fire Weaver",
-			["starttime"] = 1689592185,
-			["edamage"] = 14176,
-			["last_action"] = 1689592201,
-			["endtime"] = 1689592202,
-		}, -- [9]
+			["edamage"] = 128536,
+			["last_action"] = 1689679281,
+			["endtime"] = 1689679281,
+		}, -- [5]
 	},
 }
