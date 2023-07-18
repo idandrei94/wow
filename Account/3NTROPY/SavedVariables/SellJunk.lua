@@ -6,8 +6,8 @@ SellJunkDB = {
 		["Nalar - Icecrown"] = "Nalar - Icecrown",
 		["Sculatru - Icecrown"] = "Sculatru - Icecrown",
 		["Denathra - Icecrown"] = "Denathra - Icecrown",
+		["Vhalanor - Icecrown"] = "Vhalanor - Icecrown",
 		["Flokus - Icecrown"] = "Flokus - Icecrown",
-		["Eutanasie - Icecrown"] = "Eutanasie - Icecrown",
 		["Noobschmoq - Icecrown"] = "Noobschmoq - Icecrown",
 		["Drext - Icecrown"] = "Drext - Icecrown",
 		["Muiex - Icecrown"] = "Muiex - Icecrown",
@@ -31,6 +31,6 @@ SellJunkDB = {
 		["Mirceabravo - Icecrown"] = "Mirceabravo - Icecrown",
 		["Izanagi - Icecrown"] = "Izanagi - Icecrown",
 		["Flocius - Icecrown"] = "Flocius - Icecrown",
-		["Vhalanor - Icecrown"] = "Vhalanor - Icecrown",
+		["Eutanasie - Icecrown"] = "Eutanasie - Icecrown",
 	},
 }

@@ -6,8 +6,8 @@ RecountDB = {
 		["Nalar - Icecrown"] = "Nalar - Icecrown",
 		["Sculatru - Icecrown"] = "Sculatru - Icecrown",
 		["Denathra - Icecrown"] = "Denathra - Icecrown",
+		["Vhalanor - Icecrown"] = "Vhalanor - Icecrown",
 		["Flokus - Icecrown"] = "Flokus - Icecrown",
-		["Eutanasie - Icecrown"] = "Eutanasie - Icecrown",
 		["Noobschmoq - Icecrown"] = "Noobschmoq - Icecrown",
 		["Drext - Icecrown"] = "Drext - Icecrown",
 		["Muiex - Icecrown"] = "Muiex - Icecrown",
@@ -31,7 +31,7 @@ RecountDB = {
 		["Mirceabravo - Icecrown"] = "Mirceabravo - Icecrown",
 		["Izanagi - Icecrown"] = "Izanagi - Icecrown",
 		["Flocius - Icecrown"] = "Flocius - Icecrown",
-		["Vhalanor - Icecrown"] = "Vhalanor - Icecrown",
+		["Eutanasie - Icecrown"] = "Eutanasie - Icecrown",
 	},
 	["profiles"] = {
 		["Rimgar - Icecrown"] = {
@@ -195,6 +195,31 @@ RecountDB = {
 			["ReportLines"] = 1,
 			["DetailWindowY"] = 23.44438869364712,
 		},
+		["Vhalanor - Icecrown"] = {
+			["GraphWindowY"] = 0,
+			["MainWindow"] = {
+				["Position"] = {
+					["y"] = 179.0000184623893,
+					["h"] = 230.0000019146181,
+					["w"] = 228.9999716910031,
+					["x"] = -561.4999206117259,
+				},
+			},
+			["DetailWindowX"] = 0,
+			["LastInstanceName"] = "The Forge of Souls",
+			["CurDataSet"] = "LastFightData",
+			["Colors"] = {
+				["Bar"] = {
+					["Bar Text"] = {
+						["a"] = 1,
+					},
+				},
+			},
+			["DetailWindowY"] = 0,
+			["GraphWindowX"] = 0,
+			["MainWindowWidth"] = 228.9999716910031,
+			["MainWindowHeight"] = 230.0000194196984,
+		},
 		["Flokus - Icecrown"] = {
 			["GraphWindowY"] = 0,
 			["MainWindow"] = {
@@ -216,26 +241,6 @@ RecountDB = {
 			["GraphWindowX"] = 0,
 			["CurDataSet"] = "OverallData",
 			["MainWindowVis"] = false,
-			["DetailWindowX"] = 0,
-		},
-		["Eutanasie - Icecrown"] = {
-			["GraphWindowY"] = 0,
-			["MainWindow"] = {
-				["Position"] = {
-					["w"] = 140.0000106684094,
-					["h"] = 200.0000027354896,
-				},
-			},
-			["Colors"] = {
-				["Bar"] = {
-					["Bar Text"] = {
-						["a"] = 1,
-					},
-				},
-			},
-			["DetailWindowY"] = 0,
-			["CurDataSet"] = "OverallData",
-			["GraphWindowX"] = 0,
 			["DetailWindowX"] = 0,
 		},
 		["Noobschmoq - Icecrown"] = {
@@ -796,19 +801,14 @@ RecountDB = {
 			["CurDataSet"] = "OverallData",
 			["GraphWindowX"] = 0,
 		},
-		["Vhalanor - Icecrown"] = {
+		["Eutanasie - Icecrown"] = {
 			["GraphWindowY"] = 0,
 			["MainWindow"] = {
 				["Position"] = {
-					["y"] = 179.0000184623893,
-					["h"] = 230.0000019146181,
-					["w"] = 228.9999716910031,
-					["x"] = -561.4999206117259,
+					["w"] = 140.0000106684094,
+					["h"] = 200.0000027354896,
 				},
 			},
-			["DetailWindowX"] = 0,
-			["LastInstanceName"] = "The Forge of Souls",
-			["CurDataSet"] = "LastFightData",
 			["Colors"] = {
 				["Bar"] = {
 					["Bar Text"] = {
@@ -817,9 +817,9 @@ RecountDB = {
 				},
 			},
 			["DetailWindowY"] = 0,
+			["CurDataSet"] = "OverallData",
 			["GraphWindowX"] = 0,
-			["MainWindowWidth"] = 228.9999716910031,
-			["MainWindowHeight"] = 230.0000194196984,
+			["DetailWindowX"] = 0,
 		},
 	},
 }

@@ -6,8 +6,8 @@ SimpleUnitFramesDB = {
 		["Nalar - Icecrown"] = "Nalar - Icecrown",
 		["Sculatru - Icecrown"] = "Sculatru - Icecrown",
 		["Denathra - Icecrown"] = "Denathra - Icecrown",
+		["Vhalanor - Icecrown"] = "Vhalanor - Icecrown",
 		["Flokus - Icecrown"] = "Flokus - Icecrown",
-		["Eutanasie - Icecrown"] = "Eutanasie - Icecrown",
 		["Drext - Icecrown"] = "Drext - Icecrown",
 		["Noobschmoq - Icecrown"] = "Noobschmoq - Icecrown",
 		["Muiex - Icecrown"] = "Muiex - Icecrown",
@@ -31,7 +31,7 @@ SimpleUnitFramesDB = {
 		["Mirceabravo - Icecrown"] = "Mirceabravo - Icecrown",
 		["Izanagi - Icecrown"] = "Izanagi - Icecrown",
 		["Flocius - Icecrown"] = "Flocius - Icecrown",
-		["Vhalanor - Icecrown"] = "Vhalanor - Icecrown",
+		["Eutanasie - Icecrown"] = "Eutanasie - Icecrown",
 	},
 	["global"] = {
 		["overlayfont"] = {
@@ -55,9 +55,9 @@ SimpleUnitFramesDB = {
 		},
 		["Denathra - Icecrown"] = {
 		},
-		["Flokus - Icecrown"] = {
+		["Vhalanor - Icecrown"] = {
 		},
-		["Eutanasie - Icecrown"] = {
+		["Flokus - Icecrown"] = {
 		},
 		["Drext - Icecrown"] = {
 		},
@@ -105,7 +105,7 @@ SimpleUnitFramesDB = {
 		},
 		["Flocius - Icecrown"] = {
 		},
-		["Vhalanor - Icecrown"] = {
+		["Eutanasie - Icecrown"] = {
 		},
 	},
 }

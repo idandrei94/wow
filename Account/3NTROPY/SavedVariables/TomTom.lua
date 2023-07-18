@@ -6,8 +6,8 @@ TomTomDB = {
 		["Nalar - Icecrown"] = "Default",
 		["Sculatru - Icecrown"] = "Default",
 		["Denathra - Icecrown"] = "Default",
+		["Vhalanor - Icecrown"] = "Default",
 		["Flokus - Icecrown"] = "Default",
-		["Eutanasie - Icecrown"] = "Default",
 		["Noobschmoq - Icecrown"] = "Default",
 		["Drext - Icecrown"] = "Default",
 		["Muiex - Icecrown"] = "Default",
@@ -31,7 +31,7 @@ TomTomDB = {
 		["Mirceabravo - Icecrown"] = "Default",
 		["Izanagi - Icecrown"] = "Default",
 		["Flocius - Icecrown"] = "Default",
-		["Vhalanor - Icecrown"] = "Default",
+		["Eutanasie - Icecrown"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {
@@ -45,8 +45,8 @@ TomTomWaypoints = {
 		["Nalar - Icecrown"] = "Nalar - Icecrown",
 		["Sculatru - Icecrown"] = "Sculatru - Icecrown",
 		["Denathra - Icecrown"] = "Denathra - Icecrown",
+		["Vhalanor - Icecrown"] = "Vhalanor - Icecrown",
 		["Flokus - Icecrown"] = "Flokus - Icecrown",
-		["Eutanasie - Icecrown"] = "Eutanasie - Icecrown",
 		["Noobschmoq - Icecrown"] = "Noobschmoq - Icecrown",
 		["Drext - Icecrown"] = "Drext - Icecrown",
 		["Muiex - Icecrown"] = "Muiex - Icecrown",
@@ -70,7 +70,7 @@ TomTomWaypoints = {
 		["Mirceabravo - Icecrown"] = "Mirceabravo - Icecrown",
 		["Izanagi - Icecrown"] = "Izanagi - Icecrown",
 		["Flocius - Icecrown"] = "Flocius - Icecrown",
-		["Vhalanor - Icecrown"] = "Vhalanor - Icecrown",
+		["Eutanasie - Icecrown"] = "Eutanasie - Icecrown",
 	},
 	["profiles"] = {
 		["Rimgar - Icecrown"] = {
@@ -83,9 +83,9 @@ TomTomWaypoints = {
 		},
 		["Denathra - Icecrown"] = {
 		},
-		["Flokus - Icecrown"] = {
+		["Vhalanor - Icecrown"] = {
 		},
-		["Eutanasie - Icecrown"] = {
+		["Flokus - Icecrown"] = {
 		},
 		["Noobschmoq - Icecrown"] = {
 		},
@@ -133,7 +133,7 @@ TomTomWaypoints = {
 		},
 		["Flocius - Icecrown"] = {
 		},
-		["Vhalanor - Icecrown"] = {
+		["Eutanasie - Icecrown"] = {
 		},
 	},
 }

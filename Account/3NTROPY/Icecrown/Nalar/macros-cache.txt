@@ -45,7 +45,7 @@ MACRO 16777223 "mount" INV_Misc_QuestionMark
 END
 MACRO 16777228 "renew" INV_Misc_QuestionMark
 #showtooltip
-/castsequence reset=10 prayer of mending, renew,  !shadowform
+/castsequence [modifier:ctrl,target=player][nomodifier:ctr, noharm] [target=player]  reset=10 prayer of mending, renew, !shadowform
 END
 MACRO 16777233 "ress" INV_Misc_QuestionMark
 #showtooltip
