@@ -5,406 +5,407 @@ RecountPerCharDB = {
 		["Morridin"] = {
 			["GUID"] = "0x0700000000977BE7",
 			["LastEventHealth"] = {
-				"4066 (85%)", -- [1]
-				"4206 (88%)", -- [2]
-				"4209 (88%)", -- [3]
-				"4209 (88%)", -- [4]
-				"4238 (88%)", -- [5]
-				"4242 (88%)", -- [6]
-				"4242 (88%)", -- [7]
-				"4442 (93%)", -- [8]
-				"4442 (93%)", -- [9]
-				"4503 (94%)", -- [10]
-				"4503 (94%)", -- [11]
-				"4591 (96%)", -- [12]
-				"4591 (96%)", -- [13]
-				"4595 (96%)", -- [14]
-				"4595 (96%)", -- [15]
-				"4651 (97%)", -- [16]
-				"4655 (97%)", -- [17]
-				"4655 (97%)", -- [18]
+				"3069 (64%)", -- [1]
+				"3129 (65%)", -- [2]
+				"3129 (65%)", -- [3]
+				"4771 (100%)", -- [4]
+				"4771 (100%)", -- [5]
+				"4771 (100%)", -- [6]
+				"4771 (100%)", -- [7]
+				"4771 (100%)", -- [8]
+				"4771 (100%)", -- [9]
+				"4771 (100%)", -- [10]
+				"4771 (100%)", -- [11]
+				"4771 (100%)", -- [12]
+				"4771 (100%)", -- [13]
+				"4771 (100%)", -- [14]
+				"4771 (100%)", -- [15]
+				"4771 (100%)", -- [16]
+				"4771 (100%)", -- [17]
+				"4771 (100%)", -- [18]
 				"4771 (100%)", -- [19]
 				"4771 (100%)", -- [20]
 				"4771 (100%)", -- [21]
 				"4771 (100%)", -- [22]
 				"4771 (100%)", -- [23]
-				"4771 (100%)", -- [24]
-				"4771 (100%)", -- [25]
-				"4771 (100%)", -- [26]
-				"4771 (100%)", -- [27]
-				"4771 (100%)", -- [28]
-				"4771 (100%)", -- [29]
-				"4771 (100%)", -- [30]
-				"4771 (100%)", -- [31]
-				"4771 (100%)", -- [32]
-				"4771 (100%)", -- [33]
-				"4771 (100%)", -- [34]
-				"4771 (100%)", -- [35]
-				"4771 (100%)", -- [36]
-				"4771 (100%)", -- [37]
-				"4771 (100%)", -- [38]
-				"4771 (100%)", -- [39]
-				"4771 (100%)", -- [40]
-				"4771 (100%)", -- [41]
-				"3941 (82%)", -- [42]
-				"3941 (82%)", -- [43]
-				"3969 (83%)", -- [44]
-				"3973 (83%)", -- [45]
-				"3973 (83%)", -- [46]
-				"4002 (83%)", -- [47]
-				"4006 (83%)", -- [48]
-				"4006 (83%)", -- [49]
-				"4066 (85%)", -- [50]
+				"5486 (100%)", -- [24]
+				"4211 (88%)", -- [25]
+				"4211 (88%)", -- [26]
+				"4036 (84%)", -- [27]
+				"4036 (84%)", -- [28]
+				"3989 (83%)", -- [29]
+				"3945 (82%)", -- [30]
+				"3945 (82%)", -- [31]
+				"3851 (80%)", -- [32]
+				"3855 (80%)", -- [33]
+				"3855 (80%)", -- [34]
+				"3859 (80%)", -- [35]
+				"3859 (80%)", -- [36]
+				"3746 (78%)", -- [37]
+				"3745 (78%)", -- [38]
+				"3745 (78%)", -- [39]
+				"3744 (78%)", -- [40]
+				"3743 (78%)", -- [41]
+				"3747 (78%)", -- [42]
+				"3747 (78%)", -- [43]
+				"3779 (79%)", -- [44]
+				"3779 (79%)", -- [45]
+				"3839 (80%)", -- [46]
+				"3839 (80%)", -- [47]
+				"3009 (63%)", -- [48]
+				"3065 (64%)", -- [49]
+				"3069 (64%)", -- [50]
 			},
-			["LastAttackedBy"] = "Kobold Tunneler",
+			["LastAttackedBy"] = "Environment",
 			["LastEventType"] = {
 				"DAMAGE", -- [1]
-				"DAMAGE", -- [2]
-				"HEAL", -- [3]
-				"DAMAGE", -- [4]
+				"HEAL", -- [2]
+				"DAMAGE", -- [3]
+				"HEAL", -- [4]
 				"DAMAGE", -- [5]
 				"HEAL", -- [6]
 				"DAMAGE", -- [7]
 				"HEAL", -- [8]
 				"DAMAGE", -- [9]
-				"HEAL", -- [10]
-				"DAMAGE", -- [11]
-				"HEAL", -- [12]
+				"DAMAGE", -- [10]
+				"HEAL", -- [11]
+				"DAMAGE", -- [12]
 				"DAMAGE", -- [13]
 				"HEAL", -- [14]
 				"DAMAGE", -- [15]
-				"DAMAGE", -- [16]
-				"HEAL", -- [17]
-				"DAMAGE", -- [18]
-				"HEAL", -- [19]
-				"DAMAGE", -- [20]
-				"HEAL", -- [21]
-				"DAMAGE", -- [22]
-				"HEAL", -- [23]
-				"DAMAGE", -- [24]
+				"HEAL", -- [16]
+				"DAMAGE", -- [17]
+				"HEAL", -- [18]
+				"DAMAGE", -- [19]
+				"HEAL", -- [20]
+				"DAMAGE", -- [21]
+				"HEAL", -- [22]
+				"DAMAGE", -- [23]
+				"HEAL", -- [24]
 				"HEAL", -- [25]
 				"DAMAGE", -- [26]
 				"HEAL", -- [27]
 				"DAMAGE", -- [28]
-				"HEAL", -- [29]
-				"DAMAGE", -- [30]
-				"HEAL", -- [31]
+				"DAMAGE", -- [29]
+				"HEAL", -- [30]
+				"DAMAGE", -- [31]
 				"DAMAGE", -- [32]
-				"DAMAGE", -- [33]
-				"HEAL", -- [34]
-				"DAMAGE", -- [35]
-				"HEAL", -- [36]
+				"HEAL", -- [33]
+				"DAMAGE", -- [34]
+				"HEAL", -- [35]
+				"DAMAGE", -- [36]
 				"DAMAGE", -- [37]
-				"HEAL", -- [38]
+				"DAMAGE", -- [38]
 				"DAMAGE", -- [39]
-				"HEAL", -- [40]
+				"DAMAGE", -- [40]
 				"DAMAGE", -- [41]
 				"HEAL", -- [42]
 				"DAMAGE", -- [43]
-				"DAMAGE", -- [44]
-				"HEAL", -- [45]
-				"DAMAGE", -- [46]
+				"HEAL", -- [44]
+				"DAMAGE", -- [45]
+				"HEAL", -- [46]
 				"DAMAGE", -- [47]
-				"HEAL", -- [48]
+				"DAMAGE", -- [48]
 				"DAMAGE", -- [49]
 				"HEAL", -- [50]
 			},
 			["TimeWindows"] = {
 				["TimeHeal"] = {
-					480.2300000000001, -- [1]
+					969.1900000000001, -- [1]
 				},
 				["Healing"] = {
-					10493, -- [1]
+					12107, -- [1]
 				},
 				["DamageTaken"] = {
-					10044, -- [1]
+					17913, -- [1]
 				},
 				["HealingTaken"] = {
-					13711, -- [1]
+					15377, -- [1]
 				},
 				["Overhealing"] = {
-					48380, -- [1]
+					49411, -- [1]
 				},
 				["ActiveTime"] = {
-					2468.050000000001, -- [1]
+					5239.470000000008, -- [1]
 				},
 				["HOT_Time"] = {
-					1281, -- [1]
+					2427, -- [1]
 				},
 				["TimeDamage"] = {
-					1987.820000000001, -- [1]
+					4270.280000000003, -- [1]
 				},
 				["DOT_Time"] = {
 					30, -- [1]
 				},
 				["Damage"] = {
-					1244245, -- [1]
+					2493021, -- [1]
 				},
 			},
 			["enClass"] = "DEATHKNIGHT",
 			["unit"] = "Morridin",
 			["level"] = 56,
-			["LastDamageAbility"] = "Melee",
-			["LastFightIn"] = 69,
+			["LastDamageAbility"] = "Falling",
+			["LastFightIn"] = 133,
 			["LastEventNum"] = {
 				[14] = 0.08383986585621463,
-				[29] = 0.08383986585621463,
-				[3] = 0.08383986585621463,
-				[31] = 0.08383986585621463,
+				[29] = 0.02095996646405366,
+				[30] = 0.08383986585621463,
+				[16] = 0.1047998323202683,
 				[8] = 0.08383986585621463,
-				[17] = 0.08383986585621463,
-				[36] = 0.08383986585621463,
-				[19] = 0.08383986585621463,
-				[40] = 0.08383986585621463,
-				[10] = 0.08383986585621463,
-				[21] = 0.08383986585621463,
-				[2] = 0.02095996646405366,
-				[45] = 0.08383986585621463,
-				[23] = 0.08383986585621463,
-				[48] = 0.08383986585621463,
-				[12] = 0.08383986585621463,
-				[50] = 0.08383986585621463,
-				[38] = 0.08383986585621463,
-				[6] = 0.08383986585621463,
-				[25] = 0.08383986585621463,
-				[27] = 0.08383986585621463,
-				[33] = 0.02095996646405366,
+				[35] = 0.08383986585621463,
+				[4] = 0.1047998323202683,
+				[37] = 0.02095996646405366,
+				[39] = 0.02095996646405366,
+				[20] = 0.1047998323202683,
+				[33] = 0.08383986585621463,
 				[42] = 0.08383986585621463,
-				[34] = 0.08383986585621463,
+				[2] = 0.08383986585621463,
+				[22] = 0.08383986585621463,
+				[11] = 0.08383986585621463,
+				[46] = 0.08383986585621463,
+				[24] = 29.67553773240977,
+				[25] = 0.08383986585621463,
+				[40] = 0.02095996646405366,
+				[6] = 0.08383986585621463,
+				[44] = 0.08383986585621463,
+				[27] = 0.08383986585621463,
+				[48] = 20.3521274365961,
+				[50] = 0.08383986585621463,
+				[18] = 0.08383986585621463,
 			},
 			["type"] = "Self",
 			["FightsSaved"] = 5,
-			["LastAbility"] = 14515.795,
+			["LastAbility"] = 26373.89,
 			["LastEventTimes"] = {
-				14212.592, -- [1]
-				14221.595, -- [2]
-				14221.989, -- [3]
-				14221.989, -- [4]
-				14224.904, -- [5]
-				14225.146, -- [6]
-				14225.147, -- [7]
-				14239.324, -- [8]
-				14239.324, -- [9]
-				14244.304, -- [10]
-				14244.304, -- [11]
-				14250.908, -- [12]
-				14250.911, -- [13]
-				14251.021, -- [14]
-				14251.021, -- [15]
-				14256.812, -- [16]
-				14257.545, -- [17]
-				14257.545, -- [18]
-				14265.213, -- [19]
-				14265.213, -- [20]
-				14295.612, -- [21]
-				14295.612, -- [22]
-				14300.378, -- [23]
-				14300.378, -- [24]
-				14307.998, -- [25]
-				14308.002, -- [26]
-				14314.474, -- [27]
-				14314.478, -- [28]
-				14422.207, -- [29]
-				14422.21, -- [30]
-				14428.368, -- [31]
-				14428.372, -- [32]
-				14430.778, -- [33]
-				14431.278, -- [34]
-				14431.279, -- [35]
-				14459.219, -- [36]
-				14459.223, -- [37]
-				14462.718, -- [38]
-				14462.718, -- [39]
-				14515.793, -- [40]
-				14515.795, -- [41]
-				14202.738, -- [42]
-				14202.741, -- [43]
-				14204.271, -- [44]
-				14204.63, -- [45]
-				14204.631, -- [46]
-				14207.605, -- [47]
-				14207.695, -- [48]
-				14207.696, -- [49]
-				14212.589, -- [50]
+				26369.484, -- [1]
+				26373.889, -- [2]
+				26373.89, -- [3]
+				26275.008, -- [4]
+				26275.011, -- [5]
+				26277.115, -- [6]
+				26277.116, -- [7]
+				26277.116, -- [8]
+				26277.116, -- [9]
+				26280.665, -- [10]
+				26280.749, -- [11]
+				26280.749, -- [12]
+				26282.091, -- [13]
+				26282.932, -- [14]
+				26282.933, -- [15]
+				26286.587, -- [16]
+				26286.591, -- [17]
+				26290.327, -- [18]
+				26290.331, -- [19]
+				26290.391, -- [20]
+				26290.391, -- [21]
+				26293.999, -- [22]
+				26293.999, -- [23]
+				26300.757, -- [24]
+				26317.365, -- [25]
+				26317.365, -- [26]
+				26322.227, -- [27]
+				26322.23, -- [28]
+				26323.965, -- [29]
+				26324.556, -- [30]
+				26324.556, -- [31]
+				26326.214, -- [32]
+				26326.658, -- [33]
+				26326.658, -- [34]
+				26326.724, -- [35]
+				26326.725, -- [36]
+				26340.009, -- [37]
+				26342.063, -- [38]
+				26344.055, -- [39]
+				26346.05, -- [40]
+				26348.046, -- [41]
+				26349.79, -- [42]
+				26349.791, -- [43]
+				26351.849, -- [44]
+				26351.849, -- [45]
+				26355.615, -- [46]
+				26355.615, -- [47]
+				26365.598, -- [48]
+				26369.439, -- [49]
+				26369.484, -- [50]
 			},
 			["Owner"] = false,
-			["LastDamageTaken"] = 1,
-			["NextEventNum"] = 42,
+			["LastDamageTaken"] = 971,
+			["NextEventNum"] = 4,
 			["LastEventHealthNum"] = {
-				85.22322364284217, -- [1]
-				88.15761894780968, -- [2]
-				88.22049884720184, -- [3]
-				88.22049884720184, -- [4]
-				88.8283378746594, -- [5]
-				88.91217774051562, -- [6]
-				88.91217774051562, -- [7]
-				93.10417103332635, -- [8]
-				93.10417103332635, -- [9]
-				94.38272898763363, -- [10]
-				94.38272898763363, -- [11]
-				96.22720603647034, -- [12]
-				96.22720603647034, -- [13]
-				96.31104590232656, -- [14]
-				96.31104590232656, -- [15]
-				97.48480402431356, -- [16]
-				97.56864389016978, -- [17]
-				97.56864389016978, -- [18]
+				64.32613707818068, -- [1]
+				65.58373506602389, -- [2]
+				65.58373506602389, -- [3]
+				100, -- [4]
+				100, -- [5]
+				100, -- [6]
+				100, -- [7]
+				100, -- [8]
+				100, -- [9]
+				100, -- [10]
+				100, -- [11]
+				100, -- [12]
+				100, -- [13]
+				100, -- [14]
+				100, -- [15]
+				100, -- [16]
+				100, -- [17]
+				100, -- [18]
 				100, -- [19]
 				100, -- [20]
 				100, -- [21]
 				100, -- [22]
 				100, -- [23]
 				100, -- [24]
-				100, -- [25]
-				100, -- [26]
-				100, -- [27]
-				100, -- [28]
-				100, -- [29]
-				100, -- [30]
-				100, -- [31]
-				100, -- [32]
-				100, -- [33]
-				100, -- [34]
-				100, -- [35]
-				100, -- [36]
-				100, -- [37]
-				100, -- [38]
-				100, -- [39]
-				100, -- [40]
-				100, -- [41]
-				82.60322783483547, -- [42]
-				82.60322783483547, -- [43]
-				83.19010689582896, -- [44]
-				83.27394676168518, -- [45]
-				83.27394676168518, -- [46]
-				83.88178578914274, -- [47]
-				83.96562565499895, -- [48]
-				83.96562565499895, -- [49]
-				85.22322364284217, -- [50]
+				88.26241878012995, -- [25]
+				88.26241878012995, -- [26]
+				84.59442464892057, -- [27]
+				84.59442464892057, -- [28]
+				83.60930622511005, -- [29]
+				82.68706770069169, -- [30]
+				82.68706770069169, -- [31]
+				80.71683085307063, -- [32]
+				80.80067071892685, -- [33]
+				80.80067071892685, -- [34]
+				80.88451058478306, -- [35]
+				80.88451058478306, -- [36]
+				78.516034374345, -- [37]
+				78.49507440788095, -- [38]
+				78.49507440788095, -- [39]
+				78.47411444141689, -- [40]
+				78.45315447495284, -- [41]
+				78.53699434080906, -- [42]
+				78.53699434080906, -- [43]
+				79.20771326765878, -- [44]
+				79.20771326765878, -- [45]
+				80.46531125550199, -- [46]
+				80.46531125550199, -- [47]
+				63.06853909033745, -- [48]
+				64.24229721232446, -- [49]
+				64.32613707818068, -- [50]
 			},
 			["LastEvents"] = {
-				"Morridin Melee Kobold Tunneler Crit -1318 (Physical)", -- [1]
-				"Kobold Tunneler Melee Morridin Hit -1 (Physical)", -- [2]
-				"Morridin Blood Presence Morridin Tick +4", -- [3]
-				"Morridin Melee Kobold Tunneler Crit -1082 (Physical)", -- [4]
-				"Kobold Tunneler Melee Morridin Dodge", -- [5]
-				"Morridin Blood Presence Morridin Tick +4", -- [6]
-				"Morridin Heart Strike Kobold Tunneler Crit -1482 (Physical)", -- [7]
-				"Morridin Blood Presence Morridin Tick +4", -- [8]
-				"Morridin Icy Touch Kobold Tunneler Hit -328 (Frost)", -- [9]
-				"Morridin Blood Presence Morridin Tick +4", -- [10]
-				"Morridin Icy Touch Kobold Tunneler Hit -341 (Frost)", -- [11]
-				"Morridin Blood Presence Morridin Tick +4", -- [12]
-				"Morridin Melee Kobold Tunneler Glancing -3324 (Physical)", -- [13]
-				"Morridin Blood Presence Morridin Tick +4", -- [14]
-				"Morridin Heart Strike Stonetusk Boar Crit -722 (Physical)", -- [15]
-				"Forest Spider Melee Morridin Dodge", -- [16]
-				"Morridin Blood Presence Morridin Tick +4", -- [17]
-				"Morridin Melee Forest Spider Glancing -3216 (Physical)", -- [18]
-				"Morridin Blood Presence Morridin Tick +4 (1 overheal)", -- [19]
-				"Morridin Icy Touch Kobold Tunneler Hit -341 (Frost)", -- [20]
-				"Morridin Blood Presence Morridin Tick +4 (4 overheal)", -- [21]
-				"Morridin Icy Touch Kobold Tunneler Hit -337 (Frost)", -- [22]
-				"Morridin Blood Presence Morridin Tick +4 (4 overheal)", -- [23]
-				"Morridin Melee Kobold Tunneler Glancing -3861 (Physical)", -- [24]
-				"Morridin Blood Presence Morridin Tick +4 (4 overheal)", -- [25]
-				"Morridin Melee Kobold Tunneler Glancing -3576 (Physical)", -- [26]
-				"Morridin Blood Presence Morridin Tick +4 (4 overheal)", -- [27]
-				"Morridin Melee Kobold Tunneler Crit -1152 (Physical)", -- [28]
-				"Morridin Blood Presence Morridin Tick +4 (4 overheal)", -- [29]
-				"Morridin Melee Kobold Tunneler Glancing -3586 (Physical)", -- [30]
-				"Morridin Blood Presence Morridin Tick +4 (4 overheal)", -- [31]
-				"Morridin Melee Kobold Tunneler Glancing -3198 (Physical)", -- [32]
-				"Kobold Tunneler Melee Morridin Hit -1 (Physical)", -- [33]
-				"Morridin Blood Presence Morridin Tick +4 (3 overheal)", -- [34]
-				"Morridin Heart Strike Kobold Tunneler Crit -1352 (Physical)", -- [35]
-				"Morridin Blood Presence Morridin Tick +4 (4 overheal)", -- [36]
-				"Morridin Melee Kobold Tunneler Glancing -3486 (Physical)", -- [37]
-				"Morridin Blood Presence Morridin Tick +4 (4 overheal)", -- [38]
-				"Morridin Icy Touch Kobold Tunneler Hit -337 (Frost)", -- [39]
-				"Morridin Blood Presence Morridin Tick +4 (4 overheal)", -- [40]
-				"Morridin Melee Kobold Tunneler Crit -1184 (Physical)", -- [41]
+				"Morridin Melee Kobold Tunneler Glancing -3324 (Physical)", -- [1]
+				"Morridin Blood Presence Morridin Tick +4", -- [2]
+				"Morridin Icy Touch Kobold Tunneler Hit -334 (Frost)", -- [3]
+				"Morridin Blood Presence Morridin Tick +5 (5 overheal)", -- [4]
+				"Morridin Melee Kobold Miner Glancing -3368 (Physical)", -- [5]
+				"Morridin Blood Presence Morridin Tick +4 (4 overheal)", -- [6]
+				"Morridin Heart Strike Kobold Tunneler Hit -687 (Physical)", -- [7]
+				"Morridin Blood Presence Morridin Tick +4 (4 overheal)", -- [8]
+				"Morridin Heart Strike Kobold Tunneler Hit -330 (Physical)", -- [9]
+				"Kobold Miner Melee Morridin Miss", -- [10]
+				"Morridin Blood Presence Morridin Tick +4 (4 overheal)", -- [11]
+				"Morridin Melee Kobold Miner Crit -1062 (Physical)", -- [12]
+				"Kobold Miner Melee Morridin Parry", -- [13]
+				"Morridin Blood Presence Morridin Tick +4 (4 overheal)", -- [14]
+				"Morridin Melee Kobold Miner Glancing -3726 (Physical)", -- [15]
+				"Morridin Blood Presence Morridin Tick +5 (5 overheal)", -- [16]
+				"Morridin Melee Kobold Miner Crit -1086 (Physical)", -- [17]
+				"Morridin Blood Presence Morridin Tick +4 (4 overheal)", -- [18]
+				"Morridin Melee Kobold Tunneler Glancing -3592 (Physical)", -- [19]
+				"Morridin Blood Presence Morridin Tick +5 (5 overheal)", -- [20]
+				"Morridin Heart Strike Kobold Miner Crit -712 (Physical)", -- [21]
+				"Morridin Blood Presence Morridin Tick +4 (4 overheal)", -- [22]
+				"Morridin Icy Touch Kobold Miner Hit -341 (Frost)", -- [23]
+				"Morridin Rune Tap Morridin Hit +1628 (1628 overheal)", -- [24]
+				"Morridin Blood Presence Morridin Tick +4", -- [25]
+				"Morridin Icy Touch Kobold Miner Crit -661 (Frost)", -- [26]
+				"Morridin Blood Presence Morridin Tick +4", -- [27]
+				"Morridin Melee Kobold Tunneler Crit -1296 (Physical)", -- [28]
+				"Kobold Tunneler Melee Morridin Hit -1 (Physical)", -- [29]
+				"Morridin Blood Presence Morridin Tick +4", -- [30]
+				"Morridin Plague Strike Kobold Tunneler Hit -412 (Physical)", -- [31]
+				"Kobold Tunneler Melee Morridin Dodge", -- [32]
+				"Morridin Blood Presence Morridin Tick +4", -- [33]
+				"Morridin Melee Kobold Tunneler Crit -1408 (Physical)", -- [34]
+				"Morridin Blood Presence Morridin Tick +4", -- [35]
+				"Morridin Heart Strike Kobold Tunneler Crit -828 (Physical)", -- [36]
+				"Kobold Tunneler Melee Morridin Hit -1 (Physical)", -- [37]
+				"Kobold Tunneler Melee Morridin Miss", -- [38]
+				"Kobold Tunneler Melee Morridin Hit -1 (Physical)", -- [39]
+				"Kobold Tunneler Melee Morridin Hit -1 (Physical)", -- [40]
+				"Kobold Tunneler Melee Morridin Miss", -- [41]
 				"Morridin Blood Presence Morridin Tick +4", -- [42]
-				"Morridin Melee Kobold Tunneler Crit -1182 (Physical)", -- [43]
-				"Kobold Tunneler Melee Morridin Miss", -- [44]
-				"Morridin Blood Presence Morridin Tick +4", -- [45]
-				"Morridin Plague Strike Kobold Tunneler Hit -333 (Physical)", -- [46]
-				"Kobold Tunneler Melee Morridin Parry", -- [47]
-				"Morridin Blood Presence Morridin Tick +4", -- [48]
-				"Morridin Melee Kobold Tunneler Glancing -3936 (Physical)", -- [49]
+				"Morridin Melee Kobold Tunneler Glancing -3720 (Physical)", -- [43]
+				"Morridin Blood Presence Morridin Tick +4", -- [44]
+				"Morridin Icy Touch Kobold Tunneler Hit -335 (Frost)", -- [45]
+				"Morridin Blood Presence Morridin Tick +4", -- [46]
+				"Morridin Death Coil Kobold Tunneler Crit -801 (Shadow)", -- [47]
+				"Environment Falling Morridin Hit -971 (Physical)", -- [48]
+				"Kobold Tunneler Melee Morridin Dodge", -- [49]
 				"Morridin Blood Presence Morridin Tick +4", -- [50]
 			},
 			["Name"] = "Morridin",
 			["LastEventIncoming"] = {
 				false, -- [1]
 				true, -- [2]
-				true, -- [3]
-				false, -- [4]
-				true, -- [5]
+				false, -- [3]
+				true, -- [4]
+				false, -- [5]
 				true, -- [6]
 				false, -- [7]
 				true, -- [8]
 				false, -- [9]
 				true, -- [10]
-				false, -- [11]
-				true, -- [12]
-				false, -- [13]
+				true, -- [11]
+				false, -- [12]
+				true, -- [13]
 				true, -- [14]
 				false, -- [15]
 				true, -- [16]
-				true, -- [17]
-				false, -- [18]
-				true, -- [19]
-				false, -- [20]
-				true, -- [21]
-				false, -- [22]
-				true, -- [23]
-				false, -- [24]
+				false, -- [17]
+				true, -- [18]
+				false, -- [19]
+				true, -- [20]
+				false, -- [21]
+				true, -- [22]
+				false, -- [23]
+				true, -- [24]
 				true, -- [25]
 				false, -- [26]
 				true, -- [27]
 				false, -- [28]
 				true, -- [29]
-				false, -- [30]
-				true, -- [31]
-				false, -- [32]
+				true, -- [30]
+				false, -- [31]
+				true, -- [32]
 				true, -- [33]
-				true, -- [34]
-				false, -- [35]
-				true, -- [36]
-				false, -- [37]
+				false, -- [34]
+				true, -- [35]
+				false, -- [36]
+				true, -- [37]
 				true, -- [38]
-				false, -- [39]
+				true, -- [39]
 				true, -- [40]
-				false, -- [41]
+				true, -- [41]
 				true, -- [42]
 				false, -- [43]
 				true, -- [44]
-				true, -- [45]
-				false, -- [46]
-				true, -- [47]
+				false, -- [45]
+				true, -- [46]
+				false, -- [47]
 				true, -- [48]
-				false, -- [49]
+				true, -- [49]
 				true, -- [50]
 			},
 			["TimeLast"] = {
-				["TimeHeal"] = 1689762544,
-				["OVERALL"] = 1689762629,
-				["DamageTaken"] = 1689762544,
-				["HOT_Time"] = 1689762544,
-				["HealingTaken"] = 1689762544,
-				["Overhealing"] = 1689762544,
-				["TimeDamage"] = 1689762629,
-				["Healing"] = 1689762544,
-				["ActiveTime"] = 1689762629,
+				["TimeHeal"] = 1689774483,
+				["OVERALL"] = 1689774487,
+				["DamageTaken"] = 1689774479,
+				["HOT_Time"] = 1689774483,
+				["HealingTaken"] = 1689774483,
+				["Overhealing"] = 1689774404,
+				["TimeDamage"] = 1689774487,
+				["Healing"] = 1689774483,
+				["ActiveTime"] = 1689774487,
 				["DOT_Time"] = 1689546573,
-				["Damage"] = 1689762629,
+				["Damage"] = 1689774487,
 			},
 			["Fights"] = {
 				["OverallData"] = {
 					["ElementDoneBlock"] = {
 						["Melee"] = 31,
-						["Physical"] = 63,
+						["Physical"] = 120,
 					},
 					["TimeHealing"] = {
 						["Morridin"] = {
@@ -413,13 +414,16 @@ RecountPerCharDB = {
 									["count"] = 3.88,
 								},
 								["Blood Presence"] = {
-									["count"] = 475.21,
+									["count"] = 963.5799999999999,
 								},
 								["Death Strike"] = {
 									["count"] = 1.14,
 								},
+								["Rune Tap"] = {
+									["count"] = 0.59,
+								},
 							},
-							["amount"] = 480.2300000000001,
+							["amount"] = 969.1900000000001,
 						},
 					},
 					["DOTs"] = {
@@ -445,25 +449,16 @@ RecountPerCharDB = {
 						["Frost"] = 865,
 					},
 					["TimeSpent"] = {
-						["Kobold Miner"] = {
+						["Forest Spider"] = {
 							["Details"] = {
 								["Melee"] = {
-									["count"] = 483.3700000000003,
+									["count"] = 0,
 								},
 								["Icy Touch"] = {
-									["count"] = 273.67,
-								},
-								["Plague Strike"] = {
-									["count"] = 22.38,
-								},
-								["Heart Strike"] = {
-									["count"] = 52.39000000000001,
-								},
-								["Death Coil"] = {
-									["count"] = 8.949999999999999,
+									["count"] = 3.5,
 								},
 							},
-							["amount"] = 840.7600000000002,
+							["amount"] = 3.5,
 						},
 						["Morridin"] = {
 							["Details"] = {
@@ -471,63 +466,102 @@ RecountPerCharDB = {
 									["count"] = 3.88,
 								},
 								["Blood Presence"] = {
-									["count"] = 475.21,
+									["count"] = 963.5799999999999,
 								},
 								["Death Strike"] = {
 									["count"] = 1.14,
 								},
+								["Rune Tap"] = {
+									["count"] = 0.59,
+								},
 							},
-							["amount"] = 480.2300000000001,
+							["amount"] = 969.1900000000001,
 						},
 						["Goldtooth"] = {
 							["Details"] = {
 								["Icy Touch"] = {
-									["count"] = 5.22,
+									["count"] = 15.52,
 								},
 								["Heart Strike"] = {
-									["count"] = 2.61,
+									["count"] = 9.370000000000001,
 								},
 								["Melee"] = {
-									["count"] = 13.42,
+									["count"] = 50.44000000000001,
+								},
+								["Plague Strike"] = {
+									["count"] = 3.01,
 								},
 							},
-							["amount"] = 21.25,
+							["amount"] = 78.34,
 						},
-						["Stonetusk Boar"] = {
+						["Patchwerk"] = {
 							["Details"] = {
+								["Melee"] = {
+									["count"] = 0.5,
+								},
+								["Frost Fever (DoT)"] = {
+									["count"] = 6.609999999999999,
+								},
+								["Blood Plague (DoT)"] = {
+									["count"] = 2.86,
+								},
+								["Plague Strike"] = {
+									["count"] = 0,
+								},
+								["Death Coil"] = {
+									["count"] = 0,
+								},
 								["Heart Strike"] = {
-									["count"] = 0.11,
+									["count"] = 0,
 								},
-							},
-							["amount"] = 0.11,
-						},
-						["Forest Spider"] = {
-							["Details"] = {
-								["Melee"] = {
+								["Death Strike"] = {
+									["count"] = 0.73,
+								},
+								["Icy Touch"] = {
 									["count"] = 0,
 								},
 							},
-							["amount"] = 0,
+							["amount"] = 10.7,
+						},
+						["Kobold Miner"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 933.9900000000001,
+								},
+								["Icy Touch"] = {
+									["count"] = 692.2200000000003,
+								},
+								["Plague Strike"] = {
+									["count"] = 38.11,
+								},
+								["Heart Strike"] = {
+									["count"] = 83.94,
+								},
+								["Death Coil"] = {
+									["count"] = 34.41,
+								},
+							},
+							["amount"] = 1782.67,
 						},
 						["Kobold Tunneler"] = {
 							["Details"] = {
 								["Melee"] = {
-									["count"] = 664.01,
+									["count"] = 1363.110000000001,
 								},
 								["Icy Touch"] = {
-									["count"] = 331.1000000000001,
+									["count"] = 809.4100000000001,
 								},
 								["Plague Strike"] = {
-									["count"] = 34.37,
+									["count"] = 80.86,
 								},
 								["Heart Strike"] = {
-									["count"] = 53.05999999999999,
+									["count"] = 89.88000000000001,
 								},
 								["Death Coil"] = {
-									["count"] = 28.96,
+									["count"] = 48.2,
 								},
 							},
-							["amount"] = 1111.5,
+							["amount"] = 2391.460000000001,
 						},
 						["Narg the Taskmaster"] = {
 							["Details"] = {
@@ -537,50 +571,40 @@ RecountPerCharDB = {
 							},
 							["amount"] = 3.5,
 						},
-						["Patchwerk"] = {
+						["Stonetusk Boar"] = {
 							["Details"] = {
-								["Blood Plague (DoT)"] = {
-									["count"] = 2.86,
-								},
-								["Frost Fever (DoT)"] = {
-									["count"] = 6.609999999999999,
-								},
-								["Melee"] = {
-									["count"] = 0.5,
-								},
-								["Plague Strike"] = {
-									["count"] = 0,
-								},
-								["Icy Touch"] = {
-									["count"] = 0,
-								},
 								["Heart Strike"] = {
-									["count"] = 0,
-								},
-								["Death Strike"] = {
-									["count"] = 0.73,
-								},
-								["Death Coil"] = {
-									["count"] = 0,
+									["count"] = 0.11,
 								},
 							},
-							["amount"] = 10.7,
+							["amount"] = 0.11,
 						},
 					},
 					["WhoHealed"] = {
+						["Mewhex"] = {
+							["Details"] = {
+								["Judgement of Light"] = {
+									["count"] = 52,
+								},
+							},
+							["amount"] = 52,
+						},
 						["Morridin"] = {
 							["Details"] = {
 								["The Might of Mograine"] = {
 									["count"] = 7054,
 								},
 								["Blood Presence"] = {
-									["count"] = 2223,
+									["count"] = 2808,
 								},
 								["Death Strike"] = {
 									["count"] = 1216,
 								},
+								["Rune Tap"] = {
+									["count"] = 1029,
+								},
 							},
-							["amount"] = 10493,
+							["amount"] = 12107,
 						},
 						["Patchwerk"] = {
 							["Details"] = {
@@ -605,11 +629,11 @@ RecountPerCharDB = {
 								["No Resist"] = {
 									["max"] = 0,
 									["min"] = 0,
-									["count"] = 2,
+									["count"] = 10,
 									["amount"] = 0,
 								},
 							},
-							["count"] = 2,
+							["count"] = 10,
 							["amount"] = 0,
 						},
 						["Melee"] = {
@@ -617,11 +641,11 @@ RecountPerCharDB = {
 								["No Resist"] = {
 									["max"] = 0,
 									["min"] = 0,
-									["count"] = 403,
+									["count"] = 975,
 									["amount"] = 0,
 								},
 							},
-							["count"] = 403,
+							["count"] = 975,
 							["amount"] = 0,
 						},
 						["Pierce Armor"] = {
@@ -629,25 +653,26 @@ RecountPerCharDB = {
 								["No Resist"] = {
 									["max"] = 0,
 									["min"] = 0,
-									["count"] = 1,
+									["count"] = 5,
 									["amount"] = 0,
 								},
 							},
-							["count"] = 1,
+							["count"] = 5,
 							["amount"] = 0,
 						},
 					},
+					["HOT_Time"] = 2427,
 					["PartialAbsorb"] = {
 						["Falling"] = {
 							["Details"] = {
 								["No Absorb"] = {
 									["max"] = 0,
 									["min"] = 0,
-									["count"] = 2,
+									["count"] = 10,
 									["amount"] = 0,
 								},
 							},
-							["count"] = 2,
+							["count"] = 10,
 							["amount"] = 0,
 						},
 						["Melee"] = {
@@ -655,11 +680,11 @@ RecountPerCharDB = {
 								["No Absorb"] = {
 									["max"] = 0,
 									["min"] = 0,
-									["count"] = 403,
+									["count"] = 975,
 									["amount"] = 0,
 								},
 							},
-							["count"] = 403,
+							["count"] = 975,
 							["amount"] = 0,
 						},
 						["Pierce Armor"] = {
@@ -667,16 +692,20 @@ RecountPerCharDB = {
 								["No Absorb"] = {
 									["max"] = 0,
 									["min"] = 0,
-									["count"] = 1,
+									["count"] = 5,
 									["amount"] = 0,
 								},
 							},
-							["count"] = 1,
+							["count"] = 5,
 							["amount"] = 0,
 						},
 					},
-					["HOT_Time"] = 1281,
-					["ActiveTime"] = 2468.050000000001,
+					["ActiveTime"] = 5239.470000000008,
+					["DOT_Time"] = 30,
+					["ElementTaken"] = {
+						["Melee"] = 9357,
+						["Physical"] = 8556,
+					},
 					["HOTs"] = {
 						["The Might of Mograine"] = {
 							["Details"] = {
@@ -689,18 +718,13 @@ RecountPerCharDB = {
 						["Blood Presence"] = {
 							["Details"] = {
 								["Morridin"] = {
-									["count"] = 1251,
+									["count"] = 2397,
 								},
 							},
-							["amount"] = 1251,
+							["amount"] = 2397,
 						},
 					},
-					["ElementTaken"] = {
-						["Melee"] = 9110,
-						["Physical"] = 934,
-					},
-					["DOT_Time"] = 30,
-					["Damage"] = 1244245,
+					["Damage"] = 2493021,
 					["OverHeals"] = {
 						["The Might of Mograine"] = {
 							["Details"] = {
@@ -719,12 +743,12 @@ RecountPerCharDB = {
 								["Tick"] = {
 									["max"] = 112,
 									["min"] = 1,
-									["count"] = 329,
-									["amount"] = 1490,
+									["count"] = 590,
+									["amount"] = 2502,
 								},
 							},
-							["count"] = 329,
-							["amount"] = 1490,
+							["count"] = 590,
+							["amount"] = 2502,
 						},
 						["Death Strike"] = {
 							["Details"] = {
@@ -737,6 +761,582 @@ RecountPerCharDB = {
 							},
 							["count"] = 2,
 							["amount"] = 4694,
+						},
+						["Rune Tap"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 19,
+									["min"] = 19,
+									["count"] = 1,
+									["amount"] = 19,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 19,
+						},
+					},
+					["TimeHeal"] = 969.1900000000001,
+					["WhoDamaged"] = {
+						["Mangy Wolf"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 1,
+						},
+						["Goldtooth"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 20,
+								},
+							},
+							["amount"] = 20,
+						},
+						["Patchwerk"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 8948,
+								},
+							},
+							["amount"] = 8948,
+						},
+						["Kobold Miner"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 170,
+								},
+							},
+							["amount"] = 170,
+						},
+						["Kobold Tunneler"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 218,
+								},
+							},
+							["amount"] = 218,
+						},
+						["Environment"] = {
+							["Details"] = {
+								["Falling"] = {
+									["count"] = 8556,
+								},
+							},
+							["amount"] = 8556,
+						},
+					},
+					["ElementHitsTaken"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 367,
+								},
+								["Miss"] = {
+									["count"] = 145,
+								},
+								["Dodge"] = {
+									["count"] = 262,
+								},
+								["Crit"] = {
+									["count"] = 3,
+								},
+								["Parry"] = {
+									["count"] = 198,
+								},
+							},
+							["amount"] = 975,
+						},
+						["Physical"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 10,
+								},
+								["Dodge"] = {
+									["count"] = 5,
+								},
+							},
+							["amount"] = 15,
+						},
+					},
+					["DamagedWho"] = {
+						["Forest Spider"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 3216,
+								},
+								["Icy Touch"] = {
+									["count"] = 661,
+								},
+							},
+							["amount"] = 3877,
+						},
+						["Goldtooth"] = {
+							["Details"] = {
+								["Icy Touch"] = {
+									["count"] = 1664,
+								},
+								["Heart Strike"] = {
+									["count"] = 12634,
+								},
+								["Melee"] = {
+									["count"] = 47287,
+								},
+								["Plague Strike"] = {
+									["count"] = 728,
+								},
+							},
+							["amount"] = 62313,
+						},
+						["Patchwerk"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 14566,
+								},
+								["Frost Fever (DoT)"] = {
+									["count"] = 2889,
+								},
+								["Blood Plague (DoT)"] = {
+									["count"] = 2617,
+								},
+								["Plague Strike"] = {
+									["count"] = 1472,
+								},
+								["Death Coil"] = {
+									["count"] = 6287,
+								},
+								["Heart Strike"] = {
+									["count"] = 23242,
+								},
+								["Death Strike"] = {
+									["count"] = 5579,
+								},
+								["Icy Touch"] = {
+									["count"] = 1585,
+								},
+							},
+							["amount"] = 58237,
+						},
+						["Kobold Miner"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 754093,
+								},
+								["Icy Touch"] = {
+									["count"] = 83957,
+								},
+								["Plague Strike"] = {
+									["count"] = 22969,
+								},
+								["Heart Strike"] = {
+									["count"] = 93989,
+								},
+								["Death Coil"] = {
+									["count"] = 5257,
+								},
+							},
+							["amount"] = 960265,
+						},
+						["Kobold Tunneler"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 1127511,
+								},
+								["Icy Touch"] = {
+									["count"] = 96096,
+								},
+								["Plague Strike"] = {
+									["count"] = 34621,
+								},
+								["Heart Strike"] = {
+									["count"] = 139447,
+								},
+								["Death Coil"] = {
+									["count"] = 8462,
+								},
+							},
+							["amount"] = 1406137,
+						},
+						["Narg the Taskmaster"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 1102,
+								},
+							},
+							["amount"] = 1102,
+						},
+						["Stonetusk Boar"] = {
+							["Details"] = {
+								["Heart Strike"] = {
+									["count"] = 1090,
+								},
+							},
+							["amount"] = 1090,
+						},
+					},
+					["Healing"] = 12107,
+					["Overhealing"] = 49411,
+					["Attacks"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Glancing"] = {
+									["max"] = 4632,
+									["min"] = 1681,
+									["count"] = 360,
+									["amount"] = 1278128,
+								},
+								["Miss"] = {
+									["count"] = 1,
+									["amount"] = 0,
+								},
+								["Hit (Blocked)"] = {
+									["max"] = 2343,
+									["min"] = 2343,
+									["count"] = 1,
+									["amount"] = 2343,
+								},
+								["Crit"] = {
+									["max"] = 4598,
+									["min"] = 1034,
+									["count"] = 554,
+									["amount"] = 665154,
+								},
+								["Hit"] = {
+									["max"] = 2150,
+									["min"] = 2150,
+									["count"] = 1,
+									["amount"] = 2150,
+								},
+							},
+							["count"] = 917,
+							["amount"] = 1947775,
+						},
+						["Frost Fever (DoT)"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 605,
+									["min"] = 538,
+									["count"] = 5,
+									["amount"] = 2889,
+								},
+							},
+							["count"] = 5,
+							["amount"] = 2889,
+						},
+						["Blood Plague (DoT)"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 566,
+									["min"] = 495,
+									["count"] = 5,
+									["amount"] = 2617,
+								},
+							},
+							["count"] = 5,
+							["amount"] = 2617,
+						},
+						["Plague Strike"] = {
+							["Details"] = {
+								["Hit (Blocked)"] = {
+									["max"] = 360,
+									["min"] = 333,
+									["count"] = 5,
+									["amount"] = 1728,
+								},
+								["Crit (Blocked)"] = {
+									["max"] = 760,
+									["min"] = 663,
+									["count"] = 8,
+									["amount"] = 5693,
+								},
+								["Crit"] = {
+									["max"] = 904,
+									["min"] = 670,
+									["count"] = 61,
+									["amount"] = 44356,
+								},
+								["Hit"] = {
+									["max"] = 1472,
+									["min"] = 330,
+									["count"] = 19,
+									["amount"] = 8013,
+								},
+							},
+							["count"] = 93,
+							["amount"] = 59790,
+						},
+						["Death Coil"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 802,
+									["min"] = 801,
+									["count"] = 5,
+									["amount"] = 4006,
+								},
+								["Hit"] = {
+									["max"] = 2177,
+									["min"] = 400,
+									["count"] = 27,
+									["amount"] = 16000,
+								},
+							},
+							["count"] = 32,
+							["amount"] = 20006,
+						},
+						["Heart Strike"] = {
+							["Details"] = {
+								["Crit (Blocked)"] = {
+									["max"] = 1682,
+									["min"] = 657,
+									["count"] = 22,
+									["amount"] = 25542,
+								},
+								["Hit (Blocked)"] = {
+									["max"] = 848,
+									["min"] = 337,
+									["count"] = 7,
+									["amount"] = 3303,
+								},
+								["Crit"] = {
+									["max"] = 7138,
+									["min"] = 648,
+									["count"] = 180,
+									["amount"] = 186388,
+								},
+								["Hit"] = {
+									["max"] = 3610,
+									["min"] = 326,
+									["count"] = 82,
+									["amount"] = 55169,
+								},
+							},
+							["count"] = 291,
+							["amount"] = 270402,
+						},
+						["Death Strike"] = {
+							["Details"] = {
+								["Dodge"] = {
+									["count"] = 1,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 2810,
+									["min"] = 2769,
+									["count"] = 2,
+									["amount"] = 5579,
+								},
+							},
+							["count"] = 3,
+							["amount"] = 5579,
+						},
+						["Icy Touch"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 1585,
+									["min"] = 327,
+									["count"] = 436,
+									["amount"] = 147779,
+								},
+								["Crit"] = {
+									["max"] = 730,
+									["min"] = 655,
+									["count"] = 54,
+									["amount"] = 36184,
+								},
+								["Evade"] = {
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 491,
+							["amount"] = 183963,
+						},
+					},
+					["ElementDone"] = {
+						["Frost"] = 186852,
+						["Physical"] = 335771,
+						["Melee"] = 1947775,
+						["Shadow"] = 22623,
+					},
+					["HealingTaken"] = 15377,
+					["ElementHitsDone"] = {
+						["Frost"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 436,
+								},
+								["Tick"] = {
+									["count"] = 5,
+								},
+								["Crit"] = {
+									["count"] = 54,
+								},
+								["Evade"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 496,
+						},
+						["Physical"] = {
+							["Details"] = {
+								["Dodge"] = {
+									["count"] = 1,
+								},
+								["Crit"] = {
+									["count"] = 271,
+								},
+								["Hit"] = {
+									["count"] = 115,
+								},
+							},
+							["amount"] = 387,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Glancing"] = {
+									["count"] = 360,
+								},
+								["Hit"] = {
+									["count"] = 2,
+								},
+								["Crit"] = {
+									["count"] = 554,
+								},
+								["Miss"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 917,
+						},
+						["Shadow"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 27,
+								},
+								["Crit"] = {
+									["count"] = 5,
+								},
+								["Tick"] = {
+									["count"] = 5,
+								},
+							},
+							["amount"] = 37,
+						},
+					},
+					["TimeDamage"] = 4270.280000000003,
+					["TimeDamaging"] = {
+						["Forest Spider"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Icy Touch"] = {
+									["count"] = 3.5,
+								},
+							},
+							["amount"] = 3.5,
+						},
+						["Goldtooth"] = {
+							["Details"] = {
+								["Icy Touch"] = {
+									["count"] = 15.52,
+								},
+								["Heart Strike"] = {
+									["count"] = 9.370000000000001,
+								},
+								["Melee"] = {
+									["count"] = 50.44000000000001,
+								},
+								["Plague Strike"] = {
+									["count"] = 3.01,
+								},
+							},
+							["amount"] = 78.34,
+						},
+						["Patchwerk"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0.5,
+								},
+								["Frost Fever (DoT)"] = {
+									["count"] = 6.609999999999999,
+								},
+								["Blood Plague (DoT)"] = {
+									["count"] = 2.86,
+								},
+								["Plague Strike"] = {
+									["count"] = 0,
+								},
+								["Death Coil"] = {
+									["count"] = 0,
+								},
+								["Heart Strike"] = {
+									["count"] = 0,
+								},
+								["Death Strike"] = {
+									["count"] = 0.73,
+								},
+								["Icy Touch"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 10.7,
+						},
+						["Kobold Miner"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 933.9900000000001,
+								},
+								["Icy Touch"] = {
+									["count"] = 692.2200000000003,
+								},
+								["Plague Strike"] = {
+									["count"] = 38.11,
+								},
+								["Heart Strike"] = {
+									["count"] = 83.94,
+								},
+								["Death Coil"] = {
+									["count"] = 34.41,
+								},
+							},
+							["amount"] = 1782.67,
+						},
+						["Kobold Tunneler"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 1363.110000000001,
+								},
+								["Icy Touch"] = {
+									["count"] = 809.4100000000001,
+								},
+								["Plague Strike"] = {
+									["count"] = 80.86,
+								},
+								["Heart Strike"] = {
+									["count"] = 89.88000000000001,
+								},
+								["Death Coil"] = {
+									["count"] = 48.2,
+								},
+							},
+							["amount"] = 2391.460000000001,
+						},
+						["Narg the Taskmaster"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 3.5,
+								},
+							},
+							["amount"] = 3.5,
+						},
+						["Stonetusk Boar"] = {
+							["Details"] = {
+								["Heart Strike"] = {
+									["count"] = 0.11,
+								},
+							},
+							["amount"] = 0.11,
 						},
 					},
 					["Heals"] = {
@@ -757,12 +1357,12 @@ RecountPerCharDB = {
 								["Tick"] = {
 									["max"] = 285,
 									["min"] = 1,
-									["count"] = 179,
-									["amount"] = 2223,
+									["count"] = 368,
+									["amount"] = 2808,
 								},
 							},
-							["count"] = 179,
-							["amount"] = 2223,
+							["count"] = 368,
+							["amount"] = 2808,
 						},
 						["Death Strike"] = {
 							["Details"] = {
@@ -776,559 +1376,19 @@ RecountPerCharDB = {
 							["count"] = 2,
 							["amount"] = 1216,
 						},
-					},
-					["WhoDamaged"] = {
-						["Mangy Wolf"] = {
+						["Rune Tap"] = {
 							["Details"] = {
-								["Melee"] = {
+								["Hit"] = {
+									["max"] = 1029,
+									["min"] = 1029,
 									["count"] = 1,
+									["amount"] = 1029,
 								},
 							},
-							["amount"] = 1,
-						},
-						["Goldtooth"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 14,
-								},
-							},
-							["amount"] = 14,
-						},
-						["Patchwerk"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 8948,
-								},
-							},
-							["amount"] = 8948,
-						},
-						["Kobold Miner"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 80,
-								},
-							},
-							["amount"] = 80,
-						},
-						["Kobold Tunneler"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 67,
-								},
-							},
-							["amount"] = 67,
-						},
-						["Environment"] = {
-							["Details"] = {
-								["Falling"] = {
-									["count"] = 934,
-								},
-							},
-							["amount"] = 934,
+							["count"] = 1,
+							["amount"] = 1029,
 						},
 					},
-					["ElementHitsTaken"] = {
-						["Melee"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 144,
-								},
-								["Miss"] = {
-									["count"] = 58,
-								},
-								["Dodge"] = {
-									["count"] = 110,
-								},
-								["Crit"] = {
-									["count"] = 2,
-								},
-								["Parry"] = {
-									["count"] = 89,
-								},
-							},
-							["amount"] = 403,
-						},
-						["Physical"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 2,
-								},
-								["Dodge"] = {
-									["count"] = 1,
-								},
-							},
-							["amount"] = 3,
-						},
-					},
-					["DamagedWho"] = {
-						["Kobold Miner"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 376612,
-								},
-								["Icy Touch"] = {
-									["count"] = 32204,
-								},
-								["Plague Strike"] = {
-									["count"] = 9844,
-								},
-								["Heart Strike"] = {
-									["count"] = 56019,
-								},
-								["Death Coil"] = {
-									["count"] = 1251,
-								},
-							},
-							["amount"] = 475930,
-						},
-						["Goldtooth"] = {
-							["Details"] = {
-								["Icy Touch"] = {
-									["count"] = 670,
-								},
-								["Heart Strike"] = {
-									["count"] = 8996,
-								},
-								["Melee"] = {
-									["count"] = 16252,
-								},
-							},
-							["amount"] = 25918,
-						},
-						["Stonetusk Boar"] = {
-							["Details"] = {
-								["Heart Strike"] = {
-									["count"] = 1090,
-								},
-							},
-							["amount"] = 1090,
-						},
-						["Forest Spider"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 3216,
-								},
-							},
-							["amount"] = 3216,
-						},
-						["Kobold Tunneler"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 544335,
-								},
-								["Icy Touch"] = {
-									["count"] = 38720,
-								},
-								["Plague Strike"] = {
-									["count"] = 13562,
-								},
-								["Heart Strike"] = {
-									["count"] = 77729,
-								},
-								["Death Coil"] = {
-									["count"] = 4406,
-								},
-							},
-							["amount"] = 678752,
-						},
-						["Narg the Taskmaster"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 1102,
-								},
-							},
-							["amount"] = 1102,
-						},
-						["Patchwerk"] = {
-							["Details"] = {
-								["Blood Plague (DoT)"] = {
-									["count"] = 2617,
-								},
-								["Frost Fever (DoT)"] = {
-									["count"] = 2889,
-								},
-								["Melee"] = {
-									["count"] = 14566,
-								},
-								["Plague Strike"] = {
-									["count"] = 1472,
-								},
-								["Icy Touch"] = {
-									["count"] = 1585,
-								},
-								["Heart Strike"] = {
-									["count"] = 23242,
-								},
-								["Death Strike"] = {
-									["count"] = 5579,
-								},
-								["Death Coil"] = {
-									["count"] = 6287,
-								},
-							},
-							["amount"] = 58237,
-						},
-					},
-					["Healing"] = 10493,
-					["Overhealing"] = 48380,
-					["Attacks"] = {
-						["Blood Plague (DoT)"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 566,
-									["min"] = 495,
-									["count"] = 5,
-									["amount"] = 2617,
-								},
-							},
-							["count"] = 5,
-							["amount"] = 2617,
-						},
-						["Frost Fever (DoT)"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 605,
-									["min"] = 538,
-									["count"] = 5,
-									["amount"] = 2889,
-								},
-							},
-							["count"] = 5,
-							["amount"] = 2889,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["Glancing"] = {
-									["max"] = 4632,
-									["min"] = 1681,
-									["count"] = 177,
-									["amount"] = 623292,
-								},
-								["Miss"] = {
-									["count"] = 1,
-									["amount"] = 0,
-								},
-								["Hit (Blocked)"] = {
-									["max"] = 2343,
-									["min"] = 2343,
-									["count"] = 1,
-									["amount"] = 2343,
-								},
-								["Crit"] = {
-									["max"] = 4598,
-									["min"] = 1034,
-									["count"] = 273,
-									["amount"] = 328298,
-								},
-								["Hit"] = {
-									["max"] = 2150,
-									["min"] = 2150,
-									["count"] = 1,
-									["amount"] = 2150,
-								},
-							},
-							["count"] = 453,
-							["amount"] = 956083,
-						},
-						["Plague Strike"] = {
-							["Details"] = {
-								["Hit (Blocked)"] = {
-									["max"] = 352,
-									["min"] = 333,
-									["count"] = 3,
-									["amount"] = 1035,
-								},
-								["Crit (Blocked)"] = {
-									["max"] = 751,
-									["min"] = 689,
-									["count"] = 4,
-									["amount"] = 2852,
-								},
-								["Crit"] = {
-									["max"] = 904,
-									["min"] = 674,
-									["count"] = 22,
-									["amount"] = 16264,
-								},
-								["Hit"] = {
-									["max"] = 1472,
-									["min"] = 330,
-									["count"] = 10,
-									["amount"] = 4727,
-								},
-							},
-							["count"] = 39,
-							["amount"] = 24878,
-						},
-						["Icy Touch"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 1585,
-									["min"] = 328,
-									["count"] = 176,
-									["amount"] = 60454,
-								},
-								["Crit"] = {
-									["max"] = 682,
-									["min"] = 655,
-									["count"] = 19,
-									["amount"] = 12725,
-								},
-								["Evade"] = {
-									["count"] = 1,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 196,
-							["amount"] = 73179,
-						},
-						["Heart Strike"] = {
-							["Details"] = {
-								["Crit (Blocked)"] = {
-									["max"] = 1682,
-									["min"] = 657,
-									["count"] = 13,
-									["amount"] = 16179,
-								},
-								["Hit (Blocked)"] = {
-									["max"] = 677,
-									["min"] = 358,
-									["count"] = 2,
-									["amount"] = 1035,
-								},
-								["Crit"] = {
-									["max"] = 7138,
-									["min"] = 648,
-									["count"] = 108,
-									["amount"] = 114842,
-								},
-								["Hit"] = {
-									["max"] = 3610,
-									["min"] = 326,
-									["count"] = 40,
-									["amount"] = 35020,
-								},
-							},
-							["count"] = 163,
-							["amount"] = 167076,
-						},
-						["Death Strike"] = {
-							["Details"] = {
-								["Dodge"] = {
-									["count"] = 1,
-									["amount"] = 0,
-								},
-								["Hit"] = {
-									["max"] = 2810,
-									["min"] = 2769,
-									["count"] = 2,
-									["amount"] = 5579,
-								},
-							},
-							["count"] = 3,
-							["amount"] = 5579,
-						},
-						["Death Coil"] = {
-							["Details"] = {
-								["Crit"] = {
-									["max"] = 801,
-									["min"] = 801,
-									["count"] = 2,
-									["amount"] = 1602,
-								},
-								["Hit"] = {
-									["max"] = 2177,
-									["min"] = 400,
-									["count"] = 13,
-									["amount"] = 10342,
-								},
-							},
-							["count"] = 15,
-							["amount"] = 11944,
-						},
-					},
-					["ElementDone"] = {
-						["Shadow"] = 14561,
-						["Frost"] = 76068,
-						["Melee"] = 956083,
-						["Physical"] = 197533,
-					},
-					["HealingTaken"] = 13711,
-					["ElementHitsDone"] = {
-						["Shadow"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 13,
-								},
-								["Crit"] = {
-									["count"] = 2,
-								},
-								["Tick"] = {
-									["count"] = 5,
-								},
-							},
-							["amount"] = 20,
-						},
-						["Frost"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 176,
-								},
-								["Tick"] = {
-									["count"] = 5,
-								},
-								["Crit"] = {
-									["count"] = 19,
-								},
-								["Evade"] = {
-									["count"] = 1,
-								},
-							},
-							["amount"] = 201,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["Glancing"] = {
-									["count"] = 177,
-								},
-								["Hit"] = {
-									["count"] = 2,
-								},
-								["Crit"] = {
-									["count"] = 273,
-								},
-								["Miss"] = {
-									["count"] = 1,
-								},
-							},
-							["amount"] = 453,
-						},
-						["Physical"] = {
-							["Details"] = {
-								["Dodge"] = {
-									["count"] = 1,
-								},
-								["Crit"] = {
-									["count"] = 147,
-								},
-								["Hit"] = {
-									["count"] = 57,
-								},
-							},
-							["amount"] = 205,
-						},
-					},
-					["TimeDamage"] = 1987.820000000001,
-					["TimeDamaging"] = {
-						["Kobold Miner"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 483.3700000000003,
-								},
-								["Icy Touch"] = {
-									["count"] = 273.67,
-								},
-								["Plague Strike"] = {
-									["count"] = 22.38,
-								},
-								["Heart Strike"] = {
-									["count"] = 52.39000000000001,
-								},
-								["Death Coil"] = {
-									["count"] = 8.949999999999999,
-								},
-							},
-							["amount"] = 840.7600000000002,
-						},
-						["Goldtooth"] = {
-							["Details"] = {
-								["Icy Touch"] = {
-									["count"] = 5.22,
-								},
-								["Heart Strike"] = {
-									["count"] = 2.61,
-								},
-								["Melee"] = {
-									["count"] = 13.42,
-								},
-							},
-							["amount"] = 21.25,
-						},
-						["Stonetusk Boar"] = {
-							["Details"] = {
-								["Heart Strike"] = {
-									["count"] = 0.11,
-								},
-							},
-							["amount"] = 0.11,
-						},
-						["Forest Spider"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Kobold Tunneler"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 664.01,
-								},
-								["Icy Touch"] = {
-									["count"] = 331.1000000000001,
-								},
-								["Plague Strike"] = {
-									["count"] = 34.37,
-								},
-								["Heart Strike"] = {
-									["count"] = 53.05999999999999,
-								},
-								["Death Coil"] = {
-									["count"] = 28.96,
-								},
-							},
-							["amount"] = 1111.5,
-						},
-						["Narg the Taskmaster"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 3.5,
-								},
-							},
-							["amount"] = 3.5,
-						},
-						["Patchwerk"] = {
-							["Details"] = {
-								["Blood Plague (DoT)"] = {
-									["count"] = 2.86,
-								},
-								["Frost Fever (DoT)"] = {
-									["count"] = 6.609999999999999,
-								},
-								["Melee"] = {
-									["count"] = 0.5,
-								},
-								["Plague Strike"] = {
-									["count"] = 0,
-								},
-								["Icy Touch"] = {
-									["count"] = 0,
-								},
-								["Heart Strike"] = {
-									["count"] = 0,
-								},
-								["Death Strike"] = {
-									["count"] = 0.73,
-								},
-								["Death Coil"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 10.7,
-						},
-					},
-					["TimeHeal"] = 480.2300000000001,
 					["HealedWho"] = {
 						["Morridin"] = {
 							["Details"] = {
@@ -1336,16 +1396,19 @@ RecountPerCharDB = {
 									["count"] = 7054,
 								},
 								["Blood Presence"] = {
-									["count"] = 2223,
+									["count"] = 2808,
 								},
 								["Death Strike"] = {
 									["count"] = 1216,
 								},
+								["Rune Tap"] = {
+									["count"] = 1029,
+								},
 							},
-							["amount"] = 10493,
+							["amount"] = 12107,
 						},
 					},
-					["DamageTaken"] = 10044,
+					["DamageTaken"] = 17913,
 				},
 				["Fight5"] = {
 					["DOTs"] = {
@@ -1353,78 +1416,68 @@ RecountPerCharDB = {
 					["ElementDoneResist"] = {
 					},
 					["Ressed"] = 0,
-					["DamageTaken"] = 2,
+					["DamageTaken"] = 0,
 					["RageGainedFrom"] = {
 					},
 					["ElementHitsTaken"] = {
 						["Melee"] = {
 							["Details"] = {
-								["Dodge"] = {
-									["count"] = 1,
+								["Miss"] = {
+									["count"] = 2,
 								},
 								["Hit"] = {
-									["count"] = 1,
-								},
-								["Miss"] = {
 									["count"] = 0,
 								},
 								["Parry"] = {
 									["count"] = 0,
 								},
+								["Dodge"] = {
+									["count"] = 0,
+								},
 							},
 							["amount"] = 2,
 						},
+						["Physical"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
 					},
 					["DeathCount"] = 0,
-					["HOT_Time"] = 9,
-					["DOT_Time"] = 0,
-					["ManaGain"] = 0,
+					["HOT_Time"] = 3,
+					["ElementTakenBlock"] = {
+					},
+					["RunicPowerGain"] = 0,
 					["ElementTaken"] = {
-						["Melee"] = 2,
+						["Melee"] = 0,
+						["Physical"] = 0,
 					},
 					["HOTs"] = {
 						["Blood Presence"] = {
 							["Details"] = {
 								["Morridin"] = {
-									["count"] = 9,
+									["count"] = 3,
 								},
 							},
-							["amount"] = 9,
+							["amount"] = 3,
 						},
 					},
-					["ElementTakenBlock"] = {
-					},
+					["Damage"] = 330,
 					["ElementDoneAbsorb"] = {
 					},
-					["TimeHeal"] = 6.859999999999999,
+					["TimeHeal"] = 0,
 					["RessedWho"] = {
 					},
 					["Dispels"] = 0,
 					["PartialBlock"] = {
 					},
-					["FDamagedWho"] = {
-					},
-					["FAttacks"] = {
-					},
-					["RageGain"] = 0,
-					["ElementDone"] = {
-						["Physical"] = 1797,
-						["Frost"] = 0,
-						["Melee"] = 3899,
-						["Shadow"] = 0,
-					},
-					["ManaGainedFrom"] = {
-					},
 					["DamagedWho"] = {
 						["Kobold Miner"] = {
 							["Details"] = {
 								["Melee"] = {
-									["count"] = 3899,
-								},
-								["Death Coil"] = {
-									["count"] = 0,
-								},
-								["Heart Strike"] = {
 									["count"] = 0,
 								},
 								["Icy Touch"] = {
@@ -1433,12 +1486,10 @@ RecountPerCharDB = {
 								["Plague Strike"] = {
 									["count"] = 0,
 								},
-							},
-							["amount"] = 3899,
-						},
-						["Narg the Taskmaster"] = {
-							["Details"] = {
-								["Melee"] = {
+								["Death Coil"] = {
+									["count"] = 0,
+								},
+								["Heart Strike"] = {
 									["count"] = 0,
 								},
 							},
@@ -1460,36 +1511,82 @@ RecountPerCharDB = {
 								["Melee"] = {
 									["count"] = 0,
 								},
-								["Death Coil"] = {
-									["count"] = 0,
-								},
-								["Heart Strike"] = {
-									["count"] = 1797,
-								},
 								["Icy Touch"] = {
-									["count"] = 0,
+									["count"] = 330,
 								},
 								["Plague Strike"] = {
 									["count"] = 0,
 								},
+								["Heart Strike"] = {
+									["count"] = 0,
+								},
+								["Death Coil"] = {
+									["count"] = 0,
+								},
 							},
-							["amount"] = 1797,
+							["amount"] = 330,
 						},
 					},
-					["RageGained"] = {
+					["FAttacks"] = {
+					},
+					["HealingTaken"] = 0,
+					["ElementDone"] = {
+						["Physical"] = 0,
+						["Frost"] = 330,
+						["Melee"] = 0,
+						["Shadow"] = 0,
+					},
+					["ElementHitsDone"] = {
+						["Physical"] = {
+							["Details"] = {
+								["Crit"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Frost"] = {
+							["Details"] = {
+								["Crit"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 1,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Glancing"] = {
+									["count"] = 0,
+								},
+								["Crit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Shadow"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ManaGainedFrom"] = {
+					},
+					["RunicPowerGainedFrom"] = {
 					},
 					["WhoDamaged"] = {
 						["Kobold Miner"] = {
 							["Details"] = {
 								["Melee"] = {
-									["count"] = 2,
-								},
-							},
-							["amount"] = 2,
-						},
-						["Goldtooth"] = {
-							["Details"] = {
-								["Melee"] = {
 									["count"] = 0,
 								},
 							},
@@ -1498,6 +1595,14 @@ RecountPerCharDB = {
 						["Kobold Tunneler"] = {
 							["Details"] = {
 								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Environment"] = {
+							["Details"] = {
+								["Falling"] = {
 									["count"] = 0,
 								},
 							},
@@ -1506,32 +1611,21 @@ RecountPerCharDB = {
 					},
 					["EnergyGainedFrom"] = {
 					},
-					["OverHeals"] = {
-						["Blood Presence"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
 					["RunicPowerGained"] = {
 					},
+					["CCBroken"] = {
+					},
 					["ElementDoneBlock"] = {
+						["Physical"] = 0,
 					},
 					["TimeHealing"] = {
 						["Morridin"] = {
 							["Details"] = {
 								["Blood Presence"] = {
-									["count"] = 6.859999999999999,
+									["count"] = 0,
 								},
 							},
-							["amount"] = 6.859999999999999,
+							["amount"] = 0,
 						},
 					},
 					["Dispelled"] = 0,
@@ -1539,57 +1633,6 @@ RecountPerCharDB = {
 						["Morridin"] = {
 							["Details"] = {
 								["Blood Presence"] = {
-									["count"] = 13,
-								},
-							},
-							["amount"] = 13,
-						},
-					},
-					["PartialResist"] = {
-						["Melee"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 2,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 2,
-							["amount"] = 0,
-						},
-					},
-					["CCBreak"] = 0,
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
-					["EnergyGain"] = 0,
-					["ManaGained"] = {
-					},
-					["ElementTakenAbsorb"] = {
-					},
-					["ActiveTime"] = 6.859999999999999,
-					["Overhealing"] = 0,
-					["ElementTakenResist"] = {
-					},
-					["InterruptData"] = {
-					},
-					["WhoDispelled"] = {
-					},
-					["TimeSpent"] = {
-						["Morridin"] = {
-							["Details"] = {
-								["Blood Presence"] = {
-									["count"] = 6.859999999999999,
-								},
-							},
-							["amount"] = 6.859999999999999,
-						},
-						["Goldtooth"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Heart Strike"] = {
 									["count"] = 0,
 								},
 							},
@@ -1597,66 +1640,29 @@ RecountPerCharDB = {
 						},
 						["Kobold Tunneler"] = {
 							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Death Coil"] = {
-									["count"] = 0,
-								},
-								["Heart Strike"] = {
-									["count"] = 0,
-								},
-								["Icy Touch"] = {
-									["count"] = 0,
-								},
-								["Plague Strike"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Kobold Miner"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Death Coil"] = {
-									["count"] = 0,
-								},
-								["Heart Strike"] = {
-									["count"] = 0,
-								},
-								["Icy Touch"] = {
-									["count"] = 0,
-								},
-								["Plague Strike"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Narg the Taskmaster"] = {
-							["Details"] = {
-								["Melee"] = {
+								["Mark of Blood"] = {
 									["count"] = 0,
 								},
 							},
 							["amount"] = 0,
 						},
 					},
-					["Heals"] = {
-						["Blood Presence"] = {
+					["HealedWho"] = {
+						["Morridin"] = {
 							["Details"] = {
-								["Tick"] = {
-									["max"] = 5,
-									["min"] = 0,
-									["count"] = 3,
-									["amount"] = 13,
+								["Blood Presence"] = {
+									["count"] = 0,
 								},
 							},
-							["count"] = 3,
-							["amount"] = 13,
+							["amount"] = 0,
 						},
+					},
+					["CCBreak"] = 0,
+					["ElementTakenAbsorb"] = {
+					},
+					["FDamage"] = 0,
+					["EnergyGain"] = 0,
+					["ManaGained"] = {
 					},
 					["PartialAbsorb"] = {
 						["Melee"] = {
@@ -1671,100 +1677,9 @@ RecountPerCharDB = {
 							["count"] = 2,
 							["amount"] = 0,
 						},
-					},
-					["EnergyGained"] = {
-					},
-					["HealedWho"] = {
-						["Morridin"] = {
+						["Falling"] = {
 							["Details"] = {
-								["Blood Presence"] = {
-									["count"] = 13,
-								},
-							},
-							["amount"] = 13,
-						},
-					},
-					["Healing"] = 13,
-					["RunicPowerGainedFrom"] = {
-					},
-					["CCBroken"] = {
-					},
-					["Attacks"] = {
-						["Melee"] = {
-							["Details"] = {
-								["Crit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Glancing"] = {
-									["max"] = 3899,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 3899,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 3899,
-						},
-						["Death Coil"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Heart Strike"] = {
-							["Details"] = {
-								["Crit"] = {
-									["max"] = 1404,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 1404,
-								},
-								["Hit"] = {
-									["max"] = 393,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 393,
-								},
-							},
-							["count"] = 2,
-							["amount"] = 1797,
-						},
-						["Icy Touch"] = {
-							["Details"] = {
-								["Crit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Plague Strike"] = {
-							["Details"] = {
-								["Crit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Hit"] = {
+								["No Absorb"] = {
 									["max"] = 0,
 									["min"] = 0,
 									["count"] = 0,
@@ -1775,61 +1690,12 @@ RecountPerCharDB = {
 							["amount"] = 0,
 						},
 					},
-					["HealingTaken"] = 13,
-					["ElementHitsDone"] = {
-						["Physical"] = {
-							["Details"] = {
-								["Crit"] = {
-									["count"] = 1,
-								},
-								["Hit"] = {
-									["count"] = 1,
-								},
-							},
-							["amount"] = 2,
-						},
-						["Frost"] = {
-							["Details"] = {
-								["Crit"] = {
-									["count"] = 0,
-								},
-								["Hit"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["Crit"] = {
-									["count"] = 0,
-								},
-								["Glancing"] = {
-									["count"] = 1,
-								},
-							},
-							["amount"] = 1,
-						},
-						["Shadow"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["TimeDamage"] = 0,
-					["TimeDamaging"] = {
+					["ActiveTime"] = 3.5,
+					["Overhealing"] = 4,
+					["TimeSpent"] = {
 						["Kobold Miner"] = {
 							["Details"] = {
 								["Melee"] = {
-									["count"] = 0,
-								},
-								["Death Coil"] = {
-									["count"] = 0,
-								},
-								["Heart Strike"] = {
 									["count"] = 0,
 								},
 								["Icy Touch"] = {
@@ -1838,12 +1704,18 @@ RecountPerCharDB = {
 								["Plague Strike"] = {
 									["count"] = 0,
 								},
+								["Death Coil"] = {
+									["count"] = 0,
+								},
+								["Heart Strike"] = {
+									["count"] = 0,
+								},
 							},
 							["amount"] = 0,
 						},
-						["Narg the Taskmaster"] = {
+						["Morridin"] = {
 							["Details"] = {
-								["Melee"] = {
+								["Blood Presence"] = {
 									["count"] = 0,
 								},
 							},
@@ -1865,10 +1737,200 @@ RecountPerCharDB = {
 								["Melee"] = {
 									["count"] = 0,
 								},
-								["Death Coil"] = {
+								["Icy Touch"] = {
+									["count"] = 3.5,
+								},
+								["Plague Strike"] = {
 									["count"] = 0,
 								},
 								["Heart Strike"] = {
+									["count"] = 0,
+								},
+								["Death Coil"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 3.5,
+						},
+					},
+					["WhoDispelled"] = {
+					},
+					["InterruptData"] = {
+					},
+					["ElementTakenResist"] = {
+					},
+					["Heals"] = {
+						["Blood Presence"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["Interrupts"] = 0,
+					["EnergyGained"] = {
+					},
+					["PartialResist"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 0,
+						},
+						["Falling"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["Healing"] = 0,
+					["OverHeals"] = {
+						["Blood Presence"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 4,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 4,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 4,
+						},
+					},
+					["RageGained"] = {
+					},
+					["Attacks"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Glancing"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Icy Touch"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 330,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 330,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 330,
+						},
+						["Plague Strike"] = {
+							["Details"] = {
+								["Crit (Blocked)"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit (Blocked)"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Heart Strike"] = {
+							["Details"] = {
+								["Crit (Blocked)"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Death Coil"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["RageGain"] = 0,
+					["FDamagedWho"] = {
+					},
+					["TimeDamage"] = 3.5,
+					["TimeDamaging"] = {
+						["Kobold Miner"] = {
+							["Details"] = {
+								["Melee"] = {
 									["count"] = 0,
 								},
 								["Icy Touch"] = {
@@ -1877,12 +1939,49 @@ RecountPerCharDB = {
 								["Plague Strike"] = {
 									["count"] = 0,
 								},
+								["Death Coil"] = {
+									["count"] = 0,
+								},
+								["Heart Strike"] = {
+									["count"] = 0,
+								},
 							},
 							["amount"] = 0,
 						},
+						["Goldtooth"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Heart Strike"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Tunneler"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Icy Touch"] = {
+									["count"] = 3.5,
+								},
+								["Plague Strike"] = {
+									["count"] = 0,
+								},
+								["Heart Strike"] = {
+									["count"] = 0,
+								},
+								["Death Coil"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 3.5,
+						},
 					},
-					["RunicPowerGain"] = 0,
-					["Damage"] = 5696,
+					["ManaGain"] = 0,
+					["DOT_Time"] = 0,
 					["DispelledWho"] = {
 					},
 				},
@@ -1915,6 +2014,9 @@ RecountPerCharDB = {
 						},
 						["Physical"] = {
 							["Details"] = {
+								["Dodge"] = {
+									["count"] = 0,
+								},
 								["Hit"] = {
 									["count"] = 0,
 								},
@@ -1924,12 +2026,6 @@ RecountPerCharDB = {
 					},
 					["DeathCount"] = 0,
 					["HOT_Time"] = 0,
-					["DOT_Time"] = 0,
-					["ManaGain"] = 0,
-					["ElementTaken"] = {
-						["Melee"] = 0,
-						["Physical"] = 0,
-					},
 					["HOTs"] = {
 						["Blood Presence"] = {
 							["Details"] = {
@@ -1940,1173 +2036,13 @@ RecountPerCharDB = {
 							["amount"] = 0,
 						},
 					},
-					["ElementTakenBlock"] = {
-					},
-					["ElementDoneAbsorb"] = {
-					},
-					["TimeHeal"] = 0,
-					["RessedWho"] = {
-					},
-					["Dispels"] = 0,
-					["PartialBlock"] = {
-					},
-					["FDamagedWho"] = {
-					},
-					["FAttacks"] = {
-					},
-					["RageGain"] = 0,
-					["ElementDone"] = {
-						["Physical"] = 0,
-						["Frost"] = 0,
+					["ManaGain"] = 0,
+					["ElementTaken"] = {
 						["Melee"] = 0,
-						["Shadow"] = 0,
-					},
-					["ManaGainedFrom"] = {
-					},
-					["DamagedWho"] = {
-						["Goldtooth"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Heart Strike"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Stonetusk Boar"] = {
-							["Details"] = {
-								["Heart Strike"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Kobold Miner"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Icy Touch"] = {
-									["count"] = 0,
-								},
-								["Plague Strike"] = {
-									["count"] = 0,
-								},
-								["Heart Strike"] = {
-									["count"] = 0,
-								},
-								["Death Coil"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Forest Spider"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Kobold Tunneler"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Icy Touch"] = {
-									["count"] = 0,
-								},
-								["Plague Strike"] = {
-									["count"] = 0,
-								},
-								["Heart Strike"] = {
-									["count"] = 0,
-								},
-								["Death Coil"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["RageGained"] = {
-					},
-					["WhoDamaged"] = {
-						["Kobold Miner"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Kobold Tunneler"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Goldtooth"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Environment"] = {
-							["Details"] = {
-								["Falling"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["EnergyGainedFrom"] = {
-					},
-					["OverHeals"] = {
-						["Blood Presence"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["RunicPowerGained"] = {
-					},
-					["ElementDoneBlock"] = {
 						["Physical"] = 0,
 					},
-					["TimeHealing"] = {
-						["Morridin"] = {
-							["Details"] = {
-								["Blood Presence"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["Dispelled"] = 0,
-					["WhoHealed"] = {
-						["Morridin"] = {
-							["Details"] = {
-								["Blood Presence"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["PartialResist"] = {
-						["Melee"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Falling"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["CCBreak"] = 0,
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
-					["EnergyGain"] = 0,
-					["ManaGained"] = {
-					},
-					["ElementTakenAbsorb"] = {
-					},
-					["ActiveTime"] = 0,
-					["Overhealing"] = 0,
-					["ElementTakenResist"] = {
-					},
-					["InterruptData"] = {
-					},
-					["WhoDispelled"] = {
-					},
-					["TimeSpent"] = {
-						["Morridin"] = {
-							["Details"] = {
-								["Blood Presence"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Goldtooth"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Heart Strike"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Kobold Tunneler"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Icy Touch"] = {
-									["count"] = 0,
-								},
-								["Plague Strike"] = {
-									["count"] = 0,
-								},
-								["Heart Strike"] = {
-									["count"] = 0,
-								},
-								["Death Coil"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Kobold Miner"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Icy Touch"] = {
-									["count"] = 0,
-								},
-								["Plague Strike"] = {
-									["count"] = 0,
-								},
-								["Heart Strike"] = {
-									["count"] = 0,
-								},
-								["Death Coil"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Forest Spider"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Stonetusk Boar"] = {
-							["Details"] = {
-								["Heart Strike"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["Heals"] = {
-						["Blood Presence"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["PartialAbsorb"] = {
-						["Melee"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Falling"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["EnergyGained"] = {
-					},
-					["HealedWho"] = {
-						["Morridin"] = {
-							["Details"] = {
-								["Blood Presence"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["Healing"] = 0,
-					["RunicPowerGainedFrom"] = {
-					},
-					["CCBroken"] = {
-					},
-					["Attacks"] = {
-						["Melee"] = {
-							["Details"] = {
-								["Glancing"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Crit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Icy Touch"] = {
-							["Details"] = {
-								["Crit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Plague Strike"] = {
-							["Details"] = {
-								["Hit (Blocked)"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Crit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Heart Strike"] = {
-							["Details"] = {
-								["Crit (Blocked)"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Crit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Death Coil"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["HealingTaken"] = 0,
-					["ElementHitsDone"] = {
-						["Physical"] = {
-							["Details"] = {
-								["Crit"] = {
-									["count"] = 0,
-								},
-								["Hit"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Frost"] = {
-							["Details"] = {
-								["Crit"] = {
-									["count"] = 0,
-								},
-								["Hit"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["Glancing"] = {
-									["count"] = 0,
-								},
-								["Crit"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Shadow"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["TimeDamage"] = 0,
-					["TimeDamaging"] = {
-						["Goldtooth"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Heart Strike"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Stonetusk Boar"] = {
-							["Details"] = {
-								["Heart Strike"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Kobold Miner"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Icy Touch"] = {
-									["count"] = 0,
-								},
-								["Plague Strike"] = {
-									["count"] = 0,
-								},
-								["Heart Strike"] = {
-									["count"] = 0,
-								},
-								["Death Coil"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Forest Spider"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Kobold Tunneler"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Icy Touch"] = {
-									["count"] = 0,
-								},
-								["Plague Strike"] = {
-									["count"] = 0,
-								},
-								["Heart Strike"] = {
-									["count"] = 0,
-								},
-								["Death Coil"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["RunicPowerGain"] = 0,
+					["DOT_Time"] = 0,
 					["Damage"] = 0,
-					["DispelledWho"] = {
-					},
-				},
-				["Fight1"] = {
-					["DOTs"] = {
-					},
-					["ElementDoneResist"] = {
-					},
-					["Ressed"] = 0,
-					["DamageTaken"] = 2,
-					["RageGainedFrom"] = {
-					},
-					["ElementHitsTaken"] = {
-						["Melee"] = {
-							["Details"] = {
-								["Miss"] = {
-									["count"] = 0,
-								},
-								["Hit"] = {
-									["count"] = 2,
-								},
-								["Parry"] = {
-									["count"] = 0,
-								},
-								["Dodge"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 2,
-						},
-						["Physical"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["DeathCount"] = 0,
-					["HOT_Time"] = 3,
-					["Damage"] = 1134,
-					["RunicPowerGain"] = 0,
-					["ElementTaken"] = {
-						["Melee"] = 2,
-						["Physical"] = 0,
-					},
-					["DOT_Time"] = 0,
-					["ElementTakenBlock"] = {
-					},
-					["ElementDoneAbsorb"] = {
-					},
-					["TimeHeal"] = 3.5,
-					["RessedWho"] = {
-					},
-					["Dispels"] = 0,
-					["PartialBlock"] = {
-					},
-					["ElementHitsDone"] = {
-						["Shadow"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Physical"] = {
-							["Details"] = {
-								["Crit"] = {
-									["count"] = 0,
-								},
-								["Hit"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["Glancing"] = {
-									["count"] = 0,
-								},
-								["Crit"] = {
-									["count"] = 1,
-								},
-							},
-							["amount"] = 1,
-						},
-						["Frost"] = {
-							["Details"] = {
-								["Crit"] = {
-									["count"] = 0,
-								},
-								["Hit"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["FAttacks"] = {
-					},
-					["HealingTaken"] = 4,
-					["ElementDone"] = {
-						["Shadow"] = 0,
-						["Physical"] = 0,
-						["Melee"] = 1134,
-						["Frost"] = 0,
-					},
-					["DamagedWho"] = {
-						["Kobold Miner"] = {
-							["Details"] = {
-								["Icy Touch"] = {
-									["count"] = 0,
-								},
-								["Heart Strike"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Plague Strike"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Goldtooth"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Kobold Tunneler"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 1134,
-								},
-								["Icy Touch"] = {
-									["count"] = 0,
-								},
-								["Plague Strike"] = {
-									["count"] = 0,
-								},
-								["Heart Strike"] = {
-									["count"] = 0,
-								},
-								["Death Coil"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 1134,
-						},
-					},
-					["ManaGainedFrom"] = {
-					},
-					["CCBroken"] = {
-					},
-					["WhoDamaged"] = {
-						["Kobold Miner"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Kobold Tunneler"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 2,
-								},
-							},
-							["amount"] = 2,
-						},
-						["Environment"] = {
-							["Details"] = {
-								["Falling"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["EnergyGainedFrom"] = {
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["RunicPowerGained"] = {
-					},
-					["ElementDoneBlock"] = {
-						["Physical"] = 0,
-					},
-					["TimeHealing"] = {
-						["Morridin"] = {
-							["Details"] = {
-								["Blood Presence"] = {
-									["count"] = 3.5,
-								},
-							},
-							["amount"] = 3.5,
-						},
-					},
-					["OverHeals"] = {
-						["Blood Presence"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["WhoHealed"] = {
-						["Morridin"] = {
-							["Details"] = {
-								["Blood Presence"] = {
-									["count"] = 4,
-								},
-							},
-							["amount"] = 4,
-						},
-						["Kobold Tunneler"] = {
-							["Details"] = {
-								["Mark of Blood"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["HealedWho"] = {
-						["Morridin"] = {
-							["Details"] = {
-								["Blood Presence"] = {
-									["count"] = 4,
-								},
-							},
-							["amount"] = 4,
-						},
-					},
-					["CCBreak"] = 0,
-					["ElementTakenAbsorb"] = {
-					},
-					["PartialAbsorb"] = {
-						["Melee"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 2,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 2,
-							["amount"] = 0,
-						},
-						["Falling"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["PartialResist"] = {
-						["Melee"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 2,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 2,
-							["amount"] = 0,
-						},
-						["Falling"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["ManaGained"] = {
-					},
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
-					["Overhealing"] = 0,
-					["TimeSpent"] = {
-						["Kobold Miner"] = {
-							["Details"] = {
-								["Icy Touch"] = {
-									["count"] = 0,
-								},
-								["Heart Strike"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Plague Strike"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Morridin"] = {
-							["Details"] = {
-								["Blood Presence"] = {
-									["count"] = 3.5,
-								},
-							},
-							["amount"] = 3.5,
-						},
-						["Goldtooth"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Kobold Tunneler"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Icy Touch"] = {
-									["count"] = 0,
-								},
-								["Plague Strike"] = {
-									["count"] = 0,
-								},
-								["Heart Strike"] = {
-									["count"] = 0,
-								},
-								["Death Coil"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["WhoDispelled"] = {
-					},
-					["InterruptData"] = {
-					},
-					["ElementTakenResist"] = {
-					},
-					["Heals"] = {
-						["Blood Presence"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 4,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 4,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 4,
-						},
-					},
-					["ActiveTime"] = 3.5,
-					["EnergyGained"] = {
-					},
-					["EnergyGain"] = 0,
-					["Healing"] = 4,
-					["Dispelled"] = 0,
-					["RageGained"] = {
-					},
-					["Attacks"] = {
-						["Melee"] = {
-							["Details"] = {
-								["Glancing"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Crit"] = {
-									["max"] = 1134,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 1134,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 1134,
-						},
-						["Icy Touch"] = {
-							["Details"] = {
-								["Crit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Plague Strike"] = {
-							["Details"] = {
-								["Crit (Blocked)"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Hit (Blocked)"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Crit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Heart Strike"] = {
-							["Details"] = {
-								["Crit (Blocked)"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Crit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Death Coil"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["RageGain"] = 0,
-					["FDamagedWho"] = {
-					},
-					["TimeDamage"] = 0,
-					["TimeDamaging"] = {
-						["Kobold Miner"] = {
-							["Details"] = {
-								["Icy Touch"] = {
-									["count"] = 0,
-								},
-								["Heart Strike"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Plague Strike"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Goldtooth"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Kobold Tunneler"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Icy Touch"] = {
-									["count"] = 0,
-								},
-								["Plague Strike"] = {
-									["count"] = 0,
-								},
-								["Heart Strike"] = {
-									["count"] = 0,
-								},
-								["Death Coil"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["ManaGain"] = 0,
-					["HOTs"] = {
-						["Blood Presence"] = {
-							["Details"] = {
-								["Morridin"] = {
-									["count"] = 3,
-								},
-							},
-							["amount"] = 3,
-						},
-					},
-					["DispelledWho"] = {
-					},
-				},
-				["Fight4"] = {
-					["DOTs"] = {
-					},
-					["ElementDoneResist"] = {
-					},
-					["Ressed"] = 0,
-					["DamageTaken"] = 0,
-					["RageGainedFrom"] = {
-					},
-					["ElementHitsTaken"] = {
-						["Melee"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 0,
-								},
-								["Miss"] = {
-									["count"] = 0,
-								},
-								["Dodge"] = {
-									["count"] = 2,
-								},
-								["Parry"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 2,
-						},
-					},
-					["DeathCount"] = 0,
-					["HOT_Time"] = 3,
-					["DOT_Time"] = 0,
-					["ManaGain"] = 0,
-					["ElementTaken"] = {
-						["Melee"] = 0,
-					},
-					["HOTs"] = {
-						["Blood Presence"] = {
-							["Details"] = {
-								["Morridin"] = {
-									["count"] = 3,
-								},
-							},
-							["amount"] = 3,
-						},
-					},
-					["ElementTakenBlock"] = {
-					},
 					["ElementDoneAbsorb"] = {
 					},
 					["TimeHeal"] = 0,
@@ -3121,523 +2057,45 @@ RecountPerCharDB = {
 					},
 					["RageGain"] = 0,
 					["ElementDone"] = {
-						["Shadow"] = 0,
-						["Physical"] = 0,
-						["Melee"] = 1164,
 						["Frost"] = 0,
+						["Shadow"] = 0,
+						["Melee"] = 0,
+						["Physical"] = 0,
 					},
 					["ManaGainedFrom"] = {
-					},
-					["DamagedWho"] = {
-						["Kobold Miner"] = {
-							["Details"] = {
-								["Icy Touch"] = {
-									["count"] = 0,
-								},
-								["Heart Strike"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Plague Strike"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Goldtooth"] = {
-							["Details"] = {
-								["Icy Touch"] = {
-									["count"] = 0,
-								},
-								["Heart Strike"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Kobold Tunneler"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 1164,
-								},
-								["Icy Touch"] = {
-									["count"] = 0,
-								},
-								["Plague Strike"] = {
-									["count"] = 0,
-								},
-								["Heart Strike"] = {
-									["count"] = 0,
-								},
-								["Death Coil"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 1164,
-						},
-					},
-					["RageGained"] = {
-					},
-					["WhoDamaged"] = {
-						["Kobold Miner"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Goldtooth"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Kobold Tunneler"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["EnergyGainedFrom"] = {
-					},
-					["OverHeals"] = {
-						["Blood Presence"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 4,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 4,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 4,
-						},
-					},
-					["RunicPowerGained"] = {
-					},
-					["ElementDoneBlock"] = {
-						["Physical"] = 0,
-					},
-					["TimeHealing"] = {
-						["Morridin"] = {
-							["Details"] = {
-								["Blood Presence"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["Dispelled"] = 0,
-					["WhoHealed"] = {
-						["Morridin"] = {
-							["Details"] = {
-								["Blood Presence"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["PartialResist"] = {
-						["Melee"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 2,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 2,
-							["amount"] = 0,
-						},
-					},
-					["CCBreak"] = 0,
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
-					["EnergyGain"] = 0,
-					["ManaGained"] = {
-					},
-					["ElementTakenAbsorb"] = {
-					},
-					["ActiveTime"] = 3.5,
-					["Overhealing"] = 4,
-					["ElementTakenResist"] = {
-					},
-					["InterruptData"] = {
-					},
-					["WhoDispelled"] = {
-					},
-					["TimeSpent"] = {
-						["Kobold Miner"] = {
-							["Details"] = {
-								["Icy Touch"] = {
-									["count"] = 0,
-								},
-								["Heart Strike"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Plague Strike"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Morridin"] = {
-							["Details"] = {
-								["Blood Presence"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Goldtooth"] = {
-							["Details"] = {
-								["Icy Touch"] = {
-									["count"] = 0,
-								},
-								["Heart Strike"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Kobold Tunneler"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 3.5,
-								},
-								["Icy Touch"] = {
-									["count"] = 0,
-								},
-								["Plague Strike"] = {
-									["count"] = 0,
-								},
-								["Heart Strike"] = {
-									["count"] = 0,
-								},
-								["Death Coil"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 3.5,
-						},
-					},
-					["Heals"] = {
-						["Blood Presence"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["PartialAbsorb"] = {
-						["Melee"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 2,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 2,
-							["amount"] = 0,
-						},
-					},
-					["EnergyGained"] = {
-					},
-					["HealedWho"] = {
-						["Morridin"] = {
-							["Details"] = {
-								["Blood Presence"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["Healing"] = 0,
-					["RunicPowerGainedFrom"] = {
-					},
-					["CCBroken"] = {
-					},
-					["Attacks"] = {
-						["Melee"] = {
-							["Details"] = {
-								["Crit"] = {
-									["max"] = 1164,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 1164,
-								},
-								["Glancing"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 1164,
-						},
-						["Icy Touch"] = {
-							["Details"] = {
-								["Crit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Plague Strike"] = {
-							["Details"] = {
-								["Hit (Blocked)"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Crit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Heart Strike"] = {
-							["Details"] = {
-								["Crit (Blocked)"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Crit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Death Coil"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["HealingTaken"] = 0,
-					["ElementHitsDone"] = {
-						["Shadow"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Physical"] = {
-							["Details"] = {
-								["Crit"] = {
-									["count"] = 0,
-								},
-								["Hit"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["Crit"] = {
-									["count"] = 1,
-								},
-								["Glancing"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 1,
-						},
-						["Frost"] = {
-							["Details"] = {
-								["Crit"] = {
-									["count"] = 0,
-								},
-								["Hit"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["TimeDamage"] = 3.5,
-					["TimeDamaging"] = {
-						["Kobold Miner"] = {
-							["Details"] = {
-								["Icy Touch"] = {
-									["count"] = 0,
-								},
-								["Heart Strike"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Plague Strike"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Goldtooth"] = {
-							["Details"] = {
-								["Icy Touch"] = {
-									["count"] = 0,
-								},
-								["Heart Strike"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Kobold Tunneler"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 3.5,
-								},
-								["Icy Touch"] = {
-									["count"] = 0,
-								},
-								["Plague Strike"] = {
-									["count"] = 0,
-								},
-								["Heart Strike"] = {
-									["count"] = 0,
-								},
-								["Death Coil"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 3.5,
-						},
-					},
-					["RunicPowerGain"] = 0,
-					["Damage"] = 1164,
-					["DispelledWho"] = {
-					},
-				},
-				["LastFightData"] = {
-					["DOTs"] = {
-					},
-					["ElementDoneResist"] = {
-					},
-					["Ressed"] = 0,
-					["DamageTaken"] = 2,
-					["RageGainedFrom"] = {
-					},
-					["ElementHitsTaken"] = {
-						["Melee"] = {
-							["Details"] = {
-								["Miss"] = {
-									["count"] = 0,
-								},
-								["Hit"] = {
-									["count"] = 2,
-								},
-								["Parry"] = {
-									["count"] = 0,
-								},
-								["Dodge"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 2,
-						},
-						["Physical"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["DeathCount"] = 0,
-					["HOT_Time"] = 3,
-					["Damage"] = 1134,
-					["RunicPowerGain"] = 0,
-					["ElementTaken"] = {
-						["Melee"] = 2,
-						["Physical"] = 0,
-					},
-					["DOT_Time"] = 0,
-					["ElementTakenBlock"] = {
-					},
-					["ElementDoneAbsorb"] = {
-					},
-					["TimeHeal"] = 3.5,
-					["RessedWho"] = {
-					},
-					["Dispels"] = 0,
-					["PartialBlock"] = {
 					},
 					["ElementHitsDone"] = {
-						["Shadow"] = {
+						["Frost"] = {
 							["Details"] = {
 								["Hit"] = {
+									["count"] = 0,
+								},
+								["Crit"] = {
+									["count"] = 0,
+								},
+								["Evade"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Shadow"] = {
+							["Details"] = {
+								["Crit"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Glancing"] = {
+									["count"] = 0,
+								},
+								["Crit"] = {
 									["count"] = 0,
 								},
 							},
@@ -3654,623 +2112,10 @@ RecountPerCharDB = {
 							},
 							["amount"] = 0,
 						},
-						["Melee"] = {
-							["Details"] = {
-								["Glancing"] = {
-									["count"] = 0,
-								},
-								["Crit"] = {
-									["count"] = 1,
-								},
-							},
-							["amount"] = 1,
-						},
-						["Frost"] = {
-							["Details"] = {
-								["Crit"] = {
-									["count"] = 0,
-								},
-								["Hit"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["FAttacks"] = {
-					},
-					["HealingTaken"] = 4,
-					["ElementDone"] = {
-						["Shadow"] = 0,
-						["Physical"] = 0,
-						["Melee"] = 1134,
-						["Frost"] = 0,
-					},
-					["DamagedWho"] = {
-						["Kobold Miner"] = {
-							["Details"] = {
-								["Icy Touch"] = {
-									["count"] = 0,
-								},
-								["Heart Strike"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Plague Strike"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Goldtooth"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Kobold Tunneler"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 1134,
-								},
-								["Icy Touch"] = {
-									["count"] = 0,
-								},
-								["Plague Strike"] = {
-									["count"] = 0,
-								},
-								["Heart Strike"] = {
-									["count"] = 0,
-								},
-								["Death Coil"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 1134,
-						},
-					},
-					["ManaGainedFrom"] = {
-					},
-					["CCBroken"] = {
-					},
-					["WhoDamaged"] = {
-						["Kobold Miner"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Kobold Tunneler"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 2,
-								},
-							},
-							["amount"] = 2,
-						},
-						["Environment"] = {
-							["Details"] = {
-								["Falling"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["EnergyGainedFrom"] = {
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["RunicPowerGained"] = {
-					},
-					["ElementDoneBlock"] = {
-						["Physical"] = 0,
-					},
-					["TimeHealing"] = {
-						["Morridin"] = {
-							["Details"] = {
-								["Blood Presence"] = {
-									["count"] = 3.5,
-								},
-							},
-							["amount"] = 3.5,
-						},
-					},
-					["OverHeals"] = {
-						["Blood Presence"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["WhoHealed"] = {
-						["Morridin"] = {
-							["Details"] = {
-								["Blood Presence"] = {
-									["count"] = 4,
-								},
-							},
-							["amount"] = 4,
-						},
-						["Kobold Tunneler"] = {
-							["Details"] = {
-								["Mark of Blood"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["HealedWho"] = {
-						["Morridin"] = {
-							["Details"] = {
-								["Blood Presence"] = {
-									["count"] = 4,
-								},
-							},
-							["amount"] = 4,
-						},
-					},
-					["CCBreak"] = 0,
-					["ElementTakenAbsorb"] = {
-					},
-					["PartialAbsorb"] = {
-						["Melee"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 2,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 2,
-							["amount"] = 0,
-						},
-						["Falling"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["PartialResist"] = {
-						["Melee"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 2,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 2,
-							["amount"] = 0,
-						},
-						["Falling"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["ManaGained"] = {
-					},
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
-					["Overhealing"] = 0,
-					["TimeSpent"] = {
-						["Kobold Miner"] = {
-							["Details"] = {
-								["Icy Touch"] = {
-									["count"] = 0,
-								},
-								["Heart Strike"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Plague Strike"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Morridin"] = {
-							["Details"] = {
-								["Blood Presence"] = {
-									["count"] = 3.5,
-								},
-							},
-							["amount"] = 3.5,
-						},
-						["Goldtooth"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Kobold Tunneler"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Icy Touch"] = {
-									["count"] = 0,
-								},
-								["Plague Strike"] = {
-									["count"] = 0,
-								},
-								["Heart Strike"] = {
-									["count"] = 0,
-								},
-								["Death Coil"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["WhoDispelled"] = {
-					},
-					["InterruptData"] = {
-					},
-					["ElementTakenResist"] = {
-					},
-					["Heals"] = {
-						["Blood Presence"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 4,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 4,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 4,
-						},
-					},
-					["ActiveTime"] = 3.5,
-					["EnergyGained"] = {
-					},
-					["EnergyGain"] = 0,
-					["Healing"] = 4,
-					["Dispelled"] = 0,
-					["RageGained"] = {
-					},
-					["Attacks"] = {
-						["Melee"] = {
-							["Details"] = {
-								["Glancing"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Crit"] = {
-									["max"] = 1134,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 1134,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 1134,
-						},
-						["Icy Touch"] = {
-							["Details"] = {
-								["Crit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Plague Strike"] = {
-							["Details"] = {
-								["Crit (Blocked)"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Hit (Blocked)"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Crit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Heart Strike"] = {
-							["Details"] = {
-								["Crit (Blocked)"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Crit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Death Coil"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["RageGain"] = 0,
-					["FDamagedWho"] = {
-					},
-					["TimeDamage"] = 0,
-					["TimeDamaging"] = {
-						["Kobold Miner"] = {
-							["Details"] = {
-								["Icy Touch"] = {
-									["count"] = 0,
-								},
-								["Heart Strike"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Plague Strike"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Goldtooth"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Kobold Tunneler"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Icy Touch"] = {
-									["count"] = 0,
-								},
-								["Plague Strike"] = {
-									["count"] = 0,
-								},
-								["Heart Strike"] = {
-									["count"] = 0,
-								},
-								["Death Coil"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["ManaGain"] = 0,
-					["HOTs"] = {
-						["Blood Presence"] = {
-							["Details"] = {
-								["Morridin"] = {
-									["count"] = 3,
-								},
-							},
-							["amount"] = 3,
-						},
-					},
-					["DispelledWho"] = {
-					},
-				},
-				["Fight2"] = {
-					["DOTs"] = {
-					},
-					["ElementDoneResist"] = {
-					},
-					["Ressed"] = 0,
-					["DamageTaken"] = 1,
-					["RageGainedFrom"] = {
-					},
-					["ElementHitsTaken"] = {
-						["Melee"] = {
-							["Details"] = {
-								["Dodge"] = {
-									["count"] = 1,
-								},
-								["Hit"] = {
-									["count"] = 1,
-								},
-								["Parry"] = {
-									["count"] = 0,
-								},
-								["Miss"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 2,
-						},
-					},
-					["DeathCount"] = 0,
-					["HOT_Time"] = 6,
-					["DOT_Time"] = 0,
-					["ManaGain"] = 0,
-					["ElementTaken"] = {
-						["Melee"] = 1,
-					},
-					["HOTs"] = {
-						["Blood Presence"] = {
-							["Details"] = {
-								["Morridin"] = {
-									["count"] = 6,
-								},
-							},
-							["amount"] = 6,
-						},
-					},
-					["ElementTakenBlock"] = {
-					},
-					["ElementDoneAbsorb"] = {
-					},
-					["TimeHeal"] = 5.46,
-					["RessedWho"] = {
-					},
-					["Dispels"] = 0,
-					["PartialBlock"] = {
-					},
-					["FDamagedWho"] = {
-					},
-					["FAttacks"] = {
-					},
-					["RageGain"] = 0,
-					["ElementDone"] = {
-						["Physical"] = 1712,
-						["Frost"] = 0,
-						["Melee"] = 1368,
-						["Shadow"] = 0,
-					},
-					["ManaGainedFrom"] = {
-					},
-					["DamagedWho"] = {
-						["Kobold Miner"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Death Coil"] = {
-									["count"] = 0,
-								},
-								["Heart Strike"] = {
-									["count"] = 0,
-								},
-								["Icy Touch"] = {
-									["count"] = 0,
-								},
-								["Plague Strike"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Goldtooth"] = {
-							["Details"] = {
-								["Icy Touch"] = {
-									["count"] = 0,
-								},
-								["Heart Strike"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Kobold Tunneler"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 1368,
-								},
-								["Death Coil"] = {
-									["count"] = 0,
-								},
-								["Heart Strike"] = {
-									["count"] = 1712,
-								},
-								["Icy Touch"] = {
-									["count"] = 0,
-								},
-								["Plague Strike"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 3080,
-						},
 					},
 					["RageGained"] = {
 					},
 					["WhoDamaged"] = {
-						["Kobold Miner"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
 						["Mangy Wolf"] = {
 							["Details"] = {
 								["Melee"] = {
@@ -4290,13 +2135,45 @@ RecountPerCharDB = {
 						["Kobold Tunneler"] = {
 							["Details"] = {
 								["Melee"] = {
-									["count"] = 1,
+									["count"] = 0,
 								},
 							},
-							["amount"] = 1,
+							["amount"] = 0,
+						},
+						["Kobold Miner"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Environment"] = {
+							["Details"] = {
+								["Falling"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
 						},
 					},
 					["EnergyGainedFrom"] = {
+					},
+					["Dispelled"] = 0,
+					["CCBroken"] = {
+					},
+					["ElementDoneBlock"] = {
+						["Physical"] = 0,
+					},
+					["TimeHealing"] = {
+						["Morridin"] = {
+							["Details"] = {
+								["Blood Presence"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
 					},
 					["OverHeals"] = {
 						["Blood Presence"] = {
@@ -4312,55 +2189,100 @@ RecountPerCharDB = {
 							["amount"] = 0,
 						},
 					},
-					["RunicPowerGained"] = {
-					},
-					["ElementDoneBlock"] = {
-						["Physical"] = 0,
-					},
-					["TimeHealing"] = {
-						["Morridin"] = {
-							["Details"] = {
-								["Blood Presence"] = {
-									["count"] = 5.46,
-								},
-							},
-							["amount"] = 5.46,
-						},
-					},
-					["Dispelled"] = 0,
 					["WhoHealed"] = {
 						["Morridin"] = {
 							["Details"] = {
 								["Blood Presence"] = {
-									["count"] = 8,
+									["count"] = 0,
 								},
 							},
-							["amount"] = 8,
+							["amount"] = 0,
 						},
 					},
+					["EnergyGain"] = 0,
+					["CCBreak"] = 0,
+					["PartialAbsorb"] = {
+						["Falling"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Pierce Armor"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["ActiveTime"] = 0,
 					["PartialResist"] = {
+						["Falling"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Pierce Armor"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
 						["Melee"] = {
 							["Details"] = {
 								["No Resist"] = {
 									["max"] = 0,
 									["min"] = 0,
-									["count"] = 2,
+									["count"] = 0,
 									["amount"] = 0,
 								},
 							},
-							["count"] = 2,
+							["count"] = 0,
 							["amount"] = 0,
 						},
 					},
-					["CCBreak"] = 0,
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
-					["EnergyGain"] = 0,
 					["ManaGained"] = {
 					},
 					["ElementTakenAbsorb"] = {
 					},
-					["ActiveTime"] = 5.46,
+					["Interrupts"] = 0,
 					["Overhealing"] = 0,
 					["ElementTakenResist"] = {
 					},
@@ -4369,33 +2291,13 @@ RecountPerCharDB = {
 					["WhoDispelled"] = {
 					},
 					["TimeSpent"] = {
-						["Kobold Miner"] = {
+						["Morridin"] = {
 							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Death Coil"] = {
-									["count"] = 0,
-								},
-								["Heart Strike"] = {
-									["count"] = 0,
-								},
-								["Icy Touch"] = {
-									["count"] = 0,
-								},
-								["Plague Strike"] = {
+								["Blood Presence"] = {
 									["count"] = 0,
 								},
 							},
 							["amount"] = 0,
-						},
-						["Morridin"] = {
-							["Details"] = {
-								["Blood Presence"] = {
-									["count"] = 5.46,
-								},
-							},
-							["amount"] = 5.46,
 						},
 						["Goldtooth"] = {
 							["Details"] = {
@@ -4406,6 +2308,9 @@ RecountPerCharDB = {
 									["count"] = 0,
 								},
 								["Melee"] = {
+									["count"] = 0,
+								},
+								["Plague Strike"] = {
 									["count"] = 0,
 								},
 							},
@@ -4426,6 +2331,1522 @@ RecountPerCharDB = {
 									["count"] = 0,
 								},
 								["Plague Strike"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Miner"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Death Coil"] = {
+									["count"] = 0,
+								},
+								["Heart Strike"] = {
+									["count"] = 0,
+								},
+								["Icy Touch"] = {
+									["count"] = 0,
+								},
+								["Plague Strike"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Forest Spider"] = {
+							["Details"] = {
+								["Icy Touch"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["Heals"] = {
+						["Blood Presence"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["FDamage"] = 0,
+					["EnergyGained"] = {
+					},
+					["HealedWho"] = {
+						["Morridin"] = {
+							["Details"] = {
+								["Blood Presence"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["Healing"] = 0,
+					["RunicPowerGained"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["Attacks"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Glancing"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Death Coil"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Heart Strike"] = {
+							["Details"] = {
+								["Crit (Blocked)"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit (Blocked)"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Icy Touch"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Evade"] = {
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Plague Strike"] = {
+							["Details"] = {
+								["Crit (Blocked)"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit (Blocked)"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["HealingTaken"] = 0,
+					["DamagedWho"] = {
+						["Kobold Miner"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Death Coil"] = {
+									["count"] = 0,
+								},
+								["Heart Strike"] = {
+									["count"] = 0,
+								},
+								["Icy Touch"] = {
+									["count"] = 0,
+								},
+								["Plague Strike"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Forest Spider"] = {
+							["Details"] = {
+								["Icy Touch"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Goldtooth"] = {
+							["Details"] = {
+								["Icy Touch"] = {
+									["count"] = 0,
+								},
+								["Heart Strike"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Plague Strike"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Tunneler"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Death Coil"] = {
+									["count"] = 0,
+								},
+								["Heart Strike"] = {
+									["count"] = 0,
+								},
+								["Icy Touch"] = {
+									["count"] = 0,
+								},
+								["Plague Strike"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["TimeDamage"] = 0,
+					["TimeDamaging"] = {
+						["Kobold Miner"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Death Coil"] = {
+									["count"] = 0,
+								},
+								["Heart Strike"] = {
+									["count"] = 0,
+								},
+								["Icy Touch"] = {
+									["count"] = 0,
+								},
+								["Plague Strike"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Forest Spider"] = {
+							["Details"] = {
+								["Icy Touch"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Goldtooth"] = {
+							["Details"] = {
+								["Icy Touch"] = {
+									["count"] = 0,
+								},
+								["Heart Strike"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Plague Strike"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Tunneler"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Death Coil"] = {
+									["count"] = 0,
+								},
+								["Heart Strike"] = {
+									["count"] = 0,
+								},
+								["Icy Touch"] = {
+									["count"] = 0,
+								},
+								["Plague Strike"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["RunicPowerGain"] = 0,
+					["ElementTakenBlock"] = {
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["Fight1"] = {
+					["ElementDoneBlock"] = {
+						["Melee"] = 0,
+						["Physical"] = 0,
+					},
+					["TimeHealing"] = {
+						["Morridin"] = {
+							["Details"] = {
+								["The Might of Mograine"] = {
+									["count"] = 0,
+								},
+								["Blood Presence"] = {
+									["count"] = 3.5,
+								},
+								["Death Strike"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 3.5,
+						},
+					},
+					["DOTs"] = {
+						["Frost Fever (DoT)"] = {
+							["Details"] = {
+								["Patchwerk"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Blood Plague (DoT)"] = {
+							["Details"] = {
+								["Patchwerk"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ElementDoneResist"] = {
+						["Shadow"] = 0,
+						["Frost"] = 0,
+					},
+					["TimeSpent"] = {
+						["Morridin"] = {
+							["Details"] = {
+								["The Might of Mograine"] = {
+									["count"] = 0,
+								},
+								["Blood Presence"] = {
+									["count"] = 3.5,
+								},
+								["Death Strike"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 3.5,
+						},
+						["Goldtooth"] = {
+							["Details"] = {
+								["Icy Touch"] = {
+									["count"] = 0,
+								},
+								["Heart Strike"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Patchwerk"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Frost Fever (DoT)"] = {
+									["count"] = 0,
+								},
+								["Blood Plague (DoT)"] = {
+									["count"] = 0,
+								},
+								["Plague Strike"] = {
+									["count"] = 0,
+								},
+								["Death Coil"] = {
+									["count"] = 0,
+								},
+								["Heart Strike"] = {
+									["count"] = 0,
+								},
+								["Death Strike"] = {
+									["count"] = 0,
+								},
+								["Icy Touch"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Miner"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Icy Touch"] = {
+									["count"] = 0,
+								},
+								["Plague Strike"] = {
+									["count"] = 0,
+								},
+								["Heart Strike"] = {
+									["count"] = 0,
+								},
+								["Death Coil"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Tunneler"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Icy Touch"] = {
+									["count"] = 0,
+								},
+								["Plague Strike"] = {
+									["count"] = 0,
+								},
+								["Death Coil"] = {
+									["count"] = 0,
+								},
+								["Heart Strike"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["WhoHealed"] = {
+						["Morridin"] = {
+							["Details"] = {
+								["The Might of Mograine"] = {
+									["count"] = 0,
+								},
+								["Blood Presence"] = {
+									["count"] = 4,
+								},
+								["Death Strike"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 4,
+						},
+						["Patchwerk"] = {
+							["Details"] = {
+								["Mark of Blood"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["PartialResist"] = {
+						["Falling"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Pierce Armor"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 5,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 5,
+							["amount"] = 0,
+						},
+					},
+					["HOT_Time"] = 3,
+					["PartialAbsorb"] = {
+						["Falling"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Pierce Armor"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 5,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 5,
+							["amount"] = 0,
+						},
+					},
+					["ActiveTime"] = 3.5,
+					["DOT_Time"] = 0,
+					["ElementTaken"] = {
+						["Melee"] = 3,
+						["Physical"] = 0,
+					},
+					["HOTs"] = {
+						["The Might of Mograine"] = {
+							["Details"] = {
+								["Morridin"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Blood Presence"] = {
+							["Details"] = {
+								["Morridin"] = {
+									["count"] = 3,
+								},
+							},
+							["amount"] = 3,
+						},
+					},
+					["Damage"] = 3720,
+					["OverHeals"] = {
+						["The Might of Mograine"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Blood Presence"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Death Strike"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["TimeHeal"] = 3.5,
+					["WhoDamaged"] = {
+						["Goldtooth"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Tunneler"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 3,
+								},
+							},
+							["amount"] = 3,
+						},
+						["Kobold Miner"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Environment"] = {
+							["Details"] = {
+								["Falling"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Patchwerk"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ElementHitsTaken"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 3,
+								},
+								["Miss"] = {
+									["count"] = 2,
+								},
+								["Dodge"] = {
+									["count"] = 0,
+								},
+								["Crit"] = {
+									["count"] = 0,
+								},
+								["Parry"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 5,
+						},
+						["Physical"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 0,
+								},
+								["Dodge"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["DamagedWho"] = {
+						["Kobold Miner"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Icy Touch"] = {
+									["count"] = 0,
+								},
+								["Plague Strike"] = {
+									["count"] = 0,
+								},
+								["Heart Strike"] = {
+									["count"] = 0,
+								},
+								["Death Coil"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Patchwerk"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Frost Fever (DoT)"] = {
+									["count"] = 0,
+								},
+								["Blood Plague (DoT)"] = {
+									["count"] = 0,
+								},
+								["Plague Strike"] = {
+									["count"] = 0,
+								},
+								["Death Coil"] = {
+									["count"] = 0,
+								},
+								["Heart Strike"] = {
+									["count"] = 0,
+								},
+								["Death Strike"] = {
+									["count"] = 0,
+								},
+								["Icy Touch"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Goldtooth"] = {
+							["Details"] = {
+								["Icy Touch"] = {
+									["count"] = 0,
+								},
+								["Heart Strike"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Tunneler"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 3720,
+								},
+								["Icy Touch"] = {
+									["count"] = 0,
+								},
+								["Plague Strike"] = {
+									["count"] = 0,
+								},
+								["Death Coil"] = {
+									["count"] = 0,
+								},
+								["Heart Strike"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 3720,
+						},
+					},
+					["Healing"] = 4,
+					["Overhealing"] = 0,
+					["Attacks"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Glancing"] = {
+									["max"] = 3720,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 3720,
+								},
+								["Miss"] = {
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit (Blocked)"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 3720,
+						},
+						["Frost Fever (DoT)"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Blood Plague (DoT)"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Plague Strike"] = {
+							["Details"] = {
+								["Crit (Blocked)"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Death Coil"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Heart Strike"] = {
+							["Details"] = {
+								["Crit (Blocked)"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit (Blocked)"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Death Strike"] = {
+							["Details"] = {
+								["Dodge"] = {
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Icy Touch"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["ElementDone"] = {
+						["Frost"] = 0,
+						["Physical"] = 0,
+						["Melee"] = 3720,
+						["Shadow"] = 0,
+					},
+					["HealingTaken"] = 4,
+					["ElementHitsDone"] = {
+						["Frost"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 0,
+								},
+								["Crit"] = {
+									["count"] = 0,
+								},
+								["Tick"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Physical"] = {
+							["Details"] = {
+								["Dodge"] = {
+									["count"] = 0,
+								},
+								["Crit"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Glancing"] = {
+									["count"] = 1,
+								},
+								["Hit"] = {
+									["count"] = 0,
+								},
+								["Crit"] = {
+									["count"] = 0,
+								},
+								["Miss"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 1,
+						},
+						["Shadow"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 0,
+								},
+								["Tick"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["TimeDamage"] = 0,
+					["TimeDamaging"] = {
+						["Kobold Miner"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Icy Touch"] = {
+									["count"] = 0,
+								},
+								["Plague Strike"] = {
+									["count"] = 0,
+								},
+								["Heart Strike"] = {
+									["count"] = 0,
+								},
+								["Death Coil"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Patchwerk"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Frost Fever (DoT)"] = {
+									["count"] = 0,
+								},
+								["Blood Plague (DoT)"] = {
+									["count"] = 0,
+								},
+								["Plague Strike"] = {
+									["count"] = 0,
+								},
+								["Death Coil"] = {
+									["count"] = 0,
+								},
+								["Heart Strike"] = {
+									["count"] = 0,
+								},
+								["Death Strike"] = {
+									["count"] = 0,
+								},
+								["Icy Touch"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Goldtooth"] = {
+							["Details"] = {
+								["Icy Touch"] = {
+									["count"] = 0,
+								},
+								["Heart Strike"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Tunneler"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Icy Touch"] = {
+									["count"] = 0,
+								},
+								["Plague Strike"] = {
+									["count"] = 0,
+								},
+								["Death Coil"] = {
+									["count"] = 0,
+								},
+								["Heart Strike"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["Heals"] = {
+						["The Might of Mograine"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Blood Presence"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 4,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 4,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 4,
+						},
+						["Death Strike"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["HealedWho"] = {
+						["Morridin"] = {
+							["Details"] = {
+								["The Might of Mograine"] = {
+									["count"] = 0,
+								},
+								["Blood Presence"] = {
+									["count"] = 4,
+								},
+								["Death Strike"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 4,
+						},
+					},
+					["DamageTaken"] = 3,
+				},
+				["Fight4"] = {
+					["DOTs"] = {
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 0,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Dodge"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 0,
+								},
+								["Miss"] = {
+									["count"] = 1,
+								},
+								["Crit"] = {
+									["count"] = 0,
+								},
+								["Parry"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 1,
+						},
+						["Physical"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 6,
+					["HOTs"] = {
+						["Blood Presence"] = {
+							["Details"] = {
+								["Morridin"] = {
+									["count"] = 6,
+								},
+							},
+							["amount"] = 6,
+						},
+					},
+					["ManaGain"] = 0,
+					["ElementTaken"] = {
+						["Melee"] = 0,
+						["Physical"] = 0,
+					},
+					["DOT_Time"] = 0,
+					["Damage"] = 5134,
+					["ElementDoneAbsorb"] = {
+					},
+					["TimeHeal"] = 5.26,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["PartialBlock"] = {
+					},
+					["FDamagedWho"] = {
+					},
+					["FAttacks"] = {
+					},
+					["RageGain"] = 0,
+					["ElementDone"] = {
+						["Frost"] = 0,
+						["Shadow"] = 0,
+						["Melee"] = 4294,
+						["Physical"] = 840,
+					},
+					["ManaGainedFrom"] = {
+					},
+					["ElementHitsDone"] = {
+						["Frost"] = {
+							["Details"] = {
+								["Crit"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Shadow"] = {
+							["Details"] = {
+								["Crit"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Glancing"] = {
+									["count"] = 1,
+								},
+								["Crit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 1,
+						},
+						["Physical"] = {
+							["Details"] = {
+								["Crit"] = {
+									["count"] = 1,
+								},
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 1,
+						},
+					},
+					["RageGained"] = {
+					},
+					["WhoDamaged"] = {
+						["Kobold Miner"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Tunneler"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Goldtooth"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Environment"] = {
+							["Details"] = {
+								["Falling"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["Dispelled"] = 0,
+					["CCBroken"] = {
+					},
+					["ElementDoneBlock"] = {
+						["Physical"] = 0,
+					},
+					["TimeHealing"] = {
+						["Morridin"] = {
+							["Details"] = {
+								["Blood Presence"] = {
+									["count"] = 5.26,
+								},
+							},
+							["amount"] = 5.26,
+						},
+					},
+					["OverHeals"] = {
+						["Blood Presence"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["WhoHealed"] = {
+						["Mewhex"] = {
+							["Details"] = {
+								["Judgement of Light"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Morridin"] = {
+							["Details"] = {
+								["Blood Presence"] = {
+									["count"] = 8,
+								},
+							},
+							["amount"] = 8,
+						},
+					},
+					["EnergyGain"] = 0,
+					["CCBreak"] = 0,
+					["PartialAbsorb"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+						["Falling"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["ActiveTime"] = 5.26,
+					["PartialResist"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+						["Falling"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["ManaGained"] = {
+					},
+					["ElementTakenAbsorb"] = {
+					},
+					["Interrupts"] = 0,
+					["Overhealing"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["InterruptData"] = {
+					},
+					["WhoDispelled"] = {
+					},
+					["TimeSpent"] = {
+						["Morridin"] = {
+							["Details"] = {
+								["Blood Presence"] = {
+									["count"] = 5.26,
+								},
+							},
+							["amount"] = 5.26,
+						},
+						["Goldtooth"] = {
+							["Details"] = {
+								["Icy Touch"] = {
+									["count"] = 0,
+								},
+								["Heart Strike"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Tunneler"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Icy Touch"] = {
+									["count"] = 0,
+								},
+								["Plague Strike"] = {
+									["count"] = 0,
+								},
+								["Heart Strike"] = {
+									["count"] = 0,
+								},
+								["Death Coil"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Miner"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Icy Touch"] = {
+									["count"] = 0,
+								},
+								["Plague Strike"] = {
+									["count"] = 0,
+								},
+								["Heart Strike"] = {
+									["count"] = 0,
+								},
+								["Death Coil"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Forest Spider"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Stonetusk Boar"] = {
+							["Details"] = {
+								["Heart Strike"] = {
 									["count"] = 0,
 								},
 							},
@@ -4446,20 +3867,7 @@ RecountPerCharDB = {
 							["amount"] = 8,
 						},
 					},
-					["PartialAbsorb"] = {
-						["Melee"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 2,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 2,
-							["amount"] = 0,
-						},
-					},
+					["FDamage"] = 0,
 					["EnergyGained"] = {
 					},
 					["HealedWho"] = {
@@ -4473,28 +3881,100 @@ RecountPerCharDB = {
 						},
 					},
 					["Healing"] = 8,
-					["RunicPowerGainedFrom"] = {
+					["RunicPowerGained"] = {
 					},
-					["CCBroken"] = {
+					["RunicPowerGainedFrom"] = {
 					},
 					["Attacks"] = {
 						["Melee"] = {
 							["Details"] = {
 								["Glancing"] = {
+									["max"] = 4294,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 4294,
+								},
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 4294,
+						},
+						["Icy Touch"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Plague Strike"] = {
+							["Details"] = {
+								["Hit (Blocked)"] = {
 									["max"] = 0,
 									["min"] = 0,
 									["count"] = 0,
 									["amount"] = 0,
 								},
 								["Crit"] = {
-									["max"] = 1368,
+									["max"] = 840,
 									["min"] = 0,
 									["count"] = 1,
-									["amount"] = 1368,
+									["amount"] = 840,
+								},
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
 								},
 							},
 							["count"] = 1,
-							["amount"] = 1368,
+							["amount"] = 840,
+						},
+						["Heart Strike"] = {
+							["Details"] = {
+								["Crit (Blocked)"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit (Blocked)"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
 						},
 						["Death Coil"] = {
 							["Details"] = {
@@ -4514,155 +3994,9 @@ RecountPerCharDB = {
 							["count"] = 0,
 							["amount"] = 0,
 						},
-						["Heart Strike"] = {
-							["Details"] = {
-								["Crit (Blocked)"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Hit (Blocked)"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Crit"] = {
-									["max"] = 1712,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 1712,
-								},
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 1712,
-						},
-						["Icy Touch"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Crit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Evade"] = {
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Plague Strike"] = {
-							["Details"] = {
-								["Crit (Blocked)"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Crit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
 					},
 					["HealingTaken"] = 8,
-					["ElementHitsDone"] = {
-						["Physical"] = {
-							["Details"] = {
-								["Crit"] = {
-									["count"] = 1,
-								},
-								["Hit"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 1,
-						},
-						["Frost"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 0,
-								},
-								["Crit"] = {
-									["count"] = 0,
-								},
-								["Evade"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["Glancing"] = {
-									["count"] = 0,
-								},
-								["Crit"] = {
-									["count"] = 1,
-								},
-							},
-							["amount"] = 1,
-						},
-						["Shadow"] = {
-							["Details"] = {
-								["Crit"] = {
-									["count"] = 0,
-								},
-								["Hit"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["TimeDamage"] = 0,
-					["TimeDamaging"] = {
-						["Kobold Miner"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Death Coil"] = {
-									["count"] = 0,
-								},
-								["Heart Strike"] = {
-									["count"] = 0,
-								},
-								["Icy Touch"] = {
-									["count"] = 0,
-								},
-								["Plague Strike"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
+					["DamagedWho"] = {
 						["Goldtooth"] = {
 							["Details"] = {
 								["Icy Touch"] = {
@@ -4677,15 +4011,17 @@ RecountPerCharDB = {
 							},
 							["amount"] = 0,
 						},
-						["Kobold Tunneler"] = {
+						["Stonetusk Boar"] = {
+							["Details"] = {
+								["Heart Strike"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Miner"] = {
 							["Details"] = {
 								["Melee"] = {
-									["count"] = 0,
-								},
-								["Death Coil"] = {
-									["count"] = 0,
-								},
-								["Heart Strike"] = {
 									["count"] = 0,
 								},
 								["Icy Touch"] = {
@@ -4694,16 +4030,124 @@ RecountPerCharDB = {
 								["Plague Strike"] = {
 									["count"] = 0,
 								},
+								["Heart Strike"] = {
+									["count"] = 0,
+								},
+								["Death Coil"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Forest Spider"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Tunneler"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 4294,
+								},
+								["Icy Touch"] = {
+									["count"] = 0,
+								},
+								["Plague Strike"] = {
+									["count"] = 840,
+								},
+								["Heart Strike"] = {
+									["count"] = 0,
+								},
+								["Death Coil"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 5134,
+						},
+					},
+					["TimeDamage"] = 0,
+					["TimeDamaging"] = {
+						["Goldtooth"] = {
+							["Details"] = {
+								["Icy Touch"] = {
+									["count"] = 0,
+								},
+								["Heart Strike"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Stonetusk Boar"] = {
+							["Details"] = {
+								["Heart Strike"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Miner"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Icy Touch"] = {
+									["count"] = 0,
+								},
+								["Plague Strike"] = {
+									["count"] = 0,
+								},
+								["Heart Strike"] = {
+									["count"] = 0,
+								},
+								["Death Coil"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Forest Spider"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Tunneler"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Icy Touch"] = {
+									["count"] = 0,
+								},
+								["Plague Strike"] = {
+									["count"] = 0,
+								},
+								["Heart Strike"] = {
+									["count"] = 0,
+								},
+								["Death Coil"] = {
+									["count"] = 0,
+								},
 							},
 							["amount"] = 0,
 						},
 					},
 					["RunicPowerGain"] = 0,
-					["Damage"] = 3080,
+					["ElementTakenBlock"] = {
+					},
 					["DispelledWho"] = {
 					},
 				},
-				["Fight3"] = {
+				["LastFightData"] = {
 					["ElementDoneBlock"] = {
 						["Melee"] = 0,
 						["Physical"] = 0,
@@ -4763,7 +4207,13 @@ RecountPerCharDB = {
 						},
 						["Goldtooth"] = {
 							["Details"] = {
+								["Icy Touch"] = {
+									["count"] = 0,
+								},
 								["Heart Strike"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
 									["count"] = 0,
 								},
 							},
@@ -4771,19 +4221,19 @@ RecountPerCharDB = {
 						},
 						["Patchwerk"] = {
 							["Details"] = {
-								["Blood Plague (DoT)"] = {
+								["Melee"] = {
 									["count"] = 0,
 								},
 								["Frost Fever (DoT)"] = {
 									["count"] = 0,
 								},
-								["Melee"] = {
+								["Blood Plague (DoT)"] = {
 									["count"] = 0,
 								},
 								["Plague Strike"] = {
 									["count"] = 0,
 								},
-								["Icy Touch"] = {
+								["Death Coil"] = {
 									["count"] = 0,
 								},
 								["Heart Strike"] = {
@@ -4792,7 +4242,7 @@ RecountPerCharDB = {
 								["Death Strike"] = {
 									["count"] = 0,
 								},
-								["Death Coil"] = {
+								["Icy Touch"] = {
 									["count"] = 0,
 								},
 							},
@@ -4800,16 +4250,19 @@ RecountPerCharDB = {
 						},
 						["Kobold Miner"] = {
 							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
 								["Icy Touch"] = {
+									["count"] = 0,
+								},
+								["Plague Strike"] = {
 									["count"] = 0,
 								},
 								["Heart Strike"] = {
 									["count"] = 0,
 								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Plague Strike"] = {
+								["Death Coil"] = {
 									["count"] = 0,
 								},
 							},
@@ -4817,16 +4270,19 @@ RecountPerCharDB = {
 						},
 						["Kobold Tunneler"] = {
 							["Details"] = {
-								["Icy Touch"] = {
-									["count"] = 0,
-								},
-								["Heart Strike"] = {
-									["count"] = 0,
-								},
 								["Melee"] = {
 									["count"] = 0,
 								},
+								["Icy Touch"] = {
+									["count"] = 0,
+								},
 								["Plague Strike"] = {
+									["count"] = 0,
+								},
+								["Death Coil"] = {
+									["count"] = 0,
+								},
+								["Heart Strike"] = {
 									["count"] = 0,
 								},
 							},
@@ -4840,13 +4296,13 @@ RecountPerCharDB = {
 									["count"] = 0,
 								},
 								["Blood Presence"] = {
-									["count"] = 1,
+									["count"] = 4,
 								},
 								["Death Strike"] = {
 									["count"] = 0,
 								},
 							},
-							["amount"] = 1,
+							["amount"] = 4,
 						},
 						["Patchwerk"] = {
 							["Details"] = {
@@ -4858,16 +4314,16 @@ RecountPerCharDB = {
 						},
 					},
 					["PartialResist"] = {
-						["Melee"] = {
+						["Falling"] = {
 							["Details"] = {
 								["No Resist"] = {
 									["max"] = 0,
 									["min"] = 0,
-									["count"] = 1,
+									["count"] = 0,
 									["amount"] = 0,
 								},
 							},
-							["count"] = 1,
+							["count"] = 0,
 							["amount"] = 0,
 						},
 						["Pierce Armor"] = {
@@ -4882,35 +4338,64 @@ RecountPerCharDB = {
 							["count"] = 0,
 							["amount"] = 0,
 						},
-					},
-					["PartialAbsorb"] = {
 						["Melee"] = {
 							["Details"] = {
-								["No Absorb"] = {
+								["No Resist"] = {
 									["max"] = 0,
 									["min"] = 0,
-									["count"] = 1,
+									["count"] = 5,
 									["amount"] = 0,
 								},
 							},
-							["count"] = 1,
-							["amount"] = 0,
-						},
-						["Pierce Armor"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
+							["count"] = 5,
 							["amount"] = 0,
 						},
 					},
 					["HOT_Time"] = 3,
+					["PartialAbsorb"] = {
+						["Falling"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Pierce Armor"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 5,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 5,
+							["amount"] = 0,
+						},
+					},
 					["ActiveTime"] = 3.5,
+					["DOT_Time"] = 0,
+					["ElementTaken"] = {
+						["Melee"] = 3,
+						["Physical"] = 0,
+					},
 					["HOTs"] = {
 						["The Might of Mograine"] = {
 							["Details"] = {
@@ -4929,11 +4414,7 @@ RecountPerCharDB = {
 							["amount"] = 3,
 						},
 					},
-					["ElementTaken"] = {
-						["Melee"] = 1,
-					},
-					["DOT_Time"] = 0,
-					["Damage"] = 728,
+					["Damage"] = 3720,
 					["OverHeals"] = {
 						["The Might of Mograine"] = {
 							["Details"] = {
@@ -4950,14 +4431,14 @@ RecountPerCharDB = {
 						["Blood Presence"] = {
 							["Details"] = {
 								["Tick"] = {
-									["max"] = 3,
+									["max"] = 0,
 									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 3,
+									["count"] = 0,
+									["amount"] = 0,
 								},
 							},
-							["count"] = 1,
-							["amount"] = 3,
+							["count"] = 0,
+							["amount"] = 0,
 						},
 						["Death Strike"] = {
 							["Details"] = {
@@ -4972,54 +4453,9 @@ RecountPerCharDB = {
 							["amount"] = 0,
 						},
 					},
-					["Heals"] = {
-						["The Might of Mograine"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Blood Presence"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 1,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 1,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 1,
-						},
-						["Death Strike"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
+					["TimeHeal"] = 3.5,
 					["WhoDamaged"] = {
-						["Kobold Miner"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 1,
-								},
-							},
-							["amount"] = 1,
-						},
-						["Patchwerk"] = {
+						["Goldtooth"] = {
 							["Details"] = {
 								["Melee"] = {
 									["count"] = 0,
@@ -5028,6 +4464,30 @@ RecountPerCharDB = {
 							["amount"] = 0,
 						},
 						["Kobold Tunneler"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 3,
+								},
+							},
+							["amount"] = 3,
+						},
+						["Kobold Miner"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Environment"] = {
+							["Details"] = {
+								["Falling"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Patchwerk"] = {
 							["Details"] = {
 								["Melee"] = {
 									["count"] = 0,
@@ -5040,10 +4500,10 @@ RecountPerCharDB = {
 						["Melee"] = {
 							["Details"] = {
 								["Hit"] = {
-									["count"] = 1,
+									["count"] = 3,
 								},
 								["Miss"] = {
-									["count"] = 0,
+									["count"] = 2,
 								},
 								["Dodge"] = {
 									["count"] = 0,
@@ -5055,10 +4515,13 @@ RecountPerCharDB = {
 									["count"] = 0,
 								},
 							},
-							["amount"] = 1,
+							["amount"] = 5,
 						},
 						["Physical"] = {
 							["Details"] = {
+								["Hit"] = {
+									["count"] = 0,
+								},
 								["Dodge"] = {
 									["count"] = 0,
 								},
@@ -5069,42 +4532,16 @@ RecountPerCharDB = {
 					["DamagedWho"] = {
 						["Kobold Miner"] = {
 							["Details"] = {
-								["Icy Touch"] = {
-									["count"] = 0,
-								},
-								["Heart Strike"] = {
-									["count"] = 0,
-								},
 								["Melee"] = {
-									["count"] = 0,
-								},
-								["Plague Strike"] = {
-									["count"] = 728,
-								},
-							},
-							["amount"] = 728,
-						},
-						["Patchwerk"] = {
-							["Details"] = {
-								["Blood Plague (DoT)"] = {
-									["count"] = 0,
-								},
-								["Frost Fever (DoT)"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Plague Strike"] = {
 									["count"] = 0,
 								},
 								["Icy Touch"] = {
 									["count"] = 0,
 								},
-								["Heart Strike"] = {
+								["Plague Strike"] = {
 									["count"] = 0,
 								},
-								["Death Strike"] = {
+								["Heart Strike"] = {
 									["count"] = 0,
 								},
 								["Death Coil"] = {
@@ -5113,15 +4550,36 @@ RecountPerCharDB = {
 							},
 							["amount"] = 0,
 						},
-						["Goldtooth"] = {
+						["Patchwerk"] = {
 							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Frost Fever (DoT)"] = {
+									["count"] = 0,
+								},
+								["Blood Plague (DoT)"] = {
+									["count"] = 0,
+								},
+								["Plague Strike"] = {
+									["count"] = 0,
+								},
+								["Death Coil"] = {
+									["count"] = 0,
+								},
 								["Heart Strike"] = {
+									["count"] = 0,
+								},
+								["Death Strike"] = {
+									["count"] = 0,
+								},
+								["Icy Touch"] = {
 									["count"] = 0,
 								},
 							},
 							["amount"] = 0,
 						},
-						["Kobold Tunneler"] = {
+						["Goldtooth"] = {
 							["Details"] = {
 								["Icy Touch"] = {
 									["count"] = 0,
@@ -5132,47 +4590,40 @@ RecountPerCharDB = {
 								["Melee"] = {
 									["count"] = 0,
 								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Tunneler"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 3720,
+								},
+								["Icy Touch"] = {
+									["count"] = 0,
+								},
 								["Plague Strike"] = {
 									["count"] = 0,
 								},
+								["Death Coil"] = {
+									["count"] = 0,
+								},
+								["Heart Strike"] = {
+									["count"] = 0,
+								},
 							},
-							["amount"] = 0,
+							["amount"] = 3720,
 						},
 					},
-					["Healing"] = 1,
-					["Overhealing"] = 3,
+					["Healing"] = 4,
+					["Overhealing"] = 0,
 					["Attacks"] = {
-						["Blood Plague (DoT)"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Frost Fever (DoT)"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
 						["Melee"] = {
 							["Details"] = {
 								["Glancing"] = {
-									["max"] = 0,
+									["max"] = 3720,
 									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
+									["count"] = 1,
+									["amount"] = 3720,
 								},
 								["Miss"] = {
 									["count"] = 0,
@@ -5197,6 +4648,30 @@ RecountPerCharDB = {
 									["amount"] = 0,
 								},
 							},
+							["count"] = 1,
+							["amount"] = 3720,
+						},
+						["Frost Fever (DoT)"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Blood Plague (DoT)"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
 							["count"] = 0,
 							["amount"] = 0,
 						},
@@ -5209,10 +4684,10 @@ RecountPerCharDB = {
 									["amount"] = 0,
 								},
 								["Crit"] = {
-									["max"] = 728,
+									["max"] = 0,
 									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 728,
+									["count"] = 0,
+									["amount"] = 0,
 								},
 								["Hit"] = {
 									["max"] = 0,
@@ -5221,17 +4696,11 @@ RecountPerCharDB = {
 									["amount"] = 0,
 								},
 							},
-							["count"] = 1,
-							["amount"] = 728,
+							["count"] = 0,
+							["amount"] = 0,
 						},
-						["Icy Touch"] = {
+						["Death Coil"] = {
 							["Details"] = {
-								["Crit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
 								["Hit"] = {
 									["max"] = 0,
 									["min"] = 0,
@@ -5288,8 +4757,14 @@ RecountPerCharDB = {
 							["count"] = 0,
 							["amount"] = 0,
 						},
-						["Death Coil"] = {
+						["Icy Touch"] = {
 							["Details"] = {
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
 								["Hit"] = {
 									["max"] = 0,
 									["min"] = 0,
@@ -5302,24 +4777,13 @@ RecountPerCharDB = {
 						},
 					},
 					["ElementDone"] = {
-						["Shadow"] = 0,
 						["Frost"] = 0,
-						["Melee"] = 0,
-						["Physical"] = 728,
+						["Physical"] = 0,
+						["Melee"] = 3720,
+						["Shadow"] = 0,
 					},
-					["HealingTaken"] = 1,
+					["HealingTaken"] = 4,
 					["ElementHitsDone"] = {
-						["Shadow"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 0,
-								},
-								["Tick"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
 						["Frost"] = {
 							["Details"] = {
 								["Hit"] = {
@@ -5334,10 +4798,24 @@ RecountPerCharDB = {
 							},
 							["amount"] = 0,
 						},
+						["Physical"] = {
+							["Details"] = {
+								["Dodge"] = {
+									["count"] = 0,
+								},
+								["Crit"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
 						["Melee"] = {
 							["Details"] = {
 								["Glancing"] = {
-									["count"] = 0,
+									["count"] = 1,
 								},
 								["Hit"] = {
 									["count"] = 0,
@@ -5349,13 +4827,849 @@ RecountPerCharDB = {
 									["count"] = 0,
 								},
 							},
+							["amount"] = 1,
+						},
+						["Shadow"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 0,
+								},
+								["Tick"] = {
+									["count"] = 0,
+								},
+							},
 							["amount"] = 0,
+						},
+					},
+					["TimeDamage"] = 0,
+					["TimeDamaging"] = {
+						["Kobold Miner"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Icy Touch"] = {
+									["count"] = 0,
+								},
+								["Plague Strike"] = {
+									["count"] = 0,
+								},
+								["Heart Strike"] = {
+									["count"] = 0,
+								},
+								["Death Coil"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Patchwerk"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Frost Fever (DoT)"] = {
+									["count"] = 0,
+								},
+								["Blood Plague (DoT)"] = {
+									["count"] = 0,
+								},
+								["Plague Strike"] = {
+									["count"] = 0,
+								},
+								["Death Coil"] = {
+									["count"] = 0,
+								},
+								["Heart Strike"] = {
+									["count"] = 0,
+								},
+								["Death Strike"] = {
+									["count"] = 0,
+								},
+								["Icy Touch"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Goldtooth"] = {
+							["Details"] = {
+								["Icy Touch"] = {
+									["count"] = 0,
+								},
+								["Heart Strike"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Tunneler"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Icy Touch"] = {
+									["count"] = 0,
+								},
+								["Plague Strike"] = {
+									["count"] = 0,
+								},
+								["Death Coil"] = {
+									["count"] = 0,
+								},
+								["Heart Strike"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["Heals"] = {
+						["The Might of Mograine"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Blood Presence"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 4,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 4,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 4,
+						},
+						["Death Strike"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["HealedWho"] = {
+						["Morridin"] = {
+							["Details"] = {
+								["The Might of Mograine"] = {
+									["count"] = 0,
+								},
+								["Blood Presence"] = {
+									["count"] = 4,
+								},
+								["Death Strike"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 4,
+						},
+					},
+					["DamageTaken"] = 3,
+				},
+				["Fight2"] = {
+					["DOTs"] = {
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 1,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 1,
+								},
+								["Miss"] = {
+									["count"] = 0,
+								},
+								["Dodge"] = {
+									["count"] = 0,
+								},
+								["Parry"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 1,
+						},
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 3,
+					["HOTs"] = {
+						["Blood Presence"] = {
+							["Details"] = {
+								["Morridin"] = {
+									["count"] = 3,
+								},
+							},
+							["amount"] = 3,
+						},
+					},
+					["ManaGain"] = 0,
+					["ElementTaken"] = {
+						["Melee"] = 1,
+					},
+					["DOT_Time"] = 0,
+					["Damage"] = 1708,
+					["ElementDoneAbsorb"] = {
+					},
+					["TimeHeal"] = 2.33,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["PartialBlock"] = {
+					},
+					["FDamagedWho"] = {
+					},
+					["FAttacks"] = {
+					},
+					["RageGain"] = 0,
+					["ElementDone"] = {
+						["Physical"] = 412,
+						["Frost"] = 0,
+						["Melee"] = 1296,
+						["Shadow"] = 0,
+					},
+					["ManaGainedFrom"] = {
+					},
+					["ElementHitsDone"] = {
+						["Physical"] = {
+							["Details"] = {
+								["Crit"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 1,
+						},
+						["Frost"] = {
+							["Details"] = {
+								["Crit"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Crit"] = {
+									["count"] = 1,
+								},
+								["Glancing"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 1,
+						},
+						["Shadow"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["RageGained"] = {
+					},
+					["WhoDamaged"] = {
+						["Kobold Miner"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Goldtooth"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Tunneler"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 1,
+						},
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["Dispelled"] = 0,
+					["CCBroken"] = {
+					},
+					["ElementDoneBlock"] = {
+						["Physical"] = 0,
+					},
+					["TimeHealing"] = {
+						["Morridin"] = {
+							["Details"] = {
+								["Rune Tap"] = {
+									["count"] = 0,
+								},
+								["Blood Presence"] = {
+									["count"] = 2.33,
+								},
+							},
+							["amount"] = 2.33,
+						},
+					},
+					["OverHeals"] = {
+						["Rune Tap"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Blood Presence"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["WhoHealed"] = {
+						["Morridin"] = {
+							["Details"] = {
+								["Rune Tap"] = {
+									["count"] = 0,
+								},
+								["Blood Presence"] = {
+									["count"] = 4,
+								},
+							},
+							["amount"] = 4,
+						},
+					},
+					["EnergyGain"] = 0,
+					["CCBreak"] = 0,
+					["PartialAbsorb"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+					},
+					["ActiveTime"] = 5.83,
+					["PartialResist"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+					},
+					["ManaGained"] = {
+					},
+					["ElementTakenAbsorb"] = {
+					},
+					["Interrupts"] = 0,
+					["Overhealing"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["InterruptData"] = {
+					},
+					["WhoDispelled"] = {
+					},
+					["TimeSpent"] = {
+						["Kobold Miner"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Icy Touch"] = {
+									["count"] = 0,
+								},
+								["Plague Strike"] = {
+									["count"] = 0,
+								},
+								["Death Coil"] = {
+									["count"] = 0,
+								},
+								["Heart Strike"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Morridin"] = {
+							["Details"] = {
+								["Rune Tap"] = {
+									["count"] = 0,
+								},
+								["Blood Presence"] = {
+									["count"] = 2.33,
+								},
+							},
+							["amount"] = 2.33,
+						},
+						["Goldtooth"] = {
+							["Details"] = {
+								["Icy Touch"] = {
+									["count"] = 0,
+								},
+								["Heart Strike"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Tunneler"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 3.5,
+								},
+								["Icy Touch"] = {
+									["count"] = 0,
+								},
+								["Plague Strike"] = {
+									["count"] = 0,
+								},
+								["Heart Strike"] = {
+									["count"] = 0,
+								},
+								["Death Coil"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 3.5,
+						},
+					},
+					["Heals"] = {
+						["Rune Tap"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Blood Presence"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 4,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 4,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 4,
+						},
+					},
+					["FDamage"] = 0,
+					["EnergyGained"] = {
+					},
+					["HealedWho"] = {
+						["Morridin"] = {
+							["Details"] = {
+								["Rune Tap"] = {
+									["count"] = 0,
+								},
+								["Blood Presence"] = {
+									["count"] = 4,
+								},
+							},
+							["amount"] = 4,
+						},
+					},
+					["Healing"] = 4,
+					["RunicPowerGained"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["Attacks"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 1296,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 1296,
+								},
+								["Glancing"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 1296,
+						},
+						["Icy Touch"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Plague Strike"] = {
+							["Details"] = {
+								["Hit (Blocked)"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 412,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 412,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 412,
+						},
+						["Heart Strike"] = {
+							["Details"] = {
+								["Crit (Blocked)"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit (Blocked)"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Death Coil"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["HealingTaken"] = 4,
+					["DamagedWho"] = {
+						["Kobold Miner"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Icy Touch"] = {
+									["count"] = 0,
+								},
+								["Plague Strike"] = {
+									["count"] = 0,
+								},
+								["Death Coil"] = {
+									["count"] = 0,
+								},
+								["Heart Strike"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Goldtooth"] = {
+							["Details"] = {
+								["Icy Touch"] = {
+									["count"] = 0,
+								},
+								["Heart Strike"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Tunneler"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 1296,
+								},
+								["Icy Touch"] = {
+									["count"] = 0,
+								},
+								["Plague Strike"] = {
+									["count"] = 412,
+								},
+								["Heart Strike"] = {
+									["count"] = 0,
+								},
+								["Death Coil"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 1708,
+						},
+					},
+					["TimeDamage"] = 3.5,
+					["TimeDamaging"] = {
+						["Kobold Miner"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Icy Touch"] = {
+									["count"] = 0,
+								},
+								["Plague Strike"] = {
+									["count"] = 0,
+								},
+								["Death Coil"] = {
+									["count"] = 0,
+								},
+								["Heart Strike"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Goldtooth"] = {
+							["Details"] = {
+								["Icy Touch"] = {
+									["count"] = 0,
+								},
+								["Heart Strike"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Tunneler"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 3.5,
+								},
+								["Icy Touch"] = {
+									["count"] = 0,
+								},
+								["Plague Strike"] = {
+									["count"] = 0,
+								},
+								["Heart Strike"] = {
+									["count"] = 0,
+								},
+								["Death Coil"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 3.5,
+						},
+					},
+					["RunicPowerGain"] = 0,
+					["ElementTakenBlock"] = {
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["Fight3"] = {
+					["DOTs"] = {
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 0,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Dodge"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 0,
+								},
+								["Miss"] = {
+									["count"] = 1,
+								},
+								["Parry"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 1,
 						},
 						["Physical"] = {
 							["Details"] = {
 								["Dodge"] = {
 									["count"] = 0,
 								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 3,
+					["HOTs"] = {
+						["Blood Presence"] = {
+							["Details"] = {
+								["Morridin"] = {
+									["count"] = 3,
+								},
+							},
+							["amount"] = 3,
+						},
+					},
+					["ManaGain"] = 0,
+					["ElementTaken"] = {
+						["Melee"] = 0,
+					},
+					["DOT_Time"] = 0,
+					["Damage"] = 1864,
+					["ElementDoneAbsorb"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["PartialBlock"] = {
+					},
+					["FDamagedWho"] = {
+					},
+					["FAttacks"] = {
+					},
+					["RageGain"] = 0,
+					["ElementDone"] = {
+						["Frost"] = 0,
+						["Shadow"] = 0,
+						["Melee"] = 1138,
+						["Physical"] = 726,
+					},
+					["ManaGainedFrom"] = {
+					},
+					["ElementHitsDone"] = {
+						["Frost"] = {
+							["Details"] = {
+								["Crit"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Shadow"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Crit"] = {
+									["count"] = 1,
+								},
+								["Glancing"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 1,
+						},
+						["Physical"] = {
+							["Details"] = {
 								["Crit"] = {
 									["count"] = 1,
 								},
@@ -5366,49 +5680,12 @@ RecountPerCharDB = {
 							["amount"] = 1,
 						},
 					},
-					["TimeDamage"] = 0,
-					["TimeDamaging"] = {
+					["RageGained"] = {
+					},
+					["WhoDamaged"] = {
 						["Kobold Miner"] = {
 							["Details"] = {
-								["Icy Touch"] = {
-									["count"] = 0,
-								},
-								["Heart Strike"] = {
-									["count"] = 0,
-								},
 								["Melee"] = {
-									["count"] = 0,
-								},
-								["Plague Strike"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Patchwerk"] = {
-							["Details"] = {
-								["Blood Plague (DoT)"] = {
-									["count"] = 0,
-								},
-								["Frost Fever (DoT)"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Plague Strike"] = {
-									["count"] = 0,
-								},
-								["Icy Touch"] = {
-									["count"] = 0,
-								},
-								["Heart Strike"] = {
-									["count"] = 0,
-								},
-								["Death Strike"] = {
-									["count"] = 0,
-								},
-								["Death Coil"] = {
 									["count"] = 0,
 								},
 							},
@@ -5416,6 +5693,144 @@ RecountPerCharDB = {
 						},
 						["Goldtooth"] = {
 							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Tunneler"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["Dispelled"] = 0,
+					["CCBroken"] = {
+					},
+					["ElementDoneBlock"] = {
+						["Physical"] = 0,
+					},
+					["TimeHealing"] = {
+						["Morridin"] = {
+							["Details"] = {
+								["Blood Presence"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["OverHeals"] = {
+						["Blood Presence"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 4,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 4,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 4,
+						},
+					},
+					["WhoHealed"] = {
+						["Morridin"] = {
+							["Details"] = {
+								["Blood Presence"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["EnergyGain"] = 0,
+					["CCBreak"] = 0,
+					["PartialAbsorb"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+						["Pierce Armor"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["ActiveTime"] = 5.57,
+					["PartialResist"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+						["Pierce Armor"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["ManaGained"] = {
+					},
+					["ElementTakenAbsorb"] = {
+					},
+					["Interrupts"] = 0,
+					["Overhealing"] = 4,
+					["ElementTakenResist"] = {
+					},
+					["InterruptData"] = {
+					},
+					["WhoDispelled"] = {
+					},
+					["TimeSpent"] = {
+						["Morridin"] = {
+							["Details"] = {
+								["Blood Presence"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Goldtooth"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
 								["Heart Strike"] = {
 									["count"] = 0,
 								},
@@ -5424,13 +5839,36 @@ RecountPerCharDB = {
 						},
 						["Kobold Tunneler"] = {
 							["Details"] = {
-								["Icy Touch"] = {
+								["Melee"] = {
+									["count"] = 3.5,
+								},
+								["Death Coil"] = {
 									["count"] = 0,
 								},
 								["Heart Strike"] = {
 									["count"] = 0,
 								},
+								["Icy Touch"] = {
+									["count"] = 0,
+								},
+								["Plague Strike"] = {
+									["count"] = 2.07,
+								},
+							},
+							["amount"] = 5.57,
+						},
+						["Kobold Miner"] = {
+							["Details"] = {
 								["Melee"] = {
+									["count"] = 0,
+								},
+								["Death Coil"] = {
+									["count"] = 0,
+								},
+								["Heart Strike"] = {
+									["count"] = 0,
+								},
+								["Icy Touch"] = {
 									["count"] = 0,
 								},
 								["Plague Strike"] = {
@@ -5439,29 +5877,278 @@ RecountPerCharDB = {
 							},
 							["amount"] = 0,
 						},
-					},
-					["TimeHeal"] = 3.5,
-					["HealedWho"] = {
-						["Morridin"] = {
+						["Narg the Taskmaster"] = {
 							["Details"] = {
-								["The Might of Mograine"] = {
-									["count"] = 0,
-								},
-								["Blood Presence"] = {
-									["count"] = 1,
-								},
-								["Death Strike"] = {
+								["Melee"] = {
 									["count"] = 0,
 								},
 							},
-							["amount"] = 1,
+							["amount"] = 0,
 						},
 					},
-					["DamageTaken"] = 1,
+					["Heals"] = {
+						["Blood Presence"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["FDamage"] = 0,
+					["EnergyGained"] = {
+					},
+					["HealedWho"] = {
+						["Morridin"] = {
+							["Details"] = {
+								["Blood Presence"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["Healing"] = 0,
+					["RunicPowerGained"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["Attacks"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 1138,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 1138,
+								},
+								["Glancing"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 1138,
+						},
+						["Death Coil"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Heart Strike"] = {
+							["Details"] = {
+								["Hit (Blocked)"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Crit (Blocked)"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Icy Touch"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Plague Strike"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 726,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 726,
+								},
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 726,
+						},
+					},
+					["HealingTaken"] = 0,
+					["DamagedWho"] = {
+						["Kobold Miner"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Death Coil"] = {
+									["count"] = 0,
+								},
+								["Heart Strike"] = {
+									["count"] = 0,
+								},
+								["Icy Touch"] = {
+									["count"] = 0,
+								},
+								["Plague Strike"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Narg the Taskmaster"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Goldtooth"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Heart Strike"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Tunneler"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 1138,
+								},
+								["Death Coil"] = {
+									["count"] = 0,
+								},
+								["Heart Strike"] = {
+									["count"] = 0,
+								},
+								["Icy Touch"] = {
+									["count"] = 0,
+								},
+								["Plague Strike"] = {
+									["count"] = 726,
+								},
+							},
+							["amount"] = 1864,
+						},
+					},
+					["TimeDamage"] = 5.57,
+					["TimeDamaging"] = {
+						["Kobold Miner"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Death Coil"] = {
+									["count"] = 0,
+								},
+								["Heart Strike"] = {
+									["count"] = 0,
+								},
+								["Icy Touch"] = {
+									["count"] = 0,
+								},
+								["Plague Strike"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Narg the Taskmaster"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Goldtooth"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Heart Strike"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Tunneler"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 3.5,
+								},
+								["Death Coil"] = {
+									["count"] = 0,
+								},
+								["Heart Strike"] = {
+									["count"] = 0,
+								},
+								["Icy Touch"] = {
+									["count"] = 0,
+								},
+								["Plague Strike"] = {
+									["count"] = 2.07,
+								},
+							},
+							["amount"] = 5.57,
+						},
+					},
+					["RunicPowerGain"] = 0,
+					["ElementTakenBlock"] = {
+					},
+					["DispelledWho"] = {
+					},
 				},
 			},
 			["UnitLockout"] = 1689546551,
-			["LastActive"] = 1689762629,
+			["LastActive"] = 1689774487,
 		},
 		["Oncc"] = {
 			["GUID"] = "0x0700000000977ACB",
@@ -5608,12 +6295,12 @@ RecountPerCharDB = {
 			["LastDamageAbility"] = "Melee",
 			["LastFightIn"] = 1,
 			["LastEventNum"] = {
-				[35] = 0.3380630416150843,
 				[9] = 0.3904390058089706,
+				[35] = 0.3380630416150843,
 				[49] = 24.99761927435482,
 				[41] = 0.2428340158080183,
 				[39] = 0.4142462622607371,
-				[14] = 0.3475859441957909,
+				[28] = 0.3856775545186173,
 				[7] = 0.238072564517665,
 				[44] = 0.7475478525854681,
 				[46] = 1.047519283877726,
@@ -5623,11 +6310,11 @@ RecountPerCharDB = {
 				[20] = 0.380916103228264,
 				[5] = 0.3618702980668508,
 				[11] = 0.3190172364536711,
-				[28] = 0.3856775545186173,
+				[14] = 0.3475859441957909,
 			},
 			["type"] = "Ungrouped",
 			["FightsSaved"] = 5,
-			["LastAbility"] = 14451.37,
+			["LastAbility"] = 20423.708,
 			["LastEventTimes"] = {
 				25553.927, -- [1]
 				25553.968, -- [2]
@@ -5867,40 +6554,41 @@ RecountPerCharDB = {
 					},
 					["DeathCount"] = 0,
 					["HOT_Time"] = 0,
-					["ElementTakenBlock"] = {
+					["ElementHitsDone"] = {
 					},
-					["RunicPowerGain"] = 0,
+					["ElementTakenAbsorb"] = {
+					},
 					["ElementTaken"] = {
 					},
-					["HOTs"] = {
-					},
+					["DOT_Time"] = 0,
 					["Damage"] = 0,
-					["ElementDoneAbsorb"] = {
+					["ElementTakenBlock"] = {
 					},
 					["TimeHeal"] = 0,
 					["RessedWho"] = {
 					},
 					["Dispels"] = 0,
-					["PartialBlock"] = {
+					["ElementTakenResist"] = {
 					},
-					["DamagedWho"] = {
+					["ElementDoneAbsorb"] = {
 					},
 					["FAttacks"] = {
 					},
-					["HealingTaken"] = 0,
-					["ElementDone"] = {
-					},
 					["RunicPowerGainedFrom"] = {
 					},
-					["ElementHitsDone"] = {
+					["ElementDone"] = {
 					},
-					["ManaGainedFrom"] = {
+					["PartialAbsorb"] = {
+					},
+					["DamagedWho"] = {
+					},
+					["PartialBlock"] = {
 					},
 					["WhoDamaged"] = {
 					},
 					["EnergyGainedFrom"] = {
 					},
-					["RunicPowerGained"] = {
+					["PartialResist"] = {
 					},
 					["CCBroken"] = {
 					},
@@ -5908,21 +6596,22 @@ RecountPerCharDB = {
 					},
 					["TimeHealing"] = {
 					},
-					["Dispelled"] = 0,
-					["WhoHealed"] = {
+					["OverHeals"] = {
+					},
+					["ManaGainedFrom"] = {
+					},
+					["RunicPowerGained"] = {
+					},
+					["CCBreak"] = 0,
+					["RageGained"] = {
 					},
 					["HealedWho"] = {
 					},
-					["CCBreak"] = 0,
-					["ElementTakenAbsorb"] = {
-					},
-					["FDamage"] = 0,
 					["EnergyGain"] = 0,
 					["ManaGained"] = {
 					},
-					["PartialAbsorb"] = {
-					},
-					["ActiveTime"] = 0,
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
 					["Overhealing"] = 0,
 					["TimeSpent"] = {
 					},
@@ -5930,30 +6619,28 @@ RecountPerCharDB = {
 					},
 					["InterruptData"] = {
 					},
-					["ElementTakenResist"] = {
-					},
+					["RunicPowerGain"] = 0,
 					["Heals"] = {
 					},
-					["Interrupts"] = 0,
+					["WhoHealed"] = {
+					},
 					["EnergyGained"] = {
 					},
-					["PartialResist"] = {
-					},
+					["ActiveTime"] = 0,
 					["Healing"] = 0,
-					["RageGained"] = {
-					},
-					["OverHeals"] = {
-					},
-					["Attacks"] = {
-					},
-					["RageGain"] = 0,
 					["FDamagedWho"] = {
 					},
+					["Dispelled"] = 0,
+					["Attacks"] = {
+					},
+					["HealingTaken"] = 0,
+					["RageGain"] = 0,
 					["TimeDamage"] = 0,
 					["TimeDamaging"] = {
 					},
 					["ManaGain"] = 0,
-					["DOT_Time"] = 0,
+					["HOTs"] = {
+					},
 					["DispelledWho"] = {
 					},
 				},
@@ -5970,40 +6657,41 @@ RecountPerCharDB = {
 					},
 					["DeathCount"] = 0,
 					["HOT_Time"] = 0,
-					["ElementTakenBlock"] = {
+					["ElementHitsDone"] = {
 					},
-					["RunicPowerGain"] = 0,
+					["ElementTakenAbsorb"] = {
+					},
 					["ElementTaken"] = {
 					},
-					["HOTs"] = {
-					},
+					["DOT_Time"] = 0,
 					["Damage"] = 0,
-					["ElementDoneAbsorb"] = {
+					["ElementTakenBlock"] = {
 					},
 					["TimeHeal"] = 0,
 					["RessedWho"] = {
 					},
 					["Dispels"] = 0,
-					["PartialBlock"] = {
+					["ElementTakenResist"] = {
 					},
-					["DamagedWho"] = {
+					["ElementDoneAbsorb"] = {
 					},
 					["FAttacks"] = {
 					},
-					["HealingTaken"] = 0,
-					["ElementDone"] = {
-					},
 					["RunicPowerGainedFrom"] = {
 					},
-					["ElementHitsDone"] = {
+					["ElementDone"] = {
 					},
-					["ManaGainedFrom"] = {
+					["PartialAbsorb"] = {
+					},
+					["DamagedWho"] = {
+					},
+					["PartialBlock"] = {
 					},
 					["WhoDamaged"] = {
 					},
 					["EnergyGainedFrom"] = {
 					},
-					["RunicPowerGained"] = {
+					["PartialResist"] = {
 					},
 					["CCBroken"] = {
 					},
@@ -6011,21 +6699,22 @@ RecountPerCharDB = {
 					},
 					["TimeHealing"] = {
 					},
-					["Dispelled"] = 0,
-					["WhoHealed"] = {
+					["OverHeals"] = {
+					},
+					["ManaGainedFrom"] = {
+					},
+					["RunicPowerGained"] = {
+					},
+					["CCBreak"] = 0,
+					["RageGained"] = {
 					},
 					["HealedWho"] = {
 					},
-					["CCBreak"] = 0,
-					["ElementTakenAbsorb"] = {
-					},
-					["FDamage"] = 0,
 					["EnergyGain"] = 0,
 					["ManaGained"] = {
 					},
-					["PartialAbsorb"] = {
-					},
-					["ActiveTime"] = 0,
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
 					["Overhealing"] = 0,
 					["TimeSpent"] = {
 					},
@@ -6033,30 +6722,28 @@ RecountPerCharDB = {
 					},
 					["InterruptData"] = {
 					},
-					["ElementTakenResist"] = {
-					},
+					["RunicPowerGain"] = 0,
 					["Heals"] = {
 					},
-					["Interrupts"] = 0,
+					["WhoHealed"] = {
+					},
 					["EnergyGained"] = {
 					},
-					["PartialResist"] = {
-					},
+					["ActiveTime"] = 0,
 					["Healing"] = 0,
-					["RageGained"] = {
-					},
-					["OverHeals"] = {
-					},
-					["Attacks"] = {
-					},
-					["RageGain"] = 0,
 					["FDamagedWho"] = {
 					},
+					["Dispelled"] = 0,
+					["Attacks"] = {
+					},
+					["HealingTaken"] = 0,
+					["RageGain"] = 0,
 					["TimeDamage"] = 0,
 					["TimeDamaging"] = {
 					},
 					["ManaGain"] = 0,
-					["DOT_Time"] = 0,
+					["HOTs"] = {
+					},
 					["DispelledWho"] = {
 					},
 				},
@@ -6184,12 +6871,8 @@ RecountPerCharDB = {
 							["amount"] = 163,
 						},
 					},
-					["Overhealing"] = 6300,
+					["HOT_Time"] = 48,
 					["ActiveTime"] = 30.97000000000001,
-					["DOT_Time"] = 24,
-					["ElementTaken"] = {
-						["Melee"] = 163,
-					},
 					["HOTs"] = {
 						["The Might of Mograine"] = {
 							["Details"] = {
@@ -6208,6 +6891,10 @@ RecountPerCharDB = {
 							["amount"] = 45,
 						},
 					},
+					["ElementTaken"] = {
+						["Melee"] = 163,
+					},
+					["DOT_Time"] = 24,
 					["Damage"] = 48137,
 					["HealedWho"] = {
 						["Oncc"] = {
@@ -6464,24 +7151,13 @@ RecountPerCharDB = {
 						},
 					},
 					["ElementDone"] = {
-						["Frost"] = 7354,
 						["Physical"] = 12437,
-						["Melee"] = 18972,
 						["Shadow"] = 9374,
+						["Melee"] = 18972,
+						["Frost"] = 7354,
 					},
 					["HealingTaken"] = 163,
 					["ElementHitsDone"] = {
-						["Frost"] = {
-							["Details"] = {
-								["Tick"] = {
-									["count"] = 3,
-								},
-								["Hit"] = {
-									["count"] = 3,
-								},
-							},
-							["amount"] = 6,
-						},
 						["Physical"] = {
 							["Details"] = {
 								["Crit"] = {
@@ -6492,6 +7168,20 @@ RecountPerCharDB = {
 								},
 							},
 							["amount"] = 5,
+						},
+						["Shadow"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 2,
+								},
+								["Tick"] = {
+									["count"] = 5,
+								},
+								["Hit"] = {
+									["count"] = 9,
+								},
+							},
+							["amount"] = 16,
 						},
 						["Melee"] = {
 							["Details"] = {
@@ -6510,19 +7200,16 @@ RecountPerCharDB = {
 							},
 							["amount"] = 8,
 						},
-						["Shadow"] = {
+						["Frost"] = {
 							["Details"] = {
-								["Miss"] = {
-									["count"] = 2,
-								},
 								["Tick"] = {
-									["count"] = 5,
+									["count"] = 3,
 								},
 								["Hit"] = {
-									["count"] = 9,
+									["count"] = 3,
 								},
 							},
-							["amount"] = 16,
+							["amount"] = 6,
 						},
 					},
 					["TimeDamage"] = 30.08000000000001,
@@ -6601,14 +7288,14 @@ RecountPerCharDB = {
 							["amount"] = 0,
 						},
 					},
-					["HOT_Time"] = 48,
+					["Overhealing"] = 6300,
 				},
 			},
 			["UnitLockout"] = 1689546552,
 			["LastActive"] = 1689546583,
 		},
 	},
-	["FightNum"] = 69,
+	["FightNum"] = 133,
 	["CombatTimes"] = {
 		{
 			1689546542, -- [1]
@@ -7093,12 +7780,460 @@ RecountPerCharDB = {
 			"12:25:10", -- [4]
 			"Kobold Tunneler", -- [5]
 		}, -- [69]
+		{
+			1689762731, -- [1]
+			1689762737, -- [2]
+			"12:32:11", -- [3]
+			"12:32:17", -- [4]
+			"Kobold Tunneler", -- [5]
+		}, -- [70]
+		{
+			1689762768, -- [1]
+			1689762775, -- [2]
+			"12:32:48", -- [3]
+			"12:32:55", -- [4]
+			"Kobold Miner", -- [5]
+		}, -- [71]
+		{
+			1689762941, -- [1]
+			1689762946, -- [2]
+			"12:35:41", -- [3]
+			"12:35:46", -- [4]
+			"Kobold Tunneler", -- [5]
+		}, -- [72]
+		{
+			1689763125, -- [1]
+			1689763129, -- [2]
+			"12:38:45", -- [3]
+			"12:38:49", -- [4]
+			"Kobold Miner", -- [5]
+		}, -- [73]
+		{
+			1689763206, -- [1]
+			1689763210, -- [2]
+			"12:40:06", -- [3]
+			"12:40:10", -- [4]
+			"Kobold Tunneler", -- [5]
+		}, -- [74]
+		{
+			1689763437, -- [1]
+			1689763443, -- [2]
+			"12:43:57", -- [3]
+			"12:44:03", -- [4]
+			"Kobold Tunneler", -- [5]
+		}, -- [75]
+		{
+			1689763824, -- [1]
+			1689763830, -- [2]
+			"12:50:25", -- [3]
+			"12:50:30", -- [4]
+			"Kobold Miner", -- [5]
+		}, -- [76]
+		{
+			1689763974, -- [1]
+			1689763979, -- [2]
+			"12:52:55", -- [3]
+			"12:52:59", -- [4]
+			"Kobold Tunneler", -- [5]
+		}, -- [77]
+		{
+			1689764185, -- [1]
+			1689764192, -- [2]
+			"12:56:25", -- [3]
+			"12:56:32", -- [4]
+			"Kobold Miner", -- [5]
+		}, -- [78]
+		{
+			1689764206, -- [1]
+			1689764210, -- [2]
+			"12:56:46", -- [3]
+			"12:56:50", -- [4]
+			"Kobold Miner", -- [5]
+		}, -- [79]
+		{
+			1689764211, -- [1]
+			1689764216, -- [2]
+			"12:56:51", -- [3]
+			"12:56:56", -- [4]
+			"Kobold Tunneler", -- [5]
+		}, -- [80]
+		{
+			1689764275, -- [1]
+			1689764279, -- [2]
+			"12:57:55", -- [3]
+			"12:57:59", -- [4]
+			"Kobold Tunneler", -- [5]
+		}, -- [81]
+		{
+			1689764341, -- [1]
+			1689764347, -- [2]
+			"12:59:01", -- [3]
+			"12:59:07", -- [4]
+			"Kobold Tunneler", -- [5]
+		}, -- [82]
+		{
+			1689764473, -- [1]
+			1689764516, -- [2]
+			"13:01:14", -- [3]
+			"13:01:56", -- [4]
+			"Kobold Miner", -- [5]
+		}, -- [83]
+		{
+			1689764635, -- [1]
+			1689764639, -- [2]
+			"13:03:55", -- [3]
+			"13:03:59", -- [4]
+			"Kobold Tunneler", -- [5]
+		}, -- [84]
+		{
+			1689764668, -- [1]
+			1689764676, -- [2]
+			"13:04:29", -- [3]
+			"13:04:36", -- [4]
+			"Kobold Miner", -- [5]
+		}, -- [85]
+		{
+			1689765043, -- [1]
+			1689765213, -- [2]
+			"13:10:43", -- [3]
+			"13:13:33", -- [4]
+			"Kobold Miner", -- [5]
+		}, -- [86]
+		{
+			1689765297, -- [1]
+			1689765301, -- [2]
+			"13:14:57", -- [3]
+			"13:15:01", -- [4]
+			"Kobold Tunneler", -- [5]
+		}, -- [87]
+		{
+			1689765505, -- [1]
+			1689765509, -- [2]
+			"13:18:25", -- [3]
+			"13:18:29", -- [4]
+			"Kobold Tunneler", -- [5]
+		}, -- [88]
+		{
+			1689765720, -- [1]
+			1689765725, -- [2]
+			"13:22:00", -- [3]
+			"13:22:05", -- [4]
+			"Kobold Tunneler", -- [5]
+		}, -- [89]
+		{
+			1689766091, -- [1]
+			1689766096, -- [2]
+			"13:28:11", -- [3]
+			"13:28:16", -- [4]
+			"Kobold Miner", -- [5]
+		}, -- [90]
+		{
+			1689766194, -- [1]
+			1689766198, -- [2]
+			"13:29:54", -- [3]
+			"13:29:58", -- [4]
+			"Kobold Tunneler", -- [5]
+		}, -- [91]
+		{
+			1689766464, -- [1]
+			1689766469, -- [2]
+			"13:34:25", -- [3]
+			"13:34:29", -- [4]
+			"Kobold Tunneler", -- [5]
+		}, -- [92]
+		{
+			1689766655, -- [1]
+			1689766792, -- [2]
+			"13:37:35", -- [3]
+			"13:39:52", -- [4]
+			"Kobold Tunneler", -- [5]
+		}, -- [93]
+		{
+			1689766977, -- [1]
+			1689766985, -- [2]
+			"13:42:57", -- [3]
+			"13:43:05", -- [4]
+			"Kobold Tunneler", -- [5]
+		}, -- [94]
+		{
+			1689767179, -- [1]
+			1689767185, -- [2]
+			"13:46:20", -- [3]
+			"13:46:25", -- [4]
+			"Kobold Miner", -- [5]
+		}, -- [95]
+		{
+			1689767239, -- [1]
+			1689767243, -- [2]
+			"13:47:20", -- [3]
+			"13:47:23", -- [4]
+			"Kobold Miner", -- [5]
+		}, -- [96]
+		{
+			1689767291, -- [1]
+			1689767295, -- [2]
+			"13:48:11", -- [3]
+			"13:48:15", -- [4]
+			"Kobold Miner", -- [5]
+		}, -- [97]
+		{
+			1689768484, -- [1]
+			1689768489, -- [2]
+			"14:08:04", -- [3]
+			"14:08:09", -- [4]
+			"Kobold Tunneler", -- [5]
+		}, -- [98]
+		{
+			1689768554, -- [1]
+			1689768558, -- [2]
+			"14:09:14", -- [3]
+			"14:09:18", -- [4]
+			"Kobold Tunneler", -- [5]
+		}, -- [99]
+		{
+			1689768675, -- [1]
+			1689768680, -- [2]
+			"14:11:16", -- [3]
+			"14:11:20", -- [4]
+			"Kobold Tunneler", -- [5]
+		}, -- [100]
+		{
+			1689768695, -- [1]
+			1689768701, -- [2]
+			"14:11:35", -- [3]
+			"14:11:41", -- [4]
+			"Kobold Miner", -- [5]
+		}, -- [101]
+		{
+			1689768919, -- [1]
+			1689768923, -- [2]
+			"14:15:19", -- [3]
+			"14:15:23", -- [4]
+			"Kobold Tunneler", -- [5]
+		}, -- [102]
+		{
+			1689769093, -- [1]
+			1689769097, -- [2]
+			"14:18:14", -- [3]
+			"14:18:17", -- [4]
+			"Goldtooth", -- [5]
+		}, -- [103]
+		{
+			1689769215, -- [1]
+			1689769219, -- [2]
+			"14:20:16", -- [3]
+			"14:20:19", -- [4]
+			"Kobold Miner", -- [5]
+		}, -- [104]
+		{
+			1689769224, -- [1]
+			1689769228, -- [2]
+			"14:20:25", -- [3]
+			"14:20:28", -- [4]
+			"Kobold Miner", -- [5]
+		}, -- [105]
+		{
+			1689769291, -- [1]
+			1689769297, -- [2]
+			"14:21:32", -- [3]
+			"14:21:37", -- [4]
+			"Kobold Tunneler", -- [5]
+		}, -- [106]
+		{
+			1689769441, -- [1]
+			1689769445, -- [2]
+			"14:24:02", -- [3]
+			"14:24:05", -- [4]
+			"Kobold Tunneler", -- [5]
+		}, -- [107]
+		{
+			1689769532, -- [1]
+			1689769536, -- [2]
+			"14:25:32", -- [3]
+			"14:25:36", -- [4]
+			"Kobold Tunneler", -- [5]
+		}, -- [108]
+		{
+			1689769617, -- [1]
+			1689769621, -- [2]
+			"14:26:58", -- [3]
+			"14:27:01", -- [4]
+			"Kobold Tunneler", -- [5]
+		}, -- [109]
+		{
+			1689769648, -- [1]
+			1689769654, -- [2]
+			"14:27:29", -- [3]
+			"14:27:34", -- [4]
+			"Kobold Tunneler", -- [5]
+		}, -- [110]
+		{
+			1689769702, -- [1]
+			1689769715, -- [2]
+			"14:28:23", -- [3]
+			"14:28:35", -- [4]
+			"Kobold Tunneler", -- [5]
+		}, -- [111]
+		{
+			1689769857, -- [1]
+			1689769862, -- [2]
+			"14:30:57", -- [3]
+			"14:31:02", -- [4]
+			"Kobold Tunneler", -- [5]
+		}, -- [112]
+		{
+			1689769941, -- [1]
+			1689769946, -- [2]
+			"14:32:22", -- [3]
+			"14:32:26", -- [4]
+			"Kobold Tunneler", -- [5]
+		}, -- [113]
+		{
+			1689770145, -- [1]
+			1689770174, -- [2]
+			"14:35:46", -- [3]
+			"14:36:14", -- [4]
+			"Kobold Tunneler", -- [5]
+		}, -- [114]
+		{
+			1689770779, -- [1]
+			1689770838, -- [2]
+			"14:46:19", -- [3]
+			"14:47:18", -- [4]
+			"Kobold Tunneler", -- [5]
+		}, -- [115]
+		{
+			1689771497, -- [1]
+			1689771501, -- [2]
+			"14:58:17", -- [3]
+			"14:58:21", -- [4]
+			"Kobold Tunneler", -- [5]
+		}, -- [116]
+		{
+			1689771585, -- [1]
+			1689771589, -- [2]
+			"14:59:45", -- [3]
+			"14:59:49", -- [4]
+			"Kobold Tunneler", -- [5]
+		}, -- [117]
+		{
+			1689771663, -- [1]
+			1689771668, -- [2]
+			"15:01:03", -- [3]
+			"15:01:08", -- [4]
+			"Kobold Tunneler", -- [5]
+		}, -- [118]
+		{
+			1689771751, -- [1]
+			1689771755, -- [2]
+			"15:02:32", -- [3]
+			"15:02:35", -- [4]
+			"Kobold Miner", -- [5]
+		}, -- [119]
+		{
+			1689771800, -- [1]
+			1689771804, -- [2]
+			"15:03:21", -- [3]
+			"15:03:24", -- [4]
+			"Kobold Tunneler", -- [5]
+		}, -- [120]
+		{
+			1689771833, -- [1]
+			1689771837, -- [2]
+			"15:03:53", -- [3]
+			"15:03:57", -- [4]
+			"Kobold Miner", -- [5]
+		}, -- [121]
+		{
+			1689772109, -- [1]
+			1689772115, -- [2]
+			"15:08:30", -- [3]
+			"15:08:35", -- [4]
+			"Goldtooth", -- [5]
+		}, -- [122]
+		{
+			1689772117, -- [1]
+			1689772123, -- [2]
+			"15:08:38", -- [3]
+			"15:08:43", -- [4]
+			"Kobold Tunneler", -- [5]
+		}, -- [123]
+		{
+			1689772275, -- [1]
+			1689772279, -- [2]
+			"15:11:15", -- [3]
+			"15:11:19", -- [4]
+			"Kobold Miner", -- [5]
+		}, -- [124]
+		{
+			1689772327, -- [1]
+			1689772336, -- [2]
+			"15:12:07", -- [3]
+			"15:12:16", -- [4]
+			"Kobold Miner", -- [5]
+		}, -- [125]
+		{
+			1689772374, -- [1]
+			1689772380, -- [2]
+			"15:12:54", -- [3]
+			"15:13:00", -- [4]
+			"Kobold Miner", -- [5]
+		}, -- [126]
+		{
+			1689772460, -- [1]
+			1689772473, -- [2]
+			"15:14:20", -- [3]
+			"15:14:33", -- [4]
+			"Kobold Tunneler", -- [5]
+		}, -- [127]
+		{
+			1689772635, -- [1]
+			1689772640, -- [2]
+			"15:17:16", -- [3]
+			"15:17:20", -- [4]
+			"Kobold Tunneler", -- [5]
+		}, -- [128]
+		{
+			1689773104, -- [1]
+			1689773109, -- [2]
+			"15:25:05", -- [3]
+			"15:25:09", -- [4]
+			"Kobold Tunneler", -- [5]
+		}, -- [129]
+		{
+			1689773156, -- [1]
+			1689773160, -- [2]
+			"15:25:56", -- [3]
+			"15:26:00", -- [4]
+			"Kobold Tunneler", -- [5]
+		}, -- [130]
+		{
+			1689773243, -- [1]
+			1689773247, -- [2]
+			"15:27:23", -- [3]
+			"15:27:27", -- [4]
+			"Kobold Tunneler", -- [5]
+		}, -- [131]
+		{
+			1689774436, -- [1]
+			1689774440, -- [2]
+			"15:47:16", -- [3]
+			"15:47:20", -- [4]
+			"Kobold Tunneler", -- [5]
+		}, -- [132]
+		{
+			1689774453, -- [1]
+			1689774465, -- [2]
+			"15:47:34", -- [3]
+			"15:47:45", -- [4]
+			"Kobold Tunneler", -- [5]
+		}, -- [133]
 	},
 	["FoughtWho"] = {
-		"Kobold Tunneler 12:25:06-12:25:10", -- [1]
-		"Kobold Tunneler 12:24:45-12:24:48", -- [2]
-		"Kobold Miner 12:23:40-12:23:44", -- [3]
-		"Kobold Tunneler 12:20:02-12:20:06", -- [4]
-		"Kobold Miner 12:18:49-12:18:54", -- [5]
+		"Kobold Tunneler 15:47:34-15:47:45", -- [1]
+		"Kobold Tunneler 15:47:16-15:47:20", -- [2]
+		"Kobold Tunneler 15:27:23-15:27:27", -- [3]
+		"Kobold Tunneler 15:25:56-15:26:00", -- [4]
+		"Kobold Tunneler 15:25:05-15:25:09", -- [5]
 	},
 }

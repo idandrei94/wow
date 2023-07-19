@@ -2,10 +2,6 @@
 BagginsDB = {
 	["profiles"] = {
 		["Default"] = {
-			["alwaysresort"] = true,
-			["detachedTooltip"] = {
-			},
-			["compressall"] = true,
 			["categories"] = {
 				["AmmoBag"] = {
 					{
@@ -298,10 +294,14 @@ BagginsDB = {
 					["name"] = "Other",
 				},
 			},
+			["alwaysresort"] = true,
+			["detachedTooltip"] = {
+			},
 			["bags"] = {
 				{
+					["y"] = 314.1000010961142,
+					["x"] = 1161.933462382704,
 					["name"] = "Other",
-					["openWithAll"] = true,
 					["sections"] = {
 						{
 							["allowdupes"] = true,
@@ -330,10 +330,12 @@ BagginsDB = {
 							},
 						}, -- [4]
 					},
+					["openWithAll"] = true,
 				}, -- [1]
 				{
+					["y"] = 451.8000154820246,
+					["x"] = 1160.948749186234,
 					["name"] = "Equipment",
-					["openWithAll"] = true,
 					["sections"] = {
 						{
 							["name"] = "Armor",
@@ -348,10 +350,12 @@ BagginsDB = {
 							},
 						}, -- [2]
 					},
+					["openWithAll"] = true,
 				}, -- [2]
 				{
+					["y"] = 489.6000126342111,
+					["x"] = 1194.54219198431,
 					["name"] = "Quest",
-					["openWithAll"] = true,
 					["sections"] = {
 						{
 							["name"] = "Quest Items",
@@ -360,10 +364,12 @@ BagginsDB = {
 							},
 						}, -- [1]
 					},
+					["openWithAll"] = true,
 				}, -- [3]
 				{
+					["y"] = 627.2999955072822,
+					["x"] = 1143.352105879259,
 					["name"] = "Consumables",
-					["openWithAll"] = true,
 					["sections"] = {
 						{
 							["name"] = "Water",
@@ -402,10 +408,12 @@ BagginsDB = {
 							},
 						}, -- [6]
 					},
+					["openWithAll"] = true,
 				}, -- [4]
 				{
+					["y"] = 182.6999862355683,
+					["x"] = 949.8521812321133,
 					["name"] = "Trade Goods",
-					["openWithAll"] = true,
 					["sections"] = {
 						{
 							["name"] = "Mats",
@@ -420,10 +428,12 @@ BagginsDB = {
 							},
 						}, -- [2]
 					},
+					["openWithAll"] = true,
 				}, -- [5]
 				{
+					["y"] = 220.4999991441744,
+					["x"] = 1013.561625032613,
 					["name"] = "Ammo",
-					["openWithAll"] = true,
 					["sections"] = {
 						{
 							["name"] = "Ammo",
@@ -438,6 +448,7 @@ BagginsDB = {
 							},
 						}, -- [2]
 					},
+					["openWithAll"] = true,
 				}, -- [6]
 				{
 					["name"] = "KeyRing",
@@ -572,6 +583,7 @@ BagginsDB = {
 					["isBank"] = true,
 				}, -- [12]
 			},
+			["compressall"] = true,
 		},
 	},
 }
