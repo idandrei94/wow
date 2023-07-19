@@ -3,13 +3,6 @@ MACRO 16777227 "agem" INV_Misc_QuestionMark
 /cast [modifier:alt] conjure mana gem
 /use Mana SapphireMilitia Quarterstaff
 END
-MACRO 16777226 "ama" INV_Misc_QuestionMark
-#showtooltip molten armor
-/equip Sunstrider's Gauntlets of Conquest
-/equip Sunstrider's Shoulderpads of Conquest
-/cast molten armor
-/equipset arc
-END
 MACRO 16777228 "blink" INV_Misc_QuestionMark
 #showtooltip blink
 /cast [nochanneling] blink
@@ -72,6 +65,10 @@ MACRO 16777234 "int buff" INV_Misc_QuestionMark
 #showtooltip arcane intellect
 /cast [nomodifier:ctrl, @player] arcane intellect
 /cast [modifier:ctrl, target=tapatapa] arcane intellect
+END
+MACRO 16777236 "mount" INV_Misc_QuestionMark
+#showtooltip
+/userandom Purple Elekk
 END
 MACRO 16777224 "mount" INV_Misc_QuestionMark
 #showtooltip
