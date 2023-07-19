@@ -23,23 +23,23 @@ SkadaStorageDB = {
 							["school"] = 1,
 							["sources"] = {
 								["Morridin"] = {
-									["overkill"] = 1272,
 									["amount"] = 1392,
+									["overkill"] = 1272,
 								},
 							},
-							["overkill"] = 1272,
 							["amount"] = 1392,
+							["overkill"] = 1272,
 						},
 						[45462] = {
 							["school"] = 1,
 							["sources"] = {
 								["Morridin"] = {
-									["overkill"] = 671,
 									["amount"] = 808,
+									["overkill"] = 671,
 								},
 							},
-							["overkill"] = 671,
 							["amount"] = 808,
+							["overkill"] = 671,
 						},
 					},
 					["totaldamage"] = 2,
@@ -51,16 +51,23 @@ SkadaStorageDB = {
 			},
 			["totaldamage"] = 2200,
 			["time"] = 5,
-			["starttime"] = 1689759990,
 			["totaldamagetaken"] = 2,
 			["etotaldamage"] = 2,
 			["last_time"] = 11881.627,
+			["starttime"] = 1689759990,
+			["type"] = "none",
+			["damagetaken"] = 2,
 			["players"] = {
 				{
 					["last"] = 11880.378,
 					["flag"] = 1297,
 					["class"] = "DEATHKNIGHT",
 					["auras"] = {
+						[48266] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 5,
+						},
 						[49016] = {
 							["type"] = "BUFF",
 							["count"] = 1,
@@ -71,12 +78,8 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 5,
 						},
-						[48266] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 5,
-						},
 					},
+					["totaldamage"] = 2200,
 					["time"] = 3.69,
 					["totaldamagetaken"] = 2,
 					["damage"] = 2200,
@@ -87,18 +90,18 @@ SkadaStorageDB = {
 					["healspells"] = {
 						[50475] = {
 							["overheal"] = 0,
+							["min"] = 4,
+							["count"] = 2,
+							["amount"] = 9,
+							["school"] = 1,
+							["ishot"] = true,
 							["targets"] = {
 								["Morridin"] = {
 									["overheal"] = 0,
 									["amount"] = 9,
 								},
 							},
-							["count"] = 2,
-							["amount"] = 9,
-							["school"] = 1,
 							["max"] = 5,
-							["ishot"] = true,
-							["min"] = 4,
 						},
 					},
 					["damagetakenspells"] = {
@@ -120,14 +123,16 @@ SkadaStorageDB = {
 					},
 					["heal"] = 9,
 					["name"] = "Morridin",
+					["role"] = "DAMAGER",
+					["overkill"] = 1943,
 					["damagespells"] = {
 						["Melee"] = {
 							["criticalamount"] = 1392,
 							["id"] = 6603,
 							["targets"] = {
 								["Kobold Miner"] = {
-									["overkill"] = 1272,
 									["amount"] = 1392,
+									["overkill"] = 1272,
 								},
 							},
 							["overkill"] = 1272,
@@ -135,16 +140,16 @@ SkadaStorageDB = {
 							["critical"] = 1,
 							["amount"] = 1392,
 							["school"] = 1,
-							["criticalmin"] = 1392,
 							["count"] = 1,
+							["criticalmin"] = 1392,
 						},
 						["Plague Strike"] = {
 							["criticalamount"] = 808,
 							["id"] = 45462,
 							["targets"] = {
 								["Kobold Miner"] = {
-									["overkill"] = 671,
 									["amount"] = 808,
+									["overkill"] = 671,
 								},
 							},
 							["overkill"] = 671,
@@ -152,18 +157,13 @@ SkadaStorageDB = {
 							["critical"] = 1,
 							["amount"] = 808,
 							["school"] = 1,
-							["criticalmin"] = 808,
-							["criticalmax"] = 808,
 							["count"] = 1,
+							["criticalmax"] = 808,
+							["criticalmin"] = 808,
 						},
 					},
-					["overkill"] = 1943,
-					["totaldamage"] = 2200,
-					["role"] = "DAMAGER",
 				}, -- [1]
 			},
-			["type"] = "none",
-			["damagetaken"] = 2,
 			["etotaldamagetaken"] = 2200,
 			["damage"] = 2200,
 			["overkill"] = 1943,
@@ -179,23 +179,23 @@ SkadaStorageDB = {
 		{
 			["enemies"] = {
 				{
-					["id"] = "0xF1300001DB0EF79E",
-					["name"] = "Kobold Tunneler",
-					["totaldamagetaken"] = 1094,
 					["flag"] = 68168,
-					["class"] = "MONSTER",
+					["name"] = "Kobold Tunneler",
 					["damagetaken"] = 1094,
+					["id"] = "0xF1300001DB0EF79E",
+					["totaldamagetaken"] = 1094,
+					["class"] = "MONSTER",
 					["damagetakenspells"] = {
 						[6603] = {
 							["school"] = 1,
 							["sources"] = {
 								["Morridin"] = {
-									["overkill"] = 992,
 									["amount"] = 1094,
+									["overkill"] = 992,
 								},
 							},
-							["overkill"] = 992,
 							["amount"] = 1094,
+							["overkill"] = 992,
 						},
 					},
 				}, -- [1]
@@ -219,23 +219,23 @@ SkadaStorageDB = {
 							["school"] = 1,
 							["sources"] = {
 								["Morridin"] = {
-									["overkill"] = 1024,
 									["amount"] = 1144,
+									["overkill"] = 1024,
 								},
 							},
-							["overkill"] = 1024,
 							["amount"] = 1144,
+							["overkill"] = 1024,
 						},
 						[55050] = {
 							["school"] = 1,
 							["sources"] = {
 								["Morridin"] = {
-									["overkill"] = 547,
 									["amount"] = 684,
+									["overkill"] = 547,
 								},
 							},
-							["overkill"] = 547,
 							["amount"] = 684,
+							["overkill"] = 547,
 						},
 					},
 					["totaldamage"] = 4,
@@ -247,10 +247,12 @@ SkadaStorageDB = {
 			},
 			["totaldamage"] = 2922,
 			["time"] = 7,
-			["overheal"] = 8,
 			["totaldamagetaken"] = 4,
 			["etotaldamagetaken"] = 2922,
 			["last_time"] = 11338.147,
+			["overheal"] = 8,
+			["type"] = "none",
+			["damagetaken"] = 4,
 			["players"] = {
 				{
 					["last"] = 11337.234,
@@ -268,6 +270,7 @@ SkadaStorageDB = {
 							["uptime"] = 7,
 						},
 					},
+					["totaldamage"] = 2922,
 					["time"] = 3.58,
 					["totaldamagetaken"] = 4,
 					["damage"] = 2922,
@@ -278,54 +281,36 @@ SkadaStorageDB = {
 					["healspells"] = {
 						[50475] = {
 							["overheal"] = 8,
+							["min"] = 1,
+							["count"] = 3,
+							["amount"] = 5,
+							["school"] = 1,
+							["ishot"] = true,
 							["targets"] = {
 								["Morridin"] = {
 									["overheal"] = 8,
 									["amount"] = 5,
 								},
 							},
-							["count"] = 3,
-							["amount"] = 5,
-							["school"] = 1,
 							["max"] = 4,
-							["ishot"] = true,
-							["min"] = 1,
 						},
 					},
 					["overkill"] = 2563,
 					["heal"] = 5,
 					["name"] = "Morridin",
-					["damagetakenspells"] = {
-						["Melee"] = {
-							["DODGE"] = 1,
-							["hitmin"] = 2,
-							["id"] = 6603,
-							["amount"] = 4,
-							["sources"] = {
-								["Kobold Miner"] = {
-									["amount"] = 4,
-								},
-							},
-							["count"] = 4,
-							["hit"] = 2,
-							["school"] = 1,
-							["hitmax"] = 2,
-							["MISS"] = 1,
-							["hitamount"] = 4,
-						},
-					},
+					["role"] = "DAMAGER",
 					["damagespells"] = {
 						["Melee"] = {
 							["criticalamount"] = 2238,
 							["id"] = 6603,
 							["targets"] = {
 								["Kobold Miner"] = {
-									["overkill"] = 1024,
 									["amount"] = 1144,
+									["overkill"] = 1024,
 								},
 								["Kobold Tunneler"] = {
-									["overkill"] = 992,
 									["amount"] = 1094,
+									["overkill"] = 992,
 								},
 							},
 							["overkill"] = 2016,
@@ -333,16 +318,16 @@ SkadaStorageDB = {
 							["critical"] = 2,
 							["amount"] = 2238,
 							["school"] = 1,
-							["criticalmin"] = 1094,
 							["count"] = 2,
+							["criticalmin"] = 1094,
 						},
 						["Heart Strike"] = {
 							["criticalamount"] = 684,
 							["id"] = 55050,
 							["targets"] = {
 								["Kobold Miner"] = {
-									["overkill"] = 547,
 									["amount"] = 684,
+									["overkill"] = 547,
 								},
 							},
 							["overkill"] = 547,
@@ -350,17 +335,32 @@ SkadaStorageDB = {
 							["critical"] = 1,
 							["amount"] = 684,
 							["school"] = 1,
-							["criticalmin"] = 684,
-							["criticalmax"] = 684,
 							["count"] = 1,
+							["criticalmax"] = 684,
+							["criticalmin"] = 684,
 						},
 					},
-					["totaldamage"] = 2922,
-					["role"] = "DAMAGER",
+					["damagetakenspells"] = {
+						["Melee"] = {
+							["DODGE"] = 1,
+							["hitmin"] = 2,
+							["id"] = 6603,
+							["hit"] = 2,
+							["sources"] = {
+								["Kobold Miner"] = {
+									["amount"] = 4,
+								},
+							},
+							["count"] = 4,
+							["amount"] = 4,
+							["school"] = 1,
+							["hitmax"] = 2,
+							["MISS"] = 1,
+							["hitamount"] = 4,
+						},
+					},
 				}, -- [1]
 			},
-			["type"] = "none",
-			["damagetaken"] = 4,
 			["etotaldamage"] = 4,
 			["damage"] = 2922,
 			["overkill"] = 2563,
@@ -395,23 +395,23 @@ SkadaStorageDB = {
 							["school"] = 1,
 							["sources"] = {
 								["Morridin"] = {
-									["overkill"] = 576,
 									["amount"] = 713,
+									["overkill"] = 576,
 								},
 							},
-							["overkill"] = 576,
 							["amount"] = 713,
+							["overkill"] = 576,
 						},
 						[45477] = {
 							["school"] = 16,
 							["sources"] = {
 								["Morridin"] = {
-									["overkill"] = 215,
 									["amount"] = 335,
+									["overkill"] = 215,
 								},
 							},
-							["overkill"] = 215,
 							["amount"] = 335,
+							["overkill"] = 215,
 						},
 					},
 					["totaldamage"] = 2,
@@ -423,10 +423,12 @@ SkadaStorageDB = {
 			},
 			["totaldamage"] = 1048,
 			["time"] = 5,
-			["starttime"] = 1689759335,
 			["totaldamagetaken"] = 2,
 			["etotaldamage"] = 2,
 			["last_time"] = 11225.481,
+			["starttime"] = 1689759335,
+			["type"] = "none",
+			["damagetaken"] = 2,
 			["players"] = {
 				{
 					["last"] = 11225.466,
@@ -444,6 +446,7 @@ SkadaStorageDB = {
 							["uptime"] = 5,
 						},
 					},
+					["totaldamage"] = 1048,
 					["time"] = 3.92,
 					["totaldamagetaken"] = 2,
 					["damage"] = 1048,
@@ -454,18 +457,18 @@ SkadaStorageDB = {
 					["healspells"] = {
 						[50475] = {
 							["overheal"] = 0,
+							["min"] = 4,
+							["count"] = 2,
+							["amount"] = 9,
+							["school"] = 1,
+							["ishot"] = true,
 							["targets"] = {
 								["Morridin"] = {
 									["overheal"] = 0,
 									["amount"] = 9,
 								},
 							},
-							["count"] = 2,
-							["amount"] = 9,
-							["school"] = 1,
 							["max"] = 5,
-							["ishot"] = true,
-							["min"] = 4,
 						},
 					},
 					["damagetakenspells"] = {
@@ -487,14 +490,16 @@ SkadaStorageDB = {
 					},
 					["heal"] = 9,
 					["name"] = "Morridin",
+					["role"] = "DAMAGER",
+					["overkill"] = 791,
 					["damagespells"] = {
 						["Icy Touch"] = {
 							["hitmin"] = 335,
 							["id"] = 45477,
 							["targets"] = {
 								["Kobold Miner"] = {
-									["overkill"] = 215,
 									["amount"] = 335,
+									["overkill"] = 215,
 								},
 							},
 							["overkill"] = 215,
@@ -511,28 +516,23 @@ SkadaStorageDB = {
 							["id"] = 45462,
 							["targets"] = {
 								["Kobold Miner"] = {
-									["overkill"] = 576,
 									["amount"] = 713,
+									["overkill"] = 576,
 								},
 							},
 							["overkill"] = 576,
-							["blocked"] = 3,
+							["count"] = 1,
 							["casts"] = 1,
 							["critical"] = 1,
-							["amount"] = 713,
+							["blocked"] = 3,
 							["school"] = 1,
-							["criticalmin"] = 713,
 							["criticalmax"] = 713,
-							["count"] = 1,
+							["criticalmin"] = 713,
+							["amount"] = 713,
 						},
 					},
-					["overkill"] = 791,
-					["totaldamage"] = 1048,
-					["role"] = "DAMAGER",
 				}, -- [1]
 			},
-			["type"] = "none",
-			["damagetaken"] = 2,
 			["etotaldamagetaken"] = 1048,
 			["damage"] = 1048,
 			["overkill"] = 791,
@@ -567,12 +567,12 @@ SkadaStorageDB = {
 							["school"] = 1,
 							["sources"] = {
 								["Morridin"] = {
-									["overkill"] = 3066,
 									["amount"] = 3203,
+									["overkill"] = 3066,
 								},
 							},
-							["overkill"] = 3066,
 							["amount"] = 3203,
+							["overkill"] = 3066,
 						},
 					},
 					["totaldamage"] = 2,
@@ -601,23 +601,23 @@ SkadaStorageDB = {
 							["school"] = 1,
 							["sources"] = {
 								["Morridin"] = {
-									["overkill"] = 250,
 									["amount"] = 352,
+									["overkill"] = 250,
 								},
 							},
-							["overkill"] = 250,
 							["amount"] = 352,
+							["overkill"] = 250,
 						},
 						[45462] = {
 							["school"] = 1,
 							["sources"] = {
 								["Morridin"] = {
-									["overkill"] = 586,
 									["amount"] = 706,
+									["overkill"] = 586,
 								},
 							},
-							["overkill"] = 586,
 							["amount"] = 706,
+							["overkill"] = 586,
 						},
 					},
 					["totaldamage"] = 3,
@@ -629,10 +629,12 @@ SkadaStorageDB = {
 			},
 			["totaldamage"] = 4261,
 			["time"] = 7,
-			["starttime"] = 1689759035,
 			["totaldamagetaken"] = 5,
 			["etotaldamage"] = 5,
 			["last_time"] = 10928.118,
+			["starttime"] = 1689759035,
+			["type"] = "none",
+			["damagetaken"] = 5,
 			["players"] = {
 				{
 					["last"] = 10926.97,
@@ -650,6 +652,7 @@ SkadaStorageDB = {
 							["uptime"] = 7,
 						},
 					},
+					["totaldamage"] = 4261,
 					["time"] = 5.3,
 					["totaldamagetaken"] = 5,
 					["damage"] = 4261,
@@ -660,18 +663,18 @@ SkadaStorageDB = {
 					["healspells"] = {
 						[50475] = {
 							["overheal"] = 8,
+							["min"] = 1,
+							["count"] = 3,
+							["amount"] = 5,
+							["school"] = 1,
+							["ishot"] = true,
 							["targets"] = {
 								["Morridin"] = {
 									["overheal"] = 8,
 									["amount"] = 5,
 								},
 							},
-							["count"] = 3,
-							["amount"] = 5,
-							["school"] = 1,
 							["max"] = 4,
-							["ishot"] = true,
-							["min"] = 1,
 						},
 					},
 					["damagetakenspells"] = {
@@ -696,14 +699,16 @@ SkadaStorageDB = {
 					},
 					["heal"] = 5,
 					["name"] = "Morridin",
+					["role"] = "DAMAGER",
+					["overkill"] = 3902,
 					["damagespells"] = {
 						["Heart Strike"] = {
 							["hitmin"] = 352,
 							["id"] = 55050,
 							["targets"] = {
 								["Kobold Tunneler"] = {
-									["overkill"] = 250,
 									["amount"] = 352,
+									["overkill"] = 250,
 								},
 							},
 							["overkill"] = 250,
@@ -726,8 +731,8 @@ SkadaStorageDB = {
 							["school"] = 1,
 							["targets"] = {
 								["Kobold Miner"] = {
-									["overkill"] = 3066,
 									["amount"] = 3203,
+									["overkill"] = 3066,
 								},
 							},
 							["glancemin"] = 3203,
@@ -737,8 +742,8 @@ SkadaStorageDB = {
 							["id"] = 45462,
 							["targets"] = {
 								["Kobold Tunneler"] = {
-									["overkill"] = 586,
 									["amount"] = 706,
+									["overkill"] = 586,
 								},
 							},
 							["overkill"] = 586,
@@ -746,18 +751,13 @@ SkadaStorageDB = {
 							["critical"] = 1,
 							["amount"] = 706,
 							["school"] = 1,
-							["criticalmin"] = 706,
-							["criticalmax"] = 706,
 							["count"] = 1,
+							["criticalmax"] = 706,
+							["criticalmin"] = 706,
 						},
 					},
-					["overkill"] = 3902,
-					["totaldamage"] = 4261,
-					["role"] = "DAMAGER",
 				}, -- [1]
 			},
-			["type"] = "none",
-			["damagetaken"] = 5,
 			["etotaldamagetaken"] = 4261,
 			["damage"] = 4261,
 			["overkill"] = 3902,
@@ -792,39 +792,40 @@ SkadaStorageDB = {
 							["school"] = 1,
 							["sources"] = {
 								["Morridin"] = {
-									["overkill"] = 1986,
 									["amount"] = 2226,
+									["overkill"] = 1986,
 								},
 							},
-							["overkill"] = 1986,
 							["amount"] = 2226,
+							["overkill"] = 1986,
 						},
 						[55050] = {
 							["school"] = 1,
 							["sources"] = {
 								["Morridin"] = {
-									["overkill"] = 1812,
 									["amount"] = 2069,
+									["overkill"] = 1812,
 								},
 							},
-							["overkill"] = 1812,
 							["amount"] = 2069,
+							["overkill"] = 1812,
 						},
 					},
-					["name"] = "Kobold Miner",
 					["totaldamage"] = 4,
+					["name"] = "Kobold Miner",
 					["totaldamagetaken"] = 4295,
 					["id"] = "0xF1300000280ED7BD",
 					["damage"] = 4,
 				}, -- [1]
 			},
-			["overheal"] = 13,
 			["totaldamage"] = 4295,
 			["time"] = 11,
-			["ccdone"] = 1,
 			["totaldamagetaken"] = 4,
 			["etotaldamagetaken"] = 4295,
 			["last_time"] = 9795.321,
+			["overheal"] = 13,
+			["type"] = "none",
+			["damagetaken"] = 4,
 			["players"] = {
 				{
 					["ccdonespells"] = {
@@ -839,6 +840,11 @@ SkadaStorageDB = {
 					["flag"] = 1297,
 					["class"] = "DEATHKNIGHT",
 					["auras"] = {
+						[48266] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 11,
+						},
 						[64859] = {
 							["type"] = "BUFF",
 							["count"] = 1,
@@ -851,12 +857,8 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 11,
 						},
-						[48266] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 11,
-						},
 					},
+					["totaldamage"] = 4295,
 					["time"] = 8.98,
 					["totaldamagetaken"] = 4,
 					["damage"] = 4295,
@@ -867,51 +869,33 @@ SkadaStorageDB = {
 					["healspells"] = {
 						[50475] = {
 							["overheal"] = 13,
-							["max"] = 2,
-							["count"] = 4,
-							["amount"] = 4,
-							["school"] = 1,
-							["min"] = 2,
-							["ishot"] = true,
 							["targets"] = {
 								["Morridin"] = {
 									["overheal"] = 13,
 									["amount"] = 4,
 								},
 							},
+							["count"] = 4,
+							["amount"] = 4,
+							["max"] = 2,
+							["min"] = 2,
+							["ishot"] = true,
+							["school"] = 1,
 						},
 					},
 					["overkill"] = 3798,
 					["heal"] = 4,
 					["name"] = "Morridin",
 					["ccdone"] = 1,
-					["damagetakenspells"] = {
-						["Melee"] = {
-							["DODGE"] = 1,
-							["hitmin"] = 2,
-							["id"] = 6603,
-							["amount"] = 4,
-							["sources"] = {
-								["Kobold Miner"] = {
-									["amount"] = 4,
-								},
-							},
-							["count"] = 4,
-							["hit"] = 2,
-							["school"] = 1,
-							["hitmax"] = 2,
-							["MISS"] = 1,
-							["hitamount"] = 4,
-						},
-					},
+					["role"] = "DAMAGER",
 					["damagespells"] = {
 						["Melee"] = {
 							["criticalamount"] = 2226,
 							["id"] = 6603,
 							["targets"] = {
 								["Kobold Miner"] = {
-									["overkill"] = 1986,
 									["amount"] = 2226,
+									["overkill"] = 1986,
 								},
 							},
 							["overkill"] = 1986,
@@ -919,47 +903,63 @@ SkadaStorageDB = {
 							["critical"] = 2,
 							["amount"] = 2226,
 							["school"] = 1,
-							["criticalmin"] = 1106,
 							["count"] = 2,
+							["criticalmin"] = 1106,
 						},
 						["Heart Strike"] = {
-							["count"] = 2,
 							["hitmax"] = 686,
+							["criticalmax"] = 1383,
 							["hitmin"] = 686,
 							["criticalamount"] = 1383,
 							["id"] = 55050,
-							["hit"] = 1,
+							["criticalmin"] = 1383,
 							["targets"] = {
 								["Kobold Miner"] = {
-									["overkill"] = 1812,
 									["amount"] = 2069,
+									["overkill"] = 1812,
 								},
 							},
 							["overkill"] = 1812,
-							["blocked"] = 3,
-							["casts"] = 2,
-							["critical"] = 1,
 							["amount"] = 2069,
+							["casts"] = 2,
+							["count"] = 2,
+							["hit"] = 1,
 							["school"] = 1,
-							["criticalmin"] = 1383,
-							["criticalmax"] = 1383,
+							["critical"] = 1,
+							["blocked"] = 3,
 							["hitamount"] = 686,
 						},
 					},
-					["totaldamage"] = 4295,
-					["role"] = "DAMAGER",
+					["damagetakenspells"] = {
+						["Melee"] = {
+							["DODGE"] = 1,
+							["hitmin"] = 2,
+							["id"] = 6603,
+							["hit"] = 2,
+							["sources"] = {
+								["Kobold Miner"] = {
+									["amount"] = 4,
+								},
+							},
+							["count"] = 4,
+							["amount"] = 4,
+							["school"] = 1,
+							["hitmax"] = 2,
+							["MISS"] = 1,
+							["hitamount"] = 4,
+						},
+					},
 				}, -- [1]
 			},
-			["type"] = "none",
-			["damagetaken"] = 4,
 			["etotaldamage"] = 4,
 			["damage"] = 4295,
+			["starttime"] = 1689757900,
 			["overkill"] = 3798,
 			["edamagetaken"] = 4295,
 			["heal"] = 4,
 			["name"] = "Kobold Miner (11)",
+			["ccdone"] = 1,
 			["mobname"] = "Kobold Miner",
-			["starttime"] = 1689757900,
 			["edamage"] = 4,
 			["last_action"] = 1689757909,
 			["endtime"] = 1689757911,
@@ -986,12 +986,12 @@ SkadaStorageDB = {
 							["school"] = 1,
 							["sources"] = {
 								["Morridin"] = {
-									["overkill"] = 1164,
 									["amount"] = 1266,
+									["overkill"] = 1164,
 								},
 							},
-							["overkill"] = 1164,
 							["amount"] = 1266,
+							["overkill"] = 1164,
 						},
 					},
 					["totaldamage"] = 2,
@@ -1003,10 +1003,12 @@ SkadaStorageDB = {
 			},
 			["totaldamage"] = 1266,
 			["time"] = 11,
-			["starttime"] = 1689757843,
 			["totaldamagetaken"] = 2,
 			["etotaldamage"] = 2,
 			["last_time"] = 9739.763000000001,
+			["starttime"] = 1689757843,
+			["type"] = "none",
+			["damagetaken"] = 2,
 			["players"] = {
 				{
 					["last"] = 9738.49,
@@ -1024,6 +1026,7 @@ SkadaStorageDB = {
 							["uptime"] = 11,
 						},
 					},
+					["totaldamage"] = 1266,
 					["time"] = 3.5,
 					["totaldamagetaken"] = 2,
 					["damage"] = 1266,
@@ -1034,18 +1037,18 @@ SkadaStorageDB = {
 					["healspells"] = {
 						[50475] = {
 							["overheal"] = 3,
+							["min"] = 1,
+							["count"] = 1,
+							["amount"] = 1,
+							["school"] = 1,
+							["ishot"] = true,
 							["targets"] = {
 								["Morridin"] = {
 									["overheal"] = 3,
 									["amount"] = 1,
 								},
 							},
-							["count"] = 1,
-							["amount"] = 1,
-							["school"] = 1,
 							["max"] = 1,
-							["ishot"] = true,
-							["min"] = 1,
 						},
 					},
 					["damagetakenspells"] = {
@@ -1068,14 +1071,16 @@ SkadaStorageDB = {
 					},
 					["heal"] = 1,
 					["name"] = "Morridin",
+					["role"] = "DAMAGER",
+					["overkill"] = 1164,
 					["damagespells"] = {
 						["Melee"] = {
 							["criticalamount"] = 1266,
 							["id"] = 6603,
 							["targets"] = {
 								["Kobold Tunneler"] = {
-									["overkill"] = 1164,
 									["amount"] = 1266,
+									["overkill"] = 1164,
 								},
 							},
 							["overkill"] = 1164,
@@ -1083,17 +1088,12 @@ SkadaStorageDB = {
 							["critical"] = 1,
 							["amount"] = 1266,
 							["school"] = 1,
-							["criticalmin"] = 1266,
 							["count"] = 1,
+							["criticalmin"] = 1266,
 						},
 					},
-					["overkill"] = 1164,
-					["totaldamage"] = 1266,
-					["role"] = "DAMAGER",
 				}, -- [1]
 			},
-			["type"] = "none",
-			["damagetaken"] = 2,
 			["etotaldamagetaken"] = 1266,
 			["damage"] = 1266,
 			["overkill"] = 1164,
@@ -1128,23 +1128,23 @@ SkadaStorageDB = {
 							["school"] = 1,
 							["sources"] = {
 								["Morridin"] = {
-									["overkill"] = 3090,
 									["amount"] = 3210,
+									["overkill"] = 3090,
 								},
 							},
-							["overkill"] = 3090,
 							["amount"] = 3210,
+							["overkill"] = 3090,
 						},
 						[55050] = {
 							["school"] = 1,
 							["sources"] = {
 								["Morridin"] = {
-									["overkill"] = 1328,
 									["amount"] = 1448,
+									["overkill"] = 1328,
 								},
 							},
-							["overkill"] = 1328,
 							["amount"] = 1448,
+							["overkill"] = 1328,
 						},
 					},
 					["totaldamage"] = 2,
@@ -1168,6 +1168,12 @@ SkadaStorageDB = {
 					["flag"] = 1297,
 					["class"] = "DEATHKNIGHT",
 					["auras"] = {
+						[52424] = {
+							["school"] = 1,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 2,
+						},
 						[53138] = {
 							["type"] = "BUFF",
 							["count"] = 1,
@@ -1177,12 +1183,6 @@ SkadaStorageDB = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 5,
-						},
-						[52424] = {
-							["school"] = 1,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 2,
 						},
 					},
 					["totaldamage"] = 4658,
@@ -1196,40 +1196,42 @@ SkadaStorageDB = {
 					["healspells"] = {
 						[50475] = {
 							["overheal"] = 6,
-							["max"] = 2,
+							["min"] = 2,
 							["count"] = 2,
 							["amount"] = 2,
-							["school"] = 1,
+							["max"] = 2,
+							["ishot"] = true,
 							["targets"] = {
 								["Morridin"] = {
 									["overheal"] = 6,
 									["amount"] = 2,
 								},
 							},
-							["ishot"] = true,
-							["min"] = 2,
+							["school"] = 1,
 						},
 					},
 					["damagetakenspells"] = {
 						["Melee"] = {
 							["hitmin"] = 1,
 							["id"] = 6603,
-							["PARRY"] = 1,
 							["sources"] = {
 								["Kobold Tunneler"] = {
 									["amount"] = 2,
 								},
 							},
+							["PARRY"] = 1,
 							["count"] = 3,
 							["hit"] = 2,
 							["school"] = 1,
-							["hitmax"] = 1,
 							["amount"] = 2,
+							["hitmax"] = 1,
 							["hitamount"] = 2,
 						},
 					},
 					["heal"] = 2,
 					["name"] = "Morridin",
+					["role"] = "DAMAGER",
+					["overkill"] = 4418,
 					["damagespells"] = {
 						["Melee"] = {
 							["glance"] = 3210,
@@ -1242,8 +1244,8 @@ SkadaStorageDB = {
 							["school"] = 1,
 							["targets"] = {
 								["Kobold Tunneler"] = {
-									["overkill"] = 3090,
 									["amount"] = 3210,
+									["overkill"] = 3090,
 								},
 							},
 							["glancemin"] = 3210,
@@ -1253,8 +1255,8 @@ SkadaStorageDB = {
 							["id"] = 55050,
 							["targets"] = {
 								["Kobold Tunneler"] = {
-									["overkill"] = 1328,
 									["amount"] = 1448,
+									["overkill"] = 1328,
 								},
 							},
 							["overkill"] = 1328,
@@ -1262,13 +1264,11 @@ SkadaStorageDB = {
 							["critical"] = 1,
 							["amount"] = 1448,
 							["school"] = 1,
-							["criticalmin"] = 1448,
-							["criticalmax"] = 1448,
 							["count"] = 1,
+							["criticalmax"] = 1448,
+							["criticalmin"] = 1448,
 						},
 					},
-					["overkill"] = 4418,
-					["role"] = "DAMAGER",
 				}, -- [1]
 			},
 			["etotaldamagetaken"] = 4658,
@@ -1286,55 +1286,55 @@ SkadaStorageDB = {
 		{
 			["enemies"] = {
 				{
-					["damagetaken"] = 4230,
 					["name"] = "Kobold Tunneler",
-					["class"] = "MONSTER",
-					["flag"] = 68168,
-					["totaldamagetaken"] = 4230,
+					["damagetaken"] = 4230,
 					["id"] = "0xF1300001DB2A17FE",
+					["flag"] = 68168,
+					["class"] = "MONSTER",
+					["totaldamagetaken"] = 4230,
 					["damagetakenspells"] = {
 						[6603] = {
 							["school"] = 1,
 							["sources"] = {
 								["Morridin"] = {
-									["overkill"] = 3454,
 									["amount"] = 3556,
+									["overkill"] = 3454,
 								},
 							},
-							["overkill"] = 3454,
 							["amount"] = 3556,
+							["overkill"] = 3454,
 						},
 						[45462] = {
 							["school"] = 1,
 							["sources"] = {
 								["Morridin"] = {
-									["overkill"] = 554,
 									["amount"] = 674,
+									["overkill"] = 554,
 								},
 							},
-							["overkill"] = 554,
 							["amount"] = 674,
+							["overkill"] = 554,
 						},
 					},
 				}, -- [1]
 				{
-					["damagetaken"] = 708,
 					["name"] = "Kobold Miner",
-					["class"] = "MONSTER",
-					["flag"] = 2632,
-					["totaldamagetaken"] = 708,
+					["damagetaken"] = 708,
 					["id"] = "0xF1300000282A1803",
+					["flag"] = 2632,
+					["class"] = "MONSTER",
+					["totaldamagetaken"] = 708,
 					["damagetakenspells"] = {
 						[55050] = {
 							["school"] = 1,
 							["sources"] = {
 								["Morridin"] = {
-									["overkill"] = 571,
 									["amount"] = 708,
+									["overkill"] = 571,
 								},
 							},
-							["overkill"] = 571,
 							["amount"] = 708,
+							["overkill"] = 571,
 						},
 					},
 				}, -- [2]
@@ -1387,6 +1387,62 @@ SkadaStorageDB = {
 					["overkill"] = 4579,
 					["heal"] = 0,
 					["name"] = "Morridin",
+					["role"] = "DAMAGER",
+					["damagespells"] = {
+						["Heart Strike"] = {
+							["criticalamount"] = 708,
+							["id"] = 55050,
+							["targets"] = {
+								["Kobold Miner"] = {
+									["amount"] = 708,
+									["overkill"] = 571,
+								},
+							},
+							["overkill"] = 571,
+							["casts"] = 1,
+							["critical"] = 1,
+							["amount"] = 708,
+							["school"] = 1,
+							["count"] = 1,
+							["criticalmax"] = 708,
+							["criticalmin"] = 708,
+						},
+						["Melee"] = {
+							["glance"] = 3556,
+							["id"] = 6603,
+							["glancemax"] = 3556,
+							["overkill"] = 3454,
+							["glancing"] = 1,
+							["count"] = 1,
+							["amount"] = 3556,
+							["school"] = 1,
+							["targets"] = {
+								["Kobold Tunneler"] = {
+									["amount"] = 3556,
+									["overkill"] = 3454,
+								},
+							},
+							["glancemin"] = 3556,
+						},
+						["Plague Strike"] = {
+							["criticalamount"] = 674,
+							["id"] = 45462,
+							["targets"] = {
+								["Kobold Tunneler"] = {
+									["amount"] = 674,
+									["overkill"] = 554,
+								},
+							},
+							["overkill"] = 554,
+							["casts"] = 1,
+							["critical"] = 1,
+							["amount"] = 674,
+							["school"] = 1,
+							["count"] = 1,
+							["criticalmax"] = 674,
+							["criticalmin"] = 674,
+						},
+					},
 					["damagetakenspells"] = {
 						["Melee"] = {
 							["DODGE"] = 1,
@@ -1401,62 +1457,6 @@ SkadaStorageDB = {
 							["id"] = 6603,
 						},
 					},
-					["damagespells"] = {
-						["Heart Strike"] = {
-							["criticalamount"] = 708,
-							["id"] = 55050,
-							["targets"] = {
-								["Kobold Miner"] = {
-									["overkill"] = 571,
-									["amount"] = 708,
-								},
-							},
-							["overkill"] = 571,
-							["casts"] = 1,
-							["critical"] = 1,
-							["amount"] = 708,
-							["school"] = 1,
-							["criticalmin"] = 708,
-							["criticalmax"] = 708,
-							["count"] = 1,
-						},
-						["Melee"] = {
-							["glance"] = 3556,
-							["id"] = 6603,
-							["glancemax"] = 3556,
-							["overkill"] = 3454,
-							["glancing"] = 1,
-							["count"] = 1,
-							["amount"] = 3556,
-							["school"] = 1,
-							["targets"] = {
-								["Kobold Tunneler"] = {
-									["overkill"] = 3454,
-									["amount"] = 3556,
-								},
-							},
-							["glancemin"] = 3556,
-						},
-						["Plague Strike"] = {
-							["criticalamount"] = 674,
-							["id"] = 45462,
-							["targets"] = {
-								["Kobold Tunneler"] = {
-									["overkill"] = 554,
-									["amount"] = 674,
-								},
-							},
-							["overkill"] = 554,
-							["casts"] = 1,
-							["critical"] = 1,
-							["amount"] = 674,
-							["school"] = 1,
-							["criticalmin"] = 674,
-							["criticalmax"] = 674,
-							["count"] = 1,
-						},
-					},
-					["role"] = "DAMAGER",
 				}, -- [1]
 			},
 			["type"] = "none",
@@ -1475,55 +1475,55 @@ SkadaStorageDB = {
 		{
 			["enemies"] = {
 				{
-					["damagetaken"] = 1768,
 					["name"] = "Kobold Tunneler",
-					["class"] = "MONSTER",
-					["flag"] = 68168,
-					["totaldamagetaken"] = 1768,
+					["damagetaken"] = 1768,
 					["id"] = "0xF1300001DB2A173D",
+					["flag"] = 68168,
+					["class"] = "MONSTER",
+					["totaldamagetaken"] = 1768,
 					["damagetakenspells"] = {
 						[6603] = {
 							["school"] = 1,
 							["sources"] = {
 								["Morridin"] = {
-									["overkill"] = 986,
 									["amount"] = 1088,
+									["overkill"] = 986,
 								},
 							},
-							["overkill"] = 986,
 							["amount"] = 1088,
+							["overkill"] = 986,
 						},
 						[55050] = {
 							["school"] = 1,
 							["sources"] = {
 								["Morridin"] = {
-									["overkill"] = 560,
 									["amount"] = 680,
+									["overkill"] = 560,
 								},
 							},
-							["overkill"] = 560,
 							["amount"] = 680,
+							["overkill"] = 560,
 						},
 					},
 				}, -- [1]
 				{
-					["damagetaken"] = 772,
 					["name"] = "Kobold Miner",
-					["class"] = "MONSTER",
-					["flag"] = 68168,
-					["totaldamagetaken"] = 772,
+					["damagetaken"] = 772,
 					["id"] = "0xF1300000282A1742",
+					["flag"] = 68168,
+					["class"] = "MONSTER",
+					["totaldamagetaken"] = 772,
 					["damagetakenspells"] = {
 						[45462] = {
 							["school"] = 1,
 							["sources"] = {
 								["Morridin"] = {
-									["overkill"] = 635,
 									["amount"] = 772,
+									["overkill"] = 635,
 								},
 							},
-							["overkill"] = 635,
 							["amount"] = 772,
+							["overkill"] = 635,
 						},
 					},
 				}, -- [2]
@@ -1539,6 +1539,16 @@ SkadaStorageDB = {
 					["flag"] = 1297,
 					["class"] = "DEATHKNIGHT",
 					["auras"] = {
+						[53138] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 5,
+						},
+						[48266] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 5,
+						},
 						[64859] = {
 							["school"] = 1,
 							["type"] = "BUFF",
@@ -1550,16 +1560,6 @@ SkadaStorageDB = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 2,
-						},
-						[48266] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 5,
-						},
-						[53138] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 5,
 						},
 					},
 					["totaldamage"] = 2540,
@@ -1573,45 +1573,32 @@ SkadaStorageDB = {
 					["healspells"] = {
 						[50475] = {
 							["overheal"] = 0,
-							["max"] = 5,
+							["min"] = 4,
 							["count"] = 3,
 							["amount"] = 13,
-							["school"] = 1,
+							["max"] = 5,
+							["ishot"] = true,
 							["targets"] = {
 								["Morridin"] = {
 									["overheal"] = 0,
 									["amount"] = 13,
 								},
 							},
-							["ishot"] = true,
-							["min"] = 4,
+							["school"] = 1,
 						},
 					},
 					["overkill"] = 2181,
 					["heal"] = 13,
 					["name"] = "Morridin",
-					["damagetakenspells"] = {
-						["Melee"] = {
-							["PARRY"] = 1,
-							["count"] = 1,
-							["amount"] = 0,
-							["school"] = 1,
-							["sources"] = {
-								["Kobold Miner"] = {
-									["amount"] = 0,
-								},
-							},
-							["id"] = 6603,
-						},
-					},
+					["role"] = "DAMAGER",
 					["damagespells"] = {
 						["Heart Strike"] = {
 							["criticalamount"] = 680,
 							["id"] = 55050,
 							["targets"] = {
 								["Kobold Tunneler"] = {
-									["overkill"] = 560,
 									["amount"] = 680,
+									["overkill"] = 560,
 								},
 							},
 							["overkill"] = 560,
@@ -1619,17 +1606,17 @@ SkadaStorageDB = {
 							["critical"] = 1,
 							["amount"] = 680,
 							["school"] = 1,
-							["criticalmin"] = 680,
-							["criticalmax"] = 680,
 							["count"] = 1,
+							["criticalmax"] = 680,
+							["criticalmin"] = 680,
 						},
 						["Melee"] = {
 							["criticalamount"] = 1088,
 							["id"] = 6603,
 							["targets"] = {
 								["Kobold Tunneler"] = {
-									["overkill"] = 986,
 									["amount"] = 1088,
+									["overkill"] = 986,
 								},
 							},
 							["overkill"] = 986,
@@ -1637,16 +1624,16 @@ SkadaStorageDB = {
 							["critical"] = 1,
 							["amount"] = 1088,
 							["school"] = 1,
-							["criticalmin"] = 1088,
 							["count"] = 1,
+							["criticalmin"] = 1088,
 						},
 						["Plague Strike"] = {
 							["criticalamount"] = 772,
 							["id"] = 45462,
 							["targets"] = {
 								["Kobold Miner"] = {
-									["overkill"] = 635,
 									["amount"] = 772,
+									["overkill"] = 635,
 								},
 							},
 							["overkill"] = 635,
@@ -1654,12 +1641,25 @@ SkadaStorageDB = {
 							["critical"] = 1,
 							["amount"] = 772,
 							["school"] = 1,
-							["criticalmin"] = 772,
-							["criticalmax"] = 772,
 							["count"] = 1,
+							["criticalmax"] = 772,
+							["criticalmin"] = 772,
 						},
 					},
-					["role"] = "DAMAGER",
+					["damagetakenspells"] = {
+						["Melee"] = {
+							["PARRY"] = 1,
+							["count"] = 1,
+							["amount"] = 0,
+							["school"] = 1,
+							["id"] = 6603,
+							["sources"] = {
+								["Kobold Miner"] = {
+									["amount"] = 0,
+								},
+							},
+						},
+					},
 				}, -- [1]
 			},
 			["type"] = "none",
@@ -1697,23 +1697,23 @@ SkadaStorageDB = {
 							["school"] = 1,
 							["sources"] = {
 								["Morridin"] = {
-									["overkill"] = 3588,
 									["amount"] = 3708,
+									["overkill"] = 3588,
 								},
 							},
-							["overkill"] = 3588,
 							["amount"] = 3708,
+							["overkill"] = 3588,
 						},
 						[55050] = {
 							["school"] = 1,
 							["sources"] = {
 								["Morridin"] = {
-									["overkill"] = 189,
 									["amount"] = 326,
+									["overkill"] = 189,
 								},
 							},
-							["overkill"] = 189,
 							["amount"] = 326,
+							["overkill"] = 189,
 						},
 					},
 					["totaldamage"] = 2,
@@ -1759,40 +1759,42 @@ SkadaStorageDB = {
 					["healspells"] = {
 						[50475] = {
 							["overheal"] = 0,
-							["max"] = 5,
+							["min"] = 4,
 							["count"] = 2,
 							["amount"] = 9,
-							["school"] = 1,
+							["max"] = 5,
+							["ishot"] = true,
 							["targets"] = {
 								["Morridin"] = {
 									["overheal"] = 0,
 									["amount"] = 9,
 								},
 							},
-							["ishot"] = true,
-							["min"] = 4,
+							["school"] = 1,
 						},
 					},
 					["damagetakenspells"] = {
 						["Melee"] = {
 							["hitmin"] = 2,
 							["id"] = 6603,
-							["PARRY"] = 1,
 							["sources"] = {
 								["Kobold Miner"] = {
 									["amount"] = 2,
 								},
 							},
+							["PARRY"] = 1,
 							["count"] = 2,
 							["hit"] = 1,
 							["school"] = 1,
-							["hitmax"] = 2,
 							["amount"] = 2,
+							["hitmax"] = 2,
 							["hitamount"] = 2,
 						},
 					},
 					["heal"] = 9,
 					["name"] = "Morridin",
+					["role"] = "DAMAGER",
+					["overkill"] = 3777,
 					["damagespells"] = {
 						["Melee"] = {
 							["glance"] = 3708,
@@ -1805,8 +1807,8 @@ SkadaStorageDB = {
 							["school"] = 1,
 							["targets"] = {
 								["Kobold Miner"] = {
-									["overkill"] = 3588,
 									["amount"] = 3708,
+									["overkill"] = 3588,
 								},
 							},
 							["glancemin"] = 3708,
@@ -1816,8 +1818,8 @@ SkadaStorageDB = {
 							["id"] = 55050,
 							["targets"] = {
 								["Kobold Miner"] = {
-									["overkill"] = 189,
 									["amount"] = 326,
+									["overkill"] = 189,
 								},
 							},
 							["overkill"] = 189,
@@ -1830,8 +1832,6 @@ SkadaStorageDB = {
 							["hitamount"] = 326,
 						},
 					},
-					["overkill"] = 3777,
-					["role"] = "DAMAGER",
 				}, -- [1]
 			},
 			["etotaldamagetaken"] = 4034,
@@ -1868,23 +1868,23 @@ SkadaStorageDB = {
 							["school"] = 1,
 							["sources"] = {
 								["Morridin"] = {
-									["overkill"] = 3503,
 									["amount"] = 3640,
+									["overkill"] = 3503,
 								},
 							},
-							["overkill"] = 3503,
 							["amount"] = 3640,
+							["overkill"] = 3503,
 						},
 						[45477] = {
 							["school"] = 16,
 							["sources"] = {
 								["Morridin"] = {
-									["overkill"] = 199,
 									["amount"] = 336,
+									["overkill"] = 199,
 								},
 							},
-							["overkill"] = 199,
 							["amount"] = 336,
+							["overkill"] = 199,
 						},
 					},
 					["totaldamage"] = 2,
@@ -1930,23 +1930,61 @@ SkadaStorageDB = {
 					["healspells"] = {
 						[50475] = {
 							["overheal"] = 8,
-							["school"] = 1,
+							["min"] = 2,
 							["count"] = 2,
 							["amount"] = 2,
-							["max"] = 2,
-							["ishot"] = true,
+							["school"] = 1,
 							["targets"] = {
 								["Morridin"] = {
 									["overheal"] = 8,
 									["amount"] = 2,
 								},
 							},
-							["min"] = 2,
+							["ishot"] = true,
+							["max"] = 2,
 						},
 					},
 					["overkill"] = 3702,
 					["heal"] = 2,
 					["name"] = "Morridin",
+					["role"] = "DAMAGER",
+					["damagespells"] = {
+						["Melee"] = {
+							["glance"] = 3640,
+							["id"] = 6603,
+							["glancemax"] = 3640,
+							["overkill"] = 3503,
+							["glancing"] = 1,
+							["count"] = 1,
+							["amount"] = 3640,
+							["school"] = 1,
+							["targets"] = {
+								["Kobold Miner"] = {
+									["amount"] = 3640,
+									["overkill"] = 3503,
+								},
+							},
+							["glancemin"] = 3640,
+						},
+						["Icy Touch"] = {
+							["hitmin"] = 336,
+							["id"] = 45477,
+							["targets"] = {
+								["Kobold Miner"] = {
+									["amount"] = 336,
+									["overkill"] = 199,
+								},
+							},
+							["overkill"] = 199,
+							["casts"] = 1,
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 16,
+							["hitmax"] = 336,
+							["amount"] = 336,
+							["hitamount"] = 336,
+						},
+					},
 					["damagetakenspells"] = {
 						["Melee"] = {
 							["hitmin"] = 2,
@@ -1964,44 +2002,6 @@ SkadaStorageDB = {
 							["hitamount"] = 2,
 						},
 					},
-					["damagespells"] = {
-						["Melee"] = {
-							["glance"] = 3640,
-							["id"] = 6603,
-							["glancemax"] = 3640,
-							["overkill"] = 3503,
-							["glancing"] = 1,
-							["count"] = 1,
-							["amount"] = 3640,
-							["school"] = 1,
-							["targets"] = {
-								["Kobold Miner"] = {
-									["overkill"] = 3503,
-									["amount"] = 3640,
-								},
-							},
-							["glancemin"] = 3640,
-						},
-						["Icy Touch"] = {
-							["hitmin"] = 336,
-							["id"] = 45477,
-							["targets"] = {
-								["Kobold Miner"] = {
-									["overkill"] = 199,
-									["amount"] = 336,
-								},
-							},
-							["overkill"] = 199,
-							["casts"] = 1,
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 16,
-							["hitmax"] = 336,
-							["amount"] = 336,
-							["hitamount"] = 336,
-						},
-					},
-					["role"] = "DAMAGER",
 				}, -- [1]
 			},
 			["etotaldamage"] = 2,
@@ -2038,23 +2038,23 @@ SkadaStorageDB = {
 							["school"] = 1,
 							["sources"] = {
 								["Morridin"] = {
-									["overkill"] = 4434,
 									["amount"] = 4708,
+									["overkill"] = 4434,
 								},
 							},
-							["overkill"] = 4434,
 							["amount"] = 4708,
+							["overkill"] = 4434,
 						},
 						[55050] = {
 							["school"] = 1,
 							["sources"] = {
 								["Morridin"] = {
-									["overkill"] = 1240,
 									["amount"] = 1360,
+									["overkill"] = 1240,
 								},
 							},
-							["overkill"] = 1240,
 							["amount"] = 1360,
+							["overkill"] = 1240,
 						},
 					},
 					["totaldamage"] = 1,
@@ -2078,6 +2078,11 @@ SkadaStorageDB = {
 					["flag"] = 1297,
 					["class"] = "DEATHKNIGHT",
 					["auras"] = {
+						[64859] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 6,
+						},
 						[53138] = {
 							["type"] = "BUFF",
 							["count"] = 1,
@@ -2087,11 +2092,6 @@ SkadaStorageDB = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 8,
-						},
-						[64859] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 6,
 						},
 					},
 					["totaldamage"] = 6068,
@@ -2105,23 +2105,65 @@ SkadaStorageDB = {
 					["healspells"] = {
 						[50475] = {
 							["overheal"] = 12,
-							["max"] = 1,
+							["min"] = 1,
 							["count"] = 3,
 							["amount"] = 2,
-							["school"] = 1,
+							["max"] = 1,
+							["ishot"] = true,
 							["targets"] = {
 								["Morridin"] = {
 									["overheal"] = 12,
 									["amount"] = 2,
 								},
 							},
-							["ishot"] = true,
-							["min"] = 1,
+							["school"] = 1,
 						},
 					},
 					["overkill"] = 5674,
 					["heal"] = 2,
 					["name"] = "Morridin",
+					["role"] = "DAMAGER",
+					["damagespells"] = {
+						["Melee"] = {
+							["glance"] = 3640,
+							["criticalamount"] = 1068,
+							["id"] = 6603,
+							["critical"] = 1,
+							["targets"] = {
+								["Kobold Miner"] = {
+									["amount"] = 4708,
+									["overkill"] = 4434,
+								},
+							},
+							["overkill"] = 4434,
+							["glancing"] = 1,
+							["criticalmax"] = 1068,
+							["count"] = 2,
+							["amount"] = 4708,
+							["school"] = 1,
+							["criticalmin"] = 1068,
+							["glancemax"] = 3640,
+							["glancemin"] = 3640,
+						},
+						["Heart Strike"] = {
+							["criticalamount"] = 1360,
+							["id"] = 55050,
+							["targets"] = {
+								["Kobold Miner"] = {
+									["amount"] = 1360,
+									["overkill"] = 1240,
+								},
+							},
+							["overkill"] = 1240,
+							["casts"] = 1,
+							["critical"] = 1,
+							["amount"] = 1360,
+							["school"] = 1,
+							["count"] = 1,
+							["criticalmax"] = 1360,
+							["criticalmin"] = 1360,
+						},
+					},
 					["damagetakenspells"] = {
 						["Melee"] = {
 							["DODGE"] = 1,
@@ -2140,48 +2182,6 @@ SkadaStorageDB = {
 							["hitamount"] = 1,
 						},
 					},
-					["damagespells"] = {
-						["Melee"] = {
-							["glance"] = 3640,
-							["criticalamount"] = 1068,
-							["id"] = 6603,
-							["count"] = 2,
-							["targets"] = {
-								["Kobold Miner"] = {
-									["overkill"] = 4434,
-									["amount"] = 4708,
-								},
-							},
-							["overkill"] = 4434,
-							["glancing"] = 1,
-							["criticalmax"] = 1068,
-							["critical"] = 1,
-							["amount"] = 4708,
-							["school"] = 1,
-							["glancemax"] = 3640,
-							["criticalmin"] = 1068,
-							["glancemin"] = 3640,
-						},
-						["Heart Strike"] = {
-							["criticalamount"] = 1360,
-							["id"] = 55050,
-							["targets"] = {
-								["Kobold Miner"] = {
-									["overkill"] = 1240,
-									["amount"] = 1360,
-								},
-							},
-							["overkill"] = 1240,
-							["casts"] = 1,
-							["critical"] = 1,
-							["amount"] = 1360,
-							["school"] = 1,
-							["criticalmin"] = 1360,
-							["criticalmax"] = 1360,
-							["count"] = 1,
-						},
-					},
-					["role"] = "DAMAGER",
 				}, -- [1]
 			},
 			["etotaldamage"] = 1,
@@ -2218,23 +2218,23 @@ SkadaStorageDB = {
 							["school"] = 1,
 							["sources"] = {
 								["Morridin"] = {
-									["overkill"] = 260,
 									["amount"] = 362,
+									["overkill"] = 260,
 								},
 							},
-							["overkill"] = 260,
 							["amount"] = 362,
+							["overkill"] = 260,
 						},
 						[6603] = {
 							["school"] = 1,
 							["sources"] = {
 								["Morridin"] = {
-									["overkill"] = 1046,
 									["amount"] = 1166,
+									["overkill"] = 1046,
 								},
 							},
-							["overkill"] = 1046,
 							["amount"] = 1166,
+							["overkill"] = 1046,
 						},
 					},
 					["totaldamage"] = 1,
@@ -2280,48 +2280,50 @@ SkadaStorageDB = {
 					["healspells"] = {
 						[50475] = {
 							["overheal"] = 7,
-							["max"] = 1,
+							["min"] = 1,
 							["count"] = 2,
 							["amount"] = 1,
-							["school"] = 1,
+							["max"] = 1,
+							["ishot"] = true,
 							["targets"] = {
 								["Morridin"] = {
 									["overheal"] = 7,
 									["amount"] = 1,
 								},
 							},
-							["ishot"] = true,
-							["min"] = 1,
+							["school"] = 1,
 						},
 					},
 					["damagetakenspells"] = {
 						["Melee"] = {
 							["hitmin"] = 1,
 							["id"] = 6603,
-							["PARRY"] = 1,
 							["sources"] = {
 								["Kobold Tunneler"] = {
 									["amount"] = 1,
 								},
 							},
+							["PARRY"] = 1,
 							["count"] = 2,
 							["hit"] = 1,
 							["school"] = 1,
-							["hitmax"] = 1,
 							["amount"] = 1,
+							["hitmax"] = 1,
 							["hitamount"] = 1,
 						},
 					},
 					["heal"] = 1,
 					["name"] = "Morridin",
+					["role"] = "DAMAGER",
+					["overkill"] = 1306,
 					["damagespells"] = {
 						["Melee"] = {
 							["criticalamount"] = 1166,
 							["id"] = 6603,
 							["targets"] = {
 								["Kobold Tunneler"] = {
-									["overkill"] = 1046,
 									["amount"] = 1166,
+									["overkill"] = 1046,
 								},
 							},
 							["overkill"] = 1046,
@@ -2329,16 +2331,16 @@ SkadaStorageDB = {
 							["critical"] = 1,
 							["amount"] = 1166,
 							["school"] = 1,
-							["criticalmin"] = 1166,
 							["count"] = 1,
+							["criticalmin"] = 1166,
 						},
 						["Plague Strike"] = {
 							["hitmin"] = 362,
 							["id"] = 45462,
 							["targets"] = {
 								["Kobold Tunneler"] = {
-									["overkill"] = 260,
 									["amount"] = 362,
+									["overkill"] = 260,
 								},
 							},
 							["overkill"] = 260,
@@ -2351,8 +2353,6 @@ SkadaStorageDB = {
 							["hitamount"] = 362,
 						},
 					},
-					["overkill"] = 1306,
-					["role"] = "DAMAGER",
 				}, -- [1]
 			},
 			["etotaldamagetaken"] = 1528,
@@ -2370,45 +2370,45 @@ SkadaStorageDB = {
 		{
 			["enemies"] = {
 				{
-					["damagetaken"] = 8966,
 					["name"] = "Kobold Miner",
-					["class"] = "MONSTER",
-					["flag"] = 68168,
-					["totaldamagetaken"] = 8966,
+					["damagetaken"] = 8966,
 					["id"] = "0xF1300000282A0CA9",
+					["flag"] = 68168,
+					["class"] = "MONSTER",
+					["totaldamagetaken"] = 8966,
 					["damagetakenspells"] = {
 						[6603] = {
 							["school"] = 1,
 							["sources"] = {
 								["Morridin"] = {
-									["overkill"] = 6954,
 									["amount"] = 7194,
+									["overkill"] = 6954,
 								},
 							},
-							["overkill"] = 6954,
 							["amount"] = 7194,
+							["overkill"] = 6954,
 						},
 						[45477] = {
 							["school"] = 16,
 							["sources"] = {
 								["Morridin"] = {
-									["overkill"] = 216,
 									["amount"] = 336,
+									["overkill"] = 216,
 								},
 							},
-							["overkill"] = 216,
 							["amount"] = 336,
+							["overkill"] = 216,
 						},
 						[55050] = {
 							["school"] = 1,
 							["sources"] = {
 								["Morridin"] = {
-									["overkill"] = 1299,
 									["amount"] = 1436,
+									["overkill"] = 1299,
 								},
 							},
-							["overkill"] = 1299,
 							["amount"] = 1436,
+							["overkill"] = 1299,
 						},
 					},
 				}, -- [1]
@@ -2424,6 +2424,12 @@ SkadaStorageDB = {
 					["flag"] = 1297,
 					["class"] = "DEATHKNIGHT",
 					["auras"] = {
+						[64859] = {
+							["count"] = 1,
+							["refresh"] = 2,
+							["uptime"] = 11,
+							["type"] = "BUFF",
+						},
 						[53138] = {
 							["type"] = "BUFF",
 							["count"] = 1,
@@ -2433,12 +2439,6 @@ SkadaStorageDB = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 11,
-						},
-						[64859] = {
-							["refresh"] = 2,
-							["type"] = "BUFF",
-							["uptime"] = 11,
-							["count"] = 1,
 						},
 					},
 					["totaldamage"] = 8966,
@@ -2452,23 +2452,79 @@ SkadaStorageDB = {
 					["healspells"] = {
 						[50475] = {
 							["overheal"] = 15,
-							["max"] = 2,
+							["min"] = 2,
 							["count"] = 4,
 							["amount"] = 2,
-							["school"] = 1,
+							["max"] = 2,
+							["ishot"] = true,
 							["targets"] = {
 								["Morridin"] = {
 									["overheal"] = 15,
 									["amount"] = 2,
 								},
 							},
-							["ishot"] = true,
-							["min"] = 2,
+							["school"] = 1,
 						},
 					},
 					["overkill"] = 8469,
 					["heal"] = 2,
 					["name"] = "Morridin",
+					["role"] = "DAMAGER",
+					["damagespells"] = {
+						["Icy Touch"] = {
+							["hitmin"] = 336,
+							["id"] = 45477,
+							["targets"] = {
+								["Kobold Miner"] = {
+									["amount"] = 336,
+									["overkill"] = 216,
+								},
+							},
+							["overkill"] = 216,
+							["casts"] = 1,
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 16,
+							["hitmax"] = 336,
+							["amount"] = 336,
+							["hitamount"] = 336,
+						},
+						["Heart Strike"] = {
+							["criticalamount"] = 1436,
+							["id"] = 55050,
+							["targets"] = {
+								["Kobold Miner"] = {
+									["amount"] = 1436,
+									["overkill"] = 1299,
+								},
+							},
+							["overkill"] = 1299,
+							["casts"] = 1,
+							["critical"] = 1,
+							["amount"] = 1436,
+							["school"] = 1,
+							["count"] = 1,
+							["criticalmax"] = 1436,
+							["criticalmin"] = 1436,
+						},
+						["Melee"] = {
+							["glance"] = 7194,
+							["id"] = 6603,
+							["glancemax"] = 3684,
+							["overkill"] = 6954,
+							["glancing"] = 2,
+							["count"] = 2,
+							["amount"] = 7194,
+							["school"] = 1,
+							["targets"] = {
+								["Kobold Miner"] = {
+									["amount"] = 7194,
+									["overkill"] = 6954,
+								},
+							},
+							["glancemin"] = 3510,
+						},
+					},
 					["damagetakenspells"] = {
 						["Melee"] = {
 							["sources"] = {
@@ -2495,62 +2551,6 @@ SkadaStorageDB = {
 							["id"] = 6016,
 						},
 					},
-					["damagespells"] = {
-						["Icy Touch"] = {
-							["hitmin"] = 336,
-							["id"] = 45477,
-							["targets"] = {
-								["Kobold Miner"] = {
-									["overkill"] = 216,
-									["amount"] = 336,
-								},
-							},
-							["overkill"] = 216,
-							["casts"] = 1,
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 16,
-							["hitmax"] = 336,
-							["amount"] = 336,
-							["hitamount"] = 336,
-						},
-						["Heart Strike"] = {
-							["criticalamount"] = 1436,
-							["id"] = 55050,
-							["targets"] = {
-								["Kobold Miner"] = {
-									["overkill"] = 1299,
-									["amount"] = 1436,
-								},
-							},
-							["overkill"] = 1299,
-							["casts"] = 1,
-							["critical"] = 1,
-							["amount"] = 1436,
-							["school"] = 1,
-							["criticalmin"] = 1436,
-							["criticalmax"] = 1436,
-							["count"] = 1,
-						},
-						["Melee"] = {
-							["glance"] = 7194,
-							["id"] = 6603,
-							["glancemax"] = 3684,
-							["overkill"] = 6954,
-							["glancing"] = 2,
-							["count"] = 2,
-							["amount"] = 7194,
-							["school"] = 1,
-							["targets"] = {
-								["Kobold Miner"] = {
-									["overkill"] = 6954,
-									["amount"] = 7194,
-								},
-							},
-							["glancemin"] = 3510,
-						},
-					},
-					["role"] = "DAMAGER",
 				}, -- [1]
 			},
 			["type"] = "none",
@@ -2588,23 +2588,23 @@ SkadaStorageDB = {
 							["school"] = 1,
 							["sources"] = {
 								["Morridin"] = {
-									["overkill"] = 3978,
 									["amount"] = 4098,
+									["overkill"] = 3978,
 								},
 							},
-							["overkill"] = 3978,
 							["amount"] = 4098,
+							["overkill"] = 3978,
 						},
 						[55050] = {
 							["school"] = 1,
 							["sources"] = {
 								["Morridin"] = {
-									["overkill"] = 2018,
 									["amount"] = 2240,
+									["overkill"] = 2018,
 								},
 							},
-							["overkill"] = 2018,
 							["amount"] = 2240,
+							["overkill"] = 2018,
 						},
 					},
 					["totaldamage"] = 1,
@@ -2644,15 +2644,15 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 10,
 						},
+						[53138] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 10,
+						},
 						[52424] = {
 							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 2,
-							["uptime"] = 10,
-						},
-						[53138] = {
-							["type"] = "BUFF",
-							["count"] = 1,
 							["uptime"] = 10,
 						},
 					},
@@ -2667,18 +2667,18 @@ SkadaStorageDB = {
 					["healspells"] = {
 						[50475] = {
 							["overheal"] = 11,
-							["school"] = 1,
+							["min"] = 1,
 							["count"] = 3,
 							["amount"] = 1,
-							["max"] = 1,
-							["ishot"] = true,
+							["school"] = 1,
 							["targets"] = {
 								["Morridin"] = {
 									["overheal"] = 11,
 									["amount"] = 1,
 								},
 							},
-							["min"] = 1,
+							["ishot"] = true,
+							["max"] = 1,
 						},
 					},
 					["damagetakenspells"] = {
@@ -2686,22 +2686,24 @@ SkadaStorageDB = {
 							["DODGE"] = 2,
 							["hitmin"] = 1,
 							["id"] = 6603,
-							["hitmax"] = 1,
+							["count"] = 5,
 							["sources"] = {
 								["Kobold Tunneler"] = {
 									["amount"] = 1,
 								},
 							},
-							["count"] = 5,
+							["hitmax"] = 1,
 							["hit"] = 1,
 							["school"] = 1,
-							["amount"] = 1,
 							["PARRY"] = 2,
+							["amount"] = 1,
 							["hitamount"] = 1,
 						},
 					},
 					["heal"] = 1,
 					["name"] = "Morridin",
+					["role"] = "DAMAGER",
+					["overkill"] = 5996,
 					["damagespells"] = {
 						["Melee"] = {
 							["glance"] = 4098,
@@ -2714,8 +2716,8 @@ SkadaStorageDB = {
 							["school"] = 1,
 							["targets"] = {
 								["Kobold Tunneler"] = {
-									["overkill"] = 3978,
 									["amount"] = 4098,
+									["overkill"] = 3978,
 								},
 							},
 							["glancemin"] = 4098,
@@ -2725,8 +2727,8 @@ SkadaStorageDB = {
 							["id"] = 55050,
 							["targets"] = {
 								["Kobold Tunneler"] = {
-									["overkill"] = 2018,
 									["amount"] = 2240,
+									["overkill"] = 2018,
 								},
 							},
 							["overkill"] = 2018,
@@ -2734,13 +2736,11 @@ SkadaStorageDB = {
 							["critical"] = 2,
 							["amount"] = 2240,
 							["school"] = 1,
-							["criticalmin"] = 750,
-							["criticalmax"] = 1490,
 							["count"] = 2,
+							["criticalmax"] = 1490,
+							["criticalmin"] = 750,
 						},
 					},
-					["overkill"] = 5996,
-					["role"] = "DAMAGER",
 				}, -- [1]
 			},
 			["etotaldamage"] = 1,
@@ -2758,47 +2758,56 @@ SkadaStorageDB = {
 	},
 	["version"] = 1878,
 	["total"] = {
-		["starttime"] = 1689546552,
-		["damagetaken"] = 9006,
-		["time"] = 209,
-		["overheal"] = 56101,
-		["overkill"] = 576150,
-		["totaldamage"] = 729041,
-		["heal"] = 13760,
+		["starttime"] = 1689760492,
+		["damagetaken"] = 2,
+		["_playeridx"] = {
+			["0x0700000000977BE7"] = {
+				["flag"] = 1297,
+				["class"] = "DEATHKNIGHT",
+				["super"] = nil --[[ skipped recursive table ]],
+				["time"] = 7.699999999999999,
+				["totaldamagetaken"] = 2,
+				["damage"] = 22702,
+				["overheal"] = 59,
+				["damagetaken"] = 2,
+				["id"] = "0x0700000000977BE7",
+				["spec"] = 250,
+				["overkill"] = 20767,
+				["heal"] = 10,
+				["name"] = "Morridin",
+				["ccdone"] = 1,
+				["totaldamage"] = 22702,
+				["role"] = "DAMAGER",
+			},
+		},
+		["time"] = 0,
+		["overkill"] = 20767,
+		["totaldamage"] = 22702,
+		["heal"] = 10,
 		["name"] = "Total",
-		["ccdone"] = 7,
-		["totaldamagetaken"] = 9006,
+		["ccdone"] = 1,
 		["players"] = {
 			{
 				["flag"] = 1297,
 				["class"] = "DEATHKNIGHT",
-				["totaldamage"] = 696980,
-				["time"] = 200.5399999999999,
-				["totaldamagetaken"] = 9006,
-				["damage"] = 696980,
-				["overheal"] = 55209,
-				["damagetaken"] = 9006,
+				["super"] = nil --[[ skipped recursive table ]],
+				["time"] = 7.699999999999999,
+				["totaldamagetaken"] = 2,
+				["damage"] = 22702,
+				["overheal"] = 59,
+				["damagetaken"] = 2,
 				["id"] = "0x0700000000977BE7",
 				["spec"] = 250,
-				["overkill"] = 576150,
-				["heal"] = 13760,
+				["overkill"] = 20767,
+				["heal"] = 10,
 				["name"] = "Morridin",
-				["ccdone"] = 7,
+				["ccdone"] = 1,
+				["totaldamage"] = 22702,
 				["role"] = "DAMAGER",
 			}, -- [1]
-			{
-				["overheal"] = 892,
-				["flag"] = 1298,
-				["class"] = "DEATHKNIGHT",
-				["totaldamage"] = 32061,
-				["name"] = "Oncc",
-				["id"] = "0x0700000000977ACB",
-				["time"] = 20.57,
-				["heal"] = 0,
-				["role"] = "NONE",
-				["damage"] = 32061,
-			}, -- [2]
 		},
-		["damage"] = 729041,
+		["totaldamagetaken"] = 2,
+		["overheal"] = 59,
+		["damage"] = 22702,
 	},
 }

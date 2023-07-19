@@ -1,42 +1,48 @@
 
 SimpleUnitFramesDB = {
+	["global"] = {
+		["overlayfont"] = {
+			["fontsize"] = 12,
+			["fontface"] = "Friz Quadrata TT",
+		},
+		["customstyle"] = {
+		},
+		["bartexture"] = {
+			["texture"] = "Blizzard",
+		},
+	},
 	["profileKeys"] = {
 		["Rimgar - Icecrown"] = "Rimgar - Icecrown",
 		["Praxia - Icecrown"] = "Praxia - Icecrown",
 		["Nalar - Icecrown"] = "Nalar - Icecrown",
 		["Sculatru - Icecrown"] = "Sculatru - Icecrown",
 		["Denathra - Icecrown"] = "Denathra - Icecrown",
+		["Vhalanor - Icecrown"] = "Vhalanor - Icecrown",
 		["Flokus - Icecrown"] = "Flokus - Icecrown",
-		["Eutanasie - Icecrown"] = "Eutanasie - Icecrown",
+		["Flocius - Icecrown"] = "Flocius - Icecrown",
 		["Noobschmoq - Icecrown"] = "Noobschmoq - Icecrown",
-		["Drext - Icecrown"] = "Drext - Icecrown",
 		["Muiex - Icecrown"] = "Muiex - Icecrown",
 		["Sculamare - Icecrown"] = "Sculamare - Icecrown",
-		["Morridin - Icecrown"] = "Morridin - Icecrown",
-		["Inarya - Icecrown"] = "Inarya - Icecrown",
+		["Izanagi - Icecrown"] = "Izanagi - Icecrown",
+		["Mirceabravo - Icecrown"] = "Mirceabravo - Icecrown",
 		["Aevie - Icecrown"] = "Aevie - Icecrown",
-		["Urgash - Icecrown"] = "Urgash - Icecrown",
-		["Rakhnis - Icecrown"] = "Rakhnis - Icecrown",
+		["Morridin - Icecrown"] = "Morridin - Icecrown",
+		["Vrael - Icecrown"] = "Vrael - Icecrown",
 		["Ulrezaj - Icecrown"] = "Ulrezaj - Icecrown",
+		["Gligor - Icecrown"] = "Gligor - Icecrown",
 		["Kalaam - Icecrown"] = "Kalaam - Icecrown",
-		["Pocaitoru - Icecrown"] = "Pocaitoru - Icecrown",
 		["Elgorath - Icecrown"] = "Elgorath - Icecrown",
-		["Maciucaru - Icecrown"] = "Maciucaru - Icecrown",
+		["Pufarin - Icecrown"] = "Pufarin - Icecrown",
 		["Flocparlit - Icecrown"] = "Flocparlit - Icecrown",
 		["Lingurita - Lordaeron"] = "Lingurita - Lordaeron",
 		["Mirceabravo - Blackrock [PvP only]"] = "Mirceabravo - Blackrock [PvP only]",
-		["Pufarin - Icecrown"] = "Pufarin - Icecrown",
-		["Gligor - Icecrown"] = "Gligor - Icecrown",
-		["Vrael - Icecrown"] = "Vrael - Icecrown",
-		["Mirceabravo - Icecrown"] = "Mirceabravo - Icecrown",
-		["Izanagi - Icecrown"] = "Izanagi - Icecrown",
-		["Flocius - Icecrown"] = "Flocius - Icecrown",
-		["Vhalanor - Icecrown"] = "Vhalanor - Icecrown",
-	},
-	["global"] = {
-		["overlayfont"] = {
-			["fontsize"] = 12,
-		},
+		["Maciucaru - Icecrown"] = "Maciucaru - Icecrown",
+		["Pocaitoru - Icecrown"] = "Pocaitoru - Icecrown",
+		["Rakhnis - Icecrown"] = "Rakhnis - Icecrown",
+		["Inarya - Icecrown"] = "Inarya - Icecrown",
+		["Urgash - Icecrown"] = "Urgash - Icecrown",
+		["Drext - Icecrown"] = "Drext - Icecrown",
+		["Eutanasie - Icecrown"] = "Eutanasie - Icecrown",
 	},
 	["profiles"] = {
 		["Rimgar - Icecrown"] = {
@@ -44,9 +50,9 @@ SimpleUnitFramesDB = {
 		["Praxia - Icecrown"] = {
 			["pet"] = {
 				["rmp"] = "MPpercent",
-				["mmp"] = "MPcurrmax",
-				["rhp"] = "HPpercent",
 				["mhp"] = "HPcurrmax",
+				["rhp"] = "HPpercent",
+				["mmp"] = "MPcurrmax",
 			},
 		},
 		["Nalar - Icecrown"] = {
@@ -55,37 +61,92 @@ SimpleUnitFramesDB = {
 		},
 		["Denathra - Icecrown"] = {
 		},
+		["Vhalanor - Icecrown"] = {
+		},
 		["Flokus - Icecrown"] = {
 		},
-		["Eutanasie - Icecrown"] = {
+		["Flocius - Icecrown"] = {
 		},
 		["Noobschmoq - Icecrown"] = {
-		},
-		["Drext - Icecrown"] = {
 		},
 		["Muiex - Icecrown"] = {
 		},
 		["Sculamare - Icecrown"] = {
 		},
-		["Morridin - Icecrown"] = {
+		["Izanagi - Icecrown"] = {
 		},
-		["Inarya - Icecrown"] = {
+		["Mirceabravo - Icecrown"] = {
 		},
 		["Aevie - Icecrown"] = {
 		},
-		["Urgash - Icecrown"] = {
+		["Morridin - Icecrown"] = {
+			["focustarget"] = {
+				["rmp"] = "MPcurrmax",
+				["mhp"] = "HPpercent",
+				["rhp"] = "HPcurrmax",
+				["mmp"] = "MPpercent",
+			},
+			["targettarget"] = {
+				["rmp"] = "MPcurrmax",
+				["mhp"] = "HPpercent",
+				["rhp"] = "HPcurrmax",
+				["mmp"] = "MPpercent",
+			},
+			["partypet"] = {
+				["mhp"] = "HPcurrmax",
+				["portraitdamage"] = true,
+			},
+			["boss"] = {
+				["lhp"] = "HPpercent",
+				["mhp"] = "HPcurrmax",
+				["lmp"] = "MPpercent",
+				["mmp"] = "MPcurrmax",
+			},
+			["focus"] = {
+				["mhp"] = "HPcomplete",
+				["portraitdamage"] = true,
+				["icon"] = true,
+				["mmp"] = "MPcomplete",
+			},
+			["target"] = {
+				["mhp"] = "HPcomplete",
+				["portraitdamage"] = true,
+				["icon"] = true,
+				["mmp"] = "MPcomplete",
+			},
+			["pet"] = {
+				["rmp"] = "MPcurrmax",
+				["mhp"] = "HPpercent",
+				["rhp"] = "HPcurrmax",
+				["mmp"] = "MPpercent",
+			},
+			["party"] = {
+				["rhp"] = "HPcurrmax",
+				["mmp"] = "MPpercent",
+				["rmp"] = "MPcurrmax",
+				["portraitdamage"] = true,
+				["icon"] = true,
+				["mhp"] = "HPpercent",
+			},
+			["player"] = {
+				["rhp"] = "HPpercent",
+				["mmp"] = "MPcurrmax",
+				["rmp"] = "MPpercent",
+				["icon"] = true,
+				["mhp"] = "HPcurrmax",
+			},
 		},
-		["Rakhnis - Icecrown"] = {
+		["Vrael - Icecrown"] = {
 		},
 		["Ulrezaj - Icecrown"] = {
 		},
-		["Kalaam - Icecrown"] = {
+		["Gligor - Icecrown"] = {
 		},
-		["Pocaitoru - Icecrown"] = {
+		["Kalaam - Icecrown"] = {
 		},
 		["Elgorath - Icecrown"] = {
 		},
-		["Maciucaru - Icecrown"] = {
+		["Pufarin - Icecrown"] = {
 		},
 		["Flocparlit - Icecrown"] = {
 		},
@@ -93,19 +154,19 @@ SimpleUnitFramesDB = {
 		},
 		["Mirceabravo - Blackrock [PvP only]"] = {
 		},
-		["Pufarin - Icecrown"] = {
+		["Maciucaru - Icecrown"] = {
 		},
-		["Gligor - Icecrown"] = {
+		["Pocaitoru - Icecrown"] = {
 		},
-		["Vrael - Icecrown"] = {
+		["Rakhnis - Icecrown"] = {
 		},
-		["Mirceabravo - Icecrown"] = {
+		["Inarya - Icecrown"] = {
 		},
-		["Izanagi - Icecrown"] = {
+		["Urgash - Icecrown"] = {
 		},
-		["Flocius - Icecrown"] = {
+		["Drext - Icecrown"] = {
 		},
-		["Vhalanor - Icecrown"] = {
+		["Eutanasie - Icecrown"] = {
 		},
 	},
 }
