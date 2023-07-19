@@ -97,8 +97,8 @@ BagginsDB = {
 						["type"] = "ItemType",
 					}, -- [1]
 					{
-						["type"] = "Tooltip",
 						["text"] = "ITEM_BIND_QUEST",
+						["type"] = "Tooltip",
 					}, -- [2]
 					["name"] = "Quest",
 				},
@@ -129,11 +129,12 @@ BagginsDB = {
 					}, -- [1]
 					["name"] = "Food",
 				},
-				["Other"] = {
+				["KeyRing"] = {
 					{
-						["type"] = "Other",
+						["bagid"] = -2,
+						["type"] = "Bag",
 					}, -- [1]
-					["name"] = "Other",
+					["name"] = "KeyRing",
 				},
 				["TrashEquip"] = {
 					{
@@ -162,6 +163,91 @@ BagginsDB = {
 						["itype"] = "Quest",
 					}, -- [5]
 					["name"] = "TrashEquip",
+				},
+				["Water"] = {
+					{
+						["setname"] = "Consumable.Water",
+						["type"] = "PTSet",
+					}, -- [1]
+					["name"] = "Water",
+				},
+				["Scrolls"] = {
+					{
+						["setname"] = "Consumable.Scroll",
+						["type"] = "PTSet",
+					}, -- [1]
+					["name"] = "Scrolls",
+				},
+				["SoulBag"] = {
+					{
+						["ctype"] = "Soul Bag",
+						["type"] = "ContainerType",
+					}, -- [1]
+					["name"] = "SoulBag",
+				},
+				["FirstAid"] = {
+					{
+						["setname"] = "Tradeskill.Crafted.First Aid",
+						["type"] = "PTSet",
+					}, -- [1]
+					["name"] = "FirstAid",
+				},
+				["Misc Consumables"] = {
+					{
+						["itype"] = "Consumable",
+						["type"] = "ItemType",
+					}, -- [1]
+					{
+						["operation"] = "NOT",
+						["type"] = "PTSet",
+						["setname"] = "Consumable.Food.Edible",
+					}, -- [2]
+					{
+						["operation"] = "NOT",
+						["type"] = "PTSet",
+						["setname"] = "Consumable.Water",
+					}, -- [3]
+					{
+						["operation"] = "NOT",
+						["type"] = "PTSet",
+						["setname"] = "Consumable.Potion",
+					}, -- [4]
+					{
+						["operation"] = "NOT",
+						["type"] = "PTSet",
+						["setname"] = "Consumable.Scroll",
+					}, -- [5]
+					{
+						["operation"] = "NOT",
+						["type"] = "PTSet",
+						["setname"] = "Consumable.Bandage",
+					}, -- [6]
+					["name"] = "Misc Consumables",
+				},
+				["Trash"] = {
+					{
+						["type"] = "Quality",
+						["comp"] = "<=",
+						["quality"] = 0,
+					}, -- [1]
+					["name"] = "Trash",
+				},
+				["Weapons"] = {
+					{
+						["itype"] = "Weapon",
+						["type"] = "ItemType",
+					}, -- [1]
+					{
+						["type"] = "ItemType",
+						["itype"] = "Armor",
+						["isubtype"] = "Shields",
+					}, -- [2]
+					{
+						["operation"] = "NOT",
+						["type"] = "PTSet",
+						["setname"] = "Tradeskill.Tool",
+					}, -- [3]
+					["name"] = "Weapons",
 				},
 				["BankBags"] = {
 					{
@@ -205,110 +291,24 @@ BagginsDB = {
 					}, -- [8]
 					["name"] = "BankBags",
 				},
-				["Weapons"] = {
+				["Other"] = {
 					{
-						["itype"] = "Weapon",
-						["type"] = "ItemType",
+						["type"] = "Other",
 					}, -- [1]
-					{
-						["type"] = "ItemType",
-						["itype"] = "Armor",
-						["isubtype"] = "Shields",
-					}, -- [2]
-					{
-						["operation"] = "NOT",
-						["type"] = "PTSet",
-						["setname"] = "Tradeskill.Tool",
-					}, -- [3]
-					["name"] = "Weapons",
-				},
-				["SoulBag"] = {
-					{
-						["ctype"] = "Soul Bag",
-						["type"] = "ContainerType",
-					}, -- [1]
-					["name"] = "SoulBag",
-				},
-				["Trash"] = {
-					{
-						["type"] = "Quality",
-						["comp"] = "<=",
-						["quality"] = 0,
-					}, -- [1]
-					["name"] = "Trash",
-				},
-				["Misc Consumables"] = {
-					{
-						["itype"] = "Consumable",
-						["type"] = "ItemType",
-					}, -- [1]
-					{
-						["operation"] = "NOT",
-						["type"] = "PTSet",
-						["setname"] = "Consumable.Food.Edible",
-					}, -- [2]
-					{
-						["operation"] = "NOT",
-						["type"] = "PTSet",
-						["setname"] = "Consumable.Water",
-					}, -- [3]
-					{
-						["operation"] = "NOT",
-						["type"] = "PTSet",
-						["setname"] = "Consumable.Potion",
-					}, -- [4]
-					{
-						["operation"] = "NOT",
-						["type"] = "PTSet",
-						["setname"] = "Consumable.Scroll",
-					}, -- [5]
-					{
-						["operation"] = "NOT",
-						["type"] = "PTSet",
-						["setname"] = "Consumable.Bandage",
-					}, -- [6]
-					["name"] = "Misc Consumables",
-				},
-				["FirstAid"] = {
-					{
-						["setname"] = "Tradeskill.Crafted.First Aid",
-						["type"] = "PTSet",
-					}, -- [1]
-					["name"] = "FirstAid",
-				},
-				["Scrolls"] = {
-					{
-						["setname"] = "Consumable.Scroll",
-						["type"] = "PTSet",
-					}, -- [1]
-					["name"] = "Scrolls",
-				},
-				["Water"] = {
-					{
-						["setname"] = "Consumable.Water",
-						["type"] = "PTSet",
-					}, -- [1]
-					["name"] = "Water",
-				},
-				["KeyRing"] = {
-					{
-						["bagid"] = -2,
-						["type"] = "Bag",
-					}, -- [1]
-					["name"] = "KeyRing",
+					["name"] = "Other",
 				},
 			},
 			["bags"] = {
 				{
-					["openWithAll"] = true,
 					["name"] = "Other",
+					["openWithAll"] = true,
 					["sections"] = {
 						{
-							["name"] = "New",
 							["allowdupes"] = true,
 							["cats"] = {
 								"New", -- [1]
 							},
+							["name"] = "New",
 						}, -- [1]
 						{
 							["name"] = "Other",
@@ -332,8 +332,8 @@ BagginsDB = {
 					},
 				}, -- [1]
 				{
-					["openWithAll"] = true,
 					["name"] = "Equipment",
+					["openWithAll"] = true,
 					["sections"] = {
 						{
 							["name"] = "Armor",
@@ -350,8 +350,8 @@ BagginsDB = {
 					},
 				}, -- [2]
 				{
-					["openWithAll"] = true,
 					["name"] = "Quest",
+					["openWithAll"] = true,
 					["sections"] = {
 						{
 							["name"] = "Quest Items",
@@ -362,8 +362,8 @@ BagginsDB = {
 					},
 				}, -- [3]
 				{
-					["openWithAll"] = true,
 					["name"] = "Consumables",
+					["openWithAll"] = true,
 					["sections"] = {
 						{
 							["name"] = "Water",
@@ -404,8 +404,8 @@ BagginsDB = {
 					},
 				}, -- [4]
 				{
-					["openWithAll"] = true,
 					["name"] = "Trade Goods",
+					["openWithAll"] = true,
 					["sections"] = {
 						{
 							["name"] = "Mats",
@@ -422,8 +422,8 @@ BagginsDB = {
 					},
 				}, -- [5]
 				{
-					["openWithAll"] = true,
 					["name"] = "Ammo",
+					["openWithAll"] = true,
 					["sections"] = {
 						{
 							["name"] = "Ammo",
@@ -440,8 +440,8 @@ BagginsDB = {
 					},
 				}, -- [6]
 				{
-					["openWithAll"] = false,
 					["name"] = "KeyRing",
+					["openWithAll"] = false,
 					["sections"] = {
 						{
 							["name"] = "KeyRing",
@@ -452,9 +452,6 @@ BagginsDB = {
 					},
 				}, -- [7]
 				{
-					["isBank"] = true,
-					["name"] = "Bank Equipment",
-					["openWithAll"] = true,
 					["sections"] = {
 						{
 							["name"] = "Armor",
@@ -469,11 +466,11 @@ BagginsDB = {
 							},
 						}, -- [2]
 					},
+					["openWithAll"] = true,
+					["name"] = "Bank Equipment",
+					["isBank"] = true,
 				}, -- [8]
 				{
-					["isBank"] = true,
-					["name"] = "Bank Quest",
-					["openWithAll"] = true,
 					["sections"] = {
 						{
 							["name"] = "Quest Items",
@@ -482,11 +479,11 @@ BagginsDB = {
 							},
 						}, -- [1]
 					},
+					["openWithAll"] = true,
+					["name"] = "Bank Quest",
+					["isBank"] = true,
 				}, -- [9]
 				{
-					["isBank"] = true,
-					["name"] = "Bank Consumables",
-					["openWithAll"] = true,
 					["sections"] = {
 						{
 							["name"] = "Water",
@@ -525,11 +522,11 @@ BagginsDB = {
 							},
 						}, -- [6]
 					},
+					["openWithAll"] = true,
+					["name"] = "Bank Consumables",
+					["isBank"] = true,
 				}, -- [10]
 				{
-					["isBank"] = true,
-					["name"] = "Bank Trade Goods",
-					["openWithAll"] = true,
 					["sections"] = {
 						{
 							["name"] = "Mats",
@@ -544,11 +541,11 @@ BagginsDB = {
 							},
 						}, -- [2]
 					},
+					["openWithAll"] = true,
+					["name"] = "Bank Trade Goods",
+					["isBank"] = true,
 				}, -- [11]
 				{
-					["isBank"] = true,
-					["name"] = "Bank Other",
-					["openWithAll"] = true,
 					["sections"] = {
 						{
 							["name"] = "Other",
@@ -570,6 +567,9 @@ BagginsDB = {
 							},
 						}, -- [3]
 					},
+					["openWithAll"] = true,
+					["name"] = "Bank Other",
+					["isBank"] = true,
 				}, -- [12]
 			},
 		},
