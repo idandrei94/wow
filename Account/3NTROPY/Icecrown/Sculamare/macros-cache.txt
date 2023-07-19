@@ -66,13 +66,13 @@ MACRO 16777234 "int buff" INV_Misc_QuestionMark
 /cast [nomodifier:ctrl, @player] arcane intellect
 /cast [modifier:ctrl, target=tapatapa] arcane intellect
 END
-MACRO 16777236 "mount" INV_Misc_QuestionMark
-#showtooltip
-/userandom Purple Elekk
-END
 MACRO 16777224 "mount" INV_Misc_QuestionMark
 #showtooltip
 /userandom [flyable] Bronze Drake,Invincible,Vengeful Nether Drake,X-53 Touring Rocket,Wrathful Gladiator's Frost Wyrm;Swift Spectral Tiger,Black Qiraji Battle Tank,Invincible
+END
+MACRO 16777236 "mount" INV_Misc_QuestionMark
+#showtooltip
+/userandom Purple Elekk
 END
 MACRO 16777222 "poly" INV_Misc_QuestionMark
 #showtooltip polymorph
