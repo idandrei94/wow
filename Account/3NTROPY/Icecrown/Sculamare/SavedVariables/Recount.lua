@@ -106,11 +106,11 @@ RecountPerCharDB = {
 				"DAMAGE", -- [48]
 			},
 			["TimeWindows"] = {
-				["HealingTaken"] = {
-					146, -- [1]
-				},
 				["TimeHeal"] = {
 					1.18, -- [1]
+				},
+				["HealingTaken"] = {
+					146, -- [1]
 				},
 				["HOT_Time"] = {
 					6, -- [1]
@@ -153,26 +153,1022 @@ RecountPerCharDB = {
 				[25] = 13.59404096834265,
 				[26] = 13.59404096834265,
 				[27] = 4.84171322160149,
-				[40] = 4.84171322160149,
-				[34] = 5.400372439478585,
 				[4] = 8.938547486033519,
+				[34] = 5.400372439478585,
+				[40] = 4.84171322160149,
 			},
 			["type"] = "Self",
 			["FightsSaved"] = 2,
-			["LastDamageTaken"] = 25,
-			["TimeLast"] = {
-				["TimeHeal"] = 1689755544,
-				["OVERALL"] = 1689755631,
-				["DamageTaken"] = 1689755629,
-				["HealingTaken"] = 1689755544,
-				["HOT_Time"] = 1689755544,
-				["TimeDamage"] = 1689755631,
-				["Healing"] = 1689755544,
-				["ActiveTime"] = 1689755631,
-				["Damage"] = 1689755631,
-			},
+			["LastActive"] = 1689755631,
+			["UnitLockout"] = 1689755525,
 			["Owner"] = false,
-			["LastAbility"] = 7517.555,
+			["Fights"] = {
+				["Fight2"] = {
+					["TimeHealing"] = {
+						["Sculamare"] = {
+							["Details"] = {
+								["Gift of the Naaru"] = {
+									["count"] = 1.18,
+								},
+							},
+							["amount"] = 1.18,
+						},
+					},
+					["TimeSpent"] = {
+						["Wildthorn Stalker"] = {
+							["Details"] = {
+								["Shoot"] = {
+									["count"] = 10.68,
+								},
+								["Blizzard"] = {
+									["count"] = 11.34,
+								},
+								["Fire Blast"] = {
+									["count"] = 0.39,
+								},
+							},
+							["amount"] = 22.41,
+						},
+						["Sculamare"] = {
+							["Details"] = {
+								["Gift of the Naaru"] = {
+									["count"] = 1.18,
+								},
+							},
+							["amount"] = 1.18,
+						},
+					},
+					["DamageTaken"] = 185,
+					["PartialResist"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 7,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 7,
+							["amount"] = 0,
+						},
+					},
+					["PartialAbsorb"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 7,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 7,
+							["amount"] = 0,
+						},
+					},
+					["ActiveTime"] = 23.59,
+					["ElementTaken"] = {
+						["Melee"] = 185,
+					},
+					["HOTs"] = {
+						["Gift of the Naaru"] = {
+							["Details"] = {
+								["Sculamare"] = {
+									["count"] = 6,
+								},
+							},
+							["amount"] = 6,
+						},
+					},
+					["Damage"] = 539,
+					["TimeHeal"] = 1.18,
+					["ElementHitsDone"] = {
+						["Frost"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 7,
+								},
+							},
+							["amount"] = 7,
+						},
+						["Fire"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 1,
+						},
+						["Arcane"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 6,
+								},
+							},
+							["amount"] = 6,
+						},
+					},
+					["WhoDamaged"] = {
+						["Wildthorn Stalker"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 185,
+								},
+							},
+							["amount"] = 185,
+						},
+					},
+					["Attacks"] = {
+						["Shoot"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 39,
+									["min"] = 24,
+									["count"] = 6,
+									["amount"] = 194,
+								},
+							},
+							["count"] = 6,
+							["amount"] = 194,
+						},
+						["Blizzard"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 39,
+									["min"] = 38,
+									["count"] = 7,
+									["amount"] = 269,
+								},
+							},
+							["count"] = 7,
+							["amount"] = 269,
+						},
+						["Fire Blast"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 76,
+									["min"] = 76,
+									["count"] = 1,
+									["amount"] = 76,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 76,
+						},
+					},
+					["Healing"] = 146,
+					["Heals"] = {
+						["Gift of the Naaru"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 73,
+									["min"] = 73,
+									["count"] = 2,
+									["amount"] = 146,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 146,
+						},
+					},
+					["HOT_Time"] = 6,
+					["ElementDone"] = {
+						["Frost"] = 269,
+						["Fire"] = 76,
+						["Arcane"] = 194,
+					},
+					["HealingTaken"] = 146,
+					["DamagedWho"] = {
+						["Wildthorn Stalker"] = {
+							["Details"] = {
+								["Shoot"] = {
+									["count"] = 194,
+								},
+								["Blizzard"] = {
+									["count"] = 269,
+								},
+								["Fire Blast"] = {
+									["count"] = 76,
+								},
+							},
+							["amount"] = 539,
+						},
+					},
+					["TimeDamage"] = 22.41,
+					["TimeDamaging"] = {
+						["Wildthorn Stalker"] = {
+							["Details"] = {
+								["Shoot"] = {
+									["count"] = 10.68,
+								},
+								["Blizzard"] = {
+									["count"] = 11.34,
+								},
+								["Fire Blast"] = {
+									["count"] = 0.39,
+								},
+							},
+							["amount"] = 22.41,
+						},
+					},
+					["HealedWho"] = {
+						["Sculamare"] = {
+							["Details"] = {
+								["Gift of the Naaru"] = {
+									["count"] = 146,
+								},
+							},
+							["amount"] = 146,
+						},
+					},
+					["ElementHitsTaken"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 5,
+								},
+								["Crit"] = {
+									["count"] = 1,
+								},
+								["Miss"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 7,
+						},
+					},
+					["WhoHealed"] = {
+						["Sculamare"] = {
+							["Details"] = {
+								["Gift of the Naaru"] = {
+									["count"] = 146,
+								},
+							},
+							["amount"] = 146,
+						},
+					},
+				},
+				["CurrentFightData"] = {
+					["DOTs"] = {
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 0,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["HOTs"] = {
+					},
+					["ManaGain"] = 0,
+					["ElementTaken"] = {
+					},
+					["DOT_Time"] = 0,
+					["Damage"] = 0,
+					["ElementDoneAbsorb"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["PartialAbsorb"] = {
+					},
+					["RageGain"] = 0,
+					["FAttacks"] = {
+					},
+					["PartialBlock"] = {
+					},
+					["ElementDone"] = {
+					},
+					["CCBroken"] = {
+					},
+					["ElementHitsDone"] = {
+					},
+					["Dispelled"] = 0,
+					["WhoDamaged"] = {
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["FDamagedWho"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+					},
+					["OverHeals"] = {
+					},
+					["RageGained"] = {
+					},
+					["ActiveTime"] = 0,
+					["CCBreak"] = 0,
+					["EnergyGain"] = 0,
+					["WhoHealed"] = {
+					},
+					["PartialResist"] = {
+					},
+					["ManaGained"] = {
+					},
+					["ElementTakenAbsorb"] = {
+					},
+					["Interrupts"] = 0,
+					["Overhealing"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["InterruptData"] = {
+					},
+					["WhoDispelled"] = {
+					},
+					["TimeSpent"] = {
+					},
+					["Heals"] = {
+					},
+					["FDamage"] = 0,
+					["EnergyGained"] = {
+					},
+					["HealedWho"] = {
+					},
+					["Healing"] = 0,
+					["RunicPowerGained"] = {
+					},
+					["ManaGainedFrom"] = {
+					},
+					["Attacks"] = {
+					},
+					["HealingTaken"] = 0,
+					["DamagedWho"] = {
+					},
+					["TimeDamage"] = 0,
+					["TimeDamaging"] = {
+					},
+					["RunicPowerGain"] = 0,
+					["ElementTakenBlock"] = {
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["LastFightData"] = {
+					["DOTs"] = {
+					},
+					["ElementDoneResist"] = {
+						["Frost"] = 11,
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 216,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 8,
+								},
+							},
+							["amount"] = 8,
+						},
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["HOTs"] = {
+					},
+					["ManaGain"] = 0,
+					["ElementTaken"] = {
+						["Melee"] = 216,
+					},
+					["DOT_Time"] = 0,
+					["Damage"] = 547,
+					["ElementDoneAbsorb"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["PartialAbsorb"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 8,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 8,
+							["amount"] = 0,
+						},
+					},
+					["RageGain"] = 0,
+					["FAttacks"] = {
+					},
+					["PartialBlock"] = {
+					},
+					["ElementDone"] = {
+						["Frost"] = 547,
+					},
+					["CCBroken"] = {
+					},
+					["ElementHitsDone"] = {
+						["Frost"] = {
+							["Details"] = {
+								["Crit"] = {
+									["count"] = 1,
+								},
+								["Hit"] = {
+									["count"] = 13,
+								},
+							},
+							["amount"] = 14,
+						},
+					},
+					["Dispelled"] = 0,
+					["WhoDamaged"] = {
+						["Wildthorn Stalker"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 216,
+								},
+							},
+							["amount"] = 216,
+						},
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["FDamagedWho"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+					},
+					["OverHeals"] = {
+					},
+					["RageGained"] = {
+					},
+					["ActiveTime"] = 20,
+					["CCBreak"] = 0,
+					["EnergyGain"] = 0,
+					["WhoHealed"] = {
+					},
+					["PartialResist"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 8,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 8,
+							["amount"] = 0,
+						},
+					},
+					["ManaGained"] = {
+					},
+					["ElementTakenAbsorb"] = {
+					},
+					["Interrupts"] = 0,
+					["Overhealing"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["InterruptData"] = {
+					},
+					["WhoDispelled"] = {
+					},
+					["TimeSpent"] = {
+						["Wildthorn Stalker"] = {
+							["Details"] = {
+								["Blizzard"] = {
+									["count"] = 20,
+								},
+							},
+							["amount"] = 20,
+						},
+					},
+					["Heals"] = {
+					},
+					["FDamage"] = 0,
+					["EnergyGained"] = {
+					},
+					["HealedWho"] = {
+					},
+					["Healing"] = 0,
+					["RunicPowerGained"] = {
+					},
+					["ManaGainedFrom"] = {
+					},
+					["Attacks"] = {
+						["Blizzard"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 53,
+									["min"] = 53,
+									["count"] = 1,
+									["amount"] = 53,
+								},
+								["Hit"] = {
+									["max"] = 39,
+									["min"] = 35,
+									["count"] = 13,
+									["amount"] = 494,
+								},
+							},
+							["count"] = 14,
+							["amount"] = 547,
+						},
+					},
+					["HealingTaken"] = 0,
+					["DamagedWho"] = {
+						["Wildthorn Stalker"] = {
+							["Details"] = {
+								["Blizzard"] = {
+									["count"] = 547,
+								},
+							},
+							["amount"] = 547,
+						},
+					},
+					["TimeDamage"] = 20,
+					["TimeDamaging"] = {
+						["Wildthorn Stalker"] = {
+							["Details"] = {
+								["Blizzard"] = {
+									["count"] = 20,
+								},
+							},
+							["amount"] = 20,
+						},
+					},
+					["RunicPowerGain"] = 0,
+					["ElementTakenBlock"] = {
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["OverallData"] = {
+					["TimeHealing"] = {
+						["Sculamare"] = {
+							["Details"] = {
+								["Gift of the Naaru"] = {
+									["count"] = 1.18,
+								},
+							},
+							["amount"] = 1.18,
+						},
+					},
+					["ElementDoneResist"] = {
+						["Frost"] = 11,
+					},
+					["TimeSpent"] = {
+						["Wildthorn Stalker"] = {
+							["Details"] = {
+								["Shoot"] = {
+									["count"] = 10.68,
+								},
+								["Blizzard"] = {
+									["count"] = 31.34,
+								},
+								["Fire Blast"] = {
+									["count"] = 0.39,
+								},
+							},
+							["amount"] = 42.41,
+						},
+						["Sculamare"] = {
+							["Details"] = {
+								["Gift of the Naaru"] = {
+									["count"] = 1.18,
+								},
+							},
+							["amount"] = 1.18,
+						},
+					},
+					["DamageTaken"] = 401,
+					["PartialResist"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 15,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 15,
+							["amount"] = 0,
+						},
+					},
+					["PartialAbsorb"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 15,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 15,
+							["amount"] = 0,
+						},
+					},
+					["ActiveTime"] = 43.59,
+					["ElementTaken"] = {
+						["Melee"] = 401,
+					},
+					["HOTs"] = {
+						["Gift of the Naaru"] = {
+							["Details"] = {
+								["Sculamare"] = {
+									["count"] = 6,
+								},
+							},
+							["amount"] = 6,
+						},
+					},
+					["Damage"] = 1086,
+					["TimeHeal"] = 1.18,
+					["ElementHitsDone"] = {
+						["Frost"] = {
+							["Details"] = {
+								["Crit"] = {
+									["count"] = 1,
+								},
+								["Hit"] = {
+									["count"] = 20,
+								},
+							},
+							["amount"] = 21,
+						},
+						["Fire"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 1,
+						},
+						["Arcane"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 6,
+								},
+							},
+							["amount"] = 6,
+						},
+					},
+					["WhoDamaged"] = {
+						["Wildthorn Stalker"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 401,
+								},
+							},
+							["amount"] = 401,
+						},
+					},
+					["Attacks"] = {
+						["Shoot"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 39,
+									["min"] = 24,
+									["count"] = 6,
+									["amount"] = 194,
+								},
+							},
+							["count"] = 6,
+							["amount"] = 194,
+						},
+						["Blizzard"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 53,
+									["min"] = 53,
+									["count"] = 1,
+									["amount"] = 53,
+								},
+								["Hit"] = {
+									["max"] = 39,
+									["min"] = 35,
+									["count"] = 20,
+									["amount"] = 763,
+								},
+							},
+							["count"] = 21,
+							["amount"] = 816,
+						},
+						["Fire Blast"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 76,
+									["min"] = 76,
+									["count"] = 1,
+									["amount"] = 76,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 76,
+						},
+					},
+					["Healing"] = 146,
+					["Heals"] = {
+						["Gift of the Naaru"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 73,
+									["min"] = 73,
+									["count"] = 2,
+									["amount"] = 146,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 146,
+						},
+					},
+					["HOT_Time"] = 6,
+					["ElementDone"] = {
+						["Frost"] = 816,
+						["Fire"] = 76,
+						["Arcane"] = 194,
+					},
+					["HealingTaken"] = 146,
+					["DamagedWho"] = {
+						["Wildthorn Stalker"] = {
+							["Details"] = {
+								["Shoot"] = {
+									["count"] = 194,
+								},
+								["Blizzard"] = {
+									["count"] = 816,
+								},
+								["Fire Blast"] = {
+									["count"] = 76,
+								},
+							},
+							["amount"] = 1086,
+						},
+					},
+					["TimeDamage"] = 42.41,
+					["TimeDamaging"] = {
+						["Wildthorn Stalker"] = {
+							["Details"] = {
+								["Shoot"] = {
+									["count"] = 10.68,
+								},
+								["Blizzard"] = {
+									["count"] = 31.34,
+								},
+								["Fire Blast"] = {
+									["count"] = 0.39,
+								},
+							},
+							["amount"] = 42.41,
+						},
+					},
+					["HealedWho"] = {
+						["Sculamare"] = {
+							["Details"] = {
+								["Gift of the Naaru"] = {
+									["count"] = 146,
+								},
+							},
+							["amount"] = 146,
+						},
+					},
+					["ElementHitsTaken"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 13,
+								},
+								["Crit"] = {
+									["count"] = 1,
+								},
+								["Miss"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 15,
+						},
+					},
+					["WhoHealed"] = {
+						["Sculamare"] = {
+							["Details"] = {
+								["Gift of the Naaru"] = {
+									["count"] = 146,
+								},
+							},
+							["amount"] = 146,
+						},
+					},
+				},
+				["Fight1"] = {
+					["DOTs"] = {
+					},
+					["ElementDoneResist"] = {
+						["Frost"] = 11,
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 216,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 8,
+								},
+							},
+							["amount"] = 8,
+						},
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["HOTs"] = {
+					},
+					["ManaGain"] = 0,
+					["ElementTaken"] = {
+						["Melee"] = 216,
+					},
+					["DOT_Time"] = 0,
+					["Damage"] = 547,
+					["ElementDoneAbsorb"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["PartialAbsorb"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 8,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 8,
+							["amount"] = 0,
+						},
+					},
+					["RageGain"] = 0,
+					["FAttacks"] = {
+					},
+					["PartialBlock"] = {
+					},
+					["ElementDone"] = {
+						["Frost"] = 547,
+					},
+					["CCBroken"] = {
+					},
+					["ElementHitsDone"] = {
+						["Frost"] = {
+							["Details"] = {
+								["Crit"] = {
+									["count"] = 1,
+								},
+								["Hit"] = {
+									["count"] = 13,
+								},
+							},
+							["amount"] = 14,
+						},
+					},
+					["Dispelled"] = 0,
+					["WhoDamaged"] = {
+						["Wildthorn Stalker"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 216,
+								},
+							},
+							["amount"] = 216,
+						},
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["FDamagedWho"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+					},
+					["OverHeals"] = {
+					},
+					["RageGained"] = {
+					},
+					["ActiveTime"] = 20,
+					["CCBreak"] = 0,
+					["EnergyGain"] = 0,
+					["WhoHealed"] = {
+					},
+					["PartialResist"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 8,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 8,
+							["amount"] = 0,
+						},
+					},
+					["ManaGained"] = {
+					},
+					["ElementTakenAbsorb"] = {
+					},
+					["Interrupts"] = 0,
+					["Overhealing"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["InterruptData"] = {
+					},
+					["WhoDispelled"] = {
+					},
+					["TimeSpent"] = {
+						["Wildthorn Stalker"] = {
+							["Details"] = {
+								["Blizzard"] = {
+									["count"] = 20,
+								},
+							},
+							["amount"] = 20,
+						},
+					},
+					["Heals"] = {
+					},
+					["FDamage"] = 0,
+					["EnergyGained"] = {
+					},
+					["HealedWho"] = {
+					},
+					["Healing"] = 0,
+					["RunicPowerGained"] = {
+					},
+					["ManaGainedFrom"] = {
+					},
+					["Attacks"] = {
+						["Blizzard"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 53,
+									["min"] = 53,
+									["count"] = 1,
+									["amount"] = 53,
+								},
+								["Hit"] = {
+									["max"] = 39,
+									["min"] = 35,
+									["count"] = 13,
+									["amount"] = 494,
+								},
+							},
+							["count"] = 14,
+							["amount"] = 547,
+						},
+					},
+					["HealingTaken"] = 0,
+					["DamagedWho"] = {
+						["Wildthorn Stalker"] = {
+							["Details"] = {
+								["Blizzard"] = {
+									["count"] = 547,
+								},
+							},
+							["amount"] = 547,
+						},
+					},
+					["TimeDamage"] = 20,
+					["TimeDamaging"] = {
+						["Wildthorn Stalker"] = {
+							["Details"] = {
+								["Blizzard"] = {
+									["count"] = 20,
+								},
+							},
+							["amount"] = 20,
+						},
+					},
+					["RunicPowerGain"] = 0,
+					["ElementTakenBlock"] = {
+					},
+					["DispelledWho"] = {
+					},
+				},
+			},
 			["NextEventNum"] = 49,
 			["LastEventHealthNum"] = {
 				100, -- [1]
@@ -275,6 +1271,17 @@ RecountPerCharDB = {
 				"Sculamare Blizzard Wildthorn Stalker Hit -39 (Frost)", -- [48]
 			},
 			["Name"] = "Sculamare",
+			["TimeLast"] = {
+				["TimeHeal"] = 1689755544,
+				["OVERALL"] = 1689755631,
+				["DamageTaken"] = 1689755629,
+				["HealingTaken"] = 1689755544,
+				["HOT_Time"] = 1689755544,
+				["TimeDamage"] = 1689755631,
+				["Healing"] = 1689755544,
+				["ActiveTime"] = 1689755631,
+				["Damage"] = 1689755631,
+			},
 			["LastEventIncoming"] = {
 				false, -- [1]
 				false, -- [2]
@@ -325,6 +1332,7 @@ RecountPerCharDB = {
 				false, -- [47]
 				false, -- [48]
 			},
+			["LastDamageTaken"] = 25,
 			["LastEventTimes"] = {
 				7412.113, -- [1]
 				7413.121, -- [2]
@@ -375,1015 +1383,7 @@ RecountPerCharDB = {
 				7516.579, -- [47]
 				7517.555, -- [48]
 			},
-			["Fights"] = {
-				["Fight2"] = {
-					["TimeHealing"] = {
-						["Sculamare"] = {
-							["Details"] = {
-								["Gift of the Naaru"] = {
-									["count"] = 1.18,
-								},
-							},
-							["amount"] = 1.18,
-						},
-					},
-					["TimeSpent"] = {
-						["Wildthorn Stalker"] = {
-							["Details"] = {
-								["Shoot"] = {
-									["count"] = 10.68,
-								},
-								["Blizzard"] = {
-									["count"] = 11.34,
-								},
-								["Fire Blast"] = {
-									["count"] = 0.39,
-								},
-							},
-							["amount"] = 22.41,
-						},
-						["Sculamare"] = {
-							["Details"] = {
-								["Gift of the Naaru"] = {
-									["count"] = 1.18,
-								},
-							},
-							["amount"] = 1.18,
-						},
-					},
-					["DamageTaken"] = 185,
-					["PartialResist"] = {
-						["Melee"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 7,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 7,
-							["amount"] = 0,
-						},
-					},
-					["PartialAbsorb"] = {
-						["Melee"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 7,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 7,
-							["amount"] = 0,
-						},
-					},
-					["ActiveTime"] = 23.59,
-					["ElementTaken"] = {
-						["Melee"] = 185,
-					},
-					["HOTs"] = {
-						["Gift of the Naaru"] = {
-							["Details"] = {
-								["Sculamare"] = {
-									["count"] = 6,
-								},
-							},
-							["amount"] = 6,
-						},
-					},
-					["Damage"] = 539,
-					["TimeHeal"] = 1.18,
-					["WhoHealed"] = {
-						["Sculamare"] = {
-							["Details"] = {
-								["Gift of the Naaru"] = {
-									["count"] = 146,
-								},
-							},
-							["amount"] = 146,
-						},
-					},
-					["ElementHitsTaken"] = {
-						["Melee"] = {
-							["Details"] = {
-								["Miss"] = {
-									["count"] = 1,
-								},
-								["Crit"] = {
-									["count"] = 1,
-								},
-								["Hit"] = {
-									["count"] = 5,
-								},
-							},
-							["amount"] = 7,
-						},
-					},
-					["HealedWho"] = {
-						["Sculamare"] = {
-							["Details"] = {
-								["Gift of the Naaru"] = {
-									["count"] = 146,
-								},
-							},
-							["amount"] = 146,
-						},
-					},
-					["Healing"] = 146,
-					["Heals"] = {
-						["Gift of the Naaru"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 73,
-									["min"] = 73,
-									["count"] = 2,
-									["amount"] = 146,
-								},
-							},
-							["count"] = 2,
-							["amount"] = 146,
-						},
-					},
-					["HOT_Time"] = 6,
-					["ElementDone"] = {
-						["Frost"] = 269,
-						["Fire"] = 76,
-						["Arcane"] = 194,
-					},
-					["HealingTaken"] = 146,
-					["DamagedWho"] = {
-						["Wildthorn Stalker"] = {
-							["Details"] = {
-								["Shoot"] = {
-									["count"] = 194,
-								},
-								["Blizzard"] = {
-									["count"] = 269,
-								},
-								["Fire Blast"] = {
-									["count"] = 76,
-								},
-							},
-							["amount"] = 539,
-						},
-					},
-					["TimeDamage"] = 22.41,
-					["TimeDamaging"] = {
-						["Wildthorn Stalker"] = {
-							["Details"] = {
-								["Shoot"] = {
-									["count"] = 10.68,
-								},
-								["Blizzard"] = {
-									["count"] = 11.34,
-								},
-								["Fire Blast"] = {
-									["count"] = 0.39,
-								},
-							},
-							["amount"] = 22.41,
-						},
-					},
-					["Attacks"] = {
-						["Shoot"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 39,
-									["min"] = 24,
-									["count"] = 6,
-									["amount"] = 194,
-								},
-							},
-							["count"] = 6,
-							["amount"] = 194,
-						},
-						["Blizzard"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 39,
-									["min"] = 38,
-									["count"] = 7,
-									["amount"] = 269,
-								},
-							},
-							["count"] = 7,
-							["amount"] = 269,
-						},
-						["Fire Blast"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 76,
-									["min"] = 76,
-									["count"] = 1,
-									["amount"] = 76,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 76,
-						},
-					},
-					["WhoDamaged"] = {
-						["Wildthorn Stalker"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 185,
-								},
-							},
-							["amount"] = 185,
-						},
-					},
-					["ElementHitsDone"] = {
-						["Frost"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 7,
-								},
-							},
-							["amount"] = 7,
-						},
-						["Fire"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 1,
-								},
-							},
-							["amount"] = 1,
-						},
-						["Arcane"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 6,
-								},
-							},
-							["amount"] = 6,
-						},
-					},
-				},
-				["CurrentFightData"] = {
-					["DOTs"] = {
-					},
-					["ElementDoneResist"] = {
-					},
-					["Ressed"] = 0,
-					["DamageTaken"] = 0,
-					["RageGainedFrom"] = {
-					},
-					["ElementHitsTaken"] = {
-					},
-					["DeathCount"] = 0,
-					["HOT_Time"] = 0,
-					["ElementHitsDone"] = {
-					},
-					["ElementTakenAbsorb"] = {
-					},
-					["ElementTaken"] = {
-					},
-					["DOT_Time"] = 0,
-					["Damage"] = 0,
-					["ElementTakenBlock"] = {
-					},
-					["TimeHeal"] = 0,
-					["RessedWho"] = {
-					},
-					["Dispels"] = 0,
-					["ElementTakenResist"] = {
-					},
-					["ElementDoneAbsorb"] = {
-					},
-					["FAttacks"] = {
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementDone"] = {
-					},
-					["PartialAbsorb"] = {
-					},
-					["DamagedWho"] = {
-					},
-					["PartialBlock"] = {
-					},
-					["WhoDamaged"] = {
-					},
-					["EnergyGainedFrom"] = {
-					},
-					["PartialResist"] = {
-					},
-					["CCBroken"] = {
-					},
-					["ElementDoneBlock"] = {
-					},
-					["TimeHealing"] = {
-					},
-					["OverHeals"] = {
-					},
-					["ManaGainedFrom"] = {
-					},
-					["RunicPowerGained"] = {
-					},
-					["CCBreak"] = 0,
-					["RageGained"] = {
-					},
-					["HealedWho"] = {
-					},
-					["EnergyGain"] = 0,
-					["ManaGained"] = {
-					},
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
-					["Overhealing"] = 0,
-					["TimeSpent"] = {
-					},
-					["WhoDispelled"] = {
-					},
-					["InterruptData"] = {
-					},
-					["RunicPowerGain"] = 0,
-					["Heals"] = {
-					},
-					["WhoHealed"] = {
-					},
-					["EnergyGained"] = {
-					},
-					["ActiveTime"] = 0,
-					["Healing"] = 0,
-					["FDamagedWho"] = {
-					},
-					["Dispelled"] = 0,
-					["Attacks"] = {
-					},
-					["HealingTaken"] = 0,
-					["RageGain"] = 0,
-					["TimeDamage"] = 0,
-					["TimeDamaging"] = {
-					},
-					["ManaGain"] = 0,
-					["HOTs"] = {
-					},
-					["DispelledWho"] = {
-					},
-				},
-				["LastFightData"] = {
-					["DOTs"] = {
-					},
-					["ElementDoneResist"] = {
-						["Frost"] = 11,
-					},
-					["Ressed"] = 0,
-					["DamageTaken"] = 216,
-					["RageGainedFrom"] = {
-					},
-					["ElementHitsTaken"] = {
-						["Melee"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 8,
-								},
-							},
-							["amount"] = 8,
-						},
-					},
-					["DeathCount"] = 0,
-					["HOT_Time"] = 0,
-					["ElementHitsDone"] = {
-						["Frost"] = {
-							["Details"] = {
-								["Crit"] = {
-									["count"] = 1,
-								},
-								["Hit"] = {
-									["count"] = 13,
-								},
-							},
-							["amount"] = 14,
-						},
-					},
-					["ElementTakenAbsorb"] = {
-					},
-					["ElementTaken"] = {
-						["Melee"] = 216,
-					},
-					["DOT_Time"] = 0,
-					["Damage"] = 547,
-					["ElementTakenBlock"] = {
-					},
-					["TimeHeal"] = 0,
-					["RessedWho"] = {
-					},
-					["Dispels"] = 0,
-					["ElementTakenResist"] = {
-					},
-					["ElementDoneAbsorb"] = {
-					},
-					["FAttacks"] = {
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementDone"] = {
-						["Frost"] = 547,
-					},
-					["PartialAbsorb"] = {
-						["Melee"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 8,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 8,
-							["amount"] = 0,
-						},
-					},
-					["DamagedWho"] = {
-						["Wildthorn Stalker"] = {
-							["Details"] = {
-								["Blizzard"] = {
-									["count"] = 547,
-								},
-							},
-							["amount"] = 547,
-						},
-					},
-					["PartialBlock"] = {
-					},
-					["WhoDamaged"] = {
-						["Wildthorn Stalker"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 216,
-								},
-							},
-							["amount"] = 216,
-						},
-					},
-					["EnergyGainedFrom"] = {
-					},
-					["PartialResist"] = {
-						["Melee"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 8,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 8,
-							["amount"] = 0,
-						},
-					},
-					["CCBroken"] = {
-					},
-					["ElementDoneBlock"] = {
-					},
-					["TimeHealing"] = {
-					},
-					["OverHeals"] = {
-					},
-					["ManaGainedFrom"] = {
-					},
-					["RunicPowerGained"] = {
-					},
-					["CCBreak"] = 0,
-					["RageGained"] = {
-					},
-					["HealedWho"] = {
-					},
-					["EnergyGain"] = 0,
-					["ManaGained"] = {
-					},
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
-					["Overhealing"] = 0,
-					["TimeSpent"] = {
-						["Wildthorn Stalker"] = {
-							["Details"] = {
-								["Blizzard"] = {
-									["count"] = 20,
-								},
-							},
-							["amount"] = 20,
-						},
-					},
-					["WhoDispelled"] = {
-					},
-					["InterruptData"] = {
-					},
-					["RunicPowerGain"] = 0,
-					["Heals"] = {
-					},
-					["WhoHealed"] = {
-					},
-					["EnergyGained"] = {
-					},
-					["ActiveTime"] = 20,
-					["Healing"] = 0,
-					["FDamagedWho"] = {
-					},
-					["Dispelled"] = 0,
-					["Attacks"] = {
-						["Blizzard"] = {
-							["Details"] = {
-								["Crit"] = {
-									["max"] = 53,
-									["min"] = 53,
-									["count"] = 1,
-									["amount"] = 53,
-								},
-								["Hit"] = {
-									["max"] = 39,
-									["min"] = 35,
-									["count"] = 13,
-									["amount"] = 494,
-								},
-							},
-							["count"] = 14,
-							["amount"] = 547,
-						},
-					},
-					["HealingTaken"] = 0,
-					["RageGain"] = 0,
-					["TimeDamage"] = 20,
-					["TimeDamaging"] = {
-						["Wildthorn Stalker"] = {
-							["Details"] = {
-								["Blizzard"] = {
-									["count"] = 20,
-								},
-							},
-							["amount"] = 20,
-						},
-					},
-					["ManaGain"] = 0,
-					["HOTs"] = {
-					},
-					["DispelledWho"] = {
-					},
-				},
-				["Fight1"] = {
-					["DOTs"] = {
-					},
-					["ElementDoneResist"] = {
-						["Frost"] = 11,
-					},
-					["Ressed"] = 0,
-					["DamageTaken"] = 216,
-					["RageGainedFrom"] = {
-					},
-					["ElementHitsTaken"] = {
-						["Melee"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 8,
-								},
-							},
-							["amount"] = 8,
-						},
-					},
-					["DeathCount"] = 0,
-					["HOT_Time"] = 0,
-					["ElementHitsDone"] = {
-						["Frost"] = {
-							["Details"] = {
-								["Crit"] = {
-									["count"] = 1,
-								},
-								["Hit"] = {
-									["count"] = 13,
-								},
-							},
-							["amount"] = 14,
-						},
-					},
-					["ElementTakenAbsorb"] = {
-					},
-					["ElementTaken"] = {
-						["Melee"] = 216,
-					},
-					["DOT_Time"] = 0,
-					["Damage"] = 547,
-					["ElementTakenBlock"] = {
-					},
-					["TimeHeal"] = 0,
-					["RessedWho"] = {
-					},
-					["Dispels"] = 0,
-					["ElementTakenResist"] = {
-					},
-					["ElementDoneAbsorb"] = {
-					},
-					["FAttacks"] = {
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementDone"] = {
-						["Frost"] = 547,
-					},
-					["PartialAbsorb"] = {
-						["Melee"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 8,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 8,
-							["amount"] = 0,
-						},
-					},
-					["DamagedWho"] = {
-						["Wildthorn Stalker"] = {
-							["Details"] = {
-								["Blizzard"] = {
-									["count"] = 547,
-								},
-							},
-							["amount"] = 547,
-						},
-					},
-					["PartialBlock"] = {
-					},
-					["WhoDamaged"] = {
-						["Wildthorn Stalker"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 216,
-								},
-							},
-							["amount"] = 216,
-						},
-					},
-					["EnergyGainedFrom"] = {
-					},
-					["PartialResist"] = {
-						["Melee"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 8,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 8,
-							["amount"] = 0,
-						},
-					},
-					["CCBroken"] = {
-					},
-					["ElementDoneBlock"] = {
-					},
-					["TimeHealing"] = {
-					},
-					["OverHeals"] = {
-					},
-					["ManaGainedFrom"] = {
-					},
-					["RunicPowerGained"] = {
-					},
-					["CCBreak"] = 0,
-					["RageGained"] = {
-					},
-					["HealedWho"] = {
-					},
-					["EnergyGain"] = 0,
-					["ManaGained"] = {
-					},
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
-					["Overhealing"] = 0,
-					["TimeSpent"] = {
-						["Wildthorn Stalker"] = {
-							["Details"] = {
-								["Blizzard"] = {
-									["count"] = 20,
-								},
-							},
-							["amount"] = 20,
-						},
-					},
-					["WhoDispelled"] = {
-					},
-					["InterruptData"] = {
-					},
-					["RunicPowerGain"] = 0,
-					["Heals"] = {
-					},
-					["WhoHealed"] = {
-					},
-					["EnergyGained"] = {
-					},
-					["ActiveTime"] = 20,
-					["Healing"] = 0,
-					["FDamagedWho"] = {
-					},
-					["Dispelled"] = 0,
-					["Attacks"] = {
-						["Blizzard"] = {
-							["Details"] = {
-								["Crit"] = {
-									["max"] = 53,
-									["min"] = 53,
-									["count"] = 1,
-									["amount"] = 53,
-								},
-								["Hit"] = {
-									["max"] = 39,
-									["min"] = 35,
-									["count"] = 13,
-									["amount"] = 494,
-								},
-							},
-							["count"] = 14,
-							["amount"] = 547,
-						},
-					},
-					["HealingTaken"] = 0,
-					["RageGain"] = 0,
-					["TimeDamage"] = 20,
-					["TimeDamaging"] = {
-						["Wildthorn Stalker"] = {
-							["Details"] = {
-								["Blizzard"] = {
-									["count"] = 20,
-								},
-							},
-							["amount"] = 20,
-						},
-					},
-					["ManaGain"] = 0,
-					["HOTs"] = {
-					},
-					["DispelledWho"] = {
-					},
-				},
-				["OverallData"] = {
-					["TimeHealing"] = {
-						["Sculamare"] = {
-							["Details"] = {
-								["Gift of the Naaru"] = {
-									["count"] = 1.18,
-								},
-							},
-							["amount"] = 1.18,
-						},
-					},
-					["ElementDoneResist"] = {
-						["Frost"] = 11,
-					},
-					["TimeSpent"] = {
-						["Wildthorn Stalker"] = {
-							["Details"] = {
-								["Shoot"] = {
-									["count"] = 10.68,
-								},
-								["Blizzard"] = {
-									["count"] = 31.34,
-								},
-								["Fire Blast"] = {
-									["count"] = 0.39,
-								},
-							},
-							["amount"] = 42.41,
-						},
-						["Sculamare"] = {
-							["Details"] = {
-								["Gift of the Naaru"] = {
-									["count"] = 1.18,
-								},
-							},
-							["amount"] = 1.18,
-						},
-					},
-					["DamageTaken"] = 401,
-					["PartialResist"] = {
-						["Melee"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 15,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 15,
-							["amount"] = 0,
-						},
-					},
-					["PartialAbsorb"] = {
-						["Melee"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 15,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 15,
-							["amount"] = 0,
-						},
-					},
-					["ActiveTime"] = 43.59,
-					["ElementTaken"] = {
-						["Melee"] = 401,
-					},
-					["HOTs"] = {
-						["Gift of the Naaru"] = {
-							["Details"] = {
-								["Sculamare"] = {
-									["count"] = 6,
-								},
-							},
-							["amount"] = 6,
-						},
-					},
-					["Damage"] = 1086,
-					["TimeHeal"] = 1.18,
-					["WhoHealed"] = {
-						["Sculamare"] = {
-							["Details"] = {
-								["Gift of the Naaru"] = {
-									["count"] = 146,
-								},
-							},
-							["amount"] = 146,
-						},
-					},
-					["ElementHitsTaken"] = {
-						["Melee"] = {
-							["Details"] = {
-								["Miss"] = {
-									["count"] = 1,
-								},
-								["Crit"] = {
-									["count"] = 1,
-								},
-								["Hit"] = {
-									["count"] = 13,
-								},
-							},
-							["amount"] = 15,
-						},
-					},
-					["HealedWho"] = {
-						["Sculamare"] = {
-							["Details"] = {
-								["Gift of the Naaru"] = {
-									["count"] = 146,
-								},
-							},
-							["amount"] = 146,
-						},
-					},
-					["Healing"] = 146,
-					["Heals"] = {
-						["Gift of the Naaru"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 73,
-									["min"] = 73,
-									["count"] = 2,
-									["amount"] = 146,
-								},
-							},
-							["count"] = 2,
-							["amount"] = 146,
-						},
-					},
-					["HOT_Time"] = 6,
-					["ElementDone"] = {
-						["Frost"] = 816,
-						["Fire"] = 76,
-						["Arcane"] = 194,
-					},
-					["HealingTaken"] = 146,
-					["DamagedWho"] = {
-						["Wildthorn Stalker"] = {
-							["Details"] = {
-								["Shoot"] = {
-									["count"] = 194,
-								},
-								["Blizzard"] = {
-									["count"] = 816,
-								},
-								["Fire Blast"] = {
-									["count"] = 76,
-								},
-							},
-							["amount"] = 1086,
-						},
-					},
-					["TimeDamage"] = 42.41,
-					["TimeDamaging"] = {
-						["Wildthorn Stalker"] = {
-							["Details"] = {
-								["Shoot"] = {
-									["count"] = 10.68,
-								},
-								["Blizzard"] = {
-									["count"] = 31.34,
-								},
-								["Fire Blast"] = {
-									["count"] = 0.39,
-								},
-							},
-							["amount"] = 42.41,
-						},
-					},
-					["Attacks"] = {
-						["Shoot"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 39,
-									["min"] = 24,
-									["count"] = 6,
-									["amount"] = 194,
-								},
-							},
-							["count"] = 6,
-							["amount"] = 194,
-						},
-						["Blizzard"] = {
-							["Details"] = {
-								["Crit"] = {
-									["max"] = 53,
-									["min"] = 53,
-									["count"] = 1,
-									["amount"] = 53,
-								},
-								["Hit"] = {
-									["max"] = 39,
-									["min"] = 35,
-									["count"] = 20,
-									["amount"] = 763,
-								},
-							},
-							["count"] = 21,
-							["amount"] = 816,
-						},
-						["Fire Blast"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 76,
-									["min"] = 76,
-									["count"] = 1,
-									["amount"] = 76,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 76,
-						},
-					},
-					["WhoDamaged"] = {
-						["Wildthorn Stalker"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 401,
-								},
-							},
-							["amount"] = 401,
-						},
-					},
-					["ElementHitsDone"] = {
-						["Frost"] = {
-							["Details"] = {
-								["Crit"] = {
-									["count"] = 1,
-								},
-								["Hit"] = {
-									["count"] = 20,
-								},
-							},
-							["amount"] = 21,
-						},
-						["Fire"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 1,
-								},
-							},
-							["amount"] = 1,
-						},
-						["Arcane"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 6,
-								},
-							},
-							["amount"] = 6,
-						},
-					},
-				},
-			},
-			["UnitLockout"] = 1689755525,
-			["LastActive"] = 1689755631,
+			["LastAbility"] = 30911.632,
 		},
 	},
 	["FightNum"] = 2,
