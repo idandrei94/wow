@@ -2,10 +2,6 @@
 SkadaStorageDB = {
 	["sets"] = {
 		{
-			["starttime"] = 1689844044,
-			["type"] = "none",
-			["damagetaken"] = 90,
-			["ccdone"] = 1,
 			["players"] = {
 				{
 					["ccdonespells"] = {
@@ -37,10 +33,12 @@ SkadaStorageDB = {
 							["hitamount"] = 90,
 						},
 					},
-					["name"] = "Sculamare",
+					["id"] = "0x0700000000976299",
 					["role"] = "DAMAGER",
-					["time"] = 0,
+					["name"] = "Sculamare",
 					["ccdone"] = 1,
+					["spec"] = 63,
+					["totaldamagetaken"] = 90,
 					["auras"] = {
 						[1953] = {
 							["school"] = 64,
@@ -76,13 +74,15 @@ SkadaStorageDB = {
 							["uptime"] = 7,
 						},
 					},
-					["totaldamagetaken"] = 90,
-					["spec"] = 63,
-					["id"] = "0x0700000000976299",
+					["time"] = 0,
 				}, -- [1]
 			},
-			["time"] = 14,
-			["endtime"] = 1689844058,
+			["type"] = "none",
+			["damagetaken"] = 90,
+			["ccdone"] = 1,
+			["starttime"] = 1689844044,
+			["name"] = "Randomroge",
+			["last_time"] = 10193.674,
 			["enemies"] = {
 				{
 					["damagespells"] = {
@@ -104,13 +104,13 @@ SkadaStorageDB = {
 					["damage"] = 90,
 				}, -- [1]
 			},
-			["last_action"] = 1689844057,
-			["edamage"] = 90,
-			["name"] = "Randomroge",
-			["mobname"] = "Randomroge",
-			["totaldamagetaken"] = 90,
 			["etotaldamage"] = 90,
-			["last_time"] = 10193.674,
+			["totaldamagetaken"] = 90,
+			["time"] = 14,
+			["mobname"] = "Randomroge",
+			["edamage"] = 90,
+			["last_action"] = 1689844057,
+			["endtime"] = 1689844058,
 		}, -- [1]
 		{
 			["enemies"] = {
@@ -143,12 +143,12 @@ SkadaStorageDB = {
 							["school"] = 4,
 							["sources"] = {
 								["Sculamare"] = {
-									["overkill"] = 79,
 									["amount"] = 843,
+									["overkill"] = 79,
 								},
 							},
-							["overkill"] = 79,
 							["amount"] = 843,
+							["overkill"] = 79,
 						},
 						[122] = {
 							["school"] = 16,
@@ -201,6 +201,18 @@ SkadaStorageDB = {
 					["flag"] = 1297,
 					["class"] = "MAGE",
 					["auras"] = {
+						[12654] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 4,
+							["targets"] = {
+								["Blackrock Outrunner"] = {
+									["uptime"] = 2,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 2,
+						},
 						[11366] = {
 							["type"] = "DEBUFF",
 							["count"] = 3,
@@ -213,7 +225,24 @@ SkadaStorageDB = {
 							},
 							["uptime"] = 14,
 						},
-						[1460] = {
+						[12824] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 64,
+							["targets"] = {
+								["Blackrock Outrunner"] = {
+									["uptime"] = 21,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 21,
+						},
+						[7301] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 42,
+						},
+						[28878] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 42,
@@ -232,16 +261,6 @@ SkadaStorageDB = {
 							},
 							["uptime"] = 12,
 						},
-						[7301] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 42,
-						},
-						[28878] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 42,
-						},
 						[122] = {
 							["type"] = "DEBUFF",
 							["count"] = 2,
@@ -254,29 +273,10 @@ SkadaStorageDB = {
 							},
 							["uptime"] = 8,
 						},
-						[12824] = {
-							["type"] = "DEBUFF",
+						[1460] = {
+							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 64,
-							["targets"] = {
-								["Blackrock Outrunner"] = {
-									["uptime"] = 21,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 21,
-						},
-						[12654] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 4,
-							["targets"] = {
-								["Blackrock Outrunner"] = {
-									["uptime"] = 2,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 2,
+							["uptime"] = 42,
 						},
 					},
 					["role"] = "DAMAGER",
@@ -289,8 +289,8 @@ SkadaStorageDB = {
 							["id"] = 3140,
 							["targets"] = {
 								["Blackrock Outrunner"] = {
-									["overkill"] = 79,
 									["amount"] = 843,
+									["overkill"] = 79,
 								},
 							},
 							["overkill"] = 79,
@@ -312,14 +312,14 @@ SkadaStorageDB = {
 									["amount"] = 631,
 								},
 							},
+							["critical"] = 1,
+							["hit"] = 2,
 							["casts"] = 3,
 							["count"] = 3,
-							["criticalmax"] = 286,
-							["hitmax"] = 176,
 							["amount"] = 631,
 							["school"] = 4,
-							["hit"] = 2,
-							["critical"] = 1,
+							["hitmax"] = 176,
+							["criticalmax"] = 286,
 							["hitamount"] = 345,
 						},
 						["Pyroblast (DoT)"] = {
@@ -378,25 +378,25 @@ SkadaStorageDB = {
 							["criticalamount"] = 54,
 							["id"] = 6603,
 							["criticalmin"] = 54,
+							["critical"] = 1,
+							["hit"] = 5,
 							["sources"] = {
 								["Blackrock Outrunner"] = {
 									["amount"] = 187,
 								},
 							},
 							["count"] = 6,
-							["criticalmax"] = 54,
-							["hitmax"] = 30,
 							["amount"] = 187,
 							["school"] = 1,
-							["hit"] = 5,
-							["critical"] = 1,
+							["hitmax"] = 30,
+							["criticalmax"] = 54,
 							["hitamount"] = 133,
 						},
 					},
 					["name"] = "Sculamare",
 					["ccdone"] = 3,
-					["overkill"] = 79,
 					["totaldamage"] = 1622,
+					["overkill"] = 79,
 				}, -- [1]
 			},
 			["type"] = "none",
@@ -405,9 +405,9 @@ SkadaStorageDB = {
 			["etotaldamage"] = 187,
 			["overkill"] = 79,
 			["edamagetaken"] = 1622,
-			["ccdone"] = 3,
-			["name"] = "Blackrock Outrunner",
 			["mobname"] = "Blackrock Outrunner",
+			["name"] = "Blackrock Outrunner",
+			["ccdone"] = 3,
 			["starttime"] = 1689835024,
 			["edamage"] = 187,
 			["last_action"] = 1689835065,
@@ -444,21 +444,12 @@ SkadaStorageDB = {
 							["school"] = 4,
 							["sources"] = {
 								["Sculamare"] = {
-									["overkill"] = 75,
 									["amount"] = 454,
+									["overkill"] = 75,
 								},
 							},
-							["overkill"] = 75,
 							["amount"] = 454,
-						},
-						[5019] = {
-							["school"] = 1,
-							["sources"] = {
-								["Sculamare"] = {
-									["amount"] = 28,
-								},
-							},
-							["amount"] = 28,
+							["overkill"] = 75,
 						},
 						[2138] = {
 							["school"] = 4,
@@ -468,6 +459,15 @@ SkadaStorageDB = {
 								},
 							},
 							["amount"] = 111,
+						},
+						[5019] = {
+							["school"] = 1,
+							["sources"] = {
+								["Sculamare"] = {
+									["amount"] = 28,
+								},
+							},
+							["amount"] = 28,
 						},
 					},
 					["totaldamage"] = 71,
@@ -532,6 +532,11 @@ SkadaStorageDB = {
 							},
 							["count"] = 2,
 						},
+						[1460] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 31,
+						},
 						[12824] = {
 							["type"] = "DEBUFF",
 							["count"] = 1,
@@ -544,11 +549,6 @@ SkadaStorageDB = {
 							},
 							["uptime"] = 16,
 						},
-						[1460] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 31,
-						},
 					},
 					["role"] = "DAMAGER",
 					["time"] = 19.42,
@@ -560,8 +560,8 @@ SkadaStorageDB = {
 							["id"] = 3140,
 							["targets"] = {
 								["Blackrock Grunt"] = {
-									["overkill"] = 75,
 									["amount"] = 454,
+									["overkill"] = 75,
 								},
 							},
 							["overkill"] = 75,
@@ -659,8 +659,8 @@ SkadaStorageDB = {
 					},
 					["name"] = "Sculamare",
 					["ccdone"] = 1,
-					["overkill"] = 75,
 					["totaldamage"] = 1008,
+					["overkill"] = 75,
 				}, -- [1]
 			},
 			["type"] = "none",
@@ -669,9 +669,9 @@ SkadaStorageDB = {
 			["etotaldamage"] = 71,
 			["overkill"] = 75,
 			["edamagetaken"] = 1008,
-			["ccdone"] = 1,
-			["name"] = "Blackrock Grunt",
 			["mobname"] = "Blackrock Grunt",
+			["name"] = "Blackrock Grunt",
+			["ccdone"] = 1,
 			["starttime"] = 1689834982,
 			["edamage"] = 71,
 			["last_action"] = 1689835011,
@@ -790,12 +790,13 @@ SkadaStorageDB = {
 							},
 							["uptime"] = 8,
 						},
-						[7301] = {
+						[1953] = {
+							["school"] = 64,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 33,
+							["uptime"] = 1,
 						},
-						[35711] = {
+						[7301] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 33,
@@ -830,11 +831,10 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 15,
 						},
-						[1953] = {
-							["school"] = 64,
+						[35711] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 1,
+							["uptime"] = 33,
 						},
 					},
 					["role"] = "DAMAGER",
@@ -855,14 +855,14 @@ SkadaStorageDB = {
 									["amount"] = 485,
 								},
 							},
+							["criticalmax"] = 59,
+							["hitmax"] = 39,
+							["casts"] = 2,
 							["critical"] = 1,
 							["hit"] = 19,
-							["casts"] = 2,
-							["count"] = 20,
-							["amount"] = 797,
 							["school"] = 16,
-							["hitmax"] = 39,
-							["criticalmax"] = 59,
+							["amount"] = 797,
+							["count"] = 20,
 							["hitamount"] = 738,
 						},
 					},
@@ -875,29 +875,29 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["amount"] = 324,
 							["school"] = 1,
-							["min"] = 324,
+							["max"] = 324,
 							["targets"] = {
 								["Sculamare"] = {
 									["overheal"] = 0,
 									["amount"] = 324,
 								},
 							},
-							["max"] = 324,
+							["min"] = 324,
 						},
 						[59548] = {
 							["overheal"] = 234,
-							["min"] = 16,
+							["school"] = 2,
 							["count"] = 5,
 							["amount"] = 166,
 							["max"] = 80,
-							["ishot"] = true,
 							["targets"] = {
 								["Sculamare"] = {
 									["overheal"] = 234,
 									["amount"] = 166,
 								},
 							},
-							["school"] = 2,
+							["ishot"] = true,
+							["min"] = 16,
 						},
 					},
 					["damagetakenspells"] = {
@@ -919,7 +919,7 @@ SkadaStorageDB = {
 						["Melee"] = {
 							["hitmin"] = 14,
 							["id"] = 6603,
-							["hit"] = 10,
+							["amount"] = 155,
 							["sources"] = {
 								["Redridge Mongrel"] = {
 									["amount"] = 78,
@@ -929,7 +929,7 @@ SkadaStorageDB = {
 								},
 							},
 							["count"] = 11,
-							["amount"] = 155,
+							["hit"] = 10,
 							["school"] = 1,
 							["hitmax"] = 18,
 							["MISS"] = 1,
@@ -941,9 +941,9 @@ SkadaStorageDB = {
 					},
 					["heal"] = 490,
 					["name"] = "Sculamare",
-					["totaldamage"] = 797,
-					["potion"] = 1,
 					["overheal"] = 234,
+					["potion"] = 1,
+					["totaldamage"] = 797,
 				}, -- [1]
 			},
 			["type"] = "group",
@@ -951,12 +951,12 @@ SkadaStorageDB = {
 			["last_time"] = 11364.532,
 			["overheal"] = 234,
 			["etotaldamage"] = 476,
-			["starttime"] = 1689804986,
+			["potion"] = 1,
 			["edamagetaken"] = 797,
 			["heal"] = 490,
 			["name"] = "Redridge Thrasher",
 			["mobname"] = "Redridge Thrasher",
-			["potion"] = 1,
+			["starttime"] = 1689804986,
 			["edamage"] = 476,
 			["last_action"] = 1689805018,
 			["endtime"] = 1689805019,
@@ -983,12 +983,12 @@ SkadaStorageDB = {
 							["school"] = 16,
 							["sources"] = {
 								["Sculamare"] = {
-									["amount"] = 351,
 									["overkill"] = 34,
+									["amount"] = 351,
 								},
 							},
-							["amount"] = 351,
 							["overkill"] = 34,
+							["amount"] = 351,
 						},
 					},
 					["totaldamage"] = 73,
@@ -1011,8 +1011,8 @@ SkadaStorageDB = {
 							["id"] = 42208,
 							["targets"] = {
 								["Tarantula"] = {
-									["amount"] = 351,
 									["overkill"] = 34,
+									["amount"] = 351,
 								},
 							},
 							["overkill"] = 34,
@@ -1027,10 +1027,10 @@ SkadaStorageDB = {
 					},
 					["last"] = 11273.525,
 					["damagetaken"] = 73,
-					["id"] = "0x0700000000976299",
 					["flag"] = 1297,
+					["id"] = "0x0700000000976299",
 					["class"] = "MAGE",
-					["role"] = "DAMAGER",
+					["overkill"] = 34,
 					["auras"] = {
 						[10] = {
 							["type"] = "BUFF",
@@ -1069,9 +1069,10 @@ SkadaStorageDB = {
 							["uptime"] = 17,
 						},
 					},
-					["name"] = "Sculamare",
-					["totaldamage"] = 351,
 					["time"] = 13.96,
+					["role"] = "DAMAGER",
+					["name"] = "Sculamare",
+					["spec"] = 64,
 					["damagetakenspells"] = {
 						["Melee"] = {
 							["hitmin"] = 18,
@@ -1089,9 +1090,8 @@ SkadaStorageDB = {
 							["hitamount"] = 73,
 						},
 					},
-					["spec"] = 64,
 					["totaldamagetaken"] = 73,
-					["overkill"] = 34,
+					["totaldamage"] = 351,
 					["damage"] = 351,
 				}, -- [1]
 			},
@@ -1109,52 +1109,6 @@ SkadaStorageDB = {
 			["endtime"] = 1689804928,
 		}, -- [5]
 		{
-			["starttime"] = 1689804874,
-			["type"] = "group",
-			["enemies"] = {
-				{
-					["name"] = "Young Forest Bear",
-					["damagetaken"] = 156,
-					["id"] = "0xF13000033611732C",
-					["flag"] = 2632,
-					["class"] = "MONSTER",
-					["totaldamagetaken"] = 156,
-					["damagetakenspells"] = {
-						[42208] = {
-							["school"] = 16,
-							["sources"] = {
-								["Sculamare"] = {
-									["amount"] = 156,
-									["overkill"] = 20,
-								},
-							},
-							["amount"] = 156,
-							["overkill"] = 20,
-						},
-					},
-				}, -- [1]
-				{
-					["name"] = "Prowler",
-					["damagetaken"] = 195,
-					["id"] = "0xF130000076120CE0",
-					["flag"] = 68168,
-					["class"] = "MONSTER",
-					["totaldamagetaken"] = 195,
-					["damagetakenspells"] = {
-						[42208] = {
-							["school"] = 16,
-							["sources"] = {
-								["Sculamare"] = {
-									["amount"] = 195,
-									["overkill"] = 36,
-								},
-							},
-							["amount"] = 195,
-							["overkill"] = 36,
-						},
-					},
-				}, -- [2]
-			},
 			["players"] = {
 				{
 					["damagespells"] = {
@@ -1163,12 +1117,12 @@ SkadaStorageDB = {
 							["id"] = 42208,
 							["targets"] = {
 								["Young Forest Bear"] = {
-									["amount"] = 156,
 									["overkill"] = 20,
+									["amount"] = 156,
 								},
 								["Prowler"] = {
-									["amount"] = 195,
 									["overkill"] = 36,
+									["amount"] = 195,
 								},
 							},
 							["overkill"] = 56,
@@ -1188,10 +1142,17 @@ SkadaStorageDB = {
 					["spec"] = 64,
 					["totaldamage"] = 351,
 					["name"] = "Sculamare",
-					["time"] = 4.91,
-					["flag"] = 1297,
-					["role"] = "DAMAGER",
 					["auras"] = {
+						[7301] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 6,
+						},
+						[28878] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 6,
+						},
 						[3166] = {
 							["type"] = "BUFF",
 							["count"] = 1,
@@ -1202,31 +1163,70 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 6,
 						},
-						[28878] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 6,
-						},
-						[7301] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 6,
-						},
 					},
+					["role"] = "DAMAGER",
+					["flag"] = 1297,
+					["time"] = 4.91,
 					["damage"] = 351,
 				}, -- [1]
 			},
-			["time"] = 6,
-			["last_action"] = 1689804879,
-			["endtime"] = 1689804880,
+			["type"] = "group",
+			["enemies"] = {
+				{
+					["damagetaken"] = 156,
+					["name"] = "Young Forest Bear",
+					["totaldamagetaken"] = 156,
+					["id"] = "0xF13000033611732C",
+					["class"] = "MONSTER",
+					["flag"] = 2632,
+					["damagetakenspells"] = {
+						[42208] = {
+							["school"] = 16,
+							["sources"] = {
+								["Sculamare"] = {
+									["overkill"] = 20,
+									["amount"] = 156,
+								},
+							},
+							["overkill"] = 20,
+							["amount"] = 156,
+						},
+					},
+				}, -- [1]
+				{
+					["damagetaken"] = 195,
+					["name"] = "Prowler",
+					["totaldamagetaken"] = 195,
+					["id"] = "0xF130000076120CE0",
+					["class"] = "MONSTER",
+					["flag"] = 68168,
+					["damagetakenspells"] = {
+						[42208] = {
+							["school"] = 16,
+							["sources"] = {
+								["Sculamare"] = {
+									["overkill"] = 36,
+									["amount"] = 195,
+								},
+							},
+							["overkill"] = 36,
+							["amount"] = 195,
+						},
+					},
+				}, -- [2]
+			},
+			["starttime"] = 1689804874,
+			["name"] = "Young Forest Bear",
+			["etotaldamagetaken"] = 351,
+			["last_time"] = 11224.923,
 			["overkill"] = 56,
 			["edamagetaken"] = 351,
 			["totaldamage"] = 351,
-			["name"] = "Young Forest Bear",
+			["time"] = 6,
 			["mobname"] = "Young Forest Bear",
 			["damage"] = 351,
-			["etotaldamagetaken"] = 351,
-			["last_time"] = 11224.923,
+			["last_action"] = 1689804879,
+			["endtime"] = 1689804880,
 		}, -- [6]
 		{
 			["enemies"] = {
@@ -1259,12 +1259,12 @@ SkadaStorageDB = {
 							["school"] = 1,
 							["sources"] = {
 								["Sculamare"] = {
-									["amount"] = 27,
 									["overkill"] = 24,
+									["amount"] = 27,
 								},
 							},
-							["amount"] = 27,
 							["overkill"] = 24,
+							["amount"] = 27,
 						},
 					},
 					["totaldamage"] = 6,
@@ -1303,8 +1303,8 @@ SkadaStorageDB = {
 							["id"] = 6603,
 							["targets"] = {
 								["Prowler"] = {
-									["amount"] = 27,
 									["overkill"] = 24,
+									["amount"] = 27,
 								},
 							},
 							["overkill"] = 24,
@@ -1318,11 +1318,21 @@ SkadaStorageDB = {
 					},
 					["last"] = 11185.375,
 					["damagetaken"] = 6,
-					["id"] = "0x0700000000976299",
 					["flag"] = 1297,
+					["id"] = "0x0700000000976299",
 					["class"] = "MAGE",
-					["role"] = "DAMAGER",
+					["overkill"] = 24,
 					["auras"] = {
+						[7301] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 8,
+						},
+						[28878] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 8,
+						},
 						[7844] = {
 							["type"] = "BUFF",
 							["count"] = 1,
@@ -1333,20 +1343,11 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 8,
 						},
-						[28878] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 8,
-						},
-						[7301] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 8,
-						},
 					},
-					["name"] = "Sculamare",
-					["totaldamage"] = 183,
 					["time"] = 6.92,
+					["role"] = "DAMAGER",
+					["name"] = "Sculamare",
+					["spec"] = 64,
 					["damagetakenspells"] = {
 						["Melee"] = {
 							["hitmin"] = 6,
@@ -1364,9 +1365,8 @@ SkadaStorageDB = {
 							["hitamount"] = 6,
 						},
 					},
-					["spec"] = 64,
 					["totaldamagetaken"] = 6,
-					["overkill"] = 24,
+					["totaldamage"] = 183,
 					["damage"] = 183,
 				}, -- [1]
 			},
@@ -1384,31 +1384,6 @@ SkadaStorageDB = {
 			["endtime"] = 1689804840,
 		}, -- [7]
 		{
-			["starttime"] = 1689804643,
-			["type"] = "group",
-			["enemies"] = {
-				{
-					["name"] = "Defias Cutpurse",
-					["damagetaken"] = 189,
-					["id"] = "0xF13000005E12FC88",
-					["flag"] = 134285896,
-					["class"] = "MONSTER",
-					["totaldamagetaken"] = 189,
-					["damagetakenspells"] = {
-						[7322] = {
-							["school"] = 16,
-							["sources"] = {
-								["Sculamare"] = {
-									["amount"] = 189,
-									["overkill"] = 69,
-								},
-							},
-							["amount"] = 189,
-							["overkill"] = 69,
-						},
-					},
-				}, -- [1]
-			},
 			["players"] = {
 				{
 					["damagespells"] = {
@@ -1417,8 +1392,8 @@ SkadaStorageDB = {
 							["id"] = 7322,
 							["targets"] = {
 								["Defias Cutpurse"] = {
-									["amount"] = 189,
 									["overkill"] = 69,
+									["amount"] = 189,
 								},
 							},
 							["overkill"] = 69,
@@ -1438,35 +1413,7 @@ SkadaStorageDB = {
 					["spec"] = 64,
 					["totaldamage"] = 189,
 					["name"] = "Sculamare",
-					["time"] = 3.21,
-					["flag"] = 1297,
-					["role"] = "DAMAGER",
 					["auras"] = {
-						[7844] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 5,
-						},
-						[7301] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 5,
-						},
-						[28878] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 5,
-						},
-						[3166] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 5,
-						},
-						[604] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 5,
-						},
 						[7322] = {
 							["type"] = "DEBUFF",
 							["count"] = 1,
@@ -1479,48 +1426,76 @@ SkadaStorageDB = {
 							},
 							["uptime"] = 2,
 						},
+						[7301] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 5,
+						},
+						[28878] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 5,
+						},
+						[7844] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 5,
+						},
+						[604] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 5,
+						},
+						[3166] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 5,
+						},
 					},
+					["role"] = "DAMAGER",
+					["flag"] = 1297,
+					["time"] = 3.21,
 					["damage"] = 189,
 				}, -- [1]
 			},
-			["time"] = 5,
-			["last_action"] = 1689804646,
-			["endtime"] = 1689804648,
-			["overkill"] = 69,
-			["edamagetaken"] = 189,
-			["totaldamage"] = 189,
-			["name"] = "Defias Cutpurse (2)",
-			["mobname"] = "Defias Cutpurse",
-			["damage"] = 189,
-			["etotaldamagetaken"] = 189,
-			["last_time"] = 10992.032,
-		}, -- [8]
-		{
-			["starttime"] = 1689804629,
 			["type"] = "group",
 			["enemies"] = {
 				{
+					["damagetaken"] = 189,
 					["name"] = "Defias Cutpurse",
-					["damagetaken"] = 197,
-					["id"] = "0xF13000005E12EF32",
-					["flag"] = 134285896,
+					["totaldamagetaken"] = 189,
+					["id"] = "0xF13000005E12FC88",
 					["class"] = "MONSTER",
-					["totaldamagetaken"] = 197,
+					["flag"] = 134285896,
 					["damagetakenspells"] = {
 						[7322] = {
 							["school"] = 16,
 							["sources"] = {
 								["Sculamare"] = {
-									["amount"] = 197,
-									["overkill"] = 77,
+									["overkill"] = 69,
+									["amount"] = 189,
 								},
 							},
-							["amount"] = 197,
-							["overkill"] = 77,
+							["overkill"] = 69,
+							["amount"] = 189,
 						},
 					},
 				}, -- [1]
 			},
+			["starttime"] = 1689804643,
+			["name"] = "Defias Cutpurse (2)",
+			["etotaldamagetaken"] = 189,
+			["last_time"] = 10992.032,
+			["overkill"] = 69,
+			["edamagetaken"] = 189,
+			["totaldamage"] = 189,
+			["time"] = 5,
+			["mobname"] = "Defias Cutpurse",
+			["damage"] = 189,
+			["last_action"] = 1689804646,
+			["endtime"] = 1689804648,
+		}, -- [8]
+		{
 			["players"] = {
 				{
 					["damagespells"] = {
@@ -1529,8 +1504,8 @@ SkadaStorageDB = {
 							["id"] = 7322,
 							["targets"] = {
 								["Defias Cutpurse"] = {
-									["amount"] = 197,
 									["overkill"] = 77,
+									["amount"] = 197,
 								},
 							},
 							["overkill"] = 77,
@@ -1550,35 +1525,7 @@ SkadaStorageDB = {
 					["spec"] = 64,
 					["totaldamage"] = 197,
 					["name"] = "Sculamare",
-					["time"] = 3.11,
-					["flag"] = 1297,
-					["role"] = "DAMAGER",
 					["auras"] = {
-						[7844] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 5,
-						},
-						[7301] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 5,
-						},
-						[28878] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 5,
-						},
-						[3166] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 5,
-						},
-						[604] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 5,
-						},
 						[7322] = {
 							["type"] = "DEBUFF",
 							["count"] = 1,
@@ -1591,31 +1538,84 @@ SkadaStorageDB = {
 							},
 							["uptime"] = 2,
 						},
+						[7301] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 5,
+						},
+						[28878] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 5,
+						},
+						[7844] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 5,
+						},
+						[604] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 5,
+						},
+						[3166] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 5,
+						},
 					},
+					["role"] = "DAMAGER",
+					["flag"] = 1297,
+					["time"] = 3.11,
 					["damage"] = 197,
 				}, -- [1]
 			},
-			["time"] = 5,
-			["last_action"] = 1689804633,
-			["endtime"] = 1689804634,
+			["type"] = "group",
+			["enemies"] = {
+				{
+					["damagetaken"] = 197,
+					["name"] = "Defias Cutpurse",
+					["totaldamagetaken"] = 197,
+					["id"] = "0xF13000005E12EF32",
+					["class"] = "MONSTER",
+					["flag"] = 134285896,
+					["damagetakenspells"] = {
+						[7322] = {
+							["school"] = 16,
+							["sources"] = {
+								["Sculamare"] = {
+									["overkill"] = 77,
+									["amount"] = 197,
+								},
+							},
+							["overkill"] = 77,
+							["amount"] = 197,
+						},
+					},
+				}, -- [1]
+			},
+			["starttime"] = 1689804629,
+			["name"] = "Defias Cutpurse",
+			["etotaldamagetaken"] = 197,
+			["last_time"] = 10978.887,
 			["overkill"] = 77,
 			["edamagetaken"] = 197,
 			["totaldamage"] = 197,
-			["name"] = "Defias Cutpurse",
+			["time"] = 5,
 			["mobname"] = "Defias Cutpurse",
 			["damage"] = 197,
-			["etotaldamagetaken"] = 197,
-			["last_time"] = 10978.887,
+			["last_action"] = 1689804633,
+			["endtime"] = 1689804634,
 		}, -- [9]
 		{
 			["enemies"] = {
 				{
-					["name"] = "Elder Ashenvale Bear",
 					["damagetaken"] = 602,
-					["id"] = "0xF130000EE20CCFC0",
-					["flag"] = 68168,
-					["class"] = "MONSTER",
+					["name"] = "Elder Ashenvale Bear",
 					["totaldamagetaken"] = 602,
+					["id"] = "0xF130000EE20CCFC0",
+					["class"] = "MONSTER",
+					["flag"] = 68168,
 					["damagetakenspells"] = {
 						[11366] = {
 							["school"] = 4,
@@ -1635,26 +1635,6 @@ SkadaStorageDB = {
 							},
 							["amount"] = 73,
 						},
-						[1094] = {
-							["school"] = 4,
-							["sources"] = {
-								["Tapatapa"] = {
-									["amount"] = 46,
-								},
-							},
-							["amount"] = 46,
-						},
-						[1088] = {
-							["school"] = 32,
-							["sources"] = {
-								["Tapatapa"] = {
-									["amount"] = 249,
-									["overkill"] = 9,
-								},
-							},
-							["amount"] = 249,
-							["overkill"] = 9,
-						},
 						[6222] = {
 							["school"] = 32,
 							["sources"] = {
@@ -1663,6 +1643,26 @@ SkadaStorageDB = {
 								},
 							},
 							["amount"] = 40,
+						},
+						[1088] = {
+							["school"] = 32,
+							["sources"] = {
+								["Tapatapa"] = {
+									["overkill"] = 9,
+									["amount"] = 249,
+								},
+							},
+							["overkill"] = 9,
+							["amount"] = 249,
+						},
+						[1094] = {
+							["school"] = 4,
+							["sources"] = {
+								["Tapatapa"] = {
+									["amount"] = 46,
+								},
+							},
+							["amount"] = 46,
 						},
 					},
 				}, -- [1]
@@ -1682,9 +1682,9 @@ SkadaStorageDB = {
 									["amount"] = 194,
 								},
 							},
-							["count"] = 2,
-							["casts"] = 1,
 							["hitmax"] = 194,
+							["casts"] = 1,
+							["count"] = 2,
 							["amount"] = 194,
 							["school"] = 4,
 							["hit"] = 1,
@@ -1725,34 +1725,32 @@ SkadaStorageDB = {
 					["totaldamage"] = 194,
 					["name"] = "Sculamare",
 					["class"] = "MAGE",
-					["time"] = 3.5,
-					["flag"] = 1297,
 					["role"] = "DAMAGER",
+					["flag"] = 1297,
+					["time"] = 3.5,
 					["damage"] = 194,
 				}, -- [1]
 				{
 					["overheal"] = 0,
 					["last"] = 10129.604,
-					["flag"] = 4370,
 					["damagespells"] = {
-						["Melee (Graz'kath)"] = {
-							["glance"] = 40,
-							["hitmin"] = 33,
-							["id"] = 6603,
-							["glancemax"] = 20,
-							["glancemin"] = 20,
-							["glancing"] = 2,
+						["Shadow Bolt"] = {
+							["hitmin"] = 124,
+							["id"] = 1088,
 							["targets"] = {
 								["Elder Ashenvale Bear"] = {
-									["amount"] = 73,
+									["overkill"] = 9,
+									["amount"] = 249,
 								},
 							},
-							["count"] = 3,
-							["amount"] = 73,
-							["school"] = 1,
-							["hit"] = 1,
-							["hitmax"] = 33,
-							["hitamount"] = 33,
+							["overkill"] = 9,
+							["casts"] = 2,
+							["count"] = 2,
+							["hit"] = 2,
+							["school"] = 32,
+							["hitmax"] = 125,
+							["amount"] = 249,
+							["hitamount"] = 249,
 						},
 						["Corruption (DoT)"] = {
 							["hitmin"] = 18,
@@ -1762,8 +1760,8 @@ SkadaStorageDB = {
 									["amount"] = 40,
 								},
 							},
-							["count"] = 2,
 							["hitmax"] = 22,
+							["count"] = 2,
 							["hit"] = 2,
 							["school"] = 32,
 							["resisted"] = 4,
@@ -1778,34 +1776,36 @@ SkadaStorageDB = {
 									["amount"] = 46,
 								},
 							},
-							["count"] = 2,
 							["hitmax"] = 24,
+							["count"] = 2,
 							["hit"] = 2,
 							["school"] = 4,
 							["resisted"] = 2,
 							["amount"] = 46,
 							["hitamount"] = 46,
 						},
-						["Shadow Bolt"] = {
-							["hitmin"] = 124,
-							["id"] = 1088,
+						["Melee (Graz'kath)"] = {
+							["glance"] = 40,
+							["hitmin"] = 33,
+							["id"] = 6603,
+							["glancemax"] = 20,
+							["hitamount"] = 33,
+							["glancing"] = 2,
+							["hitmax"] = 33,
+							["count"] = 3,
+							["amount"] = 73,
+							["school"] = 1,
+							["hit"] = 1,
 							["targets"] = {
 								["Elder Ashenvale Bear"] = {
-									["amount"] = 249,
-									["overkill"] = 9,
+									["amount"] = 73,
 								},
 							},
-							["overkill"] = 9,
-							["casts"] = 2,
-							["count"] = 2,
-							["hit"] = 2,
-							["school"] = 32,
-							["hitmax"] = 125,
-							["amount"] = 249,
-							["hitamount"] = 249,
+							["glancemin"] = 20,
 						},
 					},
-					["id"] = "0x07000000009762D4",
+					["spec"] = 266,
+					["flag"] = 4370,
 					["class"] = "WARLOCK",
 					["healspells"] = {
 						[54181] = {
@@ -1813,28 +1813,18 @@ SkadaStorageDB = {
 							["count"] = 6,
 							["amount"] = 47,
 							["school"] = 2,
-							["min"] = 2,
+							["max"] = 18,
 							["targets"] = {
 								["Graz'kath"] = {
 									["overheal"] = 0,
 									["amount"] = 47,
 								},
 							},
-							["max"] = 18,
+							["min"] = 2,
 						},
 					},
 					["auras"] = {
 						[1460] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 8,
-						},
-						[19708] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 8,
-						},
-						[28878] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 8,
@@ -1844,14 +1834,24 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 8,
 						},
+						[28878] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 8,
+						},
+						[19708] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 8,
+						},
 					},
-					["heal"] = 47,
-					["totaldamage"] = 408,
-					["time"] = 6.330000000000001,
-					["name"] = "Tapatapa",
-					["overkill"] = 9,
 					["role"] = "DAMAGER",
-					["spec"] = 266,
+					["heal"] = 47,
+					["time"] = 6.330000000000001,
+					["overkill"] = 9,
+					["name"] = "Tapatapa",
+					["totaldamage"] = 408,
+					["id"] = "0x07000000009762D4",
 					["damage"] = 408,
 				}, -- [2]
 			},
@@ -1907,12 +1907,12 @@ SkadaStorageDB = {
 							["school"] = 1,
 							["sources"] = {
 								["Tapatapa"] = {
-									["amount"] = 181,
 									["overkill"] = 25,
+									["amount"] = 181,
 								},
 							},
-							["amount"] = 181,
 							["overkill"] = 25,
+							["amount"] = 181,
 						},
 						[2137] = {
 							["school"] = 4,
@@ -1959,11 +1959,11 @@ SkadaStorageDB = {
 									["amount"] = 560,
 								},
 							},
-							["count"] = 7,
-							["hit"] = 5,
-							["casts"] = 6,
 							["hitmax"] = 121,
 							["amount"] = 560,
+							["casts"] = 6,
+							["count"] = 7,
+							["hit"] = 5,
 							["school"] = 4,
 							["resisted"] = 48,
 							["MISS"] = 2,
@@ -1993,8 +1993,8 @@ SkadaStorageDB = {
 									["amount"] = 55,
 								},
 							},
-							["count"] = 4,
 							["hitmax"] = 15,
+							["count"] = 4,
 							["hit"] = 4,
 							["school"] = 4,
 							["resisted"] = 6,
@@ -2006,13 +2006,13 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["amount"] = 0,
 							["school"] = 16,
-							["id"] = 6136,
-							["MISS"] = 1,
 							["targets"] = {
 								["Elder Ashenvale Bear"] = {
 									["amount"] = 0,
 								},
 							},
+							["MISS"] = 1,
+							["id"] = 6136,
 						},
 						["Fire Blast"] = {
 							["hitmin"] = 73,
@@ -2022,9 +2022,9 @@ SkadaStorageDB = {
 									["amount"] = 73,
 								},
 							},
-							["count"] = 1,
-							["casts"] = 1,
 							["hitmax"] = 73,
+							["casts"] = 1,
+							["count"] = 1,
 							["hit"] = 1,
 							["school"] = 4,
 							["resisted"] = 8,
@@ -2043,6 +2043,21 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 22,
 						},
+						[7844] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 22,
+						},
+						[7301] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 22,
+						},
+						[28878] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 22,
+						},
 						[6136] = {
 							["type"] = "DEBUFF",
 							["count"] = 2,
@@ -2057,21 +2072,6 @@ SkadaStorageDB = {
 							},
 							["uptime"] = 15,
 						},
-						[7301] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 22,
-						},
-						[28878] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 22,
-						},
-						[3166] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 22,
-						},
 						[11366] = {
 							["type"] = "DEBUFF",
 							["count"] = 1,
@@ -2084,124 +2084,124 @@ SkadaStorageDB = {
 							},
 							["uptime"] = 12,
 						},
-						[7844] = {
+						[3166] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 22,
 						},
 					},
-					["time"] = 17.16,
+					["totaldamage"] = 873,
 					["role"] = "DAMAGER",
-					["name"] = "Sculamare",
+					["time"] = 17.16,
 					["damagetakenspells"] = {
 						["Melee"] = {
-							["criticalamount"] = 66,
-							["hitmin"] = 32,
 							["crushing"] = 1,
+							["hitmin"] = 32,
+							["criticalamount"] = 66,
 							["id"] = 6603,
 							["criticalmin"] = 66,
-							["count"] = 7,
-							["hitmax"] = 38,
-							["hit"] = 4,
+							["criticalmax"] = 66,
+							["critical"] = 1,
+							["amount"] = 257,
 							["sources"] = {
 								["Elder Ashenvale Bear"] = {
 									["amount"] = 257,
 								},
 							},
-							["critical"] = 1,
-							["amount"] = 257,
+							["count"] = 7,
+							["hit"] = 4,
 							["school"] = 1,
-							["criticalmax"] = 66,
+							["hitmax"] = 38,
 							["MISS"] = 1,
 							["hitamount"] = 143,
 						},
 					},
 					["spec"] = 63,
 					["totaldamagetaken"] = 257,
-					["totaldamage"] = 873,
+					["name"] = "Sculamare",
 					["damage"] = 873,
 				}, -- [1]
 				{
 					["damagespells"] = {
-						["Melee (Graz'kath)"] = {
-							["DODGE"] = 1,
-							["glance"] = 115,
-							["hitmin"] = 33,
-							["glancemin"] = 21,
-							["id"] = 6603,
-							["glancemax"] = 26,
-							["targets"] = {
-								["Elder Ashenvale Bear"] = {
-									["amount"] = 181,
-									["overkill"] = 25,
-								},
-							},
-							["overkill"] = 25,
-							["glancing"] = 5,
-							["hitmax"] = 33,
-							["count"] = 10,
-							["amount"] = 181,
-							["school"] = 1,
-							["hit"] = 2,
-							["MISS"] = 2,
-							["hitamount"] = 66,
-						},
 						["Shadow Bolt"] = {
-							["criticalmin"] = 156,
-							["hitmin"] = 92,
 							["criticalamount"] = 156,
+							["hitmin"] = 92,
+							["criticalmin"] = 156,
 							["id"] = 1088,
-							["casts"] = 2,
+							["hitmax"] = 92,
 							["targets"] = {
 								["Elder Ashenvale Bear"] = {
 									["amount"] = 248,
 								},
 							},
-							["count"] = 2,
-							["amount"] = 248,
-							["criticalmax"] = 156,
 							["critical"] = 1,
 							["hit"] = 1,
+							["casts"] = 2,
+							["count"] = 2,
+							["amount"] = 248,
 							["school"] = 32,
 							["resisted"] = 39,
-							["hitmax"] = 92,
+							["criticalmax"] = 156,
 							["hitamount"] = 92,
+						},
+						["Melee (Graz'kath)"] = {
+							["DODGE"] = 1,
+							["glance"] = 115,
+							["hitmin"] = 33,
+							["hitamount"] = 66,
+							["id"] = 6603,
+							["targets"] = {
+								["Elder Ashenvale Bear"] = {
+									["overkill"] = 25,
+									["amount"] = 181,
+								},
+							},
+							["glancemax"] = 26,
+							["overkill"] = 25,
+							["glancing"] = 5,
+							["hit"] = 2,
+							["hitmax"] = 33,
+							["amount"] = 181,
+							["school"] = 1,
+							["count"] = 10,
+							["MISS"] = 2,
+							["glancemin"] = 21,
 						},
 					},
 					["last"] = 10102.32,
-					["flag"] = 1298,
 					["overheal"] = 0,
-					["id"] = "0x07000000009762D4",
+					["spec"] = 266,
+					["flag"] = 1298,
 					["class"] = "WARLOCK",
 					["healspells"] = {
 						[3698] = {
 							["overheal"] = 0,
-							["min"] = 41,
+							["school"] = 32,
 							["count"] = 3,
 							["amount"] = 123,
 							["max"] = 41,
-							["ishot"] = true,
 							["targets"] = {
 								["Graz'kath"] = {
 									["overheal"] = 0,
 									["amount"] = 123,
 								},
 							},
-							["school"] = 32,
+							["ishot"] = true,
+							["min"] = 41,
 						},
 						[54181] = {
 							["overheal"] = 0,
 							["count"] = 2,
 							["amount"] = 36,
 							["school"] = 2,
-							["min"] = 13,
+							["max"] = 23,
 							["targets"] = {
 								["Graz'kath"] = {
 									["overheal"] = 0,
 									["amount"] = 36,
 								},
 							},
-							["max"] = 23,
+							["min"] = 13,
 						},
 					},
 					["auras"] = {
@@ -2225,24 +2225,24 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 3,
 						},
-						[28878] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 22,
-						},
 						[1460] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 22,
 						},
+						[28878] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 22,
+						},
 					},
-					["heal"] = 159,
-					["totaldamage"] = 429,
-					["time"] = 7,
-					["name"] = "Tapatapa",
-					["overkill"] = 25,
 					["role"] = "DAMAGER",
-					["spec"] = 266,
+					["heal"] = 159,
+					["time"] = 7,
+					["overkill"] = 25,
+					["name"] = "Tapatapa",
+					["totaldamage"] = 429,
+					["id"] = "0x07000000009762D4",
 					["damage"] = 429,
 				}, -- [2]
 			},
@@ -2267,8 +2267,8 @@ SkadaStorageDB = {
 							["total"] = 93,
 							["targets"] = {
 								["Tapatapa"] = {
-									["amount"] = 75,
 									["total"] = 93,
+									["amount"] = 75,
 								},
 							},
 							["amount"] = 75,
@@ -2282,12 +2282,12 @@ SkadaStorageDB = {
 							["school"] = 4,
 							["sources"] = {
 								["Sculamare"] = {
-									["amount"] = 237,
 									["overkill"] = 35,
+									["amount"] = 237,
 								},
 							},
-							["amount"] = 237,
 							["overkill"] = 35,
+							["amount"] = 237,
 						},
 						[11366] = {
 							["school"] = 4,
@@ -2359,18 +2359,18 @@ SkadaStorageDB = {
 							["EVADE"] = 2,
 							["targets"] = {
 								["Wildthorn Venomspitter"] = {
-									["amount"] = 237,
 									["overkill"] = 35,
+									["amount"] = 237,
 								},
 							},
 							["overkill"] = 35,
-							["amount"] = 237,
+							["hitmax"] = 138,
 							["casts"] = 3,
 							["count"] = 4,
-							["hit"] = 2,
+							["amount"] = 237,
 							["school"] = 4,
 							["resisted"] = 24,
-							["hitmax"] = 138,
+							["hit"] = 2,
 							["hitamount"] = 237,
 						},
 						["Pyroblast"] = {
@@ -2423,24 +2423,23 @@ SkadaStorageDB = {
 					},
 					["flag"] = 1297,
 					["class"] = "MAGE",
-					["totaldamage"] = 524,
-					["overkill"] = 35,
-					["time"] = 8.220000000000001,
-					["role"] = "DAMAGER",
-					["name"] = "Sculamare",
-					["ccdone"] = 1,
-					["spec"] = 63,
-					["id"] = "0x0700000000976299",
 					["auras"] = {
 						[1460] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 18,
 						},
-						[3166] = {
-							["type"] = "BUFF",
+						[11366] = {
+							["type"] = "DEBUFF",
 							["count"] = 1,
-							["uptime"] = 18,
+							["school"] = 4,
+							["targets"] = {
+								["Wildthorn Venomspitter"] = {
+									["uptime"] = 5,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 5,
 						},
 						[7301] = {
 							["type"] = "BUFF",
@@ -2452,7 +2451,7 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 18,
 						},
-						[7844] = {
+						[3166] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 18,
@@ -2469,19 +2468,20 @@ SkadaStorageDB = {
 							},
 							["uptime"] = 11,
 						},
-						[11366] = {
-							["type"] = "DEBUFF",
+						[7844] = {
+							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 4,
-							["targets"] = {
-								["Wildthorn Venomspitter"] = {
-									["uptime"] = 5,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 5,
+							["uptime"] = 18,
 						},
 					},
+					["overkill"] = 35,
+					["id"] = "0x0700000000976299",
+					["totaldamage"] = 524,
+					["time"] = 8.220000000000001,
+					["ccdone"] = 1,
+					["spec"] = 63,
+					["name"] = "Sculamare",
+					["role"] = "DAMAGER",
 					["damage"] = 524,
 				}, -- [1]
 				{
@@ -2493,6 +2493,17 @@ SkadaStorageDB = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 18,
+						},
+						[28878] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 18,
+						},
+						[7812] = {
+							["school"] = 32,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 1,
 						},
 						[1108] = {
 							["type"] = "DEBUFF",
@@ -2506,17 +2517,6 @@ SkadaStorageDB = {
 							},
 							["uptime"] = 4,
 						},
-						[7812] = {
-							["school"] = 32,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 1,
-						},
-						[19708] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 18,
-						},
 						[3698] = {
 							["type"] = "BUFF",
 							["count"] = 1,
@@ -2527,7 +2527,7 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 18,
 						},
-						[28878] = {
+						[19708] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 18,
@@ -2538,6 +2538,36 @@ SkadaStorageDB = {
 					["totaldamagetaken"] = 93,
 					["damage"] = 176,
 					["damagespells"] = {
+						["Shadow Bolt"] = {
+							["hitmin"] = 100,
+							["id"] = 1088,
+							["targets"] = {
+								["Wildthorn Venomspitter"] = {
+									["amount"] = 100,
+								},
+							},
+							["hitmax"] = 100,
+							["casts"] = 1,
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 32,
+							["resisted"] = 25,
+							["amount"] = 100,
+							["hitamount"] = 100,
+						},
+						["Torment (Graz'kath)"] = {
+							["casts"] = 1,
+							["count"] = 1,
+							["amount"] = 0,
+							["school"] = 32,
+							["targets"] = {
+								["Wildthorn Venomspitter"] = {
+									["amount"] = 0,
+								},
+							},
+							["MISS"] = 1,
+							["id"] = 7809,
+						},
 						["Melee (Graz'kath)"] = {
 							["hitmin"] = 24,
 							["id"] = 6603,
@@ -2553,36 +2583,6 @@ SkadaStorageDB = {
 							["amount"] = 76,
 							["hitamount"] = 76,
 						},
-						["Torment (Graz'kath)"] = {
-							["casts"] = 1,
-							["count"] = 1,
-							["amount"] = 0,
-							["school"] = 32,
-							["id"] = 7809,
-							["MISS"] = 1,
-							["targets"] = {
-								["Wildthorn Venomspitter"] = {
-									["amount"] = 0,
-								},
-							},
-						},
-						["Shadow Bolt"] = {
-							["hitmin"] = 100,
-							["id"] = 1088,
-							["targets"] = {
-								["Wildthorn Venomspitter"] = {
-									["amount"] = 100,
-								},
-							},
-							["count"] = 1,
-							["casts"] = 1,
-							["hitmax"] = 100,
-							["hit"] = 1,
-							["school"] = 32,
-							["resisted"] = 25,
-							["amount"] = 100,
-							["hitamount"] = 100,
-						},
 					},
 					["damagetaken"] = 75,
 					["id"] = "0x07000000009762D4",
@@ -2590,32 +2590,32 @@ SkadaStorageDB = {
 					["healspells"] = {
 						[3698] = {
 							["overheal"] = 0,
-							["min"] = 40,
+							["school"] = 32,
 							["count"] = 6,
 							["amount"] = 242,
 							["max"] = 41,
-							["ishot"] = true,
 							["targets"] = {
 								["Graz'kath"] = {
 									["overheal"] = 0,
 									["amount"] = 242,
 								},
 							},
-							["school"] = 32,
+							["ishot"] = true,
+							["min"] = 40,
 						},
 						[54181] = {
 							["overheal"] = 0,
 							["count"] = 1,
 							["amount"] = 15,
 							["school"] = 2,
-							["min"] = 15,
+							["max"] = 15,
 							["targets"] = {
 								["Graz'kath"] = {
 									["overheal"] = 0,
 									["amount"] = 15,
 								},
 							},
-							["max"] = 15,
+							["min"] = 15,
 						},
 					},
 					["damagetakenspells"] = {
@@ -2625,8 +2625,8 @@ SkadaStorageDB = {
 							["id"] = 17158,
 							["sources"] = {
 								["Wildthorn Venomspitter"] = {
-									["amount"] = 75,
 									["total"] = 93,
+									["amount"] = 75,
 								},
 							},
 							["count"] = 1,
@@ -2639,19 +2639,19 @@ SkadaStorageDB = {
 					},
 					["heal"] = 257,
 					["name"] = "Tapatapa",
-					["role"] = "DAMAGER",
 					["overheal"] = 0,
+					["role"] = "DAMAGER",
 				}, -- [2]
 			},
 			["etotaldamage"] = 93,
 			["overheal"] = 0,
-			["damage"] = 700,
+			["mobname"] = "Wildthorn Venomspitter",
 			["overkill"] = 35,
 			["edamagetaken"] = 700,
 			["heal"] = 257,
 			["name"] = "Wildthorn Venomspitter",
 			["ccdone"] = 1,
-			["mobname"] = "Wildthorn Venomspitter",
+			["damage"] = 700,
 			["edamage"] = 75,
 			["last_action"] = 1689803723,
 			["endtime"] = 1689803724,
@@ -2679,26 +2679,26 @@ SkadaStorageDB = {
 							["school"] = 4,
 							["sources"] = {
 								["Sculamare"] = {
-									["amount"] = 1424,
 									["overkill"] = 115,
+									["amount"] = 1424,
 								},
 							},
-							["amount"] = 1424,
 							["overkill"] = 115,
+							["amount"] = 1424,
 						},
 						[6603] = {
 							["school"] = 1,
 							["sources"] = {
 								["Tapatapa"] = {
-									["amount"] = 498,
 									["overkill"] = 24,
+									["amount"] = 498,
 								},
 								["Graz'kath"] = {
 									["amount"] = 29,
 								},
 							},
-							["amount"] = 527,
 							["overkill"] = 24,
+							["amount"] = 527,
 						},
 						[2137] = {
 							["school"] = 4,
@@ -2762,10 +2762,11 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 46,
 						},
-						[3166] = {
+						[59548] = {
+							["school"] = 2,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 46,
+							["uptime"] = 15,
 						},
 						[7301] = {
 							["type"] = "BUFF",
@@ -2777,7 +2778,7 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 46,
 						},
-						[7844] = {
+						[3166] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 46,
@@ -2796,11 +2797,10 @@ SkadaStorageDB = {
 							},
 							["uptime"] = 23,
 						},
-						[59548] = {
-							["school"] = 2,
+						[7844] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 15,
+							["uptime"] = 46,
 						},
 					},
 					["role"] = "DAMAGER",
@@ -2813,29 +2813,29 @@ SkadaStorageDB = {
 							["count"] = 6,
 							["amount"] = 0,
 							["school"] = 16,
-							["id"] = 6136,
-							["MISS"] = 6,
 							["targets"] = {
 								["Elder Ashenvale Bear"] = {
 									["amount"] = 0,
 								},
 							},
+							["MISS"] = 6,
+							["id"] = 6136,
 						},
 						["Fireball"] = {
 							["hitmin"] = 88,
 							["id"] = 3140,
-							["count"] = 15,
+							["hitmax"] = 138,
 							["targets"] = {
 								["Elder Ashenvale Bear"] = {
-									["amount"] = 1424,
 									["overkill"] = 115,
+									["amount"] = 1424,
 								},
 							},
 							["overkill"] = 115,
-							["hit"] = 12,
-							["casts"] = 14,
-							["hitmax"] = 138,
 							["amount"] = 1424,
+							["casts"] = 14,
+							["count"] = 15,
+							["hit"] = 12,
 							["school"] = 4,
 							["resisted"] = 154,
 							["MISS"] = 3,
@@ -2849,9 +2849,9 @@ SkadaStorageDB = {
 									["amount"] = 68,
 								},
 							},
-							["count"] = 1,
-							["casts"] = 1,
 							["hitmax"] = 68,
+							["casts"] = 1,
+							["count"] = 1,
 							["hit"] = 1,
 							["school"] = 4,
 							["resisted"] = 17,
@@ -2865,18 +2865,18 @@ SkadaStorageDB = {
 					["healspells"] = {
 						[59548] = {
 							["overheal"] = 25,
-							["min"] = 57,
+							["school"] = 2,
 							["count"] = 5,
 							["amount"] = 385,
 							["max"] = 82,
-							["ishot"] = true,
 							["targets"] = {
 								["Sculamare"] = {
 									["overheal"] = 25,
 									["amount"] = 385,
 								},
 							},
-							["school"] = 2,
+							["ishot"] = true,
+							["min"] = 57,
 						},
 					},
 					["damagetakenspells"] = {
@@ -2886,27 +2886,27 @@ SkadaStorageDB = {
 							["crushing"] = 5,
 							["id"] = 6603,
 							["criticalmin"] = 70,
-							["count"] = 14,
-							["critical"] = 1,
-							["amount"] = 573,
+							["criticalamount"] = 70,
+							["criticalmax"] = 70,
+							["hit"] = 7,
 							["sources"] = {
 								["Elder Ashenvale Bear"] = {
 									["amount"] = 573,
 								},
 							},
-							["hitmax"] = 39,
-							["hit"] = 7,
+							["count"] = 14,
+							["amount"] = 573,
 							["school"] = 1,
-							["criticalmax"] = 70,
-							["criticalamount"] = 70,
+							["hitmax"] = 39,
+							["critical"] = 1,
 							["hitamount"] = 255,
 						},
 					},
 					["heal"] = 385,
 					["name"] = "Sculamare",
-					["totaldamage"] = 1492,
-					["overheal"] = 25,
 					["overkill"] = 115,
+					["overheal"] = 25,
+					["totaldamage"] = 1492,
 				}, -- [1]
 				{
 					["last"] = 9988.554,
@@ -2918,12 +2918,12 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 46,
 						},
-						[19708] = {
+						[1460] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 46,
 						},
-						[28878] = {
+						[19708] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 46,
@@ -2952,7 +2952,7 @@ SkadaStorageDB = {
 							},
 							["uptime"] = 15,
 						},
-						[1460] = {
+						[28878] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 46,
@@ -2970,8 +2970,8 @@ SkadaStorageDB = {
 									["amount"] = 107,
 								},
 							},
-							["count"] = 5,
 							["hitmax"] = 24,
+							["count"] = 5,
 							["hit"] = 5,
 							["school"] = 32,
 							["resisted"] = 12,
@@ -2984,8 +2984,8 @@ SkadaStorageDB = {
 							["hitmin"] = 18,
 							["targets"] = {
 								["Elder Ashenvale Bear"] = {
-									["amount"] = 527,
 									["overkill"] = 24,
+									["amount"] = 527,
 								},
 							},
 							["glancing"] = 5,
@@ -3002,31 +3002,31 @@ SkadaStorageDB = {
 							["count"] = 23,
 							["hitamount"] = 411,
 						},
-						["Torment (Graz'kath)"] = {
-							["casts"] = 1,
-							["count"] = 3,
-							["amount"] = 0,
-							["school"] = 32,
-							["id"] = 7809,
-							["MISS"] = 3,
-							["targets"] = {
-								["Elder Ashenvale Bear"] = {
-									["amount"] = 0,
-								},
-							},
-						},
 						["Immolate"] = {
 							["casts"] = 2,
 							["count"] = 2,
 							["amount"] = 0,
 							["school"] = 4,
-							["id"] = 1094,
-							["MISS"] = 2,
 							["targets"] = {
 								["Elder Ashenvale Bear"] = {
 									["amount"] = 0,
 								},
 							},
+							["MISS"] = 2,
+							["id"] = 1094,
+						},
+						["Torment (Graz'kath)"] = {
+							["casts"] = 1,
+							["count"] = 3,
+							["amount"] = 0,
+							["school"] = 32,
+							["targets"] = {
+								["Elder Ashenvale Bear"] = {
+									["amount"] = 0,
+								},
+							},
+							["MISS"] = 3,
+							["id"] = 7809,
 						},
 						["Shadow Bolt"] = {
 							["hitmin"] = 92,
@@ -3036,11 +3036,11 @@ SkadaStorageDB = {
 									["amount"] = 567,
 								},
 							},
-							["count"] = 6,
-							["hit"] = 5,
-							["casts"] = 7,
 							["hitmax"] = 126,
 							["amount"] = 567,
+							["casts"] = 7,
+							["count"] = 6,
+							["hit"] = 5,
 							["school"] = 32,
 							["resisted"] = 61,
 							["MISS"] = 1,
@@ -3055,14 +3055,14 @@ SkadaStorageDB = {
 							["count"] = 10,
 							["amount"] = 95,
 							["school"] = 2,
-							["min"] = 2,
+							["max"] = 18,
 							["targets"] = {
 								["Graz'kath"] = {
 									["overheal"] = 0,
 									["amount"] = 95,
 								},
 							},
-							["max"] = 18,
+							["min"] = 2,
 						},
 					},
 					["overkill"] = 24,
@@ -3070,10 +3070,10 @@ SkadaStorageDB = {
 					["manaspells"] = {
 						[31818] = 90,
 					},
-					["role"] = "DAMAGER",
-					["overheal"] = 0,
-					["mana"] = 90,
 					["name"] = "Tapatapa",
+					["mana"] = 90,
+					["overheal"] = 0,
+					["role"] = "DAMAGER",
 				}, -- [2]
 			},
 			["edamage"] = 573,
@@ -3167,9 +3167,9 @@ SkadaStorageDB = {
 									["amount"] = 125,
 								},
 							},
-							["count"] = 1,
-							["casts"] = 1,
 							["hitmax"] = 125,
+							["casts"] = 1,
+							["count"] = 1,
 							["hit"] = 1,
 							["school"] = 4,
 							["resisted"] = 13,
@@ -3188,9 +3188,9 @@ SkadaStorageDB = {
 							["critical"] = 1,
 							["amount"] = 339,
 							["school"] = 4,
-							["count"] = 1,
-							["criticalmax"] = 339,
 							["criticalmin"] = 339,
+							["criticalmax"] = 339,
+							["count"] = 1,
 						},
 						["Pyroblast (DoT)"] = {
 							["hitmin"] = 16,
@@ -3227,13 +3227,13 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["amount"] = 0,
 							["school"] = 1,
-							["id"] = 5019,
-							["MISS"] = 1,
 							["targets"] = {
 								["Elder Ashenvale Bear"] = {
 									["amount"] = 0,
 								},
 							},
+							["MISS"] = 1,
+							["id"] = 5019,
 						},
 					},
 					["last"] = 9940.589,
@@ -3242,6 +3242,11 @@ SkadaStorageDB = {
 					["class"] = "MAGE",
 					["id"] = "0x0700000000976299",
 					["auras"] = {
+						[1460] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 7,
+						},
 						[12654] = {
 							["type"] = "DEBUFF",
 							["count"] = 1,
@@ -3254,17 +3259,20 @@ SkadaStorageDB = {
 							},
 							["uptime"] = 4,
 						},
-						[11366] = {
-							["type"] = "DEBUFF",
+						[7844] = {
+							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 4,
-							["targets"] = {
-								["Elder Ashenvale Bear"] = {
-									["uptime"] = 4,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 4,
+							["uptime"] = 7,
+						},
+						[7301] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 7,
+						},
+						[28878] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 7,
 						},
 						[6136] = {
 							["type"] = "DEBUFF",
@@ -3278,35 +3286,27 @@ SkadaStorageDB = {
 							},
 							["uptime"] = 1,
 						},
-						[7301] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 7,
-						},
-						[28878] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 7,
-						},
 						[3166] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 7,
 						},
-						[7844] = {
-							["type"] = "BUFF",
+						[11366] = {
+							["type"] = "DEBUFF",
 							["count"] = 1,
-							["uptime"] = 7,
-						},
-						[1460] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 7,
+							["school"] = 4,
+							["targets"] = {
+								["Elder Ashenvale Bear"] = {
+									["uptime"] = 4,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 4,
 						},
 					},
-					["time"] = 4.29,
+					["totaldamage"] = 547,
 					["role"] = "DAMAGER",
-					["name"] = "Sculamare",
+					["time"] = 4.29,
 					["damagetakenspells"] = {
 						["Melee"] = {
 							["hitmin"] = 34,
@@ -3326,14 +3326,14 @@ SkadaStorageDB = {
 					},
 					["spec"] = 63,
 					["totaldamagetaken"] = 34,
-					["totaldamage"] = 547,
+					["name"] = "Sculamare",
 					["damage"] = 547,
 				}, -- [1]
 				{
 					["overheal"] = 0,
 					["last"] = 9941.576000000001,
-					["id"] = "0x07000000009762D4",
 					["flag"] = 4370,
+					["id"] = "0x07000000009762D4",
 					["class"] = "WARLOCK",
 					["healspells"] = {
 						[54181] = {
@@ -3341,28 +3341,18 @@ SkadaStorageDB = {
 							["count"] = 2,
 							["amount"] = 46,
 							["school"] = 2,
-							["min"] = 19,
+							["max"] = 27,
 							["targets"] = {
 								["Graz'kath"] = {
 									["overheal"] = 0,
 									["amount"] = 46,
 								},
 							},
-							["max"] = 27,
+							["min"] = 19,
 						},
 					},
 					["auras"] = {
 						[1460] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 7,
-						},
-						[19708] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 7,
-						},
-						[28878] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 7,
@@ -3372,11 +3362,44 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 7,
 						},
+						[28878] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 7,
+						},
+						[19708] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 7,
+						},
 					},
+					["role"] = "DAMAGER",
 					["heal"] = 46,
-					["totaldamage"] = 362,
 					["time"] = 5.28,
+					["spec"] = 266,
+					["name"] = "Tapatapa",
 					["damagespells"] = {
+						["Shadow Bolt"] = {
+							["criticalamount"] = 180,
+							["hitmin"] = 129,
+							["criticalmin"] = 180,
+							["id"] = 1088,
+							["hitmax"] = 129,
+							["targets"] = {
+								["Elder Ashenvale Bear"] = {
+									["amount"] = 309,
+								},
+							},
+							["critical"] = 1,
+							["hit"] = 1,
+							["criticalmax"] = 180,
+							["count"] = 2,
+							["amount"] = 309,
+							["school"] = 32,
+							["resisted"] = 19,
+							["casts"] = 2,
+							["hitamount"] = 129,
+						},
 						["Melee (Graz'kath)"] = {
 							["glance"] = 25,
 							["hitmin"] = 28,
@@ -3386,41 +3409,18 @@ SkadaStorageDB = {
 									["amount"] = 53,
 								},
 							},
-							["hitamount"] = 28,
+							["glancemin"] = 25,
 							["glancing"] = 1,
-							["hit"] = 1,
+							["glancemax"] = 25,
 							["count"] = 2,
-							["amount"] = 53,
+							["hit"] = 1,
 							["school"] = 1,
 							["hitmax"] = 28,
-							["glancemax"] = 25,
-							["glancemin"] = 25,
-						},
-						["Shadow Bolt"] = {
-							["criticalmin"] = 180,
-							["hitmin"] = 129,
-							["criticalamount"] = 180,
-							["id"] = 1088,
-							["criticalmax"] = 180,
-							["targets"] = {
-								["Elder Ashenvale Bear"] = {
-									["amount"] = 309,
-								},
-							},
-							["count"] = 2,
-							["amount"] = 309,
-							["casts"] = 2,
-							["critical"] = 1,
-							["hit"] = 1,
-							["school"] = 32,
-							["resisted"] = 19,
-							["hitmax"] = 129,
-							["hitamount"] = 129,
+							["amount"] = 53,
+							["hitamount"] = 28,
 						},
 					},
-					["name"] = "Tapatapa",
-					["spec"] = 266,
-					["role"] = "DAMAGER",
+					["totaldamage"] = 362,
 					["damage"] = 362,
 				}, -- [2]
 			},
@@ -3441,23 +3441,23 @@ SkadaStorageDB = {
 		{
 			["enemies"] = {
 				{
-					["name"] = "Elder Ashenvale Bear",
 					["damagetaken"] = 1073,
-					["id"] = "0xF130000EE20CCE4B",
-					["flag"] = 134285896,
-					["class"] = "MONSTER",
+					["name"] = "Elder Ashenvale Bear",
 					["totaldamagetaken"] = 1073,
+					["id"] = "0xF130000EE20CCE4B",
+					["class"] = "MONSTER",
+					["flag"] = 134285896,
 					["damagetakenspells"] = {
 						[1088] = {
 							["school"] = 32,
 							["sources"] = {
 								["Tapatapa"] = {
-									["amount"] = 347,
 									["overkill"] = 104,
+									["amount"] = 347,
 								},
 							},
-							["amount"] = 347,
 							["overkill"] = 104,
+							["amount"] = 347,
 						},
 						[3140] = {
 							["school"] = 4,
@@ -3503,11 +3503,11 @@ SkadaStorageDB = {
 									["amount"] = 548,
 								},
 							},
-							["count"] = 5,
-							["hit"] = 4,
-							["casts"] = 4,
 							["hitmax"] = 146,
 							["amount"] = 548,
+							["casts"] = 4,
+							["count"] = 5,
+							["hit"] = 4,
 							["school"] = 4,
 							["resisted"] = 27,
 							["MISS"] = 1,
@@ -3547,33 +3547,13 @@ SkadaStorageDB = {
 					["totaldamage"] = 548,
 					["name"] = "Sculamare",
 					["class"] = "MAGE",
-					["time"] = 10.1,
-					["flag"] = 1297,
 					["role"] = "DAMAGER",
+					["flag"] = 1297,
+					["time"] = 10.1,
 					["damage"] = 548,
 				}, -- [1]
 				{
 					["damagespells"] = {
-						["Shadow Bolt"] = {
-							["hitmin"] = 105,
-							["id"] = 1088,
-							["count"] = 4,
-							["targets"] = {
-								["Elder Ashenvale Bear"] = {
-									["amount"] = 347,
-									["overkill"] = 104,
-								},
-							},
-							["overkill"] = 104,
-							["hit"] = 3,
-							["casts"] = 4,
-							["hitmax"] = 121,
-							["amount"] = 347,
-							["school"] = 32,
-							["resisted"] = 26,
-							["MISS"] = 1,
-							["hitamount"] = 347,
-						},
 						["Melee (Graz'kath)"] = {
 							["glance"] = 25,
 							["hitmin"] = 19,
@@ -3590,20 +3570,40 @@ SkadaStorageDB = {
 							["criticalamount"] = 66,
 							["id"] = 6603,
 							["glancemax"] = 25,
-							["hit"] = 3,
+							["blocked"] = 12,
 							["criticalmax"] = 66,
 							["count"] = 6,
-							["blocked"] = 12,
+							["hit"] = 3,
 							["school"] = 1,
-							["critical"] = 1,
 							["hitmax"] = 36,
+							["critical"] = 1,
 							["hitamount"] = 87,
+						},
+						["Shadow Bolt"] = {
+							["hitmin"] = 105,
+							["id"] = 1088,
+							["hitmax"] = 121,
+							["targets"] = {
+								["Elder Ashenvale Bear"] = {
+									["overkill"] = 104,
+									["amount"] = 347,
+								},
+							},
+							["overkill"] = 104,
+							["amount"] = 347,
+							["casts"] = 4,
+							["count"] = 4,
+							["hit"] = 3,
+							["school"] = 32,
+							["resisted"] = 26,
+							["MISS"] = 1,
+							["hitamount"] = 347,
 						},
 					},
 					["last"] = 9928.235000000001,
-					["flag"] = 1298,
 					["overheal"] = 0,
-					["id"] = "0x07000000009762D4",
+					["spec"] = 266,
+					["flag"] = 1298,
 					["class"] = "WARLOCK",
 					["healspells"] = {
 						[54181] = {
@@ -3611,14 +3611,14 @@ SkadaStorageDB = {
 							["count"] = 3,
 							["amount"] = 51,
 							["school"] = 2,
-							["min"] = 15,
+							["max"] = 18,
 							["targets"] = {
 								["Graz'kath"] = {
 									["overheal"] = 0,
 									["amount"] = 51,
 								},
 							},
-							["max"] = 18,
+							["min"] = 15,
 						},
 					},
 					["auras"] = {
@@ -3627,7 +3627,7 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 14,
 						},
-						[1460] = {
+						[25228] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 14,
@@ -3644,19 +3644,19 @@ SkadaStorageDB = {
 							},
 							["uptime"] = 11,
 						},
-						[25228] = {
+						[1460] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 14,
 						},
 					},
-					["heal"] = 51,
-					["totaldamage"] = 525,
-					["time"] = 8.19,
-					["name"] = "Tapatapa",
-					["overkill"] = 104,
 					["role"] = "DAMAGER",
-					["spec"] = 266,
+					["heal"] = 51,
+					["time"] = 8.19,
+					["overkill"] = 104,
+					["name"] = "Tapatapa",
+					["totaldamage"] = 525,
+					["id"] = "0x07000000009762D4",
 					["damage"] = 525,
 				}, -- [2]
 			},
@@ -3689,9 +3689,9 @@ SkadaStorageDB = {
 				["heal"] = 2518,
 				["name"] = "Sculamare",
 				["ccdone"] = 26,
-				["role"] = "DAMAGER",
-				["mana"] = 301,
 				["potion"] = 2,
+				["mana"] = 301,
+				["role"] = "DAMAGER",
 			}, -- [1]
 			{
 				["flag"] = 4370,
@@ -3709,8 +3709,8 @@ SkadaStorageDB = {
 				["heal"] = 5034,
 				["name"] = "Tapatapa",
 				["death"] = 1,
-				["role"] = "DAMAGER",
 				["mana"] = 90,
+				["role"] = "DAMAGER",
 			}, -- [2]
 			{
 				["absorb"] = 10,
@@ -3726,9 +3726,9 @@ SkadaStorageDB = {
 		["heal"] = 7552,
 		["name"] = "Total",
 		["ccdone"] = 26,
-		["potion"] = 2,
-		["overheal"] = 720,
-		["starttime"] = 1689796845,
 		["death"] = 1,
+		["starttime"] = 1689796845,
+		["overheal"] = 720,
+		["potion"] = 2,
 	},
 }

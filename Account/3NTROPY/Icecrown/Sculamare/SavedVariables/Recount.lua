@@ -119,14 +119,14 @@ RecountPerCharDB = {
 				["DamageTaken"] = {
 					5761, -- [1]
 				},
-				["HOT_Time"] = {
-					99, -- [1]
+				["Overhealing"] = {
+					324, -- [1]
 				},
 				["HealingTaken"] = {
 					1427, -- [1]
 				},
-				["Overhealing"] = {
-					324, -- [1]
+				["HOT_Time"] = {
+					99, -- [1]
 				},
 				["ActiveTime"] = {
 					1674.61, -- [1]
@@ -182,10 +182,7418 @@ RecountPerCharDB = {
 			},
 			["type"] = "Self",
 			["FightsSaved"] = 5,
-			["LastActive"] = 1689844048,
-			["UnitLockout"] = 1689796844,
+			["LastAbility"] = 35710.219,
+			["LastEventTimes"] = {
+				1197.898, -- [1]
+				1198.463, -- [2]
+				1200.68, -- [3]
+				1200.822, -- [4]
+				10179.889, -- [5]
+				10184.907, -- [6]
+				11347.933, -- [7]
+				11347.958, -- [8]
+				11349.156, -- [9]
+				11349.43, -- [10]
+				11349.631, -- [11]
+				11352.622, -- [12]
+				11354.231, -- [13]
+				11355.632, -- [14]
+				11358.623, -- [15]
+				11360.397, -- [16]
+				11361.665, -- [17]
+				1119.473, -- [18]
+				1122.498, -- [19]
+				1123.431, -- [20]
+				1123.456, -- [21]
+				1124.997, -- [22]
+				1125.499, -- [23]
+				1125.948, -- [24]
+				1127.848, -- [25]
+				1127.899, -- [26]
+				1141.223, -- [27]
+				1143.298, -- [28]
+				1144.247, -- [29]
+				1144.898, -- [30]
+				1147.099, -- [31]
+				1147.232, -- [32]
+				1161.706, -- [33]
+				1163.838, -- [34]
+				1164.764, -- [35]
+				1165.439, -- [36]
+				1165.906, -- [37]
+				1167.548, -- [38]
+				1167.923, -- [39]
+				1168.057, -- [40]
+				1168.565, -- [41]
+				1168.565, -- [42]
+				1179.522, -- [43]
+				1180.164, -- [44]
+				1182.048, -- [45]
+				1182.197, -- [46]
+				1182.656, -- [47]
+				1194.655, -- [48]
+				1196.689, -- [49]
+				1197.68, -- [50]
+			},
 			["Owner"] = false,
+			["LastDamageTaken"] = 90,
+			["NextEventNum"] = 7,
+			["LastEventHealthNum"] = {
+				70.45790251107829, -- [1]
+				66.76514032496307, -- [2]
+				66.76514032496307, -- [3]
+				66.76514032496307, -- [4]
+				87.14918759231905, -- [5]
+				73.85524372230428, -- [6]
+				88.2747068676717, -- [7]
+				88.2747068676717, -- [8]
+				85.42713567839196, -- [9]
+				78.89447236180905, -- [10]
+				92.29480737018426, -- [11]
+				100, -- [12]
+				95.97989949748744, -- [13]
+				100, -- [14]
+				100, -- [15]
+				100, -- [16]
+				100, -- [17]
+				100, -- [18]
+				100, -- [19]
+				100, -- [20]
+				96.15952732644018, -- [21]
+				96.15952732644018, -- [22]
+				92.90989660265879, -- [23]
+				92.90989660265879, -- [24]
+				89.5125553914328, -- [25]
+				89.5125553914328, -- [26]
+				89.5125553914328, -- [27]
+				89.5125553914328, -- [28]
+				89.5125553914328, -- [29]
+				89.5125553914328, -- [30]
+				89.5125553914328, -- [31]
+				89.5125553914328, -- [32]
+				94.38700147710487, -- [33]
+				94.38700147710487, -- [34]
+				94.38700147710487, -- [35]
+				94.38700147710487, -- [36]
+				94.38700147710487, -- [37]
+				90.10339734121122, -- [38]
+				90.10339734121122, -- [39]
+				86.11521418020679, -- [40]
+				82.86558345642541, -- [41]
+				82.86558345642541, -- [42]
+				82.86558345642541, -- [43]
+				74.88921713441654, -- [44]
+				74.88921713441654, -- [45]
+				70.45790251107829, -- [46]
+				70.45790251107829, -- [47]
+				70.45790251107829, -- [48]
+				70.45790251107829, -- [49]
+				70.45790251107829, -- [50]
+			},
+			["LastEvents"] = {
+				"Blackrock Outrunner Melee Sculamare Hit -25 (Physical)", -- [1]
+				"Sculamare Fireball Blackrock Outrunner Hit -121 (Fire)", -- [2]
+				"Sculamare Pyroblast (DoT) Blackrock Outrunner Tick -15 (Fire)", -- [3]
+				"Sculamare Fireball Blackrock Outrunner Hit -121 (Fire)", -- [4]
+				"Randomroge Shoot Sculamare Hit -87 (Physical)", -- [5]
+				"Randomroge Shoot Sculamare Hit -90 (Physical)", -- [6]
+				"Sculamare Healing Potion Sculamare Hit +324", -- [7]
+				"Redridge Thrasher Melee Sculamare Hit -17 (Physical)", -- [8]
+				"Redridge Mongrel Melee Sculamare Hit -14 (Physical)", -- [9]
+				"Redridge Poacher Shoot Sculamare Hit -25 (Physical)", -- [10]
+				"Sculamare Gift of the Naaru Sculamare Tick +80", -- [11]
+				"Sculamare Gift of the Naaru Sculamare Tick +80 (34 overheal)", -- [12]
+				"Redridge Poacher Shoot Sculamare Hit -24 (Physical)", -- [13]
+				"Sculamare Gift of the Naaru Sculamare Tick +80 (56 overheal)", -- [14]
+				"Sculamare Gift of the Naaru Sculamare Tick +80 (80 overheal)", -- [15]
+				"Redridge Thrasher Melee Sculamare Hit -16 (Physical)", -- [16]
+				"Sculamare Gift of the Naaru Sculamare Tick +80 (64 overheal)", -- [17]
+				"Sculamare Pyroblast Blackrock Grunt Hit -176 (Fire)", -- [18]
+				"Sculamare Pyroblast (DoT) Blackrock Grunt Tick -15 (Fire)", -- [19]
+				"Blackrock Grunt Melee Sculamare Hit -26 (Physical)", -- [20]
+				"Sculamare Fireball Blackrock Grunt Hit -107 (Fire)", -- [21]
+				"Blackrock Grunt Melee Sculamare Hit -22 (Physical)", -- [22]
+				"Sculamare Pyroblast (DoT) Blackrock Grunt Tick -15 (Fire)", -- [23]
+				"Blackrock Grunt Melee Sculamare Hit -23 (Physical)", -- [24]
+				"Sculamare Fire Blast Blackrock Grunt Hit -111 (Fire)", -- [25]
+				"Sculamare Fireball Blackrock Grunt Hit -135 (Fire)", -- [26]
+				"Sculamare Pyroblast Blackrock Grunt Hit -179 (Fire)", -- [27]
+				"Sculamare Fireball Blackrock Grunt Hit -107 (Fire)", -- [28]
+				"Sculamare Pyroblast (DoT) Blackrock Grunt Tick -15 (Fire)", -- [29]
+				"Sculamare Fireball Blackrock Grunt Hit -105 (Fire)", -- [30]
+				"Sculamare Shoot Blackrock Grunt Hit -28 (Arcane)", -- [31]
+				"Sculamare Pyroblast (DoT) Blackrock Grunt Tick -15 (Fire)", -- [32]
+				"Sculamare Pyroblast Blackrock Outrunner Hit -169 (Fire)", -- [33]
+				"Sculamare Fireball Blackrock Outrunner Hit -119 (Fire)", -- [34]
+				"Sculamare Pyroblast (DoT) Blackrock Outrunner Tick -15 (Fire)", -- [35]
+				"Sculamare Fireball Blackrock Outrunner Hit -118 (Fire)", -- [36]
+				"Blackrock Outrunner Melee Sculamare Hit -29 (Physical)", -- [37]
+				"Sculamare Fireball Blackrock Outrunner Hit -125 (Fire)", -- [38]
+				"Blackrock Outrunner Melee Sculamare Hit -27 (Physical)", -- [39]
+				"Blackrock Outrunner Melee Sculamare Hit -22 (Physical)", -- [40]
+				"Sculamare Frost Nova Blackrock Outrunner Hit -23 (Frost)", -- [41]
+				"Sculamare Frost Nova Blackrock Outrunner Hit -23 (Frost)", -- [42]
+				"Blackrock Outrunner Melee Sculamare Crit -54 (Physical)", -- [43]
+				"Sculamare Pyroblast Blackrock Outrunner Crit -286 (Fire)", -- [44]
+				"Blackrock Outrunner Melee Sculamare Hit -30 (Physical)", -- [45]
+				"Sculamare Ignite (DoT) Blackrock Outrunner Tick -57 (Fire)", -- [46]
+				"Sculamare Fireball Blackrock Outrunner Hit -133 (Fire)", -- [47]
+				"Sculamare Pyroblast Blackrock Outrunner Hit -176 (Fire)", -- [48]
+				"Sculamare Fireball Blackrock Outrunner Hit -106 (Fire)", -- [49]
+				"Sculamare Pyroblast (DoT) Blackrock Outrunner Tick -15 (Fire)", -- [50]
+			},
+			["Name"] = "Sculamare",
+			["LastEventIncoming"] = {
+				true, -- [1]
+				false, -- [2]
+				false, -- [3]
+				false, -- [4]
+				true, -- [5]
+				true, -- [6]
+				true, -- [7]
+				true, -- [8]
+				true, -- [9]
+				true, -- [10]
+				true, -- [11]
+				true, -- [12]
+				true, -- [13]
+				true, -- [14]
+				true, -- [15]
+				true, -- [16]
+				true, -- [17]
+				false, -- [18]
+				false, -- [19]
+				true, -- [20]
+				false, -- [21]
+				true, -- [22]
+				false, -- [23]
+				true, -- [24]
+				false, -- [25]
+				false, -- [26]
+				false, -- [27]
+				false, -- [28]
+				false, -- [29]
+				false, -- [30]
+				false, -- [31]
+				false, -- [32]
+				false, -- [33]
+				false, -- [34]
+				false, -- [35]
+				false, -- [36]
+				true, -- [37]
+				false, -- [38]
+				true, -- [39]
+				true, -- [40]
+				false, -- [41]
+				false, -- [42]
+				true, -- [43]
+				false, -- [44]
+				true, -- [45]
+				false, -- [46]
+				false, -- [47]
+				false, -- [48]
+				false, -- [49]
+				false, -- [50]
+			},
+			["TimeLast"] = {
+				["TimeHeal"] = 1689805015,
+				["OVERALL"] = 1689844048,
+				["DamageTaken"] = 1689844048,
+				["Overhealing"] = 1689805015,
+				["ActiveTime"] = 1689835064,
+				["HealingTaken"] = 1689805015,
+				["HOT_Time"] = 1689805015,
+				["TimeDamage"] = 1689835064,
+				["Healing"] = 1689805015,
+				["ManaGain"] = 1689798718,
+				["DOT_Time"] = 1689835064,
+				["Damage"] = 1689835064,
+			},
 			["Fights"] = {
+				["Fight3"] = {
+					["DOTs"] = {
+						["Pyroblast (DoT)"] = {
+							["Details"] = {
+								["Blackrock Grunt"] = {
+									["count"] = 12,
+								},
+							},
+							["amount"] = 12,
+						},
+					},
+					["ElementDoneResist"] = {
+						["Fire"] = 0,
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 71,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 3,
+								},
+							},
+							["amount"] = 3,
+						},
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["Damage"] = 1008,
+					["RunicPowerGain"] = 0,
+					["ElementTaken"] = {
+						["Melee"] = 71,
+					},
+					["DOT_Time"] = 12,
+					["ElementTakenBlock"] = {
+					},
+					["ElementDoneAbsorb"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["PartialBlock"] = {
+					},
+					["ElementHitsDone"] = {
+						["Frost"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Fire"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 7,
+								},
+								["Tick"] = {
+									["count"] = 4,
+								},
+							},
+							["amount"] = 11,
+						},
+						["Arcane"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 1,
+						},
+					},
+					["FAttacks"] = {
+					},
+					["HealingTaken"] = 0,
+					["ElementDone"] = {
+						["Frost"] = 0,
+						["Fire"] = 980,
+						["Arcane"] = 28,
+					},
+					["DamagedWho"] = {
+						["Elder Ashenvale Bear"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Defias Cutpurse"] = {
+							["Details"] = {
+								["Frostbolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Blackrock Grunt"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 454,
+								},
+								["Pyroblast"] = {
+									["count"] = 355,
+								},
+								["Pyroblast (DoT)"] = {
+									["count"] = 60,
+								},
+								["Shoot"] = {
+									["count"] = 28,
+								},
+								["Fire Blast"] = {
+									["count"] = 111,
+								},
+							},
+							["amount"] = 1008,
+						},
+					},
+					["ManaGainedFrom"] = {
+					},
+					["RunicPowerGained"] = {
+					},
+					["WhoDamaged"] = {
+						["Blackrock Grunt"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 71,
+								},
+							},
+							["amount"] = 71,
+						},
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["CCBroken"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+					},
+					["OverHeals"] = {
+					},
+					["WhoHealed"] = {
+					},
+					["HealedWho"] = {
+					},
+					["CCBreak"] = 0,
+					["ElementTakenAbsorb"] = {
+					},
+					["PartialAbsorb"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 3,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 3,
+							["amount"] = 0,
+						},
+					},
+					["PartialResist"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 3,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 3,
+							["amount"] = 0,
+						},
+					},
+					["ManaGained"] = {
+					},
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["Overhealing"] = 0,
+					["TimeSpent"] = {
+						["Elder Ashenvale Bear"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Defias Cutpurse"] = {
+							["Details"] = {
+								["Frostbolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Blackrock Grunt"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 3.74,
+								},
+								["Pyroblast"] = {
+									["count"] = 7,
+								},
+								["Pyroblast (DoT)"] = {
+									["count"] = 6.15,
+								},
+								["Shoot"] = {
+									["count"] = 2.2,
+								},
+								["Fire Blast"] = {
+									["count"] = 2.35,
+								},
+							},
+							["amount"] = 21.43999999999999,
+						},
+					},
+					["WhoDispelled"] = {
+					},
+					["InterruptData"] = {
+					},
+					["ElementTakenResist"] = {
+					},
+					["Heals"] = {
+					},
+					["ActiveTime"] = 21.43999999999999,
+					["EnergyGained"] = {
+					},
+					["EnergyGain"] = 0,
+					["Healing"] = 0,
+					["Dispelled"] = 0,
+					["RageGained"] = {
+					},
+					["Attacks"] = {
+						["Fireball"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 135,
+									["min"] = 0,
+									["count"] = 4,
+									["amount"] = 454,
+								},
+							},
+							["count"] = 4,
+							["amount"] = 454,
+						},
+						["Pyroblast"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 179,
+									["min"] = 176,
+									["count"] = 2,
+									["amount"] = 355,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 355,
+						},
+						["Pyroblast (DoT)"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 15,
+									["min"] = 15,
+									["count"] = 4,
+									["amount"] = 60,
+								},
+							},
+							["count"] = 4,
+							["amount"] = 60,
+						},
+						["Frostbolt"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Shoot"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 28,
+									["min"] = 28,
+									["count"] = 1,
+									["amount"] = 28,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 28,
+						},
+						["Fire Blast"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 111,
+									["min"] = 111,
+									["count"] = 1,
+									["amount"] = 111,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 111,
+						},
+					},
+					["RageGain"] = 0,
+					["FDamagedWho"] = {
+					},
+					["TimeDamage"] = 21.43999999999999,
+					["TimeDamaging"] = {
+						["Elder Ashenvale Bear"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Defias Cutpurse"] = {
+							["Details"] = {
+								["Frostbolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Blackrock Grunt"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 3.74,
+								},
+								["Pyroblast"] = {
+									["count"] = 7,
+								},
+								["Pyroblast (DoT)"] = {
+									["count"] = 6.15,
+								},
+								["Shoot"] = {
+									["count"] = 2.2,
+								},
+								["Fire Blast"] = {
+									["count"] = 2.35,
+								},
+							},
+							["amount"] = 21.43999999999999,
+						},
+					},
+					["ManaGain"] = 0,
+					["HOTs"] = {
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["Fight2"] = {
+					["DOTs"] = {
+						["Pyroblast (DoT)"] = {
+							["Details"] = {
+								["Ashenvale Bear"] = {
+									["count"] = 0,
+								},
+								["Blackrock Outrunner"] = {
+									["count"] = 9,
+								},
+								["Elder Ashenvale Bear"] = {
+									["count"] = 0,
+								},
+								["Foulweald Warrior"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 9,
+						},
+						["Ignite (DoT)"] = {
+							["Details"] = {
+								["Elder Ashenvale Bear"] = {
+									["count"] = 0,
+								},
+								["Blackrock Outrunner"] = {
+									["count"] = 3,
+								},
+								["Foulweald Warrior"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 3,
+						},
+					},
+					["ElementDoneResist"] = {
+						["Fire"] = 0,
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 187,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 0,
+								},
+								["Dodge"] = {
+									["count"] = 0,
+								},
+								["Crit"] = {
+									["count"] = 1,
+								},
+								["Hit"] = {
+									["count"] = 5,
+								},
+							},
+							["amount"] = 6,
+						},
+						["Physical"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["Damage"] = 1622,
+					["RunicPowerGain"] = 0,
+					["ElementTaken"] = {
+						["Melee"] = 187,
+						["Physical"] = 0,
+					},
+					["DOT_Time"] = 12,
+					["ElementTakenBlock"] = {
+					},
+					["ElementDoneAbsorb"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["PartialBlock"] = {
+					},
+					["ElementHitsDone"] = {
+						["Fire"] = {
+							["Details"] = {
+								["Tick"] = {
+									["count"] = 4,
+								},
+								["Crit"] = {
+									["count"] = 1,
+								},
+								["Hit"] = {
+									["count"] = 9,
+								},
+							},
+							["amount"] = 14,
+						},
+						["Frost"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 2,
+								},
+							},
+							["amount"] = 2,
+						},
+						["Physical"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["FAttacks"] = {
+					},
+					["HealingTaken"] = 0,
+					["ElementDone"] = {
+						["Frost"] = 46,
+						["Fire"] = 1576,
+					},
+					["DamagedWho"] = {
+						["Lesser Felguard"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+								["Fire Blast"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Blackrock Outrunner"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 843,
+								},
+								["Pyroblast"] = {
+									["count"] = 631,
+								},
+								["Pyroblast (DoT)"] = {
+									["count"] = 45,
+								},
+								["Ignite (DoT)"] = {
+									["count"] = 57,
+								},
+								["Frost Nova"] = {
+									["count"] = 46,
+								},
+							},
+							["amount"] = 1622,
+						},
+						["Defias Cutpurse"] = {
+							["Details"] = {
+								["Frostbolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Ashenvale Bear"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+								["Pyroblast"] = {
+									["count"] = 0,
+								},
+								["Pyroblast (DoT)"] = {
+									["count"] = 0,
+								},
+								["Fire Blast"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Elder Ashenvale Bear"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+								["Pyroblast"] = {
+									["count"] = 0,
+								},
+								["Pyroblast (DoT)"] = {
+									["count"] = 0,
+								},
+								["Ignite (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Wildthorn Stalker"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Foulweald Warrior"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+								["Pyroblast"] = {
+									["count"] = 0,
+								},
+								["Pyroblast (DoT)"] = {
+									["count"] = 0,
+								},
+								["Ignite (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ManaGainedFrom"] = {
+					},
+					["RunicPowerGained"] = {
+					},
+					["WhoDamaged"] = {
+						["Environment"] = {
+							["Details"] = {
+								["Falling"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Ashenvale Bear"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Blackrock Outrunner"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 187,
+								},
+							},
+							["amount"] = 187,
+						},
+						["Elder Ashenvale Bear"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Foulweald Warrior"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["CCBroken"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+					},
+					["OverHeals"] = {
+					},
+					["WhoHealed"] = {
+					},
+					["HealedWho"] = {
+					},
+					["CCBreak"] = 0,
+					["ElementTakenAbsorb"] = {
+					},
+					["PartialAbsorb"] = {
+						["Falling"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 6,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 6,
+							["amount"] = 0,
+						},
+					},
+					["PartialResist"] = {
+						["Falling"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 6,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 6,
+							["amount"] = 0,
+						},
+					},
+					["ManaGained"] = {
+					},
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["Overhealing"] = 0,
+					["TimeSpent"] = {
+						["Lesser Felguard"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+								["Fire Blast"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Blackrock Outrunner"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 8.32,
+								},
+								["Pyroblast"] = {
+									["count"] = 10.5,
+								},
+								["Pyroblast (DoT)"] = {
+									["count"] = 4.140000000000001,
+								},
+								["Ignite (DoT)"] = {
+									["count"] = 2.03,
+								},
+								["Frost Nova"] = {
+									["count"] = 1.02,
+								},
+							},
+							["amount"] = 26.01,
+						},
+						["Defias Cutpurse"] = {
+							["Details"] = {
+								["Frostbolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Ashenvale Bear"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+								["Pyroblast"] = {
+									["count"] = 0,
+								},
+								["Pyroblast (DoT)"] = {
+									["count"] = 0,
+								},
+								["Fire Blast"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Elder Ashenvale Bear"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+								["Pyroblast"] = {
+									["count"] = 0,
+								},
+								["Pyroblast (DoT)"] = {
+									["count"] = 0,
+								},
+								["Ignite (DoT)"] = {
+									["count"] = 0,
+								},
+								["Shoot"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Wildthorn Stalker"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Foulweald Warrior"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+								["Pyroblast"] = {
+									["count"] = 0,
+								},
+								["Pyroblast (DoT)"] = {
+									["count"] = 0,
+								},
+								["Ignite (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["WhoDispelled"] = {
+					},
+					["InterruptData"] = {
+					},
+					["ElementTakenResist"] = {
+					},
+					["Heals"] = {
+					},
+					["ActiveTime"] = 26.01,
+					["EnergyGained"] = {
+					},
+					["EnergyGain"] = 0,
+					["Healing"] = 0,
+					["Dispelled"] = 0,
+					["RageGained"] = {
+					},
+					["Attacks"] = {
+						["Fireball"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 133,
+									["min"] = 0,
+									["count"] = 7,
+									["amount"] = 843,
+								},
+							},
+							["count"] = 7,
+							["amount"] = 843,
+						},
+						["Pyroblast"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 286,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 286,
+								},
+								["Hit"] = {
+									["max"] = 176,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 345,
+								},
+							},
+							["count"] = 3,
+							["amount"] = 631,
+						},
+						["Pyroblast (DoT)"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 15,
+									["min"] = 0,
+									["count"] = 3,
+									["amount"] = 45,
+								},
+							},
+							["count"] = 3,
+							["amount"] = 45,
+						},
+						["Ignite (DoT)"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 57,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 57,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 57,
+						},
+						["Frost Nova"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 23,
+									["min"] = 23,
+									["count"] = 2,
+									["amount"] = 46,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 46,
+						},
+						["Frostbolt"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Shoot"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Fire Blast"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["RageGain"] = 0,
+					["FDamagedWho"] = {
+					},
+					["TimeDamage"] = 26.01,
+					["TimeDamaging"] = {
+						["Lesser Felguard"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+								["Fire Blast"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Blackrock Outrunner"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 8.32,
+								},
+								["Pyroblast"] = {
+									["count"] = 10.5,
+								},
+								["Pyroblast (DoT)"] = {
+									["count"] = 4.140000000000001,
+								},
+								["Ignite (DoT)"] = {
+									["count"] = 2.03,
+								},
+								["Frost Nova"] = {
+									["count"] = 1.02,
+								},
+							},
+							["amount"] = 26.01,
+						},
+						["Defias Cutpurse"] = {
+							["Details"] = {
+								["Frostbolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Ashenvale Bear"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+								["Pyroblast"] = {
+									["count"] = 0,
+								},
+								["Pyroblast (DoT)"] = {
+									["count"] = 0,
+								},
+								["Fire Blast"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Elder Ashenvale Bear"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+								["Pyroblast"] = {
+									["count"] = 0,
+								},
+								["Pyroblast (DoT)"] = {
+									["count"] = 0,
+								},
+								["Ignite (DoT)"] = {
+									["count"] = 0,
+								},
+								["Shoot"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Wildthorn Stalker"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Foulweald Warrior"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+								["Pyroblast"] = {
+									["count"] = 0,
+								},
+								["Pyroblast (DoT)"] = {
+									["count"] = 0,
+								},
+								["Ignite (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ManaGain"] = 0,
+					["HOTs"] = {
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["CurrentFightData"] = {
+					["DOTs"] = {
+						["Pyroblast (DoT)"] = {
+							["Details"] = {
+								["Foulweald Ursa"] = {
+									["count"] = 0,
+								},
+								["Wildthorn Venomspitter"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Ignite (DoT)"] = {
+							["Details"] = {
+								["Wrathtail Wave Rider"] = {
+									["count"] = 0,
+								},
+								["Foulweald Totemic"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ElementDoneResist"] = {
+						["Fire"] = 0,
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 0,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["Damage"] = 0,
+					["RunicPowerGain"] = 0,
+					["ElementTaken"] = {
+						["Melee"] = 0,
+					},
+					["DOT_Time"] = 0,
+					["ElementTakenBlock"] = {
+					},
+					["ElementDoneAbsorb"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["PartialBlock"] = {
+					},
+					["ElementHitsDone"] = {
+						["Fire"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 0,
+								},
+								["Tick"] = {
+									["count"] = 0,
+								},
+								["Miss"] = {
+									["count"] = 0,
+								},
+								["Crit"] = {
+									["count"] = 0,
+								},
+								["Evade"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Frost"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 0,
+								},
+								["Crit"] = {
+									["count"] = 0,
+								},
+								["Miss"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Arcane"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["FAttacks"] = {
+					},
+					["HealingTaken"] = 0,
+					["ElementDone"] = {
+						["Fire"] = 0,
+						["Frost"] = 0,
+						["Arcane"] = 0,
+					},
+					["DamagedWho"] = {
+						["Lesser Felguard"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+								["Pyroblast"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Wrathtail Wave Rider"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+								["Ignite (DoT)"] = {
+									["count"] = 0,
+								},
+								["Shoot"] = {
+									["count"] = 0,
+								},
+								["Fire Blast"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Foulweald Pathfinder"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Shadethicket Moss Eater"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+								["Frost Nova"] = {
+									["count"] = 0,
+								},
+								["Fire Blast"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Foulweald Warrior"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+								["Arcane Explosion"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Wrathtail Priestess"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+								["Pyroblast"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Young Forest Bear"] = {
+							["Details"] = {
+								["Blizzard"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Foulweald Ursa"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+								["Pyroblast"] = {
+									["count"] = 0,
+								},
+								["Pyroblast (DoT)"] = {
+									["count"] = 0,
+								},
+								["Fire Blast"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Wildthorn Venomspitter"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+								["Pyroblast"] = {
+									["count"] = 0,
+								},
+								["Pyroblast (DoT)"] = {
+									["count"] = 0,
+								},
+								["Fire Blast"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Prowler"] = {
+							["Details"] = {
+								["Blizzard"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Ghostpaw Runner"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Wrathtail Sorceress"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+								["Shoot"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Wrathtail Myrmidon"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+								["Fire Blast"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Foulweald Totemic"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+								["Pyroblast"] = {
+									["count"] = 0,
+								},
+								["Ignite (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ManaGainedFrom"] = {
+					},
+					["RunicPowerGained"] = {
+					},
+					["WhoDamaged"] = {
+						["Lesser Felguard"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Wrathtail Myrmidon"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Wrathtail Wave Rider"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Foulweald Warrior"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["CCBroken"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+						["Graz'kath <Tapatapa>"] = {
+							["Details"] = {
+								["Gift of the Naaru"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["OverHeals"] = {
+					},
+					["WhoHealed"] = {
+					},
+					["HealedWho"] = {
+						["Graz'kath <Tapatapa>"] = {
+							["Details"] = {
+								["Gift of the Naaru"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["CCBreak"] = 0,
+					["ElementTakenAbsorb"] = {
+					},
+					["PartialAbsorb"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["PartialResist"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["ManaGained"] = {
+					},
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["Overhealing"] = 0,
+					["TimeSpent"] = {
+						["Wrathtail Priestess"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+								["Pyroblast"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Wrathtail Wave Rider"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+								["Ignite (DoT)"] = {
+									["count"] = 0,
+								},
+								["Shoot"] = {
+									["count"] = 0,
+								},
+								["Fire Blast"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Foulweald Warrior"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+								["Arcane Explosion"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Foulweald Pathfinder"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Shadethicket Moss Eater"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+								["Frost Nova"] = {
+									["count"] = 0,
+								},
+								["Fire Blast"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Foulweald Ursa"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+								["Pyroblast"] = {
+									["count"] = 0,
+								},
+								["Pyroblast (DoT)"] = {
+									["count"] = 0,
+								},
+								["Fire Blast"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Graz'kath <Tapatapa>"] = {
+							["Details"] = {
+								["Gift of the Naaru"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Young Forest Bear"] = {
+							["Details"] = {
+								["Blizzard"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Wrathtail Sorceress"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+								["Shoot"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Wildthorn Venomspitter"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+								["Pyroblast"] = {
+									["count"] = 0,
+								},
+								["Pyroblast (DoT)"] = {
+									["count"] = 0,
+								},
+								["Fire Blast"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Prowler"] = {
+							["Details"] = {
+								["Blizzard"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Ghostpaw Runner"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Wrathtail Myrmidon"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+								["Fire Blast"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Lesser Felguard"] = {
+							["Details"] = {
+								["Chilled"] = {
+									["count"] = 0,
+								},
+								["Pyroblast"] = {
+									["count"] = 0,
+								},
+								["Fireball"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Foulweald Totemic"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+								["Pyroblast"] = {
+									["count"] = 0,
+								},
+								["Ignite (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["WhoDispelled"] = {
+					},
+					["InterruptData"] = {
+					},
+					["ElementTakenResist"] = {
+					},
+					["Heals"] = {
+						["Gift of the Naaru"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["ActiveTime"] = 0,
+					["EnergyGained"] = {
+					},
+					["EnergyGain"] = 0,
+					["Healing"] = 0,
+					["Dispelled"] = 0,
+					["RageGained"] = {
+					},
+					["Attacks"] = {
+						["Fireball"] = {
+							["Details"] = {
+								["Evade"] = {
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Miss"] = {
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Pyroblast (DoT)"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Blizzard"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Arcane Explosion"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Fire Blast"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Chilled"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Pyroblast"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Ignite (DoT)"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Frost Nova"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Shoot"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["RageGain"] = 0,
+					["FDamagedWho"] = {
+					},
+					["TimeDamage"] = 0,
+					["TimeDamaging"] = {
+						["Lesser Felguard"] = {
+							["Details"] = {
+								["Chilled"] = {
+									["count"] = 0,
+								},
+								["Pyroblast"] = {
+									["count"] = 0,
+								},
+								["Fireball"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Wrathtail Wave Rider"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+								["Ignite (DoT)"] = {
+									["count"] = 0,
+								},
+								["Shoot"] = {
+									["count"] = 0,
+								},
+								["Fire Blast"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Foulweald Pathfinder"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Shadethicket Moss Eater"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+								["Frost Nova"] = {
+									["count"] = 0,
+								},
+								["Fire Blast"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Foulweald Warrior"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+								["Arcane Explosion"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Wrathtail Priestess"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+								["Pyroblast"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Young Forest Bear"] = {
+							["Details"] = {
+								["Blizzard"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Foulweald Ursa"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+								["Pyroblast"] = {
+									["count"] = 0,
+								},
+								["Pyroblast (DoT)"] = {
+									["count"] = 0,
+								},
+								["Fire Blast"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Wildthorn Venomspitter"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+								["Pyroblast"] = {
+									["count"] = 0,
+								},
+								["Pyroblast (DoT)"] = {
+									["count"] = 0,
+								},
+								["Fire Blast"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Prowler"] = {
+							["Details"] = {
+								["Blizzard"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Ghostpaw Runner"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Wrathtail Sorceress"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+								["Shoot"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Wrathtail Myrmidon"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+								["Fire Blast"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Foulweald Totemic"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+								["Pyroblast"] = {
+									["count"] = 0,
+								},
+								["Ignite (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ManaGain"] = 0,
+					["HOTs"] = {
+						["Gift of the Naaru"] = {
+							["Details"] = {
+								["Graz'kath <Tapatapa>"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["Fight5"] = {
+					["DOTs"] = {
+						["Pyroblast (DoT)"] = {
+							["Details"] = {
+								["Foulweald Warrior"] = {
+									["count"] = 0,
+								},
+								["Elder Ashenvale Bear"] = {
+									["count"] = 0,
+								},
+								["Wrathtail Sorceress"] = {
+									["count"] = 0,
+								},
+								["Forsaken Seeker"] = {
+									["count"] = 0,
+								},
+								["Wildthorn Stalker"] = {
+									["count"] = 0,
+								},
+								["Foulweald Den Watcher"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Ignite (DoT)"] = {
+							["Details"] = {
+								["Wrathtail Wave Rider"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ElementDoneResist"] = {
+						["Fire"] = 0,
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 73,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+						["Physical"] = {
+							["Details"] = {
+								["Tick"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Crushing"] = {
+									["count"] = 0,
+								},
+								["Miss"] = {
+									["count"] = 0,
+								},
+								["Crit"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 4,
+								},
+							},
+							["amount"] = 4,
+						},
+						["Nature"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["Damage"] = 390,
+					["RunicPowerGain"] = 0,
+					["ElementTaken"] = {
+						["Melee"] = 73,
+						["Physical"] = 0,
+					},
+					["DOT_Time"] = 0,
+					["ElementTakenBlock"] = {
+					},
+					["ElementDoneAbsorb"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["PartialBlock"] = {
+					},
+					["ElementHitsDone"] = {
+						["Fire"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 0,
+								},
+								["Tick"] = {
+									["count"] = 0,
+								},
+								["Crit"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Frost"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 0,
+								},
+								["Crit"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 10,
+								},
+							},
+							["amount"] = 10,
+						},
+						["Arcane"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["FAttacks"] = {
+					},
+					["HealingTaken"] = 0,
+					["ElementDone"] = {
+						["Fire"] = 0,
+						["Frost"] = 390,
+						["Arcane"] = 0,
+					},
+					["DamagedWho"] = {
+						["Wrathtail Myrmidon"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+								["Shoot"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Forsaken Seeker"] = {
+							["Details"] = {
+								["Frost Nova"] = {
+									["count"] = 0,
+								},
+								["Pyroblast"] = {
+									["count"] = 0,
+								},
+								["Pyroblast (DoT)"] = {
+									["count"] = 0,
+								},
+								["Fireball"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Foulweald Den Watcher"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+								["Pyroblast"] = {
+									["count"] = 0,
+								},
+								["Pyroblast (DoT)"] = {
+									["count"] = 0,
+								},
+								["Frost Nova"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Ruuzel"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+								["Fire Blast"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Wrathtail Sorceress"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+								["Pyroblast"] = {
+									["count"] = 0,
+								},
+								["Pyroblast (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Elder Ashenvale Bear"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+								["Pyroblast"] = {
+									["count"] = 0,
+								},
+								["Pyroblast (DoT)"] = {
+									["count"] = 0,
+								},
+								["Fire Blast"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Forsaken Thug"] = {
+							["Details"] = {
+								["Frost Nova"] = {
+									["count"] = 0,
+								},
+								["Fireball"] = {
+									["count"] = 0,
+								},
+								["Fire Blast"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Wrathtail Wave Rider"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+								["Ignite (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Ghostpaw Runner"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+								["Pyroblast"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Forsaken Herbalist"] = {
+							["Details"] = {
+								["Pyroblast"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Shadethicket Moss Eater"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Mystlash Hydra"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Wrathtail Sea Witch"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Tarantula"] = {
+							["Details"] = {
+								["Blizzard"] = {
+									["count"] = 390,
+								},
+							},
+							["amount"] = 390,
+						},
+						["Felslayer"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+								["Fire Blast"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Saltspittle Warrior"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Foulweald Shaman"] = {
+							["Details"] = {
+								["Frost Nova"] = {
+									["count"] = 0,
+								},
+								["Fireball"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Lesser Felguard"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+								["Fire Blast"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Wrathtail Priestess"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+								["Pyroblast"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Wildthorn Stalker"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+								["Pyroblast"] = {
+									["count"] = 0,
+								},
+								["Pyroblast (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Foulweald Warrior"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+								["Pyroblast"] = {
+									["count"] = 0,
+								},
+								["Pyroblast (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ManaGainedFrom"] = {
+					},
+					["RunicPowerGained"] = {
+					},
+					["WhoDamaged"] = {
+						["Forsaken Thug"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Forsaken Seeker"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Foulweald Den Watcher"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Shadethicket Moss Eater"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Ruuzel"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Heroic Strike"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Felslayer"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Tarantula"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 73,
+								},
+							},
+							["amount"] = 73,
+						},
+						["Wrathtail Myrmidon"] = {
+							["Details"] = {
+								["Strike"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Rend (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Elder Ashenvale Bear"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Wildthorn Stalker"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Foulweald Warrior"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["CCBroken"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+						["Graz'kath <Tapatapa>"] = {
+							["Details"] = {
+								["Gift of the Naaru"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["OverHeals"] = {
+					},
+					["WhoHealed"] = {
+					},
+					["HealedWho"] = {
+						["Graz'kath <Tapatapa>"] = {
+							["Details"] = {
+								["Gift of the Naaru"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["CCBreak"] = 0,
+					["ElementTakenAbsorb"] = {
+					},
+					["PartialAbsorb"] = {
+						["Strike"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 4,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 4,
+							["amount"] = 0,
+						},
+						["Corrupted Strength"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Rend (DoT)"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Heroic Strike"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["PartialResist"] = {
+						["Strike"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 4,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 4,
+							["amount"] = 0,
+						},
+						["Corrupted Strength"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Rend (DoT)"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Heroic Strike"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["ManaGained"] = {
+					},
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["Overhealing"] = 0,
+					["TimeSpent"] = {
+						["Wrathtail Myrmidon"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+								["Shoot"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Forsaken Seeker"] = {
+							["Details"] = {
+								["Frost Nova"] = {
+									["count"] = 0,
+								},
+								["Pyroblast"] = {
+									["count"] = 0,
+								},
+								["Pyroblast (DoT)"] = {
+									["count"] = 0,
+								},
+								["Fireball"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Foulweald Den Watcher"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+								["Pyroblast"] = {
+									["count"] = 0,
+								},
+								["Pyroblast (DoT)"] = {
+									["count"] = 0,
+								},
+								["Frost Nova"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Ruuzel"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+								["Fire Blast"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Wrathtail Sorceress"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+								["Pyroblast"] = {
+									["count"] = 0,
+								},
+								["Pyroblast (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Elder Ashenvale Bear"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+								["Pyroblast"] = {
+									["count"] = 0,
+								},
+								["Pyroblast (DoT)"] = {
+									["count"] = 0,
+								},
+								["Chilled"] = {
+									["count"] = 0,
+								},
+								["Fire Blast"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Ghostpaw Runner"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+								["Pyroblast"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Forsaken Thug"] = {
+							["Details"] = {
+								["Frost Nova"] = {
+									["count"] = 0,
+								},
+								["Fireball"] = {
+									["count"] = 0,
+								},
+								["Fire Blast"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Wrathtail Wave Rider"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+								["Ignite (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Tarantula"] = {
+							["Details"] = {
+								["Blizzard"] = {
+									["count"] = 17.48,
+								},
+							},
+							["amount"] = 17.48,
+						},
+						["Forsaken Herbalist"] = {
+							["Details"] = {
+								["Pyroblast"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Graz'kath <Tapatapa>"] = {
+							["Details"] = {
+								["Gift of the Naaru"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Mystlash Hydra"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Wrathtail Sea Witch"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Shadethicket Moss Eater"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Felslayer"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+								["Fire Blast"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Saltspittle Warrior"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Foulweald Shaman"] = {
+							["Details"] = {
+								["Frost Nova"] = {
+									["count"] = 0,
+								},
+								["Fireball"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Lesser Felguard"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+								["Fire Blast"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Wrathtail Priestess"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+								["Pyroblast"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Wildthorn Stalker"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+								["Pyroblast"] = {
+									["count"] = 0,
+								},
+								["Pyroblast (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Foulweald Warrior"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+								["Pyroblast"] = {
+									["count"] = 0,
+								},
+								["Pyroblast (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["WhoDispelled"] = {
+					},
+					["InterruptData"] = {
+					},
+					["ElementTakenResist"] = {
+					},
+					["Heals"] = {
+						["Gift of the Naaru"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["ActiveTime"] = 17.48,
+					["EnergyGained"] = {
+					},
+					["EnergyGain"] = 0,
+					["Healing"] = 0,
+					["Dispelled"] = 0,
+					["RageGained"] = {
+					},
+					["Attacks"] = {
+						["Fireball"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Pyroblast (DoT)"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Blizzard"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 39,
+									["min"] = 39,
+									["count"] = 10,
+									["amount"] = 390,
+								},
+							},
+							["count"] = 10,
+							["amount"] = 390,
+						},
+						["Fire Blast"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Shoot"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Pyroblast"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Ignite (DoT)"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Frost Nova"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Chilled"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["RageGain"] = 0,
+					["FDamagedWho"] = {
+					},
+					["TimeDamage"] = 17.48,
+					["TimeDamaging"] = {
+						["Wrathtail Myrmidon"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+								["Shoot"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Forsaken Seeker"] = {
+							["Details"] = {
+								["Frost Nova"] = {
+									["count"] = 0,
+								},
+								["Pyroblast"] = {
+									["count"] = 0,
+								},
+								["Pyroblast (DoT)"] = {
+									["count"] = 0,
+								},
+								["Fireball"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Foulweald Den Watcher"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+								["Pyroblast"] = {
+									["count"] = 0,
+								},
+								["Pyroblast (DoT)"] = {
+									["count"] = 0,
+								},
+								["Frost Nova"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Ruuzel"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+								["Fire Blast"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Wrathtail Sorceress"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+								["Pyroblast"] = {
+									["count"] = 0,
+								},
+								["Pyroblast (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Elder Ashenvale Bear"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+								["Pyroblast"] = {
+									["count"] = 0,
+								},
+								["Pyroblast (DoT)"] = {
+									["count"] = 0,
+								},
+								["Chilled"] = {
+									["count"] = 0,
+								},
+								["Fire Blast"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Forsaken Thug"] = {
+							["Details"] = {
+								["Frost Nova"] = {
+									["count"] = 0,
+								},
+								["Fireball"] = {
+									["count"] = 0,
+								},
+								["Fire Blast"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Wrathtail Wave Rider"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+								["Ignite (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Ghostpaw Runner"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+								["Pyroblast"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Forsaken Herbalist"] = {
+							["Details"] = {
+								["Pyroblast"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Shadethicket Moss Eater"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Mystlash Hydra"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Wrathtail Sea Witch"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Tarantula"] = {
+							["Details"] = {
+								["Blizzard"] = {
+									["count"] = 17.48,
+								},
+							},
+							["amount"] = 17.48,
+						},
+						["Felslayer"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+								["Fire Blast"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Saltspittle Warrior"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Foulweald Shaman"] = {
+							["Details"] = {
+								["Frost Nova"] = {
+									["count"] = 0,
+								},
+								["Fireball"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Lesser Felguard"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+								["Fire Blast"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Wrathtail Priestess"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+								["Pyroblast"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Wildthorn Stalker"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+								["Pyroblast"] = {
+									["count"] = 0,
+								},
+								["Pyroblast (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Foulweald Warrior"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+								["Pyroblast"] = {
+									["count"] = 0,
+								},
+								["Pyroblast (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ManaGain"] = 0,
+					["HOTs"] = {
+						["Gift of the Naaru"] = {
+							["Details"] = {
+								["Graz'kath <Tapatapa>"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["Fight4"] = {
+					["TimeHealing"] = {
+						["Sculamare"] = {
+							["Details"] = {
+								["Healing Potion"] = {
+									["count"] = 2.31,
+								},
+								["Gift of the Naaru"] = {
+									["count"] = 11.2,
+								},
+							},
+							["amount"] = 13.51,
+						},
+					},
+					["DOTs"] = {
+						["Pyroblast (DoT)"] = {
+							["Details"] = {
+								["Wrathtail Priestess"] = {
+									["count"] = 0,
+								},
+								["Thistlefur Shaman"] = {
+									["count"] = 0,
+								},
+								["Forsaken Seeker"] = {
+									["count"] = 0,
+								},
+								["Thistlefur Pathfinder"] = {
+									["count"] = 0,
+								},
+								["Elder Ashenvale Bear"] = {
+									["count"] = 0,
+								},
+								["Wildthorn Stalker"] = {
+									["count"] = 0,
+								},
+								["Foulweald Warrior"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Ignite (DoT)"] = {
+							["Details"] = {
+								["Thistlefur Pathfinder"] = {
+									["count"] = 0,
+								},
+								["Wrathtail Wave Rider"] = {
+									["count"] = 0,
+								},
+								["Wildthorn Stalker"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ElementDoneResist"] = {
+						["Fire"] = 0,
+					},
+					["TimeSpent"] = {
+						["Redridge Poacher"] = {
+							["Details"] = {
+								["Blizzard"] = {
+									["count"] = 6.5,
+								},
+							},
+							["amount"] = 6.5,
+						},
+						["Lesser Felguard"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+								["Frost Nova"] = {
+									["count"] = 0,
+								},
+								["Shoot"] = {
+									["count"] = 0,
+								},
+								["Fire Blast"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Thistlefur Pathfinder"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+								["Pyroblast"] = {
+									["count"] = 0,
+								},
+								["Pyroblast (DoT)"] = {
+									["count"] = 0,
+								},
+								["Ignite (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Forsaken Seeker"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+								["Pyroblast"] = {
+									["count"] = 0,
+								},
+								["Pyroblast (DoT)"] = {
+									["count"] = 0,
+								},
+								["Shoot"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Ruuzel"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Wrathtail Sorceress"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+								["Pyroblast"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Elder Ashenvale Bear"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+								["Pyroblast"] = {
+									["count"] = 0,
+								},
+								["Pyroblast (DoT)"] = {
+									["count"] = 0,
+								},
+								["Frost Nova"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Fire Blast"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Redridge Mongrel"] = {
+							["Details"] = {
+								["Blizzard"] = {
+									["count"] = 6.5,
+								},
+							},
+							["amount"] = 6.5,
+						},
+						["Foulweald Totemic"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+								["Fire Blast"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Wrathtail Wave Rider"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+								["Pyroblast"] = {
+									["count"] = 0,
+								},
+								["Ignite (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Sculamare"] = {
+							["Details"] = {
+								["Healing Potion"] = {
+									["count"] = 2.31,
+								},
+								["Gift of the Naaru"] = {
+									["count"] = 11.2,
+								},
+							},
+							["amount"] = 13.51,
+						},
+						["Forsaken Herbalist"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+								["Pyroblast"] = {
+									["count"] = 0,
+								},
+								["Frost Nova"] = {
+									["count"] = 0,
+								},
+								["Fire Blast"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Thistlefur Shaman"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+								["Pyroblast"] = {
+									["count"] = 0,
+								},
+								["Pyroblast (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Saltspittle Puddlejumper"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Wrathtail Sea Witch"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+								["Shoot"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Thistlefur Avenger"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+								["Pyroblast"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Shadethicket Moss Eater"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Felslayer"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Wrathtail Priestess"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+								["Pyroblast"] = {
+									["count"] = 0,
+								},
+								["Pyroblast (DoT)"] = {
+									["count"] = 0,
+								},
+								["Shoot"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Wrathtail Razortail"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Wrathtail Myrmidon"] = {
+							["Details"] = {
+								["Fire Blast"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Wildthorn Stalker"] = {
+							["Details"] = {
+								["Shoot"] = {
+									["count"] = 0,
+								},
+								["Fireball"] = {
+									["count"] = 0,
+								},
+								["Pyroblast (DoT)"] = {
+									["count"] = 0,
+								},
+								["Ignite (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Foulweald Warrior"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+								["Pyroblast"] = {
+									["count"] = 0,
+								},
+								["Pyroblast (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["DamageTaken"] = 490,
+					["PartialResist"] = {
+						["Shoot"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 12,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 12,
+							["amount"] = 0,
+						},
+						["Fire"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 12,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 12,
+							["amount"] = 0,
+						},
+						["Lightning Blast"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["OverHeals"] = {
+						["Gift of the Naaru"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 80,
+									["min"] = 34,
+									["count"] = 4,
+									["amount"] = 234,
+								},
+							},
+							["count"] = 4,
+							["amount"] = 234,
+						},
+					},
+					["HOT_Time"] = 15,
+					["ActiveTime"] = 26.51,
+					["Overhealing"] = 234,
+					["ElementTaken"] = {
+						["Fire"] = 0,
+						["Physical"] = 321,
+						["Melee"] = 169,
+						["Nature"] = 0,
+					},
+					["DOT_Time"] = 0,
+					["Damage"] = 797,
+					["HOTs"] = {
+						["Gift of the Naaru"] = {
+							["Details"] = {
+								["Sculamare"] = {
+									["count"] = 15,
+								},
+							},
+							["amount"] = 15,
+						},
+					},
+					["TimeHeal"] = 13.51,
+					["TimeDamaging"] = {
+						["Redridge Poacher"] = {
+							["Details"] = {
+								["Blizzard"] = {
+									["count"] = 6.5,
+								},
+							},
+							["amount"] = 6.5,
+						},
+						["Lesser Felguard"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+								["Frost Nova"] = {
+									["count"] = 0,
+								},
+								["Shoot"] = {
+									["count"] = 0,
+								},
+								["Fire Blast"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Thistlefur Pathfinder"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+								["Pyroblast"] = {
+									["count"] = 0,
+								},
+								["Pyroblast (DoT)"] = {
+									["count"] = 0,
+								},
+								["Ignite (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Forsaken Seeker"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+								["Pyroblast"] = {
+									["count"] = 0,
+								},
+								["Pyroblast (DoT)"] = {
+									["count"] = 0,
+								},
+								["Shoot"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Ruuzel"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Wrathtail Sorceress"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+								["Pyroblast"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Elder Ashenvale Bear"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+								["Pyroblast"] = {
+									["count"] = 0,
+								},
+								["Pyroblast (DoT)"] = {
+									["count"] = 0,
+								},
+								["Frost Nova"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Fire Blast"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Redridge Mongrel"] = {
+							["Details"] = {
+								["Blizzard"] = {
+									["count"] = 6.5,
+								},
+							},
+							["amount"] = 6.5,
+						},
+						["Wrathtail Wave Rider"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+								["Pyroblast"] = {
+									["count"] = 0,
+								},
+								["Ignite (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Foulweald Totemic"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+								["Fire Blast"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Forsaken Herbalist"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+								["Pyroblast"] = {
+									["count"] = 0,
+								},
+								["Frost Nova"] = {
+									["count"] = 0,
+								},
+								["Fire Blast"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Thistlefur Shaman"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+								["Pyroblast"] = {
+									["count"] = 0,
+								},
+								["Pyroblast (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Saltspittle Puddlejumper"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Wrathtail Sea Witch"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+								["Shoot"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Thistlefur Avenger"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+								["Pyroblast"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Shadethicket Moss Eater"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Felslayer"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Wrathtail Priestess"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+								["Pyroblast"] = {
+									["count"] = 0,
+								},
+								["Pyroblast (DoT)"] = {
+									["count"] = 0,
+								},
+								["Shoot"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Wrathtail Razortail"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Wrathtail Myrmidon"] = {
+							["Details"] = {
+								["Fire Blast"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Wildthorn Stalker"] = {
+							["Details"] = {
+								["Shoot"] = {
+									["count"] = 0,
+								},
+								["Fireball"] = {
+									["count"] = 0,
+								},
+								["Pyroblast (DoT)"] = {
+									["count"] = 0,
+								},
+								["Ignite (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Foulweald Warrior"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+								["Pyroblast"] = {
+									["count"] = 0,
+								},
+								["Pyroblast (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["HealedWho"] = {
+						["Sculamare"] = {
+							["Details"] = {
+								["Healing Potion"] = {
+									["count"] = 324,
+								},
+								["Gift of the Naaru"] = {
+									["count"] = 166,
+								},
+							},
+							["amount"] = 490,
+						},
+					},
+					["DamagedWho"] = {
+						["Redridge Poacher"] = {
+							["Details"] = {
+								["Blizzard"] = {
+									["count"] = 485,
+								},
+							},
+							["amount"] = 485,
+						},
+						["Lesser Felguard"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+								["Frost Nova"] = {
+									["count"] = 0,
+								},
+								["Shoot"] = {
+									["count"] = 0,
+								},
+								["Fire Blast"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Thistlefur Pathfinder"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+								["Pyroblast"] = {
+									["count"] = 0,
+								},
+								["Pyroblast (DoT)"] = {
+									["count"] = 0,
+								},
+								["Ignite (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Forsaken Seeker"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+								["Pyroblast"] = {
+									["count"] = 0,
+								},
+								["Pyroblast (DoT)"] = {
+									["count"] = 0,
+								},
+								["Shoot"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Ruuzel"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Wrathtail Sorceress"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+								["Pyroblast"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Elder Ashenvale Bear"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+								["Pyroblast"] = {
+									["count"] = 0,
+								},
+								["Pyroblast (DoT)"] = {
+									["count"] = 0,
+								},
+								["Frost Nova"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Fire Blast"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Redridge Mongrel"] = {
+							["Details"] = {
+								["Blizzard"] = {
+									["count"] = 312,
+								},
+							},
+							["amount"] = 312,
+						},
+						["Wrathtail Wave Rider"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+								["Pyroblast"] = {
+									["count"] = 0,
+								},
+								["Ignite (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Foulweald Totemic"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+								["Fire Blast"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Forsaken Herbalist"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+								["Pyroblast"] = {
+									["count"] = 0,
+								},
+								["Frost Nova"] = {
+									["count"] = 0,
+								},
+								["Fire Blast"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Thistlefur Shaman"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+								["Pyroblast"] = {
+									["count"] = 0,
+								},
+								["Pyroblast (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Saltspittle Puddlejumper"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Wrathtail Sea Witch"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+								["Shoot"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Thistlefur Avenger"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Shadethicket Moss Eater"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Felslayer"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Wrathtail Priestess"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+								["Pyroblast"] = {
+									["count"] = 0,
+								},
+								["Pyroblast (DoT)"] = {
+									["count"] = 0,
+								},
+								["Shoot"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Wrathtail Razortail"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Wrathtail Myrmidon"] = {
+							["Details"] = {
+								["Fire Blast"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Wildthorn Stalker"] = {
+							["Details"] = {
+								["Shoot"] = {
+									["count"] = 0,
+								},
+								["Fireball"] = {
+									["count"] = 0,
+								},
+								["Pyroblast (DoT)"] = {
+									["count"] = 0,
+								},
+								["Ignite (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Foulweald Warrior"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+								["Pyroblast"] = {
+									["count"] = 0,
+								},
+								["Pyroblast (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["Healing"] = 490,
+					["Heals"] = {
+						["Healing Potion"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 324,
+									["min"] = 324,
+									["count"] = 1,
+									["amount"] = 324,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 324,
+						},
+						["Gift of the Naaru"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 80,
+									["min"] = 16,
+									["count"] = 4,
+									["amount"] = 166,
+								},
+							},
+							["count"] = 4,
+							["amount"] = 166,
+						},
+					},
+					["ElementDone"] = {
+						["Frost"] = 797,
+						["Fire"] = 0,
+						["Melee"] = 0,
+						["Arcane"] = 0,
+					},
+					["Attacks"] = {
+						["Fireball"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Glancing"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Blizzard"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 59,
+									["min"] = 59,
+									["count"] = 1,
+									["amount"] = 59,
+								},
+								["Hit"] = {
+									["max"] = 39,
+									["min"] = 38,
+									["count"] = 19,
+									["amount"] = 738,
+								},
+							},
+							["count"] = 20,
+							["amount"] = 797,
+						},
+						["Fire Blast"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Shoot"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Pyroblast"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Ignite (DoT)"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Frost Nova"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Pyroblast (DoT)"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["HealingTaken"] = 490,
+					["ElementHitsDone"] = {
+						["Frost"] = {
+							["Details"] = {
+								["Crit"] = {
+									["count"] = 1,
+								},
+								["Hit"] = {
+									["count"] = 19,
+								},
+							},
+							["amount"] = 20,
+						},
+						["Fire"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 0,
+								},
+								["Miss"] = {
+									["count"] = 0,
+								},
+								["Crit"] = {
+									["count"] = 0,
+								},
+								["Tick"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Glancing"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Arcane"] = {
+							["Details"] = {
+								["Crit"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["TimeDamage"] = 13,
+					["WhoDamaged"] = {
+						["Redridge Poacher"] = {
+							["Details"] = {
+								["Shoot"] = {
+									["count"] = 321,
+								},
+							},
+							["amount"] = 321,
+						},
+						["Lesser Felguard"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Thistlefur Pathfinder"] = {
+							["Details"] = {
+								["Shoot"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Foulweald Totemic"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Forsaken Herbalist"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Wrathtail Sea Witch"] = {
+							["Details"] = {
+								["Lightning Blast"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Redridge Thrasher"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 91,
+								},
+							},
+							["amount"] = 91,
+						},
+						["Ruuzel"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Felslayer"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Environment"] = {
+							["Details"] = {
+								["Fire"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Redridge Mongrel"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 78,
+								},
+							},
+							["amount"] = 78,
+						},
+						["Elder Ashenvale Bear"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Wildthorn Stalker"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Foulweald Warrior"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ElementHitsTaken"] = {
+						["Fire"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Physical"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 12,
+								},
+							},
+							["amount"] = 12,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Dodge"] = {
+									["count"] = 0,
+								},
+								["Miss"] = {
+									["count"] = 1,
+								},
+								["Crit"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 11,
+								},
+							},
+							["amount"] = 12,
+						},
+						["Nature"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["WhoHealed"] = {
+						["Sculamare"] = {
+							["Details"] = {
+								["Healing Potion"] = {
+									["count"] = 324,
+								},
+								["Gift of the Naaru"] = {
+									["count"] = 166,
+								},
+							},
+							["amount"] = 490,
+						},
+					},
+					["PartialAbsorb"] = {
+						["Shoot"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 12,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 12,
+							["amount"] = 0,
+						},
+						["Fire"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 12,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 12,
+							["amount"] = 0,
+						},
+						["Lightning Blast"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+				},
+				["LastFightData"] = {
+					["DOTs"] = {
+						["Pyroblast (DoT)"] = {
+							["Details"] = {
+								["Foulweald Pathfinder"] = {
+									["count"] = 0,
+								},
+								["Ashenvale Bear"] = {
+									["count"] = 0,
+								},
+								["Foulweald Warrior"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ElementDoneResist"] = {
+						["Fire"] = 0,
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 177,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+						["Frost"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Dodge"] = {
+									["count"] = 0,
+								},
+								["Crushing"] = {
+									["count"] = 0,
+								},
+								["Crit"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Physical"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 2,
+								},
+							},
+							["amount"] = 2,
+						},
+						["Shadow"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Holy"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["Damage"] = 0,
+					["RunicPowerGain"] = 0,
+					["ElementTaken"] = {
+						["Frost"] = 0,
+						["Melee"] = 0,
+						["Physical"] = 177,
+						["Shadow"] = 0,
+						["Holy"] = 0,
+					},
+					["DOT_Time"] = 0,
+					["ElementTakenBlock"] = {
+					},
+					["ElementDoneAbsorb"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["PartialBlock"] = {
+					},
+					["ElementHitsDone"] = {
+						["Frost"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 0,
+								},
+								["Miss"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Fire"] = {
+							["Details"] = {
+								["Tick"] = {
+									["count"] = 0,
+								},
+								["Miss"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Arcane"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["FAttacks"] = {
+					},
+					["HealingTaken"] = 0,
+					["ElementDone"] = {
+						["Frost"] = 0,
+						["Fire"] = 0,
+						["Melee"] = 0,
+						["Arcane"] = 0,
+					},
+					["DamagedWho"] = {
+						["Wrathtail Priestess"] = {
+							["Details"] = {
+								["Shoot"] = {
+									["count"] = 0,
+								},
+								["Pyroblast"] = {
+									["count"] = 0,
+								},
+								["Fireball"] = {
+									["count"] = 0,
+								},
+								["Fire Blast"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Ashenvale Bear"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+								["Pyroblast"] = {
+									["count"] = 0,
+								},
+								["Pyroblast (DoT)"] = {
+									["count"] = 0,
+								},
+								["Shoot"] = {
+									["count"] = 0,
+								},
+								["Fire Blast"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Ghostpaw Runner"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+								["Shoot"] = {
+									["count"] = 0,
+								},
+								["Fire Blast"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Elder Ashenvale Bear"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+								["Fire Blast"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Saltspittle Oracle"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+								["Pyroblast"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Wrathtail Wave Rider"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Foulweald Pathfinder"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+								["Pyroblast"] = {
+									["count"] = 0,
+								},
+								["Pyroblast (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Foulweald Totemic"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+								["Pyroblast"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Ilkrud Magthrull"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Saltspittle Puddlejumper"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+								["Shoot"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Forsaken Seeker"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Felslayer"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Prowler"] = {
+							["Details"] = {
+								["Blizzard"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Akkrilus"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Wrathtail Sorceress"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Wildthorn Stalker"] = {
+							["Details"] = {
+								["Pyroblast"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Foulweald Warrior"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+								["Pyroblast"] = {
+									["count"] = 0,
+								},
+								["Pyroblast (DoT)"] = {
+									["count"] = 0,
+								},
+								["Fire Blast"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ManaGainedFrom"] = {
+					},
+					["RunicPowerGained"] = {
+					},
+					["WhoDamaged"] = {
+						["Wrathtail Priestess"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Randomroge"] = {
+							["Details"] = {
+								["Shoot"] = {
+									["count"] = 177,
+								},
+							},
+							["amount"] = 177,
+						},
+						["Foulweald Pathfinder"] = {
+							["Details"] = {
+								["Shoot"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Ashenvale Bear"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Saltspittle Puddlejumper"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Forsaken Seeker"] = {
+							["Details"] = {
+								["Holy Smite"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Felslayer"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Mana Burn"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Prowler"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Ghostpaw Runner"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Elder Ashenvale Bear"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Wrathtail Sorceress"] = {
+							["Details"] = {
+								["Frostbolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Foulweald Warrior"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["CCBroken"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+						["Sculamare"] = {
+							["Details"] = {
+								["Gift of the Naaru"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Graz'kath <Tapatapa>"] = {
+							["Details"] = {
+								["Gift of the Naaru"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["OverHeals"] = {
+						["Gift of the Naaru"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["WhoHealed"] = {
+						["Sculamare"] = {
+							["Details"] = {
+								["Gift of the Naaru"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["HealedWho"] = {
+						["Sculamare"] = {
+							["Details"] = {
+								["Gift of the Naaru"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Graz'kath <Tapatapa>"] = {
+							["Details"] = {
+								["Gift of the Naaru"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["CCBreak"] = 0,
+					["ElementTakenAbsorb"] = {
+					},
+					["PartialAbsorb"] = {
+						["Holy Smite"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Mana Burn"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Frostbolt"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Shoot"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 0,
+						},
+					},
+					["PartialResist"] = {
+						["Holy Smite"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Mana Burn"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Frostbolt"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Shoot"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 0,
+						},
+					},
+					["ManaGained"] = {
+					},
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["Overhealing"] = 0,
+					["TimeSpent"] = {
+						["Wrathtail Priestess"] = {
+							["Details"] = {
+								["Shoot"] = {
+									["count"] = 0,
+								},
+								["Pyroblast"] = {
+									["count"] = 0,
+								},
+								["Fireball"] = {
+									["count"] = 0,
+								},
+								["Fire Blast"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Ashenvale Bear"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+								["Pyroblast"] = {
+									["count"] = 0,
+								},
+								["Pyroblast (DoT)"] = {
+									["count"] = 0,
+								},
+								["Shoot"] = {
+									["count"] = 0,
+								},
+								["Fire Blast"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Sculamare"] = {
+							["Details"] = {
+								["Gift of the Naaru"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Ghostpaw Runner"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+								["Shoot"] = {
+									["count"] = 0,
+								},
+								["Fire Blast"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Elder Ashenvale Bear"] = {
+							["Details"] = {
+								["Chilled"] = {
+									["count"] = 0,
+								},
+								["Fireball"] = {
+									["count"] = 0,
+								},
+								["Fire Blast"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Saltspittle Oracle"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+								["Pyroblast"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Wrathtail Wave Rider"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Foulweald Pathfinder"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+								["Pyroblast"] = {
+									["count"] = 0,
+								},
+								["Pyroblast (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Graz'kath <Tapatapa>"] = {
+							["Details"] = {
+								["Gift of the Naaru"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Foulweald Totemic"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+								["Pyroblast"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Ilkrud Magthrull"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Saltspittle Puddlejumper"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+								["Shoot"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Wrathtail Sorceress"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Felslayer"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Prowler"] = {
+							["Details"] = {
+								["Blizzard"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Akkrilus"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Forsaken Seeker"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Wildthorn Stalker"] = {
+							["Details"] = {
+								["Pyroblast"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Foulweald Warrior"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+								["Pyroblast"] = {
+									["count"] = 0,
+								},
+								["Pyroblast (DoT)"] = {
+									["count"] = 0,
+								},
+								["Fire Blast"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["WhoDispelled"] = {
+					},
+					["InterruptData"] = {
+					},
+					["ElementTakenResist"] = {
+					},
+					["Heals"] = {
+						["Gift of the Naaru"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["ActiveTime"] = 0,
+					["EnergyGained"] = {
+					},
+					["EnergyGain"] = 0,
+					["Healing"] = 0,
+					["Dispelled"] = 0,
+					["RageGained"] = {
+					},
+					["Attacks"] = {
+						["Shoot"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Pyroblast"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Pyroblast (DoT)"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Blizzard"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Chilled"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Fireball"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Fire Blast"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["RageGain"] = 0,
+					["FDamagedWho"] = {
+					},
+					["TimeDamage"] = 0,
+					["TimeDamaging"] = {
+						["Wrathtail Priestess"] = {
+							["Details"] = {
+								["Shoot"] = {
+									["count"] = 0,
+								},
+								["Pyroblast"] = {
+									["count"] = 0,
+								},
+								["Fireball"] = {
+									["count"] = 0,
+								},
+								["Fire Blast"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Ashenvale Bear"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+								["Pyroblast"] = {
+									["count"] = 0,
+								},
+								["Pyroblast (DoT)"] = {
+									["count"] = 0,
+								},
+								["Shoot"] = {
+									["count"] = 0,
+								},
+								["Fire Blast"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Ghostpaw Runner"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+								["Shoot"] = {
+									["count"] = 0,
+								},
+								["Fire Blast"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Elder Ashenvale Bear"] = {
+							["Details"] = {
+								["Chilled"] = {
+									["count"] = 0,
+								},
+								["Fireball"] = {
+									["count"] = 0,
+								},
+								["Fire Blast"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Saltspittle Oracle"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+								["Pyroblast"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Wrathtail Wave Rider"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Foulweald Pathfinder"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+								["Pyroblast"] = {
+									["count"] = 0,
+								},
+								["Pyroblast (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Foulweald Totemic"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+								["Pyroblast"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Ilkrud Magthrull"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Saltspittle Puddlejumper"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+								["Shoot"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Forsaken Seeker"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Felslayer"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Prowler"] = {
+							["Details"] = {
+								["Blizzard"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Akkrilus"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Wrathtail Sorceress"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Wildthorn Stalker"] = {
+							["Details"] = {
+								["Pyroblast"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Foulweald Warrior"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+								["Pyroblast"] = {
+									["count"] = 0,
+								},
+								["Pyroblast (DoT)"] = {
+									["count"] = 0,
+								},
+								["Fire Blast"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ManaGain"] = 0,
+					["HOTs"] = {
+						["Gift of the Naaru"] = {
+							["Details"] = {
+								["Sculamare"] = {
+									["count"] = 0,
+								},
+								["Graz'kath <Tapatapa>"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["Fight1"] = {
+					["DOTs"] = {
+						["Pyroblast (DoT)"] = {
+							["Details"] = {
+								["Foulweald Pathfinder"] = {
+									["count"] = 0,
+								},
+								["Ashenvale Bear"] = {
+									["count"] = 0,
+								},
+								["Foulweald Warrior"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ElementDoneResist"] = {
+						["Fire"] = 0,
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 177,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+						["Frost"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Dodge"] = {
+									["count"] = 0,
+								},
+								["Crushing"] = {
+									["count"] = 0,
+								},
+								["Crit"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Physical"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 2,
+								},
+							},
+							["amount"] = 2,
+						},
+						["Shadow"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Holy"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["Damage"] = 0,
+					["RunicPowerGain"] = 0,
+					["ElementTaken"] = {
+						["Frost"] = 0,
+						["Melee"] = 0,
+						["Physical"] = 177,
+						["Shadow"] = 0,
+						["Holy"] = 0,
+					},
+					["DOT_Time"] = 0,
+					["ElementTakenBlock"] = {
+					},
+					["ElementDoneAbsorb"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["PartialBlock"] = {
+					},
+					["ElementHitsDone"] = {
+						["Frost"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 0,
+								},
+								["Miss"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Fire"] = {
+							["Details"] = {
+								["Tick"] = {
+									["count"] = 0,
+								},
+								["Miss"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Arcane"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["FAttacks"] = {
+					},
+					["HealingTaken"] = 0,
+					["ElementDone"] = {
+						["Frost"] = 0,
+						["Fire"] = 0,
+						["Melee"] = 0,
+						["Arcane"] = 0,
+					},
+					["DamagedWho"] = {
+						["Wrathtail Priestess"] = {
+							["Details"] = {
+								["Shoot"] = {
+									["count"] = 0,
+								},
+								["Pyroblast"] = {
+									["count"] = 0,
+								},
+								["Fireball"] = {
+									["count"] = 0,
+								},
+								["Fire Blast"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Ashenvale Bear"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+								["Pyroblast"] = {
+									["count"] = 0,
+								},
+								["Pyroblast (DoT)"] = {
+									["count"] = 0,
+								},
+								["Shoot"] = {
+									["count"] = 0,
+								},
+								["Fire Blast"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Ghostpaw Runner"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+								["Shoot"] = {
+									["count"] = 0,
+								},
+								["Fire Blast"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Elder Ashenvale Bear"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+								["Fire Blast"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Saltspittle Oracle"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+								["Pyroblast"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Wrathtail Wave Rider"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Foulweald Pathfinder"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+								["Pyroblast"] = {
+									["count"] = 0,
+								},
+								["Pyroblast (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Foulweald Totemic"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+								["Pyroblast"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Ilkrud Magthrull"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Saltspittle Puddlejumper"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+								["Shoot"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Forsaken Seeker"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Felslayer"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Prowler"] = {
+							["Details"] = {
+								["Blizzard"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Akkrilus"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Wrathtail Sorceress"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Wildthorn Stalker"] = {
+							["Details"] = {
+								["Pyroblast"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Foulweald Warrior"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+								["Pyroblast"] = {
+									["count"] = 0,
+								},
+								["Pyroblast (DoT)"] = {
+									["count"] = 0,
+								},
+								["Fire Blast"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ManaGainedFrom"] = {
+					},
+					["RunicPowerGained"] = {
+					},
+					["WhoDamaged"] = {
+						["Wrathtail Priestess"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Randomroge"] = {
+							["Details"] = {
+								["Shoot"] = {
+									["count"] = 177,
+								},
+							},
+							["amount"] = 177,
+						},
+						["Foulweald Pathfinder"] = {
+							["Details"] = {
+								["Shoot"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Ashenvale Bear"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Saltspittle Puddlejumper"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Forsaken Seeker"] = {
+							["Details"] = {
+								["Holy Smite"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Felslayer"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Mana Burn"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Prowler"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Ghostpaw Runner"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Elder Ashenvale Bear"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Wrathtail Sorceress"] = {
+							["Details"] = {
+								["Frostbolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Foulweald Warrior"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["CCBroken"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+						["Sculamare"] = {
+							["Details"] = {
+								["Gift of the Naaru"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Graz'kath <Tapatapa>"] = {
+							["Details"] = {
+								["Gift of the Naaru"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["OverHeals"] = {
+						["Gift of the Naaru"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["WhoHealed"] = {
+						["Sculamare"] = {
+							["Details"] = {
+								["Gift of the Naaru"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["HealedWho"] = {
+						["Sculamare"] = {
+							["Details"] = {
+								["Gift of the Naaru"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Graz'kath <Tapatapa>"] = {
+							["Details"] = {
+								["Gift of the Naaru"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["CCBreak"] = 0,
+					["ElementTakenAbsorb"] = {
+					},
+					["PartialAbsorb"] = {
+						["Holy Smite"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Mana Burn"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Frostbolt"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Shoot"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 0,
+						},
+					},
+					["PartialResist"] = {
+						["Holy Smite"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Mana Burn"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Frostbolt"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Shoot"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 0,
+						},
+					},
+					["ManaGained"] = {
+					},
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["Overhealing"] = 0,
+					["TimeSpent"] = {
+						["Wrathtail Priestess"] = {
+							["Details"] = {
+								["Shoot"] = {
+									["count"] = 0,
+								},
+								["Pyroblast"] = {
+									["count"] = 0,
+								},
+								["Fireball"] = {
+									["count"] = 0,
+								},
+								["Fire Blast"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Ashenvale Bear"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+								["Pyroblast"] = {
+									["count"] = 0,
+								},
+								["Pyroblast (DoT)"] = {
+									["count"] = 0,
+								},
+								["Shoot"] = {
+									["count"] = 0,
+								},
+								["Fire Blast"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Sculamare"] = {
+							["Details"] = {
+								["Gift of the Naaru"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Ghostpaw Runner"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+								["Shoot"] = {
+									["count"] = 0,
+								},
+								["Fire Blast"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Elder Ashenvale Bear"] = {
+							["Details"] = {
+								["Chilled"] = {
+									["count"] = 0,
+								},
+								["Fireball"] = {
+									["count"] = 0,
+								},
+								["Fire Blast"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Saltspittle Oracle"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+								["Pyroblast"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Wrathtail Wave Rider"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Foulweald Pathfinder"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+								["Pyroblast"] = {
+									["count"] = 0,
+								},
+								["Pyroblast (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Graz'kath <Tapatapa>"] = {
+							["Details"] = {
+								["Gift of the Naaru"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Foulweald Totemic"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+								["Pyroblast"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Ilkrud Magthrull"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Saltspittle Puddlejumper"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+								["Shoot"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Wrathtail Sorceress"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Felslayer"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Prowler"] = {
+							["Details"] = {
+								["Blizzard"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Akkrilus"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Forsaken Seeker"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Wildthorn Stalker"] = {
+							["Details"] = {
+								["Pyroblast"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Foulweald Warrior"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+								["Pyroblast"] = {
+									["count"] = 0,
+								},
+								["Pyroblast (DoT)"] = {
+									["count"] = 0,
+								},
+								["Fire Blast"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["WhoDispelled"] = {
+					},
+					["InterruptData"] = {
+					},
+					["ElementTakenResist"] = {
+					},
+					["Heals"] = {
+						["Gift of the Naaru"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["ActiveTime"] = 0,
+					["EnergyGained"] = {
+					},
+					["EnergyGain"] = 0,
+					["Healing"] = 0,
+					["Dispelled"] = 0,
+					["RageGained"] = {
+					},
+					["Attacks"] = {
+						["Shoot"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Pyroblast"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Pyroblast (DoT)"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Blizzard"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Chilled"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Fireball"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Fire Blast"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["RageGain"] = 0,
+					["FDamagedWho"] = {
+					},
+					["TimeDamage"] = 0,
+					["TimeDamaging"] = {
+						["Wrathtail Priestess"] = {
+							["Details"] = {
+								["Shoot"] = {
+									["count"] = 0,
+								},
+								["Pyroblast"] = {
+									["count"] = 0,
+								},
+								["Fireball"] = {
+									["count"] = 0,
+								},
+								["Fire Blast"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Ashenvale Bear"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+								["Pyroblast"] = {
+									["count"] = 0,
+								},
+								["Pyroblast (DoT)"] = {
+									["count"] = 0,
+								},
+								["Shoot"] = {
+									["count"] = 0,
+								},
+								["Fire Blast"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Ghostpaw Runner"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+								["Shoot"] = {
+									["count"] = 0,
+								},
+								["Fire Blast"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Elder Ashenvale Bear"] = {
+							["Details"] = {
+								["Chilled"] = {
+									["count"] = 0,
+								},
+								["Fireball"] = {
+									["count"] = 0,
+								},
+								["Fire Blast"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Saltspittle Oracle"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+								["Pyroblast"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Wrathtail Wave Rider"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Foulweald Pathfinder"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+								["Pyroblast"] = {
+									["count"] = 0,
+								},
+								["Pyroblast (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Foulweald Totemic"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+								["Pyroblast"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Ilkrud Magthrull"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Saltspittle Puddlejumper"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+								["Shoot"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Forsaken Seeker"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Felslayer"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Prowler"] = {
+							["Details"] = {
+								["Blizzard"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Akkrilus"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Wrathtail Sorceress"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Wildthorn Stalker"] = {
+							["Details"] = {
+								["Pyroblast"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Foulweald Warrior"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+								["Pyroblast"] = {
+									["count"] = 0,
+								},
+								["Pyroblast (DoT)"] = {
+									["count"] = 0,
+								},
+								["Fire Blast"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ManaGain"] = 0,
+					["HOTs"] = {
+						["Gift of the Naaru"] = {
+							["Details"] = {
+								["Sculamare"] = {
+									["count"] = 0,
+								},
+								["Graz'kath <Tapatapa>"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["DispelledWho"] = {
+					},
+				},
 				["OverallData"] = {
 					["DOTs"] = {
 						["Pyroblast (DoT)"] = {
@@ -217,8 +7625,8 @@ RecountPerCharDB = {
 								["Foulweald Ursa"] = {
 									["count"] = 3,
 								},
-								["Foulweald Warrior"] = {
-									["count"] = 24,
+								["Foulweald Totemic"] = {
+									["count"] = 3,
 								},
 								["Forsaken Herbalist"] = {
 									["count"] = 3,
@@ -235,8 +7643,8 @@ RecountPerCharDB = {
 								["Saltspittle Puddlejumper"] = {
 									["count"] = 6,
 								},
-								["Thistlefur Avenger"] = {
-									["count"] = 18,
+								["Saltspittle Warrior"] = {
+									["count"] = 6,
 								},
 								["Felslayer"] = {
 									["count"] = 9,
@@ -244,8 +7652,8 @@ RecountPerCharDB = {
 								["Wrathtail Sorceress"] = {
 									["count"] = 6,
 								},
-								["Saltspittle Warrior"] = {
-									["count"] = 6,
+								["Thistlefur Avenger"] = {
+									["count"] = 18,
 								},
 								["Blackrock Outrunner"] = {
 									["count"] = 9,
@@ -253,37 +7661,37 @@ RecountPerCharDB = {
 								["Wildthorn Stalker"] = {
 									["count"] = 6,
 								},
-								["Foulweald Totemic"] = {
-									["count"] = 3,
+								["Foulweald Warrior"] = {
+									["count"] = 24,
 								},
 							},
 							["amount"] = 207,
 						},
 						["Ignite (DoT)"] = {
 							["Details"] = {
-								["Foulweald Warrior"] = {
-									["count"] = 12,
+								["Foulweald Totemic"] = {
+									["count"] = 3,
 								},
-								["Elder Ashenvale Bear"] = {
+								["Blackrock Outrunner"] = {
 									["count"] = 3,
 								},
 								["Wrathtail Wave Rider"] = {
 									["count"] = 9,
 								},
-								["Blackrock Outrunner"] = {
+								["Thistlefur Shaman"] = {
 									["count"] = 3,
 								},
 								["Thistlefur Pathfinder"] = {
 									["count"] = 3,
 								},
-								["Thistlefur Shaman"] = {
+								["Elder Ashenvale Bear"] = {
 									["count"] = 3,
 								},
 								["Wildthorn Stalker"] = {
 									["count"] = 6,
 								},
-								["Foulweald Totemic"] = {
-									["count"] = 3,
+								["Foulweald Warrior"] = {
+									["count"] = 12,
 								},
 							},
 							["amount"] = 42,
@@ -306,8 +7714,8 @@ RecountPerCharDB = {
 								["Hit"] = {
 									["count"] = 120,
 								},
-								["Crushing"] = {
-									["count"] = 7,
+								["Dodge"] = {
+									["count"] = 3,
 								},
 								["Miss"] = {
 									["count"] = 11,
@@ -315,8 +7723,8 @@ RecountPerCharDB = {
 								["Crit"] = {
 									["count"] = 8,
 								},
-								["Dodge"] = {
-									["count"] = 3,
+								["Crushing"] = {
+									["count"] = 7,
 								},
 							},
 							["amount"] = 149,
@@ -329,13 +7737,16 @@ RecountPerCharDB = {
 							},
 							["amount"] = 1,
 						},
-						["Frost"] = {
+						["Physical"] = {
 							["Details"] = {
+								["Tick"] = {
+									["count"] = 5,
+								},
 								["Hit"] = {
-									["count"] = 3,
+									["count"] = 22,
 								},
 							},
-							["amount"] = 3,
+							["amount"] = 27,
 						},
 						["Fire"] = {
 							["Details"] = {
@@ -345,38 +7756,27 @@ RecountPerCharDB = {
 							},
 							["amount"] = 2,
 						},
-						["Physical"] = {
+						["Frost"] = {
 							["Details"] = {
 								["Hit"] = {
-									["count"] = 22,
-								},
-								["Tick"] = {
-									["count"] = 5,
+									["count"] = 3,
 								},
 							},
-							["amount"] = 27,
+							["amount"] = 3,
 						},
 						["Nature"] = {
 							["Details"] = {
-								["Hit"] = {
-									["count"] = 1,
-								},
 								["Miss"] = {
 									["count"] = 2,
+								},
+								["Hit"] = {
+									["count"] = 1,
 								},
 							},
 							["amount"] = 3,
 						},
 					},
 					["HealedWho"] = {
-						["Graz'kath <Tapatapa>"] = {
-							["Details"] = {
-								["Gift of the Naaru"] = {
-									["count"] = 1170,
-								},
-							},
-							["amount"] = 1170,
-						},
 						["Sculamare"] = {
 							["Details"] = {
 								["Gift of the Naaru"] = {
@@ -388,6 +7788,14 @@ RecountPerCharDB = {
 							},
 							["amount"] = 1427,
 						},
+						["Graz'kath <Tapatapa>"] = {
+							["Details"] = {
+								["Gift of the Naaru"] = {
+									["count"] = 1170,
+								},
+							},
+							["amount"] = 1170,
+						},
 					},
 					["ElementDoneAbsorb"] = {
 						["Fire"] = 137,
@@ -397,19 +7805,19 @@ RecountPerCharDB = {
 						["Holy"] = 128,
 						["Melee"] = 4209,
 						["Shadow"] = 95,
-						["Frost"] = 177,
-						["Fire"] = 29,
 						["Physical"] = 1038,
+						["Fire"] = 29,
+						["Frost"] = 177,
 						["Nature"] = 85,
 					},
 					["HOTs"] = {
 						["Gift of the Naaru"] = {
 							["Details"] = {
-								["Graz'kath <Tapatapa>"] = {
-									["count"] = 45,
-								},
 								["Sculamare"] = {
 									["count"] = 54,
+								},
+								["Graz'kath <Tapatapa>"] = {
+									["count"] = 45,
 								},
 							},
 							["amount"] = 99,
@@ -418,22 +7826,22 @@ RecountPerCharDB = {
 					["Damage"] = 75620,
 					["TimeHeal"] = 65.35000000000001,
 					["ElementDone"] = {
-						["Fire"] = 71797,
 						["Frost"] = 2661,
+						["Fire"] = 71797,
 						["Melee"] = 42,
 						["Arcane"] = 1120,
 					},
 					["ElementHitsDone"] = {
 						["Frost"] = {
 							["Details"] = {
-								["Hit"] = {
-									["count"] = 63,
+								["Miss"] = {
+									["count"] = 10,
 								},
 								["Crit"] = {
 									["count"] = 4,
 								},
-								["Miss"] = {
-									["count"] = 10,
+								["Hit"] = {
+									["count"] = 63,
 								},
 							},
 							["amount"] = 77,
@@ -651,14 +8059,6 @@ RecountPerCharDB = {
 							},
 							["amount"] = 78,
 						},
-						["Wrathtail Wave Rider"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 43,
-								},
-							},
-							["amount"] = 43,
-						},
 						["Randomroge"] = {
 							["Details"] = {
 								["Shoot"] = {
@@ -666,6 +8066,14 @@ RecountPerCharDB = {
 								},
 							},
 							["amount"] = 177,
+						},
+						["Wrathtail Wave Rider"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 43,
+								},
+							},
+							["amount"] = 43,
 						},
 						["Forsaken Herbalist"] = {
 							["Details"] = {
@@ -675,19 +8083,13 @@ RecountPerCharDB = {
 							},
 							["amount"] = 72,
 						},
-						["Wrathtail Myrmidon"] = {
+						["Shadethicket Moss Eater"] = {
 							["Details"] = {
-								["Strike"] = {
-									["count"] = 106,
-								},
 								["Melee"] = {
-									["count"] = 102,
-								},
-								["Rend (DoT)"] = {
-									["count"] = 45,
+									["count"] = 65,
 								},
 							},
-							["amount"] = 253,
+							["amount"] = 65,
 						},
 						["Thistlefur Shaman"] = {
 							["Details"] = {
@@ -697,16 +8099,13 @@ RecountPerCharDB = {
 							},
 							["amount"] = 57,
 						},
-						["Environment"] = {
+						["Prowler"] = {
 							["Details"] = {
-								["Falling"] = {
-									["count"] = 130,
-								},
-								["Fire"] = {
-									["count"] = 29,
+								["Melee"] = {
+									["count"] = 6,
 								},
 							},
-							["amount"] = 159,
+							["amount"] = 6,
 						},
 						["Wrathtail Sea Witch"] = {
 							["Details"] = {
@@ -743,21 +8142,30 @@ RecountPerCharDB = {
 							},
 							["amount"] = 384,
 						},
-						["Prowler"] = {
+						["Environment"] = {
 							["Details"] = {
-								["Melee"] = {
-									["count"] = 6,
+								["Falling"] = {
+									["count"] = 130,
+								},
+								["Fire"] = {
+									["count"] = 29,
 								},
 							},
-							["amount"] = 6,
+							["amount"] = 159,
 						},
-						["Shadethicket Moss Eater"] = {
+						["Wrathtail Myrmidon"] = {
 							["Details"] = {
+								["Strike"] = {
+									["count"] = 106,
+								},
 								["Melee"] = {
-									["count"] = 65,
+									["count"] = 102,
+								},
+								["Rend (DoT)"] = {
+									["count"] = 45,
 								},
 							},
-							["amount"] = 65,
+							["amount"] = 253,
 						},
 						["Blackrock Outrunner"] = {
 							["Details"] = {
@@ -785,14 +8193,6 @@ RecountPerCharDB = {
 						},
 					},
 					["TimeHealing"] = {
-						["Graz'kath <Tapatapa>"] = {
-							["Details"] = {
-								["Gift of the Naaru"] = {
-									["count"] = 28.62000000000001,
-								},
-							},
-							["amount"] = 28.62000000000001,
-						},
 						["Sculamare"] = {
 							["Details"] = {
 								["Gift of the Naaru"] = {
@@ -803,6 +8203,14 @@ RecountPerCharDB = {
 								},
 							},
 							["amount"] = 36.73,
+						},
+						["Graz'kath <Tapatapa>"] = {
+							["Details"] = {
+								["Gift of the Naaru"] = {
+									["count"] = 28.62000000000001,
+								},
+							},
+							["amount"] = 28.62000000000001,
 						},
 					},
 					["OverHeals"] = {
@@ -1146,6 +8554,1639 @@ RecountPerCharDB = {
 							},
 							["count"] = 1,
 							["amount"] = 324,
+						},
+					},
+					["Overhealing"] = 324,
+					["WhoHealed"] = {
+						["Sculamare"] = {
+							["Details"] = {
+								["Gift of the Naaru"] = {
+									["count"] = 1103,
+								},
+								["Healing Potion"] = {
+									["count"] = 324,
+								},
+							},
+							["amount"] = 1427,
+						},
+					},
+					["Healing"] = 2597,
+					["TimeSpent"] = {
+						["Redridge Poacher"] = {
+							["Details"] = {
+								["Blizzard"] = {
+									["count"] = 6.5,
+								},
+							},
+							["amount"] = 6.5,
+						},
+						["Wrathtail Myrmidon"] = {
+							["Details"] = {
+								["Shoot"] = {
+									["count"] = 5.99,
+								},
+								["Fireball"] = {
+									["count"] = 70.04000000000001,
+								},
+								["Fire Blast"] = {
+									["count"] = 5.68,
+								},
+							},
+							["amount"] = 81.71000000000001,
+						},
+						["Dal Bloodclaw"] = {
+							["Details"] = {
+								["Chilled"] = {
+									["count"] = 0,
+								},
+								["Fireball"] = {
+									["count"] = 12.77,
+								},
+								["Frost Nova"] = {
+									["count"] = 3.5,
+								},
+							},
+							["amount"] = 16.27,
+						},
+						["Wildthorn Venomspitter"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 9.170000000000002,
+								},
+								["Pyroblast"] = {
+									["count"] = 3.5,
+								},
+								["Pyroblast (DoT)"] = {
+									["count"] = 0.63,
+								},
+								["Fire Blast"] = {
+									["count"] = 1.63,
+								},
+							},
+							["amount"] = 14.93,
+						},
+						["Wrathtail Sorceress"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 71.8,
+								},
+								["Pyroblast"] = {
+									["count"] = 21,
+								},
+								["Pyroblast (DoT)"] = {
+									["count"] = 3.73,
+								},
+								["Shoot"] = {
+									["count"] = 2.7,
+								},
+								["Fire Blast"] = {
+									["count"] = 3.5,
+								},
+							},
+							["amount"] = 102.73,
+						},
+						["Dark Strand Cultist"] = {
+							["Details"] = {
+								["Pyroblast"] = {
+									["count"] = 3.5,
+								},
+							},
+							["amount"] = 3.5,
+						},
+						["Foulweald Ursa"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 2.34,
+								},
+								["Pyroblast"] = {
+									["count"] = 7,
+								},
+								["Pyroblast (DoT)"] = {
+									["count"] = 0.7,
+								},
+								["Fire Blast"] = {
+									["count"] = 0.48,
+								},
+							},
+							["amount"] = 10.52,
+						},
+						["Defias Cutpurse"] = {
+							["Details"] = {
+								["Frostbolt"] = {
+									["count"] = 11.37,
+								},
+							},
+							["amount"] = 11.37,
+						},
+						["Forsaken Herbalist"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 26.89,
+								},
+								["Pyroblast"] = {
+									["count"] = 28,
+								},
+								["Pyroblast (DoT)"] = {
+									["count"] = 0.45,
+								},
+								["Frost Nova"] = {
+									["count"] = 10.06,
+								},
+								["Fire Blast"] = {
+									["count"] = 4.28,
+								},
+							},
+							["amount"] = 69.68000000000001,
+						},
+						["Ilkrud Magthrull"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 11.22,
+								},
+							},
+							["amount"] = 11.22,
+						},
+						["Thistlefur Avenger"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 25.37,
+								},
+								["Pyroblast"] = {
+									["count"] = 25.48,
+								},
+								["Pyroblast (DoT)"] = {
+									["count"] = 8.82,
+								},
+								["Shoot"] = {
+									["count"] = 3.12,
+								},
+							},
+							["amount"] = 62.78999999999999,
+						},
+						["Foulweald Shaman"] = {
+							["Details"] = {
+								["Frost Nova"] = {
+									["count"] = 0.65,
+								},
+								["Fireball"] = {
+									["count"] = 6.109999999999999,
+								},
+							},
+							["amount"] = 6.76,
+						},
+						["Wrathtail Razortail"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 9.630000000000001,
+								},
+								["Pyroblast"] = {
+									["count"] = 3.5,
+								},
+							},
+							["amount"] = 13.13,
+						},
+						["Tarantula"] = {
+							["Details"] = {
+								["Blizzard"] = {
+									["count"] = 17.48,
+								},
+							},
+							["amount"] = 17.48,
+						},
+						["Foulweald Totemic"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 32.24,
+								},
+								["Pyroblast"] = {
+									["count"] = 17.5,
+								},
+								["Pyroblast (DoT)"] = {
+									["count"] = 0.5600000000000001,
+								},
+								["Ignite (DoT)"] = {
+									["count"] = 1.91,
+								},
+								["Fire Blast"] = {
+									["count"] = 1.02,
+								},
+							},
+							["amount"] = 53.23,
+						},
+						["Forsaken Thug"] = {
+							["Details"] = {
+								["Frost Nova"] = {
+									["count"] = 1.36,
+								},
+								["Fireball"] = {
+									["count"] = 36.2,
+								},
+								["Fire Blast"] = {
+									["count"] = 4.05,
+								},
+							},
+							["amount"] = 41.60999999999999,
+						},
+						["Wrathtail Priestess"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 66.54000000000001,
+								},
+								["Pyroblast"] = {
+									["count"] = 28,
+								},
+								["Pyroblast (DoT)"] = {
+									["count"] = 2.77,
+								},
+								["Shoot"] = {
+									["count"] = 5,
+								},
+								["Fire Blast"] = {
+									["count"] = 0.78,
+								},
+							},
+							["amount"] = 103.09,
+						},
+						["Young Forest Bear"] = {
+							["Details"] = {
+								["Blizzard"] = {
+									["count"] = 7.489999999999999,
+								},
+							},
+							["amount"] = 7.489999999999999,
+						},
+						["Blackrock Grunt"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 3.74,
+								},
+								["Pyroblast"] = {
+									["count"] = 7,
+								},
+								["Pyroblast (DoT)"] = {
+									["count"] = 6.15,
+								},
+								["Shoot"] = {
+									["count"] = 2.2,
+								},
+								["Fire Blast"] = {
+									["count"] = 2.35,
+								},
+							},
+							["amount"] = 21.43999999999999,
+						},
+						["Thistlefur Pathfinder"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 2.84,
+								},
+								["Pyroblast"] = {
+									["count"] = 3.5,
+								},
+								["Pyroblast (DoT)"] = {
+									["count"] = 1.01,
+								},
+								["Ignite (DoT)"] = {
+									["count"] = 1.11,
+								},
+							},
+							["amount"] = 8.460000000000001,
+						},
+						["Forsaken Seeker"] = {
+							["Details"] = {
+								["Shoot"] = {
+									["count"] = 5.64,
+								},
+								["Pyroblast"] = {
+									["count"] = 23.54,
+								},
+								["Pyroblast (DoT)"] = {
+									["count"] = 14.43,
+								},
+								["Frost Nova"] = {
+									["count"] = 1.02,
+								},
+								["Fireball"] = {
+									["count"] = 25.67,
+								},
+							},
+							["amount"] = 70.3,
+						},
+						["Apothecary Falthis"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 3.77,
+								},
+								["Fire Blast"] = {
+									["count"] = 2.56,
+								},
+							},
+							["amount"] = 6.33,
+						},
+						["Foulweald Den Watcher"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 4.42,
+								},
+								["Pyroblast"] = {
+									["count"] = 3.5,
+								},
+								["Pyroblast (DoT)"] = {
+									["count"] = 0.97,
+								},
+								["Frost Nova"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 8.889999999999999,
+						},
+						["Foulweald Pathfinder"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 10.44,
+								},
+								["Pyroblast"] = {
+									["count"] = 3.5,
+								},
+								["Pyroblast (DoT)"] = {
+									["count"] = 1.11,
+								},
+							},
+							["amount"] = 15.05,
+						},
+						["Ruuzel"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 30.43,
+								},
+								["Fire Blast"] = {
+									["count"] = 3,
+								},
+							},
+							["amount"] = 33.42999999999999,
+						},
+						["Ashenvale Bear"] = {
+							["Details"] = {
+								["Shoot"] = {
+									["count"] = 2.79,
+								},
+								["Pyroblast"] = {
+									["count"] = 10.5,
+								},
+								["Pyroblast (DoT)"] = {
+									["count"] = 4.95,
+								},
+								["Frost Nova"] = {
+									["count"] = 0.45,
+								},
+								["Fireball"] = {
+									["count"] = 18.33,
+								},
+								["Fire Blast"] = {
+									["count"] = 1.01,
+								},
+							},
+							["amount"] = 38.03,
+						},
+						["Sculamare"] = {
+							["Details"] = {
+								["Gift of the Naaru"] = {
+									["count"] = 34.42,
+								},
+								["Healing Potion"] = {
+									["count"] = 2.31,
+								},
+							},
+							["amount"] = 36.73,
+						},
+						["Ghostpaw Runner"] = {
+							["Details"] = {
+								["Shoot"] = {
+									["count"] = 5.49,
+								},
+								["Pyroblast"] = {
+									["count"] = 10.5,
+								},
+								["Pyroblast (DoT)"] = {
+									["count"] = 2.61,
+								},
+								["Fireball"] = {
+									["count"] = 32.67,
+								},
+								["Fire Blast"] = {
+									["count"] = 3.13,
+								},
+							},
+							["amount"] = 54.4,
+						},
+						["Elder Ashenvale Bear"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 77.38,
+								},
+								["Melee"] = {
+									["count"] = 2.27,
+								},
+								["Fire Blast"] = {
+									["count"] = 2.61,
+								},
+								["Shoot"] = {
+									["count"] = 0.52,
+								},
+								["Pyroblast"] = {
+									["count"] = 21,
+								},
+								["Ignite (DoT)"] = {
+									["count"] = 0.19,
+								},
+								["Frost Nova"] = {
+									["count"] = 0.04,
+								},
+								["Chilled"] = {
+									["count"] = 8.880000000000001,
+								},
+								["Pyroblast (DoT)"] = {
+									["count"] = 10.14,
+								},
+							},
+							["amount"] = 123.03,
+						},
+						["Saltspittle Oracle"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 2.28,
+								},
+								["Pyroblast"] = {
+									["count"] = 7,
+								},
+							},
+							["amount"] = 9.279999999999999,
+						},
+						["Felslayer"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 53.96999999999999,
+								},
+								["Pyroblast"] = {
+									["count"] = 3.5,
+								},
+								["Pyroblast (DoT)"] = {
+									["count"] = 5.15,
+								},
+								["Shoot"] = {
+									["count"] = 2.3,
+								},
+								["Fire Blast"] = {
+									["count"] = 1.96,
+								},
+							},
+							["amount"] = 66.87999999999998,
+						},
+						["Redridge Mongrel"] = {
+							["Details"] = {
+								["Blizzard"] = {
+									["count"] = 6.5,
+								},
+							},
+							["amount"] = 6.5,
+						},
+						["Lesser Felguard"] = {
+							["Details"] = {
+								["Shoot"] = {
+									["count"] = 0.1,
+								},
+								["Pyroblast"] = {
+									["count"] = 3.5,
+								},
+								["Frost Nova"] = {
+									["count"] = 1.75,
+								},
+								["Chilled"] = {
+									["count"] = 0.57,
+								},
+								["Fireball"] = {
+									["count"] = 57.18000000000001,
+								},
+								["Fire Blast"] = {
+									["count"] = 2.47,
+								},
+							},
+							["amount"] = 65.57000000000001,
+						},
+						["Wrathtail Wave Rider"] = {
+							["Details"] = {
+								["Shoot"] = {
+									["count"] = 3.43,
+								},
+								["Pyroblast"] = {
+									["count"] = 7,
+								},
+								["Ignite (DoT)"] = {
+									["count"] = 6.069999999999999,
+								},
+								["Fireball"] = {
+									["count"] = 64.69999999999999,
+								},
+								["Fire Blast"] = {
+									["count"] = 1.8,
+								},
+							},
+							["amount"] = 82.99999999999999,
+						},
+						["Graz'kath <Tapatapa>"] = {
+							["Details"] = {
+								["Gift of the Naaru"] = {
+									["count"] = 28.62000000000001,
+								},
+							},
+							["amount"] = 28.62000000000001,
+						},
+						["Mugglefin"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 11.93,
+								},
+							},
+							["amount"] = 11.93,
+						},
+						["Thistlefur Shaman"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 32,
+								},
+								["Pyroblast"] = {
+									["count"] = 17.5,
+								},
+								["Pyroblast (DoT)"] = {
+									["count"] = 0.69,
+								},
+								["Ignite (DoT)"] = {
+									["count"] = 2.05,
+								},
+								["Chilled"] = {
+									["count"] = 3.5,
+								},
+							},
+							["amount"] = 55.74,
+						},
+						["Mystlash Hydra"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 6.32,
+								},
+							},
+							["amount"] = 6.32,
+						},
+						["Wrathtail Sea Witch"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 14.1,
+								},
+								["Shoot"] = {
+									["count"] = 2.23,
+								},
+							},
+							["amount"] = 16.33,
+						},
+						["Saltspittle Puddlejumper"] = {
+							["Details"] = {
+								["Shoot"] = {
+									["count"] = 6.449999999999999,
+								},
+								["Pyroblast"] = {
+									["count"] = 10.5,
+								},
+								["Pyroblast (DoT)"] = {
+									["count"] = 1.09,
+								},
+								["Fireball"] = {
+									["count"] = 13.59,
+								},
+								["Fire Blast"] = {
+									["count"] = 0.39,
+								},
+							},
+							["amount"] = 32.02,
+						},
+						["Shadethicket Moss Eater"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 21.13,
+								},
+								["Frost Nova"] = {
+									["count"] = 1.03,
+								},
+								["Fire Blast"] = {
+									["count"] = 1.5,
+								},
+							},
+							["amount"] = 23.66,
+						},
+						["Saltspittle Warrior"] = {
+							["Details"] = {
+								["Shoot"] = {
+									["count"] = 2.87,
+								},
+								["Pyroblast"] = {
+									["count"] = 7,
+								},
+								["Pyroblast (DoT)"] = {
+									["count"] = 3.98,
+								},
+								["Fireball"] = {
+									["count"] = 6.629999999999999,
+								},
+							},
+							["amount"] = 20.48,
+						},
+						["Prowler"] = {
+							["Details"] = {
+								["Blizzard"] = {
+									["count"] = 8.43,
+								},
+								["Melee"] = {
+									["count"] = 2.98,
+								},
+							},
+							["amount"] = 11.41,
+						},
+						["Akkrilus"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 14.49,
+								},
+							},
+							["amount"] = 14.49,
+						},
+						["Blackrock Outrunner"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 8.32,
+								},
+								["Pyroblast"] = {
+									["count"] = 10.5,
+								},
+								["Pyroblast (DoT)"] = {
+									["count"] = 4.140000000000001,
+								},
+								["Ignite (DoT)"] = {
+									["count"] = 2.03,
+								},
+								["Frost Nova"] = {
+									["count"] = 1.02,
+								},
+							},
+							["amount"] = 26.01,
+						},
+						["Wildthorn Stalker"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 16.62,
+								},
+								["Pyroblast"] = {
+									["count"] = 10.5,
+								},
+								["Pyroblast (DoT)"] = {
+									["count"] = 4.49,
+								},
+								["Ignite (DoT)"] = {
+									["count"] = 3.58,
+								},
+								["Shoot"] = {
+									["count"] = 4.800000000000001,
+								},
+							},
+							["amount"] = 39.99,
+						},
+						["Foulweald Warrior"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 71,
+								},
+								["Pyroblast"] = {
+									["count"] = 17.5,
+								},
+								["Pyroblast (DoT)"] = {
+									["count"] = 10.56,
+								},
+								["Ignite (DoT)"] = {
+									["count"] = 3.66,
+								},
+								["Arcane Explosion"] = {
+									["count"] = 1.2,
+								},
+								["Fire Blast"] = {
+									["count"] = 2.36,
+								},
+							},
+							["amount"] = 106.28,
+						},
+					},
+					["DamageTaken"] = 5761,
+					["Attacks"] = {
+						["Fireball"] = {
+							["Details"] = {
+								["Absorb"] = {
+									["count"] = 1,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 148,
+									["min"] = 88,
+									["count"] = 363,
+									["amount"] = 46003,
+								},
+								["Miss"] = {
+									["count"] = 20,
+									["amount"] = 0,
+								},
+								["Crit"] = {
+									["max"] = 222,
+									["min"] = 149,
+									["count"] = 17,
+									["amount"] = 3188,
+								},
+								["Evade"] = {
+									["count"] = 2,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 403,
+							["amount"] = 49191,
+						},
+						["Pyroblast (DoT)"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 16,
+									["min"] = 12,
+									["count"] = 69,
+									["amount"] = 1053,
+								},
+							},
+							["count"] = 69,
+							["amount"] = 1053,
+						},
+						["Blizzard"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 59,
+									["min"] = 59,
+									["count"] = 2,
+									["amount"] = 118,
+								},
+								["Hit"] = {
+									["max"] = 39,
+									["min"] = 38,
+									["count"] = 44,
+									["amount"] = 1713,
+								},
+							},
+							["count"] = 46,
+							["amount"] = 1831,
+						},
+						["Frostbolt"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 99,
+									["min"] = 91,
+									["count"] = 4,
+									["amount"] = 386,
+								},
+							},
+							["count"] = 4,
+							["amount"] = 386,
+						},
+						["Arcane Explosion"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 42,
+									["min"] = 42,
+									["count"] = 1,
+									["amount"] = 42,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 42,
+						},
+						["Fire Blast"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 111,
+									["min"] = 64,
+									["count"] = 35,
+									["amount"] = 2810,
+								},
+							},
+							["count"] = 35,
+							["amount"] = 2810,
+						},
+						["Chilled"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 10,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 10,
+							["amount"] = 0,
+						},
+						["Pyroblast"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 4,
+									["amount"] = 0,
+								},
+								["Crit"] = {
+									["max"] = 339,
+									["min"] = 283,
+									["count"] = 7,
+									["amount"] = 2126,
+								},
+								["Hit"] = {
+									["max"] = 229,
+									["min"] = 160,
+									["count"] = 80,
+									["amount"] = 16009,
+								},
+							},
+							["count"] = 91,
+							["amount"] = 18135,
+						},
+						["Ignite (DoT)"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 67,
+									["min"] = 29,
+									["count"] = 14,
+									["amount"] = 608,
+								},
+							},
+							["count"] = 14,
+							["amount"] = 608,
+						},
+						["Frost Nova"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 37,
+									["min"] = 36,
+									["count"] = 2,
+									["amount"] = 73,
+								},
+								["Hit"] = {
+									["max"] = 26,
+									["min"] = 23,
+									["count"] = 15,
+									["amount"] = 371,
+								},
+							},
+							["count"] = 17,
+							["amount"] = 444,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Glancing"] = {
+									["max"] = 15,
+									["min"] = 15,
+									["count"] = 1,
+									["amount"] = 15,
+								},
+								["Hit"] = {
+									["max"] = 27,
+									["min"] = 27,
+									["count"] = 1,
+									["amount"] = 27,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 42,
+						},
+						["Shoot"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 2,
+									["amount"] = 0,
+								},
+								["Crit"] = {
+									["max"] = 54,
+									["min"] = 49,
+									["count"] = 2,
+									["amount"] = 103,
+								},
+								["Hit"] = {
+									["max"] = 42,
+									["min"] = 23,
+									["count"] = 31,
+									["amount"] = 975,
+								},
+							},
+							["count"] = 35,
+							["amount"] = 1078,
+						},
+					},
+					["HealingTaken"] = 1427,
+					["DOT_Time"] = 249,
+					["TimeDamage"] = 1609.26,
+					["TimeDamaging"] = {
+						["Redridge Poacher"] = {
+							["Details"] = {
+								["Blizzard"] = {
+									["count"] = 6.5,
+								},
+							},
+							["amount"] = 6.5,
+						},
+						["Wrathtail Myrmidon"] = {
+							["Details"] = {
+								["Shoot"] = {
+									["count"] = 5.99,
+								},
+								["Fireball"] = {
+									["count"] = 70.04000000000001,
+								},
+								["Fire Blast"] = {
+									["count"] = 5.68,
+								},
+							},
+							["amount"] = 81.71000000000001,
+						},
+						["Dal Bloodclaw"] = {
+							["Details"] = {
+								["Chilled"] = {
+									["count"] = 0,
+								},
+								["Fireball"] = {
+									["count"] = 12.77,
+								},
+								["Frost Nova"] = {
+									["count"] = 3.5,
+								},
+							},
+							["amount"] = 16.27,
+						},
+						["Wildthorn Venomspitter"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 9.170000000000002,
+								},
+								["Pyroblast"] = {
+									["count"] = 3.5,
+								},
+								["Pyroblast (DoT)"] = {
+									["count"] = 0.63,
+								},
+								["Fire Blast"] = {
+									["count"] = 1.63,
+								},
+							},
+							["amount"] = 14.93,
+						},
+						["Wrathtail Sorceress"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 71.8,
+								},
+								["Pyroblast"] = {
+									["count"] = 21,
+								},
+								["Pyroblast (DoT)"] = {
+									["count"] = 3.73,
+								},
+								["Shoot"] = {
+									["count"] = 2.7,
+								},
+								["Fire Blast"] = {
+									["count"] = 3.5,
+								},
+							},
+							["amount"] = 102.73,
+						},
+						["Forsaken Thug"] = {
+							["Details"] = {
+								["Frost Nova"] = {
+									["count"] = 1.36,
+								},
+								["Fireball"] = {
+									["count"] = 36.2,
+								},
+								["Fire Blast"] = {
+									["count"] = 4.05,
+								},
+							},
+							["amount"] = 41.60999999999999,
+						},
+						["Foulweald Ursa"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 2.34,
+								},
+								["Pyroblast"] = {
+									["count"] = 7,
+								},
+								["Pyroblast (DoT)"] = {
+									["count"] = 0.7,
+								},
+								["Fire Blast"] = {
+									["count"] = 0.48,
+								},
+							},
+							["amount"] = 10.52,
+						},
+						["Defias Cutpurse"] = {
+							["Details"] = {
+								["Frostbolt"] = {
+									["count"] = 11.37,
+								},
+							},
+							["amount"] = 11.37,
+						},
+						["Forsaken Herbalist"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 26.89,
+								},
+								["Pyroblast"] = {
+									["count"] = 28,
+								},
+								["Pyroblast (DoT)"] = {
+									["count"] = 0.45,
+								},
+								["Frost Nova"] = {
+									["count"] = 10.06,
+								},
+								["Fire Blast"] = {
+									["count"] = 4.28,
+								},
+							},
+							["amount"] = 69.68000000000001,
+						},
+						["Ilkrud Magthrull"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 11.22,
+								},
+							},
+							["amount"] = 11.22,
+						},
+						["Thistlefur Avenger"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 25.37,
+								},
+								["Pyroblast"] = {
+									["count"] = 25.48,
+								},
+								["Pyroblast (DoT)"] = {
+									["count"] = 8.82,
+								},
+								["Shoot"] = {
+									["count"] = 3.12,
+								},
+							},
+							["amount"] = 62.78999999999999,
+						},
+						["Foulweald Shaman"] = {
+							["Details"] = {
+								["Frost Nova"] = {
+									["count"] = 0.65,
+								},
+								["Fireball"] = {
+									["count"] = 6.109999999999999,
+								},
+							},
+							["amount"] = 6.76,
+						},
+						["Wrathtail Razortail"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 9.630000000000001,
+								},
+								["Pyroblast"] = {
+									["count"] = 3.5,
+								},
+							},
+							["amount"] = 13.13,
+						},
+						["Tarantula"] = {
+							["Details"] = {
+								["Blizzard"] = {
+									["count"] = 17.48,
+								},
+							},
+							["amount"] = 17.48,
+						},
+						["Foulweald Totemic"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 32.24,
+								},
+								["Pyroblast"] = {
+									["count"] = 17.5,
+								},
+								["Pyroblast (DoT)"] = {
+									["count"] = 0.5600000000000001,
+								},
+								["Ignite (DoT)"] = {
+									["count"] = 1.91,
+								},
+								["Fire Blast"] = {
+									["count"] = 1.02,
+								},
+							},
+							["amount"] = 53.23,
+						},
+						["Wrathtail Priestess"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 66.54000000000001,
+								},
+								["Pyroblast"] = {
+									["count"] = 28,
+								},
+								["Pyroblast (DoT)"] = {
+									["count"] = 2.77,
+								},
+								["Shoot"] = {
+									["count"] = 5,
+								},
+								["Fire Blast"] = {
+									["count"] = 0.78,
+								},
+							},
+							["amount"] = 103.09,
+						},
+						["Blackrock Grunt"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 3.74,
+								},
+								["Pyroblast"] = {
+									["count"] = 7,
+								},
+								["Pyroblast (DoT)"] = {
+									["count"] = 6.15,
+								},
+								["Shoot"] = {
+									["count"] = 2.2,
+								},
+								["Fire Blast"] = {
+									["count"] = 2.35,
+								},
+							},
+							["amount"] = 21.43999999999999,
+						},
+						["Thistlefur Pathfinder"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 2.84,
+								},
+								["Pyroblast"] = {
+									["count"] = 3.5,
+								},
+								["Pyroblast (DoT)"] = {
+									["count"] = 1.01,
+								},
+								["Ignite (DoT)"] = {
+									["count"] = 1.11,
+								},
+							},
+							["amount"] = 8.460000000000001,
+						},
+						["Forsaken Seeker"] = {
+							["Details"] = {
+								["Shoot"] = {
+									["count"] = 5.64,
+								},
+								["Pyroblast"] = {
+									["count"] = 23.54,
+								},
+								["Pyroblast (DoT)"] = {
+									["count"] = 14.43,
+								},
+								["Frost Nova"] = {
+									["count"] = 1.02,
+								},
+								["Fireball"] = {
+									["count"] = 25.67,
+								},
+							},
+							["amount"] = 70.3,
+						},
+						["Apothecary Falthis"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 3.77,
+								},
+								["Fire Blast"] = {
+									["count"] = 2.56,
+								},
+							},
+							["amount"] = 6.33,
+						},
+						["Foulweald Den Watcher"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 4.42,
+								},
+								["Pyroblast"] = {
+									["count"] = 3.5,
+								},
+								["Pyroblast (DoT)"] = {
+									["count"] = 0.97,
+								},
+								["Frost Nova"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 8.889999999999999,
+						},
+						["Dark Strand Cultist"] = {
+							["Details"] = {
+								["Pyroblast"] = {
+									["count"] = 3.5,
+								},
+							},
+							["amount"] = 3.5,
+						},
+						["Ruuzel"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 30.43,
+								},
+								["Fire Blast"] = {
+									["count"] = 3,
+								},
+							},
+							["amount"] = 33.42999999999999,
+						},
+						["Foulweald Pathfinder"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 10.44,
+								},
+								["Pyroblast"] = {
+									["count"] = 3.5,
+								},
+								["Pyroblast (DoT)"] = {
+									["count"] = 1.11,
+								},
+							},
+							["amount"] = 15.05,
+						},
+						["Young Forest Bear"] = {
+							["Details"] = {
+								["Blizzard"] = {
+									["count"] = 7.489999999999999,
+								},
+							},
+							["amount"] = 7.489999999999999,
+						},
+						["Ghostpaw Runner"] = {
+							["Details"] = {
+								["Shoot"] = {
+									["count"] = 5.49,
+								},
+								["Pyroblast"] = {
+									["count"] = 10.5,
+								},
+								["Pyroblast (DoT)"] = {
+									["count"] = 2.61,
+								},
+								["Fireball"] = {
+									["count"] = 32.67,
+								},
+								["Fire Blast"] = {
+									["count"] = 3.13,
+								},
+							},
+							["amount"] = 54.4,
+						},
+						["Elder Ashenvale Bear"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 77.38,
+								},
+								["Melee"] = {
+									["count"] = 2.27,
+								},
+								["Fire Blast"] = {
+									["count"] = 2.61,
+								},
+								["Shoot"] = {
+									["count"] = 0.52,
+								},
+								["Pyroblast"] = {
+									["count"] = 21,
+								},
+								["Ignite (DoT)"] = {
+									["count"] = 0.19,
+								},
+								["Frost Nova"] = {
+									["count"] = 0.04,
+								},
+								["Chilled"] = {
+									["count"] = 8.880000000000001,
+								},
+								["Pyroblast (DoT)"] = {
+									["count"] = 10.14,
+								},
+							},
+							["amount"] = 123.03,
+						},
+						["Saltspittle Oracle"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 2.28,
+								},
+								["Pyroblast"] = {
+									["count"] = 7,
+								},
+							},
+							["amount"] = 9.279999999999999,
+						},
+						["Ashenvale Bear"] = {
+							["Details"] = {
+								["Shoot"] = {
+									["count"] = 2.79,
+								},
+								["Pyroblast"] = {
+									["count"] = 10.5,
+								},
+								["Pyroblast (DoT)"] = {
+									["count"] = 4.95,
+								},
+								["Frost Nova"] = {
+									["count"] = 0.45,
+								},
+								["Fireball"] = {
+									["count"] = 18.33,
+								},
+								["Fire Blast"] = {
+									["count"] = 1.01,
+								},
+							},
+							["amount"] = 38.03,
+						},
+						["Redridge Mongrel"] = {
+							["Details"] = {
+								["Blizzard"] = {
+									["count"] = 6.5,
+								},
+							},
+							["amount"] = 6.5,
+						},
+						["Lesser Felguard"] = {
+							["Details"] = {
+								["Shoot"] = {
+									["count"] = 0.1,
+								},
+								["Pyroblast"] = {
+									["count"] = 3.5,
+								},
+								["Frost Nova"] = {
+									["count"] = 1.75,
+								},
+								["Chilled"] = {
+									["count"] = 0.57,
+								},
+								["Fireball"] = {
+									["count"] = 57.18000000000001,
+								},
+								["Fire Blast"] = {
+									["count"] = 2.47,
+								},
+							},
+							["amount"] = 65.57000000000001,
+						},
+						["Wrathtail Wave Rider"] = {
+							["Details"] = {
+								["Shoot"] = {
+									["count"] = 3.43,
+								},
+								["Pyroblast"] = {
+									["count"] = 7,
+								},
+								["Ignite (DoT)"] = {
+									["count"] = 6.069999999999999,
+								},
+								["Fireball"] = {
+									["count"] = 64.69999999999999,
+								},
+								["Fire Blast"] = {
+									["count"] = 1.8,
+								},
+							},
+							["amount"] = 82.99999999999999,
+						},
+						["Felslayer"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 53.96999999999999,
+								},
+								["Pyroblast"] = {
+									["count"] = 3.5,
+								},
+								["Pyroblast (DoT)"] = {
+									["count"] = 5.15,
+								},
+								["Shoot"] = {
+									["count"] = 2.3,
+								},
+								["Fire Blast"] = {
+									["count"] = 1.96,
+								},
+							},
+							["amount"] = 66.87999999999998,
+						},
+						["Thistlefur Shaman"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 32,
+								},
+								["Pyroblast"] = {
+									["count"] = 17.5,
+								},
+								["Pyroblast (DoT)"] = {
+									["count"] = 0.69,
+								},
+								["Ignite (DoT)"] = {
+									["count"] = 2.05,
+								},
+								["Chilled"] = {
+									["count"] = 3.5,
+								},
+							},
+							["amount"] = 55.74,
+						},
+						["Shadethicket Moss Eater"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 21.13,
+								},
+								["Frost Nova"] = {
+									["count"] = 1.03,
+								},
+								["Fire Blast"] = {
+									["count"] = 1.5,
+								},
+							},
+							["amount"] = 23.66,
+						},
+						["Mugglefin"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 11.93,
+								},
+							},
+							["amount"] = 11.93,
+						},
+						["Wrathtail Sea Witch"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 14.1,
+								},
+								["Shoot"] = {
+									["count"] = 2.23,
+								},
+							},
+							["amount"] = 16.33,
+						},
+						["Saltspittle Puddlejumper"] = {
+							["Details"] = {
+								["Shoot"] = {
+									["count"] = 6.449999999999999,
+								},
+								["Pyroblast"] = {
+									["count"] = 10.5,
+								},
+								["Pyroblast (DoT)"] = {
+									["count"] = 1.09,
+								},
+								["Fireball"] = {
+									["count"] = 13.59,
+								},
+								["Fire Blast"] = {
+									["count"] = 0.39,
+								},
+							},
+							["amount"] = 32.02,
+						},
+						["Mystlash Hydra"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 6.32,
+								},
+							},
+							["amount"] = 6.32,
+						},
+						["Saltspittle Warrior"] = {
+							["Details"] = {
+								["Shoot"] = {
+									["count"] = 2.87,
+								},
+								["Pyroblast"] = {
+									["count"] = 7,
+								},
+								["Pyroblast (DoT)"] = {
+									["count"] = 3.98,
+								},
+								["Fireball"] = {
+									["count"] = 6.629999999999999,
+								},
+							},
+							["amount"] = 20.48,
+						},
+						["Prowler"] = {
+							["Details"] = {
+								["Blizzard"] = {
+									["count"] = 8.43,
+								},
+								["Melee"] = {
+									["count"] = 2.98,
+								},
+							},
+							["amount"] = 11.41,
+						},
+						["Akkrilus"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 14.49,
+								},
+							},
+							["amount"] = 14.49,
+						},
+						["Blackrock Outrunner"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 8.32,
+								},
+								["Pyroblast"] = {
+									["count"] = 10.5,
+								},
+								["Pyroblast (DoT)"] = {
+									["count"] = 4.140000000000001,
+								},
+								["Ignite (DoT)"] = {
+									["count"] = 2.03,
+								},
+								["Frost Nova"] = {
+									["count"] = 1.02,
+								},
+							},
+							["amount"] = 26.01,
+						},
+						["Wildthorn Stalker"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 16.62,
+								},
+								["Pyroblast"] = {
+									["count"] = 10.5,
+								},
+								["Pyroblast (DoT)"] = {
+									["count"] = 4.49,
+								},
+								["Ignite (DoT)"] = {
+									["count"] = 3.58,
+								},
+								["Shoot"] = {
+									["count"] = 4.800000000000001,
+								},
+							},
+							["amount"] = 39.99,
+						},
+						["Foulweald Warrior"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 71,
+								},
+								["Pyroblast"] = {
+									["count"] = 17.5,
+								},
+								["Pyroblast (DoT)"] = {
+									["count"] = 10.56,
+								},
+								["Ignite (DoT)"] = {
+									["count"] = 3.66,
+								},
+								["Arcane Explosion"] = {
+									["count"] = 1.2,
+								},
+								["Fire Blast"] = {
+									["count"] = 2.36,
+								},
+							},
+							["amount"] = 106.28,
+						},
+					},
+					["ManaGain"] = 301,
+					["ManaGainedFrom"] = {
+						["Sculamare"] = {
+							["Details"] = {
+								["Restore Mana"] = {
+									["count"] = 301,
+								},
+							},
+							["amount"] = 301,
 						},
 					},
 					["DamagedWho"] = {
@@ -1624,30 +10665,42 @@ RecountPerCharDB = {
 							},
 							["amount"] = 3979,
 						},
-						["Saltspittle Warrior"] = {
+						["Felslayer"] = {
 							["Details"] = {
-								["Shoot"] = {
-									["count"] = 64,
+								["Fireball"] = {
+									["count"] = 2823,
 								},
 								["Pyroblast"] = {
-									["count"] = 373,
+									["count"] = 228,
 								},
 								["Pyroblast (DoT)"] = {
-									["count"] = 29,
+									["count"] = 47,
 								},
-								["Fireball"] = {
-									["count"] = 369,
+								["Shoot"] = {
+									["count"] = 59,
+								},
+								["Fire Blast"] = {
+									["count"] = 254,
 								},
 							},
-							["amount"] = 835,
+							["amount"] = 3411,
 						},
-						["Mugglefin"] = {
+						["Thistlefur Shaman"] = {
 							["Details"] = {
 								["Fireball"] = {
-									["count"] = 487,
+									["count"] = 1470,
+								},
+								["Pyroblast"] = {
+									["count"] = 871,
+								},
+								["Pyroblast (DoT)"] = {
+									["count"] = 16,
+								},
+								["Ignite (DoT)"] = {
+									["count"] = 54,
 								},
 							},
-							["amount"] = 487,
+							["amount"] = 2411,
 						},
 						["Shadethicket Moss Eater"] = {
 							["Details"] = {
@@ -1663,13 +10716,13 @@ RecountPerCharDB = {
 							},
 							["amount"] = 1156,
 						},
-						["Mystlash Hydra"] = {
+						["Mugglefin"] = {
 							["Details"] = {
 								["Fireball"] = {
-									["count"] = 286,
+									["count"] = 487,
 								},
 							},
-							["amount"] = 286,
+							["amount"] = 487,
 						},
 						["Wrathtail Sea Witch"] = {
 							["Details"] = {
@@ -1702,42 +10755,30 @@ RecountPerCharDB = {
 							},
 							["amount"] = 1577,
 						},
-						["Thistlefur Shaman"] = {
+						["Mystlash Hydra"] = {
 							["Details"] = {
 								["Fireball"] = {
-									["count"] = 1470,
-								},
-								["Pyroblast"] = {
-									["count"] = 871,
-								},
-								["Pyroblast (DoT)"] = {
-									["count"] = 16,
-								},
-								["Ignite (DoT)"] = {
-									["count"] = 54,
+									["count"] = 286,
 								},
 							},
-							["amount"] = 2411,
+							["amount"] = 286,
 						},
-						["Felslayer"] = {
+						["Saltspittle Warrior"] = {
 							["Details"] = {
-								["Fireball"] = {
-									["count"] = 2823,
+								["Shoot"] = {
+									["count"] = 64,
 								},
 								["Pyroblast"] = {
-									["count"] = 228,
+									["count"] = 373,
 								},
 								["Pyroblast (DoT)"] = {
-									["count"] = 47,
+									["count"] = 29,
 								},
-								["Shoot"] = {
-									["count"] = 59,
-								},
-								["Fire Blast"] = {
-									["count"] = 254,
+								["Fireball"] = {
+									["count"] = 369,
 								},
 							},
-							["amount"] = 3411,
+							["amount"] = 835,
 						},
 						["Prowler"] = {
 							["Details"] = {
@@ -1822,9051 +10863,10 @@ RecountPerCharDB = {
 							["amount"] = 5950,
 						},
 					},
-					["ManaGainedFrom"] = {
-						["Sculamare"] = {
-							["Details"] = {
-								["Restore Mana"] = {
-									["count"] = 301,
-								},
-							},
-							["amount"] = 301,
-						},
-					},
-					["Healing"] = 2597,
-					["TimeSpent"] = {
-						["Redridge Poacher"] = {
-							["Details"] = {
-								["Blizzard"] = {
-									["count"] = 6.5,
-								},
-							},
-							["amount"] = 6.5,
-						},
-						["Wrathtail Myrmidon"] = {
-							["Details"] = {
-								["Shoot"] = {
-									["count"] = 5.99,
-								},
-								["Fireball"] = {
-									["count"] = 70.04000000000001,
-								},
-								["Fire Blast"] = {
-									["count"] = 5.68,
-								},
-							},
-							["amount"] = 81.71000000000001,
-						},
-						["Dal Bloodclaw"] = {
-							["Details"] = {
-								["Chilled"] = {
-									["count"] = 0,
-								},
-								["Frost Nova"] = {
-									["count"] = 3.5,
-								},
-								["Fireball"] = {
-									["count"] = 12.77,
-								},
-							},
-							["amount"] = 16.27,
-						},
-						["Wildthorn Venomspitter"] = {
-							["Details"] = {
-								["Fireball"] = {
-									["count"] = 9.170000000000002,
-								},
-								["Pyroblast"] = {
-									["count"] = 3.5,
-								},
-								["Pyroblast (DoT)"] = {
-									["count"] = 0.63,
-								},
-								["Fire Blast"] = {
-									["count"] = 1.63,
-								},
-							},
-							["amount"] = 14.93,
-						},
-						["Wrathtail Sorceress"] = {
-							["Details"] = {
-								["Fireball"] = {
-									["count"] = 71.8,
-								},
-								["Pyroblast"] = {
-									["count"] = 21,
-								},
-								["Pyroblast (DoT)"] = {
-									["count"] = 3.73,
-								},
-								["Shoot"] = {
-									["count"] = 2.7,
-								},
-								["Fire Blast"] = {
-									["count"] = 3.5,
-								},
-							},
-							["amount"] = 102.73,
-						},
-						["Dark Strand Cultist"] = {
-							["Details"] = {
-								["Pyroblast"] = {
-									["count"] = 3.5,
-								},
-							},
-							["amount"] = 3.5,
-						},
-						["Foulweald Ursa"] = {
-							["Details"] = {
-								["Fireball"] = {
-									["count"] = 2.34,
-								},
-								["Pyroblast"] = {
-									["count"] = 7,
-								},
-								["Pyroblast (DoT)"] = {
-									["count"] = 0.7,
-								},
-								["Fire Blast"] = {
-									["count"] = 0.48,
-								},
-							},
-							["amount"] = 10.52,
-						},
-						["Defias Cutpurse"] = {
-							["Details"] = {
-								["Frostbolt"] = {
-									["count"] = 11.37,
-								},
-							},
-							["amount"] = 11.37,
-						},
-						["Forsaken Herbalist"] = {
-							["Details"] = {
-								["Fireball"] = {
-									["count"] = 26.89,
-								},
-								["Pyroblast"] = {
-									["count"] = 28,
-								},
-								["Pyroblast (DoT)"] = {
-									["count"] = 0.45,
-								},
-								["Frost Nova"] = {
-									["count"] = 10.06,
-								},
-								["Fire Blast"] = {
-									["count"] = 4.28,
-								},
-							},
-							["amount"] = 69.68000000000001,
-						},
-						["Ilkrud Magthrull"] = {
-							["Details"] = {
-								["Fireball"] = {
-									["count"] = 11.22,
-								},
-							},
-							["amount"] = 11.22,
-						},
-						["Thistlefur Avenger"] = {
-							["Details"] = {
-								["Fireball"] = {
-									["count"] = 25.37,
-								},
-								["Pyroblast"] = {
-									["count"] = 25.48,
-								},
-								["Pyroblast (DoT)"] = {
-									["count"] = 8.82,
-								},
-								["Shoot"] = {
-									["count"] = 3.12,
-								},
-							},
-							["amount"] = 62.78999999999999,
-						},
-						["Foulweald Shaman"] = {
-							["Details"] = {
-								["Frost Nova"] = {
-									["count"] = 0.65,
-								},
-								["Fireball"] = {
-									["count"] = 6.109999999999999,
-								},
-							},
-							["amount"] = 6.76,
-						},
-						["Wrathtail Razortail"] = {
-							["Details"] = {
-								["Fireball"] = {
-									["count"] = 9.630000000000001,
-								},
-								["Pyroblast"] = {
-									["count"] = 3.5,
-								},
-							},
-							["amount"] = 13.13,
-						},
-						["Tarantula"] = {
-							["Details"] = {
-								["Blizzard"] = {
-									["count"] = 17.48,
-								},
-							},
-							["amount"] = 17.48,
-						},
-						["Foulweald Totemic"] = {
-							["Details"] = {
-								["Fireball"] = {
-									["count"] = 32.24,
-								},
-								["Pyroblast"] = {
-									["count"] = 17.5,
-								},
-								["Pyroblast (DoT)"] = {
-									["count"] = 0.5600000000000001,
-								},
-								["Ignite (DoT)"] = {
-									["count"] = 1.91,
-								},
-								["Fire Blast"] = {
-									["count"] = 1.02,
-								},
-							},
-							["amount"] = 53.23,
-						},
-						["Forsaken Thug"] = {
-							["Details"] = {
-								["Frost Nova"] = {
-									["count"] = 1.36,
-								},
-								["Fireball"] = {
-									["count"] = 36.2,
-								},
-								["Fire Blast"] = {
-									["count"] = 4.05,
-								},
-							},
-							["amount"] = 41.60999999999999,
-						},
-						["Wrathtail Priestess"] = {
-							["Details"] = {
-								["Fireball"] = {
-									["count"] = 66.54000000000001,
-								},
-								["Pyroblast"] = {
-									["count"] = 28,
-								},
-								["Pyroblast (DoT)"] = {
-									["count"] = 2.77,
-								},
-								["Shoot"] = {
-									["count"] = 5,
-								},
-								["Fire Blast"] = {
-									["count"] = 0.78,
-								},
-							},
-							["amount"] = 103.09,
-						},
-						["Young Forest Bear"] = {
-							["Details"] = {
-								["Blizzard"] = {
-									["count"] = 7.489999999999999,
-								},
-							},
-							["amount"] = 7.489999999999999,
-						},
-						["Blackrock Grunt"] = {
-							["Details"] = {
-								["Fireball"] = {
-									["count"] = 3.74,
-								},
-								["Pyroblast"] = {
-									["count"] = 7,
-								},
-								["Pyroblast (DoT)"] = {
-									["count"] = 6.15,
-								},
-								["Shoot"] = {
-									["count"] = 2.2,
-								},
-								["Fire Blast"] = {
-									["count"] = 2.35,
-								},
-							},
-							["amount"] = 21.43999999999999,
-						},
-						["Thistlefur Pathfinder"] = {
-							["Details"] = {
-								["Fireball"] = {
-									["count"] = 2.84,
-								},
-								["Pyroblast"] = {
-									["count"] = 3.5,
-								},
-								["Pyroblast (DoT)"] = {
-									["count"] = 1.01,
-								},
-								["Ignite (DoT)"] = {
-									["count"] = 1.11,
-								},
-							},
-							["amount"] = 8.460000000000001,
-						},
-						["Forsaken Seeker"] = {
-							["Details"] = {
-								["Shoot"] = {
-									["count"] = 5.64,
-								},
-								["Pyroblast"] = {
-									["count"] = 23.54,
-								},
-								["Pyroblast (DoT)"] = {
-									["count"] = 14.43,
-								},
-								["Frost Nova"] = {
-									["count"] = 1.02,
-								},
-								["Fireball"] = {
-									["count"] = 25.67,
-								},
-							},
-							["amount"] = 70.3,
-						},
-						["Apothecary Falthis"] = {
-							["Details"] = {
-								["Fireball"] = {
-									["count"] = 3.77,
-								},
-								["Fire Blast"] = {
-									["count"] = 2.56,
-								},
-							},
-							["amount"] = 6.33,
-						},
-						["Foulweald Den Watcher"] = {
-							["Details"] = {
-								["Fireball"] = {
-									["count"] = 4.42,
-								},
-								["Pyroblast"] = {
-									["count"] = 3.5,
-								},
-								["Pyroblast (DoT)"] = {
-									["count"] = 0.97,
-								},
-								["Frost Nova"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 8.889999999999999,
-						},
-						["Foulweald Pathfinder"] = {
-							["Details"] = {
-								["Fireball"] = {
-									["count"] = 10.44,
-								},
-								["Pyroblast"] = {
-									["count"] = 3.5,
-								},
-								["Pyroblast (DoT)"] = {
-									["count"] = 1.11,
-								},
-							},
-							["amount"] = 15.05,
-						},
-						["Ruuzel"] = {
-							["Details"] = {
-								["Fireball"] = {
-									["count"] = 30.43,
-								},
-								["Fire Blast"] = {
-									["count"] = 3,
-								},
-							},
-							["amount"] = 33.42999999999999,
-						},
-						["Ashenvale Bear"] = {
-							["Details"] = {
-								["Shoot"] = {
-									["count"] = 2.79,
-								},
-								["Pyroblast"] = {
-									["count"] = 10.5,
-								},
-								["Pyroblast (DoT)"] = {
-									["count"] = 4.95,
-								},
-								["Frost Nova"] = {
-									["count"] = 0.45,
-								},
-								["Fireball"] = {
-									["count"] = 18.33,
-								},
-								["Fire Blast"] = {
-									["count"] = 1.01,
-								},
-							},
-							["amount"] = 38.03,
-						},
-						["Sculamare"] = {
-							["Details"] = {
-								["Gift of the Naaru"] = {
-									["count"] = 34.42,
-								},
-								["Healing Potion"] = {
-									["count"] = 2.31,
-								},
-							},
-							["amount"] = 36.73,
-						},
-						["Ghostpaw Runner"] = {
-							["Details"] = {
-								["Shoot"] = {
-									["count"] = 5.49,
-								},
-								["Pyroblast"] = {
-									["count"] = 10.5,
-								},
-								["Pyroblast (DoT)"] = {
-									["count"] = 2.61,
-								},
-								["Fireball"] = {
-									["count"] = 32.67,
-								},
-								["Fire Blast"] = {
-									["count"] = 3.13,
-								},
-							},
-							["amount"] = 54.4,
-						},
-						["Elder Ashenvale Bear"] = {
-							["Details"] = {
-								["Fireball"] = {
-									["count"] = 77.38,
-								},
-								["Melee"] = {
-									["count"] = 2.27,
-								},
-								["Fire Blast"] = {
-									["count"] = 2.61,
-								},
-								["Shoot"] = {
-									["count"] = 0.52,
-								},
-								["Pyroblast"] = {
-									["count"] = 21,
-								},
-								["Ignite (DoT)"] = {
-									["count"] = 0.19,
-								},
-								["Frost Nova"] = {
-									["count"] = 0.04,
-								},
-								["Pyroblast (DoT)"] = {
-									["count"] = 10.14,
-								},
-								["Chilled"] = {
-									["count"] = 8.880000000000001,
-								},
-							},
-							["amount"] = 123.03,
-						},
-						["Saltspittle Oracle"] = {
-							["Details"] = {
-								["Fireball"] = {
-									["count"] = 2.28,
-								},
-								["Pyroblast"] = {
-									["count"] = 7,
-								},
-							},
-							["amount"] = 9.279999999999999,
-						},
-						["Saltspittle Warrior"] = {
-							["Details"] = {
-								["Shoot"] = {
-									["count"] = 2.87,
-								},
-								["Pyroblast"] = {
-									["count"] = 7,
-								},
-								["Pyroblast (DoT)"] = {
-									["count"] = 3.98,
-								},
-								["Fireball"] = {
-									["count"] = 6.629999999999999,
-								},
-							},
-							["amount"] = 20.48,
-						},
-						["Redridge Mongrel"] = {
-							["Details"] = {
-								["Blizzard"] = {
-									["count"] = 6.5,
-								},
-							},
-							["amount"] = 6.5,
-						},
-						["Thistlefur Shaman"] = {
-							["Details"] = {
-								["Fireball"] = {
-									["count"] = 32,
-								},
-								["Pyroblast"] = {
-									["count"] = 17.5,
-								},
-								["Pyroblast (DoT)"] = {
-									["count"] = 0.69,
-								},
-								["Ignite (DoT)"] = {
-									["count"] = 2.05,
-								},
-								["Chilled"] = {
-									["count"] = 3.5,
-								},
-							},
-							["amount"] = 55.74,
-						},
-						["Wrathtail Wave Rider"] = {
-							["Details"] = {
-								["Shoot"] = {
-									["count"] = 3.43,
-								},
-								["Pyroblast"] = {
-									["count"] = 7,
-								},
-								["Ignite (DoT)"] = {
-									["count"] = 6.069999999999999,
-								},
-								["Fireball"] = {
-									["count"] = 64.69999999999999,
-								},
-								["Fire Blast"] = {
-									["count"] = 1.8,
-								},
-							},
-							["amount"] = 82.99999999999999,
-						},
-						["Shadethicket Moss Eater"] = {
-							["Details"] = {
-								["Fireball"] = {
-									["count"] = 21.13,
-								},
-								["Frost Nova"] = {
-									["count"] = 1.03,
-								},
-								["Fire Blast"] = {
-									["count"] = 1.5,
-								},
-							},
-							["amount"] = 23.66,
-						},
-						["Mystlash Hydra"] = {
-							["Details"] = {
-								["Fireball"] = {
-									["count"] = 6.32,
-								},
-							},
-							["amount"] = 6.32,
-						},
-						["Graz'kath <Tapatapa>"] = {
-							["Details"] = {
-								["Gift of the Naaru"] = {
-									["count"] = 28.62000000000001,
-								},
-							},
-							["amount"] = 28.62000000000001,
-						},
-						["Mugglefin"] = {
-							["Details"] = {
-								["Fireball"] = {
-									["count"] = 11.93,
-								},
-							},
-							["amount"] = 11.93,
-						},
-						["Wrathtail Sea Witch"] = {
-							["Details"] = {
-								["Fireball"] = {
-									["count"] = 14.1,
-								},
-								["Shoot"] = {
-									["count"] = 2.23,
-								},
-							},
-							["amount"] = 16.33,
-						},
-						["Saltspittle Puddlejumper"] = {
-							["Details"] = {
-								["Shoot"] = {
-									["count"] = 6.449999999999999,
-								},
-								["Pyroblast"] = {
-									["count"] = 10.5,
-								},
-								["Pyroblast (DoT)"] = {
-									["count"] = 1.09,
-								},
-								["Fireball"] = {
-									["count"] = 13.59,
-								},
-								["Fire Blast"] = {
-									["count"] = 0.39,
-								},
-							},
-							["amount"] = 32.02,
-						},
-						["Lesser Felguard"] = {
-							["Details"] = {
-								["Shoot"] = {
-									["count"] = 0.1,
-								},
-								["Pyroblast"] = {
-									["count"] = 3.5,
-								},
-								["Frost Nova"] = {
-									["count"] = 1.75,
-								},
-								["Chilled"] = {
-									["count"] = 0.57,
-								},
-								["Fireball"] = {
-									["count"] = 57.18000000000001,
-								},
-								["Fire Blast"] = {
-									["count"] = 2.47,
-								},
-							},
-							["amount"] = 65.57000000000001,
-						},
-						["Felslayer"] = {
-							["Details"] = {
-								["Fireball"] = {
-									["count"] = 53.96999999999999,
-								},
-								["Pyroblast"] = {
-									["count"] = 3.5,
-								},
-								["Pyroblast (DoT)"] = {
-									["count"] = 5.15,
-								},
-								["Shoot"] = {
-									["count"] = 2.3,
-								},
-								["Fire Blast"] = {
-									["count"] = 1.96,
-								},
-							},
-							["amount"] = 66.87999999999998,
-						},
-						["Prowler"] = {
-							["Details"] = {
-								["Blizzard"] = {
-									["count"] = 8.43,
-								},
-								["Melee"] = {
-									["count"] = 2.98,
-								},
-							},
-							["amount"] = 11.41,
-						},
-						["Akkrilus"] = {
-							["Details"] = {
-								["Fireball"] = {
-									["count"] = 14.49,
-								},
-							},
-							["amount"] = 14.49,
-						},
-						["Blackrock Outrunner"] = {
-							["Details"] = {
-								["Fireball"] = {
-									["count"] = 8.32,
-								},
-								["Pyroblast"] = {
-									["count"] = 10.5,
-								},
-								["Pyroblast (DoT)"] = {
-									["count"] = 4.140000000000001,
-								},
-								["Ignite (DoT)"] = {
-									["count"] = 2.03,
-								},
-								["Frost Nova"] = {
-									["count"] = 1.02,
-								},
-							},
-							["amount"] = 26.01,
-						},
-						["Wildthorn Stalker"] = {
-							["Details"] = {
-								["Fireball"] = {
-									["count"] = 16.62,
-								},
-								["Pyroblast"] = {
-									["count"] = 10.5,
-								},
-								["Pyroblast (DoT)"] = {
-									["count"] = 4.49,
-								},
-								["Ignite (DoT)"] = {
-									["count"] = 3.58,
-								},
-								["Shoot"] = {
-									["count"] = 4.800000000000001,
-								},
-							},
-							["amount"] = 39.99,
-						},
-						["Foulweald Warrior"] = {
-							["Details"] = {
-								["Fireball"] = {
-									["count"] = 71,
-								},
-								["Pyroblast"] = {
-									["count"] = 17.5,
-								},
-								["Pyroblast (DoT)"] = {
-									["count"] = 10.56,
-								},
-								["Ignite (DoT)"] = {
-									["count"] = 3.66,
-								},
-								["Arcane Explosion"] = {
-									["count"] = 1.2,
-								},
-								["Fire Blast"] = {
-									["count"] = 2.36,
-								},
-							},
-							["amount"] = 106.28,
-						},
-					},
-					["DamageTaken"] = 5761,
-					["Attacks"] = {
-						["Fireball"] = {
-							["Details"] = {
-								["Absorb"] = {
-									["count"] = 1,
-									["amount"] = 0,
-								},
-								["Hit"] = {
-									["max"] = 148,
-									["min"] = 88,
-									["count"] = 363,
-									["amount"] = 46003,
-								},
-								["Miss"] = {
-									["count"] = 20,
-									["amount"] = 0,
-								},
-								["Crit"] = {
-									["max"] = 222,
-									["min"] = 149,
-									["count"] = 17,
-									["amount"] = 3188,
-								},
-								["Evade"] = {
-									["count"] = 2,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 403,
-							["amount"] = 49191,
-						},
-						["Pyroblast (DoT)"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 16,
-									["min"] = 12,
-									["count"] = 69,
-									["amount"] = 1053,
-								},
-							},
-							["count"] = 69,
-							["amount"] = 1053,
-						},
-						["Blizzard"] = {
-							["Details"] = {
-								["Crit"] = {
-									["max"] = 59,
-									["min"] = 59,
-									["count"] = 2,
-									["amount"] = 118,
-								},
-								["Hit"] = {
-									["max"] = 39,
-									["min"] = 38,
-									["count"] = 44,
-									["amount"] = 1713,
-								},
-							},
-							["count"] = 46,
-							["amount"] = 1831,
-						},
-						["Frostbolt"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 99,
-									["min"] = 91,
-									["count"] = 4,
-									["amount"] = 386,
-								},
-							},
-							["count"] = 4,
-							["amount"] = 386,
-						},
-						["Arcane Explosion"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 42,
-									["min"] = 42,
-									["count"] = 1,
-									["amount"] = 42,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 42,
-						},
-						["Fire Blast"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 111,
-									["min"] = 64,
-									["count"] = 35,
-									["amount"] = 2810,
-								},
-							},
-							["count"] = 35,
-							["amount"] = 2810,
-						},
-						["Chilled"] = {
-							["Details"] = {
-								["Miss"] = {
-									["count"] = 10,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 10,
-							["amount"] = 0,
-						},
-						["Pyroblast"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 229,
-									["min"] = 160,
-									["count"] = 80,
-									["amount"] = 16009,
-								},
-								["Crit"] = {
-									["max"] = 339,
-									["min"] = 283,
-									["count"] = 7,
-									["amount"] = 2126,
-								},
-								["Miss"] = {
-									["count"] = 4,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 91,
-							["amount"] = 18135,
-						},
-						["Ignite (DoT)"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 67,
-									["min"] = 29,
-									["count"] = 14,
-									["amount"] = 608,
-								},
-							},
-							["count"] = 14,
-							["amount"] = 608,
-						},
-						["Frost Nova"] = {
-							["Details"] = {
-								["Crit"] = {
-									["max"] = 37,
-									["min"] = 36,
-									["count"] = 2,
-									["amount"] = 73,
-								},
-								["Hit"] = {
-									["max"] = 26,
-									["min"] = 23,
-									["count"] = 15,
-									["amount"] = 371,
-								},
-							},
-							["count"] = 17,
-							["amount"] = 444,
-						},
-						["Shoot"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 42,
-									["min"] = 23,
-									["count"] = 31,
-									["amount"] = 975,
-								},
-								["Crit"] = {
-									["max"] = 54,
-									["min"] = 49,
-									["count"] = 2,
-									["amount"] = 103,
-								},
-								["Miss"] = {
-									["count"] = 2,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 35,
-							["amount"] = 1078,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["Glancing"] = {
-									["max"] = 15,
-									["min"] = 15,
-									["count"] = 1,
-									["amount"] = 15,
-								},
-								["Hit"] = {
-									["max"] = 27,
-									["min"] = 27,
-									["count"] = 1,
-									["amount"] = 27,
-								},
-							},
-							["count"] = 2,
-							["amount"] = 42,
-						},
-					},
-					["HealingTaken"] = 1427,
-					["DOT_Time"] = 249,
-					["TimeDamage"] = 1609.26,
-					["TimeDamaging"] = {
-						["Redridge Poacher"] = {
-							["Details"] = {
-								["Blizzard"] = {
-									["count"] = 6.5,
-								},
-							},
-							["amount"] = 6.5,
-						},
-						["Wrathtail Myrmidon"] = {
-							["Details"] = {
-								["Shoot"] = {
-									["count"] = 5.99,
-								},
-								["Fireball"] = {
-									["count"] = 70.04000000000001,
-								},
-								["Fire Blast"] = {
-									["count"] = 5.68,
-								},
-							},
-							["amount"] = 81.71000000000001,
-						},
-						["Dal Bloodclaw"] = {
-							["Details"] = {
-								["Chilled"] = {
-									["count"] = 0,
-								},
-								["Frost Nova"] = {
-									["count"] = 3.5,
-								},
-								["Fireball"] = {
-									["count"] = 12.77,
-								},
-							},
-							["amount"] = 16.27,
-						},
-						["Wildthorn Venomspitter"] = {
-							["Details"] = {
-								["Fireball"] = {
-									["count"] = 9.170000000000002,
-								},
-								["Pyroblast"] = {
-									["count"] = 3.5,
-								},
-								["Pyroblast (DoT)"] = {
-									["count"] = 0.63,
-								},
-								["Fire Blast"] = {
-									["count"] = 1.63,
-								},
-							},
-							["amount"] = 14.93,
-						},
-						["Wrathtail Sorceress"] = {
-							["Details"] = {
-								["Fireball"] = {
-									["count"] = 71.8,
-								},
-								["Pyroblast"] = {
-									["count"] = 21,
-								},
-								["Pyroblast (DoT)"] = {
-									["count"] = 3.73,
-								},
-								["Shoot"] = {
-									["count"] = 2.7,
-								},
-								["Fire Blast"] = {
-									["count"] = 3.5,
-								},
-							},
-							["amount"] = 102.73,
-						},
-						["Forsaken Thug"] = {
-							["Details"] = {
-								["Frost Nova"] = {
-									["count"] = 1.36,
-								},
-								["Fireball"] = {
-									["count"] = 36.2,
-								},
-								["Fire Blast"] = {
-									["count"] = 4.05,
-								},
-							},
-							["amount"] = 41.60999999999999,
-						},
-						["Foulweald Ursa"] = {
-							["Details"] = {
-								["Fireball"] = {
-									["count"] = 2.34,
-								},
-								["Pyroblast"] = {
-									["count"] = 7,
-								},
-								["Pyroblast (DoT)"] = {
-									["count"] = 0.7,
-								},
-								["Fire Blast"] = {
-									["count"] = 0.48,
-								},
-							},
-							["amount"] = 10.52,
-						},
-						["Defias Cutpurse"] = {
-							["Details"] = {
-								["Frostbolt"] = {
-									["count"] = 11.37,
-								},
-							},
-							["amount"] = 11.37,
-						},
-						["Forsaken Herbalist"] = {
-							["Details"] = {
-								["Fireball"] = {
-									["count"] = 26.89,
-								},
-								["Pyroblast"] = {
-									["count"] = 28,
-								},
-								["Pyroblast (DoT)"] = {
-									["count"] = 0.45,
-								},
-								["Frost Nova"] = {
-									["count"] = 10.06,
-								},
-								["Fire Blast"] = {
-									["count"] = 4.28,
-								},
-							},
-							["amount"] = 69.68000000000001,
-						},
-						["Ilkrud Magthrull"] = {
-							["Details"] = {
-								["Fireball"] = {
-									["count"] = 11.22,
-								},
-							},
-							["amount"] = 11.22,
-						},
-						["Thistlefur Avenger"] = {
-							["Details"] = {
-								["Fireball"] = {
-									["count"] = 25.37,
-								},
-								["Pyroblast"] = {
-									["count"] = 25.48,
-								},
-								["Pyroblast (DoT)"] = {
-									["count"] = 8.82,
-								},
-								["Shoot"] = {
-									["count"] = 3.12,
-								},
-							},
-							["amount"] = 62.78999999999999,
-						},
-						["Foulweald Shaman"] = {
-							["Details"] = {
-								["Frost Nova"] = {
-									["count"] = 0.65,
-								},
-								["Fireball"] = {
-									["count"] = 6.109999999999999,
-								},
-							},
-							["amount"] = 6.76,
-						},
-						["Wrathtail Razortail"] = {
-							["Details"] = {
-								["Fireball"] = {
-									["count"] = 9.630000000000001,
-								},
-								["Pyroblast"] = {
-									["count"] = 3.5,
-								},
-							},
-							["amount"] = 13.13,
-						},
-						["Tarantula"] = {
-							["Details"] = {
-								["Blizzard"] = {
-									["count"] = 17.48,
-								},
-							},
-							["amount"] = 17.48,
-						},
-						["Foulweald Totemic"] = {
-							["Details"] = {
-								["Fireball"] = {
-									["count"] = 32.24,
-								},
-								["Pyroblast"] = {
-									["count"] = 17.5,
-								},
-								["Pyroblast (DoT)"] = {
-									["count"] = 0.5600000000000001,
-								},
-								["Ignite (DoT)"] = {
-									["count"] = 1.91,
-								},
-								["Fire Blast"] = {
-									["count"] = 1.02,
-								},
-							},
-							["amount"] = 53.23,
-						},
-						["Wrathtail Priestess"] = {
-							["Details"] = {
-								["Fireball"] = {
-									["count"] = 66.54000000000001,
-								},
-								["Pyroblast"] = {
-									["count"] = 28,
-								},
-								["Pyroblast (DoT)"] = {
-									["count"] = 2.77,
-								},
-								["Shoot"] = {
-									["count"] = 5,
-								},
-								["Fire Blast"] = {
-									["count"] = 0.78,
-								},
-							},
-							["amount"] = 103.09,
-						},
-						["Blackrock Grunt"] = {
-							["Details"] = {
-								["Fireball"] = {
-									["count"] = 3.74,
-								},
-								["Pyroblast"] = {
-									["count"] = 7,
-								},
-								["Pyroblast (DoT)"] = {
-									["count"] = 6.15,
-								},
-								["Shoot"] = {
-									["count"] = 2.2,
-								},
-								["Fire Blast"] = {
-									["count"] = 2.35,
-								},
-							},
-							["amount"] = 21.43999999999999,
-						},
-						["Thistlefur Pathfinder"] = {
-							["Details"] = {
-								["Fireball"] = {
-									["count"] = 2.84,
-								},
-								["Pyroblast"] = {
-									["count"] = 3.5,
-								},
-								["Pyroblast (DoT)"] = {
-									["count"] = 1.01,
-								},
-								["Ignite (DoT)"] = {
-									["count"] = 1.11,
-								},
-							},
-							["amount"] = 8.460000000000001,
-						},
-						["Forsaken Seeker"] = {
-							["Details"] = {
-								["Shoot"] = {
-									["count"] = 5.64,
-								},
-								["Pyroblast"] = {
-									["count"] = 23.54,
-								},
-								["Pyroblast (DoT)"] = {
-									["count"] = 14.43,
-								},
-								["Frost Nova"] = {
-									["count"] = 1.02,
-								},
-								["Fireball"] = {
-									["count"] = 25.67,
-								},
-							},
-							["amount"] = 70.3,
-						},
-						["Apothecary Falthis"] = {
-							["Details"] = {
-								["Fireball"] = {
-									["count"] = 3.77,
-								},
-								["Fire Blast"] = {
-									["count"] = 2.56,
-								},
-							},
-							["amount"] = 6.33,
-						},
-						["Foulweald Den Watcher"] = {
-							["Details"] = {
-								["Fireball"] = {
-									["count"] = 4.42,
-								},
-								["Pyroblast"] = {
-									["count"] = 3.5,
-								},
-								["Pyroblast (DoT)"] = {
-									["count"] = 0.97,
-								},
-								["Frost Nova"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 8.889999999999999,
-						},
-						["Dark Strand Cultist"] = {
-							["Details"] = {
-								["Pyroblast"] = {
-									["count"] = 3.5,
-								},
-							},
-							["amount"] = 3.5,
-						},
-						["Ruuzel"] = {
-							["Details"] = {
-								["Fireball"] = {
-									["count"] = 30.43,
-								},
-								["Fire Blast"] = {
-									["count"] = 3,
-								},
-							},
-							["amount"] = 33.42999999999999,
-						},
-						["Foulweald Pathfinder"] = {
-							["Details"] = {
-								["Fireball"] = {
-									["count"] = 10.44,
-								},
-								["Pyroblast"] = {
-									["count"] = 3.5,
-								},
-								["Pyroblast (DoT)"] = {
-									["count"] = 1.11,
-								},
-							},
-							["amount"] = 15.05,
-						},
-						["Young Forest Bear"] = {
-							["Details"] = {
-								["Blizzard"] = {
-									["count"] = 7.489999999999999,
-								},
-							},
-							["amount"] = 7.489999999999999,
-						},
-						["Ghostpaw Runner"] = {
-							["Details"] = {
-								["Shoot"] = {
-									["count"] = 5.49,
-								},
-								["Pyroblast"] = {
-									["count"] = 10.5,
-								},
-								["Pyroblast (DoT)"] = {
-									["count"] = 2.61,
-								},
-								["Fireball"] = {
-									["count"] = 32.67,
-								},
-								["Fire Blast"] = {
-									["count"] = 3.13,
-								},
-							},
-							["amount"] = 54.4,
-						},
-						["Elder Ashenvale Bear"] = {
-							["Details"] = {
-								["Fireball"] = {
-									["count"] = 77.38,
-								},
-								["Melee"] = {
-									["count"] = 2.27,
-								},
-								["Fire Blast"] = {
-									["count"] = 2.61,
-								},
-								["Shoot"] = {
-									["count"] = 0.52,
-								},
-								["Pyroblast"] = {
-									["count"] = 21,
-								},
-								["Ignite (DoT)"] = {
-									["count"] = 0.19,
-								},
-								["Frost Nova"] = {
-									["count"] = 0.04,
-								},
-								["Pyroblast (DoT)"] = {
-									["count"] = 10.14,
-								},
-								["Chilled"] = {
-									["count"] = 8.880000000000001,
-								},
-							},
-							["amount"] = 123.03,
-						},
-						["Saltspittle Oracle"] = {
-							["Details"] = {
-								["Fireball"] = {
-									["count"] = 2.28,
-								},
-								["Pyroblast"] = {
-									["count"] = 7,
-								},
-							},
-							["amount"] = 9.279999999999999,
-						},
-						["Ashenvale Bear"] = {
-							["Details"] = {
-								["Shoot"] = {
-									["count"] = 2.79,
-								},
-								["Pyroblast"] = {
-									["count"] = 10.5,
-								},
-								["Pyroblast (DoT)"] = {
-									["count"] = 4.95,
-								},
-								["Frost Nova"] = {
-									["count"] = 0.45,
-								},
-								["Fireball"] = {
-									["count"] = 18.33,
-								},
-								["Fire Blast"] = {
-									["count"] = 1.01,
-								},
-							},
-							["amount"] = 38.03,
-						},
-						["Redridge Mongrel"] = {
-							["Details"] = {
-								["Blizzard"] = {
-									["count"] = 6.5,
-								},
-							},
-							["amount"] = 6.5,
-						},
-						["Lesser Felguard"] = {
-							["Details"] = {
-								["Shoot"] = {
-									["count"] = 0.1,
-								},
-								["Pyroblast"] = {
-									["count"] = 3.5,
-								},
-								["Frost Nova"] = {
-									["count"] = 1.75,
-								},
-								["Chilled"] = {
-									["count"] = 0.57,
-								},
-								["Fireball"] = {
-									["count"] = 57.18000000000001,
-								},
-								["Fire Blast"] = {
-									["count"] = 2.47,
-								},
-							},
-							["amount"] = 65.57000000000001,
-						},
-						["Wrathtail Wave Rider"] = {
-							["Details"] = {
-								["Shoot"] = {
-									["count"] = 3.43,
-								},
-								["Pyroblast"] = {
-									["count"] = 7,
-								},
-								["Ignite (DoT)"] = {
-									["count"] = 6.069999999999999,
-								},
-								["Fireball"] = {
-									["count"] = 64.69999999999999,
-								},
-								["Fire Blast"] = {
-									["count"] = 1.8,
-								},
-							},
-							["amount"] = 82.99999999999999,
-						},
-						["Saltspittle Warrior"] = {
-							["Details"] = {
-								["Shoot"] = {
-									["count"] = 2.87,
-								},
-								["Pyroblast"] = {
-									["count"] = 7,
-								},
-								["Pyroblast (DoT)"] = {
-									["count"] = 3.98,
-								},
-								["Fireball"] = {
-									["count"] = 6.629999999999999,
-								},
-							},
-							["amount"] = 20.48,
-						},
-						["Mugglefin"] = {
-							["Details"] = {
-								["Fireball"] = {
-									["count"] = 11.93,
-								},
-							},
-							["amount"] = 11.93,
-						},
-						["Shadethicket Moss Eater"] = {
-							["Details"] = {
-								["Fireball"] = {
-									["count"] = 21.13,
-								},
-								["Frost Nova"] = {
-									["count"] = 1.03,
-								},
-								["Fire Blast"] = {
-									["count"] = 1.5,
-								},
-							},
-							["amount"] = 23.66,
-						},
-						["Mystlash Hydra"] = {
-							["Details"] = {
-								["Fireball"] = {
-									["count"] = 6.32,
-								},
-							},
-							["amount"] = 6.32,
-						},
-						["Wrathtail Sea Witch"] = {
-							["Details"] = {
-								["Fireball"] = {
-									["count"] = 14.1,
-								},
-								["Shoot"] = {
-									["count"] = 2.23,
-								},
-							},
-							["amount"] = 16.33,
-						},
-						["Saltspittle Puddlejumper"] = {
-							["Details"] = {
-								["Shoot"] = {
-									["count"] = 6.449999999999999,
-								},
-								["Pyroblast"] = {
-									["count"] = 10.5,
-								},
-								["Pyroblast (DoT)"] = {
-									["count"] = 1.09,
-								},
-								["Fireball"] = {
-									["count"] = 13.59,
-								},
-								["Fire Blast"] = {
-									["count"] = 0.39,
-								},
-							},
-							["amount"] = 32.02,
-						},
-						["Thistlefur Shaman"] = {
-							["Details"] = {
-								["Fireball"] = {
-									["count"] = 32,
-								},
-								["Pyroblast"] = {
-									["count"] = 17.5,
-								},
-								["Pyroblast (DoT)"] = {
-									["count"] = 0.69,
-								},
-								["Ignite (DoT)"] = {
-									["count"] = 2.05,
-								},
-								["Chilled"] = {
-									["count"] = 3.5,
-								},
-							},
-							["amount"] = 55.74,
-						},
-						["Felslayer"] = {
-							["Details"] = {
-								["Fireball"] = {
-									["count"] = 53.96999999999999,
-								},
-								["Pyroblast"] = {
-									["count"] = 3.5,
-								},
-								["Pyroblast (DoT)"] = {
-									["count"] = 5.15,
-								},
-								["Shoot"] = {
-									["count"] = 2.3,
-								},
-								["Fire Blast"] = {
-									["count"] = 1.96,
-								},
-							},
-							["amount"] = 66.87999999999998,
-						},
-						["Prowler"] = {
-							["Details"] = {
-								["Blizzard"] = {
-									["count"] = 8.43,
-								},
-								["Melee"] = {
-									["count"] = 2.98,
-								},
-							},
-							["amount"] = 11.41,
-						},
-						["Akkrilus"] = {
-							["Details"] = {
-								["Fireball"] = {
-									["count"] = 14.49,
-								},
-							},
-							["amount"] = 14.49,
-						},
-						["Blackrock Outrunner"] = {
-							["Details"] = {
-								["Fireball"] = {
-									["count"] = 8.32,
-								},
-								["Pyroblast"] = {
-									["count"] = 10.5,
-								},
-								["Pyroblast (DoT)"] = {
-									["count"] = 4.140000000000001,
-								},
-								["Ignite (DoT)"] = {
-									["count"] = 2.03,
-								},
-								["Frost Nova"] = {
-									["count"] = 1.02,
-								},
-							},
-							["amount"] = 26.01,
-						},
-						["Wildthorn Stalker"] = {
-							["Details"] = {
-								["Fireball"] = {
-									["count"] = 16.62,
-								},
-								["Pyroblast"] = {
-									["count"] = 10.5,
-								},
-								["Pyroblast (DoT)"] = {
-									["count"] = 4.49,
-								},
-								["Ignite (DoT)"] = {
-									["count"] = 3.58,
-								},
-								["Shoot"] = {
-									["count"] = 4.800000000000001,
-								},
-							},
-							["amount"] = 39.99,
-						},
-						["Foulweald Warrior"] = {
-							["Details"] = {
-								["Fireball"] = {
-									["count"] = 71,
-								},
-								["Pyroblast"] = {
-									["count"] = 17.5,
-								},
-								["Pyroblast (DoT)"] = {
-									["count"] = 10.56,
-								},
-								["Ignite (DoT)"] = {
-									["count"] = 3.66,
-								},
-								["Arcane Explosion"] = {
-									["count"] = 1.2,
-								},
-								["Fire Blast"] = {
-									["count"] = 2.36,
-								},
-							},
-							["amount"] = 106.28,
-						},
-					},
-					["ManaGain"] = 301,
-					["WhoHealed"] = {
-						["Sculamare"] = {
-							["Details"] = {
-								["Gift of the Naaru"] = {
-									["count"] = 1103,
-								},
-								["Healing Potion"] = {
-									["count"] = 324,
-								},
-							},
-							["amount"] = 1427,
-						},
-					},
-					["Overhealing"] = 324,
-				},
-				["Fight2"] = {
-					["DOTs"] = {
-						["Pyroblast (DoT)"] = {
-							["Details"] = {
-								["Blackrock Outrunner"] = {
-									["count"] = 9,
-								},
-								["Ashenvale Bear"] = {
-									["count"] = 0,
-								},
-								["Elder Ashenvale Bear"] = {
-									["count"] = 0,
-								},
-								["Foulweald Warrior"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 9,
-						},
-						["Ignite (DoT)"] = {
-							["Details"] = {
-								["Elder Ashenvale Bear"] = {
-									["count"] = 0,
-								},
-								["Blackrock Outrunner"] = {
-									["count"] = 3,
-								},
-								["Foulweald Warrior"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 3,
-						},
-					},
-					["ElementDoneResist"] = {
-						["Fire"] = 0,
-					},
-					["Ressed"] = 0,
-					["DamageTaken"] = 187,
-					["RageGainedFrom"] = {
-					},
-					["ElementHitsTaken"] = {
-						["Melee"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 5,
-								},
-								["Dodge"] = {
-									["count"] = 0,
-								},
-								["Crit"] = {
-									["count"] = 1,
-								},
-								["Miss"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 6,
-						},
-						["Physical"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["DeathCount"] = 0,
-					["HOT_Time"] = 0,
-					["DOT_Time"] = 12,
-					["ManaGain"] = 0,
-					["ElementTaken"] = {
-						["Melee"] = 187,
-						["Physical"] = 0,
-					},
-					["HOTs"] = {
-					},
-					["ElementTakenBlock"] = {
-					},
-					["ElementDoneAbsorb"] = {
-					},
-					["TimeHeal"] = 0,
-					["RessedWho"] = {
-					},
-					["Dispels"] = 0,
-					["PartialBlock"] = {
-					},
-					["FDamagedWho"] = {
-					},
-					["FAttacks"] = {
-					},
-					["RageGain"] = 0,
-					["ElementDone"] = {
-						["Fire"] = 1576,
-						["Frost"] = 46,
-					},
-					["ManaGainedFrom"] = {
-					},
-					["DamagedWho"] = {
-						["Lesser Felguard"] = {
-							["Details"] = {
-								["Fireball"] = {
-									["count"] = 0,
-								},
-								["Fire Blast"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Elder Ashenvale Bear"] = {
-							["Details"] = {
-								["Fireball"] = {
-									["count"] = 0,
-								},
-								["Pyroblast"] = {
-									["count"] = 0,
-								},
-								["Pyroblast (DoT)"] = {
-									["count"] = 0,
-								},
-								["Ignite (DoT)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Defias Cutpurse"] = {
-							["Details"] = {
-								["Frostbolt"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Blackrock Outrunner"] = {
-							["Details"] = {
-								["Fireball"] = {
-									["count"] = 843,
-								},
-								["Pyroblast"] = {
-									["count"] = 631,
-								},
-								["Pyroblast (DoT)"] = {
-									["count"] = 45,
-								},
-								["Ignite (DoT)"] = {
-									["count"] = 57,
-								},
-								["Frost Nova"] = {
-									["count"] = 46,
-								},
-							},
-							["amount"] = 1622,
-						},
-						["Ashenvale Bear"] = {
-							["Details"] = {
-								["Fireball"] = {
-									["count"] = 0,
-								},
-								["Pyroblast"] = {
-									["count"] = 0,
-								},
-								["Pyroblast (DoT)"] = {
-									["count"] = 0,
-								},
-								["Fire Blast"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Wildthorn Stalker"] = {
-							["Details"] = {
-								["Fireball"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Foulweald Warrior"] = {
-							["Details"] = {
-								["Fireball"] = {
-									["count"] = 0,
-								},
-								["Pyroblast"] = {
-									["count"] = 0,
-								},
-								["Pyroblast (DoT)"] = {
-									["count"] = 0,
-								},
-								["Ignite (DoT)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["OverHeals"] = {
-					},
-					["WhoDamaged"] = {
-						["Environment"] = {
-							["Details"] = {
-								["Falling"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Blackrock Outrunner"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 187,
-								},
-							},
-							["amount"] = 187,
-						},
-						["Ashenvale Bear"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Elder Ashenvale Bear"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Foulweald Warrior"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["EnergyGainedFrom"] = {
-					},
-					["RageGained"] = {
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementDoneBlock"] = {
-					},
-					["TimeHealing"] = {
-					},
-					["Dispelled"] = 0,
-					["WhoHealed"] = {
-					},
-					["PartialResist"] = {
-						["Falling"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 6,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 6,
-							["amount"] = 0,
-						},
-					},
-					["CCBreak"] = 0,
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
-					["EnergyGain"] = 0,
-					["ManaGained"] = {
-					},
-					["ElementTakenAbsorb"] = {
-					},
-					["ActiveTime"] = 26.01,
-					["Overhealing"] = 0,
-					["ElementTakenResist"] = {
-					},
-					["InterruptData"] = {
-					},
-					["WhoDispelled"] = {
-					},
-					["TimeSpent"] = {
-						["Lesser Felguard"] = {
-							["Details"] = {
-								["Fireball"] = {
-									["count"] = 0,
-								},
-								["Fire Blast"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Elder Ashenvale Bear"] = {
-							["Details"] = {
-								["Fireball"] = {
-									["count"] = 0,
-								},
-								["Pyroblast"] = {
-									["count"] = 0,
-								},
-								["Pyroblast (DoT)"] = {
-									["count"] = 0,
-								},
-								["Ignite (DoT)"] = {
-									["count"] = 0,
-								},
-								["Shoot"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Defias Cutpurse"] = {
-							["Details"] = {
-								["Frostbolt"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Blackrock Outrunner"] = {
-							["Details"] = {
-								["Fireball"] = {
-									["count"] = 8.32,
-								},
-								["Pyroblast"] = {
-									["count"] = 10.5,
-								},
-								["Pyroblast (DoT)"] = {
-									["count"] = 4.140000000000001,
-								},
-								["Ignite (DoT)"] = {
-									["count"] = 2.03,
-								},
-								["Frost Nova"] = {
-									["count"] = 1.02,
-								},
-							},
-							["amount"] = 26.01,
-						},
-						["Ashenvale Bear"] = {
-							["Details"] = {
-								["Fireball"] = {
-									["count"] = 0,
-								},
-								["Pyroblast"] = {
-									["count"] = 0,
-								},
-								["Pyroblast (DoT)"] = {
-									["count"] = 0,
-								},
-								["Fire Blast"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Wildthorn Stalker"] = {
-							["Details"] = {
-								["Fireball"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Foulweald Warrior"] = {
-							["Details"] = {
-								["Fireball"] = {
-									["count"] = 0,
-								},
-								["Pyroblast"] = {
-									["count"] = 0,
-								},
-								["Pyroblast (DoT)"] = {
-									["count"] = 0,
-								},
-								["Ignite (DoT)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["Heals"] = {
-					},
-					["PartialAbsorb"] = {
-						["Falling"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 6,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 6,
-							["amount"] = 0,
-						},
-					},
-					["EnergyGained"] = {
-					},
-					["HealedWho"] = {
-					},
-					["Healing"] = 0,
-					["CCBroken"] = {
-					},
-					["RunicPowerGained"] = {
-					},
-					["Attacks"] = {
-						["Fireball"] = {
-							["Details"] = {
-								["Crit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Hit"] = {
-									["max"] = 133,
-									["min"] = 0,
-									["count"] = 7,
-									["amount"] = 843,
-								},
-							},
-							["count"] = 7,
-							["amount"] = 843,
-						},
-						["Pyroblast"] = {
-							["Details"] = {
-								["Crit"] = {
-									["max"] = 286,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 286,
-								},
-								["Hit"] = {
-									["max"] = 176,
-									["min"] = 0,
-									["count"] = 2,
-									["amount"] = 345,
-								},
-							},
-							["count"] = 3,
-							["amount"] = 631,
-						},
-						["Pyroblast (DoT)"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 15,
-									["min"] = 0,
-									["count"] = 3,
-									["amount"] = 45,
-								},
-							},
-							["count"] = 3,
-							["amount"] = 45,
-						},
-						["Ignite (DoT)"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 57,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 57,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 57,
-						},
-						["Frost Nova"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 23,
-									["min"] = 23,
-									["count"] = 2,
-									["amount"] = 46,
-								},
-							},
-							["count"] = 2,
-							["amount"] = 46,
-						},
-						["Frostbolt"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Shoot"] = {
-							["Details"] = {
-								["Miss"] = {
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Fire Blast"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["HealingTaken"] = 0,
-					["ElementHitsDone"] = {
-						["Fire"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 9,
-								},
-								["Crit"] = {
-									["count"] = 1,
-								},
-								["Tick"] = {
-									["count"] = 4,
-								},
-							},
-							["amount"] = 14,
-						},
-						["Physical"] = {
-							["Details"] = {
-								["Miss"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Frost"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 2,
-								},
-							},
-							["amount"] = 2,
-						},
-					},
-					["TimeDamage"] = 26.01,
-					["TimeDamaging"] = {
-						["Lesser Felguard"] = {
-							["Details"] = {
-								["Fireball"] = {
-									["count"] = 0,
-								},
-								["Fire Blast"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Elder Ashenvale Bear"] = {
-							["Details"] = {
-								["Fireball"] = {
-									["count"] = 0,
-								},
-								["Pyroblast"] = {
-									["count"] = 0,
-								},
-								["Pyroblast (DoT)"] = {
-									["count"] = 0,
-								},
-								["Ignite (DoT)"] = {
-									["count"] = 0,
-								},
-								["Shoot"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Defias Cutpurse"] = {
-							["Details"] = {
-								["Frostbolt"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Blackrock Outrunner"] = {
-							["Details"] = {
-								["Fireball"] = {
-									["count"] = 8.32,
-								},
-								["Pyroblast"] = {
-									["count"] = 10.5,
-								},
-								["Pyroblast (DoT)"] = {
-									["count"] = 4.140000000000001,
-								},
-								["Ignite (DoT)"] = {
-									["count"] = 2.03,
-								},
-								["Frost Nova"] = {
-									["count"] = 1.02,
-								},
-							},
-							["amount"] = 26.01,
-						},
-						["Ashenvale Bear"] = {
-							["Details"] = {
-								["Fireball"] = {
-									["count"] = 0,
-								},
-								["Pyroblast"] = {
-									["count"] = 0,
-								},
-								["Pyroblast (DoT)"] = {
-									["count"] = 0,
-								},
-								["Fire Blast"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Wildthorn Stalker"] = {
-							["Details"] = {
-								["Fireball"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Foulweald Warrior"] = {
-							["Details"] = {
-								["Fireball"] = {
-									["count"] = 0,
-								},
-								["Pyroblast"] = {
-									["count"] = 0,
-								},
-								["Pyroblast (DoT)"] = {
-									["count"] = 0,
-								},
-								["Ignite (DoT)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["RunicPowerGain"] = 0,
-					["Damage"] = 1622,
-					["DispelledWho"] = {
-					},
-				},
-				["CurrentFightData"] = {
-					["DOTs"] = {
-						["Pyroblast (DoT)"] = {
-							["Details"] = {
-								["Foulweald Ursa"] = {
-									["count"] = 0,
-								},
-								["Wildthorn Venomspitter"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Ignite (DoT)"] = {
-							["Details"] = {
-								["Wrathtail Wave Rider"] = {
-									["count"] = 0,
-								},
-								["Foulweald Totemic"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["ElementDoneResist"] = {
-						["Fire"] = 0,
-					},
-					["Ressed"] = 0,
-					["DamageTaken"] = 0,
-					["RageGainedFrom"] = {
-					},
-					["ElementHitsTaken"] = {
-						["Melee"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["DeathCount"] = 0,
-					["HOT_Time"] = 0,
-					["DOT_Time"] = 0,
-					["ManaGain"] = 0,
-					["ElementTaken"] = {
-						["Melee"] = 0,
-					},
-					["HOTs"] = {
-						["Gift of the Naaru"] = {
-							["Details"] = {
-								["Graz'kath <Tapatapa>"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["ElementTakenBlock"] = {
-					},
-					["ElementDoneAbsorb"] = {
-					},
-					["TimeHeal"] = 0,
-					["RessedWho"] = {
-					},
-					["Dispels"] = 0,
-					["PartialBlock"] = {
-					},
-					["FDamagedWho"] = {
-					},
-					["FAttacks"] = {
-					},
-					["RageGain"] = 0,
-					["ElementDone"] = {
-						["Fire"] = 0,
-						["Frost"] = 0,
-						["Arcane"] = 0,
-					},
-					["ManaGainedFrom"] = {
-					},
-					["DamagedWho"] = {
-						["Lesser Felguard"] = {
-							["Details"] = {
-								["Fireball"] = {
-									["count"] = 0,
-								},
-								["Pyroblast"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Wrathtail Wave Rider"] = {
-							["Details"] = {
-								["Fireball"] = {
-									["count"] = 0,
-								},
-								["Fire Blast"] = {
-									["count"] = 0,
-								},
-								["Shoot"] = {
-									["count"] = 0,
-								},
-								["Ignite (DoT)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Foulweald Pathfinder"] = {
-							["Details"] = {
-								["Fireball"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Shadethicket Moss Eater"] = {
-							["Details"] = {
-								["Fireball"] = {
-									["count"] = 0,
-								},
-								["Frost Nova"] = {
-									["count"] = 0,
-								},
-								["Fire Blast"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Foulweald Totemic"] = {
-							["Details"] = {
-								["Fireball"] = {
-									["count"] = 0,
-								},
-								["Pyroblast"] = {
-									["count"] = 0,
-								},
-								["Ignite (DoT)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Wrathtail Myrmidon"] = {
-							["Details"] = {
-								["Fireball"] = {
-									["count"] = 0,
-								},
-								["Fire Blast"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Young Forest Bear"] = {
-							["Details"] = {
-								["Blizzard"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Ghostpaw Runner"] = {
-							["Details"] = {
-								["Fireball"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Wildthorn Venomspitter"] = {
-							["Details"] = {
-								["Fireball"] = {
-									["count"] = 0,
-								},
-								["Pyroblast"] = {
-									["count"] = 0,
-								},
-								["Pyroblast (DoT)"] = {
-									["count"] = 0,
-								},
-								["Fire Blast"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Prowler"] = {
-							["Details"] = {
-								["Blizzard"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Wrathtail Sorceress"] = {
-							["Details"] = {
-								["Fireball"] = {
-									["count"] = 0,
-								},
-								["Shoot"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Foulweald Ursa"] = {
-							["Details"] = {
-								["Fireball"] = {
-									["count"] = 0,
-								},
-								["Pyroblast"] = {
-									["count"] = 0,
-								},
-								["Pyroblast (DoT)"] = {
-									["count"] = 0,
-								},
-								["Fire Blast"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Wrathtail Priestess"] = {
-							["Details"] = {
-								["Fireball"] = {
-									["count"] = 0,
-								},
-								["Pyroblast"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Foulweald Warrior"] = {
-							["Details"] = {
-								["Fireball"] = {
-									["count"] = 0,
-								},
-								["Arcane Explosion"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["OverHeals"] = {
-					},
-					["WhoDamaged"] = {
-						["Wrathtail Myrmidon"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Lesser Felguard"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Wrathtail Wave Rider"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Foulweald Warrior"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["EnergyGainedFrom"] = {
-					},
-					["RageGained"] = {
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementDoneBlock"] = {
-					},
-					["TimeHealing"] = {
-						["Graz'kath <Tapatapa>"] = {
-							["Details"] = {
-								["Gift of the Naaru"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["Dispelled"] = 0,
-					["WhoHealed"] = {
-					},
-					["PartialResist"] = {
-						["Melee"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["CCBreak"] = 0,
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
-					["EnergyGain"] = 0,
-					["ManaGained"] = {
-					},
-					["ElementTakenAbsorb"] = {
-					},
-					["ActiveTime"] = 0,
-					["Overhealing"] = 0,
-					["ElementTakenResist"] = {
-					},
-					["InterruptData"] = {
-					},
-					["WhoDispelled"] = {
-					},
-					["TimeSpent"] = {
-						["Wrathtail Priestess"] = {
-							["Details"] = {
-								["Fireball"] = {
-									["count"] = 0,
-								},
-								["Pyroblast"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Wrathtail Wave Rider"] = {
-							["Details"] = {
-								["Fireball"] = {
-									["count"] = 0,
-								},
-								["Fire Blast"] = {
-									["count"] = 0,
-								},
-								["Shoot"] = {
-									["count"] = 0,
-								},
-								["Ignite (DoT)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Foulweald Totemic"] = {
-							["Details"] = {
-								["Fireball"] = {
-									["count"] = 0,
-								},
-								["Pyroblast"] = {
-									["count"] = 0,
-								},
-								["Ignite (DoT)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Foulweald Pathfinder"] = {
-							["Details"] = {
-								["Fireball"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Shadethicket Moss Eater"] = {
-							["Details"] = {
-								["Fireball"] = {
-									["count"] = 0,
-								},
-								["Frost Nova"] = {
-									["count"] = 0,
-								},
-								["Fire Blast"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Lesser Felguard"] = {
-							["Details"] = {
-								["Chilled"] = {
-									["count"] = 0,
-								},
-								["Pyroblast"] = {
-									["count"] = 0,
-								},
-								["Fireball"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Wrathtail Myrmidon"] = {
-							["Details"] = {
-								["Fireball"] = {
-									["count"] = 0,
-								},
-								["Fire Blast"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Young Forest Bear"] = {
-							["Details"] = {
-								["Blizzard"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Ghostpaw Runner"] = {
-							["Details"] = {
-								["Fireball"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Wildthorn Venomspitter"] = {
-							["Details"] = {
-								["Fireball"] = {
-									["count"] = 0,
-								},
-								["Pyroblast"] = {
-									["count"] = 0,
-								},
-								["Pyroblast (DoT)"] = {
-									["count"] = 0,
-								},
-								["Fire Blast"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Prowler"] = {
-							["Details"] = {
-								["Blizzard"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Wrathtail Sorceress"] = {
-							["Details"] = {
-								["Fireball"] = {
-									["count"] = 0,
-								},
-								["Shoot"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Graz'kath <Tapatapa>"] = {
-							["Details"] = {
-								["Gift of the Naaru"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Foulweald Ursa"] = {
-							["Details"] = {
-								["Fireball"] = {
-									["count"] = 0,
-								},
-								["Pyroblast"] = {
-									["count"] = 0,
-								},
-								["Pyroblast (DoT)"] = {
-									["count"] = 0,
-								},
-								["Fire Blast"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Foulweald Warrior"] = {
-							["Details"] = {
-								["Fireball"] = {
-									["count"] = 0,
-								},
-								["Arcane Explosion"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["Heals"] = {
-						["Gift of the Naaru"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["PartialAbsorb"] = {
-						["Melee"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["EnergyGained"] = {
-					},
-					["HealedWho"] = {
-						["Graz'kath <Tapatapa>"] = {
-							["Details"] = {
-								["Gift of the Naaru"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["Healing"] = 0,
-					["CCBroken"] = {
-					},
-					["RunicPowerGained"] = {
-					},
-					["Attacks"] = {
-						["Fireball"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Miss"] = {
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Crit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Evade"] = {
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Pyroblast (DoT)"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Blizzard"] = {
-							["Details"] = {
-								["Crit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Arcane Explosion"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Fire Blast"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Chilled"] = {
-							["Details"] = {
-								["Miss"] = {
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Pyroblast"] = {
-							["Details"] = {
-								["Crit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Ignite (DoT)"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Frost Nova"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Shoot"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["HealingTaken"] = 0,
-					["ElementHitsDone"] = {
-						["Fire"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 0,
-								},
-								["Tick"] = {
-									["count"] = 0,
-								},
-								["Miss"] = {
-									["count"] = 0,
-								},
-								["Crit"] = {
-									["count"] = 0,
-								},
-								["Evade"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Frost"] = {
-							["Details"] = {
-								["Miss"] = {
-									["count"] = 0,
-								},
-								["Crit"] = {
-									["count"] = 0,
-								},
-								["Hit"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Arcane"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["TimeDamage"] = 0,
-					["TimeDamaging"] = {
-						["Lesser Felguard"] = {
-							["Details"] = {
-								["Chilled"] = {
-									["count"] = 0,
-								},
-								["Pyroblast"] = {
-									["count"] = 0,
-								},
-								["Fireball"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Wrathtail Wave Rider"] = {
-							["Details"] = {
-								["Fireball"] = {
-									["count"] = 0,
-								},
-								["Fire Blast"] = {
-									["count"] = 0,
-								},
-								["Shoot"] = {
-									["count"] = 0,
-								},
-								["Ignite (DoT)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Foulweald Pathfinder"] = {
-							["Details"] = {
-								["Fireball"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Shadethicket Moss Eater"] = {
-							["Details"] = {
-								["Fireball"] = {
-									["count"] = 0,
-								},
-								["Frost Nova"] = {
-									["count"] = 0,
-								},
-								["Fire Blast"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Foulweald Totemic"] = {
-							["Details"] = {
-								["Fireball"] = {
-									["count"] = 0,
-								},
-								["Pyroblast"] = {
-									["count"] = 0,
-								},
-								["Ignite (DoT)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Wrathtail Myrmidon"] = {
-							["Details"] = {
-								["Fireball"] = {
-									["count"] = 0,
-								},
-								["Fire Blast"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Young Forest Bear"] = {
-							["Details"] = {
-								["Blizzard"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Ghostpaw Runner"] = {
-							["Details"] = {
-								["Fireball"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Wildthorn Venomspitter"] = {
-							["Details"] = {
-								["Fireball"] = {
-									["count"] = 0,
-								},
-								["Pyroblast"] = {
-									["count"] = 0,
-								},
-								["Pyroblast (DoT)"] = {
-									["count"] = 0,
-								},
-								["Fire Blast"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Prowler"] = {
-							["Details"] = {
-								["Blizzard"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Wrathtail Sorceress"] = {
-							["Details"] = {
-								["Fireball"] = {
-									["count"] = 0,
-								},
-								["Shoot"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Foulweald Ursa"] = {
-							["Details"] = {
-								["Fireball"] = {
-									["count"] = 0,
-								},
-								["Pyroblast"] = {
-									["count"] = 0,
-								},
-								["Pyroblast (DoT)"] = {
-									["count"] = 0,
-								},
-								["Fire Blast"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Wrathtail Priestess"] = {
-							["Details"] = {
-								["Fireball"] = {
-									["count"] = 0,
-								},
-								["Pyroblast"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Foulweald Warrior"] = {
-							["Details"] = {
-								["Fireball"] = {
-									["count"] = 0,
-								},
-								["Arcane Explosion"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["RunicPowerGain"] = 0,
-					["Damage"] = 0,
-					["DispelledWho"] = {
-					},
-				},
-				["Fight1"] = {
-					["DOTs"] = {
-						["Pyroblast (DoT)"] = {
-							["Details"] = {
-								["Foulweald Pathfinder"] = {
-									["count"] = 0,
-								},
-								["Ashenvale Bear"] = {
-									["count"] = 0,
-								},
-								["Foulweald Warrior"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["ElementDoneResist"] = {
-						["Fire"] = 0,
-					},
-					["Ressed"] = 0,
-					["DamageTaken"] = 177,
-					["RageGainedFrom"] = {
-					},
-					["ElementHitsTaken"] = {
-						["Frost"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 0,
-								},
-								["Crushing"] = {
-									["count"] = 0,
-								},
-								["Crit"] = {
-									["count"] = 0,
-								},
-								["Dodge"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Holy"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Shadow"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Physical"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 2,
-								},
-							},
-							["amount"] = 2,
-						},
-					},
-					["DeathCount"] = 0,
-					["HOT_Time"] = 0,
-					["DOT_Time"] = 0,
-					["ManaGain"] = 0,
-					["ElementTaken"] = {
-						["Frost"] = 0,
-						["Melee"] = 0,
-						["Holy"] = 0,
-						["Shadow"] = 0,
-						["Physical"] = 177,
-					},
-					["HOTs"] = {
-						["Gift of the Naaru"] = {
-							["Details"] = {
-								["Graz'kath <Tapatapa>"] = {
-									["count"] = 0,
-								},
-								["Sculamare"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["ElementTakenBlock"] = {
-					},
-					["ElementDoneAbsorb"] = {
-					},
-					["TimeHeal"] = 0,
-					["RessedWho"] = {
-					},
-					["Dispels"] = 0,
-					["PartialBlock"] = {
-					},
-					["FDamagedWho"] = {
-					},
-					["FAttacks"] = {
-					},
-					["RageGain"] = 0,
-					["ElementDone"] = {
-						["Fire"] = 0,
-						["Frost"] = 0,
-						["Melee"] = 0,
-						["Arcane"] = 0,
-					},
-					["ManaGainedFrom"] = {
-					},
-					["DamagedWho"] = {
-						["Wrathtail Priestess"] = {
-							["Details"] = {
-								["Shoot"] = {
-									["count"] = 0,
-								},
-								["Pyroblast"] = {
-									["count"] = 0,
-								},
-								["Fireball"] = {
-									["count"] = 0,
-								},
-								["Fire Blast"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Ashenvale Bear"] = {
-							["Details"] = {
-								["Fireball"] = {
-									["count"] = 0,
-								},
-								["Pyroblast"] = {
-									["count"] = 0,
-								},
-								["Pyroblast (DoT)"] = {
-									["count"] = 0,
-								},
-								["Shoot"] = {
-									["count"] = 0,
-								},
-								["Fire Blast"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Ghostpaw Runner"] = {
-							["Details"] = {
-								["Fireball"] = {
-									["count"] = 0,
-								},
-								["Shoot"] = {
-									["count"] = 0,
-								},
-								["Fire Blast"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Elder Ashenvale Bear"] = {
-							["Details"] = {
-								["Fireball"] = {
-									["count"] = 0,
-								},
-								["Fire Blast"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Saltspittle Oracle"] = {
-							["Details"] = {
-								["Fireball"] = {
-									["count"] = 0,
-								},
-								["Pyroblast"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Wrathtail Wave Rider"] = {
-							["Details"] = {
-								["Fireball"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Foulweald Pathfinder"] = {
-							["Details"] = {
-								["Fireball"] = {
-									["count"] = 0,
-								},
-								["Pyroblast"] = {
-									["count"] = 0,
-								},
-								["Pyroblast (DoT)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Foulweald Warrior"] = {
-							["Details"] = {
-								["Fireball"] = {
-									["count"] = 0,
-								},
-								["Pyroblast"] = {
-									["count"] = 0,
-								},
-								["Pyroblast (DoT)"] = {
-									["count"] = 0,
-								},
-								["Fire Blast"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Ilkrud Magthrull"] = {
-							["Details"] = {
-								["Fireball"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Saltspittle Puddlejumper"] = {
-							["Details"] = {
-								["Fireball"] = {
-									["count"] = 0,
-								},
-								["Shoot"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Forsaken Seeker"] = {
-							["Details"] = {
-								["Fireball"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Felslayer"] = {
-							["Details"] = {
-								["Fireball"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Prowler"] = {
-							["Details"] = {
-								["Blizzard"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Akkrilus"] = {
-							["Details"] = {
-								["Fireball"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Wrathtail Sorceress"] = {
-							["Details"] = {
-								["Fireball"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Wildthorn Stalker"] = {
-							["Details"] = {
-								["Pyroblast"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Foulweald Totemic"] = {
-							["Details"] = {
-								["Fireball"] = {
-									["count"] = 0,
-								},
-								["Pyroblast"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["OverHeals"] = {
-						["Gift of the Naaru"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["WhoDamaged"] = {
-						["Wrathtail Priestess"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Randomroge"] = {
-							["Details"] = {
-								["Shoot"] = {
-									["count"] = 177,
-								},
-							},
-							["amount"] = 177,
-						},
-						["Foulweald Pathfinder"] = {
-							["Details"] = {
-								["Shoot"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Ashenvale Bear"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Saltspittle Puddlejumper"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Forsaken Seeker"] = {
-							["Details"] = {
-								["Holy Smite"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Felslayer"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Mana Burn"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Prowler"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Ghostpaw Runner"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Elder Ashenvale Bear"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Wrathtail Sorceress"] = {
-							["Details"] = {
-								["Frostbolt"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Foulweald Warrior"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["EnergyGainedFrom"] = {
-					},
-					["RageGained"] = {
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementDoneBlock"] = {
-					},
-					["TimeHealing"] = {
-						["Graz'kath <Tapatapa>"] = {
-							["Details"] = {
-								["Gift of the Naaru"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Sculamare"] = {
-							["Details"] = {
-								["Gift of the Naaru"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["Dispelled"] = 0,
-					["WhoHealed"] = {
-						["Sculamare"] = {
-							["Details"] = {
-								["Gift of the Naaru"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["PartialResist"] = {
-						["Holy Smite"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Mana Burn"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Frostbolt"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Shoot"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 2,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 2,
-							["amount"] = 0,
-						},
-					},
-					["CCBreak"] = 0,
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
-					["EnergyGain"] = 0,
-					["ManaGained"] = {
-					},
-					["ElementTakenAbsorb"] = {
-					},
-					["ActiveTime"] = 0,
-					["Overhealing"] = 0,
-					["ElementTakenResist"] = {
-					},
-					["InterruptData"] = {
-					},
-					["WhoDispelled"] = {
-					},
-					["TimeSpent"] = {
-						["Wrathtail Priestess"] = {
-							["Details"] = {
-								["Shoot"] = {
-									["count"] = 0,
-								},
-								["Pyroblast"] = {
-									["count"] = 0,
-								},
-								["Fireball"] = {
-									["count"] = 0,
-								},
-								["Fire Blast"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Ashenvale Bear"] = {
-							["Details"] = {
-								["Fireball"] = {
-									["count"] = 0,
-								},
-								["Pyroblast"] = {
-									["count"] = 0,
-								},
-								["Pyroblast (DoT)"] = {
-									["count"] = 0,
-								},
-								["Shoot"] = {
-									["count"] = 0,
-								},
-								["Fire Blast"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Sculamare"] = {
-							["Details"] = {
-								["Gift of the Naaru"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Ghostpaw Runner"] = {
-							["Details"] = {
-								["Fireball"] = {
-									["count"] = 0,
-								},
-								["Shoot"] = {
-									["count"] = 0,
-								},
-								["Fire Blast"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Elder Ashenvale Bear"] = {
-							["Details"] = {
-								["Chilled"] = {
-									["count"] = 0,
-								},
-								["Fireball"] = {
-									["count"] = 0,
-								},
-								["Fire Blast"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Saltspittle Oracle"] = {
-							["Details"] = {
-								["Fireball"] = {
-									["count"] = 0,
-								},
-								["Pyroblast"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Wrathtail Wave Rider"] = {
-							["Details"] = {
-								["Fireball"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Foulweald Pathfinder"] = {
-							["Details"] = {
-								["Fireball"] = {
-									["count"] = 0,
-								},
-								["Pyroblast"] = {
-									["count"] = 0,
-								},
-								["Pyroblast (DoT)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Graz'kath <Tapatapa>"] = {
-							["Details"] = {
-								["Gift of the Naaru"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Foulweald Warrior"] = {
-							["Details"] = {
-								["Fireball"] = {
-									["count"] = 0,
-								},
-								["Pyroblast"] = {
-									["count"] = 0,
-								},
-								["Pyroblast (DoT)"] = {
-									["count"] = 0,
-								},
-								["Fire Blast"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Ilkrud Magthrull"] = {
-							["Details"] = {
-								["Fireball"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Saltspittle Puddlejumper"] = {
-							["Details"] = {
-								["Fireball"] = {
-									["count"] = 0,
-								},
-								["Shoot"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Wrathtail Sorceress"] = {
-							["Details"] = {
-								["Fireball"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Felslayer"] = {
-							["Details"] = {
-								["Fireball"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Prowler"] = {
-							["Details"] = {
-								["Blizzard"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Akkrilus"] = {
-							["Details"] = {
-								["Fireball"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Forsaken Seeker"] = {
-							["Details"] = {
-								["Fireball"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Wildthorn Stalker"] = {
-							["Details"] = {
-								["Pyroblast"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Foulweald Totemic"] = {
-							["Details"] = {
-								["Fireball"] = {
-									["count"] = 0,
-								},
-								["Pyroblast"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["Heals"] = {
-						["Gift of the Naaru"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["PartialAbsorb"] = {
-						["Holy Smite"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Mana Burn"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Frostbolt"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Shoot"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 2,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 2,
-							["amount"] = 0,
-						},
-					},
-					["EnergyGained"] = {
-					},
-					["HealedWho"] = {
-						["Graz'kath <Tapatapa>"] = {
-							["Details"] = {
-								["Gift of the Naaru"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Sculamare"] = {
-							["Details"] = {
-								["Gift of the Naaru"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["Healing"] = 0,
-					["CCBroken"] = {
-					},
-					["RunicPowerGained"] = {
-					},
-					["Attacks"] = {
-						["Shoot"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Pyroblast"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Pyroblast (DoT)"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Blizzard"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Fireball"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Miss"] = {
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Chilled"] = {
-							["Details"] = {
-								["Miss"] = {
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Fire Blast"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["HealingTaken"] = 0,
-					["ElementHitsDone"] = {
-						["Fire"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 0,
-								},
-								["Miss"] = {
-									["count"] = 0,
-								},
-								["Tick"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Frost"] = {
-							["Details"] = {
-								["Miss"] = {
-									["count"] = 0,
-								},
-								["Hit"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Arcane"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["TimeDamage"] = 0,
-					["TimeDamaging"] = {
-						["Wrathtail Priestess"] = {
-							["Details"] = {
-								["Shoot"] = {
-									["count"] = 0,
-								},
-								["Pyroblast"] = {
-									["count"] = 0,
-								},
-								["Fireball"] = {
-									["count"] = 0,
-								},
-								["Fire Blast"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Ashenvale Bear"] = {
-							["Details"] = {
-								["Fireball"] = {
-									["count"] = 0,
-								},
-								["Pyroblast"] = {
-									["count"] = 0,
-								},
-								["Pyroblast (DoT)"] = {
-									["count"] = 0,
-								},
-								["Shoot"] = {
-									["count"] = 0,
-								},
-								["Fire Blast"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Ghostpaw Runner"] = {
-							["Details"] = {
-								["Fireball"] = {
-									["count"] = 0,
-								},
-								["Shoot"] = {
-									["count"] = 0,
-								},
-								["Fire Blast"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Elder Ashenvale Bear"] = {
-							["Details"] = {
-								["Chilled"] = {
-									["count"] = 0,
-								},
-								["Fireball"] = {
-									["count"] = 0,
-								},
-								["Fire Blast"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Saltspittle Oracle"] = {
-							["Details"] = {
-								["Fireball"] = {
-									["count"] = 0,
-								},
-								["Pyroblast"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Wrathtail Wave Rider"] = {
-							["Details"] = {
-								["Fireball"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Foulweald Pathfinder"] = {
-							["Details"] = {
-								["Fireball"] = {
-									["count"] = 0,
-								},
-								["Pyroblast"] = {
-									["count"] = 0,
-								},
-								["Pyroblast (DoT)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Foulweald Warrior"] = {
-							["Details"] = {
-								["Fireball"] = {
-									["count"] = 0,
-								},
-								["Pyroblast"] = {
-									["count"] = 0,
-								},
-								["Pyroblast (DoT)"] = {
-									["count"] = 0,
-								},
-								["Fire Blast"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Ilkrud Magthrull"] = {
-							["Details"] = {
-								["Fireball"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Saltspittle Puddlejumper"] = {
-							["Details"] = {
-								["Fireball"] = {
-									["count"] = 0,
-								},
-								["Shoot"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Forsaken Seeker"] = {
-							["Details"] = {
-								["Fireball"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Felslayer"] = {
-							["Details"] = {
-								["Fireball"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Prowler"] = {
-							["Details"] = {
-								["Blizzard"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Akkrilus"] = {
-							["Details"] = {
-								["Fireball"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Wrathtail Sorceress"] = {
-							["Details"] = {
-								["Fireball"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Wildthorn Stalker"] = {
-							["Details"] = {
-								["Pyroblast"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Foulweald Totemic"] = {
-							["Details"] = {
-								["Fireball"] = {
-									["count"] = 0,
-								},
-								["Pyroblast"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["RunicPowerGain"] = 0,
-					["Damage"] = 0,
-					["DispelledWho"] = {
-					},
-				},
-				["Fight4"] = {
-					["TimeHealing"] = {
-						["Sculamare"] = {
-							["Details"] = {
-								["Healing Potion"] = {
-									["count"] = 2.31,
-								},
-								["Gift of the Naaru"] = {
-									["count"] = 11.2,
-								},
-							},
-							["amount"] = 13.51,
-						},
-					},
-					["DOTs"] = {
-						["Pyroblast (DoT)"] = {
-							["Details"] = {
-								["Wrathtail Priestess"] = {
-									["count"] = 0,
-								},
-								["Elder Ashenvale Bear"] = {
-									["count"] = 0,
-								},
-								["Thistlefur Shaman"] = {
-									["count"] = 0,
-								},
-								["Thistlefur Pathfinder"] = {
-									["count"] = 0,
-								},
-								["Forsaken Seeker"] = {
-									["count"] = 0,
-								},
-								["Wildthorn Stalker"] = {
-									["count"] = 0,
-								},
-								["Foulweald Warrior"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Ignite (DoT)"] = {
-							["Details"] = {
-								["Thistlefur Pathfinder"] = {
-									["count"] = 0,
-								},
-								["Wrathtail Wave Rider"] = {
-									["count"] = 0,
-								},
-								["Wildthorn Stalker"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["ElementDoneResist"] = {
-						["Fire"] = 0,
-					},
-					["TimeSpent"] = {
-						["Redridge Poacher"] = {
-							["Details"] = {
-								["Blizzard"] = {
-									["count"] = 6.5,
-								},
-							},
-							["amount"] = 6.5,
-						},
-						["Lesser Felguard"] = {
-							["Details"] = {
-								["Fireball"] = {
-									["count"] = 0,
-								},
-								["Frost Nova"] = {
-									["count"] = 0,
-								},
-								["Shoot"] = {
-									["count"] = 0,
-								},
-								["Fire Blast"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Thistlefur Pathfinder"] = {
-							["Details"] = {
-								["Fireball"] = {
-									["count"] = 0,
-								},
-								["Pyroblast"] = {
-									["count"] = 0,
-								},
-								["Pyroblast (DoT)"] = {
-									["count"] = 0,
-								},
-								["Ignite (DoT)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Forsaken Seeker"] = {
-							["Details"] = {
-								["Fireball"] = {
-									["count"] = 0,
-								},
-								["Pyroblast"] = {
-									["count"] = 0,
-								},
-								["Pyroblast (DoT)"] = {
-									["count"] = 0,
-								},
-								["Shoot"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Ruuzel"] = {
-							["Details"] = {
-								["Fireball"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Wrathtail Sorceress"] = {
-							["Details"] = {
-								["Fireball"] = {
-									["count"] = 0,
-								},
-								["Pyroblast"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Elder Ashenvale Bear"] = {
-							["Details"] = {
-								["Fireball"] = {
-									["count"] = 0,
-								},
-								["Pyroblast"] = {
-									["count"] = 0,
-								},
-								["Pyroblast (DoT)"] = {
-									["count"] = 0,
-								},
-								["Frost Nova"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Fire Blast"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Redridge Mongrel"] = {
-							["Details"] = {
-								["Blizzard"] = {
-									["count"] = 6.5,
-								},
-							},
-							["amount"] = 6.5,
-						},
-						["Foulweald Warrior"] = {
-							["Details"] = {
-								["Fireball"] = {
-									["count"] = 0,
-								},
-								["Pyroblast"] = {
-									["count"] = 0,
-								},
-								["Pyroblast (DoT)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Wrathtail Wave Rider"] = {
-							["Details"] = {
-								["Fireball"] = {
-									["count"] = 0,
-								},
-								["Pyroblast"] = {
-									["count"] = 0,
-								},
-								["Ignite (DoT)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Sculamare"] = {
-							["Details"] = {
-								["Healing Potion"] = {
-									["count"] = 2.31,
-								},
-								["Gift of the Naaru"] = {
-									["count"] = 11.2,
-								},
-							},
-							["amount"] = 13.51,
-						},
-						["Forsaken Herbalist"] = {
-							["Details"] = {
-								["Fireball"] = {
-									["count"] = 0,
-								},
-								["Pyroblast"] = {
-									["count"] = 0,
-								},
-								["Frost Nova"] = {
-									["count"] = 0,
-								},
-								["Fire Blast"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Thistlefur Shaman"] = {
-							["Details"] = {
-								["Fireball"] = {
-									["count"] = 0,
-								},
-								["Pyroblast"] = {
-									["count"] = 0,
-								},
-								["Pyroblast (DoT)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Wrathtail Myrmidon"] = {
-							["Details"] = {
-								["Fire Blast"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Wrathtail Sea Witch"] = {
-							["Details"] = {
-								["Fireball"] = {
-									["count"] = 0,
-								},
-								["Shoot"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Thistlefur Avenger"] = {
-							["Details"] = {
-								["Fireball"] = {
-									["count"] = 0,
-								},
-								["Pyroblast"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Shadethicket Moss Eater"] = {
-							["Details"] = {
-								["Fireball"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Felslayer"] = {
-							["Details"] = {
-								["Fireball"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Wrathtail Priestess"] = {
-							["Details"] = {
-								["Fireball"] = {
-									["count"] = 0,
-								},
-								["Pyroblast"] = {
-									["count"] = 0,
-								},
-								["Pyroblast (DoT)"] = {
-									["count"] = 0,
-								},
-								["Shoot"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Wrathtail Razortail"] = {
-							["Details"] = {
-								["Fireball"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Saltspittle Puddlejumper"] = {
-							["Details"] = {
-								["Fireball"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Wildthorn Stalker"] = {
-							["Details"] = {
-								["Shoot"] = {
-									["count"] = 0,
-								},
-								["Fireball"] = {
-									["count"] = 0,
-								},
-								["Pyroblast (DoT)"] = {
-									["count"] = 0,
-								},
-								["Ignite (DoT)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Foulweald Totemic"] = {
-							["Details"] = {
-								["Fireball"] = {
-									["count"] = 0,
-								},
-								["Fire Blast"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["DamageTaken"] = 490,
-					["PartialResist"] = {
-						["Shoot"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 12,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 12,
-							["amount"] = 0,
-						},
-						["Fire"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 12,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 12,
-							["amount"] = 0,
-						},
-						["Lightning Blast"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["HOT_Time"] = 15,
-					["PartialAbsorb"] = {
-						["Shoot"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 12,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 12,
-							["amount"] = 0,
-						},
-						["Fire"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 12,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 12,
-							["amount"] = 0,
-						},
-						["Lightning Blast"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["ActiveTime"] = 26.51,
-					["WhoHealed"] = {
-						["Sculamare"] = {
-							["Details"] = {
-								["Healing Potion"] = {
-									["count"] = 324,
-								},
-								["Gift of the Naaru"] = {
-									["count"] = 166,
-								},
-							},
-							["amount"] = 490,
-						},
-					},
-					["ElementTaken"] = {
-						["Physical"] = 321,
-						["Fire"] = 0,
-						["Melee"] = 169,
-						["Nature"] = 0,
-					},
-					["DOT_Time"] = 0,
-					["Damage"] = 797,
-					["ElementHitsTaken"] = {
-						["Physical"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 12,
-								},
-							},
-							["amount"] = 12,
-						},
-						["Fire"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 11,
-								},
-								["Miss"] = {
-									["count"] = 1,
-								},
-								["Crit"] = {
-									["count"] = 0,
-								},
-								["Dodge"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 12,
-						},
-						["Nature"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["TimeHeal"] = 13.51,
-					["WhoDamaged"] = {
-						["Redridge Poacher"] = {
-							["Details"] = {
-								["Shoot"] = {
-									["count"] = 321,
-								},
-							},
-							["amount"] = 321,
-						},
-						["Lesser Felguard"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Thistlefur Pathfinder"] = {
-							["Details"] = {
-								["Shoot"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Foulweald Warrior"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Forsaken Herbalist"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Wrathtail Sea Witch"] = {
-							["Details"] = {
-								["Lightning Blast"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Elder Ashenvale Bear"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Ruuzel"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Felslayer"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Environment"] = {
-							["Details"] = {
-								["Fire"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Redridge Mongrel"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 78,
-								},
-							},
-							["amount"] = 78,
-						},
-						["Redridge Thrasher"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 91,
-								},
-							},
-							["amount"] = 91,
-						},
-						["Wildthorn Stalker"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Foulweald Totemic"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["HealedWho"] = {
-						["Sculamare"] = {
-							["Details"] = {
-								["Healing Potion"] = {
-									["count"] = 324,
-								},
-								["Gift of the Naaru"] = {
-									["count"] = 166,
-								},
-							},
-							["amount"] = 490,
-						},
-					},
-					["ElementHitsDone"] = {
-						["Fire"] = {
-							["Details"] = {
-								["Tick"] = {
-									["count"] = 0,
-								},
-								["Miss"] = {
-									["count"] = 0,
-								},
-								["Crit"] = {
-									["count"] = 0,
-								},
-								["Hit"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Frost"] = {
-							["Details"] = {
-								["Crit"] = {
-									["count"] = 1,
-								},
-								["Hit"] = {
-									["count"] = 19,
-								},
-							},
-							["amount"] = 20,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["Glancing"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Arcane"] = {
-							["Details"] = {
-								["Crit"] = {
-									["count"] = 0,
-								},
-								["Hit"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["Healing"] = 490,
-					["Heals"] = {
-						["Healing Potion"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 324,
-									["min"] = 324,
-									["count"] = 1,
-									["amount"] = 324,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 324,
-						},
-						["Gift of the Naaru"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 80,
-									["min"] = 16,
-									["count"] = 4,
-									["amount"] = 166,
-								},
-							},
-							["count"] = 4,
-							["amount"] = 166,
-						},
-					},
-					["Attacks"] = {
-						["Fireball"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Crit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Miss"] = {
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["Glancing"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Blizzard"] = {
-							["Details"] = {
-								["Crit"] = {
-									["max"] = 59,
-									["min"] = 59,
-									["count"] = 1,
-									["amount"] = 59,
-								},
-								["Hit"] = {
-									["max"] = 39,
-									["min"] = 38,
-									["count"] = 19,
-									["amount"] = 738,
-								},
-							},
-							["count"] = 20,
-							["amount"] = 797,
-						},
-						["Fire Blast"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Shoot"] = {
-							["Details"] = {
-								["Crit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Pyroblast"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Crit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Miss"] = {
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Ignite (DoT)"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Frost Nova"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Pyroblast (DoT)"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["ElementDone"] = {
-						["Fire"] = 0,
-						["Frost"] = 797,
-						["Melee"] = 0,
-						["Arcane"] = 0,
-					},
-					["HealingTaken"] = 490,
-					["DamagedWho"] = {
-						["Redridge Poacher"] = {
-							["Details"] = {
-								["Blizzard"] = {
-									["count"] = 485,
-								},
-							},
-							["amount"] = 485,
-						},
-						["Lesser Felguard"] = {
-							["Details"] = {
-								["Fireball"] = {
-									["count"] = 0,
-								},
-								["Frost Nova"] = {
-									["count"] = 0,
-								},
-								["Shoot"] = {
-									["count"] = 0,
-								},
-								["Fire Blast"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Thistlefur Pathfinder"] = {
-							["Details"] = {
-								["Fireball"] = {
-									["count"] = 0,
-								},
-								["Pyroblast"] = {
-									["count"] = 0,
-								},
-								["Pyroblast (DoT)"] = {
-									["count"] = 0,
-								},
-								["Ignite (DoT)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Forsaken Seeker"] = {
-							["Details"] = {
-								["Fireball"] = {
-									["count"] = 0,
-								},
-								["Pyroblast"] = {
-									["count"] = 0,
-								},
-								["Pyroblast (DoT)"] = {
-									["count"] = 0,
-								},
-								["Shoot"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Ruuzel"] = {
-							["Details"] = {
-								["Fireball"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Wrathtail Sorceress"] = {
-							["Details"] = {
-								["Fireball"] = {
-									["count"] = 0,
-								},
-								["Pyroblast"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Elder Ashenvale Bear"] = {
-							["Details"] = {
-								["Fireball"] = {
-									["count"] = 0,
-								},
-								["Pyroblast"] = {
-									["count"] = 0,
-								},
-								["Pyroblast (DoT)"] = {
-									["count"] = 0,
-								},
-								["Frost Nova"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Fire Blast"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Redridge Mongrel"] = {
-							["Details"] = {
-								["Blizzard"] = {
-									["count"] = 312,
-								},
-							},
-							["amount"] = 312,
-						},
-						["Wrathtail Wave Rider"] = {
-							["Details"] = {
-								["Fireball"] = {
-									["count"] = 0,
-								},
-								["Pyroblast"] = {
-									["count"] = 0,
-								},
-								["Ignite (DoT)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Foulweald Warrior"] = {
-							["Details"] = {
-								["Fireball"] = {
-									["count"] = 0,
-								},
-								["Pyroblast"] = {
-									["count"] = 0,
-								},
-								["Pyroblast (DoT)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Forsaken Herbalist"] = {
-							["Details"] = {
-								["Fireball"] = {
-									["count"] = 0,
-								},
-								["Pyroblast"] = {
-									["count"] = 0,
-								},
-								["Frost Nova"] = {
-									["count"] = 0,
-								},
-								["Fire Blast"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Thistlefur Shaman"] = {
-							["Details"] = {
-								["Fireball"] = {
-									["count"] = 0,
-								},
-								["Pyroblast"] = {
-									["count"] = 0,
-								},
-								["Pyroblast (DoT)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Thistlefur Avenger"] = {
-							["Details"] = {
-								["Fireball"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Wrathtail Sea Witch"] = {
-							["Details"] = {
-								["Fireball"] = {
-									["count"] = 0,
-								},
-								["Shoot"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Saltspittle Puddlejumper"] = {
-							["Details"] = {
-								["Fireball"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Wrathtail Myrmidon"] = {
-							["Details"] = {
-								["Fire Blast"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Felslayer"] = {
-							["Details"] = {
-								["Fireball"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Wrathtail Priestess"] = {
-							["Details"] = {
-								["Fireball"] = {
-									["count"] = 0,
-								},
-								["Pyroblast"] = {
-									["count"] = 0,
-								},
-								["Pyroblast (DoT)"] = {
-									["count"] = 0,
-								},
-								["Shoot"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Wrathtail Razortail"] = {
-							["Details"] = {
-								["Fireball"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Shadethicket Moss Eater"] = {
-							["Details"] = {
-								["Fireball"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Wildthorn Stalker"] = {
-							["Details"] = {
-								["Shoot"] = {
-									["count"] = 0,
-								},
-								["Fireball"] = {
-									["count"] = 0,
-								},
-								["Pyroblast (DoT)"] = {
-									["count"] = 0,
-								},
-								["Ignite (DoT)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Foulweald Totemic"] = {
-							["Details"] = {
-								["Fireball"] = {
-									["count"] = 0,
-								},
-								["Fire Blast"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["TimeDamage"] = 13,
-					["TimeDamaging"] = {
-						["Redridge Poacher"] = {
-							["Details"] = {
-								["Blizzard"] = {
-									["count"] = 6.5,
-								},
-							},
-							["amount"] = 6.5,
-						},
-						["Lesser Felguard"] = {
-							["Details"] = {
-								["Fireball"] = {
-									["count"] = 0,
-								},
-								["Frost Nova"] = {
-									["count"] = 0,
-								},
-								["Shoot"] = {
-									["count"] = 0,
-								},
-								["Fire Blast"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Thistlefur Pathfinder"] = {
-							["Details"] = {
-								["Fireball"] = {
-									["count"] = 0,
-								},
-								["Pyroblast"] = {
-									["count"] = 0,
-								},
-								["Pyroblast (DoT)"] = {
-									["count"] = 0,
-								},
-								["Ignite (DoT)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Forsaken Seeker"] = {
-							["Details"] = {
-								["Fireball"] = {
-									["count"] = 0,
-								},
-								["Pyroblast"] = {
-									["count"] = 0,
-								},
-								["Pyroblast (DoT)"] = {
-									["count"] = 0,
-								},
-								["Shoot"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Ruuzel"] = {
-							["Details"] = {
-								["Fireball"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Wrathtail Sorceress"] = {
-							["Details"] = {
-								["Fireball"] = {
-									["count"] = 0,
-								},
-								["Pyroblast"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Elder Ashenvale Bear"] = {
-							["Details"] = {
-								["Fireball"] = {
-									["count"] = 0,
-								},
-								["Pyroblast"] = {
-									["count"] = 0,
-								},
-								["Pyroblast (DoT)"] = {
-									["count"] = 0,
-								},
-								["Frost Nova"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Fire Blast"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Redridge Mongrel"] = {
-							["Details"] = {
-								["Blizzard"] = {
-									["count"] = 6.5,
-								},
-							},
-							["amount"] = 6.5,
-						},
-						["Wrathtail Wave Rider"] = {
-							["Details"] = {
-								["Fireball"] = {
-									["count"] = 0,
-								},
-								["Pyroblast"] = {
-									["count"] = 0,
-								},
-								["Ignite (DoT)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Foulweald Warrior"] = {
-							["Details"] = {
-								["Fireball"] = {
-									["count"] = 0,
-								},
-								["Pyroblast"] = {
-									["count"] = 0,
-								},
-								["Pyroblast (DoT)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Forsaken Herbalist"] = {
-							["Details"] = {
-								["Fireball"] = {
-									["count"] = 0,
-								},
-								["Pyroblast"] = {
-									["count"] = 0,
-								},
-								["Frost Nova"] = {
-									["count"] = 0,
-								},
-								["Fire Blast"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Thistlefur Shaman"] = {
-							["Details"] = {
-								["Fireball"] = {
-									["count"] = 0,
-								},
-								["Pyroblast"] = {
-									["count"] = 0,
-								},
-								["Pyroblast (DoT)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Thistlefur Avenger"] = {
-							["Details"] = {
-								["Fireball"] = {
-									["count"] = 0,
-								},
-								["Pyroblast"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Wrathtail Sea Witch"] = {
-							["Details"] = {
-								["Fireball"] = {
-									["count"] = 0,
-								},
-								["Shoot"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Saltspittle Puddlejumper"] = {
-							["Details"] = {
-								["Fireball"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Wrathtail Myrmidon"] = {
-							["Details"] = {
-								["Fire Blast"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Felslayer"] = {
-							["Details"] = {
-								["Fireball"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Wrathtail Priestess"] = {
-							["Details"] = {
-								["Fireball"] = {
-									["count"] = 0,
-								},
-								["Pyroblast"] = {
-									["count"] = 0,
-								},
-								["Pyroblast (DoT)"] = {
-									["count"] = 0,
-								},
-								["Shoot"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Wrathtail Razortail"] = {
-							["Details"] = {
-								["Fireball"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Shadethicket Moss Eater"] = {
-							["Details"] = {
-								["Fireball"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Wildthorn Stalker"] = {
-							["Details"] = {
-								["Shoot"] = {
-									["count"] = 0,
-								},
-								["Fireball"] = {
-									["count"] = 0,
-								},
-								["Pyroblast (DoT)"] = {
-									["count"] = 0,
-								},
-								["Ignite (DoT)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Foulweald Totemic"] = {
-							["Details"] = {
-								["Fireball"] = {
-									["count"] = 0,
-								},
-								["Fire Blast"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["HOTs"] = {
-						["Gift of the Naaru"] = {
-							["Details"] = {
-								["Sculamare"] = {
-									["count"] = 15,
-								},
-							},
-							["amount"] = 15,
-						},
-					},
-					["Overhealing"] = 234,
-					["OverHeals"] = {
-						["Gift of the Naaru"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 80,
-									["min"] = 34,
-									["count"] = 4,
-									["amount"] = 234,
-								},
-							},
-							["count"] = 4,
-							["amount"] = 234,
-						},
-					},
-				},
-				["LastFightData"] = {
-					["DOTs"] = {
-						["Pyroblast (DoT)"] = {
-							["Details"] = {
-								["Foulweald Pathfinder"] = {
-									["count"] = 0,
-								},
-								["Ashenvale Bear"] = {
-									["count"] = 0,
-								},
-								["Foulweald Warrior"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["ElementDoneResist"] = {
-						["Fire"] = 0,
-					},
-					["Ressed"] = 0,
-					["DamageTaken"] = 177,
-					["RageGainedFrom"] = {
-					},
-					["ElementHitsTaken"] = {
-						["Frost"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 0,
-								},
-								["Crushing"] = {
-									["count"] = 0,
-								},
-								["Crit"] = {
-									["count"] = 0,
-								},
-								["Dodge"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Holy"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Shadow"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Physical"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 2,
-								},
-							},
-							["amount"] = 2,
-						},
-					},
-					["DeathCount"] = 0,
-					["HOT_Time"] = 0,
-					["DOT_Time"] = 0,
-					["ManaGain"] = 0,
-					["ElementTaken"] = {
-						["Frost"] = 0,
-						["Melee"] = 0,
-						["Holy"] = 0,
-						["Shadow"] = 0,
-						["Physical"] = 177,
-					},
-					["HOTs"] = {
-						["Gift of the Naaru"] = {
-							["Details"] = {
-								["Graz'kath <Tapatapa>"] = {
-									["count"] = 0,
-								},
-								["Sculamare"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["ElementTakenBlock"] = {
-					},
-					["ElementDoneAbsorb"] = {
-					},
-					["TimeHeal"] = 0,
-					["RessedWho"] = {
-					},
-					["Dispels"] = 0,
-					["PartialBlock"] = {
-					},
-					["FDamagedWho"] = {
-					},
-					["FAttacks"] = {
-					},
-					["RageGain"] = 0,
-					["ElementDone"] = {
-						["Fire"] = 0,
-						["Frost"] = 0,
-						["Melee"] = 0,
-						["Arcane"] = 0,
-					},
-					["ManaGainedFrom"] = {
-					},
-					["DamagedWho"] = {
-						["Wrathtail Priestess"] = {
-							["Details"] = {
-								["Shoot"] = {
-									["count"] = 0,
-								},
-								["Pyroblast"] = {
-									["count"] = 0,
-								},
-								["Fireball"] = {
-									["count"] = 0,
-								},
-								["Fire Blast"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Ashenvale Bear"] = {
-							["Details"] = {
-								["Fireball"] = {
-									["count"] = 0,
-								},
-								["Pyroblast"] = {
-									["count"] = 0,
-								},
-								["Pyroblast (DoT)"] = {
-									["count"] = 0,
-								},
-								["Shoot"] = {
-									["count"] = 0,
-								},
-								["Fire Blast"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Ghostpaw Runner"] = {
-							["Details"] = {
-								["Fireball"] = {
-									["count"] = 0,
-								},
-								["Shoot"] = {
-									["count"] = 0,
-								},
-								["Fire Blast"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Elder Ashenvale Bear"] = {
-							["Details"] = {
-								["Fireball"] = {
-									["count"] = 0,
-								},
-								["Fire Blast"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Saltspittle Oracle"] = {
-							["Details"] = {
-								["Fireball"] = {
-									["count"] = 0,
-								},
-								["Pyroblast"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Wrathtail Wave Rider"] = {
-							["Details"] = {
-								["Fireball"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Foulweald Pathfinder"] = {
-							["Details"] = {
-								["Fireball"] = {
-									["count"] = 0,
-								},
-								["Pyroblast"] = {
-									["count"] = 0,
-								},
-								["Pyroblast (DoT)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Foulweald Warrior"] = {
-							["Details"] = {
-								["Fireball"] = {
-									["count"] = 0,
-								},
-								["Pyroblast"] = {
-									["count"] = 0,
-								},
-								["Pyroblast (DoT)"] = {
-									["count"] = 0,
-								},
-								["Fire Blast"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Ilkrud Magthrull"] = {
-							["Details"] = {
-								["Fireball"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Saltspittle Puddlejumper"] = {
-							["Details"] = {
-								["Fireball"] = {
-									["count"] = 0,
-								},
-								["Shoot"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Forsaken Seeker"] = {
-							["Details"] = {
-								["Fireball"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Felslayer"] = {
-							["Details"] = {
-								["Fireball"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Prowler"] = {
-							["Details"] = {
-								["Blizzard"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Akkrilus"] = {
-							["Details"] = {
-								["Fireball"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Wrathtail Sorceress"] = {
-							["Details"] = {
-								["Fireball"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Wildthorn Stalker"] = {
-							["Details"] = {
-								["Pyroblast"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Foulweald Totemic"] = {
-							["Details"] = {
-								["Fireball"] = {
-									["count"] = 0,
-								},
-								["Pyroblast"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["OverHeals"] = {
-						["Gift of the Naaru"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["WhoDamaged"] = {
-						["Wrathtail Priestess"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Randomroge"] = {
-							["Details"] = {
-								["Shoot"] = {
-									["count"] = 177,
-								},
-							},
-							["amount"] = 177,
-						},
-						["Foulweald Pathfinder"] = {
-							["Details"] = {
-								["Shoot"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Ashenvale Bear"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Saltspittle Puddlejumper"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Forsaken Seeker"] = {
-							["Details"] = {
-								["Holy Smite"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Felslayer"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Mana Burn"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Prowler"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Ghostpaw Runner"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Elder Ashenvale Bear"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Wrathtail Sorceress"] = {
-							["Details"] = {
-								["Frostbolt"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Foulweald Warrior"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["EnergyGainedFrom"] = {
-					},
-					["RageGained"] = {
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementDoneBlock"] = {
-					},
-					["TimeHealing"] = {
-						["Graz'kath <Tapatapa>"] = {
-							["Details"] = {
-								["Gift of the Naaru"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Sculamare"] = {
-							["Details"] = {
-								["Gift of the Naaru"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["Dispelled"] = 0,
-					["WhoHealed"] = {
-						["Sculamare"] = {
-							["Details"] = {
-								["Gift of the Naaru"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["PartialResist"] = {
-						["Holy Smite"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Mana Burn"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Frostbolt"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Shoot"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 2,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 2,
-							["amount"] = 0,
-						},
-					},
-					["CCBreak"] = 0,
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
-					["EnergyGain"] = 0,
-					["ManaGained"] = {
-					},
-					["ElementTakenAbsorb"] = {
-					},
-					["ActiveTime"] = 0,
-					["Overhealing"] = 0,
-					["ElementTakenResist"] = {
-					},
-					["InterruptData"] = {
-					},
-					["WhoDispelled"] = {
-					},
-					["TimeSpent"] = {
-						["Wrathtail Priestess"] = {
-							["Details"] = {
-								["Shoot"] = {
-									["count"] = 0,
-								},
-								["Pyroblast"] = {
-									["count"] = 0,
-								},
-								["Fireball"] = {
-									["count"] = 0,
-								},
-								["Fire Blast"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Ashenvale Bear"] = {
-							["Details"] = {
-								["Fireball"] = {
-									["count"] = 0,
-								},
-								["Pyroblast"] = {
-									["count"] = 0,
-								},
-								["Pyroblast (DoT)"] = {
-									["count"] = 0,
-								},
-								["Shoot"] = {
-									["count"] = 0,
-								},
-								["Fire Blast"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Sculamare"] = {
-							["Details"] = {
-								["Gift of the Naaru"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Ghostpaw Runner"] = {
-							["Details"] = {
-								["Fireball"] = {
-									["count"] = 0,
-								},
-								["Shoot"] = {
-									["count"] = 0,
-								},
-								["Fire Blast"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Elder Ashenvale Bear"] = {
-							["Details"] = {
-								["Chilled"] = {
-									["count"] = 0,
-								},
-								["Fireball"] = {
-									["count"] = 0,
-								},
-								["Fire Blast"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Saltspittle Oracle"] = {
-							["Details"] = {
-								["Fireball"] = {
-									["count"] = 0,
-								},
-								["Pyroblast"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Wrathtail Wave Rider"] = {
-							["Details"] = {
-								["Fireball"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Foulweald Pathfinder"] = {
-							["Details"] = {
-								["Fireball"] = {
-									["count"] = 0,
-								},
-								["Pyroblast"] = {
-									["count"] = 0,
-								},
-								["Pyroblast (DoT)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Graz'kath <Tapatapa>"] = {
-							["Details"] = {
-								["Gift of the Naaru"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Foulweald Warrior"] = {
-							["Details"] = {
-								["Fireball"] = {
-									["count"] = 0,
-								},
-								["Pyroblast"] = {
-									["count"] = 0,
-								},
-								["Pyroblast (DoT)"] = {
-									["count"] = 0,
-								},
-								["Fire Blast"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Ilkrud Magthrull"] = {
-							["Details"] = {
-								["Fireball"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Saltspittle Puddlejumper"] = {
-							["Details"] = {
-								["Fireball"] = {
-									["count"] = 0,
-								},
-								["Shoot"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Wrathtail Sorceress"] = {
-							["Details"] = {
-								["Fireball"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Felslayer"] = {
-							["Details"] = {
-								["Fireball"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Prowler"] = {
-							["Details"] = {
-								["Blizzard"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Akkrilus"] = {
-							["Details"] = {
-								["Fireball"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Forsaken Seeker"] = {
-							["Details"] = {
-								["Fireball"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Wildthorn Stalker"] = {
-							["Details"] = {
-								["Pyroblast"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Foulweald Totemic"] = {
-							["Details"] = {
-								["Fireball"] = {
-									["count"] = 0,
-								},
-								["Pyroblast"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["Heals"] = {
-						["Gift of the Naaru"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["PartialAbsorb"] = {
-						["Holy Smite"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Mana Burn"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Frostbolt"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Shoot"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 2,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 2,
-							["amount"] = 0,
-						},
-					},
-					["EnergyGained"] = {
-					},
-					["HealedWho"] = {
-						["Graz'kath <Tapatapa>"] = {
-							["Details"] = {
-								["Gift of the Naaru"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Sculamare"] = {
-							["Details"] = {
-								["Gift of the Naaru"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["Healing"] = 0,
-					["CCBroken"] = {
-					},
-					["RunicPowerGained"] = {
-					},
-					["Attacks"] = {
-						["Shoot"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Pyroblast"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Pyroblast (DoT)"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Blizzard"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Fireball"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Miss"] = {
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Chilled"] = {
-							["Details"] = {
-								["Miss"] = {
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Fire Blast"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["HealingTaken"] = 0,
-					["ElementHitsDone"] = {
-						["Fire"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 0,
-								},
-								["Miss"] = {
-									["count"] = 0,
-								},
-								["Tick"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Frost"] = {
-							["Details"] = {
-								["Miss"] = {
-									["count"] = 0,
-								},
-								["Hit"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Arcane"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["TimeDamage"] = 0,
-					["TimeDamaging"] = {
-						["Wrathtail Priestess"] = {
-							["Details"] = {
-								["Shoot"] = {
-									["count"] = 0,
-								},
-								["Pyroblast"] = {
-									["count"] = 0,
-								},
-								["Fireball"] = {
-									["count"] = 0,
-								},
-								["Fire Blast"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Ashenvale Bear"] = {
-							["Details"] = {
-								["Fireball"] = {
-									["count"] = 0,
-								},
-								["Pyroblast"] = {
-									["count"] = 0,
-								},
-								["Pyroblast (DoT)"] = {
-									["count"] = 0,
-								},
-								["Shoot"] = {
-									["count"] = 0,
-								},
-								["Fire Blast"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Ghostpaw Runner"] = {
-							["Details"] = {
-								["Fireball"] = {
-									["count"] = 0,
-								},
-								["Shoot"] = {
-									["count"] = 0,
-								},
-								["Fire Blast"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Elder Ashenvale Bear"] = {
-							["Details"] = {
-								["Chilled"] = {
-									["count"] = 0,
-								},
-								["Fireball"] = {
-									["count"] = 0,
-								},
-								["Fire Blast"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Saltspittle Oracle"] = {
-							["Details"] = {
-								["Fireball"] = {
-									["count"] = 0,
-								},
-								["Pyroblast"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Wrathtail Wave Rider"] = {
-							["Details"] = {
-								["Fireball"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Foulweald Pathfinder"] = {
-							["Details"] = {
-								["Fireball"] = {
-									["count"] = 0,
-								},
-								["Pyroblast"] = {
-									["count"] = 0,
-								},
-								["Pyroblast (DoT)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Foulweald Warrior"] = {
-							["Details"] = {
-								["Fireball"] = {
-									["count"] = 0,
-								},
-								["Pyroblast"] = {
-									["count"] = 0,
-								},
-								["Pyroblast (DoT)"] = {
-									["count"] = 0,
-								},
-								["Fire Blast"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Ilkrud Magthrull"] = {
-							["Details"] = {
-								["Fireball"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Saltspittle Puddlejumper"] = {
-							["Details"] = {
-								["Fireball"] = {
-									["count"] = 0,
-								},
-								["Shoot"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Forsaken Seeker"] = {
-							["Details"] = {
-								["Fireball"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Felslayer"] = {
-							["Details"] = {
-								["Fireball"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Prowler"] = {
-							["Details"] = {
-								["Blizzard"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Akkrilus"] = {
-							["Details"] = {
-								["Fireball"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Wrathtail Sorceress"] = {
-							["Details"] = {
-								["Fireball"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Wildthorn Stalker"] = {
-							["Details"] = {
-								["Pyroblast"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Foulweald Totemic"] = {
-							["Details"] = {
-								["Fireball"] = {
-									["count"] = 0,
-								},
-								["Pyroblast"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["RunicPowerGain"] = 0,
-					["Damage"] = 0,
-					["DispelledWho"] = {
-					},
-				},
-				["Fight5"] = {
-					["DOTs"] = {
-						["Pyroblast (DoT)"] = {
-							["Details"] = {
-								["Foulweald Den Watcher"] = {
-									["count"] = 0,
-								},
-								["Forsaken Seeker"] = {
-									["count"] = 0,
-								},
-								["Wrathtail Sorceress"] = {
-									["count"] = 0,
-								},
-								["Elder Ashenvale Bear"] = {
-									["count"] = 0,
-								},
-								["Wildthorn Stalker"] = {
-									["count"] = 0,
-								},
-								["Foulweald Warrior"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Ignite (DoT)"] = {
-							["Details"] = {
-								["Wrathtail Wave Rider"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["ElementDoneResist"] = {
-						["Fire"] = 0,
-					},
-					["Ressed"] = 0,
-					["DamageTaken"] = 73,
-					["RageGainedFrom"] = {
-					},
-					["ElementHitsTaken"] = {
-						["Physical"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 0,
-								},
-								["Tick"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 4,
-								},
-								["Miss"] = {
-									["count"] = 0,
-								},
-								["Crit"] = {
-									["count"] = 0,
-								},
-								["Crushing"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 4,
-						},
-						["Nature"] = {
-							["Details"] = {
-								["Miss"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["DeathCount"] = 0,
-					["HOT_Time"] = 0,
-					["DOT_Time"] = 0,
-					["ManaGain"] = 0,
-					["ElementTaken"] = {
-						["Melee"] = 73,
-						["Physical"] = 0,
-					},
-					["HOTs"] = {
-						["Gift of the Naaru"] = {
-							["Details"] = {
-								["Graz'kath <Tapatapa>"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["ElementTakenBlock"] = {
-					},
-					["ElementDoneAbsorb"] = {
-					},
-					["TimeHeal"] = 0,
-					["RessedWho"] = {
-					},
-					["Dispels"] = 0,
-					["PartialBlock"] = {
-					},
-					["FDamagedWho"] = {
-					},
-					["FAttacks"] = {
-					},
-					["RageGain"] = 0,
-					["ElementDone"] = {
-						["Fire"] = 0,
-						["Frost"] = 390,
-						["Arcane"] = 0,
-					},
-					["ManaGainedFrom"] = {
-					},
-					["DamagedWho"] = {
-						["Wrathtail Myrmidon"] = {
-							["Details"] = {
-								["Fireball"] = {
-									["count"] = 0,
-								},
-								["Shoot"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Forsaken Seeker"] = {
-							["Details"] = {
-								["Frost Nova"] = {
-									["count"] = 0,
-								},
-								["Pyroblast"] = {
-									["count"] = 0,
-								},
-								["Pyroblast (DoT)"] = {
-									["count"] = 0,
-								},
-								["Fireball"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Foulweald Den Watcher"] = {
-							["Details"] = {
-								["Fireball"] = {
-									["count"] = 0,
-								},
-								["Pyroblast"] = {
-									["count"] = 0,
-								},
-								["Pyroblast (DoT)"] = {
-									["count"] = 0,
-								},
-								["Frost Nova"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Ruuzel"] = {
-							["Details"] = {
-								["Fireball"] = {
-									["count"] = 0,
-								},
-								["Fire Blast"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Wrathtail Sorceress"] = {
-							["Details"] = {
-								["Fireball"] = {
-									["count"] = 0,
-								},
-								["Pyroblast"] = {
-									["count"] = 0,
-								},
-								["Pyroblast (DoT)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Elder Ashenvale Bear"] = {
-							["Details"] = {
-								["Fireball"] = {
-									["count"] = 0,
-								},
-								["Pyroblast"] = {
-									["count"] = 0,
-								},
-								["Pyroblast (DoT)"] = {
-									["count"] = 0,
-								},
-								["Fire Blast"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Forsaken Thug"] = {
-							["Details"] = {
-								["Frost Nova"] = {
-									["count"] = 0,
-								},
-								["Fireball"] = {
-									["count"] = 0,
-								},
-								["Fire Blast"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Wrathtail Wave Rider"] = {
-							["Details"] = {
-								["Fireball"] = {
-									["count"] = 0,
-								},
-								["Ignite (DoT)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Ghostpaw Runner"] = {
-							["Details"] = {
-								["Fireball"] = {
-									["count"] = 0,
-								},
-								["Pyroblast"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Forsaken Herbalist"] = {
-							["Details"] = {
-								["Pyroblast"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Shadethicket Moss Eater"] = {
-							["Details"] = {
-								["Fireball"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Mystlash Hydra"] = {
-							["Details"] = {
-								["Fireball"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Wrathtail Sea Witch"] = {
-							["Details"] = {
-								["Fireball"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Wildthorn Stalker"] = {
-							["Details"] = {
-								["Fireball"] = {
-									["count"] = 0,
-								},
-								["Pyroblast"] = {
-									["count"] = 0,
-								},
-								["Pyroblast (DoT)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Wrathtail Priestess"] = {
-							["Details"] = {
-								["Fireball"] = {
-									["count"] = 0,
-								},
-								["Pyroblast"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Saltspittle Warrior"] = {
-							["Details"] = {
-								["Fireball"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Foulweald Shaman"] = {
-							["Details"] = {
-								["Frost Nova"] = {
-									["count"] = 0,
-								},
-								["Fireball"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Lesser Felguard"] = {
-							["Details"] = {
-								["Fireball"] = {
-									["count"] = 0,
-								},
-								["Fire Blast"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Felslayer"] = {
-							["Details"] = {
-								["Fireball"] = {
-									["count"] = 0,
-								},
-								["Fire Blast"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Tarantula"] = {
-							["Details"] = {
-								["Blizzard"] = {
-									["count"] = 390,
-								},
-							},
-							["amount"] = 390,
-						},
-						["Foulweald Warrior"] = {
-							["Details"] = {
-								["Fireball"] = {
-									["count"] = 0,
-								},
-								["Pyroblast"] = {
-									["count"] = 0,
-								},
-								["Pyroblast (DoT)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["OverHeals"] = {
-					},
-					["WhoDamaged"] = {
-						["Forsaken Thug"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Forsaken Seeker"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Foulweald Den Watcher"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Shadethicket Moss Eater"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Ruuzel"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Heroic Strike"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Felslayer"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Wildthorn Stalker"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Wrathtail Myrmidon"] = {
-							["Details"] = {
-								["Strike"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Rend (DoT)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Elder Ashenvale Bear"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Tarantula"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 73,
-								},
-							},
-							["amount"] = 73,
-						},
-						["Foulweald Warrior"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["EnergyGainedFrom"] = {
-					},
-					["RageGained"] = {
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementDoneBlock"] = {
-					},
-					["TimeHealing"] = {
-						["Graz'kath <Tapatapa>"] = {
-							["Details"] = {
-								["Gift of the Naaru"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["Dispelled"] = 0,
-					["WhoHealed"] = {
-					},
-					["PartialResist"] = {
-						["Strike"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 4,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 4,
-							["amount"] = 0,
-						},
-						["Corrupted Strength"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Rend (DoT)"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Heroic Strike"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["CCBreak"] = 0,
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
-					["EnergyGain"] = 0,
-					["ManaGained"] = {
-					},
-					["ElementTakenAbsorb"] = {
-					},
-					["ActiveTime"] = 17.48,
-					["Overhealing"] = 0,
-					["ElementTakenResist"] = {
-					},
-					["InterruptData"] = {
-					},
-					["WhoDispelled"] = {
-					},
-					["TimeSpent"] = {
-						["Wrathtail Myrmidon"] = {
-							["Details"] = {
-								["Fireball"] = {
-									["count"] = 0,
-								},
-								["Shoot"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Forsaken Seeker"] = {
-							["Details"] = {
-								["Frost Nova"] = {
-									["count"] = 0,
-								},
-								["Pyroblast"] = {
-									["count"] = 0,
-								},
-								["Pyroblast (DoT)"] = {
-									["count"] = 0,
-								},
-								["Fireball"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Foulweald Den Watcher"] = {
-							["Details"] = {
-								["Fireball"] = {
-									["count"] = 0,
-								},
-								["Pyroblast"] = {
-									["count"] = 0,
-								},
-								["Pyroblast (DoT)"] = {
-									["count"] = 0,
-								},
-								["Frost Nova"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Ruuzel"] = {
-							["Details"] = {
-								["Fireball"] = {
-									["count"] = 0,
-								},
-								["Fire Blast"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Wrathtail Sorceress"] = {
-							["Details"] = {
-								["Fireball"] = {
-									["count"] = 0,
-								},
-								["Pyroblast"] = {
-									["count"] = 0,
-								},
-								["Pyroblast (DoT)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Elder Ashenvale Bear"] = {
-							["Details"] = {
-								["Fireball"] = {
-									["count"] = 0,
-								},
-								["Pyroblast"] = {
-									["count"] = 0,
-								},
-								["Pyroblast (DoT)"] = {
-									["count"] = 0,
-								},
-								["Chilled"] = {
-									["count"] = 0,
-								},
-								["Fire Blast"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Ghostpaw Runner"] = {
-							["Details"] = {
-								["Fireball"] = {
-									["count"] = 0,
-								},
-								["Pyroblast"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Forsaken Thug"] = {
-							["Details"] = {
-								["Frost Nova"] = {
-									["count"] = 0,
-								},
-								["Fireball"] = {
-									["count"] = 0,
-								},
-								["Fire Blast"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Wrathtail Wave Rider"] = {
-							["Details"] = {
-								["Fireball"] = {
-									["count"] = 0,
-								},
-								["Ignite (DoT)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Wildthorn Stalker"] = {
-							["Details"] = {
-								["Fireball"] = {
-									["count"] = 0,
-								},
-								["Pyroblast"] = {
-									["count"] = 0,
-								},
-								["Pyroblast (DoT)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Forsaken Herbalist"] = {
-							["Details"] = {
-								["Pyroblast"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Graz'kath <Tapatapa>"] = {
-							["Details"] = {
-								["Gift of the Naaru"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Mystlash Hydra"] = {
-							["Details"] = {
-								["Fireball"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Wrathtail Sea Witch"] = {
-							["Details"] = {
-								["Fireball"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Wrathtail Priestess"] = {
-							["Details"] = {
-								["Fireball"] = {
-									["count"] = 0,
-								},
-								["Pyroblast"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Lesser Felguard"] = {
-							["Details"] = {
-								["Fireball"] = {
-									["count"] = 0,
-								},
-								["Fire Blast"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Saltspittle Warrior"] = {
-							["Details"] = {
-								["Fireball"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Foulweald Shaman"] = {
-							["Details"] = {
-								["Frost Nova"] = {
-									["count"] = 0,
-								},
-								["Fireball"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Felslayer"] = {
-							["Details"] = {
-								["Fireball"] = {
-									["count"] = 0,
-								},
-								["Fire Blast"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Shadethicket Moss Eater"] = {
-							["Details"] = {
-								["Fireball"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Tarantula"] = {
-							["Details"] = {
-								["Blizzard"] = {
-									["count"] = 17.48,
-								},
-							},
-							["amount"] = 17.48,
-						},
-						["Foulweald Warrior"] = {
-							["Details"] = {
-								["Fireball"] = {
-									["count"] = 0,
-								},
-								["Pyroblast"] = {
-									["count"] = 0,
-								},
-								["Pyroblast (DoT)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["Heals"] = {
-						["Gift of the Naaru"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["PartialAbsorb"] = {
-						["Strike"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 4,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 4,
-							["amount"] = 0,
-						},
-						["Corrupted Strength"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Rend (DoT)"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Heroic Strike"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["EnergyGained"] = {
-					},
-					["HealedWho"] = {
-						["Graz'kath <Tapatapa>"] = {
-							["Details"] = {
-								["Gift of the Naaru"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["Healing"] = 0,
-					["CCBroken"] = {
-					},
-					["RunicPowerGained"] = {
-					},
-					["Attacks"] = {
-						["Fireball"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Crit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Miss"] = {
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Pyroblast (DoT)"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Blizzard"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 39,
-									["min"] = 39,
-									["count"] = 10,
-									["amount"] = 390,
-								},
-							},
-							["count"] = 10,
-							["amount"] = 390,
-						},
-						["Fire Blast"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Shoot"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Pyroblast"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Ignite (DoT)"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Frost Nova"] = {
-							["Details"] = {
-								["Crit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Chilled"] = {
-							["Details"] = {
-								["Miss"] = {
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["HealingTaken"] = 0,
-					["ElementHitsDone"] = {
-						["Fire"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 0,
-								},
-								["Tick"] = {
-									["count"] = 0,
-								},
-								["Crit"] = {
-									["count"] = 0,
-								},
-								["Miss"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Frost"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 10,
-								},
-								["Crit"] = {
-									["count"] = 0,
-								},
-								["Miss"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 10,
-						},
-						["Arcane"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["TimeDamage"] = 17.48,
-					["TimeDamaging"] = {
-						["Wrathtail Myrmidon"] = {
-							["Details"] = {
-								["Fireball"] = {
-									["count"] = 0,
-								},
-								["Shoot"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Forsaken Seeker"] = {
-							["Details"] = {
-								["Frost Nova"] = {
-									["count"] = 0,
-								},
-								["Pyroblast"] = {
-									["count"] = 0,
-								},
-								["Pyroblast (DoT)"] = {
-									["count"] = 0,
-								},
-								["Fireball"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Foulweald Den Watcher"] = {
-							["Details"] = {
-								["Fireball"] = {
-									["count"] = 0,
-								},
-								["Pyroblast"] = {
-									["count"] = 0,
-								},
-								["Pyroblast (DoT)"] = {
-									["count"] = 0,
-								},
-								["Frost Nova"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Ruuzel"] = {
-							["Details"] = {
-								["Fireball"] = {
-									["count"] = 0,
-								},
-								["Fire Blast"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Wrathtail Sorceress"] = {
-							["Details"] = {
-								["Fireball"] = {
-									["count"] = 0,
-								},
-								["Pyroblast"] = {
-									["count"] = 0,
-								},
-								["Pyroblast (DoT)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Elder Ashenvale Bear"] = {
-							["Details"] = {
-								["Fireball"] = {
-									["count"] = 0,
-								},
-								["Pyroblast"] = {
-									["count"] = 0,
-								},
-								["Pyroblast (DoT)"] = {
-									["count"] = 0,
-								},
-								["Chilled"] = {
-									["count"] = 0,
-								},
-								["Fire Blast"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Forsaken Thug"] = {
-							["Details"] = {
-								["Frost Nova"] = {
-									["count"] = 0,
-								},
-								["Fireball"] = {
-									["count"] = 0,
-								},
-								["Fire Blast"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Wrathtail Wave Rider"] = {
-							["Details"] = {
-								["Fireball"] = {
-									["count"] = 0,
-								},
-								["Ignite (DoT)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Ghostpaw Runner"] = {
-							["Details"] = {
-								["Fireball"] = {
-									["count"] = 0,
-								},
-								["Pyroblast"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Forsaken Herbalist"] = {
-							["Details"] = {
-								["Pyroblast"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Shadethicket Moss Eater"] = {
-							["Details"] = {
-								["Fireball"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Mystlash Hydra"] = {
-							["Details"] = {
-								["Fireball"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Wrathtail Sea Witch"] = {
-							["Details"] = {
-								["Fireball"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Wildthorn Stalker"] = {
-							["Details"] = {
-								["Fireball"] = {
-									["count"] = 0,
-								},
-								["Pyroblast"] = {
-									["count"] = 0,
-								},
-								["Pyroblast (DoT)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Wrathtail Priestess"] = {
-							["Details"] = {
-								["Fireball"] = {
-									["count"] = 0,
-								},
-								["Pyroblast"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Saltspittle Warrior"] = {
-							["Details"] = {
-								["Fireball"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Foulweald Shaman"] = {
-							["Details"] = {
-								["Frost Nova"] = {
-									["count"] = 0,
-								},
-								["Fireball"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Lesser Felguard"] = {
-							["Details"] = {
-								["Fireball"] = {
-									["count"] = 0,
-								},
-								["Fire Blast"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Felslayer"] = {
-							["Details"] = {
-								["Fireball"] = {
-									["count"] = 0,
-								},
-								["Fire Blast"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Tarantula"] = {
-							["Details"] = {
-								["Blizzard"] = {
-									["count"] = 17.48,
-								},
-							},
-							["amount"] = 17.48,
-						},
-						["Foulweald Warrior"] = {
-							["Details"] = {
-								["Fireball"] = {
-									["count"] = 0,
-								},
-								["Pyroblast"] = {
-									["count"] = 0,
-								},
-								["Pyroblast (DoT)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["RunicPowerGain"] = 0,
-					["Damage"] = 390,
-					["DispelledWho"] = {
-					},
-				},
-				["Fight3"] = {
-					["DOTs"] = {
-						["Pyroblast (DoT)"] = {
-							["Details"] = {
-								["Blackrock Grunt"] = {
-									["count"] = 12,
-								},
-							},
-							["amount"] = 12,
-						},
-					},
-					["ElementDoneResist"] = {
-						["Fire"] = 0,
-					},
-					["Ressed"] = 0,
-					["DamageTaken"] = 71,
-					["RageGainedFrom"] = {
-					},
-					["ElementHitsTaken"] = {
-						["Melee"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 3,
-								},
-							},
-							["amount"] = 3,
-						},
-					},
-					["DeathCount"] = 0,
-					["HOT_Time"] = 0,
-					["DOT_Time"] = 12,
-					["ManaGain"] = 0,
-					["ElementTaken"] = {
-						["Melee"] = 71,
-					},
-					["HOTs"] = {
-					},
-					["ElementTakenBlock"] = {
-					},
-					["ElementDoneAbsorb"] = {
-					},
-					["TimeHeal"] = 0,
-					["RessedWho"] = {
-					},
-					["Dispels"] = 0,
-					["PartialBlock"] = {
-					},
-					["FDamagedWho"] = {
-					},
-					["FAttacks"] = {
-					},
-					["RageGain"] = 0,
-					["ElementDone"] = {
-						["Frost"] = 0,
-						["Fire"] = 980,
-						["Arcane"] = 28,
-					},
-					["ManaGainedFrom"] = {
-					},
-					["DamagedWho"] = {
-						["Elder Ashenvale Bear"] = {
-							["Details"] = {
-								["Fireball"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Blackrock Grunt"] = {
-							["Details"] = {
-								["Fireball"] = {
-									["count"] = 454,
-								},
-								["Pyroblast"] = {
-									["count"] = 355,
-								},
-								["Pyroblast (DoT)"] = {
-									["count"] = 60,
-								},
-								["Shoot"] = {
-									["count"] = 28,
-								},
-								["Fire Blast"] = {
-									["count"] = 111,
-								},
-							},
-							["amount"] = 1008,
-						},
-						["Defias Cutpurse"] = {
-							["Details"] = {
-								["Frostbolt"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["OverHeals"] = {
-					},
-					["WhoDamaged"] = {
-						["Blackrock Grunt"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 71,
-								},
-							},
-							["amount"] = 71,
-						},
-					},
-					["EnergyGainedFrom"] = {
-					},
-					["RageGained"] = {
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementDoneBlock"] = {
-					},
-					["TimeHealing"] = {
-					},
-					["Dispelled"] = 0,
-					["WhoHealed"] = {
-					},
-					["PartialResist"] = {
-						["Melee"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 3,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 3,
-							["amount"] = 0,
-						},
-					},
-					["CCBreak"] = 0,
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
-					["EnergyGain"] = 0,
-					["ManaGained"] = {
-					},
-					["ElementTakenAbsorb"] = {
-					},
-					["ActiveTime"] = 21.43999999999999,
-					["Overhealing"] = 0,
-					["ElementTakenResist"] = {
-					},
-					["InterruptData"] = {
-					},
-					["WhoDispelled"] = {
-					},
-					["TimeSpent"] = {
-						["Elder Ashenvale Bear"] = {
-							["Details"] = {
-								["Fireball"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Blackrock Grunt"] = {
-							["Details"] = {
-								["Fireball"] = {
-									["count"] = 3.74,
-								},
-								["Pyroblast"] = {
-									["count"] = 7,
-								},
-								["Pyroblast (DoT)"] = {
-									["count"] = 6.15,
-								},
-								["Shoot"] = {
-									["count"] = 2.2,
-								},
-								["Fire Blast"] = {
-									["count"] = 2.35,
-								},
-							},
-							["amount"] = 21.43999999999999,
-						},
-						["Defias Cutpurse"] = {
-							["Details"] = {
-								["Frostbolt"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["Heals"] = {
-					},
-					["PartialAbsorb"] = {
-						["Melee"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 3,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 3,
-							["amount"] = 0,
-						},
-					},
-					["EnergyGained"] = {
-					},
-					["HealedWho"] = {
-					},
-					["Healing"] = 0,
-					["CCBroken"] = {
-					},
-					["RunicPowerGained"] = {
-					},
-					["Attacks"] = {
-						["Fireball"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 135,
-									["min"] = 0,
-									["count"] = 4,
-									["amount"] = 454,
-								},
-								["Miss"] = {
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 4,
-							["amount"] = 454,
-						},
-						["Pyroblast"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 179,
-									["min"] = 176,
-									["count"] = 2,
-									["amount"] = 355,
-								},
-							},
-							["count"] = 2,
-							["amount"] = 355,
-						},
-						["Pyroblast (DoT)"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 15,
-									["min"] = 15,
-									["count"] = 4,
-									["amount"] = 60,
-								},
-							},
-							["count"] = 4,
-							["amount"] = 60,
-						},
-						["Frostbolt"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Shoot"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 28,
-									["min"] = 28,
-									["count"] = 1,
-									["amount"] = 28,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 28,
-						},
-						["Fire Blast"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 111,
-									["min"] = 111,
-									["count"] = 1,
-									["amount"] = 111,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 111,
-						},
-					},
-					["HealingTaken"] = 0,
-					["ElementHitsDone"] = {
-						["Frost"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Fire"] = {
-							["Details"] = {
-								["Tick"] = {
-									["count"] = 4,
-								},
-								["Hit"] = {
-									["count"] = 7,
-								},
-								["Miss"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 11,
-						},
-						["Arcane"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 1,
-								},
-							},
-							["amount"] = 1,
-						},
-					},
-					["TimeDamage"] = 21.43999999999999,
-					["TimeDamaging"] = {
-						["Elder Ashenvale Bear"] = {
-							["Details"] = {
-								["Fireball"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Blackrock Grunt"] = {
-							["Details"] = {
-								["Fireball"] = {
-									["count"] = 3.74,
-								},
-								["Pyroblast"] = {
-									["count"] = 7,
-								},
-								["Pyroblast (DoT)"] = {
-									["count"] = 6.15,
-								},
-								["Shoot"] = {
-									["count"] = 2.2,
-								},
-								["Fire Blast"] = {
-									["count"] = 2.35,
-								},
-							},
-							["amount"] = 21.43999999999999,
-						},
-						["Defias Cutpurse"] = {
-							["Details"] = {
-								["Frostbolt"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["RunicPowerGain"] = 0,
-					["Damage"] = 1008,
-					["DispelledWho"] = {
-					},
 				},
 			},
-			["NextEventNum"] = 7,
-			["LastEventHealthNum"] = {
-				70.45790251107829, -- [1]
-				66.76514032496307, -- [2]
-				66.76514032496307, -- [3]
-				66.76514032496307, -- [4]
-				87.14918759231905, -- [5]
-				73.85524372230428, -- [6]
-				88.2747068676717, -- [7]
-				88.2747068676717, -- [8]
-				85.42713567839196, -- [9]
-				78.89447236180905, -- [10]
-				92.29480737018426, -- [11]
-				100, -- [12]
-				95.97989949748744, -- [13]
-				100, -- [14]
-				100, -- [15]
-				100, -- [16]
-				100, -- [17]
-				100, -- [18]
-				100, -- [19]
-				100, -- [20]
-				96.15952732644018, -- [21]
-				96.15952732644018, -- [22]
-				92.90989660265879, -- [23]
-				92.90989660265879, -- [24]
-				89.5125553914328, -- [25]
-				89.5125553914328, -- [26]
-				89.5125553914328, -- [27]
-				89.5125553914328, -- [28]
-				89.5125553914328, -- [29]
-				89.5125553914328, -- [30]
-				89.5125553914328, -- [31]
-				89.5125553914328, -- [32]
-				94.38700147710487, -- [33]
-				94.38700147710487, -- [34]
-				94.38700147710487, -- [35]
-				94.38700147710487, -- [36]
-				94.38700147710487, -- [37]
-				90.10339734121122, -- [38]
-				90.10339734121122, -- [39]
-				86.11521418020679, -- [40]
-				82.86558345642541, -- [41]
-				82.86558345642541, -- [42]
-				82.86558345642541, -- [43]
-				74.88921713441654, -- [44]
-				74.88921713441654, -- [45]
-				70.45790251107829, -- [46]
-				70.45790251107829, -- [47]
-				70.45790251107829, -- [48]
-				70.45790251107829, -- [49]
-				70.45790251107829, -- [50]
-			},
-			["LastEvents"] = {
-				"Blackrock Outrunner Melee Sculamare Hit -25 (Physical)", -- [1]
-				"Sculamare Fireball Blackrock Outrunner Hit -121 (Fire)", -- [2]
-				"Sculamare Pyroblast (DoT) Blackrock Outrunner Tick -15 (Fire)", -- [3]
-				"Sculamare Fireball Blackrock Outrunner Hit -121 (Fire)", -- [4]
-				"Randomroge Shoot Sculamare Hit -87 (Physical)", -- [5]
-				"Randomroge Shoot Sculamare Hit -90 (Physical)", -- [6]
-				"Sculamare Healing Potion Sculamare Hit +324", -- [7]
-				"Redridge Thrasher Melee Sculamare Hit -17 (Physical)", -- [8]
-				"Redridge Mongrel Melee Sculamare Hit -14 (Physical)", -- [9]
-				"Redridge Poacher Shoot Sculamare Hit -25 (Physical)", -- [10]
-				"Sculamare Gift of the Naaru Sculamare Tick +80", -- [11]
-				"Sculamare Gift of the Naaru Sculamare Tick +80 (34 overheal)", -- [12]
-				"Redridge Poacher Shoot Sculamare Hit -24 (Physical)", -- [13]
-				"Sculamare Gift of the Naaru Sculamare Tick +80 (56 overheal)", -- [14]
-				"Sculamare Gift of the Naaru Sculamare Tick +80 (80 overheal)", -- [15]
-				"Redridge Thrasher Melee Sculamare Hit -16 (Physical)", -- [16]
-				"Sculamare Gift of the Naaru Sculamare Tick +80 (64 overheal)", -- [17]
-				"Sculamare Pyroblast Blackrock Grunt Hit -176 (Fire)", -- [18]
-				"Sculamare Pyroblast (DoT) Blackrock Grunt Tick -15 (Fire)", -- [19]
-				"Blackrock Grunt Melee Sculamare Hit -26 (Physical)", -- [20]
-				"Sculamare Fireball Blackrock Grunt Hit -107 (Fire)", -- [21]
-				"Blackrock Grunt Melee Sculamare Hit -22 (Physical)", -- [22]
-				"Sculamare Pyroblast (DoT) Blackrock Grunt Tick -15 (Fire)", -- [23]
-				"Blackrock Grunt Melee Sculamare Hit -23 (Physical)", -- [24]
-				"Sculamare Fire Blast Blackrock Grunt Hit -111 (Fire)", -- [25]
-				"Sculamare Fireball Blackrock Grunt Hit -135 (Fire)", -- [26]
-				"Sculamare Pyroblast Blackrock Grunt Hit -179 (Fire)", -- [27]
-				"Sculamare Fireball Blackrock Grunt Hit -107 (Fire)", -- [28]
-				"Sculamare Pyroblast (DoT) Blackrock Grunt Tick -15 (Fire)", -- [29]
-				"Sculamare Fireball Blackrock Grunt Hit -105 (Fire)", -- [30]
-				"Sculamare Shoot Blackrock Grunt Hit -28 (Arcane)", -- [31]
-				"Sculamare Pyroblast (DoT) Blackrock Grunt Tick -15 (Fire)", -- [32]
-				"Sculamare Pyroblast Blackrock Outrunner Hit -169 (Fire)", -- [33]
-				"Sculamare Fireball Blackrock Outrunner Hit -119 (Fire)", -- [34]
-				"Sculamare Pyroblast (DoT) Blackrock Outrunner Tick -15 (Fire)", -- [35]
-				"Sculamare Fireball Blackrock Outrunner Hit -118 (Fire)", -- [36]
-				"Blackrock Outrunner Melee Sculamare Hit -29 (Physical)", -- [37]
-				"Sculamare Fireball Blackrock Outrunner Hit -125 (Fire)", -- [38]
-				"Blackrock Outrunner Melee Sculamare Hit -27 (Physical)", -- [39]
-				"Blackrock Outrunner Melee Sculamare Hit -22 (Physical)", -- [40]
-				"Sculamare Frost Nova Blackrock Outrunner Hit -23 (Frost)", -- [41]
-				"Sculamare Frost Nova Blackrock Outrunner Hit -23 (Frost)", -- [42]
-				"Blackrock Outrunner Melee Sculamare Crit -54 (Physical)", -- [43]
-				"Sculamare Pyroblast Blackrock Outrunner Crit -286 (Fire)", -- [44]
-				"Blackrock Outrunner Melee Sculamare Hit -30 (Physical)", -- [45]
-				"Sculamare Ignite (DoT) Blackrock Outrunner Tick -57 (Fire)", -- [46]
-				"Sculamare Fireball Blackrock Outrunner Hit -133 (Fire)", -- [47]
-				"Sculamare Pyroblast Blackrock Outrunner Hit -176 (Fire)", -- [48]
-				"Sculamare Fireball Blackrock Outrunner Hit -106 (Fire)", -- [49]
-				"Sculamare Pyroblast (DoT) Blackrock Outrunner Tick -15 (Fire)", -- [50]
-			},
-			["Name"] = "Sculamare",
-			["TimeLast"] = {
-				["TimeHeal"] = 1689805015,
-				["OVERALL"] = 1689844048,
-				["DamageTaken"] = 1689844048,
-				["HOT_Time"] = 1689805015,
-				["TimeDamage"] = 1689835064,
-				["HealingTaken"] = 1689805015,
-				["Overhealing"] = 1689805015,
-				["ActiveTime"] = 1689835064,
-				["Healing"] = 1689805015,
-				["ManaGain"] = 1689798718,
-				["DOT_Time"] = 1689835064,
-				["Damage"] = 1689835064,
-			},
-			["LastEventIncoming"] = {
-				true, -- [1]
-				false, -- [2]
-				false, -- [3]
-				false, -- [4]
-				true, -- [5]
-				true, -- [6]
-				true, -- [7]
-				true, -- [8]
-				true, -- [9]
-				true, -- [10]
-				true, -- [11]
-				true, -- [12]
-				true, -- [13]
-				true, -- [14]
-				true, -- [15]
-				true, -- [16]
-				true, -- [17]
-				false, -- [18]
-				false, -- [19]
-				true, -- [20]
-				false, -- [21]
-				true, -- [22]
-				false, -- [23]
-				true, -- [24]
-				false, -- [25]
-				false, -- [26]
-				false, -- [27]
-				false, -- [28]
-				false, -- [29]
-				false, -- [30]
-				false, -- [31]
-				false, -- [32]
-				false, -- [33]
-				false, -- [34]
-				false, -- [35]
-				false, -- [36]
-				true, -- [37]
-				false, -- [38]
-				true, -- [39]
-				true, -- [40]
-				false, -- [41]
-				false, -- [42]
-				true, -- [43]
-				false, -- [44]
-				true, -- [45]
-				false, -- [46]
-				false, -- [47]
-				false, -- [48]
-				false, -- [49]
-				false, -- [50]
-			},
-			["LastDamageTaken"] = 90,
-			["LastEventTimes"] = {
-				1197.898, -- [1]
-				1198.463, -- [2]
-				1200.68, -- [3]
-				1200.822, -- [4]
-				10179.889, -- [5]
-				10184.907, -- [6]
-				11347.933, -- [7]
-				11347.958, -- [8]
-				11349.156, -- [9]
-				11349.43, -- [10]
-				11349.631, -- [11]
-				11352.622, -- [12]
-				11354.231, -- [13]
-				11355.632, -- [14]
-				11358.623, -- [15]
-				11360.397, -- [16]
-				11361.665, -- [17]
-				1119.473, -- [18]
-				1122.498, -- [19]
-				1123.431, -- [20]
-				1123.456, -- [21]
-				1124.997, -- [22]
-				1125.499, -- [23]
-				1125.948, -- [24]
-				1127.848, -- [25]
-				1127.899, -- [26]
-				1141.223, -- [27]
-				1143.298, -- [28]
-				1144.247, -- [29]
-				1144.898, -- [30]
-				1147.099, -- [31]
-				1147.232, -- [32]
-				1161.706, -- [33]
-				1163.838, -- [34]
-				1164.764, -- [35]
-				1165.439, -- [36]
-				1165.906, -- [37]
-				1167.548, -- [38]
-				1167.923, -- [39]
-				1168.057, -- [40]
-				1168.565, -- [41]
-				1168.565, -- [42]
-				1179.522, -- [43]
-				1180.164, -- [44]
-				1182.048, -- [45]
-				1182.197, -- [46]
-				1182.656, -- [47]
-				1194.655, -- [48]
-				1196.689, -- [49]
-				1197.68, -- [50]
-			},
-			["LastAbility"] = 14921.964,
+			["UnitLockout"] = 1689796844,
+			["LastActive"] = 1689844048,
 		},
 		["Tapatapa"] = {
 			["DeathLogs"] = {
@@ -10972,16 +10972,16 @@ RecountPerCharDB = {
 			},
 			["TimeLast"] = {
 				["TimeHeal"] = 1689803783,
-				["Healing"] = 1689803783,
-				["HOT_Time"] = 1689803738,
 				["OVERALL"] = 1689803783,
-				["DamageTaken"] = 1689803719,
-				["HealingTaken"] = 1689803729,
-				["TimeDamage"] = 1689803783,
 				["DeathCount"] = 1689802344,
+				["Healing"] = 1689803783,
+				["DamageTaken"] = 1689803719,
 				["FDamage"] = 1689803719,
-				["ActiveTime"] = 1689803783,
 				["Overhealing"] = 1689803729,
+				["HealingTaken"] = 1689803729,
+				["HOT_Time"] = 1689803738,
+				["TimeDamage"] = 1689803783,
+				["ActiveTime"] = 1689803783,
 				["ManaGain"] = 1689803727,
 				["DOT_Time"] = 1689803782,
 				["Damage"] = 1689803783,
@@ -11043,8 +11043,8 @@ RecountPerCharDB = {
 				["TimeHeal"] = {
 					1122.91, -- [1]
 				},
-				["FDamage"] = {
-					1293, -- [1]
+				["Overhealing"] = {
+					563, -- [1]
 				},
 				["Healing"] = {
 					7116, -- [1]
@@ -11052,17 +11052,17 @@ RecountPerCharDB = {
 				["DamageTaken"] = {
 					3640, -- [1]
 				},
-				["HealingTaken"] = {
-					200, -- [1]
-				},
-				["Overhealing"] = {
-					563, -- [1]
-				},
 				["DeathCount"] = {
 					2, -- [1]
 				},
 				["HOT_Time"] = {
 					111, -- [1]
+				},
+				["HealingTaken"] = {
+					200, -- [1]
+				},
+				["FDamage"] = {
+					1293, -- [1]
 				},
 				["TimeDamage"] = {
 					194.14, -- [1]
@@ -11082,8 +11082,289 @@ RecountPerCharDB = {
 			},
 			["enClass"] = "WARLOCK",
 			["LastDamageTaken"] = 75,
-			["LastActive"] = 1689803797,
-			["UnitLockout"] = 1689796843,
+			["LastAbility"] = 35710.219,
+			["LastEventTimes"] = {
+				10122.553, -- [1]
+				10122.553, -- [2]
+				10125.178, -- [3]
+				10125.178, -- [4]
+				10125.571, -- [5]
+				10125.571, -- [6]
+				10126.545, -- [7]
+				10126.546, -- [8]
+				10128.17, -- [9]
+				10128.171, -- [10]
+				10128.612, -- [11]
+				10128.612, -- [12]
+				10129.603, -- [13]
+				10129.604, -- [14]
+				10135.52, -- [15]
+				10136.536, -- [16]
+				10137.553, -- [17]
+				10138.512, -- [18]
+				10139.527, -- [19]
+				10140.494, -- [20]
+				10141.538, -- [21]
+				10142.521, -- [22]
+				10143.513, -- [23]
+				10144.504, -- [24]
+				10066.022, -- [25]
+				10071.028, -- [26]
+				10073.279, -- [27]
+				10074.32, -- [28]
+				10075.254, -- [29]
+				10076.004, -- [30]
+				10076.271, -- [31]
+				10076.313, -- [32]
+				10077.229, -- [33]
+				10077.27, -- [34]
+				10078.236, -- [35]
+				10079.237, -- [36]
+				10080.253, -- [37]
+				10081.271, -- [38]
+				10082.228, -- [39]
+				10083.22, -- [40]
+				10084.238, -- [41]
+				10085.229, -- [42]
+				10096.828, -- [43]
+				10096.828, -- [44]
+				10102.32, -- [45]
+				10102.32, -- [46]
+				10117.662, -- [47]
+				10117.662, -- [48]
+				10122.196, -- [49]
+				10122.196, -- [50]
+			},
+			["unit"] = "Tapatapa",
+			["level"] = 20,
+			["LastDamageAbility"] = "Venom Spit",
+			["LastFightIn"] = 168,
+			["LastEventNum"] = {
+				[27] = 13.11914323962517,
+				[34] = 13.11914323962517,
+				[28] = 13.11914323962517,
+				[25] = 10.04016064257028,
+				[29] = 13.11914323962517,
+				[32] = 13.11914323962517,
+			},
+			["type"] = "Ungrouped",
+			["FightsSaved"] = 5,
+			["GUID"] = "0x07000000009762D4",
+			["LastEventIncoming"] = {
+				false, -- [1]
+				false, -- [2]
+				false, -- [3]
+				false, -- [4]
+				false, -- [5]
+				false, -- [6]
+				false, -- [7]
+				false, -- [8]
+				false, -- [9]
+				false, -- [10]
+				false, -- [11]
+				false, -- [12]
+				false, -- [13]
+				false, -- [14]
+				false, -- [15]
+				false, -- [16]
+				false, -- [17]
+				false, -- [18]
+				false, -- [19]
+				false, -- [20]
+				false, -- [21]
+				false, -- [22]
+				false, -- [23]
+				false, -- [24]
+				true, -- [25]
+				true, -- [26]
+				true, -- [27]
+				true, -- [28]
+				true, -- [29]
+				true, -- [30]
+				false, -- [31]
+				true, -- [32]
+				false, -- [33]
+				true, -- [34]
+				false, -- [35]
+				false, -- [36]
+				false, -- [37]
+				false, -- [38]
+				false, -- [39]
+				false, -- [40]
+				false, -- [41]
+				false, -- [42]
+				false, -- [43]
+				false, -- [44]
+				false, -- [45]
+				false, -- [46]
+				false, -- [47]
+				false, -- [48]
+				false, -- [49]
+				false, -- [50]
+			},
+			["Owner"] = false,
+			["Pet"] = {
+				"Graz'kath <Tapatapa>", -- [1]
+			},
+			["NextEventNum"] = 25,
+			["LastEventHealthNum"] = {
+				92.6372155287818, -- [1]
+				92.6372155287818, -- [2]
+				92.6372155287818, -- [3]
+				92.6372155287818, -- [4]
+				92.6372155287818, -- [5]
+				92.6372155287818, -- [6]
+				92.6372155287818, -- [7]
+				92.6372155287818, -- [8]
+				92.6372155287818, -- [9]
+				92.6372155287818, -- [10]
+				92.6372155287818, -- [11]
+				92.6372155287818, -- [12]
+				92.6372155287818, -- [13]
+				92.6372155287818, -- [14]
+				92.5033467202142, -- [15]
+				91.16465863453816, -- [16]
+				89.82597054886212, -- [17]
+				88.48728246318608, -- [18]
+				87.14859437751004, -- [19]
+				85.809906291834, -- [20]
+				84.47121820615797, -- [21]
+				83.13253012048193, -- [22]
+				81.79384203480589, -- [23]
+				80.45515394912985, -- [24]
+				78.5809906291834, -- [25]
+				79.51807228915662, -- [26]
+				93.57429718875503, -- [27]
+				97.18875502008032, -- [28]
+				100, -- [29]
+				100, -- [30]
+				100, -- [31]
+				100, -- [32]
+				100, -- [33]
+				100, -- [34]
+				100, -- [35]
+				98.66131191432396, -- [36]
+				97.32262382864792, -- [37]
+				95.98393574297189, -- [38]
+				94.64524765729586, -- [39]
+				93.30655957161982, -- [40]
+				91.96787148594378, -- [41]
+				90.62918340026774, -- [42]
+				88.88888888888889, -- [43]
+				88.88888888888889, -- [44]
+				88.88888888888889, -- [45]
+				88.88888888888889, -- [46]
+				92.6372155287818, -- [47]
+				92.6372155287818, -- [48]
+				92.6372155287818, -- [49]
+				92.6372155287818, -- [50]
+			},
+			["LastEvents"] = {
+				"Tapatapa Fel Synergy Graz'kath <Tapatapa> Hit +7", -- [1]
+				"Tapatapa Immolate Elder Ashenvale Bear Hit -49 (5 resisted) (Fire)", -- [2]
+				"Tapatapa Fel Synergy Graz'kath <Tapatapa> Hit +2", -- [3]
+				"Tapatapa Corruption (DoT) Elder Ashenvale Bear Tick -18 (4 resisted) (Shadow)", -- [4]
+				"Tapatapa Fel Synergy Graz'kath <Tapatapa> Hit +3", -- [5]
+				"Tapatapa Immolate (DoT) Elder Ashenvale Bear Tick -22 (2 resisted) (Fire)", -- [6]
+				"Tapatapa Fel Synergy Graz'kath <Tapatapa> Hit +18", -- [7]
+				"Tapatapa Shadow Bolt Elder Ashenvale Bear Hit -125 (Shadow)", -- [8]
+				"Tapatapa Fel Synergy Graz'kath <Tapatapa> Hit +3", -- [9]
+				"Tapatapa Corruption (DoT) Elder Ashenvale Bear Tick -22 (Shadow)", -- [10]
+				"Tapatapa Fel Synergy Graz'kath <Tapatapa> Hit +3", -- [11]
+				"Tapatapa Immolate (DoT) Elder Ashenvale Bear Tick -24 (Fire)", -- [12]
+				"Tapatapa Fel Synergy Graz'kath <Tapatapa> Hit +18", -- [13]
+				"Tapatapa Shadow Bolt Elder Ashenvale Bear Hit -124 (Shadow)", -- [14]
+				"Tapatapa Health Funnel Graz'kath <Tapatapa> Tick +40", -- [15]
+				"Tapatapa Health Funnel Graz'kath <Tapatapa> Tick +40", -- [16]
+				"Tapatapa Health Funnel Graz'kath <Tapatapa> Tick +40", -- [17]
+				"Tapatapa Health Funnel Graz'kath <Tapatapa> Tick +41", -- [18]
+				"Tapatapa Health Funnel Graz'kath <Tapatapa> Tick +40", -- [19]
+				"Tapatapa Health Funnel Graz'kath <Tapatapa> Tick +40", -- [20]
+				"Tapatapa Health Funnel Graz'kath <Tapatapa> Tick +40", -- [21]
+				"Tapatapa Health Funnel Graz'kath <Tapatapa> Tick +40", -- [22]
+				"Tapatapa Health Funnel Graz'kath <Tapatapa> Tick +40", -- [23]
+				"Tapatapa Health Funnel Graz'kath <Tapatapa> Tick +40", -- [24]
+				"Wildthorn Venomspitter Venom Spit Tapatapa Hit -75 (18 Absorbed) (Nature)", -- [25]
+				"Wildthorn Venomspitter Venom Spit Tapatapa Absorb (23 Absorbed) (Nature)", -- [26]
+				"Tapatapa Lifeblood Tapatapa Tick +98", -- [27]
+				"Tapatapa Lifeblood Tapatapa Tick +98", -- [28]
+				"Tapatapa Lifeblood Tapatapa Tick +98 (62 overheal)", -- [29]
+				"Wildthorn Venomspitter Venom Spit Tapatapa Absorb (23 Absorbed) (Nature)", -- [30]
+				"Tapatapa Health Funnel Graz'kath <Tapatapa> Tick +41", -- [31]
+				"Tapatapa Lifeblood Tapatapa Tick +98 (88 overheal)", -- [32]
+				"Tapatapa Health Funnel Graz'kath <Tapatapa> Tick +40", -- [33]
+				"Tapatapa Lifeblood Tapatapa Tick +98 (88 overheal)", -- [34]
+				"Tapatapa Health Funnel Graz'kath <Tapatapa> Tick +41", -- [35]
+				"Tapatapa Health Funnel Graz'kath <Tapatapa> Tick +40", -- [36]
+				"Tapatapa Health Funnel Graz'kath <Tapatapa> Tick +41", -- [37]
+				"Tapatapa Health Funnel Graz'kath <Tapatapa> Tick +40", -- [38]
+				"Tapatapa Health Funnel Graz'kath <Tapatapa> Tick +41", -- [39]
+				"Tapatapa Health Funnel Graz'kath <Tapatapa> Tick +41", -- [40]
+				"Tapatapa Health Funnel Graz'kath <Tapatapa> Tick +41", -- [41]
+				"Tapatapa Health Funnel Graz'kath <Tapatapa> Tick +41", -- [42]
+				"Tapatapa Fel Synergy Graz'kath <Tapatapa> Hit +23", -- [43]
+				"Tapatapa Shadow Bolt Elder Ashenvale Bear Crit -156 (17 resisted) (Shadow)", -- [44]
+				"Tapatapa Fel Synergy Graz'kath <Tapatapa> Hit +13", -- [45]
+				"Tapatapa Shadow Bolt Elder Ashenvale Bear Hit -92 (22 resisted) (Shadow)", -- [46]
+				"Tapatapa Fel Synergy Graz'kath <Tapatapa> Hit +16", -- [47]
+				"Tapatapa Shadow Bolt Elder Ashenvale Bear Hit -108 (12 resisted) (Shadow)", -- [48]
+				"Tapatapa Fel Synergy Graz'kath <Tapatapa> Hit +3", -- [49]
+				"Tapatapa Corruption (DoT) Elder Ashenvale Bear Tick -20 (2 resisted) (Shadow)", -- [50]
+			},
+			["Name"] = "Tapatapa",
+			["lazysync"] = true,
+			["LastEventHealth"] = {
+				"692 (92%)", -- [1]
+				"692 (92%)", -- [2]
+				"692 (92%)", -- [3]
+				"692 (92%)", -- [4]
+				"692 (92%)", -- [5]
+				"692 (92%)", -- [6]
+				"692 (92%)", -- [7]
+				"692 (92%)", -- [8]
+				"692 (92%)", -- [9]
+				"692 (92%)", -- [10]
+				"692 (92%)", -- [11]
+				"692 (92%)", -- [12]
+				"692 (92%)", -- [13]
+				"692 (92%)", -- [14]
+				"691 (92%)", -- [15]
+				"681 (91%)", -- [16]
+				"671 (89%)", -- [17]
+				"661 (88%)", -- [18]
+				"651 (87%)", -- [19]
+				"641 (85%)", -- [20]
+				"631 (84%)", -- [21]
+				"621 (83%)", -- [22]
+				"611 (81%)", -- [23]
+				"601 (80%)", -- [24]
+				"587 (78%)", -- [25]
+				"594 (79%)", -- [26]
+				"699 (93%)", -- [27]
+				"726 (97%)", -- [28]
+				"747 (100%)", -- [29]
+				"747 (100%)", -- [30]
+				"747 (100%)", -- [31]
+				"747 (100%)", -- [32]
+				"747 (100%)", -- [33]
+				"747 (100%)", -- [34]
+				"747 (100%)", -- [35]
+				"737 (98%)", -- [36]
+				"727 (97%)", -- [37]
+				"717 (95%)", -- [38]
+				"707 (94%)", -- [39]
+				"697 (93%)", -- [40]
+				"687 (91%)", -- [41]
+				"677 (90%)", -- [42]
+				"664 (88%)", -- [43]
+				"664 (88%)", -- [44]
+				"664 (88%)", -- [45]
+				"664 (88%)", -- [46]
+				"692 (92%)", -- [47]
+				"692 (92%)", -- [48]
+				"692 (92%)", -- [49]
+				"692 (92%)", -- [50]
+			},
 			["Fights"] = {
 				["LastFightData"] = {
 					["DOTs"] = {
@@ -11098,14 +11379,14 @@ RecountPerCharDB = {
 					},
 					["DeathCount"] = 0,
 					["HOT_Time"] = 0,
-					["ElementTakenBlock"] = {
-					},
-					["RunicPowerGain"] = 0,
+					["DOT_Time"] = 0,
+					["ManaGain"] = 0,
 					["ElementTaken"] = {
 					},
 					["HOTs"] = {
 					},
-					["Damage"] = 0,
+					["ElementTakenBlock"] = {
+					},
 					["ElementDoneAbsorb"] = {
 					},
 					["TimeHeal"] = 0,
@@ -11114,26 +11395,26 @@ RecountPerCharDB = {
 					["Dispels"] = 0,
 					["PartialBlock"] = {
 					},
-					["DamagedWho"] = {
+					["FDamagedWho"] = {
 					},
 					["FAttacks"] = {
 					},
-					["HealingTaken"] = 0,
+					["RageGain"] = 0,
 					["ElementDone"] = {
 					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementHitsDone"] = {
-					},
 					["ManaGainedFrom"] = {
+					},
+					["DamagedWho"] = {
+					},
+					["OverHeals"] = {
 					},
 					["WhoDamaged"] = {
 					},
 					["EnergyGainedFrom"] = {
 					},
-					["RunicPowerGained"] = {
+					["RageGained"] = {
 					},
-					["CCBroken"] = {
+					["RunicPowerGainedFrom"] = {
 					},
 					["ElementDoneBlock"] = {
 					},
@@ -11142,49 +11423,49 @@ RecountPerCharDB = {
 					["Dispelled"] = 0,
 					["WhoHealed"] = {
 					},
-					["HealedWho"] = {
+					["PartialResist"] = {
 					},
 					["CCBreak"] = 0,
-					["ElementTakenAbsorb"] = {
-					},
 					["FDamage"] = 0,
+					["Interrupts"] = 0,
 					["EnergyGain"] = 0,
 					["ManaGained"] = {
 					},
-					["PartialAbsorb"] = {
+					["ElementTakenAbsorb"] = {
 					},
 					["ActiveTime"] = 0,
 					["Overhealing"] = 0,
-					["TimeSpent"] = {
-					},
-					["WhoDispelled"] = {
+					["ElementTakenResist"] = {
 					},
 					["InterruptData"] = {
 					},
-					["ElementTakenResist"] = {
+					["WhoDispelled"] = {
+					},
+					["TimeSpent"] = {
 					},
 					["Heals"] = {
 					},
-					["Interrupts"] = 0,
+					["PartialAbsorb"] = {
+					},
 					["EnergyGained"] = {
 					},
-					["PartialResist"] = {
+					["HealedWho"] = {
 					},
 					["Healing"] = 0,
-					["RageGained"] = {
+					["CCBroken"] = {
 					},
-					["OverHeals"] = {
+					["RunicPowerGained"] = {
 					},
 					["Attacks"] = {
 					},
-					["RageGain"] = 0,
-					["FDamagedWho"] = {
+					["HealingTaken"] = 0,
+					["ElementHitsDone"] = {
 					},
 					["TimeDamage"] = 0,
 					["TimeDamaging"] = {
 					},
-					["ManaGain"] = 0,
-					["DOT_Time"] = 0,
+					["RunicPowerGain"] = 0,
+					["Damage"] = 0,
 					["DispelledWho"] = {
 					},
 				},
@@ -11201,12 +11482,13 @@ RecountPerCharDB = {
 					},
 					["DeathCount"] = 0,
 					["HOT_Time"] = 0,
-					["HOTs"] = {
+					["ElementTakenBlock"] = {
 					},
-					["ManaGain"] = 0,
+					["RunicPowerGain"] = 0,
 					["ElementTaken"] = {
 					},
-					["DOT_Time"] = 0,
+					["HOTs"] = {
+					},
 					["Damage"] = 0,
 					["ElementDoneAbsorb"] = {
 					},
@@ -11214,150 +11496,84 @@ RecountPerCharDB = {
 					["RessedWho"] = {
 					},
 					["Dispels"] = 0,
-					["PartialAbsorb"] = {
-					},
-					["RageGain"] = 0,
-					["FAttacks"] = {
-					},
 					["PartialBlock"] = {
 					},
+					["DamagedWho"] = {
+					},
+					["FAttacks"] = {
+					},
+					["HealingTaken"] = 0,
 					["ElementDone"] = {
 					},
-					["CCBroken"] = {
+					["RunicPowerGainedFrom"] = {
 					},
 					["ElementHitsDone"] = {
 					},
-					["Dispelled"] = 0,
+					["ManaGainedFrom"] = {
+					},
 					["WhoDamaged"] = {
 					},
 					["EnergyGainedFrom"] = {
 					},
-					["FDamagedWho"] = {
+					["RunicPowerGained"] = {
 					},
-					["RunicPowerGainedFrom"] = {
+					["CCBroken"] = {
 					},
 					["ElementDoneBlock"] = {
 					},
 					["TimeHealing"] = {
 					},
-					["OverHeals"] = {
-					},
-					["RageGained"] = {
-					},
-					["ActiveTime"] = 0,
-					["CCBreak"] = 0,
-					["EnergyGain"] = 0,
+					["Dispelled"] = 0,
 					["WhoHealed"] = {
-					},
-					["PartialResist"] = {
-					},
-					["ManaGained"] = {
-					},
-					["ElementTakenAbsorb"] = {
-					},
-					["Interrupts"] = 0,
-					["Overhealing"] = 0,
-					["ElementTakenResist"] = {
-					},
-					["InterruptData"] = {
-					},
-					["WhoDispelled"] = {
-					},
-					["TimeSpent"] = {
-					},
-					["Heals"] = {
-					},
-					["FDamage"] = 0,
-					["EnergyGained"] = {
 					},
 					["HealedWho"] = {
 					},
-					["Healing"] = 0,
-					["RunicPowerGained"] = {
+					["CCBreak"] = 0,
+					["ElementTakenAbsorb"] = {
 					},
-					["ManaGainedFrom"] = {
+					["FDamage"] = 0,
+					["EnergyGain"] = 0,
+					["ManaGained"] = {
+					},
+					["PartialAbsorb"] = {
+					},
+					["ActiveTime"] = 0,
+					["Overhealing"] = 0,
+					["TimeSpent"] = {
+					},
+					["WhoDispelled"] = {
+					},
+					["InterruptData"] = {
+					},
+					["ElementTakenResist"] = {
+					},
+					["Heals"] = {
+					},
+					["Interrupts"] = 0,
+					["EnergyGained"] = {
+					},
+					["PartialResist"] = {
+					},
+					["Healing"] = 0,
+					["RageGained"] = {
+					},
+					["OverHeals"] = {
 					},
 					["Attacks"] = {
 					},
-					["HealingTaken"] = 0,
-					["DamagedWho"] = {
+					["RageGain"] = 0,
+					["FDamagedWho"] = {
 					},
 					["TimeDamage"] = 0,
 					["TimeDamaging"] = {
 					},
-					["RunicPowerGain"] = 0,
-					["ElementTakenBlock"] = {
-					},
+					["ManaGain"] = 0,
+					["DOT_Time"] = 0,
 					["DispelledWho"] = {
 					},
 				},
 				["OverallData"] = {
 					["DOTs"] = {
-						["Corruption (DoT)"] = {
-							["Details"] = {
-								["Wrathtail Priestess"] = {
-									["count"] = 12,
-								},
-								["Ashenvale Bear"] = {
-									["count"] = 9,
-								},
-								["Dal Bloodclaw"] = {
-									["count"] = 3,
-								},
-								["Ghostpaw Runner"] = {
-									["count"] = 3,
-								},
-								["Elder Ashenvale Bear"] = {
-									["count"] = 24,
-								},
-								["Foulweald Warrior"] = {
-									["count"] = 6,
-								},
-								["Wrathtail Wave Rider"] = {
-									["count"] = 6,
-								},
-								["Forsaken Seeker"] = {
-									["count"] = 3,
-								},
-								["Lesser Felguard"] = {
-									["count"] = 24,
-								},
-								["Shadethicket Moss Eater"] = {
-									["count"] = 12,
-								},
-								["Mugglefin"] = {
-									["count"] = 12,
-								},
-								["Wrathtail Myrmidon"] = {
-									["count"] = 12,
-								},
-								["Thistlefur Avenger"] = {
-									["count"] = 15,
-								},
-								["Saltspittle Warrior"] = {
-									["count"] = 3,
-								},
-								["Felslayer"] = {
-									["count"] = 6,
-								},
-								["Foulweald Shaman"] = {
-									["count"] = 3,
-								},
-								["Akkrilus"] = {
-									["count"] = 12,
-								},
-								["Thistlefur Shaman"] = {
-									["count"] = 9,
-								},
-								["Wildthorn Stalker"] = {
-									["count"] = 9,
-								},
-								["Foulweald Totemic"] = {
-									["count"] = 21,
-								},
-							},
-							["amount"] = 204,
-						},
 						["Immolate (DoT)"] = {
 							["Details"] = {
 								["Wrathtail Myrmidon"] = {
@@ -11381,27 +11597,92 @@ RecountPerCharDB = {
 								["Elder Ashenvale Bear"] = {
 									["count"] = 6,
 								},
-								["Foulweald Ursa"] = {
+								["Saltspittle Puddlejumper"] = {
 									["count"] = 3,
 								},
-								["Saltspittle Puddlejumper"] = {
+								["Foulweald Ursa"] = {
 									["count"] = 3,
 								},
 							},
 							["amount"] = 60,
 						},
+						["Corruption (DoT)"] = {
+							["Details"] = {
+								["Wrathtail Priestess"] = {
+									["count"] = 12,
+								},
+								["Ashenvale Bear"] = {
+									["count"] = 9,
+								},
+								["Dal Bloodclaw"] = {
+									["count"] = 3,
+								},
+								["Ghostpaw Runner"] = {
+									["count"] = 3,
+								},
+								["Elder Ashenvale Bear"] = {
+									["count"] = 24,
+								},
+								["Foulweald Totemic"] = {
+									["count"] = 21,
+								},
+								["Wrathtail Wave Rider"] = {
+									["count"] = 6,
+								},
+								["Forsaken Seeker"] = {
+									["count"] = 3,
+								},
+								["Thistlefur Shaman"] = {
+									["count"] = 9,
+								},
+								["Shadethicket Moss Eater"] = {
+									["count"] = 12,
+								},
+								["Mugglefin"] = {
+									["count"] = 12,
+								},
+								["Wrathtail Myrmidon"] = {
+									["count"] = 12,
+								},
+								["Thistlefur Avenger"] = {
+									["count"] = 15,
+								},
+								["Felslayer"] = {
+									["count"] = 6,
+								},
+								["Saltspittle Warrior"] = {
+									["count"] = 3,
+								},
+								["Foulweald Shaman"] = {
+									["count"] = 3,
+								},
+								["Akkrilus"] = {
+									["count"] = 12,
+								},
+								["Lesser Felguard"] = {
+									["count"] = 24,
+								},
+								["Wildthorn Stalker"] = {
+									["count"] = 9,
+								},
+								["Foulweald Warrior"] = {
+									["count"] = 6,
+								},
+							},
+							["amount"] = 204,
+						},
 					},
 					["ElementDoneResist"] = {
-						["Shadow"] = 917,
 						["Fire"] = 48,
+						["Shadow"] = 917,
 					},
 					["TimeSpent"] = {
 						["Wrathtail Myrmidon"] = {
 							["Details"] = {
-								["Corruption (DoT)"] = {
+								["Immolate (DoT)"] = {
 									["count"] = 0,
 								},
-								["Immolate (DoT)"] = {
+								["Corruption (DoT)"] = {
 									["count"] = 0,
 								},
 								["Immolate"] = {
@@ -11497,10 +11778,10 @@ RecountPerCharDB = {
 						},
 						["Thistlefur Avenger"] = {
 							["Details"] = {
-								["Immolate (DoT)"] = {
+								["Corruption (DoT)"] = {
 									["count"] = 0,
 								},
-								["Corruption (DoT)"] = {
+								["Immolate (DoT)"] = {
 									["count"] = 0,
 								},
 								["Immolate"] = {
@@ -11514,10 +11795,10 @@ RecountPerCharDB = {
 						},
 						["Foulweald Shaman"] = {
 							["Details"] = {
-								["Shadow Bolt"] = {
+								["Corruption (DoT)"] = {
 									["count"] = 0,
 								},
-								["Corruption (DoT)"] = {
+								["Shadow Bolt"] = {
 									["count"] = 0,
 								},
 							},
@@ -11550,11 +11831,11 @@ RecountPerCharDB = {
 						},
 						["Wrathtail Priestess"] = {
 							["Details"] = {
-								["Shadow Bolt"] = {
-									["count"] = 23.96,
-								},
 								["Corruption (DoT)"] = {
 									["count"] = 3.76,
+								},
+								["Shadow Bolt"] = {
+									["count"] = 23.96,
 								},
 							},
 							["amount"] = 27.72,
@@ -11572,10 +11853,10 @@ RecountPerCharDB = {
 						},
 						["Ashenvale Bear"] = {
 							["Details"] = {
-								["Immolate (DoT)"] = {
+								["Corruption (DoT)"] = {
 									["count"] = 0,
 								},
-								["Corruption (DoT)"] = {
+								["Immolate (DoT)"] = {
 									["count"] = 0,
 								},
 								["Immolate"] = {
@@ -11611,21 +11892,21 @@ RecountPerCharDB = {
 						},
 						["Ghostpaw Runner"] = {
 							["Details"] = {
-								["Shadow Bolt"] = {
-									["count"] = 5.94,
-								},
 								["Corruption (DoT)"] = {
 									["count"] = 0,
+								},
+								["Shadow Bolt"] = {
+									["count"] = 5.94,
 								},
 							},
 							["amount"] = 5.94,
 						},
 						["Elder Ashenvale Bear"] = {
 							["Details"] = {
-								["Corruption (DoT)"] = {
+								["Immolate (DoT)"] = {
 									["count"] = 0,
 								},
-								["Immolate (DoT)"] = {
+								["Corruption (DoT)"] = {
 									["count"] = 0,
 								},
 								["Immolate"] = {
@@ -11655,29 +11936,32 @@ RecountPerCharDB = {
 						},
 						["Forsaken Seeker"] = {
 							["Details"] = {
-								["Shadow Bolt"] = {
+								["Corruption (DoT)"] = {
 									["count"] = 0,
 								},
-								["Corruption (DoT)"] = {
+								["Shadow Bolt"] = {
 									["count"] = 0,
 								},
 							},
 							["amount"] = 0,
 						},
-						["Dark Strand Cultist"] = {
+						["Lesser Felguard"] = {
 							["Details"] = {
-								["Shadow Bolt"] = {
+								["Corruption (DoT)"] = {
 									["count"] = 0,
 								},
+								["Shadow Bolt"] = {
+									["count"] = 3.5,
+								},
 							},
-							["amount"] = 0,
+							["amount"] = 3.5,
 						},
 						["Wrathtail Wave Rider"] = {
 							["Details"] = {
-								["Immolate (DoT)"] = {
+								["Corruption (DoT)"] = {
 									["count"] = 0,
 								},
-								["Corruption (DoT)"] = {
+								["Immolate (DoT)"] = {
 									["count"] = 0,
 								},
 								["Immolate"] = {
@@ -11688,23 +11972,6 @@ RecountPerCharDB = {
 								},
 							},
 							["amount"] = 10.5,
-						},
-						["Graz'kath <Tapatapa>"] = {
-							["Details"] = {
-								["Health Funnel"] = {
-									["count"] = 38.50000000000001,
-								},
-								["Fel Synergy"] = {
-									["count"] = 1076.38,
-								},
-								["Volatile Infection"] = {
-									["count"] = 0,
-								},
-								["Soul Link"] = {
-									["count"] = 31.35,
-								},
-							},
-							["amount"] = 1146.23,
 						},
 						["Thistlefur Shaman"] = {
 							["Details"] = {
@@ -11723,16 +11990,30 @@ RecountPerCharDB = {
 							},
 							["amount"] = 15.81,
 						},
-						["Shadethicket Moss Eater"] = {
+						["Mystlash Hydra"] = {
 							["Details"] = {
 								["Shadow Bolt"] = {
 									["count"] = 0,
 								},
-								["Corruption (DoT)"] = {
-									["count"] = 0,
-								},
 							},
 							["amount"] = 0,
+						},
+						["Graz'kath <Tapatapa>"] = {
+							["Details"] = {
+								["Volatile Infection"] = {
+									["count"] = 0,
+								},
+								["Fel Synergy"] = {
+									["count"] = 1076.38,
+								},
+								["Health Funnel"] = {
+									["count"] = 38.50000000000001,
+								},
+								["Soul Link"] = {
+									["count"] = 31.35,
+								},
+							},
+							["amount"] = 1146.23,
 						},
 						["Mugglefin"] = {
 							["Details"] = {
@@ -11748,22 +12029,16 @@ RecountPerCharDB = {
 							},
 							["amount"] = 1.24,
 						},
-						["Saltspittle Warrior"] = {
+						["Felslayer"] = {
 							["Details"] = {
 								["Corruption (DoT)"] = {
 									["count"] = 0,
 								},
-								["Immolate (DoT)"] = {
-									["count"] = 0,
-								},
-								["Immolate"] = {
-									["count"] = 0,
-								},
 								["Shadow Bolt"] = {
-									["count"] = 3.5,
+									["count"] = 0,
 								},
 							},
-							["amount"] = 3.5,
+							["amount"] = 0,
 						},
 						["Saltspittle Puddlejumper"] = {
 							["Details"] = {
@@ -11787,19 +12062,28 @@ RecountPerCharDB = {
 							},
 							["amount"] = 3.5,
 						},
-						["Felslayer"] = {
+						["Saltspittle Warrior"] = {
 							["Details"] = {
-								["Shadow Bolt"] = {
+								["Immolate (DoT)"] = {
 									["count"] = 0,
 								},
 								["Corruption (DoT)"] = {
 									["count"] = 0,
 								},
+								["Immolate"] = {
+									["count"] = 0,
+								},
+								["Shadow Bolt"] = {
+									["count"] = 3.5,
+								},
 							},
-							["amount"] = 0,
+							["amount"] = 3.5,
 						},
-						["Mystlash Hydra"] = {
+						["Shadethicket Moss Eater"] = {
 							["Details"] = {
+								["Corruption (DoT)"] = {
+									["count"] = 0,
+								},
 								["Shadow Bolt"] = {
 									["count"] = 0,
 								},
@@ -11808,25 +12092,22 @@ RecountPerCharDB = {
 						},
 						["Akkrilus"] = {
 							["Details"] = {
-								["Shadow Bolt"] = {
-									["count"] = 4.56,
-								},
 								["Corruption (DoT)"] = {
 									["count"] = 0,
+								},
+								["Shadow Bolt"] = {
+									["count"] = 4.56,
 								},
 							},
 							["amount"] = 4.56,
 						},
-						["Lesser Felguard"] = {
+						["Dark Strand Cultist"] = {
 							["Details"] = {
 								["Shadow Bolt"] = {
-									["count"] = 3.5,
-								},
-								["Corruption (DoT)"] = {
 									["count"] = 0,
 								},
 							},
-							["amount"] = 3.5,
+							["amount"] = 0,
 						},
 						["Wildthorn Stalker"] = {
 							["Details"] = {
@@ -11844,11 +12125,11 @@ RecountPerCharDB = {
 						},
 						["Foulweald Warrior"] = {
 							["Details"] = {
-								["Shadow Bolt"] = {
-									["count"] = 5.560000000000001,
-								},
 								["Corruption (DoT)"] = {
 									["count"] = 0,
+								},
+								["Shadow Bolt"] = {
+									["count"] = 5.560000000000001,
 								},
 							},
 							["amount"] = 5.560000000000001,
@@ -11884,9 +12165,9 @@ RecountPerCharDB = {
 						["Physical"] = 1546,
 						["Melee"] = 1710,
 						["Holy"] = 84,
-						["Frost"] = 58,
-						["Fire"] = 69,
 						["Shadow"] = 98,
+						["Fire"] = 69,
+						["Frost"] = 58,
 						["Nature"] = 75,
 					},
 					["HOTs"] = {
@@ -11936,28 +12217,28 @@ RecountPerCharDB = {
 						},
 					},
 					["ElementDone"] = {
-						["Shadow"] = 39921,
 						["Fire"] = 1282,
+						["Shadow"] = 39921,
 					},
 					["DamagedWho"] = {
 						["Lesser Felguard"] = {
 							["Details"] = {
-								["Shadow Bolt"] = {
-									["count"] = 2197,
-								},
 								["Corruption (DoT)"] = {
 									["count"] = 176,
+								},
+								["Shadow Bolt"] = {
+									["count"] = 2197,
 								},
 							},
 							["amount"] = 2373,
 						},
 						["Dal Bloodclaw"] = {
 							["Details"] = {
-								["Corruption (DoT)"] = {
-									["count"] = 24,
-								},
 								["Shadow Bolt"] = {
 									["count"] = 131,
+								},
+								["Corruption (DoT)"] = {
+									["count"] = 24,
 								},
 							},
 							["amount"] = 155,
@@ -12018,11 +12299,11 @@ RecountPerCharDB = {
 						},
 						["Thistlefur Avenger"] = {
 							["Details"] = {
-								["Immolate (DoT)"] = {
-									["count"] = 115,
-								},
 								["Corruption (DoT)"] = {
 									["count"] = 111,
+								},
+								["Immolate (DoT)"] = {
+									["count"] = 115,
 								},
 								["Immolate"] = {
 									["count"] = 137,
@@ -12035,11 +12316,11 @@ RecountPerCharDB = {
 						},
 						["Foulweald Shaman"] = {
 							["Details"] = {
-								["Shadow Bolt"] = {
-									["count"] = 126,
-								},
 								["Corruption (DoT)"] = {
 									["count"] = 24,
+								},
+								["Shadow Bolt"] = {
+									["count"] = 126,
 								},
 							},
 							["amount"] = 150,
@@ -12057,22 +12338,22 @@ RecountPerCharDB = {
 						},
 						["Foulweald Totemic"] = {
 							["Details"] = {
-								["Shadow Bolt"] = {
-									["count"] = 2347,
-								},
 								["Corruption (DoT)"] = {
 									["count"] = 161,
+								},
+								["Shadow Bolt"] = {
+									["count"] = 2347,
 								},
 							},
 							["amount"] = 2508,
 						},
 						["Wrathtail Priestess"] = {
 							["Details"] = {
-								["Shadow Bolt"] = {
-									["count"] = 2349,
-								},
 								["Corruption (DoT)"] = {
 									["count"] = 95,
+								},
+								["Shadow Bolt"] = {
+									["count"] = 2349,
 								},
 							},
 							["amount"] = 2444,
@@ -12087,11 +12368,11 @@ RecountPerCharDB = {
 						},
 						["Forsaken Seeker"] = {
 							["Details"] = {
-								["Shadow Bolt"] = {
-									["count"] = 2945,
-								},
 								["Corruption (DoT)"] = {
 									["count"] = 24,
+								},
+								["Shadow Bolt"] = {
+									["count"] = 2945,
 								},
 							},
 							["amount"] = 2969,
@@ -12120,22 +12401,22 @@ RecountPerCharDB = {
 						},
 						["Ghostpaw Runner"] = {
 							["Details"] = {
-								["Shadow Bolt"] = {
-									["count"] = 1130,
-								},
 								["Corruption (DoT)"] = {
 									["count"] = 24,
+								},
+								["Shadow Bolt"] = {
+									["count"] = 1130,
 								},
 							},
 							["amount"] = 1154,
 						},
 						["Elder Ashenvale Bear"] = {
 							["Details"] = {
-								["Corruption (DoT)"] = {
-									["count"] = 167,
-								},
 								["Immolate (DoT)"] = {
 									["count"] = 46,
+								},
+								["Corruption (DoT)"] = {
+									["count"] = 167,
 								},
 								["Immolate"] = {
 									["count"] = 49,
@@ -12156,11 +12437,11 @@ RecountPerCharDB = {
 						},
 						["Ashenvale Bear"] = {
 							["Details"] = {
-								["Immolate (DoT)"] = {
-									["count"] = 126,
-								},
 								["Corruption (DoT)"] = {
 									["count"] = 71,
+								},
+								["Immolate (DoT)"] = {
+									["count"] = 126,
 								},
 								["Immolate"] = {
 									["count"] = 103,
@@ -12173,11 +12454,11 @@ RecountPerCharDB = {
 						},
 						["Wrathtail Wave Rider"] = {
 							["Details"] = {
-								["Immolate (DoT)"] = {
-									["count"] = 26,
-								},
 								["Corruption (DoT)"] = {
 									["count"] = 48,
+								},
+								["Immolate (DoT)"] = {
+									["count"] = 26,
 								},
 								["Immolate"] = {
 									["count"] = 132,
@@ -12196,43 +12477,43 @@ RecountPerCharDB = {
 							},
 							["amount"] = 244,
 						},
-						["Dark Strand Cultist"] = {
+						["Mystlash Hydra"] = {
 							["Details"] = {
 								["Shadow Bolt"] = {
-									["count"] = 85,
+									["count"] = 197,
 								},
 							},
-							["amount"] = 85,
+							["amount"] = 197,
 						},
 						["Thistlefur Shaman"] = {
 							["Details"] = {
-								["Shadow Bolt"] = {
-									["count"] = 1037,
-								},
 								["Corruption (DoT)"] = {
 									["count"] = 70,
+								},
+								["Shadow Bolt"] = {
+									["count"] = 1037,
 								},
 							},
 							["amount"] = 1107,
 						},
 						["Mugglefin"] = {
 							["Details"] = {
-								["Corruption (DoT)"] = {
-									["count"] = 87,
-								},
 								["Shadow Bolt"] = {
 									["count"] = 255,
+								},
+								["Corruption (DoT)"] = {
+									["count"] = 87,
 								},
 							},
 							["amount"] = 342,
 						},
 						["Shadethicket Moss Eater"] = {
 							["Details"] = {
-								["Shadow Bolt"] = {
-									["count"] = 686,
-								},
 								["Corruption (DoT)"] = {
 									["count"] = 96,
+								},
+								["Shadow Bolt"] = {
+									["count"] = 686,
 								},
 							},
 							["amount"] = 782,
@@ -12251,13 +12532,30 @@ RecountPerCharDB = {
 							},
 							["amount"] = 700,
 						},
+						["Wrathtail Myrmidon"] = {
+							["Details"] = {
+								["Immolate (DoT)"] = {
+									["count"] = 51,
+								},
+								["Corruption (DoT)"] = {
+									["count"] = 96,
+								},
+								["Immolate"] = {
+									["count"] = 54,
+								},
+								["Shadow Bolt"] = {
+									["count"] = 2233,
+								},
+							},
+							["amount"] = 2434,
+						},
 						["Saltspittle Warrior"] = {
 							["Details"] = {
-								["Corruption (DoT)"] = {
-									["count"] = 21,
-								},
 								["Immolate (DoT)"] = {
 									["count"] = 46,
+								},
+								["Corruption (DoT)"] = {
+									["count"] = 21,
 								},
 								["Immolate"] = {
 									["count"] = 53,
@@ -12270,50 +12568,33 @@ RecountPerCharDB = {
 						},
 						["Felslayer"] = {
 							["Details"] = {
-								["Shadow Bolt"] = {
-									["count"] = 1234,
-								},
 								["Corruption (DoT)"] = {
 									["count"] = 48,
+								},
+								["Shadow Bolt"] = {
+									["count"] = 1234,
 								},
 							},
 							["amount"] = 1282,
 						},
-						["Wrathtail Myrmidon"] = {
-							["Details"] = {
-								["Corruption (DoT)"] = {
-									["count"] = 96,
-								},
-								["Immolate (DoT)"] = {
-									["count"] = 51,
-								},
-								["Immolate"] = {
-									["count"] = 54,
-								},
-								["Shadow Bolt"] = {
-									["count"] = 2233,
-								},
-							},
-							["amount"] = 2434,
-						},
 						["Akkrilus"] = {
 							["Details"] = {
-								["Corruption (DoT)"] = {
-									["count"] = 88,
-								},
 								["Shadow Bolt"] = {
 									["count"] = 236,
+								},
+								["Corruption (DoT)"] = {
+									["count"] = 88,
 								},
 							},
 							["amount"] = 324,
 						},
-						["Mystlash Hydra"] = {
+						["Dark Strand Cultist"] = {
 							["Details"] = {
 								["Shadow Bolt"] = {
-									["count"] = 197,
+									["count"] = 85,
 								},
 							},
-							["amount"] = 197,
+							["amount"] = 85,
 						},
 						["Wildthorn Stalker"] = {
 							["Details"] = {
@@ -12331,11 +12612,11 @@ RecountPerCharDB = {
 						},
 						["Foulweald Warrior"] = {
 							["Details"] = {
-								["Shadow Bolt"] = {
-									["count"] = 3136,
-								},
 								["Corruption (DoT)"] = {
 									["count"] = 46,
+								},
+								["Shadow Bolt"] = {
+									["count"] = 3136,
 								},
 							},
 							["amount"] = 3182,
@@ -12401,13 +12682,16 @@ RecountPerCharDB = {
 							},
 							["amount"] = 21,
 						},
-						["Wrathtail Priestess"] = {
+						["Ioxxol"] = {
 							["Details"] = {
 								["Melee"] = {
-									["count"] = 53,
+									["count"] = 530,
+								},
+								["Sinister Strike"] = {
+									["count"] = 769,
 								},
 							},
-							["amount"] = 53,
+							["amount"] = 1299,
 						},
 						["Wrathtail Wave Rider"] = {
 							["Details"] = {
@@ -12417,13 +12701,13 @@ RecountPerCharDB = {
 							},
 							["amount"] = 54,
 						},
-						["Saltspittle Puddlejumper"] = {
+						["Shadethicket Moss Eater"] = {
 							["Details"] = {
 								["Melee"] = {
-									["count"] = 87,
+									["count"] = 90,
 								},
 							},
-							["amount"] = 87,
+							["amount"] = 90,
 						},
 						["Forsaken Herbalist"] = {
 							["Details"] = {
@@ -12441,13 +12725,13 @@ RecountPerCharDB = {
 							},
 							["amount"] = 108,
 						},
-						["Wrathtail Sorceress"] = {
+						["Thistlefur Avenger"] = {
 							["Details"] = {
-								["Frostbolt"] = {
-									["count"] = 58,
+								["Melee"] = {
+									["count"] = 32,
 								},
 							},
-							["amount"] = 58,
+							["amount"] = 32,
 						},
 						["Ilkrud Magthrull"] = {
 							["Details"] = {
@@ -12457,21 +12741,13 @@ RecountPerCharDB = {
 							},
 							["amount"] = 98,
 						},
-						["Thistlefur Avenger"] = {
+						["Saltspittle Puddlejumper"] = {
 							["Details"] = {
 								["Melee"] = {
-									["count"] = 32,
+									["count"] = 87,
 								},
 							},
-							["amount"] = 32,
-						},
-						["Felslayer"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 22,
-								},
-							},
-							["amount"] = 22,
+							["amount"] = 87,
 						},
 						["Saltspittle Warrior"] = {
 							["Details"] = {
@@ -12480,6 +12756,14 @@ RecountPerCharDB = {
 								},
 							},
 							["amount"] = 62,
+						},
+						["Felslayer"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 22,
+								},
+							},
+							["amount"] = 22,
 						},
 						["Environment"] = {
 							["Details"] = {
@@ -12500,24 +12784,21 @@ RecountPerCharDB = {
 							},
 							["amount"] = 57,
 						},
-						["Shadethicket Moss Eater"] = {
+						["Wrathtail Sorceress"] = {
 							["Details"] = {
-								["Melee"] = {
-									["count"] = 90,
+								["Frostbolt"] = {
+									["count"] = 58,
 								},
 							},
-							["amount"] = 90,
+							["amount"] = 58,
 						},
-						["Ioxxol"] = {
+						["Wrathtail Priestess"] = {
 							["Details"] = {
 								["Melee"] = {
-									["count"] = 530,
-								},
-								["Sinister Strike"] = {
-									["count"] = 769,
+									["count"] = 53,
 								},
 							},
-							["amount"] = 1299,
+							["amount"] = 53,
 						},
 						["Foulweald Totemic"] = {
 							["Details"] = {
@@ -12648,19 +12929,7 @@ RecountPerCharDB = {
 							["count"] = 6,
 							["amount"] = 0,
 						},
-						["Melee"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 56,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 56,
-							["amount"] = 0,
-						},
-						["Fire"] = {
+						["Sinister Strike"] = {
 							["Details"] = {
 								["No Resist"] = {
 									["max"] = 0,
@@ -12684,6 +12953,18 @@ RecountPerCharDB = {
 							["count"] = 1,
 							["amount"] = 0,
 						},
+						["Fire"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
 						["Volatile Infection"] = {
 							["Details"] = {
 								["No Resist"] = {
@@ -12696,16 +12977,16 @@ RecountPerCharDB = {
 							["count"] = 4,
 							["amount"] = 0,
 						},
-						["Sinister Strike"] = {
+						["Melee"] = {
 							["Details"] = {
 								["No Resist"] = {
 									["max"] = 0,
 									["min"] = 0,
-									["count"] = 1,
+									["count"] = 56,
 									["amount"] = 0,
 								},
 							},
-							["count"] = 1,
+							["count"] = 56,
 							["amount"] = 0,
 						},
 					},
@@ -12800,25 +13081,19 @@ RecountPerCharDB = {
 							["count"] = 6,
 							["amount"] = 127,
 						},
-						["Melee"] = {
+						["Sinister Strike"] = {
 							["Details"] = {
 								["No Absorb"] = {
 									["max"] = 0,
 									["min"] = 0,
-									["count"] = 38,
+									["count"] = 1,
 									["amount"] = 0,
 								},
-								["Absorbed"] = {
-									["max"] = 36,
-									["min"] = 5,
-									["count"] = 18,
-									["amount"] = 235,
-								},
 							},
-							["count"] = 56,
-							["amount"] = 235,
+							["count"] = 1,
+							["amount"] = 0,
 						},
-						["Fire"] = {
+						["Immolate (DoT)"] = {
 							["Details"] = {
 								["Absorbed"] = {
 									["max"] = 3,
@@ -12830,7 +13105,7 @@ RecountPerCharDB = {
 							["count"] = 1,
 							["amount"] = 3,
 						},
-						["Immolate (DoT)"] = {
+						["Fire"] = {
 							["Details"] = {
 								["Absorbed"] = {
 									["max"] = 3,
@@ -12854,75 +13129,60 @@ RecountPerCharDB = {
 							["count"] = 4,
 							["amount"] = 240,
 						},
-						["Sinister Strike"] = {
+						["Melee"] = {
 							["Details"] = {
 								["No Absorb"] = {
 									["max"] = 0,
 									["min"] = 0,
-									["count"] = 1,
+									["count"] = 38,
 									["amount"] = 0,
 								},
+								["Absorbed"] = {
+									["max"] = 36,
+									["min"] = 5,
+									["count"] = 18,
+									["amount"] = 235,
+								},
 							},
-							["count"] = 1,
-							["amount"] = 0,
+							["count"] = 56,
+							["amount"] = 235,
 						},
 					},
 					["ActiveTime"] = 1317.05,
-					["ElementHitsDone"] = {
-						["Shadow"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 271,
-								},
-								["Tick"] = {
-									["count"] = 68,
-								},
-								["Crit"] = {
-									["count"] = 27,
-								},
-								["Miss"] = {
-									["count"] = 17,
-								},
-							},
-							["amount"] = 383,
-						},
-						["Fire"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 14,
-								},
-								["Miss"] = {
-									["count"] = 6,
-								},
-								["Crit"] = {
-									["count"] = 1,
-								},
-								["Tick"] = {
-									["count"] = 20,
-								},
-							},
-							["amount"] = 41,
-						},
-						["Nature"] = {
-							["Details"] = {
-								["Absorb"] = {
-									["count"] = 4,
-								},
-							},
-							["amount"] = 4,
-						},
+					["ElementTakenAbsorb"] = {
+						["Physical"] = 194,
+						["Melee"] = 235,
+						["Fire"] = 88,
+						["Shadow"] = 24,
+						["Nature"] = 367,
 					},
-					["ManaGainedFrom"] = {
+					["FDamagedWho"] = {
+						["Sculamare"] = {
+							["Details"] = {
+								["Volatile Infection"] = {
+									["count"] = 300,
+								},
+							},
+							["amount"] = 300,
+						},
 						["Tapatapa"] = {
 							["Details"] = {
-								["Life Tap"] = {
-									["count"] = 2978,
-								},
-								["Restore Mana"] = {
-									["count"] = 451,
+								["Volatile Infection"] = {
+									["count"] = 240,
 								},
 							},
-							["amount"] = 3429,
+							["amount"] = 240,
+						},
+						["Graz'kath <Tapatapa>"] = {
+							["Details"] = {
+								["Volatile Infection"] = {
+									["count"] = 420,
+								},
+								["Soul Link"] = {
+									["count"] = 333,
+								},
+							},
+							["amount"] = 753,
 						},
 					},
 					["Heals"] = {
@@ -12982,14 +13242,14 @@ RecountPerCharDB = {
 								["Hit"] = {
 									["count"] = 43,
 								},
-								["Miss"] = {
-									["count"] = 6,
+								["Crushing"] = {
+									["count"] = 1,
 								},
 								["Crit"] = {
 									["count"] = 1,
 								},
-								["Crushing"] = {
-									["count"] = 1,
+								["Miss"] = {
+									["count"] = 6,
 								},
 							},
 							["amount"] = 56,
@@ -13002,6 +13262,28 @@ RecountPerCharDB = {
 							},
 							["amount"] = 1,
 						},
+						["Frost"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 1,
+						},
+						["Fire"] = {
+							["Details"] = {
+								["Absorb"] = {
+									["count"] = 4,
+								},
+								["Tick"] = {
+									["count"] = 1,
+								},
+								["Hit"] = {
+									["count"] = 2,
+								},
+							},
+							["amount"] = 7,
+						},
 						["Physical"] = {
 							["Details"] = {
 								["Crit"] = {
@@ -13013,42 +13295,20 @@ RecountPerCharDB = {
 							},
 							["amount"] = 3,
 						},
-						["Fire"] = {
-							["Details"] = {
-								["Absorb"] = {
-									["count"] = 4,
-								},
-								["Hit"] = {
-									["count"] = 2,
-								},
-								["Tick"] = {
-									["count"] = 1,
-								},
-							},
-							["amount"] = 7,
-						},
-						["Frost"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 1,
-								},
-							},
-							["amount"] = 1,
-						},
 						["Nature"] = {
 							["Details"] = {
-								["Absorb"] = {
-									["count"] = 9,
-								},
 								["Hit"] = {
 									["count"] = 1,
+								},
+								["Absorb"] = {
+									["count"] = 9,
 								},
 							},
 							["amount"] = 10,
 						},
 					},
 					["Healing"] = 7116,
-					["DOT_Time"] = 264,
+					["DamageTaken"] = 3640,
 					["WhoHealed"] = {
 						["Tapatapa"] = {
 							["Details"] = {
@@ -13104,27 +13364,15 @@ RecountPerCharDB = {
 							["count"] = 1,
 							["amount"] = 53,
 						},
-						["Immolate"] = {
+						["Volatile Infection"] = {
 							["Details"] = {
-								["Hit"] = {
-									["max"] = 55,
-									["min"] = 43,
-									["count"] = 13,
-									["amount"] = 665,
-								},
-								["Crit"] = {
-									["max"] = 79,
-									["min"] = 79,
-									["count"] = 1,
-									["amount"] = 79,
-								},
-								["Miss"] = {
-									["count"] = 6,
+								["Absorb"] = {
+									["count"] = 4,
 									["amount"] = 0,
 								},
 							},
-							["count"] = 20,
-							["amount"] = 744,
+							["count"] = 4,
+							["amount"] = 0,
 						},
 						["Immolate (DoT)"] = {
 							["Details"] = {
@@ -13138,23 +13386,33 @@ RecountPerCharDB = {
 							["count"] = 20,
 							["amount"] = 485,
 						},
-						["Volatile Infection"] = {
+						["Immolate"] = {
 							["Details"] = {
-								["Absorb"] = {
-									["count"] = 4,
+								["Miss"] = {
+									["count"] = 6,
 									["amount"] = 0,
 								},
+								["Crit"] = {
+									["max"] = 79,
+									["min"] = 79,
+									["count"] = 1,
+									["amount"] = 79,
+								},
+								["Hit"] = {
+									["max"] = 55,
+									["min"] = 43,
+									["count"] = 13,
+									["amount"] = 665,
+								},
 							},
-							["count"] = 4,
-							["amount"] = 0,
+							["count"] = 20,
+							["amount"] = 744,
 						},
 						["Shadow Bolt"] = {
 							["Details"] = {
-								["Hit"] = {
-									["max"] = 133,
-									["min"] = 85,
-									["count"] = 271,
-									["amount"] = 33366,
+								["Miss"] = {
+									["count"] = 11,
+									["amount"] = 0,
 								},
 								["Crit"] = {
 									["max"] = 200,
@@ -13162,9 +13420,11 @@ RecountPerCharDB = {
 									["count"] = 27,
 									["amount"] = 5007,
 								},
-								["Miss"] = {
-									["count"] = 11,
-									["amount"] = 0,
+								["Hit"] = {
+									["max"] = 133,
+									["min"] = 85,
+									["count"] = 271,
+									["amount"] = 33366,
 								},
 							},
 							["count"] = 309,
@@ -13172,15 +13432,15 @@ RecountPerCharDB = {
 						},
 					},
 					["HealingTaken"] = 200,
-					["DamageTaken"] = 3640,
+					["DOT_Time"] = 264,
 					["TimeDamage"] = 194.14,
 					["TimeDamaging"] = {
 						["Wrathtail Myrmidon"] = {
 							["Details"] = {
-								["Corruption (DoT)"] = {
+								["Immolate (DoT)"] = {
 									["count"] = 0,
 								},
-								["Immolate (DoT)"] = {
+								["Corruption (DoT)"] = {
 									["count"] = 0,
 								},
 								["Immolate"] = {
@@ -13273,10 +13533,10 @@ RecountPerCharDB = {
 						},
 						["Thistlefur Avenger"] = {
 							["Details"] = {
-								["Immolate (DoT)"] = {
+								["Corruption (DoT)"] = {
 									["count"] = 0,
 								},
-								["Corruption (DoT)"] = {
+								["Immolate (DoT)"] = {
 									["count"] = 0,
 								},
 								["Immolate"] = {
@@ -13290,10 +13550,10 @@ RecountPerCharDB = {
 						},
 						["Foulweald Shaman"] = {
 							["Details"] = {
-								["Shadow Bolt"] = {
+								["Corruption (DoT)"] = {
 									["count"] = 0,
 								},
-								["Corruption (DoT)"] = {
+								["Shadow Bolt"] = {
 									["count"] = 0,
 								},
 							},
@@ -13326,11 +13586,11 @@ RecountPerCharDB = {
 						},
 						["Wrathtail Priestess"] = {
 							["Details"] = {
-								["Shadow Bolt"] = {
-									["count"] = 23.96,
-								},
 								["Corruption (DoT)"] = {
 									["count"] = 3.76,
+								},
+								["Shadow Bolt"] = {
+									["count"] = 23.96,
 								},
 							},
 							["amount"] = 27.72,
@@ -13348,10 +13608,10 @@ RecountPerCharDB = {
 						},
 						["Forsaken Seeker"] = {
 							["Details"] = {
-								["Shadow Bolt"] = {
+								["Corruption (DoT)"] = {
 									["count"] = 0,
 								},
-								["Corruption (DoT)"] = {
+								["Shadow Bolt"] = {
 									["count"] = 0,
 								},
 							},
@@ -13381,21 +13641,21 @@ RecountPerCharDB = {
 						},
 						["Ghostpaw Runner"] = {
 							["Details"] = {
-								["Shadow Bolt"] = {
-									["count"] = 5.94,
-								},
 								["Corruption (DoT)"] = {
 									["count"] = 0,
+								},
+								["Shadow Bolt"] = {
+									["count"] = 5.94,
 								},
 							},
 							["amount"] = 5.94,
 						},
 						["Elder Ashenvale Bear"] = {
 							["Details"] = {
-								["Corruption (DoT)"] = {
+								["Immolate (DoT)"] = {
 									["count"] = 0,
 								},
-								["Immolate (DoT)"] = {
+								["Corruption (DoT)"] = {
 									["count"] = 0,
 								},
 								["Immolate"] = {
@@ -13425,10 +13685,10 @@ RecountPerCharDB = {
 						},
 						["Ashenvale Bear"] = {
 							["Details"] = {
-								["Immolate (DoT)"] = {
+								["Corruption (DoT)"] = {
 									["count"] = 0,
 								},
-								["Corruption (DoT)"] = {
+								["Immolate (DoT)"] = {
 									["count"] = 0,
 								},
 								["Immolate"] = {
@@ -13440,20 +13700,23 @@ RecountPerCharDB = {
 							},
 							["amount"] = 3.5,
 						},
-						["Dark Strand Cultist"] = {
+						["Lesser Felguard"] = {
 							["Details"] = {
-								["Shadow Bolt"] = {
+								["Corruption (DoT)"] = {
 									["count"] = 0,
 								},
+								["Shadow Bolt"] = {
+									["count"] = 3.5,
+								},
 							},
-							["amount"] = 0,
+							["amount"] = 3.5,
 						},
 						["Wrathtail Wave Rider"] = {
 							["Details"] = {
-								["Immolate (DoT)"] = {
+								["Corruption (DoT)"] = {
 									["count"] = 0,
 								},
-								["Corruption (DoT)"] = {
+								["Immolate (DoT)"] = {
 									["count"] = 0,
 								},
 								["Immolate"] = {
@@ -13464,17 +13727,6 @@ RecountPerCharDB = {
 								},
 							},
 							["amount"] = 10.5,
-						},
-						["Graz'kath <Tapatapa>"] = {
-							["Details"] = {
-								["Volatile Infection"] = {
-									["count"] = 0,
-								},
-								["Soul Link"] = {
-									["count"] = 31.35,
-								},
-							},
-							["amount"] = 31.35,
 						},
 						["Thistlefur Shaman"] = {
 							["Details"] = {
@@ -13493,16 +13745,24 @@ RecountPerCharDB = {
 							},
 							["amount"] = 15.81,
 						},
-						["Shadethicket Moss Eater"] = {
+						["Mystlash Hydra"] = {
 							["Details"] = {
 								["Shadow Bolt"] = {
 									["count"] = 0,
 								},
-								["Corruption (DoT)"] = {
-									["count"] = 0,
-								},
 							},
 							["amount"] = 0,
+						},
+						["Graz'kath <Tapatapa>"] = {
+							["Details"] = {
+								["Volatile Infection"] = {
+									["count"] = 0,
+								},
+								["Soul Link"] = {
+									["count"] = 31.35,
+								},
+							},
+							["amount"] = 31.35,
 						},
 						["Mugglefin"] = {
 							["Details"] = {
@@ -13518,22 +13778,16 @@ RecountPerCharDB = {
 							},
 							["amount"] = 1.24,
 						},
-						["Saltspittle Warrior"] = {
+						["Felslayer"] = {
 							["Details"] = {
 								["Corruption (DoT)"] = {
 									["count"] = 0,
 								},
-								["Immolate (DoT)"] = {
-									["count"] = 0,
-								},
-								["Immolate"] = {
-									["count"] = 0,
-								},
 								["Shadow Bolt"] = {
-									["count"] = 3.5,
+									["count"] = 0,
 								},
 							},
-							["amount"] = 3.5,
+							["amount"] = 0,
 						},
 						["Saltspittle Puddlejumper"] = {
 							["Details"] = {
@@ -13557,19 +13811,28 @@ RecountPerCharDB = {
 							},
 							["amount"] = 3.5,
 						},
-						["Felslayer"] = {
+						["Saltspittle Warrior"] = {
 							["Details"] = {
-								["Shadow Bolt"] = {
+								["Immolate (DoT)"] = {
 									["count"] = 0,
 								},
 								["Corruption (DoT)"] = {
 									["count"] = 0,
 								},
+								["Immolate"] = {
+									["count"] = 0,
+								},
+								["Shadow Bolt"] = {
+									["count"] = 3.5,
+								},
 							},
-							["amount"] = 0,
+							["amount"] = 3.5,
 						},
-						["Mystlash Hydra"] = {
+						["Shadethicket Moss Eater"] = {
 							["Details"] = {
+								["Corruption (DoT)"] = {
+									["count"] = 0,
+								},
 								["Shadow Bolt"] = {
 									["count"] = 0,
 								},
@@ -13578,25 +13841,22 @@ RecountPerCharDB = {
 						},
 						["Akkrilus"] = {
 							["Details"] = {
-								["Shadow Bolt"] = {
-									["count"] = 4.56,
-								},
 								["Corruption (DoT)"] = {
 									["count"] = 0,
+								},
+								["Shadow Bolt"] = {
+									["count"] = 4.56,
 								},
 							},
 							["amount"] = 4.56,
 						},
-						["Lesser Felguard"] = {
+						["Dark Strand Cultist"] = {
 							["Details"] = {
 								["Shadow Bolt"] = {
-									["count"] = 3.5,
-								},
-								["Corruption (DoT)"] = {
 									["count"] = 0,
 								},
 							},
-							["amount"] = 3.5,
+							["amount"] = 0,
 						},
 						["Wildthorn Stalker"] = {
 							["Details"] = {
@@ -13614,338 +13874,78 @@ RecountPerCharDB = {
 						},
 						["Foulweald Warrior"] = {
 							["Details"] = {
-								["Shadow Bolt"] = {
-									["count"] = 5.560000000000001,
-								},
 								["Corruption (DoT)"] = {
 									["count"] = 0,
+								},
+								["Shadow Bolt"] = {
+									["count"] = 5.560000000000001,
 								},
 							},
 							["amount"] = 5.560000000000001,
 						},
 					},
 					["ManaGain"] = 3429,
-					["FDamagedWho"] = {
-						["Sculamare"] = {
-							["Details"] = {
-								["Volatile Infection"] = {
-									["count"] = 300,
-								},
-							},
-							["amount"] = 300,
-						},
+					["ManaGainedFrom"] = {
 						["Tapatapa"] = {
 							["Details"] = {
-								["Volatile Infection"] = {
-									["count"] = 240,
+								["Life Tap"] = {
+									["count"] = 2978,
+								},
+								["Restore Mana"] = {
+									["count"] = 451,
 								},
 							},
-							["amount"] = 240,
-						},
-						["Graz'kath <Tapatapa>"] = {
-							["Details"] = {
-								["Volatile Infection"] = {
-									["count"] = 420,
-								},
-								["Soul Link"] = {
-									["count"] = 333,
-								},
-							},
-							["amount"] = 753,
+							["amount"] = 3429,
 						},
 					},
-					["ElementTakenAbsorb"] = {
-						["Physical"] = 194,
-						["Melee"] = 235,
-						["Fire"] = 88,
-						["Shadow"] = 24,
-						["Nature"] = 367,
+					["ElementHitsDone"] = {
+						["Shadow"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 17,
+								},
+								["Tick"] = {
+									["count"] = 68,
+								},
+								["Crit"] = {
+									["count"] = 27,
+								},
+								["Hit"] = {
+									["count"] = 271,
+								},
+							},
+							["amount"] = 383,
+						},
+						["Fire"] = {
+							["Details"] = {
+								["Tick"] = {
+									["count"] = 20,
+								},
+								["Miss"] = {
+									["count"] = 6,
+								},
+								["Crit"] = {
+									["count"] = 1,
+								},
+								["Hit"] = {
+									["count"] = 14,
+								},
+							},
+							["amount"] = 41,
+						},
+						["Nature"] = {
+							["Details"] = {
+								["Absorb"] = {
+									["count"] = 4,
+								},
+							},
+							["amount"] = 4,
+						},
 					},
 				},
 			},
-			["level"] = 20,
-			["LastDamageAbility"] = "Venom Spit",
-			["LastFightIn"] = 168,
-			["LastEventNum"] = {
-				[27] = 13.11914323962517,
-				[28] = 13.11914323962517,
-				[32] = 13.11914323962517,
-				[25] = 10.04016064257028,
-				[29] = 13.11914323962517,
-				[34] = 13.11914323962517,
-			},
-			["type"] = "Ungrouped",
-			["FightsSaved"] = 5,
-			["LastEventHealth"] = {
-				"692 (92%)", -- [1]
-				"692 (92%)", -- [2]
-				"692 (92%)", -- [3]
-				"692 (92%)", -- [4]
-				"692 (92%)", -- [5]
-				"692 (92%)", -- [6]
-				"692 (92%)", -- [7]
-				"692 (92%)", -- [8]
-				"692 (92%)", -- [9]
-				"692 (92%)", -- [10]
-				"692 (92%)", -- [11]
-				"692 (92%)", -- [12]
-				"692 (92%)", -- [13]
-				"692 (92%)", -- [14]
-				"691 (92%)", -- [15]
-				"681 (91%)", -- [16]
-				"671 (89%)", -- [17]
-				"661 (88%)", -- [18]
-				"651 (87%)", -- [19]
-				"641 (85%)", -- [20]
-				"631 (84%)", -- [21]
-				"621 (83%)", -- [22]
-				"611 (81%)", -- [23]
-				"601 (80%)", -- [24]
-				"587 (78%)", -- [25]
-				"594 (79%)", -- [26]
-				"699 (93%)", -- [27]
-				"726 (97%)", -- [28]
-				"747 (100%)", -- [29]
-				"747 (100%)", -- [30]
-				"747 (100%)", -- [31]
-				"747 (100%)", -- [32]
-				"747 (100%)", -- [33]
-				"747 (100%)", -- [34]
-				"747 (100%)", -- [35]
-				"737 (98%)", -- [36]
-				"727 (97%)", -- [37]
-				"717 (95%)", -- [38]
-				"707 (94%)", -- [39]
-				"697 (93%)", -- [40]
-				"687 (91%)", -- [41]
-				"677 (90%)", -- [42]
-				"664 (88%)", -- [43]
-				"664 (88%)", -- [44]
-				"664 (88%)", -- [45]
-				"664 (88%)", -- [46]
-				"692 (92%)", -- [47]
-				"692 (92%)", -- [48]
-				"692 (92%)", -- [49]
-				"692 (92%)", -- [50]
-			},
-			["lazysync"] = true,
-			["Owner"] = false,
-			["Pet"] = {
-				"Graz'kath <Tapatapa>", -- [1]
-			},
-			["NextEventNum"] = 25,
-			["LastEventHealthNum"] = {
-				92.6372155287818, -- [1]
-				92.6372155287818, -- [2]
-				92.6372155287818, -- [3]
-				92.6372155287818, -- [4]
-				92.6372155287818, -- [5]
-				92.6372155287818, -- [6]
-				92.6372155287818, -- [7]
-				92.6372155287818, -- [8]
-				92.6372155287818, -- [9]
-				92.6372155287818, -- [10]
-				92.6372155287818, -- [11]
-				92.6372155287818, -- [12]
-				92.6372155287818, -- [13]
-				92.6372155287818, -- [14]
-				92.5033467202142, -- [15]
-				91.16465863453816, -- [16]
-				89.82597054886212, -- [17]
-				88.48728246318608, -- [18]
-				87.14859437751004, -- [19]
-				85.809906291834, -- [20]
-				84.47121820615797, -- [21]
-				83.13253012048193, -- [22]
-				81.79384203480589, -- [23]
-				80.45515394912985, -- [24]
-				78.5809906291834, -- [25]
-				79.51807228915662, -- [26]
-				93.57429718875503, -- [27]
-				97.18875502008032, -- [28]
-				100, -- [29]
-				100, -- [30]
-				100, -- [31]
-				100, -- [32]
-				100, -- [33]
-				100, -- [34]
-				100, -- [35]
-				98.66131191432396, -- [36]
-				97.32262382864792, -- [37]
-				95.98393574297189, -- [38]
-				94.64524765729586, -- [39]
-				93.30655957161982, -- [40]
-				91.96787148594378, -- [41]
-				90.62918340026774, -- [42]
-				88.88888888888889, -- [43]
-				88.88888888888889, -- [44]
-				88.88888888888889, -- [45]
-				88.88888888888889, -- [46]
-				92.6372155287818, -- [47]
-				92.6372155287818, -- [48]
-				92.6372155287818, -- [49]
-				92.6372155287818, -- [50]
-			},
-			["LastEvents"] = {
-				"Tapatapa Fel Synergy Graz'kath <Tapatapa> Hit +7", -- [1]
-				"Tapatapa Immolate Elder Ashenvale Bear Hit -49 (5 resisted) (Fire)", -- [2]
-				"Tapatapa Fel Synergy Graz'kath <Tapatapa> Hit +2", -- [3]
-				"Tapatapa Corruption (DoT) Elder Ashenvale Bear Tick -18 (4 resisted) (Shadow)", -- [4]
-				"Tapatapa Fel Synergy Graz'kath <Tapatapa> Hit +3", -- [5]
-				"Tapatapa Immolate (DoT) Elder Ashenvale Bear Tick -22 (2 resisted) (Fire)", -- [6]
-				"Tapatapa Fel Synergy Graz'kath <Tapatapa> Hit +18", -- [7]
-				"Tapatapa Shadow Bolt Elder Ashenvale Bear Hit -125 (Shadow)", -- [8]
-				"Tapatapa Fel Synergy Graz'kath <Tapatapa> Hit +3", -- [9]
-				"Tapatapa Corruption (DoT) Elder Ashenvale Bear Tick -22 (Shadow)", -- [10]
-				"Tapatapa Fel Synergy Graz'kath <Tapatapa> Hit +3", -- [11]
-				"Tapatapa Immolate (DoT) Elder Ashenvale Bear Tick -24 (Fire)", -- [12]
-				"Tapatapa Fel Synergy Graz'kath <Tapatapa> Hit +18", -- [13]
-				"Tapatapa Shadow Bolt Elder Ashenvale Bear Hit -124 (Shadow)", -- [14]
-				"Tapatapa Health Funnel Graz'kath <Tapatapa> Tick +40", -- [15]
-				"Tapatapa Health Funnel Graz'kath <Tapatapa> Tick +40", -- [16]
-				"Tapatapa Health Funnel Graz'kath <Tapatapa> Tick +40", -- [17]
-				"Tapatapa Health Funnel Graz'kath <Tapatapa> Tick +41", -- [18]
-				"Tapatapa Health Funnel Graz'kath <Tapatapa> Tick +40", -- [19]
-				"Tapatapa Health Funnel Graz'kath <Tapatapa> Tick +40", -- [20]
-				"Tapatapa Health Funnel Graz'kath <Tapatapa> Tick +40", -- [21]
-				"Tapatapa Health Funnel Graz'kath <Tapatapa> Tick +40", -- [22]
-				"Tapatapa Health Funnel Graz'kath <Tapatapa> Tick +40", -- [23]
-				"Tapatapa Health Funnel Graz'kath <Tapatapa> Tick +40", -- [24]
-				"Wildthorn Venomspitter Venom Spit Tapatapa Hit -75 (18 Absorbed) (Nature)", -- [25]
-				"Wildthorn Venomspitter Venom Spit Tapatapa Absorb (23 Absorbed) (Nature)", -- [26]
-				"Tapatapa Lifeblood Tapatapa Tick +98", -- [27]
-				"Tapatapa Lifeblood Tapatapa Tick +98", -- [28]
-				"Tapatapa Lifeblood Tapatapa Tick +98 (62 overheal)", -- [29]
-				"Wildthorn Venomspitter Venom Spit Tapatapa Absorb (23 Absorbed) (Nature)", -- [30]
-				"Tapatapa Health Funnel Graz'kath <Tapatapa> Tick +41", -- [31]
-				"Tapatapa Lifeblood Tapatapa Tick +98 (88 overheal)", -- [32]
-				"Tapatapa Health Funnel Graz'kath <Tapatapa> Tick +40", -- [33]
-				"Tapatapa Lifeblood Tapatapa Tick +98 (88 overheal)", -- [34]
-				"Tapatapa Health Funnel Graz'kath <Tapatapa> Tick +41", -- [35]
-				"Tapatapa Health Funnel Graz'kath <Tapatapa> Tick +40", -- [36]
-				"Tapatapa Health Funnel Graz'kath <Tapatapa> Tick +41", -- [37]
-				"Tapatapa Health Funnel Graz'kath <Tapatapa> Tick +40", -- [38]
-				"Tapatapa Health Funnel Graz'kath <Tapatapa> Tick +41", -- [39]
-				"Tapatapa Health Funnel Graz'kath <Tapatapa> Tick +41", -- [40]
-				"Tapatapa Health Funnel Graz'kath <Tapatapa> Tick +41", -- [41]
-				"Tapatapa Health Funnel Graz'kath <Tapatapa> Tick +41", -- [42]
-				"Tapatapa Fel Synergy Graz'kath <Tapatapa> Hit +23", -- [43]
-				"Tapatapa Shadow Bolt Elder Ashenvale Bear Crit -156 (17 resisted) (Shadow)", -- [44]
-				"Tapatapa Fel Synergy Graz'kath <Tapatapa> Hit +13", -- [45]
-				"Tapatapa Shadow Bolt Elder Ashenvale Bear Hit -92 (22 resisted) (Shadow)", -- [46]
-				"Tapatapa Fel Synergy Graz'kath <Tapatapa> Hit +16", -- [47]
-				"Tapatapa Shadow Bolt Elder Ashenvale Bear Hit -108 (12 resisted) (Shadow)", -- [48]
-				"Tapatapa Fel Synergy Graz'kath <Tapatapa> Hit +3", -- [49]
-				"Tapatapa Corruption (DoT) Elder Ashenvale Bear Tick -20 (2 resisted) (Shadow)", -- [50]
-			},
-			["Name"] = "Tapatapa",
-			["LastEventIncoming"] = {
-				false, -- [1]
-				false, -- [2]
-				false, -- [3]
-				false, -- [4]
-				false, -- [5]
-				false, -- [6]
-				false, -- [7]
-				false, -- [8]
-				false, -- [9]
-				false, -- [10]
-				false, -- [11]
-				false, -- [12]
-				false, -- [13]
-				false, -- [14]
-				false, -- [15]
-				false, -- [16]
-				false, -- [17]
-				false, -- [18]
-				false, -- [19]
-				false, -- [20]
-				false, -- [21]
-				false, -- [22]
-				false, -- [23]
-				false, -- [24]
-				true, -- [25]
-				true, -- [26]
-				true, -- [27]
-				true, -- [28]
-				true, -- [29]
-				true, -- [30]
-				false, -- [31]
-				true, -- [32]
-				false, -- [33]
-				true, -- [34]
-				false, -- [35]
-				false, -- [36]
-				false, -- [37]
-				false, -- [38]
-				false, -- [39]
-				false, -- [40]
-				false, -- [41]
-				false, -- [42]
-				false, -- [43]
-				false, -- [44]
-				false, -- [45]
-				false, -- [46]
-				false, -- [47]
-				false, -- [48]
-				false, -- [49]
-				false, -- [50]
-			},
-			["GUID"] = "0x07000000009762D4",
-			["unit"] = "Tapatapa",
-			["LastEventTimes"] = {
-				10122.553, -- [1]
-				10122.553, -- [2]
-				10125.178, -- [3]
-				10125.178, -- [4]
-				10125.571, -- [5]
-				10125.571, -- [6]
-				10126.545, -- [7]
-				10126.546, -- [8]
-				10128.17, -- [9]
-				10128.171, -- [10]
-				10128.612, -- [11]
-				10128.612, -- [12]
-				10129.603, -- [13]
-				10129.604, -- [14]
-				10135.52, -- [15]
-				10136.536, -- [16]
-				10137.553, -- [17]
-				10138.512, -- [18]
-				10139.527, -- [19]
-				10140.494, -- [20]
-				10141.538, -- [21]
-				10142.521, -- [22]
-				10143.513, -- [23]
-				10144.504, -- [24]
-				10066.022, -- [25]
-				10071.028, -- [26]
-				10073.279, -- [27]
-				10074.32, -- [28]
-				10075.254, -- [29]
-				10076.004, -- [30]
-				10076.271, -- [31]
-				10076.313, -- [32]
-				10077.229, -- [33]
-				10077.27, -- [34]
-				10078.236, -- [35]
-				10079.237, -- [36]
-				10080.253, -- [37]
-				10081.271, -- [38]
-				10082.228, -- [39]
-				10083.22, -- [40]
-				10084.238, -- [41]
-				10085.229, -- [42]
-				10096.828, -- [43]
-				10096.828, -- [44]
-				10102.32, -- [45]
-				10102.32, -- [46]
-				10117.662, -- [47]
-				10117.662, -- [48]
-				10122.196, -- [49]
-				10122.196, -- [50]
-			},
-			["LastAbility"] = 14921.964,
+			["UnitLockout"] = 1689796843,
+			["LastActive"] = 1689803797,
 		},
 		["Graz'kath <Tapatapa>"] = {
 			["GUID"] = "0xF1404234360180A4",
@@ -14124,9 +14124,227 @@ RecountPerCharDB = {
 			},
 			["type"] = "Pet",
 			["FightsSaved"] = 5,
-			["LastActive"] = 1689803797,
-			["UnitLockout"] = 1689797088,
+			["LastAbility"] = 35710.219,
+			["LastEventTimes"] = {
+				10098.22, -- [1]
+				10100.203, -- [2]
+				10102.236, -- [3]
+				10102.32, -- [4]
+				10104.188, -- [5]
+				10114.072, -- [6]
+				10114.106, -- [7]
+				10116.112, -- [8]
+				10116.112, -- [9]
+				10117.662, -- [10]
+				10118.07, -- [11]
+				10118.079, -- [12]
+				10120.113, -- [13]
+				10120.113, -- [14]
+				10122.087, -- [15]
+				10122.087, -- [16]
+				10122.196, -- [17]
+				10122.553, -- [18]
+				10124.087, -- [19]
+				10124.088, -- [20]
+				10125.178, -- [21]
+				10125.571, -- [22]
+				10126.079, -- [23]
+				10126.079, -- [24]
+				10126.545, -- [25]
+				10128.061, -- [26]
+				10128.061, -- [27]
+				10128.17, -- [28]
+				10128.612, -- [29]
+				10129.603, -- [30]
+				10135.52, -- [31]
+				10136.536, -- [32]
+				10137.553, -- [33]
+				10138.512, -- [34]
+				10139.528, -- [35]
+				10140.494, -- [36]
+				10141.538, -- [37]
+				10142.521, -- [38]
+				10143.513, -- [39]
+				10144.504, -- [40]
+				10083.22, -- [41]
+				10084.238, -- [42]
+				10085.229, -- [43]
+				10086.204, -- [44]
+				10088.196, -- [45]
+				10090.187, -- [46]
+				10092.236, -- [47]
+				10094.246, -- [48]
+				10096.196, -- [49]
+				10096.828, -- [50]
+			},
 			["Owner"] = "Tapatapa",
+			["LastDamageTaken"] = 24,
+			["NextEventNum"] = 41,
+			["LastEventHealthNum"] = {
+				59.4440484675695, -- [1]
+				59.4440484675695, -- [2]
+				59.4440484675695, -- [3]
+				60.37063435495367, -- [4]
+				60.37063435495367, -- [5]
+				63.9344262295082, -- [6]
+				60.65573770491803, -- [7]
+				60.65573770491803, -- [8]
+				60.65573770491803, -- [9]
+				57.94725588025659, -- [10]
+				57.94725588025659, -- [11]
+				57.94725588025659, -- [12]
+				56.30791161796151, -- [13]
+				56.30791161796151, -- [14]
+				54.8823948681397, -- [15]
+				54.8823948681397, -- [16]
+				53.74198146828226, -- [17]
+				54.24091233071989, -- [18]
+				54.24091233071989, -- [19]
+				54.24091233071989, -- [20]
+				52.88667141838916, -- [21]
+				53.10049893086244, -- [22]
+				53.10049893086244, -- [23]
+				53.10049893086244, -- [24]
+				53.02922309337135, -- [25]
+				53.02922309337135, -- [26]
+				53.02922309337135, -- [27]
+				51.53243050605845, -- [28]
+				51.74625801853172, -- [29]
+				53.02922309337135, -- [30]
+				58.01853171774769, -- [31]
+				60.86956521739131, -- [32]
+				64.43335709194584, -- [33]
+				67.35566642908054, -- [34]
+				70.91945830363507, -- [35]
+				73.77049180327869, -- [36]
+				77.33428367783321, -- [37]
+				80.18531717747683, -- [38]
+				83.74910905203136, -- [39]
+				86.60014255167498, -- [40]
+				51.24732715609409, -- [41]
+				54.16963649322879, -- [42]
+				57.80470420527441, -- [43]
+				57.80470420527441, -- [44]
+				57.80470420527441, -- [45]
+				57.80470420527441, -- [46]
+				57.80470420527441, -- [47]
+				57.80470420527441, -- [48]
+				57.80470420527441, -- [49]
+				59.4440484675695, -- [50]
+			},
+			["LastEvents"] = {
+				"Graz'kath <Tapatapa> Melee Elder Ashenvale Bear Hit -33 (Physical)", -- [1]
+				"Graz'kath <Tapatapa> Melee Elder Ashenvale Bear Dodge", -- [2]
+				"Graz'kath <Tapatapa> Melee Elder Ashenvale Bear Miss", -- [3]
+				"Tapatapa Fel Synergy Graz'kath <Tapatapa> Hit +13", -- [4]
+				"Graz'kath <Tapatapa> Melee Elder Ashenvale Bear Glancing -26 (Physical)", -- [5]
+				"Elder Ashenvale Bear Melee Graz'kath <Tapatapa> Crit -46 (Physical)", -- [6]
+				"Graz'kath <Tapatapa> Melee Elder Ashenvale Bear Hit -29 (Physical)", -- [7]
+				"Graz'kath <Tapatapa> Melee Elder Ashenvale Bear Glancing -21 (Physical)", -- [8]
+				"Elder Ashenvale Bear Melee Graz'kath <Tapatapa> Crit -54 (Physical)", -- [9]
+				"Tapatapa Fel Synergy Graz'kath <Tapatapa> Hit +16", -- [10]
+				"Graz'kath <Tapatapa> Melee Elder Ashenvale Bear Hit -28 (Physical)", -- [11]
+				"Elder Ashenvale Bear Melee Graz'kath <Tapatapa> Hit -23 (Physical)", -- [12]
+				"Graz'kath <Tapatapa> Melee Elder Ashenvale Bear Hit -28 (Physical)", -- [13]
+				"Elder Ashenvale Bear Melee Graz'kath <Tapatapa> Hit -20 (Physical)", -- [14]
+				"Graz'kath <Tapatapa> Melee Elder Ashenvale Bear Hit -33 (Physical)", -- [15]
+				"Elder Ashenvale Bear Melee Graz'kath <Tapatapa> Hit -19 (Physical)", -- [16]
+				"Tapatapa Fel Synergy Graz'kath <Tapatapa> Hit +3", -- [17]
+				"Tapatapa Fel Synergy Graz'kath <Tapatapa> Hit +7", -- [18]
+				"Graz'kath <Tapatapa> Melee Elder Ashenvale Bear Glancing -20 (Physical)", -- [19]
+				"Elder Ashenvale Bear Melee Graz'kath <Tapatapa> Hit -21 (Physical)", -- [20]
+				"Tapatapa Fel Synergy Graz'kath <Tapatapa> Hit +2", -- [21]
+				"Tapatapa Fel Synergy Graz'kath <Tapatapa> Hit +3", -- [22]
+				"Graz'kath <Tapatapa> Melee Elder Ashenvale Bear Glancing -20 (Physical)", -- [23]
+				"Elder Ashenvale Bear Melee Graz'kath <Tapatapa> Hit -19 (Physical)", -- [24]
+				"Tapatapa Fel Synergy Graz'kath <Tapatapa> Hit +18", -- [25]
+				"Graz'kath <Tapatapa> Melee Elder Ashenvale Bear Hit -33 (Physical)", -- [26]
+				"Elder Ashenvale Bear Melee Graz'kath <Tapatapa> Hit -24 (Physical)", -- [27]
+				"Tapatapa Fel Synergy Graz'kath <Tapatapa> Hit +3", -- [28]
+				"Tapatapa Fel Synergy Graz'kath <Tapatapa> Hit +3", -- [29]
+				"Tapatapa Fel Synergy Graz'kath <Tapatapa> Hit +18", -- [30]
+				"Tapatapa Health Funnel Graz'kath <Tapatapa> Tick +40", -- [31]
+				"Tapatapa Health Funnel Graz'kath <Tapatapa> Tick +40", -- [32]
+				"Tapatapa Health Funnel Graz'kath <Tapatapa> Tick +40", -- [33]
+				"Tapatapa Health Funnel Graz'kath <Tapatapa> Tick +41", -- [34]
+				"Tapatapa Health Funnel Graz'kath <Tapatapa> Tick +40", -- [35]
+				"Tapatapa Health Funnel Graz'kath <Tapatapa> Tick +40", -- [36]
+				"Tapatapa Health Funnel Graz'kath <Tapatapa> Tick +40", -- [37]
+				"Tapatapa Health Funnel Graz'kath <Tapatapa> Tick +40", -- [38]
+				"Tapatapa Health Funnel Graz'kath <Tapatapa> Tick +40", -- [39]
+				"Tapatapa Health Funnel Graz'kath <Tapatapa> Tick +40", -- [40]
+				"Tapatapa Health Funnel Graz'kath <Tapatapa> Tick +41", -- [41]
+				"Tapatapa Health Funnel Graz'kath <Tapatapa> Tick +41", -- [42]
+				"Tapatapa Health Funnel Graz'kath <Tapatapa> Tick +41", -- [43]
+				"Graz'kath <Tapatapa> Melee Elder Ashenvale Bear Glancing -21 (Physical)", -- [44]
+				"Graz'kath <Tapatapa> Melee Elder Ashenvale Bear Glancing -23 (Physical)", -- [45]
+				"Graz'kath <Tapatapa> Melee Elder Ashenvale Bear Miss", -- [46]
+				"Graz'kath <Tapatapa> Melee Elder Ashenvale Bear Glancing -21 (Physical)", -- [47]
+				"Graz'kath <Tapatapa> Melee Elder Ashenvale Bear Glancing -24 (Physical)", -- [48]
+				"Graz'kath <Tapatapa> Melee Elder Ashenvale Bear Hit -33 (Physical)", -- [49]
+				"Tapatapa Fel Synergy Graz'kath <Tapatapa> Hit +23", -- [50]
+			},
+			["Name"] = "Graz'kath",
+			["LastEventIncoming"] = {
+				false, -- [1]
+				false, -- [2]
+				false, -- [3]
+				true, -- [4]
+				false, -- [5]
+				true, -- [6]
+				false, -- [7]
+				false, -- [8]
+				true, -- [9]
+				true, -- [10]
+				false, -- [11]
+				true, -- [12]
+				false, -- [13]
+				true, -- [14]
+				false, -- [15]
+				true, -- [16]
+				true, -- [17]
+				true, -- [18]
+				false, -- [19]
+				true, -- [20]
+				true, -- [21]
+				true, -- [22]
+				false, -- [23]
+				true, -- [24]
+				true, -- [25]
+				false, -- [26]
+				true, -- [27]
+				true, -- [28]
+				true, -- [29]
+				true, -- [30]
+				true, -- [31]
+				true, -- [32]
+				true, -- [33]
+				true, -- [34]
+				true, -- [35]
+				true, -- [36]
+				true, -- [37]
+				true, -- [38]
+				true, -- [39]
+				true, -- [40]
+				true, -- [41]
+				true, -- [42]
+				true, -- [43]
+				false, -- [44]
+				false, -- [45]
+				false, -- [46]
+				false, -- [47]
+				false, -- [48]
+				false, -- [49]
+				true, -- [50]
+			},
+			["TimeLast"] = {
+				["HealingTaken"] = 1689803783,
+				["ActiveTime"] = 1689803781,
+				["TimeDamage"] = 1689803781,
+				["OVERALL"] = 1689803783,
+				["DamageTaken"] = 1689803781,
+				["Damage"] = 1689803781,
+			},
 			["Fights"] = {
 				["LastFightData"] = {
 					["DOTs"] = {
@@ -14141,14 +14359,14 @@ RecountPerCharDB = {
 					},
 					["DeathCount"] = 0,
 					["HOT_Time"] = 0,
-					["ElementTakenBlock"] = {
-					},
-					["RunicPowerGain"] = 0,
+					["DOT_Time"] = 0,
+					["ManaGain"] = 0,
 					["ElementTaken"] = {
 					},
 					["HOTs"] = {
 					},
-					["Damage"] = 0,
+					["ElementTakenBlock"] = {
+					},
 					["ElementDoneAbsorb"] = {
 					},
 					["TimeHeal"] = 0,
@@ -14157,26 +14375,26 @@ RecountPerCharDB = {
 					["Dispels"] = 0,
 					["PartialBlock"] = {
 					},
-					["DamagedWho"] = {
+					["FDamagedWho"] = {
 					},
 					["FAttacks"] = {
 					},
-					["HealingTaken"] = 0,
+					["RageGain"] = 0,
 					["ElementDone"] = {
 					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementHitsDone"] = {
-					},
 					["ManaGainedFrom"] = {
+					},
+					["DamagedWho"] = {
+					},
+					["OverHeals"] = {
 					},
 					["WhoDamaged"] = {
 					},
 					["EnergyGainedFrom"] = {
 					},
-					["RunicPowerGained"] = {
+					["RageGained"] = {
 					},
-					["CCBroken"] = {
+					["RunicPowerGainedFrom"] = {
 					},
 					["ElementDoneBlock"] = {
 					},
@@ -14185,49 +14403,49 @@ RecountPerCharDB = {
 					["Dispelled"] = 0,
 					["WhoHealed"] = {
 					},
-					["HealedWho"] = {
+					["PartialResist"] = {
 					},
 					["CCBreak"] = 0,
-					["ElementTakenAbsorb"] = {
-					},
 					["FDamage"] = 0,
+					["Interrupts"] = 0,
 					["EnergyGain"] = 0,
 					["ManaGained"] = {
 					},
-					["PartialAbsorb"] = {
+					["ElementTakenAbsorb"] = {
 					},
 					["ActiveTime"] = 0,
 					["Overhealing"] = 0,
-					["TimeSpent"] = {
-					},
-					["WhoDispelled"] = {
+					["ElementTakenResist"] = {
 					},
 					["InterruptData"] = {
 					},
-					["ElementTakenResist"] = {
+					["WhoDispelled"] = {
+					},
+					["TimeSpent"] = {
 					},
 					["Heals"] = {
 					},
-					["Interrupts"] = 0,
+					["PartialAbsorb"] = {
+					},
 					["EnergyGained"] = {
 					},
-					["PartialResist"] = {
+					["HealedWho"] = {
 					},
 					["Healing"] = 0,
-					["RageGained"] = {
+					["CCBroken"] = {
 					},
-					["OverHeals"] = {
+					["RunicPowerGained"] = {
 					},
 					["Attacks"] = {
 					},
-					["RageGain"] = 0,
-					["FDamagedWho"] = {
+					["HealingTaken"] = 0,
+					["ElementHitsDone"] = {
 					},
 					["TimeDamage"] = 0,
 					["TimeDamaging"] = {
 					},
-					["ManaGain"] = 0,
-					["DOT_Time"] = 0,
+					["RunicPowerGain"] = 0,
+					["Damage"] = 0,
 					["DispelledWho"] = {
 					},
 				},
@@ -14244,12 +14462,13 @@ RecountPerCharDB = {
 					},
 					["DeathCount"] = 0,
 					["HOT_Time"] = 0,
-					["HOTs"] = {
+					["ElementTakenBlock"] = {
 					},
-					["ManaGain"] = 0,
+					["RunicPowerGain"] = 0,
 					["ElementTaken"] = {
 					},
-					["DOT_Time"] = 0,
+					["HOTs"] = {
+					},
 					["Damage"] = 0,
 					["ElementDoneAbsorb"] = {
 					},
@@ -14257,80 +14476,79 @@ RecountPerCharDB = {
 					["RessedWho"] = {
 					},
 					["Dispels"] = 0,
-					["PartialAbsorb"] = {
-					},
-					["RageGain"] = 0,
-					["FAttacks"] = {
-					},
 					["PartialBlock"] = {
 					},
+					["DamagedWho"] = {
+					},
+					["FAttacks"] = {
+					},
+					["HealingTaken"] = 0,
 					["ElementDone"] = {
 					},
-					["CCBroken"] = {
+					["RunicPowerGainedFrom"] = {
 					},
 					["ElementHitsDone"] = {
 					},
-					["Dispelled"] = 0,
+					["ManaGainedFrom"] = {
+					},
 					["WhoDamaged"] = {
 					},
 					["EnergyGainedFrom"] = {
 					},
-					["FDamagedWho"] = {
+					["RunicPowerGained"] = {
 					},
-					["RunicPowerGainedFrom"] = {
+					["CCBroken"] = {
 					},
 					["ElementDoneBlock"] = {
 					},
 					["TimeHealing"] = {
 					},
-					["OverHeals"] = {
-					},
-					["RageGained"] = {
-					},
-					["ActiveTime"] = 0,
-					["CCBreak"] = 0,
-					["EnergyGain"] = 0,
+					["Dispelled"] = 0,
 					["WhoHealed"] = {
-					},
-					["PartialResist"] = {
-					},
-					["ManaGained"] = {
-					},
-					["ElementTakenAbsorb"] = {
-					},
-					["Interrupts"] = 0,
-					["Overhealing"] = 0,
-					["ElementTakenResist"] = {
-					},
-					["InterruptData"] = {
-					},
-					["WhoDispelled"] = {
-					},
-					["TimeSpent"] = {
-					},
-					["Heals"] = {
-					},
-					["FDamage"] = 0,
-					["EnergyGained"] = {
 					},
 					["HealedWho"] = {
 					},
-					["Healing"] = 0,
-					["RunicPowerGained"] = {
+					["CCBreak"] = 0,
+					["ElementTakenAbsorb"] = {
 					},
-					["ManaGainedFrom"] = {
+					["FDamage"] = 0,
+					["EnergyGain"] = 0,
+					["ManaGained"] = {
+					},
+					["PartialAbsorb"] = {
+					},
+					["ActiveTime"] = 0,
+					["Overhealing"] = 0,
+					["TimeSpent"] = {
+					},
+					["WhoDispelled"] = {
+					},
+					["InterruptData"] = {
+					},
+					["ElementTakenResist"] = {
+					},
+					["Heals"] = {
+					},
+					["Interrupts"] = 0,
+					["EnergyGained"] = {
+					},
+					["PartialResist"] = {
+					},
+					["Healing"] = 0,
+					["RageGained"] = {
+					},
+					["OverHeals"] = {
 					},
 					["Attacks"] = {
 					},
-					["HealingTaken"] = 0,
-					["DamagedWho"] = {
+					["RageGain"] = 0,
+					["FDamagedWho"] = {
 					},
 					["TimeDamage"] = 0,
 					["TimeDamaging"] = {
 					},
-					["RunicPowerGain"] = 0,
-					["ElementTakenBlock"] = {
-					},
+					["ManaGain"] = 0,
+					["DOT_Time"] = 0,
 					["DispelledWho"] = {
 					},
 				},
@@ -14549,13 +14767,13 @@ RecountPerCharDB = {
 							},
 							["amount"] = 7.529999999999999,
 						},
-						["Ashenvale Bear"] = {
+						["Wrathtail Myrmidon"] = {
 							["Details"] = {
 								["Melee"] = {
-									["count"] = 47.81,
+									["count"] = 103.53,
 								},
 							},
-							["amount"] = 47.81,
+							["amount"] = 103.53,
 						},
 						["Wrathtail Wave Rider"] = {
 							["Details"] = {
@@ -14565,14 +14783,6 @@ RecountPerCharDB = {
 							},
 							["amount"] = 59.37,
 						},
-						["Graz'kath <Tapatapa>"] = {
-							["Details"] = {
-								["Fall down"] = {
-									["count"] = 0.33,
-								},
-							},
-							["amount"] = 0.33,
-						},
 						["Shadethicket Moss Eater"] = {
 							["Details"] = {
 								["Melee"] = {
@@ -14581,16 +14791,21 @@ RecountPerCharDB = {
 							},
 							["amount"] = 42.55,
 						},
-						["Thistlefur Shaman"] = {
+						["Mystlash Hydra"] = {
 							["Details"] = {
 								["Melee"] = {
-									["count"] = 70.97000000000001,
-								},
-								["Torment"] = {
-									["count"] = 0.08,
+									["count"] = 7.45,
 								},
 							},
-							["amount"] = 71.05,
+							["amount"] = 7.45,
+						},
+						["Graz'kath <Tapatapa>"] = {
+							["Details"] = {
+								["Fall down"] = {
+									["count"] = 0.33,
+								},
+							},
+							["amount"] = 0.33,
 						},
 						["Mugglefin"] = {
 							["Details"] = {
@@ -14616,14 +14831,6 @@ RecountPerCharDB = {
 							},
 							["amount"] = 30.41,
 						},
-						["Felslayer"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 49.31,
-								},
-							},
-							["amount"] = 49.31,
-						},
 						["Saltspittle Warrior"] = {
 							["Details"] = {
 								["Melee"] = {
@@ -14632,13 +14839,24 @@ RecountPerCharDB = {
 							},
 							["amount"] = 26.52,
 						},
-						["Mystlash Hydra"] = {
+						["Felslayer"] = {
 							["Details"] = {
 								["Melee"] = {
-									["count"] = 7.45,
+									["count"] = 49.31,
 								},
 							},
-							["amount"] = 7.45,
+							["amount"] = 49.31,
+						},
+						["Thistlefur Shaman"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 70.97000000000001,
+								},
+								["Torment"] = {
+									["count"] = 0.08,
+								},
+							},
+							["amount"] = 71.05,
 						},
 						["Akkrilus"] = {
 							["Details"] = {
@@ -14651,13 +14869,13 @@ RecountPerCharDB = {
 							},
 							["amount"] = 23.52,
 						},
-						["Wrathtail Myrmidon"] = {
+						["Ashenvale Bear"] = {
 							["Details"] = {
 								["Melee"] = {
-									["count"] = 103.53,
+									["count"] = 47.81,
 								},
 							},
-							["amount"] = 103.53,
+							["amount"] = 47.81,
 						},
 						["Wildthorn Stalker"] = {
 							["Details"] = {
@@ -14707,17 +14925,17 @@ RecountPerCharDB = {
 						},
 						["Mana Burn"] = {
 							["Details"] = {
-								["25%Resist"] = {
-									["max"] = 16,
-									["min"] = 16,
-									["count"] = 1,
-									["amount"] = 16,
-								},
 								["No Resist"] = {
 									["max"] = 0,
 									["min"] = 0,
 									["count"] = 3,
 									["amount"] = 0,
+								},
+								["25%Resist"] = {
+									["max"] = 16,
+									["min"] = 16,
+									["count"] = 1,
+									["amount"] = 16,
 								},
 							},
 							["count"] = 4,
@@ -14831,16 +15049,16 @@ RecountPerCharDB = {
 							["count"] = 1,
 							["amount"] = 0,
 						},
-						["Thorns"] = {
+						["Attack"] = {
 							["Details"] = {
 								["No Resist"] = {
 									["max"] = 0,
 									["min"] = 0,
-									["count"] = 2,
+									["count"] = 8,
 									["amount"] = 0,
 								},
 							},
-							["count"] = 2,
+							["count"] = 8,
 							["amount"] = 0,
 						},
 						["Coat of Thistlefur"] = {
@@ -14855,16 +15073,16 @@ RecountPerCharDB = {
 							["count"] = 22,
 							["amount"] = 0,
 						},
-						["Melee"] = {
+						["Fall down"] = {
 							["Details"] = {
 								["No Resist"] = {
 									["max"] = 0,
 									["min"] = 0,
-									["count"] = 617,
+									["count"] = 1,
 									["amount"] = 0,
 								},
 							},
-							["count"] = 617,
+							["count"] = 1,
 							["amount"] = 0,
 						},
 						["Venom Spit (DoT)"] = {
@@ -14891,6 +15109,30 @@ RecountPerCharDB = {
 							["count"] = 6,
 							["amount"] = 0,
 						},
+						["Revenge"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 0,
+						},
+						["Firebolt"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
 						["Knockdown"] = {
 							["Details"] = {
 								["No Resist"] = {
@@ -14915,31 +15157,7 @@ RecountPerCharDB = {
 							["count"] = 1,
 							["amount"] = 0,
 						},
-						["Revenge"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 2,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 2,
-							["amount"] = 0,
-						},
 						["Shock"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 0,
-						},
-						["Firebolt"] = {
 							["Details"] = {
 								["No Resist"] = {
 									["max"] = 0,
@@ -14963,28 +15181,28 @@ RecountPerCharDB = {
 							["count"] = 5,
 							["amount"] = 0,
 						},
-						["Fall down"] = {
+						["Melee"] = {
 							["Details"] = {
 								["No Resist"] = {
 									["max"] = 0,
 									["min"] = 0,
-									["count"] = 1,
+									["count"] = 617,
 									["amount"] = 0,
 								},
 							},
-							["count"] = 1,
+							["count"] = 617,
 							["amount"] = 0,
 						},
-						["Attack"] = {
+						["Thorns"] = {
 							["Details"] = {
 								["No Resist"] = {
 									["max"] = 0,
 									["min"] = 0,
-									["count"] = 8,
+									["count"] = 2,
 									["amount"] = 0,
 								},
 							},
-							["count"] = 8,
+							["count"] = 2,
 							["amount"] = 0,
 						},
 					},
@@ -15133,16 +15351,16 @@ RecountPerCharDB = {
 							["count"] = 1,
 							["amount"] = 0,
 						},
-						["Thorns"] = {
+						["Attack"] = {
 							["Details"] = {
 								["No Absorb"] = {
 									["max"] = 0,
 									["min"] = 0,
-									["count"] = 2,
+									["count"] = 8,
 									["amount"] = 0,
 								},
 							},
-							["count"] = 2,
+							["count"] = 8,
 							["amount"] = 0,
 						},
 						["Coat of Thistlefur"] = {
@@ -15157,16 +15375,16 @@ RecountPerCharDB = {
 							["count"] = 22,
 							["amount"] = 0,
 						},
-						["Melee"] = {
+						["Fall down"] = {
 							["Details"] = {
 								["No Absorb"] = {
 									["max"] = 0,
 									["min"] = 0,
-									["count"] = 617,
+									["count"] = 1,
 									["amount"] = 0,
 								},
 							},
-							["count"] = 617,
+							["count"] = 1,
 							["amount"] = 0,
 						},
 						["Venom Spit (DoT)"] = {
@@ -15193,6 +15411,30 @@ RecountPerCharDB = {
 							["count"] = 6,
 							["amount"] = 0,
 						},
+						["Revenge"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 0,
+						},
+						["Firebolt"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
 						["Knockdown"] = {
 							["Details"] = {
 								["No Absorb"] = {
@@ -15217,31 +15459,7 @@ RecountPerCharDB = {
 							["count"] = 1,
 							["amount"] = 0,
 						},
-						["Revenge"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 2,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 2,
-							["amount"] = 0,
-						},
 						["Shock"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 0,
-						},
-						["Firebolt"] = {
 							["Details"] = {
 								["No Absorb"] = {
 									["max"] = 0,
@@ -15265,28 +15483,28 @@ RecountPerCharDB = {
 							["count"] = 5,
 							["amount"] = 0,
 						},
-						["Fall down"] = {
+						["Melee"] = {
 							["Details"] = {
 								["No Absorb"] = {
 									["max"] = 0,
 									["min"] = 0,
-									["count"] = 1,
+									["count"] = 617,
 									["amount"] = 0,
 								},
 							},
-							["count"] = 1,
+							["count"] = 617,
 							["amount"] = 0,
 						},
-						["Attack"] = {
+						["Thorns"] = {
 							["Details"] = {
 								["No Absorb"] = {
 									["max"] = 0,
 									["min"] = 0,
-									["count"] = 8,
+									["count"] = 2,
 									["amount"] = 0,
 								},
 							},
-							["count"] = 8,
+							["count"] = 2,
 							["amount"] = 0,
 						},
 					},
@@ -15295,15 +15513,385 @@ RecountPerCharDB = {
 						["Holy"] = 1245,
 						["Melee"] = 12752,
 						["Frost"] = 1142,
-						["Shadow"] = 1192,
-						["Fire"] = 503,
 						["Physical"] = 1510,
+						["Fire"] = 503,
+						["Shadow"] = 1192,
 						["Nature"] = 914,
 					},
 					["Damage"] = 17128,
+					["WhoHealed"] = {
+						["Tapatapa"] = {
+							["Details"] = {
+								["Health Funnel"] = {
+									["count"] = 1394,
+								},
+								["Fel Synergy"] = {
+									["count"] = 5522,
+								},
+							},
+							["amount"] = 6916,
+						},
+						["Sculamare"] = {
+							["Details"] = {
+								["Gift of the Naaru"] = {
+									["count"] = 1170,
+								},
+							},
+							["amount"] = 1170,
+						},
+					},
+					["ElementHitsDone"] = {
+						["Shadow"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 13,
+								},
+							},
+							["amount"] = 13,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Glancing"] = {
+									["count"] = 110,
+								},
+								["Dodge"] = {
+									["count"] = 46,
+								},
+								["Hit"] = {
+									["count"] = 509,
+								},
+								["Miss"] = {
+									["count"] = 35,
+								},
+								["Crit"] = {
+									["count"] = 35,
+								},
+								["Parry"] = {
+									["count"] = 19,
+								},
+							},
+							["amount"] = 754,
+						},
+						["Nature"] = {
+							["Details"] = {
+								["Evade"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 1,
+						},
+					},
 					["ElementDone"] = {
 						["Melee"] = 17128,
 					},
+					["HealingTaken"] = 8086,
+					["DamagedWho"] = {
+						["Lesser Felguard"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 1009,
+								},
+							},
+							["amount"] = 1009,
+						},
+						["Dal Bloodclaw"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 136,
+								},
+							},
+							["amount"] = 136,
+						},
+						["Wildthorn Venomspitter"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 76,
+								},
+							},
+							["amount"] = 76,
+						},
+						["Wrathtail Sorceress"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 1305,
+								},
+							},
+							["amount"] = 1305,
+						},
+						["Forsaken Thug"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 640,
+								},
+							},
+							["amount"] = 640,
+						},
+						["Foulweald Ursa"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 135,
+								},
+							},
+							["amount"] = 135,
+						},
+						["Forsaken Herbalist"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 1075,
+								},
+							},
+							["amount"] = 1075,
+						},
+						["Succubus Minion"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 22,
+								},
+							},
+							["amount"] = 22,
+						},
+						["Ilkrud Magthrull"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 210,
+								},
+							},
+							["amount"] = 210,
+						},
+						["Thistlefur Avenger"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 500,
+								},
+							},
+							["amount"] = 500,
+						},
+						["Foulweald Shaman"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 174,
+								},
+							},
+							["amount"] = 174,
+						},
+						["Wrathtail Razortail"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 57,
+								},
+							},
+							["amount"] = 57,
+						},
+						["Foulweald Totemic"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 684,
+								},
+							},
+							["amount"] = 684,
+						},
+						["Wrathtail Priestess"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 657,
+								},
+							},
+							["amount"] = 657,
+						},
+						["Thistlefur Pathfinder"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 111,
+								},
+							},
+							["amount"] = 111,
+						},
+						["Forsaken Seeker"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 1082,
+								},
+							},
+							["amount"] = 1082,
+						},
+						["Apothecary Falthis"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 142,
+								},
+							},
+							["amount"] = 142,
+						},
+						["Foulweald Den Watcher"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 25,
+								},
+							},
+							["amount"] = 25,
+						},
+						["Ruuzel"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 78,
+								},
+							},
+							["amount"] = 78,
+						},
+						["Ghostpaw Runner"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 394,
+								},
+							},
+							["amount"] = 394,
+						},
+						["Elder Ashenvale Bear"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 1697,
+								},
+							},
+							["amount"] = 1697,
+						},
+						["Saltspittle Oracle"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 118,
+								},
+							},
+							["amount"] = 118,
+						},
+						["Foulweald Pathfinder"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 239,
+								},
+							},
+							["amount"] = 239,
+						},
+						["Dark Strand Cultist"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 84,
+								},
+							},
+							["amount"] = 84,
+						},
+						["Wrathtail Wave Rider"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 627,
+								},
+							},
+							["amount"] = 627,
+						},
+						["Wrathtail Myrmidon"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 1094,
+								},
+							},
+							["amount"] = 1094,
+						},
+						["Mugglefin"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 196,
+								},
+							},
+							["amount"] = 196,
+						},
+						["Thistlefur Shaman"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 509,
+								},
+							},
+							["amount"] = 509,
+						},
+						["Mystlash Hydra"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 75,
+								},
+							},
+							["amount"] = 75,
+						},
+						["Wrathtail Sea Witch"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 165,
+								},
+							},
+							["amount"] = 165,
+						},
+						["Saltspittle Puddlejumper"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 245,
+								},
+							},
+							["amount"] = 245,
+						},
+						["Shadethicket Moss Eater"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 464,
+								},
+							},
+							["amount"] = 464,
+						},
+						["Saltspittle Warrior"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 206,
+								},
+							},
+							["amount"] = 206,
+						},
+						["Felslayer"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 481,
+								},
+							},
+							["amount"] = 481,
+						},
+						["Akkrilus"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 225,
+								},
+							},
+							["amount"] = 225,
+						},
+						["Ashenvale Bear"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 519,
+								},
+							},
+							["amount"] = 519,
+						},
+						["Wildthorn Stalker"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 695,
+								},
+							},
+							["amount"] = 695,
+						},
+						["Foulweald Warrior"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 977,
+								},
+							},
+							["amount"] = 977,
+						},
+					},
+					["TimeDamage"] = 1834.55,
 					["TimeDamaging"] = {
 						["Lesser Felguard"] = {
 							["Details"] = {
@@ -15515,13 +16103,13 @@ RecountPerCharDB = {
 							},
 							["amount"] = 7.529999999999999,
 						},
-						["Ashenvale Bear"] = {
+						["Wrathtail Myrmidon"] = {
 							["Details"] = {
 								["Melee"] = {
-									["count"] = 47.81,
+									["count"] = 103.53,
 								},
 							},
-							["amount"] = 47.81,
+							["amount"] = 103.53,
 						},
 						["Wrathtail Wave Rider"] = {
 							["Details"] = {
@@ -15531,14 +16119,6 @@ RecountPerCharDB = {
 							},
 							["amount"] = 59.37,
 						},
-						["Graz'kath <Tapatapa>"] = {
-							["Details"] = {
-								["Fall down"] = {
-									["count"] = 0.33,
-								},
-							},
-							["amount"] = 0.33,
-						},
 						["Shadethicket Moss Eater"] = {
 							["Details"] = {
 								["Melee"] = {
@@ -15547,16 +16127,21 @@ RecountPerCharDB = {
 							},
 							["amount"] = 42.55,
 						},
-						["Thistlefur Shaman"] = {
+						["Mystlash Hydra"] = {
 							["Details"] = {
 								["Melee"] = {
-									["count"] = 70.97000000000001,
-								},
-								["Torment"] = {
-									["count"] = 0.08,
+									["count"] = 7.45,
 								},
 							},
-							["amount"] = 71.05,
+							["amount"] = 7.45,
+						},
+						["Graz'kath <Tapatapa>"] = {
+							["Details"] = {
+								["Fall down"] = {
+									["count"] = 0.33,
+								},
+							},
+							["amount"] = 0.33,
 						},
 						["Mugglefin"] = {
 							["Details"] = {
@@ -15582,14 +16167,6 @@ RecountPerCharDB = {
 							},
 							["amount"] = 30.41,
 						},
-						["Felslayer"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 49.31,
-								},
-							},
-							["amount"] = 49.31,
-						},
 						["Saltspittle Warrior"] = {
 							["Details"] = {
 								["Melee"] = {
@@ -15598,13 +16175,24 @@ RecountPerCharDB = {
 							},
 							["amount"] = 26.52,
 						},
-						["Mystlash Hydra"] = {
+						["Felslayer"] = {
 							["Details"] = {
 								["Melee"] = {
-									["count"] = 7.45,
+									["count"] = 49.31,
 								},
 							},
-							["amount"] = 7.45,
+							["amount"] = 49.31,
+						},
+						["Thistlefur Shaman"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 70.97000000000001,
+								},
+								["Torment"] = {
+									["count"] = 0.08,
+								},
+							},
+							["amount"] = 71.05,
 						},
 						["Akkrilus"] = {
 							["Details"] = {
@@ -15617,13 +16205,13 @@ RecountPerCharDB = {
 							},
 							["amount"] = 23.52,
 						},
-						["Wrathtail Myrmidon"] = {
+						["Ashenvale Bear"] = {
 							["Details"] = {
 								["Melee"] = {
-									["count"] = 103.53,
+									["count"] = 47.81,
 								},
 							},
-							["amount"] = 103.53,
+							["amount"] = 47.81,
 						},
 						["Wildthorn Stalker"] = {
 							["Details"] = {
@@ -15642,389 +16230,111 @@ RecountPerCharDB = {
 							["amount"] = 117.73,
 						},
 					},
-					["Attacks"] = {
-						["Fall down"] = {
-							["Details"] = {
-								["Evade"] = {
-									["count"] = 1,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 0,
-						},
-						["Torment"] = {
+					["ElementHitsTaken"] = {
+						["Holy"] = {
 							["Details"] = {
 								["Miss"] = {
-									["count"] = 13,
-									["amount"] = 0,
+									["count"] = 1,
+								},
+								["Hit"] = {
+									["count"] = 28,
 								},
 							},
-							["count"] = 13,
-							["amount"] = 0,
+							["amount"] = 29,
 						},
 						["Melee"] = {
 							["Details"] = {
-								["Glancing"] = {
-									["max"] = 44,
-									["min"] = 15,
-									["count"] = 110,
-									["amount"] = 2509,
-								},
-								["Dodge"] = {
-									["count"] = 46,
-									["amount"] = 0,
+								["Crushing"] = {
+									["count"] = 14,
 								},
 								["Hit"] = {
-									["max"] = 37,
-									["min"] = 18,
-									["count"] = 480,
-									["amount"] = 12400,
+									["count"] = 523,
 								},
-								["Hit (Blocked)"] = {
-									["max"] = 21,
-									["min"] = 9,
-									["count"] = 29,
-									["amount"] = 407,
+								["Dodge"] = {
+									["count"] = 1,
 								},
 								["Miss"] = {
-									["count"] = 35,
-									["amount"] = 0,
+									["count"] = 31,
 								},
 								["Crit"] = {
-									["max"] = 66,
-									["min"] = 42,
-									["count"] = 35,
-									["amount"] = 1812,
+									["count"] = 46,
 								},
 								["Parry"] = {
-									["count"] = 19,
-									["amount"] = 0,
+									["count"] = 2,
 								},
 							},
-							["count"] = 754,
-							["amount"] = 17128,
+							["amount"] = 617,
 						},
-					},
-					["HealingTaken"] = 8086,
-					["DamagedWho"] = {
-						["Lesser Felguard"] = {
+						["Frost"] = {
 							["Details"] = {
-								["Melee"] = {
-									["count"] = 1009,
+								["Hit"] = {
+									["count"] = 20,
 								},
 							},
-							["amount"] = 1009,
+							["amount"] = 20,
 						},
-						["Dal Bloodclaw"] = {
+						["Physical"] = {
 							["Details"] = {
-								["Melee"] = {
-									["count"] = 136,
+								["Miss"] = {
+									["count"] = 1,
 								},
-							},
-							["amount"] = 136,
-						},
-						["Wildthorn Venomspitter"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 76,
-								},
-							},
-							["amount"] = 76,
-						},
-						["Wrathtail Sorceress"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 1305,
-								},
-							},
-							["amount"] = 1305,
-						},
-						["Forsaken Thug"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 640,
-								},
-							},
-							["amount"] = 640,
-						},
-						["Foulweald Ursa"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 135,
-								},
-							},
-							["amount"] = 135,
-						},
-						["Forsaken Herbalist"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 1075,
-								},
-							},
-							["amount"] = 1075,
-						},
-						["Succubus Minion"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 22,
-								},
-							},
-							["amount"] = 22,
-						},
-						["Ilkrud Magthrull"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 210,
-								},
-							},
-							["amount"] = 210,
-						},
-						["Thistlefur Avenger"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 500,
-								},
-							},
-							["amount"] = 500,
-						},
-						["Foulweald Shaman"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 174,
-								},
-							},
-							["amount"] = 174,
-						},
-						["Wrathtail Razortail"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 57,
-								},
-							},
-							["amount"] = 57,
-						},
-						["Foulweald Totemic"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 684,
-								},
-							},
-							["amount"] = 684,
-						},
-						["Wrathtail Priestess"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 657,
-								},
-							},
-							["amount"] = 657,
-						},
-						["Thistlefur Pathfinder"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 111,
-								},
-							},
-							["amount"] = 111,
-						},
-						["Forsaken Seeker"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 1082,
-								},
-							},
-							["amount"] = 1082,
-						},
-						["Apothecary Falthis"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 142,
-								},
-							},
-							["amount"] = 142,
-						},
-						["Foulweald Den Watcher"] = {
-							["Details"] = {
-								["Melee"] = {
+								["Tick"] = {
 									["count"] = 25,
 								},
-							},
-							["amount"] = 25,
-						},
-						["Ruuzel"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 78,
+								["Hit"] = {
+									["count"] = 41,
 								},
 							},
-							["amount"] = 78,
+							["amount"] = 67,
 						},
-						["Ghostpaw Runner"] = {
+						["Fire"] = {
 							["Details"] = {
-								["Melee"] = {
-									["count"] = 394,
+								["Tick"] = {
+									["count"] = 5,
+								},
+								["Hit"] = {
+									["count"] = 24,
 								},
 							},
-							["amount"] = 394,
+							["amount"] = 29,
 						},
-						["Elder Ashenvale Bear"] = {
+						["Shadow"] = {
 							["Details"] = {
-								["Melee"] = {
-									["count"] = 1697,
+								["Hit"] = {
+									["count"] = 11,
 								},
 							},
-							["amount"] = 1697,
+							["amount"] = 11,
 						},
-						["Saltspittle Oracle"] = {
+						["Nature"] = {
 							["Details"] = {
-								["Melee"] = {
-									["count"] = 118,
+								["Miss"] = {
+									["count"] = 1,
+								},
+								["Evade"] = {
+									["count"] = 1,
+								},
+								["Tick"] = {
+									["count"] = 5,
+								},
+								["Hit"] = {
+									["count"] = 10,
 								},
 							},
-							["amount"] = 118,
-						},
-						["Foulweald Pathfinder"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 239,
-								},
-							},
-							["amount"] = 239,
-						},
-						["Dark Strand Cultist"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 84,
-								},
-							},
-							["amount"] = 84,
-						},
-						["Wrathtail Wave Rider"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 627,
-								},
-							},
-							["amount"] = 627,
-						},
-						["Ashenvale Bear"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 519,
-								},
-							},
-							["amount"] = 519,
-						},
-						["Mystlash Hydra"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 75,
-								},
-							},
-							["amount"] = 75,
-						},
-						["Thistlefur Shaman"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 509,
-								},
-							},
-							["amount"] = 509,
-						},
-						["Mugglefin"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 196,
-								},
-							},
-							["amount"] = 196,
-						},
-						["Wrathtail Sea Witch"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 165,
-								},
-							},
-							["amount"] = 165,
-						},
-						["Saltspittle Puddlejumper"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 245,
-								},
-							},
-							["amount"] = 245,
-						},
-						["Saltspittle Warrior"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 206,
-								},
-							},
-							["amount"] = 206,
-						},
-						["Felslayer"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 481,
-								},
-							},
-							["amount"] = 481,
-						},
-						["Shadethicket Moss Eater"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 464,
-								},
-							},
-							["amount"] = 464,
-						},
-						["Akkrilus"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 225,
-								},
-							},
-							["amount"] = 225,
-						},
-						["Wrathtail Myrmidon"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 1094,
-								},
-							},
-							["amount"] = 1094,
-						},
-						["Wildthorn Stalker"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 695,
-								},
-							},
-							["amount"] = 695,
-						},
-						["Foulweald Warrior"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 977,
-								},
-							},
-							["amount"] = 977,
+							["amount"] = 17,
 						},
 					},
-					["TimeDamage"] = 1834.55,
 					["WhoDamaged"] = {
 						["Lesser Felguard"] = {
 							["Details"] = {
+								["Melee"] = {
+									["count"] = 884,
+								},
 								["Knockdown"] = {
 									["count"] = 182,
 								},
 								["Fire Shield Effect II"] = {
 									["count"] = 165,
-								},
-								["Melee"] = {
-									["count"] = 884,
 								},
 							},
 							["amount"] = 1231,
@@ -16267,13 +16577,27 @@ RecountPerCharDB = {
 							},
 							["amount"] = 304,
 						},
-						["Dark Strand Cultist"] = {
+						["Wrathtail Myrmidon"] = {
 							["Details"] = {
-								["Shadow Bolt"] = {
-									["count"] = 130,
+								["Strike"] = {
+									["count"] = 362,
+								},
+								["Melee"] = {
+									["count"] = 611,
+								},
+								["Rend (DoT)"] = {
+									["count"] = 229,
 								},
 							},
-							["amount"] = 130,
+							["amount"] = 1202,
+						},
+						["Shadethicket Moss Eater"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 277,
+								},
+							},
+							["amount"] = 277,
 						},
 						["Thistlefur Shaman"] = {
 							["Details"] = {
@@ -16286,14 +16610,6 @@ RecountPerCharDB = {
 							},
 							["amount"] = 833,
 						},
-						["Shadethicket Moss Eater"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 277,
-								},
-							},
-							["amount"] = 277,
-						},
 						["Mugglefin"] = {
 							["Details"] = {
 								["Melee"] = {
@@ -16304,11 +16620,11 @@ RecountPerCharDB = {
 						},
 						["Wrathtail Sea Witch"] = {
 							["Details"] = {
-								["Lightning Blast"] = {
-									["count"] = 255,
-								},
 								["Melee"] = {
 									["count"] = 15,
+								},
+								["Lightning Blast"] = {
+									["count"] = 255,
 								},
 								["Mana Burn"] = {
 									["count"] = 64,
@@ -16323,6 +16639,17 @@ RecountPerCharDB = {
 								},
 							},
 							["amount"] = 414,
+						},
+						["Mystlash Hydra"] = {
+							["Details"] = {
+								["Venom Spit (DoT)"] = {
+									["count"] = 20,
+								},
+								["Venom Spit"] = {
+									["count"] = 42,
+								},
+							},
+							["amount"] = 62,
 						},
 						["Saltspittle Warrior"] = {
 							["Details"] = {
@@ -16343,47 +16670,30 @@ RecountPerCharDB = {
 							},
 							["amount"] = 820,
 						},
-						["Mystlash Hydra"] = {
-							["Details"] = {
-								["Venom Spit (DoT)"] = {
-									["count"] = 20,
-								},
-								["Venom Spit"] = {
-									["count"] = 42,
-								},
-							},
-							["amount"] = 62,
-						},
 						["Akkrilus"] = {
 							["Details"] = {
-								["Immolate"] = {
-									["count"] = 52,
+								["Melee"] = {
+									["count"] = 265,
 								},
 								["Immolate (DoT)"] = {
 									["count"] = 90,
 								},
+								["Immolate"] = {
+									["count"] = 52,
+								},
 								["Fire Shield Effect II"] = {
 									["count"] = 45,
-								},
-								["Melee"] = {
-									["count"] = 265,
 								},
 							},
 							["amount"] = 452,
 						},
-						["Wrathtail Myrmidon"] = {
+						["Dark Strand Cultist"] = {
 							["Details"] = {
-								["Strike"] = {
-									["count"] = 362,
-								},
-								["Melee"] = {
-									["count"] = 611,
-								},
-								["Rend (DoT)"] = {
-									["count"] = 229,
+								["Shadow Bolt"] = {
+									["count"] = 130,
 								},
 							},
-							["amount"] = 1202,
+							["amount"] = 130,
 						},
 						["Wildthorn Stalker"] = {
 							["Details"] = {
@@ -16402,384 +16712,74 @@ RecountPerCharDB = {
 							["amount"] = 847,
 						},
 					},
-					["ElementHitsTaken"] = {
-						["Holy"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 28,
-								},
-								["Miss"] = {
-									["count"] = 1,
-								},
-							},
-							["amount"] = 29,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 523,
-								},
-								["Crushing"] = {
-									["count"] = 14,
-								},
-								["Dodge"] = {
-									["count"] = 1,
-								},
-								["Miss"] = {
-									["count"] = 31,
-								},
-								["Crit"] = {
-									["count"] = 46,
-								},
-								["Parry"] = {
-									["count"] = 2,
-								},
-							},
-							["amount"] = 617,
-						},
-						["Frost"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 20,
-								},
-							},
-							["amount"] = 20,
-						},
-						["Shadow"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 11,
-								},
-							},
-							["amount"] = 11,
-						},
-						["Fire"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 24,
-								},
-								["Tick"] = {
-									["count"] = 5,
-								},
-							},
-							["amount"] = 29,
-						},
-						["Physical"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 41,
-								},
-								["Tick"] = {
-									["count"] = 25,
-								},
-								["Miss"] = {
-									["count"] = 1,
-								},
-							},
-							["amount"] = 67,
-						},
-						["Nature"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 10,
-								},
-								["Tick"] = {
-									["count"] = 5,
-								},
-								["Evade"] = {
-									["count"] = 1,
-								},
-								["Miss"] = {
-									["count"] = 1,
-								},
-							},
-							["amount"] = 17,
-						},
-					},
-					["ElementHitsDone"] = {
-						["Shadow"] = {
-							["Details"] = {
-								["Miss"] = {
-									["count"] = 13,
-								},
-							},
-							["amount"] = 13,
-						},
+					["Attacks"] = {
 						["Melee"] = {
 							["Details"] = {
 								["Glancing"] = {
+									["max"] = 44,
+									["min"] = 15,
 									["count"] = 110,
+									["amount"] = 2509,
+								},
+								["Hit"] = {
+									["max"] = 37,
+									["min"] = 18,
+									["count"] = 480,
+									["amount"] = 12400,
 								},
 								["Dodge"] = {
 									["count"] = 46,
+									["amount"] = 0,
 								},
-								["Hit"] = {
-									["count"] = 509,
+								["Hit (Blocked)"] = {
+									["max"] = 21,
+									["min"] = 9,
+									["count"] = 29,
+									["amount"] = 407,
 								},
 								["Miss"] = {
 									["count"] = 35,
+									["amount"] = 0,
 								},
 								["Crit"] = {
+									["max"] = 66,
+									["min"] = 42,
 									["count"] = 35,
+									["amount"] = 1812,
 								},
 								["Parry"] = {
 									["count"] = 19,
+									["amount"] = 0,
 								},
 							},
-							["amount"] = 754,
+							["count"] = 754,
+							["amount"] = 17128,
 						},
-						["Nature"] = {
+						["Fall down"] = {
 							["Details"] = {
 								["Evade"] = {
 									["count"] = 1,
+									["amount"] = 0,
 								},
 							},
-							["amount"] = 1,
+							["count"] = 1,
+							["amount"] = 0,
 						},
-					},
-					["WhoHealed"] = {
-						["Tapatapa"] = {
+						["Torment"] = {
 							["Details"] = {
-								["Health Funnel"] = {
-									["count"] = 1394,
-								},
-								["Fel Synergy"] = {
-									["count"] = 5522,
+								["Miss"] = {
+									["count"] = 13,
+									["amount"] = 0,
 								},
 							},
-							["amount"] = 6916,
-						},
-						["Sculamare"] = {
-							["Details"] = {
-								["Gift of the Naaru"] = {
-									["count"] = 1170,
-								},
-							},
-							["amount"] = 1170,
+							["count"] = 13,
+							["amount"] = 0,
 						},
 					},
 				},
 			},
-			["NextEventNum"] = 41,
-			["LastEventHealthNum"] = {
-				59.4440484675695, -- [1]
-				59.4440484675695, -- [2]
-				59.4440484675695, -- [3]
-				60.37063435495367, -- [4]
-				60.37063435495367, -- [5]
-				63.9344262295082, -- [6]
-				60.65573770491803, -- [7]
-				60.65573770491803, -- [8]
-				60.65573770491803, -- [9]
-				57.94725588025659, -- [10]
-				57.94725588025659, -- [11]
-				57.94725588025659, -- [12]
-				56.30791161796151, -- [13]
-				56.30791161796151, -- [14]
-				54.8823948681397, -- [15]
-				54.8823948681397, -- [16]
-				53.74198146828226, -- [17]
-				54.24091233071989, -- [18]
-				54.24091233071989, -- [19]
-				54.24091233071989, -- [20]
-				52.88667141838916, -- [21]
-				53.10049893086244, -- [22]
-				53.10049893086244, -- [23]
-				53.10049893086244, -- [24]
-				53.02922309337135, -- [25]
-				53.02922309337135, -- [26]
-				53.02922309337135, -- [27]
-				51.53243050605845, -- [28]
-				51.74625801853172, -- [29]
-				53.02922309337135, -- [30]
-				58.01853171774769, -- [31]
-				60.86956521739131, -- [32]
-				64.43335709194584, -- [33]
-				67.35566642908054, -- [34]
-				70.91945830363507, -- [35]
-				73.77049180327869, -- [36]
-				77.33428367783321, -- [37]
-				80.18531717747683, -- [38]
-				83.74910905203136, -- [39]
-				86.60014255167498, -- [40]
-				51.24732715609409, -- [41]
-				54.16963649322879, -- [42]
-				57.80470420527441, -- [43]
-				57.80470420527441, -- [44]
-				57.80470420527441, -- [45]
-				57.80470420527441, -- [46]
-				57.80470420527441, -- [47]
-				57.80470420527441, -- [48]
-				57.80470420527441, -- [49]
-				59.4440484675695, -- [50]
-			},
-			["LastEvents"] = {
-				"Graz'kath <Tapatapa> Melee Elder Ashenvale Bear Hit -33 (Physical)", -- [1]
-				"Graz'kath <Tapatapa> Melee Elder Ashenvale Bear Dodge", -- [2]
-				"Graz'kath <Tapatapa> Melee Elder Ashenvale Bear Miss", -- [3]
-				"Tapatapa Fel Synergy Graz'kath <Tapatapa> Hit +13", -- [4]
-				"Graz'kath <Tapatapa> Melee Elder Ashenvale Bear Glancing -26 (Physical)", -- [5]
-				"Elder Ashenvale Bear Melee Graz'kath <Tapatapa> Crit -46 (Physical)", -- [6]
-				"Graz'kath <Tapatapa> Melee Elder Ashenvale Bear Hit -29 (Physical)", -- [7]
-				"Graz'kath <Tapatapa> Melee Elder Ashenvale Bear Glancing -21 (Physical)", -- [8]
-				"Elder Ashenvale Bear Melee Graz'kath <Tapatapa> Crit -54 (Physical)", -- [9]
-				"Tapatapa Fel Synergy Graz'kath <Tapatapa> Hit +16", -- [10]
-				"Graz'kath <Tapatapa> Melee Elder Ashenvale Bear Hit -28 (Physical)", -- [11]
-				"Elder Ashenvale Bear Melee Graz'kath <Tapatapa> Hit -23 (Physical)", -- [12]
-				"Graz'kath <Tapatapa> Melee Elder Ashenvale Bear Hit -28 (Physical)", -- [13]
-				"Elder Ashenvale Bear Melee Graz'kath <Tapatapa> Hit -20 (Physical)", -- [14]
-				"Graz'kath <Tapatapa> Melee Elder Ashenvale Bear Hit -33 (Physical)", -- [15]
-				"Elder Ashenvale Bear Melee Graz'kath <Tapatapa> Hit -19 (Physical)", -- [16]
-				"Tapatapa Fel Synergy Graz'kath <Tapatapa> Hit +3", -- [17]
-				"Tapatapa Fel Synergy Graz'kath <Tapatapa> Hit +7", -- [18]
-				"Graz'kath <Tapatapa> Melee Elder Ashenvale Bear Glancing -20 (Physical)", -- [19]
-				"Elder Ashenvale Bear Melee Graz'kath <Tapatapa> Hit -21 (Physical)", -- [20]
-				"Tapatapa Fel Synergy Graz'kath <Tapatapa> Hit +2", -- [21]
-				"Tapatapa Fel Synergy Graz'kath <Tapatapa> Hit +3", -- [22]
-				"Graz'kath <Tapatapa> Melee Elder Ashenvale Bear Glancing -20 (Physical)", -- [23]
-				"Elder Ashenvale Bear Melee Graz'kath <Tapatapa> Hit -19 (Physical)", -- [24]
-				"Tapatapa Fel Synergy Graz'kath <Tapatapa> Hit +18", -- [25]
-				"Graz'kath <Tapatapa> Melee Elder Ashenvale Bear Hit -33 (Physical)", -- [26]
-				"Elder Ashenvale Bear Melee Graz'kath <Tapatapa> Hit -24 (Physical)", -- [27]
-				"Tapatapa Fel Synergy Graz'kath <Tapatapa> Hit +3", -- [28]
-				"Tapatapa Fel Synergy Graz'kath <Tapatapa> Hit +3", -- [29]
-				"Tapatapa Fel Synergy Graz'kath <Tapatapa> Hit +18", -- [30]
-				"Tapatapa Health Funnel Graz'kath <Tapatapa> Tick +40", -- [31]
-				"Tapatapa Health Funnel Graz'kath <Tapatapa> Tick +40", -- [32]
-				"Tapatapa Health Funnel Graz'kath <Tapatapa> Tick +40", -- [33]
-				"Tapatapa Health Funnel Graz'kath <Tapatapa> Tick +41", -- [34]
-				"Tapatapa Health Funnel Graz'kath <Tapatapa> Tick +40", -- [35]
-				"Tapatapa Health Funnel Graz'kath <Tapatapa> Tick +40", -- [36]
-				"Tapatapa Health Funnel Graz'kath <Tapatapa> Tick +40", -- [37]
-				"Tapatapa Health Funnel Graz'kath <Tapatapa> Tick +40", -- [38]
-				"Tapatapa Health Funnel Graz'kath <Tapatapa> Tick +40", -- [39]
-				"Tapatapa Health Funnel Graz'kath <Tapatapa> Tick +40", -- [40]
-				"Tapatapa Health Funnel Graz'kath <Tapatapa> Tick +41", -- [41]
-				"Tapatapa Health Funnel Graz'kath <Tapatapa> Tick +41", -- [42]
-				"Tapatapa Health Funnel Graz'kath <Tapatapa> Tick +41", -- [43]
-				"Graz'kath <Tapatapa> Melee Elder Ashenvale Bear Glancing -21 (Physical)", -- [44]
-				"Graz'kath <Tapatapa> Melee Elder Ashenvale Bear Glancing -23 (Physical)", -- [45]
-				"Graz'kath <Tapatapa> Melee Elder Ashenvale Bear Miss", -- [46]
-				"Graz'kath <Tapatapa> Melee Elder Ashenvale Bear Glancing -21 (Physical)", -- [47]
-				"Graz'kath <Tapatapa> Melee Elder Ashenvale Bear Glancing -24 (Physical)", -- [48]
-				"Graz'kath <Tapatapa> Melee Elder Ashenvale Bear Hit -33 (Physical)", -- [49]
-				"Tapatapa Fel Synergy Graz'kath <Tapatapa> Hit +23", -- [50]
-			},
-			["Name"] = "Graz'kath",
-			["TimeLast"] = {
-				["HealingTaken"] = 1689803783,
-				["ActiveTime"] = 1689803781,
-				["TimeDamage"] = 1689803781,
-				["OVERALL"] = 1689803783,
-				["DamageTaken"] = 1689803781,
-				["Damage"] = 1689803781,
-			},
-			["LastEventIncoming"] = {
-				false, -- [1]
-				false, -- [2]
-				false, -- [3]
-				true, -- [4]
-				false, -- [5]
-				true, -- [6]
-				false, -- [7]
-				false, -- [8]
-				true, -- [9]
-				true, -- [10]
-				false, -- [11]
-				true, -- [12]
-				false, -- [13]
-				true, -- [14]
-				false, -- [15]
-				true, -- [16]
-				true, -- [17]
-				true, -- [18]
-				false, -- [19]
-				true, -- [20]
-				true, -- [21]
-				true, -- [22]
-				false, -- [23]
-				true, -- [24]
-				true, -- [25]
-				false, -- [26]
-				true, -- [27]
-				true, -- [28]
-				true, -- [29]
-				true, -- [30]
-				true, -- [31]
-				true, -- [32]
-				true, -- [33]
-				true, -- [34]
-				true, -- [35]
-				true, -- [36]
-				true, -- [37]
-				true, -- [38]
-				true, -- [39]
-				true, -- [40]
-				true, -- [41]
-				true, -- [42]
-				true, -- [43]
-				false, -- [44]
-				false, -- [45]
-				false, -- [46]
-				false, -- [47]
-				false, -- [48]
-				false, -- [49]
-				true, -- [50]
-			},
-			["LastDamageTaken"] = 24,
-			["LastEventTimes"] = {
-				10098.22, -- [1]
-				10100.203, -- [2]
-				10102.236, -- [3]
-				10102.32, -- [4]
-				10104.188, -- [5]
-				10114.072, -- [6]
-				10114.106, -- [7]
-				10116.112, -- [8]
-				10116.112, -- [9]
-				10117.662, -- [10]
-				10118.07, -- [11]
-				10118.079, -- [12]
-				10120.113, -- [13]
-				10120.113, -- [14]
-				10122.087, -- [15]
-				10122.087, -- [16]
-				10122.196, -- [17]
-				10122.553, -- [18]
-				10124.087, -- [19]
-				10124.088, -- [20]
-				10125.178, -- [21]
-				10125.571, -- [22]
-				10126.079, -- [23]
-				10126.079, -- [24]
-				10126.545, -- [25]
-				10128.061, -- [26]
-				10128.061, -- [27]
-				10128.17, -- [28]
-				10128.612, -- [29]
-				10129.603, -- [30]
-				10135.52, -- [31]
-				10136.536, -- [32]
-				10137.553, -- [33]
-				10138.512, -- [34]
-				10139.528, -- [35]
-				10140.494, -- [36]
-				10141.538, -- [37]
-				10142.521, -- [38]
-				10143.513, -- [39]
-				10144.504, -- [40]
-				10083.22, -- [41]
-				10084.238, -- [42]
-				10085.229, -- [43]
-				10086.204, -- [44]
-				10088.196, -- [45]
-				10090.187, -- [46]
-				10092.236, -- [47]
-				10094.246, -- [48]
-				10096.196, -- [49]
-				10096.828, -- [50]
-			},
-			["LastAbility"] = 14921.964,
+			["UnitLockout"] = 1689797088,
+			["LastActive"] = 1689803797,
 		},
 	},
 	["FightNum"] = 178,

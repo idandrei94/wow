@@ -73,8 +73,8 @@ SkadaDB = {
 					["y"] = 153.7775468416687,
 					["x"] = -644.148271468071,
 					["strata"] = "HIGH",
-					["mode"] = "Damage",
 					["snapto"] = true,
+					["mode"] = "Damage",
 					["barwidth"] = 221.0367141682152,
 				}, -- [1]
 			},
