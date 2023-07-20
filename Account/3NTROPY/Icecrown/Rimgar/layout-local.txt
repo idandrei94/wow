@@ -1,9 +1,9 @@
 Version: 1
 Frame: LootFrame
-FrameLevel: 8
+FrameLevel: 29
 Anchor: CENTER
-X: 102
-Y: -28
+X: -51
+Y: 56
 W: 256
 H: 256
 Frame: WorldMapScreenAnchor
@@ -18,8 +18,8 @@ FrameLevel: 11
 Anchor: TOP
 X: -246
 Y: -98
-W: 285
-H: 201
+W: 345
+H: 242
 Frame: DBMMinimapButton
 FrameLevel: 3
 Anchor: TOPRIGHT
@@ -49,7 +49,7 @@ Y: -130
 W: 251
 H: 311
 Frame: Recount_DetailWindow
-FrameLevel: 21
+FrameLevel: 20
 Anchor: CENTER
 X: 58
 Y: -17
@@ -90,10 +90,3 @@ X: -242
 Y: -112
 W: 100
 H: 16
-Frame: BagnonFramebank
-FrameLevel: 1
-Anchor: LEFT
-X: 80
-Y: -107
-W: 668
-H: 345
