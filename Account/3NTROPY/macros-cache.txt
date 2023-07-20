@@ -151,8 +151,9 @@ MACRO 46 "soulfire" INV_Misc_QuestionMark
 /cast soul fire
 END
 MACRO 77 "spellstone" INV_Misc_QuestionMark
-#showtooltip Minor Wizard Oil
-/use Minor Wizard Oil
+#showtooltip Grand Spellstone
+/cast [modifier:alt] Create Spellstone(Rank 6)
+/use [nomodifier:alt] Grand Spellstone
 /use 16
 END
 MACRO 31 "train" Ability_Creature_Cursed_01

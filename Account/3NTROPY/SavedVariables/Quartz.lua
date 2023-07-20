@@ -16,14 +16,14 @@ Quartz3DB = {
 				},
 			},
 		},
+		["EnemyCasts"] = {
+		},
 		["Player"] = {
 			["profiles"] = {
 				["Default"] = {
 					["x"] = 557.6666906585209,
 				},
 			},
-		},
-		["EnemyCasts"] = {
 		},
 		["GCD"] = {
 		},
@@ -45,9 +45,9 @@ Quartz3DB = {
 				},
 			},
 		},
-		["Mirror"] = {
-		},
 		["Range"] = {
+		},
+		["Mirror"] = {
 		},
 		["Latency"] = {
 		},
@@ -60,29 +60,29 @@ Quartz3DB = {
 		["Denathra - Icecrown"] = "Default",
 		["Vhalanor - Icecrown"] = "Default",
 		["Flokus - Icecrown"] = "Default",
-		["Flocius - Icecrown"] = "Default",
 		["Drext - Icecrown"] = "Default",
+		["Noobschmoq - Icecrown"] = "Default",
 		["Muiex - Icecrown"] = "Default",
 		["Sculamare - Icecrown"] = "Default",
-		["Izanagi - Icecrown"] = "Default",
-		["Mirceabravo - Icecrown"] = "Default",
-		["Aevie - Icecrown"] = "Default",
 		["Urgash - Icecrown"] = "Default",
-		["Praxia - Icecrown"] = "Default",
+		["Inarya - Icecrown"] = "Default",
+		["Aevie - Icecrown"] = "Default",
+		["Morridin - Icecrown"] = "Default",
+		["Rakhnis - Icecrown"] = "Default",
 		["Ulrezaj - Icecrown"] = "Default",
-		["Lingurita - Lordaeron"] = "Default",
 		["Pocaitoru - Icecrown"] = "Default",
+		["Kalaam - Icecrown"] = "Default",
 		["Elgorath - Icecrown"] = "Default",
-		["Pufarin - Icecrown"] = "Default",
+		["Maciucaru - Icecrown"] = "Default",
 		["Flocparlit - Icecrown"] = "Default",
 		["Gligor - Icecrown"] = "Default",
 		["Mirceabravo - Blackrock [PvP only]"] = "Default",
-		["Maciucaru - Icecrown"] = "Default",
-		["Kalaam - Icecrown"] = "Default",
-		["Rakhnis - Icecrown"] = "Default",
-		["Inarya - Icecrown"] = "Default",
-		["Morridin - Icecrown"] = "Default",
-		["Noobschmoq - Icecrown"] = "Default",
+		["Pufarin - Icecrown"] = "Default",
+		["Lingurita - Lordaeron"] = "Default",
+		["Praxia - Icecrown"] = "Default",
+		["Mirceabravo - Icecrown"] = "Default",
+		["Izanagi - Icecrown"] = "Default",
+		["Flocius - Icecrown"] = "Default",
 		["Eutanasie - Icecrown"] = "Default",
 	},
 	["profiles"] = {
