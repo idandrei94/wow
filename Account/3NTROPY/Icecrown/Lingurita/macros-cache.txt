@@ -1,0 +1,107 @@
+MACRO 16777219 "as" INV_Misc_QuestionMark
+#showtooltip aimed shot
+/cancelaura hand of protection
+/use 10
+/cast silencing shot
+/cast kill command
+/startattack
+/petattack
+/cast aimed shot
+END
+MACRO 16777226 "asd" INV_Misc_QuestionMark
+#showtooltip 8
+/use 8
+/y OMWTFYB
+END
+MACRO 16777225 "cd" INV_Misc_QuestionMark
+#showtooltip rapid fire
+/cast rapid fire
+/cast furious howl
+/cast call of the wild
+/use 10
+END
+MACRO 16777218 "cs" INV_Misc_QuestionMark
+#showtooltip chimera shot
+/cancelaura hand of protection
+/use 10
+/cast silencing shot
+/cast kill command
+/startattack
+/petattack
+/cast chimera shot
+END
+MACRO 16777224 "det" INV_Misc_QuestionMark
+#showtooltip deterrence
+/cancelaura deterrence
+/cast deterrence
+END
+MACRO 16777235 "faign" INV_Misc_QuestionMark
+#showtooltip feign death
+/stopattack
+/cast feign death
+END
+MACRO 16777227 "h" INV_Misc_QuestionMark
+#showtooltip disengage
+/use 15
+/cast disengage
+END
+MACRO 16777231 "hawk" INV_Misc_QuestionMark
+#showtooltip aspect of the dragonhawk
+/cast !aspect of the dragonhawk
+END
+MACRO 16777229 "md" INV_Misc_QuestionMark
+#showtooltip misdirection
+/cast [@focus, help, nodead][@targettarget, help, nodead][@mouseover, help, nodead][] misdirection
+END
+MACRO 16777217 "mount" INV_Misc_QuestionMark
+#showtooltip
+/cancelaura aim of the iron dwarves
+/cancelaura power of the taunka
+/cancelaura agility of the vrykul
+/userandom [flyable] X-53 Touring Rocket;Celestial Steed
+END
+MACRO 16777228 "rain" INV_Misc_QuestionMark
+#showtooltip volley
+/cast !volley
+END
+MACRO 16777232 "ravage" INV_Misc_QuestionMark
+#showtooltip ravage
+/cast ravage
+END
+MACRO 16777233 "sac" INV_Misc_QuestionMark
+#showtooltip roar of sacrifice
+/cast [nomodifier:alt, target=praxia] roar of sacrifice
+/cast [modifier:alt, target=party1] roar of sacrifice
+END
+MACRO 16777223 "serpent" INV_Misc_QuestionMark
+#showtooltip serpent sting
+/cancelaura hand of protection
+/use 10
+/cast silencing shot
+/cast kill command
+/startattack
+/petattack
+/cast serpent sting
+END
+MACRO 16777234 "shute" INV_Misc_QuestionMark
+#showtooltip 15
+/use 15
+END
+MACRO 16777222 "steady" INV_Misc_QuestionMark
+#showtooltip steady shot
+/cancelaura hand of protection
+/use 10
+/cast silencing shot
+/cast kill command
+/startattack
+/petattack
+/cast steady shot
+END
+MACRO 16777220 "ts" INV_Misc_QuestionMark
+#showtooltip tranquilizing shot
+/cast [target=mouseover] tranquilizing shot
+END
+MACRO 16777230 "viper" INV_Misc_QuestionMark
+#showtooltip aspect of the viper
+/cast !aspect of the viper
+END

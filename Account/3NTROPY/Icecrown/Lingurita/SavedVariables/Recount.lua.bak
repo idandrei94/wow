@@ -1,0 +1,79 @@
+
+RecountPerCharDB = {
+	["version"] = "1.3",
+	["combatants"] = {
+		["Praxia"] = {
+			["GUID"] = "0x070000000001DBA5",
+			["type"] = "Self",
+			["TimeLast"] = {
+				["OVERALL"] = 1521737481,
+				["ManaGain"] = 1521737481,
+			},
+			["Owner"] = false,
+			["enClass"] = "HUNTER",
+			["TimeWindows"] = {
+				["ManaGain"] = {
+					6309, -- [1]
+				},
+			},
+			["Name"] = "Praxia",
+			["LastActive"] = 1521737481,
+			["Fights"] = {
+				["CurrentFightData"] = {
+					["ManaGain"] = 6309,
+					["ManaGainedFrom"] = {
+						["Praxia"] = {
+							["Details"] = {
+								["Aspect of the Viper"] = {
+									["count"] = 6309,
+								},
+							},
+							["amount"] = 6309,
+						},
+					},
+					["ManaGained"] = {
+						["Aspect of the Viper"] = {
+							["Details"] = {
+								["Praxia"] = {
+									["count"] = 6309,
+								},
+							},
+							["amount"] = 6309,
+						},
+					},
+				},
+				["OverallData"] = {
+					["ManaGain"] = 6309,
+					["ManaGainedFrom"] = {
+						["Praxia"] = {
+							["Details"] = {
+								["Aspect of the Viper"] = {
+									["count"] = 6309,
+								},
+							},
+							["amount"] = 6309,
+						},
+					},
+					["ManaGained"] = {
+						["Aspect of the Viper"] = {
+							["Details"] = {
+								["Praxia"] = {
+									["count"] = 6309,
+								},
+							},
+							["amount"] = 6309,
+						},
+					},
+				},
+			},
+			["level"] = 80,
+			["UnitLockout"] = 1521737255,
+			["LastFightIn"] = 0,
+		},
+	},
+	["FightNum"] = 0,
+	["CombatTimes"] = {
+	},
+	["FoughtWho"] = {
+	},
+}
