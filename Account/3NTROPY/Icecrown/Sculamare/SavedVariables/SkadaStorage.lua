@@ -2,416 +2,1383 @@
 SkadaStorageDB = {
 	["sets"] = {
 		{
-			["players"] = {
-				{
-					["ccdonespells"] = {
-						[12824] = {
-							["count"] = 1,
-							["targets"] = {
-								["Randomroge"] = 1,
-							},
-						},
-					},
-					["last"] = 10179.922,
-					["damagetaken"] = 90,
-					["flag"] = 1297,
-					["class"] = "MAGE",
-					["damagetakenspells"] = {
-						["Shoot"] = {
-							["hitmin"] = 90,
-							["id"] = 3018,
-							["sources"] = {
-								["Randomroge"] = {
-									["amount"] = 90,
-								},
-							},
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 1,
-							["hitmax"] = 90,
-							["amount"] = 90,
-							["hitamount"] = 90,
-						},
-					},
-					["id"] = "0x0700000000976299",
-					["role"] = "DAMAGER",
-					["name"] = "Sculamare",
-					["ccdone"] = 1,
-					["spec"] = 63,
-					["totaldamagetaken"] = 90,
-					["auras"] = {
-						[1953] = {
-							["school"] = 64,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 1,
-						},
-						[1460] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 14,
-						},
-						[7301] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 14,
-						},
-						[28878] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 14,
-						},
-						[12824] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 64,
-							["targets"] = {
-								["Randomroge"] = {
-									["uptime"] = 7,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 7,
-						},
-					},
-					["time"] = 0,
-				}, -- [1]
-			},
-			["type"] = "none",
-			["damagetaken"] = 90,
-			["ccdone"] = 1,
-			["starttime"] = 1689844044,
-			["name"] = "Randomroge",
-			["last_time"] = 10193.674,
-			["enemies"] = {
-				{
-					["damagespells"] = {
-						[3018] = {
-							["school"] = 1,
-							["targets"] = {
-								["Sculamare"] = {
-									["amount"] = 90,
-								},
-							},
-							["amount"] = 90,
-						},
-					},
-					["totaldamage"] = 90,
-					["name"] = "Randomroge",
-					["flag"] = 66888,
-					["class"] = "ROGUE",
-					["id"] = "0x070000000059FE76",
-					["damage"] = 90,
-				}, -- [1]
-			},
-			["etotaldamage"] = 90,
-			["totaldamagetaken"] = 90,
-			["time"] = 14,
-			["mobname"] = "Randomroge",
-			["edamage"] = 90,
-			["last_action"] = 1689844057,
-			["endtime"] = 1689844058,
-		}, -- [1]
-		{
+			["eoverkill"] = 25,
+			["damage"] = 2284,
+			["death"] = 2,
 			["enemies"] = {
 				{
 					["damagespells"] = {
 						[6603] = {
 							["school"] = 1,
+							["overkill"] = 14,
 							["targets"] = {
+								["Tapatapa"] = {
+									["amount"] = 68,
+								},
 								["Sculamare"] = {
-									["amount"] = 187,
+									["overkill"] = 14,
+									["amount"] = 1309,
 								},
 							},
-							["amount"] = 187,
+							["amount"] = 1377,
 						},
 					},
-					["damagetaken"] = 1622,
+					["damagetaken"] = 2284,
 					["flag"] = 68168,
 					["class"] = "MONSTER",
 					["damagetakenspells"] = {
+						[1094] = {
+							["school"] = 4,
+							["sources"] = {
+								["Tapatapa"] = {
+									["amount"] = 158,
+								},
+							},
+							["amount"] = 158,
+						},
 						[11366] = {
 							["school"] = 4,
 							["sources"] = {
 								["Sculamare"] = {
-									["amount"] = 676,
+									["amount"] = 215,
 								},
 							},
-							["amount"] = 676,
+							["amount"] = 215,
 						},
-						[3140] = {
+						[1014] = {
+							["school"] = 32,
+							["sources"] = {
+								["Tapatapa"] = {
+									["amount"] = 191,
+								},
+							},
+							["amount"] = 191,
+						},
+						[6222] = {
+							["school"] = 32,
+							["sources"] = {
+								["Tapatapa"] = {
+									["amount"] = 171,
+								},
+							},
+							["amount"] = 171,
+						},
+						[2948] = {
 							["school"] = 4,
 							["sources"] = {
 								["Sculamare"] = {
-									["amount"] = 843,
-									["overkill"] = 79,
+									["amount"] = 63,
 								},
 							},
-							["amount"] = 843,
-							["overkill"] = 79,
+							["amount"] = 63,
 						},
 						[122] = {
 							["school"] = 16,
 							["sources"] = {
 								["Sculamare"] = {
+									["amount"] = 44,
+								},
+							},
+							["amount"] = 44,
+						},
+						[1088] = {
+							["school"] = 32,
+							["sources"] = {
+								["Tapatapa"] = {
+									["amount"] = 825,
+								},
+							},
+							["amount"] = 825,
+						},
+						[6603] = {
+							["school"] = 1,
+							["sources"] = {
+								["Tapatapa"] = {
+									["amount"] = 571,
+								},
+								["Graz'kath"] = {
 									["amount"] = 46,
 								},
 							},
-							["amount"] = 46,
-						},
-						[12654] = {
-							["school"] = 4,
-							["sources"] = {
-								["Sculamare"] = {
-									["amount"] = 57,
-								},
-							},
-							["amount"] = 57,
+							["amount"] = 617,
 						},
 					},
-					["totaldamage"] = 187,
-					["name"] = "Blackrock Outrunner",
-					["totaldamagetaken"] = 1622,
-					["id"] = "0xF1300001E514BA0F",
-					["damage"] = 187,
+					["name"] = "Gath'Ilzogg",
+					["overkill"] = 14,
+					["totaldamage"] = 1377,
+					["totaldamagetaken"] = 2284,
+					["id"] = "0xF13000014E007729",
+					["damage"] = 1377,
 				}, -- [1]
+				{
+					["damagespells"] = {
+						[10277] = {
+							["school"] = 1,
+							["total"] = 35,
+							["targets"] = {
+								["Tapatapa"] = {
+									["total"] = 35,
+									["amount"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["name"] = "Blackrock Hunter",
+					["totaldamage"] = 35,
+					["flag"] = 2632,
+					["class"] = "MONSTER",
+					["id"] = "0xF13000116E008033",
+					["damage"] = 0,
+				}, -- [2]
+				{
+					["damagespells"] = {
+						[6660] = {
+							["school"] = 1,
+							["targets"] = {
+								["Tapatapa"] = {
+									["amount"] = 264,
+								},
+								["Sculamare"] = {
+									["amount"] = 70,
+								},
+							},
+							["amount"] = 334,
+						},
+					},
+					["name"] = "Blackrock Scout",
+					["totaldamage"] = 334,
+					["flag"] = 2632,
+					["class"] = "MONSTER",
+					["id"] = "0xF130000FE000BBBC",
+					["damage"] = 334,
+				}, -- [3]
+				{
+					["damagespells"] = {
+						[6603] = {
+							["school"] = 1,
+							["overkill"] = 11,
+							["targets"] = {
+								["Tapatapa"] = {
+									["overkill"] = 11,
+									["amount"] = 276,
+								},
+								["Sculamare"] = {
+									["amount"] = 30,
+								},
+							},
+							["amount"] = 306,
+						},
+					},
+					["id"] = "0xF1300001E500BBDC",
+					["class"] = "MONSTER",
+					["overkill"] = 11,
+					["totaldamage"] = 306,
+					["name"] = "Blackrock Outrunner",
+					["flag"] = 2632,
+					["damage"] = 306,
+				}, -- [4]
 			},
-			["totaldamage"] = 1622,
-			["time"] = 42,
-			["totaldamagetaken"] = 187,
-			["etotaldamagetaken"] = 1622,
-			["last_time"] = 1200.839,
+			["ccdone"] = 3,
+			["totaldamage"] = 2284,
+			["time"] = 129,
+			["overheal"] = 318,
+			["totaldamagetaken"] = 2052,
+			["etotaldamagetaken"] = 2284,
+			["last_time"] = 8035.084,
 			["players"] = {
 				{
 					["ccdonespells"] = {
 						[122] = {
 							["count"] = 2,
 							["targets"] = {
-								["Blackrock Outrunner"] = 2,
+								["Gath'Ilzogg"] = 2,
 							},
 						},
 						[12824] = {
 							["count"] = 1,
 							["targets"] = {
-								["Blackrock Outrunner"] = 1,
+								["Gath'Ilzogg"] = 1,
 							},
 						},
 					},
-					["last"] = 1200.822,
+					["last"] = 7965.785,
 					["flag"] = 1297,
 					["class"] = "MAGE",
 					["auras"] = {
-						[12654] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 4,
-							["targets"] = {
-								["Blackrock Outrunner"] = {
-									["uptime"] = 2,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 2,
-						},
-						[11366] = {
-							["type"] = "DEBUFF",
-							["count"] = 3,
-							["school"] = 4,
-							["targets"] = {
-								["Blackrock Outrunner"] = {
-									["uptime"] = 14,
-									["count"] = 3,
-								},
-							},
-							["uptime"] = 14,
-						},
-						[12824] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 64,
-							["targets"] = {
-								["Blackrock Outrunner"] = {
-									["uptime"] = 21,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 21,
-						},
-						[7301] = {
+						[59548] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 42,
-						},
-						[28878] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 42,
+							["school"] = 2,
+							["uptime"] = 15,
 						},
 						[6136] = {
 							["type"] = "DEBUFF",
-							["count"] = 5,
+							["uptime"] = 31,
 							["school"] = 16,
-							["refresh"] = 1,
+							["refresh"] = 5,
 							["targets"] = {
+								["Gath'Ilzogg"] = {
+									["count"] = 4,
+									["refresh"] = 5,
+									["uptime"] = 31,
+								},
 								["Blackrock Outrunner"] = {
-									["refresh"] = 1,
-									["count"] = 5,
-									["uptime"] = 12,
+									["uptime"] = 5,
+									["count"] = 1,
 								},
 							},
-							["uptime"] = 12,
+							["count"] = 5,
+						},
+						[3166] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 74,
+						},
+						[8070] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 8,
+							["uptime"] = 1,
 						},
 						[122] = {
 							["type"] = "DEBUFF",
 							["count"] = 2,
 							["school"] = 16,
 							["targets"] = {
-								["Blackrock Outrunner"] = {
-									["uptime"] = 8,
+								["Gath'Ilzogg"] = {
+									["uptime"] = 14,
 									["count"] = 2,
 								},
 							},
-							["uptime"] = 8,
+							["uptime"] = 14,
+						},
+						[604] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 74,
+						},
+						[11366] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 4,
+							["targets"] = {
+								["Gath'Ilzogg"] = {
+									["uptime"] = 12,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 12,
+						},
+						[3268] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["uptime"] = 7,
+						},
+						[11196] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["targets"] = {
+								["Sculamare"] = {
+									["uptime"] = 40,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 40,
+						},
+						[12824] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 64,
+							["targets"] = {
+								["Gath'Ilzogg"] = {
+									["uptime"] = 18,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 18,
+						},
+						[7301] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 74,
 						},
 						[1460] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 42,
+							["uptime"] = 74,
+						},
+						[1953] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 64,
+							["uptime"] = 2,
+						},
+						[7844] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 74,
+						},
+						[28878] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 129,
 						},
 					},
 					["role"] = "DAMAGER",
-					["time"] = 24.07,
-					["totaldamagetaken"] = 187,
-					["damage"] = 1622,
+					["time"] = 19.1,
+					["totaldamagetaken"] = 1409,
+					["damage"] = 322,
 					["damagespells"] = {
-						["Fireball"] = {
-							["hitmin"] = 106,
-							["id"] = 3140,
+						["Chilled"] = {
+							["casts"] = 1,
+							["count"] = 2,
+							["amount"] = 0,
+							["school"] = 16,
 							["targets"] = {
-								["Blackrock Outrunner"] = {
-									["amount"] = 843,
-									["overkill"] = 79,
+								["Gath'Ilzogg"] = {
+									["amount"] = 0,
 								},
 							},
-							["overkill"] = 79,
-							["casts"] = 6,
-							["count"] = 7,
-							["hit"] = 7,
-							["school"] = 4,
-							["hitmax"] = 133,
-							["amount"] = 843,
-							["hitamount"] = 843,
+							["MISS"] = 2,
+							["id"] = 6136,
 						},
 						["Pyroblast"] = {
-							["hitmin"] = 169,
-							["criticalamount"] = 286,
+							["hitmin"] = 162,
 							["id"] = 11366,
-							["criticalmin"] = 286,
 							["targets"] = {
-								["Blackrock Outrunner"] = {
-									["amount"] = 631,
+								["Gath'Ilzogg"] = {
+									["amount"] = 162,
 								},
 							},
-							["critical"] = 1,
-							["hit"] = 2,
-							["casts"] = 3,
-							["count"] = 3,
-							["amount"] = 631,
+							["hitmax"] = 162,
+							["casts"] = 1,
+							["count"] = 1,
+							["hit"] = 1,
 							["school"] = 4,
-							["hitmax"] = 176,
-							["criticalmax"] = 286,
-							["hitamount"] = 345,
+							["resisted"] = 17,
+							["amount"] = 162,
+							["hitamount"] = 162,
 						},
 						["Pyroblast (DoT)"] = {
-							["hitmin"] = 15,
+							["hitmin"] = 12,
 							["id"] = 11366,
 							["targets"] = {
+								["Gath'Ilzogg"] = {
+									["amount"] = 53,
+								},
+							},
+							["hitmax"] = 14,
+							["count"] = 4,
+							["hit"] = 4,
+							["school"] = 4,
+							["resisted"] = 4,
+							["amount"] = 53,
+							["hitamount"] = 53,
+						},
+						["Scorch"] = {
+							["hitmin"] = 63,
+							["id"] = 2948,
+							["targets"] = {
+								["Gath'Ilzogg"] = {
+									["amount"] = 63,
+								},
+							},
+							["hitmax"] = 63,
+							["casts"] = 1,
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 4,
+							["resisted"] = 7,
+							["amount"] = 63,
+							["hitamount"] = 63,
+						},
+						["Polymorph"] = {
+							["MISS"] = 1,
+							["casts"] = 7,
+							["count"] = 5,
+							["amount"] = 0,
+							["school"] = 64,
+							["RESIST"] = 4,
+							["targets"] = {
+								["Gath'Ilzogg"] = {
+									["amount"] = 0,
+								},
+							},
+							["id"] = 12824,
+						},
+						["Frost Nova"] = {
+							["hitmin"] = 22,
+							["id"] = 122,
+							["targets"] = {
+								["Gath'Ilzogg"] = {
+									["amount"] = 44,
+								},
+							},
+							["casts"] = 2,
+							["count"] = 2,
+							["hit"] = 2,
+							["school"] = 16,
+							["hitmax"] = 22,
+							["amount"] = 44,
+							["hitamount"] = 44,
+						},
+					},
+					["death"] = 1,
+					["damagetaken"] = 1409,
+					["deathlog"] = {
+						{
+							["log"] = {
+								{
+									["time"] = 7981.407,
+									["source"] = "Gath'Ilzogg",
+									["amount"] = -78,
+									["school"] = 1,
+									["hp"] = 64,
+									["spellid"] = 6603,
+									["overkill"] = 14,
+								}, -- [1]
+								{
+									["source"] = "Blackrock Scout",
+									["amount"] = -35,
+									["school"] = 1,
+									["hp"] = 64,
+									["spellid"] = 6660,
+									["time"] = 7980.479,
+								}, -- [2]
+								{
+									["source"] = "Blackrock Outrunner",
+									["amount"] = -30,
+									["school"] = 1,
+									["hp"] = 217,
+									["spellid"] = 6603,
+									["time"] = 7978.939,
+								}, -- [3]
+								{
+									["source"] = "Gath'Ilzogg",
+									["amount"] = -88,
+									["school"] = 1,
+									["hp"] = 217,
+									["spellid"] = 6603,
+									["time"] = 7978.940000000001,
+								}, -- [4]
+								{
+									["source"] = "Blackrock Scout",
+									["amount"] = -35,
+									["school"] = 1,
+									["hp"] = 217,
+									["spellid"] = 6660,
+									["time"] = 7977.873000000001,
+								}, -- [5]
+								{
+									["source"] = "Gath'Ilzogg",
+									["amount"] = -174,
+									["school"] = 1,
+									["hp"] = 426,
+									["spellid"] = 6603,
+									["time"] = 7972.875000000001,
+								}, -- [6]
+								{
+									["source"] = "Gath'Ilzogg",
+									["amount"] = -80,
+									["school"] = 1,
+									["hp"] = 506,
+									["spellid"] = 6603,
+									["time"] = 7970.359,
+								}, -- [7]
+								{
+									["source"] = "Gath'Ilzogg",
+									["amount"] = -91,
+									["school"] = 1,
+									["hp"] = 597,
+									["spellid"] = 6603,
+									["time"] = 7967.985,
+								}, -- [8]
+								{
+									["source"] = "Gath'Ilzogg",
+									["amount"] = -148,
+									["school"] = 1,
+									["hp"] = 343,
+									["spellid"] = 6603,
+									["time"] = 7933.611,
+								}, -- [9]
+								{
+									["source"] = "Gath'Ilzogg",
+									["amount"] = -99,
+									["school"] = 1,
+									["hp"] = 359,
+									["spellid"] = 6603,
+									["time"] = 7931.113,
+								}, -- [10]
+								{
+									["source"] = "Gath'Ilzogg",
+									["amount"] = -99,
+									["school"] = 1,
+									["hp"] = 458,
+									["spellid"] = 6603,
+									["time"] = 7928.614000000001,
+								}, -- [11]
+								{
+									["source"] = "Gath'Ilzogg",
+									["amount"] = -104,
+									["school"] = 1,
+									["hp"] = 562,
+									["spellid"] = 6603,
+									["time"] = 7926.09,
+								}, -- [12]
+							},
+							["time"] = 7981.421,
+							["timeod"] = 1689882317,
+							["school"] = 1,
+							["maxhp"] = 597,
+							["spellid"] = 6603,
+							["source"] = "Gath'Ilzogg",
+						}, -- [1]
+					},
+					["id"] = "0x0700000000976299",
+					["spec"] = 63,
+					["healspells"] = {
+						[59548] = {
+							["overheal"] = 83,
+							["targets"] = {
+								["Sculamare"] = {
+									["overheal"] = 83,
+									["amount"] = 332,
+								},
+							},
+							["count"] = 5,
+							["amount"] = 332,
+							["school"] = 2,
+							["max"] = 83,
+							["ishot"] = true,
+							["min"] = 83,
+						},
+						[441] = {
+							["overheal"] = 0,
+							["count"] = 1,
+							["amount"] = 313,
+							["school"] = 1,
+							["max"] = 313,
+							["targets"] = {
+								["Sculamare"] = {
+									["overheal"] = 0,
+									["amount"] = 313,
+								},
+							},
+							["min"] = 313,
+						},
+						[3268] = {
+							["overheal"] = 148,
+							["targets"] = {
+								["Sculamare"] = {
+									["overheal"] = 148,
+									["amount"] = 153,
+								},
+							},
+							["count"] = 7,
+							["amount"] = 153,
+							["school"] = 1,
+							["max"] = 43,
+							["ishot"] = true,
+							["min"] = 24,
+						},
+					},
+					["damagetakenspells"] = {
+						["Melee"] = {
+							["hit"] = 8,
+							["criticalamount"] = 380,
+							["hitmin"] = 30,
+							["crushing"] = 2,
+							["id"] = 6603,
+							["hitmax"] = 104,
+							["count"] = 13,
+							["overkill"] = 14,
+							["criticalmin"] = 174,
+							["sources"] = {
+								["Gath'Ilzogg"] = {
+									["overkill"] = 14,
+									["amount"] = 1309,
+								},
 								["Blackrock Outrunner"] = {
+									["amount"] = 30,
+								},
+							},
+							["critical"] = 2,
+							["amount"] = 1339,
+							["school"] = 1,
+							["criticalmax"] = 206,
+							["MISS"] = 1,
+							["hitamount"] = 669,
+						},
+						["Shoot"] = {
+							["hitmin"] = 35,
+							["id"] = 6660,
+							["sources"] = {
+								["Blackrock Scout"] = {
+									["amount"] = 70,
+								},
+							},
+							["count"] = 2,
+							["hit"] = 2,
+							["school"] = 1,
+							["hitmax"] = 35,
+							["amount"] = 70,
+							["hitamount"] = 70,
+						},
+					},
+					["potionspells"] = {
+						[929] = 1,
+					},
+					["heal"] = 798,
+					["name"] = "Sculamare",
+					["ccdone"] = 3,
+					["overheal"] = 231,
+					["potion"] = 1,
+					["totaldamage"] = 322,
+				}, -- [1]
+				{
+					["last"] = 8034.392,
+					["flag"] = 1298,
+					["class"] = "WARLOCK",
+					["auras"] = {
+						[3698] = {
+							["type"] = "BUFF",
+							["count"] = 4,
+							["school"] = 32,
+							["refresh"] = 4,
+							["uptime"] = 13,
+						},
+						[28878] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 129,
+						},
+						[604] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 128,
+						},
+						[5782] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 32,
+							["targets"] = {
+								["Gath'Ilzogg"] = {
+									["uptime"] = 10,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 10,
+						},
+						[1094] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 4,
+							["targets"] = {
+								["Gath'Ilzogg"] = {
+									["uptime"] = 15,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 15,
+						},
+						[1014] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 32,
+							["targets"] = {
+								["Gath'Ilzogg"] = {
+									["uptime"] = 24,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 24,
+						},
+						[6205] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 32,
+							["targets"] = {
+								["Gath'Ilzogg"] = {
+									["uptime"] = 34,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 34,
+						},
+						[6222] = {
+							["type"] = "DEBUFF",
+							["count"] = 2,
+							["school"] = 32,
+							["targets"] = {
+								["Gath'Ilzogg"] = {
+									["uptime"] = 28,
+									["count"] = 2,
+								},
+							},
+							["uptime"] = 28,
+						},
+						[19708] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 128,
+						},
+						[1460] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 128,
+						},
+						[706] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 128,
+						},
+						[7812] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 30,
+						},
+					},
+					["time"] = 62.22000000000001,
+					["totaldamagetaken"] = 643,
+					["damage"] = 1962,
+					["damagespells"] = {
+						["Corruption"] = {
+							["casts"] = 2,
+							["count"] = 1,
+							["amount"] = 0,
+							["school"] = 32,
+							["targets"] = {
+								["Gath'Ilzogg"] = {
+									["amount"] = 0,
+								},
+							},
+							["MISS"] = 1,
+							["id"] = 6222,
+						},
+						["Corruption (DoT)"] = {
+							["hitmin"] = 17,
+							["id"] = 6222,
+							["targets"] = {
+								["Gath'Ilzogg"] = {
+									["amount"] = 171,
+								},
+							},
+							["hitmax"] = 22,
+							["casts"] = 2,
+							["count"] = 9,
+							["hit"] = 9,
+							["school"] = 32,
+							["resisted"] = 20,
+							["amount"] = 171,
+							["hitamount"] = 171,
+						},
+						["Melee (Graz'kath)"] = {
+							["DODGE"] = 2,
+							["glance"] = 194,
+							["hitmin"] = 12,
+							["criticalmin"] = 42,
+							["targets"] = {
+								["Gath'Ilzogg"] = {
+									["amount"] = 617,
+								},
+							},
+							["glancing"] = 11,
+							["amount"] = 617,
+							["MISS"] = 6,
+							["glancemin"] = 16,
+							["criticalamount"] = 42,
+							["id"] = 6603,
+							["glancemax"] = 19,
+							["blocked"] = 26,
+							["criticalmax"] = 42,
+							["PARRY"] = 2,
+							["hitmax"] = 26,
+							["hit"] = 17,
+							["school"] = 1,
+							["critical"] = 1,
+							["count"] = 39,
+							["hitamount"] = 381,
+						},
+						["Torment (Graz'kath)"] = {
+							["casts"] = 1,
+							["count"] = 5,
+							["amount"] = 0,
+							["school"] = 32,
+							["targets"] = {
+								["Gath'Ilzogg"] = {
+									["amount"] = 0,
+								},
+							},
+							["MISS"] = 5,
+							["id"] = 7809,
+						},
+						["Shadow Bolt"] = {
+							["hitmin"] = 88,
+							["id"] = 1088,
+							["targets"] = {
+								["Gath'Ilzogg"] = {
+									["amount"] = 825,
+								},
+							},
+							["hitmax"] = 113,
+							["casts"] = 9,
+							["count"] = 8,
+							["hit"] = 8,
+							["school"] = 32,
+							["resisted"] = 102,
+							["amount"] = 825,
+							["hitamount"] = 825,
+						},
+						["Searing Pain"] = {
+							["casts"] = 1,
+							["count"] = 1,
+							["amount"] = 0,
+							["school"] = 4,
+							["targets"] = {
+								["Gath'Ilzogg"] = {
+									["amount"] = 0,
+								},
+							},
+							["MISS"] = 1,
+							["id"] = 5676,
+						},
+						["Curse of Weakness"] = {
+							["casts"] = 2,
+							["count"] = 1,
+							["amount"] = 0,
+							["school"] = 32,
+							["targets"] = {
+								["Gath'Ilzogg"] = {
+									["amount"] = 0,
+								},
+							},
+							["MISS"] = 1,
+							["id"] = 6205,
+						},
+						["Immolate (DoT)"] = {
+							["hitmin"] = 19,
+							["id"] = 1094,
+							["targets"] = {
+								["Gath'Ilzogg"] = {
+									["amount"] = 107,
+								},
+							},
+							["hitmax"] = 23,
+							["count"] = 5,
+							["hit"] = 5,
+							["school"] = 4,
+							["resisted"] = 10,
+							["amount"] = 107,
+							["hitamount"] = 107,
+						},
+						["Immolate"] = {
+							["hitmin"] = 51,
+							["id"] = 1094,
+							["targets"] = {
+								["Gath'Ilzogg"] = {
+									["amount"] = 51,
+								},
+							},
+							["casts"] = 1,
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 4,
+							["hitmax"] = 51,
+							["amount"] = 51,
+							["hitamount"] = 51,
+						},
+						["Curse of Agony (DoT)"] = {
+							["hitmin"] = 8,
+							["id"] = 1014,
+							["targets"] = {
+								["Gath'Ilzogg"] = {
+									["amount"] = 191,
+								},
+							},
+							["hitmax"] = 24,
+							["count"] = 12,
+							["hit"] = 12,
+							["school"] = 32,
+							["resisted"] = 11,
+							["amount"] = 191,
+							["hitamount"] = 191,
+						},
+					},
+					["damagetaken"] = 608,
+					["deathlog"] = {
+						{
+							["log"] = {
+								{
+									["time"] = 8035.01,
+									["source"] = "Blackrock Outrunner",
+									["amount"] = -31,
+									["school"] = 1,
+									["hp"] = 20,
+									["spellid"] = 6603,
+									["overkill"] = 11,
+								}, -- [1]
+								{
+									["source"] = "Blackrock Scout",
+									["amount"] = -30,
+									["school"] = 1,
+									["hp"] = 20,
+									["spellid"] = 6660,
+									["time"] = 8033.611000000001,
+								}, -- [2]
+								{
+									["source"] = "Gath'Ilzogg",
+									["amount"] = -68,
+									["school"] = 1,
+									["hp"] = 118,
+									["spellid"] = 6603,
+									["time"] = 8033.278,
+								}, -- [3]
+								{
+									["source"] = "Blackrock Outrunner",
+									["amount"] = -32,
+									["school"] = 1,
+									["hp"] = 150,
+									["spellid"] = 6603,
+									["time"] = 8032.954,
+								}, -- [4]
+								{
+									["source"] = "Blackrock Scout",
+									["amount"] = -32,
+									["school"] = 1,
+									["hp"] = 150,
+									["spellid"] = 6660,
+									["time"] = 8031.405000000001,
+								}, -- [5]
+								{
+									["source"] = "Blackrock Outrunner",
+									["amount"] = -22,
+									["school"] = 1,
+									["hp"] = 204,
+									["spellid"] = 6603,
+									["time"] = 8031.023,
+								}, -- [6]
+								{
+									["source"] = "Blackrock Outrunner",
+									["amount"] = -22,
+									["school"] = 1,
+									["hp"] = 226,
+									["spellid"] = 6603,
+									["time"] = 8028.974,
+								}, -- [7]
+								{
+									["time"] = 8028.801,
+									["source"] = "Blackrock Scout",
+									["amount"] = -26,
+									["school"] = 1,
+									["hp"] = 226,
+									["spellid"] = 6660,
+								}, -- [8]
+								{
+									["source"] = "Blackrock Outrunner",
+									["amount"] = -23,
+									["school"] = 1,
+									["hp"] = 275,
+									["spellid"] = 6603,
+									["time"] = 8026.985000000001,
+								}, -- [9]
+								{
+									["source"] = "Blackrock Scout",
+									["amount"] = -29,
+									["school"] = 1,
+									["hp"] = 275,
+									["spellid"] = 6660,
+									["time"] = 8026.477000000001,
+								}, -- [10]
+								{
+									["source"] = "Blackrock Outrunner",
+									["amount"] = -24,
+									["school"] = 1,
+									["hp"] = 328,
+									["spellid"] = 6603,
+									["time"] = 8025.02,
+								}, -- [11]
+								{
+									["source"] = "Blackrock Scout",
+									["amount"] = -31,
+									["school"] = 1,
+									["hp"] = 328,
+									["spellid"] = 6660,
+									["time"] = 8023.862,
+								}, -- [12]
+								{
+									["source"] = "Blackrock Outrunner",
+									["amount"] = -19,
+									["school"] = 1,
+									["hp"] = 378,
+									["spellid"] = 6603,
+									["time"] = 8023.013,
+								}, -- [13]
+								{
+									["source"] = "Blackrock Scout",
+									["amount"] = -28,
+									["school"] = 1,
+									["hp"] = 378,
+									["spellid"] = 6660,
+									["time"] = 8021.764,
+								}, -- [14]
+							},
+							["time"] = 8035.034000000001,
+							["timeod"] = 1689882371,
+							["school"] = 1,
+							["maxhp"] = 757,
+							["spellid"] = 6603,
+							["source"] = "Blackrock Outrunner",
+						}, -- [1]
+					},
+					["id"] = "0x07000000009762D4",
+					["spec"] = 266,
+					["healspells"] = {
+						[54181] = {
+							["overheal"] = 23,
+							["count"] = 30,
+							["amount"] = 115,
+							["school"] = 2,
+							["min"] = 1,
+							["targets"] = {
+								["Graz'kath"] = {
+									["overheal"] = 23,
+									["amount"] = 115,
+								},
+							},
+							["max"] = 16,
+						},
+						[3698] = {
+							["overheal"] = 64,
+							["max"] = 46,
+							["targets"] = {
+								["Graz'kath"] = {
+									["overheal"] = 64,
+									["amount"] = 488,
+								},
+							},
+							["min"] = 28,
+							["casts"] = 2,
+							["count"] = 12,
+							["amount"] = 488,
+							["school"] = 32,
+							["ishot"] = true,
+						},
+					},
+					["damagetakenspells"] = {
+						["Shoot"] = {
+							["hitmin"] = 26,
+							["id"] = 6660,
+							["sources"] = {
+								["Blackrock Scout"] = {
+									["amount"] = 264,
+								},
+							},
+							["count"] = 9,
+							["hit"] = 9,
+							["school"] = 1,
+							["hitmax"] = 33,
+							["amount"] = 264,
+							["hitamount"] = 264,
+						},
+						["Melee"] = {
+							["hitmin"] = 19,
+							["id"] = 6603,
+							["overkill"] = 11,
+							["sources"] = {
+								["Gath'Ilzogg"] = {
+									["amount"] = 68,
+								},
+								["Blackrock Outrunner"] = {
+									["overkill"] = 11,
+									["amount"] = 276,
+								},
+							},
+							["count"] = 13,
+							["hit"] = 13,
+							["school"] = 1,
+							["hitmax"] = 68,
+							["amount"] = 344,
+							["hitamount"] = 344,
+						},
+						["Throw"] = {
+							["total"] = 35,
+							["count"] = 1,
+							["amount"] = 0,
+							["school"] = 1,
+							["sources"] = {
+								["Blackrock Hunter"] = {
+									["total"] = 35,
+									["amount"] = 0,
+								},
+							},
+							["ABSORB"] = 1,
+							["id"] = 10277,
+						},
+					},
+					["heal"] = 603,
+					["name"] = "Tapatapa",
+					["death"] = 1,
+					["overheal"] = 87,
+					["totaldamage"] = 1962,
+					["role"] = "DAMAGER",
+				}, -- [2]
+				{
+					["absorb"] = 35,
+					["id"] = "0xF140423436000948",
+					["class"] = "UNKNOWN",
+					["absorbspells"] = {
+						[7812] = {
+							["min"] = 35,
+							["casts"] = 1,
+							["count"] = 1,
+							["amount"] = 35,
+							["max"] = 35,
+							["targets"] = {
+								["Tapatapa"] = 35,
+							},
+						},
+					},
+					["name"] = "Graz'kath",
+					["last"] = 7908.311000000001,
+					["time"] = 0,
+				}, -- [3]
+			},
+			["type"] = "group",
+			["damagetaken"] = 2017,
+			["potion"] = 1,
+			["absorb"] = 35,
+			["etotaldamage"] = 2052,
+			["edamagetaken"] = 2284,
+			["heal"] = 1401,
+			["name"] = "Blackrock Hunter",
+			["mobname"] = "Blackrock Hunter",
+			["starttime"] = 1689882243,
+			["edamage"] = 2017,
+			["last_action"] = 1689882371,
+			["endtime"] = 1689882372,
+		}, -- [1]
+		{
+			["enemies"] = {
+				{
+					["id"] = "0xF130000FE100BB67",
+					["name"] = "Blackrock Sentry",
+					["totaldamagetaken"] = 491,
+					["flag"] = 134285896,
+					["class"] = "MONSTER",
+					["damagetaken"] = 491,
+					["damagetakenspells"] = {
+						[6603] = {
+							["school"] = 1,
+							["sources"] = {
+								["Tapatapa"] = {
 									["amount"] = 45,
 								},
 							},
+							["amount"] = 45,
+						},
+						[3140] = {
+							["school"] = 4,
+							["sources"] = {
+								["Sculamare"] = {
+									["overkill"] = 66,
+									["amount"] = 424,
+								},
+							},
+							["overkill"] = 66,
+							["amount"] = 424,
+						},
+						[1120] = {
+							["school"] = 32,
+							["sources"] = {
+								["Tapatapa"] = {
+									["amount"] = 22,
+								},
+							},
+							["amount"] = 22,
+						},
+					},
+				}, -- [1]
+			},
+			["totaldamage"] = 491,
+			["time"] = 7,
+			["etotaldamagetaken"] = 491,
+			["last_time"] = 7844.128000000001,
+			["players"] = {
+				{
+					["damagespells"] = {
+						["Fireball"] = {
+							["hitmin"] = 125,
+							["id"] = 3140,
+							["targets"] = {
+								["Blackrock Sentry"] = {
+									["overkill"] = 66,
+									["amount"] = 424,
+								},
+							},
+							["overkill"] = 66,
+							["casts"] = 2,
 							["count"] = 3,
 							["hit"] = 3,
 							["school"] = 4,
-							["hitmax"] = 15,
+							["hitmax"] = 151,
+							["amount"] = 424,
+							["hitamount"] = 424,
+						},
+					},
+					["last"] = 7844.112,
+					["class"] = "MAGE",
+					["id"] = "0x0700000000976299",
+					["spec"] = 63,
+					["overkill"] = 66,
+					["auras"] = {
+						[1460] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 7,
+						},
+						[7301] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 7,
+						},
+						[28878] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 7,
+						},
+						[3166] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 7,
+						},
+						[604] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 7,
+						},
+						[7844] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 7,
+						},
+					},
+					["totaldamage"] = 424,
+					["role"] = "DAMAGER",
+					["name"] = "Sculamare",
+					["flag"] = 1297,
+					["time"] = 5.41,
+					["damage"] = 424,
+				}, -- [1]
+				{
+					["last"] = 7840.504,
+					["flag"] = 1298,
+					["class"] = "WARLOCK",
+					["auras"] = {
+						[1120] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 3,
+						},
+						[1460] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 7,
+						},
+						[28878] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 7,
+						},
+						[706] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 7,
+						},
+						[604] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 7,
+						},
+						[19708] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 7,
+						},
+					},
+					["time"] = 1.81,
+					["damage"] = 67,
+					["damagespells"] = {
+						["Melee (Graz'kath)"] = {
+							["hitmin"] = 14,
+							["id"] = 6603,
+							["targets"] = {
+								["Blackrock Sentry"] = {
+									["amount"] = 45,
+								},
+							},
+							["blocked"] = 10,
+							["count"] = 2,
+							["hit"] = 2,
+							["school"] = 1,
+							["hitmax"] = 31,
 							["amount"] = 45,
 							["hitamount"] = 45,
 						},
-						["Ignite (DoT)"] = {
-							["hitmin"] = 57,
-							["id"] = 12654,
+						["Drain Soul (DoT)"] = {
+							["hitmin"] = 22,
+							["id"] = 1120,
 							["targets"] = {
-								["Blackrock Outrunner"] = {
-									["amount"] = 57,
+								["Blackrock Sentry"] = {
+									["amount"] = 22,
 								},
 							},
 							["count"] = 1,
 							["hit"] = 1,
-							["school"] = 4,
-							["hitmax"] = 57,
-							["amount"] = 57,
-							["hitamount"] = 57,
+							["school"] = 32,
+							["hitmax"] = 22,
+							["amount"] = 22,
+							["hitamount"] = 22,
 						},
-						["Frost Nova"] = {
-							["hitmin"] = 23,
-							["id"] = 122,
+					},
+					["id"] = "0x07000000009762D4",
+					["spec"] = 266,
+					["healspells"] = {
+						[54181] = {
+							["overheal"] = 0,
+							["count"] = 1,
+							["amount"] = 3,
+							["school"] = 2,
+							["max"] = 3,
 							["targets"] = {
-								["Blackrock Outrunner"] = {
-									["amount"] = 46,
+								["Graz'kath"] = {
+									["overheal"] = 0,
+									["amount"] = 3,
 								},
 							},
-							["casts"] = 1,
-							["count"] = 2,
-							["hit"] = 2,
-							["school"] = 16,
-							["hitmax"] = 23,
-							["amount"] = 46,
-							["hitamount"] = 46,
+							["min"] = 3,
 						},
 					},
-					["damagetaken"] = 187,
-					["id"] = "0x0700000000976299",
-					["spec"] = 63,
-					["damagetakenspells"] = {
-						["Melee"] = {
-							["hitmin"] = 22,
-							["criticalamount"] = 54,
-							["id"] = 6603,
-							["criticalmin"] = 54,
-							["critical"] = 1,
-							["hit"] = 5,
-							["sources"] = {
-								["Blackrock Outrunner"] = {
-									["amount"] = 187,
-								},
-							},
-							["count"] = 6,
-							["amount"] = 187,
-							["school"] = 1,
-							["hitmax"] = 30,
-							["criticalmax"] = 54,
-							["hitamount"] = 133,
-						},
-					},
-					["name"] = "Sculamare",
-					["ccdone"] = 3,
-					["totaldamage"] = 1622,
-					["overkill"] = 79,
-				}, -- [1]
+					["heal"] = 3,
+					["name"] = "Tapatapa",
+					["overheal"] = 0,
+					["totaldamage"] = 67,
+					["role"] = "DAMAGER",
+				}, -- [2]
 			},
-			["type"] = "none",
-			["damagetaken"] = 187,
-			["damage"] = 1622,
-			["etotaldamage"] = 187,
-			["overkill"] = 79,
-			["edamagetaken"] = 1622,
-			["mobname"] = "Blackrock Outrunner",
-			["name"] = "Blackrock Outrunner",
-			["ccdone"] = 3,
-			["starttime"] = 1689835024,
-			["edamage"] = 187,
-			["last_action"] = 1689835065,
-			["endtime"] = 1689835066,
+			["type"] = "group",
+			["damage"] = 491,
+			["overheal"] = 0,
+			["overkill"] = 66,
+			["edamagetaken"] = 491,
+			["heal"] = 3,
+			["name"] = "Blackrock Sentry (9)",
+			["mobname"] = "Blackrock Sentry",
+			["starttime"] = 1689882174,
+			["last_action"] = 1689882180,
+			["endtime"] = 1689882181,
 		}, -- [2]
 		{
 			["enemies"] = {
@@ -421,198 +1388,144 @@ SkadaStorageDB = {
 							["school"] = 1,
 							["targets"] = {
 								["Sculamare"] = {
-									["amount"] = 71,
-								},
-							},
-							["amount"] = 71,
-						},
-					},
-					["damagetaken"] = 1008,
-					["flag"] = 68168,
-					["class"] = "MONSTER",
-					["damagetakenspells"] = {
-						[11366] = {
-							["school"] = 4,
-							["sources"] = {
-								["Sculamare"] = {
-									["amount"] = 415,
-								},
-							},
-							["amount"] = 415,
-						},
-						[3140] = {
-							["school"] = 4,
-							["sources"] = {
-								["Sculamare"] = {
-									["amount"] = 454,
-									["overkill"] = 75,
-								},
-							},
-							["amount"] = 454,
-							["overkill"] = 75,
-						},
-						[2138] = {
-							["school"] = 4,
-							["sources"] = {
-								["Sculamare"] = {
-									["amount"] = 111,
-								},
-							},
-							["amount"] = 111,
-						},
-						[5019] = {
-							["school"] = 1,
-							["sources"] = {
-								["Sculamare"] = {
 									["amount"] = 28,
 								},
 							},
 							["amount"] = 28,
 						},
 					},
-					["totaldamage"] = 71,
-					["name"] = "Blackrock Grunt",
-					["totaldamagetaken"] = 1008,
-					["id"] = "0xF1300001B814D64F",
-					["damage"] = 71,
-				}, -- [1]
-			},
-			["totaldamage"] = 1008,
-			["time"] = 31,
-			["totaldamagetaken"] = 71,
-			["etotaldamagetaken"] = 1008,
-			["last_time"] = 1147.531,
-			["players"] = {
-				{
-					["ccdonespells"] = {
-						[12824] = {
-							["count"] = 1,
-							["targets"] = {
-								["Blackrock Grunt"] = 1,
+					["damagetaken"] = 616,
+					["flag"] = 134285896,
+					["class"] = "MONSTER",
+					["damagetakenspells"] = {
+						[6603] = {
+							["school"] = 1,
+							["sources"] = {
+								["Tapatapa"] = {
+									["amount"] = 86,
+								},
 							},
+							["amount"] = 86,
+						},
+						[3140] = {
+							["school"] = 4,
+							["sources"] = {
+								["Sculamare"] = {
+									["overkill"] = 54,
+									["amount"] = 406,
+								},
+							},
+							["overkill"] = 54,
+							["amount"] = 406,
+						},
+						[1088] = {
+							["school"] = 32,
+							["sources"] = {
+								["Tapatapa"] = {
+									["amount"] = 124,
+								},
+							},
+							["amount"] = 124,
 						},
 					},
-					["last"] = 1147.232,
+					["name"] = "Blackrock Sentry",
+					["totaldamage"] = 28,
+					["totaldamagetaken"] = 616,
+					["id"] = "0xF130000FE100BB1B",
+					["damage"] = 28,
+				}, -- [1]
+			},
+			["totaldamage"] = 616,
+			["time"] = 7,
+			["damage"] = 616,
+			["totaldamagetaken"] = 28,
+			["etotaldamagetaken"] = 616,
+			["last_time"] = 7830.362,
+			["players"] = {
+				{
+					["last"] = 7829.096000000001,
 					["flag"] = 1297,
 					["class"] = "MAGE",
 					["auras"] = {
-						[11366] = {
+						[1460] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 7,
+						},
+						[6136] = {
 							["type"] = "DEBUFF",
-							["count"] = 2,
-							["school"] = 4,
+							["count"] = 1,
+							["school"] = 16,
 							["targets"] = {
-								["Blackrock Grunt"] = {
-									["uptime"] = 15,
-									["count"] = 2,
+								["Blackrock Sentry"] = {
+									["uptime"] = 3,
+									["count"] = 1,
 								},
 							},
-							["uptime"] = 15,
+							["uptime"] = 3,
 						},
 						[7301] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 31,
+							["uptime"] = 7,
 						},
 						[28878] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 31,
-						},
-						[6136] = {
-							["type"] = "DEBUFF",
 							["uptime"] = 7,
-							["school"] = 16,
-							["refresh"] = 1,
-							["targets"] = {
-								["Blackrock Grunt"] = {
-									["refresh"] = 1,
-									["count"] = 2,
-									["uptime"] = 7,
-								},
-							},
-							["count"] = 2,
 						},
-						[1460] = {
+						[3166] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 31,
+							["uptime"] = 7,
 						},
-						[12824] = {
-							["type"] = "DEBUFF",
+						[604] = {
+							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 64,
-							["targets"] = {
-								["Blackrock Grunt"] = {
-									["uptime"] = 16,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 16,
+							["uptime"] = 7,
+						},
+						[7844] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 7,
 						},
 					},
 					["role"] = "DAMAGER",
-					["time"] = 19.42,
-					["totaldamagetaken"] = 71,
-					["damage"] = 1008,
+					["time"] = 5.03,
+					["totaldamagetaken"] = 28,
+					["damage"] = 406,
 					["damagespells"] = {
 						["Fireball"] = {
-							["hitmin"] = 105,
+							["hitmin"] = 122,
 							["id"] = 3140,
 							["targets"] = {
-								["Blackrock Grunt"] = {
-									["amount"] = 454,
-									["overkill"] = 75,
+								["Blackrock Sentry"] = {
+									["overkill"] = 54,
+									["amount"] = 406,
 								},
 							},
-							["overkill"] = 75,
-							["casts"] = 4,
-							["count"] = 4,
-							["hit"] = 4,
-							["school"] = 4,
-							["hitmax"] = 135,
-							["amount"] = 454,
-							["hitamount"] = 454,
-						},
-						["Pyroblast"] = {
-							["hitmin"] = 176,
-							["id"] = 11366,
-							["targets"] = {
-								["Blackrock Grunt"] = {
-									["amount"] = 355,
-								},
-							},
+							["overkill"] = 54,
 							["casts"] = 2,
-							["count"] = 2,
-							["hit"] = 2,
+							["count"] = 3,
+							["hit"] = 3,
 							["school"] = 4,
-							["hitmax"] = 179,
-							["amount"] = 355,
-							["hitamount"] = 355,
+							["hitmax"] = 143,
+							["amount"] = 406,
+							["hitamount"] = 406,
 						},
-						["Pyroblast (DoT)"] = {
-							["hitmin"] = 15,
-							["id"] = 11366,
-							["targets"] = {
-								["Blackrock Grunt"] = {
-									["amount"] = 60,
-								},
-							},
-							["count"] = 4,
-							["hit"] = 4,
-							["school"] = 4,
-							["hitmax"] = 15,
-							["amount"] = 60,
-							["hitamount"] = 60,
-						},
-						["Shoot"] = {
+					},
+					["damagetaken"] = 28,
+					["id"] = "0x0700000000976299",
+					["spec"] = 63,
+					["damagetakenspells"] = {
+						["Melee"] = {
 							["hitmin"] = 28,
-							["id"] = 5019,
-							["targets"] = {
-								["Blackrock Grunt"] = {
+							["id"] = 6603,
+							["sources"] = {
+								["Blackrock Sentry"] = {
 									["amount"] = 28,
 								},
 							},
-							["casts"] = 1,
 							["count"] = 1,
 							["hit"] = 1,
 							["school"] = 1,
@@ -620,1821 +1533,800 @@ SkadaStorageDB = {
 							["amount"] = 28,
 							["hitamount"] = 28,
 						},
-						["Fire Blast"] = {
-							["hitmin"] = 111,
-							["id"] = 2138,
+					},
+					["name"] = "Sculamare",
+					["overkill"] = 54,
+					["totaldamage"] = 406,
+				}, -- [1]
+				{
+					["last"] = 7827.72,
+					["flag"] = 4370,
+					["class"] = "WARLOCK",
+					["auras"] = {
+						[1120] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 32,
 							["targets"] = {
-								["Blackrock Grunt"] = {
-									["amount"] = 111,
+								["Blackrock Sentry"] = {
+									["uptime"] = 2,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 2,
+						},
+						[1460] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 7,
+						},
+						[28878] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 7,
+						},
+						[706] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 7,
+						},
+						[604] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 7,
+						},
+						[19708] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 7,
+						},
+					},
+					["time"] = 3.5,
+					["damage"] = 210,
+					["overheal"] = 1,
+					["id"] = "0x07000000009762D4",
+					["spec"] = 266,
+					["healspells"] = {
+						[54181] = {
+							["overheal"] = 1,
+							["count"] = 1,
+							["amount"] = 17,
+							["school"] = 2,
+							["max"] = 17,
+							["targets"] = {
+								["Graz'kath"] = {
+									["overheal"] = 1,
+									["amount"] = 17,
+								},
+							},
+							["min"] = 17,
+						},
+					},
+					["heal"] = 17,
+					["name"] = "Tapatapa",
+					["damagespells"] = {
+						["Shadow Bolt"] = {
+							["hitmin"] = 124,
+							["id"] = 1088,
+							["targets"] = {
+								["Blackrock Sentry"] = {
+									["amount"] = 124,
 								},
 							},
 							["casts"] = 1,
 							["count"] = 1,
 							["hit"] = 1,
-							["school"] = 4,
-							["hitmax"] = 111,
-							["amount"] = 111,
-							["hitamount"] = 111,
+							["school"] = 32,
+							["hitmax"] = 124,
+							["amount"] = 124,
+							["hitamount"] = 124,
+						},
+						["Melee (Graz'kath)"] = {
+							["glance"] = 55,
+							["hitmin"] = 31,
+							["id"] = 6603,
+							["glancemax"] = 29,
+							["hitmax"] = 31,
+							["glancing"] = 2,
+							["hitamount"] = 31,
+							["count"] = 3,
+							["amount"] = 86,
+							["school"] = 1,
+							["hit"] = 1,
+							["targets"] = {
+								["Blackrock Sentry"] = {
+									["amount"] = 86,
+								},
+							},
+							["glancemin"] = 26,
 						},
 					},
-					["damagetaken"] = 71,
+					["totaldamage"] = 210,
+					["role"] = "DAMAGER",
+				}, -- [2]
+			},
+			["type"] = "group",
+			["damagetaken"] = 28,
+			["etotaldamage"] = 28,
+			["overheal"] = 1,
+			["overkill"] = 54,
+			["edamagetaken"] = 616,
+			["heal"] = 17,
+			["name"] = "Blackrock Sentry (8)",
+			["mobname"] = "Blackrock Sentry",
+			["starttime"] = 1689882160,
+			["edamage"] = 28,
+			["last_action"] = 1689882166,
+			["endtime"] = 1689882167,
+		}, -- [3]
+		{
+			["enemies"] = {
+				{
+					["id"] = "0xF130000FE100BACD",
+					["name"] = "Blackrock Sentry",
+					["totaldamagetaken"] = 632,
+					["flag"] = 134285896,
+					["class"] = "MONSTER",
+					["damagetaken"] = 632,
+					["damagetakenspells"] = {
+						[6603] = {
+							["school"] = 1,
+							["sources"] = {
+								["Tapatapa"] = {
+									["amount"] = 54,
+								},
+								["Graz'kath"] = {
+									["amount"] = 25,
+								},
+							},
+							["amount"] = 79,
+						},
+						[3140] = {
+							["school"] = 4,
+							["sources"] = {
+								["Sculamare"] = {
+									["amount"] = 287,
+								},
+							},
+							["amount"] = 287,
+						},
+						[1088] = {
+							["school"] = 32,
+							["sources"] = {
+								["Tapatapa"] = {
+									["overkill"] = 111,
+									["amount"] = 266,
+								},
+							},
+							["overkill"] = 111,
+							["amount"] = 266,
+						},
+					},
+				}, -- [1]
+			},
+			["totaldamage"] = 632,
+			["time"] = 8,
+			["etotaldamagetaken"] = 632,
+			["last_time"] = 7822.712,
+			["players"] = {
+				{
+					["damagespells"] = {
+						["Fireball"] = {
+							["hitmin"] = 143,
+							["id"] = 3140,
+							["targets"] = {
+								["Blackrock Sentry"] = {
+									["amount"] = 287,
+								},
+							},
+							["casts"] = 2,
+							["count"] = 2,
+							["hit"] = 2,
+							["school"] = 4,
+							["hitmax"] = 144,
+							["amount"] = 287,
+							["hitamount"] = 287,
+						},
+					},
+					["last"] = 7818.604,
 					["id"] = "0x0700000000976299",
 					["spec"] = 63,
-					["damagetakenspells"] = {
-						["Melee"] = {
-							["hitmin"] = 22,
+					["class"] = "MAGE",
+					["auras"] = {
+						[1460] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 8,
+						},
+						[7301] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 8,
+						},
+						[28878] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 8,
+						},
+						[3166] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 8,
+						},
+						[604] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 8,
+						},
+						[7844] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 8,
+						},
+					},
+					["totaldamage"] = 287,
+					["role"] = "DAMAGER",
+					["name"] = "Sculamare",
+					["flag"] = 1297,
+					["time"] = 2.74,
+					["damage"] = 287,
+				}, -- [1]
+				{
+					["last"] = 7822.679,
+					["flag"] = 4370,
+					["class"] = "WARLOCK",
+					["auras"] = {
+						[1460] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 8,
+						},
+						[28878] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 8,
+						},
+						[706] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 8,
+						},
+						[604] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 8,
+						},
+						[19708] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 8,
+						},
+					},
+					["time"] = 6.560000000000001,
+					["damage"] = 345,
+					["overheal"] = 22,
+					["id"] = "0x07000000009762D4",
+					["spec"] = 266,
+					["healspells"] = {
+						[54181] = {
+							["overheal"] = 22,
+							["count"] = 2,
+							["amount"] = 17,
+							["school"] = 2,
+							["max"] = 17,
+							["targets"] = {
+								["Graz'kath"] = {
+									["overheal"] = 22,
+									["amount"] = 17,
+								},
+							},
+							["min"] = 17,
+						},
+					},
+					["overkill"] = 111,
+					["heal"] = 17,
+					["name"] = "Tapatapa",
+					["damagespells"] = {
+						["Shadow Bolt"] = {
+							["hitmin"] = 131,
+							["id"] = 1088,
+							["targets"] = {
+								["Blackrock Sentry"] = {
+									["overkill"] = 111,
+									["amount"] = 266,
+								},
+							},
+							["overkill"] = 111,
+							["casts"] = 2,
+							["count"] = 2,
+							["hit"] = 2,
+							["school"] = 32,
+							["hitmax"] = 135,
+							["amount"] = 266,
+							["hitamount"] = 266,
+						},
+						["Melee (Graz'kath)"] = {
+							["hitmin"] = 25,
 							["id"] = 6603,
-							["sources"] = {
-								["Blackrock Grunt"] = {
-									["amount"] = 71,
+							["targets"] = {
+								["Blackrock Sentry"] = {
+									["amount"] = 79,
 								},
 							},
 							["count"] = 3,
 							["hit"] = 3,
 							["school"] = 1,
-							["hitmax"] = 26,
-							["amount"] = 71,
-							["hitamount"] = 71,
+							["hitmax"] = 29,
+							["amount"] = 79,
+							["hitamount"] = 79,
 						},
 					},
-					["name"] = "Sculamare",
-					["ccdone"] = 1,
-					["totaldamage"] = 1008,
-					["overkill"] = 75,
-				}, -- [1]
+					["totaldamage"] = 345,
+					["role"] = "DAMAGER",
+				}, -- [2]
 			},
-			["type"] = "none",
-			["damagetaken"] = 71,
-			["damage"] = 1008,
-			["etotaldamage"] = 71,
-			["overkill"] = 75,
-			["edamagetaken"] = 1008,
-			["mobname"] = "Blackrock Grunt",
-			["name"] = "Blackrock Grunt",
-			["ccdone"] = 1,
-			["starttime"] = 1689834982,
-			["edamage"] = 71,
-			["last_action"] = 1689835011,
-			["endtime"] = 1689835013,
-		}, -- [3]
+			["type"] = "group",
+			["damage"] = 632,
+			["overheal"] = 22,
+			["overkill"] = 111,
+			["edamagetaken"] = 632,
+			["heal"] = 17,
+			["name"] = "Blackrock Sentry (7)",
+			["mobname"] = "Blackrock Sentry",
+			["starttime"] = 1689882152,
+			["last_action"] = 1689882159,
+			["endtime"] = 1689882160,
+		}, -- [4]
 		{
 			["enemies"] = {
 				{
 					["damagespells"] = {
-						[6603] = {
-							["school"] = 1,
+						[9613] = {
+							["school"] = 32,
 							["targets"] = {
+								["Tapatapa"] = {
+									["amount"] = 70,
+								},
 								["Sculamare"] = {
-									["amount"] = 78,
+									["amount"] = 281,
 								},
 							},
-							["amount"] = 78,
+							["amount"] = 351,
+						},
+						[11639] = {
+							["school"] = 32,
+							["targets"] = {
+								["Tapatapa"] = {
+									["amount"] = 50,
+								},
+							},
+							["amount"] = 50,
 						},
 					},
-					["damagetaken"] = 312,
-					["flag"] = 2632,
+					["damagetaken"] = 954,
+					["flag"] = 134285896,
 					["class"] = "MONSTER",
 					["damagetakenspells"] = {
-						[42208] = {
-							["school"] = 16,
+						[1088] = {
+							["school"] = 32,
 							["sources"] = {
-								["Sculamare"] = {
-									["amount"] = 312,
+								["Tapatapa"] = {
+									["overkill"] = 100,
+									["amount"] = 131,
 								},
 							},
-							["amount"] = 312,
+							["overkill"] = 100,
+							["amount"] = 131,
+						},
+						[3140] = {
+							["school"] = 4,
+							["sources"] = {
+								["Sculamare"] = {
+									["amount"] = 657,
+								},
+							},
+							["amount"] = 657,
+						},
+						[1120] = {
+							["school"] = 32,
+							["sources"] = {
+								["Tapatapa"] = {
+									["amount"] = 166,
+								},
+							},
+							["amount"] = 166,
 						},
 					},
-					["totaldamage"] = 78,
-					["name"] = "Redridge Mongrel",
-					["totaldamagetaken"] = 312,
-					["id"] = "0xF1300001A712E49B",
-					["damage"] = 78,
+					["name"] = "Blackrock Shadowcaster",
+					["totaldamage"] = 401,
+					["totaldamagetaken"] = 954,
+					["id"] = "0xF1300001B400166E",
+					["damage"] = 401,
 				}, -- [1]
+			},
+			["totaldamage"] = 954,
+			["time"] = 40,
+			["totaldamagetaken"] = 401,
+			["etotaldamagetaken"] = 954,
+			["last_time"] = 7788.195,
+			["players"] = {
+				{
+					["ccdonespells"] = {
+						[12824] = {
+							["count"] = 4,
+							["targets"] = {
+								["Blackrock Shadowcaster"] = 4,
+							},
+						},
+					},
+					["last"] = 7786.612,
+					["flag"] = 1297,
+					["class"] = "MAGE",
+					["auras"] = {
+						[1460] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 40,
+						},
+						[12824] = {
+							["type"] = "DEBUFF",
+							["count"] = 4,
+							["school"] = 64,
+							["targets"] = {
+								["Blackrock Shadowcaster"] = {
+									["uptime"] = 9,
+									["count"] = 4,
+								},
+							},
+							["uptime"] = 9,
+						},
+						[7301] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 40,
+						},
+						[28878] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 40,
+						},
+						[3166] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 40,
+						},
+						[604] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 40,
+						},
+						[7844] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 40,
+						},
+					},
+					["role"] = "DAMAGER",
+					["time"] = 12.62,
+					["totaldamagetaken"] = 281,
+					["damage"] = 657,
+					["damagespells"] = {
+						["Fireball"] = {
+							["hitmin"] = 114,
+							["id"] = 3140,
+							["targets"] = {
+								["Blackrock Shadowcaster"] = {
+									["amount"] = 657,
+								},
+							},
+							["hitmax"] = 150,
+							["casts"] = 4,
+							["count"] = 5,
+							["hit"] = 5,
+							["school"] = 4,
+							["resisted"] = 12,
+							["amount"] = 657,
+							["hitamount"] = 657,
+						},
+					},
+					["damagetaken"] = 281,
+					["id"] = "0x0700000000976299",
+					["spec"] = 63,
+					["damagetakenspells"] = {
+						["Shadow Bolt"] = {
+							["hitmin"] = 62,
+							["id"] = 9613,
+							["sources"] = {
+								["Blackrock Shadowcaster"] = {
+									["amount"] = 281,
+								},
+							},
+							["count"] = 4,
+							["hit"] = 4,
+							["school"] = 32,
+							["hitmax"] = 82,
+							["amount"] = 281,
+							["hitamount"] = 281,
+						},
+					},
+					["name"] = "Sculamare",
+					["ccdone"] = 4,
+					["totaldamage"] = 657,
+				}, -- [1]
+				{
+					["last"] = 7787.129,
+					["flag"] = 1298,
+					["class"] = "WARLOCK",
+					["auras"] = {
+						[1120] = {
+							["type"] = "BUFF",
+							["count"] = 8,
+							["school"] = 32,
+							["refresh"] = 2,
+							["targets"] = {
+								["Blackrock Shadowcaster"] = {
+									["count"] = 4,
+									["refresh"] = 1,
+									["uptime"] = 27,
+								},
+							},
+							["uptime"] = 27,
+						},
+						[1460] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 40,
+						},
+						[28878] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 40,
+						},
+						[706] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 40,
+						},
+						[604] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 40,
+						},
+						[19708] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 40,
+						},
+					},
+					["role"] = "DAMAGER",
+					["time"] = 28.85,
+					["totaldamagetaken"] = 120,
+					["damage"] = 297,
+					["damagespells"] = {
+						["Shadow Bolt"] = {
+							["hitmin"] = 131,
+							["id"] = 1088,
+							["targets"] = {
+								["Blackrock Shadowcaster"] = {
+									["overkill"] = 100,
+									["amount"] = 131,
+								},
+							},
+							["overkill"] = 100,
+							["casts"] = 1,
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 32,
+							["hitmax"] = 131,
+							["amount"] = 131,
+							["hitamount"] = 131,
+						},
+						["Drain Soul (DoT)"] = {
+							["hitmin"] = 18,
+							["id"] = 1120,
+							["targets"] = {
+								["Blackrock Shadowcaster"] = {
+									["amount"] = 166,
+								},
+							},
+							["hitmax"] = 22,
+							["casts"] = 4,
+							["count"] = 8,
+							["hit"] = 8,
+							["school"] = 32,
+							["resisted"] = 8,
+							["amount"] = 166,
+							["hitamount"] = 166,
+						},
+					},
+					["damagetaken"] = 120,
+					["id"] = "0x07000000009762D4",
+					["spec"] = 266,
+					["damagetakenspells"] = {
+						["Shadow Word: Pain (DoT)"] = {
+							["hitmin"] = 25,
+							["id"] = 11639,
+							["sources"] = {
+								["Blackrock Shadowcaster"] = {
+									["amount"] = 50,
+								},
+							},
+							["count"] = 2,
+							["hit"] = 2,
+							["school"] = 32,
+							["hitmax"] = 25,
+							["amount"] = 50,
+							["hitamount"] = 50,
+						},
+						["Shadow Bolt"] = {
+							["hitmin"] = 70,
+							["id"] = 9613,
+							["sources"] = {
+								["Blackrock Shadowcaster"] = {
+									["amount"] = 70,
+								},
+							},
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 32,
+							["hitmax"] = 70,
+							["amount"] = 70,
+							["hitamount"] = 70,
+						},
+					},
+					["name"] = "Tapatapa",
+					["overkill"] = 100,
+					["totaldamage"] = 297,
+				}, -- [2]
+			},
+			["type"] = "group",
+			["damagetaken"] = 401,
+			["damage"] = 954,
+			["etotaldamage"] = 401,
+			["ccdone"] = 4,
+			["overkill"] = 100,
+			["edamagetaken"] = 954,
+			["name"] = "Blackrock Shadowcaster",
+			["mobname"] = "Blackrock Shadowcaster",
+			["starttime"] = 1689882085,
+			["edamage"] = 401,
+			["last_action"] = 1689882124,
+			["endtime"] = 1689882125,
+		}, -- [5]
+		{
+			["enemies"] = {
 				{
 					["damagespells"] = {
 						[6660] = {
 							["school"] = 1,
 							["targets"] = {
 								["Sculamare"] = {
-									["amount"] = 321,
+									["amount"] = 37,
 								},
 							},
-							["amount"] = 321,
+							["amount"] = 37,
 						},
 					},
-					["damagetaken"] = 485,
-					["flag"] = 2632,
-					["class"] = "MONSTER",
-					["damagetakenspells"] = {
-						[42208] = {
-							["school"] = 16,
-							["sources"] = {
-								["Sculamare"] = {
-									["amount"] = 485,
-								},
-							},
-							["amount"] = 485,
-						},
-					},
-					["totaldamage"] = 321,
-					["name"] = "Redridge Poacher",
-					["totaldamagetaken"] = 485,
-					["id"] = "0xF1300001A812E4FC",
-					["damage"] = 321,
-				}, -- [2]
-				{
-					["damagespells"] = {
-						[6603] = {
-							["school"] = 1,
-							["targets"] = {
-								["Sculamare"] = {
-									["amount"] = 77,
-								},
-							},
-							["amount"] = 77,
-						},
-					},
-					["totaldamage"] = 77,
-					["name"] = "Redridge Thrasher",
-					["flag"] = 2632,
-					["class"] = "MONSTER",
-					["id"] = "0xF1300002C812D9EC",
-					["damage"] = 77,
-				}, -- [3]
-			},
-			["totaldamage"] = 797,
-			["time"] = 33,
-			["totaldamagetaken"] = 476,
-			["etotaldamagetaken"] = 797,
-			["damage"] = 797,
-			["players"] = {
-				{
-					["last"] = 11345.622,
-					["flag"] = 1297,
-					["class"] = "MAGE",
-					["auras"] = {
-						[10] = {
-							["type"] = "BUFF",
-							["count"] = 9,
-							["school"] = 16,
-							["targets"] = {
-								["Redridge Mongrel"] = {
-									["uptime"] = 7,
-									["count"] = 4,
-								},
-								["Redridge Poacher"] = {
-									["uptime"] = 8,
-									["count"] = 3,
-								},
-							},
-							["uptime"] = 8,
-						},
-						[1953] = {
-							["school"] = 64,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 1,
-						},
-						[7301] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 33,
-						},
-						[28878] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 33,
-						},
-						[6136] = {
-							["type"] = "DEBUFF",
-							["count"] = 4,
-							["school"] = 16,
-							["refresh"] = 7,
-							["targets"] = {
-								["Redridge Mongrel"] = {
-									["refresh"] = 3,
-									["count"] = 2,
-									["uptime"] = 9,
-								},
-								["Redridge Thrasher"] = {
-									["refresh"] = 4,
-									["count"] = 2,
-									["uptime"] = 27,
-								},
-							},
-							["uptime"] = 27,
-						},
-						[59548] = {
-							["school"] = 2,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 15,
-						},
-						[35711] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 33,
-						},
-					},
-					["role"] = "DAMAGER",
-					["time"] = 13,
-					["totaldamagetaken"] = 476,
-					["damage"] = 797,
-					["damagespells"] = {
-						["Blizzard"] = {
-							["hitmin"] = 38,
-							["criticalamount"] = 59,
-							["id"] = 42208,
-							["criticalmin"] = 59,
-							["targets"] = {
-								["Redridge Mongrel"] = {
-									["amount"] = 312,
-								},
-								["Redridge Poacher"] = {
-									["amount"] = 485,
-								},
-							},
-							["criticalmax"] = 59,
-							["hitmax"] = 39,
-							["casts"] = 2,
-							["critical"] = 1,
-							["hit"] = 19,
-							["school"] = 16,
-							["amount"] = 797,
-							["count"] = 20,
-							["hitamount"] = 738,
-						},
-					},
-					["damagetaken"] = 476,
-					["id"] = "0x0700000000976299",
-					["spec"] = 64,
-					["healspells"] = {
-						[441] = {
-							["overheal"] = 0,
-							["count"] = 1,
-							["amount"] = 324,
-							["school"] = 1,
-							["max"] = 324,
-							["targets"] = {
-								["Sculamare"] = {
-									["overheal"] = 0,
-									["amount"] = 324,
-								},
-							},
-							["min"] = 324,
-						},
-						[59548] = {
-							["overheal"] = 234,
-							["school"] = 2,
-							["count"] = 5,
-							["amount"] = 166,
-							["max"] = 80,
-							["targets"] = {
-								["Sculamare"] = {
-									["overheal"] = 234,
-									["amount"] = 166,
-								},
-							},
-							["ishot"] = true,
-							["min"] = 16,
-						},
-					},
-					["damagetakenspells"] = {
-						["Shoot"] = {
-							["hitmin"] = 22,
-							["id"] = 6660,
-							["sources"] = {
-								["Redridge Poacher"] = {
-									["amount"] = 321,
-								},
-							},
-							["count"] = 12,
-							["hit"] = 12,
-							["school"] = 1,
-							["hitmax"] = 32,
-							["amount"] = 321,
-							["hitamount"] = 321,
-						},
-						["Melee"] = {
-							["hitmin"] = 14,
-							["id"] = 6603,
-							["amount"] = 155,
-							["sources"] = {
-								["Redridge Mongrel"] = {
-									["amount"] = 78,
-								},
-								["Redridge Thrasher"] = {
-									["amount"] = 77,
-								},
-							},
-							["count"] = 11,
-							["hit"] = 10,
-							["school"] = 1,
-							["hitmax"] = 18,
-							["MISS"] = 1,
-							["hitamount"] = 155,
-						},
-					},
-					["potionspells"] = {
-						[929] = 1,
-					},
-					["heal"] = 490,
-					["name"] = "Sculamare",
-					["overheal"] = 234,
-					["potion"] = 1,
-					["totaldamage"] = 797,
-				}, -- [1]
-			},
-			["type"] = "group",
-			["damagetaken"] = 476,
-			["last_time"] = 11364.532,
-			["overheal"] = 234,
-			["etotaldamage"] = 476,
-			["potion"] = 1,
-			["edamagetaken"] = 797,
-			["heal"] = 490,
-			["name"] = "Redridge Thrasher",
-			["mobname"] = "Redridge Thrasher",
-			["starttime"] = 1689804986,
-			["edamage"] = 476,
-			["last_action"] = 1689805018,
-			["endtime"] = 1689805019,
-		}, -- [4]
-		{
-			["enemies"] = {
-				{
-					["damagespells"] = {
-						[6603] = {
-							["school"] = 1,
-							["targets"] = {
-								["Sculamare"] = {
-									["amount"] = 73,
-								},
-							},
-							["amount"] = 73,
-						},
-					},
-					["damagetaken"] = 351,
-					["flag"] = 68168,
-					["class"] = "MONSTER",
-					["damagetakenspells"] = {
-						[42208] = {
-							["school"] = 16,
-							["sources"] = {
-								["Sculamare"] = {
-									["overkill"] = 34,
-									["amount"] = 351,
-								},
-							},
-							["overkill"] = 34,
-							["amount"] = 351,
-						},
-					},
-					["totaldamage"] = 73,
-					["name"] = "Tarantula",
-					["totaldamagetaken"] = 351,
-					["id"] = "0xF1300001BA12E749",
-					["damage"] = 73,
-				}, -- [1]
-			},
-			["totaldamage"] = 351,
-			["time"] = 17,
-			["totaldamagetaken"] = 73,
-			["etotaldamagetaken"] = 351,
-			["last_time"] = 11273.549,
-			["players"] = {
-				{
-					["damagespells"] = {
-						["Blizzard"] = {
-							["hitmin"] = 39,
-							["id"] = 42208,
-							["targets"] = {
-								["Tarantula"] = {
-									["overkill"] = 34,
-									["amount"] = 351,
-								},
-							},
-							["overkill"] = 34,
-							["casts"] = 3,
-							["count"] = 9,
-							["hit"] = 9,
-							["school"] = 16,
-							["hitmax"] = 39,
-							["amount"] = 351,
-							["hitamount"] = 351,
-						},
-					},
-					["last"] = 11273.525,
-					["damagetaken"] = 73,
-					["flag"] = 1297,
-					["id"] = "0x0700000000976299",
-					["class"] = "MAGE",
-					["overkill"] = 34,
-					["auras"] = {
-						[10] = {
-							["type"] = "BUFF",
-							["count"] = 4,
-							["school"] = 16,
-							["targets"] = {
-								["Tarantula"] = {
-									["uptime"] = 6,
-									["count"] = 2,
-								},
-							},
-							["uptime"] = 7,
-						},
-						[6136] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 16,
-							["refresh"] = 3,
-							["targets"] = {
-								["Tarantula"] = {
-									["refresh"] = 3,
-									["count"] = 1,
-									["uptime"] = 8,
-								},
-							},
-							["uptime"] = 8,
-						},
-						[7301] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 17,
-						},
-						[28878] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 17,
-						},
-					},
-					["time"] = 13.96,
-					["role"] = "DAMAGER",
-					["name"] = "Sculamare",
-					["spec"] = 64,
-					["damagetakenspells"] = {
-						["Melee"] = {
-							["hitmin"] = 18,
-							["id"] = 6603,
-							["sources"] = {
-								["Tarantula"] = {
-									["amount"] = 73,
-								},
-							},
-							["count"] = 4,
-							["hit"] = 4,
-							["school"] = 1,
-							["hitmax"] = 19,
-							["amount"] = 73,
-							["hitamount"] = 73,
-						},
-					},
-					["totaldamagetaken"] = 73,
-					["totaldamage"] = 351,
-					["damage"] = 351,
-				}, -- [1]
-			},
-			["type"] = "group",
-			["damagetaken"] = 73,
-			["damage"] = 351,
-			["overkill"] = 34,
-			["edamagetaken"] = 351,
-			["etotaldamage"] = 73,
-			["name"] = "Tarantula",
-			["mobname"] = "Tarantula",
-			["starttime"] = 1689804911,
-			["edamage"] = 73,
-			["last_action"] = 1689804927,
-			["endtime"] = 1689804928,
-		}, -- [5]
-		{
-			["players"] = {
-				{
-					["damagespells"] = {
-						["Blizzard"] = {
-							["hitmin"] = 39,
-							["id"] = 42208,
-							["targets"] = {
-								["Young Forest Bear"] = {
-									["overkill"] = 20,
-									["amount"] = 156,
-								},
-								["Prowler"] = {
-									["overkill"] = 36,
-									["amount"] = 195,
-								},
-							},
-							["overkill"] = 56,
-							["casts"] = 1,
-							["count"] = 9,
-							["hit"] = 9,
-							["school"] = 16,
-							["hitmax"] = 39,
-							["amount"] = 351,
-							["hitamount"] = 351,
-						},
-					},
-					["last"] = 11224.89,
-					["id"] = "0x0700000000976299",
-					["class"] = "MAGE",
-					["overkill"] = 56,
-					["spec"] = 64,
-					["totaldamage"] = 351,
-					["name"] = "Sculamare",
-					["auras"] = {
-						[7301] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 6,
-						},
-						[28878] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 6,
-						},
-						[3166] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 6,
-						},
-						[7844] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 6,
-						},
-					},
-					["role"] = "DAMAGER",
-					["flag"] = 1297,
-					["time"] = 4.91,
-					["damage"] = 351,
-				}, -- [1]
-			},
-			["type"] = "group",
-			["enemies"] = {
-				{
-					["damagetaken"] = 156,
-					["name"] = "Young Forest Bear",
-					["totaldamagetaken"] = 156,
-					["id"] = "0xF13000033611732C",
-					["class"] = "MONSTER",
-					["flag"] = 2632,
-					["damagetakenspells"] = {
-						[42208] = {
-							["school"] = 16,
-							["sources"] = {
-								["Sculamare"] = {
-									["overkill"] = 20,
-									["amount"] = 156,
-								},
-							},
-							["overkill"] = 20,
-							["amount"] = 156,
-						},
-					},
-				}, -- [1]
-				{
-					["damagetaken"] = 195,
-					["name"] = "Prowler",
-					["totaldamagetaken"] = 195,
-					["id"] = "0xF130000076120CE0",
-					["class"] = "MONSTER",
-					["flag"] = 68168,
-					["damagetakenspells"] = {
-						[42208] = {
-							["school"] = 16,
-							["sources"] = {
-								["Sculamare"] = {
-									["overkill"] = 36,
-									["amount"] = 195,
-								},
-							},
-							["overkill"] = 36,
-							["amount"] = 195,
-						},
-					},
-				}, -- [2]
-			},
-			["starttime"] = 1689804874,
-			["name"] = "Young Forest Bear",
-			["etotaldamagetaken"] = 351,
-			["last_time"] = 11224.923,
-			["overkill"] = 56,
-			["edamagetaken"] = 351,
-			["totaldamage"] = 351,
-			["time"] = 6,
-			["mobname"] = "Young Forest Bear",
-			["damage"] = 351,
-			["last_action"] = 1689804879,
-			["endtime"] = 1689804880,
-		}, -- [6]
-		{
-			["enemies"] = {
-				{
-					["damagespells"] = {
-						[6603] = {
-							["school"] = 1,
-							["targets"] = {
-								["Sculamare"] = {
-									["amount"] = 6,
-								},
-							},
-							["amount"] = 6,
-						},
-					},
-					["damagetaken"] = 183,
-					["flag"] = 2632,
-					["class"] = "MONSTER",
-					["damagetakenspells"] = {
-						[42208] = {
-							["school"] = 16,
-							["sources"] = {
-								["Sculamare"] = {
-									["amount"] = 156,
-								},
-							},
-							["amount"] = 156,
-						},
-						[6603] = {
-							["school"] = 1,
-							["sources"] = {
-								["Sculamare"] = {
-									["overkill"] = 24,
-									["amount"] = 27,
-								},
-							},
-							["overkill"] = 24,
-							["amount"] = 27,
-						},
-					},
-					["totaldamage"] = 6,
-					["name"] = "Prowler",
-					["totaldamagetaken"] = 183,
-					["id"] = "0xF130000076120C48",
-					["damage"] = 6,
-				}, -- [1]
-			},
-			["totaldamage"] = 183,
-			["time"] = 8,
-			["totaldamagetaken"] = 6,
-			["etotaldamagetaken"] = 183,
-			["last_time"] = 11185.391,
-			["players"] = {
-				{
-					["damagespells"] = {
-						["Blizzard"] = {
-							["hitmin"] = 39,
-							["id"] = 42208,
-							["targets"] = {
-								["Prowler"] = {
-									["amount"] = 156,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 4,
-							["hit"] = 4,
-							["school"] = 16,
-							["hitmax"] = 39,
-							["amount"] = 156,
-							["hitamount"] = 156,
-						},
-						["Melee"] = {
-							["hitmin"] = 27,
-							["id"] = 6603,
-							["targets"] = {
-								["Prowler"] = {
-									["overkill"] = 24,
-									["amount"] = 27,
-								},
-							},
-							["overkill"] = 24,
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 1,
-							["hitmax"] = 27,
-							["amount"] = 27,
-							["hitamount"] = 27,
-						},
-					},
-					["last"] = 11185.375,
-					["damagetaken"] = 6,
-					["flag"] = 1297,
-					["id"] = "0x0700000000976299",
-					["class"] = "MAGE",
-					["overkill"] = 24,
-					["auras"] = {
-						[7301] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 8,
-						},
-						[28878] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 8,
-						},
-						[7844] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 8,
-						},
-						[3166] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 8,
-						},
-					},
-					["time"] = 6.92,
-					["role"] = "DAMAGER",
-					["name"] = "Sculamare",
-					["spec"] = 64,
-					["damagetakenspells"] = {
-						["Melee"] = {
-							["hitmin"] = 6,
-							["id"] = 6603,
-							["sources"] = {
-								["Prowler"] = {
-									["amount"] = 6,
-								},
-							},
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 1,
-							["hitmax"] = 6,
-							["amount"] = 6,
-							["hitamount"] = 6,
-						},
-					},
-					["totaldamagetaken"] = 6,
-					["totaldamage"] = 183,
-					["damage"] = 183,
-				}, -- [1]
-			},
-			["type"] = "group",
-			["damagetaken"] = 6,
-			["damage"] = 183,
-			["overkill"] = 24,
-			["edamagetaken"] = 183,
-			["etotaldamage"] = 6,
-			["name"] = "Prowler",
-			["mobname"] = "Prowler",
-			["starttime"] = 1689804832,
-			["edamage"] = 6,
-			["last_action"] = 1689804839,
-			["endtime"] = 1689804840,
-		}, -- [7]
-		{
-			["players"] = {
-				{
-					["damagespells"] = {
-						["Frostbolt"] = {
-							["hitmin"] = 91,
-							["id"] = 7322,
-							["targets"] = {
-								["Defias Cutpurse"] = {
-									["overkill"] = 69,
-									["amount"] = 189,
-								},
-							},
-							["overkill"] = 69,
-							["casts"] = 1,
-							["count"] = 2,
-							["hit"] = 2,
-							["school"] = 16,
-							["hitmax"] = 98,
-							["amount"] = 189,
-							["hitamount"] = 189,
-						},
-					},
-					["last"] = 10992.014,
-					["id"] = "0x0700000000976299",
-					["class"] = "MAGE",
-					["overkill"] = 69,
-					["spec"] = 64,
-					["totaldamage"] = 189,
-					["name"] = "Sculamare",
-					["auras"] = {
-						[7322] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 16,
-							["targets"] = {
-								["Defias Cutpurse"] = {
-									["uptime"] = 2,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 2,
-						},
-						[7301] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 5,
-						},
-						[28878] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 5,
-						},
-						[7844] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 5,
-						},
-						[604] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 5,
-						},
-						[3166] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 5,
-						},
-					},
-					["role"] = "DAMAGER",
-					["flag"] = 1297,
-					["time"] = 3.21,
-					["damage"] = 189,
-				}, -- [1]
-			},
-			["type"] = "group",
-			["enemies"] = {
-				{
-					["damagetaken"] = 189,
-					["name"] = "Defias Cutpurse",
-					["totaldamagetaken"] = 189,
-					["id"] = "0xF13000005E12FC88",
-					["class"] = "MONSTER",
-					["flag"] = 134285896,
-					["damagetakenspells"] = {
-						[7322] = {
-							["school"] = 16,
-							["sources"] = {
-								["Sculamare"] = {
-									["overkill"] = 69,
-									["amount"] = 189,
-								},
-							},
-							["overkill"] = 69,
-							["amount"] = 189,
-						},
-					},
-				}, -- [1]
-			},
-			["starttime"] = 1689804643,
-			["name"] = "Defias Cutpurse (2)",
-			["etotaldamagetaken"] = 189,
-			["last_time"] = 10992.032,
-			["overkill"] = 69,
-			["edamagetaken"] = 189,
-			["totaldamage"] = 189,
-			["time"] = 5,
-			["mobname"] = "Defias Cutpurse",
-			["damage"] = 189,
-			["last_action"] = 1689804646,
-			["endtime"] = 1689804648,
-		}, -- [8]
-		{
-			["players"] = {
-				{
-					["damagespells"] = {
-						["Frostbolt"] = {
-							["hitmin"] = 98,
-							["id"] = 7322,
-							["targets"] = {
-								["Defias Cutpurse"] = {
-									["overkill"] = 77,
-									["amount"] = 197,
-								},
-							},
-							["overkill"] = 77,
-							["casts"] = 1,
-							["count"] = 2,
-							["hit"] = 2,
-							["school"] = 16,
-							["hitmax"] = 99,
-							["amount"] = 197,
-							["hitamount"] = 197,
-						},
-					},
-					["last"] = 10978.563,
-					["id"] = "0x0700000000976299",
-					["class"] = "MAGE",
-					["overkill"] = 77,
-					["spec"] = 64,
-					["totaldamage"] = 197,
-					["name"] = "Sculamare",
-					["auras"] = {
-						[7322] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 16,
-							["targets"] = {
-								["Defias Cutpurse"] = {
-									["uptime"] = 2,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 2,
-						},
-						[7301] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 5,
-						},
-						[28878] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 5,
-						},
-						[7844] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 5,
-						},
-						[604] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 5,
-						},
-						[3166] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 5,
-						},
-					},
-					["role"] = "DAMAGER",
-					["flag"] = 1297,
-					["time"] = 3.11,
-					["damage"] = 197,
-				}, -- [1]
-			},
-			["type"] = "group",
-			["enemies"] = {
-				{
-					["damagetaken"] = 197,
-					["name"] = "Defias Cutpurse",
-					["totaldamagetaken"] = 197,
-					["id"] = "0xF13000005E12EF32",
-					["class"] = "MONSTER",
-					["flag"] = 134285896,
-					["damagetakenspells"] = {
-						[7322] = {
-							["school"] = 16,
-							["sources"] = {
-								["Sculamare"] = {
-									["overkill"] = 77,
-									["amount"] = 197,
-								},
-							},
-							["overkill"] = 77,
-							["amount"] = 197,
-						},
-					},
-				}, -- [1]
-			},
-			["starttime"] = 1689804629,
-			["name"] = "Defias Cutpurse",
-			["etotaldamagetaken"] = 197,
-			["last_time"] = 10978.887,
-			["overkill"] = 77,
-			["edamagetaken"] = 197,
-			["totaldamage"] = 197,
-			["time"] = 5,
-			["mobname"] = "Defias Cutpurse",
-			["damage"] = 197,
-			["last_action"] = 1689804633,
-			["endtime"] = 1689804634,
-		}, -- [9]
-		{
-			["enemies"] = {
-				{
 					["damagetaken"] = 602,
-					["name"] = "Elder Ashenvale Bear",
+					["flag"] = 134285896,
+					["class"] = "MONSTER",
+					["damagetakenspells"] = {
+						[11366] = {
+							["school"] = 4,
+							["sources"] = {
+								["Sculamare"] = {
+									["amount"] = 225,
+								},
+							},
+							["amount"] = 225,
+						},
+						[3140] = {
+							["school"] = 4,
+							["sources"] = {
+								["Sculamare"] = {
+									["amount"] = 248,
+								},
+							},
+							["amount"] = 248,
+						},
+						[1088] = {
+							["school"] = 32,
+							["sources"] = {
+								["Tapatapa"] = {
+									["overkill"] = 118,
+									["amount"] = 129,
+								},
+							},
+							["overkill"] = 118,
+							["amount"] = 129,
+						},
+					},
+					["name"] = "Blackrock Scout",
+					["totaldamage"] = 37,
 					["totaldamagetaken"] = 602,
-					["id"] = "0xF130000EE20CCFC0",
-					["class"] = "MONSTER",
-					["flag"] = 68168,
-					["damagetakenspells"] = {
-						[11366] = {
-							["school"] = 4,
-							["sources"] = {
-								["Sculamare"] = {
-									["amount"] = 194,
-								},
-							},
-							["amount"] = 194,
-						},
-						[6603] = {
-							["school"] = 1,
-							["sources"] = {
-								["Tapatapa"] = {
-									["amount"] = 73,
-								},
-							},
-							["amount"] = 73,
-						},
-						[6222] = {
-							["school"] = 32,
-							["sources"] = {
-								["Tapatapa"] = {
-									["amount"] = 40,
-								},
-							},
-							["amount"] = 40,
-						},
-						[1088] = {
-							["school"] = 32,
-							["sources"] = {
-								["Tapatapa"] = {
-									["overkill"] = 9,
-									["amount"] = 249,
-								},
-							},
-							["overkill"] = 9,
-							["amount"] = 249,
-						},
-						[1094] = {
-							["school"] = 4,
-							["sources"] = {
-								["Tapatapa"] = {
-									["amount"] = 46,
-								},
-							},
-							["amount"] = 46,
-						},
-					},
+					["id"] = "0xF130000FE000B27C",
+					["damage"] = 37,
 				}, -- [1]
-			},
-			["totaldamage"] = 602,
-			["time"] = 8,
-			["etotaldamagetaken"] = 602,
-			["last_time"] = 10129.638,
-			["players"] = {
-				{
-					["damagespells"] = {
-						["Pyroblast"] = {
-							["hitmin"] = 194,
-							["id"] = 11366,
-							["targets"] = {
-								["Elder Ashenvale Bear"] = {
-									["amount"] = 194,
-								},
-							},
-							["hitmax"] = 194,
-							["casts"] = 1,
-							["count"] = 2,
-							["amount"] = 194,
-							["school"] = 4,
-							["hit"] = 1,
-							["MISS"] = 1,
-							["hitamount"] = 194,
-						},
-					},
-					["last"] = 10129.494,
-					["id"] = "0x0700000000976299",
-					["spec"] = 63,
-					["auras"] = {
-						[1460] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 8,
-						},
-						[7301] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 8,
-						},
-						[28878] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 8,
-						},
-						[3166] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 8,
-						},
-						[7844] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 8,
-						},
-					},
-					["totaldamage"] = 194,
-					["name"] = "Sculamare",
-					["class"] = "MAGE",
-					["role"] = "DAMAGER",
-					["flag"] = 1297,
-					["time"] = 3.5,
-					["damage"] = 194,
-				}, -- [1]
-				{
-					["overheal"] = 0,
-					["last"] = 10129.604,
-					["damagespells"] = {
-						["Shadow Bolt"] = {
-							["hitmin"] = 124,
-							["id"] = 1088,
-							["targets"] = {
-								["Elder Ashenvale Bear"] = {
-									["overkill"] = 9,
-									["amount"] = 249,
-								},
-							},
-							["overkill"] = 9,
-							["casts"] = 2,
-							["count"] = 2,
-							["hit"] = 2,
-							["school"] = 32,
-							["hitmax"] = 125,
-							["amount"] = 249,
-							["hitamount"] = 249,
-						},
-						["Corruption (DoT)"] = {
-							["hitmin"] = 18,
-							["id"] = 6222,
-							["targets"] = {
-								["Elder Ashenvale Bear"] = {
-									["amount"] = 40,
-								},
-							},
-							["hitmax"] = 22,
-							["count"] = 2,
-							["hit"] = 2,
-							["school"] = 32,
-							["resisted"] = 4,
-							["amount"] = 40,
-							["hitamount"] = 40,
-						},
-						["Immolate (DoT)"] = {
-							["hitmin"] = 22,
-							["id"] = 1094,
-							["targets"] = {
-								["Elder Ashenvale Bear"] = {
-									["amount"] = 46,
-								},
-							},
-							["hitmax"] = 24,
-							["count"] = 2,
-							["hit"] = 2,
-							["school"] = 4,
-							["resisted"] = 2,
-							["amount"] = 46,
-							["hitamount"] = 46,
-						},
-						["Melee (Graz'kath)"] = {
-							["glance"] = 40,
-							["hitmin"] = 33,
-							["id"] = 6603,
-							["glancemax"] = 20,
-							["hitamount"] = 33,
-							["glancing"] = 2,
-							["hitmax"] = 33,
-							["count"] = 3,
-							["amount"] = 73,
-							["school"] = 1,
-							["hit"] = 1,
-							["targets"] = {
-								["Elder Ashenvale Bear"] = {
-									["amount"] = 73,
-								},
-							},
-							["glancemin"] = 20,
-						},
-					},
-					["spec"] = 266,
-					["flag"] = 4370,
-					["class"] = "WARLOCK",
-					["healspells"] = {
-						[54181] = {
-							["overheal"] = 0,
-							["count"] = 6,
-							["amount"] = 47,
-							["school"] = 2,
-							["max"] = 18,
-							["targets"] = {
-								["Graz'kath"] = {
-									["overheal"] = 0,
-									["amount"] = 47,
-								},
-							},
-							["min"] = 2,
-						},
-					},
-					["auras"] = {
-						[1460] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 8,
-						},
-						[25228] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 8,
-						},
-						[28878] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 8,
-						},
-						[19708] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 8,
-						},
-					},
-					["role"] = "DAMAGER",
-					["heal"] = 47,
-					["time"] = 6.330000000000001,
-					["overkill"] = 9,
-					["name"] = "Tapatapa",
-					["totaldamage"] = 408,
-					["id"] = "0x07000000009762D4",
-					["damage"] = 408,
-				}, -- [2]
-			},
-			["type"] = "group",
-			["damage"] = 602,
-			["overkill"] = 9,
-			["edamagetaken"] = 602,
-			["heal"] = 47,
-			["name"] = "Elder Ashenvale Bear (7)",
-			["mobname"] = "Elder Ashenvale Bear",
-			["overheal"] = 0,
-			["starttime"] = 1689803777,
-			["last_action"] = 1689803783,
-			["endtime"] = 1689803785,
-		}, -- [10]
-		{
-			["enemies"] = {
 				{
 					["damagespells"] = {
 						[6603] = {
 							["school"] = 1,
 							["targets"] = {
 								["Sculamare"] = {
-									["amount"] = 257,
-								},
-							},
-							["amount"] = 257,
-						},
-					},
-					["damagetaken"] = 1302,
-					["flag"] = 134285896,
-					["class"] = "MONSTER",
-					["damagetakenspells"] = {
-						[3140] = {
-							["school"] = 4,
-							["sources"] = {
-								["Sculamare"] = {
-									["amount"] = 560,
-								},
-							},
-							["amount"] = 560,
-						},
-						[11366] = {
-							["school"] = 4,
-							["sources"] = {
-								["Sculamare"] = {
-									["amount"] = 240,
-								},
-							},
-							["amount"] = 240,
-						},
-						[6603] = {
-							["school"] = 1,
-							["sources"] = {
-								["Tapatapa"] = {
-									["overkill"] = 25,
-									["amount"] = 181,
-								},
-							},
-							["overkill"] = 25,
-							["amount"] = 181,
-						},
-						[2137] = {
-							["school"] = 4,
-							["sources"] = {
-								["Sculamare"] = {
-									["amount"] = 73,
-								},
-							},
-							["amount"] = 73,
-						},
-						[1088] = {
-							["school"] = 32,
-							["sources"] = {
-								["Tapatapa"] = {
-									["amount"] = 248,
-								},
-							},
-							["amount"] = 248,
-						},
-					},
-					["totaldamage"] = 257,
-					["name"] = "Elder Ashenvale Bear",
-					["totaldamagetaken"] = 1302,
-					["id"] = "0xF130000EE20F16C0",
-					["damage"] = 257,
-				}, -- [1]
-			},
-			["totaldamage"] = 1302,
-			["time"] = 22,
-			["totaldamagetaken"] = 257,
-			["etotaldamagetaken"] = 1302,
-			["last_time"] = 10104.196,
-			["overheal"] = 0,
-			["type"] = "group",
-			["damagetaken"] = 257,
-			["players"] = {
-				{
-					["damagespells"] = {
-						["Fireball"] = {
-							["hitmin"] = 94,
-							["id"] = 3140,
-							["targets"] = {
-								["Elder Ashenvale Bear"] = {
-									["amount"] = 560,
-								},
-							},
-							["hitmax"] = 121,
-							["amount"] = 560,
-							["casts"] = 6,
-							["count"] = 7,
-							["hit"] = 5,
-							["school"] = 4,
-							["resisted"] = 48,
-							["MISS"] = 2,
-							["hitamount"] = 560,
-						},
-						["Pyroblast"] = {
-							["hitmin"] = 185,
-							["id"] = 11366,
-							["targets"] = {
-								["Elder Ashenvale Bear"] = {
-									["amount"] = 185,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 4,
-							["hitmax"] = 185,
-							["amount"] = 185,
-							["hitamount"] = 185,
-						},
-						["Pyroblast (DoT)"] = {
-							["hitmin"] = 12,
-							["id"] = 11366,
-							["targets"] = {
-								["Elder Ashenvale Bear"] = {
-									["amount"] = 55,
-								},
-							},
-							["hitmax"] = 15,
-							["count"] = 4,
-							["hit"] = 4,
-							["school"] = 4,
-							["resisted"] = 6,
-							["amount"] = 55,
-							["hitamount"] = 55,
-						},
-						["Chilled"] = {
-							["casts"] = 1,
-							["count"] = 1,
-							["amount"] = 0,
-							["school"] = 16,
-							["targets"] = {
-								["Elder Ashenvale Bear"] = {
-									["amount"] = 0,
-								},
-							},
-							["MISS"] = 1,
-							["id"] = 6136,
-						},
-						["Fire Blast"] = {
-							["hitmin"] = 73,
-							["id"] = 2137,
-							["targets"] = {
-								["Elder Ashenvale Bear"] = {
-									["amount"] = 73,
-								},
-							},
-							["hitmax"] = 73,
-							["casts"] = 1,
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 4,
-							["resisted"] = 8,
-							["amount"] = 73,
-							["hitamount"] = 73,
-						},
-					},
-					["last"] = 10100.186,
-					["damagetaken"] = 257,
-					["flag"] = 1297,
-					["class"] = "MAGE",
-					["id"] = "0x0700000000976299",
-					["auras"] = {
-						[1460] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 22,
-						},
-						[7844] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 22,
-						},
-						[7301] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 22,
-						},
-						[28878] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 22,
-						},
-						[6136] = {
-							["type"] = "DEBUFF",
-							["count"] = 2,
-							["school"] = 16,
-							["refresh"] = 3,
-							["targets"] = {
-								["Elder Ashenvale Bear"] = {
-									["refresh"] = 3,
-									["count"] = 2,
-									["uptime"] = 15,
-								},
-							},
-							["uptime"] = 15,
-						},
-						[11366] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 4,
-							["targets"] = {
-								["Elder Ashenvale Bear"] = {
-									["uptime"] = 12,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 12,
-						},
-						[3166] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 22,
-						},
-					},
-					["totaldamage"] = 873,
-					["role"] = "DAMAGER",
-					["time"] = 17.16,
-					["damagetakenspells"] = {
-						["Melee"] = {
-							["crushing"] = 1,
-							["hitmin"] = 32,
-							["criticalamount"] = 66,
-							["id"] = 6603,
-							["criticalmin"] = 66,
-							["criticalmax"] = 66,
-							["critical"] = 1,
-							["amount"] = 257,
-							["sources"] = {
-								["Elder Ashenvale Bear"] = {
-									["amount"] = 257,
-								},
-							},
-							["count"] = 7,
-							["hit"] = 4,
-							["school"] = 1,
-							["hitmax"] = 38,
-							["MISS"] = 1,
-							["hitamount"] = 143,
-						},
-					},
-					["spec"] = 63,
-					["totaldamagetaken"] = 257,
-					["name"] = "Sculamare",
-					["damage"] = 873,
-				}, -- [1]
-				{
-					["damagespells"] = {
-						["Shadow Bolt"] = {
-							["criticalamount"] = 156,
-							["hitmin"] = 92,
-							["criticalmin"] = 156,
-							["id"] = 1088,
-							["hitmax"] = 92,
-							["targets"] = {
-								["Elder Ashenvale Bear"] = {
-									["amount"] = 248,
-								},
-							},
-							["critical"] = 1,
-							["hit"] = 1,
-							["casts"] = 2,
-							["count"] = 2,
-							["amount"] = 248,
-							["school"] = 32,
-							["resisted"] = 39,
-							["criticalmax"] = 156,
-							["hitamount"] = 92,
-						},
-						["Melee (Graz'kath)"] = {
-							["DODGE"] = 1,
-							["glance"] = 115,
-							["hitmin"] = 33,
-							["hitamount"] = 66,
-							["id"] = 6603,
-							["targets"] = {
-								["Elder Ashenvale Bear"] = {
-									["overkill"] = 25,
-									["amount"] = 181,
-								},
-							},
-							["glancemax"] = 26,
-							["overkill"] = 25,
-							["glancing"] = 5,
-							["hit"] = 2,
-							["hitmax"] = 33,
-							["amount"] = 181,
-							["school"] = 1,
-							["count"] = 10,
-							["MISS"] = 2,
-							["glancemin"] = 21,
-						},
-					},
-					["last"] = 10102.32,
-					["overheal"] = 0,
-					["spec"] = 266,
-					["flag"] = 1298,
-					["class"] = "WARLOCK",
-					["healspells"] = {
-						[3698] = {
-							["overheal"] = 0,
-							["school"] = 32,
-							["count"] = 3,
-							["amount"] = 123,
-							["max"] = 41,
-							["targets"] = {
-								["Graz'kath"] = {
-									["overheal"] = 0,
-									["amount"] = 123,
-								},
-							},
-							["ishot"] = true,
-							["min"] = 41,
-						},
-						[54181] = {
-							["overheal"] = 0,
-							["count"] = 2,
-							["amount"] = 36,
-							["school"] = 2,
-							["max"] = 23,
-							["targets"] = {
-								["Graz'kath"] = {
-									["overheal"] = 0,
-									["amount"] = 36,
-								},
-							},
-							["min"] = 13,
-						},
-					},
-					["auras"] = {
-						[25228] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 22,
-						},
-						[7812] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 17,
-						},
-						[19708] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 22,
-						},
-						[3698] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 3,
-						},
-						[1460] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 22,
-						},
-						[28878] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 22,
-						},
-					},
-					["role"] = "DAMAGER",
-					["heal"] = 159,
-					["time"] = 7,
-					["overkill"] = 25,
-					["name"] = "Tapatapa",
-					["totaldamage"] = 429,
-					["id"] = "0x07000000009762D4",
-					["damage"] = 429,
-				}, -- [2]
-			},
-			["etotaldamage"] = 257,
-			["damage"] = 1302,
-			["overkill"] = 25,
-			["edamagetaken"] = 1302,
-			["heal"] = 159,
-			["name"] = "Elder Ashenvale Bear (6)",
-			["mobname"] = "Elder Ashenvale Bear",
-			["starttime"] = 1689803736,
-			["edamage"] = 257,
-			["last_action"] = 1689803758,
-			["endtime"] = 1689803758,
-		}, -- [11]
-		{
-			["enemies"] = {
-				{
-					["damagespells"] = {
-						[17158] = {
-							["school"] = 8,
-							["total"] = 93,
-							["targets"] = {
-								["Tapatapa"] = {
-									["total"] = 93,
-									["amount"] = 75,
-								},
-							},
-							["amount"] = 75,
-						},
-					},
-					["damagetaken"] = 700,
-					["flag"] = 134285896,
-					["class"] = "MONSTER",
-					["damagetakenspells"] = {
-						[3140] = {
-							["school"] = 4,
-							["sources"] = {
-								["Sculamare"] = {
-									["overkill"] = 35,
-									["amount"] = 237,
-								},
-							},
-							["overkill"] = 35,
-							["amount"] = 237,
-						},
-						[11366] = {
-							["school"] = 4,
-							["sources"] = {
-								["Sculamare"] = {
-									["amount"] = 209,
-								},
-							},
-							["amount"] = 209,
-						},
-						[6603] = {
-							["school"] = 1,
-							["sources"] = {
-								["Tapatapa"] = {
 									["amount"] = 76,
 								},
 							},
 							["amount"] = 76,
 						},
-						[2137] = {
+					},
+					["damagetaken"] = 535,
+					["id"] = "0xF1300001E500B250",
+					["class"] = "MONSTER",
+					["damagetakenspells"] = {
+						[3140] = {
 							["school"] = 4,
 							["sources"] = {
 								["Sculamare"] = {
-									["amount"] = 78,
+									["amount"] = 276,
 								},
 							},
-							["amount"] = 78,
+							["amount"] = 276,
 						},
 						[1088] = {
 							["school"] = 32,
 							["sources"] = {
 								["Tapatapa"] = {
-									["amount"] = 100,
+									["overkill"] = 41,
+									["amount"] = 259,
 								},
 							},
-							["amount"] = 100,
+							["overkill"] = 41,
+							["amount"] = 259,
 						},
 					},
-					["totaldamage"] = 93,
-					["name"] = "Wildthorn Venomspitter",
-					["totaldamagetaken"] = 700,
-					["id"] = "0xF130000EEC0F168B",
-					["damage"] = 75,
-				}, -- [1]
+					["totaldamage"] = 76,
+					["name"] = "Blackrock Outrunner",
+					["totaldamagetaken"] = 535,
+					["flag"] = 134285896,
+					["damage"] = 76,
+				}, -- [2]
 			},
-			["totaldamage"] = 700,
-			["time"] = 18,
-			["totaldamagetaken"] = 93,
-			["etotaldamagetaken"] = 700,
-			["last_time"] = 10069.595,
-			["starttime"] = 1689803706,
-			["type"] = "group",
-			["damagetaken"] = 75,
+			["totaldamage"] = 1137,
+			["time"] = 14,
+			["totaldamagetaken"] = 113,
+			["etotaldamagetaken"] = 1137,
+			["last_time"] = 7549.116,
 			["players"] = {
 				{
-					["ccdonespells"] = {
-						[12824] = {
-							["count"] = 1,
-							["targets"] = {
-								["Wildthorn Venomspitter"] = 1,
-							},
-						},
-					},
-					["last"] = 10068.323,
-					["damagespells"] = {
-						["Fireball"] = {
-							["hitmin"] = 99,
-							["id"] = 3140,
-							["EVADE"] = 2,
-							["targets"] = {
-								["Wildthorn Venomspitter"] = {
-									["overkill"] = 35,
-									["amount"] = 237,
-								},
-							},
-							["overkill"] = 35,
-							["hitmax"] = 138,
-							["casts"] = 3,
-							["count"] = 4,
-							["amount"] = 237,
-							["school"] = 4,
-							["resisted"] = 24,
-							["hit"] = 2,
-							["hitamount"] = 237,
-						},
-						["Pyroblast"] = {
-							["hitmin"] = 194,
-							["id"] = 11366,
-							["targets"] = {
-								["Wildthorn Venomspitter"] = {
-									["amount"] = 194,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 4,
-							["hitmax"] = 194,
-							["amount"] = 194,
-							["hitamount"] = 194,
-						},
-						["Pyroblast (DoT)"] = {
-							["hitmin"] = 15,
-							["id"] = 11366,
-							["targets"] = {
-								["Wildthorn Venomspitter"] = {
-									["amount"] = 15,
-								},
-							},
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 4,
-							["hitmax"] = 15,
-							["amount"] = 15,
-							["hitamount"] = 15,
-						},
-						["Fire Blast"] = {
-							["hitmin"] = 78,
-							["id"] = 2137,
-							["targets"] = {
-								["Wildthorn Venomspitter"] = {
-									["amount"] = 78,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 4,
-							["hitmax"] = 78,
-							["amount"] = 78,
-							["hitamount"] = 78,
-						},
-					},
+					["last"] = 7547.132000000001,
 					["flag"] = 1297,
 					["class"] = "MAGE",
 					["auras"] = {
+						[6136] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 16,
+							["refresh"] = 2,
+							["targets"] = {
+								["Blackrock Outrunner"] = {
+									["count"] = 1,
+									["refresh"] = 2,
+									["uptime"] = 6,
+								},
+							},
+							["uptime"] = 6,
+						},
 						[1460] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 18,
+							["uptime"] = 14,
 						},
 						[11366] = {
 							["type"] = "DEBUFF",
 							["count"] = 1,
 							["school"] = 4,
 							["targets"] = {
-								["Wildthorn Venomspitter"] = {
+								["Blackrock Scout"] = {
 									["uptime"] = 5,
 									["count"] = 1,
 								},
@@ -2444,135 +2336,109 @@ SkadaStorageDB = {
 						[7301] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 18,
+							["uptime"] = 14,
 						},
 						[28878] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 18,
+							["uptime"] = 14,
 						},
 						[3166] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 18,
+							["uptime"] = 14,
 						},
-						[12824] = {
-							["type"] = "DEBUFF",
+						[604] = {
+							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 64,
-							["targets"] = {
-								["Wildthorn Venomspitter"] = {
-									["uptime"] = 11,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 11,
+							["uptime"] = 14,
 						},
 						[7844] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 18,
+							["uptime"] = 14,
 						},
 					},
-					["overkill"] = 35,
-					["id"] = "0x0700000000976299",
-					["totaldamage"] = 524,
-					["time"] = 8.220000000000001,
-					["ccdone"] = 1,
-					["spec"] = 63,
-					["name"] = "Sculamare",
 					["role"] = "DAMAGER",
-					["damage"] = 524,
-				}, -- [1]
-				{
-					["last"] = 10065.322,
-					["flag"] = 1298,
-					["class"] = "WARLOCK",
-					["auras"] = {
-						[25228] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 18,
-						},
-						[28878] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 18,
-						},
-						[7812] = {
-							["school"] = 32,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 1,
-						},
-						[1108] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 32,
-							["targets"] = {
-								["Wildthorn Venomspitter"] = {
-									["uptime"] = 4,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 4,
-						},
-						[3698] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 5,
-						},
-						[1460] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 18,
-						},
-						[19708] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 18,
-						},
-					},
-					["totaldamage"] = 176,
-					["time"] = 3.5,
-					["totaldamagetaken"] = 93,
-					["damage"] = 176,
+					["time"] = 10.51,
+					["totaldamagetaken"] = 113,
+					["damage"] = 749,
 					["damagespells"] = {
-						["Shadow Bolt"] = {
-							["hitmin"] = 100,
-							["id"] = 1088,
+						["Fireball"] = {
+							["hitmin"] = 119,
+							["id"] = 3140,
 							["targets"] = {
-								["Wildthorn Venomspitter"] = {
-									["amount"] = 100,
+								["Blackrock Scout"] = {
+									["amount"] = 248,
+								},
+								["Blackrock Outrunner"] = {
+									["amount"] = 276,
 								},
 							},
-							["hitmax"] = 100,
+							["casts"] = 4,
+							["count"] = 4,
+							["hit"] = 4,
+							["school"] = 4,
+							["hitmax"] = 145,
+							["amount"] = 524,
+							["hitamount"] = 524,
+						},
+						["Pyroblast"] = {
+							["hitmin"] = 209,
+							["id"] = 11366,
+							["targets"] = {
+								["Blackrock Scout"] = {
+									["amount"] = 209,
+								},
+							},
 							["casts"] = 1,
 							["count"] = 1,
 							["hit"] = 1,
-							["school"] = 32,
-							["resisted"] = 25,
-							["amount"] = 100,
-							["hitamount"] = 100,
+							["school"] = 4,
+							["hitmax"] = 209,
+							["amount"] = 209,
+							["hitamount"] = 209,
 						},
-						["Torment (Graz'kath)"] = {
-							["casts"] = 1,
-							["count"] = 1,
-							["amount"] = 0,
-							["school"] = 32,
+						["Pyroblast (DoT)"] = {
+							["hitmin"] = 16,
+							["id"] = 11366,
 							["targets"] = {
-								["Wildthorn Venomspitter"] = {
-									["amount"] = 0,
+								["Blackrock Scout"] = {
+									["amount"] = 16,
 								},
 							},
-							["MISS"] = 1,
-							["id"] = 7809,
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 4,
+							["hitmax"] = 16,
+							["amount"] = 16,
+							["hitamount"] = 16,
 						},
-						["Melee (Graz'kath)"] = {
-							["hitmin"] = 24,
+					},
+					["damagetaken"] = 113,
+					["id"] = "0x0700000000976299",
+					["spec"] = 63,
+					["damagetakenspells"] = {
+						["Shoot"] = {
+							["hitmin"] = 37,
+							["id"] = 6660,
+							["sources"] = {
+								["Blackrock Scout"] = {
+									["amount"] = 37,
+								},
+							},
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 1,
+							["hitmax"] = 37,
+							["amount"] = 37,
+							["hitamount"] = 37,
+						},
+						["Melee"] = {
+							["hitmin"] = 23,
 							["id"] = 6603,
-							["targets"] = {
-								["Wildthorn Venomspitter"] = {
+							["sources"] = {
+								["Blackrock Outrunner"] = {
 									["amount"] = 76,
 								},
 							},
@@ -2584,80 +2450,88 @@ SkadaStorageDB = {
 							["hitamount"] = 76,
 						},
 					},
-					["damagetaken"] = 75,
+					["name"] = "Sculamare",
+					["totaldamage"] = 749,
+				}, -- [1]
+				{
+					["damagespells"] = {
+						["Shadow Bolt"] = {
+							["hitmin"] = 125,
+							["id"] = 1088,
+							["targets"] = {
+								["Blackrock Scout"] = {
+									["overkill"] = 118,
+									["amount"] = 129,
+								},
+								["Blackrock Outrunner"] = {
+									["overkill"] = 41,
+									["amount"] = 259,
+								},
+							},
+							["overkill"] = 159,
+							["casts"] = 3,
+							["count"] = 3,
+							["hit"] = 3,
+							["school"] = 32,
+							["hitmax"] = 134,
+							["amount"] = 388,
+							["hitamount"] = 388,
+						},
+					},
+					["last"] = 7549.092000000001,
+					["class"] = "WARLOCK",
 					["id"] = "0x07000000009762D4",
 					["spec"] = 266,
-					["healspells"] = {
-						[3698] = {
-							["overheal"] = 0,
-							["school"] = 32,
-							["count"] = 6,
-							["amount"] = 242,
-							["max"] = 41,
-							["targets"] = {
-								["Graz'kath"] = {
-									["overheal"] = 0,
-									["amount"] = 242,
-								},
-							},
-							["ishot"] = true,
-							["min"] = 40,
-						},
-						[54181] = {
-							["overheal"] = 0,
+					["overkill"] = 159,
+					["auras"] = {
+						[1460] = {
+							["type"] = "BUFF",
 							["count"] = 1,
-							["amount"] = 15,
-							["school"] = 2,
-							["max"] = 15,
-							["targets"] = {
-								["Graz'kath"] = {
-									["overheal"] = 0,
-									["amount"] = 15,
-								},
-							},
-							["min"] = 15,
+							["uptime"] = 14,
+						},
+						[28878] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 14,
+						},
+						[706] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 14,
+						},
+						[604] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 14,
+						},
+						[19708] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 14,
 						},
 					},
-					["damagetakenspells"] = {
-						["Venom Spit"] = {
-							["total"] = 93,
-							["hitmin"] = 75,
-							["id"] = 17158,
-							["sources"] = {
-								["Wildthorn Venomspitter"] = {
-									["total"] = 93,
-									["amount"] = 75,
-								},
-							},
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 8,
-							["hitmax"] = 75,
-							["amount"] = 75,
-							["hitamount"] = 75,
-						},
-					},
-					["heal"] = 257,
-					["name"] = "Tapatapa",
-					["overheal"] = 0,
+					["totaldamage"] = 388,
 					["role"] = "DAMAGER",
+					["name"] = "Tapatapa",
+					["flag"] = 1298,
+					["time"] = 9.870000000000001,
+					["damage"] = 388,
 				}, -- [2]
 			},
-			["etotaldamage"] = 93,
-			["overheal"] = 0,
-			["mobname"] = "Wildthorn Venomspitter",
-			["overkill"] = 35,
-			["edamagetaken"] = 700,
-			["heal"] = 257,
-			["name"] = "Wildthorn Venomspitter",
-			["ccdone"] = 1,
-			["damage"] = 700,
-			["edamage"] = 75,
-			["last_action"] = 1689803723,
-			["endtime"] = 1689803724,
-		}, -- [12]
+			["type"] = "group",
+			["damagetaken"] = 113,
+			["damage"] = 1137,
+			["etotaldamage"] = 113,
+			["overkill"] = 159,
+			["edamagetaken"] = 1137,
+			["name"] = "Blackrock Scout (2)",
+			["mobname"] = "Blackrock Scout",
+			["starttime"] = 1689881872,
+			["edamage"] = 113,
+			["last_action"] = 1689881885,
+			["endtime"] = 1689881886,
+		}, -- [6]
 		{
-			["mana"] = 90,
 			["enemies"] = {
 				{
 					["damagespells"] = {
@@ -2665,420 +2539,2608 @@ SkadaStorageDB = {
 							["school"] = 1,
 							["targets"] = {
 								["Sculamare"] = {
-									["amount"] = 573,
+									["amount"] = 211,
 								},
 							},
-							["amount"] = 573,
+							["amount"] = 211,
 						},
 					},
-					["damagetaken"] = 2693,
-					["flag"] = 2632,
+					["damagetaken"] = 1736,
+					["flag"] = 134285896,
+					["class"] = "MONSTER",
+					["damagetakenspells"] = {
+						[1088] = {
+							["school"] = 32,
+							["sources"] = {
+								["Tapatapa"] = {
+									["amount"] = 326,
+								},
+							},
+							["amount"] = 326,
+						},
+						[3140] = {
+							["school"] = 4,
+							["sources"] = {
+								["Sculamare"] = {
+									["overkill"] = 91,
+									["amount"] = 1366,
+								},
+							},
+							["overkill"] = 91,
+							["amount"] = 1366,
+						},
+						[1120] = {
+							["school"] = 32,
+							["sources"] = {
+								["Tapatapa"] = {
+									["amount"] = 44,
+								},
+							},
+							["amount"] = 44,
+						},
+					},
+					["name"] = "Blackrock Sentry",
+					["totaldamage"] = 211,
+					["totaldamagetaken"] = 1736,
+					["id"] = "0xF130000FE100B326",
+					["damage"] = 211,
+				}, -- [1]
+			},
+			["totaldamage"] = 1736,
+			["time"] = 30,
+			["totaldamagetaken"] = 211,
+			["etotaldamagetaken"] = 1736,
+			["last_time"] = 7529.175,
+			["players"] = {
+				{
+					["ccdonespells"] = {
+						[12824] = {
+							["count"] = 1,
+							["targets"] = {
+								["Blackrock Sentry"] = 1,
+							},
+						},
+					},
+					["last"] = 7529.159000000001,
+					["flag"] = 1297,
+					["class"] = "MAGE",
+					["auras"] = {
+						[12824] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 64,
+							["targets"] = {
+								["Blackrock Sentry"] = {
+									["uptime"] = 13,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 13,
+						},
+						[1460] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 30,
+						},
+						[6136] = {
+							["type"] = "DEBUFF",
+							["count"] = 3,
+							["school"] = 16,
+							["refresh"] = 3,
+							["targets"] = {
+								["Blackrock Sentry"] = {
+									["count"] = 3,
+									["refresh"] = 3,
+									["uptime"] = 11,
+								},
+							},
+							["uptime"] = 11,
+						},
+						[7301] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 30,
+						},
+						[28878] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 30,
+						},
+						[3166] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 30,
+						},
+						[604] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 30,
+						},
+						[7844] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 30,
+						},
+					},
+					["role"] = "DAMAGER",
+					["time"] = 24.62000000000001,
+					["totaldamagetaken"] = 211,
+					["damage"] = 1366,
+					["damagespells"] = {
+						["Fireball"] = {
+							["hitmin"] = 123,
+							["id"] = 3140,
+							["targets"] = {
+								["Blackrock Sentry"] = {
+									["overkill"] = 91,
+									["amount"] = 1366,
+								},
+							},
+							["overkill"] = 91,
+							["casts"] = 9,
+							["count"] = 10,
+							["hit"] = 10,
+							["school"] = 4,
+							["hitmax"] = 148,
+							["amount"] = 1366,
+							["hitamount"] = 1366,
+						},
+					},
+					["damagetaken"] = 211,
+					["id"] = "0x0700000000976299",
+					["spec"] = 63,
+					["damagetakenspells"] = {
+						["Melee"] = {
+							["hitmin"] = 25,
+							["criticalamount"] = 48,
+							["id"] = 6603,
+							["criticalmin"] = 48,
+							["criticalmax"] = 48,
+							["critical"] = 1,
+							["amount"] = 211,
+							["sources"] = {
+								["Blackrock Sentry"] = {
+									["amount"] = 211,
+								},
+							},
+							["count"] = 7,
+							["hit"] = 5,
+							["school"] = 1,
+							["hitmax"] = 36,
+							["MISS"] = 1,
+							["hitamount"] = 163,
+						},
+					},
+					["name"] = "Sculamare",
+					["ccdone"] = 1,
+					["overkill"] = 91,
+					["totaldamage"] = 1366,
+				}, -- [1]
+				{
+					["damagespells"] = {
+						["Drain Soul (DoT)"] = {
+							["hitmin"] = 22,
+							["id"] = 1120,
+							["targets"] = {
+								["Blackrock Sentry"] = {
+									["amount"] = 44,
+								},
+							},
+							["count"] = 2,
+							["hit"] = 2,
+							["school"] = 32,
+							["hitmax"] = 22,
+							["amount"] = 44,
+							["hitamount"] = 44,
+						},
+						["Shadow Bolt"] = {
+							["hitmin"] = 126,
+							["criticalamount"] = 200,
+							["id"] = 1088,
+							["hitmax"] = 126,
+							["targets"] = {
+								["Blackrock Sentry"] = {
+									["amount"] = 326,
+								},
+							},
+							["count"] = 2,
+							["hit"] = 1,
+							["casts"] = 5,
+							["critical"] = 1,
+							["amount"] = 326,
+							["school"] = 32,
+							["criticalmin"] = 200,
+							["criticalmax"] = 200,
+							["hitamount"] = 126,
+						},
+					},
+					["last"] = 7527.357,
+					["id"] = "0x07000000009762D4",
+					["spec"] = 266,
+					["class"] = "WARLOCK",
+					["auras"] = {
+						[1120] = {
+							["type"] = "BUFF",
+							["count"] = 4,
+							["school"] = 32,
+							["targets"] = {
+								["Blackrock Sentry"] = {
+									["uptime"] = 11,
+									["count"] = 2,
+								},
+							},
+							["uptime"] = 11,
+						},
+						[1460] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 30,
+						},
+						[28878] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 30,
+						},
+						[706] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 30,
+						},
+						[604] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 30,
+						},
+						[19708] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 30,
+						},
+					},
+					["totaldamage"] = 370,
+					["role"] = "DAMAGER",
+					["name"] = "Tapatapa",
+					["flag"] = 1298,
+					["time"] = 13.51,
+					["damage"] = 370,
+				}, -- [2]
+			},
+			["type"] = "group",
+			["damagetaken"] = 211,
+			["damage"] = 1736,
+			["ccdone"] = 1,
+			["etotaldamage"] = 211,
+			["overkill"] = 91,
+			["edamagetaken"] = 1736,
+			["name"] = "Blackrock Sentry (6)",
+			["mobname"] = "Blackrock Sentry",
+			["starttime"] = 1689881836,
+			["edamage"] = 211,
+			["last_action"] = 1689881865,
+			["endtime"] = 1689881866,
+		}, -- [7]
+		{
+			["enemies"] = {
+				{
+					["damagespells"] = {
+						[6603] = {
+							["school"] = 1,
+							["targets"] = {
+								["Sculamare"] = {
+									["amount"] = 26,
+								},
+							},
+							["amount"] = 26,
+						},
+					},
+					["damagetaken"] = 1245,
+					["flag"] = 2099784,
 					["class"] = "MONSTER",
 					["damagetakenspells"] = {
 						[3140] = {
 							["school"] = 4,
 							["sources"] = {
 								["Sculamare"] = {
-									["overkill"] = 115,
-									["amount"] = 1424,
+									["amount"] = 267,
 								},
 							},
-							["overkill"] = 115,
-							["amount"] = 1424,
+							["amount"] = 267,
+						},
+						[11366] = {
+							["school"] = 4,
+							["sources"] = {
+								["Sculamare"] = {
+									["amount"] = 254,
+								},
+							},
+							["amount"] = 254,
 						},
 						[6603] = {
 							["school"] = 1,
 							["sources"] = {
 								["Tapatapa"] = {
-									["overkill"] = 24,
-									["amount"] = 498,
-								},
-								["Graz'kath"] = {
-									["amount"] = 29,
+									["amount"] = 199,
 								},
 							},
-							["overkill"] = 24,
-							["amount"] = 527,
+							["amount"] = 199,
 						},
-						[2137] = {
+						[2138] = {
 							["school"] = 4,
 							["sources"] = {
 								["Sculamare"] = {
-									["amount"] = 68,
+									["overkill"] = 89,
+									["amount"] = 135,
 								},
 							},
-							["amount"] = 68,
+							["overkill"] = 89,
+							["amount"] = 135,
 						},
 						[1088] = {
 							["school"] = 32,
 							["sources"] = {
 								["Tapatapa"] = {
-									["amount"] = 567,
+									["overkill"] = 32,
+									["amount"] = 390,
 								},
 							},
-							["amount"] = 567,
+							["overkill"] = 32,
+							["amount"] = 390,
+						},
+					},
+					["name"] = "Blackrock Sentry",
+					["totaldamage"] = 26,
+					["totaldamagetaken"] = 1245,
+					["id"] = "0xF130000FE10016C4",
+					["damage"] = 26,
+				}, -- [1]
+				{
+					["damagespells"] = {
+						[11639] = {
+							["school"] = 32,
+							["total"] = 140,
+							["targets"] = {
+								["Tapatapa"] = {
+									["total"] = 140,
+									["amount"] = 116,
+								},
+							},
+							["amount"] = 116,
+						},
+					},
+					["damagetaken"] = 468,
+					["flag"] = 134285896,
+					["class"] = "MONSTER",
+					["damagetakenspells"] = {
+						[11366] = {
+							["school"] = 4,
+							["sources"] = {
+								["Sculamare"] = {
+									["amount"] = 215,
+								},
+							},
+							["amount"] = 215,
+						},
+						[3140] = {
+							["school"] = 4,
+							["sources"] = {
+								["Sculamare"] = {
+									["overkill"] = 5,
+									["amount"] = 122,
+								},
+							},
+							["overkill"] = 5,
+							["amount"] = 122,
+						},
+						[1088] = {
+							["school"] = 32,
+							["sources"] = {
+								["Tapatapa"] = {
+									["amount"] = 131,
+								},
+							},
+							["amount"] = 131,
+						},
+					},
+					["name"] = "Blackrock Shadowcaster",
+					["totaldamage"] = 140,
+					["totaldamagetaken"] = 468,
+					["id"] = "0xF1300001B400166F",
+					["damage"] = 116,
+				}, -- [2]
+				{
+					["damagespells"] = {
+						[6603] = {
+							["school"] = 1,
+							["targets"] = {
+								["Sculamare"] = {
+									["amount"] = 153,
+								},
+							},
+							["amount"] = 153,
+						},
+					},
+					["damagetaken"] = 1754,
+					["flag"] = 134285896,
+					["class"] = "MONSTER",
+					["damagetakenspells"] = {
+						[3140] = {
+							["school"] = 4,
+							["sources"] = {
+								["Sculamare"] = {
+									["amount"] = 114,
+								},
+							},
+							["amount"] = 114,
+						},
+						[11366] = {
+							["school"] = 4,
+							["sources"] = {
+								["Sculamare"] = {
+									["amount"] = 457,
+								},
+							},
+							["amount"] = 457,
+						},
+						[2138] = {
+							["school"] = 4,
+							["sources"] = {
+								["Sculamare"] = {
+									["amount"] = 239,
+								},
+							},
+							["amount"] = 239,
+						},
+						[6603] = {
+							["school"] = 1,
+							["sources"] = {
+								["Tapatapa"] = {
+									["amount"] = 198,
+								},
+							},
+							["amount"] = 198,
+						},
+						[122] = {
+							["school"] = 16,
+							["sources"] = {
+								["Sculamare"] = {
+									["amount"] = 24,
+								},
+							},
+							["amount"] = 24,
+						},
+						[1088] = {
+							["school"] = 32,
+							["sources"] = {
+								["Tapatapa"] = {
+									["overkill"] = 41,
+									["amount"] = 571,
+								},
+							},
+							["overkill"] = 41,
+							["amount"] = 571,
+						},
+						[1094] = {
+							["school"] = 4,
+							["sources"] = {
+								["Tapatapa"] = {
+									["amount"] = 151,
+								},
+							},
+							["amount"] = 151,
+						},
+					},
+					["name"] = "Tharil'zun",
+					["totaldamage"] = 153,
+					["totaldamagetaken"] = 1754,
+					["id"] = "0xF1300001E6001680",
+					["damage"] = 153,
+				}, -- [3]
+			},
+			["damage"] = 3467,
+			["totaldamage"] = 3467,
+			["time"] = 60,
+			["totaldamagetaken"] = 319,
+			["etotaldamagetaken"] = 3467,
+			["last_time"] = 7379.575,
+			["players"] = {
+				{
+					["ccdonespells"] = {
+						[12824] = {
+							["count"] = 2,
+							["targets"] = {
+								["Tharil'zun"] = 2,
+							},
+						},
+						[122] = {
+							["count"] = 1,
+							["targets"] = {
+								["Tharil'zun"] = 1,
+							},
+						},
+					},
+					["last"] = 7378.292,
+					["flag"] = 1297,
+					["class"] = "MAGE",
+					["auras"] = {
+						[12824] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 64,
+							["refresh"] = 1,
+							["targets"] = {
+								["Tharil'zun"] = {
+									["count"] = 1,
+									["refresh"] = 1,
+									["uptime"] = 38,
+								},
+							},
+							["uptime"] = 38,
+						},
+						[6136] = {
+							["type"] = "DEBUFF",
+							["count"] = 3,
+							["school"] = 16,
+							["refresh"] = 2,
+							["targets"] = {
+								["Blackrock Sentry"] = {
+									["uptime"] = 3,
+									["count"] = 1,
+								},
+								["Tharil'zun"] = {
+									["count"] = 2,
+									["refresh"] = 2,
+									["uptime"] = 13,
+								},
+							},
+							["uptime"] = 16,
+						},
+						[3166] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 60,
+						},
+						[122] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 16,
+							["targets"] = {
+								["Tharil'zun"] = {
+									["uptime"] = 3,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 3,
+						},
+						[604] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 60,
+						},
+						[59548] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 2,
+							["uptime"] = 6,
+						},
+						[11366] = {
+							["type"] = "DEBUFF",
+							["count"] = 4,
+							["school"] = 4,
+							["targets"] = {
+								["Blackrock Shadowcaster"] = {
+									["uptime"] = 2,
+									["count"] = 1,
+								},
+								["Blackrock Sentry"] = {
+									["uptime"] = 7,
+									["count"] = 1,
+								},
+								["Tharil'zun"] = {
+									["uptime"] = 16,
+									["count"] = 2,
+								},
+							},
+							["uptime"] = 25,
+						},
+						[7301] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 60,
+						},
+						[1460] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 60,
+						},
+						[1953] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 64,
+							["refresh"] = 1,
+							["uptime"] = 1,
+						},
+						[7844] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 60,
+						},
+						[28878] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 60,
+						},
+					},
+					["time"] = 36.68999999999999,
+					["totaldamagetaken"] = 179,
+					["damage"] = 1827,
+					["damagespells"] = {
+						["Fireball"] = {
+							["hitmin"] = 114,
+							["id"] = 3140,
+							["targets"] = {
+								["Blackrock Shadowcaster"] = {
+									["overkill"] = 5,
+									["amount"] = 122,
+								},
+								["Blackrock Sentry"] = {
+									["amount"] = 267,
+								},
+								["Tharil'zun"] = {
+									["amount"] = 114,
+								},
+							},
+							["overkill"] = 5,
+							["hitmax"] = 135,
+							["casts"] = 5,
+							["count"] = 4,
+							["hit"] = 4,
+							["school"] = 4,
+							["resisted"] = 12,
+							["amount"] = 503,
+							["hitamount"] = 503,
+						},
+						["Pyroblast"] = {
+							["hitmin"] = 177,
+							["id"] = 11366,
+							["targets"] = {
+								["Blackrock Shadowcaster"] = {
+									["amount"] = 215,
+								},
+								["Blackrock Sentry"] = {
+									["amount"] = 223,
+								},
+								["Tharil'zun"] = {
+									["amount"] = 382,
+								},
+							},
+							["hitmax"] = 223,
+							["casts"] = 4,
+							["count"] = 4,
+							["hit"] = 4,
+							["school"] = 4,
+							["resisted"] = 19,
+							["amount"] = 820,
+							["hitamount"] = 820,
+						},
+						["Pyroblast (DoT)"] = {
+							["hitmin"] = 13,
+							["id"] = 11366,
+							["targets"] = {
+								["Blackrock Sentry"] = {
+									["amount"] = 31,
+								},
+								["Tharil'zun"] = {
+									["amount"] = 75,
+								},
+							},
+							["hitmax"] = 16,
+							["count"] = 7,
+							["hit"] = 7,
+							["school"] = 4,
+							["resisted"] = 5,
+							["amount"] = 106,
+							["hitamount"] = 106,
+						},
+						["Frost Nova"] = {
+							["hitmin"] = 24,
+							["id"] = 122,
+							["targets"] = {
+								["Tharil'zun"] = {
+									["amount"] = 24,
+								},
+							},
+							["casts"] = 1,
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 16,
+							["hitmax"] = 24,
+							["amount"] = 24,
+							["hitamount"] = 24,
+						},
+						["Fire Blast"] = {
+							["hitmin"] = 96,
+							["id"] = 2138,
+							["targets"] = {
+								["Blackrock Sentry"] = {
+									["overkill"] = 89,
+									["amount"] = 135,
+								},
+								["Tharil'zun"] = {
+									["amount"] = 239,
+								},
+							},
+							["overkill"] = 89,
+							["hitmax"] = 143,
+							["casts"] = 3,
+							["count"] = 3,
+							["hit"] = 3,
+							["school"] = 4,
+							["resisted"] = 23,
+							["amount"] = 374,
+							["hitamount"] = 374,
+						},
+					},
+					["damagetaken"] = 179,
+					["id"] = "0x0700000000976299",
+					["spec"] = 63,
+					["healspells"] = {
+						[59548] = {
+							["overheal"] = 0,
+							["targets"] = {
+								["Sculamare"] = {
+									["overheal"] = 0,
+									["amount"] = 83,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 83,
+							["school"] = 2,
+							["max"] = 83,
+							["ishot"] = true,
+							["min"] = 83,
+						},
+					},
+					["damagetakenspells"] = {
+						["Melee"] = {
+							["hitmin"] = 26,
+							["id"] = 6603,
+							["sources"] = {
+								["Blackrock Sentry"] = {
+									["amount"] = 26,
+								},
+								["Tharil'zun"] = {
+									["amount"] = 153,
+								},
+							},
+							["count"] = 5,
+							["hit"] = 5,
+							["school"] = 1,
+							["hitmax"] = 42,
+							["amount"] = 179,
+							["hitamount"] = 179,
+						},
+					},
+					["heal"] = 83,
+					["name"] = "Sculamare",
+					["ccdone"] = 3,
+					["overheal"] = 0,
+					["overkill"] = 94,
+					["totaldamage"] = 1827,
+					["role"] = "DAMAGER",
+				}, -- [1]
+				{
+					["last"] = 7379.552000000001,
+					["flag"] = 1298,
+					["class"] = "WARLOCK",
+					["auras"] = {
+						[28878] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 60,
+						},
+						[1460] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 60,
+						},
+						[5782] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 32,
+							["targets"] = {
+								["Tharil'zun"] = {
+									["uptime"] = 3,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 3,
+						},
+						[6205] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 32,
+							["targets"] = {
+								["Tharil'zun"] = {
+									["uptime"] = 17,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 17,
+						},
+						[1094] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 4,
+							["targets"] = {
+								["Tharil'zun"] = {
+									["uptime"] = 13,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 13,
+						},
+						[19708] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 60,
+						},
+						[25228] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 60,
+						},
+						[706] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 60,
+						},
+						[604] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 60,
+						},
+					},
+					["time"] = 33.64999999999999,
+					["totaldamagetaken"] = 140,
+					["damage"] = 1640,
+					["damagespells"] = {
+						["Melee (Graz'kath)"] = {
+							["glance"] = 61,
+							["hitmin"] = 16,
+							["id"] = 6603,
+							["glancemin"] = 19,
+							["targets"] = {
+								["Blackrock Sentry"] = {
+									["amount"] = 199,
+								},
+								["Tharil'zun"] = {
+									["amount"] = 198,
+								},
+							},
+							["glancemax"] = 22,
+							["glancing"] = 3,
+							["blocked"] = 11,
+							["count"] = 16,
+							["hit"] = 13,
+							["school"] = 1,
+							["hitmax"] = 31,
+							["amount"] = 397,
+							["hitamount"] = 336,
+						},
+						["Immolate (DoT)"] = {
+							["hitmin"] = 21,
+							["id"] = 1094,
+							["targets"] = {
+								["Tharil'zun"] = {
+									["amount"] = 95,
+								},
+							},
+							["hitmax"] = 26,
+							["count"] = 4,
+							["hit"] = 4,
+							["school"] = 4,
+							["resisted"] = 9,
+							["amount"] = 95,
+							["hitamount"] = 95,
+						},
+						["Immolate"] = {
+							["hitmin"] = 56,
+							["id"] = 1094,
+							["targets"] = {
+								["Tharil'zun"] = {
+									["amount"] = 56,
+								},
+							},
+							["casts"] = 1,
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 4,
+							["hitmax"] = 56,
+							["amount"] = 56,
+							["hitamount"] = 56,
+						},
+						["Shadow Bolt"] = {
+							["criticalmin"] = 184,
+							["hitmin"] = 122,
+							["criticalamount"] = 184,
+							["id"] = 1088,
+							["criticalmax"] = 184,
+							["targets"] = {
+								["Blackrock Shadowcaster"] = {
+									["amount"] = 131,
+								},
+								["Blackrock Sentry"] = {
+									["overkill"] = 32,
+									["amount"] = 390,
+								},
+								["Tharil'zun"] = {
+									["overkill"] = 41,
+									["amount"] = 571,
+								},
+							},
+							["overkill"] = 73,
+							["critical"] = 1,
+							["casts"] = 13,
+							["count"] = 8,
+							["hit"] = 7,
+							["school"] = 32,
+							["hitmax"] = 135,
+							["amount"] = 1092,
+							["hitamount"] = 908,
+						},
+					},
+					["damagetaken"] = 116,
+					["id"] = "0x07000000009762D4",
+					["spec"] = 266,
+					["healspells"] = {
+						[54181] = {
+							["overheal"] = 19,
+							["max"] = 27,
+							["count"] = 13,
+							["amount"] = 162,
+							["school"] = 2,
+							["min"] = 3,
+							["targets"] = {
+								["Graz'kath"] = {
+									["overheal"] = 19,
+									["amount"] = 162,
+								},
+							},
+						},
+					},
+					["damagetakenspells"] = {
+						["Shadow Word: Pain (DoT)"] = {
+							["total"] = 140,
+							["hitmin"] = 19,
+							["id"] = 11639,
+							["sources"] = {
+								["Blackrock Shadowcaster"] = {
+									["total"] = 140,
+									["amount"] = 116,
+								},
+							},
+							["count"] = 6,
+							["hit"] = 6,
+							["school"] = 32,
+							["hitmax"] = 20,
+							["amount"] = 116,
+							["hitamount"] = 116,
+						},
+					},
+					["heal"] = 162,
+					["name"] = "Tapatapa",
+					["overkill"] = 73,
+					["overheal"] = 19,
+					["totaldamage"] = 1640,
+					["role"] = "DAMAGER",
+				}, -- [2]
+			},
+			["type"] = "group",
+			["damagetaken"] = 295,
+			["etotaldamage"] = 319,
+			["overheal"] = 19,
+			["ccdone"] = 3,
+			["overkill"] = 167,
+			["edamagetaken"] = 3467,
+			["heal"] = 245,
+			["name"] = "Blackrock Sentry (5)",
+			["mobname"] = "Blackrock Sentry",
+			["starttime"] = 1689881657,
+			["edamage"] = 295,
+			["last_action"] = 1689881715,
+			["endtime"] = 1689881717,
+		}, -- [8]
+		{
+			["enemies"] = {
+				{
+					["id"] = "0xF130000FE10016BD",
+					["name"] = "Blackrock Sentry",
+					["totaldamagetaken"] = 529,
+					["flag"] = 134285896,
+					["class"] = "MONSTER",
+					["damagetaken"] = 529,
+					["damagetakenspells"] = {
+						[11366] = {
+							["school"] = 4,
+							["sources"] = {
+								["Sculamare"] = {
+									["overkill"] = 8,
+									["amount"] = 223,
+								},
+							},
+							["overkill"] = 8,
+							["amount"] = 223,
+						},
+						[3140] = {
+							["school"] = 4,
+							["sources"] = {
+								["Sculamare"] = {
+									["amount"] = 124,
+								},
+							},
+							["amount"] = 124,
+						},
+						[1088] = {
+							["school"] = 32,
+							["sources"] = {
+								["Tapatapa"] = {
+									["amount"] = 130,
+								},
+							},
+							["amount"] = 130,
+						},
+						[6603] = {
+							["school"] = 1,
+							["sources"] = {
+								["Tapatapa"] = {
+									["amount"] = 52,
+								},
+							},
+							["amount"] = 52,
+						},
+					},
+				}, -- [1]
+				{
+					["damagespells"] = {
+						[11639] = {
+							["school"] = 32,
+							["total"] = 48,
+							["targets"] = {
+								["Tapatapa"] = {
+									["total"] = 48,
+									["amount"] = 40,
+								},
+							},
+							["amount"] = 40,
+						},
+					},
+					["damagetaken"] = 585,
+					["flag"] = 134285896,
+					["class"] = "MONSTER",
+					["damagetakenspells"] = {
+						[6603] = {
+							["school"] = 1,
+							["sources"] = {
+								["Tapatapa"] = {
+									["amount"] = 80,
+								},
+							},
+							["amount"] = 80,
+						},
+						[3140] = {
+							["school"] = 4,
+							["sources"] = {
+								["Sculamare"] = {
+									["amount"] = 221,
+								},
+							},
+							["amount"] = 221,
+						},
+						[1088] = {
+							["school"] = 32,
+							["sources"] = {
+								["Tapatapa"] = {
+									["overkill"] = 91,
+									["amount"] = 284,
+								},
+							},
+							["overkill"] = 91,
+							["amount"] = 284,
+						},
+					},
+					["name"] = "Blackrock Shadowcaster",
+					["totaldamage"] = 48,
+					["totaldamagetaken"] = 585,
+					["id"] = "0xF1300001B4001671",
+					["damage"] = 40,
+				}, -- [2]
+			},
+			["totaldamage"] = 1114,
+			["time"] = 13,
+			["totaldamagetaken"] = 48,
+			["etotaldamagetaken"] = 1114,
+			["last_time"] = 7299.068,
+			["players"] = {
+				{
+					["damagespells"] = {
+						["Fireball"] = {
+							["hitmin"] = 96,
+							["id"] = 3140,
+							["targets"] = {
+								["Blackrock Sentry"] = {
+									["amount"] = 124,
+								},
+								["Blackrock Shadowcaster"] = {
+									["amount"] = 221,
+								},
+							},
+							["hitmax"] = 125,
+							["casts"] = 3,
+							["count"] = 3,
+							["hit"] = 3,
+							["school"] = 4,
+							["resisted"] = 23,
+							["amount"] = 345,
+							["hitamount"] = 345,
+						},
+						["Pyroblast"] = {
+							["hitmin"] = 207,
+							["id"] = 11366,
+							["targets"] = {
+								["Blackrock Sentry"] = {
+									["amount"] = 207,
+								},
+							},
+							["casts"] = 1,
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 4,
+							["hitmax"] = 207,
+							["amount"] = 207,
+							["hitamount"] = 207,
+						},
+						["Pyroblast (DoT)"] = {
+							["hitmin"] = 16,
+							["id"] = 11366,
+							["targets"] = {
+								["Blackrock Sentry"] = {
+									["overkill"] = 8,
+									["amount"] = 16,
+								},
+							},
+							["overkill"] = 8,
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 4,
+							["hitmax"] = 16,
+							["amount"] = 16,
+							["hitamount"] = 16,
+						},
+					},
+					["last"] = 7296.96,
+					["class"] = "MAGE",
+					["id"] = "0x0700000000976299",
+					["spec"] = 63,
+					["overkill"] = 8,
+					["auras"] = {
+						[1460] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 13,
+						},
+						[11366] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 4,
+							["targets"] = {
+								["Blackrock Sentry"] = {
+									["uptime"] = 3,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 3,
+						},
+						[7301] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 13,
+						},
+						[28878] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 13,
+						},
+						[3166] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 13,
+						},
+						[604] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 13,
+						},
+						[7844] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 13,
+						},
+					},
+					["totaldamage"] = 568,
+					["role"] = "DAMAGER",
+					["name"] = "Sculamare",
+					["flag"] = 1297,
+					["time"] = 10.23,
+					["damage"] = 568,
+				}, -- [1]
+				{
+					["last"] = 7298.312,
+					["flag"] = 4370,
+					["class"] = "WARLOCK",
+					["auras"] = {
+						[25228] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 13,
+						},
+						[706] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 13,
+						},
+						[28878] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 13,
+						},
+						[19708] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 13,
+						},
+						[604] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 13,
+						},
+						[1460] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 13,
+						},
+					},
+					["time"] = 9.850000000000001,
+					["totaldamagetaken"] = 48,
+					["damage"] = 546,
+					["overheal"] = 38,
+					["damagetaken"] = 40,
+					["id"] = "0x07000000009762D4",
+					["spec"] = 266,
+					["healspells"] = {
+						[54181] = {
+							["overheal"] = 38,
+							["max"] = 18,
+							["count"] = 3,
+							["amount"] = 23,
+							["school"] = 2,
+							["min"] = 5,
+							["targets"] = {
+								["Graz'kath"] = {
+									["overheal"] = 38,
+									["amount"] = 23,
+								},
+							},
+						},
+					},
+					["damagetakenspells"] = {
+						["Shadow Word: Pain (DoT)"] = {
+							["total"] = 48,
+							["hitmin"] = 20,
+							["id"] = 11639,
+							["sources"] = {
+								["Blackrock Shadowcaster"] = {
+									["total"] = 48,
+									["amount"] = 40,
+								},
+							},
+							["count"] = 2,
+							["hit"] = 2,
+							["school"] = 32,
+							["hitmax"] = 20,
+							["amount"] = 40,
+							["hitamount"] = 40,
+						},
+					},
+					["heal"] = 23,
+					["name"] = "Tapatapa",
+					["overkill"] = 91,
+					["damagespells"] = {
+						["Shadow Bolt"] = {
+							["hitmax"] = 130,
+							["criticalmin"] = 160,
+							["hitmin"] = 124,
+							["criticalamount"] = 160,
+							["id"] = 1088,
+							["criticalmax"] = 160,
+							["targets"] = {
+								["Blackrock Sentry"] = {
+									["amount"] = 130,
+								},
+								["Blackrock Shadowcaster"] = {
+									["overkill"] = 91,
+									["amount"] = 284,
+								},
+							},
+							["overkill"] = 91,
+							["critical"] = 1,
+							["casts"] = 3,
+							["count"] = 3,
+							["hit"] = 2,
+							["school"] = 32,
+							["resisted"] = 39,
+							["amount"] = 414,
+							["hitamount"] = 254,
+						},
+						["Melee (Graz'kath)"] = {
+							["hitmin"] = 26,
+							["criticalamount"] = 52,
+							["id"] = 6603,
+							["hitmax"] = 28,
+							["targets"] = {
+								["Blackrock Sentry"] = {
+									["amount"] = 52,
+								},
+								["Blackrock Shadowcaster"] = {
+									["amount"] = 80,
+								},
+							},
+							["count"] = 5,
+							["hit"] = 3,
+							["criticalmax"] = 52,
+							["critical"] = 1,
+							["amount"] = 132,
+							["school"] = 1,
+							["criticalmin"] = 52,
+							["MISS"] = 1,
+							["hitamount"] = 80,
+						},
+					},
+					["totaldamage"] = 546,
+					["role"] = "DAMAGER",
+				}, -- [2]
+			},
+			["type"] = "group",
+			["damagetaken"] = 40,
+			["damage"] = 1114,
+			["etotaldamage"] = 48,
+			["overheal"] = 38,
+			["overkill"] = 99,
+			["edamagetaken"] = 1114,
+			["heal"] = 23,
+			["name"] = "Blackrock Sentry (4)",
+			["mobname"] = "Blackrock Sentry",
+			["starttime"] = 1689881622,
+			["edamage"] = 40,
+			["last_action"] = 1689881635,
+			["endtime"] = 1689881635,
+		}, -- [9]
+		{
+			["enemies"] = {
+				{
+					["id"] = "0xF130000FE1006479",
+					["name"] = "Blackrock Sentry",
+					["totaldamagetaken"] = 648,
+					["flag"] = 134285896,
+					["class"] = "MONSTER",
+					["damagetaken"] = 648,
+					["damagetakenspells"] = {
+						[3140] = {
+							["school"] = 4,
+							["sources"] = {
+								["Sculamare"] = {
+									["overkill"] = 86,
+									["amount"] = 243,
+								},
+							},
+							["overkill"] = 86,
+							["amount"] = 243,
+						},
+						[11366] = {
+							["school"] = 4,
+							["sources"] = {
+								["Sculamare"] = {
+									["amount"] = 212,
+								},
+							},
+							["amount"] = 212,
+						},
+						[6603] = {
+							["school"] = 1,
+							["sources"] = {
+								["Tapatapa"] = {
+									["amount"] = 54,
+								},
+							},
+							["amount"] = 54,
+						},
+						[1088] = {
+							["school"] = 32,
+							["sources"] = {
+								["Tapatapa"] = {
+									["amount"] = 116,
+								},
+							},
+							["amount"] = 116,
 						},
 						[6222] = {
 							["school"] = 32,
 							["sources"] = {
 								["Tapatapa"] = {
-									["amount"] = 107,
+									["amount"] = 23,
 								},
 							},
-							["amount"] = 107,
+							["amount"] = 23,
 						},
 					},
-					["totaldamage"] = 573,
-					["name"] = "Elder Ashenvale Bear",
-					["totaldamagetaken"] = 2693,
-					["id"] = "0xF130000EE20E9C33",
-					["damage"] = 573,
 				}, -- [1]
 			},
-			["totaldamage"] = 2693,
-			["time"] = 46,
-			["totaldamagetaken"] = 573,
-			["etotaldamagetaken"] = 2693,
-			["damage"] = 2693,
-			["overheal"] = 25,
-			["type"] = "group",
-			["damagetaken"] = 573,
-			["last_time"] = 10006.757,
-			["etotaldamage"] = 573,
-			["starttime"] = 1689803615,
-			["overkill"] = 139,
-			["edamagetaken"] = 2693,
-			["heal"] = 480,
-			["name"] = "Elder Ashenvale Bear (5)",
-			["mobname"] = "Elder Ashenvale Bear",
+			["totaldamage"] = 648,
+			["time"] = 8,
+			["etotaldamagetaken"] = 648,
+			["last_time"] = 7201.528,
 			["players"] = {
 				{
-					["last"] = 10001.755,
-					["flag"] = 1297,
-					["class"] = "MAGE",
-					["auras"] = {
-						[1460] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 46,
-						},
-						[59548] = {
-							["school"] = 2,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 15,
-						},
-						[7301] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 46,
-						},
-						[28878] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 46,
-						},
-						[3166] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 46,
-						},
-						[6136] = {
-							["type"] = "DEBUFF",
-							["count"] = 2,
-							["school"] = 16,
-							["refresh"] = 5,
-							["targets"] = {
-								["Elder Ashenvale Bear"] = {
-									["refresh"] = 5,
-									["count"] = 2,
-									["uptime"] = 23,
-								},
-							},
-							["uptime"] = 23,
-						},
-						[7844] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 46,
-						},
-					},
-					["role"] = "DAMAGER",
-					["time"] = 34.75,
-					["totaldamagetaken"] = 573,
-					["damage"] = 1492,
 					["damagespells"] = {
-						["Chilled"] = {
-							["casts"] = 1,
-							["count"] = 6,
-							["amount"] = 0,
-							["school"] = 16,
-							["targets"] = {
-								["Elder Ashenvale Bear"] = {
-									["amount"] = 0,
-								},
-							},
-							["MISS"] = 6,
-							["id"] = 6136,
-						},
 						["Fireball"] = {
-							["hitmin"] = 88,
+							["hitmin"] = 109,
 							["id"] = 3140,
-							["hitmax"] = 138,
 							["targets"] = {
-								["Elder Ashenvale Bear"] = {
-									["overkill"] = 115,
-									["amount"] = 1424,
+								["Blackrock Sentry"] = {
+									["overkill"] = 86,
+									["amount"] = 243,
 								},
 							},
-							["overkill"] = 115,
-							["amount"] = 1424,
-							["casts"] = 14,
-							["count"] = 15,
-							["hit"] = 12,
+							["overkill"] = 86,
+							["casts"] = 1,
+							["count"] = 2,
+							["hit"] = 2,
 							["school"] = 4,
-							["resisted"] = 154,
-							["MISS"] = 3,
-							["hitamount"] = 1424,
+							["hitmax"] = 134,
+							["amount"] = 243,
+							["hitamount"] = 243,
 						},
-						["Fire Blast"] = {
-							["hitmin"] = 68,
-							["id"] = 2137,
+						["Pyroblast"] = {
+							["hitmin"] = 197,
+							["id"] = 11366,
 							["targets"] = {
-								["Elder Ashenvale Bear"] = {
-									["amount"] = 68,
+								["Blackrock Sentry"] = {
+									["amount"] = 197,
 								},
 							},
-							["hitmax"] = 68,
 							["casts"] = 1,
 							["count"] = 1,
 							["hit"] = 1,
 							["school"] = 4,
-							["resisted"] = 17,
-							["amount"] = 68,
-							["hitamount"] = 68,
+							["hitmax"] = 197,
+							["amount"] = 197,
+							["hitamount"] = 197,
+						},
+						["Pyroblast (DoT)"] = {
+							["hitmin"] = 15,
+							["id"] = 11366,
+							["targets"] = {
+								["Blackrock Sentry"] = {
+									["amount"] = 15,
+								},
+							},
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 4,
+							["hitmax"] = 15,
+							["amount"] = 15,
+							["hitamount"] = 15,
 						},
 					},
-					["damagetaken"] = 573,
+					["last"] = 7199.738,
+					["class"] = "MAGE",
 					["id"] = "0x0700000000976299",
 					["spec"] = 63,
-					["healspells"] = {
-						[59548] = {
-							["overheal"] = 25,
-							["school"] = 2,
-							["count"] = 5,
-							["amount"] = 385,
-							["max"] = 82,
+					["overkill"] = 86,
+					["auras"] = {
+						[1460] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 8,
+						},
+						[11366] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 4,
 							["targets"] = {
-								["Sculamare"] = {
-									["overheal"] = 25,
-									["amount"] = 385,
+								["Blackrock Sentry"] = {
+									["uptime"] = 5,
+									["count"] = 1,
 								},
 							},
-							["ishot"] = true,
-							["min"] = 57,
+							["uptime"] = 5,
+						},
+						[7301] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 8,
+						},
+						[28878] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 8,
 						},
 					},
-					["damagetakenspells"] = {
-						["Melee"] = {
-							["DODGE"] = 1,
-							["hitmin"] = 32,
-							["crushing"] = 5,
-							["id"] = 6603,
-							["criticalmin"] = 70,
-							["criticalamount"] = 70,
-							["criticalmax"] = 70,
-							["hit"] = 7,
-							["sources"] = {
-								["Elder Ashenvale Bear"] = {
-									["amount"] = 573,
-								},
-							},
-							["count"] = 14,
-							["amount"] = 573,
-							["school"] = 1,
-							["hitmax"] = 39,
-							["critical"] = 1,
-							["hitamount"] = 255,
-						},
-					},
-					["heal"] = 385,
+					["totaldamage"] = 455,
+					["role"] = "DAMAGER",
 					["name"] = "Sculamare",
-					["overkill"] = 115,
-					["overheal"] = 25,
-					["totaldamage"] = 1492,
+					["flag"] = 1297,
+					["time"] = 5.91,
+					["damage"] = 455,
 				}, -- [1]
 				{
-					["last"] = 9988.554,
+					["last"] = 7197.528,
+					["flag"] = 4370,
+					["class"] = "WARLOCK",
+					["auras"] = {
+						[25228] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 8,
+						},
+						[28878] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 8,
+						},
+						[6222] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 32,
+							["targets"] = {
+								["Blackrock Sentry"] = {
+									["uptime"] = 6,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 6,
+						},
+					},
+					["time"] = 3.69,
+					["damage"] = 193,
+					["overheal"] = 0,
+					["id"] = "0x07000000009762D4",
+					["spec"] = 266,
+					["healspells"] = {
+						[54181] = {
+							["overheal"] = 0,
+							["count"] = 2,
+							["amount"] = 20,
+							["school"] = 2,
+							["max"] = 17,
+							["targets"] = {
+								["Graz'kath"] = {
+									["overheal"] = 0,
+									["amount"] = 20,
+								},
+							},
+							["min"] = 3,
+						},
+					},
+					["heal"] = 20,
+					["name"] = "Tapatapa",
+					["damagespells"] = {
+						["Corruption (DoT)"] = {
+							["hitmin"] = 23,
+							["id"] = 6222,
+							["targets"] = {
+								["Blackrock Sentry"] = {
+									["amount"] = 23,
+								},
+							},
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 32,
+							["hitmax"] = 23,
+							["amount"] = 23,
+							["hitamount"] = 23,
+						},
+						["Shadow Bolt"] = {
+							["hitmin"] = 116,
+							["id"] = 1088,
+							["targets"] = {
+								["Blackrock Sentry"] = {
+									["amount"] = 116,
+								},
+							},
+							["casts"] = 2,
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 32,
+							["hitmax"] = 116,
+							["amount"] = 116,
+							["hitamount"] = 116,
+						},
+						["Melee (Graz'kath)"] = {
+							["hitmin"] = 23,
+							["id"] = 6603,
+							["targets"] = {
+								["Blackrock Sentry"] = {
+									["amount"] = 54,
+								},
+							},
+							["PARRY"] = 1,
+							["count"] = 3,
+							["hit"] = 2,
+							["school"] = 1,
+							["hitmax"] = 31,
+							["amount"] = 54,
+							["hitamount"] = 54,
+						},
+					},
+					["totaldamage"] = 193,
+					["role"] = "DAMAGER",
+				}, -- [2]
+			},
+			["type"] = "group",
+			["damage"] = 648,
+			["overheal"] = 0,
+			["overkill"] = 86,
+			["edamagetaken"] = 648,
+			["heal"] = 20,
+			["name"] = "Blackrock Sentry (3)",
+			["mobname"] = "Blackrock Sentry",
+			["starttime"] = 1689881530,
+			["last_action"] = 1689881537,
+			["endtime"] = 1689881538,
+		}, -- [10]
+		{
+			["enemies"] = {
+				{
+					["id"] = "0xF130000FE1006410",
+					["name"] = "Blackrock Sentry",
+					["totaldamagetaken"] = 1111,
+					["flag"] = 134285896,
+					["class"] = "MONSTER",
+					["damagetaken"] = 1111,
+					["damagetakenspells"] = {
+						[3140] = {
+							["school"] = 4,
+							["sources"] = {
+								["Sculamare"] = {
+									["overkill"] = 43,
+									["amount"] = 343,
+								},
+							},
+							["overkill"] = 43,
+							["amount"] = 343,
+						},
+						[11366] = {
+							["school"] = 4,
+							["sources"] = {
+								["Sculamare"] = {
+									["amount"] = 224,
+								},
+							},
+							["amount"] = 224,
+						},
+						[6603] = {
+							["school"] = 1,
+							["sources"] = {
+								["Tapatapa"] = {
+									["amount"] = 159,
+								},
+							},
+							["amount"] = 159,
+						},
+						[1088] = {
+							["school"] = 32,
+							["sources"] = {
+								["Tapatapa"] = {
+									["amount"] = 362,
+								},
+							},
+							["amount"] = 362,
+						},
+						[6222] = {
+							["school"] = 32,
+							["sources"] = {
+								["Tapatapa"] = {
+									["overkill"] = 14,
+									["amount"] = 23,
+								},
+							},
+							["overkill"] = 14,
+							["amount"] = 23,
+						},
+					},
+				}, -- [1]
+			},
+			["totaldamage"] = 1111,
+			["time"] = 15,
+			["etotaldamagetaken"] = 1111,
+			["last_time"] = 7189.119000000001,
+			["players"] = {
+				{
+					["damagespells"] = {
+						["Fireball"] = {
+							["hitmin"] = 108,
+							["id"] = 3140,
+							["targets"] = {
+								["Blackrock Sentry"] = {
+									["overkill"] = 43,
+									["amount"] = 343,
+								},
+							},
+							["overkill"] = 43,
+							["casts"] = 3,
+							["count"] = 3,
+							["hit"] = 3,
+							["school"] = 4,
+							["hitmax"] = 123,
+							["amount"] = 343,
+							["hitamount"] = 343,
+						},
+						["Pyroblast"] = {
+							["hitmin"] = 209,
+							["id"] = 11366,
+							["targets"] = {
+								["Blackrock Sentry"] = {
+									["amount"] = 209,
+								},
+							},
+							["casts"] = 2,
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 4,
+							["hitmax"] = 209,
+							["amount"] = 209,
+							["hitamount"] = 209,
+						},
+						["Pyroblast (DoT)"] = {
+							["hitmin"] = 15,
+							["id"] = 11366,
+							["targets"] = {
+								["Blackrock Sentry"] = {
+									["amount"] = 15,
+								},
+							},
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 4,
+							["hitmax"] = 15,
+							["amount"] = 15,
+							["hitamount"] = 15,
+						},
+					},
+					["last"] = 7187.529000000001,
+					["class"] = "MAGE",
+					["id"] = "0x0700000000976299",
+					["spec"] = 63,
+					["overkill"] = 43,
+					["auras"] = {
+						[1460] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 15,
+						},
+						[11366] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 4,
+							["targets"] = {
+								["Blackrock Sentry"] = {
+									["uptime"] = 3,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 3,
+						},
+						[7301] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 15,
+						},
+						[28878] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 15,
+						},
+					},
+					["totaldamage"] = 567,
+					["role"] = "DAMAGER",
+					["name"] = "Sculamare",
+					["flag"] = 1297,
+					["time"] = 10.75,
+					["damage"] = 567,
+				}, -- [1]
+				{
+					["last"] = 7185.529000000001,
 					["flag"] = 1298,
 					["class"] = "WARLOCK",
 					["auras"] = {
 						[25228] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 46,
+							["uptime"] = 15,
 						},
-						[1460] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 46,
-						},
-						[19708] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 46,
-						},
-						[1108] = {
+						[6205] = {
 							["type"] = "DEBUFF",
 							["count"] = 1,
 							["school"] = 32,
 							["targets"] = {
-								["Elder Ashenvale Bear"] = {
-									["uptime"] = 44,
+								["Blackrock Sentry"] = {
+									["uptime"] = 4,
 									["count"] = 1,
 								},
 							},
-							["uptime"] = 44,
+							["uptime"] = 4,
+						},
+						[28878] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 15,
 						},
 						[6222] = {
 							["type"] = "DEBUFF",
 							["count"] = 1,
 							["school"] = 32,
 							["targets"] = {
-								["Elder Ashenvale Bear"] = {
-									["uptime"] = 15,
+								["Blackrock Sentry"] = {
+									["uptime"] = 3,
 									["count"] = 1,
 								},
 							},
-							["uptime"] = 15,
-						},
-						[28878] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 46,
+							["uptime"] = 3,
 						},
 					},
-					["totaldamage"] = 1201,
-					["time"] = 20.48,
-					["damage"] = 1201,
+					["time"] = 10.61,
+					["damage"] = 544,
 					["damagespells"] = {
 						["Corruption (DoT)"] = {
-							["hitmin"] = 19,
+							["hitmin"] = 23,
 							["id"] = 6222,
 							["targets"] = {
-								["Elder Ashenvale Bear"] = {
-									["amount"] = 107,
+								["Blackrock Sentry"] = {
+									["overkill"] = 14,
+									["amount"] = 23,
 								},
 							},
-							["hitmax"] = 24,
-							["count"] = 5,
-							["hit"] = 5,
+							["overkill"] = 14,
+							["count"] = 1,
+							["hit"] = 1,
 							["school"] = 32,
-							["resisted"] = 12,
-							["amount"] = 107,
-							["hitamount"] = 107,
+							["hitmax"] = 23,
+							["amount"] = 23,
+							["hitamount"] = 23,
 						},
 						["Melee (Graz'kath)"] = {
-							["DODGE"] = 2,
-							["glance"] = 116,
-							["hitmin"] = 18,
-							["targets"] = {
-								["Elder Ashenvale Bear"] = {
-									["overkill"] = 24,
-									["amount"] = 527,
-								},
-							},
-							["glancing"] = 5,
-							["amount"] = 527,
-							["MISS"] = 2,
-							["glancemin"] = 20,
+							["hitmin"] = 23,
 							["id"] = 6603,
-							["glancemax"] = 25,
-							["overkill"] = 24,
-							["hitmax"] = 35,
-							["hit"] = 14,
+							["targets"] = {
+								["Blackrock Sentry"] = {
+									["amount"] = 159,
+								},
+							},
+							["count"] = 6,
+							["hit"] = 6,
 							["school"] = 1,
-							["blocked"] = 26,
-							["count"] = 23,
-							["hitamount"] = 411,
-						},
-						["Immolate"] = {
-							["casts"] = 2,
-							["count"] = 2,
-							["amount"] = 0,
-							["school"] = 4,
-							["targets"] = {
-								["Elder Ashenvale Bear"] = {
-									["amount"] = 0,
-								},
-							},
-							["MISS"] = 2,
-							["id"] = 1094,
-						},
-						["Torment (Graz'kath)"] = {
-							["casts"] = 1,
-							["count"] = 3,
-							["amount"] = 0,
-							["school"] = 32,
-							["targets"] = {
-								["Elder Ashenvale Bear"] = {
-									["amount"] = 0,
-								},
-							},
-							["MISS"] = 3,
-							["id"] = 7809,
+							["hitmax"] = 30,
+							["amount"] = 159,
+							["hitamount"] = 159,
 						},
 						["Shadow Bolt"] = {
-							["hitmin"] = 92,
+							["hitmin"] = 118,
 							["id"] = 1088,
 							["targets"] = {
-								["Elder Ashenvale Bear"] = {
-									["amount"] = 567,
+								["Blackrock Sentry"] = {
+									["amount"] = 362,
 								},
 							},
-							["hitmax"] = 126,
-							["amount"] = 567,
-							["casts"] = 7,
-							["count"] = 6,
-							["hit"] = 5,
+							["casts"] = 4,
+							["count"] = 3,
+							["hit"] = 3,
 							["school"] = 32,
-							["resisted"] = 61,
-							["MISS"] = 1,
-							["hitamount"] = 567,
+							["hitmax"] = 125,
+							["amount"] = 362,
+							["hitamount"] = 362,
 						},
 					},
 					["id"] = "0x07000000009762D4",
 					["spec"] = 266,
 					["healspells"] = {
 						[54181] = {
-							["overheal"] = 0,
-							["count"] = 10,
-							["amount"] = 95,
-							["school"] = 2,
+							["min"] = 3,
+							["count"] = 4,
+							["amount"] = 55,
 							["max"] = 18,
+							["overheal"] = 0,
 							["targets"] = {
 								["Graz'kath"] = {
 									["overheal"] = 0,
-									["amount"] = 95,
+									["amount"] = 55,
 								},
 							},
-							["min"] = 2,
+							["school"] = 2,
 						},
 					},
-					["overkill"] = 24,
-					["heal"] = 95,
-					["manaspells"] = {
-						[31818] = 90,
-					},
+					["overkill"] = 14,
+					["heal"] = 55,
 					["name"] = "Tapatapa",
-					["mana"] = 90,
 					["overheal"] = 0,
+					["totaldamage"] = 544,
 					["role"] = "DAMAGER",
 				}, -- [2]
 			},
-			["edamage"] = 573,
-			["last_action"] = 1689803661,
-			["endtime"] = 1689803661,
+			["type"] = "group",
+			["damage"] = 1111,
+			["overheal"] = 0,
+			["overkill"] = 57,
+			["edamagetaken"] = 1111,
+			["heal"] = 55,
+			["name"] = "Blackrock Sentry (2)",
+			["mobname"] = "Blackrock Sentry",
+			["starttime"] = 1689881511,
+			["last_action"] = 1689881525,
+			["endtime"] = 1689881526,
+		}, -- [11]
+		{
+			["enemies"] = {
+				{
+					["id"] = "0xF1300001E500635A",
+					["name"] = "Blackrock Outrunner",
+					["totaldamagetaken"] = 590,
+					["flag"] = 134285896,
+					["class"] = "MONSTER",
+					["damagetaken"] = 590,
+					["damagetakenspells"] = {
+						[6603] = {
+							["school"] = 1,
+							["sources"] = {
+								["Graz'kath"] = {
+									["amount"] = 32,
+								},
+							},
+							["amount"] = 32,
+						},
+						[3140] = {
+							["school"] = 4,
+							["sources"] = {
+								["Sculamare"] = {
+									["overkill"] = 96,
+									["amount"] = 224,
+								},
+							},
+							["overkill"] = 96,
+							["amount"] = 224,
+						},
+						[1088] = {
+							["school"] = 32,
+							["sources"] = {
+								["Tapatapa"] = {
+									["amount"] = 119,
+								},
+							},
+							["amount"] = 119,
+						},
+						[11366] = {
+							["school"] = 4,
+							["sources"] = {
+								["Sculamare"] = {
+									["amount"] = 215,
+								},
+							},
+							["amount"] = 215,
+						},
+					},
+				}, -- [1]
+				{
+					["damagespells"] = {
+						[6660] = {
+							["school"] = 1,
+							["targets"] = {
+								["Sculamare"] = {
+									["amount"] = 37,
+								},
+							},
+							["amount"] = 37,
+						},
+					},
+					["damagetaken"] = 564,
+					["id"] = "0xF130000FE0006381",
+					["class"] = "MONSTER",
+					["damagetakenspells"] = {
+						[6603] = {
+							["school"] = 1,
+							["sources"] = {
+								["Tapatapa"] = {
+									["amount"] = 88,
+								},
+							},
+							["amount"] = 88,
+						},
+						[3140] = {
+							["school"] = 4,
+							["sources"] = {
+								["Sculamare"] = {
+									["amount"] = 230,
+								},
+							},
+							["amount"] = 230,
+						},
+						[1088] = {
+							["school"] = 32,
+							["sources"] = {
+								["Tapatapa"] = {
+									["overkill"] = 80,
+									["amount"] = 246,
+								},
+							},
+							["overkill"] = 80,
+							["amount"] = 246,
+						},
+					},
+					["totaldamage"] = 37,
+					["name"] = "Blackrock Scout",
+					["totaldamagetaken"] = 564,
+					["flag"] = 134285896,
+					["damage"] = 37,
+				}, -- [2]
+			},
+			["totaldamage"] = 1154,
+			["time"] = 13,
+			["totaldamagetaken"] = 37,
+			["etotaldamagetaken"] = 1154,
+			["last_time"] = 7163.338,
+			["players"] = {
+				{
+					["last"] = 7161.628,
+					["flag"] = 1297,
+					["class"] = "MAGE",
+					["auras"] = {
+						[1460] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 13,
+						},
+						[11366] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 4,
+							["targets"] = {
+								["Blackrock Outrunner"] = {
+									["uptime"] = 4,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 4,
+						},
+						[7301] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 13,
+						},
+						[28878] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 13,
+						},
+					},
+					["time"] = 11.08,
+					["totaldamagetaken"] = 37,
+					["damage"] = 669,
+					["damagespells"] = {
+						["Fireball"] = {
+							["hitmin"] = 105,
+							["id"] = 3140,
+							["targets"] = {
+								["Blackrock Scout"] = {
+									["amount"] = 230,
+								},
+								["Blackrock Outrunner"] = {
+									["overkill"] = 96,
+									["amount"] = 224,
+								},
+							},
+							["overkill"] = 96,
+							["casts"] = 3,
+							["count"] = 4,
+							["hit"] = 4,
+							["school"] = 4,
+							["hitmax"] = 121,
+							["amount"] = 454,
+							["hitamount"] = 454,
+						},
+						["Pyroblast"] = {
+							["hitmin"] = 200,
+							["id"] = 11366,
+							["targets"] = {
+								["Blackrock Outrunner"] = {
+									["amount"] = 200,
+								},
+							},
+							["casts"] = 1,
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 4,
+							["hitmax"] = 200,
+							["amount"] = 200,
+							["hitamount"] = 200,
+						},
+						["Pyroblast (DoT)"] = {
+							["hitmin"] = 15,
+							["id"] = 11366,
+							["targets"] = {
+								["Blackrock Outrunner"] = {
+									["amount"] = 15,
+								},
+							},
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 4,
+							["hitmax"] = 15,
+							["amount"] = 15,
+							["hitamount"] = 15,
+						},
+					},
+					["damagetaken"] = 37,
+					["id"] = "0x0700000000976299",
+					["spec"] = 63,
+					["overkill"] = 96,
+					["name"] = "Sculamare",
+					["damagetakenspells"] = {
+						["Shoot"] = {
+							["hitmin"] = 37,
+							["id"] = 6660,
+							["sources"] = {
+								["Blackrock Scout"] = {
+									["amount"] = 37,
+								},
+							},
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 1,
+							["hitmax"] = 37,
+							["amount"] = 37,
+							["hitamount"] = 37,
+						},
+					},
+					["totaldamage"] = 669,
+					["role"] = "DAMAGER",
+				}, -- [1]
+				{
+					["last"] = 7162.496,
+					["flag"] = 4370,
+					["class"] = "WARLOCK",
+					["auras"] = {
+						[28878] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 13,
+						},
+						[25228] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 13,
+						},
+					},
+					["time"] = 9.82,
+					["damage"] = 485,
+					["overheal"] = 35,
+					["id"] = "0x07000000009762D4",
+					["spec"] = 266,
+					["healspells"] = {
+						[54181] = {
+							["overheal"] = 35,
+							["max"] = 18,
+							["count"] = 3,
+							["amount"] = 18,
+							["school"] = 2,
+							["min"] = 18,
+							["targets"] = {
+								["Graz'kath"] = {
+									["overheal"] = 35,
+									["amount"] = 18,
+								},
+							},
+						},
+					},
+					["overkill"] = 80,
+					["heal"] = 18,
+					["name"] = "Tapatapa",
+					["damagespells"] = {
+						["Shadow Bolt"] = {
+							["hitmin"] = 119,
+							["id"] = 1088,
+							["targets"] = {
+								["Blackrock Scout"] = {
+									["overkill"] = 80,
+									["amount"] = 246,
+								},
+								["Blackrock Outrunner"] = {
+									["amount"] = 119,
+								},
+							},
+							["overkill"] = 80,
+							["casts"] = 3,
+							["count"] = 3,
+							["hit"] = 3,
+							["school"] = 32,
+							["hitmax"] = 124,
+							["amount"] = 365,
+							["hitamount"] = 365,
+						},
+						["Melee (Graz'kath)"] = {
+							["hitmin"] = 24,
+							["criticalamount"] = 64,
+							["id"] = 6603,
+							["criticalmin"] = 64,
+							["targets"] = {
+								["Blackrock Scout"] = {
+									["amount"] = 88,
+								},
+								["Blackrock Outrunner"] = {
+									["amount"] = 32,
+								},
+							},
+							["criticalmax"] = 64,
+							["critical"] = 1,
+							["PARRY"] = 2,
+							["count"] = 5,
+							["hit"] = 2,
+							["school"] = 1,
+							["hitmax"] = 32,
+							["amount"] = 120,
+							["hitamount"] = 56,
+						},
+					},
+					["totaldamage"] = 485,
+					["role"] = "DAMAGER",
+				}, -- [2]
+			},
+			["type"] = "group",
+			["damagetaken"] = 37,
+			["damage"] = 1154,
+			["etotaldamage"] = 37,
+			["overheal"] = 35,
+			["overkill"] = 176,
+			["edamagetaken"] = 1154,
+			["heal"] = 18,
+			["name"] = "Blackrock Outrunner",
+			["mobname"] = "Blackrock Outrunner",
+			["starttime"] = 1689881486,
+			["edamage"] = 37,
+			["last_action"] = 1689881499,
+			["endtime"] = 1689881499,
+		}, -- [12]
+		{
+			["enemies"] = {
+				{
+					["damagespells"] = {
+						[6660] = {
+							["school"] = 1,
+							["total"] = 152,
+							["targets"] = {
+								["Tapatapa"] = {
+									["total"] = 152,
+									["amount"] = 124,
+								},
+							},
+							["amount"] = 124,
+						},
+					},
+					["damagetaken"] = 1092,
+					["flag"] = 2632,
+					["class"] = "MONSTER",
+					["damagetakenspells"] = {
+						[1088] = {
+							["school"] = 32,
+							["sources"] = {
+								["Tapatapa"] = {
+									["amount"] = 554,
+								},
+							},
+							["amount"] = 554,
+						},
+						[3140] = {
+							["school"] = 4,
+							["sources"] = {
+								["Sculamare"] = {
+									["overkill"] = 30,
+									["amount"] = 241,
+								},
+							},
+							["overkill"] = 30,
+							["amount"] = 241,
+						},
+						[2138] = {
+							["school"] = 4,
+							["sources"] = {
+								["Sculamare"] = {
+									["overkill"] = 57,
+									["amount"] = 121,
+								},
+							},
+							["overkill"] = 57,
+							["amount"] = 121,
+						},
+						[6603] = {
+							["school"] = 1,
+							["sources"] = {
+								["Tapatapa"] = {
+									["amount"] = 176,
+								},
+							},
+							["amount"] = 176,
+						},
+					},
+					["name"] = "Blackrock Scout",
+					["totaldamage"] = 152,
+					["totaldamagetaken"] = 1092,
+					["id"] = "0xF130000FE00061DE",
+					["damage"] = 124,
+				}, -- [1]
+				{
+					["id"] = "0xF130000FE1006181",
+					["name"] = "Blackrock Sentry",
+					["totaldamagetaken"] = 173,
+					["flag"] = 134285896,
+					["class"] = "MONSTER",
+					["damagetaken"] = 173,
+					["damagetakenspells"] = {
+						[11366] = {
+							["school"] = 4,
+							["sources"] = {
+								["Sculamare"] = {
+									["overkill"] = 136,
+									["amount"] = 173,
+								},
+							},
+							["overkill"] = 136,
+							["amount"] = 173,
+						},
+					},
+				}, -- [2]
+				{
+					["id"] = "0xF1300001E500623D",
+					["name"] = "Blackrock Outrunner",
+					["totaldamagetaken"] = 87,
+					["flag"] = 68168,
+					["class"] = "MONSTER",
+					["damagetaken"] = 87,
+					["damagetakenspells"] = {
+						[6603] = {
+							["school"] = 1,
+							["sources"] = {
+								["Tapatapa"] = {
+									["amount"] = 87,
+								},
+							},
+							["amount"] = 87,
+						},
+					},
+				}, -- [3]
+			},
+			["totaldamage"] = 1352,
+			["time"] = 20,
+			["damage"] = 1352,
+			["totaldamagetaken"] = 152,
+			["etotaldamagetaken"] = 1352,
+			["last_time"] = 7100.665,
+			["players"] = {
+				{
+					["damagespells"] = {
+						["Fireball"] = {
+							["hitmin"] = 117,
+							["id"] = 3140,
+							["targets"] = {
+								["Blackrock Scout"] = {
+									["overkill"] = 30,
+									["amount"] = 241,
+								},
+							},
+							["overkill"] = 30,
+							["casts"] = 1,
+							["count"] = 2,
+							["hit"] = 2,
+							["school"] = 4,
+							["hitmax"] = 124,
+							["amount"] = 241,
+							["hitamount"] = 241,
+						},
+						["Pyroblast"] = {
+							["hitmin"] = 173,
+							["id"] = 11366,
+							["targets"] = {
+								["Blackrock Sentry"] = {
+									["overkill"] = 136,
+									["amount"] = 173,
+								},
+							},
+							["overkill"] = 136,
+							["casts"] = 1,
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 4,
+							["hitmax"] = 173,
+							["amount"] = 173,
+							["hitamount"] = 173,
+						},
+						["Fire Blast"] = {
+							["hitmin"] = 121,
+							["id"] = 2138,
+							["targets"] = {
+								["Blackrock Scout"] = {
+									["overkill"] = 57,
+									["amount"] = 121,
+								},
+							},
+							["overkill"] = 57,
+							["casts"] = 1,
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 4,
+							["hitmax"] = 121,
+							["amount"] = 121,
+							["hitamount"] = 121,
+						},
+					},
+					["last"] = 7099.796,
+					["class"] = "MAGE",
+					["id"] = "0x0700000000976299",
+					["spec"] = 63,
+					["overkill"] = 223,
+					["auras"] = {
+						[1460] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 20,
+						},
+						[7301] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 20,
+						},
+						[28878] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 20,
+						},
+					},
+					["totaldamage"] = 535,
+					["role"] = "DAMAGER",
+					["name"] = "Sculamare",
+					["flag"] = 1297,
+					["time"] = 11.36,
+					["damage"] = 535,
+				}, -- [1]
+				{
+					["last"] = 7099.205,
+					["flag"] = 4370,
+					["class"] = "WARLOCK",
+					["auras"] = {
+						[28878] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 20,
+						},
+						[25228] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 20,
+						},
+					},
+					["time"] = 13.9,
+					["totaldamagetaken"] = 152,
+					["damage"] = 817,
+					["overheal"] = 0,
+					["damagetaken"] = 124,
+					["id"] = "0x07000000009762D4",
+					["spec"] = 266,
+					["healspells"] = {
+						[54181] = {
+							["min"] = 18,
+							["count"] = 4,
+							["amount"] = 82,
+							["max"] = 27,
+							["overheal"] = 0,
+							["targets"] = {
+								["Graz'kath"] = {
+									["overheal"] = 0,
+									["amount"] = 82,
+								},
+							},
+							["school"] = 2,
+						},
+					},
+					["damagetakenspells"] = {
+						["Shoot"] = {
+							["total"] = 152,
+							["hitmin"] = 28,
+							["id"] = 6660,
+							["sources"] = {
+								["Blackrock Scout"] = {
+									["total"] = 152,
+									["amount"] = 124,
+								},
+							},
+							["count"] = 4,
+							["hit"] = 4,
+							["school"] = 1,
+							["hitmax"] = 35,
+							["amount"] = 124,
+							["hitamount"] = 124,
+						},
+					},
+					["heal"] = 82,
+					["name"] = "Tapatapa",
+					["damagespells"] = {
+						["Shadow Bolt"] = {
+							["hitmin"] = 121,
+							["criticalamount"] = 183,
+							["id"] = 1088,
+							["hitmax"] = 128,
+							["targets"] = {
+								["Blackrock Scout"] = {
+									["amount"] = 554,
+								},
+							},
+							["count"] = 4,
+							["hit"] = 3,
+							["casts"] = 3,
+							["critical"] = 1,
+							["amount"] = 554,
+							["school"] = 32,
+							["criticalmin"] = 183,
+							["criticalmax"] = 183,
+							["hitamount"] = 371,
+						},
+						["Melee (Graz'kath)"] = {
+							["amount"] = 263,
+							["hitmin"] = 25,
+							["criticalamount"] = 58,
+							["id"] = 6603,
+							["criticalmin"] = 58,
+							["targets"] = {
+								["Blackrock Scout"] = {
+									["amount"] = 176,
+								},
+								["Blackrock Outrunner"] = {
+									["amount"] = 87,
+								},
+							},
+							["criticalmax"] = 58,
+							["critical"] = 1,
+							["PARRY"] = 1,
+							["count"] = 10,
+							["hit"] = 7,
+							["school"] = 1,
+							["hitmax"] = 32,
+							["MISS"] = 1,
+							["hitamount"] = 205,
+						},
+					},
+					["totaldamage"] = 817,
+					["role"] = "DAMAGER",
+				}, -- [2]
+			},
+			["type"] = "group",
+			["damagetaken"] = 124,
+			["etotaldamage"] = 152,
+			["overheal"] = 0,
+			["overkill"] = 223,
+			["edamagetaken"] = 1352,
+			["heal"] = 82,
+			["name"] = "Blackrock Scout",
+			["mobname"] = "Blackrock Scout",
+			["starttime"] = 1689881417,
+			["edamage"] = 124,
+			["last_action"] = 1689881436,
+			["endtime"] = 1689881437,
 		}, -- [13]
 		{
 			["enemies"] = {
@@ -3088,647 +5150,626 @@ SkadaStorageDB = {
 							["school"] = 1,
 							["targets"] = {
 								["Sculamare"] = {
-									["amount"] = 34,
+									["amount"] = 25,
 								},
 							},
-							["amount"] = 34,
+							["amount"] = 25,
 						},
 					},
-					["damagetaken"] = 909,
+					["damagetaken"] = 625,
 					["flag"] = 134285896,
 					["class"] = "MONSTER",
 					["damagetakenspells"] = {
-						[3140] = {
-							["school"] = 4,
-							["sources"] = {
-								["Sculamare"] = {
-									["amount"] = 125,
-								},
-							},
-							["amount"] = 125,
-						},
 						[11366] = {
 							["school"] = 4,
 							["sources"] = {
 								["Sculamare"] = {
-									["amount"] = 355,
+									["amount"] = 223,
 								},
 							},
-							["amount"] = 355,
+							["amount"] = 223,
+						},
+						[3140] = {
+							["school"] = 4,
+							["sources"] = {
+								["Sculamare"] = {
+									["overkill"] = 63,
+									["amount"] = 379,
+								},
+							},
+							["overkill"] = 63,
+							["amount"] = 379,
 						},
 						[6603] = {
 							["school"] = 1,
 							["sources"] = {
 								["Tapatapa"] = {
-									["amount"] = 53,
+									["amount"] = 23,
 								},
 							},
-							["amount"] = 53,
-						},
-						[1088] = {
-							["school"] = 32,
-							["sources"] = {
-								["Tapatapa"] = {
-									["amount"] = 309,
-								},
-							},
-							["amount"] = 309,
-						},
-						[12654] = {
-							["school"] = 4,
-							["sources"] = {
-								["Sculamare"] = {
-									["amount"] = 67,
-								},
-							},
-							["amount"] = 67,
+							["amount"] = 23,
 						},
 					},
-					["totaldamage"] = 34,
-					["name"] = "Elder Ashenvale Bear",
-					["totaldamagetaken"] = 909,
-					["id"] = "0xF130000EE20F6B9F",
-					["damage"] = 34,
+					["name"] = "Blackrock Sentry",
+					["totaldamage"] = 25,
+					["totaldamagetaken"] = 625,
+					["id"] = "0xF130000FE1006221",
+					["damage"] = 25,
 				}, -- [1]
 			},
-			["totaldamage"] = 909,
-			["time"] = 7,
-			["totaldamagetaken"] = 34,
-			["etotaldamagetaken"] = 909,
-			["last_time"] = 9941.594999999999,
+			["totaldamage"] = 625,
+			["time"] = 9,
+			["totaldamagetaken"] = 25,
+			["etotaldamagetaken"] = 625,
+			["last_time"] = 7072.164,
 			["players"] = {
 				{
-					["damagespells"] = {
-						["Fireball"] = {
-							["hitmin"] = 125,
-							["id"] = 3140,
-							["targets"] = {
-								["Elder Ashenvale Bear"] = {
-									["amount"] = 125,
-								},
-							},
-							["hitmax"] = 125,
-							["casts"] = 1,
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 4,
-							["resisted"] = 13,
-							["amount"] = 125,
-							["hitamount"] = 125,
-						},
-						["Pyroblast"] = {
-							["criticalamount"] = 339,
-							["id"] = 11366,
-							["targets"] = {
-								["Elder Ashenvale Bear"] = {
-									["amount"] = 339,
-								},
-							},
-							["casts"] = 1,
-							["critical"] = 1,
-							["amount"] = 339,
-							["school"] = 4,
-							["criticalmin"] = 339,
-							["criticalmax"] = 339,
-							["count"] = 1,
-						},
-						["Pyroblast (DoT)"] = {
-							["hitmin"] = 16,
-							["id"] = 11366,
-							["targets"] = {
-								["Elder Ashenvale Bear"] = {
-									["amount"] = 16,
-								},
-							},
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 4,
-							["hitmax"] = 16,
-							["amount"] = 16,
-							["hitamount"] = 16,
-						},
-						["Ignite (DoT)"] = {
-							["hitmin"] = 67,
-							["id"] = 12654,
-							["targets"] = {
-								["Elder Ashenvale Bear"] = {
-									["amount"] = 67,
-								},
-							},
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 4,
-							["hitmax"] = 67,
-							["amount"] = 67,
-							["hitamount"] = 67,
-						},
-						["Shoot"] = {
-							["casts"] = 1,
-							["count"] = 1,
-							["amount"] = 0,
-							["school"] = 1,
-							["targets"] = {
-								["Elder Ashenvale Bear"] = {
-									["amount"] = 0,
-								},
-							},
-							["MISS"] = 1,
-							["id"] = 5019,
-						},
-					},
-					["last"] = 9940.589,
-					["damagetaken"] = 34,
+					["last"] = 7072.148,
 					["flag"] = 1297,
 					["class"] = "MAGE",
-					["id"] = "0x0700000000976299",
 					["auras"] = {
-						[1460] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 7,
-						},
-						[12654] = {
+						[11366] = {
 							["type"] = "DEBUFF",
 							["count"] = 1,
 							["school"] = 4,
 							["targets"] = {
-								["Elder Ashenvale Bear"] = {
-									["uptime"] = 4,
+								["Blackrock Sentry"] = {
+									["uptime"] = 6,
 									["count"] = 1,
 								},
 							},
-							["uptime"] = 4,
-						},
-						[7844] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 7,
+							["uptime"] = 6,
 						},
 						[7301] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 7,
+							["uptime"] = 9,
 						},
 						[28878] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 7,
+							["uptime"] = 9,
 						},
 						[6136] = {
 							["type"] = "DEBUFF",
 							["count"] = 1,
 							["school"] = 16,
 							["targets"] = {
-								["Elder Ashenvale Bear"] = {
-									["uptime"] = 1,
+								["Blackrock Sentry"] = {
+									["uptime"] = 2,
 									["count"] = 1,
 								},
 							},
-							["uptime"] = 1,
+							["uptime"] = 2,
 						},
-						[3166] = {
+						[1460] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 7,
-						},
-						[11366] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 4,
-							["targets"] = {
-								["Elder Ashenvale Bear"] = {
-									["uptime"] = 4,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 4,
+							["uptime"] = 9,
 						},
 					},
-					["totaldamage"] = 547,
 					["role"] = "DAMAGER",
-					["time"] = 4.29,
+					["time"] = 7.810000000000001,
+					["totaldamagetaken"] = 25,
+					["damage"] = 602,
+					["damagespells"] = {
+						["Fireball"] = {
+							["hitmin"] = 124,
+							["id"] = 3140,
+							["targets"] = {
+								["Blackrock Sentry"] = {
+									["overkill"] = 63,
+									["amount"] = 379,
+								},
+							},
+							["overkill"] = 63,
+							["casts"] = 2,
+							["count"] = 3,
+							["hit"] = 3,
+							["school"] = 4,
+							["hitmax"] = 128,
+							["amount"] = 379,
+							["hitamount"] = 379,
+						},
+						["Pyroblast"] = {
+							["hitmin"] = 193,
+							["id"] = 11366,
+							["targets"] = {
+								["Blackrock Sentry"] = {
+									["amount"] = 193,
+								},
+							},
+							["casts"] = 1,
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 4,
+							["hitmax"] = 193,
+							["amount"] = 193,
+							["hitamount"] = 193,
+						},
+						["Pyroblast (DoT)"] = {
+							["hitmin"] = 15,
+							["id"] = 11366,
+							["targets"] = {
+								["Blackrock Sentry"] = {
+									["amount"] = 30,
+								},
+							},
+							["count"] = 2,
+							["hit"] = 2,
+							["school"] = 4,
+							["hitmax"] = 15,
+							["amount"] = 30,
+							["hitamount"] = 30,
+						},
+					},
+					["damagetaken"] = 25,
+					["id"] = "0x0700000000976299",
+					["spec"] = 63,
 					["damagetakenspells"] = {
 						["Melee"] = {
-							["hitmin"] = 34,
+							["hitmin"] = 25,
 							["id"] = 6603,
 							["sources"] = {
-								["Elder Ashenvale Bear"] = {
-									["amount"] = 34,
+								["Blackrock Sentry"] = {
+									["amount"] = 25,
 								},
 							},
 							["count"] = 1,
 							["hit"] = 1,
 							["school"] = 1,
-							["hitmax"] = 34,
-							["amount"] = 34,
-							["hitamount"] = 34,
+							["hitmax"] = 25,
+							["amount"] = 25,
+							["hitamount"] = 25,
 						},
 					},
-					["spec"] = 63,
-					["totaldamagetaken"] = 34,
 					["name"] = "Sculamare",
-					["damage"] = 547,
+					["overkill"] = 63,
+					["totaldamage"] = 602,
 				}, -- [1]
 				{
-					["overheal"] = 0,
-					["last"] = 9941.576000000001,
-					["flag"] = 4370,
-					["id"] = "0x07000000009762D4",
-					["class"] = "WARLOCK",
-					["healspells"] = {
-						[54181] = {
-							["overheal"] = 0,
-							["count"] = 2,
-							["amount"] = 46,
-							["school"] = 2,
-							["max"] = 27,
+					["damagespells"] = {
+						["Melee (Graz'kath)"] = {
+							["glance"] = 23,
+							["id"] = 6603,
+							["glancemax"] = 23,
+							["glancing"] = 1,
+							["count"] = 1,
+							["amount"] = 23,
+							["school"] = 1,
 							["targets"] = {
-								["Graz'kath"] = {
-									["overheal"] = 0,
-									["amount"] = 46,
+								["Blackrock Sentry"] = {
+									["amount"] = 23,
 								},
 							},
-							["min"] = 19,
+							["glancemin"] = 23,
 						},
 					},
+					["last"] = 7064.355000000001,
+					["id"] = "0x07000000009762D4",
+					["spec"] = 266,
+					["class"] = "WARLOCK",
 					["auras"] = {
-						[1460] = {
+						[28878] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 7,
+							["uptime"] = 9,
 						},
 						[25228] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 7,
-						},
-						[28878] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 7,
-						},
-						[19708] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 7,
+							["uptime"] = 9,
 						},
 					},
+					["totaldamage"] = 23,
 					["role"] = "DAMAGER",
-					["heal"] = 46,
-					["time"] = 5.28,
-					["spec"] = 266,
 					["name"] = "Tapatapa",
-					["damagespells"] = {
-						["Shadow Bolt"] = {
-							["criticalamount"] = 180,
-							["hitmin"] = 129,
-							["criticalmin"] = 180,
-							["id"] = 1088,
-							["hitmax"] = 129,
-							["targets"] = {
-								["Elder Ashenvale Bear"] = {
-									["amount"] = 309,
-								},
-							},
-							["critical"] = 1,
-							["hit"] = 1,
-							["criticalmax"] = 180,
-							["count"] = 2,
-							["amount"] = 309,
-							["school"] = 32,
-							["resisted"] = 19,
-							["casts"] = 2,
-							["hitamount"] = 129,
-						},
-						["Melee (Graz'kath)"] = {
-							["glance"] = 25,
-							["hitmin"] = 28,
-							["id"] = 6603,
-							["targets"] = {
-								["Elder Ashenvale Bear"] = {
-									["amount"] = 53,
-								},
-							},
-							["glancemin"] = 25,
-							["glancing"] = 1,
-							["glancemax"] = 25,
-							["count"] = 2,
-							["hit"] = 1,
-							["school"] = 1,
-							["hitmax"] = 28,
-							["amount"] = 53,
-							["hitamount"] = 28,
-						},
-					},
-					["totaldamage"] = 362,
-					["damage"] = 362,
+					["flag"] = 4370,
+					["time"] = 0,
+					["damage"] = 23,
 				}, -- [2]
 			},
 			["type"] = "group",
-			["damagetaken"] = 34,
-			["damage"] = 909,
-			["etotaldamage"] = 34,
-			["overheal"] = 0,
-			["edamagetaken"] = 909,
-			["heal"] = 46,
-			["name"] = "Elder Ashenvale Bear (4)",
-			["mobname"] = "Elder Ashenvale Bear",
-			["starttime"] = 1689803590,
-			["edamage"] = 34,
-			["last_action"] = 1689803595,
-			["endtime"] = 1689803597,
+			["damagetaken"] = 25,
+			["damage"] = 625,
+			["etotaldamage"] = 25,
+			["overkill"] = 63,
+			["edamagetaken"] = 625,
+			["name"] = "Blackrock Sentry",
+			["mobname"] = "Blackrock Sentry",
+			["starttime"] = 1689881400,
+			["edamage"] = 25,
+			["last_action"] = 1689881408,
+			["endtime"] = 1689881409,
 		}, -- [14]
 		{
 			["enemies"] = {
 				{
-					["damagetaken"] = 1073,
-					["name"] = "Elder Ashenvale Bear",
-					["totaldamagetaken"] = 1073,
-					["id"] = "0xF130000EE20CCE4B",
-					["class"] = "MONSTER",
-					["flag"] = 134285896,
-					["damagetakenspells"] = {
-						[1088] = {
-							["school"] = 32,
-							["sources"] = {
-								["Tapatapa"] = {
-									["overkill"] = 104,
-									["amount"] = 347,
+					["damagespells"] = {
+						[6603] = {
+							["school"] = 1,
+							["targets"] = {
+								["Sculamare"] = {
+									["amount"] = 55,
 								},
 							},
-							["overkill"] = 104,
-							["amount"] = 347,
+							["amount"] = 55,
 						},
+					},
+					["damagetaken"] = 1311,
+					["flag"] = 134285896,
+					["class"] = "MONSTER",
+					["damagetakenspells"] = {
 						[3140] = {
 							["school"] = 4,
 							["sources"] = {
 								["Sculamare"] = {
-									["amount"] = 548,
+									["amount"] = 465,
 								},
 							},
-							["amount"] = 548,
+							["amount"] = 465,
+						},
+						[11366] = {
+							["school"] = 4,
+							["sources"] = {
+								["Sculamare"] = {
+									["amount"] = 198,
+								},
+							},
+							["amount"] = 198,
+						},
+						[5019] = {
+							["school"] = 1,
+							["sources"] = {
+								["Sculamare"] = {
+									["amount"] = 24,
+								},
+							},
+							["amount"] = 24,
 						},
 						[6603] = {
 							["school"] = 1,
 							["sources"] = {
 								["Tapatapa"] = {
-									["amount"] = 178,
+									["amount"] = 110,
+								},
+								["Graz'kath"] = {
+									["amount"] = 23,
 								},
 							},
-							["amount"] = 178,
+							["amount"] = 133,
+						},
+						[1088] = {
+							["school"] = 32,
+							["sources"] = {
+								["Tapatapa"] = {
+									["overkill"] = 163,
+									["amount"] = 491,
+								},
+							},
+							["overkill"] = 163,
+							["amount"] = 491,
 						},
 					},
+					["name"] = "Blackrock Renegade",
+					["totaldamage"] = 55,
+					["totaldamagetaken"] = 1311,
+					["id"] = "0xF1300001B500A20C",
+					["damage"] = 55,
 				}, -- [1]
 			},
-			["totaldamage"] = 1073,
-			["time"] = 14,
-			["etotaldamagetaken"] = 1073,
-			["last_time"] = 9928.254000000001,
-			["overheal"] = 0,
-			["type"] = "group",
-			["damage"] = 1073,
-			["overkill"] = 104,
-			["edamagetaken"] = 1073,
-			["heal"] = 51,
-			["name"] = "Elder Ashenvale Bear (3)",
-			["mobname"] = "Elder Ashenvale Bear",
+			["totaldamage"] = 1311,
+			["time"] = 19,
+			["damage"] = 1311,
+			["totaldamagetaken"] = 55,
+			["etotaldamagetaken"] = 1311,
+			["last_time"] = 7050.788000000001,
 			["players"] = {
 				{
-					["damagespells"] = {
-						["Fireball"] = {
-							["hitmin"] = 126,
-							["id"] = 3140,
+					["last"] = 7048.797000000001,
+					["flag"] = 1297,
+					["class"] = "MAGE",
+					["auras"] = {
+						[11366] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 4,
 							["targets"] = {
-								["Elder Ashenvale Bear"] = {
-									["amount"] = 548,
+								["Blackrock Renegade"] = {
+									["uptime"] = 7,
+									["count"] = 1,
 								},
 							},
-							["hitmax"] = 146,
-							["amount"] = 548,
-							["casts"] = 4,
-							["count"] = 5,
-							["hit"] = 4,
-							["school"] = 4,
-							["resisted"] = 27,
-							["MISS"] = 1,
-							["hitamount"] = 548,
-						},
-					},
-					["last"] = 9927.815000000001,
-					["id"] = "0x0700000000976299",
-					["spec"] = 63,
-					["auras"] = {
-						[1460] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 14,
+							["uptime"] = 7,
 						},
 						[7301] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 14,
+							["uptime"] = 19,
 						},
 						[28878] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 14,
+							["uptime"] = 19,
 						},
-						[3166] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 14,
-						},
-						[7844] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 14,
-						},
-					},
-					["totaldamage"] = 548,
-					["name"] = "Sculamare",
-					["class"] = "MAGE",
-					["role"] = "DAMAGER",
-					["flag"] = 1297,
-					["time"] = 10.1,
-					["damage"] = 548,
-				}, -- [1]
-				{
-					["damagespells"] = {
-						["Melee (Graz'kath)"] = {
-							["glance"] = 25,
-							["hitmin"] = 19,
-							["criticalmin"] = 66,
-							["targets"] = {
-								["Elder Ashenvale Bear"] = {
-									["amount"] = 178,
-								},
-							},
-							["glancing"] = 1,
-							["amount"] = 178,
-							["MISS"] = 1,
-							["glancemin"] = 25,
-							["criticalamount"] = 66,
-							["id"] = 6603,
-							["glancemax"] = 25,
-							["blocked"] = 12,
-							["criticalmax"] = 66,
-							["count"] = 6,
-							["hit"] = 3,
-							["school"] = 1,
-							["hitmax"] = 36,
-							["critical"] = 1,
-							["hitamount"] = 87,
-						},
-						["Shadow Bolt"] = {
-							["hitmin"] = 105,
-							["id"] = 1088,
-							["hitmax"] = 121,
-							["targets"] = {
-								["Elder Ashenvale Bear"] = {
-									["overkill"] = 104,
-									["amount"] = 347,
-								},
-							},
-							["overkill"] = 104,
-							["amount"] = 347,
-							["casts"] = 4,
-							["count"] = 4,
-							["hit"] = 3,
-							["school"] = 32,
-							["resisted"] = 26,
-							["MISS"] = 1,
-							["hitamount"] = 347,
-						},
-					},
-					["last"] = 9928.235000000001,
-					["overheal"] = 0,
-					["spec"] = 266,
-					["flag"] = 1298,
-					["class"] = "WARLOCK",
-					["healspells"] = {
-						[54181] = {
-							["overheal"] = 0,
-							["count"] = 3,
-							["amount"] = 51,
-							["school"] = 2,
-							["max"] = 18,
-							["targets"] = {
-								["Graz'kath"] = {
-									["overheal"] = 0,
-									["amount"] = 51,
-								},
-							},
-							["min"] = 15,
-						},
-					},
-					["auras"] = {
-						[19708] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 14,
-						},
-						[25228] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 14,
-						},
-						[1108] = {
+						[6136] = {
 							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 32,
+							["count"] = 2,
+							["school"] = 16,
 							["targets"] = {
-								["Elder Ashenvale Bear"] = {
-									["uptime"] = 11,
-									["count"] = 1,
+								["Blackrock Renegade"] = {
+									["uptime"] = 7,
+									["count"] = 2,
 								},
 							},
-							["uptime"] = 11,
+							["uptime"] = 7,
 						},
 						[1460] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 14,
+							["uptime"] = 19,
 						},
 					},
 					["role"] = "DAMAGER",
-					["heal"] = 51,
-					["time"] = 8.19,
-					["overkill"] = 104,
-					["name"] = "Tapatapa",
-					["totaldamage"] = 525,
+					["time"] = 14.07,
+					["totaldamagetaken"] = 55,
+					["damage"] = 687,
+					["damagespells"] = {
+						["Fireball"] = {
+							["hitmin"] = 104,
+							["id"] = 3140,
+							["targets"] = {
+								["Blackrock Renegade"] = {
+									["amount"] = 465,
+								},
+							},
+							["casts"] = 3,
+							["count"] = 4,
+							["hit"] = 4,
+							["school"] = 4,
+							["hitmax"] = 127,
+							["amount"] = 465,
+							["hitamount"] = 465,
+						},
+						["Pyroblast"] = {
+							["hitmin"] = 168,
+							["id"] = 11366,
+							["targets"] = {
+								["Blackrock Renegade"] = {
+									["amount"] = 168,
+								},
+							},
+							["casts"] = 2,
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 4,
+							["hitmax"] = 168,
+							["amount"] = 168,
+							["hitamount"] = 168,
+						},
+						["Pyroblast (DoT)"] = {
+							["hitmin"] = 15,
+							["id"] = 11366,
+							["targets"] = {
+								["Blackrock Renegade"] = {
+									["amount"] = 30,
+								},
+							},
+							["count"] = 2,
+							["hit"] = 2,
+							["school"] = 4,
+							["hitmax"] = 15,
+							["amount"] = 30,
+							["hitamount"] = 30,
+						},
+						["Shoot"] = {
+							["hitmin"] = 24,
+							["id"] = 5019,
+							["targets"] = {
+								["Blackrock Renegade"] = {
+									["amount"] = 24,
+								},
+							},
+							["casts"] = 1,
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 1,
+							["hitmax"] = 24,
+							["amount"] = 24,
+							["hitamount"] = 24,
+						},
+					},
+					["damagetaken"] = 55,
+					["id"] = "0x0700000000976299",
+					["spec"] = 63,
+					["damagetakenspells"] = {
+						["Melee"] = {
+							["DODGE"] = 1,
+							["hitmin"] = 25,
+							["id"] = 6603,
+							["sources"] = {
+								["Blackrock Renegade"] = {
+									["amount"] = 55,
+								},
+							},
+							["count"] = 3,
+							["hit"] = 2,
+							["school"] = 1,
+							["hitmax"] = 30,
+							["amount"] = 55,
+							["hitamount"] = 55,
+						},
+					},
+					["name"] = "Sculamare",
+					["totaldamage"] = 687,
+				}, -- [1]
+				{
+					["last"] = 7049.997,
+					["flag"] = 1298,
+					["class"] = "WARLOCK",
+					["auras"] = {
+						[5784] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 2,
+						},
+						[28878] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 19,
+						},
+						[25228] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 32,
+							["uptime"] = 16,
+						},
+					},
+					["time"] = 11.97,
+					["damage"] = 624,
+					["overheal"] = 36,
 					["id"] = "0x07000000009762D4",
-					["damage"] = 525,
+					["spec"] = 266,
+					["healspells"] = {
+						[54181] = {
+							["overheal"] = 36,
+							["max"] = 18,
+							["count"] = 4,
+							["amount"] = 36,
+							["school"] = 2,
+							["min"] = 18,
+							["targets"] = {
+								["Graz'kath"] = {
+									["overheal"] = 36,
+									["amount"] = 36,
+								},
+							},
+						},
+					},
+					["overkill"] = 163,
+					["heal"] = 36,
+					["name"] = "Tapatapa",
+					["damagespells"] = {
+						["Shadow Bolt"] = {
+							["hitmin"] = 120,
+							["id"] = 1088,
+							["targets"] = {
+								["Blackrock Renegade"] = {
+									["overkill"] = 163,
+									["amount"] = 491,
+								},
+							},
+							["overkill"] = 163,
+							["casts"] = 3,
+							["count"] = 4,
+							["hit"] = 4,
+							["school"] = 32,
+							["hitmax"] = 126,
+							["amount"] = 491,
+							["hitamount"] = 491,
+						},
+						["Melee (Graz'kath)"] = {
+							["DODGE"] = 1,
+							["glance"] = 23,
+							["hitmin"] = 24,
+							["id"] = 6603,
+							["glancemax"] = 23,
+							["hitmax"] = 30,
+							["glancing"] = 1,
+							["hitamount"] = 110,
+							["count"] = 6,
+							["amount"] = 133,
+							["school"] = 1,
+							["hit"] = 4,
+							["targets"] = {
+								["Blackrock Renegade"] = {
+									["amount"] = 133,
+								},
+							},
+							["glancemin"] = 23,
+						},
+					},
+					["totaldamage"] = 624,
+					["role"] = "DAMAGER",
 				}, -- [2]
 			},
-			["starttime"] = 1689803570,
-			["last_action"] = 1689803582,
-			["endtime"] = 1689803584,
+			["type"] = "group",
+			["damagetaken"] = 55,
+			["etotaldamage"] = 55,
+			["overheal"] = 36,
+			["overkill"] = 163,
+			["edamagetaken"] = 1311,
+			["heal"] = 36,
+			["name"] = "Blackrock Renegade",
+			["mobname"] = "Blackrock Renegade",
+			["starttime"] = 1689881369,
+			["edamage"] = 55,
+			["last_action"] = 1689881387,
+			["endtime"] = 1689881388,
 		}, -- [15]
 	},
 	["version"] = 1878,
 	["total"] = {
-		["mana"] = 391,
-		["friendfire"] = 60,
-		["totaldamage"] = 117622,
-		["time"] = 1804,
-		["totaldamagetaken"] = 7854,
-		["damage"] = 117485,
+		["mana"] = 91,
+		["totaldamage"] = 31502,
+		["time"] = 571,
+		["totaldamagetaken"] = 3877,
+		["damage"] = 31502,
 		["players"] = {
 			{
 				["flag"] = 1297,
 				["class"] = "MAGE",
-				["totaldamage"] = 75581,
-				["time"] = 1028.08,
-				["totaldamagetaken"] = 5543,
-				["damage"] = 75444,
-				["overheal"] = 324,
-				["damagetaken"] = 5543,
+				["time"] = 266.2300000000001,
+				["totaldamagetaken"] = 2774,
+				["damage"] = 18662,
+				["overheal"] = 231,
+				["damagetaken"] = 2774,
 				["id"] = "0x0700000000976299",
 				["spec"] = 63,
-				["overkill"] = 6841,
-				["heal"] = 2518,
+				["overkill"] = 1973,
+				["heal"] = 881,
 				["name"] = "Sculamare",
-				["ccdone"] = 26,
-				["potion"] = 2,
-				["mana"] = 301,
+				["ccdone"] = 11,
+				["death"] = 1,
+				["potion"] = 1,
+				["totaldamage"] = 18662,
 				["role"] = "DAMAGER",
 			}, -- [1]
 			{
-				["flag"] = 4370,
+				["flag"] = 1298,
 				["class"] = "WARLOCK",
-				["friendfire"] = 60,
-				["totaldamage"] = 42041,
-				["time"] = 628.3,
-				["totaldamagetaken"] = 2311,
-				["damage"] = 42041,
-				["overheal"] = 396,
-				["damagetaken"] = 1768,
+				["time"] = 261.78,
+				["totaldamagetaken"] = 1103,
+				["damage"] = 12840,
+				["overheal"] = 255,
+				["damagetaken"] = 1008,
 				["id"] = "0x07000000009762D4",
 				["spec"] = 266,
-				["overkill"] = 4001,
-				["heal"] = 5034,
+				["overkill"] = 1317,
+				["heal"] = 1451,
 				["name"] = "Tapatapa",
 				["death"] = 1,
-				["mana"] = 90,
+				["mana"] = 91,
+				["totaldamage"] = 12840,
 				["role"] = "DAMAGER",
 			}, -- [2]
 			{
-				["absorb"] = 10,
 				["time"] = 0,
-				["id"] = "0xF1404234360186E4",
-				["class"] = "PET",
+				["absorb"] = 35,
+				["id"] = "0xF140423436000948",
+				["class"] = "UNKNOWN",
 				["name"] = "Graz'kath",
 			}, -- [3]
 		},
-		["absorb"] = 10,
-		["damagetaken"] = 7311,
-		["overkill"] = 10842,
-		["heal"] = 7552,
+		["absorb"] = 35,
+		["damagetaken"] = 3782,
+		["death"] = 2,
+		["potion"] = 1,
+		["overkill"] = 3290,
+		["overheal"] = 486,
+		["heal"] = 2332,
 		["name"] = "Total",
-		["ccdone"] = 26,
-		["death"] = 1,
-		["starttime"] = 1689796845,
-		["overheal"] = 720,
-		["potion"] = 2,
+		["ccdone"] = 11,
+		["starttime"] = 1689880648,
 	},
 }

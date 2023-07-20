@@ -3,33 +3,34 @@ TomTomDB = {
 	["profileKeys"] = {
 		["Rimgar - Icecrown"] = "Default",
 		["Vrael - Icecrown"] = "Default",
+		["Izanagi - Icecrown"] = "Default",
 		["Nalar - Icecrown"] = "Default",
 		["Sculatru - Icecrown"] = "Default",
 		["Denathra - Icecrown"] = "Default",
 		["Flokus - Icecrown"] = "Default",
 		["Eutanasie - Icecrown"] = "Default",
-		["Drext - Icecrown"] = "Default",
 		["Noobschmoq - Icecrown"] = "Default",
+		["Drext - Icecrown"] = "Default",
 		["Muiex - Icecrown"] = "Default",
 		["Sculamare - Icecrown"] = "Default",
-		["Morridin - Icecrown"] = "Default",
+		["Urgash - Icecrown"] = "Default",
 		["Inarya - Icecrown"] = "Default",
 		["Aevie - Icecrown"] = "Default",
-		["Urgash - Icecrown"] = "Default",
+		["Morridin - Icecrown"] = "Default",
 		["Rakhnis - Icecrown"] = "Default",
 		["Ulrezaj - Icecrown"] = "Default",
-		["Kalaam - Icecrown"] = "Default",
 		["Pocaitoru - Icecrown"] = "Default",
+		["Kalaam - Icecrown"] = "Default",
 		["Elgorath - Icecrown"] = "Default",
 		["Maciucaru - Icecrown"] = "Default",
 		["Flocparlit - Icecrown"] = "Default",
-		["Gligor - Icecrown"] = "Default",
+		["Lingurita - Lordaeron"] = "Default",
 		["Mirceabravo - Blackrock [PvP only]"] = "Default",
 		["Pufarin - Icecrown"] = "Default",
-		["Lingurita - Lordaeron"] = "Default",
+		["Gligor - Icecrown"] = "Default",
 		["Praxia - Icecrown"] = "Default",
 		["Mirceabravo - Icecrown"] = "Default",
-		["Izanagi - Icecrown"] = "Default",
+		["Pubianus - Icecrown"] = "Default",
 		["Flocius - Icecrown"] = "Default",
 		["Vhalanor - Icecrown"] = "Default",
 	},
@@ -42,33 +43,34 @@ TomTomWaypoints = {
 	["profileKeys"] = {
 		["Rimgar - Icecrown"] = "Rimgar - Icecrown",
 		["Vrael - Icecrown"] = "Vrael - Icecrown",
+		["Izanagi - Icecrown"] = "Izanagi - Icecrown",
 		["Nalar - Icecrown"] = "Nalar - Icecrown",
 		["Sculatru - Icecrown"] = "Sculatru - Icecrown",
 		["Denathra - Icecrown"] = "Denathra - Icecrown",
 		["Flokus - Icecrown"] = "Flokus - Icecrown",
 		["Eutanasie - Icecrown"] = "Eutanasie - Icecrown",
-		["Drext - Icecrown"] = "Drext - Icecrown",
 		["Noobschmoq - Icecrown"] = "Noobschmoq - Icecrown",
+		["Drext - Icecrown"] = "Drext - Icecrown",
 		["Muiex - Icecrown"] = "Muiex - Icecrown",
 		["Sculamare - Icecrown"] = "Sculamare - Icecrown",
-		["Morridin - Icecrown"] = "Morridin - Icecrown",
+		["Urgash - Icecrown"] = "Urgash - Icecrown",
 		["Inarya - Icecrown"] = "Inarya - Icecrown",
 		["Aevie - Icecrown"] = "Aevie - Icecrown",
-		["Urgash - Icecrown"] = "Urgash - Icecrown",
+		["Morridin - Icecrown"] = "Morridin - Icecrown",
 		["Rakhnis - Icecrown"] = "Rakhnis - Icecrown",
 		["Ulrezaj - Icecrown"] = "Ulrezaj - Icecrown",
-		["Kalaam - Icecrown"] = "Kalaam - Icecrown",
 		["Pocaitoru - Icecrown"] = "Pocaitoru - Icecrown",
+		["Kalaam - Icecrown"] = "Kalaam - Icecrown",
 		["Elgorath - Icecrown"] = "Elgorath - Icecrown",
 		["Maciucaru - Icecrown"] = "Maciucaru - Icecrown",
 		["Flocparlit - Icecrown"] = "Flocparlit - Icecrown",
-		["Gligor - Icecrown"] = "Gligor - Icecrown",
+		["Lingurita - Lordaeron"] = "Lingurita - Lordaeron",
 		["Mirceabravo - Blackrock [PvP only]"] = "Mirceabravo - Blackrock [PvP only]",
 		["Pufarin - Icecrown"] = "Pufarin - Icecrown",
-		["Lingurita - Lordaeron"] = "Lingurita - Lordaeron",
+		["Gligor - Icecrown"] = "Gligor - Icecrown",
 		["Praxia - Icecrown"] = "Praxia - Icecrown",
 		["Mirceabravo - Icecrown"] = "Mirceabravo - Icecrown",
-		["Izanagi - Icecrown"] = "Izanagi - Icecrown",
+		["Pubianus - Icecrown"] = "Pubianus - Icecrown",
 		["Flocius - Icecrown"] = "Flocius - Icecrown",
 		["Vhalanor - Icecrown"] = "Vhalanor - Icecrown",
 	},
@@ -76,6 +78,8 @@ TomTomWaypoints = {
 		["Rimgar - Icecrown"] = {
 		},
 		["Vrael - Icecrown"] = {
+		},
+		["Izanagi - Icecrown"] = {
 		},
 		["Nalar - Icecrown"] = {
 		},
@@ -87,29 +91,29 @@ TomTomWaypoints = {
 		},
 		["Eutanasie - Icecrown"] = {
 		},
-		["Drext - Icecrown"] = {
-		},
 		["Noobschmoq - Icecrown"] = {
+		},
+		["Drext - Icecrown"] = {
 		},
 		["Muiex - Icecrown"] = {
 		},
 		["Sculamare - Icecrown"] = {
 		},
-		["Morridin - Icecrown"] = {
+		["Urgash - Icecrown"] = {
 		},
 		["Inarya - Icecrown"] = {
 		},
 		["Aevie - Icecrown"] = {
 		},
-		["Urgash - Icecrown"] = {
+		["Morridin - Icecrown"] = {
 		},
 		["Rakhnis - Icecrown"] = {
 		},
 		["Ulrezaj - Icecrown"] = {
 		},
-		["Kalaam - Icecrown"] = {
-		},
 		["Pocaitoru - Icecrown"] = {
+		},
+		["Kalaam - Icecrown"] = {
 		},
 		["Elgorath - Icecrown"] = {
 		},
@@ -117,19 +121,19 @@ TomTomWaypoints = {
 		},
 		["Flocparlit - Icecrown"] = {
 		},
-		["Gligor - Icecrown"] = {
+		["Lingurita - Lordaeron"] = {
 		},
 		["Mirceabravo - Blackrock [PvP only]"] = {
 		},
 		["Pufarin - Icecrown"] = {
 		},
-		["Lingurita - Lordaeron"] = {
+		["Gligor - Icecrown"] = {
 		},
 		["Praxia - Icecrown"] = {
 		},
 		["Mirceabravo - Icecrown"] = {
 		},
-		["Izanagi - Icecrown"] = {
+		["Pubianus - Icecrown"] = {
 		},
 		["Flocius - Icecrown"] = {
 		},

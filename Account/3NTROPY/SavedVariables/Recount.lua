@@ -3,33 +3,34 @@ RecountDB = {
 	["profileKeys"] = {
 		["Rimgar - Icecrown"] = "Rimgar - Icecrown",
 		["Vrael - Icecrown"] = "Vrael - Icecrown",
+		["Izanagi - Icecrown"] = "Izanagi - Icecrown",
 		["Nalar - Icecrown"] = "Nalar - Icecrown",
 		["Sculatru - Icecrown"] = "Sculatru - Icecrown",
 		["Denathra - Icecrown"] = "Denathra - Icecrown",
 		["Flokus - Icecrown"] = "Flokus - Icecrown",
 		["Eutanasie - Icecrown"] = "Eutanasie - Icecrown",
-		["Drext - Icecrown"] = "Drext - Icecrown",
 		["Noobschmoq - Icecrown"] = "Noobschmoq - Icecrown",
+		["Drext - Icecrown"] = "Drext - Icecrown",
 		["Muiex - Icecrown"] = "Muiex - Icecrown",
 		["Sculamare - Icecrown"] = "Sculamare - Icecrown",
-		["Morridin - Icecrown"] = "Morridin - Icecrown",
+		["Urgash - Icecrown"] = "Urgash - Icecrown",
 		["Inarya - Icecrown"] = "Inarya - Icecrown",
 		["Aevie - Icecrown"] = "Aevie - Icecrown",
-		["Urgash - Icecrown"] = "Urgash - Icecrown",
+		["Morridin - Icecrown"] = "Morridin - Icecrown",
 		["Rakhnis - Icecrown"] = "Rakhnis - Icecrown",
 		["Ulrezaj - Icecrown"] = "Ulrezaj - Icecrown",
-		["Kalaam - Icecrown"] = "Kalaam - Icecrown",
 		["Pocaitoru - Icecrown"] = "Pocaitoru - Icecrown",
+		["Kalaam - Icecrown"] = "Kalaam - Icecrown",
 		["Elgorath - Icecrown"] = "Elgorath - Icecrown",
 		["Maciucaru - Icecrown"] = "Maciucaru - Icecrown",
 		["Flocparlit - Icecrown"] = "Flocparlit - Icecrown",
-		["Gligor - Icecrown"] = "Gligor - Icecrown",
+		["Lingurita - Lordaeron"] = "Lingurita - Lordaeron",
 		["Mirceabravo - Blackrock [PvP only]"] = "Mirceabravo - Blackrock [PvP only]",
 		["Pufarin - Icecrown"] = "Pufarin - Icecrown",
-		["Lingurita - Lordaeron"] = "Lingurita - Lordaeron",
+		["Gligor - Icecrown"] = "Gligor - Icecrown",
 		["Praxia - Icecrown"] = "Praxia - Icecrown",
 		["Mirceabravo - Icecrown"] = "Mirceabravo - Icecrown",
-		["Izanagi - Icecrown"] = "Izanagi - Icecrown",
+		["Pubianus - Icecrown"] = "Pubianus - Icecrown",
 		["Flocius - Icecrown"] = "Flocius - Icecrown",
 		["Vhalanor - Icecrown"] = "Vhalanor - Icecrown",
 	},
@@ -46,7 +47,7 @@ RecountDB = {
 			},
 			["DetailWindowX"] = 58.00000341936197,
 			["LastInstanceName"] = "Trial of the Crusader",
-			["GraphWindowX"] = 0,
+			["DetailWindowY"] = -16.99999979483828,
 			["CurDataSet"] = "CurrentFightData",
 			["Colors"] = {
 				["Bar"] = {
@@ -58,7 +59,7 @@ RecountDB = {
 					},
 				},
 			},
-			["DetailWindowY"] = -16.99999979483828,
+			["GraphWindowX"] = 0,
 			["ReportLines"] = 1,
 			["MainWindowVis"] = false,
 			["MainWindowWidth"] = 251.4197662784027,
@@ -88,11 +89,36 @@ RecountDB = {
 					},
 				},
 			},
-			["GraphWindowX"] = 0,
+			["DetailWindowY"] = -60.00000082064688,
 			["MainWindowWidth"] = 244.5308668882732,
 			["MainWindowVis"] = false,
 			["ReportLines"] = 1,
-			["DetailWindowY"] = -60.00000082064688,
+			["GraphWindowX"] = 0,
+		},
+		["Izanagi - Icecrown"] = {
+			["GraphWindowY"] = 0,
+			["MainWindow"] = {
+				["Position"] = {
+					["y"] = 182.2590616682616,
+					["x"] = -629.1359659365896,
+					["w"] = 254.3704360322517,
+					["h"] = 294.0741808696135,
+				},
+			},
+			["DetailWindowX"] = 109.0371223032604,
+			["LastInstanceName"] = "Halls of Lightning",
+			["CurDataSet"] = "LastFightData",
+			["Colors"] = {
+				["Bar"] = {
+					["Bar Text"] = {
+						["a"] = 1,
+					},
+				},
+			},
+			["DetailWindowY"] = -233.0863663131024,
+			["MainWindowHeight"] = 294.0741808696135,
+			["MainWindowWidth"] = 254.3704360322517,
+			["GraphWindowX"] = 0,
 		},
 		["Nalar - Icecrown"] = {
 			["GraphWindowY"] = 0,
@@ -175,7 +201,10 @@ RecountDB = {
 					["h"] = 289.9999908361099,
 				},
 			},
-			["ReportLines"] = 1,
+			["DetailWindowX"] = 62.09879535193817,
+			["LastInstanceName"] = "Vault of Archavon",
+			["GraphWindowX"] = 0,
+			["CurDataSet"] = "CurrentFightData",
 			["Colors"] = {
 				["Bar"] = {
 					["Bar Text"] = {
@@ -187,11 +216,8 @@ RecountDB = {
 				},
 			},
 			["DetailWindowY"] = 23.44438869364712,
-			["DetailWindowX"] = 62.09879535193817,
-			["GraphWindowX"] = 0,
+			["ReportLines"] = 1,
 			["MainWindowVis"] = false,
-			["LastInstanceName"] = "Vault of Archavon",
-			["CurDataSet"] = "LastFightData",
 			["MainWindowWidth"] = 238.9999938458702,
 			["MainWindowHeight"] = 289.9999422879386,
 		},
@@ -238,31 +264,6 @@ RecountDB = {
 			["GraphWindowX"] = 0,
 			["DetailWindowX"] = 0,
 		},
-		["Drext - Icecrown"] = {
-			["GraphWindowY"] = 0,
-			["MainWindow"] = {
-				["Position"] = {
-					["y"] = 151.500062566986,
-					["x"] = -525.4999703917979,
-					["w"] = 172.9999596562604,
-					["h"] = 228.9999541859228,
-				},
-			},
-			["DetailWindowX"] = 0,
-			["MainWindowHeight"] = 228.9999366808426,
-			["CurDataSet"] = "OverallData",
-			["Colors"] = {
-				["Bar"] = {
-					["Bar Text"] = {
-						["a"] = 1,
-					},
-				},
-			},
-			["DetailWindowY"] = 0,
-			["GraphWindowX"] = 0,
-			["MainWindowWidth"] = 172.9999596562604,
-			["MainWindowVis"] = false,
-		},
 		["Noobschmoq - Icecrown"] = {
 			["GraphWindowY"] = 0,
 			["MainWindow"] = {
@@ -287,6 +288,31 @@ RecountDB = {
 			["MainWindowVis"] = false,
 			["MainWindowWidth"] = 201.8667295140785,
 			["GraphWindowX"] = 0,
+		},
+		["Drext - Icecrown"] = {
+			["GraphWindowY"] = 0,
+			["MainWindow"] = {
+				["Position"] = {
+					["y"] = 151.500062566986,
+					["x"] = -525.4999703917979,
+					["w"] = 172.9999596562604,
+					["h"] = 228.9999541859228,
+				},
+			},
+			["DetailWindowX"] = 0,
+			["MainWindowHeight"] = 228.9999366808426,
+			["CurDataSet"] = "OverallData",
+			["Colors"] = {
+				["Bar"] = {
+					["Bar Text"] = {
+						["a"] = 1,
+					},
+				},
+			},
+			["DetailWindowY"] = 0,
+			["GraphWindowX"] = 0,
+			["MainWindowWidth"] = 172.9999596562604,
+			["MainWindowVis"] = false,
 		},
 		["Muiex - Icecrown"] = {
 			["GraphWindowY"] = 0,
@@ -330,25 +356,33 @@ RecountDB = {
 			["MainWindowVis"] = false,
 			["DetailWindowX"] = 0,
 		},
-		["Morridin - Icecrown"] = {
+		["Urgash - Icecrown"] = {
 			["GraphWindowY"] = 0,
 			["MainWindow"] = {
 				["Position"] = {
-					["w"] = 140.0000106684094,
-					["h"] = 200.0000027354896,
+					["y"] = 154.9258747292121,
+					["h"] = 317.9999894683651,
+					["w"] = 247.0000029406513,
+					["x"] = -635.0186428401877,
 				},
 			},
+			["DetailWindowX"] = 74.40742614297815,
+			["LastInstanceName"] = "Pit of Saron",
+			["CurDataSet"] = "LastFightData",
 			["Colors"] = {
 				["Bar"] = {
 					["Bar Text"] = {
 						["a"] = 1,
 					},
+					["Total Bar"] = {
+						["a"] = 1,
+					},
 				},
 			},
-			["DetailWindowY"] = 0,
-			["DetailWindowX"] = 0,
+			["DetailWindowY"] = -165.0369795107044,
+			["MainWindowHeight"] = 317.6297135990283,
 			["MainWindowVis"] = false,
-			["CurDataSet"] = "OverallData",
+			["MainWindowWidth"] = 247.3703663456547,
 			["GraphWindowX"] = 0,
 		},
 		["Inarya - Icecrown"] = {
@@ -398,33 +432,25 @@ RecountDB = {
 			["MainWindowWidth"] = 200.8395222987194,
 			["GraphWindowX"] = 0,
 		},
-		["Urgash - Icecrown"] = {
+		["Morridin - Icecrown"] = {
 			["GraphWindowY"] = 0,
 			["MainWindow"] = {
 				["Position"] = {
-					["y"] = 154.9258747292121,
-					["h"] = 317.9999894683651,
-					["w"] = 247.0000029406513,
-					["x"] = -635.0186428401877,
+					["w"] = 140.0000106684094,
+					["h"] = 200.0000027354896,
 				},
 			},
-			["DetailWindowX"] = 74.40742614297815,
-			["LastInstanceName"] = "Pit of Saron",
-			["CurDataSet"] = "LastFightData",
 			["Colors"] = {
 				["Bar"] = {
 					["Bar Text"] = {
 						["a"] = 1,
 					},
-					["Total Bar"] = {
-						["a"] = 1,
-					},
 				},
 			},
-			["DetailWindowY"] = -165.0369795107044,
-			["MainWindowHeight"] = 317.6297135990283,
+			["DetailWindowY"] = 0,
+			["DetailWindowX"] = 0,
 			["MainWindowVis"] = false,
-			["MainWindowWidth"] = 247.3703663456547,
+			["CurDataSet"] = "OverallData",
 			["GraphWindowX"] = 0,
 		},
 		["Rakhnis - Icecrown"] = {
@@ -478,6 +504,36 @@ RecountDB = {
 			["MainWindowWidth"] = 227.3745989945492,
 			["MainWindowHeight"] = 290.5111306622856,
 		},
+		["Pocaitoru - Icecrown"] = {
+			["GraphWindowY"] = 0,
+			["MainWindow"] = {
+				["Position"] = {
+					["y"] = 140.574052062248,
+					["h"] = 329.000001436132,
+					["w"] = 260.0000123097031,
+					["x"] = -628.5186425324451,
+				},
+			},
+			["DetailWindowX"] = 655.7037672683764,
+			["LastInstanceName"] = "Violet Hold",
+			["DetailWindowY"] = -296.7037172773043,
+			["CurDataSet"] = "LastFightData",
+			["Colors"] = {
+				["Bar"] = {
+					["Bar Text"] = {
+						["a"] = 1,
+					},
+					["Total Bar"] = {
+						["a"] = 1,
+					},
+				},
+			},
+			["GraphWindowX"] = 0,
+			["ReportLines"] = 2,
+			["MainWindowVis"] = false,
+			["MainWindowWidth"] = 260.0000123097031,
+			["MainWindowHeight"] = 328.7999999452902,
+		},
 		["Kalaam - Icecrown"] = {
 			["GraphWindowY"] = 0,
 			["MainWindow"] = {
@@ -502,36 +558,6 @@ RecountDB = {
 			["MainWindowHeight"] = 329.1730069274222,
 			["MainWindowWidth"] = 253.0123901948838,
 			["GraphWindowX"] = 0,
-		},
-		["Pocaitoru - Icecrown"] = {
-			["GraphWindowY"] = 0,
-			["MainWindow"] = {
-				["Position"] = {
-					["y"] = 140.574052062248,
-					["h"] = 329.000001436132,
-					["w"] = 260.0000123097031,
-					["x"] = -628.5186425324451,
-				},
-			},
-			["DetailWindowX"] = 655.7037672683764,
-			["LastInstanceName"] = "Violet Hold",
-			["GraphWindowX"] = 0,
-			["CurDataSet"] = "LastFightData",
-			["Colors"] = {
-				["Bar"] = {
-					["Bar Text"] = {
-						["a"] = 1,
-					},
-					["Total Bar"] = {
-						["a"] = 1,
-					},
-				},
-			},
-			["DetailWindowY"] = -296.7037172773043,
-			["ReportLines"] = 2,
-			["MainWindowVis"] = false,
-			["MainWindowWidth"] = 260.0000123097031,
-			["MainWindowHeight"] = 328.7999999452902,
 		},
 		["Elgorath - Icecrown"] = {
 			["GraphWindowY"] = 0,
@@ -603,19 +629,14 @@ RecountDB = {
 			["GraphWindowX"] = 0,
 			["CurDataSet"] = "OverallData",
 		},
-		["Gligor - Icecrown"] = {
+		["Lingurita - Lordaeron"] = {
 			["GraphWindowY"] = 0,
 			["MainWindow"] = {
 				["Position"] = {
-					["y"] = -0.3951009843590896,
-					["x"] = 298.6665820488557,
-					["w"] = 182.666820309998,
-					["h"] = 211.8519118097308,
+					["w"] = 139.9999950766962,
+					["h"] = 200.0000054703376,
 				},
 			},
-			["DetailWindowX"] = 0,
-			["MainWindowHeight"] = 211.8519118097308,
-			["CurDataSet"] = "OverallData",
 			["Colors"] = {
 				["Bar"] = {
 					["Bar Text"] = {
@@ -624,9 +645,9 @@ RecountDB = {
 				},
 			},
 			["DetailWindowY"] = 0,
+			["CurDataSet"] = "OverallData",
 			["GraphWindowX"] = 0,
-			["MainWindowWidth"] = 182.6668028028647,
-			["MainWindowVis"] = false,
+			["DetailWindowX"] = 0,
 		},
 		["Mirceabravo - Blackrock [PvP only]"] = {
 			["GraphWindowY"] = 0,
@@ -670,14 +691,19 @@ RecountDB = {
 			["GraphWindowX"] = 0,
 			["DetailWindowX"] = 0,
 		},
-		["Lingurita - Lordaeron"] = {
+		["Gligor - Icecrown"] = {
 			["GraphWindowY"] = 0,
 			["MainWindow"] = {
 				["Position"] = {
-					["w"] = 139.9999950766962,
-					["h"] = 200.0000054703376,
+					["y"] = -0.3951009843590896,
+					["x"] = 298.6665820488557,
+					["w"] = 182.666820309998,
+					["h"] = 211.8519118097308,
 				},
 			},
+			["DetailWindowX"] = 0,
+			["MainWindowHeight"] = 211.8519118097308,
+			["CurDataSet"] = "OverallData",
 			["Colors"] = {
 				["Bar"] = {
 					["Bar Text"] = {
@@ -686,9 +712,9 @@ RecountDB = {
 				},
 			},
 			["DetailWindowY"] = 0,
-			["CurDataSet"] = "OverallData",
 			["GraphWindowX"] = 0,
-			["DetailWindowX"] = 0,
+			["MainWindowWidth"] = 182.6668028028647,
+			["MainWindowVis"] = false,
 		},
 		["Praxia - Icecrown"] = {
 			["GraphWindowY"] = 0,
@@ -731,7 +757,7 @@ RecountDB = {
 			},
 			["DetailWindowX"] = 112.9876419471188,
 			["LastInstanceName"] = "Vault of Archavon",
-			["DetailWindowY"] = -124.0493402990752,
+			["GraphWindowX"] = 0,
 			["CurDataSet"] = "LastFightData",
 			["Colors"] = {
 				["Bar"] = {
@@ -743,25 +769,20 @@ RecountDB = {
 					},
 				},
 			},
-			["GraphWindowX"] = 0,
+			["DetailWindowY"] = -124.0493402990752,
 			["MainWindowVis"] = false,
 			["MainWindowMode"] = 5,
 			["MainWindowWidth"] = 256.148530518934,
 			["MainWindowHeight"] = 278.2224170498689,
 		},
-		["Izanagi - Icecrown"] = {
+		["Pubianus - Icecrown"] = {
 			["GraphWindowY"] = 0,
 			["MainWindow"] = {
 				["Position"] = {
-					["y"] = 182.2590616682616,
-					["x"] = -629.1359659365896,
-					["w"] = 254.3704360322517,
-					["h"] = 294.0741808696135,
+					["w"] = 140.0000106684094,
+					["h"] = 200.0000027354896,
 				},
 			},
-			["DetailWindowX"] = 109.0371223032604,
-			["LastInstanceName"] = "Halls of Lightning",
-			["CurDataSet"] = "LastFightData",
 			["Colors"] = {
 				["Bar"] = {
 					["Bar Text"] = {
@@ -769,10 +790,11 @@ RecountDB = {
 					},
 				},
 			},
-			["DetailWindowY"] = -233.0863663131024,
-			["MainWindowHeight"] = 294.0741808696135,
-			["MainWindowWidth"] = 254.3704360322517,
+			["DetailWindowY"] = 0,
+			["DetailWindowX"] = 0,
+			["MainWindowVis"] = false,
 			["GraphWindowX"] = 0,
+			["CurDataSet"] = "OverallData",
 		},
 		["Flocius - Icecrown"] = {
 			["GraphWindowY"] = 0,

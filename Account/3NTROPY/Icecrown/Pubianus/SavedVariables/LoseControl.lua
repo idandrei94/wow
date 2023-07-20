@@ -44,7 +44,7 @@ LoseControlDB = {
 		},
 		["player"] = {
 			["anchor"] = "None",
-			["enabled"] = 1,
+			["enabled"] = true,
 			["alpha"] = 1,
 			["size"] = 36,
 		},
