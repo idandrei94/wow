@@ -1,0 +1,79 @@
+MACRO 16777240 "beacon" INV_Misc_QuestionMark
+#showtooltip 
+/cast [nomodifier:shift,target=focus][modifier:shift,target=target] beacon of light
+END
+MACRO 16777228 "bubble" INV_Misc_QuestionMark
+#showtooltip
+/cancelaura divine shield
+/cast divine shield
+END
+MACRO 16777231 "cleanse" INV_Misc_QuestionMark
+#showtooltip cleanse
+/cast [nomodifier:alt] cleanse
+/cast [target=party1, modifier:alt] cleanse
+END
+MACRO 16777225 "cs" INV_Misc_QuestionMark
+#showtooltip crusader strike
+/startattack
+/use 10
+/cast crusader strike
+END
+MACRO 16777229 "disarm" INV_Misc_QuestionMark
+#showtooltip 16
+/equip Shadowmourne
+/run PickupInventoryItem(16)PutItemInBackpack()
+END
+MACRO 16777221 "ds" INV_Misc_QuestionMark
+#showtooltip divine storm
+/startattack
+/use 10
+/cast divine storm
+END
+MACRO 16777238 "dsac" INV_Misc_QuestionMark
+#showtooltip divine sacrifice
+/cast divine sacrifice
+/cancelaura divine sacrifice
+END
+MACRO 16777223 "exo" INV_Misc_QuestionMark
+#showtooltip
+/cast exorcism
+/stopcasting
+END
+MACRO 16777222 "judgement" INV_Misc_QuestionMark
+#showtooltip judgement of wisdom
+/startattack
+/use 10
+/cast judgement of wisdom
+END
+MACRO 16777220 "nitro" INV_Misc_QuestionMark
+#showtooltip 8
+/use 8
+END
+MACRO 16777230 "pflash" INV_Misc_QuestionMark
+#showtooltip flash of light
+/cast [target=pocaitoru] flash of light
+END
+MACRO 16777237 "pvpjud" INV_Misc_QuestionMark
+#showtooltip judgement of light
+/startattack
+/use 10
+/cast judgement of light
+END
+MACRO 16777232 "shield" INV_Misc_QuestionMark
+#showtooltip sacred shield
+/cast [noflying] sacred shield
+END
+MACRO 16777239 "turn" INV_Misc_QuestionMark
+#showtooltip
+/cast [target=focus,exists,nodead,harm][target=mouseover,exists,nodead,harm][] turn evil
+END
+MACRO 16777235 "wep3" INV_Misc_QuestionMark
+#showtooltip Icecrown Glacial Wall
+/equip Royal Scepter of Terenas II
+/equip Icecrown Glacial Wall
+END
+MACRO 16777236 "wep4" INV_Misc_QuestionMark
+#showtooltip Wrathful Gladiator's Barrier
+/equip Royal Scepter of Terenas II
+/equip Wrathful Gladiator's Barrier
+END
