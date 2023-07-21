@@ -3,6 +3,6 @@ AutoDestroyCFG = {
 	["zone"] = "Elwynn Forest",
 	["minlevel"] = 20,
 	["weapons"] = 1,
+	["list"] = "Rough Stone\nLinen Cloth\nShiny Red Apple\nRefreshing Spring Water\nMinor Healing Potion\nA Gold Tooth\nFrayed Pants\nFrayed Gloves\nRagged Leather Bracers\nRagged Leather Boots\nFlimsy Chain Gloves\nRagged Leather Belt\nFrayed Bracers\nBattered Buckler\nFlimsy Chain Cloak\nLoose Chain Cloak\nCracked Buckler\nFlimsy Chain Belt\nBeaded Orb of the Whale\nFrayed Belt\nWorn Leather Gloves\n",
 	["armor"] = 1,
-	["list"] = "Broken Fang\nChipped Claw\nRuined Pelt\nMelted Candle\nShiny Red Apple\nRefreshing Spring Water\nDarnassian Bleu\nBroken Boar Tusk\nChipped Boar Tusk\n",
 }
