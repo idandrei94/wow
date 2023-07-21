@@ -63,6 +63,10 @@ MACRO 16777232 "shield" INV_Misc_QuestionMark
 #showtooltip sacred shield
 /cast [noflying] sacred shield
 END
+MACRO 16777241 "taunt" INV_Misc_QuestionMark
+#showtooltip righteous defense
+/cast [target=cadelnita] righteous defense
+END
 MACRO 16777239 "turn" INV_Misc_QuestionMark
 #showtooltip
 /cast [target=focus,exists,nodead,harm][target=mouseover,exists,nodead,harm][] turn evil
