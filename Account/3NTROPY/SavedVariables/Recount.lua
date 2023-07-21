@@ -19,11 +19,12 @@ RecountDB = {
 		["Drext - Icecrown"] = "Drext - Icecrown",
 		["Sculamare - Icecrown"] = "Sculamare - Icecrown",
 		["Aevie - Icecrown"] = "Aevie - Icecrown",
+		["Pocaitorul - Icecrown"] = "Pocaitorul - Icecrown",
 		["Ulrezaj - Icecrown"] = "Ulrezaj - Icecrown",
+		["Urgash - Icecrown"] = "Urgash - Icecrown",
 		["Lingurita - Icecrown"] = "Lingurita - Icecrown",
-		["Pocaitoru - Icecrown"] = "Pocaitoru - Icecrown",
 		["Elgorath - Icecrown"] = "Elgorath - Icecrown",
-		["Vhalanor - Icecrown"] = "Vhalanor - Icecrown",
+		["Mirceabravo - Icecrown"] = "Mirceabravo - Icecrown",
 		["Flocparlit - Icecrown"] = "Flocparlit - Icecrown",
 		["Gligor - Icecrown"] = "Gligor - Icecrown",
 		["Mirceabravo - Blackrock [PvP only]"] = "Mirceabravo - Blackrock [PvP only]",
@@ -32,8 +33,8 @@ RecountDB = {
 		["Sculatru - Icecrown"] = "Sculatru - Icecrown",
 		["Inarya - Icecrown"] = "Inarya - Icecrown",
 		["Pubianus - Icecrown"] = "Pubianus - Icecrown",
-		["Mirceabravo - Icecrown"] = "Mirceabravo - Icecrown",
-		["Urgash - Icecrown"] = "Urgash - Icecrown",
+		["Vhalanor - Icecrown"] = "Vhalanor - Icecrown",
+		["Pocaitoru - Icecrown"] = "Pocaitoru - Icecrown",
 	},
 	["profiles"] = {
 		["Rimgar - Icecrown"] = {
@@ -48,7 +49,7 @@ RecountDB = {
 			},
 			["DetailWindowX"] = 58.00000341936197,
 			["LastInstanceName"] = "Trial of the Crusader",
-			["MainWindowHeight"] = 310.8518969696999,
+			["GraphWindowX"] = 0,
 			["CurDataSet"] = "CurrentFightData",
 			["Colors"] = {
 				["Bar"] = {
@@ -61,10 +62,10 @@ RecountDB = {
 				},
 			},
 			["DetailWindowY"] = -16.99999979483828,
-			["MainWindowWidth"] = 251.4197662784027,
-			["MainWindowVis"] = false,
 			["ReportLines"] = 1,
-			["GraphWindowX"] = 0,
+			["MainWindowVis"] = false,
+			["MainWindowWidth"] = 251.4197662784027,
+			["MainWindowHeight"] = 310.8518969696999,
 		},
 		["Vrael - Icecrown"] = {
 			["GraphWindowY"] = 0,
@@ -78,7 +79,7 @@ RecountDB = {
 			},
 			["DetailWindowX"] = -115.0000081380815,
 			["LastInstanceName"] = "Icecrown Citadel",
-			["GraphWindowX"] = 0,
+			["MainWindowHeight"] = 323.4446028824811,
 			["CurDataSet"] = "LastFightData",
 			["Colors"] = {
 				["Bar"] = {
@@ -90,11 +91,11 @@ RecountDB = {
 					},
 				},
 			},
-			["DetailWindowY"] = -60.00000082064688,
-			["ReportLines"] = 1,
-			["MainWindowVis"] = false,
+			["GraphWindowX"] = 0,
 			["MainWindowWidth"] = 244.5308668882732,
-			["MainWindowHeight"] = 323.4446028824811,
+			["MainWindowVis"] = false,
+			["ReportLines"] = 1,
+			["DetailWindowY"] = -60.00000082064688,
 		},
 		["Rakhnis - Icecrown"] = {
 			["GraphWindowY"] = 0,
@@ -117,9 +118,9 @@ RecountDB = {
 				},
 			},
 			["DetailWindowY"] = 0,
-			["GraphWindowX"] = 0,
-			["MainWindowWidth"] = 197.5999821748021,
 			["MainWindowVis"] = false,
+			["MainWindowWidth"] = 197.5999821748021,
+			["GraphWindowX"] = 0,
 		},
 		["Denathra - Icecrown"] = {
 			["GraphWindowY"] = 0,
@@ -133,7 +134,7 @@ RecountDB = {
 			},
 			["DetailWindowX"] = 62.09879535193817,
 			["LastInstanceName"] = "Vault of Archavon",
-			["MainWindowHeight"] = 289.9999422879386,
+			["DetailWindowY"] = 23.44438869364712,
 			["CurDataSet"] = "CurrentFightData",
 			["Colors"] = {
 				["Bar"] = {
@@ -146,10 +147,10 @@ RecountDB = {
 				},
 			},
 			["GraphWindowX"] = 0,
-			["MainWindowWidth"] = 238.9999938458702,
-			["MainWindowVis"] = false,
 			["ReportLines"] = 1,
-			["DetailWindowY"] = 23.44438869364712,
+			["MainWindowVis"] = false,
+			["MainWindowWidth"] = 238.9999938458702,
+			["MainWindowHeight"] = 289.9999422879386,
 		},
 		["Flokus - Icecrown"] = {
 			["GraphWindowY"] = 0,
@@ -169,10 +170,10 @@ RecountDB = {
 				},
 			},
 			["DetailWindowY"] = 0,
-			["DetailWindowX"] = 0,
-			["MainWindowVis"] = false,
-			["CurDataSet"] = "OverallData",
 			["GraphWindowX"] = 0,
+			["CurDataSet"] = "OverallData",
+			["MainWindowVis"] = false,
+			["DetailWindowX"] = 0,
 		},
 		["Noobschmoq - Icecrown"] = {
 			["GraphWindowY"] = 0,
@@ -195,9 +196,9 @@ RecountDB = {
 				},
 			},
 			["DetailWindowY"] = 0,
-			["GraphWindowX"] = 0,
-			["MainWindowWidth"] = 201.8667295140785,
 			["MainWindowVis"] = false,
+			["MainWindowWidth"] = 201.8667295140785,
+			["GraphWindowX"] = 0,
 		},
 		["Muiex - Icecrown"] = {
 			["GraphWindowY"] = 0,
@@ -215,10 +216,10 @@ RecountDB = {
 				},
 			},
 			["DetailWindowY"] = 0,
-			["DetailWindowX"] = 0,
-			["MainWindowVis"] = false,
-			["GraphWindowX"] = 0,
 			["CurDataSet"] = "OverallData",
+			["GraphWindowX"] = 0,
+			["MainWindowVis"] = false,
+			["DetailWindowX"] = 0,
 		},
 		["Morridin - Icecrown"] = {
 			["GraphWindowY"] = 0,
@@ -236,10 +237,10 @@ RecountDB = {
 				},
 			},
 			["DetailWindowY"] = 0,
-			["GraphWindowX"] = 0,
-			["CurDataSet"] = "OverallData",
-			["MainWindowVis"] = false,
 			["DetailWindowX"] = 0,
+			["MainWindowVis"] = false,
+			["CurDataSet"] = "OverallData",
+			["GraphWindowX"] = 0,
 		},
 		["Kalaam - Icecrown"] = {
 			["GraphWindowY"] = 0,
@@ -262,9 +263,9 @@ RecountDB = {
 				},
 			},
 			["DetailWindowY"] = -167.2591599407247,
-			["GraphWindowX"] = 0,
-			["MainWindowWidth"] = 253.0123901948838,
 			["MainWindowHeight"] = 329.1730069274222,
+			["MainWindowWidth"] = 253.0123901948838,
+			["GraphWindowX"] = 0,
 		},
 		["Lingurita - Lordaeron"] = {
 			["GraphWindowY"] = 0,
@@ -282,9 +283,9 @@ RecountDB = {
 				},
 			},
 			["DetailWindowY"] = 0,
-			["DetailWindowX"] = 0,
-			["GraphWindowX"] = 0,
 			["CurDataSet"] = "OverallData",
+			["GraphWindowX"] = 0,
+			["DetailWindowX"] = 0,
 		},
 		["Pufarin - Icecrown"] = {
 			["GraphWindowY"] = 0,
@@ -302,9 +303,9 @@ RecountDB = {
 				},
 			},
 			["DetailWindowY"] = 0,
-			["DetailWindowX"] = 0,
-			["GraphWindowX"] = 0,
 			["CurDataSet"] = "OverallData",
+			["GraphWindowX"] = 0,
+			["DetailWindowX"] = 0,
 		},
 		["Praxia - Icecrown"] = {
 			["GraphWindowY"] = 0,
@@ -330,10 +331,10 @@ RecountDB = {
 				},
 			},
 			["DetailWindowY"] = 3.999978116083373,
-			["MainWindowHeight"] = 337.3333968878745,
+			["MainWindowVis"] = false,
 			["GraphWindowX"] = 0,
 			["MainWindowWidth"] = 260.8889019888445,
-			["MainWindowVis"] = false,
+			["MainWindowHeight"] = 337.3333968878745,
 		},
 		["Nalar - Icecrown"] = {
 			["GraphWindowY"] = 0,
@@ -381,9 +382,9 @@ RecountDB = {
 				},
 			},
 			["DetailWindowY"] = -152.7036942991919,
-			["GraphWindowX"] = 0,
-			["MainWindowWidth"] = 243.3555780154447,
 			["MainWindowHeight"] = 345.0444837792649,
+			["MainWindowWidth"] = 243.3555780154447,
+			["GraphWindowX"] = 0,
 		},
 		["Flocius - Icecrown"] = {
 			["GraphWindowY"] = 0,
@@ -402,10 +403,10 @@ RecountDB = {
 				},
 			},
 			["DetailWindowY"] = 0,
-			["GraphWindowX"] = 0,
-			["CurDataSet"] = "OverallData",
-			["MainWindowVis"] = false,
 			["DetailWindowX"] = 0,
+			["MainWindowVis"] = false,
+			["CurDataSet"] = "OverallData",
+			["GraphWindowX"] = 0,
 		},
 		["Eutanasie - Icecrown"] = {
 			["GraphWindowY"] = 0,
@@ -423,9 +424,9 @@ RecountDB = {
 				},
 			},
 			["DetailWindowY"] = 0,
-			["DetailWindowX"] = 0,
-			["GraphWindowX"] = 0,
 			["CurDataSet"] = "OverallData",
+			["GraphWindowX"] = 0,
+			["DetailWindowX"] = 0,
 		},
 		["Drext - Icecrown"] = {
 			["GraphWindowY"] = 0,
@@ -448,9 +449,9 @@ RecountDB = {
 				},
 			},
 			["DetailWindowY"] = 0,
-			["MainWindowVis"] = false,
-			["MainWindowWidth"] = 172.9999596562604,
 			["GraphWindowX"] = 0,
+			["MainWindowWidth"] = 172.9999596562604,
+			["MainWindowVis"] = false,
 		},
 		["Sculamare - Icecrown"] = {
 			["GraphWindowY"] = 0,
@@ -468,10 +469,10 @@ RecountDB = {
 				},
 			},
 			["DetailWindowY"] = 0,
-			["DetailWindowX"] = 0,
-			["MainWindowVis"] = false,
-			["CurDataSet"] = "OverallData",
 			["GraphWindowX"] = 0,
+			["CurDataSet"] = "OverallData",
+			["MainWindowVis"] = false,
+			["DetailWindowX"] = 0,
 		},
 		["Aevie - Icecrown"] = {
 			["GraphWindowY"] = 0,
@@ -494,9 +495,29 @@ RecountDB = {
 				},
 			},
 			["DetailWindowY"] = 0,
-			["GraphWindowX"] = 0,
-			["MainWindowWidth"] = 200.8395222987194,
 			["MainWindowVis"] = false,
+			["MainWindowWidth"] = 200.8395222987194,
+			["GraphWindowX"] = 0,
+		},
+		["Pocaitorul - Icecrown"] = {
+			["GraphWindowY"] = 0,
+			["MainWindow"] = {
+				["Position"] = {
+					["w"] = 140.0000106684094,
+					["h"] = 200.0000027354896,
+				},
+			},
+			["Colors"] = {
+				["Bar"] = {
+					["Bar Text"] = {
+						["a"] = 1,
+					},
+				},
+			},
+			["DetailWindowY"] = 0,
+			["DetailWindowX"] = 0,
+			["GraphWindowX"] = 0,
+			["CurDataSet"] = "OverallData",
 		},
 		["Ulrezaj - Icecrown"] = {
 			["GraphWindowY"] = 0,
@@ -519,322 +540,10 @@ RecountDB = {
 				},
 			},
 			["DetailWindowY"] = 0,
-			["MainWindowHeight"] = 290.5111306622856,
+			["GraphWindowX"] = 0,
 			["MainWindowVis"] = false,
 			["MainWindowWidth"] = 227.3745989945492,
-			["GraphWindowX"] = 0,
-		},
-		["Lingurita - Icecrown"] = {
-			["GraphWindowY"] = 0,
-			["MainWindow"] = {
-				["Position"] = {
-					["w"] = 140.0000106684094,
-					["h"] = 200.0000027354896,
-				},
-			},
-			["Colors"] = {
-				["Bar"] = {
-					["Bar Text"] = {
-						["a"] = 1,
-					},
-				},
-			},
-			["DetailWindowY"] = 0,
-			["DetailWindowX"] = 0,
-			["MainWindowVis"] = false,
-			["GraphWindowX"] = 0,
-			["CurDataSet"] = "OverallData",
-		},
-		["Pocaitoru - Icecrown"] = {
-			["GraphWindowY"] = 0,
-			["MainWindow"] = {
-				["Position"] = {
-					["y"] = 140.574052062248,
-					["h"] = 329.000001436132,
-					["w"] = 260.0000123097031,
-					["x"] = -628.5186425324451,
-				},
-			},
-			["DetailWindowX"] = 655.7037672683764,
-			["LastInstanceName"] = "Violet Hold",
-			["MainWindowHeight"] = 328.7999999452902,
-			["CurDataSet"] = "LastFightData",
-			["Colors"] = {
-				["Bar"] = {
-					["Bar Text"] = {
-						["a"] = 1,
-					},
-					["Total Bar"] = {
-						["a"] = 1,
-					},
-				},
-			},
-			["DetailWindowY"] = -296.7037172773043,
-			["MainWindowWidth"] = 260.0000123097031,
-			["MainWindowVis"] = false,
-			["ReportLines"] = 2,
-			["GraphWindowX"] = 0,
-		},
-		["Elgorath - Icecrown"] = {
-			["GraphWindowY"] = 0,
-			["MainWindow"] = {
-				["Position"] = {
-					["w"] = 140.0000106684094,
-					["h"] = 200.0000027354896,
-				},
-			},
-			["Colors"] = {
-				["Bar"] = {
-					["Bar Text"] = {
-						["a"] = 1,
-					},
-				},
-			},
-			["DetailWindowY"] = 0,
-			["DetailWindowX"] = 0,
-			["MainWindowVis"] = false,
-			["CurDataSet"] = "OverallData",
-			["GraphWindowX"] = 0,
-		},
-		["Vhalanor - Icecrown"] = {
-			["GraphWindowY"] = 0,
-			["MainWindow"] = {
-				["Position"] = {
-					["y"] = 179.0000184623893,
-					["h"] = 230.0000019146181,
-					["w"] = 228.9999716910031,
-					["x"] = -561.4999206117259,
-				},
-			},
-			["DetailWindowX"] = 0,
-			["LastInstanceName"] = "The Forge of Souls",
-			["CurDataSet"] = "LastFightData",
-			["Colors"] = {
-				["Bar"] = {
-					["Bar Text"] = {
-						["a"] = 1,
-					},
-				},
-			},
-			["DetailWindowY"] = 0,
-			["MainWindowHeight"] = 230.0000194196984,
-			["MainWindowWidth"] = 228.9999716910031,
-			["GraphWindowX"] = 0,
-		},
-		["Flocparlit - Icecrown"] = {
-			["GraphWindowY"] = 0,
-			["MainWindow"] = {
-				["Position"] = {
-					["w"] = 140.0000106684094,
-					["h"] = 200.0000027354896,
-				},
-			},
-			["Colors"] = {
-				["Bar"] = {
-					["Bar Text"] = {
-						["a"] = 1,
-					},
-				},
-			},
-			["DetailWindowY"] = 0,
-			["CurDataSet"] = "OverallData",
-			["GraphWindowX"] = 0,
-			["MainWindowVis"] = false,
-			["DetailWindowX"] = 0,
-		},
-		["Gligor - Icecrown"] = {
-			["GraphWindowY"] = 0,
-			["MainWindow"] = {
-				["Position"] = {
-					["y"] = -0.3951009843590896,
-					["x"] = 298.6665820488557,
-					["w"] = 182.666820309998,
-					["h"] = 211.8519118097308,
-				},
-			},
-			["DetailWindowX"] = 0,
-			["MainWindowHeight"] = 211.8519118097308,
-			["CurDataSet"] = "OverallData",
-			["Colors"] = {
-				["Bar"] = {
-					["Bar Text"] = {
-						["a"] = 1,
-					},
-				},
-			},
-			["DetailWindowY"] = 0,
-			["MainWindowVis"] = false,
-			["MainWindowWidth"] = 182.6668028028647,
-			["GraphWindowX"] = 0,
-		},
-		["Mirceabravo - Blackrock [PvP only]"] = {
-			["GraphWindowY"] = 0,
-			["MainWindow"] = {
-				["Position"] = {
-					["w"] = 140.0000106684094,
-					["h"] = 200.0000027354896,
-				},
-			},
-			["DetailWindowX"] = 0,
-			["LastInstanceName"] = "The Ruby Sanctum",
-			["CurDataSet"] = "OverallData",
-			["Colors"] = {
-				["Bar"] = {
-					["Bar Text"] = {
-						["a"] = 1,
-					},
-				},
-			},
-			["DetailWindowY"] = 0,
-			["MainWindowVis"] = false,
-			["GraphWindowX"] = 0,
-		},
-		["Maciucaru - Icecrown"] = {
-			["GraphWindowY"] = 0,
-			["MainWindow"] = {
-				["Position"] = {
-					["y"] = 156.6954257348431,
-					["x"] = -560.8539355933082,
-					["w"] = 238.0000759098358,
-					["h"] = 277.0000164813247,
-				},
-			},
-			["DetailWindowX"] = 0,
-			["LastInstanceName"] = "Icecrown Citadel",
-			["CurDataSet"] = "LastFightData",
-			["Colors"] = {
-				["Bar"] = {
-					["Bar Text"] = {
-						["a"] = 1,
-					},
-					["Total Bar"] = {
-						["a"] = 1,
-					},
-				},
-			},
-			["DetailWindowY"] = 0,
-			["MainWindowHeight"] = 277.3143752700402,
-			["MainWindowWidth"] = 237.8127110108764,
-			["GraphWindowX"] = 0,
-		},
-		["Izanagi - Icecrown"] = {
-			["GraphWindowY"] = 0,
-			["MainWindow"] = {
-				["Position"] = {
-					["y"] = 182.2590616682616,
-					["x"] = -629.1359659365896,
-					["w"] = 254.3704360322517,
-					["h"] = 294.0741808696135,
-				},
-			},
-			["DetailWindowX"] = 109.0371223032604,
-			["LastInstanceName"] = "Halls of Lightning",
-			["CurDataSet"] = "LastFightData",
-			["Colors"] = {
-				["Bar"] = {
-					["Bar Text"] = {
-						["a"] = 1,
-					},
-				},
-			},
-			["DetailWindowY"] = -233.0863663131024,
-			["GraphWindowX"] = 0,
-			["MainWindowWidth"] = 254.3704360322517,
-			["MainWindowHeight"] = 294.0741808696135,
-		},
-		["Sculatru - Icecrown"] = {
-			["GraphWindowY"] = 0,
-			["MainWindow"] = {
-				["Position"] = {
-					["w"] = 140.0000106684094,
-					["h"] = 200.0000027354896,
-				},
-			},
-			["Colors"] = {
-				["Bar"] = {
-					["Bar Text"] = {
-						["a"] = 1,
-					},
-				},
-			},
-			["DetailWindowY"] = 0,
-			["DetailWindowX"] = 0,
-			["MainWindowVis"] = false,
-			["CurDataSet"] = "OverallData",
-			["GraphWindowX"] = 0,
-		},
-		["Inarya - Icecrown"] = {
-			["GraphWindowY"] = 0,
-			["MainWindow"] = {
-				["Position"] = {
-					["w"] = 140.0000106684094,
-					["h"] = 200.0000027354896,
-				},
-			},
-			["DetailWindowX"] = 0,
-			["LastInstanceName"] = "Pit of Saron",
-			["CurDataSet"] = "OverallData",
-			["Colors"] = {
-				["Bar"] = {
-					["Bar Text"] = {
-						["a"] = 1,
-					},
-				},
-			},
-			["DetailWindowY"] = 0,
-			["GraphWindowX"] = 0,
-			["MainWindowVis"] = false,
-		},
-		["Pubianus - Icecrown"] = {
-			["GraphWindowY"] = 0,
-			["MainWindow"] = {
-				["Position"] = {
-					["w"] = 140.0000106684094,
-					["h"] = 200.0000027354896,
-				},
-			},
-			["Colors"] = {
-				["Bar"] = {
-					["Bar Text"] = {
-						["a"] = 1,
-					},
-				},
-			},
-			["DetailWindowY"] = 0,
-			["CurDataSet"] = "OverallData",
-			["GraphWindowX"] = 0,
-			["MainWindowVis"] = false,
-			["DetailWindowX"] = 0,
-		},
-		["Mirceabravo - Icecrown"] = {
-			["GraphWindowY"] = 0,
-			["MainWindow"] = {
-				["Position"] = {
-					["y"] = 170.6666783380888,
-					["x"] = -607.5185779065039,
-					["w"] = 256,
-					["h"] = 278.0000064284005,
-				},
-			},
-			["DetailWindowX"] = 112.9876419471188,
-			["LastInstanceName"] = "Vault of Archavon",
-			["MainWindowHeight"] = 278.2224170498689,
-			["CurDataSet"] = "LastFightData",
-			["Colors"] = {
-				["Bar"] = {
-					["Bar Text"] = {
-						["a"] = 1,
-					},
-					["Total Bar"] = {
-						["a"] = 1,
-					},
-				},
-			},
-			["GraphWindowX"] = 0,
-			["MainWindowVis"] = false,
-			["MainWindowMode"] = 5,
-			["MainWindowWidth"] = 256.148530518934,
-			["DetailWindowY"] = -124.0493402990752,
+			["MainWindowHeight"] = 290.5111306622856,
 		},
 		["Urgash - Icecrown"] = {
 			["GraphWindowY"] = 0,
@@ -860,10 +569,322 @@ RecountDB = {
 				},
 			},
 			["DetailWindowY"] = -165.0369795107044,
-			["GraphWindowX"] = 0,
+			["MainWindowHeight"] = 317.6297135990283,
 			["MainWindowVis"] = false,
 			["MainWindowWidth"] = 247.3703663456547,
-			["MainWindowHeight"] = 317.6297135990283,
+			["GraphWindowX"] = 0,
+		},
+		["Lingurita - Icecrown"] = {
+			["GraphWindowY"] = 0,
+			["MainWindow"] = {
+				["Position"] = {
+					["w"] = 140.0000106684094,
+					["h"] = 200.0000027354896,
+				},
+			},
+			["Colors"] = {
+				["Bar"] = {
+					["Bar Text"] = {
+						["a"] = 1,
+					},
+				},
+			},
+			["DetailWindowY"] = 0,
+			["CurDataSet"] = "OverallData",
+			["GraphWindowX"] = 0,
+			["MainWindowVis"] = false,
+			["DetailWindowX"] = 0,
+		},
+		["Elgorath - Icecrown"] = {
+			["GraphWindowY"] = 0,
+			["MainWindow"] = {
+				["Position"] = {
+					["w"] = 140.0000106684094,
+					["h"] = 200.0000027354896,
+				},
+			},
+			["Colors"] = {
+				["Bar"] = {
+					["Bar Text"] = {
+						["a"] = 1,
+					},
+				},
+			},
+			["DetailWindowY"] = 0,
+			["GraphWindowX"] = 0,
+			["CurDataSet"] = "OverallData",
+			["MainWindowVis"] = false,
+			["DetailWindowX"] = 0,
+		},
+		["Mirceabravo - Icecrown"] = {
+			["GraphWindowY"] = 0,
+			["MainWindow"] = {
+				["Position"] = {
+					["y"] = 170.6666783380888,
+					["x"] = -607.5185779065039,
+					["w"] = 256,
+					["h"] = 278.0000064284005,
+				},
+			},
+			["DetailWindowX"] = 112.9876419471188,
+			["LastInstanceName"] = "Vault of Archavon",
+			["DetailWindowY"] = -124.0493402990752,
+			["CurDataSet"] = "LastFightData",
+			["Colors"] = {
+				["Bar"] = {
+					["Bar Text"] = {
+						["a"] = 1,
+					},
+					["Total Bar"] = {
+						["a"] = 1,
+					},
+				},
+			},
+			["GraphWindowX"] = 0,
+			["MainWindowVis"] = false,
+			["MainWindowMode"] = 5,
+			["MainWindowWidth"] = 256.148530518934,
+			["MainWindowHeight"] = 278.2224170498689,
+		},
+		["Flocparlit - Icecrown"] = {
+			["GraphWindowY"] = 0,
+			["MainWindow"] = {
+				["Position"] = {
+					["w"] = 140.0000106684094,
+					["h"] = 200.0000027354896,
+				},
+			},
+			["Colors"] = {
+				["Bar"] = {
+					["Bar Text"] = {
+						["a"] = 1,
+					},
+				},
+			},
+			["DetailWindowY"] = 0,
+			["DetailWindowX"] = 0,
+			["MainWindowVis"] = false,
+			["GraphWindowX"] = 0,
+			["CurDataSet"] = "OverallData",
+		},
+		["Gligor - Icecrown"] = {
+			["GraphWindowY"] = 0,
+			["MainWindow"] = {
+				["Position"] = {
+					["y"] = -0.3951009843590896,
+					["x"] = 298.6665820488557,
+					["w"] = 182.666820309998,
+					["h"] = 211.8519118097308,
+				},
+			},
+			["DetailWindowX"] = 0,
+			["MainWindowHeight"] = 211.8519118097308,
+			["CurDataSet"] = "OverallData",
+			["Colors"] = {
+				["Bar"] = {
+					["Bar Text"] = {
+						["a"] = 1,
+					},
+				},
+			},
+			["DetailWindowY"] = 0,
+			["GraphWindowX"] = 0,
+			["MainWindowWidth"] = 182.6668028028647,
+			["MainWindowVis"] = false,
+		},
+		["Mirceabravo - Blackrock [PvP only]"] = {
+			["GraphWindowY"] = 0,
+			["MainWindow"] = {
+				["Position"] = {
+					["w"] = 140.0000106684094,
+					["h"] = 200.0000027354896,
+				},
+			},
+			["DetailWindowX"] = 0,
+			["LastInstanceName"] = "The Ruby Sanctum",
+			["CurDataSet"] = "OverallData",
+			["Colors"] = {
+				["Bar"] = {
+					["Bar Text"] = {
+						["a"] = 1,
+					},
+				},
+			},
+			["DetailWindowY"] = 0,
+			["GraphWindowX"] = 0,
+			["MainWindowVis"] = false,
+		},
+		["Maciucaru - Icecrown"] = {
+			["GraphWindowY"] = 0,
+			["MainWindow"] = {
+				["Position"] = {
+					["y"] = 156.6954257348431,
+					["x"] = -560.8539355933082,
+					["w"] = 238.0000759098358,
+					["h"] = 277.0000164813247,
+				},
+			},
+			["DetailWindowX"] = 0,
+			["LastInstanceName"] = "Icecrown Citadel",
+			["CurDataSet"] = "LastFightData",
+			["Colors"] = {
+				["Bar"] = {
+					["Bar Text"] = {
+						["a"] = 1,
+					},
+					["Total Bar"] = {
+						["a"] = 1,
+					},
+				},
+			},
+			["DetailWindowY"] = 0,
+			["GraphWindowX"] = 0,
+			["MainWindowWidth"] = 237.8127110108764,
+			["MainWindowHeight"] = 277.3143752700402,
+		},
+		["Izanagi - Icecrown"] = {
+			["GraphWindowY"] = 0,
+			["MainWindow"] = {
+				["Position"] = {
+					["y"] = 182.2590616682616,
+					["x"] = -629.1359659365896,
+					["w"] = 254.3704360322517,
+					["h"] = 294.0741808696135,
+				},
+			},
+			["DetailWindowX"] = 109.0371223032604,
+			["LastInstanceName"] = "Halls of Lightning",
+			["CurDataSet"] = "LastFightData",
+			["Colors"] = {
+				["Bar"] = {
+					["Bar Text"] = {
+						["a"] = 1,
+					},
+				},
+			},
+			["DetailWindowY"] = -233.0863663131024,
+			["MainWindowHeight"] = 294.0741808696135,
+			["MainWindowWidth"] = 254.3704360322517,
+			["GraphWindowX"] = 0,
+		},
+		["Sculatru - Icecrown"] = {
+			["GraphWindowY"] = 0,
+			["MainWindow"] = {
+				["Position"] = {
+					["w"] = 140.0000106684094,
+					["h"] = 200.0000027354896,
+				},
+			},
+			["Colors"] = {
+				["Bar"] = {
+					["Bar Text"] = {
+						["a"] = 1,
+					},
+				},
+			},
+			["DetailWindowY"] = 0,
+			["GraphWindowX"] = 0,
+			["CurDataSet"] = "OverallData",
+			["MainWindowVis"] = false,
+			["DetailWindowX"] = 0,
+		},
+		["Inarya - Icecrown"] = {
+			["GraphWindowY"] = 0,
+			["MainWindow"] = {
+				["Position"] = {
+					["w"] = 140.0000106684094,
+					["h"] = 200.0000027354896,
+				},
+			},
+			["DetailWindowX"] = 0,
+			["LastInstanceName"] = "Pit of Saron",
+			["CurDataSet"] = "OverallData",
+			["Colors"] = {
+				["Bar"] = {
+					["Bar Text"] = {
+						["a"] = 1,
+					},
+				},
+			},
+			["DetailWindowY"] = 0,
+			["MainWindowVis"] = false,
+			["GraphWindowX"] = 0,
+		},
+		["Pubianus - Icecrown"] = {
+			["GraphWindowY"] = 0,
+			["MainWindow"] = {
+				["Position"] = {
+					["w"] = 140.0000106684094,
+					["h"] = 200.0000027354896,
+				},
+			},
+			["Colors"] = {
+				["Bar"] = {
+					["Bar Text"] = {
+						["a"] = 1,
+					},
+				},
+			},
+			["DetailWindowY"] = 0,
+			["DetailWindowX"] = 0,
+			["MainWindowVis"] = false,
+			["GraphWindowX"] = 0,
+			["CurDataSet"] = "OverallData",
+		},
+		["Vhalanor - Icecrown"] = {
+			["GraphWindowY"] = 0,
+			["MainWindow"] = {
+				["Position"] = {
+					["y"] = 179.0000184623893,
+					["h"] = 230.0000019146181,
+					["w"] = 228.9999716910031,
+					["x"] = -561.4999206117259,
+				},
+			},
+			["DetailWindowX"] = 0,
+			["LastInstanceName"] = "The Forge of Souls",
+			["CurDataSet"] = "LastFightData",
+			["Colors"] = {
+				["Bar"] = {
+					["Bar Text"] = {
+						["a"] = 1,
+					},
+				},
+			},
+			["DetailWindowY"] = 0,
+			["GraphWindowX"] = 0,
+			["MainWindowWidth"] = 228.9999716910031,
+			["MainWindowHeight"] = 230.0000194196984,
+		},
+		["Pocaitoru - Icecrown"] = {
+			["GraphWindowY"] = 0,
+			["MainWindow"] = {
+				["Position"] = {
+					["y"] = 140.574052062248,
+					["h"] = 329.000001436132,
+					["w"] = 260.0000123097031,
+					["x"] = -628.5186425324451,
+				},
+			},
+			["DetailWindowX"] = 655.7037672683764,
+			["LastInstanceName"] = "Violet Hold",
+			["GraphWindowX"] = 0,
+			["CurDataSet"] = "LastFightData",
+			["Colors"] = {
+				["Bar"] = {
+					["Bar Text"] = {
+						["a"] = 1,
+					},
+					["Total Bar"] = {
+						["a"] = 1,
+					},
+				},
+			},
+			["DetailWindowY"] = -296.7037172773043,
+			["ReportLines"] = 2,
+			["MainWindowVis"] = false,
+			["MainWindowWidth"] = 260.0000123097031,
+			["MainWindowHeight"] = 328.7999999452902,
 		},
 	},
 }
