@@ -59,17 +59,17 @@ SkadaStorageDB = {
 					["flag"] = 1297,
 					["role"] = "DAMAGER",
 					["auras"] = {
+						[48266] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 12,
+						},
 						[49016] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 12,
 						},
 						[53138] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 12,
-						},
-						[48266] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 12,
@@ -242,6 +242,11 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 5,
 						},
+						[48266] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 11,
+						},
 						[49016] = {
 							["school"] = 1,
 							["type"] = "BUFF",
@@ -249,11 +254,6 @@ SkadaStorageDB = {
 							["uptime"] = 3,
 						},
 						[53138] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 11,
-						},
-						[48266] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 11,
@@ -312,7 +312,7 @@ SkadaStorageDB = {
 							["hitmin"] = 846,
 							["criticalmin"] = 800,
 							["id"] = 55050,
-							["critical"] = 1,
+							["hitmax"] = 846,
 							["targets"] = {
 								["Kobold Tunneler"] = {
 									["amount"] = 1646,
@@ -322,10 +322,10 @@ SkadaStorageDB = {
 							["overkill"] = 1424,
 							["amount"] = 1646,
 							["casts"] = 1,
-							["count"] = 2,
+							["critical"] = 1,
 							["blocked"] = 2,
 							["school"] = 1,
-							["hitmax"] = 846,
+							["count"] = 2,
 							["criticalmax"] = 800,
 							["hitamount"] = 846,
 						},
@@ -400,6 +400,11 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 14,
 						},
+						[48266] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 25,
+						},
 						[49016] = {
 							["school"] = 1,
 							["type"] = "BUFF",
@@ -407,11 +412,6 @@ SkadaStorageDB = {
 							["uptime"] = 11,
 						},
 						[53138] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 25,
-						},
-						[48266] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 25,
@@ -1598,13 +1598,13 @@ SkadaStorageDB = {
 								},
 							},
 							["overkill"] = 1538,
-							["hitmax"] = 344,
+							["count"] = 2,
 							["criticalmax"] = 1434,
-							["critical"] = 1,
+							["hitmax"] = 344,
 							["amount"] = 1778,
 							["school"] = 1,
 							["hit"] = 1,
-							["count"] = 2,
+							["critical"] = 1,
 							["hitamount"] = 344,
 						},
 					},
@@ -2037,7 +2037,6 @@ SkadaStorageDB = {
 				{
 					["overheal"] = 13,
 					["last"] = 6159.086,
-					["flag"] = 1297,
 					["damagespells"] = {
 						["Heart Strike"] = {
 							["criticalamount"] = 2840,
@@ -2081,6 +2080,7 @@ SkadaStorageDB = {
 							["blocked"] = 3,
 						},
 					},
+					["flag"] = 1297,
 					["id"] = "0x0700000000977BE7",
 					["class"] = "DEATHKNIGHT",
 					["healspells"] = {
@@ -2099,6 +2099,11 @@ SkadaStorageDB = {
 						},
 					},
 					["auras"] = {
+						[48266] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 5,
+						},
 						[64859] = {
 							["type"] = "BUFF",
 							["count"] = 1,
@@ -2111,18 +2116,13 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 5,
 						},
-						[48266] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 5,
-						},
 					},
+					["role"] = "DAMAGER",
 					["heal"] = 0,
-					["totaldamage"] = 3513,
 					["time"] = 3.36,
 					["name"] = "Morridin",
 					["overkill"] = 3152,
-					["role"] = "DAMAGER",
+					["totaldamage"] = 3513,
 					["spec"] = 250,
 					["damage"] = 3513,
 				}, -- [1]
@@ -2152,15 +2152,15 @@ SkadaStorageDB = {
 				["id"] = "0x0700000000977BE7",
 				["flag"] = 1297,
 				["class"] = "DEATHKNIGHT",
-				["totaldamage"] = 2390477,
+				["role"] = "DAMAGER",
 				["overkill"] = 2119651,
 				["name"] = "Morridin",
-				["heal"] = 7971,
+				["totaldamage"] = 2390477,
 				["time"] = 609.5899999999999,
 				["ccdone"] = 34,
 				["spec"] = 250,
 				["totaldamagetaken"] = 3244,
-				["role"] = "DAMAGER",
+				["heal"] = 7971,
 				["damage"] = 2390477,
 			}, -- [1]
 		},

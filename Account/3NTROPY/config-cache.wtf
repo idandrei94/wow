@@ -1,5 +1,6 @@
 SET deselectOnClick "0"
 SET autoDismountFlying "1"
+SET autoLootDefault "1"
 SET showTargetOfTarget "1"
 SET displayFreeBagSlots "1"
 SET flaggedTutorials "v"

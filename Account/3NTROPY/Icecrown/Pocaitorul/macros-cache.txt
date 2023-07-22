@@ -45,6 +45,10 @@ MACRO 16777222 "judgement" INV_Misc_QuestionMark
 /use 10
 /cast judgement of wisdom
 END
+MACRO 16777242 "mount" INV_Misc_QuestionMark
+#showtooltip
+/userandom [flyable] Warhorse; Warhorse
+END
 MACRO 16777220 "nitro" INV_Misc_QuestionMark
 #showtooltip 8
 /use 8

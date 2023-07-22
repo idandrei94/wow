@@ -49,7 +49,7 @@ RecountDB = {
 			},
 			["DetailWindowX"] = 58.00000341936197,
 			["LastInstanceName"] = "Trial of the Crusader",
-			["DetailWindowY"] = -16.99999979483828,
+			["GraphWindowX"] = 0,
 			["CurDataSet"] = "LastFightData",
 			["Colors"] = {
 				["Bar"] = {
@@ -61,7 +61,7 @@ RecountDB = {
 					},
 				},
 			},
-			["GraphWindowX"] = 0,
+			["DetailWindowY"] = -16.99999979483828,
 			["ReportLines"] = 1,
 			["MainWindowVis"] = false,
 			["MainWindowWidth"] = 251.4197662784027,
@@ -562,7 +562,7 @@ RecountDB = {
 			},
 			["DetailWindowX"] = 655.7037672683764,
 			["LastInstanceName"] = "Violet Hold",
-			["DetailWindowY"] = -296.7037172773043,
+			["GraphWindowX"] = 0,
 			["CurDataSet"] = "LastFightData",
 			["Colors"] = {
 				["Bar"] = {
@@ -574,7 +574,7 @@ RecountDB = {
 					},
 				},
 			},
-			["GraphWindowX"] = 0,
+			["DetailWindowY"] = -296.7037172773043,
 			["ReportLines"] = 2,
 			["MainWindowVis"] = false,
 			["MainWindowWidth"] = 260.0000123097031,
