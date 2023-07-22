@@ -35,7 +35,7 @@ Y: 30
 W: 488
 H: 716
 Frame: PowaOptionsFrame
-FrameLevel: 55
+FrameLevel: 44
 Anchor: TOP
 X: 274
 Y: -97
