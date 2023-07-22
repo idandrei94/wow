@@ -20,6 +20,9 @@ MACRO 16777218 "chain" INV_Misc_QuestionMark
 /cast [modifier:alt, target=focus] chains of ice
 /cast [nomodifier:altl] chains of ice
 END
+MACRO 16777235 "copper" INV_Misc_QuestionMark
+#showtooltip copper ore
+END
 MACRO 16777227 "dnd" INV_Misc_QuestionMark
 #showtooltip
 /cast !death and decay
