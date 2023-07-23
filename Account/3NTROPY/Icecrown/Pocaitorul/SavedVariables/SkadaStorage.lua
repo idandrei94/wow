@@ -2,6 +2,261 @@
 SkadaStorageDB = {
 	["sets"] = {
 		{
+			["enemies"] = {
+				{
+					["damagespells"] = {
+						[6603] = {
+							["school"] = 1,
+							["targets"] = {
+								["Pocaitorul"] = {
+									["amount"] = 83,
+								},
+							},
+							["amount"] = 83,
+						},
+					},
+					["damagetaken"] = 488,
+					["flag"] = 68168,
+					["class"] = "MONSTER",
+					["damagetakenspells"] = {
+						[6603] = {
+							["school"] = 1,
+							["sources"] = {
+								["Pocaitorul"] = {
+									["overkill"] = 4,
+									["amount"] = 325,
+								},
+							},
+							["overkill"] = 4,
+							["amount"] = 325,
+						},
+						[25742] = {
+							["school"] = 2,
+							["sources"] = {
+								["Pocaitorul"] = {
+									["amount"] = 114,
+								},
+							},
+							["amount"] = 114,
+						},
+						[20187] = {
+							["school"] = 2,
+							["sources"] = {
+								["Pocaitorul"] = {
+									["amount"] = 49,
+								},
+							},
+							["amount"] = 49,
+						},
+					},
+					["name"] = "Thistlefur Avenger",
+					["totaldamage"] = 83,
+					["totaldamagetaken"] = 488,
+					["id"] = "0xF130000F550E7717",
+					["damage"] = 83,
+				}, -- [1]
+			},
+			["totaldamage"] = 488,
+			["time"] = 9,
+			["damage"] = 488,
+			["totaldamagetaken"] = 83,
+			["etotaldamagetaken"] = 488,
+			["last_time"] = 473.572,
+			["players"] = {
+				{
+					["last"] = 473.539,
+					["flag"] = 1297,
+					["class"] = "PALADIN",
+					["auras"] = {
+						[25780] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 9,
+						},
+						[21084] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 9,
+						},
+						[20007] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["uptime"] = 7,
+						},
+						[19834] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 9,
+						},
+						[20185] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 2,
+							["targets"] = {
+								["Thistlefur Avenger"] = {
+									["uptime"] = 7,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 7,
+						},
+						[62124] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 2,
+							["targets"] = {
+								["Thistlefur Avenger"] = {
+									["uptime"] = 3,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 3,
+						},
+						[643] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 9,
+						},
+					},
+					["time"] = 8.83,
+					["totaldamagetaken"] = 83,
+					["damage"] = 488,
+					["overheal"] = 179,
+					["damagetaken"] = 83,
+					["id"] = "0x070000000097BE20",
+					["spec"] = 66,
+					["healspells"] = {
+						[20267] = {
+							["overheal"] = 44,
+							["max"] = 18,
+							["count"] = 4,
+							["amount"] = 28,
+							["school"] = 2,
+							["min"] = 10,
+							["ishot"] = true,
+							["targets"] = {
+								["Pocaitorul"] = {
+									["overheal"] = 44,
+									["amount"] = 28,
+								},
+							},
+						},
+						[20007] = {
+							["overheal"] = 135,
+							["criticalamount"] = 0,
+							["targets"] = {
+								["Pocaitorul"] = {
+									["overheal"] = 135,
+									["amount"] = 0,
+								},
+							},
+							["criticalmax"] = 0,
+							["critical"] = 1,
+							["amount"] = 0,
+							["school"] = 1,
+							["count"] = 1,
+							["criticalmin"] = 0,
+						},
+					},
+					["damagetakenspells"] = {
+						["Melee"] = {
+							["DODGE"] = 2,
+							["hitmin"] = 10,
+							["id"] = 6603,
+							["amount"] = 83,
+							["sources"] = {
+								["Thistlefur Avenger"] = {
+									["amount"] = 83,
+								},
+							},
+							["count"] = 8,
+							["hit"] = 4,
+							["school"] = 1,
+							["hitmax"] = 42,
+							["MISS"] = 2,
+							["hitamount"] = 83,
+						},
+					},
+					["heal"] = 28,
+					["name"] = "Pocaitorul",
+					["overkill"] = 4,
+					["damagespells"] = {
+						["Melee"] = {
+							["glance"] = 67,
+							["hitmin"] = 81,
+							["id"] = 6603,
+							["glancemin"] = 67,
+							["targets"] = {
+								["Thistlefur Avenger"] = {
+									["overkill"] = 4,
+									["amount"] = 325,
+								},
+							},
+							["overkill"] = 4,
+							["glancing"] = 1,
+							["glancemax"] = 67,
+							["count"] = 4,
+							["hit"] = 3,
+							["school"] = 1,
+							["hitmax"] = 89,
+							["amount"] = 325,
+							["hitamount"] = 258,
+						},
+						["Seal of Righteousness"] = {
+							["hitmin"] = 15,
+							["id"] = 25742,
+							["targets"] = {
+								["Thistlefur Avenger"] = {
+									["amount"] = 114,
+								},
+							},
+							["hitmax"] = 27,
+							["casts"] = 1,
+							["count"] = 5,
+							["hit"] = 5,
+							["school"] = 2,
+							["resisted"] = 9,
+							["amount"] = 114,
+							["hitamount"] = 114,
+						},
+						["Judgement of Righteousness"] = {
+							["hitmin"] = 49,
+							["id"] = 20187,
+							["targets"] = {
+								["Thistlefur Avenger"] = {
+									["amount"] = 49,
+								},
+							},
+							["hitmax"] = 49,
+							["casts"] = 1,
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 2,
+							["resisted"] = 5,
+							["amount"] = 49,
+							["hitamount"] = 49,
+						},
+					},
+					["totaldamage"] = 488,
+					["role"] = "TANK",
+				}, -- [1]
+			},
+			["type"] = "none",
+			["damagetaken"] = 83,
+			["overheal"] = 179,
+			["etotaldamage"] = 83,
+			["overkill"] = 4,
+			["edamagetaken"] = 488,
+			["heal"] = 28,
+			["name"] = "Thistlefur Avenger",
+			["mobname"] = "Thistlefur Avenger",
+			["starttime"] = 1690103029,
+			["edamage"] = 83,
+			["last_action"] = 1690103038,
+			["endtime"] = 1690103038,
+		}, -- [1]
+		{
 			["starttime"] = 1690060701,
 			["type"] = "none",
 			["players"] = {
@@ -16,16 +271,16 @@ SkadaStorageDB = {
 							["uptime"] = 7,
 						},
 						[21084] = {
-							["uptime"] = 7,
-							["type"] = "BUFF",
-							["count"] = 1,
 							["refresh"] = 1,
+							["type"] = "BUFF",
+							["uptime"] = 7,
+							["count"] = 1,
 						},
 						[19742] = {
-							["uptime"] = 7,
-							["type"] = "BUFF",
-							["count"] = 1,
 							["refresh"] = 1,
+							["type"] = "BUFF",
+							["uptime"] = 7,
+							["count"] = 1,
 						},
 						[62124] = {
 							["type"] = "DEBUFF",
@@ -47,18 +302,18 @@ SkadaStorageDB = {
 					},
 					["role"] = "TANK",
 					["name"] = "Pocaitorul",
-					["class"] = "PALADIN",
-					["time"] = 0,
 					["flag"] = 1297,
+					["time"] = 0,
+					["class"] = "PALADIN",
 				}, -- [1]
 			},
-			["last_time"] = 38241,
+			["endtime"] = 1690060708,
 			["name"] = "Deeprun Rat",
 			["mobname"] = "Deeprun Rat",
 			["time"] = 7,
 			["last_action"] = 1690060708,
-			["endtime"] = 1690060708,
-		}, -- [1]
+			["last_time"] = 38241,
+		}, -- [2]
 		{
 			["enemies"] = {
 				{
@@ -81,23 +336,23 @@ SkadaStorageDB = {
 							["school"] = 1,
 							["sources"] = {
 								["Pocaitorul"] = {
-									["overkill"] = 132,
 									["amount"] = 193,
+									["overkill"] = 132,
 								},
 							},
-							["overkill"] = 132,
 							["amount"] = 193,
+							["overkill"] = 132,
 						},
 						[25742] = {
 							["school"] = 2,
 							["sources"] = {
 								["Pocaitorul"] = {
-									["overkill"] = 9,
 									["amount"] = 39,
+									["overkill"] = 9,
 								},
 							},
-							["overkill"] = 9,
 							["amount"] = 39,
+							["overkill"] = 9,
 						},
 						[20187] = {
 							["school"] = 2,
@@ -147,6 +402,11 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 6,
 						},
+						[8115] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 6,
+						},
 						[20185] = {
 							["type"] = "DEBUFF",
 							["count"] = 1,
@@ -159,24 +419,41 @@ SkadaStorageDB = {
 							},
 							["uptime"] = 3,
 						},
-						[8115] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 6,
-						},
 					},
 					["role"] = "TANK",
 					["time"] = 5.27,
 					["totaldamagetaken"] = 5,
 					["damage"] = 278,
 					["damagespells"] = {
+						["Melee"] = {
+							["criticalamount"] = 132,
+							["hitmin"] = 61,
+							["criticalmin"] = 132,
+							["id"] = 6603,
+							["count"] = 3,
+							["targets"] = {
+								["Kobold Miner"] = {
+									["amount"] = 193,
+									["overkill"] = 132,
+								},
+							},
+							["overkill"] = 132,
+							["amount"] = 193,
+							["criticalmax"] = 132,
+							["hitmax"] = 61,
+							["hit"] = 1,
+							["school"] = 1,
+							["critical"] = 1,
+							["PARRY"] = 1,
+							["hitamount"] = 61,
+						},
 						["Seal of Righteousness"] = {
 							["hitmin"] = 13,
 							["id"] = 25742,
 							["targets"] = {
 								["Kobold Miner"] = {
-									["overkill"] = 9,
 									["amount"] = 39,
+									["overkill"] = 9,
 								},
 							},
 							["overkill"] = 9,
@@ -187,28 +464,6 @@ SkadaStorageDB = {
 							["hitmax"] = 13,
 							["amount"] = 39,
 							["hitamount"] = 39,
-						},
-						["Melee"] = {
-							["criticalmin"] = 132,
-							["hitmin"] = 61,
-							["criticalamount"] = 132,
-							["id"] = 6603,
-							["criticalmax"] = 132,
-							["targets"] = {
-								["Kobold Miner"] = {
-									["overkill"] = 132,
-									["amount"] = 193,
-								},
-							},
-							["overkill"] = 132,
-							["hitmax"] = 61,
-							["PARRY"] = 1,
-							["critical"] = 1,
-							["hit"] = 1,
-							["school"] = 1,
-							["amount"] = 193,
-							["count"] = 3,
-							["hitamount"] = 61,
 						},
 						["Judgement of Righteousness"] = {
 							["hitmin"] = 46,
@@ -233,44 +488,44 @@ SkadaStorageDB = {
 					["healspells"] = {
 						[20267] = {
 							["overheal"] = 11,
-							["school"] = 2,
+							["min"] = 3,
 							["count"] = 1,
 							["amount"] = 3,
-							["max"] = 3,
+							["school"] = 2,
+							["ishot"] = true,
 							["targets"] = {
 								["Pocaitorul"] = {
 									["overheal"] = 11,
 									["amount"] = 3,
 								},
 							},
-							["ishot"] = true,
-							["min"] = 3,
+							["max"] = 3,
 						},
 					},
 					["damagetakenspells"] = {
 						["Melee"] = {
 							["hitmin"] = 2,
 							["id"] = 6603,
-							["hitmax"] = 3,
-							["amount"] = 5,
+							["BLOCK"] = 1,
+							["count"] = 3,
 							["sources"] = {
 								["Kobold Miner"] = {
 									["amount"] = 5,
 								},
 							},
-							["BLOCK"] = 1,
-							["blocked"] = 2,
+							["hitmax"] = 3,
+							["amount"] = 5,
 							["school"] = 1,
 							["hit"] = 2,
-							["count"] = 3,
+							["blocked"] = 2,
 							["hitamount"] = 5,
 						},
 					},
 					["heal"] = 3,
 					["name"] = "Pocaitorul",
-					["overkill"] = 141,
-					["overheal"] = 11,
 					["totaldamage"] = 278,
+					["overheal"] = 11,
+					["overkill"] = 141,
 				}, -- [1]
 			},
 			["type"] = "none",
@@ -287,7 +542,7 @@ SkadaStorageDB = {
 			["edamage"] = 5,
 			["last_action"] = 1690058342,
 			["endtime"] = 1690058343,
-		}, -- [2]
+		}, -- [3]
 		{
 			["enemies"] = {
 				{
@@ -310,12 +565,12 @@ SkadaStorageDB = {
 							["school"] = 2,
 							["sources"] = {
 								["Pocaitorul"] = {
-									["overkill"] = 5,
 									["amount"] = 26,
+									["overkill"] = 5,
 								},
 							},
-							["overkill"] = 5,
 							["amount"] = 26,
+							["overkill"] = 5,
 						},
 						[6603] = {
 							["school"] = 1,
@@ -347,8 +602,8 @@ SkadaStorageDB = {
 							["id"] = 25742,
 							["targets"] = {
 								["Kobold Miner"] = {
-									["overkill"] = 5,
 									["amount"] = 26,
+									["overkill"] = 5,
 								},
 							},
 							["overkill"] = 5,
@@ -372,15 +627,16 @@ SkadaStorageDB = {
 							["critical"] = 1,
 							["amount"] = 116,
 							["school"] = 1,
-							["criticalmin"] = 116,
 							["count"] = 1,
+							["criticalmin"] = 116,
 						},
 					},
 					["last"] = 35861.968,
 					["damagetaken"] = 3,
-					["flag"] = 1297,
 					["id"] = "0x070000000097BE20",
+					["flag"] = 1297,
 					["class"] = "PALADIN",
+					["role"] = "TANK",
 					["auras"] = {
 						[25780] = {
 							["type"] = "BUFF",
@@ -408,11 +664,9 @@ SkadaStorageDB = {
 							["uptime"] = 5,
 						},
 					},
-					["overkill"] = 5,
-					["time"] = 3.13,
-					["totaldamage"] = 142,
 					["name"] = "Pocaitorul",
-					["spec"] = 66,
+					["totaldamage"] = 142,
+					["time"] = 3.13,
 					["damagetakenspells"] = {
 						["Melee"] = {
 							["DODGE"] = 1,
@@ -431,8 +685,9 @@ SkadaStorageDB = {
 							["hitamount"] = 3,
 						},
 					},
+					["spec"] = 66,
 					["totaldamagetaken"] = 3,
-					["role"] = "TANK",
+					["overkill"] = 5,
 					["damage"] = 142,
 				}, -- [1]
 			},
@@ -448,16 +703,16 @@ SkadaStorageDB = {
 			["edamage"] = 3,
 			["last_action"] = 1690058329,
 			["endtime"] = 1690058331,
-		}, -- [3]
+		}, -- [4]
 		{
 			["enemies"] = {
 				{
-					["damagetaken"] = 69,
 					["name"] = "Goldtooth",
-					["totaldamagetaken"] = 69,
-					["id"] = "0xF1300001470F71B0",
-					["class"] = "MONSTER",
+					["damagetaken"] = 69,
 					["flag"] = 68168,
+					["id"] = "0xF1300001470F71B0",
+					["totaldamagetaken"] = 69,
+					["class"] = "MONSTER",
 					["damagetakenspells"] = {
 						[25742] = {
 							["school"] = 2,
@@ -472,12 +727,12 @@ SkadaStorageDB = {
 							["school"] = 1,
 							["sources"] = {
 								["Pocaitorul"] = {
-									["overkill"] = 54,
 									["amount"] = 56,
+									["overkill"] = 54,
 								},
 							},
-							["overkill"] = 54,
 							["amount"] = 56,
+							["overkill"] = 54,
 						},
 					},
 				}, -- [1]
@@ -519,12 +774,12 @@ SkadaStorageDB = {
 							["school"] = 2,
 							["sources"] = {
 								["Pocaitorul"] = {
-									["overkill"] = 15,
 									["amount"] = 46,
+									["overkill"] = 15,
 								},
 							},
-							["overkill"] = 15,
 							["amount"] = 46,
+							["overkill"] = 15,
 						},
 					},
 					["totaldamage"] = 2,
@@ -542,6 +797,26 @@ SkadaStorageDB = {
 			["players"] = {
 				{
 					["damagespells"] = {
+						["Melee"] = {
+							["hitmin"] = 56,
+							["id"] = 6603,
+							["targets"] = {
+								["Goldtooth"] = {
+									["amount"] = 56,
+									["overkill"] = 54,
+								},
+								["Kobold Miner"] = {
+									["amount"] = 63,
+								},
+							},
+							["overkill"] = 54,
+							["count"] = 2,
+							["hit"] = 2,
+							["school"] = 1,
+							["hitmax"] = 63,
+							["amount"] = 119,
+							["hitamount"] = 119,
+						},
 						["Seal of Righteousness"] = {
 							["hitmin"] = 13,
 							["id"] = 25742,
@@ -561,33 +836,13 @@ SkadaStorageDB = {
 							["amount"] = 39,
 							["hitamount"] = 39,
 						},
-						["Melee"] = {
-							["hitmin"] = 56,
-							["id"] = 6603,
-							["targets"] = {
-								["Goldtooth"] = {
-									["overkill"] = 54,
-									["amount"] = 56,
-								},
-								["Kobold Miner"] = {
-									["amount"] = 63,
-								},
-							},
-							["overkill"] = 54,
-							["count"] = 2,
-							["hit"] = 2,
-							["school"] = 1,
-							["hitmax"] = 63,
-							["amount"] = 119,
-							["hitamount"] = 119,
-						},
 						["Judgement of Righteousness"] = {
 							["hitmin"] = 46,
 							["id"] = 20187,
 							["targets"] = {
 								["Kobold Miner"] = {
-									["overkill"] = 15,
 									["amount"] = 46,
+									["overkill"] = 15,
 								},
 							},
 							["overkill"] = 15,
@@ -602,9 +857,10 @@ SkadaStorageDB = {
 					},
 					["last"] = 35849.961,
 					["damagetaken"] = 2,
-					["flag"] = 1297,
 					["id"] = "0x070000000097BE20",
+					["flag"] = 1297,
 					["class"] = "PALADIN",
+					["role"] = "TANK",
 					["auras"] = {
 						[25780] = {
 							["type"] = "BUFF",
@@ -632,11 +888,9 @@ SkadaStorageDB = {
 							["uptime"] = 7,
 						},
 					},
-					["overkill"] = 69,
-					["time"] = 5.369999999999999,
-					["totaldamage"] = 204,
 					["name"] = "Pocaitorul",
-					["spec"] = 66,
+					["totaldamage"] = 204,
+					["time"] = 5.369999999999999,
 					["damagetakenspells"] = {
 						["Melee"] = {
 							["DODGE"] = 1,
@@ -655,8 +909,9 @@ SkadaStorageDB = {
 							["hitamount"] = 2,
 						},
 					},
+					["spec"] = 66,
 					["totaldamagetaken"] = 2,
-					["role"] = "TANK",
+					["overkill"] = 69,
 					["damage"] = 204,
 				}, -- [1]
 			},
@@ -672,7 +927,7 @@ SkadaStorageDB = {
 			["edamage"] = 2,
 			["last_action"] = 1690058317,
 			["endtime"] = 1690058318,
-		}, -- [4]
+		}, -- [5]
 		{
 			["enemies"] = {
 				{
@@ -704,12 +959,12 @@ SkadaStorageDB = {
 							["school"] = 1,
 							["sources"] = {
 								["Pocaitorul"] = {
-									["overkill"] = 33,
 									["amount"] = 122,
+									["overkill"] = 33,
 								},
 							},
-							["overkill"] = 33,
 							["amount"] = 122,
+							["overkill"] = 33,
 						},
 					},
 					["totaldamage"] = 16,
@@ -748,8 +1003,8 @@ SkadaStorageDB = {
 							["id"] = 6603,
 							["targets"] = {
 								["Kobold Tunneler"] = {
-									["overkill"] = 33,
 									["amount"] = 122,
+									["overkill"] = 33,
 								},
 							},
 							["overkill"] = 33,
@@ -757,15 +1012,16 @@ SkadaStorageDB = {
 							["critical"] = 1,
 							["amount"] = 122,
 							["school"] = 1,
-							["criticalmin"] = 122,
 							["count"] = 1,
+							["criticalmin"] = 122,
 						},
 					},
 					["last"] = 35795.188,
 					["damagetaken"] = 16,
-					["flag"] = 1297,
 					["id"] = "0x070000000097BE20",
+					["flag"] = 1297,
 					["class"] = "PALADIN",
+					["role"] = "TANK",
 					["auras"] = {
 						[25780] = {
 							["type"] = "BUFF",
@@ -793,35 +1049,34 @@ SkadaStorageDB = {
 							["uptime"] = 56,
 						},
 					},
-					["overkill"] = 33,
-					["time"] = 3.5,
-					["totaldamage"] = 135,
 					["name"] = "Pocaitorul",
-					["spec"] = 66,
+					["totaldamage"] = 135,
+					["time"] = 3.5,
 					["damagetakenspells"] = {
 						["Melee"] = {
 							["DODGE"] = 6,
 							["hitmin"] = 1,
 							["id"] = 6603,
-							["amount"] = 16,
-							["PARRY"] = 2,
-							["hitmax"] = 1,
 							["hit"] = 16,
 							["sources"] = {
 								["Kobold Tunneler"] = {
 									["amount"] = 16,
 								},
 							},
-							["BLOCK"] = 3,
-							["blocked"] = 3,
-							["school"] = 1,
 							["count"] = 28,
+							["blocked"] = 3,
+							["PARRY"] = 2,
+							["hitmax"] = 1,
+							["amount"] = 16,
+							["school"] = 1,
+							["BLOCK"] = 3,
 							["MISS"] = 1,
 							["hitamount"] = 16,
 						},
 					},
+					["spec"] = 66,
 					["totaldamagetaken"] = 16,
-					["role"] = "TANK",
+					["overkill"] = 33,
 					["damage"] = 135,
 				}, -- [1]
 			},
@@ -837,7 +1092,7 @@ SkadaStorageDB = {
 			["edamage"] = 16,
 			["last_action"] = 1690058262,
 			["endtime"] = 1690058263,
-		}, -- [5]
+		}, -- [6]
 		{
 			["enemies"] = {
 				{
@@ -860,12 +1115,12 @@ SkadaStorageDB = {
 							["school"] = 1,
 							["sources"] = {
 								["Pocaitorul"] = {
-									["overkill"] = 102,
 									["amount"] = 244,
+									["overkill"] = 102,
 								},
 							},
-							["overkill"] = 102,
 							["amount"] = 244,
+							["overkill"] = 102,
 						},
 						[25742] = {
 							["school"] = 2,
@@ -957,47 +1212,26 @@ SkadaStorageDB = {
 						["Melee"] = {
 							["hitmin"] = 1,
 							["id"] = 6603,
-							["PARRY"] = 1,
-							["count"] = 3,
-							["hit"] = 1,
 							["sources"] = {
 								["Kobold Tunneler"] = {
 									["amount"] = 1,
 								},
 							},
-							["hitmax"] = 1,
-							["amount"] = 1,
-							["school"] = 1,
-							["blocked"] = 2,
 							["BLOCK"] = 1,
+							["blocked"] = 2,
+							["PARRY"] = 1,
+							["count"] = 3,
+							["hit"] = 1,
+							["school"] = 1,
+							["amount"] = 1,
+							["hitmax"] = 1,
 							["hitamount"] = 1,
 						},
 					},
 					["heal"] = 0,
 					["name"] = "Pocaitorul",
-					["overkill"] = 102,
+					["role"] = "TANK",
 					["damagespells"] = {
-						["Melee"] = {
-							["hitmin"] = 58,
-							["criticalamount"] = 124,
-							["id"] = 6603,
-							["criticalmin"] = 124,
-							["targets"] = {
-								["Kobold Tunneler"] = {
-									["overkill"] = 102,
-									["amount"] = 244,
-								},
-							},
-							["overkill"] = 102,
-							["count"] = 3,
-							["criticalmax"] = 124,
-							["hitmax"] = 62,
-							["amount"] = 244,
-							["school"] = 1,
-							["hit"] = 2,
-							["critical"] = 1,
-							["hitamount"] = 120,
-						},
 						["Seal of Righteousness"] = {
 							["hitmin"] = 13,
 							["id"] = 25742,
@@ -1013,6 +1247,27 @@ SkadaStorageDB = {
 							["hitmax"] = 13,
 							["amount"] = 52,
 							["hitamount"] = 52,
+						},
+						["Melee"] = {
+							["hitmin"] = 58,
+							["criticalamount"] = 124,
+							["id"] = 6603,
+							["criticalmin"] = 124,
+							["targets"] = {
+								["Kobold Tunneler"] = {
+									["amount"] = 244,
+									["overkill"] = 102,
+								},
+							},
+							["overkill"] = 102,
+							["critical"] = 1,
+							["criticalmax"] = 124,
+							["count"] = 3,
+							["amount"] = 244,
+							["school"] = 1,
+							["hit"] = 2,
+							["hitmax"] = 62,
+							["hitamount"] = 120,
 						},
 						["Judgement of Righteousness"] = {
 							["hitmin"] = 46,
@@ -1031,7 +1286,7 @@ SkadaStorageDB = {
 							["hitamount"] = 46,
 						},
 					},
-					["role"] = "TANK",
+					["overkill"] = 102,
 				}, -- [1]
 			},
 			["type"] = "none",
@@ -1048,7 +1303,7 @@ SkadaStorageDB = {
 			["edamage"] = 1,
 			["last_action"] = 1690058126,
 			["endtime"] = 1690058127,
-		}, -- [6]
+		}, -- [7]
 		{
 			["players"] = {
 				{
@@ -1085,35 +1340,35 @@ SkadaStorageDB = {
 					},
 					["role"] = "TANK",
 					["name"] = "Pocaitorul",
+					["class"] = "PALADIN",
+					["time"] = 0,
+					["totaldamagetaken"] = 1,
+					["flag"] = 1297,
 					["damagetakenspells"] = {
 						["Melee"] = {
 							["hitmin"] = 1,
 							["id"] = 6603,
-							["hitmax"] = 1,
+							["count"] = 2,
 							["sources"] = {
 								["Mangy Wolf"] = {
 									["amount"] = 1,
 								},
 							},
-							["count"] = 2,
+							["hitmax"] = 1,
 							["hit"] = 1,
 							["school"] = 1,
-							["PARRY"] = 1,
 							["amount"] = 1,
+							["PARRY"] = 1,
 							["hitamount"] = 1,
 						},
 					},
-					["flag"] = 1297,
-					["totaldamagetaken"] = 1,
-					["time"] = 0,
-					["class"] = "PALADIN",
 				}, -- [1]
 			},
 			["type"] = "none",
 			["damagetaken"] = 1,
 			["starttime"] = 1690057653,
-			["endtime"] = 1690057677,
-			["etotaldamage"] = 1,
+			["last_time"] = 35206.56,
+			["last_action"] = 1690057673,
 			["enemies"] = {
 				{
 					["damagespells"] = {
@@ -1135,14 +1390,14 @@ SkadaStorageDB = {
 					["damage"] = 1,
 				}, -- [1]
 			},
-			["edamage"] = 1,
-			["time"] = 24,
-			["name"] = "Mangy Wolf",
-			["mobname"] = "Mangy Wolf",
 			["totaldamagetaken"] = 1,
-			["last_action"] = 1690057673,
-			["last_time"] = 35206.56,
-		}, -- [7]
+			["name"] = "Mangy Wolf",
+			["time"] = 24,
+			["mobname"] = "Mangy Wolf",
+			["edamage"] = 1,
+			["etotaldamage"] = 1,
+			["endtime"] = 1690057677,
+		}, -- [8]
 		{
 			["enemies"] = {
 				{
@@ -1165,12 +1420,12 @@ SkadaStorageDB = {
 							["school"] = 1,
 							["sources"] = {
 								["Pocaitorul"] = {
-									["amount"] = 266,
 									["overkill"] = 77,
+									["amount"] = 266,
 								},
 							},
-							["amount"] = 266,
 							["overkill"] = 77,
+							["amount"] = 266,
 						},
 						[25742] = {
 							["school"] = 2,
@@ -1200,10 +1455,10 @@ SkadaStorageDB = {
 			},
 			["totaldamage"] = 403,
 			["time"] = 14,
-			["last_time"] = 33893.808,
+			["damage"] = 403,
 			["totaldamagetaken"] = 68,
 			["etotaldamage"] = 68,
-			["damage"] = 403,
+			["last_time"] = 33893.808,
 			["players"] = {
 				{
 					["ccdonespells"] = {
@@ -1234,7 +1489,7 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 6,
 						},
-						[62124] = {
+						[853] = {
 							["type"] = "DEBUFF",
 							["count"] = 1,
 							["school"] = 2,
@@ -1246,10 +1501,17 @@ SkadaStorageDB = {
 							},
 							["uptime"] = 3,
 						},
-						[19834] = {
-							["type"] = "BUFF",
+						[62124] = {
+							["type"] = "DEBUFF",
 							["count"] = 1,
-							["uptime"] = 14,
+							["school"] = 2,
+							["targets"] = {
+								["Saltspittle Oracle"] = {
+									["uptime"] = 3,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 3,
 						},
 						[10290] = {
 							["type"] = "BUFF",
@@ -1268,17 +1530,10 @@ SkadaStorageDB = {
 							},
 							["uptime"] = 11,
 						},
-						[853] = {
-							["type"] = "DEBUFF",
+						[19834] = {
+							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 2,
-							["targets"] = {
-								["Saltspittle Oracle"] = {
-									["uptime"] = 3,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 3,
+							["uptime"] = 14,
 						},
 					},
 					["totaldamage"] = 403,
@@ -1286,24 +1541,6 @@ SkadaStorageDB = {
 					["totaldamagetaken"] = 68,
 					["damage"] = 403,
 					["damagespells"] = {
-						["Melee"] = {
-							["DODGE"] = 1,
-							["hitmin"] = 50,
-							["id"] = 6603,
-							["targets"] = {
-								["Saltspittle Oracle"] = {
-									["amount"] = 266,
-									["overkill"] = 77,
-								},
-							},
-							["overkill"] = 77,
-							["count"] = 5,
-							["hit"] = 4,
-							["school"] = 1,
-							["hitmax"] = 79,
-							["amount"] = 266,
-							["hitamount"] = 266,
-						},
 						["Seal of Righteousness"] = {
 							["hitmin"] = 13,
 							["id"] = 25742,
@@ -1319,6 +1556,24 @@ SkadaStorageDB = {
 							["hitmax"] = 26,
 							["amount"] = 91,
 							["hitamount"] = 91,
+						},
+						["Melee"] = {
+							["DODGE"] = 1,
+							["hitmin"] = 50,
+							["id"] = 6603,
+							["targets"] = {
+								["Saltspittle Oracle"] = {
+									["overkill"] = 77,
+									["amount"] = 266,
+								},
+							},
+							["overkill"] = 77,
+							["count"] = 5,
+							["hit"] = 4,
+							["school"] = 1,
+							["hitmax"] = 79,
+							["amount"] = 266,
+							["hitamount"] = 266,
 						},
 						["Judgement of Righteousness"] = {
 							["hitmin"] = 46,
@@ -1343,52 +1598,35 @@ SkadaStorageDB = {
 					["healspells"] = {
 						[20267] = {
 							["overheal"] = 12,
-							["min"] = 2,
+							["max"] = 14,
 							["count"] = 4,
 							["amount"] = 44,
 							["school"] = 2,
-							["ishot"] = true,
 							["targets"] = {
 								["Pocaitorul"] = {
 									["overheal"] = 12,
 									["amount"] = 44,
 								},
 							},
-							["max"] = 14,
+							["ishot"] = true,
+							["min"] = 2,
 						},
 						[20007] = {
 							["overheal"] = 56,
 							["count"] = 1,
 							["amount"] = 47,
 							["school"] = 1,
-							["min"] = 47,
+							["max"] = 47,
 							["targets"] = {
 								["Pocaitorul"] = {
 									["overheal"] = 56,
 									["amount"] = 47,
 								},
 							},
-							["max"] = 47,
+							["min"] = 47,
 						},
 					},
 					["overkill"] = 77,
-					["role"] = "TANK",
-					["heal"] = 91,
-					["name"] = "Pocaitorul",
-					["ccdone"] = 1,
-					["interrupt"] = 1,
-					["overheal"] = 68,
-					["interruptspells"] = {
-						[32747] = {
-							["spells"] = {
-								[913] = 1,
-							},
-							["count"] = 1,
-							["targets"] = {
-								["Saltspittle Oracle"] = 1,
-							},
-						},
-					},
 					["damagetakenspells"] = {
 						["Melee"] = {
 							["hitmin"] = 16,
@@ -1406,6 +1644,23 @@ SkadaStorageDB = {
 							["hitamount"] = 68,
 						},
 					},
+					["heal"] = 91,
+					["name"] = "Pocaitorul",
+					["ccdone"] = 1,
+					["interrupt"] = 1,
+					["overheal"] = 68,
+					["interruptspells"] = {
+						[32747] = {
+							["spells"] = {
+								[913] = 1,
+							},
+							["count"] = 1,
+							["targets"] = {
+								["Saltspittle Oracle"] = 1,
+							},
+						},
+					},
+					["role"] = "TANK",
 				}, -- [1]
 			},
 			["type"] = "none",
@@ -1413,17 +1668,17 @@ SkadaStorageDB = {
 			["overheal"] = 68,
 			["interrupt"] = 1,
 			["etotaldamagetaken"] = 403,
-			["starttime"] = 1690056347,
+			["mobname"] = "Saltspittle Oracle",
 			["overkill"] = 77,
 			["edamagetaken"] = 403,
 			["heal"] = 91,
 			["name"] = "Saltspittle Oracle (3)",
 			["ccdone"] = 1,
-			["mobname"] = "Saltspittle Oracle",
+			["starttime"] = 1690056347,
 			["edamage"] = 68,
 			["last_action"] = 1690056361,
 			["endtime"] = 1690056361,
-		}, -- [8]
+		}, -- [9]
 		{
 			["enemies"] = {
 				{
@@ -1455,12 +1710,12 @@ SkadaStorageDB = {
 							["school"] = 1,
 							["sources"] = {
 								["Pocaitorul"] = {
-									["amount"] = 350,
 									["overkill"] = 54,
+									["amount"] = 350,
 								},
 							},
-							["amount"] = 350,
 							["overkill"] = 54,
+							["amount"] = 350,
 						},
 						[25742] = {
 							["school"] = 2,
@@ -1519,18 +1774,6 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 30,
 						},
-						[62124] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 2,
-							["targets"] = {
-								["Saltspittle Oracle"] = {
-									["uptime"] = 3,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 3,
-						},
 						[20185] = {
 							["type"] = "DEBUFF",
 							["count"] = 1,
@@ -1545,35 +1788,24 @@ SkadaStorageDB = {
 							},
 							["uptime"] = 24,
 						},
+						[62124] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 2,
+							["targets"] = {
+								["Saltspittle Oracle"] = {
+									["uptime"] = 3,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 3,
+						},
 					},
 					["totaldamage"] = 710,
 					["time"] = 23.42,
 					["totaldamagetaken"] = 338,
 					["damage"] = 710,
 					["damagespells"] = {
-						["Melee"] = {
-							["DODGE"] = 1,
-							["glance"] = 130,
-							["hitmin"] = 53,
-							["glancemin"] = 41,
-							["id"] = 6603,
-							["targets"] = {
-								["Saltspittle Oracle"] = {
-									["amount"] = 350,
-									["overkill"] = 54,
-								},
-							},
-							["glancemax"] = 48,
-							["overkill"] = 54,
-							["glancing"] = 3,
-							["PARRY"] = 1,
-							["hitmax"] = 56,
-							["amount"] = 350,
-							["school"] = 1,
-							["hit"] = 4,
-							["count"] = 9,
-							["hitamount"] = 220,
-						},
 						["Seal of Righteousness"] = {
 							["hitmin"] = 13,
 							["id"] = 25742,
@@ -1590,6 +1822,29 @@ SkadaStorageDB = {
 							["amount"] = 130,
 							["hitamount"] = 130,
 						},
+						["Melee"] = {
+							["DODGE"] = 1,
+							["glance"] = 130,
+							["hitmin"] = 53,
+							["hitamount"] = 220,
+							["id"] = 6603,
+							["count"] = 9,
+							["targets"] = {
+								["Saltspittle Oracle"] = {
+									["overkill"] = 54,
+									["amount"] = 350,
+								},
+							},
+							["overkill"] = 54,
+							["glancing"] = 3,
+							["PARRY"] = 1,
+							["hitmax"] = 56,
+							["amount"] = 350,
+							["school"] = 1,
+							["hit"] = 4,
+							["glancemax"] = 48,
+							["glancemin"] = 41,
+						},
 						["Judgement of Righteousness"] = {
 							["hitmin"] = 46,
 							["criticalamount"] = 184,
@@ -1600,14 +1855,14 @@ SkadaStorageDB = {
 									["amount"] = 230,
 								},
 							},
+							["hitmax"] = 46,
+							["amount"] = 230,
 							["criticalmax"] = 92,
 							["critical"] = 2,
-							["casts"] = 1,
-							["count"] = 3,
 							["hit"] = 1,
 							["school"] = 2,
-							["amount"] = 230,
-							["hitmax"] = 46,
+							["count"] = 3,
+							["casts"] = 1,
 							["hitamount"] = 46,
 						},
 					},
@@ -1617,50 +1872,50 @@ SkadaStorageDB = {
 					["healspells"] = {
 						[20267] = {
 							["overheal"] = 0,
-							["min"] = 14,
+							["max"] = 14,
 							["count"] = 4,
 							["amount"] = 56,
 							["school"] = 2,
-							["ishot"] = true,
 							["targets"] = {
 								["Pocaitorul"] = {
 									["overheal"] = 0,
 									["amount"] = 56,
 								},
 							},
-							["max"] = 14,
+							["ishot"] = true,
+							["min"] = 14,
 						},
 						[647] = {
 							["overheal"] = 0,
 							["count"] = 1,
 							["amount"] = 236,
 							["school"] = 2,
-							["min"] = 236,
+							["max"] = 236,
 							["targets"] = {
 								["Pocaitorul"] = {
 									["overheal"] = 0,
 									["amount"] = 236,
 								},
 							},
-							["max"] = 236,
+							["min"] = 236,
 						},
 					},
 					["damagetakenspells"] = {
 						["Melee"] = {
 							["hitmin"] = 17,
 							["id"] = 6603,
-							["hitmax"] = 20,
 							["BLOCK"] = 2,
-							["hit"] = 6,
+							["count"] = 9,
+							["blocked"] = 34,
 							["sources"] = {
 								["Saltspittle Oracle"] = {
 									["amount"] = 108,
 								},
 							},
-							["count"] = 9,
-							["amount"] = 108,
+							["hitmax"] = 20,
+							["hit"] = 6,
 							["school"] = 1,
-							["blocked"] = 34,
+							["amount"] = 108,
 							["MISS"] = 1,
 							["hitamount"] = 108,
 						},
@@ -1682,9 +1937,9 @@ SkadaStorageDB = {
 					},
 					["heal"] = 292,
 					["name"] = "Pocaitorul",
-					["role"] = "TANK",
-					["overheal"] = 0,
 					["overkill"] = 54,
+					["overheal"] = 0,
+					["role"] = "TANK",
 				}, -- [1]
 			},
 			["type"] = "none",
@@ -1701,7 +1956,7 @@ SkadaStorageDB = {
 			["edamage"] = 338,
 			["last_action"] = 1690056341,
 			["endtime"] = 1690056342,
-		}, -- [9]
+		}, -- [10]
 		{
 			["enemies"] = {
 				{
@@ -1733,23 +1988,23 @@ SkadaStorageDB = {
 							["school"] = 1,
 							["sources"] = {
 								["Pocaitorul"] = {
-									["amount"] = 401,
 									["overkill"] = 110,
+									["amount"] = 401,
 								},
 							},
-							["amount"] = 401,
 							["overkill"] = 110,
+							["amount"] = 401,
 						},
 						[25742] = {
 							["school"] = 2,
 							["sources"] = {
 								["Pocaitorul"] = {
-									["amount"] = 99,
 									["overkill"] = 7,
+									["amount"] = 99,
 								},
 							},
-							["amount"] = 99,
 							["overkill"] = 7,
+							["amount"] = 99,
 						},
 						[20187] = {
 							["school"] = 2,
@@ -1801,15 +2056,27 @@ SkadaStorageDB = {
 							["uptime"] = 22,
 						},
 						[19834] = {
-							["uptime"] = 22,
-							["type"] = "BUFF",
-							["count"] = 1,
 							["refresh"] = 1,
+							["type"] = "BUFF",
+							["uptime"] = 22,
+							["count"] = 1,
 						},
 						[10290] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 22,
+						},
+						[853] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 2,
+							["targets"] = {
+								["Saltspittle Oracle"] = {
+									["uptime"] = 2,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 2,
 						},
 						[20185] = {
 							["type"] = "DEBUFF",
@@ -1825,24 +2092,31 @@ SkadaStorageDB = {
 							},
 							["uptime"] = 12,
 						},
-						[853] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 2,
-							["targets"] = {
-								["Saltspittle Oracle"] = {
-									["uptime"] = 2,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 2,
-						},
 					},
 					["totaldamage"] = 590,
 					["time"] = 18.22,
 					["totaldamagetaken"] = 248,
 					["damage"] = 590,
 					["damagespells"] = {
+						["Seal of Righteousness"] = {
+							["hitmin"] = 11,
+							["id"] = 25742,
+							["targets"] = {
+								["Saltspittle Oracle"] = {
+									["overkill"] = 7,
+									["amount"] = 99,
+								},
+							},
+							["overkill"] = 7,
+							["hitmax"] = 13,
+							["casts"] = 1,
+							["count"] = 8,
+							["hit"] = 8,
+							["school"] = 2,
+							["resisted"] = 5,
+							["amount"] = 99,
+							["hitamount"] = 99,
+						},
 						["Melee"] = {
 							["DODGE"] = 2,
 							["glance"] = 42,
@@ -1850,8 +2124,8 @@ SkadaStorageDB = {
 							["criticalmin"] = 92,
 							["targets"] = {
 								["Saltspittle Oracle"] = {
-									["amount"] = 401,
 									["overkill"] = 110,
+									["amount"] = 401,
 								},
 							},
 							["glancing"] = 1,
@@ -1869,25 +2143,6 @@ SkadaStorageDB = {
 							["critical"] = 2,
 							["hitmax"] = 56,
 							["hitamount"] = 157,
-						},
-						["Seal of Righteousness"] = {
-							["hitmin"] = 11,
-							["id"] = 25742,
-							["targets"] = {
-								["Saltspittle Oracle"] = {
-									["amount"] = 99,
-									["overkill"] = 7,
-								},
-							},
-							["overkill"] = 7,
-							["count"] = 8,
-							["casts"] = 1,
-							["hitmax"] = 13,
-							["hit"] = 8,
-							["school"] = 2,
-							["resisted"] = 5,
-							["amount"] = 99,
-							["hitamount"] = 99,
 						},
 						["Judgement of Righteousness"] = {
 							["hitmin"] = 45,
@@ -1912,35 +2167,35 @@ SkadaStorageDB = {
 					["healspells"] = {
 						[20267] = {
 							["overheal"] = 0,
-							["min"] = 13,
+							["max"] = 13,
 							["count"] = 4,
 							["amount"] = 52,
 							["school"] = 2,
-							["ishot"] = true,
 							["targets"] = {
 								["Pocaitorul"] = {
 									["overheal"] = 0,
 									["amount"] = 52,
 								},
 							},
-							["max"] = 13,
+							["ishot"] = true,
+							["min"] = 13,
 						},
 					},
 					["damagetakenspells"] = {
 						["Melee"] = {
 							["hitmin"] = 18,
 							["id"] = 6603,
+							["PARRY"] = 1,
 							["sources"] = {
 								["Saltspittle Oracle"] = {
 									["amount"] = 135,
 								},
 							},
-							["PARRY"] = 1,
 							["count"] = 8,
 							["hit"] = 7,
 							["school"] = 1,
-							["amount"] = 135,
 							["hitmax"] = 20,
+							["amount"] = 135,
 							["hitamount"] = 135,
 						},
 						["Shock"] = {
@@ -1962,24 +2217,24 @@ SkadaStorageDB = {
 					["heal"] = 52,
 					["name"] = "Pocaitorul",
 					["ccdone"] = 1,
-					["role"] = "TANK",
-					["overheal"] = 0,
 					["overkill"] = 117,
+					["overheal"] = 0,
+					["role"] = "TANK",
 				}, -- [1]
 			},
 			["overheal"] = 0,
 			["damage"] = 590,
-			["etotaldamagetaken"] = 590,
+			["mobname"] = "Saltspittle Oracle",
 			["overkill"] = 117,
 			["edamagetaken"] = 590,
 			["heal"] = 52,
 			["name"] = "Saltspittle Oracle",
 			["ccdone"] = 1,
-			["mobname"] = "Saltspittle Oracle",
+			["etotaldamagetaken"] = 590,
 			["edamage"] = 248,
 			["last_action"] = 1690056285,
 			["endtime"] = 1690056286,
-		}, -- [10]
+		}, -- [11]
 		{
 			["enemies"] = {
 				{
@@ -2002,12 +2257,12 @@ SkadaStorageDB = {
 							["school"] = 1,
 							["sources"] = {
 								["Pocaitorul"] = {
-									["amount"] = 182,
 									["overkill"] = 3,
+									["amount"] = 182,
 								},
 							},
-							["amount"] = 182,
 							["overkill"] = 3,
+							["amount"] = 182,
 						},
 						[25742] = {
 							["school"] = 2,
@@ -2066,18 +2321,6 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 15,
 						},
-						[62124] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 2,
-							["targets"] = {
-								["Saltspittle Warrior"] = {
-									["uptime"] = 3,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 3,
-						},
 						[20185] = {
 							["type"] = "DEBUFF",
 							["count"] = 1,
@@ -2092,6 +2335,18 @@ SkadaStorageDB = {
 							},
 							["uptime"] = 14,
 						},
+						[62124] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 2,
+							["targets"] = {
+								["Saltspittle Warrior"] = {
+									["uptime"] = 3,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 3,
+						},
 					},
 					["totaldamage"] = 341,
 					["time"] = 10.94,
@@ -2104,18 +2359,18 @@ SkadaStorageDB = {
 					["healspells"] = {
 						[20267] = {
 							["overheal"] = 13,
-							["min"] = 13,
+							["school"] = 2,
 							["count"] = 4,
 							["amount"] = 39,
 							["max"] = 13,
+							["ishot"] = true,
 							["targets"] = {
 								["Pocaitorul"] = {
 									["overheal"] = 13,
 									["amount"] = 39,
 								},
 							},
-							["ishot"] = true,
-							["school"] = 2,
+							["min"] = 13,
 						},
 					},
 					["damagetakenspells"] = {
@@ -2123,14 +2378,14 @@ SkadaStorageDB = {
 							["DODGE"] = 2,
 							["hitmin"] = 16,
 							["id"] = 6603,
-							["hit"] = 3,
+							["amount"] = 53,
 							["sources"] = {
 								["Saltspittle Warrior"] = {
 									["amount"] = 53,
 								},
 							},
 							["count"] = 6,
-							["amount"] = 53,
+							["hit"] = 3,
 							["school"] = 1,
 							["hitmax"] = 20,
 							["MISS"] = 1,
@@ -2139,8 +2394,30 @@ SkadaStorageDB = {
 					},
 					["heal"] = 39,
 					["name"] = "Pocaitorul",
-					["role"] = "TANK",
+					["overkill"] = 3,
 					["damagespells"] = {
+						["Melee"] = {
+							["glance"] = 48,
+							["hitmin"] = 38,
+							["glancemin"] = 48,
+							["id"] = 6603,
+							["targets"] = {
+								["Saltspittle Warrior"] = {
+									["overkill"] = 3,
+									["amount"] = 182,
+								},
+							},
+							["glancemax"] = 48,
+							["overkill"] = 3,
+							["glancing"] = 1,
+							["PARRY"] = 2,
+							["count"] = 6,
+							["amount"] = 182,
+							["school"] = 1,
+							["hitmax"] = 51,
+							["hit"] = 3,
+							["hitamount"] = 134,
+						},
 						["Seal of Righteousness"] = {
 							["hitmin"] = 12,
 							["id"] = 25742,
@@ -2156,28 +2433,6 @@ SkadaStorageDB = {
 							["hitmax"] = 13,
 							["amount"] = 74,
 							["hitamount"] = 74,
-						},
-						["Melee"] = {
-							["glance"] = 48,
-							["hitmin"] = 38,
-							["hitamount"] = 134,
-							["id"] = 6603,
-							["amount"] = 182,
-							["glancemax"] = 48,
-							["overkill"] = 3,
-							["glancing"] = 1,
-							["PARRY"] = 2,
-							["count"] = 6,
-							["hit"] = 3,
-							["school"] = 1,
-							["hitmax"] = 51,
-							["targets"] = {
-								["Saltspittle Warrior"] = {
-									["amount"] = 182,
-									["overkill"] = 3,
-								},
-							},
-							["glancemin"] = 48,
 						},
 						["Judgement of Righteousness"] = {
 							["hitmin"] = 40,
@@ -2196,7 +2451,7 @@ SkadaStorageDB = {
 							["hitamount"] = 85,
 						},
 					},
-					["overkill"] = 3,
+					["role"] = "TANK",
 				}, -- [1]
 			},
 			["type"] = "none",
@@ -2213,7 +2468,7 @@ SkadaStorageDB = {
 			["edamage"] = 53,
 			["last_action"] = 1690056263,
 			["endtime"] = 1690056263,
-		}, -- [11]
+		}, -- [12]
 		{
 			["enemies"] = {
 				{
@@ -2236,12 +2491,12 @@ SkadaStorageDB = {
 							["school"] = 1,
 							["sources"] = {
 								["Pocaitorul"] = {
-									["amount"] = 278,
 									["overkill"] = 6,
+									["amount"] = 278,
 								},
 							},
-							["amount"] = 278,
 							["overkill"] = 6,
+							["amount"] = 278,
 						},
 						[25742] = {
 							["school"] = 2,
@@ -2300,18 +2555,6 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 11,
 						},
-						[62124] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 2,
-							["targets"] = {
-								["Ghostpaw Runner"] = {
-									["uptime"] = 3,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 3,
-						},
 						[20185] = {
 							["type"] = "DEBUFF",
 							["count"] = 1,
@@ -2324,12 +2567,45 @@ SkadaStorageDB = {
 							},
 							["uptime"] = 9,
 						},
+						[62124] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 2,
+							["targets"] = {
+								["Ghostpaw Runner"] = {
+									["uptime"] = 3,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 3,
+						},
 					},
 					["role"] = "TANK",
 					["time"] = 10.05,
 					["totaldamagetaken"] = 73,
 					["damage"] = 379,
 					["damagespells"] = {
+						["Melee"] = {
+							["hitmin"] = 45,
+							["criticalamount"] = 180,
+							["id"] = 6603,
+							["criticalmin"] = 88,
+							["targets"] = {
+								["Ghostpaw Runner"] = {
+									["overkill"] = 6,
+									["amount"] = 278,
+								},
+							},
+							["overkill"] = 6,
+							["count"] = 4,
+							["criticalmax"] = 92,
+							["critical"] = 2,
+							["amount"] = 278,
+							["school"] = 1,
+							["hitmax"] = 53,
+							["hit"] = 2,
+							["hitamount"] = 98,
+						},
 						["Seal of Righteousness"] = {
 							["hitmin"] = 13,
 							["id"] = 25742,
@@ -2346,27 +2622,6 @@ SkadaStorageDB = {
 							["amount"] = 65,
 							["hitamount"] = 65,
 						},
-						["Melee"] = {
-							["hitmin"] = 45,
-							["criticalamount"] = 180,
-							["id"] = 6603,
-							["criticalmin"] = 88,
-							["targets"] = {
-								["Ghostpaw Runner"] = {
-									["amount"] = 278,
-									["overkill"] = 6,
-								},
-							},
-							["overkill"] = 6,
-							["amount"] = 278,
-							["criticalmax"] = 92,
-							["critical"] = 2,
-							["hit"] = 2,
-							["school"] = 1,
-							["hitmax"] = 53,
-							["count"] = 4,
-							["hitamount"] = 98,
-						},
 						["Judgement of Righteousness"] = {
 							["hitmin"] = 36,
 							["id"] = 20187,
@@ -2375,9 +2630,9 @@ SkadaStorageDB = {
 									["amount"] = 36,
 								},
 							},
-							["count"] = 1,
-							["casts"] = 1,
 							["hitmax"] = 36,
+							["casts"] = 1,
+							["count"] = 1,
 							["hit"] = 1,
 							["school"] = 2,
 							["resisted"] = 9,
@@ -2391,18 +2646,18 @@ SkadaStorageDB = {
 					["healspells"] = {
 						[20267] = {
 							["overheal"] = 0,
-							["min"] = 13,
+							["max"] = 13,
 							["count"] = 2,
 							["amount"] = 26,
 							["school"] = 2,
-							["ishot"] = true,
 							["targets"] = {
 								["Pocaitorul"] = {
 									["overheal"] = 0,
 									["amount"] = 26,
 								},
 							},
-							["max"] = 13,
+							["ishot"] = true,
+							["min"] = 13,
 						},
 					},
 					["damagetakenspells"] = {
@@ -2425,9 +2680,9 @@ SkadaStorageDB = {
 					},
 					["heal"] = 26,
 					["name"] = "Pocaitorul",
-					["totaldamage"] = 379,
-					["overheal"] = 0,
 					["overkill"] = 6,
+					["overheal"] = 0,
+					["totaldamage"] = 379,
 				}, -- [1]
 			},
 			["type"] = "none",
@@ -2444,7 +2699,7 @@ SkadaStorageDB = {
 			["edamage"] = 73,
 			["last_action"] = 1690056170,
 			["endtime"] = 1690056170,
-		}, -- [12]
+		}, -- [13]
 		{
 			["enemies"] = {
 				{
@@ -2467,12 +2722,12 @@ SkadaStorageDB = {
 							["school"] = 1,
 							["sources"] = {
 								["Pocaitorul"] = {
-									["amount"] = 229,
 									["overkill"] = 23,
+									["amount"] = 229,
 								},
 							},
-							["amount"] = 229,
 							["overkill"] = 23,
+							["amount"] = 229,
 						},
 						[25742] = {
 							["school"] = 2,
@@ -2531,18 +2786,6 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 16,
 						},
-						[62124] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 2,
-							["targets"] = {
-								["Ghostpaw Runner"] = {
-									["uptime"] = 3,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 3,
-						},
 						[20185] = {
 							["type"] = "DEBUFF",
 							["count"] = 1,
@@ -2557,6 +2800,18 @@ SkadaStorageDB = {
 							},
 							["uptime"] = 14,
 						},
+						[62124] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 2,
+							["targets"] = {
+								["Ghostpaw Runner"] = {
+									["uptime"] = 3,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 3,
+						},
 					},
 					["totaldamage"] = 407,
 					["time"] = 13.03,
@@ -2569,18 +2824,18 @@ SkadaStorageDB = {
 					["healspells"] = {
 						[20267] = {
 							["overheal"] = 26,
-							["min"] = 13,
+							["school"] = 2,
 							["count"] = 4,
 							["amount"] = 26,
 							["max"] = 13,
+							["ishot"] = true,
 							["targets"] = {
 								["Pocaitorul"] = {
 									["overheal"] = 26,
 									["amount"] = 26,
 								},
 							},
-							["ishot"] = true,
-							["school"] = 2,
+							["min"] = 13,
 						},
 					},
 					["damagetakenspells"] = {
@@ -2588,14 +2843,14 @@ SkadaStorageDB = {
 							["DODGE"] = 1,
 							["hitmin"] = 18,
 							["id"] = 6603,
-							["hit"] = 3,
+							["amount"] = 58,
 							["sources"] = {
 								["Ghostpaw Runner"] = {
 									["amount"] = 58,
 								},
 							},
 							["count"] = 6,
-							["amount"] = 58,
+							["hit"] = 3,
 							["school"] = 1,
 							["hitmax"] = 21,
 							["MISS"] = 2,
@@ -2604,8 +2859,27 @@ SkadaStorageDB = {
 					},
 					["heal"] = 26,
 					["name"] = "Pocaitorul",
-					["role"] = "TANK",
+					["overkill"] = 23,
 					["damagespells"] = {
+						["Melee"] = {
+							["hitmin"] = 39,
+							["id"] = 6603,
+							["targets"] = {
+								["Ghostpaw Runner"] = {
+									["overkill"] = 23,
+									["amount"] = 229,
+								},
+							},
+							["overkill"] = 23,
+							["blocked"] = 10,
+							["amount"] = 229,
+							["count"] = 6,
+							["hit"] = 5,
+							["school"] = 1,
+							["hitmax"] = 52,
+							["MISS"] = 1,
+							["hitamount"] = 229,
+						},
 						["Seal of Righteousness"] = {
 							["hitmin"] = 11,
 							["id"] = 25742,
@@ -2614,33 +2888,14 @@ SkadaStorageDB = {
 									["amount"] = 88,
 								},
 							},
-							["count"] = 7,
-							["casts"] = 1,
 							["hitmax"] = 13,
+							["casts"] = 1,
+							["count"] = 7,
 							["hit"] = 7,
 							["school"] = 2,
 							["resisted"] = 3,
 							["amount"] = 88,
 							["hitamount"] = 88,
-						},
-						["Melee"] = {
-							["hitmin"] = 39,
-							["id"] = 6603,
-							["targets"] = {
-								["Ghostpaw Runner"] = {
-									["amount"] = 229,
-									["overkill"] = 23,
-								},
-							},
-							["overkill"] = 23,
-							["hit"] = 5,
-							["blocked"] = 10,
-							["count"] = 6,
-							["amount"] = 229,
-							["school"] = 1,
-							["hitmax"] = 52,
-							["MISS"] = 1,
-							["hitamount"] = 229,
 						},
 						["Judgement of Righteousness"] = {
 							["hitmin"] = 45,
@@ -2659,7 +2914,7 @@ SkadaStorageDB = {
 							["hitamount"] = 90,
 						},
 					},
-					["overkill"] = 23,
+					["role"] = "TANK",
 				}, -- [1]
 			},
 			["type"] = "none",
@@ -2676,27 +2931,27 @@ SkadaStorageDB = {
 			["edamage"] = 58,
 			["last_action"] = 1690056146,
 			["endtime"] = 1690056147,
-		}, -- [13]
+		}, -- [14]
 		{
 			["enemies"] = {
 				{
-					["name"] = "Wrathtail Sorceress",
 					["damagetaken"] = 273,
-					["flag"] = 68168,
-					["id"] = "0xF130000E850B742E",
-					["totaldamagetaken"] = 273,
+					["name"] = "Wrathtail Sorceress",
 					["class"] = "MONSTER",
+					["flag"] = 68168,
+					["totaldamagetaken"] = 273,
+					["id"] = "0xF130000E850B742E",
 					["damagetakenspells"] = {
 						[6603] = {
 							["school"] = 1,
 							["sources"] = {
 								["Pocaitorul"] = {
-									["amount"] = 176,
 									["overkill"] = 5,
+									["amount"] = 176,
 								},
 							},
-							["amount"] = 176,
 							["overkill"] = 5,
+							["amount"] = 176,
 						},
 						[25742] = {
 							["school"] = 2,
@@ -2748,6 +3003,18 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 11,
 						},
+						[853] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 2,
+							["targets"] = {
+								["Wrathtail Sorceress"] = {
+									["uptime"] = 1,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 1,
+						},
 						[62124] = {
 							["type"] = "DEBUFF",
 							["count"] = 1,
@@ -2759,11 +3026,6 @@ SkadaStorageDB = {
 								},
 							},
 							["uptime"] = 3,
-						},
-						[19834] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 11,
 						},
 						[10290] = {
 							["type"] = "BUFF",
@@ -2782,17 +3044,10 @@ SkadaStorageDB = {
 							},
 							["uptime"] = 4,
 						},
-						[853] = {
-							["type"] = "DEBUFF",
+						[19834] = {
+							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 2,
-							["targets"] = {
-								["Wrathtail Sorceress"] = {
-									["uptime"] = 1,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 1,
+							["uptime"] = 11,
 						},
 					},
 					["totaldamage"] = 273,
@@ -2800,23 +3055,6 @@ SkadaStorageDB = {
 					["totaldamagetaken"] = 0,
 					["damage"] = 273,
 					["damagespells"] = {
-						["Melee"] = {
-							["hitmin"] = 56,
-							["id"] = 6603,
-							["targets"] = {
-								["Wrathtail Sorceress"] = {
-									["amount"] = 176,
-									["overkill"] = 5,
-								},
-							},
-							["overkill"] = 5,
-							["count"] = 3,
-							["hit"] = 3,
-							["school"] = 1,
-							["hitmax"] = 61,
-							["amount"] = 176,
-							["hitamount"] = 176,
-						},
 						["Seal of Righteousness"] = {
 							["hitmin"] = 13,
 							["id"] = 25742,
@@ -2832,6 +3070,23 @@ SkadaStorageDB = {
 							["hitmax"] = 13,
 							["amount"] = 52,
 							["hitamount"] = 52,
+						},
+						["Melee"] = {
+							["hitmin"] = 56,
+							["id"] = 6603,
+							["targets"] = {
+								["Wrathtail Sorceress"] = {
+									["overkill"] = 5,
+									["amount"] = 176,
+								},
+							},
+							["overkill"] = 5,
+							["count"] = 3,
+							["hit"] = 3,
+							["school"] = 1,
+							["hitmax"] = 61,
+							["amount"] = 176,
+							["hitamount"] = 176,
 						},
 						["Judgement of Righteousness"] = {
 							["hitmin"] = 45,
@@ -2869,7 +3124,22 @@ SkadaStorageDB = {
 						},
 					},
 					["overkill"] = 5,
-					["role"] = "TANK",
+					["damagetakenspells"] = {
+						["Melee"] = {
+							["sources"] = {
+								["Wrathtail Sorceress"] = {
+									["amount"] = 0,
+								},
+							},
+							["PARRY"] = 1,
+							["count"] = 2,
+							["amount"] = 0,
+							["id"] = 6603,
+							["blocked"] = 16,
+							["BLOCK"] = 1,
+							["school"] = 1,
+						},
+					},
 					["heal"] = 0,
 					["name"] = "Pocaitorul",
 					["ccdone"] = 1,
@@ -2886,302 +3156,62 @@ SkadaStorageDB = {
 							},
 						},
 					},
-					["damagetakenspells"] = {
-						["Melee"] = {
-							["id"] = 6603,
-							["PARRY"] = 1,
-							["count"] = 2,
-							["amount"] = 0,
-							["school"] = 1,
-							["BLOCK"] = 1,
-							["blocked"] = 16,
-							["sources"] = {
-								["Wrathtail Sorceress"] = {
-									["amount"] = 0,
-								},
-							},
-						},
-					},
+					["role"] = "TANK",
 				}, -- [1]
 			},
 			["type"] = "none",
 			["damagetaken"] = 0,
 			["interrupt"] = 1,
 			["overheal"] = 26,
-			["mobname"] = "Wrathtail Sorceress",
+			["ccdone"] = 1,
 			["overkill"] = 5,
 			["edamagetaken"] = 273,
 			["heal"] = 0,
 			["name"] = "Wrathtail Sorceress (10)",
-			["ccdone"] = 1,
-			["starttime"] = 1690056074,
+			["mobname"] = "Wrathtail Sorceress",
 			["damage"] = 273,
+			["starttime"] = 1690056074,
 			["last_action"] = 1690056084,
 			["endtime"] = 1690056085,
-		}, -- [14]
-		{
-			["enemies"] = {
-				{
-					["damagespells"] = {
-						[6603] = {
-							["school"] = 1,
-							["targets"] = {
-								["Pocaitorul"] = {
-									["amount"] = 13,
-								},
-							},
-							["amount"] = 13,
-						},
-					},
-					["damagetaken"] = 257,
-					["id"] = "0xF130000E850B77E9",
-					["class"] = "MONSTER",
-					["damagetakenspells"] = {
-						[6603] = {
-							["school"] = 1,
-							["sources"] = {
-								["Pocaitorul"] = {
-									["amount"] = 160,
-									["overkill"] = 14,
-								},
-							},
-							["amount"] = 160,
-							["overkill"] = 14,
-						},
-						[25742] = {
-							["school"] = 2,
-							["sources"] = {
-								["Pocaitorul"] = {
-									["amount"] = 52,
-								},
-							},
-							["amount"] = 52,
-						},
-						[20187] = {
-							["school"] = 2,
-							["sources"] = {
-								["Pocaitorul"] = {
-									["amount"] = 45,
-								},
-							},
-							["amount"] = 45,
-						},
-					},
-					["totaldamage"] = 13,
-					["name"] = "Wrathtail Sorceress",
-					["totaldamagetaken"] = 257,
-					["flag"] = 68168,
-					["damage"] = 13,
-				}, -- [1]
-			},
-			["totaldamage"] = 257,
-			["time"] = 11,
-			["totaldamagetaken"] = 13,
-			["etotaldamage"] = 13,
-			["last_time"] = 33568.953,
-			["players"] = {
-				{
-					["last"] = 33568.93,
-					["flag"] = 1297,
-					["class"] = "PALADIN",
-					["auras"] = {
-						[25780] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 11,
-						},
-						[21084] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 11,
-						},
-						[19834] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 11,
-						},
-						[10290] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 11,
-						},
-						[62124] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 2,
-							["targets"] = {
-								["Wrathtail Sorceress"] = {
-									["uptime"] = 3,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 3,
-						},
-						[20185] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 2,
-							["targets"] = {
-								["Wrathtail Sorceress"] = {
-									["uptime"] = 5,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 5,
-						},
-					},
-					["totaldamage"] = 257,
-					["time"] = 8.67,
-					["totaldamagetaken"] = 13,
-					["damage"] = 257,
-					["damagespells"] = {
-						["Melee"] = {
-							["hitmin"] = 52,
-							["id"] = 6603,
-							["targets"] = {
-								["Wrathtail Sorceress"] = {
-									["amount"] = 160,
-									["overkill"] = 14,
-								},
-							},
-							["overkill"] = 14,
-							["count"] = 3,
-							["hit"] = 3,
-							["school"] = 1,
-							["hitmax"] = 56,
-							["amount"] = 160,
-							["hitamount"] = 160,
-						},
-						["Seal of Righteousness"] = {
-							["hitmin"] = 13,
-							["id"] = 25742,
-							["targets"] = {
-								["Wrathtail Sorceress"] = {
-									["amount"] = 52,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 4,
-							["hit"] = 4,
-							["school"] = 2,
-							["hitmax"] = 13,
-							["amount"] = 52,
-							["hitamount"] = 52,
-						},
-						["Judgement of Righteousness"] = {
-							["hitmin"] = 45,
-							["id"] = 20187,
-							["targets"] = {
-								["Wrathtail Sorceress"] = {
-									["amount"] = 45,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 2,
-							["hitmax"] = 45,
-							["amount"] = 45,
-							["hitamount"] = 45,
-						},
-					},
-					["damagetaken"] = 13,
-					["id"] = "0x070000000097BE20",
-					["spec"] = 66,
-					["healspells"] = {
-						[20267] = {
-							["overheal"] = 0,
-							["min"] = 13,
-							["count"] = 2,
-							["amount"] = 26,
-							["school"] = 2,
-							["ishot"] = true,
-							["targets"] = {
-								["Pocaitorul"] = {
-									["overheal"] = 0,
-									["amount"] = 26,
-								},
-							},
-							["max"] = 13,
-						},
-					},
-					["damagetakenspells"] = {
-						["Melee"] = {
-							["hitmin"] = 13,
-							["id"] = 6603,
-							["sources"] = {
-								["Wrathtail Sorceress"] = {
-									["amount"] = 13,
-								},
-							},
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 1,
-							["hitmax"] = 13,
-							["amount"] = 13,
-							["hitamount"] = 13,
-						},
-					},
-					["heal"] = 26,
-					["name"] = "Pocaitorul",
-					["role"] = "TANK",
-					["overheal"] = 0,
-					["overkill"] = 14,
-				}, -- [1]
-			},
-			["type"] = "none",
-			["damagetaken"] = 13,
-			["damage"] = 257,
-			["overheal"] = 0,
-			["etotaldamagetaken"] = 257,
-			["overkill"] = 14,
-			["edamagetaken"] = 257,
-			["heal"] = 26,
-			["name"] = "Wrathtail Sorceress (9)",
-			["mobname"] = "Wrathtail Sorceress",
-			["starttime"] = 1690056025,
-			["edamage"] = 13,
-			["last_action"] = 1690056036,
-			["endtime"] = 1690056036,
 		}, -- [15]
 	},
 	["version"] = 1878,
 	["total"] = {
-		["starttime"] = 1689921212,
-		["heal"] = 29846,
-		["damagetaken"] = 56612,
-		["overheal"] = 7968,
-		["interrupt"] = 45,
 		["players"] = {
 			{
 				["flag"] = 1297,
 				["class"] = "PALADIN",
 				["dispel"] = 32,
 				["role"] = "TANK",
-				["time"] = 9354.929999999962,
-				["totaldamagetaken"] = 56612,
-				["damage"] = 230522,
-				["overheal"] = 7968,
-				["damagetaken"] = 56612,
+				["time"] = 9362.679999999962,
+				["totaldamagetaken"] = 56695,
+				["damage"] = 231010,
+				["overheal"] = 8147,
+				["damagetaken"] = 56695,
 				["id"] = "0x070000000097BE20",
 				["spec"] = 66,
-				["overkill"] = 25066,
-				["heal"] = 29846,
+				["overkill"] = 25070,
+				["heal"] = 29874,
 				["name"] = "Pocaitorul",
 				["ccdone"] = 97,
-				["potion"] = 9,
+				["totaldamage"] = 231010,
 				["interrupt"] = 45,
-				["totaldamage"] = 230522,
+				["potion"] = 9,
 			}, -- [1]
 		},
-		["potion"] = 9,
-		["overkill"] = 25066,
-		["dispel"] = 32,
-		["totaldamage"] = 230522,
-		["time"] = 12039,
-		["ccdone"] = 97,
-		["totaldamagetaken"] = 56612,
+		["totaldamage"] = 231010,
+		["damagetaken"] = 56695,
+		["starttime"] = 1689921212,
+		["interrupt"] = 45,
+		["overheal"] = 8147,
 		["name"] = "Total",
-		["damage"] = 230522,
+		["overkill"] = 25070,
+		["dispel"] = 32,
+		["heal"] = 29874,
+		["time"] = 12048,
+		["ccdone"] = 97,
+		["totaldamagetaken"] = 56695,
+		["potion"] = 9,
+		["damage"] = 231010,
 	},
 }
