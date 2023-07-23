@@ -1,4 +1,5 @@
 SET deselectOnClick "0"
+SET autoInteract "1"
 SET autoDismountFlying "1"
 SET showTargetOfTarget "1"
 SET displayFreeBagSlots "1"
