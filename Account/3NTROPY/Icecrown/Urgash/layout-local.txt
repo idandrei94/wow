@@ -97,10 +97,3 @@ X: 4
 Y: 0
 W: 610
 H: 488
-Frame: BagnonFramebank
-FrameLevel: 1
-Anchor: TOP
-X: -234
-Y: 0
-W: 422
-H: 673

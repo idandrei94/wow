@@ -7,6 +7,11 @@ MACRO 16777228 "bubble" INV_Misc_QuestionMark
 /cancelaura divine shield
 /cast divine shield
 END
+MACRO 16777243 "buff" INV_Misc_QuestionMark
+#showtooltip
+/cast [nomodifier:ctrl, target=player] blessing of wisdom
+/cast [modifier:ctrl, target=cadelnita] blessing of kings
+END
 MACRO 16777231 "cleanse" INV_Misc_QuestionMark
 #showtooltip cleanse
 /cast [nomodifier:alt] cleanse
@@ -74,14 +79,4 @@ END
 MACRO 16777239 "turn" INV_Misc_QuestionMark
 #showtooltip
 /cast [target=focus,exists,nodead,harm][target=mouseover,exists,nodead,harm][] turn evil
-END
-MACRO 16777235 "wep3" INV_Misc_QuestionMark
-#showtooltip Icecrown Glacial Wall
-/equip Royal Scepter of Terenas II
-/equip Icecrown Glacial Wall
-END
-MACRO 16777236 "wep4" INV_Misc_QuestionMark
-#showtooltip Wrathful Gladiator's Barrier
-/equip Royal Scepter of Terenas II
-/equip Wrathful Gladiator's Barrier
 END

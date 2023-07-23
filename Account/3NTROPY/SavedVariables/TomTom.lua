@@ -19,22 +19,22 @@ TomTomDB = {
 		["Drext - Icecrown"] = "Default",
 		["Sculamare - Icecrown"] = "Default",
 		["Aevie - Icecrown"] = "Default",
-		["Pocaitorul - Icecrown"] = "Default",
+		["Vhalanor - Icecrown"] = "Default",
 		["Ulrezaj - Icecrown"] = "Default",
-		["Urgash - Icecrown"] = "Default",
 		["Pocaitoru - Icecrown"] = "Default",
+		["Lingurita - Icecrown"] = "Default",
 		["Elgorath - Icecrown"] = "Default",
 		["Izanagi - Icecrown"] = "Default",
 		["Flocparlit - Icecrown"] = "Default",
 		["Gligor - Icecrown"] = "Default",
 		["Mirceabravo - Blackrock [PvP only]"] = "Default",
 		["Maciucaru - Icecrown"] = "Default",
-		["Mirceabravo - Icecrown"] = "Default",
-		["Sculatru - Icecrown"] = "Default",
 		["Inarya - Icecrown"] = "Default",
+		["Sculatru - Icecrown"] = "Default",
+		["Mirceabravo - Icecrown"] = "Default",
 		["Pubianus - Icecrown"] = "Default",
-		["Lingurita - Icecrown"] = "Default",
-		["Vhalanor - Icecrown"] = "Default",
+		["Urgash - Icecrown"] = "Default",
+		["Pocaitorul - Icecrown"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {
@@ -61,22 +61,22 @@ TomTomWaypoints = {
 		["Drext - Icecrown"] = "Drext - Icecrown",
 		["Sculamare - Icecrown"] = "Sculamare - Icecrown",
 		["Aevie - Icecrown"] = "Aevie - Icecrown",
-		["Pocaitorul - Icecrown"] = "Pocaitorul - Icecrown",
+		["Vhalanor - Icecrown"] = "Vhalanor - Icecrown",
 		["Ulrezaj - Icecrown"] = "Ulrezaj - Icecrown",
-		["Urgash - Icecrown"] = "Urgash - Icecrown",
 		["Pocaitoru - Icecrown"] = "Pocaitoru - Icecrown",
+		["Lingurita - Icecrown"] = "Lingurita - Icecrown",
 		["Elgorath - Icecrown"] = "Elgorath - Icecrown",
 		["Izanagi - Icecrown"] = "Izanagi - Icecrown",
 		["Flocparlit - Icecrown"] = "Flocparlit - Icecrown",
 		["Gligor - Icecrown"] = "Gligor - Icecrown",
 		["Mirceabravo - Blackrock [PvP only]"] = "Mirceabravo - Blackrock [PvP only]",
 		["Maciucaru - Icecrown"] = "Maciucaru - Icecrown",
-		["Mirceabravo - Icecrown"] = "Mirceabravo - Icecrown",
-		["Sculatru - Icecrown"] = "Sculatru - Icecrown",
 		["Inarya - Icecrown"] = "Inarya - Icecrown",
+		["Sculatru - Icecrown"] = "Sculatru - Icecrown",
+		["Mirceabravo - Icecrown"] = "Mirceabravo - Icecrown",
 		["Pubianus - Icecrown"] = "Pubianus - Icecrown",
-		["Lingurita - Icecrown"] = "Lingurita - Icecrown",
-		["Vhalanor - Icecrown"] = "Vhalanor - Icecrown",
+		["Urgash - Icecrown"] = "Urgash - Icecrown",
+		["Pocaitorul - Icecrown"] = "Pocaitorul - Icecrown",
 	},
 	["profiles"] = {
 		["Rimgar - Icecrown"] = {
@@ -115,13 +115,13 @@ TomTomWaypoints = {
 		},
 		["Aevie - Icecrown"] = {
 		},
-		["Pocaitorul - Icecrown"] = {
+		["Vhalanor - Icecrown"] = {
 		},
 		["Ulrezaj - Icecrown"] = {
 		},
-		["Urgash - Icecrown"] = {
-		},
 		["Pocaitoru - Icecrown"] = {
+		},
+		["Lingurita - Icecrown"] = {
 		},
 		["Elgorath - Icecrown"] = {
 		},
@@ -135,17 +135,17 @@ TomTomWaypoints = {
 		},
 		["Maciucaru - Icecrown"] = {
 		},
-		["Mirceabravo - Icecrown"] = {
+		["Inarya - Icecrown"] = {
 		},
 		["Sculatru - Icecrown"] = {
 		},
-		["Inarya - Icecrown"] = {
+		["Mirceabravo - Icecrown"] = {
 		},
 		["Pubianus - Icecrown"] = {
 		},
-		["Lingurita - Icecrown"] = {
+		["Urgash - Icecrown"] = {
 		},
-		["Vhalanor - Icecrown"] = {
+		["Pocaitorul - Icecrown"] = {
 		},
 	},
 }
