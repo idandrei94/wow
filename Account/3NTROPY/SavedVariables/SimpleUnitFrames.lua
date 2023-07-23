@@ -26,8 +26,8 @@ SimpleUnitFramesDB = {
 		["Aevie - Icecrown"] = "Aevie - Icecrown",
 		["Vhalanor - Icecrown"] = "Vhalanor - Icecrown",
 		["Ulrezaj - Icecrown"] = "Ulrezaj - Icecrown",
-		["Pocaitoru - Icecrown"] = "Pocaitoru - Icecrown",
 		["Lingurita - Icecrown"] = "Lingurita - Icecrown",
+		["Pocaitoru - Icecrown"] = "Pocaitoru - Icecrown",
 		["Elgorath - Icecrown"] = "Elgorath - Icecrown",
 		["Izanagi - Icecrown"] = "Izanagi - Icecrown",
 		["Flocparlit - Icecrown"] = "Flocparlit - Icecrown",
@@ -88,9 +88,9 @@ SimpleUnitFramesDB = {
 		},
 		["Ulrezaj - Icecrown"] = {
 		},
-		["Pocaitoru - Icecrown"] = {
-		},
 		["Lingurita - Icecrown"] = {
+		},
+		["Pocaitoru - Icecrown"] = {
 		},
 		["Elgorath - Icecrown"] = {
 		},

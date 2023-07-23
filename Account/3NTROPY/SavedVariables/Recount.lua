@@ -21,8 +21,8 @@ RecountDB = {
 		["Aevie - Icecrown"] = "Aevie - Icecrown",
 		["Vhalanor - Icecrown"] = "Vhalanor - Icecrown",
 		["Ulrezaj - Icecrown"] = "Ulrezaj - Icecrown",
-		["Pocaitoru - Icecrown"] = "Pocaitoru - Icecrown",
 		["Lingurita - Icecrown"] = "Lingurita - Icecrown",
+		["Pocaitoru - Icecrown"] = "Pocaitoru - Icecrown",
 		["Elgorath - Icecrown"] = "Elgorath - Icecrown",
 		["Izanagi - Icecrown"] = "Izanagi - Icecrown",
 		["Flocparlit - Icecrown"] = "Flocparlit - Icecrown",
@@ -49,7 +49,7 @@ RecountDB = {
 			},
 			["DetailWindowX"] = 58.00000341936197,
 			["LastInstanceName"] = "Trial of the Crusader",
-			["GraphWindowX"] = 0,
+			["DetailWindowY"] = -16.99999979483828,
 			["CurDataSet"] = "LastFightData",
 			["Colors"] = {
 				["Bar"] = {
@@ -61,7 +61,7 @@ RecountDB = {
 					},
 				},
 			},
-			["DetailWindowY"] = -16.99999979483828,
+			["GraphWindowX"] = 0,
 			["ReportLines"] = 1,
 			["MainWindowVis"] = false,
 			["MainWindowWidth"] = 251.4197662784027,
@@ -79,7 +79,7 @@ RecountDB = {
 			},
 			["DetailWindowX"] = -115.0000081380815,
 			["LastInstanceName"] = "Icecrown Citadel",
-			["GraphWindowX"] = 0,
+			["DetailWindowY"] = -60.00000082064688,
 			["CurDataSet"] = "LastFightData",
 			["Colors"] = {
 				["Bar"] = {
@@ -91,7 +91,7 @@ RecountDB = {
 					},
 				},
 			},
-			["DetailWindowY"] = -60.00000082064688,
+			["GraphWindowX"] = 0,
 			["ReportLines"] = 1,
 			["MainWindowVis"] = false,
 			["MainWindowWidth"] = 244.5308668882732,
@@ -146,11 +146,11 @@ RecountDB = {
 					},
 				},
 			},
-			["DetailWindowY"] = 23.44438869364712,
+			["GraphWindowX"] = 0,
 			["MainWindowWidth"] = 238.9999938458702,
 			["MainWindowVis"] = false,
 			["ReportLines"] = 1,
-			["GraphWindowX"] = 0,
+			["DetailWindowY"] = 23.44438869364712,
 		},
 		["Flokus - Icecrown"] = {
 			["GraphWindowY"] = 0,
@@ -225,8 +225,8 @@ RecountDB = {
 			["GraphWindowY"] = 0,
 			["MainWindow"] = {
 				["Position"] = {
-					["h"] = 200.0000027354896,
 					["w"] = 140.0000106684094,
+					["h"] = 200.0000027354896,
 				},
 			},
 			["Colors"] = {
@@ -237,10 +237,10 @@ RecountDB = {
 				},
 			},
 			["DetailWindowY"] = 0,
-			["DetailWindowX"] = 0,
-			["MainWindowVis"] = false,
-			["CurDataSet"] = "OverallData",
 			["GraphWindowX"] = 0,
+			["CurDataSet"] = "OverallData",
+			["MainWindowVis"] = false,
+			["DetailWindowX"] = 0,
 		},
 		["Kalaam - Icecrown"] = {
 			["GraphWindowY"] = 0,
@@ -550,36 +550,6 @@ RecountDB = {
 			["MainWindowWidth"] = 227.3745989945492,
 			["GraphWindowX"] = 0,
 		},
-		["Pocaitoru - Icecrown"] = {
-			["GraphWindowY"] = 0,
-			["MainWindow"] = {
-				["Position"] = {
-					["y"] = 140.574052062248,
-					["h"] = 329.000001436132,
-					["w"] = 260.0000123097031,
-					["x"] = -628.5186425324451,
-				},
-			},
-			["DetailWindowX"] = 655.7037672683764,
-			["LastInstanceName"] = "Violet Hold",
-			["GraphWindowX"] = 0,
-			["CurDataSet"] = "LastFightData",
-			["Colors"] = {
-				["Bar"] = {
-					["Bar Text"] = {
-						["a"] = 1,
-					},
-					["Total Bar"] = {
-						["a"] = 1,
-					},
-				},
-			},
-			["DetailWindowY"] = -296.7037172773043,
-			["ReportLines"] = 2,
-			["MainWindowVis"] = false,
-			["MainWindowWidth"] = 260.0000123097031,
-			["MainWindowHeight"] = 328.7999999452902,
-		},
 		["Lingurita - Icecrown"] = {
 			["GraphWindowY"] = 0,
 			["MainWindow"] = {
@@ -600,6 +570,36 @@ RecountDB = {
 			["MainWindowVis"] = false,
 			["GraphWindowX"] = 0,
 			["CurDataSet"] = "OverallData",
+		},
+		["Pocaitoru - Icecrown"] = {
+			["GraphWindowY"] = 0,
+			["MainWindow"] = {
+				["Position"] = {
+					["y"] = 140.574052062248,
+					["h"] = 329.000001436132,
+					["w"] = 260.0000123097031,
+					["x"] = -628.5186425324451,
+				},
+			},
+			["DetailWindowX"] = 655.7037672683764,
+			["LastInstanceName"] = "Violet Hold",
+			["DetailWindowY"] = -296.7037172773043,
+			["CurDataSet"] = "LastFightData",
+			["Colors"] = {
+				["Bar"] = {
+					["Bar Text"] = {
+						["a"] = 1,
+					},
+					["Total Bar"] = {
+						["a"] = 1,
+					},
+				},
+			},
+			["GraphWindowX"] = 0,
+			["ReportLines"] = 2,
+			["MainWindowVis"] = false,
+			["MainWindowWidth"] = 260.0000123097031,
+			["MainWindowHeight"] = 328.7999999452902,
 		},
 		["Elgorath - Icecrown"] = {
 			["GraphWindowY"] = 0,
@@ -810,11 +810,11 @@ RecountDB = {
 					},
 				},
 			},
-			["DetailWindowY"] = -124.0493402990752,
+			["GraphWindowX"] = 0,
 			["MainWindowVis"] = false,
 			["MainWindowMode"] = 5,
 			["MainWindowWidth"] = 256.148530518934,
-			["GraphWindowX"] = 0,
+			["DetailWindowY"] = -124.0493402990752,
 		},
 		["Pubianus - Icecrown"] = {
 			["GraphWindowY"] = 0,
@@ -870,8 +870,8 @@ RecountDB = {
 			["GraphWindowY"] = 0,
 			["MainWindow"] = {
 				["Position"] = {
-					["w"] = 140.0000106684094,
 					["h"] = 200.0000027354896,
+					["w"] = 140.0000106684094,
 				},
 			},
 			["Colors"] = {
@@ -882,10 +882,10 @@ RecountDB = {
 				},
 			},
 			["DetailWindowY"] = 0,
-			["GraphWindowX"] = 0,
-			["CurDataSet"] = "OverallData",
-			["MainWindowVis"] = false,
 			["DetailWindowX"] = 0,
+			["MainWindowVis"] = false,
+			["CurDataSet"] = "OverallData",
+			["GraphWindowX"] = 0,
 		},
 	},
 }
