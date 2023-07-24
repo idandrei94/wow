@@ -1,8 +1,8 @@
 
 AutoDestroyCFG = {
-	["zone"] = "Redridge Mountains",
+	["zone"] = "Elwynn Forest",
 	["minlevel"] = 20,
 	["weapons"] = 1,
-	["list"] = "Goretusk Liver\nBoar Ribs\nIvory Boar Tusk\nBoar Intestines\nChipped Boar Tusk\nChunk of Boar Meat\nSpider Ichor\nThick Spider Hair\nCrunchy Spider Leg\nSmall Venom Sac\nGnoll Spittle\nLesser Healing Potion\nMageroyal\nLinen Cloth\nSmall Egg\nLight Feather\nBuzzard Beak\nMurloc Eye\nSmall Barnacled Clam\nSlimy Murloc Scale\nCracked Bill\nBroken Wishbone\nPattern: Red Linen Vest\nCured Ham Steak\nWild Hog Shank\nRuffled Feather\nBuzzard Talon\nIce Cold Milk\nSevered Talon\nMutton Chop\nPitchfork\nDouble Mail Coif\nMishandled Recurve Bow\nWool Cloth\nSimple Bands\nVeteran Bracers\nBlack Whelp Boots\nBandit Gloves of Defense\nHaunch of Meat\n",
+	["list"] = "Linen Cloth\nShiny Red Apple\nRough Stone\nCoarse Stone\nMinor Healing Potion\nRefreshing Spring Water\nPatchwork Cloak\nRagged Leather Boots\nA Gold Tooth\nMagic Candle\nSmall Spider Leg\nSnapped Spider Limb\nJourneyman's Robe\nRagged Leather Vest\nSimple Dagger\nRagged Leather Belt\nCracked Buckler\nBurnt Buckler\nCadet's Bow\nFlimsy Chain Boots\nRagged Leather Pants\nFrayed Belt\nTraining Sword of the Bear\nMageroyal\nFrayed Robe\nBattered Buckler\nFlimsy Chain Gloves\nJourneyman's Pants\nSmall Black Pouch\nFrayed Pants\nPeacebloom\n",
 	["armor"] = 1,
 }

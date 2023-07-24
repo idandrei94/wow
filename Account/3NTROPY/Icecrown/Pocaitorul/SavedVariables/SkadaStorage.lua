@@ -50,12 +50,12 @@ SkadaStorageDB = {
 							["school"] = 32,
 							["sources"] = {
 								["Cadelnita"] = {
-									["overkill"] = 14,
 									["amount"] = 164,
+									["overkill"] = 14,
 								},
 							},
-							["overkill"] = 14,
 							["amount"] = 164,
+							["overkill"] = 14,
 						},
 					},
 					["totaldamage"] = 49,
@@ -67,10 +67,12 @@ SkadaStorageDB = {
 			},
 			["totaldamage"] = 632,
 			["time"] = 9,
-			["starttime"] = 1690145087,
 			["totaldamagetaken"] = 49,
 			["etotaldamage"] = 49,
 			["last_time"] = 22839.759,
+			["starttime"] = 1690145087,
+			["type"] = "group",
+			["damagetaken"] = 49,
 			["players"] = {
 				{
 					["last"] = 22837.934,
@@ -87,10 +89,10 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 9,
 						},
-						[13819] = {
+						[21084] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 2,
+							["uptime"] = 9,
 						},
 						[20185] = {
 							["type"] = "DEBUFF",
@@ -109,16 +111,37 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 9,
 						},
-						[21084] = {
+						[13819] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 9,
+							["uptime"] = 2,
 						},
 					},
+					["totaldamage"] = 468,
 					["time"] = 6.85,
 					["totaldamagetaken"] = 49,
 					["damage"] = 468,
 					["damagespells"] = {
+						["Melee"] = {
+							["hitmin"] = 63,
+							["criticalamount"] = 282,
+							["id"] = 6603,
+							["criticalmin"] = 138,
+							["targets"] = {
+								["Young Black Ravager"] = {
+									["amount"] = 345,
+								},
+							},
+							["hitmax"] = 63,
+							["blocked"] = 11,
+							["criticalmax"] = 144,
+							["critical"] = 2,
+							["amount"] = 345,
+							["school"] = 1,
+							["hit"] = 1,
+							["count"] = 3,
+							["hitamount"] = 63,
+						},
 						["Seal of Righteousness"] = {
 							["hitmin"] = 16,
 							["id"] = 25742,
@@ -134,26 +157,6 @@ SkadaStorageDB = {
 							["hitmax"] = 16,
 							["amount"] = 64,
 							["hitamount"] = 64,
-						},
-						["Melee"] = {
-							["hitmin"] = 63,
-							["criticalamount"] = 282,
-							["id"] = 6603,
-							["blocked"] = 11,
-							["targets"] = {
-								["Young Black Ravager"] = {
-									["amount"] = 345,
-								},
-							},
-							["hitmax"] = 63,
-							["count"] = 3,
-							["criticalmax"] = 144,
-							["critical"] = 2,
-							["amount"] = 345,
-							["school"] = 1,
-							["hit"] = 1,
-							["criticalmin"] = 138,
-							["hitamount"] = 63,
 						},
 						["Judgement of Righteousness"] = {
 							["hitmin"] = 59,
@@ -178,32 +181,32 @@ SkadaStorageDB = {
 					["healspells"] = {
 						[20267] = {
 							["overheal"] = 13,
+							["min"] = 15,
+							["count"] = 2,
+							["amount"] = 31,
+							["max"] = 16,
+							["ishot"] = true,
 							["targets"] = {
 								["Pocaitorul"] = {
 									["overheal"] = 13,
 									["amount"] = 31,
 								},
 							},
-							["count"] = 2,
-							["amount"] = 31,
 							["school"] = 2,
-							["max"] = 16,
-							["ishot"] = true,
-							["min"] = 15,
 						},
 					},
 					["damagetakenspells"] = {
 						["Melee"] = {
 							["hitmin"] = 15,
 							["id"] = 6603,
-							["amount"] = 49,
+							["hit"] = 3,
 							["sources"] = {
 								["Young Black Ravager"] = {
 									["amount"] = 49,
 								},
 							},
 							["count"] = 4,
-							["hit"] = 3,
+							["amount"] = 49,
 							["school"] = 1,
 							["hitmax"] = 18,
 							["MISS"] = 1,
@@ -212,9 +215,8 @@ SkadaStorageDB = {
 					},
 					["heal"] = 31,
 					["name"] = "Pocaitorul",
-					["overheal"] = 13,
-					["totaldamage"] = 468,
 					["role"] = "TANK",
+					["overheal"] = 13,
 				}, -- [1]
 				{
 					["damagespells"] = {
@@ -223,8 +225,8 @@ SkadaStorageDB = {
 							["id"] = 58381,
 							["targets"] = {
 								["Young Black Ravager"] = {
-									["overkill"] = 14,
 									["amount"] = 164,
+									["overkill"] = 14,
 								},
 							},
 							["overkill"] = 14,
@@ -238,10 +240,15 @@ SkadaStorageDB = {
 						},
 					},
 					["last"] = 22839.71,
-					["class"] = "PRIEST",
 					["id"] = "0x070000000097B7E5",
-					["spec"] = 258,
+					["class"] = "PRIEST",
 					["overkill"] = 14,
+					["spec"] = 258,
+					["totaldamage"] = 164,
+					["name"] = "Cadelnita",
+					["time"] = 7.88,
+					["flag"] = 1298,
+					["role"] = "DAMAGER",
 					["auras"] = {
 						[643] = {
 							["type"] = "BUFF",
@@ -249,6 +256,11 @@ SkadaStorageDB = {
 							["uptime"] = 9,
 						},
 						[10789] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 9,
+						},
+						[8091] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 9,
@@ -265,22 +277,10 @@ SkadaStorageDB = {
 							},
 							["uptime"] = 6,
 						},
-						[8091] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 9,
-						},
 					},
-					["totaldamage"] = 164,
-					["role"] = "DAMAGER",
-					["name"] = "Cadelnita",
-					["flag"] = 1298,
-					["time"] = 7.88,
 					["damage"] = 164,
 				}, -- [2]
 			},
-			["type"] = "group",
-			["damagetaken"] = 49,
 			["overheal"] = 13,
 			["damage"] = 632,
 			["overkill"] = 14,
@@ -320,14 +320,14 @@ SkadaStorageDB = {
 							},
 							["amount"] = 149,
 						},
-						[6603] = {
-							["school"] = 1,
+						[20187] = {
+							["school"] = 2,
 							["sources"] = {
 								["Pocaitorul"] = {
-									["amount"] = 66,
+									["amount"] = 59,
 								},
 							},
-							["amount"] = 66,
+							["amount"] = 59,
 						},
 						[25742] = {
 							["school"] = 2,
@@ -342,12 +342,12 @@ SkadaStorageDB = {
 							["school"] = 32,
 							["sources"] = {
 								["Cadelnita"] = {
-									["overkill"] = 10,
 									["amount"] = 65,
+									["overkill"] = 10,
 								},
 							},
-							["overkill"] = 10,
 							["amount"] = 65,
+							["overkill"] = 10,
 						},
 						[8103] = {
 							["school"] = 32,
@@ -358,14 +358,14 @@ SkadaStorageDB = {
 							},
 							["amount"] = 158,
 						},
-						[20187] = {
-							["school"] = 2,
+						[6603] = {
+							["school"] = 1,
 							["sources"] = {
 								["Pocaitorul"] = {
-									["amount"] = 59,
+									["amount"] = 66,
 								},
 							},
-							["amount"] = 59,
+							["amount"] = 66,
 						},
 					},
 					["totaldamage"] = 58,
@@ -431,25 +431,26 @@ SkadaStorageDB = {
 							["uptime"] = 7,
 						},
 					},
+					["totaldamage"] = 306,
 					["time"] = 5.8,
 					["totaldamagetaken"] = 58,
 					["damage"] = 306,
 					["damagespells"] = {
-						["Melee"] = {
-							["glance"] = 66,
-							["id"] = 6603,
+						["Seal of Righteousness"] = {
+							["hitmin"] = 16,
+							["id"] = 25742,
 							["targets"] = {
 								["Defias Night Runner"] = {
-									["amount"] = 66,
+									["amount"] = 32,
 								},
 							},
-							["glancing"] = 1,
+							["casts"] = 1,
 							["count"] = 2,
-							["amount"] = 66,
-							["school"] = 1,
-							["glancemax"] = 66,
-							["MISS"] = 1,
-							["glancemin"] = 66,
+							["hit"] = 2,
+							["school"] = 2,
+							["hitmax"] = 16,
+							["amount"] = 32,
+							["hitamount"] = 32,
 						},
 						["Exorcism"] = {
 							["hitmin"] = 149,
@@ -467,21 +468,21 @@ SkadaStorageDB = {
 							["amount"] = 149,
 							["hitamount"] = 149,
 						},
-						["Seal of Righteousness"] = {
-							["hitmin"] = 16,
-							["id"] = 25742,
+						["Melee"] = {
+							["glance"] = 66,
+							["id"] = 6603,
 							["targets"] = {
 								["Defias Night Runner"] = {
-									["amount"] = 32,
+									["amount"] = 66,
 								},
 							},
-							["casts"] = 1,
+							["glancing"] = 1,
 							["count"] = 2,
-							["hit"] = 2,
-							["school"] = 2,
-							["hitmax"] = 16,
-							["amount"] = 32,
-							["hitamount"] = 32,
+							["amount"] = 66,
+							["school"] = 1,
+							["glancemax"] = 66,
+							["MISS"] = 1,
+							["glancemin"] = 66,
 						},
 						["Judgement of Righteousness"] = {
 							["hitmin"] = 59,
@@ -506,35 +507,35 @@ SkadaStorageDB = {
 					["healspells"] = {
 						[20267] = {
 							["overheal"] = 0,
+							["min"] = 14,
+							["count"] = 2,
+							["amount"] = 36,
+							["max"] = 22,
+							["ishot"] = true,
 							["targets"] = {
-								["Pocaitorul"] = {
-									["overheal"] = 0,
-									["amount"] = 22,
-								},
 								["Cadelnita"] = {
 									["overheal"] = 0,
 									["amount"] = 14,
 								},
+								["Pocaitorul"] = {
+									["overheal"] = 0,
+									["amount"] = 22,
+								},
 							},
-							["count"] = 2,
-							["amount"] = 36,
 							["school"] = 2,
-							["max"] = 22,
-							["ishot"] = true,
-							["min"] = 14,
 						},
 					},
 					["damagetakenspells"] = {
 						["Melee"] = {
 							["hitmin"] = 18,
 							["id"] = 6603,
-							["hitmax"] = 20,
+							["count"] = 4,
 							["sources"] = {
 								["Defias Night Runner"] = {
 									["amount"] = 58,
 								},
 							},
-							["count"] = 4,
+							["hitmax"] = 20,
 							["hit"] = 3,
 							["school"] = 1,
 							["amount"] = 58,
@@ -544,9 +545,8 @@ SkadaStorageDB = {
 					},
 					["heal"] = 36,
 					["name"] = "Pocaitorul",
-					["overheal"] = 0,
-					["totaldamage"] = 306,
 					["role"] = "TANK",
+					["overheal"] = 0,
 				}, -- [1]
 				{
 					["damagespells"] = {
@@ -571,8 +571,8 @@ SkadaStorageDB = {
 							["id"] = 58381,
 							["targets"] = {
 								["Defias Night Runner"] = {
-									["overkill"] = 10,
 									["amount"] = 65,
+									["overkill"] = 10,
 								},
 							},
 							["overkill"] = 10,
@@ -586,12 +586,22 @@ SkadaStorageDB = {
 						},
 					},
 					["last"] = 22738.185,
-					["class"] = "PRIEST",
 					["id"] = "0x070000000097B7E5",
-					["spec"] = 258,
+					["class"] = "PRIEST",
 					["overkill"] = 10,
+					["spec"] = 258,
+					["totaldamage"] = 223,
+					["name"] = "Cadelnita",
+					["time"] = 6.92,
+					["flag"] = 1298,
+					["role"] = "DAMAGER",
 					["auras"] = {
 						[8091] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 7,
+						},
+						[643] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 7,
@@ -608,17 +618,7 @@ SkadaStorageDB = {
 							},
 							["uptime"] = 2,
 						},
-						[643] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 7,
-						},
 					},
-					["totaldamage"] = 223,
-					["role"] = "DAMAGER",
-					["name"] = "Cadelnita",
-					["flag"] = 1298,
-					["time"] = 6.92,
 					["damage"] = 223,
 				}, -- [2]
 			},
@@ -638,50 +638,6 @@ SkadaStorageDB = {
 			["endtime"] = 1690144994,
 		}, -- [2]
 		{
-			["enemies"] = {
-				{
-					["damagespells"] = {
-						[6603] = {
-							["school"] = 1,
-							["targets"] = {
-								["Pocaitorul"] = {
-									["amount"] = 21,
-								},
-							},
-							["amount"] = 21,
-						},
-					},
-					["name"] = "Carrion Recluse",
-					["totaldamage"] = 21,
-					["flag"] = 2632,
-					["class"] = "MONSTER",
-					["id"] = "0xF1300003B515E12B",
-					["damage"] = 21,
-				}, -- [1]
-				{
-					["damagespells"] = {
-						[6603] = {
-							["school"] = 1,
-							["targets"] = {
-								["Pocaitorul"] = {
-									["amount"] = 18,
-								},
-							},
-							["amount"] = 18,
-						},
-					},
-					["name"] = "Flesh Eater",
-					["totaldamage"] = 18,
-					["flag"] = 2632,
-					["class"] = "MONSTER",
-					["id"] = "0xF130000003162EB0",
-					["damage"] = 18,
-				}, -- [2]
-			},
-			["time"] = 11,
-			["totaldamagetaken"] = 39,
-			["etotaldamage"] = 39,
-			["last_time"] = 22681.29,
 			["players"] = {
 				{
 					["last"] = 22670.433,
@@ -699,7 +655,7 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 11,
 						},
-						[13819] = {
+						[21084] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 11,
@@ -709,12 +665,18 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 11,
 						},
-						[21084] = {
+						[13819] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 11,
 						},
 					},
+					["role"] = "TANK",
+					["name"] = "Pocaitorul",
+					["class"] = "PALADIN",
+					["time"] = 0,
+					["totaldamagetaken"] = 39,
+					["flag"] = 1297,
 					["damagetakenspells"] = {
 						["Melee"] = {
 							["hitmin"] = 18,
@@ -735,22 +697,60 @@ SkadaStorageDB = {
 							["hitamount"] = 39,
 						},
 					},
-					["role"] = "TANK",
-					["name"] = "Pocaitorul",
-					["flag"] = 1297,
-					["totaldamagetaken"] = 39,
-					["time"] = 0,
-					["class"] = "PALADIN",
 				}, -- [1]
 			},
 			["type"] = "group",
 			["damagetaken"] = 39,
-			["name"] = "Carrion Recluse",
-			["mobname"] = "Carrion Recluse",
 			["starttime"] = 1690144926,
-			["edamage"] = 39,
-			["last_action"] = 1690144937,
 			["endtime"] = 1690144937,
+			["last_action"] = 1690144937,
+			["enemies"] = {
+				{
+					["damagespells"] = {
+						[6603] = {
+							["school"] = 1,
+							["targets"] = {
+								["Pocaitorul"] = {
+									["amount"] = 21,
+								},
+							},
+							["amount"] = 21,
+						},
+					},
+					["totaldamage"] = 21,
+					["name"] = "Carrion Recluse",
+					["flag"] = 2632,
+					["class"] = "MONSTER",
+					["id"] = "0xF1300003B515E12B",
+					["damage"] = 21,
+				}, -- [1]
+				{
+					["damagespells"] = {
+						[6603] = {
+							["school"] = 1,
+							["targets"] = {
+								["Pocaitorul"] = {
+									["amount"] = 18,
+								},
+							},
+							["amount"] = 18,
+						},
+					},
+					["totaldamage"] = 18,
+					["name"] = "Flesh Eater",
+					["flag"] = 2632,
+					["class"] = "MONSTER",
+					["id"] = "0xF130000003162EB0",
+					["damage"] = 18,
+				}, -- [2]
+			},
+			["edamage"] = 39,
+			["name"] = "Carrion Recluse",
+			["time"] = 11,
+			["mobname"] = "Carrion Recluse",
+			["totaldamagetaken"] = 39,
+			["etotaldamage"] = 39,
+			["last_time"] = 22681.29,
 		}, -- [3]
 		{
 			["enemies"] = {
@@ -783,12 +783,12 @@ SkadaStorageDB = {
 							["school"] = 1,
 							["sources"] = {
 								["Pocaitorul"] = {
-									["overkill"] = 74,
 									["amount"] = 481,
+									["overkill"] = 74,
 								},
 							},
-							["overkill"] = 74,
 							["amount"] = 481,
+							["overkill"] = 74,
 						},
 						[25742] = {
 							["school"] = 2,
@@ -812,12 +812,12 @@ SkadaStorageDB = {
 							["school"] = 2,
 							["sources"] = {
 								["Pocaitorul"] = {
-									["overkill"] = 3,
 									["amount"] = 600,
+									["overkill"] = 3,
 								},
 							},
-							["overkill"] = 3,
 							["amount"] = 600,
+							["overkill"] = 3,
 						},
 					},
 					["totaldamage"] = 176,
@@ -829,10 +829,12 @@ SkadaStorageDB = {
 			},
 			["totaldamage"] = 1235,
 			["time"] = 15,
-			["starttime"] = 1690142158,
 			["totaldamagetaken"] = 176,
 			["etotaldamage"] = 176,
 			["last_time"] = 19915.952,
+			["starttime"] = 1690142158,
+			["type"] = "group",
+			["damagetaken"] = 176,
 			["players"] = {
 				{
 					["last"] = 19915.936,
@@ -849,11 +851,6 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 15,
 						},
-						[8091] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 15,
-						},
 						[26573] = {
 							["type"] = "DEBUFF",
 							["count"] = 5,
@@ -866,12 +863,12 @@ SkadaStorageDB = {
 							},
 							["uptime"] = 13,
 						},
-						[21084] = {
+						[19742] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 15,
 						},
-						[19742] = {
+						[3164] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 15,
@@ -888,12 +885,18 @@ SkadaStorageDB = {
 							},
 							["uptime"] = 5,
 						},
-						[3164] = {
+						[8091] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 15,
+						},
+						[21084] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 15,
 						},
 					},
+					["totaldamage"] = 1235,
 					["time"] = 14.03,
 					["totaldamagetaken"] = 176,
 					["damage"] = 1235,
@@ -903,8 +906,8 @@ SkadaStorageDB = {
 							["id"] = 26573,
 							["targets"] = {
 								["Defias Highwayman"] = {
-									["overkill"] = 3,
 									["amount"] = 600,
+									["overkill"] = 3,
 								},
 							},
 							["overkill"] = 3,
@@ -936,35 +939,35 @@ SkadaStorageDB = {
 							["glance"] = 328,
 							["hitmin"] = 75,
 							["id"] = 6603,
-							["glancemin"] = 97,
+							["hitamount"] = 153,
 							["targets"] = {
 								["Defias Highwayman"] = {
-									["overkill"] = 74,
 									["amount"] = 481,
+									["overkill"] = 74,
 								},
 							},
 							["overkill"] = 74,
 							["glancing"] = 3,
-							["glancemax"] = 118,
-							["count"] = 5,
 							["hit"] = 2,
+							["count"] = 5,
+							["amount"] = 481,
 							["school"] = 1,
 							["hitmax"] = 78,
-							["amount"] = 481,
-							["hitamount"] = 153,
+							["glancemax"] = 118,
+							["glancemin"] = 97,
 						},
 						["Judgement of Light"] = {
 							["casts"] = 1,
 							["count"] = 1,
 							["amount"] = 0,
 							["school"] = 2,
+							["id"] = 20271,
+							["MISS"] = 1,
 							["targets"] = {
 								["Defias Highwayman"] = {
 									["amount"] = 0,
 								},
 							},
-							["MISS"] = 1,
-							["id"] = 20271,
 						},
 						["Judgement of Righteousness"] = {
 							["hitmin"] = 58,
@@ -989,18 +992,18 @@ SkadaStorageDB = {
 					["healspells"] = {
 						[20267] = {
 							["overheal"] = 0,
+							["min"] = 20,
+							["count"] = 1,
+							["amount"] = 20,
+							["max"] = 20,
+							["ishot"] = true,
 							["targets"] = {
 								["Pocaitorul"] = {
 									["overheal"] = 0,
 									["amount"] = 20,
 								},
 							},
-							["count"] = 1,
-							["amount"] = 20,
 							["school"] = 2,
-							["max"] = 20,
-							["ishot"] = true,
-							["min"] = 20,
 						},
 					},
 					["damagetakenspells"] = {
@@ -1008,18 +1011,18 @@ SkadaStorageDB = {
 							["DODGE"] = 2,
 							["hitmin"] = 4,
 							["id"] = 6603,
-							["blocked"] = 20,
 							["BLOCK"] = 2,
-							["amount"] = 112,
+							["count"] = 28,
+							["blocked"] = 20,
 							["sources"] = {
 								["Defias Highwayman"] = {
 									["amount"] = 112,
 								},
 							},
-							["count"] = 28,
+							["hitmax"] = 12,
 							["hit"] = 13,
 							["school"] = 1,
-							["hitmax"] = 12,
+							["amount"] = 112,
 							["MISS"] = 11,
 							["hitamount"] = 112,
 						},
@@ -1041,22 +1044,19 @@ SkadaStorageDB = {
 					},
 					["heal"] = 20,
 					["name"] = "Pocaitorul",
-					["overkill"] = 77,
-					["overheal"] = 0,
-					["totaldamage"] = 1235,
 					["role"] = "TANK",
+					["overheal"] = 0,
+					["overkill"] = 77,
 				}, -- [1]
 			},
-			["type"] = "group",
-			["damagetaken"] = 176,
 			["damage"] = 1235,
 			["overheal"] = 0,
-			["etotaldamagetaken"] = 1235,
 			["overkill"] = 77,
 			["edamagetaken"] = 1235,
 			["heal"] = 20,
 			["name"] = "Defias Highwayman (6)",
 			["mobname"] = "Defias Highwayman",
+			["etotaldamagetaken"] = 1235,
 			["edamage"] = 176,
 			["last_action"] = 1690142172,
 			["endtime"] = 1690142173,
@@ -1083,23 +1083,23 @@ SkadaStorageDB = {
 							["school"] = 1,
 							["sources"] = {
 								["Pocaitorul"] = {
-									["overkill"] = 164,
 									["amount"] = 584,
+									["overkill"] = 164,
 								},
 							},
-							["overkill"] = 164,
 							["amount"] = 584,
+							["overkill"] = 164,
 						},
 						[25742] = {
 							["school"] = 2,
 							["sources"] = {
 								["Pocaitorul"] = {
-									["overkill"] = 41,
 									["amount"] = 151,
+									["overkill"] = 41,
 								},
 							},
-							["overkill"] = 41,
 							["amount"] = 151,
+							["overkill"] = 41,
 						},
 						[20187] = {
 							["school"] = 2,
@@ -1114,16 +1114,16 @@ SkadaStorageDB = {
 							["school"] = 2,
 							["sources"] = {
 								["Pocaitorul"] = {
-									["overkill"] = 23,
 									["amount"] = 417,
+									["overkill"] = 23,
 								},
 							},
-							["overkill"] = 23,
 							["amount"] = 417,
+							["overkill"] = 23,
 						},
 					},
-					["name"] = "Defias Knuckleduster",
 					["totaldamage"] = 59,
+					["name"] = "Defias Knuckleduster",
 					["totaldamagetaken"] = 1210,
 					["id"] = "0xF1300001C116FEA9",
 					["damage"] = 59,
@@ -1148,12 +1148,12 @@ SkadaStorageDB = {
 							["school"] = 1,
 							["sources"] = {
 								["Pocaitorul"] = {
-									["overkill"] = 222,
 									["amount"] = 552,
+									["overkill"] = 222,
 								},
 							},
-							["overkill"] = 222,
 							["amount"] = 552,
+							["overkill"] = 222,
 						},
 						[25742] = {
 							["school"] = 2,
@@ -1168,12 +1168,12 @@ SkadaStorageDB = {
 							["school"] = 2,
 							["sources"] = {
 								["Pocaitorul"] = {
-									["overkill"] = 18,
 									["amount"] = 669,
+									["overkill"] = 18,
 								},
 							},
-							["overkill"] = 18,
 							["amount"] = 669,
+							["overkill"] = 18,
 						},
 					},
 					["totaldamage"] = 71,
@@ -1185,10 +1185,9 @@ SkadaStorageDB = {
 			},
 			["totaldamage"] = 2518,
 			["time"] = 21,
-			["damage"] = 2518,
 			["totaldamagetaken"] = 130,
 			["etotaldamagetaken"] = 2518,
-			["last_time"] = 19856.71,
+			["damage"] = 2518,
 			["players"] = {
 				{
 					["last"] = 19856.686,
@@ -1248,16 +1247,6 @@ SkadaStorageDB = {
 							},
 							["uptime"] = 11,
 						},
-						[25780] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 21,
-						},
-						[21084] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 21,
-						},
 						[26573] = {
 							["type"] = "DEBUFF",
 							["count"] = 8,
@@ -1274,23 +1263,34 @@ SkadaStorageDB = {
 							},
 							["uptime"] = 12,
 						},
-						[3164] = {
+						[21084] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 21,
-						},
-						[498] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 2,
-							["uptime"] = 11,
 						},
 						[19742] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 21,
 						},
+						[3164] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 21,
+						},
+						[498] = {
+							["school"] = 2,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 11,
+						},
+						[25780] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 21,
+						},
 					},
+					["totaldamage"] = 2518,
 					["time"] = 18.72000000000001,
 					["totaldamagetaken"] = 130,
 					["damage"] = 2518,
@@ -1327,8 +1327,8 @@ SkadaStorageDB = {
 							["count"] = 2,
 							["amount"] = 112,
 							["school"] = 1,
-							["criticalmin"] = 34,
 							["critical"] = 1,
+							["criticalmin"] = 34,
 						},
 					},
 					["damagetakenspells"] = {
@@ -1336,9 +1336,6 @@ SkadaStorageDB = {
 							["DODGE"] = 3,
 							["hitmin"] = 4,
 							["id"] = 6603,
-							["PARRY"] = 1,
-							["blocked"] = 4,
-							["BLOCK"] = 1,
 							["sources"] = {
 								["Defias Pathstalker"] = {
 									["amount"] = 71,
@@ -1347,29 +1344,32 @@ SkadaStorageDB = {
 									["amount"] = 59,
 								},
 							},
+							["BLOCK"] = 1,
+							["blocked"] = 4,
+							["PARRY"] = 1,
 							["count"] = 23,
 							["hit"] = 18,
 							["school"] = 1,
-							["hitmax"] = 11,
 							["amount"] = 130,
+							["hitmax"] = 11,
 							["hitamount"] = 130,
 						},
 					},
 					["heal"] = 112,
 					["name"] = "Pocaitorul",
-					["overkill"] = 468,
+					["role"] = "TANK",
 					["damagespells"] = {
 						["Consecration (DoT)"] = {
 							["hitmin"] = 20,
 							["id"] = 26573,
 							["targets"] = {
 								["Defias Pathstalker"] = {
-									["overkill"] = 18,
 									["amount"] = 669,
+									["overkill"] = 18,
 								},
 								["Defias Knuckleduster"] = {
-									["overkill"] = 23,
 									["amount"] = 417,
+									["overkill"] = 23,
 								},
 							},
 							["overkill"] = 41,
@@ -1381,6 +1381,27 @@ SkadaStorageDB = {
 							["amount"] = 1086,
 							["hitamount"] = 1086,
 						},
+						["Seal of Righteousness"] = {
+							["hitmin"] = 16,
+							["id"] = 25742,
+							["targets"] = {
+								["Defias Pathstalker"] = {
+									["amount"] = 87,
+								},
+								["Defias Knuckleduster"] = {
+									["amount"] = 151,
+									["overkill"] = 41,
+								},
+							},
+							["overkill"] = 41,
+							["casts"] = 1,
+							["count"] = 10,
+							["hit"] = 10,
+							["school"] = 2,
+							["hitmax"] = 29,
+							["amount"] = 238,
+							["hitamount"] = 238,
+						},
 						["Melee"] = {
 							["DODGE"] = 1,
 							["glance"] = 802,
@@ -1388,12 +1409,12 @@ SkadaStorageDB = {
 							["criticalmin"] = 204,
 							["targets"] = {
 								["Defias Pathstalker"] = {
-									["overkill"] = 222,
 									["amount"] = 552,
+									["overkill"] = 222,
 								},
 								["Defias Knuckleduster"] = {
-									["overkill"] = 164,
 									["amount"] = 584,
+									["overkill"] = 164,
 								},
 							},
 							["glancing"] = 5,
@@ -1410,27 +1431,6 @@ SkadaStorageDB = {
 							["critical"] = 1,
 							["hitmax"] = 69,
 							["hitamount"] = 130,
-						},
-						["Seal of Righteousness"] = {
-							["hitmin"] = 16,
-							["id"] = 25742,
-							["targets"] = {
-								["Defias Pathstalker"] = {
-									["amount"] = 87,
-								},
-								["Defias Knuckleduster"] = {
-									["overkill"] = 41,
-									["amount"] = 151,
-								},
-							},
-							["overkill"] = 41,
-							["casts"] = 1,
-							["count"] = 10,
-							["hit"] = 10,
-							["school"] = 2,
-							["hitmax"] = 29,
-							["amount"] = 238,
-							["hitamount"] = 238,
 						},
 						["Judgement of Righteousness"] = {
 							["hitmin"] = 58,
@@ -1449,12 +1449,12 @@ SkadaStorageDB = {
 							["hitamount"] = 58,
 						},
 					},
-					["totaldamage"] = 2518,
-					["role"] = "TANK",
+					["overkill"] = 468,
 				}, -- [1]
 			},
 			["type"] = "group",
 			["damagetaken"] = 130,
+			["last_time"] = 19856.71,
 			["overheal"] = 192,
 			["etotaldamage"] = 130,
 			["overkill"] = 468,
@@ -1468,25 +1468,27 @@ SkadaStorageDB = {
 			["endtime"] = 1690142113,
 		}, -- [5]
 		{
+			["starttime"] = 1690142081,
+			["type"] = "group",
 			["enemies"] = {
 				{
-					["id"] = "0xF1300001C116FE99",
 					["name"] = "Defias Knuckleduster",
-					["totaldamagetaken"] = 359,
+					["damagetaken"] = 359,
+					["id"] = "0xF1300001C116FE99",
 					["flag"] = 68168,
 					["class"] = "MONSTER",
-					["damagetaken"] = 359,
+					["totaldamagetaken"] = 359,
 					["damagetakenspells"] = {
 						[6603] = {
 							["school"] = 1,
 							["sources"] = {
 								["Pocaitorul"] = {
-									["overkill"] = 118,
 									["amount"] = 120,
+									["overkill"] = 118,
 								},
 							},
-							["overkill"] = 118,
 							["amount"] = 120,
+							["overkill"] = 118,
 						},
 						[25742] = {
 							["school"] = 2,
@@ -1518,29 +1520,24 @@ SkadaStorageDB = {
 					},
 				}, -- [1]
 			},
-			["totaldamage"] = 359,
-			["time"] = 5,
-			["etotaldamagetaken"] = 359,
-			["last_time"] = 19829.828,
 			["players"] = {
 				{
 					["damagespells"] = {
-						["Melee"] = {
-							["glance"] = 120,
-							["id"] = 6603,
-							["glancemax"] = 120,
-							["overkill"] = 118,
-							["glancing"] = 1,
-							["count"] = 1,
-							["amount"] = 120,
-							["school"] = 1,
+						["Seal of Righteousness"] = {
+							["hitmin"] = 16,
+							["id"] = 25742,
 							["targets"] = {
 								["Defias Knuckleduster"] = {
-									["overkill"] = 118,
-									["amount"] = 120,
+									["amount"] = 32,
 								},
 							},
-							["glancemin"] = 120,
+							["casts"] = 1,
+							["count"] = 2,
+							["hit"] = 2,
+							["school"] = 2,
+							["hitmax"] = 16,
+							["amount"] = 32,
+							["hitamount"] = 32,
 						},
 						["Exorcism"] = {
 							["hitmin"] = 149,
@@ -1558,21 +1555,22 @@ SkadaStorageDB = {
 							["amount"] = 149,
 							["hitamount"] = 149,
 						},
-						["Seal of Righteousness"] = {
-							["hitmin"] = 16,
-							["id"] = 25742,
+						["Melee"] = {
+							["glance"] = 120,
+							["id"] = 6603,
+							["glancemax"] = 120,
+							["overkill"] = 118,
+							["glancing"] = 1,
+							["count"] = 1,
+							["amount"] = 120,
+							["school"] = 1,
 							["targets"] = {
 								["Defias Knuckleduster"] = {
-									["amount"] = 32,
+									["amount"] = 120,
+									["overkill"] = 118,
 								},
 							},
-							["casts"] = 1,
-							["count"] = 2,
-							["hit"] = 2,
-							["school"] = 2,
-							["hitmax"] = 16,
-							["amount"] = 32,
-							["hitamount"] = 32,
+							["glancemin"] = 120,
 						},
 						["Judgement of Righteousness"] = {
 							["hitmin"] = 58,
@@ -1592,10 +1590,15 @@ SkadaStorageDB = {
 						},
 					},
 					["last"] = 19829.803,
-					["class"] = "PALADIN",
 					["id"] = "0x070000000097BE20",
-					["spec"] = 66,
+					["class"] = "PALADIN",
 					["overkill"] = 118,
+					["spec"] = 66,
+					["totaldamage"] = 359,
+					["name"] = "Pocaitorul",
+					["time"] = 4.41,
+					["flag"] = 1297,
+					["role"] = "TANK",
 					["auras"] = {
 						[25780] = {
 							["type"] = "BUFF",
@@ -1607,7 +1610,7 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 5,
 						},
-						[19742] = {
+						[21084] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 5,
@@ -1646,29 +1649,26 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 5,
 						},
-						[21084] = {
+						[19742] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 5,
 						},
 					},
-					["totaldamage"] = 359,
-					["role"] = "TANK",
-					["name"] = "Pocaitorul",
-					["flag"] = 1297,
-					["time"] = 4.41,
 					["damage"] = 359,
 				}, -- [1]
 			},
-			["type"] = "group",
-			["overkill"] = 118,
-			["edamagetaken"] = 359,
-			["damage"] = 359,
-			["name"] = "Defias Knuckleduster (3)",
-			["mobname"] = "Defias Knuckleduster",
-			["starttime"] = 1690142081,
+			["time"] = 5,
 			["last_action"] = 1690142086,
 			["endtime"] = 1690142086,
+			["overkill"] = 118,
+			["edamagetaken"] = 359,
+			["totaldamage"] = 359,
+			["name"] = "Defias Knuckleduster (3)",
+			["mobname"] = "Defias Knuckleduster",
+			["damage"] = 359,
+			["etotaldamagetaken"] = 359,
+			["last_time"] = 19829.828,
 		}, -- [6]
 		{
 			["enemies"] = {
@@ -1692,12 +1692,12 @@ SkadaStorageDB = {
 							["school"] = 1,
 							["sources"] = {
 								["Pocaitorul"] = {
-									["overkill"] = 46,
 									["amount"] = 121,
+									["overkill"] = 46,
 								},
 							},
-							["overkill"] = 46,
 							["amount"] = 121,
+							["overkill"] = 46,
 						},
 						[25742] = {
 							["school"] = 2,
@@ -1718,8 +1718,8 @@ SkadaStorageDB = {
 							["amount"] = 150,
 						},
 					},
-					["name"] = "Defias Highwayman",
 					["totaldamage"] = 5,
+					["name"] = "Defias Highwayman",
 					["totaldamagetaken"] = 287,
 					["id"] = "0xF13000007A1628D4",
 					["damage"] = 5,
@@ -1732,57 +1732,6 @@ SkadaStorageDB = {
 			["last_time"] = 19754.413,
 			["players"] = {
 				{
-					["last"] = 19754.371,
-					["flag"] = 1297,
-					["class"] = "PALADIN",
-					["auras"] = {
-						[25780] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 5,
-						},
-						[643] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 5,
-						},
-						[3164] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 5,
-						},
-						[62124] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 2,
-							["targets"] = {
-								["Defias Highwayman"] = {
-									["uptime"] = 3,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 3,
-						},
-						[19742] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 5,
-						},
-						[8091] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 5,
-						},
-						[21084] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 5,
-						},
-					},
-					["role"] = "TANK",
-					["time"] = 4.41,
-					["totaldamagetaken"] = 5,
-					["damage"] = 287,
 					["damagespells"] = {
 						["Exorcism"] = {
 							["hitmin"] = 150,
@@ -1827,16 +1776,66 @@ SkadaStorageDB = {
 							["school"] = 1,
 							["targets"] = {
 								["Defias Highwayman"] = {
-									["overkill"] = 46,
 									["amount"] = 121,
+									["overkill"] = 46,
 								},
 							},
 							["glancemin"] = 121,
 						},
 					},
+					["last"] = 19754.371,
 					["damagetaken"] = 5,
 					["id"] = "0x070000000097BE20",
-					["spec"] = 66,
+					["flag"] = 1297,
+					["class"] = "PALADIN",
+					["role"] = "TANK",
+					["auras"] = {
+						[25780] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 5,
+						},
+						[643] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 5,
+						},
+						[3164] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 5,
+						},
+						[62124] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 2,
+							["targets"] = {
+								["Defias Highwayman"] = {
+									["uptime"] = 3,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 3,
+						},
+						[21084] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 5,
+						},
+						[8091] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 5,
+						},
+						[19742] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 5,
+						},
+					},
+					["name"] = "Pocaitorul",
+					["totaldamage"] = 287,
+					["time"] = 4.41,
 					["damagetakenspells"] = {
 						["Melee"] = {
 							["DODGE"] = 1,
@@ -1855,17 +1854,18 @@ SkadaStorageDB = {
 							["hitamount"] = 5,
 						},
 					},
-					["name"] = "Pocaitorul",
+					["spec"] = 66,
+					["totaldamagetaken"] = 5,
 					["overkill"] = 46,
-					["totaldamage"] = 287,
+					["damage"] = 287,
 				}, -- [1]
 			},
 			["type"] = "group",
 			["damagetaken"] = 5,
 			["damage"] = 287,
-			["etotaldamage"] = 5,
 			["overkill"] = 46,
 			["edamagetaken"] = 287,
+			["etotaldamage"] = 5,
 			["name"] = "Defias Highwayman (5)",
 			["mobname"] = "Defias Highwayman",
 			["starttime"] = 1690142006,
@@ -1895,12 +1895,12 @@ SkadaStorageDB = {
 							["school"] = 1,
 							["sources"] = {
 								["Pocaitorul"] = {
-									["overkill"] = 129,
 									["amount"] = 263,
+									["overkill"] = 129,
 								},
 							},
-							["overkill"] = 129,
 							["amount"] = 263,
+							["overkill"] = 129,
 						},
 						[25742] = {
 							["school"] = 2,
@@ -1921,8 +1921,8 @@ SkadaStorageDB = {
 							["amount"] = 58,
 						},
 					},
-					["name"] = "Defias Highwayman",
 					["totaldamage"] = 10,
+					["name"] = "Defias Highwayman",
 					["totaldamagetaken"] = 369,
 					["id"] = "0xF13000007A161CDE",
 					["damage"] = 10,
@@ -1956,12 +1956,12 @@ SkadaStorageDB = {
 							["school"] = 1,
 							["sources"] = {
 								["Pocaitorul"] = {
-									["overkill"] = 38,
 									["amount"] = 272,
+									["overkill"] = 38,
 								},
 							},
-							["overkill"] = 38,
 							["amount"] = 272,
+							["overkill"] = 38,
 						},
 						[25742] = {
 							["school"] = 2,
@@ -1991,10 +1991,9 @@ SkadaStorageDB = {
 			},
 			["totaldamage"] = 763,
 			["time"] = 14,
-			["damage"] = 763,
 			["totaldamagetaken"] = 70,
 			["etotaldamagetaken"] = 763,
-			["last_time"] = 19748.67,
+			["damage"] = 763,
 			["players"] = {
 				{
 					["last"] = 19748.638,
@@ -2011,7 +2010,7 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 14,
 						},
-						[19742] = {
+						[21084] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 14,
@@ -2054,7 +2053,7 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 14,
 						},
-						[21084] = {
+						[19742] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 14,
@@ -2065,36 +2064,6 @@ SkadaStorageDB = {
 					["totaldamagetaken"] = 70,
 					["damage"] = 763,
 					["damagespells"] = {
-						["Melee"] = {
-							["DODGE"] = 1,
-							["glance"] = 239,
-							["hitmin"] = 61,
-							["criticalmin"] = 156,
-							["targets"] = {
-								["Defias Highwayman"] = {
-									["overkill"] = 129,
-									["amount"] = 263,
-								},
-								["Defias Pathstalker"] = {
-									["overkill"] = 38,
-									["amount"] = 272,
-								},
-							},
-							["glancing"] = 2,
-							["amount"] = 535,
-							["glancemin"] = 107,
-							["criticalamount"] = 156,
-							["id"] = 6603,
-							["glancemax"] = 132,
-							["overkill"] = 167,
-							["criticalmax"] = 156,
-							["critical"] = 1,
-							["hit"] = 2,
-							["school"] = 1,
-							["hitmax"] = 79,
-							["count"] = 6,
-							["hitamount"] = 140,
-						},
 						["Seal of Righteousness"] = {
 							["hitmin"] = 16,
 							["id"] = 25742,
@@ -2113,6 +2082,36 @@ SkadaStorageDB = {
 							["hitmax"] = 16,
 							["amount"] = 112,
 							["hitamount"] = 112,
+						},
+						["Melee"] = {
+							["DODGE"] = 1,
+							["glance"] = 239,
+							["hitmin"] = 61,
+							["criticalmin"] = 156,
+							["targets"] = {
+								["Defias Highwayman"] = {
+									["amount"] = 263,
+									["overkill"] = 129,
+								},
+								["Defias Pathstalker"] = {
+									["amount"] = 272,
+									["overkill"] = 38,
+								},
+							},
+							["glancing"] = 2,
+							["amount"] = 535,
+							["glancemin"] = 107,
+							["criticalamount"] = 156,
+							["id"] = 6603,
+							["glancemax"] = 132,
+							["overkill"] = 167,
+							["criticalmax"] = 156,
+							["critical"] = 1,
+							["hit"] = 2,
+							["school"] = 1,
+							["hitmax"] = 79,
+							["count"] = 6,
+							["hitamount"] = 140,
 						},
 						["Judgement of Righteousness"] = {
 							["hitmin"] = 58,
@@ -2140,25 +2139,25 @@ SkadaStorageDB = {
 					["healspells"] = {
 						[20267] = {
 							["overheal"] = 0,
+							["min"] = 20,
+							["count"] = 4,
+							["amount"] = 80,
+							["max"] = 20,
+							["ishot"] = true,
 							["targets"] = {
 								["Pocaitorul"] = {
 									["overheal"] = 0,
 									["amount"] = 80,
 								},
 							},
-							["count"] = 4,
-							["amount"] = 80,
 							["school"] = 2,
-							["max"] = 20,
-							["ishot"] = true,
-							["min"] = 20,
 						},
 					},
 					["damagetakenspells"] = {
 						["Melee"] = {
 							["hitmin"] = 9,
 							["id"] = 6603,
-							["amount"] = 47,
+							["hit"] = 5,
 							["sources"] = {
 								["Defias Highwayman"] = {
 									["amount"] = 10,
@@ -2168,7 +2167,7 @@ SkadaStorageDB = {
 								},
 							},
 							["count"] = 6,
-							["hit"] = 5,
+							["amount"] = 47,
 							["school"] = 1,
 							["hitmax"] = 10,
 							["MISS"] = 1,
@@ -2192,13 +2191,14 @@ SkadaStorageDB = {
 					},
 					["heal"] = 80,
 					["name"] = "Pocaitorul",
-					["overkill"] = 167,
-					["overheal"] = 0,
 					["totaldamage"] = 763,
+					["overheal"] = 0,
+					["overkill"] = 167,
 				}, -- [1]
 			},
 			["type"] = "group",
 			["damagetaken"] = 70,
+			["last_time"] = 19748.67,
 			["etotaldamage"] = 70,
 			["overheal"] = 0,
 			["overkill"] = 167,
@@ -2242,12 +2242,12 @@ SkadaStorageDB = {
 							["school"] = 1,
 							["sources"] = {
 								["Pocaitorul"] = {
-									["overkill"] = 73,
 									["amount"] = 79,
+									["overkill"] = 73,
 								},
 							},
-							["overkill"] = 73,
 							["amount"] = 79,
+							["overkill"] = 73,
 						},
 						[25742] = {
 							["school"] = 2,
@@ -2312,23 +2312,23 @@ SkadaStorageDB = {
 							["school"] = 1,
 							["sources"] = {
 								["Pocaitorul"] = {
-									["overkill"] = 186,
 									["amount"] = 445,
+									["overkill"] = 186,
 								},
 							},
-							["overkill"] = 186,
 							["amount"] = 445,
+							["overkill"] = 186,
 						},
 						[25742] = {
 							["school"] = 2,
 							["sources"] = {
 								["Pocaitorul"] = {
-									["overkill"] = 14,
 									["amount"] = 80,
+									["overkill"] = 14,
 								},
 							},
-							["overkill"] = 14,
 							["amount"] = 80,
+							["overkill"] = 14,
 						},
 						[20187] = {
 							["school"] = 2,
@@ -2375,32 +2375,23 @@ SkadaStorageDB = {
 							["school"] = 1,
 							["sources"] = {
 								["Pocaitorul"] = {
-									["overkill"] = 21,
 									["amount"] = 292,
+									["overkill"] = 21,
 								},
 							},
-							["overkill"] = 21,
 							["amount"] = 292,
+							["overkill"] = 21,
 						},
 						[26573] = {
 							["school"] = 2,
 							["sources"] = {
 								["Pocaitorul"] = {
-									["overkill"] = 3,
 									["amount"] = 280,
+									["overkill"] = 3,
 								},
 							},
-							["overkill"] = 3,
 							["amount"] = 280,
-						},
-						[25742] = {
-							["school"] = 2,
-							["sources"] = {
-								["Pocaitorul"] = {
-									["amount"] = 48,
-								},
-							},
-							["amount"] = 48,
+							["overkill"] = 3,
 						},
 						[67485] = {
 							["school"] = 2,
@@ -2411,9 +2402,18 @@ SkadaStorageDB = {
 							},
 							["amount"] = 146,
 						},
+						[25742] = {
+							["school"] = 2,
+							["sources"] = {
+								["Pocaitorul"] = {
+									["amount"] = 48,
+								},
+							},
+							["amount"] = 48,
+						},
 					},
-					["name"] = "Defias Knuckleduster",
 					["totaldamage"] = 55,
+					["name"] = "Defias Knuckleduster",
 					["totaldamagetaken"] = 766,
 					["id"] = "0xF1300001C1161E29",
 					["damage"] = 55,
@@ -2421,10 +2421,12 @@ SkadaStorageDB = {
 			},
 			["totaldamage"] = 2198,
 			["time"] = 29,
-			["starttime"] = 1690141949,
 			["totaldamagetaken"] = 290,
 			["etotaldamage"] = 290,
 			["last_time"] = 19720.753,
+			["starttime"] = 1690141949,
+			["type"] = "group",
+			["damagetaken"] = 290,
 			["players"] = {
 				{
 					["last"] = 19720.729,
@@ -2468,23 +2470,12 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 29,
 						},
-						[20185] = {
-							["type"] = "DEBUFF",
-							["count"] = 2,
-							["school"] = 2,
-							["targets"] = {
-								["Defias Highwayman"] = {
-									["uptime"] = 17,
-									["count"] = 1,
-								},
-								["Defias Pathstalker"] = {
-									["uptime"] = 1,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 17,
-						},
 						[19742] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 29,
+						},
+						[3164] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 29,
@@ -2509,12 +2500,24 @@ SkadaStorageDB = {
 							},
 							["uptime"] = 13,
 						},
-						[3164] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 29,
+						[20185] = {
+							["type"] = "DEBUFF",
+							["count"] = 2,
+							["school"] = 2,
+							["targets"] = {
+								["Defias Highwayman"] = {
+									["uptime"] = 17,
+									["count"] = 1,
+								},
+								["Defias Pathstalker"] = {
+									["uptime"] = 1,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 17,
 						},
 					},
+					["totaldamage"] = 2198,
 					["time"] = 24.37,
 					["totaldamagetaken"] = 290,
 					["damage"] = 2198,
@@ -2546,8 +2549,8 @@ SkadaStorageDB = {
 									["amount"] = 48,
 								},
 								["Defias Highwayman"] = {
-									["overkill"] = 14,
 									["amount"] = 80,
+									["overkill"] = 14,
 								},
 							},
 							["overkill"] = 14,
@@ -2565,16 +2568,16 @@ SkadaStorageDB = {
 							["criticalmin"] = 128,
 							["targets"] = {
 								["Defias Pathstalker"] = {
-									["overkill"] = 73,
 									["amount"] = 79,
+									["overkill"] = 73,
 								},
 								["Defias Knuckleduster"] = {
-									["overkill"] = 21,
 									["amount"] = 292,
+									["overkill"] = 21,
 								},
 								["Defias Highwayman"] = {
-									["overkill"] = 186,
 									["amount"] = 445,
+									["overkill"] = 186,
 								},
 							},
 							["glancing"] = 5,
@@ -2601,8 +2604,8 @@ SkadaStorageDB = {
 									["amount"] = 260,
 								},
 								["Defias Knuckleduster"] = {
-									["overkill"] = 3,
 									["amount"] = 280,
+									["overkill"] = 3,
 								},
 								["Defias Highwayman"] = {
 									["amount"] = 420,
@@ -2643,18 +2646,18 @@ SkadaStorageDB = {
 					["healspells"] = {
 						[20267] = {
 							["overheal"] = 0,
+							["min"] = 20,
+							["count"] = 4,
+							["amount"] = 80,
+							["max"] = 20,
+							["ishot"] = true,
 							["targets"] = {
 								["Pocaitorul"] = {
 									["overheal"] = 0,
 									["amount"] = 80,
 								},
 							},
-							["count"] = 4,
-							["amount"] = 80,
 							["school"] = 2,
-							["max"] = 20,
-							["ishot"] = true,
-							["min"] = 20,
 						},
 					},
 					["damagetakenspells"] = {
@@ -2662,9 +2665,6 @@ SkadaStorageDB = {
 							["DODGE"] = 9,
 							["hitmin"] = 4,
 							["id"] = 6603,
-							["PARRY"] = 1,
-							["count"] = 44,
-							["hitmax"] = 13,
 							["amount"] = 221,
 							["sources"] = {
 								["Defias Pathstalker"] = {
@@ -2677,10 +2677,13 @@ SkadaStorageDB = {
 									["amount"] = 138,
 								},
 							},
+							["count"] = 44,
+							["hit"] = 24,
+							["PARRY"] = 1,
 							["BLOCK"] = 3,
 							["blocked"] = 25,
 							["school"] = 1,
-							["hit"] = 24,
+							["hitmax"] = 13,
 							["MISS"] = 7,
 							["hitamount"] = 221,
 						},
@@ -2705,14 +2708,11 @@ SkadaStorageDB = {
 					},
 					["heal"] = 80,
 					["name"] = "Pocaitorul",
-					["overkill"] = 297,
-					["overheal"] = 0,
-					["totaldamage"] = 2198,
 					["role"] = "TANK",
+					["overheal"] = 0,
+					["overkill"] = 297,
 				}, -- [1]
 			},
-			["type"] = "group",
-			["damagetaken"] = 290,
 			["overheal"] = 0,
 			["damage"] = 2198,
 			["overkill"] = 297,
@@ -2728,23 +2728,23 @@ SkadaStorageDB = {
 		{
 			["enemies"] = {
 				{
-					["id"] = "0xF13000007A1687E0",
 					["name"] = "Defias Highwayman",
-					["totaldamagetaken"] = 308,
+					["damagetaken"] = 308,
+					["id"] = "0xF13000007A1687E0",
 					["flag"] = 68168,
 					["class"] = "MONSTER",
-					["damagetaken"] = 308,
+					["totaldamagetaken"] = 308,
 					["damagetakenspells"] = {
 						[6603] = {
 							["school"] = 1,
 							["sources"] = {
 								["Pocaitorul"] = {
-									["overkill"] = 36,
 									["amount"] = 202,
+									["overkill"] = 36,
 								},
 							},
-							["overkill"] = 36,
 							["amount"] = 202,
+							["overkill"] = 36,
 						},
 						[25742] = {
 							["school"] = 2,
@@ -2774,9 +2774,67 @@ SkadaStorageDB = {
 			["last_time"] = 19638.272,
 			["players"] = {
 				{
+					["damagespells"] = {
+						["Seal of Righteousness"] = {
+							["hitmin"] = 16,
+							["id"] = 25742,
+							["targets"] = {
+								["Defias Highwayman"] = {
+									["amount"] = 48,
+								},
+							},
+							["casts"] = 1,
+							["count"] = 3,
+							["hit"] = 3,
+							["school"] = 2,
+							["hitmax"] = 16,
+							["amount"] = 48,
+							["hitamount"] = 48,
+						},
+						["Melee"] = {
+							["hitmin"] = 72,
+							["criticalamount"] = 130,
+							["id"] = 6603,
+							["criticalmin"] = 130,
+							["targets"] = {
+								["Defias Highwayman"] = {
+									["amount"] = 202,
+									["overkill"] = 36,
+								},
+							},
+							["overkill"] = 36,
+							["hitmax"] = 72,
+							["criticalmax"] = 130,
+							["critical"] = 1,
+							["amount"] = 202,
+							["school"] = 1,
+							["hit"] = 1,
+							["count"] = 2,
+							["hitamount"] = 72,
+						},
+						["Judgement of Righteousness"] = {
+							["hitmin"] = 58,
+							["id"] = 20187,
+							["targets"] = {
+								["Defias Highwayman"] = {
+									["amount"] = 58,
+								},
+							},
+							["casts"] = 1,
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 2,
+							["hitmax"] = 58,
+							["amount"] = 58,
+							["hitamount"] = 58,
+						},
+					},
 					["last"] = 19638.239,
+					["damagetaken"] = 0,
+					["id"] = "0x070000000097BE20",
 					["flag"] = 1297,
 					["class"] = "PALADIN",
+					["role"] = "TANK",
 					["auras"] = {
 						[25780] = {
 							["type"] = "BUFF",
@@ -2788,7 +2846,7 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 6,
 						},
-						[19742] = {
+						[21084] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 6,
@@ -2827,74 +2885,15 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 6,
 						},
-						[21084] = {
+						[19742] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 6,
 						},
 					},
-					["role"] = "TANK",
+					["name"] = "Pocaitorul",
+					["totaldamage"] = 308,
 					["time"] = 5.09,
-					["totaldamagetaken"] = 0,
-					["damage"] = 308,
-					["damagespells"] = {
-						["Melee"] = {
-							["hitmin"] = 72,
-							["criticalamount"] = 130,
-							["id"] = 6603,
-							["hitmax"] = 72,
-							["targets"] = {
-								["Defias Highwayman"] = {
-									["overkill"] = 36,
-									["amount"] = 202,
-								},
-							},
-							["overkill"] = 36,
-							["count"] = 2,
-							["criticalmax"] = 130,
-							["critical"] = 1,
-							["amount"] = 202,
-							["school"] = 1,
-							["hit"] = 1,
-							["criticalmin"] = 130,
-							["hitamount"] = 72,
-						},
-						["Seal of Righteousness"] = {
-							["hitmin"] = 16,
-							["id"] = 25742,
-							["targets"] = {
-								["Defias Highwayman"] = {
-									["amount"] = 48,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 3,
-							["hit"] = 3,
-							["school"] = 2,
-							["hitmax"] = 16,
-							["amount"] = 48,
-							["hitamount"] = 48,
-						},
-						["Judgement of Righteousness"] = {
-							["hitmin"] = 58,
-							["id"] = 20187,
-							["targets"] = {
-								["Defias Highwayman"] = {
-									["amount"] = 58,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 2,
-							["hitmax"] = 58,
-							["amount"] = 58,
-							["hitamount"] = 58,
-						},
-					},
-					["damagetaken"] = 0,
-					["id"] = "0x070000000097BE20",
-					["spec"] = 66,
 					["damagetakenspells"] = {
 						["Melee"] = {
 							["sources"] = {
@@ -2905,23 +2904,24 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["amount"] = 0,
 							["school"] = 1,
-							["blocked"] = 11,
-							["BLOCK"] = 1,
 							["id"] = 6603,
+							["BLOCK"] = 1,
+							["blocked"] = 11,
 						},
 					},
-					["name"] = "Pocaitorul",
+					["spec"] = 66,
+					["totaldamagetaken"] = 0,
 					["overkill"] = 36,
-					["totaldamage"] = 308,
+					["damage"] = 308,
 				}, -- [1]
 			},
 			["type"] = "group",
 			["damagetaken"] = 0,
 			["overkill"] = 36,
 			["edamagetaken"] = 308,
-			["damage"] = 308,
 			["name"] = "Defias Highwayman (3)",
 			["mobname"] = "Defias Highwayman",
+			["damage"] = 308,
 			["starttime"] = 1690141889,
 			["last_action"] = 1690141894,
 			["endtime"] = 1690141895,
@@ -2929,23 +2929,23 @@ SkadaStorageDB = {
 		{
 			["enemies"] = {
 				{
-					["id"] = "0xF13000007A16873B",
 					["name"] = "Defias Highwayman",
-					["totaldamagetaken"] = 340,
+					["damagetaken"] = 340,
+					["id"] = "0xF13000007A16873B",
 					["flag"] = 68168,
 					["class"] = "MONSTER",
-					["damagetaken"] = 340,
+					["totaldamagetaken"] = 340,
 					["damagetakenspells"] = {
 						[6603] = {
 							["school"] = 1,
 							["sources"] = {
 								["Pocaitorul"] = {
-									["overkill"] = 69,
 									["amount"] = 99,
+									["overkill"] = 69,
 								},
 							},
-							["overkill"] = 69,
 							["amount"] = 99,
+							["overkill"] = 69,
 						},
 						[25742] = {
 							["school"] = 2,
@@ -2998,7 +2998,7 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 5,
 						},
-						[19742] = {
+						[21084] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 5,
@@ -3037,7 +3037,7 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 5,
 						},
-						[21084] = {
+						[19742] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 5,
@@ -3048,22 +3048,21 @@ SkadaStorageDB = {
 					["totaldamagetaken"] = 0,
 					["damage"] = 340,
 					["damagespells"] = {
-						["Melee"] = {
-							["glance"] = 99,
-							["id"] = 6603,
-							["glancemax"] = 99,
-							["overkill"] = 69,
-							["glancing"] = 1,
-							["count"] = 1,
-							["amount"] = 99,
-							["school"] = 1,
+						["Seal of Righteousness"] = {
+							["hitmin"] = 16,
+							["id"] = 25742,
 							["targets"] = {
 								["Defias Highwayman"] = {
-									["overkill"] = 69,
-									["amount"] = 99,
+									["amount"] = 32,
 								},
 							},
-							["glancemin"] = 99,
+							["casts"] = 1,
+							["count"] = 2,
+							["hit"] = 2,
+							["school"] = 2,
+							["hitmax"] = 16,
+							["amount"] = 32,
+							["hitamount"] = 32,
 						},
 						["Exorcism"] = {
 							["hitmin"] = 151,
@@ -3081,21 +3080,22 @@ SkadaStorageDB = {
 							["amount"] = 151,
 							["hitamount"] = 151,
 						},
-						["Seal of Righteousness"] = {
-							["hitmin"] = 16,
-							["id"] = 25742,
+						["Melee"] = {
+							["glance"] = 99,
+							["id"] = 6603,
+							["glancemax"] = 99,
+							["overkill"] = 69,
+							["glancing"] = 1,
+							["count"] = 1,
+							["amount"] = 99,
+							["school"] = 1,
 							["targets"] = {
 								["Defias Highwayman"] = {
-									["amount"] = 32,
+									["amount"] = 99,
+									["overkill"] = 69,
 								},
 							},
-							["casts"] = 1,
-							["count"] = 2,
-							["hit"] = 2,
-							["school"] = 2,
-							["hitmax"] = 16,
-							["amount"] = 32,
-							["hitamount"] = 32,
+							["glancemin"] = 99,
 						},
 						["Judgement of Righteousness"] = {
 							["hitmin"] = 58,
@@ -3120,18 +3120,18 @@ SkadaStorageDB = {
 					["healspells"] = {
 						[20267] = {
 							["overheal"] = 14,
+							["min"] = 6,
+							["count"] = 2,
+							["amount"] = 26,
+							["max"] = 20,
+							["ishot"] = true,
 							["targets"] = {
 								["Pocaitorul"] = {
 									["overheal"] = 14,
 									["amount"] = 26,
 								},
 							},
-							["count"] = 2,
-							["amount"] = 26,
 							["school"] = 2,
-							["max"] = 20,
-							["ishot"] = true,
-							["min"] = 6,
 						},
 					},
 					["damagetakenspells"] = {
@@ -3150,20 +3150,20 @@ SkadaStorageDB = {
 					},
 					["heal"] = 26,
 					["name"] = "Pocaitorul",
-					["overkill"] = 69,
-					["overheal"] = 14,
 					["totaldamage"] = 340,
+					["overheal"] = 14,
+					["overkill"] = 69,
 				}, -- [1]
 			},
 			["type"] = "group",
 			["damagetaken"] = 0,
 			["damage"] = 340,
-			["overheal"] = 14,
 			["overkill"] = 69,
 			["edamagetaken"] = 340,
 			["heal"] = 26,
 			["name"] = "Defias Highwayman (2)",
 			["mobname"] = "Defias Highwayman",
+			["overheal"] = 14,
 			["starttime"] = 1690141875,
 			["last_action"] = 1690141879,
 			["endtime"] = 1690141880,
@@ -3199,12 +3199,12 @@ SkadaStorageDB = {
 							["school"] = 1,
 							["sources"] = {
 								["Pocaitorul"] = {
-									["overkill"] = 158,
 									["amount"] = 531,
+									["overkill"] = 158,
 								},
 							},
-							["overkill"] = 158,
 							["amount"] = 531,
+							["overkill"] = 158,
 						},
 						[25742] = {
 							["school"] = 2,
@@ -3241,12 +3241,14 @@ SkadaStorageDB = {
 					["damage"] = 94,
 				}, -- [1]
 			},
-			["starttime"] = 1690141857,
 			["totaldamage"] = 961,
 			["time"] = 17,
-			["damage"] = 961,
 			["totaldamagetaken"] = 94,
 			["etotaldamage"] = 94,
+			["damage"] = 961,
+			["starttime"] = 1690141857,
+			["type"] = "group",
+			["damagetaken"] = 94,
 			["last_time"] = 19616.904,
 			["players"] = {
 				{
@@ -3290,27 +3292,20 @@ SkadaStorageDB = {
 							["uptime"] = 8,
 						},
 						[21084] = {
-							["type"] = "BUFF",
 							["count"] = 1,
 							["refresh"] = 1,
 							["uptime"] = 17,
-						},
-						[853] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 2,
-							["targets"] = {
-								["Defias Highwayman"] = {
-									["uptime"] = 1,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 1,
+							["type"] = "BUFF",
 						},
 						[19742] = {
-							["type"] = "BUFF",
 							["count"] = 1,
 							["refresh"] = 1,
+							["uptime"] = 17,
+							["type"] = "BUFF",
+						},
+						[3164] = {
+							["type"] = "BUFF",
+							["count"] = 1,
 							["uptime"] = 17,
 						},
 						[20185] = {
@@ -3325,12 +3320,20 @@ SkadaStorageDB = {
 							},
 							["uptime"] = 4,
 						},
-						[3164] = {
-							["type"] = "BUFF",
+						[853] = {
+							["type"] = "DEBUFF",
 							["count"] = 1,
-							["uptime"] = 17,
+							["school"] = 2,
+							["targets"] = {
+								["Defias Highwayman"] = {
+									["uptime"] = 1,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 1,
 						},
 					},
+					["totaldamage"] = 961,
 					["time"] = 15.41,
 					["totaldamagetaken"] = 94,
 					["damage"] = 961,
@@ -3350,6 +3353,27 @@ SkadaStorageDB = {
 							["amount"] = 260,
 							["hitamount"] = 260,
 						},
+						["Melee"] = {
+							["glance"] = 309,
+							["hitmin"] = 70,
+							["id"] = 6603,
+							["hitamount"] = 222,
+							["targets"] = {
+								["Defias Highwayman"] = {
+									["amount"] = 531,
+									["overkill"] = 158,
+								},
+							},
+							["overkill"] = 158,
+							["glancing"] = 3,
+							["hit"] = 3,
+							["count"] = 6,
+							["amount"] = 531,
+							["school"] = 1,
+							["hitmax"] = 78,
+							["glancemax"] = 118,
+							["glancemin"] = 94,
+						},
 						["Seal of Righteousness"] = {
 							["hitmin"] = 16,
 							["id"] = 25742,
@@ -3365,27 +3389,6 @@ SkadaStorageDB = {
 							["hitmax"] = 16,
 							["amount"] = 112,
 							["hitamount"] = 112,
-						},
-						["Melee"] = {
-							["glance"] = 309,
-							["hitmin"] = 70,
-							["id"] = 6603,
-							["glancemin"] = 94,
-							["targets"] = {
-								["Defias Highwayman"] = {
-									["overkill"] = 158,
-									["amount"] = 531,
-								},
-							},
-							["overkill"] = 158,
-							["glancing"] = 3,
-							["glancemax"] = 118,
-							["count"] = 6,
-							["hit"] = 3,
-							["school"] = 1,
-							["hitmax"] = 78,
-							["amount"] = 531,
-							["hitamount"] = 222,
 						},
 						["Judgement of Righteousness"] = {
 							["hitmin"] = 58,
@@ -3410,18 +3413,18 @@ SkadaStorageDB = {
 					["healspells"] = {
 						[20267] = {
 							["overheal"] = 0,
+							["min"] = 20,
+							["count"] = 3,
+							["amount"] = 60,
+							["max"] = 20,
+							["ishot"] = true,
 							["targets"] = {
 								["Pocaitorul"] = {
 									["overheal"] = 0,
 									["amount"] = 60,
 								},
 							},
-							["count"] = 3,
-							["amount"] = 60,
 							["school"] = 2,
-							["max"] = 20,
-							["ishot"] = true,
-							["min"] = 20,
 						},
 					},
 					["damagetakenspells"] = {
@@ -3429,19 +3432,19 @@ SkadaStorageDB = {
 							["DODGE"] = 2,
 							["hitmin"] = 4,
 							["id"] = 6603,
-							["PARRY"] = 1,
-							["count"] = 19,
-							["hitmax"] = 12,
 							["amount"] = 72,
 							["sources"] = {
 								["Defias Highwayman"] = {
 									["amount"] = 72,
 								},
 							},
+							["count"] = 19,
+							["hit"] = 9,
+							["PARRY"] = 1,
 							["BLOCK"] = 2,
 							["blocked"] = 21,
 							["school"] = 1,
-							["hit"] = 9,
+							["hitmax"] = 12,
 							["MISS"] = 5,
 							["hitamount"] = 72,
 						},
@@ -3464,22 +3467,19 @@ SkadaStorageDB = {
 					["heal"] = 60,
 					["name"] = "Pocaitorul",
 					["ccdone"] = 1,
-					["overkill"] = 158,
-					["overheal"] = 0,
-					["totaldamage"] = 961,
 					["role"] = "TANK",
+					["overheal"] = 0,
+					["overkill"] = 158,
 				}, -- [1]
 			},
-			["type"] = "group",
-			["damagetaken"] = 94,
-			["ccdone"] = 1,
 			["overheal"] = 0,
-			["etotaldamagetaken"] = 961,
+			["ccdone"] = 1,
 			["overkill"] = 158,
 			["edamagetaken"] = 961,
 			["heal"] = 60,
 			["name"] = "Defias Highwayman",
 			["mobname"] = "Defias Highwayman",
+			["etotaldamagetaken"] = 961,
 			["edamage"] = 94,
 			["last_action"] = 1690141873,
 			["endtime"] = 1690141874,
@@ -3515,12 +3515,12 @@ SkadaStorageDB = {
 							["school"] = 2,
 							["sources"] = {
 								["Pocaitorul"] = {
-									["overkill"] = 10,
 									["amount"] = 16,
+									["overkill"] = 10,
 								},
 							},
-							["overkill"] = 10,
 							["amount"] = 16,
+							["overkill"] = 10,
 						},
 					},
 					["totaldamage"] = 90,
@@ -3567,12 +3567,12 @@ SkadaStorageDB = {
 							["school"] = 2,
 							["sources"] = {
 								["Pocaitorul"] = {
-									["overkill"] = 23,
 									["amount"] = 1060,
+									["overkill"] = 23,
 								},
 							},
-							["overkill"] = 23,
 							["amount"] = 1060,
+							["overkill"] = 23,
 						},
 						[25742] = {
 							["school"] = 2,
@@ -3596,12 +3596,12 @@ SkadaStorageDB = {
 							["school"] = 1,
 							["sources"] = {
 								["Pocaitorul"] = {
-									["overkill"] = 145,
 									["amount"] = 769,
+									["overkill"] = 145,
 								},
 							},
-							["overkill"] = 145,
 							["amount"] = 769,
+							["overkill"] = 145,
 						},
 					},
 					["totaldamage"] = 223,
@@ -3632,17 +3632,21 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 30,
 						},
-						[20185] = {
+						[26573] = {
 							["type"] = "DEBUFF",
-							["count"] = 1,
+							["count"] = 14,
 							["school"] = 2,
 							["targets"] = {
 								["Defias Highwayman"] = {
-									["uptime"] = 2,
-									["count"] = 1,
+									["uptime"] = 19,
+									["count"] = 11,
+								},
+								["Defias Knuckleduster"] = {
+									["uptime"] = 20,
+									["count"] = 3,
 								},
 							},
-							["uptime"] = 2,
+							["uptime"] = 20,
 						},
 						[8091] = {
 							["type"] = "BUFF",
@@ -3661,21 +3665,10 @@ SkadaStorageDB = {
 							},
 							["uptime"] = 3,
 						},
-						[26573] = {
-							["type"] = "DEBUFF",
-							["count"] = 14,
-							["school"] = 2,
-							["targets"] = {
-								["Defias Highwayman"] = {
-									["uptime"] = 19,
-									["count"] = 11,
-								},
-								["Defias Knuckleduster"] = {
-									["uptime"] = 20,
-									["count"] = 3,
-								},
-							},
-							["uptime"] = 20,
+						[3164] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 30,
 						},
 						[25771] = {
 							["type"] = "DEBUFF",
@@ -3710,17 +3703,25 @@ SkadaStorageDB = {
 							["uptime"] = 30,
 						},
 						[498] = {
+							["school"] = 2,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 2,
 							["uptime"] = 12,
 						},
-						[3164] = {
-							["type"] = "BUFF",
+						[20185] = {
+							["type"] = "DEBUFF",
 							["count"] = 1,
-							["uptime"] = 30,
+							["school"] = 2,
+							["targets"] = {
+								["Defias Highwayman"] = {
+									["uptime"] = 2,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 2,
 						},
 					},
+					["totaldamage"] = 2556,
 					["time"] = 26.54000000000001,
 					["totaldamagetaken"] = 313,
 					["damage"] = 2556,
@@ -3749,8 +3750,8 @@ SkadaStorageDB = {
 									["amount"] = 128,
 								},
 								["Defias Knuckleduster"] = {
-									["overkill"] = 10,
 									["amount"] = 16,
+									["overkill"] = 10,
 								},
 							},
 							["overkill"] = 10,
@@ -3767,8 +3768,8 @@ SkadaStorageDB = {
 							["id"] = 26573,
 							["targets"] = {
 								["Defias Highwayman"] = {
-									["overkill"] = 23,
 									["amount"] = 1060,
+									["overkill"] = 23,
 								},
 								["Defias Knuckleduster"] = {
 									["amount"] = 380,
@@ -3789,8 +3790,8 @@ SkadaStorageDB = {
 							["criticalmin"] = 132,
 							["targets"] = {
 								["Defias Highwayman"] = {
-									["overkill"] = 145,
 									["amount"] = 769,
+									["overkill"] = 145,
 								},
 							},
 							["glancing"] = 5,
@@ -3813,13 +3814,13 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["amount"] = 0,
 							["school"] = 2,
+							["id"] = 20271,
+							["MISS"] = 1,
 							["targets"] = {
 								["Defias Highwayman"] = {
 									["amount"] = 0,
 								},
 							},
-							["MISS"] = 1,
-							["id"] = 20271,
 						},
 						["Judgement of Righteousness"] = {
 							["hitmin"] = 58,
@@ -3844,18 +3845,18 @@ SkadaStorageDB = {
 					["healspells"] = {
 						[20267] = {
 							["overheal"] = 0,
+							["min"] = 22,
+							["count"] = 1,
+							["amount"] = 22,
+							["max"] = 22,
+							["ishot"] = true,
 							["targets"] = {
 								["Pocaitorul"] = {
 									["overheal"] = 0,
 									["amount"] = 22,
 								},
 							},
-							["count"] = 1,
-							["amount"] = 22,
 							["school"] = 2,
-							["max"] = 22,
-							["ishot"] = true,
-							["min"] = 22,
 						},
 					},
 					["damagetakenspells"] = {
@@ -3863,10 +3864,7 @@ SkadaStorageDB = {
 							["DODGE"] = 11,
 							["hitmin"] = 2,
 							["id"] = 6603,
-							["PARRY"] = 1,
 							["blocked"] = 12,
-							["BLOCK"] = 3,
-							["amount"] = 263,
 							["sources"] = {
 								["Defias Highwayman"] = {
 									["amount"] = 173,
@@ -3875,6 +3873,9 @@ SkadaStorageDB = {
 									["amount"] = 90,
 								},
 							},
+							["BLOCK"] = 3,
+							["amount"] = 263,
+							["PARRY"] = 1,
 							["count"] = 77,
 							["hit"] = 46,
 							["school"] = 1,
@@ -3900,10 +3901,9 @@ SkadaStorageDB = {
 					},
 					["heal"] = 22,
 					["name"] = "Pocaitorul",
-					["overheal"] = 0,
-					["overkill"] = 178,
-					["totaldamage"] = 2556,
 					["role"] = "TANK",
+					["overkill"] = 178,
+					["overheal"] = 0,
 				}, -- [1]
 			},
 			["type"] = "group",
@@ -3961,12 +3961,12 @@ SkadaStorageDB = {
 							["school"] = 2,
 							["sources"] = {
 								["Pocaitorul"] = {
-									["overkill"] = 29,
 									["amount"] = 940,
+									["overkill"] = 29,
 								},
 							},
-							["overkill"] = 29,
 							["amount"] = 940,
+							["overkill"] = 29,
 						},
 						[25742] = {
 							["school"] = 2,
@@ -3990,12 +3990,12 @@ SkadaStorageDB = {
 							["school"] = 1,
 							["sources"] = {
 								["Pocaitorul"] = {
-									["overkill"] = 9,
 									["amount"] = 358,
+									["overkill"] = 9,
 								},
 							},
-							["overkill"] = 9,
 							["amount"] = 358,
+							["overkill"] = 9,
 						},
 					},
 					["totaldamage"] = 261,
@@ -4024,12 +4024,12 @@ SkadaStorageDB = {
 							["school"] = 1,
 							["sources"] = {
 								["Pocaitorul"] = {
-									["overkill"] = 114,
 									["amount"] = 200,
+									["overkill"] = 114,
 								},
 							},
-							["overkill"] = 114,
 							["amount"] = 200,
+							["overkill"] = 114,
 						},
 						[25742] = {
 							["school"] = 2,
@@ -4053,12 +4053,12 @@ SkadaStorageDB = {
 							["school"] = 2,
 							["sources"] = {
 								["Pocaitorul"] = {
-									["overkill"] = 18,
 									["amount"] = 820,
+									["overkill"] = 18,
 								},
 							},
-							["overkill"] = 18,
 							["amount"] = 820,
+							["overkill"] = 18,
 						},
 					},
 					["totaldamage"] = 134,
@@ -4113,21 +4113,10 @@ SkadaStorageDB = {
 							},
 							["uptime"] = 24,
 						},
-						[20185] = {
-							["type"] = "DEBUFF",
-							["count"] = 3,
-							["school"] = 2,
-							["targets"] = {
-								["Defias Pathstalker"] = {
-									["uptime"] = 19,
-									["count"] = 2,
-								},
-								["Defias Knuckleduster"] = {
-									["uptime"] = 2,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 21,
+						[19742] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 31,
 						},
 						[13819] = {
 							["type"] = "BUFF",
@@ -4144,7 +4133,7 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 31,
 						},
-						[19742] = {
+						[3164] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 31,
@@ -4161,12 +4150,24 @@ SkadaStorageDB = {
 							},
 							["uptime"] = 3,
 						},
-						[3164] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 31,
+						[20185] = {
+							["type"] = "DEBUFF",
+							["count"] = 3,
+							["school"] = 2,
+							["targets"] = {
+								["Defias Pathstalker"] = {
+									["uptime"] = 19,
+									["count"] = 2,
+								},
+								["Defias Knuckleduster"] = {
+									["uptime"] = 2,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 21,
 						},
 					},
+					["totaldamage"] = 2782,
 					["time"] = 29.96,
 					["totaldamagetaken"] = 406,
 					["damage"] = 2782,
@@ -4176,12 +4177,12 @@ SkadaStorageDB = {
 							["id"] = 26573,
 							["targets"] = {
 								["Defias Pathstalker"] = {
-									["overkill"] = 18,
 									["amount"] = 820,
+									["overkill"] = 18,
 								},
 								["Defias Knuckleduster"] = {
-									["overkill"] = 29,
 									["amount"] = 940,
+									["overkill"] = 29,
 								},
 							},
 							["overkill"] = 47,
@@ -4213,31 +4214,31 @@ SkadaStorageDB = {
 							["hitamount"] = 144,
 						},
 						["Melee"] = {
-							["glancemax"] = 124,
+							["hitamount"] = 210,
 							["glance"] = 348,
 							["hitmin"] = 65,
-							["glancemin"] = 104,
+							["count"] = 7,
 							["id"] = 6603,
 							["blocked"] = 8,
 							["targets"] = {
 								["Defias Pathstalker"] = {
-									["overkill"] = 114,
 									["amount"] = 200,
+									["overkill"] = 114,
 								},
 								["Defias Knuckleduster"] = {
-									["overkill"] = 9,
 									["amount"] = 358,
+									["overkill"] = 9,
 								},
 							},
 							["overkill"] = 123,
 							["glancing"] = 3,
 							["PARRY"] = 1,
-							["count"] = 7,
+							["hitmax"] = 80,
 							["hit"] = 3,
 							["school"] = 1,
-							["hitmax"] = 80,
 							["amount"] = 558,
-							["hitamount"] = 210,
+							["glancemax"] = 124,
+							["glancemin"] = 104,
 						},
 						["Hand of Reckoning"] = {
 							["hitmin"] = 146,
@@ -4281,32 +4282,32 @@ SkadaStorageDB = {
 					["healspells"] = {
 						[20267] = {
 							["overheal"] = 0,
+							["min"] = 22,
+							["count"] = 4,
+							["amount"] = 88,
+							["max"] = 22,
+							["ishot"] = true,
 							["targets"] = {
 								["Pocaitorul"] = {
 									["overheal"] = 0,
 									["amount"] = 88,
 								},
 							},
-							["count"] = 4,
-							["amount"] = 88,
 							["school"] = 2,
-							["max"] = 22,
-							["ishot"] = true,
-							["min"] = 22,
 						},
 						[19750] = {
 							["overheal"] = 0,
 							["count"] = 1,
 							["amount"] = 91,
 							["school"] = 2,
-							["max"] = 91,
+							["min"] = 91,
 							["targets"] = {
 								["Pocaitorul"] = {
 									["overheal"] = 0,
 									["amount"] = 91,
 								},
 							},
-							["min"] = 91,
+							["max"] = 91,
 						},
 					},
 					["damagetakenspells"] = {
@@ -4330,9 +4331,6 @@ SkadaStorageDB = {
 							["hitmin"] = 9,
 							["id"] = 6603,
 							["amount"] = 389,
-							["PARRY"] = 2,
-							["blocked"] = 19,
-							["BLOCK"] = 2,
 							["sources"] = {
 								["Defias Pathstalker"] = {
 									["amount"] = 134,
@@ -4341,6 +4339,9 @@ SkadaStorageDB = {
 									["amount"] = 255,
 								},
 							},
+							["BLOCK"] = 2,
+							["blocked"] = 19,
+							["PARRY"] = 2,
 							["count"] = 50,
 							["hit"] = 38,
 							["school"] = 1,
@@ -4366,10 +4367,9 @@ SkadaStorageDB = {
 					},
 					["heal"] = 179,
 					["name"] = "Pocaitorul",
-					["overkill"] = 170,
-					["overheal"] = 0,
-					["totaldamage"] = 2782,
 					["role"] = "TANK",
+					["overheal"] = 0,
+					["overkill"] = 170,
 				}, -- [1]
 			},
 			["damage"] = 2782,
@@ -4387,12 +4387,12 @@ SkadaStorageDB = {
 		{
 			["enemies"] = {
 				{
-					["id"] = "0xF1300001B916EBE1",
 					["name"] = "Black Dragon Whelp",
-					["totaldamagetaken"] = 277,
+					["damagetaken"] = 277,
+					["id"] = "0xF1300001B916EBE1",
 					["flag"] = 68168,
 					["class"] = "MONSTER",
-					["damagetaken"] = 277,
+					["totaldamagetaken"] = 277,
 					["damagetakenspells"] = {
 						[25742] = {
 							["school"] = 2,
@@ -4407,12 +4407,12 @@ SkadaStorageDB = {
 							["school"] = 1,
 							["sources"] = {
 								["Pocaitorul"] = {
-									["overkill"] = 92,
 									["amount"] = 232,
+									["overkill"] = 92,
 								},
 							},
-							["overkill"] = 92,
 							["amount"] = 232,
+							["overkill"] = 92,
 						},
 					},
 				}, -- [1]
@@ -4456,9 +4456,9 @@ SkadaStorageDB = {
 							["uptime"] = 3,
 						},
 						[20007] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 1,
 							["uptime"] = 3,
 						},
 						[21084] = {
@@ -4482,6 +4482,7 @@ SkadaStorageDB = {
 							["uptime"] = 7,
 						},
 					},
+					["totaldamage"] = 277,
 					["time"] = 5.890000000000001,
 					["totaldamagetaken"] = 0,
 					["damage"] = 277,
@@ -4519,28 +4520,28 @@ SkadaStorageDB = {
 					},
 					["heal"] = 0,
 					["name"] = "Pocaitorul",
-					["overkill"] = 92,
+					["role"] = "TANK",
 					["damagespells"] = {
 						["Melee"] = {
 							["glance"] = 161,
 							["hitmin"] = 71,
 							["id"] = 6603,
-							["glancemin"] = 161,
+							["hitamount"] = 71,
 							["targets"] = {
 								["Black Dragon Whelp"] = {
-									["overkill"] = 92,
 									["amount"] = 232,
+									["overkill"] = 92,
 								},
 							},
 							["overkill"] = 92,
 							["glancing"] = 1,
-							["glancemax"] = 161,
-							["count"] = 2,
 							["hit"] = 1,
+							["count"] = 2,
+							["amount"] = 232,
 							["school"] = 1,
 							["hitmax"] = 71,
-							["amount"] = 232,
-							["hitamount"] = 71,
+							["glancemax"] = 161,
+							["glancemin"] = 161,
 						},
 						["Seal of Righteousness"] = {
 							["hitmin"] = 16,
@@ -4563,28 +4564,27 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["amount"] = 0,
 							["school"] = 2,
+							["id"] = 20271,
+							["MISS"] = 1,
 							["targets"] = {
 								["Black Dragon Whelp"] = {
 									["amount"] = 0,
 								},
 							},
-							["MISS"] = 1,
-							["id"] = 20271,
 						},
 					},
-					["totaldamage"] = 277,
-					["role"] = "TANK",
+					["overkill"] = 92,
 				}, -- [1]
 			},
 			["type"] = "group",
 			["damagetaken"] = 0,
 			["damage"] = 277,
-			["overheal"] = 89,
 			["overkill"] = 92,
 			["edamagetaken"] = 277,
 			["heal"] = 0,
 			["name"] = "Black Dragon Whelp",
 			["mobname"] = "Black Dragon Whelp",
+			["overheal"] = 89,
 			["starttime"] = 1690141387,
 			["last_action"] = 1690141393,
 			["endtime"] = 1690141394,
@@ -4606,13 +4606,13 @@ SkadaStorageDB = {
 		["heal"] = 3437,
 		["name"] = "Total",
 		["ccdone"] = 6,
-		["death"] = 1,
-		["potion"] = 1,
+		["overheal"] = 2895,
 		["players"] = {
 			{
 				["flag"] = 1297,
 				["class"] = "PALADIN",
 				["dispel"] = 2,
+				["totaldamage"] = 67334,
 				["time"] = 802.3499999999992,
 				["totaldamagetaken"] = 10283,
 				["damage"] = 67334,
@@ -4620,36 +4620,36 @@ SkadaStorageDB = {
 				["damagetaken"] = 8550,
 				["id"] = "0x070000000097BE20",
 				["spec"] = 66,
-				["death"] = 1,
 				["overkill"] = 6836,
-				["potion"] = 1,
+				["role"] = "TANK",
 				["heal"] = 3430,
 				["name"] = "Pocaitorul",
-				["ccdone"] = 5,
-				["mana"] = 316,
+				["death"] = 1,
 				["interrupt"] = 4,
-				["totaldamage"] = 67334,
-				["role"] = "TANK",
+				["mana"] = 316,
+				["ccdone"] = 5,
+				["potion"] = 1,
 			}, -- [1]
 			{
-				["flag"] = 1298,
-				["class"] = "PRIEST",
-				["time"] = 491.36,
-				["totaldamagetaken"] = 618,
-				["damage"] = 15141,
 				["overheal"] = 69,
 				["absorb"] = 1830,
 				["damagetaken"] = 505,
 				["id"] = "0x070000000097B7E5",
-				["spec"] = 258,
-				["overkill"] = 1155,
+				["flag"] = 1298,
+				["class"] = "PRIEST",
 				["heal"] = 7,
+				["overkill"] = 1155,
 				["name"] = "Cadelnita",
-				["ccdone"] = 1,
 				["totaldamage"] = 15141,
+				["time"] = 491.36,
+				["ccdone"] = 1,
+				["spec"] = 258,
+				["totaldamagetaken"] = 618,
 				["role"] = "DAMAGER",
+				["damage"] = 15141,
 			}, -- [2]
 		},
-		["overheal"] = 2895,
+		["potion"] = 1,
+		["death"] = 1,
 	},
 }

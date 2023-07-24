@@ -66,8 +66,7 @@ SkadaDB = {
 			["windows"] = {
 				{
 					["barslocked"] = true,
-					["set"] = "total",
-					["hidden"] = true,
+					["hidden"] = false,
 					["y"] = 153.7775468416687,
 					["x"] = -644.148271468071,
 					["strata"] = "HIGH",
