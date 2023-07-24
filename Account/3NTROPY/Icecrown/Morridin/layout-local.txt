@@ -35,14 +35,14 @@ Y: 30
 W: 488
 H: 716
 Frame: PowaOptionsFrame
-FrameLevel: 31
+FrameLevel: 25
 Anchor: TOP
 X: 274
 Y: -97
 W: 328
 H: 457
 Frame: WowLuaFrame
-FrameLevel: 19
+FrameLevel: 18
 Anchor: CENTER
 X: 0
 Y: 0

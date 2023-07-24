@@ -74,7 +74,7 @@ Quartz3DB = {
 		["Pocaitorul - Icecrown"] = "Default",
 		["Ulrezaj - Icecrown"] = "Default",
 		["Urgash - Icecrown"] = "Default",
-		["Lingurita - Icecrown"] = "Default",
+		["Pocaitoru - Icecrown"] = "Default",
 		["Elgorath - Icecrown"] = "Default",
 		["Izanagi - Icecrown"] = "Default",
 		["Flocparlit - Icecrown"] = "Default",
@@ -85,7 +85,7 @@ Quartz3DB = {
 		["Sculatru - Icecrown"] = "Default",
 		["Inarya - Icecrown"] = "Default",
 		["Pubianus - Icecrown"] = "Default",
-		["Pocaitoru - Icecrown"] = "Default",
+		["Lingurita - Icecrown"] = "Default",
 		["Vhalanor - Icecrown"] = "Default",
 	},
 	["profiles"] = {
