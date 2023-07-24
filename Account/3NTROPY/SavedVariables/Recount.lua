@@ -225,10 +225,13 @@ RecountDB = {
 			["GraphWindowY"] = 0,
 			["MainWindow"] = {
 				["Position"] = {
-					["h"] = 200.0000027354896,
 					["w"] = 140.0000106684094,
+					["h"] = 200.0000027354896,
 				},
 			},
+			["DetailWindowX"] = 0,
+			["LastInstanceName"] = "Deadmines",
+			["CurDataSet"] = "OverallData",
 			["Colors"] = {
 				["Bar"] = {
 					["Bar Text"] = {
@@ -237,11 +240,8 @@ RecountDB = {
 				},
 			},
 			["DetailWindowY"] = 0,
-			["DetailWindowX"] = 0,
-			["MainWindowVis"] = false,
-			["LastInstanceName"] = "Deadmines",
-			["CurDataSet"] = "OverallData",
 			["GraphWindowX"] = 0,
+			["MainWindowVis"] = false,
 		},
 		["Kalaam - Icecrown"] = {
 			["GraphWindowY"] = 0,
@@ -264,9 +264,10 @@ RecountDB = {
 				},
 			},
 			["DetailWindowY"] = -167.2591599407247,
-			["MainWindowHeight"] = 329.1730069274222,
-			["MainWindowWidth"] = 253.0123901948838,
 			["GraphWindowX"] = 0,
+			["MainWindowVis"] = false,
+			["MainWindowWidth"] = 253.0123901948838,
+			["MainWindowHeight"] = 329.1730069274222,
 		},
 		["Lingurita - Lordaeron"] = {
 			["GraphWindowY"] = 0,
@@ -504,8 +505,8 @@ RecountDB = {
 			["GraphWindowY"] = 0,
 			["MainWindow"] = {
 				["Position"] = {
-					["w"] = 140.0000106684094,
 					["h"] = 200.0000027354896,
+					["w"] = 140.0000106684094,
 				},
 			},
 			["Colors"] = {
@@ -516,10 +517,10 @@ RecountDB = {
 				},
 			},
 			["DetailWindowY"] = 0,
-			["GraphWindowX"] = 0,
-			["CurDataSet"] = "OverallData",
-			["MainWindowVis"] = false,
 			["DetailWindowX"] = 0,
+			["MainWindowVis"] = false,
+			["CurDataSet"] = "OverallData",
+			["GraphWindowX"] = 0,
 		},
 		["Ulrezaj - Icecrown"] = {
 			["GraphWindowY"] = 0,

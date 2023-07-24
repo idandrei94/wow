@@ -8,7 +8,7 @@ MACRO 16777223 "blind" INV_Misc_QuestionMark
 END
 MACRO 16777229 "camp" Ability_Creature_Cursed_02
 #showtooltip shadowstep
-/tar ioli
+/tar timonn
 /castsequence reset=4 shadowstep, ambush, shadow dance, ambush, ambush, ambush
 END
 MACRO 16777220 "dp" INV_Misc_QuestionMark

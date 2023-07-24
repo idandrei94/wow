@@ -126,8 +126,8 @@ GladiusDB = {
 		},
 		["Pocaitorul - Icecrown"] = {
 			["locked"] = true,
-			["x"] = 1140.709691294312,
 			["y"] = 541.6999689428485,
+			["x"] = 1140.709691294312,
 		},
 		["Lingurita - Icecrown"] = {
 			["locked"] = true,
@@ -184,8 +184,8 @@ GladiusDB = {
 		},
 		["Morridin - Icecrown"] = {
 			["locked"] = true,
-			["y"] = 510.499894762244,
 			["x"] = 1175.102425743542,
+			["y"] = 510.499894762244,
 		},
 		["Pocaitoru - Icecrown"] = {
 			["locked"] = true,

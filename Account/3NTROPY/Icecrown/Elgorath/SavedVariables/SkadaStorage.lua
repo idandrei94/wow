@@ -32,12 +32,12 @@ SkadaStorageDB = {
 							["school"] = 1,
 							["sources"] = {
 								["Elgorath"] = {
-									["amount"] = 184,
 									["overkill"] = 82,
+									["amount"] = 184,
 								},
 							},
-							["amount"] = 184,
 							["overkill"] = 82,
+							["amount"] = 184,
 						},
 					},
 					["totaldamage"] = 4,
@@ -58,17 +58,17 @@ SkadaStorageDB = {
 					["flag"] = 1297,
 					["class"] = "PALADIN",
 					["auras"] = {
+						[19740] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 5,
+						},
 						[21084] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 5,
 						},
 						[465] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 5,
-						},
-						[19740] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 5,
@@ -106,8 +106,8 @@ SkadaStorageDB = {
 							["school"] = 1,
 							["targets"] = {
 								["Kobold Tunneler"] = {
-									["amount"] = 184,
 									["overkill"] = 82,
+									["amount"] = 184,
 								},
 							},
 							["glancemin"] = 84,
@@ -121,28 +121,28 @@ SkadaStorageDB = {
 							["count"] = 2,
 							["amount"] = 4,
 							["school"] = 1,
-							["min"] = 4,
+							["max"] = 4,
 							["targets"] = {
 								["Elgorath"] = {
 									["overheal"] = 10,
 									["amount"] = 4,
 								},
 							},
-							["max"] = 4,
+							["min"] = 4,
 						},
 					},
 					["damagetakenspells"] = {
 						["Melee"] = {
 							["hitmin"] = 4,
 							["id"] = 6603,
-							["hit"] = 1,
+							["amount"] = 4,
 							["sources"] = {
 								["Kobold Tunneler"] = {
 									["amount"] = 4,
 								},
 							},
 							["count"] = 2,
-							["amount"] = 4,
+							["hit"] = 1,
 							["school"] = 1,
 							["hitmax"] = 4,
 							["MISS"] = 1,
@@ -151,9 +151,9 @@ SkadaStorageDB = {
 					},
 					["heal"] = 4,
 					["name"] = "Elgorath",
-					["role"] = "NONE",
-					["overheal"] = 10,
 					["overkill"] = 82,
+					["overheal"] = 10,
+					["role"] = "NONE",
 				}, -- [1]
 			},
 			["type"] = "none",
@@ -202,12 +202,12 @@ SkadaStorageDB = {
 							["school"] = 1,
 							["sources"] = {
 								["Elgorath"] = {
-									["amount"] = 163,
 									["overkill"] = 61,
+									["amount"] = 163,
 								},
 							},
-							["amount"] = 163,
 							["overkill"] = 61,
+							["amount"] = 163,
 						},
 					},
 					["totaldamage"] = 20,
@@ -228,17 +228,17 @@ SkadaStorageDB = {
 					["flag"] = 1297,
 					["class"] = "PALADIN",
 					["auras"] = {
+						[19740] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 8,
+						},
 						[21084] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 8,
 						},
 						[465] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 8,
-						},
-						[19740] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 8,
@@ -270,22 +270,22 @@ SkadaStorageDB = {
 							["glance"] = 88,
 							["hitmin"] = 75,
 							["id"] = 6603,
-							["glancemin"] = 88,
+							["hitamount"] = 75,
 							["glancemax"] = 88,
 							["overkill"] = 61,
 							["glancing"] = 1,
-							["targets"] = {
-								["Kobold Tunneler"] = {
-									["amount"] = 163,
-									["overkill"] = 61,
-								},
-							},
+							["count"] = 3,
 							["hitmax"] = 75,
 							["amount"] = 163,
 							["school"] = 1,
 							["hit"] = 1,
-							["count"] = 3,
-							["hitamount"] = 75,
+							["targets"] = {
+								["Kobold Tunneler"] = {
+									["overkill"] = 61,
+									["amount"] = 163,
+								},
+							},
+							["glancemin"] = 88,
 						},
 					},
 					["damagetaken"] = 20,
@@ -296,14 +296,14 @@ SkadaStorageDB = {
 							["count"] = 2,
 							["amount"] = 14,
 							["school"] = 1,
-							["min"] = 7,
+							["max"] = 7,
 							["targets"] = {
 								["Elgorath"] = {
 									["overheal"] = 0,
 									["amount"] = 14,
 								},
 							},
-							["max"] = 7,
+							["min"] = 7,
 						},
 					},
 					["damagetakenspells"] = {
@@ -313,26 +313,26 @@ SkadaStorageDB = {
 							["criticalamount"] = 10,
 							["id"] = 6603,
 							["criticalmin"] = 10,
-							["amount"] = 20,
-							["hitmax"] = 5,
-							["criticalmax"] = 10,
-							["critical"] = 1,
-							["hit"] = 2,
-							["school"] = 1,
-							["count"] = 4,
 							["sources"] = {
 								["Kobold Tunneler"] = {
 									["amount"] = 20,
 								},
 							},
+							["count"] = 4,
+							["criticalmax"] = 10,
+							["hitmax"] = 5,
+							["amount"] = 20,
+							["school"] = 1,
+							["hit"] = 2,
+							["critical"] = 1,
 							["hitamount"] = 10,
 						},
 					},
 					["heal"] = 14,
 					["name"] = "Elgorath",
-					["role"] = "NONE",
-					["overheal"] = 0,
 					["overkill"] = 61,
+					["overheal"] = 0,
+					["role"] = "NONE",
 				}, -- [1]
 			},
 			["type"] = "none",
@@ -372,23 +372,23 @@ SkadaStorageDB = {
 							["school"] = 2,
 							["sources"] = {
 								["Elgorath"] = {
-									["amount"] = 36,
 									["overkill"] = 1,
+									["amount"] = 36,
 								},
 							},
-							["amount"] = 36,
 							["overkill"] = 1,
+							["amount"] = 36,
 						},
 						[6603] = {
 							["school"] = 1,
 							["sources"] = {
 								["Elgorath"] = {
-									["amount"] = 337,
 									["overkill"] = 98,
+									["amount"] = 337,
 								},
 							},
-							["amount"] = 337,
 							["overkill"] = 98,
+							["amount"] = 337,
 						},
 					},
 					["totaldamage"] = 14,
@@ -409,17 +409,17 @@ SkadaStorageDB = {
 					["flag"] = 1297,
 					["class"] = "PALADIN",
 					["auras"] = {
+						[19740] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 11,
+						},
 						[21084] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 11,
 						},
 						[465] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 11,
-						},
-						[19740] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 11,
@@ -435,8 +435,8 @@ SkadaStorageDB = {
 							["id"] = 25742,
 							["targets"] = {
 								["Kobold Miner"] = {
-									["amount"] = 36,
 									["overkill"] = 1,
+									["amount"] = 36,
 								},
 							},
 							["overkill"] = 1,
@@ -455,18 +455,18 @@ SkadaStorageDB = {
 							["criticalmin"] = 120,
 							["targets"] = {
 								["Kobold Miner"] = {
-									["amount"] = 337,
 									["overkill"] = 98,
+									["amount"] = 337,
 								},
 							},
 							["overkill"] = 98,
-							["amount"] = 337,
+							["count"] = 4,
 							["criticalmax"] = 120,
 							["critical"] = 1,
-							["hit"] = 3,
+							["amount"] = 337,
 							["school"] = 1,
 							["hitmax"] = 73,
-							["count"] = 4,
+							["hit"] = 3,
 							["hitamount"] = 217,
 						},
 					},
@@ -478,14 +478,14 @@ SkadaStorageDB = {
 							["count"] = 4,
 							["amount"] = 14,
 							["school"] = 1,
-							["min"] = 1,
+							["max"] = 7,
 							["targets"] = {
 								["Elgorath"] = {
 									["overheal"] = 14,
 									["amount"] = 14,
 								},
 							},
-							["max"] = 7,
+							["min"] = 1,
 						},
 					},
 					["damagetakenspells"] = {
@@ -493,14 +493,14 @@ SkadaStorageDB = {
 							["DODGE"] = 2,
 							["hitmin"] = 4,
 							["id"] = 6603,
-							["hit"] = 3,
+							["amount"] = 14,
 							["sources"] = {
 								["Kobold Miner"] = {
 									["amount"] = 14,
 								},
 							},
 							["count"] = 6,
-							["amount"] = 14,
+							["hit"] = 3,
 							["school"] = 1,
 							["hitmax"] = 6,
 							["MISS"] = 1,
@@ -509,9 +509,9 @@ SkadaStorageDB = {
 					},
 					["heal"] = 14,
 					["name"] = "Elgorath",
-					["role"] = "NONE",
-					["overheal"] = 14,
 					["overkill"] = 99,
+					["overheal"] = 14,
+					["role"] = "NONE",
 				}, -- [1]
 			},
 			["type"] = "none",
@@ -560,12 +560,12 @@ SkadaStorageDB = {
 							["school"] = 1,
 							["sources"] = {
 								["Elgorath"] = {
-									["amount"] = 133,
 									["overkill"] = 64,
+									["amount"] = 133,
 								},
 							},
-							["amount"] = 133,
 							["overkill"] = 64,
+							["amount"] = 133,
 						},
 					},
 					["totaldamage"] = 96,
@@ -594,12 +594,12 @@ SkadaStorageDB = {
 							["school"] = 1,
 							["sources"] = {
 								["Elgorath"] = {
-									["amount"] = 824,
 									["overkill"] = 496,
+									["amount"] = 824,
 								},
 							},
-							["amount"] = 824,
 							["overkill"] = 496,
+							["amount"] = 824,
 						},
 						[25742] = {
 							["school"] = 2,
@@ -614,12 +614,12 @@ SkadaStorageDB = {
 							["school"] = 2,
 							["sources"] = {
 								["Elgorath"] = {
-									["amount"] = 208,
 									["overkill"] = 59,
+									["amount"] = 208,
 								},
 							},
-							["amount"] = 208,
 							["overkill"] = 59,
+							["amount"] = 208,
 						},
 					},
 					["totaldamage"] = 121,
@@ -648,23 +648,23 @@ SkadaStorageDB = {
 							["school"] = 2,
 							["sources"] = {
 								["Elgorath"] = {
-									["amount"] = 35,
 									["overkill"] = 3,
+									["amount"] = 35,
 								},
 							},
-							["amount"] = 35,
 							["overkill"] = 3,
+							["amount"] = 35,
 						},
 						[6603] = {
 							["school"] = 1,
 							["sources"] = {
 								["Elgorath"] = {
-									["amount"] = 204,
 									["overkill"] = 116,
+									["amount"] = 204,
 								},
 							},
-							["amount"] = 204,
 							["overkill"] = 116,
+							["amount"] = 204,
 						},
 					},
 					["totaldamage"] = 23,
@@ -708,12 +708,12 @@ SkadaStorageDB = {
 							},
 							["uptime"] = 20,
 						},
-						[19740] = {
+						[465] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 28,
 						},
-						[465] = {
+						[19740] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 28,
@@ -724,40 +724,6 @@ SkadaStorageDB = {
 					["totaldamagetaken"] = 240,
 					["damage"] = 1579,
 					["damagespells"] = {
-						["Melee"] = {
-							["glance"] = 156,
-							["hitmin"] = 65,
-							["criticalmin"] = 222,
-							["targets"] = {
-								["Kobold Miner"] = {
-									["amount"] = 824,
-									["overkill"] = 496,
-								},
-								["Goldtooth"] = {
-									["amount"] = 133,
-									["overkill"] = 64,
-								},
-								["Kobold Tunneler"] = {
-									["amount"] = 204,
-									["overkill"] = 116,
-								},
-							},
-							["glancing"] = 2,
-							["amount"] = 1161,
-							["glancemin"] = 68,
-							["criticalamount"] = 688,
-							["id"] = 6603,
-							["glancemax"] = 88,
-							["overkill"] = 676,
-							["hit"] = 4,
-							["criticalmax"] = 242,
-							["hitmax"] = 116,
-							["blocked"] = 3,
-							["school"] = 1,
-							["count"] = 9,
-							["critical"] = 3,
-							["hitamount"] = 317,
-						},
 						["Seal of Righteousness"] = {
 							["hitmin"] = 9,
 							["id"] = 25742,
@@ -769,8 +735,8 @@ SkadaStorageDB = {
 									["amount"] = 18,
 								},
 								["Kobold Tunneler"] = {
-									["amount"] = 35,
 									["overkill"] = 3,
+									["amount"] = 35,
 								},
 							},
 							["overkill"] = 3,
@@ -782,26 +748,60 @@ SkadaStorageDB = {
 							["amount"] = 210,
 							["hitamount"] = 210,
 						},
-						["Judgement of Righteousness"] = {
-							["criticalamount"] = 124,
-							["hitmin"] = 22,
-							["criticalmin"] = 124,
-							["id"] = 20187,
-							["amount"] = 208,
+						["Melee"] = {
+							["glance"] = 156,
+							["hitmin"] = 65,
+							["criticalmin"] = 222,
 							["targets"] = {
 								["Kobold Miner"] = {
-									["amount"] = 208,
+									["overkill"] = 496,
+									["amount"] = 824,
+								},
+								["Goldtooth"] = {
+									["overkill"] = 64,
+									["amount"] = 133,
+								},
+								["Kobold Tunneler"] = {
+									["overkill"] = 116,
+									["amount"] = 204,
+								},
+							},
+							["glancing"] = 2,
+							["amount"] = 1161,
+							["glancemin"] = 68,
+							["criticalamount"] = 688,
+							["id"] = 6603,
+							["glancemax"] = 88,
+							["overkill"] = 676,
+							["blocked"] = 3,
+							["criticalmax"] = 242,
+							["hitmax"] = 116,
+							["hit"] = 4,
+							["school"] = 1,
+							["critical"] = 3,
+							["count"] = 9,
+							["hitamount"] = 317,
+						},
+						["Judgement of Righteousness"] = {
+							["criticalmin"] = 124,
+							["hitmin"] = 22,
+							["criticalamount"] = 124,
+							["id"] = 20187,
+							["casts"] = 1,
+							["targets"] = {
+								["Kobold Miner"] = {
 									["overkill"] = 59,
+									["amount"] = 208,
 								},
 							},
 							["overkill"] = 59,
-							["hitmax"] = 62,
-							["criticalmax"] = 124,
-							["critical"] = 1,
-							["hit"] = 2,
-							["school"] = 2,
 							["count"] = 3,
-							["casts"] = 1,
+							["criticalmax"] = 124,
+							["hitmax"] = 62,
+							["amount"] = 208,
+							["school"] = 2,
+							["hit"] = 2,
+							["critical"] = 1,
 							["hitamount"] = 84,
 						},
 					},
@@ -810,46 +810,46 @@ SkadaStorageDB = {
 					["healspells"] = {
 						[20267] = {
 							["overheal"] = 0,
-							["min"] = 7,
+							["max"] = 7,
 							["count"] = 2,
 							["amount"] = 14,
 							["school"] = 2,
-							["ishot"] = true,
 							["targets"] = {
 								["Elgorath"] = {
 									["overheal"] = 0,
 									["amount"] = 14,
 								},
 							},
-							["max"] = 7,
+							["ishot"] = true,
+							["min"] = 7,
 						},
 						[20007] = {
 							["overheal"] = 34,
 							["count"] = 1,
 							["amount"] = 76,
 							["school"] = 1,
-							["min"] = 76,
+							["max"] = 76,
 							["targets"] = {
 								["Elgorath"] = {
 									["overheal"] = 34,
 									["amount"] = 76,
 								},
 							},
-							["max"] = 76,
+							["min"] = 76,
 						},
 						[59913] = {
 							["overheal"] = 0,
 							["count"] = 14,
 							["amount"] = 98,
 							["school"] = 1,
-							["min"] = 7,
+							["max"] = 7,
 							["targets"] = {
 								["Elgorath"] = {
 									["overheal"] = 0,
 									["amount"] = 98,
 								},
 							},
-							["max"] = 7,
+							["min"] = 7,
 						},
 					},
 					["damagetakenspells"] = {
@@ -858,6 +858,9 @@ SkadaStorageDB = {
 							["criticalamount"] = 12,
 							["id"] = 6603,
 							["criticalmin"] = 12,
+							["criticalmax"] = 12,
+							["count"] = 40,
+							["amount"] = 240,
 							["sources"] = {
 								["Kobold Miner"] = {
 									["amount"] = 121,
@@ -871,20 +874,17 @@ SkadaStorageDB = {
 							},
 							["hitmax"] = 8,
 							["hit"] = 38,
-							["criticalmax"] = 12,
-							["critical"] = 1,
-							["amount"] = 240,
 							["school"] = 1,
-							["count"] = 40,
+							["critical"] = 1,
 							["MISS"] = 1,
 							["hitamount"] = 228,
 						},
 					},
 					["heal"] = 188,
 					["name"] = "Elgorath",
-					["role"] = "NONE",
-					["overheal"] = 34,
 					["overkill"] = 738,
+					["overheal"] = 34,
+					["role"] = "NONE",
 				}, -- [1]
 			},
 			["type"] = "none",
@@ -924,23 +924,23 @@ SkadaStorageDB = {
 							["school"] = 1,
 							["sources"] = {
 								["Elgorath"] = {
-									["amount"] = 172,
 									["overkill"] = 113,
+									["amount"] = 172,
 								},
 							},
-							["amount"] = 172,
 							["overkill"] = 113,
+							["amount"] = 172,
 						},
 						[25742] = {
 							["school"] = 2,
 							["sources"] = {
 								["Elgorath"] = {
-									["amount"] = 44,
 									["overkill"] = 10,
+									["amount"] = 44,
 								},
 							},
-							["amount"] = 44,
 							["overkill"] = 10,
+							["amount"] = 44,
 						},
 						[20187] = {
 							["school"] = 2,
@@ -993,12 +993,12 @@ SkadaStorageDB = {
 							},
 							["uptime"] = 4,
 						},
-						[19740] = {
+						[465] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 5,
 						},
-						[465] = {
+						[19740] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 5,
@@ -1009,13 +1009,31 @@ SkadaStorageDB = {
 					["totaldamagetaken"] = 10,
 					["damage"] = 260,
 					["damagespells"] = {
+						["Melee"] = {
+							["hitmin"] = 59,
+							["id"] = 6603,
+							["targets"] = {
+								["Kobold Miner"] = {
+									["overkill"] = 113,
+									["amount"] = 172,
+								},
+							},
+							["overkill"] = 113,
+							["blocked"] = 3,
+							["count"] = 2,
+							["hit"] = 2,
+							["school"] = 1,
+							["hitmax"] = 113,
+							["amount"] = 172,
+							["hitamount"] = 172,
+						},
 						["Seal of Righteousness"] = {
 							["hitmin"] = 9,
 							["id"] = 25742,
 							["targets"] = {
 								["Kobold Miner"] = {
-									["amount"] = 44,
 									["overkill"] = 10,
+									["amount"] = 44,
 								},
 							},
 							["overkill"] = 10,
@@ -1026,24 +1044,6 @@ SkadaStorageDB = {
 							["hitmax"] = 26,
 							["amount"] = 44,
 							["hitamount"] = 44,
-						},
-						["Melee"] = {
-							["hitmin"] = 59,
-							["id"] = 6603,
-							["targets"] = {
-								["Kobold Miner"] = {
-									["amount"] = 172,
-									["overkill"] = 113,
-								},
-							},
-							["overkill"] = 113,
-							["hit"] = 2,
-							["count"] = 2,
-							["blocked"] = 3,
-							["school"] = 1,
-							["amount"] = 172,
-							["hitmax"] = 113,
-							["hitamount"] = 172,
 						},
 						["Judgement of Righteousness"] = {
 							["criticalamount"] = 44,
@@ -1057,9 +1057,9 @@ SkadaStorageDB = {
 							["critical"] = 1,
 							["amount"] = 44,
 							["school"] = 2,
-							["count"] = 1,
-							["criticalmax"] = 44,
 							["criticalmin"] = 44,
+							["criticalmax"] = 44,
+							["count"] = 1,
 						},
 					},
 					["damagetaken"] = 10,
@@ -1093,22 +1093,22 @@ SkadaStorageDB = {
 							["critical"] = 1,
 							["amount"] = 5,
 							["school"] = 1,
-							["count"] = 1,
 							["criticalmin"] = 5,
+							["count"] = 1,
 						},
 						[59913] = {
 							["overheal"] = 7,
 							["count"] = 2,
 							["amount"] = 5,
 							["school"] = 1,
-							["min"] = 5,
+							["max"] = 5,
 							["targets"] = {
 								["Elgorath"] = {
 									["overheal"] = 7,
 									["amount"] = 5,
 								},
 							},
-							["max"] = 5,
+							["min"] = 5,
 						},
 					},
 					["damagetakenspells"] = {
@@ -1130,9 +1130,9 @@ SkadaStorageDB = {
 					},
 					["heal"] = 10,
 					["name"] = "Elgorath",
-					["totaldamage"] = 260,
-					["overheal"] = 141,
 					["overkill"] = 123,
+					["overheal"] = 141,
+					["totaldamage"] = 260,
 				}, -- [1]
 			},
 			["type"] = "none",
@@ -1181,12 +1181,12 @@ SkadaStorageDB = {
 							["school"] = 1,
 							["sources"] = {
 								["Elgorath"] = {
-									["amount"] = 310,
 									["overkill"] = 80,
+									["amount"] = 310,
 								},
 							},
-							["amount"] = 310,
 							["overkill"] = 80,
+							["amount"] = 310,
 						},
 					},
 					["totaldamage"] = 8,
@@ -1207,17 +1207,17 @@ SkadaStorageDB = {
 					["flag"] = 1297,
 					["class"] = "PALADIN",
 					["auras"] = {
+						[19740] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 8,
+						},
 						[21084] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 8,
 						},
 						[465] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 8,
-						},
-						[19740] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 8,
@@ -1248,21 +1248,21 @@ SkadaStorageDB = {
 							["glance"] = 170,
 							["criticalamount"] = 140,
 							["id"] = 6603,
-							["critical"] = 1,
+							["count"] = 3,
 							["targets"] = {
 								["Kobold Miner"] = {
-									["amount"] = 310,
 									["overkill"] = 80,
+									["amount"] = 310,
 								},
 							},
 							["overkill"] = 80,
 							["glancing"] = 2,
 							["criticalmax"] = 140,
-							["count"] = 3,
+							["critical"] = 1,
 							["amount"] = 310,
 							["school"] = 1,
-							["criticalmin"] = 140,
 							["glancemax"] = 87,
+							["criticalmin"] = 140,
 							["glancemin"] = 83,
 						},
 					},
@@ -1274,39 +1274,39 @@ SkadaStorageDB = {
 							["count"] = 4,
 							["amount"] = 8,
 							["school"] = 1,
-							["min"] = 3,
+							["max"] = 5,
 							["targets"] = {
 								["Elgorath"] = {
 									["overheal"] = 16,
 									["amount"] = 8,
 								},
 							},
-							["max"] = 5,
+							["min"] = 3,
 						},
 					},
 					["damagetakenspells"] = {
 						["Melee"] = {
 							["hitmin"] = 3,
 							["id"] = 6603,
+							["PARRY"] = 1,
 							["sources"] = {
 								["Kobold Miner"] = {
 									["amount"] = 8,
 								},
 							},
-							["PARRY"] = 1,
 							["count"] = 3,
 							["hit"] = 2,
 							["school"] = 1,
-							["amount"] = 8,
 							["hitmax"] = 5,
+							["amount"] = 8,
 							["hitamount"] = 8,
 						},
 					},
 					["heal"] = 8,
 					["name"] = "Elgorath",
-					["role"] = "NONE",
-					["overheal"] = 16,
 					["overkill"] = 80,
+					["overheal"] = 16,
+					["role"] = "NONE",
 				}, -- [1]
 			},
 			["type"] = "none",
@@ -1346,23 +1346,23 @@ SkadaStorageDB = {
 							["school"] = 1,
 							["sources"] = {
 								["Elgorath"] = {
-									["amount"] = 402,
 									["overkill"] = 309,
+									["amount"] = 402,
 								},
 							},
-							["amount"] = 402,
 							["overkill"] = 309,
+							["amount"] = 402,
 						},
 						[25742] = {
 							["school"] = 2,
 							["sources"] = {
 								["Elgorath"] = {
-									["amount"] = 61,
 									["overkill"] = 12,
+									["amount"] = 61,
 								},
 							},
-							["amount"] = 61,
 							["overkill"] = 12,
+							["amount"] = 61,
 						},
 						[20187] = {
 							["school"] = 2,
@@ -1409,12 +1409,12 @@ SkadaStorageDB = {
 							["school"] = 1,
 							["sources"] = {
 								["Elgorath"] = {
-									["amount"] = 221,
 									["overkill"] = 119,
+									["amount"] = 221,
 								},
 							},
-							["amount"] = 221,
 							["overkill"] = 119,
+							["amount"] = 221,
 						},
 					},
 					["totaldamage"] = 12,
@@ -1435,6 +1435,16 @@ SkadaStorageDB = {
 					["flag"] = 1297,
 					["class"] = "PALADIN",
 					["auras"] = {
+						[20007] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 2,
+						},
+						[21084] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 10,
+						},
 						[19740] = {
 							["type"] = "BUFF",
 							["count"] = 1,
@@ -1445,22 +1455,37 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 10,
 						},
-						[21084] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 10,
-						},
-						[20007] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 2,
-						},
 					},
 					["role"] = "NONE",
 					["time"] = 9.530000000000001,
 					["totaldamagetaken"] = 16,
 					["damage"] = 764,
 					["damagespells"] = {
+						["Melee"] = {
+							["hitmin"] = 69,
+							["criticalamount"] = 554,
+							["id"] = 6603,
+							["criticalmin"] = 152,
+							["targets"] = {
+								["Kobold Miner"] = {
+									["overkill"] = 119,
+									["amount"] = 221,
+								},
+								["Kobold Tunneler"] = {
+									["overkill"] = 309,
+									["amount"] = 402,
+								},
+							},
+							["overkill"] = 428,
+							["critical"] = 3,
+							["criticalmax"] = 242,
+							["count"] = 4,
+							["amount"] = 623,
+							["school"] = 1,
+							["hit"] = 1,
+							["hitmax"] = 69,
+							["hitamount"] = 69,
+						},
 						["Seal of Righteousness"] = {
 							["hitmin"] = 9,
 							["id"] = 25742,
@@ -1469,8 +1494,8 @@ SkadaStorageDB = {
 									["amount"] = 18,
 								},
 								["Kobold Tunneler"] = {
-									["amount"] = 61,
 									["overkill"] = 12,
+									["amount"] = 61,
 								},
 							},
 							["overkill"] = 12,
@@ -1481,31 +1506,6 @@ SkadaStorageDB = {
 							["hitmax"] = 26,
 							["amount"] = 79,
 							["hitamount"] = 79,
-						},
-						["Melee"] = {
-							["hitmin"] = 69,
-							["criticalamount"] = 554,
-							["id"] = 6603,
-							["count"] = 4,
-							["targets"] = {
-								["Kobold Miner"] = {
-									["amount"] = 221,
-									["overkill"] = 119,
-								},
-								["Kobold Tunneler"] = {
-									["amount"] = 402,
-									["overkill"] = 309,
-								},
-							},
-							["overkill"] = 428,
-							["criticalmin"] = 152,
-							["criticalmax"] = 242,
-							["hitmax"] = 69,
-							["amount"] = 623,
-							["school"] = 1,
-							["hit"] = 1,
-							["critical"] = 3,
-							["hitamount"] = 69,
 						},
 						["Judgement of Righteousness"] = {
 							["hitmin"] = 62,
@@ -1545,26 +1545,24 @@ SkadaStorageDB = {
 							["count"] = 6,
 							["amount"] = 16,
 							["max"] = 6,
-							["min"] = 4,
+							["school"] = 1,
 							["targets"] = {
 								["Elgorath"] = {
 									["overheal"] = 20,
 									["amount"] = 16,
 								},
 							},
-							["school"] = 1,
+							["min"] = 4,
 						},
 					},
 					["overkill"] = 440,
 					["heal"] = 16,
 					["name"] = "Elgorath",
-					["totaldamage"] = 764,
-					["overheal"] = 26,
 					["damagetakenspells"] = {
 						["Melee"] = {
 							["hitmin"] = 2,
 							["id"] = 6603,
-							["hit"] = 5,
+							["amount"] = 16,
 							["sources"] = {
 								["Kobold Miner"] = {
 									["amount"] = 12,
@@ -1574,13 +1572,15 @@ SkadaStorageDB = {
 								},
 							},
 							["count"] = 6,
-							["amount"] = 16,
+							["hit"] = 5,
 							["school"] = 1,
 							["hitmax"] = 4,
 							["MISS"] = 1,
 							["hitamount"] = 16,
 						},
 					},
+					["overheal"] = 26,
+					["totaldamage"] = 764,
 				}, -- [1]
 			},
 			["type"] = "none",
@@ -1620,23 +1620,23 @@ SkadaStorageDB = {
 							["school"] = 1,
 							["sources"] = {
 								["Elgorath"] = {
-									["amount"] = 541,
 									["overkill"] = 236,
+									["amount"] = 541,
 								},
 							},
-							["amount"] = 541,
 							["overkill"] = 236,
+							["amount"] = 541,
 						},
 						[25742] = {
 							["school"] = 2,
 							["sources"] = {
 								["Elgorath"] = {
-									["amount"] = 97,
 									["overkill"] = 30,
+									["amount"] = 97,
 								},
 							},
-							["amount"] = 97,
 							["overkill"] = 30,
+							["amount"] = 97,
 						},
 						[20187] = {
 							["school"] = 2,
@@ -1674,12 +1674,12 @@ SkadaStorageDB = {
 							["school"] = 2,
 							["sources"] = {
 								["Elgorath"] = {
-									["amount"] = 44,
 									["overkill"] = 19,
+									["amount"] = 44,
 								},
 							},
-							["amount"] = 44,
 							["overkill"] = 19,
+							["amount"] = 44,
 						},
 						[6603] = {
 							["school"] = 1,
@@ -1732,12 +1732,12 @@ SkadaStorageDB = {
 							},
 							["uptime"] = 4,
 						},
-						[19740] = {
+						[465] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 24,
 						},
-						[465] = {
+						[19740] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 24,
@@ -1748,14 +1748,36 @@ SkadaStorageDB = {
 					["totaldamagetaken"] = 55,
 					["damage"] = 835,
 					["damagespells"] = {
+						["Seal of Righteousness"] = {
+							["hitmin"] = 9,
+							["id"] = 25742,
+							["targets"] = {
+								["Kobold Miner"] = {
+									["overkill"] = 30,
+									["amount"] = 97,
+								},
+								["Goldtooth"] = {
+									["overkill"] = 19,
+									["amount"] = 44,
+								},
+							},
+							["overkill"] = 49,
+							["casts"] = 1,
+							["count"] = 10,
+							["hit"] = 10,
+							["school"] = 2,
+							["hitmax"] = 26,
+							["amount"] = 141,
+							["hitamount"] = 141,
+						},
 						["Melee"] = {
 							["glance"] = 79,
 							["hitmin"] = 59,
 							["criticalmin"] = 128,
 							["targets"] = {
 								["Kobold Miner"] = {
-									["amount"] = 541,
 									["overkill"] = 236,
+									["amount"] = 541,
 								},
 								["Goldtooth"] = {
 									["amount"] = 131,
@@ -1775,28 +1797,6 @@ SkadaStorageDB = {
 							["critical"] = 1,
 							["count"] = 8,
 							["hitamount"] = 465,
-						},
-						["Seal of Righteousness"] = {
-							["hitmin"] = 9,
-							["id"] = 25742,
-							["targets"] = {
-								["Kobold Miner"] = {
-									["amount"] = 97,
-									["overkill"] = 30,
-								},
-								["Goldtooth"] = {
-									["amount"] = 44,
-									["overkill"] = 19,
-								},
-							},
-							["overkill"] = 49,
-							["casts"] = 1,
-							["count"] = 10,
-							["hit"] = 10,
-							["school"] = 2,
-							["hitmax"] = 26,
-							["amount"] = 141,
-							["hitamount"] = 141,
 						},
 						["Judgement of Righteousness"] = {
 							["hitmin"] = 22,
@@ -1823,38 +1823,36 @@ SkadaStorageDB = {
 							["count"] = 8,
 							["amount"] = 23,
 							["school"] = 1,
-							["min"] = 1,
+							["max"] = 6,
 							["targets"] = {
 								["Elgorath"] = {
 									["overheal"] = 25,
 									["amount"] = 23,
 								},
 							},
-							["max"] = 6,
+							["min"] = 1,
 						},
 						[20007] = {
 							["overheal"] = 78,
 							["count"] = 1,
 							["amount"] = 32,
 							["school"] = 1,
-							["min"] = 32,
+							["max"] = 32,
 							["targets"] = {
 								["Elgorath"] = {
 									["overheal"] = 78,
 									["amount"] = 32,
 								},
 							},
-							["max"] = 32,
+							["min"] = 32,
 						},
 					},
 					["damagetakenspells"] = {
 						["Melee"] = {
-							["criticalamount"] = 12,
-							["hitmin"] = 4,
 							["criticalmin"] = 12,
+							["hitmin"] = 4,
+							["criticalamount"] = 12,
 							["id"] = 6603,
-							["PARRY"] = 2,
-							["amount"] = 55,
 							["sources"] = {
 								["Kobold Miner"] = {
 									["amount"] = 40,
@@ -1863,12 +1861,14 @@ SkadaStorageDB = {
 									["amount"] = 15,
 								},
 							},
-							["count"] = 13,
-							["criticalmax"] = 12,
+							["hitmax"] = 8,
 							["critical"] = 1,
 							["hit"] = 7,
+							["PARRY"] = 2,
+							["count"] = 13,
+							["amount"] = 55,
 							["school"] = 1,
-							["hitmax"] = 8,
+							["criticalmax"] = 12,
 							["MISS"] = 3,
 							["hitamount"] = 43,
 						},
@@ -1887,9 +1887,9 @@ SkadaStorageDB = {
 					},
 					["heal"] = 55,
 					["name"] = "Elgorath",
-					["role"] = "NONE",
-					["overheal"] = 103,
 					["overkill"] = 285,
+					["overheal"] = 103,
+					["role"] = "NONE",
 				}, -- [1]
 			},
 			["type"] = "none",
@@ -1929,12 +1929,12 @@ SkadaStorageDB = {
 							["school"] = 1,
 							["sources"] = {
 								["Elgorath"] = {
-									["amount"] = 127,
 									["overkill"] = 39,
+									["amount"] = 127,
 								},
 							},
-							["amount"] = 127,
 							["overkill"] = 39,
+							["amount"] = 127,
 						},
 						[25742] = {
 							["school"] = 2,
@@ -1985,6 +1985,11 @@ SkadaStorageDB = {
 							},
 							["uptime"] = 3,
 						},
+						[19740] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 5,
+						},
 						[21084] = {
 							["type"] = "BUFF",
 							["count"] = 1,
@@ -1995,34 +2000,12 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 5,
 						},
-						[19740] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 5,
-						},
 					},
 					["totaldamage"] = 176,
 					["time"] = 3.87,
 					["totaldamagetaken"] = 4,
 					["damage"] = 176,
 					["damagespells"] = {
-						["Melee"] = {
-							["hitmin"] = 63,
-							["id"] = 6603,
-							["targets"] = {
-								["Kobold Miner"] = {
-									["amount"] = 127,
-									["overkill"] = 39,
-								},
-							},
-							["overkill"] = 39,
-							["count"] = 2,
-							["hit"] = 2,
-							["school"] = 1,
-							["hitmax"] = 64,
-							["amount"] = 127,
-							["hitamount"] = 127,
-						},
 						["Seal of Righteousness"] = {
 							["hitmin"] = 9,
 							["id"] = 25742,
@@ -2038,6 +2021,23 @@ SkadaStorageDB = {
 							["hitmax"] = 9,
 							["amount"] = 27,
 							["hitamount"] = 27,
+						},
+						["Melee"] = {
+							["hitmin"] = 63,
+							["id"] = 6603,
+							["targets"] = {
+								["Kobold Miner"] = {
+									["overkill"] = 39,
+									["amount"] = 127,
+								},
+							},
+							["overkill"] = 39,
+							["count"] = 2,
+							["hit"] = 2,
+							["school"] = 1,
+							["hitmax"] = 64,
+							["amount"] = 127,
+							["hitamount"] = 127,
 						},
 						["Judgement of Righteousness"] = {
 							["hitmin"] = 22,
@@ -2061,18 +2061,18 @@ SkadaStorageDB = {
 					["healspells"] = {
 						[20267] = {
 							["overheal"] = 2,
-							["min"] = 4,
+							["max"] = 4,
 							["count"] = 1,
 							["amount"] = 4,
 							["school"] = 2,
-							["ishot"] = true,
 							["targets"] = {
 								["Elgorath"] = {
 									["overheal"] = 2,
 									["amount"] = 4,
 								},
 							},
-							["max"] = 4,
+							["ishot"] = true,
+							["min"] = 4,
 						},
 						[59913] = {
 							["overheal"] = 12,
@@ -2091,14 +2091,14 @@ SkadaStorageDB = {
 						["Melee"] = {
 							["hitmin"] = 4,
 							["id"] = 6603,
-							["hit"] = 1,
+							["amount"] = 4,
 							["sources"] = {
 								["Kobold Miner"] = {
 									["amount"] = 4,
 								},
 							},
 							["count"] = 2,
-							["amount"] = 4,
+							["hit"] = 1,
 							["school"] = 1,
 							["hitmax"] = 4,
 							["MISS"] = 1,
@@ -2107,9 +2107,9 @@ SkadaStorageDB = {
 					},
 					["heal"] = 4,
 					["name"] = "Elgorath",
-					["role"] = "NONE",
-					["overheal"] = 14,
 					["overkill"] = 39,
+					["overheal"] = 14,
+					["role"] = "NONE",
 				}, -- [1]
 			},
 			["type"] = "none",
@@ -2158,12 +2158,12 @@ SkadaStorageDB = {
 							["school"] = 1,
 							["sources"] = {
 								["Elgorath"] = {
-									["amount"] = 208,
 									["overkill"] = 89,
+									["amount"] = 208,
 								},
 							},
-							["amount"] = 208,
 							["overkill"] = 89,
+							["amount"] = 208,
 						},
 					},
 					["totaldamage"] = 12,
@@ -2184,17 +2184,17 @@ SkadaStorageDB = {
 					["flag"] = 1297,
 					["class"] = "PALADIN",
 					["auras"] = {
+						[19740] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 6,
+						},
 						[21084] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 6,
 						},
 						[465] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 6,
-						},
-						[19740] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 6,
@@ -2228,18 +2228,18 @@ SkadaStorageDB = {
 							["criticalmin"] = 146,
 							["targets"] = {
 								["Kobold Miner"] = {
-									["amount"] = 208,
 									["overkill"] = 89,
+									["amount"] = 208,
 								},
 							},
 							["overkill"] = 89,
-							["amount"] = 208,
+							["count"] = 2,
 							["criticalmax"] = 146,
 							["critical"] = 1,
-							["hit"] = 1,
+							["amount"] = 208,
 							["school"] = 1,
 							["hitmax"] = 62,
-							["count"] = 2,
+							["hit"] = 1,
 							["hitamount"] = 62,
 						},
 					},
@@ -2251,14 +2251,14 @@ SkadaStorageDB = {
 							["count"] = 2,
 							["amount"] = 12,
 							["school"] = 1,
-							["min"] = 6,
+							["max"] = 6,
 							["targets"] = {
 								["Elgorath"] = {
 									["overheal"] = 0,
 									["amount"] = 12,
 								},
 							},
-							["max"] = 6,
+							["min"] = 6,
 						},
 					},
 					["damagetakenspells"] = {
@@ -2280,9 +2280,9 @@ SkadaStorageDB = {
 					},
 					["heal"] = 12,
 					["name"] = "Elgorath",
-					["role"] = "NONE",
-					["overheal"] = 0,
 					["overkill"] = 89,
+					["overheal"] = 0,
+					["role"] = "NONE",
 				}, -- [1]
 			},
 			["type"] = "none",
@@ -2322,12 +2322,12 @@ SkadaStorageDB = {
 							["school"] = 1,
 							["sources"] = {
 								["Elgorath"] = {
-									["amount"] = 132,
 									["overkill"] = 57,
+									["amount"] = 132,
 								},
 							},
-							["amount"] = 132,
 							["overkill"] = 57,
+							["amount"] = 132,
 						},
 						[25742] = {
 							["school"] = 2,
@@ -2374,12 +2374,12 @@ SkadaStorageDB = {
 							["school"] = 1,
 							["sources"] = {
 								["Elgorath"] = {
-									["amount"] = 225,
 									["overkill"] = 56,
+									["amount"] = 225,
 								},
 							},
-							["amount"] = 225,
 							["overkill"] = 56,
+							["amount"] = 225,
 						},
 						[25742] = {
 							["school"] = 2,
@@ -2430,6 +2430,11 @@ SkadaStorageDB = {
 							},
 							["uptime"] = 1,
 						},
+						[19740] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 13,
+						},
 						[21084] = {
 							["type"] = "BUFF",
 							["count"] = 1,
@@ -2440,17 +2445,38 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 13,
 						},
-						[19740] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 13,
-						},
 					},
 					["totaldamage"] = 490,
 					["time"] = 8.060000000000001,
 					["totaldamagetaken"] = 27,
 					["damage"] = 490,
 					["damagespells"] = {
+						["Melee"] = {
+							["DODGE"] = 1,
+							["hitmin"] = 77,
+							["criticalamount"] = 280,
+							["id"] = 6603,
+							["criticalmin"] = 132,
+							["targets"] = {
+								["Kobold Miner"] = {
+									["overkill"] = 57,
+									["amount"] = 132,
+								},
+								["Kobold Tunneler"] = {
+									["overkill"] = 56,
+									["amount"] = 225,
+								},
+							},
+							["overkill"] = 113,
+							["critical"] = 2,
+							["criticalmax"] = 148,
+							["count"] = 4,
+							["amount"] = 357,
+							["school"] = 1,
+							["hit"] = 1,
+							["hitmax"] = 77,
+							["hitamount"] = 77,
+						},
 						["Seal of Righteousness"] = {
 							["hitmin"] = 9,
 							["id"] = 25742,
@@ -2470,32 +2496,6 @@ SkadaStorageDB = {
 							["amount"] = 45,
 							["hitamount"] = 45,
 						},
-						["Melee"] = {
-							["DODGE"] = 1,
-							["hitmin"] = 77,
-							["criticalamount"] = 280,
-							["id"] = 6603,
-							["count"] = 4,
-							["targets"] = {
-								["Kobold Miner"] = {
-									["amount"] = 132,
-									["overkill"] = 57,
-								},
-								["Kobold Tunneler"] = {
-									["amount"] = 225,
-									["overkill"] = 56,
-								},
-							},
-							["overkill"] = 113,
-							["criticalmin"] = 132,
-							["criticalmax"] = 148,
-							["hitmax"] = 77,
-							["amount"] = 357,
-							["school"] = 1,
-							["hit"] = 1,
-							["critical"] = 2,
-							["hitamount"] = 77,
-						},
 						["Judgement of Righteousness"] = {
 							["criticalamount"] = 88,
 							["id"] = 20187,
@@ -2511,9 +2511,9 @@ SkadaStorageDB = {
 							["critical"] = 2,
 							["amount"] = 88,
 							["school"] = 2,
-							["count"] = 2,
-							["criticalmax"] = 44,
 							["criticalmin"] = 44,
+							["criticalmax"] = 44,
+							["count"] = 2,
 						},
 					},
 					["damagetaken"] = 27,
@@ -2521,32 +2521,32 @@ SkadaStorageDB = {
 					["healspells"] = {
 						[20267] = {
 							["overheal"] = 2,
-							["min"] = 5,
+							["max"] = 6,
 							["count"] = 3,
 							["amount"] = 16,
 							["school"] = 2,
-							["ishot"] = true,
 							["targets"] = {
 								["Elgorath"] = {
 									["overheal"] = 2,
 									["amount"] = 16,
 								},
 							},
-							["max"] = 6,
+							["ishot"] = true,
+							["min"] = 5,
 						},
 						[59913] = {
 							["overheal"] = 25,
 							["count"] = 6,
 							["amount"] = 11,
 							["max"] = 6,
-							["min"] = 5,
+							["school"] = 1,
 							["targets"] = {
 								["Elgorath"] = {
 									["overheal"] = 25,
 									["amount"] = 11,
 								},
 							},
-							["school"] = 1,
+							["min"] = 5,
 						},
 					},
 					["damagetakenspells"] = {
@@ -2554,6 +2554,7 @@ SkadaStorageDB = {
 							["DODGE"] = 1,
 							["hitmin"] = 3,
 							["id"] = 6603,
+							["PARRY"] = 1,
 							["sources"] = {
 								["Kobold Miner"] = {
 									["amount"] = 5,
@@ -2562,20 +2563,19 @@ SkadaStorageDB = {
 									["amount"] = 22,
 								},
 							},
-							["PARRY"] = 1,
 							["count"] = 9,
 							["hit"] = 7,
 							["school"] = 1,
-							["amount"] = 27,
 							["hitmax"] = 5,
+							["amount"] = 27,
 							["hitamount"] = 27,
 						},
 					},
 					["heal"] = 27,
 					["name"] = "Elgorath",
-					["role"] = "NONE",
-					["overheal"] = 27,
 					["overkill"] = 113,
+					["overheal"] = 27,
+					["role"] = "NONE",
 				}, -- [1]
 			},
 			["type"] = "none",
@@ -2615,12 +2615,12 @@ SkadaStorageDB = {
 							["school"] = 1,
 							["sources"] = {
 								["Elgorath"] = {
-									["amount"] = 312,
 									["overkill"] = 147,
+									["amount"] = 312,
 								},
 							},
-							["amount"] = 312,
 							["overkill"] = 147,
+							["amount"] = 312,
 						},
 						[25742] = {
 							["school"] = 2,
@@ -2685,12 +2685,12 @@ SkadaStorageDB = {
 							},
 							["uptime"] = 1,
 						},
-						[19740] = {
+						[465] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 14,
 						},
-						[465] = {
+						[19740] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 14,
@@ -2701,6 +2701,27 @@ SkadaStorageDB = {
 					["totaldamagetaken"] = 21,
 					["damage"] = 387,
 					["damagespells"] = {
+						["Melee"] = {
+							["glance"] = 250,
+							["hitmin"] = 62,
+							["id"] = 6603,
+							["hitamount"] = 62,
+							["glancemax"] = 162,
+							["overkill"] = 147,
+							["glancing"] = 2,
+							["count"] = 3,
+							["hitmax"] = 62,
+							["amount"] = 312,
+							["school"] = 1,
+							["hit"] = 1,
+							["targets"] = {
+								["Kobold Miner"] = {
+									["overkill"] = 147,
+									["amount"] = 312,
+								},
+							},
+							["glancemin"] = 88,
+						},
 						["Seal of Righteousness"] = {
 							["hitmin"] = 9,
 							["id"] = 25742,
@@ -2716,27 +2737,6 @@ SkadaStorageDB = {
 							["hitmax"] = 26,
 							["amount"] = 53,
 							["hitamount"] = 53,
-						},
-						["Melee"] = {
-							["glance"] = 250,
-							["hitmin"] = 62,
-							["id"] = 6603,
-							["glancemin"] = 88,
-							["glancemax"] = 162,
-							["overkill"] = 147,
-							["glancing"] = 2,
-							["targets"] = {
-								["Kobold Miner"] = {
-									["amount"] = 312,
-									["overkill"] = 147,
-								},
-							},
-							["hitmax"] = 62,
-							["amount"] = 312,
-							["school"] = 1,
-							["hit"] = 1,
-							["count"] = 3,
-							["hitamount"] = 62,
 						},
 						["Judgement of Righteousness"] = {
 							["hitmin"] = 22,
@@ -2763,28 +2763,28 @@ SkadaStorageDB = {
 							["count"] = 4,
 							["amount"] = 14,
 							["school"] = 1,
-							["min"] = 4,
+							["max"] = 6,
 							["targets"] = {
 								["Elgorath"] = {
 									["overheal"] = 10,
 									["amount"] = 14,
 								},
 							},
-							["max"] = 6,
+							["min"] = 4,
 						},
 						[20007] = {
 							["overheal"] = 105,
 							["count"] = 1,
 							["amount"] = 7,
 							["school"] = 1,
-							["min"] = 7,
+							["max"] = 7,
 							["targets"] = {
 								["Elgorath"] = {
 									["overheal"] = 105,
 									["amount"] = 7,
 								},
 							},
-							["max"] = 7,
+							["min"] = 7,
 						},
 					},
 					["damagetakenspells"] = {
@@ -2818,9 +2818,9 @@ SkadaStorageDB = {
 					},
 					["heal"] = 21,
 					["name"] = "Elgorath",
-					["role"] = "NONE",
-					["overheal"] = 115,
 					["overkill"] = 147,
+					["overheal"] = 115,
+					["role"] = "NONE",
 				}, -- [1]
 			},
 			["overheal"] = 115,
@@ -2866,12 +2866,12 @@ SkadaStorageDB = {
 							["school"] = 1,
 							["sources"] = {
 								["Elgorath"] = {
-									["amount"] = 202,
 									["overkill"] = 72,
+									["amount"] = 202,
 								},
 							},
-							["amount"] = 202,
 							["overkill"] = 72,
+							["amount"] = 202,
 						},
 					},
 					["totaldamage"] = 13,
@@ -2881,12 +2881,12 @@ SkadaStorageDB = {
 					["damage"] = 13,
 				}, -- [1]
 				{
-					["flag"] = 68168,
-					["name"] = "Kobold Miner",
 					["damagetaken"] = 138,
-					["id"] = "0xF13000002824DC0A",
-					["totaldamagetaken"] = 138,
+					["name"] = "Kobold Miner",
 					["class"] = "MONSTER",
+					["flag"] = 68168,
+					["totaldamagetaken"] = 138,
+					["id"] = "0xF13000002824DC0A",
 					["damagetakenspells"] = {
 						[25742] = {
 							["school"] = 2,
@@ -2901,12 +2901,12 @@ SkadaStorageDB = {
 							["school"] = 1,
 							["sources"] = {
 								["Elgorath"] = {
-									["amount"] = 112,
 									["overkill"] = 1,
+									["amount"] = 112,
 								},
 							},
-							["amount"] = 112,
 							["overkill"] = 1,
+							["amount"] = 112,
 						},
 					},
 				}, -- [2]
@@ -2922,12 +2922,7 @@ SkadaStorageDB = {
 					["flag"] = 1297,
 					["class"] = "PALADIN",
 					["auras"] = {
-						[21084] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 5,
-						},
-						[19740] = {
+						[465] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 5,
@@ -2937,7 +2932,12 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 5,
 						},
-						[465] = {
+						[21084] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 5,
+						},
+						[19740] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 5,
@@ -2968,29 +2968,29 @@ SkadaStorageDB = {
 							["hitamount"] = 52,
 						},
 						["Melee"] = {
-							["criticalamount"] = 202,
-							["hitmin"] = 112,
 							["criticalmin"] = 202,
+							["hitmin"] = 112,
+							["criticalamount"] = 202,
 							["id"] = 6603,
-							["amount"] = 314,
+							["count"] = 2,
 							["targets"] = {
 								["Kobold Miner"] = {
-									["amount"] = 112,
 									["overkill"] = 1,
+									["amount"] = 112,
 								},
 								["Goldtooth"] = {
-									["amount"] = 202,
 									["overkill"] = 72,
+									["amount"] = 202,
 								},
 							},
 							["overkill"] = 73,
-							["hitmax"] = 112,
-							["criticalmax"] = 202,
-							["critical"] = 1,
-							["blocked"] = 3,
-							["school"] = 1,
 							["hit"] = 1,
-							["count"] = 2,
+							["criticalmax"] = 202,
+							["hitmax"] = 112,
+							["amount"] = 314,
+							["school"] = 1,
+							["blocked"] = 3,
+							["critical"] = 1,
 							["hitamount"] = 112,
 						},
 					},
@@ -3002,21 +3002,21 @@ SkadaStorageDB = {
 							["count"] = 4,
 							["amount"] = 13,
 							["school"] = 1,
-							["min"] = 1,
+							["max"] = 6,
 							["targets"] = {
 								["Elgorath"] = {
 									["overheal"] = 11,
 									["amount"] = 13,
 								},
 							},
-							["max"] = 6,
+							["min"] = 1,
 						},
 					},
 					["damagetakenspells"] = {
 						["Melee"] = {
 							["hitmin"] = 6,
 							["id"] = 6603,
-							["count"] = 3,
+							["hitmax"] = 7,
 							["sources"] = {
 								["Kobold Miner"] = {
 									["amount"] = 0,
@@ -3025,19 +3025,19 @@ SkadaStorageDB = {
 									["amount"] = 13,
 								},
 							},
-							["hitmax"] = 7,
+							["count"] = 3,
 							["hit"] = 2,
 							["school"] = 1,
-							["amount"] = 13,
 							["PARRY"] = 1,
+							["amount"] = 13,
 							["hitamount"] = 13,
 						},
 					},
 					["heal"] = 13,
 					["name"] = "Elgorath",
-					["role"] = "NONE",
-					["overheal"] = 11,
 					["overkill"] = 73,
+					["overheal"] = 11,
+					["role"] = "NONE",
 				}, -- [1]
 			},
 			["type"] = "none",
@@ -3077,12 +3077,12 @@ SkadaStorageDB = {
 							["school"] = 1,
 							["sources"] = {
 								["Elgorath"] = {
-									["amount"] = 306,
 									["overkill"] = 171,
+									["amount"] = 306,
 								},
 							},
-							["amount"] = 306,
 							["overkill"] = 171,
+							["amount"] = 306,
 						},
 						[25742] = {
 							["school"] = 2,
@@ -3121,6 +3121,17 @@ SkadaStorageDB = {
 					["flag"] = 1297,
 					["class"] = "PALADIN",
 					["auras"] = {
+						[20007] = {
+							["school"] = 1,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 4,
+						},
+						[21084] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 5,
+						},
 						[19740] = {
 							["type"] = "BUFF",
 							["count"] = 1,
@@ -3131,23 +3142,29 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 5,
 						},
-						[21084] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 5,
-						},
-						[20007] = {
-							["school"] = 1,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 4,
-						},
 					},
 					["role"] = "NONE",
 					["time"] = 4.73,
 					["totaldamagetaken"] = 3,
 					["damage"] = 411,
 					["damagespells"] = {
+						["Melee"] = {
+							["glance"] = 306,
+							["id"] = 6603,
+							["glancemax"] = 154,
+							["overkill"] = 171,
+							["glancing"] = 2,
+							["count"] = 2,
+							["amount"] = 306,
+							["school"] = 1,
+							["targets"] = {
+								["Kobold Miner"] = {
+									["overkill"] = 171,
+									["amount"] = 306,
+								},
+							},
+							["glancemin"] = 152,
+						},
 						["Seal of Righteousness"] = {
 							["hitmin"] = 9,
 							["id"] = 25742,
@@ -3164,23 +3181,6 @@ SkadaStorageDB = {
 							["amount"] = 61,
 							["hitamount"] = 61,
 						},
-						["Melee"] = {
-							["glance"] = 306,
-							["id"] = 6603,
-							["glancemax"] = 154,
-							["overkill"] = 171,
-							["glancing"] = 2,
-							["count"] = 2,
-							["amount"] = 306,
-							["school"] = 1,
-							["targets"] = {
-								["Kobold Miner"] = {
-									["amount"] = 306,
-									["overkill"] = 171,
-								},
-							},
-							["glancemin"] = 152,
-						},
 						["Judgement of Righteousness"] = {
 							["criticalamount"] = 44,
 							["id"] = 20187,
@@ -3193,9 +3193,9 @@ SkadaStorageDB = {
 							["critical"] = 1,
 							["amount"] = 44,
 							["school"] = 2,
-							["count"] = 1,
-							["criticalmax"] = 44,
 							["criticalmin"] = 44,
+							["criticalmax"] = 44,
+							["count"] = 1,
 						},
 					},
 					["damagetaken"] = 3,
@@ -3218,21 +3218,19 @@ SkadaStorageDB = {
 							["count"] = 4,
 							["amount"] = 3,
 							["max"] = 3,
-							["min"] = 3,
+							["school"] = 1,
 							["targets"] = {
 								["Elgorath"] = {
 									["overheal"] = 21,
 									["amount"] = 3,
 								},
 							},
-							["school"] = 1,
+							["min"] = 3,
 						},
 					},
 					["overkill"] = 171,
 					["heal"] = 3,
 					["name"] = "Elgorath",
-					["totaldamage"] = 411,
-					["overheal"] = 143,
 					["damagetakenspells"] = {
 						["Melee"] = {
 							["hitmin"] = 3,
@@ -3250,6 +3248,8 @@ SkadaStorageDB = {
 							["hitamount"] = 3,
 						},
 					},
+					["overheal"] = 143,
+					["totaldamage"] = 411,
 				}, -- [1]
 			},
 			["type"] = "none",
@@ -3289,12 +3289,12 @@ SkadaStorageDB = {
 							["school"] = 1,
 							["sources"] = {
 								["Elgorath"] = {
-									["amount"] = 274,
 									["overkill"] = 66,
+									["amount"] = 274,
 								},
 							},
-							["amount"] = 274,
 							["overkill"] = 66,
+							["amount"] = 274,
 						},
 						[25742] = {
 							["school"] = 2,
@@ -3333,6 +3333,11 @@ SkadaStorageDB = {
 					["flag"] = 1297,
 					["class"] = "PALADIN",
 					["auras"] = {
+						[19740] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 5,
+						},
 						[21084] = {
 							["type"] = "BUFF",
 							["count"] = 1,
@@ -3343,17 +3348,29 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 5,
 						},
-						[19740] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 5,
-						},
 					},
 					["totaldamage"] = 323,
 					["time"] = 4.2,
 					["totaldamagetaken"] = 14,
 					["damage"] = 323,
 					["damagespells"] = {
+						["Melee"] = {
+							["criticalamount"] = 274,
+							["id"] = 6603,
+							["targets"] = {
+								["Kobold Miner"] = {
+									["overkill"] = 66,
+									["amount"] = 274,
+								},
+							},
+							["overkill"] = 66,
+							["criticalmax"] = 146,
+							["critical"] = 2,
+							["amount"] = 274,
+							["school"] = 1,
+							["criticalmin"] = 128,
+							["count"] = 2,
+						},
 						["Seal of Righteousness"] = {
 							["hitmin"] = 9,
 							["id"] = 25742,
@@ -3369,23 +3386,6 @@ SkadaStorageDB = {
 							["hitmax"] = 9,
 							["amount"] = 27,
 							["hitamount"] = 27,
-						},
-						["Melee"] = {
-							["criticalamount"] = 274,
-							["id"] = 6603,
-							["targets"] = {
-								["Kobold Miner"] = {
-									["amount"] = 274,
-									["overkill"] = 66,
-								},
-							},
-							["overkill"] = 66,
-							["criticalmax"] = 146,
-							["critical"] = 2,
-							["amount"] = 274,
-							["school"] = 1,
-							["count"] = 2,
-							["criticalmin"] = 128,
 						},
 						["Judgement of Righteousness"] = {
 							["hitmin"] = 22,
@@ -3412,14 +3412,14 @@ SkadaStorageDB = {
 							["count"] = 4,
 							["amount"] = 14,
 							["school"] = 1,
-							["min"] = 3,
+							["max"] = 6,
 							["targets"] = {
 								["Elgorath"] = {
 									["overheal"] = 10,
 									["amount"] = 14,
 								},
 							},
-							["max"] = 6,
+							["min"] = 3,
 						},
 					},
 					["damagetakenspells"] = {
@@ -3441,9 +3441,9 @@ SkadaStorageDB = {
 					},
 					["heal"] = 14,
 					["name"] = "Elgorath",
-					["role"] = "NONE",
-					["overheal"] = 10,
 					["overkill"] = 66,
+					["overheal"] = 10,
+					["role"] = "NONE",
 				}, -- [1]
 			},
 			["type"] = "none",
@@ -3464,9 +3464,12 @@ SkadaStorageDB = {
 	},
 	["version"] = 1878,
 	["total"] = {
-		["starttime"] = 1689145353,
-		["ccdone"] = 2,
+		["overheal"] = 3547,
+		["death"] = 1,
 		["damagetaken"] = 4420,
+		["starttime"] = 1689145353,
+		["potion"] = 6,
+		["mana"] = 83,
 		["players"] = {
 			{
 				["flag"] = 1297,
@@ -3482,22 +3485,19 @@ SkadaStorageDB = {
 				["heal"] = 2072,
 				["name"] = "Elgorath",
 				["ccdone"] = 2,
-				["death"] = 1,
-				["mana"] = 83,
-				["totaldamage"] = 52136,
 				["potion"] = 6,
+				["totaldamage"] = 52136,
+				["mana"] = 83,
+				["death"] = 1,
 			}, -- [1]
 		},
-		["name"] = "Total",
-		["mana"] = 83,
-		["overheal"] = 3547,
 		["overkill"] = 14087,
-		["heal"] = 2072,
 		["totaldamage"] = 52136,
+		["heal"] = 2072,
 		["time"] = 2113,
-		["death"] = 1,
+		["ccdone"] = 2,
 		["totaldamagetaken"] = 4420,
-		["potion"] = 6,
+		["name"] = "Total",
 		["damage"] = 52129,
 	},
 }

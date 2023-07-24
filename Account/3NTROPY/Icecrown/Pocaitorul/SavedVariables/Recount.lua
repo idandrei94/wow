@@ -119,8 +119,8 @@ RecountPerCharDB = {
 				["Healing"] = {
 					961, -- [1]
 				},
-				["Overhealing"] = {
-					563, -- [1]
+				["FDamage"] = {
+					2029, -- [1]
 				},
 				["Ressed"] = {
 					1, -- [1]
@@ -131,8 +131,8 @@ RecountPerCharDB = {
 				["HealingTaken"] = {
 					567, -- [1]
 				},
-				["TimeDamage"] = {
-					1832.250000000001, -- [1]
+				["ActiveTime"] = {
+					1883.860000000001, -- [1]
 				},
 				["DeathCount"] = {
 					1, -- [1]
@@ -140,11 +140,11 @@ RecountPerCharDB = {
 				["HOT_Time"] = {
 					84, -- [1]
 				},
-				["ActiveTime"] = {
-					1883.860000000001, -- [1]
+				["TimeDamage"] = {
+					1832.250000000001, -- [1]
 				},
-				["FDamage"] = {
-					2029, -- [1]
+				["Overhealing"] = {
+					563, -- [1]
 				},
 				["ManaGain"] = {
 					1294, -- [1]
@@ -190,14 +190,13 @@ RecountPerCharDB = {
 					},
 					["DeathCount"] = 0,
 					["HOT_Time"] = 0,
-					["DOT_Time"] = 0,
+					["HOTs"] = {
+					},
 					["ManaGain"] = 0,
 					["ElementTaken"] = {
 					},
-					["HOTs"] = {
-					},
-					["ElementTakenBlock"] = {
-					},
+					["DOT_Time"] = 0,
+					["Damage"] = 164,
 					["ElementDoneAbsorb"] = {
 					},
 					["TimeHeal"] = 0,
@@ -216,44 +215,45 @@ RecountPerCharDB = {
 					},
 					["ManaGainedFrom"] = {
 					},
-					["DamagedWho"] = {
-						["Young Black Ravager"] = {
+					["ElementHitsDone"] = {
+						["Shadow"] = {
 							["Details"] = {
-								["Mind Flay"] = {
-									["count"] = 164,
+								["Hit"] = {
+									["count"] = 5,
 								},
 							},
-							["amount"] = 164,
+							["amount"] = 5,
 						},
 					},
-					["OverHeals"] = {
+					["RageGained"] = {
 					},
 					["WhoDamaged"] = {
 					},
 					["EnergyGainedFrom"] = {
 					},
-					["RageGained"] = {
-					},
-					["RunicPowerGainedFrom"] = {
+					["Dispelled"] = 0,
+					["RunicPowerGained"] = {
 					},
 					["ElementDoneBlock"] = {
 					},
 					["TimeHealing"] = {
 					},
-					["Dispelled"] = 0,
+					["OverHeals"] = {
+					},
 					["WhoHealed"] = {
 					},
+					["EnergyGain"] = 0,
+					["CCBreak"] = 0,
+					["PartialAbsorb"] = {
+					},
+					["ActiveTime"] = 7.88,
 					["PartialResist"] = {
 					},
-					["CCBreak"] = 0,
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
-					["EnergyGain"] = 0,
 					["ManaGained"] = {
 					},
 					["ElementTakenAbsorb"] = {
 					},
-					["ActiveTime"] = 7.88,
+					["Interrupts"] = 0,
 					["Overhealing"] = 0,
 					["ElementTakenResist"] = {
 					},
@@ -273,16 +273,15 @@ RecountPerCharDB = {
 					},
 					["Heals"] = {
 					},
-					["PartialAbsorb"] = {
-					},
+					["FDamage"] = 0,
 					["EnergyGained"] = {
 					},
 					["HealedWho"] = {
 					},
 					["Healing"] = 0,
-					["CCBroken"] = {
+					["RunicPowerGainedFrom"] = {
 					},
-					["RunicPowerGained"] = {
+					["CCBroken"] = {
 					},
 					["Attacks"] = {
 						["Mind Flay"] = {
@@ -299,14 +298,14 @@ RecountPerCharDB = {
 						},
 					},
 					["HealingTaken"] = 0,
-					["ElementHitsDone"] = {
-						["Shadow"] = {
+					["DamagedWho"] = {
+						["Young Black Ravager"] = {
 							["Details"] = {
-								["Hit"] = {
-									["count"] = 5,
+								["Mind Flay"] = {
+									["count"] = 164,
 								},
 							},
-							["amount"] = 5,
+							["amount"] = 164,
 						},
 					},
 					["TimeDamage"] = 7.88,
@@ -321,7 +320,8 @@ RecountPerCharDB = {
 						},
 					},
 					["RunicPowerGain"] = 0,
-					["Damage"] = 164,
+					["ElementTakenBlock"] = {
+					},
 					["DispelledWho"] = {
 					},
 				},
@@ -338,14 +338,13 @@ RecountPerCharDB = {
 					},
 					["DeathCount"] = 0,
 					["HOT_Time"] = 0,
-					["DOT_Time"] = 0,
+					["HOTs"] = {
+					},
 					["ManaGain"] = 0,
 					["ElementTaken"] = {
 					},
-					["HOTs"] = {
-					},
-					["ElementTakenBlock"] = {
-					},
+					["DOT_Time"] = 0,
+					["Damage"] = 0,
 					["ElementDoneAbsorb"] = {
 					},
 					["TimeHeal"] = 0,
@@ -363,36 +362,37 @@ RecountPerCharDB = {
 					},
 					["ManaGainedFrom"] = {
 					},
-					["DamagedWho"] = {
+					["ElementHitsDone"] = {
 					},
-					["OverHeals"] = {
+					["RageGained"] = {
 					},
 					["WhoDamaged"] = {
 					},
 					["EnergyGainedFrom"] = {
 					},
-					["RageGained"] = {
-					},
-					["RunicPowerGainedFrom"] = {
+					["Dispelled"] = 0,
+					["RunicPowerGained"] = {
 					},
 					["ElementDoneBlock"] = {
 					},
 					["TimeHealing"] = {
 					},
-					["Dispelled"] = 0,
+					["OverHeals"] = {
+					},
 					["WhoHealed"] = {
 					},
+					["EnergyGain"] = 0,
+					["CCBreak"] = 0,
+					["PartialAbsorb"] = {
+					},
+					["ActiveTime"] = 0,
 					["PartialResist"] = {
 					},
-					["CCBreak"] = 0,
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
-					["EnergyGain"] = 0,
 					["ManaGained"] = {
 					},
 					["ElementTakenAbsorb"] = {
 					},
-					["ActiveTime"] = 0,
+					["Interrupts"] = 0,
 					["Overhealing"] = 0,
 					["ElementTakenResist"] = {
 					},
@@ -404,27 +404,27 @@ RecountPerCharDB = {
 					},
 					["Heals"] = {
 					},
-					["PartialAbsorb"] = {
-					},
+					["FDamage"] = 0,
 					["EnergyGained"] = {
 					},
 					["HealedWho"] = {
 					},
 					["Healing"] = 0,
-					["CCBroken"] = {
+					["RunicPowerGainedFrom"] = {
 					},
-					["RunicPowerGained"] = {
+					["CCBroken"] = {
 					},
 					["Attacks"] = {
 					},
 					["HealingTaken"] = 0,
-					["ElementHitsDone"] = {
+					["DamagedWho"] = {
 					},
 					["TimeDamage"] = 0,
 					["TimeDamaging"] = {
 					},
 					["RunicPowerGain"] = 0,
-					["Damage"] = 0,
+					["ElementTakenBlock"] = {
+					},
 					["DispelledWho"] = {
 					},
 				},
@@ -441,14 +441,13 @@ RecountPerCharDB = {
 					},
 					["DeathCount"] = 0,
 					["HOT_Time"] = 0,
-					["DOT_Time"] = 0,
+					["HOTs"] = {
+					},
 					["ManaGain"] = 0,
 					["ElementTaken"] = {
 					},
-					["HOTs"] = {
-					},
-					["ElementTakenBlock"] = {
-					},
+					["DOT_Time"] = 0,
+					["Damage"] = 0,
 					["ElementDoneAbsorb"] = {
 					},
 					["TimeHeal"] = 0,
@@ -466,36 +465,37 @@ RecountPerCharDB = {
 					},
 					["ManaGainedFrom"] = {
 					},
-					["DamagedWho"] = {
+					["ElementHitsDone"] = {
 					},
-					["OverHeals"] = {
+					["RageGained"] = {
 					},
 					["WhoDamaged"] = {
 					},
 					["EnergyGainedFrom"] = {
 					},
-					["RageGained"] = {
-					},
-					["RunicPowerGainedFrom"] = {
+					["Dispelled"] = 0,
+					["RunicPowerGained"] = {
 					},
 					["ElementDoneBlock"] = {
 					},
 					["TimeHealing"] = {
 					},
-					["Dispelled"] = 0,
+					["OverHeals"] = {
+					},
 					["WhoHealed"] = {
 					},
+					["EnergyGain"] = 0,
+					["CCBreak"] = 0,
+					["PartialAbsorb"] = {
+					},
+					["ActiveTime"] = 0,
 					["PartialResist"] = {
 					},
-					["CCBreak"] = 0,
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
-					["EnergyGain"] = 0,
 					["ManaGained"] = {
 					},
 					["ElementTakenAbsorb"] = {
 					},
-					["ActiveTime"] = 0,
+					["Interrupts"] = 0,
 					["Overhealing"] = 0,
 					["ElementTakenResist"] = {
 					},
@@ -507,27 +507,27 @@ RecountPerCharDB = {
 					},
 					["Heals"] = {
 					},
-					["PartialAbsorb"] = {
-					},
+					["FDamage"] = 0,
 					["EnergyGained"] = {
 					},
 					["HealedWho"] = {
 					},
 					["Healing"] = 0,
-					["CCBroken"] = {
+					["RunicPowerGainedFrom"] = {
 					},
-					["RunicPowerGained"] = {
+					["CCBroken"] = {
 					},
 					["Attacks"] = {
 					},
 					["HealingTaken"] = 0,
-					["ElementHitsDone"] = {
+					["DamagedWho"] = {
 					},
 					["TimeDamage"] = 0,
 					["TimeDamaging"] = {
 					},
 					["RunicPowerGain"] = 0,
-					["Damage"] = 0,
+					["ElementTakenBlock"] = {
+					},
 					["DispelledWho"] = {
 					},
 				},
@@ -577,20 +577,20 @@ RecountPerCharDB = {
 								["Anaya Dawnrunner"] = {
 									["count"] = 3,
 								},
-								["Blackrock Summoner"] = {
-									["count"] = 6,
+								["Moonstalker Runt"] = {
+									["count"] = 3,
 								},
 								["Blackrock Scout"] = {
 									["count"] = 12,
 								},
-								["Moonstalker Runt"] = {
-									["count"] = 3,
+								["Blackrock Summoner"] = {
+									["count"] = 6,
 								},
 								["Murloc Flesheater"] = {
 									["count"] = 15,
 								},
-								["Shadowhide Warrior"] = {
-									["count"] = 12,
+								["Redridge Basher"] = {
+									["count"] = 3,
 								},
 								["Tharil'zun"] = {
 									["count"] = 33,
@@ -601,8 +601,8 @@ RecountPerCharDB = {
 								["Murloc Scout"] = {
 									["count"] = 9,
 								},
-								["Redridge Basher"] = {
-									["count"] = 3,
+								["Shadowhide Warrior"] = {
+									["count"] = 12,
 								},
 								["Black Dragon Whelp"] = {
 									["count"] = 12,
@@ -1315,25 +1315,6 @@ RecountPerCharDB = {
 							},
 							["amount"] = 116,
 						},
-						["Moonkin"] = {
-							["Details"] = {
-								["Mind Blast"] = {
-									["count"] = 47,
-								},
-								["Smite"] = {
-									["count"] = 101,
-								},
-							},
-							["amount"] = 148,
-						},
-						["Redridge Alpha"] = {
-							["Details"] = {
-								["Mind Flay"] = {
-									["count"] = 115,
-								},
-							},
-							["amount"] = 115,
-						},
 						["Bellygrub"] = {
 							["Details"] = {
 								["Shadow Word: Pain (DoT)"] = {
@@ -1351,19 +1332,38 @@ RecountPerCharDB = {
 							},
 							["amount"] = 463,
 						},
-						["Blackrock Scout"] = {
+						["Redridge Alpha"] = {
 							["Details"] = {
-								["Shadow Word: Pain (DoT)"] = {
-									["count"] = 104,
-								},
 								["Mind Flay"] = {
-									["count"] = 366,
-								},
-								["Mind Blast"] = {
-									["count"] = 340,
+									["count"] = 115,
 								},
 							},
-							["amount"] = 810,
+							["amount"] = 115,
+						},
+						["Moonkin"] = {
+							["Details"] = {
+								["Mind Blast"] = {
+									["count"] = 47,
+								},
+								["Smite"] = {
+									["count"] = 101,
+								},
+							},
+							["amount"] = 148,
+						},
+						["Shadowhide Darkweaver"] = {
+							["Details"] = {
+								["Mind Blast"] = {
+									["count"] = 109,
+								},
+								["Mind Flay"] = {
+									["count"] = 88,
+								},
+								["Devouring Plague (DoT)"] = {
+									["count"] = 38,
+								},
+							},
+							["amount"] = 235,
 						},
 						["Redridge Mystic"] = {
 							["Details"] = {
@@ -1423,19 +1423,19 @@ RecountPerCharDB = {
 							},
 							["amount"] = 416,
 						},
-						["Shadowhide Darkweaver"] = {
+						["Blackrock Scout"] = {
 							["Details"] = {
-								["Mind Blast"] = {
-									["count"] = 109,
+								["Shadow Word: Pain (DoT)"] = {
+									["count"] = 104,
 								},
 								["Mind Flay"] = {
-									["count"] = 88,
+									["count"] = 366,
 								},
-								["Devouring Plague (DoT)"] = {
-									["count"] = 38,
+								["Mind Blast"] = {
+									["count"] = 340,
 								},
 							},
-							["amount"] = 235,
+							["amount"] = 810,
 						},
 						["Blackrock Summoner"] = {
 							["Details"] = {
@@ -1454,44 +1454,16 @@ RecountPerCharDB = {
 							},
 							["amount"] = 2586,
 						},
-						["Stormscale Siren"] = {
-							["Details"] = {
-								["Mind Blast"] = {
-									["count"] = 48,
-								},
-								["Mind Flay"] = {
-									["count"] = 18,
-								},
-								["Smite"] = {
-									["count"] = 100,
-								},
-							},
-							["amount"] = 166,
-						},
-						["Redridge Basher"] = {
+						["Murloc Flesheater"] = {
 							["Details"] = {
 								["Shadow Word: Pain (DoT)"] = {
-									["count"] = 26,
+									["count"] = 129,
 								},
 								["Mind Flay"] = {
-									["count"] = 702,
-								},
-								["Mind Blast"] = {
-									["count"] = 135,
+									["count"] = 69,
 								},
 							},
-							["amount"] = 863,
-						},
-						["Defias Night Runner"] = {
-							["Details"] = {
-								["Mind Blast"] = {
-									["count"] = 158,
-								},
-								["Mind Flay"] = {
-									["count"] = 65,
-								},
-							},
-							["amount"] = 223,
+							["amount"] = 198,
 						},
 						["Shadowhide Warrior"] = {
 							["Details"] = {
@@ -1510,6 +1482,31 @@ RecountPerCharDB = {
 							},
 							["amount"] = 622,
 						},
+						["Defias Night Runner"] = {
+							["Details"] = {
+								["Mind Blast"] = {
+									["count"] = 158,
+								},
+								["Mind Flay"] = {
+									["count"] = 65,
+								},
+							},
+							["amount"] = 223,
+						},
+						["Redridge Basher"] = {
+							["Details"] = {
+								["Shadow Word: Pain (DoT)"] = {
+									["count"] = 26,
+								},
+								["Mind Flay"] = {
+									["count"] = 702,
+								},
+								["Mind Blast"] = {
+									["count"] = 135,
+								},
+							},
+							["amount"] = 863,
+						},
 						["Young Black Ravager"] = {
 							["Details"] = {
 								["Mind Flay"] = {
@@ -1518,16 +1515,19 @@ RecountPerCharDB = {
 							},
 							["amount"] = 164,
 						},
-						["Murloc Flesheater"] = {
+						["Stormscale Siren"] = {
 							["Details"] = {
-								["Shadow Word: Pain (DoT)"] = {
-									["count"] = 129,
+								["Mind Blast"] = {
+									["count"] = 48,
 								},
 								["Mind Flay"] = {
-									["count"] = 69,
+									["count"] = 18,
+								},
+								["Smite"] = {
+									["count"] = 100,
 								},
 							},
-							["amount"] = 198,
+							["amount"] = 166,
 						},
 						["Black Dragon Whelp"] = {
 							["Details"] = {
@@ -1779,13 +1779,16 @@ RecountPerCharDB = {
 							},
 							["amount"] = 58,
 						},
-						["Moonstalker Runt"] = {
+						["Blackrock Summoner"] = {
 							["Details"] = {
-								["Melee"] = {
-									["count"] = 77,
+								["Fireball"] = {
+									["count"] = 83,
+								},
+								["Fire Shield Effect II"] = {
+									["count"] = 59,
 								},
 							},
-							["amount"] = 77,
+							["amount"] = 142,
 						},
 						["Stormscale Siren"] = {
 							["Details"] = {
@@ -1822,16 +1825,13 @@ RecountPerCharDB = {
 							},
 							["amount"] = 73,
 						},
-						["Blackrock Summoner"] = {
+						["Moonstalker Runt"] = {
 							["Details"] = {
-								["Fireball"] = {
-									["count"] = 83,
-								},
-								["Fire Shield Effect II"] = {
-									["count"] = 59,
+								["Melee"] = {
+									["count"] = 77,
 								},
 							},
-							["amount"] = 142,
+							["amount"] = 77,
 						},
 						["Environment"] = {
 							["Details"] = {
@@ -3045,16 +3045,31 @@ RecountPerCharDB = {
 							},
 							["amount"] = 15,
 						},
-						["Cursed Highborne"] = {
+						["Hamhand"] = {
 							["Details"] = {
 								["Mind Blast"] = {
-									["count"] = 1.52,
+									["count"] = 5.97,
 								},
-								["Smite"] = {
-									["count"] = 7,
+								["Devouring Plague"] = {
+									["count"] = 6.54,
+								},
+								["Shadow Word: Pain (DoT)"] = {
+									["count"] = 37.53,
+								},
+								["Devouring Plague (DoT)"] = {
+									["count"] = 29.18,
+								},
+								["Mind Flay"] = {
+									["count"] = 10.85,
+								},
+								["Shadow Word: Pain"] = {
+									["count"] = 0.59,
+								},
+								["Shoot"] = {
+									["count"] = 6.93,
 								},
 							},
-							["amount"] = 8.52,
+							["amount"] = 97.59,
 						},
 						["Hogomboc"] = {
 							["Details"] = {
@@ -3103,11 +3118,11 @@ RecountPerCharDB = {
 								["Mind Blast"] = {
 									["count"] = 39.12000000000001,
 								},
-								["Shadow Word: Pain (DoT)"] = {
-									["count"] = 12.34,
-								},
 								["Devouring Plague (DoT)"] = {
 									["count"] = 24.35,
+								},
+								["Shadow Word: Pain (DoT)"] = {
+									["count"] = 12.34,
 								},
 								["Mind Flay"] = {
 									["count"] = 151.08,
@@ -3246,51 +3261,33 @@ RecountPerCharDB = {
 							},
 							["amount"] = 24.91,
 						},
-						["Hamhand"] = {
+						["Cursed Highborne"] = {
 							["Details"] = {
 								["Mind Blast"] = {
-									["count"] = 5.97,
+									["count"] = 1.52,
 								},
-								["Devouring Plague"] = {
-									["count"] = 6.54,
-								},
-								["Devouring Plague (DoT)"] = {
-									["count"] = 29.18,
-								},
-								["Shadow Word: Pain (DoT)"] = {
-									["count"] = 37.53,
-								},
-								["Mind Flay"] = {
-									["count"] = 10.85,
-								},
-								["Shadow Word: Pain"] = {
-									["count"] = 0.59,
-								},
-								["Shoot"] = {
-									["count"] = 6.93,
+								["Smite"] = {
+									["count"] = 7,
 								},
 							},
-							["amount"] = 97.59,
+							["amount"] = 8.52,
 						},
-						["Murloc Scout"] = {
+						["Bellygrub"] = {
 							["Details"] = {
+								["Shadow Word: Pain (DoT)"] = {
+									["count"] = 5.08,
+								},
+								["Mind Flay"] = {
+									["count"] = 4.92,
+								},
 								["Mind Blast"] = {
 									["count"] = 3.5,
 								},
-								["Melee"] = {
-									["count"] = 0.05,
-								},
 								["Devouring Plague (DoT)"] = {
-									["count"] = 7.34,
-								},
-								["Mind Flay"] = {
-									["count"] = 36.27,
-								},
-								["Shadow Word: Pain (DoT)"] = {
-									["count"] = 4.67,
+									["count"] = 2.56,
 								},
 							},
-							["amount"] = 51.83000000000001,
+							["amount"] = 16.06,
 						},
 						["Tharil'zun"] = {
 							["Details"] = {
@@ -3309,22 +3306,16 @@ RecountPerCharDB = {
 							},
 							["amount"] = 46.51000000000001,
 						},
-						["Bellygrub"] = {
+						["Moonkin"] = {
 							["Details"] = {
-								["Shadow Word: Pain (DoT)"] = {
-									["count"] = 5.08,
-								},
-								["Mind Flay"] = {
-									["count"] = 4.92,
-								},
 								["Mind Blast"] = {
-									["count"] = 3.5,
+									["count"] = 1.56,
 								},
-								["Devouring Plague (DoT)"] = {
-									["count"] = 2.56,
+								["Smite"] = {
+									["count"] = 10.5,
 								},
 							},
-							["amount"] = 16.06,
+							["amount"] = 12.06,
 						},
 						["Redridge Basher"] = {
 							["Details"] = {
@@ -3398,19 +3389,19 @@ RecountPerCharDB = {
 							},
 							["amount"] = 32.60999999999999,
 						},
-						["Blackrock Scout"] = {
+						["Shadowhide Darkweaver"] = {
 							["Details"] = {
-								["Shadow Word: Pain (DoT)"] = {
-									["count"] = 7.48,
+								["Mind Blast"] = {
+									["count"] = 5.22,
 								},
 								["Mind Flay"] = {
-									["count"] = 24.49,
+									["count"] = 8.370000000000001,
 								},
-								["Mind Blast"] = {
-									["count"] = 2.86,
+								["Devouring Plague (DoT)"] = {
+									["count"] = 1.06,
 								},
 							},
-							["amount"] = 34.83,
+							["amount"] = 14.65,
 						},
 						["Blackrock Summoner"] = {
 							["Details"] = {
@@ -3468,19 +3459,19 @@ RecountPerCharDB = {
 							},
 							["amount"] = 6.92,
 						},
-						["Shadowhide Darkweaver"] = {
+						["Blackrock Scout"] = {
 							["Details"] = {
-								["Mind Blast"] = {
-									["count"] = 5.22,
+								["Shadow Word: Pain (DoT)"] = {
+									["count"] = 7.48,
 								},
 								["Mind Flay"] = {
-									["count"] = 8.370000000000001,
+									["count"] = 24.49,
 								},
-								["Devouring Plague (DoT)"] = {
-									["count"] = 1.06,
+								["Mind Blast"] = {
+									["count"] = 2.86,
 								},
 							},
-							["amount"] = 14.65,
+							["amount"] = 34.83,
 						},
 						["Young Black Ravager"] = {
 							["Details"] = {
@@ -3490,16 +3481,25 @@ RecountPerCharDB = {
 							},
 							["amount"] = 7.88,
 						},
-						["Moonkin"] = {
+						["Murloc Scout"] = {
 							["Details"] = {
 								["Mind Blast"] = {
-									["count"] = 1.56,
+									["count"] = 3.5,
 								},
-								["Smite"] = {
-									["count"] = 10.5,
+								["Melee"] = {
+									["count"] = 0.05,
+								},
+								["Devouring Plague (DoT)"] = {
+									["count"] = 7.34,
+								},
+								["Mind Flay"] = {
+									["count"] = 36.27,
+								},
+								["Shadow Word: Pain (DoT)"] = {
+									["count"] = 4.67,
 								},
 							},
-							["amount"] = 12.06,
+							["amount"] = 51.83000000000001,
 						},
 						["Black Dragon Whelp"] = {
 							["Details"] = {
@@ -4045,11 +4045,11 @@ RecountPerCharDB = {
 								["Mind Blast"] = {
 									["count"] = 39.12000000000001,
 								},
-								["Shadow Word: Pain (DoT)"] = {
-									["count"] = 12.34,
-								},
 								["Devouring Plague (DoT)"] = {
 									["count"] = 24.35,
+								},
+								["Shadow Word: Pain (DoT)"] = {
+									["count"] = 12.34,
 								},
 								["Mind Flay"] = {
 									["count"] = 151.08,
@@ -4155,25 +4155,16 @@ RecountPerCharDB = {
 							},
 							["amount"] = 42.02,
 						},
-						["Murloc Scout"] = {
+						["Moonkin"] = {
 							["Details"] = {
 								["Mind Blast"] = {
-									["count"] = 3.5,
+									["count"] = 1.56,
 								},
-								["Melee"] = {
-									["count"] = 0.05,
-								},
-								["Devouring Plague (DoT)"] = {
-									["count"] = 7.34,
-								},
-								["Mind Flay"] = {
-									["count"] = 36.27,
-								},
-								["Shadow Word: Pain (DoT)"] = {
-									["count"] = 4.67,
+								["Smite"] = {
+									["count"] = 10.5,
 								},
 							},
-							["amount"] = 51.83000000000001,
+							["amount"] = 12.06,
 						},
 						["Anaya Dawnrunner"] = {
 							["Details"] = {
@@ -4194,30 +4185,45 @@ RecountPerCharDB = {
 							},
 							["amount"] = 9.640000000000001,
 						},
-						["Cursed Highborne"] = {
+						["Hamhand"] = {
 							["Details"] = {
 								["Mind Blast"] = {
-									["count"] = 1.52,
+									["count"] = 5.97,
 								},
-								["Smite"] = {
-									["count"] = 7,
+								["Devouring Plague"] = {
+									["count"] = 6.54,
 								},
-							},
-							["amount"] = 8.52,
-						},
-						["Blackrock Scout"] = {
-							["Details"] = {
 								["Shadow Word: Pain (DoT)"] = {
-									["count"] = 7.48,
+									["count"] = 37.53,
+								},
+								["Devouring Plague (DoT)"] = {
+									["count"] = 29.18,
 								},
 								["Mind Flay"] = {
-									["count"] = 24.49,
+									["count"] = 10.85,
 								},
-								["Mind Blast"] = {
-									["count"] = 2.86,
+								["Shadow Word: Pain"] = {
+									["count"] = 0.59,
+								},
+								["Shoot"] = {
+									["count"] = 6.93,
 								},
 							},
-							["amount"] = 34.83,
+							["amount"] = 97.59,
+						},
+						["Shadowhide Darkweaver"] = {
+							["Details"] = {
+								["Mind Blast"] = {
+									["count"] = 5.22,
+								},
+								["Mind Flay"] = {
+									["count"] = 8.370000000000001,
+								},
+								["Devouring Plague (DoT)"] = {
+									["count"] = 1.06,
+								},
+							},
+							["amount"] = 14.65,
 						},
 						["Tharil'zun"] = {
 							["Details"] = {
@@ -4236,16 +4242,22 @@ RecountPerCharDB = {
 							},
 							["amount"] = 46.51000000000001,
 						},
-						["Moonkin"] = {
+						["Bellygrub"] = {
 							["Details"] = {
-								["Mind Blast"] = {
-									["count"] = 1.56,
+								["Shadow Word: Pain (DoT)"] = {
+									["count"] = 5.08,
 								},
-								["Smite"] = {
-									["count"] = 10.5,
+								["Mind Flay"] = {
+									["count"] = 4.92,
+								},
+								["Mind Blast"] = {
+									["count"] = 3.5,
+								},
+								["Devouring Plague (DoT)"] = {
+									["count"] = 2.56,
 								},
 							},
-							["amount"] = 12.06,
+							["amount"] = 16.06,
 						},
 						["Redridge Basher"] = {
 							["Details"] = {
@@ -4319,19 +4331,19 @@ RecountPerCharDB = {
 							},
 							["amount"] = 32.60999999999999,
 						},
-						["Shadowhide Darkweaver"] = {
+						["Blackrock Scout"] = {
 							["Details"] = {
-								["Mind Blast"] = {
-									["count"] = 5.22,
+								["Shadow Word: Pain (DoT)"] = {
+									["count"] = 7.48,
 								},
 								["Mind Flay"] = {
-									["count"] = 8.370000000000001,
+									["count"] = 24.49,
 								},
-								["Devouring Plague (DoT)"] = {
-									["count"] = 1.06,
+								["Mind Blast"] = {
+									["count"] = 2.86,
 								},
 							},
-							["amount"] = 14.65,
+							["amount"] = 34.83,
 						},
 						["Blackrock Summoner"] = {
 							["Details"] = {
@@ -4389,22 +4401,25 @@ RecountPerCharDB = {
 							},
 							["amount"] = 6.92,
 						},
-						["Bellygrub"] = {
+						["Murloc Scout"] = {
 							["Details"] = {
-								["Shadow Word: Pain (DoT)"] = {
-									["count"] = 5.08,
-								},
-								["Mind Flay"] = {
-									["count"] = 4.92,
-								},
 								["Mind Blast"] = {
 									["count"] = 3.5,
 								},
+								["Melee"] = {
+									["count"] = 0.05,
+								},
 								["Devouring Plague (DoT)"] = {
-									["count"] = 2.56,
+									["count"] = 7.34,
+								},
+								["Mind Flay"] = {
+									["count"] = 36.27,
+								},
+								["Shadow Word: Pain (DoT)"] = {
+									["count"] = 4.67,
 								},
 							},
-							["amount"] = 16.06,
+							["amount"] = 51.83000000000001,
 						},
 						["Young Black Ravager"] = {
 							["Details"] = {
@@ -4414,31 +4429,16 @@ RecountPerCharDB = {
 							},
 							["amount"] = 7.88,
 						},
-						["Hamhand"] = {
+						["Cursed Highborne"] = {
 							["Details"] = {
 								["Mind Blast"] = {
-									["count"] = 5.97,
+									["count"] = 1.52,
 								},
-								["Devouring Plague"] = {
-									["count"] = 6.54,
-								},
-								["Devouring Plague (DoT)"] = {
-									["count"] = 29.18,
-								},
-								["Shadow Word: Pain (DoT)"] = {
-									["count"] = 37.53,
-								},
-								["Mind Flay"] = {
-									["count"] = 10.85,
-								},
-								["Shadow Word: Pain"] = {
-									["count"] = 0.59,
-								},
-								["Shoot"] = {
-									["count"] = 6.93,
+								["Smite"] = {
+									["count"] = 7,
 								},
 							},
-							["amount"] = 97.59,
+							["amount"] = 8.52,
 						},
 						["Black Dragon Whelp"] = {
 							["Details"] = {
@@ -4547,16 +4547,15 @@ RecountPerCharDB = {
 					},
 					["DeathCount"] = 0,
 					["HOT_Time"] = 0,
-					["DOT_Time"] = 0,
+					["HOTs"] = {
+					},
 					["ManaGain"] = 0,
 					["ElementTaken"] = {
 						["Melee"] = 9,
 						["Physical"] = 68,
 					},
-					["HOTs"] = {
-					},
-					["ElementTakenBlock"] = {
-					},
+					["DOT_Time"] = 0,
+					["Damage"] = 223,
 					["ElementDoneAbsorb"] = {
 					},
 					["TimeHeal"] = 0,
@@ -4575,20 +4574,17 @@ RecountPerCharDB = {
 					},
 					["ManaGainedFrom"] = {
 					},
-					["DamagedWho"] = {
-						["Defias Night Runner"] = {
+					["ElementHitsDone"] = {
+						["Shadow"] = {
 							["Details"] = {
-								["Mind Blast"] = {
-									["count"] = 158,
-								},
-								["Mind Flay"] = {
-									["count"] = 65,
+								["Hit"] = {
+									["count"] = 3,
 								},
 							},
-							["amount"] = 223,
+							["amount"] = 3,
 						},
 					},
-					["OverHeals"] = {
+					["RageGained"] = {
 					},
 					["WhoDamaged"] = {
 						["Defias Night Runner"] = {
@@ -4605,15 +4601,15 @@ RecountPerCharDB = {
 					},
 					["EnergyGainedFrom"] = {
 					},
-					["RageGained"] = {
-					},
-					["RunicPowerGainedFrom"] = {
+					["Dispelled"] = 0,
+					["RunicPowerGained"] = {
 					},
 					["ElementDoneBlock"] = {
 					},
 					["TimeHealing"] = {
 					},
-					["Dispelled"] = 0,
+					["OverHeals"] = {
+					},
 					["WhoHealed"] = {
 						["Pocaitorul"] = {
 							["Details"] = {
@@ -4624,65 +4620,8 @@ RecountPerCharDB = {
 							["amount"] = 14,
 						},
 					},
-					["PartialResist"] = {
-						["Melee"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 6,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 6,
-							["amount"] = 0,
-						},
-						["Backstab"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 2,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 2,
-							["amount"] = 0,
-						},
-					},
-					["CCBreak"] = 0,
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
 					["EnergyGain"] = 0,
-					["ManaGained"] = {
-					},
-					["ElementTakenAbsorb"] = {
-						["Melee"] = 210,
-						["Physical"] = 70,
-					},
-					["ActiveTime"] = 6.92,
-					["Overhealing"] = 0,
-					["ElementTakenResist"] = {
-					},
-					["InterruptData"] = {
-					},
-					["WhoDispelled"] = {
-					},
-					["TimeSpent"] = {
-						["Defias Night Runner"] = {
-							["Details"] = {
-								["Mind Blast"] = {
-									["count"] = 2.24,
-								},
-								["Mind Flay"] = {
-									["count"] = 4.68,
-								},
-							},
-							["amount"] = 6.92,
-						},
-					},
-					["Heals"] = {
-					},
+					["CCBreak"] = 0,
 					["PartialAbsorb"] = {
 						["Melee"] = {
 							["Details"] = {
@@ -4721,14 +4660,71 @@ RecountPerCharDB = {
 							["amount"] = 70,
 						},
 					},
+					["ActiveTime"] = 6.92,
+					["PartialResist"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 6,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 6,
+							["amount"] = 0,
+						},
+						["Backstab"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 0,
+						},
+					},
+					["ManaGained"] = {
+					},
+					["ElementTakenAbsorb"] = {
+						["Melee"] = 210,
+						["Physical"] = 70,
+					},
+					["Interrupts"] = 0,
+					["Overhealing"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["InterruptData"] = {
+					},
+					["WhoDispelled"] = {
+					},
+					["TimeSpent"] = {
+						["Defias Night Runner"] = {
+							["Details"] = {
+								["Mind Blast"] = {
+									["count"] = 2.24,
+								},
+								["Mind Flay"] = {
+									["count"] = 4.68,
+								},
+							},
+							["amount"] = 6.92,
+						},
+					},
+					["Heals"] = {
+					},
+					["FDamage"] = 0,
 					["EnergyGained"] = {
 					},
 					["HealedWho"] = {
 					},
 					["Healing"] = 0,
-					["CCBroken"] = {
+					["RunicPowerGainedFrom"] = {
 					},
-					["RunicPowerGained"] = {
+					["CCBroken"] = {
 					},
 					["Attacks"] = {
 						["Mind Blast"] = {
@@ -4757,14 +4753,17 @@ RecountPerCharDB = {
 						},
 					},
 					["HealingTaken"] = 14,
-					["ElementHitsDone"] = {
-						["Shadow"] = {
+					["DamagedWho"] = {
+						["Defias Night Runner"] = {
 							["Details"] = {
-								["Hit"] = {
-									["count"] = 3,
+								["Mind Blast"] = {
+									["count"] = 158,
+								},
+								["Mind Flay"] = {
+									["count"] = 65,
 								},
 							},
-							["amount"] = 3,
+							["amount"] = 223,
 						},
 					},
 					["TimeDamage"] = 6.92,
@@ -4782,7 +4781,8 @@ RecountPerCharDB = {
 						},
 					},
 					["RunicPowerGain"] = 0,
-					["Damage"] = 223,
+					["ElementTakenBlock"] = {
+					},
 					["DispelledWho"] = {
 					},
 				},
@@ -4894,6 +4894,7 @@ RecountPerCharDB = {
 				"Cadelnita Mind Flay Greater Tarantula Hit -23 (Shadow)", -- [49]
 				"Cadelnita Mind Flay Greater Tarantula Hit -23 (Shadow)", -- [50]
 			},
+			["Name"] = "Cadelnita",
 			["LastEventIncoming"] = {
 				false, -- [1]
 				true, -- [2]
@@ -4946,21 +4947,20 @@ RecountPerCharDB = {
 				false, -- [49]
 				false, -- [50]
 			},
-			["Name"] = "Cadelnita",
 			["TimeLast"] = {
-				["Ressed"] = 1690140230,
+				["Healing"] = 1690140204,
 				["TimeHeal"] = 1690140204,
 				["Dispelled"] = 1690132323,
-				["OVERALL"] = 1690145095,
+				["Ressed"] = 1690140230,
 				["DeathCount"] = 1690140108,
-				["Healing"] = 1690140204,
+				["OVERALL"] = 1690145095,
 				["DamageTaken"] = 1690144985,
-				["Overhealing"] = 1690140204,
+				["HOT_Time"] = 1690132421,
 				["ActiveTime"] = 1690145095,
 				["HealingTaken"] = 1690144993,
-				["HOT_Time"] = 1690132421,
-				["TimeDamage"] = 1690145095,
 				["FDamage"] = 1690135075,
+				["TimeDamage"] = 1690145095,
+				["Overhealing"] = 1690140204,
 				["ManaGain"] = 1690135550,
 				["DOT_Time"] = 1690139533,
 				["Damage"] = 1690145095,
@@ -5051,7 +5051,7 @@ RecountPerCharDB = {
 				18690.737, -- [49]
 				18695.682, -- [50]
 			},
-			["LastAbility"] = 30191.961,
+			["LastAbility"] = 15700.987,
 		},
 		["Infinite Corruptor"] = {
 			["GUID"] = "0xF130007E110001BA",
@@ -5109,14 +5109,13 @@ RecountPerCharDB = {
 					},
 					["DeathCount"] = 0,
 					["HOT_Time"] = 0,
-					["DOT_Time"] = 0,
+					["HOTs"] = {
+					},
 					["ManaGain"] = 0,
 					["ElementTaken"] = {
 					},
-					["HOTs"] = {
-					},
-					["ElementTakenBlock"] = {
-					},
+					["DOT_Time"] = 0,
+					["Damage"] = 0,
 					["ElementDoneAbsorb"] = {
 					},
 					["TimeHeal"] = 0,
@@ -5134,36 +5133,37 @@ RecountPerCharDB = {
 					},
 					["ManaGainedFrom"] = {
 					},
-					["DamagedWho"] = {
+					["ElementHitsDone"] = {
 					},
-					["OverHeals"] = {
+					["RageGained"] = {
 					},
 					["WhoDamaged"] = {
 					},
 					["EnergyGainedFrom"] = {
 					},
-					["RageGained"] = {
-					},
-					["RunicPowerGainedFrom"] = {
+					["Dispelled"] = 0,
+					["RunicPowerGained"] = {
 					},
 					["ElementDoneBlock"] = {
 					},
 					["TimeHealing"] = {
 					},
-					["Dispelled"] = 0,
+					["OverHeals"] = {
+					},
 					["WhoHealed"] = {
 					},
+					["EnergyGain"] = 0,
+					["CCBreak"] = 0,
+					["PartialAbsorb"] = {
+					},
+					["ActiveTime"] = 0,
 					["PartialResist"] = {
 					},
-					["CCBreak"] = 0,
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
-					["EnergyGain"] = 0,
 					["ManaGained"] = {
 					},
 					["ElementTakenAbsorb"] = {
 					},
-					["ActiveTime"] = 0,
+					["Interrupts"] = 0,
 					["Overhealing"] = 0,
 					["ElementTakenResist"] = {
 					},
@@ -5175,27 +5175,27 @@ RecountPerCharDB = {
 					},
 					["Heals"] = {
 					},
-					["PartialAbsorb"] = {
-					},
+					["FDamage"] = 0,
 					["EnergyGained"] = {
 					},
 					["HealedWho"] = {
 					},
 					["Healing"] = 0,
-					["CCBroken"] = {
+					["RunicPowerGainedFrom"] = {
 					},
-					["RunicPowerGained"] = {
+					["CCBroken"] = {
 					},
 					["Attacks"] = {
 					},
 					["HealingTaken"] = 0,
-					["ElementHitsDone"] = {
+					["DamagedWho"] = {
 					},
 					["TimeDamage"] = 0,
 					["TimeDamaging"] = {
 					},
 					["RunicPowerGain"] = 0,
-					["Damage"] = 0,
+					["ElementTakenBlock"] = {
+					},
 					["DispelledWho"] = {
 					},
 				},
@@ -5288,14 +5288,13 @@ RecountPerCharDB = {
 					},
 					["DeathCount"] = 0,
 					["HOT_Time"] = 0,
-					["DOT_Time"] = 0,
+					["HOTs"] = {
+					},
 					["ManaGain"] = 0,
 					["ElementTaken"] = {
 					},
-					["HOTs"] = {
-					},
-					["ElementTakenBlock"] = {
-					},
+					["DOT_Time"] = 0,
+					["Damage"] = 0,
 					["ElementDoneAbsorb"] = {
 					},
 					["TimeHeal"] = 0,
@@ -5313,36 +5312,37 @@ RecountPerCharDB = {
 					},
 					["ManaGainedFrom"] = {
 					},
-					["DamagedWho"] = {
+					["ElementHitsDone"] = {
 					},
-					["OverHeals"] = {
+					["RageGained"] = {
 					},
 					["WhoDamaged"] = {
 					},
 					["EnergyGainedFrom"] = {
 					},
-					["RageGained"] = {
-					},
-					["RunicPowerGainedFrom"] = {
+					["Dispelled"] = 0,
+					["RunicPowerGained"] = {
 					},
 					["ElementDoneBlock"] = {
 					},
 					["TimeHealing"] = {
 					},
-					["Dispelled"] = 0,
+					["OverHeals"] = {
+					},
 					["WhoHealed"] = {
 					},
+					["EnergyGain"] = 0,
+					["CCBreak"] = 0,
+					["PartialAbsorb"] = {
+					},
+					["ActiveTime"] = 0,
 					["PartialResist"] = {
 					},
-					["CCBreak"] = 0,
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
-					["EnergyGain"] = 0,
 					["ManaGained"] = {
 					},
 					["ElementTakenAbsorb"] = {
 					},
-					["ActiveTime"] = 0,
+					["Interrupts"] = 0,
 					["Overhealing"] = 0,
 					["ElementTakenResist"] = {
 					},
@@ -5354,27 +5354,27 @@ RecountPerCharDB = {
 					},
 					["Heals"] = {
 					},
-					["PartialAbsorb"] = {
-					},
+					["FDamage"] = 0,
 					["EnergyGained"] = {
 					},
 					["HealedWho"] = {
 					},
 					["Healing"] = 0,
-					["CCBroken"] = {
+					["RunicPowerGainedFrom"] = {
 					},
-					["RunicPowerGained"] = {
+					["CCBroken"] = {
 					},
 					["Attacks"] = {
 					},
 					["HealingTaken"] = 0,
-					["ElementHitsDone"] = {
+					["DamagedWho"] = {
 					},
 					["TimeDamage"] = 0,
 					["TimeDamaging"] = {
 					},
 					["RunicPowerGain"] = 0,
-					["Damage"] = 0,
+					["ElementTakenBlock"] = {
+					},
 					["DispelledWho"] = {
 					},
 				},
@@ -5470,7 +5470,7 @@ RecountPerCharDB = {
 				22319.195, -- [1]
 				22322.172, -- [2]
 			},
-			["LastAbility"] = 30191.961,
+			["LastAbility"] = 15700.987,
 		},
 		["Pocaitorul"] = {
 			["GUID"] = "0x070000000097BE20",
@@ -5896,15 +5896,6 @@ RecountPerCharDB = {
 					},
 					["DeathCount"] = 1,
 					["HOT_Time"] = 0,
-					["DOT_Time"] = 0,
-					["ManaGain"] = 0,
-					["ElementTaken"] = {
-						["Shadow"] = 0,
-						["Melee"] = 1744,
-						["Fire"] = 0,
-						["Physical"] = 0,
-						["Nature"] = 0,
-					},
 					["HOTs"] = {
 						["Judgement of Light"] = {
 							["Details"] = {
@@ -5921,9 +5912,16 @@ RecountPerCharDB = {
 							["amount"] = 0,
 						},
 					},
-					["ElementTakenBlock"] = {
-						["Melee"] = 0,
+					["ManaGain"] = 0,
+					["ElementTaken"] = {
+						["Shadow"] = 0,
+						["Melee"] = 1744,
+						["Fire"] = 0,
+						["Physical"] = 0,
+						["Nature"] = 0,
 					},
+					["DOT_Time"] = 0,
+					["Damage"] = 0,
 					["ElementDoneAbsorb"] = {
 					},
 					["TimeHeal"] = 0,
@@ -5955,591 +5953,39 @@ RecountPerCharDB = {
 					},
 					["ManaGainedFrom"] = {
 					},
-					["DamagedWho"] = {
-						["Rabid Thistle Bear"] = {
+					["ElementHitsDone"] = {
+						["Melee"] = {
 							["Details"] = {
-								["Consecration (DoT)"] = {
+								["Glancing"] = {
 									["count"] = 0,
 								},
-								["Exorcism"] = {
+								["Hit"] = {
 									["count"] = 0,
 								},
-								["Melee"] = {
+								["Dodge"] = {
 									["count"] = 0,
 								},
-								["Hand of Reckoning"] = {
+								["Crit"] = {
 									["count"] = 0,
 								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
+								["Miss"] = {
 									["count"] = 0,
 								},
 							},
 							["amount"] = 0,
 						},
-						["Defias Knuckleduster"] = {
+						["Holy"] = {
 							["Details"] = {
-								["Hand of Reckoning"] = {
+								["Hit"] = {
 									["count"] = 0,
 								},
-								["Seal of Righteousness"] = {
+								["Tick"] = {
 									["count"] = 0,
 								},
-								["Consecration (DoT)"] = {
+								["Crit"] = {
 									["count"] = 0,
 								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Blackrock Sentry"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Exorcism"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Consecration (DoT)"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Blackrock Renegade"] = {
-							["Details"] = {
-								["Consecration (DoT)"] = {
-									["count"] = 0,
-								},
-								["Exorcism"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Great Goretusk"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Stormscale Wave Rider"] = {
-							["Details"] = {
-								["Exorcism"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Moonstalker"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Blackwood Windtalker"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Consecration (DoT)"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Defias Pathstalker"] = {
-							["Details"] = {
-								["Consecration (DoT)"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Blackwood Pathfinder"] = {
-							["Details"] = {
-								["Consecration (DoT)"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Hamhand"] = {
-							["Details"] = {
-								["Consecration (DoT)"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Blackrock Shadowcaster"] = {
-							["Details"] = {
-								["Consecration (DoT)"] = {
-									["count"] = 0,
-								},
-								["Exorcism"] = {
-									["count"] = 0,
-								},
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Tarantula"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Murloc Scout"] = {
-							["Details"] = {
-								["Consecration (DoT)"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Hamham"] = {
-							["Details"] = {
-								["Consecration (DoT)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Redridge Mystic"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Exorcism"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Redridge Brute"] = {
-							["Details"] = {
-								["Consecration (DoT)"] = {
-									["count"] = 0,
-								},
-								["Exorcism"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Murloc Shorestriker"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Shadowhide Darkweaver"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Greater Tarantula"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Exorcism"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Blackrock Scout"] = {
-							["Details"] = {
-								["Consecration (DoT)"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Moonstalker Runt"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Exorcism"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Murloc Flesheater"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Exorcism"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Redridge Basher"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Tharil'zun"] = {
-							["Details"] = {
-								["Consecration (DoT)"] = {
-									["count"] = 0,
-								},
-								["Exorcism"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Blackrock Summoner"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Exorcism"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Consecration (DoT)"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Foreststrider"] = {
-							["Details"] = {
-								["Consecration (DoT)"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Imp Minion"] = {
-							["Details"] = {
-								["Consecration (DoT)"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Black Dragon Whelp"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Exorcism"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Blackrock Tracker"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Exorcism"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Consecration (DoT)"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Defias Highwayman"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Blackrock Champion"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Exorcism"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Consecration (DoT)"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
+								["Miss"] = {
 									["count"] = 0,
 								},
 							},
@@ -6846,39 +6292,8 @@ RecountPerCharDB = {
 					},
 					["EnergyGainedFrom"] = {
 					},
-					["OverHeals"] = {
-						["Judgement of Light"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Holy Strength"] = {
-							["Details"] = {
-								["Crit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["CCBroken"] = {
+					["Dispelled"] = 0,
+					["RunicPowerGainedFrom"] = {
 					},
 					["ElementDoneBlock"] = {
 						["Melee"] = 0,
@@ -6928,7 +6343,38 @@ RecountPerCharDB = {
 							["amount"] = 0,
 						},
 					},
-					["Dispelled"] = 0,
+					["OverHeals"] = {
+						["Judgement of Light"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Holy Strength"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
 					["WhoHealed"] = {
 						["Pocaitorul"] = {
 							["Details"] = {
@@ -6942,6 +6388,257 @@ RecountPerCharDB = {
 							["amount"] = 0,
 						},
 					},
+					["EnergyGain"] = 0,
+					["CCBreak"] = 0,
+					["PartialAbsorb"] = {
+						["Shield Slam"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Corruption (DoT)"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Fire Shield Effect II"] = {
+							["Details"] = {
+								["Absorbed"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Shadow Word: Pain"] = {
+							["Details"] = {
+								["Absorbed"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Rabies"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Bite"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Garrote (DoT)"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 3,
+									["amount"] = 0,
+								},
+								["Absorbed"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 3,
+							["amount"] = 0,
+						},
+						["Life Steal"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Lightning Bolt"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Curse of Agony (DoT)"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Falling"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Sinister Strike"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Shoot"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Firebolt"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Absorbed"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Gore"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Shadow Word: Pain (DoT)"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Shadow Bolt"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Fireball"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Absorbed"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["ActiveTime"] = 0,
 					["PartialResist"] = {
 						["Shield Slam"] = {
 							["Details"] = {
@@ -7184,10 +6881,6 @@ RecountPerCharDB = {
 							["amount"] = 0,
 						},
 					},
-					["CCBreak"] = 0,
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
-					["EnergyGain"] = 0,
 					["ManaGained"] = {
 					},
 					["ElementTakenAbsorb"] = {
@@ -7195,7 +6888,7 @@ RecountPerCharDB = {
 						["Melee"] = 0,
 						["Fire"] = 0,
 					},
-					["ActiveTime"] = 0,
+					["Interrupts"] = 0,
 					["Overhealing"] = 0,
 					["ElementTakenResist"] = {
 						["Shadow"] = 0,
@@ -7587,18 +7280,15 @@ RecountPerCharDB = {
 							},
 							["amount"] = 0,
 						},
-						["Blackrock Scout"] = {
+						["Shadowhide Darkweaver"] = {
 							["Details"] = {
-								["Consecration (DoT)"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
+								["Hand of Reckoning"] = {
 									["count"] = 0,
 								},
 								["Seal of Righteousness"] = {
 									["count"] = 0,
 								},
-								["Hand of Reckoning"] = {
+								["Melee"] = {
 									["count"] = 0,
 								},
 								["Judgement of Righteousness"] = {
@@ -7635,15 +7325,18 @@ RecountPerCharDB = {
 							},
 							["amount"] = 0,
 						},
-						["Shadowhide Darkweaver"] = {
+						["Blackrock Scout"] = {
 							["Details"] = {
-								["Hand of Reckoning"] = {
+								["Consecration (DoT)"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
 									["count"] = 0,
 								},
 								["Seal of Righteousness"] = {
 									["count"] = 0,
 								},
-								["Melee"] = {
+								["Hand of Reckoning"] = {
 									["count"] = 0,
 								},
 								["Judgement of Righteousness"] = {
@@ -7911,254 +7604,7 @@ RecountPerCharDB = {
 							["amount"] = 0,
 						},
 					},
-					["PartialAbsorb"] = {
-						["Shield Slam"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Corruption (DoT)"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Fire Shield Effect II"] = {
-							["Details"] = {
-								["Absorbed"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Shadow Word: Pain"] = {
-							["Details"] = {
-								["Absorbed"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Rabies"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Bite"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Garrote (DoT)"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 3,
-									["amount"] = 0,
-								},
-								["Absorbed"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 3,
-							["amount"] = 0,
-						},
-						["Life Steal"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Lightning Bolt"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Curse of Agony (DoT)"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Falling"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Sinister Strike"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Shoot"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Firebolt"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Absorbed"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Gore"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Shadow Word: Pain (DoT)"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Shadow Bolt"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Fireball"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Absorbed"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
+					["FDamage"] = 0,
 					["EnergyGained"] = {
 					},
 					["HealedWho"] = {
@@ -8207,9 +7653,9 @@ RecountPerCharDB = {
 						},
 					},
 					["Healing"] = 0,
-					["RunicPowerGained"] = {
+					["CCBroken"] = {
 					},
-					["RunicPowerGainedFrom"] = {
+					["RunicPowerGained"] = {
 					},
 					["Attacks"] = {
 						["Hand of Reckoning"] = {
@@ -8328,39 +7774,591 @@ RecountPerCharDB = {
 						},
 					},
 					["HealingTaken"] = 0,
-					["ElementHitsDone"] = {
-						["Melee"] = {
+					["DamagedWho"] = {
+						["Rabid Thistle Bear"] = {
 							["Details"] = {
-								["Glancing"] = {
+								["Consecration (DoT)"] = {
 									["count"] = 0,
 								},
-								["Hit"] = {
+								["Exorcism"] = {
 									["count"] = 0,
 								},
-								["Dodge"] = {
+								["Melee"] = {
 									["count"] = 0,
 								},
-								["Crit"] = {
+								["Hand of Reckoning"] = {
 									["count"] = 0,
 								},
-								["Miss"] = {
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
 									["count"] = 0,
 								},
 							},
 							["amount"] = 0,
 						},
-						["Holy"] = {
+						["Defias Knuckleduster"] = {
 							["Details"] = {
-								["Hit"] = {
+								["Hand of Reckoning"] = {
 									["count"] = 0,
 								},
-								["Tick"] = {
+								["Seal of Righteousness"] = {
 									["count"] = 0,
 								},
-								["Crit"] = {
+								["Consecration (DoT)"] = {
 									["count"] = 0,
 								},
-								["Miss"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Blackrock Sentry"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Exorcism"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Consecration (DoT)"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Blackrock Renegade"] = {
+							["Details"] = {
+								["Consecration (DoT)"] = {
+									["count"] = 0,
+								},
+								["Exorcism"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Great Goretusk"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Stormscale Wave Rider"] = {
+							["Details"] = {
+								["Exorcism"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Moonstalker"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Blackwood Windtalker"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Consecration (DoT)"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Defias Pathstalker"] = {
+							["Details"] = {
+								["Consecration (DoT)"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Blackwood Pathfinder"] = {
+							["Details"] = {
+								["Consecration (DoT)"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Hamhand"] = {
+							["Details"] = {
+								["Consecration (DoT)"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Blackrock Shadowcaster"] = {
+							["Details"] = {
+								["Consecration (DoT)"] = {
+									["count"] = 0,
+								},
+								["Exorcism"] = {
+									["count"] = 0,
+								},
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Tarantula"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Murloc Scout"] = {
+							["Details"] = {
+								["Consecration (DoT)"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Hamham"] = {
+							["Details"] = {
+								["Consecration (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Redridge Mystic"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Exorcism"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Redridge Brute"] = {
+							["Details"] = {
+								["Consecration (DoT)"] = {
+									["count"] = 0,
+								},
+								["Exorcism"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Murloc Shorestriker"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Blackrock Scout"] = {
+							["Details"] = {
+								["Consecration (DoT)"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Greater Tarantula"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Exorcism"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Shadowhide Darkweaver"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Blackrock Summoner"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Exorcism"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Consecration (DoT)"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Murloc Flesheater"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Exorcism"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Redridge Basher"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Tharil'zun"] = {
+							["Details"] = {
+								["Consecration (DoT)"] = {
+									["count"] = 0,
+								},
+								["Exorcism"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Moonstalker Runt"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Exorcism"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Foreststrider"] = {
+							["Details"] = {
+								["Consecration (DoT)"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Imp Minion"] = {
+							["Details"] = {
+								["Consecration (DoT)"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Black Dragon Whelp"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Exorcism"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Blackrock Tracker"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Exorcism"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Consecration (DoT)"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Defias Highwayman"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Blackrock Champion"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Exorcism"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Consecration (DoT)"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
 									["count"] = 0,
 								},
 							},
@@ -8687,15 +8685,18 @@ RecountPerCharDB = {
 							},
 							["amount"] = 0,
 						},
-						["Shadowhide Darkweaver"] = {
+						["Blackrock Scout"] = {
 							["Details"] = {
-								["Hand of Reckoning"] = {
+								["Consecration (DoT)"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
 									["count"] = 0,
 								},
 								["Seal of Righteousness"] = {
 									["count"] = 0,
 								},
-								["Melee"] = {
+								["Hand of Reckoning"] = {
 									["count"] = 0,
 								},
 								["Judgement of Righteousness"] = {
@@ -8724,18 +8725,15 @@ RecountPerCharDB = {
 							},
 							["amount"] = 0,
 						},
-						["Blackrock Scout"] = {
+						["Shadowhide Darkweaver"] = {
 							["Details"] = {
-								["Consecration (DoT)"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
+								["Hand of Reckoning"] = {
 									["count"] = 0,
 								},
 								["Seal of Righteousness"] = {
 									["count"] = 0,
 								},
-								["Hand of Reckoning"] = {
+								["Melee"] = {
 									["count"] = 0,
 								},
 								["Judgement of Righteousness"] = {
@@ -8744,7 +8742,7 @@ RecountPerCharDB = {
 							},
 							["amount"] = 0,
 						},
-						["Moonstalker Runt"] = {
+						["Blackrock Summoner"] = {
 							["Details"] = {
 								["Hand of Reckoning"] = {
 									["count"] = 0,
@@ -8753,6 +8751,9 @@ RecountPerCharDB = {
 									["count"] = 0,
 								},
 								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Consecration (DoT)"] = {
 									["count"] = 0,
 								},
 								["Melee"] = {
@@ -8821,7 +8822,7 @@ RecountPerCharDB = {
 							},
 							["amount"] = 0,
 						},
-						["Blackrock Summoner"] = {
+						["Moonstalker Runt"] = {
 							["Details"] = {
 								["Hand of Reckoning"] = {
 									["count"] = 0,
@@ -8830,9 +8831,6 @@ RecountPerCharDB = {
 									["count"] = 0,
 								},
 								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Consecration (DoT)"] = {
 									["count"] = 0,
 								},
 								["Melee"] = {
@@ -8966,7 +8964,9 @@ RecountPerCharDB = {
 						},
 					},
 					["RunicPowerGain"] = 0,
-					["Damage"] = 0,
+					["ElementTakenBlock"] = {
+						["Melee"] = 0,
+					},
 					["DispelledWho"] = {
 					},
 				},
@@ -9004,10 +9004,10 @@ RecountPerCharDB = {
 								["Murloc Minor Tidecaller"] = {
 									["count"] = 0,
 								},
-								["Murloc Scout"] = {
+								["Blackrock Tracker"] = {
 									["count"] = 0,
 								},
-								["Blackrock Tracker"] = {
+								["Murloc Scout"] = {
 									["count"] = 0,
 								},
 								["Blackrock Champion"] = {
@@ -9123,17 +9123,6 @@ RecountPerCharDB = {
 					},
 					["DeathCount"] = 0,
 					["HOT_Time"] = 6,
-					["DOT_Time"] = 0,
-					["ManaGain"] = 0,
-					["ElementTaken"] = {
-						["Physical"] = 0,
-						["Melee"] = 49,
-						["Shadow"] = 0,
-						["Frost"] = 0,
-						["Fire"] = 0,
-						["Holy"] = 0,
-						["Nature"] = 0,
-					},
 					["HOTs"] = {
 						["Judgement of Light"] = {
 							["Details"] = {
@@ -9153,9 +9142,18 @@ RecountPerCharDB = {
 							["amount"] = 6,
 						},
 					},
-					["ElementTakenBlock"] = {
-						["Melee"] = 0,
+					["ManaGain"] = 0,
+					["ElementTaken"] = {
+						["Physical"] = 0,
+						["Melee"] = 49,
+						["Shadow"] = 0,
+						["Frost"] = 0,
+						["Fire"] = 0,
+						["Holy"] = 0,
+						["Nature"] = 0,
 					},
+					["DOT_Time"] = 0,
+					["Damage"] = 468,
 					["ElementDoneAbsorb"] = {
 					},
 					["TimeHeal"] = 0,
@@ -9187,631 +9185,40 @@ RecountPerCharDB = {
 					},
 					["ManaGainedFrom"] = {
 					},
-					["DamagedWho"] = {
-						["Blackrock Sentry"] = {
+					["ElementHitsDone"] = {
+						["Melee"] = {
 							["Details"] = {
-								["Consecration (DoT)"] = {
+								["Glancing"] = {
 									["count"] = 0,
 								},
-								["Melee"] = {
+								["Hit"] = {
+									["count"] = 1,
+								},
+								["Dodge"] = {
 									["count"] = 0,
 								},
-								["Hand of Reckoning"] = {
-									["count"] = 0,
+								["Crit"] = {
+									["count"] = 2,
 								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
+								["Parry"] = {
 									["count"] = 0,
 								},
 							},
-							["amount"] = 0,
+							["amount"] = 3,
 						},
-						["Imp Minion"] = {
+						["Holy"] = {
 							["Details"] = {
-								["Consecration (DoT)"] = {
+								["Hit"] = {
+									["count"] = 5,
+								},
+								["Crit"] = {
+									["count"] = 0,
+								},
+								["Tick"] = {
 									["count"] = 0,
 								},
 							},
-							["amount"] = 0,
-						},
-						["Dire Condor"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Exorcism"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Murloc Shorestriker"] = {
-							["Details"] = {
-								["Consecration (DoT)"] = {
-									["count"] = 0,
-								},
-								["Exorcism"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Moonstalker Runt"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Twilight Thug"] = {
-							["Details"] = {
-								["Consecration (DoT)"] = {
-									["count"] = 0,
-								},
-								["Exorcism"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Blackrock Tracker"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Consecration (DoT)"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Tarantula"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Blackrock Champion"] = {
-							["Details"] = {
-								["Consecration (DoT)"] = {
-									["count"] = 0,
-								},
-								["Exorcism"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Murloc Minor Tidecaller"] = {
-							["Details"] = {
-								["Consecration (DoT)"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Redridge Brute"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Thistle Bear"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Moonstalker"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Exorcism"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Blackrock Shadowcaster"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Exorcism"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Consecration (DoT)"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Cursed Highborne"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Bellygrub"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Exorcism"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Moonkin"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Exorcism"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Defias Highwayman"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Redridge Mystic"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Exorcism"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Murloc Scout"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Consecration (DoT)"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Wailing Highborne"] = {
-							["Details"] = {
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Murloc Flesheater"] = {
-							["Details"] = {
-								["Consecration (DoT)"] = {
-									["count"] = 0,
-								},
-								["Exorcism"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Greater Tarantula"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Blackrock Scout"] = {
-							["Details"] = {
-								["Consecration (DoT)"] = {
-									["count"] = 0,
-								},
-								["Exorcism"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Blackrock Summoner"] = {
-							["Details"] = {
-								["Consecration (DoT)"] = {
-									["count"] = 0,
-								},
-								["Exorcism"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Stormscale Siren"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Consecration (DoT)"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Shadowhide Warrior"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Redridge Basher"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Blackwood Windtalker"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Young Black Ravager"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 345,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 64,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 59,
-								},
-							},
-							["amount"] = 468,
-						},
-						["Gray Forest Wolf"] = {
-							["Details"] = {
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Black Dragon Whelp"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Blackrock Outrunner"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Defias Knuckleduster"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Exorcism"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Rabid Thistle Bear"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Exorcism"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
+							["amount"] = 5,
 						},
 					},
 					["RageGained"] = {
@@ -10034,33 +9441,8 @@ RecountPerCharDB = {
 					},
 					["EnergyGainedFrom"] = {
 					},
-					["OverHeals"] = {
-						["Judgement of Light"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 7,
-									["min"] = 0,
-									["count"] = 2,
-									["amount"] = 13,
-								},
-							},
-							["count"] = 2,
-							["amount"] = 13,
-						},
-						["Holy Strength"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["CCBroken"] = {
+					["Dispelled"] = 0,
+					["RunicPowerGainedFrom"] = {
 					},
 					["ElementDoneBlock"] = {
 						["Melee"] = 11,
@@ -10099,7 +9481,32 @@ RecountPerCharDB = {
 							["amount"] = 0,
 						},
 					},
-					["Dispelled"] = 0,
+					["OverHeals"] = {
+						["Judgement of Light"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 7,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 13,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 13,
+						},
+						["Holy Strength"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
 					["WhoHealed"] = {
 						["Pocaitorul"] = {
 							["Details"] = {
@@ -10110,6 +9517,155 @@ RecountPerCharDB = {
 							["amount"] = 31,
 						},
 					},
+					["EnergyGain"] = 0,
+					["CCBreak"] = 0,
+					["PartialAbsorb"] = {
+						["Fireball"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Trample"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 4,
+									["amount"] = 0,
+								},
+								["Absorbed"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 4,
+							["amount"] = 0,
+						},
+						["Shadow Word: Pain"] = {
+							["Details"] = {
+								["Absorbed"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Frostbolt"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Lightning Bolt"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Absorbed"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Shoot"] = {
+							["Details"] = {
+								["Absorbed"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Firebolt"] = {
+							["Details"] = {
+								["Absorbed"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Shadow Word: Pain (DoT)"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Holy Smite"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Rend"] = {
+							["Details"] = {
+								["Absorbed"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["ActiveTime"] = 8.550000000000001,
 					["PartialResist"] = {
 						["Fireball"] = {
 							["Details"] = {
@@ -10250,10 +9806,6 @@ RecountPerCharDB = {
 							["amount"] = 0,
 						},
 					},
-					["CCBreak"] = 0,
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
-					["EnergyGain"] = 0,
 					["ManaGained"] = {
 					},
 					["ElementTakenAbsorb"] = {
@@ -10263,7 +9815,7 @@ RecountPerCharDB = {
 						["Physical"] = 0,
 						["Nature"] = 0,
 					},
-					["ActiveTime"] = 8.550000000000001,
+					["Interrupts"] = 0,
 					["Overhealing"] = 13,
 					["ElementTakenResist"] = {
 						["Nature"] = 0,
@@ -10953,152 +10505,7 @@ RecountPerCharDB = {
 							["amount"] = 31,
 						},
 					},
-					["PartialAbsorb"] = {
-						["Fireball"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Trample"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 4,
-									["amount"] = 0,
-								},
-								["Absorbed"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 4,
-							["amount"] = 0,
-						},
-						["Shadow Word: Pain"] = {
-							["Details"] = {
-								["Absorbed"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Frostbolt"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Lightning Bolt"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Absorbed"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Shoot"] = {
-							["Details"] = {
-								["Absorbed"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Firebolt"] = {
-							["Details"] = {
-								["Absorbed"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Shadow Word: Pain (DoT)"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Holy Smite"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Rend"] = {
-							["Details"] = {
-								["Absorbed"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
+					["FDamage"] = 0,
 					["EnergyGained"] = {
 					},
 					["HealedWho"] = {
@@ -11136,9 +10543,9 @@ RecountPerCharDB = {
 						},
 					},
 					["Healing"] = 31,
-					["RunicPowerGained"] = {
+					["CCBroken"] = {
 					},
-					["RunicPowerGainedFrom"] = {
+					["RunicPowerGained"] = {
 					},
 					["Attacks"] = {
 						["Hand of Reckoning"] = {
@@ -11253,40 +10660,631 @@ RecountPerCharDB = {
 						},
 					},
 					["HealingTaken"] = 31,
-					["ElementHitsDone"] = {
-						["Melee"] = {
+					["DamagedWho"] = {
+						["Blackrock Sentry"] = {
 							["Details"] = {
-								["Glancing"] = {
+								["Consecration (DoT)"] = {
 									["count"] = 0,
 								},
-								["Hit"] = {
-									["count"] = 1,
-								},
-								["Dodge"] = {
+								["Melee"] = {
 									["count"] = 0,
 								},
-								["Crit"] = {
-									["count"] = 2,
+								["Hand of Reckoning"] = {
+									["count"] = 0,
 								},
-								["Parry"] = {
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
 									["count"] = 0,
 								},
 							},
-							["amount"] = 3,
+							["amount"] = 0,
 						},
-						["Holy"] = {
+						["Imp Minion"] = {
 							["Details"] = {
-								["Hit"] = {
-									["count"] = 5,
-								},
-								["Crit"] = {
-									["count"] = 0,
-								},
-								["Tick"] = {
+								["Consecration (DoT)"] = {
 									["count"] = 0,
 								},
 							},
-							["amount"] = 5,
+							["amount"] = 0,
+						},
+						["Dire Condor"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Exorcism"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Murloc Shorestriker"] = {
+							["Details"] = {
+								["Consecration (DoT)"] = {
+									["count"] = 0,
+								},
+								["Exorcism"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Moonstalker Runt"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Twilight Thug"] = {
+							["Details"] = {
+								["Consecration (DoT)"] = {
+									["count"] = 0,
+								},
+								["Exorcism"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Blackrock Tracker"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Consecration (DoT)"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Tarantula"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Blackrock Champion"] = {
+							["Details"] = {
+								["Consecration (DoT)"] = {
+									["count"] = 0,
+								},
+								["Exorcism"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Murloc Minor Tidecaller"] = {
+							["Details"] = {
+								["Consecration (DoT)"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Redridge Brute"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Thistle Bear"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Moonstalker"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Exorcism"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Blackrock Shadowcaster"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Exorcism"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Consecration (DoT)"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Cursed Highborne"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Bellygrub"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Exorcism"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Moonkin"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Exorcism"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Defias Highwayman"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Redridge Mystic"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Exorcism"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Murloc Scout"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Consecration (DoT)"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Wailing Highborne"] = {
+							["Details"] = {
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Murloc Flesheater"] = {
+							["Details"] = {
+								["Consecration (DoT)"] = {
+									["count"] = 0,
+								},
+								["Exorcism"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Greater Tarantula"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Blackrock Scout"] = {
+							["Details"] = {
+								["Consecration (DoT)"] = {
+									["count"] = 0,
+								},
+								["Exorcism"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Blackrock Summoner"] = {
+							["Details"] = {
+								["Consecration (DoT)"] = {
+									["count"] = 0,
+								},
+								["Exorcism"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Stormscale Siren"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Consecration (DoT)"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Shadowhide Warrior"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Redridge Basher"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Blackwood Windtalker"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Young Black Ravager"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 345,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 64,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 59,
+								},
+							},
+							["amount"] = 468,
+						},
+						["Gray Forest Wolf"] = {
+							["Details"] = {
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Black Dragon Whelp"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Blackrock Outrunner"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Defias Knuckleduster"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Exorcism"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Rabid Thistle Bear"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Exorcism"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
 						},
 					},
 					["TimeDamage"] = 8.550000000000001,
@@ -11918,7 +11916,9 @@ RecountPerCharDB = {
 						},
 					},
 					["RunicPowerGain"] = 0,
-					["Damage"] = 468,
+					["ElementTakenBlock"] = {
+						["Melee"] = 0,
+					},
 					["DispelledWho"] = {
 					},
 				},
@@ -12082,15 +12082,6 @@ RecountPerCharDB = {
 					},
 					["DeathCount"] = 0,
 					["HOT_Time"] = 0,
-					["DOT_Time"] = 0,
-					["ManaGain"] = 0,
-					["ElementTaken"] = {
-						["Physical"] = 0,
-						["Melee"] = 0,
-						["Fire"] = 0,
-						["Frost"] = 0,
-						["Nature"] = 0,
-					},
 					["HOTs"] = {
 						["Judgement of Light"] = {
 							["Details"] = {
@@ -12107,9 +12098,16 @@ RecountPerCharDB = {
 							["amount"] = 0,
 						},
 					},
-					["ElementTakenBlock"] = {
+					["ManaGain"] = 0,
+					["ElementTaken"] = {
+						["Physical"] = 0,
 						["Melee"] = 0,
+						["Fire"] = 0,
+						["Frost"] = 0,
+						["Nature"] = 0,
 					},
+					["DOT_Time"] = 0,
+					["Damage"] = 0,
 					["ElementDoneAbsorb"] = {
 					},
 					["TimeHeal"] = 0,
@@ -12149,482 +12147,42 @@ RecountPerCharDB = {
 							["amount"] = 0,
 						},
 					},
-					["DamagedWho"] = {
-						["Murloc Minor Tidecaller"] = {
+					["ElementHitsDone"] = {
+						["Melee"] = {
 							["Details"] = {
-								["Exorcism"] = {
+								["Glancing"] = {
+									["count"] = 0,
+								},
+								["Miss"] = {
+									["count"] = 0,
+								},
+								["Dodge"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 0,
+								},
+								["Crit"] = {
+									["count"] = 0,
+								},
+								["Parry"] = {
 									["count"] = 0,
 								},
 							},
 							["amount"] = 0,
 						},
-						["Blackrock Sentry"] = {
+						["Holy"] = {
 							["Details"] = {
-								["Hand of Reckoning"] = {
+								["Tick"] = {
 									["count"] = 0,
 								},
-								["Exorcism"] = {
+								["Hit"] = {
 									["count"] = 0,
 								},
-								["Seal of Righteousness"] = {
+								["Crit"] = {
 									["count"] = 0,
 								},
-								["Consecration (DoT)"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Blackrock Renegade"] = {
-							["Details"] = {
-								["Consecration (DoT)"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Great Goretusk"] = {
-							["Details"] = {
-								["Exorcism"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Moonstalker"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Imp Minion"] = {
-							["Details"] = {
-								["Consecration (DoT)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Defias Pathstalker"] = {
-							["Details"] = {
-								["Consecration (DoT)"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Hamhand"] = {
-							["Details"] = {
-								["Consecration (DoT)"] = {
-									["count"] = 0,
-								},
-								["Exorcism"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Rabid Thistle Bear"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Exorcism"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Hamham"] = {
-							["Details"] = {
-								["Consecration (DoT)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Redridge Mystic"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Exorcism"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Consecration (DoT)"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Tarantula"] = {
-							["Details"] = {
-								["Consecration (DoT)"] = {
-									["count"] = 0,
-								},
-								["Exorcism"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Murloc Shorestriker"] = {
-							["Details"] = {
-								["Consecration (DoT)"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Blackrock Outrunner"] = {
-							["Details"] = {
-								["Consecration (DoT)"] = {
-									["count"] = 0,
-								},
-								["Exorcism"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Greater Tarantula"] = {
-							["Details"] = {
-								["Consecration (DoT)"] = {
-									["count"] = 0,
-								},
-								["Exorcism"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Blackrock Scout"] = {
-							["Details"] = {
-								["Consecration (DoT)"] = {
-									["count"] = 0,
-								},
-								["Exorcism"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Blackrock Summoner"] = {
-							["Details"] = {
-								["Consecration (DoT)"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Murloc Flesheater"] = {
-							["Details"] = {
-								["Consecration (DoT)"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Shadowhide Warrior"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Exorcism"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Stormscale Wave Rider"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Stormscale Siren"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Redridge Basher"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Exorcism"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Consecration (DoT)"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Redridge Brute"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Defias Knuckleduster"] = {
-							["Details"] = {
-								["Consecration (DoT)"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Blackrock Tracker"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Defias Highwayman"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Consecration (DoT)"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Blackrock Champion"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Exorcism"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Consecration (DoT)"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
+								["Miss"] = {
 									["count"] = 0,
 								},
 							},
@@ -12886,57 +12444,8 @@ RecountPerCharDB = {
 					},
 					["EnergyGainedFrom"] = {
 					},
-					["OverHeals"] = {
-						["Flash of Light"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Holy Light"] = {
-							["Details"] = {
-								["Crit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Judgement of Light"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Holy Strength"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["CCBroken"] = {
+					["Dispelled"] = 0,
+					["RunicPowerGainedFrom"] = {
 					},
 					["ElementDoneBlock"] = {
 						["Melee"] = 0,
@@ -12989,7 +12498,56 @@ RecountPerCharDB = {
 							["amount"] = 0,
 						},
 					},
-					["Dispelled"] = 0,
+					["OverHeals"] = {
+						["Flash of Light"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Holy Light"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Judgement of Light"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Holy Strength"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
 					["WhoHealed"] = {
 						["Pocaitorul"] = {
 							["Details"] = {
@@ -13011,6 +12569,293 @@ RecountPerCharDB = {
 							["amount"] = 0,
 						},
 					},
+					["EnergyGain"] = 0,
+					["CCBreak"] = 0,
+					["PartialAbsorb"] = {
+						["Holy Smite"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Fire Shield Effect II"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Absorbed"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Backstab"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Auto Shot"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Rend"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Shoot"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Rend (DoT)"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Garrote (DoT)"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Aqua Jet"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Bite"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Poison"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Absorbed"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Poison (DoT)"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Lightning Bolt"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Absorbed"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Falling"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Firebolt"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Frostbolt"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Pummel"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Gore"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Fire"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Wing Clip"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Fireball"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["ActiveTime"] = 0,
 					["PartialResist"] = {
 						["Holy Smite"] = {
 							["Details"] = {
@@ -13295,10 +13140,6 @@ RecountPerCharDB = {
 							["amount"] = 0,
 						},
 					},
-					["CCBreak"] = 0,
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
-					["EnergyGain"] = 0,
 					["ManaGained"] = {
 						["Restore Mana"] = {
 							["Details"] = {
@@ -13314,7 +13155,7 @@ RecountPerCharDB = {
 						["Melee"] = 0,
 						["Nature"] = 0,
 					},
-					["ActiveTime"] = 0,
+					["Interrupts"] = 0,
 					["Overhealing"] = 0,
 					["ElementTakenResist"] = {
 						["Frost"] = 0,
@@ -13929,290 +13770,7 @@ RecountPerCharDB = {
 							["amount"] = 0,
 						},
 					},
-					["PartialAbsorb"] = {
-						["Holy Smite"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Fire Shield Effect II"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Absorbed"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Backstab"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Auto Shot"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Rend"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Shoot"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Rend (DoT)"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Garrote (DoT)"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Aqua Jet"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Bite"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Poison"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Absorbed"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Poison (DoT)"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Lightning Bolt"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Absorbed"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Falling"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Firebolt"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Frostbolt"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Pummel"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Gore"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Fire"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Wing Clip"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Fireball"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
+					["FDamage"] = 0,
 					["EnergyGained"] = {
 					},
 					["HealedWho"] = {
@@ -14264,9 +13822,9 @@ RecountPerCharDB = {
 						},
 					},
 					["Healing"] = 0,
-					["RunicPowerGained"] = {
+					["CCBroken"] = {
 					},
-					["RunicPowerGainedFrom"] = {
+					["RunicPowerGained"] = {
 					},
 					["Attacks"] = {
 						["Hand of Reckoning"] = {
@@ -14415,42 +13973,482 @@ RecountPerCharDB = {
 						},
 					},
 					["HealingTaken"] = 0,
-					["ElementHitsDone"] = {
-						["Melee"] = {
+					["DamagedWho"] = {
+						["Murloc Minor Tidecaller"] = {
 							["Details"] = {
-								["Glancing"] = {
-									["count"] = 0,
-								},
-								["Miss"] = {
-									["count"] = 0,
-								},
-								["Dodge"] = {
-									["count"] = 0,
-								},
-								["Hit"] = {
-									["count"] = 0,
-								},
-								["Crit"] = {
-									["count"] = 0,
-								},
-								["Parry"] = {
+								["Exorcism"] = {
 									["count"] = 0,
 								},
 							},
 							["amount"] = 0,
 						},
-						["Holy"] = {
+						["Blackrock Sentry"] = {
 							["Details"] = {
-								["Tick"] = {
+								["Hand of Reckoning"] = {
 									["count"] = 0,
 								},
-								["Hit"] = {
+								["Exorcism"] = {
 									["count"] = 0,
 								},
-								["Crit"] = {
+								["Seal of Righteousness"] = {
 									["count"] = 0,
 								},
-								["Miss"] = {
+								["Consecration (DoT)"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Blackrock Renegade"] = {
+							["Details"] = {
+								["Consecration (DoT)"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Great Goretusk"] = {
+							["Details"] = {
+								["Exorcism"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Moonstalker"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Imp Minion"] = {
+							["Details"] = {
+								["Consecration (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Defias Pathstalker"] = {
+							["Details"] = {
+								["Consecration (DoT)"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Hamhand"] = {
+							["Details"] = {
+								["Consecration (DoT)"] = {
+									["count"] = 0,
+								},
+								["Exorcism"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Rabid Thistle Bear"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Exorcism"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Hamham"] = {
+							["Details"] = {
+								["Consecration (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Redridge Mystic"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Exorcism"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Consecration (DoT)"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Tarantula"] = {
+							["Details"] = {
+								["Consecration (DoT)"] = {
+									["count"] = 0,
+								},
+								["Exorcism"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Murloc Shorestriker"] = {
+							["Details"] = {
+								["Consecration (DoT)"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Blackrock Outrunner"] = {
+							["Details"] = {
+								["Consecration (DoT)"] = {
+									["count"] = 0,
+								},
+								["Exorcism"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Greater Tarantula"] = {
+							["Details"] = {
+								["Consecration (DoT)"] = {
+									["count"] = 0,
+								},
+								["Exorcism"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Blackrock Scout"] = {
+							["Details"] = {
+								["Consecration (DoT)"] = {
+									["count"] = 0,
+								},
+								["Exorcism"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Blackrock Summoner"] = {
+							["Details"] = {
+								["Consecration (DoT)"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Murloc Flesheater"] = {
+							["Details"] = {
+								["Consecration (DoT)"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Shadowhide Warrior"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Exorcism"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Stormscale Wave Rider"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Stormscale Siren"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Redridge Basher"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Exorcism"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Consecration (DoT)"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Redridge Brute"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Defias Knuckleduster"] = {
+							["Details"] = {
+								["Consecration (DoT)"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Blackrock Tracker"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Defias Highwayman"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Consecration (DoT)"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Blackrock Champion"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Exorcism"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Consecration (DoT)"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
 									["count"] = 0,
 								},
 							},
@@ -14962,7 +14960,9 @@ RecountPerCharDB = {
 						},
 					},
 					["RunicPowerGain"] = 0,
-					["Damage"] = 0,
+					["ElementTakenBlock"] = {
+						["Melee"] = 0,
+					},
 					["DispelledWho"] = {
 						["Cadelnita"] = {
 							["Details"] = {
@@ -15168,17 +15168,17 @@ RecountPerCharDB = {
 						},
 						["Melee"] = {
 							["Details"] = {
-								["Miss"] = {
-									["count"] = 115,
+								["Hit"] = {
+									["count"] = 823,
 								},
 								["Absorb"] = {
 									["count"] = 179,
 								},
+								["Miss"] = {
+									["count"] = 115,
+								},
 								["Crushing"] = {
 									["count"] = 6,
-								},
-								["Hit"] = {
-									["count"] = 823,
 								},
 								["Dodge"] = {
 									["count"] = 173,
@@ -17542,7 +17542,7 @@ RecountPerCharDB = {
 							["amount"] = 812,
 						},
 					},
-					["ActiveTime"] = 2955.120000000001,
+					["Interrupts"] = 7,
 					["PartialResist"] = {
 						["Shield Slam"] = {
 							["Details"] = {
@@ -17844,17 +17844,17 @@ RecountPerCharDB = {
 							["count"] = 10,
 							["amount"] = 0,
 						},
-						["Melee"] = {
+						["Aqua Jet"] = {
 							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 1458,
-									["amount"] = 0,
+								["25%Resist"] = {
+									["max"] = 5,
+									["min"] = 5,
+									["count"] = 1,
+									["amount"] = 5,
 								},
 							},
-							["count"] = 1458,
-							["amount"] = 0,
+							["count"] = 1,
+							["amount"] = 5,
 						},
 						["Trample"] = {
 							["Details"] = {
@@ -17868,17 +17868,17 @@ RecountPerCharDB = {
 							["count"] = 1,
 							["amount"] = 0,
 						},
-						["Aqua Jet"] = {
+						["Melee"] = {
 							["Details"] = {
-								["25%Resist"] = {
-									["max"] = 5,
-									["min"] = 5,
-									["count"] = 1,
-									["amount"] = 5,
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1458,
+									["amount"] = 0,
 								},
 							},
-							["count"] = 1,
-							["amount"] = 5,
+							["count"] = 1458,
+							["amount"] = 0,
 						},
 						["Corruption (DoT)"] = {
 							["Details"] = {
@@ -18366,6 +18366,30 @@ RecountPerCharDB = {
 							["count"] = 10,
 							["amount"] = 40,
 						},
+						["Aqua Jet"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+						["Trample"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
 						["Melee"] = {
 							["Details"] = {
 								["No Absorb"] = {
@@ -18383,30 +18407,6 @@ RecountPerCharDB = {
 							},
 							["count"] = 1458,
 							["amount"] = 2488,
-						},
-						["Trample"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 0,
-						},
-						["Aqua Jet"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 0,
 						},
 						["Corruption (DoT)"] = {
 							["Details"] = {
@@ -18589,7 +18589,7 @@ RecountPerCharDB = {
 							["amount"] = 0,
 						},
 					},
-					["Interrupts"] = 7,
+					["ActiveTime"] = 2955.120000000001,
 					["WhoHealed"] = {
 						["Pocaitorul"] = {
 							["Details"] = {
@@ -19779,28 +19779,22 @@ RecountPerCharDB = {
 							},
 							["amount"] = 22.22,
 						},
-						["Blackrock Shadowcaster"] = {
+						["Defias Pathstalker"] = {
 							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 14,
-								},
-								["Exorcism"] = {
-									["count"] = 4.19,
+								["Consecration (DoT)"] = {
+									["count"] = 40.04999999999999,
 								},
 								["Seal of Righteousness"] = {
-									["count"] = 7.450000000000001,
+									["count"] = 11.43,
 								},
 								["Melee"] = {
 									["count"] = 0,
-								},
-								["Consecration (DoT)"] = {
-									["count"] = 7.170000000000001,
 								},
 								["Judgement of Righteousness"] = {
 									["count"] = 0,
 								},
 							},
-							["amount"] = 32.81,
+							["amount"] = 51.47999999999998,
 						},
 						["Cadelnita"] = {
 							["Details"] = {
@@ -19809,6 +19803,32 @@ RecountPerCharDB = {
 								},
 							},
 							["amount"] = 12.38,
+						},
+						["Redridge Basher"] = {
+							["Details"] = {
+								["Consecration (DoT)"] = {
+									["count"] = 34.88,
+								},
+								["Exorcism"] = {
+									["count"] = 4.51,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 49.69,
+								},
+								["Melee"] = {
+									["count"] = 3.93,
+								},
+								["Hand of Reckoning"] = {
+									["count"] = 27.99,
+								},
+								["Judgement of Light"] = {
+									["count"] = 0.61,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 121.61,
 						},
 						["Shadowhide Warrior"] = {
 							["Details"] = {
@@ -19829,14 +19849,6 @@ RecountPerCharDB = {
 								},
 							},
 							["amount"] = 36.13,
-						},
-						["Erathoorn"] = {
-							["Details"] = {
-								["Flash of Light"] = {
-									["count"] = 3.5,
-								},
-							},
-							["amount"] = 3.5,
 						},
 						["Hamhand"] = {
 							["Details"] = {
@@ -20073,31 +20085,13 @@ RecountPerCharDB = {
 							},
 							["amount"] = 42.42000000000001,
 						},
-						["Redridge Basher"] = {
+						["Erathoorn"] = {
 							["Details"] = {
-								["Consecration (DoT)"] = {
-									["count"] = 34.88,
-								},
-								["Exorcism"] = {
-									["count"] = 4.51,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 49.69,
-								},
-								["Melee"] = {
-									["count"] = 3.93,
-								},
-								["Hand of Reckoning"] = {
-									["count"] = 27.99,
-								},
-								["Judgement of Light"] = {
-									["count"] = 0.61,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
+								["Flash of Light"] = {
+									["count"] = 3.5,
 								},
 							},
-							["amount"] = 121.61,
+							["amount"] = 3.5,
 						},
 						["Vile Sprite"] = {
 							["Details"] = {
@@ -20119,22 +20113,28 @@ RecountPerCharDB = {
 							},
 							["amount"] = 21.15,
 						},
-						["Defias Pathstalker"] = {
+						["Blackrock Shadowcaster"] = {
 							["Details"] = {
-								["Consecration (DoT)"] = {
-									["count"] = 40.04999999999999,
+								["Hand of Reckoning"] = {
+									["count"] = 14,
+								},
+								["Exorcism"] = {
+									["count"] = 4.19,
 								},
 								["Seal of Righteousness"] = {
-									["count"] = 11.43,
+									["count"] = 7.450000000000001,
 								},
 								["Melee"] = {
 									["count"] = 0,
+								},
+								["Consecration (DoT)"] = {
+									["count"] = 7.170000000000001,
 								},
 								["Judgement of Righteousness"] = {
 									["count"] = 0,
 								},
 							},
-							["amount"] = 51.47999999999998,
+							["amount"] = 32.81,
 						},
 						["Young Black Ravager"] = {
 							["Details"] = {
@@ -21918,7 +21918,9 @@ RecountPerCharDB = {
 					},
 					["DeathCount"] = 0,
 					["HOT_Time"] = 0,
-					["Damage"] = 0,
+					["ElementTakenBlock"] = {
+						["Melee"] = 0,
+					},
 					["RunicPowerGain"] = 0,
 					["ElementTaken"] = {
 						["Physical"] = 0,
@@ -21926,10 +21928,29 @@ RecountPerCharDB = {
 						["Melee"] = 39,
 						["Nature"] = 0,
 					},
-					["DOT_Time"] = 0,
-					["ElementTakenBlock"] = {
-						["Melee"] = 0,
+					["HOTs"] = {
+						["Judgement of Light"] = {
+							["Details"] = {
+								["Cadelnita"] = {
+									["count"] = 0,
+								},
+								["Robeckya"] = {
+									["count"] = 0,
+								},
+								["Corporal Keeshan"] = {
+									["count"] = 0,
+								},
+								["Pocaitorul"] = {
+									["count"] = 0,
+								},
+								["Kaxenjar"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
 					},
+					["Damage"] = 0,
 					["ElementDoneAbsorb"] = {
 					},
 					["TimeHeal"] = 0,
@@ -21949,55 +21970,6 @@ RecountPerCharDB = {
 							["count"] = 0,
 							["amount"] = 0,
 						},
-					},
-					["ElementHitsDone"] = {
-						["Melee"] = {
-							["Details"] = {
-								["Glancing"] = {
-									["count"] = 0,
-								},
-								["Hit"] = {
-									["count"] = 0,
-								},
-								["Dodge"] = {
-									["count"] = 0,
-								},
-								["Miss"] = {
-									["count"] = 0,
-								},
-								["Crit"] = {
-									["count"] = 0,
-								},
-								["Parry"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Holy"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 0,
-								},
-								["Tick"] = {
-									["count"] = 0,
-								},
-								["Crit"] = {
-									["count"] = 0,
-								},
-								["Miss"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["FAttacks"] = {
-					},
-					["HealingTaken"] = 0,
-					["ElementDone"] = {
-						["Melee"] = 0,
-						["Holy"] = 0,
 					},
 					["DamagedWho"] = {
 						["Redridge Brute"] = {
@@ -22248,9 +22220,58 @@ RecountPerCharDB = {
 							["amount"] = 0,
 						},
 					},
+					["FAttacks"] = {
+					},
+					["HealingTaken"] = 0,
+					["ElementDone"] = {
+						["Melee"] = 0,
+						["Holy"] = 0,
+					},
+					["ElementHitsDone"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Glancing"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 0,
+								},
+								["Dodge"] = {
+									["count"] = 0,
+								},
+								["Miss"] = {
+									["count"] = 0,
+								},
+								["Crit"] = {
+									["count"] = 0,
+								},
+								["Parry"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Holy"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 0,
+								},
+								["Tick"] = {
+									["count"] = 0,
+								},
+								["Crit"] = {
+									["count"] = 0,
+								},
+								["Miss"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
 					["ManaGainedFrom"] = {
 					},
-					["RunicPowerGained"] = {
+					["CCBroken"] = {
 					},
 					["WhoDamaged"] = {
 						["Redridge Brute"] = {
@@ -22410,9 +22431,9 @@ RecountPerCharDB = {
 					},
 					["EnergyGainedFrom"] = {
 					},
-					["CCBroken"] = {
-					},
 					["RunicPowerGainedFrom"] = {
+					},
+					["RunicPowerGained"] = {
 					},
 					["ElementDoneBlock"] = {
 						["Melee"] = 0,
@@ -22446,32 +22467,7 @@ RecountPerCharDB = {
 							["amount"] = 0,
 						},
 					},
-					["OverHeals"] = {
-						["Judgement of Light"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Holy Strength"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
+					["Dispelled"] = 0,
 					["WhoHealed"] = {
 						["Pocaitorul"] = {
 							["Details"] = {
@@ -22520,6 +22516,10 @@ RecountPerCharDB = {
 						["Physical"] = 0,
 						["Melee"] = 0,
 						["Nature"] = 0,
+					},
+					["FDamage"] = 0,
+					["EnergyGain"] = 0,
+					["ManaGained"] = {
 					},
 					["PartialAbsorb"] = {
 						["Fireball"] = {
@@ -22661,144 +22661,7 @@ RecountPerCharDB = {
 							["amount"] = 0,
 						},
 					},
-					["PartialResist"] = {
-						["Fireball"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 2,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 2,
-							["amount"] = 0,
-						},
-						["Backstab"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Rend"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Lightning Bolt"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["25%Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Shadow Bolt"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Rend (DoT)"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Fire"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Poison (DoT)"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["25%Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Strike"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["ManaGained"] = {
-					},
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
+					["ActiveTime"] = 0,
 					["Overhealing"] = 0,
 					["TimeSpent"] = {
 						["Blackrock Sentry"] = {
@@ -23120,12 +22983,170 @@ RecountPerCharDB = {
 							["amount"] = 0,
 						},
 					},
-					["ActiveTime"] = 0,
+					["Interrupts"] = 0,
 					["EnergyGained"] = {
 					},
-					["EnergyGain"] = 0,
+					["PartialResist"] = {
+						["Fireball"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 0,
+						},
+						["Backstab"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Rend"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Lightning Bolt"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["25%Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Shadow Bolt"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Rend (DoT)"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Fire"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Poison (DoT)"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["25%Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Strike"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
 					["Healing"] = 0,
-					["Dispelled"] = 0,
+					["OverHeals"] = {
+						["Judgement of Light"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Holy Strength"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
 					["RageGained"] = {
 					},
 					["Attacks"] = {
@@ -23511,28 +23532,7 @@ RecountPerCharDB = {
 						},
 					},
 					["ManaGain"] = 0,
-					["HOTs"] = {
-						["Judgement of Light"] = {
-							["Details"] = {
-								["Cadelnita"] = {
-									["count"] = 0,
-								},
-								["Robeckya"] = {
-									["count"] = 0,
-								},
-								["Corporal Keeshan"] = {
-									["count"] = 0,
-								},
-								["Pocaitorul"] = {
-									["count"] = 0,
-								},
-								["Kaxenjar"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
+					["DOT_Time"] = 0,
 					["DispelledWho"] = {
 					},
 				},
@@ -23688,15 +23688,6 @@ RecountPerCharDB = {
 					},
 					["DeathCount"] = 1,
 					["HOT_Time"] = 0,
-					["DOT_Time"] = 0,
-					["ManaGain"] = 0,
-					["ElementTaken"] = {
-						["Shadow"] = 0,
-						["Melee"] = 1744,
-						["Fire"] = 0,
-						["Physical"] = 0,
-						["Nature"] = 0,
-					},
 					["HOTs"] = {
 						["Judgement of Light"] = {
 							["Details"] = {
@@ -23713,9 +23704,16 @@ RecountPerCharDB = {
 							["amount"] = 0,
 						},
 					},
-					["ElementTakenBlock"] = {
-						["Melee"] = 0,
+					["ManaGain"] = 0,
+					["ElementTaken"] = {
+						["Shadow"] = 0,
+						["Melee"] = 1744,
+						["Fire"] = 0,
+						["Physical"] = 0,
+						["Nature"] = 0,
 					},
+					["DOT_Time"] = 0,
+					["Damage"] = 0,
 					["ElementDoneAbsorb"] = {
 					},
 					["TimeHeal"] = 0,
@@ -23747,591 +23745,39 @@ RecountPerCharDB = {
 					},
 					["ManaGainedFrom"] = {
 					},
-					["DamagedWho"] = {
-						["Rabid Thistle Bear"] = {
+					["ElementHitsDone"] = {
+						["Melee"] = {
 							["Details"] = {
-								["Consecration (DoT)"] = {
+								["Glancing"] = {
 									["count"] = 0,
 								},
-								["Exorcism"] = {
+								["Hit"] = {
 									["count"] = 0,
 								},
-								["Melee"] = {
+								["Dodge"] = {
 									["count"] = 0,
 								},
-								["Hand of Reckoning"] = {
+								["Crit"] = {
 									["count"] = 0,
 								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
+								["Miss"] = {
 									["count"] = 0,
 								},
 							},
 							["amount"] = 0,
 						},
-						["Defias Knuckleduster"] = {
+						["Holy"] = {
 							["Details"] = {
-								["Hand of Reckoning"] = {
+								["Hit"] = {
 									["count"] = 0,
 								},
-								["Seal of Righteousness"] = {
+								["Tick"] = {
 									["count"] = 0,
 								},
-								["Consecration (DoT)"] = {
+								["Crit"] = {
 									["count"] = 0,
 								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Blackrock Sentry"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Exorcism"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Consecration (DoT)"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Blackrock Renegade"] = {
-							["Details"] = {
-								["Consecration (DoT)"] = {
-									["count"] = 0,
-								},
-								["Exorcism"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Great Goretusk"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Stormscale Wave Rider"] = {
-							["Details"] = {
-								["Exorcism"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Moonstalker"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Blackwood Windtalker"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Consecration (DoT)"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Defias Pathstalker"] = {
-							["Details"] = {
-								["Consecration (DoT)"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Blackwood Pathfinder"] = {
-							["Details"] = {
-								["Consecration (DoT)"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Hamhand"] = {
-							["Details"] = {
-								["Consecration (DoT)"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Blackrock Shadowcaster"] = {
-							["Details"] = {
-								["Consecration (DoT)"] = {
-									["count"] = 0,
-								},
-								["Exorcism"] = {
-									["count"] = 0,
-								},
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Tarantula"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Murloc Scout"] = {
-							["Details"] = {
-								["Consecration (DoT)"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Hamham"] = {
-							["Details"] = {
-								["Consecration (DoT)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Redridge Mystic"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Exorcism"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Redridge Brute"] = {
-							["Details"] = {
-								["Consecration (DoT)"] = {
-									["count"] = 0,
-								},
-								["Exorcism"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Murloc Shorestriker"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Shadowhide Darkweaver"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Greater Tarantula"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Exorcism"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Blackrock Scout"] = {
-							["Details"] = {
-								["Consecration (DoT)"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Moonstalker Runt"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Exorcism"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Murloc Flesheater"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Exorcism"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Redridge Basher"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Tharil'zun"] = {
-							["Details"] = {
-								["Consecration (DoT)"] = {
-									["count"] = 0,
-								},
-								["Exorcism"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Blackrock Summoner"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Exorcism"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Consecration (DoT)"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Foreststrider"] = {
-							["Details"] = {
-								["Consecration (DoT)"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Imp Minion"] = {
-							["Details"] = {
-								["Consecration (DoT)"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Black Dragon Whelp"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Exorcism"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Blackrock Tracker"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Exorcism"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Consecration (DoT)"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Defias Highwayman"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Blackrock Champion"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Exorcism"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Consecration (DoT)"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
+								["Miss"] = {
 									["count"] = 0,
 								},
 							},
@@ -24638,39 +24084,8 @@ RecountPerCharDB = {
 					},
 					["EnergyGainedFrom"] = {
 					},
-					["OverHeals"] = {
-						["Judgement of Light"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Holy Strength"] = {
-							["Details"] = {
-								["Crit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["CCBroken"] = {
+					["Dispelled"] = 0,
+					["RunicPowerGainedFrom"] = {
 					},
 					["ElementDoneBlock"] = {
 						["Melee"] = 0,
@@ -24720,7 +24135,38 @@ RecountPerCharDB = {
 							["amount"] = 0,
 						},
 					},
-					["Dispelled"] = 0,
+					["OverHeals"] = {
+						["Judgement of Light"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Holy Strength"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
 					["WhoHealed"] = {
 						["Pocaitorul"] = {
 							["Details"] = {
@@ -24734,6 +24180,257 @@ RecountPerCharDB = {
 							["amount"] = 0,
 						},
 					},
+					["EnergyGain"] = 0,
+					["CCBreak"] = 0,
+					["PartialAbsorb"] = {
+						["Shield Slam"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Corruption (DoT)"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Fire Shield Effect II"] = {
+							["Details"] = {
+								["Absorbed"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Shadow Word: Pain"] = {
+							["Details"] = {
+								["Absorbed"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Rabies"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Bite"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Garrote (DoT)"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 3,
+									["amount"] = 0,
+								},
+								["Absorbed"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 3,
+							["amount"] = 0,
+						},
+						["Life Steal"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Lightning Bolt"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Curse of Agony (DoT)"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Falling"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Sinister Strike"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Shoot"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Firebolt"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Absorbed"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Gore"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Shadow Word: Pain (DoT)"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Shadow Bolt"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Fireball"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Absorbed"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["ActiveTime"] = 0,
 					["PartialResist"] = {
 						["Shield Slam"] = {
 							["Details"] = {
@@ -24976,10 +24673,6 @@ RecountPerCharDB = {
 							["amount"] = 0,
 						},
 					},
-					["CCBreak"] = 0,
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
-					["EnergyGain"] = 0,
 					["ManaGained"] = {
 					},
 					["ElementTakenAbsorb"] = {
@@ -24987,7 +24680,7 @@ RecountPerCharDB = {
 						["Melee"] = 0,
 						["Fire"] = 0,
 					},
-					["ActiveTime"] = 0,
+					["Interrupts"] = 0,
 					["Overhealing"] = 0,
 					["ElementTakenResist"] = {
 						["Shadow"] = 0,
@@ -25379,18 +25072,15 @@ RecountPerCharDB = {
 							},
 							["amount"] = 0,
 						},
-						["Blackrock Scout"] = {
+						["Shadowhide Darkweaver"] = {
 							["Details"] = {
-								["Consecration (DoT)"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
+								["Hand of Reckoning"] = {
 									["count"] = 0,
 								},
 								["Seal of Righteousness"] = {
 									["count"] = 0,
 								},
-								["Hand of Reckoning"] = {
+								["Melee"] = {
 									["count"] = 0,
 								},
 								["Judgement of Righteousness"] = {
@@ -25427,15 +25117,18 @@ RecountPerCharDB = {
 							},
 							["amount"] = 0,
 						},
-						["Shadowhide Darkweaver"] = {
+						["Blackrock Scout"] = {
 							["Details"] = {
-								["Hand of Reckoning"] = {
+								["Consecration (DoT)"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
 									["count"] = 0,
 								},
 								["Seal of Righteousness"] = {
 									["count"] = 0,
 								},
-								["Melee"] = {
+								["Hand of Reckoning"] = {
 									["count"] = 0,
 								},
 								["Judgement of Righteousness"] = {
@@ -25703,254 +25396,7 @@ RecountPerCharDB = {
 							["amount"] = 0,
 						},
 					},
-					["PartialAbsorb"] = {
-						["Shield Slam"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Corruption (DoT)"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Fire Shield Effect II"] = {
-							["Details"] = {
-								["Absorbed"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Shadow Word: Pain"] = {
-							["Details"] = {
-								["Absorbed"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Rabies"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Bite"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Garrote (DoT)"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 3,
-									["amount"] = 0,
-								},
-								["Absorbed"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 3,
-							["amount"] = 0,
-						},
-						["Life Steal"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Lightning Bolt"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Curse of Agony (DoT)"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Falling"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Sinister Strike"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Shoot"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Firebolt"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Absorbed"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Gore"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Shadow Word: Pain (DoT)"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Shadow Bolt"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Fireball"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Absorbed"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
+					["FDamage"] = 0,
 					["EnergyGained"] = {
 					},
 					["HealedWho"] = {
@@ -25999,9 +25445,9 @@ RecountPerCharDB = {
 						},
 					},
 					["Healing"] = 0,
-					["RunicPowerGained"] = {
+					["CCBroken"] = {
 					},
-					["RunicPowerGainedFrom"] = {
+					["RunicPowerGained"] = {
 					},
 					["Attacks"] = {
 						["Hand of Reckoning"] = {
@@ -26120,39 +25566,591 @@ RecountPerCharDB = {
 						},
 					},
 					["HealingTaken"] = 0,
-					["ElementHitsDone"] = {
-						["Melee"] = {
+					["DamagedWho"] = {
+						["Rabid Thistle Bear"] = {
 							["Details"] = {
-								["Glancing"] = {
+								["Consecration (DoT)"] = {
 									["count"] = 0,
 								},
-								["Hit"] = {
+								["Exorcism"] = {
 									["count"] = 0,
 								},
-								["Dodge"] = {
+								["Melee"] = {
 									["count"] = 0,
 								},
-								["Crit"] = {
+								["Hand of Reckoning"] = {
 									["count"] = 0,
 								},
-								["Miss"] = {
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
 									["count"] = 0,
 								},
 							},
 							["amount"] = 0,
 						},
-						["Holy"] = {
+						["Defias Knuckleduster"] = {
 							["Details"] = {
-								["Hit"] = {
+								["Hand of Reckoning"] = {
 									["count"] = 0,
 								},
-								["Tick"] = {
+								["Seal of Righteousness"] = {
 									["count"] = 0,
 								},
-								["Crit"] = {
+								["Consecration (DoT)"] = {
 									["count"] = 0,
 								},
-								["Miss"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Blackrock Sentry"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Exorcism"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Consecration (DoT)"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Blackrock Renegade"] = {
+							["Details"] = {
+								["Consecration (DoT)"] = {
+									["count"] = 0,
+								},
+								["Exorcism"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Great Goretusk"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Stormscale Wave Rider"] = {
+							["Details"] = {
+								["Exorcism"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Moonstalker"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Blackwood Windtalker"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Consecration (DoT)"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Defias Pathstalker"] = {
+							["Details"] = {
+								["Consecration (DoT)"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Blackwood Pathfinder"] = {
+							["Details"] = {
+								["Consecration (DoT)"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Hamhand"] = {
+							["Details"] = {
+								["Consecration (DoT)"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Blackrock Shadowcaster"] = {
+							["Details"] = {
+								["Consecration (DoT)"] = {
+									["count"] = 0,
+								},
+								["Exorcism"] = {
+									["count"] = 0,
+								},
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Tarantula"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Murloc Scout"] = {
+							["Details"] = {
+								["Consecration (DoT)"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Hamham"] = {
+							["Details"] = {
+								["Consecration (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Redridge Mystic"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Exorcism"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Redridge Brute"] = {
+							["Details"] = {
+								["Consecration (DoT)"] = {
+									["count"] = 0,
+								},
+								["Exorcism"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Murloc Shorestriker"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Blackrock Scout"] = {
+							["Details"] = {
+								["Consecration (DoT)"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Greater Tarantula"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Exorcism"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Shadowhide Darkweaver"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Blackrock Summoner"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Exorcism"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Consecration (DoT)"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Murloc Flesheater"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Exorcism"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Redridge Basher"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Tharil'zun"] = {
+							["Details"] = {
+								["Consecration (DoT)"] = {
+									["count"] = 0,
+								},
+								["Exorcism"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Moonstalker Runt"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Exorcism"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Foreststrider"] = {
+							["Details"] = {
+								["Consecration (DoT)"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Imp Minion"] = {
+							["Details"] = {
+								["Consecration (DoT)"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Black Dragon Whelp"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Exorcism"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Blackrock Tracker"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Exorcism"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Consecration (DoT)"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Defias Highwayman"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Blackrock Champion"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Exorcism"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Consecration (DoT)"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
 									["count"] = 0,
 								},
 							},
@@ -26479,15 +26477,18 @@ RecountPerCharDB = {
 							},
 							["amount"] = 0,
 						},
-						["Shadowhide Darkweaver"] = {
+						["Blackrock Scout"] = {
 							["Details"] = {
-								["Hand of Reckoning"] = {
+								["Consecration (DoT)"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
 									["count"] = 0,
 								},
 								["Seal of Righteousness"] = {
 									["count"] = 0,
 								},
-								["Melee"] = {
+								["Hand of Reckoning"] = {
 									["count"] = 0,
 								},
 								["Judgement of Righteousness"] = {
@@ -26516,18 +26517,15 @@ RecountPerCharDB = {
 							},
 							["amount"] = 0,
 						},
-						["Blackrock Scout"] = {
+						["Shadowhide Darkweaver"] = {
 							["Details"] = {
-								["Consecration (DoT)"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
+								["Hand of Reckoning"] = {
 									["count"] = 0,
 								},
 								["Seal of Righteousness"] = {
 									["count"] = 0,
 								},
-								["Hand of Reckoning"] = {
+								["Melee"] = {
 									["count"] = 0,
 								},
 								["Judgement of Righteousness"] = {
@@ -26536,7 +26534,7 @@ RecountPerCharDB = {
 							},
 							["amount"] = 0,
 						},
-						["Moonstalker Runt"] = {
+						["Blackrock Summoner"] = {
 							["Details"] = {
 								["Hand of Reckoning"] = {
 									["count"] = 0,
@@ -26545,6 +26543,9 @@ RecountPerCharDB = {
 									["count"] = 0,
 								},
 								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Consecration (DoT)"] = {
 									["count"] = 0,
 								},
 								["Melee"] = {
@@ -26613,7 +26614,7 @@ RecountPerCharDB = {
 							},
 							["amount"] = 0,
 						},
-						["Blackrock Summoner"] = {
+						["Moonstalker Runt"] = {
 							["Details"] = {
 								["Hand of Reckoning"] = {
 									["count"] = 0,
@@ -26622,9 +26623,6 @@ RecountPerCharDB = {
 									["count"] = 0,
 								},
 								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Consecration (DoT)"] = {
 									["count"] = 0,
 								},
 								["Melee"] = {
@@ -26758,7 +26756,9 @@ RecountPerCharDB = {
 						},
 					},
 					["RunicPowerGain"] = 0,
-					["Damage"] = 0,
+					["ElementTakenBlock"] = {
+						["Melee"] = 0,
+					},
 					["DispelledWho"] = {
 					},
 				},
@@ -26873,7 +26873,9 @@ RecountPerCharDB = {
 					},
 					["DeathCount"] = 0,
 					["HOT_Time"] = 0,
-					["Damage"] = 0,
+					["ElementTakenBlock"] = {
+						["Melee"] = 0,
+					},
 					["RunicPowerGain"] = 0,
 					["ElementTaken"] = {
 						["Fire"] = 0,
@@ -26881,10 +26883,23 @@ RecountPerCharDB = {
 						["Melee"] = 1,
 						["Nature"] = 0,
 					},
-					["DOT_Time"] = 0,
-					["ElementTakenBlock"] = {
-						["Melee"] = 0,
+					["HOTs"] = {
+						["Judgement of Light"] = {
+							["Details"] = {
+								["Corporal Keeshan"] = {
+									["count"] = 0,
+								},
+								["Cadelnita"] = {
+									["count"] = 0,
+								},
+								["Pocaitorul"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
 					},
+					["Damage"] = 0,
 					["ElementDoneAbsorb"] = {
 					},
 					["TimeHeal"] = 0,
@@ -26905,55 +26920,6 @@ RecountPerCharDB = {
 							["amount"] = 0,
 						},
 					},
-					["ElementHitsDone"] = {
-						["Melee"] = {
-							["Details"] = {
-								["Glancing"] = {
-									["count"] = 0,
-								},
-								["Dodge"] = {
-									["count"] = 0,
-								},
-								["Hit"] = {
-									["count"] = 0,
-								},
-								["Miss"] = {
-									["count"] = 0,
-								},
-								["Crit"] = {
-									["count"] = 0,
-								},
-								["Parry"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Holy"] = {
-							["Details"] = {
-								["Miss"] = {
-									["count"] = 0,
-								},
-								["Hit"] = {
-									["count"] = 0,
-								},
-								["Crit"] = {
-									["count"] = 0,
-								},
-								["Tick"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["FAttacks"] = {
-					},
-					["HealingTaken"] = 0,
-					["ElementDone"] = {
-						["Melee"] = 0,
-						["Holy"] = 0,
-					},
 					["DamagedWho"] = {
 						["Defias Knuckleduster"] = {
 							["Details"] = {
@@ -26963,10 +26929,10 @@ RecountPerCharDB = {
 								["Hand of Reckoning"] = {
 									["count"] = 0,
 								},
-								["Seal of Righteousness"] = {
+								["Melee"] = {
 									["count"] = 0,
 								},
-								["Melee"] = {
+								["Seal of Righteousness"] = {
 									["count"] = 0,
 								},
 							},
@@ -27057,10 +27023,10 @@ RecountPerCharDB = {
 								["Consecration (DoT)"] = {
 									["count"] = 0,
 								},
-								["Melee"] = {
+								["Seal of Righteousness"] = {
 									["count"] = 0,
 								},
-								["Seal of Righteousness"] = {
+								["Melee"] = {
 									["count"] = 0,
 								},
 								["Hand of Reckoning"] = {
@@ -27137,10 +27103,10 @@ RecountPerCharDB = {
 								["Hand of Reckoning"] = {
 									["count"] = 0,
 								},
-								["Seal of Righteousness"] = {
+								["Melee"] = {
 									["count"] = 0,
 								},
-								["Melee"] = {
+								["Seal of Righteousness"] = {
 									["count"] = 0,
 								},
 							},
@@ -27238,6 +27204,55 @@ RecountPerCharDB = {
 							["amount"] = 0,
 						},
 					},
+					["FAttacks"] = {
+					},
+					["HealingTaken"] = 0,
+					["ElementDone"] = {
+						["Melee"] = 0,
+						["Holy"] = 0,
+					},
+					["ElementHitsDone"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Glancing"] = {
+									["count"] = 0,
+								},
+								["Dodge"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 0,
+								},
+								["Miss"] = {
+									["count"] = 0,
+								},
+								["Crit"] = {
+									["count"] = 0,
+								},
+								["Parry"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Holy"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 0,
+								},
+								["Crit"] = {
+									["count"] = 0,
+								},
+								["Tick"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
 					["ManaGainedFrom"] = {
 						["Pocaitorul"] = {
 							["Details"] = {
@@ -27248,7 +27263,7 @@ RecountPerCharDB = {
 							["amount"] = 0,
 						},
 					},
-					["RunicPowerGained"] = {
+					["CCBroken"] = {
 					},
 					["WhoDamaged"] = {
 						["Defias Knuckleduster"] = {
@@ -27383,9 +27398,9 @@ RecountPerCharDB = {
 					},
 					["EnergyGainedFrom"] = {
 					},
-					["CCBroken"] = {
-					},
 					["RunicPowerGainedFrom"] = {
+					},
+					["RunicPowerGained"] = {
 					},
 					["ElementDoneBlock"] = {
 						["Melee"] = 0,
@@ -27408,20 +27423,7 @@ RecountPerCharDB = {
 							["amount"] = 0,
 						},
 					},
-					["OverHeals"] = {
-						["Judgement of Light"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
+					["Dispelled"] = 0,
 					["WhoHealed"] = {
 						["Pocaitorul"] = {
 							["Details"] = {
@@ -27453,6 +27455,18 @@ RecountPerCharDB = {
 					["CCBreak"] = 0,
 					["ElementTakenAbsorb"] = {
 						["Melee"] = 0,
+					},
+					["FDamage"] = 0,
+					["EnergyGain"] = 0,
+					["ManaGained"] = {
+						["Restore Mana"] = {
+							["Details"] = {
+								["Pocaitorul"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
 					},
 					["PartialAbsorb"] = {
 						["Fireball"] = {
@@ -27534,92 +27548,7 @@ RecountPerCharDB = {
 							["amount"] = 0,
 						},
 					},
-					["PartialResist"] = {
-						["Fireball"] = {
-							["Details"] = {
-								["25%Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 0,
-						},
-						["Firebolt"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Backstab"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Lightning Bolt"] = {
-							["Details"] = {
-								["25%Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Falling"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["ManaGained"] = {
-						["Restore Mana"] = {
-							["Details"] = {
-								["Pocaitorul"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
+					["ActiveTime"] = 0,
 					["Overhealing"] = 0,
 					["TimeSpent"] = {
 						["Defias Knuckleduster"] = {
@@ -27630,10 +27559,10 @@ RecountPerCharDB = {
 								["Hand of Reckoning"] = {
 									["count"] = 0,
 								},
-								["Seal of Righteousness"] = {
+								["Melee"] = {
 									["count"] = 0,
 								},
-								["Melee"] = {
+								["Seal of Righteousness"] = {
 									["count"] = 0,
 								},
 							},
@@ -27655,10 +27584,10 @@ RecountPerCharDB = {
 								["Hand of Reckoning"] = {
 									["count"] = 0,
 								},
-								["Seal of Righteousness"] = {
+								["Melee"] = {
 									["count"] = 0,
 								},
-								["Melee"] = {
+								["Seal of Righteousness"] = {
 									["count"] = 0,
 								},
 							},
@@ -27820,10 +27749,10 @@ RecountPerCharDB = {
 								["Consecration (DoT)"] = {
 									["count"] = 0,
 								},
-								["Melee"] = {
+								["Seal of Righteousness"] = {
 									["count"] = 0,
 								},
-								["Seal of Righteousness"] = {
+								["Melee"] = {
 									["count"] = 0,
 								},
 								["Hand of Reckoning"] = {
@@ -27949,12 +27878,98 @@ RecountPerCharDB = {
 							["amount"] = 0,
 						},
 					},
-					["ActiveTime"] = 0,
+					["Interrupts"] = 0,
 					["EnergyGained"] = {
 					},
-					["EnergyGain"] = 0,
+					["PartialResist"] = {
+						["Fireball"] = {
+							["Details"] = {
+								["25%Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+						["Firebolt"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Backstab"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Lightning Bolt"] = {
+							["Details"] = {
+								["25%Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Falling"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
 					["Healing"] = 0,
-					["Dispelled"] = 0,
+					["OverHeals"] = {
+						["Judgement of Light"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
 					["RageGained"] = {
 					},
 					["Attacks"] = {
@@ -28102,10 +28117,10 @@ RecountPerCharDB = {
 								["Hand of Reckoning"] = {
 									["count"] = 0,
 								},
-								["Seal of Righteousness"] = {
+								["Melee"] = {
 									["count"] = 0,
 								},
-								["Melee"] = {
+								["Seal of Righteousness"] = {
 									["count"] = 0,
 								},
 							},
@@ -28196,10 +28211,10 @@ RecountPerCharDB = {
 								["Consecration (DoT)"] = {
 									["count"] = 0,
 								},
-								["Melee"] = {
+								["Seal of Righteousness"] = {
 									["count"] = 0,
 								},
-								["Seal of Righteousness"] = {
+								["Melee"] = {
 									["count"] = 0,
 								},
 								["Hand of Reckoning"] = {
@@ -28279,10 +28294,10 @@ RecountPerCharDB = {
 								["Hand of Reckoning"] = {
 									["count"] = 0,
 								},
-								["Seal of Righteousness"] = {
+								["Melee"] = {
 									["count"] = 0,
 								},
-								["Melee"] = {
+								["Seal of Righteousness"] = {
 									["count"] = 0,
 								},
 							},
@@ -28384,22 +28399,7 @@ RecountPerCharDB = {
 						},
 					},
 					["ManaGain"] = 0,
-					["HOTs"] = {
-						["Judgement of Light"] = {
-							["Details"] = {
-								["Corporal Keeshan"] = {
-									["count"] = 0,
-								},
-								["Cadelnita"] = {
-									["count"] = 0,
-								},
-								["Pocaitorul"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
+					["DOT_Time"] = 0,
 					["DispelledWho"] = {
 					},
 				},
@@ -28476,16 +28476,16 @@ RecountPerCharDB = {
 						},
 						["Melee"] = {
 							["Details"] = {
-								["Hit"] = {
-									["count"] = 3,
+								["Dodge"] = {
+									["count"] = 0,
 								},
 								["Absorb"] = {
 									["count"] = 0,
 								},
-								["Crushing"] = {
-									["count"] = 0,
+								["Hit"] = {
+									["count"] = 3,
 								},
-								["Dodge"] = {
+								["Crushing"] = {
 									["count"] = 0,
 								},
 								["Miss"] = {
@@ -28523,14 +28523,6 @@ RecountPerCharDB = {
 					},
 					["DeathCount"] = 0,
 					["HOT_Time"] = 6,
-					["DOT_Time"] = 0,
-					["ManaGain"] = 0,
-					["ElementTaken"] = {
-						["Physical"] = 0,
-						["Fire"] = 0,
-						["Melee"] = 58,
-						["Nature"] = 0,
-					},
 					["HOTs"] = {
 						["Judgement of Light"] = {
 							["Details"] = {
@@ -28547,9 +28539,15 @@ RecountPerCharDB = {
 							["amount"] = 6,
 						},
 					},
-					["ElementTakenBlock"] = {
-						["Melee"] = 0,
+					["ManaGain"] = 0,
+					["ElementTaken"] = {
+						["Physical"] = 0,
+						["Fire"] = 0,
+						["Melee"] = 58,
+						["Nature"] = 0,
 					},
+					["DOT_Time"] = 0,
+					["Damage"] = 452,
 					["ElementDoneAbsorb"] = {
 					},
 					["TimeHeal"] = 1.62,
@@ -28589,490 +28587,46 @@ RecountPerCharDB = {
 							["amount"] = 0,
 						},
 					},
-					["DamagedWho"] = {
-						["Shadowhide Slayer"] = {
+					["ElementHitsDone"] = {
+						["Melee"] = {
 							["Details"] = {
-								["Hand of Reckoning"] = {
+								["Glancing"] = {
+									["count"] = 1,
+								},
+								["Hit"] = {
 									["count"] = 0,
 								},
-								["Exorcism"] = {
+								["Dodge"] = {
 									["count"] = 0,
 								},
-								["Seal of Righteousness"] = {
+								["Miss"] = {
+									["count"] = 1,
+								},
+								["Crit"] = {
 									["count"] = 0,
 								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
+								["Parry"] = {
 									["count"] = 0,
 								},
 							},
-							["amount"] = 0,
+							["amount"] = 2,
 						},
-						["Blackrock Sentry"] = {
+						["Holy"] = {
 							["Details"] = {
-								["Consecration (DoT)"] = {
+								["Hit"] = {
+									["count"] = 5,
+								},
+								["Tick"] = {
 									["count"] = 0,
 								},
-								["Melee"] = {
+								["Crit"] = {
 									["count"] = 0,
 								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
+								["Miss"] = {
 									["count"] = 0,
 								},
 							},
-							["amount"] = 0,
-						},
-						["Blackrock Renegade"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Exorcism"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Consecration (DoT)"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Blackwood Pathfinder"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Greymist Coastrunner"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Moonstalker"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Exorcism"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Anaya Dawnrunner"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Murloc Scout"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Rabid Thistle Bear"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Redridge Mystic"] = {
-							["Details"] = {
-								["Consecration (DoT)"] = {
-									["count"] = 0,
-								},
-								["Exorcism"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Deer"] = {
-							["Details"] = {
-								["Consecration (DoT)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Wailing Highborne"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Exorcism"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Raging Moonkin"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Exorcism"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Stormscale Wave Rider"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Exorcism"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Dire Condor"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Exorcism"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Blackrock Summoner"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Exorcism"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Consecration (DoT)"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Stormscale Siren"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Consecration (DoT)"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Redridge Basher"] = {
-							["Details"] = {
-								["Consecration (DoT)"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Vile Sprite"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Redridge Brute"] = {
-							["Details"] = {
-								["Consecration (DoT)"] = {
-									["count"] = 0,
-								},
-								["Exorcism"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Redridge Alpha"] = {
-							["Details"] = {
-								["Consecration (DoT)"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Defias Night Runner"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 146,
-								},
-								["Exorcism"] = {
-									["count"] = 149,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 32,
-								},
-								["Melee"] = {
-									["count"] = 66,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 59,
-								},
-							},
-							["amount"] = 452,
-						},
-						["Black Dragon Whelp"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Exorcism"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Blackrock Tracker"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Exorcism"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Consecration (DoT)"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Defias Highwayman"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Exorcism"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Blackrock Champion"] = {
-							["Details"] = {
-								["Consecration (DoT)"] = {
-									["count"] = 0,
-								},
-								["Exorcism"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
+							["amount"] = 5,
 						},
 					},
 					["RageGained"] = {
@@ -29279,33 +28833,8 @@ RecountPerCharDB = {
 					},
 					["EnergyGainedFrom"] = {
 					},
-					["OverHeals"] = {
-						["Judgement of Light"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Holy Strength"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["CCBroken"] = {
+					["Dispelled"] = 0,
+					["RunicPowerGainedFrom"] = {
 					},
 					["ElementDoneBlock"] = {
 						["Melee"] = 0,
@@ -29347,7 +28876,32 @@ RecountPerCharDB = {
 							["amount"] = 0,
 						},
 					},
-					["Dispelled"] = 0,
+					["OverHeals"] = {
+						["Judgement of Light"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Holy Strength"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
 					["WhoHealed"] = {
 						["Cadelnita"] = {
 							["Details"] = {
@@ -29369,8 +28923,133 @@ RecountPerCharDB = {
 							["amount"] = 22,
 						},
 					},
+					["EnergyGain"] = 0,
+					["CCBreak"] = 0,
+					["PartialAbsorb"] = {
+						["Fireball"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Knockdown"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 4,
+									["amount"] = 0,
+								},
+								["Absorbed"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 4,
+							["amount"] = 0,
+						},
+						["Firebolt"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Rend (DoT)"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Rend"] = {
+							["Details"] = {
+								["Absorbed"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Lightning Bolt"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Absorbed"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Poison (DoT)"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["ActiveTime"] = 10.66,
 					["PartialResist"] = {
 						["Fireball"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Knockdown"] = {
 							["Details"] = {
 								["No Resist"] = {
 									["max"] = 0,
@@ -29392,18 +29071,6 @@ RecountPerCharDB = {
 								},
 							},
 							["count"] = 4,
-							["amount"] = 0,
-						},
-						["Knockdown"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
 							["amount"] = 0,
 						},
 						["Firebolt"] = {
@@ -29479,10 +29146,6 @@ RecountPerCharDB = {
 							["amount"] = 0,
 						},
 					},
-					["CCBreak"] = 0,
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
-					["EnergyGain"] = 0,
 					["ManaGained"] = {
 						["Restore Mana"] = {
 							["Details"] = {
@@ -29498,7 +29161,7 @@ RecountPerCharDB = {
 						["Melee"] = 0,
 						["Nature"] = 0,
 					},
-					["ActiveTime"] = 10.66,
+					["Interrupts"] = 0,
 					["Overhealing"] = 0,
 					["ElementTakenResist"] = {
 						["Nature"] = 0,
@@ -29690,13 +29353,13 @@ RecountPerCharDB = {
 								["Hand of Reckoning"] = {
 									["count"] = 0,
 								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
 								["Melee"] = {
 									["count"] = 0,
 								},
 								["Judgement of Light"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
 									["count"] = 0,
 								},
 							},
@@ -29816,12 +29479,18 @@ RecountPerCharDB = {
 							},
 							["amount"] = 0,
 						},
-						["Pocaitorul"] = {
+						["Redridge Basher"] = {
 							["Details"] = {
-								["Judgement of Light"] = {
+								["Consecration (DoT)"] = {
 									["count"] = 0,
 								},
-								["Holy Strength"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
 									["count"] = 0,
 								},
 							},
@@ -29873,32 +29542,12 @@ RecountPerCharDB = {
 							},
 							["amount"] = 0,
 						},
-						["Redridge Basher"] = {
+						["Pocaitorul"] = {
 							["Details"] = {
-								["Consecration (DoT)"] = {
+								["Judgement of Light"] = {
 									["count"] = 0,
 								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Vile Sprite"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
+								["Holy Strength"] = {
 									["count"] = 0,
 								},
 							},
@@ -29923,6 +29572,20 @@ RecountPerCharDB = {
 								},
 							},
 							["amount"] = 9.039999999999999,
+						},
+						["Vile Sprite"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
 						},
 						["Redridge Alpha"] = {
 							["Details"] = {
@@ -30086,116 +29749,7 @@ RecountPerCharDB = {
 							["amount"] = 0,
 						},
 					},
-					["PartialAbsorb"] = {
-						["Fireball"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 4,
-									["amount"] = 0,
-								},
-								["Absorbed"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 4,
-							["amount"] = 0,
-						},
-						["Knockdown"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Firebolt"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Rend (DoT)"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Rend"] = {
-							["Details"] = {
-								["Absorbed"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Lightning Bolt"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Absorbed"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Poison (DoT)"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
+					["FDamage"] = 0,
 					["EnergyGained"] = {
 					},
 					["HealedWho"] = {
@@ -30236,9 +29790,9 @@ RecountPerCharDB = {
 						},
 					},
 					["Healing"] = 36,
-					["RunicPowerGained"] = {
+					["CCBroken"] = {
 					},
-					["RunicPowerGainedFrom"] = {
+					["RunicPowerGained"] = {
 					},
 					["Attacks"] = {
 						["Hand of Reckoning"] = {
@@ -30377,46 +29931,490 @@ RecountPerCharDB = {
 						},
 					},
 					["HealingTaken"] = 22,
-					["ElementHitsDone"] = {
-						["Melee"] = {
+					["DamagedWho"] = {
+						["Shadowhide Slayer"] = {
 							["Details"] = {
-								["Glancing"] = {
-									["count"] = 1,
-								},
-								["Hit"] = {
+								["Hand of Reckoning"] = {
 									["count"] = 0,
 								},
-								["Dodge"] = {
+								["Exorcism"] = {
 									["count"] = 0,
 								},
-								["Miss"] = {
-									["count"] = 1,
-								},
-								["Crit"] = {
+								["Seal of Righteousness"] = {
 									["count"] = 0,
 								},
-								["Parry"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
 									["count"] = 0,
 								},
 							},
-							["amount"] = 2,
+							["amount"] = 0,
 						},
-						["Holy"] = {
+						["Blackrock Sentry"] = {
 							["Details"] = {
-								["Hit"] = {
-									["count"] = 5,
-								},
-								["Tick"] = {
+								["Consecration (DoT)"] = {
 									["count"] = 0,
 								},
-								["Crit"] = {
+								["Melee"] = {
 									["count"] = 0,
 								},
-								["Miss"] = {
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
 									["count"] = 0,
 								},
 							},
-							["amount"] = 5,
+							["amount"] = 0,
+						},
+						["Blackrock Renegade"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Exorcism"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Consecration (DoT)"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Blackwood Pathfinder"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Greymist Coastrunner"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Moonstalker"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Exorcism"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Anaya Dawnrunner"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Murloc Scout"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Rabid Thistle Bear"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Redridge Mystic"] = {
+							["Details"] = {
+								["Consecration (DoT)"] = {
+									["count"] = 0,
+								},
+								["Exorcism"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Deer"] = {
+							["Details"] = {
+								["Consecration (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Wailing Highborne"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Exorcism"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Raging Moonkin"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Exorcism"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Stormscale Wave Rider"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Exorcism"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Dire Condor"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Exorcism"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Blackrock Summoner"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Exorcism"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Consecration (DoT)"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Stormscale Siren"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Consecration (DoT)"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Redridge Basher"] = {
+							["Details"] = {
+								["Consecration (DoT)"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Defias Night Runner"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 146,
+								},
+								["Exorcism"] = {
+									["count"] = 149,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 32,
+								},
+								["Melee"] = {
+									["count"] = 66,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 59,
+								},
+							},
+							["amount"] = 452,
+						},
+						["Redridge Brute"] = {
+							["Details"] = {
+								["Consecration (DoT)"] = {
+									["count"] = 0,
+								},
+								["Exorcism"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Redridge Alpha"] = {
+							["Details"] = {
+								["Consecration (DoT)"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Vile Sprite"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Black Dragon Whelp"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Exorcism"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Blackrock Tracker"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Exorcism"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Consecration (DoT)"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Defias Highwayman"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Exorcism"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Blackrock Champion"] = {
+							["Details"] = {
+								["Consecration (DoT)"] = {
+									["count"] = 0,
+								},
+								["Exorcism"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
 						},
 					},
 					["TimeDamage"] = 9.039999999999999,
@@ -30560,13 +30558,13 @@ RecountPerCharDB = {
 								["Hand of Reckoning"] = {
 									["count"] = 0,
 								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
 								["Melee"] = {
 									["count"] = 0,
 								},
 								["Judgement of Light"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
 									["count"] = 0,
 								},
 							},
@@ -30757,19 +30755,25 @@ RecountPerCharDB = {
 							},
 							["amount"] = 0,
 						},
-						["Vile Sprite"] = {
+						["Defias Night Runner"] = {
 							["Details"] = {
 								["Hand of Reckoning"] = {
-									["count"] = 0,
+									["count"] = 3.5,
+								},
+								["Exorcism"] = {
+									["count"] = 2.28,
 								},
 								["Seal of Righteousness"] = {
-									["count"] = 0,
+									["count"] = 0.88,
 								},
 								["Melee"] = {
+									["count"] = 2.38,
+								},
+								["Judgement of Righteousness"] = {
 									["count"] = 0,
 								},
 							},
-							["amount"] = 0,
+							["amount"] = 9.039999999999999,
 						},
 						["Redridge Brute"] = {
 							["Details"] = {
@@ -30811,25 +30815,19 @@ RecountPerCharDB = {
 							},
 							["amount"] = 0,
 						},
-						["Defias Night Runner"] = {
+						["Vile Sprite"] = {
 							["Details"] = {
 								["Hand of Reckoning"] = {
-									["count"] = 3.5,
-								},
-								["Exorcism"] = {
-									["count"] = 2.28,
+									["count"] = 0,
 								},
 								["Seal of Righteousness"] = {
-									["count"] = 0.88,
+									["count"] = 0,
 								},
 								["Melee"] = {
-									["count"] = 2.38,
-								},
-								["Judgement of Righteousness"] = {
 									["count"] = 0,
 								},
 							},
-							["amount"] = 9.039999999999999,
+							["amount"] = 0,
 						},
 						["Black Dragon Whelp"] = {
 							["Details"] = {
@@ -30919,7 +30917,9 @@ RecountPerCharDB = {
 						},
 					},
 					["RunicPowerGain"] = 0,
-					["Damage"] = 452,
+					["ElementTakenBlock"] = {
+						["Melee"] = 0,
+					},
 					["DispelledWho"] = {
 					},
 				},
@@ -31029,6 +31029,8 @@ RecountPerCharDB = {
 				"Pocaitorul Judgement of Righteousness Young Black Ravager Hit -59 (Holy)", -- [49]
 				"Young Black Ravager Melee Pocaitorul Hit -15 (Physical)", -- [50]
 			},
+			["Name"] = "Pocaitorul",
+			["LastDamageTaken"] = 888,
 			["LastEventIncoming"] = {
 				false, -- [1]
 				true, -- [2]
@@ -31081,8 +31083,6 @@ RecountPerCharDB = {
 				false, -- [49]
 				true, -- [50]
 			},
-			["LastDamageTaken"] = 888,
-			["Name"] = "Pocaitorul",
 			["TimeLast"] = {
 				["Healing"] = 1690145091,
 				["TimeHeal"] = 1690145091,
@@ -31092,11 +31092,11 @@ RecountPerCharDB = {
 				["OVERALL"] = 1690145322,
 				["DamageTaken"] = 1690145322,
 				["HOT_Time"] = 1690145091,
-				["Interrupts"] = 1690139516,
+				["ActiveTime"] = 1690145094,
 				["HealingTaken"] = 1690145091,
 				["Overhealing"] = 1690145091,
-				["ActiveTime"] = 1690145094,
 				["TimeDamage"] = 1690145094,
+				["Interrupts"] = 1690139516,
 				["ManaGain"] = 1690139502,
 				["DOT_Time"] = 1690142172,
 				["Damage"] = 1690145094,
@@ -31153,7 +31153,7 @@ RecountPerCharDB = {
 				22833.074, -- [49]
 				22833.912, -- [50]
 			},
-			["LastAbility"] = 30191.961,
+			["LastAbility"] = 15700.987,
 		},
 	},
 	["FightNum"] = 246,
